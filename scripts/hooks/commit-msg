@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+# commit 格式硬卡(上线档 🟡):
+#   切片提交:  [C_n 状态] 描述 (故事ID)     例 [C1 🟢] 列表页单集卡 (US-1)
+#   非切片提交: [装机|docs|chore|adr|fix] 描述
+# 备份与安装:仓库内 scripts/hooks/ 存同款;安装 = cp scripts/hooks/commit-msg .git/hooks/ && chmod +x
+set -uo pipefail
+
+first_line=$(head -1 "$1")
+
+# printf 而非 echo:防首行以 -e/-n 开头时被 echo 当选项吞掉(GLM 20260717-001 [5])
+if printf '%s\n' "$first_line" | grep -qE '^\[C[0-9]+ [^]]+\] .+ \(.+\)[[:space:]]*$'; then
+  exit 0
+fi
+if printf '%s\n' "$first_line" | grep -qE '^\[(装机|docs|chore|adr|fix)\] .+'; then
+  exit 0
+fi
+
+echo "[commit格式门] 首行须为「[C_n 状态] 描述 (故事ID)」或「[装机|docs|chore|adr|fix] 描述」" >&2
+echo "               实际首行: $first_line" >&2
+exit 1

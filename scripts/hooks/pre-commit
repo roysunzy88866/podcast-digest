@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# 提交测试门(上线档 🟡):测试不绿 → exit 1 阻止提交。
+# 来源:~/.claude/skills/开工/references/hooks/git-pre-commit-test-gate.sh,TEST_CMD 已按本项目填。
+set -uo pipefail
+
+TEST_CMD="${TEST_CMD:-npm test --silent}"
+
+echo "[提交测试门] 运行: $TEST_CMD"
+if eval "$TEST_CMD"; then
+  echo "[提交测试门] 测试通过 ✅"
+  exit 0
+else
+  echo "[提交测试门] 测试未通过 → 已阻止提交。修绿再提交。" >&2
+  echo "             (如确需绕过:git commit --no-verify —— 会留下未验证的提交,不建议)" >&2
+  exit 1
+fi
