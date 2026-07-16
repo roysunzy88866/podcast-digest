@@ -24,8 +24,9 @@ fi
 
 # ── 2. 代码⟹文档闸门 ──
 staged=$(git diff --cached --name-only)
+staged_docs=$(git diff --cached --name-only --diff-filter=ACMR)  # 文档侧只认新增/修改,删 .md 不算"带了文档"(GLM 20260717-004 [1])
 if printf '%s\n' "$staged" | grep -qE '\.(ts|tsx|js|jsx|mjs|cjs|py|sh)$'; then
-  if ! printf '%s\n' "$staged" | grep -qE '\.md$'; then
+  if ! printf '%s\n' "$staged_docs" | grep -qE '\.md$'; then
     if ! printf '%s\n' "$msg" | grep -qi '\[doc-skip:'; then
       echo "[文档闸门] 本次改了代码但没同提交任何 .md。" >&2
       echo "           要么补上文档,要么在提交信息里写 [doc-skip: 原因] 留痕放行。" >&2

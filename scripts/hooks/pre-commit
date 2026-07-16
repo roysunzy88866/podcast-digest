@@ -11,7 +11,7 @@ secret_patterns=(
   'AKIA[0-9A-Z]{16}'                        # AWS
   '-----BEGIN [A-Z ]*PRIVATE KEY'
 )
-staged_added=$(git diff --cached -U0 -- . ':(exclude)package-lock.json' | grep '^+' || true)
+staged_added=$(git diff --cached -U0 -- . ':(exclude)package-lock.json' | grep '^+' | grep -v '^+++ ' || true)  # 剔除 diff 头行,防路径名误拦(GLM 20260717-004 [2])
 for pat in "${secret_patterns[@]}"; do
   hit=$(printf '%s\n' "$staged_added" | grep -inE -e "$pat" | head -3 || true)  # -e:防 pattern 以 - 开头被当选项
   if [ -n "$hit" ]; then
