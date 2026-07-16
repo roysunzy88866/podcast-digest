@@ -1,20 +1,37 @@
 #!/usr/bin/env bash
-# commit 格式硬卡(上线档 🟡):
+# commit 格式硬卡 + 代码⟹文档闸门(上线档 🟡)。
 #   切片提交:  [C_n 状态] 描述 (故事ID)     例 [C1 🟢] 列表页单集卡 (US-1)
 #   非切片提交: [装机|docs|chore|adr|fix] 描述
-# 备份与安装:仓库内 scripts/hooks/ 存同款;安装 = cp scripts/hooks/commit-msg .git/hooks/ && chmod +x
+#   改了代码文件却没同提交 .md → 拦;确实不用改文档时在提交信息里写 [doc-skip: 原因] 留痕放行
+# 正本在 scripts/hooks/;安装 = cp scripts/hooks/commit-msg .git/hooks/ && chmod +x
 set -uo pipefail
 
+msg=$(cat "$1")
 first_line=$(head -1 "$1")
 
-# printf 而非 echo:防首行以 -e/-n 开头时被 echo 当选项吞掉(GLM 20260717-001 [5])
+# ── 1. 格式门(printf 而非 echo:防首行以 -e/-n 开头被吞选项,GLM 20260717-001 [5]) ──
+format_ok=0
 if printf '%s\n' "$first_line" | grep -qE '^\[C[0-9]+ [^]]+\] .+ \(.+\)[[:space:]]*$'; then
-  exit 0
+  format_ok=1
+elif printf '%s\n' "$first_line" | grep -qE '^\[(装机|docs|chore|adr|fix)\] .+'; then
+  format_ok=1
 fi
-if printf '%s\n' "$first_line" | grep -qE '^\[(装机|docs|chore|adr|fix)\] .+'; then
-  exit 0
+if [ "$format_ok" -ne 1 ]; then
+  echo "[commit格式门] 首行须为「[C_n 状态] 描述 (故事ID)」或「[装机|docs|chore|adr|fix] 描述」" >&2
+  echo "               实际首行: $first_line" >&2
+  exit 1
 fi
 
-echo "[commit格式门] 首行须为「[C_n 状态] 描述 (故事ID)」或「[装机|docs|chore|adr|fix] 描述」" >&2
-echo "               实际首行: $first_line" >&2
-exit 1
+# ── 2. 代码⟹文档闸门 ──
+staged=$(git diff --cached --name-only)
+if printf '%s\n' "$staged" | grep -qE '\.(ts|tsx|js|jsx|mjs|cjs|py|sh)$'; then
+  if ! printf '%s\n' "$staged" | grep -qE '\.md$'; then
+    if ! printf '%s\n' "$msg" | grep -qi '\[doc-skip:'; then
+      echo "[文档闸门] 本次改了代码但没同提交任何 .md。" >&2
+      echo "           要么补上文档,要么在提交信息里写 [doc-skip: 原因] 留痕放行。" >&2
+      exit 1
+    fi
+  fi
+fi
+
+exit 0
