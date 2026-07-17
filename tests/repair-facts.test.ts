@@ -117,4 +117,26 @@ describe("judgePatch · 三条不变量(每条都是本项目栽过的坑)", () 
     const truncated = "在 Data AI Summit 期间,两位创始人复盘了近期发布,他们提到".repeat(2); // 没有句末标点
     expect(judgePatch({ paraText: para, patch: truncated, targeted: target, afterFailures: [], beforeFailures: target }).accept).toBe(false);
   });
+
+  it("★ 标题段不该被截断检查误杀(GLM 019[1] 实测:集1 有 10 个标题段)", () => {
+    // 首版把「结尾必须是句号类标点」写死 → 标题段(`## 从Kubernetes的痛点…`)本就不带标点
+    // → 补丁**永远被拒收**、回路修不动。而标题里的 Kubernetes/LLM 正是 D17 会点名的专名。
+    // 集2 的失败恰好落在散文段,所以这个 bug 没咬到我 —— 又一次「样本太窄就以为对了」。
+    const heading = "## 从 Kubernetes 的痛点到无服务器计算";
+    const v = judgePatch({
+      paraText: heading, patch: "## 从 Kubernetes 的痛点到弹性计算",
+      targeted: target, afterFailures: [], beforeFailures: target,
+    });
+    expect(v.accept).toBe(true);
+  });
+
+  it("★ 但原段以完整句收尾时,补丁没收尾 → 仍要拦(判据=跟原段比结构,不是放弃检查)", () => {
+    const prose = "他们讲了智能体的事,而且讲得很细。".repeat(3);
+    const v = judgePatch({
+      paraText: prose, patch: "他们讲了智能体的事,而且讲得很细,还提到".repeat(3),
+      targeted: target, afterFailures: [], beforeFailures: target,
+    });
+    expect(v.accept).toBe(false);
+    expect(v.reason).toMatch(/截断/);
+  });
 });

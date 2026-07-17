@@ -120,8 +120,18 @@ export function judgePatch({ paraText, patch, targeted, afterFailures, beforeFai
   // 不变量②b:长度卡点拦不住**等长垃圾**(GLM 018[3] 实测:`'A'.repeat(n)` 长度达标 → 被收下,
   // 而闸门对「没有专名也没有数字的乱码」无话可说 → 正文被静默换成垃圾还报全过)。
   // 真实触发路径不是模型发癫,是 **glm-ask 输出被 maxTokens 截断** → 半句话、但长度够。
-  if (!/[。!?」』)】]\s*$/.test(patch)) return { accept: false, reason: "补丁结尾不是完整句(疑被截断)→ 拒收" };
-  if (!/[一-龥]/.test(patch)) return { accept: false, reason: "补丁不含中文 → 拒收(疑乱码/截断)" };
+  //
+  // ⚠️ 判据是**跟原段比结构**,不是硬套一张标点白名单(GLM 20260717-019[1],实测真问题):
+  // 首版写死 `/[。!?」』)】]$/`,而集1 有 **10 个标题段**(`## 从Kubernetes的痛点到无服务器计算`)
+  // 本就不以标点结尾 → 标题里的 `Kubernetes`/`LLM` 正是 D17 会点名的专名,
+  // 一旦失败落在标题段,补丁**永远被拒收**、回路修不动。集2 的失败恰好在散文段,所以没咬到我。
+  // ——**又是「样本太窄就以为对了」**。原段以完整句收尾的,补丁也得;原段是标题,就别拿句号要求它。
+  const ENDS_SENTENCE = /[。!?.…!?」』)】]\s*$/;
+  if (ENDS_SENTENCE.test(paraText) && !ENDS_SENTENCE.test(patch))
+    return { accept: false, reason: "原段以完整句收尾、补丁没有(疑被 maxTokens 截断)→ 拒收" };
+  // \p{Script=Han} 覆盖 CJK 扩展区,比 [一-龥] 全(GLM 019[2];概率低但误杀是静默的)
+  if (/\p{Script=Han}/u.test(paraText) && !/\p{Script=Han}/u.test(patch))
+    return { accept: false, reason: "原段有中文、补丁没有 → 拒收(疑乱码/截断)" };
 
   // 不变量②:不许靠删内容过关
   if (patch.length < paraText.length * minKeepRatio)
