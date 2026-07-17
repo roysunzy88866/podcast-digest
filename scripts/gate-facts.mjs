@@ -448,6 +448,56 @@ export function checkInlineTimestamp(t, ctx, { minWords = 2, pointGrace = 5 } = 
 /** 我们自己模板/通用写法带进来的拉丁串,不是从转写稿派生的专名 → 不参与 D17 */
 const TOKEN_ALLOWLIST = new Set(["tldr", "ai", "id", "md", "url", "http", "https"]);
 
+/**
+ * D17/D8 的核心比对逻辑,抽成单一组合 —— **digest_md 与实体 how_described 共用它**
+ * (Scenario 5 ①:实体属性里的专名/数字也要回原文比对)。抽出来是为了「谁改都一处改」,
+ * 不让两处各抄一份 strip/check 顺序、日后漂移。behavior 与原 gateFacts 内联版逐字等价
+ * (由 gate-facts.test.ts 现有 69 测试 + 变异验证背书)。
+ * @param md 完整待检文本(D8 时间戳查全文,含【背景】)
+ * @returns { nounResults, numResults, tsResults, vague, failures }
+ */
+export function checkProse(md, ctx, aliases) {
+  // D17 作用域:去【背景】(声明过的 AI 补充)、去时间戳坐标、去数字成语(都不是对本集的事实断言)
+  const body = stripNumericIdioms(stripTimestamps(stripBackground(md)));
+
+  // ① D17 专名(硬拦)—— 拉丁侧 + 中文侧
+  const nouns = extractLatinTokens(body).filter((t) => !TOKEN_ALLOWLIST.has(t.toLowerCase()));
+  const nounResults = nouns.map((n) => ({ name: n, ...checkProperNoun(n, ctx) }));
+  for (const cn of extractChineseNouns(body, aliases)) {
+    const forms = cnToSourceForms(cn, aliases);
+    if (!forms.length) {
+      nounResults.push({ name: cn, pass: false, matchedForm: null, reason: `中文专名「${cn}」既不在别名表、也无对应英文形式可回原文比对(判不了 = 不过)` });
+      continue;
+    }
+    const hit = forms.find((f) => checkProperNoun(f, ctx).pass);
+    nounResults.push(
+      hit
+        ? { name: cn, pass: true, matchedForm: hit }
+        : { name: cn, pass: false, matchedForm: null, reason: `中文专名「${cn}」(对应 ${forms.join("/")})未在真相源出现(疑编造)` },
+    );
+  }
+
+  // ② D17 确定数字(硬拦)
+  const numResults = extractDigestNumbers(body).map((n) => ({
+    ...n,
+    pass: ctx.numbers.has(n.value),
+    reason: ctx.numbers.has(n.value) ? null : `数字 ${n.raw} 未在真相源出现(疑编造)`,
+  }));
+
+  // ③ D8 内联时间戳(硬拦)—— 作用域是完整正文,含【背景】
+  const tsResults = parseInlineTimestamps(md).map((t) => ({ ...t, ...checkInlineTimestamp(t, ctx) }));
+
+  // ④ 模糊量词(提醒层,不卡提交)
+  const vague = findVagueQuantifiers(body);
+
+  const failures = [
+    ...nounResults.filter((r) => !r.pass).map((r) => ({ kind: "D17-专名", ...r })),
+    ...numResults.filter((r) => !r.pass).map((r) => ({ kind: "D17-数字", ...r })),
+    ...tsResults.filter((r) => !r.pass).map((r) => ({ kind: "D8-时间戳", ...r })),
+  ];
+  return { nounResults, numResults, tsResults, vague, failures };
+}
+
 /** 校验一集的事实层:D17 专名 + D17 数字 + D8 时间戳 */
 export function gateFacts(dir, { aliasesPath } = {}) {
   const transcript = JSON.parse(readFileSync(resolve(dir, "transcript.en.json"), "utf8"));
@@ -474,46 +524,8 @@ export function gateFacts(dir, { aliasesPath } = {}) {
   if (!md.trim())
     return { id: meta.id, nouns: [], numbers: [], timestamps: [], vague: [], pass: false, failures: [{ kind: "结构", reason: "digest_md 为空 —— 判不了 = 不过" }] };
 
-  // D17 作用域:去【背景】(声明过的 AI 补充)、去时间戳坐标、去数字成语(都不是对本集的事实断言)
-  const body = stripNumericIdioms(stripTimestamps(stripBackground(md)));
-
-  // ① D17 专名(硬拦)—— **拉丁侧 + 中文侧**
-  const nouns = extractLatinTokens(body).filter((t) => !TOKEN_ALLOWLIST.has(t.toLowerCase()));
-  const nounResults = nouns.map((n) => ({ name: n, ...checkProperNoun(n, ctx) }));
-
-  // 中文侧:读者读的正是这一侧。首版整个漏掉(「雪花」「甲骨文」免检),对抗审计打穿 → 见 D27 交底边界
-  for (const cn of extractChineseNouns(body, aliases)) {
-    const forms = cnToSourceForms(cn, aliases);
-    if (!forms.length) {
-      nounResults.push({ name: cn, pass: false, matchedForm: null, reason: `中文专名「${cn}」既不在别名表、也无对应英文形式可回原文比对(判不了 = 不过)` });
-      continue;
-    }
-    const hit = forms.find((f) => checkProperNoun(f, ctx).pass);
-    nounResults.push(
-      hit
-        ? { name: cn, pass: true, matchedForm: hit }
-        : { name: cn, pass: false, matchedForm: null, reason: `中文专名「${cn}」(对应 ${forms.join("/")})未在真相源出现(疑编造)` },
-    );
-  }
-
-  // ② D17 确定数字(硬拦)
-  const numResults = extractDigestNumbers(body).map((n) => ({
-    ...n,
-    pass: ctx.numbers.has(n.value),
-    reason: ctx.numbers.has(n.value) ? null : `数字 ${n.raw} 未在真相源出现(疑编造)`,
-  }));
-
-  // ③ D8 内联时间戳(硬拦)—— 作用域是**完整正文**,含【背景】
-  const tsResults = parseInlineTimestamps(md).map((t) => ({ ...t, ...checkInlineTimestamp(t, ctx) }));
-
-  // ④ 模糊量词(提醒层,不卡提交)
-  const vague = findVagueQuantifiers(body);
-
-  const failures = [
-    ...nounResults.filter((r) => !r.pass).map((r) => ({ kind: "D17-专名", ...r })),
-    ...numResults.filter((r) => !r.pass).map((r) => ({ kind: "D17-数字", ...r })),
-    ...tsResults.filter((r) => !r.pass).map((r) => ({ kind: "D8-时间戳", ...r })),
-  ];
+  // 核心比对(与实体 how_described 共用同一份组合,防漂移)
+  const { nounResults, numResults, tsResults, vague, failures } = checkProse(md, ctx, aliases);
 
   return {
     id: meta.id,

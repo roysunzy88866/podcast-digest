@@ -1,0 +1,1692 @@
+{
+  "episode_id": "2026-07-08-latent-space-modal",
+  "podcast": "Latent Space",
+  "date": "2026-07-08",
+  "tags": [
+    "AI 基础设施",
+    "智能体体验",
+    "弹性推理",
+    "超级云",
+    "沙箱"
+  ],
+  "entities": [
+    {
+      "id": "swyx",
+      "type": "person",
+      "role": "host",
+      "name": "swyx",
+      "file": "swyx",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "akshat-bubna",
+      "type": "person",
+      "role": "guest",
+      "name": "Akshat Bubna",
+      "file": "Akshat Bubna",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "vibhu",
+      "type": "person",
+      "role": "cohost",
+      "name": "Vibhu",
+      "file": "Vibhu",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "modal",
+      "type": "company",
+      "role": "company",
+      "name": "Modal",
+      "file": "Modal",
+      "primary": true,
+      "how_described": "本集主要讨论的公司，主持人嘉宾为其工作/投资。被描述为专为 AI 应用从底层构建原语的云平台，覆盖推理、训练、批处理和沙箱，强调其可观测性、跨云容量池和开发者/智能体体验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            4.259,
+            9.101
+          ],
+          "quote": " We're here with Akshat of Modo, CTO of Modo, together with Vibu.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            246.383,
+            251.164
+          ],
+          "quote": "a dsl yeah it's your close source i am locked in to moto",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            406.15,
+            410.892
+          ],
+          "quote": "Modal is a cloud platform that's built for where we've built the primitives",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 122,
+          "t": [
+            478.629,
+            482.342
+          ],
+          "quote": "a moto shirt i was like what are you doing here they're like yeah i just i i am",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            523.713,
+            528.296
+          ],
+          "quote": "i actually i think the way you you use small developer was modal functions for",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 182,
+          "t": [
+            666.971,
+            669.7420000000001
+          ],
+          "quote": "and he's like ah there's this cool company modal they'll like spin up",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1138.245,
+            1143.252
+          ],
+          "quote": "Yeah, so this is I guess going back to your modal is you touch the code,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1150.703,
+            1152.967
+          ],
+          "quote": "and scalability that modal has.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1249.633,
+            1253.799
+          ],
+          "quote": "even outside of modal the benefit to us is we have a team",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1362.822,
+            1364.673
+          ],
+          "quote": "And obviously Real Inspect also is on Modo.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1452.082,
+            1454.422
+          ],
+          "quote": "we see is something appealing about modal,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1467.084,
+            1470.785
+          ],
+          "quote": "We just run across a lot of neoclouds and modal providers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1567.393,
+            1571.139
+          ],
+          "quote": "Like you want your, they're running sandboxes in modal, they want them to be right next to it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 470,
+          "t": [
+            1698.08,
+            1700.704
+          ],
+          "quote": "So if modal containers within",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 529,
+          "t": [
+            1934.092,
+            1938.433
+          ],
+          "quote": "When you run multi-handle training on modal, RDMA,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 541,
+          "t": [
+            1974.103,
+            1978.684
+          ],
+          "quote": "you're extending sort of like the modal philosophy to the trading cluster, like...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2031.863,
+            2037.63
+          ],
+          "quote": "we have a blog post on auto research and modal is uh yeah like uh turns out to be",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 597,
+          "t": [
+            2185.362,
+            2186.5286666666666
+          ],
+          "quote": " Very good for modal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 601,
+          "t": [
+            2194.73,
+            2197.712
+          ],
+          "quote": "How good are LLMs at generating modal code?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 606,
+          "t": [
+            2212.223,
+            2216.723
+          ],
+          "quote": "We're playing around with releasing like a modal bench for like the harder things",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 666,
+          "t": [
+            2438.22,
+            2443.923
+          ],
+          "quote": "of moto like what you know do people expect from you uh now that you're sort",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 716,
+          "t": [
+            2645.167,
+            2651.813
+          ],
+          "quote": "of moto managed agents everyone has one gemini open ai claude uh very useful for you",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 735,
+          "t": [
+            2721.007,
+            2724.0625555555557
+          ],
+          "quote": "to modal sandbox we run the harness in modal sandbox um",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 749,
+          "t": [
+            2754.55,
+            2757.1409999999996
+          ],
+          "quote": "Everything is bullish modal as long as it consumes more infra.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 753,
+          "t": [
+            2769.417,
+            2771.678
+          ],
+          "quote": "I don't know if there's other topics of modal,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 825,
+          "t": [
+            3020.14,
+            3026.124
+          ],
+          "quote": "A better example is like let's say Suno because Suno does not use modal for training",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 826,
+          "t": [
+            3027.365,
+            3030.6369999999997
+          ],
+          "quote": "but they use modal for all their inference and that's because they have",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 850,
+          "t": [
+            3130.937,
+            3135.24
+          ],
+          "quote": "I actually am we're very bullish and modal on the CI market as well",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 914,
+          "t": [
+            3348.504,
+            3352.6706666666664
+          ],
+          "quote": "then my close is i think modal used to be a big bet on developer experience",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 933,
+          "t": [
+            3417.274,
+            3421.774
+          ],
+          "quote": "as I said, we built this benchmark, modal bench, to see where agents are lacking.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": true,
+      "how_described": "本集把它说成：很难管理的容器管理系统，设计初衷是为缓慢扩展的 Web 服务器，不适合需要频繁上下波动的计算密集型任务，导致工作流编排产品极难用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            55.802,
+            57.254000000000005
+          ],
+          "quote": "It's because you have to run them on Kubernetes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            57.304,
+            58.606
+          ],
+          "quote": "Kubernetes is hard to manage.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 43,
+          "t": [
+            170.695,
+            174.50699999999998
+          ],
+          "quote": "to burst up and down a lot versus like Kubernetes design for like slow scaling",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            305.607,
+            310.388
+          ],
+          "quote": "which is why would you have an agent read through hundreds of Kubernetes files",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 106,
+          "t": [
+            424.03,
+            428.934
+          ],
+          "quote": "So there is still a role for the always on large scale Kubernetes type of things.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "serverless",
+      "type": "concept",
+      "role": "concept",
+      "name": "无服务器 (serverless)",
+      "file": "无服务器",
+      "primary": true,
+      "how_described": "本集把它说成：Modal 构建的基础计算形态，支持任务队列、ETL、突发处理等场景，能够实现真正的按需扩展至零和真正的突发性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            78.351,
+            81.093
+          ],
+          "quote": "the serverless container stack that you guys did,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            106.088,
+            110.909
+          ],
+          "quote": "by serverless functions like you can do ETL stuff you can do job queues you can do",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 475,
+          "t": [
+            1728.299,
+            1732.804
+          ],
+          "quote": "a speed training job that's truly serverless and we need the overlay network for",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集把它说成：2023年5月就构建的隔离安全执行环境，是构建自迭代智能体的基础，支持容器 Pod、Sidecar、出站网络控制，被证明是比构建时沙箱更好的运行时形态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            414.133,
+            419.635
+          ],
+          "quote": "And right now it basically covers inference, training, batch crossing and sandbox workloads.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 183,
+          "t": [
+            669.792,
+            673.034
+          ],
+          "quote": "a gpu sandbox we can throw it on there they'll take a hugging face link",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1355.154,
+            1357.8762222222222
+          ],
+          "quote": "let's say, you know, sandbox, persistent storage,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 453,
+          "t": [
+            1630.678,
+            1635.9002222222223
+          ],
+          "quote": "A sandbox is actually a pod of containers, and you can run multiple containers in the sandbox.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 455,
+          "t": [
+            1638.865,
+            1643.449
+          ],
+          "quote": "people want a lot of control over outbound networking from a sandbox.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 464,
+          "t": [
+            1677.85,
+            1681.476
+          ],
+          "quote": "which is you can uh expose a tunnel inside a sandbox yeah and",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 705,
+          "t": [
+            2592.66,
+            2593.66
+          ],
+          "quote": "the sandbox level",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 732,
+          "t": [
+            2708.339,
+            2714.083
+          ],
+          "quote": "a specialized sandbox provider that gives you those things and that's the role",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 735,
+          "t": [
+            2721.007,
+            2724.0625555555557
+          ],
+          "quote": "to modal sandbox we run the harness in modal sandbox um",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 877,
+          "t": [
+            3235.497,
+            3242.497
+          ],
+          "quote": "It's in to give cases really taking off and dealing more of a sandbox-shaped thing",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成：能调用工具、编排工作流并启动自身基础设施的自主 AI 系统；Modal 认为智能体无需阅读大量配置文件，只需修改装饰器即可获得自我配置的运行时。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            284.876,
+            287.268
+          ],
+          "quote": "an agent have cloud code have codex implement",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            287.318,
+            291.781
+          ],
+          "quote": "a tool there's very agent native primitives that are kind of different than",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            294.323,
+            298.284
+          ],
+          "quote": "We've actually changed our SDK team to think about agent experience sort",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            305.607,
+            310.388
+          ],
+          "quote": "which is why would you have an agent read through hundreds of Kubernetes files",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 146,
+          "t": [
+            570.673,
+            572.4507777777778
+          ],
+          "quote": "the agent can iterate on itself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1342.555,
+            1348.039
+          ],
+          "quote": "So right now we're kind of focused on the model life cycle and the agent life cycle.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1353.75,
+            1355.134
+          ],
+          "quote": "if I want to deploy a background agent,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1365.124,
+            1372.124
+          ],
+          "quote": "So Ramp Inspect was a great example of a background agent that was really successful",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2071.174,
+            2075.896
+          ],
+          "quote": "the agent will just spin up a sweep of different things it'll even run like a",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 683,
+          "t": [
+            2505.824,
+            2510.726
+          ],
+          "quote": "for video streaming and whatnot and then on the agent side it's um",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 687,
+          "t": [
+            2526.341,
+            2528.2854444444442
+          ],
+          "quote": "from this agent stack as they build",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 722,
+          "t": [
+            2668.945,
+            2673.129
+          ],
+          "quote": "The way we see it is the managed agent thing is a great place to start",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 723,
+          "t": [
+            2673.229,
+            2675.912
+          ],
+          "quote": "if you're starting out building an agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 726,
+          "t": [
+            2685.157,
+            2688.942
+          ],
+          "quote": "building their own ramp also runs their accounting agent on us",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 727,
+          "t": [
+            2688.962,
+            2691.756
+          ],
+          "quote": "so their external facing agent you need a lot more control",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 730,
+          "t": [
+            2698.773,
+            2702.735
+          ],
+          "quote": "the agent has access to and how do you snapshot and restore how do you control",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 734,
+          "t": [
+            2717.885,
+            2720.967
+          ],
+          "quote": "whether it runs in it's a cloud managed agent and you hook it up",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 746,
+          "t": [
+            2746.445,
+            2749.287
+          ],
+          "quote": "Like it's kind of pseudo agent cloud type things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 831,
+          "t": [
+            3051.058,
+            3054.8
+          ],
+          "quote": "a better video model it's a better model or agent",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 842,
+          "t": [
+            3101.384,
+            3103.807
+          ],
+          "quote": " um luma luma agent is a version",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 897,
+          "t": [
+            3304.917,
+            3308.918
+          ],
+          "quote": "And the interesting thing with the agent stuff is people use their TypeScript SDK",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 915,
+          "t": [
+            3352.787,
+            3356.009222222222
+          ],
+          "quote": "and you've pivoted the team to agent experience is it like",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 917,
+          "t": [
+            3362.453,
+            3365.7419999999997
+          ],
+          "quote": "on just having better agent experience do you need something else",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 920,
+          "t": [
+            3373.042,
+            3377.629
+          ],
+          "quote": "how does an agent use a CLI, but it's also how easy is it to spin something up.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 927,
+          "t": [
+            3402.058,
+            3405.629
+          ],
+          "quote": "for developer experience versus agent experience you seem to be on the side",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集把它说成：Modal 目前最大的用例，支持自定义模型和开源模型的弹性推理，并通过快照、投机解码等技术实现高性能和跨区域自动扩展。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            31.679,
+            38.142
+          ],
+          "quote": "the gpu inference company i mean maybe it was in your mind take us back to",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 34,
+          "t": [
+            130.065,
+            133.158
+          ],
+          "quote": "back then it was more classical inference like computer vision stuff",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 69,
+          "t": [
+            267.284,
+            271.885
+          ],
+          "quote": "And that's been an important part of our story even as we do inference now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 104,
+          "t": [
+            414.133,
+            419.635
+          ],
+          "quote": "And right now it basically covers inference, training, batch crossing and sandbox workloads.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 194,
+          "t": [
+            715.322,
+            720.67
+          ],
+          "quote": "a model every couple hours you guys have a whole version of rl inference gym",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            740.219,
+            743.123
+          ],
+          "quote": " Our biggest use case actually is elastic inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 200,
+          "t": [
+            743.784,
+            748.5062222222222
+          ],
+          "quote": "And the thing we first found product market fit with was inference for custom models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 215,
+          "t": [
+            804.392,
+            807.3860000000001
+          ],
+          "quote": "a huge category there's a bunch of inference providers",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            843.16,
+            846.8
+          ],
+          "quote": " need a lot of burstiness or inference but then people also do a lot on-demand training",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 243,
+          "t": [
+            933.533,
+            937.735
+          ],
+          "quote": "going much deeper into LLM inference because we realized that some of",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1220.483,
+            1224.785
+          ],
+          "quote": "the shelf inference engine vllm sc lang you know get compute",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1303.431,
+            1308.713
+          ],
+          "quote": "I think it's that running production grade inference is a hard and fair problem.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1350.142,
+            1352.4180000000001
+          ],
+          "quote": " going from data prep to training to inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1399.509,
+            1403.620111111111
+          ],
+          "quote": "you weren't that much in the GPU game, and now you're all about inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1409.382,
+            1413.5486666666668
+          ],
+          "quote": "at gtc this year was what we're calling like the inference inflection right",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 496,
+          "t": [
+            1809.673,
+            1815.137
+          ],
+          "quote": "is on rdma at inference and i'm like you wouldn't think that this guy",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 501,
+          "t": [
+            1832.918,
+            1838
+          ],
+          "quote": "from your training gpus to your inference gpus and rl is there's a lot of degrees",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 544,
+          "t": [
+            1992.378,
+            1998.864
+          ],
+          "quote": "People are post-training medium-sized fun models so they can get higher quality on inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 560,
+          "t": [
+            2055.31,
+            2059.791
+          ],
+          "quote": "and inference teams actually use this sort of the general shape of this quite",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2059.811,
+            2063.492
+          ],
+          "quote": "a bit like we have this one internal repo called auto inference",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2098.846,
+            2100.337
+          ],
+          "quote": "applied inference researchers",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 668,
+          "t": [
+            2446.984,
+            2450.506
+          ],
+          "quote": "among all these leading companies you had it inference launch week and we talked",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 672,
+          "t": [
+            2464.4,
+            2466.68
+          ],
+          "quote": " LM inference, thousands more companies",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 675,
+          "t": [
+            2469.88,
+            2470.2
+          ],
+          "quote": " for inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 776,
+          "t": [
+            2841.906,
+            2845.829
+          ],
+          "quote": "as obvious to people because LLM inference gets talked about so much",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 820,
+          "t": [
+            2996.42,
+            3003.42
+          ],
+          "quote": "And I think an example is like we with LM inference originally we worked",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 826,
+          "t": [
+            3027.365,
+            3030.6369999999997
+          ],
+          "quote": "but they use modal for all their inference and that's because they have",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 895,
+          "t": [
+            3298.935,
+            3303.376
+          ],
+          "quote": "We haven't seen anything with inference and training stuff.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "snapshotting",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU 快照 (snapshotting)",
+      "file": "GPU 快照",
+      "primary": true,
+      "how_described": "本集把它说成：保存 GPU 当前运行状态（如模型状态）的技术，能让下一次调用启动得快得多，也被客户（如 Ramp）用于构建高反应性的会计智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 222,
+          "t": [
+            831.8599999999999,
+            834.76
+          ],
+          "quote": "snapshotting to the product so we can actually uh take",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1372.628,
+            1377.191
+          ],
+          "quote": "because they were able to use some of the primitives like snapshotting",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "speculative-decoding",
+      "type": "concept",
+      "role": "concept",
+      "name": "投机解码 (speculative decoding)",
+      "file": "投机解码",
+      "primary": true,
+      "how_described": "本集把它说成：让小模型（草稿模型）先猜、大模型来验证的加速推理技术；能增加接受长度，带来 2 到 4 倍的乘法性加速且无质量损失。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 260,
+          "t": [
+            990.09,
+            994.13
+          ],
+          "quote": " how effective speculative decoding really just gets to anything you want",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1002.184,
+            1007.291
+          ],
+          "quote": "to describe what speculative decoding is yes i think so we've covered like ego",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1010.075,
+            1013.9110000000001
+          ],
+          "quote": "but it was like two years ago i think it doesn't hurt right the speculative decoding",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "本集把它说成：在代码逐渐「黑盒化」的今天极其重要的能力，强调仪表盘和 CLI 工具，因为人类仍然需要去解释系统发生了什么并做出判断。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            346.984,
+            350.907
+          ],
+          "quote": "One thing we actually still see is really important is observability.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 610,
+          "t": [
+            2231.074,
+            2236.357
+          ],
+          "quote": "the rest of our observability like how to something is failing like how do you look",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "decorator",
+      "type": "concept",
+      "role": "concept",
+      "name": "装饰器 (decorator)",
+      "file": "装饰器",
+      "primary": true,
+      "how_described": "本集把它说成：Modal 用于将基础设施的配置需求直接写进代码里的语法，压缩了配置表面积，让用户免于编写大量 YAML，且智能体只需改动几处即可获得自配置运行时。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            315.71,
+            320.251
+          ],
+          "quote": "in a decorator and it gets this sort of self-provisioning runtime of being able",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 473,
+          "t": [
+            1720.472,
+            1725.157
+          ],
+          "quote": "other feature which is you can add a decorator to a function and you get a cluster",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "developer-experience",
+      "type": "concept",
+      "role": "concept",
+      "name": "开发者体验 (developer experience)",
+      "file": "开发者体验",
+      "primary": false,
+      "how_described": "本集把它说成：Modal 最初重点押注的方向，现已被扩展思考为如何兼顾智能体体验（AX）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 40,
+          "t": [
+            155.647,
+            160.47
+          ],
+          "quote": "a really great developer experience and also there's a general trend of a lot of",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 77,
+          "t": [
+            298.324,
+            299.6573333333333
+          ],
+          "quote": "of developer experience.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 914,
+          "t": [
+            3348.504,
+            3352.6706666666664
+          ],
+          "quote": "then my close is i think modal used to be a big bet on developer experience",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 927,
+          "t": [
+            3402.058,
+            3405.629
+          ],
+          "quote": "for developer experience versus agent experience you seem to be on the side",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "auto-endpoints",
+      "type": "concept",
+      "role": "concept",
+      "name": "auto endpoints",
+      "file": "auto endpoints",
+      "primary": true,
+      "how_described": "本集把它说成：Modal 推出的开箱即用端点，内置各种优化（如投机解码），提供完全的透明度，用户可拿到代码自己跑，也可随时弹出到完整的 Modal 体验中去微调。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 299,
+          "t": [
+            1118.485,
+            1123.047
+          ],
+          "quote": "auto endpoints is we want to make frontier level performance available to everyone",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1135.274,
+            1138.0517777777777
+          ],
+          "quote": "to explain what auto endpoints are yeah i love you",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dflash",
+      "type": "concept",
+      "role": "concept",
+      "name": "DeFlash",
+      "file": "DeFlash",
+      "primary": true,
+      "how_described": "本集把它说成：Modal 开源的一种基于块的推测器，一次预测一整个块而非单个 token，能让开源模型达到专有提供商的性能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 250,
+          "t": [
+            966.665,
+            972.487
+          ],
+          "quote": "of recently we shared our work on dflash which is a block based speculator",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 252,
+          "t": [
+            976.729,
+            979.79
+          ],
+          "quote": "by using open source dflash you can get the same performance as you would with one",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1088.762,
+            1093.228
+          ],
+          "quote": " And so we've been working a bunch on dflash, which is a block based speculator.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1161.751,
+            1165.612
+          ],
+          "quote": "like the dflash stuff already baked in, and there's full transparency.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "modal-bench",
+      "type": "concept",
+      "role": "concept",
+      "name": "modal bench",
+      "file": "modal bench",
+      "primary": true,
+      "how_described": "本集把它说成：Modal 推出的专门用来测试当前大模型还做不到的那些难事（如读日志排查错误）的基准测试，以此发现智能体的不足并完善产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 606,
+          "t": [
+            2212.223,
+            2216.723
+          ],
+          "quote": "We're playing around with releasing like a modal bench for like the harder things",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 933,
+          "t": [
+            3417.274,
+            3421.774
+          ],
+          "quote": "as I said, we built this benchmark, modal bench, to see where agents are lacking.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集把它说成：模型训练的一大趋势，指人们在已有模型基础上做特定优化（如训练中等大小的模型以在推理上获得更高质量），是 Modal 多节点训练的核心适用场景。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 543,
+          "t": [
+            1984.912,
+            1991.177
+          ],
+          "quote": "The thing that we've built Multano training for is we see a lot of smaller-scale post-training.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 544,
+          "t": [
+            1992.378,
+            1998.864
+          ],
+          "quote": "People are post-training medium-sized fun models so they can get higher quality on inference.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 546,
+          "t": [
+            2002.228,
+            2007.703
+          ],
+          "quote": "That is my impression of how a lot of these labs explore branches in post training",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 821,
+          "t": [
+            3003.827,
+            3007.52
+          ],
+          "quote": "with companies that were building their own post training frameworks",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "suno",
+      "type": "company",
+      "role": "company",
+      "name": "Suno",
+      "file": "Suno",
+      "primary": true,
+      "how_described": "本集把它说成：一家做音频的公司，不使用 Modal 做训练，但因拥有完全自定义的模型架构，将所有推理部署在 Modal 上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 201,
+          "t": [
+            748.691,
+            753.138
+          ],
+          "quote": "So we kind of stayed away from the LM space and we were serving companies like Suno",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 825,
+          "t": [
+            3020.14,
+            3026.124
+          ],
+          "quote": "A better example is like let's say Suno because Suno does not use modal for training",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "runway",
+      "type": "company",
+      "role": "company",
+      "name": "Runway",
+      "file": "Runway",
+      "primary": true,
+      "how_described": "本集把它说成：一家做视频的公司，是 Modal 早期在弹性推理方面找到产品市场契合点的代表客户之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 202,
+          "t": [
+            753.158,
+            754.82
+          ],
+          "quote": "for audio, Runway for video.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ramp",
+      "type": "company",
+      "role": "company",
+      "name": "Ramp",
+      "file": "Ramp",
+      "primary": true,
+      "how_described": "本集把它说成：一家金融科技公司，利用 Modal 的快照和快速扩展等底层组件，成功构建了极具反应性的会计智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 370,
+          "t": [
+            1365.124,
+            1372.124
+          ],
+          "quote": "So Ramp Inspect was a great example of a background agent that was really successful",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1383.055,
+            1385.436
+          ],
+          "quote": "That's the new CTO of Ramp right there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 725,
+          "t": [
+            2679.448,
+            2684.936
+          ],
+          "quote": "building something more production grade like your company that's like ramp that's",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 726,
+          "t": [
+            2685.157,
+            2688.942
+          ],
+          "quote": "building their own ramp also runs their accounting agent on us",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 822,
+          "t": [
+            3007.57,
+            3012.494
+          ],
+          "quote": "or they were ramp actually early in the day was training their own tokenizer",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "replicate",
+      "type": "company",
+      "role": "company",
+      "name": "Replicate",
+      "file": "Replicate",
+      "primary": false,
+      "how_described": "本集把它说成：一个仅提供模型 API 的「倒下的竞争对手」，主持人借此引出 Modal 刻意避开低粘性业余爱好者市场、坚持提供代码级灵活性的话题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 796,
+          "t": [
+            2905.121,
+            2910.363
+          ],
+          "quote": " This screen reminds me of a fallen competitor which Replicate.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gitpod",
+      "type": "company",
+      "role": "company",
+      "name": "Gitpod",
+      "file": "Gitpod",
+      "primary": false,
+      "how_described": "本集把它说成：CI/CD 市场的技术很强的参与者（后改名为 Ona），嘉宾认为其构建时沙箱与 Modal 的运行时沙箱本质相通，但运行时被证明是更好的形态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 846,
+          "t": [
+            3113.039,
+            3117.562
+          ],
+          "quote": "Gitpod, somewhat different market.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 849,
+          "t": [
+            3123.346,
+            3129.77
+          ],
+          "quote": "Yeah, people on our team have talked to the Gitpod team and they're technically very strong.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 863,
+          "t": [
+            3186.209,
+            3189.172
+          ],
+          "quote": "yeah so so uh for those who don't know gitpod rebranded",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "cognition",
+      "file": "cognition",
+      "primary": false,
+      "how_described": "本集把它说成：一家与 Modal 深度合作的初创公司，Modal 甚至派工程师入驻以降低分布式开发的沟通延迟。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            473.065,
+            478.609
+          ],
+          "quote": "and so my first week at cognition i walked in there was someone wearing",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            534.541,
+            538.643
+          ],
+          "quote": "to me that was proto cognition right if only i had like stuck to it like that",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 866,
+          "t": [
+            3194.257,
+            3196.039
+          ],
+          "quote": "and cognition i was like you should take these guys seriously",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vllm",
+      "type": "concept",
+      "role": "concept",
+      "name": "vllm",
+      "file": "vllm",
+      "primary": false,
+      "how_described": "本集一笔带过提及的现成的推理引擎，主持人在询问自行部署开源模型与使用 Modal 的差异时作为对比项提出。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 327,
+          "t": [
+            1220.483,
+            1224.785
+          ],
+          "quote": "the shelf inference engine vllm sc lang you know get compute",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sglang",
+      "type": "concept",
+      "role": "concept",
+      "name": "SGLang",
+      "file": "SGLang",
+      "primary": false,
+      "how_described": "本集一笔带过提及的推理框架，嘉宾指出 Modal 团队与之密切合作，将改进贡献并上游化到该开源项目中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 332,
+          "t": [
+            1240.56,
+            1242.6155555555556
+          ],
+          "quote": "We work closely with the SGLang team.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rdma",
+      "type": "concept",
+      "role": "concept",
+      "name": "RDMA",
+      "file": "RDMA",
+      "primary": true,
+      "how_described": "本集把它说成：绕过 TCP 网络实现节点间高速传输的远程直接内存访问技术，Modal 用它在多节点训练中达到每秒 3 万亿比特的内部网络速度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 483,
+          "t": [
+            1754.076,
+            1760.621
+          ],
+          "quote": "i mean the way you portrayed it with like rdma versus tcp like very well laid out",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 488,
+          "t": [
+            1779.296,
+            1783.152
+          ],
+          "quote": "The reason we have that is you need that to do the key exchange for RDMA",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 489,
+          "t": [
+            1783.202,
+            1785.9797777777778
+          ],
+          "quote": "before you set up the RDMA network on top of that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 496,
+          "t": [
+            1809.673,
+            1815.137
+          ],
+          "quote": "is on rdma at inference and i'm like you wouldn't think that this guy",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 497,
+          "t": [
+            1815.477,
+            1818.977
+          ],
+          "quote": "who is like kind of operating systems guy would care about rdma",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 529,
+          "t": [
+            1934.092,
+            1938.433
+          ],
+          "quote": "When you run multi-handle training on modal, RDMA,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 532,
+          "t": [
+            1944.195,
+            1949.037
+          ],
+          "quote": "you also use RDMA, but basically it's a way to bypass TCP networking's",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "supercloud",
+      "reason": "专名「supercloud」未在真相源出现,且不在别名表(疑编造)"
+    },
+    {
+      "name": "multinode training",
+      "reason": "专名「multinode training」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

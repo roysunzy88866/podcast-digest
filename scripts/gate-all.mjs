@@ -10,6 +10,7 @@ import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { gateEpisode } from "./gate.mjs";
 import { gateFacts } from "./gate-facts.mjs";
+import { gateEntities } from "./gate-entities.mjs";
 import { renderEpisode, loadEpisode } from "./render.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
@@ -59,8 +60,8 @@ for (const id of gatedIds) {
     console.log(`[机器闸门门] ℹ️ ${id}: 有 digest 但无集页 samples/${id}.md(未发布)→ 跳过发布产物一致性检查`);
   } else {
     try {
-      const { meta, digest } = loadEpisode(join(base, id));
-      const expected = renderEpisode(meta, digest);
+      const { meta, digest, entities } = loadEpisode(join(base, id));
+      const expected = renderEpisode(meta, digest, entities);
       const actual = readFileSync(sample, "utf8");
       if (expected !== actual) {
         console.error(`[机器闸门门] ❌ ${id}: **集页与过闸门的 digest 对不上**(samples/${id}.md)`);
@@ -106,6 +107,25 @@ for (const id of gatedIds) {
           `   #${i + 1} 逐字${r.verbatim ? "✓" : "✗"} 时间戳${r.timestamp ? "✓" : "✗"} 说话人${r.speaker ? "✓" : "✗"}  「${String(r.quote).slice(0, 60)}」`,
         );
     });
+  }
+}
+
+// ── C3 实体层闸门(死链 + 实体页产物一致性 + 属性事实层),跨集一次性 ──
+//   有实体页时才查;fail-closed:执行失败=不过,不静默放行。
+if (existsSync(join(samplesDir, "entities"))) {
+  try {
+    const r = gateEntities({ base, samplesDir });
+    if (r.pass) {
+      console.log(`[机器闸门门] ✅ 实体层过(${r.counts.entities} 实体页,死链/一致性/属性事实层全绿)`);
+    } else {
+      bad++;
+      console.error(`[机器闸门门] ❌ 实体层未过(${r.failures.length} 条):`);
+      for (const f of r.failures.slice(0, 12)) console.error(`   [${f.kind}] ${f.file ?? ""} — ${f.reason ?? ""}`);
+      console.error(`              → 详情:node scripts/gate-entities.mjs`);
+    }
+  } catch (e) {
+    bad++;
+    console.error(`[机器闸门门] ❌ 实体层闸门执行失败(fail-closed,不放行):${e.message}`);
   }
 }
 

@@ -9,3 +9,6 @@ site/
 # C2 流水线可再生缓存(产物 transcript/translation/digest/meta 仍入库)
 data/episodes/*/.translate-cache/
 data/episodes/*/.digest-raw.txt
+# C3 实体抽取的 GLM 原始输出缓存(可再生;产物 entities.json 入库)
+data/episodes/*/.entities-raw.txt
+data/episodes/*/.entities-raw.bad.txt

@@ -1,0 +1,1361 @@
+{
+  "episode_id": "2026-06-24-latent-space-databricks",
+  "podcast": "Latent Space",
+  "date": "2026-06-24",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "数据库工程",
+    "开源战略",
+    "计算与存储分离"
+  ],
+  "entities": [
+    {
+      "id": "matei-zaharia",
+      "type": "person",
+      "role": "guest",
+      "name": "Matei Zaharia",
+      "file": "Matei Zaharia",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "reynold-xin",
+      "type": "person",
+      "role": "guest",
+      "name": "Reynold Xin",
+      "file": "Reynold Xin",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": true,
+      "how_described": "本集主要讨论的数据与 AI 平台公司。两位联合创始人深入复盘了其近期的一系列重磅发布，强调其立足于大规模数据摄取，并坚持开放数据格式和机器学习结合的战略。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            3.851,
+            5.213
+          ],
+          "quote": " Mattia and Reynolds from Databricks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 5,
+          "t": [
+            10.318,
+            12.870999999999999
+          ],
+          "quote": "You have your Databricks Data AI Summit going on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 51,
+          "t": [
+            115.17,
+            119.44777777777777
+          ],
+          "quote": "A lot of these, I think, are things that you would expect a Databricks to do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 208,
+          "t": [
+            597.889,
+            601.412
+          ],
+          "quote": "which is interesting for a Databricks, like what do you choose to open source?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 351,
+          "t": [
+            998.535,
+            1002.018
+          ],
+          "quote": "Like if I use it, we have the dev info internally at Databricks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 491,
+          "t": [
+            1386.163,
+            1387.595
+          ],
+          "quote": "What's the policy in Databricks?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 643,
+          "t": [
+            1786.732,
+            1791.5097777777778
+          ],
+          "quote": "A lot of our customers obviously get into Databricks to run more sophisticated things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 966,
+          "t": [
+            2674.77,
+            2676.2619999999997
+          ],
+          "quote": " But that includes Databricks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 995,
+          "t": [
+            2733.951,
+            2738.1409999999996
+          ],
+          "quote": "I think we hired some of the best database engineers on the planet into Databricks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1099,
+          "t": [
+            2990.177,
+            2994.6214444444445
+          ],
+          "quote": " I feel like Databricks is doing a really good job of the incremental evolution.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1167,
+          "t": [
+            3193.544,
+            3195.665
+          ],
+          "quote": " Databricks have never had the proprietary format.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1175,
+          "t": [
+            3212.833,
+            3217.575
+          ],
+          "quote": "we had always pitched Databricks as a machine learning plus data.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1205,
+          "t": [
+            3315.513,
+            3319.754
+          ],
+          "quote": "They use Databricks for like your ingest and compute and then serve the tables out",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1262,
+          "t": [
+            3471.06,
+            3476.808
+          ],
+          "quote": "A lot of people in our community are curious on what's the model story of Databricks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1389,
+          "t": [
+            3808.337,
+            3812.337
+          ],
+          "quote": "He sounded, when I was talking to him, more like a Databricks CEO than I",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1476,
+          "t": [
+            4048.245,
+            4050.086
+          ],
+          "quote": "Databricks is actually supporting my event,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1485,
+          "t": [
+            4073.283,
+            4075.5159999999996
+          ],
+          "quote": "Yeah, so Databricks will be at the conference.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "snowflake",
+      "type": "company",
+      "role": "company",
+      "name": "Snowflake",
+      "file": "Snowflake",
+      "primary": true,
+      "how_described": "本集讨论的竞争对手。创始人们指出其最初采用了专有格式且只关注少量高价值数据，而 Databricks 凭借开放数据格式和大批处理能力在这场竞争中被认为取得了优势。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1157,
+          "t": [
+            3164.755,
+            3166.8661111111114
+          ],
+          "quote": "I had the same pitches from Snowflake.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1206,
+          "t": [
+            3319.794,
+            3320.765
+          ],
+          "quote": "of Snowflake.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1231,
+          "t": [
+            3387.59,
+            3390.884
+          ],
+          "quote": "when exactly as one of the Snowflake full founders actually wrote",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "neon",
+      "type": "company",
+      "role": "company",
+      "name": "Neon",
+      "file": "Neon",
+      "primary": true,
+      "how_described": "本集提到其架构（计算与存储分离）启发了 LTAP，通过其团队的技术，Databricks 每天能发起大量数据库实例，改变了人们使用数据库的方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 330,
+          "t": [
+            934.024,
+            939.112
+          ],
+          "quote": " One of the first people that told me about compute sandboxing was Nikita from Neon.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 331,
+          "t": [
+            939.733,
+            944.319
+          ],
+          "quote": "A lot of people think about Neon as serverless Postgres with the separation",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 343,
+          "t": [
+            984.652,
+            986.3186666666667
+          ],
+          "quote": "Whereas the Neon architecture,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1048.817,
+            1051.738
+          ],
+          "quote": "And on Neon, it's actually pretty interesting, too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 745,
+          "t": [
+            2073.302,
+            2077.736
+          ],
+          "quote": "a lot of it came from the Neon team, which is a separation of storage from compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 748,
+          "t": [
+            2085.28,
+            2087.941
+          ],
+          "quote": "In the Neon architecture and in lake-based architecture,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mosaicml",
+      "type": "company",
+      "role": "company",
+      "name": "MosaicML",
+      "file": "MosaicML",
+      "primary": true,
+      "how_described": "本集提到被 Databricks 收购的模型团队，曾发布最早的开源 LLM。创始人表示，与其拼通用大模型，不如专注于利用其技术让模型在实际业务（如文档解析）中变得有用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1260,
+          "t": [
+            3469.017,
+            3469.988
+          ],
+          "quote": "Mosaic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1261,
+          "t": [
+            3470.038,
+            3471.0099999999998
+          ],
+          "quote": "Mosaic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1263,
+          "t": [
+            3477.009,
+            3479.352
+          ],
+          "quote": "When you guys bought Mosaic, the thing was,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1265,
+          "t": [
+            3481.075,
+            3484.8527777777776
+          ],
+          "quote": "We're going to do in-house model because they had the mosaic models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1270,
+          "t": [
+            3495.396,
+            3497.178
+          ],
+          "quote": "I guess when Mosaic started,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1442,
+          "t": [
+            3943.937,
+            3947.262
+          ],
+          "quote": "the mosaic stack went to help scale.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "omnigen",
+      "type": "concept",
+      "role": "concept",
+      "name": "Omnigen",
+      "file": "Omnigen",
+      "primary": true,
+      "how_described": "本集重点发布的产品。它包含 runner 和 server 组件，本质上是构建了一个「智能体云」，为智能体提供运行环境、统一接口、持久化层以及安全控制策略。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            102.652,
+            104.174
+          ],
+          "quote": "Omnigens, your baby.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 175,
+          "t": [
+            493.567,
+            499.432
+          ],
+          "quote": "We tried to set up Omnigens so you can have a server and have the security set up",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1078.016,
+            1080.568
+          ],
+          "quote": "but I want to make sure we close up anything on Omnigens.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线概念。被反复讨论用于编程、数据科学等场景。如果智能体不能共享会话、拥有历史记录和搜索能力，那么就完全没用；新的基础设施需要为其提供云沙箱和上下文安全策略。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            150.892,
+            153.676
+          ],
+          "quote": "there's all the coding agent info internally,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            189.088,
+            193.634
+          ],
+          "quote": " data science agent called Genie on the research team, which I co-lead.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 74,
+          "t": [
+            208.352,
+            212.628
+          ],
+          "quote": "The agent is like completely useless if you can't share sessions with someone",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 81,
+          "t": [
+            229.177,
+            234.401
+          ],
+          "quote": "And you just want to build the stuff that lets you deliver the agent,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            445.089,
+            448.26099999999997
+          ],
+          "quote": "because my first prototype of this had just chats with your agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            456.177,
+            457.838
+          ],
+          "quote": "Basically, it says agent to the mainframe.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 178,
+          "t": [
+            509.219,
+            511.211
+          ],
+          "quote": "People think they prototyped an awesome agent,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 195,
+          "t": [
+            551.426,
+            552.413
+          ],
+          "quote": "It's an agent cloud.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 197,
+          "t": [
+            555.808,
+            559.6640000000001
+          ],
+          "quote": "You know, a lot of the action happens like on the machine where you deploy your agent too.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 233,
+          "t": [
+            660.292,
+            663.5697777777779
+          ],
+          "quote": "We had some kind of agent hosting thing, but it's not open.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 261,
+          "t": [
+            732.965,
+            736.397
+          ],
+          "quote": "So this can launch a cloud sandbox and run your agent in there,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 265,
+          "t": [
+            748.474,
+            753.717
+          ],
+          "quote": "We also have more agent harnesses already, cursor, CLI and anti-gravity also.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 301,
+          "t": [
+            844.551,
+            846.663
+          ],
+          "quote": "to produce like do a very simple agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 303,
+          "t": [
+            852.936,
+            857.539
+          ],
+          "quote": "So the API is basically like you've got an agent session and you can send in",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 312,
+          "t": [
+            884.401,
+            889.208
+          ],
+          "quote": "So that is something that you'd have to maintain yourself if you build your own like agent or",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1127.453,
+            1130.077
+          ],
+          "quote": "should my agent be able to read,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1141.091,
+            1145.057
+          ],
+          "quote": "Should my agent be able to publish stuff to the company website?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 445,
+          "t": [
+            1264.285,
+            1268.587
+          ],
+          "quote": "I asked an agent to debug something and it spent $500 because it decided to read",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 508,
+          "t": [
+            1427.534,
+            1431.811777777778
+          ],
+          "quote": "So in Omnigence, you can ask your agent, set a policy on yourself to do this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 529,
+          "t": [
+            1475.636,
+            1479.417
+          ],
+          "quote": "Really, you can intercept any event the agent is making,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1335,
+          "t": [
+            3669.145,
+            3674.63
+          ],
+          "quote": "Likewise, we're doing specialized sub-agents for part of what the coding agent does.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1414,
+          "t": [
+            3867.082,
+            3869.425
+          ],
+          "quote": "Now you can have an agent automatically tell you, like,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1418,
+          "t": [
+            3874.773,
+            3879.35
+          ],
+          "quote": "a customer complained, the agent tells me I noticed no one is like uploading files.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1459,
+          "t": [
+            3996.529,
+            4000.823
+          ],
+          "quote": " with this new paradigm, which is just get the data to be there and then slap some agent on top.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集描述为一种隔离的云端安全计算环境（云沙箱）。它不仅用于运行不受信代码的智能体会话，也用于日常开发，且关键是「实际上不会关机」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            409.586,
+            412.858
+          ],
+          "quote": "The thing you were working on was the sandbox or was this before that?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            412.908,
+            414.609
+          ],
+          "quote": "It was a sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 261,
+          "t": [
+            732.965,
+            736.397
+          ],
+          "quote": "So this can launch a cloud sandbox and run your agent in there,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 333,
+          "t": [
+            946.803,
+            947.583
+          ],
+          "quote": "So our sandbox solution,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 350,
+          "t": [
+            995.553,
+            998.515
+          ],
+          "quote": " Yeah, so this is when you run like a coding sandbox.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "contextual-policies",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文策略 (contextual policies)",
+      "file": "上下文策略",
+      "primary": true,
+      "how_described": "本集提出的一种有状态的智能体安全与开销控制机制。它跟踪会话状态，当智能体执行了如安装可疑包或读取大量机密文件的高风险动作，或子智能体花费超限（如 5 美元）时，系统会介入拦截或请求人类许可。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 406,
+          "t": [
+            1155.192,
+            1160.941
+          ],
+          "quote": "So the thing we decided we need is stateful or what we call contextual policies",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 513,
+          "t": [
+            1439.202,
+            1443.105
+          ],
+          "quote": "Just look in the docs on contextual policies if you want to see.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ltap",
+      "type": "concept",
+      "role": "concept",
+      "name": "LTAP",
+      "file": "LTAP",
+      "primary": true,
+      "how_described": "本集另一重磅发布，是对 HTAP 的文字游戏。其核心思路是不合并查询引擎，而是统一存储层，将事务数据库的数据转码为列式格式存储于数据湖中，让分析端能零延迟读取真实业务数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            104.935,
+            105.935
+          ],
+          "quote": "LTAP, your baby.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 603,
+          "t": [
+            1660.631,
+            1666.215
+          ],
+          "quote": "If you want to tell the story of, you know, LTAP.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 608,
+          "t": [
+            1673.721,
+            1676.443
+          ],
+          "quote": "The LTAP idea is actually pretty simple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 690,
+          "t": [
+            1915.671,
+            1919.953
+          ],
+          "quote": "And our whole idea of LTAP is kind of obviously a wordplay on the term HTAP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 737,
+          "t": [
+            2056.386,
+            2058.269
+          ],
+          "quote": "but it wasn't as clear as LTAP.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 747,
+          "t": [
+            2080.969,
+            2084.352
+          ],
+          "quote": "going from that to this LTAP idea, which is, hey, we just...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1134,
+          "t": [
+            3087.766,
+            3090.6548888888888
+          ],
+          "quote": "You know, if everything becomes LTAP, like what's...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1135,
+          "t": [
+            3091.427,
+            3097.029
+          ],
+          "quote": "I think the thesis of LTAP is we're not collapsing the databases at the actual query layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1267,
+          "t": [
+            3488.025,
+            3493.172
+          ],
+          "quote": "And it seems like you're going towards more of the LTAP and the harness stuff.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "htap",
+      "type": "concept",
+      "role": "concept",
+      "name": "HTAP",
+      "file": "HTAP",
+      "primary": true,
+      "how_described": "本集描述为「数据库工程的圣杯」，即用单一数据库引擎同时处理事务与分析。由于往往导致两边性能和生态的妥协，业界认为它最终变成了大量的妥协。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 606,
+          "t": [
+            1670.679,
+            1672.92
+          ],
+          "quote": "about single store, HTAP, and all that history.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 609,
+          "t": [
+            1676.523,
+            1682.568
+          ],
+          "quote": "So if people have heard of the Ankur's talk about HTAP, it's effectively the world of databases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 690,
+          "t": [
+            1915.671,
+            1919.953
+          ],
+          "quote": "And our whole idea of LTAP is kind of obviously a wordplay on the term HTAP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 691,
+          "t": [
+            1920.294,
+            1922.125
+          ],
+          "quote": "It's that we think this is HTAP done, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 692,
+          "t": [
+            1922.175,
+            1925.177
+          ],
+          "quote": "HTAP wants to build a single engine for both.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 717,
+          "t": [
+            1996.421,
+            2001.864
+          ],
+          "quote": "It gets you basically almost all of the benefits of the HTAP holy grail,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1139,
+          "t": [
+            3104.985,
+            3108.586
+          ],
+          "quote": " the query layer into a single htap style database.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dream-engine",
+      "type": "concept",
+      "role": "concept",
+      "name": "Dream Engine",
+      "file": "Dream Engine",
+      "primary": true,
+      "how_described": "本集提到的一个宏大计划。Databricks 试图从头重写已有十年历史的分析数据库引擎。为规避第二系统综合征的风险，他们利用海量查询追踪记录训练了一个机器学习模型，以此高保真地预测并选择最优算法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            106.137,
+            107.137
+          ],
+          "quote": "Your dream engine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 602,
+          "t": [
+            1654.866,
+            1660.11
+          ],
+          "quote": " Okay, well, and then the other big thing is your dream engine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 951,
+          "t": [
+            2622.162,
+            2626.823
+          ],
+          "quote": "Okay, so and then I wanted to actually build out the sort of Dream Engine vision.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1005,
+          "t": [
+            2757.215,
+            2759.245
+          ],
+          "quote": "hey, maybe we'll just call it Reynolds Dream Engine.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spark",
+      "type": "concept",
+      "role": "concept",
+      "name": "Spark",
+      "file": "Spark",
+      "primary": true,
+      "how_described": "本集提到 Databricks 的起源技术。通过开源策略，Spark 吸引了大量库和连接器的贡献，证明了开源层能带来多方协作的网络效应。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            19.669,
+            23.353
+          ],
+          "quote": "Yeah, we do these tutorials and just teach people Spark.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            603.614,
+            605.5260000000001
+          ],
+          "quote": "I mean, this goes back to Spark, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 216,
+          "t": [
+            619.793,
+            620.793
+          ],
+          "quote": "with Spark,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 218,
+          "t": [
+            621.996,
+            626.262
+          ],
+          "quote": "when Spark came out, we also focused a lot on letting you have libraries",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 540,
+          "t": [
+            1503.33,
+            1506.681
+          ],
+          "quote": "probably very similar to how you did Spark, which is you could just start using.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 544,
+          "t": [
+            1514.703,
+            1515.845
+          ],
+          "quote": "But in Spark,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 682,
+          "t": [
+            1895.97,
+            1897.831
+          ],
+          "quote": "And Spark, for example, has a massive ecosystem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1142,
+          "t": [
+            3116.248,
+            3119.1989999999996
+          ],
+          "quote": "about instead worrying about PostgreSQL and maybe Spark SQL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1145,
+          "t": [
+            3122.69,
+            3127.072
+          ],
+          "quote": "Agents are very eloquent in PostgreSQL or Spark SQL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1191,
+          "t": [
+            3267.434,
+            3271.037
+          ],
+          "quote": "We do that very large-scale stuff because that's what Spark was for,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "parquet",
+      "type": "concept",
+      "role": "concept",
+      "name": "parquet",
+      "file": "parquet",
+      "primary": true,
+      "how_described": "本集提到的列式存储格式。Databricks 利用存储集群的空闲 CPU 将行式数据转码成 Parquet 格式写入数据湖，发现其压缩率更高，写入对象存储甚至更快。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 760,
+          "t": [
+            2115.167,
+            2117.6114444444443
+          ],
+          "quote": " like Postgres pages, write them in parquet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1169,
+          "t": [
+            3199.707,
+            3203.268
+          ],
+          "quote": "started with Parquet, and then evolved into Delta and Iceberg and all that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cdc",
+      "type": "concept",
+      "role": "concept",
+      "name": "CDC",
+      "file": "CDC",
+      "primary": true,
+      "how_described": "本集解释为「变更数据捕获」，是从事务数据库 bin log 增量抽取数据复制到分析系统的技术。它非常脆弱，常在表结构变动时导致管道崩溃，被戏称为「持续数据损坏」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 644,
+          "t": [
+            1791.635,
+            1793.596
+          ],
+          "quote": "And there's this term called CDC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 655,
+          "t": [
+            1823.146,
+            1827.169
+          ],
+          "quote": "My explanation is Airbyte became a $5 billion company just doing CDC.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 657,
+          "t": [
+            1830.211,
+            1832.453
+          ],
+          "quote": "CDC is one of the most boring,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 662,
+          "t": [
+            1846.904,
+            1849.616
+          ],
+          "quote": "the CDC pipeline fails to handle the schema change.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 669,
+          "t": [
+            1858.823,
+            1861.785
+          ],
+          "quote": "I asked the audience, put up their hand if they love their CDC pipeline.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "postgres",
+      "type": "concept",
+      "role": "concept",
+      "name": "Postgres",
+      "file": "Postgres",
+      "primary": true,
+      "how_described": "本集中作为事务型数据库（OLTP）的典型代表被提及。直接在其上运行大规模复杂分析查询往往会压垮生产数据库本身。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 331,
+          "t": [
+            939.733,
+            944.319
+          ],
+          "quote": "A lot of people think about Neon as serverless Postgres with the separation",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 617,
+          "t": [
+            1705.615,
+            1709.257
+          ],
+          "quote": "And think of your Postgres, your MySQL, your Oracle databases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 636,
+          "t": [
+            1760.567,
+            1764.668
+          ],
+          "quote": "it's probably okay to run it on your Postgres or on your MySQL database.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 638,
+          "t": [
+            1770.322,
+            1772.924
+          ],
+          "quote": " crush your Postgres database.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 680,
+          "t": [
+            1886.844,
+            1893.128
+          ],
+          "quote": "I think one of the first issue is that, hey, each, they say Postgres has a massive ecosystem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 681,
+          "t": [
+            1893.148,
+            1895.92
+          ],
+          "quote": "You want to be using the tools that's built for Postgres.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 696,
+          "t": [
+            1935.122,
+            1939.125
+          ],
+          "quote": "if your Postgres databases are writing data in a column oriented format,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 750,
+          "t": [
+            2092.703,
+            2095.2585555555556
+          ],
+          "quote": "But in there, we're writing in Postgres pages.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 760,
+          "t": [
+            2115.167,
+            2117.6114444444443
+          ],
+          "quote": " like Postgres pages, write them in parquet.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": false,
+      "how_described": "本集提到开源工具发布后，外部贡献者迅速添加了在该容器管理系统上运行的支持。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 259,
+          "t": [
+            728.503,
+            730.384
+          ],
+          "quote": " running it on Kubernetes.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "delta-lake",
+      "type": "concept",
+      "role": "concept",
+      "name": "Delta Lake",
+      "file": "Delta Lake",
+      "primary": false,
+      "how_described": "本集提到 Databricks 早期增加的基于开放格式的存储层，用于满足大型客户对事务存储和查询事件的需求。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 827,
+          "t": [
+            2297.217,
+            2298.839
+          ],
+          "quote": " We added storage with Delta Lake.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 863,
+          "t": [
+            2381.857,
+            2386.524
+          ],
+          "quote": "Well, very early in the company, there was like Delta Lake, which is the trans",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "panther",
+      "type": "company",
+      "role": "company",
+      "name": "Panther",
+      "file": "Panther",
+      "primary": false,
+      "how_described": "本集提到 Databricks 收购的一家提供安全数据捕获和处理的公司，在事件处理方面支持基于 Python 的策略。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            111.425,
+            115.15
+          ],
+          "quote": "You acquired Panther, OpenSharing, and there's Unity AI Gateway.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 431,
+          "t": [
+            1225.331,
+            1227.1643333333332
+          ],
+          "quote": "This is related to the Panther...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 432,
+          "t": [
+            1227.465,
+            1229.708
+          ],
+          "quote": " Yeah, Panther will help with that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 433,
+          "t": [
+            1229.728,
+            1234.112
+          ],
+          "quote": "Panther is kind of a similar idea on the event processing side,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "genie",
+      "type": "concept",
+      "role": "concept",
+      "name": "Genie",
+      "file": "Genie",
+      "primary": false,
+      "how_described": "本集描述为一个第一方的数据科学智能体，类似于一个全知公司数据和机器学习库的「虚拟数据科学家」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            108.2,
+            111.36666666666667
+          ],
+          "quote": " You're also going to cover Genie, cover Customer League.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 69,
+          "t": [
+            189.088,
+            193.634
+          ],
+          "quote": " data science agent called Genie on the research team, which I co-lead.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1297,
+          "t": [
+            3565.538,
+            3568.662
+          ],
+          "quote": "That's the first party agents we have called Genie.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

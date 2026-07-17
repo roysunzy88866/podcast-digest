@@ -51,7 +51,13 @@ if ! ls "$ROOT"/samples/*.md >/dev/null 2>&1; then
   exit 1
 fi
 cp "$ROOT"/samples/*.md content/
-echo "    已灌 $(ls "$ROOT"/samples/*.md | wc -l | tr -d ' ') 篇样片"
+echo "    已灌 $(ls "$ROOT"/samples/*.md | wc -l | tr -d ' ') 篇集页"
+# C3:实体页(自建聚合)进 content/entities/,[[双链]]按 basename 解析、不受子目录影响
+if ls "$ROOT"/samples/entities/*.md >/dev/null 2>&1; then
+  mkdir -p content/entities
+  cp "$ROOT"/samples/entities/*.md content/entities/
+  echo "    已灌 $(ls "$ROOT"/samples/entities/*.md | wc -l | tr -d ' ') 个实体页"
+fi
 
 echo "==> 5/5 build"
 node ./quartz/bootstrap-cli.mjs build
