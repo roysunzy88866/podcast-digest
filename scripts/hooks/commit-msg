@@ -23,8 +23,16 @@ if [ "$format_ok" -ne 1 ]; then
 fi
 
 # ── 2. 代码⟹文档闸门 ──
-staged=$(git diff --cached --name-only)
-staged_docs=$(git diff --cached --name-only --diff-filter=ACMR)  # 文档侧只认新增/修改,删 .md 不算"带了文档"(GLM 20260717-004 [1])
+# ⚠️ 必须带 -c core.quotePath=false(D25,[standard-change: 用户授权 2026-07-17]):
+#   git 默认把**非 ASCII 文件名**转义并加引号 —— `docs/c3-事实闸门-首跑发现.md`
+#   会输出成 `"docs/c3-\344\272\213...md"`,**结尾是引号不是扩展名** ⇒ 下面两个 grep 全部失灵:
+#     ① `\.md$` 命中 0 → 带了中文名文档也被判「没带文档」(误拦)
+#     ② `\.(ts|js|mjs...)$` 命中 0 → **中文名的代码文件闸门认不出是代码,整道门不触发**
+#        = 代码可无文档静默入库(实测复现:新建 `脚本测试.mjs`、不带 .md、不带 doc-skip → 提交成功)
+#   本项目文档大量用中文名 → 天天可触发,非理论风险。
+#   与 GLM 20260717-001[5](printf 吞选项)、004[1](删 .md 冒充带文档)同族:都是**闸门自己的取数环节被绕过**。
+staged=$(git -c core.quotePath=false diff --cached --name-only)
+staged_docs=$(git -c core.quotePath=false diff --cached --name-only --diff-filter=ACMR)  # 文档侧只认新增/修改,删 .md 不算"带了文档"(GLM 20260717-004 [1])
 if printf '%s\n' "$staged" | grep -qE '\.(ts|tsx|js|jsx|mjs|cjs|py|sh)$'; then
   if ! printf '%s\n' "$staged_docs" | grep -qE '\.md$'; then
     if ! printf '%s\n' "$msg" | grep -qi '\[doc-skip:'; then
