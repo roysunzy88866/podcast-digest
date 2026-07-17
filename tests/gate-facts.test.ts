@@ -1,0 +1,321 @@
+// C3 · D17(专名/数字回原文)+ D8(正文内联时间戳)闸门的真业务测试
+//
+// 纪律(C2 交付物审计教训:「防假绿单测自己就是假绿」——它没调被测代码,把逻辑在测试里重抄一遍,
+// 回退实现照样全绿):本文件**只调被测函数**,不重抄任何判定逻辑;每条都能做变异验证
+// (故意回退 gate-facts.mjs 的实现 → 测试必须挂)。
+import { describe, it, expect } from "vitest";
+import { mkdtempSync, writeFileSync } from "node:fs";
+import { tmpdir } from "node:os";
+import { join } from "node:path";
+import {
+  stripBackground,
+  buildFactIndex,
+  extractLatinTokens,
+  extractDigestNumbers,
+  findVagueQuantifiers,
+  parseInlineTimestamps,
+  checkInlineTimestamp,
+  checkProperNoun,
+  gateFacts,
+} from "../scripts/gate-facts.mjs";
+
+// ── 最小转写稿 fixture:2 说话人、逐词时间戳 ──
+const mkWords = (text: string, t0: number, speaker: string) =>
+  text.split(" ").map((w, i) => ({ word: w, start: t0 + i, end: t0 + i + 1, speaker }));
+
+const TRANSCRIPT = [
+  { text: "Modo is a cloud platform with 2023 revenue", start: 0, end: 8, words: mkWords("Modo is a cloud platform with 2023 revenue", 0, "SPEAKER_00") },
+  { text: "we saw ten times growth and a hundred customers", start: 10, end: 19, words: mkWords("we saw ten times growth and a hundred customers", 10, "SPEAKER_01") },
+  { text: "Kubernetes was too hard to use", start: 20, end: 26, words: mkWords("Kubernetes was too hard to use", 20, "SPEAKER_00") },
+];
+
+// 注意 fixture 的隔离性:title_en/guest_titles 里**故意不含 "Modal"、不含 "agent"**。
+// 否则真相源会从 meta 直接命中,「靠别名表召回误写形式」和「概念未出现即拦」两条就测不到真东西
+// (首版 fixture 就踩了这个:title_en 写了 Modal → matchedForm 直接是 Modal,别名召回路径根本没走)。
+// 「Acme」**只**出现在 title_en(guests/guest_titles/转写稿都没有)——用来钉死
+// 「meta.title_en 也是真相源」这条独立成立。变异验证实测:没有它时,拿掉 title_en
+// 照样全绿(因为 guests 里也有 Bubna),该路径根本没被测到。
+// 这镜像集 2 的真实情况:转写稿只有名(Matei/Reynolds),姓「Zaharia/Xin」只在集标题里。
+const META = {
+  speaker_map: { SPEAKER_00: "Akshat Bubna", SPEAKER_01: "主持人" },
+  title_en: "Why infrastructure must evolve — Akshat Bubna, Acme",
+  guests: ["Akshat Bubna"],
+  guest_titles: { "Akshat Bubna": "CTO" },
+};
+
+const ALIASES = {
+  entities: [
+    { id: "modal", type: "company", name: "Modal", file: "Modal", forms: ["Modal", "Modo", "moto"] },
+    { id: "agent", type: "concept", name: "智能体 (Agent)", file: "智能体", forms: ["智能体", "agent", "agents"] },
+  ],
+};
+
+const ctx = () => buildFactIndex(TRANSCRIPT, META, ALIASES);
+
+describe("stripBackground · 【背景】是声明过的 AI 补充,D17 不比对它(D8 仍要比对)", () => {
+  it("剥掉【背景】整块,保留其余正文", () => {
+    const md = "嘉宾说 Modal 很好。\n【背景】HTAP 是数据库界的圣杯,OLTP 与 OLAP 各有取舍。\n然后他说 Kubernetes 难用。";
+    const out = stripBackground(md);
+    expect(out).toContain("Modal");
+    expect(out).toContain("Kubernetes");
+    expect(out).not.toContain("HTAP");
+    expect(out).not.toContain("OLTP");
+  });
+
+  it("没有【背景】时原样返回", () => {
+    expect(stripBackground("纯正文 Modal")).toContain("Modal");
+  });
+});
+
+describe("buildFactIndex · 真相源 = 转写稿 ∪ meta 有出处字段 ∪ 别名表", () => {
+  it("转写稿里的词进索引", () => {
+    expect(ctx().tokens.has("kubernetes")).toBe(true);
+    expect(ctx().tokens.has("modo")).toBe(true);
+  });
+
+  it("★ meta.title_en 里的姓氏进索引(转写稿只有名,姓只在标题里 —— 集2 真实情况)", () => {
+    // 转写稿从没出现 "Bubna",但集标题有 → 它有出处,不算编造
+    expect(TRANSCRIPT.map((s) => s.text).join(" ")).not.toContain("Bubna");
+    expect(ctx().tokens.has("bubna")).toBe(true);
+  });
+
+  it("★ 只靠 title_en 供给的专名也算有出处(钉死 title_en 这条路径本身)", () => {
+    // Acme 不在转写稿、不在 guests、不在 guest_titles —— 唯一出处就是 title_en
+    expect(TRANSCRIPT.map((s) => s.text).join(" ")).not.toContain("Acme");
+    expect(META.guests.join()).not.toContain("Acme");
+    expect(checkProperNoun("Acme", ctx()).pass).toBe(true);
+  });
+
+  it("阿拉伯数字进数字集", () => {
+    expect(ctx().numbers.has(2023)).toBe(true);
+  });
+
+  it("★ 英文数字词归一化后进数字集(ten→10, hundred→100)", () => {
+    expect(ctx().numbers.has(10)).toBe(true);
+    expect(ctx().numbers.has(100)).toBe(true);
+  });
+});
+
+describe("checkProperNoun · D17 专名回原文(硬拦)", () => {
+  it("命中转写稿 → 过", () => {
+    expect(checkProperNoun("Kubernetes", ctx()).pass).toBe(true);
+  });
+
+  it("★ 经别名表的转写错形式命中 → 过(正文写正确名 Modal,转写稿只有误写 Modo)", () => {
+    expect(TRANSCRIPT.map((s) => s.text).join(" ")).not.toContain("Modal");
+    const r = checkProperNoun("Modal", ctx());
+    expect(r.pass).toBe(true);
+    expect(r.matchedForm).toBe("Modo"); // 靠别名表的误写形式召回
+  });
+
+  it("★ 凭空编造的公司名 → 拦(D17 的主职责)", () => {
+    const r = checkProperNoun("Snowflake", ctx());
+    expect(r.pass).toBe(false);
+  });
+
+  it("概念的中文名经别名表 en 形式回原文(智能体→agent)", () => {
+    // fixture 转写稿没有 agent → 智能体也应判不过(证明它走的是真比对,不是无脑放行)
+    expect(checkProperNoun("智能体", ctx()).pass).toBe(false);
+  });
+});
+
+describe("extractDigestNumbers / findVagueQuantifiers · drift #11 授权口径", () => {
+  it("抽出阿拉伯数字(含年份/量词后缀)", () => {
+    const ns = extractDigestNumbers("2023 年营收增长 10 倍,拿下 100 个客户").map((x) => x.value);
+    expect(ns).toContain(2023);
+    expect(ns).toContain(10);
+    expect(ns).toContain(100);
+  });
+
+  it("★ 模糊量词不进硬拦集(它们不是确定数字,逐字比对不适用)", () => {
+    const ns = extractDigestNumbers("估值数十亿美元,只提升几个百分点").map((x) => x.value);
+    expect(ns).toHaveLength(0);
+  });
+
+  it("★ 模糊量词进「待核清单」提醒层", () => {
+    const v = findVagueQuantifiers("估值数十亿美元,只提升几个百分点");
+    expect(v.length).toBeGreaterThan(0);
+    expect(v.map((x) => x.raw).join()).toMatch(/数十亿|几个/);
+  });
+});
+
+describe("parseInlineTimestamps · 4 种真实形状(取自真 digest,不是我猜的)", () => {
+  const md = "甲 [00:34-02:17 Akshat Bubna] 乙 [10:03-10:34 swyx / Akshat Bubna] 丙 [37:57-38:47] 丁 [48:34 Akshat Bubna]";
+  const ts = parseInlineTimestamps(md);
+
+  it("四种都能解析", () => expect(ts).toHaveLength(4));
+  it("区间 + 单说话人", () => {
+    expect(ts[0].start).toBe(34);
+    expect(ts[0].end).toBe(137);
+    expect(ts[0].speakers).toEqual(["Akshat Bubna"]);
+  });
+  it("区间 + 双说话人(斜杠分隔)", () => {
+    expect(ts[1].speakers).toEqual(["swyx", "Akshat Bubna"]);
+  });
+  it("区间 + 无说话人", () => expect(ts[2].speakers).toEqual([]));
+  it("单点 + 说话人(start==end)", () => {
+    expect(ts[3].start).toBe(48 * 60 + 34);
+    expect(ts[3].end).toBe(48 * 60 + 34);
+  });
+});
+
+describe("checkInlineTimestamp · D8(硬拦)+ 部分收窄 D19", () => {
+  const c = ctx();
+
+  it("区间真实 + 说话人对 → 过", () => {
+    // 0-8s 是 SPEAKER_00 = Akshat Bubna
+    expect(checkInlineTimestamp({ start: 0, end: 8, speakers: ["Akshat Bubna"], raw: "x" }, c).pass).toBe(true);
+  });
+
+  it("★ 移花接木:区间真实但把别人的话挂在嘉宾名下 → 拦(这正是 D19 抓到的那类)", () => {
+    // 10-19s 实际是 SPEAKER_01 = 主持人,却标成 Akshat Bubna
+    const r = checkInlineTimestamp({ start: 10, end: 19, speakers: ["Akshat Bubna"], raw: "x" }, c);
+    expect(r.pass).toBe(false);
+    expect(r.reason).toMatch(/说话人/);
+  });
+
+  it("★ 区间超出转写稿范围(编造时间戳)→ 拦", () => {
+    const r = checkInlineTimestamp({ start: 9000, end: 9100, speakers: ["Akshat Bubna"], raw: "x" }, c);
+    expect(r.pass).toBe(false);
+    expect(r.reason).toMatch(/区间|范围/);
+  });
+
+  it("★ 单点时间戳:靠 tsGrace 宽限窗判主说话人(跨度≈一个词,不宽限则永远判不出)", () => {
+    // 8s 处:第1段(Akshat)刚在 8s 收尾,单点直接比对只够碰到 1 个词 → 达不到 minWords。
+    // 宽限窗 ±1.5s 后能看清这一带是 Akshat 在讲 → 过。真实案例见 gate-facts.mjs 注释(集1 [48:34])。
+    const r = checkInlineTimestamp({ start: 8, end: 8, speakers: ["Akshat Bubna"], raw: "x" }, c);
+    expect(r.pass).toBe(true);
+  });
+
+  it("★ 区间在范围内、落在静音空档、且没标说话人 → 仍要拦(「区间内无词」这条判定的唯一守区)", () => {
+    // fixture 里 8s~10s 是空档(第1段词到 8s 止,第2段词从 10s 起);用区间(跨度≥1s)故不吃宽限窗。
+    // 为什么必须**不标说话人**:标了说话人时,「假区间」会被后面的 phantom 检查顺带拦下,
+    // 「区间内无词」这条判定并不承重 —— 变异验证实测确认过:删掉它,标了说话人的用例照样绿。
+    // 只有「没标说话人」这条路径才真正依赖它:否则一个凭空编造、没人认领的区间会被直接放行。
+    const r = checkInlineTimestamp({ start: 8.2, end: 9.8, speakers: [], raw: "x" }, c);
+    expect(r.pass).toBe(false);
+    expect(r.reason).toMatch(/没有任何词|编造区间/);
+  });
+
+  it("无说话人标注的区间:只校验区间真实性,不校验说话人", () => {
+    expect(checkInlineTimestamp({ start: 0, end: 8, speakers: [], raw: "x" }, c).pass).toBe(true);
+  });
+
+  it("跨说话人区间标注双说话人 → 过", () => {
+    const r = checkInlineTimestamp({ start: 0, end: 19, speakers: ["Akshat Bubna", "主持人"], raw: "x" }, c);
+    expect(r.pass).toBe(true);
+  });
+
+  // ↓ 主说话人口径(Gherkin 5②)。首版写成「集合完全相等」,真数据 23 条挂 13 条,
+  //   全是长区间里主持人一句「Yeah」→ 整段判挂。那会让闸门天天误报→天天放行→沦为摆设。
+  //   放宽的同时必须钉死:D19 那类攻击不能因此漏网。
+  it("★ 放宽后仍要拦:主说话人被隐去(只标次要插话者)→ 拦", () => {
+    // 0~19s 里主持人 9 词 > Akshat 8 词 → 主说话人是主持人,却只标 Akshat
+    const r = checkInlineTimestamp({ start: 0, end: 19, speakers: ["Akshat Bubna"], raw: "x" }, c);
+    expect(r.pass).toBe(false);
+    expect(r.reason).toMatch(/主说话人/);
+  });
+
+  it("★ 放宽的正当性:长区间里的次要插话者未被标注 → 不该误报", () => {
+    // 造一个「Akshat 占绝大多数 + 主持人插一句」的区间:标注主说话人即可,不必列全
+    const stream = [
+      ...Array.from({ length: 20 }, (_, i) => ({ norm: "w", raw: "w", start: i, end: i + 1, speaker: "SPEAKER_00", seg: 0 })),
+      { norm: "yeah", raw: "yeah", start: 20, end: 21, speaker: "SPEAKER_01", seg: 1 },
+      { norm: "right", raw: "right", start: 21, end: 22, speaker: "SPEAKER_01", seg: 1 },
+      ...Array.from({ length: 20 }, (_, i) => ({ norm: "w", raw: "w", start: 22 + i, end: 23 + i, speaker: "SPEAKER_00", seg: 2 })),
+    ];
+    const c2 = { ...c, stream, maxEnd: 42 };
+    const r = checkInlineTimestamp({ start: 0, end: 42, speakers: ["Akshat Bubna"], raw: "x" }, c2);
+    expect(r.pass).toBe(true);
+    expect(r.dominant).toBe("Akshat Bubna");
+  });
+});
+
+describe("extractLatinTokens · 从中文正文里挑拉丁串", () => {
+  it("挑出专名,跳过纯数字", () => {
+    const t = extractLatinTokens("Modal 用 Kubernetes,2023 年增长");
+    expect(t).toContain("Modal");
+    expect(t).toContain("Kubernetes");
+    expect(t.join()).not.toMatch(/2023/);
+  });
+});
+
+// ── gateFacts 端到端:真调被测代码 + 临时目录喂 fixture ──
+// 为什么必须有这一层:上面那些是**零件测试**。变异验证实测证明,只有零件测试时,
+// 把 gateFacts 里的数字判定改成 `pass: true`(放行一切编造数字)→ 24 个测试照样全绿 = 假绿。
+// 零件对 ≠ 闸门真拦得住。以下每条都是「造一次真攻击,断言它被拦」。
+describe("gateFacts · 端到端拦截(每条 = 一次真攻击)", () => {
+  const writeEp = (name: string, digestMd: string, quotes: any[] = []) => {
+    const dir = mkdtempSync(join(tmpdir(), `c3-facts-${name}-`));
+    writeFileSync(join(dir, "transcript.en.json"), JSON.stringify(TRANSCRIPT));
+    writeFileSync(join(dir, "meta.json"), JSON.stringify({ ...META, id: name }));
+    writeFileSync(join(dir, "digest.json"), JSON.stringify({ tldr: "t", digest_md: digestMd, quotes }));
+    const ap = join(dir, "aliases.json");
+    writeFileSync(ap, JSON.stringify(ALIASES));
+    return { dir, aliasesPath: ap };
+  };
+
+  it("干净正文(专名/数字/时间戳都有出处)→ 过", () => {
+    const { dir, aliasesPath } = writeEp("clean", "嘉宾讲了 Kubernetes 太难用 [00:20-00:26 Akshat Bubna],还提到 2023 年的事。");
+    const r = gateFacts(dir, { aliasesPath });
+    expect(r.pass).toBe(true);
+  });
+
+  it("★ 攻击A:正文塞进一个转写稿里根本没有的公司名 → 拦", () => {
+    const { dir, aliasesPath } = writeEp("noun", "嘉宾说他们要和 Snowflake 竞争。");
+    const r = gateFacts(dir, { aliasesPath });
+    expect(r.pass).toBe(false);
+    expect(r.failures.some((f: any) => f.kind === "D17-专名" && f.name === "Snowflake")).toBe(true);
+  });
+
+  it("★ 攻击B:正文编造一个原文没有的数字 → 拦(变异验证抓到的缺口,补此条)", () => {
+    const { dir, aliasesPath } = writeEp("num", "嘉宾说他们服务了 7777 个客户。");
+    const r = gateFacts(dir, { aliasesPath });
+    expect(r.pass).toBe(false);
+    expect(r.failures.some((f: any) => f.kind === "D17-数字" && f.raw === "7777")).toBe(true);
+  });
+
+  it("★ 攻击C:移花接木——把主持人说的话挂到嘉宾名下(真时间戳)→ 拦", () => {
+    // 10~19s 实际是 SPEAKER_01=主持人
+    const { dir, aliasesPath } = writeEp("d19", "嘉宾提出了这个洞见 [00:10-00:19 Akshat Bubna]。");
+    const r = gateFacts(dir, { aliasesPath });
+    expect(r.pass).toBe(false);
+    expect(r.failures.some((f: any) => f.kind === "D8-时间戳")).toBe(true);
+  });
+
+  it("★ 攻击D:编造时间戳(区间根本不存在)→ 拦", () => {
+    const { dir, aliasesPath } = writeEp("ts", "他后来说 [99:00-99:30 Akshat Bubna]。");
+    const r = gateFacts(dir, { aliasesPath });
+    expect(r.pass).toBe(false);
+    expect(r.failures.some((f: any) => f.kind === "D8-时间戳")).toBe(true);
+  });
+
+  it("★ 【背景】里的外部知识不被 D17 误杀,但其中的时间戳仍被 D8 校验", () => {
+    // Snowflake 在【背景】里 → D17 放行(声明过的 AI 补充);但同块里的假时间戳仍要拦
+    const ok = writeEp("bg1", "【背景】Snowflake 是另一家数据公司,HTAP 是圣杯。");
+    expect(gateFacts(ok.dir, { aliasesPath: ok.aliasesPath }).pass).toBe(true);
+
+    const bad = writeEp("bg2", "【背景】Snowflake 是另一家数据公司 [99:00-99:30 Akshat Bubna]。");
+    const r = gateFacts(bad.dir, { aliasesPath: bad.aliasesPath });
+    expect(r.pass).toBe(false);
+    expect(r.failures.every((f: any) => f.kind === "D8-时间戳")).toBe(true); // 只因时间戳挂,不因 Snowflake
+  });
+
+  it("★ 时间戳里的分秒数字不该被当成「编造的事实数字」(防自伤误报)", () => {
+    // [00:20-00:26] 里的 20/26 不在转写稿数字集里,但它们是溯源坐标不是事实数字
+    const { dir, aliasesPath } = writeEp("tsnum", "他讲了 Kubernetes [00:20-00:26 Akshat Bubna]。");
+    expect(gateFacts(dir, { aliasesPath }).pass).toBe(true);
+  });
+
+  it("★ 数字成语(7×24)不该被当成事实数字(集2 真实误报,drift #11 同理)", () => {
+    const { dir, aliasesPath } = writeEp("idiom", "那种要 7×24 小时值守的运维服务才是专有商业化的范畴。");
+    expect(gateFacts(dir, { aliasesPath }).pass).toBe(true);
+  });
+
+  it("★ 但成语豁免不能扩大化:成语之外的编造数字照拦", () => {
+    const { dir, aliasesPath } = writeEp("idiom2", "要 7×24 小时值守,他们有 7777 个客户。");
+    const r = gateFacts(dir, { aliasesPath });
+    expect(r.pass).toBe(false);
+    expect(r.failures.some((f: any) => f.raw === "7777")).toBe(true);
+  });
+});

@@ -1,0 +1,115 @@
+{
+  "_doc": "全局实体别名表(共识 ③.7:中英双名/缩写/常见误写,决定归一化+补链召回)。跨集累积,GLM 提议 + 人复核。",
+  "_用途": [
+    "① D17 专名回原文比对的召回:正文写正确名(Modal),而官方转写稿只有误写(Modo)→ 靠 forms 召回,不误杀",
+    "② 归一化:同一实体在不同集的不同写法(Modal / Modal Labs)归到同一 id → 实体页不裂成两页",
+    "③ 补链:正文里出现任一 form → 链到该实体页(依裁决 #9,只有建页的实体才补链)"
+  ],
+  "_字段": {
+    "id": "slug,聚合与去重用",
+    "type": "person | company | concept",
+    "name": "页面标题。人名/公司名用原文;概念用双语(裁决 #10)",
+    "file": "文件名。概念用中文(→ 正文写 [[智能体]] 读着顺,页面标题仍双语)",
+    "forms": "所有算作「这个实体出现了」的书写形式 = 正确名 + 别名 + 缩写 + 官方稿误写。D17 与补链都读它",
+    "evidence": "每个非显然 form 的出处,便于复核。不写出处的 form 不许进表"
+  },
+  "_诚实边界": "forms 里混着「正确名」与「转写错形式」是有意为之:D17 只回答『这个专名在原文出现过吗』,回答不了『原文写对了吗』。官方稿本身会错(Modo/Mattia),那层靠英文原稿存档 + 事后可查兜,不宣称零失真。",
+  "entities": [
+    {
+      "id": "modal",
+      "type": "company",
+      "name": "Modal",
+      "file": "Modal",
+      "forms": ["Modal", "Modal Labs", "Modo", "moto"],
+      "evidence": "误写 Modo/moto 出自 集1 meta.known_transcript_errors_sample(官方稿把 Modal 听成 Modo/moto)"
+    },
+    {
+      "id": "akshat-bubna",
+      "type": "person",
+      "name": "Akshat Bubna",
+      "file": "Akshat Bubna",
+      "forms": ["Akshat Bubna", "Akshat"],
+      "evidence": "集1 嘉宾。姓 Bubna 出自集标题(meta.title_en);转写稿内多为单名 Akshat"
+    },
+    {
+      "id": "matei-zaharia",
+      "type": "person",
+      "name": "Matei Zaharia",
+      "file": "Matei Zaharia",
+      "forms": ["Matei Zaharia", "Matei", "Mattia"],
+      "evidence": "集2 嘉宾。实测转写稿:『Matei』×3 与误写『Mattia』×1 并存;姓『Zaharia』只在集标题里,转写稿 0 次"
+    },
+    {
+      "id": "reynold-xin",
+      "type": "person",
+      "name": "Reynold Xin",
+      "file": "Reynold Xin",
+      "forms": ["Reynold Xin", "Reynold", "Reynolds"],
+      "evidence": "集2 嘉宾。实测转写稿:正确形『Reynold』0 次,3 次全部误作『Reynolds』;姓『Xin』只在集标题里"
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "forms": ["Databricks"],
+      "evidence": "集2。转写稿实测出现 17 次,无误写"
+    },
+    {
+      "id": "latent-space",
+      "type": "company",
+      "name": "Latent Space",
+      "file": "Latent Space",
+      "forms": ["Latent Space", "Alien Space"],
+      "evidence": "本播客。集2 实测:『Latent Space』0 次,只出现误写『Alien Space』×1(#1『Welcome to Alien Space.』)"
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "forms": ["ChatGPT", "chat gpt"],
+      "evidence": "集1 转写稿实测写作分开的两个词『chat gpt』(『a year before chat gpt came out』),非误写而是分词 → 不登记则 D17 误杀"
+    },
+    {
+      "id": "sidecar",
+      "type": "concept",
+      "name": "边车 (Sidecar)",
+      "file": "边车",
+      "forms": ["边车", "Sidecar", "Sidecars", "sidecarves"],
+      "evidence": "集1 转写稿实测误作『sidecarves』(『support this thing called sidecarves』),正确形 sidecars 0 次"
+    },
+    {
+      "id": "nsight",
+      "type": "company",
+      "name": "Nsight",
+      "file": "Nsight",
+      "forms": ["Nsight", "inside"],
+      "evidence": "集1 meta.known_transcript_errors_sample 明列 Nsight→inside(NVIDIA 的性能分析工具被听成 inside)"
+    },
+    {
+      "id": "omnigen",
+      "type": "concept",
+      "name": "Omnigen",
+      "file": "Omnigen",
+      "forms": ["Omnigen", "Omnigens"],
+      "evidence": "集2 的核心产品。转写稿实测只出现复数形『Omnigens』(『Omnigens, your baby.』),单数形 0 次 → 不登记则 D17 把正文的 Omnigen 误杀"
+    },
+    {
+      "id": "mosaicml",
+      "type": "company",
+      "name": "MosaicML",
+      "file": "MosaicML",
+      "forms": ["MosaicML", "Mosaic"],
+      "evidence": "集2。转写稿实测只说简称『Mosaic』(『Mosaic. Mosaic. A lot of people in our commun...』),全称 MosaicML 0 次;正文用全称属 drift #5「拿得准的直接改对」"
+    },
+    {
+      "id": "dflash",
+      "type": "concept",
+      "name": "DeFlash",
+      "file": "DeFlash",
+      "forms": ["DeFlash", "dflash", "DFlash"],
+      "evidence": "集1 转写稿实测作『dflash』(『we shared our work on dflash which is a block based ...』)。⚠️ 正确拼写未经独立核实,以转写稿形式为准登记,待日后查证"
+    }
+  ]
+}
