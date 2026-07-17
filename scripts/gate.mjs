@@ -126,7 +126,9 @@ function mode(arr) {
  * opts  = { stream, speakerMap, tsGrace(边界宽限秒,默认1.5), speakerFrac(主说话人占比阈值,默认0.8) }
  */
 export function checkQuote(quote, { stream, speakerMap, tsGrace = 1.5, speakerFrac = 0.8 }) {
-  const enText = quote.en ?? quote.text;
+  // 容错:单条金句为 null/缺字段时不许抛异常炸穿 gateEpisode/gate-all(GLM 20260717-012 [6]);
+  // fail-closed —— 判不了就是不过。
+  const enText = quote?.en ?? quote?.text ?? "";
   const r = {
     quote: enText,
     verbatim: false,
@@ -136,6 +138,10 @@ export function checkQuote(quote, { stream, speakerMap, tsGrace = 1.5, speakerFr
     detail: {},
   };
   const qNorm = norm(enText);
+  if (!qNorm.length) {
+    r.detail.reason = "金句为空/缺 en 字段(判不了 → 不过)";
+    return r;
+  }
   const span = findSpan(qNorm, stream);
   if (!span) {
     r.detail.reason = "逐字未命中转写稿连续片段(疑拼接/编造)";
@@ -184,7 +190,10 @@ export function gateEpisode(dir) {
   const quotes = digest.quotes || [];
   const results = quotes.map((q) => checkQuote(q, ctx));
   const passed = results.filter((r) => r.pass).length;
-  return { total: results.length, passed, allPass: passed === results.length, results };
+  // 防假绿:0 条金句 ≠ 通过(passed===results.length 在空数组时恒真 → 无金句的稿子会「全过」)。
+  // 依 GLM 20260717-011 [8] 顺藤发现。金句是 US-11 的兑现物,一条都没有就是没兑现。
+  const allPass = results.length > 0 && passed === results.length;
+  return { total: results.length, passed, allPass, results };
 }
 
 // ── CLI:node scripts/gate.mjs <episodeDir> ── 任一金句不过则 exit 1 ──

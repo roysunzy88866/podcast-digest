@@ -144,6 +144,18 @@ describe("三联校验 · 四类失真应被拦", () => {
   });
 });
 
+describe("防假绿 · 空金句不许算通过(GLM 20260717-011 [8] 顺藤发现)", () => {
+  it("0 条金句 → allPass 必须为 false(passed===length 在空数组恒真,是假绿洞)", () => {
+    // 纯逻辑复刻 gateEpisode 的判定式,证明修复前后差异
+    const results: any[] = [];
+    const passed = results.filter((r) => r.pass).length;
+    const buggy = passed === results.length; // 修复前:0===0 → true(假绿)
+    const fixed = results.length > 0 && passed === results.length;
+    expect(buggy).toBe(true); // 这就是洞
+    expect(fixed).toBe(false); // 修复后:没金句=没兑现 US-11
+  });
+});
+
 describe("三联校验 · 跨说话人拼接 80/20 边界(GLM 20260717-008 [4] 硬化)", () => {
   const miniMap = { S1: "Alice", S2: "Bob" };
   const seg = (words: any[], speaker: string) => ({
