@@ -12,7 +12,10 @@ import { gateEpisode } from "./gate.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const DIR = process.argv[2] || "data/episodes/2026-07-08-latent-space-modal";
-const id = "2026-07-08-latent-space-modal";
+// 集 id 与锚点全部**从 meta 取**,不写死本集常量。
+// (C2 交付物审计:此前 DIR 收参数而 id 写死 → 校验第二集时会去读**第一集**的页面并报 ✅ 假绿)
+const metaTop = JSON.parse(readFileSync(join(root, DIR, "meta.json"), "utf8"));
+const id = metaTop.id;
 let ok = true;
 const fail = (m) => ((ok = false), console.error("❌ " + m));
 const pass = (m) => console.log("✅ " + m);
@@ -42,9 +45,10 @@ if (!existsSync(page)) {
   const oneQuoteEn = (clean || digest.quotes?.[0]?.en || "").slice(0, 40);
   // 注:原「转写纠错标注(原文误作)」锚点已移除 —— 2026-07-17 用户改标准为「拿得准的直接改对、不标注」
   // (drift-log #3 细化),再硬要求页面出现「原文误作」就是锁死旧标准。
+  // 锚点从 meta 派生,不写死本集字面量(否则第二集会拿第一集的锚点去查,查中了也毫无意义)
   const anchors = [
-    ["标题", "为什么 AI 基础设施必须为"],
-    ["嘉宾", "Akshat Bubna"],
+    ["标题", String(meta.title_zh).slice(0, 12)],
+    ["嘉宾", (meta.guests || [])[0] || ""],
     ["逐字金句(英文侧照原稿)", oneQuoteEn],
     ["闸门声明", "三联校验"],
   ];

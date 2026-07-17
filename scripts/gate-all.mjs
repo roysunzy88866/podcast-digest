@@ -5,10 +5,11 @@
 //   · **缺失≠通过**:已发布的集页(samples/*.md)必须有对应 data/episodes/<id>/digest.json;
 //     删掉 digest 就想让闸门「没东西可查→放行」= 删文件冒充通过,必须拦。
 //   · 单集解析/校验抛异常 → 记为该集不过并继续查其它集,最后 exit 1;不让异常炸穿成栈回溯。
-import { readdirSync, existsSync } from "node:fs";
+import { readdirSync, existsSync, readFileSync } from "node:fs";
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { gateEpisode } from "./gate.mjs";
+import { renderEpisode, loadEpisode } from "./render.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const base = join(ROOT, "data/episodes");
@@ -36,7 +37,7 @@ for (const id of publishedIds) {
   }
 }
 
-// ② 逐集跑三联
+// ② 逐集跑三联 + **发布产物一致性**
 for (const id of gatedIds) {
   let g;
   try {
@@ -46,6 +47,28 @@ for (const id of gatedIds) {
     bad++;
     continue;
   }
+
+  // ②b **发布产物必须 == 用过闸门的 digest 重渲染的结果**。
+  //   否则闸门只守中间产物 digest.json,而读者读到的 samples/<id>.md 可被手改/陈旧,
+  //   编造金句照样直达页面(C2 交付物审计实测复现:双门全绿+编造金句上页+页面仍自称过三联)。
+  const sample = join(ROOT, "samples", `${id}.md`);
+  if (existsSync(sample)) {
+    try {
+      const { meta, digest } = loadEpisode(join(base, id));
+      const expected = renderEpisode(meta, digest);
+      const actual = readFileSync(sample, "utf8");
+      if (expected !== actual) {
+        console.error(`[机器闸门门] ❌ ${id}: **集页与过闸门的 digest 对不上**(samples/${id}.md)`);
+        console.error(`              → 有人手改了集页,或 digest 变了没重渲染。集页必须是过闸门 digest 的渲染产物。`);
+        console.error(`              → 修:node scripts/render.mjs data/episodes/${id}`);
+        bad++;
+      }
+    } catch (e) {
+      console.error(`[机器闸门门] ❌ ${id}: 重渲染比对失败:${e.message}`);
+      bad++;
+    }
+  }
+
   if (g.allPass) {
     console.log(`[机器闸门门] ✅ ${id}: ${g.passed}/${g.total} 金句过三联`);
   } else {

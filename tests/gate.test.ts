@@ -2,13 +2,16 @@
 // 三联 = ① 引语逐字命中转写稿(去标点比词流)② 时间戳区间包含 ③ 说话人匹配
 // fixture 全部从**真转写稿**派生,不手造,保证测的是真基准。
 import { describe, it, expect, beforeAll } from "vitest";
-import { readFileSync } from "node:fs";
+import { readFileSync, writeFileSync, mkdtempSync, rmSync } from "node:fs";
+import { join } from "node:path";
+import { tmpdir } from "node:os";
 import {
   norm,
   buildWordStream,
   parseTs,
   findSpan,
   checkQuote,
+  gateEpisode,
 } from "../scripts/gate.mjs";
 
 const DIR = "data/episodes/2026-07-08-latent-space-modal";
@@ -144,15 +147,51 @@ describe("三联校验 · 四类失真应被拦", () => {
   });
 });
 
-describe("防假绿 · 空金句不许算通过(GLM 20260717-011 [8] 顺藤发现)", () => {
-  it("0 条金句 → allPass 必须为 false(passed===length 在空数组恒真,是假绿洞)", () => {
-    // 纯逻辑复刻 gateEpisode 的判定式,证明修复前后差异
-    const results: any[] = [];
-    const passed = results.filter((r) => r.pass).length;
-    const buggy = passed === results.length; // 修复前:0===0 → true(假绿)
-    const fixed = results.length > 0 && passed === results.length;
-    expect(buggy).toBe(true); // 这就是洞
-    expect(fixed).toBe(false); // 修复后:没金句=没兑现 US-11
+describe("防假绿 · 空金句不许算通过(C2 交付物审计:原测试是同义反复,不保护被测代码)", () => {
+  // ⚠️ 教训:原版在测试里把 gateEpisode 的判定式**重抄一遍**再断言,等于测自己写的表达式——
+  // 把 gate.mjs 的修复回退掉,测试照样全绿。真测试必须**调用被测函数本身**。
+  it("gateEpisode 对 0 条金句必须 allPass=false(真调 gateEpisode,回退修复即挂)", () => {
+    const dir = mkdtempSync(join(tmpdir(), "gate-empty-"));
+    writeFileSync(join(dir, "transcript.en.json"), JSON.stringify(transcript));
+    writeFileSync(join(dir, "meta.json"), JSON.stringify(meta));
+    writeFileSync(join(dir, "digest.json"), JSON.stringify({ tldr: "x", digest_md: "y", quotes: [] }));
+    const g = gateEpisode(dir);
+    expect(g.total).toBe(0);
+    expect(g.allPass).toBe(false); // 没金句 = 没兑现 US-11,不许算通过
+    rmSync(dir, { recursive: true, force: true });
+  });
+
+  it("gateEpisode 对真金句仍 allPass=true(证明上一条不是靠一律判否蒙混)", () => {
+    const { a, b } = realRun(12);
+    const q = quoteFromRun(a, b);
+    const dir = mkdtempSync(join(tmpdir(), "gate-ok-"));
+    writeFileSync(join(dir, "transcript.en.json"), JSON.stringify(transcript));
+    writeFileSync(join(dir, "meta.json"), JSON.stringify(meta));
+    writeFileSync(
+      join(dir, "digest.json"),
+      JSON.stringify({ tldr: "x", digest_md: "y", quotes: [{ en: q.text, zh: "译文", timestamp: q.timestamp, speaker: q.speaker }] }),
+    );
+    const g = gateEpisode(dir);
+    expect(g.total).toBe(1);
+    expect(g.allPass).toBe(true);
+    rmSync(dir, { recursive: true, force: true });
+  });
+
+  it("gateEpisode 对编造金句必须 allPass=false", () => {
+    const dir = mkdtempSync(join(tmpdir(), "gate-fake-"));
+    writeFileSync(join(dir, "transcript.en.json"), JSON.stringify(transcript));
+    writeFileSync(join(dir, "meta.json"), JSON.stringify(meta));
+    writeFileSync(
+      join(dir, "digest.json"),
+      JSON.stringify({
+        tldr: "x",
+        digest_md: "y",
+        quotes: [{ en: "We have always known internally that Kubernetes was a total mistake", zh: "编造", timestamp: "12:00", speaker: "Akshat Bubna" }],
+      }),
+    );
+    const g = gateEpisode(dir);
+    expect(g.allPass).toBe(false);
+    rmSync(dir, { recursive: true, force: true });
   });
 });
 

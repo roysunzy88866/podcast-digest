@@ -52,35 +52,60 @@ function extractJson(text) {
   }
 }
 
-const cacheFile = resolve(ROOT, DIR, ".digest-raw.txt");
-let obj = null;
-if (process.env.FORCE !== "1" && existsSync(cacheFile)) {
-  obj = extractJson(readFileSync(cacheFile, "utf8"));
-  if (obj) console.log("(用 .digest-raw.txt 缓存)");
+/** 结构校验(抽成函数:重试循环要用它,不能只在循环外算一次) */
+function validate(o) {
+  const errs = [];
+  if (!o || typeof o !== "object") return ["不是对象"];
+  if (!o.tldr) errs.push("缺 tldr");
+  if (!o.digest_md || o.digest_md.length < 300) errs.push("digest_md 太短或缺");
+  if (!Array.isArray(o.quotes) || o.quotes.length < 4) errs.push("quotes 少于 4 条");
+  for (const [i, q] of (o.quotes || []).entries()) {
+    for (const k of ["en", "zh", "timestamp", "speaker"]) if (!q?.[k]) errs.push(`quote#${i + 1} 缺 ${k}`);
+  }
+  return errs;
 }
+
+// ── 先校验后写(与 judge-quotes / repair-quotes 同一纪律;C2 交付物审计:本脚本此前是唯一没照做的)──
+//   此前三重毛病(审计给了干净复现):
+//   ① writeFileSync(digest.json) 在校验之前 → 坏输出把仓库里的好稿冲掉才 exit 1
+//   ② 缓存也在校验前落盘 → 重跑走缓存分支吃回同一份坏输出,不 FORCE=1 永不自愈,还误导排障
+//     (看起来「GLM 一直坏」,其实 GLM 正常、坏的只有缓存)
+//   ③ 重试条件是 `!obj`,「合法 JSON 但结构不合格」根本不重试 → MAX_RETRY 对最常见失败模式是摆设
+const cacheFile = resolve(ROOT, DIR, ".digest-raw.txt");
+const badCacheFile = resolve(ROOT, DIR, ".digest-raw.bad.txt");
+let obj = null;
+
+// 缓存只在**校验通过**时才认;缓存里是坏内容 → 当没有,重新跑
+if (process.env.FORCE !== "1" && existsSync(cacheFile)) {
+  const cached = extractJson(readFileSync(cacheFile, "utf8"));
+  if (cached && validate(cached).length === 0) {
+    obj = cached;
+    console.log("(用 .digest-raw.txt 缓存)");
+  } else if (cached) {
+    console.error("⚠️ 缓存内容结构不合格 → 忽略缓存重新跑(不吃毒缓存)");
+  }
+}
+
 for (let attempt = 0; attempt <= MAX_RETRY && !obj; attempt++) {
   console.log(`浓缩:GLM-5.2 整读 ${tr.length} 段双语稿… (第 ${attempt + 1} 次)`);
   const raw = await glmAsk(SYS, INPUT);
-  writeFileSync(cacheFile, raw);
-  obj = extractJson(raw);
-  if (!obj && attempt === MAX_RETRY) {
-    console.error("❌ 浓缩输出非合法 JSON,已存 .digest-raw.txt,人工看");
-    process.exit(1);
+  const cand = extractJson(raw);
+  const errs = cand ? validate(cand) : ["非合法 JSON"];
+  if (errs.length === 0) {
+    obj = cand;
+    writeFileSync(cacheFile, raw); // ← 只缓存合格产物
+    break;
   }
-  if (!obj) console.error("  输出非 JSON,重试");
+  writeFileSync(badCacheFile, raw); // 坏输出单独留档排障,**不参与缓存命中**
+  console.error(`  第 ${attempt + 1} 次输出不合格(${errs.join(" / ")})${attempt < MAX_RETRY ? ",重试" : ""}`);
 }
 
-// 基本校验
-const errs = [];
-if (!obj.tldr) errs.push("缺 tldr");
-if (!obj.digest_md || obj.digest_md.length < 300) errs.push("digest_md 太短或缺");
-if (!Array.isArray(obj.quotes) || obj.quotes.length < 4) errs.push("quotes 少于 4 条");
-for (const [i, q] of (obj.quotes || []).entries()) {
-  for (const k of ["en", "zh", "timestamp", "speaker"]) if (!q[k]) errs.push(`quote#${i + 1} 缺 ${k}`);
-}
-writeFileSync(resolve(ROOT, DIR, "digest.json"), JSON.stringify(obj, null, 2));
-console.log(`✅ digest.json: tldr(${obj.tldr?.length}字) digest_md(${obj.digest_md?.length}字) quotes(${obj.quotes?.length}条)`);
-if (errs.length) {
-  console.error("⚠️ 结构问题:", errs.join(" / "));
+if (!obj) {
+  console.error(`❌ 浓缩连试 ${MAX_RETRY + 1} 次仍不合格。坏输出存 .digest-raw.bad.txt 供人看。`);
+  console.error(`   digest.json **未改动**(不拿坏稿冲掉仓库里的好稿)。`);
   process.exit(1);
 }
+
+// 到这里必定已通过校验,才写、才敢打 ✅
+writeFileSync(resolve(ROOT, DIR, "digest.json"), JSON.stringify(obj, null, 2));
+console.log(`✅ digest.json: tldr(${obj.tldr.length}字) digest_md(${obj.digest_md.length}字) quotes(${obj.quotes.length}条)`);
