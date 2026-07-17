@@ -27,11 +27,21 @@ import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { norm, buildWordStream, parseTs } from "./gate.mjs";
 
-/** 【背景】= 共识明定的 AI 补充块(对读者已标注)→ D17 不比对它。整行剥掉。 */
+/**
+ * 【背景】= 共识明定的 AI 补充块(对读者已标注)→ D17 不比对它。整行剥掉。
+ *
+ * ⚠️ 必须**只认行首标记**(允许 markdown 引用前缀 `>` 与空白),不能用 `includes('【背景】')`:
+ * 首版就是 includes,被 GLM 检查员 20260717-014[1] 逮到 —— 实测
+ * 「我们讨论了【背景】知识,并虚构了公司 Snowflake」整行被剥光,**该行所有编造全部逃过 D17**。
+ * 即:只要把「【背景】」四个字插进任意一行,那行就免检 —— 等于给 D17 开了个后门。
+ * 现在只剥「整行就是一个【背景】块」的行,行中间提到这四个字的正文照查。
+ */
+const BACKGROUND_LINE_RE = /^\s*(?:>+\s*)*(?:[-*+]\s*)?【背景】/;
+
 export function stripBackground(md) {
   return String(md)
     .split("\n")
-    .filter((line) => !line.includes("【背景】"))
+    .filter((line) => !BACKGROUND_LINE_RE.test(line))
     .join("\n");
 }
 
@@ -236,6 +246,9 @@ export function parseInlineTimestamps(md) {
  */
 export function checkInlineTimestamp(t, ctx, { minWords = 2, pointGrace = 5 } = {}) {
   if (!Number.isFinite(t.start) || !Number.isFinite(t.end)) return { pass: false, reason: "时间戳解析失败" };
+  // 负向区间([19:00-10:00 X]):实测本就会被后续检查拦下(GLM 20260717-014[3] 说的「绕过」不成立),
+  // 但拦下的理由会是莫名其妙的「说话人不对」。显式判掉,让报错说人话。
+  if (t.end < t.start) return { pass: false, reason: `时间戳区间倒置(${t.start}s > ${t.end}s)` };
   if (t.start < 0 || t.start > ctx.maxEnd) return { pass: false, reason: `区间超出转写稿范围(0~${ctx.maxEnd.toFixed(1)}s)` };
 
   // ── 单点 vs 区间:两种断言强度不同,判据也不同(拿真数据校正过两轮)──

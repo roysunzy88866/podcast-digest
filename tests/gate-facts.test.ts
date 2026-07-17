@@ -65,6 +65,19 @@ describe("stripBackground · 【背景】是声明过的 AI 补充,D17 不比对
   it("没有【背景】时原样返回", () => {
     expect(stripBackground("纯正文 Modal")).toContain("Modal");
   });
+
+  it("★ 行中间提到「【背景】」四个字的正文,不许整行免检(GLM 20260717-014[1] 逮到的真后门)", () => {
+    // 首版用 includes('【背景】') → 这一行被整行剥光,行内的编造全部逃过 D17。
+    // 即:只要把这四个字插进任意一行,那行就免检 = D17 的后门。
+    const md = "我们讨论了【背景】知识,并虚构了公司 Snowflake";
+    expect(stripBackground(md)).toContain("Snowflake");
+  });
+
+  it("★ 真正的【背景】块(行首,含 markdown 引用前缀)仍要剥掉", () => {
+    expect(stripBackground("> 【背景】HTAP 是圣杯")).not.toContain("HTAP");
+    expect(stripBackground("【背景】HTAP 是圣杯")).not.toContain("HTAP");
+    expect(stripBackground("  >> 【背景】HTAP 是圣杯")).not.toContain("HTAP");
+  });
 });
 
 describe("buildFactIndex · 真相源 = 转写稿 ∪ meta 有出处字段 ∪ 别名表", () => {
@@ -309,6 +322,13 @@ describe("gateFacts · 端到端拦截(每条 = 一次真攻击)", () => {
     const r = gateFacts(dir, { aliasesPath });
     expect(r.pass).toBe(false);
     expect(r.failures.some((f: any) => f.kind === "D8-时间戳")).toBe(true);
+  });
+
+  it("★ 端到端复现 GLM 20260717-014[1]:靠行内插「【背景】」免检 → 必须仍被拦", () => {
+    const { dir, aliasesPath } = writeEp("bgbypass", "我们讨论了【背景】知识,并虚构了公司 Snowflake。");
+    const r = gateFacts(dir, { aliasesPath });
+    expect(r.pass).toBe(false);
+    expect(r.failures.some((f: any) => f.name === "Snowflake")).toBe(true);
   });
 
   it("★ 【背景】里的外部知识不被 D17 误杀,但其中的时间戳仍被 D8 校验", () => {
