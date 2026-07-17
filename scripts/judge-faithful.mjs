@@ -69,14 +69,29 @@ function glmAsk(system, input, maxTokens = 16, timeoutMs = 90000) {
 
 // 免费档 1 QPS + 常 529 → 串行 + 指数退避
 let unreachable = 0;
+let consecutiveFail = 0;
+let tripped = false; // 熔断
+const TRIP_AFTER = 3; // 连续 N 次调用全废 → 判定判官不可达,别再退避重试
+
 async function ask(system, input) {
+  // 熔断后直接认栽:判官不可达时不该把流水线吊死
+  // (实测:5 重试 × 退避 22.5s × 每条 2 项 × N 条金句 ≈ 10 分钟才认输,不可接受)
+  if (tripped) { unreachable++; return null; }
   for (let i = 0; i < MAX_RETRY; i++) {
     try {
       const raw = String(await glmAsk(system, input)).trim();
       if (/529|overloaded|访问量过大/.test(raw)) throw new Error("529 过载");
+      consecutiveFail = 0;
       return raw;
     } catch (e) {
-      if (i === MAX_RETRY - 1) { unreachable++; return null; }
+      if (i === MAX_RETRY - 1) {
+        unreachable++;
+        if (++consecutiveFail >= TRIP_AFTER) {
+          tripped = true;
+          console.error(`⚠️ 连续 ${TRIP_AFTER} 条调用全废 → 判定判官(${JUDGE_MODEL})不可达,停止重试,剩余按「判不出」处理`);
+        }
+        return null;
+      }
       await sleep(1500 * Math.pow(2, i)); // 1.5s,3s,6s,12s
     }
   }
@@ -178,11 +193,16 @@ for (const [i, q] of (digest.quotes || []).entries()) {
       .join(" + ");
     console.log(`  ⚠️ ${label} 判官提醒:${why}(**不自动删**,请人看)`);
     report.flagged.push({ i: i + 1, timestamp: q.timestamp, why, zh: q.zh.slice(0, 60) });
+  } else if (a === null && b === null) {
+    // **判不出 ≠ 无异议**(依 GLM 20260717-013 [2]):两项都判不出(调用失败/超时/答非所问)时,
+    // 判官根本没表过态。此前把它算进 clean 并打「✓ 无异议」,等于**判官没跑却报无异议**——
+    // 又一个假绿;还让「全程不可达」的 ⛔ 分支永不触发(clean.length>0)。
+    console.log(`  ？ ${label} 判官判不出(调用失败/答非所问)—— 不算无异议`);
+    report.undecided.push({ i: i + 1, timestamp: q.timestamp });
   } else {
     console.log(`  ✓ ${label} 判官无异议(忠实=${a ?? "判不出"} / 断章=${b ?? "判不出"})`);
     report.clean.push({ i: i + 1, timestamp: q.timestamp, faithful: a, out_of_context: b });
   }
-  if (a === null && b === null) report.undecided.push({ i: i + 1, timestamp: q.timestamp });
 }
 
 report.unreachable = unreachable;

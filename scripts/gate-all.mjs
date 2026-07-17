@@ -52,7 +52,11 @@ for (const id of gatedIds) {
   //   否则闸门只守中间产物 digest.json,而读者读到的 samples/<id>.md 可被手改/陈旧,
   //   编造金句照样直达页面(C2 交付物审计实测复现:双门全绿+编造金句上页+页面仍自称过三联)。
   const sample = join(ROOT, "samples", `${id}.md`);
-  if (existsSync(sample)) {
+  if (!existsSync(sample)) {
+    // 有过闸门的 digest 却没集页 = 该集没发布(不是失真,不拦);但要出声,别让「跳过检查」看着像「通过」
+    // (依 GLM 20260717-013 [1];注:真发布路径是 samples→site/content→build,没 samples 就没页面)
+    console.log(`[机器闸门门] ℹ️ ${id}: 有 digest 但无集页 samples/${id}.md(未发布)→ 跳过发布产物一致性检查`);
+  } else {
     try {
       const { meta, digest } = loadEpisode(join(base, id));
       const expected = renderEpisode(meta, digest);
