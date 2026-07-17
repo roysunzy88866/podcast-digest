@@ -234,17 +234,25 @@ export function parseInlineTimestamps(md) {
  * 被标注的嘉宾在区间内 0 词,过不了第一条。
  * 噪声容忍:区间内发言 <2 词的人不计入「真讲过话」(对齐 gate.mjs 的 crossRun<2 口径)。
  */
-export function checkInlineTimestamp(t, ctx, { minWords = 2, tsGrace = 1.5 } = {}) {
+export function checkInlineTimestamp(t, ctx, { minWords = 2, pointGrace = 5 } = {}) {
   if (!Number.isFinite(t.start) || !Number.isFinite(t.end)) return { pass: false, reason: "时间戳解析失败" };
   if (t.start < 0 || t.start > ctx.maxEnd) return { pass: false, reason: `区间超出转写稿范围(0~${ctx.maxEnd.toFixed(1)}s)` };
 
-  // 单点时间戳(如 [48:34 X])跨度≈一个词,直接比对必然判不出主说话人 → 给 tsGrace 宽限窗,
-  // 与 gate.mjs 金句时间戳的既有口径(tsGrace=1.5)一致,不另立一套。
-  // 真实案例:集1 [48:34 Akshat] 指的是 Akshat 的回答,而 48:34.0 那一刻主持人的问句
-  // 「...what happened?」还差 0.12s 才说完,Akshat 0.76s 后才开口 —— 这是边界毛刺,不是编造。
+  // ── 单点 vs 区间:两种断言强度不同,判据也不同(拿真数据校正过两轮)──
+  // **区间** [a-b X] = 「这段话在 a~b 之间、由 X 说」→ 强断言 → 用主说话人口径(见下)。
+  // **单点** [t X]   = 「X 大概在 t 附近说了这个」→ 本就是粗略坐标,要求 X 在**某一瞬间**占主导
+  //   是过度解读。故:给 ±pointGrace 窗,且**只查「X 真在这附近开口」**,不要求占主导。
+  //
+  // 为什么这么定(两条真实误报逼出来的,都不是编造):
+  //   · 集2 [06:25 Reynold]:Reynold 确实讲了这段(『I was driving...』『Whenever I hit the red light』),
+  //     但 06:25=385s 正好压在主持人插话(382~386s)的尾巴上,Reynold 386s 才接回去 —— 归属对、时间戳偏 1s。
+  //   · 集1 [50:24 Akshat]:Akshat 原话就在 3020~3036s(『a completely custom model architecture...』),
+  //     可 ±1.5s 窄窗里**逐词 diarization 把个别词标成了 swyx** → 误判主说话人。
+  // 代价(诚实交底):单点时间戳的 D8 因此**弱于**区间——凭空把话安给一个「附近确实开过口」的人,
+  //   单点形式抓不住。区间形式仍是强判定。这是精度换误报率:窄窗会让闸门天天误报→天天放行→摆设。
   const isPoint = t.end - t.start < 1;
-  const lo = isPoint ? t.start - tsGrace : t.start;
-  const hi = isPoint ? t.end + tsGrace : t.end;
+  const lo = isPoint ? t.start - pointGrace : t.start;
+  const hi = isPoint ? t.end + pointGrace : t.end;
 
   const words = ctx.stream.filter((w) => w.start < hi + 0.001 && w.end > lo - 0.001);
   if (!words.length) return { pass: false, reason: "该区间在转写稿里没有任何词(疑编造区间)" };
@@ -270,8 +278,8 @@ export function checkInlineTimestamp(t, ctx, { minWords = 2, tsGrace = 1.5 } = {
       dominant,
     };
 
-  // ② 主说话人不能被隐去
-  if (dominant && !t.speakers.includes(dominant))
+  // ② 主说话人不能被隐去 —— **只对区间生效**(单点是粗略坐标,见上方说明)
+  if (!isPoint && dominant && !t.speakers.includes(dominant))
     return {
       pass: false,
       reason: `说话人不符:该区间主说话人是「${dominant}」,却只标了「${t.speakers.join(" / ")}」`,

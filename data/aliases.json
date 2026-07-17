@@ -88,6 +88,46 @@
       "evidence": "集1 meta.known_transcript_errors_sample 明列 Nsight→inside(NVIDIA 的性能分析工具被听成 inside)"
     },
     {
+      "id": "erik",
+      "type": "person",
+      "name": "Erik",
+      "file": "Erik",
+      "forms": ["Erik", "Eric"],
+      "evidence": "Modal CEO。集1 meta.known_transcript_errors_sample **明列 Erik→Eric**;转写稿实测『Erik』0 次、只有『eric』(『i actually first met eric who's ceo through an investor』)。⚠️ 流程教训:这条本该在首建别名表时就从 meta 的已知错字清单自动灌进来,我手搓时漏了 → 见 D24"
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "forms": ["Kubernetes", "K8s", "k8s"],
+      "evidence": "集1 转写稿实测只写全称『Kubernetes』,缩写 k8s 0 次;正文用缩写属常见写法 → 不登记则误杀"
+    },
+    {
+      "id": "xgboost",
+      "type": "concept",
+      "name": "XGBoost",
+      "file": "XGBoost",
+      "forms": ["XGBoost", "xd boost"],
+      "evidence": "集1 转写稿实测误作『xd boost』(『running xd boost and whatnot』),正确形 0 次"
+    },
+    {
+      "id": "ona",
+      "type": "company",
+      "name": "Ona",
+      "file": "Ona",
+      "forms": ["Ona", "owner"],
+      "evidence": "Gitpod 更名后的名字。集1 转写稿实测误作『owner』(『gitpod rebranded to owner』),『Ona』0 次 —— 官方稿把 Ona 听成了 owner"
+    },
+    {
+      "id": "cicd",
+      "type": "concept",
+      "name": "CI/CD",
+      "file": "CI-CD",
+      "forms": ["CI/CD", "CICD", "CI CD", "CI", "CD"],
+      "evidence": "集1 转写稿实测连写作『CICD』(『They're in the CICD market』)。正文写『CI/CD』时抽词按斜杠切成 CI + CD 两个 token,故 forms 必须**同时登记切开后的 CI 和 CD**,否则查不到本实体 → 再由 CICD 这个 form 回原文命中"
+    },
+    {
       "id": "omnigen",
       "type": "concept",
       "name": "Omnigen",

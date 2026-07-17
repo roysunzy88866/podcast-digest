@@ -9,6 +9,7 @@ import { readdirSync, existsSync, readFileSync } from "node:fs";
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { gateEpisode } from "./gate.mjs";
+import { gateFacts } from "./gate-facts.mjs";
 import { renderEpisode, loadEpisode } from "./render.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
@@ -71,6 +72,27 @@ for (const id of gatedIds) {
       console.error(`[机器闸门门] ❌ ${id}: 重渲染比对失败:${e.message}`);
       bad++;
     }
+  }
+
+  // ②c **事实层闸门(C3)**:D17 专名/数字回原文 + D8 正文内联时间戳。
+  //   三联只卡 quotes[],而读者读的**导读正文**在 C2 时不过任何闸门(D19)。这一层补上。
+  //   fail-closed:执行失败(别名表/digest 损坏)= 不过,不静默放行。
+  try {
+    const f = gateFacts(join(base, id));
+    if (f.pass) {
+      console.log(
+        `[机器闸门门] ✅ ${id}: 事实层过(专名 ${f.nouns.length}/${f.nouns.length}、数字 ${f.numbers.length}、时间戳 ${f.timestamps.length})`,
+      );
+    } else {
+      console.error(`[机器闸门门] ❌ ${id}: **导读正文事实层未过**(${f.failures.length} 条):`);
+      for (const x of f.failures.slice(0, 8)) console.error(`   [${x.kind}] ${x.name ?? x.raw ?? ""} — ${x.reason ?? ""}`);
+      console.error(`              → 详情:node scripts/gate-facts.mjs data/episodes/${id}`);
+      console.error(`              → 若是官方稿听错导致的误报,把书写形式登记进 data/aliases.json(带出处)`);
+      bad++;
+    }
+  } catch (e) {
+    console.error(`[机器闸门门] ❌ ${id}: 事实层闸门执行失败(fail-closed,不放行):${e.message}`);
+    bad++;
   }
 
   if (g.allPass) {

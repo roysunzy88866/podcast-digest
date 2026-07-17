@@ -180,11 +180,32 @@ describe("checkInlineTimestamp · D8(硬拦)+ 部分收窄 D19", () => {
     expect(r.reason).toMatch(/区间|范围/);
   });
 
-  it("★ 单点时间戳:靠 tsGrace 宽限窗判主说话人(跨度≈一个词,不宽限则永远判不出)", () => {
+  it("★ 单点时间戳:靠宽限窗判「被标注者真在附近开口」(跨度≈一个词,不宽限则永远判不出)", () => {
     // 8s 处:第1段(Akshat)刚在 8s 收尾,单点直接比对只够碰到 1 个词 → 达不到 minWords。
-    // 宽限窗 ±1.5s 后能看清这一带是 Akshat 在讲 → 过。真实案例见 gate-facts.mjs 注释(集1 [48:34])。
+    // 宽限窗后能看清这一带 Akshat 真开过口 → 过。真实案例见 gate-facts.mjs 注释(集1 [48:34]/[50:24]、集2 [06:25])。
     const r = checkInlineTimestamp({ start: 8, end: 8, speakers: ["Akshat Bubna"], raw: "x" }, c);
     expect(r.pass).toBe(true);
+  });
+
+  it("★ 单点不要求瞬时占主导(否则旁人一句插话/逐词噪声就误判)", () => {
+    // 10~19s 主说话人是主持人,但 Akshat 在 ±5s 窗内(0~8s)真开过口 → 单点形式放行。
+    // 这是**有意为之的弱化**:单点 [t X] 只断言「X 大概在 t 附近说过」,不断言「t 那一刻 X 占主导」。
+    // 代价已在 gate-facts.mjs 与 docs 交底:单点形式的 D8 弱于区间形式。
+    const r = checkInlineTimestamp({ start: 11, end: 11, speakers: ["Akshat Bubna"], raw: "x" }, c);
+    expect(r.pass).toBe(true);
+  });
+
+  it("★ 但单点仍要拦「被标注者附近根本没开口」(移花接木的硬核心不放过)", () => {
+    // 20~26s 只有 Akshat;把话安给附近完全没开口的主持人 → 拦
+    const r = checkInlineTimestamp({ start: 24, end: 24, speakers: ["主持人"], raw: "x" }, c);
+    expect(r.pass).toBe(false);
+    expect(r.reason).toMatch(/没讲话|说话人/);
+  });
+
+  it("★ 区间形式仍是强判定:主说话人被隐去照拦(弱化只限单点)", () => {
+    const r = checkInlineTimestamp({ start: 0, end: 19, speakers: ["Akshat Bubna"], raw: "x" }, c);
+    expect(r.pass).toBe(false);
+    expect(r.reason).toMatch(/主说话人/);
   });
 
   it("★ 区间在范围内、落在静音空档、且没标说话人 → 仍要拦(「区间内无词」这条判定的唯一守区)", () => {

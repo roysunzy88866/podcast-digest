@@ -1,13 +1,7 @@
 {
-  "tldr": "Databricks 两位创始人解析 AI 时代的云架构:从智能体系统、开源战略到重塑数据库。",
-  "digest_md": "Databricks 的 Data + AI Summit 从最初在 Berkeley 的几十人技术聚会,成长为如今吸引全球十万人规模的行业大会。在这场访谈中,联合创始人 Matei Zaharia 与 Reynold Xin 深入拆解了 Databricks 最新发布的几项核心技术产品。整场对话围绕一条清晰的主线展开:**在 AI 和智能体时代,如何构建一个既能兼顾严密安全治理、又能提供极致系统性能的统一底层架构?**\n\n### 智能体时代的「操作系统」: Omnigen\n\nDatabricks 内部观察到的一个痛点催生了 Omnigen:当工程师们开始使用编程智能体时,他们发现自己陷入了「黑暗时代」——为了保持智能体在本地持续运行,人们甚至需要在开车等红灯时,把笔记本电脑连着手机热点盯着屏幕 [06:25 Reynold Xin]。\n\nMatei 指出,企业内部曾同时跑着五六个不同团队自研的智能体框架,大家都面临同样的困境:如果智能体不能安全地共享会话历史,且每隔几个月就要因底层大模型更迭而重新配置整套运行环境,它的实际业务价值就大打折扣 [03:21 Matei Zaharia]。\n\nOmnigen 的核心定位并非又一个智能体编排框架,而是**一套横跨所有智能体的通用 API 与云服务环境**。它包含一个运行在云端的计算沙箱,开发者可以在其中快速运行各种来源的智能体,而不必担心本地机器关机导致任务中断。更重要的是,它试图解决企业级应用中最棘手的安全问题。\n\n### 破解安全与可用性的零和博弈\n\n谈到智能体的安全控制时,Matei 提出了一个反直觉的洞察:现有的编程智能体大多采用是非黑即白的静态策略(例如「是否允许执行 Bash 脚本」「是否允许读取机密文件」),这让安全性与可用性变成了死敌 [18:35 Matei Zaharia]。\n\n为了打破这种僵局,Omnigen 引入了**上下文策略(Contextual Policies,即一种有状态的安全治理机制)**。系统会实时追踪智能体会话的完整生命周期。如果智能体只是偶尔读取单份机密文档,系统或许会放行;但如果它突然在 NPM 上安装了极新的可疑软件包,同时又批量读取了上千份机密文档,这种高风险的上下文组合就会触发拦截 [19:20 Matei Zaharia]。\n\n同样的状态追踪也用于成本控制。由于系统天然掌握会话状态,开发者可以直接给智能体下达带有硬性预算限制的任务(例如「限制花费在 5 美元以内」)。如果智能体为了读日志开始疯狂消耗 token,系统会主动暂停并请求人类授权 [21:02 Matei Zaharia]。\n\n> 【背景】**MCP (Model Context Protocol)** 是一种让大语言模型标准化连接外部数据源和工具的开放协议。Matei 提到,内部仅对接 Google Drive 的 MCP server 就包含 60 个细粒度的 API 调用,单靠人力很难分辨哪个调用会无意间将内部文档暴露给公网。因此 Omnigen 允许开发者编写高层策略库,自动解析底层事件,让安全治理具备可组合性。\n\n### 为什么选择开源?\n\nDatabricks 此次将 Omnigen 的核心层完全开源(仅在周六发布几天后,就收到了近 400 个外部合并请求,包括大量多沙箱集成 [11:56 Matei Zaharia])。Matei 透露了 Databricks 的开源判断标准:**如果某个技术层能通过网络效应从多方协作中获益,就该开源**。\n\n这与当年开源 Spark 的逻辑一脉相承:数据连接器和安全策略函数库越丰富,平台价值越高。相反,那些必须依赖专人 7×24 小时值守保障(例如确保流处理管道半夜不丢数据)的运维级服务,才是专有商业化的范畴 [11:12 Matei Zaharia]。\n\n### 打破数据库的圣杯迷思: LTAP\n\n访谈的另一重磅话题是 LTAP(被 Databricks 视为做对了的 HTAP)。\n\n> 【背景】**HTAP (Hybrid Transactional/Analytical Processing,混合事务/分析处理)** 旨在用单一数据库同时扛住高并发的事务写入(OLTP,如订单流转)与海量数据的复杂扫描分析(OLAP,如全年营收核算)。这是数据库界几十年来的「圣杯」,但往往因为两头做不好而变成妥协 [31:16 Reynold Xin]。\n\n> 【背景】传统架构中,为了不把生产数据库压垮,企业通常使用 **CDC (Change Data Capture,变更数据捕获)** 工具,持续把数据库的变更增量同步到专门的分析系统中。Reynold 坦言这是驱动现代社会的最基础操作,但也极其脆弱,被从业者戏称为「持续数据损坏」 [30:30 Reynold Xin]。\n\nDatabricks 提出的 LTAP 方案绕开了重新造一个缝合怪引擎的陷阱:**只在存储层统一,查询引擎仍保持独立**。具体实现路径极具极客色彩:Ali 和 Reynold 曾在无数次会议上争论能否直接将 Postgres 的行存数据写成 Parquet 列存格式。最终,一位工程师没有再写设计文档,而是直接写了一个原型——利用空闲的 CPU 算力在底层做行列转码,不仅没有引入额外开销,因为列式压缩率更高,写入对象存储的速度反而更快 [35:01 Reynold Xin]。\n\nReynold 还指出,LTAP 对于 AI 智能体可能是巨大的赋能:过去遇到 SLA(服务等级协议)下跌,智能体只能看到外部服务监控的皮毛遥测数据;如果智能体能直接下钻查询数据库的实时数据状态(比如到底是谁在疯狂下单),其排查问题的能力将提升十倍 [32:45 Reynold Xin]。\n\n### Dream Engine: 用机器学习重造数据库引擎\n\n在更深层的系统底座上,Databricks 启动了被戏称为 Dream Engine 的野心项目:从零重写分析型数据库引擎。\n\n Reynold 指出,市面上主流的分析数据库都有十年历史,经过长期打补丁式的演化,已经积重难返 [44:00 Reynold Xin]。Databricks 没有单纯依赖学术算法来重造轮子,而是**构建了一座「数据库工厂」**:他们收集了过去十年高达百万的四次方级别的真实查询追踪数据,训练出一个机器学习模型。这个模型能够以极高的保真度,预测特定算法和结构在特定数据分布(甚至是字符串的稀疏度)下的性能表现 [46:31 Reynold Xin]。\n\n> 【背景】提到软件工程史上的**第二系统综合征(Second-system effect)**:开发者们在成功推出第一个系统后,往往会在第二代产品中倾注所有完美主义幻想,导致项目因极度臃肿而难产甚至失败。Reynold 庆幸团队凭借过硬的经验规避了这一陷阱 [45:06 Reynold Xin]。\n\n### 为什么 Databricks 跑赢了 Snowflake?\n\n面对主持人极其直接的战略对比提问,Reynold 给出了两个核心差异:第一是**坚持开放格式**,Databricks 从 Parquet 起家,演进到 Delta 与 Iceberg;第二是**Day 1 就将机器学习纳入核心版图** [53:04 Reynold Xin]。\n\nMatei 补充了一个绝妙的定位隐喻:Snowflake 起初希望盘活最核心、最高价值的数据并做到极速查询,而 Databricks 则选择从上游「粗笨」的大批量数据摄取与处理做起,然后再逐步向下优化 [54:19 Matei Zaharia]。事实证明,在上游稳固地基后向下兼容,远比从精致的小池塘向上游扩张要顺畅得多。最终,客户对开放格式与单一数据底座的渴望,让历史的天平倒向了 Databricks。\n\n### 模型战略: 不卷通用大模型,聚焦垂直智能体\n\n关于收购 MosaicML 后的路线转变,Matei 坦言:开源社区会不断发布强大的通用底座,与其拼算力卷通用前沿大模型,Databricks 更想把精力花在**如何让模型在实际业务中真正发挥作用** [58:59 Matei Zaharia]。例如,他们专门训练了用于解析 PDF/Word 等复杂非结构化文档的视觉模型,其成本仅为调用前沿大模型的百分之一,但准确率更高;同时也在研发作为编码智能体辅助大脑的「顾问模型(Advisor Models)」 [60:44 Matei Zaharia]。",
+  "tldr": "Databricks 剖析 Omnigen 智能体平台、LTAP 数据库架构与 Dream Engine 的技术革新与文化。",
+  "digest_md": "Databricks 联合创始人 Reynold Xin 与 CTO Matei Zaharia 做客播客，深入探讨了公司近期发布的一系列重磅产品。整场对话围绕三大主线展开：如何为 AI 智能体构建统一的运行环境（Omnigen）、如何打破传统数据库的架构瓶颈（LTAP），以及如何用数据驱动重写底层引擎（Dream Engine）。\n\n## 智能体时代的「操作系统」：Omnigen\n随着编程智能体（如处理代码的 Codex 或 Cursor）和数据分析智能体的大量涌现，开发团队面临着严重的碎片化问题。Matei 指出，不同团队各自搭建的智能体工作流每隔几个月就需要切换底层模型和配套环境，且如果无法安全地共享会话与历史记录，智能体的效用将大打折扣 [03:21 Matei Zaharia]。\n\n这催生了 Omnigen——一个试图充当「智能体云」的基础设施平台。它提供了一个标准化的统一 API，将底层各异的各种智能体框架映射到同一个接口上 [14:12 Matei Zaharia]。此外，Reynold 从切身痛点出发，强调了**云沙箱（一种在云端运行的隔离执行环境，不会因关机而丢失状态）**的重要性。他分享了自己曾为了保持编程智能体不断运行，不得不在开车去诊所的路上，边等红灯边查看用手机热连接的笔记本电脑，这让他感觉「退回到了编程的黑暗时代」，从而坚定了打造持久化云端开发环境的决心 [06:25 Reynold Xin]。\n\n在智能体的核心痛点——**安全性**上，Matei 引入了「上下文策略」的概念。传统的安全护栏往往是非黑即白的（例如允许或禁止读取某文件），但这迫使开发者在可用性与安全性间做极端妥协。上下文策略则是有状态的：它会追踪智能体的操作历史。例如，如果智能体刚安装了一个可能被污染的包，或者读取了上千份机密文档，系统便能基于这些「风险状态」动态阻止后续的危险操作 [19:20 Matei Zaharia]。系统甚至能追踪会话内的 Token 开销，允许开发者硬性限制子智能体的花费（例如上限 5 美元）以防失控消耗 [21:02 Matei Zaharia]。\n\n## 破解数据库「圣杯」：LTAP 架构\n播客的另一大重点是名为 LTAP 的新架构，它旨在解决传统数据架构中事务处理（OLTP，如日常交易记录）与分析处理（OLAP，如大规模统计推理）之间的鸿沟 [28:18 Reynold Xin]。\n\n> 【背景】业界曾长期追求 HTAP（混合事务/分析处理），即用单个数据库引擎同时完美处理这两种任务。但 Reynold 指出，这最终往往沦为大量妥协，导致系统在两端的表现都很糟糕。\n\n为了在分析端处理数据，行业通常依赖 **CDC（变更数据捕获，持续读取数据库日志以同步数据变动的技术）**。但 Reynold 将 CDC 戏称为「持续数据损坏」，因为只要业务端稍微改变数据结构，同步管道就会脆弱地崩溃，让工程师在凌晨三点被叫醒抢修 [30:30 Reynold Xin]。\n\nDatabricks 提出的 LTAP 方案选择了一条中间路线：只统一存储层，不合并查询层。具体而言，他们让 Postgres 数据库直接以列式格式（极其适合统计分析）将数据写入开放的数据湖中。这样，分析引擎可以直接读取这些数据，彻底消除了中间的 CDC 管道 [32:13 Reynold Xin]。这个灵感的实现极其偶然：在工程师们长久争论其可行性时，一位工程师利用存储集群中闲置的 CPU 直接做格式转码并写出了原型，由于压缩率更好，写入速度甚至变快了，辩论就此终结 [35:25 Reynold Xin]。这一架构也使得智能体在进行故障排查时，能够无缝读取数据库内部的真实状态信息，能力得到指数级提升 [33:05 Reynold Xin]。\n\n## 从零重写：Dream Engine 与数据驱动范式\n如果说 LTAP 是架构上的重组，那么 Dream Engine 则是对数据库内核的彻底重写。Reynold 观察到，当前市面上的主流分析型数据库引擎大多有十年历史，经过长期打补丁式的演化，往往已变成「一大堆像屎一样的代码」 [44:26 Reynold Xin]。\n\n为了避免重写系统时常犯的「第二系统综合征（因过度野心和过度设计导致项目失败的常见陷阱）」，Databricks 的工程团队构建了一个「工厂」：他们提取了过去十年海量的真实查询追踪记录，训练出一个机器学习模型 [46:54 Reynold Xin]。这个模型能够以极高的保真度，快速预测任何特定算法在面对特定查询（如高吞吐或低延迟）和数据分布时的真实表现 [47:11 Reynold Xin]。通过这种方式，系统可以在运行时动态调度最适合的底层算法。\n\n## 为什么是 Databricks 胜出？\n在对比 Databricks 与 Snowflake 的发展路径时，两位创始人总结了两条根本差异：开放性与 AI 优先 [53:04 Reynold Xin]。Snowflake 起初专注于为管理者管理小规模、高价值数据，并采用专有格式；而 Databricks 源于大规模数据处理引擎 Spark，坚持从开放格式（如 Parquet）起步，处理最上游的海量粗糙数据（如 JSON 日志），然后再逐步向下优化查询速度 [54:19 Matei Zaharia]。事实证明，「从开放、从大处开始」的策略更符合经历了几十年供应商锁定的传统企业的利益。\n\n在收购 Mosaic（知名开源大模型团队）后的战略选择上，Matei 坦言，尽管他们曾发布过 DBRX 这样的通用大模型，但意识到未来会有无数公司烧钱卷通用模型。因此，Databricks 决定将重心转向「让聪明的模型变得有用」，专注于特定垂直领域的微调，例如开发了成本仅为前沿大模型百分之一、但在解析复杂文档上表现更优的视觉模型 [60:20 Matei Zaharia]。他们认为，随着基础模型推理能力的提升和合成数据技术的成熟，结合企业自身独有的高质量数据上下文，定制化模型将爆发出真正的魔法 [62:21 Matei Zaharia]。",
   "quotes": [
-    {
-      "en": "I mean, the productivity you gained from all this coding age is amazing, but... Have you heard of cloud?",
-      "zh": "我的意思是,你从所有这些编码时代中获得的生产力是惊人的,但是......你听说过云吗?",
-      "timestamp": "06:40",
-      "speaker": "Reynold Xin"
-    },
     {
       "en": "It felt like we went back to the dark ages of programming.",
       "zh": "感觉就像我们回到了编程的黑暗时代。",
@@ -15,9 +9,15 @@
       "speaker": "Reynold Xin"
     },
     {
-      "en": "CDC is one of the most boring, but one of the most fundamental operations powering modern society.",
-      "zh": "CDC 是最无聊的之一,但也是驱动现代社会的最基础的操作之一。",
-      "timestamp": "30:30",
+      "en": "it should be called continuous data corruption because you might change your schema on your LTP database and then the CDC pipeline fails to handle the schema change.",
+      "zh": "说它应该被称为持续数据损坏,因为你可能会在你的 LTP 数据库上更改你的模式,然后 CDC 管道无法处理模式变更。",
+      "timestamp": "30:40",
+      "speaker": "Reynold Xin"
+    },
+    {
+      "en": "It would actually make those agents ten times more powerful if they understand, for example, who's actually placing those orders.",
+      "zh": "如果这些智能体理解了,比如是谁实际在下达这些订单,它们实际上会变得强大十倍。",
+      "timestamp": "33:02",
       "speaker": "Reynold Xin"
     },
     {
@@ -27,30 +27,48 @@
       "speaker": "Reynold Xin"
     },
     {
+      "en": "very few systems, I think, have the gut to say, let's go start from scratch.",
+      "zh": "非常少的公司或非常少的系统,我认为,有胆量说,让我们从头开始吧。",
+      "timestamp": "44:38",
+      "speaker": "Reynold Xin"
+    },
+    {
+      "en": "many of the traditional software will be sort of rewritten. with this new paradigm, which is just get the data to be there and then slap some agent on top.",
+      "zh": "许多传统软件都会被某种程度地重写。用这种新范式,也就是让数据到位,然后在上面附加一些智能体。",
+      "timestamp": "66:31",
+      "speaker": "Reynold Xin"
+    },
+    {
       "en": "Vector database should have never been a separate category.",
       "zh": "向量数据库本不应该是一个单独的类别。",
       "timestamp": "51:18",
       "speaker": "Reynold Xin"
     },
     {
-      "en": "It's probably like 100x cheaper than those frontier models and still better.",
-      "zh": "它可能比那些前沿模型便宜大约 100 倍,而且仍然更好。",
-      "timestamp": "60:52",
-      "speaker": "Matei Zaharia"
+      "en": "The downside of overfitting is much smaller than the upside itself.",
+      "zh": "过拟合的下行风险比上行收益本身要小得多。",
+      "timestamp": "40:47",
+      "speaker": "Reynold Xin"
     }
   ],
   "quotes_candidates": [
     {
-      "en": "I mean, the productivity you gained from all this coding age is amazing, but... Have you heard of cloud?",
-      "zh": "我的意思是,你从所有这些编码时代中获得的生产力是惊人的,但是......你听说过云吗?",
-      "timestamp": "06:40",
+      "en": "And one of the things particularly annoying was having to keep my laptop open.",
+      "zh": "其中一件特别烦人的事是必须保持我的笔记本电脑打开。",
+      "timestamp": "06:07",
       "speaker": "Reynold Xin"
     },
     {
-      "en": "The agent is like completely useless if you can't share sessions with someone and have history and have search and all this like layer on top of it for collaboration.",
-      "zh": "如果你不能与某人共享会话并且拥有历史记录和搜索以及所有这些用于协作的在其之上的层,那么这个智能体就完全没用。",
-      "timestamp": "03:28",
-      "speaker": "Matei Zaharia"
+      "en": "Honestly, I was driving and I was tethering my laptop to my phone, keeping it on the side.",
+      "zh": "说实话,我在开车,我把笔记本电脑连到我的手机上进行网络共享,把它放在一边。",
+      "timestamp": "06:25",
+      "speaker": "Reynold Xin"
+    },
+    {
+      "en": "Whenever I hit the red light, I started looking at what's going on on my laptop and I just felt that was ridiculous.",
+      "zh": "每当我遇到红灯,我就开始看我笔记本电脑上在发生什么,而我就是觉得那太荒谬了。",
+      "timestamp": "06:30",
+      "speaker": "Reynold Xin"
     },
     {
       "en": "It felt like we went back to the dark ages of programming.",
@@ -59,15 +77,21 @@
       "speaker": "Reynold Xin"
     },
     {
-      "en": "I actually asked Somnijen this morning about the- 400 merge already?",
-      "zh": "我实际上今天早上问了 Somnijen 关于——已经 400 个合并了?",
-      "timestamp": "11:56",
-      "speaker": "Matei Zaharia"
+      "en": "I think the modern data stack was a pretty useful thing, probably even up until this day.",
+      "zh": "我认为现代数据栈是一个相当有用的事物,可能甚至直到今天。",
+      "timestamp": "12:54",
+      "speaker": "Reynold Xin"
     },
     {
-      "en": "But it ends up being, I think, many data engineers ends up being waken up at 3 AM because there's some",
-      "zh": "但最终变成了,我认为,许多数据工程师最终会在凌晨 3 点被叫醒,因为有些",
-      "timestamp": "30:15",
+      "en": "And then you eventually want to probably end up running machine learning.",
+      "zh": "然后你最终可能想运行机器学习。",
+      "timestamp": "28:54",
+      "speaker": "Reynold Xin"
+    },
+    {
+      "en": "So you start doing, getting data out of the database, replicate them into the analytic systems.",
+      "zh": "所以你开始做,把数据从数据库里取出来,复制到分析系统中。",
+      "timestamp": "29:33",
       "speaker": "Reynold Xin"
     },
     {
@@ -77,9 +101,9 @@
       "speaker": "Reynold Xin"
     },
     {
-      "en": "But it's so brittle that a weak joke that it should be called continuous data corruption",
-      "zh": "但它是如此脆弱,以至于有一个冷笑话说它应该被称为持续数据损坏",
-      "timestamp": "30:37",
+      "en": "it should be called continuous data corruption because you might change your schema on your LTP database and then the CDC pipeline fails to handle the schema change.",
+      "zh": "说它应该被称为持续数据损坏,因为你可能会在你的 LTP 数据库上更改你的模式,然后 CDC 管道无法处理模式变更。",
+      "timestamp": "30:40",
       "speaker": "Reynold Xin"
     },
     {
@@ -89,9 +113,9 @@
       "speaker": "Reynold Xin"
     },
     {
-      "en": "But it ends up being actually sucking on both.",
+      "en": "So it ends up actually sucking on both.",
       "zh": "所以最终的结果是在两边都很糟糕。",
-      "timestamp": "31:53",
+      "timestamp": "31:55",
       "speaker": "Reynold Xin"
     },
     {
@@ -107,46 +131,82 @@
       "speaker": "Reynold Xin"
     },
     {
-      "en": "I was talking to somebody at Meta, and he was asking me, hey, what's the catch?",
-      "zh": "我当时在和 Meta 的一个人交谈,他问我,嘿,有什么猫腻?",
-      "timestamp": "34:21",
-      "speaker": "Reynold Xin"
-    },
-    {
-      "en": "And then somebody actually went ahead and just tried to prototype it and it worked.",
-      "zh": "但后来有人真的直接去尝试做了原型,而且可行。",
-      "timestamp": "36:03",
-      "speaker": "Reynold Xin"
-    },
-    {
       "en": "after 10 years of organic evolution that way, it becomes a gigantic pile of shit.",
       "zh": "经过十年那样有机的演化,它就变成了一大堆像屎一样的代码。",
       "timestamp": "44:26",
       "speaker": "Reynold Xin"
     },
     {
-      "en": "And then they can pick the most likely algorithm and data structure that will actually help with the different kinds of workloads.",
-      "zh": "他们可以挑选最有可能的算法和数据结构,这将实际上有助于应对不同种类的工作负载。",
-      "timestamp": "47:12",
+      "en": "very few systems, I think, have the gut to say, let's go start from scratch.",
+      "zh": "非常少的公司或非常少的系统,我认为,有胆量说,让我们从头开始吧。",
+      "timestamp": "44:36",
       "speaker": "Reynold Xin"
+    },
+    {
+      "en": "There's a thing called a second system syndrome.",
+      "zh": "有一种东西叫做第二系统综合征。",
+      "timestamp": "45:06",
+      "speaker": "Reynold Xin"
+    },
+    {
+      "en": "And the second one's bound to fail because you become too ambitious.",
+      "zh": "而第二个注定会失败,因为你变得太有野心了。",
+      "timestamp": "45:15",
+      "speaker": "Reynold Xin"
+    },
+    {
+      "en": "many of the traditional software will be sort of rewritten. with this new paradigm, which is just get the data to be there and then slap some agent on top.",
+      "zh": "许多传统软件都会被某种程度地重写。用这种新范式,也就是让数据到位,然后在上面附加一些智能体。",
+      "timestamp": "66:30",
+      "speaker": "Reynold Xin"
+    },
+    {
+      "en": "Magic will come out.",
+      "zh": "魔法就会出来。",
+      "timestamp": "66:40",
+      "speaker": "Reynold Xin"
+    },
+    {
+      "en": "But without the right data, you can't really do that.",
+      "zh": "但没有正确的数据,你无法真正做到这一点。",
+      "timestamp": "66:42",
+      "speaker": "Reynold Xin"
+    },
+    {
+      "en": "we're sort of combining expertise at that layer together with all the AI governance.",
+      "zh": "他正在将那一层的专业知识与所有 AI 治理结合起来。",
+      "timestamp": "21:36",
+      "speaker": "Reynold Xin"
+    },
+    {
+      "en": "I don't want to end up on the front page as like I installed some weird NPM package and leaked all the code.",
+      "zh": "我不想登上头版,就像我安装了某个奇怪的 NPM 包并泄露了所有的代码。",
+      "timestamp": "21:48",
+      "speaker": "Matei Zaharia"
     },
     {
       "en": "Vector database should have never been a separate category.",
       "zh": "向量数据库本不应该是一个单独的类别。",
-      "timestamp": "51:18",
+      "timestamp": "51:21",
       "speaker": "Reynold Xin"
     },
     {
-      "en": "I think he's the perfect combination of IQ, EQ, technology obsession, execution, business acumen.",
-      "zh": "我认为他是 IQ、EQ、技术痴迷、执行力、商业敏锐度的完美结合。",
-      "timestamp": "57:00",
+      "en": "Databricks have never had the proprietary format.",
+      "zh": "Databricks 从来没有专有格式。",
+      "timestamp": "53:15",
       "speaker": "Reynold Xin"
     },
     {
-      "en": "It's probably like 100x cheaper than those frontier models and still better.",
-      "zh": "它可能比那些前沿模型便宜大约 100 倍,而且仍然更好。",
-      "timestamp": "60:52",
+      "en": "I do think model customization, which Sajja talked about, is going to get easier over time.",
+      "zh": "但我确实认为 model 定制,也就是 Sajja 谈到的,随着时间的推移会变得更容易。",
+      "timestamp": "65:03",
       "speaker": "Matei Zaharia"
+    },
+    {
+      "en": "The downside of overfitting is much smaller than the upside itself.",
+      "zh": "过拟合的下行风险比上行收益本身要小得多。",
+      "timestamp": "40:47",
+      "speaker": "Reynold Xin"
     }
   ]
 }
