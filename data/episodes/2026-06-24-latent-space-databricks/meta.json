@@ -1,0 +1,39 @@
+{
+  "id": "2026-06-24-latent-space-databricks",
+  "title_en": "Why the Frontier Ecosystem must be Open — Matei Zaharia and Reynold Xin, Databricks",
+  "title_zh": "为什么前沿生态必须开放",
+  "podcast": "Latent Space",
+  "date": "2026-06-24",
+  "duration_sec": 4123.034333333333,
+  "source_url": "https://www.latent.space/p/databricks",
+  "audio_mp3": "https://api.substack.com/api/v1/audio/upload/a0ac67fb-7585-4558-a588-d0d9976ba084/src",
+  "substack_post_id": 203293676,
+  "host": null,
+  "host_note": "主持人姓名无法确定,依用户 2026-07-17 明示「无法判断这个人是谁就不要录入」→ 只记角色不记姓名。渲染时不得编造名字,也不得打印 'undefined'。",
+  "guests": [
+    "Matei Zaharia",
+    "Reynold Xin"
+  ],
+  "cohosts": [],
+  "speaker_map": {
+    "SPEAKER_01": "Matei Zaharia",
+    "SPEAKER_00": "Reynold Xin",
+    "SPEAKER_02": "主持人"
+  },
+  "speaker_evidence": "【嘉宾=转写稿内证据,非世界知识】SPEAKER_01=Matei Zaharia:#453 SPEAKER_00 说『Matei spent the last five years』→ 紧接 SPEAKER_01 答『That's right, yeah』(认领关于 Matei 的陈述);#1178 SPEAKER_00 说『And Matei spent far more time there than I do』→ 紧接 SPEAKER_01 接话;且 #149 SPEAKER_01 说『I remember Reynolds saying』(第三人称提 Reynold → 他不是 Reynold)。SPEAKER_01 发言最多(5776 词)。SPEAKER_00=Reynold Xin:#118『I was telling Matei』/#453『Matei spent...』/#1178『...than I do』三处均以第三人称提 Matei → 不是 Matei;两位嘉宾中排除法得 Reynold(4400 词)。【主持=只记角色】SPEAKER_02(2634 词)=主持人:#0『Mattia and Reynolds from Databricks.』+#1『Welcome to Alien Space.』(欢迎语)、#4『Thanks for taking time out.』、全程提问 → 角色证据充分;但**姓名在 1508 段转写稿里从未出现**,集页 HTML 与 Substack API(/api/v1/posts/by-id/203293676)均无 publishedBylines 署名 → 机器无法判定。旁证仅间接(#605『our Ankur Goyal episode』、#1060『In my write-up』=他是本播客主持且写 write-up),**不足以定名**。用户 2026-07-17 拍板「无法判断就不要录入」→ 故 speaker_map 只写角色『主持人』,不写 swyx/Vibhu 任何猜测;该角色**不建实体页**(无名字可建)。",
+  "transcript_source": "Substack 官方 aligned transcription.json(说话人标注+逐词时间戳);由 scripts/fetch-source.mjs 取",
+  "transcript_segments": 1508,
+  "known_transcript_errors_sample": [
+    "Matei→Mattia",
+    "Reynold→Reynolds",
+    "Latent Space→Alien Space"
+  ],
+  "known_transcript_errors_evidence": "2026-07-17 对 transcript.en.json 实测统计(非印象):『Mattia』×1 与『Matei』×3 并存(官方稿自己前后不一致);Reynold 的 3 次出现**全部**误作『Reynolds』,正确形『Reynold』0 次;『Latent Space』0 次,只出现『Alien Space』×1(#1『Welcome to Alien Space.』)。→ 别名表须登记这些误写形式,否则 D17 专名回原文比对会把正确的中文『Matei/Reynold/Latent Space』误判为编造。",
+  "guest_titles": {
+    "Matei Zaharia": "Databricks",
+    "Reynold Xin": "Databricks"
+  },
+  "guest_titles_note": "只记**有出处的机构归属**(出处=集标题『... — Matei Zaharia and Reynold Xin, Databricks』)。**不写具体头衔**(CTO/Chief Architect 等):集标题、API 描述(『the Databricks technical leaders』)、转写稿均未给出具体头衔 → 写了就是编造。对照集 1:其标题原文即『Akshat Bubna, Modal CTO』,故 guest_titles 写『Modal CTO』有出处。",
+  "transcript_data_quirk": "3 个词(#91『A』/#1135『I』/#1474『Yeah.』)的 words[].speaker 为 undefined(段首词丢标签)。段级说话人取众数仍可正确解析,不影响闸门;记录以备日后排查。",
+  "archive_location": "local"
+}

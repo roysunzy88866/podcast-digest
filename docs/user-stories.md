@@ -183,7 +183,8 @@ And   [drift #2 兑现] 该页不再是占位/拼接反例,而是 GLM-5.2 真跑
 
 ### 本片素材(锁定,不再议)
 - **集 1**(已在库):Latent Space《Why AI Infrastructure must evolve for Agent Experience》(Modal CTO **Akshat Bubna** × **swyx**,2026-07-08,57:42,953 段)。
-- **集 2**(本片新灌):Latent Space《Why the Frontier Ecosystem must be Open》(**Matei Zaharia + Reynold Xin**,Databricks,2026-07-24,68.7 分钟,**1508 段**,post=203293676,`https://www.latent.space/p/databricks`)。**2026-07-17 实测**:aligned 官方稿在架、逐词数据 1508/1508 完整、3 个说话人标签。
+- **集 2**(本片新灌):Latent Space《Why the Frontier Ecosystem must be Open》(**Matei Zaharia + Reynold Xin**,Databricks,**2026-06-24**,68.7 分钟,**1508 段**,post=203293676,`https://www.latent.space/p/databricks`,集 id=`2026-06-24-latent-space-databricks`)。**2026-07-17 实测**:aligned 官方稿在架、逐词数据 1508/1508 完整、3 个说话人标签。
+  > 📌 口径留痕:本行日期我初稿误写 2026-07-24,**回源头核对(`/api/v1/posts/by-id/203293676` → `post_date: 2026-06-24T18:53:16Z`)当场改正**。C1/C2 两轮审计都抓到过「写记忆里的数」,故此处按铁律「以产物为准」现查现填。
 - **为什么选它**(不是随手挑):①**同域高重叠**——同是 AI 基础设施主题,概念(推理/GPU/开源模型/智能体)大概率跨集复现,swyx 若同为主持则人物页天然跨集 → 聚合能真验 ②**自带别名表试金石**——官方稿开场逐字为 `" Mattia and Reynolds from Databricks."`,即转写稿把 **Matei→Mattia**、**Reynold→Reynolds** 写错了,正是本片「别名表(常见误写)+ D17 专名回原文比对」要处理的真实弹药,不用造假数据。
 - **候选池怎么来的(诚实交底)**:RSS 近 20 条里非 AINews 的真访谈 10 期,**逐页实测只有 2 期挂着 aligned 官方稿**(modal2026 / the-lab);从集页内嵌播放器清单又挖出 6 期有稿的旧集(databricks / gray-swan / andon / radical-ai 等),**共 8 期**。→ **顺带发现的产品级风险**:官方稿覆盖率远非「有播客就有稿」,而**ASR 兜底(+VAD 切静音)至今没实现**(C2 明确不做,留给「无官方稿的集」)。本片**不扩范围去做 ASR**,仅登记为新债(见 DoD #8)。
 - **引擎**:实体抽取/「集里怎么说它」=**GLM-5.2**(🔒 第 9 轮:写稿只用 5.2,免费档只当判官);闸门=纯代码字符串校验。
