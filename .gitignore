@@ -5,3 +5,7 @@ dist/
 .wrangler/
 .DS_Store
 site/
+
+# C2 流水线可再生缓存(产物 transcript/translation/digest/meta 仍入库)
+data/episodes/*/.translate-cache/
+data/episodes/*/.digest-raw.txt

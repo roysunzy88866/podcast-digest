@@ -4,7 +4,9 @@
   "type": "module",
   "scripts": {
     "test": "vitest run",
-    "verify:c1": "node scripts/verify-c1.mjs"
+    "verify:c1": "node scripts/verify-c1.mjs",
+    "gate": "node scripts/gate.mjs data/episodes/2026-07-08-latent-space-modal",
+    "verify:c2": "node scripts/verify-c2.mjs data/episodes/2026-07-08-latent-space-modal"
   },
   "devDependencies": {
     "vitest": "^4.1.10"

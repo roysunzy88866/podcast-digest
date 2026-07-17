@@ -4,9 +4,13 @@
 
 | # | 日期 | 债 | 还债时机 | 状态 |
 |---|---|---|---|---|
-| D1 | 2026-07-17 | tests/smoke.test.ts 是闸门占位测试,不测任何业务 | ~~C1~~ **顺延 C2**:C1 是 E2E 渲染骨架,无适合 vitest 单测的纯逻辑;机器闸门(C2)是纯字符串校验,最适合取代 smoke。C1 已加 `verify:c1` 渲染验收脚本(独立于 vitest 门) | 未还(顺延) |
+| D1 | 2026-07-17 | tests/smoke.test.ts 是闸门占位测试,不测任何业务 | ~~C1~~ **C2 已大幅还**:加 `tests/gate.test.ts`(11 条真业务逻辑测试:三联校验/归一化/跨说话人)。smoke.test.ts 桩仍在(低优先,可留可删) | 🟢 大幅还(smoke 桩留存) |
 | D2 | 2026-07-17 | wrangler 未装(全局与项目级都无) | C7 上云前项目内 npx 装 | 未还 |
 | D3 | 2026-07-17 | Quartz v5 真 build 未核验(环境证据层缺口) | C1 第一件事 | ✅ **已还**(2026-07-17 真 build 成功,证据 docs/c1-build-证据.md) |
-| D4 | 2026-07-17 | site/ 版本化架构未定(vendored / submodule / 内容分离);当前整个 gitignore + bootstrap 脚本重建,Quartz 自身与 quartz.config.yaml 定制暂不进版本库 | C2 定(与「流水线怎么把 content 喂进 site」强相关,一起收敛) | 未还 |
+| D4 | 2026-07-17 | site/ 版本化架构未定;流水线怎么把 content 喂进 site 未定 | C2 定 | ✅ **已还(C2)**:content 三层定型——真相源=`data/episodes/<id>/*.json`(transcript/translation/digest/meta,入库);渲染产物=`samples/<id>.md`(入库,bootstrap 灌进 site/content);`site/` 仍 gitignore 构建区,`.translate-cache`/`.digest-raw.txt` gitignore |
 | D5 | 2026-07-17 | 详情页默认 Quartz 元素太杂(图谱/目录/Explorer 侧栏/属性面板/搜索等),与用户「只要中文精华、聚焦阅读」诉求冲突(第 19 轮已定去杂)。用户 C1 验收原话:「杂七杂八的东西太多」 | **用户接受推迟**:使用体验后,或做 US-4 详情页自定义组件时,按用户审美收敛布局 | 用户接受推迟 |
-| D6 | 2026-07-17 | C1 无被强制执行的自动化闸门:`verify:c1` 是独立手跑脚本(不在 pre-commit/CI/vitest 门内),vitest 门仍是冒烟桩(D1);交付物审计指出提交时无机器闸门能卡 C1 产物损坏/样片被改。C1 已给 verify 加防假绿结构检查,但仍非强制门 | C2 做防失真机器闸门时一起:把渲染校验 + 防失真三联校验纳入 pre-commit/CI 强制门 | 未还 |
+| D6 | 2026-07-17 | 无被强制执行的自动化闸门(verify:c1 独立手跑,vitest 门仍冒烟桩) | C2 做防失真机器闸门时纳入 pre-commit/CI 强制 | ✅ **已还(C2)**:`scripts/gate.mjs` 三联闸门 + `gate-all.mjs` 进 pre-commit 强制(每集金句必过三联否则拦提交);`gate.test.ts` 逻辑进 vitest 门;`verify:c2` 一站式验收 |
+| D7 | 2026-07-17 | 英文原稿/全译现存**本地** `data/episodes/`,需求定的是「**云端**存档」;C2 本地跑,未上云 | C7 上云时把存档层迁 R2 | 未还(C2 范围外,已知) |
+| D8 | 2026-07-17 | 导读正文里的**内联时间戳**(如 [02:44 Akshat])来自 GLM、**未过机器闸门**;闸门只硬卡 `quotes[]` 金句(US-11 口径)。正文时间戳是溯源辅助,错了影响小于金句 | C3/C4 评估:要么给正文时间戳也做区间校验,要么明确其为「导读辅助、以金句为准」 | 未还(已知,低risk) |
+| D9 | 2026-07-17 | `samples/` 现存**真实已提交内容源**(非 sample),命名误导;bootstrap 仍按此名灌 site/content | 后续更名(如 content-src/)并同步 bootstrap;非阻断 | 未还(命名债,低优先) |
+| D10 | 2026-07-17 | 闸门②③(时间戳/说话人)在流水线内由 repair 从转写稿真相派生,故对本流水线产物「构造上恒真」;真防线是①逐字。若未来换产稿方式,②③才独立起判别作用(现为回归/不变量防护) | 记录设计事实,非缺陷;换产稿路径时复审 | 已记账(设计事实) |

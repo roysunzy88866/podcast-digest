@@ -1,0 +1,66 @@
+{
+  "tldr": "Modal 从无服务器运行时进化为 AI 算力平台,以弹性推理、沙箱与开源 LLM 加速技术切入智能体时代。",
+  "digest_md": "## 一场关于 Modal 的进化复盘:从「写少点 YAML」到 AI 基础设施\n\n「Modal(原文多处误作 Modo/model/moto)是一家 AI 云计算平台,刚完成 C 轮融资(原文误作 3C)。」在这场对话里,swyx 和 Vibhu 与 Modal 的联创兼 CTO Akshat Bubna(原文误作 Akshat of Modo)坐下来,梳理了这家公司从诞生到如今的完整逻辑链。\n\n这期访谈的核心价值不在于某一句金句,而在于 **Modal 如何一次次踩中了 AI 时代的基础设施需求**:从最初想做一个「比 Kubernetes 更好用的运行时」,到为 AI 推理提供弹性算力,再到如今押注智能体(Agent)的基础原语。顺着这条主线,你能看懂过去三年 AI 底层技术栈的真实演变。\n\n> 【背景】**Modal 是什么?** 简单说,它是一个云平台。你写一段 Python 代码,加上一行 `@app.function(gpu=\"A100\")` 这样的**装饰器(一种把函数「变成」云函数的特殊语法标记)**,这段代码就能直接在云端跑起来、自动扩展,你完全不用去手写复杂的 YAML 配置文件。Modal 现在主要服务于 AI 公司的推理、训练和智能体沙箱等计算任务。\n\n---\n\n### 1. 起源:为什么我们受够了 Kubernetes?\n\n故事要从 CEO Erik(原文误作 eric)说起。Akshat 解释,创始人最初是在思考一个看似不起眼的问题:**为什么工作流编排产品这么难用?** 结论是,因为它们大多得部署在 Kubernetes(K8s)上,而 K8s 太难管理,且主要为缓慢扩展的 Web 服务器设计,完全不适合现代的、计算密集的突发任务 [02:44 Akshat Bubna]。\n\n于是他们决定做一个更好的**运行时(程序实际执行代码的环境)**。核心设计哲学是:把底层复杂的配置,用极简的「装饰器」代码搞定,这样开发者就不用再写成堆的 YAML(一种繁琐的配置文件格式)了 [03:44 Akshat Bubna]。\n\n有意思的是,虽然有人质疑这种简化的配置算是一种 DSL(领域特定语言),会导致供应商锁定,但 Akshat 指出:在 Modal 上,底层业务代码完全是你自己的,你随时可以拿走,锁定的风险很低 [04:11 Akshat Bubna]。\n\n### 2. 两次命运的齿轮:从数据管道到沙箱\n\nModal 的早期构想是做数据工程任务(如 ETL),并在 ChatGPT 问世前一年,悄然在产品里加入了 GPU 支持 [02:13 Akshat Bubna]。他们最初并没意识到这是件多大事。\n\n真正的转折点发生在 2023 年中。当时 swyx 在 Modal 上跑了一个叫 Smol Developer 的实验性自动编程项目。受此启发,Modal 在 2023 年 5 月推出了**沙箱(一种为代码提供安全、独立运行空间的隔离环境)**——让智能体能在循环中不断测试、迭代自己写的代码 [09:19 Akshat Bubna]。\n\n> 【背景】**为什么智能体需要沙箱?** 想象一下,你让 AI 帮你写一段代码。这段代码可能有 Bug。如果直接在你的电脑上运行,万一是个恶性 Bug,可能删掉你的重要文件。沙箱就像是给 AI 提供的一个「无菌实验室」,它在里面随便怎么折腾、随便运行什么脚本,都不会影响到你真实的系统。它还可以随时被销毁或快照恢复。\n\n当时的语言模型并不擅长循环和自我修正,迭代十次就会「发散」(产生无意义内容) [10:01 Akshat Bubna]。但沙箱的底层设施建好后,虽然沉寂了两年,却在最近一年的智能体爆发中迎来了真正的春天。\n\n### 3. 弹性推理:流量忽高忽低,算力如何跟上?\n\n如今 Modal 最大的商业场景是**弹性推理(根据实际请求量多少,实时自动增减 GPU 服务器数量)** [12:20 Akshat Bubna]。这听起来简单,但在现实中极难做到。\n\nAkshat 举了个典型场景:像 Suno(做音频)或 Runway(做视频)这样的公司,流量完全不可预测。公司一旦发布新产品,流量瞬间暴涨;而且不同地区的流量高峰(昼夜交替)是错开的。这意味着系统必须能在一个区域从 1000 个 GPU 瞬间扩容到 1500 个,再随时缩回来 [11:45 Akshat Bubna]。这是传统云服务很难做到的。\n\n为了让推理更快,Modal 还引入了 **GPU 快照(把 GPU 刚启动完毕、加载好模型时的内存状态像拍照一样存下来,下次直接从这个状态启动,从而大幅缩短冷启动时间)** [13:51 Akshat Bubna]。\n\n### 4. 开源秘密武器:投机解码与 DeFlash\n\n在最核心的大模型(LLM)推理速度上,Modal 开源了他们的杀手锏:DeFlash(原文误作 dflash)。\n\n> 【背景】**什么是投机解码(让小模型先猜、大模型来验,加速推理)?** 大模型一次生成一个字太慢了。投机解码的做法是:先让一个「小模型」一口气往前猜好几个字(草稿),然后让「大模型」批量审核这些字。只要小模型猜得差不多,大模型审核一遍就能瞬间通过,从而实现几倍速的加速。\n\nAkshat 强调,相比于只提升百分之几性能的底层内核优化,提高「接受长度」(小模型猜对、被大模型采纳的字数)能带来 2 到 4 倍的乘法级加速,而且完全不损耗输出质量 [17:40 Akshat Bubna]。为了让普通人也能用上这种前沿技术,他们推出了 Auto Endpoints 产品:在 UI 界面上点一下,就能创建一个已经内置了 DeFlash 加速、且完全支持弹性扩容的推理端点。\n\n### 5. 超级云、IPv6 与分布式训练的网络魔法\n\n令人惊讶的是,Modal 自己没有数据中心。他们构建了一个跨越 17 个云提供商的**容量池(把不同云厂商的服务器集中起来当成一个超大资源池来调度使用)** [24:14 Akshat Bubna]。底层的新云(Neocloud)供应商可靠性参差不齐,所以 Modal 自己在上层做了一层可靠性保障:一旦某台 GPU 掉线,任务自动无缝迁移,用户毫无感知 [25:20 Akshat Bubna]。\n\n在网络层面,由于做 RL(强化学习)和分布式训练的智能体需要互相高速通信,Modal 甚至做了一个基于 IPv6 的私有 Overlay(覆盖)网络 [28:09 Akshat Bubna]。虽然内部 TCP 网络速度足够,但对于跨节点训练,Modal 也接入了速度极快的 RDMA 和 InfiniBand 网络(专门用于 GPU 之间极低延迟通信的技术),达到了每秒 3 万亿比特的内部传输速度 [32:36 Akshat Bubna]。\n\n不过 Akshat 坦言,他们并不追求那种跨数据中心、极度昂贵的超大规模预训练,而是专注于更实用的**后训练(在已有大模型基础上,针对特定任务进行二次微调训练)**和中等规模训练 [33:04 Akshat Bubna]。\n\n### 6. AX(智能体体验)取代 DX(开发者体验)\n\n访谈后半段探讨了未来。随着 LLM 写代码能力增强,大家都在讨论 DX(开发者体验)是否还有意义。Akshat 提出了 AX(智能体体验)的概念。\n\n他们发现,与其让智能体去读几百个配置文件并手写 YAML,不如让它在几行装饰器里修改配置,直接看到运行结果,这样效率高得多 [05:05 Akshat Bubna]。有趣的是,Modal 还专门做了一个 Modal Bench(基准测试)来观察智能体在哪里卡壳了,然后据此改进产品 [56:57 Akshat Bubna]。如果智能体在幻觉中试图寻找某个不存在的指令,Modal 团队甚至会把那个指令真正做出来,或者把更多的监控和日志功能从网页端移到 CLI(命令行)端,方便智能体自己排错 [57:10 Akshat Bubna]。\n\n### 7. 商业模式的清醒:不做「业余市场」的 API 转售\n\n当 swyx 问及竞争对手(如 Replicate)时,Akshat 给出了清晰的战略判断:Modal 有意避开了单纯提供「模型 API」的业务 [48:34 Akshat Bubna]。\n\n原因在于,纯调用 API 的用户往往是随便玩玩的业余玩家,粘性很低。Modal 瞄准的是那些需要在代码层面深度修改架构、需要完全自定义和专属后端的成熟公司(如 Suno、Ramp)。对他们来说,Modal 提供的不是简单的接口,而是一个可灵活编程的 AI 算力底座。\n\n---\n\n**总结来看**,这期访谈勾勒了一家 AI 基础设施公司的精准卡位:不碰顶层模型之战,不碰底层硬件建厂,而是死磕中间层——把计算、存储、网络这三件事,用极简的代码装饰器和极致弹性的方式,交到正在狂奔的 AI 公司手里。",
+  "quotes": [
+    {
+      "en": "i actually first met eric who's ceo through an investor and um",
+      "zh": "我实际上最初是通过一位投资者认识了 CEO Erik(原文误作 eric),",
+      "timestamp": "00:40",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "a dsl yeah it's your close source i am locked in to moto",
+      "zh": "这是一个 DSL,是的,它是你的闭源,我被锁定在 Modal(原文误作 moto)中了",
+      "timestamp": "04:06",
+      "speaker": "swyx"
+    },
+    {
+      "en": "we've actually changed our SDK team to think about agent experience sort of developer experience.",
+      "zh": "我们实际上已经改变了我们的 SDK 团队,从思考开发者体验转变为思考智能体体验。",
+      "timestamp": "04:54",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "like we built sandboxes in May of 2023 before anyone was even knew this was going to be a thing.",
+      "zh": "我们在 2023 年 5 月就构建了沙箱,在任何人甚至知道这将成为一件事之前。",
+      "timestamp": "09:19",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "the models would just diverge after 10 iterations",
+      "zh": "模型在 10 次迭代之后就会发散",
+      "timestamp": "09:58",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "Our biggest use case actually is elastic inference.",
+      "zh": "我们最大的用例实际上是弹性推理。",
+      "timestamp": "12:20",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "improving kernel only give you like few percentage points improvement and increasing except lengths literally is multiplicative decrease in two to four x",
+      "zh": "改进内核只给你几个百分点的提升,而增加接受长度实际上是 2 到 4 倍的乘法性减少",
+      "timestamp": "17:38",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "which is we've built this capacity pool that spans 17 cloud providers.",
+      "zh": "这就是我们建立的跨越 17 个云提供商的容量池。",
+      "timestamp": "24:14",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "The thing that we've built Multano training for is we see a lot of smaller-scale post-training.",
+      "zh": "我们构建多节点(原文误作 Multano)训练的原因是我们看到了很多较小规模的后训练。",
+      "timestamp": "33:04",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "This is one thing we've kind of stayed away from is providing an API for models",
+      "zh": "这是我们一直有所回避的一件事,就是为模型提供 API",
+      "timestamp": "48:34",
+      "speaker": "Akshat Bubna"
+    }
+  ]
+}

@@ -22,7 +22,19 @@ for pat in "${secret_patterns[@]}"; do
   fi
 done
 
-# ── 2. 提交测试门:测试不绿 → 阻止提交 ──
+# ── 2. 机器闸门门(防失真硬线,tech-debt D6):每集金句必过三联,不过 → 阻止提交 ──
+if command -v node >/dev/null 2>&1; then
+  echo "[机器闸门门] 运行: node scripts/gate-all.mjs"
+  if ! node scripts/gate-all.mjs; then
+    echo "[机器闸门门] 存在失真金句 → 已阻止提交。修金句(scripts/repair-quotes.mjs / 重浓缩)再提交。" >&2
+    echo "             (如确需绕过:git commit --no-verify —— 留痕自担)" >&2
+    exit 1
+  fi
+else
+  echo "[机器闸门门] ⚠️ 未找到 node,跳过金句校验(不应发生:测试门也需 node)" >&2
+fi
+
+# ── 3. 提交测试门:测试不绿 → 阻止提交 ──
 TEST_CMD="${TEST_CMD:-npm test --silent}"
 echo "[提交测试门] 运行: $TEST_CMD"
 if eval "$TEST_CMD"; then

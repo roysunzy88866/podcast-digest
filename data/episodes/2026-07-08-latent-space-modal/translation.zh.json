@@ -1,0 +1,7626 @@
+[
+ {
+  "seg": 0,
+  "start": 4.259,
+  "end": 9.101,
+  "speaker": "swyx",
+  "en": "We're here with Akshat of Modo, CTO of Modo, together with Vibu.",
+  "zh": "我们在这里和 Modo 的 Akshat,Modo 的 CTO,一起的还有 Vibu。"
+ },
+ {
+  "seg": 1,
+  "start": 9.761,
+  "end": 10.87211111111111,
+  "speaker": "swyx",
+  "en": "Congrats on your 3C.",
+  "zh": "恭喜你的 3C。"
+ },
+ {
+  "seg": 2,
+  "start": 10.981,
+  "end": 11.981,
+  "speaker": "swyx",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 3,
+  "start": 12.122,
+  "end": 14.082,
+  "speaker": "swyx",
+  "en": "Your party yesterday was amazing.",
+  "zh": "你们昨天的派对太棒了。"
+ },
+ {
+  "seg": 4,
+  "start": 15.183,
+  "end": 15.443,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 5,
+  "start": 15.463,
+  "end": 17.518555555555555,
+  "speaker": "Akshat Bubna",
+  "en": "From all the photos and all the swag.",
+  "zh": "从所有的照片和所有的周边商品来看。"
+ },
+ {
+  "seg": 6,
+  "start": 17.703,
+  "end": 19.904,
+  "speaker": "Akshat Bubna",
+  "en": "We had a bunch of art installations,",
+  "zh": "我们有一堆艺术装置,"
+ },
+ {
+  "seg": 7,
+  "start": 20.184,
+  "end": 25.246,
+  "speaker": "Akshat Bubna",
+  "en": "which is kind of fun seeing like our products on pedestals next to like Rodan.",
+  "zh": "看到我们的产品像 Rodan 一样放在底座上还挺有趣的。"
+ },
+ {
+  "seg": 8,
+  "start": 26.616,
+  "end": 31.059,
+  "speaker": "swyx",
+  "en": "very nice very nice um when you started it was not",
+  "zh": "非常好非常好,当你开始的时候它不是"
+ },
+ {
+  "seg": 9,
+  "start": 31.679,
+  "end": 38.142,
+  "speaker": "swyx",
+  "en": "the gpu inference company i mean maybe it was in your mind take us back to",
+  "zh": "GPU 推理公司,我的意思是也许在你心里是的,带我们回到"
+ },
+ {
+  "seg": 10,
+  "start": 38.202,
+  "end": 43.765,
+  "speaker": "Akshat Bubna",
+  "en": "the origin story uh i actually first met eric who's ceo through an investor and um",
+  "zh": "起源故事,我实际上最初是通过一位投资者认识了 CEO eric,"
+ },
+ {
+  "seg": 11,
+  "start": 44.505,
+  "end": 48.67166666666667,
+  "speaker": "Akshat Bubna",
+  "en": "Back then, Eric was already thinking about building a new kind of runtime.",
+  "zh": "那时,Eric 已经在考虑构建一种新的运行时。"
+ },
+ {
+  "seg": 12,
+  "start": 48.932,
+  "end": 55.241,
+  "speaker": "Akshat Bubna",
+  "en": "And he got there thinking through why are workflow orchestration products so hard to use?",
+  "zh": "他通过思考为什么工作流编排产品这么难用而得出了这个想法?"
+ },
+ {
+  "seg": 13,
+  "start": 55.802,
+  "end": 57.254000000000005,
+  "speaker": "Akshat Bubna",
+  "en": "It's because you have to run them on Kubernetes.",
+  "zh": "是因为你必须在 Kubernetes 上运行它们。"
+ },
+ {
+  "seg": 14,
+  "start": 57.304,
+  "end": 58.606,
+  "speaker": "Akshat Bubna",
+  "en": "Kubernetes is hard to manage.",
+  "zh": "Kubernetes 很难管理。"
+ },
+ {
+  "seg": 15,
+  "start": 58.626,
+  "end": 59.626,
+  "speaker": "Akshat Bubna",
+  "en": "It's not built for",
+  "zh": "它不是为"
+ },
+ {
+  "seg": 16,
+  "start": 60.809,
+  "end": 67.809,
+  "speaker": "swyx",
+  "en": "And I'll interject for listeners who are new.",
+  "zh": "我会为新听众插一句。"
+ },
+ {
+  "seg": 17,
+  "start": 69.722,
+  "end": 72.425,
+  "speaker": "swyx",
+  "en": "We interviewed Eric two years ago and there's a bit more of the story there",
+  "zh": "我们两年前采访过 Eric,那里有更多关于这个故事的内容"
+ },
+ {
+  "seg": 18,
+  "start": 72.445,
+  "end": 74.33388888888888,
+  "speaker": "swyx",
+  "en": "from Spotify and all those things.",
+  "zh": "来自 Spotify 和所有那些事情。"
+ },
+ {
+  "seg": 19,
+  "start": 74.408,
+  "end": 78.311,
+  "speaker": "swyx",
+  "en": "I actually came across Eric through a data console because he did that talk on",
+  "zh": "我实际上是通过一个 data console 偶然发现了 Eric,因为他做了那个关于"
+ },
+ {
+  "seg": 20,
+  "start": 78.351,
+  "end": 81.093,
+  "speaker": "swyx",
+  "en": "the serverless container stack that you guys did,",
+  "zh": "你们做的无服务器容器栈的演讲,"
+ },
+ {
+  "seg": 21,
+  "start": 81.353,
+  "end": 82.004,
+  "speaker": "swyx",
+  "en": "which was like,",
+  "zh": "就像,"
+ },
+ {
+  "seg": 22,
+  "start": 82.054,
+  "end": 86.147,
+  "speaker": "swyx",
+  "en": "that was my first like, okay, I need to take models very seriously moment.",
+  "zh": "那是我第一次觉得,好吧,我需要非常认真地对待 models 的时刻。"
+ },
+ {
+  "seg": 23,
+  "start": 86.197,
+  "end": 91.26,
+  "speaker": "swyx",
+  "en": "But it's still very unclear, like, do I actually need all this for just my data pipelines?",
+  "zh": "但仍然很不清楚,比如说,我真的需要所有这些仅仅是为了我的数据管道吗?"
+ },
+ {
+  "seg": 24,
+  "start": 93.422,
+  "end": 94.293,
+  "speaker": "swyx",
+  "en": "Yeah, I mean,",
+  "zh": "是的,我的意思是,"
+ },
+ {
+  "seg": 25,
+  "start": 94.343,
+  "end": 98.626,
+  "speaker": "Akshat Bubna",
+  "en": "initially what we were thinking about was if we build a better runtime,",
+  "zh": "最初我们在想的是,如果我们构建一个更好的运行时,"
+ },
+ {
+  "seg": 26,
+  "start": 98.926,
+  "end": 101.147,
+  "speaker": "Akshat Bubna",
+  "en": "it's a very useful permative in itself.",
+  "zh": "它本身就是一个非常有用的 permative。"
+ },
+ {
+  "seg": 27,
+  "start": 102.028,
+  "end": 103.028,
+  "speaker": "Akshat Bubna",
+  "en": "There's a lot of",
+  "zh": "有很多"
+ },
+ {
+  "seg": 28,
+  "start": 104.047,
+  "end": 106.027,
+  "speaker": "Akshat Bubna",
+  "en": "things that get solved",
+  "zh": "事情被解决"
+ },
+ {
+  "seg": 29,
+  "start": 106.088,
+  "end": 110.909,
+  "speaker": "Akshat Bubna",
+  "en": "by serverless functions like you can do ETL stuff you can do job queues you can do",
+  "zh": "通过无服务器函数,比如你可以做 ETL 的事,你可以做任务队列,你可以做"
+ },
+ {
+  "seg": 30,
+  "start": 111.529,
+  "end": 116.23,
+  "speaker": "Akshat Bubna",
+  "en": "all this like bursty processing which it turns out every company had needs more but",
+  "zh": "所有这种突发的处理,事实证明每家公司都有更多的需求,但是"
+ },
+ {
+  "seg": 31,
+  "start": 116.27,
+  "end": 121.071,
+  "speaker": "Akshat Bubna",
+  "en": "then we also were thinking about this as like this is a primitive that we can build",
+  "zh": "然后我们也在想这个,就像这是一个我们可以构建的原语"
+ },
+ {
+  "seg": 32,
+  "start": 121.091,
+  "end": 125.352,
+  "speaker": "Akshat Bubna",
+  "en": "a whole collection of products on which are very verticalized",
+  "zh": "一整套的产品在上面,这些都是非常垂直化的"
+ },
+ {
+  "seg": 33,
+  "start": 125.872,
+  "end": 130.015,
+  "speaker": "Akshat Bubna",
+  "en": "so perhaps data engineering would have been the first one but we were thinking about",
+  "zh": "所以也许数据工程会是第一个,但我们在想"
+ },
+ {
+  "seg": 34,
+  "start": 130.065,
+  "end": 133.158,
+  "speaker": "Akshat Bubna",
+  "en": "back then it was more classical inference like computer vision stuff",
+  "zh": "那时更多的是经典推理,比如计算机视觉之类的东西"
+ },
+ {
+  "seg": 35,
+  "start": 133.208,
+  "end": 137.873,
+  "speaker": "Akshat Bubna",
+  "en": "and running xd boost and whatnot but we added gpus to the product a year",
+  "zh": "以及运行 xd boost 等等,但我们在产品中加入了 GPU 一年"
+ },
+ {
+  "seg": 36,
+  "start": 137.913,
+  "end": 141.536,
+  "speaker": "Akshat Bubna",
+  "en": "before chat gpt came out nice we just didn't think it would be that big of",
+  "zh": "在 chat gpt 出来之前,不错,我们只是没想到它会是那么大的"
+ },
+ {
+  "seg": 37,
+  "start": 141.576,
+  "end": 145.861,
+  "speaker": "Akshat Bubna",
+  "en": "a deal yeah just like add a100 was there any like early key problem",
+  "zh": "一件事,是的,就像加入 a100,有没有什么早期的关键问题"
+ },
+ {
+  "seg": 38,
+  "start": 145.921,
+  "end": 148.14322222222222,
+  "speaker": "Vibhu",
+  "en": "that really sparked off why you built it",
+  "zh": "真正引发了你们为什么要构建它"
+ },
+ {
+  "seg": 39,
+  "start": 148.583,
+  "end": 155.527,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah primarily it's just none of the tooling that was out there was built for one",
+  "zh": "是的,主要是在那里没有任何工具是为"
+ },
+ {
+  "seg": 40,
+  "start": 155.647,
+  "end": 160.47,
+  "speaker": "Akshat Bubna",
+  "en": "a really great developer experience and also there's a general trend of a lot of",
+  "zh": "真正出色的开发者体验而构建的,而且还有一个总体趋势是很多"
+ },
+ {
+  "seg": 41,
+  "start": 160.51,
+  "end": 164.852,
+  "speaker": "Akshat Bubna",
+  "en": "the workloads that we were seeing were very this is I wish there's a better word",
+  "zh": "我们看到的工作负载都非常,我希望有一个更好的"
+ },
+ {
+  "seg": 42,
+  "start": 164.892,
+  "end": 170.675,
+  "speaker": "Akshat Bubna",
+  "en": "for it but compute heavy like they need one like need a lot more resources you need",
+  "zh": "词来形容它,但计算量大的,比如它们需要一个,比如需要多得多的资源,你需要"
+ },
+ {
+  "seg": 43,
+  "start": 170.695,
+  "end": 174.50699999999998,
+  "speaker": "Akshat Bubna",
+  "en": "to burst up and down a lot versus like Kubernetes design for like slow scaling",
+  "zh": "频繁地上下突发,而 Kubernetes 的设计是为了缓慢扩展"
+ },
+ {
+  "seg": 44,
+  "start": 174.557,
+  "end": 176.979,
+  "speaker": "Akshat Bubna",
+  "en": "and more for like web server use cases.",
+  "zh": "而且更多是为了像网络服务器用例。"
+ },
+ {
+  "seg": 45,
+  "start": 177.799,
+  "end": 182.1,
+  "speaker": "Akshat Bubna",
+  "en": "and also there's just a lot more specialization in like what kinds",
+  "zh": "而且也有很多在什么样的"
+ },
+ {
+  "seg": 46,
+  "start": 182.18,
+  "end": 183.641,
+  "speaker": "Akshat Bubna",
+  "en": "of environments these workloads run in.",
+  "zh": "环境中运行这些工作load的专门化。"
+ },
+ {
+  "seg": 47,
+  "start": 183.681,
+  "end": 188.332,
+  "speaker": "Akshat Bubna",
+  "en": "Like we're going to sometimes need accelerators, sometimes need different kinds of images.",
+  "zh": "比如我们有时会需要加速器,有时需要不同种类的镜像。"
+ },
+ {
+  "seg": 48,
+  "start": 188.382,
+  "end": 192.254,
+  "speaker": "Akshat Bubna",
+  "en": "And this is just like a consistent thing that we saw across a lot of companies.",
+  "zh": "而这只是我们在很多公司中看到的一个一致的现象。"
+ },
+ {
+  "seg": 49,
+  "start": 192.304,
+  "end": 193.264,
+  "speaker": "Akshat Bubna",
+  "en": "That would be the idea.",
+  "zh": "那就是这个想法。"
+ },
+ {
+  "seg": 50,
+  "start": 193.284,
+  "end": 194.424,
+  "speaker": "swyx",
+  "en": "Yeah, it'd be nice.",
+  "zh": "是的,那会很好。"
+ },
+ {
+  "seg": 51,
+  "start": 194.905,
+  "end": 196.405,
+  "speaker": "swyx",
+  "en": "I don't know how much this factor did",
+  "zh": "我不知道这个因素起了多少作用"
+ },
+ {
+  "seg": 52,
+  "start": 196.405,
+  "end": 199.426,
+  "speaker": "swyx",
+  "en": "Yeah, we really like the term and so we stole it.",
+  "zh": "是的,我们真的很喜欢这个词,所以我们偷了它。"
+ },
+ {
+  "seg": 53,
+  "start": 203.98999999999998,
+  "end": 207.09,
+  "speaker": "swyx",
+  "en": "I can't even remember my own post and then you put me on",
+  "zh": "我甚至都不记得我自己的帖子了,然后你把我放到"
+ },
+ {
+  "seg": 54,
+  "start": 207.09,
+  "end": 210.85,
+  "speaker": "swyx",
+  "en": "the landing page yeah we really like uh the term",
+  "zh": "着陆页上了,是的,我们真的很喜欢,嗯,这个词"
+ },
+ {
+  "seg": 55,
+  "start": 210.85,
+  "end": 215.25,
+  "speaker": "swyx",
+  "en": "and so we stole it because you had the insight that everything can just be in decorators",
+  "zh": "所以我们偷了它,因为你有这样的洞察,即一切都可以放在装饰器中"
+ },
+ {
+  "seg": 56,
+  "start": 215.25,
+  "end": 219.93,
+  "speaker": "swyx",
+  "en": "next co-located with the code right was that a big part of the original story or is this",
+  "zh": "接下来与代码协同部署,对吧,这是最初故事中很大的一部分,还是这"
+ },
+ {
+  "seg": 57,
+  "start": 219.93,
+  "end": 223.75,
+  "speaker": "Akshat Bubna",
+  "en": "like a dx layer that was uh really important because we",
+  "zh": "像是一个 dx 层,那个,嗯,非常重要的层,因为我们"
+ },
+ {
+  "seg": 58,
+  "start": 224.977,
+  "end": 229.638,
+  "speaker": "Akshat Bubna",
+  "en": "really didn't want people to spend so much time writing yaml",
+  "zh": "真的不希望人们花那么多时间编写 yaml"
+ },
+ {
+  "seg": 59,
+  "start": 230.439,
+  "end": 233.72899999999998,
+  "speaker": "Akshat Bubna",
+  "en": "and it seemed like you could really condense the surface area",
+  "zh": "而且看起来你真的可以压缩表面积"
+ },
+ {
+  "seg": 60,
+  "start": 233.779,
+  "end": 237.36,
+  "speaker": "Akshat Bubna",
+  "en": "of what you're doing put in code so you can actually operate on it just",
+  "zh": "你正在做的事情,放进代码里,这样你就可以实际操作它,只是"
+ },
+ {
+  "seg": 61,
+  "start": 237.38,
+  "end": 241.9911111111111,
+  "speaker": "Akshat Bubna",
+  "en": "so you can operate in other code and build stuff that's more expressive and dynamic",
+  "zh": "这样你就可以在其他代码中操作并构建更具表现力和动态的东西"
+ },
+ {
+  "seg": 62,
+  "start": 242.442,
+  "end": 246.343,
+  "speaker": "Akshat Bubna",
+  "en": "and so yeah that was always a very important part then the pushback is this is",
+  "zh": "所以是的,那一向是非常重要的部分,然后反对意见是这是"
+ },
+ {
+  "seg": 63,
+  "start": 246.383,
+  "end": 251.164,
+  "speaker": "swyx",
+  "en": "a dsl yeah it's your close source i am locked in to moto",
+  "zh": "一个 dsl,是的,它是你的闭源,我被锁定在 moto 中了"
+ },
+ {
+  "seg": 64,
+  "start": 251.92,
+  "end": 255.181,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, we never really got pushback for that because the nice",
+  "zh": "是的,我们从来没有真正因此收到反对意见,因为好处"
+ },
+ {
+  "seg": 65,
+  "start": 255.201,
+  "end": 258.202,
+  "speaker": "Akshat Bubna",
+  "en": "about model is you can bring whatever code you have.",
+  "zh": "关于 model 的是你可以带来你拥有的任何代码。"
+ },
+ {
+  "seg": 66,
+  "start": 258.782,
+  "end": 259.402,
+  "speaker": "Akshat Bubna",
+  "en": "And sure,",
+  "zh": "当然,"
+ },
+ {
+  "seg": 67,
+  "start": 259.422,
+  "end": 263.783,
+  "speaker": "Akshat Bubna",
+  "en": "the DSL is at the sort of configuration there for what hardware you're using,",
+  "zh": "DSL 在某种程度上是关于你正在使用什么硬件的配置,"
+ },
+ {
+  "seg": 68,
+  "start": 263.823,
+  "end": 267.244,
+  "speaker": "Akshat Bubna",
+  "en": "how you're scaling things up, but you still own the code.",
+  "zh": "你如何扩展事物,但你仍然拥有代码。"
+ },
+ {
+  "seg": 69,
+  "start": 267.284,
+  "end": 271.885,
+  "speaker": "Akshat Bubna",
+  "en": "And that's been an important part of our story even as we do inference now.",
+  "zh": "即使在我们现在做推理的时候,这一直是我们故事中重要的一部分。"
+ },
+ {
+  "seg": 70,
+  "start": 272.268,
+  "end": 276.371,
+  "speaker": "Vibhu",
+  "en": "how much of it do you think still stays the same today like if you were",
+  "zh": "你认为今天还有多少保持不变,比如如果你"
+ },
+ {
+  "seg": 71,
+  "start": 276.411,
+  "end": 280.7998888888889,
+  "speaker": "Vibhu",
+  "en": "to build something today devx obviously very important but i feel like you know",
+  "zh": "今天要构建什么东西,devx 显然非常重要,但我感觉你知道"
+ },
+ {
+  "seg": 72,
+  "start": 280.874,
+  "end": 284.856,
+  "speaker": "Vibhu",
+  "en": "a lot of this has kind of been changed with just hook it up to",
+  "zh": "其中很多已经改变了,只需把它连接到"
+ },
+ {
+  "seg": 73,
+  "start": 284.876,
+  "end": 287.268,
+  "speaker": "Vibhu",
+  "en": "an agent have cloud code have codex implement",
+  "zh": "一个智能体,让 cloud code 让 codex 实现"
+ },
+ {
+  "seg": 74,
+  "start": 287.318,
+  "end": 291.781,
+  "speaker": "Vibhu",
+  "en": "a tool there's very agent native primitives that are kind of different than",
+  "zh": "一个工具,那里有非常原生的智能体原语,有点不同于"
+ },
+ {
+  "seg": 75,
+  "start": 292.161,
+  "end": 293.8276666666667,
+  "speaker": "Vibhu",
+  "en": "if i'm doing this myself right",
+  "zh": "如果我自己做这个,对吧"
+ },
+ {
+  "seg": 76,
+  "start": 294.323,
+  "end": 298.284,
+  "speaker": "Akshat Bubna",
+  "en": "We've actually changed our SDK team to think about agent experience sort",
+  "zh": "我们实际上已经改变了我们的 SDK 团队去思考智能体体验,某种"
+ },
+ {
+  "seg": 77,
+  "start": 298.324,
+  "end": 299.6573333333333,
+  "speaker": "Akshat Bubna",
+  "en": "of developer experience.",
+  "zh": "开发者体验。"
+ },
+ {
+  "seg": 78,
+  "start": 300.105,
+  "end": 305.547,
+  "speaker": "Akshat Bubna",
+  "en": "And we think that the same benefits that apply for DX also actually apply for AX,",
+  "zh": "我们认为适用于 DX 的同样好处实际上也适用于 AX,"
+ },
+ {
+  "seg": 79,
+  "start": 305.607,
+  "end": 310.388,
+  "speaker": "Akshat Bubna",
+  "en": "which is why would you have an agent read through hundreds of Kubernetes files",
+  "zh": "这就是为什么你要让一个智能体去阅读数百个 Kubernetes 文件"
+ },
+ {
+  "seg": 80,
+  "start": 310.468,
+  "end": 315.63,
+  "speaker": "Akshat Bubna",
+  "en": "and write YAML that's not even typed when it can basically make a couple of changes",
+  "zh": "并编写甚至没有类型的 YAML,而它基本上可以在一个装饰器中做几个更改"
+ },
+ {
+  "seg": 81,
+  "start": 315.71,
+  "end": 320.251,
+  "speaker": "Akshat Bubna",
+  "en": "in a decorator and it gets this sort of self-provisioning runtime of being able",
+  "zh": "然后获得这种能够自我配置的运行时,能够"
+ },
+ {
+  "seg": 82,
+  "start": 320.271,
+  "end": 322.15988888888893,
+  "speaker": "Akshat Bubna",
+  "en": "to see its changes live in action.",
+  "zh": "实时看到它的更改在运行中生效。"
+ },
+ {
+  "seg": 83,
+  "start": 323.352,
+  "end": 327.074,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, it just seems from the customers we talked to,",
+  "zh": "是的,从我们交谈过的客户来看,似乎"
+ },
+ {
+  "seg": 84,
+  "start": 327.874,
+  "end": 332.637,
+  "speaker": "Akshat Bubna",
+  "en": "they actually find the model is way faster used for agents versus operating on",
+  "zh": "他们实际上发现用于智能体的 model 比操作在"
+ },
+ {
+  "seg": 85,
+  "start": 332.697,
+  "end": 333.977,
+  "speaker": "Akshat Bubna",
+  "en": "a different substrate.",
+  "zh": "一个不同的底层上要快得多。"
+ },
+ {
+  "seg": 86,
+  "start": 334.258,
+  "end": 338.45,
+  "speaker": "swyx",
+  "en": "Yeah, because again, you collocate the infrastructure requirements to the code that runs it.",
+  "zh": "是的,因为同样,你把基础设施需求与运行它的代码协同部署。"
+ },
+ {
+  "seg": 87,
+  "start": 338.5,
+  "end": 342.032,
+  "speaker": "swyx",
+  "en": "Well, the negative thesis now is that nobody's looking at their code anymore.",
+  "zh": "那么,现在的负面论点是没有人在看他们的代码了。"
+ },
+ {
+  "seg": 88,
+  "start": 342.082,
+  "end": 343.3042222222222,
+  "speaker": "swyx",
+  "en": "So there's no point...",
+  "zh": "所以没有意义……"
+ },
+ {
+  "seg": 89,
+  "start": 344.742,
+  "end": 346.93399999999997,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, I mean, people aren't looking at code.",
+  "zh": "是的,我的意思是,人们不在看代码。"
+ },
+ {
+  "seg": 90,
+  "start": 346.984,
+  "end": 350.907,
+  "speaker": "Akshat Bubna",
+  "en": "One thing we actually still see is really important is observability.",
+  "zh": "我们实际看到仍然非常重要的一件事是可观测性。"
+ },
+ {
+  "seg": 91,
+  "start": 351.508,
+  "end": 352.61899999999997,
+  "speaker": "Akshat Bubna",
+  "en": "How good is your dashboard?",
+  "zh": "你的仪表板有多好?"
+ },
+ {
+  "seg": 92,
+  "start": 352.669,
+  "end": 353.669,
+  "speaker": "Akshat Bubna",
+  "en": "And of course,",
+  "zh": "当然,"
+ },
+ {
+  "seg": 93,
+  "start": 354.29,
+  "end": 358.724,
+  "speaker": "Akshat Bubna",
+  "en": "we have pushed a lot of it to the CLI so that agents can do their own investigation,",
+  "zh": "我们已经把很多功能推到了 CLI,以便智能体可以进行自己的调查,"
+ },
+ {
+  "seg": 94,
+  "start": 358.774,
+  "end": 364.099,
+  "speaker": "Akshat Bubna",
+  "en": "but you still need humans to go interpret what's going on and make judgment calls",
+  "zh": "但你仍然需要人类去解释正在发生什么并做出判断"
+ },
+ {
+  "seg": 95,
+  "start": 364.119,
+  "end": 365.119,
+  "speaker": "Akshat Bubna",
+  "en": "and whatnot.",
+  "zh": "以及诸如此类的事情。"
+ },
+ {
+  "seg": 96,
+  "start": 365.54,
+  "end": 367.121,
+  "speaker": "Akshat Bubna",
+  "en": "And that's, I feel like...",
+  "zh": "那个,我感觉……"
+ },
+ {
+  "seg": 97,
+  "start": 368.865,
+  "end": 372.09999999999997,
+  "speaker": "Akshat Bubna",
+  "en": "maybe more important now than looking at the code itself yes",
+  "zh": "也许现在比看代码本身更重要,是的"
+ },
+ {
+  "seg": 98,
+  "start": 372.15,
+  "end": 375.094,
+  "speaker": "swyx",
+  "en": "because like you know it's you can try to treat the code as a black box and",
+  "zh": "因为,你知道,你可以尝试把代码当作一个黑箱,然后"
+ },
+ {
+  "seg": 99,
+  "start": 375.114,
+  "end": 380.082,
+  "speaker": "swyx",
+  "en": "then use sort of see the observable action that comes out of it and then just prompt",
+  "zh": "使用某种看到从中产生的可观测行为,然后只是提示"
+ },
+ {
+  "seg": 100,
+  "start": 380.122,
+  "end": 383.667,
+  "speaker": "swyx",
+  "en": "a change yeah so i think actually it takes",
+  "zh": "一个改变 是的 所以我认为实际上它需要"
+ },
+ {
+  "seg": 101,
+  "start": 383.707,
+  "end": 385.0403333333333,
+  "speaker": "swyx",
+  "en": "How do you answer that?",
+  "zh": "你怎么回答那个？"
+ },
+ {
+  "seg": 102,
+  "start": 406.15,
+  "end": 410.892,
+  "speaker": "Akshat Bubna",
+  "en": "Modal is a cloud platform that's built for where we've built the primitives",
+  "zh": "Modal 是一个云平台，是为我们从头构建了原语而构建的"
+ },
+ {
+  "seg": 103,
+  "start": 410.912,
+  "end": 413.313,
+  "speaker": "Akshat Bubna",
+  "en": "from scratch for AI applications.",
+  "zh": "从头开始为 AI 应用构建的。"
+ },
+ {
+  "seg": 104,
+  "start": 414.133,
+  "end": 419.635,
+  "speaker": "Akshat Bubna",
+  "en": "And right now it basically covers inference, training, batch crossing and sandbox workloads.",
+  "zh": "而现在它基本上涵盖了推理、训练、批处理交叉和沙箱工作负载。"
+ },
+ {
+  "seg": 105,
+  "start": 421.248,
+  "end": 423.87,
+  "speaker": "swyx",
+  "en": "I noticed you didn't say web server.",
+  "zh": "我注意到你没有说网络服务器。"
+ },
+ {
+  "seg": 106,
+  "start": 424.03,
+  "end": 428.934,
+  "speaker": "swyx",
+  "en": "So there is still a role for the always on large scale Kubernetes type of things.",
+  "zh": "所以对于一直在线的大规模 Kubernetes 类型的东西来说，仍然有它的角色。"
+ },
+ {
+  "seg": 107,
+  "start": 429.254,
+  "end": 430.065,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, absolutely.",
+  "zh": "是的，绝对。"
+ },
+ {
+  "seg": 108,
+  "start": 430.115,
+  "end": 435.68,
+  "speaker": "Akshat Bubna",
+  "en": "We're not trying to compete with the renders of the world because we think",
+  "zh": "我们不是试图与世界上的 render 竞争，因为我们认为"
+ },
+ {
+  "seg": 109,
+  "start": 435.7,
+  "end": 442.065,
+  "speaker": "Akshat Bubna",
+  "en": "the differentiator for us are the workloads that need specialized compute,",
+  "zh": "对我们来说差异化的是那些需要专用计算的工作负载，"
+ },
+ {
+  "seg": 110,
+  "start": 442.085,
+  "end": 444.287,
+  "speaker": "Akshat Bubna",
+  "en": "need to scale up and down a lot.",
+  "zh": "需要大量地上下扩展。"
+ },
+ {
+  "seg": 111,
+  "start": 444.728,
+  "end": 446.228,
+  "speaker": "Akshat Bubna",
+  "en": "They're shaped differently.",
+  "zh": "它们的形态不同。"
+ },
+ {
+  "seg": 112,
+  "start": 446.381,
+  "end": 449.002,
+  "speaker": "Vibhu",
+  "en": "I think you're building a lot of it alongside the startups, right?",
+  "zh": "我认为你在和初创公司一起构建很多东西，对吧？"
+ },
+ {
+  "seg": 113,
+  "start": 449.022,
+  "end": 450.673,
+  "speaker": "Vibhu",
+  "en": "They're innovating quite a bit.",
+  "zh": "他们创新得相当多。"
+ },
+ {
+  "seg": 114,
+  "start": 450.723,
+  "end": 452.444,
+  "speaker": "Vibhu",
+  "en": "Even in your latest blog post,",
+  "zh": "即使在你最新的博客文章中，"
+ },
+ {
+  "seg": 115,
+  "start": 452.504,
+  "end": 453.6706666666667,
+  "speaker": "Vibhu",
+  "en": "even in the Series C,",
+  "zh": "即使在 3C 中，"
+ },
+ {
+  "seg": 116,
+  "start": 454.245,
+  "end": 456.3561111111111,
+  "speaker": "Vibhu",
+  "en": "the customers that you mentioned here,",
+  "zh": "你在这里提到的客户，"
+ },
+ {
+  "seg": 117,
+  "start": 456.726,
+  "end": 461.468,
+  "speaker": "Vibhu",
+  "en": "the cognitions, techagons, ramps and whatnot, they're innovating with you, right?",
+  "zh": "cognitions、techagons、ramps 等等，他们在和你一起创新，对吧？"
+ },
+ {
+  "seg": 118,
+  "start": 462.149,
+  "end": 465.068,
+  "speaker": "Vibhu",
+  "en": "And that's not something AWS is doing directly with them.",
+  "zh": "而那不是 AWS 直接和他们一起做的事情。"
+ },
+ {
+  "seg": 119,
+  "start": 465.118,
+  "end": 467.92,
+  "speaker": "Akshat Bubna",
+  "en": "yeah absolutely i think i mean this is again classic we're",
+  "zh": "是的 绝对 我认为 我的意思是 这又是经典的 我们是"
+ },
+ {
+  "seg": 120,
+  "start": 467.94,
+  "end": 472.964,
+  "speaker": "Akshat Bubna",
+  "en": "a small team we can move really fast uh our engineers are working with our customers",
+  "zh": "一个小团队 我们可以移动得非常快 我们的工程师正在和我们的客户一起工作"
+ },
+ {
+  "seg": 121,
+  "start": 473.065,
+  "end": 478.609,
+  "speaker": "swyx",
+  "en": "and so my first week at cognition i walked in there was someone wearing",
+  "zh": "所以我在 cognition 的第一周 我走进去 有个人穿着"
+ },
+ {
+  "seg": 122,
+  "start": 478.629,
+  "end": 482.342,
+  "speaker": "swyx",
+  "en": "a moto shirt i was like what are you doing here they're like yeah i just i i am",
+  "zh": "moto 衬衫 我说 你在这里做什么 他们说是的 我只是 我 我"
+ },
+ {
+  "seg": 123,
+  "start": 482.392,
+  "end": 488.157,
+  "speaker": "swyx",
+  "en": "embedded inside of cog yeah i think that was patent we we sent him over because uh",
+  "zh": "嵌入在 cog 里面 是的 我想那是 patent 我们 我们把他派过去 因为"
+ },
+ {
+  "seg": 124,
+  "start": 488.477,
+  "end": 491.3103333333333,
+  "speaker": "swyx",
+  "en": "the latency of communication was too high otherwise",
+  "zh": "否则通信的延迟太高了"
+ },
+ {
+  "seg": 125,
+  "start": 492.535,
+  "end": 495.66,
+  "speaker": "swyx",
+  "en": "um yeah you know distributed node you have to put you have to place one",
+  "zh": "嗯 是的 你知道分布式节点 你必须放置 你必须放置一个"
+ },
+ {
+  "seg": 126,
+  "start": 495.7,
+  "end": 499.566,
+  "speaker": "swyx",
+  "en": "and co-locate so actually so i had a direct personal experience right so i worked",
+  "zh": "并共同定位 所以实际上 所以我有过直接的个人经验 对吧 所以我工作"
+ },
+ {
+  "seg": 127,
+  "start": 499.606,
+  "end": 502.37,
+  "speaker": "swyx",
+  "en": "on small developer three years ago uh it was inspired",
+  "zh": "于 small developer 三年前 它是受到启发"
+ },
+ {
+  "seg": 128,
+  "start": 502.39,
+  "end": 507.277,
+  "speaker": "swyx",
+  "en": "by cloud one i think you onboarded me at some point like just",
+  "zh": "来自 cloud one 我想你在某个时候引导了我 就像是只是"
+ },
+ {
+  "seg": 129,
+  "start": 518.9000000000001,
+  "end": 522.6,
+  "speaker": "swyx",
+  "en": "Yeah, you blew up on Hacker News and we got a big traffic spike.",
+  "zh": "是的，你在 Hacker News 上爆红了，我们得到了一个大的流量峰值。"
+ },
+ {
+  "seg": 130,
+  "start": 523.713,
+  "end": 528.296,
+  "speaker": "Akshat Bubna",
+  "en": "i actually i think the way you you use small developer was modal functions for",
+  "zh": "我实际上 我认为你 你使用 small developer 的方式是 modal 函数用于"
+ },
+ {
+  "seg": 131,
+  "start": 528.477,
+  "end": 534.521,
+  "speaker": "Akshat Bubna",
+  "en": "for running stuff uh which which was like that was a good use case yeah that was so",
+  "zh": "运行东西 那 那就像 那是一个好的用例 是的 那是所以"
+ },
+ {
+  "seg": 132,
+  "start": 534.541,
+  "end": 538.643,
+  "speaker": "swyx",
+  "en": "to me that was proto cognition right if only i had like stuck to it like that",
+  "zh": "对我来说 那就是原始的 cognition 如果我只是喜欢坚持它 就像那样"
+ },
+ {
+  "seg": 133,
+  "start": 538.683,
+  "end": 539.944,
+  "speaker": "swyx",
+  "en": "that was like if you just like draw",
+  "zh": "那就像 如果你只是喜欢画"
+ },
+ {
+  "seg": 134,
+  "start": 539.964,
+  "end": 543.146,
+  "speaker": "swyx",
+  "en": "the tech tree out absolutely yeah like probably this will happen yeah like he was",
+  "zh": "技术树出来 绝对 是的 就像 可能这会发生 是的 就像他"
+ },
+ {
+  "seg": 135,
+  "start": 543.166,
+  "end": 544.8326666666667,
+  "speaker": "Akshat Bubna",
+  "en": "so close i just didn't realize",
+  "zh": "如此接近 我只是没有意识到"
+ },
+ {
+  "seg": 136,
+  "start": 547.681,
+  "end": 549.2921111111111,
+  "speaker": "Akshat Bubna",
+  "en": "But the funny story there is,",
+  "zh": "但那里有趣的故事是，"
+ },
+ {
+  "seg": 137,
+  "start": 549.602,
+  "end": 550.602,
+  "speaker": "Akshat Bubna",
+  "en": "at the same time,",
+  "zh": "在同一时间，"
+ },
+ {
+  "seg": 138,
+  "start": 550.742,
+  "end": 554.494,
+  "speaker": "Akshat Bubna",
+  "en": "we were talking to a bunch of customers who needed something like sandboxing.",
+  "zh": "我们正在和一群需要类似沙箱的客户交谈。"
+ },
+ {
+  "seg": 139,
+  "start": 554.544,
+  "end": 555.345,
+  "speaker": "Akshat Bubna",
+  "en": "This is like 2023.",
+  "zh": "这大约是 2023 年。"
+ },
+ {
+  "seg": 140,
+  "start": 555.385,
+  "end": 556.545,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, yeah, yeah.",
+  "zh": "是的，是的，是的。"
+ },
+ {
+  "seg": 141,
+  "start": 556.565,
+  "end": 558.826,
+  "speaker": "swyx",
+  "en": "So we built a new API right after that.",
+  "zh": "所以在那之后我们立即构建了一个新的 API。"
+ },
+ {
+  "seg": 142,
+  "start": 558.846,
+  "end": 559.277,
+  "speaker": "swyx",
+  "en": "Yeah,",
+  "zh": "是的，"
+ },
+ {
+  "seg": 143,
+  "start": 559.327,
+  "end": 564.589,
+  "speaker": "Akshat Bubna",
+  "en": "like we built sandboxes in May of 2023 before anyone was even knew this was going",
+  "zh": "就像我们在 2023 年 5 月构建了沙箱，在任何人甚至知道这将成为"
+ },
+ {
+  "seg": 144,
+  "start": 564.609,
+  "end": 565.48,
+  "speaker": "Akshat Bubna",
+  "en": "to be a thing.",
+  "zh": "一件事之前。"
+ },
+ {
+  "seg": 145,
+  "start": 565.53,
+  "end": 570.472,
+  "speaker": "Akshat Bubna",
+  "en": "And the first example we published was we took small developer and put in a loop so",
+  "zh": "而我们发布的第一个例子是我们拿了 small developer 并把它放在一个循环里，所以"
+ },
+ {
+  "seg": 146,
+  "start": 570.673,
+  "end": 572.4507777777778,
+  "speaker": "Akshat Bubna",
+  "en": "the agent can iterate on itself.",
+  "zh": "智能体可以对自身进行迭代。"
+ },
+ {
+  "seg": 147,
+  "start": 573.154,
+  "end": 574.1640000000001,
+  "speaker": "Akshat Bubna",
+  "en": "Loops are hard these days.",
+  "zh": "循环现在很难。"
+ },
+ {
+  "seg": 148,
+  "start": 574.214,
+  "end": 575.214,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 149,
+  "start": 576.158,
+  "end": 578.199,
+  "speaker": "Vibhu",
+  "en": "loops in, when was this, 2023?",
+  "zh": "循环在，那是什么时候，2023 年？"
+ },
+ {
+  "seg": 150,
+  "start": 578.739,
+  "end": 579.079,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 151,
+  "start": 579.099,
+  "end": 580.519,
+  "speaker": "Vibhu",
+  "en": "A small chick.",
+  "zh": "一只小鸡。"
+ },
+ {
+  "seg": 152,
+  "start": 580.599,
+  "end": 581.8090000000001,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, it's like mid-2023.",
+  "zh": "是的,大概是 2023 年中。"
+ },
+ {
+  "seg": 153,
+  "start": 581.859,
+  "end": 583.84,
+  "speaker": "swyx",
+  "en": "I mean, obviously for listeners,",
+  "zh": "我的意思是,显然对于听众来说,"
+ },
+ {
+  "seg": 154,
+  "start": 583.88,
+  "end": 587.861,
+  "speaker": "swyx",
+  "en": "the problem was the models are not built for any of this, right?",
+  "zh": "问题在于模型不是为了这些而构建的,对吧?"
+ },
+ {
+  "seg": 155,
+  "start": 588.241,
+  "end": 591.9076666666666,
+  "speaker": "swyx",
+  "en": "They're not post-trained to understand looping and self-correction",
+  "zh": "它们没有被后训练以理解循环和自我修正,"
+ },
+ {
+  "seg": 156,
+  "start": 591.962,
+  "end": 594.802,
+  "speaker": "swyx",
+  "en": "and toolcalling was there, but also not that great.",
+  "zh": "而且工具调用是有的,但也不是那么好。"
+ },
+ {
+  "seg": 157,
+  "start": 595.202,
+  "end": 597.823,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, I don't remember if you used toolcalling in this one,",
+  "zh": "是的,我不记得你在这个里面有没有用工具调用,"
+ },
+ {
+  "seg": 158,
+  "start": 597.863,
+  "end": 598.503,
+  "speaker": "Akshat Bubna",
+  "en": "but yeah,",
+  "zh": "但是是的,"
+ },
+ {
+  "seg": 159,
+  "start": 598.523,
+  "end": 601.544,
+  "speaker": "Akshat Bubna",
+  "en": "the models would just diverge after 10 iterations",
+  "zh": "模型在 10 次迭代之后就会发散,"
+ },
+ {
+  "seg": 160,
+  "start": 601.664,
+  "end": 603.514,
+  "speaker": "Akshat Bubna",
+  "en": "and not produce anything meaningful.",
+  "zh": "产生不出任何有意义的东西。"
+ },
+ {
+  "seg": 161,
+  "start": 603.564,
+  "end": 607.887,
+  "speaker": "swyx",
+  "en": "yeah but like then so i mean okay like now talking to myself three years ago",
+  "zh": "是的,但是就像那么所以我意思是好吧就像现在和三年前的自己对话"
+ },
+ {
+  "seg": 162,
+  "start": 608.127,
+  "end": 612.71,
+  "speaker": "swyx",
+  "en": "the answer is collect all the failures build benchmark and then collect all",
+  "zh": "答案是收集所有的失败构建基准测试然后收集所有的"
+ },
+ {
+  "seg": 163,
+  "start": 612.73,
+  "end": 615.592,
+  "speaker": "swyx",
+  "en": "the you know examples build the aural environment right sell it",
+  "zh": "你知道的例子构建 aural 环境对吧卖掉它"
+ },
+ {
+  "seg": 164,
+  "start": 615.612,
+  "end": 619.815,
+  "speaker": "swyx",
+  "en": "for like 10 billion dollars to meta uh and then and then also train a model and",
+  "zh": "大概 100 亿美元卖给 meta 呃然后然后也训练一个模型并且"
+ },
+ {
+  "seg": 165,
+  "start": 619.835,
+  "end": 622.167,
+  "speaker": "swyx",
+  "en": "then sell that for 60 billion dollars to elon",
+  "zh": "然后把它以 600 亿美元卖给 elon"
+ },
+ {
+  "seg": 166,
+  "start": 622.217,
+  "end": 625.819,
+  "speaker": "swyx",
+  "en": "and this is yeah money machine like it's like it's actually about",
+  "zh": "而这个是的印钞机就像它实际上是关于"
+ },
+ {
+  "seg": 167,
+  "start": 625.839,
+  "end": 627.1723333333334,
+  "speaker": "swyx",
+  "en": "the heart there you know",
+  "zh": "那里的核心的,你知道的"
+ },
+ {
+  "seg": 168,
+  "start": 628.745,
+  "end": 632.75,
+  "speaker": "Akshat Bubna",
+  "en": "i mean it's hard to have that kind of inherent conviction that the stuff will get",
+  "zh": "我的意思是很难有那种内在的信念,认为这些东西会变得"
+ },
+ {
+  "seg": 169,
+  "start": 632.79,
+  "end": 634.632,
+  "speaker": "Akshat Bubna",
+  "en": "that much better in retrospect it's",
+  "zh": "那么好,回想起来这"
+ },
+ {
+  "seg": 170,
+  "start": 634.652,
+  "end": 638.596,
+  "speaker": "swyx",
+  "en": "so fucking obvious like fair enough like what else were we doing back",
+  "zh": "太他妈明显了,就像很合理,就像我们当时还在做什么"
+ },
+ {
+  "seg": 171,
+  "start": 638.616,
+  "end": 643.301,
+  "speaker": "swyx",
+  "en": "then i don't know um anyway yeah so so so i mean that was the start",
+  "zh": "我不知道嗯无论如何是的所以所以所以我意思是那就是起点"
+ },
+ {
+  "seg": 172,
+  "start": 643.321,
+  "end": 647.946,
+  "speaker": "swyx",
+  "en": "of your sandboxing journey right uh i feel like it didn't blow up blow up",
+  "zh": "你的沙箱之旅对吧呃我感觉它直到去年才真正爆发爆发,"
+ },
+ {
+  "seg": 173,
+  "start": 648.087,
+  "end": 649.989,
+  "speaker": "swyx",
+  "en": "until like last year yeah",
+  "zh": "是的。"
+ },
+ {
+  "seg": 174,
+  "start": 650.788,
+  "end": 652.701,
+  "speaker": "swyx",
+  "en": "So there was like a couple of years of quietness.",
+  "zh": "所以有几年的安静期。"
+ },
+ {
+  "seg": 175,
+  "start": 652.751,
+  "end": 653.663,
+  "speaker": "swyx",
+  "en": "Exactly.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 176,
+  "start": 653.713,
+  "end": 655.776,
+  "speaker": "Vibhu",
+  "en": "Very underrated product value.",
+  "zh": "非常被低估的产品价值。"
+ },
+ {
+  "seg": 177,
+  "start": 655.836,
+  "end": 658.099,
+  "speaker": "Vibhu",
+  "en": "Like my experience with Model,",
+  "zh": "就像我对 Model 的体验,"
+ },
+ {
+  "seg": 178,
+  "start": 658.179,
+  "end": 658.85,
+  "speaker": "Vibhu",
+  "en": "Charles,",
+  "zh": "Charles,"
+ },
+ {
+  "seg": 179,
+  "start": 658.9,
+  "end": 660.4,
+  "speaker": "Vibhu",
+  "en": "before he had joined Model,",
+  "zh": "在他加入 Model 之前,"
+ },
+ {
+  "seg": 180,
+  "start": 660.723,
+  "end": 665.3896666666666,
+  "speaker": "Vibhu",
+  "en": "met this guy at a hackathon and he really insisted we wanted to run some small model",
+  "zh": "在一次黑客马拉松上遇到了这个人,他非常坚持我们想运行一些小模型"
+ },
+ {
+  "seg": 181,
+  "start": 665.71,
+  "end": 666.931,
+  "speaker": "Vibhu",
+  "en": "you know not hosted anywhere",
+  "zh": "你知道的不在任何地方托管"
+ },
+ {
+  "seg": 182,
+  "start": 666.971,
+  "end": 669.7420000000001,
+  "speaker": "Vibhu",
+  "en": "and he's like ah there's this cool company modal they'll like spin up",
+  "zh": "他就像啊有一家很酷的公司 modal 他们会启动"
+ },
+ {
+  "seg": 183,
+  "start": 669.792,
+  "end": 673.034,
+  "speaker": "Vibhu",
+  "en": "a gpu sandbox we can throw it on there they'll take a hugging face link",
+  "zh": "一个 gpu 沙箱我们可以把它扔到那里他们会接受一个 hugging face 链接"
+ },
+ {
+  "seg": 184,
+  "start": 673.074,
+  "end": 674.154,
+  "speaker": "Vibhu",
+  "en": "and you know like there's",
+  "zh": "而且你知道就像那里有"
+ },
+ {
+  "seg": 185,
+  "start": 674.175,
+  "end": 678.567,
+  "speaker": "Vibhu",
+  "en": "so much value just right there right like instant hosting spin it up spin it down",
+  "zh": "那么多价值就在那里对吧即时托管启动它关闭它"
+ },
+ {
+  "seg": 186,
+  "start": 678.617,
+  "end": 682.279,
+  "speaker": "Vibhu",
+  "en": "it'll stay cold but you know we run the demo a few days later it'll come back up",
+  "zh": "它会保持冷启动,但是你知道我们几天后运行演示它就会重新上线"
+ },
+ {
+  "seg": 187,
+  "start": 682.319,
+  "end": 686.7078888888889,
+  "speaker": "Vibhu",
+  "en": "and like all this stuff in retrospect like it's still what we needed like today",
+  "zh": "而所有这些东西回想起来就像它仍然是我们今天所需要的"
+ },
+ {
+  "seg": 188,
+  "start": 686.957,
+  "end": 692.119,
+  "speaker": "Akshat Bubna",
+  "en": "yeah i mean it's still needed today obviously workload shapes have changed a lot",
+  "zh": "是的我意思是今天仍然需要它显然工作负载的形状已经改变了很多"
+ },
+ {
+  "seg": 189,
+  "start": 692.399,
+  "end": 697.101,
+  "speaker": "Akshat Bubna",
+  "en": "as um we we run stuff for people with really massive production scale",
+  "zh": "因为嗯我们为人们运行真正大规模生产规模的东西"
+ },
+ {
+  "seg": 190,
+  "start": 697.442,
+  "end": 700.843,
+  "speaker": "Akshat Bubna",
+  "en": "and uh there it's it's not best scaling from zero to one",
+  "zh": "而且呃在那里它不是从零到一的最佳扩展"
+ },
+ {
+  "seg": 191,
+  "start": 700.883,
+  "end": 705.245,
+  "speaker": "Akshat Bubna",
+  "en": "but it's how do we scale really elastically uh from like thousand",
+  "zh": "但它我们如何非常有弹性地扩展呃比如从一千"
+ },
+ {
+  "seg": 192,
+  "start": 705.265,
+  "end": 709.727,
+  "speaker": "Akshat Bubna",
+  "en": "to fifteen hundred gpus very quickly in in a given region as same shape from",
+  "zh": "到一千五百个 gpu 非常快地在一个给定的区域作为相同的形状从"
+ },
+ {
+  "seg": 193,
+  "start": 710.295,
+  "end": 715.262,
+  "speaker": "Vibhu",
+  "en": "okay so you look at say cursor composer right they had a will do rl on",
+  "zh": "好的所以你看比如 cursor composer 对吧他们有一个将做 rl 在"
+ },
+ {
+  "seg": 194,
+  "start": 715.322,
+  "end": 720.67,
+  "speaker": "Vibhu",
+  "en": "a model every couple hours you guys have a whole version of rl inference gym",
+  "zh": "一个模型上每隔几个小时你们有一整个版本的 rl 推理健身房"
+ },
+ {
+  "seg": 195,
+  "start": 720.71,
+  "end": 725.077,
+  "speaker": "Vibhu",
+  "en": "and whatnot when you look at workloads like that you're basically doing train",
+  "zh": "等等当你看像那样的工作负载时你基本上是在做训练"
+ },
+ {
+  "seg": 196,
+  "start": 725.537,
+  "end": 730.945,
+  "speaker": "Vibhu",
+  "en": "where you need to scale up scale down every hour thousands of gpus right um that's",
+  "zh": "你需要每小时扩展上扩展下数千个 gpu 对吧嗯那是"
+ },
+ {
+  "seg": 197,
+  "start": 730.965,
+  "end": 735.0010000000001,
+  "speaker": "Akshat Bubna",
+  "en": "the example for we do need it right you will also actually i'll take a step back",
+  "zh": "我们确实需要它的例子对你也会实际上我会退一步"
+ },
+ {
+  "seg": 198,
+  "start": 735.051,
+  "end": 739.838,
+  "speaker": "Akshat Bubna",
+  "en": "and um maybe talk about like how how people use model today uh because our our",
+  "zh": "并且呃也许谈谈比如今天人们如何使用 model 呃因为我们我们的"
+ },
+ {
+  "seg": 199,
+  "start": 740.219,
+  "end": 743.123,
+  "speaker": "Akshat Bubna",
+  "en": "Our biggest use case actually is elastic inference.",
+  "zh": "我们最大的用例实际上是弹性推理。"
+ },
+ {
+  "seg": 200,
+  "start": 743.784,
+  "end": 748.5062222222222,
+  "speaker": "Akshat Bubna",
+  "en": "And the thing we first found product market fit with was inference for custom models.",
+  "zh": "我们最初找到产品市场契合点的东西是为自定义模型做推理。"
+ },
+ {
+  "seg": 201,
+  "start": 748.691,
+  "end": 753.138,
+  "speaker": "Akshat Bubna",
+  "en": "So we kind of stayed away from the LM space and we were serving companies like Suno",
+  "zh": "所以我们有点远离了 LM 领域，我们当时在服务像 Suno 这样的公司"
+ },
+ {
+  "seg": 202,
+  "start": 753.158,
+  "end": 754.82,
+  "speaker": "Akshat Bubna",
+  "en": "for audio, Runway for video.",
+  "zh": "做音频，Runway 做视频。"
+ },
+ {
+  "seg": 203,
+  "start": 755.461,
+  "end": 759.748,
+  "speaker": "Akshat Bubna",
+  "en": "robotics comp bio companies that train their own model elsewhere but model is",
+  "zh": "机器人、计算生物公司，他们在其他地方训练自己的模型，但是 model 是"
+ },
+ {
+  "seg": 204,
+  "start": 759.788,
+  "end": 764.875,
+  "speaker": "Akshat Bubna",
+  "en": "the best black box that for deployment scaling to however many gps you need",
+  "zh": "部署扩展到任意数量你需要的 gps 的最佳黑盒"
+ },
+ {
+  "seg": 205,
+  "start": 765.156,
+  "end": 770.043,
+  "speaker": "Akshat Bubna",
+  "en": "as your traffic pattern changes and we saw all of them actually like",
+  "zh": "随着你的流量模式变化，我们看到他们所有人实际上都"
+ },
+ {
+  "seg": 206,
+  "start": 770.323,
+  "end": 773.508,
+  "speaker": "Akshat Bubna",
+  "en": "have a very unpredictable traffic pattern.",
+  "zh": "有着非常不可预测的流量模式。"
+ },
+ {
+  "seg": 207,
+  "start": 774.069,
+  "end": 775.069,
+  "speaker": "Akshat Bubna",
+  "en": "It's like diurnal.",
+  "zh": "就像昼夜的。"
+ },
+ {
+  "seg": 208,
+  "start": 775.21,
+  "end": 781.7,
+  "speaker": "Akshat Bubna",
+  "en": "It's some days like the company will be launched and, you know, they need like way more.",
+  "zh": "有些时候就像公司会发布，然后，你知道，他们需要多得多。"
+ },
+ {
+  "seg": 209,
+  "start": 782.581,
+  "end": 785.105,
+  "speaker": "Akshat Bubna",
+  "en": "And it's not just one model that they deploy.",
+  "zh": "而且他们部署的不仅仅是一个模型。"
+ },
+ {
+  "seg": 210,
+  "start": 785.806,
+  "end": 789.151,
+  "speaker": "Akshat Bubna",
+  "en": "all these companies deploy lots of different models in different regions and so",
+  "zh": "所有这些公司在不同地区部署大量不同的模型，因此"
+ },
+ {
+  "seg": 211,
+  "start": 789.191,
+  "end": 793.016,
+  "speaker": "Akshat Bubna",
+  "en": "the auto scaling problem becomes even harder because then you have to scale within",
+  "zh": "自动扩展问题变得更加困难，因为那样你就必须在"
+ },
+ {
+  "seg": 212,
+  "start": 793.036,
+  "end": 798.705,
+  "speaker": "Akshat Bubna",
+  "en": "a certain region and those cycles sort of are offset so different times you need",
+  "zh": "特定区域内进行扩展，而且这些周期有些是错开的，所以在不同的时间你需要"
+ },
+ {
+  "seg": 213,
+  "start": 798.725,
+  "end": 800.397,
+  "speaker": "Akshat Bubna",
+  "en": "to scale up in different regions.",
+  "zh": "在不同地区进行扩展。"
+ },
+ {
+  "seg": 214,
+  "start": 800.447,
+  "end": 804.352,
+  "speaker": "Vibhu",
+  "en": "so that's like our sort of and that you know that that in and of itself is",
+  "zh": "所以这就有点像我们的那种，而且你知道那本身"
+ },
+ {
+  "seg": 215,
+  "start": 804.392,
+  "end": 807.3860000000001,
+  "speaker": "Vibhu",
+  "en": "a huge category there's a bunch of inference providers",
+  "zh": "就是一个巨大的类别，有一堆推理提供商"
+ },
+ {
+  "seg": 216,
+  "start": 807.436,
+  "end": 810.82,
+  "speaker": "Vibhu",
+  "en": "which you know provide this fireworks does this as a service together",
+  "zh": "你知道的提供这个，fireworks 做这个作为一种服务，together"
+ },
+ {
+  "seg": 217,
+  "start": 810.84,
+  "end": 815.746,
+  "speaker": "Vibhu",
+  "en": "or whatnot base 10 that's kind of carved into its own niche for language models",
+  "zh": "或者其他的，base 10 那种算是切入到它自己的利基市场，为了语言模型"
+ },
+ {
+  "seg": 218,
+  "start": 815.806,
+  "end": 816.743,
+  "speaker": "Vibhu",
+  "en": "at least right now",
+  "zh": "至少目前是"
+ },
+ {
+  "seg": 219,
+  "start": 816.793,
+  "end": 821.6818888888889,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, I mean, the thing that we have actually specialized in is the autoscaling aspect.",
+  "zh": "是的，我的意思是，我们实际上专门研究的是自动扩展方面。"
+ },
+ {
+  "seg": 220,
+  "start": 821.74,
+  "end": 827.309,
+  "speaker": "Akshat Bubna",
+  "en": "Because we found that it's not universally true that everyone else can autoscale.",
+  "zh": "因为我们发现其他人都能自动扩展并不是普遍成立的。"
+ },
+ {
+  "seg": 221,
+  "start": 827.789,
+  "end": 831.81,
+  "speaker": "Akshat Bubna",
+  "en": "And we've gone deeper into it on the tech side, but we've incorporated GPU.",
+  "zh": "而且我们在技术方面更深入地研究了它，但我们已经整合了 GPU。"
+ },
+ {
+  "seg": 222,
+  "start": 831.8599999999999,
+  "end": 834.76,
+  "speaker": "Akshat Bubna",
+  "en": "snapshotting to the product so we can actually uh take",
+  "zh": "快照到产品中，所以我们可以实际上呃获取"
+ },
+ {
+  "seg": 223,
+  "start": 834.76,
+  "end": 837.18,
+  "speaker": "Akshat Bubna",
+  "en": "the gpu state like your torch compiler model",
+  "zh": "gpu 状态，比如你的 torch compiler model"
+ },
+ {
+  "seg": 224,
+  "start": 837.18,
+  "end": 841,
+  "speaker": "Akshat Bubna",
+  "en": "snapshot it and next call starts way faster and so going back",
+  "zh": "对它快照，然后下一次调用启动会快得多，所以回去"
+ },
+ {
+  "seg": 225,
+  "start": 841,
+  "end": 843.16,
+  "speaker": "Akshat Bubna",
+  "en": "to your question is um that's why you",
+  "zh": "回到你的问题是，嗯，这就是为什么你"
+ },
+ {
+  "seg": 226,
+  "start": 843.16,
+  "end": 846.8,
+  "speaker": "Akshat Bubna",
+  "en": "need a lot of burstiness or inference but then people also do a lot on-demand training",
+  "zh": "需要大量的突发性或者推理，但是人们也做大量的按需训练"
+ },
+ {
+  "seg": 227,
+  "start": 846.8,
+  "end": 849.9666666666666,
+  "speaker": "Akshat Bubna",
+  "en": "like for our old stuff your rollouts are bursting as you",
+  "zh": "比如对于我们的老东西，你的 rollouts 是突发的，当你"
+ },
+ {
+  "seg": 228,
+  "start": 871.126,
+  "end": 876.149,
+  "speaker": "Akshat Bubna",
+  "en": "When you're doing rollouts, you sometimes need 100,000 sandboxes.",
+  "zh": "当你在做 rollouts 的时候，你有时需要十万个沙箱。"
+ },
+ {
+  "seg": 229,
+  "start": 878.602,
+  "end": 880.653,
+  "speaker": "Vibhu",
+  "en": "i'm curious if you've seen early sparks",
+  "zh": "我很好奇你是否看到了持续学习的早期火花"
+ },
+ {
+  "seg": 230,
+  "start": 880.703,
+  "end": 885.186,
+  "speaker": "Vibhu",
+  "en": "of continual learning there's some people like our friends ngram recently announced",
+  "zh": "有些人比如我们的朋友 ngram 最近宣布了"
+ },
+ {
+  "seg": 231,
+  "start": 885.206,
+  "end": 889.7615555555556,
+  "speaker": "Vibhu",
+  "en": "this they're trying to do training that also seems like a different workload right",
+  "zh": "这个，他们试图做的训练这也看起来像是一个不同的工作负载，对吧"
+ },
+ {
+  "seg": 232,
+  "start": 889.829,
+  "end": 895.812,
+  "speaker": "Vibhu",
+  "en": "if you're doing training 24 7 per se there's a very weird dynamic",
+  "zh": "如果你在 24 7 训练打个比方，这里有一个非常奇怪的动态"
+ },
+ {
+  "seg": 233,
+  "start": 895.892,
+  "end": 898.634,
+  "speaker": "Vibhu",
+  "en": "of how you're using gpus between people and whatnot",
+  "zh": "关于你如何在人与人等等之间使用 gpus"
+ },
+ {
+  "seg": 234,
+  "start": 898.654,
+  "end": 900.7130000000001,
+  "speaker": "Vibhu",
+  "en": "but seems like something you guys would work for",
+  "zh": "但看起来像是你们会适用的东西"
+ },
+ {
+  "seg": 235,
+  "start": 900.763,
+  "end": 901.324,
+  "speaker": "Akshat Bubna",
+  "en": "As you said,",
+  "zh": "正如你所说，"
+ },
+ {
+  "seg": 236,
+  "start": 901.364,
+  "end": 905.931,
+  "speaker": "Akshat Bubna",
+  "en": "we're fortunate to work with a number of customers of the frontier and grab some",
+  "zh": "我们很幸运能与前沿领域的一些客户合作并抓住"
+ },
+ {
+  "seg": 237,
+  "start": 905.951,
+  "end": 911.719,
+  "speaker": "Akshat Bubna",
+  "en": "of our customers and they are taking the primitives we have and trying to use them",
+  "zh": "我们的一些客户，他们正在采用我们拥有的基础原语，并试图使用它们"
+ },
+ {
+  "seg": 238,
+  "start": 911.759,
+  "end": 914.3530000000001,
+  "speaker": "Akshat Bubna",
+  "en": "in very interesting ways like continual learning.",
+  "zh": "以非常有趣的方式，比如持续学习。"
+ },
+ {
+  "seg": 239,
+  "start": 914.403,
+  "end": 915.8474444444445,
+  "speaker": "Akshat Bubna",
+  "en": "It's possible as the stuff",
+  "zh": "这是有可能的，随着这些东西"
+ },
+ {
+  "seg": 240,
+  "start": 916.1199999999999,
+  "end": 920.68,
+  "speaker": "Akshat Bubna",
+  "en": "some of that will be part of uh you know our offering as well if you know more people need it",
+  "zh": "其中一些将会成为，你知道的，我们产品的一部分，如果你知道更多的人需要它的话"
+ },
+ {
+  "seg": 241,
+  "start": 920.68,
+  "end": 927.68,
+  "speaker": "swyx",
+  "en": "um but we're just waiting to see how else shakes out. Is there a primitive that you added after",
+  "zh": "嗯，但我们只是在等着看结果如何。在之后你是否增加了一个原语"
+ },
+ {
+  "seg": 242,
+  "start": 928.4799999999999,
+  "end": 932.44,
+  "speaker": "swyx",
+  "en": "sandboxing that was the next step in the story? I guess even",
+  "zh": "关于沙箱的，那是故事中的下一步吗？我想甚至"
+ },
+ {
+  "seg": 243,
+  "start": 933.533,
+  "end": 937.735,
+  "speaker": "Akshat Bubna",
+  "en": "going much deeper into LLM inference because we realized that some of",
+  "zh": "更深入地研究 LLM 推理，因为我们意识到一些"
+ },
+ {
+  "seg": 244,
+  "start": 937.795,
+  "end": 941.8660000000001,
+  "speaker": "Akshat Bubna",
+  "en": "the advantages we have with like autoscaling again especially in different regions",
+  "zh": "我们拥有的优势，比如自动扩展，再次特别是在不同地区"
+ },
+ {
+  "seg": 245,
+  "start": 941.916,
+  "end": 946.978,
+  "speaker": "Akshat Bubna",
+  "en": "and whatnot are not present elsewhere and the place where we had",
+  "zh": "等等，在其他地方是不存在的，而我们曾经"
+ },
+ {
+  "seg": 246,
+  "start": 947.018,
+  "end": 951.72,
+  "speaker": "Akshat Bubna",
+  "en": "a gap was we weren't working on the model there itself like we were a black box",
+  "zh": "存在差距的地方是我们没有在模型本身上做工作，就像我们是一个黑盒"
+ },
+ {
+  "seg": 247,
+  "start": 952.24,
+  "end": 954.741,
+  "speaker": "Akshat Bubna",
+  "en": "and we realized that we actually",
+  "zh": "而且我们意识到我们实际上"
+ },
+ {
+  "seg": 248,
+  "start": 955.681,
+  "end": 962.681,
+  "speaker": "Akshat Bubna",
+  "en": "can get to frontier level model performance by having great people who work on all",
+  "zh": "可以通过拥有在这些方面工作的优秀人才，来达到前沿水平的模型性能"
+ },
+ {
+  "seg": 249,
+  "start": 962.804,
+  "end": 966.615,
+  "speaker": "Akshat Bubna",
+  "en": "of this and we've actually been open sourcing a lot of our work in terms",
+  "zh": "而且我们实际上一直在开源我们的很多工作，在方面"
+ },
+ {
+  "seg": 250,
+  "start": 966.665,
+  "end": 972.487,
+  "speaker": "Akshat Bubna",
+  "en": "of recently we shared our work on dflash which is a block based speculator",
+  "zh": "最近我们分享了我们在 dflash 上的工作,它是一个基于块的推测器"
+ },
+ {
+  "seg": 251,
+  "start": 973.188,
+  "end": 976.349,
+  "speaker": "Akshat Bubna",
+  "en": "and we've open sourced all of it so you can get",
+  "zh": "并且我们已经将它全部开源了,所以你可以获得"
+ },
+ {
+  "seg": 252,
+  "start": 976.729,
+  "end": 979.79,
+  "speaker": "Akshat Bubna",
+  "en": "by using open source dflash you can get the same performance as you would with one",
+  "zh": "通过使用开源的 dflash,你可以获得与一个"
+ },
+ {
+  "seg": 253,
+  "start": 979.81,
+  "end": 981.3655555555555,
+  "speaker": "Akshat Bubna",
+  "en": "of the proprietary providers",
+  "zh": "专有提供商相同的性能"
+ },
+ {
+  "seg": 254,
+  "start": 981.6899999999999,
+  "end": 983.13,
+  "speaker": "Akshat Bubna",
+  "en": "And the next thing we're thinking about here.",
+  "zh": "我们在这里考虑的下一件事。"
+ },
+ {
+  "seg": 255,
+  "start": 983.15,
+  "end": 985.5200000000001,
+  "speaker": "Vibhu",
+  "en": "I thought this was actually an interesting blog post as well, right?",
+  "zh": "我认为这其实也是一篇有趣的博客文章,对吧?"
+ },
+ {
+  "seg": 256,
+  "start": 985.57,
+  "end": 986.38,
+  "speaker": "Vibhu",
+  "en": "Like, uh,",
+  "zh": "就像,嗯,"
+ },
+ {
+  "seg": 257,
+  "start": 986.43,
+  "end": 987.96,
+  "speaker": "Vibhu",
+  "en": "I think in here you make a claim that,",
+  "zh": "我想在这里你提出了一个主张,"
+ },
+ {
+  "seg": 258,
+  "start": 988.01,
+  "end": 988.5600000000001,
+  "speaker": "Vibhu",
+  "en": "you know,",
+  "zh": "你知道的,"
+ },
+ {
+  "seg": 259,
+  "start": 988.61,
+  "end": 990.0400000000001,
+  "speaker": "Vibhu",
+  "en": "not a claim just that how,",
+  "zh": "不是一个主张只是关于如何,"
+ },
+ {
+  "seg": 260,
+  "start": 990.09,
+  "end": 994.13,
+  "speaker": "Vibhu",
+  "en": "how effective speculative decoding really just gets to anything you want",
+  "zh": "投机解码的有效性真的只是涉及到你想要"
+ },
+ {
+  "seg": 261,
+  "start": 994.13,
+  "end": 996.15,
+  "speaker": "Vibhu",
+  "en": "to point out from this around,",
+  "zh": "从这里指出的任何事情,"
+ },
+ {
+  "seg": 262,
+  "start": 996.97,
+  "end": 998.8588888888889,
+  "speaker": "Vibhu",
+  "en": "you know what people should know.",
+  "zh": "关于人们应该知道什么。"
+ },
+ {
+  "seg": 263,
+  "start": 999.059,
+  "end": 1002.144,
+  "speaker": "Akshat Bubna",
+  "en": "uh yeah absolutely i mean the high level summary is um it would help",
+  "zh": "呃是的绝对是的我意思是高层级的总结是嗯它会有帮助"
+ },
+ {
+  "seg": 264,
+  "start": 1002.184,
+  "end": 1007.291,
+  "speaker": "Akshat Bubna",
+  "en": "to describe what speculative decoding is yes i think so we've covered like ego",
+  "zh": "去描述什么是投机解码是的我认为如此我们已经介绍了比如 ego"
+ },
+ {
+  "seg": 265,
+  "start": 1007.391,
+  "end": 1009.855,
+  "speaker": "Akshat Bubna",
+  "en": "and all this like hydra and all those things",
+  "zh": "以及所有这些比如 hydra 以及所有那些东西"
+ },
+ {
+  "seg": 266,
+  "start": 1010.075,
+  "end": 1013.9110000000001,
+  "speaker": "Akshat Bubna",
+  "en": "but it was like two years ago i think it doesn't hurt right the speculative decoding",
+  "zh": "但那是两年前了我想再复习一下也无妨对吧投机解码"
+ },
+ {
+  "seg": 267,
+  "start": 1013.961,
+  "end": 1017.987,
+  "speaker": "Akshat Bubna",
+  "en": "What you're doing is you have a smaller model called",
+  "zh": "你正在做的是你有一个被称为"
+ },
+ {
+  "seg": 268,
+  "start": 1018.007,
+  "end": 1022.193,
+  "speaker": "Akshat Bubna",
+  "en": "a draft model predict tokens ahead of the bigger model and then you have",
+  "zh": "草稿模型的较小模型在更大模型之前预测 token 然后你让"
+ },
+ {
+  "seg": 269,
+  "start": 1022.213,
+  "end": 1024.213,
+  "speaker": "Akshat Bubna",
+  "en": "the bigger model verify all of this.",
+  "zh": "更大模型验证所有这些。"
+ },
+ {
+  "seg": 270,
+  "start": 1024.597,
+  "end": 1025.6280000000002,
+  "speaker": "Akshat Bubna",
+  "en": "All the tokens are predicted.",
+  "zh": "所有被预测的 token。"
+ },
+ {
+  "seg": 271,
+  "start": 1025.678,
+  "end": 1028.783,
+  "speaker": "Akshat Bubna",
+  "en": "And the reason it's faster is if you're predicting one",
+  "zh": "它更快的原因是,如果你正在预测一个"
+ },
+ {
+  "seg": 272,
+  "start": 1032.008,
+  "end": 1035.152,
+  "speaker": "Akshat Bubna",
+  "en": "If you can batch the verification of the draft model,",
+  "zh": "如果你能将草稿模型的验证进行批处理,"
+ },
+ {
+  "seg": 273,
+  "start": 1036.033,
+  "end": 1039.4774444444442,
+  "speaker": "Akshat Bubna",
+  "en": "then you're much more efficient using compute and it's faster.",
+  "zh": "那么你在使用计算上就高效得多,而且更快。"
+ },
+ {
+  "seg": 274,
+  "start": 1039.559,
+  "end": 1043.805,
+  "speaker": "Akshat Bubna",
+  "en": "And as long as your draft model is producing a lot of tokens that can get",
+  "zh": "并且只要你的草稿模型正在产生大量可以"
+ },
+ {
+  "seg": 275,
+  "start": 1043.96,
+  "end": 1049.84,
+  "speaker": "Akshat Bubna",
+  "en": "which is called the accept length you can get uh speed up that's multiple times of um",
+  "zh": "被接受的 token,这被称为接受长度,你可以获得嗯多倍的加速,"
+ },
+ {
+  "seg": 276,
+  "start": 1049.84,
+  "end": 1056.24,
+  "speaker": "Akshat Bubna",
+  "en": "you know the original model speed and what we highlight here it's like people talk a lot about",
+  "zh": "你知道的相对于原始模型的速度,而我们在这里强调的是,就像人们谈论很多的"
+ },
+ {
+  "seg": 277,
+  "start": 1056.24,
+  "end": 1057.7,
+  "speaker": "Akshat Bubna",
+  "en": "we made these kernels faster whatnot",
+  "zh": "我们让这些内核更快了之类的"
+ },
+ {
+  "seg": 278,
+  "start": 1057.7,
+  "end": 1060.78,
+  "speaker": "Akshat Bubna",
+  "en": "but improving kernel only give you like few percentage points",
+  "zh": "但改进内核只给你几个百分点"
+ },
+ {
+  "seg": 279,
+  "start": 1060.78,
+  "end": 1066.78,
+  "speaker": "Akshat Bubna",
+  "en": "improvement and increasing except lengths literally is multiplicative decrease",
+  "zh": "的提升,而增加接受长度实际上是 2 到 4 倍的乘法性减少"
+ },
+ {
+  "seg": 280,
+  "start": 1066.78,
+  "end": 1068.2,
+  "speaker": "Akshat Bubna",
+  "en": "in two to four x yeah",
+  "zh": "是的"
+ },
+ {
+  "seg": 281,
+  "start": 1068.2,
+  "end": 1070.4777777777779,
+  "speaker": "Akshat Bubna",
+  "en": "exactly without much head-on performance",
+  "zh": "完全正确,没有太大的正面性能影响"
+ },
+ {
+  "seg": 282,
+  "start": 1071.287,
+  "end": 1074.259,
+  "speaker": "swyx",
+  "en": "I think it may be, I mean, you are running a second model, right?",
+  "zh": "我认为可能是,我的意思是,你是在运行第二个模型,对吧?"
+ },
+ {
+  "seg": 283,
+  "start": 1074.309,
+  "end": 1076.971,
+  "speaker": "swyx",
+  "en": "So maybe it's more expensive in the compute.",
+  "zh": "所以也许它在计算上更昂贵。"
+ },
+ {
+  "seg": 284,
+  "start": 1077.331,
+  "end": 1078.992,
+  "speaker": "swyx",
+  "en": "I meant quality performance.",
+  "zh": "我指的是质量性能。"
+ },
+ {
+  "seg": 285,
+  "start": 1079.012,
+  "end": 1082.614,
+  "speaker": "Akshat Bubna",
+  "en": "So there's no drop in quality performance because you're always,",
+  "zh": "所以质量性能没有下降,因为你总是,"
+ },
+ {
+  "seg": 286,
+  "start": 1083.155,
+  "end": 1084.936,
+  "speaker": "Akshat Bubna",
+  "en": "you're never accepting a token that's a big model.",
+  "zh": "你永远不会接受一个不属于大模型的 token。"
+ },
+ {
+  "seg": 287,
+  "start": 1084.956,
+  "end": 1086.707,
+  "speaker": "Akshat Bubna",
+  "en": "It's to be better or it's the same.",
+  "zh": "它要变得更好或者是相同的。"
+ },
+ {
+  "seg": 288,
+  "start": 1086.757,
+  "end": 1087.247,
+  "speaker": "swyx",
+  "en": "Exactly.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 289,
+  "start": 1087.297,
+  "end": 1087.688,
+  "speaker": "Akshat Bubna",
+  "en": "Right?",
+  "zh": "对吧?"
+ },
+ {
+  "seg": 290,
+  "start": 1087.738,
+  "end": 1088.712,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 291,
+  "start": 1088.762,
+  "end": 1093.228,
+  "speaker": "Akshat Bubna",
+  "en": "And so we've been working a bunch on dflash, which is a block based speculator.",
+  "zh": "所以我们一直在 dflash 上做很多工作,它是一个基于块的推测器。"
+ },
+ {
+  "seg": 292,
+  "start": 1093.869,
+  "end": 1099.537,
+  "speaker": "Akshat Bubna",
+  "en": "So it's instead of predicting one token at a time, it's predicting a block.",
+  "zh": "所以它不是一次预测一个 token,而是预测一个块。"
+ },
+ {
+  "seg": 293,
+  "start": 1100.639,
+  "end": 1103.1945555555556,
+  "speaker": "Akshat Bubna",
+  "en": "And we've been open sourcing our work with it.",
+  "zh": "并且我们一直在开源我们在这方面的成果。"
+ },
+ {
+  "seg": 294,
+  "start": 1103.563,
+  "end": 1108.571,
+  "speaker": "Akshat Bubna",
+  "en": "The next thing for us here is for helping people train speculators and custom models.",
+  "zh": "我们在这里的下一件事是帮助人们训练推测器和自定义模型。"
+ },
+ {
+  "seg": 295,
+  "start": 1109.191,
+  "end": 1112.416,
+  "speaker": "Akshat Bubna",
+  "en": "It's something that traditionally is very FDE driven,",
+  "zh": "这通常是严重由 FDE 驱动的,"
+ },
+ {
+  "seg": 296,
+  "start": 1112.677,
+  "end": 1113.818,
+  "speaker": "Akshat Bubna",
+  "en": "support deployed engineer driven,",
+  "zh": "由支持部署工程师驱动的,"
+ },
+ {
+  "seg": 297,
+  "start": 1113.858,
+  "end": 1116.612,
+  "speaker": "Akshat Bubna",
+  "en": "like you work with customers and people can do that.",
+  "zh": "就像你与客户合作并且人们可以做到那样。"
+ },
+ {
+  "seg": 298,
+  "start": 1116.662,
+  "end": 1118.435,
+  "speaker": "Akshat Bubna",
+  "en": "And our vision for, this is why we launched",
+  "zh": "而我们对此的愿景,这就是为什么我们推出了"
+ },
+ {
+  "seg": 299,
+  "start": 1118.485,
+  "end": 1123.047,
+  "speaker": "Akshat Bubna",
+  "en": "auto endpoints is we want to make frontier level performance available to everyone",
+  "zh": "auto endpoints,我们想让前沿级别的性能对每个人都可用"
+ },
+ {
+  "seg": 300,
+  "start": 1123.568,
+  "end": 1127.27,
+  "speaker": "Akshat Bubna",
+  "en": "and so uh we mentioned this announcement we kind of teased it",
+  "zh": "所以呃我们提到了这个公告我们算是预热了一下"
+ },
+ {
+  "seg": 301,
+  "start": 1127.81,
+  "end": 1131.652,
+  "speaker": "Akshat Bubna",
+  "en": "the next thing we're we're launching is basically as you run",
+  "zh": "我们接下来要发布的基本上是当你运行"
+ },
+ {
+  "seg": 302,
+  "start": 1131.712,
+  "end": 1135.254,
+  "speaker": "Akshat Bubna",
+  "en": "an auto endpoint uh we we shadow traffic and do you do want",
+  "zh": "一个 auto endpoint 呃我们进行影子流量并且你确实想要"
+ },
+ {
+  "seg": 303,
+  "start": 1135.274,
+  "end": 1138.0517777777777,
+  "speaker": "Vibhu",
+  "en": "to explain what auto endpoints are yeah i love you",
+  "zh": "解释一下什么是 auto endpoints 是的我爱你"
+ },
+ {
+  "seg": 304,
+  "start": 1138.245,
+  "end": 1143.252,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, so this is I guess going back to your modal is you touch the code,",
+  "zh": "是的,所以这个我猜要回到你的 modal 是你接触代码,"
+ },
+ {
+  "seg": 305,
+  "start": 1143.453,
+  "end": 1146.597,
+  "speaker": "Akshat Bubna",
+  "en": "but sometimes people actually don't want to touch the code and they want",
+  "zh": "但有时人们其实不想接触代码并且他们想要"
+ },
+ {
+  "seg": 306,
+  "start": 1146.617,
+  "end": 1150.653,
+  "speaker": "Akshat Bubna",
+  "en": "to get started with an endpoint that works and has all the great performance",
+  "zh": "从一个能用的并且拥有 modal 所具备的所有出色性能"
+ },
+ {
+  "seg": 307,
+  "start": 1150.703,
+  "end": 1152.967,
+  "speaker": "Akshat Bubna",
+  "en": "and scalability that modal has.",
+  "zh": "和可扩展性的端点开始。"
+ },
+ {
+  "seg": 308,
+  "start": 1153.407,
+  "end": 1157.189,
+  "speaker": "Akshat Bubna",
+  "en": "So we've made that easier with basically a way to create an endpoint from our UI,",
+  "zh": "所以我们让这件事变得更容易了,基本上是通过一种从我们的 UI 创建端点的方式,"
+ },
+ {
+  "seg": 309,
+  "start": 1157.229,
+  "end": 1161.11,
+  "speaker": "Akshat Bubna",
+  "en": "from the CLI that has all of our optimizations that we talked about,",
+  "zh": "从 CLI 创建,其中内置了我们谈到的所有优化,"
+ },
+ {
+  "seg": 310,
+  "start": 1161.751,
+  "end": 1165.612,
+  "speaker": "Akshat Bubna",
+  "en": "like the dflash stuff already baked in, and there's full transparency.",
+  "zh": "比如 dflash 相关的东西已经内置了,并且有完全的透明度。"
+ },
+ {
+  "seg": 311,
+  "start": 1165.632,
+  "end": 1166.9653333333333,
+  "speaker": "Akshat Bubna",
+  "en": "So we give you the code,",
+  "zh": "所以我们给你代码,"
+ },
+ {
+  "seg": 312,
+  "start": 1167.353,
+  "end": 1168.853,
+  "speaker": "Akshat Bubna",
+  "en": "you can go run it yourself,",
+  "zh": "你可以自己去运行它,"
+ },
+ {
+  "seg": 313,
+  "start": 1169.014,
+  "end": 1169.714,
+  "speaker": "Akshat Bubna",
+  "en": "and if you want,",
+  "zh": "如果你想要的话,"
+ },
+ {
+  "seg": 314,
+  "start": 1169.734,
+  "end": 1172.915,
+  "speaker": "Akshat Bubna",
+  "en": "you can eject out into the full model experience,",
+  "zh": "你可以弹出到完整的 model 体验中,"
+ },
+ {
+  "seg": 315,
+  "start": 1173.295,
+  "end": 1175.486,
+  "speaker": "Akshat Bubna",
+  "en": "which we see as people get sophisticated,",
+  "zh": "我们看到的是随着人们变得成熟,"
+ },
+ {
+  "seg": 316,
+  "start": 1175.536,
+  "end": 1179.058,
+  "speaker": "Akshat Bubna",
+  "en": "they do want to tweak the models, they want to fine-teat stuff.",
+  "zh": "他们确实想调整 model,他们想对东西进行 fine-teat。"
+ },
+ {
+  "seg": 317,
+  "start": 1179.898,
+  "end": 1184.281,
+  "speaker": "Akshat Bubna",
+  "en": "you can still do all of that it's not a black box and yeah the next thing",
+  "zh": "你仍然可以做所有这些它不是一个黑盒而且是的接下来"
+ },
+ {
+  "seg": 318,
+  "start": 1184.701,
+  "end": 1189.604,
+  "speaker": "Akshat Bubna",
+  "en": "as we tease later in the post is how do we give you value even beyond this in terms",
+  "zh": "正如我们在帖子后面预热的我们如何在这之外给你提供价值就"
+ },
+ {
+  "seg": 319,
+  "start": 1189.704,
+  "end": 1195.088,
+  "speaker": "Akshat Bubna",
+  "en": "of having your draft models evolve as your data distribution evolves again",
+  "zh": "让你的草稿 model 随着你的数据分布的演变而演变再次"
+ },
+ {
+  "seg": 320,
+  "start": 1195.128,
+  "end": 1198.99,
+  "speaker": "Akshat Bubna",
+  "en": "without having to talk to a person and yeah",
+  "zh": "无需与人交谈而且是的"
+ },
+ {
+  "seg": 321,
+  "start": 1199.377,
+  "end": 1200.1480000000001,
+  "speaker": "Vibhu",
+  "en": "i guess just to kind",
+  "zh": "我猜只是为了"
+ },
+ {
+  "seg": 322,
+  "start": 1200.198,
+  "end": 1204.885,
+  "speaker": "Vibhu",
+  "en": "of understand it directly i mean you know obviously you you have the gpus you have",
+  "zh": "直接理解一下我的意思是显然你知道你拥有 gpu 你拥有"
+ },
+ {
+  "seg": 323,
+  "start": 1204.905,
+  "end": 1208.07,
+  "speaker": "Vibhu",
+  "en": "an endpoint that's compatible you serve open model if someone was",
+  "zh": "一个兼容的端点你提供开放 model 如果有人"
+ },
+ {
+  "seg": 324,
+  "start": 1208.09,
+  "end": 1211.645,
+  "speaker": "Vibhu",
+  "en": "to do this themselves what's the delta that you guys provide so you do a lot",
+  "zh": "要自己做的话你们提供的增量是什么你们做了很多"
+ },
+ {
+  "seg": 325,
+  "start": 1211.695,
+  "end": 1214.279,
+  "speaker": "Vibhu",
+  "en": "of open source great work on effective",
+  "zh": "关于有效的开源出色工作"
+ },
+ {
+  "seg": 326,
+  "start": 1215.88,
+  "end": 1220.443,
+  "speaker": "Vibhu",
+  "en": "how does it compare to say i take the same model glm 5.2 fb8 take off",
+  "zh": "它与比如说我拿相同的 model glm 5.2 fb8 拿现成的"
+ },
+ {
+  "seg": 327,
+  "start": 1220.483,
+  "end": 1224.785,
+  "speaker": "Vibhu",
+  "en": "the shelf inference engine vllm sc lang you know get compute",
+  "zh": "推理引擎 vllm sc lang 你知道获取"
+ },
+ {
+  "seg": 328,
+  "start": 1225.366,
+  "end": 1230.068,
+  "speaker": "Vibhu",
+  "en": "of similar capacity similar cost what's the kind of delta that plugging",
+  "zh": "相似容量相似成本的算力相比如何接入"
+ },
+ {
+  "seg": 329,
+  "start": 1230.128,
+  "end": 1234.5168888888888,
+  "speaker": "Vibhu",
+  "en": "into something this like this offers outside of the benefit of you know scaling",
+  "zh": "像这样的东西提供了什么样的增量除了你知道扩展的"
+ },
+ {
+  "seg": 330,
+  "start": 1234.711,
+  "end": 1237.045,
+  "speaker": "Akshat Bubna",
+  "en": "It's kind of interesting because we've taken the approach",
+  "zh": "这有点意思因为我们采取了"
+ },
+ {
+  "seg": 331,
+  "start": 1237.095,
+  "end": 1240.206111111111,
+  "speaker": "Akshat Bubna",
+  "en": "of open sourcing our contributions and upstreaming them.",
+  "zh": "开源我们的贡献并将它们上游化的方法。"
+ },
+ {
+  "seg": 332,
+  "start": 1240.56,
+  "end": 1242.6155555555556,
+  "speaker": "Akshat Bubna",
+  "en": "We work closely with the SGLang team.",
+  "zh": "我们与 SGLang 团队密切合作。"
+ },
+ {
+  "seg": 333,
+  "start": 1242.783,
+  "end": 1248.311,
+  "speaker": "Akshat Bubna",
+  "en": "We actually want the improvements that our team comes up with to be there",
+  "zh": "我们其实希望我们团队想出的改进能够存在"
+ },
+ {
+  "seg": 334,
+  "start": 1248.331,
+  "end": 1249.583,
+  "speaker": "Akshat Bubna",
+  "en": "in open source for others to use.",
+  "zh": "在开源中供其他人使用。"
+ },
+ {
+  "seg": 335,
+  "start": 1249.633,
+  "end": 1253.799,
+  "speaker": "Akshat Bubna",
+  "en": "even outside of modal the benefit to us is we have a team",
+  "zh": "甚至在 modal 之外对我们来说的好处是我们有一个团队"
+ },
+ {
+  "seg": 336,
+  "start": 1253.839,
+  "end": 1256.864,
+  "speaker": "Akshat Bubna",
+  "en": "that has significant expertise in terms of if you do have something",
+  "zh": "在这方面拥有大量的专业知识如果你确实有"
+ },
+ {
+  "seg": 337,
+  "start": 1256.884,
+  "end": 1261.691,
+  "speaker": "Akshat Bubna",
+  "en": "that is not there our team can help you get that performance first",
+  "zh": "不存在的东西我们的团队可以帮助你首先获得那种性能"
+ },
+ {
+  "seg": 338,
+  "start": 1262.592,
+  "end": 1264.475,
+  "speaker": "Akshat Bubna",
+  "en": "the other thing is with",
+  "zh": "另一件事是对于"
+ },
+ {
+  "seg": 339,
+  "start": 1264.495,
+  "end": 1269.162,
+  "speaker": "Akshat Bubna",
+  "en": "With these endpoints, we are way more elastic, as you said, than anyone else.",
+  "zh": "这些端点,正如你所说,我们比其他任何人都更有弹性。"
+ },
+ {
+  "seg": 340,
+  "start": 1269.342,
+  "end": 1271.230888888889,
+  "speaker": "Akshat Bubna",
+  "en": "And you have true scaling to zero.",
+  "zh": "并且你拥有真正的扩展至零。"
+ },
+ {
+  "seg": 341,
+  "start": 1271.986,
+  "end": 1273.889,
+  "speaker": "Akshat Bubna",
+  "en": "You have true burstiness.",
+  "zh": "你拥有真正的突发性。"
+ },
+ {
+  "seg": 342,
+  "start": 1274.309,
+  "end": 1279.076,
+  "speaker": "Akshat Bubna",
+  "en": "And in practice, that matters a lot more to people than this finding the GPU.",
+  "zh": "而在实践中,这对人们来说比这个找到 GPU 重要得多。"
+ },
+ {
+  "seg": 343,
+  "start": 1279.897,
+  "end": 1283.68,
+  "speaker": "Vibhu",
+  "en": "running model code yeah and i will say it's actually not that straightforward",
+  "zh": "运行 model 代码是的而且我要说的实际上并没有那么简单"
+ },
+ {
+  "seg": 344,
+  "start": 1283.72,
+  "end": 1288.783,
+  "speaker": "Vibhu",
+  "en": "to just like what i said is easier said than done right yeah um it's i think still",
+  "zh": "就像我说的说起来容易做起来对吧是的呃我觉得仍然"
+ },
+ {
+  "seg": 345,
+  "start": 1288.843,
+  "end": 1291.004,
+  "speaker": "Vibhu",
+  "en": "for the average person still hard",
+  "zh": "对于普通人来说仍然很难"
+ },
+ {
+  "seg": 346,
+  "start": 1291.044,
+  "end": 1295.027,
+  "speaker": "Vibhu",
+  "en": "to just gut check using different there's there's quite a bit",
+  "zh": "仅仅用不同的去直觉检验那里有相当多"
+ },
+ {
+  "seg": 347,
+  "start": 1295.067,
+  "end": 1298.8790000000001,
+  "speaker": "Vibhu",
+  "en": "of combinations you can make there um the trade-offs aren't really known",
+  "zh": "你可以在那里做出的组合呃这些权衡并不能真正"
+ },
+ {
+  "seg": 348,
+  "start": 1298.929,
+  "end": 1300.01,
+  "speaker": "Vibhu",
+  "en": "at face value",
+  "zh": "从表面上看出来"
+ },
+ {
+  "seg": 349,
+  "start": 1300.73,
+  "end": 1303.271,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, I mean, it's not just that.",
+  "zh": "是的,我的意思是,不仅如此。"
+ },
+ {
+  "seg": 350,
+  "start": 1303.431,
+  "end": 1308.713,
+  "speaker": "Akshat Bubna",
+  "en": "I think it's that running production grade inference is a hard and fair problem.",
+  "zh": "我认为运行生产级推理是一个困难且合理的问题。"
+ },
+ {
+  "seg": 351,
+  "start": 1309.374,
+  "end": 1310.924,
+  "speaker": "Akshat Bubna",
+  "en": "Even if you subtract out the autoscaling,",
+  "zh": "即使你把自动伸缩排除掉,"
+ },
+ {
+  "seg": 352,
+  "start": 1310.974,
+  "end": 1317.974,
+  "speaker": "Akshat Bubna",
+  "en": "it's controlling things like tail latency and making sure every request is delivered",
+  "zh": "它还包括控制诸如尾延迟这样的事情,并确保每个请求至少被交付一次"
+ },
+ {
+  "seg": 353,
+  "start": 1318.377,
+  "end": 1319.8214444444443,
+  "speaker": "Akshat Bubna",
+  "en": "at least once and whatnot.",
+  "zh": "等等。"
+ },
+ {
+  "seg": 354,
+  "start": 1320.038,
+  "end": 1321.91,
+  "speaker": "swyx",
+  "en": "There's a lot of innovation that you can do here.",
+  "zh": "在这里有很多你可以做的创新。"
+ },
+ {
+  "seg": 355,
+  "start": 1321.96,
+  "end": 1326.213,
+  "speaker": "swyx",
+  "en": "I think it's very interesting that you're starting to encroach on like as you become",
+  "zh": "我认为非常有趣的是,你开始侵入,就像当你变成"
+ },
+ {
+  "seg": 356,
+  "start": 1326.263,
+  "end": 1329.874111111111,
+  "speaker": "swyx",
+  "en": "a full cloud, you're starting to encroach on other people's turf.",
+  "zh": "一个完整的云,你开始侵入其他人的地盘。"
+ },
+ {
+  "seg": 357,
+  "start": 1331.066,
+  "end": 1332.2326666666668,
+  "speaker": "swyx",
+  "en": "What will you not do?",
+  "zh": "你们不会做什么?"
+ },
+ {
+  "seg": 358,
+  "start": 1333.068,
+  "end": 1339.893,
+  "speaker": "Akshat Bubna",
+  "en": "Well, we want to follow our users and make sure they get like a platform",
+  "zh": "嗯,我们想跟随我们的用户,确保他们获得一个"
+ },
+ {
+  "seg": 359,
+  "start": 1339.933,
+  "end": 1342.535,
+  "speaker": "Akshat Bubna",
+  "en": "that has everything that works well together.",
+  "zh": "所有一切都能很好地协同工作的平台。"
+ },
+ {
+  "seg": 360,
+  "start": 1342.555,
+  "end": 1348.039,
+  "speaker": "Akshat Bubna",
+  "en": "So right now we're kind of focused on the model life cycle and the agent life cycle.",
+  "zh": "所以现在我们有点专注于模型生命周期和智能体生命周期。"
+ },
+ {
+  "seg": 361,
+  "start": 1348.419,
+  "end": 1349.419,
+  "speaker": "Akshat Bubna",
+  "en": "So both like",
+  "zh": "所以两者,比如"
+ },
+ {
+  "seg": 362,
+  "start": 1350.142,
+  "end": 1352.4180000000001,
+  "speaker": "Akshat Bubna",
+  "en": "going from data prep to training to inference.",
+  "zh": "从数据准备到训练再到推理。"
+ },
+ {
+  "seg": 363,
+  "start": 1352.468,
+  "end": 1353.468,
+  "speaker": "Akshat Bubna",
+  "en": "And then also,",
+  "zh": "然后还有,"
+ },
+ {
+  "seg": 364,
+  "start": 1353.75,
+  "end": 1355.134,
+  "speaker": "Akshat Bubna",
+  "en": "if I want to deploy a background agent,",
+  "zh": "如果我想部署一个后台智能体,"
+ },
+ {
+  "seg": 365,
+  "start": 1355.154,
+  "end": 1357.8762222222222,
+  "speaker": "Akshat Bubna",
+  "en": "let's say, you know, sandbox, persistent storage,",
+  "zh": "比如说,沙箱,持久化存储,"
+ },
+ {
+  "seg": 366,
+  "start": 1358.199,
+  "end": 1361.681,
+  "speaker": "swyx",
+  "en": "We talked to Cole who did Open Inspect.",
+  "zh": "我们和制作了 Open Inspect 的 Cole 聊过。"
+ },
+ {
+  "seg": 367,
+  "start": 1361.921,
+  "end": 1362.772,
+  "speaker": "swyx",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 368,
+  "start": 1362.822,
+  "end": 1364.673,
+  "speaker": "swyx",
+  "en": "And obviously Real Inspect also is on Modo.",
+  "zh": "显然 Real Inspect 也在 Modo 上。"
+ },
+ {
+  "seg": 369,
+  "start": 1364.723,
+  "end": 1365.104,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 370,
+  "start": 1365.124,
+  "end": 1372.124,
+  "speaker": "Akshat Bubna",
+  "en": "So Ramp Inspect was a great example of a background agent that was really successful",
+  "zh": "所以 Ramp Inspect 是一个真正成功的后台智能体的绝佳例子"
+ },
+ {
+  "seg": 371,
+  "start": 1372.628,
+  "end": 1377.191,
+  "speaker": "Akshat Bubna",
+  "en": "because they were able to use some of the primitives like snapshotting",
+  "zh": "因为他们能够使用一些原语比如快照"
+ },
+ {
+  "seg": 372,
+  "start": 1377.231,
+  "end": 1381.7865555555557,
+  "speaker": "Akshat Bubna",
+  "en": "and fast scaling to just have something that feels really reactive and works well.",
+  "zh": "和快速伸缩,从而拥有感觉非常有反应性并且运行良好的东西。"
+ },
+ {
+  "seg": 373,
+  "start": 1382.214,
+  "end": 1383.005,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 374,
+  "start": 1383.055,
+  "end": 1385.436,
+  "speaker": "swyx",
+  "en": "That's the new CTO of Ramp right there.",
+  "zh": "那就是 Ramp 的新 CTO。"
+ },
+ {
+  "seg": 375,
+  "start": 1385.536,
+  "end": 1386.137,
+  "speaker": "swyx",
+  "en": "Yeah, Ravel.",
+  "zh": "是的,Ravel。"
+ },
+ {
+  "seg": 376,
+  "start": 1386.177,
+  "end": 1387.177,
+  "speaker": "swyx",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 377,
+  "start": 1388.502,
+  "end": 1389.543,
+  "speaker": "swyx",
+  "en": "It was really, really fun.",
+  "zh": "那真的非常非常有趣。"
+ },
+ {
+  "seg": 378,
+  "start": 1389.563,
+  "end": 1393.105,
+  "speaker": "swyx",
+  "en": "Yeah, I mean, you know, I think all very bullish.",
+  "zh": "是的,我的意思是,我认为所有这一切都非常看好。"
+ },
+ {
+  "seg": 379,
+  "start": 1393.125,
+  "end": 1393.876,
+  "speaker": "swyx",
+  "en": "Like, you know,",
+  "zh": "就像,你知道的,"
+ },
+ {
+  "seg": 380,
+  "start": 1393.926,
+  "end": 1395.648222222222,
+  "speaker": "swyx",
+  "en": "one of my reflections was also,",
+  "zh": "我的反思之一也是,"
+ },
+ {
+  "seg": 381,
+  "start": 1396.227,
+  "end": 1397.348,
+  "speaker": "swyx",
+  "en": "I did not originally,",
+  "zh": "我原本并没有,"
+ },
+ {
+  "seg": 382,
+  "start": 1397.368,
+  "end": 1399.459,
+  "speaker": "swyx",
+  "en": "because obviously when I met you guys,",
+  "zh": "因为显然当我遇到你们的时候,"
+ },
+ {
+  "seg": 383,
+  "start": 1399.509,
+  "end": 1403.620111111111,
+  "speaker": "swyx",
+  "en": "you weren't that much in the GPU game, and now you're all about inference.",
+  "zh": "你们还没有那么深入 GPU 领域,而现在你们完全专注于推理。"
+ },
+ {
+  "seg": 384,
+  "start": 1403.772,
+  "end": 1405.073,
+  "speaker": "swyx",
+  "en": "And one of the",
+  "zh": "而其中一个"
+ },
+ {
+  "seg": 385,
+  "start": 1406.199,
+  "end": 1409.262,
+  "speaker": "swyx",
+  "en": "points that i hinged on for jensen's keynote",
+  "zh": "我在 jensen 今年的主题演讲中所依赖的观点"
+ },
+ {
+  "seg": 386,
+  "start": 1409.382,
+  "end": 1413.5486666666668,
+  "speaker": "swyx",
+  "en": "at gtc this year was what we're calling like the inference inflection right",
+  "zh": "在 gtc 上,就是我们称之为推理拐点的东西,对吧,"
+ },
+ {
+  "seg": 387,
+  "start": 1413.765,
+  "end": 1417.869,
+  "speaker": "swyx",
+  "en": "that let's say in ai workloads or machine learning workloads it used",
+  "zh": "假设在 ai 工作负载或机器学习工作负载中,过去"
+ },
+ {
+  "seg": 388,
+  "start": 1417.889,
+  "end": 1424.434,
+  "speaker": "swyx",
+  "en": "to be like let's call it eight to one gpu to cpu and now it's more like one to one",
+  "zh": "比如说八比一的 gpu 与 cpu 之比,而现在更像是 1 比 1,"
+ },
+ {
+  "seg": 389,
+  "start": 1424.955,
+  "end": 1430.76,
+  "speaker": "swyx",
+  "en": "which is like a interesting like because of how much agents basically are blocked",
+  "zh": "这就像是一个有趣的现象,因为基本上有多少智能体受阻"
+ },
+ {
+  "seg": 390,
+  "start": 1430.88,
+  "end": 1434.483,
+  "speaker": "swyx",
+  "en": "or call out to cpu heavy stuff the actual",
+  "zh": "或者调用 cpu 密集型的东西,实际的"
+ },
+ {
+  "seg": 391,
+  "start": 1435.548,
+  "end": 1439.791,
+  "speaker": "swyx",
+  "en": "limiting factor swings back and forth from GPU to CPU a lot more than it used",
+  "zh": "限制因素在 GPU 和 CPU 之间来回摇摆,比过去"
+ },
+ {
+  "seg": 392,
+  "start": 1439.811,
+  "end": 1445.274,
+  "speaker": "swyx",
+  "en": "to be all GPU and then occasional CPU GPU CPU and now it's like just constantly",
+  "zh": "全是 GPU 然后偶尔是 CPU 的情况要多得多,现在就像只是不断地"
+ },
+ {
+  "seg": 393,
+  "start": 1445.954,
+  "end": 1448.0710000000001,
+  "speaker": "swyx",
+  "en": "and you just have to co-locate everything",
+  "zh": "来回切换,你必须将所有东西放在一起"
+ },
+ {
+  "seg": 394,
+  "start": 1448.121,
+  "end": 1452.062,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, and that's one of the things that actually, again,",
+  "zh": "是的,而且这实际上是其中一件事,再次,"
+ },
+ {
+  "seg": 395,
+  "start": 1452.082,
+  "end": 1454.422,
+  "speaker": "Akshat Bubna",
+  "en": "we see is something appealing about modal,",
+  "zh": "我们看到这是 modal 具有吸引力的地方之一,"
+ },
+ {
+  "seg": 396,
+  "start": 1454.462,
+  "end": 1459.023,
+  "speaker": "Akshat Bubna",
+  "en": "which is we've built this capacity pool that spans 17 cloud providers.",
+  "zh": "这就是我们建立的跨越 17 个云提供商的容量池。"
+ },
+ {
+  "seg": 397,
+  "start": 1459.343,
+  "end": 1464.784,
+  "speaker": "Akshat Bubna",
+  "en": "So we're very good at running on various kinds of cloud capacity across the world.",
+  "zh": "所以我们非常擅长在世界各地的各种云容量上运行。"
+ },
+ {
+  "seg": 398,
+  "start": 1464.824,
+  "end": 1465.874,
+  "speaker": "Akshat Bubna",
+  "en": "You don't have your own data centers?",
+  "zh": "你们没有自己的数据中心?"
+ },
+ {
+  "seg": 399,
+  "start": 1465.924,
+  "end": 1467.034,
+  "speaker": "Akshat Bubna",
+  "en": "We don't have our own data centers.",
+  "zh": "我们没有自己的数据中心。"
+ },
+ {
+  "seg": 400,
+  "start": 1467.084,
+  "end": 1470.785,
+  "speaker": "Akshat Bubna",
+  "en": "We just run across a lot of neoclouds and modal providers.",
+  "zh": "我们只是遇到了很多新云和 modal 提供商。"
+ },
+ {
+  "seg": 401,
+  "start": 1470.805,
+  "end": 1475.9161111111111,
+  "speaker": "swyx",
+  "en": "Yeah, you're running the math and you're like, what's the cutover point where you're like...",
+  "zh": "是的,你在做数学计算,你会想,那个转折点是什么时候,你会觉得……"
+ },
+ {
+  "seg": 402,
+  "start": 1476.589,
+  "end": 1477.289,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, it's a good question.",
+  "zh": "是的,这是一个好问题。"
+ },
+ {
+  "seg": 403,
+  "start": 1477.309,
+  "end": 1477.549,
+  "speaker": "Akshat Bubna",
+  "en": "I mean,",
+  "zh": "我的意思是,"
+ },
+ {
+  "seg": 404,
+  "start": 1477.589,
+  "end": 1483.892,
+  "speaker": "Akshat Bubna",
+  "en": "part of it is we see our differentiator in the software layer and being capitalized",
+  "zh": "部分原因是我们看到我们的差异化在于软件层以及获得资金"
+ },
+ {
+  "seg": 405,
+  "start": 1484.312,
+  "end": 1486.683,
+  "speaker": "Akshat Bubna",
+  "en": "and focusing on the software helps us move really fast.",
+  "zh": "并且专注于软件帮助我们移动得非常快。"
+ },
+ {
+  "seg": 406,
+  "start": 1486.733,
+  "end": 1487.013,
+  "speaker": "Akshat Bubna",
+  "en": "So far,",
+  "zh": "到目前为止,"
+ },
+ {
+  "seg": 407,
+  "start": 1487.053,
+  "end": 1489.994,
+  "speaker": "Akshat Bubna",
+  "en": "it's worked out well because there are so many other people building data centers",
+  "zh": "它运作得很好,因为有太多其他人在建设数据中心"
+ },
+ {
+  "seg": 408,
+  "start": 1490.034,
+  "end": 1492.7250000000001,
+  "speaker": "Akshat Bubna",
+  "en": "that we're able to work effectively with them and,",
+  "zh": "以至于我们能够有效地与他们合作,并且,"
+ },
+ {
+  "seg": 409,
+  "start": 1492.775,
+  "end": 1495.236,
+  "speaker": "Akshat Bubna",
+  "en": "again, focus on what makes us special.",
+  "zh": "再说一次,专注于让我们与众不同的东西。"
+ },
+ {
+  "seg": 410,
+  "start": 1496.377,
+  "end": 1499.378,
+  "speaker": "swyx",
+  "en": "17 gets you into the local providers sometimes.",
+  "zh": "17 有时会让你进入本地提供商。"
+ },
+ {
+  "seg": 411,
+  "start": 1499.498,
+  "end": 1500.451,
+  "speaker": "swyx",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 412,
+  "start": 1500.501,
+  "end": 1502.501,
+  "speaker": "swyx",
+  "en": "which was the most interesting one?",
+  "zh": "哪一个是最有趣的?"
+ },
+ {
+  "seg": 413,
+  "start": 1502.644,
+  "end": 1505.318,
+  "speaker": "Akshat Bubna",
+  "en": "There are actually a lot more neoclouds than you expect",
+  "zh": "实际上新云比你预期的要多得多"
+ },
+ {
+  "seg": 414,
+  "start": 1505.368,
+  "end": 1512.178,
+  "speaker": "Akshat Bubna",
+  "en": "and they all have various degrees of various levels of reliability",
+  "zh": "它们都有不同程度的各种级别的可靠性"
+ },
+ {
+  "seg": 415,
+  "start": 1513.14,
+  "end": 1515.383,
+  "speaker": "Akshat Bubna",
+  "en": "and that's why it's something we've",
+  "zh": "这就是为什么这是我们一直在做的事情"
+ },
+ {
+  "seg": 416,
+  "start": 1515.423,
+  "end": 1520.4550000000002,
+  "speaker": "Akshat Bubna",
+  "en": "What we can invest a lot of time in is actually building our own reliability layer on top.",
+  "zh": "我们能投入大量时间的事情实际上是在上面构建我们自己的可靠性层。"
+ },
+ {
+  "seg": 417,
+  "start": 1520.505,
+  "end": 1526.287,
+  "speaker": "Akshat Bubna",
+  "en": "So if the GPU falls off the bus or something happens, user workloads are not affected.",
+  "zh": "所以如果 GPU 从总线上掉下来或者发生了什么,用户工作负载不受影响。"
+ },
+ {
+  "seg": 418,
+  "start": 1526.307,
+  "end": 1531.909,
+  "speaker": "Akshat Bubna",
+  "en": "And that actually lets us use a lot more capacity than you as a user would be able to.",
+  "zh": "而这实际上让我们能够使用比你作为用户能够使用的多得多的容量。"
+ },
+ {
+  "seg": 419,
+  "start": 1532.449,
+  "end": 1536.97,
+  "speaker": "swyx",
+  "en": "It's a useful thing to have because now everyone knows what layer you are",
+  "zh": "这是一个很有用的东西,因为现在每个人都知道你在哪一层"
+ },
+ {
+  "seg": 420,
+  "start": 1537.051,
+  "end": 1541.092,
+  "speaker": "swyx",
+  "en": "and you sort of optimize for being the super cloud of all clouds.",
+  "zh": "而你基本上是在优化以成为所有云的超级云。"
+ },
+ {
+  "seg": 421,
+  "start": 1541.736,
+  "end": 1543.579,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, that's the idea.",
+  "zh": "是的,就是这个想法。"
+ },
+ {
+  "seg": 422,
+  "start": 1544.66,
+  "end": 1546.643,
+  "speaker": "Akshat Bubna",
+  "en": "And so I guess when you mentioned co-location,",
+  "zh": "所以我想当你提到共同托管时,"
+ },
+ {
+  "seg": 423,
+  "start": 1546.663,
+  "end": 1551.771,
+  "speaker": "Akshat Bubna",
+  "en": "that's another interesting thing where one thing we've seen is people come to us",
+  "zh": "那是另一件有趣的事情,我们看到的一件事是人们来找我们"
+ },
+ {
+  "seg": 424,
+  "start": 1551.811,
+  "end": 1555.897,
+  "speaker": "Akshat Bubna",
+  "en": "when they want very specifically located CPUs or GPUs.",
+  "zh": "当他们想要非常特定位置的 CPU 或 GPU 时。"
+ },
+ {
+  "seg": 425,
+  "start": 1556.959,
+  "end": 1557.71,
+  "speaker": "Akshat Bubna",
+  "en": "like they want.",
+  "zh": "就像他们想要的那样。"
+ },
+ {
+  "seg": 426,
+  "start": 1557.76,
+  "end": 1559.242,
+  "speaker": "Akshat Bubna",
+  "en": "Oh, to pin it in like EU?",
+  "zh": "哦,要把它固定在比如欧盟?"
+ },
+ {
+  "seg": 427,
+  "start": 1559.823,
+  "end": 1560.213,
+  "speaker": "Akshat Bubna",
+  "en": "Exactly.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 428,
+  "start": 1560.263,
+  "end": 1561.805,
+  "speaker": "Akshat Bubna",
+  "en": "Or EU, EUS, Australia.",
+  "zh": "或者欧盟,欧盟们,澳大利亚。"
+ },
+ {
+  "seg": 429,
+  "start": 1561.865,
+  "end": 1564.349,
+  "speaker": "Akshat Bubna",
+  "en": "Data locality thing or performance or what?",
+  "zh": "数据本地性的东西还是性能还是什么?"
+ },
+ {
+  "seg": 430,
+  "start": 1564.589,
+  "end": 1566.492,
+  "speaker": "Akshat Bubna",
+  "en": "It's either data locality or latency.",
+  "zh": "要么是数据本地性,要么是延迟。"
+ },
+ {
+  "seg": 431,
+  "start": 1566.512,
+  "end": 1567.343,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 432,
+  "start": 1567.393,
+  "end": 1571.139,
+  "speaker": "Akshat Bubna",
+  "en": "Like you want your, they're running sandboxes in modal, they want them to be right next to it.",
+  "zh": "就像你想要你的,他们在 modal 中运行沙箱,他们希望沙箱就在它旁边。"
+ },
+ {
+  "seg": 433,
+  "start": 1571.159,
+  "end": 1572.2,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, it's easy to answer.",
+  "zh": "是的,这很容易回答。"
+ },
+ {
+  "seg": 434,
+  "start": 1572.22,
+  "end": 1573.011,
+  "speaker": "Akshat Bubna",
+  "en": "You know.",
+  "zh": "你知道。"
+ },
+ {
+  "seg": 435,
+  "start": 1573.061,
+  "end": 1575.643,
+  "speaker": "swyx",
+  "en": "That is important in all those things.",
+  "zh": "这在所有那些事情中都很重要。"
+ },
+ {
+  "seg": 436,
+  "start": 1575.683,
+  "end": 1577.065,
+  "speaker": "swyx",
+  "en": "So you've kind of accidentally,",
+  "zh": "所以你不小心,"
+ },
+ {
+  "seg": 437,
+  "start": 1577.085,
+  "end": 1578.806,
+  "speaker": "swyx",
+  "en": "I don't know if it's accidental,",
+  "zh": "我不知道这是不是意外的,"
+ },
+ {
+  "seg": 438,
+  "start": 1578.826,
+  "end": 1582.826,
+  "speaker": "swyx",
+  "en": "but you've built the perfect primitive for agents to express themselves.",
+  "zh": "但是你构建了完美的原语让智能体表达自己。"
+ },
+ {
+  "seg": 439,
+  "start": 1583.51,
+  "end": 1588.794,
+  "speaker": "swyx",
+  "en": "It's almost very funny how every extra development just involves more file system,",
+  "zh": "这几乎非常有趣,每一个额外的开发怎么都涉及更多的文件系统,"
+ },
+ {
+  "seg": 440,
+  "start": 1589.094,
+  "end": 1592.8162222222222,
+  "speaker": "swyx",
+  "en": "just involves more CPU, just like the things that you already have.",
+  "zh": "只涉及更多的 CPU,就像你已经拥有的那些东西一样。"
+ },
+ {
+  "seg": 441,
+  "start": 1593.238,
+  "end": 1597.862,
+  "speaker": "swyx",
+  "en": "I don't know much about if there's any networking usages that are interesting,",
+  "zh": "我不太清楚是否有任何有趣的网络用法,"
+ },
+ {
+  "seg": 442,
+  "start": 1597.882,
+  "end": 1600.374,
+  "speaker": "swyx",
+  "en": "but you've also done some good work on networking.",
+  "zh": "但是你在网络上也做了一些不错的工作。"
+ },
+ {
+  "seg": 443,
+  "start": 1600.424,
+  "end": 1604.265,
+  "speaker": "Akshat Bubna",
+  "en": "yeah i mean that's exactly right like we were sort of just taking compute storage",
+  "zh": "是的我的意思是那完全正确就像我们只是在获取计算存储"
+ },
+ {
+  "seg": 444,
+  "start": 1604.305,
+  "end": 1607.507,
+  "speaker": "Akshat Bubna",
+  "en": "and networking and building stuff on that layer uh",
+  "zh": "和网络并在那一层上面构建东西呃"
+ },
+ {
+  "seg": 445,
+  "start": 1607.567,
+  "end": 1610.848,
+  "speaker": "Akshat Bubna",
+  "en": "for again little stuff people need yeah we see",
+  "zh": "再说一次人们需要的小东西是的我们看到"
+ },
+ {
+  "seg": 446,
+  "start": 1610.888,
+  "end": 1614.559,
+  "speaker": "Akshat Bubna",
+  "en": "a few interesting networking things coming up um one is people actually want",
+  "zh": "一些有趣的网络东西出现嗯一个是人们实际上想要"
+ },
+ {
+  "seg": 447,
+  "start": 1614.609,
+  "end": 1617.67,
+  "speaker": "Akshat Bubna",
+  "en": "networked sandboxes uh so we have like",
+  "zh": "联网的沙箱呃所以我们有像"
+ },
+ {
+  "seg": 448,
+  "start": 1617.73,
+  "end": 1623.692,
+  "speaker": "swyx",
+  "en": "a docker cluster type thing sorry uh docker swarm what is it called compose compose",
+  "zh": "一个 docker 集群类型的东西抱歉呃 docker swarm 它叫什么 compose compose"
+ },
+ {
+  "seg": 449,
+  "start": 1624.133,
+  "end": 1625.213,
+  "speaker": "swyx",
+  "en": "type thing yeah so",
+  "zh": "类型的东西是的所以"
+ },
+ {
+  "seg": 450,
+  "start": 1625.413,
+  "end": 1625.593,
+  "speaker": "Akshat Bubna",
+  "en": "Actually,",
+  "zh": "实际上,"
+ },
+ {
+  "seg": 451,
+  "start": 1625.613,
+  "end": 1626.945,
+  "speaker": "Akshat Bubna",
+  "en": "if you want to talk to compose,",
+  "zh": "如果你想与 compose 通信,"
+ },
+ {
+  "seg": 452,
+  "start": 1626.995,
+  "end": 1630.498,
+  "speaker": "Akshat Bubna",
+  "en": "our sandboxes now support this thing called sidecarves.",
+  "zh": "我们的沙箱现在支持一种叫做 sidecarves 的东西。"
+ },
+ {
+  "seg": 453,
+  "start": 1630.678,
+  "end": 1635.9002222222223,
+  "speaker": "Akshat Bubna",
+  "en": "A sandbox is actually a pod of containers, and you can run multiple containers in the sandbox.",
+  "zh": "一个沙箱实际上是一个容器 pod,你可以在沙箱中运行多个容器。"
+ },
+ {
+  "seg": 454,
+  "start": 1636.443,
+  "end": 1638.845,
+  "speaker": "Akshat Bubna",
+  "en": "Also useful because going back to networking,",
+  "zh": "这也很有用,因为回到网络层面,"
+ },
+ {
+  "seg": 455,
+  "start": 1638.865,
+  "end": 1643.449,
+  "speaker": "Akshat Bubna",
+  "en": "people want a lot of control over outbound networking from a sandbox.",
+  "zh": "人们希望对来自沙箱的出站网络有很多控制权。"
+ },
+ {
+  "seg": 456,
+  "start": 1643.49,
+  "end": 1648.814,
+  "speaker": "Akshat Bubna",
+  "en": "They might want to run a man-in-the-middle proxy for maybe logging stuff for RL or...",
+  "zh": "他们可能想运行一个中间人代理,也许用于为 RL 记录日志,或者..."
+ },
+ {
+  "seg": 457,
+  "start": 1650.132,
+  "end": 1655.314,
+  "speaker": "Akshat Bubna",
+  "en": "controlling how egress can happen to a domain injecting credentials and yeah",
+  "zh": "控制凭据注入时如何向某个域名进行出口通信,是的"
+ },
+ {
+  "seg": 458,
+  "start": 1655.354,
+  "end": 1659.436,
+  "speaker": "Akshat Bubna",
+  "en": "so we've kind of had to build a lot of that stuff ourselves but",
+  "zh": "所以我们不得不自己构建大量这些东西,但是"
+ },
+ {
+  "seg": 459,
+  "start": 1659.456,
+  "end": 1664.137,
+  "speaker": "Akshat Bubna",
+  "en": "then also sometimes people actually want sandboxes spanning multiple nodes to talk",
+  "zh": "然后有时人们实际上希望跨越多个节点的沙箱能相互"
+ },
+ {
+  "seg": 460,
+  "start": 1664.157,
+  "end": 1669.039,
+  "speaker": "Akshat Bubna",
+  "en": "to each other which is an emerging thing we're seeing we have support for that for",
+  "zh": "通信,这是我们正在看到的一种新兴事物,我们支持这个是出于"
+ },
+ {
+  "seg": 461,
+  "start": 1669.259,
+  "end": 1670.259,
+  "speaker": "Akshat Bubna",
+  "en": "a different reason",
+  "zh": "不同的原因"
+ },
+ {
+  "seg": 462,
+  "start": 1670.86,
+  "end": 1672.723,
+  "speaker": "Akshat Bubna",
+  "en": "and yeah we'll see if that becomes safe like just",
+  "zh": "是的,我们会看看这是否会变得安全,就像只是"
+ },
+ {
+  "seg": 463,
+  "start": 1672.743,
+  "end": 1677.79,
+  "speaker": "Akshat Bubna",
+  "en": "an open socket this is directly like mtls we do support that",
+  "zh": "一个开放的 socket,这直接就像 mtls,我们确实支持这个,"
+ },
+ {
+  "seg": 464,
+  "start": 1677.85,
+  "end": 1681.476,
+  "speaker": "Akshat Bubna",
+  "en": "which is you can uh expose a tunnel inside a sandbox yeah and",
+  "zh": "也就是你可以,呃,在沙箱内暴露一个隧道,是的,并且"
+ },
+ {
+  "seg": 465,
+  "start": 1681.516,
+  "end": 1685.742,
+  "speaker": "Akshat Bubna",
+  "en": "then you can either expose the public internet or it can be um and you",
+  "zh": "然后你可以选择暴露公共互联网,或者它可以,嗯,并且你"
+ },
+ {
+  "seg": 466,
+  "start": 1685.742,
+  "end": 1688.4086666666667,
+  "speaker": "Akshat Bubna",
+  "en": "So you can add like a htp aught layer above it.",
+  "zh": "所以你可以像在上面添加一个 htp aught 层。"
+ },
+ {
+  "seg": 467,
+  "start": 1689.067,
+  "end": 1691.37,
+  "speaker": "Akshat Bubna",
+  "en": "But we have this thing called i6pn,",
+  "zh": "但我们有这个叫做 i6pn 的东西,"
+ },
+ {
+  "seg": 468,
+  "start": 1691.39,
+  "end": 1692.772,
+  "speaker": "Akshat Bubna",
+  "en": "which we haven't talked about,",
+  "zh": "我们还没有谈论过,"
+ },
+ {
+  "seg": 469,
+  "start": 1692.812,
+  "end": 1697.499,
+  "speaker": "Akshat Bubna",
+  "en": "which is this like overlay network using IPv6 addresses.",
+  "zh": "这就像是一个使用 IPv6 地址的 overlay 网络。"
+ },
+ {
+  "seg": 470,
+  "start": 1698.08,
+  "end": 1700.704,
+  "speaker": "Akshat Bubna",
+  "en": "So if modal containers within",
+  "zh": "所以如果 modal 容器在"
+ },
+ {
+  "seg": 471,
+  "start": 1700.744,
+  "end": 1705.205,
+  "speaker": "Akshat Bubna",
+  "en": "We actually built it because we needed it as primitive for our distributed training product.",
+  "zh": "我们构建它实际上是因为我们需要它作为我们分布式训练产品的基础组件。"
+ },
+ {
+  "seg": 472,
+  "start": 1705.225,
+  "end": 1706.225,
+  "speaker": "Akshat Bubna",
+  "en": "So we have this",
+  "zh": "所以我们有这个"
+ },
+ {
+  "seg": 473,
+  "start": 1720.472,
+  "end": 1725.157,
+  "speaker": "Akshat Bubna",
+  "en": "other feature which is you can add a decorator to a function and you get a cluster",
+  "zh": "其他功能,也就是你可以给一个函数添加一个装饰器,然后你会得到一个"
+ },
+ {
+  "seg": 474,
+  "start": 1725.197,
+  "end": 1728.279,
+  "speaker": "Akshat Bubna",
+  "en": "of gpus and they have already been networking so you can run",
+  "zh": "gpu 集群,并且它们已经建立了网络连接,所以你可以运行"
+ },
+ {
+  "seg": 475,
+  "start": 1728.299,
+  "end": 1732.804,
+  "speaker": "Akshat Bubna",
+  "en": "a speed training job that's truly serverless and we need the overlay network for",
+  "zh": "一个真正的无服务器的 speed 训练任务,而我们需要 overlay 网络用于"
+ },
+ {
+  "seg": 476,
+  "start": 1732.824,
+  "end": 1736.547,
+  "speaker": "Akshat Bubna",
+  "en": "that but then we've seen that people are using it for other reasons and i'm kind",
+  "zh": "此目的,但后来我们看到人们出于其他原因在使用它,我有点"
+ },
+ {
+  "seg": 477,
+  "start": 1736.567,
+  "end": 1737.6225555555557,
+  "speaker": "Akshat Bubna",
+  "en": "of intrigued to see",
+  "zh": "好奇想看看"
+ },
+ {
+  "seg": 478,
+  "start": 1738.333,
+  "end": 1740.486,
+  "speaker": "Akshat Bubna",
+  "en": "yeah what would people do with it build primitives",
+  "zh": "是的,人们会用它做什么,构建基础组件,"
+ },
+ {
+  "seg": 479,
+  "start": 1740.536,
+  "end": 1744.262,
+  "speaker": "swyx",
+  "en": "and let people figure it out right exactly they're like they read",
+  "zh": "然后让人们自己去摸索,对吧,完全正确,他们就像,他们阅读"
+ },
+ {
+  "seg": 480,
+  "start": 1744.282,
+  "end": 1747.467,
+  "speaker": "swyx",
+  "en": "the docs we think let me use that for something that you never intended",
+  "zh": "文档,我们想让我用它做些你从未打算过的事情"
+ },
+ {
+  "seg": 481,
+  "start": 1747.507,
+  "end": 1752.113,
+  "speaker": "Akshat Bubna",
+  "en": "to this was literally not even in our docs page people somehow found it",
+  "zh": "这简直甚至不在我们的文档页面上,人们不知怎么地发现了它,"
+ },
+ {
+  "seg": 482,
+  "start": 1752.174,
+  "end": 1753.5073333333332,
+  "speaker": "Akshat Bubna",
+  "en": "and they're using it huh",
+  "zh": "而且他们在使用它 嗯"
+ },
+ {
+  "seg": 483,
+  "start": 1754.076,
+  "end": 1760.621,
+  "speaker": "Vibhu",
+  "en": "i mean the way you portrayed it with like rdma versus tcp like very well laid out",
+  "zh": "我的意思是,你把它描述成像 RDMA 对比 TCP 那样,布局得非常清晰,"
+ },
+ {
+  "seg": 484,
+  "start": 1760.661,
+  "end": 1763.824,
+  "speaker": "Vibhu",
+  "en": "but just the transfer speed change at scale",
+  "zh": "但仅仅是大规模下的传输速度变化"
+ },
+ {
+  "seg": 485,
+  "start": 1763.884,
+  "end": 1768.247,
+  "speaker": "Vibhu",
+  "en": "for rl like yeah you have it you have it built in i'm sure someone found it to be",
+  "zh": "对于 RL 来说,是的,你内置了这个,我确信有人发现在你真正把它做成一个功能之前,它"
+ },
+ {
+  "seg": 486,
+  "start": 1768.287,
+  "end": 1772.1203333333333,
+  "speaker": "Vibhu",
+  "en": "a lot more efficient before you actually made a thing out of it right",
+  "zh": "效率要高得多,对吧"
+ },
+ {
+  "seg": 487,
+  "start": 1772.586,
+  "end": 1778.855,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, and not to split hairs, I guess the overlay network actually is the TCP overlay network.",
+  "zh": "是的,而且不是为了吹毛求疵,我想 overlay 网络实际上就是 TCP overlay 网络。"
+ },
+ {
+  "seg": 488,
+  "start": 1779.296,
+  "end": 1783.152,
+  "speaker": "Akshat Bubna",
+  "en": "The reason we have that is you need that to do the key exchange for RDMA",
+  "zh": "我们有它的原因是,在你在其上设置 RDMA 网络之前,"
+ },
+ {
+  "seg": 489,
+  "start": 1783.202,
+  "end": 1785.9797777777778,
+  "speaker": "Akshat Bubna",
+  "en": "before you set up the RDMA network on top of that.",
+  "zh": "你需要它来进行 RDMA 的密钥交换。"
+ },
+ {
+  "seg": 490,
+  "start": 1786.166,
+  "end": 1787.5548888888889,
+  "speaker": "Akshat Bubna",
+  "en": "But then people found the",
+  "zh": "但是后来人们发现了"
+ },
+ {
+  "seg": 491,
+  "start": 1787.948,
+  "end": 1791.225777777778,
+  "speaker": "swyx",
+  "en": "can i tell you this is like a big aha moment for me because",
+  "zh": "我能告诉你这对我来说就像是一个很大的顿悟时刻吗?因为"
+ },
+ {
+  "seg": 492,
+  "start": 1791.411,
+  "end": 1797.135,
+  "speaker": "swyx",
+  "en": "so i you know i review 2200 submissions for for the world's fair yeah and",
+  "zh": "所以,你知道,我为世界博览会审查了2200份提交,是的,并且"
+ },
+ {
+  "seg": 493,
+  "start": 1797.155,
+  "end": 1799.737,
+  "speaker": "swyx",
+  "en": "then i got this from john osterholt who i don't know",
+  "zh": "然后我从 john osterholt 那里收到了这个,我不认识他,"
+ },
+ {
+  "seg": 494,
+  "start": 1799.757,
+  "end": 1804.861,
+  "speaker": "swyx",
+  "en": "if do you know john osterholt he published he's a well-known professor published",
+  "zh": "不知道你是否认识 john osterholt,他发表过,他是一位知名的教授,出版过"
+ },
+ {
+  "seg": 495,
+  "start": 1804.881,
+  "end": 1809.4365555555557,
+  "speaker": "swyx",
+  "en": "a lot of interesting software design books and this is the talk he chose to submit",
+  "zh": "很多有趣的软件设计书籍,而这是他选择提交的演讲,"
+ },
+ {
+  "seg": 496,
+  "start": 1809.673,
+  "end": 1815.137,
+  "speaker": "swyx",
+  "en": "is on rdma at inference and i'm like you wouldn't think that this guy",
+  "zh": "是关于推理时的 rdma,我就想,你不会想到这个"
+ },
+ {
+  "seg": 497,
+  "start": 1815.477,
+  "end": 1818.977,
+  "speaker": "swyx",
+  "en": "who is like kind of operating systems guy would care about rdma",
+  "zh": "有点像操作系统领域的人会关心 rdma"
+ },
+ {
+  "seg": 498,
+  "start": 1820.952,
+  "end": 1825.794,
+  "speaker": "swyx",
+  "en": "i mean it makes sense to me because it's just a cloud right there yeah like",
+  "zh": "我的意思是这对我来说很有意义,因为这就只是云而已,对吧,就像"
+ },
+ {
+  "seg": 499,
+  "start": 1825.834,
+  "end": 1828.115,
+  "speaker": "Akshat Bubna",
+  "en": "the way you move around your kv cache",
+  "zh": "你移动你的 kv 缓存的方式"
+ },
+ {
+  "seg": 500,
+  "start": 1828.536,
+  "end": 1832.878,
+  "speaker": "Akshat Bubna",
+  "en": "and how efficiently you can do it how efficiently you move um your weights",
+  "zh": "以及你能多高效地做到这一点,你多高效地移动你的权重"
+ },
+ {
+  "seg": 501,
+  "start": 1832.918,
+  "end": 1838,
+  "speaker": "Akshat Bubna",
+  "en": "from your training gpus to your inference gpus and rl is there's a lot of degrees",
+  "zh": "从你的训练 GPU 到你的推理 GPU,而 RL 有很多自由度"
+ },
+ {
+  "seg": 502,
+  "start": 1838.06,
+  "end": 1840.8933333333332,
+  "speaker": "Akshat Bubna",
+  "en": "of freedom and it is basically a systems problem of",
+  "zh": ",这基本上是一个系统问题,即"
+ },
+ {
+  "seg": 503,
+  "start": 1841.47,
+  "end": 1845.733,
+  "speaker": "swyx",
+  "en": "yeah moving memory around scheduling this shows you how primitive my understanding",
+  "zh": "移动内存、调度。这说明我对网络相关东西的理解有多原始,"
+ },
+ {
+  "seg": 504,
+  "start": 1845.753,
+  "end": 1851.058,
+  "speaker": "swyx",
+  "en": "of networking stuff is is this like the domain of wire guard as well not quite",
+  "zh": "这也像 wire guard 的领域吗?不完全是,"
+ },
+ {
+  "seg": 505,
+  "start": 1851.098,
+  "end": 1858.098,
+  "speaker": "swyx",
+  "en": "so adjacent um so explain everything how do we move memory around gpus oh sorry yeah",
+  "zh": "所以是相邻的,那么解释一下一切,我们如何在 GPU 之间移动内存?哦,抱歉,是的,"
+ },
+ {
+  "seg": 506,
+  "start": 1860.065,
+  "end": 1862.2316666666668,
+  "speaker": "swyx",
+  "en": "that is memory sorry i was talking more",
+  "zh": "那是内存,抱歉,我说的更多是"
+ },
+ {
+  "seg": 507,
+  "start": 1862.366,
+  "end": 1865.629,
+  "speaker": "swyx",
+  "en": "and maybe i was talking like five minutes back about the",
+  "zh": ",也许我是在大约五分钟前谈论"
+ },
+ {
+  "seg": 508,
+  "start": 1865.989,
+  "end": 1870.573,
+  "speaker": "swyx",
+  "en": "the private ipv6 uh addressing that you've set up it's like it's basically a vpn",
+  "zh": "你设置的那个私有 IPv6 寻址,它就像,它基本上是一个 VPN。"
+ },
+ {
+  "seg": 509,
+  "start": 1870.944,
+  "end": 1872.385,
+  "speaker": "Akshat Bubna",
+  "en": "yeah it's sort of like a vpn",
+  "zh": "是的,它有点像一个 VPN。"
+ },
+ {
+  "seg": 510,
+  "start": 1872.425,
+  "end": 1877.426,
+  "speaker": "Akshat Bubna",
+  "en": "and yeah wireguard is is uh yeah you're right it is it is um yeah you already moved",
+  "zh": "而且,是的,wireguard 是,是的,你说得对,它是,嗯,是的,你已经"
+ },
+ {
+  "seg": 511,
+  "start": 1877.466,
+  "end": 1882.108,
+  "speaker": "Akshat Bubna",
+  "en": "on to any topics similar okay in the same space wireguard is uh encrypted and",
+  "zh": "转移到任何类似的话题了,好的,在同一个领域里,wireguard 是加密的,"
+ },
+ {
+  "seg": 512,
+  "start": 1882.188,
+  "end": 1885.709,
+  "speaker": "Akshat Bubna",
+  "en": "and this is uh you don't need encryption yeah it's not encrypted uh there's no",
+  "zh": "而这个,嗯,你不需要加密,是的,它没有被加密,嗯,没有"
+ },
+ {
+  "seg": 513,
+  "start": 1885.729,
+  "end": 1890.231,
+  "speaker": "Akshat Bubna",
+  "en": "difference this is tcp and we have ebpf programs that will",
+  "zh": "区别,这是 TCP,并且我们有 ebpf 程序会"
+ },
+ {
+  "seg": 514,
+  "start": 1891.156,
+  "end": 1895.498,
+  "speaker": "Akshat Bubna",
+  "en": "reject or allow the TCP connection based on whether you're allowed to do it.",
+  "zh": "拒绝或允许这个 TCP 连接,基于你是否被允许这么做。"
+ },
+ {
+  "seg": 515,
+  "start": 1895.898,
+  "end": 1899.449,
+  "speaker": "swyx",
+  "en": "It used to involve a full sidecar, but now you have eBPF in the Linux kernel.",
+  "zh": "它过去涉及一个完整的 sidecar,但现在你在 Linux 内核中有了 eBPF。"
+ },
+ {
+  "seg": 516,
+  "start": 1899.499,
+  "end": 1899.949,
+  "speaker": "swyx",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 517,
+  "start": 1899.999,
+  "end": 1900.77,
+  "speaker": "swyx",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 518,
+  "start": 1900.82,
+  "end": 1905.1533333333332,
+  "speaker": "swyx",
+  "en": "I don't know if this is a natural follow on to the topic of like my skepticism",
+  "zh": "我不知道这是否是一个自然的后续话题,关于我像对分布式训练的怀疑"
+ },
+ {
+  "seg": 519,
+  "start": 1905.221,
+  "end": 1907.422,
+  "speaker": "swyx",
+  "en": "on distributed training is that,",
+  "zh": "那样的话题,即,"
+ },
+ {
+  "seg": 520,
+  "start": 1907.742,
+  "end": 1913.945,
+  "speaker": "swyx",
+  "en": "well, people spend a lot of money on like cables to hook up GPUs.",
+  "zh": "嗯,人们花很多钱在像连接 GPU 的电缆上。"
+ },
+ {
+  "seg": 521,
+  "start": 1914.505,
+  "end": 1916.356,
+  "speaker": "swyx",
+  "en": "And even that is not like fast enough.",
+  "zh": "甚至那也还不够快。"
+ },
+ {
+  "seg": 522,
+  "start": 1916.406,
+  "end": 1917.8504444444443,
+  "speaker": "swyx",
+  "en": "And that's the bottleneck.",
+  "zh": "那就是瓶颈。"
+ },
+ {
+  "seg": 523,
+  "start": 1917.946,
+  "end": 1919.668222222222,
+  "speaker": "swyx",
+  "en": "Is your networking fast enough?",
+  "zh": "你的网络够快吗?"
+ },
+ {
+  "seg": 524,
+  "start": 1919.947,
+  "end": 1923.268,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, so I guess you're talking about sort of fully distributed training,",
+  "zh": "是的,所以我想你说的是那种完全的分布式训练,"
+ },
+ {
+  "seg": 525,
+  "start": 1923.308,
+  "end": 1926.669,
+  "speaker": "Akshat Bubna",
+  "en": "like a dialog or something, which is like cross data center.",
+  "zh": "像 dialog 或其他什么,也就是那种跨数据中心的。"
+ },
+ {
+  "seg": 526,
+  "start": 1926.689,
+  "end": 1928.5,
+  "speaker": "Akshat Bubna",
+  "en": "That would be, yes, that's the extreme.",
+  "zh": "那会是,是的,那是极端情况。"
+ },
+ {
+  "seg": 527,
+  "start": 1928.55,
+  "end": 1930.811,
+  "speaker": "swyx",
+  "en": "You're kind of in the middle and then other people would have like",
+  "zh": "你有点在中间,然后其他人会有像"
+ },
+ {
+  "seg": 528,
+  "start": 1930.831,
+  "end": 1933.8865555555556,
+  "speaker": "swyx",
+  "en": "the Melanox cables up in like their actual data center.",
+  "zh": "在他们实际的数据中心里的 Melanox 电缆。"
+ },
+ {
+  "seg": 529,
+  "start": 1934.092,
+  "end": 1938.433,
+  "speaker": "Akshat Bubna",
+  "en": "When you run multi-handle training on modal, RDMA,",
+  "zh": "当你在 modal 上运行 multi-handle 训练时,RDMA,"
+ },
+ {
+  "seg": 530,
+  "start": 1939.794,
+  "end": 1941.554,
+  "speaker": "Akshat Bubna",
+  "en": "I think Melanox is,",
+  "zh": "我认为 Melanox 是,"
+ },
+ {
+  "seg": 531,
+  "start": 1941.735,
+  "end": 1943.835,
+  "speaker": "Akshat Bubna",
+  "en": "or InfiniBand is like,",
+  "zh": "或者 InfiniBand 像,"
+ },
+ {
+  "seg": 532,
+  "start": 1944.195,
+  "end": 1949.037,
+  "speaker": "Akshat Bubna",
+  "en": "you also use RDMA, but basically it's a way to bypass TCP networking's",
+  "zh": "你也使用 RDMA,但基本上它是一种绕过 TCP 网络的方式"
+ },
+ {
+  "seg": 533,
+  "start": 1949.197,
+  "end": 1954.738,
+  "speaker": "Akshat Bubna",
+  "en": "and transfer stuff much faster between one node to the other.",
+  "zh": ",并从一个节点到另一个节点更快地传输东西。"
+ },
+ {
+  "seg": 534,
+  "start": 1955.318,
+  "end": 1956.318,
+  "speaker": "Akshat Bubna",
+  "en": "And we have,",
+  "zh": "而且我们有,"
+ },
+ {
+  "seg": 535,
+  "start": 1956.659,
+  "end": 1956.939,
+  "speaker": "Akshat Bubna",
+  "en": "I think,",
+  "zh": "我认为,"
+ },
+ {
+  "seg": 536,
+  "start": 1956.959,
+  "end": 1960.38,
+  "speaker": "Akshat Bubna",
+  "en": "like three terabit per second internal networking,",
+  "zh": "像每秒 3 万亿比特的内部网络,"
+ },
+ {
+  "seg": 537,
+  "start": 1960.4,
+  "end": 1962.03,
+  "speaker": "Akshat Bubna",
+  "en": "which is the standard that's needed.",
+  "zh": "这是所需的标准。"
+ },
+ {
+  "seg": 538,
+  "start": 1962.08,
+  "end": 1965.561,
+  "speaker": "Akshat Bubna",
+  "en": "Okay, so I misunderstood what part of the stack you were.",
+  "zh": "好的,所以我误解了你在堆栈的哪个部分。"
+ },
+ {
+  "seg": 539,
+  "start": 1965.861,
+  "end": 1972.861,
+  "speaker": "swyx",
+  "en": "Yeah, I mean, very impressive work.",
+  "zh": "是的,我的意思是,非常令人印象深刻的工作。"
+ },
+ {
+  "seg": 540,
+  "start": 1973.123,
+  "end": 1974.053,
+  "speaker": "swyx",
+  "en": "So effectively,",
+  "zh": "所以实际上,"
+ },
+ {
+  "seg": 541,
+  "start": 1974.103,
+  "end": 1978.684,
+  "speaker": "swyx",
+  "en": "you're extending sort of like the modal philosophy to the trading cluster, like...",
+  "zh": "你有点像把 modal 理念扩展到了交易集群,就像……"
+ },
+ {
+  "seg": 542,
+  "start": 1979.927,
+  "end": 1984.852,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, and we're not going for, obviously, large-scale pre-training runs.",
+  "zh": "是的,而且我们不追求,显然,大规模预训练运行。"
+ },
+ {
+  "seg": 543,
+  "start": 1984.912,
+  "end": 1991.177,
+  "speaker": "Akshat Bubna",
+  "en": "The thing that we've built Multano training for is we see a lot of smaller-scale post-training.",
+  "zh": "我们构建 Multano 训练的原因是我们看到了很多较小规模的后训练。"
+ },
+ {
+  "seg": 544,
+  "start": 1992.378,
+  "end": 1998.864,
+  "speaker": "Akshat Bubna",
+  "en": "People are post-training medium-sized fun models so they can get higher quality on inference.",
+  "zh": "人们在后训练中等大小的 fun 模型,这样他们可以在推理上获得更高的质量。"
+ },
+ {
+  "seg": 545,
+  "start": 1998.904,
+  "end": 2001.4595555555557,
+  "speaker": "Akshat Bubna",
+  "en": "This is a perfect fit for something like that.",
+  "zh": "这非常适合像那样的事情。"
+ },
+ {
+  "seg": 546,
+  "start": 2002.228,
+  "end": 2007.703,
+  "speaker": "swyx",
+  "en": "That is my impression of how a lot of these labs explore branches in post training",
+  "zh": "这是我对很多这些实验室在后训练中探索分支,"
+ },
+ {
+  "seg": 547,
+  "start": 2007.903,
+  "end": 2010.5696666666668,
+  "speaker": "swyx",
+  "en": "and then eventually merge whatever they find in.",
+  "zh": "然后最终合并他们发现的任何东西的印象。"
+ },
+ {
+  "seg": 548,
+  "start": 2011.412,
+  "end": 2015.134,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, the other use case we've seen for multinational training is even if you have",
+  "zh": "是的,我们看到的 multinational 训练的另一个用例是即使你有"
+ },
+ {
+  "seg": 549,
+  "start": 2015.154,
+  "end": 2015.9650000000001,
+  "speaker": "Akshat Bubna",
+  "en": "a big cluster,",
+  "zh": "一个大型集群,"
+ },
+ {
+  "seg": 550,
+  "start": 2016.015,
+  "end": 2020.617,
+  "speaker": "Akshat Bubna",
+  "en": "your researchers are still doing small runs and having elasticity there betters",
+  "zh": "你的研究员们仍在做小规模运行，而在那里拥有弹性要好很多。"
+ },
+ {
+  "seg": 551,
+  "start": 2020.657,
+  "end": 2021.657,
+  "speaker": "Akshat Bubna",
+  "en": "a lot more.",
+  "zh": "多得多。"
+ },
+ {
+  "seg": 552,
+  "start": 2022.578,
+  "end": 2026.078,
+  "speaker": "swyx",
+  "en": "This is actually the current limiting factor for auto research,",
+  "zh": "这实际上是自动研究的当前限制因素，"
+ },
+ {
+  "seg": 553,
+  "start": 2026.44,
+  "end": 2031.163,
+  "speaker": "swyx",
+  "en": "which is you basically need to give your model some GPUs.",
+  "zh": "也就是你基本上需要给你的模型一些 GPU。"
+ },
+ {
+  "seg": 554,
+  "start": 2031.863,
+  "end": 2037.63,
+  "speaker": "Akshat Bubna",
+  "en": "we have a blog post on auto research and modal is uh yeah like uh turns out to be",
+  "zh": "我们有一篇关于自动研究的博客文章，而 Modal 呢，对，就像，事实证明是"
+ },
+ {
+  "seg": 555,
+  "start": 2037.65,
+  "end": 2039.242,
+  "speaker": "Akshat Bubna",
+  "en": "a pretty good substrate for that",
+  "zh": "一个非常好的底层基础"
+ },
+ {
+  "seg": 556,
+  "start": 2039.292,
+  "end": 2041.915,
+  "speaker": "swyx",
+  "en": "so my impression is auto research means many things like anything",
+  "zh": "所以我的印象是，自动研究意味着很多东西，就像任何东西一样，"
+ },
+ {
+  "seg": 557,
+  "start": 2041.955,
+  "end": 2046.2,
+  "speaker": "swyx",
+  "en": "that andre coins right now still science fair right like not not not actually like i",
+  "zh": "Andre 现在所提出的任何东西仍然是科学展会，对吧，就像不是不是不是实际上就像我"
+ },
+ {
+  "seg": 558,
+  "start": 2046.24,
+  "end": 2049.2955555555554,
+  "speaker": "swyx",
+  "en": "don't know how many people are actually doing this yeah",
+  "zh": "不知道有多少人实际上在做这个，是的"
+ },
+ {
+  "seg": 559,
+  "start": 2049.368,
+  "end": 2055.27,
+  "speaker": "Akshat Bubna",
+  "en": "i thought the same thing yeah you would know we like our internal both training",
+  "zh": "我也是这么想的，对，你会知道，我们，就像我们的内部训练"
+ },
+ {
+  "seg": 560,
+  "start": 2055.31,
+  "end": 2059.791,
+  "speaker": "Akshat Bubna",
+  "en": "and inference teams actually use this sort of the general shape of this quite",
+  "zh": "和推理团队实际上相当多地使用了这种大致形态，就像我们有一个叫做 auto inference 的内部代码库"
+ },
+ {
+  "seg": 561,
+  "start": 2059.811,
+  "end": 2063.492,
+  "speaker": "Akshat Bubna",
+  "en": "a bit like we have this one internal repo called auto inference",
+  "zh": "我们有一个名为 auto inference 的内部代码库"
+ },
+ {
+  "seg": 562,
+  "start": 2064.052,
+  "end": 2070.374,
+  "speaker": "Akshat Bubna",
+  "en": "which essentially we've automated our own fde efforts using this harness which is",
+  "zh": "它本质上是我们使用这个框架自动化了我们自己的 FDE 工作，也就是"
+ },
+ {
+  "seg": 563,
+  "start": 2071.174,
+  "end": 2075.896,
+  "speaker": "Akshat Bubna",
+  "en": "the agent will just spin up a sweep of different things it'll even run like a",
+  "zh": "智能体会直接启动一系列不同事物的扫描，它甚至会运行比如"
+ },
+ {
+  "seg": 564,
+  "start": 2076.856,
+  "end": 2080.738,
+  "speaker": "Akshat Bubna",
+  "en": "nvidia inside profiler and it'll like tweak configs and it'll arrive",
+  "zh": "nvidia inside 分析器，它会调整配置，然后它会找到"
+ },
+ {
+  "seg": 565,
+  "start": 2080.798,
+  "end": 2084.239,
+  "speaker": "Akshat Bubna",
+  "en": "the right thing it'll change your gpus from h200",
+  "zh": "正确的东西，它会把你的 GPU 从 H200"
+ },
+ {
+  "seg": 566,
+  "start": 2084.279,
+  "end": 2089.802,
+  "speaker": "swyx",
+  "en": "to b200 it actually works really well nice so by the way i enjoy that your fde is",
+  "zh": "更改为 B200，它实际上运作得非常好，不错，所以顺便说一下，我很欣赏你们的 FDE 是"
+ },
+ {
+  "seg": 567,
+  "start": 2089.862,
+  "end": 2093.544,
+  "speaker": "swyx",
+  "en": "so technical that you have to do these things it's very different from fde",
+  "zh": "如此技术化以至于你必须做这些事情，这与其他人的 FDE 非常不同"
+ },
+ {
+  "seg": 568,
+  "start": 2093.564,
+  "end": 2098.046,
+  "speaker": "Akshat Bubna",
+  "en": "from other people yeah yeah our fde team is uh essentially they're like",
+  "zh": "对，对，我们的 FDE 团队本质上是，他们就像"
+ },
+ {
+  "seg": 569,
+  "start": 2098.846,
+  "end": 2100.337,
+  "speaker": "Akshat Bubna",
+  "en": "applied inference researchers",
+  "zh": "应用推理研究员"
+ },
+ {
+  "seg": 570,
+  "start": 2100.387,
+  "end": 2103.968,
+  "speaker": "swyx",
+  "en": "or applied training researchers someone told me like they have to be able to build",
+  "zh": "或应用训练研究员，有人告诉我，就像他们必须能够构建"
+ },
+ {
+  "seg": 571,
+  "start": 2104.008,
+  "end": 2106.61,
+  "speaker": "swyx",
+  "en": "but they also have to be able to sell do they have to sell",
+  "zh": "但他们也必须能够销售，他们必须销售吗"
+ },
+ {
+  "seg": 572,
+  "start": 2106.65,
+  "end": 2109.031,
+  "speaker": "swyx",
+  "en": "or are they like they're good it's just like post-sale type",
+  "zh": "还是说他们很擅长，这就像是售后类型的"
+ },
+ {
+  "seg": 573,
+  "start": 2109.051,
+  "end": 2113.413,
+  "speaker": "Akshat Bubna",
+  "en": "of thing it does being able to talk to a customer and engage effectively",
+  "zh": "事情，能够与客户交谈并与他们有效互动"
+ },
+ {
+  "seg": 574,
+  "start": 2113.433,
+  "end": 2116.884,
+  "speaker": "Akshat Bubna",
+  "en": "with them matters a lot they all want the same thing yeah but it's it's not really",
+  "zh": "非常重要，他们都想要同样的东西，对，但这其实并不算是"
+ },
+ {
+  "seg": 575,
+  "start": 2116.934,
+  "end": 2121.817,
+  "speaker": "Akshat Bubna",
+  "en": "a sort of sales uh thing we we pair them with we have solutions architects as well",
+  "zh": "一种销售，我们将他们与，我们也有解决方案架构师"
+ },
+ {
+  "seg": 576,
+  "start": 2121.857,
+  "end": 2124.6879999999996,
+  "speaker": "Akshat Bubna",
+  "en": "that are more on the pre-sales side okay let's spend a",
+  "zh": "他们更偏向于售前方面，好的，让我们花点"
+ },
+ {
+  "seg": 577,
+  "start": 2124.738,
+  "end": 2128.14,
+  "speaker": "swyx",
+  "en": "this is a big focus for me for this year",
+  "zh": "时间，这是我今年的一个重点"
+ },
+ {
+  "seg": 578,
+  "start": 2128.841,
+  "end": 2134.424,
+  "speaker": "swyx",
+  "en": "where does this go you know like have people explored enough like you know there's",
+  "zh": "这将走向何方，你知道，就像人们是否已经探索得足够了，就像你知道，那里有"
+ },
+ {
+  "seg": 579,
+  "start": 2134.444,
+  "end": 2138.367,
+  "speaker": "swyx",
+  "en": "all these beautiful charts of like improve to the level off a bit and then you find",
+  "zh": "所有这些漂亮的图表，比如改进，然后平缓一点，然后你找到"
+ },
+ {
+  "seg": 580,
+  "start": 2138.387,
+  "end": 2143.77,
+  "speaker": "swyx",
+  "en": "the next thing is this basically sort of one abstraction up from normal training is",
+  "zh": "下一个东西，这基本上是比正常训练高一层抽象吗，"
+ },
+ {
+  "seg": 581,
+  "start": 2143.79,
+  "end": 2145.511,
+  "speaker": "swyx",
+  "en": "that how we think about it or do you think",
+  "zh": "我们是这样认为的，还是你"
+ },
+ {
+  "seg": 582,
+  "start": 2145.531,
+  "end": 2149.734,
+  "speaker": "swyx",
+  "en": "about it differently like model level training versus basically like AI driven",
+  "zh": "以不同的方式思考它，比如模型级训练对比基本上像 AI 驱动的"
+ },
+ {
+  "seg": 583,
+  "start": 2149.754,
+  "end": 2153.346,
+  "speaker": "swyx",
+  "en": "hyperparameter search some people call it like neural architecture search",
+  "zh": "超参数搜索，有些人称之为神经架构搜索"
+ },
+ {
+  "seg": 584,
+  "start": 2153.396,
+  "end": 2154.6182222222224,
+  "speaker": "swyx",
+  "en": "or whatever right like",
+  "zh": "或其他什么，对吧，比如"
+ },
+ {
+  "seg": 585,
+  "start": 2154.7,
+  "end": 2159.8666666666663,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, I mean, so the stuff I've seen people do with it is nowhere on the architecture level.",
+  "zh": "是的，我的意思是，所以我看到的人们用它做的事情完全不在架构层面。"
+ },
+ {
+  "seg": 586,
+  "start": 2160.047,
+  "end": 2161.899,
+  "speaker": "Akshat Bubna",
+  "en": "It's pretty much tweaking parameters,",
+  "zh": "它几乎全是微调参数，"
+ },
+ {
+  "seg": 587,
+  "start": 2161.949,
+  "end": 2166.135,
+  "speaker": "Akshat Bubna",
+  "en": "but it's basically a high-proprietor sweep that's guided by some sort",
+  "zh": "但基本上是由某种"
+ },
+ {
+  "seg": 588,
+  "start": 2166.175,
+  "end": 2169.063888888889,
+  "speaker": "Akshat Bubna",
+  "en": "of model intuition, so it's much more efficient than",
+  "zh": "模型直觉指导的高所有者扫描，所以它比"
+ },
+ {
+  "seg": 589,
+  "start": 2170.14,
+  "end": 2172.3066666666664,
+  "speaker": "swyx",
+  "en": "whatever other sleeper you would have.",
+  "zh": "你拥有的任何其他卧铺"
+ },
+ {
+  "seg": 590,
+  "start": 2173.144,
+  "end": 2176.319,
+  "speaker": "swyx",
+  "en": "Yeah, I mean, you know, it's just a question of where you want to spend your computer, you know?",
+  "zh": "要高效得多。是的，我的意思是，你知道的，这只是你想把计算机算力花在哪里的问题，你知道的？"
+ },
+ {
+  "seg": 591,
+  "start": 2176.369,
+  "end": 2176.5789999999997,
+  "speaker": "swyx",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 592,
+  "start": 2176.629,
+  "end": 2176.99,
+  "speaker": "swyx",
+  "en": "Because, yeah,",
+  "zh": "因为，是的，"
+ },
+ {
+  "seg": 593,
+  "start": 2177.01,
+  "end": 2181.116,
+  "speaker": "swyx",
+  "en": "you can just throw infinite amounts of money on this and somehow you'll bang",
+  "zh": "你可以在这上面投入无限的资金，不知怎么的你就会敲出"
+ },
+ {
+  "seg": 594,
+  "start": 2181.156,
+  "end": 2182.5448888888886,
+  "speaker": "swyx",
+  "en": "on Shakespeare, you know?",
+  "zh": "莎士比亚，你知道的？"
+ },
+ {
+  "seg": 595,
+  "start": 2182.899,
+  "end": 2184.121222222222,
+  "speaker": "swyx",
+  "en": "Yeah, infinite monkey.",
+  "zh": "对，无限猴子。"
+ },
+ {
+  "seg": 596,
+  "start": 2184.481,
+  "end": 2185.312,
+  "speaker": "swyx",
+  "en": "Yeah.",
+  "zh": "对。"
+ },
+ {
+  "seg": 597,
+  "start": 2185.362,
+  "end": 2186.5286666666666,
+  "speaker": "swyx",
+  "en": "Very good for modal.",
+  "zh": "对 Modal 非常好。"
+ },
+ {
+  "seg": 598,
+  "start": 2186.823,
+  "end": 2191.147,
+  "speaker": "swyx",
+  "en": "And I think it's also very important that agents can spin up other agents.",
+  "zh": "而且我认为同样非常重要的是，智能体可以启动其他智能体。"
+ },
+ {
+  "seg": 599,
+  "start": 2191.527,
+  "end": 2193.419,
+  "speaker": "swyx",
+  "en": "They can spin up their own infrastructure.",
+  "zh": "它们可以启动它们自己的基础设施。"
+ },
+ {
+  "seg": 600,
+  "start": 2193.469,
+  "end": 2194.71,
+  "speaker": "swyx",
+  "en": "Very good for you.",
+  "zh": "对你非常好。"
+ },
+ {
+  "seg": 601,
+  "start": 2194.73,
+  "end": 2197.712,
+  "speaker": "swyx",
+  "en": "How good are LLMs at generating modal code?",
+  "zh": "LLM 在生成 modal 代码方面有多好？"
+ },
+ {
+  "seg": 602,
+  "start": 2199.113,
+  "end": 2202.2459999999996,
+  "speaker": "swyx",
+  "en": "The benefit of existing pre-LLMs is that you are in the data.",
+  "zh": "现有的前 LLM 的好处是你在数据中。"
+ },
+ {
+  "seg": 603,
+  "start": 2202.296,
+  "end": 2205.218,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, they're actually surprisingly good.",
+  "zh": "是的，它们实际上出奇地好。"
+ },
+ {
+  "seg": 604,
+  "start": 2205.618,
+  "end": 2209.241,
+  "speaker": "Akshat Bubna",
+  "en": "I think like pre-Cloud 4 they were not and then now they're able",
+  "zh": "我觉得在 pre-Cloud 4 之前它们不行，然后现在它们能够"
+ },
+ {
+  "seg": 605,
+  "start": 2209.261,
+  "end": 2211.582,
+  "speaker": "Akshat Bubna",
+  "en": "to one-shot stuff out of the box.",
+  "zh": "开箱即用地一次性搞定东西。"
+ },
+ {
+  "seg": 606,
+  "start": 2212.223,
+  "end": 2216.723,
+  "speaker": "Akshat Bubna",
+  "en": "We're playing around with releasing like a modal bench for like the harder things",
+  "zh": "我们正在玩弄着发布一个 modal bench，针对那些更难的事情，"
+ },
+ {
+  "seg": 607,
+  "start": 2216.786,
+  "end": 2220.588,
+  "speaker": "Akshat Bubna",
+  "en": "that the LMs cannot do yet and maybe What's an example of that?",
+  "zh": "那些 LM 还做不到的事情，也许那方面的例子是什么？"
+ },
+ {
+  "seg": 608,
+  "start": 2221.189,
+  "end": 2222.4667777777777,
+  "speaker": "Akshat Bubna",
+  "en": "I think the things that",
+  "zh": "我认为那些"
+ },
+ {
+  "seg": 609,
+  "start": 2223.27,
+  "end": 2230.27,
+  "speaker": "Akshat Bubna",
+  "en": "sometimes agents struggle with without right guidance and a skill is how to use",
+  "zh": "有时智能体在没有正确指导和技能的情况下会挣扎的事情是如何使用"
+ },
+ {
+  "seg": 610,
+  "start": 2231.074,
+  "end": 2236.357,
+  "speaker": "Akshat Bubna",
+  "en": "the rest of our observability like how to something is failing like how do you look",
+  "zh": "我们其余的可观测性，比如某个东西失败了，你该如何查看"
+ },
+ {
+  "seg": 611,
+  "start": 2236.397,
+  "end": 2241.42,
+  "speaker": "Akshat Bubna",
+  "en": "at the logs and then update the right thing it's sort of reasoning about that",
+  "zh": "日志，然后更新正确的东西，就是关于这个的推理。"
+ },
+ {
+  "seg": 612,
+  "start": 2241.975,
+  "end": 2246.598,
+  "speaker": "Akshat Bubna",
+  "en": "but they're able to one shot like yeah you can just add a skill to it yeah",
+  "zh": "但它们能够一次性搞定，比如，是的，你可以直接给它加一个技能，是的。"
+ },
+ {
+  "seg": 613,
+  "start": 2246.778,
+  "end": 2249.179,
+  "speaker": "Akshat Bubna",
+  "en": "so we have a model skill now that which is kind",
+  "zh": "所以我们现在有一个 model 技能，这有点"
+ },
+ {
+  "seg": 614,
+  "start": 2249.199,
+  "end": 2252.3909999999996,
+  "speaker": "Akshat Bubna",
+  "en": "of actually why we built this model bench it's to find things like that",
+  "zh": "实际上是我们构建这个 model bench 的原因，是为了找到那样的事情，"
+ },
+ {
+  "seg": 615,
+  "start": 2252.441,
+  "end": 2254.562,
+  "speaker": "Akshat Bubna",
+  "en": "so we can we can address them",
+  "zh": "这样我们就能解决它们，"
+ },
+ {
+  "seg": 616,
+  "start": 2254.602,
+  "end": 2260.085,
+  "speaker": "swyx",
+  "en": "in our unit skill yeah no no i mean it's good uh are you facing any shortages uh you",
+  "zh": "在我们的 unit 技能中，是的，不不，我的意思是这挺好的，呃，你面临任何短缺吗，呃，你"
+ },
+ {
+  "seg": 617,
+  "start": 2260.105,
+  "end": 2263.968,
+  "speaker": "swyx",
+  "en": "know like we talk a lot about gpu shortages but also cpu also memory",
+  "zh": "知道，就像我们谈论了很多关于 gpu 短缺的问题，但 cpu 也是，内存也是。"
+ },
+ {
+  "seg": 618,
+  "start": 2266.188,
+  "end": 2267.379,
+  "speaker": "Akshat Bubna",
+  "en": "We have had a lot of growth,",
+  "zh": "我们有了很多增长，"
+ },
+ {
+  "seg": 619,
+  "start": 2267.429,
+  "end": 2268.45,
+  "speaker": "Akshat Bubna",
+  "en": "which means that",
+  "zh": "这意味着"
+ },
+ {
+  "seg": 620,
+  "start": 2271.191,
+  "end": 2276.975,
+  "speaker": "Akshat Bubna",
+  "en": "we've had to be much better about proactive capacity planning.",
+  "zh": "我们必须在主动的容量规划方面做得更好。"
+ },
+ {
+  "seg": 621,
+  "start": 2277.535,
+  "end": 2281.646111111111,
+  "speaker": "swyx",
+  "en": "Which, by the way, it's like an MBA's dream job, just planning this stuff.",
+  "zh": "顺便说一句，这就像是 MBA 的理想工作，就规划这些东西。"
+ },
+ {
+  "seg": 622,
+  "start": 2281.718,
+  "end": 2283.629,
+  "speaker": "swyx",
+  "en": "I think last time you and I talked about this.",
+  "zh": "我想上次你和我谈论过这个。"
+ },
+ {
+  "seg": 623,
+  "start": 2283.679,
+  "end": 2284.199,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, I mean,",
+  "zh": "是的，我的意思是，"
+ },
+ {
+  "seg": 624,
+  "start": 2284.219,
+  "end": 2287.881,
+  "speaker": "Akshat Bubna",
+  "en": "we have a really competent team of people that we call,",
+  "zh": "我们有一个非常有能力的团队，我们称之为，"
+ },
+ {
+  "seg": 625,
+  "start": 2288.562,
+  "end": 2290.393,
+  "speaker": "Akshat Bubna",
+  "en": "the role is called Compute Strategy.",
+  "zh": "这个角色叫做 Compute Strategy。"
+ },
+ {
+  "seg": 626,
+  "start": 2290.443,
+  "end": 2293.324,
+  "speaker": "Akshat Bubna",
+  "en": "So yeah, if anyone's listening here wants to work on that.",
+  "zh": "所以是的，如果这里有听众想从事这方面的工作。"
+ },
+ {
+  "seg": 627,
+  "start": 2293.344,
+  "end": 2293.765,
+  "speaker": "Akshat Bubna",
+  "en": "Compute Strategy?",
+  "zh": "Compute Strategy？"
+ },
+ {
+  "seg": 628,
+  "start": 2293.785,
+  "end": 2294.785,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 629,
+  "start": 2295.286,
+  "end": 2297.908,
+  "speaker": "swyx",
+  "en": "I mean the normies call it FP&A or something.",
+  "zh": "我的意思是，普通人称之为 FP&A 之类的。"
+ },
+ {
+  "seg": 630,
+  "start": 2298.308,
+  "end": 2300.851,
+  "speaker": "swyx",
+  "en": "Well, it's not FP&A.",
+  "zh": "嗯，它不是 FP&A。"
+ },
+ {
+  "seg": 631,
+  "start": 2301.031,
+  "end": 2308.031,
+  "speaker": "Akshat Bubna",
+  "en": "There's a lot of interesting financial questions of like what is the blend",
+  "zh": "有很多有趣的财务问题，比如一年期和三年期预留之间的混合比例是什么？"
+ },
+ {
+  "seg": 632,
+  "start": 2308.317,
+  "end": 2311.039,
+  "speaker": "Akshat Bubna",
+  "en": "between one year and three reservations?",
+  "zh": "（注：原文为 three reservations）"
+ },
+ {
+  "seg": 633,
+  "start": 2311.059,
+  "end": 2313.059,
+  "speaker": "Akshat Bubna",
+  "en": "How do we forecast our own capacity?",
+  "zh": "我们如何预测自己的容量？"
+ },
+ {
+  "seg": 634,
+  "start": 2313.822,
+  "end": 2315.583,
+  "speaker": "Akshat Bubna",
+  "en": "How do we basically,",
+  "zh": "我们基本上该如何，"
+ },
+ {
+  "seg": 635,
+  "start": 2315.803,
+  "end": 2319.5159999999996,
+  "speaker": "Akshat Bubna",
+  "en": "especially since our capacity is very fungible across different GPU types",
+  "zh": "特别是因为我们的容量在不同 GPU 类型"
+ },
+ {
+  "seg": 636,
+  "start": 2319.566,
+  "end": 2323.0589999999997,
+  "speaker": "Akshat Bubna",
+  "en": "and different regions, like you basically have to model a lot of it.",
+  "zh": "和不同区域之间非常可互换，所以你基本上必须对它的大部分进行建模。"
+ },
+ {
+  "seg": 637,
+  "start": 2323.109,
+  "end": 2327.012,
+  "speaker": "Akshat Bubna",
+  "en": "uh and you also have to have an opinion on how the supply chain is gonna evolve and",
+  "zh": "呃，而且你也必须对供应链将如何演变有自己的看法，"
+ },
+ {
+  "seg": 638,
+  "start": 2327.032,
+  "end": 2331.975,
+  "speaker": "swyx",
+  "en": "then you have to like take bets uh based on that tokenomics this is like probably",
+  "zh": "然后你必须基于那个 tokenomics 去下注，这可能"
+ },
+ {
+  "seg": 639,
+  "start": 2332.015,
+  "end": 2334.577,
+  "speaker": "swyx",
+  "en": "a not a real point but uh i was trying to think",
+  "zh": "不是一个真正的论点，但是，呃，我在试图想"
+ },
+ {
+  "seg": 640,
+  "start": 2334.617,
+  "end": 2336.278,
+  "speaker": "swyx",
+  "en": "about like what other industries i was trying to think",
+  "zh": "比如还有什么其他行业，我在试图想"
+ },
+ {
+  "seg": 641,
+  "start": 2336.318,
+  "end": 2340.2709999999997,
+  "speaker": "swyx",
+  "en": "about like you know we cannot be first to like these kinds of problems yeah",
+  "zh": "比如你知道，我们不能是第一个遇到这类问题的，是的，"
+ },
+ {
+  "seg": 642,
+  "start": 2340.321,
+  "end": 2344.5139999999997,
+  "speaker": "swyx",
+  "en": "and what other industries have had this and i was like airlines with with fuel",
+  "zh": "还有哪些其他行业遇到过这个，我就想，航空业和燃料，"
+ },
+ {
+  "seg": 643,
+  "start": 2344.564,
+  "end": 2347.8179999999998,
+  "speaker": "swyx",
+  "en": "and like they have to hedge their fuel and like i think for a long time southwest",
+  "zh": "比如他们必须对冲他们的燃料，而且我想很长一段时间里西南航空，"
+ },
+ {
+  "seg": 644,
+  "start": 2347.868,
+  "end": 2352.113,
+  "speaker": "swyx",
+  "en": "because they made like a hero fuel bet they like were like super low cost",
+  "zh": "因为他们做了一场英雄般的燃料押注，他们就像超级低成本，"
+ },
+ {
+  "seg": 645,
+  "start": 2352.133,
+  "end": 2356.418,
+  "speaker": "Vibhu",
+  "en": "because compared to everyone else yeah i hadn't thought about that we're in",
+  "zh": "因为与其他所有人相比，是的，我没想过那个，我们正处于"
+ },
+ {
+  "seg": 646,
+  "start": 2356.438,
+  "end": 2359.762,
+  "speaker": "Vibhu",
+  "en": "a fun time too you know yeah it's a lot of",
+  "zh": "一个有趣的时期，你知道，是的，这有很多"
+ },
+ {
+  "seg": 647,
+  "start": 2361.383,
+  "end": 2365.466,
+  "speaker": "Akshat Bubna",
+  "en": "the compute business in general for us is also about being very good",
+  "zh": "总的来说，计算业务对我们来说也是关于在容量管理方面"
+ },
+ {
+  "seg": 648,
+  "start": 2365.526,
+  "end": 2370.65,
+  "speaker": "Akshat Bubna",
+  "en": "about capacity management that is how you have great unique economics but also",
+  "zh": "做得非常好，这就是你如何拥有出色的独特经济效益，而且"
+ },
+ {
+  "seg": 649,
+  "start": 2370.67,
+  "end": 2374.792,
+  "speaker": "Akshat Bubna",
+  "en": "over time is how you can unlock more value for customers like one of",
+  "zh": "随着时间的推移，这就是你如何为客户解锁更多价值的方式，比如其中一个"
+ },
+ {
+  "seg": 650,
+  "start": 2374.812,
+  "end": 2379.095,
+  "speaker": "Akshat Bubna",
+  "en": "the things we're building now is like a way for customers to get if they don't care",
+  "zh": "我们现在正在构建的东西就像是一种让客户获得的方式,如果他们不在乎"
+ },
+ {
+  "seg": 651,
+  "start": 2379.115,
+  "end": 2383.438,
+  "speaker": "Akshat Bubna",
+  "en": "about latency like get much cheaper pricing and they'll get results back",
+  "zh": "延迟的话,比如获得更便宜的定价,然后他们会得到返回的结果"
+ },
+ {
+  "seg": 652,
+  "start": 2383.498,
+  "end": 2387.0535555555557,
+  "speaker": "Akshat Bubna",
+  "en": "in like next 24 hours or something like a batch tier essentially",
+  "zh": "在大约接下来的24小时内之类的,本质上是一个批量层"
+ },
+ {
+  "seg": 653,
+  "start": 2387.201,
+  "end": 2391.057,
+  "speaker": "Akshat Bubna",
+  "en": "yeah and those are levers we have because we control the whole stack and scheduling",
+  "zh": "是的,这些是我们拥有的杠杆,因为我们控制了整个技术栈和调度"
+ },
+ {
+  "seg": 654,
+  "start": 2391.107,
+  "end": 2394.8419999999996,
+  "speaker": "swyx",
+  "en": "and whatnot to give people a sufficient yeah i feel like they're not",
+  "zh": "之类的东西,给人们提供足够的,是的,我觉得它们并不"
+ },
+ {
+  "seg": 655,
+  "start": 2394.892,
+  "end": 2399.139,
+  "speaker": "swyx",
+  "en": "as popular like those like the the frontier labs have all those apis they're not",
+  "zh": "那么受欢迎,像那些前沿实验室拥有所有那些API,它们并不"
+ },
+ {
+  "seg": 656,
+  "start": 2399.159,
+  "end": 2402.043,
+  "speaker": "swyx",
+  "en": "as popular as they should be the demand that we see",
+  "zh": "像它们应有的那样受欢迎,而我们看到的需求"
+ },
+ {
+  "seg": 657,
+  "start": 2402.323,
+  "end": 2406.627,
+  "speaker": "Akshat Bubna",
+  "en": "for something like that is actually not for llms although sometimes people want",
+  "zh": "对于类似那样的东西,实际上不是为了LLM,尽管有时候人们想要"
+ },
+ {
+  "seg": 658,
+  "start": 2406.647,
+  "end": 2413.313,
+  "speaker": "Akshat Bubna",
+  "en": "to run evals and do synthetic data prep and there it makes sense but it's from a lot",
+  "zh": "运行评估并做合成数据准备,在那里这是有意义的,但它来自很多"
+ },
+ {
+  "seg": 659,
+  "start": 2413.333,
+  "end": 2415.795,
+  "speaker": "Akshat Bubna",
+  "en": "of non-llm companies like people",
+  "zh": "非LLM公司,比如那些"
+ },
+ {
+  "seg": 660,
+  "start": 2415.835,
+  "end": 2419.5879999999997,
+  "speaker": "Akshat Bubna",
+  "en": "who are doing computational bio like they haven't run really big bad jobs",
+  "zh": "做计算生物学的人,比如他们还没运行过真正大的糟糕任务"
+ },
+ {
+  "seg": 661,
+  "start": 2419.638,
+  "end": 2423.241,
+  "speaker": "swyx",
+  "en": "and they don't care about when they get it back yeah and like they have",
+  "zh": "他们不在乎什么时候拿回来,是的,而且像他们有一个"
+ },
+ {
+  "seg": 662,
+  "start": 2423.281,
+  "end": 2427.005,
+  "speaker": "swyx",
+  "en": "a reasonable it's also like a cousin to the stopping problem",
+  "zh": "合理的,这也像是停止问题的表亲"
+ },
+ {
+  "seg": 663,
+  "start": 2427.085,
+  "end": 2429.407,
+  "speaker": "swyx",
+  "en": "of like will this finish in time if",
+  "zh": "比如,这个能不能按时完成如果"
+ },
+ {
+  "seg": 664,
+  "start": 2431.337,
+  "end": 2434.9289999999996,
+  "speaker": "swyx",
+  "en": "yeah you can you can bound it yeah like you can give people slays",
+  "zh": "是的,你可以,你可以给它设定界限,是的,比如你可以给人们SLA"
+ },
+ {
+  "seg": 665,
+  "start": 2434.979,
+  "end": 2438.2,
+  "speaker": "swyx",
+  "en": "on it yeah yeah i think what's what's interesting is like the next phase",
+  "zh": "关于它,是的,是的,我觉得有趣的是像下一阶段"
+ },
+ {
+  "seg": 666,
+  "start": 2438.22,
+  "end": 2443.923,
+  "speaker": "swyx",
+  "en": "of moto like what you know do people expect from you uh now that you're sort",
+  "zh": "的moto,比如你知道的,人们现在对你有什么期望,既然你某种程度上已经"
+ },
+ {
+  "seg": 667,
+  "start": 2443.943,
+  "end": 2446.964,
+  "speaker": "swyx",
+  "en": "of established and you're like a well-known computer player",
+  "zh": "站稳了脚跟,你是一个知名的计算机玩家"
+ },
+ {
+  "seg": 668,
+  "start": 2446.984,
+  "end": 2450.506,
+  "speaker": "swyx",
+  "en": "among all these leading companies you had it inference launch week and we talked",
+  "zh": "在所有这些领先的公司中,你们举办了推理发布周,我们谈到了"
+ },
+ {
+  "seg": 669,
+  "start": 2450.546,
+  "end": 2454.964,
+  "speaker": "swyx",
+  "en": "a little bit about the launches like what else like what else should people know",
+  "zh": "一点点关于这些发布的内容,比如还有什么,还有什么人们应该知道的"
+ },
+ {
+  "seg": 670,
+  "start": 2455.014,
+  "end": 2461.524,
+  "speaker": "Akshat Bubna",
+  "en": "We are building permitters that make our users' lives much easier.",
+  "zh": "我们正在构建权限层,使我们用户的生活变得更加轻松。"
+ },
+ {
+  "seg": 671,
+  "start": 2463,
+  "end": 2464.35,
+  "speaker": "Akshat Bubna",
+  "en": "So I think, for example,",
+  "zh": "所以我认为,例如,"
+ },
+ {
+  "seg": 672,
+  "start": 2464.4,
+  "end": 2466.68,
+  "speaker": "Akshat Bubna",
+  "en": "LM inference, thousands more companies",
+  "zh": "LM推理,成千上万的公司"
+ },
+ {
+  "seg": 673,
+  "start": 2466.68,
+  "end": 2468,
+  "speaker": "Akshat Bubna",
+  "en": "are going to post-train their own models",
+  "zh": "将会去后训练他们自己的模型"
+ },
+ {
+  "seg": 674,
+  "start": 2468,
+  "end": 2469.88,
+  "speaker": "Akshat Bubna",
+  "en": "and deploy open source models",
+  "zh": "并部署开源模型"
+ },
+ {
+  "seg": 675,
+  "start": 2469.88,
+  "end": 2470.2,
+  "speaker": "Akshat Bubna",
+  "en": "for inference.",
+  "zh": "用于推理。"
+ },
+ {
+  "seg": 676,
+  "start": 2470.898,
+  "end": 2474.262,
+  "speaker": "Akshat Bubna",
+  "en": "so we're thinking a lot about what is the best product shape for that",
+  "zh": "所以我们思考了很多关于那个的最佳产品形态是什么"
+ },
+ {
+  "seg": 677,
+  "start": 2474.783,
+  "end": 2480.411,
+  "speaker": "Akshat Bubna",
+  "en": "and that involves everything from our training gym to then endpoints",
+  "zh": "而这涉及从我们的训练健身房到然后获得"
+ },
+ {
+  "seg": 678,
+  "start": 2480.432,
+  "end": 2484.932,
+  "speaker": "Akshat Bubna",
+  "en": "that get frontier level performance you know again but I haven't talked to anyone",
+  "zh": "前沿级性能的端点的一切,你知道的,但是我没有和任何人谈过"
+ },
+ {
+  "seg": 679,
+  "start": 2485.378,
+  "end": 2489.419,
+  "speaker": "Akshat Bubna",
+  "en": "it looks somewhat different on other verticals like we're also seeing a lot",
+  "zh": "它在其他垂直领域看起来有些不同,像我们也看到了很多"
+ },
+ {
+  "seg": 680,
+  "start": 2489.459,
+  "end": 2495.801,
+  "speaker": "Akshat Bubna",
+  "en": "of real-time audio video stuff in there which is why like we're working",
+  "zh": "实时音视频的东西在那里,这就是为什么像我们正在做"
+ },
+ {
+  "seg": 681,
+  "start": 2495.841,
+  "end": 2501.583,
+  "speaker": "Akshat Bubna",
+  "en": "on things like regional routing with fallbacks so you can you can get sort of gpus",
+  "zh": "带有回退的区域路由之类的事情,这样你就可以获得某种程度上尽可能"
+ },
+ {
+  "seg": 682,
+  "start": 2501.623,
+  "end": 2505.764,
+  "speaker": "Akshat Bubna",
+  "en": "that are as close to users as possible so you get like low latency",
+  "zh": "靠近用户的GPU,这样你就可以得到低延迟"
+ },
+ {
+  "seg": 683,
+  "start": 2505.824,
+  "end": 2510.726,
+  "speaker": "Akshat Bubna",
+  "en": "for video streaming and whatnot and then on the agent side it's um",
+  "zh": "用于视频流媒体之类的,然后在智能体方面,嗯,"
+ },
+ {
+  "seg": 684,
+  "start": 2512.044,
+  "end": 2516.97,
+  "speaker": "Akshat Bubna",
+  "en": "We're still working very closely with our customers because stuff is changing",
+  "zh": "我们仍在与我们的客户非常紧密地合作,因为情况变化太快了"
+ },
+ {
+  "seg": 685,
+  "start": 2517.01,
+  "end": 2521.775,
+  "speaker": "Akshat Bubna",
+  "en": "so fast in terms of what they need and I think beyond sandboxes",
+  "zh": "就他们的需求而言,而且我认为除了沙箱"
+ },
+ {
+  "seg": 686,
+  "start": 2521.896,
+  "end": 2526.281,
+  "speaker": "Akshat Bubna",
+  "en": "and persistent file systems there's a lot of other things people need",
+  "zh": "和持久化文件系统之外,还有很多其他人们需要的东西"
+ },
+ {
+  "seg": 687,
+  "start": 2526.341,
+  "end": 2528.2854444444442,
+  "speaker": "Akshat Bubna",
+  "en": "from this agent stack as they build",
+  "zh": "来自这个智能体技术栈,当他们构建"
+ },
+ {
+  "seg": 688,
+  "start": 2528.583,
+  "end": 2533.115,
+  "speaker": "Akshat Bubna",
+  "en": "production agents so yeah we're thinking about those other things that fit in there.",
+  "zh": "生产级智能体时,所以是的,我们在思考适合其中的那些其他东西。"
+ },
+ {
+  "seg": 689,
+  "start": 2533.165,
+  "end": 2534.836,
+  "speaker": "Akshat Bubna",
+  "en": "I wanted to ask what the other things are.",
+  "zh": "我想问其他东西是什么。"
+ },
+ {
+  "seg": 690,
+  "start": 2534.886,
+  "end": 2537.0526666666665,
+  "speaker": "swyx",
+  "en": "Yeah I probably should share right now.",
+  "zh": "是的,我现在可能应该分享一下。"
+ },
+ {
+  "seg": 691,
+  "start": 2537.407,
+  "end": 2542.43,
+  "speaker": "swyx",
+  "en": "I think okay so I do think a lot about the principal components of cloud",
+  "zh": "我确实思考了很多关于云的主要组件"
+ },
+ {
+  "seg": 692,
+  "start": 2543.07,
+  "end": 2547.393,
+  "speaker": "swyx",
+  "en": "and you do talk about compute storage networking because so far for me it's fine",
+  "zh": "而且你确实谈论计算存储网络,因为到目前为止对我来说这没问题"
+ },
+ {
+  "seg": 693,
+  "start": 2547.413,
+  "end": 2551.395,
+  "speaker": "swyx",
+  "en": "so far for I mean the first couple generations",
+  "zh": "到目前为止,我的意思是前几代"
+ },
+ {
+  "seg": 694,
+  "start": 2551.435,
+  "end": 2555.477,
+  "speaker": "swyx",
+  "en": "of cloud it's fine what's different qualitatively different about agents",
+  "zh": "云,这没问题,关于智能体有什么本质上的不同"
+ },
+ {
+  "seg": 695,
+  "start": 2555.537,
+  "end": 2557.759222222222,
+  "speaker": "swyx",
+  "en": "that you need some new permission level.",
+  "zh": "以至于你需要某种新的权限级别。"
+ },
+ {
+  "seg": 696,
+  "start": 2558.458,
+  "end": 2561.719,
+  "speaker": "swyx",
+  "en": "like a lot of people you know obviously okay and i'll just kind of spew tokens",
+  "zh": "像很多人,你显然知道,好的,我只会向你喷吐token"
+ },
+ {
+  "seg": 697,
+  "start": 2561.759,
+  "end": 2564.38,
+  "speaker": "swyx",
+  "en": "at you until it like hopefully sparks something yeah like",
+  "zh": "直到它希望像能激发出什么东西,是的,比如"
+ },
+ {
+  "seg": 698,
+  "start": 2564.4,
+  "end": 2569.082,
+  "speaker": "swyx",
+  "en": "the new level now is whatever cloud code does which is dangerously skip permissions",
+  "zh": "现在新的级别是云代码所做的任何事,也就是危险地跳过权限"
+ },
+ {
+  "seg": 699,
+  "start": 2569.162,
+  "end": 2572.503,
+  "speaker": "swyx",
+  "en": "or like allow this by command or like whatever right and",
+  "zh": "或者像通过命令允许这个,或者像随便什么吧,对的,而"
+ },
+ {
+  "seg": 700,
+  "start": 2572.763,
+  "end": 2576.484,
+  "speaker": "swyx",
+  "en": "and sometimes they're like okay we'll have like this adaptive thinking mode",
+  "zh": "有时他们会像 好吧 我们会有这种自适应思考模式"
+ },
+ {
+  "seg": 701,
+  "start": 2576.504,
+  "end": 2580.625,
+  "speaker": "swyx",
+  "en": "where like just just trust me bro i will make the calls for you is",
+  "zh": "就像 相信我 哥们 我会替你调用 的就是"
+ },
+ {
+  "seg": 702,
+  "start": 2580.645,
+  "end": 2584.547,
+  "speaker": "swyx",
+  "en": "that it you know like basically like sort of lm mediated permissions looping it with",
+  "zh": "这个吗 你知道 就像 基本上 就像是 lm 介导的权限 把它与"
+ },
+ {
+  "seg": 703,
+  "start": 2584.567,
+  "end": 2586.0114444444444,
+  "speaker": "Vibhu",
+  "en": "a goal and flooding it raw",
+  "zh": "一个目标循环起来 并向它灌原始数据"
+ },
+ {
+  "seg": 704,
+  "start": 2586.477,
+  "end": 2592.62,
+  "speaker": "Akshat Bubna",
+  "en": "yeah i mean i'm i'm skeptical of lm media permission for stuff that is at",
+  "zh": "是的 我的意思是 我对 lm 介导权限持怀疑态度 对于那些处于"
+ },
+ {
+  "seg": 705,
+  "start": 2592.66,
+  "end": 2593.66,
+  "speaker": "Akshat Bubna",
+  "en": "the sandbox level",
+  "zh": "沙箱层面的东西"
+ },
+ {
+  "seg": 706,
+  "start": 2593.84,
+  "end": 2599.283,
+  "speaker": "Akshat Bubna",
+  "en": "because you do want hard boundaries yeah otherwise obviously someone can exfiltrate",
+  "zh": "因为你确实想要硬边界 是的 否则显然有人可以窃取"
+ },
+ {
+  "seg": 707,
+  "start": 2599.323,
+  "end": 2602.464,
+  "speaker": "swyx",
+  "en": "stuff but like maybe maybe that's old school thinking maybe we're",
+  "zh": "东西 但也许 也许那是老派思维 也许我们是"
+ },
+ {
+  "seg": 708,
+  "start": 2602.504,
+  "end": 2608.987,
+  "speaker": "swyx",
+  "en": "the dinosaurs maybe the ai os or the lmos is really the kernel is a goddamn lm",
+  "zh": "恐龙 也许 ai os 或者 lmos 真的就是内核 该死的就是一个 lm"
+ },
+ {
+  "seg": 709,
+  "start": 2610.61,
+  "end": 2614.911,
+  "speaker": "swyx",
+  "en": "it makes you feel uncomfortable but that's what trusting the LLM is imagine",
+  "zh": "这让你感到不舒服 但那就是信任 LLM 的意义所在 想象"
+ },
+ {
+  "seg": 710,
+  "start": 2615.011,
+  "end": 2619.453,
+  "speaker": "swyx",
+  "en": "a spherical cow perfect LLM is that it?",
+  "zh": "一头球形的母牛 完美的 LLM 就是那样吗?"
+ },
+ {
+  "seg": 711,
+  "start": 2619.893,
+  "end": 2626.055,
+  "speaker": "swyx",
+  "en": "maybe I want to test the boundaries obviously I don't believe that but I want to see",
+  "zh": "也许我想测试边界 显然我不相信那个 但我想看看"
+ },
+ {
+  "seg": 712,
+  "start": 2626.115,
+  "end": 2627.535,
+  "speaker": "swyx",
+  "en": "where I'm wrong because that's",
+  "zh": "我哪里错了 因为那是"
+ },
+ {
+  "seg": 713,
+  "start": 2627.575,
+  "end": 2634.575,
+  "speaker": "Akshat Bubna",
+  "en": "the non-consensus I think you always need hard guardrails when you want",
+  "zh": "非共识 我认为你总是需要硬护栏 当你想要的时候"
+ },
+ {
+  "seg": 714,
+  "start": 2636.058,
+  "end": 2640.6691111111113,
+  "speaker": "Akshat Bubna",
+  "en": "and you can pair those with softer guardrails and that's going to be all unmediated",
+  "zh": "你可以把那些与更软的护栏搭配起来 那将全部是非介导的"
+ },
+ {
+  "seg": 715,
+  "start": 2640.864,
+  "end": 2645.147,
+  "speaker": "swyx",
+  "en": "end with a couple of your commentary on like the ecosystem outside",
+  "zh": "最后加上你的一些关于外部生态系统的评论"
+ },
+ {
+  "seg": 716,
+  "start": 2645.167,
+  "end": 2651.813,
+  "speaker": "swyx",
+  "en": "of moto managed agents everyone has one gemini open ai claude uh very useful for you",
+  "zh": "关于 moto 托管智能体 每个人都有一个 gemini open ai claude 嗯 对你非常有用"
+ },
+ {
+  "seg": 717,
+  "start": 2652.193,
+  "end": 2655.836,
+  "speaker": "swyx",
+  "en": "but also like it is their way of starting to edge",
+  "zh": "但也像是 这是他们开始挤入"
+ },
+ {
+  "seg": 718,
+  "start": 2655.876,
+  "end": 2658.419,
+  "speaker": "swyx",
+  "en": "into your space yeah uh what's going on",
+  "zh": "你的领域的方式 嗯 发生了什么"
+ },
+ {
+  "seg": 719,
+  "start": 2659.094,
+  "end": 2659.535,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, I mean,",
+  "zh": "是的 我的意思是,"
+ },
+ {
+  "seg": 720,
+  "start": 2659.575,
+  "end": 2665,
+  "speaker": "Akshat Bubna",
+  "en": "we're very excited to partner with Anthropic and some of the other foundation labs",
+  "zh": "我们非常兴奋能与 Anthropic 以及其他一些我们也在合作的基础实验室合作"
+ },
+ {
+  "seg": 721,
+  "start": 2666.382,
+  "end": 2668.124,
+  "speaker": "Akshat Bubna",
+  "en": "who we're also working with.",
+  "zh": "我们也在与他们合作。"
+ },
+ {
+  "seg": 722,
+  "start": 2668.945,
+  "end": 2673.129,
+  "speaker": "Akshat Bubna",
+  "en": "The way we see it is the managed agent thing is a great place to start",
+  "zh": "我们对此的看法是 托管智能体的东西是一个很好的起点"
+ },
+ {
+  "seg": 723,
+  "start": 2673.229,
+  "end": 2675.912,
+  "speaker": "Akshat Bubna",
+  "en": "if you're starting out building an agent.",
+  "zh": "如果你开始构建一个智能体。"
+ },
+ {
+  "seg": 724,
+  "start": 2676.573,
+  "end": 2678.073,
+  "speaker": "Akshat Bubna",
+  "en": "But then when you get to...",
+  "zh": "但然后当你开始..."
+ },
+ {
+  "seg": 725,
+  "start": 2679.448,
+  "end": 2684.936,
+  "speaker": "Akshat Bubna",
+  "en": "building something more production grade like your company that's like ramp that's",
+  "zh": "构建更生产级的东西时 比如你的公司 就像 ramp"
+ },
+ {
+  "seg": 726,
+  "start": 2685.157,
+  "end": 2688.942,
+  "speaker": "Akshat Bubna",
+  "en": "building their own ramp also runs their accounting agent on us",
+  "zh": "构建他们自己的 ramp 也在我们这里运行他们的会计智能体"
+ },
+ {
+  "seg": 727,
+  "start": 2688.962,
+  "end": 2691.756,
+  "speaker": "Akshat Bubna",
+  "en": "so their external facing agent you need a lot more control",
+  "zh": "所以他们面向外部的智能体 你需要对"
+ },
+ {
+  "seg": 728,
+  "start": 2691.806,
+  "end": 2694.21,
+  "speaker": "Akshat Bubna",
+  "en": "over your compute primitive on",
+  "zh": "你的计算原语有更多的控制 关于"
+ },
+ {
+  "seg": 729,
+  "start": 2694.93,
+  "end": 2698.653,
+  "speaker": "Akshat Bubna",
+  "en": "things like what sort of how do you persist different files that",
+  "zh": "诸如如何持久化不同的文件"
+ },
+ {
+  "seg": 730,
+  "start": 2698.773,
+  "end": 2702.735,
+  "speaker": "Akshat Bubna",
+  "en": "the agent has access to and how do you snapshot and restore how do you control",
+  "zh": "智能体可以访问的 以及你如何快照和恢复 如何控制"
+ },
+ {
+  "seg": 731,
+  "start": 2702.755,
+  "end": 2707.819,
+  "speaker": "Akshat Bubna",
+  "en": "the networking maybe on gpus when you get to that point you kind of want",
+  "zh": "网络 也许在 gpu 上 当你到了那一步你有点想要"
+ },
+ {
+  "seg": 732,
+  "start": 2708.339,
+  "end": 2714.083,
+  "speaker": "Akshat Bubna",
+  "en": "a specialized sandbox provider that gives you those things and that's the role",
+  "zh": "一个专门的沙箱提供商 为你提供那些东西 而那就是角色"
+ },
+ {
+  "seg": 733,
+  "start": 2714.123,
+  "end": 2717.845,
+  "speaker": "Akshat Bubna",
+  "en": "that we are trying to play yeah we don't really have an opinion on the harness",
+  "zh": "我们正在努力扮演的 是的 我们对框架真的没有什么意见"
+ },
+ {
+  "seg": 734,
+  "start": 2717.885,
+  "end": 2720.967,
+  "speaker": "Akshat Bubna",
+  "en": "whether it runs in it's a cloud managed agent and you hook it up",
+  "zh": "它是否在其中运行 它是一个云托管的智能体 然后你把它连接"
+ },
+ {
+  "seg": 735,
+  "start": 2721.007,
+  "end": 2724.0625555555557,
+  "speaker": "Akshat Bubna",
+  "en": "to modal sandbox we run the harness in modal sandbox um",
+  "zh": "到 modal 沙箱 我们在 modal 沙箱中运行框架 嗯"
+ },
+ {
+  "seg": 736,
+  "start": 2724.309,
+  "end": 2726.1209999999996,
+  "speaker": "Akshat Bubna",
+  "en": "We'll see where people converge with that.",
+  "zh": "我们会看看人们在哪里收敛于这个。"
+ },
+ {
+  "seg": 737,
+  "start": 2726.171,
+  "end": 2726.821,
+  "speaker": "swyx",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 738,
+  "start": 2726.871,
+  "end": 2729.759888888889,
+  "speaker": "swyx",
+  "en": "Do you have any opinions on like the meta harnesses?",
+  "zh": "你对元框架有什么意见吗?"
+ },
+ {
+  "seg": 739,
+  "start": 2729.873,
+  "end": 2731.785,
+  "speaker": "swyx",
+  "en": "It's just another layer on top of these things.",
+  "zh": "它只是这些事物之上的另一层。"
+ },
+ {
+  "seg": 740,
+  "start": 2731.835,
+  "end": 2733.2238888888887,
+  "speaker": "swyx",
+  "en": "You mean like the OpenPi?",
+  "zh": "你是说像 OpenPi?"
+ },
+ {
+  "seg": 741,
+  "start": 2733.296,
+  "end": 2734.296,
+  "speaker": "swyx",
+  "en": "OpenPi is one.",
+  "zh": "OpenPi 是一个。"
+ },
+ {
+  "seg": 742,
+  "start": 2734.957,
+  "end": 2738.2889999999998,
+  "speaker": "swyx",
+  "en": "I think Vercel had one which I can't remember the name of right now.",
+  "zh": "我认为 Vercel 有一个 我现在记不起名字了。"
+ },
+ {
+  "seg": 743,
+  "start": 2738.339,
+  "end": 2739.4501111111113,
+  "speaker": "swyx",
+  "en": "Fred Schott had one.",
+  "zh": "Fred Schott 有一个。"
+ },
+ {
+  "seg": 744,
+  "start": 2739.92,
+  "end": 2744.384,
+  "speaker": "swyx",
+  "en": "And then to me most recently was Databricks that had Omnigine.",
+  "zh": "然后对我来说最近的是 Databricks 有 Omnigine。"
+ },
+ {
+  "seg": 745,
+  "start": 2744.704,
+  "end": 2746.395,
+  "speaker": "swyx",
+  "en": "All these are sort of meta harness.",
+  "zh": "所有这些都是某种元框架。"
+ },
+ {
+  "seg": 746,
+  "start": 2746.445,
+  "end": 2749.287,
+  "speaker": "swyx",
+  "en": "Like it's kind of pseudo agent cloud type things.",
+  "zh": "就像它有点像是伪智能体云之类的东西。"
+ },
+ {
+  "seg": 747,
+  "start": 2750.168,
+  "end": 2750.8179999999998,
+  "speaker": "swyx",
+  "en": "I...",
+  "zh": "我..."
+ },
+ {
+  "seg": 748,
+  "start": 2750.868,
+  "end": 2754.51,
+  "speaker": "swyx",
+  "en": "I personally have not played around with them.",
+  "zh": "我个人还没有玩过它们。"
+ },
+ {
+  "seg": 749,
+  "start": 2754.55,
+  "end": 2757.1409999999996,
+  "speaker": "swyx",
+  "en": "Everything is bullish modal as long as it consumes more infra.",
+  "zh": "一切都对 modal 看好 只要它消耗更多基础设施。"
+ },
+ {
+  "seg": 750,
+  "start": 2757.191,
+  "end": 2758.7619999999997,
+  "speaker": "Akshat Bubna",
+  "en": "That's why we're focusing on the infra layer.",
+  "zh": "这就是为什么我们专注于基础设施层。"
+ },
+ {
+  "seg": 751,
+  "start": 2758.812,
+  "end": 2765.812,
+  "speaker": "Akshat Bubna",
+  "en": "It's somewhere where our relative competence is and also it's a hard problem solving.",
+  "zh": "这是我们的相对能力所在,同时它也是一个困难的难题解决。"
+ },
+ {
+  "seg": 752,
+  "start": 2767.376,
+  "end": 2769.377,
+  "speaker": "swyx",
+  "en": "I will say just generally reflecting on that,",
+  "zh": "我会说,只是总体上对此进行反思,"
+ },
+ {
+  "seg": 753,
+  "start": 2769.417,
+  "end": 2771.678,
+  "speaker": "swyx",
+  "en": "I don't know if there's other topics of modal,",
+  "zh": "我不知道是否还有关于 modal 的其他话题,"
+ },
+ {
+  "seg": 754,
+  "start": 2771.698,
+  "end": 2775.74,
+  "speaker": "swyx",
+  "en": "but just generally reflecting as an infra person",
+  "zh": "但只是作为一个基础设施人员进行总体反思"
+ },
+ {
+  "seg": 755,
+  "start": 2776.741,
+  "end": 2781.785,
+  "speaker": "swyx",
+  "en": "not as intense as you but in that field this is like been the most exciting time",
+  "zh": "不如你那么深入但在那个领域这是最激动人心的时期"
+ },
+ {
+  "seg": 756,
+  "start": 2781.805,
+  "end": 2785.407,
+  "speaker": "swyx",
+  "en": "in infra like it was boring actually for for for a while",
+  "zh": "在基础设施领域,就像实际上它有一阵子是很无聊的"
+ },
+ {
+  "seg": 757,
+  "start": 2786.188,
+  "end": 2788.309,
+  "speaker": "swyx",
+  "en": "and you couldn't really get people excited",
+  "zh": "而且你确实无法让人们感到兴奋"
+ },
+ {
+  "seg": 758,
+  "start": 2788.349,
+  "end": 2793.673,
+  "speaker": "swyx",
+  "en": "about data infrastructure like eric would get on data council everyone just watched",
+  "zh": "关于数据基础设施,就像 eric 会参加 data council,每个人都只是观看"
+ },
+ {
+  "seg": 759,
+  "start": 2793.693,
+  "end": 2797.085,
+  "speaker": "swyx",
+  "en": "the video and like it's like look at how many sandboxes i can spin up",
+  "zh": "视频然后就好像,看我能启动多少个沙箱"
+ },
+ {
+  "seg": 760,
+  "start": 2797.135,
+  "end": 2801.578,
+  "speaker": "swyx",
+  "en": "and no one gave a crap yeah and like now everyone gives a crap",
+  "zh": "而没有一个人在乎,是的,而现在每个人都在乎了"
+ },
+ {
+  "seg": 761,
+  "start": 2802.68,
+  "end": 2803.3709999999996,
+  "speaker": "Akshat Bubna",
+  "en": "That's true.",
+  "zh": "确实如此。"
+ },
+ {
+  "seg": 762,
+  "start": 2803.421,
+  "end": 2805.002,
+  "speaker": "Akshat Bubna",
+  "en": "It is a very exciting time.",
+  "zh": "这是一个非常激动人心的时期。"
+ },
+ {
+  "seg": 763,
+  "start": 2805.302,
+  "end": 2810.445,
+  "speaker": "Akshat Bubna",
+  "en": "And I think a lot of that's driven by just the amount of scale all of this stuff needs.",
+  "zh": "我认为这在很大程度上是由所有这些东西所需的庞大规模所驱动的。"
+ },
+ {
+  "seg": 764,
+  "start": 2810.865,
+  "end": 2812.6569999999997,
+  "speaker": "swyx",
+  "en": "I think a lot of your initiatives,",
+  "zh": "我认为你们的很多举措,"
+ },
+ {
+  "seg": 765,
+  "start": 2812.707,
+  "end": 2816.709,
+  "speaker": "swyx",
+  "en": "a lot of your product directions make sense in retrospect,",
+  "zh": "你们的很多产品方向事后看来都很有道理,"
+ },
+ {
+  "seg": 766,
+  "start": 2816.729,
+  "end": 2818.04,
+  "speaker": "swyx",
+  "en": "which is like the best kind.",
+  "zh": "而这是最好的那种。"
+ },
+ {
+  "seg": 767,
+  "start": 2818.09,
+  "end": 2821.112,
+  "speaker": "swyx",
+  "en": "But I wouldn't necessarily have thought about it myself.",
+  "zh": "但我自己未必会想到这一点。"
+ },
+ {
+  "seg": 768,
+  "start": 2821.132,
+  "end": 2822.143,
+  "speaker": "Vibhu",
+  "en": "We need the predictions.",
+  "zh": "我们需要预测。"
+ },
+ {
+  "seg": 769,
+  "start": 2822.193,
+  "end": 2825.115,
+  "speaker": "Vibhu",
+  "en": "I mean, I think there's a lot that you just don't even see, right?",
+  "zh": "我的意思是,我认为有很多你们甚至看不到的东西,对吧?"
+ },
+ {
+  "seg": 770,
+  "start": 2825.135,
+  "end": 2828.527,
+  "speaker": "Vibhu",
+  "en": "Like you have the batch, you have the voice, you have the multimodal.",
+  "zh": "比如有批处理,有语音,有多模态。"
+ },
+ {
+  "seg": 771,
+  "start": 2828.577,
+  "end": 2829.9103333333337,
+  "speaker": "Vibhu",
+  "en": "But what else, you know?",
+  "zh": "但还有什么,你知道的?"
+ },
+ {
+  "seg": 772,
+  "start": 2830.175,
+  "end": 2831.397,
+  "speaker": "Akshat Bubna",
+  "en": "What else is coming up for us?",
+  "zh": "还有什么即将来到我们面前?"
+ },
+ {
+  "seg": 773,
+  "start": 2831.417,
+  "end": 2833.0836666666664,
+  "speaker": "Vibhu",
+  "en": "Where do you see things going?",
+  "zh": "你认为事情会走向何方?"
+ },
+ {
+  "seg": 774,
+  "start": 2833.319,
+  "end": 2839.705,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, I mean in general it's clear that there's obviously a huge shift happening.",
+  "zh": "是的,我的意思是,总的来说,很明显正在发生巨大的转变。"
+ },
+ {
+  "seg": 775,
+  "start": 2839.765,
+  "end": 2841.3205555555555,
+  "speaker": "Akshat Bubna",
+  "en": "I think one thing that's not",
+  "zh": "我认为有一件事对人们来说没那么"
+ },
+ {
+  "seg": 776,
+  "start": 2841.906,
+  "end": 2845.829,
+  "speaker": "Akshat Bubna",
+  "en": "as obvious to people because LLM inference gets talked about so much",
+  "zh": "明显,因为 LLM 推理被讨论得太多了"
+ },
+ {
+  "seg": 777,
+  "start": 2845.91,
+  "end": 2852.255,
+  "speaker": "Akshat Bubna",
+  "en": "and is also we work a lot of companies that are doing things like drug discovery",
+  "zh": "而且我们也与许多从事药物发现这类工作的公司合作"
+ },
+ {
+  "seg": 778,
+  "start": 2852.355,
+  "end": 2856.458,
+  "speaker": "Akshat Bubna",
+  "en": "and computational bio like the child discoveries world big things are probably going",
+  "zh": "和计算生物学,就像儿童发现世界,大事情可能将会"
+ },
+ {
+  "seg": 779,
+  "start": 2856.478,
+  "end": 2861.0919999999996,
+  "speaker": "Akshat Bubna",
+  "en": "to happen there we work a lot of robotics companies that are actually putting robots",
+  "zh": "在那里发生,我们与许多机器人公司合作,他们实际上正在将机器人投入"
+ },
+ {
+  "seg": 780,
+  "start": 2861.142,
+  "end": 2862.884,
+  "speaker": "Akshat Bubna",
+  "en": "in like active deployments and",
+  "zh": "到实际的部署中,并且"
+ },
+ {
+  "seg": 781,
+  "start": 2863.544,
+  "end": 2865.2749999999996,
+  "speaker": "Akshat Bubna",
+  "en": "getting good results out of them.",
+  "zh": "从中获得良好的结果。"
+ },
+ {
+  "seg": 782,
+  "start": 2865.325,
+  "end": 2866.6027777777776,
+  "speaker": "swyx",
+  "en": "Is there air gap model?",
+  "zh": "有空气隔离模型吗?"
+ },
+ {
+  "seg": 783,
+  "start": 2866.946,
+  "end": 2870.0589999999997,
+  "speaker": "swyx",
+  "en": "Is there a version that is like on-prem air-gapped whatever?",
+  "zh": "有一个像本地部署的空气隔离之类的版本吗?"
+ },
+ {
+  "seg": 784,
+  "start": 2870.109,
+  "end": 2870.759,
+  "speaker": "swyx",
+  "en": "No.",
+  "zh": "没有。"
+ },
+ {
+  "seg": 785,
+  "start": 2870.809,
+  "end": 2871.81,
+  "speaker": "swyx",
+  "en": "Is it cloud only?",
+  "zh": "它是仅限云端的吗?"
+ },
+ {
+  "seg": 786,
+  "start": 2871.83,
+  "end": 2872.66,
+  "speaker": "swyx",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 787,
+  "start": 2872.71,
+  "end": 2873.331,
+  "speaker": "swyx",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 788,
+  "start": 2873.351,
+  "end": 2876.7954444444445,
+  "speaker": "swyx",
+  "en": "But yeah, I mean, so what you're saying is like because you're",
+  "zh": "但是是的,我的意思是,所以你说的就像是,因为你"
+ },
+ {
+  "seg": 789,
+  "start": 2877.227,
+  "end": 2880.649,
+  "speaker": "swyx",
+  "en": "focus on primitives and they're good primitives you find use cases",
+  "zh": "专注于原语,而它们是好的原语,你找到了用例"
+ },
+ {
+  "seg": 790,
+  "start": 2880.669,
+  "end": 2883.69,
+  "speaker": "swyx",
+  "en": "and all these kinds of things actually probably diversifies you a little bit away",
+  "zh": "而所有这些种类的事情实际上可能让你在某种程度上有所多元化,远离"
+ },
+ {
+  "seg": 791,
+  "start": 2883.73,
+  "end": 2888.893,
+  "speaker": "Akshat Bubna",
+  "en": "from lms all the time yeah absolutely our goal isn't to only serve the lm",
+  "zh": "一直以来的 LLM,是的,绝对,我们的目标不是只服务于 LM"
+ },
+ {
+  "seg": 792,
+  "start": 2888.933,
+  "end": 2893.855,
+  "speaker": "Akshat Bubna",
+  "en": "and fisk market uh just on the website the audio the yeah we've had bolts on",
+  "zh": "和 fisk 市场,呃,就在网站上,音频,那个,是的,我们在播客上有过 bolts"
+ },
+ {
+  "seg": 793,
+  "start": 2893.875,
+  "end": 2896.197,
+  "speaker": "Vibhu",
+  "en": "the podcast yeah i mean there's",
+  "zh": "的节目,是的,我的意思是"
+ },
+ {
+  "seg": 794,
+  "start": 2896.217,
+  "end": 2902.62,
+  "speaker": "Vibhu",
+  "en": "a lot here there's qtts customizing oh chatterbox um you know there was",
+  "zh": "这里有很多东西,有 qtts,自定义,哦 chatterbox,嗯,你知道,曾经有过"
+ },
+ {
+  "seg": 795,
+  "start": 2902.68,
+  "end": 2904.461,
+  "speaker": "swyx",
+  "en": "a customizing whisper yeah yeah",
+  "zh": "自定义 whisper,是的,是的"
+ },
+ {
+  "seg": 796,
+  "start": 2905.121,
+  "end": 2910.363,
+  "speaker": "swyx",
+  "en": "This screen reminds me of a fallen competitor which Replicate.",
+  "zh": "这个屏幕让我想起了一个倒下的竞争对手,也就是 Replicate。"
+ },
+ {
+  "seg": 797,
+  "start": 2911.583,
+  "end": 2914.124,
+  "speaker": "swyx",
+  "en": "What's your postmortem on what happened?",
+  "zh": "你对发生的事情的复盘分析是什么?"
+ },
+ {
+  "seg": 798,
+  "start": 2914.764,
+  "end": 2919.806,
+  "speaker": "Akshat Bubna",
+  "en": "This is one thing we've kind of stayed away from is providing an API for models",
+  "zh": "这是我们一直有所回避的一件事,就是为模型提供 API"
+ },
+ {
+  "seg": 799,
+  "start": 2920.446,
+  "end": 2927.028,
+  "speaker": "Akshat Bubna",
+  "en": "because I think providing model APIs is some of it ends up serving like",
+  "zh": "因为我认为提供模型 API,其中一些最终服务的就像"
+ },
+ {
+  "seg": 800,
+  "start": 2927.088,
+  "end": 2931.55,
+  "speaker": "Akshat Bubna",
+  "en": "a really hobbyist market which is much less sticky and we've always wanted to build",
+  "zh": "一个非常业余的市场,粘性低得多,而我们一直想为那些正在"
+ },
+ {
+  "seg": 801,
+  "start": 2931.57,
+  "end": 2932.7922222222223,
+  "speaker": "Akshat Bubna",
+  "en": "for companies that are",
+  "zh": "构建产品并且"
+ },
+ {
+  "seg": 802,
+  "start": 2933.19,
+  "end": 2937.055,
+  "speaker": "Akshat Bubna",
+  "en": "building products and need more flexibility that's not just an API.",
+  "zh": "需要更多灵活性的公司构建,而不仅仅是一个 API。"
+ },
+ {
+  "seg": 803,
+  "start": 2937.495,
+  "end": 2941.3838888888886,
+  "speaker": "swyx",
+  "en": "Which you can build an API for a model and this is clearly what it is.",
+  "zh": "你可以为模型构建一个 API,这显然就是它的本质。"
+ },
+ {
+  "seg": 804,
+  "start": 2941.62,
+  "end": 2946.606,
+  "speaker": "swyx",
+  "en": "But you're saying you can wrap it into a more fully functioning backend that you run.",
+  "zh": "但你是说你可以把它包装成一个你运行的、功能更完善的后端。"
+ },
+ {
+  "seg": 805,
+  "start": 2946.866,
+  "end": 2948.598,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, so actually all of our examples,",
+  "zh": "是的,所以实际上我们所有的示例,"
+ },
+ {
+  "seg": 806,
+  "start": 2948.648,
+  "end": 2951.631,
+  "speaker": "Akshat Bubna",
+  "en": "it's not that spin up this model, here's an API token, use it.",
+  "zh": "并不是说启动这个模型,这是一个 API token,使用它。"
+ },
+ {
+  "seg": 807,
+  "start": 2951.672,
+  "end": 2953.1164444444444,
+  "speaker": "Akshat Bubna",
+  "en": "They're actually all code.",
+  "zh": "它们实际上全都是代码。"
+ },
+ {
+  "seg": 808,
+  "start": 2953.334,
+  "end": 2957.74,
+  "speaker": "Akshat Bubna",
+  "en": "and so the point is that this is an example starter code yeah",
+  "zh": "所以关键是这是一个示例启动代码,是的"
+ },
+ {
+  "seg": 809,
+  "start": 2957.84,
+  "end": 2962.968,
+  "speaker": "Akshat Bubna",
+  "en": "but you can you can tweak it however you want and if you're like a company building",
+  "zh": "但你可以随心所欲地调整它,如果你像一家正在构建"
+ },
+ {
+  "seg": 810,
+  "start": 2963.008,
+  "end": 2967.354,
+  "speaker": "swyx",
+  "en": "a product like a computational bio whatnot yeah i guess i'm trying to tease out",
+  "zh": "产品的公司,比如计算生物之类的,是的,我想我想为听众梳理出"
+ },
+ {
+  "seg": 811,
+  "start": 2967.394,
+  "end": 2968.394,
+  "speaker": "swyx",
+  "en": "for listeners",
+  "zh": "对听众来说"
+ },
+ {
+  "seg": 812,
+  "start": 2968.555,
+  "end": 2973.217,
+  "speaker": "swyx",
+  "en": "when does it stop becoming oh you're just an API call and you're just a wrapper on",
+  "zh": "它什么时候不再仅仅是一个 API 调用,而你只是一个 API 上的"
+ },
+ {
+  "seg": 813,
+  "start": 2973.237,
+  "end": 2975.6258888888888,
+  "speaker": "swyx",
+  "en": "an API to becoming what you call a product.",
+  "zh": "包装器,而变成你所说的产品。"
+ },
+ {
+  "seg": 814,
+  "start": 2976.217,
+  "end": 2977.618,
+  "speaker": "swyx",
+  "en": "What is that layer?",
+  "zh": "那一层是什么?"
+ },
+ {
+  "seg": 815,
+  "start": 2979.038,
+  "end": 2983.599,
+  "speaker": "swyx",
+  "en": "Obviously more lines of code but beyond that what is the substance that people add",
+  "zh": "显然是更多行代码,但除此之外,人们添加的实质内容是什么"
+ },
+ {
+  "seg": 816,
+  "start": 2983.9,
+  "end": 2986.0666666666666,
+  "speaker": "swyx",
+  "en": "that qualifies it to be something more?",
+  "zh": "使其有资格成为更高级的东西?"
+ },
+ {
+  "seg": 817,
+  "start": 2986.38,
+  "end": 2991.202,
+  "speaker": "Akshat Bubna",
+  "en": "I think there's a little bit of selection effect of a lot of companies who do want",
+  "zh": "我认为有一点选择效应,很多确实想要"
+ },
+ {
+  "seg": 818,
+  "start": 2991.262,
+  "end": 2992.582,
+  "speaker": "Akshat Bubna",
+  "en": "to get deeper into",
+  "zh": "深入到"
+ },
+ {
+  "seg": 819,
+  "start": 2992.602,
+  "end": 2996.37,
+  "speaker": "Akshat Bubna",
+  "en": "that level are probably building something that's more differentiated.",
+  "zh": "那个层次的公司,可能正在构建更具差异化的东西。"
+ },
+ {
+  "seg": 820,
+  "start": 2996.42,
+  "end": 3003.42,
+  "speaker": "Akshat Bubna",
+  "en": "And I think an example is like we with LM inference originally we worked",
+  "zh": "我认为一个例子是,比如我们最初做 LLM 推理时,我们与"
+ },
+ {
+  "seg": 821,
+  "start": 3003.827,
+  "end": 3007.52,
+  "speaker": "Akshat Bubna",
+  "en": "with companies that were building their own post training frameworks",
+  "zh": "正在构建自己后训练框架的公司合作,"
+ },
+ {
+  "seg": 822,
+  "start": 3007.57,
+  "end": 3012.494,
+  "speaker": "Akshat Bubna",
+  "en": "or they were ramp actually early in the day was training their own tokenizer",
+  "zh": "或者实际上 ramp 在早期是在训练他们自己的 tokenizer"
+ },
+ {
+  "seg": 823,
+  "start": 3012.574,
+  "end": 3015.7406666666666,
+  "speaker": "Akshat Bubna",
+  "en": "and like swapping out the tokenizer in llama and whatnot.",
+  "zh": "并在 llama 中替换 tokenizer 等等。"
+ },
+ {
+  "seg": 824,
+  "start": 3015.977,
+  "end": 3019.46,
+  "speaker": "Akshat Bubna",
+  "en": "I'm not saying that's successful in that case.",
+  "zh": "我并不是说在那种情况下是成功的。"
+ },
+ {
+  "seg": 825,
+  "start": 3020.14,
+  "end": 3026.124,
+  "speaker": "Akshat Bubna",
+  "en": "A better example is like let's say Suno because Suno does not use modal for training",
+  "zh": "一个更好的例子是比如 Suno,因为 Suno 不使用 modal 进行训练"
+ },
+ {
+  "seg": 826,
+  "start": 3027.365,
+  "end": 3030.6369999999997,
+  "speaker": "Akshat Bubna",
+  "en": "but they use modal for all their inference and that's because they have",
+  "zh": "但他们使用 modal 进行所有的推理,那是因为他们有"
+ },
+ {
+  "seg": 827,
+  "start": 3030.687,
+  "end": 3036.37,
+  "speaker": "Akshat Bubna",
+  "en": "a completely custom model architecture and that means that they have to be at",
+  "zh": "一个完全自定义的模型架构,这意味着他们必须在"
+ },
+ {
+  "seg": 828,
+  "start": 3036.39,
+  "end": 3039.172,
+  "speaker": "Akshat Bubna",
+  "en": "the code level and tweak things that are not",
+  "zh": "代码层面并且调整那些不是"
+ },
+ {
+  "seg": 829,
+  "start": 3041.373,
+  "end": 3047.096,
+  "speaker": "swyx",
+  "en": "It's interesting as well we had Ethan most recently on the XAI Grok team make",
+  "zh": "这也很有趣,我们最近让 Ethan 在 xAI Grok 团队做了一个"
+ },
+ {
+  "seg": 830,
+  "start": 3047.156,
+  "end": 3050.978,
+  "speaker": "swyx",
+  "en": "a prediction that actually the next tier in video gen is not",
+  "zh": "预测,实际上视频生成的下一层不是"
+ },
+ {
+  "seg": 831,
+  "start": 3051.058,
+  "end": 3054.8,
+  "speaker": "swyx",
+  "en": "a better video model it's a better model or agent",
+  "zh": "一个更好的视频模型,它是一个更好的模型或智能体"
+ },
+ {
+  "seg": 832,
+  "start": 3054.92,
+  "end": 3059.182,
+  "speaker": "Vibhu",
+  "en": "that orchestrates video models Language model backboard that can use tools",
+  "zh": "来编排视频模型,可以使用工具的语言模型骨干"
+ },
+ {
+  "seg": 833,
+  "start": 3059.302,
+  "end": 3064.105,
+  "speaker": "swyx",
+  "en": "and write Yes I can make my 6 second video or my 10 second video from Grok",
+  "zh": "并编写,是的,我可以用 Grok 制作我的 6 秒视频或我的 10 秒视频"
+ },
+ {
+  "seg": 834,
+  "start": 3064.225,
+  "end": 3067.2569999999996,
+  "speaker": "swyx",
+  "en": "but actually I want my 6 minute video and I'm not going there",
+  "zh": "但实际上我想要我的 6 分钟视频,而我不是"
+ },
+ {
+  "seg": 835,
+  "start": 3067.307,
+  "end": 3069.208,
+  "speaker": "swyx",
+  "en": "through normal video gen",
+  "zh": "通过正常的视频生成"
+ },
+ {
+  "seg": 836,
+  "start": 3070,
+  "end": 3076.369,
+  "speaker": "Akshat Bubna",
+  "en": "yeah that's interesting i actually so we have gpu sandboxes and recently have seen",
+  "zh": "到那里的,是的,这很有趣,实际上所以我们有 GPU 沙箱,最近看到"
+ },
+ {
+  "seg": 837,
+  "start": 3076.409,
+  "end": 3081.175,
+  "speaker": "Akshat Bubna",
+  "en": "a few companies doing sort of agents that do video manipulation",
+  "zh": "一些公司在做做视频处理的智能体"
+ },
+ {
+  "seg": 838,
+  "start": 3081.275,
+  "end": 3085.552777777778,
+  "speaker": "swyx",
+  "en": "or yeah give it ffmpeg run ffmpeg that's not enough you need to give it adobe",
+  "zh": "或者,是的,给它 ffmpeg,运行 ffmpeg,那还不够,你需要给它 adobe"
+ },
+ {
+  "seg": 839,
+  "start": 3087.466,
+  "end": 3090.67,
+  "speaker": "Akshat Bubna",
+  "en": "yeah i hadn't put it together but like it would actually be",
+  "zh": "是的,我没有把它们联系起来,但它实际上会是"
+ },
+ {
+  "seg": 840,
+  "start": 3090.71,
+  "end": 3095.3211111111113,
+  "speaker": "Akshat Bubna",
+  "en": "a video production thing uh in my mind these things were going more towards editing",
+  "zh": "一个视频制作的东西,呃,在我的脑海中,这些东西更多地走向编辑"
+ },
+ {
+  "seg": 841,
+  "start": 3095.376,
+  "end": 3099.261,
+  "speaker": "Akshat Bubna",
+  "en": "and yeah yeah i think about this a lot obviously",
+  "zh": "和,是的,是的,我显然经常思考这个问题"
+ },
+ {
+  "seg": 842,
+  "start": 3101.384,
+  "end": 3103.807,
+  "speaker": "Vibhu",
+  "en": "um luma luma agent is a version",
+  "zh": "嗯,luma luma 智能体是一个版本"
+ },
+ {
+  "seg": 843,
+  "start": 3103.847,
+  "end": 3106.745,
+  "speaker": "Vibhu",
+  "en": "of this for video production but you know it's a one-off",
+  "zh": "用于视频制作的这个东西,但你知道它是一次性的"
+ },
+ {
+  "seg": 844,
+  "start": 3106.795,
+  "end": 3110.7479999999996,
+  "speaker": "swyx",
+  "en": "I was going to get your quick takes on some other stuff that happens in recent news",
+  "zh": "我本来想快速听听你对最近新闻中发生的其他一些事情的看法,"
+ },
+ {
+  "seg": 845,
+  "start": 3110.798,
+  "end": 3112.989,
+  "speaker": "swyx",
+  "en": "and see if you have anything interesting.",
+  "zh": "看看你有没有什么有趣的见解。"
+ },
+ {
+  "seg": 846,
+  "start": 3113.039,
+  "end": 3117.562,
+  "speaker": "swyx",
+  "en": "Gitpod, somewhat different market.",
+  "zh": "Gitpod,一个多少有些不同的市场。"
+ },
+ {
+  "seg": 847,
+  "start": 3117.642,
+  "end": 3121.244,
+  "speaker": "swyx",
+  "en": "They're in the CICD market, but actually technically very impressive.",
+  "zh": "他们在 CICD 市场中,但实际上在技术上非常令人印象深刻。"
+ },
+ {
+  "seg": 848,
+  "start": 3121.264,
+  "end": 3123.296,
+  "speaker": "swyx",
+  "en": "I don't know if you've taken a real look at them.",
+  "zh": "我不知道你是否真正研究过他们。"
+ },
+ {
+  "seg": 849,
+  "start": 3123.346,
+  "end": 3129.77,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, people on our team have talked to the Gitpod team and they're technically very strong.",
+  "zh": "是的,我们团队的人与 Gitpod 团队交谈过,他们在技术上非常强。"
+ },
+ {
+  "seg": 850,
+  "start": 3130.937,
+  "end": 3135.24,
+  "speaker": "Akshat Bubna",
+  "en": "I actually am we're very bullish and modal on the CI market as well",
+  "zh": "实际上我们在 modal 对 CI 市场也非常看好"
+ },
+ {
+  "seg": 851,
+  "start": 3135.66,
+  "end": 3140.984,
+  "speaker": "Akshat Bubna",
+  "en": "because there's more agents coding agents they're going to run a lot more CI and",
+  "zh": "因为有更多的智能体，编码智能体，它们会运行多得多的 CI，并且"
+ },
+ {
+  "seg": 852,
+  "start": 3141.664,
+  "end": 3145.857,
+  "speaker": "swyx",
+  "en": "the primitives there can be much better I think there's a lot of wasted CI yeah",
+  "zh": "那里的原语可以好得多，我认为 CI 有很多浪费，是的"
+ },
+ {
+  "seg": 853,
+  "start": 3145.907,
+  "end": 3150.39,
+  "speaker": "swyx",
+  "en": "so is it just like let's filter like what is the highest order bit here",
+  "zh": "那么就像让我们过滤一下，这里的最高阶位是什么"
+ },
+ {
+  "seg": 854,
+  "start": 3150.57,
+  "end": 3155.494,
+  "speaker": "Akshat Bubna",
+  "en": "in improving CI for agents well there's a lot of wasted time in CI on like",
+  "zh": "在为智能体改进 CI 方面，嗯，在 CI 上有很多时间浪费在"
+ },
+ {
+  "seg": 855,
+  "start": 3156.374,
+  "end": 3159.215,
+  "speaker": "Akshat Bubna",
+  "en": "preparing your artifacts and like you know getting you to",
+  "zh": "准备你的构件以及让你"
+ },
+ {
+  "seg": 856,
+  "start": 3159.255,
+  "end": 3164.076,
+  "speaker": "Akshat Bubna",
+  "en": "the basically um preparing your dependencies and whatnot",
+  "zh": "基本上准备你的依赖项等等"
+ },
+ {
+  "seg": 857,
+  "start": 3164.936,
+  "end": 3169.878,
+  "speaker": "Akshat Bubna",
+  "en": "and um obviously like build systems help with that but like if you have primitives",
+  "zh": "而且，显然构建系统对那有帮助，但是如果你有像"
+ },
+ {
+  "seg": 858,
+  "start": 3169.898,
+  "end": 3172.018,
+  "speaker": "Akshat Bubna",
+  "en": "that are like memory snapshot",
+  "zh": "内存快照那样的原语"
+ },
+ {
+  "seg": 859,
+  "start": 3172.038,
+  "end": 3178.26,
+  "speaker": "Akshat Bubna",
+  "en": "and restore can you just run ci more efficiently oh oh okay okay okay interesting",
+  "zh": "和恢复，你能更高效地运行 CI 吗？哦，哦，好的，好的，好的，有意思"
+ },
+ {
+  "seg": 860,
+  "start": 3178.84,
+  "end": 3180.441,
+  "speaker": "swyx",
+  "en": "yes i mean another form",
+  "zh": "是的，我的意思是另一种形式"
+ },
+ {
+  "seg": 861,
+  "start": 3180.501,
+  "end": 3184.462,
+  "speaker": "swyx",
+  "en": "of like you know on-demand compute yeah exactly yeah uh it needs",
+  "zh": "的按需计算，是的，完全正确，是的，它需要"
+ },
+ {
+  "seg": 862,
+  "start": 3184.522,
+  "end": 3185.7997777777778,
+  "speaker": "Akshat Bubna",
+  "en": "the same again platform",
+  "zh": "同样的平台"
+ },
+ {
+  "seg": 863,
+  "start": 3186.209,
+  "end": 3189.172,
+  "speaker": "swyx",
+  "en": "yeah so so uh for those who don't know gitpod rebranded",
+  "zh": "是的，所以，对于那些不知道的人，gitpod 改名了"
+ },
+ {
+  "seg": 864,
+  "start": 3189.192,
+  "end": 3192.596,
+  "speaker": "swyx",
+  "en": "to owner it was like there's this whole thing i i actually i i like sort",
+  "zh": "成 owner，就像，有这么个事，我实际上，我算是"
+ },
+ {
+  "seg": 865,
+  "start": 3192.636,
+  "end": 3194.217,
+  "speaker": "swyx",
+  "en": "of semi-sounded the alarm",
+  "zh": "敲响了警钟"
+ },
+ {
+  "seg": 866,
+  "start": 3194.257,
+  "end": 3196.039,
+  "speaker": "swyx",
+  "en": "and cognition i was like you should take these guys seriously",
+  "zh": "在 cognition 那里，我说你们应该认真对待这些家伙"
+ },
+ {
+  "seg": 867,
+  "start": 3196.059,
+  "end": 3199.7529999999997,
+  "speaker": "swyx",
+  "en": "because they're infrared very good yeah uh and but you know and then",
+  "zh": "因为他们是红外非常厉害，是的，但是你知道，然后"
+ },
+ {
+  "seg": 868,
+  "start": 3199.803,
+  "end": 3204.988,
+  "speaker": "swyx",
+  "en": "then they joined open ai and uh presumably we'll we'll see codex cloud from",
+  "zh": "然后他们加入了 open ai，而且大概我们将从"
+ },
+ {
+  "seg": 869,
+  "start": 3205.028,
+  "end": 3209.250222222222,
+  "speaker": "swyx",
+  "en": "the owner team like which which i think would be very very strong to me like",
+  "zh": "owner 团队看到 codex cloud，就像，我认为那将非常非常强大，对我来说就像"
+ },
+ {
+  "seg": 870,
+  "start": 3210.037,
+  "end": 3214.159,
+  "speaker": "swyx",
+  "en": "teams like that that can set up the networking and like the secure boundaries",
+  "zh": "像那样的团队，能够设置网络和"
+ },
+ {
+  "seg": 871,
+  "start": 3214.199,
+  "end": 3215.98,
+  "speaker": "swyx",
+  "en": "for like in your like agents",
+  "zh": "安全边界，为了你的智能体"
+ },
+ {
+  "seg": 872,
+  "start": 3216,
+  "end": 3221.002,
+  "speaker": "swyx",
+  "en": "to have their own cloud each effectively is what you're doing kind of",
+  "zh": "有效地拥有自己的云，这基本上就是你在做的事，算是"
+ },
+ {
+  "seg": 873,
+  "start": 3221.462,
+  "end": 3223.7129999999997,
+  "speaker": "swyx",
+  "en": "and i'm just trying to draw the analogy or or the differences",
+  "zh": "而我只是在试图画出类比或者说差异"
+ },
+ {
+  "seg": 874,
+  "start": 3223.763,
+  "end": 3225.544,
+  "speaker": "swyx",
+  "en": "if you have studied them like what is",
+  "zh": "如果你研究过他们，就像什么是"
+ },
+ {
+  "seg": 875,
+  "start": 3225.564,
+  "end": 3230.246,
+  "speaker": "swyx",
+  "en": "the philosophical difference you know my sense is maybe they didn't go off to",
+  "zh": "哲学上的差异，你知道，我的感觉是也许他们没有在正确的时间走向"
+ },
+ {
+  "seg": 876,
+  "start": 3230.266,
+  "end": 3234.708,
+  "speaker": "Akshat Bubna",
+  "en": "the right market at the right time because we i guess also got lucky with like",
+  "zh": "正确的市场，因为我们我想也挺幸运的，随着"
+ },
+ {
+  "seg": 877,
+  "start": 3235.497,
+  "end": 3242.497,
+  "speaker": "Akshat Bubna",
+  "en": "It's in to give cases really taking off and dealing more of a sandbox-shaped thing",
+  "zh": "It's in to give cases 真正起飞，并且处理更多的沙箱形状的东西"
+ },
+ {
+  "seg": 878,
+  "start": 3243.002,
+  "end": 3245.564,
+  "speaker": "Akshat Bubna",
+  "en": "than a mind setting.",
+  "zh": "而不是一个心灵设定。"
+ },
+ {
+  "seg": 879,
+  "start": 3246.385,
+  "end": 3247.506,
+  "speaker": "Akshat Bubna",
+  "en": "CRCD is sandboxes.",
+  "zh": "CRCD 是沙箱。"
+ },
+ {
+  "seg": 880,
+  "start": 3247.866,
+  "end": 3253.01,
+  "speaker": "Akshat Bubna",
+  "en": "It's just like build-time sandboxes versus runtime sandboxes,",
+  "zh": "它就像是构建时沙箱对比运行时沙箱，"
+ },
+ {
+  "seg": 881,
+  "start": 3253.05,
+  "end": 3254.961,
+  "speaker": "Akshat Bubna",
+  "en": "and actually it turned out runtime was better.",
+  "zh": "而事实证明运行时更好。"
+ },
+ {
+  "seg": 882,
+  "start": 3255.011,
+  "end": 3255.922,
+  "speaker": "Akshat Bubna",
+  "en": "Right,",
+  "zh": "对，"
+ },
+ {
+  "seg": 883,
+  "start": 3255.972,
+  "end": 3260.085,
+  "speaker": "Akshat Bubna",
+  "en": "and the difference there is runtime sandboxes have a different configuration surface",
+  "zh": "而那里的差异是运行时沙箱有不同的配置表面"
+ },
+ {
+  "seg": 884,
+  "start": 3260.135,
+  "end": 3264.378,
+  "speaker": "Akshat Bubna",
+  "en": "of how you configure images, how you attach storage, and",
+  "zh": "来说明你如何配置镜像，你如何附加存储，并且"
+ },
+ {
+  "seg": 885,
+  "start": 3265.118,
+  "end": 3271.582,
+  "speaker": "swyx",
+  "en": "yeah it's fascinating other people astro also open ai also like python tooling",
+  "zh": "是的，这很迷人，其他人 astro 也 open ai 也像 python 工具"
+ },
+ {
+  "seg": 886,
+  "start": 3271.642,
+  "end": 3275.425,
+  "speaker": "swyx",
+  "en": "ecosystem people are you still sort of bullish building on top",
+  "zh": "生态系统的人，你是否仍然看好在"
+ },
+ {
+  "seg": 887,
+  "start": 3275.445,
+  "end": 3281.408,
+  "speaker": "swyx",
+  "en": "of python also recently modular also i got bought by qualcomm just any any",
+  "zh": "python 之上构建，而且最近 modular 也被 qualcomm 收购了，就是有没有"
+ },
+ {
+  "seg": 888,
+  "start": 3281.448,
+  "end": 3282.5035555555555,
+  "speaker": "swyx",
+  "en": "of your takes there",
+  "zh": "你在那里的任何看法"
+ },
+ {
+  "seg": 889,
+  "start": 3283.09,
+  "end": 3284.09,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, I mean,",
+  "zh": "是的，我的意思是，"
+ },
+ {
+  "seg": 890,
+  "start": 3284.17,
+  "end": 3288.592,
+  "speaker": "Akshat Bubna",
+  "en": "we had Python as our first SDK language because that was the language",
+  "zh": "我们把 Python 作为我们的第一个 SDK 语言，因为那是"
+ },
+ {
+  "seg": 891,
+  "start": 3288.632,
+  "end": 3290.3542222222222,
+  "speaker": "Akshat Bubna",
+  "en": "that people did data and ML in.",
+  "zh": "人们做数据和 ML 的语言。"
+ },
+ {
+  "seg": 892,
+  "start": 3290.492,
+  "end": 3292.9829999999997,
+  "speaker": "Akshat Bubna",
+  "en": "I actually now have go on TypeScript SDKs as well.",
+  "zh": "我现在实际上也有 go 和 TypeScript SDK。"
+ },
+ {
+  "seg": 893,
+  "start": 3293.033,
+  "end": 3295.434,
+  "speaker": "Akshat Bubna",
+  "en": "And our runtime is completely language.",
+  "zh": "而我们的运行时是完全语言。"
+ },
+ {
+  "seg": 894,
+  "start": 3295.494,
+  "end": 3298.771777777778,
+  "speaker": "Akshat Bubna",
+  "en": "It isn't in Rust, but it's not tied to Python by any means.",
+  "zh": "它不是用 Rust 写的，但它绝不受 Python 束缚。"
+ },
+ {
+  "seg": 895,
+  "start": 3298.935,
+  "end": 3303.376,
+  "speaker": "Akshat Bubna",
+  "en": "We haven't seen anything with inference and training stuff.",
+  "zh": "我们还没有在推理和训练的东西上看到任何改变。"
+ },
+ {
+  "seg": 896,
+  "start": 3303.396,
+  "end": 3304.8669999999997,
+  "speaker": "Akshat Bubna",
+  "en": "People are still very Python.",
+  "zh": "人们仍然非常 Python。"
+ },
+ {
+  "seg": 897,
+  "start": 3304.917,
+  "end": 3308.918,
+  "speaker": "Akshat Bubna",
+  "en": "And the interesting thing with the agent stuff is people use their TypeScript SDK",
+  "zh": "而智能体相关的事情中有意思的是，人们使用他们的 TypeScript SDK"
+ },
+ {
+  "seg": 898,
+  "start": 3308.938,
+  "end": 3312.7713333333336,
+  "speaker": "Akshat Bubna",
+  "en": "a lot more because they're not actually doing anything that needs ML.",
+  "zh": "要多得多，因为他们实际上并没有做任何需要 ML 的事情。"
+ },
+ {
+  "seg": 899,
+  "start": 3313.087,
+  "end": 3317.309,
+  "speaker": "Akshat Bubna",
+  "en": "I don't think we'll have to go beyond that super soon because Python",
+  "zh": "我认为我们不必须在极短的时间内超越那一步，因为 Python"
+ },
+ {
+  "seg": 900,
+  "start": 3317.349,
+  "end": 3319.63,
+  "speaker": "Akshat Bubna",
+  "en": "and TypeScript are still dominant.",
+  "zh": "和 TypeScript 仍然是占主导地位的。"
+ },
+ {
+  "seg": 901,
+  "start": 3319.89,
+  "end": 3321.221,
+  "speaker": "swyx",
+  "en": "The last two languages in the world.",
+  "zh": "世界上最后的两种语言。"
+ },
+ {
+  "seg": 902,
+  "start": 3321.271,
+  "end": 3321.821,
+  "speaker": "swyx",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 903,
+  "start": 3321.871,
+  "end": 3322.741,
+  "speaker": "swyx",
+  "en": "That's it.",
+  "zh": "就这些。"
+ },
+ {
+  "seg": 904,
+  "start": 3322.791,
+  "end": 3324.346555555556,
+  "speaker": "swyx",
+  "en": "Well, English and prompting.",
+  "zh": "嗯,英语和提示。"
+ },
+ {
+  "seg": 905,
+  "start": 3324.772,
+  "end": 3325.883,
+  "speaker": "swyx",
+  "en": "English and prompting.",
+  "zh": "英语和提示。"
+ },
+ {
+  "seg": 906,
+  "start": 3325.933,
+  "end": 3328.404,
+  "speaker": "swyx",
+  "en": "I occasionally talk to people who try to build new languages.",
+  "zh": "我偶尔会和那些尝试构建新语言的人交谈。"
+ },
+ {
+  "seg": 907,
+  "start": 3328.454,
+  "end": 3329.754,
+  "speaker": "swyx",
+  "en": "They're like, even,",
+  "zh": "他们就像,甚至,"
+ },
+ {
+  "seg": 908,
+  "start": 3330.515,
+  "end": 3330.9649999999997,
+  "speaker": "swyx",
+  "en": "what's it say,",
+  "zh": "怎么说的来着,"
+ },
+ {
+  "seg": 909,
+  "start": 3331.015,
+  "end": 3335.997,
+  "speaker": "swyx",
+  "en": "Brett Taylor, who's chairman of OpenAI, I was like, we need a new language for LLM.",
+  "zh": "Brett Taylor,他是 OpenAI 的董事长,我就像,我们需要一种为 LLM 准备的新语言。"
+ },
+ {
+  "seg": 910,
+  "start": 3336.017,
+  "end": 3337.918,
+  "speaker": "swyx",
+  "en": "So no one has come across one.",
+  "zh": "所以没有人遇到过一种。"
+ },
+ {
+  "seg": 911,
+  "start": 3337.938,
+  "end": 3338.848,
+  "speaker": "swyx",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 912,
+  "start": 3338.898,
+  "end": 3343.841,
+  "speaker": "swyx",
+  "en": "and i keep looking you know python and typescript are you have a lot of data plus",
+  "zh": "而且我一直在看你知道的 python 和 typescript 是你有很多数据加上"
+ },
+ {
+  "seg": 913,
+  "start": 3344.202,
+  "end": 3348.0353333333337,
+  "speaker": "swyx",
+  "en": "but then also they are very imperfect as just as languages themselves",
+  "zh": "但同时它们作为语言本身也是非常不完美的"
+ },
+ {
+  "seg": 914,
+  "start": 3348.504,
+  "end": 3352.6706666666664,
+  "speaker": "swyx",
+  "en": "then my close is i think modal used to be a big bet on developer experience",
+  "zh": "那么我的结束是我认为 modal 过去是押注于开发者体验的"
+ },
+ {
+  "seg": 915,
+  "start": 3352.787,
+  "end": 3356.009222222222,
+  "speaker": "swyx",
+  "en": "and you've pivoted the team to agent experience is it like",
+  "zh": "而且你已经把团队转向了智能体体验是不是像"
+ },
+ {
+  "seg": 916,
+  "start": 3356.75,
+  "end": 3362.273,
+  "speaker": "swyx",
+  "en": "the way now like do you do can entire companies and unicorns multi-unicorns be built",
+  "zh": "现在的方式像你做能不能整个公司和独角兽多个独角兽被建立起来"
+ },
+ {
+  "seg": 917,
+  "start": 3362.453,
+  "end": 3365.7419999999997,
+  "speaker": "swyx",
+  "en": "on just having better agent experience do you need something else",
+  "zh": "仅仅通过拥有更好的智能体体验你还需要别的东西吗"
+ },
+ {
+  "seg": 918,
+  "start": 3365.792,
+  "end": 3367.6253333333334,
+  "speaker": "Akshat Bubna",
+  "en": "It's a big part of our identity.",
+  "zh": "这是我们身份的一大部分。"
+ },
+ {
+  "seg": 919,
+  "start": 3368.156,
+  "end": 3372.782,
+  "speaker": "Akshat Bubna",
+  "en": "It's not just the very tactical,",
+  "zh": "它不仅仅是那种非常战术性的,"
+ },
+ {
+  "seg": 920,
+  "start": 3373.042,
+  "end": 3377.629,
+  "speaker": "Akshat Bubna",
+  "en": "how does an agent use a CLI, but it's also how easy is it to spin something up.",
+  "zh": "一个智能体如何使用一个 CLI,而且也包括启动一个东西有多容易。"
+ },
+ {
+  "seg": 921,
+  "start": 3377.689,
+  "end": 3380.911222222222,
+  "speaker": "Akshat Bubna",
+  "en": "What is your iteration time when you want to spin up a new",
+  "zh": "当你想启动一个新的时,你的迭代时间是什么"
+ },
+ {
+  "seg": 922,
+  "start": 3381.133,
+  "end": 3386.734,
+  "speaker": "Akshat Bubna",
+  "en": "and you want to get something going in prod in practice that matters a lot to people",
+  "zh": "并且你想在实际生产环境中让某个东西跑起来,这对人们来说很重要"
+ },
+ {
+  "seg": 923,
+  "start": 3387.415,
+  "end": 3391.7059999999997,
+  "speaker": "Akshat Bubna",
+  "en": "and i think it will continue to matter like people are building stuff even faster",
+  "zh": "而且我认为它将继续重要,就像人们正在更快地构建东西"
+ },
+ {
+  "seg": 924,
+  "start": 3391.756,
+  "end": 3397.257,
+  "speaker": "Akshat Bubna",
+  "en": "and if you give them ways to do it quickly and not have overhead then i think",
+  "zh": "如果你给他们快速做到这一点并且没有开销的方法,那么我认为"
+ },
+ {
+  "seg": 925,
+  "start": 3397.297,
+  "end": 3400.087,
+  "speaker": "swyx",
+  "en": "the debate for me has been do you do anything differently",
+  "zh": "对我来说这个辩论一直是你要不要做任何不同的事情"
+ },
+ {
+  "seg": 926,
+  "start": 3400.137,
+  "end": 3402.008,
+  "speaker": "swyx",
+  "en": "that is like very fundamentally different",
+  "zh": "那是非常根本性不同的"
+ },
+ {
+  "seg": 927,
+  "start": 3402.058,
+  "end": 3405.629,
+  "speaker": "swyx",
+  "en": "for developer experience versus agent experience you seem to be on the side",
+  "zh": "对于开发者体验相对于智能体体验你似乎站在这一边"
+ },
+ {
+  "seg": 928,
+  "start": 3405.679,
+  "end": 3406.679,
+  "speaker": "swyx",
+  "en": "of there are the",
+  "zh": "有那些"
+ },
+ {
+  "seg": 929,
+  "start": 3407.16,
+  "end": 3409.924,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, we actually also have a blog post on that.",
+  "zh": "是的,我们实际上也有一篇关于那个的博客文章。"
+ },
+ {
+  "seg": 930,
+  "start": 3410.164,
+  "end": 3412.487,
+  "speaker": "swyx",
+  "en": "Cosine similarity on 0.9 or whatever.",
+  "zh": "余弦相似度为 0.9 或其他什么。"
+ },
+ {
+  "seg": 931,
+  "start": 3413.389,
+  "end": 3413.889,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, I mean,",
+  "zh": "是的,我的意思是,"
+ },
+ {
+  "seg": 932,
+  "start": 3413.93,
+  "end": 3417.134,
+  "speaker": "Akshat Bubna",
+  "en": "pretty much the main shift for us has been,",
+  "zh": "对我们来说几乎主要的转变已经是,"
+ },
+ {
+  "seg": 933,
+  "start": 3417.274,
+  "end": 3421.774,
+  "speaker": "Akshat Bubna",
+  "en": "as I said, we built this benchmark, modal bench, to see where agents are lacking.",
+  "zh": "正如我所说,我们构建了这个基准测试,modal bench,来看看智能体在哪里有所欠缺。"
+ },
+ {
+  "seg": 934,
+  "start": 3422.081,
+  "end": 3427.143,
+  "speaker": "Akshat Bubna",
+  "en": "and actually literally add surface areas to a product if they're reaching",
+  "zh": "并且实际上如果它们伸手去够某个东西,就真正地给一个产品增加表面积"
+ },
+ {
+  "seg": 935,
+  "start": 3427.163,
+  "end": 3430.424,
+  "speaker": "Akshat Bubna",
+  "en": "for something like maybe this should just be a CLI.",
+  "zh": "比如也许这应该就是一个 CLI。"
+ },
+ {
+  "seg": 936,
+  "start": 3430.484,
+  "end": 3431.6949999999997,
+  "speaker": "swyx",
+  "en": "They hallucinate their own features.",
+  "zh": "它们产生幻觉它们自己的特性。"
+ },
+ {
+  "seg": 937,
+  "start": 3431.745,
+  "end": 3434.046,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah and sometimes it makes sense like if they're reaching",
+  "zh": "是的,有时候它是有道理的,就像如果它们伸手去够"
+ },
+ {
+  "seg": 938,
+  "start": 3434.086,
+  "end": 3437.407,
+  "speaker": "Akshat Bubna",
+  "en": "for this thing it's product feedback like give it to them and",
+  "zh": "这个东西,那就是产品反馈,把它给它们,并且"
+ },
+ {
+  "seg": 939,
+  "start": 3437.447,
+  "end": 3441.068,
+  "speaker": "Akshat Bubna",
+  "en": "then yeah actually moving we used to only have like logs and metrics",
+  "zh": "那么是的,实际上移动,我们过去只有像日志和指标"
+ },
+ {
+  "seg": 940,
+  "start": 3441.108,
+  "end": 3445.3999999999996,
+  "speaker": "Akshat Bubna",
+  "en": "in our UI just moving all those things to CLI as well so they're accessible in",
+  "zh": "在我们的 UI 中,也把所有那些东西移到 CLI,这样它们就可以在"
+ },
+ {
+  "seg": 941,
+  "start": 3445.45,
+  "end": 3446.3999999999996,
+  "speaker": "Akshat Bubna",
+  "en": "that form.",
+  "zh": "那种形式中被访问。"
+ },
+ {
+  "seg": 942,
+  "start": 3446.45,
+  "end": 3447.45,
+  "speaker": "swyx",
+  "en": "Simple as that.",
+  "zh": "就这么简单。"
+ },
+ {
+  "seg": 943,
+  "start": 3448.425,
+  "end": 3448.696,
+  "speaker": "swyx",
+  "en": "Cool.",
+  "zh": "酷。"
+ },
+ {
+  "seg": 944,
+  "start": 3448.746,
+  "end": 3449.306,
+  "speaker": "swyx",
+  "en": "Thank you so much.",
+  "zh": "非常感谢你。"
+ },
+ {
+  "seg": 945,
+  "start": 3449.326,
+  "end": 3450.188,
+  "speaker": "Akshat Bubna",
+  "en": "Yeah, thank you.",
+  "zh": "是的,谢谢你。"
+ },
+ {
+  "seg": 946,
+  "start": 3450.208,
+  "end": 3451.83,
+  "speaker": "swyx",
+  "en": "This was a great update.",
+  "zh": "这是一个很棒的更新。"
+ },
+ {
+  "seg": 947,
+  "start": 3452.13,
+  "end": 3454.907777777778,
+  "speaker": "swyx",
+  "en": "And I can see why you guys have succeeded so much.",
+  "zh": "而且我能明白为什么你们成功了这么多。"
+ },
+ {
+  "seg": 948,
+  "start": 3455.756,
+  "end": 3459.02,
+  "speaker": "swyx",
+  "en": "It is really focused, but also really good execution.",
+  "zh": "它是非常专注的,但也是非常出色的执行。"
+ },
+ {
+  "seg": 949,
+  "start": 3459.501,
+  "end": 3459.7509999999997,
+  "speaker": "Akshat Bubna",
+  "en": "Thanks.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 950,
+  "start": 3459.801,
+  "end": 3460.863,
+  "speaker": "Akshat Bubna",
+  "en": "I mean, we have a long way to go.",
+  "zh": "我的意思是,我们还有很长的路要走。"
+ },
+ {
+  "seg": 951,
+  "start": 3460.883,
+  "end": 3461.714,
+  "speaker": "Akshat Bubna",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 952,
+  "start": 3461.764,
+  "end": 3462.764,
+  "speaker": "swyx",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]
