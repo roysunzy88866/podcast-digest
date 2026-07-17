@@ -22,6 +22,23 @@ describe("splitParagraphs · 定位要原地替换的段", () => {
     const out = md.slice(0, ps[1].start) + "第二段改好了。" + md.slice(ps[1].end);
     expect(out).toBe("第一段。\n\n第二段改好了。\n\n第三段。");
   });
+
+  it("★ 同一轮修多段:必须倒序改,否则偏移失效会把正文切烂(GLM 018[1] 判 save)", () => {
+    // 这个 bug 差点被我交出去:集2 只有一段有问题,跑通了就以为对了。
+    const md = "第一段有问题 2024。\n\n第二段也有问题 9999。\n\n第三段没事。";
+    const ps = splitParagraphs(md);
+    const patches = new Map([[0, "第一段修好。"], [1, "第二段修好。"]]);
+
+    // ❌ 正序:改完段0 后 md 变短,段1 的旧偏移失效 → 切烂
+    let bad = md;
+    for (const [i, p] of [...patches].sort((a, b) => a[0] - b[0])) bad = bad.slice(0, ps[i].start) + p + bad.slice(ps[i].end);
+    expect(bad).not.toBe("第一段修好。\n\n第二段修好。\n\n第三段没事。"); // 实测会得到「第二段也有问第二段修好。事。」
+
+    // ✅ 倒序:改后面的段不影响前面段的偏移
+    let good = md;
+    for (const [i, p] of [...patches].sort((a, b) => b[0] - a[0])) good = good.slice(0, ps[i].start) + p + good.slice(ps[i].end);
+    expect(good).toBe("第一段修好。\n\n第二段修好。\n\n第三段没事。");
+  });
 });
 
 describe("locateFailure · 闸门的失败落在哪一段", () => {
@@ -79,9 +96,25 @@ describe("judgePatch · 三条不变量(每条都是本项目栽过的坑)", () 
     expect(v.accept).toBe(true);
   });
 
-  it("空补丁 → 拒收(由不变量②兜住:空必然也缩水)", () => {
-    // 曾单独写过一条「补丁为空」判定,变异验证证实是死代码(空补丁必然先被缩水检查拦下)→ 已删。
-    // 这条测试保留:它钉的是**行为**(空补丁进不去),不是某一行实现。
+  it("空补丁 → 拒收", () => {
     expect(judgePatch({ paraText: para, patch: "   ", targeted: target, afterFailures: [], beforeFailures: target }).accept).toBe(false);
+  });
+
+  it("★ null/非字符串补丁 → 拒收而不是抛异常炸穿(GLM 018[2])", () => {
+    // 我曾按变异验证的结论把这条 guard 当死代码删掉 → GLM 实测 judgePatch({patch:null}) 直接 TypeError。
+    // 教训:「变异验证说它是死代码」只等于「对我测试用的输入是死的」,不等于对所有输入都死。
+    for (const bad of [null, undefined, 123, {}]) {
+      expect(() => judgePatch({ paraText: para, patch: bad as any, targeted: target, afterFailures: [], beforeFailures: target })).not.toThrow();
+      expect(judgePatch({ paraText: para, patch: bad as any, targeted: target, afterFailures: [], beforeFailures: target }).accept).toBe(false);
+    }
+  });
+
+  it("★ 等长垃圾 / 被截断的半句话 → 拒收(GLM 018[3]:长度卡点拦不住这个)", () => {
+    // 真实触发路径不是模型发癫,是 glm-ask 输出被 maxTokens 截断 → 半句话但长度够。
+    // 而闸门对「没有专名也没有数字的乱码」无话可说 → 会静默把正文换成垃圾还报全过。
+    const garbage = "A".repeat(para.length);
+    expect(judgePatch({ paraText: para, patch: garbage, targeted: target, afterFailures: [], beforeFailures: target }).accept).toBe(false);
+    const truncated = "在 Data AI Summit 期间,两位创始人复盘了近期发布,他们提到".repeat(2); // 没有句末标点
+    expect(judgePatch({ paraText: para, patch: truncated, targeted: target, afterFailures: [], beforeFailures: target }).accept).toBe(false);
   });
 });

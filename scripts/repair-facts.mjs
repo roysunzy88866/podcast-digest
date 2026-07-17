@@ -110,9 +110,19 @@ const SYSTEM = `你是中文播客精华的**定点校对员**。给你一段正
  */
 export function judgePatch({ paraText, patch, targeted, afterFailures, beforeFailures, minKeepRatio = MIN_KEEP_RATIO }) {
   const key = (f) => String(f.raw ?? f.name ?? f.reason);
-  // 注:原先这里还有一条「补丁为空 → 拒收」,变异验证证实它是**死代码** ——
-  // 空补丁必然也是缩水补丁,被下面那条先拦下。按「简到极致」去掉,
-  // 不留永远走不到、却让人以为多了一层保护的分支。
+  // ⚠️ 这条 guard 我删过一次、又被打脸加回来 —— 教训比代码值钱:
+  // 变异验证说「补丁为空 → 拒收」是死代码(空串必然也缩水、被下面先拦),我就按「简到极致」删了。
+  // 但 GLM 20260717-018[2] 实测 `judgePatch({patch: null})` → **TypeError 直接炸穿**。
+  // ⇒ **「变异验证说它是死代码」只意味着「对我测试用的那些输入是死的」,不等于对所有输入都死。**
+  // fail-closed:判不了就是不过,不许把异常抛上去。
+  if (typeof patch !== "string" || !patch.trim()) return { accept: false, reason: "补丁为空或非字符串 → 拒收(判不了 = 不过)" };
+
+  // 不变量②b:长度卡点拦不住**等长垃圾**(GLM 018[3] 实测:`'A'.repeat(n)` 长度达标 → 被收下,
+  // 而闸门对「没有专名也没有数字的乱码」无话可说 → 正文被静默换成垃圾还报全过)。
+  // 真实触发路径不是模型发癫,是 **glm-ask 输出被 maxTokens 截断** → 半句话、但长度够。
+  if (!/[。!?」』)】]\s*$/.test(patch)) return { accept: false, reason: "补丁结尾不是完整句(疑被截断)→ 拒收" };
+  if (!/[一-龥]/.test(patch)) return { accept: false, reason: "补丁不含中文 → 拒收(疑乱码/截断)" };
+
   // 不变量②:不许靠删内容过关
   if (patch.length < paraText.length * minKeepRatio)
     return { accept: false, reason: `补丁缩水 ${paraText.length}→${patch.length} 字(<${Math.round(minKeepRatio * 100)}%)→ 拒收(不许靠删内容过关)` };
@@ -136,7 +146,12 @@ export async function repairFacts(dir, { aliasesPath, log = () => {} } = {}) {
   const opts = aliasesPath ? { aliasesPath } : {};
   let md = String(digest.digest_md ?? "");
   const before = gateFacts(dir, opts);
-  if (before.pass) { log("事实层本来就全过,无需修复"); return { changed: false, rounds: 0, fixed: [], remaining: [] }; }
+  // 早退也必须返回**完整**结构:漏了 pass/origLen/finalLen → CLI 打印 "undefined → undefined"
+  // 且 `if (!r.pass)` 判成失败 → **「本来就全过」被报成 exit 1**。自测时当场撞上。
+  if (before.pass) {
+    log("事实层本来就全过,无需修复");
+    return { changed: false, fixed: [], remaining: [], pass: true, origLen: md.length, finalLen: md.length };
+  }
 
   log(`事实层 ${before.failures.length} 条未过 → 定点重写(整篇不动,只改命中的段)`);
 
@@ -162,7 +177,15 @@ export async function repairFacts(dir, { aliasesPath, log = () => {} } = {}) {
     if (!byPara.size) { log(`⚠️ ${r.failures.length} 条失败定位不到具体段落 → 交人处理,不硬猜`); break; }
 
     let anyPatched = false;
-    for (const [idx, fs] of byPara) {
+    // ⚠️ **必须按段号从大到小改**(GLM 20260717-018[1],判 save —— 它逮到一个我会交出去的真 bug)。
+    // `paras` 的 start/end 偏移是在本轮开头按当时的 md 算的。一旦某段被补丁改了长度,
+    // **排在它后面的段的偏移就全部失效** → 用旧偏移去 splice 会把正文切坏。
+    // 实测(两段都有问题时):
+    //   原文 "第一段有问题 2024。\n\n第二段也有问题 9999。\n\n第三段没事。"
+    //   先修段0 → 再用旧偏移修段1 → "第一段修好。\n\n第二段也有问第二段修好。事。"  ← 正文被切烂
+    // 集2 只有一段有问题,所以这个 bug 没咬到我 —— 正是那种「跑通了就以为对了」的坑。
+    // 倒序改:改后面的段不影响前面段的偏移,偏移永远有效。
+    for (const [idx, fs] of [...byPara.entries()].sort((a, b) => b[0] - a[0])) {
       const para = paras[idx];
       const problems = fs.map((f) => `- [${f.kind}] ${f.reason}`).join("\n");
       const ev = evidenceFor(para, transcript, translation);
