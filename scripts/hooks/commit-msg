@@ -32,7 +32,12 @@ fi
 #   本项目文档大量用中文名 → 天天可触发,非理论风险。
 #   与 GLM 20260717-001[5](printf 吞选项)、004[1](删 .md 冒充带文档)同族:都是**闸门自己的取数环节被绕过**。
 staged=$(git -c core.quotePath=false diff --cached --name-only)
-staged_docs=$(git -c core.quotePath=false diff --cached --name-only --diff-filter=ACMR)  # 文档侧只认新增/修改,删 .md 不算"带了文档"(GLM 20260717-004 [1])
+# 文档侧只认**真新增/真修改**(A/M):
+#   · 删 .md 不算「带了文档」(GLM 20260717-004[1])
+#   · **改名/复制 .md 也不算**(GLM 20260717-016[1],判 save):实测 `git mv a.md b.md` + 改代码 → 旧版
+#     用 ACMR 会把 R(重命名)当成「带了文档」放行 ⇒ **文件一个字没改、只改个名就能冒充写了文档**。
+#     与 004[1] 同族:都是拿「.md 出现在暂存区」冒充「真写了文档」。
+staged_docs=$(git -c core.quotePath=false diff --cached --name-only --diff-filter=AM)
 if printf '%s\n' "$staged" | grep -qE '\.(ts|tsx|js|jsx|mjs|cjs|py|sh)$'; then
   if ! printf '%s\n' "$staged_docs" | grep -qE '\.md$'; then
     if ! printf '%s\n' "$msg" | grep -qi '\[doc-skip:'; then

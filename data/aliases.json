@@ -20,7 +20,12 @@
       "type": "company",
       "name": "Modal",
       "file": "Modal",
-      "forms": ["Modal", "Modal Labs", "Modo", "moto"],
+      "forms": [
+        "Modal",
+        "Modal Labs",
+        "Modo",
+        "moto"
+      ],
       "evidence": "误写 Modo/moto 出自 集1 meta.known_transcript_errors_sample(官方稿把 Modal 听成 Modo/moto)"
     },
     {
@@ -28,7 +33,10 @@
       "type": "person",
       "name": "Akshat Bubna",
       "file": "Akshat Bubna",
-      "forms": ["Akshat Bubna", "Akshat"],
+      "forms": [
+        "Akshat Bubna",
+        "Akshat"
+      ],
       "evidence": "集1 嘉宾。姓 Bubna 出自集标题(meta.title_en);转写稿内多为单名 Akshat"
     },
     {
@@ -36,7 +44,11 @@
       "type": "person",
       "name": "Matei Zaharia",
       "file": "Matei Zaharia",
-      "forms": ["Matei Zaharia", "Matei", "Mattia"],
+      "forms": [
+        "Matei Zaharia",
+        "Matei",
+        "Mattia"
+      ],
       "evidence": "集2 嘉宾。实测转写稿:『Matei』×3 与误写『Mattia』×1 并存;姓『Zaharia』只在集标题里,转写稿 0 次"
     },
     {
@@ -44,7 +56,11 @@
       "type": "person",
       "name": "Reynold Xin",
       "file": "Reynold Xin",
-      "forms": ["Reynold Xin", "Reynold", "Reynolds"],
+      "forms": [
+        "Reynold Xin",
+        "Reynold",
+        "Reynolds"
+      ],
       "evidence": "集2 嘉宾。实测转写稿:正确形『Reynold』0 次,3 次全部误作『Reynolds』;姓『Xin』只在集标题里"
     },
     {
@@ -52,7 +68,9 @@
       "type": "company",
       "name": "Databricks",
       "file": "Databricks",
-      "forms": ["Databricks"],
+      "forms": [
+        "Databricks"
+      ],
       "evidence": "集2。转写稿实测出现 17 次,无误写"
     },
     {
@@ -60,7 +78,10 @@
       "type": "company",
       "name": "Latent Space",
       "file": "Latent Space",
-      "forms": ["Latent Space", "Alien Space"],
+      "forms": [
+        "Latent Space",
+        "Alien Space"
+      ],
       "evidence": "本播客。集2 实测:『Latent Space』0 次,只出现误写『Alien Space』×1(#1『Welcome to Alien Space.』)"
     },
     {
@@ -68,15 +89,24 @@
       "type": "company",
       "name": "ChatGPT",
       "file": "ChatGPT",
-      "forms": ["ChatGPT", "chat gpt"],
-      "evidence": "集1 转写稿实测写作分开的两个词『chat gpt』(『a year before chat gpt came out』),非误写而是分词 → 不登记则 D17 误杀"
+      "forms": [
+        "ChatGPT",
+        "chat gpt",
+        "ChatGPD"
+      ],
+      "evidence": "集1 转写稿实测写作分开的两个词『chat gpt』(『a year before chat gpt came out』)= 分词坑;集2 转写稿又误听成『ChatGPD』(『They moved into it before ChatGPD』)= 错字坑。同一个专名两集两种坑,正是别名表要吸收的"
     },
     {
       "id": "sidecar",
       "type": "concept",
       "name": "边车 (Sidecar)",
       "file": "边车",
-      "forms": ["边车", "Sidecar", "Sidecars", "sidecarves"],
+      "forms": [
+        "边车",
+        "Sidecar",
+        "Sidecars",
+        "sidecarves"
+      ],
       "evidence": "集1 转写稿实测误作『sidecarves』(『support this thing called sidecarves』),正确形 sidecars 0 次"
     },
     {
@@ -84,7 +114,10 @@
       "type": "company",
       "name": "Nsight",
       "file": "Nsight",
-      "forms": ["Nsight", "inside"],
+      "forms": [
+        "Nsight",
+        "inside"
+      ],
       "evidence": "集1 meta.known_transcript_errors_sample 明列 Nsight→inside(NVIDIA 的性能分析工具被听成 inside)"
     },
     {
@@ -92,7 +125,10 @@
       "type": "person",
       "name": "Erik",
       "file": "Erik",
-      "forms": ["Erik", "Eric"],
+      "forms": [
+        "Erik",
+        "Eric"
+      ],
       "evidence": "Modal CEO。集1 meta.known_transcript_errors_sample **明列 Erik→Eric**;转写稿实测『Erik』0 次、只有『eric』(『i actually first met eric who's ceo through an investor』)。⚠️ 流程教训:这条本该在首建别名表时就从 meta 的已知错字清单自动灌进来,我手搓时漏了 → 见 D24"
     },
     {
@@ -100,7 +136,11 @@
       "type": "concept",
       "name": "Kubernetes",
       "file": "Kubernetes",
-      "forms": ["Kubernetes", "K8s", "k8s"],
+      "forms": [
+        "Kubernetes",
+        "K8s",
+        "k8s"
+      ],
       "evidence": "集1 转写稿实测只写全称『Kubernetes』,缩写 k8s 0 次;正文用缩写属常见写法 → 不登记则误杀"
     },
     {
@@ -108,7 +148,10 @@
       "type": "concept",
       "name": "XGBoost",
       "file": "XGBoost",
-      "forms": ["XGBoost", "xd boost"],
+      "forms": [
+        "XGBoost",
+        "xd boost"
+      ],
       "evidence": "集1 转写稿实测误作『xd boost』(『running xd boost and whatnot』),正确形 0 次"
     },
     {
@@ -116,7 +159,10 @@
       "type": "company",
       "name": "Ona",
       "file": "Ona",
-      "forms": ["Ona", "owner"],
+      "forms": [
+        "Ona",
+        "owner"
+      ],
       "evidence": "Gitpod 更名后的名字。集1 转写稿实测误作『owner』(『gitpod rebranded to owner』),『Ona』0 次 —— 官方稿把 Ona 听成了 owner"
     },
     {
@@ -124,7 +170,13 @@
       "type": "concept",
       "name": "CI/CD",
       "file": "CI-CD",
-      "forms": ["CI/CD", "CICD", "CI CD", "CI", "CD"],
+      "forms": [
+        "CI/CD",
+        "CICD",
+        "CI CD",
+        "CI",
+        "CD"
+      ],
       "evidence": "集1 转写稿实测连写作『CICD』(『They're in the CICD market』)。正文写『CI/CD』时抽词按斜杠切成 CI + CD 两个 token,故 forms 必须**同时登记切开后的 CI 和 CD**,否则查不到本实体 → 再由 CICD 这个 form 回原文命中"
     },
     {
@@ -132,15 +184,22 @@
       "type": "concept",
       "name": "Omnigen",
       "file": "Omnigen",
-      "forms": ["Omnigen", "Omnigens"],
-      "evidence": "集2 的核心产品。转写稿实测只出现复数形『Omnigens』(『Omnigens, your baby.』),单数形 0 次 → 不登记则 D17 把正文的 Omnigen 误杀"
+      "forms": [
+        "Omnigen",
+        "Omnigens",
+        "OmniGenes"
+      ],
+      "evidence": "集2 的核心产品。转写稿实测只出现『Omnigens』(『Omnigens, your baby.』);GLM 两次重跑分别写成 Omnigen / OmniGenes → 三种形式全登记。⚠️ 正确拼写未经独立核实(官方稿是听写、GLM 是猜),以转写稿形式为准,待日后查证"
     },
     {
       "id": "mosaicml",
       "type": "company",
       "name": "MosaicML",
       "file": "MosaicML",
-      "forms": ["MosaicML", "Mosaic"],
+      "forms": [
+        "MosaicML",
+        "Mosaic"
+      ],
       "evidence": "集2。转写稿实测只说简称『Mosaic』(『Mosaic. Mosaic. A lot of people in our commun...』),全称 MosaicML 0 次;正文用全称属 drift #5「拿得准的直接改对」"
     },
     {
@@ -148,8 +207,35 @@
       "type": "concept",
       "name": "DeFlash",
       "file": "DeFlash",
-      "forms": ["DeFlash", "dflash", "DFlash"],
+      "forms": [
+        "DeFlash",
+        "dflash",
+        "DFlash"
+      ],
       "evidence": "集1 转写稿实测作『dflash』(『we shared our work on dflash which is a block based ...』)。⚠️ 正确拼写未经独立核实,以转写稿形式为准登记,待日后查证"
+    },
+    {
+      "id": "render",
+      "type": "company",
+      "name": "Render",
+      "file": "Render",
+      "forms": [
+        "Render",
+        "renders"
+      ],
+      "evidence": "集1 提到的竞品云平台。转写稿实测作复数『renders』(『trying to compete with the renders of the world』),单数 0 次"
+    },
+    {
+      "id": "petabyte",
+      "type": "concept",
+      "name": "PB (Petabyte)",
+      "file": "PB",
+      "forms": [
+        "PB",
+        "petabyte",
+        "petabytes"
+      ],
+      "evidence": "集2。转写稿实测只说全称『petabytes』(『scanning through petabytes of data』),缩写 PB 0 次;正文用缩写属常见写法"
     }
   ]
 }

@@ -37,12 +37,34 @@ import { norm, buildWordStream, parseTs } from "./gate.mjs";
  * 现在只剥「整行就是一个【背景】块」的行,行中间提到这四个字的正文照查。
  */
 const BACKGROUND_LINE_RE = /^\s*(?:>+\s*)*(?:[-*+]\s*)?【背景】/;
+/** 引用块的后续行(`> …`)—— markdown 引用块跨行完全合法,prompt 说的也是「用 > 【背景】… 引用**块**包裹」 */
+const QUOTE_CONT_RE = /^\s*>+/;
 
+/**
+ * 剥掉【背景】**块**(不只是【背景】那一行)。
+ *
+ * ⚠️ 首版只剥行首命中的那一行,与 D26 声明的「【背景】**块**免检」名实不符,两头都错:
+ *   · 误报:多行引用块的第 2 行(`> Snowflake 和 Oracle 都试过`)照样被 D17 拦 → 冤枉
+ *   · 漏检:反过来说,块内第 2 行的编造**能**被拦,第 1 行的却免检 —— 判据取决于换行位置,荒谬
+ * 现在:从【背景】行起,把紧随其后的引用续行一并视为同一块。
+ * 非引用块形式的裸行【背景】仍只剥该行(无法界定它到哪结束 —— 这是格式约束,prompt 已要求用 > 包裹)。
+ */
 export function stripBackground(md) {
-  return String(md)
-    .split("\n")
-    .filter((line) => !BACKGROUND_LINE_RE.test(line))
-    .join("\n");
+  const lines = String(md).split("\n");
+  const out = [];
+  let inBg = false;
+  for (const line of lines) {
+    if (BACKGROUND_LINE_RE.test(line)) {
+      inBg = QUOTE_CONT_RE.test(line); // 只有引用块形式才继续吃后续行
+      continue;
+    }
+    if (inBg) {
+      if (QUOTE_CONT_RE.test(line)) continue; // 同一个引用块的后续行 → 一并免检
+      inBg = false;
+    }
+    out.push(line);
+  }
+  return out.join("\n");
 }
 
 const NUM_WORDS = {
@@ -74,7 +96,26 @@ function composeNumberRun(words) {
   return seen ? total + current : null;
 }
 
-/** 从一段英文文本收集「出现过的数字」:阿拉伯数字 + 英文数字词(单个值 + 相邻组合值) */
+/**
+ * 年份口语 → 数值:"twenty twenty two"→2022 / "twenty twenty"→2020 / "nineteen ninety nine"→1999。
+ *
+ * ⚠️ **这一项是 drift #11 的 `[standard-change: 用户授权]` 里点名要求的**
+ * (原文:「阿拉伯数字/年份 ↔ 英文数字词 ten→10、**twenty twenty two→2022**」),
+ * 而首版 `composeNumberRun` 是纯加法(20+20+2=**42**),**静默没做**。
+ * 独立审计逐条核标准时抓出。这与 C2 静默丢掉 D17 是同一种错 —— 而 D17 正是本片要还的债。
+ * 方向上原本是 fail-safe(会误报不会漏放),但「用户授权的标准里点名的一项没实现」不该靠运气兜:
+ * 集1 转写稿恰好没有口语年份,所以没咬到。
+ */
+function composeYearRun(words) {
+  if (words.length < 2) return null;
+  const head = NUM_WORDS[words[0]];
+  if (head !== 19 && head !== 20) return null;
+  const rest = composeNumberRun(words.slice(1));
+  if (rest == null || rest < 0 || rest > 99) return null;
+  return head * 100 + rest;
+}
+
+/** 从一段英文文本收集「出现过的数字」:阿拉伯数字 + 英文数字词(单个值 + 相邻组合值 + 年份口语) */
 function collectNumbers(text, into) {
   // 阿拉伯数字(含千分位逗号与小数)
   for (const m of String(text).matchAll(/\d[\d,]*(?:\.\d+)?/g)) {
@@ -88,6 +129,8 @@ function collectNumbers(text, into) {
     if (run.length) {
       const v = composeNumberRun(run);
       if (v != null) into.add(v);
+      const y = composeYearRun(run); // drift #11 点名要求:twenty twenty two → 2022
+      if (y != null) into.add(y);
       run = [];
     }
   };
@@ -164,6 +207,63 @@ export function checkProperNoun(name, ctx) {
   };
 }
 
+/**
+ * 中文写法的公司/产品名字典 —— **D17 的中文侧**。
+ *
+ * ⚠️ 为什么必须有:首版 `extractLatinTokens` 只捞 `[A-Za-z]`,**D17 从头到尾没见过一个中文专名**。
+ * 对抗审计一枪打穿:`Snowflake`→拦,而「雪花」→**压根没进检查**;`Oracle`→拦,「甲骨文」→溜过。
+ * prompt 里被我点名封杀的反例「跨云(AWS/GCP/Azure)」,改写成「跨云(亚马逊云/谷歌云/微软云)」就完全免检。
+ * **而读者读的正是中文那一侧** —— 等于闸门守在了没人走的门上。
+ *
+ * ⚠️ **这一层的固有天花板(诚实交底,别当它是全覆盖)**:中文没有大小写,
+ * 「哪个中文子串是专名」无法用确定性字符串法穷举。所以本字典是**白名单式**的:
+ * 认得出的中文专名(字典 + 别名表里的中文 form)才回原文比对;
+ * **字典外的中文编造名(如模型现编一个「星尘智算」)仍然抓不到** → 见 D27。
+ * 配套两条:①prompt 强制外企/产品首现带原文(「甲骨文(Oracle)」)→ 落进拉丁侧硬拦
+ *          ②新名字进字典/别名表由人复核
+ */
+const CN_ENTITY_DICT = [
+  // 云 / 基础设施
+  ["甲骨文", "Oracle"], ["雪花", "Snowflake"], ["谷歌云", "Google Cloud"], ["谷歌", "Google"],
+  ["亚马逊云", "AWS"], ["亚马逊", "Amazon"], ["微软云", "Azure"], ["微软", "Microsoft"],
+  ["阿里云", "Alibaba Cloud"], ["阿里巴巴", "Alibaba"], ["腾讯云", "Tencent Cloud"], ["腾讯", "Tencent"],
+  ["百度", "Baidu"], ["华为", "Huawei"], ["字节跳动", "ByteDance"],
+  // 芯片 / 硬件
+  ["英伟达", "Nvidia"], ["英特尔", "Intel"], ["超微", "AMD"], ["苹果", "Apple"],
+  // 模型 / AI 公司
+  ["深度求索", "DeepSeek"], ["通义千问", "Qwen"], ["文心一言", "Ernie"], ["智谱", "Zhipu"],
+  ["月之暗面", "Moonshot"], ["元宇宙", "Meta"], ["脸书", "Facebook"], ["推特", "Twitter"],
+  ["英伟达显卡", "Nvidia"], ["开放人工智能", "OpenAI"], ["人择", "Anthropic"],
+  // 数据 / 数据库
+  ["数砖", "Databricks"], ["雪花公司", "Snowflake"], ["帕兰提尔", "Palantir"],
+];
+
+/**
+ * 抽中文专名候选:字典命中 + 别名表里登记的中文 form 命中。
+ * 返回的是「书写形式」,交给 checkProperNoun 回原文比对(经别名表/字典映射到英文形式)。
+ */
+export function extractChineseNouns(md, aliases) {
+  const text = String(md);
+  const found = new Set();
+  for (const [cn] of CN_ENTITY_DICT) if (text.includes(cn)) found.add(cn);
+  for (const e of aliases?.entities ?? [])
+    for (const f of [e.name, e.file, ...(e.forms ?? [])].filter(Boolean))
+      if (/[一-龥]/.test(String(f)) && text.includes(String(f))) found.add(String(f));
+  // 长名优先:命中「谷歌云」就不再单报「谷歌」(避免同一处报两遍)
+  const list = [...found].sort((a, b) => b.length - a.length);
+  return list.filter((x) => !list.some((y) => y !== x && y.length > x.length && y.includes(x) && text.split(x).length === text.split(y).length));
+}
+
+/** 中文专名 → 它对应的英文书写形式(供回原文比对);字典优先,再看别名表 */
+export function cnToSourceForms(cn, aliases) {
+  const hit = CN_ENTITY_DICT.find(([c]) => c === cn);
+  const out = hit ? [hit[1]] : [];
+  for (const e of aliases?.entities ?? [])
+    if ([e.name, e.file, ...(e.forms ?? [])].filter(Boolean).some((f) => String(f) === cn))
+      out.push(...[e.name, ...(e.forms ?? [])].filter(Boolean).map(String));
+  return [...new Set(out)];
+}
+
 /** 从中文正文里挑拉丁串(专名候选);纯数字不算 */
 export function extractLatinTokens(md) {
   return [...new Set([...String(md).matchAll(/[A-Za-z][A-Za-z0-9.+_-]*/g)].map((m) => m[0].replace(/[.]+$/, "")))].filter(Boolean);
@@ -197,9 +297,16 @@ export function extractDigestNumbers(md) {
   return out;
 }
 
-/** 时间戳里的这些不是「事实数字」,是溯源坐标(D8 单独查)→ D17 数字比对要先剔掉 */
+/**
+ * 时间戳的分秒是**溯源坐标不是事实数字**(D8 单独查)→ D17 数字比对前剔掉。
+ *
+ * ⚠️ 只剥**时间本身**,绝不剥整个括号。首版剥的是整块 `\[[^\]]*\d{1,2}:\d{2}[^\]]*\]`,
+ * 被对抗审计一枪打穿:`[详见 Snowflake 与 Oracle 的 12:34 联合报告,估值 9999 亿美元]`
+ * → 整块进免检区 → 里面编造的公司名和数字**全部隐形**。
+ * 现在同样这行输入,Snowflake/Oracle/9999 都会照常送去 D17 硬拦。
+ */
 export function stripTimestamps(md) {
-  return String(md).replace(/\[[^\]]*\d{1,2}:\d{2}[^\]]*\]/g, " ");
+  return String(md).replace(/\d{1,2}:\d{2}(?::\d{2})?/g, " ");
 }
 
 /**
@@ -214,16 +321,35 @@ export function stripNumericIdioms(md) {
 }
 
 /**
+ * 「时间戳型标注」的**唯一定义** —— D17 与 D8 必须共用它,否则裂缝里的东西两边都不查。
+ *
+ * ⚠️ 首版是两条各写各的正则:`stripTimestamps` 认「括号里任意位置有 mm:ss」(→D17 免检),
+ * `parseInlineTimestamps` 要求「mm:ss 必须在开头」(→D8 才查)。对抗审计当场打穿:
+ * `[Akshat Bubna 00:10-00:19]`(名字和时间调个顺序)= **同时满足 D17 免检 + D8 不解析** → 隐形。
+ * 而那正是测试里「攻击C·移花接木」那条。另:D8 只认 ASCII 方括号,中文稿写 `【00:15 X】`
+ * 或 `(00:17 X)` 极其自然 → 也隐形。
+ * 现在:括号形态(`[] 【】 ()`)与时间位置**都不再影响是否被检查**。
+ */
+const TS_BRACKET_RE = /[[【(（]([^\]】)）\n]*\d{1,2}:\d{2}[^\]】)）\n]*)[\]】)）]/g;
+
+/**
  * 解析正文内联时间戳。真实形状(取自真 digest,非臆测):
  *   [00:34-02:17 Akshat Bubna] / [10:03-10:34 swyx / Akshat Bubna] / [37:57-38:47] / [48:34 Akshat Bubna]
+ * 加固后额外覆盖:时间不在开头(`[Akshat 00:10-00:19]`)、全角括号(`【00:15 X】`)。
  */
 export function parseInlineTimestamps(md) {
   const out = [];
-  for (const m of String(md).matchAll(/\[\s*(\d{1,2}:\d{2}(?::\d{2})?)\s*(?:[-–—]\s*(\d{1,2}:\d{2}(?::\d{2})?))?\s*([^\]]*)\]/g)) {
-    const start = parseTs(m[1]);
-    const end = m[2] ? parseTs(m[2]) : start;
-    const who = (m[3] || "").trim();
-    const speakers = who ? who.split("/").map((s) => s.trim()).filter(Boolean) : [];
+  for (const m of String(md).matchAll(TS_BRACKET_RE)) {
+    const inner = m[1];
+    const times = [...inner.matchAll(/\d{1,2}:\d{2}(?::\d{2})?/g)].map((x) => x[0]);
+    const start = parseTs(times[0]);
+    const end = times[1] ? parseTs(times[1]) : start;
+    // 说话人 = 括号里刨去时间与连接符后剩下的。刨不干净 → 后面 D8 会因「此人没讲话」拦下(fail-closed)
+    const who = inner
+      .replace(/\d{1,2}:\d{2}(?::\d{2})?/g, " ")
+      .replace(/[-–—~至]/g, " ")
+      .trim();
+    const speakers = who ? who.split(/[/、]/).map((s) => s.trim()).filter(Boolean) : [];
     out.push({ raw: m[0], start, end, speakers });
   }
   return out;
@@ -244,12 +370,28 @@ export function parseInlineTimestamps(md) {
  * 被标注的嘉宾在区间内 0 词,过不了第一条。
  * 噪声容忍:区间内发言 <2 词的人不计入「真讲过话」(对齐 gate.mjs 的 crossRun<2 口径)。
  */
+/** 单条内联时间戳允许的最大跨度(秒)。真实 digest 里的区间都在 2 分钟内;5 分钟已很宽松。 */
+export const MAX_SPAN_SEC = 300;
+
 export function checkInlineTimestamp(t, ctx, { minWords = 2, pointGrace = 5 } = {}) {
   if (!Number.isFinite(t.start) || !Number.isFinite(t.end)) return { pass: false, reason: "时间戳解析失败" };
   // 负向区间([19:00-10:00 X]):实测本就会被后续检查拦下(GLM 20260717-014[3] 说的「绕过」不成立),
   // 但拦下的理由会是莫名其妙的「说话人不对」。显式判掉,让报错说人话。
   if (t.end < t.start) return { pass: false, reason: `时间戳区间倒置(${t.start}s > ${t.end}s)` };
-  if (t.start < 0 || t.start > ctx.maxEnd) return { pass: false, reason: `区间超出转写稿范围(0~${ctx.maxEnd.toFixed(1)}s)` };
+  if (t.start < 0) return { pass: false, reason: `时间戳为负(${t.start}s)` };
+  // 注:原先这里还有 `t.start > ctx.maxEnd` 一项,加了下面的 end 校验后它是**死代码**
+  // (end >= start,start 超范围必然 end 也超)。变异验证证实删掉它测试全绿 → 按「简到极致」去掉,
+  // 不留一条永远走不到、却让人以为有保护的分支。
+  // ⚠️ 首版只校验 start,不校验 end,区间长度也无上限 → 对抗审计打穿:
+  //   `[00:00-99:59 嘉宾]` **恒过**,因为全集主说话人恰恰就是嘉宾。
+  //   而 D8/D19 声称要抓的正是「把主持人的话安到嘉宾头上」—— 挂上全集区间就全放行。
+  //   **区间越宽,断言越弱,却越容易过** = 判据方向反了。
+  if (t.end > ctx.maxEnd + 1) return { pass: false, reason: `区间终点超出转写稿范围(0~${ctx.maxEnd.toFixed(1)}s)` };
+  if (t.end - t.start > MAX_SPAN_SEC)
+    return {
+      pass: false,
+      reason: `区间过宽(${Math.round(t.end - t.start)}s > 上限 ${MAX_SPAN_SEC}s):宽区间等于不指明出处,且能靠「全集主说话人=嘉宾」蒙混过主说话人判据`,
+    };
 
   // ── 单点 vs 区间:两种断言强度不同,判据也不同(拿真数据校正过两轮)──
   // **区间** [a-b X] = 「这段话在 a~b 之间、由 X 说」→ 强断言 → 用主说话人口径(见下)。
@@ -319,13 +461,40 @@ export function gateFacts(dir, { aliasesPath } = {}) {
   }
 
   const ctx = buildFactIndex(transcript, meta, aliases);
+
+  // ── 防假绿:「没东西可查」≠「查过了没问题」(fail-closed)──
+  // ⚠️ 本项目已经在同一个模式上打过两次补丁:gate.mjs「0 条金句 ≠ 通过」(GLM 011[8])、
+  //    gate-all.mjs「缺失 ≠ 通过」(GLM 012)。**gate-facts 自己漏了第三次**:
+  //    对抗审计实测,把 digest_md 删掉或把字段名打成 digestMd →「专名 0/0、数字 0/0、时间戳 0/0 → ✅ 全过」,
+  //    因为 `pass: failures.length === 0` 在零检查项时**恒真**。
+  //    这直接违反本文件自己声明的「判不了 = 不过」。
+  if (!Object.prototype.hasOwnProperty.call(digest, "digest_md"))
+    return { id: meta.id, nouns: [], numbers: [], timestamps: [], vague: [], pass: false, failures: [{ kind: "结构", reason: "digest.json 缺 digest_md 字段 —— 判不了 = 不过,绝不当「无事发生」放行" }] };
   const md = String(digest.digest_md ?? "");
+  if (!md.trim())
+    return { id: meta.id, nouns: [], numbers: [], timestamps: [], vague: [], pass: false, failures: [{ kind: "结构", reason: "digest_md 为空 —— 判不了 = 不过" }] };
+
   // D17 作用域:去【背景】(声明过的 AI 补充)、去时间戳坐标、去数字成语(都不是对本集的事实断言)
   const body = stripNumericIdioms(stripTimestamps(stripBackground(md)));
 
-  // ① D17 专名(硬拦)
+  // ① D17 专名(硬拦)—— **拉丁侧 + 中文侧**
   const nouns = extractLatinTokens(body).filter((t) => !TOKEN_ALLOWLIST.has(t.toLowerCase()));
   const nounResults = nouns.map((n) => ({ name: n, ...checkProperNoun(n, ctx) }));
+
+  // 中文侧:读者读的正是这一侧。首版整个漏掉(「雪花」「甲骨文」免检),对抗审计打穿 → 见 D27 交底边界
+  for (const cn of extractChineseNouns(body, aliases)) {
+    const forms = cnToSourceForms(cn, aliases);
+    if (!forms.length) {
+      nounResults.push({ name: cn, pass: false, matchedForm: null, reason: `中文专名「${cn}」既不在别名表、也无对应英文形式可回原文比对(判不了 = 不过)` });
+      continue;
+    }
+    const hit = forms.find((f) => checkProperNoun(f, ctx).pass);
+    nounResults.push(
+      hit
+        ? { name: cn, pass: true, matchedForm: hit }
+        : { name: cn, pass: false, matchedForm: null, reason: `中文专名「${cn}」(对应 ${forms.join("/")})未在真相源出现(疑编造)` },
+    );
+  }
 
   // ② D17 确定数字(硬拦)
   const numResults = extractDigestNumbers(body).map((n) => ({
