@@ -27,8 +27,8 @@ const cardCount = (md.match(/class="ep-card"/g) || []).length;
 if (cardCount === episodes.length) pass(`单集卡 ${cardCount} 张 == 集数 ${episodes.length}`);
 else fail(`卡数 ${cardCount} ≠ 集数 ${episodes.length}`);
 for (const c of cards) {
-  if (c.title && c.date && c.podcast) pass(`卡[${c.slug}]字段齐(标题/来源/日期)`);
-  else fail(`卡[${c.slug}]缺字段:title=${!!c.title} date=${!!c.date} podcast=${!!c.podcast}`);
+  if (c.title && c.date && c.podcast && c.quote) pass(`卡[${c.slug}]字段齐(标题/来源/日期/精华语录)`);
+  else fail(`卡[${c.slug}]缺字段:title=${!!c.title} date=${!!c.date} podcast=${!!c.podcast} quote=${!!c.quote}`);
 }
 
 // ② 排序=发布日期倒序(md 里卡片出现顺序 == 日期降序)

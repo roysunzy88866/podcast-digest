@@ -138,7 +138,7 @@ const SCRIPT = `<script>
     const KEY='pd-read';
     let read; try{ read=new Set(JSON.parse(localStorage.getItem(KEY)||'[]')); }catch(e){ read=new Set(); }
     cards.forEach(function(c){ if(read.has(c.dataset.slug)) c.classList.add('ep-read'); });
-    cards.forEach(function(c){ c.addEventListener('click', function(){ read.add(c.dataset.slug); try{localStorage.setItem(KEY, JSON.stringify([].slice.call(read)));}catch(e){} }); });
+    cards.forEach(function(c){ c.addEventListener('click', function(){ read.add(c.dataset.slug); try{localStorage.setItem(KEY, JSON.stringify([...read]));}catch(e){} }); }); // [...read]:read 是 Set,[].slice.call(Set) 恒返回 [](擦掉历史,F1)
     // 标签筛选(US-2:点标签收窄 + 可清除 + 无结果提示)
     let active=null;
     const btns=[].slice.call(root.querySelectorAll('.ep-tagbtn'));

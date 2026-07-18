@@ -75,6 +75,13 @@ describe("renderList · 列表页 markdown", () => {
     expect(md).toContain("2026-07-08");
     expect(md).toContain('href="/2026-07-08-x"');
   });
+  it("★★ 已读压暗存盘用 [...read] 而非 [].slice.call(Set)(F1 回归守卫)", () => {
+    // read 是 Set;[].slice.call(Set) 恒返回 [] → 每次点卡擦掉已读历史、永不压暗(审计 F1 逮到)。
+    const md = renderList([ep()]);
+    expect(md).toContain("JSON.stringify([...read])");
+    expect(md).not.toContain("[].slice.call(read)");
+  });
+
   it("★ HTML 转义:标题含 < & 不破结构", () => {
     const md = renderList([ep({ meta: { id: "z", date: "2026-03-03", title_zh: "A<b>&C", podcast: "p" } })]);
     expect(md).toContain("A&lt;b&gt;&amp;C");
