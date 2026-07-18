@@ -12,7 +12,11 @@
   · **待结项拍板的债**:音频存储(commit 大二进制 vs clone 后再生,现 gitignore)/ D32(相关单集规模泛噪 + 强弱不可见,C5)/ D33(feed 可订阅性,C7)/ US-10 图谱价值自评。
   · **本机脚本**:build-pages/gate-relations/verify-c6/tts/build-feed/gate-audio/verify-c4 + 项目 `.venv`(edge-tts,gitignore)。
 
-- **下一步 = C5 开工(列表页,US-1/2/3:单集卡流 + 标签筛选 + 搜索)**:用户 2026-07-18 拍板 **先做界面(现有 2 集即可演示卡流/标签/搜索)+ 打通 ASR 试灌 1 集没官方稿的(~几元,证进料口通)**;灌满 50 集验中文搜索质量 **单列一个花钱批次**,界面做完再拍板灌多少、何时花钱。C5 前置债:**D22**(官方稿仅 8 期 → ASR 兜底;`fetch-source-asr.mjs` 已 P1 真调、端到端灌一集这步待做)/ **D24**(别名表自动灌种)/ **D30**(人物金句墙跨集异名)。**照 SOP:先补 C5 Gherkin 到 `docs/user-stories.md` → 二次确认 → 才进红绿循环。**
+- **C5 进行中(列表页,US-1/2/3)· 界面已做完并提交,ASR 试灌卡在用户 key**:
+  · **界面 ✅(commit `936e1ff`)**:P1 中文搜索通过(实测「智能体」「投机解码」精准)→ `build-list.mjs` 生成 content/index.md(单集卡流 + 标签筛选 + 搜索接入;内联脚本挂 Quartz `nav` 事件 → SPA 换页不失效)→ 浏览器端到端实测(标签筛选全周期 / 已读压暗跨 SPA 存活 / 点标签筛到 1 张)→ verify:c5 + build-list 8 单测 + 287 全套绿。US-3 搜索复用 Quartz 顶栏(首页也可达)。
+  · **过 GLM 独立复核 018(C5 + F1 代码)**:5 条全 **noise**(本机真跑核过:package.json JSON 解析正常、xmlUnescape 往返身份一致、`<div>` 在 `<a>` 内 HTML5 合法且浏览器验过渲染/点击、date 恒 ISO);顺手修我引入的 package.json 缩进不一致。
+  · **⛔ 待用户:ASR 端到端试灌 1 集(Scenario 4,D22)**——需 ①用户 AssemblyAI key(**无 .env,我不碰明文**)②选一集没官方稿的 + 音频直链 ③转写后据说话人证据分配真名 ④~1-2 元(GLM)+ 几分钱(ASR)。灌满 50 集大验收单列花钱批次。
+  · C5 相关债:D22(进料口)/ D24(别名表灌种)/ D30(跨集异名)随灌多集面对;D32(相关单集规模泛噪)灌量时调。
 
 - **(更早)C3**:**C3 ✅ 完成(用户 2026-07-18 明文通过验收 + 已提交 `9f7b630`)**。2026-07-18 一口气做完 Scenario 2-5 + 过独立审计整改:
   · **Scenario 2 实体抽取** `extract-entities.mjs`:人物从 meta 派生(不问 GLM)/公司概念 GLM 抽 + 回原文命中判据复用 `checkProperNoun`/evidence 代码检索/tags。真跑两集:集1 31 实体、集2 21 实体,拦下 GLM 编造(supercloud/cold start/multinode—原文 0 次)。**改 prompt 重跑一次**(~1 元)让「智能体」这类共性概念被抽出→**跨集聚合真立起来**。
