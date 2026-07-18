@@ -1,0 +1,142 @@
+#!/usr/bin/env node
+// C4 Scenario 3 · 私有播客 feed(RSS 2.0 + iTunes 命名空间)。
+//
+// 纯函数手写字符串生成,不引 XML 库(简到极致 + 不加依赖)。
+// 每集一 <item>,挂 <enclosure> + 标题 + 精华简介(取 tldr)+ itunes:duration。
+// ⚠️ 无音频的集不进 feed(不挂空 enclosure,Scenario 3a);所有文本 XML 正确转义。
+import { readFileSync, existsSync, statSync, readdirSync, realpathSync } from "node:fs";
+import { resolve, dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
+
+const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+
+export function xmlEscape(s) {
+  return String(s ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;");
+}
+
+// RFC-822 日期。**固定英文星期/月份 + UTC**,不用 toLocaleString(随机器 locale 变,会产出非法 pubDate)。
+const DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+const MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+export function toRfc822(d) {
+  const date = d instanceof Date ? d : new Date(d);
+  if (Number.isNaN(date.getTime())) throw new Error(`[feed] 无法解析日期:${d}`);
+  const p2 = (n) => String(n).padStart(2, "0");
+  return `${DAYS[date.getUTCDay()]}, ${p2(date.getUTCDate())} ${MONTHS[date.getUTCMonth()]} ${date.getUTCFullYear()} ${p2(
+    date.getUTCHours(),
+  )}:${p2(date.getUTCMinutes())}:${p2(date.getUTCSeconds())} GMT`;
+}
+
+/** 秒 → HH:MM:SS(<1h 则 MM:SS),供 <itunes:duration> */
+export function formatDuration(sec) {
+  const s = Math.max(0, Math.round(Number(sec) || 0));
+  const p2 = (n) => String(n).padStart(2, "0");
+  const h = Math.floor(s / 3600);
+  const m = Math.floor((s % 3600) / 60);
+  const ss = s % 60;
+  return h > 0 ? `${h}:${p2(m)}:${p2(ss)}` : `${p2(m)}:${p2(ss)}`;
+}
+
+/** 一集是否具备进 feed 的条件:有音频 URL + 字节数 > 0 + 时长 > 0(否则不挂空 enclosure) */
+export function hasAudio(ep) {
+  return !!(ep && ep.audioUrl && Number(ep.audioLength) > 0 && Number(ep.durationSec) > 0);
+}
+
+/** 单集 <item>。ep = { id, title, description, pubDate, audioUrl, audioLength, durationSec, guid?, link? } */
+export function buildItem(ep) {
+  const rows = [
+    "    <item>",
+    `      <title>${xmlEscape(ep.title)}</title>`,
+    `      <description>${xmlEscape(ep.description ?? "")}</description>`,
+    `      <pubDate>${toRfc822(ep.pubDate)}</pubDate>`,
+    `      <guid isPermaLink="false">${xmlEscape(ep.guid ?? ep.id ?? ep.audioUrl)}</guid>`,
+    `      <enclosure url="${xmlEscape(ep.audioUrl)}" length="${Math.round(Number(ep.audioLength))}" type="audio/mpeg" />`,
+    `      <itunes:duration>${formatDuration(ep.durationSec)}</itunes:duration>`,
+  ];
+  if (ep.link) rows.push(`      <link>${xmlEscape(ep.link)}</link>`);
+  rows.push("    </item>");
+  return rows.join("\n");
+}
+
+/**
+ * 生成完整 feed.xml 字符串。
+ * @param episodes 集数组;**无音频的集自动剔除**(hasAudio 过滤)。
+ * @param siteMeta { title, link, description, language, author }
+ */
+export function buildFeedXml(episodes, siteMeta = {}) {
+  const meta = {
+    title: siteMeta.title ?? "英文播客中文精华",
+    link: siteMeta.link ?? "",
+    description: siteMeta.description ?? "英文科技播客的中文精华配音",
+    language: siteMeta.language ?? "zh-CN",
+    author: siteMeta.author ?? "",
+  };
+  const items = (episodes ?? []).filter(hasAudio).map(buildItem).join("\n");
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>${xmlEscape(meta.title)}</title>
+    <link>${xmlEscape(meta.link)}</link>
+    <description>${xmlEscape(meta.description)}</description>
+    <language>${xmlEscape(meta.language)}</language>
+    <itunes:author>${xmlEscape(meta.author)}</itunes:author>
+${items}
+  </channel>
+</rss>
+`;
+}
+
+// ── CLI:从 data/episodes 收集有音频的集,输出 feed.xml 到 stdout(或 --out 路径)──
+// 本地路径模式(C4 不上云):enclosure url 用本集 audio.mp3 的相对路径,gate-audio ④ 会核它真实存在。
+// 真上云(C7)时把 url 换成 R2 公开地址即可。
+const isMain = (() => {
+  try {
+    return process.argv[1] && realpathSync(process.argv[1]) === fileURLToPath(import.meta.url);
+  } catch {
+    return false;
+  }
+})();
+if (isMain) {
+  const base = join(ROOT, "data/episodes");
+  const samplesDir = join(ROOT, "samples");
+  const published = existsSync(samplesDir)
+    ? readdirSync(samplesDir)
+        .filter((f) => f.endsWith(".md"))
+        .map((f) => f.replace(/\.md$/, ""))
+    : [];
+  const episodes = [];
+  for (const id of published) {
+    const dir = join(base, id);
+    const audio = join(dir, "audio.mp3");
+    const metaP = join(dir, "meta.json");
+    const audioMetaP = join(dir, "audio.meta.json");
+    const digestP = join(dir, "digest.json");
+    if (!existsSync(audio) || !existsSync(audioMetaP)) continue; // 无音频不进 feed
+    const meta = existsSync(metaP) ? JSON.parse(readFileSync(metaP, "utf8")) : {};
+    const audioMeta = JSON.parse(readFileSync(audioMetaP, "utf8"));
+    const digest = existsSync(digestP) ? JSON.parse(readFileSync(digestP, "utf8")) : {};
+    episodes.push({
+      id,
+      title: meta.title_zh ?? id,
+      description: digest.tldr ?? "",
+      pubDate: meta.date ?? audioMeta.generated_at ?? new Date().toISOString(),
+      audioUrl: `data/episodes/${id}/audio.mp3`, // 本地路径;上云换 R2 URL
+      audioLength: existsSync(audio) ? statSync(audio).size : 0,
+      durationSec: audioMeta.duration_sec ?? 0,
+      link: meta.source_url,
+    });
+  }
+  const xml = buildFeedXml(episodes, { title: "英文播客中文精华", description: "英文科技播客的中文精华配音(纯中文短音频)" });
+  const outIdx = process.argv.indexOf("--out");
+  if (outIdx >= 0 && process.argv[outIdx + 1]) {
+    const { writeFileSync } = await import("node:fs");
+    writeFileSync(process.argv[outIdx + 1], xml);
+    console.log(`✅ feed.xml 写入 ${process.argv[outIdx + 1]}(${episodes.length} 集有音频)`);
+  } else {
+    process.stdout.write(xml);
+  }
+}
