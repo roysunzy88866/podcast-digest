@@ -1,6 +1,15 @@
 # WIP
 
-- **上次到**:**C3 ✅ 完成(用户 2026-07-18 明文通过验收 + 已提交 `9f7b630`)**。2026-07-18 一口气做完 Scenario 2-5 + 过独立审计整改:
+- **上次到**:**C6 + C4 双线机器侧全部做完,机器全绿,只差你亲手验收**(2026-07-18,用户「这个 session 把 C4 C6 一起做完」→ 一口气推完,中途没停问)。
+  · **C6 关联导航(US-7/9④/10)**:`relatedEpisodes` 集↔集按共享实体聚合(**排 host、须 ≥1 集 primary 才算、强弱权重**,依独立审计整改)→ `build-pages.mjs` 跨集渲染(写库与 gate-all 重算共用,一致性自动防漂移)→ 集页底部「相关单集」按同嘉宾/同概念/同公司注原因+点跳 → `gate-relations.mjs` 死链闸门 → 局部/全局图谱白送(P1 实测渲染,证据 `docs/c6-p1-图谱核验证据.md`)。`verify:c6` 全绿。
+  · **C4 音频(US-5)**:引擎 **edge-tts**(白嫖 Edge 大声朗读的微软晓晓,**免 key 免账号、国内直连**;drift #13,本机 P1 真调过,证据 `docs/c4-p1-edge-tts核验证据.md`)→ `tts.mjs`(复用回收脚手架 strip/chunk/编排/缓存,合成换 edge-tts;Azure 留 `synthesizeChunkAzure` fallback)**真合成两集音频**(Modal 9.6min/Databricks 8.1min,晓晓)→ 详情页 `<audio>` 播放器(Quartz 真渲染、音频 200 可加载)→ `build-feed.mjs` 私有播客 feed(RSS2.0+iTunes)→ `gate-audio.mjs` 音频层闸门(fail-closed:缺音频/读不了/源不一致/死 enclosure 全拦)。`verify:c4` 全绿。
+  · **机器全绿**:263 vitest、gate-all 五层(三联+事实+实体+关联+音频)、verify:c3/c6/c4 全过、真 build 169 文件不崩。
+  · **过 GLM 独立审计**:007(relatedEpisodes 泛噪整改)/009(C6 接线,real 2 已修)/010(C4,real 1 已修:feed 检查改查该集自己 enclosure)。**独立子 agent 交付物审计**(用户要求):逮到 relatedEpisodes「不区分 primary 权重」真问题→已修+真数据实证;edge-tts P1 独立复现 4 claim 全真。
+  · **⏳ 待你验收(机器绿≠通过,铁律)**:①集页点「相关单集」跳相关集 ②点 ▶ 听晓晓中文精华配音(听感认可?)③进图谱漫游。**通过后 C4/C6 翻 ✅ + 提交**。起站:`node scripts/build-pages.mjs && node scripts/build-feed.mjs --out feed.xml`,再照下方「本地起站」灌 samples+entities+**音频**后 build --serve。
+  · **待你结项拍板的债**:音频存储(commit 大二进制 vs clone 后再生,现 gitignore)/ D32(相关单集大规模 ubiquity 泛噪,C5 调)/ US-10 图谱价值自评。
+  · **本机新增**:项目 `.venv`(edge-tts,gitignore);脚本 build-pages/gate-relations/verify-c6/tts/build-feed/gate-audio/verify-c4;对应 npm scripts。
+
+- **(更早)C3**:**C3 ✅ 完成(用户 2026-07-18 明文通过验收 + 已提交 `9f7b630`)**。2026-07-18 一口气做完 Scenario 2-5 + 过独立审计整改:
   · **Scenario 2 实体抽取** `extract-entities.mjs`:人物从 meta 派生(不问 GLM)/公司概念 GLM 抽 + 回原文命中判据复用 `checkProperNoun`/evidence 代码检索/tags。真跑两集:集1 31 实体、集2 21 实体,拦下 GLM 编造(supercloud/cold start/multinode—原文 0 次)。**改 prompt 重跑一次**(~1 元)让「智能体」这类共性概念被抽出→**跨集聚合真立起来**。
   · **Scenario 3 集页升级** `render.mjs`:类型化 frontmatter([[双链]])+ 关联区按角色分行 + 正文首现补链(ASCII 词边界/中文子串)+ 金句 `^块ID` + **修 host=null**(集2 不再打印 null)。
   · **Scenario 4 实体页** `build-entities.mjs`:跨集按 id 聚合(自建,ADR 0008)→ 36 个实体页;金句墙 `![[集#^块]]` 嵌入(P1 契约,真 build 出 transclude + 回原集链)。

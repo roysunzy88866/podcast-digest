@@ -10,7 +10,14 @@
     "extract": "node scripts/extract-entities.mjs",
     "build:entities": "node scripts/build-entities.mjs",
     "gate:entities": "node scripts/gate-entities.mjs",
-    "verify:c3": "node scripts/verify-c3.mjs"
+    "verify:c3": "node scripts/verify-c3.mjs",
+    "build:pages": "node scripts/build-pages.mjs",
+    "gate:relations": "node scripts/gate-relations.mjs",
+    "verify:c6": "node scripts/verify-c6.mjs",
+    "tts": "node scripts/tts.mjs",
+    "build:feed": "node scripts/build-feed.mjs --out feed.xml",
+    "gate:audio": "node scripts/gate-audio.mjs",
+    "verify:c4": "node scripts/verify-c4.mjs"
   },
   "devDependencies": {
     "vitest": "^4.1.10"

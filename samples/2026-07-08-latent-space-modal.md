@@ -32,6 +32,10 @@ tags:
 >
 > **来源**:[Latent Space](https://www.latent.space/p/modal2026)
 
+## 🎧 本集中文精华音频
+
+<audio controls preload="metadata" src="/audio/2026-07-08-latent-space-modal.mp3" style="width:100%">你的浏览器不支持音频播放,或音频尚未生成。</audio>
+
 ## 一句话 TLDR
 
 Modal从通用无服务器计算转向AI推理基础设施,深耕自动扩展、GPU快照与投机解码技术。
@@ -135,6 +139,10 @@ Akshat 透露了一个内部的「自动推理」代码库。本质上,他们用
 > 我认为提供模型 API,其中一些最终服务的就像一个非常业余的市场,粘性低得多  
 > *I think providing model APIs is some of it ends up serving like a really hobbyist market which is much less sticky*  
 > —— Akshat Bubna · [48:40] ^q7
+
+## 相关单集
+
+- [[2026-06-24-latent-space-databricks|《为什么前沿生态必须开放》]] —— 同概念:智能体 (agent)、沙箱 (sandbox)、Kubernetes
 
 ---
 

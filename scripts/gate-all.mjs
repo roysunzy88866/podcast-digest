@@ -11,7 +11,11 @@ import { fileURLToPath } from "node:url";
 import { gateEpisode } from "./gate.mjs";
 import { gateFacts } from "./gate-facts.mjs";
 import { gateEntities } from "./gate-entities.mjs";
+import { gateRelations } from "./gate-relations.mjs";
+import { gateAudio } from "./gate-audio.mjs";
 import { renderEpisode, loadEpisode } from "./render.mjs";
+import { renderAllEpisodes } from "./build-pages.mjs";
+import { loadAllEpisodes } from "./build-entities.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const base = join(ROOT, "data/episodes");
@@ -29,6 +33,16 @@ const gatedIds = ls(base, (e) => e.isDirectory() && existsSync(join(base, e.name
 );
 
 let bad = 0;
+
+// C6:集页现在含跨集「相关单集」→ 闸门重渲染也必须跨集算(与写库同一套 renderAllEpisodes),否则误拦。
+// fail-closed:跨集渲染失败=不放行。
+let expectedPages = new Map();
+try {
+  expectedPages = renderAllEpisodes(loadAllEpisodes(base));
+} catch (e) {
+  console.error(`[机器闸门门] ❌ 跨集重渲染失败(fail-closed,不放行):${e.message}`);
+  bad++;
+}
 
 // ① 缺失≠通过:发布了却没 digest → 闸门无从校验 → 拦
 for (const id of publishedIds) {
@@ -60,8 +74,13 @@ for (const id of gatedIds) {
     console.log(`[机器闸门门] ℹ️ ${id}: 有 digest 但无集页 samples/${id}.md(未发布)→ 跳过发布产物一致性检查`);
   } else {
     try {
-      const { meta, digest, entities } = loadEpisode(join(base, id));
-      const expected = renderEpisode(meta, digest, entities);
+      let expected;
+      if (expectedPages.has(id)) {
+        expected = expectedPages.get(id); // C6:跨集渲染(含相关单集)
+      } else {
+        const { meta, digest, entities } = loadEpisode(join(base, id)); // C2 期无 entities:退回单集渲染
+        expected = renderEpisode(meta, digest, entities);
+      }
       const actual = readFileSync(sample, "utf8");
       if (expected !== actual) {
         console.error(`[机器闸门门] ❌ ${id}: **集页与过闸门的 digest 对不上**(samples/${id}.md)`);
@@ -126,6 +145,46 @@ if (existsSync(join(samplesDir, "entities"))) {
   } catch (e) {
     bad++;
     console.error(`[机器闸门门] ❌ 实体层闸门执行失败(fail-closed,不放行):${e.message}`);
+  }
+}
+
+// ── C6 关联层闸门:相关单集死链(US-7「点击可跳」的目标集必须有页)──
+//   一致性/分组正确已由上面②b 跨集重渲染比对覆盖;这里补死链。fail-closed。
+if (existsSync(samplesDir)) {
+  try {
+    const rel = gateRelations(loadAllEpisodes(base), (id) => publishedIds.includes(id));
+    if (rel.pass) {
+      console.log(`[机器闸门门] ✅ 关联层过(相关单集 0 死链)`);
+    } else {
+      bad++;
+      console.error(`[机器闸门门] ❌ 关联层未过(${rel.failures.length} 条):`);
+      for (const f of rel.failures.slice(0, 12)) console.error(`   [${f.kind}] ${f.epId} — ${f.reason}`);
+      console.error(`              → 补渲染缺页:node scripts/build-pages.mjs`);
+    }
+  } catch (e) {
+    bad++;
+    console.error(`[机器闸门门] ❌ 关联层闸门执行失败(fail-closed,不放行):${e.message}`);
+  }
+}
+
+// ── C4 音频层闸门:每发布集必有音频 + 时长>0 + 源文本一致(防陈旧) + feed enclosure 真实。fail-closed ──
+if (existsSync(samplesDir) && publishedIds.length) {
+  try {
+    const feedEnclosures = publishedIds
+      .map((id) => ({ id, path: join(base, id, "audio.mp3") }))
+      .filter((e) => existsSync(e.path));
+    const au = await gateAudio(publishedIds, { base, feedEnclosures });
+    if (au.ok) {
+      console.log(`[机器闸门门] ✅ 音频层过(${publishedIds.length} 集:音频存在/时长/源一致/enclosure 真实)`);
+    } else {
+      bad++;
+      console.error(`[机器闸门门] ❌ 音频层未过(${au.failures.length} 条):`);
+      for (const f of au.failures.slice(0, 12)) console.error(`   [${f.kind}] ${f.id} — ${f.reason}`);
+      console.error(`              → 补合成:node scripts/tts.mjs data/episodes/<id>`);
+    }
+  } catch (e) {
+    bad++;
+    console.error(`[机器闸门门] ❌ 音频层闸门执行失败(fail-closed,不放行):${e.message}`);
   }
 }
 

@@ -119,6 +119,62 @@ export function related(agg, episodes, pageIds) {
   return items.map((i) => i.id);
 }
 
+/**
+ * C6 · 集↔集「相关单集」(US-7):按共享实体 id 算相关,分组注原因。
+ * **排除 host**:host 是节目结构性常驻主持(按角色约定每集都在),「同主持」= 同一个节目,
+ * 是噪音不是相关信号(US-7 明写「同嘉宾/同概念/同公司」,不含主持)。以目标集里该实体的类型分组。
+ * **泛噪闸(依独立审计 2026-07-18)**:共享实体必须**至少一集是 primary(真讨论过)**才算相关信号——
+ * 两集都只「一句带过」(都非 primary)的共享概念不算,否则语料变大后到处是弱/误关联。
+ * `strong` = 两集都 primary(都主讨论);排序/展示 strong 在前,strongScore 主导排名。
+ * 返回 [{ epId, epTitle, epDate, shared:{guests,companies,concepts}, score, strongScore }],
+ * 每桶元素 = { id, name, file, strong }。minShared 挡泛噪(Scenario 1b)。
+ * ⚠️ 未做(记 tech-debt,C5 灌 50 集再调):cohost 排除、按出现频率的 ubiquity 泛噪过滤。
+ */
+export function relatedEpisodes(targetEpId, episodes, { minShared = 1 } = {}) {
+  const target = episodes.find((ep) => ep.meta?.id === targetEpId);
+  if (!target) return [];
+  // 目标集「可作相关信号」的实体(排除 host):id -> {id,name,file,type,primaryInTarget}
+  const signal = new Map();
+  for (const e of target.entities?.entities ?? []) {
+    if (e.type === "person" && e.role === "host") continue; // host 结构性噪音,排除
+    signal.set(e.id, { id: e.id, name: e.name, file: e.file, type: e.type, primaryInTarget: !!e.primary });
+  }
+  const out = [];
+  for (const ep of episodes) {
+    if (ep.meta?.id === targetEpId) continue;
+    const shared = { guests: [], companies: [], concepts: [] };
+    const seen = new Set();
+    for (const e of ep.entities?.entities ?? []) {
+      if (!signal.has(e.id) || seen.has(e.id)) continue;
+      seen.add(e.id);
+      const s = signal.get(e.id);
+      if (!s.primaryInTarget && !e.primary) continue; // 两集都非 primary(都一句带过)→ 噪音,不算
+      const strong = s.primaryInTarget && !!e.primary; // 两集都主讨论 = 深度相关
+      const bucket = s.type === "person" ? "guests" : s.type === "company" ? "companies" : "concepts";
+      shared[bucket].push({ id: s.id, name: s.name, file: s.file, strong });
+    }
+    // 桶内:strong(两集都主讨论)在前,再按 file 名稳定(审计:原按对方数组序无语义)
+    for (const k of ["guests", "companies", "concepts"]) {
+      shared[k].sort((a, b) => b.strong - a.strong || String(a.file).localeCompare(String(b.file)));
+    }
+    const items = [...shared.guests, ...shared.companies, ...shared.concepts];
+    const score = items.length; // 合格共享数(已排除 primary-in-neither 噪音)
+    const strongScore = items.filter((x) => x.strong).length; // 两集都主讨论的数
+    if (score >= minShared) {
+      out.push({ epId: ep.meta.id, epTitle: ep.meta.title_zh ?? ep.meta.id, epDate: ep.meta.date, shared, score, strongScore });
+    }
+  }
+  // 排名:强共享多的排前(审计:强主题应主导)→ 合格共享多 → 日期升序 → id 稳定
+  out.sort(
+    (a, b) =>
+      b.strongScore - a.strongScore ||
+      b.score - a.score ||
+      String(a.epDate).localeCompare(String(b.epDate)) ||
+      String(a.epId).localeCompare(String(b.epId)),
+  );
+  return out;
+}
+
 /** 一个实体 → 一页 markdown。pageById: id→{file,name} 供关联区链名。 */
 export function renderEntityPage(agg, quotes, relatedIds, pageById, aliasById = new Map()) {
   const alias = aliasById.get(agg.id);

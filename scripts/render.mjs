@@ -63,6 +63,28 @@ export function renderRelations(entities, meta) {
   return `> [!info] 关联\n${rows.join("\n>\n")}`;
 }
 
+/**
+ * C6 · 关联区③「相关单集」(US-7):列相关集 + 注明关联原因(同嘉宾/同概念/同公司)+ 点跳。
+ * related = build-entities.relatedEpisodes() 的结果(每条含 shared:{guests,companies,concepts})。
+ * 空/无 → 返回 ""(整段不渲染,Scenario 1a:不留空框)。
+ */
+export function renderRelatedEpisodes(related) {
+  if (!related || !related.length) return "";
+  const DIM = { guests: "同嘉宾", companies: "同公司", concepts: "同概念" };
+  const lines = related.map((r) => {
+    const reasons = ["guests", "companies", "concepts"]
+      .filter((k) => r.shared?.[k]?.length)
+      .map((k) => `${DIM[k]}:${r.shared[k].map((x) => x.name).join("、")}`);
+    return `- [[${r.epId}|《${r.epTitle}》]] —— ${reasons.join(" · ")}`;
+  });
+  return `## 相关单集\n\n${lines.join("\n")}`;
+}
+
+/** C4 · 详情页音频播放器(US-5)。音频缺失/加载失败 → 浏览器原生降级为不可用态,不卡死页面(Scenario 2a)。 */
+export function renderAudioPlayer(meta) {
+  return `## 🎧 本集中文精华音频\n\n<audio controls preload="metadata" src="/audio/${meta.id}.mp3" style="width:100%">你的浏览器不支持音频播放,或音频尚未生成。</audio>`;
+}
+
 // 不补链的行:【背景】块 / 引用续行(AI 补充,非本集实体讨论)/ 标题行(链进标题会毁锚点、Quartz 渲染差)
 const BACKGROUND_LINE_RE = /^\s*(?:>+\s*)*(?:[-*+]\s*)?【背景】/;
 const QUOTE_LINE_RE = /^\s*>+/;
@@ -137,9 +159,10 @@ function renderFrontmatter(meta, digest, entities) {
 }
 
 /** meta + digest(+ entities)→ 集页 markdown(纯函数;gate-all 复用它做「重渲染比对」) */
-export function renderEpisode(meta, digest, entities = null) {
+export function renderEpisode(meta, digest, entities = null, related = null) {
   const dur = mmss(meta.duration_sec);
   const fm = renderFrontmatter(meta, digest, entities);
+  const relatedSection = renderRelatedEpisodes(related); // C6 关联区③(空则 "")
 
   // 顶部:有 entities → 关联区(按角色分行);否则 C2 info callout(host=null 时不打印主持)
   const guestsLine = (meta.guests || [])
@@ -172,6 +195,8 @@ export function renderEpisode(meta, digest, entities = null) {
 
 ${top}
 
+${renderAudioPlayer(meta)}
+
 ## 一句话 TLDR
 
 ${digest.tldr}
@@ -180,7 +205,7 @@ ${bodyMd.trim()}
 
 ## 金句(中英对照 · 过机器闸门三联校验)
 
-${quoteBlocks}
+${quoteBlocks}${relatedSection ? `\n\n${relatedSection}` : ""}
 
 ---
 

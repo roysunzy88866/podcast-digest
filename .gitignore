@@ -2,6 +2,7 @@ node_modules/
 dist/
 .env
 .env.*
+!.env.example
 .wrangler/
 .DS_Store
 site/
@@ -12,3 +13,12 @@ data/episodes/*/.digest-raw.txt
 # C3 实体抽取的 GLM 原始输出缓存(可再生;产物 entities.json 入库)
 data/episodes/*/.entities-raw.txt
 data/episodes/*/.entities-raw.bad.txt
+
+# C4 edge-tts 本地 venv(免 key,不进仓库)
+.venv/
+
+# C4 音频产物(可再生:npm run tts 从 digest 合成 + build:feed)。大二进制不入库。
+# 决策待用户结项拍板:commit 音频(clone 即用,repo 变大)vs 再生(clone 后跑 tts)。
+data/episodes/*/audio.mp3
+data/episodes/*/audio.meta.json
+feed.xml
