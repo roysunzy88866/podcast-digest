@@ -1,13 +1,18 @@
 # WIP
 
-- **上次到**:**C6 + C4 双线机器侧全部做完,机器全绿,只差你亲手验收**(2026-07-18,用户「这个 session 把 C4 C6 一起做完」→ 一口气推完,中途没停问)。
-  · **C6 关联导航(US-7/9④/10)**:`relatedEpisodes` 集↔集按共享实体聚合(**排 host、须 ≥1 集 primary 才算、强弱权重**,依独立审计整改)→ `build-pages.mjs` 跨集渲染(写库与 gate-all 重算共用,一致性自动防漂移)→ 集页底部「相关单集」按同嘉宾/同概念/同公司注原因+点跳 → `gate-relations.mjs` 死链闸门 → 局部/全局图谱白送(P1 实测渲染,证据 `docs/c6-p1-图谱核验证据.md`)。`verify:c6` 全绿。
-  · **C4 音频(US-5)**:引擎 **edge-tts**(白嫖 Edge 大声朗读的微软晓晓,**免 key 免账号、国内直连**;drift #13,本机 P1 真调过,证据 `docs/c4-p1-edge-tts核验证据.md`)→ `tts.mjs`(复用回收脚手架 strip/chunk/编排/缓存,合成换 edge-tts;Azure 留 `synthesizeChunkAzure` fallback)**真合成两集音频**(Modal 9.6min/Databricks 8.1min,晓晓)→ 详情页 `<audio>` 播放器(Quartz 真渲染、音频 200 可加载)→ `build-feed.mjs` 私有播客 feed(RSS2.0+iTunes)→ `gate-audio.mjs` 音频层闸门(fail-closed:缺音频/读不了/源不一致/死 enclosure 全拦)。`verify:c4` 全绿。
-  · **机器全绿**:263 vitest、gate-all 五层(三联+事实+实体+关联+音频)、verify:c3/c6/c4 全过、真 build 169 文件不崩。
-  · **过 GLM 独立审计**:007(relatedEpisodes 泛噪整改)/009(C6 接线,real 2 已修)/010(C4,real 1 已修:feed 检查改查该集自己 enclosure)。**独立子 agent 交付物审计**(用户要求):逮到 relatedEpisodes「不区分 primary 权重」真问题→已修+真数据实证;edge-tts P1 独立复现 4 claim 全真。
-  · **⏳ 待你验收(机器绿≠通过,铁律)**:①集页点「相关单集」跳相关集 ②点 ▶ 听晓晓中文精华配音(听感认可?)③进图谱漫游。**通过后 C4/C6 翻 ✅ + 提交**。起站:`node scripts/build-pages.mjs && node scripts/build-feed.mjs --out feed.xml`,再照下方「本地起站」灌 samples+entities+**音频**后 build --serve。
-  · **待你结项拍板的债**:音频存储(commit 大二进制 vs clone 后再生,现 gitignore)/ D32(相关单集大规模 ubiquity 泛噪,C5 调)/ US-10 图谱价值自评。
-  · **本机新增**:项目 `.venv`(edge-tts,gitignore);脚本 build-pages/gate-relations/verify-c6/tts/build-feed/gate-audio/verify-c4;对应 npm scripts。
+- **上次到**:**C4 + C6 已用户明文验收并提交(`346d0a2` / `5d178ca`);本 session 过独立交付物审计 → 修 F1 + 校正账,准备开 C5**(2026-07-18)。
+  · **独立交付物审计(两路子 agent:C4 音频 / C6 关联,各造攻击打闸门)**:两片核心真实、扛对抗、**无阻断**;共性毛病=**机器诚实但文字/账面略夸**(本项目最常犯元错误,这次又冒头)。处置:
+    - **C4 F1 → 已修(`53ed49a`,[standard-change])**:音频闸门 ④「防死enclosure」被三处调用点架空(从集 id 重构路径再 `.filter(existsSync)` 先滤死链再查、feed.xml 从不解析)= gate 洞第 4 次同款。修:新增 `feedEnclosuresFromXml` 真解析 feed;实证 GHOST 攻击被 gate-audio + gate-all 双拦。见 D35。
+    - **C4 F2 → 记账 D33(推迟 C7)**:feed enclosure 是仓库相对路径非真网址 → 现在播客 App 收听不了,US-5 那条 `And` 未闭合(C7 换 R2 URL 才通)。
+    - **C6 007 → 改账(D32 更正)**:primary 权重整改是**单测实证、非真数据实证**(2 集触发不了它、读者也看不见效果),真语料待 C5。
+    - 次要:D34(verify 的「可加载/图谱渲染」是存在性代理,非真请求/真渲染)/ C4 F3(Azure 非自动降级——设计其实合理,仅证据文档措辞略夸,不改码)。
+  · **C6 关联导航(US-7/9④/10)· 已验收**:`relatedEpisodes` 集↔集按共享实体(排 host、须 ≥1 集 primary、强弱权重)→ 集页「相关单集」注原因+点跳 → `gate-relations` 死链闸门 → 局部/全局图谱。`verify:c6` 绿。
+  · **C4 音频(US-5)· 已验收**:edge-tts 晓晓合成两集(9.6/8.1 min 真 mp3)→ 详情页 `<audio>` → `build-feed` 私有 feed → `gate-audio` 四条 fail-closed(④ 经 F1 修后名副其实)。`verify:c4` 绿。
+  · **机器全绿**:279 vitest(F1 +4)、gate-all 五层(三联+事实+实体+关联+音频)、verify:c3/c6/c4、真 build 169 文件不崩。
+  · **待结项拍板的债**:音频存储(commit 大二进制 vs clone 后再生,现 gitignore)/ D32(相关单集规模泛噪 + 强弱不可见,C5)/ D33(feed 可订阅性,C7)/ US-10 图谱价值自评。
+  · **本机脚本**:build-pages/gate-relations/verify-c6/tts/build-feed/gate-audio/verify-c4 + 项目 `.venv`(edge-tts,gitignore)。
+
+- **下一步 = C5 开工(列表页,US-1/2/3:单集卡流 + 标签筛选 + 搜索)**:用户 2026-07-18 拍板 **先做界面(现有 2 集即可演示卡流/标签/搜索)+ 打通 ASR 试灌 1 集没官方稿的(~几元,证进料口通)**;灌满 50 集验中文搜索质量 **单列一个花钱批次**,界面做完再拍板灌多少、何时花钱。C5 前置债:**D22**(官方稿仅 8 期 → ASR 兜底;`fetch-source-asr.mjs` 已 P1 真调、端到端灌一集这步待做)/ **D24**(别名表自动灌种)/ **D30**(人物金句墙跨集异名)。**照 SOP:先补 C5 Gherkin 到 `docs/user-stories.md` → 二次确认 → 才进红绿循环。**
 
 - **(更早)C3**:**C3 ✅ 完成(用户 2026-07-18 明文通过验收 + 已提交 `9f7b630`)**。2026-07-18 一口气做完 Scenario 2-5 + 过独立审计整改:
   · **Scenario 2 实体抽取** `extract-entities.mjs`:人物从 meta 派生(不问 GLM)/公司概念 GLM 抽 + 回原文命中判据复用 `checkProperNoun`/evidence 代码检索/tags。真跑两集:集1 31 实体、集2 21 实体,拦下 GLM 编造(supercloud/cold start/multinode—原文 0 次)。**改 prompt 重跑一次**(~1 元)让「智能体」这类共性概念被抽出→**跨集聚合真立起来**。
