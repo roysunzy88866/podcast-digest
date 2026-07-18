@@ -9,6 +9,7 @@ import { readFileSync, existsSync, statSync, readdirSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 import { gateAudio } from "./gate-audio.mjs";
+import { feedEnclosuresFromXml } from "./build-feed.mjs";
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const pub = join(root, "site/public");
@@ -23,10 +24,11 @@ const publishedIds = existsSync(samplesDir)
   ? readdirSync(samplesDir).filter((f) => f.endsWith(".md")).map((f) => f.replace(/\.md$/, ""))
   : [];
 
-// ① 音频层闸门
-const feedEnclosures = publishedIds
-  .map((id) => ({ id, path: join(base, id, "audio.mp3") }))
-  .filter((e) => existsSync(e.path));
+// ① 音频层闸门(④ 真解析 feed.xml 写的每条 enclosure,不从 id 重构再滤掉不存在的——死链才逮得到)
+const feedForGate = join(root, "feed.xml");
+const feedEnclosures = existsSync(feedForGate)
+  ? feedEnclosuresFromXml(readFileSync(feedForGate, "utf8"), { root })
+  : [];
 const au = await gateAudio(publishedIds, { base, feedEnclosures });
 if (au.ok) pass(`音频层闸门:${publishedIds.length} 集音频存在/时长/源一致/enclosure 真实`);
 else {

@@ -14,6 +14,7 @@ import { readFileSync, existsSync, statSync, readdirSync, realpathSync } from "n
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { sourceHash, ffprobeDuration } from "./tts.mjs";
+import { feedEnclosuresFromXml } from "./build-feed.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -150,9 +151,12 @@ if (isMain) {
         .filter((f) => f.endsWith(".md"))
         .map((f) => f.replace(/\.md$/, ""))
     : [];
-  const feedEnclosures = published
-    .map((id) => ({ id, path: join(base, id, "audio.mp3") }))
-    .filter((e) => existsSync(e.path));
+  // ④ 真解析 feed.xml 写的每条 enclosure(而非从 id 重构再滤掉不存在的——那样死链永不触发)。
+  // 没 feed = 没 enclosure 可查(音频本身仍由 ①②③ 守);有 feed 就如实核它写的每条 url。
+  const feedPath = join(ROOT, "feed.xml");
+  const feedEnclosures = existsSync(feedPath)
+    ? feedEnclosuresFromXml(readFileSync(feedPath, "utf8"), { root: ROOT })
+    : [];
   const r = await gateAudio(published, { base, feedEnclosures });
   console.log(`── 音频闸门 · ${published.length} 已发布集 / ${feedEnclosures.length} enclosure ──`);
   if (!r.ok) {

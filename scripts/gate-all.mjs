@@ -13,6 +13,7 @@ import { gateFacts } from "./gate-facts.mjs";
 import { gateEntities } from "./gate-entities.mjs";
 import { gateRelations } from "./gate-relations.mjs";
 import { gateAudio } from "./gate-audio.mjs";
+import { feedEnclosuresFromXml } from "./build-feed.mjs";
 import { renderEpisode, loadEpisode } from "./render.mjs";
 import { renderAllEpisodes } from "./build-pages.mjs";
 import { loadAllEpisodes } from "./build-entities.mjs";
@@ -170,9 +171,11 @@ if (existsSync(samplesDir)) {
 // ── C4 音频层闸门:每发布集必有音频 + 时长>0 + 源文本一致(防陈旧) + feed enclosure 真实。fail-closed ──
 if (existsSync(samplesDir) && publishedIds.length) {
   try {
-    const feedEnclosures = publishedIds
-      .map((id) => ({ id, path: join(base, id, "audio.mp3") }))
-      .filter((e) => existsSync(e.path));
+    // ④ 真解析 feed.xml 写的每条 enclosure(不从 id 重构再滤存在的——死链才逮得到)。没 feed 则 ④ 无可查,①②③ 仍守。
+    const feedPath = join(ROOT, "feed.xml");
+    const feedEnclosures = existsSync(feedPath)
+      ? feedEnclosuresFromXml(readFileSync(feedPath, "utf8"), { root: ROOT })
+      : [];
     const au = await gateAudio(publishedIds, { base, feedEnclosures });
     if (au.ok) {
       console.log(`[机器闸门门] ✅ 音频层过(${publishedIds.length} 集:音频存在/时长/源一致/enclosure 真实)`);

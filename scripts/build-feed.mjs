@@ -90,6 +90,39 @@ ${items}
 `;
 }
 
+// ── 反向:从已生成的 feed.xml 读回 enclosure,供音频闸门 ④ 核实「feed 写的每条音频都真实存在」──
+export function xmlUnescape(s) {
+  return String(s ?? "")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&apos;/g, "'")
+    .replace(/&amp;/g, "&"); // &amp; 最后还原,避免二次解码
+}
+
+/** 从 feed.xml 全文解析出所有 <enclosure url="X"> 的 url(已 XML 反转义)。 */
+export function parseFeedEnclosureUrls(feedXml) {
+  const urls = [];
+  const re = /<enclosure\b[^>]*?\burl="([^"]*)"/g;
+  let m;
+  while ((m = re.exec(String(feedXml ?? ""))) !== null) urls.push(xmlUnescape(m[1]));
+  return urls;
+}
+
+/**
+ * 读 feed.xml,把每个「本地相对路径」enclosure url 映射成 { id, path } 供 gateAudio ④ 核实真实存在。
+ * ⚠️ 绝不在此过滤「文件是否存在」——死链正是要交给闸门去逮的;这里如实把 feed 写了什么全交出去。
+ *    (三处调用点曾从集 id 重构路径再 filter(existsSync),等于先滤掉死链再检查,④ 永不触发。)
+ * http(s) 的 url(C7 上云后的 R2 地址)本地无从核,跳过、留 C7 另核。
+ * @param feedXml feed.xml 全文
+ * @param root 仓库根,相对路径据此解析成绝对路径
+ */
+export function feedEnclosuresFromXml(feedXml, { root }) {
+  return parseFeedEnclosureUrls(feedXml)
+    .filter((u) => u && !/^https?:\/\//i.test(u))
+    .map((u) => ({ id: u, path: resolve(root, u) }));
+}
+
 // ── CLI:从 data/episodes 收集有音频的集,输出 feed.xml 到 stdout(或 --out 路径)──
 // 本地路径模式(C4 不上云):enclosure url 用本集 audio.mp3 的相对路径,gate-audio ④ 会核它真实存在。
 // 真上云(C7)时把 url 换成 R2 公开地址即可。

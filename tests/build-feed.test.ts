@@ -1,7 +1,16 @@
 // C4 Scenario 3 · 私有播客 feed(RSS 2.0 + iTunes)真业务测试。
 // 只调被测函数;每条尽量可变异验证(★)。
 import { describe, it, expect } from "vitest";
-import { buildFeedXml, buildItem, hasAudio, toRfc822, formatDuration, xmlEscape } from "../scripts/build-feed.mjs";
+import {
+  buildFeedXml,
+  buildItem,
+  hasAudio,
+  toRfc822,
+  formatDuration,
+  xmlEscape,
+  parseFeedEnclosureUrls,
+  feedEnclosuresFromXml,
+} from "../scripts/build-feed.mjs";
 
 const EP_A = {
   id: "2026-07-08-modal",
@@ -87,6 +96,49 @@ describe("buildFeedXml · RSS 2.0 + iTunes 命名空间;无音频集剔除", () 
     const empty = buildFeedXml([], {});
     expect(empty).toContain("<channel>");
     expect((empty.match(/<item>/g) || []).length).toBe(0);
+  });
+});
+
+describe("parseFeedEnclosureUrls / feedEnclosuresFromXml · 读回 enclosure 供闸门 ④(F1 修复)", () => {
+  const xml = buildFeedXml(
+    [
+      { ...EP_A, audioUrl: "data/episodes/a/audio.mp3" },
+      { ...EP_A, id: "b", title: "B", audioUrl: "data/episodes/b/audio.mp3" },
+    ],
+    {},
+  );
+
+  it("★ 解析出 feed 里每条 <enclosure url>(顺序保真)", () => {
+    expect(parseFeedEnclosureUrls(xml)).toEqual([
+      "data/episodes/a/audio.mp3",
+      "data/episodes/b/audio.mp3",
+    ]);
+  });
+
+  it("★ url 里的 XML 转义字符被正确反解析(&amp; → &)", () => {
+    const item = buildItem({ ...EP_A, audioUrl: "data/x&y/audio.mp3" });
+    expect(item).toContain('url="data/x&amp;y/audio.mp3"'); // feed 里是转义态
+    expect(parseFeedEnclosureUrls(item)).toEqual(["data/x&y/audio.mp3"]); // 读回是原始态
+  });
+
+  it("★ 映射成 { id, path } 绝对路径;http(s) 的 R2 url 跳过(C7 另核)", () => {
+    const mixed = buildFeedXml(
+      [
+        { ...EP_A, audioUrl: "data/episodes/a/audio.mp3" },
+        { ...EP_A, id: "r2", title: "R2", audioUrl: "https://r2.example/b.mp3" },
+      ],
+      {},
+    );
+    expect(feedEnclosuresFromXml(mixed, { root: "/repo" })).toEqual([
+      { id: "data/episodes/a/audio.mp3", path: "/repo/data/episodes/a/audio.mp3" },
+    ]);
+  });
+
+  it("★★ 死链回归守卫:feed 写了但文件不存在,绝不在此被过滤掉(否则闸门 ④ 永不触发=F1 病根)", () => {
+    const ghostXml = buildFeedXml([{ ...EP_A, audioUrl: "data/episodes/ghost/audio.mp3" }], {});
+    const encs = feedEnclosuresFromXml(ghostXml, { root: "/nonexistent-root" });
+    expect(encs).toHaveLength(1); // 原样交给闸门,而非旧代码 .filter(existsSync) 先滤掉死链
+    expect(encs[0].path).toBe("/nonexistent-root/data/episodes/ghost/audio.mp3");
   });
 });
 
