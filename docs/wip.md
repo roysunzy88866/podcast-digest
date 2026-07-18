@@ -1,6 +1,15 @@
 # WIP
 
-- **上次到**:**C4 + C6 已用户明文验收并提交(`346d0a2` / `5d178ca`);本 session 过独立交付物审计 → 修 F1 + 校正账,准备开 C5**(2026-07-18)。
+- **上次到**:**C1–C6 全部 ✅ 验收;本 session(2026-07-19)开 C7=上云,拆 C7a/b/c(drift #15);C7a 已定「站点完全公开、去 Access」(drift #17 / ADR 0010),下一步进 P1 装 wrangler + 用户登录 CF**。
+  · **两锚校验无漂移**:git `a9f8257 [C5 ✅]` ↔ story-map(C1–C6 ✅/C7 ⏳)↔ wip 一致。GLM scorecard 救命 28/漏报 0,可信。
+  · **拆片(drift #15)**:**C7a 能看能听**(Pages 公开部署+R2 托音频→feed 真可订阅,闭合 D33)/ **C7b 无人值守**(Workers 定时轮询→全自动发布,做前再确认风险)/ **C7c 运维硬化**(GitHub+CI/失败告警/额度告警/R2 备份/回滚演练/钉版本 D21/前端库自托管 D36)。
+  · **4 决策(drift #15)**:部署=**交互式**(用户本机 `wrangler login`、Claude 指挥不碰凭证);无人值守=**全自动不等人**(C7b 兑现,与「亲手验收」纪律的张力已记、做 C7b 再确认);域名=`listen.hearagain.space`(暂,后换)。
+  · **客观前置核查**:无 git 远端/无 wrangler(D2)/无 CI/无 Workers 源码 → C7 从零搭全套云。
+  · **🟢 C7a 去 Access · 站点完全公开(drift #17 / ADR 0010)**:用户指出「Access 登录门=过度设计」——**「小圈子私有」是受众定位、不是访问加密**;明文选**完全公开**(可被搜索引擎收录)。**假矛盾消失**(公开后 feed+音频天然可达、播客 App 直接订、**D33 直接闭合**);**版权敞口扩大到公开二次分发,用户明文接受自担**。我复盘认账:曾把受众定位错升级成 Access 加密门、还上纲上线。
+  · **已落盘**:drift #15/#17、需求共识 L31⑥/L194 留痕改、ADR 0010、上线前checklist 第1项作废、story-map、user-stories C7a 简化重写(4 Scenario/DoD 6 条,去 Access)。
+  · **下一步(进红绿循环)**:①**P1** 装 wrangler + 用户 `wrangler login`(Claude 不碰凭证)②**P2** R2 传 1 音频真 curl 200 ③ R2 建桶传两集音频 + feed enclosure 换公开 URL(闭合 D33)+ Pages 公开部署绑域名 ④ 用户真手机+播客 App 验收。
+
+- **(C5 及更早)上次到**:**C4 + C6 已用户明文验收并提交(`346d0a2` / `5d178ca`);本 session 过独立交付物审计 → 修 F1 + 校正账,准备开 C5**(2026-07-18)。
   · **独立交付物审计(两路子 agent:C4 音频 / C6 关联,各造攻击打闸门)**:两片核心真实、扛对抗、**无阻断**;共性毛病=**机器诚实但文字/账面略夸**(本项目最常犯元错误,这次又冒头)。处置:
     - **C4 F1 → 已修(`53ed49a`,[standard-change])**:音频闸门 ④「防死enclosure」被三处调用点架空(从集 id 重构路径再 `.filter(existsSync)` 先滤死链再查、feed.xml 从不解析)= gate 洞第 4 次同款。修:新增 `feedEnclosuresFromXml` 真解析 feed;实证 GHOST 攻击被 gate-audio + gate-all 双拦。见 D35。
     - **C4 F2 → 记账 D33(推迟 C7)**:feed enclosure 是仓库相对路径非真网址 → 现在播客 App 收听不了,US-5 那条 `And` 未闭合(C7 换 R2 URL 才通)。
