@@ -12,11 +12,11 @@
   · **待结项拍板的债**:音频存储(commit 大二进制 vs clone 后再生,现 gitignore)/ D32(相关单集规模泛噪 + 强弱不可见,C5)/ D33(feed 可订阅性,C7)/ US-10 图谱价值自评。
   · **本机脚本**:build-pages/gate-relations/verify-c6/tts/build-feed/gate-audio/verify-c4 + 项目 `.venv`(edge-tts,gitignore)。
 
-- **C5 进行中(列表页,US-1/2/3)· 界面已做完并提交,ASR 试灌卡在用户 key**:
+- **C5 收尾(列表页,US-1/2/3)· 界面已用户明文验收 ✅(「界面我看了,没有问题」);ASR 进料口机器端到端已证(P2),the-lab 试跑品已清理**(2026-07-18):
   · **界面 ✅(commit `936e1ff`)**:P1 中文搜索通过(实测「智能体」「投机解码」精准)→ `build-list.mjs` 生成 content/index.md(单集卡流 + 标签筛选 + 搜索接入;内联脚本挂 Quartz `nav` 事件 → SPA 换页不失效)→ 浏览器端到端实测(标签筛选全周期 / 已读压暗跨 SPA 存活 / 点标签筛到 1 张)→ verify:c5 + build-list 8 单测 + 287 全套绿。US-3 搜索复用 Quartz 顶栏(首页也可达)。
   · **过 GLM 独立复核 018(C5 + F1 代码)**:5 条全 **noise**(本机真跑核过:package.json JSON 解析正常、xmlUnescape 往返身份一致、`<div>` 在 `<a>` 内 HTML5 合法且浏览器验过渲染/点击、date 恒 ISO);顺手修我引入的 package.json 缩进不一致。
-  · **⛔ 待用户:ASR 端到端试灌 1 集(Scenario 4,D22)**——需 ①用户 AssemblyAI key(**无 .env,我不碰明文**)②选一集没官方稿的 + 音频直链 ③转写后据说话人证据分配真名 ④~1-2 元(GLM)+ 几分钱(ASR)。灌满 50 集大验收单列花钱批次。
-  · C5 相关债:D22(进料口)/ D24(别名表灌种)/ D30(跨集异名)随灌多集面对;D32(相关单集规模泛噪)灌量时调。
+  · **ASR 端到端试灌(Scenario 4,D22)✅ 机器已证**:the-lab(有官方稿,当 ASR 测试靶)→ AssemblyAI 转写(312 段/18726 词/4 说话人,自报家门坐实)→ 全译 0 空译 → 浓缩 8612 字精华(质量在线、GLM 准确认出说话人)→ 判官 29→11、9 金句过三联 → 22 实体 0 编造 + 5 tags → edge-tts 配音 → 跨集关联进 KB。**唯一卡点** gate-facts D8 名字归一化(Rafa 简称 vs 全名,记 D37)故未发布;the-lab 有官方稿 → ASR 版 throwaway 已清理。证据 `docs/d22-p2-asr端到端试灌证据.md`。
+  · **灌满 50 集 + ASR 选型(AssemblyAI vs Cloudflare 分离,用户 2026-07-18 提出核实 CF)= 单列灌量批次**。C5 相关债:D22(进料口机器已还)/ D24(别名表灌种)/ D30(跨集异名)/ D37(ASR 长全名简称)随灌量面对;D32(规模泛噪)灌量时调;中文搜索规模质量待 50 集验。
 
 - **(更早)C3**:**C3 ✅ 完成(用户 2026-07-18 明文通过验收 + 已提交 `9f7b630`)**。2026-07-18 一口气做完 Scenario 2-5 + 过独立审计整改:
   · **Scenario 2 实体抽取** `extract-entities.mjs`:人物从 meta 派生(不问 GLM)/公司概念 GLM 抽 + 回原文命中判据复用 `checkProperNoun`/evidence 代码检索/tags。真跑两集:集1 31 实体、集2 21 实体,拦下 GLM 编造(supercloud/cold start/multinode—原文 0 次)。**改 prompt 重跑一次**(~1 元)让「智能体」这类共性概念被抽出→**跨集聚合真立起来**。
