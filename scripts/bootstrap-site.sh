@@ -59,6 +59,9 @@ if ls "$ROOT"/samples/entities/*.md >/dev/null 2>&1; then
   echo "    已灌 $(ls "$ROOT"/samples/entities/*.md | wc -l | tr -d ' ') 个实体页"
 fi
 
+echo "==> 4.5/5 生成列表页首页(单集卡流,US-1/2/3;从 data/episodes 算 → content/index.md)"
+node "$ROOT"/scripts/build-list.mjs
+
 echo "==> 5/5 build"
 node ./quartz/bootstrap-cli.mjs build
 

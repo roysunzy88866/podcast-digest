@@ -17,7 +17,9 @@
     "tts": "node scripts/tts.mjs",
     "build:feed": "node scripts/build-feed.mjs --out feed.xml",
     "gate:audio": "node scripts/gate-audio.mjs",
-    "verify:c4": "node scripts/verify-c4.mjs"
+    "verify:c4": "node scripts/verify-c4.mjs",
+  "build:list": "node scripts/build-list.mjs",
+  "verify:c5": "node scripts/verify-c5.mjs"
   },
   "devDependencies": {
     "vitest": "^4.1.10"
