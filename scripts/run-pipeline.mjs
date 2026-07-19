@@ -122,6 +122,8 @@ function processEpisode(item, id) {
     console.log("   官方稿取源失败 → 尝试 ASR 兜底(fetch-source-asr)");
     run("node", ["scripts/fetch-source-asr.mjs", item.link, id]);
   }
+  // 无人值守补人工缺口:GLM 推说话人真名 + grounding 机器校(drift #23),传 RSS 标题当候选名源
+  run("node", ["scripts/infer-speakers.mjs", dir, item.title]);
   run("node", ["scripts/translate.mjs", dir]);
   run("node", ["scripts/condense.mjs", dir]);
   run("node", ["scripts/judge-quotes.mjs", dir]);
