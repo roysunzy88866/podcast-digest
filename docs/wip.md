@@ -20,7 +20,10 @@
   · **Scenario 3 workflow 已写(待验)**:`.github/workflows/pipeline.yml` —— cron 每天 UTC 02:00(北京 10:00)+ 手动 → 装 ffmpeg/edge-tts/node deps → 跑 run-pipeline → **判 has_new(pipeline-state/data 变没变)** → 真有新集才:bootstrap Quartz(`-b voice.solomind.cc`)+ 灌 samples + build + **音频 cp 进 public/audio(C7a 当年手动,此处脚本化)** + `wrangler pages deploy public --project-name voice-solomind` → 新集 commit 回仓 → job summary。**安全**:无新集/闸门不过不 deploy(保上一版);失败靠 GitHub 原生邮件。CI 检出不带 .git 钩子 → bot commit 不被格式门拦、不触发本 workflow(无死循环)。
   · **Scenario 3 骨架 ✅ 验通**(run 29676092803,56s 绿):CI 装环境(ffmpeg+edge-tts+deps)✓、编排器跑✓(RSS20→2访谈、cutoff07-16、0新集干净退出)、**has_new=false → 部署+commit回仓两步正确跳过**(不碰线上、没用 CF token)。管道通。CF account id=`ac6b3134d98758210ac27d37bd7d5a2d`(非机密)已写死进 workflow → 用户只需加 1 个 Secret。
   · **drift #23 说话人推断 ✅**:`scripts/infer-speakers.mjs`(GLM 推 SPEAKER→真名 + grounding 机器校防编造 + 派生 guests/host)接进编排器 fetch-source 后;真集 lab 验 4/4 grounded 全对(Rafa/Andy 嘉宾+RJ/Brandon 主持)。8 单测。修 openingText 用 s.text(原 s.en 空)。补 `ensureAllAudio`:gate-all 前给缺 audio.mp3 的集补 tts(CI 检出不带 gitignore 音频,防 gate-audio 挂)。
-  · **正在:Scenario 4 强跑 lab E2E**(用户拍板花~1元真部署):临时降 cutoff=07-15 让 lab-of-future(07-16,有官方稿免 ASR)当新集 → 触发 pipeline.yml 真跑全链+真部署到 voice.solomind.cc;workflow 跑完 commit-back 自动推进 cutoff 到 07-16 自愈。
+  · **Scenario 4 强跑 lab E2E · 进行中(已花~1-2元,逐 bug 推进,安全网每次都对)**:
+    - **round1 挂**:glm-ask 不在 runner PATH(流水线脚本调裸命令)→ 修:workflow 装 tools/glm-ask 到 ~/.local/bin(a1493cf)。几乎没花钱(翻译前挂)。
+    - **round2 挂**(run 29676741611,8m20s):✅ 推断 4/4 grounded(Rafa/RJ/Andy/Brandon)✅ 翻译 1950 段 0 空译 → **❌ 浓缩连试 4 次 GLM 非合法 JSON**。根因=lab 是最长集(1950 段/100 分钟),浓缩"整读"输出撑爆 `max_tokens=8000` 被截断。**修:condense maxTokens 8000→16000**。**安全网全对**:坏集没 deploy、digest.json 没被坏稿冲掉。
+    - **待续**:再触发一轮验浓缩过没 + 后续 judge/gate/entities/render/tts/build/deploy 通不通。**每轮 CI 重跑翻译≈1元**,续跑前跟用户确认花钱。
   · **卡点/下一步 = deploy 实路 + Scenario 4 E2E**:①**需用户加 1 个 Secret**:`CLOUDFLARE_API_TOKEN`(CF dashboard 建 Pages:Edit token;account id 已写死不用配);`ASSEMBLYAI_API_KEY` 可缓(无官方稿集才用)。②**deploy 实路未验**(`if: has_new` 那支):要真有新集才走,得 CF token + 真新集/强跑。③**Scenario 4 真 E2E**:编排器 GLM 链+部署尚未真跑一集端到端 —— 等真新集,或临时降 cutoff 强制在旧集上跑一次(费 GLM + 真部署到公网,做前跟用户确认)。④**通知**:失败=GitHub 原生邮件,成功=job summary+commit 可见;富成功通知留 C7c 或用户点名。⑤小债:deploy 成功但 commit-back 失败会下次重跑重花;wrangler `--branch main` 是否命中 voice-solomind 生产分支待验。
 
 - **🚧 C7b 开工决策定案(2026-07-19,原交接记录)**:

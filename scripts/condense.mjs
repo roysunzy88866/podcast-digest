@@ -22,7 +22,8 @@ const mmss = (s) => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(Mat
 const bilingual = tr.map((s) => `[${mmss(s.start)} ${s.speaker}] ${s.en} ‖ ${s.zh}`).join("\n");
 const INPUT = `以下是本集完整双语对齐转写稿(每段:[时间戳 说话人] 英文 ‖ 中文)。整读后按 system 要求浓缩输出 JSON。\n\n${bilingual}`;
 
-function glmAsk(system, input, maxTokens = 8000) {
+// maxTokens 16000:长集(如 lab 100 分钟/1950 段)的浓缩输出(TLDR+长导读+20 金句双语)会撑爆 8000 被截断成坏 JSON(C7b E2E 逼出)。GLM-5.2 支持大输出;短集不受影响(到不了上限)。
+function glmAsk(system, input, maxTokens = 16000) {
   return new Promise((res, rej) => {
     const p = spawn("glm-ask", ["--system", system, "--max-tokens", String(maxTokens)], {
       stdio: ["pipe", "pipe", "pipe"],
