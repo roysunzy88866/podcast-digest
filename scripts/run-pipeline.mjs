@@ -133,9 +133,23 @@ function processEpisode(item, id) {
   run("node", ["scripts/tts.mjs", dir]);
 }
 
-/** 全库重建(处理完新集后一次):跨集聚合→出集页→列表→feed→站点 build。gate-all 由 main 收尾。 */
+/** 补齐所有已发布集的音频(audio.mp3 gitignore、CI 检出不带 → 缺的现场补合成;edge-tts 免费)。gate-audio 要集集有音频。 */
+function ensureAllAudio() {
+  if (!existsSync(EPISODES_DIR)) return;
+  for (const d of readdirSync(EPISODES_DIR, { withFileTypes: true })) {
+    if (!d.isDirectory()) continue;
+    const dir = join("data/episodes", d.name);
+    if (existsSync(join(ROOT, dir, "digest.json")) && !existsSync(join(ROOT, dir, "audio.mp3"))) {
+      console.log(`   补音频:${d.name}`);
+      run("node", ["scripts/tts.mjs", dir]);
+    }
+  }
+}
+
+/** 全库重建(处理完新集后一次):补齐音频→跨集聚合→出集页→列表→feed→站点 build。gate-all 由 main 收尾。 */
 function rebuildAll() {
   console.log("\n▶ 全库重建");
+  ensureAllAudio();
   run("node", ["scripts/build-entities.mjs"]);
   run("node", ["scripts/build-pages.mjs"]);
   run("node", ["scripts/build-list.mjs"]);
