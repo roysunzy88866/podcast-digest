@@ -10,7 +10,14 @@
   · **P1 ✅**:wrangler 4.112.0 装(devDep,D2 还)+ 用户 login。**R2 未启用(10042)→ drift #18 音频随 Pages 静态、不用 R2**(存档层 R2 留 C7c)。
   · **换域名 + 上线(drift #19)**:用户买 `solomind.cc`(GoDaddy 注册→改 NS 托管 CF),定子域 **voice.solomind.cc**;SITE_URL+baseUrl 换新域名;**新建 voice-solomind 项目、部署、删旧 listen-hearagain**;加部署权限(`.claude/settings.local.json` allow wrangler,gitignore)后 Claude 直接 deploy;绑域名卡「SSL undefined」→ 删重加解决。
   · **C7a ✅ 闭合**:用户 2026-07-19 真设备验收「1,2,3 都 OK」(首页 2 卡 / 集页中文精华+🎧播放 / 播客 App 订阅真播)。DoD 1-5 兑现;**DoD #6 glm 审计因 C7a 代码改动极小(SITE_URL 值+部署操作)待与用户确认豁免**。**遗留**:site/quartz.config baseUrl 改动未入库(site gitignore,可复现归 C7c/D21)。
-  · **下一步(用户定)**:C7b(无人值守:Workers 定时→全自动发布,**做前再确认风险容忍**)/ C7c(运维硬化)/ **新方向另开需求共创**(第三方转写文本 + YouTube + 演讲,均撞共识/需调研,见对话末)。
+  · **下一步**:**C7b 决策已定案(见下条),用户要开新 session 实现**;C7c(运维硬化)随后;新方向(第三方转写文本 + YouTube + 演讲,撞共识+需调研)另开需求共创。
+
+- **🚧 C7b 开工决策定案(2026-07-19,交接给新 session 实现)**:
+  · **全自动发布(ADR 0011,用户知情二次确认、风险自担)**:坏稿可能直达公网,靠机器闸门+定点重写兜底;Claude 兜底=发布后通知+一键回滚。**这是「亲手验收」纪律的明文例外,仅限 C7b。**
+  · **执行环境 = GitHub Actions cron(drift #21 / ADR 0012,改 🔒 L206)**:CF Workers 跑不了 ffmpeg/quartz/glm-ask/fs(P1 核验实测);GitHub Actions Linux runner 复用现有 26 脚本**几乎不重写**、cron 定时、**免费**(公开仓库无限 or 私有 2000min/月)、机器在墙外绕开 GFW。
+  · **内容托管仍 CF Pages(voice.solomind.cc)**:已诚实交底**国内访问不保证稳**(CF 免费无境内节点+GFW),版权灰色不能备案无更好解,用户知情继续。
+  · **新 session 开局(照 SOP:两锚校验 → 补 C7b Gherkin → 二次确认 → 红绿循环)。C7b 要搭**:①**建 GitHub 远端仓库**(公开 vs 私有 = Actions 免费额度 & 代码是否公开,**待用户拍**)+ push(顺带还 C7c 的 GitHub 远端)②`.github/workflows/pipeline.yml`:cron → checkout → 装 ffmpeg+node deps → 跑流水线(取 RSS → **去重判有没有新集** → 官方稿/ASR → translate → condense → judge → gate → tts → build-feed → build-list → quartz build)→ **闸门全过**才 `wrangler pages deploy` → 通知 ③**GLM/ASR key 走 GitHub Secrets**(用户自持,Claude 不碰明文)④失败/坏稿告警 + 一键回滚(CF Pages 回滚上版)⑤**P1 前置核验(先验后写,踩过 Bases 坑)**:runner 海外**真调智谱 GLM 一次**(验可达+速度)+ 真装 ffmpeg **端到端跑一集**不崩。
+  · **待用户拍**:GitHub 仓库公开还是私有;cron 频率(几小时 / 一天一次)。
 
 - **(C5 及更早)上次到**:**C4 + C6 已用户明文验收并提交(`346d0a2` / `5d178ca`);本 session 过独立交付物审计 → 修 F1 + 校正账,准备开 C5**(2026-07-18)。
   · **独立交付物审计(两路子 agent:C4 音频 / C6 关联,各造攻击打闸门)**:两片核心真实、扛对抗、**无阻断**;共性毛病=**机器诚实但文字/账面略夸**(本项目最常犯元错误,这次又冒头)。处置:
