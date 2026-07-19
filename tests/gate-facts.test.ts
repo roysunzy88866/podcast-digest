@@ -192,6 +192,11 @@ describe("D17 降误报(ADR 0013 · standard-change 2026-07-19):版本号/复数
   it("★ 边界:凭空编造、转写稿根本没有的名(「Fabricated」)→ 仍拦(降误报不破挡编造)", () => {
     expect(checkProperNoun("Fabricated", c()).pass).toBe(false);
   });
+  it("★ 边界:短版本化实体<5 不召回(导读「GPT」,转写稿「GPT4」)→ 仍拦(安全侧宁缺毋滥·GLM 20260719-023[3])", () => {
+    const t = [{ text: "we love GPT4 and o1 models", start: 0, end: 6, words: mkWords("we love GPT4 and o1 models", 0, "S0") }];
+    const cc = buildFactIndex(t, M, { entities: [] });
+    expect(checkProperNoun("GPT", cc).pass).toBe(false); // GPT 长度 3 < 5,不进版本化容错(短前缀不放行)
+  });
   it("复数-s:导读「GAN」⇄ 转写稿「GANs」→ 放行", () => {
     expect(checkProperNoun("GAN", c()).pass).toBe(true);
   });
