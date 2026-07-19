@@ -237,7 +237,9 @@ async function main() {
       renameSync(join(EPISODES_DIR, id), to);
       writeFileSync(join(to, "skip-reason.txt"), `${res.reason}\n${item.title}\n${item.link}\n`);
       skipped.push({ id, reason: res.reason, retry: false });
-      state.skipped.push({ id, reason: res.reason, title: item.title, pubDate: item.pubDateISO }); // 持久账本(去重+通知)
+      // 持久账本(去重+通知):同 id 只留一条(理论上 seen 已挡重跑,防御性去重防账本膨胀,GLM #5)
+      state.skipped = state.skipped.filter((s) => s.id !== id);
+      state.skipped.push({ id, reason: res.reason, title: item.title, pubDate: item.pubDateISO });
       console.log(`   ⛔ ${id} 隔离:${res.reason}`);
     }
   }
