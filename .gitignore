@@ -22,3 +22,6 @@ data/episodes/*/.entities-raw.bad.txt
 data/episodes/*/audio.mp3
 data/episodes/*/audio.meta.json
 feed.xml
+
+# C7b 隔离区:自动跑出失真被闸门拦下的集(完整内容仅本地/CI 临时查;持久去重靠 pipeline-state.json 的 skipped 账本,不进公开仓)
+data/skipped/

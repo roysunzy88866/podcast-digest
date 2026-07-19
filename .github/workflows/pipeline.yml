@@ -47,13 +47,15 @@ jobs:
           ASSEMBLYAI_API_KEY: ${{ secrets.ASSEMBLYAI_API_KEY }}
         run: |
           node scripts/run-pipeline.mjs
-          # 判定是否真有新内容:pipeline-state.json 只在成功处理新集后推进 cutoff
-          if [ -n "$(git status --porcelain data/pipeline-state.json data/episodes)" ]; then
+          # 判定是否有**干净可发**的新内容:只看 data/episodes(新完成集)+ samples(新集页)——
+          # 全被隔离时 data/episodes 无新增(失真集已移去 gitignore 的 data/skipped),samples 也无新增 → 不部署。
+          # (不看 pipeline-state.json:它在"全 skip 只更新账本"时也会变,会误判有新)
+          if [ -n "$(git status --porcelain data/episodes samples)" ]; then
             echo "has_new=true" >> "$GITHUB_OUTPUT"
-            echo "有新集,进部署"
+            echo "有干净新集,进部署"
           else
             echo "has_new=false" >> "$GITHUB_OUTPUT"
-            echo "无新集,跳过部署(线上保持上一版)"
+            echo "无干净新集(无新/全隔离),跳过部署(线上保持上一版)"
           fi
 
       - name: 构建站点 + 部署 voice.solomind.cc(仅当有新集且闸门全过)
@@ -89,14 +91,15 @@ jobs:
           # 4) 部署(CF API token,非交互;项目 voice-solomind)
           npx wrangler pages deploy public --project-name voice-solomind --branch main
 
-      - name: 去重状态 commit 回仓(仅当有新集)
-        if: steps.pipeline.outputs.has_new == 'true'
+      - name: 去重状态 commit 回仓(始终:持久化 cutoff + skipped 账本,防下次重跑重扣钱)
+        if: always()
         run: |
           git config user.name "c7b-bot"
           git config user.email "c7b-bot@users.noreply.github.com"
-          git add data/episodes data/pipeline-state.json samples feed.xml
-          git commit -m "[C7 🤖] C7b 自动发布:处理新集 + 推进 cutoff (US-4, US-5)" || echo "无改动可提交"
-          git push
+          # data/skipped 是 gitignore 的(不入公开仓);去重靠 pipeline-state.json 的 skipped 账本
+          git add data/episodes data/pipeline-state.json samples 2>/dev/null || true
+          git commit -m "[C7 🤖] C7b 自动跑批:推进 cutoff + skipped 账本(+干净集若有) (US-4, US-5)" || echo "无改动可提交"
+          git push || echo "无改动或推送跳过"
 
       - name: 发布小结(写进 job summary)
         if: always()

@@ -8,7 +8,7 @@
 //   node scripts/run-pipeline.mjs --dry-run  # 只打印会处理哪些集,不真跑(省钱、CI 干验)
 //
 // 纯逻辑(parseFeed/isInterview/deriveId/selectNew)导出供单测;副作用在 main()。
-import { readFileSync, existsSync, readdirSync, writeFileSync, mkdirSync } from "node:fs";
+import { readFileSync, existsSync, readdirSync, writeFileSync, mkdirSync, renameSync, rmSync } from "node:fs";
 import { spawnSync } from "node:child_process";
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -17,6 +17,7 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 export const FEED_URL = "https://www.latent.space/feed";
 export const STATE_FILE = join(ROOT, "data/pipeline-state.json");
 const EPISODES_DIR = join(ROOT, "data/episodes");
+const SKIPPED_DIR = join(ROOT, "data/skipped"); // 隔离区:自动跑出失真、闸门拦下的集(不删、留人工看,不发布不重跑,drift #24)
 
 // ── 纯逻辑(可单测,无副作用)──────────────────────────────
 
@@ -79,11 +80,12 @@ export function selectNew(items, { sinceISO, existingIds }) {
 // ── 副作用层 ────────────────────────────────────────────
 
 function readState() {
-  if (!existsSync(STATE_FILE)) return { sincePubDate: "" };
+  const dflt = { sincePubDate: "", skipped: [] };
+  if (!existsSync(STATE_FILE)) return dflt;
   try {
-    return JSON.parse(readFileSync(STATE_FILE, "utf8"));
+    return { ...dflt, ...JSON.parse(readFileSync(STATE_FILE, "utf8")) };
   } catch {
-    return { sincePubDate: "" };
+    return dflt;
   }
 }
 
@@ -92,8 +94,8 @@ function writeState(s) {
   writeFileSync(STATE_FILE, JSON.stringify(s, null, 2) + "\n");
 }
 
-/** 已「完成」的集 = 有 digest.json(per-集链的完成标志)。半成品目录(取源/翻译到一半失败)不算,下次会重试并复用缓存(GLM #4)。 */
-function existingIds() {
+/** 已完成集 = data/episodes 有 digest.json(per-集链完成标志)。半成品(取源/翻译到一半失败)不算,下次重试复用缓存(GLM #4)。 */
+function completedIds() {
   if (!existsSync(EPISODES_DIR)) return [];
   return readdirSync(EPISODES_DIR, { withFileTypes: true })
     .filter((d) => d.isDirectory() && existsSync(join(EPISODES_DIR, d.name, "digest.json")))
@@ -113,7 +115,17 @@ function run(cmd, args, opts = {}) {
   if (r.status !== 0) throw new Error(`步骤失败(exit ${r.status}): ${cmd} ${args.join(" ")}`);
 }
 
-/** 单个新集的 per-集链(取源→翻译→浓缩→判官→事实闸门→抽实体→出稿→配音)。fail-fast。 */
+/** 跑外部脚本,返回是否 0 退出(不抛,用于逐集验证的 skip 判定)。 */
+function runOk(cmd, args) {
+  console.log(`   $ ${cmd} ${args.join(" ")}`);
+  return spawnSync(cmd, args, { cwd: ROOT, stdio: "inherit" }).status === 0;
+}
+
+/**
+ * 单个新集的 per-集链(取源→推说话人→翻译→浓缩→判官→规整→抽实体→出稿→配音),末尾**逐集验证**。
+ * 产出步骤 fail-fast(抛=转瞬失败,留半成品下次重试);验证(gate 金句三联 + gate-facts 导读事实)fail=失真 → 返回 {ok:false} 交 main 隔离。
+ * 返回 {ok, reason}。
+ */
 function processEpisode(item, id) {
   const dir = join("data/episodes", id);
   console.log(`\n▶ 处理新集 ${id}\n   ${item.title}\n   ${item.link}`);
@@ -128,11 +140,18 @@ function processEpisode(item, id) {
   run("node", ["scripts/translate.mjs", dir]);
   run("node", ["scripts/condense.mjs", dir]);
   run("node", ["scripts/judge-quotes.mjs", dir]);
-  run("node", ["scripts/repair-quotes.mjs", dir]); // 规整金句 snap 回逐字/派生时间戳说话人、救不回的丢(C2 步骤④.5,原编排漏了→gate 挂失真)
-  run("node", ["scripts/gate.mjs", dir]);
+  run("node", ["scripts/repair-quotes.mjs", dir]); // 规整金句 snap 回逐字/派生时间戳说话人、救不回的丢(C2 步骤④.5)
   run("node", ["scripts/extract-entities.mjs", dir]);
-  run("node", ["scripts/render.mjs", dir]);
-  run("node", ["scripts/tts.mjs", dir]);
+
+  // 逐集验证(防失真闸门)在出稿/配音**之前** —— 失真集不写集页/音频,隔离时无孤儿产物。
+  // gate(金句三联)+ gate-facts(导读事实层)都只读 digest,不需渲染产物。失败=GLM 真失真→交 main 隔离(skip+通知,drift #24)
+  console.log(`\n   ── 逐集验证 ${id}(出稿前)──`);
+  if (!runOk("node", ["scripts/gate.mjs", dir])) return { ok: false, reason: "金句三联闸门未过(疑拼接/编造/张冠李戴)" };
+  if (!runOk("node", ["scripts/gate-facts.mjs", dir])) return { ok: false, reason: "导读事实层未过(专名/数字无出处 或 内联时间戳张冠李戴)" };
+
+  run("node", ["scripts/render.mjs", dir]); // 验证过了才出集页
+  run("node", ["scripts/tts.mjs", dir]);    // 才配音
+  return { ok: true };
 }
 
 /** 补齐所有已发布集的音频(audio.mp3 gitignore、CI 检出不带 → 缺的现场补合成;edge-tts 免费)。gate-audio 要集集有音频。 */
@@ -165,16 +184,20 @@ async function main() {
   const interviews = items.filter(isInterview);
   console.log(`RSS ${items.length} 条,访谈 ${interviews.length} 条(排掉 ainews/无音频)`);
 
+  const state = readState();
+
   if (flags.has("--seed")) {
     // 设站基线:cutoff = 当前 feed 最新访谈集时间 → 之后只处理更新的(历史 backlog 不碰,drift #22)
     const newest = interviews.map((i) => i.pubDateISO).sort().at(-1) || new Date().toISOString();
-    writeState({ sincePubDate: newest });
+    writeState({ ...state, sincePubDate: newest });
     console.log(`✅ 已设基线 cutoff = ${newest}(晚于它的访谈集才会被处理);未处理任何集。`);
     return;
   }
 
-  const { sincePubDate } = readState();
-  const picks = selectNew(items, { sinceISO: sincePubDate, existingIds: existingIds() });
+  const sincePubDate = state.sincePubDate;
+  // 已见 = 已完成(有 digest)+ 已隔离(账本,持久化去重,别再自动重跑失真集)
+  const seen = [...completedIds(), ...state.skipped.map((s) => s.id)];
+  const picks = selectNew(items, { sinceISO: sincePubDate, existingIds: seen });
   if (!sincePubDate) {
     console.error("⛔ 无基线(data/pipeline-state.json 缺 sincePubDate)。先跑 `--seed` 设站基线,拒绝无边界跑全 backlog。");
     process.exit(2);
@@ -191,16 +214,56 @@ async function main() {
     return;
   }
 
-  for (const item of picks) processEpisode(item, deriveId(item));
-  rebuildAll();
+  // 逐集处理:干净集入发布,失真集隔离(skip+通知,drift #24),转瞬失败留半成品下次重试。
+  const clean = [];
+  const skipped = [];
+  for (const item of picks) {
+    const id = deriveId(item);
+    let res;
+    try {
+      res = processEpisode(item, id);
+    } catch (e) {
+      console.error(`   ⚠️ ${id} 处理中断(转瞬失败,留半成品下次重试):${e.message}`);
+      skipped.push({ id, reason: `处理中断(转瞬失败,下次重试):${e.message}`, retry: true });
+      continue;
+    }
+    if (res.ok) {
+      clean.push(item);
+    } else {
+      // 失真被拦 → 隔离到 data/skipped(不发、不删、不自动重跑)。此时还没出集页/音频,无孤儿。
+      mkdirSync(SKIPPED_DIR, { recursive: true });
+      const to = join(SKIPPED_DIR, id);
+      if (existsSync(to)) rmSync(to, { recursive: true, force: true });
+      renameSync(join(EPISODES_DIR, id), to);
+      writeFileSync(join(to, "skip-reason.txt"), `${res.reason}\n${item.title}\n${item.link}\n`);
+      skipped.push({ id, reason: res.reason, retry: false });
+      state.skipped.push({ id, reason: res.reason, title: item.title, pubDate: item.pubDateISO }); // 持久账本(去重+通知)
+      console.log(`   ⛔ ${id} 隔离:${res.reason}`);
+    }
+  }
 
-  console.log("\n▶ gate-all(全闸门,全过才允许发布)");
-  run("node", ["scripts/gate-all.mjs"]);
+  // 🔔 通知(CI 转成告警/邮件):本批 skip 了哪些
+  if (skipped.length) {
+    console.log(`\n🔔 通知:本批 ${skipped.length} 集未发布:`);
+    skipped.forEach((s) => console.log(`   - ${s.id} — ${s.reason}${s.retry ? "" : "(隔离 data/skipped,待人工看)"}`));
+  }
 
-  // 处理成功 → 推进 cutoff 到本批最新,写状态(供 CI commit 回仓,去重持久化)
-  const newestPicked = picks.map((p) => p.pubDateISO).sort().at(-1);
-  writeState({ sincePubDate: newestPicked });
-  console.log(`\n✅ 本批 ${picks.length} 集全过 gate-all;cutoff 推进到 ${newestPicked}。可发布。`);
+  if (clean.length) {
+    rebuildAll();
+    console.log("\n▶ gate-all(全闸门,全过才允许发布)");
+    run("node", ["scripts/gate-all.mjs"]); // 干净集应全过;仍挂=兜底 fail-safe(不部署)
+    console.log(`\n✅ ${clean.length} 干净集过 gate-all,可发布;skip ${skipped.length} 集。`);
+  } else {
+    console.log("\n✅ 无干净可发的新集(全被隔离/无新集)。不部署,线上保持上一版。");
+  }
+
+  // cutoff:无「转瞬失败待重试」的集时,推进到本批最新(干净集+隔离集都是终态,靠 seen 去重不重跑);
+  // 有转瞬失败则不推进,好让它下次被重新选中重试(半成品不在 seen)。
+  if (!skipped.some((s) => s.retry)) {
+    state.sincePubDate = picks.map((p) => p.pubDateISO).sort().at(-1);
+    console.log(`cutoff 推进到 ${state.sincePubDate}。`);
+  }
+  writeState(state); // 始终落盘:持久化 skipped 账本(即便 cutoff 没推进)
 }
 
 function isMain() {

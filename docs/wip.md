@@ -30,7 +30,8 @@
     - **测试**:315 全绿(+run-pipeline 10 +infer-speakers 8 +condense 6)。repair-quotes 补进编排器。
     - **round6 修 accent 误报(用户选"修误报+skip通知",授权标准变更)**:gate.mjs 加 `normName`(折叠音标 é→e/ó→o + 连字符/标点统一;`norm` 也加音标折叠,否则 ó 被替空格断词)→ gate.mjs checkQuote③ + gate-facts D8 名字比对改用 normName。normName 3 测试。`[standard-change:用户授权]`。
     - **⚠️ round6 更深发现**:accent 修复消除纯音标误报后,lab 导读**仍挂——但是真失真**:GLM 在导读正文把该 Brandon/Rafa 说的话**张冠李戴**给 Andy Beam(多条 D8)+ 数字"21亿"无出处(D17)。**这不是误报,是 GLM 自动导读的真错误,闸门正确拦下**。→ **结论:lab 自动 digest 不可发,无人值守会正确 skip 它**。核心张力坐实:导读 prose 的 GLM misattribution 是硬伤,部分集自动跑就是过不了、只能 skip+通知(防失真优先)。
-    - **待续**:①编排器实现 **skip+通知**(某集 gate 不过→不发该集+记录通知,别的干净集照发)②lab 不是干净 demo→真部署成功的 E2E 得等一集干净的新集,或用户另指。
+    - **round7 skip+通知 ✅ 实现并本地验通(drift #24)**:编排器 `run-pipeline` 逐集验证(gate+gate-facts,出稿前)→ 失真集隔离 `data/skipped/`(gitignore)+ **skipped 账本进 pipeline-state.json**(持久去重,CI 不重跑重扣钱)+ 通知(日志列出);干净集才 rebuild+gate-all+deploy;全 skip 不部署线上不动。workflow:has_new 改看 data/episodes+samples(全 skip 不误判)、状态 commit-back 改 `always()`(持久账本)。**本地实测:lab 被正确隔离**(账本记 lab+原因+标题、data/skipped 留内容、data/episodes 回干净、gate-all 过、cutoff→07-16、lab 不再重跑)。318 全绿。
+    - **✅ C7b 编排器/闸门/skip 全链验通**。**仅剩**:真"成功部署一集干净新集"的 E2E —— lab 真失真当不了样板,**等下一集干净新集自然触发**(或用户指一集)。C7c 运维硬化另开。
   · **卡点/下一步 = deploy 实路 + Scenario 4 E2E**:①**需用户加 1 个 Secret**:`CLOUDFLARE_API_TOKEN`(CF dashboard 建 Pages:Edit token;account id 已写死不用配);`ASSEMBLYAI_API_KEY` 可缓(无官方稿集才用)。②**deploy 实路未验**(`if: has_new` 那支):要真有新集才走,得 CF token + 真新集/强跑。③**Scenario 4 真 E2E**:编排器 GLM 链+部署尚未真跑一集端到端 —— 等真新集,或临时降 cutoff 强制在旧集上跑一次(费 GLM + 真部署到公网,做前跟用户确认)。④**通知**:失败=GitHub 原生邮件,成功=job summary+commit 可见;富成功通知留 C7c 或用户点名。⑤小债:deploy 成功但 commit-back 失败会下次重跑重花;wrangler `--branch main` 是否命中 voice-solomind 生产分支待验。
 
 - **🚧 C7b 开工决策定案(2026-07-19,原交接记录)**:
