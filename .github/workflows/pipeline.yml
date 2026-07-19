@@ -55,7 +55,8 @@ jobs:
         if: steps.pipeline.outputs.has_new == 'true'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          # account id 是标识符非机密(单独无用),直接写死省得多配一个 secret
+          CLOUDFLARE_ACCOUNT_ID: ac6b3134d98758210ac27d37bd7d5a2d
         run: |
           set -e
           # 1) bootstrap Quartz v5(钉 commit)+ baseUrl 设 voice.solomind.cc
