@@ -28,11 +28,16 @@ jobs:
         with:
           node-version: "22.16.0"
 
-      - name: 装环境(ffmpeg + edge-tts + node deps)
+      - name: 装环境(ffmpeg + edge-tts + glm-ask + node deps)
         run: |
           sudo apt-get update && sudo apt-get install -y ffmpeg
           python3 -m pip install --user edge-tts
           echo "EDGE_TTS_BIN=$HOME/.local/bin/edge-tts" >> "$GITHUB_ENV"
+          # 装 glm-ask 到 PATH:流水线脚本都调裸命令 glm-ask,runner 上没有 → 用仓库自带副本(key 走 ZHIPU_API_KEY env)
+          mkdir -p "$HOME/.local/bin"
+          cp tools/glm-ask "$HOME/.local/bin/glm-ask"
+          chmod +x "$HOME/.local/bin/glm-ask"
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
           npm install --no-audit --no-fund
 
       - name: 跑编排器(取 RSS → 新集跑全链 → gate-all 全过才成)
