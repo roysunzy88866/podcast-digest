@@ -18,11 +18,25 @@ import { fileURLToPath } from "node:url";
 /** 去标点、转小写、按词流拆(「加句号/改逗号」不算差异,同试跑判定口径) */
 export function norm(text) {
   return String(text)
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "") // 折叠音标(é→e ó→o):否则 ó 被当非 a-z 替成空格,"gómez"→"g mez" 断词
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, " ")
     .trim()
     .split(/\s+/)
     .filter(Boolean);
+}
+
+/**
+ * 人名归一化比较键(标准变更 · 用户 2026-07-19 授权):折叠音标 + 连字符/标点统一为空格 + 小写。
+ * 修 D37 误报:"Rafa Gomez-Bombarelli"(导读/GLM 去音标)对不上 "Rafa Gómez-Bombarelli"(speaker_map)=同一人。
+ * 不会误并不同名(Rafa≠Rafael);仅消除音标/连字符/大小写造成的假不匹配。
+ */
+export function normName(s) {
+  return String(s ?? "")
+    .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
 }
 
 /** 转写稿 → 逐词流:每个归一化 token 携带 start/end/speaker(逐词级,最精确) */
@@ -172,7 +186,7 @@ export function checkQuote(quote, { stream, speakerMap, tsGrace = 1.5, speakerFr
       if (run > crossRun) crossRun = run;
     } else run = 0;
   }
-  r.speaker = frac >= speakerFrac && crossRun < 2 && majName === quote.speaker;
+  r.speaker = frac >= speakerFrac && crossRun < 2 && normName(majName) === normName(quote.speaker);
   if (!r.speaker)
     r.detail.speaker = { got: quote.speaker, expect: majName, frac: +frac.toFixed(2), crossRun };
 

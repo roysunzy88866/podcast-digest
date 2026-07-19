@@ -28,6 +28,9 @@
     - **round4 本地续跑(用户选 A 收尾)**:金句子链挂 5/19 失真 → **查明编排器漏了 `repair-quotes` 步**(C2 步骤④.5:snap 回逐字/派生时间戳说话人/救不回的丢)。补进 processEpisode(condense→judge→**repair**→gate)。lab 金句子链现:judge 19→4、repair 4/4、gate 4/4 ✅。per-集剩余步骤全通(抽实体 25 个+拦下 GLM 编造"OpenAI"、出稿、配音 842s)。
     - **round5 gate-all 又拦 lab 两处防失真(安全网对,但暴露无人值守 vs 防失真核心张力)**:①**[D8/D37] Rafa 名字**:导读写"Rafa Gomez Bombarelli" vs 转写稿"Rafa Gómez-Bombarelli"(差音标+连字符)=**误报**,闸门缺 accent/标点归一化(D37 当年卡过 the-lab,复发)。②**[D17] 实体 how_described 里数字"21"无出处**(Capstan/AbbVie),闸门正确抓 GLM 编造。**这俩是人工流程里人手动摆平的点**(登记别名/核数字),无人值守没人摆平 → **待用户定策略**:修 accent 归一化(标准-change 需授权)+ 真 gate-block 的集 skip+通知不发。
     - **测试**:315 全绿(+run-pipeline 10 +infer-speakers 8 +condense 6)。repair-quotes 补进编排器。
+    - **round6 修 accent 误报(用户选"修误报+skip通知",授权标准变更)**:gate.mjs 加 `normName`(折叠音标 é→e/ó→o + 连字符/标点统一;`norm` 也加音标折叠,否则 ó 被替空格断词)→ gate.mjs checkQuote③ + gate-facts D8 名字比对改用 normName。normName 3 测试。`[standard-change:用户授权]`。
+    - **⚠️ round6 更深发现**:accent 修复消除纯音标误报后,lab 导读**仍挂——但是真失真**:GLM 在导读正文把该 Brandon/Rafa 说的话**张冠李戴**给 Andy Beam(多条 D8)+ 数字"21亿"无出处(D17)。**这不是误报,是 GLM 自动导读的真错误,闸门正确拦下**。→ **结论:lab 自动 digest 不可发,无人值守会正确 skip 它**。核心张力坐实:导读 prose 的 GLM misattribution 是硬伤,部分集自动跑就是过不了、只能 skip+通知(防失真优先)。
+    - **待续**:①编排器实现 **skip+通知**(某集 gate 不过→不发该集+记录通知,别的干净集照发)②lab 不是干净 demo→真部署成功的 E2E 得等一集干净的新集,或用户另指。
   · **卡点/下一步 = deploy 实路 + Scenario 4 E2E**:①**需用户加 1 个 Secret**:`CLOUDFLARE_API_TOKEN`(CF dashboard 建 Pages:Edit token;account id 已写死不用配);`ASSEMBLYAI_API_KEY` 可缓(无官方稿集才用)。②**deploy 实路未验**(`if: has_new` 那支):要真有新集才走,得 CF token + 真新集/强跑。③**Scenario 4 真 E2E**:编排器 GLM 链+部署尚未真跑一集端到端 —— 等真新集,或临时降 cutoff 强制在旧集上跑一次(费 GLM + 真部署到公网,做前跟用户确认)。④**通知**:失败=GitHub 原生邮件,成功=job summary+commit 可见;富成功通知留 C7c 或用户点名。⑤小债:deploy 成功但 commit-back 失败会下次重跑重花;wrangler `--branch main` 是否命中 voice-solomind 生产分支待验。
 
 - **🚧 C7b 开工决策定案(2026-07-19,原交接记录)**:

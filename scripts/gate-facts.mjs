@@ -25,7 +25,7 @@
 import { readFileSync, realpathSync } from "node:fs";
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
-import { norm, buildWordStream, parseTs } from "./gate.mjs";
+import { norm, normName, buildWordStream, parseTs } from "./gate.mjs";
 
 /**
  * 【背景】= 共识明定的 AI 补充块(对读者已标注)→ D17 不比对它。整行剥掉。
@@ -423,8 +423,8 @@ export function checkInlineTimestamp(t, ctx, { minWords = 2, pointGrace = 5 } = 
   const actual = ranked.filter(([, n]) => n >= minWords).map(([nm]) => nm);
   const dominant = ranked[0]?.[0] ?? null;
 
-  // ① 被标注的人必须真讲过话
-  const phantom = t.speakers.filter((s) => !actual.includes(s));
+  // ① 被标注的人必须真讲过话(名字比对走 normName:折叠音标/连字符,修 D37 误报,标准变更·用户授权)
+  const phantom = t.speakers.filter((s) => !actual.some((a) => normName(a) === normName(s)));
   if (phantom.length)
     return {
       pass: false,
@@ -434,7 +434,7 @@ export function checkInlineTimestamp(t, ctx, { minWords = 2, pointGrace = 5 } = 
     };
 
   // ② 主说话人不能被隐去 —— **只对区间生效**(单点是粗略坐标,见上方说明)
-  if (!isPoint && dominant && !t.speakers.includes(dominant))
+  if (!isPoint && dominant && !t.speakers.some((s) => normName(s) === normName(dominant)))
     return {
       pass: false,
       reason: `说话人不符:该区间主说话人是「${dominant}」,却只标了「${t.speakers.join(" / ")}」`,
