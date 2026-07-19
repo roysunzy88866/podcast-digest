@@ -12,7 +12,7 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
 // 站点公开地址(C7a:去 R2,音频随 Pages 静态 /audio/<id>.mp3,drift #18)。
 // 与 site/quartz.config.yaml 的 baseUrl 保持一致;env SITE_URL 可覆盖(换新域名时)。
-export const SITE_URL = String(process.env.SITE_URL || "https://listen.hearagain.space").replace(/\/+$/, "");
+export const SITE_URL = String(process.env.SITE_URL || "https://voice.solomind.cc").replace(/\/+$/, "");
 
 export function xmlEscape(s) {
   return String(s ?? "")

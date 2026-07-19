@@ -1,14 +1,16 @@
 # WIP
 
-- **上次到**:**C1–C6 全部 ✅ 验收;本 session(2026-07-19)开 C7=上云,拆 C7a/b/c(drift #15);C7a 已定「站点完全公开、去 Access」(drift #17 / ADR 0010),下一步进 P1 装 wrangler + 用户登录 CF**。
+- **上次到**:**C7a ✅ 上线闭合(2026-07-19 用户亲手验收「1,2,3 都 OK」)—— `voice.solomind.cc` 公开可访问、集页音频能播、播客 App 能订。C1→C7a 全线打通,项目第一次真上线。下一步 C7b(无人值守)/ C7c(运维硬化),或先开需求共创理新方向**。
   · **两锚校验无漂移**:git `a9f8257 [C5 ✅]` ↔ story-map(C1–C6 ✅/C7 ⏳)↔ wip 一致。GLM scorecard 救命 28/漏报 0,可信。
   · **拆片(drift #15)**:**C7a 能看能听**(Pages 公开部署+R2 托音频→feed 真可订阅,闭合 D33)/ **C7b 无人值守**(Workers 定时轮询→全自动发布,做前再确认风险)/ **C7c 运维硬化**(GitHub+CI/失败告警/额度告警/R2 备份/回滚演练/钉版本 D21/前端库自托管 D36)。
   · **4 决策(drift #15)**:部署=**交互式**(用户本机 `wrangler login`、Claude 指挥不碰凭证);无人值守=**全自动不等人**(C7b 兑现,与「亲手验收」纪律的张力已记、做 C7b 再确认);域名=`listen.hearagain.space`(暂,后换)。
   · **客观前置核查**:无 git 远端/无 wrangler(D2)/无 CI/无 Workers 源码 → C7 从零搭全套云。
   · **🟢 C7a 去 Access · 站点完全公开(drift #17 / ADR 0010)**:用户指出「Access 登录门=过度设计」——**「小圈子私有」是受众定位、不是访问加密**;明文选**完全公开**(可被搜索引擎收录)。**假矛盾消失**(公开后 feed+音频天然可达、播客 App 直接订、**D33 直接闭合**);**版权敞口扩大到公开二次分发,用户明文接受自担**。我复盘认账:曾把受众定位错升级成 Access 加密门、还上纲上线。
   · **已落盘**:drift #15/#17、需求共识 L31⑥/L194 留痕改、ADR 0010、上线前checklist 第1项作废、story-map、user-stories C7a 简化重写(4 Scenario/DoD 6 条,去 Access)。
-  · **P1 ✅(2026-07-19)**:wrangler 4.112.0 装(项目 devDep,D2 还)+ 用户 login(roysunzy@gmail.com,OAuth)。**R2 未启用(code 10042)→ drift #18:音频改随 Pages 静态、不用 R2**(用户拍板,免开通免绑卡;R2 存档层留 C7c)。
-  · **下一步**:①两集音频进 Pages 静态目录(如 public/audio/)+ build-feed enclosure 换站点 URL `https://listen.hearagain.space/audio/<id>.mp3`(闭合 D33)②Quartz build 灌全 samples(含音频)③`wrangler pages deploy` 绑 listen.hearagain.space ④用户真手机+播客 App 验收。
+  · **P1 ✅**:wrangler 4.112.0 装(devDep,D2 还)+ 用户 login。**R2 未启用(10042)→ drift #18 音频随 Pages 静态、不用 R2**(存档层 R2 留 C7c)。
+  · **换域名 + 上线(drift #19)**:用户买 `solomind.cc`(GoDaddy 注册→改 NS 托管 CF),定子域 **voice.solomind.cc**;SITE_URL+baseUrl 换新域名;**新建 voice-solomind 项目、部署、删旧 listen-hearagain**;加部署权限(`.claude/settings.local.json` allow wrangler,gitignore)后 Claude 直接 deploy;绑域名卡「SSL undefined」→ 删重加解决。
+  · **C7a ✅ 闭合**:用户 2026-07-19 真设备验收「1,2,3 都 OK」(首页 2 卡 / 集页中文精华+🎧播放 / 播客 App 订阅真播)。DoD 1-5 兑现;**DoD #6 glm 审计因 C7a 代码改动极小(SITE_URL 值+部署操作)待与用户确认豁免**。**遗留**:site/quartz.config baseUrl 改动未入库(site gitignore,可复现归 C7c/D21)。
+  · **下一步(用户定)**:C7b(无人值守:Workers 定时→全自动发布,**做前再确认风险容忍**)/ C7c(运维硬化)/ **新方向另开需求共创**(第三方转写文本 + YouTube + 演讲,均撞共识/需调研,见对话末)。
 
 - **(C5 及更早)上次到**:**C4 + C6 已用户明文验收并提交(`346d0a2` / `5d178ca`);本 session 过独立交付物审计 → 修 F1 + 校正账,准备开 C5**(2026-07-18)。
   · **独立交付物审计(两路子 agent:C4 音频 / C6 关联,各造攻击打闸门)**:两片核心真实、扛对抗、**无阻断**;共性毛病=**机器诚实但文字/账面略夸**(本项目最常犯元错误,这次又冒头)。处置:
