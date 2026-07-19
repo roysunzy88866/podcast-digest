@@ -57,9 +57,15 @@ jobs:
           EDGE=$(python3 -c "import shutil;print(shutil.which('edge-tts') or '')")
           [ -z "$EDGE" ] && EDGE="$HOME/.local/bin/edge-tts"
           echo "edge-tts bin: $EDGE"; "$EDGE" --version || true
-          # 合成 modal 集音频(digest.json 入库、audio.mp3 gitignore → 现场再生)
-          EDGE_TTS_BIN="$EDGE" node scripts/tts.mjs data/episodes/2026-07-08-latent-space-modal
-          ls -la data/episodes/2026-07-08-latent-space-modal/audio.mp3
+          # 合成全部已发布集音频(digest.json 入库、audio.mp3 gitignore → 现场再生)。
+          # gate-audio 要求「已发布集全有音频」,故两集都合成(否则漏的集会被判缺音频)。
+          for d in data/episodes/*/; do
+            if [ -f "$d/digest.json" ]; then
+              echo "== 合成 $d =="
+              EDGE_TTS_BIN="$EDGE" node scripts/tts.mjs "$d"
+            fi
+          done
+          ls -la data/episodes/*/audio.mp3
           # gate-audio 需要 feed enclosure;先建 feed 再验
           node scripts/build-feed.mjs --out feed.xml || echo "(build-feed 非阻断,继续)"
           node scripts/gate-audio.mjs
