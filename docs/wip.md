@@ -23,7 +23,10 @@
   · **Scenario 4 强跑 lab E2E · 进行中(已花~1-2元,逐 bug 推进,安全网每次都对)**:
     - **round1 挂**:glm-ask 不在 runner PATH(流水线脚本调裸命令)→ 修:workflow 装 tools/glm-ask 到 ~/.local/bin(a1493cf)。几乎没花钱(翻译前挂)。
     - **round2 挂**(run 29676741611,8m20s):✅ 推断 4/4 grounded(Rafa/RJ/Andy/Brandon)✅ 翻译 1950 段 0 空译 → **❌ 浓缩连试 4 次 GLM 非合法 JSON**。根因=lab 是最长集(1950 段/100 分钟),浓缩"整读"输出撑爆 `max_tokens=8000` 被截断。**修:condense maxTokens 8000→16000**。**安全网全对**:坏集没 deploy、digest.json 没被坏稿冲掉。
-    - **待续**:再触发一轮验浓缩过没 + 后续 judge/gate/entities/render/tts/build/deploy 通不通。**每轮 CI 重跑翻译≈1元**,续跑前跟用户确认花钱。
+    - **round3 本地跑(省钱,用户选本地先跑通)**:✅翻译(缓存)→ ❌浓缩**仍挂**。查明真凶**不是截断**:GLM 把长 digest_md 的**真换行直接塞进 JSON 字符串**→"Bad control character"。**真修:condense extractJson 加 escapeCtrlInStrings**(字符串内裸控制字符转义再解析);顺带把 condense 主逻辑收进 main()+isMain(根治 import 副作用,C2 审计点过它纪律弱)。max_tokens 8000→16000 保留当长集防御(非本 bug 主因)。lab 现出合格 digest(19 金句)。
+    - **GLM 检查员 011 裁决**:noise 2(inferWithGLM encoding 已设 / openingText 用 s.speaker 实测通)+ real 2:**parseFeed 正则**已硬化容忍带属性 `<item ...>`;**去重改按 digest.json**(半成品目录不算完成,失败集下次重试复用缓存,不静默丢)。
+    - **待续**:本地续跑 judge/gate/entities/render/tts/gate-all(缓存,便宜)看还有没有长集 bug → 全过后最后一轮 CI 验真部署。
+    - **测试**:315 全绿(+run-pipeline 10 +infer-speakers 8 +condense 6)。
   · **卡点/下一步 = deploy 实路 + Scenario 4 E2E**:①**需用户加 1 个 Secret**:`CLOUDFLARE_API_TOKEN`(CF dashboard 建 Pages:Edit token;account id 已写死不用配);`ASSEMBLYAI_API_KEY` 可缓(无官方稿集才用)。②**deploy 实路未验**(`if: has_new` 那支):要真有新集才走,得 CF token + 真新集/强跑。③**Scenario 4 真 E2E**:编排器 GLM 链+部署尚未真跑一集端到端 —— 等真新集,或临时降 cutoff 强制在旧集上跑一次(费 GLM + 真部署到公网,做前跟用户确认)。④**通知**:失败=GitHub 原生邮件,成功=job summary+commit 可见;富成功通知留 C7c 或用户点名。⑤小债:deploy 成功但 commit-back 失败会下次重跑重花;wrangler `--branch main` 是否命中 voice-solomind 生产分支待验。
 
 - **🚧 C7b 开工决策定案(2026-07-19,原交接记录)**:

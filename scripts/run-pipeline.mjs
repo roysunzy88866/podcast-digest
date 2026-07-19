@@ -23,7 +23,7 @@ const EPISODES_DIR = join(ROOT, "data/episodes");
 /** 解析 Substack 播客 RSS → [{title, link, pubDateISO, hasAudio}]。只用正则,不引 XML 依赖(feed 结构稳、CDATA 好切)。*/
 export function parseFeed(xml) {
   const items = [];
-  const itemRe = /<item>([\s\S]*?)<\/item>/g;
+  const itemRe = /<item(?:\s[^>]*)?>([\s\S]*?)<\/item>/g; // 容忍带属性/命名空间的 <item ...>
   let m;
   while ((m = itemRe.exec(xml))) {
     const body = m[1];
@@ -92,10 +92,11 @@ function writeState(s) {
   writeFileSync(STATE_FILE, JSON.stringify(s, null, 2) + "\n");
 }
 
+/** 已「完成」的集 = 有 digest.json(per-集链的完成标志)。半成品目录(取源/翻译到一半失败)不算,下次会重试并复用缓存(GLM #4)。 */
 function existingIds() {
   if (!existsSync(EPISODES_DIR)) return [];
   return readdirSync(EPISODES_DIR, { withFileTypes: true })
-    .filter((d) => d.isDirectory())
+    .filter((d) => d.isDirectory() && existsSync(join(EPISODES_DIR, d.name, "digest.json")))
     .map((d) => d.name);
 }
 
