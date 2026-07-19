@@ -1,0 +1,95 @@
+# C7b P1 前置核验探路(先验后写,踩过 Bases/Workers 纸面坑)
+# 只手动触发(workflow_dispatch),不定时。一次跑暴露三个「本地(macOS)测不了」的 Linux runner 风险:
+#   P1a  海外 runner 真调智谱 GLM(open.bigmodel.cn 国内入口)—— 可达性 + 速度
+#   P1b1 edge-tts(免 key)+ ffmpeg 在 Linux 真合成一集音频、过 gate-audio
+#   P1b2 Quartz v5 clone 钉 commit + 插件 + build 在 Linux 真跑通、过 gate-all
+# 各步 if: always() 互不阻断,一次拿全信号。过了才进 C7b 真正的编排器 + pipeline.yml。
+name: C7b P1 Probe
+
+on:
+  workflow_dispatch:
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # ---- P1a:海外 runner → 智谱 GLM 可达性 + 速度 ----
+      - name: P1a · time a real GLM call (open.bigmodel.cn)
+        if: always()
+        env:
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+        run: |
+          if [ -z "$ZHIPU_API_KEY" ]; then
+            echo "::error::ZHIPU_API_KEY 未配置(GitHub Secrets),P1a 无法验证"; exit 1
+          fi
+          echo "== runner 出口 IP / 地理位置(确认在墙外)=="
+          curl -s --max-time 15 https://ipinfo.io/json || echo "(ipinfo 取不到,忽略)"
+          echo "== 计时:一次真 GLM-5.2 调用 =="
+          START=$(date +%s.%N)
+          OUT=$(python3 tools/glm-ask --max-tokens 32 "只回复两个字:收到" 2>glm.err) || {
+            echo "::error::GLM 调用失败(见下 stderr)"; cat glm.err; exit 1;
+          }
+          END=$(date +%s.%N)
+          echo "GLM 回复: $OUT"
+          cat glm.err
+          echo "P1a 往返耗时: $(echo "$END - $START" | bc) 秒"
+
+      - name: setup-node 22.16.0
+        if: always()
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22.16.0"
+
+      - name: install root deps
+        if: always()
+        run: npm install --no-audit --no-fund
+
+      # ---- P1b1:edge-tts + ffmpeg 在 Linux 真合成音频 ----
+      - name: P1b1 · ffmpeg + edge-tts synth one episode + gate-audio
+        if: always()
+        run: |
+          set -x
+          sudo apt-get update && sudo apt-get install -y ffmpeg
+          ffmpeg -version | head -1; ffprobe -version | head -1
+          python3 -m pip install --user edge-tts
+          EDGE=$(python3 -c "import shutil;print(shutil.which('edge-tts') or '')")
+          [ -z "$EDGE" ] && EDGE="$HOME/.local/bin/edge-tts"
+          echo "edge-tts bin: $EDGE"; "$EDGE" --version || true
+          # 合成 modal 集音频(digest.json 入库、audio.mp3 gitignore → 现场再生)
+          EDGE_TTS_BIN="$EDGE" node scripts/tts.mjs data/episodes/2026-07-08-latent-space-modal
+          ls -la data/episodes/2026-07-08-latent-space-modal/audio.mp3
+          # gate-audio 需要 feed enclosure;先建 feed 再验
+          node scripts/build-feed.mjs --out feed.xml || echo "(build-feed 非阻断,继续)"
+          node scripts/gate-audio.mjs
+
+      # ---- P1b2:Quartz v5 clone 钉 commit + 插件 + build ----
+      - name: P1b2 · bootstrap Quartz site + build + gate-all
+        if: always()
+        run: |
+          set -x
+          QUARTZ_COMMIT=9cf87ff1c248a8ca551093214b0fec3b31415009
+          if [ ! -d site ]; then
+            git clone --branch v5 --single-branch https://github.com/jackyzha0/quartz.git site
+          fi
+          git -C site checkout "$QUARTZ_COMMIT"
+          echo "已钉 commit: $(git -C site rev-parse HEAD)"
+          cd site
+          npm i --no-audit --no-fund
+          node ./quartz/bootstrap-cli.mjs create -X new -t default -l shortest -b "podcast-digest.local"
+          node ./quartz/bootstrap-cli.mjs plugin install --from-config --latest
+          # 灌 samples(集页 + 实体页)
+          cp ../samples/*.md content/ 2>/dev/null || true
+          if ls ../samples/entities/*.md >/dev/null 2>&1; then
+            mkdir -p content/entities && cp ../samples/entities/*.md content/entities/
+          fi
+          node ../scripts/build-list.mjs
+          node ./quartz/bootstrap-cli.mjs build
+          echo "== build 产物 =="; ls -la public | head
+          cd ..
+          node scripts/gate-all.mjs
+
+      - name: P1 汇总
+        if: always()
+        run: echo "P1 探路结束。逐 step 看 ✅/❌:P1a=GLM 可达+速度,P1b1=edge-tts+ffmpeg,P1b2=Quartz build+gate-all。全绿才进真编排器。"

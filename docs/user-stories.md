@@ -665,3 +665,78 @@ Then  手机直接能读中文精华(无登录门);播客 App 真订到节目、
 5. ✅ 技术负债对账:D2 还(wrangler 装)/ D33 闭合(feed 真可订阅、播客 App 订到)/ D7 存档层 R2 留 C7c / D34 部分(App 靠人工核);**红线重提**:密钥全程没碰(OAuth 在用户机器)/ **版权公开自担(用户明文,drift #17)**。新账:换域名+项目(drift #19);site/quartz.config baseUrl 改动未入库(gitignore,归 C7c/D21)。
 6. ⬜ 里程碑独立对抗审计:C7a 代码改动极小(SITE_URL 值改 + 部署操作,无逻辑变更)→ **glm-check 价值有限,待与用户确认豁免或轻量跑一次**。
 > ✅ **C7a 完成**(用户 2026-07-19 亲手真设备验收);story-map C7a 已翻 ✅。DoD #6 glm 审计待用户拍豁免。
+
+## C7b · 无人值守:GitHub Actions cron 定时跑现有流水线 → 全自动发布
+
+> 主要故事:**全部 US(把 C1–C7a 手动跑通的整条流水线变成无人值守自动发布)**。真相源 `需求共识.md` 产品轮廓 L206(🔒 已改:定时执行环境 CF Workers → **GitHub Actions cron**,drift #21 · ADR 0012)。
+> **本片定位=上云第二子片(drift #15 拆片)**:C7a 已把成品搬上云、能看能听;C7b 让它**自己长出新集**——定时轮询 RSS、发现新集就跑完整条流水线、闸门全过就自动部署到 voice.solomind.cc,**无人值守、不等人**。
+> **⚠️ 全自动发布 = 用户知情下的明文例外(drift #20 · ADR 0011)**:坏稿可能未被闸门拦即直达完全公开的站、发布前无人复核,与「里程碑亲手验收」纪律冲突。用户 2026-07-19 第二次知情确认、**风险自担**。Claude 工程兜底(不违背全自动):①闸门做到最严 ②发布后自动通知用户 + 一键回滚 ③定点重写回路是无人值守唯一失真自愈手段 ④失败告警(部分归 C7c)。**这是「亲手验收」纪律仅限 C7b 自动发布的明文例外,其他切片仍须人工验收。**
+> **执行环境 = GitHub Actions cron(drift #21 · ADR 0012)**:CF Workers 跑不了 ffmpeg/quartz build/glm-ask CLI/本地 fs → 用 GitHub Actions Linux runner 复用现有 26 脚本、cron 定时、免费、机器在墙外绕开 GFW。**内容托管仍 CF Pages**(voice.solomind.cc;国内访问不保证稳,用户知情继续)。
+> **仓库 = 单个公开仓、代码+数据同仓(drift #22)**:Actions 对公开仓无限免费;**去重状态靠 data/ 目录 commit 回仓库**(某集处理过=仓库里已有其 `data/episodes/<id>/`)。**cron = 一天一次(drift #22)。**
+> **红线**:GLM/ASR key 走 **GitHub Secrets**(用户自持、Claude 不碰明文,不进公开仓库);版权公开自担续 C7a(drift #17)。
+
+### 本片做什么 / 不做什么(防范围蔓延)
+- ✅ **做**:
+  ① **建 GitHub 公开远端仓库 + push**(顺带还 C7c 的 GitHub 远端;`.env`/`site` 等已 gitignore 的不入库);GLM/ASR key 配 GitHub Secrets。
+  ② **写编排脚本 `scripts/run-pipeline.mjs`**(现无端到端编排器,只有单步脚本且 `gate`/`verify:c2` 硬编码集目录):取 RSS → **去重判有没有新集**(比对 `data/episodes/` 已存在的 id)→ 对每个新集顺跑 fetch-source(有官方稿)/ fetch-source-asr(无稿兜底)→ translate → condense → judge-quotes → gate(三联)→ extract-entities → build-entities → gate-entities → render → tts → gate-audio → build-feed → build-list → build-pages → quartz build → **gate-all 全过**才算这集成。
+  ③ **写 `.github/workflows/pipeline.yml`**:`schedule: cron`(一天一次)+ 手动 `workflow_dispatch` → checkout → 装 ffmpeg + node deps + quartz → 跑 `run-pipeline.mjs` → **闸门全过**才 `wrangler pages deploy`(用 CF API token,存 Secrets)→ **把新集 data/ commit 回仓库**(去重状态持久化)→ 通知。
+  ④ **发布后通知 + 一键回滚**(安全网,drift #20):发布成功/失败都通知用户(默认 GitHub 原生邮件,渠道可换);回滚=CF Pages 保留部署历史,一条命令/一次操作回上一版。
+- ❌ **不做(留 C7c 运维硬化)**:分支保护 + PR CI 门 / 失败告警的富渠道(超出 GitHub 原生邮件)/ 免费额度告警 / R2 备份口径 / 回滚演练脚本化 / 钉插件版本 D21 / 前端库自托管 D36 / 存档层 transcript+translation 备份。**半自动待发布草稿:用户已明选全自动、不做(drift #20)。**
+
+### 前置核验 P1(未过则停,先验后写——踩过 Bases/Workers 纸面坑)
+- **P1a runner 海外真调智谱 GLM 一次**:GitHub Actions runner(海外)真发一次 GLM-5.2 请求,验**可达 + 速度**(中国防火墙不挡"从国外访问国内 API",但要实测确认、量速度)。不可达/太慢 → 停,报用户重定方案(如自托管 runner)。
+- **P1b runner 真装 ffmpeg + 端到端跑一集不崩**:Actions 环境真 `apt install ffmpeg` + 装 node/quartz + 跑一集完整流水线(取现有一集或一集真新集)到 gate-all 过、build 出产物,证明 26 脚本在 Linux runner 上真能跑通(本地是 macOS,平台差异先验)。崩 → 停报用户,不假装能跑。
+
+### Scenario 1 · 建公开仓库 + push + 配 Secrets(人机边界:凭证不碰)
+```
+Given 项目本地 git 仓库(main),无 GitHub 远端
+When  [系统] Claude 写好命令:建公开仓库、加 remote、push;[用户] 在自己终端执行(或 Claude 用已授权的 gh)
+And   [用户] 在 GitHub 仓库 Settings 配 Secrets(GLM key / ASR key / CF API token),Claude 只说要配哪几个、不碰明文值
+Then  公开仓库有全部代码+数据、main 已 push;Secrets 就位;.env 等敏感文件确认没进仓库
+  Scenario 1a [异常] push 含不该公开的东西(.env/key):Then 停,先修 gitignore/清历史,不把密钥推上公开仓
+```
+
+### Scenario 2 · 编排脚本:RSS 去重 → 新集跑完整链 → gate-all 全过
+```
+Given run-pipeline.mjs 就绪,data/episodes/ 有已处理集(去重基线)
+When  [系统] 跑 run-pipeline.mjs:取 RSS,列出所有集,滤掉 data/episodes/ 已存在 id 的
+Then  只对「真·新集」跑流水线;无新集时干净退出(exit 0,不空跑不报错)
+And   每个新集顺跑 fetch→translate→condense→judge→gate→entities→render→tts→gate-audio→build-*→quartz build→gate-all,全过才标该集成
+  Scenario 2a [异常] 某集某步失败/闸门拦(坏稿):Then 该集不发布、记原因;不把半成品/坏稿混进部署产物
+  Scenario 2b [异常] 无官方稿:Then 走 fetch-source-asr 兜底(ASR + 防失真三联照旧);ASR 也失败则该集跳过记账
+```
+
+### Scenario 3 · Actions workflow:cron 定时 → 装环境 → 跑链 → 闸门全过才部署
+```
+Given .github/workflows/pipeline.yml 就绪,Secrets 配好
+When  [系统] cron 触发(一天一次)或 workflow_dispatch 手动触发 → checkout → 装 ffmpeg+node+quartz → 跑 run-pipeline.mjs
+Then  有新集且 gate-all 全过 → wrangler pages deploy 到 voice.solomind.cc → 新集 data/ commit 回仓库(去重持久化)→ 通知用户
+And   [关键] 闸门没全过 / 无新集 → 不部署(不拿旧产物或坏稿覆盖线上)
+  Scenario 3a [异常] 装环境/部署失败:Then workflow 红、发失败通知,不静默;线上保持上一版不动
+  Scenario 3b [关键] 全自动例外(drift #20):部署无人工复核闸门,靠 gate-all + 定点重写兜底;发布后通知 + 可回滚
+```
+
+### Scenario 4 · 里程碑 E2E:真跑一次自动发布 + 通知 + 回滚可用
+```
+Given 全套就绪(仓库/Secrets/workflow/编排器,P1 已过)
+When  [系统] 手动触发(workflow_dispatch)一次真跑,或等一次真 cron;喂一集真新集(真 RSS→真转写→真闸门→真部署)
+Then  新集自动出现在 voice.solomind.cc(用户真设备打开能读能听)+ 用户收到发布通知 + 演示一键回滚能撤回该次发布
+  Scenario 4a [异常] 自动发布出坏稿:Then 通知里能看出、一键回滚撤下;记录闸门为何没拦(补闸门或记 tech-debt)
+  # 里程碑规矩:C7b 自动发布是「亲手验收」的明文例外,但首次真跑仍由用户在真设备确认结果 + 验回滚真能用
+```
+
+### 测试锚点(全部 US)
+- **主证据=真跑一次自动发布**:workflow_dispatch/cron 真触发,新集真上 voice.solomind.cc,用户真设备核。**不认 mock 绿**。
+- **机器可覆盖的**:run-pipeline 去重逻辑(单测:已存在 id 被滤、新 id 进链)、gate-all 全过才部署的门(workflow 逻辑 + 干跑验证「闸门不过则不 deploy」)、无新集干净退出。
+- **P1 前置**:runner 海外真调 GLM(P1a)+ 真装 ffmpeg 端到端跑一集(P1b),证据落 `docs/c7b-p1-*.md`。
+- ⚠️ **诚实边界**:①全自动发布=用户明文例外(drift #20),坏稿可能直达公网,靠 gate-all+定点重写兜底、发布后通知+回滚补救,**不宣称零失真** ②国内访问 voice.solomind.cc 不保证稳(CF 免费无境内节点+GFW,C7a 已交底)③富告警/额度告警/分支保护归 C7c。
+
+### C7b 完成 = 怎么算完成(DoD)
+1. ⬜ **P1a/P1b 过**:runner 海外真调 GLM 可达(附速度)+ 真装 ffmpeg 端到端跑一集到 gate-all 过(证据落盘)。
+2. ⬜ 公开仓库建好 + push,Secrets 配好,`.env`/key 确认没进仓库(Scenario 1)。
+3. ⬜ `run-pipeline.mjs` 编排器:RSS 去重 + 新集跑完整链 + gate-all 全过才标成,单测覆盖去重逻辑(Scenario 2)。
+4. ⬜ `.github/workflows/pipeline.yml`:cron 一天一次 + 手动触发,闸门全过才 deploy,新集 data/ commit 回仓库,发布/失败通知(Scenario 3)。
+5. ⬜ 发布后通知 + 一键回滚验真能用(Scenario 4 安全网,drift #20)。
+6. ⬜ **里程碑 E2E**:真跑一次自动发布,新集真上线、用户真设备验收 + 回滚演示(Scenario 4)。
+7. ⬜ 技术负债对账 + **红线重提**:GLM/ASR key 全程走 Secrets 没进公开仓/Claude 没碰明文;版权公开自担(drift #17);全自动例外风险已交底(drift #20)。C7c 明确剩:分支保护+CI/富告警/额度告警/R2备份/回滚演练脚本化/钉版本 D21/前端库自托管 D36。
+8. ⬜ 里程碑独立对抗审计(glm-check --kind code,落账本+打裁决)——C7b 有真新代码(编排器+workflow),按里程碑规矩跑,不豁免。
