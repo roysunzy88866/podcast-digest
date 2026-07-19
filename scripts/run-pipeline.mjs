@@ -128,6 +128,7 @@ function processEpisode(item, id) {
   run("node", ["scripts/translate.mjs", dir]);
   run("node", ["scripts/condense.mjs", dir]);
   run("node", ["scripts/judge-quotes.mjs", dir]);
+  run("node", ["scripts/repair-quotes.mjs", dir]); // 规整金句 snap 回逐字/派生时间戳说话人、救不回的丢(C2 步骤④.5,原编排漏了→gate 挂失真)
   run("node", ["scripts/gate.mjs", dir]);
   run("node", ["scripts/extract-entities.mjs", dir]);
   run("node", ["scripts/render.mjs", dir]);
