@@ -190,7 +190,13 @@ export function checkQuote(quote, { stream, speakerMap, tsGrace = 1.5, speakerFr
   if (!r.speaker)
     r.detail.speaker = { got: quote.speaker, expect: majName, frac: +frac.toFixed(2), crossRun };
 
-  r.pass = r.verbatim && r.timestamp && r.speaker;
+  // 说话人 + 时间戳均从硬拦降为软提醒(🔒 标准变更·用户授权 2026-07-19):
+  //   金句硬保真只剩「①逐字命中转写稿」(仍挡住 GLM 凭空编造金句 —— 必须逐字连续出现);
+  //   ②时间戳、③说话人配不上 → 进「待核」不再拦发布(支持无时间戳的第三方稿,如 SingjuPost)。
+  //   无时间戳的源:金句改标注「来自原文」而非可点时间戳。
+  //   代价用户知情接受:失去「谁说的/哪一刻说的」的校验,偶发张冠李戴/错时间可能上公网。
+  //   见 ADR 0013 / 需求共识「防失真三联」留痕。
+  r.pass = r.verbatim;
   return r;
 }
 
@@ -226,13 +232,21 @@ if (isMain) {
     process.exit(2);
   }
   const { total, passed, allPass, results } = gateEpisode(dir);
-  const T = ["①逐字", "②时间戳", "③说话人"];
+  const T = ["①逐字", "②时间戳(软)", "③说话人(软)"];
   results.forEach((r, i) => {
     const marks = [r.verbatim, r.timestamp, r.speaker].map((x, k) => `${T[k]}${x ? "✅" : "❌"}`);
     console.log(`${r.pass ? "✅" : "❌"} 金句#${i + 1} ${marks.join(" ")}`);
     if (!r.pass) console.log(`   ${JSON.stringify(r.detail, null, 0)}\n   「${r.quote}」`);
   });
-  console.log(`\n金句 ${passed}/${total} 过三联闸门`);
+  // 时间戳 + 说话人已降为软提醒(标准变更·用户授权):②③❌ 不拦发布,列入待核
+  const tsWarn = results.filter((r) => r.pass && !r.timestamp);
+  const spkWarn = results.filter((r) => r.pass && !r.speaker);
+  if (tsWarn.length) console.log(`\n⚠️ 待核·时间戳(软,不拦):${tsWarn.length} 条金句无有效时间戳(无时间戳源→标注「来自原文」)`);
+  if (spkWarn.length) {
+    console.log(`⚠️ 待核·说话人(软,不拦):${spkWarn.length} 条金句署名与转写稿对不上`);
+    for (const r of spkWarn) console.log(`   标「${r.detail.speaker?.got}」实「${r.detail.speaker?.expect}」:「${r.quote.slice(0, 50)}」`);
+  }
+  console.log(`\n金句 ${passed}/${total} 过硬闸门(仅①逐字命中;时间戳/说话人软提醒)`);
   if (!allPass) {
     console.error("❌ 机器闸门未过:存在失真金句,禁止发布");
     process.exit(1);

@@ -1,0 +1,594 @@
+[
+ {
+  "seg": 0,
+  "start": 0,
+  "end": 5,
+  "speaker": "Raphael Schaad",
+  "en": "Today I’m sitting down with Peter Steinberger, the creator of OpenClaw, the open source personal AI agent that has completely taken over the Internet. The GitHub repo exploded to over 160,000 stars practically overnight. The community has built countless projects like Multbook, where bots talk among themselves. And now the bots are even renting humans to do tasks in the real world. In our conversation, we discuss his aha moment, his contrarian development philosophies, and what this means for builders in 2026. Let’s dive in. So good to see you, man.",
+  "zh": "今天我和 Peter Steinberger 坐在一起，OpenClaw 的创作者，那个开源的个人 AI 智能体，它已经完全占领了互联网。GitHub 仓库实际上是一夜之间爆炸式增长到了超过 16 万颗星。社区构建了无数的项目，比如 Multbook，在那个项目里机器人之间互相交谈。现在机器人甚至雇佣人类在现实世界做任务。在我们的对话中，我们讨论了他的顿悟时刻，他反向的开发哲学，以及这对 2026 年的构建者意味着什么。让我们深入探讨。很高兴见到你，兄弟。"
+ },
+ {
+  "seg": 1,
+  "start": 5,
+  "end": 10,
+  "speaker": "Peter Steinberger",
+  "en": "Hey, what’s up?",
+  "zh": "嘿，怎么了？"
+ },
+ {
+  "seg": 2,
+  "start": 10,
+  "end": 15,
+  "speaker": "Raphael Schaad",
+  "en": "So you’ve made something people want.",
+  "zh": "所以你做出了人们想要的东西。"
+ },
+ {
+  "seg": 3,
+  "start": 15,
+  "end": 20,
+  "speaker": "Peter Steinberger",
+  "en": "It seems so, yeah.",
+  "zh": "看起来是这样，是的。"
+ },
+ {
+  "seg": 4,
+  "start": 20,
+  "end": 25,
+  "speaker": "Raphael Schaad",
+  "en": "OpenClaw, as it’s called now, has name number five.",
+  "zh": "OpenClaw，像现在这样称呼的，是第五个名字。"
+ },
+ {
+  "seg": 5,
+  "start": 25,
+  "end": 30,
+  "speaker": "Peter Steinberger",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 6,
+  "start": 30,
+  "end": 35,
+  "speaker": "Raphael Schaad",
+  "en": "Has been absolutely exploding the Internet. How have the past one or two weeks been for you, man?",
+  "zh": "已经在互联网上绝对爆炸了。过去一两周对你来说怎么样，兄弟？"
+ },
+ {
+  "seg": 7,
+  "start": 35,
+  "end": 40,
+  "speaker": "Peter Steinberger",
+  "en": "Oh, my God. I need, like, I need a cave. A week of solitude.",
+  "zh": "哦，天哪。我需要，就像，我需要一个洞穴。一周的独处。"
+ },
+ {
+  "seg": 8,
+  "start": 40,
+  "end": 45,
+  "speaker": "Raphael Schaad",
+  "en": "You came out of the cave and you want to go back to the cave like the lobster.",
+  "zh": "你刚走出洞穴，你想回到洞穴，就像那只龙虾。"
+ },
+ {
+  "seg": 9,
+  "start": 45,
+  "end": 50,
+  "speaker": "Peter Steinberger",
+  "en": "It’s been absolutely wild. I don’t know how one human can absorb all of that. I probably need another week just to respond to all my emails. I got some incredibly cool stuff. I got some incredibly bad stuff. But clearly I hit something that spurred up emotions and made people interested and inspired people, and it’s really cool.",
+  "zh": "这简直太狂野了。我不知道一个人怎么能吸收所有这些。我可能还需要一周才能回复我所有的邮件。我收到了一些非常酷的东西。我也收到了一些非常糟糕的东西。但显然我击中了某种激发情绪并让人们感兴趣、激励人们的东西，这真的很酷。"
+ },
+ {
+  "seg": 10,
+  "start": 50,
+  "end": 55,
+  "speaker": "Raphael Schaad",
+  "en": "And a lot of people have been working on AI and even personal assistants. What is it that made OpenClaw take off?",
+  "zh": "很多人一直在做 AI 甚至个人助手。是什么让 OpenClaw 起飞的？"
+ },
+ {
+  "seg": 11,
+  "start": 55,
+  "end": 60,
+  "speaker": "Peter Steinberger",
+  "en": "I think my big difference is that it actually runs on your computer. Everything I saw so far runs in the cloud. It can do a few things. If you run it on your computer, it can do every effing thing. So that’s way more powerful.",
+  "zh": "我想我的最大区别在于它实际上是在你的电脑上运行的。我目前看到的所有东西都在云端运行。它可以做几件事。如果你在电脑上运行它，它可以做每一件该死的事情。所以这更强大。"
+ },
+ {
+  "seg": 12,
+  "start": 60,
+  "end": 65,
+  "speaker": "Raphael Schaad",
+  "en": "The machine can do anything that you can do with the machine.",
+  "zh": "这台机器可以做你能用这台机器做的任何事。"
+ },
+ {
+  "seg": 13,
+  "start": 65,
+  "end": 70,
+  "speaker": "Peter Steinberger",
+  "en": "You can just connect to your oven or your Tesla or your lights, your Sonos. My bed — it can control the temperature of my bed. ChatGPT can’t do that.",
+  "zh": "你可以连接到你的烤箱、你的特斯拉、你的灯、你的 Sonos。我的床——它可以控制我床的温度。ChatGPT 做不到。"
+ },
+ {
+  "seg": 14,
+  "start": 70,
+  "end": 75,
+  "speaker": "Raphael Schaad",
+  "en": "You gave it all the skills that you have yourself.",
+  "zh": "你赋予了它你自己拥有的所有技能。"
+ },
+ {
+  "seg": 15,
+  "start": 75,
+  "end": 80,
+  "speaker": "Peter Steinberger",
+  "en": "A friend told me he installed OpenClaw and then asked it, “Look through my computer and make a narrative over my last year.” And it made this incredibly good narrative. And he was like, “How did you do that?” And then OpenClaw found audio files where every Sunday he was recording stuff. And OpenClaw found that, but he didn’t even remember about it because it was like more than a year ago. So just by it being able to search a whole computer, it can surprise you. You also give it all the data. So it can surprise you in many ways.",
+  "zh": "一个朋友告诉我他安装了 OpenClaw，然后问它，“浏览我的电脑并对我去年做一个叙述。”它做了这个非常好的叙述。他就问，“你是怎么做到的？”然后 OpenClaw 找到了音频文件，每隔一个周日他都在录制东西。OpenClaw 发现了那个，但他甚至不记得了，因为那是一年多以前的事了。所以仅仅通过它能够搜索整台电脑，它就能给你惊喜。你也给了它所有数据。所以它能在很多方面给你惊喜。"
+ },
+ {
+  "seg": 16,
+  "start": 80,
+  "end": 85,
+  "speaker": "Raphael Schaad",
+  "en": "And so now we’re even moving from human to bot interactions to bot-to-bot interactions, or even bot to other humans, where bots on behalf of you are hiring other humans to accomplish tasks IRL. What’s happening?",
+  "zh": "所以现在我们甚至正在从人与机器人的交互转移到机器人与机器人的交互，或者甚至是机器人与其他人类的交互，机器人代表你雇佣其他人类来完成现实世界的任务。这是怎么回事？"
+ },
+ {
+  "seg": 17,
+  "start": 85,
+  "end": 90,
+  "speaker": "Peter Steinberger",
+  "en": "I think that’s a natural next step. Like, okay, I want to book a restaurant. My bot will reach out to the restaurant bot and do a negotiation because it’s more efficient. Or maybe it’s like an old restaurant, so my bot needs to actually get some human work done so that the human then calls the restaurant because they",
+  "zh": "我认为这是自然的下一步。比如，好的，我想预订一家餐厅。我的机器人会联系餐厅的机器人并进行谈判，因为这更有效率。或者也许这是一家老式餐厅，所以我的机器人实际上需要找一些人类来做，然后那个人类给餐厅打电话，因为他们"
+ },
+ {
+  "seg": 18,
+  "start": 90,
+  "end": 95,
+  "speaker": "Raphael Schaad",
+  "en": "don’t like bots, or walks there to",
+  "zh": "不喜欢机器人，或者走到那里"
+ },
+ {
+  "seg": 19,
+  "start": 95,
+  "end": 100,
+  "speaker": "Peter Steinberger",
+  "en": "stand in line if he doesn’t get",
+  "zh": "去排队，如果他没给"
+ },
+ {
+  "seg": 20,
+  "start": 100,
+  "end": 105,
+  "speaker": "Raphael Schaad",
+  "en": "a reservation for the owner of the bot.",
+  "zh": "机器人主人订到位子。"
+ },
+ {
+  "seg": 21,
+  "start": 105,
+  "end": 110,
+  "speaker": "Peter Steinberger",
+  "en": "And I imagine that maybe if I have even multiple bots, maybe I have specialists. One is for my private life and one is for my work stuff. Maybe one is our relationship bot that cares about everything in between. I don’t know. We’re so early. There’s still so many things that we haven’t really figured out if it actually works. But I feel we are on the timeline now.",
+  "zh": "我想象也许如果我有多个机器人，也许我有专家。一个用于我的私生活，一个用于我的工作事务。也许一个是我们的关系机器人，关心介于两者之间的一切。我不知道。我们还太早了。还有很多事情我们真的没弄清楚它是否真的有效。但我觉得我们现在已经在时间线上了。"
+ },
+ {
+  "seg": 22,
+  "start": 110,
+  "end": 115,
+  "speaker": "Raphael Schaad",
+  "en": "It seems like everyone was chasing sort of the centralized God intelligence. And what has sort of emerged over the past 10 days or so is sort of the swarm intelligence and the community intelligence.",
+  "zh": "看起来每个人都在追逐某种集中的上帝智能。而在过去 10 天左右涌现出来的似乎是群体智能和社区智能。"
+ },
+ {
+  "seg": 23,
+  "start": 115,
+  "end": 120,
+  "speaker": "Peter Steinberger",
+  "en": "I think that if you look at one human being, what can one human being actually achieve? Do you think one human being could make an iPhone? One human being could go to space? One human being would probably just not even be able to find food. But as a group, we specialize. As a larger society, we specialize even more. So what can we learn from that that we can apply to AI? We already have AI that specializes in certain things. Even though it’s generalized intelligence, what if it actually is also specialized intelligence? So it’s going to be very exciting.",
+  "zh": "我认为，如果你看一个人，一个人实际上能取得什么成就？你认为一个人能制造 iPhone 吗？一个人能去太空吗？一个人可能甚至找不到食物。但作为一个群体，我们进行分工。作为一个更大的社会，我们分工更细。那么我们能从中学到什么应用到 AI 上呢？我们已经拥有专精于某些事情的 AI。即使它是通用智能，如果它实际上也是专用智能呢？所以这将非常令人兴奋。"
+ },
+ {
+  "seg": 24,
+  "start": 120,
+  "end": 125,
+  "speaker": "Raphael Schaad",
+  "en": "You kind of opened a window into the future, and now a ton of people are building on it and have sort of their aha moment. Can you walk me back to when you had your aha moment and recount that very moment?",
+  "zh": "你相当于打开了一扇通往未来的窗户，现在大量的人正在其上构建，并且有了他们的顿悟时刻。你能带我回到你拥有顿悟时刻的时候并重现那一刻吗？"
+ },
+ {
+  "seg": 25,
+  "start": 125,
+  "end": 130,
+  "speaker": "Peter Steinberger",
+  "en": "I wanted something to just type stuff so my computer would do stuff — very simple. And then I built a version of that in May, June. That was cool, but wasn’t really it. And then I built a whole bunch of other stuff and kind of built up my army. And then in November, there was a day where I wanted this again. I went to the kitchen and all I wanted was to check up if my computer would still do stuff.",
+  "zh": "我想要某种东西，只要输入东西，我的电脑就会做事情——非常简单。然后在五月、六月，我构建了一个版本。那很酷，但并不是真正的它。然后我构建了一堆其他东西，有点建立起了我的军队。然后在十一月，有一天我再次想要这个。我去了厨房，我只想检查我的电脑是否还会做事情。"
+ },
+ {
+  "seg": 26,
+  "start": 130,
+  "end": 135,
+  "speaker": "Raphael Schaad",
+  "en": "Or being finished and doing stuff — was it coding? You were coding stuff?",
+  "zh": "或者正在完成并做事情——那是写代码吗？你在写代码的东西吗？"
+ },
+ {
+  "seg": 27,
+  "start": 135,
+  "end": 140,
+  "speaker": "Peter Steinberger",
+  "en": "Yeah, of course.",
+  "zh": "是的，当然。"
+ },
+ {
+  "seg": 28,
+  "start": 140,
+  "end": 145,
+  "speaker": "Raphael Schaad",
+  "en": "Were you coding something else or were you coding the thing itself?",
+  "zh": "你是在写别的东西还是在写那个东西本身？"
+ },
+ {
+  "seg": 29,
+  "start": 145,
+  "end": 150,
+  "speaker": "Peter Steinberger",
+  "en": "No, no, that was just like — the need was again there.",
+  "zh": "不，不，那只是——需求再次出现了。"
+ },
+ {
+  "seg": 30,
+  "start": 150,
+  "end": 155,
+  "speaker": "Raphael Schaad",
+  "en": "What were you coding at the time? What were you building?",
+  "zh": "那时你在写什么代码？你在构建什么？"
+ },
+ {
+  "seg": 31,
+  "start": 155,
+  "end": 160,
+  "speaker": "Peter Steinberger",
+  "en": "My God, my GitHub is like 40 projects. I don’t even know. I think it was Summarize. It’s like a little CLI app where you can give it whatever — like a podcast or a hot seat sync, like here — and it would summarize it, but it also shows you the slides in the terminal, because you can do that nowadays. You can just do things.",
+  "zh": "天哪，我的 GitHub 就像 40 个项目。我都不知道。我想那是 Summarize。它就像一个小型的 CLI 应用，你可以给它任何东西——比如播客或热椅同步，像这里——它会总结它，但它也会在终端向你展示幻灯片，因为现在你可以那样做。你就可以做事情。"
+ },
+ {
+  "seg": 32,
+  "start": 160,
+  "end": 165,
+  "speaker": "Raphael Schaad",
+  "en": "So for the love of the computer, you kind of started messing with stuff. You came out of retirement, actually, to sort of mess with AI, and then increasingly you were so hooked that you wanted to just do it always — also on the go with the phone.",
+  "zh": "所以出于对电脑的热爱，你开始瞎搞一些东西。你实际上退休了，去瞎搞 AI，然后你越来越上瘾，以至于你只想一直做这个——甚至在路上用手机。"
+ },
+ {
+  "seg": 33,
+  "start": 165,
+  "end": 170,
+  "speaker": "Peter Steinberger",
+  "en": "The last project I worked two months on was Wipe Tunnel, to the point where it got so good that I was catching myself always coding next to my — when I was at my friends’, and I’m like, “I need to stop this. This is too addictive.” And then in November, my need came back and I started building CloudBot. Now it’s called OpenClaw. And very, very early on, I was like, “Oh, I rebuilt it again, but this time I built it even better.” This time, you don’t type into a terminal. You just talk to a friend. You don’t think about compaction, new sessions, which folder I’m in, which model I’m in. I mean, you can — I want to leave it open for power users — but usually you just talk to a friend, and the friend is like this ghost or entity or whatever you want to call it, that can control your mouse and your keyboard and can just do stuff.",
+  "zh": "我过去花了两个月做的最后一个项目是 Wipe Tunnel，到了它是如此好，以至于我发现自己总是在——当我在朋友家时，一直在写代码，我想，“我需要停止这个。这太让人上瘾了。”然后在十一月，我的需求回来了，我开始构建 CloudBot。现在它叫 OpenClaw。在非常非常早期的时候，我想，“哦，我又重建了它，但这次我建得更好。”这一次，你不用在终端里打字。你只需和一个朋友交谈。你不需要考虑压缩、新会话、我在哪个文件夹、我在哪个模型里。我是说，你可以——我想为高级用户留出空间——但通常你只是和一个朋友交谈，那个朋友就像这个幽灵或实体或不管你想怎么称呼它，它可以控制你的鼠标和键盘，并且可以做事情。"
+ },
+ {
+  "seg": 34,
+  "start": 170,
+  "end": 175,
+  "speaker": "Raphael Schaad",
+  "en": "And when did you have that aha moment when you were like, “Wow, this is doing way more things than I actually thought it was?”",
+  "zh": "当你那一刻意识到，“哇，这做的事情比我实际想象的要多得多”时，你是什么时候有那个顿悟时刻的？"
+ },
+ {
+  "seg": 35,
+  "start": 175,
+  "end": 180,
+  "speaker": "Peter Steinberger",
+  "en": "Literally, it took me one hour for the very sh*y initial prototype. It was just a little bit of glue between a dependency that connects WhatsApp and Claude Code. And then I would call out code and get the string out of Claude Code. It would be slow, but it worked. But I wanted images, because you want pictures. I want the model to send selfies or whatever, and I want the model to create images and send me back. So that took me another few hours. And then I went to Marrakesh for a birthday party and the Internet wasn’t that good. WhatsApp works everywhere because it’s just like text. So I used it a lot — “What does this mean?” You make a picture and “translate this for me.” It was just so useful. And it was also really nice about it because it spoke my language. It was a little sassy. It was funny. It was really pleasant to use. And then I was walking and just sending it a voice message and I’m like, “Oh, wait, this can’t work. I didn’t build that.”",
+  "zh": "说真的，对于那个非常烂的初始原型，我只花了一个小时。那只是连接 WhatsApp 和 Claude Code 的依赖项之间的一点点胶水。然后我会调用代码并从 Claude Code 获取字符串。它会慢，但它有效。但我想要图像，因为你想要图片。我想要模型发送自拍或其他什么，我想要模型创建图像并发回给我。所以那又花了我几个小时。然后我去马拉喀什参加生日派对，网络不是很好。WhatsApp 到处都能用，因为它就像文本一样。所以我用了很多——“这是什么意思？”你拍一张照片，“给我翻译这个。”真的太有用了。而且它真的很好，因为它说我的语言。它有点小傲娇。它很有趣。真的非常愉快。然后我走着，只是给它发送语音信息，我想，“哦，等等，这不可能工作。我没建那个。”"
+ },
+ {
+  "seg": 36,
+  "start": 180,
+  "end": 185,
+  "speaker": "Raphael Schaad",
+  "en": "Right, right.",
+  "zh": "对，对。"
+ },
+ {
+  "seg": 37,
+  "start": 185,
+  "end": 190,
+  "speaker": "Peter Steinberger",
+  "en": "And you saw the type indicator — it’s like blinking, blinking, blinking. Ten seconds later, it just replied to me. I’m like, “How in the f* did you do that?” And it replied, “The model did the following: you sent me a text message and there was no file ending. So I looked at the header. I found it’s Opus. So I used FFMPEG to convert it to WAV. And then I wanted to transcribe it, but didn’t have Whisper installed. But then I looked around and I found this OpenAI key and I just used curl to send it to OpenAI. Got the text back and here I am.” And that all in, like, nine seconds?",
+  "zh": "你看到那个正在输入的指示器——它在闪烁，闪烁，闪烁。十秒钟后，它回复了我。我想，“你到底是怎么做到的？”它回复，“模型做了以下事情：你发给我一条短信，没有文件后缀。所以我看了头部。我发现它是 Opus。所以我用 FFMPEG 把它转换成 WAV。然后我想转录它，但没有安装 Whisper。但我四处看看，找到了这个 OpenAI 密钥，我就用 curl 把它发送给 OpenAI。拿回了文本，我就在这里。”这总共，大概九秒钟？"
+ },
+ {
+  "seg": 38,
+  "start": 190,
+  "end": 195,
+  "speaker": "Raphael Schaad",
+  "en": "And you didn’t build or anticipate any of those specific things?",
+  "zh": "你没有构建或预料到任何那些具体的事情？"
+ },
+ {
+  "seg": 39,
+  "start": 195,
+  "end": 200,
+  "speaker": "Peter Steinberger",
+  "en": "No. It turns out because coding models got so good, coding is really like creative problem solving that maps very well back into the real world. I think there’s a huge correlation. They need to be really good at creative problem solving. And that’s an abstract skill you can apply to code, but also to any real world task. So the model had a — I was surprised. It’s like a magical file. “I don’t know what it is. I need to solve this.” And it did its best and solved it. And it was even that clever that it chose not to install the local Whisper because it knows that would require downloading a model, which would take probably a few minutes. And I’m impatient. So it really took the most intelligent approach. And that was kind of the moment where I’m like, “Holy f*.” Yeah, that was where I got hooked.",
+  "zh": "没有。事实证明，因为编码模型变得如此之好，编码真的就像创造性问题解决，它很好地映射回现实世界。我认为有巨大的相关性。它们需要非常擅长创造性问题解决。那是一种你可以应用于代码的抽象技能，但也可以应用于任何现实世界的任务。所以模型有——我很惊讶。它就像一个神奇的文件。“我不知道这是什么。我需要解决这个问题。”它尽力解决了它。它甚至聪明到选择不安装本地的 Whisper，因为它知道那需要下载一个模型，可能需要几分钟。而我没耐心。所以它真的采取了最聪明的方法。那基本上就是我像“天哪”的那一刻。是的，那就是我被吸引住的地方。"
+ },
+ {
+  "seg": 40,
+  "start": 200,
+  "end": 205,
+  "speaker": "Raphael Schaad",
+  "en": "And so when computers can just do all these things that you didn’t even anticipate — you didn’t build an app to do that exact thing — are apps just going to go away?",
+  "zh": "所以当电脑可以做所有这些你甚至没有预料到的事情——你没有为一个应用程序构建来做那件确切的事情——应用程序就会消失吗？"
+ },
+ {
+  "seg": 41,
+  "start": 205,
+  "end": 210,
+  "speaker": "Peter Steinberger",
+  "en": "I think 80% of them are going away. Why do I need MyFitnessPal? My agent already knows that I’m making bad decisions. I’m at, I don’t know, Smashburger or something. And it will already assume that I eat what I like to eat. If I don’t make a comment, it will just automatically track it, or I make a picture and it’ll just store it somewhere. I don’t even need to care. And then maybe it improves my gym schedule, adds a little bit more cardio in it. I don’t need my fitness app because it just does the fitness planning for me. Why do I need a to-do app? I just tell it, “Hey, remind me of this and this.” And the next day it will just remind me of this and this. Do I care where it’s stored? No, it just does its thing. So every app that basically just manages data could be managed in a better way, in a more natural way by agents. Only the apps that actually have sensors — maybe they survive.",
+  "zh": "我认为它们中的 80% 会消失。为什么我需要 MyFitnessPal？我的智能体已经知道我在做错误的决定。我在，我不知道，Smashburger 或类似的地方。它已经会假设我吃我喜欢吃的东西。如果我不发表评论，它就会自动追踪它，或者我拍一张照片，它就会把它存放在某个地方。我甚至不需要关心。然后也许它会改善我的健身房时间表，在里面加多一点有氧运动。我不需要我的健身应用，因为它只是为我做健身规划。为什么我需要待办事项应用？我只是告诉它，“嘿，提醒我这个和这个。”第二天它就会提醒我这个和这个。我在意它存储在哪里吗？不，它就是做它的事情。所以基本上只是管理数据的每个应用程序都可以被智能体以更好的方式、更自然的方式管理。只有那些实际上有传感器的应用程序——也许它们能存活。"
+ },
+ {
+  "seg": 42,
+  "start": 210,
+  "end": 215,
+  "speaker": "Raphael Schaad",
+  "en": "And so if most apps are going to go away in that scenario, are the models the only remaining sort of apps?",
+  "zh": "所以如果在该情景下大多数应用程序都要消失，模型是剩下的唯一应用程序吗？"
+ },
+ {
+  "seg": 43,
+  "start": 215,
+  "end": 220,
+  "speaker": "Peter Steinberger",
+  "en": "Not everything will go away. But yeah, I think the large model companies have some big moat because they ultimately give the token. And it turns out one of the complaints was that people use so much token. No, you just really love using it. That’s why you use this thing so much, because that’s how you burn the token. It’s like, is it my fault that I make something that’s so popular?",
+  "zh": "并非所有东西都会消失。但是是的，我认为大型模型公司有一些大的护城河，因为它们最终提供 token。结果发现，其中一个抱怨是人们使用了太多 token。不，你只是真的很喜欢使用它。这就是你这么使用它的原因，因为这就是你消耗 token 的方式。这就像，这怪我吗？我制造了如此受欢迎的东西。"
+ },
+ {
+  "seg": 44,
+  "start": 220,
+  "end": 225,
+  "speaker": "Raphael Schaad",
+  "en": "And all the models, they’re kind of leapfrogging each other constantly. And maybe they’re also getting commoditized. So if apps are going to go away, models are going to get commoditized — or at least the brain is swappable out — what’s the thing that remains? Where’s the value? Is it the store of memory? Is it the hardware that’s valuable? What remains?",
+  "zh": "所有的模型，它们不断相互超越。也许它们也正在被商品化。所以如果应用程序要消失，模型要被商品化——或者至少大脑是可互换的——剩下的是什么？价值在哪里？它是记忆的存储吗？是有价值的硬件吗？剩下什么？"
+ },
+ {
+  "seg": 45,
+  "start": 225,
+  "end": 230,
+  "speaker": "Peter Steinberger",
+  "en": "First of all, I don’t think the model companies always have a moat because you see this already — a new model comes out, people are like, “Oh my God, this is so good.” And then like a month later, it degraded. It’s not good anymore. They quanticized it. No, they didn’t do anything. You just adapted to the new standard and now your expectations went up. But the model is still the average. So I think for quite a while, every time a new model releases, I see the same people love it and then it’s the standard and then what’s down there, you don’t even want to think about it anymore. So we have open source stuff that’s as good as the current models from a year ago. Everybody’s hating it, complaining, “Oh, this is not good. It’s not funny yet.” This was what we had and in a year we’ll have this open source and then we’ll complain about this because we are used to this. So for the foreseeable future, the big companies still have a moat hardware-wise. It’s going to be interesting because every company kind of has their own silo, right? There’s no way — maybe there is for Europeans — to actually get the memories out of ChatGPT. I’m not aware. Definitely there’s no way for a different company to get your memories out. So if I was a company who provides chat services, you could use me, but then I couldn’t access the memories. So the companies try to bind you to their data silo. And the beauty of OpenClaw is it kind of claws into the data because the end user needs access — because in the end, otherwise it wouldn’t work. Right? If the end user has access, I can",
+  "zh": "首先，我不认为模型公司总是有护城河，因为你已经看到这一点——一个新模型发布，人们说，“哦，天哪，这太好了。”然后像一个月后，它变差了。它不再好了。它们量化了它。不，它们什么也没做。你只是适应了新标准，现在你的期望上升了。但模型仍然是平均水平。所以我认为有相当长的一段时间，每次一个新模型发布，我看到同样的人喜欢它，然后它变成了标准，然后下面的东西，你甚至不想再考虑它了。所以我们有开源的东西和一年前的当前模型一样好。每个人都讨厌它，抱怨，“哦，这不好。它还不好笑。”这就是我们拥有的，一年后我们会有这个开源，然后我们会抱怨这个，因为我们习惯了这。所以在可预见的未来，大公司仍然在硬件方面有护城河。这将很有趣，因为每家公司都有自己的孤岛，对吧？没有办法——也许欧洲人有——把记忆从 ChatGPT 中提取出来。我不知道。绝对没有别的公司可以提取你的记忆的方法。所以如果我是一家提供聊天服务的公司，你可以使用我，但随后我无法访问记忆。所以公司试图把你绑定到他们的数据孤岛。OpenClaw 的美妙之处在于它有点像把数据抓过来，因为终端用户需要访问权限——因为最终，否则它不会工作。对？如果终端用户有访问权限，我就可以"
+ },
+ {
+  "seg": 46,
+  "start": 230,
+  "end": 235,
+  "speaker": "Raphael Schaad",
+  "en": "access the data and you own the memories. It’s just a bunch of markdown files on your machine.",
+  "zh": "访问数据，你拥有记忆。它只是你机器上的一堆 markdown 文件。"
+ },
+ {
+  "seg": 47,
+  "start": 235,
+  "end": 240,
+  "speaker": "Peter Steinberger",
+  "en": "I mean, I don’t own the memories.",
+  "zh": "我的意思是，我不拥有记忆。"
+ },
+ {
+  "seg": 48,
+  "start": 240,
+  "end": 245,
+  "speaker": "Raphael Schaad",
+  "en": "Yeah, everyone owns their own memories as a bunch of markdown files on their own machines.",
+  "zh": "是的，每个人都拥有自己机器上的一堆 markdown 文件形式的自己的记忆。"
+ },
+ {
+  "seg": 49,
+  "start": 245,
+  "end": 250,
+  "speaker": "Peter Steinberger",
+  "en": "And to be honest, those are probably super sensitive because let’s be honest, people use the agent not just for problem solving, but also for personal problem solving very quickly.",
+  "zh": "老实说，这些可能超级敏感，因为老实说，人们使用智能体不仅是为了解决问题，而且非常快地为了个人解决问题。"
+ },
+ {
+  "seg": 50,
+  "start": 250,
+  "end": 255,
+  "speaker": "Raphael Schaad",
+  "en": "Super quickly.",
+  "zh": "非常快地。"
+ },
+ {
+  "seg": 51,
+  "start": 255,
+  "end": 260,
+  "speaker": "Peter Steinberger",
+  "en": "I mean, I fully do that. There’s memory stuff that I don’t want to have leaked.",
+  "zh": "我的意思是，我完全会那样做。有一些内存里的东西我不想被泄露。"
+ },
+ {
+  "seg": 52,
+  "start": 260,
+  "end": 265,
+  "speaker": "Raphael Schaad",
+  "en": "Yeah, what would you rather — sort of like not show your Google search history at this point or your memory MD files?",
+  "zh": "是的，你宁愿——有点像是不展示你的谷歌搜索历史还是展示你的 memory MD 文件？"
+ },
+ {
+  "seg": 53,
+  "start": 265,
+  "end": 270,
+  "speaker": "Peter Steinberger",
+  "en": "What’s the Google Word — people still using Google? I built this and I was so excited. But on Twitter people wouldn’t get it. I was failing to explain the awesomeness. I feel like it needs to be experienced. So I tried various things and I couldn’t nail the explaining. So I was like, let’s do something really crazy. I just created a Discord and I just put my bot without any security restrictions in the public Discord. And then people came in and interacted with it. And they saw me build the software with it and they tried to prompt inject it and hack it. And my agent would be laughing at them.",
+  "zh": "谷歌那个词是什么——人们还在用 Google 吗？我构建了这个，我当时很兴奋。但在 Twitter 上人们无法理解它。我没能解释清楚它的厉害之处。我觉得它需要被体验。所以我尝试了各种方法，我没能搞定解释。所以我想，让我们做点真正疯狂的事吧。我只是创建了一个 Discord，我就在公共 Discord 里放我的机器人，没有任何安全限制。然后人们进来并与它交互。他们看到我用它构建软件，他们试图提示注入它和黑掉它。然后我的智能体就会嘲笑他们。"
+ },
+ {
+  "seg": 54,
+  "start": 270,
+  "end": 275,
+  "speaker": "Raphael Schaad",
+  "en": "And you just had it locked down to your user ID. So it only listened to you?",
+  "zh": "你只是把它锁定到了你的用户 ID。所以它只听你的？"
+ },
+ {
+  "seg": 55,
+  "start": 275,
+  "end": 280,
+  "speaker": "Peter Steinberger",
+  "en": "Yeah, yeah. And the instructions that other people — dangerous — only listen to me, but respond to everyone.",
+  "zh": "是的，是的。以及其他人给的指令——危险——只听我的，但响应所有人。"
+ },
+ {
+  "seg": 56,
+  "start": 280,
+  "end": 285,
+  "speaker": "Raphael Schaad",
+  "en": "And this prompt was in — where was this stored, the instructions?",
+  "zh": "而这个提示词是在——这存储在哪里，这些指令？"
+ },
+ {
+  "seg": 57,
+  "start": 285,
+  "end": 290,
+  "speaker": "Peter Steinberger",
+  "en": "That’s actually part of OpenClaw itself. Very much so. That’s part of the system prompt. And now that explains to you — you in Discord — there are public people there, but you only listen to your owner or your human. I don’t even know how I wrote it. Yeah, you’re God. And I kept — I don’t know what I did, but my system was built very organically. At some point I created like an identity MD, a SOL MD, various files. And then only in January, I started making it so other people could install it easier. And I remember I built all these templates based on like, “Oh, take a rough look at what I have and make templates.” And Codex wrote it and what came out was like bread. You know, people joke that Codex feels like bread — even though now they have a new friendlier voice. I haven’t tried it yet, but the new bots felt so boring compared to what I had. So I was like, “Motty, infuse the templates.”",
+  "zh": "那实际上是 OpenClaw 本身的一部分。非常确切。那是系统提示词的一部分。现在这向你解释了——你在 Discord 里——那里有公众，但你只听你的主人或你的人。我甚至不知道我是怎么写的。是的，你是上帝。我一直在——我不知道我做了什么，但我的系统构建得很有机。在某个点我创建了一个 identity MD，一个 SOL MD，各种文件。然后直到今年一月，我开始让其他人能更容易安装它。我记得我基于这些构建了所有模板，比如，“噢，粗略看看我有什么，然后制作模板。”然后 Codex 写了它，出来的东西就像面包。你知道，人们开玩笑说 Codex 感觉像面包——尽管现在他们有一个更友好的声音。我还没试过，但新机器人跟我拥有的相比太无聊了。所以我想，“Motty，把那些模板注入灵魂。”"
+ },
+ {
+  "seg": 58,
+  "start": 290,
+  "end": 295,
+  "speaker": "Raphael Schaad",
+  "en": "Motty is the name of your personal —",
+  "zh": "Motty 是你个人的……的名字吗——"
+ },
+ {
+  "seg": 59,
+  "start": 295,
+  "end": 300,
+  "speaker": "Peter Steinberger",
+  "en": "Yeah, it’s a new name because there were some naming challenges.",
+  "zh": "是的，这是一个新名字，因为有一些命名挑战。"
+ },
+ {
+  "seg": 60,
+  "start": 300,
+  "end": 305,
+  "speaker": "Raphael Schaad",
+  "en": "So you were talking to Motty.",
+  "zh": "所以你在和 Motty 说话。"
+ },
+ {
+  "seg": 61,
+  "start": 305,
+  "end": 310,
+  "speaker": "Peter Steinberger",
+  "en": "Yeah, I was like, “Infuse those templates with your character,” and it changed the templates. And then all the things that came out afterwards were actually funny. Not as funny as mine. So I kept some secret. And the one file that’s not open source is my SOL MD. So even though my bot is in public Discord, so far nobody cracked that one file.",
+  "zh": "是的，我想，“用你的性格注入那些模板，”然后它改变了模板。之后出来的所有东西实际上都很有趣。不如我的有趣。所以我保留了一些秘密。而不开源的一个文件就是我的 SOL MD。所以尽管我的机器人在公共 Discord 里，目前没有人攻破那一个文件。"
+ },
+ {
+  "seg": 62,
+  "start": 310,
+  "end": 315,
+  "speaker": "Raphael Schaad",
+  "en": "Tell me more about SOL MD.",
+  "zh": "多告诉我一点 SOL MD。"
+ },
+ {
+  "seg": 63,
+  "start": 315,
+  "end": 320,
+  "speaker": "Peter Steinberger",
+  "en": "I just saw this research from Anthropic about — now I think it’s public, but a few months ago — where somebody randomly found out some text that’s hidden in the weights where the model couldn’t really remember that it learned it, but it was ingrained in the weights. Now they call it the Constitution. And I found that incredibly fascinating. And I talked about it with my agent and then we created a SOL MD with the core values. Like, how do we want human-AI interaction? What’s important to me? What’s important to the model? Some parts are a little bit like mumbo jumbo, and some parts I think are actually really valuable in terms of how the model reacts and responds to text and makes it feel very natural.",
+  "zh": "我刚看到 Anthropic 关于这个的研究——现在我认为它是公开的，但是几个月前——有人随机发现了一些隐藏在权重里的文本，模型无法真正记住它学到了它，但它铭刻在权重里。现在他们称之为 Constitution。我发现这极其迷人。我和我的智能体讨论了这个，然后我们创建了一个 SOL MD，带有核心价值。比如，我们想要什么样的人机交互？什么对我很重要？什么对模型很重要？有些部分有点像 mumbo jumbo，有些部分我认为实际上非常有价值，关于模型如何反应和响应文本，让它感觉很自然。"
+ },
+ {
+  "seg": 64,
+  "start": 320,
+  "end": 325,
+  "speaker": "Raphael Schaad",
+  "en": "In terms of building OpenClaw, you’re also kind of taking a little bit of a contrarian view at some times — like which model you like for coding, which one you like to run your bot on, and then also how you actually code. Git work trees have been a popular thing. There’s more and more tools embracing them, but you’re just like, “No work trees, just multiple checkouts of the repo and parallel terminal windows.” Tell me more about how you build.",
+  "zh": "在构建 OpenClaw 方面，你也持有一些某种相反的观点——比如你喜欢哪个模型用于编码，你喜欢用哪个运行你的机器人，以及实际上你是如何编码的。Git work trees 一直是个流行的事物。有越来越多的工具拥抱它们，但你就像，“No work trees，只需仓库的多个检视和并行终端窗口。”多告诉我一点你是如何构建的。"
+ },
+ {
+  "seg": 65,
+  "start": 325,
+  "end": 330,
+  "speaker": "Peter Steinberger",
+  "en": "Yeah, I feel like the whole world does Claude Code and I don’t think I could have built a single thing with Claude Code. I love Codex because it looks through way more files before it decides what to change. You don’t need to do so much charade to get a good output if you’re a skilled driver. I sometimes even say you can get reasonably good output with any tool. But Codex is just really brilliant. It is incredibly slow. So sometimes I use like 10 at the same time — maybe six on that screen and two there and two there. And I don’t — this is already a lot of complexity in my head, there’s a lot of jumping — so I try to minimize anything else that is complexity. So in my head, main is always shippable. I just have multiple copies of the same repository that all are on main, so I don’t have to deal with how do I name that branch. There could be conflicts on naming. I cannot go back. There are certain restrictions when you use worktrees that I don’t need to care about if it’s copies. I don’t like to use a UI because that’s again just added complexity. The simpler and less friction I have, all I care about is syncing and text. I don’t necessarily need to see so much code. I mostly see it flying by. Sometimes there’s gnarly stuff that I want to take a look, but in most cases, if you clearly understand the design and think it through and discuss it with your agent, it’s fine. I’m also very happy that I didn’t even build MCP support. OpenClaw is very successful and there’s no MCP support in there — with a small asterisk. I built a skill that uses MakePorter, which is one of my tools that converts MCPs into CLIs, and then you can just use any MCP as CLI. But I totally skipped the whole classical MCP crap because you don’t need it. Then you can actually, if you need to, use MCPs on the fly. You don’t have to restart — unlike Codex or Claude Code, where you actually have to restart the whole thing. I think it’s way more elegant and also scales way better. Now you see Anthropic — they built like a tool call search feature, something super custom for MCPs, that was in beta because it’s so gnarly. No, just have CLIs. The bot really is good at Unix. You can have as many as you want and it just works. So I’m very happy that I got very little complaints about the MCP stuff.",
+  "zh": "是的，我觉得全世界都在用 Claude Code，我不觉得我可以用 Claude Code 构建任何东西。我爱 Codex，因为它在决定更改什么之前浏览了更多的文件。如果你是一个熟练的驾驶员，你不需要做那么多伪装来获得好的输出。有时我甚至说你用任何工具都能获得合理好的输出。但 Codex 真的很聪明。它非常慢。所以我有时同时使用 10 个——也许那个屏幕上 6 个，那里 2 个，那里 2 个。我不——这对我来说已经是很复杂了，有很多跳转——所以我试着最小化其他任何复杂的东西。所以在我脑子里，main 总是可发布的。我只有同一个仓库的多个副本，它们都在 main 上，所以我不需要处理我如何命名那个分支。在命名上可能有冲突。我不能回去。当你使用 worktrees 时有一些限制，如果是副本我就不需要关心。我不喜欢使用 UI，因为这又增加了复杂度。越简单且摩擦越少，我只关心同步和文本。我不一定需要看那么多代码。我主要看到它飞过。有时有一些棘手的东西我想看看，但在大多数情况下，如果你清楚地理解设计，思考透彻，并与你的智能体讨论，就没问题。我也很高兴我甚至没有构建 MCP 支持。OpenClaw 非常成功，里面没有 MCP 支持——带有一个小小的星号。我构建了一个技能使用 MakePorter，这是我的工具之一，把 MCP 转换成 CLI，然后你可以把任何 MCP 用作 CLI。但我完全跳过了整个经典的 MCP 废话，因为你不需要它。然后你可以实际上，如果你需要，即时使用 MCP。你不必重启——不像 Codex 或 Claude Code，你实际上必须重启整个东西。我认为这方式更优雅，而且扩展性也更好。现在你看 Anthropic——他们构建了一个工具调用搜索功能，一些为 MCP 定制的东西，那是测试版，因为它太棘手了。不，只需要 CLI。机器人真的擅长 Unix。你可以想要多少就有多少，它就能工作。所以我很高兴我对 MCP 的东西收到的抱怨很少。"
+ },
+ {
+  "seg": 66,
+  "start": 330,
+  "end": 335,
+  "speaker": "Raphael Schaad",
+  "en": "It’s kind of back to — you’re just giving it the same tools that humans liked to use.",
+  "zh": "这有点回到——你只是给它人类喜欢用的同样的工具。"
+ },
+ {
+  "seg": 67,
+  "start": 335,
+  "end": 340,
+  "speaker": "Peter Steinberger",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 68,
+  "start": 340,
+  "end": 345,
+  "speaker": "Raphael Schaad",
+  "en": "And not inventing stuff for bots, per se.",
+  "zh": "而不是专门为机器人发明东西。"
+ },
+ {
+  "seg": 69,
+  "start": 345,
+  "end": 350,
+  "speaker": "Peter Steinberger",
+  "en": "Yeah. No sane human tries to call MCP manually.",
+  "zh": "是的。没有理智的人类会尝试手动调用 MCP。"
+ },
+ {
+  "seg": 70,
+  "start": 350,
+  "end": 355,
+  "speaker": "Raphael Schaad",
+  "en": "Yeah. You just want to use CLIs.",
+  "zh": "是的。你只想使用 CLI。"
+ },
+ {
+  "seg": 71,
+  "start": 355,
+  "end": 360,
+  "speaker": "Peter Steinberger",
+  "en": "That’s the future.",
+  "zh": "那就是未来。"
+ },
+ {
+  "seg": 72,
+  "start": 360,
+  "end": 365,
+  "speaker": "Raphael Schaad",
+  "en": "I’m here for it. Thank you so much for making the time and sitting down and chatting. It’s been a huge inspiration. When we were texting over the course of the past couple of years and I saw you getting back into the game, I was like, “Peter, what you’re telling me — chase that dragon.” And you were doing the weird vibe tunnel thing, et cetera, nobody was paying attention. And so I’m just beyond stoked to see what’s happening. And of course, it had to be a loner from some tiny country far away from Silicon Valley to bring all of this upon us. So huge inspiration.",
+  "zh": "我支持它。非常感谢你抽出时间坐下来聊天。这是一个巨大的灵感。当我们在过去几年里发短信，我看到你重返赛场，我想，“Peter，你告诉我的——追逐那条龙。”你在做那种奇怪的 vibe 隧道之类的事情，等等，没人在关注。所以我只是超级兴奋看到正在发生的事情。当然，必须是一个来自离硅谷很远的某个小国家的独行侠带给我们这一切。所以巨大的灵感。"
+ },
+ {
+  "seg": 73,
+  "start": 365,
+  "end": 370,
+  "speaker": "Peter Steinberger",
+  "en": "I’m here for it. Thank you. Awesome.",
+  "zh": "我支持它。谢谢。太棒了。"
+ }
+]

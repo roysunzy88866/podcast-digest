@@ -1,0 +1,320 @@
+{
+  "tldr": "Daytona 为智能体打造毫秒级启动的裸金属沙箱,迎击 RL 训练与后台智能体的算力新挑战。",
+  "digest_md": "本期对话围绕**智能体(agent,指能自主执行任务的 AI 程序)**的底层计算基础设施展开。主持人和嘉宾 Ivan Burazin(Daytona CEO)是多年老友。Ivan 曾创办过浏览器端开发环境 Code Anywhere,后来又做过名为 Shift 的技术大会。如今他带着对底层基础设施的深刻理解,创立了 Daytona,并在去年做出了一个历史性的转型。整场对话不仅盘点了「智能体到底需要什么样的计算机」,还深入探讨了算力市场的爆发现状、Windows/Mac 沙箱的实战痛点,以及下一代基础设施的演进方向 [00:04 Ivan Burazin]。\n\n## 从「为人服务的开发环境」到「为智能体服务的沙箱」\n\n故事要从 2024 年底说起。当时 Ivan 从主持人那里获得了 Devin(一款知名的 AI 软件工程师)的访问权限,同时 OpenDevin(现已更名为 OpenHands 的开源项目)也刚刚出现。Ivan 敏锐地察觉到 AI 智能体可能是一个巨大的趋势,于是尝试把公司原本「为人类工程师自动化开发环境」的工具结合 OpenDevin,作为一个 SaaS(软件即服务)推出去 [07:09 Ivan Burazin]。\n\n结果出乎意料:没什么人注册使用这个 SaaS。然而,大量正在开发智能体的团队却主动找上门来,问他们:「我的智能体需要一个计算沙箱(一种安全隔离的代码执行环境)运行时,你们能做吗?」Ivan 意识到,这是一个全新的市场 [07:39 Ivan Burazin]。\n\n起初,Daytona 拿原本给人类准备的底层设施去给智能体用,但遭到了 20 到 30 个试用客户的一致拒绝。大家普遍觉得「这不就是 EC2 或者虚拟机吗,为什么不一样?」这迫使 Ivan 疯狂补习 AI 行业知识。在一个跨年夜,他凭借直觉编程出了第一版专门面向智能体的沙箱最小可行产品 [10:30 Ivan Burazin]。\n\n> 【背景】转写稿中嘉宾将「凭借直觉编码」说成了 vibe coded,这是科技圈流行词,指高度依赖 AI 辅助、凭感觉快速生成代码的开发方式。\n\n当团队带着重写的新版本重新联系客户时,原本约定 15 分钟的通话全部延长到了 25 到 30 分钟,每一个客户都在追问:「我的 API key 呢?在哪里?」这个瞬间,Ivan 确信他们真正踩中了市场的痛点 [10:21 Ivan Burazin]。\n\n## 智能体需要的「可组合计算机」\n\nDaytona 如今给自己的定位是「面向智能体的可组合计算机」。为什么不用「沙箱」这个词?因为「沙箱」容易让人误解为仅仅是个临时测试环境 [05:29 Ivan Burazin]。\n\nIvan 认为,智能体就像人类一样,需要不同配置的计算机来完成不同任务。就像他的妻子是建筑师,需要一台带 3D 显卡的 Windows 电脑来做渲染;智能体在执行各类任务时,也需要动态调整 CPU、内存或挂载 GPU 的能力。更重要的是,智能体不希望自己的「电脑」在工作还没完成时被关闭,它们需要能像人类合上笔记本盖子一样暂停,再打开时恢复原状(即有状态的快照机制)[12:41 Ivan Burazin]。\n\n> 【背景】为了满足智能体对速度和持久状态的苛刻要求,Daytona 选择了直接运行在裸金属(未安装虚拟化层的纯物理服务器)上,而不是像大多数提供商那样套用虚拟机或 firecracker(一种轻量级虚拟化技术),从而获得了极快的数据读写速度和极低的网络延迟 [13:54 Ivan Burazin]。\n\n## 两种截然不同的算力负载\n\n随着业务爆发(主持人提到 Daytona 报告了惊人的 74% 环比增长),Daytona 发现客户的工作负载分化成了截然不同的两类 [06:21 Ivan Burazin]:\n\n1. **后台智能体或长时间运行智能体**:例如 Cognition、Lovable 或 Harvey。它们的使用模式与人类类似,呈现「跟随太阳」的规律:中午负载最高,午夜最低,周末下降。这属于正常的波动。\n2. **RL 与评估**:主要用于强化学习训练或模型评估。这类负载的使用模式呈现「方块状」——一旦启动,就直接跑到 100% 满载,然后突然停止。而且研究员们往往在午夜睡前启动任务,这与正常的日间波动截然不同 [18:33 Ivan Burazin]。\n\n这种极其突发的尖峰式负载给计算提供商带来了前所未有的挑战。Daytona 的平均利用率只有 15%,但峰值会瞬间冲到 90%。通过举办 Compute Conference(计算大会),Ivan 发现整个 AI 基础设施圈——从 Neon 的 Nikita 到 Parallel 的 Parag——都在被这种不可预测的尖峰负载折磨 [21:33 Ivan Burazin]。\n\n## 竞争策略:速度与易用性\n\n在基准测试中,Daytona 的表现相当亮眼。启动单个沙箱算上网络延迟仅需 60 毫秒;如果同时并发启动 50,000 个沙箱,大约需要 75 秒(其他公开数据显示竞品可能需要长达 30 分钟)[16:36 Ivan Burazin]。\n\n但 Ivan 坦言,速度和基准测试只是入场券。在 RL 训练等场景中,他们真正打败的是托管型 Kubernetes(如 EKS 或 GKS)。Kubernetes 的交互接口太复杂,而 Daytona 提供了类似 Twilio 或 Stripe(两者均以开发者体验极佳著称)的简单 API 和 SDK。并且,Daytona 沙箱允许动态调整大小,几乎不会发生内存溢出,甚至支持在 Docker 容器里再嵌套运行 K3S(一种轻量级 Kubernetes),这解锁了大量在其他提供商上无法完成的复杂工作负载 [28:04 Ivan Burazin]。\n\n## 押注「计算机使用」\n\n本期最重磅的信息之一是 Daytona 秘密押注了 computer use(计算机使用)。这源于一个庞大的市场痛点:全球约有一亿知识工作者,其薪水总额高达十万亿美金。其中很大一部分工作被锁死在 Windows 的传统应用程序里,没人愿意重写这些老旧系统 [33:09 Ivan Burazin]。\n\n> 【背景】转写稿中嘉宾多次提及 RPA(机器人流程自动化)和 OOM(Out Of Memory,内存耗尽)。RPA 指用软件模拟人类操作老旧系统;OOM 指程序因内存不足而崩溃。\n\n主持人分享了自己用 Mac mini 虚拟沙箱做董事会报告的经历:即使接入了各种现代化的数据库,系统依然提示「缺失数据」。最后只能让智能体去模拟人类操作,登录网站、点击导出数据,才能真正端到端完成任务 [35:40 Ivan Burazin]。\n\n目前,想在云上启动一个 Windows 沙箱需要 3 到 5 分钟。Daytona 将其缩短到了秒级,并支持快照和分叉。相比之下,macOS 沙箱则面临苹果公司严格的授权限制:每台物理机只能运行两个虚拟机,且每 24 小时只能授权给一个不同用户。这意味着如果按秒收费,机器就会闲置一整天。Ivan 直言苹果公司此举是在自断财路 [33:36 Ivan Burazin]。\n\n## 开源策略与组织文化\n\n作为一家开源公司,Daytona 的新沙箱产品采用了 AGPL 3 许可证。这是一种巧妙的「防云白嫖」策略:它允许企业自由使用,但如果你想用它构建竞争产品,就必须同样开源你的代码。虽然纯粹的「开源信徒」认为这不够彻底,但 Ivan 发现,开源代码反而促进了客户对云产品的消费——因为开发者可以直接把仓库扔给智能体,让 AI 获得最完整的上下文来理解 Daytona 是怎么运作的 [48:38 Ivan Burazin]。\n\n在公司运营上,Ivan 是个彻头彻尾的拼命三郎。在 25 人的团队中,约有 13 人是与他合作超过 7 年的老战友。这种基于极高信任度的文化,造就了令人难以置信的客户响应速度。当客户在 Slack 上求助时,Daytona 的团队真的能在 5 分钟内拉起一个语音 Huddle(临时语音会议)解决问题。这种极致的响应速度成了他们赢得客户的关键差异化因素 [57:28 Ivan Burazin]。\n\n## 看见未来:被重塑的 Git 与 CI\n\n在访谈末尾,Ivan 分享了几个极其前瞻的洞察。首先是 Git 和 GitHub 的危机。目前大量客户正在构建编程智能体(如 Devin 的竞品),他们发现传统的 Git 流程太慢了,因为 Git 设计的初衷是给人类使用的「内循环之后」的产物。为了追求速度,甚至有客户把整个代码库塞进沙箱,定期全部打包成一个 JSON 文件传到 S3 上,自己搞了一套极其原始但飞快的版本控制 [52:49 Ivan Burazin]。\n\n其次是 CI(持续集成)的崩溃。随着智能体每天创建海量的代码提交,CI 系统已经变成了所有人的瓶颈。一家公司每天产生一千个提交,全在 CI 队列里排队等待。Daytona 的技术完全有能力替代传统的 CI Runner 机器 [54:34 Ivan Burazin]。\n\n最后是对整个市场的预判。Semi Analysis(一家知名半导体分析机构)的 Dylan Patel 在他们的会议上指出,GPU 短缺之后,内存和 CPU 很快将成为下一个算力瓶颈 [46:25 Ivan Burazin]。Ivan 认为,在这个增速疯狂的市场里,**预先囤积 CPU 将成为未来占领市场的关键战术**。最终,将会诞生一个专门为智能体构建的超级云,它包含沙箱、网络搜索和专为 AI 设计的数据库——这就是 Daytona 想要成为的那个存在 [69:38 Ivan Burazin]。",
+  "quotes": [
+    {
+      "en": "But if you want to spin up 50,000 at once, we are now at about 75 seconds.",
+      "zh": "但如果你想一次启动 50,000 个,我们现在大约需要 75 秒。",
+      "timestamp": "16:36",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "unpredictable workloads that we've never had before in human computer or human",
+      "zh": "我们以前从未有过这种不可预测的工作负载,无论是在人类计算机还是人类",
+      "timestamp": "23:29",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "The PC market is about equal to the cloud market.",
+      "zh": "PC 市场大约等于云市场。",
+      "timestamp": "45:42",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "the market is adding premium to SaaS vendors that are reselling tokens.",
+      "zh": "市场正在给那些转售 token 的 SaaS 供应商增加溢价。",
+      "timestamp": "61:44",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "The entire infrastructure market is growing 40% plus or minus month over month.",
+      "zh": "整个基础设施市场每个月以 40% 左右的速度增长。",
+      "timestamp": "67:14",
+      "speaker": "Ivan Burazin"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "And then we were like, oh, amazing.",
+      "zh": "然后我们就像,哦,太棒了。",
+      "timestamp": "07:49",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "Here is our infrastructure.",
+      "zh": "这是我们的基础设施。",
+      "timestamp": "07:51",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "Here's our product and go.",
+      "zh": "这是我们的产品,上吧。",
+      "timestamp": "07:52",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "And what we found really, really fast soon was that people did not like what we had built.",
+      "zh": "而我们非常非常快地很快发现的是人们不喜欢我们构建的东西。",
+      "timestamp": "07:54",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "It didn't work.",
+      "zh": "它不起作用。",
+      "timestamp": "08:00",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "And basically me and my co-founder not knowing",
+      "zh": "基本上我和我的联合创始人不知道",
+      "timestamp": "08:18",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "A lot about because we're infra people.",
+      "zh": "很多关于因为我们是从业人员。",
+      "timestamp": "08:22",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "We're not AI people.",
+      "zh": "我们不是 AI 人。",
+      "timestamp": "08:23",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "So I basically took upon myself to like watch every single podcast that exists,",
+      "zh": "所以我基本上自己承担去观看存在的每一个播客,",
+      "timestamp": "08:25",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "including all of all of these and all that is or get up to date,",
+      "zh": "包括所有的这些以及所有的或者是赶上进度,",
+      "timestamp": "08:28",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "read all the blogs,",
+      "zh": "阅读所有的博客,",
+      "timestamp": "08:32",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "like get understand what's going on.",
+      "zh": "去了解正在发生什么。",
+      "timestamp": "08:32",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "I half vibe coded the first MC,",
+      "zh": "我半靠直觉编码了第一个 MC,",
+      "timestamp": "09:27",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "first mineral viable product of what Daytona is today.",
+      "zh": "第一个 Daytona 如今所是的最小可行产品。",
+      "timestamp": "09:30",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "And I went to sleep at like 3am or something like that.",
+      "zh": "然后我大概凌晨3点左右去睡觉。",
+      "timestamp": "09:35",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "I was doing I just put my like,",
+      "zh": "我在做 我就是把我那个,",
+      "timestamp": "09:37",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "baby daughter and wife to sleep and you know,",
+      "zh": "小女儿和妻子哄睡着,然后你知道,",
+      "timestamp": "09:39",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "Happy New Year's and go back to just doing this.",
+      "zh": "说新年快乐,然后回去继续做这个。",
+      "timestamp": "09:41",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "And I sent it to my co founder, my CTO, and he saw it in the morning.",
+      "zh": "我把它发给了我的联合创始人,我的CTO,他早上看到了。",
+      "timestamp": "09:44",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "He's like,",
+      "zh": "他说,",
+      "timestamp": "09:47",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "This is absolute garbage.",
+      "zh": "这绝对是垃圾。",
+      "timestamp": "09:48",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "Not show this to anybody at all.",
+      "zh": "根本不要把这个给任何人看。",
+      "timestamp": "09:50",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "But the idea is good.",
+      "zh": "但这个想法是好的。",
+      "timestamp": "09:52",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "And so he took two weeks and he did it look like that.",
+      "zh": "所以他花了两周时间,他把它做成了那样。",
+      "timestamp": "09:53",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "So one,",
+      "zh": "所以首先,",
+      "timestamp": "10:51",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "the understanding to your point was like,",
+      "zh": "顺着你的观点的理解就是,",
+      "timestamp": "10:51",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "most people thought it was the same infrastructure for humans and agents.",
+      "zh": "大多数人认为人类和智能体的基础设施是一样的。",
+      "timestamp": "10:54",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "We understood a quarter ago.",
+      "zh": "我们在一个季度前就明白了。",
+      "timestamp": "10:56",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "It's not.",
+      "zh": "它不是。",
+      "timestamp": "10:57",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "We just didn't know what was the right primitive.",
+      "zh": "我们只是不知道什么是正确的原语。",
+      "timestamp": "10:58",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "But if you want to spin up 50,000 at once, we are now at about 75 seconds.",
+      "zh": "但如果你想一次启动 50,000 个,我们现在大约需要 75 秒。",
+      "timestamp": "16:36",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "Some others, there's public data around this, like take 2000 seconds, which is 30 minutes.",
+      "zh": "其他一些,有关于这个的公开数据,比如花 2000 秒,也就是 30 分钟。",
+      "timestamp": "16:44",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "So it's very, the usage pattern is squares basically, right?",
+      "zh": "所以它非常,使用模式基本上是方形的,对吧?",
+      "timestamp": "20:52",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "Daytona's mean utilization is 15%, 1.5.",
+      "zh": "Daytona 的平均利用率是 15%,1.5。",
+      "timestamp": "21:48",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "But it's very spiky, but we get up to 90%.",
+      "zh": "但它非常突发,但我们会达到 90%。",
+      "timestamp": "21:53",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "we all have the same underlining infra problems,",
+      "zh": "我们都有相同的底层基础设施问题,",
+      "timestamp": "23:23",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "which is this spiky workloads,",
+      "zh": "也就是这种尖峰式的工作负载,",
+      "timestamp": "23:27",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "unpredictable workloads that we've never had before in human computer or human",
+      "zh": "我们以前从未有过这种不可预测的工作负载,无论是在人类计算机还是人类",
+      "timestamp": "23:29",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "infrastructure.",
+      "zh": "基础设施中。",
+      "timestamp": "23:35",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "it's actually,",
+      "zh": "它实际上是,",
+      "timestamp": "17:54",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "snapshotting is part of it,",
+      "zh": "快照是其中的一部分,",
+      "timestamp": "17:55",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "but basically the size of your hard disk of your machine.",
+      "zh": "但基本上是你机器硬盘的大小。",
+      "timestamp": "17:56",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "like Goldman have to have a headless,",
+      "zh": "高盛能拥有一个无头界面的,",
+      "timestamp": "37:10",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "The PC market is about equal to the cloud market.",
+      "zh": "PC 市场大约等于云市场。",
+      "timestamp": "45:46",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "I very much feel that they are shooting themselves in the foot of the scale of",
+      "zh": "我非常感觉他们在射击自己的脚,关于那个规模的",
+      "timestamp": "39:41",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "the market is adding premium to SaaS vendors that are reselling tokens.",
+      "zh": "市场正在给那些转售 token 的 SaaS 供应商增加溢价。",
+      "timestamp": "61:43",
+      "speaker": "Ivan Burazin"
+    },
+    {
+      "en": "The entire infrastructure market is growing 40% plus or minus month over month.",
+      "zh": "整个基础设施市场每个月以 40% 左右的速度增长。",
+      "timestamp": "67:14",
+      "speaker": "Ivan Burazin"
+    }
+  ]
+}

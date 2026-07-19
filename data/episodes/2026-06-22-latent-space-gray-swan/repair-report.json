@@ -1,0 +1,51 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "35:32",
+      "speaker": "Zico Kolter",
+      "trimmed": false,
+      "tsWas": "35:35",
+      "spkWas": "Zico Kolter"
+    },
+    {
+      "i": 2,
+      "timestamp": "27:11",
+      "speaker": "Zico Kolter",
+      "trimmed": true,
+      "tsWas": "27:11",
+      "spkWas": "Zico Kolter"
+    },
+    {
+      "i": 4,
+      "timestamp": "14:39",
+      "speaker": "Zico Kolter",
+      "trimmed": true,
+      "tsWas": "14:42",
+      "spkWas": "Zico Kolter"
+    },
+    {
+      "i": 5,
+      "timestamp": "21:06",
+      "speaker": "Zico Kolter",
+      "trimmed": false,
+      "tsWas": "21:06",
+      "spkWas": "Zico Kolter"
+    },
+    {
+      "i": 6,
+      "timestamp": "44:01",
+      "speaker": "Zico Kolter",
+      "trimmed": false,
+      "tsWas": "44:04",
+      "spkWas": "Zico Kolter"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 3,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "Models are getting better at that, to be clear, even if it's not a solid problem. But they're doing it because of explicit training for this. If you just make a model bigger and bigger, it will not get safer."
+    }
+  ]
+}

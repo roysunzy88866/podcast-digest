@@ -1,0 +1,1185 @@
+{
+  "episode_id": "2026-05-21-latent-space-daytona",
+  "podcast": null,
+  "date": null,
+  "tags": [
+    "智能体基础设施",
+    "计算沙箱",
+    "突发负载",
+    "RPA与计算机使用",
+    "开源策略"
+  ],
+  "entities": [
+    {
+      "id": "ivan-burazin",
+      "type": "person",
+      "role": "guest",
+      "name": "Ivan Burazin",
+      "file": "Ivan Burazin",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "daytona",
+      "type": "company",
+      "role": "company",
+      "name": "Daytona",
+      "file": "Daytona",
+      "primary": true,
+      "how_described": "本集将其描述为提供「面向智能体的可组合计算机(composable computers for agents)」的公司。它直接运行在裸金属(bare metal)上以提供极快的速度,支持动态调整大小和有状态快照。目前正秘密押注 computer use(计算机使用),以争夺 Windows/macOS 等老旧系统自动化的庞大市场。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            4.951,
+            8.957
+          ],
+          "quote": " Okay, we're in the studio with Ivan Bourazin, CEO of Daytona.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            117.33,
+            120.151
+          ],
+          "quote": "Just give us the story and the origin story going into Daytona.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            143.269,
+            145.249
+          ],
+          "quote": "Shift and then back to Daytona.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            203.782,
+            208.586
+          ],
+          "quote": " And that was the key learning that we brought into and that we've been using in Daytona today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            220.595,
+            222.276
+          ],
+          "quote": "we started something similar with Daytona,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 100,
+          "t": [
+            246.146,
+            247.466
+          ],
+          "quote": "You invested in Daytona.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            247.486,
+            248.606
+          ],
+          "quote": "You invested in Daytona.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            287.349,
+            288.43
+          ],
+          "quote": "So what is Daytona today?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            329.324,
+            332.427
+          ],
+          "quote": "Whereas what Daytona is today is essentially composable computers for agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            344.659,
+            345.54
+          ],
+          "quote": "But what Daytona does,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 259,
+          "t": [
+            570.62,
+            574.203
+          ],
+          "quote": "first mineral viable product of what Daytona is today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 357,
+          "t": [
+            828.863,
+            831.044
+          ],
+          "quote": "And so the reason why Daytona is like super,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            1109.628,
+            1113.513
+          ],
+          "quote": "So we basically split it up into two types of workloads in Daytona.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 562,
+          "t": [
+            1308.248,
+            1311.67
+          ],
+          "quote": " Daytona's mean utilization is 15%, 1.5.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 718,
+          "t": [
+            1694.399,
+            1701.142
+          ],
+          "quote": "And anyone that has tried Daytona versus GKS, EKS is like, I'm never going back.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 724,
+          "t": [
+            1713.331,
+            1713.852
+          ],
+          "quote": "Daytona,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 751,
+          "t": [
+            1762.832,
+            1764.193
+          ],
+          "quote": "just use Daytona.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 756,
+          "t": [
+            1772.434,
+            1773.995
+          ],
+          "quote": "And so Daytona specifically,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 760,
+          "t": [
+            1777.555,
+            1780.436
+          ],
+          "quote": "I don't know where it says Daytona somewhere.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1058,
+          "t": [
+            2438.462,
+            2443.885
+          ],
+          "quote": "most of the users that use Daytona are sort of a B2B2C.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1308,
+          "t": [
+            2948.007,
+            2948.827
+          ],
+          "quote": "And Daytona,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1328,
+          "t": [
+            2980.752,
+            2984.857
+          ],
+          "quote": "you send the repository to your agent when you're integrating Daytona.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1355,
+          "t": [
+            3052.555,
+            3054.377
+          ],
+          "quote": "Daytona's customers are everything from",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1370,
+          "t": [
+            3078.972,
+            3082.137
+          ],
+          "quote": "like temporal way back in the way day in our old version of Daytona,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1480,
+          "t": [
+            3312.713,
+            3318.061
+          ],
+          "quote": "Essentially you could use Daytona Sandbox instead of whatever you use for,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1497,
+          "t": [
+            3340.955,
+            3342.597
+          ],
+          "quote": "Before we leave Daytona,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1543,
+          "t": [
+            3461.175,
+            3469.241
+          ],
+          "quote": "But of the 25 people in Daytona, I think about 13 of them we have worked with seven years plus.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1743,
+          "t": [
+            4014.602,
+            4015.042
+          ],
+          "quote": "Daytona,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-anywhere",
+      "type": "company",
+      "role": "company",
+      "name": "Code Anywhere",
+      "file": "Code Anywhere",
+      "primary": false,
+      "how_described": "本集提到它是嘉宾早期创办的第一个基于浏览器的开发环境,大约有三百万人使用过。Daytona 最初的形态正是为人类工程师自动化开发环境,继承了它的底层技术栈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            24.139,
+            26.022
+          ],
+          "quote": "I was one of the co-founders of Code Anywhere,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 42,
+          "t": [
+            105.144,
+            109.366
+          ],
+          "quote": "so I think what's impressive about you is that Code Anywhere is the thing that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            138.728,
+            143.229
+          ],
+          "quote": "we had this shift where we went from the code anywhere to the conference called",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            209.967,
+            212.269
+          ],
+          "quote": "There's about three million people used code anywhere.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            227.32,
+            229.742
+          ],
+          "quote": "the basically the underlining stack of code anywhere.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            239.544,
+            242.045
+          ],
+          "quote": "I had independently invested in Code Anywhere,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1076,
+          "t": [
+            2486.244,
+            2487.325
+          ],
+          "quote": "So the code anywhere...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "cognition",
+      "file": "cognition",
+      "primary": false,
+      "how_described": "本集作为后台智能体或长时间运行智能体(long running agents)的典型代表被提及,其使用模式与人类相似,呈现出「跟随太阳」的规律(中午负载最高,午夜最低)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 474,
+          "t": [
+            1131.101,
+            1135.482
+          ],
+          "quote": "Yeah, so like a background agents, a cognition, a lovable, like all these things are Harvey.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "neon",
+      "type": "company",
+      "role": "company",
+      "name": "Neon",
+      "file": "Neon",
+      "primary": false,
+      "how_described": "本集提到它是一家数据库提供商(且完全押注 S3 基础设施),与 Daytona 面临着相同的问题:需要应对极其不可预测的、尖峰式的突发计算负载。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 577,
+          "t": [
+            1340.005,
+            1344.609
+          ],
+          "quote": "and so we talked to like Nikita from Neon and the- I should bring it up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 634,
+          "t": [
+            1471.919,
+            1476.826
+          ],
+          "quote": " So, yeah, I know specifically that like Neon had that issue as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 642,
+          "t": [
+            1490.965,
+            1495.549
+          ],
+          "quote": "Okay, so for example, Neon, I happen to know that they're very sort of S3 oriented, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 645,
+          "t": [
+            1501.294,
+            1503.396
+          ],
+          "quote": "So I would imagine that Neon doesn't have to care",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1831,
+          "t": [
+            4183.442,
+            4186.102
+          ],
+          "quote": "databases like SQLite or Neon or whatever,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "parallel",
+      "type": "company",
+      "role": "company",
+      "name": "Parallel",
+      "file": "Parallel",
+      "primary": false,
+      "how_described": "本集提到其 CEO 是前 Twitter 的 CTO。这是一家做 GPU 推理的公司,同样需要应对为智能体构建基础设施时产生的高振幅突发负载问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 578,
+          "t": [
+            1344.669,
+            1345.911
+          ],
+          "quote": "Parag from Parallel and whatnot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 650,
+          "t": [
+            1517.81,
+            1521.954
+          ],
+          "quote": "And Parag is CEO of Parallel, former CTO of Twitter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 983,
+          "t": [
+            2266.289,
+            2270.032
+          ],
+          "quote": "So one, you're allowed to run only two parallel VMs per machine.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "opendevin",
+      "type": "company",
+      "role": "company",
+      "name": "OpenDevin",
+      "file": "OpenDevin",
+      "primary": false,
+      "how_described": "本集提到它是一个现已更名为 OpenHands 的开源项目。嘉宾在 2024 年底察觉到智能体的潜力,曾尝试将公司的开发环境与 OpenDevin 结合作为 SaaS 推出,虽反响寥寥,却意外引来了大量寻求计算沙箱运行时的客户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 197,
+          "t": [
+            443.192,
+            445.653
+          ],
+          "quote": "But OpenDevin was available, which is now called OpenHands.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 200,
+          "t": [
+            449.416,
+            455.62
+          ],
+          "quote": "Let's take our four human automation of dev environments and take OpenDevin and",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "devin",
+      "type": "company",
+      "role": "company",
+      "name": "Devin",
+      "file": "Devin",
+      "primary": false,
+      "how_described": "本集将其描述为一款知名的 AI 软件工程师。嘉宾提到正是在 2024 年底从主持人那里获得了它的访问权限,从而启发了他对 AI 智能体市场潜力的认知。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 184,
+          "t": [
+            429.714,
+            431.417
+          ],
+          "quote": "Devin was not public.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 185,
+          "t": [
+            431.477,
+            433.46
+          ],
+          "quote": "You actually gave me access to Devin at that time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 186,
+          "t": [
+            433.5,
+            433.921
+          ],
+          "quote": "So Devin...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1407,
+          "t": [
+            3155.644,
+            3161.367
+          ],
+          "quote": "like everyone is building up a competitor to Lovable or Devin or whatnot.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集将其视为计算基础设施的全新核心用户,指能自主执行任务的 AI 程序。嘉宾指出,智能体像人类一样,需要动态调整 CPU/内存、挂载 GPU、在工作未完成时不被关闭(可合上盖子暂停再恢复),并且极其渴望极低的启动延迟。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 206,
+          "t": [
+            462.989,
+            466.294
+          ],
+          "quote": "my agent needs a compute sandbox runtime,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 243,
+          "t": [
+            542.655,
+            544.997
+          ],
+          "quote": "I guess you're looking at the agent inframarket.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 244,
+          "t": [
+            545.037,
+            546.238
+          ],
+          "quote": "I was looking at the agent market,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 375,
+          "t": [
+            877.479,
+            879.76
+          ],
+          "quote": "what a computer would look like for an agent,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 571,
+          "t": [
+            1324.539,
+            1327.742
+          ],
+          "quote": "But that works really well for basically the background agent towards fall of the sun.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 575,
+          "t": [
+            1336.361,
+            1338.323
+          ],
+          "quote": " in the agent space.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 600,
+          "t": [
+            1386.752,
+            1390.814
+          ],
+          "quote": "Because when I think of what we're building, it is the agent is the primary user.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 853,
+          "t": [
+            1978.089,
+            1981.911
+          ],
+          "quote": "Like I'm a strong believer that the most efficient way for an agent to work is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 880,
+          "t": [
+            2042.684,
+            2044.105
+          ],
+          "quote": "If an agent is more sophisticated,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 959,
+          "t": [
+            2227.536,
+            2228.176
+          ],
+          "quote": "computer agent,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 967,
+          "t": [
+            2237.439,
+            2239.322
+          ],
+          "quote": "Oh, it's like every agent needs a computer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1064,
+          "t": [
+            2457.113,
+            2461.94
+          ],
+          "quote": "it's mostly B2B2C where you have a app layer agent that uses you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1069,
+          "t": [
+            2466.546,
+            2469.831
+          ],
+          "quote": "B2B2C is basically to me what I've been calling an agent lab.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1151,
+          "t": [
+            2626.33,
+            2633.679
+          ],
+          "quote": "but like having the agent SDK from Anthropic or Cloud Code was very interesting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1155,
+          "t": [
+            2638.264,
+            2640.747
+          ],
+          "quote": "app layer agent companies essentially",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1156,
+          "t": [
+            2641.937,
+            2646.121
+          ],
+          "quote": " They are like, oh, I can create this new app, this new agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1170,
+          "t": [
+            2674.007,
+            2678.649
+          ],
+          "quote": "So being able to use a CLI very, very well enables the agent to do more things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1328,
+          "t": [
+            2980.752,
+            2984.857
+          ],
+          "quote": "you send the repository to your agent when you're integrating Daytona.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1447,
+          "t": [
+            3246.358,
+            3246.999
+          ],
+          "quote": "Agent first.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1452,
+          "t": [
+            3258.051,
+            3261.273
+          ],
+          "quote": "But then there's a layer before that that is like the agent collaboration layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1643,
+          "t": [
+            3737.505,
+            3741.786
+          ],
+          "quote": "Now what you're doing is you are saying, here is my agent, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1652,
+          "t": [
+            3771.408,
+            3772.609
+          ],
+          "quote": "I don't want your agent,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1661,
+          "t": [
+            3782.518,
+            3785.881
+          ],
+          "quote": "And now you're giving me an agent that'll give me the data, but it's still siloed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1663,
+          "t": [
+            3786.743,
+            3789.346
+          ],
+          "quote": "And so now I have to like take that data and then get another agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1812,
+          "t": [
+            4141.783,
+            4144.845
+          ],
+          "quote": "No, what I say is in the sense of their whole agent...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1832,
+          "t": [
+            4186.183,
+            4187.903
+          ],
+          "quote": "specifically for agent and other things",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集将其定义为供智能体运行代码的隔离环境。但嘉宾认为「沙箱」这个词具有误导性(让人以为只是临时的测试环境),它实际需要是生产级、可组合、支持有状态快照,并能快速启动的「计算机」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 206,
+          "t": [
+            462.989,
+            466.294
+          ],
+          "quote": "my agent needs a compute sandbox runtime,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            485.848,
+            487.308
+          ],
+          "quote": "the sandbox we're building for agents,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 327,
+          "t": [
+            752.802,
+            757.145
+          ],
+          "quote": "the the hard disk is not part of the sandbox itself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 369,
+          "t": [
+            853.678,
+            861.33
+          ],
+          "quote": "So when you fire off a sandbox from a template or a snapshot, you're a",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 388,
+          "t": [
+            927.228,
+            931.094
+          ],
+          "quote": " So the definition of a sandbox is something that we can all need to get along with.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 897,
+          "t": [
+            2081.608,
+            2083.05
+          ],
+          "quote": "We've created an actual sandbox,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 901,
+          "t": [
+            2088.157,
+            2090.621
+          ],
+          "quote": "you have all the things that you have from a sandbox,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 938,
+          "t": [
+            2179.435,
+            2184.239
+          ],
+          "quote": "And so I got my Mac mini virtual sandbox with OpenClaw.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1157,
+          "t": [
+            2646.521,
+            2649.524
+          ],
+          "quote": "All I need, I just use cloud code and I throw it into a sandbox.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1160,
+          "t": [
+            2656.049,
+            2657.05
+          ],
+          "quote": "And then they would pull on sandbox.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1171,
+          "t": [
+            2678.709,
+            2682.11
+          ],
+          "quote": "And it's because people will invoke a sandbox,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1185,
+          "t": [
+            2708.02,
+            2709.382
+          ],
+          "quote": "this is another sandbox use case.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1197,
+          "t": [
+            2722.329,
+            2723.269
+          ],
+          "quote": "why do you need a sandbox?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1200,
+          "t": [
+            2724.29,
+            2725.77
+          ],
+          "quote": "And to your point, it's like, oh, I need a sandbox for this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1201,
+          "t": [
+            2725.79,
+            2726.69
+          ],
+          "quote": "I need a sandbox for that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1293,
+          "t": [
+            2917.04,
+            2918.46
+          ],
+          "quote": "So in the new sandbox product,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1429,
+          "t": [
+            3206.807,
+            3209.049
+          ],
+          "quote": "code base inside the sandbox and every,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1480,
+          "t": [
+            3312.713,
+            3318.061
+          ],
+          "quote": "Essentially you could use Daytona Sandbox instead of whatever you use for,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1705,
+          "t": [
+            3910.664,
+            3913.206
+          ],
+          "quote": "Like essentially what we think about is like the GPU sandbox.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1708,
+          "t": [
+            3916.548,
+            3918.289
+          ],
+          "quote": "that is what you have a GPU in the sandbox.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1713,
+          "t": [
+            3928.476,
+            3929.777
+          ],
+          "quote": "you will need a GPU in the sandbox.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1753,
+          "t": [
+            4030.619,
+            4032.76
+          ],
+          "quote": "Just the sandbox market.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "spiky-workloads",
+      "type": "concept",
+      "role": "concept",
+      "name": "突发负载 (spiky workloads)",
+      "file": "突发负载",
+      "primary": true,
+      "how_described": "本集重点强调了这种不可预测的尖峰式计算负载。研究员进行强化学习评估时往往在午夜启动任务,瞬间拉满 100% 算力然后突然停止,导致平均利用率极低(15%)但峰值极高(90%),这是全 AI 基础设施圈都在头疼的新难题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 609,
+          "t": [
+            1407.18,
+            1409.741
+          ],
+          "quote": "which is this spiky workloads,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bare-metal",
+      "type": "concept",
+      "role": "concept",
+      "name": "裸金属 (bare metal)",
+      "file": "裸金属",
+      "primary": true,
+      "how_described": "本集将其描述为 Daytona 获得极致速度的核心策略。不同于其他提供商套用虚拟机或 firecracker,Daytona 直接运行在裸金属物理服务器上,磁盘模板预加载,没有网络延迟,从而实现了毫秒级的启动和极快的读写速度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 316,
+          "t": [
+            724.692,
+            726.033
+          ],
+          "quote": "And was it bare metal from the start?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 317,
+          "t": [
+            726.073,
+            727.034
+          ],
+          "quote": "It was bare metal from the start.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 359,
+          "t": [
+            834.285,
+            835.045
+          ],
+          "quote": "we run on bare metal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 368,
+          "t": [
+            849.833,
+            853.378
+          ],
+          "quote": "the templates are also preloaded on the bare metal machines.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 370,
+          "t": [
+            861.71,
+            866.933
+          ],
+          "quote": " essentially directed to the bare metal machine where that snapshot is based on that NVMe drive.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1724,
+          "t": [
+            3967.047,
+            3969.908
+          ],
+          "quote": "I see a lot of people trying to do the bare metal thing.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "计算机使用 (computer use)",
+      "file": "计算机使用",
+      "primary": true,
+      "how_described": "本集将其视为下一波 RPA(流程自动化),旨在解决知识工作者被困在老旧 Windows 传统应用中的痛点。Daytona 为此秘密押注,将以往需要 3-5 分钟启动的云上 Windows 沙箱缩短至秒级,允许智能体模拟人类登录网站、点击导出数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 836,
+          "t": [
+            1946.732,
+            1948.273
+          ],
+          "quote": "investment on computer use.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 840,
+          "t": [
+            1953.756,
+            1954.896
+          ],
+          "quote": "There is computer use there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 890,
+          "t": [
+            2065.07,
+            2068.233
+          ],
+          "quote": "So computer use, either Mac or Windows or Linux.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1190,
+          "t": [
+            2714.367,
+            2715.868
+          ],
+          "quote": "which is the computer use stuff,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1255,
+          "t": [
+            2824.016,
+            2827.841
+          ],
+          "quote": "But yeah, I mean, it's really crazy the amount of computer use that's going on.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "managed-kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "托管型 Kubernetes (managed Kubernetes)",
+      "file": "托管型 Kubernetes",
+      "primary": true,
+      "how_described": "本集将其视为在强化学习训练等场景中 Daytona 真正打败的竞争对手(如 EKS 或 GKS)。嘉宾指出 Kubernetes 的交互接口太复杂,而 Daytona 提供了类似 Twilio 或 Stripe 般体验极佳的简单 API。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 715,
+          "t": [
+            1684.235,
+            1688.617
+          ],
+          "quote": "What we are competing against in that environment is essentially managed Kubernetes.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "RL and evals",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

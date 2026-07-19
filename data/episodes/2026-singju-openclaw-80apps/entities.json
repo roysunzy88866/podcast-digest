@@ -1,0 +1,555 @@
+{
+  "episode_id": "2026-singju-openclaw-80apps",
+  "podcast": "SingjuPost 转录",
+  "date": "2026-07-14",
+  "tags": [
+    "个人智能体",
+    "本地运行",
+    "AI 编码",
+    "智能体交互",
+    "模型护城河"
+  ],
+  "entities": [
+    {
+      "id": "raphael-schaad",
+      "type": "person",
+      "role": "guest",
+      "name": "Raphael Schaad",
+      "file": "Raphael Schaad",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "peter-steinberger",
+      "type": "person",
+      "role": "guest",
+      "name": "Peter Steinberger",
+      "file": "Peter Steinberger",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0,
+            5
+          ],
+          "quote": "Today I’m sitting down with Peter Steinberger, the creator of OpenClaw, the open source personal AI agent that has completely taken over the Internet. The GitHub repo exploded to over 160,000 stars practically overnight. The community has built countless projects like Multbook, where bots talk among themselves. And now the bots are even renting humans to do tasks in the real world. In our conversation, we discuss his aha moment, his contrarian development philosophies, and what this means for builders in 2026. Let’s dive in. So good to see you, man.",
+          "speaker": "Raphael Schaad"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "concept",
+      "role": "concept",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": true,
+      "how_described": "本集的核心开源项目，是一个直接跑在用户自己电脑上的个人 AI 智能体。稿中说它之所以起飞，是因为它在本地运行就能控制一切（如床温、烤箱），并且能全盘访问机器数据来给人惊喜；它能把用户记忆变成本地的一堆 markdown 文件，从而打破大公司的数据孤岛。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0,
+            5
+          ],
+          "quote": "Today I’m sitting down with Peter Steinberger, the creator of OpenClaw, the open source personal AI agent that has completely taken over the Internet. The GitHub repo exploded to over 160,000 stars practically overnight. The community has built countless projects like Multbook, where bots talk among themselves. And now the bots are even renting humans to do tasks in the real world. In our conversation, we discuss his aha moment, his contrarian development philosophies, and what this means for builders in 2026. Let’s dive in. So good to see you, man.",
+          "speaker": "Raphael Schaad"
+        },
+        {
+          "seg": 4,
+          "t": [
+            20,
+            25
+          ],
+          "quote": "OpenClaw, as it’s called now, has name number five.",
+          "speaker": "Raphael Schaad"
+        },
+        {
+          "seg": 10,
+          "t": [
+            50,
+            55
+          ],
+          "quote": "And a lot of people have been working on AI and even personal assistants. What is it that made OpenClaw take off?",
+          "speaker": "Raphael Schaad"
+        },
+        {
+          "seg": 15,
+          "t": [
+            75,
+            80
+          ],
+          "quote": "A friend told me he installed OpenClaw and then asked it, “Look through my computer and make a narrative over my last year.” And it made this incredibly good narrative. And he was like, “How did you do that?” And then OpenClaw found audio files where every Sunday he was recording stuff. And OpenClaw found that, but he didn’t even remember about it because it was like more than a year ago. So just by it being able to search a whole computer, it can surprise you. You also give it all the data. So it can surprise you in many ways.",
+          "speaker": "Peter Steinberger"
+        },
+        {
+          "seg": 33,
+          "t": [
+            165,
+            170
+          ],
+          "quote": "The last project I worked two months on was Wipe Tunnel, to the point where it got so good that I was catching myself always coding next to my — when I was at my friends’, and I’m like, “I need to stop this. This is too addictive.” And then in November, my need came back and I started building CloudBot. Now it’s called OpenClaw. And very, very early on, I was like, “Oh, I rebuilt it again, but this time I built it even better.” This time, you don’t type into a terminal. You just talk to a friend. You don’t think about compaction, new sessions, which folder I’m in, which model I’m in. I mean, you can — I want to leave it open for power users — but usually you just talk to a friend, and the friend is like this ghost or entity or whatever you want to call it, that can control your mouse and your keyboard and can just do stuff.",
+          "speaker": "Peter Steinberger"
+        },
+        {
+          "seg": 45,
+          "t": [
+            225,
+            230
+          ],
+          "quote": "First of all, I don’t think the model companies always have a moat because you see this already — a new model comes out, people are like, “Oh my God, this is so good.” And then like a month later, it degraded. It’s not good anymore. They quanticized it. No, they didn’t do anything. You just adapted to the new standard and now your expectations went up. But the model is still the average. So I think for quite a while, every time a new model releases, I see the same people love it and then it’s the standard and then what’s down there, you don’t even want to think about it anymore. So we have open source stuff that’s as good as the current models from a year ago. Everybody’s hating it, complaining, “Oh, this is not good. It’s not funny yet.” This was what we had and in a year we’ll have this open source and then we’ll complain about this because we are used to this. So for the foreseeable future, the big companies still have a moat hardware-wise. It’s going to be interesting because every company kind of has their own silo, right? There’s no way — maybe there is for Europeans — to actually get the memories out of ChatGPT. I’m not aware. Definitely there’s no way for a different company to get your memories out. So if I was a company who provides chat services, you could use me, but then I couldn’t access the memories. So the companies try to bind you to their data silo. And the beauty of OpenClaw is it kind of claws into the data because the end user needs access — because in the end, otherwise it wouldn’t work. Right? If the end user has access, I can",
+          "speaker": "Peter Steinberger"
+        },
+        {
+          "seg": 57,
+          "t": [
+            285,
+            290
+          ],
+          "quote": "That’s actually part of OpenClaw itself. Very much so. That’s part of the system prompt. And now that explains to you — you in Discord — there are public people there, but you only listen to your owner or your human. I don’t even know how I wrote it. Yeah, you’re God. And I kept — I don’t know what I did, but my system was built very organically. At some point I created like an identity MD, a SOL MD, various files. And then only in January, I started making it so other people could install it easier. And I remember I built all these templates based on like, “Oh, take a rough look at what I have and make templates.” And Codex wrote it and what came out was like bread. You know, people joke that Codex feels like bread — even though now they have a new friendlier voice. I haven’t tried it yet, but the new bots felt so boring compared to what I had. So I was like, “Motty, infuse the templates.”",
+          "speaker": "Peter Steinberger"
+        },
+        {
+          "seg": 64,
+          "t": [
+            320,
+            325
+          ],
+          "quote": "In terms of building OpenClaw, you’re also kind of taking a little bit of a contrarian view at some times — like which model you like for coding, which one you like to run your bot on, and then also how you actually code. Git work trees have been a popular thing. There’s more and more tools embracing them, but you’re just like, “No work trees, just multiple checkouts of the repo and parallel terminal windows.” Tell me more about how you build.",
+          "speaker": "Raphael Schaad"
+        },
+        {
+          "seg": 65,
+          "t": [
+            325,
+            330
+          ],
+          "quote": "Yeah, I feel like the whole world does Claude Code and I don’t think I could have built a single thing with Claude Code. I love Codex because it looks through way more files before it decides what to change. You don’t need to do so much charade to get a good output if you’re a skilled driver. I sometimes even say you can get reasonably good output with any tool. But Codex is just really brilliant. It is incredibly slow. So sometimes I use like 10 at the same time — maybe six on that screen and two there and two there. And I don’t — this is already a lot of complexity in my head, there’s a lot of jumping — so I try to minimize anything else that is complexity. So in my head, main is always shippable. I just have multiple copies of the same repository that all are on main, so I don’t have to deal with how do I name that branch. There could be conflicts on naming. I cannot go back. There are certain restrictions when you use worktrees that I don’t need to care about if it’s copies. I don’t like to use a UI because that’s again just added complexity. The simpler and less friction I have, all I care about is syncing and text. I don’t necessarily need to see so much code. I mostly see it flying by. Sometimes there’s gnarly stuff that I want to take a look, but in most cases, if you clearly understand the design and think it through and discuss it with your agent, it’s fine. I’m also very happy that I didn’t even build MCP support. OpenClaw is very successful and there’s no MCP support in there — with a small asterisk. I built a skill that uses MakePorter, which is one of my tools that converts MCPs into CLIs, and then you can just use any MCP as CLI. But I totally skipped the whole classical MCP crap because you don’t need it. Then you can actually, if you need to, use MCPs on the fly. You don’t have to restart — unlike Codex or Claude Code, where you actually have to restart the whole thing. I think it’s way more elegant and also scales way better. Now you see Anthropic — they built like a tool call search feature, something super custom for MCPs, that was in beta because it’s so gnarly. No, just have CLIs. The bot really is good at Unix. You can have as many as you want and it just works. So I’m very happy that I got very little complaints about the MCP stuff.",
+          "speaker": "Peter Steinberger"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集反复讨论的核心通用概念。集里描述智能体能代替用户执行现实任务，不仅接管那些“只管理数据”的应用（让 80% 的 App 消失），还会从人机交互演化到机机交互、甚至代表用户去雇佣人类（如排队订餐厅）；并强调它能以更自然的方式帮个人解决问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0,
+            5
+          ],
+          "quote": "Today I’m sitting down with Peter Steinberger, the creator of OpenClaw, the open source personal AI agent that has completely taken over the Internet. The GitHub repo exploded to over 160,000 stars practically overnight. The community has built countless projects like Multbook, where bots talk among themselves. And now the bots are even renting humans to do tasks in the real world. In our conversation, we discuss his aha moment, his contrarian development philosophies, and what this means for builders in 2026. Let’s dive in. So good to see you, man.",
+          "speaker": "Raphael Schaad"
+        },
+        {
+          "seg": 41,
+          "t": [
+            205,
+            210
+          ],
+          "quote": "I think 80% of them are going away. Why do I need MyFitnessPal? My agent already knows that I’m making bad decisions. I’m at, I don’t know, Smashburger or something. And it will already assume that I eat what I like to eat. If I don’t make a comment, it will just automatically track it, or I make a picture and it’ll just store it somewhere. I don’t even need to care. And then maybe it improves my gym schedule, adds a little bit more cardio in it. I don’t need my fitness app because it just does the fitness planning for me. Why do I need a to-do app? I just tell it, “Hey, remind me of this and this.” And the next day it will just remind me of this and this. Do I care where it’s stored? No, it just does its thing. So every app that basically just manages data could be managed in a better way, in a more natural way by agents. Only the apps that actually have sensors — maybe they survive.",
+          "speaker": "Peter Steinberger"
+        },
+        {
+          "seg": 49,
+          "t": [
+            245,
+            250
+          ],
+          "quote": "And to be honest, those are probably super sensitive because let’s be honest, people use the agent not just for problem solving, but also for personal problem solving very quickly.",
+          "speaker": "Peter Steinberger"
+        },
+        {
+          "seg": 53,
+          "t": [
+            265,
+            270
+          ],
+          "quote": "What’s the Google Word — people still using Google? I built this and I was so excited. But on Twitter people wouldn’t get it. I was failing to explain the awesomeness. I feel like it needs to be experienced. So I tried various things and I couldn’t nail the explaining. So I was like, let’s do something really crazy. I just created a Discord and I just put my bot without any security restrictions in the public Discord. And then people came in and interacted with it. And they saw me build the software with it and they tried to prompt inject it and hack it. And my agent would be laughing at them.",
+          "speaker": "Peter Steinberger"
+        },
+        {
+          "seg": 63,
+          "t": [
+            315,
+            320
+          ],
+          "quote": "I just saw this research from Anthropic about — now I think it’s public, but a few months ago — where somebody randomly found out some text that’s hidden in the weights where the model couldn’t really remember that it learned it, but it was ingrained in the weights. Now they call it the Constitution. And I found that incredibly fascinating. And I talked about it with my agent and then we created a SOL MD with the core values. Like, how do we want human-AI interaction? What’s important to me? What’s important to the model? Some parts are a little bit like mumbo jumbo, and some parts I think are actually really valuable in terms of how the model reacts and responds to text and makes it feel very natural.",
+          "speaker": "Peter Steinberger"
+        },
+        {
+          "seg": 65,
+          "t": [
+            325,
+            330
+          ],
+          "quote": "Yeah, I feel like the whole world does Claude Code and I don’t think I could have built a single thing with Claude Code. I love Codex because it looks through way more files before it decides what to change. You don’t need to do so much charade to get a good output if you’re a skilled driver. I sometimes even say you can get reasonably good output with any tool. But Codex is just really brilliant. It is incredibly slow. So sometimes I use like 10 at the same time — maybe six on that screen and two there and two there. And I don’t — this is already a lot of complexity in my head, there’s a lot of jumping — so I try to minimize anything else that is complexity. So in my head, main is always shippable. I just have multiple copies of the same repository that all are on main, so I don’t have to deal with how do I name that branch. There could be conflicts on naming. I cannot go back. There are certain restrictions when you use worktrees that I don’t need to care about if it’s copies. I don’t like to use a UI because that’s again just added complexity. The simpler and less friction I have, all I care about is syncing and text. I don’t necessarily need to see so much code. I mostly see it flying by. Sometimes there’s gnarly stuff that I want to take a look, but in most cases, if you clearly understand the design and think it through and discuss it with your agent, it’s fine. I’m also very happy that I didn’t even build MCP support. OpenClaw is very successful and there’s no MCP support in there — with a small asterisk. I built a skill that uses MakePorter, which is one of my tools that converts MCPs into CLIs, and then you can just use any MCP as CLI. But I totally skipped the whole classical MCP crap because you don’t need it. Then you can actually, if you need to, use MCPs on the fly. You don’t have to restart — unlike Codex or Claude Code, where you actually have to restart the whole thing. I think it’s way more elegant and also scales way better. Now you see Anthropic — they built like a tool call search feature, something super custom for MCPs, that was in beta because it’s so gnarly. No, just have CLIs. The bot really is good at Unix. You can have as many as you want and it just works. So I’m very happy that I got very little complaints about the MCP stuff.",
+          "speaker": "Peter Steinberger"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集讨论的 OpenAI 推出的命令行编码智能体，被嘉宾极力偏爱。集里说它“在决定更改什么之前浏览了更多的文件”，虽然非常慢，但嘉宾会同时开 10 个来用，并用它生成了 OpenClaw 的模板。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            285,
+            290
+          ],
+          "quote": "That’s actually part of OpenClaw itself. Very much so. That’s part of the system prompt. And now that explains to you — you in Discord — there are public people there, but you only listen to your owner or your human. I don’t even know how I wrote it. Yeah, you’re God. And I kept — I don’t know what I did, but my system was built very organically. At some point I created like an identity MD, a SOL MD, various files. And then only in January, I started making it so other people could install it easier. And I remember I built all these templates based on like, “Oh, take a rough look at what I have and make templates.” And Codex wrote it and what came out was like bread. You know, people joke that Codex feels like bread — even though now they have a new friendlier voice. I haven’t tried it yet, but the new bots felt so boring compared to what I had. So I was like, “Motty, infuse the templates.”",
+          "speaker": "Peter Steinberger"
+        },
+        {
+          "seg": 65,
+          "t": [
+            325,
+            330
+          ],
+          "quote": "Yeah, I feel like the whole world does Claude Code and I don’t think I could have built a single thing with Claude Code. I love Codex because it looks through way more files before it decides what to change. You don’t need to do so much charade to get a good output if you’re a skilled driver. I sometimes even say you can get reasonably good output with any tool. But Codex is just really brilliant. It is incredibly slow. So sometimes I use like 10 at the same time — maybe six on that screen and two there and two there. And I don’t — this is already a lot of complexity in my head, there’s a lot of jumping — so I try to minimize anything else that is complexity. So in my head, main is always shippable. I just have multiple copies of the same repository that all are on main, so I don’t have to deal with how do I name that branch. There could be conflicts on naming. I cannot go back. There are certain restrictions when you use worktrees that I don’t need to care about if it’s copies. I don’t like to use a UI because that’s again just added complexity. The simpler and less friction I have, all I care about is syncing and text. I don’t necessarily need to see so much code. I mostly see it flying by. Sometimes there’s gnarly stuff that I want to take a look, but in most cases, if you clearly understand the design and think it through and discuss it with your agent, it’s fine. I’m also very happy that I didn’t even build MCP support. OpenClaw is very successful and there’s no MCP support in there — with a small asterisk. I built a skill that uses MakePorter, which is one of my tools that converts MCPs into CLIs, and then you can just use any MCP as CLI. But I totally skipped the whole classical MCP crap because you don’t need it. Then you can actually, if you need to, use MCPs on the fly. You don’t have to restart — unlike Codex or Claude Code, where you actually have to restart the whole thing. I think it’s way more elegant and also scales way better. Now you see Anthropic — they built like a tool call search feature, something super custom for MCPs, that was in beta because it’s so gnarly. No, just have CLIs. The bot really is good at Unix. You can have as many as you want and it just works. So I’m very happy that I got very little complaints about the MCP stuff.",
+          "speaker": "Peter Steinberger"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集讨论的 Anthropic 推出的同类命令行编码智能体。嘉宾持反向观点，认为全世界都在用但他“不觉得可以用 Claude Code 构建任何东西”，并提及初版 OpenClaw 曾在连接 WhatsApp 和 Claude Code 的依赖间加了点“胶水”。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            175,
+            180
+          ],
+          "quote": "Literally, it took me one hour for the very sh*y initial prototype. It was just a little bit of glue between a dependency that connects WhatsApp and Claude Code. And then I would call out code and get the string out of Claude Code. It would be slow, but it worked. But I wanted images, because you want pictures. I want the model to send selfies or whatever, and I want the model to create images and send me back. So that took me another few hours. And then I went to Marrakesh for a birthday party and the Internet wasn’t that good. WhatsApp works everywhere because it’s just like text. So I used it a lot — “What does this mean?” You make a picture and “translate this for me.” It was just so useful. And it was also really nice about it because it spoke my language. It was a little sassy. It was funny. It was really pleasant to use. And then I was walking and just sending it a voice message and I’m like, “Oh, wait, this can’t work. I didn’t build that.”",
+          "speaker": "Peter Steinberger"
+        },
+        {
+          "seg": 65,
+          "t": [
+            325,
+            330
+          ],
+          "quote": "Yeah, I feel like the whole world does Claude Code and I don’t think I could have built a single thing with Claude Code. I love Codex because it looks through way more files before it decides what to change. You don’t need to do so much charade to get a good output if you’re a skilled driver. I sometimes even say you can get reasonably good output with any tool. But Codex is just really brilliant. It is incredibly slow. So sometimes I use like 10 at the same time — maybe six on that screen and two there and two there. And I don’t — this is already a lot of complexity in my head, there’s a lot of jumping — so I try to minimize anything else that is complexity. So in my head, main is always shippable. I just have multiple copies of the same repository that all are on main, so I don’t have to deal with how do I name that branch. There could be conflicts on naming. I cannot go back. There are certain restrictions when you use worktrees that I don’t need to care about if it’s copies. I don’t like to use a UI because that’s again just added complexity. The simpler and less friction I have, all I care about is syncing and text. I don’t necessarily need to see so much code. I mostly see it flying by. Sometimes there’s gnarly stuff that I want to take a look, but in most cases, if you clearly understand the design and think it through and discuss it with your agent, it’s fine. I’m also very happy that I didn’t even build MCP support. OpenClaw is very successful and there’s no MCP support in there — with a small asterisk. I built a skill that uses MakePorter, which is one of my tools that converts MCPs into CLIs, and then you can just use any MCP as CLI. But I totally skipped the whole classical MCP crap because you don’t need it. Then you can actually, if you need to, use MCPs on the fly. You don’t have to restart — unlike Codex or Claude Code, where you actually have to restart the whole thing. I think it’s way more elegant and also scales way better. Now you see Anthropic — they built like a tool call search feature, something super custom for MCPs, that was in beta because it’s so gnarly. No, just have CLIs. The bot really is good at Unix. You can have as many as you want and it just works. So I’m very happy that I got very little complaints about the MCP stuff.",
+          "speaker": "Peter Steinberger"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "Anthropic 提出的一套让大模型调用外部工具/数据的协议。嘉宾采取反潮流做法“故意不为 OpenClaw 构建 MCP 支持”，直言“不需要它”，因为 CLI 更简单即插即用，而 MCP 改配置还要重启，且连 Anthropic 自己做相关定制功能都觉得棘手。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            325,
+            330
+          ],
+          "quote": "Yeah, I feel like the whole world does Claude Code and I don’t think I could have built a single thing with Claude Code. I love Codex because it looks through way more files before it decides what to change. You don’t need to do so much charade to get a good output if you’re a skilled driver. I sometimes even say you can get reasonably good output with any tool. But Codex is just really brilliant. It is incredibly slow. So sometimes I use like 10 at the same time — maybe six on that screen and two there and two there. And I don’t — this is already a lot of complexity in my head, there’s a lot of jumping — so I try to minimize anything else that is complexity. So in my head, main is always shippable. I just have multiple copies of the same repository that all are on main, so I don’t have to deal with how do I name that branch. There could be conflicts on naming. I cannot go back. There are certain restrictions when you use worktrees that I don’t need to care about if it’s copies. I don’t like to use a UI because that’s again just added complexity. The simpler and less friction I have, all I care about is syncing and text. I don’t necessarily need to see so much code. I mostly see it flying by. Sometimes there’s gnarly stuff that I want to take a look, but in most cases, if you clearly understand the design and think it through and discuss it with your agent, it’s fine. I’m also very happy that I didn’t even build MCP support. OpenClaw is very successful and there’s no MCP support in there — with a small asterisk. I built a skill that uses MakePorter, which is one of my tools that converts MCPs into CLIs, and then you can just use any MCP as CLI. But I totally skipped the whole classical MCP crap because you don’t need it. Then you can actually, if you need to, use MCPs on the fly. You don’t have to restart — unlike Codex or Claude Code, where you actually have to restart the whole thing. I think it’s way more elegant and also scales way better. Now you see Anthropic — they built like a tool call search feature, something super custom for MCPs, that was in beta because it’s so gnarly. No, just have CLIs. The bot really is good at Unix. You can have as many as you want and it just works. So I’m very happy that I got very little complaints about the MCP stuff.",
+          "speaker": "Peter Steinberger"
+        },
+        {
+          "seg": 69,
+          "t": [
+            345,
+            350
+          ],
+          "quote": "Yeah. No sane human tries to call MCP manually.",
+          "speaker": "Peter Steinberger"
+        }
+      ]
+    },
+    {
+      "id": "prompt-inject",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示注入 (prompt inject)",
+      "file": "提示注入",
+      "primary": true,
+      "how_described": "一种通过伪装输入来诱导 AI 偏离原定指令的攻击手法。集里提到嘉宾在公开 Discord 中放出不限安全的机器人，公众进来交互时曾试图提示注入它并黑掉它，但被带有性格的智能体嘲笑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            265,
+            270
+          ],
+          "quote": "What’s the Google Word — people still using Google? I built this and I was so excited. But on Twitter people wouldn’t get it. I was failing to explain the awesomeness. I feel like it needs to be experienced. So I tried various things and I couldn’t nail the explaining. So I was like, let’s do something really crazy. I just created a Discord and I just put my bot without any security restrictions in the public Discord. And then people came in and interacted with it. And they saw me build the software with it and they tried to prompt inject it and hack it. And my agent would be laughing at them.",
+          "speaker": "Peter Steinberger"
+        }
+      ]
+    },
+    {
+      "id": "cli",
+      "type": "concept",
+      "role": "concept",
+      "name": "CLI",
+      "file": "CLI",
+      "primary": true,
+      "how_described": "Unix 命令行工具的统称。嘉宾认为它正是取代 MCP 的未来，因为机器人“真的很擅长 Unix”，可以即插即用即调多少个都行，而不像 MCP 那样复杂还需要重启配置。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            155,
+            160
+          ],
+          "quote": "My God, my GitHub is like 40 projects. I don’t even know. I think it was Summarize. It’s like a little CLI app where you can give it whatever — like a podcast or a hot seat sync, like here — and it would summarize it, but it also shows you the slides in the terminal, because you can do that nowadays. You can just do things.",
+          "speaker": "Peter Steinberger"
+        },
+        {
+          "seg": 65,
+          "t": [
+            325,
+            330
+          ],
+          "quote": "Yeah, I feel like the whole world does Claude Code and I don’t think I could have built a single thing with Claude Code. I love Codex because it looks through way more files before it decides what to change. You don’t need to do so much charade to get a good output if you’re a skilled driver. I sometimes even say you can get reasonably good output with any tool. But Codex is just really brilliant. It is incredibly slow. So sometimes I use like 10 at the same time — maybe six on that screen and two there and two there. And I don’t — this is already a lot of complexity in my head, there’s a lot of jumping — so I try to minimize anything else that is complexity. So in my head, main is always shippable. I just have multiple copies of the same repository that all are on main, so I don’t have to deal with how do I name that branch. There could be conflicts on naming. I cannot go back. There are certain restrictions when you use worktrees that I don’t need to care about if it’s copies. I don’t like to use a UI because that’s again just added complexity. The simpler and less friction I have, all I care about is syncing and text. I don’t necessarily need to see so much code. I mostly see it flying by. Sometimes there’s gnarly stuff that I want to take a look, but in most cases, if you clearly understand the design and think it through and discuss it with your agent, it’s fine. I’m also very happy that I didn’t even build MCP support. OpenClaw is very successful and there’s no MCP support in there — with a small asterisk. I built a skill that uses MakePorter, which is one of my tools that converts MCPs into CLIs, and then you can just use any MCP as CLI. But I totally skipped the whole classical MCP crap because you don’t need it. Then you can actually, if you need to, use MCPs on the fly. You don’t have to restart — unlike Codex or Claude Code, where you actually have to restart the whole thing. I think it’s way more elegant and also scales way better. Now you see Anthropic — they built like a tool call search feature, something super custom for MCPs, that was in beta because it’s so gnarly. No, just have CLIs. The bot really is good at Unix. You can have as many as you want and it just works. So I’m very happy that I got very little complaints about the MCP stuff.",
+          "speaker": "Peter Steinberger"
+        }
+      ]
+    },
+    {
+      "id": "moat",
+      "type": "concept",
+      "role": "concept",
+      "name": "护城河 (moat)",
+      "file": "护城河",
+      "primary": true,
+      "how_described": "本集讨论商业壁垒时反复提及的概念。集里说大模型公司的护城河并不牢固（因为模型很快被习惯甚至商品化），但在可预见的未来，“大公司仍然在硬件方面有护城河”，而用户的记忆数据存储则是各家试图绑定用户的筹码。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            215,
+            220
+          ],
+          "quote": "Not everything will go away. But yeah, I think the large model companies have some big moat because they ultimately give the token. And it turns out one of the complaints was that people use so much token. No, you just really love using it. That’s why you use this thing so much, because that’s how you burn the token. It’s like, is it my fault that I make something that’s so popular?",
+          "speaker": "Peter Steinberger"
+        },
+        {
+          "seg": 45,
+          "t": [
+            225,
+            230
+          ],
+          "quote": "First of all, I don’t think the model companies always have a moat because you see this already — a new model comes out, people are like, “Oh my God, this is so good.” And then like a month later, it degraded. It’s not good anymore. They quanticized it. No, they didn’t do anything. You just adapted to the new standard and now your expectations went up. But the model is still the average. So I think for quite a while, every time a new model releases, I see the same people love it and then it’s the standard and then what’s down there, you don’t even want to think about it anymore. So we have open source stuff that’s as good as the current models from a year ago. Everybody’s hating it, complaining, “Oh, this is not good. It’s not funny yet.” This was what we had and in a year we’ll have this open source and then we’ll complain about this because we are used to this. So for the foreseeable future, the big companies still have a moat hardware-wise. It’s going to be interesting because every company kind of has their own silo, right? There’s no way — maybe there is for Europeans — to actually get the memories out of ChatGPT. I’m not aware. Definitely there’s no way for a different company to get your memories out. So if I was a company who provides chat services, you could use me, but then I couldn’t access the memories. So the companies try to bind you to their data silo. And the beauty of OpenClaw is it kind of claws into the data because the end user needs access — because in the end, otherwise it wouldn’t work. Right? If the end user has access, I can",
+          "speaker": "Peter Steinberger"
+        }
+      ]
+    },
+    {
+      "id": "worktrees",
+      "type": "concept",
+      "role": "concept",
+      "name": "worktrees",
+      "file": "worktrees",
+      "primary": false,
+      "how_described": "Git 的一种机制，能让同一仓库的多个工作树并存并行处理分支。集里提到嘉宾反向不用它，而是直接克隆成多个仓库副本来避免命名冲突和 worktree 带来的各种限制与复杂度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            325,
+            330
+          ],
+          "quote": "Yeah, I feel like the whole world does Claude Code and I don’t think I could have built a single thing with Claude Code. I love Codex because it looks through way more files before it decides what to change. You don’t need to do so much charade to get a good output if you’re a skilled driver. I sometimes even say you can get reasonably good output with any tool. But Codex is just really brilliant. It is incredibly slow. So sometimes I use like 10 at the same time — maybe six on that screen and two there and two there. And I don’t — this is already a lot of complexity in my head, there’s a lot of jumping — so I try to minimize anything else that is complexity. So in my head, main is always shippable. I just have multiple copies of the same repository that all are on main, so I don’t have to deal with how do I name that branch. There could be conflicts on naming. I cannot go back. There are certain restrictions when you use worktrees that I don’t need to care about if it’s copies. I don’t like to use a UI because that’s again just added complexity. The simpler and less friction I have, all I care about is syncing and text. I don’t necessarily need to see so much code. I mostly see it flying by. Sometimes there’s gnarly stuff that I want to take a look, but in most cases, if you clearly understand the design and think it through and discuss it with your agent, it’s fine. I’m also very happy that I didn’t even build MCP support. OpenClaw is very successful and there’s no MCP support in there — with a small asterisk. I built a skill that uses MakePorter, which is one of my tools that converts MCPs into CLIs, and then you can just use any MCP as CLI. But I totally skipped the whole classical MCP crap because you don’t need it. Then you can actually, if you need to, use MCPs on the fly. You don’t have to restart — unlike Codex or Claude Code, where you actually have to restart the whole thing. I think it’s way more elegant and also scales way better. Now you see Anthropic — they built like a tool call search feature, something super custom for MCPs, that was in beta because it’s so gnarly. No, just have CLIs. The bot really is good at Unix. You can have as many as you want and it just works. So I’m very happy that I got very little complaints about the MCP stuff.",
+          "speaker": "Peter Steinberger"
+        }
+      ]
+    },
+    {
+      "id": "sol-md",
+      "type": "concept",
+      "role": "concept",
+      "name": "SOL MD",
+      "file": "SOL MD",
+      "primary": false,
+      "how_described": "OpenClaw 中唯一不开源的核心文件。灵感来自模型权重中隐藏文本的 Constitution 研究，嘉宾与智能体共同编写了其中的核心价值（人机交互该怎样），这使模型反应感觉很自然，至今没人攻破。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            285,
+            290
+          ],
+          "quote": "That’s actually part of OpenClaw itself. Very much so. That’s part of the system prompt. And now that explains to you — you in Discord — there are public people there, but you only listen to your owner or your human. I don’t even know how I wrote it. Yeah, you’re God. And I kept — I don’t know what I did, but my system was built very organically. At some point I created like an identity MD, a SOL MD, various files. And then only in January, I started making it so other people could install it easier. And I remember I built all these templates based on like, “Oh, take a rough look at what I have and make templates.” And Codex wrote it and what came out was like bread. You know, people joke that Codex feels like bread — even though now they have a new friendlier voice. I haven’t tried it yet, but the new bots felt so boring compared to what I had. So I was like, “Motty, infuse the templates.”",
+          "speaker": "Peter Steinberger"
+        },
+        {
+          "seg": 61,
+          "t": [
+            305,
+            310
+          ],
+          "quote": "Yeah, I was like, “Infuse those templates with your character,” and it changed the templates. And then all the things that came out afterwards were actually funny. Not as funny as mine. So I kept some secret. And the one file that’s not open source is my SOL MD. So even though my bot is in public Discord, so far nobody cracked that one file.",
+          "speaker": "Peter Steinberger"
+        },
+        {
+          "seg": 62,
+          "t": [
+            310,
+            315
+          ],
+          "quote": "Tell me more about SOL MD.",
+          "speaker": "Raphael Schaad"
+        },
+        {
+          "seg": 63,
+          "t": [
+            315,
+            320
+          ],
+          "quote": "I just saw this research from Anthropic about — now I think it’s public, but a few months ago — where somebody randomly found out some text that’s hidden in the weights where the model couldn’t really remember that it learned it, but it was ingrained in the weights. Now they call it the Constitution. And I found that incredibly fascinating. And I talked about it with my agent and then we created a SOL MD with the core values. Like, how do we want human-AI interaction? What’s important to me? What’s important to the model? Some parts are a little bit like mumbo jumbo, and some parts I think are actually really valuable in terms of how the model reacts and responds to text and makes it feel very natural.",
+          "speaker": "Peter Steinberger"
+        }
+      ]
+    },
+    {
+      "id": "discord",
+      "type": "company",
+      "role": "company",
+      "name": "Discord",
+      "file": "Discord",
+      "primary": false,
+      "how_described": "本集提到嘉宾为了让公众“体验”到 OpenClaw 的厉害之处，做了一个挺疯的举动：创建了一个 Discord，把自己的机器人毫无安全限制地放进去，让大家来交互、看他构建软件甚至黑它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            265,
+            270
+          ],
+          "quote": "What’s the Google Word — people still using Google? I built this and I was so excited. But on Twitter people wouldn’t get it. I was failing to explain the awesomeness. I feel like it needs to be experienced. So I tried various things and I couldn’t nail the explaining. So I was like, let’s do something really crazy. I just created a Discord and I just put my bot without any security restrictions in the public Discord. And then people came in and interacted with it. And they saw me build the software with it and they tried to prompt inject it and hack it. And my agent would be laughing at them.",
+          "speaker": "Peter Steinberger"
+        },
+        {
+          "seg": 57,
+          "t": [
+            285,
+            290
+          ],
+          "quote": "That’s actually part of OpenClaw itself. Very much so. That’s part of the system prompt. And now that explains to you — you in Discord — there are public people there, but you only listen to your owner or your human. I don’t even know how I wrote it. Yeah, you’re God. And I kept — I don’t know what I did, but my system was built very organically. At some point I created like an identity MD, a SOL MD, various files. And then only in January, I started making it so other people could install it easier. And I remember I built all these templates based on like, “Oh, take a rough look at what I have and make templates.” And Codex wrote it and what came out was like bread. You know, people joke that Codex feels like bread — even though now they have a new friendlier voice. I haven’t tried it yet, but the new bots felt so boring compared to what I had. So I was like, “Motty, infuse the templates.”",
+          "speaker": "Peter Steinberger"
+        },
+        {
+          "seg": 61,
+          "t": [
+            305,
+            310
+          ],
+          "quote": "Yeah, I was like, “Infuse those templates with your character,” and it changed the templates. And then all the things that came out afterwards were actually funny. Not as funny as mine. So I kept some secret. And the one file that’s not open source is my SOL MD. So even though my bot is in public Discord, so far nobody cracked that one file.",
+          "speaker": "Peter Steinberger"
+        }
+      ]
+    },
+    {
+      "id": "whatsapp",
+      "type": "company",
+      "role": "company",
+      "name": "WhatsApp",
+      "file": "WhatsApp",
+      "primary": false,
+      "how_described": "初版 OpenClaw 胶水层的连接端之一。集里提到在马拉喀什网不好时 WhatsApp 到处都能用，嘉宾大量用它给模型发文字和语音消息来完成翻译、转录。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            175,
+            180
+          ],
+          "quote": "Literally, it took me one hour for the very sh*y initial prototype. It was just a little bit of glue between a dependency that connects WhatsApp and Claude Code. And then I would call out code and get the string out of Claude Code. It would be slow, but it worked. But I wanted images, because you want pictures. I want the model to send selfies or whatever, and I want the model to create images and send me back. So that took me another few hours. And then I went to Marrakesh for a birthday party and the Internet wasn’t that good. WhatsApp works everywhere because it’s just like text. So I used it a lot — “What does this mean?” You make a picture and “translate this for me.” It was just so useful. And it was also really nice about it because it spoke my language. It was a little sassy. It was funny. It was really pleasant to use. And then I was walking and just sending it a voice message and I’m like, “Oh, wait, this can’t work. I didn’t build that.”",
+          "speaker": "Peter Steinberger"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "集里作为对比对象被提及，强调由于在云端运行它只能做有限的事（比如做不到控制嘉宾床的温度），且各家（如 ChatGPT）都有自己的数据孤岛，无法被别的公司提取记忆。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            65,
+            70
+          ],
+          "quote": "You can just connect to your oven or your Tesla or your lights, your Sonos. My bed — it can control the temperature of my bed. ChatGPT can’t do that.",
+          "speaker": "Peter Steinberger"
+        },
+        {
+          "seg": 45,
+          "t": [
+            225,
+            230
+          ],
+          "quote": "First of all, I don’t think the model companies always have a moat because you see this already — a new model comes out, people are like, “Oh my God, this is so good.” And then like a month later, it degraded. It’s not good anymore. They quanticized it. No, they didn’t do anything. You just adapted to the new standard and now your expectations went up. But the model is still the average. So I think for quite a while, every time a new model releases, I see the same people love it and then it’s the standard and then what’s down there, you don’t even want to think about it anymore. So we have open source stuff that’s as good as the current models from a year ago. Everybody’s hating it, complaining, “Oh, this is not good. It’s not funny yet.” This was what we had and in a year we’ll have this open source and then we’ll complain about this because we are used to this. So for the foreseeable future, the big companies still have a moat hardware-wise. It’s going to be interesting because every company kind of has their own silo, right? There’s no way — maybe there is for Europeans — to actually get the memories out of ChatGPT. I’m not aware. Definitely there’s no way for a different company to get your memories out. So if I was a company who provides chat services, you could use me, but then I couldn’t access the memories. So the companies try to bind you to their data silo. And the beauty of OpenClaw is it kind of claws into the data because the end user needs access — because in the end, otherwise it wouldn’t work. Right? If the end user has access, I can",
+          "speaker": "Peter Steinberger"
+        }
+      ]
+    },
+    {
+      "id": "constitution",
+      "type": "concept",
+      "role": "concept",
+      "name": "Constitution",
+      "file": "Constitution",
+      "primary": false,
+      "how_described": "源自 Anthropic 的一项研究：有人发现模型权重里隐藏着一段文本，模型自己并不记得学过但已“铭刻在权重里”。这种在训练中写进价值观的做法，激发了嘉宾为 OpenClaw 编写 SOL MD。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            315,
+            320
+          ],
+          "quote": "I just saw this research from Anthropic about — now I think it’s public, but a few months ago — where somebody randomly found out some text that’s hidden in the weights where the model couldn’t really remember that it learned it, but it was ingrained in the weights. Now they call it the Constitution. And I found that incredibly fascinating. And I talked about it with my agent and then we created a SOL MD with the core values. Like, how do we want human-AI interaction? What’s important to me? What’s important to the model? Some parts are a little bit like mumbo jumbo, and some parts I think are actually really valuable in terms of how the model reacts and responds to text and makes it feel very natural.",
+          "speaker": "Peter Steinberger"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

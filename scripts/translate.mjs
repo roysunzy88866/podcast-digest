@@ -33,9 +33,27 @@ function segSpeaker(seg) {
   return speakerMap[best] || best || "Unknown";
 }
 
-function glmAsk(system, input, maxTokens = 8000) {
+// 限速:相邻调用最小间隔(压瞬时 RPM,避免瞬时打爆速率限制)。串行"取号"保证并发下也间隔。
+const MIN_GAP_MS = Number(process.env.GLM_MIN_GAP_MS || 700);
+const MAX_429_RETRY = Number(process.env.GLM_429_RETRY || 5);
+let _gate = Promise.resolve();
+function ticket() {
+  const p = _gate.then(() => new Promise((r) => setTimeout(r, MIN_GAP_MS)));
+  _gate = p.catch(() => {});
+  return p;
+}
+const isRateLimit = (msg) => /\b429\b|rate_limit|1302|控制请求频率/.test(String(msg));
+
+// 翻译模型:默认 GLM-4.6(体力活便宜档;整理/浓缩仍用 GLM-5.2)。
+// 🔒 标准变更·用户授权 2026-07-19:translate 从 GLM-5.2 改 GLM-4.6 —— 双语对齐下 condense 读英文交叉核对,
+//   保真关键项(金句英文逐字/金句中文由5.2重译/专名数字回英文核)不依赖翻译模型;实测质量持平(gray-swan 对比)。
+//   同时把调用大头挪出 GLM-5.2 → 根治 429。GLM-4-Flash 实测太弱(漏段挂)已淘汰。见 ADR 0013 / 需求共识留痕。
+const TRANSLATE_MODEL = process.env.TRANSLATE_MODEL || "glm-4.6";
+function glmAskOnce(system, input, maxTokens) {
   return new Promise((res, rej) => {
-    const p = spawn("glm-ask", ["--system", system, "--max-tokens", String(maxTokens)], {
+    const args = ["--system", system, "--max-tokens", String(maxTokens)];
+    if (TRANSLATE_MODEL) args.unshift("--model", TRANSLATE_MODEL);
+    const p = spawn("glm-ask", args, {
       stdio: ["pipe", "pipe", "pipe"],
     });
     let out = "",
@@ -47,6 +65,24 @@ function glmAsk(system, input, maxTokens = 8000) {
     p.stdin.write(input);
     p.stdin.end();
   });
+}
+
+// 带限速 + 429 指数退避的调用(不动模型/保真:仍是 GLM-5.2,只是调得斯文)
+async function glmAsk(system, input, maxTokens = 8000) {
+  for (let attempt = 0; ; attempt++) {
+    await ticket();
+    try {
+      return await glmAskOnce(system, input, maxTokens);
+    } catch (e) {
+      if (isRateLimit(e.message) && attempt < MAX_429_RETRY) {
+        const wait = Math.min(60000, 4000 * 2 ** attempt); // 4s→8→16→32→60s
+        process.stderr.write(`  ⏳ 429 限流,退避 ${wait / 1000}s 重试(${attempt + 1}/${MAX_429_RETRY})\n`);
+        await new Promise((r) => setTimeout(r, wait));
+        continue;
+      }
+      throw e;
+    }
+  }
 }
 
 // 解析 [[n]] 译文(容忍多行译文:非[[开头的行并入上一条)
@@ -107,7 +143,7 @@ const segs = transcript.map((s, i) => ({ ...s, _i: i }));
 const chunks = [];
 for (let i = 0; i < segs.length; i += CHUNK) chunks.push(segs.slice(i, i + CHUNK));
 
-console.log(`全译:${segs.length} 段 → ${chunks.length} 块 × 并行 ${CONCURRENCY}(GLM-5.2)`);
+console.log(`全译:${segs.length} 段 → ${chunks.length} 块 × 并行 ${CONCURRENCY}(${TRANSLATE_MODEL || "glm-5.2"})`);
 const t0 = Date.now();
 const results = await pool(chunks, translateChunk, CONCURRENCY);
 const zhByIdx = new Map();

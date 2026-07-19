@@ -1,0 +1,895 @@
+{
+  "episode_id": "2026-06-03-latent-space-satya-2026",
+  "podcast": null,
+  "date": null,
+  "tags": [
+    "AI 平台逻辑",
+    "智能体",
+    "企业智能",
+    "应用层重构",
+    "工程师角色演变"
+  ],
+  "entities": [
+    {
+      "id": "saragawa",
+      "type": "person",
+      "role": "host",
+      "name": "Saragawa",
+      "file": "Saragawa",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            26.361,
+            27.041
+          ],
+          "quote": "Saragawa,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "satya-nadella",
+      "type": "person",
+      "role": "cohost",
+      "name": "Satya Nadella",
+      "file": "Satya Nadella",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            32.843,
+            33.723
+          ],
+          "quote": "Satya Nadella.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            44.987,
+            49.688
+          ],
+          "quote": "Welcome to a crossover episode of No Priors in Lanespace with Satya Nadella.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": true,
+      "how_described": "本集讨论的核心公司，CEO 萨提亚·纳德拉将其描述为一个经历了四次重大平台变迁的公司，致力于为所有企业构建脚手架，让它们基于自身数据构建专属于自己的智能与智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            28.441,
+            32.463
+          ],
+          "quote": "and Chairman and Chief Executive Officer of Microsoft,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            60.003,
+            64.006
+          ],
+          "quote": "So you're just talking about these amazing announcements from across the Microsoft",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            85.156,
+            86.638
+          ],
+          "quote": "having grown up at Microsoft,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 50,
+          "t": [
+            147.301,
+            151.044
+          ],
+          "quote": "Tell us a little bit about the training strategy for Microsoft.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            291.441,
+            292.281
+          ],
+          "quote": "Microsoft in two years.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 216,
+          "t": [
+            641.915,
+            646.218
+          ],
+          "quote": "That's a different value equation than you're describing, I think, with the Microsoft ecosystem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 259,
+          "t": [
+            761.195,
+            765.401
+          ],
+          "quote": "you are Microsoft historically as an operating systems company and then become a",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 325,
+          "t": [
+            976.523,
+            980.464
+          ],
+          "quote": "And this was like the generation of SaaS companies and Microsoft has lots of SaaS",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1091.659,
+            1096.422
+          ],
+          "quote": "If you look at it, what's happening today with Microsoft 365 is a great example.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 506,
+          "t": [
+            1479.415,
+            1482.039
+          ],
+          "quote": "like I remember joining Microsoft long back first,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 600,
+          "t": [
+            1714.827,
+            1716.487
+          ],
+          "quote": " actually started his career at Microsoft.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 607,
+          "t": [
+            1734.871,
+            1737.872
+          ],
+          "quote": "but how do you think about how Microsoft can be more ambitious now?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 664,
+          "t": [
+            1885.655,
+            1889.497
+          ],
+          "quote": "which is whether it's Microsoft or whether it's any organization is to give",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 676,
+          "t": [
+            1918.194,
+            1921.178
+          ],
+          "quote": "I'm just impressed with the sheer scale of the buildup from Microsoft,",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": true,
+      "how_described": "本集提到它的 Copilot 产品具备多模型测试框架，且其代码库可以与 WorkIQ 结合，读取设计会议转录稿后直接返回修改代码的计划；此外它正面临调整，需要引入基于消耗量的定价机制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 186,
+          "t": [
+            537.255,
+            538.857
+          ],
+          "quote": "whether it's GitHub Copilot or the",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 198,
+          "t": [
+            576.512,
+            577.834
+          ],
+          "quote": "we have the GitHub harness,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1145.947,
+            1148.13
+          ],
+          "quote": "I go to a GitHub repo and I say,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 444,
+          "t": [
+            1287.872,
+            1289.853
+          ],
+          "quote": "Quite frankly, we face this with GitHub.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 445,
+          "t": [
+            1289.973,
+            1292.735
+          ],
+          "quote": "We just recently announced a per user pricing on GitHub.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 446,
+          "t": [
+            1293.356,
+            1300.18
+          ],
+          "quote": "Because little GitHub Copilot was constructed at a per user level before we",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 498,
+          "t": [
+            1455.883,
+            1463.144
+          ],
+          "quote": "I do feel that something like GitHub Copilot to me and especially the new sessions",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mai-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "MAI 模型 (MAI models)",
+      "file": "MAI 模型",
+      "primary": true,
+      "how_described": "微软推出的模型系列。本集指出它们具备从预训练开始的清晰血统，其核心目的不是作为通用大模型，而是提供脚手架让企业构建自己的专才模型，小参数版本也展现出极强的爬山能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            152.085,
+            156.447
+          ],
+          "quote": "so the thing that we wanted to do with the MAI models was to build,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            190.043,
+            196.149
+          ],
+          "quote": "even in our FDs are pretty gone really excited about these MAI models because how",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "private-evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "私有评估 (private evals)",
+      "file": "私有评估",
+      "primary": true,
+      "how_described": "被纳德拉视为 AI 时代公司最大的知识产权，强调它是企业专属、不被公开刷榜的评估标准，是检验企业能否在不同模型间无缝切换并掌握主动权的核心资产。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            236.052,
+            239.455
+          ],
+          "quote": "you'll have private evals because we know all the evals out there are good,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 237,
+          "t": [
+            707.27,
+            710.891
+          ],
+          "quote": " Having private evals may be the biggest IP.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "测试框架 (harness)",
+      "file": "测试框架",
+      "primary": true,
+      "how_described": "本集指微软所有应用本质都是带有工具访问权限的多模型测试框架。它负责管理上下文、调用外部工具并协调多个模型，是智能体以高效方式执行计划的「魔法所在」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 181,
+          "t": [
+            504.096,
+            505.778
+          ],
+          "quote": "So in some sense, you call the harness",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 198,
+          "t": [
+            576.512,
+            577.834
+          ],
+          "quote": "we have the GitHub harness,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 201,
+          "t": [
+            582.02,
+            583.923
+          ],
+          "quote": "And we're open, like you can use your Lama harness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 202,
+          "t": [
+            584.163,
+            589.186
+          ],
+          "quote": "whatever or you can use the any open harness or any harness of yours and train with",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 204,
+          "t": [
+            593.729,
+            598.612
+          ],
+          "quote": "right now a lot of dialogue is hey if I train the harness plus tools and the model",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 209,
+          "t": [
+            616.363,
+            620.824
+          ],
+          "quote": "I would claim that you can have a multimodal harness that can,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 247,
+          "t": [
+            738.717,
+            741.658
+          ],
+          "quote": "And that's where even the harness decision becomes super important, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 249,
+          "t": [
+            742.598,
+            743.839
+          ],
+          "quote": "having an open harness,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 261,
+          "t": [
+            766.303,
+            769.187
+          ],
+          "quote": "Maybe like the third act is that your harness or evals",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "context-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文层 (context layer)",
+      "file": "上下文层",
+      "primary": true,
+      "how_described": "本集指出，过去两年行业学到的最惨痛教训是：准备上下文层所需的工作量极其巨大，将丰富上下文喂给模型是让计划高效执行的真实魔法所在。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 194,
+          "t": [
+            563.193,
+            568.921
+          ],
+          "quote": "the amount of work you need to do to prep the context layer.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "workiq",
+      "type": "concept",
+      "role": "concept",
+      "name": "WorkIQ",
+      "file": "WorkIQ",
+      "primary": true,
+      "how_described": "微软 M365 的语义模型。本集将其描述为将过去被「囚禁」在 Word、Teams 等应用底层的数据库彻底暴露出来的工具，使得跨越数据孤岛的工作流编排创造了 10 倍的价值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 370,
+          "t": [
+            1097.354,
+            1098.575
+          ],
+          "quote": " We have this thing called WorkIQ.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1123.799,
+            1127.801
+          ],
+          "quote": "The same thing is now happening with M365 because with WorkIQ,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1143.363,
+            1145.907
+          ],
+          "quote": " This is one of the coolest things I get to do with WorkIQ.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 530,
+          "t": [
+            1535.56,
+            1536.782
+          ],
+          "quote": "I took WorkIQ,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 532,
+          "t": [
+            1537.323,
+            1538.304
+          ],
+          "quote": "take WorkIQ,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "hill-climb",
+      "type": "concept",
+      "role": "concept",
+      "name": "爬山 (hill climb)",
+      "file": "爬山",
+      "primary": true,
+      "how_described": "本集指模型通过强化学习等方式针对特定任务不断提升性能的过程。微软围绕 MAI 模型构建了爬山脚手架，帮助企业建立自己的专才模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            196.189,
+            199.832
+          ],
+          "quote": "the heck can a small 5B model hill climb?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            228.166,
+            230.407
+          ],
+          "quote": "but you have a hill climb scaffold around it,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 239,
+          "t": [
+            711.711,
+            716.012
+          ],
+          "quote": "What's that private eval that you can then use even a frontier model to hill climb",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 253,
+          "t": [
+            748.681,
+            751.002
+          ],
+          "quote": "your tools help you hill climb,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集探讨其在重塑应用层中的作用：过去服务收件箱的架构无法应对全天候高频调用的智能体；它能完成跨数据源的工作流编排，使价值创造放大十倍，并推动从 SaaS 到智能体的重构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 145,
+          "t": [
+            410.528,
+            414.574
+          ],
+          "quote": "To see what we launched is, oh my God, I have these 100 agent sessions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 311,
+          "t": [
+            920.659,
+            927.069
+          ],
+          "quote": " That goes back to train, not a generalist model, but to train the company veteran agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1169.321,
+            1173.367
+          ],
+          "quote": "So the value creation opportunity now in the agent world",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 406,
+          "t": [
+            1185.356,
+            1193.222
+          ],
+          "quote": "In fact, what I use to serve an inbox or a mailbox cannot be used to serve an agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 455,
+          "t": [
+            1330.554,
+            1332.114
+          ],
+          "quote": "that almost have agent euphoria.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 474,
+          "t": [
+            1388.871,
+            1392.794
+          ],
+          "quote": "Of course, there's a coding agent to help you with, but then that burns tokens.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 524,
+          "t": [
+            1519.857,
+            1526.848
+          ],
+          "quote": "can I have an agent that is continuously monitoring essentially my own chief of",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 533,
+          "t": [
+            1538.645,
+            1541.188
+          ],
+          "quote": "go and build a Foundry long-running agent,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "generalist",
+      "type": "concept",
+      "role": "concept",
+      "name": "通才 (generalist)",
+      "file": "通才",
+      "primary": true,
+      "how_described": "本集将其描述为应用开发门槛被无限拉低后将获得最高杠杆作用与最大回报的角色，他们过去只能创建文档，现在可以直接跨越门槛构建完整的应用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            218.474,
+            219.897
+          ],
+          "quote": "not just as a generalist,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 311,
+          "t": [
+            920.659,
+            927.069
+          ],
+          "quote": " That goes back to train, not a generalist model, but to train the company veteran agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 577,
+          "t": [
+            1662.591,
+            1665.773
+          ],
+          "quote": "I think the generalist role is",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 579,
+          "t": [
+            1668.615,
+            1674.401
+          ],
+          "quote": "Because the leverage of a generalist is where we are going to see the maximum returns, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 581,
+          "t": [
+            1676.283,
+            1677.464
+          ],
+          "quote": "I'm now a generalist.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 592,
+          "t": [
+            1694.549,
+            1697.471
+          ],
+          "quote": "my generalist skills have gotten a higher leverage,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "foundry",
+      "type": "concept",
+      "role": "concept",
+      "name": "Foundry",
+      "file": "Foundry",
+      "primary": false,
+      "how_described": "微软的智能体平台，提供 GitHub 的测试框架，并支持运行长时间运行的自动驾驶智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 200,
+          "t": [
+            580.418,
+            581.58
+          ],
+          "quote": "It's available in Foundry.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 519,
+          "t": [
+            1506.372,
+            1511.693
+          ],
+          "quote": "And so to me, what I'm building a lot of is these long-running foundry agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 533,
+          "t": [
+            1538.645,
+            1541.188
+          ],
+          "quote": "go and build a Foundry long-running agent,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "m365",
+      "type": "concept",
+      "role": "concept",
+      "name": "M365",
+      "file": "M365",
+      "primary": false,
+      "how_described": "微软的办公应用套件。本集指出由于 WorkIQ 暴露了底层数据，围绕 M365 的智能体调用量未来甚至可能超过终端用户的使用量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 385,
+          "t": [
+            1123.799,
+            1127.801
+          ],
+          "quote": "The same thing is now happening with M365 because with WorkIQ,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1164.334,
+            1168.9
+          ],
+          "quote": "Previously, you could never have thought of using M365 for something like that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1177.53,
+            1179.972
+          ],
+          "quote": "there's going to be usage around M365,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "azure",
+      "type": "company",
+      "role": "company",
+      "name": "Azure",
+      "file": "Azure",
+      "primary": false,
+      "how_described": "微软的云服务。本集提到其网络管理团队重新概念化了工作，构建了一个管理 Azure 网络的智能体系统（代号 Miles），并开始向公司索要 Token 预算而非人员编制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 623,
+          "t": [
+            1788.987,
+            1793.489
+          ],
+          "quote": "which is I take great inspiration from the people who were managing the Azure",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 627,
+          "t": [
+            1798.894,
+            1804.359
+          ],
+          "quote": "You saw that I talked about how we built in the last 15 months more Azure capacity",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 636,
+          "t": [
+            1817.186,
+            1820.19
+          ],
+          "quote": "essentially they said our job is not to do Azure networking,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 637,
+          "t": [
+            1820.471,
+            1824.737
+          ],
+          "quote": "our job is to build the agentic system does Azure networking.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "linkedin",
+      "type": "company",
+      "role": "company",
+      "name": "LinkedIn",
+      "file": "LinkedIn",
+      "primary": false,
+      "how_described": "本集以该公司为例，说明微软正在推行一种将设计、产品管理和前端工程融合的「全栈构建者」新岗位学科。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 550,
+          "t": [
+            1598.832,
+            1599.413
+          ],
+          "quote": "At LinkedIn,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "devops",
+      "type": "concept",
+      "role": "concept",
+      "name": "DevOps",
+      "file": "DevOps",
+      "primary": false,
+      "how_described": "本集提到，在管理 Azure 网络等物理光纤运营时，传统的 DevOps 模式（靠收发邮件响应修复）根本无法应对规模的暴增。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 643,
+          "t": [
+            1838.714,
+            1841.017
+          ],
+          "quote": "We have fancy words called DevOps and so on.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "power-bi",
+      "type": "concept",
+      "role": "concept",
+      "name": "Power BI",
+      "file": "Power BI",
+      "primary": false,
+      "how_described": "本集提到该产品底层的仪表盘包含极其丰富的语义模型和业务逻辑，在 SaaS 拆解重构后这些有价值的逻辑应当被继续复用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 359,
+          "t": [
+            1056.277,
+            1059.219
+          ],
+          "quote": " If you look at, we have this product called Power BI, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

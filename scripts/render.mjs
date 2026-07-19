@@ -172,7 +172,11 @@ export function renderEpisode(meta, digest, entities = null, related = null) {
     ? renderRelations(entities, meta)
     : `> [!info] 本集\n> ${meta.podcast} · 嘉宾 ${guestsLine}${meta.host ? ` · 主持 ${meta.host}` : ""} · ${meta.date} · ${dur}\n> 来源:${meta.source_url}`;
 
-  const bodyMd = entities ? linkPrimaryEntities(String(digest.digest_md), entities) : String(digest.digest_md);
+  let digestMd = String(digest.digest_md);
+  // 无时间戳源:剥掉导读内联占位时间戳,说话人用中文括号(避开方括号与 [[双链]] 冲突,防三重括号畸形)
+  // [00:55 X] → (X)(标准变更·用户授权)
+  if (meta.no_timestamps) digestMd = digestMd.replace(/\s*\[\d{1,2}:\d{2}\s+([^\]]+)\]/g, "（$1）");
+  const bodyMd = entities ? linkPrimaryEntities(digestMd, entities) : digestMd;
 
   const quoteBlocks = (digest.quotes || [])
     .map(
@@ -180,8 +184,9 @@ export function renderEpisode(meta, digest, entities = null, related = null) {
       // 若用空 `>` 分隔成多段,Quartz 块嵌入只拉到 ^ID 所在那一段(署名行)→ 金句正文全丢
       // (独立审计 2026-07-18 实测逮到:实体页金句墙只剩「—— 某人 [时间]」没正文;且闸门/测试都放过了)。
       // P1 风格 fixture 已实证:无空 `>` 分隔 + 行尾两空格 → 嵌入含正文且保留视觉换行。
+      // 无时间戳源(第三方稿,如 SingjuPost):署名标「来自原文」而非占位时间戳(标准变更·用户授权)
       (q, i) =>
-        `> ${String(q.zh).trim()}  \n> *${String(q.en).trim()}*  \n> —— ${String(q.speaker)} · [${String(q.timestamp)}] ^${blockId(i)}`,
+        `> ${String(q.zh).trim()}  \n> *${String(q.en).trim()}*  \n> —— ${String(q.speaker)} · ${meta.no_timestamps ? "来自原文" : `[${String(q.timestamp)}]`} ^${blockId(i)}`,
     )
     .join("\n\n");
 

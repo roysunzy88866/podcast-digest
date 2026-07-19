@@ -177,11 +177,26 @@ export function buildFactIndex(transcript, meta, aliases) {
   return { tokens, numbers, stream, speakerMap: meta?.speaker_map ?? {}, aliases: aliases ?? { entities: [] }, maxEnd };
 }
 
+/** 单个归一化词是否命中真相源。含「版本化实体」容错(标准变更·用户授权 2026-07-19):
+ *  导读写 AlphaFold、转写稿是 AlphaFold3 → 只剥尾部数字、且词长 ≥5 才放行(短词不放行,防「Sam⊆Samsung」误放)。
+ *  编造一个真相源里根本没有的全新名字,仍会被挡(它不是任何真词的"去掉尾数字"形)。 */
+function tokenHit(w, tokens) {
+  if (tokens.has(w)) return true;
+  // 复数-s 容错(标准变更·用户授权):导读 GAN ⇄ 转写稿 GANs、flag ⇄ flags(加/去尾 s 不放行全新编造名)
+  if (w.length >= 3 && (tokens.has(w + "s") || (w.endsWith("s") && tokens.has(w.slice(0, -1))))) return true;
+  if (w.length < 5) return false;
+  for (const t of tokens) {
+    if (t.length > w.length && t.startsWith(w) && /^\d+$/.test(t.slice(w.length))) return true; // 真词 = 导读词+数字(AlphaFold3)
+    if (t.length >= 5 && w.length > t.length && w.startsWith(t) && /^\d+$/.test(w.slice(t.length))) return true; // 导读词 = 真词+数字
+  }
+  return false;
+}
+
 /** 某个书写形式是否在真相源里出现过(多词形式要求每个词都在) */
 function formHits(form, tokens) {
   const ws = norm(form);
   if (!ws.length) return false; // 纯中文形式(norm 后为空)→ 只能靠别名表的 en 形式回比
-  return ws.every((w) => tokens.has(w));
+  return ws.every((w) => tokenHit(w, tokens));
 }
 
 /**
@@ -288,11 +303,15 @@ export function findVagueQuantifiers(md) {
 export function extractDigestNumbers(md) {
   const out = [];
   const text = String(md);
-  for (const m of text.matchAll(/\d[\d,]*(?:\.\d+)?/g)) {
-    const raw = m[0].replace(/[.,]+$/, "");
-    const v = Number(raw.replace(/,/g, ""));
-    if (!Number.isFinite(v)) continue;
-    out.push({ value: v, raw, ctx: text.slice(Math.max(0, m.index - 14), m.index + raw.length + 14).replace(/\n/g, " ") });
+  // 中文单位万/亿:导读「16万」既可能对应转写稿的 160000(缩放值),也可能只有阿拉伯前缀 16 能对上
+  //   (中文数字形式非硬覆盖,drift #11)→ 缩放值或原值**任一命中即过**(标准变更·用户授权)。
+  for (const m of text.matchAll(/(\d[\d,]*(?:\.\d+)?)\s*([万亿])?/g)) {
+    const raw = m[1].replace(/[.,]+$/, "");
+    const base = Number(raw.replace(/,/g, ""));
+    if (!Number.isFinite(base)) continue;
+    const scale = m[2] === "万" ? 1e4 : m[2] === "亿" ? 1e8 : 1;
+    const values = scale === 1 ? [base] : [base * scale, base]; // 缩放值 + 原值,任一命中即过
+    out.push({ value: values[0], values, raw: raw + (m[2] || ""), ctx: text.slice(Math.max(0, m.index - 14), m.index + m[0].length + 14).replace(/\n/g, " ") });
   }
   return out;
 }
@@ -423,12 +442,15 @@ export function checkInlineTimestamp(t, ctx, { minWords = 2, pointGrace = 5 } = 
   const actual = ranked.filter(([, n]) => n >= minWords).map(([nm]) => nm);
   const dominant = ranked[0]?.[0] ?? null;
 
-  // ① 被标注的人必须真讲过话(名字比对走 normName:折叠音标/连字符,修 D37 误报,标准变更·用户授权)
+  // 说话人从硬拦降为软提醒(🔒 标准变更·用户授权 2026-07-19):导读内联署名对不上不再拦发布,
+  //   降为「待核」(speakerSoft),进提醒清单;区间真实性(有没有词/是否越界/过宽)仍硬拦。
+  //   代价用户知情接受:偶发张冠李戴可能上公网。见 ADR 0013 / 需求共识「防失真三联」留痕。
+  // ① 被标注的人必须真讲过话(名字比对走 normName:折叠音标/连字符,修 D37 误报)
   const phantom = t.speakers.filter((s) => !actual.some((a) => normName(a) === normName(s)));
   if (phantom.length)
     return {
-      pass: false,
-      reason: `说话人不符:标注「${phantom.join(" / ")}」在该区间内没讲话(实际是「${actual.join(" / ") || "(无)"}」)`,
+      pass: true,
+      speakerSoft: `说话人存疑:标注「${phantom.join(" / ")}」在该区间内没讲话(实际是「${actual.join(" / ") || "(无)"}」)`,
       actual,
       dominant,
     };
@@ -436,8 +458,8 @@ export function checkInlineTimestamp(t, ctx, { minWords = 2, pointGrace = 5 } = 
   // ② 主说话人不能被隐去 —— **只对区间生效**(单点是粗略坐标,见上方说明)
   if (!isPoint && dominant && !t.speakers.some((s) => normName(s) === normName(dominant)))
     return {
-      pass: false,
-      reason: `说话人不符:该区间主说话人是「${dominant}」,却只标了「${t.speakers.join(" / ")}」`,
+      pass: true,
+      speakerSoft: `说话人存疑:该区间主说话人是「${dominant}」,却只标了「${t.speakers.join(" / ")}」`,
       actual,
       dominant,
     };
@@ -446,7 +468,11 @@ export function checkInlineTimestamp(t, ctx, { minWords = 2, pointGrace = 5 } = 
 }
 
 /** 我们自己模板/通用写法带进来的拉丁串,不是从转写稿派生的专名 → 不参与 D17 */
-const TOKEN_ALLOWLIST = new Set(["tldr", "ai", "id", "md", "url", "http", "https"]);
+// 通用缩写/角色词:非"对本集的事实断言",逐字回比只会误报 → 不参与 D17(标准变更·用户授权 2026-07-19)
+const TOKEN_ALLOWLIST = new Set(["tldr", "ai", "id", "md", "url", "http", "https",
+  "cto", "ceo", "cfo", "coo", "cmo", "vp", "hr", "pr", "api", "gpu", "cpu", "tpu", "llm", "llms",
+  "sdk", "saas", "paas", "ui", "ux", "os", "io", "ml", "nlp", "rl", "rag", "kpi", "roi", "ip", "qa",
+  "demo", "app", "apps", "beta", "alpha", "mvp", "cli", "gui", "sql", "css", "html", "json", "yaml"]);
 
 /**
  * D17/D8 的核心比对逻辑,抽成单一组合 —— **digest_md 与实体 how_described 共用它**
@@ -461,7 +487,8 @@ export function checkProse(md, ctx, aliases) {
   const body = stripNumericIdioms(stripTimestamps(stripBackground(md)));
 
   // ① D17 专名(硬拦)—— 拉丁侧 + 中文侧
-  const nouns = extractLatinTokens(body).filter((t) => !TOKEN_ALLOWLIST.has(t.toLowerCase()));
+  // 跳单/双字母(G、H 之类数学记号/首字母,无法当专名核实,只会误报)+ 通用缩写白名单(标准变更·用户授权)
+  const nouns = extractLatinTokens(body).filter((t) => t.length >= 3 && !TOKEN_ALLOWLIST.has(t.toLowerCase()));
   const nounResults = nouns.map((n) => ({ name: n, ...checkProperNoun(n, ctx) }));
   for (const cn of extractChineseNouns(body, aliases)) {
     const forms = cnToSourceForms(cn, aliases);
@@ -478,24 +505,25 @@ export function checkProse(md, ctx, aliases) {
   }
 
   // ② D17 确定数字(硬拦)
-  const numResults = extractDigestNumbers(body).map((n) => ({
-    ...n,
-    pass: ctx.numbers.has(n.value),
-    reason: ctx.numbers.has(n.value) ? null : `数字 ${n.raw} 未在真相源出现(疑编造)`,
-  }));
+  const numResults = extractDigestNumbers(body).map((n) => {
+    const hit = (n.values ?? [n.value]).some((v) => ctx.numbers.has(v));
+    return { ...n, pass: hit, reason: hit ? null : `数字 ${n.raw} 未在真相源出现(疑编造)` };
+  });
 
   // ③ D8 内联时间戳(硬拦)—— 作用域是完整正文,含【背景】
   const tsResults = parseInlineTimestamps(md).map((t) => ({ ...t, ...checkInlineTimestamp(t, ctx) }));
 
   // ④ 模糊量词(提醒层,不卡提交)
   const vague = findVagueQuantifiers(body);
+  // ⑤ 说话人存疑(D8 软提醒·标准变更用户授权):pass:true 已不进 failures,单列待核
+  const speakerWarn = tsResults.filter((r) => r.speakerSoft).map((r) => ({ kind: "D8-说话人(软)", ...r }));
 
   const failures = [
     ...nounResults.filter((r) => !r.pass).map((r) => ({ kind: "D17-专名", ...r })),
     ...numResults.filter((r) => !r.pass).map((r) => ({ kind: "D17-数字", ...r })),
     ...tsResults.filter((r) => !r.pass).map((r) => ({ kind: "D8-时间戳", ...r })),
   ];
-  return { nounResults, numResults, tsResults, vague, failures };
+  return { nounResults, numResults, tsResults, vague, speakerWarn, failures };
 }
 
 /** 校验一集的事实层:D17 专名 + D17 数字 + D8 时间戳 */
@@ -525,7 +553,7 @@ export function gateFacts(dir, { aliasesPath } = {}) {
     return { id: meta.id, nouns: [], numbers: [], timestamps: [], vague: [], pass: false, failures: [{ kind: "结构", reason: "digest_md 为空 —— 判不了 = 不过" }] };
 
   // 核心比对(与实体 how_described 共用同一份组合,防漂移)
-  const { nounResults, numResults, tsResults, vague, failures } = checkProse(md, ctx, aliases);
+  const { nounResults, numResults, tsResults, vague, speakerWarn, failures } = checkProse(md, ctx, aliases);
 
   return {
     id: meta.id,
@@ -533,6 +561,7 @@ export function gateFacts(dir, { aliasesPath } = {}) {
     numbers: numResults,
     timestamps: tsResults,
     vague,
+    speakerWarn,
     failures,
     pass: failures.length === 0,
   };
@@ -560,6 +589,10 @@ if (isMain) {
   if (r.vague.length) {
     console.log(`\n  ⚠️ 待核清单(模糊量词,提醒不拦 · drift #11):`);
     for (const v of r.vague.slice(0, 10)) console.log(`     「${v.raw}」… ${v.ctx}`);
+  }
+  if (r.speakerWarn?.length) {
+    console.log(`\n  ⚠️ 待核·说话人(软提醒,不拦 · 标准变更用户授权):`);
+    for (const s of r.speakerWarn) console.log(`     [${s.raw}] ${s.speakerSoft}`);
   }
   if (!r.pass) {
     console.error(`\n❌ 事实层闸门未过(${r.failures.length} 条):`);

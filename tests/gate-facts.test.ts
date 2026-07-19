@@ -214,11 +214,13 @@ describe("checkInlineTimestamp · D8(硬拦)+ 部分收窄 D19", () => {
     expect(checkInlineTimestamp({ start: 0, end: 8, speakers: ["Akshat Bubna"], raw: "x" }, c).pass).toBe(true);
   });
 
-  it("★ 移花接木:区间真实但把别人的话挂在嘉宾名下 → 拦(这正是 D19 抓到的那类)", () => {
+  // 标准变更·用户授权 2026-07-19(ADR 0013):D8 说话人从硬拦降为软提醒 —— 仍检测到(speakerSoft 有值),
+  // 但 pass:true 不拦发布。测试口径同步:验"检测到 + 不拦"。区间真实性(超范围/无词)仍硬拦、不变。
+  it("★ 移花接木:区间真实但把别人的话挂在嘉宾名下 → 检测到(speakerSoft)但软·不拦", () => {
     // 10-19s 实际是 SPEAKER_01 = 主持人,却标成 Akshat Bubna
     const r = checkInlineTimestamp({ start: 10, end: 19, speakers: ["Akshat Bubna"], raw: "x" }, c);
-    expect(r.pass).toBe(false);
-    expect(r.reason).toMatch(/说话人/);
+    expect(r.pass).toBe(true); // 软化后不拦
+    expect(r.speakerSoft).toMatch(/说话人/); // 但仍检测到张冠李戴,进待核
   });
 
   it("★ 区间超出转写稿范围(编造时间戳)→ 拦", () => {
@@ -248,14 +250,14 @@ describe("checkInlineTimestamp · D8(硬拦)+ 部分收窄 D19", () => {
   it("★ 但单点仍要拦「被标注者附近根本没开口」(移花接木的硬核心不放过)", () => {
     // 20~26s 只有 Akshat;把话安给附近完全没开口的主持人 → 拦
     const r = checkInlineTimestamp({ start: 24, end: 24, speakers: ["主持人"], raw: "x" }, c);
-    expect(r.pass).toBe(false);
-    expect(r.reason).toMatch(/没讲话|说话人/);
+    expect(r.pass).toBe(true); // 软化后不拦(ADR 0013)
+    expect(r.speakerSoft).toMatch(/没讲话|说话人/); // 仍检测到附近没开口
   });
 
   it("★ 区间形式仍是强判定:主说话人被隐去照拦(弱化只限单点)", () => {
     const r = checkInlineTimestamp({ start: 0, end: 19, speakers: ["Akshat Bubna"], raw: "x" }, c);
-    expect(r.pass).toBe(false);
-    expect(r.reason).toMatch(/主说话人/);
+    expect(r.pass).toBe(true); // 软化后不拦(ADR 0013)
+    expect(r.speakerSoft).toMatch(/主说话人/); // 仍检测到主说话人被隐去
   });
 
   it("★ 区间在范围内、落在静音空档、且没标说话人 → 仍要拦(「区间内无词」这条判定的唯一守区)", () => {
@@ -283,8 +285,8 @@ describe("checkInlineTimestamp · D8(硬拦)+ 部分收窄 D19", () => {
   it("★ 放宽后仍要拦:主说话人被隐去(只标次要插话者)→ 拦", () => {
     // 0~19s 里主持人 9 词 > Akshat 8 词 → 主说话人是主持人,却只标 Akshat
     const r = checkInlineTimestamp({ start: 0, end: 19, speakers: ["Akshat Bubna"], raw: "x" }, c);
-    expect(r.pass).toBe(false);
-    expect(r.reason).toMatch(/主说话人/);
+    expect(r.pass).toBe(true); // 软化后不拦(ADR 0013)
+    expect(r.speakerSoft).toMatch(/主说话人/); // 仍检测到主说话人被隐去
   });
 
   it("★ 放宽的正当性:长区间里的次要插话者未被标注 → 不该误报", () => {
@@ -346,12 +348,15 @@ describe("gateFacts · 端到端拦截(每条 = 一次真攻击)", () => {
     expect(r.failures.some((f: any) => f.kind === "D17-数字" && f.raw === "7777")).toBe(true);
   });
 
-  it("★ 攻击C:移花接木——把主持人说的话挂到嘉宾名下(真时间戳)→ 拦", () => {
+  // 标准变更·用户授权 2026-07-19(ADR 0013):移花接木(真时间戳+错说话人=张冠李戴)从硬拦降为软提醒 →
+  //   仍检测到(进 speakerWarn 待核),但不拦发布。用户明文接受"偶发张冠李戴可能上公网"。
+  //   ⚠️ 编造/不存在的时间戳区间(攻击D、洞2b)仍是区间真实性硬拦,不变。
+  it("★ 攻击C:移花接木——把主持人说的话挂到嘉宾名下(真时间戳)→ 检测到(speakerWarn)但软·不拦", () => {
     // 10~19s 实际是 SPEAKER_01=主持人
     const { dir, aliasesPath } = writeEp("d19", "嘉宾提出了这个洞见 [00:10-00:19 Akshat Bubna]。");
     const r = gateFacts(dir, { aliasesPath });
-    expect(r.pass).toBe(false);
-    expect(r.failures.some((f: any) => f.kind === "D8-时间戳")).toBe(true);
+    expect(r.pass).toBe(true); // 软化后不拦
+    expect(r.speakerWarn.length).toBeGreaterThan(0); // 但仍检测到张冠李戴,进待核
   });
 
   it("★ 攻击D:编造时间戳(区间根本不存在)→ 拦", () => {
@@ -394,8 +399,8 @@ describe("gateFacts · 端到端拦截(每条 = 一次真攻击)", () => {
     // 10~19s 实际是主持人。
     const { dir, aliasesPath } = writeEp("ts-order", "嘉宾提出了这个洞见 [Akshat Bubna 00:10-00:19]。");
     const r = gateFacts(dir, { aliasesPath });
-    expect(r.pass).toBe(false);
-    expect(r.failures.some((f: any) => f.kind === "D8-时间戳")).toBe(true);
+    // 洞2a 的核心是"时间戳不能因括号顺序对 D8 隐形"—— 现 D8 说话人软化,验它仍被 D8 看见(进 speakerWarn)
+    expect(r.speakerWarn.length).toBeGreaterThan(0);
   });
 
   it("★ 洞2b 括号里藏的编造不能随时间戳一起进免检区", () => {
@@ -409,8 +414,8 @@ describe("gateFacts · 端到端拦截(每条 = 一次真攻击)", () => {
   it("★ 洞2c 全角括号的时间戳也要被 D8 看见(中文稿里【】极自然)", () => {
     const { dir, aliasesPath } = writeEp("ts-cjk", "嘉宾提出了这个洞见【00:10-00:19 Akshat Bubna】。");
     const r = gateFacts(dir, { aliasesPath });
-    expect(r.pass).toBe(false);
-    expect(r.failures.some((f: any) => f.kind === "D8-时间戳")).toBe(true);
+    // 洞2c 的核心是"全角括号时间戳也要被 D8 看见"—— 现 D8 说话人软化,验它仍被看见(进 speakerWarn)
+    expect(r.speakerWarn.length).toBeGreaterThan(0);
   });
 
   it("★ 洞3 宽区间不能用来蒙混:全集主说话人恰恰是嘉宾", () => {

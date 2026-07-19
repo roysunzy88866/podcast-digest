@@ -1,0 +1,1465 @@
+{
+  "episode_id": "2026-06-22-latent-space-gray-swan",
+  "podcast": "Latent Space",
+  "date": "2026-06-22",
+  "tags": [
+    "AI 安全",
+    "红队测试",
+    "提示词注入",
+    "智能体",
+    "对抗性攻击"
+  ],
+  "entities": [
+    {
+      "id": "zico-kolter",
+      "type": "person",
+      "role": "guest",
+      "name": "Zico Kolter",
+      "file": "Zico Kolter",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "matt-fredrikson",
+      "type": "person",
+      "role": "guest",
+      "name": "Matt Fredrikson",
+      "file": "Matt Fredrikson",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "gray-swan",
+      "type": "company",
+      "role": "company",
+      "name": "Gray Swan",
+      "file": "Gray Swan",
+      "primary": true,
+      "how_described": "本集嘉宾联合创立的 AI 安全初创公司，致力于帮助企业安全部署 AI，提供红队竞技场、自动化测试工具 Shade 以及防御过滤模型 Signal。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            4.732,
+            6.773
+          ],
+          "quote": " Okay, we're here in the studio with Gray Swan.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            291.25,
+            294.933
+          ],
+          "quote": "And we're continuing to actually at Gray Swan, but also in terms of a commercial offering.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            339.464,
+            344.772
+          ],
+          "quote": "Gray Swan is about understanding the security risks that you are bringing when you",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 428,
+          "t": [
+            1089.964,
+            1095.207
+          ],
+          "quote": "But I think that what ties this together with things like what Gray Swan is doing",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 439,
+          "t": [
+            1123.56,
+            1130.687
+          ],
+          "quote": "we at Gray Swan are both pushing that frontier and staying at the forefront of it",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 572,
+          "t": [
+            1479,
+            1480.221
+          ],
+          "quote": "which is tied to gray swan now,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 607,
+          "t": [
+            1587.782,
+            1588.443
+          ],
+          "quote": "Gray Swan does.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 636,
+          "t": [
+            1665.325,
+            1668.768
+          ],
+          "quote": "which is the third sort of product that we have as Gray Swan,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1120,
+          "t": [
+            2892.174,
+            2894.594
+          ],
+          "quote": "do at Gray Swan and and partially Carnegie Mellon.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1270,
+          "t": [
+            3273.548,
+            3275.01
+          ],
+          "quote": "Let's start with gray swan, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1297,
+          "t": [
+            3338.094,
+            3344.239
+          ],
+          "quote": "So what I see happening in the next year from the Gray Swan side is real growth in",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1539,
+          "t": [
+            3922.577,
+            3925.962
+          ],
+          "quote": "The name gray swan is sort of in reference to black swan events,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1541,
+          "t": [
+            3928.245,
+            3930.789
+          ],
+          "quote": "A gray swan is an unlikely event you can kind of see coming.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "snowflake",
+      "type": "company",
+      "role": "company",
+      "name": "Snowflake",
+      "file": "Snowflake",
+      "primary": false,
+      "how_described": "本集提到是 Gray Swan 的投资者之一，嘉宾正在参加其峰会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            27.82,
+            31.264
+          ],
+          "quote": "you're here because you're attending Snowflake Summit and Snowflake is one of your",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "carnegie-mellon",
+      "type": "company",
+      "role": "company",
+      "name": "Carnegie Mellon",
+      "file": "Carnegie Mellon",
+      "primary": false,
+      "how_described": "嘉宾 Matt 和 Zico 任教超过十年的大学，也是他们 AI 安全研究脱胎的学术故乡。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            90.201,
+            91.883
+          ],
+          "quote": "Zeke and I have been at Carnegie Mellon,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            153.396,
+            155.038
+          ],
+          "quote": "been faculty at Carnegie Mellon for a while,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1120,
+          "t": [
+            2892.174,
+            2894.594
+          ],
+          "quote": "do at Gray Swan and and partially Carnegie Mellon.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "前沿大模型实验室之一，嘉宾为其 Mythos 模型进行过间接提示词注入的鲁棒性评估。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 155,
+          "t": [
+            403.972,
+            407.337
+          ],
+          "quote": "The concern that the people we were working with at Anthropic",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "race-one-arena",
+      "type": "concept",
+      "role": "concept",
+      "name": "红队竞技场 (race one arena)",
+      "file": "红队竞技场",
+      "primary": true,
+      "how_described": "Gray Swan 运营的红队测试社区，通过举办带奖金池的挑战赛将红队测试目标游戏化，吸引了约 15,000 名成员寻找模型漏洞。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 180,
+          "t": [
+            472.666,
+            474.407
+          ],
+          "quote": " One is the race one arena.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "shade",
+      "type": "concept",
+      "role": "concept",
+      "name": "Shade",
+      "file": "Shade",
+      "primary": true,
+      "how_described": "一套专门训练的自动化红队测试系统模型，专门寻找打破其他模型的方法，目前在攻破模型方面已经比人类红队成员表现更好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 259,
+          "t": [
+            678.432,
+            682.093
+          ],
+          "quote": "When I say we, I mean our automated red teaming model is a system called Shade.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            726.176,
+            727.237
+          ],
+          "quote": "Try to do better than shade.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 609,
+          "t": [
+            1591.185,
+            1594.087
+          ],
+          "quote": " And that's with the arena, that's with this automated editing system called Shade.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 941,
+          "t": [
+            2443.428,
+            2445.489
+          ],
+          "quote": "shade is kind of the sort of model side.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 943,
+          "t": [
+            2447.05,
+            2450.512
+          ],
+          "quote": "shade is sort of the pressure that will try to elicit things that would violate",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 946,
+          "t": [
+            2450.992,
+            2452.273
+          ],
+          "quote": "So shade is the red teaming agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1117,
+          "t": [
+            2878.388,
+            2884.031
+          ],
+          "quote": "And our goal with signal with shade to assess these vulnerabilities with signal to",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1418,
+          "t": [
+            3647.63,
+            3650.495
+          ],
+          "quote": "Well, use a tool like Shade or use Arena, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1439,
+          "t": [
+            3694.159,
+            3698.745
+          ],
+          "quote": "They can both assess it more rigorously with tools like shade and other tools as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "signal",
+      "type": "concept",
+      "role": "concept",
+      "name": "Signal",
+      "file": "Signal",
+      "primary": true,
+      "how_described": "Gray Swan 推出的定制过滤模型，部署在用户、大模型与工具调用之间，负责解析不可信内容、检查出站请求并执行企业特定的无形安全策略。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 191,
+          "t": [
+            510.01,
+            516.933
+          ],
+          "quote": "but a lot of good data and good signal is provided to the upstream model developers",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 611,
+          "t": [
+            1597.869,
+            1599.209
+          ],
+          "quote": "And so this is a model called Signal,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 637,
+          "t": [
+            1669.528,
+            1673.552
+          ],
+          "quote": "is this specific filter model called Signal,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 639,
+          "t": [
+            1679.136,
+            1680.477
+          ],
+          "quote": "Signal like the Swan.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 647,
+          "t": [
+            1703.812,
+            1709.334
+          ],
+          "quote": "the benefit that we have and the reason why our signal now is actually behind a lot",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 725,
+          "t": [
+            1890.537,
+            1896.742
+          ],
+          "quote": "Signal is the fact that policies differ in different enterprise.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 747,
+          "t": [
+            1942.743,
+            1945.347
+          ],
+          "quote": " Models like Signal are extremely effective.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 754,
+          "t": [
+            1957.605,
+            1961.187
+          ],
+          "quote": " that's part of the point of signal is is, you know, the the generalization problem.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 859,
+          "t": [
+            2210.712,
+            2215.655
+          ],
+          "quote": "AI agent with signal is pushing towards that top right corner.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 896,
+          "t": [
+            2318.178,
+            2323.94
+          ],
+          "quote": " Signal is kind of in the middle, just, sorry, on the sort of untrusted content side, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 897,
+          "t": [
+            2324.4,
+            2326.381
+          ],
+          "quote": "I mean, so yeah, so Signal can sort of- And then there's the other two.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 898,
+          "t": [
+            2326.601,
+            2328.982
+          ],
+          "quote": "Right, so Signal's actually just sort of both to a certain extent, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 899,
+          "t": [
+            2329.002,
+            2332.543
+          ],
+          "quote": "So Signal will certainly parse incoming untrusted content,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 917,
+          "t": [
+            2377.873,
+            2380.975
+          ],
+          "quote": "But Signal is essentially a very,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1117,
+          "t": [
+            2878.388,
+            2884.031
+          ],
+          "quote": "And our goal with signal with shade to assess these vulnerabilities with signal to",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1146,
+          "t": [
+            2952.454,
+            2954.055
+          ],
+          "quote": "So I just put my signal guardrails and that's it?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1151,
+          "t": [
+            2961.903,
+            2963.886
+          ],
+          "quote": " For coding agents in particular, Signal's quite good.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1152,
+          "t": [
+            2963.906,
+            2967.573
+          ],
+          "quote": "So Signal's very good at this point with the abilities that sort of,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1168,
+          "t": [
+            3017.96,
+            3019.62
+          ],
+          "quote": "You can do things like Signal, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1428,
+          "t": [
+            3670.985,
+            3672.006
+          ],
+          "quote": "Including things like Signal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1440,
+          "t": [
+            3699.206,
+            3704.193
+          ],
+          "quote": "And then they can prescribe mitigations when there are problems using tools like signal.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "concept",
+      "role": "concept",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": true,
+      "how_described": "拥有广泛权限的开放式计算机使用智能体系统，具有巨大的攻击面，嘉宾专门为其开发了大量的刹车机制和护栏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1060,
+          "t": [
+            2755.132,
+            2758.295
+          ],
+          "quote": "We have developed a whole lot of breaks for OpenClaw in particular.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1073,
+          "t": [
+            2767.806,
+            2771.35
+          ],
+          "quote": "natural trajectories of humans using OpenClaw in various settings,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1079,
+          "t": [
+            2778.593,
+            2781.277
+          ],
+          "quote": "we do have a guardrails that you can integrate into OpenClaw,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1081,
+          "t": [
+            2783.14,
+            2784.502
+          ],
+          "quote": "OpenClaw is very,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1091,
+          "t": [
+            2794.093,
+            2794.353
+          ],
+          "quote": "OpenClaw,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1104,
+          "t": [
+            2840.335,
+            2843.96
+          ],
+          "quote": "So when you have computer use and when you have OpenClaw, man, you can break those things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1141,
+          "t": [
+            2933.235,
+            2934.918
+          ],
+          "quote": "And even with OpenClaw, so, you",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1155,
+          "t": [
+            2973.223,
+            2974.605
+          ],
+          "quote": "where it becomes essentially like OpenClaw.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1157,
+          "t": [
+            2980.088,
+            2981.068
+          ],
+          "quote": "anything OpenClaw can do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1166,
+          "t": [
+            3011.816,
+            3013.298
+          ],
+          "quote": "If you're going to put OpenClaw in a bank,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "核心安全威胁，指第三方在不可信的外部数据中藏匿指令，从而劫持智能体执行恶意操作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            407.377,
+            412.178
+          ],
+          "quote": " had was how robust is, is this model to indirect prompt injection, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 694,
+          "t": [
+            1816.11,
+            1818.692
+          ],
+          "quote": "Oftentimes it is, you know, a direct prompt injection.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 717,
+          "t": [
+            1868.096,
+            1872.821
+          ],
+          "quote": "And the prompt injection techniques that tend to work exploit exactly that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 799,
+          "t": [
+            2053.767,
+            2057.868
+          ],
+          "quote": "It's a great actually sort of description of the risks of prompt injection, basically.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 800,
+          "t": [
+            2058.488,
+            2063.736
+          ],
+          "quote": "So the way to think about prompt injection is that some third party gets access to",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 813,
+          "t": [
+            2092.895,
+            2095.957
+          ],
+          "quote": "Even though this weird term direct prompt injection came up and has now multiple",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 816,
+          "t": [
+            2098.539,
+            2101.221
+          ],
+          "quote": "prompt injection is something someone else does to your system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 923,
+          "t": [
+            2398.238,
+            2401.643
+          ],
+          "quote": "If you parse some untrusted content and there is a prompt injection,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 927,
+          "t": [
+            2412.153,
+            2416.915
+          ],
+          "quote": "run for the next three hours to just stop because it found a prompt injection.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1528,
+          "t": [
+            3908.898,
+            3912.903
+          ],
+          "quote": "the first major really publicly in the news prompt injection breach,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "indirect-prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "间接提示词注入 (indirect prompt injection)",
+      "file": "间接提示词注入",
+      "primary": true,
+      "how_described": "针对智能体的一种攻击方式，利用智能体抓取和阅读外部内容的场景，在外部数据中植入恶意指令。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            407.377,
+            412.178
+          ],
+          "quote": " had was how robust is, is this model to indirect prompt injection, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "lethal-trifecta",
+      "type": "concept",
+      "role": "concept",
+      "name": "致命三角 (lethal trifecta)",
+      "file": "致命三角",
+      "primary": true,
+      "how_described": "由 Simon Wilson 提出的概念，指构成提示词注入实质威胁的三个要素：摄取不可信外部数据、具备产生实际危害的能力、访问并外传敏感信息。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 789,
+          "t": [
+            2034,
+            2036.901
+          ],
+          "quote": "Have we covered all the elements of the lethal trifecta?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 796,
+          "t": [
+            2045.564,
+            2050.025
+          ],
+          "quote": "So the lethal trifecta kind of refers to the things that make the risk highest or",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1057,
+          "t": [
+            2742.988,
+            2747.089
+          ],
+          "quote": "And like, I think a lot of people are, and I think that is the lethal trifecta nightmare.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "red-teaming",
+      "type": "concept",
+      "role": "concept",
+      "name": "红队测试 (red teaming)",
+      "file": "红队测试",
+      "primary": true,
+      "how_described": "通过刻意构造对抗性输入来探测系统弱点的测试方法，也是了解模型真实最大能力极限和绕过模型自我伪装的关键手段。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 184,
+          "t": [
+            486.796,
+            490.579
+          ],
+          "quote": "So sort of to an extent gamify red teaming objectives,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 193,
+          "t": [
+            518.42,
+            520.683
+          ],
+          "quote": " The second is the automated red teaming that we do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 225,
+          "t": [
+            583.115,
+            587.377
+          ],
+          "quote": "I wonder if there's any such thing as like on policy red teaming where are models",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 245,
+          "t": [
+            644.754,
+            649.538
+          ],
+          "quote": "But on the flip side, they're also not necessarily better at red teaming by default.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            649.638,
+            655.602
+          ],
+          "quote": "You really sort of need to train specialized models for red teaming to make them",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            655.642,
+            656.382
+          ],
+          "quote": "good at red teaming.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            660.225,
+            665.629
+          ],
+          "quote": "Well, you need lots of data from people that are traditionally much better at red teaming.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 259,
+          "t": [
+            678.432,
+            682.093
+          ],
+          "quote": "When I say we, I mean our automated red teaming model is a system called Shade.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            736.846,
+            739.809
+          ],
+          "quote": "I don't think we're quite to like superhuman levels of red teaming yet,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 303,
+          "t": [
+            794.083,
+            796.403
+          ],
+          "quote": "Redlining, red teaming.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 342,
+          "t": [
+            876.241,
+            878.645
+          ],
+          "quote": "adversarial attacks and red teaming.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 426,
+          "t": [
+            1083.199,
+            1084.04
+          ],
+          "quote": "automated red teaming,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 437,
+          "t": [
+            1117.294,
+            1121.598
+          ],
+          "quote": " science of interpretability advances as a science of adversarial red teaming advances.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 575,
+          "t": [
+            1488.473,
+            1489.313
+          ],
+          "quote": " It's called red teaming, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 578,
+          "t": [
+            1497.197,
+            1501.999
+          ],
+          "quote": "getting it to complete that task is arguably actually an adversarial red teaming",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 586,
+          "t": [
+            1516.165,
+            1522.595
+          ],
+          "quote": "You actually have to do a bit of adversarial red teaming to make sure the model is",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 595,
+          "t": [
+            1544.85,
+            1548.35
+          ],
+          "quote": "And that's really what the whole story of red teaming is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 606,
+          "t": [
+            1584.399,
+            1587.742
+          ],
+          "quote": "we've been talking thus far about kind of the red teaming aspects of what of what",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 652,
+          "t": [
+            1720.818,
+            1726.783
+          ],
+          "quote": "the red teaming capabilities to train this model specifically to be robust and to",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 946,
+          "t": [
+            2450.992,
+            2452.273
+          ],
+          "quote": "So shade is the red teaming agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1406,
+          "t": [
+            3619.293,
+            3622.854
+          ],
+          "quote": "Almost like, you know, McCore for, you know, red teaming.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1407,
+          "t": [
+            3622.894,
+            3623.395
+          ],
+          "quote": "For red teaming.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "adversarial-attacks",
+      "type": "concept",
+      "role": "concept",
+      "name": "对抗性攻击 (adversarial attacks)",
+      "file": "对抗性攻击",
+      "primary": true,
+      "how_described": "针对大模型的攻击方式，揭示了 AI 与人类截然不同的脆弱性，大模型必须依赖专门的显式训练才能提升对此类攻击的鲁棒性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 342,
+          "t": [
+            876.241,
+            878.645
+          ],
+          "quote": "adversarial attacks and red teaming.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "能够自主使用工具、操作浏览器并执行任务的 AI 系统，正被赋予越来越大的权限，引入了与传统软件完全不同的新型安全风险。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            67.758,
+            70.919
+          ],
+          "quote": "like you're kind of innocently using an agent and,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 40,
+          "t": [
+            80.001,
+            82.741
+          ],
+          "quote": "incentive to make your agent misbehave,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 157,
+          "t": [
+            412.218,
+            416.119
+          ],
+          "quote": "If you operate a coding agent use Mythos as as the model,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 409,
+          "t": [
+            1033.294,
+            1038.538
+          ],
+          "quote": "I think in general, but this is also prior to the real explosion of agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 448,
+          "t": [
+            1152.799,
+            1154.862
+          ],
+          "quote": "Browser Agent Robustness Challenge.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 453,
+          "t": [
+            1157.566,
+            1159.829
+          ],
+          "quote": "if I have like a browser agent,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 454,
+          "t": [
+            1159.889,
+            1162.754
+          ],
+          "quote": "a computer use agent that's operating a web browser,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 467,
+          "t": [
+            1193.901,
+            1198.304
+          ],
+          "quote": "can choose to either try and phish a human or like prompt inject the browser agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 664,
+          "t": [
+            1761.202,
+            1762.042
+          ],
+          "quote": "jailbreak the agent?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 702,
+          "t": [
+            1836.764,
+            1841.166
+          ],
+          "quote": "like adjust the system prompt or like engineer the agent in a way where you're",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 729,
+          "t": [
+            1908.269,
+            1912.075
+          ],
+          "quote": "That's the mechanism given to specialize your agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 737,
+          "t": [
+            1928.673,
+            1930.414
+          ],
+          "quote": "This agent should never touch these things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 801,
+          "t": [
+            2063.776,
+            2066.18
+          ],
+          "quote": "some information that you put into your agent,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 803,
+          "t": [
+            2068.162,
+            2069.985
+          ],
+          "quote": "and then the agent does something bad with that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 820,
+          "t": [
+            2107.425,
+            2110.967
+          ],
+          "quote": "If you're just parsing data and you can't do anything as an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 852,
+          "t": [
+            2195.984,
+            2197.525
+          ],
+          "quote": "that underlie the real agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 858,
+          "t": [
+            2208.431,
+            2210.692
+          ],
+          "quote": " If you turn everything over to your AI agent, find out the secure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 859,
+          "t": [
+            2210.712,
+            2215.655
+          ],
+          "quote": "AI agent with signal is pushing towards that top right corner.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 930,
+          "t": [
+            2422.198,
+            2428.941
+          ],
+          "quote": "So the focus really is on what is the agent operating on top of the model going to do?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 946,
+          "t": [
+            2450.992,
+            2452.273
+          ],
+          "quote": "So shade is the red teaming agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 985,
+          "t": [
+            2556.034,
+            2559.858
+          ],
+          "quote": "Why not just write it in one of these obscure languages as long as the agent is",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1030,
+          "t": [
+            2683.444,
+            2684.926
+          ],
+          "quote": "So you can have your agent write secure code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1033,
+          "t": [
+            2688.191,
+            2691.214
+          ],
+          "quote": " You can have your agent do your interpretability research.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1034,
+          "t": [
+            2691.254,
+            2693.415
+          ],
+          "quote": "It's really hard to do, but force of the agent can do that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1110,
+          "t": [
+            2857.074,
+            2859.096
+          ],
+          "quote": "I don't want to sandbox my agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1116,
+          "t": [
+            2875.127,
+            2877.528
+          ],
+          "quote": " usability and how much power agent has versus security.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1180,
+          "t": [
+            3044.932,
+            3050.036
+          ],
+          "quote": "So, you know, a close cousin of this conversation I always have is agent native identity, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1195,
+          "t": [
+            3097.866,
+            3101.392
+          ],
+          "quote": "what does that mean for the agent and what it should and shouldn't be able to do",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1197,
+          "t": [
+            3103.715,
+            3108.823
+          ],
+          "quote": "around how the agent's going to be used and haven't made very much progress,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1204,
+          "t": [
+            3116.434,
+            3118.537
+          ],
+          "quote": "operating on the condition that your agent has your permissions.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1224,
+          "t": [
+            3164.667,
+            3169.091
+          ],
+          "quote": "they do start to roll out like these agent identity sort of viewpoints and",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1231,
+          "t": [
+            3183.882,
+            3187.845
+          ],
+          "quote": "And then agent to agent, you can sort of do privilege escalation if you're not careful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1253,
+          "t": [
+            3233.247,
+            3235.628
+          ],
+          "quote": " Here's a set of my accounts and apps I allow in this one agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1316,
+          "t": [
+            3397.373,
+            3401.279
+          ],
+          "quote": " And then start to build an agent and don't take it all the way to we finished this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1359,
+          "t": [
+            3509.548,
+            3513.509
+          ],
+          "quote": "going to be more paranoid about putting like their custom agent that's,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1525,
+          "t": [
+            3902.871,
+            3907.937
+          ],
+          "quote": "You know, what's driving them to go seek out AI, like agent insurance?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": false,
+      "how_described": "隔离环境，嘉宾提到如果把智能体完全放进沙箱中，会限制其能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1110,
+          "t": [
+            2857.074,
+            2859.096
+          ],
+          "quote": "I don't want to sandbox my agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1208,
+          "t": [
+            3124.426,
+            3127.39
+          ],
+          "quote": "I mean, your permissions may be in a sandbox, but still kind of your permissions.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "主流大厂偶尔开源的安全机制，但缺乏高度的可配置性，无法精确执行企业特定的无形规则。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 648,
+          "t": [
+            1709.374,
+            1715.096
+          ],
+          "quote": "of both deployed in a lot of places and behind some existing guardrails that are",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1079,
+          "t": [
+            2778.593,
+            2781.277
+          ],
+          "quote": "we do have a guardrails that you can integrate into OpenClaw,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1146,
+          "t": [
+            2952.454,
+            2954.055
+          ],
+          "quote": "So I just put my signal guardrails and that's it?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "mechanistic interpretability",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}
