@@ -16,6 +16,7 @@ import {
   parseInlineTimestamps,
   checkInlineTimestamp,
   checkProperNoun,
+  checkProse,
   gateFacts,
 } from "../scripts/gate-facts.mjs";
 
@@ -163,6 +164,54 @@ describe("checkProperNoun · D17 专名回原文(硬拦)", () => {
   it("概念的中文名经别名表 en 形式回原文(智能体→agent)", () => {
     // fixture 转写稿没有 agent → 智能体也应判不过(证明它走的是真比对,不是无脑放行)
     expect(checkProperNoun("智能体", ctx()).pass).toBe(false);
+  });
+});
+
+describe("D17 降误报(ADR 0013 · standard-change 2026-07-19):版本号/复数/缩写/单双字母/万亿单位", () => {
+  // 专用 fixture:转写稿含 AlphaFold3 / GANs / Samsung / 160,000,专门钉边界
+  const T = [
+    {
+      text: "we discussed AlphaFold3 and GANs and Samsung with 160,000 stars",
+      start: 0,
+      end: 12,
+      words: mkWords("we discussed AlphaFold3 and GANs and Samsung with 160,000 stars", 0, "S0"),
+    },
+  ];
+  const M = { speaker_map: { S0: "X" }, title_en: "", guests: [] };
+  const c = () => buildFactIndex(T, M, { entities: [] });
+
+  it("版本化实体:导读「AlphaFold」⊆ 转写稿「AlphaFold3」→ 放行(剥尾数字,≥5)", () => {
+    expect(checkProperNoun("AlphaFold", c()).pass).toBe(true);
+  });
+  it("★ 边界:「Sam」⊄「Samsung」→ 仍拦(<5 不进版本化容错,防前缀泄漏)", () => {
+    expect(checkProperNoun("Sam", c()).pass).toBe(false);
+  });
+  it("★ 边界:「Samsun」是「Samsung」字母前缀(尾非数字)→ 仍拦(只剥尾部纯数字才放行)", () => {
+    expect(checkProperNoun("Samsun", c()).pass).toBe(false);
+  });
+  it("★ 边界:凭空编造、转写稿根本没有的名(「Fabricated」)→ 仍拦(降误报不破挡编造)", () => {
+    expect(checkProperNoun("Fabricated", c()).pass).toBe(false);
+  });
+  it("复数-s:导读「GAN」⇄ 转写稿「GANs」→ 放行", () => {
+    expect(checkProperNoun("GAN", c()).pass).toBe(true);
+  });
+  it("通用缩写白名单 + 单双字母:CTO/G 不参与 D17,不因「未在原文」误报", () => {
+    // CTO 在白名单、G 长度<3 → 都不进 nounResults;转写稿里也确实没有它们
+    const r = checkProse("本集嘉宾是 CTO,谈了 G 参数与 API 设计", c(), { entities: [] });
+    expect(r.failures.some((f: any) => f.kind === "D17-专名" && ["CTO", "G", "API"].includes(f.name))).toBe(false);
+  });
+  it("★ 白名单不越界:非白名单的编造专名(「Zorptron」)仍被 D17 拦", () => {
+    const r = checkProse("本集提到了 Zorptron 这家公司", c(), { entities: [] });
+    expect(r.failures.some((f: any) => f.kind === "D17-专名" && f.name === "Zorptron")).toBe(true);
+  });
+  it("中文万亿单位:导读「16万」= 160000(转写稿有 160,000)→ 命中;values 同时保原值 16(宽松)", () => {
+    const n = extractDigestNumbers("GitHub 冲到 16万 颗星").find((x) => x.raw === "16万");
+    expect(n?.values).toContain(160000);
+    expect(n?.values).toContain(16);
+  });
+  it("★ 万单位不误放:导读「99万」缩放值 990000 与原值 99 都不在转写稿 → checkProse 应拦", () => {
+    const r = checkProse("号称服务了 99万 用户", c(), { entities: [] });
+    expect(r.failures.some((f: any) => f.kind === "D17-数字" && f.raw === "99万")).toBe(true);
   });
 });
 
