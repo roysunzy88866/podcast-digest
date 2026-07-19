@@ -12,7 +12,13 @@
   · **C7a ✅ 闭合**:用户 2026-07-19 真设备验收「1,2,3 都 OK」(首页 2 卡 / 集页中文精华+🎧播放 / 播客 App 订阅真播)。DoD 1-5 兑现;**DoD #6 glm 审计因 C7a 代码改动极小(SITE_URL 值+部署操作)待与用户确认豁免**。**遗留**:site/quartz.config baseUrl 改动未入库(site gitignore,可复现归 C7c/D21)。
   · **下一步**:**C7b 决策已定案(见下条),用户要开新 session 实现**;C7c(运维硬化)随后;新方向(第三方转写文本 + YouTube + 演讲,撞共识+需调研)另开需求共创。
 
-- **🚧 C7b 开工决策定案(2026-07-19,交接给新 session 实现)**:
+- **🚧 C7b 进行中(2026-07-19 本 session)**:
+  · **决策收口**:drift #22 = 单个**公开仓**(代码+数据同仓,用户「公开不要紧」)+ cron **一天一次**;通知默认 GitHub 原生邮件(用户没提别的)。Gherkin 已锁(user-stories C7b 段:6 Scenario/DoD 8),二次确认过。
+  · **Scenario 1 ✅**:公开仓 [roysunzy88866/podcast-digest](https://github.com/roysunzy88866/podcast-digest) 建好、main 已推(gh 加 workflow scope;git 走 clash **7877** 端口——非 7890,已记)、`ZHIPU_API_KEY` 进 Secret(用户自设,Claude 没碰明文)。历史扫过无密钥泄露。
+  · **P1 前置核验 ✅ 全绿**(run 29675458166,证据 `docs/c7b-p1-探路证据.md`):**P1a** 美国 runner 调 open.bigmodel.cn 往返 **2.04s**(drift #21「墙外绕 GFW」坐实)/ **P1b1** edge-tts+ffmpeg 在 Linux 合成两集音频过 gate-audio / **P1b2** Quartz 钉 commit clone+build+gate-all 全过。**GitHub Actions 路线真机验通,不再是纸面。**
+  · **下一步 = Scenario 2/3 真编排器**:写 `scripts/run-pipeline.mjs`(RSS 去重→新集跑全链→gate-all 全过才成)+ 单测 → `.github/workflows/pipeline.yml`(cron+手动→装环境→跑→闸门过才 deploy→commit 回仓→通知)。**还需用户加 2 个 Secret**:CF API token(CI 里 wrangler pages deploy)、ASR key(无官方稿集兜底)。启示见证据文档「对真编排器的启示」5 条(音频每集现场再生 / baseUrl 要设 voice.solomind.cc / 插件 --latest 浮动归 C7c)。
+
+- **🚧 C7b 开工决策定案(2026-07-19,原交接记录)**:
   · **全自动发布(ADR 0011,用户知情二次确认、风险自担)**:坏稿可能直达公网,靠机器闸门+定点重写兜底;Claude 兜底=发布后通知+一键回滚。**这是「亲手验收」纪律的明文例外,仅限 C7b。**
   · **执行环境 = GitHub Actions cron(drift #21 / ADR 0012,改 🔒 L206)**:CF Workers 跑不了 ffmpeg/quartz/glm-ask/fs(P1 核验实测);GitHub Actions Linux runner 复用现有 26 脚本**几乎不重写**、cron 定时、**免费**(公开仓库无限 or 私有 2000min/月)、机器在墙外绕开 GFW。
   · **内容托管仍 CF Pages(voice.solomind.cc)**:已诚实交底**国内访问不保证稳**(CF 免费无境内节点+GFW),版权灰色不能备案无更好解,用户知情继续。
