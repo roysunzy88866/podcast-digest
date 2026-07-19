@@ -22,6 +22,7 @@
     "verify:c5": "node scripts/verify-c5.mjs"
   },
   "devDependencies": {
-    "vitest": "^4.1.10"
+    "vitest": "^4.1.10",
+    "wrangler": "^4.112.0"
   }
 }

@@ -10,6 +10,10 @@ import { fileURLToPath } from "node:url";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
+// 站点公开地址(C7a:去 R2,音频随 Pages 静态 /audio/<id>.mp3,drift #18)。
+// 与 site/quartz.config.yaml 的 baseUrl 保持一致;env SITE_URL 可覆盖(换新域名时)。
+export const SITE_URL = String(process.env.SITE_URL || "https://listen.hearagain.space").replace(/\/+$/, "");
+
 export function xmlEscape(s) {
   return String(s ?? "")
     .replace(/&/g, "&amp;")
@@ -110,22 +114,33 @@ export function parseFeedEnclosureUrls(feedXml) {
 }
 
 /**
- * 读 feed.xml,把每个「本地相对路径」enclosure url 映射成 { id, path } 供 gateAudio ④ 核实真实存在。
- * ⚠️ 绝不在此过滤「文件是否存在」——死链正是要交给闸门去逮的;这里如实把 feed 写了什么全交出去。
- *    (三处调用点曾从集 id 重构路径再 filter(existsSync),等于先滤掉死链再检查,④ 永不触发。)
- * http(s) 的 url(C7 上云后的 R2 地址)本地无从核,跳过、留 C7 另核。
+ * 读 feed.xml,把每个 enclosure url 映射成 { id, path } 供 gateAudio ④ 核实真实存在。
+ * ⚠️ 绝不在此过滤「文件是否存在」——死链正是要交给闸门去逮的;如实把 feed 写了什么全交出去。
+ *    (三处调用点曾从集 id 重构路径再 filter(existsSync),先滤掉死链再检查,④ 永不触发=D35。)
+ * 三类 url:
+ *   - 相对路径(旧本地模式):resolve(root, url)。
+ *   - 公开 URL `…/audio/<id>.mp3`(C7a Pages 静态,drift #18):反解回 data/episodes/<id>/audio.mp3
+ *     → 闸门在 pre-commit 就能逮「feed 挂了站点里没有的音频」;真·可达(200)由部署后 curl 验(D34)。
+ *   - 认不出的 http(s) url(非 /audio/<id>.mp3):path=null → 交闸门判「查不了≠通过」
+ *     (**fail-closed,绝不静默跳过**——旧版「http(s) 跳过」在 enclosure 全变公开 URL 后会架空 ④=D35 同款)。
  * @param feedXml feed.xml 全文
- * @param root 仓库根,相对路径据此解析成绝对路径
+ * @param root 仓库根,相对路径 / 公开 URL 反解均据此解析
  */
 export function feedEnclosuresFromXml(feedXml, { root }) {
   return parseFeedEnclosureUrls(feedXml)
-    .filter((u) => u && !/^https?:\/\//i.test(u))
-    .map((u) => ({ id: u, path: resolve(root, u) }));
+    .filter(Boolean)
+    .map((u) => {
+      if (/^https?:\/\//i.test(u)) {
+        const m = u.match(/\/audio\/([^/?#]+)\.mp3(?:[?#]|$)/i);
+        return { id: u, path: m ? resolve(root, "data/episodes", m[1], "audio.mp3") : null };
+      }
+      return { id: u, path: resolve(root, u) };
+    });
 }
 
 // ── CLI:从 data/episodes 收集有音频的集,输出 feed.xml 到 stdout(或 --out 路径)──
-// 本地路径模式(C4 不上云):enclosure url 用本集 audio.mp3 的相对路径,gate-audio ④ 会核它真实存在。
-// 真上云(C7)时把 url 换成 R2 公开地址即可。
+// C7a(drift #18):enclosure url = SITE_URL/audio/<id>.mp3(Pages 静态公开地址,播客 App 可订)。
+// gate-audio ④ 把该 url 反解回 data/episodes/<id>/audio.mp3 核本地音频真实存在;真·可达(200)部署后 curl 验。
 const isMain = (() => {
   try {
     return process.argv[1] && realpathSync(process.argv[1]) === fileURLToPath(import.meta.url);
@@ -157,13 +172,13 @@ if (isMain) {
       title: meta.title_zh ?? id,
       description: digest.tldr ?? "",
       pubDate: meta.date ?? audioMeta.generated_at ?? new Date().toISOString(),
-      audioUrl: `data/episodes/${id}/audio.mp3`, // 本地路径;上云换 R2 URL
+      audioUrl: `${SITE_URL}/audio/${id}.mp3`, // C7a Pages 静态公开 URL(drift #18);gate ④ 反解回本地核存在
       audioLength: existsSync(audio) ? statSync(audio).size : 0,
       durationSec: audioMeta.duration_sec ?? 0,
       link: meta.source_url,
     });
   }
-  const xml = buildFeedXml(episodes, { title: "英文播客中文精华", description: "英文科技播客的中文精华配音(纯中文短音频)" });
+  const xml = buildFeedXml(episodes, { title: "英文播客中文精华", link: SITE_URL, description: "英文科技播客的中文精华配音(纯中文短音频)" });
   const outIdx = process.argv.indexOf("--out");
   if (outIdx >= 0 && process.argv[outIdx + 1]) {
     const { writeFileSync } = await import("node:fs");

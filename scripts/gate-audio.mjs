@@ -117,6 +117,10 @@ export async function gateAudio(
   for (const enc of feedEnclosures ?? []) {
     const p = typeof enc === "string" ? enc : enc.path;
     const label = (typeof enc === "string" ? null : enc.id) ?? p;
+    if (p == null) {
+      add("死enclosure", label, `enclosure url 认不出音频路径,无从核实(查不了≠通过)`);
+      continue;
+    }
     if (!io.exists(p)) {
       add("死enclosure", label, `feed enclosure 指向不存在的文件:${p}`);
       continue;

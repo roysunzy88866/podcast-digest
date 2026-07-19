@@ -9,6 +9,7 @@ import { execFileSync } from "node:child_process";
 import { join } from "node:path";
 import { tmpdir } from "node:os";
 import { gateAudio } from "../scripts/gate-audio.mjs";
+import { buildFeedXml, feedEnclosuresFromXml } from "../scripts/build-feed.mjs";
 import { sourceHash } from "../scripts/tts.mjs";
 
 const DIGEST = { tldr: "一句话概要。", digest_md: "## 主线\n\n正文内容。" };
@@ -184,6 +185,40 @@ describe("gateAudio · ④ feed enclosure 指向真实文件", () => {
       const r = await gateAudio(["ep"], { base, feedEnclosures: [{ id: "ep", path: emptyEnc }], deps: probe12 });
       expect(r.ok).toBe(false);
       expect(r.failures.some((f: any) => f.kind === "空enclosure")).toBe(true);
+    }),
+  );
+});
+
+describe("gateAudio · ④ 公开 URL feed 反解回本地音频(C7a,drift #18,fail-closed 守卫)", () => {
+  it(
+    "★★ 公开 URL 指向站点没有的音频(GHOST)→ feedEnclosuresFromXml 映射后被 ④ 逮(死enclosure)",
+    withBase(async (base) => {
+      const xml = buildFeedXml(
+        [
+          {
+            id: "ghost",
+            title: "G",
+            description: "",
+            pubDate: "2026-07-08",
+            audioUrl: "https://listen.hearagain.space/audio/ghost.mp3",
+            audioLength: 100,
+            durationSec: 10,
+          },
+        ],
+        {},
+      );
+      const encs = feedEnclosuresFromXml(xml, { root: base }); // → base/data/episodes/ghost/audio.mp3(不存在)
+      const r = await gateAudio([], { base, feedEnclosures: encs, deps: probe12 });
+      expect(r.ok).toBe(false);
+      expect(r.failures.some((f: any) => f.kind === "死enclosure")).toBe(true);
+    }),
+  );
+  it(
+    "★ path=null(认不出的 url)→ ④ 判死enclosure(查不了≠通过)",
+    withBase(async (base) => {
+      const r = await gateAudio([], { base, feedEnclosures: [{ id: "https://x/y.txt", path: null }], deps: probe12 });
+      expect(r.ok).toBe(false);
+      expect(r.failures.some((f: any) => f.kind === "死enclosure")).toBe(true);
     }),
   );
 });

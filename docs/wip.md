@@ -7,7 +7,8 @@
   · **客观前置核查**:无 git 远端/无 wrangler(D2)/无 CI/无 Workers 源码 → C7 从零搭全套云。
   · **🟢 C7a 去 Access · 站点完全公开(drift #17 / ADR 0010)**:用户指出「Access 登录门=过度设计」——**「小圈子私有」是受众定位、不是访问加密**;明文选**完全公开**(可被搜索引擎收录)。**假矛盾消失**(公开后 feed+音频天然可达、播客 App 直接订、**D33 直接闭合**);**版权敞口扩大到公开二次分发,用户明文接受自担**。我复盘认账:曾把受众定位错升级成 Access 加密门、还上纲上线。
   · **已落盘**:drift #15/#17、需求共识 L31⑥/L194 留痕改、ADR 0010、上线前checklist 第1项作废、story-map、user-stories C7a 简化重写(4 Scenario/DoD 6 条,去 Access)。
-  · **下一步(进红绿循环)**:①**P1** 装 wrangler + 用户 `wrangler login`(Claude 不碰凭证)②**P2** R2 传 1 音频真 curl 200 ③ R2 建桶传两集音频 + feed enclosure 换公开 URL(闭合 D33)+ Pages 公开部署绑域名 ④ 用户真手机+播客 App 验收。
+  · **P1 ✅(2026-07-19)**:wrangler 4.112.0 装(项目 devDep,D2 还)+ 用户 login(roysunzy@gmail.com,OAuth)。**R2 未启用(code 10042)→ drift #18:音频改随 Pages 静态、不用 R2**(用户拍板,免开通免绑卡;R2 存档层留 C7c)。
+  · **下一步**:①两集音频进 Pages 静态目录(如 public/audio/)+ build-feed enclosure 换站点 URL `https://listen.hearagain.space/audio/<id>.mp3`(闭合 D33)②Quartz build 灌全 samples(含音频)③`wrangler pages deploy` 绑 listen.hearagain.space ④用户真手机+播客 App 验收。
 
 - **(C5 及更早)上次到**:**C4 + C6 已用户明文验收并提交(`346d0a2` / `5d178ca`);本 session 过独立交付物审计 → 修 F1 + 校正账,准备开 C5**(2026-07-18)。
   · **独立交付物审计(两路子 agent:C4 音频 / C6 关联,各造攻击打闸门)**:两片核心真实、扛对抗、**无阻断**;共性毛病=**机器诚实但文字/账面略夸**(本项目最常犯元错误,这次又冒头)。处置:

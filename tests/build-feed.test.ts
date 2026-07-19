@@ -121,17 +121,26 @@ describe("parseFeedEnclosureUrls / feedEnclosuresFromXml · 读回 enclosure 供
     expect(parseFeedEnclosureUrls(item)).toEqual(["data/x&y/audio.mp3"]); // 读回是原始态
   });
 
-  it("★ 映射成 { id, path } 绝对路径;http(s) 的 R2 url 跳过(C7 另核)", () => {
+  it("★ 映射 { id, path };公开 /audio/<id>.mp3 反解回本地音频(C7a Pages 静态,drift #18)", () => {
     const mixed = buildFeedXml(
       [
         { ...EP_A, audioUrl: "data/episodes/a/audio.mp3" },
-        { ...EP_A, id: "r2", title: "R2", audioUrl: "https://r2.example/b.mp3" },
+        { ...EP_A, id: "modal", title: "M", audioUrl: "https://listen.hearagain.space/audio/2026-07-08-modal.mp3" },
       ],
       {},
     );
     expect(feedEnclosuresFromXml(mixed, { root: "/repo" })).toEqual([
       { id: "data/episodes/a/audio.mp3", path: "/repo/data/episodes/a/audio.mp3" },
+      {
+        id: "https://listen.hearagain.space/audio/2026-07-08-modal.mp3",
+        path: "/repo/data/episodes/2026-07-08-modal/audio.mp3",
+      },
     ]);
+  });
+
+  it("★★ 认不出的 http url(非 /audio/<id>.mp3)→ path=null,交闸门判「查不了≠通过」(不静默跳过=不重蹈 D35 fail-open)", () => {
+    const weird = buildFeedXml([{ ...EP_A, audioUrl: "https://evil.example/nope.txt" }], {});
+    expect(feedEnclosuresFromXml(weird, { root: "/repo" })).toEqual([{ id: "https://evil.example/nope.txt", path: null }]);
   });
 
   it("★★ 死链回归守卫:feed 写了但文件不存在,绝不在此被过滤掉(否则闸门 ④ 永不触发=F1 病根)", () => {
