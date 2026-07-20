@@ -14,7 +14,18 @@ import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
-export const FEED_URL = "https://www.latent.space/feed";
+
+// C8 · 源清单(品味校准后只抓 🟢 高对味源,真相源 需求共创/内容品味档案.md v1)。
+// 每个源:{ key(id 前缀 + 状态), feedUrl }。都是 Substack 播客(现有 fetch-source.mjs 直接吃:
+// 官方 transcription.json 逐词时间戳 + 段级说话人,不烧 ASR)。
+// 已退役(停抓,内容品味档案.md):Latent Space(🟡 混杂:AINews 水贴 + 模型发布 → 砍)。
+// 待接(下一步,非本切片):a16z / How I AI(非 Substack、无官方稿 → 需 ASR 决策);Y Combinator(YouTube 抓取坎)。
+export const SOURCES = [
+  // 用自定义域名 feed(非 api.substack.com):后者本机直连超时/需代理,前者 node fetch 直连可达,
+  // cloud runner 也无本地代理。内容同为 Lenny's Substack RSS(含播客 enclosure;无音频的新闻贴由 isInterview 排掉)。
+  { key: "lennys", feedUrl: "https://www.lennysnewsletter.com/feed" },
+];
+
 export const STATE_FILE = join(ROOT, "data/pipeline-state.json");
 const EPISODES_DIR = join(ROOT, "data/episodes");
 const SKIPPED_DIR = join(ROOT, "data/skipped"); // 隔离区:自动跑出失真、闸门拦下的集(不删、留人工看,不发布不重跑,drift #24)
@@ -53,12 +64,16 @@ export function isInterview(item) {
   return true;
 }
 
-/** 派集 id = <YYYY-MM-DD>-latent-space-<slug>(slug 取 URL /p/ 段,截断防超长)。无人值守用内部标识,不必人工雅致。 */
-export function deriveId(item) {
+/**
+ * 派集 id = <YYYY-MM-DD>-<source.key>-<slug>(slug 取 URL /p/ 段,截断防超长)。无人值守用内部标识,不必人工雅致。
+ * C8:前缀取 source.key(去 latent-space 硬编码)。缺 source 直接抛,不静默派 undefined 前缀。
+ */
+export function deriveId(item, source) {
+  if (!source?.key) throw new Error("deriveId 需要 source.key(C8 多源:id 前缀按源)");
   const date = item.pubDateISO ? item.pubDateISO.slice(0, 10) : "unknown-date";
   let slug = (item.link.match(/\/p\/([^/?#]+)/) || [])[1] || "episode";
   slug = slug.toLowerCase().replace(/[^a-z0-9-]/g, "").slice(0, 40).replace(/-+$/, "");
-  return `${date}-latent-space-${slug}`;
+  return `${date}-${source.key}-${slug}`;
 }
 
 /**
@@ -66,21 +81,45 @@ export function deriveId(item) {
  * @param items parseFeed 结果
  * @param sinceISO cutoff(只处理晚于它的);空串=无基线(为安全返回空,逼先 --seed)
  * @param existingIds 已存在的 data/episodes/<id> 集合
+ * @param source 当前源(派 id 用其 key)
  */
-export function selectNew(items, { sinceISO, existingIds }) {
+export function selectNew(items, { sinceISO, existingIds, source }) {
   if (!sinceISO) return []; // 无基线不敢跑全 backlog(drift #22),先 --seed
   const seen = new Set(existingIds);
   return items
     .filter(isInterview)
     .filter((it) => it.pubDateISO > sinceISO)
-    .filter((it) => !seen.has(deriveId(it)))
+    .filter((it) => !seen.has(deriveId(it, source)))
     .sort((a, b) => a.pubDateISO.localeCompare(b.pubDateISO));
+}
+
+/**
+ * C8 一次性回填:取最近 N 集访谈(排 ainews/无音频、去已处理),按旧→新排序供逐集处理。
+ * **有意 override「只向前看」(drift #22)**——仅用于评估批(--backfill),日常 cron 仍走 selectNew。
+ */
+export function selectBackfill(items, { n, existingIds, source }) {
+  const seen = new Set(existingIds);
+  return items
+    .filter(isInterview)
+    .filter((it) => !seen.has(deriveId(it, source)))
+    .sort((a, b) => b.pubDateISO.localeCompare(a.pubDateISO)) // 最新在前 → 取 top N
+    .slice(0, n)
+    .sort((a, b) => a.pubDateISO.localeCompare(b.pubDateISO)); // 处理按旧→新(与 selectNew 一致)
+}
+
+/**
+ * C8 防呆(GLM 20260720-001[1]):单标量 cutoff 不绑源,换源后旧 cutoff(旧源时间线)对新源无意义,
+ * 直接跑会把新源该时间后的**存量旧集**当新集批量处理(烧钱 + 可能发一堆旧集)。
+ * 有 cutoff 但不是当前源的 → 逼先 --seed 重设基线。机器拦,不靠人记得(D44④ 从操作规程升级为闸门)。
+ */
+export function needsReseed(state, sourceKey) {
+  return !!state.sincePubDate && state.cutoffSource !== sourceKey;
 }
 
 // ── 副作用层 ────────────────────────────────────────────
 
 function readState() {
-  const dflt = { sincePubDate: "", skipped: [] };
+  const dflt = { sincePubDate: "", skipped: [], cutoffSource: "" };
   if (!existsSync(STATE_FILE)) return dflt;
   try {
     return { ...dflt, ...JSON.parse(readFileSync(STATE_FILE, "utf8")) };
@@ -102,9 +141,9 @@ function completedIds() {
     .map((d) => d.name);
 }
 
-async function fetchFeed() {
-  const res = await fetch(FEED_URL, { redirect: "follow" });
-  if (!res.ok) throw new Error(`取 RSS 失败 HTTP ${res.status}: ${FEED_URL}`);
+async function fetchFeed(feedUrl) {
+  const res = await fetch(feedUrl, { redirect: "follow" });
+  if (!res.ok) throw new Error(`取 RSS 失败 HTTP ${res.status}: ${feedUrl}`);
   return await res.text();
 }
 
@@ -178,8 +217,26 @@ function rebuildAll() {
 }
 
 async function main() {
-  const flags = new Set(process.argv.slice(2));
-  const feed = await fetchFeed();
+  const argv = process.argv.slice(2);
+  const flags = new Set(argv);
+  // --backfill N:一次性回填最近 N 集(评估批,override 只向前看)
+  const bfIdx = argv.indexOf("--backfill");
+  const backfillN = bfIdx >= 0 ? Number(argv[bfIdx + 1]) : 0;
+  if (bfIdx >= 0 && (!Number.isInteger(backfillN) || backfillN <= 0)) {
+    console.error("⛔ --backfill 需正整数,如 `--backfill 5`。");
+    process.exit(2);
+  }
+
+  // C8:多源骨架。本切片先只接 1 个 active 源(Lenny's),单 cutoff 够用;
+  // 按源独立 cutoff 留到第 2 个源落地时重构 state(tech-debt),此处硬守只 1 源,防静默串号。
+  if (SOURCES.length !== 1) {
+    console.error(`⛔ 当前只支持单 active 源(现 ${SOURCES.length} 个)。多源需先把 state.sincePubDate 改成按源 cutoff(见 tech-debt)。`);
+    process.exit(2);
+  }
+  const source = SOURCES[0];
+  console.log(`源:${source.key}(${source.feedUrl})`);
+
+  const feed = await fetchFeed(source.feedUrl);
   const items = parseFeed(feed);
   const interviews = items.filter(isInterview);
   console.log(`RSS ${items.length} 条,访谈 ${interviews.length} 条(排掉 ainews/无音频)`);
@@ -189,21 +246,35 @@ async function main() {
   if (flags.has("--seed")) {
     // 设站基线:cutoff = 当前 feed 最新访谈集时间 → 之后只处理更新的(历史 backlog 不碰,drift #22)
     const newest = interviews.map((i) => i.pubDateISO).sort().at(-1) || new Date().toISOString();
-    writeState({ ...state, sincePubDate: newest });
-    console.log(`✅ 已设基线 cutoff = ${newest}(晚于它的访谈集才会被处理);未处理任何集。`);
+    writeState({ ...state, sincePubDate: newest, cutoffSource: source.key });
+    console.log(`✅ 已设 ${source.key} 基线 cutoff = ${newest}(晚于它的访谈集才会被处理);未处理任何集。`);
     return;
   }
 
-  const sincePubDate = state.sincePubDate;
   // 已见 = 已完成(有 digest)+ 已隔离(账本,持久化去重,别再自动重跑失真集)
   const seen = [...completedIds(), ...state.skipped.map((s) => s.id)];
-  const picks = selectNew(items, { sinceISO: sincePubDate, existingIds: seen });
-  if (!sincePubDate) {
-    console.error("⛔ 无基线(data/pipeline-state.json 缺 sincePubDate)。先跑 `--seed` 设站基线,拒绝无边界跑全 backlog。");
-    process.exit(2);
+
+  let picks;
+  if (backfillN > 0) {
+    // 回填评估批:取最近 N 集(override 只向前看)。跑完在收尾处推进 cutoff 到 feed 最新 → 之后 cron 仍只向前看。
+    picks = selectBackfill(items, { n: backfillN, existingIds: seen, source });
+    console.log(`🔁 回填模式:取最近 ${backfillN} 集,实得 ${picks.length}:`);
+  } else {
+    // 防呆(GLM 20260720-001[1]):cutoff 属于别的源(换源了)→ 拒绝跑,逼先 --seed,防批量拉新源存量旧集
+    if (needsReseed(state, source.key)) {
+      console.error(`⛔ 现有 cutoff 属于源「${state.cutoffSource || "(未知/旧版)"}」,当前源是「${source.key}」。`);
+      console.error(`   换源后旧 cutoff 无意义,直接跑会把 ${source.key} 的存量旧集当新集批量处理(烧钱/发旧集)。`);
+      console.error(`   先跑 \`node scripts/run-pipeline.mjs --seed\` 为 ${source.key} 重设基线。`);
+      process.exit(2);
+    }
+    if (!state.sincePubDate) {
+      console.error("⛔ 无基线(data/pipeline-state.json 缺 sincePubDate)。先跑 `--seed` 设站基线,拒绝无边界跑全 backlog。");
+      process.exit(2);
+    }
+    picks = selectNew(items, { sinceISO: state.sincePubDate, existingIds: seen, source });
+    console.log(`cutoff=${state.sincePubDate};待处理新集 ${picks.length}:`);
   }
-  console.log(`cutoff=${sincePubDate};待处理新集 ${picks.length}:`);
-  picks.forEach((p) => console.log(`   - ${deriveId(p)}  (${p.pubDateISO})  ${p.title}`));
+  picks.forEach((p) => console.log(`   - ${deriveId(p, source)}  (${p.pubDateISO})  ${p.title}`));
 
   if (!picks.length) {
     console.log("✅ 无新集,干净退出(不空跑不报错)。");
@@ -218,7 +289,7 @@ async function main() {
   const clean = [];
   const skipped = [];
   for (const item of picks) {
-    const id = deriveId(item);
+    const id = deriveId(item, source);
     let res;
     try {
       res = processEpisode(item, id);
@@ -262,9 +333,13 @@ async function main() {
   // cutoff:无「转瞬失败待重试」的集时,推进到本批最新(干净集+隔离集都是终态,靠 seen 去重不重跑);
   // 有转瞬失败则不推进,好让它下次被重新选中重试(半成品不在 seen)。
   if (!skipped.some((s) => s.retry)) {
-    state.sincePubDate = picks.map((p) => p.pubDateISO).sort().at(-1);
+    // 回填后 cutoff 推到 feed 最新访谈(不只本批最新)→ 之后 cron 只向前看不重扣;selectNew 的 seen 去重再兜一层
+    const newestFeed = interviews.map((i) => i.pubDateISO).sort().at(-1);
+    const newestPick = picks.map((p) => p.pubDateISO).sort().at(-1);
+    state.sincePubDate = backfillN > 0 ? (newestFeed > newestPick ? newestFeed : newestPick) : newestPick;
     console.log(`cutoff 推进到 ${state.sincePubDate}。`);
   }
+  state.cutoffSource = source.key; // 始终标定 cutoff 归属源(回填/正常都设,满足 needsReseed 防呆)
   writeState(state); // 始终落盘:持久化 skipped 账本(即便 cutoff 没推进)
 }
 

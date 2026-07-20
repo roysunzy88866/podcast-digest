@@ -10,6 +10,11 @@ on:
   schedule:
     - cron: "0 2 * * *"   # 每天 UTC 02:00(北京 10:00)一次(drift #22)
   workflow_dispatch:        # 手动触发(验骨架 / 需要时手动补跑)
+    inputs:
+      backfill:
+        description: "一次性回填最近 N 集(评估批,override 只向前看;留空/0=正常只向前看)"
+        required: false
+        default: "0"
 
 permissions:
   contents: write           # 处理完把新集 data/ + pipeline-state.json commit 回仓(去重状态持久化)
@@ -46,7 +51,18 @@ jobs:
           ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
           ASSEMBLYAI_API_KEY: ${{ secrets.ASSEMBLYAI_API_KEY }}
         run: |
-          node scripts/run-pipeline.mjs
+          # 手动触发可传 backfill=N 回填最近 N 集(评估批);cron/默认走正常「只向前看」
+          BACKFILL="${{ github.event.inputs.backfill || '0' }}"
+          # 非法输入(非数字)响亮报错,不静默降级为只向前看(GLM 20260720-004[1])
+          if ! echo "$BACKFILL" | grep -qE '^[0-9]+$'; then
+            echo "::error::backfill 输入非法(需非负整数):'$BACKFILL'"; exit 1
+          fi
+          if [ "$BACKFILL" -gt 0 ]; then
+            echo "🔁 回填模式:最近 $BACKFILL 集"
+            node scripts/run-pipeline.mjs --backfill "$BACKFILL"
+          else
+            node scripts/run-pipeline.mjs
+          fi
           # 判定是否有**干净可发**的新内容:只看 data/episodes(新完成集)+ samples(新集页)——
           # 全被隔离时 data/episodes 无新增(失真集已移去 gitignore 的 data/skipped),samples 也无新增 → 不部署。
           # (不看 pipeline-state.json:它在"全 skip 只更新账本"时也会变,会误判有新)

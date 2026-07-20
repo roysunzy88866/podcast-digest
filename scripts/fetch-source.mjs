@@ -69,9 +69,14 @@ if (withWords !== transcript.length)
 // mp3 直链(C2 不下载 21MB 音频,只记直链;音频是 C4 的活)
 const mp3 = (txt.match(new RegExp(`https://api\\.substack\\.com/api/v1/audio/upload/[0-9a-f-]+/src`)) || [])[0] || null;
 
-// 说话人诊断标签统计(SPEAKER_xx → 真名的映射需要人来定,机器猜不出谁是谁)
+// 说话人诊断标签统计(SPEAKER_xx → 真名的映射需要人来定,机器猜不出谁是谁)。
+// 词级 speaker 缺失时回退段级(与 gate.mjs `w.speaker ?? seg.speaker` 一致)——
+// 有的 Substack 源(如 Lenny's)aligned json 只在段级带 SPEAKER_x,词级为空,不回退会误报「无说话人」。
 const spk = new Map();
-for (const s of transcript) for (const w of s.words || []) spk.set(w.speaker, (spk.get(w.speaker) || 0) + 1);
+for (const s of transcript) for (const w of s.words || []) {
+  const label = w.speaker ?? s.speaker ?? "unknown";
+  spk.set(label, (spk.get(label) || 0) + 1);
+}
 const speakers = [...spk.entries()].sort((a, b) => b[1] - a[1]);
 
 const outDir = join(ROOT, "data/episodes", epId);

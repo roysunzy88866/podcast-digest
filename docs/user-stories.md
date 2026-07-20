@@ -740,3 +740,61 @@ Then  新集自动出现在 voice.solomind.cc(用户真设备打开能读能听)
 6. ⬜ **里程碑 E2E**:真跑一次自动发布,新集真上线、用户真设备验收 + 回滚演示(Scenario 4)。
 7. ⬜ 技术负债对账 + **红线重提**:GLM/ASR key 全程走 Secrets 没进公开仓/Claude 没碰明文;版权公开自担(drift #17);全自动例外风险已交底(drift #20)。C7c 明确剩:分支保护+CI/富告警/额度告警/R2备份/回滚演练脚本化/钉版本 D21/前端库自托管 D36。
 8. ⬜ 里程碑独立对抗审计(glm-check --kind code,落账本+打裁决)——C7b 有真新代码(编排器+workflow),按里程碑规矩跑,不豁免。
+
+---
+
+## C8 · 内容源切换与品味漏斗(第一步:多源骨架 + 接入 Lenny's)
+
+> 主要故事:**US-4 / US-11(流水线)**。内容策略真相源:`需求共创/内容品味档案.md`(v1,2026-07-19 用户对 119 条标题校准 + 拍板 4 绿源)。
+> 背景:现有流水线深度绑死 Latent Space / Substack(源写死单 URL、id 写死 `-latent-space-`、取稿脚本 Substack 专用)。品味校准后源清单换成 4 个 🟢 源,本片先接第一个 **Lenny's**(Substack,有官方转写,不烧 ASR)。
+> 已核实(2026-07-19,真抓 RSS+集页):Lenny's RSS 无 `podcast:transcript` 标签,但集页有官方 Transcript(含 .vtt 时间戳)→ 需**新取稿适配器**,现有 Latent 取稿脚本不能直接复用;a16z/How I AI 无官方稿(留后续 ASR 决策)。
+
+### 本片做什么 / 不做什么(防范围蔓延)
+- ✅ **做**:①流水线从「单一写死源」改成**源清单**(数组配置:feed URL / id 前缀 / 取稿适配器 / 噪音过滤),Lenny's 为唯一 active 源;②`deriveId`/`isInterview` 去 Latent 专用硬编码,改成**按源**(Lenny's 前缀 `lennys`,Substack `/p/slug` 可复用);③**Lenny's 官方转写取稿适配器**(从集页取逐字转写 + 时间戳,喂进现有防失真链);④停抓 Latent Space(不再轮询),**现有 6 集不动**(不重处理、不误删)。
+- ❌ **不做(留后续)**:a16z / How I AI / ASR(下一个决策,单独查每集成本再定);YouTube / Y Combinator(抓取被封的坎);**自动品味判官 + 待裁清单 + 裁决回写**(源已被筛成高对味,进来的基本都对味,判官等真发现漏网不对味的再加,ADR 待补);多源**按源独立 cutoff**(现只 1 个 active 源,单 cutoff 够用,第 2 个源落地时再重构 state,记 tech-debt);删除/下架历史 Latent 集(用户没要求,另议)。
+
+### 前置核验(未过则停,不闷头往下)
+- **P1 Lenny's 转写真能取到**:对 1 集真 Lenny's 集页,脚本真取到**官方逐字转写文本**(最好带时间戳/说话人;软化后闸门硬门只剩逐字命中,drift #25/#26)。**取不到就停**(可能 Lenny 未开转写 / 需登录 / 反爬)→ 报用户,不退化 ASR、不编造。核验证据落 `docs/` 或 drift-log。
+
+### Scenario 1 · 多源骨架:源清单驱动,去 Latent 硬编码
+```
+Given 流水线源配置从写死单 URL 改为源清单(数组),Lenny's 为唯一 active 源
+When  [系统] run-pipeline 按源清单取 feed、派 id、筛访谈
+Then  deriveId 用该源前缀(Lenny's→`<date>-lennys-<slug>`),不再出现 `latent-space`
+And   现有 data/episodes 里的 Latent 集(6 集)不被重新处理、不被删除(id 前缀不同,seen 去重照旧)
+  Scenario 1a [边界] 源清单为空/无 active:Then 干净退出并报「无 active 源」,不报错崩
+```
+
+### Scenario 2 · Lenny's 官方转写取稿适配器
+```
+Given 一个 Lenny's 集页 URL(来自 RSS <link>)
+When  [系统] Lenny's 取稿适配器抓集页 → 解析出官方转写(逐字文本 + 可得的时间戳/说话人)→ 写 data/episodes/<id>/transcript
+Then  transcript 是该集**官方原文**(非编造、非 ASR),后续翻译/浓缩/闸门照常吃
+  Scenario 2a [异常] 取不到官方转写:Then 停 + 报 + exit 非 0,绝不退化为手编/ASR 冒充(与 fetch-source Scenario 1a 一致)
+```
+
+### Scenario 3 · 端到端:一集真 Lenny's 走完整链
+```
+Given P1 过 + 源清单接入 Lenny's
+When  [系统] `--seed` 设 Lenny's 基线 → 跑编排器 → 一集 cutoff 后的新 Lenny's 访谈集走完整链(取稿→推说话人→翻译→浓缩→判官→repair→抽实体→逐集验证→出稿→配音)
+Then  该集过 gate + gate-facts + gate-all,产出集页 + 中文精华音频,可发布
+  Scenario 3a [异常] 转写取不到或失真被闸门拦:Then skip + 通知,隔离 data/skipped,不发(复用现有 drift #24 隔离机制)
+```
+
+### 测试锚点(C8)
+- 单测:`deriveId` Lenny's 前缀正确、不含 latent-space;`selectNew`/`isInterview` 按源清单跑(Lenny's fixture);`parseFeed` 吃 Lenny's RSS fixture;Lenny's 取稿适配器解析集页 fixture → 提取转写(不真联网,存一份真集页片段当 fixture)。
+- **主证据=真跑一集 Lenny's**:真取稿→真发布→用户真设备核(里程碑 E2E 规矩照旧,不认 mock 绿)。
+- ⚠️ 诚实边界:①本片只接 1/4 源,产量待观察;②Lenny's 若转写质量不稳,失真风险回到闸门兜;③自动判官未做,靠「源已高对味」的前提。
+
+### C8(第一步)完成 = 怎么算完成(DoD)
+1. ✅ P1 过:Lenny's 转写真能取到(2026-07-20 真抓:官方 transcription.json 逐词时间戳 794 段/72min + 段级 SPEAKER_0/1;证据见下「P1 核验记录」)。
+2. ✅ 源清单骨架(`SOURCES`)+ 去 Latent 硬编码(`deriveId(item, source)` 前缀取 source.key),单测覆盖 deriveId/selectNew/SOURCES 按源(Scenario 1)。332 测试全绿。
+3. ✅ **取稿无需新适配器(好消息偏差)**:Lenny's 是 Substack,现有 `fetch-source.mjs` 直接吃(postId fallback 命中 + transcription.json + 逐词时间戳);闸门 `w.speaker ?? seg.speaker` 早已兼容段级说话人。仅修 fetch-source 说话人诊断回退段级(诚实日志)。取不到即停(Scenario 2a)沿用原 die 逻辑。
+4. ✅ 停抓 Latent Space(SOURCES 去掉、注释退役);现有 6 集 id 前缀 `latent-space` 与 Lenny's `lennys` 不撞,seen 去重照旧,不重处理不删(Scenario 1)。
+5. ⬜ **里程碑 E2E**:真跑一集 Lenny's 自动到发布、用户真设备验收(Scenario 3)。**卡口:烧 GLM 翻译钱 + 部署=公开发布需用户点头。**
+6. ⬜ 技术负债对账(按源独立 cutoff 缓办、a16z/HowIAI ASR 待决、判官待补,已登记 tech-debt)+ 里程碑独立对抗审计(glm-check --kind code)。
+
+### P1 核验记录(2026-07-20)
+- Lenny's RSS 无 `podcast:transcript` 标签,但集页(如 netflix-cpto 集)内嵌 Substack 官方 aligned `transcription.json`(签名 CloudFront URL,与 Latent 同机制)。
+- 真抓验证:`fetch-source.mjs` 对该集取到 794 段、逐词 `{word,start,end,score}`、时长 72:05、mp3 直链;段级 `speaker=SPEAKER_0/SPEAKER_1`(词级空,gate 已回退段级)。
+- 结论:Lenny's **不需 ASR**、有逐字+时间戳+段级说话人,完全吃现有防失真链。a16z/How I AI 经查无官方稿(留 ASR 决策)。
