@@ -21,11 +21,19 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 // 已退役(停抓,内容品味档案.md):Latent Space(🟡 混杂:AINews 水贴 + 模型发布 → 砍)。
 // 待接(下一步,非本切片):a16z / How I AI(非 Substack、无官方稿 → 需 ASR 决策);Y Combinator(YouTube 抓取坎)。
 export const SOURCES = [
-  // www 自定义域名 feed(最近 20 条):云 runner 可达(200)。日常 cron 只向前看,20 条够。
-  // ⚠️ 历史 backlog 进料口未解决:api.substack(353 集)对云 runner 返 403(封数据中心 IP,drift #28,UA 也没救);
-  //    补历史需另找 runner 可达的全历史源(www /api/v1/archive 适配器?待验),见 drift #28。
-  { key: "lennys", feedUrl: "https://www.lennysnewsletter.com/feed" },
+  // feedUrl = www RSS(最近 20 条,云 runner 200):日常 cron 只向前看够用。
+  // archiveFile = 本机备好的全历史列表(drift #28):**--backfill 补历史读它**。
+  //   为何 vendored:api.substack 全 353 集 RSS 对 runner 403 封 IP;www archive JSON 只返文本 newsletter、无播客集。
+  //   两条云端路都拿不到播客历史 → 本机 curl(走代理 200)拉 353 集列表存进仓,runner 读列表 + 逐集抓集页(集页 runner 可达)。
+  //   刷新:本机重跑 tools/refresh-archive(或 curl api.substack RSS→parseFeed→写此文件)。历史集不变,新集靠 cron 走 www RSS。
+  { key: "lennys", feedUrl: "https://www.lennysnewsletter.com/feed", archiveFile: "data/lennys-podcast-archive.json" },
 ];
+
+// 带浏览器 UA:Substack 对裸 node 请求可能 403(drift #28)
+const BROWSER_HEADERS = {
+  "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+  Accept: "*/*",
+};
 
 export const STATE_FILE = join(ROOT, "data/pipeline-state.json");
 const EPISODES_DIR = join(ROOT, "data/episodes");
@@ -143,16 +151,24 @@ function completedIds() {
 }
 
 async function fetchFeed(feedUrl) {
-  // 带浏览器 UA + Accept:api.substack.com 对无 UA/裸 node 请求返 403(挡 bot/数据中心;drift #28)
-  const res = await fetch(feedUrl, {
-    redirect: "follow",
-    headers: {
-      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
-      Accept: "application/rss+xml, application/xml, text/xml, */*",
-    },
-  });
+  const res = await fetch(feedUrl, { redirect: "follow", headers: BROWSER_HEADERS });
   if (!res.ok) throw new Error(`取 RSS 失败 HTTP ${res.status}: ${feedUrl}`);
   return await res.text();
+}
+
+/** 补历史:读本机备好的全历史列表(vendored,drift #28)→ items[](同 parseFeed 结构)。 */
+function readArchiveItems(archiveFile) {
+  const path = resolve(ROOT, archiveFile);
+  if (!existsSync(path)) throw new Error(`补历史列表不存在:${archiveFile}(本机 curl api.substack RSS→parseFeed 生成后提交)`);
+  let items;
+  try {
+    items = JSON.parse(readFileSync(path, "utf8"));
+  } catch (e) {
+    throw new Error(`补历史列表 ${archiveFile} 解析失败(坏 JSON?):${e.message}`);
+  }
+  if (!Array.isArray(items)) throw new Error(`补历史列表 ${archiveFile} 不是数组(应为 parseFeed 输出的 item[])`);
+  console.log(`   读补历史列表 ${archiveFile}:${items.length} 条(访谈 ${items.filter(isInterview).length})`);
+  return items;
 }
 
 /** 顺跑一个外部脚本;非 0 退出即抛(fail-fast,坏集不继续污染)。 */
@@ -244,10 +260,17 @@ async function main() {
   const source = SOURCES[0];
   console.log(`源:${source.key}(${source.feedUrl})`);
 
-  const feed = await fetchFeed(source.feedUrl);
-  const items = parseFeed(feed);
+  // 补历史(--backfill)读本机备好的全历史列表;日常/cron 走 RSS(最近 20,只向前看够用,drift #28)
+  let items;
+  if (backfillN > 0 && source.archiveFile) {
+    console.log(`补历史:读全历史列表 ${source.archiveFile}`);
+    items = readArchiveItems(source.archiveFile);
+  } else {
+    if (backfillN > 0) console.log(`⚠️ 源 ${source.key} 无 archiveFile → 回填只能从 RSS(最近 20 条)选,够不着更早历史(GLM 009[3])`);
+    items = parseFeed(await fetchFeed(source.feedUrl));
+  }
   const interviews = items.filter(isInterview);
-  console.log(`RSS ${items.length} 条,访谈 ${interviews.length} 条(排掉 ainews/无音频)`);
+  console.log(`共 ${items.length} 条,访谈 ${interviews.length} 条(排掉 ainews/无音频)`);
 
   const state = readState();
 
