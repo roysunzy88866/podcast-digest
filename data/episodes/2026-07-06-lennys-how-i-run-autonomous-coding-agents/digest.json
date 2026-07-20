@@ -1,0 +1,60 @@
+{
+  "tldr": "从智能体提示者转为智能体管理者,用工作流和真实业务场景驱动 AI。",
+  "digest_md": "本期节目是《How I AI》的访谈,主持人 Claire Vo 与 Latent Space 播客联合主持人、Decagon 联合创始人 Alessio Fanelli 对谈。Alessio 分享了他如何将自己从「写提示词的人」转变为「智能体管理者」,以及如何把这套自动化思维应用到他真实经营的卡牌生意中。\n\n> 【背景】主持人 Claire Vo 在介绍时称 Alessio 为 Kernel Labs 创始人。实际上 Alessio 也是知名 AI 播客 Latent Space 的联合主持人。访谈中他提到自己运营着一个名为 Kernel 的线下空间。\n\n## 从「智能体提示者」到「智能体管理者」\n\n三年半前,Alessio 开始做播客,当时他的联合主持人 swyx 做了一个叫 Smol Engineer 的自主编码项目。当时模型能力不够,很难做长时间运行的测试。直到去年年底,模型能力发生了实质性的飞跃 [02:59 Alessio Fanelli]。\n\n这对 Alessio 意味着一次重大的角色转变:从不断手写提示词的「提示者」,变成了管理多个智能体任务的「管理者」。\n\n一开始,大家都尝试用看板(一种用卡片追踪任务进度的项目管理工具,如「待办-进行中-完成」)来管理智能体。但 Alessio 发现这样很难进行多轮干预——你可以轻松启动一个任务,但很难在中途介入调整。而且让智能体在本地机器上运行根本行不通,最大的改进是**把本地运行环境转移到了云端的 VPS(虚拟专用服务器)**里 [03:21 Alessio Fanelli]。一旦上了云,你就可以通过不同的渠道(比如发短信、通过项目管理软件,或者在终端命令行里)随时随地和智能体沟通 [03:50 Alessio Fanelli]。\n\n## 搭建工作流:把任务状态机交给智能体\n\nAlessio 详细展示了他当前的工作流。他采用了 OpenAI 开源的一套名为 Symphony 的自主运行框架。Symphony 的核心逻辑是:监视项目管理软件(他使用的是 Linear,一款流行的项目管理软件)上的看板,当你把任务拖到「To Do」时,它就会自动启动编码智能体去解决 [10:56 Claire Vo]。\n\n具体流程是这样的:Alessio 在 Linear 上写好最初的任务规范,然后把任务移到「To Do」。Symphony 收到信号后,会创建一个工作区让智能体制定实现计划、列出验收标准。智能体根据工作流说明文件里的规则去工作,完成后会把任务状态移到「Human Review」(人工审查)。这时 Alessio 可以在代码托管平台上审查、留言,比如「这段太长了」,然后再把任务拖回「Rework」(返工)。智能体会自动梳理所有评论,逐行解决并重新提交,直到代码合并,任务变为「Done」 [05:49 Alessio Fanelli]。\n\nClaire 总结了这个工作流的精妙之处:Linear 实际上充当了整个代码库需要完成的所有工作的**状态机**(一种记录任务在不同阶段间流转状态的系统)。你不用关心任务怎么被拆解或实现,这套框架已经定死了流程 [10:07 Claire Vo]。\n\n更重要的是,这套系统让任务的一切上下文(原始需求、初版代码、返工记录)都集中在一个地方,并自动统计每个任务消耗了多少 token。通过记录这些,你能开始评估「开发这个软件到底要花多少钱」。Alessio 指着其中一个任务说:「这个任务花了 2.21 亿个 token」 [08:10 Alessio Fanelli]。有了这些账本数据,你就能判断是工具层出了问题,还是任务本身就足够庞大,从而不断优化你的工具链 [12:45 Alessio Fanelli]。\n\n## 管理 AI 的心得:像写代码一样维护你的 Markdown\n\nClaire 强调,很多人总想要一个能解决所有业务问题的「魔法文档」,把系统过度工程化了。但其实新模型的能力很强,你只要用自然语言给它写清楚规范,它就会锁定这个规范去执行 [13:49 Claire Vo]。\n\n不过,用自然语言「管教」模型也有坑。Alessio 发现,模型有「只增不减」的倾向。比如他曾要求智能体「必须使用工作树管理器」,后来不需要了,但模型不会删掉这条规则,反而会加一句「虽然不用总是用,但...」,结果把自己搞得很混乱 [15:07 Alessio Fanelli]。\n\n> 【背景】工作树是软件开发中的一种管理机制,允许开发者在同一个代码库里并行处理多个独立任务,而不互相干扰。\n\n因此,Alessio 的建议是:**每隔几个月就清理一次你的 Markdown 规则文件**,并且多做 diff(对比文件的修改差异)。你在规则文档里写的每一小句话,现在都有很重的分量 [14:26 Alessio Fanelli]。\n\n## AI 解决真实世界的痛点:从宝可梦卡牌到给鱼算数\n\n除了写代码,Alessio 还把这套自动化思维用在了他的实体生意上。他在圣卡洛斯开了一家叫 Merlion Games 的卡牌店 [04:31 Alessio Fanelli]。他开发了一套「Power Buyer」系统,让智能体去自动采购高价值的宝可梦卡牌。\n\n在卡牌交易展上,人们拿着成千上万美金的卡找他,他必须实时定价。过去全靠人工在网站上手动搜每张卡的报价,极其低效。现在,他让智能体去自动抓取那些经过 PSA(知名卡牌评级机构)认证、价值超过一千美金的卡,并批量在交易平台上比价,自动筛选出被低估的卡 [19:38 Alessio Fanelli]。\n\nClaire 对这个用例赞不绝口,认为这是她最喜欢的 AI 积极成果:**小企业的创造**。AI 给了普通人极大的杠杆,让他们能去捕捉过去受限于人类精力和认知极限而无法触及的生意 [25:14 Claire Vo]。Alessio 深有同感,他举了他父亲在罗马给餐馆送鱼的例子:过去每天早上得有人拿着纸笔去冷库点数,一边写一边抱怨「少了三条金枪鱼」。现在这种高异构性、过去很难用传统软件标准化的物理生意,都能用 AI 甚至是一副智能眼镜轻松自动化 [27:22 Alessio Fanelli]。\n\n## 闪电问答:个人理财、推荐书目与脱轨对策\n\n在最后的快问快答环节:\n\n**1. 你在用 AI 做什么别人还没做的事?**\n个人理财。他刚卖掉房子,面对一笔资金不知如何规划。AI 成了他绝佳的「安全网」和「上下文卸载工具」。他还会用 AI 帮他过滤邮件,确保自己不会因为「怕错过重要信息」而每隔五分钟去刷收件箱,极大地缓解了焦虑 [28:48 Alessio Fanelli]。\n\n> 【背景】访谈中 Alessio 提到一个工具叫 Wafer,这是一个提供开源模型每周无限 token 的服务,但遗憾的是该服务已经关停。\n\n**2. 推荐书目?**\n他推荐了《和尚与谜题》。这本书讲的是一个创业者想做殡仪馆的生意,虽然不喜欢但觉得市场大,打算赚了钱再去做喜欢的事;而投资人反问他「为什么现在不做喜欢的事?」。Alessio 认为很多创始人都陷入了这个误区。此外作为意大利人,他还强推但丁的《神曲》 [30:38 Alessio Fanelli]。\n\n**3. 当 AI 偏离轨道时怎么办?**\n除了骂它几句,Alessio 会换一个模型供应商试试,或者重启对话。有时可能是自己太贪心、目标定得太大,这就需要把问题拆解。他甚至会在打字打得心烦时,直接改用语音输入「长篇大论」地把细节全都倒给它 [33:20 Alessio Fanelli]。\n\n主持人 Claire 最后分享了她朋友 Hillary 的绝招:把这叫做「话痨 API」。不管三七二十一,对着输入框把脑子里的想法全部说完,然后不看一眼直接按回车——这往往是最高效的做法 [34:19 Claire Vo]。",
+  "quotes": [
+    {
+      "en": "the big thing for me was moving away from um kind of like local runtime to having it in a vps in the cloud",
+      "zh": "对我来说最大的事情是从本地运行时转移到云中的 VPS",
+      "timestamp": "03:44",
+      "speaker": "Alessio Fanelli"
+    },
+    {
+      "en": "you just give them a spec for how they will work and they will you know um they will lock to that spec when executing whatever you hand it",
+      "zh": "你只要给它们一个关于它们将如何工作的规范,它们就会锁定那个规范去执行你交给它的任何东西",
+      "timestamp": "14:04",
+      "speaker": "Claire Vo"
+    },
+    {
+      "en": "the models themselves also have this like tendency to like add rather than remove",
+      "zh": "模型本身也有这种增加而不是删除的倾向",
+      "timestamp": "15:07",
+      "speaker": "Alessio Fanelli"
+    },
+    {
+      "en": "the reality is like now more than ever like small sentences have like very a lot of weight",
+      "zh": "现实是,现在比以往任何时候,简短的句子都有非常大的份量",
+      "timestamp": "14:26",
+      "speaker": "Alessio Fanelli"
+    },
+    {
+      "en": "this is my favorite positive outcome of ai which is small business creation",
+      "zh": "这是我最喜欢的 AI 积极成果,也就是小企业的创造",
+      "timestamp": "25:14",
+      "speaker": "Claire Vo"
+    },
+    {
+      "en": "you can actually use ai to save clock time for real people by doing these things autonomously",
+      "zh": "你可以实际使用 AI 通过自主地做这些事情为真人节省时钟时间",
+      "timestamp": "23:17",
+      "speaker": "Alessio Fanelli"
+    },
+    {
+      "en": "just the ability to like intersect the human world in a way that has been historically very inefficient has been a quality of life improvement",
+      "zh": "仅仅是以某种历史上非常低效的方式与人类世界互动的能力,已经是一种生活质量的改善",
+      "timestamp": "26:43",
+      "speaker": "Claire Vo"
+    },
+    {
+      "en": "if you're not getting enough failures you're probably not trying hard enough",
+      "zh": "如果你没有遇到足够的失败,你可能尝试得不够努力",
+      "timestamp": "33:50",
+      "speaker": "Alessio Fanelli"
+    },
+    {
+      "en": "in the limit you get more done but in practice it's like you can't really like stay on top of like 100 new things a day",
+      "zh": "在极限情况下你会完成更多工作,但在实践中,你真的无法每天掌握 100 个新事物",
+      "timestamp": "18:23",
+      "speaker": "Alessio Fanelli"
+    }
+  ]
+}
