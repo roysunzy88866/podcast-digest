@@ -209,6 +209,27 @@ describe("D17 降误报(ADR 0013 · standard-change 2026-07-19):版本号/复数
     const r = checkProse("本集提到了 Zorptron 这家公司", c(), { entities: [] });
     expect(r.failures.some((f: any) => f.kind === "D17-专名" && f.name === "Zorptron")).toBe(true);
   });
+  // 相邻词拼接容错(standard-change 2026-07-20,D46):转写稿把 OpenAI 记成「open AI」两词 → 单词形式对不上,误报
+  describe("★ 拼接容错:OpenAI ⇄ 稿里「open AI」(D46 降误报)", () => {
+    const spaced = () =>
+      buildFactIndex([{ text: "we tried open AI and open source models", start: 0, end: 6, words: mkWords("we tried open AI and open source models", 0, "S0") }], M, { entities: [] });
+    const joined = () =>
+      buildFactIndex([{ text: "OpenAI shipped a new model", start: 0, end: 5, words: mkWords("OpenAI shipped a new model", 0, "S0") }], M, { entities: [] });
+    it("稿=「open AI」→ 导读单词「OpenAI」放行", () => {
+      expect(checkProperNoun("OpenAI", spaced()).pass).toBe(true);
+    });
+    it("反向:稿=「OpenAI」→ 导读多词「open AI」放行", () => {
+      expect(checkProperNoun("open AI", joined()).pass).toBe(true);
+    });
+    it("★ 不破挡编造:稿无「Zorptron」,拼接也拼不出 → 仍拦", () => {
+      expect(checkProperNoun("Zorptron", spaced()).pass).toBe(false);
+      expect(checkProperNoun("Zorptron", joined()).pass).toBe(false);
+    });
+    it("★ 短拼接<5 不进容错:防噪音(稿「a to」拼「ato」不放行随意 3 字母名)", () => {
+      const c2 = buildFactIndex([{ text: "go a to b quickly", start: 0, end: 5, words: mkWords("go a to b quickly", 0, "S0") }], M, { entities: [] });
+      expect(checkProperNoun("ato", c2).pass).toBe(false);
+    });
+  });
   it("中文万亿单位:导读「16万」= 160000(转写稿有 160,000)→ 命中;values 同时保原值 16(宽松)", () => {
     const n = extractDigestNumbers("GitHub 冲到 16万 颗星").find((x) => x.raw === "16万");
     expect(n?.values).toContain(160000);

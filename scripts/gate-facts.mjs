@@ -166,22 +166,41 @@ export function buildFactIndex(transcript, meta, aliases) {
   if (meta?.podcast) texts.push(meta.podcast);
   for (const name of Object.values(meta?.speaker_map ?? {})) texts.push(String(name));
 
+  // concats = 相邻词拼接(标准变更·用户授权 2026-07-20,D46):
+  //   转写稿把「OpenAI」记成「open AI」两词时,单词形式对不上 → 把相邻 2/3 词的拼接也当真相源,
+  //   让「open AI ↔ OpenAI」同实体不同空格能命中。只放"稿里真相邻出现过的拼接"(≥5 长),不放全新编造名。
+  const concats = new Set();
   for (const t of texts) {
-    for (const w of norm(t)) tokens.add(w);
+    const ws = norm(t);
+    for (const w of ws) tokens.add(w);
+    // 门槛 ≥6:砍掉「a+long=along」这类短常用词拼接噪音,同时保留 openai(6)/github(6)(GLM 20260720-006[2])
+    for (let i = 0; i < ws.length; i++) {
+      if (ws[i + 1]) {
+        const two = ws[i] + ws[i + 1];
+        if (two.length >= 6) concats.add(two);
+        if (ws[i + 2]) {
+          const three = two + ws[i + 2];
+          if (three.length >= 6) concats.add(three);
+        }
+      }
+    }
     collectNumbers(t, numbers);
   }
 
   const stream = buildWordStream(transcript);
   const maxEnd = stream.length ? Math.max(...stream.map((w) => w.end)) : 0;
 
-  return { tokens, numbers, stream, speakerMap: meta?.speaker_map ?? {}, aliases: aliases ?? { entities: [] }, maxEnd };
+  return { tokens, numbers, concats, stream, speakerMap: meta?.speaker_map ?? {}, aliases: aliases ?? { entities: [] }, maxEnd };
 }
 
 /** 单个归一化词是否命中真相源。含「版本化实体」容错(标准变更·用户授权 2026-07-19):
  *  导读写 AlphaFold、转写稿是 AlphaFold3 → 只剥尾部数字、且词长 ≥5 才放行(短词不放行,防「Sam⊆Samsung」误放)。
  *  编造一个真相源里根本没有的全新名字,仍会被挡(它不是任何真词的"去掉尾数字"形)。 */
-function tokenHit(w, tokens) {
+function tokenHit(w, tokens, concats) {
   if (tokens.has(w)) return true;
+  // 相邻词拼接容错(标准变更·用户授权 2026-07-20,D46):OpenAI ⇄ 稿里的 open AI
+  // ≥5 长度守卫(防御性,与下方版本化容错一致;concats 上游已 ≥6,此处再兜一层防未来误用,GLM 006[3])
+  if (concats && w.length >= 5 && concats.has(w)) return true;
   // 复数-s 容错(标准变更·用户授权):导读 GAN ⇄ 转写稿 GANs、flag ⇄ flags(加/去尾 s 不放行全新编造名)
   if (w.length >= 3 && (tokens.has(w + "s") || (w.endsWith("s") && tokens.has(w.slice(0, -1))))) return true;
   if (w.length < 5) return false;
@@ -193,10 +212,16 @@ function tokenHit(w, tokens) {
 }
 
 /** 某个书写形式是否在真相源里出现过(多词形式要求每个词都在) */
-function formHits(form, tokens) {
+function formHits(form, tokens, concats) {
   const ws = norm(form);
   if (!ws.length) return false; // 纯中文形式(norm 后为空)→ 只能靠别名表的 en 形式回比
-  return ws.every((w) => tokenHit(w, tokens));
+  if (ws.every((w) => tokenHit(w, tokens, concats))) return true;
+  // 反向拼接(标准变更·用户授权 2026-07-20,D46):导读「open AI」多词 ⇄ 稿里「OpenAI」单词
+  if (ws.length > 1) {
+    const joined = ws.join("");
+    if (joined.length >= 5 && tokenHit(joined, tokens, concats)) return true;
+  }
+  return false;
 }
 
 /**
@@ -210,7 +235,7 @@ export function checkProperNoun(name, ctx) {
   );
   const forms = entity ? [...new Set([entity.name, ...(entity.forms ?? [])].filter(Boolean))] : [name];
   for (const f of forms) {
-    if (formHits(f, ctx.tokens)) return { pass: true, matchedForm: f, entity: entity?.id ?? null };
+    if (formHits(f, ctx.tokens, ctx.concats)) return { pass: true, matchedForm: f, entity: entity?.id ?? null };
   }
   return {
     pass: false,
