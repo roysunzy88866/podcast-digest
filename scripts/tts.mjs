@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 // C4 Scenario 1 · 精华 → 音频(剥 markdown + 分段 + TTS 合成 + ffmpeg 拼接)。
-// TTS 引擎:edge-tts 免费默认(晓晓声,drift #13)+ Azure F0 fallback。项目自持,未走全局配音 skill。
+// TTS 引擎:edge-tts 免费默认(晓晓声,drift #13)+ Azure F0 fallback。
+// 项目自持、未走全局配音 skill —— 为何不走见 docs/adr/0014(CI 无人值守云 runner 需仓内自包含,
+// 全局 skill 装在本机 ~/.claude/skills 云上没有,vendoring 会破坏 skill 中央厨房初衷)。
 //
 // 本模块只把已过 C2/C3 闸门的中文精华「配音」,不重新生成任何内容。
 // 纯逻辑(剥格式/分段/hash/SSML/args)与副作用(Azure HTTP / ffmpeg / 写文件)分层:
