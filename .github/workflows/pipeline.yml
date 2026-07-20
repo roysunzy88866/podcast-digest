@@ -15,6 +15,10 @@ on:
         description: "一次性回填最近 N 集(评估批,override 只向前看;留空/0=正常只向前看)"
         required: false
         default: "0"
+      deploy:
+        description: "强制部署当前已发布集(即便本轮无新集)——用于把已提交的干净集重新上线"
+        required: false
+        default: "false"
 
 permissions:
   contents: write           # 处理完把新集 data/ + pipeline-state.json commit 回仓(去重状态持久化)
@@ -74,8 +78,8 @@ jobs:
             echo "无干净新集(无新/全隔离),跳过部署(线上保持上一版)"
           fi
 
-      - name: 构建站点 + 部署 voice.solomind.cc(仅当有新集且闸门全过)
-        if: steps.pipeline.outputs.has_new == 'true'
+      - name: 构建站点 + 部署 voice.solomind.cc(有新集且闸门全过,或手动强制)
+        if: steps.pipeline.outputs.has_new == 'true' || github.event.inputs.deploy == 'true'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           # account id 是标识符非机密(单独无用),直接写死省得多配一个 secret
