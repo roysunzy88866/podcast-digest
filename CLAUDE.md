@@ -35,7 +35,7 @@
 - 红线(密钥安全 / 版权灰色自担范围 / 公开访问隐私边界——C7a 用户明选**去 Access、站公开**,drift #17)每次结项重提,直到闭合或用户明文豁免
 
 ## 🏗 架构一句话
-GitHub Actions cron(非 Workers,ADR 0012/drift #21)定时轮询播客 RSS(源清单驱动,现抓 Lenny's,去 Latent;`需求共创/内容品味档案.md`)→ 官方文字稿(Substack transcription.json)/ ASR 兜底 → **GLM-4.6 全译 + GLM-5.2 浓缩**(ADR 0013)→ GLM 免费档判官 → 机器闸门(字符串校验)→ **配音 skill(edge-tts 免费 / MiMo,非 Azure)** → Quartz v5 build → **CF Pages 公开静态**(去 R2 存音频进 Pages / 去 Access 登录门,drift #17/#18)+ 私有播客 feed。全云端,无常开机器。详见 需求共创/需求共识.md「产品轮廓」+ docs/adr。
+GitHub Actions cron(非 Workers,ADR 0012/drift #21)定时轮询播客 RSS(源清单驱动,现抓 Lenny's,去 Latent;`需求共创/内容品味档案.md`)→ 官方文字稿(Substack transcription.json)/ ASR 兜底 → **GLM-4.6 全译 + GLM-5.2 浓缩**(ADR 0013)→ GLM 免费档判官 → 机器闸门(字符串校验)→ **`scripts/tts.mjs`(edge-tts 免费默认 + Azure fallback,drift #13;项目自持,未走全局配音 skill、无 MiMo)** → Quartz v5 build → **CF Pages 公开静态**(去 R2 存音频进 Pages / 去 Access 登录门,drift #17/#18)+ 私有播客 feed。全云端,无常开机器。详见 需求共创/需求共识.md「产品轮廓」+ docs/adr。
 
 ## 🧾 commit 约定(commit-msg 钩子硬卡 🟡)
 切片:`[C_n 状态] 描述 (US-x)`;非切片:`[装机|docs|chore|adr|fix] 描述`。一刀一提交。

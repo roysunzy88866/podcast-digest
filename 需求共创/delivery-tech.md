@@ -5,7 +5,7 @@
 > 生成 2026-07-17 · 第 26 轮 · 边界 10/10 · reasoning 标记保留（🔒 用户拍板 / 📌 默认 / 💡 假设 / ❓ 待定）。
 > **本项目已跑通一期真实内容验证**（样片 + 试跑记录），不是纯纸面规划。
 >
-> ⚠️ **技术栈已被 C7 + ADR 0010-0013 大幅更新（2026-07-19/20），本包多处选型过时——真相以 `docs/adr/` + `docs/drift-log.md` + `scripts/run-pipeline.mjs` 为准。** 已逐处内联「原文 → 更正」留痕。速查:编排=GitHub Actions cron(非 Workers,ADR 0012)/ TTS=edge-tts(非 Azure,配音 skill)/ 存储与部署=CF Pages 公开静态(去 R2、去 Access,drift #17/#18)/ 翻译=GLM-4.6 浓缩=GLM-5.2(ADR 0013)/ 闸门硬校验只剩①逐字命中(时间戳/说话人降软,drift #26)/ 源=现单抓 Lenny's(去 Latent,内容品味档案.md)/ 实体聚合=自建(Bases 已否决,ADR 0008)。
+> ⚠️ **技术栈已被 C7 + ADR 0010-0013 大幅更新（2026-07-19/20），本包多处选型过时——真相以 `docs/adr/` + `docs/drift-log.md` + `scripts/run-pipeline.mjs` 为准。** 已逐处内联「原文 → 更正」留痕。速查:编排=GitHub Actions cron(非 Workers,ADR 0012)/ TTS=`scripts/tts.mjs` edge-tts 默认+Azure fallback(项目自持,未走配音 skill、无 MiMo)/ 存储与部署=CF Pages 公开静态(去 R2、去 Access,drift #17/#18)/ 翻译=GLM-4.6 浓缩=GLM-5.2(ADR 0013)/ 闸门硬校验只剩①逐字命中(时间戳/说话人降软,drift #26)/ 源=现单抓 Lenny's(去 Latent,内容品味档案.md)/ 实体聚合=自建(Bases 已否决,ADR 0008)。
 
 ---
 
@@ -41,7 +41,7 @@ Gherkin Then 里的 [系统] = 后端/流水线动作。
   - 编排/调度 = ~~Cloudflare Workers（Cron 轮询）+ Workflows/Queues + R2~~ → **GitHub Actions cron**(ADR 0012/drift #21);存储去 R2、音频进 CF Pages 静态(drift #18)
   - 转写 = 优先官方文字稿（头部播客多自带，免费更准）；无稿调云端 ASR（Groq turbo/AssemblyAI，后者含说话人分离）　【仍适用】
   - 写稿/翻译/判官 = ~~GLM-5.2~~ → **翻译=GLM-4.6 + 浓缩=GLM-5.2**(ADR 0013) + GLM 免费档判官（智谱 key 用户自持）
-  - 机器闸门 = ~~Workers 跑~~ **GitHub Actions runner 跑**字符串校验　·　TTS = ~~Azure Speech F0~~ → **配音 skill(edge-tts 免费 / MiMo,非 Azure)**
+  - 机器闸门 = ~~Workers 跑~~ **GitHub Actions runner 跑**字符串校验　·　TTS = ~~Azure Speech F0~~ → **`scripts/tts.mjs`:edge-tts 免费默认 + Azure fallback**(项目自持,**未走全局配音 skill、无 MiMo**;drift #13)
   - 发布 = Quartz v5（务必 v5）→ ~~Cloudflare Pages（+Access 登录门）~~ **CF Pages 公开静态,去 Access**(ADR 0010/drift #17);~~属性面板+Bases~~ Bases 已否决,实体页聚合改流水线自建(ADR 0008/drift #1)
   - ⚠️ YouTube 独占内容 yt-dlp 需住宅 IP+运行时，Cloudflare/Actions 跑不了 → 第一版靠播客源，此类手动/跳过　【仍适用】
   详见 docs/adr/ + docs/drift-log.md（真相）+ 需求共识.md 产品轮廓。

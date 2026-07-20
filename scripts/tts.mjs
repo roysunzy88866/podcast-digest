@@ -1,5 +1,6 @@
 #!/usr/bin/env node
-// C4 Scenario 1 · 精华 → 音频(剥 markdown + 分段 + Azure F0 合成 + ffmpeg 拼接)。
+// C4 Scenario 1 · 精华 → 音频(剥 markdown + 分段 + TTS 合成 + ffmpeg 拼接)。
+// TTS 引擎:edge-tts 免费默认(晓晓声,drift #13)+ Azure F0 fallback。项目自持,未走全局配音 skill。
 //
 // 本模块只把已过 C2/C3 闸门的中文精华「配音」,不重新生成任何内容。
 // 纯逻辑(剥格式/分段/hash/SSML/args)与副作用(Azure HTTP / ffmpeg / 写文件)分层:
