@@ -21,10 +21,10 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 // 已退役(停抓,内容品味档案.md):Latent Space(🟡 混杂:AINews 水贴 + 模型发布 → 砍)。
 // 待接(下一步,非本切片):a16z / How I AI(非 Substack、无官方稿 → 需 ASR 决策);Y Combinator(YouTube 抓取坎)。
 export const SOURCES = [
-  // api.substack.com feed 吐**全部 353 集历史**(www 自定义域名 feed 只吐最近 20 条,够不着历史 backlog)。
-  // ⚠️ 本机 node fetch 连 api.substack 超时(本地代理问题),但云 runner 网络干净、实测可达(backfill=40 首验)。
-  // id 派生只用 /p/slug、link 格式两 feed 一致 → 换源不破已做集的 dedup(已验:Netflix id 完全一致)。
-  { key: "lennys", feedUrl: "https://api.substack.com/feed/podcast/10845.rss" },
+  // www 自定义域名 feed(最近 20 条):云 runner 可达(200)。日常 cron 只向前看,20 条够。
+  // ⚠️ 历史 backlog 进料口未解决:api.substack(353 集)对云 runner 返 403(封数据中心 IP,drift #28,UA 也没救);
+  //    补历史需另找 runner 可达的全历史源(www /api/v1/archive 适配器?待验),见 drift #28。
+  { key: "lennys", feedUrl: "https://www.lennysnewsletter.com/feed" },
 ];
 
 export const STATE_FILE = join(ROOT, "data/pipeline-state.json");
