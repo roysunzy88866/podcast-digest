@@ -83,8 +83,11 @@ jobs:
         run: |
           set -e
           # 1) bootstrap Quartz v5(钉 commit)+ baseUrl 设 voice.solomind.cc
+          # ⚠️ 必须 rm -rf site:流水线步骤 build-list.mjs 默认写 site/content/index.md 会预建出 site/,
+          #    若沿用 `[ -d site ] ||` 跳过 clone → 对半拉子 site 执行 checkout 报 "unable to read tree"(C7b 首次部署干净集才暴露)。
           QUARTZ_COMMIT=9cf87ff1c248a8ca551093214b0fec3b31415009
-          [ -d site ] || git clone --branch v5 --single-branch https://github.com/jackyzha0/quartz.git site
+          rm -rf site
+          git clone --branch v5 --single-branch https://github.com/jackyzha0/quartz.git site
           git -C site checkout "$QUARTZ_COMMIT"
           cd site
           npm i --no-audit --no-fund

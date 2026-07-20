@@ -58,3 +58,9 @@
 - **③ 自动品味判官 + 待裁清单 + 回写档案**:本切片靠「源已被筛成高对味」省掉判官(源级预筛=硬过滤)。等真出现「绿源里漏进不对味集」再做 per-集判官(读简介对 `内容品味档案.md` 打分 → 发布/跳过/待裁)+ 待裁攒着对话集中裁 + 裁决回写档案。ADR 待补。
 - **④ 换源需 --seed**:源从 Latent 换 Lenny's 后,旧 cutoff(Latent 时间线)对 Lenny's 无意义。**已加固为机器闸门**(GLM 20260720-001[1]):`needsReseed` 检测 cutoff 归属源,换源没 --seed 直接 exit 2 拦住,不再靠人记得。剩:接第 2 源时 cutoff 本身要按源(见①)。
 - **⑤ `isInterview`/`deriveId` 的 `/p/<slug>` 抠取是 Substack 专用**(GLM 20260720-002[2])。当前源 Lenny's 是 Substack、正确;接非 Substack 源(a16z=Simplecast、YC=YouTube)时,URL 无 `/p/` → `deriveId` slug 退化成 "episode"(所有集撞 id)、`isInterview` 的 ainews 过滤形同虚设。**接第 2 源前必按源适配 URL 解析**(与①②同批处理)。
+
+## D45 · translate.mjs 漏译即硬失败,不补漏段(2026-07-20 C8 E2E 暴露)
+- **问题**:translate 分块送 GLM,若返回缺某些段(GLM 输出不稳),`translateChunk` 直接 throw「chunk X 缺译 N 条」→ 整集失败。实测 C8 首跑:harness 集 chunk2 漏 25 段、adam 集 chunk0 漏 1 段 → 两集 translate exit 1(转瞬失败,retry 才可能过)。
+- **影响**:批量跑时非确定性失败,拉低产出率;漏 1 段也让整集重来(浪费已译部分的钱)。
+- **处置(建议,未做)**:漏译时只对缺失段号**重试补译**(最多 N 轮),而非整块重来/整集失败;补不齐再降级(标注/隔离)。属 translate 健壮性,非防失真闸门,不违铁律。
+- **现状兜底**:orchestrator 标 retry:true,下次跑重试;GLM 非确定性下重试常能过(adam 漏 1 段几乎必过)。
