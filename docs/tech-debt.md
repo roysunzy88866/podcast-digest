@@ -62,5 +62,5 @@
 ## D45 · translate.mjs 漏译即硬失败,不补漏段(2026-07-20 C8 E2E 暴露)
 - **问题**:translate 分块送 GLM,若返回缺某些段(GLM 输出不稳),`translateChunk` 直接 throw「chunk X 缺译 N 条」→ 整集失败。实测 C8 首跑:harness 集 chunk2 漏 25 段、adam 集 chunk0 漏 1 段 → 两集 translate exit 1(转瞬失败,retry 才可能过)。
 - **影响**:批量跑时非确定性失败,拉低产出率;漏 1 段也让整集重来(浪费已译部分的钱)。
-- **处置(建议,未做)**:漏译时只对缺失段号**重试补译**(最多 N 轮),而非整块重来/整集失败;补不齐再降级(标注/隔离)。属 translate 健壮性,非防失真闸门,不违铁律。
-- **现状兜底**:orchestrator 标 retry:true,下次跑重试;GLM 非确定性下重试常能过(adam 漏 1 段几乎必过)。
+- **处置**:✅ **已修(2026-07-20)**:translateChunk 改多轮累积——首轮全发,后续**只补发还缺的段号**(小批量 GLM 几乎必全返回),缓存改 idx→zh JSON 每轮落盘(断了不丢)。本地真跑 adam(1047段,原稳定漏译)验证:11/21 块漏段,一轮补缺全补齐、空译 0。GLM 20260720-005 复核 3 real(缓存 try/catch + 每轮落盘 + 空 glob 守卫)已修 + 3 noise。
+- **原现状兜底**(已被上面取代):orchestrator 标 retry:true 下次重试——但实测漏译稳定复现(adam 两跑皆挂),retry 不够,故升级为真修。

@@ -101,28 +101,45 @@ function parseNumbered(text) {
   return map;
 }
 
+// D45 修:GLM-4.6 对整块 50 段一次编号时会稳定漏掉几段。多轮累积——**每轮只补发还缺的段**
+// (小批量 GLM 几乎必全返回),而非每次重发整块(重发整块会重复漏同样的段)。缓存存合并后的 idx→zh。
+const REFILL_ROUNDS = MAX_RETRY + 3; // 首轮全发 + 若干轮只补缺
 async function translateChunk(segs, ci) {
-  const cacheFile = resolve(cacheDir, `chunk-${String(ci).padStart(3, "0")}.txt`);
-  const idxs = segs.map((s) => s._i);
-  const input = segs.map((s) => `[[${s._i}]] ${s.text.trim()}`).join("\n");
-  let raw = existsSync(cacheFile) ? readFileSync(cacheFile, "utf8") : null;
-  for (let attempt = 0; attempt <= MAX_RETRY && !raw; attempt++) {
-    const got = await glmAsk(SYS, input);
-    const m = parseNumbered(got);
-    const missing = idxs.filter((i) => !m.has(i) || !m.get(i));
-    if (missing.length === 0) {
-      raw = got;
-      writeFileSync(cacheFile, raw);
-    } else if (attempt === MAX_RETRY) {
-      throw new Error(`chunk ${ci} 缺译 ${missing.length} 条(第${idxs[0]}起): ${missing.slice(0, 5)}`);
-    } else {
-      process.stderr.write(`  chunk ${ci} 缺 ${missing.length} 条,重试 ${attempt + 1}\n`);
+  const cacheFile = resolve(cacheDir, `chunk-${String(ci).padStart(3, "0")}.json`);
+  const byText = new Map(segs.map((s) => [s._i, s.text.trim()]));
+  const acc = new Map(); // idx -> zh(跨轮累积)
+  if (existsSync(cacheFile)) {
+    try {
+      for (const [k, v] of Object.entries(JSON.parse(readFileSync(cacheFile, "utf8")))) acc.set(Number(k), v);
+    } catch {
+      /* 缓存损坏/旧格式 → 当空,重译(GLM 005[2]) */
     }
   }
-  const m = parseNumbered(raw);
-  const miss = idxs.filter((i) => !m.has(i) || !m.get(i));
-  if (miss.length) throw new Error(`chunk ${ci} 缓存缺译 ${miss.length} 条,删缓存重跑`);
-  return segs.map((s) => ({ _i: s._i, zh: m.get(s._i).trim() }));
+  // 英文本身为空的段:无可译,直接置空(否则会被永远当"缺译")。
+  // 解决判据 = acc.has(i):有真译文 or 空英文置了 ""。未解决 = 没这个 key。
+  for (const [i, txt] of byText) if (!txt) acc.set(i, "");
+
+  const writeCache = () => {
+    const o = {};
+    for (const [k, v] of acc) o[k] = v;
+    writeFileSync(cacheFile, JSON.stringify(o));
+  };
+  const stillMissing = () => segs.map((s) => s._i).filter((i) => !acc.has(i));
+  let missing = stillMissing();
+  for (let round = 0; round < REFILL_ROUNDS && missing.length; round++) {
+    const input = missing.map((i) => `[[${i}]] ${byText.get(i)}`).join("\n");
+    const got = await glmAsk(SYS, input);
+    const m = parseNumbered(got);
+    for (const i of missing) {
+      const v = m.get(i);
+      if (v && v.trim()) acc.set(i, v.trim());
+    }
+    writeCache(); // 每轮落盘:进程中断也不丢已译段(GLM 005[5])
+    missing = stillMissing();
+    if (missing.length) process.stderr.write(`  chunk ${ci} 仍缺 ${missing.length} 条,只补发缺段(第 ${round + 1} 轮)\n`);
+  }
+  if (missing.length) throw new Error(`chunk ${ci} 多轮补译仍缺 ${missing.length} 条(第${missing[0]}起): ${missing.slice(0, 5)}`);
+  return segs.map((s) => ({ _i: s._i, zh: acc.get(s._i) ?? "" }));
 }
 
 async function pool(items, worker, n) {

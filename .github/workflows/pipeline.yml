@@ -82,6 +82,14 @@ jobs:
           CLOUDFLARE_ACCOUNT_ID: ac6b3134d98758210ac27d37bd7d5a2d
         run: |
           set -e
+          # 0) 确保已发布集都有音频(audio.mp3 gitignore,现场补合成;仅当集有 digest.json)。
+          #    修:已提交的干净集(如 Netflix)音频不在仓、rebuildAll 未必重跑 → 部署前统一补,避免 cp 找不到音频。
+          for d in data/episodes/*/; do
+            [ -d "$d" ] || continue   # 空 glob 保护(与下方 cp 循环一致)
+            if [ -f "${d}digest.json" ] && [ ! -f "${d}audio.mp3" ]; then
+              echo "补音频:$d"; node scripts/tts.mjs "$d" || echo "::warning::音频合成失败 $d"
+            fi
+          done
           # 1) bootstrap Quartz v5(钉 commit)+ baseUrl 设 voice.solomind.cc
           # ⚠️ 必须 rm -rf site:流水线步骤 build-list.mjs 默认写 site/content/index.md 会预建出 site/,
           #    若沿用 `[ -d site ] ||` 跳过 clone → 对半拉子 site 执行 checkout 报 "unable to read tree"(C7b 首次部署干净集才暴露)。
@@ -103,6 +111,7 @@ jobs:
           # 3) 音频进 public/audio(C7a:随 Pages 静态,drift #18;当年手动 cp,此处脚本化)
           mkdir -p public/audio
           for f in ../data/episodes/*/audio.mp3; do
+            [ -e "$f" ] || continue   # 空 glob 保护(set -e 下无匹配会把字面量传给 cp 而失败)
             id=$(basename "$(dirname "$f")")
             cp "$f" "public/audio/$id.mp3"
           done
