@@ -4,6 +4,8 @@
 > 真相之源永远是 `需求共识.md`，本包只是「给技术的导读 + 实现 prompt」，不复制它的内容。
 > 生成 2026-07-17 · 第 26 轮 · 边界 10/10 · reasoning 标记保留（🔒 用户拍板 / 📌 默认 / 💡 假设 / ❓ 待定）。
 > **本项目已跑通一期真实内容验证**（样片 + 试跑记录），不是纯纸面规划。
+>
+> ⚠️ **技术栈已被 C7 + ADR 0010-0013 大幅更新（2026-07-19/20），本包多处选型过时——真相以 `docs/adr/` + `docs/drift-log.md` + `scripts/run-pipeline.mjs` 为准。** 已逐处内联「原文 → 更正」留痕。速查:编排=GitHub Actions cron(非 Workers,ADR 0012)/ TTS=edge-tts(非 Azure,配音 skill)/ 存储与部署=CF Pages 公开静态(去 R2、去 Access,drift #17/#18)/ 翻译=GLM-4.6 浓缩=GLM-5.2(ADR 0013)/ 闸门硬校验只剩①逐字命中(时间戳/说话人降软,drift #26)/ 源=现单抓 Lenny's(去 Latent,内容品味档案.md)/ 实体聚合=自建(Bases 已否决,ADR 0008)。
 
 ---
 
@@ -23,9 +25,9 @@ Cloudflare 部署 + 私有播客 RSS。
 
 【边界 10 维度】见 需求共识.md `## 边界确认`（10/10 全填）。关键：
   - WHO：用户本人+身边小圈子，非技术运营者（看不懂代码，vibe coding）
-  - INPUT：只自动订阅（12 个播客源，见「订阅源清单 v1」），第一版只做 YouTube/播客，X 二期
+  - INPUT：只自动订阅（原「12 个播客源」→ **现单抓 Lenny's**;品味校准后源清单收敛,见 `内容品味档案.md`;Latent Space 已退役），第一版只做 YouTube/播客，X 二期
   - OUTPUT：中文精华（导读式）+ 中文 TTS 音频；全译/英文原稿只存云端不上 UI
-  - CONSTRAINTS：**全云端、无常开机器**（第 27 轮定）——Cloudflare Workers 编排 + 调各云 API。
+  - CONSTRAINTS：**全云端、无常开机器**（第 27 轮定）——原「Cloudflare Workers 编排」→ **GitHub Actions cron 编排**(ADR 0012/drift #21) + 调各云 API。
     月成本 ≈¥0 到几十块（唯一可能有成本=转写：官方文字稿免费/云端 ASR 兜底）
 
 完整规格读 需求共识.md，按下面优先级实现：
@@ -35,14 +37,14 @@ Cloudflare 部署 + 私有播客 RSS。
   > 视图=canvas.html（非真相，视觉归设计侧，你不用管）
 Gherkin Then 里的 [系统] = 后端/流水线动作。
 
-【技术栈建议】全云端、无常开机器：
-  - 编排/调度 = Cloudflare Workers（Cron 定时轮询播客 RSS）+ Workflows/Queues（长任务）+ R2（存储）
-  - 转写 = 优先官方文字稿（头部播客多自带，免费更准）；无稿调云端 ASR（Groq turbo/AssemblyAI，后者含说话人分离）
-  - 写稿/翻译/判官 = GLM-5.2 + GLM 免费档 API（智谱 key 用户自持）
-  - 机器闸门 = Workers 跑字符串校验　·　TTS = Azure Speech F0
-  - 发布 = Quartz v5（务必 v5，属性面板+Bases 只在 v5）→ Cloudflare Pages
-  - ⚠️ YouTube 独占内容 yt-dlp 需住宅 IP+运行时，Cloudflare 跑不了 → 第一版靠播客源，此类手动/跳过
-  详见 需求共识.md 产品轮廓 + CONSTRAINTS。
+【技术栈建议】全云端、无常开机器（⚠️ 以下为第 26 轮原始选型，多处已被 C7/ADR 更新，右侧为现状）：
+  - 编排/调度 = ~~Cloudflare Workers（Cron 轮询）+ Workflows/Queues + R2~~ → **GitHub Actions cron**(ADR 0012/drift #21);存储去 R2、音频进 CF Pages 静态(drift #18)
+  - 转写 = 优先官方文字稿（头部播客多自带，免费更准）；无稿调云端 ASR（Groq turbo/AssemblyAI，后者含说话人分离）　【仍适用】
+  - 写稿/翻译/判官 = ~~GLM-5.2~~ → **翻译=GLM-4.6 + 浓缩=GLM-5.2**(ADR 0013) + GLM 免费档判官（智谱 key 用户自持）
+  - 机器闸门 = ~~Workers 跑~~ **GitHub Actions runner 跑**字符串校验　·　TTS = ~~Azure Speech F0~~ → **配音 skill(edge-tts 免费 / MiMo,非 Azure)**
+  - 发布 = Quartz v5（务必 v5）→ ~~Cloudflare Pages（+Access 登录门）~~ **CF Pages 公开静态,去 Access**(ADR 0010/drift #17);~~属性面板+Bases~~ Bases 已否决,实体页聚合改流水线自建(ADR 0008/drift #1)
+  - ⚠️ YouTube 独占内容 yt-dlp 需住宅 IP+运行时，Cloudflare/Actions 跑不了 → 第一版靠播客源，此类手动/跳过　【仍适用】
+  详见 docs/adr/ + docs/drift-log.md（真相）+ 需求共识.md 产品轮廓。
 
 矛盾→标给人；headless 无人可问时：无 US 覆盖的元素不实现记 TODO，💡/❓ 跳过不静默实现。
 ```
@@ -55,7 +57,7 @@ Gherkin Then 里的 [系统] = 后端/流水线动作。
 | **怎么算做对（验收合同）** | `## User Stories` 的 11 条 Gherkin（全 P0） | 照它实现 + 照它写测试 |
 | **流水线怎么产出知识关联** | 产品轮廓 `③.7 知识抽取`（必产出：类型化属性/正文双链/金句块ID/别名表） | 关联的地基，做不到全盘散架 |
 | **防失真机制** | 产品轮廓 `④ 防失真闸门`（机器闸门=字符串校验，实测能抓 LLM 判官抓不出的错） | 核心主张的兑现 |
-| 每个动态区：字段/排序/聚合方式 | 页面清单每页的「数据契约」 | 接口与存储依据；聚合用 Bases |
+| 每个动态区：字段/排序/聚合方式 | 页面清单每页的「数据契约」 | 接口与存储依据；~~聚合用 Bases~~ → 实体页聚合改流水线自建(Bases 已否决,ADR 0008/drift #1)|
 | 数据从哪来、引擎、部署约束 | 边界 INPUT/ENGINE/CONSTRAINTS + 产品轮廓 | 技术选型与合规 |
 | 要兜的边角 | Gherkin 里标 `[异常]` 的（空站/筛选无果/音频失败/实体只1集…） | 别只做 happy path |
 | 元素锚点 + 跳转 | `## 页面清单` 4 页 ASCII | Gherkin 引用的命名元素（只认结构，视觉不归你） |
@@ -70,10 +72,10 @@ Gherkin Then 里的 [系统] = 后端/流水线动作。
 
 ## 四、五个技术要点（最容易做错的地方）
 1. **知识关联是流水线的活，不是网站魔法**：Quartz 的反链/图谱全靠「流水线真写了显式 `[[]]` + frontmatter 属性」。必须：正文实体写成双链、发布前按别名表批量补链、每集头部写全类型化属性。
-2. **机器闸门必须做**：金句「引语逐字命中转写稿 + 时间戳区间包含 + 说话人匹配」三项联合校验。实测首跑能抓 4/12 错误，且全是 LLM 判官抓不出的「拼接/编造」。
+2. **机器闸门必须做**：金句原设计「逐字命中 + 时间戳区间 + 说话人匹配」三项联合校验。**现状(ADR 0013/drift #26):硬拦只剩①「引语逐字命中转写稿」;时间戳/说话人已降为软提醒(不拦发布,支持无时间戳源)。** 另 gate-facts 事实层专名回原文比对含拼接容错(open AI↔OpenAI,D46)。实测首跑能抓 LLM 判官抓不出的「拼接/编造」。
 3. **别用免费档写稿**：GLM-4.7-Flash 实测会编造原话（2 条/10），写稿用 GLM-5.2；免费档只当判官/否决票。
 4. **转写先 VAD 切静音**：用云端 ASR 时，Whisper 系在静音处会无中生有，污染整条防失真链的地基。优先用官方文字稿（免费更准，还绕开此坑）。
-5. **私密性靠 Cloudflare Access**：音频文件随站点公开输出，不能靠「URL 不可猜」，要挂登录门。
+5. ~~**私密性靠 Cloudflare Access**：要挂登录门。~~ → **已推翻(ADR 0010/drift #17):C7a 用户明选站点完全公开、去 Access**。音频随 CF Pages 静态公开输出。版权灰色自担范围是结项红线(见 CLAUDE.md/风险登记)。
 
 ## 五、优先级 5 层 + 矛盾兜底
 宪法（边界+非目标）> 行为（US+Gherkin+流水线规格）> 结构（页面清单 ASCII）> 视图（canvas，非真相）。
@@ -85,6 +87,6 @@ Gherkin Then 里的 [系统] = 后端/流水线动作。
 - canvas.html 不在本包（那是设计侧的）
 
 ## 七、下一步
-- [ ] 用户操作项（见 open-questions）：注册 Azure、配 API key、告知 Mac mini 型号
+- [ ] 用户操作项（见 open-questions）：~~注册 Azure、告知 Mac mini 型号~~(已过时:TTS 走 edge-tts 免注册、无常开机器不需 Mac mini);仅剩配 API key(智谱/CF token,走 Secrets)
 - [ ] 按 Gherkin 写测试 → 实现 → 跑绿
 - [ ] 开工第一周：灌 50 集真数据，验收中文搜索质量（Quartz 官方说好、未实测）
