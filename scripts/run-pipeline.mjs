@@ -21,9 +21,10 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 // 已退役(停抓,内容品味档案.md):Latent Space(🟡 混杂:AINews 水贴 + 模型发布 → 砍)。
 // 待接(下一步,非本切片):a16z / How I AI(非 Substack、无官方稿 → 需 ASR 决策);Y Combinator(YouTube 抓取坎)。
 export const SOURCES = [
-  // 用自定义域名 feed(非 api.substack.com):后者本机直连超时/需代理,前者 node fetch 直连可达,
-  // cloud runner 也无本地代理。内容同为 Lenny's Substack RSS(含播客 enclosure;无音频的新闻贴由 isInterview 排掉)。
-  { key: "lennys", feedUrl: "https://www.lennysnewsletter.com/feed" },
+  // api.substack.com feed 吐**全部 353 集历史**(www 自定义域名 feed 只吐最近 20 条,够不着历史 backlog)。
+  // ⚠️ 本机 node fetch 连 api.substack 超时(本地代理问题),但云 runner 网络干净、实测可达(backfill=40 首验)。
+  // id 派生只用 /p/slug、link 格式两 feed 一致 → 换源不破已做集的 dedup(已验:Netflix id 完全一致)。
+  { key: "lennys", feedUrl: "https://api.substack.com/feed/podcast/10845.rss" },
 ];
 
 export const STATE_FILE = join(ROOT, "data/pipeline-state.json");
