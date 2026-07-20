@@ -120,6 +120,16 @@ jobs:
             cp "$f" "public/audio/$id.mp3"
           done
           ls -la public/audio
+          # 3.5) 私有播客 feed 随站点部署(drift #29:此步原缺 → feed.xml 不进 public/、
+          #      Quartz 只出自家 index.xml,线上 /feed.xml 源头 404、订阅端只剩 CDN 幽灵)。
+          #      build-feed ROOT 脚本锚定仓库根,从 site/ 跑仍正确读 samples/ + data/episodes。
+          node ../scripts/build-feed.mjs --out public/feed.xml
+          # feed 短缓存(drift #29:原遗留 s-maxage=7d 让新集最多 7 天才对播客 App 可见)。
+          printf '/feed.xml\n  Cache-Control: public, max-age=3600, must-revalidate\n' > public/_headers
+          # 部署前硬断言:feed 真在产物里且有 enclosure(Scenario 5 回归防护,防再次漏 feed 静默上线)。
+          feed_n=$(grep -c '<enclosure' public/feed.xml || true)
+          echo "public/feed.xml enclosure=$feed_n(public/audio mp3=$(ls public/audio/*.mp3 2>/dev/null | wc -l | tr -d ' '))"
+          [ "${feed_n:-0}" -gt 0 ] || { echo "::error::public/feed.xml 无 enclosure,拒绝部署(drift #29 回归:feed 必须随站点上线,不放行只剩 CDN 幽灵的站)"; exit 1; }
           # 4) 部署(CF API token,非交互;项目 voice-solomind)
           npx wrangler pages deploy public --project-name voice-solomind --branch main
 

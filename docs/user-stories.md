@@ -652,8 +652,20 @@ Then  手机直接能读中文精华(无登录门);播客 App 真订到节目、
   # 里程碑规矩:用户亲手在真手机 + 真播客 App 验收,不认机器绿/不认 curl 代理
 ```
 
+### Scenario 5 · feed.xml 随部署产物上线且源头可达(回归防护 · drift #29)
+```
+Given 部署步骤已把音频补进 data/episodes/<id>/audio.mp3(deploy step 0)并 cd 进 site/
+When  [系统] deploy 在 wrangler 前跑 build-feed.mjs --out public/feed.xml,并写 public/_headers 给 feed 配短缓存
+Then  public/feed.xml 真存在且 <enclosure> 数>0(否则 exit 非 0 拒绝部署,不放行「无 feed」的产物)
+And   部署后源头(cache-buster 绕 CDN)curl /feed.xml 返 200、含本轮已发布集的 enclosure
+And   feed.xml 的 Cache-Control 短(≤1h),新集对播客 App 及时可见——不被 s-maxage=7d 边缘缓存冻住
+  Scenario 5a [回归根因·实况 2026-07-20] deploy 只拷音频、没生成/拷 feed.xml → public/ 无 feed:
+    Then  部署前断言拦下(exit 非 0),不静默部署出「源头 feed 404、线上只剩 34h CDN 幽灵」的站(C7b/C8 重构部署步骤时漏掉 feed 拷贝正是此洞)
+```
+
 ### 测试锚点(US-4 / US-5)
 - **主证据=用户亲手真设备**:手机浏览器打开站点读 + 播客 App 真订真听。**不认 mock 绿、不认 existsSync 代理**(D34 教训:真请求)。
+- **feed 上线回归机器闸门(新增,Scenario 5)**:deploy 在 wrangler 前硬断言 `public/feed.xml` 存在且 enclosure>0,不满足即 exit 非 0 拒绝部署——把「feed 是否随站点上线」从「靠人 curl 记得查」升级成机器卡死。
 - **机器可覆盖的**:feed enclosure 是站点 URL(部署后真 curl 200 拉全 mp3)、feedEnclosuresFromXml 真校验可达进 gate-audio/verify;站点公开可访问靠部署后真 curl 200 验。
 - ⚠️ **诚实边界**:①播客 App 订阅属**部署态真行为**,本地脚本够不着 → 靠里程碑人工验收 + 如实记「哪些人工核过、哪些是代理」②音频随 Pages 静态(不用 R2,drift #18);存档层备份归 C7c③公开站下前端外链 CDN 泄漏(D36)C7a 记账不修,归 C7c。
 
