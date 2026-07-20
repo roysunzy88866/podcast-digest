@@ -1,0 +1,7162 @@
+[
+ {
+  "seg": 0,
+  "start": 0.091,
+  "end": 1.832,
+  "speaker": "Eddie Kim",
+  "en": "We had no meetings,",
+  "zh": "我们没有任何会议，"
+ },
+ {
+  "seg": 1,
+  "start": 2.012,
+  "end": 3.533,
+  "speaker": "Eddie Kim",
+  "en": "we had no tech specs,",
+  "zh": "我们没有任何技术规格，"
+ },
+ {
+  "seg": 2,
+  "start": 3.733,
+  "end": 8.896,
+  "speaker": "Eddie Kim",
+  "en": "we had no figmas, we had no JIRA board where we tracked stories or tracked work.",
+  "zh": "我们没有任何 Figma，我们没有任何 JIRA 看板来追踪故事或追踪工作。"
+ },
+ {
+  "seg": 3,
+  "start": 9.036,
+  "end": 9.665999999999999,
+  "speaker": "Eddie Kim",
+  "en": "We had nothing.",
+  "zh": "我们一无所有。"
+ },
+ {
+  "seg": 4,
+  "start": 9.716,
+  "end": 13.799,
+  "speaker": "Eddie Kim",
+  "en": "We used Cloudflare Worker for the actual agent loop and Vercel AI SDK.",
+  "zh": "我们使用 Cloudflare Worker 用于实际的智能体循环和 Vercel AI SDK。"
+ },
+ {
+  "seg": 5,
+  "start": 13.919,
+  "end": 14.369,
+  "speaker": "Eddie Kim",
+  "en": "That's it.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 6,
+  "start": 14.419,
+  "end": 18.230999999999998,
+  "speaker": "Claire Vo",
+  "en": "People get really intimidated by the idea of building an agent and I'm like,",
+  "zh": "人们对构建智能体的想法感到非常畏惧，而我想说，"
+ },
+ {
+  "seg": 7,
+  "start": 18.281,
+  "end": 22.163,
+  "speaker": "Claire Vo",
+  "en": "Literally, it's an agent SDK running somewhere in the cloud.",
+  "zh": "实际上，它就是一个运行在云端某处的智能体 SDK。"
+ },
+ {
+  "seg": 8,
+  "start": 22.343,
+  "end": 24.974,
+  "speaker": "Claire Vo",
+  "en": "And if you use AI SDK, you get to switch your model.",
+  "zh": "如果你使用 AI SDK，你可以切换你的模型。"
+ },
+ {
+  "seg": 9,
+  "start": 25.024,
+  "end": 25.554,
+  "speaker": "Claire Vo",
+  "en": "That's it.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 10,
+  "start": 25.604,
+  "end": 26.735,
+  "speaker": "Claire Vo",
+  "en": "It can look up files.",
+  "zh": "它可以查找文件。"
+ },
+ {
+  "seg": 11,
+  "start": 26.785,
+  "end": 27.755,
+  "speaker": "Claire Vo",
+  "en": "It can have tools.",
+  "zh": "它可以拥有工具。"
+ },
+ {
+  "seg": 12,
+  "start": 27.805,
+  "end": 29.776,
+  "speaker": "Claire Vo",
+  "en": "It's really not that scary and complicated.",
+  "zh": "它真的没有那么可怕和复杂。"
+ },
+ {
+  "seg": 13,
+  "start": 29.826,
+  "end": 35.529,
+  "speaker": "Eddie Kim",
+  "en": "Co-founder was primarily built by five folks over the course of 10 weeks",
+  "zh": "Co-founder 主要由五个人在 10 周内构建完成"
+ },
+ {
+  "seg": 14,
+  "start": 35.689,
+  "end": 39.891,
+  "speaker": "Eddie Kim",
+  "en": "from initial idea, zero code to a tier one launch at Gusto.",
+  "zh": "从最初的想法，零代码到在 Gusto 进行一级发布。"
+ },
+ {
+  "seg": 15,
+  "start": 40.102,
+  "end": 42.304,
+  "speaker": "Claire Vo",
+  "en": "How did you all make those precious decisions",
+  "zh": "你们是如何做出那些珍贵决策的"
+ },
+ {
+  "seg": 16,
+  "start": 42.344,
+  "end": 45.817,
+  "speaker": "Claire Vo",
+  "en": "that only genius product managers can make about in or out of scope?",
+  "zh": "那些只有天才产品经理才能做出的关于范围之内或范围之外的决策？"
+ },
+ {
+  "seg": 17,
+  "start": 45.867,
+  "end": 46.838,
+  "speaker": "Claire Vo",
+  "en": "Will this matter?",
+  "zh": "这重要吗？"
+ },
+ {
+  "seg": 18,
+  "start": 46.888,
+  "end": 49.931,
+  "speaker": "Eddie Kim",
+  "en": "We would build features and we just have a discussion.",
+  "zh": "我们会构建功能，然后我们只是进行讨论。"
+ },
+ {
+  "seg": 19,
+  "start": 49.951,
+  "end": 52.243,
+  "speaker": "Eddie Kim",
+  "en": "Like, does this make sense to have or not?",
+  "zh": "比如，拥有这个有没有意义？"
+ },
+ {
+  "seg": 20,
+  "start": 52.293,
+  "end": 55.065000000000005,
+  "speaker": "Eddie Kim",
+  "en": "If it is, then it would get code reviewed right then and there.",
+  "zh": "如果有，那么它会在当时当地进行代码审查。"
+ },
+ {
+  "seg": 21,
+  "start": 55.115,
+  "end": 56.987,
+  "speaker": "Eddie Kim",
+  "en": "And if not, we would just delete it.",
+  "zh": "如果没有，我们就直接删除它。"
+ },
+ {
+  "seg": 22,
+  "start": 57.037,
+  "end": 60.249,
+  "speaker": "Claire Vo",
+  "en": "I call this the trashcan method of software engineering right now,",
+  "zh": "我现在称之为软件工程的垃圾桶法，"
+ },
+ {
+  "seg": 23,
+  "start": 60.299,
+  "end": 62.49,
+  "speaker": "Claire Vo",
+  "en": "where you can actually trash all the code,",
+  "zh": "在那里你实际上可以丢弃所有代码，"
+ },
+ {
+  "seg": 24,
+  "start": 62.54,
+  "end": 66.222,
+  "speaker": "Claire Vo",
+  "en": "start like a slash V2 branch and rebuild it from scratch.",
+  "zh": "就像开始一个 slash V2 分支并从头开始重建它。"
+ },
+ {
+  "seg": 25,
+  "start": 66.302,
+  "end": 71.224,
+  "speaker": "Claire Vo",
+  "en": "And it's totally reasonable to do because the cost of the code is so low.",
+  "zh": "这样做是完全合理的，因为代码成本非常低。"
+ },
+ {
+  "seg": 26,
+  "start": 71.504,
+  "end": 73.585,
+  "speaker": "Claire Vo",
+  "en": "Welcome back to How I AI.",
+  "zh": "欢迎回到 How I AI。"
+ },
+ {
+  "seg": 27,
+  "start": 73.805,
+  "end": 74.49600000000001,
+  "speaker": "Claire Vo",
+  "en": "I'm Claire Vo,",
+  "zh": "我是 Claire Vo，"
+ },
+ {
+  "seg": 28,
+  "start": 74.546,
+  "end": 78.09700000000001,
+  "speaker": "Claire Vo",
+  "en": "product leader and AI obsessive here on a mission to help you build better",
+  "zh": "产品负责人和 AI 狂热者，在此使命是帮助您构建得更好"
+ },
+ {
+  "seg": 29,
+  "start": 78.147,
+  "end": 79.31366666666668,
+  "speaker": "Claire Vo",
+  "en": "with these new tools.",
+  "zh": "使用这些新工具。"
+ },
+ {
+  "seg": 30,
+  "start": 79.488,
+  "end": 84.011,
+  "speaker": "Claire Vo",
+  "en": "Today I have Eddie Kim CTO and co-founder of Gusto and he's going",
+  "zh": "今天我有 Eddie Kim，Gusto 的 CTO 和联合创始人，他将"
+ },
+ {
+  "seg": 31,
+  "start": 84.031,
+  "end": 88.775,
+  "speaker": "Claire Vo",
+  "en": "to show us how he three engineers and one designer completely rebuilt their app",
+  "zh": "向我们展示他、三位工程师和一位设计师如何在短短 10 周内完全重建了他们的应用"
+ },
+ {
+  "seg": 32,
+  "start": 88.915,
+  "end": 90.216,
+  "speaker": "Claire Vo",
+  "en": "in just 10 weeks.",
+  "zh": "在短短 10 周内。"
+ },
+ {
+  "seg": 33,
+  "start": 90.697,
+  "end": 94.069,
+  "speaker": "Claire Vo",
+  "en": "This is not a small company and yet they're shipping like they're a startup.",
+  "zh": "这不是一家小公司，然而他们的发布速度却像初创公司一样。"
+ },
+ {
+  "seg": 34,
+  "start": 94.119,
+  "end": 94.95,
+  "speaker": "Claire Vo",
+  "en": "Let's get to it.",
+  "zh": "让我们开始吧。"
+ },
+ {
+  "seg": 35,
+  "start": 95,
+  "end": 97.982,
+  "speaker": "Claire Vo",
+  "en": "This episode is brought to you by Magic Patterns.",
+  "zh": "本集由 Magic Patterns 赞助。"
+ },
+ {
+  "seg": 36,
+  "start": 98.422,
+  "end": 104.227,
+  "speaker": "Claire Vo",
+  "en": "Today's engineers use cursor and cloud code to ship features in hours that used to take weeks.",
+  "zh": "今天的工程师使用 cursor 和 cloud code 在几小时内交付以前需要几周才能完成的功能。"
+ },
+ {
+  "seg": 37,
+  "start": 104.827,
+  "end": 107.97800000000001,
+  "speaker": "Claire Vo",
+  "en": "If you're a designer or PM, you've probably felt a shift too.",
+  "zh": "如果你是一位设计师或 PM，你可能也感觉到了这种转变。"
+ },
+ {
+  "seg": 38,
+  "start": 108.028,
+  "end": 109.58355555555556,
+  "speaker": "Claire Vo",
+  "en": "The pressure to move faster,",
+  "zh": "需要更快速度的压力，"
+ },
+ {
+  "seg": 39,
+  "start": 109.648,
+  "end": 110.558,
+  "speaker": "Claire Vo",
+  "en": "validate sooner,",
+  "zh": "更早验证，"
+ },
+ {
+  "seg": 40,
+  "start": 110.608,
+  "end": 114.49900000000001,
+  "speaker": "Claire Vo",
+  "en": "and keep up with the team that's operating at a completely different speed.",
+  "zh": "并跟上以完全不同速度运作的团队。"
+ },
+ {
+  "seg": 41,
+  "start": 114.549,
+  "end": 117.78,
+  "speaker": "Claire Vo",
+  "en": "You've already tried AI prototyping tools to close that gap.",
+  "zh": "你已经尝试过 AI 原型制作工具来缩小这种差距。"
+ },
+ {
+  "seg": 42,
+  "start": 117.83,
+  "end": 120.961,
+  "speaker": "Claire Vo",
+  "en": "But if your prototypes don't look like your actual product,",
+  "zh": "但如果你的原型看起来不像你的实际产品，"
+ },
+ {
+  "seg": 43,
+  "start": 121.011,
+  "end": 123.221,
+  "speaker": "Claire Vo",
+  "en": "it doesn't matter how fast you can build.",
+  "zh": "你构建得有多快并不重要。"
+ },
+ {
+  "seg": 44,
+  "start": 123.271,
+  "end": 125.892,
+  "speaker": "Claire Vo",
+  "en": "You still end up redrawing it by hand.",
+  "zh": "你最终还是要手工重绘它。"
+ },
+ {
+  "seg": 45,
+  "start": 126.392,
+  "end": 130.313,
+  "speaker": "Claire Vo",
+  "en": "Magic Patterns takes your product team from idea to production.",
+  "zh": "Magic Patterns 带领你的产品团队从想法到生产。"
+ },
+ {
+  "seg": 46,
+  "start": 130.793,
+  "end": 132.98499999999999,
+  "speaker": "Claire Vo",
+  "en": "and works from your real design system.",
+  "zh": "并从你的真实设计系统开始工作。"
+ },
+ {
+  "seg": 47,
+  "start": 133.035,
+  "end": 137.42388888888888,
+  "speaker": "Claire Vo",
+  "en": "When you build a prototype, what you get back actually looks like your product.",
+  "zh": "当你构建一个原型时，你得到的结果实际上看起来像你的产品。"
+ },
+ {
+  "seg": 48,
+  "start": 137.678,
+  "end": 138.849,
+  "speaker": "Claire Vo",
+  "en": "You'll validate faster,",
+  "zh": "你将验证得更快，"
+ },
+ {
+  "seg": 49,
+  "start": 138.899,
+  "end": 140.06566666666666,
+  "speaker": "Claire Vo",
+  "en": "get alignment sooner,",
+  "zh": "[[50]]"
+ },
+ {
+  "seg": 50,
+  "start": 140.12,
+  "end": 141.49099999999999,
+  "speaker": "Claire Vo",
+  "en": "and when it's time to build,",
+  "zh": "到了该构建的时候，"
+ },
+ {
+  "seg": 51,
+  "start": 141.541,
+  "end": 145.024,
+  "speaker": "Claire Vo",
+  "en": "engineers can connect your prototype to cursor or cloud code with",
+  "zh": "工程师可以将你的原型连接到 cursor 或 cloud code，"
+ },
+ {
+  "seg": 52,
+  "start": 145.044,
+  "end": 148.526,
+  "speaker": "Claire Vo",
+  "en": "the Magic Patterns MCP to pick up where you left off.",
+  "zh": "使用 Magic Patterns MCP 从你停下的地方继续。"
+ },
+ {
+  "seg": 53,
+  "start": 149.007,
+  "end": 151.429,
+  "speaker": "Claire Vo",
+  "en": "Your eng team has their AI advantage.",
+  "zh": "你的工程团队拥有了他们的 AI 优势。"
+ },
+ {
+  "seg": 54,
+  "start": 151.709,
+  "end": 153.53,
+  "speaker": "Claire Vo",
+  "en": "Make Magic Patterns yours.",
+  "zh": "让 Magic Patterns 成为你自己的工具。"
+ },
+ {
+  "seg": 55,
+  "start": 154.031,
+  "end": 158.974,
+  "speaker": "Claire Vo",
+  "en": "Try it today at magicpatterns.com slash howiai.",
+  "zh": "今天就在 magicpatterns.com/howiai 试用。"
+ },
+ {
+  "seg": 56,
+  "start": 160.325,
+  "end": 162.706,
+  "speaker": "Claire Vo",
+  "en": "Eddie, thank you for joining How I AI.",
+  "zh": "Eddie，感谢你加入 How I AI。"
+ },
+ {
+  "seg": 57,
+  "start": 162.766,
+  "end": 166.59799999999998,
+  "speaker": "Claire Vo",
+  "en": "I'm so excited you reached out to chat because one of my favorite themes",
+  "zh": "我很兴奋你主动联系来聊天，因为我现在看到的最喜欢的主题之一是"
+ },
+ {
+  "seg": 58,
+  "start": 166.648,
+  "end": 168.53688888888888,
+  "speaker": "Claire Vo",
+  "en": "that I'm seeing right now is CEOs,",
+  "zh": "CEO、"
+ },
+ {
+  "seg": 59,
+  "start": 168.948,
+  "end": 174.991,
+  "speaker": "Claire Vo",
+  "en": "CTOs, founders, executives getting back to building product.",
+  "zh": "CTO、创始人、高管们回归到构建产品。"
+ },
+ {
+  "seg": 60,
+  "start": 175.311,
+  "end": 181.273,
+  "speaker": "Claire Vo",
+  "en": "And you're here to tell us how you built some product with the team both very fast",
+  "zh": "你在这里是为了告诉我们你是如何与团队一起构建一些产品，既非常快"
+ },
+ {
+  "seg": 61,
+  "start": 181.493,
+  "end": 183.184,
+  "speaker": "Claire Vo",
+  "en": "and in a completely different way.",
+  "zh": "而且方式完全不同。"
+ },
+ {
+  "seg": 62,
+  "start": 183.234,
+  "end": 185.76999999999998,
+  "speaker": "Eddie Kim",
+  "en": "Yes, thanks for having me and great to connect again.",
+  "zh": "是的，感谢邀请我来，很高兴再次连接。"
+ },
+ {
+  "seg": 63,
+  "start": 185.82,
+  "end": 188.922,
+  "speaker": "Claire Vo",
+  "en": "yeah so tell us the story of co-founder",
+  "zh": "好吧，告诉我们联合创始人的故事"
+ },
+ {
+  "seg": 64,
+  "start": 189.162,
+  "end": 193.43599999999998,
+  "speaker": "Claire Vo",
+  "en": "and why you think this is you know given all your experience you know running this",
+  "zh": "以及为什么你认为，你知道，鉴于你所有的经验，经营这家"
+ },
+ {
+  "seg": 65,
+  "start": 193.486,
+  "end": 197.148,
+  "speaker": "Claire Vo",
+  "en": "company being a leader being a builder why this is so different",
+  "zh": "公司，作为领导者，作为构建者，为什么这如此不同"
+ },
+ {
+  "seg": 66,
+  "start": 197.208,
+  "end": 200.07,
+  "speaker": "Eddie Kim",
+  "en": "than what you've seen before so first of all the product is really different",
+  "zh": "于你以前见过的，所以首先这个产品真的不同"
+ },
+ {
+  "seg": 67,
+  "start": 200.09,
+  "end": 203.973,
+  "speaker": "Eddie Kim",
+  "en": "from anything that we've built before but what I'm actually really excited is kind",
+  "zh": "于我们以前构建的任何东西，但我实际上真正兴奋的是有点"
+ },
+ {
+  "seg": 68,
+  "start": 204.013,
+  "end": 208.816,
+  "speaker": "Eddie Kim",
+  "en": "of more of how we built this and how we can take the learnings that we had",
+  "zh": "更多的是关于我们如何构建这个，以及我们如何利用我们获得的经验"
+ },
+ {
+  "seg": 69,
+  "start": 208.836,
+  "end": 213.46,
+  "speaker": "Eddie Kim",
+  "en": "in building co-founders the quality and the speed in which we built this",
+  "zh": "在构建联合创始人的过程中，我们构建它的质量和速度"
+ },
+ {
+  "seg": 70,
+  "start": 213.86,
+  "end": 214.921,
+  "speaker": "Eddie Kim",
+  "en": "and apply this to",
+  "zh": "并应用到"
+ },
+ {
+  "seg": 71,
+  "start": 215.527,
+  "end": 220.1381111111111,
+  "speaker": "Eddie Kim",
+  "en": "you know the the rest of our R&D organization here at Gustav which you know we have",
+  "zh": "知道我们在 Gustav 这里 R&D 组织的其余部分，你知道我们有"
+ },
+ {
+  "seg": 72,
+  "start": 220.751,
+  "end": 221.731,
+  "speaker": "Eddie Kim",
+  "en": "over a thousand people and",
+  "zh": "超过一千人，而且"
+ },
+ {
+  "seg": 73,
+  "start": 221.771,
+  "end": 224.693,
+  "speaker": "Eddie Kim",
+  "en": "so I think we're just you know I feel like I just discovered",
+  "zh": "所以我想我们只是，你知道我觉得我刚发现"
+ },
+ {
+  "seg": 74,
+  "start": 224.733,
+  "end": 228.596,
+  "speaker": "Eddie Kim",
+  "en": "on something like really incredible and I just want to like kind",
+  "zh": "在一些像真正令人难以置信的东西上，我只是想"
+ },
+ {
+  "seg": 75,
+  "start": 228.636,
+  "end": 231.278,
+  "speaker": "Eddie Kim",
+  "en": "of figure out how do we spread the word to not just our company today but",
+  "zh": "弄清楚我们如何传播这个词，不仅是今天到我们的公司，而且"
+ },
+ {
+  "seg": 76,
+  "start": 231.318,
+  "end": 237.542,
+  "speaker": "Eddie Kim",
+  "en": "to any kind of engineering design or product management discipline person and",
+  "zh": "对任何类型的工程、设计或产品管理学科的人，并且"
+ },
+ {
+  "seg": 77,
+  "start": 237.602,
+  "end": 240.985,
+  "speaker": "Claire Vo",
+  "en": "so you say you have about a thousand people in your R&D organization",
+  "zh": "所以你说你的 R&D 组织中大约有一千人，"
+ },
+ {
+  "seg": 78,
+  "start": 241.025,
+  "end": 244.525,
+  "speaker": "Claire Vo",
+  "en": "but remind me how many people did it take to build this product",
+  "zh": "但提醒我一下，构建这个产品花了多少人，"
+ },
+ {
+  "seg": 79,
+  "start": 244.809,
+  "end": 251.473,
+  "speaker": "Eddie Kim",
+  "en": "Gusto co-founder was primarily built by five folks, myself,",
+  "zh": "Gusto 联合创始人主要由五个人构建，我自己，"
+ },
+ {
+  "seg": 80,
+  "start": 252.233,
+  "end": 256.8441111111111,
+  "speaker": "Eddie Kim",
+  "en": "three engineers, I count myself as an engineer, so four engineers and one designer.",
+  "zh": "三个工程师，我把自己算作工程师，所以四个工程师和一个设计师。"
+ },
+ {
+  "seg": 81,
+  "start": 256.916,
+  "end": 259.2493333333333,
+  "speaker": "Eddie Kim",
+  "en": "So we had one designer and four engineers,",
+  "zh": "所以我们有一个设计师和四个工程师，"
+ },
+ {
+  "seg": 82,
+  "start": 259.638,
+  "end": 264.1,
+  "speaker": "Eddie Kim",
+  "en": "and we built it over the course of 10 weeks from initial idea,",
+  "zh": "我们在 10 周内从最初的想法构建了它，"
+ },
+ {
+  "seg": 83,
+  "start": 264.64,
+  "end": 270.704,
+  "speaker": "Eddie Kim",
+  "en": "zero code to 10 weeks shipping it to a tier one launch at Gusto.",
+  "zh": "零代码到 10 周后将其作为一级发布推送到 Gusto。"
+ },
+ {
+  "seg": 84,
+  "start": 271.157,
+  "end": 275.921,
+  "speaker": "Claire Vo",
+  "en": "it's got to feel so much so fun I don't know if you're like me I spent",
+  "zh": "这肯定感觉非常有趣，我不知道你是否像我一样，我花了"
+ },
+ {
+  "seg": 85,
+  "start": 276.081,
+  "end": 281.426,
+  "speaker": "Claire Vo",
+  "en": "the past couple years pre-AI spending so much of my time like prioritizing",
+  "zh": "过去几年在 AI 之前花了太多时间来排定优先级"
+ },
+ {
+  "seg": 86,
+  "start": 281.466,
+  "end": 285.93,
+  "speaker": "Claire Vo",
+  "en": "and planning out quarters and saying can this come in Q1 or is this going to be",
+  "zh": "并按季度规划，并说这能在 Q1 完成还是会"
+ },
+ {
+  "seg": 87,
+  "start": 285.97,
+  "end": 290.814,
+  "speaker": "Claire Vo",
+  "en": "a next fiscal year thing and now where you can take you know peel off less than half",
+  "zh": "是下一个财年的事，而现在你可以剥离不到半打"
+ },
+ {
+  "seg": 88,
+  "start": 290.854,
+  "end": 297.46,
+  "speaker": "Claire Vo",
+  "en": "a dozen folks and ship a real product line completely net new in less than",
+  "zh": "人并在不到"
+ },
+ {
+  "seg": 89,
+  "start": 297.48,
+  "end": 299.0911111111111,
+  "speaker": "Claire Vo",
+  "en": "a quarter it's pretty amazing",
+  "zh": "一个季度的时间内发布一个真正的产品线完全全新的，这非常神奇"
+ },
+ {
+  "seg": 90,
+  "start": 299.862,
+  "end": 304.506,
+  "speaker": "Eddie Kim",
+  "en": "it is incredible and the origin of this was not on it wasn't",
+  "zh": "这令人难以置信，而且这最初并不在任何"
+ },
+ {
+  "seg": 91,
+  "start": 304.566,
+  "end": 310.031,
+  "speaker": "Eddie Kim",
+  "en": "on any road map it was not anything that we really thought about it kind",
+  "zh": "路线图上，它不是我们真正考虑过的任何东西，它有点"
+ },
+ {
+  "seg": 92,
+  "start": 310.071,
+  "end": 314.835,
+  "speaker": "Eddie Kim",
+  "en": "of just came about because I was actually on vacation in February",
+  "zh": "只是偶然发生，因为实际上我二月份在度假"
+ },
+ {
+  "seg": 93,
+  "start": 315.595,
+  "end": 317.897,
+  "speaker": "Eddie Kim",
+  "en": "and I was flying back from Madrid",
+  "zh": "我正从马德里飞回来"
+ },
+ {
+  "seg": 94,
+  "start": 319.519,
+  "end": 326.149,
+  "speaker": "Eddie Kim",
+  "en": "my flight had a layover in London and the flight from Madrid to London was delayed",
+  "zh": "我的航班在伦敦转机，从马德里到伦敦的航班延误了"
+ },
+ {
+  "seg": 95,
+  "start": 326.249,
+  "end": 331.496,
+  "speaker": "Eddie Kim",
+  "en": "and I just barely missed my flight from London to San Francisco",
+  "zh": "我刚好错过了从伦敦到旧金山的航班"
+ },
+ {
+  "seg": 96,
+  "start": 332.057,
+  "end": 333.84,
+  "speaker": "Eddie Kim",
+  "en": "and I had this like five hour",
+  "zh": "我有这五个小时"
+ },
+ {
+  "seg": 97,
+  "start": 334.601,
+  "end": 341.601,
+  "speaker": "Eddie Kim",
+  "en": "And I was like, hey, now I have like five hours to like waste.",
+  "zh": "我就像，嘿，现在我有像五个小时来浪费。"
+ },
+ {
+  "seg": 98,
+  "start": 343.888,
+  "end": 346.66577777777775,
+  "speaker": "Eddie Kim",
+  "en": "I'm going to get home super late in San Francisco.",
+  "zh": "我会很晚才到旧金山家里。"
+ },
+ {
+  "seg": 99,
+  "start": 346.811,
+  "end": 347.782,
+  "speaker": "Eddie Kim",
+  "en": "What do I do?",
+  "zh": "我该做什么？"
+ },
+ {
+  "seg": 100,
+  "start": 347.832,
+  "end": 350.174,
+  "speaker": "Eddie Kim",
+  "en": "And I had been like kind of playing around with cloud code.",
+  "zh": "我当时只是稍微玩了一下 Cloud Code。"
+ },
+ {
+  "seg": 101,
+  "start": 350.194,
+  "end": 354.027,
+  "speaker": "Eddie Kim",
+  "en": "I was probably one of those like tech leaders that you sometimes hear about",
+  "zh": "我大概就是你有时听说的那种技术领导者之一"
+ },
+ {
+  "seg": 102,
+  "start": 354.077,
+  "end": 358.06,
+  "speaker": "Eddie Kim",
+  "en": "that like vibe code something over a weekend and then comes",
+  "zh": "那种在周末凭借感觉编程（vibe code），然后"
+ },
+ {
+  "seg": 103,
+  "start": 358.08,
+  "end": 361.633,
+  "speaker": "Eddie Kim",
+  "en": "to their engineering team is like, look, I built this whole thing.",
+  "zh": "走到工程团队面前说，看，我构建了这整个东西。"
+ },
+ {
+  "seg": 104,
+  "start": 361.683,
+  "end": 364.205,
+  "speaker": "Eddie Kim",
+  "en": "why can't we do it yourself you know like and then just kind",
+  "zh": "为什么我们不能自己做，你知道，然后有点"
+ },
+ {
+  "seg": 105,
+  "start": 364.245,
+  "end": 367.606,
+  "speaker": "Eddie Kim",
+  "en": "of like pisses people off because you know first of all",
+  "zh": "惹恼了大家，因为你知道首先"
+ },
+ {
+  "seg": 106,
+  "start": 367.646,
+  "end": 371.428,
+  "speaker": "Eddie Kim",
+  "en": "that was like completely vibe coded it's not production ready um but that was",
+  "zh": "那完全是凭感觉写的代码，它还没准备好投入生产，但那确实"
+ },
+ {
+  "seg": 107,
+  "start": 371.469,
+  "end": 374.59,
+  "speaker": "Eddie Kim",
+  "en": "that was my start into it as I started using cloud code a lot more first",
+  "zh": "是我入行的起点，我开始更多地使用 Cloud Code，首先"
+ },
+ {
+  "seg": 108,
+  "start": 374.61,
+  "end": 377.412,
+  "speaker": "Eddie Kim",
+  "en": "to prototype things and just kind of like you know",
+  "zh": "是用来制作原型，就有点像你知道的"
+ },
+ {
+  "seg": 109,
+  "start": 378.383,
+  "end": 380.82744444444444,
+  "speaker": "Eddie Kim",
+  "en": "materialize random ideas that I would have.",
+  "zh": "将我脑子里的随机想法实现出来。"
+ },
+ {
+  "seg": 110,
+  "start": 380.966,
+  "end": 383.548,
+  "speaker": "Eddie Kim",
+  "en": "And so in this like five hour layover,",
+  "zh": "所以在这个五小时的转机候机中，"
+ },
+ {
+  "seg": 111,
+  "start": 383.588,
+  "end": 387.311,
+  "speaker": "Eddie Kim",
+  "en": "I just took out my computer and started cloud coding this idea",
+  "zh": "我只是拿出电脑开始用 Cloud Code 编写这个"
+ },
+ {
+  "seg": 112,
+  "start": 387.352,
+  "end": 390.534,
+  "speaker": "Eddie Kim",
+  "en": "that had been percolating in the back of my mind and just seeing how far I can get",
+  "zh": "一直在我脑海酝酿的想法，看看我能走多远"
+ },
+ {
+  "seg": 113,
+  "start": 390.575,
+  "end": 391.34499999999997,
+  "speaker": "Eddie Kim",
+  "en": "with it.",
+  "zh": "把它做到什么程度。"
+ },
+ {
+  "seg": 114,
+  "start": 391.395,
+  "end": 394.4505555555555,
+  "speaker": "Eddie Kim",
+  "en": "And by the time I had actually landed in San Francisco,",
+  "zh": "而当我实际落地旧金山时，"
+ },
+ {
+  "seg": 115,
+  "start": 395.319,
+  "end": 399.983,
+  "speaker": "Eddie Kim",
+  "en": "I had this like prototype of what ultimately became Gusto co-founder.",
+  "zh": "我已经有了这个最终成为 Gusto Co-Founder 的原型。"
+ },
+ {
+  "seg": 116,
+  "start": 401.064,
+  "end": 402.064,
+  "speaker": "Eddie Kim",
+  "en": "And",
+  "zh": "然后"
+ },
+ {
+  "seg": 117,
+  "start": 402.505,
+  "end": 406.428,
+  "speaker": "Eddie Kim",
+  "en": "I just took it to a few engineers that I talked to regularly,",
+  "zh": "我只是把它拿给我经常交谈的几个工程师看，"
+ },
+ {
+  "seg": 118,
+  "start": 406.748,
+  "end": 407.9146666666667,
+  "speaker": "Eddie Kim",
+  "en": "our senior engineers,",
+  "zh": "我们的资深工程师，"
+ },
+ {
+  "seg": 119,
+  "start": 408.269,
+  "end": 409.91,
+  "speaker": "Eddie Kim",
+  "en": "and I talked to Katie Kovalchen,",
+  "zh": "我还和 Katie Kovalchen 谈了谈，"
+ },
+ {
+  "seg": 120,
+  "start": 409.93,
+  "end": 413.292,
+  "speaker": "Eddie Kim",
+  "en": "our designer, and we just started riffing on the idea a little bit.",
+  "zh": "我们的设计师，我们只是开始在这个想法上即兴发挥了一下。"
+ },
+ {
+  "seg": 121,
+  "start": 413.312,
+  "end": 418.216,
+  "speaker": "Eddie Kim",
+  "en": "The ultimate materialization of GUSA Co-Founder is a little bit different from",
+  "zh": "GUSA Co-Founder 的最终实现与"
+ },
+ {
+  "seg": 122,
+  "start": 418.276,
+  "end": 423.399,
+  "speaker": "Eddie Kim",
+  "en": "that prototype that I had made, but that was really the origin of this all.",
+  "zh": "我制作的原型有点不同，但这确实是一切的起源。"
+ },
+ {
+  "seg": 123,
+  "start": 423.979,
+  "end": 426.59011111111107,
+  "speaker": "Eddie Kim",
+  "en": "And 10 weeks after that, we shipped this thing.",
+  "zh": "而在那之后的十周，我们发布了这个产品。"
+ },
+ {
+  "seg": 124,
+  "start": 426.782,
+  "end": 427.903,
+  "speaker": "Claire Vo",
+  "en": "So what I love about this story,",
+  "zh": "所以我热爱这个故事的地方在于，"
+ },
+ {
+  "seg": 125,
+  "start": 427.923,
+  "end": 431.556,
+  "speaker": "Claire Vo",
+  "en": "I'm going to take a little detour because I've heard this over and over again",
+  "zh": "我要稍微岔开一下，因为我从朋友那里"
+ },
+ {
+  "seg": 126,
+  "start": 431.606,
+  "end": 435.089,
+  "speaker": "Claire Vo",
+  "en": "from friends, is you know what I think companies need to give?",
+  "zh": "一遍又一遍地听到这一点，你知道我认为公司需要给予什么？"
+ },
+ {
+  "seg": 127,
+  "start": 435.349,
+  "end": 438.091,
+  "speaker": "Claire Vo",
+  "en": "Just a little bit more time off.",
+  "zh": "只是稍微多一点假期。"
+ },
+ {
+  "seg": 128,
+  "start": 438.432,
+  "end": 440.893,
+  "speaker": "Claire Vo",
+  "en": "Parental leave and long flights.",
+  "zh": "育儿假和长途飞行。"
+ },
+ {
+  "seg": 129,
+  "start": 441.094,
+  "end": 446.058,
+  "speaker": "Claire Vo",
+  "en": "That is where I have heard the vibe coding magic happens over and over again.",
+  "zh": "那就是我一遍又一遍听到凭感觉编程魔法发生的地方。"
+ },
+ {
+  "seg": 130,
+  "start": 446.078,
+  "end": 448.62,
+  "speaker": "Claire Vo",
+  "en": "Like, I was on vacation, but...",
+  "zh": "比如，我在度假，但是……"
+ },
+ {
+  "seg": 131,
+  "start": 450.163,
+  "end": 456.828,
+  "speaker": "Claire Vo",
+  "en": "I was on parental leave and I've got a baby in one arm and codex in the other",
+  "zh": "我在休育儿假，一只手臂抱着宝宝，另一只手拿着 Codex"
+ },
+ {
+  "seg": 132,
+  "start": 456.848,
+  "end": 458.249,
+  "speaker": "Claire Vo",
+  "en": "and I've shipped something.",
+  "zh": "然后我就发布了某个东西。"
+ },
+ {
+  "seg": 133,
+  "start": 458.289,
+  "end": 463.473,
+  "speaker": "Claire Vo",
+  "en": "I just think it's going to trickle down into maker schedules a little bit more where",
+  "zh": "我只是认为这会更多地渗透到创作者日程中，"
+ },
+ {
+  "seg": 134,
+  "start": 463.493,
+  "end": 467.54855555555554,
+  "speaker": "Claire Vo",
+  "en": "if you can give people just a block of time when they're not in meetings,",
+  "zh": "如果你能给人们一段不开会的时间块，"
+ },
+ {
+  "seg": 135,
+  "start": 467.917,
+  "end": 470.479,
+  "speaker": "Claire Vo",
+  "en": "we can move product forward a lot more meaningfully.",
+  "zh": "我们就能更有意义地推进产品。"
+ },
+ {
+  "seg": 136,
+  "start": 470.519,
+  "end": 475.46344444444446,
+  "speaker": "Claire Vo",
+  "en": "So that's a little hypothesis that I have about how some of our work might need to shift.",
+  "zh": "所以这是我的一个小假设，关于我们的一些工作可能需要如何转变。"
+ },
+ {
+  "seg": 137,
+  "start": 476.39,
+  "end": 481.495,
+  "speaker": "Eddie Kim",
+  "en": "I totally agree like now after going through this experience I mean I kind of want",
+  "zh": "我完全同意，就像现在经历了这次体验，我的意思是有点 [[138] ] 想休更多假，说实话，因为实际上我确实"
+ },
+ {
+  "seg": 138,
+  "start": 481.515,
+  "end": 484.437,
+  "speaker": "Eddie Kim",
+  "en": "to take more vacation honestly because like actually I actually went",
+  "zh": "老实说多休点假，因为其实其实我去了"
+ },
+ {
+  "seg": 139,
+  "start": 484.457,
+  "end": 488.48,
+  "speaker": "Eddie Kim",
+  "en": "to my wife we should take another vacation because like this huge thing came out of",
+  "zh": "去找了我妻子，我们应该再休个假，因为上一个假期"
+ },
+ {
+  "seg": 140,
+  "start": 488.5,
+  "end": 491.243,
+  "speaker": "Eddie Kim",
+  "en": "the last vacation that that that we took and",
+  "zh": "带来了这个巨大的成果，我们休的那个假期"
+ },
+ {
+  "seg": 141,
+  "start": 491.343,
+  "end": 495.146,
+  "speaker": "Eddie Kim",
+  "en": "so maybe like another thing will come out of it so let's go like let's figure out",
+  "zh": "所以也许会有另一个东西出来，所以让我们去吧，让我们弄清楚"
+ },
+ {
+  "seg": 142,
+  "start": 495.166,
+  "end": 496.987,
+  "speaker": "Eddie Kim",
+  "en": "where to go and then you know if I have",
+  "zh": "去哪里，然后你知道，如果我有"
+ },
+ {
+  "seg": 143,
+  "start": 497.007,
+  "end": 500.768,
+  "speaker": "Eddie Kim",
+  "en": "a five-hour layover I'm actually gonna be really really happy about that",
+  "zh": "五小时的转机候机，我实际上真的会非常非常开心"
+ },
+ {
+  "seg": 144,
+  "start": 500.818,
+  "end": 506.403,
+  "speaker": "Claire Vo",
+  "en": "Okay, this is how every CEO or executive can land the AI adoption pitch.",
+  "zh": "好的，这就是每个 CEO 或高管可以落地 AI 采用推介的方式。"
+ },
+ {
+  "seg": 145,
+  "start": 506.443,
+  "end": 507.303,
+  "speaker": "Claire Vo",
+  "en": "It's like, look,",
+  "zh": "就像是，看，"
+ },
+ {
+  "seg": 146,
+  "start": 507.343,
+  "end": 513.068,
+  "speaker": "Claire Vo",
+  "en": "if you go on vacation and vibe code something awesome, we're happy to give you more.",
+  "zh": "如果你去度假并凭感觉编出了很棒的东西，我们很乐意给你更多假期。"
+ },
+ {
+  "seg": 147,
+  "start": 513.088,
+  "end": 515.33,
+  "speaker": "Claire Vo",
+  "en": "Well, let's go back to how you built this.",
+  "zh": "好吧，让我们回到你是如何构建它的。"
+ },
+ {
+  "seg": 148,
+  "start": 515.35,
+  "end": 517.372,
+  "speaker": "Claire Vo",
+  "en": "So you were on a layover.",
+  "zh": "所以你在转机候机。"
+ },
+ {
+  "seg": 149,
+  "start": 517.472,
+  "end": 518.152,
+  "speaker": "Claire Vo",
+  "en": "You had this idea.",
+  "zh": "你有了这个想法。"
+ },
+ {
+  "seg": 150,
+  "start": 518.172,
+  "end": 520.384,
+  "speaker": "Claire Vo",
+  "en": "It was kind of like percolating in the back of your mind.",
+  "zh": "它有点像是在你的脑海中酝酿。"
+ },
+ {
+  "seg": 151,
+  "start": 520.434,
+  "end": 521.475,
+  "speaker": "Claire Vo",
+  "en": "You built a prototype.",
+  "zh": "你构建了一个原型。"
+ },
+ {
+  "seg": 152,
+  "start": 521.495,
+  "end": 523.326,
+  "speaker": "Claire Vo",
+  "en": "You brought it back to this like council.",
+  "zh": "你把它带回这个像是委员会的地方。"
+ },
+ {
+  "seg": 153,
+  "start": 523.376,
+  "end": 524.637,
+  "speaker": "Claire Vo",
+  "en": "I call them a council of elders,",
+  "zh": "我称他们为长老委员会，"
+ },
+ {
+  "seg": 154,
+  "start": 524.658,
+  "end": 527.9,
+  "speaker": "Claire Vo",
+  "en": "like this council of product builders or engineers just saying like,",
+  "zh": "就像是这个由产品构建者或工程师组成的委员会，只是说，"
+ },
+ {
+  "seg": 155,
+  "start": 527.94,
+  "end": 528.9955555555556,
+  "speaker": "Claire Vo",
+  "en": "what would it take?",
+  "zh": "那需要什么？"
+ },
+ {
+  "seg": 156,
+  "start": 529.297,
+  "end": 529.858,
+  "speaker": "Claire Vo",
+  "en": "Tell me, though,",
+  "zh": "不过请告诉我，"
+ },
+ {
+  "seg": 157,
+  "start": 529.898,
+  "end": 535.304,
+  "speaker": "Claire Vo",
+  "en": "how you how those 10 weeks actually happened and maybe show us some of the process",
+  "zh": "这 10 周实际上是如何发生的，也许可以向我们展示一些过程"
+ },
+ {
+  "seg": 158,
+  "start": 535.364,
+  "end": 538.038,
+  "speaker": "Claire Vo",
+  "en": "and some of the artifacts along the way that were a little bit different.",
+  "zh": "以及沿途产生的一些有点不同的产物。"
+ },
+ {
+  "seg": 159,
+  "start": 538.088,
+  "end": 541.011,
+  "speaker": "Eddie Kim",
+  "en": "Yeah, I mean, there was no like official counsel.",
+  "zh": "是的，我的意思是，并没有什么正式的委员会。"
+ },
+ {
+  "seg": 160,
+  "start": 541.091,
+  "end": 546.091,
+  "speaker": "Eddie Kim",
+  "en": "It was like just senior engineers that I regularly like I see that I regularly talk to and",
+  "zh": "那就像是只是我经常见到的、经常交谈的资深工程师，以及"
+ },
+ {
+  "seg": 161,
+  "start": 546.328,
+  "end": 549.9390000000001,
+  "speaker": "Eddie Kim",
+  "en": "You know, I recorded a loom of this thing and I just started sharing it around.",
+  "zh": "你知道，我录制了一个关于这件事的 loom 视频，我就开始四处分享。"
+ },
+ {
+  "seg": 162,
+  "start": 549.989,
+  "end": 553.63,
+  "speaker": "Eddie Kim",
+  "en": "And these were the folks that kind of like engaged a little bit more in the conversation.",
+  "zh": "这些人就是在对话中参与得稍多一些的人。"
+ },
+ {
+  "seg": 163,
+  "start": 553.65,
+  "end": 554.19,
+  "speaker": "Eddie Kim",
+  "en": "It's like, what about that?",
+  "zh": "就像，那个怎么样？"
+ },
+ {
+  "seg": 164,
+  "start": 554.21,
+  "end": 554.651,
+  "speaker": "Eddie Kim",
+  "en": "What about that?",
+  "zh": "那个怎么样？"
+ },
+ {
+  "seg": 165,
+  "start": 554.671,
+  "end": 555.7265555555556,
+  "speaker": "Eddie Kim",
+  "en": "That's pretty cool.",
+  "zh": "那很酷。"
+ },
+ {
+  "seg": 166,
+  "start": 555.791,
+  "end": 560.632,
+  "speaker": "Eddie Kim",
+  "en": "And then so we have at our company this thing called Anchor Week, which happens quarterly.",
+  "zh": "然后我们公司有一个叫做 Anchor Week 的东西，每季度发生一次。"
+ },
+ {
+  "seg": 167,
+  "start": 560.672,
+  "end": 565.314,
+  "speaker": "Eddie Kim",
+  "en": "We all like kind of the senior leaders and senior ICs across the company,",
+  "zh": "我们所有人，公司的高级领导和高级 IC，"
+ },
+ {
+  "seg": 168,
+  "start": 565.334,
+  "end": 566.934,
+  "speaker": "Eddie Kim",
+  "en": "they meet in one of our offices.",
+  "zh": "他们在我们的其中一个办公室见面。"
+ },
+ {
+  "seg": 169,
+  "start": 566.974,
+  "end": 572.616,
+  "speaker": "Eddie Kim",
+  "en": "This particular one was in March in Denver, Colorado, in our office up there.",
+  "zh": "这一次是三月在科罗拉多州丹佛，我们在那上面的办公室。"
+ },
+ {
+  "seg": 170,
+  "start": 573.277,
+  "end": 576.341,
+  "speaker": "Eddie Kim",
+  "en": "And so we just reserved a room that Thursday,",
+  "zh": "所以我们在那个星期四预定了一个房间，"
+ },
+ {
+  "seg": 171,
+  "start": 576.361,
+  "end": 579.235,
+  "speaker": "Eddie Kim",
+  "en": "I think it was like March 20th or something like that.",
+  "zh": "我想是 3 月 20 号左右之类的。"
+ },
+ {
+  "seg": 172,
+  "start": 579.285,
+  "end": 585.254,
+  "speaker": "Eddie Kim",
+  "en": "And we just started like whiteboarding with this group of five that I had sort of,",
+  "zh": "于是我们就开始和我已经……的这五个人一起白板化，"
+ },
+ {
+  "seg": 173,
+  "start": 585.735,
+  "end": 588.2905555555556,
+  "speaker": "Eddie Kim",
+  "en": "you know, had expressed some interest in this.",
+  "zh": "你知道，他们已经表达了对这件事的兴趣。"
+ },
+ {
+  "seg": 174,
+  "start": 588.378,
+  "end": 592,
+  "speaker": "Eddie Kim",
+  "en": "we just whiteboarded like what this would potentially look like",
+  "zh": "我们就在白板上画出了这可能是什么样子"
+ },
+ {
+  "seg": 175,
+  "start": 592.66,
+  "end": 599.66,
+  "speaker": "Eddie Kim",
+  "en": "and it was just like literally a page of the Gustav co-founder app and we just got",
+  "zh": "那真的就只是 Gustav 联合创始人应用的一页，我们只是开始"
+ },
+ {
+  "seg": 176,
+  "start": 599.843,
+  "end": 600.734,
+  "speaker": "Eddie Kim",
+  "en": "to building",
+  "zh": "构建"
+ },
+ {
+  "seg": 177,
+  "start": 600.784,
+  "end": 604.855,
+  "speaker": "Eddie Kim",
+  "en": "the crazy thing is this was more defined our build process was more defined",
+  "zh": "疯狂的是，我们的构建过程更多地是由"
+ },
+ {
+  "seg": 178,
+  "start": 604.905,
+  "end": 610.208,
+  "speaker": "Eddie Kim",
+  "en": "by like what we didn't do versus what we did we actually just zeroed everything out",
+  "zh": "我们没做的事情定义的，而不是我们做的事情，实际上我们把一切都归零了"
+ },
+ {
+  "seg": 179,
+  "start": 610.728,
+  "end": 615.17,
+  "speaker": "Eddie Kim",
+  "en": "we had no meetings we had no tech specs",
+  "zh": "我们没有会议，没有技术规格"
+ },
+ {
+  "seg": 180,
+  "start": 615.815,
+  "end": 617.636,
+  "speaker": "Eddie Kim",
+  "en": "We had no figmas.",
+  "zh": "我们没有 Figma。"
+ },
+ {
+  "seg": 181,
+  "start": 618.716,
+  "end": 623.198,
+  "speaker": "Eddie Kim",
+  "en": "We had no JIRA board where we track stories or tracked work.",
+  "zh": "我们没有用来追踪故事或追踪工作的 JIRA 看板。"
+ },
+ {
+  "seg": 182,
+  "start": 623.258,
+  "end": 626.079,
+  "speaker": "Eddie Kim",
+  "en": "We had no stand-ups, no retros.",
+  "zh": "我们没有站会，没有回顾会。"
+ },
+ {
+  "seg": 183,
+  "start": 626.119,
+  "end": 627.009,
+  "speaker": "Eddie Kim",
+  "en": "We had nothing.",
+  "zh": "我们什么都没有。"
+ },
+ {
+  "seg": 184,
+  "start": 627.059,
+  "end": 631.461,
+  "speaker": "Eddie Kim",
+  "en": "The only thing we decided to keep was a 24-7 perma-zoom,",
+  "zh": "我们唯一决定保留的是一个 24-7 永久 Zoom，"
+ },
+ {
+  "seg": 185,
+  "start": 631.801,
+  "end": 635.893,
+  "speaker": "Eddie Kim",
+  "en": "which is basically a Zoom room that we just keep because everybody's remote",
+  "zh": "这基本上就是一个我们一直开着的 Zoom 房间，因为每个人都远程"
+ },
+ {
+  "seg": 186,
+  "start": 635.943,
+  "end": 637.3318888888889,
+  "speaker": "Eddie Kim",
+  "en": "in this particular group.",
+  "zh": "在这个特定的组里。"
+ },
+ {
+  "seg": 187,
+  "start": 637.649,
+  "end": 642.216,
+  "speaker": "Eddie Kim",
+  "en": "and we just had this zoom room that's going 24 seven and some people like like",
+  "zh": "我们只是有这个 24-7 开着的 Zoom 房间，有些人"
+ },
+ {
+  "seg": 188,
+  "start": 642.236,
+  "end": 644.54,
+  "speaker": "Eddie Kim",
+  "en": "to honestly stay in there all day and just like do their work.",
+  "zh": "老实说喜欢整天待在里面，就像做他们的工作一样。"
+ },
+ {
+  "seg": 189,
+  "start": 644.56,
+  "end": 648.986,
+  "speaker": "Eddie Kim",
+  "en": "They just kind of like sit there quietly and some people will like kind of pop in",
+  "zh": "他们只是静静地坐在那里，有些人会"
+ },
+ {
+  "seg": 190,
+  "start": 649.006,
+  "end": 650.639,
+  "speaker": "Eddie Kim",
+  "en": "and out when they need something.",
+  "zh": "在需要什么的时候进出。"
+ },
+ {
+  "seg": 191,
+  "start": 650.689,
+  "end": 652.351,
+  "speaker": "Eddie Kim",
+  "en": "That was the only structured thing",
+  "zh": "那是唯一的结构化的事情"
+ },
+ {
+  "seg": 192,
+  "start": 652.371,
+  "end": 654.312,
+  "speaker": "Eddie Kim",
+  "en": "that we had was this Zoom.",
+  "zh": "我们拥有的就是这个 Zoom。"
+ },
+ {
+  "seg": 193,
+  "start": 654.772,
+  "end": 656.043,
+  "speaker": "Eddie Kim",
+  "en": "It was like literally just Zoom,",
+  "zh": "就真的只是 Zoom，"
+ },
+ {
+  "seg": 194,
+  "start": 656.093,
+  "end": 657.873,
+  "speaker": "Eddie Kim",
+  "en": "a lot of Cloud Code tokens,",
+  "zh": "大量的 Cloud Code 代币，"
+ },
+ {
+  "seg": 195,
+  "start": 658.333,
+  "end": 663.275,
+  "speaker": "Eddie Kim",
+  "en": "and some like really passionate people about turning this thing into reality.",
+  "zh": "以及一些非常有热情的人想要把这件事变成现实。"
+ },
+ {
+  "seg": 196,
+  "start": 663.656,
+  "end": 664.996,
+  "speaker": "Eddie Kim",
+  "en": "And that whiteboard,",
+  "zh": "而那个白板，"
+ },
+ {
+  "seg": 197,
+  "start": 665.016,
+  "end": 666.657,
+  "speaker": "Eddie Kim",
+  "en": "which I took a photo of,",
+  "zh": "我拍了一张照片，"
+ },
+ {
+  "seg": 198,
+  "start": 666.997,
+  "end": 670.538,
+  "speaker": "Eddie Kim",
+  "en": "was like literally the only documentation that we ever produced",
+  "zh": "确实是我们在整个 10 周过程中"
+ },
+ {
+  "seg": 199,
+  "start": 671.039,
+  "end": 672.7056666666666,
+  "speaker": "Eddie Kim",
+  "en": "in this whole 10-week process.",
+  "zh": "产生的唯一文档。"
+ },
+ {
+  "seg": 200,
+  "start": 672.959,
+  "end": 674.83,
+  "speaker": "Eddie Kim",
+  "en": "And I can't tell you how many times I loved,",
+  "zh": "我无法告诉你有多少次我很喜欢,"
+ },
+ {
+  "seg": 201,
+  "start": 674.88,
+  "end": 676.621,
+  "speaker": "Eddie Kim",
+  "en": "as people like caught wind of this thing getting built,",
+  "zh": "随着人们像风闻这件事正在构建,"
+ },
+ {
+  "seg": 202,
+  "start": 676.641,
+  "end": 679.452,
+  "speaker": "Eddie Kim",
+  "en": "they were like, oh, can you send some documentation on how this works?",
+  "zh": "他们就像, 噢, 你能发一些关于这如何运作的文档吗?"
+ },
+ {
+  "seg": 203,
+  "start": 679.502,
+  "end": 682.613111111111,
+  "speaker": "Eddie Kim",
+  "en": "And I love just saying, we don't have any documentation.",
+  "zh": "我就喜欢说, 我们没有任何文档。"
+ },
+ {
+  "seg": 204,
+  "start": 682.671,
+  "end": 688.513,
+  "speaker": "Claire Vo",
+  "en": "okay so this is the whiteboard and just for folks that are not listening it's",
+  "zh": "好的所以这是白板只是为了那些不在听的人它是"
+ },
+ {
+  "seg": 205,
+  "start": 688.733,
+  "end": 694.975,
+  "speaker": "Claire Vo",
+  "en": "a scribble wireframe that says chat it's a chart it's a thing that says task name",
+  "zh": "一个涂鸦线框图上面写着聊天它是一个图表是一个写着任务名称的东西"
+ },
+ {
+  "seg": 206,
+  "start": 695.075,
+  "end": 699.757,
+  "speaker": "Claire Vo",
+  "en": "and then like a couple components on the side that are not very well spec'd out",
+  "zh": "然后像几个在旁边的组件没有很好的规格"
+ },
+ {
+  "seg": 207,
+  "start": 700.557,
+  "end": 704.059,
+  "speaker": "Claire Vo",
+  "en": "and what you're telling me as CTO is we built",
+  "zh": "而你作为 CTO 告诉我的是我们构建了"
+ },
+ {
+  "seg": 208,
+  "start": 704.079,
+  "end": 707.579,
+  "speaker": "Claire Vo",
+  "en": "the entire product basically off this cloud code in a permazoom",
+  "zh": "整个产品基本上基于这个云端代码在一个永久缩放"
+ },
+ {
+  "seg": 209,
+  "start": 708.315,
+  "end": 709.105,
+  "speaker": "Eddie Kim",
+  "en": "Yeah, totally.",
+  "zh": "是的, 完全。"
+ },
+ {
+  "seg": 210,
+  "start": 709.155,
+  "end": 709.946,
+  "speaker": "Eddie Kim",
+  "en": "And if you look at,",
+  "zh": "而如果你看,"
+ },
+ {
+  "seg": 211,
+  "start": 709.996,
+  "end": 711.436,
+  "speaker": "Eddie Kim",
+  "en": "obviously things have evolved a bit,",
+  "zh": "显然事情有些演变,"
+ },
+ {
+  "seg": 212,
+  "start": 711.456,
+  "end": 715.268,
+  "speaker": "Eddie Kim",
+  "en": "but if you look at sort of the core primitives and core functionality",
+  "zh": "但如果你看那种核心原语和核心功能"
+ },
+ {
+  "seg": 213,
+  "start": 715.318,
+  "end": 719.28,
+  "speaker": "Eddie Kim",
+  "en": "of Gusto CoFounder, it's largely the same.",
+  "zh": "Gusto CoFounder 的, 它很大程度上是一样的。"
+ },
+ {
+  "seg": 214,
+  "start": 719.34,
+  "end": 720.971,
+  "speaker": "Eddie Kim",
+  "en": "They kind of like change the names of things,",
+  "zh": "他们有点像改变事物的名字,"
+ },
+ {
+  "seg": 215,
+  "start": 721.021,
+  "end": 727.323,
+  "speaker": "Eddie Kim",
+  "en": "but one of the main things in Gusto CoFounder is what we call now an automation.",
+  "zh": "但 Gusto CoFounder 的主要事情之一是我们现在称之为自动化的东西。"
+ },
+ {
+  "seg": 216,
+  "start": 727.343,
+  "end": 731.465,
+  "speaker": "Eddie Kim",
+  "en": "And it's basically you just create these automations that like run these workflows for you.",
+  "zh": "它基本上是你只是创建这些自动化像为你运行这些工作流。"
+ },
+ {
+  "seg": 217,
+  "start": 731.485,
+  "end": 734.346,
+  "speaker": "Eddie Kim",
+  "en": "That's what you see here on this whiteboard called tasks, right?",
+  "zh": "这就是你在白板上看到的这个称为任务的东西, 对吧?"
+ },
+ {
+  "seg": 218,
+  "start": 734.386,
+  "end": 736.727,
+  "speaker": "Eddie Kim",
+  "en": "So it's like tasks have task runs.",
+  "zh": "所以像任务有任务运行。"
+ },
+ {
+  "seg": 219,
+  "start": 738.804,
+  "end": 741.6928888888889,
+  "speaker": "Eddie Kim",
+  "en": "and that's exactly what we have in CoFounder today.",
+  "zh": "这就是我们在 CoFounder 今天拥有的。"
+ },
+ {
+  "seg": 220,
+  "start": 742.288,
+  "end": 749.288,
+  "speaker": "Eddie Kim",
+  "en": "We have assets, so tasks runs can produce these charts or documents or markdown files.",
+  "zh": "我们有资产, 所以任务运行可以产生这些图表或文档或 markdown 文件。"
+ },
+ {
+  "seg": 221,
+  "start": 750.576,
+  "end": 755.6871111111111,
+  "speaker": "Eddie Kim",
+  "en": "We call those in this whiteboard here assets, but eventually those got renamed to artifacts.",
+  "zh": "我们在白板上称这些为资产, 但最终那些被重命名为制品。"
+ },
+ {
+  "seg": 222,
+  "start": 756.441,
+  "end": 759.223,
+  "speaker": "Eddie Kim",
+  "en": "and then you obviously have chats you have like suggested tasks",
+  "zh": "然后显然你有聊天你有像建议的任务"
+ },
+ {
+  "seg": 223,
+  "start": 759.263,
+  "end": 763.426,
+  "speaker": "Eddie Kim",
+  "en": "so like basically this like if you look at co-founder today it is like the",
+  "zh": "所以像基本上这个像如果你看今天的 CoFounder 它像那个"
+ },
+ {
+  "seg": 224,
+  "start": 763.566,
+  "end": 767.158,
+  "speaker": "Eddie Kim",
+  "en": "the actual like materialization of what you have on this whiteboard looking back",
+  "zh": "实际像你在这个白板上的东西的具象化回头看"
+ },
+ {
+  "seg": 225,
+  "start": 767.208,
+  "end": 771.441,
+  "speaker": "Eddie Kim",
+  "en": "on it I'm actually kind of surprised right now how how close we we stuck to this",
+  "zh": "它我实际上现在有点惊讶我们我们坚持这个有多接近"
+ },
+ {
+  "seg": 226,
+  "start": 771.491,
+  "end": 774.833,
+  "speaker": "Claire Vo",
+  "en": "so I have to ask you a couple tactical questions about how you pulled this off",
+  "zh": "所以我必须问你几个战术问题关于你如何实现这个的"
+ },
+ {
+  "seg": 227,
+  "start": 774.873,
+  "end": 777.315,
+  "speaker": "Claire Vo",
+  "en": "because that's what people listening are going to want to know",
+  "zh": "因为那是听众想知道的"
+ },
+ {
+  "seg": 228,
+  "start": 777.355,
+  "end": 783.359,
+  "speaker": "Claire Vo",
+  "en": "so my first observation is you said you had four engineers and a designer I don't",
+  "zh": "所以我的第一个观察是你你说你有四个工程师和一个设计师我不"
+ },
+ {
+  "seg": 229,
+  "start": 783.907,
+  "end": 785.868,
+  "speaker": "Claire Vo",
+  "en": "you're a product manager in there",
+  "zh": "你是一个产品经理在那里面"
+ },
+ {
+  "seg": 230,
+  "start": 785.988,
+  "end": 789.65,
+  "speaker": "Claire Vo",
+  "en": "so how did you all make you know those precious decisions",
+  "zh": "所以你们大家如何做你知道那些珍贵的决定"
+ },
+ {
+  "seg": 231,
+  "start": 789.69,
+  "end": 793.051,
+  "speaker": "Claire Vo",
+  "en": "that only genius product managers can make about in or out",
+  "zh": "只有天才产品经理才能做出的关于范围之内或之外"
+ },
+ {
+  "seg": 232,
+  "start": 793.091,
+  "end": 796.152,
+  "speaker": "Claire Vo",
+  "en": "of scope will this matter I mean this sort of feels like the thing",
+  "zh": "这会有关系吗我的意思是这感觉像那个东西"
+ },
+ {
+  "seg": 233,
+  "start": 796.192,
+  "end": 800.3031111111111,
+  "speaker": "Claire Vo",
+  "en": "where you just had conviction and knew you needed to build it but you know",
+  "zh": "在那里你只是有信念并知道你需要构建它但是你知道"
+ },
+ {
+  "seg": 234,
+  "start": 800.374,
+  "end": 804.656,
+  "speaker": "Claire Vo",
+  "en": "in this world where there was no actual titled a product manager on",
+  "zh": "在这个世界上没有实际头衔的产品经理在"
+ },
+ {
+  "seg": 235,
+  "start": 804.676,
+  "end": 807.898,
+  "speaker": "Claire Vo",
+  "en": "the team how did you approach product decisions across this team",
+  "zh": "团队中你如何处理这个产品决策跨这个团队"
+ },
+ {
+  "seg": 236,
+  "start": 807.938,
+  "end": 813.02,
+  "speaker": "Eddie Kim",
+  "en": "of five yeah I would say everybody was kind of a product manager we would",
+  "zh": "五人是的我会说每个人都像一个产品经理我们会"
+ },
+ {
+  "seg": 237,
+  "start": 813.486,
+  "end": 820.486,
+  "speaker": "Eddie Kim",
+  "en": "We would build features and we would go in that permazoom and sort of share it with each other.",
+  "zh": "我们会构建功能我们会进入那个永久缩放并彼此分享。"
+ },
+ {
+  "seg": 238,
+  "start": 821.23,
+  "end": 822.39,
+  "speaker": "Eddie Kim",
+  "en": "And we just have a discussion.",
+  "zh": "我们只是讨论。"
+ },
+ {
+  "seg": 239,
+  "start": 822.41,
+  "end": 824.7433333333333,
+  "speaker": "Eddie Kim",
+  "en": "Like, does this make sense to have or not?",
+  "zh": "像, 拥有这个有意义吗?"
+ },
+ {
+  "seg": 240,
+  "start": 825.292,
+  "end": 828.9830000000001,
+  "speaker": "Eddie Kim",
+  "en": "If it is, then like it would get code reviewed right then and there.",
+  "zh": "如果是, 那么像它会在当时当地得到代码审查。"
+ },
+ {
+  "seg": 241,
+  "start": 829.033,
+  "end": 831.3107777777778,
+  "speaker": "Eddie Kim",
+  "en": "And if not, like we would just delete it.",
+  "zh": "如果不, 像我们就只会删除它。"
+ },
+ {
+  "seg": 242,
+  "start": 831.615,
+  "end": 832.595,
+  "speaker": "Eddie Kim",
+  "en": "And normally that would be really,",
+  "zh": "而通常那会真的,"
+ },
+ {
+  "seg": 243,
+  "start": 832.615,
+  "end": 835.486,
+  "speaker": "Eddie Kim",
+  "en": "really hard to do because like it takes so long to build something.",
+  "zh": "真的很难做因为像构建东西花费这么长时间。"
+ },
+ {
+  "seg": 244,
+  "start": 835.536,
+  "end": 839.558,
+  "speaker": "Eddie Kim",
+  "en": "But these days with cloud code, we literally like write some, a feature.",
+  "zh": "但现在用云端代码, 我们真的像写一些, 一个功能。"
+ },
+ {
+  "seg": 245,
+  "start": 840.079,
+  "end": 842.9123333333333,
+  "speaker": "Eddie Kim",
+  "en": "We submit, we open a pull request and this is not a",
+  "zh": "我们提交, 我们打开一个拉取请求这不是一个"
+ },
+ {
+  "seg": 246,
+  "start": 843.481,
+  "end": 844.242,
+  "speaker": "Eddie Kim",
+  "en": "Draft pull request.",
+  "zh": "草稿拉取请求。"
+ },
+ {
+  "seg": 247,
+  "start": 844.262,
+  "end": 849.151,
+  "speaker": "Eddie Kim",
+  "en": "This is actually a pull request that is ready for a human code review.",
+  "zh": "这实际上是一个准备好人类代码审查的拉取请求。"
+ },
+ {
+  "seg": 248,
+  "start": 849.812,
+  "end": 850.812,
+  "speaker": "Eddie Kim",
+  "en": "And we discuss it.",
+  "zh": "我们讨论它。"
+ },
+ {
+  "seg": 249,
+  "start": 850.874,
+  "end": 855.874,
+  "speaker": "Eddie Kim",
+  "en": "We discuss if that's the thing that we want to have, a functionality that we want to have.",
+  "zh": "我们讨论那是否是我们想要拥有的东西, 我们想要拥有的功能。"
+ },
+ {
+  "seg": 250,
+  "start": 856.603,
+  "end": 860.708,
+  "speaker": "Eddie Kim",
+  "en": "and we're okay with deleting that pull request if if the answer is no right you have",
+  "zh": "并且我们没问题删除那个 pull request 如果如果答案是否的 你有"
+ },
+ {
+  "seg": 251,
+  "start": 860.728,
+  "end": 863.872,
+  "speaker": "Eddie Kim",
+  "en": "a perfectly good pull request that was written that's like ready",
+  "zh": "一个完美好的 pull request 被写好了 就像是准备好的"
+ },
+ {
+  "seg": 252,
+  "start": 863.912,
+  "end": 866.6650000000001,
+  "speaker": "Eddie Kim",
+  "en": "for human review it's not slot you actually like spend time",
+  "zh": "给人工审查 它不是 slot 你实际上喜欢 花时间"
+ },
+ {
+  "seg": 253,
+  "start": 866.715,
+  "end": 870.64,
+  "speaker": "Eddie Kim",
+  "en": "to like you know make sure this code works and is written really well and",
+  "zh": "去 就像你知道 确保这代码能工作并且写得很好 并且"
+ },
+ {
+  "seg": 254,
+  "start": 870.68,
+  "end": 874.6244444444444,
+  "speaker": "Eddie Kim",
+  "en": "then you just close it sometimes that was like the that was like how we",
+  "zh": "然后你就关闭它 有时候那是 那是就像我们要"
+ },
+ {
+  "seg": 255,
+  "start": 874.787,
+  "end": 878.05,
+  "speaker": "Eddie Kim",
+  "en": "figured out what decided what goes in and what doesn't go in to this feature.",
+  "zh": "弄清楚什么决定 什么放进什么不放进 这功能里。"
+ },
+ {
+  "seg": 256,
+  "start": 878.09,
+  "end": 885.09,
+  "speaker": "Eddie Kim",
+  "en": "Like the cost to write code is now so low that you can actually build products in this way.",
+  "zh": "就像现在写代码的成本是如此之低 以至于你实际上可以用这种方式构建产品。"
+ },
+ {
+  "seg": 257,
+  "start": 887.497,
+  "end": 889.969,
+  "speaker": "Eddie Kim",
+  "en": "And whereas I think you couldn't do that, you know, six months ago.",
+  "zh": "然而我觉得你不能那样做 你知道 六个月前。"
+ },
+ {
+  "seg": 258,
+  "start": 890.019,
+  "end": 893.532,
+  "speaker": "Claire Vo",
+  "en": "Yeah, I call this the trashcan method of software engineering right now",
+  "zh": "是的 我把这个称为现在的软件工程的垃圾桶方法"
+ },
+ {
+  "seg": 259,
+  "start": 893.582,
+  "end": 898.926,
+  "speaker": "Claire Vo",
+  "en": "where you build code and you're like actually literally OK with throwing it in",
+  "zh": "你构建代码并且你实际上 实际上没问题 把它扔进"
+ },
+ {
+  "seg": 260,
+  "start": 898.946,
+  "end": 899.946,
+  "speaker": "Claire Vo",
+  "en": "the trash.",
+  "zh": "垃圾桶。"
+ },
+ {
+  "seg": 261,
+  "start": 900.187,
+  "end": 901.7981111111111,
+  "speaker": "Claire Vo",
+  "en": "And I see two models of this.",
+  "zh": "并且我看到这的两种模式。"
+ },
+ {
+  "seg": 262,
+  "start": 902.008,
+  "end": 904.1191111111111,
+  "speaker": "Claire Vo",
+  "en": "One is exactly what you say, like a PR",
+  "zh": "一个完全是你说的 就像一个 PR"
+ },
+ {
+  "seg": 263,
+  "start": 904.857,
+  "end": 907.3470000000001,
+  "speaker": "Claire Vo",
+  "en": "and maybe a preview branch to even validate.",
+  "zh": "甚至可能一个预览分支去验证。"
+ },
+ {
+  "seg": 264,
+  "start": 907.397,
+  "end": 908.558,
+  "speaker": "Claire Vo",
+  "en": "Is this the thing we want to build?",
+  "zh": "这是我们想构建的东西吗?"
+ },
+ {
+  "seg": 265,
+  "start": 908.598,
+  "end": 911.1880000000001,
+  "speaker": "Claire Vo",
+  "en": "And if the answer is no, you just close the PR.",
+  "zh": "如果答案是否 你就关闭那个 PR。"
+ },
+ {
+  "seg": 266,
+  "start": 911.238,
+  "end": 917.719,
+  "speaker": "Claire Vo",
+  "en": "The other version of this that I do quite frequently is let's say we ship this V1 in 10 weeks.",
+  "zh": "这的另一个版本 我相当频繁做的是 假设我们在 10 周后发布这个 V1。"
+ },
+ {
+  "seg": 267,
+  "start": 918.279,
+  "end": 921.6500000000001,
+  "speaker": "Claire Vo",
+  "en": "Customers start to use it and then we actually have a sense of what",
+  "zh": "客户开始使用它然后我们实际上有感觉 什么"
+ },
+ {
+  "seg": 268,
+  "start": 921.7,
+  "end": 923.95,
+  "speaker": "Claire Vo",
+  "en": "the product shape and architecture should be.",
+  "zh": "产品形态和架构应该是。"
+ },
+ {
+  "seg": 269,
+  "start": 924,
+  "end": 927.381,
+  "speaker": "Claire Vo",
+  "en": "Like it's very cheap to just build again from zero.",
+  "zh": "就像只是从零重建是 很便宜的。"
+ },
+ {
+  "seg": 270,
+  "start": 927.421,
+  "end": 930.171,
+  "speaker": "Claire Vo",
+  "en": "You don't even have to build on top of what you've built.",
+  "zh": "你甚至不必构建在你已构建的基础之上。"
+ },
+ {
+  "seg": 271,
+  "start": 930.221,
+  "end": 933.8876666666666,
+  "speaker": "Claire Vo",
+  "en": "You can actually trash all the code, start like a slash V2 branch.",
+  "zh": "你实际上可以把所有代码扔掉 像一个 slash V2 分支。"
+ },
+ {
+  "seg": 272,
+  "start": 934.655,
+  "end": 936.1850000000001,
+  "speaker": "Claire Vo",
+  "en": "and rebuild it from scratch.",
+  "zh": "并从头重建它。"
+ },
+ {
+  "seg": 273,
+  "start": 936.235,
+  "end": 940.236,
+  "speaker": "Claire Vo",
+  "en": "And it's totally reasonable to do because of the cost.",
+  "zh": "并且这样做是完全合理的 因为成本。"
+ },
+ {
+  "seg": 274,
+  "start": 940.276,
+  "end": 942.817,
+  "speaker": "Claire Vo",
+  "en": "The cost of the code just is is so low.",
+  "zh": "代码的成本只是是 如此之低。"
+ },
+ {
+  "seg": 275,
+  "start": 943.297,
+  "end": 943.647,
+  "speaker": "Eddie Kim",
+  "en": "Yeah,",
+  "zh": "是的,"
+ },
+ {
+  "seg": 276,
+  "start": 943.697,
+  "end": 948.2525555555555,
+  "speaker": "Eddie Kim",
+  "en": "I have a funny story about that because this prototype that I brought to the team,",
+  "zh": "我有个关于那的有趣故事 因为那个原型 我带给团队的,"
+ },
+ {
+  "seg": 277,
+  "start": 948.659,
+  "end": 950.649,
+  "speaker": "Eddie Kim",
+  "en": "I was, you know, I was pretty, pretty happy with it.",
+  "zh": "我是 你知道 我很 很开心它。"
+ },
+ {
+  "seg": 278,
+  "start": 950.699,
+  "end": 955.28,
+  "speaker": "Eddie Kim",
+  "en": "Like and when we decided in that that whiteboarding session",
+  "zh": "就像当我们决定在 那个白板会议"
+ },
+ {
+  "seg": 279,
+  "start": 955.36,
+  "end": 958.021,
+  "speaker": "Eddie Kim",
+  "en": "to like actually like go ahead and build this,",
+  "zh": "去 实际上 继续 去构建这个,"
+ },
+ {
+  "seg": 280,
+  "start": 958.521,
+  "end": 962.7750000000001,
+  "speaker": "Eddie Kim",
+  "en": "like my assumption was that we're going to continue to build on my prototype and",
+  "zh": "就像我的假设是我们要继续在我的原型上构建 并且"
+ },
+ {
+  "seg": 281,
+  "start": 962.825,
+  "end": 965.038,
+  "speaker": "Eddie Kim",
+  "en": "so someone one of the engineers brought up hey what do you think",
+  "zh": "所以有人 一个工程师提起 嘿你怎么想"
+ },
+ {
+  "seg": 282,
+  "start": 965.088,
+  "end": 970.413,
+  "speaker": "Eddie Kim",
+  "en": "about like using building this in TypeScript and using a Cloudflare worker and kind",
+  "zh": "关于 使用 TypeScript 构建这个和使用一个 Cloudflare worker 并且有点"
+ },
+ {
+  "seg": 283,
+  "start": 970.433,
+  "end": 974.096,
+  "speaker": "Eddie Kim",
+  "en": "of like making the actual agent like sort of a stateless thing that sits",
+  "zh": "像 让实际 智能体 像 无状态的东西 坐在"
+ },
+ {
+  "seg": 284,
+  "start": 974.136,
+  "end": 976.479,
+  "speaker": "Eddie Kim",
+  "en": "in its own repo and I was like",
+  "zh": "它自己的 repo 里 并且我是"
+ },
+ {
+  "seg": 285,
+  "start": 977.308,
+  "end": 978.258,
+  "speaker": "Eddie Kim",
+  "en": "I really didn't want to do it.",
+  "zh": "我真的不想那样做。"
+ },
+ {
+  "seg": 286,
+  "start": 978.308,
+  "end": 980.209,
+  "speaker": "Eddie Kim",
+  "en": "I felt like this is my code.",
+  "zh": "我觉得这是我的代码。"
+ },
+ {
+  "seg": 287,
+  "start": 980.269,
+  "end": 981.269,
+  "speaker": "Eddie Kim",
+  "en": "It was good code.",
+  "zh": "它是好代码。"
+ },
+ {
+  "seg": 288,
+  "start": 981.989,
+  "end": 984.46,
+  "speaker": "Eddie Kim",
+  "en": "And here they were suggesting to start from scratch.",
+  "zh": "并且这里他们建议从头开始。"
+ },
+ {
+  "seg": 289,
+  "start": 984.51,
+  "end": 987.451,
+  "speaker": "Eddie Kim",
+  "en": "And ultimately, I trusted them.",
+  "zh": "并且最终 我信任他们。"
+ },
+ {
+  "seg": 290,
+  "start": 987.511,
+  "end": 988.491,
+  "speaker": "Eddie Kim",
+  "en": "So we agreed to it.",
+  "zh": "所以我们同意了它。"
+ },
+ {
+  "seg": 291,
+  "start": 988.511,
+  "end": 989.392,
+  "speaker": "Eddie Kim",
+  "en": "We deleted my code.",
+  "zh": "我们删除了我的代码。"
+ },
+ {
+  "seg": 292,
+  "start": 989.412,
+  "end": 991.912,
+  "speaker": "Eddie Kim",
+  "en": "And then we started from scratch on that day.",
+  "zh": "然后我们从零开始那一天。"
+ },
+ {
+  "seg": 293,
+  "start": 992.253,
+  "end": 995.141888888889,
+  "speaker": "Eddie Kim",
+  "en": "In hindsight, that was absolutely the best decision.",
+  "zh": "事后看来 那绝对是最好的决定。"
+ },
+ {
+  "seg": 294,
+  "start": 995.754,
+  "end": 1000.035,
+  "speaker": "Eddie Kim",
+  "en": "But I think back then, I had a lot of discomfort with that because I had invested.",
+  "zh": "但我觉得那时候 我对那个有很多不适 因为我投入了。"
+ },
+ {
+  "seg": 295,
+  "start": 1000.055,
+  "end": 1001.395,
+  "speaker": "Eddie Kim",
+  "en": "That was my code.",
+  "zh": "那是我的代码。"
+ },
+ {
+  "seg": 296,
+  "start": 1001.435,
+  "end": 1006.046111111111,
+  "speaker": "Eddie Kim",
+  "en": "You don't like to delete perfectly good code, throwing some good food in the trash.",
+  "zh": "你不喜欢删除完美好的代码 把好食物扔进垃圾桶。"
+ },
+ {
+  "seg": 297,
+  "start": 1007.017,
+  "end": 1011.47,
+  "speaker": "Eddie Kim",
+  "en": "uh but now like I'm totally used to it right it's it's there's no like sense of loss",
+  "zh": "uh 但现在 像我完全习惯它了 它是 那里没有 就像损失感"
+ },
+ {
+  "seg": 298,
+  "start": 1011.52,
+  "end": 1016.884,
+  "speaker": "Claire Vo",
+  "en": "when that happens anymore it's it's totally it is just totally wild",
+  "zh": "当那发生时 它是 它只是对我来说完全狂野"
+ },
+ {
+  "seg": 299,
+  "start": 1016.944,
+  "end": 1021.847,
+  "speaker": "Claire Vo",
+  "en": "to me how how frequently I find myself writing lines and lines of code",
+  "zh": "我多么频繁 我发现自己写一行又一行代码"
+ },
+ {
+  "seg": 300,
+  "start": 1021.967,
+  "end": 1025.049,
+  "speaker": "Claire Vo",
+  "en": "that ultimately are are great and never make it either",
+  "zh": "那最终是很棒的，但都没有成功"
+ },
+ {
+  "seg": 301,
+  "start": 1025.069,
+  "end": 1027.1245555555556,
+  "speaker": "Claire Vo",
+  "en": "because they don't hit my product bar",
+  "zh": "因为它们达不到我的产品标准"
+ },
+ {
+  "seg": 302,
+  "start": 1027.493,
+  "end": 1030.715222222222,
+  "speaker": "Claire Vo",
+  "en": "or they just aren't technically how we want to implement.",
+  "zh": "或者它们在技术上不符合我们要实现的方式。"
+ },
+ {
+  "seg": 303,
+  "start": 1030.795,
+  "end": 1036.42,
+  "speaker": "Claire Vo",
+  "en": "And then how often I'm just like taught like major red diffs all the time",
+  "zh": "然后我有多少次就像被教导像主要看到巨大的红色差异一直"
+ },
+ {
+  "seg": 304,
+  "start": 1036.48,
+  "end": 1038.401,
+  "speaker": "Claire Vo",
+  "en": "to just re-architect stuff.",
+  "zh": "就是为了重新构架东西。"
+ },
+ {
+  "seg": 305,
+  "start": 1038.681,
+  "end": 1041.8476666666668,
+  "speaker": "Claire Vo",
+  "en": "I do want to ask you a quick question about architecture.",
+  "zh": "我确实想快速问你一个关于架构的问题。"
+ },
+ {
+  "seg": 306,
+  "start": 1041.923,
+  "end": 1047.728,
+  "speaker": "Claire Vo",
+  "en": "Tell us a little bit about CoFounder and kind of some of the primitives behind the scene.",
+  "zh": "请告诉我们一点关于 CoFounder 的情况以及幕后的一些原语。"
+ },
+ {
+  "seg": 307,
+  "start": 1047.748,
+  "end": 1049.629,
+  "speaker": "Claire Vo",
+  "en": "I heard you say Cloudflare workers.",
+  "zh": "我听到你提到了 Cloudflare Workers。"
+ },
+ {
+  "seg": 308,
+  "start": 1049.669,
+  "end": 1052.8880000000001,
+  "speaker": "Claire Vo",
+  "en": "People are actually pretty interested in how to technically build",
+  "zh": "实际上人们对如何技术性地构建"
+ },
+ {
+  "seg": 309,
+  "start": 1052.938,
+  "end": 1057.502,
+  "speaker": "Claire Vo",
+  "en": "agentic products and so i'm curious kind of what stack you all landed on and and why",
+  "zh": "智能体产品非常感兴趣，所以我有点好奇你们最终选择了什么技术栈以及为什么"
+ },
+ {
+  "seg": 310,
+  "start": 1057.542,
+  "end": 1058.923,
+  "speaker": "Claire Vo",
+  "en": "and how you how you chose",
+  "zh": "以及你是如何选择"
+ },
+ {
+  "seg": 311,
+  "start": 1058.943,
+  "end": 1063.827,
+  "speaker": "Eddie Kim",
+  "en": "that architecture our stack is surprisingly simple we build",
+  "zh": "那个架构的我们的出人意料的简单我们构建在"
+ },
+ {
+  "seg": 312,
+  "start": 1064.267,
+  "end": 1067.2114444444444,
+  "speaker": "Eddie Kim",
+  "en": "on we use cloudflare worker for the actual agent loop",
+  "zh": "我们使用 Cloudflare Workers 用于实际的智能体循环"
+ },
+ {
+  "seg": 313,
+  "start": 1067.73,
+  "end": 1074.73,
+  "speaker": "Eddie Kim",
+  "en": "and versell ai sdk that's it we don't have any other harness on top of",
+  "zh": "和 Versel AI SDK 就是这样我们没有任何其他的 hardness 在之上"
+ },
+ {
+  "seg": 314,
+  "start": 1075.255,
+  "end": 1080.079,
+  "speaker": "Eddie Kim",
+  "en": "that everything else was built in-house you know in the past i would have thought",
+  "zh": "其他所有东西都是内部构建的你知道在过去我会思考"
+ },
+ {
+  "seg": 315,
+  "start": 1080.119,
+  "end": 1082.221,
+  "speaker": "Eddie Kim",
+  "en": "about how to use you know some",
+  "zh": "关于如何使用你知道一些"
+ },
+ {
+  "seg": 316,
+  "start": 1083.55,
+  "end": 1087.012,
+  "speaker": "Eddie Kim",
+  "en": "third party tool for memory or planning or things like that.",
+  "zh": "用于记忆或规划或类似事情的第三方工具。"
+ },
+ {
+  "seg": 317,
+  "start": 1087.092,
+  "end": 1088.752,
+  "speaker": "Eddie Kim",
+  "en": "And it's really just,",
+  "zh": "而且实际上只是，"
+ },
+ {
+  "seg": 318,
+  "start": 1089.012,
+  "end": 1094.815,
+  "speaker": "Eddie Kim",
+  "en": "you know, memory to us is a tool that writes to a database column called memory.",
+  "zh": "你知道，对我们来说记忆只是一个写入名为 memory 的数据库列的工具。"
+ },
+ {
+  "seg": 319,
+  "start": 1095.415,
+  "end": 1096.856,
+  "speaker": "Eddie Kim",
+  "en": "And that simple, right?",
+  "zh": "就这么简单，对吧？"
+ },
+ {
+  "seg": 320,
+  "start": 1097.016,
+  "end": 1101.5715555555557,
+  "speaker": "Eddie Kim",
+  "en": "Everything is just like all the harnesses and things that we used to build like to",
+  "zh": "所有东西都就像我们过去常常用来构建的所有 hardnesses 和东西"
+ },
+ {
+  "seg": 321,
+  "start": 1101.838,
+  "end": 1105.96,
+  "speaker": "Eddie Kim",
+  "en": "as complex like AI agent loop stack, I think is no longer needed.",
+  "zh": "就像复杂的 AI 智能体循环栈，我认为不再需要了。"
+ },
+ {
+  "seg": 322,
+  "start": 1106.4,
+  "end": 1112.303,
+  "speaker": "Eddie Kim",
+  "en": "It was literally just Cloudflare worker and Purcell.",
+  "zh": "字面上就只是 Cloudflare Workers 和 Purcell。"
+ },
+ {
+  "seg": 323,
+  "start": 1113.423,
+  "end": 1113.803,
+  "speaker": "Claire Vo",
+  "en": "I love it.",
+  "zh": "我喜欢这一点。"
+ },
+ {
+  "seg": 324,
+  "start": 1113.843,
+  "end": 1117.144,
+  "speaker": "Claire Vo",
+  "en": "That's very similar to my stack at Chat Purity.",
+  "zh": "这和我在 Chat Purity 的栈非常相似。"
+ },
+ {
+  "seg": 325,
+  "start": 1117.204,
+  "end": 1118.925,
+  "speaker": "Claire Vo",
+  "en": "So it's good to hear that,",
+  "zh": "所以很高兴听到这一点，"
+ },
+ {
+  "seg": 326,
+  "start": 1119.185,
+  "end": 1123.2405555555556,
+  "speaker": "Claire Vo",
+  "en": "you know, people get really intimidated by the idea of building an agent.",
+  "zh": "你知道，人们真的对构建智能体的想法感到畏惧。"
+ },
+ {
+  "seg": 327,
+  "start": 1123.626,
+  "end": 1127.927,
+  "speaker": "Claire Vo",
+  "en": "And I'm like, literally, it's an agent SDK running somewhere in the cloud.",
+  "zh": "而我就想，实际上，它就是一个在云端的某个地方运行的智能体 SDK。"
+ },
+ {
+  "seg": 328,
+  "start": 1128.127,
+  "end": 1131.488,
+  "speaker": "Claire Vo",
+  "en": "And if you use AI SDK, you switch your model.",
+  "zh": "如果你使用 AI SDK，你就切换你的模型。"
+ },
+ {
+  "seg": 329,
+  "start": 1132.248,
+  "end": 1133.058,
+  "speaker": "Claire Vo",
+  "en": "That's it.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 330,
+  "start": 1133.108,
+  "end": 1135.029,
+  "speaker": "Claire Vo",
+  "en": "It can look up files.",
+  "zh": "它可以查找文件。"
+ },
+ {
+  "seg": 331,
+  "start": 1135.229,
+  "end": 1136.229,
+  "speaker": "Claire Vo",
+  "en": "It can have tools.",
+  "zh": "它可以有工具。"
+ },
+ {
+  "seg": 332,
+  "start": 1136.769,
+  "end": 1139.157888888889,
+  "speaker": "Claire Vo",
+  "en": "It's really not that scary and complicated.",
+  "zh": "它真的没有那么可怕和复杂。"
+ },
+ {
+  "seg": 333,
+  "start": 1139.653,
+  "end": 1142.684,
+  "speaker": "Eddie Kim",
+  "en": "yeah there's not even I was like blown away because it's my first time using it",
+  "zh": "是的甚至没有我就像被震惊了因为这是我第一次使用它"
+ },
+ {
+  "seg": 334,
+  "start": 1142.734,
+  "end": 1144.975,
+  "speaker": "Eddie Kim",
+  "en": "that there's not even a a loop there's not a",
+  "zh": "那里甚至没有一个循环那里没有"
+ },
+ {
+  "seg": 335,
+  "start": 1145.015,
+  "end": 1148.697,
+  "speaker": "Eddie Kim",
+  "en": "while loop somewhere right it's just like it's called stream and it takes care of",
+  "zh": "某处的 while 循环对吧它只是被称为 stream 并且它为你处理"
+ },
+ {
+  "seg": 336,
+  "start": 1148.717,
+  "end": 1152.548,
+  "speaker": "Claire Vo",
+  "en": "the loop for you it's crazy yeah well I have another question technically",
+  "zh": "循环这很疯狂是的嗯我在技术上还有一个问题"
+ },
+ {
+  "seg": 337,
+  "start": 1152.598,
+  "end": 1155.86,
+  "speaker": "Claire Vo",
+  "en": "on how you how you ran this because PR as like",
+  "zh": "关于你是如何运行这个的因为 PR 就像"
+ },
+ {
+  "seg": 338,
+  "start": 1155.94,
+  "end": 1160.421,
+  "speaker": "Claire Vo",
+  "en": "the PRD is almost almost what I'm hearing which is PR is the proposal of what",
+  "zh": "PRD 几乎几乎就是我所听到的即 PR 是关于什么的提议"
+ },
+ {
+  "seg": 339,
+  "start": 1160.441,
+  "end": 1164.703,
+  "speaker": "Claire Vo",
+  "en": "to build how it gets built the solution you look at it in code and",
+  "zh": "如何构建它解决方案你查看代码"
+ },
+ {
+  "seg": 340,
+  "start": 1164.723,
+  "end": 1167.0563333333332,
+  "speaker": "Claire Vo",
+  "en": "so you've almost compressed that that loop",
+  "zh": "所以你几乎压缩了那个循环"
+ },
+ {
+  "seg": 341,
+  "start": 1167.628,
+  "end": 1172.743,
+  "speaker": "Claire Vo",
+  "en": "Were you merging those into your production app and putting them behind a feature flag?",
+  "zh": "你是将那些合并到你的生产应用中并将它们放在功能标志后面吗？"
+ },
+ {
+  "seg": 342,
+  "start": 1173.084,
+  "end": 1176.276,
+  "speaker": "Claire Vo",
+  "en": "Is that how you were technically managing this development process?",
+  "zh": "你就是这样在技术上管理这个开发过程的吗？"
+ },
+ {
+  "seg": 343,
+  "start": 1176.326,
+  "end": 1180.528,
+  "speaker": "Eddie Kim",
+  "en": "yeah exactly so I mean that that is one of the benefits of like kind of a zero",
+  "zh": "是的完全正确所以我的意思是那是那种的一个好处就像一个零"
+ },
+ {
+  "seg": 344,
+  "start": 1180.548,
+  "end": 1184.159111111111,
+  "speaker": "Eddie Kim",
+  "en": "to one type thing you may not be able to do that in all instances",
+  "zh": "到一类型的事情你可能无法在所有情况下都做到这一点"
+ },
+ {
+  "seg": 345,
+  "start": 1184.529,
+  "end": 1189.351,
+  "speaker": "Eddie Kim",
+  "en": "but we had essentially a hidden page in our web app and we would land stuff into",
+  "zh": "但我们在我们的网络应用中基本上有一个隐藏页面我们会把东西放进"
+ },
+ {
+  "seg": 346,
+  "start": 1189.391,
+  "end": 1194.053,
+  "speaker": "Eddie Kim",
+  "en": "that hidden page it would be on production and then we would sort of like chip away",
+  "zh": "那个隐藏页面它会在生产环境中然后我们会有点像"
+ },
+ {
+  "seg": 347,
+  "start": 1194.093,
+  "end": 1198.204,
+  "speaker": "Eddie Kim",
+  "en": "at it like I think the analogy we use a lot was like we started with a block",
+  "zh": "削减它我想我们经常使用的类比就像我们从一个块"
+ },
+ {
+  "seg": 348,
+  "start": 1198.254,
+  "end": 1199.254,
+  "speaker": "Eddie Kim",
+  "en": "of marble",
+  "zh": "大理石开始"
+ },
+ {
+  "seg": 349,
+  "start": 1199.855,
+  "end": 1203.416,
+  "speaker": "Eddie Kim",
+  "en": "and we're just slowly kind of like chipping at this thing and forming it into like",
+  "zh": "我们只是慢慢地有点像在这个东西上雕刻并将其形成像"
+ },
+ {
+  "seg": 350,
+  "start": 1203.456,
+  "end": 1210.219,
+  "speaker": "Eddie Kim",
+  "en": "a piece of art over time and we're doing that in production in place so one of",
+  "zh": "一件艺术作品随时间推移，而我们正在生产环境中就地这样做，所以其中之一"
+ },
+ {
+  "seg": 351,
+  "start": 1210.239,
+  "end": 1212.127888888889,
+  "speaker": "Eddie Kim",
+  "en": "the really cool things that we did",
+  "zh": "我们做的一件真的很酷的事情"
+ },
+ {
+  "seg": 352,
+  "start": 1212.24,
+  "end": 1216.341,
+  "speaker": "Eddie Kim",
+  "en": "which I would highly recommend is Katie our designer she actually shipped started",
+  "zh": "我非常推荐的是 Katie，我们的设计师，她实际上开始"
+ },
+ {
+  "seg": 353,
+  "start": 1216.361,
+  "end": 1221.503,
+  "speaker": "Eddie Kim",
+  "en": "shipping to production like a faked experience essentially so it had like the UI",
+  "zh": "向生产环境发货，基本上是一个假的经验，所以它有像 UI"
+ },
+ {
+  "seg": 354,
+  "start": 1221.543,
+  "end": 1225.325,
+  "speaker": "Eddie Kim",
+  "en": "the thing that we whiteboarded but if you go in and like you know hit put",
+  "zh": "我们在白板上画的东西，但如果你进去，你知道，击中「放"
+ },
+ {
+  "seg": 355,
+  "start": 1225.365,
+  "end": 1228.026,
+  "speaker": "Eddie Kim",
+  "en": "in some text into the text field and hit submit it would just give you",
+  "zh": "一些文本到文本字段中」并点击提交，它只会给你"
+ },
+ {
+  "seg": 356,
+  "start": 1228.046,
+  "end": 1229.2682222222222,
+  "speaker": "Eddie Kim",
+  "en": "the same response like",
+  "zh": "相同的响应，像"
+ },
+ {
+  "seg": 357,
+  "start": 1229.819,
+  "end": 1230.659,
+  "speaker": "Eddie Kim",
+  "en": "every single time, right?",
+  "zh": "每一次，对吧？"
+ },
+ {
+  "seg": 358,
+  "start": 1230.679,
+  "end": 1233.12,
+  "speaker": "Eddie Kim",
+  "en": "It's not actually going to any kind of agent loop.",
+  "zh": "它实际上并没有去任何类型的智能体循环。"
+ },
+ {
+  "seg": 359,
+  "start": 1233.16,
+  "end": 1234.381,
+  "speaker": "Eddie Kim",
+  "en": "It's not hitting any kind of database.",
+  "zh": "它没有去撞击任何类型的数据库。"
+ },
+ {
+  "seg": 360,
+  "start": 1234.401,
+  "end": 1235.221,
+  "speaker": "Eddie Kim",
+  "en": "It's a pure front end.",
+  "zh": "它是一个纯粹的前端。"
+ },
+ {
+  "seg": 361,
+  "start": 1235.241,
+  "end": 1240.523,
+  "speaker": "Eddie Kim",
+  "en": "It's kind of like what you would maybe build as a first pass on lovable or something like that.",
+  "zh": "这有点像你可能会在 lovable 或类似的东西上构建的初稿。"
+ },
+ {
+  "seg": 362,
+  "start": 1241.123,
+  "end": 1244.4750000000001,
+  "speaker": "Eddie Kim",
+  "en": "And that actually got shipped to production behind this feature flag.",
+  "zh": "这实际上被发货到了这个功能标志背后的生产环境中。"
+ },
+ {
+  "seg": 363,
+  "start": 1244.525,
+  "end": 1248.802777777778,
+  "speaker": "Eddie Kim",
+  "en": "And then in parallel, the engineers would start to build out the data models.",
+  "zh": "然后并行地，工程师们会开始构建数据模型。"
+ },
+ {
+  "seg": 364,
+  "start": 1249.367,
+  "end": 1255.349,
+  "speaker": "Eddie Kim",
+  "en": "They build the agent loop and they would start to connect this to the faked front end",
+  "zh": "他们构建智能体循环，他们会开始将其连接到这个假的前端"
+ },
+ {
+  "seg": 365,
+  "start": 1255.829,
+  "end": 1258.386,
+  "speaker": "Eddie Kim",
+  "en": "experience and the front end would stay the same but",
+  "zh": "经验，前端会保持不变，但是"
+ },
+ {
+  "seg": 366,
+  "start": 1258.436,
+  "end": 1263.086,
+  "speaker": "Eddie Kim",
+  "en": "the canned like responses would get slowly and in place",
+  "zh": "这些罐装的，像响应会被慢慢地就地"
+ },
+ {
+  "seg": 367,
+  "start": 1264.383,
+  "end": 1267.556,
+  "speaker": "Eddie Kim",
+  "en": "not even better like they would actually be like real right and",
+  "zh": "甚至不是更好，像它们实际上会像真正的，对"
+ },
+ {
+  "seg": 368,
+  "start": 1267.606,
+  "end": 1273.512,
+  "speaker": "Eddie Kim",
+  "en": "so you would see this thing kind of like morph from like a literal prototype",
+  "zh": "所以你会看到这个东西有点像从一个字面上的原型"
+ },
+ {
+  "seg": 369,
+  "start": 1273.532,
+  "end": 1275.333,
+  "speaker": "Eddie Kim",
+  "en": "that you wouldn't normally have thrown away because like it's just",
+  "zh": "变形，你通常不会把它扔掉，因为像它只是"
+ },
+ {
+  "seg": 370,
+  "start": 1275.353,
+  "end": 1276.604,
+  "speaker": "Eddie Kim",
+  "en": "for demonstration purpose",
+  "zh": "用于演示目的"
+ },
+ {
+  "seg": 371,
+  "start": 1276.654,
+  "end": 1281.042888888889,
+  "speaker": "Eddie Kim",
+  "en": "but it would actually turn we would like literally breathe life into this thing",
+  "zh": "但它实际上会转变，我们会像字面上赋予这个东西生命"
+ },
+ {
+  "seg": 372,
+  "start": 1281.439,
+  "end": 1284.281,
+  "speaker": "Eddie Kim",
+  "en": "over time and that's kind of how we how we built this at",
+  "zh": "随着时间的推移，这就是我们如何构建这个"
+ },
+ {
+  "seg": 373,
+  "start": 1284.301,
+  "end": 1288.301,
+  "speaker": "Eddie Kim",
+  "en": "the same time we would have engineers like build features and they would",
+  "zh": "同时，我们会让工程师像构建功能，他们会"
+ },
+ {
+  "seg": 374,
+  "start": 1288.864,
+  "end": 1292.087,
+  "speaker": "Eddie Kim",
+  "en": "you know have to do some front end stuff they would they would ship the design",
+  "zh": "知道必须做一些前端工作，他们会发货设计"
+ },
+ {
+  "seg": 375,
+  "start": 1292.127,
+  "end": 1296.592,
+  "speaker": "Eddie Kim",
+  "en": "for this right and the functionality on the back end would work really well but",
+  "zh": "为此，对，后端的功能会工作得很好，但"
+ },
+ {
+  "seg": 376,
+  "start": 1296.612,
+  "end": 1300.4453333333333,
+  "speaker": "Eddie Kim",
+  "en": "then you know the front end probably could use some improvement there",
+  "zh": "然后你知道前端可能可以使用一些改进"
+ },
+ {
+  "seg": 377,
+  "start": 1300.515,
+  "end": 1304.1490000000001,
+  "speaker": "Eddie Kim",
+  "en": "and we would ship that too right and then and then Katie the designer would then go",
+  "zh": "我们也会发货，对，然后然后 Katie 设计师会去"
+ },
+ {
+  "seg": 378,
+  "start": 1304.199,
+  "end": 1308.573,
+  "speaker": "Eddie Kim",
+  "en": "in and sort of like you know make make the experience a lot better on the front end",
+  "zh": "进去，有点像你知道，使，使前端的经验好得多"
+ },
+ {
+  "seg": 379,
+  "start": 1308.623,
+  "end": 1312.006,
+  "speaker": "Eddie Kim",
+  "en": "and so that was another example of like just shipping something into production and",
+  "zh": "所以这是另一个例子，就像只是把东西发货到生产环境，然后"
+ },
+ {
+  "seg": 380,
+  "start": 1312.026,
+  "end": 1313.026,
+  "speaker": "Eddie Kim",
+  "en": "then like",
+  "zh": "像"
+ },
+ {
+  "seg": 381,
+  "start": 1313.158,
+  "end": 1316.759,
+  "speaker": "Eddie Kim",
+  "en": "continuing to chip chip away at it to make it better over time so if you look at it",
+  "zh": "继续一点一点地凿去它，随着时间的推移使其更好，所以如果你看它"
+ },
+ {
+  "seg": 382,
+  "start": 1316.779,
+  "end": 1321.201,
+  "speaker": "Eddie Kim",
+  "en": "at any given time there was always something wrong with it like in production but",
+  "zh": "在任何给定时间，它总是有问题，像在生产中但"
+ },
+ {
+  "seg": 383,
+  "start": 1321.221,
+  "end": 1325.522,
+  "speaker": "Eddie Kim",
+  "en": "then over time like it turned into like this really nice thing and tell me",
+  "zh": "然后随着时间的推移，像它变成了这个非常好的东西，告诉我"
+ },
+ {
+  "seg": 384,
+  "start": 1325.562,
+  "end": 1330.184,
+  "speaker": "Claire Vo",
+  "en": "a little bit more about Katie we might have her on on the podcast but Katie",
+  "zh": "关于 Katie 的更多信息，我们可能会让她来播客上，但 Katie"
+ },
+ {
+  "seg": 385,
+  "start": 1330.224,
+  "end": 1336.046,
+  "speaker": "Claire Vo",
+  "en": "the designer is shipping stuff into production her code is the skeleton on which",
+  "zh": "设计师正在向生产环境发货东西，她的代码是骨架，很多"
+ },
+ {
+  "seg": 386,
+  "start": 1336.086,
+  "end": 1339.2526666666668,
+  "speaker": "Claire Vo",
+  "en": "a lot of this functionality is is being built tell me how",
+  "zh": "这些功能正在被构建，告诉我如何"
+ },
+ {
+  "seg": 387,
+  "start": 1339.969,
+  "end": 1343.273,
+  "speaker": "Claire Vo",
+  "en": "you know was she was she technical is she technical was she",
+  "zh": "你知道她是她是技术的吗她是技术的吗她是"
+ },
+ {
+  "seg": 388,
+  "start": 1343.293,
+  "end": 1347.677,
+  "speaker": "Claire Vo",
+  "en": "a software engineer how did she come to shipping code like what what blew your mind",
+  "zh": "软件工程师吗她是如何开始发货代码的什么什么让你震惊"
+ },
+ {
+  "seg": 389,
+  "start": 1347.717,
+  "end": 1354.544,
+  "speaker": "Eddie Kim",
+  "en": "about her role in this team what blew my mind was that she would turn",
+  "zh": "关于她在这个团队中的角色让我震惊的是她会变成"
+ },
+ {
+  "seg": 390,
+  "start": 1354.584,
+  "end": 1356.667,
+  "speaker": "Eddie Kim",
+  "en": "into this incredible engineer",
+  "zh": "这个不可思议的工程师"
+ },
+ {
+  "seg": 391,
+  "start": 1357.777,
+  "end": 1362.6,
+  "speaker": "Eddie Kim",
+  "en": "And I was just looking at our PR stats, which we use this tool called DX for it.",
+  "zh": "我只是在看我们的 PR 统计数据，我们为此使用一个叫 DX 的工具。"
+ },
+ {
+  "seg": 392,
+  "start": 1363.241,
+  "end": 1365.202,
+  "speaker": "Eddie Kim",
+  "en": "She, across our entire R&D org,",
+  "zh": "她在整个 R&D 组织中，"
+ },
+ {
+  "seg": 393,
+  "start": 1365.282,
+  "end": 1370.005,
+  "speaker": "Eddie Kim",
+  "en": "she is in the 94th percentile of true throughput,",
+  "zh": "她在真实吞吐量的第 94 个百分位，"
+ },
+ {
+  "seg": 394,
+  "start": 1370.045,
+  "end": 1373.9894444444444,
+  "speaker": "Eddie Kim",
+  "en": "which is a measure of like how many PRs you're landing into production.",
+  "zh": "这是一个衡量你有多少 PR 进入生产环境的指标。"
+ },
+ {
+  "seg": 395,
+  "start": 1374.448,
+  "end": 1376.6702222222223,
+  "speaker": "Eddie Kim",
+  "en": "And that includes every single engineer.",
+  "zh": "这包括每一个工程师。"
+ },
+ {
+  "seg": 396,
+  "start": 1377.109,
+  "end": 1379.981,
+  "speaker": "Eddie Kim",
+  "en": "classically trained software engineer in the company.",
+  "zh": "公司里受过经典训练的软件工程师。"
+ },
+ {
+  "seg": 397,
+  "start": 1380.031,
+  "end": 1384.635,
+  "speaker": "Eddie Kim",
+  "en": "Out of 20, she's a top, which is kind of insane.",
+  "zh": "在 20 人中，她是顶尖，这有点疯狂。"
+ },
+ {
+  "seg": 398,
+  "start": 1384.935,
+  "end": 1386.3794444444443,
+  "speaker": "Eddie Kim",
+  "en": "And it's really good code.",
+  "zh": "而且这是非常好的代码。"
+ },
+ {
+  "seg": 399,
+  "start": 1386.696,
+  "end": 1390.299,
+  "speaker": "Eddie Kim",
+  "en": "I asked her, what is special about you?",
+  "zh": "我问她，你有什么特别之处？"
+ },
+ {
+  "seg": 400,
+  "start": 1391.239,
+  "end": 1395.703,
+  "speaker": "Eddie Kim",
+  "en": "And how do we get more of this across design and product management?",
+  "zh": "我们如何在设计和产品管理中更多地推广这一点？"
+ },
+ {
+  "seg": 401,
+  "start": 1396.303,
+  "end": 1398.214,
+  "speaker": "Eddie Kim",
+  "en": "And her answer was basically twofold.",
+  "zh": "她的回答基本上是双重的。"
+ },
+ {
+  "seg": 402,
+  "start": 1398.264,
+  "end": 1400.1528888888888,
+  "speaker": "Eddie Kim",
+  "en": "One is that she's not an engineer,",
+  "zh": "一是她不是工程师，"
+ },
+ {
+  "seg": 403,
+  "start": 1400.566,
+  "end": 1401.627,
+  "speaker": "Eddie Kim",
+  "en": "she's not a software developer,",
+  "zh": "她不是软件开发者，"
+ },
+ {
+  "seg": 404,
+  "start": 1401.667,
+  "end": 1404.929,
+  "speaker": "Eddie Kim",
+  "en": "but she feels like she was a little bit more technically curious",
+  "zh": "但她觉得自己比大多数设计师"
+ },
+ {
+  "seg": 405,
+  "start": 1404.969,
+  "end": 1406.0801111111111,
+  "speaker": "Eddie Kim",
+  "en": "than most designers.",
+  "zh": "在技术上更有好奇心。"
+ },
+ {
+  "seg": 406,
+  "start": 1406.41,
+  "end": 1409.231,
+  "speaker": "Eddie Kim",
+  "en": "so just kind of has a little bit of that more technical bent and",
+  "zh": "所以只是有那么一点更偏向技术，"
+ },
+ {
+  "seg": 407,
+  "start": 1409.271,
+  "end": 1412.932,
+  "speaker": "Eddie Kim",
+  "en": "then most importantly is that she had a team of like three",
+  "zh": "然后最重要的是她有一个大约三四个"
+ },
+ {
+  "seg": 408,
+  "start": 1412.972,
+  "end": 1415.872,
+  "speaker": "Eddie Kim",
+  "en": "or four engineers particularly on this team that was willing",
+  "zh": "人的工程师团队，特别是在这个团队，他们愿意"
+ },
+ {
+  "seg": 409,
+  "start": 1415.912,
+  "end": 1420.753,
+  "speaker": "Eddie Kim",
+  "en": "to actually you know review her code like give her feedback sure like how",
+  "zh": "实际上你知道审查她的代码，给她反馈，当然，比如如何"
+ },
+ {
+  "seg": 410,
+  "start": 1420.773,
+  "end": 1424.884111111111,
+  "speaker": "Eddie Kim",
+  "en": "to prompt Claude a little bit better and like also how to judge that taste",
+  "zh": "更好地提示 Claude，以及如何判断那种品味，"
+ },
+ {
+  "seg": 411,
+  "start": 1424.974,
+  "end": 1428.735,
+  "speaker": "Eddie Kim",
+  "en": "of like what is actually good code that is producing and what is not we took",
+  "zh": "即什么是真正产生的好代码，什么是没有。我们花"
+ },
+ {
+  "seg": 412,
+  "start": 1428.755,
+  "end": 1433.356,
+  "speaker": "Eddie Kim",
+  "en": "the time to kind of like you know pair with her right whereas I think a lot",
+  "zh": "时间你知道与她结对，而我想很多"
+ },
+ {
+  "seg": 413,
+  "start": 1433.376,
+  "end": 1435.9315555555556,
+  "speaker": "Eddie Kim",
+  "en": "of engineers what I hear them say is like well",
+  "zh": "工程师，我听到他们说，比如，"
+ },
+ {
+  "seg": 414,
+  "start": 1436.717,
+  "end": 1441.76,
+  "speaker": "Eddie Kim",
+  "en": "it just slows us down and like designers should just focus on producing Figma so",
+  "zh": "这只会拖慢我们的速度，设计师应该只专注于产出 Figma，这样"
+ },
+ {
+  "seg": 415,
+  "start": 1441.78,
+  "end": 1444.932,
+  "speaker": "Eddie Kim",
+  "en": "that we can like really focus on turning that into real products",
+  "zh": "我们就可以真正专注于将其转化为真正的产品"
+ },
+ {
+  "seg": 416,
+  "start": 1444.982,
+  "end": 1448.404,
+  "speaker": "Eddie Kim",
+  "en": "and yeah that's true in the short term but like now I think once you make",
+  "zh": "是的，这在短期内是对的，但现在我想一旦你做了"
+ },
+ {
+  "seg": 417,
+  "start": 1448.424,
+  "end": 1453.447,
+  "speaker": "Eddie Kim",
+  "en": "that investment you have a support event software developer around her",
+  "zh": "那项投资，你就有了一个支持事件的软件开发者在她身边"
+ },
+ {
+  "seg": 418,
+  "start": 1453.467,
+  "end": 1458.15,
+  "speaker": "Eddie Kim",
+  "en": "or any designer I think dividends dividends pay off really really quickly this makes",
+  "zh": "或任何设计师身边，我认为红利，红利回报得真的非常快。这让"
+ },
+ {
+  "seg": 419,
+  "start": 1458.17,
+  "end": 1462.132,
+  "speaker": "Claire Vo",
+  "en": "my heart grow 10 sizes as someone who folks don't know I'm",
+  "zh": "我的心长大了十倍，作为大家不知道的人，我是"
+ },
+ {
+  "seg": 420,
+  "start": 1463.772,
+  "end": 1467.814,
+  "speaker": "Claire Vo",
+  "en": "I did not get a software engineering degree and yet I believe I can cook",
+  "zh": "我没有获得软件工程学位，但我相信我能烹饪"
+ },
+ {
+  "seg": 421,
+  "start": 1468.735,
+  "end": 1473.957,
+  "speaker": "Claire Vo",
+  "en": "and I've been coding for over 20 years I've run very large engineering organizations",
+  "zh": "并且我已经编程超过 20 年了，我管理过非常大的工程组织，"
+ },
+ {
+  "seg": 422,
+  "start": 1474.557,
+  "end": 1479.96,
+  "speaker": "Claire Vo",
+  "en": "and a lot of that was early in my career folks shout out to like Dave and Yeland",
+  "zh": "其中很多是在我职业生涯的早期，大家向 Dave 和 Yeland"
+ },
+ {
+  "seg": 423,
+  "start": 1480.22,
+  "end": 1485.103,
+  "speaker": "Claire Vo",
+  "en": "and Jeremy like were willing to sit with me and pair with me and answer",
+  "zh": "以及 Jeremy 致敬，他们愿意坐下来与我结对并回答"
+ },
+ {
+  "seg": 424,
+  "start": 1485.972,
+  "end": 1488.153,
+  "speaker": "Claire Vo",
+  "en": "questions and tolerate",
+  "zh": "问题，并容忍"
+ },
+ {
+  "seg": 425,
+  "start": 1488.253,
+  "end": 1493.837,
+  "speaker": "Claire Vo",
+  "en": "where my ambition outstripped my technical ability now you know even",
+  "zh": "我雄心超出技术能力的地方。现在你知道，即使"
+ },
+ {
+  "seg": 426,
+  "start": 1493.877,
+  "end": 1497.929,
+  "speaker": "Claire Vo",
+  "en": "with these AI tools you sort of have that very patient pair programmer next to you",
+  "zh": "有了这些 AI 工具，你旁边也有一位非常有耐心的结对程序员，"
+ },
+ {
+  "seg": 427,
+  "start": 1497.979,
+  "end": 1502.412,
+  "speaker": "Claire Vo",
+  "en": "but I do think culturally it's very very important for software engineering teams",
+  "zh": "但我确实认为在文化上，对于软件工程团队来说，扩展那种指导"
+ },
+ {
+  "seg": 428,
+  "start": 1502.462,
+  "end": 1507.225,
+  "speaker": "Claire Vo",
+  "en": "to extend that mentorship and guidance and feedback loop",
+  "zh": "和引导以及反馈循环"
+ },
+ {
+  "seg": 429,
+  "start": 1507.405,
+  "end": 1512.268,
+  "speaker": "Claire Vo",
+  "en": "to their non-engineering partners and this is a stress test I give to a lot of teams",
+  "zh": "给他们的非工程合作伙伴是非常非常重要的。这是我对很多团队进行的一个压力测试，"
+ },
+ {
+  "seg": 430,
+  "start": 1512.448,
+  "end": 1513.448,
+  "speaker": "Claire Vo",
+  "en": "because",
+  "zh": "因为"
+ },
+ {
+  "seg": 431,
+  "start": 1513.872,
+  "end": 1517.634,
+  "speaker": "Claire Vo",
+  "en": "I hear a lot of teams being really overwhelmed by code review",
+  "zh": "我听到很多团队对代码审查感到非常不知所措，"
+ },
+ {
+  "seg": 432,
+  "start": 1517.734,
+  "end": 1521.526,
+  "speaker": "Claire Vo",
+  "en": "and being really overwhelmed by like what maybe they'll call like slot PRS",
+  "zh": "对他们可能称之为来自非技术人员的糟糕 PR 感到非常不知所措，"
+ },
+ {
+  "seg": 433,
+  "start": 1521.576,
+  "end": 1524.378,
+  "speaker": "Claire Vo",
+  "en": "from non-technical folks and I just say like",
+  "zh": "而我只是说，比如，"
+ },
+ {
+  "seg": 434,
+  "start": 1524.878,
+  "end": 1529.101,
+  "speaker": "Claire Vo",
+  "en": "on average is your engineering teams PRS getting faster review",
+  "zh": "平均而言，你们工程团队的 PR 是否比"
+ },
+ {
+  "seg": 435,
+  "start": 1529.141,
+  "end": 1532.622,
+  "speaker": "Claire Vo",
+  "en": "than their non-engineering teams PRS and like across the board people are like yeah",
+  "zh": "非工程团队的 PR 得到更快的审查？而且全面的人们都说是的，"
+ },
+ {
+  "seg": 436,
+  "start": 1532.642,
+  "end": 1535.584,
+  "speaker": "Claire Vo",
+  "en": "of course they are like that is an anti-pattern you need",
+  "zh": "当然是。这是一个反模式，你需要"
+ },
+ {
+  "seg": 437,
+  "start": 1535.624,
+  "end": 1540.867,
+  "speaker": "Claire Vo",
+  "en": "to prioritize reviewing these non-engineering PRS just as high",
+  "zh": "优先审查这些非工程 PR，就像"
+ },
+ {
+  "seg": 438,
+  "start": 1540.907,
+  "end": 1543.0736666666667,
+  "speaker": "Claire Vo",
+  "en": "as you do your engineering ones because",
+  "zh": "审查你们的工程 PR 一样高，因为"
+ },
+ {
+  "seg": 439,
+  "start": 1543.185,
+  "end": 1546.708,
+  "speaker": "Claire Vo",
+  "en": "You can give feedback, you can create systems that improve code quality.",
+  "zh": "你可以提供反馈，你可以创建提高代码质量的系统。"
+ },
+ {
+  "seg": 440,
+  "start": 1546.728,
+  "end": 1549.89,
+  "speaker": "Claire Vo",
+  "en": "A lot of those PRs are actually really good ideas.",
+  "zh": "很多 PR 实际上是非常好的想法。"
+ },
+ {
+  "seg": 441,
+  "start": 1550.911,
+  "end": 1555.104,
+  "speaker": "Claire Vo",
+  "en": "And so I do think there's this cultural aspect to it that I'm really pleased",
+  "zh": "所以我确实认为其中有这一文化层面，我很高兴"
+ },
+ {
+  "seg": 442,
+  "start": 1555.154,
+  "end": 1558.316,
+  "speaker": "Claire Vo",
+  "en": "to hear you've unhooked because I think it's going to pay dividends over",
+  "zh": "听到你已经解开了，因为我认为它会在"
+ },
+ {
+  "seg": 443,
+  "start": 1558.336,
+  "end": 1559.287,
+  "speaker": "Claire Vo",
+  "en": "the long term.",
+  "zh": "长期内带来回报。"
+ },
+ {
+  "seg": 444,
+  "start": 1559.337,
+  "end": 1560.758,
+  "speaker": "Eddie Kim",
+  "en": "Yeah, 100% agree.",
+  "zh": "是的，100% 同意。"
+ },
+ {
+  "seg": 445,
+  "start": 1560.858,
+  "end": 1564.261,
+  "speaker": "Eddie Kim",
+  "en": "And our priority has always been PR reviews.",
+  "zh": "我们的一直是 PR 审查。"
+ },
+ {
+  "seg": 446,
+  "start": 1565.402,
+  "end": 1570.806,
+  "speaker": "Eddie Kim",
+  "en": "I think we did an analysis and I think our median PR review time was nine minutes.",
+  "zh": "我想我们做了一个分析，我认为我们的中位数 PR 审查时间是九分钟。"
+ },
+ {
+  "seg": 447,
+  "start": 1571.526,
+  "end": 1572.526,
+  "speaker": "Claire Vo",
+  "en": "On this team?",
+  "zh": "在这个团队？"
+ },
+ {
+  "seg": 448,
+  "start": 1573.033,
+  "end": 1576.956,
+  "speaker": "Eddie Kim",
+  "en": "on this team yeah definitely not in the in the in the R&D org but definitely on",
+  "zh": "在这个团队，是的，肯定不是在 R&D 组织中，但肯定是在"
+ },
+ {
+  "seg": 449,
+  "start": 1576.976,
+  "end": 1580.248,
+  "speaker": "Eddie Kim",
+  "en": "the team and and the reason why is like there would always be someone",
+  "zh": "团队中，原因是因为总是有人"
+ },
+ {
+  "seg": 450,
+  "start": 1580.298,
+  "end": 1584.802,
+  "speaker": "Eddie Kim",
+  "en": "on this permazoom and so like you just show up in this permazoom",
+  "zh": "在这个 PermaZoom 上所以就像你直接出现在这个 PermaZoom 中"
+ },
+ {
+  "seg": 451,
+  "start": 1584.862,
+  "end": 1590.826,
+  "speaker": "Eddie Kim",
+  "en": "and say I have this PR ready can we talk about it and then someone um sometimes in",
+  "zh": "并说我有这个 PR 准备好了我们可以谈谈它然后有时某人"
+ },
+ {
+  "seg": 452,
+  "start": 1590.846,
+  "end": 1593.929,
+  "speaker": "Eddie Kim",
+  "en": "a group setting sometimes you just go in a breakout room with someone you just kind",
+  "zh": "在一个小组环境中有时你只是和某人进入一个分组讨论室你只是"
+ },
+ {
+  "seg": 453,
+  "start": 1593.969,
+  "end": 1596.324,
+  "speaker": "Eddie Kim",
+  "en": "of talk through it together and review it together",
+  "zh": "一起过一遍并一起审查它"
+ },
+ {
+  "seg": 454,
+  "start": 1596.374,
+  "end": 1599.779,
+  "speaker": "Claire Vo",
+  "en": "This episode is brought to you by Jira Product Discovery.",
+  "zh": "本节目由 Jira Product Discovery 赞助播出。"
+ },
+ {
+  "seg": 455,
+  "start": 1600.36,
+  "end": 1603.465,
+  "speaker": "Claire Vo",
+  "en": "AI has made individual PMs incredibly productive,",
+  "zh": "AI 已经让单个 PM 变得非常高效,"
+ },
+ {
+  "seg": 456,
+  "start": 1603.865,
+  "end": 1606.319,
+  "speaker": "Claire Vo",
+  "en": "but multiplayer mode is where it still breaks,",
+  "zh": "但多人模式仍然是它崩溃的地方,"
+ },
+ {
+  "seg": 457,
+  "start": 1606.369,
+  "end": 1609.814,
+  "speaker": "Claire Vo",
+  "en": "getting everyone aligned on what should actually get built.",
+  "zh": "让每个人在实际上应该构建什么上保持一致。"
+ },
+ {
+  "seg": 458,
+  "start": 1610.335,
+  "end": 1611.256,
+  "speaker": "Claire Vo",
+  "en": "Decisions live in a",
+  "zh": "决策存在于一个"
+ },
+ {
+  "seg": 459,
+  "start": 1611.296,
+  "end": 1612.9626666666668,
+  "speaker": "Claire Vo",
+  "en": "markdown file from last week.",
+  "zh": "上周的 markdown 文件中。"
+ },
+ {
+  "seg": 460,
+  "start": 1613.017,
+  "end": 1615.6836666666668,
+  "speaker": "Claire Vo",
+  "en": "The roadmap's a spreadsheet no one's looking at.",
+  "zh": "路线图是一个没人看的电子表格。"
+ },
+ {
+  "seg": 461,
+  "start": 1616.179,
+  "end": 1619.956777777778,
+  "speaker": "Claire Vo",
+  "en": "Jira Product Discovery is where teams actually decide what to build,",
+  "zh": "Jira Product Discovery 是团队实际决定构建什么的地方,"
+ },
+ {
+  "seg": 462,
+  "start": 1620.202,
+  "end": 1621.133,
+  "speaker": "Claire Vo",
+  "en": "capture ideas,",
+  "zh": "捕获想法,"
+ },
+ {
+  "seg": 463,
+  "start": 1621.183,
+  "end": 1625.294111111111,
+  "speaker": "Claire Vo",
+  "en": "prioritize them as a team, and share a living roadmap everyone works from.",
+  "zh": "作为团队进行优先级排序,并分享一个每个人都在其中工作的动态路线图。"
+ },
+ {
+  "seg": 464,
+  "start": 1625.766,
+  "end": 1628.098,
+  "speaker": "Claire Vo",
+  "en": "It's powered by Atlassian's Teamwork Graph,",
+  "zh": "它由 Atlassian 的 Teamwork Graph 提供支持,"
+ },
+ {
+  "seg": 465,
+  "start": 1628.148,
+  "end": 1630.1190000000001,
+  "speaker": "Claire Vo",
+  "en": "so it can pull in customer feedback,",
+  "zh": "所以它可以引入客户反馈,"
+ },
+ {
+  "seg": 466,
+  "start": 1630.169,
+  "end": 1634.392,
+  "speaker": "Claire Vo",
+  "en": "what your team shipped, plus your goals, and suggest what to build next.",
+  "zh": "你的团队交付的东西,加上你的目标,并建议接下来构建什么。"
+ },
+ {
+  "seg": 467,
+  "start": 1635.052,
+  "end": 1636.223,
+  "speaker": "Claire Vo",
+  "en": "And when a decision is made,",
+  "zh": "当做出决定时,"
+ },
+ {
+  "seg": 468,
+  "start": 1636.273,
+  "end": 1640.884111111111,
+  "speaker": "Claire Vo",
+  "en": "you can hand it off straight to JIRA so a developer or even an agent can pick it up",
+  "zh": "你可以直接将其移交给 JIRA,以便开发者甚至智能体可以接手它"
+ },
+ {
+  "seg": 469,
+  "start": 1641.056,
+  "end": 1642.157,
+  "speaker": "Claire Vo",
+  "en": "and start building.",
+  "zh": "并开始构建。"
+ },
+ {
+  "seg": 470,
+  "start": 1643.017,
+  "end": 1648.02,
+  "speaker": "Claire Vo",
+  "en": "Teams at Canva, Deliveroo, and Toast already use JIRA product discovery.",
+  "zh": "Canva、Deliveroo 和 Toast 的团队已经在使用 Jira Product Discovery。"
+ },
+ {
+  "seg": 471,
+  "start": 1648.741,
+  "end": 1655.605,
+  "speaker": "Claire Vo",
+  "en": "Join more than 25,000 teams at atlassian.com slash howiai.",
+  "zh": "在 atlassian.com/howiai 加入超过 25,000 个团队。"
+ },
+ {
+  "seg": 472,
+  "start": 1656.125,
+  "end": 1658.4027777777778,
+  "speaker": "Claire Vo",
+  "en": "Start building the right things together.",
+  "zh": "开始一起构建正确的东西。"
+ },
+ {
+  "seg": 473,
+  "start": 1658.927,
+  "end": 1661.8158888888888,
+  "speaker": "Claire Vo",
+  "en": "Does this bring you back to like early founder days?",
+  "zh": "这让你回到早期的创始人时代吗?"
+ },
+ {
+  "seg": 474,
+  "start": 1662.346,
+  "end": 1665.048,
+  "speaker": "Eddie Kim",
+  "en": "It did feel a lot like startups.",
+  "zh": "这确实感觉很像初创公司。"
+ },
+ {
+  "seg": 475,
+  "start": 1665.308,
+  "end": 1669.211,
+  "speaker": "Eddie Kim",
+  "en": "Actually, when we started, also everybody coded back then.",
+  "zh": "实际上,当我们开始时,那时每个人也都写代码。"
+ },
+ {
+  "seg": 476,
+  "start": 1669.251,
+  "end": 1674.595,
+  "speaker": "Eddie Kim",
+  "en": "Like we hired designers that like, you know, I mean, it's different type of code.",
+  "zh": "就像我们要了设计师,你知道,我的意思是,那是不同类型的代码。"
+ },
+ {
+  "seg": 477,
+  "start": 1674.635,
+  "end": 1679.919,
+  "speaker": "Eddie Kim",
+  "en": "They wrote a lot of like HTML and CSS and maybe some light JavaScript, but they coded, right?",
+  "zh": "他们写了很多 HTML 和 CSS,可能还有一些轻量级的 JavaScript,但他们确实写代码,对吧?"
+ },
+ {
+  "seg": 478,
+  "start": 1680.119,
+  "end": 1684.062,
+  "speaker": "Eddie Kim",
+  "en": "They actually opened pull requests and merged it.",
+  "zh": "他们实际上打开了 PR 并合并了它。"
+ },
+ {
+  "seg": 479,
+  "start": 1684.741,
+  "end": 1688.443,
+  "speaker": "Eddie Kim",
+  "en": "um over time I think that kind of went away we said oh like everybody's got to go",
+  "zh": "随着时间的推移我认为那种东西消失了我们说哦每个人都必须进入"
+ },
+ {
+  "seg": 480,
+  "start": 1688.483,
+  "end": 1692.4950000000001,
+  "speaker": "Eddie Kim",
+  "en": "into these like traditional swim lanes um and this was like kind of almost",
+  "zh": "这些传统的泳道这几乎"
+ },
+ {
+  "seg": 481,
+  "start": 1692.545,
+  "end": 1696.327,
+  "speaker": "Eddie Kim",
+  "en": "a throwback to when we just started right uh we just had maybe like",
+  "zh": "是对当我们刚开始时的回溯是的我们只有也许"
+ },
+ {
+  "seg": 482,
+  "start": 1696.347,
+  "end": 1699.908,
+  "speaker": "Eddie Kim",
+  "en": "a few whiteboards we kind of like discussed in real time what we're gonna build",
+  "zh": "几个白板我们实时讨论我们要构建什么"
+ },
+ {
+  "seg": 483,
+  "start": 1699.948,
+  "end": 1705.731,
+  "speaker": "Eddie Kim",
+  "en": "and we built it and um yeah and honestly I mean it was a lot of work I I will say",
+  "zh": "然后我们就构建了它嗯老实说我 mean 这确实很多工作我"
+ },
+ {
+  "seg": 484,
+  "start": 1705.771,
+  "end": 1709.753,
+  "speaker": "Eddie Kim",
+  "en": "that to ship something like this in 10 weeks did take a lot of like",
+  "zh": "会说要在 10 周内发布这样的东西确实花了很多"
+ },
+ {
+  "seg": 485,
+  "start": 1710.433,
+  "end": 1716.017,
+  "speaker": "Eddie Kim",
+  "en": "nights and weekend time but I didn't ask anybody to do it they just did it",
+  "zh": "晚上和周末的时间但我没有要求任何人这样做他们只是这样做了"
+ },
+ {
+  "seg": 486,
+  "start": 1716.097,
+  "end": 1719.88,
+  "speaker": "Eddie Kim",
+  "en": "because people were so passionate about what we were doing",
+  "zh": "因为人们对我们正在做的事情如此充满热情"
+ },
+ {
+  "seg": 487,
+  "start": 1719.9,
+  "end": 1723.833,
+  "speaker": "Eddie Kim",
+  "en": "and honestly they were having a lot of fun it was so much fun it was intense but",
+  "zh": "老实说他们玩得很开心这非常有趣这很紧张但是"
+ },
+ {
+  "seg": 488,
+  "start": 1723.883,
+  "end": 1728.566,
+  "speaker": "Claire Vo",
+  "en": "so much fun that's what I hear from so many people we've done so many",
+  "zh": "非常有趣这也是我从那么多人那里听到的我们已经做了这么多"
+ },
+ {
+  "seg": 489,
+  "start": 1728.586,
+  "end": 1730.1770000000001,
+  "speaker": "Claire Vo",
+  "en": "of these I've done so many of these interviews",
+  "zh": "这些我已经做了这么多采访"
+ },
+ {
+  "seg": 490,
+  "start": 1730.227,
+  "end": 1733.5800000000002,
+  "speaker": "Claire Vo",
+  "en": "and almost everybody says I'm working harder than I ever have and I am",
+  "zh": "几乎每个人都说我工作得比以往任何时候都努力而我"
+ },
+ {
+  "seg": 491,
+  "start": 1733.63,
+  "end": 1738.673,
+  "speaker": "Claire Vo",
+  "en": "so much happier I'm having so much more fun work is just better because the work",
+  "zh": "开心得多我有更多乐趣工作变得更好因为我做的"
+ },
+ {
+  "seg": 492,
+  "start": 1738.713,
+  "end": 1739.713,
+  "speaker": "Claire Vo",
+  "en": "that I'm doing is",
+  "zh": "工作是"
+ },
+ {
+  "seg": 493,
+  "start": 1740.246,
+  "end": 1743.892,
+  "speaker": "Claire Vo",
+  "en": "is more creative it's it feels like it's closer closer",
+  "zh": "更有创意的它感觉它更接近更近"
+ },
+ {
+  "seg": 494,
+  "start": 1743.912,
+  "end": 1747.587,
+  "speaker": "Claire Vo",
+  "en": "to impact okay you've you've painted this vision people are gonna walk away",
+  "zh": "于影响好了你描绘了这个愿景人们会离开"
+ },
+ {
+  "seg": 495,
+  "start": 1747.637,
+  "end": 1751.713,
+  "speaker": "Claire Vo",
+  "en": "and unfortunately their teams are gonna be like you can ship this huge product",
+  "zh": "不幸的是他们的团队会说你可以在 10 周内发布这个巨大的产品"
+ },
+ {
+  "seg": 496,
+  "start": 1751.763,
+  "end": 1754.998,
+  "speaker": "Claire Vo",
+  "en": "in 10 weeks it'll only take five people I want nine minute per",
+  "zh": "它只需要 5 个人我想要每次 PR 审查"
+ },
+ {
+  "seg": 497,
+  "start": 1755.048,
+  "end": 1757.67,
+  "speaker": "Claire Vo",
+  "en": "PR review time so you're setting the bar high",
+  "zh": "9 分钟的时间所以你把门槛设得很高"
+ },
+ {
+  "seg": 498,
+  "start": 1758.07,
+  "end": 1761.792,
+  "speaker": "Claire Vo",
+  "en": "but let's like let's prove it I mean show show us what you built and",
+  "zh": "但让我们来证明吧我是说展示给我们你构建了什么然后"
+ },
+ {
+  "seg": 499,
+  "start": 1761.832,
+  "end": 1767.916,
+  "speaker": "Claire Vo",
+  "en": "then maybe we'd love to see how you personally use clod code or used clod code",
+  "zh": "也许我们很想看看你个人如何使用 clod code 或使用 clod code"
+ },
+ {
+  "seg": 500,
+  "start": 1767.957,
+  "end": 1770.058,
+  "speaker": "Claire Vo",
+  "en": "to contribute to this product",
+  "zh": "为这个产品做贡献"
+ },
+ {
+  "seg": 501,
+  "start": 1770.495,
+  "end": 1771.326,
+  "speaker": "Eddie Kim",
+  "en": "Yeah, sounds great.",
+  "zh": "是的，听起来很棒。"
+ },
+ {
+  "seg": 502,
+  "start": 1771.376,
+  "end": 1773.319,
+  "speaker": "Eddie Kim",
+  "en": "Let me just share my screen here.",
+  "zh": "让我这里分享一下我的屏幕。"
+ },
+ {
+  "seg": 503,
+  "start": 1773.399,
+  "end": 1776.9750000000001,
+  "speaker": "Eddie Kim",
+  "en": "And for the folks on audio, I'll try to walk through what's on my screen.",
+  "zh": "对于音频端的朋友们，我会尽量讲清楚我屏幕上的内容。"
+ },
+ {
+  "seg": 504,
+  "start": 1777.025,
+  "end": 1779.949,
+  "speaker": "Eddie Kim",
+  "en": "This is the gusto that everybody knows, right?",
+  "zh": "这是大家都知道的 Gusto，对吧？"
+ },
+ {
+  "seg": 505,
+  "start": 1779.969,
+  "end": 1782.953,
+  "speaker": "Eddie Kim",
+  "en": "This is kind of, ironically, we call it classic now.",
+  "zh": "这有点，讽刺的是，我们现在把它称为经典版。"
+ },
+ {
+  "seg": 506,
+  "start": 1783.775,
+  "end": 1785.647,
+  "speaker": "Eddie Kim",
+  "en": "When you're a co-founder, we would never use it.",
+  "zh": "当你是联合创始人时，我们永远不会使用它。"
+ },
+ {
+  "seg": 507,
+  "start": 1785.697,
+  "end": 1789.843,
+  "speaker": "Eddie Kim",
+  "en": "If you're in the co-founder group, you get to call the traditional Gusto, Gusto Classic.",
+  "zh": "如果你在联合创始人组，你可以把传统的 Gusto 称为 Gusto Classic。"
+ },
+ {
+  "seg": 508,
+  "start": 1789.863,
+  "end": 1792.387,
+  "speaker": "Eddie Kim",
+  "en": "This is Gusto, co-founder here.",
+  "zh": "这是 Gusto，联合创始人版在这里。"
+ },
+ {
+  "seg": 509,
+  "start": 1792.867,
+  "end": 1794.85,
+  "speaker": "Eddie Kim",
+  "en": "It does the things, you know, basic stuff.",
+  "zh": "它能做那些事，你知道，基础的东西。"
+ },
+ {
+  "seg": 510,
+  "start": 1794.87,
+  "end": 1798.2033333333331,
+  "speaker": "Eddie Kim",
+  "en": "I don't think any of this stuff is particularly interesting.",
+  "zh": "我不觉得这些东西有任何特别有趣之处。"
+ },
+ {
+  "seg": 511,
+  "start": 1798.836,
+  "end": 1800.468,
+  "speaker": "Eddie Kim",
+  "en": "It's kind of like the normal agent loop.",
+  "zh": "这有点像标准的智能体循环。"
+ },
+ {
+  "seg": 512,
+  "start": 1800.518,
+  "end": 1802.018,
+  "speaker": "Eddie Kim",
+  "en": "that's connected to tools.",
+  "zh": "连接到工具的那种。"
+ },
+ {
+  "seg": 513,
+  "start": 1802.539,
+  "end": 1806.72,
+  "speaker": "Eddie Kim",
+  "en": "I would say the really interesting thing about this from a user perspective is",
+  "zh": "我想从用户角度看，这真正有趣的一点是"
+ },
+ {
+  "seg": 514,
+  "start": 1806.76,
+  "end": 1812.461,
+  "speaker": "Eddie Kim",
+  "en": "that it comes out of the box with all the things that Gusto is already doing",
+  "zh": "它开箱即用，自带 Gusto 已经在为你做的"
+ },
+ {
+  "seg": 515,
+  "start": 1812.521,
+  "end": 1812.981,
+  "speaker": "Eddie Kim",
+  "en": "for you, right?",
+  "zh": "所有事情，对吧？"
+ },
+ {
+  "seg": 516,
+  "start": 1813.001,
+  "end": 1816.492,
+  "speaker": "Eddie Kim",
+  "en": "It has all the information that Gusto already has about your business,",
+  "zh": "它拥有 Gusto 已经掌握的关于你业务的所有信息，"
+ },
+ {
+  "seg": 517,
+  "start": 1816.542,
+  "end": 1817.653111111111,
+  "speaker": "Eddie Kim",
+  "en": "like your employees,",
+  "zh": "比如你的员工，"
+ },
+ {
+  "seg": 518,
+  "start": 1817.963,
+  "end": 1822.284,
+  "speaker": "Eddie Kim",
+  "en": "your payrolls, your schedules, your time off requests, and things like that.",
+  "zh": "你的工资单，你的排班，你的休假请求，以及类似的东西。"
+ },
+ {
+  "seg": 519,
+  "start": 1822.984,
+  "end": 1827.863,
+  "speaker": "Eddie Kim",
+  "en": "And one of the things that was really important to us was just being able to communicate it",
+  "zh": "对我们要说的一件非常重要的事情是，能够与它沟通"
+ },
+ {
+  "seg": 520,
+  "start": 1827.913,
+  "end": 1828.723,
+  "speaker": "Eddie Kim",
+  "en": "communicate with it,",
+  "zh": "与它沟通，"
+ },
+ {
+  "seg": 521,
+  "start": 1828.773,
+  "end": 1830.253,
+  "speaker": "Eddie Kim",
+  "en": "not just through the web,",
+  "zh": "不仅仅是通过网络，"
+ },
+ {
+  "seg": 522,
+  "start": 1830.393,
+  "end": 1835.394,
+  "speaker": "Eddie Kim",
+  "en": "but actually we want people to primarily talk to it through SMS or or Slack,",
+  "zh": "而且实际上我们要人们主要通过 SMS 或者 Slack 来"
+ },
+ {
+  "seg": 523,
+  "start": 1835.454,
+  "end": 1836.064,
+  "speaker": "Eddie Kim",
+  "en": "actually.",
+  "zh": "与它交谈。"
+ },
+ {
+  "seg": 524,
+  "start": 1836.114,
+  "end": 1836.324,
+  "speaker": "Eddie Kim",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 525,
+  "start": 1836.374,
+  "end": 1841.935,
+  "speaker": "Eddie Kim",
+  "en": "So here I'm going to say something like, do I have any time off requests that I need to approve?",
+  "zh": "所以在这里我要说类似这样的话，我有没有需要批准的休假请求？"
+ },
+ {
+  "seg": 526,
+  "start": 1842.416,
+  "end": 1845.936,
+  "speaker": "Eddie Kim",
+  "en": "And it would be the same exact thing as if I were to like ask this in the in",
+  "zh": "这就和我去"
+ },
+ {
+  "seg": 527,
+  "start": 1845.956,
+  "end": 1847.067111111111,
+  "speaker": "Eddie Kim",
+  "en": "the web application.",
+  "zh": "网络应用里问这个是一模一样的。"
+ },
+ {
+  "seg": 528,
+  "start": 1847.636,
+  "end": 1853.257,
+  "speaker": "Eddie Kim",
+  "en": "It's calling the same tools and it's going to respond to me through the same channels.",
+  "zh": "它调用相同的工具，并通过相同的渠道响应我。"
+ },
+ {
+  "seg": 529,
+  "start": 1853.917,
+  "end": 1857.133,
+  "speaker": "Eddie Kim",
+  "en": "By the way, for those listening in, I'm showing a screen of",
+  "zh": "顺便说一下，对于听众来说，我正在展示一个屏幕，"
+ },
+ {
+  "seg": 530,
+  "start": 1857.183,
+  "end": 1861.168,
+  "speaker": "Eddie Kim",
+  "en": "My phone basically, my messaging app on my on my Android phone.",
+  "zh": "基本上是我的手机，我安卓手机上的短信应用。"
+ },
+ {
+  "seg": 531,
+  "start": 1861.508,
+  "end": 1864.3410000000001,
+  "speaker": "Eddie Kim",
+  "en": "And I just typed in, do I have any time off requests that I need to approve?",
+  "zh": "我刚刚输入了，我有没有需要批准的休假请求？"
+ },
+ {
+  "seg": 532,
+  "start": 1864.391,
+  "end": 1868.626,
+  "speaker": "Claire Vo",
+  "en": "What I'd imagine is this sort of like multi-channel experience is really important",
+  "zh": "我想象的是，这种多渠道体验对"
+ },
+ {
+  "seg": 533,
+  "start": 1868.676,
+  "end": 1871.599,
+  "speaker": "Claire Vo",
+  "en": "for kind of like small business owners in particular",
+  "zh": "尤其是小企业主来说真的很重要"
+ },
+ {
+  "seg": 534,
+  "start": 1871.639,
+  "end": 1874.643,
+  "speaker": "Claire Vo",
+  "en": "who are probably like running around and doing stuff,",
+  "zh": "他们可能四处奔波忙这忙那，"
+ },
+ {
+  "seg": 535,
+  "start": 1874.783,
+  "end": 1877.586,
+  "speaker": "Claire Vo",
+  "en": "always operating on on their phone.",
+  "zh": "总是在手机上操作。"
+ },
+ {
+  "seg": 536,
+  "start": 1878.993,
+  "end": 1884.336,
+  "speaker": "Claire Vo",
+  "en": "And so I do think it's interesting as somebody who has like built B2B web apps for",
+  "zh": "所以我认为这很有趣，作为一个构建了这么久 B2B 网络应用的人，"
+ },
+ {
+  "seg": 537,
+  "start": 1884.436,
+  "end": 1890.22,
+  "speaker": "Claire Vo",
+  "en": "so long to think now my surface area is texting.",
+  "zh": "现在思考我的交互界面变成了发短信。"
+ },
+ {
+  "seg": 538,
+  "start": 1890.42,
+  "end": 1893.342,
+  "speaker": "Claire Vo",
+  "en": "It's just a very interesting product design problem.",
+  "zh": "这是一个非常有趣的产品设计问题。"
+ },
+ {
+  "seg": 539,
+  "start": 1893.902,
+  "end": 1896.184,
+  "speaker": "Claire Vo",
+  "en": "And then technical problem with,",
+  "zh": "还有技术问题，关于"
+ },
+ {
+  "seg": 540,
+  "start": 1896.324,
+  "end": 1896.544,
+  "speaker": "Claire Vo",
+  "en": "you know,",
+  "zh": "你知道，"
+ },
+ {
+  "seg": 541,
+  "start": 1896.584,
+  "end": 1900.647,
+  "speaker": "Claire Vo",
+  "en": "how do you how do you show streaming or latency or make sure people understand",
+  "zh": "你如何展示流式传输或延迟，或者确保人们理解"
+ },
+ {
+  "seg": 542,
+  "start": 1900.687,
+  "end": 1903.328,
+  "speaker": "Claire Vo",
+  "en": "that you are working when you're working on it?",
+  "zh": "你正在工作时，你正在处理它？"
+ },
+ {
+  "seg": 543,
+  "start": 1903.408,
+  "end": 1906.4635555555556,
+  "speaker": "Claire Vo",
+  "en": "So I think this whole surface area is very interesting.",
+  "zh": "所以我认为这整个交互界面都很有趣。"
+ },
+ {
+  "seg": 544,
+  "start": 1907.233,
+  "end": 1912.356,
+  "speaker": "Eddie Kim",
+  "en": "yeah exactly so we have right now today slack and SMS but um you know I kind of want",
+  "zh": "是的，完全正确，所以我们现在今天有 Slack 和 SMS，但我有点想"
+ },
+ {
+  "seg": 545,
+  "start": 1912.376,
+  "end": 1916.639,
+  "speaker": "Eddie Kim",
+  "en": "to add like whatsapp and telegram I think that's kind of one of the things I learned",
+  "zh": "添加像 WhatsApp 和 Telegram，我想这是我从"
+ },
+ {
+  "seg": 546,
+  "start": 1916.659,
+  "end": 1921.642,
+  "speaker": "Eddie Kim",
+  "en": "from using openclaw of like the power of like these uh messaging channels okay",
+  "zh": "使用 openclaw 中学到的一件事，就是这些消息渠道的"
+ },
+ {
+  "seg": 547,
+  "start": 1921.682,
+  "end": 1927.446,
+  "speaker": "Eddie Kim",
+  "en": "so it responded um actually looked up that there is someone named Todd uh who has",
+  "zh": "好吧，它响应了，实际上查到有一个叫 Todd 的人有"
+ },
+ {
+  "seg": 548,
+  "start": 1927.486,
+  "end": 1928.486,
+  "speaker": "Eddie Kim",
+  "en": "a time off request",
+  "zh": "一个休假请求"
+ },
+ {
+  "seg": 549,
+  "start": 1929.095,
+  "end": 1934.119,
+  "speaker": "Eddie Kim",
+  "en": "and I could just say yes and it'll actually approve that timeoff request.",
+  "zh": "我可以说 yes，它实际上就会批准那个休假请求。"
+ },
+ {
+  "seg": 550,
+  "start": 1934.139,
+  "end": 1936.750111111111,
+  "speaker": "Eddie Kim",
+  "en": "I don't have to do that in the web app anymore.",
+  "zh": "我不用再在网络应用程序里做那个了。"
+ },
+ {
+  "seg": 551,
+  "start": 1937.122,
+  "end": 1942.186,
+  "speaker": "Eddie Kim",
+  "en": "So I'll just let that run so we can come back to it to see that it actually approved it.",
+  "zh": "所以我就让它运行，这样我们可以回过头来看它实际上批准了它。"
+ },
+ {
+  "seg": 552,
+  "start": 1942.586,
+  "end": 1946.459,
+  "speaker": "Eddie Kim",
+  "en": "But I want to show something that's a little bit more interesting and more complex.",
+  "zh": "但我想展示一些更有趣和更复杂的东西。"
+ },
+ {
+  "seg": 553,
+  "start": 1946.509,
+  "end": 1952.253,
+  "speaker": "Eddie Kim",
+  "en": "So this actually came from a real customer and this particular customer",
+  "zh": "所以这实际上来自一个真实的客户，而这个特定的客户"
+ },
+ {
+  "seg": 554,
+  "start": 1952.273,
+  "end": 1953.9396666666667,
+  "speaker": "Eddie Kim",
+  "en": "that we have is a massage spa.",
+  "zh": "我们有一个是一家按摩水疗中心。"
+ },
+ {
+  "seg": 555,
+  "start": 1954.535,
+  "end": 1955.576,
+  "speaker": "Eddie Kim",
+  "en": "in New York City.",
+  "zh": "在纽约市。"
+ },
+ {
+  "seg": 556,
+  "start": 1956.177,
+  "end": 1960.891,
+  "speaker": "Eddie Kim",
+  "en": "And what they do is they use MindBody to track all of their work of their massage therapists.",
+  "zh": "他们做的是他们使用 MindBody 来追踪他们按摩治疗师的所有工作。"
+ },
+ {
+  "seg": 557,
+  "start": 1960.941,
+  "end": 1962.193,
+  "speaker": "Eddie Kim",
+  "en": "And they basically have,",
+  "zh": "而且他们基本上有，"
+ },
+ {
+  "seg": 558,
+  "start": 1962.243,
+  "end": 1966.4096666666667,
+  "speaker": "Eddie Kim",
+  "en": "you know, how many 60-minute massages they do, how many 90-minute massages.",
+  "zh": "你知道，他们做多少次 60 分钟的按摩，多少次 90 分钟的按摩。"
+ },
+ {
+  "seg": 559,
+  "start": 1966.867,
+  "end": 1970.978111111111,
+  "speaker": "Eddie Kim",
+  "en": "They also get paid like a bonus if they do certain upsells like Hot Stone,",
+  "zh": "如果他们做了某些追加销售，比如热石疗法，他们还能拿到奖金，"
+ },
+ {
+  "seg": 560,
+  "start": 1971.521,
+  "end": 1974.0130000000001,
+  "speaker": "Eddie Kim",
+  "en": "or CBD oil and they have like a rate for that.",
+  "zh": "或者 CBD 油，他们对此有一个费率。"
+ },
+ {
+  "seg": 561,
+  "start": 1974.063,
+  "end": 1976.145,
+  "speaker": "Eddie Kim",
+  "en": "They also like decide how they split.",
+  "zh": "他们还决定他们如何分配。"
+ },
+ {
+  "seg": 562,
+  "start": 1976.165,
+  "end": 1980.698,
+  "speaker": "Eddie Kim",
+  "en": "They decided to split their tips like as like they group their tips together and they split it.",
+  "zh": "他们决定像把小费集中在一起然后分配那样来分配小费。"
+ },
+ {
+  "seg": 563,
+  "start": 1980.748,
+  "end": 1983.901,
+  "speaker": "Eddie Kim",
+  "en": "So what this owner has to do every week is they actually,",
+  "zh": "所以这位老板每周必须做的是他们实际上，"
+ },
+ {
+  "seg": 564,
+  "start": 1983.951,
+  "end": 1986.242,
+  "speaker": "Eddie Kim",
+  "en": "you know, they export something from MindBody.",
+  "zh": "你知道，他们从 MindBody 导出一些东西。"
+ },
+ {
+  "seg": 565,
+  "start": 1986.292,
+  "end": 1988.903111111111,
+  "speaker": "Eddie Kim",
+  "en": "they put it into a Google spreadsheet like this",
+  "zh": "他们把它像这样放入 Google 电子表格"
+ },
+ {
+  "seg": 566,
+  "start": 1989.014,
+  "end": 1993.068,
+  "speaker": "Eddie Kim",
+  "en": "then they actually run these calculations of like how much to pay them in terms",
+  "zh": "然后他们实际上运行这些计算，比如要付给他们多少"
+ },
+ {
+  "seg": 567,
+  "start": 1993.118,
+  "end": 1998.263,
+  "speaker": "Eddie Kim",
+  "en": "of bonus and commission and tips and then and only then they actually go into Gusto",
+  "zh": "奖金和佣金以及小费，然后只有那时他们才真正进入 Gusto"
+ },
+ {
+  "seg": 568,
+  "start": 1998.943,
+  "end": 2001.886,
+  "speaker": "Eddie Kim",
+  "en": "and you know they they go to the run payroll page and",
+  "zh": "你知道他们他们去到运行薪资页面并且"
+ },
+ {
+  "seg": 569,
+  "start": 2001.906,
+  "end": 2005.629,
+  "speaker": "Eddie Kim",
+  "en": "then they um um they actually input all that all that in right",
+  "zh": "然后他们嗯嗯他们实际上输入所有所有东西进去对"
+ },
+ {
+  "seg": 570,
+  "start": 2005.889,
+  "end": 2009.492,
+  "speaker": "Eddie Kim",
+  "en": "that part is really fast of course but it's all this like what I call the work",
+  "zh": "那部分当然真的很快，但所有这些就像我称之为"
+ },
+ {
+  "seg": 571,
+  "start": 2009.532,
+  "end": 2013.276,
+  "speaker": "Eddie Kim",
+  "en": "before the work that a business that is not using AI has to do",
+  "zh": "前置工作的东西是一家没有使用 AI 的企业必须做的"
+ },
+ {
+  "seg": 572,
+  "start": 2014.193,
+  "end": 2015.754,
+  "speaker": "Eddie Kim",
+  "en": "to run the payroll every single week.",
+  "zh": "才能每周运行薪资。"
+ },
+ {
+  "seg": 573,
+  "start": 2015.774,
+  "end": 2018.325,
+  "speaker": "Eddie Kim",
+  "en": "And they do this like week in and week out, right?",
+  "zh": "他们像每周周而复始地这样做，对吧？"
+ },
+ {
+  "seg": 574,
+  "start": 2018.375,
+  "end": 2021.156,
+  "speaker": "Eddie Kim",
+  "en": "And so in Gusto Co-Founder,",
+  "zh": "所以在 Gusto Co-Founder 中，"
+ },
+ {
+  "seg": 575,
+  "start": 2021.356,
+  "end": 2024.477,
+  "speaker": "Eddie Kim",
+  "en": "I have a set of connectors where I can,",
+  "zh": "我有一组连接器，我可以，"
+ },
+ {
+  "seg": 576,
+  "start": 2024.637,
+  "end": 2027.9080000000001,
+  "speaker": "Eddie Kim",
+  "en": "Gusto Co-Founder can actually access third-party systems like QuickBooks,",
+  "zh": "Gusto Co-Founder 实际上可以访问第三方系统，比如 QuickBooks，"
+ },
+ {
+  "seg": 577,
+  "start": 2027.958,
+  "end": 2030.659,
+  "speaker": "Eddie Kim",
+  "en": "Google Sheets, Notion, and things like that.",
+  "zh": "Google Sheets、Notion 之类的东西。"
+ },
+ {
+  "seg": 578,
+  "start": 2031.76,
+  "end": 2035.761,
+  "speaker": "Eddie Kim",
+  "en": "And what I can do is actually just literally say my process here.",
+  "zh": "我能做的就是实际上只在这里字面上说明我的流程。"
+ },
+ {
+  "seg": 579,
+  "start": 2036.481,
+  "end": 2040.592111111111,
+  "speaker": "Eddie Kim",
+  "en": "So I wrote here like, hey, Gusto Co-Founder, I need you to run my payroll.",
+  "zh": "所以我在这里写道，嘿，Gusto Co-Founder，我需要你来运行我的薪资。"
+ },
+ {
+  "seg": 580,
+  "start": 2040.643,
+  "end": 2043.9763333333333,
+  "speaker": "Eddie Kim",
+  "en": "Look at this spreadsheet that's called Export from MindBody.",
+  "zh": "看看这个名为“Export from MindBody”的电子表格。"
+ },
+ {
+  "seg": 581,
+  "start": 2044.269,
+  "end": 2049.792,
+  "speaker": "Eddie Kim",
+  "en": "and here's how I calculate it you know for every hot stone upsell add $15 a bonus",
+  "zh": "这是我计算的方式，你知道对于每次热石追加销售为那位治疗师增加 15 美元奖金"
+ },
+ {
+  "seg": 582,
+  "start": 2050.172,
+  "end": 2054.094,
+  "speaker": "Eddie Kim",
+  "en": "for that therapist for every every CBD oil add $20 bonus for",
+  "zh": "对于每次每次 CBD 油追加销售为那位治疗师增加 20 美元奖金"
+ },
+ {
+  "seg": 583,
+  "start": 2054.114,
+  "end": 2057.776,
+  "speaker": "Eddie Kim",
+  "en": "that therapist we pull tips so just take the group tips amount and divide it",
+  "zh": "我们集中小费所以只取集中小费的金额然后除以"
+ },
+ {
+  "seg": 584,
+  "start": 2057.816,
+  "end": 2062.738,
+  "speaker": "Eddie Kim",
+  "en": "by how many therapists we have and it just goes and it's kind of like cloud code",
+  "zh": "我们有多少治疗师，然后它继续，这有点像云代码"
+ },
+ {
+  "seg": 585,
+  "start": 2062.758,
+  "end": 2063.939,
+  "speaker": "Eddie Kim",
+  "en": "where it'll",
+  "zh": "它会"
+ },
+ {
+  "seg": 586,
+  "start": 2064.9,
+  "end": 2066.661,
+  "speaker": "Eddie Kim",
+  "en": "it's going it's going to that spreadsheet it's pulling in",
+  "zh": "它去往那个电子表格它正在拉取"
+ },
+ {
+  "seg": 587,
+  "start": 2066.681,
+  "end": 2071.625,
+  "speaker": "Eddie Kim",
+  "en": "the data it's running those calculations it's updating the payroll as you see here",
+  "zh": "数据它正在运行那些计算它正在更新薪资正如你在这里看到的"
+ },
+ {
+  "seg": 588,
+  "start": 2072.346,
+  "end": 2075.628,
+  "speaker": "Eddie Kim",
+  "en": "and then it's actually going to get to a point where it'll stop and say here are",
+  "zh": "然后它实际上会达到一个点它会停下来并说这里是"
+ },
+ {
+  "seg": 589,
+  "start": 2075.648,
+  "end": 2079.502,
+  "speaker": "Eddie Kim",
+  "en": "the amounts do you want me to actually submit this payroll and I'll say yes",
+  "zh": "金额你想让我实际提交这份薪资吗我会说是的"
+ },
+ {
+  "seg": 590,
+  "start": 2079.552,
+  "end": 2082.329777777778,
+  "speaker": "Eddie Kim",
+  "en": "and it'll actually submit and and run that payroll",
+  "zh": "然后它实际上会提交并并运行那份薪资"
+ },
+ {
+  "seg": 591,
+  "start": 2082.891,
+  "end": 2083.7619999999997,
+  "speaker": "Eddie Kim",
+  "en": "So basically,",
+  "zh": "所以基本上，"
+ },
+ {
+  "seg": 592,
+  "start": 2083.812,
+  "end": 2086.812,
+  "speaker": "Eddie Kim",
+  "en": "you can see here that it's calculated all my payrolls,",
+  "zh": "你可以在这里看到它计算了我所有的薪资，"
+ },
+ {
+  "seg": 593,
+  "start": 2087.155,
+  "end": 2091.018,
+  "speaker": "Eddie Kim",
+  "en": "the hours, the bonuses, the total payroll amounts.",
+  "zh": "工时、奖金、薪资总额。"
+ },
+ {
+  "seg": 594,
+  "start": 2091.879,
+  "end": 2096.9345555555556,
+  "speaker": "Eddie Kim",
+  "en": "And I'll just type in, I'd like to submit my payroll and it'll actually submit the payroll.",
+  "zh": "我就输入，我想提交我的薪资，然后它实际上会提交薪资。"
+ },
+ {
+  "seg": 595,
+  "start": 2097.604,
+  "end": 2098.0539999999996,
+  "speaker": "Claire Vo",
+  "en": "Amazing.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 596,
+  "start": 2098.104,
+  "end": 2102.888,
+  "speaker": "Claire Vo",
+  "en": "So, and all this came out of a vibe-coded prototype because you had a layover.",
+  "zh": "所以，所有这些都来自一个 vibe-coded 原型，因为你有过一次中转停留。"
+ },
+ {
+  "seg": 597,
+  "start": 2104.089,
+  "end": 2107.212,
+  "speaker": "Claire Vo",
+  "en": "And this is real business data.",
+  "zh": "这是真实的业务数据。"
+ },
+ {
+  "seg": 598,
+  "start": 2107.292,
+  "end": 2110.695,
+  "speaker": "Claire Vo",
+  "en": "And so, you know, when I'm talking to leaders at companies,",
+  "zh": "所以，你知道，当我和公司里的领导者交谈时，"
+ },
+ {
+  "seg": 599,
+  "start": 2111.562,
+  "end": 2116.947,
+  "speaker": "Claire Vo",
+  "en": "they tell me oh my gosh Claire I am so excited about our December AI launch",
+  "zh": "他们告诉我天哪 Claire 我对我们十二月的 AI 发布感到如此兴奋"
+ },
+ {
+  "seg": 600,
+  "start": 2117.007,
+  "end": 2122.312,
+  "speaker": "Claire Vo",
+  "en": "and I'm like December it is June like what are you talking about you need",
+  "zh": "我就像 December it is June like what are you talking about you need"
+ },
+ {
+  "seg": 601,
+  "start": 2122.332,
+  "end": 2125.795,
+  "speaker": "Claire Vo",
+  "en": "to do this today and so I think you know one of the meta stories",
+  "zh": "to do this today and so I think you know one of the meta stories"
+ },
+ {
+  "seg": 602,
+  "start": 2125.835,
+  "end": 2130.58,
+  "speaker": "Claire Vo",
+  "en": "of this is like bring forward your ambitious ideas and just executing",
+  "zh": "of this is like bring forward your ambitious ideas and just executing"
+ },
+ {
+  "seg": 603,
+  "start": 2130.64,
+  "end": 2135.624,
+  "speaker": "Claire Vo",
+  "en": "on them quickly is really possible with not that much investment you know",
+  "zh": "on them quickly is really possible with not that much investment you know"
+ },
+ {
+  "seg": 604,
+  "start": 2135.644,
+  "end": 2137.6995555555554,
+  "speaker": "Claire Vo",
+  "en": "the other thing that I think about is",
+  "zh": "the other thing that I think about is"
+ },
+ {
+  "seg": 605,
+  "start": 2137.927,
+  "end": 2141.732,
+  "speaker": "Claire Vo",
+  "en": "Five people for 10 weeks in an R&D organization of a thousand.",
+  "zh": "Five people for 10 weeks in an R&D organization of a thousand."
+ },
+ {
+  "seg": 606,
+  "start": 2142.092,
+  "end": 2143.6839999999997,
+  "speaker": "Claire Vo",
+  "en": "Let's say at the end of the day,",
+  "zh": "Let's say at the end of the day,"
+ },
+ {
+  "seg": 607,
+  "start": 2143.734,
+  "end": 2144.555,
+  "speaker": "Claire Vo",
+  "en": "you ship something,",
+  "zh": "you ship something,"
+ },
+ {
+  "seg": 608,
+  "start": 2144.575,
+  "end": 2144.895,
+  "speaker": "Claire Vo",
+  "en": "you're like,",
+  "zh": "you're like,"
+ },
+ {
+  "seg": 609,
+  "start": 2144.915,
+  "end": 2149.0816666666665,
+  "speaker": "Claire Vo",
+  "en": "I just customers don't want it is actually not that expensive of an outlay.",
+  "zh": "I just customers don't want it is actually not that expensive of an outlay."
+ },
+ {
+  "seg": 610,
+  "start": 2149.26,
+  "end": 2151.443,
+  "speaker": "Claire Vo",
+  "en": "Like it feels like a lot, maybe,",
+  "zh": "Like it feels like a lot, maybe,"
+ },
+ {
+  "seg": 611,
+  "start": 2151.523,
+  "end": 2156.068,
+  "speaker": "Claire Vo",
+  "en": "but it's it's a very small fraction of your overall R&D investment and",
+  "zh": "but it's it's a very small fraction of your overall R&D investment and"
+ },
+ {
+  "seg": 612,
+  "start": 2156.088,
+  "end": 2157.85,
+  "speaker": "Claire Vo",
+  "en": "the payoff can be very huge.",
+  "zh": "the payoff can be very huge."
+ },
+ {
+  "seg": 613,
+  "start": 2157.87,
+  "end": 2158.7749999999996,
+  "speaker": "Claire Vo",
+  "en": "And so",
+  "zh": "And so"
+ },
+ {
+  "seg": 614,
+  "start": 2158.825,
+  "end": 2162.806,
+  "speaker": "Claire Vo",
+  "en": "Part of the advice I give people that I think you're encapsulating is you can be",
+  "zh": "Part of the advice I give people that I think you're encapsulating is you can be"
+ },
+ {
+  "seg": 615,
+  "start": 2162.826,
+  "end": 2167.548,
+  "speaker": "Claire Vo",
+  "en": "a lot more ambitious and you can afford a lot more risk",
+  "zh": "a lot more ambitious and you can afford a lot more risk"
+ },
+ {
+  "seg": 616,
+  "start": 2167.768,
+  "end": 2169.768,
+  "speaker": "Claire Vo",
+  "en": "in your product development process.",
+  "zh": "in your product development process."
+ },
+ {
+  "seg": 617,
+  "start": 2170.329,
+  "end": 2171.0389999999998,
+  "speaker": "Eddie Kim",
+  "en": "100%.",
+  "zh": "100%."
+ },
+ {
+  "seg": 618,
+  "start": 2171.089,
+  "end": 2171.6,
+  "speaker": "Eddie Kim",
+  "en": "Yeah.",
+  "zh": "Yeah."
+ },
+ {
+  "seg": 619,
+  "start": 2171.65,
+  "end": 2174.3166666666666,
+  "speaker": "Eddie Kim",
+  "en": "Just imagine if you had maybe 10 of those going,",
+  "zh": "Just imagine if you had maybe 10 of those going,"
+ },
+ {
+  "seg": 620,
+  "start": 2174.771,
+  "end": 2176.892,
+  "speaker": "Eddie Kim",
+  "en": "which even if you multiply this by 10,",
+  "zh": "which even if you multiply this by 10,"
+ },
+ {
+  "seg": 621,
+  "start": 2177.012,
+  "end": 2181.693,
+  "speaker": "Eddie Kim",
+  "en": "even that's not a big investment across a company of a thousand in R&D.",
+  "zh": "even that's not a big investment across a company of a thousand in R&D."
+ },
+ {
+  "seg": 622,
+  "start": 2181.933,
+  "end": 2183.554,
+  "speaker": "Eddie Kim",
+  "en": "You're going to have like two or three of those,",
+  "zh": "You're going to have like two or three of those,"
+ },
+ {
+  "seg": 623,
+  "start": 2183.594,
+  "end": 2186.9273333333335,
+  "speaker": "Eddie Kim",
+  "en": "I think, meaningfully change the trajectory of the business.",
+  "zh": "I think, meaningfully change the trajectory of the business."
+ },
+ {
+  "seg": 624,
+  "start": 2187.043,
+  "end": 2187.823,
+  "speaker": "Claire Vo",
+  "en": "Yeah, I love it.",
+  "zh": "Yeah, I love it."
+ },
+ {
+  "seg": 625,
+  "start": 2187.863,
+  "end": 2188.384,
+  "speaker": "Claire Vo",
+  "en": "Well, okay.",
+  "zh": "Well, okay."
+ },
+ {
+  "seg": 626,
+  "start": 2188.424,
+  "end": 2189.304,
+  "speaker": "Claire Vo",
+  "en": "And then let's prove,",
+  "zh": "And then let's prove,"
+ },
+ {
+  "seg": 627,
+  "start": 2189.344,
+  "end": 2192.3559999999998,
+  "speaker": "Claire Vo",
+  "en": "you said at the very beginning, well, I consider myself an engineer on the team.",
+  "zh": "you said at the very beginning, well, I consider myself an engineer on the team."
+ },
+ {
+  "seg": 628,
+  "start": 2192.406,
+  "end": 2196.568,
+  "speaker": "Claire Vo",
+  "en": "So tell me a little bit about how you're using Cloud Code or maybe show a little bit",
+  "zh": "So tell me a little bit about how you're using Cloud Code or maybe show a little bit"
+ },
+ {
+  "seg": 629,
+  "start": 2196.588,
+  "end": 2198.689,
+  "speaker": "Claire Vo",
+  "en": "of your setup that you find useful.",
+  "zh": "of your setup that you find useful."
+ },
+ {
+  "seg": 630,
+  "start": 2198.949,
+  "end": 2199.449,
+  "speaker": "Eddie Kim",
+  "en": "It's funny.",
+  "zh": "It's funny."
+ },
+ {
+  "seg": 631,
+  "start": 2199.469,
+  "end": 2206.469,
+  "speaker": "Eddie Kim",
+  "en": "I was looking at some user feedback this morning and I had a feature that I wanted to build.",
+  "zh": "I was looking at some user feedback this morning and I had a feature that I wanted to build."
+ },
+ {
+  "seg": 632,
+  "start": 2207.033,
+  "end": 2210.533,
+  "speaker": "Eddie Kim",
+  "en": "And so I thought maybe it was just build it together right now.",
+  "zh": "And so I thought maybe it was just build it together right now."
+ },
+ {
+  "seg": 633,
+  "start": 2210.688,
+  "end": 2216.073,
+  "speaker": "Eddie Kim",
+  "en": "yeah let's give a little review of how how i write code how i cloud code all right",
+  "zh": "yeah let's give a little review of how how i write code how i cloud code all right"
+ },
+ {
+  "seg": 634,
+  "start": 2216.153,
+  "end": 2220.2085555555554,
+  "speaker": "Eddie Kim",
+  "en": "so this came out of some user um feedback we've been talking to customers",
+  "zh": "so this came out of some user um feedback we've been talking to customers"
+ },
+ {
+  "seg": 635,
+  "start": 2220.336,
+  "end": 2224.139,
+  "speaker": "Eddie Kim",
+  "en": "since we've launched and i actually wrote this in a github issue",
+  "zh": "since we've launched and i actually wrote this in a github issue"
+ },
+ {
+  "seg": 636,
+  "start": 2224.28,
+  "end": 2229.104,
+  "speaker": "Eddie Kim",
+  "en": "where uh we have this issue where if gusto co-founder says how to do something",
+  "zh": "where uh we have this issue where if gusto co-founder says how to do something"
+ },
+ {
+  "seg": 637,
+  "start": 2229.244,
+  "end": 2232.947,
+  "speaker": "Eddie Kim",
+  "en": "in gusto classic it says oh go click on this link in that link and",
+  "zh": "in gusto classic it says oh go click on this link in that link and"
+ },
+ {
+  "seg": 638,
+  "start": 2232.967,
+  "end": 2234.467,
+  "speaker": "Eddie Kim",
+  "en": "that doesn't make any sense",
+  "zh": "that doesn't make any sense"
+ },
+ {
+  "seg": 639,
+  "start": 2234.717,
+  "end": 2238.558,
+  "speaker": "Eddie Kim",
+  "en": "is on the page that the user is on because they're not in gusto classic right",
+  "zh": "is on the page that the user is on because they're not in gusto classic right"
+ },
+ {
+  "seg": 640,
+  "start": 2238.598,
+  "end": 2241.875777777778,
+  "speaker": "Eddie Kim",
+  "en": "so we need to basically tell them go to gusto classic first",
+  "zh": "so we need to basically tell them go to gusto classic first"
+ },
+ {
+  "seg": 641,
+  "start": 2242.359,
+  "end": 2248.361,
+  "speaker": "Eddie Kim",
+  "en": "so I basically like copied a example user conversation that happened here",
+  "zh": "so I basically like copied a example user conversation that happened here"
+ },
+ {
+  "seg": 642,
+  "start": 2248.401,
+  "end": 2250.051,
+  "speaker": "Eddie Kim",
+  "en": "where it caused some confusion",
+  "zh": "where it caused some confusion"
+ },
+ {
+  "seg": 643,
+  "start": 2250.101,
+  "end": 2256.103,
+  "speaker": "Eddie Kim",
+  "en": "so it feels like cheating almost is I'm gonna start cloud code here",
+  "zh": "so it feels like cheating almost is I'm gonna start cloud code here"
+ },
+ {
+  "seg": 644,
+  "start": 2256.283,
+  "end": 2258.924,
+  "speaker": "Eddie Kim",
+  "en": "on my terminal always uh permissions",
+  "zh": "on my terminal always uh permissions"
+ },
+ {
+  "seg": 645,
+  "start": 2262.287,
+  "end": 2266.249,
+  "speaker": "Eddie Kim",
+  "en": "and I'm going to just say, by the way, I use whisper flow a lot.",
+  "zh": "and I'm going to just say, by the way, I use whisper flow a lot."
+ },
+ {
+  "seg": 646,
+  "start": 2266.289,
+  "end": 2267.989,
+  "speaker": "Eddie Kim",
+  "en": "I barely type these days.",
+  "zh": "I barely type these days."
+ },
+ {
+  "seg": 647,
+  "start": 2268.51,
+  "end": 2274.052,
+  "speaker": "Eddie Kim",
+  "en": "So I'm going to just say there's a customer issue that is outlined in this GitHub issue.",
+  "zh": "So I'm going to just say there's a customer issue that is outlined in this GitHub issue."
+ },
+ {
+  "seg": 648,
+  "start": 2274.492,
+  "end": 2277.547555555556,
+  "speaker": "Eddie Kim",
+  "en": "And I'm going to paste in actually just a link to that.",
+  "zh": "And I'm going to paste in actually just a link to that."
+ },
+ {
+  "seg": 649,
+  "start": 2277.833,
+  "end": 2282.225,
+  "speaker": "Eddie Kim",
+  "en": "Can you please read this issue and come up with a fix for the problem that's outlined here?",
+  "zh": "Can you please read this issue and come up with a fix for the problem that's outlined here?"
+ },
+ {
+  "seg": 650,
+  "start": 2282.275,
+  "end": 2289.275,
+  "speaker": "Eddie Kim",
+  "en": "I'd love for you to first write an eval that fails to show that you can reproduce this issue.",
+  "zh": "我希望你能先写一个失败的评估，以表明你可以重现这个问题。"
+ },
+ {
+  "seg": 651,
+  "start": 2289.958,
+  "end": 2290.9269999999997,
+  "speaker": "Eddie Kim",
+  "en": "Then",
+  "zh": "然后"
+ },
+ {
+  "seg": 652,
+  "start": 2290.977,
+  "end": 2296.441,
+  "speaker": "Eddie Kim",
+  "en": "come up with a solution and then prove that the solution works by showing that",
+  "zh": "提出一个解决方案，然后通过展示"
+ },
+ {
+  "seg": 653,
+  "start": 2296.461,
+  "end": 2297.722,
+  "speaker": "Eddie Kim",
+  "en": "the eval now passes.",
+  "zh": "评估现在通过了来证明该解决方案有效。"
+ },
+ {
+  "seg": 654,
+  "start": 2298.382,
+  "end": 2299.382,
+  "speaker": "Eddie Kim",
+  "en": "And that's it.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 655,
+  "start": 2299.583,
+  "end": 2301.705,
+  "speaker": "Eddie Kim",
+  "en": "It's going to actually just read the whole issue.",
+  "zh": "它实际上会阅读整个问题。"
+ },
+ {
+  "seg": 656,
+  "start": 2301.725,
+  "end": 2305.447222222222,
+  "speaker": "Eddie Kim",
+  "en": "It's going to look at the conversation where this problem surfaced.",
+  "zh": "它会审视这个问题浮出水面的对话。"
+ },
+ {
+  "seg": 657,
+  "start": 2305.627,
+  "end": 2310.291,
+  "speaker": "Eddie Kim",
+  "en": "It's going to write an eval that fails and then get that eval to pass.",
+  "zh": "它会写一个失败的评估，然后让那个评估通过。"
+ },
+ {
+  "seg": 658,
+  "start": 2310.751,
+  "end": 2312.112,
+  "speaker": "Eddie Kim",
+  "en": "it's interesting I was never actually",
+  "zh": "这很有趣，我其实从未"
+ },
+ {
+  "seg": 659,
+  "start": 2312.132,
+  "end": 2317.218,
+  "speaker": "Eddie Kim",
+  "en": "a true like test-driven developer like I never was like could really get",
+  "zh": "是一个真正的像测试驱动开发人员那样，我从未像真的能"
+ },
+ {
+  "seg": 660,
+  "start": 2317.238,
+  "end": 2320.601,
+  "speaker": "Eddie Kim",
+  "en": "behind like writing a failing unit test first and then writing the code and getting",
+  "zh": "支持先写一个失败的单元测试然后再写代码并让其"
+ },
+ {
+  "seg": 661,
+  "start": 2320.641,
+  "end": 2324.645,
+  "speaker": "Eddie Kim",
+  "en": "the pass but when it comes to like eval stuff like AI stuff like it's basically kind",
+  "zh": "通过，但是当涉及到像评估东西像 AI 东西时，这基本上"
+ },
+ {
+  "seg": 662,
+  "start": 2324.665,
+  "end": 2328.589,
+  "speaker": "Eddie Kim",
+  "en": "of the only way we work now when we're trying to fix a conversation right",
+  "zh": "是我们现在唯一的工作方式，当我们试图修复一个对话时"
+ },
+ {
+  "seg": 663,
+  "start": 2328.609,
+  "end": 2332.6645555555556,
+  "speaker": "Eddie Kim",
+  "en": "so always write a eval a failing eval first then write the code to fix it",
+  "zh": "所以总是先写一个失败的评估，然后写代码来修复它"
+ },
+ {
+  "seg": 664,
+  "start": 2332.873,
+  "end": 2334.104,
+  "speaker": "Eddie Kim",
+  "en": "and then just wait for it to, um, finish.",
+  "zh": "然后就等着它，嗯，完成。"
+ },
+ {
+  "seg": 665,
+  "start": 2334.154,
+  "end": 2336.654,
+  "speaker": "Eddie Kim",
+  "en": "Um, and then just wait for it to, um, finish.",
+  "zh": "嗯，然后就等着它，嗯，完成。"
+ },
+ {
+  "seg": 666,
+  "start": 2352.26,
+  "end": 2355.461,
+  "speaker": "Eddie Kim",
+  "en": "when it's finished and this is honestly the part that is",
+  "zh": "当它完成时，老实说，这部分"
+ },
+ {
+  "seg": 667,
+  "start": 2355.921,
+  "end": 2361.442,
+  "speaker": "Eddie Kim",
+  "en": "the most important is actually like reviewing the code that it wrote the eval",
+  "zh": "是最重要的，实际上是审查它写的代码和评估"
+ },
+ {
+  "seg": 668,
+  "start": 2361.942,
+  "end": 2366.043,
+  "speaker": "Eddie Kim",
+  "en": "in this case it's probably going to make a prompt change somewhere making sure",
+  "zh": "在这种情况下，它可能会在某个地方做一个提示词变更，确保"
+ },
+ {
+  "seg": 669,
+  "start": 2366.063,
+  "end": 2370.513,
+  "speaker": "Eddie Kim",
+  "en": "that it's concise there's like judgment on like what the prompts should look like",
+  "zh": "它是简洁的，这里有一些关于提示词应该长什么样的"
+ },
+ {
+  "seg": 670,
+  "start": 2370.563,
+  "end": 2374.784,
+  "speaker": "Eddie Kim",
+  "en": "and and then and only then asking it to open up a pull request then I go to",
+  "zh": "判断，然后只有在那时才要求它打开一个 pull request，然后我"
+ },
+ {
+  "seg": 671,
+  "start": 2374.824,
+  "end": 2378.865,
+  "speaker": "Eddie Kim",
+  "en": "the zoom perma zoom and you know get someone to review this",
+  "zh": "去 Zoom 永久 Zoom 你知道让人来审查这个"
+ },
+ {
+  "seg": 672,
+  "start": 2380.092,
+  "end": 2384.7586666666666,
+  "speaker": "Claire Vo",
+  "en": "I love it so I just want to recap for everybody because there's so many good nuggets",
+  "zh": "我喜欢它，所以我只想为大家回顾一下，因为有这么多好的"
+ },
+ {
+  "seg": 673,
+  "start": 2384.853,
+  "end": 2389.194,
+  "speaker": "Claire Vo",
+  "en": "on how to build something in this in this new world and so",
+  "zh": "关于如何在这个新世界里构建东西的"
+ },
+ {
+  "seg": 674,
+  "start": 2389.274,
+  "end": 2394.294,
+  "speaker": "Claire Vo",
+  "en": "the first thing is it's okay to prototype an idea to get internal buy-in",
+  "zh": "第一件事是，原型化一个想法以获得内部支持是可以的"
+ },
+ {
+  "seg": 675,
+  "start": 2394.515,
+  "end": 2397.755,
+  "speaker": "Claire Vo",
+  "en": "that we should get excited about something new and you know you did",
+  "zh": "我们应该对某些新事物感到兴奋，你知道你做了"
+ },
+ {
+  "seg": 676,
+  "start": 2397.795,
+  "end": 2401.066,
+  "speaker": "Claire Vo",
+  "en": "that I think you have a lot of permission as as co-founder and leader",
+  "zh": "那个，我认为你作为联合创始人和领导者有很多许可"
+ },
+ {
+  "seg": 677,
+  "start": 2401.116,
+  "end": 2405.516,
+  "speaker": "Claire Vo",
+  "en": "in this organization but I think you would extend that permission to anybody",
+  "zh": "在这个组织中，但我想你会将那个许可延伸给任何人"
+ },
+ {
+  "seg": 678,
+  "start": 2405.576,
+  "end": 2409.52,
+  "speaker": "Claire Vo",
+  "en": "on your team right if you have a good idea let's prototype it look at it",
+  "zh": "在你的团队，如果你有一个好主意，让我们原型化它，看看它"
+ },
+ {
+  "seg": 679,
+  "start": 2409.57,
+  "end": 2415.192,
+  "speaker": "Claire Vo",
+  "en": "It seems like you gathered a team around who was most excited to build on this.",
+  "zh": "看起来你聚集了一个团队，他们是最兴奋去构建这个的。"
+ },
+ {
+  "seg": 680,
+  "start": 2415.232,
+  "end": 2418.553,
+  "speaker": "Claire Vo",
+  "en": "That's something that I sort of heard is you're like people were leaning in",
+  "zh": "我有点听到的是，你就像人们在"
+ },
+ {
+  "seg": 681,
+  "start": 2418.573,
+  "end": 2424.555,
+  "speaker": "Claire Vo",
+  "en": "and it's almost like the gravity of who was interested formed some of the team,",
+  "zh": "倾向于参与，这几乎是感兴趣的"
+ },
+ {
+  "seg": 682,
+  "start": 2424.595,
+  "end": 2427.476,
+  "speaker": "Claire Vo",
+  "en": "which I think is is quite quite fascinating.",
+  "zh": "人的引力形成了团队的一部分，我认为这是相当迷人的。"
+ },
+ {
+  "seg": 683,
+  "start": 2428.717,
+  "end": 2428.917,
+  "speaker": "Claire Vo",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 684,
+  "start": 2428.937,
+  "end": 2430.7147777777777,
+  "speaker": "Claire Vo",
+  "en": "I heard you kept the team small.",
+  "zh": "我听到你保持了小团队。"
+ },
+ {
+  "seg": 685,
+  "start": 2431.978,
+  "end": 2432.978,
+  "speaker": "Eddie Kim",
+  "en": "Yep.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 686,
+  "start": 2433.319,
+  "end": 2438.961,
+  "speaker": "Claire Vo",
+  "en": "very small no no nothing no docs um yeah I mean there were people",
+  "zh": "非常小，不不不没文档，嗯是啊我是说有人"
+ },
+ {
+  "seg": 687,
+  "start": 2439.001,
+  "end": 2442.042,
+  "speaker": "Eddie Kim",
+  "en": "that wanted they like they really like what was going on and they wanted",
+  "zh": "想要他们就像他们真的喜欢正在发生的事情他们想要"
+ },
+ {
+  "seg": 688,
+  "start": 2442.062,
+  "end": 2444.843,
+  "speaker": "Eddie Kim",
+  "en": "to like contribute but we kind of like intentionally kept it as small as possible",
+  "zh": "像做贡献但我们有点像故意保持它尽可能小"
+ },
+ {
+  "seg": 689,
+  "start": 2444.883,
+  "end": 2450.045,
+  "speaker": "Eddie Kim",
+  "en": "because um we just were able to move really really fast with a team",
+  "zh": "因为我们真的能够非常非常快地移动一个团队"
+ },
+ {
+  "seg": 690,
+  "start": 2450.085,
+  "end": 2453.006,
+  "speaker": "Eddie Kim",
+  "en": "of five now that's not going to stay like that forever we're starting",
+  "zh": "五个人，这不会永远保持那样，我们"
+ },
+ {
+  "seg": 691,
+  "start": 2453.026,
+  "end": 2457.198,
+  "speaker": "Eddie Kim",
+  "en": "to add more people uh to the team and more people are starting to help out um",
+  "zh": "正在开始增加更多的人，呃，到团队更多的人开始帮忙，嗯"
+ },
+ {
+  "seg": 692,
+  "start": 2457.248,
+  "end": 2460.522,
+  "speaker": "Eddie Kim",
+  "en": "but I think it was critical to keep it small in the beginning",
+  "zh": "但我认为在一开始保持它是小的很关键"
+ },
+ {
+  "seg": 693,
+  "start": 2460.572,
+  "end": 2461.893,
+  "speaker": "Claire Vo",
+  "en": "No, no one likes when I say this,",
+  "zh": "不，没人在我说这话时喜欢，"
+ },
+ {
+  "seg": 694,
+  "start": 2461.913,
+  "end": 2466.034,
+  "speaker": "Claire Vo",
+  "en": "but I say the my secret trick to getting things to move fast is kicking people out",
+  "zh": "但我说我的让事情移动得快的秘密技巧是把人踢出"
+ },
+ {
+  "seg": 695,
+  "start": 2466.054,
+  "end": 2469.356,
+  "speaker": "Claire Vo",
+  "en": "of projects.",
+  "zh": "项目。"
+ },
+ {
+  "seg": 696,
+  "start": 2469.476,
+  "end": 2470.9204444444445,
+  "speaker": "Claire Vo",
+  "en": "It is an effective tactic.",
+  "zh": "这是一个有效的战术。"
+ },
+ {
+  "seg": 697,
+  "start": 2472.217,
+  "end": 2473.298,
+  "speaker": "Eddie Kim",
+  "en": "It is harsh, but true.",
+  "zh": "它很严厉，但却是真的。"
+ },
+ {
+  "seg": 698,
+  "start": 2473.318,
+  "end": 2474.318,
+  "speaker": "Eddie Kim",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 699,
+  "start": 2475.238,
+  "end": 2476.919,
+  "speaker": "Eddie Kim",
+  "en": "And I like I think so.",
+  "zh": "而且我我想也是这样。"
+ },
+ {
+  "seg": 700,
+  "start": 2476.939,
+  "end": 2478.6056666666664,
+  "speaker": "Eddie Kim",
+  "en": "I think there's one important.",
+  "zh": "我认为有一点很重要。"
+ },
+ {
+  "seg": 701,
+  "start": 2480.061,
+  "end": 2485.075,
+  "speaker": "Eddie Kim",
+  "en": "difference here that like applies to this particular project that may not apply to others.",
+  "zh": "这里的一个区别，就是适用于这个特定项目，可能不适用于其他项目。"
+ },
+ {
+  "seg": 702,
+  "start": 2485.125,
+  "end": 2485.305,
+  "speaker": "Eddie Kim",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 703,
+  "start": 2485.345,
+  "end": 2485.796,
+  "speaker": "Eddie Kim",
+  "en": "And it's,",
+  "zh": "那就是，"
+ },
+ {
+  "seg": 704,
+  "start": 2485.846,
+  "end": 2487.977,
+  "speaker": "Eddie Kim",
+  "en": "I think it is honestly the fact that I,",
+  "zh": "我认为实际上是因为我，"
+ },
+ {
+  "seg": 705,
+  "start": 2488.027,
+  "end": 2490.89,
+  "speaker": "Eddie Kim",
+  "en": "as one of the company's co-founder was, was part of this.",
+  "zh": "作为公司的联合创始人之一，是这个项目的一部分。"
+ },
+ {
+  "seg": 706,
+  "start": 2490.93,
+  "end": 2491.05,
+  "speaker": "Eddie Kim",
+  "en": "Right.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 707,
+  "start": 2491.07,
+  "end": 2496.674,
+  "speaker": "Eddie Kim",
+  "en": "So I had like kind of the permission to, you know, break all the rules that we created at Gusto.",
+  "zh": "所以我基本上有许可，你知道，去打破我们在 Gusto 制定的所有规则。"
+ },
+ {
+  "seg": 708,
+  "start": 2496.774,
+  "end": 2497.774,
+  "speaker": "Eddie Kim",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 709,
+  "start": 2498.329,
+  "end": 2499.75,
+  "speaker": "Eddie Kim",
+  "en": "If any other team said,",
+  "zh": "如果是其他团队说，"
+ },
+ {
+  "seg": 710,
+  "start": 2499.81,
+  "end": 2501.511,
+  "speaker": "Eddie Kim",
+  "en": "we're going to skip tech specs and figmas,",
+  "zh": "我们要跳过技术规格和 Figma，"
+ },
+ {
+  "seg": 711,
+  "start": 2501.531,
+  "end": 2504.4754444444443,
+  "speaker": "Eddie Kim",
+  "en": "they actually might get a slap on the wrist about it.",
+  "zh": "他们实际上可能会因此受到警告。"
+ },
+ {
+  "seg": 712,
+  "start": 2505.413,
+  "end": 2508.795,
+  "speaker": "Eddie Kim",
+  "en": "And so I've been thinking a lot about how do you scale this to other teams?",
+  "zh": "所以我一直在思考，如何将其扩展到其他团队？"
+ },
+ {
+  "seg": 713,
+  "start": 2508.835,
+  "end": 2510.576,
+  "speaker": "Eddie Kim",
+  "en": "And I think,",
+  "zh": "我认为，"
+ },
+ {
+  "seg": 714,
+  "start": 2510.736,
+  "end": 2511.316,
+  "speaker": "Eddie Kim",
+  "en": "unlike me,",
+  "zh": "与我不同，"
+ },
+ {
+  "seg": 715,
+  "start": 2511.336,
+  "end": 2513.448,
+  "speaker": "Eddie Kim",
+  "en": "where the permission is sort of implied,",
+  "zh": "我的许可是隐含的，"
+ },
+ {
+  "seg": 716,
+  "start": 2513.498,
+  "end": 2516.529,
+  "speaker": "Eddie Kim",
+  "en": "I think you actually have to go to these teams and say,",
+  "zh": "我认为你必须实际上去这些团队并说，"
+ },
+ {
+  "seg": 717,
+  "start": 2516.579,
+  "end": 2519.301,
+  "speaker": "Eddie Kim",
+  "en": "we want you to work in this way,",
+  "zh": "我们希望你们以这种方式工作，"
+ },
+ {
+  "seg": 718,
+  "start": 2519.741,
+  "end": 2522.741,
+  "speaker": "Eddie Kim",
+  "en": "where you don't do any docs, no figmas, no tech specs.",
+  "zh": "你们不做任何文档，不做 Figma，不做技术规格。"
+ },
+ {
+  "seg": 719,
+  "start": 2523.243,
+  "end": 2527.006,
+  "speaker": "Eddie Kim",
+  "en": "we just want you to have a perma zoom and like we're giving you permission to do it",
+  "zh": "我们只希望你们有一个永久的 Zoom，就像我们给你们许可这样做"
+ },
+ {
+  "seg": 720,
+  "start": 2527.026,
+  "end": 2529.268,
+  "speaker": "Eddie Kim",
+  "en": "in that way and in fact I would even go even further",
+  "zh": "事实上，我甚至会进一步"
+ },
+ {
+  "seg": 721,
+  "start": 2529.308,
+  "end": 2535.072,
+  "speaker": "Eddie Kim",
+  "en": "and say uh we're not giving you permission to do it in any other way like",
+  "zh": "说，嗯 我们其实不允许你们用其他任何方式，就像"
+ },
+ {
+  "seg": 722,
+  "start": 2535.473,
+  "end": 2540.677,
+  "speaker": "Eddie Kim",
+  "en": "if you actually produce a doc or figma like you will get a slap on the wrist",
+  "zh": "如果你真的写了文档或做了 Figma，你会受到警告"
+ },
+ {
+  "seg": 723,
+  "start": 2540.717,
+  "end": 2543.118,
+  "speaker": "Eddie Kim",
+  "en": "because we explicitly don't want you to do",
+  "zh": "因为我们明确不希望你们做"
+ },
+ {
+  "seg": 724,
+  "start": 2543.159,
+  "end": 2546.681,
+  "speaker": "Eddie Kim",
+  "en": "that right that's one important difference I I think when you don't have like",
+  "zh": "那个，对，那是一个重要的区别，我 我认为当你没有像"
+ },
+ {
+  "seg": 725,
+  "start": 2546.701,
+  "end": 2550.324,
+  "speaker": "Eddie Kim",
+  "en": "a co-founder on this team like you actually have to be more explicit",
+  "zh": "联合创始人在这个团队里时，你实际上必须更明确"
+ },
+ {
+  "seg": 726,
+  "start": 2550.344,
+  "end": 2552.2884444444444,
+  "speaker": "Eddie Kim",
+  "en": "because I have talked to teams that",
+  "zh": "因为我和那些"
+ },
+ {
+  "seg": 727,
+  "start": 2552.461,
+  "end": 2556.355,
+  "speaker": "Eddie Kim",
+  "en": "want to do it in this way, but they just don't feel like they're allowed to.",
+  "zh": "想以这种方式工作的团队谈过，但他们只是觉得他们不被允许。"
+ },
+ {
+  "seg": 728,
+  "start": 2556.405,
+  "end": 2557.405,
+  "speaker": "Claire Vo",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 729,
+  "start": 2557.505,
+  "end": 2562.35,
+  "speaker": "Claire Vo",
+  "en": "This reminds me of what my friend Chinton at Coinbase did is he actually,",
+  "zh": "这让我想起我的朋友 Chinton 在 Coinbase 所做的，实际上，"
+ },
+ {
+  "seg": 730,
+  "start": 2562.89,
+  "end": 2565.883,
+  "speaker": "Claire Vo",
+  "en": "he does these extreme experiments with his engineering team.",
+  "zh": "他和他的工程团队进行这些极端的实验。"
+ },
+ {
+  "seg": 731,
+  "start": 2565.933,
+  "end": 2569.1659999999997,
+  "speaker": "Claire Vo",
+  "en": "One that's my favorite to reference is he's like, delete your IDE.",
+  "zh": "我最喜欢引用的一个是，他说，删除你们的 IDE。"
+ },
+ {
+  "seg": 732,
+  "start": 2569.216,
+  "end": 2571.438222222222,
+  "speaker": "Claire Vo",
+  "en": "Like you are not allowed to have an IDE.",
+  "zh": "就像你们不允许拥有 IDE。"
+ },
+ {
+  "seg": 733,
+  "start": 2571.818,
+  "end": 2572.4089999999997,
+  "speaker": "Claire Vo",
+  "en": "Delete it.",
+  "zh": "删掉它。"
+ },
+ {
+  "seg": 734,
+  "start": 2572.459,
+  "end": 2573.089,
+  "speaker": "Eddie Kim",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 735,
+  "start": 2573.139,
+  "end": 2574.139,
+  "speaker": "Claire Vo",
+  "en": "Write code.",
+  "zh": "写代码。"
+ },
+ {
+  "seg": 736,
+  "start": 2574.6,
+  "end": 2578.0029999999997,
+  "speaker": "Claire Vo",
+  "en": "And his other one that he does is he's like, you don't touch the",
+  "zh": "他做的另一个实验是，他说，你不要碰"
+ },
+ {
+  "seg": 737,
+  "start": 2578.053,
+  "end": 2579.454,
+  "speaker": "Claire Vo",
+  "en": "outputs of agent code.",
+  "zh": "agent 代码的输出。"
+ },
+ {
+  "seg": 738,
+  "start": 2579.474,
+  "end": 2581.035,
+  "speaker": "Claire Vo",
+  "en": "You only get to touch the inputs.",
+  "zh": "你只能碰输入。"
+ },
+ {
+  "seg": 739,
+  "start": 2581.055,
+  "end": 2582.596,
+  "speaker": "Claire Vo",
+  "en": "You only get to reprompt.",
+  "zh": "你只能重新提示。"
+ },
+ {
+  "seg": 740,
+  "start": 2582.656,
+  "end": 2584.5448888888886,
+  "speaker": "Claire Vo",
+  "en": "You don't get to rewrite the code.",
+  "zh": "你不能重写代码。"
+ },
+ {
+  "seg": 741,
+  "start": 2584.797,
+  "end": 2588.439,
+  "speaker": "Claire Vo",
+  "en": "It's like a very interesting just tech.",
+  "zh": "这就像一个非常有趣的科技。"
+ },
+ {
+  "seg": 742,
+  "start": 2588.459,
+  "end": 2588.94,
+  "speaker": "Claire Vo",
+  "en": "What do they call it?",
+  "zh": "他们叫它什么？"
+ },
+ {
+  "seg": 743,
+  "start": 2588.96,
+  "end": 2595.764,
+  "speaker": "Claire Vo",
+  "en": "Techno psychological experiment on your team to give people permission to work in",
+  "zh": "技术心理实验，在你的团队身上，给人们许可以一种"
+ },
+ {
+  "seg": 744,
+  "start": 2595.804,
+  "end": 2597.745,
+  "speaker": "Claire Vo",
+  "en": "a really radically different way.",
+  "zh": "真正根本不同的方式工作。"
+ },
+ {
+  "seg": 745,
+  "start": 2598.485,
+  "end": 2600.006,
+  "speaker": "Claire Vo",
+  "en": "You know, that brings me to lightning round.",
+  "zh": "你知道，这让我想到了闪电回合。"
+ },
+ {
+  "seg": 746,
+  "start": 2600.026,
+  "end": 2600.707,
+  "speaker": "Claire Vo",
+  "en": "We'll do lightning round.",
+  "zh": "我们来做闪电回合。"
+ },
+ {
+  "seg": 747,
+  "start": 2600.727,
+  "end": 2601.507,
+  "speaker": "Claire Vo",
+  "en": "We're almost out of time.",
+  "zh": "我们快没时间了。"
+ },
+ {
+  "seg": 748,
+  "start": 2601.547,
+  "end": 2603.408,
+  "speaker": "Claire Vo",
+  "en": "I want to get you back to cloud coding,",
+  "zh": "我想让你回到云端编程，"
+ },
+ {
+  "seg": 749,
+  "start": 2603.428,
+  "end": 2606.638,
+  "speaker": "Claire Vo",
+  "en": "which I think is the most important thing any of us could be doing.",
+  "zh": "我认为这是我们在座的任何人能做的最重要的事情。"
+ },
+ {
+  "seg": 750,
+  "start": 2606.688,
+  "end": 2611.012,
+  "speaker": "Claire Vo",
+  "en": "so my first question is you know coming off this conversation do you really think",
+  "zh": "所以我的第一个问题是，你知道，结束这次谈话后，你真的认为"
+ },
+ {
+  "seg": 751,
+  "start": 2611.052,
+  "end": 2616.878,
+  "speaker": "Claire Vo",
+  "en": "docs are dead like is this the way I think for a subset of projects like kind",
+  "zh": "文档已死吗？像是我认为对于一部分项目，比如那种"
+ },
+ {
+  "seg": 752,
+  "start": 2616.898,
+  "end": 2617.379,
+  "speaker": "Eddie Kim",
+  "en": "of more zero",
+  "zh": "更零到"
+ },
+ {
+  "seg": 753,
+  "start": 2617.399,
+  "end": 2621.082,
+  "speaker": "Eddie Kim",
+  "en": "to one I think docs are absolutely dead you know what people don't know this",
+  "zh": "一的项目，我认为文档绝对已经死了，你知道人们不知道这点"
+ },
+ {
+  "seg": 754,
+  "start": 2621.122,
+  "end": 2625.647,
+  "speaker": "Claire Vo",
+  "en": "about chat PRD but my actual intention with chat PRD is to be the one",
+  "zh": "关于 chat PRD 但我实际上对 chat PRD 的意图是成为那个"
+ },
+ {
+  "seg": 755,
+  "start": 2626.408,
+  "end": 2632.229,
+  "speaker": "Claire Vo",
+  "en": "in the product management world that legitimately kills PRDs and and so I am like",
+  "zh": "在产品管理世界中真正扼杀 PRD 的人，所以我就像"
+ },
+ {
+  "seg": 756,
+  "start": 2632.249,
+  "end": 2637.491,
+  "speaker": "Claire Vo",
+  "en": "the anti-PRD PRD maker so I am all about this I think this is truly the model",
+  "zh": "反 PRD 的 PRD 制造者，所以我完全支持这一点，我认为这确实是那种模型"
+ },
+ {
+  "seg": 757,
+  "start": 2637.691,
+  "end": 2642.052,
+  "speaker": "Claire Vo",
+  "en": "and you know even in my experience working with breaking news working with",
+  "zh": "你知道，甚至在我与突发新闻合作的经验中，与"
+ },
+ {
+  "seg": 758,
+  "start": 2642.072,
+  "end": 2646.013,
+  "speaker": "Claire Vo",
+  "en": "the new fable model is there are docs written now that are none",
+  "zh": "新的 fable 模型合作时，现在有一些文档是我"
+ },
+ {
+  "seg": 759,
+  "start": 2646.033,
+  "end": 2649.194,
+  "speaker": "Claire Vo",
+  "en": "of my business that's what that's my new my new frame",
+  "zh": "不用关心的，那是我的新"
+ },
+ {
+  "seg": 760,
+  "start": 2649.374,
+  "end": 2653.655,
+  "speaker": "Claire Vo",
+  "en": "of mind is agents can write docs and they are absolutely none of my business",
+  "zh": "心态，就是智能体可以写文档，而且它们完全与我无关"
+ },
+ {
+  "seg": 761,
+  "start": 2653.675,
+  "end": 2655.2,
+  "speaker": "Claire Vo",
+  "en": "and I will never be reading them",
+  "zh": "我永远不会去读它们"
+ },
+ {
+  "seg": 762,
+  "start": 2655.25,
+  "end": 2660.294,
+  "speaker": "Claire Vo",
+  "en": "And that's actually a very interesting model where maybe docs exist,",
+  "zh": "这其实是一个很有趣的模型，也许文档是存在的，"
+ },
+ {
+  "seg": 763,
+  "start": 2660.334,
+  "end": 2665.237,
+  "speaker": "Claire Vo",
+  "en": "but they're for the agents, not for the humans.",
+  "zh": "但它们是给智能体的，不是给人类的。"
+ },
+ {
+  "seg": 764,
+  "start": 2665.317,
+  "end": 2672.317,
+  "speaker": "Claire Vo",
+  "en": "My second question is about this co-founder, executive leader role in building teams.",
+  "zh": "我的第二个问题是关于在组建团队中的联合创始人、执行领导角色。"
+ },
+ {
+  "seg": 765,
+  "start": 2673.623,
+  "end": 2677.6785555555557,
+  "speaker": "Claire Vo",
+  "en": "I hear so much where I see on LinkedIn, like, oh my God, my CEO was like,",
+  "zh": "我听到太多了，我在 LinkedIn 上看到，比如，天哪，我的 CEO 就像，"
+ },
+ {
+  "seg": 766,
+  "start": 2677.821,
+  "end": 2680.223,
+  "speaker": "Claire Vo",
+  "en": "sending over Claude Slop or,",
+  "zh": "发过来 Claude 那些乱七八糟的东西，或者，"
+ },
+ {
+  "seg": 767,
+  "start": 2680.703,
+  "end": 2687.267,
+  "speaker": "Claire Vo",
+  "en": "you know, all of a sudden my CTO thinks that he can he can commit PRs to to Maine.",
+  "zh": "你知道，突然间我的 CTO 认为他可以提交 PR 到"
+ },
+ {
+  "seg": 768,
+  "start": 2687.627,
+  "end": 2693.23,
+  "speaker": "Claire Vo",
+  "en": "And there's actually a lot of I think a combination of like anxiety about",
+  "zh": "主干。实际上有很多，我认为这是一种结合，比如关于"
+ },
+ {
+  "seg": 769,
+  "start": 2693.37,
+  "end": 2699.454,
+  "speaker": "Claire Vo",
+  "en": "the shifting more hands on role of leadership and then sort of an uneasiness",
+  "zh": "领导层转向更多动手角色的焦虑，然后是一种不安"
+ },
+ {
+  "seg": 770,
+  "start": 2699.734,
+  "end": 2702.396,
+  "speaker": "Claire Vo",
+  "en": "when leaders who have maybe in the past,",
+  "zh": "当那些领导者，也许在过去，"
+ },
+ {
+  "seg": 771,
+  "start": 2702.416,
+  "end": 2703.256,
+  "speaker": "Claire Vo",
+  "en": "depending on your culture,",
+  "zh": "取决于你的文化，"
+ },
+ {
+  "seg": 772,
+  "start": 2703.296,
+  "end": 2707.1609999999996,
+  "speaker": "Claire Vo",
+  "en": "been like at a little bit more at arm's length with hands on product development.",
+  "zh": "与动手的产品开发保持一点距离。"
+ },
+ {
+  "seg": 773,
+  "start": 2707.211,
+  "end": 2709.183,
+  "speaker": "Claire Vo",
+  "en": "Now we're sitting with the team and,",
+  "zh": "现在我们坐在团队中间，并且，"
+ },
+ {
+  "seg": 774,
+  "start": 2709.233,
+  "end": 2709.5629999999996,
+  "speaker": "Claire Vo",
+  "en": "you know,",
+  "zh": "你知道，"
+ },
+ {
+  "seg": 775,
+  "start": 2709.613,
+  "end": 2712.976,
+  "speaker": "Claire Vo",
+  "en": "most most teams that have really healthy cultures don't actually grapple with this.",
+  "zh": "大多数拥有真正健康文化的团队实际上不会纠结这个问题。"
+ },
+ {
+  "seg": 776,
+  "start": 2713.016,
+  "end": 2717.78,
+  "speaker": "Claire Vo",
+  "en": "And so it seems like you all have a healthy culture and it creates not so much anxiety.",
+  "zh": "所以看起来你们确实拥有健康的文化，并且它并没有造成太多焦虑。"
+ },
+ {
+  "seg": 777,
+  "start": 2717.82,
+  "end": 2721.093,
+  "speaker": "Claire Vo",
+  "en": "But for for orgs where you can imagine that anxiety exists,",
+  "zh": "但对于你可以想象存在这种焦虑的组织，"
+ },
+ {
+  "seg": 778,
+  "start": 2721.143,
+  "end": 2725.7541111111113,
+  "speaker": "Claire Vo",
+  "en": "what perspective or advice would you give from the leadership side of that equation",
+  "zh": "从领导层的一方你会给出什么视角或建议"
+ },
+ {
+  "seg": 779,
+  "start": 2726.207,
+  "end": 2731.051,
+  "speaker": "Claire Vo",
+  "en": "that can make teams more excited to build with their co-founders,",
+  "zh": "能让团队更兴奋地与他们的联合创始人、"
+ },
+ {
+  "seg": 780,
+  "start": 2731.091,
+  "end": 2733.854,
+  "speaker": "Claire Vo",
+  "en": "their CEOs, their CTOs, their their VPs?",
+  "zh": "他们的 CEO、他们的 CTO、他们的 VP 一起构建？"
+ },
+ {
+  "seg": 781,
+  "start": 2735.025,
+  "end": 2739.466,
+  "speaker": "Eddie Kim",
+  "en": "I think my advice to leaders is like actually get hands on",
+  "zh": "我认为我给领导者的建议是实际上动手去"
+ },
+ {
+  "seg": 782,
+  "start": 2739.646,
+  "end": 2743.867,
+  "speaker": "Eddie Kim",
+  "en": "in building like production code don't just I think I think it is",
+  "zh": "构建像生产代码，不要只是我认为我认为 [[783] ] 构建一个原型并来到你的团队是重要的第一步"
+ },
+ {
+  "seg": 783,
+  "start": 2744.067,
+  "end": 2747.428,
+  "speaker": "Eddie Kim",
+  "en": "an important first step to build a prototype and come to your team",
+  "zh": "构建原型并向你的团队展示的一个重要第一步"
+ },
+ {
+  "seg": 784,
+  "start": 2747.468,
+  "end": 2750.808,
+  "speaker": "Eddie Kim",
+  "en": "and be like look like this is actually feasible and possible right and",
+  "zh": "然后说看这实际上是可行和可能的，对，然后"
+ },
+ {
+  "seg": 785,
+  "start": 2750.848,
+  "end": 2757.17,
+  "speaker": "Eddie Kim",
+  "en": "then like you know like that that's still that still has value right but I do think",
+  "zh": "那仍然有价值，但我确实认为"
+ },
+ {
+  "seg": 786,
+  "start": 2757.21,
+  "end": 2759.17,
+  "speaker": "Eddie Kim",
+  "en": "that and I've made this mistake before in the company",
+  "zh": "我在公司里以前犯过这个错误"
+ },
+ {
+  "seg": 787,
+  "start": 2759.21,
+  "end": 2763.571,
+  "speaker": "Eddie Kim",
+  "en": "where I've like literally done just that it can lead to a little bit of like",
+  "zh": "我确实只做了那样做，它可能导致一点"
+ },
+ {
+  "seg": 788,
+  "start": 2764.878,
+  "end": 2770.245,
+  "speaker": "Eddie Kim",
+  "en": "underappreciation of the actual nuances of the work.",
+  "zh": "对工作实际细微差别的低估。"
+ },
+ {
+  "seg": 789,
+  "start": 2770.285,
+  "end": 2775.793,
+  "speaker": "Eddie Kim",
+  "en": "How much more work it takes to actually get something into real live production quality stuff.",
+  "zh": "把某样东西真正做成实际生产质量的东西需要多少额外的工作。"
+ },
+ {
+  "seg": 790,
+  "start": 2775.813,
+  "end": 2777.090777777778,
+  "speaker": "Eddie Kim",
+  "en": "So I think my advice is",
+  "zh": "所以我认为我的建议是"
+ },
+ {
+  "seg": 791,
+  "start": 2780.018,
+  "end": 2784.322,
+  "speaker": "Eddie Kim",
+  "en": "don't just stop there if you're a leader right actually be hands-on",
+  "zh": "如果你是领导者，不要止步于此，实际上要动手"
+ },
+ {
+  "seg": 792,
+  "start": 2784.482,
+  "end": 2790.007,
+  "speaker": "Eddie Kim",
+  "en": "in like merging real reviewed like high quality code and in my case I kind",
+  "zh": "在合并真正的、经过审核的、高质量的代码方面，就我而言，我有点"
+ },
+ {
+  "seg": 793,
+  "start": 2790.027,
+  "end": 2793.991,
+  "speaker": "Eddie Kim",
+  "en": "of took it to an extreme where I like went into almost icy mode for",
+  "zh": "把它推向了极端，我就像在过去 10 周进入了几乎 icy 的模式"
+ },
+ {
+  "seg": 794,
+  "start": 2794.011,
+  "end": 2800.096,
+  "speaker": "Eddie Kim",
+  "en": "the past 10 weeks and I was like literally building I'm like 95th percentile on DDX",
+  "zh": "我实际上在构建，我在过去三个月里处于 DDX 的第 95 百分位"
+ },
+ {
+  "seg": 795,
+  "start": 2800.216,
+  "end": 2805.02,
+  "speaker": "Eddie Kim",
+  "en": "for the past three months and just part of that was I wanted to prove that like",
+  "zh": "其中一部分原因是我想证明，我不是来"
+ },
+ {
+  "seg": 796,
+  "start": 2805.661,
+  "end": 2811.123,
+  "speaker": "Eddie Kim",
+  "en": "I'm not here to just show you prototypes and tell you that you could move faster, right?",
+  "zh": "只是向你展示原型并告诉你你可以走得更快，对吗？"
+ },
+ {
+  "seg": 797,
+  "start": 2811.184,
+  "end": 2814.125,
+  "speaker": "Eddie Kim",
+  "en": "I'm going to prove it by actually taking it all the way through.",
+  "zh": "我将通过将其真正一路走到底来证明这一点。"
+ },
+ {
+  "seg": 798,
+  "start": 2814.145,
+  "end": 2817.146,
+  "speaker": "Claire Vo",
+  "en": "I just, I could not agree more.",
+  "zh": "我只是，我完全同意。"
+ },
+ {
+  "seg": 799,
+  "start": 2817.186,
+  "end": 2820.688,
+  "speaker": "Claire Vo",
+  "en": "This is just the moment where everybody has to be hands-on.",
+  "zh": "就是每个人都必须动手的时刻。"
+ },
+ {
+  "seg": 800,
+  "start": 2820.928,
+  "end": 2823.669,
+  "speaker": "Claire Vo",
+  "en": "And I tell a lot of executives like, sorry, bud,",
+  "zh": "我告诉很多高管，抱歉，兄弟，"
+ },
+ {
+  "seg": 801,
+  "start": 2823.849,
+  "end": 2826.65,
+  "speaker": "Claire Vo",
+  "en": "it's time for the hard skill to show up again,",
+  "zh": "是时候让硬技能再次现身了，"
+ },
+ {
+  "seg": 802,
+  "start": 2826.731,
+  "end": 2830.032,
+  "speaker": "Claire Vo",
+  "en": "not leadership, inspiration, alignment.",
+  "zh": "而不是领导力、感召力、对齐。"
+ },
+ {
+  "seg": 803,
+  "start": 2830.092,
+  "end": 2831.913,
+  "speaker": "Claire Vo",
+  "en": "It's like, get your hands",
+  "zh": "这就像，把你的手"
+ },
+ {
+  "seg": 804,
+  "start": 2832.896,
+  "end": 2837.538,
+  "speaker": "Claire Vo",
+  "en": "in a document, get your hands on the code, write a campaign, build something.",
+  "zh": "放进文档里，把你的手放在代码上，写一个活动，构建东西。"
+ },
+ {
+  "seg": 805,
+  "start": 2837.558,
+  "end": 2839.018,
+  "speaker": "Claire Vo",
+  "en": "I think for two reasons.",
+  "zh": "我认为有两个原因。"
+ },
+ {
+  "seg": 806,
+  "start": 2839.478,
+  "end": 2843.439,
+  "speaker": "Claire Vo",
+  "en": "One, you have to be in it with your team to really understand how your team should be working.",
+  "zh": "第一，你必须和你的团队在一起才能真正理解你的团队应该如何工作。"
+ },
+ {
+  "seg": 807,
+  "start": 2843.479,
+  "end": 2843.97,
+  "speaker": "Claire Vo",
+  "en": "And two,",
+  "zh": "第二，"
+ },
+ {
+  "seg": 808,
+  "start": 2844.02,
+  "end": 2847.381,
+  "speaker": "Claire Vo",
+  "en": "I think it's very hard to build great AI products",
+  "zh": "我认为如果不把你所有时间都用来使用 AI 产品，"
+ },
+ {
+  "seg": 809,
+  "start": 2847.601,
+  "end": 2852.902,
+  "speaker": "Claire Vo",
+  "en": "if you are not spending all your time using AI products right now.",
+  "zh": "就很难构建出优秀的 AI 产品。"
+ },
+ {
+  "seg": 810,
+  "start": 2852.922,
+  "end": 2855.093,
+  "speaker": "Claire Vo",
+  "en": "It's very hard to understand the primitives,",
+  "zh": "很难理解那些原语，"
+ },
+ {
+  "seg": 811,
+  "start": 2855.143,
+  "end": 2858.0939999999996,
+  "speaker": "Claire Vo",
+  "en": "the user experience, where it can solve problems, where it can't.",
+  "zh": "用户体验，哪里能解决问题，哪里不能。"
+ },
+ {
+  "seg": 812,
+  "start": 2858.144,
+  "end": 2860.925,
+  "speaker": "Claire Vo",
+  "en": "And so a leader trying to come up with an AI tool",
+  "zh": "所以一个领导者试图想出一个 AI 工具"
+ },
+ {
+  "seg": 813,
+  "start": 2861.577,
+  "end": 2866.701,
+  "speaker": "Claire Vo",
+  "en": "AI product strategy without spending all their time practically using AI products,",
+  "zh": "AI 产品策略，却没有花所有时间实际使用 AI 产品，"
+ },
+ {
+  "seg": 814,
+  "start": 2866.741,
+  "end": 2868.212,
+  "speaker": "Claire Vo",
+  "en": "I think is really hamstrung.",
+  "zh": "我认为真的是束手束脚。"
+ },
+ {
+  "seg": 815,
+  "start": 2868.262,
+  "end": 2869.362,
+  "speaker": "Eddie Kim",
+  "en": "Yeah, I think so.",
+  "zh": "是的，我也这么认为。"
+ },
+ {
+  "seg": 816,
+  "start": 2869.443,
+  "end": 2873.045,
+  "speaker": "Eddie Kim",
+  "en": "One thing like that I'll disclose is that the original,",
+  "zh": "我要披露的一件事是，最初的，"
+ },
+ {
+  "seg": 817,
+  "start": 2873.105,
+  "end": 2875.547,
+  "speaker": "Eddie Kim",
+  "en": "original idea for Gusto co-founder came",
+  "zh": "Gusto co-founder 的最初想法"
+ },
+ {
+  "seg": 818,
+  "start": 2875.587,
+  "end": 2878.429,
+  "speaker": "Eddie Kim",
+  "en": "from me actually just setting up OpenClaw myself.",
+  "zh": "源于我自己实际上只是搭建了 OpenClaw。"
+ },
+ {
+  "seg": 819,
+  "start": 2878.589,
+  "end": 2878.809,
+  "speaker": "Eddie Kim",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 820,
+  "start": 2878.849,
+  "end": 2880.97,
+  "speaker": "Eddie Kim",
+  "en": "I had heard about it and I was like, yeah, cool.",
+  "zh": "我听说过它，我想，是的，很酷。"
+ },
+ {
+  "seg": 821,
+  "start": 2880.99,
+  "end": 2883.142,
+  "speaker": "Eddie Kim",
+  "en": "That sounds like really neat that you can like run.",
+  "zh": "听起来真的很棒，你可以像运行那样"
+ },
+ {
+  "seg": 822,
+  "start": 2883.192,
+  "end": 2886.437,
+  "speaker": "Eddie Kim",
+  "en": "You're not an agent, personal agent on your own computer.",
+  "zh": "你不是智能体，个人智能体在你自己的电脑上。"
+ },
+ {
+  "seg": 823,
+  "start": 2886.497,
+  "end": 2891.204,
+  "speaker": "Eddie Kim",
+  "en": "But it really took me setting it up myself and not actually texting with it",
+  "zh": "但真的需要我自己搭建它，而不是实际上通过 Telegram"
+ },
+ {
+  "seg": 824,
+  "start": 2891.284,
+  "end": 2892.666,
+  "speaker": "Eddie Kim",
+  "en": "over Telegram to one,",
+  "zh": "与它发短信，去"
+ },
+ {
+  "seg": 825,
+  "start": 2892.686,
+  "end": 2896.574888888889,
+  "speaker": "Eddie Kim",
+  "en": "like understand like the power of that, like viscerally experience it.",
+  "zh": "理解那种力量，像发自肺腑地体验它。"
+ },
+ {
+  "seg": 826,
+  "start": 2896.852,
+  "end": 2898.154,
+  "speaker": "Eddie Kim",
+  "en": "And then also like, you know,",
+  "zh": "然后还有像，你知道，"
+ },
+ {
+  "seg": 827,
+  "start": 2898.194,
+  "end": 2899.475,
+  "speaker": "Eddie Kim",
+  "en": "know, learn what's wrong with it.",
+  "zh": "知道，学习它哪里有问题。"
+ },
+ {
+  "seg": 828,
+  "start": 2899.495,
+  "end": 2899.715,
+  "speaker": "Eddie Kim",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 829,
+  "start": 2899.735,
+  "end": 2900.975,
+  "speaker": "Eddie Kim",
+  "en": "It's incredibly hard to set up.",
+  "zh": "它非常难搭建。"
+ },
+ {
+  "seg": 830,
+  "start": 2900.995,
+  "end": 2904.187,
+  "speaker": "Eddie Kim",
+  "en": "You have to buy a Mac mini, which you can't even get today.",
+  "zh": "你必须买一台 Mac mini，你今天甚至都买不到。"
+ },
+ {
+  "seg": 831,
+  "start": 2904.237,
+  "end": 2906.998,
+  "speaker": "Eddie Kim",
+  "en": "And that was like one of the, the hypothesis of co-founder, right?",
+  "zh": "那就像 co-founder 的假设之一，对吗？"
+ },
+ {
+  "seg": 832,
+  "start": 2907.018,
+  "end": 2909.079,
+  "speaker": "Eddie Kim",
+  "en": "Like we want it to be safe.",
+  "zh": "就像我们希望它是安全的。"
+ },
+ {
+  "seg": 833,
+  "start": 2909.119,
+  "end": 2909.589,
+  "speaker": "Eddie Kim",
+  "en": "You can,",
+  "zh": "你可以，"
+ },
+ {
+  "seg": 834,
+  "start": 2909.639,
+  "end": 2910.8056666666666,
+  "speaker": "Eddie Kim",
+  "en": "it runs on the cloud,",
+  "zh": "它运行在云端，"
+ },
+ {
+  "seg": 835,
+  "start": 2910.959,
+  "end": 2914.841,
+  "speaker": "Eddie Kim",
+  "en": "but then also that's how we made like SMS and Slack,",
+  "zh": "但这也是我们如何让 SMS 和 Slack"
+ },
+ {
+  "seg": 836,
+  "start": 2914.981,
+  "end": 2917.922,
+  "speaker": "Eddie Kim",
+  "en": "a first class communication channel with it.",
+  "zh": "成为其一流的通信渠道。"
+ },
+ {
+  "seg": 837,
+  "start": 2917.982,
+  "end": 2918.412,
+  "speaker": "Eddie Kim",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 838,
+  "start": 2918.462,
+  "end": 2918.8329999999996,
+  "speaker": "Eddie Kim",
+  "en": "And that,",
+  "zh": "那，"
+ },
+ {
+  "seg": 839,
+  "start": 2918.883,
+  "end": 2919.103,
+  "speaker": "Eddie Kim",
+  "en": "I don't,",
+  "zh": "我不，"
+ },
+ {
+  "seg": 840,
+  "start": 2919.123,
+  "end": 2922.4339999999997,
+  "speaker": "Eddie Kim",
+  "en": "I don't think I would have gotten that insight if I didn't actually like set up",
+  "zh": "我不认为如果我没有真的像搭建"
+ },
+ {
+  "seg": 841,
+  "start": 2922.484,
+  "end": 2924.565,
+  "speaker": "Eddie Kim",
+  "en": "an open claw at my home myself.",
+  "zh": "一个 open claw 在我家里我自己，我会得到那个洞察。"
+ },
+ {
+  "seg": 842,
+  "start": 2925.432,
+  "end": 2929.817,
+  "speaker": "Claire Vo",
+  "en": "I love it I mean I think every leader needs to feel feel the claw for",
+  "zh": "我喜欢，我是说我认为每个领导者都需要感受，感受那个 claw，"
+ },
+ {
+  "seg": 843,
+  "start": 2929.857,
+  "end": 2933.321,
+  "speaker": "Claire Vo",
+  "en": "that exact reason I when I started using open claw I remember I turned",
+  "zh": "正是因为那个确切的原因，当我开始使用 open claw，我记得我转向"
+ },
+ {
+  "seg": 844,
+  "start": 2933.341,
+  "end": 2936.835,
+  "speaker": "Claire Vo",
+  "en": "to my husband like oh my god I'm having a chat GPT moment in terms",
+  "zh": "我的丈夫，天哪，我正在经历一个 Chat GPT 时刻，就"
+ },
+ {
+  "seg": 845,
+  "start": 2936.885,
+  "end": 2942.411,
+  "speaker": "Claire Vo",
+  "en": "of it just changed my mental model of what product could be in a way",
+  "zh": "它确实改变了我的产品可能是什么样的心智模型，以一种我之前"
+ },
+ {
+  "seg": 846,
+  "start": 2942.471,
+  "end": 2946.436,
+  "speaker": "Claire Vo",
+  "en": "that I just hadn't felt or experienced prior to like even since",
+  "zh": "没有感觉到或经历过的方式，甚至自从"
+ },
+ {
+  "seg": 847,
+  "start": 2947.106,
+  "end": 2951.427,
+  "speaker": "Claire Vo",
+  "en": "um chat gpt first came out even Claude code didn't like change my world in",
+  "zh": "Chat GPT 首次推出以来，即使是 Claude code 也没有像"
+ },
+ {
+  "seg": 848,
+  "start": 2951.467,
+  "end": 2955.309,
+  "speaker": "Claire Vo",
+  "en": "the same way that that openclaw really did and you probably heard",
+  "zh": "openclaw 那样改变我的世界，你可能听过"
+ },
+ {
+  "seg": 849,
+  "start": 2955.329,
+  "end": 2958.17,
+  "speaker": "Eddie Kim",
+  "en": "of other people talking about that like how it's like such",
+  "zh": "其他人谈论那个，它就像多么"
+ },
+ {
+  "seg": 850,
+  "start": 2958.21,
+  "end": 2962.951,
+  "speaker": "Eddie Kim",
+  "en": "a crazy like innovation right but then you don't really you that that's",
+  "zh": "一个疯狂的就像创新对但然后你并不是真的你那那是一个"
+ },
+ {
+  "seg": 851,
+  "start": 2962.991,
+  "end": 2965.812,
+  "speaker": "Eddie Kim",
+  "en": "a problem like there's so much press out there and like so much hyperbole",
+  "zh": "问题就像那里有太多新闻稿还有太多夸张"
+ },
+ {
+  "seg": 852,
+  "start": 2965.852,
+  "end": 2968.913,
+  "speaker": "Eddie Kim",
+  "en": "that like you kind of become numb to it so yeah you do kind of have",
+  "zh": "就像你有点变得麻木了所以是的你确实有点不得不"
+ },
+ {
+  "seg": 853,
+  "start": 2968.933,
+  "end": 2973.155,
+  "speaker": "Claire Vo",
+  "en": "to experience it yourself I think yep completely agree okay last question and",
+  "zh": "亲自体验它我想是的完全同意好吧最后一个问题然后"
+ },
+ {
+  "seg": 854,
+  "start": 2973.175,
+  "end": 2974.901,
+  "speaker": "Claire Vo",
+  "en": "then we will get you out of here",
+  "zh": "我们就让你离开这里"
+ },
+ {
+  "seg": 855,
+  "start": 2974.951,
+  "end": 2979.916,
+  "speaker": "Claire Vo",
+  "en": "you know when when Claude is not writing a great eval when it's not listening",
+  "zh": "你知道当当 Claude 没有在写一个很好的 eval 当它不在听"
+ },
+ {
+  "seg": 856,
+  "start": 2979.996,
+  "end": 2984.36,
+  "speaker": "Claire Vo",
+  "en": "when you know you're about to have to trash a PR what is your prompting strategy",
+  "zh": "当你知道你即将不得不丢弃一个 PR 你的提示策略是什么"
+ },
+ {
+  "seg": 857,
+  "start": 2984.4,
+  "end": 2987.6222222222223,
+  "speaker": "Claire Vo",
+  "en": "to get it back on track I'm naturally a very polite person",
+  "zh": "让它回到正轨我天生是一个非常有礼貌的人"
+ },
+ {
+  "seg": 858,
+  "start": 2988.98,
+  "end": 2993.203,
+  "speaker": "Eddie Kim",
+  "en": "not confrontational but I and so I I'm I'm pretty nice to my clod I kind",
+  "zh": "不对抗但是我和所以我我对我的 clod 我相当"
+ },
+ {
+  "seg": 859,
+  "start": 2993.243,
+  "end": 2995.895,
+  "speaker": "Eddie Kim",
+  "en": "of like you know ask it nicely why did it do this way",
+  "zh": "就像你知道礼貌地问它为什么它这样做"
+ },
+ {
+  "seg": 860,
+  "start": 2995.945,
+  "end": 3000.388,
+  "speaker": "Eddie Kim",
+  "en": "or like could you please consider this and actually I I for me I I don't know",
+  "zh": "或者像能不能请你考虑这个实际上我对我来说我不知道"
+ },
+ {
+  "seg": 861,
+  "start": 3000.408,
+  "end": 3004.971,
+  "speaker": "Eddie Kim",
+  "en": "if this is true but I think there's a actual like practical benefit of it I find",
+  "zh": "这是否是真的但我认为有一个实际上的实际好处我发现"
+ },
+ {
+  "seg": 862,
+  "start": 3004.991,
+  "end": 3010.334,
+  "speaker": "Eddie Kim",
+  "en": "that AI is so deferential and it just kind of like defaults to doing what you want",
+  "zh": "AI 是如此顺从它只是就像默认做你想"
+ },
+ {
+  "seg": 863,
+  "start": 3010.374,
+  "end": 3011.7628888888885,
+  "speaker": "Eddie Kim",
+  "en": "to do but I actually want",
+  "zh": "做的但我实际上想要"
+ },
+ {
+  "seg": 864,
+  "start": 3012.115,
+  "end": 3017.097,
+  "speaker": "Eddie Kim",
+  "en": "mind to challenge me right and like give me different ways of doing things",
+  "zh": "我的思想挑战我对就像给我做事情的不同方式"
+ },
+ {
+  "seg": 865,
+  "start": 3017.137,
+  "end": 3021.268,
+  "speaker": "Eddie Kim",
+  "en": "that might be better ways of building things that might be better so I some",
+  "zh": "这可能是更好的构建事物的方式这可能更好所以我一些"
+ },
+ {
+  "seg": 866,
+  "start": 3021.318,
+  "end": 3025.519,
+  "speaker": "Eddie Kim",
+  "en": "for some reason I just feel like kind of being polite leaving it open-ended",
+  "zh": "出于某种原因我只是觉得有点礼貌留有余地"
+ },
+ {
+  "seg": 867,
+  "start": 3026.28,
+  "end": 3030.051,
+  "speaker": "Eddie Kim",
+  "en": "if you think this is a good idea could you try this like because I kind of wanted to",
+  "zh": "如果你认为这是一个好主意你能尝试这个就像因为我有点想要"
+ },
+ {
+  "seg": 868,
+  "start": 3030.101,
+  "end": 3036.203,
+  "speaker": "Claire Vo",
+  "en": "a little bit more of like pushback yep yep love it I you know most people are",
+  "zh": "一点更多的就像反驳是的是的喜欢它你知道大多数人是"
+ },
+ {
+  "seg": 869,
+  "start": 3037.142,
+  "end": 3042.569,
+  "speaker": "Claire Vo",
+  "en": "are very polite I am I'm often very polite unless it's gone real off the track and",
+  "zh": "非常有礼貌我是我经常非常有礼貌除非它真的跑偏了然后"
+ },
+ {
+  "seg": 870,
+  "start": 3042.609,
+  "end": 3049.609,
+  "speaker": "Claire Vo",
+  "en": "then what I use is a 15 oh no I don't I'm wasting tokens you know cost a drop",
+  "zh": "我用的是 15 哦不我没有我在浪费 token 你知道成本就像一滴水"
+ },
+ {
+  "seg": 871,
+  "start": 3049.737,
+  "end": 3053.622,
+  "speaker": "Claire Vo",
+  "en": "of water but I do it anyway all right well Eddie this has been so fun",
+  "zh": "但我还是做了好吧好吧 Eddie 这太有趣了"
+ },
+ {
+  "seg": 872,
+  "start": 3053.702,
+  "end": 3056.7079999999996,
+  "speaker": "Claire Vo",
+  "en": "where can we find you and how can we be helpful to you and the team",
+  "zh": "我们在哪里能找到你我们如何能对你和团队有帮助"
+ },
+ {
+  "seg": 873,
+  "start": 3056.758,
+  "end": 3060.84,
+  "speaker": "Eddie Kim",
+  "en": "Yeah, you could find Gusto Co-Founder at gusto.com slash co-founder.",
+  "zh": "是的，你可以在 gusto.com/co-founder 找到 Gusto 联合创始人。"
+ },
+ {
+  "seg": 874,
+  "start": 3060.86,
+  "end": 3062.421,
+  "speaker": "Eddie Kim",
+  "en": "We have a waitlist.",
+  "zh": "我们有一个候补名单。"
+ },
+ {
+  "seg": 875,
+  "start": 3062.441,
+  "end": 3063.482,
+  "speaker": "Eddie Kim",
+  "en": "So if you're interested in it,",
+  "zh": "所以如果你感兴趣，"
+ },
+ {
+  "seg": 876,
+  "start": 3063.522,
+  "end": 3066.9739999999997,
+  "speaker": "Eddie Kim",
+  "en": "please sign up for it and we'll give you access probably within a few days",
+  "zh": "请注册，我们大概会在几天内给你权限"
+ },
+ {
+  "seg": 877,
+  "start": 3067.024,
+  "end": 3067.745,
+  "speaker": "Eddie Kim",
+  "en": "and check it out.",
+  "zh": "并试用它。"
+ },
+ {
+  "seg": 878,
+  "start": 3067.765,
+  "end": 3068.6349999999998,
+  "speaker": "Eddie Kim",
+  "en": "Give us feedback.",
+  "zh": "给我们反馈。"
+ },
+ {
+  "seg": 879,
+  "start": 3068.685,
+  "end": 3068.955,
+  "speaker": "Claire Vo",
+  "en": "Great.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 880,
+  "start": 3069.005,
+  "end": 3070.666,
+  "speaker": "Claire Vo",
+  "en": "I'm a very happy Gusto customer.",
+  "zh": "我是一个非常快乐的 Gusto 客户。"
+ },
+ {
+  "seg": 881,
+  "start": 3070.686,
+  "end": 3075.509,
+  "speaker": "Claire Vo",
+  "en": "So I'm going to ask you to feature flag me into the beta and I will send you all",
+  "zh": "所以我要你把我加入功能标记进入 beta 版，我会发给你所有"
+ },
+ {
+  "seg": 882,
+  "start": 3075.549,
+  "end": 3078.1209999999996,
+  "speaker": "Claire Vo",
+  "en": "the feedback and hopefully some PRs will come out of it.",
+  "zh": "反馈，希望能出一些 PR。"
+ },
+ {
+  "seg": 883,
+  "start": 3078.171,
+  "end": 3079.171,
+  "speaker": "Eddie Kim",
+  "en": "I would love it.",
+  "zh": "我会很乐意。"
+ },
+ {
+  "seg": 884,
+  "start": 3079.332,
+  "end": 3079.622,
+  "speaker": "Claire Vo",
+  "en": "Great.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 885,
+  "start": 3079.672,
+  "end": 3081.183,
+  "speaker": "Claire Vo",
+  "en": "Well, thanks for joining, Eddie.",
+  "zh": "好的，谢谢你参加，Eddie。"
+ },
+ {
+  "seg": 886,
+  "start": 3081.233,
+  "end": 3082.233,
+  "speaker": "Eddie Kim",
+  "en": "Thanks, Claire.",
+  "zh": "谢谢，Claire。"
+ },
+ {
+  "seg": 887,
+  "start": 3083.62,
+  "end": 3084.931,
+  "speaker": "Claire Vo",
+  "en": "Thanks so much for watching.",
+  "zh": "非常感谢观看。"
+ },
+ {
+  "seg": 888,
+  "start": 3084.981,
+  "end": 3086.401,
+  "speaker": "Claire Vo",
+  "en": "If you enjoyed this show,",
+  "zh": "如果你喜欢这个节目，"
+ },
+ {
+  "seg": 889,
+  "start": 3086.561,
+  "end": 3088.392,
+  "speaker": "Claire Vo",
+  "en": "please like and subscribe here on YouTube,",
+  "zh": "请在 YouTube 上点赞和订阅，"
+ },
+ {
+  "seg": 890,
+  "start": 3088.442,
+  "end": 3091.174,
+  "speaker": "Claire Vo",
+  "en": "or even better, leave us a comment with your thoughts.",
+  "zh": "或者更好的是，留下评论并分享你的想法。"
+ },
+ {
+  "seg": 891,
+  "start": 3091.224,
+  "end": 3096.766,
+  "speaker": "Claire Vo",
+  "en": "You can also find this podcast on Apple Podcasts, Spotify, or your favorite podcast app.",
+  "zh": "你也可以在 Apple Podcasts、Spotify 或你最喜欢的播客应用上找到这个播客。"
+ },
+ {
+  "seg": 892,
+  "start": 3097.346,
+  "end": 3102.068222222222,
+  "speaker": "Claire Vo",
+  "en": "Please consider leaving us a rating and review, which will help others find the show.",
+  "zh": "请考虑给我们评分和评论，这将帮助其他人找到这个节目。"
+ },
+ {
+  "seg": 893,
+  "start": 3102.169,
+  "end": 3107.911,
+  "speaker": "Claire Vo",
+  "en": "You can see all our episodes and learn more about the show at howiaipod.com.",
+  "zh": "你可以在 howiaipod.com 查看我们所有集数并了解更多关于节目的信息。"
+ },
+ {
+  "seg": 894,
+  "start": 3108.492,
+  "end": 3109.492,
+  "speaker": "Claire Vo",
+  "en": "See you next time.",
+  "zh": "下次见。"
+ }
+]

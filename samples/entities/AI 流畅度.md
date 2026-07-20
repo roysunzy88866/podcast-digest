@@ -6,7 +6,7 @@ entity_type: 概念
 # AI 流畅度 (AI fluency)
 
 > [!info] 概念
-> 出现在 1 集 · 金句 4 条 · 关联 10 个
+> 出现在 1 集 · 金句 6 条 · 关联 10 个
 
 ## 集里怎么说它
 
@@ -15,6 +15,10 @@ entity_type: 概念
 ## 金句
 
 ![[2026-06-22-latent-space-gray-swan#^q3]]
+
+![[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#^q6]]
+
+![[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#^q7]]
 
 ![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q3]]
 

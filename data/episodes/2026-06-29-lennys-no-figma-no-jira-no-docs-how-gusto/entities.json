@@ -1,0 +1,1459 @@
+{
+  "episode_id": "2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto",
+  "podcast": null,
+  "date": null,
+  "tags": [
+    "AI 时代软件开发",
+    "智能体",
+    "极简架构",
+    "代码成本归零",
+    "凭感觉编程"
+  ],
+  "entities": [
+    {
+      "id": "claire-vo",
+      "type": "person",
+      "role": "host",
+      "name": "Claire Vo",
+      "file": "Claire Vo",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            73.805,
+            74.49600000000001
+          ],
+          "quote": "I'm Claire Vo,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "eddie-kim",
+      "type": "person",
+      "role": "cohost",
+      "name": "Eddie Kim",
+      "file": "Eddie Kim",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            79.488,
+            84.011
+          ],
+          "quote": "Today I have Eddie Kim CTO and co-founder of Gusto and he's going",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gusto",
+      "type": "company",
+      "role": "company",
+      "name": "Gusto",
+      "file": "Gusto",
+      "primary": true,
+      "how_described": "本集讨论的所属公司，拥有超过一千名研发员工，并在 10 周内由 5 人小团队从零构建发布了全新智能体产品 Co-Founder。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            35.689,
+            39.891
+          ],
+          "quote": "from initial idea, zero code to a tier one launch at Gusto.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            79.488,
+            84.011
+          ],
+          "quote": "Today I have Eddie Kim CTO and co-founder of Gusto and he's going",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            244.809,
+            251.473
+          ],
+          "quote": "Gusto co-founder was primarily built by five folks, myself,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            264.64,
+            270.704
+          ],
+          "quote": "zero code to 10 weeks shipping it to a tier one launch at Gusto.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            395.319,
+            399.983
+          ],
+          "quote": "I had this like prototype of what ultimately became Gusto co-founder.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            715.318,
+            719.28
+          ],
+          "quote": "of Gusto CoFounder, it's largely the same.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 215,
+          "t": [
+            721.021,
+            727.323
+          ],
+          "quote": "but one of the main things in Gusto CoFounder is what we call now an automation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 504,
+          "t": [
+            1777.025,
+            1779.949
+          ],
+          "quote": "This is the gusto that everybody knows, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 507,
+          "t": [
+            1785.697,
+            1789.843
+          ],
+          "quote": " If you're in the co-founder group, you get to call the traditional Gusto, Gusto Classic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 508,
+          "t": [
+            1789.863,
+            1792.387
+          ],
+          "quote": "This is Gusto, co-founder here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 514,
+          "t": [
+            1806.76,
+            1812.461
+          ],
+          "quote": "that it comes out of the box with all the things that Gusto is already doing",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 516,
+          "t": [
+            1813.001,
+            1816.492
+          ],
+          "quote": "It has all the information that Gusto already has about your business,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 567,
+          "t": [
+            1993.118,
+            1998.263
+          ],
+          "quote": "of bonus and commission and tips and then and only then they actually go into Gusto",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2018.375,
+            2021.156
+          ],
+          "quote": "And so in Gusto Co-Founder,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 576,
+          "t": [
+            2024.637,
+            2027.9080000000001
+          ],
+          "quote": "Gusto Co-Founder can actually access third-party systems like QuickBooks,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 579,
+          "t": [
+            2036.481,
+            2040.592111111111
+          ],
+          "quote": "So I wrote here like, hey, Gusto Co-Founder, I need you to run my payroll.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 636,
+          "t": [
+            2224.28,
+            2229.104
+          ],
+          "quote": "where uh we have this issue where if gusto co-founder says how to do something",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 637,
+          "t": [
+            2229.244,
+            2232.947
+          ],
+          "quote": "in gusto classic it says oh go click on this link in that link and",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 639,
+          "t": [
+            2234.717,
+            2238.558
+          ],
+          "quote": "is on the page that the user is on because they're not in gusto classic right",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 640,
+          "t": [
+            2238.598,
+            2241.875777777778
+          ],
+          "quote": "so we need to basically tell them go to gusto classic first",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 707,
+          "t": [
+            2491.07,
+            2496.674
+          ],
+          "quote": "So I had like kind of the permission to, you know, break all the rules that we created at Gusto.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 817,
+          "t": [
+            2873.105,
+            2875.547
+          ],
+          "quote": "original idea for Gusto co-founder came",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 873,
+          "t": [
+            3056.758,
+            3060.84
+          ],
+          "quote": " Yeah, you could find Gusto Co-Founder at gusto.com slash co-founder.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 880,
+          "t": [
+            3069.005,
+            3070.666
+          ],
+          "quote": "I'm a very happy Gusto customer.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "co-founder",
+      "type": "concept",
+      "role": "concept",
+      "name": "Co-Founder",
+      "file": "Co-Founder",
+      "primary": true,
+      "how_described": "本集核心产品，由 Gusto 推出的智能体产品。它自带 Gusto 已有的业务信息（如员工、排班、薪资等），并能通过 SMS 或 Slack 跨渠道接收自然语言指令来自动化复杂工作流（如算薪）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            29.826,
+            35.529
+          ],
+          "quote": "Co-founder was primarily built by five folks over the course of 10 weeks",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            79.488,
+            84.011
+          ],
+          "quote": "Today I have Eddie Kim CTO and co-founder of Gusto and he's going",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            185.82,
+            188.922
+          ],
+          "quote": "yeah so tell us the story of co-founder",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            244.809,
+            251.473
+          ],
+          "quote": "Gusto co-founder was primarily built by five folks, myself,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            395.319,
+            399.983
+          ],
+          "quote": "I had this like prototype of what ultimately became Gusto co-founder.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            413.312,
+            418.216
+          ],
+          "quote": "The ultimate materialization of GUSA Co-Founder is a little bit different from",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            592.66,
+            599.66
+          ],
+          "quote": "and it was just like literally a page of the Gustav co-founder app and we just got",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 223,
+          "t": [
+            759.263,
+            763.426
+          ],
+          "quote": "so like basically this like if you look at co-founder today it is like the",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 506,
+          "t": [
+            1783.775,
+            1785.647
+          ],
+          "quote": "When you're a co-founder, we would never use it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 507,
+          "t": [
+            1785.697,
+            1789.843
+          ],
+          "quote": " If you're in the co-founder group, you get to call the traditional Gusto, Gusto Classic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 508,
+          "t": [
+            1789.863,
+            1792.387
+          ],
+          "quote": "This is Gusto, co-founder here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2018.375,
+            2021.156
+          ],
+          "quote": "And so in Gusto Co-Founder,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 576,
+          "t": [
+            2024.637,
+            2027.9080000000001
+          ],
+          "quote": "Gusto Co-Founder can actually access third-party systems like QuickBooks,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 579,
+          "t": [
+            2036.481,
+            2040.592111111111
+          ],
+          "quote": "So I wrote here like, hey, Gusto Co-Founder, I need you to run my payroll.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 636,
+          "t": [
+            2224.28,
+            2229.104
+          ],
+          "quote": "where uh we have this issue where if gusto co-founder says how to do something",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 676,
+          "t": [
+            2397.795,
+            2401.066
+          ],
+          "quote": "that I think you have a lot of permission as as co-founder and leader",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 705,
+          "t": [
+            2488.027,
+            2490.89
+          ],
+          "quote": "as one of the company's co-founder was, was part of this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 725,
+          "t": [
+            2546.701,
+            2550.324
+          ],
+          "quote": "a co-founder on this team like you actually have to be more explicit",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 764,
+          "t": [
+            2665.317,
+            2672.317
+          ],
+          "quote": "My second question is about this co-founder, executive leader role in building teams.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 817,
+          "t": [
+            2873.105,
+            2875.547
+          ],
+          "quote": "original idea for Gusto co-founder came",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 831,
+          "t": [
+            2904.237,
+            2906.998
+          ],
+          "quote": "And that was like one of the, the hypothesis of co-founder, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 873,
+          "t": [
+            3056.758,
+            3060.84
+          ],
+          "quote": " Yeah, you could find Gusto Co-Founder at gusto.com slash co-founder.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vibe-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "凭感觉编程 (vibe code)",
+      "file": "凭感觉编程",
+      "primary": true,
+      "how_described": "本集将它描述为一种新的开发范式：技术领导者可以利用长假或连续时间，凭借直觉使用 AI 编程工具将脑海中的想法快速变成代码原型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 102,
+          "t": [
+            354.077,
+            358.06
+          ],
+          "quote": "that like vibe code something over a weekend and then comes",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            507.343,
+            513.068
+          ],
+          "quote": "if you go on vacation and vibe code something awesome, we're happy to give you more.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "trashcan-method",
+      "type": "concept",
+      "role": "concept",
+      "name": "垃圾桶法 (trashcan method)",
+      "file": "垃圾桶法",
+      "primary": true,
+      "how_described": "本集提出的一种软件工程新方法：因为写代码成本极低，开发者可以直接写完一个完整的拉取请求（PR），如果讨论后发现不需要，就能毫不犹豫地直接删掉，甚至推倒重写。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            57.037,
+            60.249
+          ],
+          "quote": "I call this the trashcan method of software engineering right now,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 258,
+          "t": [
+            890.019,
+            893.532
+          ],
+          "quote": "Yeah, I call this the trashcan method of software engineering right now",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pull-request",
+      "type": "concept",
+      "role": "concept",
+      "name": "拉取请求 (pull request)",
+      "file": "拉取请求",
+      "primary": true,
+      "how_described": "本集被用作团队决策和产品讨论的核心机制：功能写好后提交准备供人类审查的 PR，团队在永久 Zoom 房间里讨论其是否有意义，如果不合适就直接删掉该 PR。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 245,
+          "t": [
+            840.079,
+            842.9123333333333
+          ],
+          "quote": "We submit, we open a pull request and this is not a",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 246,
+          "t": [
+            843.481,
+            844.242
+          ],
+          "quote": " Draft pull request.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 247,
+          "t": [
+            844.262,
+            849.151
+          ],
+          "quote": "This is actually a pull request that is ready for a human code review.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 250,
+          "t": [
+            856.603,
+            860.708
+          ],
+          "quote": "and we're okay with deleting that pull request if if the answer is no right you have",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 251,
+          "t": [
+            860.728,
+            863.872
+          ],
+          "quote": "a perfectly good pull request that was written that's like ready",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 670,
+          "t": [
+            2370.563,
+            2374.784
+          ],
+          "quote": "and and then and only then asking it to open up a pull request then I go to",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "feature-flag",
+      "type": "concept",
+      "role": "concept",
+      "name": "功能标志 (feature flag)",
+      "file": "功能标志",
+      "primary": true,
+      "how_described": "本集将其描述为「雕塑式」开发流程的关键支撑技术：允许设计师把带假响应的纯前端体验先发布到生产环境，随后工程师在后台并行构建真实逻辑并缓慢替换。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 341,
+          "t": [
+            1167.628,
+            1172.743
+          ],
+          "quote": " Were you merging those into your production app and putting them behind a feature flag?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1241.123,
+            1244.4750000000001
+          ],
+          "quote": "And that actually got shipped to production behind this feature flag.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 881,
+          "t": [
+            3070.686,
+            3075.509
+          ],
+          "quote": "So I'm going to ask you to feature flag me into the beta and I will send you all",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主要探讨的通用技术概念，被描述为其实并没有那么可怕和复杂，本质上就是运行在云端某处的智能体 SDK，具备查找文件和调用工具的能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            9.716,
+            13.799
+          ],
+          "quote": "We used Cloudflare Worker for the actual agent loop and Vercel AI SDK.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 6,
+          "t": [
+            14.419,
+            18.230999999999998
+          ],
+          "quote": "People get really intimidated by the idea of building an agent and I'm like,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            18.281,
+            22.163
+          ],
+          "quote": " Literally, it's an agent SDK running somewhere in the cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 283,
+          "t": [
+            970.433,
+            974.096
+          ],
+          "quote": "of like making the actual agent like sort of a stateless thing that sits",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1064.267,
+            1067.2114444444444
+          ],
+          "quote": "on we use cloudflare worker for the actual agent loop",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1101.838,
+            1105.96
+          ],
+          "quote": "as complex like AI agent loop stack, I think is no longer needed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1119.185,
+            1123.2405555555556
+          ],
+          "quote": "you know, people get really intimidated by the idea of building an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1123.626,
+            1127.927
+          ],
+          "quote": "And I'm like, literally, it's an agent SDK running somewhere in the cloud.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1230.679,
+            1233.12
+          ],
+          "quote": "It's not actually going to any kind of agent loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1249.367,
+            1255.349
+          ],
+          "quote": "They build the agent loop and they would start to connect this to the faked front end",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 468,
+          "t": [
+            1636.273,
+            1640.884111111111
+          ],
+          "quote": "you can hand it off straight to JIRA so a developer or even an agent can pick it up",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 511,
+          "t": [
+            1798.836,
+            1800.468
+          ],
+          "quote": "It's kind of like the normal agent loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 737,
+          "t": [
+            2578.053,
+            2579.454
+          ],
+          "quote": " outputs of agent code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 822,
+          "t": [
+            2883.192,
+            2886.437
+          ],
+          "quote": " You're not an agent, personal agent on your own computer.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体循环 (agent loop)",
+      "file": "智能体循环",
+      "primary": true,
+      "how_described": "本集指出，过去那种复杂的智能体循环栈已经不再需要，现在只需基于 Cloudflare Worker 和 AI SDK 构建极简的循环就足以驱动生产级产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            9.716,
+            13.799
+          ],
+          "quote": "We used Cloudflare Worker for the actual agent loop and Vercel AI SDK.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1064.267,
+            1067.2114444444444
+          ],
+          "quote": "on we use cloudflare worker for the actual agent loop",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1101.838,
+            1105.96
+          ],
+          "quote": "as complex like AI agent loop stack, I think is no longer needed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1230.679,
+            1233.12
+          ],
+          "quote": "It's not actually going to any kind of agent loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1249.367,
+            1255.349
+          ],
+          "quote": "They build the agent loop and they would start to connect this to the faked front end",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 511,
+          "t": [
+            1798.836,
+            1800.468
+          ],
+          "quote": "It's kind of like the normal agent loop.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cloud-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Cloud Code",
+      "file": "Cloud Code",
+      "primary": true,
+      "how_described": "本集中嘉宾使用的主要 AI 编程工具。他在五小时的转机候机时间里，用它写出了产品原型，并用它来快速构建功能、甚至编写失败的评估来修复问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            98.422,
+            104.227
+          ],
+          "quote": "Today's engineers use cursor and cloud code to ship features in hours that used to take weeks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            141.541,
+            145.024
+          ],
+          "quote": "engineers can connect your prototype to cursor or cloud code with",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            347.832,
+            350.174
+          ],
+          "quote": "And I had been like kind of playing around with cloud code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            371.469,
+            374.59
+          ],
+          "quote": "that was my start into it as I started using cloud code a lot more first",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 194,
+          "t": [
+            656.093,
+            657.873
+          ],
+          "quote": "a lot of Cloud Code tokens,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 208,
+          "t": [
+            704.079,
+            707.579
+          ],
+          "quote": "the entire product basically off this cloud code in a permazoom",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            835.536,
+            839.558
+          ],
+          "quote": "But these days with cloud code, we literally like write some, a feature.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 584,
+          "t": [
+            2057.816,
+            2062.738
+          ],
+          "quote": "by how many therapists we have and it just goes and it's kind of like cloud code",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 628,
+          "t": [
+            2192.406,
+            2196.568
+          ],
+          "quote": "So tell me a little bit about how you're using Cloud Code or maybe show a little bit",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 633,
+          "t": [
+            2210.688,
+            2216.073
+          ],
+          "quote": "yeah let's give a little review of how how i write code how i cloud code all right",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 643,
+          "t": [
+            2250.101,
+            2256.103
+          ],
+          "quote": "so it feels like cheating almost is I'm gonna start cloud code here",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare-worker",
+      "type": "company",
+      "role": "company",
+      "name": "Cloudflare Worker",
+      "file": "Cloudflare Worker",
+      "primary": true,
+      "how_described": "本集中 Co-Founder 智能体使用的核心底层技术之一，被用于运行实际的无状态智能体循环。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            9.716,
+            13.799
+          ],
+          "quote": "We used Cloudflare Worker for the actual agent loop and Vercel AI SDK.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            965.088,
+            970.413
+          ],
+          "quote": "about like using building this in TypeScript and using a Cloudflare worker and kind",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1064.267,
+            1067.2114444444444
+          ],
+          "quote": "on we use cloudflare worker for the actual agent loop",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1106.4,
+            1112.303
+          ],
+          "quote": "It was literally just Cloudflare worker and Purcell.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vercel-ai-sdk",
+      "type": "company",
+      "role": "company",
+      "name": "Vercel AI SDK",
+      "file": "Vercel AI SDK",
+      "primary": true,
+      "how_described": "本集中 Co-Founder 智能体使用的另一核心底层技术，用于在云端运行智能体逻辑并允许切换不同模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            9.716,
+            13.799
+          ],
+          "quote": "We used Cloudflare Worker for the actual agent loop and Vercel AI SDK.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "perma-zoom",
+      "type": "concept",
+      "role": "concept",
+      "name": "永久 Zoom (perma-zoom)",
+      "file": "永久 Zoom",
+      "primary": true,
+      "how_described": "本集描述的取代所有常规会议和文档的唯一结构化工具：一个 24 小时开着的 Zoom 房间，远程团队成员在其中安静写代码并随时开口讨论 PR。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 184,
+          "t": [
+            627.059,
+            631.461
+          ],
+          "quote": "The only thing we decided to keep was a 24-7 perma-zoom,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 671,
+          "t": [
+            2374.824,
+            2378.865
+          ],
+          "quote": "the zoom perma zoom and you know get someone to review this",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 719,
+          "t": [
+            2523.243,
+            2527.006
+          ],
+          "quote": "we just want you to have a perma zoom and like we're giving you permission to do it",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dx",
+      "type": "company",
+      "role": "company",
+      "name": "DX",
+      "file": "DX",
+      "primary": false,
+      "how_described": "本集提到的一款 PR 统计与开发数据工具，数据显示团队中的设计师在真实代码吞吐量上击败了全公司 94% 的受过专业训练的工程师。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 391,
+          "t": [
+            1357.777,
+            1362.6
+          ],
+          "quote": " And I was just looking at our PR stats, which we use this tool called DX for it.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": false,
+      "how_described": "本集将其描述为传统软件研发流程中被砍掉的「繁文缛节」之一，该智能体团队完全没有使用 Figma，直接以代码代原型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 414,
+          "t": [
+            1436.717,
+            1441.76
+          ],
+          "quote": "it just slows us down and like designers should just focus on producing Figma so",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 722,
+          "t": [
+            2535.473,
+            2540.677
+          ],
+          "quote": "if you actually produce a doc or figma like you will get a slap on the wrist",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "jira",
+      "type": "company",
+      "role": "company",
+      "name": "JIRA",
+      "file": "JIRA",
+      "primary": false,
+      "how_described": "本集将其描述为被摒弃的传统研发标配之一，团队没有使用 JIRA 看板来追踪故事或工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            3.733,
+            8.896
+          ],
+          "quote": "we had no figmas, we had no JIRA board where we tracked stories or tracked work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 181,
+          "t": [
+            618.716,
+            623.198
+          ],
+          "quote": "We had no JIRA board where we track stories or tracked work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 454,
+          "t": [
+            1596.374,
+            1599.779
+          ],
+          "quote": " This episode is brought to you by Jira Product Discovery.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 461,
+          "t": [
+            1616.179,
+            1619.956777777778
+          ],
+          "quote": "Jira Product Discovery is where teams actually decide what to build,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 468,
+          "t": [
+            1636.273,
+            1640.884111111111
+          ],
+          "quote": "you can hand it off straight to JIRA so a developer or even an agent can pick it up",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 470,
+          "t": [
+            1643.017,
+            1648.02
+          ],
+          "quote": "Teams at Canva, Deliveroo, and Toast already use JIRA product discovery.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mindbody",
+      "type": "company",
+      "role": "company",
+      "name": "MindBody",
+      "file": "MindBody",
+      "primary": false,
+      "how_described": "本集演示中提到的一家按摩水疗中心使用的排班软件，过去需从中导出数据并手动算薪，现可通过 Co-Founder 智能体直接读取并自动计算。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 556,
+          "t": [
+            1956.177,
+            1960.891
+          ],
+          "quote": "And what they do is they use MindBody to track all of their work of their massage therapists.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 564,
+          "t": [
+            1983.951,
+            1986.242
+          ],
+          "quote": "you know, they export something from MindBody.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2040.643,
+            2043.9763333333333
+          ],
+          "quote": "Look at this spreadsheet that's called Export from MindBody.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "quickbooks",
+      "type": "company",
+      "role": "company",
+      "name": "QuickBooks",
+      "file": "QuickBooks",
+      "primary": false,
+      "how_described": "本集提到的一个第三方财务系统示例，Co-Founder 的连接器可以对接该系统以执行自动化工作流。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 576,
+          "t": [
+            2024.637,
+            2027.9080000000001
+          ],
+          "quote": "Gusto Co-Founder can actually access third-party systems like QuickBooks,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "concept",
+      "role": "concept",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": false,
+      "how_described": "本集提到的个人智能体项目，嘉宾因亲自在本地（购买 Mac mini）痛苦部署并体验它，才深刻理解了智能体的潜力和痛点，进而孵化出了 Co-Founder。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 546,
+          "t": [
+            1916.659,
+            1921.642
+          ],
+          "quote": "from using openclaw of like the power of like these uh messaging channels okay",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 818,
+          "t": [
+            2875.587,
+            2878.429
+          ],
+          "quote": "from me actually just setting up OpenClaw myself.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 848,
+          "t": [
+            2951.467,
+            2955.309
+          ],
+          "quote": "the same way that that openclaw really did and you probably heard",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "eval",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (eval)",
+      "file": "评估",
+      "primary": false,
+      "how_described": "本集被描述为测试驱动开发在 AI 时代的新形态：让 AI 针对某问题先写一个失败的评估，然后再编写代码修复，直到评估通过。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 650,
+          "t": [
+            2282.275,
+            2289.275
+          ],
+          "quote": "I'd love for you to first write an eval that fails to show that you can reproduce this issue.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 653,
+          "t": [
+            2296.461,
+            2297.722
+          ],
+          "quote": "the eval now passes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 657,
+          "t": [
+            2305.627,
+            2310.291
+          ],
+          "quote": "It's going to write an eval that fails and then get that eval to pass.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 661,
+          "t": [
+            2320.641,
+            2324.645
+          ],
+          "quote": "the pass but when it comes to like eval stuff like AI stuff like it's basically kind",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 663,
+          "t": [
+            2328.609,
+            2332.6645555555556
+          ],
+          "quote": "so always write a eval a failing eval first then write the code to fix it",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 667,
+          "t": [
+            2355.921,
+            2361.442
+          ],
+          "quote": "the most important is actually like reviewing the code that it wrote the eval",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 855,
+          "t": [
+            2974.951,
+            2979.916
+          ],
+          "quote": "you know when when Claude is not writing a great eval when it's not listening",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "magic-patterns",
+      "type": "company",
+      "role": "company",
+      "name": "Magic Patterns",
+      "file": "Magic Patterns",
+      "primary": false,
+      "how_described": "本集播客的广告赞助商，被描述为一款能让产品团队利用真实设计系统，快速从想法生成贴近实际产品原型的工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            95,
+            97.982
+          ],
+          "quote": "This episode is brought to you by Magic Patterns.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            126.392,
+            130.313
+          ],
+          "quote": "Magic Patterns takes your product team from idea to production.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            145.044,
+            148.526
+          ],
+          "quote": "the Magic Patterns MCP to pick up where you left off.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            151.709,
+            153.53
+          ],
+          "quote": "Make Magic Patterns yours.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "jira-product-discovery",
+      "type": "company",
+      "role": "company",
+      "name": "Jira Product Discovery",
+      "file": "Jira Product Discovery",
+      "primary": false,
+      "how_described": "本集播客的广告赞助商，被描述为一款帮助团队捕获想法、排定优先级并分享动态路线图的工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 454,
+          "t": [
+            1596.374,
+            1599.779
+          ],
+          "quote": " This episode is brought to you by Jira Product Discovery.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 461,
+          "t": [
+            1616.179,
+            1619.956777777778
+          ],
+          "quote": "Jira Product Discovery is where teams actually decide what to build,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 470,
+          "t": [
+            1643.017,
+            1648.02
+          ],
+          "quote": "Teams at Canva, Deliveroo, and Toast already use JIRA product discovery.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
