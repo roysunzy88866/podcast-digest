@@ -15,6 +15,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # ---- P0:补历史进料口三源可达性(drift #28)—— 云 runner 能连哪个全历史源 ----
+      - name: P0 · feed 源可达性(www feed / api.substack / archive API)
+        if: always()
+        run: |
+          node -e '
+          const UA={"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36","Accept":"*/*"};
+          const urls=[
+            ["www feed(RSS,现用)","https://www.lennysnewsletter.com/feed"],
+            ["api.substack(全353集RSS)","https://api.substack.com/feed/podcast/10845.rss"],
+            ["archive API(全历史JSON)","https://www.lennysnewsletter.com/api/v1/archive?sort=new&limit=12&offset=0"],
+          ];
+          (async()=>{ for(const [name,u] of urls){ try{ const r=await fetch(u,{headers:UA,redirect:"follow"}); const t=await r.text(); let n="?"; try{ n=u.includes("archive")?JSON.parse(t).length+" 条JSON":(t.match(/<item>/g)||[]).length+" 集RSS"; }catch{} console.log(`  ${r.status}  ${name}  (${n})`); }catch(e){ console.log(`  ERR  ${name}  ${e.cause?.code||e.message}`); } } })();
+          '
+
       # ---- P1a:海外 runner → 智谱 GLM 可达性 + 速度 ----
       - name: P1a · time a real GLM call (open.bigmodel.cn)
         if: always()
