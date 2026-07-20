@@ -54,8 +54,17 @@ for (const id of publishedIds) {
   }
 }
 
-// ② 逐集跑三联 + **发布产物一致性**
+// ② 逐集跑三联 + 事实层 + **发布产物一致性** —— 只对**已发布集(有集页 sample)**。
+//   半成品(有 digest 无集页,如转瞬失败留下的未过门 digest)= 不上线 → **不参与闸门**
+//   (否则它没过金句/事实层门的 digest 会崩整批,连干净集都发不了;它不上线、retry 下次重跑)。
+//   [standard-change: 用户授权 2026-07-20] 修「一集转瞬失败拖垮整批」编排 bug。
+//   ⚠️ 不弱化防失真:已发布集(publishedIds)仍全量过闸门;发布却缺 digest 由 ① 拦(防删文件冒充)。
 for (const id of gatedIds) {
+  const sample = join(ROOT, "samples", `${id}.md`);
+  if (!existsSync(sample)) {
+    console.log(`[机器闸门门] ℹ️ ${id}: 有 digest 但无集页(未发布/半成品)→ 不参与闸门(不上线,retry 下次重跑)`);
+    continue;
+  }
   let g;
   try {
     g = gateEpisode(join(base, id));
@@ -68,12 +77,7 @@ for (const id of gatedIds) {
   // ②b **发布产物必须 == 用过闸门的 digest 重渲染的结果**。
   //   否则闸门只守中间产物 digest.json,而读者读到的 samples/<id>.md 可被手改/陈旧,
   //   编造金句照样直达页面(C2 交付物审计实测复现:双门全绿+编造金句上页+页面仍自称过三联)。
-  const sample = join(ROOT, "samples", `${id}.md`);
-  if (!existsSync(sample)) {
-    // 有过闸门的 digest 却没集页 = 该集没发布(不是失真,不拦);但要出声,别让「跳过检查」看着像「通过」
-    // (依 GLM 20260717-013 [1];注:真发布路径是 samples→site/content→build,没 samples 就没页面)
-    console.log(`[机器闸门门] ℹ️ ${id}: 有 digest 但无集页 samples/${id}.md(未发布)→ 跳过发布产物一致性检查`);
-  } else {
+  {
     try {
       let expected;
       if (expectedPages.has(id)) {
