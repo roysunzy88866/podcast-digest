@@ -143,7 +143,14 @@ function completedIds() {
 }
 
 async function fetchFeed(feedUrl) {
-  const res = await fetch(feedUrl, { redirect: "follow" });
+  // 带浏览器 UA + Accept:api.substack.com 对无 UA/裸 node 请求返 403(挡 bot/数据中心;drift #28)
+  const res = await fetch(feedUrl, {
+    redirect: "follow",
+    headers: {
+      "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+      Accept: "application/rss+xml, application/xml, text/xml, */*",
+    },
+  });
   if (!res.ok) throw new Error(`取 RSS 失败 HTTP ${res.status}: ${feedUrl}`);
   return await res.text();
 }
