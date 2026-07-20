@@ -18,4 +18,4 @@ entity_type: 概念
 
 ## 关联实体
 
-[[Saragawa]] · [[Satya Nadella]] · [[Microsoft]] · [[GitHub]] · [[MAI 模型]] · [[私有评估]] · [[测试框架]] · [[上下文层]] · [[爬山]] · [[智能体]]
+[[Saragawa]] · [[Satya Nadella]] · [[Microsoft]] · [[GitHub]] · [[MAI 模型]] · [[私有评估]] · [[外壳层]] · [[上下文层]] · [[爬山]] · [[智能体]]

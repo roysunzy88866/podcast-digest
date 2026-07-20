@@ -1,0 +1,1195 @@
+{
+  "episode_id": "2026-01-25-lennys-why-your-product-stopped-growing",
+  "podcast": null,
+  "date": null,
+  "tags": [
+    "增长停滞",
+    "SaaS 指标",
+    "定价与定位",
+    "客户留存",
+    "渠道饱和"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            233.495,
+            242.858
+          ],
+          "quote": "Check it out at 10web.io/lenny and use code Lenny for exclusive free credits and 30% off API or white-labeled solutions.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 56,
+          "t": [
+            243.318,
+            247.659
+          ],
+          "quote": "That's the number 10, W-E-B, .io/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 68,
+          "t": [
+            311.757,
+            314.858
+          ],
+          "quote": "Run your next study at strella.io/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 69,
+          "t": [
+            315.078,
+            317.359
+          ],
+          "quote": "That's S-T-R-E-L-L-A, .io/lenny.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "jason-cohen",
+      "type": "person",
+      "role": "cohost",
+      "name": "Jason Cohen",
+      "file": "Jason Cohen",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            79.16,
+            80.801
+          ],
+          "quote": "Today, my guest is Jason Cohen.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 45,
+          "t": [
+            170.038,
+            173.58
+          ],
+          "quote": "With that, I bring you Jason Cohen after a short word from our sponsors.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "wp-engine",
+      "type": "company",
+      "role": "company",
+      "name": "WP Engine",
+      "file": "WP Engine",
+      "primary": true,
+      "how_described": "本集提到它是嘉宾 Jason Cohen 创办的两家独角兽公司之一，主要通过代理商渠道来销售其 WordPress 网站产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            81.041,
+            85.483
+          ],
+          "quote": "Jason is a four-time founder, including two unicorns, one being WP Engine.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1069,
+          "t": [
+            4500.95,
+            4503.07
+          ],
+          "quote": "Same thing happens with my company, WP Engine.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1501,
+          "t": [
+            6205.161,
+            6230.014
+          ],
+          "quote": "... 2017 for Central Texas, which I co-won with the CEO of WP Engine Heather Brunner, which is awesome because I often call Heather a late joining co-founder, because that's what ... LinkedIn, that's what Reid Hoffman called Jeff Wiener, because Jeff was four years in, but was so impactful to everything, the success of the company, the culture, the da, da, da, da, that basically is a co-founder.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1502,
+          "t": [
+            6230.074,
+            6232.715
+          ],
+          "quote": "And that's exactly what Heather is like at WP Engine.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1505,
+          "t": [
+            6242.34,
+            6249.646
+          ],
+          "quote": "And I used to say to people at WP Engine, like, \"If I just told you that Heather was a co-founder, you'd say, 'Yeah, no kidding.'\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "smartbear",
+      "type": "company",
+      "role": "company",
+      "name": "SmartBear",
+      "file": "SmartBear",
+      "primary": true,
+      "how_described": "本集提到它是 Jason Cohen 创办的独角兽公司之一，嘉宾以在此公司分析客户流失率的经历举例，说明让客户填写的取消原因往往只是噪音。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            369.427,
+            371.713
+          ],
+          "quote": "I was like, \"Count the number of blog posts on a smartbear.com.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1121.971,
+            1133.216
+          ],
+          "quote": "So at SmartBear, people would cancel, we'd put up this form and a dropdown list, too expensive, project ended, this little stuff like we do, so we could gather data.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "constant-contact",
+      "type": "company",
+      "role": "company",
+      "name": "Constant Contact",
+      "file": "Constant Contact",
+      "primary": true,
+      "how_described": "本集作为创新获客渠道的正面案例被讨论：在增长停滞时，他们亲自去各个城市举办线下研讨会，手把手教小企业主做邮件营销从而获取客户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1050,
+          "t": [
+            4416.54,
+            4424.105
+          ],
+          "quote": "So an example of getting creative on a channel is what Constant Contact did when they had this very problem of, \"Growth is slow.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1054,
+          "t": [
+            4441.056,
+            4447.98
+          ],
+          "quote": "So the restaurateur and the dentist and everyone would come to these sessions and they'd teach them how, of course, teaching them how with Constant Contact so they became customers, right?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "hubspot",
+      "type": "company",
+      "role": "company",
+      "name": "HubSpot",
+      "file": "HubSpot",
+      "primary": true,
+      "how_described": "本集作为渠道创新的成功案例：他们测试了通过代理商而非直销来获客，这一渠道最终贡献了公司 50% 的营收。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1067,
+          "t": [
+            4486.827,
+            4493.148
+          ],
+          "quote": "For example, HubSpot famously tested selling through agencies instead of direct.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "groove",
+      "type": "company",
+      "role": "company",
+      "name": "Groove",
+      "file": "Groove",
+      "primary": false,
+      "how_described": "本集简短提到这家公司有一个经典的案例：仅通过将取消问卷的提问从「你为什么取消」改为「是什么让你取消」，有效回复率就从 10% 跃升到了 20%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 307,
+          "t": [
+            1200.067,
+            1205.189
+          ],
+          "quote": "And I stole this from a company called Groove, who has this great case study online about this very thing.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "buffer",
+      "type": "company",
+      "role": "company",
+      "name": "Buffer",
+      "file": "Buffer",
+      "primary": false,
+      "how_described": "本集作为说明「定价和客群选择也受公司文化影响」的例子被顺带提及：他们选择只服务小客户，即使走向高端市场能赚更多，也不愿意违背服务小人物的文化初衷。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 690,
+          "t": [
+            3012.421,
+            3014.242
+          ],
+          "quote": "We are a company... Like Buffer's a great example.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 691,
+          "t": [
+            3014.642,
+            3022.726
+          ],
+          "quote": "Buffer could go up-market and try to sell social media tools to whatever, but they realized, \"We are a company for the little people.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "37signals",
+      "type": "company",
+      "role": "company",
+      "name": "37Signals",
+      "file": "37Signals",
+      "primary": false,
+      "how_described": "本集作为「不一定非要追求无限营收增长」的 bootstrap（自力更生）公司代表被提及，其创始人可以接受通过最大化利润来每年获取丰厚的分红。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1134,
+          "t": [
+            4802.5,
+            4809.506
+          ],
+          "quote": "And so this is a company like 37Signals or really lots of bootstrap companies who have hit some sort of limit and realize, \"That's okay.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "logo-churn",
+      "type": "concept",
+      "role": "concept",
+      "name": "客户流失 (logo churn)",
+      "file": "客户流失",
+      "primary": true,
+      "how_described": "本集将其作为诊断增长停滞的第一步核心概念（指取消订阅的客户比例）。嘉宾指出流失率会随规模呈指数级增长并最终压制线性增长的营销，导致公司遇到客户规模的极限上限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 175,
+          "t": [
+            694.099,
+            695.44
+          ],
+          "quote": "logo churn, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1035,
+            1036.668
+          ],
+          "quote": "Just to clarify, this is logo churn.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1039.8,
+            1043.122
+          ],
+          "quote": "Well, it is both logo churn and revenue churn.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1747.781,
+            1754.367
+          ],
+          "quote": "I'm so happy we're spending so much time on this very specific first step of logo churn, because the way you described it is so visceral.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 419,
+          "t": [
+            1780.724,
+            1783.566
+          ],
+          "quote": "So step one is look at logo churn.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2104.85,
+            2111
+          ],
+          "quote": "So step one is focus on your logo churn, the number of customers leaving, people leaving, actually canceling your product.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2137.815,
+            2141.237
+          ],
+          "quote": "So the first question is is logo churn too high?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 723,
+          "t": [
+            3128.766,
+            3130.732
+          ],
+          "quote": "So one was look at logo churn.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 936,
+          "t": [
+            4007.844,
+            4008.447
+          ],
+          "quote": "Logo churn.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "nrr",
+      "type": "concept",
+      "role": "concept",
+      "name": "净收入留存 (NRR)",
+      "file": "净收入留存",
+      "primary": true,
+      "how_described": "本集将其作为诊断框架的第三步（指现有客户群体在一年后的收入变化）。嘉宾强调单看 NRR 有迷惑性，如果绝对客户数下降太快，光靠留下的客户多付钱是无法在数学上抵消流失窟窿的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 736,
+          "t": [
+            3191.983,
+            3202.727
+          ],
+          "quote": "And of course, the metric here is NRR, net revenue retention, and the way that's computed is you say what is the revenue of customers right now?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 746,
+          "t": [
+            3237.159,
+            3238.82
+          ],
+          "quote": "A lot of times, people think ... So if you've heard of NRR, you...",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 748,
+          "t": [
+            3241.181,
+            3245.084
+          ],
+          "quote": "A lot of times people think... So if you've heard of NRR, you might think, \"Well, that's my golden metric.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 750,
+          "t": [
+            3247.025,
+            3253.45
+          ],
+          "quote": "But the issue is if NRR is positive, but N goes down too fast, it doesn't matter because not enough people are left.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 753,
+          "t": [
+            3259.354,
+            3267.62
+          ],
+          "quote": "And so NRR does not include that, and therefore, it actually undercounts what's going on in a bad way, in a way that hurts you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 763,
+          "t": [
+            3308.22,
+            3316.185
+          ],
+          "quote": "This is why NRR isn't quite right, because NRR is saying that a loss of 20% from cancellations is offset by 20% from upgrades.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 766,
+          "t": [
+            3323.009,
+            3325.37
+          ],
+          "quote": "So this is why, again, I believe in NRR.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 772,
+          "t": [
+            3342.44,
+            3344.061
+          ],
+          "quote": "So NRR, of course, is important.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 773,
+          "t": [
+            3344.341,
+            3356.688
+          ],
+          "quote": "A nice way to see this is, if everything I'm saying is true and there's these limits and stuff because of cancellation, then there should be no way to get a big company like a public SaaS company unless NRR is greater than 100.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 776,
+          "t": [
+            3360.891,
+            3365.994
+          ],
+          "quote": "There's over a hundred SaaS public companies, and something like two of them have NRR less than 100%.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 781,
+          "t": [
+            3377.02,
+            3387.145
+          ],
+          "quote": "And in fact, the median for an IPO SaaS company, like at IPO, the median NRR is 119%.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 787,
+          "t": [
+            3403.372,
+            3412.396
+          ],
+          "quote": "But okay, if they're okay, that's why this is in order, if that's generally okay, now we turn to NRR to say, \"Okay, but the ones who stay, they're hopefully happy, they need to grow.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 789,
+          "t": [
+            3413.317,
+            3415.217
+          ],
+          "quote": "So that's the full story of NRR.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 790,
+          "t": [
+            3415.277,
+            3420.8
+          ],
+          "quote": "I think people who've heard of NRR don't necessarily think about all those things and realize that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 791,
+          "t": [
+            3421.62,
+            3426.042
+          ],
+          "quote": "So a good question is, okay, what do I do with NRR?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 830,
+          "t": [
+            3600.234,
+            3604.457
+          ],
+          "quote": "So to me, this is the right way to think about NRR, not just, \"We'll add a feature and make them pay.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 839,
+          "t": [
+            3633.414,
+            3636.659
+          ],
+          "quote": "That'll be amazing,\" which is essentially expanding as NRR going above 100%.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 870,
+          "t": [
+            3771.157,
+            3775.44
+          ],
+          "quote": "It's harder to grow NRR if you're a consumer product that has, I don't know, just a tier or two.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 873,
+          "t": [
+            3790.109,
+            3792.811
+          ],
+          "quote": "So that doesn't mean the NRR question is invalid.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 923,
+          "t": [
+            3988.521,
+            3993.709
+          ],
+          "quote": "And I was thinking as we were talking about consumer NRR, if you look at Duolingo, they've done a great job here.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 939,
+          "t": [
+            4012,
+            4012.081
+          ],
+          "quote": "NRR.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 940,
+          "t": [
+            4014.08,
+            4014.16
+          ],
+          "quote": "NRR.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1119,
+          "t": [
+            4735.722,
+            4742.978
+          ],
+          "quote": "So just to summarize, logo retention, pricing, NRR, marketing, channel saturation.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "elephant-curve",
+      "type": "concept",
+      "role": "concept",
+      "name": "大象曲线 (elephant curve)",
+      "file": "大象曲线",
+      "primary": true,
+      "how_described": "本集里嘉宾自创的营销概念，用来描述获客渠道的衰退规律：渠道一开始像 S曲线（象鼻）一样上扬，但随后会因受众饱和而像大象下垂的屁股一样开始衰减。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 969,
+          "t": [
+            4106.213,
+            4114.476
+          ],
+          "quote": "So I wrote an article about this called the elephant curve, which is what I named it, because it's like this trunk, but then it's this butt.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1095,
+          "t": [
+            4634.299,
+            4634.96
+          ],
+          "quote": "The elephant curve?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1096,
+          "t": [
+            4635.04,
+            4636.333
+          ],
+          "quote": "Yeah, elephant curve.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1102,
+          "t": [
+            4648.302,
+            4663.62
+          ],
+          "quote": "So the idea here is, and the classic advice is, whether it's an S-curve or an elephant curve, think about are you starting to approach the apex of that and start to explore other channels before you slow down or start to dip?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1198,
+          "t": [
+            5138.09,
+            5144.633
+          ],
+          "quote": "And even if it did stop growing, and just stayed flat, and doesn't become an elephant curve, that'd be incredible.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "pricing",
+      "type": "concept",
+      "role": "concept",
+      "name": "定价 (pricing)",
+      "file": "定价",
+      "primary": true,
+      "how_described": "本集将其作为诊断框架的第二步。嘉宾认为 SaaS 产品的定价通常过低，提价反而能筛选并进入更优质的客户市场；此外定价不仅是数字，更是产品定位和价值主张的体现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            19.99,
+            21.111
+          ],
+          "quote": "And they got to the pricing page.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 14,
+          "t": [
+            34.182,
+            36
+          ],
+          "quote": "Step two is pricing, positioning.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 191,
+          "t": [
+            762.748,
+            765.249
+          ],
+          "quote": "And then they got to the pricing page and that didn't scare them off.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1256.005,
+            1262.566
+          ],
+          "quote": "Because they already looked at your homepage, read all the stuff, saw what you promised, looked at the pricing page and decided to buy it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 467,
+          "t": [
+            1982.235,
+            1983.537
+          ],
+          "quote": "It's probably not pricing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2146.4,
+            2149.762
+          ],
+          "quote": "So the next question I have is is the pricing correct?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2150.142,
+            2153.183
+          ],
+          "quote": "Which of course, pricing is a perennially interesting topic, I know.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2153.924,
+            2157.986
+          ],
+          "quote": "There's this funny thing, especially with newer companies, that the pricing is always too low.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2339.721,
+            2342.602
+          ],
+          "quote": "The reason is that pricing selects the market.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2471.287,
+            2472.648
+          ],
+          "quote": "So this question, is pricing correct?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 579,
+          "t": [
+            2475.989,
+            2478.39
+          ],
+          "quote": "Probably the answer is no because pricing's very hard.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2481.431,
+            2483.551
+          ],
+          "quote": "You've had some really good people on here on pricing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 639,
+          "t": [
+            2760.68,
+            2771.947
+          ],
+          "quote": "Now, I know it's a little bit of an exaggeration, et cetera, because I'm trying to make a point, but the big point is, the largest point is pricing is not just the number on the page.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 641,
+          "t": [
+            2777.31,
+            2782.333
+          ],
+          "quote": "It's per site or it's per usage or it's per seat or it's per ... All of this stuff is part of what pricing is.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 655,
+          "t": [
+            2855.661,
+            2859.826
+          ],
+          "quote": "So it's a long way of saying ... So again, when I think, \"Is your pricing correct?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 660,
+          "t": [
+            2881.464,
+            2887.527
+          ],
+          "quote": "And the biggest takeaway here is when you say is pricing correct, it isn't what is the number?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 678,
+          "t": [
+            2945.92,
+            2959.504
+          ],
+          "quote": "I don't want to go off too much of a tangent, but the thing you have to remember is that pricing is not this knob that you can turn separate from the rest of your strategy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 702,
+          "t": [
+            3056.104,
+            3057.892
+          ],
+          "quote": "Her pricing and sales stuff is good.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 710,
+          "t": [
+            3071,
+            3071
+          ],
+          "quote": "Yeah, okay. Amazing advice. Okay. There's so much here. Again, this could be some conversation, pricing, positioning.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 724,
+          "t": [
+            3130.993,
+            3133
+          ],
+          "quote": "Two is look at is your pricing correct?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 725,
+          "t": [
+            3133,
+            3133.64
+          ],
+          "quote": "Is the pricing right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 793,
+          "t": [
+            3429.083,
+            3442.349
+          ],
+          "quote": "You add features, you have different tiers, you change the pricing in some way with usage or seats or something that kind of goes up automatically as they get more value out of it, so I don't think that's terribly interesting to double click into.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 795,
+          "t": [
+            3443.629,
+            3455.094
+          ],
+          "quote": "I would say, \"Oh look, it's tied into pricing because their behavior,\" but the main thing is you want it to where the customer themselves would agree when they pay more, that they are getting more value.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 833,
+          "t": [
+            3612.063,
+            3624.479
+          ],
+          "quote": "In the recent Modivon episode where we go into pricing, you actually have some really good tactical advice for measuring the value that you're giving to a company to quantify that, which feeds into this idea of how do I create more value for you and then how do we split it?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 848,
+          "t": [
+            3662.041,
+            3683.591
+          ],
+          "quote": "In other words, especially when there's investors or other sort of forces saying like, \"Hey, we need to X, Y, and Z,\" forces that are not the customer saying that, yeah, you can be coerced into making pricing or other kinds of policies that in fact are not good for the customer.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 854,
+          "t": [
+            3708.222,
+            3709.043
+          ],
+          "quote": "\"Oh, this pricing will be good.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 865,
+          "t": [
+            3751.806,
+            3754.328
+          ],
+          "quote": "Step two is pricing, positioning.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 937,
+          "t": [
+            4011,
+            4011
+          ],
+          "quote": "Pricing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 938,
+          "t": [
+            4011.184,
+            4011.571
+          ],
+          "quote": "Pricing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1119,
+          "t": [
+            4735.722,
+            4742.978
+          ],
+          "quote": "So just to summarize, logo retention, pricing, NRR, marketing, channel saturation.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1274,
+          "t": [
+            5533.919,
+            5535
+          ],
+          "quote": "Then there will be a good way to do pricing.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "positioning",
+      "type": "concept",
+      "role": "concept",
+      "name": "定位 (positioning)",
+      "file": "定位",
+      "primary": true,
+      "how_described": "本集指出定位是定价策略不可分割的一部分。嘉宾用一个把广告成本减半的工具举例：同样产品，定位从「帮你省钱」改成「帮你获得翻倍线索实现增长」，就能直接多收 8 倍的钱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            34.182,
+            36
+          ],
+          "quote": "Step two is pricing, positioning.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 590,
+          "t": [
+            2549.337,
+            2551.818
+          ],
+          "quote": "So just by positioning it differently, eight times as much.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 640,
+          "t": [
+            2773.268,
+            2777.25
+          ],
+          "quote": "It's positioning, it's how their budgets work, it's how it's structured.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 643,
+          "t": [
+            2794.84,
+            2802.603
+          ],
+          "quote": "And so in particular with the positioning, the big lesson for product managers is sell more of what the company values like growth.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 657,
+          "t": [
+            2863.73,
+            2871.74
+          ],
+          "quote": "I'm thinking about the structure, the positioning and all that, and my guess is when growth is slowing, that there's a lot of improvement that could be had there.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 665,
+          "t": [
+            2898.152,
+            2903.014
+          ],
+          "quote": "And then also, is the positioning of what problem we solve for you correct?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 710,
+          "t": [
+            3071,
+            3071
+          ],
+          "quote": "Yeah, okay. Amazing advice. Okay. There's so much here. Again, this could be some conversation, pricing, positioning.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 865,
+          "t": [
+            3751.806,
+            3754.328
+          ],
+          "quote": "Step two is pricing, positioning.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1284,
+          "t": [
+            5561.443,
+            5568.973
+          ],
+          "quote": "I think what's also interesting is some of your advice is the value, you may be picking the wrong customer, the wrong market, you may be positioning it wrong.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "onboarding",
+      "type": "concept",
+      "role": "concept",
+      "name": "入职引导 (onboarding)",
+      "file": "入职引导",
+      "primary": true,
+      "how_described": "本集将其作为降低客户流失的最有效发力点。嘉宾指出大多数流失发生在客户生命周期的前 90 天内，在前期留存率哪怕只提升一点点，也会给后期的整体用户基数带来巨大的乘数效应。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 193,
+          "t": [
+            768.21,
+            770.631
+          ],
+          "quote": "Then they went through onboarding and invested their time, et cetera, et cetera.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1620,
+            1624.624
+          ],
+          "quote": "... because if you don't know what to do, or all else being equal, then focus on onboarding.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1638.194,
+            1644.719
+          ],
+          "quote": "And also, small changes in the onboarding can have large effects on cancellation, whereas later on, that's not necessarily true.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 408,
+          "t": [
+            1726.348,
+            1736.414
+          ],
+          "quote": "So if you can do a little bit in the onboarding or shift the onboarding percentage a little bit, it pays off enormously in revenue and profit over time by making them successful.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 409,
+          "t": [
+            1737.735,
+            1746.22
+          ],
+          "quote": "So again, if you don't know what to do, onboarding is a good bet, and even if you do know what to do, I'll still bet that onboarding is a good bet for where to go.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2087.082,
+            2090.667
+          ],
+          "quote": "And then the final step just to close this out is onboarding, work on onboarding activation.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2091.488,
+            2098.539
+          ],
+          "quote": "One of the most recurring themes on this podcast is just the power across every dimension of improving onboarding, improving activation.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1253,
+          "t": [
+            5404.817,
+            5408.82
+          ],
+          "quote": "It sounds small, has a huge thing, onboarding as opposed to later, huge thing.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "a-b-testing",
+      "type": "concept",
+      "role": "concept",
+      "name": "A/B 测试 (A/B testing)",
+      "file": "A/B 测试",
+      "primary": false,
+      "how_described": "本集在「逆向思考」环节被提及。嘉宾认为 A/B 测试对宏观战略毫无作用，且在测试细节时由于工具统计不准确和假阳性频发，对绝大多数普通公司来说不仅无效，反而是巨大的时间浪费。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1312,
+          "t": [
+            5683.38,
+            5686.422
+          ],
+          "quote": "A/B testing doesn't work very well and it doesn't work on most things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1327,
+          "t": [
+            5747.685,
+            5758.188
+          ],
+          "quote": "Even if the tool's 95% accurate, when the thing you're looking for is rare, which it is in the case of A/B testing, the false positives happen more often than the actual thing happens.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1329,
+          "t": [
+            5761.81,
+            5777.295
+          ],
+          "quote": "So as a result, this isn't true of all A/B testing, but for what most people do when they just do the mundane A/B testing, you can't A/B test the important things and the details are mostly false positives, so it's an enormous waste of time unless you're incredibly sophisticated.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1334,
+          "t": [
+            5785.078,
+            5790.14
+          ],
+          "quote": "If you don't have all of this information and knowledge about A/B testing, then you're the patsy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1338,
+          "t": [
+            5793.521,
+            5797.048
+          ],
+          "quote": "I will just say that I have found A/B testing useful in my career.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

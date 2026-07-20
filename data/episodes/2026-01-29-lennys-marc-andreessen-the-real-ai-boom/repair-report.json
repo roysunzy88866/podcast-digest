@@ -1,0 +1,88 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "24:52",
+      "speaker": "Marc Andreessen",
+      "trimmed": false,
+      "tsWas": "24:44",
+      "spkWas": "Marc Andreessen"
+    },
+    {
+      "i": 2,
+      "timestamp": "00:24",
+      "speaker": "Marc Andreessen",
+      "trimmed": false,
+      "tsWas": "24:22",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 3,
+      "timestamp": "25:25",
+      "speaker": "Marc Andreessen",
+      "trimmed": false,
+      "tsWas": "25:24",
+      "spkWas": "Marc Andreessen"
+    },
+    {
+      "i": 4,
+      "timestamp": "09:24",
+      "speaker": "Marc Andreessen",
+      "trimmed": false,
+      "tsWas": "09:24",
+      "spkWas": "Marc Andreessen"
+    },
+    {
+      "i": 6,
+      "timestamp": "01:08",
+      "speaker": "Marc Andreessen",
+      "trimmed": false,
+      "tsWas": "01:07",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 7,
+      "timestamp": "01:11",
+      "speaker": "Marc Andreessen",
+      "trimmed": false,
+      "tsWas": "01:11",
+      "spkWas": "Unknown"
+    },
+    {
+      "i": 8,
+      "timestamp": "01:20",
+      "speaker": "Marc Andreessen",
+      "trimmed": false,
+      "tsWas": "59:19",
+      "spkWas": "Marc Andreessen"
+    },
+    {
+      "i": 9,
+      "timestamp": "36:48",
+      "speaker": "Marc Andreessen",
+      "trimmed": false,
+      "tsWas": "36:47",
+      "spkWas": "Marc Andreessen"
+    },
+    {
+      "i": 10,
+      "timestamp": "13:19",
+      "speaker": "Marc Andreessen",
+      "trimmed": false,
+      "tsWas": "13:19",
+      "spkWas": "Marc Andreessen"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 5,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "The collapsing prices mean that the thing today that costs you $100, now costs you $10, now costs you $1."
+    },
+    {
+      "i": 11,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "The key for career planning is don't be fungible."
+    }
+  ]
+}

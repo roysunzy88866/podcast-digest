@@ -1,0 +1,1099 @@
+{
+  "episode_id": "2026-06-28-lennys-openai-codex-lead-on-the-new-shape",
+  "podcast": null,
+  "date": null,
+  "tags": [
+    "AI 产品开发",
+    "品味与策展",
+    "智能体",
+    "角色边界重构",
+    "自用与自动化工作流"
+  ],
+  "entities": [
+    {
+      "id": "andrew-ambrosino",
+      "type": "person",
+      "role": "host",
+      "name": "Andrew Ambrosino",
+      "file": "Andrew Ambrosino",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            82.18,
+            86.866
+          ],
+          "quote": "Today, my guest is Andrew Ambrosino, product and engineering lead for the Codex app at OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 34,
+          "t": [
+            146.573,
+            148.956
+          ],
+          "quote": "With that, I bring you Andrew Ambrosino.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            135.04,
+            146.052
+          ],
+          "quote": "Before we get into it, don't forget to check out lennysproductpass.com for a year free of the hottest and most well-crafted AI products in the world, available exclusively to Lenny's Newsletter subscribers.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "codex-app",
+      "type": "company",
+      "role": "company",
+      "name": "Codex app",
+      "file": "Codex app",
+      "primary": true,
+      "how_described": "本集核心讨论对象。OpenAI 推出的应用，自一月以来使用量增长了 6 倍，拥有超 500 万周活。被描述为人们构建产品的首选工具，不仅面向工程师，法务、财务等全员都在重度使用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            82.18,
+            86.866
+          ],
+          "quote": "Today, my guest is Andrew Ambrosino, product and engineering lead for the Codex app at OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 196,
+          "t": [
+            888.34,
+            894.045
+          ],
+          "quote": "To me, I spent a lot of time writing code or supervising code on the early Codex app.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 205,
+          "t": [
+            954.164,
+            962.51
+          ],
+          "quote": "So I think as we've gone through this process of, we started the Codex app in November.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 211,
+          "t": [
+            978.883,
+            985.912
+          ],
+          "quote": "Speaking of design and being creative, the Codex app when it came out, it's like such a new thing that nobody had seen before.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1296.53,
+            1298
+          ],
+          "quote": "What does the design process look like on the Codex app?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1372.232,
+            1380.979
+          ],
+          "quote": "And this sort of speaks to the process too, especially because the entirety of the Codex app has been informed by the dog fooding loop.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2011.38,
+            2013.622
+          ],
+          "quote": "So this is a great story about the Codex app.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2014.042,
+            2023.468
+          ],
+          "quote": "I am very confident that the Codex app that we released in February, if that had been ready in November, it would've absolutely failed in the market.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2336.5,
+            2344.227
+          ],
+          "quote": "Because sometimes in the same way that Codex app came and disrupted ChatGPT in some way, this thing will get disrupted by a future effort.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 551,
+          "t": [
+            2539.404,
+            2551.214
+          ],
+          "quote": "But one of the things that makes it very fun is that when we were developing the original Codex app, the goal for me personally was to make it the thing that I wrote the code with.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2551.334,
+            2555.857
+          ],
+          "quote": "I was like, \"I need to make this so good at development that I can build the Codex app with this.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2556.438,
+            2558.059
+          ],
+          "quote": "And the Codex app at that time was a development tool.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2596.573,
+            2599.577
+          ],
+          "quote": "And so all of a sudden that's what I started using the Codex app for.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2621.22,
+            2631.851
+          ],
+          "quote": "There was a release or a series of releases in May-ish that introduced the in-app browser, computer use, and artifact creation to the Codex app.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 576,
+          "t": [
+            2662.781,
+            2673.809
+          ],
+          "quote": "In short, the way that I use the Codex app is basically like, what has my job grown into and how do I make this thing able to do everything I need to do?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 660,
+          "t": [
+            2973.561,
+            2983.696
+          ],
+          "quote": "Do you feel like this is where things go?zeolite Where we're just working within the Codex app using Notion and Linear and Salesforce inside with your agent kind of helping you along?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 710,
+          "t": [
+            3171.005,
+            3177.451
+          ],
+          "quote": "And it was before we actually released the Codex app, which is that we'd started to dog food the Codex app.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 717,
+          "t": [
+            3203.781,
+            3215.033
+          ],
+          "quote": "And we have people from marketing, from comms, from finance, from legal, from basically every discipline, who are using this Codex app, even though it is actively hostile to these people.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 726,
+          "t": [
+            3245.143,
+            3255.031
+          ],
+          "quote": "And the most annoying problem happened, which is nobody would leave the Codex app for the apps that were allegedly for these other personas.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 743,
+          "t": [
+            3347.26,
+            3354.107
+          ],
+          "quote": "It is so interesting, the point you made that the Codex app was so, you did such a good job getting people to be aware it existed.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 765,
+          "t": [
+            3441.08,
+            3447.687
+          ],
+          "quote": "There's a great story about, we had some videos that we shot in this room for the original launch of the Codex app.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 807,
+          "t": [
+            3652.3,
+            3664.432
+          ],
+          "quote": "With this project to bring what we've learned with the Codex app and marry it with ChatGPT, there have been, I don't know how many micro failures on this.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集主角 Andrew 的工作单位，内部接近 100% 的员工每周都在使用 Codex app，拥有全员极具智能体精神且拥有无限额度的高度行动力文化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.401,
+            3.331
+          ],
+          "quote": "90% of people at OpenAI use Codex.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 16,
+          "t": [
+            50.02,
+            54.726
+          ],
+          "quote": "Everybody at OpenAI is very agentic, has great ideas, and so everybody's building everything.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 25,
+          "t": [
+            82.18,
+            86.866
+          ],
+          "quote": "Today, my guest is Andrew Ambrosino, product and engineering lead for the Codex app at OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 31,
+          "t": [
+            118.912,
+            125.92
+          ],
+          "quote": "Internally at OpenAI, nearly 100% of their employees use Codex weekly and that is not just the engineers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 52,
+          "t": [
+            232.385,
+            236.407
+          ],
+          "quote": "Everybody at OpenAI is very agentic, has great ideas.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 77,
+          "t": [
+            327.987,
+            335.457
+          ],
+          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 92,
+          "t": [
+            401.433,
+            404.037
+          ],
+          "quote": "So there's an idea out there floating around OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1422.876,
+            1426
+          ],
+          "quote": "I feel like, was OpenAI the first company to call people member of technical staff?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1718.23,
+            1720.713
+          ],
+          "quote": "At OpenAI, we let teams get very large.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 598,
+          "t": [
+            2756.891,
+            2763.518
+          ],
+          "quote": "But if you're not working at OpenAI, not developing this, you don't want to have to figure out all this stuff.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 709,
+          "t": [
+            3165.1,
+            3170.985
+          ],
+          "quote": "There's a really interesting thing that happened at OpenAI in January and February.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 759,
+          "t": [
+            3407.601,
+            3414.109
+          ],
+          "quote": "Is that good enough for people doing financial modeling at OpenAI for raising billions of dollars?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 810,
+          "t": [
+            3673.04,
+            3677.707
+          ],
+          "quote": "This is the thing I love about OpenAI, is people will just tell us that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 961,
+          "t": [
+            4070.884,
+            4074.952
+          ],
+          "quote": "But of course, if you're working for OpenAI, there's less risks on that regard.",
+          "speaker": "SPEAKER_2"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集讨论 OpenAI 浏览器与智能体功能演进时反复提及的产品（包含 Operator 和 agent mode）。且团队目前正致力于将 Codex 应用的经验与 ChatGPT 结合，使其成为面向大众的通用知识工作工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 466,
+          "t": [
+            2169.988,
+            2172.13
+          ],
+          "quote": "We had Operator before that in ChatGPT.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2175.392,
+            2183.897
+          ],
+          "quote": "There's some thread that you can draw between Operator, Atlas, Codex, ChatGPT that's fundamentally the same feature.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2336.5,
+            2344.227
+          ],
+          "quote": "Because sometimes in the same way that Codex app came and disrupted ChatGPT in some way, this thing will get disrupted by a future effort.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 663,
+          "t": [
+            2992.586,
+            2996.17
+          ],
+          "quote": "And Operator and ChatGPT agent mode and Atlas.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 722,
+          "t": [
+            3231.53,
+            3233.472
+          ],
+          "quote": "Let's add it to the ChatGPT desktop app.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 741,
+          "t": [
+            3340.631,
+            3344.877
+          ],
+          "quote": "And so it was Codex the developer tool, ChatGPT, where's this going?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 744,
+          "t": [
+            3354.268,
+            3358.212
+          ],
+          "quote": "And so good to use and fun to use that everyone's starting to use that versus the ChatGPT app.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 778,
+          "t": [
+            3513.686,
+            3517.51
+          ],
+          "quote": "And so we're trying to do two things at once with Codex and with now with ChatGPT.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 781,
+          "t": [
+            3527.22,
+            3529.925
+          ],
+          "quote": "But Codex and ChatGPT can use that video editor.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 807,
+          "t": [
+            3652.3,
+            3664.432
+          ],
+          "quote": "With this project to bring what we've learned with the Codex app and marry it with ChatGPT, there have been, I don't know how many micro failures on this.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "嘉宾将其作为对比对象，指出它待在本地终端、不假装是 AGI 而是不断向人类提问，这种更谦卑的形态因为契合了当时模型的能力边界而在市场上大获成功。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 219,
+          "t": [
+            1011.843,
+            1018.915
+          ],
+          "quote": "As we were getting ready for this, you said that you were listening to the episode with Jenny who does the head of design for Claude Code and Cowork and such.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2235.18,
+            2237.022
+          ],
+          "quote": "And then the Claude Code comes out.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集提及 IC（独立贡献者）的本质已经变成在管理智能体，也谈及了 ChatGPT 里的 agent mode，并指出 OpenAI 内部在 Codex 项目上通过这些编码智能体找到了产品方向。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 465,
+          "t": [
+            2164.125,
+            2169.928
+          ],
+          "quote": "I mean, go back to Atlas, we had agent working inside of Atlas and that was pretty cool.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 660,
+          "t": [
+            2973.561,
+            2983.696
+          ],
+          "quote": "Do you feel like this is where things go?zeolite Where we're just working within the Codex app using Notion and Linear and Salesforce inside with your agent kind of helping you along?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 663,
+          "t": [
+            2992.586,
+            2996.17
+          ],
+          "quote": "And Operator and ChatGPT agent mode and Atlas.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 679,
+          "t": [
+            3050.256,
+            3052.999
+          ],
+          "quote": "Is this something that is only for the agent?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "taste",
+      "type": "concept",
+      "role": "concept",
+      "name": "品味 (taste)",
+      "file": "品味",
+      "primary": true,
+      "how_described": "本集将其定义为现阶段产品开发中最核心的要素，不再局限于视觉美学，而是结合系统思考、商业判断和目标感，用来判断在无限算力和原型的混乱中「应该投资哪个方向」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            36.08,
+            42.393
+          ],
+          "quote": "I think design's a little bit harder to grade because the human aspect of taste is part of the feedback mechanism you need.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 19,
+          "t": [
+            62.857,
+            64.579
+          ],
+          "quote": "It's, dare I say, taste.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 68,
+          "t": [
+            305.178,
+            306.92
+          ],
+          "quote": "It's, dare I say, taste.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 88,
+          "t": [
+            393.361,
+            395.203
+          ],
+          "quote": "Taste, such a buzzword.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 136,
+          "t": [
+            608.781,
+            624.098
+          ],
+          "quote": "Not to overdo the taste thing, but it's once again, it's like the taste to know what to work on, how to present that information, how to achieve the goals, what medium to use is emerging as the most important thing to do.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 138,
+          "t": [
+            626.461,
+            629.246
+          ],
+          "quote": "What is taste when you talk about good taste?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 142,
+          "t": [
+            637.361,
+            642.192
+          ],
+          "quote": "Talk about when you think about what is good taste, good judgment, what is that concretely?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 143,
+          "t": [
+            642.212,
+            644.457
+          ],
+          "quote": "Because people hear this word, they're like, \"Oh, I have good taste.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 149,
+          "t": [
+            651.384,
+            661.813
+          ],
+          "quote": "There was a tweet, I think it was yesterday from the head of product at Linear, I might be getting that wrong, sorry to anybody, who said, \"People overemphasize the aesthetic part of what taste means.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 151,
+          "t": [
+            666.316,
+            669.379
+          ],
+          "quote": "Saying, \"Paul Graham clearly has great taste and wears cargo shorts.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 152,
+          "t": [
+            671.08,
+            675.984
+          ],
+          "quote": "We got to tease out what taste means a little bit and there's a lot of nuance here.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 158,
+          "t": [
+            697.443,
+            706.774
+          ],
+          "quote": "And obviously there are parts of taste that are like, \"Hey, this interaction animation doesn't fit in the semantic meaning it's supposed to.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 163,
+          "t": [
+            722.956,
+            725.639
+          ],
+          "quote": "That I think is actually the real taste question here.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 165,
+          "t": [
+            735.471,
+            737.473
+          ],
+          "quote": "And it feels like taste is a part of it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 179,
+          "t": [
+            789.76,
+            794.323
+          ],
+          "quote": "Because the human aspect of taste is part of the feedback mechanism you need.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 190,
+          "t": [
+            855.82,
+            858.742
+          ],
+          "quote": "Linear's website, great design, great taste.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1697.75,
+            1708.62
+          ],
+          "quote": "And I think one thing that is very common among everybody on the Codex side or on the desktop side is agency and taste, right?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1715.607,
+            1717.75
+          ],
+          "quote": "A lot of people with immense taste.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1776.641,
+            1782.487
+          ],
+          "quote": "And so now it's like we need the taste makers to guide things from inception to what the product should be.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1819.147,
+            1828
+          ],
+          "quote": "Is the most valuable person right now, one of the most valuable, is someone that could take an idea from idea to done with the taste to know this is great.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1832.207,
+            1835.593
+          ],
+          "quote": "This kind of high agency, high taste person exactly as you described.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1880.766,
+            1892.175
+          ],
+          "quote": "I generally look for obviously command over the discipline, but then the taste to say, \"Hey, you're going to have unlimited tokens and we can't just be doing slop.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 654,
+          "t": [
+            2946.961,
+            2950.144
+          ],
+          "quote": "This is the taste and judgment you spoke of earlier deciding these things.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "prototype",
+      "type": "concept",
+      "role": "concept",
+      "name": "原型 (prototype)",
+      "file": "原型",
+      "primary": true,
+      "how_described": "本集指出原型制作成本的大幅下降改变了产品流程，现在可能会同时出现 90 个不同的原型；嘉宾强调原型太逼真会导致公司忽略底层的商业模式尚未理清。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            409.524,
+            413.268
+          ],
+          "quote": "Today, what you're describing, which makes all the sense, is people just create a prototype.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 98,
+          "t": [
+            417.452,
+            419.955
+          ],
+          "quote": "And now instead of a doc, they create their little prototype.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 106,
+          "t": [
+            437.4,
+            452.311
+          ],
+          "quote": "I think that one of the interesting things that is happening right now is that because implementation has gotten so cheap across every medium, it's very tempting to jump straight to a prototype.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 114,
+          "t": [
+            494.208,
+            501.314
+          ],
+          "quote": "If what you're trying to do is get something in people's hands to try out and to stress test an interaction pattern, it's a prototype.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 119,
+          "t": [
+            527.3,
+            536.631
+          ],
+          "quote": "And what I'm hearing you saying is sometimes the prototype is the wrong first thing to do because then you're just responding to this prototype versus a different idea versus a bigger idea.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1147.714,
+            1154.84
+          ],
+          "quote": "And there ended up being sort of a meme about executives just being like, \"Well, can we just do a prototype and then expect it to work?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1171.34,
+            1175.805
+          ],
+          "quote": "Again, you see this fully polished prototype that looks like it's ready to go out the door.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1212.6,
+            1218.424
+          ],
+          "quote": "You can put stuff into the current product and you can A/B test it or just use that as a prototype.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 429,
+          "t": [
+            1991.195,
+            1997.94
+          ],
+          "quote": "Let's prototype all of them, decide which things are ready now, and then just let the others sit and bake.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "计算机使用 (computer use)",
+      "file": "计算机使用",
+      "primary": true,
+      "how_described": "本集描述为应用能够接管你的电脑进行点击操作的能力，如Codex为了设置邮件触发器，通过该能力自动进入 Google Cloud 控制台完成复杂配置。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 569,
+          "t": [
+            2621.22,
+            2631.851
+          ],
+          "quote": "There was a release or a series of releases in May-ish that introduced the in-app browser, computer use, and artifact creation to the Codex app.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 625,
+          "t": [
+            2845.269,
+            2847.392
+          ],
+          "quote": "And it just... You described computer use.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 784,
+          "t": [
+            3533.511,
+            3538.219
+          ],
+          "quote": "And that's often through connectors or computer use or even extensions in this case.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "in-app-browser",
+      "type": "concept",
+      "role": "concept",
+      "name": "应用内浏览器 (in-app browser)",
+      "file": "应用内浏览器",
+      "primary": true,
+      "how_described": "本集梳理了其演变历史，提到早期在 Codex 中仅作为开发工具测试前端，后来切换到了曾驱动 Atlas 的 Owlstack，现在支持多标签页并加入了企业安全特性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 463,
+          "t": [
+            2157,
+            2160.682
+          ],
+          "quote": "This happens with the in-app browser in the app that we have.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2621.22,
+            2631.851
+          ],
+          "quote": "There was a release or a series of releases in May-ish that introduced the in-app browser, computer use, and artifact creation to the Codex app.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 633,
+          "t": [
+            2862.906,
+            2869.256
+          ],
+          "quote": "When to use the in-app browser versus your Chrome extension that's connected versus computer us was interesting.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 664,
+          "t": [
+            2996.41,
+            3000.434
+          ],
+          "quote": "And now we have the in-app browser inside of the desktop app.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 671,
+          "t": [
+            3022.16,
+            3028.228
+          ],
+          "quote": "So the in-app browser was for development, it was for testing your front end on development.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "zone-defense",
+      "type": "concept",
+      "role": "concept",
+      "name": "区域联防 (zone defense)",
+      "file": "区域联防",
+      "primary": true,
+      "how_described": "本集借用篮球战术来描述 AI 时代的产品经理工作模式：产品人员需要主动拉开距离、寻找协作网络中的空白进行补位，以确保全公司事务的完整覆盖。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 361,
+          "t": [
+            1692.225,
+            1697.229
+          ],
+          "quote": "A few product people, although product here is kind of more of a zone defense play.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 368,
+          "t": [
+            1727.421,
+            1731.687
+          ],
+          "quote": "You use this term zone defense for product work and that's really interesting.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1738.117,
+            1740
+          ],
+          "quote": "What does zone defense look like for a product person?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "role-collapse",
+      "type": "concept",
+      "role": "concept",
+      "name": "角色崩溃 (role collapse)",
+      "file": "角色崩溃",
+      "primary": true,
+      "how_described": "本集指出在面向工程师的技术产品团队中出现了比其他部门更明显的现象：设计师会说工程师的语言并写代码，个人的角色定义不再是固定的职能边界，而是日常各项工作的「平均值」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 282,
+          "t": [
+            1298.26,
+            1302.803
+          ],
+          "quote": "Yeah, there's been a lot written about role collapse, existential role collapse.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1306.766,
+            1313.931
+          ],
+          "quote": "We have seen more role collapse in the Codex org than I think other parts of the company and other parts of the economy.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1334.464,
+            1335.565
+          ],
+          "quote": "So we've seen a lot of role collapse.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "pmf",
+      "type": "concept",
+      "role": "concept",
+      "name": "PMF",
+      "file": "PMF",
+      "primary": true,
+      "how_described": "本集提到团队在正式发布 Codex 应用前，先在内部的工程和研究工作流上达成了非常清晰的内部 PMF（产品市场契合），大家非常爱用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 711,
+          "t": [
+            3178.512,
+            3187.82
+          ],
+          "quote": "And what we were finding, we were converging on some pretty clear internal PMF on engineering and research workflows.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

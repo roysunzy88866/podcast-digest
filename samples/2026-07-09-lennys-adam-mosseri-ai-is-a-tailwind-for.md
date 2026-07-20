@@ -137,6 +137,15 @@ Adam 明确表示，他**不认为平台应该过滤掉 AI 内容，也不应该
 > *you can't you can't you can't launch something to three billion people and not test it first but you can't test something at our scale and not expect people to cover it*  
 > —— Adam Mosseri · [59:28] ^q12
 
+## 相关单集
+
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《2026-05-03-lennys-why-cultivating-agency-matters-more》]] —— 同概念:vibe coding、品味 (taste)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《2026-01-18-lennys-the-non-technical-pms-guide-to-building》]] —— 同概念:vibe coding
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《2026-04-19-lennys-why-half-of-product-managers-are-in-trou》]] —— 同概念:vibe coding
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《2026-06-28-lennys-openai-codex-lead-on-the-new-shape》]] —— 同概念:品味 (taste)
+- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《2026-04-26-lennys-snapchat-ceo-why-distribution-is》]] —— 同公司:tiktok · 同概念:智能体 (agents)
+- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《2026-03-22-lennys-the-art-of-influence-jessica-fain》]] —— 同概念:智能体 (agents)
+
 ---
 
 *中文精华由 GLM-5.2 从官方转写稿全译→浓缩产出,金句经机器闸门(逐字命中转写稿+时间戳区间+说话人)三联校验。英文原稿/全译存档于项目仓库、本页不展示(可事后核对);上云后迁 R2(C7)。*

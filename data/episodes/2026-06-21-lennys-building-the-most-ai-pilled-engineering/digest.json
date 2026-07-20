@@ -1,0 +1,96 @@
+{
+  "tldr": "Fiona Fung 讲 AI 时代的软件团队:编码已非瓶颈,管理、质量与角色正全面重塑。",
+  "digest_md": "Anthropic 工程师的代码量,如今已是不久前的 8 倍。这句开场白拉开了本期对话的序幕——当写代码不再是瓶颈,软件团队到底在干嘛?Lenny 邀请到了领导 Anthropic 旗下 Claude Code 与 Co-Work(一款辅助知识工作的智能体软件)团队的工程负责人 Fiona Fung,聊聊身处 AI 改造工程最前线的真实体感。Fiona 做了超过 25 年的工程师,曾在微软带过 TypeScript 和 Visual Studio(一款集成开发环境软件)团队,在 Meta 创立了每年产生超 1000 亿美元交易额的 Facebook Marketplace,还管过 500 人的庞大组织。她以极丰富的行业经验,拆解了 AI 正如何重塑工程团队的开发、质检与协作模式。\n\n### 从关心吞吐量,到关心验证\n\nFiona 回忆,早年工程师是一门「稀缺资源」,甚至要赶着把软件刻进 CD 光盘里制造发货。而如今的转变核心是:**编码不再是瓶颈,吞吐量极高** [08:57 Fiona Fung]。不仅是工程师,Claude Code 团队的设计师、产品经理(PM)等所有不同职能的人都在提交代码 [09:14 Fiona Fung]。当写代码变快了,团队的焦点自然转移到了「如何验证」上。\n\n为了跟上这 8 倍的代码增速,Fiona 采用了一种独特的管理方式:她在团队的所有代码仓库中都挂载了一个 Claude Code 远程会话,并让它接入所有相关的 Slack 频道与业务指标 [10:15 Fiona Fung]。每个月,她会共享屏幕,与 Claude 一起开个复盘会,看看过去有哪些重点领域、发布了什么产品、引发了什么 Bug [10:37 Fiona Fung]。这让她从过去单纯催促进度,转变为能基于 Claude 生成的主题汇总,与下属进行深度对话,探讨下一个值得投入的质量提升领域 [11:43 Fiona Fung]。\n\n### 规格驱动与测试的自动化\n\n由于人力审查根本跟不上代码提交的速度,Claude Code 团队极大地依赖自动化验证。Fiona 指出,Claude 在被给定了「什么是好」的框架时,表现极其出色 [15:20 Fiona Fung]。她非常推荐的做法是:将产品的规格说明文档也存入代码库并保持更新,这样代码审查就能自动对照规格,检查代码是否依然符合设定 [15:36 Fiona Fung]。\n\n这种思路让过去经典的「测试驱动开发(TDD,一种先写测试再写代码的开发理念)」迎来了新生。Fiona 坦言自己以前觉得先写测试就像「必须先吃西兰花」一样痛苦,但如今在修复 Claude Code 的 Bug 时,她只需让 Claude 帮她先写好测试、确认失败,然后再动手修复 [16:24 Fiona Fung]。过去的心理负担被自动化彻底消解了。\n\n### 未来的工程师:产品梦想家与硬核系统专家\n\n在招聘和人才模型上,Fiona 看到了两条清晰的主线。第一类是「产品梦想家」:这类人对打造愉悦的产品体验充满热情,有想法就能直接靠 AI 构建,并时刻盯着反馈迭代 [18:02 Fiona Fung]。第二类则是「硬核系统专家」:因为模型虽然强大,但「信任但需验证」,在分布式系统等需要深厚专业知识的底层领域,依然极度需要能做深度把关的专家 [17:30 Fiona Fung]。团队的边界正在模糊,像 PM 这个角色,过去常受限于要等待工程排期,如今也能亲自卷起袖子提交一些功能代码 [60:32 Fiona Fung]。\n\n这种转变极大地拉高了工程师的雄心天花板。Fiona 分享了一位原本不懂移动端开发的工程师,借助 Claude 成功为功能拓展了移动端的故事 [19:16 Fiona Fung]。\n\n> 【背景】主持人 Lenny 还引用了经济学家 Tyler Cohen 的观察:在这个新时代,表现最好的人往往具备「主动性」与「能动性」。Fiona 深表认同,并补充她的团队强调「高能动性必须伴随高问责制」 [38:48 Lenny] [38:52 Fiona Fung]。\n\n### 直面恐惧,弥合 AI 鸿沟\n\n面对 AI 的狂飙突进,并非所有人都如鱼得水,许多人感到恐惧、挫折甚至抵触。Fiona 认为这是可以理解的,因为改变那些曾让你成功的习惯确实可怕 [20:40 Fiona Fung]。她的切身建议是:保持成长型心态,直面恐惧,问问自己「在我控制范围内能做点什么行动?」[21:33 Fiona Fung]。\n\n> 【背景】Fiona 坦言自己高中时原想当个艺术家,因为怕负担不起计算机专业的学费,曾恐惧地跑去加拿大国家银行当周末柜员攒钱,这也是她对抗未知恐惧的亲身经历 [23:30 Fiona Fung]。\n\n如今,她极其担心 AI 工具的不均衡会拉大社会鸿沟。为此,她甚至推动团队利用 Co-Work 推出了面向小企业的 Cloud for small business(面向小企业的捆绑功能包)。她发现小企业主最讨厌处理发票和账单,而 Co-Work 不仅能完美解决这些,还能帮餐厅老板杂乱的文档文件夹梳理菜单、做竞品分析 [27:21 Fiona Fung]。她强烈呼吁:如果你身边有还没用上 AI 的人,「牵着他们的手」,从能改善他们生活的具体小事给他们做个示范 [31:10 Fiona Fung]。\n\n### 衡量生产力:「Sad」与「Bad」指标\n\n当代码狂飙突进时,如何衡量产出质量和工程师的投资回报率(ROI)?Fiona 极其反感盲目追求诸如「代码行数」或单纯的工具调用量这类指标 [41:20 Fiona Fung]。她强调要始终追问:这些行动真的在驱动我们期望的结果吗?\n\n> 【背景】Fiona 举例说,在早期推出 Facebook Marketplace 时,团队曾把「卖家数量」作为扩张前的硬性指标;但后来发现某地区虽然卖家总数少,却有大卖家支撑,用户依然能找到所需物品,这促使他们果断调整了指标 [42:47 Fiona Fung]。\n\n为了主动管理质量,Claude Code 团队创造了直观的体验监控框架。他们让各个小团队自定义各自的「Bad」(坏的,如不可恢复的崩溃)与「Sad」(令人遗憾的,如偶发的卡顿)阈值 [46:24 Fiona Fung]。此外,团队甚至有一个追踪「脏话频率」的仪表盘,用来直观捕捉用户极其挫败的时刻 [47:50 Fiona Fung]。\n\n### 消除孤独感:从 IC 开始的领导者\n\n随着工程师越来越深度地与各自的智能体协作,Fiona 敏锐地察觉到团队中开始滋生一种「孤独感」[56:38 Fiona Fung]。为了对抗这种情绪,她发起了「结对编程午餐」,让大家在观察彼此如何使用工具的过程中互相学习;此外还坚持举办黑客松,确保团队成员仍保有真实的人际互动 [56:44 Fiona Fung]。\n\n在她团队里,还有一条硬性规定:**管理者必须从独立贡献者(IC)做起**。新来的管理者必须先拥有一段不受管人负担干扰的「创造者时间」,亲自下场写代码、测试产品 [50:56 Fiona Fung]。Fiona 自己哪怕作为高管,也坚持每天使用自家产品,甚至借此重新找回了久违的部署生产环境代码的自信。她认为,如果领导者不亲自使用团队打造的工具,很快就会对产品失去真实的触觉 [55:05 Fiona Fung]。\n\n### 规划未来:走向 JIT 规划与学徒制\n\n在超高速的变化节奏下,过去那种长达半年的路线图规划已彻底失效。Fiona 将其精简为「JIT 规划(准时制规划)」,只拉一个极简的电子表格来规划本月的最高优先事项,并且保持每周自检 [84:37 Fiona Fung]。她甚至一直提醒团队:**明确允许杀死那些不再发挥作用的流程** [83:15 Fiona Fung]。\n\n展望未来,Fiona 充满反思与忧虑。当新的大学毕业生不再需要逐行手写代码,我们该如何让他们理解底层的系统架构?她设想,未来的工程师培养也许不再只是三个月的实习,而会演变成类似于「学徒制」的模式 [73:54 Fiona Fung]。至于真正让她彻夜难眠的事,不是产品或工程的技术挑战,而是如何在这个史无前例的疯狂扩张中,守住开放、真诚、互助的团队文化 [78:11 Fiona Fung]。",
+  "quotes": [
+    {
+      "en": "Because the roles are blowing, it's shifting more to this builder. Like everybody starts being a builder, I would say.",
+      "zh": "因为角色正在爆发,正在更多地向这个构建者转变。我想说,每个人都在开始成为构建者。",
+      "timestamp": "10:03",
+      "speaker": "Fiona Fung"
+    },
+    {
+      "en": "I actually have these sessions to enable me to have conversations with folks that I support.",
+      "zh": "实际上我用这些会话是为了让我能与我支持的人们进行对话。",
+      "timestamp": "10:56",
+      "speaker": "Fiona Fung"
+    },
+    {
+      "en": "I have this saying make new mistakes like it's okay to make mistakes just make new ones so that we're always learning because if you aim to make zero mistakes like that probably means you're not you know moving fast enough or being a little bit too cautious",
+      "zh": "我有一句名言:犯新的错误,犯错误没关系,只要犯新的错误,这样我们就能一直在学习,因为如果你的目标是零错误,那可能意味着你并没有足够快地前进,或者有点过于谨慎。",
+      "timestamp": "11:30",
+      "speaker": "Fiona Fung"
+    },
+    {
+      "en": "I would say a growth mindset really really helps",
+      "zh": "我会说成长心态真的真的很有帮助",
+      "timestamp": "20:04",
+      "speaker": "Fiona Fung"
+    },
+    {
+      "en": "for anything that you know that there is a fear my advice is kind of lean in and ask okay is there some what can I do about it what is within my control",
+      "zh": "对于任何你知道存在恐惧的事情,我的建议是有点倾向于面对它并问好吧,有什么我能做的,什么是在我的控制范围内",
+      "timestamp": "21:27",
+      "speaker": "Fiona Fung"
+    },
+    {
+      "en": "there was a saying like do something what would you do if you're not afraid and do something scary once in a while because that's also usually how we grow",
+      "zh": "有句名言就像做点什么,如果你不害怕你会做什么,以及偶尔做点吓人的事,因为那通常也是我们成长的方式",
+      "timestamp": "24:56",
+      "speaker": "Fiona Fung"
+    },
+    {
+      "en": "Customers will use your product in ways that you did not intend for good or for bad.",
+      "zh": "客户会以你意想不到的方式使用你的产品,无论好坏。",
+      "timestamp": "34:28",
+      "speaker": "Fiona Fung"
+    },
+    {
+      "en": "don't first take motion for progress because if you're measuring like you know like tool user usage then you're you're measuring the action",
+      "zh": "不要把行动误认为是进步,因为如果你在衡量像工具用户使用情况,那么你在衡量行动",
+      "timestamp": "41:29",
+      "speaker": "Fiona Fung"
+    },
+    {
+      "en": "it's really great when you have a metric that you can actually hill climb on but always keep in mind of is you know kind of my whole growth mindset of is it still serving you",
+      "zh": "当你有一个你实际上可以以此为指标进行攀登的指标时这真的很棒,但要始终记住的是,这就像我的整个成长心态,它仍然在为你服务吗",
+      "timestamp": "42:30",
+      "speaker": "Fiona Fung"
+    },
+    {
+      "en": "so knowing that bad is like a really bad, irrecoverable error, we enable each team a further surface areas or it could be services that, you know, they lead.",
+      "zh": "所以知道「坏的」就像一个非常坏的、不可恢复的错误,我们为每个团队启用了进一步的领域或它可能是服务,他们负责的。",
+      "timestamp": "46:24",
+      "speaker": "Fiona Fung"
+    },
+    {
+      "en": "if you actually start as IC first without the worry of supporting people because that's a very heavy responsibility",
+      "zh": "如果你实际上先从 IC 开始而不必担心支持他人因为那是一个非常沉重的责任",
+      "timestamp": "50:56",
+      "speaker": "Fiona Fung"
+    },
+    {
+      "en": "after a while we felt it could start being a lonely experience because we all started just working with our agents so much.",
+      "zh": "过了一段时间我们感觉这可能开始变成一种孤独的体验,因为我们都开始只是与我们的智能体一起工作了那么多。",
+      "timestamp": "56:38",
+      "speaker": "Fiona Fung"
+    },
+    {
+      "en": "I really do think how we grow the next generation just because how you and me got to our engineering path is just so different",
+      "zh": "我真的认为我们如何培养下一代仅仅因为你和我如何步入我们的工程路径是如此不同",
+      "timestamp": "73:26",
+      "speaker": "Fiona Fung"
+    },
+    {
+      "en": "one other thing that's really big on Claude code and co-work team culture is explicit permission to kill processes that no longer serve us",
+      "zh": "另一件在 Claude code 和 co-work 团队文化中非常重要的事情是明确允许终止那些不再为我们服务的过程",
+      "timestamp": "83:10",
+      "speaker": "Fiona Fung"
+    },
+    {
+      "en": "in a world where you can be anything be kind",
+      "zh": "在一个你可以成为任何东西的世界里,要友善",
+      "timestamp": "93:06",
+      "speaker": "Fiona Fung"
+    }
+  ]
+}

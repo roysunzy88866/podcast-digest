@@ -1,0 +1,152 @@
+{
+  "tldr": "Notion产品负责人Max探讨AI时代的产品构建：代码作为设计媒介、可延展软件、微小核心与主动性的觉醒。",
+  "digest_md": "Max Schoening 的职业轨迹横跨设计与工程：他曾是 Google 的产品经理、Heroku 的设计负责人、GitHub 在 Nat Friedman 时期的设计负责人与工程师，也是一位连续创业者，现任 Notion 的产品负责人。本期访谈中，他分享了对 AI 如何重塑产品团队工作方式的深刻洞察，涵盖从设计思维到软件质量的方方面面。\n\n### 一、AI 时代的工作新范式\n\n**1. 为什么让设计师和 PM 写代码？**\n\n在 Notion，设计师和产品经理（PM）正在直接编写代码。Max 坦言，这一切的起点是为了更好地设计聊天界面。在 Figma 里画出的静态聊天框就像一条「死鱼」——你无法真正感受到 AI 的交互动态。于是，他们搭建了一个代码量极小、对大语言模型（LLM）极其友好的「游乐场」，让设计师在真实的代码环境中做原型 [03:31 Max Schoening]。\n\nMax 强调，他其实并不在乎设计师写的代码是否最终进入生产环境。他真正在乎的是**用代码作为一种思考媒介**。AI 工具不仅让工程师提速，也挤压了设计岗位，要求他们更快地跟进。但他认为，在 AI 时代，比「用工具微调样式」更核心的能力，是深刻理解**智能体循环**是如何运作的 [09:08 Max Schoening]。而要理解智能体循环，就必须用它们构成的材料（也就是代码）去构建。写代码是为了成为材料的大师，而不是成为想法交付机制里的一个齿轮 [10:14 Max Schoening]。\n\n> 【背景】智能体循环：指 AI 自主执行任务时的「思考-执行-观察-修正」循环。\n\n**2. 核心区分点：主动性**\n\n当所有人都能借助 AI 掌握编程、设计等技能时，真正区分卓越与平庸的特质是什么？Max 认为是**主动性** [11:00 Max Schoening]。这是一种「世界是由并不比你聪明的人组成的」的觉醒，是坚信周围的世界是可塑造的。\n\n他以 Notion 内部两位同事为例：Brian Levin 不仅模糊了工程与设计的边界，还会主动充当头号招聘官去补足团队空缺；Eric Lou 则为了让自己成为未来创业公司的前五号员工，主动放弃写长篇产品需求文档（PRD），转而用 Figma，最后干脆直接写代码原型来表达想法 [13:15 Max Schoening]。Max 称之为「像偷来的车一样开足 Notion 的马力」——即使你不是创始人，依然能以极高的归属感去推动改变 [12:31 Max Schoening]。\n\n### 二、软件的「微小核心」与工程学\n\n**1. 伟大的产品都有「微小核心」**\n\nMax 认为，构建成功产品最大的陷阱，就是陷入「再加一个功能就会变好」的死循环 [61:15 Max Schoening]。相反，所有伟大的产品都依赖于一个**微小但做到极致的核心**：手机的多点触控、GitHub 的 Pull Request、Notion 的 block（块）和斜杠命令、Figma 的实时协作、Dropbox 极度丝滑的菜单栏同步图标 [61:32 Max Schoening]。\n\n他回忆了自己早年创业失败的教训：当时花了大量时间打磨编辑器的 Markdown 折叠等复杂功能，但 Notion 的第一版编辑器甚至无法跨块选中文本，却依然取得了巨大的成功。这让他意识到，勤奋地在错误的细节上死磕是巨大的失败 [75:18 Max Schoening]。\n\n**2. 别忘了真正的「工程」与「品味」**\n\n当所有人都在谈论每天能生成多少代码时，Max 表达了对软件质量下降的担忧 [07:52 Max Schoening]。他用物理隐喻来区分原型与工程：用 3D 打印做出的粗糙原型，就像用 AI 快速生成的代码，你能一眼看出它还不能卖给一亿人；真正的工程，是去优化工厂以获得良率和精度 [15:04 Max Schoening]。\n\n在这个过程中，**品味**至关重要。Max 将品味定义为：你能否在脑海中运行一台「虚拟机」，以此预测某个特定群体是否会喜欢某个想法 [57:29 Max Schoening]。建立品味没有捷径，就像训练模型一样，需要不断做重复、获取反馈并迭代 [58:11 Max Schoening]。他主张的准则是：**「只做明显好的东西」**——就像初代 iPhone 或刚推出时的 ChatGPT，你一看就知道它是对的 [55:09 Max Schoening]。\n\n### 三、对前沿趋势的冷思考\n\n**1. 可延展软件**\n\nMax 长期倡导「可延展软件」——即软件应更贴近使用者的利益，而非仅仅服务于开发公司的集中管控 [18:16 Max Schoening]。他极其反感现在的「App」模式：每个 App 就像手机里被胶水死死粘住的小方块，你无法按自己的意愿修改它。\n\n他认为，人们其实并不想从零开始维护一整套软件（比如自己重建 Notion）。所谓「SaaS（软件即服务）末日」被夸大了 [26:51 Max Schoening]。未来的软件会回归类似 90 年代的通用工具形态（如字处理软件、电子表格），但因为有了 AI 作为「导师」，普通人能更好地驾驭和定制它们。而真正复杂的底层维护，依然需要由专家以「服务」的形式提供 [26:32 Max Schoening]。Notion 正是凭借其高度连接的上下文工作空间，成为了 AI 智能体漫游的理想场所，迎来了它的宿命时刻 [50:23 Max Schoening]。\n\n**2. SaaS末日与代码的扩张**\n\n当被问及 AI 下一步将颠覆哪个非工程岗位时，Max 给出了反直觉的判断：他认为模型最大的进步仍集中在代码领域。由于编写代码的成本正趋近于零，**软件工程将反向渗透并吞噬所有其他领域** [43:09 Max Schoening]。\n\n此外，他不盲目迷信「绝对智能」。对比过不同模型后，他认为对于大量日常知识工作而言，模型已经达到了「足够好」的拐点。未来企业和个人的优化方向，将不再是盲目追求最强模型或最多的 Token 消耗，而是成本、速度与本地化部署 [33:39 Max Schoening]。\n\n### 四、生活哲学与反向观点\n\n**1. 每个项目的前10%是免费的**\n\nAI 极大地降低了试错成本。Max 形容现在构建初创公司的第一版几乎不需要费力，这让「演示取代备忘录」变得前所未有的容易 [29:19 Max Schoening]。\n\n**2. 我们已经有了 UBI（全民基本收入）**\n\nMax 提出了一个略带玩笑但引人深思的观点：人类其实已经拥有了某种形式的 UBI，它叫做「知识工作」 [68:01 Max Schoening]。与历史上的生存方式相比，现代知识工作者在空调房里敲击键盘就能获得丰厚的报酬。即便 AGI 到来，人类作为最具创造力的物种，依然会为自己发明出新的「必须存在」的理由。\n\n**3. 拥抱适度的排他性**\n\n在过度追求包容的当下，Max 坦言他相信「小团体理论」：世界是由 8 人或更少的群聊运转的 [71:38 Max Schoening]。有时候，保持排他性是必要的。如果为了取悦地球上的 80 亿人去修改产品，往往会得罪最核心的那批尖端用户 [72:11 Max Schoening]。\n\n最后，他建议身处狂热 AI 浪潮中的从业者：不要被「错过最后一班列车」的恐慌感所裹挟。放下手机，去周围的街道或森林里散个步，仔细观察那些由「并不比你聪明的人」制造的一切。你会意识到，只需六到九个月，你就能搞懂身边大多数事物的运作方式，你拥有的主动性远比你想象的要大得多 [86:29 Max Schoening]。",
+  "quotes": [
+    {
+      "en": "I would much rather take the designer or PM that deeply has an affinity for understanding how agent loops work and can design those than someone who can write traditional software and tweak styles.",
+      "zh": "我更愿意选择那些对理解智能体循环如何工作有深厚亲和力并且能设计它们的设计师或 PM，而不是那些能编写传统软件和调整样式的人。",
+      "timestamp": "09:28",
+      "speaker": "Max Schoening"
+    },
+    {
+      "en": "And I think people who have true agency and they understand that the world around them is malleable will do great.",
+      "zh": "我认为那些拥有真正主动性并且理解他们周围的世界是可塑造的人，会做得很好。",
+      "timestamp": "11:27",
+      "speaker": "Max Schoening"
+    },
+    {
+      "en": "One of the biggest pitfalls is if you get into the loop of, if I just add one more thing to the product, it'll be finally great.",
+      "zh": "最大的陷阱之一是如果你陷入这样一个循环，如果我只是给产品再加一样东西，它最终就会很棒。",
+      "timestamp": "01:00",
+      "speaker": "Max Schoening"
+    },
+    {
+      "en": "All the great products have something tiny that is a superpower, one tiny core that is so exceptionally good.",
+      "zh": "所有伟大的产品都有一个微小的东西是超能力，一个微小的核心是如此的好。",
+      "timestamp": "00:54",
+      "speaker": "Max Schoening"
+    },
+    {
+      "en": "I think the world is run by group chats of eight people or fewer.",
+      "zh": "我认为世界是由八人或更少人的群聊运作的。",
+      "timestamp": "71:38",
+      "speaker": "Max Schoening"
+    },
+    {
+      "en": "Taste actually means you're able to run a virtual machine in your head where given an idea, you can predict for a certain in group whether they're going to like it or not.",
+      "zh": "品味实际上意味着你能够在你的大脑中运行一个虚拟机，给定一个想法，你能够预测某个内部群体是否会喜欢它。",
+      "timestamp": "00:40",
+      "speaker": "Max Schoening"
+    },
+    {
+      "en": "Malleable software is the idea that software works closer to the interest of the people that use it than the interest of the corporation that makes it, maybe that's how I'd frame it.",
+      "zh": "可延展软件的想法是，软件更接近使用它的人的利益，而不是制造它的公司的利益，也许这就是我的框架。",
+      "timestamp": "18:16",
+      "speaker": "Max Schoening"
+    },
+    {
+      "en": "So I think to some degree the SaaS apocalypse is greatly exaggerated.",
+      "zh": "所以我认为在某种程度上，SaaS末日被大大夸大了。",
+      "timestamp": "26:51",
+      "speaker": "Max Schoening"
+    },
+    {
+      "en": "I think there's a real danger in making the token spend the metric to boast about, which is the same as when people boast about how many lines of code they've written in a day.",
+      "zh": "我认为把 Token 花费作为吹嘘的指标确实有危险，这就像人们吹嘘他们一天写了多少行代码一样。",
+      "timestamp": "36:08",
+      "speaker": "Max Schoening"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "I would much rather take the designer or PM that deeply has an affinity for understanding how agent loops work and can design those than someone who can write traditional software and tweak styles.",
+      "zh": "我更愿意选择那些对理解智能体循环如何工作有深厚亲和力并且能设计它们的设计师或 PM，而不是那些能编写传统软件和调整样式的人。",
+      "timestamp": "09:23",
+      "speaker": "Max Schoening"
+    },
+    {
+      "en": "And I think people who have true agency and they understand that the world around them is malleable will do great.",
+      "zh": "我认为那些拥有真正主动性并且理解他们周围的世界是可塑造的人，会做得很好。",
+      "timestamp": "11:27",
+      "speaker": "Max Schoening"
+    },
+    {
+      "en": "One of the biggest pitfalls is if you get into the loop of, if I just add one more thing to the product, it'll be finally great.",
+      "zh": "最大的陷阱之一是如果你陷入这样一个循环，如果我只是给产品再加一样东西，它最终就会很棒。",
+      "timestamp": "01:00",
+      "speaker": "Max Schoening"
+    },
+    {
+      "en": "All the great products have something tiny that is a superpower, one tiny core that is so exceptionally good.",
+      "zh": "所有伟大的产品都有一个微小的东西是超能力，一个微小的核心是如此的好。",
+      "timestamp": "51:24",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "My take is that we already have universal basic income.",
+      "zh": "我的观点是我们已经有了全民基本收入。",
+      "timestamp": "01:10",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "I think the world is run by group chats of eight people or fewer.",
+      "zh": "我认为世界是由八人或更少人的群聊运作的。",
+      "timestamp": "71:42",
+      "speaker": "Max Schoening"
+    },
+    {
+      "en": "Taste actually means you're able to run a virtual machine in your head where given an idea, you can predict for a certain in group whether they're going to like it or not.",
+      "zh": "品味实际上意味着你能够在你的大脑中运行一个虚拟机，给定一个想法，你能够预测某个内部群体是否会喜欢它。",
+      "timestamp": "40:40",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Just make obviously good stuff.",
+      "zh": "只做明显好的东西。",
+      "timestamp": "55:18",
+      "speaker": "Max Schoening"
+    },
+    {
+      "en": "Malleable software is the idea that software works closer to the interest of the people that use it than the interest of the corporation that makes it, maybe that's how I'd frame it.",
+      "zh": "可延展软件的想法是，软件更接近使用它的人的利益，而不是制造它的公司的利益，也许这就是我的框架。",
+      "timestamp": "18:16",
+      "speaker": "Max Schoening"
+    },
+    {
+      "en": "But I think important thing is actually to not give up on the core idea.",
+      "zh": "但我认为重要的事情实际上是不要放弃核心想法。",
+      "timestamp": "76:09",
+      "speaker": "Max Schoening"
+    },
+    {
+      "en": "I think the first 10% of every project are now free.",
+      "zh": "我认为每个项目的前 10% 现在是免费的。",
+      "timestamp": "28:47",
+      "speaker": "Max Schoening"
+    },
+    {
+      "en": "I think being okay with being exclusive sometimes is okay.",
+      "zh": "我认为有时候对排他感到安然是可以的。",
+      "timestamp": "72:11",
+      "speaker": "Max Schoening"
+    },
+    {
+      "en": "So I think to some degree the SaaS apocalypse is greatly exaggerated.",
+      "zh": "所以我认为在某种程度上，SaaS末日被大大夸大了。",
+      "timestamp": "26:51",
+      "speaker": "Max Schoening"
+    },
+    {
+      "en": "if the cost of software and creating software and encoding business practices in code, and I just literally mean the old software 1.0 kind of code, then if that cost is very much going to zero, we will just have a lot more of it.",
+      "zh": "如果软件的成本、创建软件的成本以及将业务实践编码到代码中的成本，我的字面意思就是旧的软件 1.0 类型的代码，那么如果那个成本真的趋近于零，我们将拥有多得多的软件。",
+      "timestamp": "42:55",
+      "speaker": "Max Schoening"
+    },
+    {
+      "en": "I think there's a real danger in making the token spend the metric to boast about, which is the same as when people boast about how many lines of code they've written in a day.",
+      "zh": "我认为把 Token 花费作为吹嘘的指标确实有危险，这就像人们吹嘘他们一天写了多少行代码一样。",
+      "timestamp": "36:08",
+      "speaker": "Max Schoening"
+    }
+  ]
+}

@@ -6,7 +6,7 @@ entity_type: 人物
 # Peter Steinberger
 
 > [!info] 人物
-> 出现在 1 集 · 金句 4 条 · 关联 9 个
+> 出现在 1 集 · 金句 4 条 · 关联 10 个
 
 ## 金句
 
@@ -24,4 +24,4 @@ entity_type: 人物
 
 ## 关联实体
 
-[[Raphael Schaad]] · [[OpenClaw]] · [[智能体]] · [[Codex]] · [[Claude Code]] · [[MCP]] · [[提示注入]] · [[CLI]] · [[护城河]]
+[[Raphael Schaad]] · [[OpenClaw]] · [[智能体]] · [[Codex]] · [[Claude Code]] · [[MCP]] · [[提示注入]] · [[CLI]] · [[护城河]] · [[ChatGPT]]

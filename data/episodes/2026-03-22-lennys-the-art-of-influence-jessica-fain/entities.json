@@ -1,0 +1,889 @@
+{
+  "episode_id": "2026-03-22-lennys-the-art-of-influence-jessica-fain",
+  "podcast": null,
+  "date": null,
+  "tags": [
+    "影响力",
+    "产品管理",
+    "向上管理",
+    "高管沟通",
+    "AI 时代的职场技能"
+  ],
+  "entities": [
+    {
+      "id": "jessica-fain",
+      "type": "person",
+      "role": "host",
+      "name": "Jessica Fain",
+      "file": "Jessica Fain",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            77.541,
+            84.309
+          ],
+          "quote": "Today, my guest is Jessica Fain, who's been a product leader at Box and Slack and Brightwheel, and now at Webflow.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            122.631,
+            130.459
+          ],
+          "quote": "Before we get into it, don't forget to check out lennysproductpass.com for an incredible set of deals available exclusively to Lenny's newsletter subscribers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 38,
+          "t": [
+            166.2,
+            174.529
+          ],
+          "quote": "If you want AI analytics in your product without building the whole stack from scratch, check out omni.co/lenny for a free three-week trial.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 40,
+          "t": [
+            180.736,
+            182.679
+          ],
+          "quote": "That's OMNI.co/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2816.418,
+            2817.459
+          ],
+          "quote": "Get $1,000 off at vanta.com/ lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": true,
+      "how_described": "本集多次提到 Slack，嘉宾在此担任了多年的产品负责人和参谋长，并以在这里推行“客户爱冲刺”和设计评审方法“Stuart 加另外两个”等亲身经历作为说明影响力的案例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            77.541,
+            84.309
+          ],
+          "quote": "Today, my guest is Jessica Fain, who's been a product leader at Box and Slack and Brightwheel, and now at Webflow.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 75,
+          "t": [
+            324.871,
+            338.48
+          ],
+          "quote": "And at the time that I'm thinking about, I was a PM at Slack, and some of my ideas got people really excited, got me funding and backing, and just really a sense that we could accomplish something great.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 81,
+          "t": [
+            360.109,
+            367.672
+          ],
+          "quote": "And I was eight months pregnant, eight and a half months pregnant, April Underwood, who had just been named CPO of Slack.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 168,
+          "t": [
+            850.115,
+            856.7
+          ],
+          "quote": "Noah Weiss, who succeeded Tamar Yehoshua, CPO of Slack and also former podcast guest.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 173,
+          "t": [
+            863.142,
+            866.706
+          ],
+          "quote": "We sat down to write product principles for Slack.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 174,
+          "t": [
+            867.567,
+            881
+          ],
+          "quote": "And Ethan Eisman, our head of design, was leading that initiative, but really this was a lot about codifying the early ideas that made Slack great, especially from a product principles and sort of craft perspective.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 175,
+          "t": [
+            881.64,
+            894.929
+          ],
+          "quote": "And we started talking about this and Noah had been at Slack early on, and he pulls out a small notebook that he kept in his bag and he said, \"I actually have a section of this notebook that I've been keeping things I learned from Stuart over the years.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 181,
+          "t": [
+            930.211,
+            939.056
+          ],
+          "quote": "And we worked with a lot of the sort of early Slack folks and the people that had really developed that culture, but it was folks who had really tried to grow and learn.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 186,
+          "t": [
+            952.174,
+            954.98
+          ],
+          "quote": "I feel like just the alumni of Slack, holy moly, just like this is a...",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1014.524,
+            1023.05
+          ],
+          "quote": "Elon Frank, who was my boss at Slack as well, is now CPO of Checker, he always had a customer anecdote in his back pocket.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1029.535,
+            1036.98
+          ],
+          "quote": "He always brought his expertise to bear, and many of the executives at Slack were not from a strong enterprise background, so he could bring that to the forefront.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1266.051,
+            1273.177
+          ],
+          "quote": "We implemented something at Slack with Stuart, because we realized we were coming to him with done designs and he was like, \"What the fuck is this?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1277.12,
+            1281.584
+          ],
+          "quote": "So Allie Rail, early Slack employee implemented something called, \"Hey, Stuart, what do you think?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1991.714,
+            1995.716
+          ],
+          "quote": "So after I was chief of staff, I took over Slack's core product team.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2014.803,
+            2026.227
+          ],
+          "quote": "That was one of the things that made Slack great in the first place was just it really felt like a product that took that usability to a 10X place.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "webflow",
+      "type": "company",
+      "role": "company",
+      "name": "Webflow",
+      "file": "Webflow",
+      "primary": true,
+      "how_described": "本集嘉宾目前担任产品负责人的公司。她在本集分享了近期在 Webflow 与 CPO 进行产品评审的经历，以及设计主管迅速响应 CPO 线索、录制屏幕视频框架的案例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            77.541,
+            84.309
+          ],
+          "quote": "Today, my guest is Jessica Fain, who's been a product leader at Box and Slack and Brightwheel, and now at Webflow.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1253,
+            1256.603
+          ],
+          "quote": "So we have something at Webflow called Office Hours.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2325.04,
+            2336.404
+          ],
+          "quote": "Just last week, we've been working a lot on as skills get democratized across Webflow, everyone can do design, everyone can ship code, everyone can write a PRD.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "box",
+      "type": "company",
+      "role": "company",
+      "name": "Box",
+      "file": "Box",
+      "primary": false,
+      "how_described": "本集提到 Box 是嘉宾和某位同事早期曾共同供职过的一家科技公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            77.541,
+            84.309
+          ],
+          "quote": "Today, my guest is Jessica Fain, who's been a product leader at Box and Slack and Brightwheel, and now at Webflow.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 132,
+          "t": [
+            640.742,
+            645.034
+          ],
+          "quote": "And Annie Pearl, who was my first PM manager back at Box.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 771,
+          "t": [
+            4001.067,
+            4002.577
+          ],
+          "quote": "And Jeff and I worked together at Box.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "atlassian",
+      "type": "company",
+      "role": "company",
+      "name": "Atlassian",
+      "file": "Atlassian",
+      "primary": false,
+      "how_described": "本集提到 Atlassian 是前 Slack CPO Tamar Yehoshua 目前担任 CPO 和 AI 负责人的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            399.46,
+            404.883
+          ],
+          "quote": "Who's been on the podcast, and is now a CPO and head of AI at Atlassian.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "influence",
+      "type": "concept",
+      "role": "concept",
+      "name": "影响力 (influence)",
+      "file": "影响力",
+      "primary": true,
+      "how_described": "本集的核心主题，被定义为增加好想法存活下来的几率，而不是为自己的利益搞政治操纵；其本质是把高管当作核心用户，用同理心去理解他们，以增加获得支持的可能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            84.71,
+            93
+          ],
+          "quote": "And she has gotten very, very uniquely good at the art and science of influence, and in particular, influencing executives.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 23,
+          "t": [
+            93.701,
+            98.926
+          ],
+          "quote": "Influence might be the single highest leverage skill for product leaders outside of AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 24,
+          "t": [
+            99.446,
+            102.269
+          ],
+          "quote": "We actually get into how AI is changing the skill of influence.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 25,
+          "t": [
+            102.61,
+            112.92
+          ],
+          "quote": "I've never heard a podcast conversation get deep into the art and science of influence, how to actually change people's minds, and the mistakes that people make when they're trying to influence leaders.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 58,
+          "t": [
+            246.003,
+            254.791
+          ],
+          "quote": "We're going to be talking about the skill and the art of influence, and in particular, influencing executives and leaders.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 64,
+          "t": [
+            271.605,
+            279.011
+          ],
+          "quote": "Influence and building momentum behind great ideas is the way that great products actually get built.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 65,
+          "t": [
+            279.552,
+            288.419
+          ],
+          "quote": "And if you don't have that influence, if you don't have the buy-in and the backing of your key stakeholders, of your executives, you can't build great products.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 130,
+          "t": [
+            636.636,
+            639.88
+          ],
+          "quote": "I always tell them, \"That's just you're not able to influence them and convince them that you're right.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 156,
+          "t": [
+            780.22,
+            797.314
+          ],
+          "quote": "I want to dive deeper into this stuff, but first, something on my mind is some people might be turned off by this topic in terms of, it may feel icky of just like, \"Oh, I don't want to try to be this manipulative person, and deal with politics and influence.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 163,
+          "t": [
+            814.508,
+            818.491
+          ],
+          "quote": "Influence is about increasing the odds that your good ideas survive.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 164,
+          "t": [
+            819.291,
+            830.6
+          ],
+          "quote": "And I think what happens is people actually let ego and let their own narrative, their own scope of influence, get in the way of empathy.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2254.22,
+            2261.83
+          ],
+          "quote": "And then a second lever is trying to not go into a conversation, even though you are trying to influence them.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2451.2,
+            2459.659
+          ],
+          "quote": "And it also sounds like a really good way to influence is you take the reins and here's where I think we could go with this, and here's the answer to your question.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 571,
+          "t": [
+            2860.377,
+            2865.799
+          ],
+          "quote": "You need to influence people in power to agree with your approach.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 731,
+          "t": [
+            3748.841,
+            3764.72
+          ],
+          "quote": "Before we get into AI's impact and all this stuff, are there any other common mistakes people make when they are trying to get better at the skill of influence or just any other really powerful tactics for increasing your ability to influence leaders?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 807,
+          "t": [
+            4181.287,
+            4185.372
+          ],
+          "quote": "How is AI changing the skill of influence?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 816,
+          "t": [
+            4316.777,
+            4322.98
+          ],
+          "quote": "And so it's actually an incredibly exciting place, but the act of influence, the act of stakeholder management, the act of learning...",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 817,
+          "t": [
+            4323,
+            4323.705
+          ],
+          "quote": "... active influence.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 852,
+          "t": [
+            4501.437,
+            4510.92
+          ],
+          "quote": "You are still working with millions of users, and alongside distribution is trust, and that is a function of influence and empathy.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 879,
+          "t": [
+            4687.31,
+            4698
+          ],
+          "quote": "Now that agents are a part of the workforce and increasingly, is there anything there around influence that is valuable for people to start thinking about to learn how to do?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 882,
+          "t": [
+            4715.906,
+            4727.149
+          ],
+          "quote": "I think agents are absolutely something we have to think about with relation to influence, because we are basically all directors of work now, right?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 893,
+          "t": [
+            4797.48,
+            4804.808
+          ],
+          "quote": "What's so funny about this, essentially we're helping the agent learn the skills we've been talking about to influence you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 932,
+          "t": [
+            5010.69,
+            5020.213
+          ],
+          "quote": "I think that something that has taken me a while in my career is how to be authentic to myself in influence, in relationships, in trust building.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 935,
+          "t": [
+            5031.037,
+            5041.02
+          ],
+          "quote": "I think all types of personalities can, in their own authentic way, communicate with the people around them to build trust, to build influence in the way that feels true to them.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集结尾讨论了智能体作为加速工作的“同事”，指出现在每个人都像是工作的主管，需要用这套影响他人的方法来训练智能体同事，给它们提供目标背景并设定护栏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 870,
+          "t": [
+            4637.758,
+            4639.98
+          ],
+          "quote": "Fire off a hundred agents and we'll go build it and launch it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 877,
+          "t": [
+            4676.38,
+            4681.345
+          ],
+          "quote": "Maybe one more question along these lines, just agents now running as colleagues.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 879,
+          "t": [
+            4687.31,
+            4698
+          ],
+          "quote": "Now that agents are a part of the workforce and increasingly, is there anything there around influence that is valuable for people to start thinking about to learn how to do?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 881,
+          "t": [
+            4700.641,
+            4715.066
+          ],
+          "quote": "We talk about this a lot, especially when we think about identity, security, compliance, that agents are a teammate for accelerating work, and the risks that that also provides because of the places where agents fall down.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 882,
+          "t": [
+            4715.906,
+            4727.149
+          ],
+          "quote": "I think agents are absolutely something we have to think about with relation to influence, because we are basically all directors of work now, right?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 883,
+          "t": [
+            4727.229,
+            4742.574
+          ],
+          "quote": "If we have an army of agents or this hundred new colleagues that joined our team, how would we onboard new junior team members who don't already understand our product philosophy, what's important to us, and how do we codify that for ourselves?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 900,
+          "t": [
+            4822.582,
+            4829.165
+          ],
+          "quote": "You should just feed this podcast to a bunch of agents and see if they can do this better than me, see what their advice is.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 901,
+          "t": [
+            4829.486,
+            4841.091
+          ],
+          "quote": "No, but I really think at this point we are in a place where it is a back and forth and where we should be using agents and AI as a really smart colleague that never gets irritated by our questions.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 911,
+          "t": [
+            4871.091,
+            4874.676
+          ],
+          "quote": "We'll add that to the...\" All the ideas you've shared, agents are so good at.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 920,
+          "t": [
+            4939.44,
+            4956.614
+          ],
+          "quote": "And so I think one of the ways that we actually have to use AI and agents is to help our brains be most effective, is to clear out distraction, to point out the most important things, to... And I think this is where people really need to make some tough decisions.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集在谈论使用智能体时提到，指出由于智能体会犯错或产生幻觉，我们必须明确设定护栏，界定在哪里需要人类介入、进行判断和把关。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 889,
+          "t": [
+            4778.07,
+            4780.231
+          ],
+          "quote": "But I also think the flip side of this is guardrails.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "chief-of-staff",
+      "type": "concept",
+      "role": "concept",
+      "name": "参谋长 (chief of staff)",
+      "file": "参谋长",
+      "primary": true,
+      "how_described": "本集提到这是协助高管处理核心事务的角色。嘉宾主动争取并在 Slack 担任该职位后，借此近距离观察并顿悟了高管是如何做决策的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            384.038,
+            387.96
+          ],
+          "quote": "If you'd ever consider having a chief of staff, I'd love for you to consider me.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 88,
+          "t": [
+            388.541,
+            397.619
+          ],
+          "quote": "And when I came back from that maternity leave, I came into a stint as April's chief of staff and was later chief of staff to Tamar Yehoshua who succeeded April.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1171.271,
+            1182
+          ],
+          "quote": "I can count on one hand when I was chief of staff, how many people asked me for advice before going into a product review with our CPO or our other executive team to say, \"What do you think is most important to them right now?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1182.901,
+            1191.088
+          ],
+          "quote": "Use the people around them, their EA, their chief of staff, the people who have successfully pitched ideas in the past and say, \"What worked?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1991.714,
+            1995.716
+          ],
+          "quote": "So after I was chief of staff, I took over Slack's core product team.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 758,
+          "t": [
+            3917.468,
+            3930.94
+          ],
+          "quote": "And so it is actually a really, really important tool for growth, especially ... I had told April when I originally pitched her on being our chief of staff that I wanted to take the job because I wanted to know if I wanted to be a CPO when I grew up.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "context-switching",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文切换 (context switching)",
+      "file": "上下文切换",
+      "primary": true,
+      "how_described": "本集用来描述高管极度疯狂的日程状态（比作频闪灯），他们必须不断在预算、人事、法律、产品等不同会议间频繁转换大脑状态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            516.562,
+            524.367
+          ],
+          "quote": "They are running around context switching in the most insane ways I've ever seen, and everything that comes across their plate is an emergency.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "proof-of-concept",
+      "type": "concept",
+      "role": "concept",
+      "name": "概念验证 (proof of concept)",
+      "file": "概念验证",
+      "primary": false,
+      "how_described": "本集提到的一种建立信任的战术，建议把看似充满未知、耗时的项目缩小为一星期的概念验证，以降低感知风险，帮人们克服恐惧。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 685,
+          "t": [
+            3533.353,
+            3536.395
+          ],
+          "quote": "It's a one week proof of concept.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "slackbot",
+      "type": "concept",
+      "role": "concept",
+      "name": "Slackbot",
+      "file": "Slackbot",
+      "primary": false,
+      "how_described": "本集提到的一种自动化工具，嘉宾建议可以用它来总结高管最近的发帖和关注点，从而提前了解他们在想什么。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 230,
+          "t": [
+            1199.815,
+            1203.658
+          ],
+          "quote": "You can ask Slackbot, \"What has Rachel been posting about lately?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "gantt-chart",
+      "type": "concept",
+      "role": "concept",
+      "name": "甘特图 (Gantt chart)",
+      "file": "甘特图",
+      "primary": false,
+      "how_described": "本集用来比喻过去产品经理常引以为傲的执行统筹技能；嘉宾指出，当 AI 比人更擅长做数据分析和会议记录时，甘特图不再是 PM 的核心杠杆。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 812,
+          "t": [
+            4260.171,
+            4271.096
+          ],
+          "quote": "So I think that product managers for a long time have made their careers on being the most type A, the Gantt chart master, the best note taker in the business.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "pyramid",
+      "type": "concept",
+      "role": "concept",
+      "name": "金字塔原理 (Pyramid)",
+      "file": "金字塔原理",
+      "primary": false,
+      "how_described": "本集提到的一种向高管汇报的方法，即反向呈现信息：先说结论和建议，再讲探索过程，最后放证据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 306,
+          "t": [
+            1586.797,
+            1590.82
+          ],
+          "quote": "Have you ever looked into the Minto Pyramid way of presenting stuff?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合度 (product market fit)",
+      "file": "产品市场契合度",
+      "primary": false,
+      "how_described": "本集提到由于执行难度下降，产品经理需要利用工具快速构建 V1 版本，从而更快地获得关于产品市场契合度和用户价值的信号。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 551,
+          "t": [
+            2767.04,
+            2772.622
+          ],
+          "quote": "My podcast guest and I love talking about craft and taste and agency and product market fit.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 815,
+          "t": [
+            4295.327,
+            4316.417
+          ],
+          "quote": "And I actually think it's just so incredibly exciting because PMs and other functions, engineers, designers are so empowered to bring that first version to bear to get that momentum, to get that signal on product market fit, on user benefit, and then build momentum from that point in a much faster cycle.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 885,
+          "t": [
+            4752.378,
+            4755.178
+          ],
+          "quote": "What do I believe about product market fit?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

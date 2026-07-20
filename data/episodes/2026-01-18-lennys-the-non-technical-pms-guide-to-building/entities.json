@@ -1,0 +1,1680 @@
+{
+  "episode_id": "2026-01-18-lennys-the-non-technical-pms-guide-to-building",
+  "podcast": null,
+  "date": null,
+  "tags": [
+    "AI 编程",
+    "非技术人员",
+    "产品经理工作流",
+    "模型性格化",
+    "副业构建"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            229.32,
+            238.685
+          ],
+          "quote": "Check it out at 10web.io/lenny and use code Lenny for exclusive free credits and 30% off API or white labeled solutions.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 42,
+          "t": [
+            239.146,
+            245.669
+          ],
+          "quote": "That's the number 10web.io/lenny, vibe coding platform as an API.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 49,
+          "t": [
+            281.371,
+            289.176
+          ],
+          "quote": "To learn more, visit DX's website at getdx.com/lenny, that's getdx.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 51,
+          "t": [
+            296.641,
+            297.543
+          ],
+          "quote": "Thanks for having me, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2301.233,
+            2310.899
+          ],
+          "quote": "Learn how to turn your website into a growth engine from a framer expert or get started building for free today at framer.com/lenny, that's framer.com/lenny.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "zevi-arnovitz",
+      "type": "person",
+      "role": "cohost",
+      "name": "Zevi Arnovitz",
+      "file": "Zevi Arnovitz",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            71.881,
+            73.582
+          ],
+          "quote": "Today, my guest is Zevi Arnovitz.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 31,
+          "t": [
+            165.737,
+            169.159
+          ],
+          "quote": "With that, I bring you Zevi Arnovitz after a short word from our sponsors.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "bolt",
+      "type": "company",
+      "role": "company",
+      "name": "Bolt",
+      "file": "Bolt",
+      "primary": true,
+      "how_described": "本集把它说成：一个被设定为「急于写代码的编码智能体」的早期构建工具，项目初期很爽但复杂逻辑容易出 Bug；嘉宾用它起步后觉得它替用户做的决定太多而「毕业」到 Cursor。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            11.008,
+            15.655
+          ],
+          "quote": "I remember watching a YouTube video building apps using Bolt or Lovable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 29,
+          "t": [
+            145.122,
+            161.994
+          ],
+          "quote": "And if you become an annual subscriber of my newsletter, you get 19 premium products for free for an entire year including Lovable, Replit, Bolt, Gamma, n8n, Linear, Devin, PostHog, Superhuman, Descript, Wispr Flow, Perplexity, Warp, Granola, Magic Patterns, Raycast, ChatPRD, Mobbin, and Stripe Atlas.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 76,
+          "t": [
+            389.895,
+            399
+          ],
+          "quote": "I think it was either Greg Isenberg or Riley Brown and they were basically building apps using, it was either Bolt or Lovable, just using AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 80,
+          "t": [
+            414.473,
+            422.72
+          ],
+          "quote": "And the second I got home from Japan, I didn't even unpack my bags, ran to my computer, opened Bolt, opened an account, and for the past year I've been building.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 107,
+          "t": [
+            545.881,
+            556.13
+          ],
+          "quote": "The first thing I noticed was that these products were built in a way where, and when I say these products, I mean Bolt and Lovable, were built in a way where they were super eager to write code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 138,
+          "t": [
+            734.032,
+            739.156
+          ],
+          "quote": "It was just build on these products on Lovable and Bolt, and they've progressed a ton.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 144,
+          "t": [
+            769.56,
+            795.658
+          ],
+          "quote": "I think if you see this where I'm working like in Claude or in Cursor, you might be excited to start using those, but I would really recommend starting slow with a GPT project, beautiful UI, super simple, then maybe graduate to like a Bolt or a Lovable, and then go to Cursor in light mode, slowly, slowly, gradually ease in until you open a terminal, go full dark mode, go full dev.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 153,
+          "t": [
+            829.772,
+            835.335
+          ],
+          "quote": "You said that you actually went to Bolt and Lovable kind of in the interim and then you went just straight to Cursor.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 157,
+          "t": [
+            846.745,
+            855.393
+          ],
+          "quote": "So Bolt was awesome until I was trying to connect payments to my app and I kind of started losing it and then I graduated to Cursor and I've actually fallen in love with Claude.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1886.023,
+            1895.213
+          ],
+          "quote": "You said that Lovable and Bolt and other apps in that space are just not enough to build really serious apps and you have to move to Cursor to do that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1917.451,
+            1924.656
+          ],
+          "quote": "But for me, it was basically the issue of I felt that Bolt was being very opinionated on how I should do things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1937.685,
+            1956.96
+          ],
+          "quote": "I'll run Claude within Cursor, I'll run it within Claude Code, and it's also the models that Claude is also the model that is underlying Bolt and Lovable, but basically, Bolt and Lovable will add a bunch of levels in the middle that will take all kind of guesswork and hard decisions out for the user.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1974.089,
+            1992.2
+          ],
+          "quote": "So I don't know if you can't build really amazing production apps using Bolt or Lovable now, but I think basically if you want the most cutting edge abilities of the models and you want to be able to make all the decisions on your own, it's probably best to be on one of these tools.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1993.02,
+            2000.178
+          ],
+          "quote": "What I'm feeling and hearing is that planning work that you did, that's the stuff that Lovable, Bolt, and would you put Replit in that bucket too?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2001,
+            2001
+          ],
+          "quote": "Yeah, for sure. Lovable, Bolt, Replit, Base44.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lovable",
+      "type": "company",
+      "role": "company",
+      "name": "Lovable",
+      "file": "Lovable",
+      "primary": true,
+      "how_described": "本集把它说成：与 Bolt 同类的 AI 应用构建工具，系统提示词会让 AI 急于写代码，构建严肃应用时控制力不足。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            11.008,
+            15.655
+          ],
+          "quote": "I remember watching a YouTube video building apps using Bolt or Lovable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 29,
+          "t": [
+            145.122,
+            161.994
+          ],
+          "quote": "And if you become an annual subscriber of my newsletter, you get 19 premium products for free for an entire year including Lovable, Replit, Bolt, Gamma, n8n, Linear, Devin, PostHog, Superhuman, Descript, Wispr Flow, Perplexity, Warp, Granola, Magic Patterns, Raycast, ChatPRD, Mobbin, and Stripe Atlas.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 35,
+          "t": [
+            186.43,
+            190.153
+          ],
+          "quote": "Think of it as lovable for WordPress, front end and backend.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 76,
+          "t": [
+            389.895,
+            399
+          ],
+          "quote": "I think it was either Greg Isenberg or Riley Brown and they were basically building apps using, it was either Bolt or Lovable, just using AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 107,
+          "t": [
+            545.881,
+            556.13
+          ],
+          "quote": "The first thing I noticed was that these products were built in a way where, and when I say these products, I mean Bolt and Lovable, were built in a way where they were super eager to write code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 138,
+          "t": [
+            734.032,
+            739.156
+          ],
+          "quote": "It was just build on these products on Lovable and Bolt, and they've progressed a ton.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 144,
+          "t": [
+            769.56,
+            795.658
+          ],
+          "quote": "I think if you see this where I'm working like in Claude or in Cursor, you might be excited to start using those, but I would really recommend starting slow with a GPT project, beautiful UI, super simple, then maybe graduate to like a Bolt or a Lovable, and then go to Cursor in light mode, slowly, slowly, gradually ease in until you open a terminal, go full dark mode, go full dev.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 153,
+          "t": [
+            829.772,
+            835.335
+          ],
+          "quote": "You said that you actually went to Bolt and Lovable kind of in the interim and then you went just straight to Cursor.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1886.023,
+            1895.213
+          ],
+          "quote": "You said that Lovable and Bolt and other apps in that space are just not enough to build really serious apps and you have to move to Cursor to do that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1937.685,
+            1956.96
+          ],
+          "quote": "I'll run Claude within Cursor, I'll run it within Claude Code, and it's also the models that Claude is also the model that is underlying Bolt and Lovable, but basically, Bolt and Lovable will add a bunch of levels in the middle that will take all kind of guesswork and hard decisions out for the user.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1974.089,
+            1992.2
+          ],
+          "quote": "So I don't know if you can't build really amazing production apps using Bolt or Lovable now, but I think basically if you want the most cutting edge abilities of the models and you want to be able to make all the decisions on your own, it's probably best to be on one of these tools.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1993.02,
+            2000.178
+          ],
+          "quote": "What I'm feeling and hearing is that planning work that you did, that's the stuff that Lovable, Bolt, and would you put Replit in that bucket too?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2001,
+            2001
+          ],
+          "quote": "Yeah, for sure. Lovable, Bolt, Replit, Base44.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集把它说成：一款内置 AI 的代码编辑器，是嘉宾目前主要用来构建产品的核心工具，能让用户拥有最大控制权并运行各种模型（如 Claude Code、Composer）执行代码。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            19.322,
+            22
+          ],
+          "quote": "These days, you're using Cursor with Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 11,
+          "t": [
+            41.427,
+            49.817
+          ],
+          "quote": "This tells Claude to start reviewing its own code, but what's even cooler is I have Codex as well as Cursor open.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 22,
+          "t": [
+            83.549,
+            99.96
+          ],
+          "quote": "Zevi is super young and has no technical background, but as a smart, young, ambitious person, has learned how to use Cursor and Claude Code to build significant and real products completely on his own, and he's created his own very clever and effective workflow that everyone listening can copy.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 24,
+          "t": [
+            107.726,
+            126.48
+          ],
+          "quote": "Zevi shows you how to work with cursor to quickly add your ideas to Linear to explore your idea with AI, how to develop your plan, how to then build the thing, and then have different LLMs review your code and update your documentation, and then use all of this as a learning opportunity to develop your own sense of how things work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 144,
+          "t": [
+            769.56,
+            795.658
+          ],
+          "quote": "I think if you see this where I'm working like in Claude or in Cursor, you might be excited to start using those, but I would really recommend starting slow with a GPT project, beautiful UI, super simple, then maybe graduate to like a Bolt or a Lovable, and then go to Cursor in light mode, slowly, slowly, gradually ease in until you open a terminal, go full dark mode, go full dev.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 147,
+          "t": [
+            800.041,
+            806.13
+          ],
+          "quote": "And so just to be clear, these days you're using Cursor with Claude Code powering it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 151,
+          "t": [
+            813,
+            817.663
+          ],
+          "quote": "You can do exposure therapy, and I love that Cursor is useful to you.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 152,
+          "t": [
+            818.444,
+            829.351
+          ],
+          "quote": "And what you're telling us is that graduating from a ChatGPT project that is kind of your technical co-founder kind of taught you enough to feel more comfortable going straight to cursor.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 153,
+          "t": [
+            829.772,
+            835.335
+          ],
+          "quote": "You said that you actually went to Bolt and Lovable kind of in the interim and then you went just straight to Cursor.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 154,
+          "t": [
+            835.596,
+            837.377
+          ],
+          "quote": "What's the reason to just go straight to Cursor?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 155,
+          "t": [
+            837.697,
+            842
+          ],
+          "quote": "Is it just Cursor can do everything and once you get the hang of it, it's actually the most powerful tool?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 157,
+          "t": [
+            846.745,
+            855.393
+          ],
+          "quote": "So Bolt was awesome until I was trying to connect payments to my app and I kind of started losing it and then I graduated to Cursor and I've actually fallen in love with Claude.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 158,
+          "t": [
+            855.794,
+            861.98
+          ],
+          "quote": "So I'm using Claude Code, but that also runs within Cursor, and I think this is Tal who told me this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 168,
+          "t": [
+            887.424,
+            888.253
+          ],
+          "quote": "I pulled up cursor.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 173,
+          "t": [
+            896.987,
+            898.108
+          ],
+          "quote": "Here on the right is Cursor.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 176,
+          "t": [
+            905.095,
+            907.858
+          ],
+          "quote": "And what you can see here, I'm going to close cursor for a second.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1144.123,
+            1147.185
+          ],
+          "quote": "I just want to highlight the stuff you shared right before this in cursor.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1150.167,
+            1166.017
+          ],
+          "quote": "This is essentially what you've figured out is a way as a person that has no idea how to write any code, how to build a product in Cursor as a product manager using this series of /commands that you've concocted that you're going to be sharing with listeners.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1497.474,
+            1499.94
+          ],
+          "quote": "Now the CTO's living inside here in Cursor?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1821.954,
+            1826.597
+          ],
+          "quote": "So Cursor has an amazing model called Composer, which is superfast.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1858.163,
+            1864.448
+          ],
+          "quote": "So now I think we're going to do this with Cursor just because Composer is so freaking fast.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1886.023,
+            1895.213
+          ],
+          "quote": "You said that Lovable and Bolt and other apps in that space are just not enough to build really serious apps and you have to move to Cursor to do that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1896.935,
+            1901.76
+          ],
+          "quote": "Just what's the limitation you ran into with those products and why you switched to Cursor?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1902.6,
+            1913.148
+          ],
+          "quote": "I started using Cursor and Claude Code a few months ago and I haven't looked back, but at that time, these teams have been moving like crazy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1937.685,
+            1956.96
+          ],
+          "quote": "I'll run Claude within Cursor, I'll run it within Claude Code, and it's also the models that Claude is also the model that is underlying Bolt and Lovable, but basically, Bolt and Lovable will add a bunch of levels in the middle that will take all kind of guesswork and hard decisions out for the user.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2027.158,
+            2028.359
+          ],
+          "quote": "So Cursor lets you do that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2079.954,
+            2087.279
+          ],
+          "quote": "And I'm just working on Cursor, talking to this CTO, helping you build stuff and build significant product.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2377.183,
+            2394.693
+          ],
+          "quote": "But what's even cooler and something that I'm really proud of is I will usually do multiple reviews and I'll have Codex, which is ChatGPT's competitor to Claude Code, as well as cursor open, and I will have each of them review the code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2536.053,
+            2547.96
+          ],
+          "quote": "This might be just my experience, but when I'm using Gemini within antigravity, which is Google's new competitor to Cursor, when it's writing code, you can see the steps it's taking and it's terrifying.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 568,
+          "t": [
+            2746.871,
+            2751.82
+          ],
+          "quote": "And again, all this stuff is going to be available where people can just plug this stuff into their Cursor account and use it themselves.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 611,
+          "t": [
+            2954.55,
+            2961.355
+          ],
+          "quote": "As a product manager, you're building a product in Cursor using all of these different AI models.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 624,
+          "t": [
+            3022.669,
+            3023.469
+          ],
+          "quote": "I open up cursor.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 655,
+          "t": [
+            3145.521,
+            3154.231
+          ],
+          "quote": "So your advice here is as a PM, maybe don't go right to Cursor, start building, shipping, trying to ship features to production, especially complicated features.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 698,
+          "t": [
+            3474.869,
+            3480.893
+          ],
+          "quote": "And also Cursor has a /command called deslop, which is basically going back over the code.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集把它说成：嘉宾在 Cursor 中运行的智能体（充当其「CTO」或开发主管），负责探索代码库、生成计划、执行写代码并自我审查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            19.322,
+            22
+          ],
+          "quote": "These days, you're using Cursor with Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 22,
+          "t": [
+            83.549,
+            99.96
+          ],
+          "quote": "Zevi is super young and has no technical background, but as a smart, young, ambitious person, has learned how to use Cursor and Claude Code to build significant and real products completely on his own, and he's created his own very clever and effective workflow that everyone listening can copy.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 147,
+          "t": [
+            800.041,
+            806.13
+          ],
+          "quote": "And so just to be clear, these days you're using Cursor with Claude Code powering it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 158,
+          "t": [
+            855.794,
+            861.98
+          ],
+          "quote": "So I'm using Claude Code, but that also runs within Cursor, and I think this is Tal who told me this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 175,
+          "t": [
+            903.013,
+            904.595
+          ],
+          "quote": "And here in the middle, I have Claude Code running.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1519.361,
+            1520.444
+          ],
+          "quote": "So it's basically it's Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1902.6,
+            1913.148
+          ],
+          "quote": "I started using Cursor and Claude Code a few months ago and I haven't looked back, but at that time, these teams have been moving like crazy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1937.685,
+            1956.96
+          ],
+          "quote": "I'll run Claude within Cursor, I'll run it within Claude Code, and it's also the models that Claude is also the model that is underlying Bolt and Lovable, but basically, Bolt and Lovable will add a bunch of levels in the middle that will take all kind of guesswork and hard decisions out for the user.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1963.444,
+            1973.529
+          ],
+          "quote": "And basically Claude Code is just taking Claude and shoving it straight in your code system and giving it full tools and to do whatever it wants, but also with that comes a lot of decisions that you need to make.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2332.957,
+            2335.94
+          ],
+          "quote": "So what I'll do is I'll reopen Claude Code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2377.183,
+            2394.693
+          ],
+          "quote": "But what's even cooler and something that I'm really proud of is I will usually do multiple reviews and I'll have Codex, which is ChatGPT's competitor to Claude Code, as well as cursor open, and I will have each of them review the code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 528,
+          "t": [
+            2597.352,
+            2602.155
+          ],
+          "quote": "Sometimes Claude Code will get really sassy and be like, \"This has been raised for the third time.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "base44",
+      "type": "company",
+      "role": "company",
+      "name": "Base44",
+      "file": "Base44",
+      "primary": true,
+      "how_described": "本集把它说成：一个能消除复杂猜测工作、开箱即用处理登录和数据库的 vibe coding 工具，嘉宾曾在里面做网页小游戏来训练产品经理的用户细分能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 403,
+          "t": [
+            2001,
+            2001
+          ],
+          "quote": "Yeah, for sure. Lovable, Bolt, Replit, Base44.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2031.593,
+            2032.095
+          ],
+          "quote": "Base44, let's say.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2033.641,
+            2050.455
+          ],
+          "quote": "Base44 does an amazing job at basically taking all the complex guesswork out of building product and just allows you to just go with the vibes and build, but it will do sign in with Google for you and it will do a database, but then you don't have decisions on what database am I using.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2057.226,
+            2059.819
+          ],
+          "quote": "Shout out Maor, the founder of Base44.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 722,
+          "t": [
+            3583.328,
+            3592.575
+          ],
+          "quote": "Also, I created a game in Base44, which helped me ... I was really struggling with segmentation within the product questions, so thinking of the correct segments.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "linear",
+      "type": "company",
+      "role": "company",
+      "name": "Linear",
+      "file": "Linear",
+      "primary": true,
+      "how_described": "本集把它说成：项目协同软件，嘉宾通过 AI 技术让 Cursor 直接在其中自动生成格式清晰的待办任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            107.726,
+            126.48
+          ],
+          "quote": "Zevi shows you how to work with cursor to quickly add your ideas to Linear to explore your idea with AI, how to develop your plan, how to then build the thing, and then have different LLMs review your code and update your documentation, and then use all of this as a learning opportunity to develop your own sense of how things work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 29,
+          "t": [
+            145.122,
+            161.994
+          ],
+          "quote": "And if you become an annual subscriber of my newsletter, you get 19 premium products for free for an entire year including Lovable, Replit, Bolt, Gamma, n8n, Linear, Devin, PostHog, Superhuman, Descript, Wispr Flow, Perplexity, Warp, Granola, Magic Patterns, Raycast, ChatPRD, Mobbin, and Stripe Atlas.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 181,
+          "t": [
+            932.801,
+            942.669
+          ],
+          "quote": "And then it basically says, this is the format that I want you to capture the linear issue in, and it explains a bunch of things what exactly Claude needs to do to get there.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 187,
+          "t": [
+            976.354,
+            985.64
+          ],
+          "quote": "So this is the create issue /command, which basically tells Claude that I'm mid-development and it should quickly capture what I'm thinking about and create an issue within linear.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 190,
+          "t": [
+            996.449,
+            999.611
+          ],
+          "quote": "It could either pull from linear or I can just speak freely to it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1197.188,
+            1201.118
+          ],
+          "quote": "So one is create an issue in Linear, which I love.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1201.158,
+            1201.539
+          ],
+          "quote": "Linear is awesome.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1201.559,
+            1201.9
+          ],
+          "quote": "Shout out Linear.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1207.663,
+            1209.365
+          ],
+          "quote": "So step one is create the issue in linear.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1272.08,
+            1275.742
+          ],
+          "quote": "So just ask some brief questions so that you have enough to capture within linear.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1342.833,
+            1344.555
+          ],
+          "quote": "So this is connected to my linear.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1344.975,
+            1349.159
+          ],
+          "quote": "So what it's going to do now is it's going to use everything we've said and create an issue within Linear.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1387.096,
+            1393.179
+          ],
+          "quote": "So if we open up Linear now, we should be able to see ... Let's see where STU88.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1439.973,
+            1447.177
+          ],
+          "quote": "So I can say here, Linear STU88, which is referencing the ticket.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1447.758,
+            1452
+          ],
+          "quote": "And now what it's going to do is it's going to go, it's going to fetch the Linear ticket.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 318,
+          "t": [
+            1547.661,
+            1557.97
+          ],
+          "quote": "One last question before we move on here, just because I'm thinking about it as this happens, the Linear issue that you generated, how often is it actually great and ready?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1559.852,
+            1562.275
+          ],
+          "quote": "What's the quality of the Linear ticket that it generates?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1562.295,
+            1567.139
+          ],
+          "quote": "Because a lot of people are probably wondering just like all these terrible linear issues are being created by AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1586.24,
+            1594.93
+          ],
+          "quote": "I don't want to say that I would create Linear issues at work like this, but definitely if you're building your own side project, they're pretty quality.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 668,
+          "t": [
+            3244.637,
+            3247.299
+          ],
+          "quote": "Are these Linear tickets or just products that are half-baked?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集把它说成：Anthropic 创建的一种技术，赋予 AI 使用外部工具的能力（例如让 Claude 直接连接到 Linear 自动创建任务）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 274,
+          "t": [
+            1330.701,
+            1342.613
+          ],
+          "quote": "So now basically what Claude is going to do is it's going to use MCP, which is basically a technology that was created by Anthropic, which gives AI the ability to use tools.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成：接到指令就直接写代码的程序（如 coding agent），嘉宾强调随工具发展，同一个智能体已能包揽探索、计划和执行全套流程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            556.771,
+            559.193
+          ],
+          "quote": "So their system prompt was you're a coding agent.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 112,
+          "t": [
+            583.694,
+            585.876
+          ],
+          "quote": "If the coding agent is just like, \"All right, I got it.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1513.594,
+            1518.76
+          ],
+          "quote": "The same agent will both do the exploration and write the plan and end up executing the code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1844.612,
+            1852.979
+          ],
+          "quote": "And also going forward, it's really good to have within the app so that later on, if an agent is writing code in a certain area, I can see what's already been done there.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2401.797,
+            2407
+          ],
+          "quote": "And basically what it does is it's going to take Claude, which is usually the agent who I'm working with.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 746,
+          "t": [
+            3703.855,
+            3708.358
+          ],
+          "quote": "And I had the agent run all kinds of analyses on what the most asked questions are.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "system-prompt",
+      "type": "concept",
+      "role": "concept",
+      "name": "系统提示词 (system prompt)",
+      "file": "系统提示词",
+      "primary": true,
+      "how_described": "本集把它说成：决定 AI 角色和约束的基础指令，如告诉 GPT「你是项目的 CTO，全权决定怎么构建并挑战我」，以避免常规 ChatGPT 顺着用户胡言乱语的毛病。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            556.771,
+            559.193
+          ],
+          "quote": "So their system prompt was you're a coding agent.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1073.907,
+            1086.913
+          ],
+          "quote": "And basically what happens behind the scenes is we send the information the user uploaded along with the system prompt and any other augmentations the users decided to Gemini and we create a quiz.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1172.001,
+            1181.889
+          ],
+          "quote": "Basically what happened was I formulated the backbone of this with the CTO, and it was basically within the system prompt of the CTO project that I had within GPT.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1526.801,
+            1540.173
+          ],
+          "quote": "Yeah, so within the Claude.md, which is basically the system prompt that's loaded within Claude's context in every conversation, I have some basic stuff like this is our workflow, this is how we work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1666.04,
+            1679.753
+          ],
+          "quote": "So it's asking about the scope, it's asking about the data model, the UX/UI of the feature, how it should be validated, how it should be graded, what changes need to be happened to the AI system prompt and all kinds of questions about the app.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2791.16,
+            2803.488
+          ],
+          "quote": "So when Claude will fail to do something or I'll see this really bad bug that shows that Claude really didn't understand something, I'll ask it, \"What in your system prompt or tooling made you make this mistake?\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码审查 (code review)",
+      "file": "代码审查",
+      "primary": true,
+      "how_described": "本集把它说成：非技术人员用 AI 构建产品时面临的最大挑战，嘉宾通过让不同大模型互相「同行评审」、彼此挑刺来解决看不懂代码的问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 539,
+          "t": [
+            2639.551,
+            2649.639
+          ],
+          "quote": "So Codex has a built-in code review that you can do, or I just like to say review all the code in this branch.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 562,
+          "t": [
+            2732.243,
+            2738.799
+          ],
+          "quote": "What a clever solution to solving this code review problem where it's like, I don't know what you ... I don't know how to recode, so what am I going to even ... Yeah.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 603,
+          "t": [
+            2913.562,
+            2921.027
+          ],
+          "quote": "Basically, just to wrap this up, what I do is I do a bunch of code review and then update the documentation so that everything is documented.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集把它说成：一种「随氛围编码」的模式，Bolt/Lovable 等工具很适合快速起步，但区别于构建严肃应用，缺乏严谨规划会带来麻烦。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            177.405,
+            182.268
+          ],
+          "quote": "In the last three years, over two million websites have been generated with 10Web's vibe coding platform.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 34,
+          "t": [
+            182.868,
+            186.09
+          ],
+          "quote": "10Web's vibe coding platform is a powerful way to build websites.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 42,
+          "t": [
+            239.146,
+            245.669
+          ],
+          "quote": "That's the number 10web.io/lenny, vibe coding platform as an API.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 59,
+          "t": [
+            323,
+            327.687
+          ],
+          "quote": "Zevi is the most hands-on vibe coding PM I know, and I've personally learned so much from him.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1698.16,
+            1705.546
+          ],
+          "quote": "Yeah, and I think this is the big difference between just vibe coding and going along with the vibes and really building serious apps.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2774.171,
+            2780.655
+          ],
+          "quote": "And at the beginning when I started vibe coding, I would basically just keep running at it like running at the wall and until it worked.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "gpt",
+      "type": "company",
+      "role": "company",
+      "name": "GPT",
+      "file": "GPT",
+      "primary": false,
+      "how_described": "本集把它说成：一个因「太讨好人」而容易顺着用户糟糕想法胡言乱语的 AI，但它的 Codex 模型被比作专修严重 Bug 的最强程序员。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            480.573,
+            482.699
+          ],
+          "quote": "I love projects, GPT projects.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 99,
+          "t": [
+            484.541,
+            493.366
+          ],
+          "quote": "GPT projects and Claude projects, which are basically a shared folder of chats which share both custom instructions and shared knowledge base.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 100,
+          "t": [
+            494.386,
+            505.713
+          ],
+          "quote": "And I think it was around when GPT started using memory where I thought it was interesting, but it really annoyed me because I do a bunch of different things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 103,
+          "t": [
+            519.04,
+            526.386
+          ],
+          "quote": "So like I talked to GPT about running and it would say, \"Oh yeah, after this 5K, you're going to crush all your next product reviews.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 126,
+          "t": [
+            654,
+            670.552
+          ],
+          "quote": "So I was talking to GPT and this wasn't within my co-founder CTO project and I asked it if it's similar to a different framework that I have in my app called Zustand, which nothing to do at all with what Bun JavaScript does.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 127,
+          "t": [
+            671.032,
+            674.555
+          ],
+          "quote": "And basically GPT goes, \"Oh yeah, it's exactly the same.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 137,
+          "t": [
+            720.621,
+            733.791
+          ],
+          "quote": "So now I'll show my full workflow and I don't involve GPT anymore, but I definitely would recommend, even though the technology has gone ... So when I started this, there was no plan mode or ask mode.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 144,
+          "t": [
+            769.56,
+            795.658
+          ],
+          "quote": "I think if you see this where I'm working like in Claude or in Cursor, you might be excited to start using those, but I would really recommend starting slow with a GPT project, beautiful UI, super simple, then maybe graduate to like a Bolt or a Lovable, and then go to Cursor in light mode, slowly, slowly, gradually ease in until you open a terminal, go full dark mode, go full dev.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1172.001,
+            1181.889
+          ],
+          "quote": "Basically what happened was I formulated the backbone of this with the CTO, and it was basically within the system prompt of the CTO project that I had within GPT.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2491.123,
+            2495.086
+          ],
+          "quote": "I don't know, they're not the best at naming models, but GPT's model.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2686.548,
+            2689.051
+          ],
+          "quote": "I think GPT probably will take a bunch of time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 632,
+          "t": [
+            3037.04,
+            3037.821
+          ],
+          "quote": "And like I said, just start at GPT.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 633,
+          "t": [
+            3037.841,
+            3044.268
+          ],
+          "quote": "Start on GPT, tell it what your idea is, tell it to explain to you what are even the first steps of thinking, what are the decisions you need to make?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "gemini",
+      "type": "company",
+      "role": "company",
+      "name": "Gemini",
+      "file": "Gemini",
+      "primary": false,
+      "how_described": "本集把它说成：一个像疯狂科学家的模型，工作过程像过山车一样可怕（动不动想删除整个仪表板），但最终能设计出非常惊艳的东西。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 206,
+          "t": [
+            1073.907,
+            1086.913
+          ],
+          "quote": "And basically what happens behind the scenes is we send the information the user uploaded along with the system prompt and any other augmentations the users decided to Gemini and we create a quiz.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1831.54,
+            1835.044
+          ],
+          "quote": "Gemini 3 that just came out is unbelievable at UI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1835.104,
+            1842.05
+          ],
+          "quote": "So a lot of times, I'll split the plan into backend and front end, and then I'll have Gemini just read the plan and do the front end.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2070.906,
+            2073.829
+          ],
+          "quote": "Slinging models like Gemini 3 for frontend.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2074.109,
+            2079.873
+          ],
+          "quote": "I love that you've never written any code and you're just like, \"Cool, use Gemini for this and Claude for this.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2523.705,
+            2533.791
+          ],
+          "quote": "And let's say Gemini is like a crazy scientist who's super artsy, super talented at designing, but if you sit next to it and watch it work, it's terrifying.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2536.053,
+            2547.96
+          ],
+          "quote": "This might be just my experience, but when I'm using Gemini within antigravity, which is Google's new competitor to Cursor, when it's writing code, you can see the steps it's taking and it's terrifying.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2569.376,
+            2574.64
+          ],
+          "quote": "So the way there is a rollercoaster and very scary, but at the end of the day, Gemini is very good at design.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "composer",
+      "type": "concept",
+      "role": "concept",
+      "name": "Composer",
+      "file": "Composer",
+      "primary": false,
+      "how_described": "本集把它说成：Cursor 里的一个速度极快的模型，非常适合用来快速执行写代码的任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 371,
+          "t": [
+            1821.954,
+            1826.597
+          ],
+          "quote": "So Cursor has an amazing model called Composer, which is superfast.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1827.278,
+            1831
+          ],
+          "quote": "So a lot of things that are not that complex, I'll use Composer.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1858.163,
+            1864.448
+          ],
+          "quote": "So now I think we're going to do this with Cursor just because Composer is so freaking fast.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1872.074,
+            1874.176
+          ],
+          "quote": "And Composer is ridiculously fast.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2187.367,
+            2201.5
+          ],
+          "quote": "So now what we're going to do is we're going to run the app locally and we'll be able to see what Composer ended up building and we're going to see if anything else is needed on our end to maybe do some manual review.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2211.545,
+            2217.115
+          ],
+          "quote": "No, Composer like the one thing is it's just so, so blazing fast, keeps you in flow.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2656.864,
+            2662.748
+          ],
+          "quote": "And then I'll do this with Composer say with, let's do it with Composer One.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2684.446,
+            2686.528
+          ],
+          "quote": "Here, you can see how fast Composer is.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集把它说成：GPT 的代码模型，被想象成穿着连帽衫坐在黑屋子的最强程序员，不善沟通但能关上门两小时修好最难搞的 Bug。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            41.427,
+            49.817
+          ],
+          "quote": "This tells Claude to start reviewing its own code, but what's even cooler is I have Codex as well as Cursor open.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2377.183,
+            2394.693
+          ],
+          "quote": "But what's even cooler and something that I'm really proud of is I will usually do multiple reviews and I'll have Codex, which is ChatGPT's competitor to Claude Code, as well as cursor open, and I will have each of them review the code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2468.649,
+            2486
+          ],
+          "quote": "She's very opinionated, but also super collaborative, which is I think why I'm always drawn to Claude because I need to do so much learning and it's your dream, a very communicative, but very opinionated dev lead, but then there's also Codex.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2486.1,
+            2491.103
+          ],
+          "quote": "So I use Codex 5.1 Max, whatever.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 539,
+          "t": [
+            2639.551,
+            2649.639
+          ],
+          "quote": "So Codex has a built-in code review that you can do, or I just like to say review all the code in this branch.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "LLM",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

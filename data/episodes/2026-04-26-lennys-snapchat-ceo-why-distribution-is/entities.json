@@ -1,0 +1,1990 @@
+{
+  "episode_id": "2026-04-26-lennys-snapchat-ceo-why-distribution-is",
+  "podcast": null,
+  "date": null,
+  "tags": [
+    "社交产品",
+    "护城河",
+    "创新与组织设计",
+    "AR 硬件",
+    "AI 时代的协作"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            134.004,
+            146.335
+          ],
+          "quote": "Before we get into it, don't forget to check out Lenny'sproductpass.com for a year free of the hottest and most well-crafted AI products in the world available exclusively to Lenny's newsletter subscribers.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 354,
+          "t": [
+            2072.013,
+            2074.495
+          ],
+          "quote": "Learn more at vanta.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 356,
+          "t": [
+            2078.698,
+            2080.92
+          ],
+          "quote": "That's vanta.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 763,
+          "t": [
+            4199.394,
+            4199.838
+          ],
+          "quote": "Thanks, Lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "evan-spiegel",
+      "type": "person",
+      "role": "cohost",
+      "name": "Evan Spiegel",
+      "file": "Evan Spiegel",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            70.64,
+            73.943
+          ],
+          "quote": "Today, my guest is Evan Spiegel, CEO and co-founder of Snap.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 28,
+          "t": [
+            146.855,
+            148.797
+          ],
+          "quote": "With that, I bring you Evan Spiegel.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "snap",
+      "type": "company",
+      "role": "company",
+      "name": "Snap",
+      "file": "Snap",
+      "primary": true,
+      "how_described": "本集讨论的公司主体， Evan Spiegel 在此复盘了过去 15 年做 Snapchat 的经验，并强调公司正处在向 AR 眼镜转型的「关键时刻」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            16.12,
+            24.699
+          ],
+          "quote": "I feel like Snap has always been punching above its weight in terms of just how much new stuff comes out of your team, stories, AR glasses, swipe-based navigation.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 17,
+          "t": [
+            70.64,
+            73.943
+          ],
+          "quote": "Today, my guest is Evan Spiegel, CEO and co-founder of Snap.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 126,
+          "t": [
+            598.842,
+            610.326
+          ],
+          "quote": "So I think in many ways it's a blessing that we've been able to continue to innovate to make new things that really resonate with folks and that ultimately people want to end up copying from Snap.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 130,
+          "t": [
+            644.12,
+            657.488
+          ],
+          "quote": "One of the first things we did was focus a lot on building ecosystems, whether those are the relationships between creators and Snap-chatters, whether that's the platform we built around augmented reality where developers have built millions of these lenses.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1080.464,
+            1092.714
+          ],
+          "quote": "I feel like Snap has always been punching above its weight in terms of just how much new stuff comes out of your team, how many inventions happen considering the size of the company and the history.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1111.804,
+            1117.747
+          ],
+          "quote": "And actually when I read it, I was like, \"Oh my gosh, that kind of explains a lot of how we think about innovation at Snap.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1118.007,
+            1133.413
+          ],
+          "quote": "And I think to summarize the academic version, we can talk about what we've developed and built at Snap, but to summarize, essentially his findings are that basically if you want to deliver a product at scale, you usually need quite a large organization.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1251.914,
+            1257.056
+          ],
+          "quote": "And so when I read that, I was like, wow, that actually sounds quite similar to what we have at Snap.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1277.827,
+            1291.477
+          ],
+          "quote": "And I think the beauty of what I love about Snap is that the dialogue between those two teams is where a lot of that innovation happens because a lot of our engineers working to serve our customers or working on reliability have a bunch of great ideas and so do our designers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1346.48,
+            1352.923
+          ],
+          "quote": "I mean, I think it's an important part of it, but a lot of how we built Snap was modeled actually on mine and Bobby's original relationship, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1795.4,
+            1813.515
+          ],
+          "quote": "And one of the things we invented that at the time, we figured out a way, we realized that if you were pressing and holding to open a snap and left your finger on the screen and you took a screenshot, it would basically trigger an event on the phone essentially that made ...",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1864.765,
+            1871.788
+          ],
+          "quote": "Something that is also really, I'd say famous in the PM community about Snap is you guys waited a long time to hire product managers.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1882.974,
+            1891.179
+          ],
+          "quote": "I'm curious if you think that was a mistake waiting that long and just your current thoughts on product managers, just like how they fit into Snap.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1927.252,
+            1947.82
+          ],
+          "quote": "And I absolutely did not want that type of culture to take root because again, as I mentioned, we modeled a lot of the way that we develop products here at Snap on that early relationship between myself and Bobby, really this harmonious relationship between design and engineering and how important that is, that dialogue is to building great things and great products.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2142.523,
+            2150.268
+          ],
+          "quote": "And that's a really big and really meaningful change in terms of the way that the design works here at Snap and the way the creative process works.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2233.31,
+            2245
+          ],
+          "quote": "And I think for us at Snap, having design really actually be that bottleneck in terms of helping to manage what we're shipping and what it looks like and how it all works together, I think is really important.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2285.928,
+            2300.235
+          ],
+          "quote": "And so I think for me, in addition to all the great people I get to work with here at Snap, the thing that wakes me up with a smile on my face every morning, the reason why I'm skipping to work is because I am in the weeds on what we're building and shipping to our community.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2518.761,
+            2525.868
+          ],
+          "quote": "So as I was preparing for this chat, I talked to a bunch of people that worked at Snap over the years and I've integrated their ideas throughout already.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2552.227,
+            2557.289
+          ],
+          "quote": "And so, one of the things that we do that's different at Snap is your first day that you join the design team, you present work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2638.549,
+            2644.452
+          ],
+          "quote": "It's really exciting, I think at Snap, to be able to work across all of these highly engaged product services.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2822.433,
+            2835.078
+          ],
+          "quote": "We have a system at Snap where on the internal version of the app, you can shake to report your problem and agents now debug exactly what happened, what went wrong and can actually suggest a fix.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2865.991,
+            2881.277
+          ],
+          "quote": "So getting really, really basic and straightforward on, okay, for Snap-chatters, our jobs to be done, it's as simple as like get people to download the app, get them to add their close friends, get them to, I don't know, use lenses, something like that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2934.984,
+            2937.768
+          ],
+          "quote": "It's been 15 years since you've been working on Snap.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 550,
+          "t": [
+            3204.289,
+            3208.831
+          ],
+          "quote": "So I think if I just wanted to work on product, I would pick a different job at Snap.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 555,
+          "t": [
+            3249.38,
+            3257.324
+          ],
+          "quote": "So kind of along those lines, you put out this letter, I think it was the end of last year where you described this coming year as the crucible moment for Snap.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 572,
+          "t": [
+            3374.655,
+            3382
+          ],
+          "quote": "So it's a real turning point for Snap that's really exciting, but it's definitely an all hands on deck moment for the company.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 573,
+          "t": [
+            3382.642,
+            3384.948
+          ],
+          "quote": "You had a really interesting way of describing Snap in the market.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 574,
+          "t": [
+            3384.968,
+            3386.994
+          ],
+          "quote": "You called Snap the middle child.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 583,
+          "t": [
+            3443.405,
+            3456.492
+          ],
+          "quote": "We've worked on developing the platform for so long, but without something that you can really play with and hang onto and use yourself, it's hard to really understand the next chapter of Snap's journey.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 585,
+          "t": [
+            3465.317,
+            3471.94
+          ],
+          "quote": "And so I think this is a moment and a year when Snap is really going to define itself, and I'm really excited about that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 637,
+          "t": [
+            3687.08,
+            3695.205
+          ],
+          "quote": "Well, one of the things that I really love about AI, at Snap, I've got access to all of our dashboards and documents and data.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 663,
+          "t": [
+            3836.04,
+            3841.418
+          ],
+          "quote": "We've been using Claude to do a lot of the work across Snap.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "snapchat",
+      "type": "company",
+      "role": "company",
+      "name": "Snapchat",
+      "file": "Snapchat",
+      "primary": true,
+      "how_described": "本集说是过去 15 年里极少数存活下来的持久社交消费应用，目前拥有近十亿月活，通过 Stories、截图检测等创新深刻改变了行业",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            81.808,
+            88.472
+          ],
+          "quote": "In the 15 years since Snapchat launched, there are essentially zero social consumer apps that have launched and stuck around.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 20,
+          "t": [
+            88.953,
+            95.057
+          ],
+          "quote": "Snapchat has over one billion monthly active users, is generating over $6 billion a year in revenue.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 21,
+          "t": [
+            95.277,
+            99.96
+          ],
+          "quote": "People post over eight billion AR lens photos a day on Snapchat.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 38,
+          "t": [
+            185.693,
+            189.755
+          ],
+          "quote": "Basically, nothing else has worked other than Snapchat 15 years ago.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 47,
+          "t": [
+            215.366,
+            221.148
+          ],
+          "quote": "We were so fortunate when we created Snapchat, the mobile phone and the app store were just getting started.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 50,
+          "t": [
+            227.371,
+            230.372
+          ],
+          "quote": "Instagram, I think it started a year before Snapchat or something like that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 65,
+          "t": [
+            291.2,
+            311
+          ],
+          "quote": "So as I reflect on the early days of building Snapchat, the thing that we figured out in terms of distribution, especially when it comes to social, was that back then people believed that there were network effects and social networks that meant that the more people you had using the service, the stickier that it is.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 67,
+          "t": [
+            317.363,
+            327.948
+          ],
+          "quote": "And what Snapchat figured out that was, I think, different was that despite the fact that there were much bigger networks that connected more people, what really mattered was connecting you to the right people.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 88,
+          "t": [
+            407.766,
+            421.194
+          ],
+          "quote": "You think about a lot of the big consumer technology companies today, they were really born out of mobile, whether it's Uber, Snapchat, some of those early generation companies that really got distribution and built themselves on mobile.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 106,
+          "t": [
+            520.36,
+            526.904
+          ],
+          "quote": "Something that has always been really interesting to me about Snapchat is it feels like you guys have just innovated so much over the years.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 119,
+          "t": [
+            565.349,
+            571.056
+          ],
+          "quote": "Yeah, I think we just hit 25 million subscribers on Snapchat plus more than a billion revenue run rate.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 166,
+          "t": [
+            843.8,
+            846.441
+          ],
+          "quote": "And that's something that we realized early on with Snapchat.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1590.184,
+            1593.606
+          ],
+          "quote": "It's so annoying to select everybody on my list of friends and Snapchat.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1618.356,
+            1626.32
+          ],
+          "quote": "I actually love the way that Snapchat allows me to just express myself and share with my friends without that sort of judgment and pressure.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1717.28,
+            1729.548
+          ],
+          "quote": "It was iterative because in a lot of ways, some of the early ideas started more around a status update that was sort of like, how could you know what your friends on Snapchat were up to even if you weren't sending Snaps back and forth?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1759.08,
+            1770.026
+          ],
+          "quote": "One of my favorite stories was around screenshot detection actually in the early days because when we first built Snapchat and we shared with people, \"Oh, you could send photos that disappear.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1844.314,
+            1856
+          ],
+          "quote": "And I think that that early invention was one of the first things that really got a lot of traction in the early days and I think helped Snapchat spread as a new way of communicating.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1857.821,
+            1861.043
+          ],
+          "quote": "I can't imagine Snapchat existing without you figuring that out.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2150.308,
+            2170
+          ],
+          "quote": "And so I think removing friction from the creative process and being able to go from idea to impact at the scale of almost a billion people using Snapchat is really empowering and exciting for designers who feel like these tools maybe level the playing field to some extent for creative people.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 551,
+          "t": [
+            3208.851,
+            3227.157
+          ],
+          "quote": "But I think because I really like leading our company and leading the direction and strategy for the business, and because I see a huge opportunity in transforming the way that people use computing in the future, both through Snapchat, but also with specs, I think this is the right role for me right now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 568,
+          "t": [
+            3321.73,
+            3343.378
+          ],
+          "quote": "And so I think this is the year that we have to prove that Snapchat can be a really strong, profitable business, that it continues to grow both in terms of the reach of our audience and their engagement with new products, whether it's topic chats or spotlight, or I think we've got 200 million people playing games every month on Snapchat now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 569,
+          "t": [
+            3343.398,
+            3348.499
+          ],
+          "quote": "So gaming is becoming a big part of the engagement drivers on Snapchat.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 588,
+          "t": [
+            3482.372,
+            3488.279
+          ],
+          "quote": "Having built Snapchat and then also specs, just how do you think about devices and your kids?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 608,
+          "t": [
+            3569.909,
+            3578.816
+          ],
+          "quote": "And then with the 15-year-old, he is all in on technology, whether he's using it for school or whether he's using it to talk with his friends or using Snapchat.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 627,
+          "t": [
+            3652.181,
+            3660.532
+          ],
+          "quote": "Snapchat has always been really good at allowing you to create and feel like a superstar, just create all these really crazy lenses and filters and all these things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 687,
+          "t": [
+            3952.092,
+            3962.8
+          ],
+          "quote": "And I love, I guess that's like a benefit of Snapchat is it makes like you guys have been in AI for a very long time and it shows you the playfulness of it all and it doesn't have to be that serious.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "specs",
+      "type": "concept",
+      "role": "concept",
+      "name": "Specs",
+      "file": "Specs",
+      "primary": true,
+      "how_described": "Snap 即将发布的 AR 眼镜，本集说它能将数字内容直接锚定在真实的物理空间中，让人腾出双手在现实里互动，以取代低头看手机的孤立感",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 150,
+          "t": [
+            775.176,
+            776.337
+          ],
+          "quote": "And then you have specs coming out.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 151,
+          "t": [
+            776.378,
+            778.96
+          ],
+          "quote": "Is it specs or spectacles the name of what's coming out today, by the way?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 152,
+          "t": [
+            779.02,
+            779.939
+          ],
+          "quote": "Specs is coming out this year.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 153,
+          "t": [
+            780.041,
+            780.184
+          ],
+          "quote": "Specs.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 174,
+          "t": [
+            914.506,
+            928.133
+          ],
+          "quote": "And then with the last generation in 2024, we released our operating system, which now allows developers to build full featured software inside of specs in preparation for the consumer launch.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 184,
+          "t": [
+            960.82,
+            964.483
+          ],
+          "quote": "So I got an early preview of the specs and it's extremely cool.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 192,
+          "t": [
+            993.9,
+            1011.366
+          ],
+          "quote": "I do think social norms will play a big role, but I also think one of the things people experience with AR, specs, unlike these heads up display glasses, they don't just put an annoying little screen that's stuck to your face on the glasses.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1041.716,
+            1055
+          ],
+          "quote": "I think what is going to be really important with specs is showing people all of the incredible new ways they can hang out and connect together with their friends wearing specs, but I don't think it'll be disruptive or notification based or something like that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 551,
+          "t": [
+            3208.851,
+            3227.157
+          ],
+          "quote": "But I think because I really like leading our company and leading the direction and strategy for the business, and because I see a huge opportunity in transforming the way that people use computing in the future, both through Snapchat, but also with specs, I think this is the right role for me right now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 567,
+          "t": [
+            3304.965,
+            3321.71
+          ],
+          "quote": "It's about to launch specs after 12 years of investment in this future computing platform, but at the same time, it's still not net income profitable, for example, because we've been investing so heavily in the future and making the choice to do that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 570,
+          "t": [
+            3350.02,
+            3355.904
+          ],
+          "quote": "And the reason why that's so important is that it's going to be very hard for us to win long-term in specs without a really solid foundation.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 582,
+          "t": [
+            3433.16,
+            3443.345
+          ],
+          "quote": "And I think one of the things that will play an important role in that is getting specs out to consumers because I think right now we've talked so long about the role that specs will play in the world.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 588,
+          "t": [
+            3482.372,
+            3488.279
+          ],
+          "quote": "Having built Snapchat and then also specs, just how do you think about devices and your kids?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 615,
+          "t": [
+            3611.508,
+            3614.249
+          ],
+          "quote": "Our beta testers for specs, which is really fun.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "tiktok",
+      "type": "company",
+      "role": "company",
+      "name": "TikTok",
+      "file": "TikTok",
+      "primary": true,
+      "how_described": "本集把它作为少数成功突围的新社交/媒体平台的代表，指出它靠的是「用数十亿美元补贴双边市场」这种用钱搞定分发的创新策略",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            170.366,
+            178.73
+          ],
+          "quote": "And just to give people this context, I don't think people realize this, but since you launched 15 years ago, there's basically TikTok, which is not really social.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 45,
+          "t": [
+            201.12,
+            210.584
+          ],
+          "quote": "Well, I think it's really interesting in terms of the examples that you just shared of TikTok and threads, because you just shared two examples of people who figured out distribution.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 55,
+          "t": [
+            242.837,
+            249
+          ],
+          "quote": "And both TikTok and Threads figured out distribution, which is why I think there are more recent examples of success.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 56,
+          "t": [
+            249.1,
+            252.342
+          ],
+          "quote": "TikTok did it with money, which I actually thought was really innovative.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "distribution",
+      "type": "concept",
+      "role": "concept",
+      "name": "分发 (distribution)",
+      "file": "分发",
+      "primary": true,
+      "how_described": "本集把它视为新时代最大的护城河与挑战，指出做消费产品不能只盯产品本身，因为 AI 帮你写代码做产品，但在如何把产品送到用户手上这件事上帮不了你太多",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            12.05,
+            16
+          ],
+          "quote": "People don't spend nearly enough time thinking about distribution and figuring out distribution.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 45,
+          "t": [
+            201.12,
+            210.584
+          ],
+          "quote": "Well, I think it's really interesting in terms of the examples that you just shared of TikTok and threads, because you just shared two examples of people who figured out distribution.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 53,
+          "t": [
+            235.875,
+            239.476
+          ],
+          "quote": "It's a lot harder to get distribution for new ideas and new services.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 55,
+          "t": [
+            242.837,
+            249
+          ],
+          "quote": "And both TikTok and Threads figured out distribution, which is why I think there are more recent examples of success.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 59,
+          "t": [
+            265.368,
+            271.531
+          ],
+          "quote": "And I think with Threads, obviously, they were able to leverage the amazing distribution that Meta has across all of their other products.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 63,
+          "t": [
+            283.416,
+            288.239
+          ],
+          "quote": "And I think people don't spend nearly enough time thinking about distribution and figuring out distribution.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 65,
+          "t": [
+            291.2,
+            311
+          ],
+          "quote": "So as I reflect on the early days of building Snapchat, the thing that we figured out in terms of distribution, especially when it comes to social, was that back then people believed that there were network effects and social networks that meant that the more people you had using the service, the stickier that it is.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 70,
+          "t": [
+            343.576,
+            349.539
+          ],
+          "quote": "We had the benefit of the app store and mobile distribution, but we also had a different way of growing our service, which wasn't about having the most friends.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 73,
+          "t": [
+            352.66,
+            357.043
+          ],
+          "quote": "It's something that I've been thinking a lot about actually, this idea of distribution, because of AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 83,
+          "t": [
+            385.245,
+            393.436
+          ],
+          "quote": "And I feel like distribution is where it ends up being, what ends up being the new moat and the new biggest challenge because AI is not going to really help you there.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 88,
+          "t": [
+            407.766,
+            421.194
+          ],
+          "quote": "You think about a lot of the big consumer technology companies today, they were really born out of mobile, whether it's Uber, Snapchat, some of those early generation companies that really got distribution and built themselves on mobile.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 91,
+          "t": [
+            432.701,
+            434.303
+          ],
+          "quote": "Especially if they have distribution already.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 93,
+          "t": [
+            436.585,
+            443.453
+          ],
+          "quote": "It's going to be very hard to get distribution just like there's so much launching every day, so much to pay attention to.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "moat",
+      "type": "concept",
+      "role": "concept",
+      "name": "护城河 (moat)",
+      "file": "护城河",
+      "primary": true,
+      "how_described": "本集说「软件不是护城河」(software is not a moat)，因为软件功能极易被克隆；真正难复制、能构成护城河的是生态系统、平台和深扎的硬件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            38.923,
+            44
+          ],
+          "quote": "15 years ago, we essentially learned that software is not a moat, which is something that everyone is discovering today with AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 83,
+          "t": [
+            385.245,
+            393.436
+          ],
+          "quote": "And I feel like distribution is where it ends up being, what ends up being the new moat and the new biggest challenge because AI is not going to really help you there.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 128,
+          "t": [
+            617.569,
+            631.575
+          ],
+          "quote": "And so I think one of the things, it's been an interesting time for me to reflect a lot on our strategy over the last 15 years, because 15 years ago, we essentially learned that software is not a moat, which is something that everyone is discovering today with AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 138,
+          "t": [
+            707.467,
+            709.629
+          ],
+          "quote": "You would think network effects would be the moat.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 139,
+          "t": [
+            709.789,
+            715.254
+          ],
+          "quote": "That's what everybody's always trying to get to because that's classically a great moat.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 140,
+          "t": [
+            715.995,
+            721.98
+          ],
+          "quote": "Are you saying that that's maybe not even as great a moat or that's just not enough and then you need something more like say hardware?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "augmented-reality",
+      "type": "concept",
+      "role": "concept",
+      "name": "增强现实 (augmented reality)",
+      "file": "增强现实",
+      "primary": true,
+      "how_described": "本集说 Snap 围绕它构建了最大的平台，开发者为其制作了数百万个滤镜(lenses)，每天产生数十亿张照片",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            644.12,
+            657.488
+          ],
+          "quote": "One of the first things we did was focus a lot on building ecosystems, whether those are the relationships between creators and Snap-chatters, whether that's the platform we built around augmented reality where developers have built millions of these lenses.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 134,
+          "t": [
+            678.3,
+            691.132
+          ],
+          "quote": "And then it also informed a lot of our thinking about investing in other places that are really hard to copy, including hardware, where it's really, really challenging to copy our fully vertically integrated stack around augmented reality.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 167,
+          "t": [
+            846.461,
+            856.504
+          ],
+          "quote": "We were innovating, building lenses and augmented reality, but ultimately we saw that people were using AR on these tiny little phone screens that required you to use your thumbs to interact.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2646.173,
+            2648.915
+          ],
+          "quote": "We have the biggest augmented reality platform.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "design-team",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计团队 (design team)",
+      "file": "设计团队",
+      "primary": true,
+      "how_described": "本集强调它是创新的来源：一个仅 9 到 12 人、极度扁平无层级的团队，靠极高频产出作品和残酷评审运转，并在公司内部充当产品发布的「刻意瓶颈」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            25,
+            29.709
+          ],
+          "quote": "We have a very, very small design team that is constantly innovating and creating new things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 6,
+          "t": [
+            29.83,
+            33.036
+          ],
+          "quote": "Your first day that you join the design team, you present work, you're making things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1174.127,
+            1179.109
+          ],
+          "quote": "That's the same for our design team, for example, where there's no one that has a fancier title or a role.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1270.402,
+            1277.727
+          ],
+          "quote": "It sort of oscillates between like nine and 12 people design team that is constantly innovating and creating new things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1319.385,
+            1329.957
+          ],
+          "quote": "But I think the design team in particular, it's really important, and we call it the design team, it's really important that they have a flat non-hierarchical structure where new ideas can come from anywhere.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1333.16,
+            1342.374
+          ],
+          "quote": "So in terms of how you operationalize this, is that the key to the innovation you've seen as this specific small design team who can work?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1408.865,
+            1416.168
+          ],
+          "quote": "But I think for the design team in particular, the thing that is probably most important is the velocity of design work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2347.16,
+            2360.097
+          ],
+          "quote": "Do you feel like, especially for a consumer and consumer social product, this is extra important to just be extremely in the weeds on everything that is shipping and say having your design team have to approve everything.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2403.745,
+            2409.348
+          ],
+          "quote": "In fact, most people join our design team right out of school, not from a big tech company or something like that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2505.734,
+            2509.155
+          ],
+          "quote": "One of the strengths of our design team has been that people come from lots of different backgrounds.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2552.227,
+            2557.289
+          ],
+          "quote": "And so, one of the things that we do that's different at Snap is your first day that you join the design team, you present work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2563.032,
+            2570.815
+          ],
+          "quote": "And that just sets the tone for the rest of your experience on the design team and growth on the design team because really that's what we're all about.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2683.36,
+            2692.525
+          ],
+          "quote": "Well, and one of the things that's so important about our design team and our design culture, one of the things that we try to do is there is no gate to showing me work every week.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2723.422,
+            2735.37
+          ],
+          "quote": "I have a friend who works at a big tech company and you just said all the design team, they're required to ship like, I don't know, 10 PRs a month or something like that or a quarter, which is such a new world.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2752.54,
+            2760.524
+          ],
+          "quote": "Taking a step back, it's definitely not a requirement to ship code on the design team, but I think people are so passionate and curious about learning new things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2760.585,
+            2764.827
+          ],
+          "quote": "I mean, one of the things we've always tried to do on the design team is just figure it out.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2777.373,
+            2782.276
+          ],
+          "quote": "So I think the design team has always been really flexible in terms of their curiosity, learning new things.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说 Snap 把它用于自动 debug 报告的问题并建议修复代码，或串起从写产品规格到做风险分析、写物料等整个 go-to-market 工作流",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 484,
+          "t": [
+            2822.433,
+            2835.078
+          ],
+          "quote": "We have a system at Snap where on the internal version of the app, you can shake to report your problem and agents now debug exactly what happened, what went wrong and can actually suggest a fix.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2888.24,
+            2904.007
+          ],
+          "quote": "And so by listing out all these jobs to be done, really for the community journey and for advertisers as well, it became very clear where we could use agents, where we needed to be very focused in terms of building cross-functional teams around those jobs supported by AI tools.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2911.971,
+            2930.52
+          ],
+          "quote": "So I think for us trying to, while I think in this moment of time, you certainly want to have a thousand flowers bloom and people are building agents and experimenting, I think at the same time, making sure that we stay focused on what matters to our community, what matters to advertisers is really, really important.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3812.38,
+            3821.329
+          ],
+          "quote": "So I think there's all sorts of examples like that across the company in terms of the way that agents can play a really massive role in changing the way that we work.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "ecosystem",
+      "type": "concept",
+      "role": "concept",
+      "name": "生态系统 (ecosystem)",
+      "file": "生态系统",
+      "primary": true,
+      "how_described": "本集说完整的生态系统和平台很难复制，它由创作者、开发者与社区之间的关系构成，以此对抗软件功能的像素级抄袭",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            261.166,
+            265.348
+          ],
+          "quote": "And so they were able to bootstrap their ecosystem.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 132,
+          "t": [
+            661.45,
+            667.354
+          ],
+          "quote": "It's very hard to copy or to replicate a full ecosystem or a platform.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 133,
+          "t": [
+            667.814,
+            677.94
+          ],
+          "quote": "And so we realized that the more that we could build a platform around our business, the more that we could build an ecosystem with creators and developers, the harder it would be for folks to just copy that.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "designers",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计师 (designers)",
+      "file": "设计师",
+      "primary": true,
+      "how_described": "本集说在 AI 时代他们的能力被放大了，开始直接交付代码；并强调「艺术」与「设计」的区别在于后者能放下自我、对用户产生同理心",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 230,
+          "t": [
+            1277.827,
+            1291.477
+          ],
+          "quote": "And I think the beauty of what I love about Snap is that the dialogue between those two teams is where a lot of that innovation happens because a lot of our engineers working to serve our customers or working on reliability have a bunch of great ideas and so do our designers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1396.26,
+            1408.805
+          ],
+          "quote": "And so a lot of how we've thought about growing the company over time is like strengthening that dialogue between engineers and designers and creating an environment where folks feel comfortable throwing out really crazy ideas.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1416.288,
+            1421.29
+          ],
+          "quote": "So I typically meet with our designers for a couple hours every week and we just look at work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1894.58,
+            1902.863
+          ],
+          "quote": "A lot of my view of product management was actually driven by my view of designers and the role that designers should play.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1903.283,
+            1911.526
+          ],
+          "quote": "And one of the things that I was concerned about in the tech community, if you look at the traditional tech org structure, designers really are producing visuals.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1948.741,
+            1953.846
+          ],
+          "quote": "And so I think in the early days, my view was not that we don't need PMs, my view is that designers should do that work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1954.646,
+            1962.394
+          ],
+          "quote": "So that's essentially what we would say to our designers, which was like, \"Hey, if you need PM support, why don't you just do it yourself?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1963.875,
+            1969
+          ],
+          "quote": "And I think that that really helped, frankly, designers play a more active role in the product development process.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 359,
+          "t": [
+            2087.364,
+            2094.529
+          ],
+          "quote": "There's this kind of three-way standoff right now between PM's designers, engineers, where they each think they are the future and you don't need the other with AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2099.193,
+            2102.995
+          ],
+          "quote": "I imagine your sense is now AI makes designers even more powerful.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 368,
+          "t": [
+            2125.872,
+            2129.695
+          ],
+          "quote": "Look, I do think designers feel vindicated in a lot of ways.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2129.715,
+            2133.157
+          ],
+          "quote": "A lot of designers had parents who were saying, \"Why aren't you studying computer science?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 372,
+          "t": [
+            2137.72,
+            2142.503
+          ],
+          "quote": "And I think today, a lot of our designers are now shipping code, which is extraordinary.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2150.308,
+            2170
+          ],
+          "quote": "And so I think removing friction from the creative process and being able to go from idea to impact at the scale of almost a billion people using Snapchat is really empowering and exciting for designers who feel like these tools maybe level the playing field to some extent for creative people.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2379.28,
+            2387.473
+          ],
+          "quote": "Is there anything special you look for in the designers you hire knowing that they're basically running the show and just approving everything and just kind of like the right hand to Evan?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2387.493,
+            2391.319
+          ],
+          "quote": "Is there anything in particular you look for when you're hiring these designers?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2603.23,
+            2610.434
+          ],
+          "quote": "And so I think for young designers, establishing that velocity of ideation very early on is really, really important.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2610.454,
+            2624
+          ],
+          "quote": "And then the other thing we do that I think is different, although I don't know, I've never really worked anywhere else, is we don't allow designers to get stuck on specific products or verticals for very long.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2649.275,
+            2656.86
+          ],
+          "quote": "These are really exciting opportunities for designers and it's important that we are rotating them across all of these different products so they're not getting stuck.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2720.58,
+            2722.922
+          ],
+          "quote": "You mentioned AI, how designers are shipping code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2736.11,
+            2739.312
+          ],
+          "quote": "I guess one is just like, how do you think about designers shipping code?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合度 (product market fit)",
+      "file": "产品市场契合度",
+      "primary": false,
+      "how_described": "本集指出消费技术大多把精力集中在追求产品市场契合度上，却忽视了最难的分发环节",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            8.221,
+            12.01
+          ],
+          "quote": "So much of consumer technology focuses on product market fit.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 61,
+          "t": [
+            276.793,
+            278.214
+          ],
+          "quote": "Do I have product market fit?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "network-effects",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络效应 (network effects)",
+      "file": "网络效应",
+      "primary": false,
+      "how_described": "本集说它通常是经典护城河，但在软件功能易被抄袭的当下它还不够，必须辅以平台与硬件生态",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            291.2,
+            311
+          ],
+          "quote": "So as I reflect on the early days of building Snapchat, the thing that we figured out in terms of distribution, especially when it comes to social, was that back then people believed that there were network effects and social networks that meant that the more people you had using the service, the stickier that it is.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 138,
+          "t": [
+            707.467,
+            709.629
+          ],
+          "quote": "You would think network effects would be the moat.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 141,
+          "t": [
+            722.42,
+            732.206
+          ],
+          "quote": "I think network effects are certainly an important piece of the puzzle for sure, but I don't think they're enough when it comes to these sorts of software cloning.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 143,
+          "t": [
+            742.491,
+            757.76
+          ],
+          "quote": "And so I think in addition to network effects, it's really important to try to build businesses that are more defensible by truly building out a platform that can support relationships between creators, developers, and the community, because that in and of itself we found is incredibly difficult to copy.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集提到它借助既有庞大产品群为 Threads 提供惊人分发，并像素级抄袭了 Snapchat Plus 等功能与命名",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            265.368,
+            271.531
+          ],
+          "quote": "And I think with Threads, obviously, they were able to leverage the amazing distribution that Meta has across all of their other products.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 111,
+          "t": [
+            541.872,
+            544.713
+          ],
+          "quote": "You guys launched spectacles before Meta got into this stuff.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 120,
+          "t": [
+            571.096,
+            574.96
+          ],
+          "quote": "So was I think probably enough to get Meta's attention that it's a good time to copy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 577,
+          "t": [
+            3390.281,
+            3404.727
+          ],
+          "quote": "I think one of the things that's so funny about our service is that while we're very, very large in terms of the scale of our audience, in terms of the scale of our business, we're much larger than a Pinterest or Reddit, for example, we're also way smaller than Meta and Google.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "threads",
+      "type": "company",
+      "role": "company",
+      "name": "Threads",
+      "file": "Threads",
+      "primary": false,
+      "how_described": "本集把它当作近期成功的特例，指出它靠借助 Meta 既有产品的庞大分发能力才突围",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            181.271,
+            185.173
+          ],
+          "quote": "And then maybe threads, which I think is cheating because it just sits on top of Instagram.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 45,
+          "t": [
+            201.12,
+            210.584
+          ],
+          "quote": "Well, I think it's really interesting in terms of the examples that you just shared of TikTok and threads, because you just shared two examples of people who figured out distribution.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 55,
+          "t": [
+            242.837,
+            249
+          ],
+          "quote": "And both TikTok and Threads figured out distribution, which is why I think there are more recent examples of success.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 59,
+          "t": [
+            265.368,
+            271.531
+          ],
+          "quote": "And I think with Threads, obviously, they were able to leverage the amazing distribution that Meta has across all of their other products.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "stories",
+      "type": "concept",
+      "role": "concept",
+      "name": "stories",
+      "file": "stories",
+      "primary": false,
+      "how_described": "本集说它是 Snap 的首创，核心设计是去除点赞评论等公开指标、24 小时消失且按时间顺序排列，以化解用户深层社交压力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            16.12,
+            24.699
+          ],
+          "quote": "I feel like Snap has always been punching above its weight in terms of just how much new stuff comes out of your team, stories, AR glasses, swipe-based navigation.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 22,
+          "t": [
+            100.02,
+            104.703
+          ],
+          "quote": "And over the years, Evan and his team have invented the concept of stories.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 109,
+          "t": [
+            535.108,
+            539.771
+          ],
+          "quote": "And just like a few examples that come to mind, stories you guys created.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1580.12,
+            1583.361
+          ],
+          "quote": "Well, let's use stories as an example, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1656.413,
+            1666.458
+          ],
+          "quote": "So we listened to all of that and heard all of that, but then we came up with something totally new and different, which were stories that were responsive to the feedback.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1683.907,
+            1690.751
+          ],
+          "quote": "And they, maybe most importantly, were in chronological order, which is the way that people have told stories since the beginning of time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1706.783,
+            1710.149
+          ],
+          "quote": "I love hearing these stories of features that everyone's using now and how they came to be.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1732.229,
+            1748.359
+          ],
+          "quote": "And then again, through talking to people and iterating, understanding what folks were really looking for, we ended up with stories and some of the gestures that people maybe take for granted today, being able to tap forward through stories and backwards through stories, full screen, vertical content.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1755.893,
+            1758.599
+          ],
+          "quote": "These stories are so interesting and people don't know these histories.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1759.08,
+            1770.026
+          ],
+          "quote": "One of my favorite stories was around screenshot detection actually in the early days because when we first built Snapchat and we shared with people, \"Oh, you could send photos that disappear.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 696,
+          "t": [
+            3984.563,
+            3993.506
+          ],
+          "quote": "I would recommend the first half because he interviews like 150 early Apple team members and the stories are just great and there's a lot of learnings in there.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "type": "concept",
+      "role": "concept",
+      "name": "硬件 (hardware)",
+      "file": "硬件",
+      "primary": false,
+      "how_described": "本集说这是极难被抄袭的防御点，Snap 围绕 AR 投入完全垂直整合的硬件堆栈，把人从手机屏幕里解放出来",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            678.3,
+            691.132
+          ],
+          "quote": "And then it also informed a lot of our thinking about investing in other places that are really hard to copy, including hardware, where it's really, really challenging to copy our fully vertically integrated stack around augmented reality.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 137,
+          "t": [
+            702.482,
+            707.447
+          ],
+          "quote": "And I was going to get to this later, but we can talk about this now, this big investment you've been putting into hardware.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 140,
+          "t": [
+            715.995,
+            721.98
+          ],
+          "quote": "Are you saying that that's maybe not even as great a moat or that's just not enough and then you need something more like say hardware?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 145,
+          "t": [
+            758.901,
+            765.267
+          ],
+          "quote": "If you think about it, you're working on two of the hardest types of businesses, a consumer social platform and hardware.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 147,
+          "t": [
+            767.99,
+            770.212
+          ],
+          "quote": "And this hardware investment, you've been at it for a long time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 156,
+          "t": [
+            781.621,
+            789.98
+          ],
+          "quote": "We're going to talk about it, but just maybe you've already answered it, why this is something you're so passionate about, but why this kind of ongoing investment in hardware?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "automated-code-review",
+      "type": "concept",
+      "role": "concept",
+      "name": "全自动代码审查 (automated code review)",
+      "file": "全自动代码审查",
+      "primary": false,
+      "how_described": "本集说它是 Snap 为让更多人参与写代码又不搞崩十亿用户系统，而开发的 AI 护栏，已检测出近一万个 bug",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 482,
+          "t": [
+            2813.63,
+            2815.771
+          ],
+          "quote": "So we've got automated code review now.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集提到 Snap 正在使用 Claude 在公司内部做大量工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 456,
+          "t": [
+            2660.102,
+            2664.726
+          ],
+          "quote": "She was head of design for Claude and Cowork and she was like a director at Figma.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 663,
+          "t": [
+            3836.04,
+            3841.418
+          ],
+          "quote": "We've been using Claude to do a lot of the work across Snap.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "glean",
+      "type": "company",
+      "role": "company",
+      "name": "Glean",
+      "file": "Glean",
+      "primary": false,
+      "how_described": "本集说 Evan Spiegel 用它整合公司内部所有仪表盘和文档数据，并在其中构建了一个帮他梳理全公司动态的智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 638,
+          "t": [
+            3695.245,
+            3699.948
+          ],
+          "quote": "And so we have Glean that integrates all this data for me.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 647,
+          "t": [
+            3752.824,
+            3754.814
+          ],
+          "quote": "And that agent was, you built it in Glean.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 650,
+          "t": [
+            3756.882,
+            3759.948
+          ],
+          "quote": "I mean, that I've done in Glean, which is great.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3759.968,
+            3765.98
+          ],
+          "quote": "Obviously you can build all sorts of stuff in Cloud, but Glean for us is the most secure way to access all of our different documents and dashboards and things like that.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "screenshot-detection",
+      "type": "concept",
+      "role": "concept",
+      "name": "screenshot detection",
+      "file": "screenshot detection",
+      "primary": false,
+      "how_described": "本集说它是早期 Snapchat 的爆红核心机制，利用触摸事件漏洞在无官方 API 的情况下实现截图通知",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 311,
+          "t": [
+            1759.08,
+            1770.026
+          ],
+          "quote": "One of my favorite stories was around screenshot detection actually in the early days because when we first built Snapchat and we shared with people, \"Oh, you could send photos that disappear.\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

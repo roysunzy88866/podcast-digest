@@ -1,0 +1,1122 @@
+{
+  "episode_id": "2026-01-29-lennys-marc-andreessen-the-real-ai-boom",
+  "podcast": null,
+  "date": null,
+  "tags": [
+    "AI 乐观主义",
+    "超级个体",
+    "科技岗位演变",
+    "AI 教育",
+    "护城河与不确定性"
+  ],
+  "entities": [
+    {
+      "id": "marc-andreessen",
+      "type": "person",
+      "role": "host",
+      "name": "Marc Andreessen",
+      "file": "Marc Andreessen",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            89.52,
+            94.242
+          ],
+          "quote": "Today, my guest is Marc Andreessen, one of the most seminal figures in tech and in business.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 34,
+          "t": [
+            176.308,
+            179.809
+          ],
+          "quote": "With that, I bring you Marc Andreessen after a short word from our sponsors.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 51,
+          "t": [
+            271.998,
+            276
+          ],
+          "quote": "Marc Andreessen, thank you so much for being here and welcome to the podcast.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 41,
+          "t": [
+            215.318,
+            220.059
+          ],
+          "quote": "To learn more, visit DX's website at getdx.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 42,
+          "t": [
+            220.479,
+            222.18
+          ],
+          "quote": "That's getdx.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 52,
+          "t": [
+            276.768,
+            277.152
+          ],
+          "quote": "Awesome, Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 607,
+          "t": [
+            3092.25,
+            3095.835
+          ],
+          "quote": "Request a demo at datadoghq.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 608,
+          "t": [
+            3095.996,
+            3097.518
+          ],
+          "quote": "That's datadoghq.com/lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "brex",
+      "type": "company",
+      "role": "company",
+      "name": "Brex",
+      "file": "Brex",
+      "primary": false,
+      "how_described": "本集开头赞助商提及：面向创始人的智能金融平台，提供高额度企业卡和帮你处理手动财务任务的 AI 智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            232.043,
+            233.244
+          ],
+          "quote": "That's where Brex comes in.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 45,
+          "t": [
+            233.704,
+            236.685
+          ],
+          "quote": "Brex is the intelligent finance platform for founders.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 46,
+          "t": [
+            237.145,
+            245.848
+          ],
+          "quote": "With Brex, you get high limit corporate cards, easy banking, high yield treasury, plus a team of AI agents that handle manual finance tasks for you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 48,
+          "t": [
+            255.692,
+            259.734
+          ],
+          "quote": "With Brex's AI agents, you can move faster while staying in full control.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 49,
+          "t": [
+            260.314,
+            264.275
+          ],
+          "quote": "One in three startups in the United States already runs on Brex.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 50,
+          "t": [
+            264.856,
+            267.217
+          ],
+          "quote": "You can too at brex.com.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "datadog",
+      "type": "company",
+      "role": "company",
+      "name": "Datadog",
+      "file": "Datadog",
+      "primary": false,
+      "how_described": "本集赞助商提及：它现在包含 Eppo 实验平台，能让产品经理将产品洞察与 Bug、UX 摩擦等问题连接起来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 594,
+          "t": [
+            3018,
+            3024.362
+          ],
+          "quote": "This episode is brought to you by Datadog, now home to Eppo, the leading experimentation and feature flagging platform.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 595,
+          "t": [
+            3024.702,
+            3036.025
+          ],
+          "quote": "Product managers at the world's best companies use Datadog, the same platform their engineers rely on every day to connect product insights to product issues like bugs, UX friction, and business impact.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 597,
+          "t": [
+            3043.968,
+            3046.749
+          ],
+          "quote": "Where other tools stop, Datadog goes even further.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 602,
+          "t": [
+            3066.154,
+            3069.235
+          ],
+          "quote": "Datadog then lets you go beyond the numbers with session replay.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 605,
+          "t": [
+            3085,
+            3087.263
+          ],
+          "quote": "Datadog is more than engineering metrics.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "dx",
+      "type": "company",
+      "role": "company",
+      "name": "DX",
+      "file": "DX",
+      "primary": false,
+      "how_described": "本集开头赞助商提及：由领先研究人员设计的开发者智能平台，帮助领导者了解哪些工具有效并驾驭 AI 转变。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            180.749,
+            186.171
+          ],
+          "quote": "Today's episode is brought to you by DX, the developer intelligence platform designed by leading researchers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 39,
+          "t": [
+            199.114,
+            203.115
+          ],
+          "quote": "DX provides the data and insights that leaders need to navigate this shift.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 40,
+          "t": [
+            203.595,
+            214.898
+          ],
+          "quote": "With DX, companies like Dropbox, Booking.com, Adient, and Intercom get a deep understanding of how AI is providing value to their developers and what impact AI is having on engineering productivity.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 41,
+          "t": [
+            215.318,
+            220.059
+          ],
+          "quote": "To learn more, visit DX's website at getdx.com/lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "replit",
+      "type": "company",
+      "role": "company",
+      "name": "Replit",
+      "file": "Replit",
+      "primary": true,
+      "how_described": "嘉宾 10 岁的儿子极其迷恋这个平台，在上面用 Vibe coding（对话式编程）花几个小时做《星际迷航》模拟器游戏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            155.503,
+            172.827
+          ],
+          "quote": "And if you become an insider subscriber of my newsletter, you get a year free of over 20 incredible products, including a year free of Lovable, Replit, Bolt, Gamma, Innate and Linear, Superhuman, Dev and PostHog, Descript, Wspr Flow, Perplexity, Warp, Granola, Magic Patterns, Raycast, Chappy, RD, MOB and Stripe Atlas.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2775.115,
+            2778.256
+          ],
+          "quote": "He's on Replit all of the time doing vibe coding, doing games.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1148,
+          "t": [
+            5991.112,
+            5995.696
+          ],
+          "quote": "So one is my 10-year-old, I have, my 10-year-old is 100% obsessed with Replit.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1161,
+          "t": [
+            6025.949,
+            6038.72
+          ],
+          "quote": "And so he through no interference on my part discovered Replit about three months ago, and discovered Vibe coding, and is completely obsessed with Vibe coding games, and all kinds of things and literally will sit and do it for hours.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1180,
+          "t": [
+            6130.822,
+            6134.65
+          ],
+          "quote": "Subscribers of my newsletter get a year free of Replit and Whisper Flow, so there we go.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1181,
+          "t": [
+            6136.474,
+            6138.759
+          ],
+          "quote": "What's the most memorable thing your son's built with Replit?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "sesame",
+      "type": "company",
+      "role": "company",
+      "name": "Sesame",
+      "file": "Sesame",
+      "primary": false,
+      "how_described": "嘉宾提到他投资的一家公司，去年因极其亲密的情感类语音体验而走红。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1168,
+          "t": [
+            6066.484,
+            6076.197
+          ],
+          "quote": "We have this company, Sesame, that they went viral last year for these just incredibly, like, intimate emotional kind of voice experiences.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "limitless",
+      "type": "company",
+      "role": "company",
+      "name": "Limitless",
+      "file": "Limitless",
+      "primary": false,
+      "how_described": "嘉宾在谈及语音输入与可穿戴设备革命时提及的公司（最近已被卖出），其推出了吊坠等可穿戴硬件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1171,
+          "t": [
+            6081.964,
+            6092.736
+          ],
+          "quote": "And so Limitless Suite, yeah, Limitless recently, the company recently sold, but all the... I think the pendants, the wearables, all that stuff is going to be big, the Meta glasses.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "whisper-flow",
+      "type": "company",
+      "role": "company",
+      "name": "Whisper Flow",
+      "file": "Whisper Flow",
+      "primary": false,
+      "how_described": "嘉宾强烈推荐的手机应用：它的语音转写效果惊人，且能让你在转写的同时用自然语言直接给 AI 下达排版指令。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1174,
+          "t": [
+            6098.763,
+            6106.089
+          ],
+          "quote": "There's this app on my phone now called Whisper Flow, which is voice transcription, which works like staggeringly well.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1180,
+          "t": [
+            6130.822,
+            6134.65
+          ],
+          "quote": "Subscribers of my newsletter get a year free of Replit and Whisper Flow, so there we go.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "grok",
+      "type": "company",
+      "role": "company",
+      "name": "Grok",
+      "file": "Grok",
+      "primary": false,
+      "how_described": "嘉宾在晚宴上最爱展示的派对把戏：打开它里面那个叫 Bad Rudy 的满嘴脏话的浣熊化身。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1166,
+          "t": [
+            6050.869,
+            6063.72
+          ],
+          "quote": "My favorite party trick at dinner parties now is to pull out Grok with Bad Rudy, which is, if you've seen, it's a foul-mouthed raccoon avatar in the OS Grok app.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集将其描述为最近节日期间令编码圈震撼的杀手级应用，相当于一个驾驭大模型的智能体外壳（agent harness）；但它一周半就被开发出来，护城河被质疑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 862,
+          "t": [
+            4501,
+            4501
+          ],
+          "quote": "Yeah. Well, it's like a little bit like, I don't know, I mean, even just like with... this has been the holiday, three years ago was the holiday of ChatGPT. This last month or whatever has been the holiday of Claude, particularly Claude Code for coding. But it's pretty amazing because it's like, okay, there was Claude which is obviously a great accomplishment, but then there's Claude Code which is an app. It's a Claude wrapper. It's agent harness. And then they did this amazing thing where they came out with, was it Coworker?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 865,
+          "t": [
+            4532.931,
+            4535.92
+          ],
+          "quote": "And remember what they said of Cowork, which is Claude Code worked Cowork in a week.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 867,
+          "t": [
+            4539.16,
+            4546.744
+          ],
+          "quote": "Well, and there's two ways looking at that which is like, \"Wow, that's really...\" I mean, obviously that's really impressive that Claude Code was able to build Cowork in a week and a half.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 879,
+          "t": [
+            4594.209,
+            4601.193
+          ],
+          "quote": "In six months, and we've seen this happen before, is Claude Code going to get lapped the same way that GitHub Copilot got lapped?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "大语言模型 (LLM)",
+      "file": "大语言模型",
+      "primary": true,
+      "how_described": "本集把它说成是：能实现一对一布鲁姆 2 西格玛教育效应的终极导师，每个人都可以对它说“训练我、给我出题并评估我的结果”。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 219,
+          "t": [
+            1253.256,
+            1266.378
+          ],
+          "quote": "AI provides the very real prospect of being able to do that, because obviously now, if you have a kid that's super interested in something and they can talk to an LLM about it and they can ask an infinite number of questions and they can get instantaneous feedback.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1267.378,
+            1270.479
+          ],
+          "quote": "And in fact, you can even tell an LLM, it's like, \"Teach me how to do the following.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 733,
+          "t": [
+            3721.283,
+            3722.859
+          ],
+          "quote": "I think people call those LLM councils-",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集说它是三年前开启这轮 AI 浪潮的标志性时刻，并提及它现在几乎肯定比你今天的医生更好，但无法获得行医执照。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            430.523,
+            435.125
+          ],
+          "quote": "There was a ChatGPT moment three years ago.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 87,
+          "t": [
+            435.165,
+            438.086
+          ],
+          "quote": "By the way, only three years ago, was the ChatGPT moment.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2076.454,
+            2088.678
+          ],
+          "quote": "And I think a lot of consumers, by the way... I see this in my life, and you'll probably see this in your life also, which is ChatGPT is almost certainly a better doctor than your doctor today, but ChatGPT can't get a license to practice medicine.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2768.452,
+            2772.374
+          ],
+          "quote": "He's using Claude, and ChatGPT, Copilot, and all of these things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 837,
+          "t": [
+            4325.5,
+            4357.371
+          ],
+          "quote": "The other side of it is if you had told me three years ago that in the Christmas of ChatGPT that within basically a year to year and a half there would be five other American companies that would have basically exactly capable products, and then there would be another five companies out of China that would have exactly capable products, and then there would additionally be open source that was basically the same, I would have been like, \"Wow, the thing that seemed like it was black magic all of a sudden has become like commoditized really fast,\" which by the way, is exactly what happened.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 862,
+          "t": [
+            4501,
+            4501
+          ],
+          "quote": "Yeah. Well, it's like a little bit like, I don't know, I mean, even just like with... this has been the holiday, three years ago was the holiday of ChatGPT. This last month or whatever has been the holiday of Claude, particularly Claude Code for coding. But it's pretty amazing because it's like, okay, there was Claude which is obviously a great accomplishment, but then there's Claude Code which is an app. It's a Claude wrapper. It's agent harness. And then they did this amazing thing where they came out with, was it Coworker?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": true,
+      "how_described": "嘉宾对此概念存疑：他认为“宇宙式”的奇点定义被夸大了，而“平淡式”（即达到人类水平）的定义又太简化，低估了机器智商将远超人类（如 IQ 达 300）的现实。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 934,
+          "t": [
+            4938,
+            4942.107
+          ],
+          "quote": "Do you think about AGI in shifting your investment thesis?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 935,
+          "t": [
+            4942.188,
+            4949
+          ],
+          "quote": "Like, as we approach AGI and hit AGI, as an investor, how do you think about your investment thesis changing?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 936,
+          "t": [
+            4949,
+            4958.31
+          ],
+          "quote": "Yeah, so I've always kind of had a little bit of an issue... I've always kind of struggled with the concept of AGI because at least... Well, let's put it this way.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 938,
+          "t": [
+            4960.752,
+            4965.217
+          ],
+          "quote": "Which is, there's like the prosaic definition of AGI, and then there's like the cosmic definition.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 941,
+          "t": [
+            4975.329,
+            4980.496
+          ],
+          "quote": "And so, AGI is the moment where you enter the singularity which is to say where the world fundamentally changes.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 947,
+          "t": [
+            5017.1,
+            5026.719
+          ],
+          "quote": "But the prosaic definition of AGI that at least I think the industry purchases but it's kind of conversed on, and tell me if you agree with this, is when the AI could do every economically-relevant task as good as a person.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 953,
+          "t": [
+            5049.488,
+            5054.396
+          ],
+          "quote": "And then I kind of feel like the kind of AGI definition that you just gave, I think it kind of understates what's going to happen.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 957,
+          "t": [
+            5064.65,
+            5069.956
+          ],
+          "quote": "And so the way we say that is AGI always is the definition you gave, the definition I gave.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集将其描述为观察底层大模型架构时的重要观察对象：学习编码的进阶，就是观察并看懂智能体在执行任务时“在想什么、怎么做决策”。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 705,
+          "t": [
+            3586.081,
+            3590.644
+          ],
+          "quote": "One is to watch the output, what the agent is doing and thinking as it's doing the work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 706,
+          "t": [
+            3591.185,
+            3601.872
+          ],
+          "quote": "So if you're not an engineer, just sit there and watch it think and make decisions, and it's almost become this layer on top of learning to code is learning to see what the agent is doing and thinking because that teaches you about architecture.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 862,
+          "t": [
+            4501,
+            4501
+          ],
+          "quote": "Yeah. Well, it's like a little bit like, I don't know, I mean, even just like with... this has been the holiday, three years ago was the holiday of ChatGPT. This last month or whatever has been the holiday of Claude, particularly Claude Code for coding. But it's pretty amazing because it's like, okay, there was Claude which is obviously a great accomplishment, but then there's Claude Code which is an app. It's a Claude wrapper. It's agent harness. And then they did this amazing thing where they came out with, was it Coworker?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "super-empowered-individual",
+      "type": "concept",
+      "role": "concept",
+      "name": "超级赋能个体 (super-empowered individual)",
+      "file": "超级赋能个体",
+      "primary": true,
+      "how_described": "本集的核心主线概念：指原本就优秀的人借助 AI，能跨越岗位界限（如同时懂编码、设计与产品），实现 10 倍甚至百倍的产出。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            763.668,
+            769.41
+          ],
+          "quote": "And so you kind of use the term, you think about the super empowered individual.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 139,
+          "t": [
+            805.744,
+            825.315
+          ],
+          "quote": "And so I think, at the unit of N=1 of an individual kid, I think the question is, how do you get them into position where they're kind of this super empowered individual such that they're going to be really kind of deep in whatever it is they're going to do, but they're going to be deep in a way that's going to let them fully use the power of AI to be not just great, but to be spectacularly great?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2261.8,
+            2265.982
+          ],
+          "quote": "And so again, this goes back to this idea of the super-empowered individual.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2290.532,
+            2293.713
+          ],
+          "quote": "But the other part of it is, \"Okay, how do I become that super-empowered individual?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2901.65,
+            2911.996
+          ],
+          "quote": "And so the super-empowered individual on the other end of this that wants to do great things with the new technology, yes, you 100% want to understand this thing all the way down the stack because you want to be able to understand what it's giving you.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "agency",
+      "type": "concept",
+      "role": "concept",
+      "name": "主体性 (agency)",
+      "file": "主体性",
+      "primary": true,
+      "how_described": "本集反复讨论的核心素养：不等待别人告诉做什么，而是主动出击、承担全责；它是与 AI 结合成为超级个体的先决条件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            833.602,
+            840.98
+          ],
+          "quote": "So when I heard there is essentially agency, this word that we see on Twitter all the time is building agency, them not waiting for someone to tell them what to do, figuring out what to do.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 144,
+          "t": [
+            842.781,
+            853.085
+          ],
+          "quote": "So this term agency that's become very, very, very popular, certainly in California for the last couple of years, it's really interesting because I had a lot of trouble with this early on, because I'm like, \"Agency?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 158,
+          "t": [
+            930.716,
+            939.9
+          ],
+          "quote": "In order to issue orders, you must learn how to follow orders and trying to keep him with some level of structure in his life, and not just pure agency.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 163,
+          "t": [
+            967.51,
+            989.558
+          ],
+          "quote": "And again, that's how I view AI for kids is like, okay, AI should be the ultimate lever on the world for a kid with agency to be able to say, \"Okay, I can actually be a primary contributor, whether that's I can be a primary contributor in everything from developing new areas of physics to writing code, to being an artist, to writing novels, whatever that thing is, I can fully participate in the world.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "moats",
+      "type": "concept",
+      "role": "concept",
+      "name": "护城河 (moats)",
+      "file": "护城河",
+      "primary": true,
+      "how_described": "本集把它说成是：当前 AI 领域一切尚未落定、无法笃定预测的悬念；模型层竞争极快（如被很快复制），应用层到底有多大价值两派争论不休。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            111.248,
+            136.938
+          ],
+          "quote": "In this very special conversation, we chat about how unique and significant the moment that we are all living through right now is, what skills he's teaching his kids to thrive in the AI future, what happens to product managers, designers, and engineers in the coming years, where moats exist in AI, what the most AI native founders are doing differently, and so much more that is just scratching the surface of this very deep and important conversation.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 807,
+          "t": [
+            4114.462,
+            4116.005
+          ],
+          "quote": "What do you think about moats?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 808,
+          "t": [
+            4116.205,
+            4122.596
+          ],
+          "quote": "A big question constantly in AI, the fact that everything's changing, just what's your guys' thesis on moats in AI?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 815,
+          "t": [
+            4160.618,
+            4163.999
+          ],
+          "quote": "It's obvious that the moats are going to be in this area of the technology, but not in this other area.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 858,
+          "t": [
+            4480.1,
+            4490.97
+          ],
+          "quote": "So what I'm hearing here is don't over-obsess with moats at this point because we have no idea what'll end up being, and as much as it may feel like, okay, there's no way OpenAI will lose this lead, clearly we're seeing a lot of competition.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "bloom-s-2-sigma-effect",
+      "type": "concept",
+      "role": "concept",
+      "name": "布鲁姆 2 西格玛效应 (Bloom's 2 Sigma effect)",
+      "file": "布鲁姆 2 西格玛效应",
+      "primary": true,
+      "how_described": "本集把它说成是：教育界唯一能稳定让学生成绩提升两个标准差（从 50 百分位跃升至 99 百分位）的方法，即一对一辅导；过去只有富豪能负担，而 AI 让普通人也能享受。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 216,
+          "t": [
+            1213.328,
+            1230.751
+          ],
+          "quote": "And basically, it turns out it's very hard to improve educational outcomes except there's one method that always does it, which is called the Bloom's 2 Sigma effect, which is there's one method of education that routinely raises student outcomes by two standards of deviation and will take a kid from the 50th percentile to the 99th percentile and that's one-on-one tutoring.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "t-shaped",
+      "type": "concept",
+      "role": "concept",
+      "name": "T 型人才 (T-shaped)",
+      "file": "T 型人才",
+      "primary": true,
+      "how_described": "本集把它说成是：未来职业的生存框架——在至少一个领域具备极深的底子（T 的竖线），同时横向掌握其他领域的 AI 工具（T 的横线），以免被轻易取代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 631,
+          "t": [
+            3211.22,
+            3221.936
+          ],
+          "quote": "So maybe what I'm hearing here is kind of this T-shaped strategy of if you want to be successful in any three of these roles, be very, very, very good at that specific role: product management, engineering design.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 660,
+          "t": [
+            3373.14,
+            3378.843
+          ],
+          "quote": "I think to your point, your T-shaped thing, I think that's going to be true basically across the entire economy.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "mexican-standoff",
+      "type": "concept",
+      "role": "concept",
+      "name": "墨西哥僵局 (Mexican standoff)",
+      "file": "墨西哥僵局",
+      "primary": true,
+      "how_described": "本集用来比喻产品经理、工程师、设计师三大核心岗位当下的对峙状态：他们都觉得靠 AI 能包揽另外两者的活儿，而嘉宾认为他们其实都是对的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            54.1,
+            56.822
+          ],
+          "quote": "There's like a Mexican standoff happening between those three roles.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2175.949,
+            2179.274
+          ],
+          "quote": "So, the way I've been describing it is... You know the concept of the Mexican standoff, right?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2184.26,
+            2191.142
+          ],
+          "quote": "And then there's... If you watch John Woo movies, he loves to have... He does the three-way Mexican standoff, where you've got like a triangle, people.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2200.344,
+            2206.826
+          ],
+          "quote": "And so the way I've been describing this is there's like a Mexican standoff happening between those three roles: between product manager, designer, and coder.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2243.615,
+            2249.097
+          ],
+          "quote": "And what I think is so fascinating about this Mexican standoff is they're actually all kind of correct, I think.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "indeterminate-optimism",
+      "type": "concept",
+      "role": "concept",
+      "name": "不确定的乐观主义 (indeterminate optimism)",
+      "file": "不确定的乐观主义",
+      "primary": true,
+      "how_described": "嘉宾自认的投资哲学：不需要笃定预测哪个具体模型胜出，而是支持无数个聪明的创始人同时做大量实验，靠生态演化逼近更好的未来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 899,
+          "t": [
+            4720.667,
+            4729.951
+          ],
+          "quote": "And so he always argued that Silicon Valley is characterized by too much what he calls indeterminate optimism.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 905,
+          "t": [
+            4775.46,
+            4797.648
+          ],
+          "quote": "I think there's a lot to Peter's framework, but the way I would describe it is I think maybe if he and I disagree with part of that it would be I think the indeterminate optimism is a stronger phenomenon than at least I think he's historically represented it as, and I would put myself firmly in the indeterminate optimist category, and that's the strategy that we have at a16z which is... and the reason for that is hopefully it's not so much wishful thinking.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 906,
+          "t": [
+            4797.688,
+            4814.513
+          ],
+          "quote": "It's more, no, the indeterminate optimism of venture capital or the indeterminate optimism of a16z or Silicon Valley is actually very specific which is there are these extremely bright and capable people, like Elon and many others, who are founders and kind of product creators.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1092,
+          "t": [
+            5728.22,
+            5744
+          ],
+          "quote": "And the company town phenomenon where the company is, the industry, again, the indeterminate optimism, nobody had to sit and plan and say, \"Okay, in the 1990s Silicon Valley's going to do the internet, in the 2000s they're going to do the smartphone, in the 2010s they're going to do the cloud, in the 2020s they're going to do AI.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1093,
+          "t": [
+            5744.08,
+            5757.76
+          ],
+          "quote": "It's just, right, the indeterminate optimism of ecosystem flexibility of the ecosystem that they Silicon Valley could morph into all these categories, and again, maybe a testimony to indeterminate optimism.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "ai-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 编码 (AI coding)",
+      "file": "AI 编码",
+      "primary": true,
+      "how_described": "本集把它说成是：让顶尖程序员效率暴增十倍的最新技术演进，程序员的工作从手写代码变成了同时并行编排十个编码机器人并纠正它们的错误。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            473.18,
+            487.226
+          ],
+          "quote": "Over the holiday break, it feels like the AI coding thing really hit critical mass and the world's best programmers, including Linus Torvalds, for the first time over the holiday break basically said, \"Yeah, AI is now coding better than we can.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2267.002,
+            2274.725
+          ],
+          "quote": "Where if I'm a coder, step one is I need to make sure that I really understand AI coding, and what that means, and how coding is going to change in the future.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2501.146,
+            2502.647
+          ],
+          "quote": "Get really good at AI coding, for example.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2705.764,
+            2709.225
+          ],
+          "quote": "And then to your point, AI coding is the next layer on that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2709.346,
+            2713.468
+          ],
+          "quote": "AI coding actually abstracts the way the process of actually writing the scripting code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 540,
+          "t": [
+            2831.628,
+            2838.376
+          ],
+          "quote": "But are human beings going to be involved in the coding process and overseeing the AI coding and all of that?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 988,
+          "t": [
+            5216.23,
+            5219.996
+          ],
+          "quote": "And then the performance, again, it goes back to like the AI coding thing that's happening.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "bits and atoms",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}
