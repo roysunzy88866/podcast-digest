@@ -131,9 +131,10 @@ export function parseGlossaryPins(md) {
     if (!en || en === "英文" || /^-+$/.test(en) || !isChinese(zh)) continue; // 跳表头/分隔/非中文值
     put(en, zh);
   }
-  // 保留英文不译段:概念页也保英文(值非中文 → labelFor 落到 nameEn 分支)
+  // 保留英文不译段:概念页也保英文(值非中文 → labelFor 落到 nameEn 分支)。
+  // 多行/单行都容错:去掉标题行后按 · 连接再切(GLM 20260721-001[3]:防日后改成一词一行时粘连)。
   const enSec = sections.find((s) => s.startsWith("保留英文不译"));
-  for (const tok of (enSec?.split("\n").slice(1).join(" ") ?? "").split("·")) {
+  for (const tok of (enSec?.split("\n").slice(1).join("·") ?? "").split("·")) {
     const t = tok.replace(/[(（][^)）]*[)）]/g, "").trim(); // 去括注 Kubernetes(K8s)→Kubernetes
     if (t && !t.startsWith("#")) put(t, t);
   }
