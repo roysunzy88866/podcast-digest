@@ -409,6 +409,31 @@ describe("gateFacts · 端到端拦截(每条 = 一次真攻击)", () => {
     expect(r.pass).toBe(true);
   });
 
+  // change 2(用户 AskUserQuestion 选「坏集只隔离」):实体 how_described 事实层从批级挪到逐集,
+  // 一条实体描述编造数字/专名 → 本集当场不过(→ 被 main 隔离),不漏到批级实体层连坐整批。
+  // 镜像 run 29801188491:04-05 的 Anthropic「190亿」无出处,却一条挡下全批。
+  it("★ change 2:实体 how_described 编造数字 → 逐集 gate-facts 拦(不连坐全批)", () => {
+    const { dir, aliasesPath } = writeEp("entfact", "嘉宾讲了 Kubernetes 太难用 [00:20-00:26 Akshat Bubna]。"); // 导读干净
+    writeFileSync(join(dir, "entities.json"), JSON.stringify({
+      entities: [{ id: "modal", name: "Modal", file: "Modal", type: "company", how_described: "估值 8888 亿的公司" }],
+    }));
+    const r = gateFacts(dir, { aliasesPath });
+    expect(r.pass).toBe(false);
+    expect(r.failures.some((f: any) => f.kind === "D17-数字" && /Modal/.test(f.reason ?? ""))).toBe(true);
+  });
+  it("★ 实体 how_described 干净 → 不误拦", () => {
+    const { dir, aliasesPath } = writeEp("entok", "嘉宾讲了 Kubernetes 太难用 [00:20-00:26 Akshat Bubna]。");
+    writeFileSync(join(dir, "entities.json"), JSON.stringify({
+      entities: [{ id: "kubernetes", name: "Kubernetes", file: "Kubernetes", type: "concept", how_described: "被说太难用" }],
+    }));
+    expect(gateFacts(dir, { aliasesPath }).pass).toBe(true);
+  });
+  it("★ 无 entities.json(C2 期)→ 不因缺件报错,仍按导读判", () => {
+    const { dir, aliasesPath } = writeEp("noent", "嘉宾讲了 Kubernetes 太难用 [00:20-00:26 Akshat Bubna]。");
+    expect(() => gateFacts(dir, { aliasesPath })).not.toThrow();
+    expect(gateFacts(dir, { aliasesPath }).pass).toBe(true);
+  });
+
   it("★ 攻击A:正文塞进一个转写稿里根本没有的公司名 → 拦", () => {
     const { dir, aliasesPath } = writeEp("noun", "嘉宾说他们要和 Snowflake 竞争。");
     const r = gateFacts(dir, { aliasesPath });

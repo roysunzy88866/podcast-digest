@@ -580,6 +580,22 @@ export function gateFacts(dir, { aliasesPath } = {}) {
   // 核心比对(与实体 how_described 共用同一份组合,防漂移)
   const { nounResults, numResults, tsResults, vague, speakerWarn, failures } = checkProse(md, ctx, aliases);
 
+  // change 2(用户 AskUserQuestion 选「坏集只隔离」):实体 how_described 事实层**逐集**跑(与导读同源 checkProse),
+  // 一条实体描述编造数字/专名 = 本集失真 → 本集不过、交 main 隔离,不漏到批级实体层一条连坐整批(run 29801188491:04-05 Anthropic「190亿」)。
+  // 无 entities.json(C2 期)→ 跳过、不因缺件报错。
+  const entityFailures = [];
+  try {
+    const ents = JSON.parse(readFileSync(resolve(dir, "entities.json"), "utf8"));
+    for (const e of ents.entities ?? []) {
+      const text = String(e.how_described ?? "").trim();
+      if (!text) continue;
+      for (const f of checkProse(text, ctx, aliases).failures) {
+        entityFailures.push({ ...f, reason: `实体「${e.name}」how_described:${f.reason ?? ""}` });
+      }
+    }
+  } catch { /* 无 entities.json / 读失败 → 该集还没抽实体,导读层已足够判本集 */ }
+
+  const allFailures = [...failures, ...entityFailures];
   return {
     id: meta.id,
     nouns: nounResults,
@@ -587,8 +603,8 @@ export function gateFacts(dir, { aliasesPath } = {}) {
     timestamps: tsResults,
     vague,
     speakerWarn,
-    failures,
-    pass: failures.length === 0,
+    failures: allFailures,
+    pass: allFailures.length === 0,
   };
 }
 
