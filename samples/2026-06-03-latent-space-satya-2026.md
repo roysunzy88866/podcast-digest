@@ -121,8 +121,6 @@ tags:
 
 ## 相关单集
 
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《2026-05-03-lennys-why-cultivating-agency-matters-more》]] —— 同公司:GitHub · 同概念:智能体 (agent)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《2026-05-24-lennys-the-ai-paradox-dan-shipper》]] —— 同公司:GitHub · 同概念:智能体 (agent)
 - [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同概念:智能体 (agent)
 - [[2026-06-22-latent-space-gray-swan|《神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan》]] —— 同概念:智能体 (agent)
 - [[2026-06-24-latent-space-databricks|《为什么前沿生态必须开放》]] —— 同概念:智能体 (agent)

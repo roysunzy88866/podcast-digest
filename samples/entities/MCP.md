@@ -22,4 +22,4 @@ entity_type: 概念
 
 ## 关联实体
 
-[[Raphael Schaad]] · [[Peter Steinberger]] · [[OpenClaw]] · [[智能体]] · [[Codex]] · [[Claude Code]] · [[提示注入]] · [[命令行界面]] · [[护城河]]
+[[Raphael Schaad]] · [[Peter Steinberger]] · [[OpenClaw]] · [[智能体]] · [[Codex]] · [[Claude Code]] · [[提示注入]] · [[CLI]] · [[护城河]]

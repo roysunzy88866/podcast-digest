@@ -285,6 +285,31 @@ describe("buildEntities · 装配(纯函数,不调 GLM)", () => {
     expect(e.file).toBe("vibe coding"); // 文件名=英文
     expect(e.name).toBe("vibe coding"); // 非双语标题(值非中文 → 落 nameEn 分支)
   });
+  // ── 治本:英文技术缩写默认保英文(SaaS/CLI/API…),GLM 时译时不译最易漂,从根上钉死英文 ──
+  const T_SAAS = [
+    { text: "we moved our whole SaaS onto a new CLI workflow", start: 0, end: 8, words: mkWords("we moved our whole SaaS onto a new CLI workflow", 0, "SPEAKER_00") },
+  ];
+  it("★ 缩写 SaaS 默认保英文,不译「软件即服务」(无需进钉死表)", () => {
+    const glm = { tags: ["AI", "SaaS", "工具"], entities: [{ name_zh: "软件即服务", name_en: "SaaS", type: "concept", role: "concept", primary: true, how_described: "订阅制软件" }] };
+    const out = buildEntities({ meta: META, transcript: T_SAAS, aliases: ALIASES, glmOut: glm, glossary: new Map() });
+    const e = out.entities.find((x) => x.id === "saas");
+    expect(e.file).toBe("SaaS");
+    expect(e.name).toBe("SaaS");
+  });
+  it("★ 缩写 CLI 同理保英文", () => {
+    const glm = { tags: ["AI", "CLI", "工具"], entities: [{ name_zh: "命令行界面", name_en: "CLI", type: "concept", role: "concept", primary: true, how_described: "命令行工具" }] };
+    const out = buildEntities({ meta: META, transcript: T_SAAS, aliases: ALIASES, glmOut: glm, glossary: new Map() });
+    const e = out.entities.find((x) => x.id === "cli");
+    expect(e.file).toBe("CLI");
+  });
+  it("★ 非缩写概念不受影响,仍走中文双语(taste→品味)", () => {
+    const T = [{ text: "good taste is the real moat here", start: 0, end: 6, words: mkWords("good taste is the real moat here", 0, "SPEAKER_00") }];
+    const glm = { tags: ["AI", "品味", "工具"], entities: [{ name_zh: "品味", name_en: "taste", type: "concept", role: "concept", primary: true, how_described: "审美判断" }] };
+    const out = buildEntities({ meta: META, transcript: T, aliases: ALIASES, glmOut: glm, glossary: new Map() });
+    const e = out.entities.find((x) => x.id === "taste");
+    expect(e.file).toBe("品味");
+    expect(e.name).toBe("品味 (taste)");
+  });
 
   it("★ 别名表没登记的新概念 → 双语标题 + 中文文件名(裁决 #10),不靠别名表兜底", () => {
     // sandbox 在原文里真出现("needs a sandbox to run untrusted code")但别名表没登记 →

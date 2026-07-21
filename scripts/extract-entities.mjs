@@ -98,9 +98,19 @@ export function collectEvidence(forms, transcript) {
   return out;
 }
 
+/** 英文技术缩写(SaaS/CLI/API/SDK/LLM…):2–6 个字母、含 ≥2 个大写。GLM 时译时不译最易漂,默认保英文。 */
+export function isAcronym(s) {
+  const t = String(s ?? "");
+  return /^[A-Za-z]{2,6}$/.test(t) && (t.replace(/[^A-Z]/g, "").length >= 2);
+}
+
 /** 概念/公司/人物的展示名与文件名(裁决 #10:概念双语标题+中文文件名;人名/公司名用原文)。
- *  pinnedZh = 钉死译名表(glossary)给的中文:有则盖掉 GLM 每集现译,跨集统一防漂移(bug b)。 */
+ *  pinnedZh = 钉死译名表(glossary)给的中文:有则盖掉 GLM 每集现译,跨集统一防漂移(bug b)。
+ *  英文缩写(isAcronym)默认保英文,从根上不漂——除非 glossary 显式给了中文钉(治本)。 */
 function labelFor(type, nameZh, nameEn, pinnedZh) {
+  if (type === "concept" && isAcronym(nameEn) && !(pinnedZh && isChinese(pinnedZh))) {
+    return { name: nameEn, file: nameEn };
+  }
   const zh = pinnedZh || nameZh;
   if (type === "concept" && zh && zh !== nameEn && isChinese(zh)) {
     return { name: `${zh} (${nameEn})`, file: zh };
