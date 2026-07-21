@@ -129,7 +129,6 @@ Signal 的核心作用是检查策略违规行为,它既能解析传入的不可
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella：Microsoft Build特别跨界对谈》]] —— 同概念:智能体 (agent)
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《2026-04-19-lennys-why-half-of-product-managers-are-in-trou》]] —— 同概念:智能体 (agent)
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|《2026-05-03-lennys-why-cultivating-agency-matters-more》]] —— 同概念:智能体 (agent)
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《2026-04-05-lennys-anthropics-1b-to-19b-growth-run》]] —— 同公司:Anthropic
 
 ---
 

@@ -6,7 +6,7 @@ entity_type: 人物
 # Raphael Schaad
 
 > [!info] 人物
-> 出现在 1 集 · 金句 2 条 · 关联 10 个
+> 出现在 1 集 · 金句 2 条 · 关联 9 个
 
 ## 金句
 
@@ -20,4 +20,4 @@ entity_type: 人物
 
 ## 关联实体
 
-[[Peter Steinberger]] · [[OpenClaw]] · [[智能体]] · [[Codex]] · [[Claude Code]] · [[MCP]] · [[提示注入]] · [[CLI]] · [[护城河]] · [[ChatGPT]]
+[[Peter Steinberger]] · [[OpenClaw]] · [[智能体]] · [[Codex]] · [[Claude Code]] · [[MCP]] · [[提示注入]] · [[CLI]] · [[护城河]]
