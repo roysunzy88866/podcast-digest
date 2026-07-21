@@ -123,9 +123,13 @@ Signal 的核心作用是检查策略违规行为,它既能解析传入的不可
 - [[2026-06-24-latent-space-databricks|《为什么前沿生态必须开放》]] —— 同公司:Snowflake · 同概念:智能体 (agent)、沙箱 (sandbox)
 - [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
 - [[2026-07-08-latent-space-modal|《为什么 AI 基础设施必须为「Agent 体验」进化》]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《2026-05-24-lennys-the-ai-paradox-dan-shipper》]] —— 同公司:Anthropic · 同概念:智能体 (agent)
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto》]] —— 同概念:智能体 (agent)、OpenClaw
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《2026-07-19-lennys-netflix-cpto-on-ai-and-the-future》]] —— 同概念:智能体 (agent)、护栏 (guardrails)
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella：Microsoft Build特别跨界对谈》]] —— 同概念:智能体 (agent)
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《2026-04-19-lennys-why-half-of-product-managers-are-in-trou》]] —— 同概念:智能体 (agent)
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《2026-05-03-lennys-why-cultivating-agency-matters-more》]] —— 同概念:智能体 (agent)
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《2026-04-05-lennys-anthropics-1b-to-19b-growth-run》]] —— 同公司:Anthropic
 
 ---
 

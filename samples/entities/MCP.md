@@ -6,7 +6,7 @@ entity_type: 概念
 # MCP
 
 > [!info] 概念
-> 出现在 1 集 · 金句 1 条 · 关联 9 个
+> 出现在 1 集 · 金句 1 条 · 关联 10 个
 
 ## 集里怎么说它
 
@@ -22,4 +22,4 @@ entity_type: 概念
 
 ## 关联实体
 
-[[Raphael Schaad]] · [[Peter Steinberger]] · [[OpenClaw]] · [[智能体]] · [[Codex]] · [[Claude Code]] · [[提示注入]] · [[CLI]] · [[护城河]]
+[[Raphael Schaad]] · [[Peter Steinberger]] · [[OpenClaw]] · [[智能体]] · [[Codex]] · [[Claude Code]] · [[提示注入]] · [[CLI]] · [[护城河]] · [[ChatGPT]]

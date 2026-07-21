@@ -14,4 +14,4 @@ entity_type: 人物
 
 ## 关联实体
 
-[[Zico Kolter]] · [[Gray Swan]] · [[Snowflake]] · [[红队竞技场]] · [[Shade]] · [[Signal]] · [[OpenClaw]] · [[提示词注入]] · [[间接提示词注入]] · [[致命三角]]
+[[Zico Kolter]] · [[Gray Swan]] · [[Snowflake]] · [[Anthropic]] · [[红队竞技场]] · [[Shade]] · [[Signal]] · [[OpenClaw]] · [[提示词注入]] · [[间接提示词注入]]

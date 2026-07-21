@@ -20,4 +20,4 @@ entity_type: 公司
 
 ## 关联实体
 
-[[智能体]] · [[沙箱]] · [[Zico Kolter]] · [[Matei Zaharia]] · [[Matt Fredrikson]] · [[Reynold Xin]] · [[Gray Swan]] · [[Databricks]] · [[红队竞技场]] · [[Neon]]
+[[智能体]] · [[沙箱]] · [[Zico Kolter]] · [[Matei Zaharia]] · [[Matt Fredrikson]] · [[Reynold Xin]] · [[Gray Swan]] · [[Databricks]] · [[Anthropic]] · [[Neon]]
