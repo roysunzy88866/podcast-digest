@@ -18,4 +18,4 @@ entity_type: 概念
 
 ## 关联实体
 
-[[Zico Kolter]] · [[Matt Fredrikson]] · [[Gray Swan]] · [[Snowflake]] · [[红队竞技场]] · [[Shade]] · [[OpenClaw]] · [[提示词注入]] · [[间接提示词注入]] · [[致命三角]]
+[[Zico Kolter]] · [[Matt Fredrikson]] · [[Gray Swan]] · [[Snowflake]] · [[Anthropic]] · [[红队竞技场]] · [[Shade]] · [[OpenClaw]] · [[提示词注入]] · [[间接提示词注入]]

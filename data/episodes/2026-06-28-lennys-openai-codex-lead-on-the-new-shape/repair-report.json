@@ -1,0 +1,40 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "09:34",
+      "speaker": "Andrew Ambrosino",
+      "trimmed": false,
+      "tsWas": "09:34",
+      "spkWas": "Andrew Ambrosino"
+    },
+    {
+      "i": 3,
+      "timestamp": "32:18",
+      "speaker": "Andrew Ambrosino",
+      "trimmed": false,
+      "tsWas": "32:17",
+      "spkWas": "Andrew Ambrosino"
+    },
+    {
+      "i": 4,
+      "timestamp": "33:34",
+      "speaker": "Andrew Ambrosino",
+      "trimmed": false,
+      "tsWas": "33:34",
+      "spkWas": "Andrew Ambrosino"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 2,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "It's that the process is predicated on the assumption that implementation is expensive and that you can really only afford to build once."
+    },
+    {
+      "i": 5,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "I think that the danger in eliminating the concept of roles is that it can dangerously eliminate the idea that things are specialties with knowable best practices."
+    }
+  ]
+}
