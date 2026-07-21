@@ -18,4 +18,4 @@ entity_type: 公司
 
 ## 关联实体
 
-[[Zico Kolter]] · [[Matt Fredrikson]] · [[Snowflake]] · [[Anthropic]] · [[红队竞技场]] · [[Shade]] · [[Signal]] · [[OpenClaw]] · [[提示词注入]] · [[间接提示词注入]]
+[[Zico Kolter]] · [[Matt Fredrikson]] · [[Snowflake]] · [[红队竞技场]] · [[Shade]] · [[Signal]] · [[OpenClaw]] · [[提示词注入]] · [[间接提示词注入]] · [[致命三角]]

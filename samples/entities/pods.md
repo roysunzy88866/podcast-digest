@@ -18,4 +18,4 @@ entity_type: 概念
 
 ## 关联实体
 
-[[Lenny]] · [[Adam Mosseri]] · [[instagram]] · [[TikTok]] · [[product staff]] · [[品味]] · [[智能体]] · [[大型语言模型]] · [[嵌入模型]] · [[按时间顺序的信息流]]
+[[Lenny]] · [[Adam Mosseri]] · [[instagram]] · [[product staff]] · [[品味]] · [[大型语言模型]] · [[嵌入模型]] · [[按时间顺序的信息流]] · [[AI 生成内容]] · [[vibe coding]]

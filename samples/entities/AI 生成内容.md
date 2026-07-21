@@ -6,25 +6,13 @@ entity_type: 概念
 # AI 生成内容 (ai content)
 
 > [!info] 概念
-> 出现在 1 集 · 金句 12 条 · 关联 10 个
+> 出现在 1 集 · 金句 6 条 · 关联 10 个
 
 ## 集里怎么说它
 
 - **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for》]]**(00:37起):本集认为这对于 Instagram 而言将是顺风也是挑战。在一个充斥合成内容的世界里，人们会更渴望真实的人与创造力；平台不应过滤掉它，而应让你知道发帖者的背景，甚至未来可能转为标记真实的相机拍摄内容。
 
 ## 金句
-
-![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q3]]
-
-![[2026-01-29-lennys-marc-andreessen-the-real-ai-boom#^q3]]
-
-![[2026-01-29-lennys-marc-andreessen-the-real-ai-boom#^q7]]
-
-![[2026-01-29-lennys-marc-andreessen-the-real-ai-boom#^q8]]
-
-![[2026-04-19-lennys-why-half-of-product-managers-are-in-trou#^q3]]
-
-![[2026-04-26-lennys-snapchat-ceo-why-distribution-is#^q1]]
 
 ![[2026-06-22-latent-space-gray-swan#^q3]]
 
@@ -44,4 +32,4 @@ entity_type: 概念
 
 ## 关联实体
 
-[[Lenny]] · [[Adam Mosseri]] · [[instagram]] · [[TikTok]] · [[pods]] · [[product staff]] · [[品味]] · [[智能体]] · [[大型语言模型]] · [[嵌入模型]]
+[[Lenny]] · [[Adam Mosseri]] · [[instagram]] · [[pods]] · [[product staff]] · [[品味]] · [[大型语言模型]] · [[嵌入模型]] · [[按时间顺序的信息流]] · [[vibe coding]]

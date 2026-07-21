@@ -18,4 +18,4 @@ entity_type: 公司
 
 ## 关联实体
 
-[[Saragawa]] · [[Satya Nadella]] · [[GitHub]] · [[MAI 模型]] · [[私有评估]] · [[外壳层]] · [[上下文层]] · [[WorkIQ]] · [[爬山]] · [[智能体]]
+[[Saragawa]] · [[Satya Nadella]] · [[GitHub]] · [[MAI 模型]] · [[私有评估]] · [[测试框架]] · [[上下文层]] · [[WorkIQ]] · [[爬山]] · [[智能体]]
