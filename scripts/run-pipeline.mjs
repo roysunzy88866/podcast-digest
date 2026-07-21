@@ -121,6 +121,17 @@ export function selectBackfill(items, { n, existingIds, source }) {
  * 直接跑会把新源该时间后的**存量旧集**当新集批量处理(烧钱 + 可能发一堆旧集)。
  * 有 cutoff 但不是当前源的 → 逼先 --seed 重设基线。机器拦,不靠人记得(D44④ 从操作规程升级为闸门)。
  */
+/**
+ * 把一条隔离记录并入持久账本(同 id 只留最新一条:防账本膨胀 + 防同集重录,GLM #5)。
+ * 纯函数、就地改 state.skipped;调用方每隔离一集即刻落盘(bug c:原来只在 main 末尾写一次,
+ * 中途崩溃/末尾 gate 挂 → 前面已隔离的集全没记账 → 下次重跑当没见过、重新处理重扣钱)。
+ */
+export function appendSkip(state, entry) {
+  state.skipped = (state.skipped ?? []).filter((s) => s.id !== entry.id);
+  state.skipped.push(entry);
+  return state;
+}
+
 export function needsReseed(state, sourceKey) {
   return !!state.sincePubDate && state.cutoffSource !== sourceKey;
 }
@@ -339,9 +350,10 @@ async function main() {
       renameSync(join(EPISODES_DIR, id), to);
       writeFileSync(join(to, "skip-reason.txt"), `${res.reason}\n${item.title}\n${item.link}\n`);
       skipped.push({ id, reason: res.reason, retry: false });
-      // 持久账本(去重+通知):同 id 只留一条(理论上 seen 已挡重跑,防御性去重防账本膨胀,GLM #5)
-      state.skipped = state.skipped.filter((s) => s.id !== id);
-      state.skipped.push({ id, reason: res.reason, title: item.title, pubDate: item.pubDateISO });
+      // 持久账本(去重+通知)+ 即刻落盘:每隔离一集立刻 writeState,后续步骤(gate-all 等)崩了也不丢账(bug c)。
+      // cutoff 不在此推进(仍只在收尾无 retry 时安全推进),这里只固化「这集已隔离、别再重跑重扣钱」。
+      appendSkip(state, { id, reason: res.reason, title: item.title, pubDate: item.pubDateISO });
+      writeState(state);
       console.log(`   ⛔ ${id} 隔离:${res.reason}`);
     }
   }
