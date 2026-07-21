@@ -592,3 +592,25 @@ describe("gateFacts · 端到端拦截(每条 = 一次真攻击)", () => {
     expect(r.failures.some((f: any) => f.raw === "7777")).toBe(true);
   });
 });
+
+describe("数值双语匹配:digit+量级词(19 billion)↔ 中文（190亿）—— 救翻译型误判", () => {
+  it("★ 转写稿「19 billion」索引应含 1.9e10(=190亿),现在缺 = 误判根因", () => {
+    const idx = buildFactIndex([{ text: "Anthropic went from 1 billion to 19 billion in revenue", start: 0, end: 5, words: [] }], {}, { entities: [] });
+    expect(idx.numbers.has(19e9)).toBe(true); // 19 billion → 1.9e10
+    expect(idx.numbers.has(1.7e6)).toBe(false); // 无关值不该在
+  });
+  it("★ 1.7 million → 1.7e6(= 170万)", () => {
+    const idx = buildFactIndex([{ text: "they had 1.7 million users", start: 0, end: 3, words: [] }], {}, { entities: [] });
+    expect(idx.numbers.has(1.7e6)).toBe(true);
+  });
+  it("★ 端到端:digest「190亿」对上转写稿「19 billion」→ 不判编造(救回 04-05 类)", () => {
+    const ctx = buildFactIndex([{ text: "revenue grew to 19 billion dollars this year", start: 0, end: 4, words: [] }], {}, { entities: [] });
+    const { failures } = checkProse("公司今年收入达到 190亿 美元。", ctx, { entities: [] });
+    expect(failures.some((f: any) => f.kind === "D17-数字")).toBe(false);
+  });
+  it("★ 真编的数字仍拦:转写稿无任何对应量级 → 190亿 照样判编造", () => {
+    const ctx = buildFactIndex([{ text: "we had a good year with modest growth", start: 0, end: 4, words: [] }], {}, { entities: [] });
+    const { failures } = checkProse("公司今年收入达到 190亿 美元。", ctx, { entities: [] });
+    expect(failures.some((f: any) => f.kind === "D17-数字")).toBe(true);
+  });
+});

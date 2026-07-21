@@ -122,6 +122,17 @@ function collectNumbers(text, into) {
     const v = Number(m[0].replace(/,/g, "").replace(/\.$/, ""));
     if (Number.isFinite(v)) into.add(v);
   }
+  // 数字 + 量级词(19 billion / 1.7 million / $500k)——原来数字被 \d 抽走、量级词进 a-z 词流,
+  // 两者被拆开、never composed → 中文导读「190亿/170万」(已缩放成 1.9e10/1.7e6)对不上英文原文 = 翻译型误判根因。
+  // 量级词白名单(thousand/million/billion/trillion + bn/mn/k);不收裸 m/b(米/分钟歧义太强)。
+  // k 在本域(商业/科技播客)几乎总是「千」,但非绝对无歧义(千比特等)——权衡:这里只往**源侧**加值,
+  // 至多让某个 digest 数字"更容易被判有出处"(放宽、绝不误杀),真编的数字仍要在源里找到对应量级才过 → 收益 > 风险(GLM 004[3])。
+  const UNIT = { thousand: 1e3, k: 1e3, million: 1e6, mn: 1e6, billion: 1e9, bn: 1e9, trillion: 1e12 };
+  for (const m of String(text).matchAll(/(\d[\d,]*(?:\.\d+)?)\s*(thousand|million|billion|trillion|mn|bn|k)\b/gi)) {
+    const n = Number(m[1].replace(/,/g, ""));
+    const scale = UNIT[m[2].toLowerCase()];
+    if (Number.isFinite(n) && scale) into.add(n * scale);
+  }
   // 英文数字词
   const toks = String(text).toLowerCase().split(/[^a-z]+/).filter(Boolean);
   let run = [];
