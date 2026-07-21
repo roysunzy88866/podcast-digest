@@ -19,6 +19,7 @@ import {
   collectEvidence,
   buildEntities,
   validateExtract,
+  parseGlossaryPins,
 } from "../scripts/extract-entities.mjs";
 
 // ── fixture:2 说话人、逐词时间戳(镜像真数据结构)──
@@ -257,6 +258,34 @@ describe("buildEntities · 装配(纯函数,不调 GLM)", () => {
     expect(out.entities.filter((e) => e.id === "modal").length).toBe(1);
   });
 
+  // ── bug b:概念中文名钉死译名表(glossary),不随 GLM 每集现译漂移 → 防孤儿页/死链 ──
+  const T_VIBE = [
+    { text: "we started doing vibe coding with the agent", start: 0, end: 6, words: mkWords("we started doing vibe coding with the agent", 0, "SPEAKER_00") },
+  ];
+  const GLM_VIBE = {
+    tags: ["AI", "编程", "智能体"],
+    // GLM 这集把 vibe coding 现译成「氛围编码」(另一集可能译「凭感觉编程」→ 漂移根因)
+    entities: [{ name_zh: "氛围编码", name_en: "vibe coding", type: "concept", role: "concept", primary: true, how_described: "凭感觉写代码" }],
+  };
+  it("★ 钉死表命中 → 用表里的中文,盖掉 GLM 每集现译(氛围编码 → 凭感觉编程)", () => {
+    const out = buildEntities({ meta: META, transcript: T_VIBE, aliases: ALIASES, glmOut: GLM_VIBE, glossary: new Map([["vibe-coding", "凭感觉编程"]]) });
+    const e = out.entities.find((x) => x.id === "vibe-coding");
+    expect(e).toBeTruthy();
+    expect(e.file).toBe("凭感觉编程"); // 文件名钉死,跨集绝不裂
+    expect(e.name).toBe("凭感觉编程 (vibe coding)");
+  });
+  it("★ 钉死表没有该词 → 退回 GLM name_zh(保持旧行为、不硬拦新概念)", () => {
+    const out = buildEntities({ meta: META, transcript: T_VIBE, aliases: ALIASES, glmOut: GLM_VIBE, glossary: new Map() });
+    const e = out.entities.find((x) => x.id === "vibe-coding");
+    expect(e.file).toBe("氛围编码"); // 无 pin → 用 GLM 的(闸门另行提醒补表)
+  });
+  it("★ 钉死为英文(『保留英文不译』)→ 概念页保英文,盖掉 GLM 的中文", () => {
+    const out = buildEntities({ meta: META, transcript: T_VIBE, aliases: ALIASES, glmOut: GLM_VIBE, glossary: new Map([["vibe-coding", "vibe coding"]]) });
+    const e = out.entities.find((x) => x.id === "vibe-coding");
+    expect(e.file).toBe("vibe coding"); // 文件名=英文
+    expect(e.name).toBe("vibe coding"); // 非双语标题(值非中文 → 落 nameEn 分支)
+  });
+
   it("★ 别名表没登记的新概念 → 双语标题 + 中文文件名(裁决 #10),不靠别名表兜底", () => {
     // sandbox 在原文里真出现("needs a sandbox to run untrusted code")但别名表没登记 →
     // 收下它,并按 #10 生成「沙箱 (Sandbox)」/ file=沙箱。
@@ -323,5 +352,35 @@ describe("CLI 入口(isMain)· 本仓库路径含中文『视频』→ import.me
     // 变异验证:把 isMain 换回 `import.meta.url === \`file://${process.argv[1]}\`` → 静默 exit 0,本条挂。
     const r = spawnSync(process.execPath, [script, "data/__ci_nonexistent__"], { encoding: "utf8" });
     expect(r.status).not.toBe(0); // 进了 main、读不到 meta.json 而报错 —— 不是静默空转
+  });
+});
+
+describe("parseGlossaryPins · 解析 glossary『统一中文译名』表 → id→中文钉死表(bug b)", () => {
+  const MD = `# 术语表
+## 保留英文不译(品牌)
+Modal · Kubernetes(K8s) · GPU · vibe coding
+## 统一中文译名
+| 英文 | 中文 | 备注 |
+|---|---|---|
+| agent | 智能体 | ⚠️ 不译代理 |
+| vibe coding | 凭感觉编程 | |
+| burstiness / bursty | 突发性 / 突发的 | |
+## ⚠️ 转写错纠正边界
+- 全译层照搬原文错误
+`;
+  const pins = parseGlossaryPins(MD);
+  it("英文词按 slug 归一为 key,值取中文", () => {
+    expect(pins.get("agent")).toBe("智能体");
+    expect(pins.get("vibe-coding")).toBe("凭感觉编程"); // 多词英文 → slug 连字符
+  });
+  it("值含斜杠(多写法)取首个", () => {
+    expect(pins.get("burstiness-bursty")).toBe("突发性");
+  });
+  it("『保留英文不译』段的品牌 → 钉成英文本身(概念页也保英文,值非中文)", () => {
+    expect(pins.get("modal")).toBe("Modal");
+    expect(pins.get("kubernetes")).toBe("Kubernetes"); // 括注 (K8s) 被剥掉
+  });
+  it("跳过表头/分隔行", () => {
+    expect(pins.has("英文")).toBe(false);
   });
 });

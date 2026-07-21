@@ -98,21 +98,57 @@ export function collectEvidence(forms, transcript) {
   return out;
 }
 
-/** 概念/公司/人物的展示名与文件名(裁决 #10:概念双语标题+中文文件名;人名/公司名用原文) */
-function labelFor(type, nameZh, nameEn) {
-  if (type === "concept" && nameZh && nameZh !== nameEn && isChinese(nameZh)) {
-    return { name: `${nameZh} (${nameEn})`, file: nameZh };
+/** 概念/公司/人物的展示名与文件名(裁决 #10:概念双语标题+中文文件名;人名/公司名用原文)。
+ *  pinnedZh = 钉死译名表(glossary)给的中文:有则盖掉 GLM 每集现译,跨集统一防漂移(bug b)。 */
+function labelFor(type, nameZh, nameEn, pinnedZh) {
+  const zh = pinnedZh || nameZh;
+  if (type === "concept" && zh && zh !== nameEn && isChinese(zh)) {
+    return { name: `${zh} (${nameEn})`, file: zh };
   }
   return { name: nameEn, file: nameEn };
+}
+
+/**
+ * 解析 glossary.md → Map(slug(英文) → 钉死名),供概念页文件名钉死、跨集不漂(bug b):
+ *   ·「统一中文译名」表 → 值=中文(labelFor 用双语标题、文件名=中文)
+ *   ·「保留英文不译」段(· 分隔) → 值=英文本身(labelFor 见非中文值 → 概念页也保英文,如 vibe coding)
+ * 值含斜杠(如「突发性 / 突发的」)取首个;英文的括注(如 Kubernetes(K8s))剥掉。
+ */
+export function parseGlossaryPins(md) {
+  const pins = new Map();
+  const put = (en, name) => {
+    const id = slugify(en);
+    if (id && name && !pins.has(id)) pins.set(id, name);
+  };
+  const sections = String(md ?? "").split(/^##\s+/m);
+  // 统一中文译名表:en → 中文
+  const zhSec = sections.find((s) => s.startsWith("统一中文译名"));
+  for (const line of zhSec?.split("\n") ?? []) {
+    const m = line.match(/^\|([^|]+)\|([^|]+)\|/);
+    if (!m) continue;
+    const en = m[1].trim();
+    const zh = m[2].trim().split(/\s*\/\s*/)[0].trim();
+    if (!en || en === "英文" || /^-+$/.test(en) || !isChinese(zh)) continue; // 跳表头/分隔/非中文值
+    put(en, zh);
+  }
+  // 保留英文不译段:概念页也保英文(值非中文 → labelFor 落到 nameEn 分支)
+  const enSec = sections.find((s) => s.startsWith("保留英文不译"));
+  for (const tok of (enSec?.split("\n").slice(1).join(" ") ?? "").split("·")) {
+    const t = tok.replace(/[(（][^)）]*[)）]/g, "").trim(); // 去括注 Kubernetes(K8s)→Kubernetes
+    if (t && !t.startsWith("#")) put(t, t);
+  }
+  return pins;
 }
 
 /**
  * 装配(纯函数,不调 GLM):meta 人物 + GLM 公司/概念 → 一份 entities.json。
  * GLM 实体逐个回原文校验:命中不了 或 集内无出处 → 进 rejected;通过的补真 evidence、按 id 归一去重。
  */
-export function buildEntities({ meta, transcript, aliases, glmOut }) {
+export function buildEntities({ meta, transcript, aliases, glmOut, glossary }) {
   const ctx = buildFactIndex(transcript, meta, aliases);
   const aliasById = new Map((aliases?.entities ?? []).map((e) => [e.id, e]));
+  // 钉死译名表:接受 Map(id→中文) 或普通对象;缺省=空(退回 GLM 现译,保持旧行为)
+  const glossaryPins = glossary instanceof Map ? glossary : new Map(Object.entries(glossary ?? {}));
 
   const entities = [];
   const rejected = [];
@@ -144,7 +180,10 @@ export function buildEntities({ meta, transcript, aliases, glmOut }) {
       rejected.push({ name: nameEn, reason: "命中真相源但本集正文无出处(疑只在标题/别名表出现)" });
       continue;
     }
-    const label = alias ? { name: alias.name, file: alias.file } : labelFor(g.type, nameZh, nameEn);
+    // 别名表已登记 → 用它(最权威,带 forms/误写);否则概念查钉死译名表,再退回 GLM 现译
+    const label = alias
+      ? { name: alias.name, file: alias.file }
+      : labelFor(g.type, nameZh, nameEn, glossaryPins.get(id));
     const ent = {
       id,
       type: g.type,
@@ -230,8 +269,10 @@ async function main() {
   const digest = JSON.parse(readFileSync(resolve(dir, "digest.json"), "utf8"));
   const aliases = JSON.parse(readFileSync(resolve(ROOT, "data/aliases.json"), "utf8"));
 
+  const glossaryMd = readFileSync(resolve(ROOT, "prompts/glossary.md"), "utf8");
+  const glossaryPins = parseGlossaryPins(glossaryMd); // 概念页中文名钉死表(bug b)
   const SYS = readFileSync(resolve(ROOT, "prompts/extract-entities.md"), "utf8") +
-    "\n\n---\n术语表(统一译名):\n" + readFileSync(resolve(ROOT, "prompts/glossary.md"), "utf8");
+    "\n\n---\n术语表(统一译名):\n" + glossaryMd;
 
   const mmss = (s) => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(Math.floor(s % 60)).padStart(2, "0")}`;
   const bilingual = translation.map((s) => `[${mmss(s.start)} ${s.speaker}] ${s.en} ‖ ${s.zh}`).join("\n");
@@ -266,7 +307,7 @@ async function main() {
     process.exit(1);
   }
 
-  const out = buildEntities({ meta, transcript, aliases, glmOut });
+  const out = buildEntities({ meta, transcript, aliases, glmOut, glossary: glossaryPins });
   writeFileSync(resolve(dir, "entities.json"), JSON.stringify(out, null, 2));
   const persons = out.entities.filter((e) => e.type === "person").length;
   const primary = out.entities.filter((e) => e.primary).length;

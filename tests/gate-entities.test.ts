@@ -9,6 +9,7 @@ import {
   checkDeadLinks,
   checkEntityConsistency,
   checkEntityFacts,
+  checkNameDrift,
 } from "../scripts/gate-entities.mjs";
 import { buildAllPages } from "../scripts/build-entities.mjs";
 
@@ -134,5 +135,34 @@ describe("checkEntityFacts · ① how_described 走 D17/D8", () => {
     let f;
     expect(() => { f = checkEntityFacts(noTranscript, ALIASES); }).not.toThrow(); // 不炸穿
     expect(f.some((x) => x.kind === "结构")).toBe(true); // 判不了=记不过
+  });
+});
+
+describe("checkNameDrift · 译名漂移检测(bug b:同 id 跨集不同中文名 = 孤儿页/死链)", () => {
+  const ep = (epId: string, id: string, file: string) => ({
+    meta: { id: epId },
+    entities: { entities: [{ id, file, name: file }] },
+  });
+  it("同 id 跨集出现两个中文名 → 拦,并指名两个变体", () => {
+    const fs = checkNameDrift([
+      ep("2026-07-01-x", "vibe-coding", "凭感觉编程"),
+      ep("2026-07-08-y", "vibe-coding", "氛围编码"),
+    ]);
+    expect(fs.length).toBe(1);
+    expect(fs[0].kind).toBe("译名漂移");
+    expect(fs[0].reason).toContain("凭感觉编程");
+    expect(fs[0].reason).toContain("氛围编码");
+    expect(fs[0].reason).toContain("glossary"); // 指出修法=补钉死表
+  });
+  it("同 id 跨集同名(已钉死)→ 不拦", () => {
+    const fs = checkNameDrift([
+      ep("2026-07-01-x", "vibe-coding", "凭感觉编程"),
+      ep("2026-07-08-y", "vibe-coding", "凭感觉编程"),
+    ]);
+    expect(fs).toEqual([]);
+  });
+  it("不同 id 各自一名 → 不误报", () => {
+    const fs = checkNameDrift([ep("e1", "agent", "智能体"), ep("e1", "sandbox", "沙箱")]);
+    expect(fs).toEqual([]);
   });
 });

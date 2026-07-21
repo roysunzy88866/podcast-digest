@@ -109,6 +109,35 @@ export function checkEntityFacts(episodes, aliases) {
   return failures;
 }
 
+/**
+ * ⑤ 译名漂移(bug b · standard-change 2026-07-21 用户 AskUserQuestion 授权):
+ *    同一实体 id 跨集出现**不同 file(中文名)**= 聚合只建一个页,另一名的正文双链变孤儿/死链。
+ *    钉死译名表(glossary)后不该再发生;仍发生=有未钉死的概念漂了 → 拦并指名变体、提示补 glossary。
+ */
+export function checkNameDrift(episodes) {
+  const byId = new Map(); // id → Map(file → 首次见到它的集 id)
+  for (const ep of episodes) {
+    for (const e of ep.entities?.entities ?? []) {
+      if (!e.id || !e.file) continue;
+      if (!byId.has(e.id)) byId.set(e.id, new Map());
+      const files = byId.get(e.id);
+      if (!files.has(e.file)) files.set(e.file, ep.meta?.id ?? "?");
+    }
+  }
+  const failures = [];
+  for (const [id, files] of byId) {
+    if (files.size > 1) {
+      const variants = [...files.entries()].map(([f, ep]) => `${f}(${ep})`).join(" vs ");
+      failures.push({
+        kind: "译名漂移",
+        file: id,
+        reason: `实体 id「${id}」跨集出现多个中文名:${variants} → 把该词钉进 prompts/glossary.md 的「统一中文译名」表再重跑`,
+      });
+    }
+  }
+  return failures;
+}
+
 /** 全部实体层闸门 */
 export function gateEntities({ base = resolve(ROOT, "data/episodes"), samplesDir = resolve(ROOT, "samples") } = {}) {
   const aliases = JSON.parse(readFileSync(resolve(ROOT, "data/aliases.json"), "utf8"));
@@ -147,6 +176,7 @@ export function gateEntities({ base = resolve(ROOT, "data/episodes"), samplesDir
     ...checkDeadLinks({ pages, episodeIds, entityFiles, episodeBlocks }),
     ...checkEntityConsistency(episodes, aliasById, entityDir),
     ...checkEntityFacts(episodes, aliases),
+    ...checkNameDrift(episodes),
   ];
   return { pass: failures.length === 0, failures, counts: { pages: pages.length, entities: entityFiles.size } };
 }

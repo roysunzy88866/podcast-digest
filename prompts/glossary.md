@@ -4,7 +4,7 @@
 > 用法:注入全译/浓缩 system prompt。新集发现高频新术语 → 补这里再跑。
 
 ## 保留英文不译(品牌/协议/库/缩写)
-Modal · Kubernetes(K8s) · GPU · CPU · RDMA · IPv6 · vLLM · SGLang · DeFlash · Modal Bench · Gitpod · Ona · ChatGPT · Claude · Python · TypeScript · CI · ETL · DSL · RL · LLM · API · CTO · CEO
+Modal · Kubernetes(K8s) · GPU · CPU · RDMA · IPv6 · vLLM · SGLang · DeFlash · Modal Bench · Gitpod · Ona · ChatGPT · Claude · Python · TypeScript · CI · ETL · DSL · RL · LLM · API · CTO · CEO · vibe coding
 
 ## 统一中文译名
 | 英文 | 中文 | 备注 |
