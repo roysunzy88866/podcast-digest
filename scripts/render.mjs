@@ -95,6 +95,33 @@ const HEADING_LINE_RE = /^\s*#/;
  * 只链 primary(有页,#9);每个实体只链一次(首现);【背景】/引用行跳过。
  * file 名按长度降序,先长后短,避免短名先吃掉长名的子串。
  */
+// 已插入的 [[…]] 双链区间(补链时是禁区:短名不许匹配进长名的链接内部,防畸形嵌套 [[[[…]] / [[…[[…]])
+function linkSpans(L) {
+  const spans = [];
+  const re = /\[\[.*?\]\]/g;
+  let m;
+  while ((m = re.exec(L))) spans.push([m.index, m.index + m[0].length]);
+  return spans;
+}
+
+/** t 在 L 中首个**落在已插入双链之外**的位置(ASCII 走词边界,中文按子串);无则 -1 */
+function firstIdxOutsideLinks(L, t) {
+  const spans = linkSpans(L);
+  const inSpan = (i) => spans.some(([s, e]) => i >= s && i < e);
+  if (isAscii(t)) {
+    const re = new RegExp(`(?<![A-Za-z0-9])${escapeRegExp(t)}(?![A-Za-z0-9])`, "g");
+    let m;
+    while ((m = re.exec(L))) if (!inSpan(m.index)) return m.index;
+    return -1;
+  }
+  let from = 0, idx;
+  while ((idx = L.indexOf(t, from)) >= 0) {
+    if (!inSpan(idx)) return idx;
+    from = idx + 1;
+  }
+  return -1;
+}
+
 export function linkPrimaryEntities(md, entities) {
   const targets = asArr(entities)
     .filter((e) => e.primary && e.file)
@@ -108,15 +135,9 @@ export function linkPrimaryEntities(md, entities) {
       let L = line;
       for (const t of targets) {
         if (linked.has(t)) continue;
-        // ASCII 名走词边界(防 'AI' 命中 'AIM' 之类词中误匹配,GLM 20260718-001[2]);
-        // 中文名无词边界概念,仍用 indexOf 子串
-        let idx;
-        if (isAscii(t)) {
-          const m = L.match(new RegExp(`(?<![A-Za-z0-9])${escapeRegExp(t)}(?![A-Za-z0-9])`));
-          idx = m ? m.index : -1;
-        } else {
-          idx = L.indexOf(t);
-        }
+        // 先长后短仍会让短名命中长名链接内部(如 [[智能体编码]] 里的「智能体」)→ 必须避开已插链接区,
+        // 否则产出 [[[[智能体]] / [[编码[[智能体]] 畸形双链(backfill=40 弄脏 ~11 集的根因)。
+        const idx = firstIdxOutsideLinks(L, t);
         if (idx < 0) continue;
         L = L.slice(0, idx) + `[[${t}|${t}]]` + L.slice(idx + t.length);
         linked.add(t);

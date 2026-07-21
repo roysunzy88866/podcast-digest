@@ -138,6 +138,36 @@ describe("linkPrimaryEntities · 正文首现处补双链,保留原读文", () =
     const ents = [{ id: "sandbox", type: "concept", role: "concept", name: "沙箱 (sandbox)", file: "沙箱", primary: true }];
     expect(linkPrimaryEntities("沙箱化改造", ents)).toContain("[[沙箱|沙箱]]");
   });
+  // ── 补链嵌套(backfill=40 弄脏 ~11 集的根因):短名匹配进已插入的 [[…]] 内部 → 畸形双链 ──
+  it("★ 短名是长名前缀:不套进长名的链接里(防 [[[[智能体]])", () => {
+    const ents = [
+      { id: "vibe-coding", type: "concept", role: "concept", name: "智能体编码", file: "智能体编码", primary: true },
+      { id: "agent", type: "concept", role: "concept", name: "智能体", file: "智能体", primary: true },
+    ];
+    const out = linkPrimaryEntities("本集讨论了智能体编码的未来。", ents);
+    expect(out).not.toContain("[[[["); // 不许出现嵌套开头
+    expect(out).toContain("[[智能体编码|智能体编码]]"); // 长名整体被链
+  });
+  it("★ 短名是长名后缀:不套进长名的链接里(防 [[编码[[智能体]])", () => {
+    const ents = [
+      { id: "code-agent", type: "concept", role: "concept", name: "编码智能体", file: "编码智能体", primary: true },
+      { id: "agent", type: "concept", role: "concept", name: "智能体", file: "智能体", primary: true },
+    ];
+    const out = linkPrimaryEntities("我们在做编码智能体。", ents);
+    expect(out).not.toMatch(/\[\[[^\]|]*\[\[/); // 链接名里不许再嵌 [[
+    expect(out).toContain("[[编码智能体|编码智能体]]");
+  });
+  it("★ 短名在别处独立出现时,仍在链接外正常补链", () => {
+    const ents = [
+      { id: "code-agent", type: "concept", role: "concept", name: "编码智能体", file: "编码智能体", primary: true },
+      { id: "agent", type: "concept", role: "concept", name: "智能体", file: "智能体", primary: true },
+    ];
+    // 「编码智能体」先被整体链;后文独立的「智能体」应在链接之外被单独链
+    const out = linkPrimaryEntities("先说编码智能体,再单说智能体本身。", ents);
+    expect(out).toContain("[[编码智能体|编码智能体]]");
+    expect(out).toContain("再单说[[智能体|智能体]]本身");
+    expect(out).not.toMatch(/\[\[[^\]|]*\[\[/);
+  });
 });
 
 describe("renderEpisode · 整页(host=null 不崩、金句带 ^块ID)", () => {
