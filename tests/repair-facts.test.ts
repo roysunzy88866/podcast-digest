@@ -140,3 +140,51 @@ describe("judgePatch · 三条不变量(每条都是本项目栽过的坑)", () 
     expect(v.reason).toMatch(/截断/);
   });
 });
+
+// ── change 2B(用户批「单点处理」方案):实体 how_described 分支 + 密度熔断 ──
+import { splitEntityFailures, censorEntityDescriptions, DENSITY_FUSE } from "../scripts/repair-facts.mjs";
+
+describe("splitEntityFailures · 把实体 how_described 失败从导读失败里分出来", () => {
+  const fs = [
+    { kind: "D17-数字", raw: "190亿", reason: "实体「Anthropic」how_described:数字 190亿 未在真相源出现(疑编造)" },
+    { kind: "D17-专名", name: "Snowflake", reason: "专名「Snowflake」未在真相源出现,且不在别名表(疑编造)" },
+    { kind: "D17-专名", name: "Excel", reason: "实体「Zynga」how_described:专名「Excel」未在真相源出现(疑编造)" },
+  ];
+  it("实体失败按实体名聚合,导读失败原样留下", () => {
+    const { entity, prose } = splitEntityFailures(fs);
+    expect([...entity.keys()].sort()).toEqual(["Anthropic", "Zynga"]);
+    expect(entity.get("Anthropic")).toHaveLength(1);
+    expect(prose).toHaveLength(1);
+    expect(prose[0].name).toBe("Snowflake");
+  });
+  it("空输入不崩", () => {
+    const { entity, prose } = splitEntityFailures([]);
+    expect(entity.size).toBe(0);
+    expect(prose).toEqual([]);
+  });
+});
+
+describe("censorEntityDescriptions · 切除兜底:清空还失真的 how_described(drift #7:该栏不显示)", () => {
+  it("指名实体的 how_described 清空,其它实体一字不动;返回切了几个", () => {
+    const ents = { entities: [
+      { id: "anthropic", name: "Anthropic", file: "Anthropic", how_described: "估值 190亿 的公司" },
+      { id: "modal", name: "Modal", file: "Modal", how_described: "跑智能体的云平台" },
+    ]};
+    const n = censorEntityDescriptions(ents, ["Anthropic"]);
+    expect(n).toBe(1);
+    expect(ents.entities[0].how_described).toBe("");
+    expect(ents.entities[1].how_described).toBe("跑智能体的云平台"); // 无关实体不动
+  });
+  it("名字没命中 → 切 0 个,不误伤", () => {
+    const ents = { entities: [{ id: "modal", name: "Modal", file: "Modal", how_described: "云平台" }] };
+    expect(censorEntityDescriptions(ents, ["不存在"])).toBe(0);
+    expect(ents.entities[0].how_described).toBe("云平台");
+  });
+});
+
+describe("密度熔断 · 失真太密=稿子不可信,不修直接交隔离", () => {
+  it("阈值导出且为合理值(真数据锚:06-14 六处轻失真该修;>阈值该熔断)", () => {
+    expect(DENSITY_FUSE).toBeGreaterThanOrEqual(7); // 6 处的 06-14 必须能进修复
+    expect(DENSITY_FUSE).toBeLessThanOrEqual(12);   // 别形同虚设
+  });
+});

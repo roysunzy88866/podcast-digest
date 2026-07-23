@@ -17,7 +17,7 @@
 //     (本轮实测:prompt 里写了「换个写法不是删掉」,GLM 照样删 —— 光靠 prompt 劝不住,得机器卡。)
 //  ③ **整篇复检**:补丁不能只看「这条失败没了」,还要看**没冒出新的失败**。
 //     (本轮实测:每轮重摇都冒新编造 —— 局部修同理会。)
-import { readFileSync, writeFileSync, realpathSync } from "node:fs";
+import { readFileSync, writeFileSync, realpathSync, existsSync } from "node:fs";
 import { resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { spawn } from "node:child_process";
@@ -25,6 +25,38 @@ import { gateFacts } from "./gate-facts.mjs";
 
 const MAX_ROUNDS = 4; // 每段最多重写几次(超了就交人,不无限烧钱)
 const MIN_KEEP_RATIO = 0.75; // 补丁不得短于原段的 75%(不变量②)
+
+// 密度熔断(change 2B·用户批「单点处理」方案):失真点超过此数 = 稿子整体不可信,
+// 修修补补出来的也是筛子 → 不修,直接交隔离。阈值锚在真数据:实测最"脏"的误杀集
+// (06-14)也才 6 处轻失真 → 8 以内是"边角",往上是"烂稿"。
+export const DENSITY_FUSE = 8;
+
+/** 把实体 how_described 类失败(change 2A 折进 gateFacts 的)按实体名分组;其余(导读)原样返回 */
+export function splitEntityFailures(failures) {
+  const entity = new Map();
+  const prose = [];
+  for (const f of failures ?? []) {
+    const m = String(f.reason ?? "").match(/^实体「([^」]+)」how_described:/);
+    if (m) {
+      if (!entity.has(m[1])) entity.set(m[1], []);
+      entity.get(m[1]).push(f);
+    } else prose.push(f);
+  }
+  return { entity, prose };
+}
+
+/** 切除兜底:重写救不动的实体描述清空(drift #7 先例:该栏不显示)。只动指名实体,返回切了几个 */
+export function censorEntityDescriptions(entitiesObj, names) {
+  let n = 0;
+  const set = new Set(names);
+  for (const e of entitiesObj?.entities ?? []) {
+    if (set.has(e.name) && String(e.how_described ?? "").trim()) {
+      e.how_described = "";
+      n++;
+    }
+  }
+  return n;
+}
 
 function glmAsk(system, input, maxTokens = 1200, timeoutMs = 120000) {
   return new Promise((res, rej) => {
@@ -163,10 +195,61 @@ export async function repairFacts(dir, { aliasesPath, log = () => {} } = {}) {
     return { changed: false, fixed: [], remaining: [], pass: true, origLen: md.length, finalLen: md.length };
   }
 
+  // 密度熔断(change 2B):失真太密 = 稿子整体不可信,修出来也是筛子 → 不修不烧钱,直接交隔离
+  if (before.failures.length > DENSITY_FUSE) {
+    log(`⛔ 失真密度 ${before.failures.length} > ${DENSITY_FUSE} → 熔断:稿子整体不可信,不修,交隔离`);
+    return { changed: false, fixed: [], remaining: before.failures, pass: false, fused: true, origLen: md.length, finalLen: md.length };
+  }
+
   log(`事实层 ${before.failures.length} 条未过 → 定点重写(整篇不动,只改命中的段)`);
 
   const fixed = [];
   const writeTmp = (text) => writeFileSync(dPath, JSON.stringify({ ...digest, digest_md: text }));
+
+  // ── 实体 how_described 分支(change 2B):重写 → 救不动就切除(清空该栏,drift #7)──
+  // 不走段落定位(失真词多半不在导读里,locateFailure 定不到会卡死回路);同款不变量:先校验后写。
+  const entPath = resolve(dir, "entities.json");
+  const { entity: entFails } = splitEntityFailures(before.failures);
+  if (entFails.size && existsSync(entPath)) {
+    const ENTITY_SYSTEM = `你是中文播客精华的定点校对员。给你一个实体的一句话描述、闸门指出的问题、以及原文片段。重写这句描述:闸门点名的专名/数字若原文没有,换成原文真说过的说法或去掉该断言,其余信息保留。只输出重写后的描述,不要解释。`;
+    for (const [name, fs] of entFails) {
+      const ents = JSON.parse(readFileSync(entPath, "utf8"));
+      const ent = (ents.entities ?? []).find((e) => e.name === name);
+      if (!ent) continue;
+      const savedDesc = ent.how_described;
+      // 原文证据:取该实体 evidence 时间窗附近的转写行
+      const ts = (ent.evidence ?? []).flatMap((x) => x.t ?? []);
+      const [lo, hi] = ts.length ? [Math.min(...ts) - 20, Math.max(...ts) + 20] : [0, -1];
+      const ev = transcript
+        .filter((s) => s.end >= lo && s.start <= hi)
+        .slice(0, 40)
+        .map((s) => (s.text || "").trim())
+        .join("\n") || "(没捞到原文片段;闸门点名的内容请直接去掉)";
+      let ok = false;
+      try {
+        const problems = fs.map((f) => `- ${f.reason}`).join("\n");
+        const patch = (await glmAsk(ENTITY_SYSTEM, `## 问题\n${problems}\n\n## 原文片段\n${ev}\n\n## 待修的描述\n${savedDesc}`, 400))
+          .trim().replace(/^```[a-z]*\n?|\n?```$/g, "").trim();
+        if (patch && /\p{Script=Han}/u.test(patch)) {
+          ent.how_described = patch;
+          writeFileSync(entPath, JSON.stringify(ents, null, 2));
+          const after = gateFacts(dir, opts);
+          const key = (f) => String(f.raw ?? f.name ?? f.reason);
+          const still = after.failures.some((nf) => fs.some((f) => key(f) === key(nf)));
+          const brandNew = after.failures.some((nf) => !before.failures.some((f) => key(f) === key(nf)));
+          if (!still && !brandNew) { ok = true; fixed.push({ entity: name, problems: fs.map((f) => f.raw ?? f.name) }); log(`  ✓ 实体「${name}」描述已重写(${fs.length} 处)`); }
+        }
+      } catch (e) { log(`  ✗ 实体「${name}」调 GLM 失败:${e.message}`); }
+      if (!ok) {
+        // 切除兜底(fail-closed:清空后该栏不显示,零失真;宁少一句真话不发一句假话)。
+        // 必须调 censorEntityDescriptions 本尊——内联复制逻辑=测试测的函数≠生产跑的代码(GLM 20260723-001[1] 抓到)
+        const ents2 = JSON.parse(readFileSync(entPath, "utf8"));
+        if (censorEntityDescriptions(ents2, [name]) > 0) writeFileSync(entPath, JSON.stringify(ents2, null, 2));
+        fixed.push({ entity: name, censored: true });
+        log(`  ✂ 实体「${name}」描述救不活 → 切除(该栏不显示,drift #7)`);
+      }
+    }
+  }
   const orig = md;
 
   for (let round = 1; round <= MAX_ROUNDS; round++) {

@@ -221,7 +221,14 @@ function processEpisode(item, id) {
   // gate(金句三联)+ gate-facts(导读事实层)都只读 digest,不需渲染产物。失败=GLM 真失真→交 main 隔离(skip+通知,drift #24)
   console.log(`\n   ── 逐集验证 ${id}(出稿前)──`);
   if (!runOk("node", ["scripts/gate.mjs", dir])) return { ok: false, reason: "金句三联闸门未过(疑拼接/编造/张冠李戴)" };
-  if (!runOk("node", ["scripts/gate-facts.mjs", dir])) return { ok: false, reason: "导读事实层未过(专名/数字无出处 或 内联时间戳张冠李戴)" };
+  if (!runOk("node", ["scripts/gate-facts.mjs", dir])) {
+    // change 2B(用户批「单点处理」):失真句先定点救(重写/切除,密度超限自动熔断),救完重验;仍不过才隔离。
+    // 一处边角失真不再杀整集——通过标准一分没降(重验仍是同一道闸门)。
+    console.log(`   事实层未过 → 定点重写回路(repair-facts:失真句单点救,救不动才隔离)`);
+    runOk("node", ["scripts/repair-facts.mjs", dir]); // 修没修好都以下一行重验为准
+    if (!runOk("node", ["scripts/gate-facts.mjs", dir]))
+      return { ok: false, reason: "导读/实体事实层未过(定点重写后仍未过,或密度熔断)" };
+  }
 
   run("node", ["scripts/render.mjs", dir]); // 验证过了才出集页
   run("node", ["scripts/tts.mjs", dir]);    // 才配音
