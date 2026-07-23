@@ -40,4 +40,4 @@ entity_type: 人物
 
 ## 关联实体
 
-[[Lenny]] · [[instagram]] · [[pods]] · [[product staff]] · [[品味]] · [[大型语言模型]] · [[嵌入模型]] · [[按时间顺序的信息流]] · [[AI 生成内容]] · [[vibe coding]]
+[[Lenny]] · [[instagram]] · [[TikTok]] · [[pods]] · [[product staff]] · [[品味]] · [[智能体]] · [[大型语言模型]] · [[嵌入模型]] · [[按时间顺序的信息流]]

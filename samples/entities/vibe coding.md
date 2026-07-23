@@ -20,4 +20,4 @@ entity_type: 概念
 
 ## 关联实体
 
-[[Lenny]] · [[Nikhyl Singhal]] · [[Adam Mosseri]] · [[智能体]] · [[instagram]] · [[幕僚长应用]] · [[pods]] · [[构建者]] · [[product staff]] · [[判断力]]
+[[Lenny]] · [[Nikhyl Singhal]] · [[Adam Mosseri]] · [[智能体]] · [[instagram]] · [[幕僚长应用]] · [[TikTok]] · [[构建者]] · [[pods]] · [[判断力]]

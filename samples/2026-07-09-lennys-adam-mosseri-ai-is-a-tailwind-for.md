@@ -141,6 +141,8 @@ Adam 明确表示，他**不认为平台应该过滤掉 AI 内容，也不应该
 
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《2026-04-19-lennys-why-half-of-product-managers-are-in-trou》]] —— 同概念:vibe coding
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|《2026-05-03-lennys-why-cultivating-agency-matters-more》]] —— 同概念:品味 (taste)
+- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《2026-04-26-lennys-snapchat-ceo-why-distribution-is》]] —— 同公司:TikTok · 同概念:智能体 (agents)
+- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《2026-03-22-lennys-the-art-of-influence-jessica-fain》]] —— 同概念:智能体 (agents)
 
 ---
 

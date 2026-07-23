@@ -7,7 +7,7 @@ duration: "51:49"
 host: "[[Claire Vo]]"
 cohosts: ["[[Eddie Kim]]"]
 companies: ["[[Gusto]]", "[[Cloudflare Worker]]", "[[Vercel AI SDK]]"]
-concepts: ["[[Co-Founder]]", "[[凭感觉编程]]", "[[垃圾桶法]]", "[[拉取请求]]", "[[功能标志]]", "[[智能体]]", "[[智能体循环]]", "[[Cloud Code]]", "[[永久 Zoom]]"]
+concepts: ["[[Co-Founder]]", "[[vibe code]]", "[[垃圾桶法]]", "[[拉取请求]]", "[[功能标志]]", "[[智能体]]", "[[智能体循环]]", "[[Cloud Code]]", "[[永久 Zoom]]"]
 tags:
   - AI 时代软件开发
   - 智能体
@@ -25,7 +25,7 @@ tags:
 >
 > **涉及公司**:[[Gusto]] · [[Cloudflare Worker]] · [[Vercel AI SDK]]
 >
-> **概念**:[[Co-Founder]] · [[凭感觉编程]] · [[垃圾桶法]] · [[拉取请求]] · [[功能标志]] · [[智能体]] · [[智能体循环]] · [[Cloud Code]] · [[永久 Zoom]]
+> **概念**:[[Co-Founder]] · [[vibe code]] · [[垃圾桶法]] · [[拉取请求]] · [[功能标志]] · [[智能体]] · [[智能体循环]] · [[Cloud Code]] · [[永久 Zoom]]
 >
 > **来源**:[undefined](https://www.lennysnewsletter.com/p/no-figma-no-jira-no-docs-how-gusto)
 
@@ -122,6 +122,7 @@ Eddie 追问 Katie 成功的原因,得到两点结论:一是她本身就对技�
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《2026-04-19-lennys-why-half-of-product-managers-are-in-trou》]] —— 同概念:智能体 (agent)
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《2026-05-24-lennys-the-ai-paradox-dan-shipper》]] —— 同概念:智能体 (agent)
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《2026-07-19-lennys-netflix-cpto-on-ai-and-the-future》]] —— 同概念:智能体 (agent)
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《2026-06-07-lennys-father-of-the-ipod-and-iphone-on》]] —— 同概念:vibe code
 
 ---
 

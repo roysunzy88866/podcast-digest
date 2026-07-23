@@ -24,4 +24,4 @@ entity_type: 人物
 
 ## 关联实体
 
-[[Eddie Kim]] · [[Gusto]] · [[Co-Founder]] · [[凭感觉编程]] · [[垃圾桶法]] · [[拉取请求]] · [[功能标志]] · [[智能体]] · [[智能体循环]] · [[Cloud Code]]
+[[Eddie Kim]] · [[Gusto]] · [[Co-Founder]] · [[vibe code]] · [[垃圾桶法]] · [[拉取请求]] · [[功能标志]] · [[智能体]] · [[智能体循环]] · [[Cloud Code]]

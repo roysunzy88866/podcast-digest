@@ -6,7 +6,7 @@ entity_type: 概念
 # AI 流畅度 (AI fluency)
 
 > [!info] 概念
-> 出现在 1 集 · 金句 11 条 · 关联 10 个
+> 出现在 1 集 · 金句 12 条 · 关联 10 个
 
 ## 集里怎么说它
 
@@ -15,6 +15,8 @@ entity_type: 概念
 ## 金句
 
 ![[2026-04-19-lennys-why-half-of-product-managers-are-in-trou#^q4]]
+
+![[2026-04-26-lennys-snapchat-ceo-why-distribution-is#^q1]]
 
 ![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q4]]
 
