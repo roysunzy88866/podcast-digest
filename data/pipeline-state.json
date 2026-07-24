@@ -1,7 +1,8 @@
 {
   "cutoffs": {
     "lennys": "2026-07-22T12:03:38.000Z",
-    "pg": "2026-07-20T22:11:52.000Z"
+    "pg": "2026-07-20T22:11:52.000Z",
+    "a16z": "2026-07-24T10:00:00.000Z"
   },
   "skipped": [
     {
@@ -117,6 +118,12 @@
       "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
       "title": "The PM's Guide to Governance with Eric Ries, author of The Lean Startup",
       "pubDate": "2026-07-20T22:11:52.000Z"
+    },
+    {
+      "id": "2026-07-23-a16z-building-the-physical-ai-stack-travis-ka",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "Building the Physical AI Stack | Travis Kalanick on TBPN",
+      "pubDate": "2026-07-23T10:00:00.000Z"
     }
   ]
 }

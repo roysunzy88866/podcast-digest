@@ -183,6 +183,7 @@ Adam 宁愿每隔几年经历一次这样的反噬，也要坚持进化，也不
 - [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] —— 同公司:anthropic
 - [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同公司:anthropic
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]] —— 同公司:anthropic
+- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]] —— 同公司:anthropic
 
 *本集关键词:产品团队重组 · AI 时代的人才与品味 · 推荐算法 · 创作者生态 · 平台公共沟通*
 

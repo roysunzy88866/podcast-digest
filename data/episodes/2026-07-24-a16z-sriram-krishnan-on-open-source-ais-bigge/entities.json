@@ -1,0 +1,588 @@
+{
+  "episode_id": "2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge",
+  "podcast": "The a16z Show",
+  "date": "2026-07-24",
+  "tags": [
+    "开源模型",
+    "前沿实验室",
+    "蒸馏",
+    "定价压力",
+    "AI 政策"
+  ],
+  "categories": [
+    "AI 安全",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "theo-jaffe",
+      "type": "person",
+      "role": "host",
+      "name": "Theo Jaffe",
+      "file": "Theo Jaffe",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            46.455,
+            64.002
+          ],
+          "quote": "In this episode, Theo Jaffe and Sofia Puccini are joined by former White House AI Policy Advisor Sriram Krishnan to unpack what the latest wave of open models means for frontier labs, AI policy, pricing, cybersecurity, and America's position in the global AI race.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sriram-krishnan",
+      "type": "person",
+      "role": "cohost",
+      "name": "Sriram Krishnan",
+      "file": "Sriram Krishnan",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            46.455,
+            64.002
+          ],
+          "quote": "In this episode, Theo Jaffe and Sofia Puccini are joined by former White House AI Policy Advisor Sriram Krishnan to unpack what the latest wave of open models means for frontier labs, AI policy, pricing, cybersecurity, and America's position in the global AI race.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 8,
+          "t": [
+            68.031,
+            82.181
+          ],
+          "quote": "We are live with Sriram Krishnan, who just finished his tenure as the Senior White House Policy Advisor on Artificial Intelligence, previously as a general partner at Andreessen Horowitz, and held senior roles at Microsoft, Meta, Snap, and Twitter.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "sofia-puccini",
+      "type": "person",
+      "role": "cohost",
+      "name": "Sofia Puccini",
+      "file": "Sofia Puccini",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            46.455,
+            64.002
+          ],
+          "quote": "In this episode, Theo Jaffe and Sofia Puccini are joined by former White House AI Policy Advisor Sriram Krishnan to unpack what the latest wave of open models means for frontier labs, AI policy, pricing, cybersecurity, and America's position in the global AI race.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-weight",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源权重 (open weight)",
+      "file": "开源权重",
+      "primary": true,
+      "how_described": "本集核心主线：指可公开下载并在本地运行的 AI 模型。Sriram 强调它本质更安全（因可被全球拆解检查），且正在性能上逼近前沿闭源模型，给闭源前沿实验室造成了巨大的定价压力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            360.796,
+            370.924
+          ],
+          "quote": "As somebody who spent close to the last 18, 19 months trying to make sure America wins, I really want to see the American models, whether it's closed or open weight at the frontier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 67,
+          "t": [
+            402.727,
+            407.771
+          ],
+          "quote": "You may be able to get by with frontier minus one or your open weight token of choice.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            476.098,
+            485.805
+          ],
+          "quote": "One, this could put some revenue pressure on the frontier labs because I suspect that people might start pointing their harnesses at some of these other open weight models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            570.24,
+            578.444
+          ],
+          "quote": "Number one, I don't think it is great that the leading open weight models or open source models, you know, are not American, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 110,
+          "t": [
+            634.137,
+            654.424
+          ],
+          "quote": "And what I believe with that is that open-weight models are inherently secure because when you download a model of Hugging Face, it means you have the entire world being able to take it apart, inspect it, fine-tune it, modify it, look at it in ways that you absolutely cannot if they are closed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            884.232,
+            892.494
+          ],
+          "quote": "Whereas if you are an American open weight model, it may be really confusing or challenging on whether you can distill off of other American models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            949.201,
+            952.604
+          ],
+          "quote": "But overall, I think these open-weight models are great for the ecosystem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1134.356,
+            1146.867
+          ],
+          "quote": "So another point that Dean Ball raised actually was sort of this sentiment that open-weight models deter CapEx, and they kind of destroy the ability for frontier labs to monetize their capability leads.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1172.783,
+            1182.593
+          ],
+          "quote": "So if you have an open-weight model that is providing value, that means that every part of the stack underneath, whether it is a new cloud...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1191.542,
+            1202.054
+          ],
+          "quote": "Every other part of the stack is going to orient itself to provide value because you, as an open-weight model provider, you might be working with a bank because they don't want to work with a frontier model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1265.223,
+            1278.207
+          ],
+          "quote": "And it's kind of really, you know, given me a sense of what countries and companies need to do to work with each other and to make sure everybody gets intelligence, whether it's from the frontier labs and open weight models or however that happens.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "frontier-labs",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿实验室 (frontier labs)",
+      "file": "前沿实验室",
+      "primary": true,
+      "how_described": "本集指持续研发最尖端 AI 模型的头部公司（如 OpenAI、Anthropic）。嘉宾探讨其真正的护城河是底层智能还是工具套件，并认为随着开源逼近，它们将面临严重的定价和营收压力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            46.455,
+            64.002
+          ],
+          "quote": "In this episode, Theo Jaffe and Sofia Puccini are joined by former White House AI Policy Advisor Sriram Krishnan to unpack what the latest wave of open models means for frontier labs, AI policy, pricing, cybersecurity, and America's position in the global AI race.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 24,
+          "t": [
+            143.807,
+            151.591
+          ],
+          "quote": "And we were on this curve of self-improvement where the frontier labs were really going to draw really far away from everyone else.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            268.664,
+            285.842
+          ],
+          "quote": "I think it's probably inevitable that if you are having choices from where you get your intelligence tokens from, that's going to put pricing pressure on the frontier models, which means I think you'll probably see the frontier labs have to",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 52,
+          "t": [
+            329.449,
+            336.796
+          ],
+          "quote": "So I guess like the first question here would be, where do you predict the Frontier Labs, like how do you predict the Frontier Labs are going to react to this?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            351.129,
+            360.596
+          ],
+          "quote": "I think it's very clear the Frontier Labs are going to push at the very, very frontier of the jagged performance we get.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            408.732,
+            414.817
+          ],
+          "quote": "In which case, I think you're going to start seeing pricing pressure come on the frontier labs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            476.098,
+            485.805
+          ],
+          "quote": "One, this could put some revenue pressure on the frontier labs because I suspect that people might start pointing their harnesses at some of these other open weight models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1134.356,
+            1146.867
+          ],
+          "quote": "So another point that Dean Ball raised actually was sort of this sentiment that open-weight models deter CapEx, and they kind of destroy the ability for frontier labs to monetize their capability leads.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1147.408,
+            1157.577
+          ],
+          "quote": "So how do we promote a very healthy open-source ecosystem while ensuring that the frontier labs are still able to do what they're best at?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1265.223,
+            1278.207
+          ],
+          "quote": "And it's kind of really, you know, given me a sense of what countries and companies need to do to work with each other and to make sure everybody gets intelligence, whether it's from the frontier labs and open weight models or however that happens.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "type": "concept",
+      "role": "concept",
+      "name": "蒸馏 (distillation)",
+      "file": "蒸馏",
+      "primary": true,
+      "how_described": "本集深度探讨的争议话题：用大模型生成的输出（推理痕迹）来训练另一个模型。嘉宾指出当前存在不对称且糟糕的现状——中国模型可自由蒸馏美国模型，而美国本土公司却受制于模糊的法律边界。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            320.341,
+            325.763
+          ],
+          "quote": "Lots of, obviously, questions on security, on distillation, on how this is good.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 118,
+          "t": [
+            716.553,
+            725.42
+          ],
+          "quote": "Now, one very interesting discussion, which has been happening a lot on X, is about distillation and what that means.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            756.585,
+            763.771
+          ],
+          "quote": "So distillation has always been a core part of how these models have been trained.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 134,
+          "t": [
+            807.72,
+            812.922
+          ],
+          "quote": "So distillation of AI models is a core part of how these models are trained today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 147,
+          "t": [
+            910.783,
+            925.788
+          ],
+          "quote": "I think Ben Thompson of Strategy had a similar idea today, was to basically say, how do we find a way to make distillation acceptable in any number of ways, whether you are getting, you know, outputs of other models, or sometimes it's more subtle.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集举例说明：用于检查邮件、扫描日历等日常任务的 AI 程序。这类“非前沿”任务足以让开源权重模型替代顶尖前沿模型来胜任，从而进一步压低前沿模型的定价空间。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            221.629,
+            232.858
+          ],
+          "quote": "One is that it's just great to have choice in the ecosystem and to be able to point your harness of choice or your agent of choice to multiple models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 64,
+          "t": [
+            392.559,
+            395.982
+          ],
+          "quote": "But for a lot of other tasks, for example, like I have an agent",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            396.682,
+            400.165
+          ],
+          "quote": "which checks my email or I have an agent which quickly scans through my calendar.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 113,
+          "t": [
+            674.959,
+            686.95
+          ],
+          "quote": "And what Hugging Face seems to have found is that somebody was using, essentially, definitely an AI LLM agent to hammer them at multiple places and to find ways to break in.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "kimi-k3",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kimi K3",
+      "file": "Kimi K3",
+      "primary": true,
+      "how_described": "本集被视为打破前沿实验室垄断的标志性开源模型。嘉宾称它逼近 SOTA，给了生态真正的选择权，甚至因为有更少的“安全拒绝”，被用来做那些前沿闭源模型受限的网络安全工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            107.912,
+            116.078
+          ],
+          "quote": "We just discussed we had Grok Build was open source, and then we had Thinking Machines, and then Kimi K3, and then Quen 3.8.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 19,
+          "t": [
+            116.679,
+            122.283
+          ],
+          "quote": "So you tweeted the other day, Kimi K3 is a big moment with multiple implications for the entire industry.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 34,
+          "t": [
+            199.574,
+            206.139
+          ],
+          "quote": "But I think the big news over the last three, four days was obviously Kimi K3 coming out, I think on Thursday or Friday.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 37,
+          "t": [
+            216.745,
+            220.328
+          ],
+          "quote": "And what I was referring to is with Kimi K3 is the following.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": true,
+      "how_described": "本集提到两次：一是作为下载开源权重模型、供全球开发者拆解和检查的安全平台；二是作为受害者，报道了在录制当天有人使用 AI 智能体在其系统多个节点猛烈攻击试图突破的事件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 110,
+          "t": [
+            634.137,
+            654.424
+          ],
+          "quote": "And what I believe with that is that open-weight models are inherently secure because when you download a model of Hugging Face, it means you have the entire world being able to take it apart, inspect it, fine-tune it, modify it, look at it in ways that you absolutely cannot if they are closed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            662.687,
+            674.518
+          ],
+          "quote": "The moment we are in, which I think is not great, is I think there was an incident with Hugging Face that got reported on earlier today, which I think was an active tweet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 113,
+          "t": [
+            674.959,
+            686.95
+          ],
+          "quote": "And what Hugging Face seems to have found is that somebody was using, essentially, definitely an AI LLM agent to hammer them at multiple places and to find ways to break in.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集作为前沿实验室的代表，被提及已延长其顶级模型的可用期限以应对开源模型的逼近；同时其围绕 Claude 的产品工具套件被视为构建护城河的关键。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            346.245,
+            348.607
+          ],
+          "quote": "So what do you think is next for like an Anthropic or an OpenAI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            421.782,
+            425.545
+          ],
+          "quote": "I think we've already seen Anthropic and I have no inside confirmation about this was",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            971.877,
+            973.658
+          ],
+          "quote": "So Anthropic has written about this.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集作为前沿实验室的代表之一，被提及曾谈论构建自动化的 AI 研究实习生，且面临开源模型带来的定价与竞争压力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 56,
+          "t": [
+            346.245,
+            348.607
+          ],
+          "quote": "So what do you think is next for like an Anthropic or an OpenAI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            974.198,
+            980.48
+          ],
+          "quote": "OpenAI has talked about building in first an automated research intern and then working towards automating AI research.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "inference-clouds",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理云 (inference clouds)",
+      "file": "推理云",
+      "primary": false,
+      "how_described": "本集指提供 AI 计算的云服务商（Neoclouds）。嘉宾指出，得益于开源生态的繁荣，推理云的增长表现出了极其强劲和壮观的趋势。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            1230.533,
+            1238.919
+          ],
+          "quote": "If you go look at how the inference clouds are doing, if you go look at how the rest of the ecosystem is going, the growth is pretty strong and spectacular.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "guardrails",
+      "reason": "专名「guardrails」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}
