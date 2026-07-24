@@ -890,7 +890,7 @@ Scenario 3 [品味边界] a16z 只向前看,不自动回填存量
 
 ### DoD(C9)
 1. ✅ P1 证据落盘(run 30075152246,耗时+抽检见下方核验记录);模型档用户拍板:large-v3 默认、>100 分钟降 medium。
-2. ✅ 单测:per-source cutoff 迁移 / needsReseed 按源 / whisperX 转换器 fixture / Simplecast URL 解析(slugFromLink/enclosureUrl/durationSec/实体反转义)/ pickWhisperxModel(全 409 过)。
+2. ✅ 单测:per-source cutoff 迁移 / needsReseed 按源 / whisperX 转换器 fixture / Simplecast URL 解析(slugFromLink/enclosureUrl/durationSec/实体反转义)/ pickWhisperxModel。**账实更正(2026-07-24 独立审计 A5)**:a3ebde5 提交快照实为 407/409(2 个 tts fixture 测试被 cron 回仓刷新 digest 打断,与 C9 改动无关,862cf86 修复;C9 自身新测试全过)——原「全 409 过」是把修复后状态写到了提交时点上。
 3. ⬜ 里程碑 E2E:真发布一集 a16z、用户真设备验收(烧 GLM 钱 + 公开发布,做前确认)。入口=workflow_dispatch backfill=1 + source=a16z(跑完自动设 cutoff,cron 随后接管只向前看)。
 4. 🟡 glm-check --kind code 对抗审计:接线 diff 已过(20260724-006,3 条全 noise 附实证);E2E 后整片收口再复核一轮。
 
@@ -974,9 +974,9 @@ Scenario 3 [基线与量控] seed 只向前看,首集发布单独确认
 ```
 
 ### DoD(C11)
-1. ⬜ P1:PG 官方稿真取同构证据。
-2. ⬜ 单测:标题回退 slug / SOURCES 结构;全量测试绿 + 真 feed dry-run 六源 id 不撞。
+1. ✅ P1:PG 官方稿真取同构(1742 段/15848 词全时间戳/双说话人;独立审计 B2 复现)。
+2. ✅ 单测:标题回退 slug / 哈希兜底 / SOURCES 结构(417 全绿);七 feed 1937 id 零撞(独立审计 B4 复现;已知限:同日同源 slug 前 40 字符全同会撞,已加批内告警)。
 3. ⬜ seed 后 cron 干跑安全(无基线源不误跑;lennys/a16z 行为不受扰)。
-4. ⬜ 品味档案源清单同步(6 源入正式抓取表,注明拍板日)。
+4. ✅ 品味档案源清单同步(8 源表+拍板日)。
 5. ⬜ glm-check --kind code 对抗审计 + 账本裁决。
 6. ⬜ PG 首集 E2E 用户真设备验收(触发前单独确认烧钱+发布)。

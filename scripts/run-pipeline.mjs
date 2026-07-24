@@ -437,6 +437,9 @@ async function processSource(source, state, { backfillN, dryRun }) {
     console.log(`cutoff=${state.cutoffs[source.key]};待处理新集 ${picks.length}:`);
   }
   picks.forEach((p) => console.log(`   - ${deriveId(p, source)}  (${p.pubDateISO})  ${p.title}`));
+  // 批内 id 撞车响亮告警(独立审计 2026-07-24):同日同源 slug 前 40 字符全同会撞,后来者被 seen 静默吞——静默丢集违背响亮 fail 纪律
+  const dupIds = picks.map((p) => deriveId(p, source)).filter((id, i, a) => a.indexOf(id) !== i);
+  if (dupIds.length) console.error(`⚠️ 本批 id 撞车(同名集将被去重跳过、不处理):${[...new Set(dupIds)].join(", ")} —— 需人工看是否真同集`);
 
   if (!picks.length) {
     console.log(`✅ ${source.key} 无新集。`);
