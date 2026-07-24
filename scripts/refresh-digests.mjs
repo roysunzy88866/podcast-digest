@@ -45,7 +45,8 @@ function refreshOne(id) {
   // 只还原备过的、留下新建的 = 半成品被误升格成已发布集(drift #33 真踩过)。
   const backups = [];
   const created = []; // 备份时不存在 → 回滚时删
-  for (const f of ["digest.json", "entities.json", "meta.json"]) {
+  // 判官/修复报告也进清单(GLM 20260724-005[1]):否则回滚后留下「被毙那版的报告」,账实不符
+  for (const f of ["digest.json", "entities.json", "meta.json", "judge-report.json", "repair-report.json"]) {
     const p = join(dir, f);
     if (existsSync(p)) { copyFileSync(p, p + ".bak"); backups.push(f); }
     else created.push(f);
