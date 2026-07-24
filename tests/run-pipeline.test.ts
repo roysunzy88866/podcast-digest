@@ -93,6 +93,51 @@ describe("isInterview / deriveId · Simplecast URL 按源适配(C9 D44⑤)", () 
   });
 });
 
+// C10 Scenario 2:Megaphone 类源(Training Data/Big Technology)item link 是主页,无集页 URL(D44⑤ 同款)
+describe("deriveId · 无 URL slug 时标题回退(C10 Megaphone 源)", () => {
+  const TD = { key: "trainingdata", name: "Training Data" };
+  const base = { pubDateISO: "2026-07-21T10:00:00.000Z", hasAudio: true, link: "https://www.sequoiacap.com/" };
+  it("★ link 是主页 → 用标题派生 slug(小写+非字母数字转连字符+截40+去尾),不再撞 'episode'", () => {
+    const id = deriveId({ ...base, title: "Factory's Matan Grinberg: The Coming 'Dark Factory'" }, TD);
+    expect(id).toMatch(/^2026-07-21-trainingdata-factory/);
+    expect(id).not.toContain("episode");
+  });
+  it("★ 同日两集不同标题 → 不同 id(id 撞车就是 D44⑤ 的病)", () => {
+    const a = deriveId({ ...base, title: "Why Hardware-Software Co-Design Is AI's Real 100x" }, TD);
+    const b = deriveId({ ...base, title: "LIVE: Jensen Huang" }, TD);
+    expect(a).not.toBe(b);
+  });
+  it("URL 里有 slug 时仍优先 URL(现有源行为不变)", () => {
+    const id = deriveId({ ...base, link: "https://x.com/p/real-slug", title: "Some Title" }, TD);
+    expect(id).toBe("2026-07-21-trainingdata-real-slug");
+  });
+  it("标题也空 → 'episode' 兜底(不炸)", () => {
+    expect(deriveId({ ...base, title: "" }, TD)).toBe("2026-07-21-trainingdata-episode");
+  });
+  it("★ 全非 ASCII 标题(slug 被吃成空)→ 标题哈希兜底,同日不同题仍不同 id(GLM 011[2])", () => {
+    const a = deriveId({ ...base, title: "对话格雷厄姆" }, TD);
+    const b = deriveId({ ...base, title: "与黄仁勋对谈" }, TD);
+    expect(a).not.toBe(b);
+    expect(a).toMatch(/^2026-07-21-trainingdata-[0-9a-f]{8}$/);
+    expect(deriveId({ ...base, title: "对话格雷厄姆" }, TD)).toBe(a); // 确定性:同题同 id(重跑去重靠它)
+  });
+});
+
+describe("C10 · SOURCES 第一梯队六源(2026-07-24 用户拍板)", () => {
+  it("★ 六源齐且路线标记对:pg 走官方稿(无 asr),其余五源 whisperx", () => {
+    const by = Object.fromEntries(SOURCES.map((s) => [s.key, s]));
+    expect(by.pg?.asr).toBeUndefined(); // Substack 官方稿,同 lennys
+    for (const k of ["yc", "mad", "trainingdata", "bigtech", "aia16z"]) {
+      expect(by[k]?.asr).toBe("whisperx");
+    }
+    expect(by.pg?.feedUrl).toContain("news.aakashg.com"); // www feed:api.substack 域 403 封 runner(drift #28),不用
+  });
+  it("★ Megaphone 源新集 item 无 <link>(实探)→ 有标题+音频即算访谈,不整源漏抓", () => {
+    expect(isInterview({ title: "LIVE: Jensen Huang", link: "", pubDateISO: "2026-07-21T09:00:00.000Z", hasAudio: true })).toBe(true);
+    expect(isInterview({ title: "", link: "", pubDateISO: "2026-07-21T09:00:00.000Z", hasAudio: true })).toBe(false); // 双缺仍拒
+  });
+});
+
 describe("isInterview", () => {
   const items = parseFeed(FEED);
   it("真访谈(有音频、非 ainews)= true", () => {

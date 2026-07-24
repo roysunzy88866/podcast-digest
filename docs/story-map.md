@@ -16,8 +16,9 @@
 | C7c | **运维硬化**:GitHub+分支保护+CI / 失败告警 / 额度告警 / R2 备份口径 / 回滚演练 / 钉插件版本(D21)/ 前端库自托管(D36) | 全部 | ⏳ |
 | C8 | **内容源切换与品味漏斗(第一步)**:多源骨架(去 Latent 硬编码)+ 接入 Lenny's + --backfill 回填 + 品味漏斗(手动排除off-taste)。E2E 首跑逼出并修 3 bug(translate漏译/部署链/专名误报D46);**Netflix+Adam 2 集已上线 voice.solomind.cc**。真相源 `需求共创/内容品味档案.md`(v1) | US-4, US-11 | 🟡 代码完成+2集上线,待产出率提升(专名误报白名单)/更多集验收 |
 | C5.1 | **列表页可读性修复**(2026-07-24 用户点名):破卡空白行 + 标题 fallback 链(title_zh→title_en→id)+ meta 显示字段补齐 + 标签归并 TOP15 折叠 + condense 产 title_zh。Gherkin 见 user-stories C5.1 | US-1, US-2, US-4 | 🟡 本地全绿(f8cc323),待 backfill run 落地后 push→云端部署→用户线上验收 |
-| C9 | **a16z 源接入**:whisperX ASR 进料口(P1 ✅ run 30075152246)+ 按源 cutoff 重构(D44①✅)+ 品味边界(只向前看)。Gherkin 见 user-stories C9 | US-4, US-11 | 🟡 接线全落(D44⑤ URL 解析✅/processEpisode 直走 whisperX✅/workflow 装机+HF_TOKEN✅/GLM 20260724-006 全 noise);待里程碑 E2E:backfill=1+source=a16z 真发一集(烧钱+公开发布,用户确认后触发) |
+| C9 | **a16z 源接入**:whisperX ASR 进料口(P1 ✅ run 30075152246)+ 按源 cutoff 重构(D44①✅)+ 品味边界(只向前看)。Gherkin 见 user-stories C9 | US-4, US-11 | 🟡 接线全落+GLM 006 全 noise;E2E 首跑(Sriram 短集)判官拦下安全不发(机制正确);第二跑(Travis 访谈集,run 30100387174)进行中 |
 | C10 | **首页交互改版**(2026-07-24 用户发起):Bases 三视图首页(最新卡片/全部表格/按主题看板)+ 8 大类受控词表(163 细标签降级页底关键词)+ 图谱只画集↔大类(实体 unlisted)+ 全站关弹框 + patch-site 配置补丁。共识:需求共创/首页交互改版.md;Gherkin 见 user-stories C10 | US-1, US-2, US-4 | 🟡 代码全落+单测/verify-c5 绿;待本地 build 预览→用户拍板→跑批窗口 push 上线 |
+| C11 | **第一梯队六源批量接入**(2026-07-24 用户拍板,PG 优先;原编号 C10,与并行 UI 片撞号后让号):pg 官方稿零成本(P1 ✅ 真取 1742 段同构)+ yc/mad/trainingdata/bigtech/aia16z 走 whisperX + deriveId 标题回退(Megaphone 无集页 link)+ isInterview 放宽 link 可缺 + workflow seed 入口(云端 seed)。Gherkin 见 user-stories C11;真相源 调研-新源候选-2026-07-24.md | US-4, US-11 | 🟡 代码+单测全绿(417)+六源真 feed 干验 id 不撞;待 GLM 审计→push→云端 seed→PG 首集 E2E(烧钱+发布,用户单独确认) |
 
 > C7 原为单行「上云」,2026-07-19 用户 AskUserQuestion 拍板拆 C7a/b/c(drift #15);前置仍是过 `docs/上线前checklist.md`(8 项分摊到三片)。里程碑规矩(用户亲手验收)对 C7a 照旧;C7b 全自动发布是用户明选的例外,做前单独确认。
 

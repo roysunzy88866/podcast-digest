@@ -12,6 +12,7 @@ import { readFileSync, existsSync, readdirSync, writeFileSync, mkdirSync, rename
 import { spawnSync } from "node:child_process";
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { createHash } from "node:crypto";
 import { xmlUnescape } from "./build-feed.mjs"; // C9:Simplecast 标题/URL 不走 CDATA,带 &apos;/&amp; 实体(有 isMain 守卫,import 无副作用)
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
@@ -30,6 +31,16 @@ export const SOURCES = [
   // C9:a16z 无官方稿(单集页实测 0 处 transcript)→ asr:"whisperx"(processEpisode 直走 whisperX,
   // 免费 Actions runner 转写,P1 已核验 run 30075152246)。只向前看,历史回填由用户点名(品味边界,Gherkin Scenario 3)。
   { key: "a16z", name: "The a16z Show", feedUrl: "https://feeds.simplecast.com/JGE3yC0V", asr: "whisperx" },
+  // C10 · 第一梯队六源(2026-07-24 用户拍板,真相源 需求共创/调研-新源候选-2026-07-24.md;feed 均实探验证):
+  // pg = Substack 官方稿(P1 真取验同构:1742 段/词级时间戳 100%),零转写费,同 lennys 路线。
+  // feedUrl 用 www(播客帖带 audio enclosure,实探 2026-07-24)——api.substack 域 403 封 runner IP(drift #28 教训),不用。
+  { key: "pg", name: "Product Growth Podcast", feedUrl: "https://www.news.aakashg.com/feed" },
+  // 以下五源无官方稿 → whisperX。trainingdata/bigtech 的 item link 是主页(Megaphone 通例)→ deriveId 标题回退。
+  { key: "yc", name: "Y Combinator Startup Podcast", feedUrl: "https://anchor.fm/s/8c1524bc/podcast/rss", asr: "whisperx" },
+  { key: "mad", name: "The MAD Podcast", feedUrl: "https://anchor.fm/s/f2ee4948/podcast/rss", asr: "whisperx" },
+  { key: "trainingdata", name: "Training Data", feedUrl: "https://feeds.megaphone.fm/trainingdata", asr: "whisperx" },
+  { key: "bigtech", name: "Big Technology Podcast", feedUrl: "https://feeds.megaphone.fm/LI3617121267", asr: "whisperx" },
+  { key: "aia16z", name: "AI + a16z", feedUrl: "https://feeds.simplecast.com/Hb_IuXOo", asr: "whisperx" },
 ];
 
 // 带浏览器 UA:Substack 对裸 node 请求可能 403(drift #28)
@@ -94,9 +105,11 @@ export function slugFromLink(link) {
   return ((link || "").match(/\/(?:p|episodes)\/([^/?#]+)/) || [])[1] || "";
 }
 
-/** 是不是要处理的真访谈集?排掉每日 AI 快讯(ainews-…,天天发、会天天烧钱)+ 必须有音频 enclosure。 */
+/** 是不是要处理的真访谈集?排掉每日 AI 快讯(ainews-…)+ 必须有音频 enclosure。
+ *  C10:link 可缺(Megaphone 源新集 item 无 <link>,trainingdata/bigtech 实探)——标题在即可,id 由标题回退派生。 */
 export function isInterview(item) {
-  if (!item.link || !item.pubDateISO) return false;
+  if (!item.link && !item.title) return false;
+  if (!item.pubDateISO) return false;
   if (!item.hasAudio) return false;
   if (/^ainews-/i.test(slugFromLink(item.link))) return false;
   return true;
@@ -109,8 +122,13 @@ export function isInterview(item) {
 export function deriveId(item, source) {
   if (!source?.key) throw new Error("deriveId 需要 source.key(C8 多源:id 前缀按源)");
   const date = item.pubDateISO ? item.pubDateISO.slice(0, 10) : "unknown-date";
-  let slug = slugFromLink(item.link) || "episode";
-  slug = slug.toLowerCase().replace(/[^a-z0-9-]/g, "").slice(0, 40).replace(/-+$/, "");
+  // C10:Megaphone 类源(trainingdata/bigtech)item link 是主页、无集页 slug → 回退标题派生(D44⑤ 同款病防复发)
+  const titleSlug = String(item.title ?? "").toLowerCase().replace(/[^a-z0-9]+/g, "-");
+  let slug = slugFromLink(item.link) || titleSlug || "";
+  slug = slug.toLowerCase().replace(/[^a-z0-9-]/g, "").slice(0, 40).replace(/^-+|-+$/g, "");
+  // 全非 ASCII 标题会被上面吃成空串 → 同日集全撞 "episode"、后来者被 seen 静默跳过(GLM 011[2])。
+  // 有标题就用标题哈希兜底(确定性,同题同 id 保重跑去重);真全空才 "episode"。
+  if (!slug) slug = item.title ? createHash("sha256").update(String(item.title)).digest("hex").slice(0, 8) : "episode";
   return `${date}-${source.key}-${slug}`;
 }
 

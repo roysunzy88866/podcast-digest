@@ -27,6 +27,10 @@ on:
         description: "只跑指定源(如 a16z;多源下 backfill 必填,防笼统批量烧钱——C9)"
         required: false
         default: ""
+      seed:
+        description: "true=给缺基线的源设 cutoff(只补缺,绝不顶已有;配 source 可只 seed 一个源)——C10,本机 fetch 不走代理故 seed 放云端"
+        required: false
+        default: "false"
 
 permissions:
   contents: write           # 处理完把新集 data/ + pipeline-state.json commit 回仓(去重状态持久化)
@@ -87,6 +91,13 @@ jobs:
           fi
           SRC_ARGS=""
           [ -n "$SOURCE" ] && SRC_ARGS="--source $SOURCE"
+          # C10:seed 模式(设基线不处理内容,不烧钱)。放云端因本机 Node fetch 不走代理、部分 feed 取不到。
+          if [ "${{ github.event.inputs.seed || 'false' }}" = "true" ]; then
+            echo "🌱 seed 模式:补缺基线 ${SOURCE:+(只 $SOURCE)}"
+            node scripts/run-pipeline.mjs --seed $SRC_ARGS
+            echo "has_new=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
           if [ -n "$REFRESH" ]; then
             # 输入防呆(照 backfill 数字校验先例;GLM 20260724-002[2]):只许 all 或集 id 逗号串
             if ! echo "$REFRESH" | grep -qE '^(all|[a-zA-Z0-9,_-]+)$'; then
