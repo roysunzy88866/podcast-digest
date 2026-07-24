@@ -54,7 +54,7 @@
 
 ## D44 · C8 内容源切换的三个缓办项(2026-07-20 登记)
 - **① 按源独立 cutoff(state 重构)**:现 `state.sincePubDate` 是单标量,只够 1 个 active 源。run-pipeline 已硬守 `SOURCES.length===1`(多于 1 直接 exit 2),防静默串号。**接第 2 个源(a16z/HowIAI/YC)前必还**:`sincePubDate` → 按 source.key 的 cutoff 映射,`--seed`/selectNew/推进逻辑都按源。
-- **② a16z / How I AI 无官方稿 → ASR 决策**:两源非 Substack、RSS 与集页均无官方转写(2026-07-19 真查),接入需走云端 ASR(AssemblyAI,ADR 0002)——**要花钱 + 是最易失真环节**。处置:未决,接第 2 源时先查每集成本 + 失真风险再跟用户定。
+- **② a16z / How I AI 无官方稿 → ASR 决策**:两源非 Substack、RSS 与集页均无官方转写(2026-07-19 真查),接入需走云端 ASR——**要花钱 + 是最易失真环节**。**2026-07-24 更新**:① **How I AI 不用接了**——实测其集子经 Lenny's Substack feed 分发(solo-builder/morning-brew/codex 全是 Claire Vo 的 How I AI 集,带官方稿),已被现有源覆盖;它自己的 anchor.fm feed 反而无稿。② **a16z ASR 选型用户拍板**:whisperX 自托管 Actions 为主(免费无限)、Deepgram $200 额度为备、AssemblyAI 三线;CPU 速度/质量【未验证】待接入 P1 真跑。剩余工程活=按源 cutoff 重构(见 ①)+ whisperX 接入。
 - **③ 自动品味判官 + 待裁清单 + 回写档案**:本切片靠「源已被筛成高对味」省掉判官(源级预筛=硬过滤)。等真出现「绿源里漏进不对味集」再做 per-集判官(读简介对 `内容品味档案.md` 打分 → 发布/跳过/待裁)+ 待裁攒着对话集中裁 + 裁决回写档案。ADR 待补。
 - **④ 换源需 --seed**:源从 Latent 换 Lenny's 后,旧 cutoff(Latent 时间线)对 Lenny's 无意义。**已加固为机器闸门**(GLM 20260720-001[1]):`needsReseed` 检测 cutoff 归属源,换源没 --seed 直接 exit 2 拦住,不再靠人记得。剩:接第 2 源时 cutoff 本身要按源(见①)。
 - **⑤ `isInterview`/`deriveId` 的 `/p/<slug>` 抠取是 Substack 专用**(GLM 20260720-002[2])。当前源 Lenny's 是 Substack、正确;接非 Substack 源(a16z=Simplecast、YC=YouTube)时,URL 无 `/p/` → `deriveId` slug 退化成 "episode"(所有集撞 id)、`isInterview` 的 ainews 过滤形同虚设。**接第 2 源前必按源适配 URL 解析**(与①②同批处理)。
