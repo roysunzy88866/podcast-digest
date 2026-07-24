@@ -893,3 +893,11 @@ Scenario 3 [品味边界] a16z 只向前看,不自动回填存量
 2. ⬜ 单测:per-source cutoff 迁移 / needsReseed 按源 / whisperX 输出→transcript.en.json 转换器(fixture,不真联网)。
 3. ⬜ 里程碑 E2E:真发布一集 a16z、用户真设备验收(烧 GLM 钱 + 公开发布,做前确认)。
 4. ⬜ glm-check --kind code 对抗审计 + 账本裁决。
+
+### P1 核验记录(C9 · 2026-07-24 真跑,run 30075152246)
+- **样本**:a16z feed 最新集(Travis Kalanick 谈 industrial AI),真实音频 45 分钟;免费 ubuntu runner,CPU int8。
+- **耗时(达标,目标 <2.5h/集)**:medium **62 分(0.73x 实时)** / large-v3 **77 分(0.59x 实时)**。推 90 分钟长集:medium ≈2.1h、large-v3 ≈2.5h(贴上限)。
+- **质量**:词级时间戳覆盖 **100%**(7442/7566 词);说话人分离出 4 人(片头旁白/双主持/嘉宾),开场 15 段文字抽检切换合理(旁白→主持独白连贯不乱切)。medium 与 large-v3 段数/词数相差 <8%。
+- **前两跑失败教训**:whisperX 新版分离模型默认 pyannote **community-1**(用户须单独接受条款;`--diarize_model` 钉 3.1 被忽略,无效参数)→ 用户接受 community-1 条款后三跑通过。HF_TOKEN 校验已挪 job 首步(缺 token 秒死)。
+- **结论**:whisperX 免费路线**成立**;模型档建议 large-v3(质量优先,时长可容),超长集(>100 分钟)可降 medium。artifact 留 14 天(asr-spike-large-v3 / asr-spike-medium),转换产物已验与官方稿同构。
+- **剩余(接线时做)**:D44⑤ 按源 URL 解析(Simplecast 无 /p/ slug)+ fetch-source-whisperx 接进 processEpisode ASR 兜底链 + SOURCES 加 a16z + --seed --source a16z。
