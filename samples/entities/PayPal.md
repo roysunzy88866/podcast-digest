@@ -10,11 +10,11 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《2026-04-12-lennys-hard-truths-about-building-in-the-ai-era》]]**(01:25起):本集把它说成:著名的 PayPal Mafia 成员之一，他在该组织担任过负责业务发展和政策的执行副总裁。
+- **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)》]]**(01:25起):本集把它说成:著名的 PayPal Mafia 成员之一，他在该组织担任过负责业务发展和政策的执行副总裁。
 
 ## 出现在这些集
 
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《2026-04-12-lennys-hard-truths-about-building-in-the-ai-era》]] — 作为被讨论公司
+- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)》]] — 作为被讨论公司
 
 ## 关联实体
 

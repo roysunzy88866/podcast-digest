@@ -10,11 +10,11 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《2026-03-08-lennys-the-most-successful-ai-company-youve-nev》]]**(33:43起):本集在讨论中美竞争时重点提及它，指出其约有四分之一员工是共产党员，本质上是国家的延伸而非单纯以营利为目的的商业公司，不能直接拿它和苹果等美国公司做公平比较。
+- **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《The most successful AI company you’ve never heard of | Qasar Younis》]]**(33:43起):本集在讨论中美竞争时重点提及它，指出其约有四分之一员工是共产党员，本质上是国家的延伸而非单纯以营利为目的的商业公司，不能直接拿它和苹果等美国公司做公平比较。
 
 ## 出现在这些集
 
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《2026-03-08-lennys-the-most-successful-ai-company-youve-nev》]] — 作为被讨论公司
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《The most successful AI company you’ve never heard of | Qasar Younis》]] — 作为被讨论公司
 
 ## 关联实体
 

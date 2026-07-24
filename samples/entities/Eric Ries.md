@@ -32,7 +32,7 @@ entity_type: 人物
 
 ## 出现在这些集
 
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《2026-05-10-lennys-how-to-build-a-company-that-withstands》]] — 作为主持
+- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《How to build a company that withstands any era | Eric Ries, Lean Startup author》]] — 作为主持
 
 ## 关联实体
 

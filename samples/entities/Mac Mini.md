@@ -10,7 +10,7 @@ entity_type: 概念
 
 ## 出现在这些集
 
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo》]] — 作为概念
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《From skeptic to true believer: How OpenClaw changed my life | Claire Vo》]] — 作为概念
 
 ## 关联实体
 

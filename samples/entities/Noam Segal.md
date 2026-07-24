@@ -24,7 +24,7 @@ entity_type: 人物
 
 ## 出现在这些集
 
-- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《2026-07-12-lennys-how-tech-workers-actually-feel-about》]] — 作为主持
+- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)》]] — 作为主持
 
 ## 关联实体
 

@@ -1,7 +1,7 @@
 ---
-title: 
+title: "The most successful AI company you’ve never heard of | Qasar Younis"
 podcast: 
-date: undefined
+date: 2026-03-08
 source_url: https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of
 duration: "84:21"
 host: "[[Lenny]]"
@@ -16,7 +16,7 @@ tags:
   - 管理与品味
 ---
 
-# undefined
+# The most successful AI company you’ve never heard of | Qasar Younis
 
 > [!info] 关联
 > **主持**:[[Lenny]]
@@ -114,9 +114,9 @@ Applied Intuition 有着非常独特的运营纪律，比如员工自己打扫�
 
 ## 相关单集
 
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《2026-05-03-lennys-why-cultivating-agency-matters-more》]] —— 同概念:品味 (taste)
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for》]] —— 同概念:品味 (taste)
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《2026-04-19-lennys-why-half-of-product-managers-are-in-trou》]] —— 同公司:Tesla
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)》]] —— 同概念:品味 (taste)
+- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri: AI is a tailwind for authenticity》]] —— 同概念:品味 (taste)
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)》]] —— 同公司:Tesla
 
 ---
 

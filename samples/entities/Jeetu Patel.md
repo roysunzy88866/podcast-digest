@@ -40,7 +40,7 @@ entity_type: 人物
 
 ## 出现在这些集
 
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《2026-02-26-lennys-ai-is-critical-for-humanitys-survival》]] — 作为主持
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]] — 作为主持
 
 ## 关联实体
 

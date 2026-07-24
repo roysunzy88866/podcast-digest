@@ -10,11 +10,11 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《2026-02-26-lennys-ai-is-critical-for-humanitys-survival》]]**(18:16起):本集将其描述为 GPU 的制造商，指出 AI 需要海量的算力，而 NVIDIA 的 GPU 是目前 AI 基础设施建设的核心。
+- **[[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]]**(18:16起):本集将其描述为 GPU 的制造商，指出 AI 需要海量的算力，而 NVIDIA 的 GPU 是目前 AI 基础设施建设的核心。
 
 ## 出现在这些集
 
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《2026-02-26-lennys-ai-is-critical-for-humanitys-survival》]] — 作为被讨论公司
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]] — 作为被讨论公司
 
 ## 关联实体
 

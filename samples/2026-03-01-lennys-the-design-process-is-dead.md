@@ -1,7 +1,7 @@
 ---
-title: 
+title: "The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)"
 podcast: 
-date: undefined
+date: 2026-03-01
 source_url: https://www.lennysnewsletter.com/p/the-design-process-is-dead
 duration: "77:22"
 host: "[[Jenny Wen]]"
@@ -16,7 +16,7 @@ tags:
   - 招聘原型
 ---
 
-# undefined
+# The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)
 
 > [!info] 关联
 > **主持**:[[Jenny Wen]]
@@ -137,26 +137,26 @@ Jenny 描述了一个非常特别的日常状态:她每天会花相当一部分�
 
 ## 相关单集
 
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《2026-04-05-lennys-anthropics-1b-to-19b-growth-run》]] —— 同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:Claude
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《2026-04-19-lennys-why-half-of-product-managers-are-in-trou》]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude、IC
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《2026-05-24-lennys-the-ai-paradox-dan-shipper》]] —— 同嘉宾:Lenny · 同公司:Anthropic、Claude Code
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《2026-06-07-lennys-father-of-the-ipod-and-iphone-on》]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《2026-06-21-lennys-building-the-most-ai-pilled-engineering》]] —— 同嘉宾:Lenny · 同公司:Anthropic、Claude Code
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《2026-03-22-lennys-the-art-of-influence-jessica-fain》]] —— 同嘉宾:Lenny · 同公司:Slack · 同概念:智能体 (agents)
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《2026-04-26-lennys-snapchat-ceo-why-distribution-is》]] —— 同嘉宾:Lenny · 同概念:智能体 (agents)、Claude
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《2026-05-03-lennys-why-cultivating-agency-matters-more》]] —— 同嘉宾:Lenny · 同公司:Figma、Anthropic
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo》]] —— 同嘉宾:Lenny · 同公司:Claude Code
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《2026-05-10-lennys-how-to-build-a-company-that-withstands》]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《2026-04-12-lennys-hard-truths-about-building-in-the-ai-era》]] —— 同嘉宾:Lenny · 同概念:心理安全感 (psychological safety)
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for》]] —— 同嘉宾:Lenny · 同概念:智能体 (agents)
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare》]] —— 同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:Claude
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)》]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude、IC
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《The AI paradox: More automation, more humans, more work | Dan Shipper》]] —— 同嘉宾:Lenny · 同公司:Anthropic、Claude Code
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell》]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)》]] —— 同嘉宾:Lenny · 同公司:Anthropic、Claude Code
+- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《The art of influence: The single most important skill that AI can’t replace | Jessica Fain (Webflow, ex-Slack)》]] —— 同嘉宾:Lenny · 同公司:Slack · 同概念:智能体 (agents)
+- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel》]] —— 同嘉宾:Lenny · 同概念:智能体 (agents)、Claude
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)》]] —— 同嘉宾:Lenny · 同公司:Figma、Anthropic
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《From skeptic to true believer: How OpenClaw changed my life | Claire Vo》]] —— 同嘉宾:Lenny · 同公司:Claude Code
+- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《How to build a company that withstands any era | Eric Ries, Lean Startup author》]] —— 同嘉宾:Lenny · 同公司:Anthropic
+- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri: AI is a tailwind for authenticity》]] —— 同嘉宾:Lenny · 同概念:智能体 (agents)
+- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)》]] —— 同嘉宾:Lenny · 同概念:心理安全感 (psychological safety)
 - [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同公司:Claude Code
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《2026-02-26-lennys-ai-is-critical-for-humanitys-survival》]] —— 同嘉宾:Lenny
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《2026-03-08-lennys-the-most-successful-ai-company-youve-nev》]] —— 同嘉宾:Lenny
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《2026-06-14-lennys-the-common-pattern-behind-successful》]] —— 同嘉宾:Lenny
-- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《2026-07-12-lennys-how-tech-workers-actually-feel-about》]] —— 同嘉宾:Lenny
-- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《2026-07-19-lennys-netflix-cpto-on-ai-and-the-future》]] —— 同嘉宾:Lenny
+- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone》]] —— 同嘉宾:Lenny
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]] —— 同嘉宾:Lenny
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《The most successful AI company you’ve never heard of | Qasar Younis》]] —— 同嘉宾:Lenny
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|《The hidden pattern behind successful products | Mark Pincus (founder of Zynga)》]] —— 同嘉宾:Lenny
+- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)》]] —— 同嘉宾:Lenny
 - [[2026-06-22-latent-space-gray-swan|《神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan》]] —— 同公司:Anthropic
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto》]] —— 同公司:Figma
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]] —— 同公司:Figma
 
 ---
 

@@ -10,7 +10,7 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-05-10-lennys-how-to-build-a-company-that-withstands|《2026-05-10-lennys-how-to-build-a-company-that-withstands》]]**(20:01起):本集说它是一家生产哮喘吸入器的英国医药公司；因董事会声称「有信托责任接受最高出价」而被烟草巨头 Philip Morris 收购，最终在三年内被拆解变卖不复存在，是结构软弱导致价值毁灭的典型反面教材。
+- **[[2026-05-10-lennys-how-to-build-a-company-that-withstands|《How to build a company that withstands any era | Eric Ries, Lean Startup author》]]**(20:01起):本集说它是一家生产哮喘吸入器的英国医药公司；因董事会声称「有信托责任接受最高出价」而被烟草巨头 Philip Morris 收购，最终在三年内被拆解变卖不复存在，是结构软弱导致价值毁灭的典型反面教材。
 
 ## 金句
 
@@ -18,7 +18,7 @@ entity_type: 公司
 
 ## 出现在这些集
 
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《2026-05-10-lennys-how-to-build-a-company-that-withstands》]] — 作为被讨论公司
+- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《How to build a company that withstands any era | Eric Ries, Lean Startup author》]] — 作为被讨论公司
 
 ## 关联实体
 

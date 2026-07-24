@@ -10,11 +10,11 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《2026-02-26-lennys-ai-is-critical-for-humanitys-survival》]]**(00:30起):本集将它描述为 AI 时代关键的基础设施公司，提供网络、光学和安全技术，将全球数据中心的大量 GPU 完美连接并保持绝对同步。
+- **[[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]]**(00:30起):本集将它描述为 AI 时代关键的基础设施公司，提供网络、光学和安全技术，将全球数据中心的大量 GPU 完美连接并保持绝对同步。
 
 ## 出现在这些集
 
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《2026-02-26-lennys-ai-is-critical-for-humanitys-survival》]] — 作为被讨论公司
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]] — 作为被讨论公司
 
 ## 关联实体
 

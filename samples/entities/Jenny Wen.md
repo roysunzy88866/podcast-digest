@@ -26,7 +26,7 @@ entity_type: 人物
 
 ## 出现在这些集
 
-- [[2026-03-01-lennys-the-design-process-is-dead|《2026-03-01-lennys-the-design-process-is-dead》]] — 作为主持
+- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] — 作为主持
 
 ## 关联实体
 

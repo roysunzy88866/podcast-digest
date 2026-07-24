@@ -10,7 +10,7 @@ entity_type: 概念
 
 ## 集里怎么说它
 
-- **[[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《2026-02-26-lennys-ai-is-critical-for-humanitys-survival》]]**(01:20起):本集将其描述为当下全球正大规模投资建设的关键底座，指出算力、网络带宽的短缺是制约 AI 发展的主要瓶颈。
+- **[[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]]**(01:20起):本集将其描述为当下全球正大规模投资建设的关键底座，指出算力、网络带宽的短缺是制约 AI 发展的主要瓶颈。
 
 ## 金句
 
@@ -60,7 +60,7 @@ entity_type: 概念
 
 ## 出现在这些集
 
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《2026-02-26-lennys-ai-is-critical-for-humanitys-survival》]] — 作为概念
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]] — 作为概念
 
 ## 关联实体
 

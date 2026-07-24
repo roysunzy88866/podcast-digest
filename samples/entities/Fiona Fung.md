@@ -24,7 +24,7 @@ entity_type: 人物
 
 ## 出现在这些集
 
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《2026-06-21-lennys-building-the-most-ai-pilled-engineering》]] — 作为联合主持
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)》]] — 作为联合主持
 
 ## 关联实体
 

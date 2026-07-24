@@ -36,7 +36,7 @@ entity_type: 人物
 
 ## 出现在这些集
 
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《2026-04-12-lennys-hard-truths-about-building-in-the-ai-era》]] — 作为主持
+- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)》]] — 作为主持
 
 ## 关联实体
 

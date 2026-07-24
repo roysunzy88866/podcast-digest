@@ -10,11 +10,11 @@ entity_type: 概念
 
 ## 集里怎么说它
 
-- **[[2026-05-10-lennys-how-to-build-a-company-that-withstands|《2026-05-10-lennys-how-to-build-a-company-that-withstands》]]**(00:43起):本集说这是 Eric Ries 继《精益创业》15 年后出版的一本新书，旨在教创始人如何通过内部防线（文化/精神）和外部防线（治理结构）来保护自己建立的公司，免受「金融重力」的吞噬。
+- **[[2026-05-10-lennys-how-to-build-a-company-that-withstands|《How to build a company that withstands any era | Eric Ries, Lean Startup author》]]**(00:43起):本集说这是 Eric Ries 继《精益创业》15 年后出版的一本新书，旨在教创始人如何通过内部防线（文化/精神）和外部防线（治理结构）来保护自己建立的公司，免受「金融重力」的吞噬。
 
 ## 出现在这些集
 
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《2026-05-10-lennys-how-to-build-a-company-that-withstands》]] — 作为概念
+- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《How to build a company that withstands any era | Eric Ries, Lean Startup author》]] — 作为概念
 
 ## 关联实体
 

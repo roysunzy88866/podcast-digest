@@ -26,7 +26,7 @@ entity_type: 人物
 
 ## 出现在这些集
 
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《2026-03-08-lennys-the-most-successful-ai-company-youve-nev》]] — 作为联合主持
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《The most successful AI company you’ve never heard of | Qasar Younis》]] — 作为联合主持
 
 ## 关联实体
 

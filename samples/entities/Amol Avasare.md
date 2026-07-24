@@ -24,7 +24,7 @@ entity_type: 人物
 
 ## 出现在这些集
 
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《2026-04-05-lennys-anthropics-1b-to-19b-growth-run》]] — 作为联合主持
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare》]] — 作为联合主持
 
 ## 关联实体
 

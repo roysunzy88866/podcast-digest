@@ -10,7 +10,7 @@ entity_type: 概念
 
 ## 集里怎么说它
 
-- **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《2026-04-12-lennys-hard-truths-about-building-in-the-ai-era》]]**(00:00起):本集把它说成:在基础模型能力按周进化的 AI 时代,制定长达一年的产品路线图变得毫无意义,传统的 PM 中间层角色将被淘汰。
+- **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)》]]**(00:00起):本集把它说成:在基础模型能力按周进化的 AI 时代,制定长达一年的产品路线图变得毫无意义,传统的 PM 中间层角色将被淘汰。
 
 ## 金句
 
@@ -18,7 +18,7 @@ entity_type: 概念
 
 ## 出现在这些集
 
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《2026-04-12-lennys-hard-truths-about-building-in-the-ai-era》]] — 作为概念
+- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)》]] — 作为概念
 
 ## 关联实体
 

@@ -10,11 +10,11 @@ entity_type: 概念
 
 ## 集里怎么说它
 
-- **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《2026-04-05-lennys-anthropics-1b-to-19b-growth-run》]]**(00:19起):本集把它说成是内部代号「Claude加速可持续超高速增长(Claude Accelerates Sustainable Hypergrowth)」的项目，即用Claude来自动跑增长实验的闭环，目前的胜率相当于一个入职两三年的初级PM。
+- **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare》]]**(00:19起):本集把它说成是内部代号「Claude加速可持续超高速增长(Claude Accelerates Sustainable Hypergrowth)」的项目，即用Claude来自动跑增长实验的闭环，目前的胜率相当于一个入职两三年的初级PM。
 
 ## 出现在这些集
 
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《2026-04-05-lennys-anthropics-1b-to-19b-growth-run》]] — 作为概念
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare》]] — 作为概念
 
 ## 关联实体
 

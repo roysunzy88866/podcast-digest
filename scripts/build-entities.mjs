@@ -9,7 +9,7 @@
 //   · 金句墙(🔒 第 24 轮):人物页=他本人说的;公司/概念页=提到它的金句。![[集#^块]] 嵌入(P1 已验)
 //   · 出现在这些集:列所有相关集 + 角色(嘉宾/被提及)
 //   · 关联实体:常一起出现的、且**有页的**实体(避免死链)
-import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, realpathSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, realpathSync, rmSync } from "node:fs";
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { norm } from "./gate.mjs";
@@ -262,6 +262,10 @@ function main() {
 
   const pages = buildAllPages(episodes, aliasById);
   const outDir = resolve(ROOT, "samples/entities");
+  // 写前清场:实体页是全量确定性重算产物,重浓缩/翻新会改实体权威名 → 旧名页残留成
+  // 「实体页多余」拦 gate-all(run 30062396869 实测:提示词注入.md/主观能动性.md 陈旧残留挡整批部署)。
+  // 本地一直靠手动 rm -rf 才没撞上,云端没这步 → 收进代码,根除整类。
+  rmSync(outDir, { recursive: true, force: true });
   mkdirSync(outDir, { recursive: true });
   for (const [file, md] of pages) writeFileSync(join(outDir, `${file}.md`), md);
 

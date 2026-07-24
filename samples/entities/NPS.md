@@ -10,11 +10,11 @@ entity_type: 概念
 
 ## 集里怎么说它
 
-- **[[2026-07-12-lennys-how-tech-workers-actually-feel-about|《2026-07-12-lennys-how-tech-workers-actually-feel-about》]]**(29:32起):本集用净推荐值（NPS）来衡量从业者是否愿意把自己的岗位推荐给刚入行的朋友，结果发现科技圈没有任何一个岗位（包括最快乐的创始人）的 NPS 为正。
+- **[[2026-07-12-lennys-how-tech-workers-actually-feel-about|《How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)》]]**(29:32起):本集用净推荐值（NPS）来衡量从业者是否愿意把自己的岗位推荐给刚入行的朋友，结果发现科技圈没有任何一个岗位（包括最快乐的创始人）的 NPS 为正。
 
 ## 出现在这些集
 
-- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《2026-07-12-lennys-how-tech-workers-actually-feel-about》]] — 作为概念
+- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)》]] — 作为概念
 
 ## 关联实体
 

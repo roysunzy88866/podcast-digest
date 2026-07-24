@@ -26,7 +26,7 @@ entity_type: 人物
 
 ## 出现在这些集
 
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《2026-06-14-lennys-the-common-pattern-behind-successful》]] — 作为主持
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|《The hidden pattern behind successful products | Mark Pincus (founder of Zynga)》]] — 作为主持
 
 ## 关联实体
 

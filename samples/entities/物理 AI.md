@@ -10,7 +10,7 @@ entity_type: 概念
 
 ## 集里怎么说它
 
-- **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《2026-03-08-lennys-the-most-successful-ai-company-youve-nev》]]**(04:20起):本集核心概念，指将 AI 应用到汽车、拖拉机、采矿设备等物理实体机器上使其具备智能化自主能力；嘉宾认为这是未来 5-10 年 AI 产生真正巨大影响（降低净苦难、填补劳动力缺口）的领域。
+- **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《The most successful AI company you’ve never heard of | Qasar Younis》]]**(04:20起):本集核心概念，指将 AI 应用到汽车、拖拉机、采矿设备等物理实体机器上使其具备智能化自主能力；嘉宾认为这是未来 5-10 年 AI 产生真正巨大影响（降低净苦难、填补劳动力缺口）的领域。
 
 ## 金句
 
@@ -60,7 +60,7 @@ entity_type: 概念
 
 ## 出现在这些集
 
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《2026-03-08-lennys-the-most-successful-ai-company-youve-nev》]] — 作为概念
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《The most successful AI company you’ve never heard of | Qasar Younis》]] — 作为概念
 
 ## 关联实体
 
