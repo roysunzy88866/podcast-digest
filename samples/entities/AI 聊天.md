@@ -6,7 +6,7 @@ entity_type: 概念
 # AI 聊天 (AI chat)
 
 > [!info] 概念
-> 出现在 1 集 · 金句 24 条 · 关联 8 个
+> 出现在 1 集 · 金句 22 条 · 关联 8 个
 
 ## 集里怎么说它
 
@@ -45,10 +45,6 @@ entity_type: 概念
 ![[2026-04-26-lennys-snapchat-ceo-why-distribution-is#^q2]]
 
 ![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q4]]
-
-![[2026-05-31-lennys-a-rational-conversation-on-where#^q1]]
-
-![[2026-05-31-lennys-a-rational-conversation-on-where#^q2]]
 
 ![[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#^q6]]
 

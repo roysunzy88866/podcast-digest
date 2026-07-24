@@ -6,12 +6,11 @@ entity_type: 概念
 # AI 时代的产品角色演进 (foundation models)
 
 > [!info] 概念
-> 出现在 2 集 · 金句 24 条 · 关联 10 个
+> 出现在 1 集 · 金句 22 条 · 关联 10 个
 
 ## 集里怎么说它
 
 - **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别问客户、别信心理安全、只招「木桶」》]]**(35:55起):本集指出，由于基础模型能力以月为单位跃升，制定长达一年的路线图变得荒谬，传统 PM 角色将失去意义。未来属于具备商业嗅觉、能在本周发现机会下周就推出新功能的「超级个体」（既懂商业又懂构建）。
-- **[[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样重要,但现在只是 1997 年》]]**(33:26起):本集核心议题之一：模型可能会面临持续的激烈竞争，最终沦为像电信运营商一样低利润、无差异的基础设施大宗商品；由于缺乏赢家通吃效应，模型公司难以拥有长期的定价权，真正价值将向应用层转移。
 
 ## 金句
 
@@ -47,10 +46,6 @@ entity_type: 概念
 
 ![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q4]]
 
-![[2026-05-31-lennys-a-rational-conversation-on-where#^q1]]
-
-![[2026-05-31-lennys-a-rational-conversation-on-where#^q2]]
-
 ![[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#^q6]]
 
 ![[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#^q7]]
@@ -66,8 +61,7 @@ entity_type: 概念
 ## 出现在这些集
 
 - [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别问客户、别信心理安全、只招「木桶」》]] — 作为概念
-- [[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样重要,但现在只是 1997 年》]] — 作为概念
 
 ## 关联实体
 
-[[Lenny]] · [[Airbnb]] · [[Keith Rabois]] · [[Benedict Evans]] · [[PayPal]] · [[ChatGPT]] · [[Square]] · [[OpenAI]] · [[Ramp]] · [[Anthropic]]
+[[Keith Rabois]] · [[Lenny]] · [[PayPal]] · [[Square]] · [[Ramp]] · [[Faire]] · [[DoorDash]] · [[Airbnb]] · [[木桶与弹药]] · [[人才密度]]

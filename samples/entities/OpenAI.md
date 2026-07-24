@@ -6,7 +6,7 @@ entity_type: 公司
 # OpenAI
 
 > [!info] 公司
-> 出现在 9 集 · 金句 1 条 · 关联 10 个
+> 出现在 7 集 · 金句 1 条 · 关联 10 个
 
 ## 集里怎么说它
 
@@ -15,9 +15,7 @@ entity_type: 公司
 - **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《在指数级增长公司做增长：Anthropic 增长负责人的打法》]]**(00:23起):本集作为行业竞品被提及。嘉宾指出 Anthropic 历史上资金匮乏,没有 OpenAI 的先发优势;并提到 OpenAI 发布 ChatGPT 后取得了疯狂的吸引力。
 - **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《前 GitHub、现 Notion 产品负责人 Max:每个项目的前 10% 现在免费了》]]**(05:26起):本集多次顺带提及的竞争对手或行业前沿代表，用于讨论模型代码能力的指数级进步，以及行业竞争防止权力集中。
 - **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的 AI 工作预测:智能体接管工作,但人类不会失业》]]**(08:12起):本集指出该公司曾落后于 Anthropic，但在发布 GPT 5.3 后推出 Codex 桌面应用开始追赶并反超。
-- **[[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样重要,但现在只是 1997 年》]]**(00:17起):本集将其描述为最前沿的 AI 实验室之一，不仅没有裁員反而在持续增加人手，斥巨资投资咨询服务和前向部署工程师；同时在努力建立分发渠道，以防范被巨头边缘化的焦虑。
 - **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Tony Fadell：造出 iPod 和 iPhone 的人，怎么看 AI 时代的造物法则》]]**(06:46起):本集把它说成:像早期的网景浏览器一样,虽然是个引发轰动的工具,但用户不知道每天拿它干嘛、缺乏明确产品定义的纯技术导向公司。
-- **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《OpenAI Codex lead on the new shape of product work | Andrew Ambrosino》]]**(00:00起):本集嘉宾 Andrew 所在的公司，内部近 100% 的员工都在使用 Codex，公司文化鼓励每个人发挥极强的主观能动性去构建一切。
 - **[[2026-07-08-latent-space-modal|《AI 基础设施如何为智能体重新设计:Modal 联合创始人的方法》]]**(55:31起):本集被提及为下场做托管智能体的 AI 巨头之一;同时提到 Gitpod 团队后来加入了 OpenAI。
 
 ## 金句
@@ -31,11 +29,9 @@ entity_type: 公司
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《在指数级增长公司做增长：Anthropic 增长负责人的打法》]] — 作为被讨论公司(提及)
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|《前 GitHub、现 Notion 产品负责人 Max:每个项目的前 10% 现在免费了》]] — 作为被讨论公司(提及)
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的 AI 工作预测:智能体接管工作,但人类不会失业》]] — 作为被讨论公司(提及)
-- [[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样重要,但现在只是 1997 年》]] — 作为被讨论公司
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Tony Fadell：造出 iPod 和 iPhone 的人，怎么看 AI 时代的造物法则》]] — 作为被讨论公司
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《OpenAI Codex lead on the new shape of product work | Andrew Ambrosino》]] — 作为被讨论公司
 - [[2026-07-08-latent-space-modal|《AI 基础设施如何为智能体重新设计:Modal 联合创始人的方法》]] — 作为被讨论公司(提及)
 
 ## 关联实体
 
-[[Lenny]] · [[Anthropic]] · [[智能体]] · [[ChatGPT]] · [[Claude Code]] · [[Cowork]] · [[GitHub]] · [[Codex]] · [[PRD]] · [[主观能动性]]
+[[Lenny]] · [[Anthropic]] · [[智能体]] · [[ChatGPT]] · [[Claude Code]] · [[GitHub]] · [[Ramp]] · [[Cowork]] · [[Kubernetes]] · [[Jeanne DeWitt Grosser]]

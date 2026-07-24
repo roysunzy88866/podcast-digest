@@ -7,7 +7,7 @@ duration: "94:04"
 host: "[[Lenny]]"
 cohosts: ["[[Dan Shipper]]"]
 companies: ["[[Every]]"]
-concepts: ["[[智能体]]", "[[Codex]]", "[[Claude Code]]", "[[Cowork]]", "[[SaaS]]", "[[OpenClaw]]", "[[终端]]", "[[CLI]]", "[[基准测试]]", "[[前线部署工程师]]", "[[全栈设计师]]", "[[自动化]]"]
+concepts: ["[[智能体]]", "[[Codex]]", "[[Claude Code]]", "[[Cowork]]", "[[SaaS]]", "[[OpenClaw]]", "[[终端]]", "[[CLI]]", "[[基准测试]]", "[[前线部署工程师]]", "[[全栈设计师]]", "[[工作自动化]]"]
 tags:
   - AI 时代工作方式
   - 智能体协作
@@ -25,7 +25,7 @@ tags:
 >
 > **涉及公司**:[[Every]]
 >
-> **概念**:[[智能体]] · [[Codex]] · [[Claude Code]] · [[Cowork]] · [[SaaS]] · [[OpenClaw]] · [[终端]] · [[CLI]] · [[基准测试]] · [[前线部署工程师]] · [[全栈设计师]] · [[自动化]]
+> **概念**:[[智能体]] · [[Codex]] · [[Claude Code]] · [[Cowork]] · [[SaaS]] · [[OpenClaw]] · [[终端]] · [[CLI]] · [[基准测试]] · [[前线部署工程师]] · [[全栈设计师]] · [[工作自动化]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper)
 
@@ -138,14 +138,11 @@ Dan 给出的答案是:他极其、极其看好产品经理(PM)和[[全栈设计
 
 - [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:Claude Code、CLI、Codex、OpenClaw、智能体 (agent)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同公司:Cursor · 同概念:Claude Code、Codex、智能体 (agent)
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|《对话 Anthropic 产品负责人 Cat Wu:AI 时代 PM 如何跟上「每周发布」的疯狂节奏》]] —— 同公司:Anthropic · 同概念:Claude Code、工作自动化 (automation)、智能体 (agent)
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同概念:Claude Code、OpenClaw、智能体 (agent)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《在指数级增长公司做增长：Anthropic 增长负责人的打法》]] —— 同公司:Anthropic · 同概念:Claude Code、Cowork、智能体 (agent)
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同公司:Anthropic · 同概念:Claude Code、智能体 (agent)
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《OpenAI Codex lead on the new shape of product work | Andrew Ambrosino》]] —— 同公司:OpenAI · 同概念:Codex、智能体 (agent)
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体替代 10 人销售团队：SaaStr 创始人的前沿实战》]] —— 同概念:前置部署工程师 (forward deployed engineer)、智能体 (agent)
 - [[2026-06-03-latent-space-satya-2026|《专访 Satya Nadella:智能体时代的平台逻辑与企业护城河》]] —— 同概念:SaaS、智能体 (agent)
-- [[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样重要,但现在只是 1997 年》]] —— 同公司:Anthropic、OpenAI · 同概念:Claude Code
 - [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同公司:Anthropic · 同概念:基准测试 (benchmark)
 - [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同公司:Anthropic · 同概念:Claude Code
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被淘汰，构建者迎来黄金期》]] —— 同概念:智能体 (agent)、Codex

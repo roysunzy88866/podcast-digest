@@ -20,30 +20,42 @@ const EPISODES = join(ROOT, "data/episodes");
 const run = (env, ...args) => spawnSync("node", args, { cwd: ROOT, stdio: "inherit", env: { ...process.env, ...env } });
 const ok = (env, ...args) => run(env, ...args).status === 0;
 
+// 翻新只对**已发布集**(有 digest 且有集页)。半成品(有 digest 无页,如判官/抽实体转瞬失败)不碰:
+// 它们的 digest 从没过过闸,翻新失败回滚后若留下新生成物,会把它误升格成已发布集、拿旧稿过闸堵死整线
+// (drift #33,refresh=all 首跑 06-28 实测踩中)。半成品归 backfill 重试链,不归翻新。
+const isPublished = (id) => existsSync(join(ROOT, "samples", `${id}.md`));
+
 function pickIds() {
   const i = process.argv.indexOf("--ids");
-  if (i >= 0 && process.argv[i + 1]) return process.argv[i + 1].split(",").map((s) => s.trim()).filter(Boolean);
-  return readdirSync(EPISODES, { withFileTypes: true })
-    .filter((d) => d.isDirectory() && existsSync(join(EPISODES, d.name, "digest.json")))
-    .map((d) => d.name);
+  const ids = i >= 0 && process.argv[i + 1]
+    ? process.argv[i + 1].split(",").map((s) => s.trim()).filter(Boolean)
+    : readdirSync(EPISODES, { withFileTypes: true })
+        .filter((d) => d.isDirectory() && existsSync(join(EPISODES, d.name, "digest.json")))
+        .map((d) => d.name);
+  const skipped = ids.filter((id) => !isPublished(id));
+  if (skipped.length) console.log(`⏭ 跳过 ${skipped.length} 个半成品(有 digest 无集页,归 backfill 重试链):${skipped.join(", ")}`);
+  return ids.filter(isPublished);
 }
 
 function refreshOne(id) {
   const dir = join(EPISODES, id);
   if (!existsSync(join(dir, "digest.json"))) return { id, status: "skip", why: "无 digest(半成品,翻新只对已完成集)" };
-  // 备份(entities 可能缺——老集半途,也翻;恢复时只还原真备过的)
-  // meta.json 也备:C5.1 起 condense 会把 title_zh 写回 meta——翻新失败回滚时不能让
-  // 被毙掉那版 digest 的标题留在 meta 里(回滚必须彻底)
+  // 备份。meta.json 也备:C5.1 起 condense 会把 title_zh 写回 meta——回滚必须彻底。
+  // 备份时不存在的文件(如老集缺 entities)若被翻新过程新建,回滚时必须**删掉**——
+  // 只还原备过的、留下新建的 = 半成品被误升格成已发布集(drift #33 真踩过)。
   const backups = [];
+  const created = []; // 备份时不存在 → 回滚时删
   for (const f of ["digest.json", "entities.json", "meta.json"]) {
     const p = join(dir, f);
     if (existsSync(p)) { copyFileSync(p, p + ".bak"); backups.push(f); }
+    else created.push(f);
   }
   // ⚠️ 音频只在真被动过(进到重合成那步)才随回滚清理——失败发生在 tts 之前时,audio.mp3 还是
   //    配老稿的好音频,乱删=refresh run 的 gate-all 音频层白炸(GLM 20260724-002[1] 抓到,判 save)
   let audioTouched = false;
   const rollback = () => {
     for (const f of backups) copyFileSync(join(dir, f + ".bak"), join(dir, f));
+    for (const f of created) { const p = join(dir, f); if (existsSync(p)) unlinkSync(p); } // 新建物删净(drift #33)
     if (audioTouched) for (const f of ["audio.mp3", "audio.meta.json"]) { const p = join(dir, f); if (existsSync(p)) unlinkSync(p); }
   };
   const cleanup = () => { for (const f of backups) { const p = join(dir, f + ".bak"); if (existsSync(p)) unlinkSync(p); } };

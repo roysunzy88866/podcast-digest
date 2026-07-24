@@ -317,6 +317,13 @@ async function main() {
     process.exit(2);
   }
 
+  // --ensure-audio:只补齐已发布集缺失音频(CI 检出不带 gitignore 音频;refresh 分支回滚集在
+  // runner 上没音频,gate-audio 必挂 —— refresh=all 首跑 18 条实测)。不取源不处理内容。
+  if (flags.has("--ensure-audio")) {
+    ensureAllAudio();
+    return;
+  }
+
   const state = readState();
 
   if (flags.has("--seed")) {

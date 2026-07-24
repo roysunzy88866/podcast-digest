@@ -74,6 +74,7 @@ jobs:
             # 存量翻新(2026-07-24 用户拍板:云端真实流程做):重浓缩→闸门→败者回滚老版 → 统一重建+全库门
             echo "🔄 存量翻新模式:$REFRESH"
             if [ "$REFRESH" = "all" ]; then node scripts/refresh-digests.mjs; else node scripts/refresh-digests.mjs --ids "$REFRESH"; fi
+            node scripts/run-pipeline.mjs --ensure-audio   # 回滚集在 runner 无音频,gate-audio 会挂(refresh 首跑 18 条实测)
             node scripts/build-entities.mjs
             node scripts/build-pages.mjs
             node scripts/build-list.mjs

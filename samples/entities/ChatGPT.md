@@ -7,7 +7,7 @@ aliases: ["chat gpt", "ChatGPD"]
 # ChatGPT
 
 > [!info] 公司 · 又名 chat gpt / ChatGPD
-> 出现在 8 集 · 金句 2 条 · 关联 10 个
+> 出现在 6 集 · 金句 2 条 · 关联 10 个
 
 ## 集里怎么说它
 
@@ -16,8 +16,6 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《Cisco 高管 Jeetu Patel：如何把老牌巨头推向 AI 时代，以及他的六维制胜框架》]]**(12:31起):本集把它说成：点燃企业转向 AI-first 的决定性标志（'22年的11月），也是人人都能轻松听懂的「超级趋势」的典型代表。
 - **[[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]]**(02:06起):本集把它说成:传统的托管型 AI 工具;嘉宾将 OpenClaw 与之对比,强调用 OpenClaw 就像“自己组装电脑”,学到的东西远超按按按钮就用 ChatGPT,体验也更有趣。
 - **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《在指数级增长公司做增长：Anthropic 增长负责人的打法》]]**(00:41起):本集提到 Anthropic 曾将其作为记忆导入的来源,做成了一个聪明的增长举措以改善冷启动体验;并指出其发布获得了疯狂的吸引力。
-- **[[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样重要,但现在只是 1997 年》]]**(00:23起):本集将其作为 AI 工具的典型代表：悲观主义者认为大公司明天就会买下它并开除员工；它之所以能迅速获得 9 亿周活跃用户，是因为全球已有几十亿部智能手机和宽带网络铺路。
-- **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《OpenAI Codex lead on the new shape of product work | Andrew Ambrosino》]]**(36:09起):OpenAI 推出的核心产品。本集谈到 Codex 的经验正被整合进 ChatGPT 桌面应用中，两者会结合在一起为用户提供通用知识工作服务。
 - **[[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]]**(01:05起):集里作为对比对象被提及，强调由于在云端运行它只能做有限的事（比如做不到控制嘉宾床的温度），且各家（如 ChatGPT）都有自己的数据孤岛，无法被别的公司提取记忆。
 
 ## 金句
@@ -33,10 +31,8 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《Cisco 高管 Jeetu Patel：如何把老牌巨头推向 AI 时代，以及他的六维制胜框架》]] — 作为概念
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] — 作为概念(提及)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《在指数级增长公司做增长：Anthropic 增长负责人的打法》]] — 作为被讨论公司(提及)
-- [[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样重要,但现在只是 1997 年》]] — 作为被讨论公司
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《OpenAI Codex lead on the new shape of product work | Andrew Ambrosino》]] — 作为被讨论公司
 - [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] — 作为被讨论公司(提及)
 
 ## 关联实体
 
-[[Lenny]] · [[Anthropic]] · [[OpenAI]] · [[智能体]] · [[Claude Code]] · [[GPU]] · [[Claude]] · [[OpenClaw]] · [[PRD]] · [[Codex]]
+[[Lenny]] · [[Anthropic]] · [[智能体]] · [[Claude Code]] · [[GPU]] · [[Claude]] · [[OpenAI]] · [[OpenClaw]] · [[MCP]] · [[NVIDIA]]

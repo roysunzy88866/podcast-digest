@@ -6,7 +6,7 @@ entity_type: 公司
 # Claude
 
 > [!info] 公司
-> 出现在 5 集 · 金句 1 条 · 关联 10 个
+> 出现在 5 集 · 金句 0 条 · 关联 10 个
 
 ## 集里怎么说它
 
@@ -15,10 +15,6 @@ entity_type: 公司
 - **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《在指数级增长公司做增长：Anthropic 增长负责人的打法》]]**(00:53起):Anthropic 旗下的核心 AI 产品与模型。本集多次提及,被描述为拥有世界上最好的模型,并在内部被尝试用于全自动化增长实验以及进行「软指导」。
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被淘汰，构建者迎来黄金期》]]**(17:32起):本集提到嘉宾在过去三个月里将其作为主力工具，甚至「all in on Claude」。他致力于「淘汰自己」，用它写出智能体去自动匹配社区里 125 位高管的社交需求、自动回答常见问题，并边看剧边用它凭直觉写代码。
 - **[[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel:在AI时代,做最会创新的公司》]]**(44:20起):Evan 提到 Snap 在跨公司打通和改造工作流时大量使用了 Claude（智能体），来端到端自动处理编写规格、找审批人、做法务风险分析等工作流。
-
-## 金句
-
-![[2026-04-23-lennys-how-anthropics-product-team-moves#^q6]]
 
 ## 出现在这些集
 
