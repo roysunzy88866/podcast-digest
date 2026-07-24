@@ -141,19 +141,38 @@ export function appendSkip(state, entry) {
   return state;
 }
 
+// C9 D44①:cutoff 按源(state.cutoffs[key]);该源无基线即逼 seed。
+// 覆盖旧「换源防呆」(GLM 20260720-001[1]):别的源的 cutoff 结构上不可能再被当成自己的;
+// 也并入旧「无基线拒跑全 backlog」(drift #22)。
 export function needsReseed(state, sourceKey) {
-  return !!state.sincePubDate && state.cutoffSource !== sourceKey;
+  return !state?.cutoffs?.[sourceKey];
+}
+
+/** 旧单 cutoff state → v2 按源 cutoffs,无损迁移(cutoffSource 空的更旧版本丢 cutoff 不猜源,保守逼 seed)。 */
+export function migrateState(raw) {
+  if (!raw || typeof raw !== "object") return { cutoffs: {}, skipped: [] };
+  const { sincePubDate, cutoffSource, cutoffs, skipped, ...rest } = raw;
+  const out = { ...rest, cutoffs: { ...(cutoffs ?? {}) }, skipped: skipped ?? [] };
+  if (sincePubDate && cutoffSource && !out.cutoffs[cutoffSource]) out.cutoffs[cutoffSource] = sincePubDate;
+  return out;
+}
+
+/** seed 只补缺的源:已有基线绝不顶掉(重复 seed 会把「基线后未处理的集」跳过去=静默丢集)。 */
+export function applySeed(state, sourceKey, newestISO) {
+  state.cutoffs = state.cutoffs ?? {};
+  if (state.cutoffs[sourceKey]) return false;
+  state.cutoffs[sourceKey] = newestISO;
+  return true;
 }
 
 // ── 副作用层 ────────────────────────────────────────────
 
 function readState() {
-  const dflt = { sincePubDate: "", skipped: [], cutoffSource: "" };
-  if (!existsSync(STATE_FILE)) return dflt;
+  if (!existsSync(STATE_FILE)) return migrateState(null);
   try {
-    return { ...dflt, ...JSON.parse(readFileSync(STATE_FILE, "utf8")) };
+    return migrateState(JSON.parse(readFileSync(STATE_FILE, "utf8")));
   } catch {
-    return dflt;
+    return migrateState(null);
   }
 }
 
@@ -284,14 +303,56 @@ async function main() {
     process.exit(2);
   }
 
-  // C8:多源骨架。本切片先只接 1 个 active 源(Lenny's),单 cutoff 够用;
-  // 按源独立 cutoff 留到第 2 个源落地时重构 state(tech-debt),此处硬守只 1 源,防静默串号。
-  if (SOURCES.length !== 1) {
-    console.error(`⛔ 当前只支持单 active 源(现 ${SOURCES.length} 个)。多源需先把 state.sincePubDate 改成按源 cutoff(见 tech-debt)。`);
+  // C9 D44①:多源按源循环 + 按源 cutoff。--source <key> 可点名只跑一个源;
+  // --backfill 在多源时必须 --source 点名(防「回填」笼统砸到所有源批量烧钱)。
+  const srcIdx = argv.indexOf("--source");
+  const onlyKey = srcIdx >= 0 ? argv[srcIdx + 1] : null;
+  const sources = onlyKey ? SOURCES.filter((s) => s.key === onlyKey) : SOURCES;
+  if (onlyKey && !sources.length) {
+    console.error(`⛔ 未知源「${onlyKey}」。可选:${SOURCES.map((s) => s.key).join(", ")}`);
     process.exit(2);
   }
-  const source = SOURCES[0];
-  console.log(`源:${source.key}(${source.feedUrl})`);
+  if (backfillN > 0 && SOURCES.length > 1 && !onlyKey) {
+    console.error("⛔ 多源配置下 --backfill 必须配 --source <key> 点名回填哪个源(防笼统批量烧钱)。");
+    process.exit(2);
+  }
+
+  const state = readState();
+
+  if (flags.has("--seed")) {
+    // 设基线:cutoff = 该源 feed 最新访谈集时间 → 之后只处理更新的(历史 backlog 不碰,drift #22)。
+    // 只补缺的源:已有基线绝不顶掉(重复 seed = 把基线后未处理的集静默跳过,不许)。
+    for (const source of sources) {
+      const items = parseFeed(await fetchFeed(source.feedUrl));
+      const newest = items.filter(isInterview).map((i) => i.pubDateISO).sort().at(-1) || new Date().toISOString();
+      if (applySeed(state, source.key, newest)) console.log(`✅ 已设 ${source.key} 基线 cutoff = ${newest}(晚于它的访谈集才会被处理)。`);
+      else console.log(`ℹ️ ${source.key} 已有基线 ${state.cutoffs[source.key]},不动(seed 只补缺)。`);
+    }
+    writeState(state);
+    return;
+  }
+
+  let totalClean = 0;
+  let totalSkipped = 0;
+  for (const source of sources) {
+    const r = await processSource(source, state, { backfillN, dryRun: flags.has("--dry-run") });
+    totalClean += r.clean;
+    totalSkipped += r.skipped;
+  }
+
+  if (totalClean > 0) {
+    rebuildAll();
+    console.log("\n▶ gate-all(全闸门,全过才允许发布)");
+    run("node", ["scripts/gate-all.mjs"]); // 干净集应全过;仍挂=兜底 fail-safe(不部署)
+    console.log(`\n✅ ${totalClean} 干净集过 gate-all,可发布;skip ${totalSkipped} 集。`);
+  } else {
+    console.log("\n✅ 无干净可发的新集(全被隔离/无新集)。不部署,线上保持上一版。");
+  }
+}
+
+/** 单源一轮:取 feed→选新集→逐集处理→按源推进 cutoff。返回 {clean, skipped} 计数。 */
+async function processSource(source, state, { backfillN, dryRun }) {
+  console.log(`\n══ 源:${source.key}(${source.feedUrl})`);
 
   // 补历史(--backfill)读本机备好的全历史列表;日常/cron 走 RSS(最近 20,只向前看够用,drift #28)
   let items;
@@ -305,17 +366,7 @@ async function main() {
   const interviews = items.filter(isInterview);
   console.log(`共 ${items.length} 条,访谈 ${interviews.length} 条(排掉 ainews/无音频)`);
 
-  const state = readState();
-
-  if (flags.has("--seed")) {
-    // 设站基线:cutoff = 当前 feed 最新访谈集时间 → 之后只处理更新的(历史 backlog 不碰,drift #22)
-    const newest = interviews.map((i) => i.pubDateISO).sort().at(-1) || new Date().toISOString();
-    writeState({ ...state, sincePubDate: newest, cutoffSource: source.key });
-    console.log(`✅ 已设 ${source.key} 基线 cutoff = ${newest}(晚于它的访谈集才会被处理);未处理任何集。`);
-    return;
-  }
-
-  // 已见 = 已完成(有 digest)+ 已隔离(账本,持久化去重,别再自动重跑失真集)
+  // 已见 = 已完成(有 digest)+ 已隔离(账本,持久化去重,别再自动重跑失真集)。每源现算(前一源可能新增完成集)。
   const seen = [...completedIds(), ...state.skipped.map((s) => s.id)];
 
   let picks;
@@ -324,29 +375,23 @@ async function main() {
     picks = selectBackfill(items, { n: backfillN, existingIds: seen, source });
     console.log(`🔁 回填模式:取最近 ${backfillN} 集,实得 ${picks.length}:`);
   } else {
-    // 防呆(GLM 20260720-001[1]):cutoff 属于别的源(换源了)→ 拒绝跑,逼先 --seed,防批量拉新源存量旧集
+    // 防呆:该源无基线 → 跳过该源(响亮报警),不砸别的源的日常 cron;拒绝无边界跑全 backlog(drift #22)。
     if (needsReseed(state, source.key)) {
-      console.error(`⛔ 现有 cutoff 属于源「${state.cutoffSource || "(未知/旧版)"}」,当前源是「${source.key}」。`);
-      console.error(`   换源后旧 cutoff 无意义,直接跑会把 ${source.key} 的存量旧集当新集批量处理(烧钱/发旧集)。`);
-      console.error(`   先跑 \`node scripts/run-pipeline.mjs --seed\` 为 ${source.key} 重设基线。`);
-      process.exit(2);
+      console.error(`⛔ 源 ${source.key} 无基线 cutoff → 本源跳过。先 \`node scripts/run-pipeline.mjs --seed --source ${source.key}\` 设基线。`);
+      return { clean: 0, skipped: 0 };
     }
-    if (!state.sincePubDate) {
-      console.error("⛔ 无基线(data/pipeline-state.json 缺 sincePubDate)。先跑 `--seed` 设站基线,拒绝无边界跑全 backlog。");
-      process.exit(2);
-    }
-    picks = selectNew(items, { sinceISO: state.sincePubDate, existingIds: seen, source });
-    console.log(`cutoff=${state.sincePubDate};待处理新集 ${picks.length}:`);
+    picks = selectNew(items, { sinceISO: state.cutoffs[source.key], existingIds: seen, source });
+    console.log(`cutoff=${state.cutoffs[source.key]};待处理新集 ${picks.length}:`);
   }
   picks.forEach((p) => console.log(`   - ${deriveId(p, source)}  (${p.pubDateISO})  ${p.title}`));
 
   if (!picks.length) {
-    console.log("✅ 无新集,干净退出(不空跑不报错)。");
-    return;
+    console.log(`✅ ${source.key} 无新集。`);
+    return { clean: 0, skipped: 0 };
   }
-  if (flags.has("--dry-run")) {
+  if (dryRun) {
     console.log("（--dry-run:仅列出,不真跑)");
-    return;
+    return { clean: 0, skipped: 0 };
   }
 
   // 逐集处理:干净集入发布,失真集隔离(skip+通知,drift #24),转瞬失败留半成品下次重试。
@@ -382,30 +427,21 @@ async function main() {
 
   // 🔔 通知(CI 转成告警/邮件):本批 skip 了哪些
   if (skipped.length) {
-    console.log(`\n🔔 通知:本批 ${skipped.length} 集未发布:`);
+    console.log(`\n🔔 通知:${source.key} 本批 ${skipped.length} 集未发布:`);
     skipped.forEach((s) => console.log(`   - ${s.id} — ${s.reason}${s.retry ? "" : "(隔离 data/skipped,待人工看)"}`));
   }
 
-  if (clean.length) {
-    rebuildAll();
-    console.log("\n▶ gate-all(全闸门,全过才允许发布)");
-    run("node", ["scripts/gate-all.mjs"]); // 干净集应全过;仍挂=兜底 fail-safe(不部署)
-    console.log(`\n✅ ${clean.length} 干净集过 gate-all,可发布;skip ${skipped.length} 集。`);
-  } else {
-    console.log("\n✅ 无干净可发的新集(全被隔离/无新集)。不部署,线上保持上一版。");
-  }
-
-  // cutoff:无「转瞬失败待重试」的集时,推进到本批最新(干净集+隔离集都是终态,靠 seen 去重不重跑);
+  // cutoff(按源):无「转瞬失败待重试」的集时,推进到本批最新(干净集+隔离集都是终态,靠 seen 去重不重跑);
   // 有转瞬失败则不推进,好让它下次被重新选中重试(半成品不在 seen)。
   if (!skipped.some((s) => s.retry)) {
     // 回填后 cutoff 推到 feed 最新访谈(不只本批最新)→ 之后 cron 只向前看不重扣;selectNew 的 seen 去重再兜一层
     const newestFeed = interviews.map((i) => i.pubDateISO).sort().at(-1);
     const newestPick = picks.map((p) => p.pubDateISO).sort().at(-1);
-    state.sincePubDate = backfillN > 0 ? (newestFeed > newestPick ? newestFeed : newestPick) : newestPick;
-    console.log(`cutoff 推进到 ${state.sincePubDate}。`);
+    state.cutoffs[source.key] = backfillN > 0 ? (newestFeed > newestPick ? newestFeed : newestPick) : newestPick;
+    console.log(`${source.key} cutoff 推进到 ${state.cutoffs[source.key]}。`);
   }
-  state.cutoffSource = source.key; // 始终标定 cutoff 归属源(回填/正常都设,满足 needsReseed 防呆)
   writeState(state); // 始终落盘:持久化 skipped 账本(即便 cutoff 没推进)
+  return { clean: clean.length, skipped: skipped.length };
 }
 
 function isMain() {

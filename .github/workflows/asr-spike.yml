@@ -1,0 +1,99 @@
+# C9 · P1 前置核验(user-stories C9 Scenario 0):whisperX 在免费 runner 上真跑一集 a16z,
+# 量耗时 + 说话人分离质量。未达标(>2.5h/集 或分离乱)→ 停,降级 Deepgram(drift #14)。
+# 只做核验,不进 data/、不部署、不 commit 回仓;产物走 artifact 供人工抽检。
+name: ASR Spike (whisperX P1)
+
+on:
+  workflow_dispatch:
+    inputs:
+      audio_url:
+        description: "音频直链(留空=自动取 a16z feed 最新一集 enclosure)"
+        required: false
+        default: ""
+
+jobs:
+  asr:
+    strategy:
+      fail-fast: false
+      matrix:
+        model: [large-v3, medium] # 双档并行对比:质量基准 vs 速度候补
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 选集(默认 a16z feed 最新 enclosure)
+        id: pick
+        run: |
+          if [ -n "${{ inputs.audio_url }}" ]; then
+            URL="${{ inputs.audio_url }}"; TITLE="(手动指定)"
+          else
+            FEED=$(curl -sL "https://feeds.simplecast.com/JGE3yC0V")
+            URL=$(echo "$FEED" | grep -o '<enclosure[^>]*url="[^"]*"' | head -1 | sed 's/.*url="//;s/"$//')
+            TITLE=$(echo "$FEED" | grep -o '<item>.*' | grep -o '<title>[^<]*\|<title><!\[CDATA\[[^]]*' | sed -n 2p | sed 's/<title>//;s/<!\[CDATA\[//')
+          fi
+          [ -n "$URL" ] || { echo "::error::拿不到音频直链"; exit 1; }
+          echo "url=$URL" >> "$GITHUB_OUTPUT"
+          echo "选集:$TITLE"
+          echo "$URL"
+
+      - name: 下载音频 + 时长
+        id: audio
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
+          curl -sL "${{ steps.pick.outputs.url }}" -o episode.mp3
+          DUR=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 episode.mp3)
+          echo "音频 $(du -h episode.mp3 | cut -f1),${DUR%.*}s"
+          echo "dur=${DUR%.*}" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 装 whisperX(CPU 版 torch,免 CUDA 大包)
+        run: |
+          pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install -q whisperx
+          whisperx --version || true
+
+      - name: whisperX 转写 + pyannote 说话人分离(计时)
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          [ -n "$HF_TOKEN" ] || { echo "::error::缺 HF_TOKEN secret(pyannote 门控模型要)"; exit 1; }
+          T0=$SECONDS
+          whisperx episode.mp3 \
+            --model ${{ matrix.model }} --compute_type int8 --language en --threads 4 \
+            --diarize --hf_token "$HF_TOKEN" \
+            --output_dir out --output_format json
+          T=$((SECONDS-T0))
+          echo "ASR_SECONDS=$T" >> "$GITHUB_ENV"
+          echo "耗时 ${T}s"
+
+      - name: 转成官方稿同构 + 质量摘要
+        run: |
+          node scripts/fetch-source-whisperx.mjs data/asr-spike --wx out/episode.json --audio-url "${{ steps.pick.outputs.url }}"
+          node -e '
+            const t=JSON.parse(require("fs").readFileSync("data/asr-spike/transcript.en.json","utf8"));
+            const spk={}; for(const s of t) spk[s.speaker]=(spk[s.speaker]||0)+1;
+            const words=t.reduce((n,s)=>n+s.words.length,0);
+            const timed=t.reduce((n,s)=>n+s.words.filter(w=>"start" in w).length,0);
+            const dur=Number(process.env.AUDIO_DUR||0), asr=Number(process.env.ASR_SECONDS||0);
+            const lines=[
+              "## whisperX P1 · ${{ matrix.model }}",
+              `- 音频时长:${Math.round(dur/60)} 分 | ASR 耗时:${Math.round(asr/60)} 分 | 倍速:${(dur/asr).toFixed(2)}x 实时`,
+              `- 段:${t.length} | 词:${words}(带时间戳 ${(100*timed/words).toFixed(1)}%)| 说话人分布:${JSON.stringify(spk)}`,
+              "", "### 开场 15 段抽检(人工核说话人切换)", ...t.slice(0,15).map(s=>`- [${s.speaker}] ${s.text}`)];
+            require("fs").appendFileSync(process.env.GITHUB_STEP_SUMMARY, lines.join("\n")+"\n");
+            console.log(lines.join("\n"));
+          '
+        env:
+          AUDIO_DUR: ${{ steps.audio.outputs.dur }}
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: asr-spike-${{ matrix.model }}
+          path: |
+            out/
+            data/asr-spike/
+          retention-days: 14

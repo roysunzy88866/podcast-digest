@@ -78,18 +78,52 @@ describe("C8 · SOURCES 源清单(品味校准后只留绿源)", () => {
   });
 });
 
-describe("needsReseed · 换源防呆(GLM 20260720-001[1])", () => {
-  it("cutoff 属于当前源 → 不用重设", () => {
-    expect(needsReseed({ sincePubDate: "2026-07-16T00:00:00.000Z", cutoffSource: "lennys" }, "lennys")).toBe(false);
+// C9 D44①:state 从全局单 cutoff 重构为按源 cutoffs;needsReseed 语义收敛为「该源无基线即逼 seed」
+// (旧「换源防呆」GLM 20260720-001[1] 被它覆盖:别的源的 cutoff 不再可能被当成自己的)。
+describe("needsReseed · 按源基线防呆(C9 重构,覆盖旧换源防呆)", () => {
+  it("该源有 cutoff → 不用重设", () => {
+    expect(needsReseed({ cutoffs: { lennys: "2026-07-16T00:00:00.000Z" } }, "lennys")).toBe(false);
   });
-  it("cutoff 属于别的源(换源了)→ 逼重设", () => {
-    expect(needsReseed({ sincePubDate: "2026-07-16T00:00:00.000Z", cutoffSource: "latent-space" }, "lennys")).toBe(true);
+  it("只有别的源的 cutoff → 该源仍逼 seed(旧换源场景,不串号)", () => {
+    expect(needsReseed({ cutoffs: { "latent-space": "2026-07-16T00:00:00.000Z" } }, "lennys")).toBe(true);
   });
-  it("旧版 state 无 cutoffSource 但有 cutoff → 也逼重设(保守)", () => {
-    expect(needsReseed({ sincePubDate: "2026-07-16T00:00:00.000Z", cutoffSource: "" }, "lennys")).toBe(true);
+  it("空 state → 逼 seed(无基线拒跑全 backlog,drift #22 并入此判)", () => {
+    expect(needsReseed({ cutoffs: {} }, "lennys")).toBe(true);
+    expect(needsReseed({}, "lennys")).toBe(true);
   });
-  it("还没基线(无 cutoff)→ 不拦(交给 --seed 流程)", () => {
-    expect(needsReseed({ sincePubDate: "", cutoffSource: "" }, "lennys")).toBe(false);
+});
+
+describe("migrateState · 旧单 cutoff state 无损升级(C9 D44①)", () => {
+  it("★ 旧格式 {sincePubDate, cutoffSource} → cutoffs 按源,skipped 保留", async () => {
+    const { migrateState } = await import("../scripts/run-pipeline.mjs");
+    const old = { sincePubDate: "2026-07-22T12:03:38.000Z", cutoffSource: "lennys", skipped: [{ id: "x" }] };
+    const s = migrateState(old);
+    expect(s.cutoffs).toEqual({ lennys: "2026-07-22T12:03:38.000Z" });
+    expect(s.skipped).toEqual([{ id: "x" }]);
+    expect(s.sincePubDate).toBeUndefined(); // 旧字段不残留(防双真相源)
+    expect(s.cutoffSource).toBeUndefined();
+  });
+  it("★ 已是 v2 → 原样通过;空/损坏 → 安全默认", async () => {
+    const { migrateState } = await import("../scripts/run-pipeline.mjs");
+    const v2 = { cutoffs: { lennys: "t1", a16z: "t2" }, skipped: [] };
+    expect(migrateState(v2)).toEqual(v2);
+    expect(migrateState({})).toEqual({ cutoffs: {}, skipped: [] });
+    expect(migrateState(null)).toEqual({ cutoffs: {}, skipped: [] });
+  });
+  it("旧格式但 cutoffSource 空(更旧版本)→ cutoff 丢弃不猜源(保守,逼 seed)", async () => {
+    const { migrateState } = await import("../scripts/run-pipeline.mjs");
+    expect(migrateState({ sincePubDate: "t", cutoffSource: "", skipped: [] }).cutoffs).toEqual({});
+  });
+});
+
+describe("applySeed · seed 只补缺的源,不动已有基线(C9:重复 seed 不许把未处理集跳过去)", () => {
+  it("★ 缺 → 设新基线并返回 true;已有 → 不动返回 false", async () => {
+    const { applySeed } = await import("../scripts/run-pipeline.mjs");
+    const state = { cutoffs: { lennys: "old" }, skipped: [] };
+    expect(applySeed(state, "a16z", "2026-07-24T00:00:00.000Z")).toBe(true);
+    expect(state.cutoffs.a16z).toBe("2026-07-24T00:00:00.000Z");
+    expect(applySeed(state, "lennys", "2026-07-24T00:00:00.000Z")).toBe(false);
+    expect(state.cutoffs.lennys).toBe("old"); // 已有基线绝不被 seed 顶掉
   });
 });
 
