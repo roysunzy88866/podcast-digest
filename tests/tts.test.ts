@@ -125,6 +125,14 @@ describe("chunkForSynthesis · ≤max、无损、不硬断句子", () => {
     expect(chunks.join("")).toBe(text);
     for (const c of chunks) expect(c.length).toBeLessThanOrEqual(20);
   });
+  it("★ 生产默认 max=3000(合成长文,不依赖 digest 字数):多块+无损+句末边界(GLM 20260724-007[2] 回归覆盖)", () => {
+    const text = Array.from({ length: 200 }, (_, i) => `这是第${i}句用于覆盖生产默认切块值的测试语料,讲的是智能体与推理云。`).join("");
+    const chunks = chunkForSynthesis(text, 3000);
+    expect(chunks.length).toBeGreaterThan(1);
+    expect(chunks.join("")).toBe(text);
+    for (const c of chunks) expect(c.length).toBeLessThanOrEqual(3000);
+    for (const c of chunks.slice(0, -1)) expect(c).toMatch(/[。！？!?…\n]$/);
+  });
   it("★ 现实体量(真 digest):切成多块,非末块都收在句末/段末边界(不硬断句子)", () => {
     const text = stripMarkdownForTTS(sourceText(modalDigest));
     // max 取文本长度一半:保证恒切多块(digest 会被云端翻新重写,字数不钉死——原钉 3000 在翻新变短后恒单块,测不到边界逻辑)
