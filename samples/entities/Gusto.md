@@ -10,12 +10,12 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]]**(00:35起):本集讨论的所属公司，拥有超过一千名研发员工，并在 10 周内由 5 人小团队从零构建发布了全新智能体产品 Co-Founder。
+- **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]]**(00:35起):本集嘉宾所在的、拥有上千名研发人员的科技公司，主营薪资发放和人力资源服务，内部孵化出了全新的 AI 助手产品线。
 
 ## 出现在这些集
 
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]] — 作为被讨论公司
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Claire Vo]] · [[Eddie Kim]] · [[联合创始人]] · [[vibe code]] · [[垃圾桶法]] · [[拉取请求]] · [[功能开关]] · [[智能体]] · [[智能体循环]] · [[Cloud Code]]
+[[Claire Vo]] · [[Eddie Kim]] · [[联合创始人]] · [[vibe coding]] · [[永久 Zoom]] · [[智能体]] · [[垃圾桶法]] · [[Cloudflare Worker]] · [[Vercel AI SDK]] · [[Claude Code]]

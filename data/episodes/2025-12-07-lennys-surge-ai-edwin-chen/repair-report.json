@@ -2,38 +2,62 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "09:51",
+      "timestamp": "05:40",
       "speaker": "Edwin Chen",
       "trimmed": false,
-      "tsWas": "09:51",
+      "tsWas": "05:40",
       "spkWas": "Edwin Chen"
     },
     {
       "i": 2,
-      "timestamp": "18:00",
+      "timestamp": "09:47",
       "speaker": "Edwin Chen",
       "trimmed": false,
-      "tsWas": "18:00",
+      "tsWas": "09:47",
       "spkWas": "Edwin Chen"
     },
     {
       "i": 3,
-      "timestamp": "18:49",
+      "timestamp": "10:19",
+      "speaker": "Edwin Chen",
+      "trimmed": false,
+      "tsWas": "10:19",
+      "spkWas": "Edwin Chen"
+    },
+    {
+      "i": 4,
+      "timestamp": "15:36",
+      "speaker": "Edwin Chen",
+      "trimmed": false,
+      "tsWas": "15:36",
+      "spkWas": "Edwin Chen"
+    },
+    {
+      "i": 5,
+      "timestamp": "18:48",
       "speaker": "Edwin Chen",
       "trimmed": false,
       "tsWas": "18:48",
       "spkWas": "Edwin Chen"
     },
     {
-      "i": 4,
-      "timestamp": "23:25",
+      "i": 6,
+      "timestamp": "23:14",
       "speaker": "Edwin Chen",
       "trimmed": false,
-      "tsWas": "23:25",
+      "tsWas": "23:14",
       "spkWas": "Edwin Chen"
     },
     {
-      "i": 6,
+      "i": 7,
+      "timestamp": "23:25",
+      "speaker": "Edwin Chen",
+      "trimmed": false,
+      "tsWas": "23:29",
+      "spkWas": "Edwin Chen"
+    },
+    {
+      "i": 9,
       "timestamp": "24:49",
       "speaker": "Edwin Chen",
       "trimmed": false,
@@ -41,23 +65,31 @@
       "spkWas": "Edwin Chen"
     },
     {
-      "i": 7,
-      "timestamp": "30:09",
+      "i": 10,
+      "timestamp": "25:21",
       "speaker": "Edwin Chen",
       "trimmed": false,
-      "tsWas": "30:08",
+      "tsWas": "25:21",
       "spkWas": "Edwin Chen"
     },
     {
-      "i": 8,
-      "timestamp": "30:24",
+      "i": 11,
+      "timestamp": "29:22",
       "speaker": "Edwin Chen",
       "trimmed": false,
-      "tsWas": "30:23",
+      "tsWas": "29:22",
       "spkWas": "Edwin Chen"
     },
     {
-      "i": 9,
+      "i": 12,
+      "timestamp": "30:05",
+      "speaker": "Edwin Chen",
+      "trimmed": false,
+      "tsWas": "30:05",
+      "spkWas": "Edwin Chen"
+    },
+    {
+      "i": 13,
       "timestamp": "51:56",
       "speaker": "Edwin Chen",
       "trimmed": false,
@@ -65,29 +97,27 @@
       "spkWas": "Edwin Chen"
     },
     {
-      "i": 12,
-      "timestamp": "48:20",
+      "i": 14,
+      "timestamp": "62:55",
       "speaker": "Edwin Chen",
       "trimmed": false,
-      "tsWas": "48:20",
+      "tsWas": "62:55",
+      "spkWas": "Edwin Chen"
+    },
+    {
+      "i": 15,
+      "timestamp": "60:03",
+      "speaker": "Edwin Chen",
+      "trimmed": false,
+      "tsWas": "60:01",
       "spkWas": "Edwin Chen"
     }
   ],
   "dropped": [
     {
-      "i": 5,
+      "i": 8,
       "reason": "逐字命中不了(裁剪后仍无)",
       "en": "It's literally optimizing your models for the types of people who buy tabloids at a grocery store."
-    },
-    {
-      "i": 10,
-      "reason": "逐字命中不了(裁剪后仍无)",
-      "en": "I would rather be Terrence Tao than Warren Buffett, so that notion of creating research that pushes the frontier forward and not just getting some valuation, that's always been what drives me."
-    },
-    {
-      "i": 11,
-      "reason": "逐字命中不了(裁剪后仍无)",
-      "en": "You are your objective function."
     }
   ]
 }

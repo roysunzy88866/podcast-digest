@@ -5,9 +5,9 @@
   "tags": [
     "物理 AI",
     "自动驾驶",
-    "人形机器人",
-    "制造业与危险工种",
-    "创始人方法论"
+    "创业哲学",
+    "中美科技竞争",
+    "AI 大众焦虑"
   ],
   "entities": [
     {
@@ -93,7 +93,7 @@
       "name": "Applied Intuition",
       "file": "Applied Intuition",
       "primary": true,
-      "how_described": "本集嘉宾 Qasar Younis 联合创办的公司,估值 150 亿美元,在过去十年悄悄增长。他们给汽车、拖拉机、飞机、潜艇、采矿钻机等车辆添加 AI,前 20 大汽车制造商中有 18 家是他们的客户,被称为「最重要的隐形 AI 公司」。",
+      "how_described": "本集说它是一家价值 150 亿美元的物理 AI 公司,给汽车、拖拉机、潜艇等大型车辆和机器添加 AI,全球前 20 大汽车制造商中有 18 家是其客户。",
       "source": "glm",
       "evidence": [
         {
@@ -144,49 +144,274 @@
       ]
     },
     {
-      "id": "waymo",
-      "type": "company",
-      "role": "company",
-      "name": "Waymo",
-      "file": "Waymo",
+      "id": "physical-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "物理 AI (physical AI)",
+      "file": "物理 AI",
       "primary": true,
-      "how_described": "本集在讨论自动驾驶技术时作为技术路径的代表被提及,采用大量传感器、大量计算和高保真地图的方法,其产品在地理受限区域内功能更好。",
+      "how_described": "本集把它说成是给采矿车、农业机械、建筑设备等已存在的大型物理机器注入智能,认为这是未来 5 到 10 年 AI 最大的真实影响所在。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 24,
+          "seg": 58,
           "t": [
-            109.498,
-            112.86
+            260.071,
+            265.878
           ],
-          "quote": "They're basically Waymo or Tesla, but without the hardware.",
+          "quote": "If things go really well, what does the next couple years look like for people with the emergence of AI with physical AI?",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 240,
+          "seg": 60,
           "t": [
-            1471.18,
-            1481.104
+            268.8,
+            275.102
           ],
-          "quote": "So the fundamental difference, just to simplify it all, the Tesla approach versus the Waymo approach, just to really keep it simple, is the Waymo approach is lots of sensors and lots of compute and maps.",
+          "quote": "Let me take the broader AI point and then the more specific one on physical AI.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 243,
+          "seg": 75,
           "t": [
-            1504.372,
-            1509.254
+            403.982,
+            416.726
           ],
-          "quote": "The Waymo product functions better in a geographically constrained area.",
+          "quote": "In physical AI specifically, again, when you have things like you have your own car and you have the ability, you have your limbs, and you have your senses, and you can drive, you take these kind of things for granted.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 730,
+          "seg": 198,
           "t": [
-            4119.32,
-            4129.264
+            1169.26,
+            1194.129
           ],
-          "quote": "Everyone has to speak up because that one person with their one experience, because they worked at Zoox, or Waymo, or wherever, Tesla, or they worked at a Chinese company, whatever it is.",
+          "quote": "And so I think I implore everybody who thinks about AI broadly and physical AI specifically to always recognize that your monkey brain is programmed because of hundreds of thousands of years of living out in the wild and being in the cave that when you hear the rustle in the bush, that is you think it's a snake because that's what our ancestors were programmed.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1421.081,
+            1422.602
+          ],
+          "quote": "I mean, we're a physical AI company.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2654.853,
+            2667.96
+          ],
+          "quote": "And the message can be something very small and myopic like what's happening in physical AI and machines become intelligent or much larger, which is what's happening in society through this fundamental change that we're going through.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 897,
+          "t": [
+            4994.172,
+            5014
+          ],
+          "quote": "But yeah, and then if you have a particular opinion about specifically our domain, physical AI and how AI is going to impact mines, farms, construction sites, robotax, all of that stuff, I'm always interested to hear new opinions on that, or even old opinions maybe with a different viewpoint.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "self-driving",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动驾驶 (self-driving)",
+      "file": "自动驾驶",
+      "primary": true,
+      "how_described": "本集将它描述为本质上是智能体,能极大地减少人类因疲劳或压力驾驶造成的车祸和苦难,并预测五年后将像导航系统一样在全球无处不在。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            430.091,
+            444.496
+          ],
+          "quote": "And that simple example of making self-driving cars free for everybody and how that would change the planet, you live in Rwanda and you are two hours from the nearest hospital, that matters.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 169,
+          "t": [
+            992.08,
+            995.695
+          ],
+          "quote": "I love your point about how self-driving cars are essentially robots.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 172,
+          "t": [
+            998.561,
+            1004.311
+          ],
+          "quote": "And you see a nunchuck-wielding robot, a self-driving car doing bad things could be very dangerous already.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1010.46,
+            1023.607
+          ],
+          "quote": "And by the way, the self-driving thing, as an example, whichever way you slice the statistics that are available from self-driving companies, they're supremely, supremely more safe than human drivers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1112,
+            1116.167
+          ],
+          "quote": "I've become a huge... I have a Tesla and I've just used self-driving all the time now.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1141.188,
+            1152.833
+          ],
+          "quote": "And I think there's something about the human brain where when you bring up that reality of self-driving trucks, immediately people are like, \"Well, what about the trucking jobs?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1565.586,
+            1571.408
+          ],
+          "quote": "Now you start seeing a different world because now the average person isn't wondering is self-driving in a car.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1688.201,
+            1699.149
+          ],
+          "quote": "So I think the real impact of AI in the next 5 to 10 years really is going to be in farming, in mining, in construction and self-driving trucks.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "industrial-revolution",
+      "type": "concept",
+      "role": "concept",
+      "name": "工业革命 (Industrial Revolution)",
+      "file": "工业革命",
+      "primary": true,
+      "how_described": "本集将 AI 浪潮类比于工业革命,指出虽然伴随负面问题,但整体上极大地推动了医疗普及和物质丰富,显著降低了人类的净苦难。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            275.942,
+            279.764
+          ],
+          "quote": "Macro, think about this like the Industrial Revolution.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 62,
+          "t": [
+            280.024,
+            287.946
+          ],
+          "quote": "So if you are sitting, let's say in the late 1800s, we can focus on a lot of bad things that happen because of Industrial Revolution.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 64,
+          "t": [
+            295.208,
+            309.693
+          ],
+          "quote": "But there's also, it's an almost unimaginable present without the values and without the kind of benefits we got of the Industrial Revolution, which is broader access to healthcare like we've never seen before.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 73,
+          "t": [
+            390.398,
+            398
+          ],
+          "quote": "So I think net suffering in humanity, I think just like the Industrial Revolution overall should go down and should go down significantly.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1032.812,
+            1036.534
+          ],
+          "quote": "In a post-Industrial Revolution, that was a normal thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1861.386,
+            1866.287
+          ],
+          "quote": "And I think, again, use the Industrial Revolution as a good version of that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1881.252,
+            1889.635
+          ],
+          "quote": "And there's a lot of literature because industrial revolution doesn't happen like in the dawn of Christianity where not many people are writing and not many people are reading.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1894.577,
+            1901.019
+          ],
+          "quote": "And you can read both the people who are impacted by the Industrial Revolution, people who are benefiting from it.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "fsd",
+      "type": "concept",
+      "role": "concept",
+      "name": "FSD",
+      "file": "FSD",
+      "primary": true,
+      "how_described": "本集说这是特斯拉的代表方案(业内常称 L2++),依赖少量传感器且不需要高保真地图,因成本更低将在全球无处不在,并让每辆新车都能自带某种程度的自主性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 238,
+          "t": [
+            1453.713,
+            1463.437
+          ],
+          "quote": "I think generally speaking, every single car company on the planet right now is working on a product that's like a Tesla FSD product, every single car company there without exception.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1558.342,
+            1564.725
+          ],
+          "quote": "So now you have to mentally live in that reality that everybody who's buying a car, they just get FSD with it.",
           "speaker": "SPEAKER_1"
         }
       ]
@@ -198,7 +423,7 @@
       "name": "Tesla",
       "file": "Tesla",
       "primary": true,
-      "how_described": "本集作为自动驾驶另一条技术路径的代表被提及,采用极少传感器、不需要高保真地图、成本更低的方案,这种产品在行业内被称为 L2++,将在未来更加无处不在。",
+      "how_described": "本集将其作为自动驾驶的一种主流路线代表,特点是传感器少、不需要高保真地图、成本更低,并在电动车上受制于盈利要求而面临艰难的商业环境。",
       "source": "glm",
       "evidence": [
         {
@@ -276,13 +501,91 @@
       ]
     },
     {
+      "id": "waymo",
+      "type": "company",
+      "role": "company",
+      "name": "Waymo",
+      "file": "Waymo",
+      "primary": true,
+      "how_described": "本集说它代表了自动驾驶的另一种方案,依赖大量传感器、算力和高保真地图,在地理受限的区域功能表现更好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            109.498,
+            112.86
+          ],
+          "quote": "They're basically Waymo or Tesla, but without the hardware.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1471.18,
+            1481.104
+          ],
+          "quote": "So the fundamental difference, just to simplify it all, the Tesla approach versus the Waymo approach, just to really keep it simple, is the Waymo approach is lots of sensors and lots of compute and maps.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1504.372,
+            1509.254
+          ],
+          "quote": "The Waymo product functions better in a geographically constrained area.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 730,
+          "t": [
+            4119.32,
+            4129.264
+          ],
+          "quote": "Everyone has to speak up because that one person with their one experience, because they worked at Zoox, or Waymo, or wherever, Tesla, or they worked at a Chinese company, whatever it is.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集将其描述为一种给出相当通用答案的通用 AI 聊天产品,并强调未来专门针对个人的 AI 教练会比通用 ChatGPT 强大得多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            368.751,
+            381.175
+          ],
+          "quote": "The fact like simply having somebody who's a coach to you and having that coach very specifically to you, not a generic ChatGPT that's giving fairly generic answers, that's a very powerful thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 108,
+          "t": [
+            608.67,
+            620.814
+          ],
+          "quote": "There's some great videos on YouTube, which are trying to get Gemini to understand what a cup is by just holding it upside down and then they do it with ChatGPT.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
       "id": "huawei",
       "type": "company",
       "role": "company",
       "name": "Huawei",
       "file": "Huawei",
       "primary": true,
-      "how_described": "本集在讨论中美科技竞争时被深入提及。嘉宾指出它有几十万员工,其中约四分之一是共产党员,目标不是增加利润或造福股东,实际上是国家意志的延伸,不能像评判普通商业公司那样去评判它。",
+      "how_described": "本集说它是一家制造极好技术的公司,但指出其目标不是为了增加利润或造福股东,而是国家意志的延伸,因此不能与美国的商业公司进行简单的同类对比。",
       "source": "glm",
       "evidence": [
         {
@@ -351,13 +654,85 @@
       ]
     },
     {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集将自动驾驶汽车和具备智能的大型机器描述为「物理智能体」,指出它们不是有感知的生物,而是协助人类完成危险或繁重任务的智能伙伴。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 269,
+          "t": [
+            1627.07,
+            1641.335
+          ],
+          "quote": "The productivity unlock from just you looking at a machine, not like a sentient being, but almost like a physical agent of something you're trying to accomplish, unlocks things that I think are very hard to think about.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "radical-pragmatism",
+      "type": "concept",
+      "role": "concept",
+      "name": "激进实用主义 (radical pragmatism)",
+      "file": "激进实用主义",
+      "primary": true,
+      "how_described": "本集说这是 Applied Intuition 公司浓缩为两个词的核心价值观,体现为将极其有限的时间专注花在客户和产品上,而非打造个人品牌或过度宣传。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 417,
+          "t": [
+            2456.997,
+            2462.058
+          ],
+          "quote": "So all of our company values can be reduced to these two words of radical pragmatism.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 515,
+          "t": [
+            3075.933,
+            3078.497
+          ],
+          "quote": "Radical pragmatism is the other one you shared earlier.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "ycombinator",
+      "type": "company",
+      "role": "company",
+      "name": "YCombinator",
+      "file": "YCombinator",
+      "primary": true,
+      "how_described": "本集提到嘉宾 Qasar Younis 曾担任其 COO,在此期间近距离观察了大量初创公司的发展势头与成败原因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 448,
+          "t": [
+            2711.442,
+            2716.866
+          ],
+          "quote": "One is you were, as you said, COO at YCombinator, you saw a lot of startups up close.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
       "id": "rivian",
       "type": "company",
       "role": "company",
       "name": "Rivian",
       "file": "Rivian",
-      "primary": true,
-      "how_described": "本集被用作对比中国电动汽车公司的例子。嘉宾指出它制造了很棒的产品,但因为亏损而导致估值不高,借此说明美国企业受制于必须盈利的市场压力。",
+      "primary": false,
+      "how_described": "本集提到这家美国电动车公司制造很棒的产品,但因为它必须作为一家企业去营利,因而在市场上受挫并不被高估值。",
       "source": "glm",
       "evidence": [
         {
@@ -390,13 +765,106 @@
       ]
     },
     {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到在与来自中国的 AI 竞争中,提醒人们不能把 OpenAI 与 DeepSeek 的竞争简单理解为一家美国公司与一家中国公司的商业竞争。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 349,
+          "t": [
+            2102.086,
+            2110.77
+          ],
+          "quote": "And so imagine instead of thinking OpenAI is competing against DeepSeek, you say OpenAIs competing against the Chinese government.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "deepseek",
+      "type": "company",
+      "role": "company",
+      "name": "DeepSeek",
+      "file": "DeepSeek",
+      "primary": false,
+      "how_described": "本集提到它是一家中国的人工智能公司,嘉宾借此说明与它的竞争实际上是在与中国政府的国家意志竞争,而非简单的企业竞争。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 349,
+          "t": [
+            2102.086,
+            2110.77
+          ],
+          "quote": "And so imagine instead of thinking OpenAI is competing against DeepSeek, you say OpenAIs competing against the Chinese government.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "gm",
+      "type": "company",
+      "role": "company",
+      "name": "GM",
+      "file": "GM",
+      "primary": false,
+      "how_described": "本集提到嘉宾早年的工程师职业生涯起于此,这是一家拥有超过十万员工的大型传统组织。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            113.26,
+            120.646
+          ],
+          "quote": "Qasar himself was born on a farm in Pakistan, grew up in Detroit, started his career as an engineer at GM, and then at Bosch.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "bosch",
+      "type": "company",
+      "role": "company",
+      "name": "Bosch",
+      "file": "Bosch",
+      "primary": false,
+      "how_described": "本集提到嘉宾早年曾在此担任工程师,是在超过十万员工的大型传统组织底层的早期摸爬滚打经历。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            113.26,
+            120.646
+          ],
+          "quote": "Qasar himself was born on a farm in Pakistan, grew up in Detroit, started his career as an engineer at GM, and then at Bosch.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 864,
+          "t": [
+            4816.141,
+            4825.744
+          ],
+          "quote": "I spent over a decade working in large organizations and truly large, more than 100,000 employees, like a General Motors or like a Bosch.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
       "id": "google",
       "type": "company",
       "role": "company",
       "name": "Google",
       "file": "Google",
-      "primary": true,
-      "how_described": "本集作为失败案例被深入探讨:当 Facebook 崛起时,当时的 Google 拥有地球最好的工程师和每月 10 亿美元现金流,却打不赢社交媒体战争,因为它根本不是社交媒体公司,无法凭借惯性实现转向。",
+      "primary": false,
+      "how_described": "本集提到它曾是硅谷的顶级掠食者,坐拥地球上最好的工程师和大量现金流,但由于自身企业文化的惯性,却无法在社交媒体战争中打赢崛起的 Facebook。",
       "source": "glm",
       "evidence": [
         {
@@ -506,8 +974,8 @@
       "role": "company",
       "name": "Facebook",
       "file": "Facebook",
-      "primary": true,
-      "how_described": "本集在讲述 Google 错失机会的案例中作为强劲崛起的对手被提及,当时只有约 1000 人,最终却在社交媒体战争中战胜了规模和现金流大其十几倍的 Google。",
+      "primary": false,
+      "how_described": "本集将它描述为当年在边缘地带崛起的小公司,最终让处于巅峰时期、拥有巨大资源优势的 Google 无法在社交媒体领域打赢它。",
       "source": "glm",
       "evidence": [
         {
@@ -567,497 +1035,68 @@
       ]
     },
     {
-      "id": "gm",
+      "id": "lovable",
       "type": "company",
       "role": "company",
-      "name": "GM",
-      "file": "GM",
+      "name": "Lovable",
+      "file": "Lovable",
       "primary": false,
-      "how_described": "通用汽车,嘉宾职业生涯起步的地方,他在这样拥有超过 10 万名员工的大型组织深处做过十多年工程师。",
+      "how_described": "本集在广告中提到它号称是历史上增长最快的公司,能让用户仅通过与 AI 聊天就能构建具有真实功能的应用程序和网站。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 25,
+          "seg": 388,
           "t": [
-            113.26,
-            120.646
+            2303.4,
+            2305.441
           ],
-          "quote": "Qasar himself was born on a farm in Pakistan, grew up in Detroit, started his career as an engineer at GM, and then at Bosch.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "bosch",
-      "type": "company",
-      "role": "company",
-      "name": "Bosch",
-      "file": "Bosch",
-      "primary": false,
-      "how_described": "博世,嘉宾曾在此担任工程师,这段在庞大组织底层摸爬滚打的经历让他真正了解到头顶的官僚主义和过时工具有多糟糕。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 25,
-          "t": [
-            113.26,
-            120.646
-          ],
-          "quote": "Qasar himself was born on a farm in Pakistan, grew up in Detroit, started his career as an engineer at GM, and then at Bosch.",
+          "quote": "This episode is brought to you by Lovable.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 864,
+          "seg": 390,
           "t": [
-            4816.141,
-            4825.744
+            2312.604,
+            2317.086
           ],
-          "quote": "I spent over a decade working in large organizations and truly large, more than 100,000 employees, like a General Motors or like a Bosch.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "physical-ai",
-      "type": "concept",
-      "role": "concept",
-      "name": "物理 AI (physical AI)",
-      "file": "物理 AI",
-      "primary": true,
-      "how_described": "本集的核心概念。指给汽车、采矿车辆等物理实体赋予智能。嘉宾认为,它未来 5 到 10 年真正的巨大影响不在人形机器人,而是以最高性价比填补农业、采矿、建筑和长途运输等危险行业的劳动力缺口。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 58,
-          "t": [
-            260.071,
-            265.878
-          ],
-          "quote": "If things go really well, what does the next couple years look like for people with the emergence of AI with physical AI?",
+          "quote": "If you've ever had an idea for an app but didn't know where to start, Lovable is for you.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 60,
+          "seg": 391,
           "t": [
-            268.8,
-            275.102
+            2317.486,
+            2321.027
           ],
-          "quote": "Let me take the broader AI point and then the more specific one on physical AI.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 75,
-          "t": [
-            403.982,
-            416.726
-          ],
-          "quote": "In physical AI specifically, again, when you have things like you have your own car and you have the ability, you have your limbs, and you have your senses, and you can drive, you take these kind of things for granted.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 198,
-          "t": [
-            1169.26,
-            1194.129
-          ],
-          "quote": "And so I think I implore everybody who thinks about AI broadly and physical AI specifically to always recognize that your monkey brain is programmed because of hundreds of thousands of years of living out in the wild and being in the cave that when you hear the rustle in the bush, that is you think it's a snake because that's what our ancestors were programmed.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 232,
-          "t": [
-            1421.081,
-            1422.602
-          ],
-          "quote": "I mean, we're a physical AI company.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 439,
-          "t": [
-            2654.853,
-            2667.96
-          ],
-          "quote": "And the message can be something very small and myopic like what's happening in physical AI and machines become intelligent or much larger, which is what's happening in society through this fundamental change that we're going through.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 897,
-          "t": [
-            4994.172,
-            5014
-          ],
-          "quote": "But yeah, and then if you have a particular opinion about specifically our domain, physical AI and how AI is going to impact mines, farms, construction sites, robotax, all of that stuff, I'm always interested to hear new opinions on that, or even old opinions maybe with a different viewpoint.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "agent",
-      "type": "concept",
-      "role": "concept",
-      "name": "智能体 (agent)",
-      "file": "智能体",
-      "primary": true,
-      "how_described": "本集明确将自动驾驶汽车等同于智能体/机器人,指出它们能在危险任务中作为「物理智能体」协助人类,并解锁极大的生产力。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 269,
-          "t": [
-            1627.07,
-            1641.335
-          ],
-          "quote": "The productivity unlock from just you looking at a machine, not like a sentient being, but almost like a physical agent of something you're trying to accomplish, unlocks things that I think are very hard to think about.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "self-driving",
-      "type": "concept",
-      "role": "concept",
-      "name": "自动驾驶 (self-driving)",
-      "file": "自动驾驶",
-      "primary": true,
-      "how_described": "本集反复讨论的核心话题。嘉宾指出,无论怎么看统计数据,它都比人类司机安全得多。随着技术普及,它将明显减少因车祸导致的受伤和死亡,并在未来成为每个人都期待的标配。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 78,
-          "t": [
-            430.091,
-            444.496
-          ],
-          "quote": "And that simple example of making self-driving cars free for everybody and how that would change the planet, you live in Rwanda and you are two hours from the nearest hospital, that matters.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 169,
-          "t": [
-            992.08,
-            995.695
-          ],
-          "quote": "I love your point about how self-driving cars are essentially robots.",
+          "quote": "Lovable lets you build working apps and websites by simply chatting with AI.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 172,
+          "seg": 394,
           "t": [
-            998.561,
-            1004.311
+            2332.612,
+            2335.893
           ],
-          "quote": "And you see a nunchuck-wielding robot, a self-driving car doing bad things could be very dangerous already.",
+          "quote": "Unlike no-code tools, Lovable isn't about static pages.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 174,
+          "seg": 398,
           "t": [
-            1010.46,
-            1023.607
+            2348.138,
+            2351.019
           ],
-          "quote": "And by the way, the self-driving thing, as an example, whichever way you slice the statistics that are available from self-driving companies, they're supremely, supremely more safe than human drivers.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 189,
-          "t": [
-            1112,
-            1116.167
-          ],
-          "quote": "I've become a huge... I have a Tesla and I've just used self-driving all the time now.",
+          "quote": "Get started for free at lovable.dev.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 193,
+          "seg": 399,
           "t": [
-            1141.188,
-            1152.833
+            2351.339,
+            2352.079
           ],
-          "quote": "And I think there's something about the human brain where when you bring up that reality of self-driving trucks, immediately people are like, \"Well, what about the trucking jobs?\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 254,
-          "t": [
-            1565.586,
-            1571.408
-          ],
-          "quote": "Now you start seeing a different world because now the average person isn't wondering is self-driving in a car.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 283,
-          "t": [
-            1688.201,
-            1699.149
-          ],
-          "quote": "So I think the real impact of AI in the next 5 to 10 years really is going to be in farming, in mining, in construction and self-driving trucks.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "autonomy",
-      "type": "concept",
-      "role": "concept",
-      "name": "自主性 (autonomy)",
-      "file": "自主性",
-      "primary": true,
-      "how_described": "本集指出农业、采矿、建筑等现实行业急需自主性,且来得越快越好,因为农民平均年龄已近 58 岁,卡车司机等岗位也面临招工难,智能自主机器将填补这些劳动力缺口而非抢走工作。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 10,
-          "t": [
-            43.989,
-            47.794
-          ],
-          "quote": "These industries, they need autonomy and it couldn't come soon enough.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 252,
-          "t": [
-            1553.32,
-            1557.842
-          ],
-          "quote": "So now you fast-forward five to seven years and every car has some level of autonomy.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 261,
-          "t": [
-            1593.338,
-            1597.7
-          ],
-          "quote": "And so I think the next thing that happens in five to seven years is then full autonomy becomes the thing that everyone expects.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 294,
-          "t": [
-            1753.92,
-            1763.904
-          ],
-          "quote": "I think honestly speaking, these industries, they need autonomy and it couldn't come soon enough, frankly speaking.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "humanoid",
-      "type": "concept",
-      "role": "concept",
-      "name": "人形机器人 (humanoid)",
-      "file": "人形机器人",
-      "primary": true,
-      "how_described": "本集讨论大众焦虑时的核心反例。嘉宾指出那些挥舞双截棍的人形机器人视频其实是预先编程的,花了 1500 万美元;大脑在情感上喜爱它,但最务实的做法其实是把智能放进已经存在的汽车和采矿车辆中。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 233,
-          "t": [
-            1423.482,
-            1430.485
-          ],
-          "quote": "I continue to believe that I think our brain emotionally loves the humanoid concept because we're monkeys.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "l2",
-      "type": "concept",
-      "role": "concept",
-      "name": "L2++",
-      "file": "L2++",
-      "primary": false,
-      "how_described": "本集用来代指类似特斯拉那种传感器少、不需要高保真地图的半自动产品。嘉宾预测它和 L4 技术将在五到七年内更加无处不在,甚至成为汽车的标配。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 242,
-          "t": [
-            1491.467,
-            1504.332
-          ],
-          "quote": "And the Tesla version of a product, this is in the industry is called an L2++ product, is going to be available everywhere because it's literally cheaper and it doesn't require HD maps.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 245,
-          "t": [
-            1517.017,
-            1524.279
-          ],
-          "quote": "L2++ and L4 will be much more ubiquitous, not only in the Bay Area or in parts of China, but really globally.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 249,
-          "t": [
-            1535.147,
-            1542.913
-          ],
-          "quote": "We're at that moment for L2++ systems where people are willing to pay thousands of dollars for a semi-automated vehicle.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "ev",
-      "type": "concept",
-      "role": "concept",
-      "name": "EV",
-      "file": "EV",
-      "primary": false,
-      "how_described": "本集在讨论中美科技竞争时被提及。嘉宾指出中国电动汽车被赞誉为令人惊叹的产品,但这种比较非常偏颇,因为它背后是不关心利润的国家意志,而非受制于盈利压力的市场企业。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 359,
-          "t": [
-            2175.574,
-            2178.355
-          ],
-          "quote": "There is a Chinese EV-like company in America.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 365,
-          "t": [
-            2200.503,
-            2202.604
-          ],
-          "quote": "The EV business in automotive is a tough business.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 367,
-          "t": [
-            2205.125,
-            2209.707
-          ],
-          "quote": "So we say, look how amazing these Chinese EV companies are and look how bad the home team is.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "reset",
-      "type": "concept",
-      "role": "concept",
-      "name": "重置 (reset)",
-      "file": "重置",
-      "primary": true,
-      "how_described": "本集给挣扎在两年节点上的创始人的建议:如果从市场上得到的信息没有指出一条越来越具体的路径,就该考虑重置,这往往意味着联合创始人关系或所处市场等底层地基出了问题。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 461,
-          "t": [
-            2784.656,
-            2796
-          ],
-          "quote": "And what I mean by reset is oftentimes, and this is wearing my YC hat, seeing hundreds and thousands of companies, is oftentimes it's like the co-founding, literally the foundation upon which the house is built is not correct.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 467,
-          "t": [
-            2825.835,
-            2827.656
-          ],
-          "quote": "I'm just going to have to have a hard reset here.\"",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "maintenance",
-      "type": "concept",
-      "role": "concept",
-      "name": "维护 (maintenance)",
-      "file": "维护",
-      "primary": true,
-      "how_described": "本集强调其作为工厂运营核心的重要性。嘉宾受汽车工程背景影响,把公司看作需要精心维护的机器,自己清洁办公室、从未花过筹集的资金,都是这种财务和运营卫生习惯的体现。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 547,
-          "t": [
-            3185.064,
-            3192.96
-          ],
-          "quote": "And then on the last piece there, there's this book that just came out by Stripe Press about maintenance and how valuable and underappreciated the maintenance part of work is.",
+          "quote": "That's lovable.dev.",
           "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 556,
-          "t": [
-            3235.616,
-            3244.059
-          ],
-          "quote": "Maintenance or another version of... My roots are in automotive engineering, and automotive engineering is actually exercising quality.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 562,
-          "t": [
-            3267.027,
-            3269.588
-          ],
-          "quote": "And a factory is about safety and maintenance.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 566,
-          "t": [
-            3291.295,
-            3294.817
-          ],
-          "quote": "And that maintenance aspect is a part of that.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 570,
-          "t": [
-            3323.307,
-            3329.049
-          ],
-          "quote": "Just like you'll meet people who really love cars and they really obsess about the maintenance of cars.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "vibe-coding",
-      "type": "concept",
-      "role": "concept",
-      "name": "vibe coding",
-      "file": "vibe coding",
-      "primary": false,
-      "how_described": "本集提及其加剧了股市焦虑:公开市场投资者看到网上关于仅靠 vibe coding 就能取代十亿美元公司的说法,就信以为真并引发抛售,但这与社会大众对 AI 的焦虑是两码事。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 155,
-          "t": [
-            916.934,
-            928.539
-          ],
-          "quote": "This AI thing could be real and the things I'm reading on X about just vibe coding your way to replace billion dollar companies, that might be the case and the market immediately prices in that risk.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 664,
-          "t": [
-            3739.705,
-            3746.628
-          ],
-          "quote": "I'm reading the vibe coding book that came out where our whole company's reading that, which is a new book and it goes against my grain of my heuristic.",
-          "speaker": "SPEAKER_1"
         }
       ]
     }

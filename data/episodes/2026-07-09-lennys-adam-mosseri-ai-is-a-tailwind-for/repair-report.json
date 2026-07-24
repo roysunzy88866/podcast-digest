@@ -1,37 +1,93 @@
 {
   "kept": [
     {
-      "i": 1,
-      "timestamp": "00:00",
-      "speaker": "Adam Mosseri",
-      "trimmed": false,
-      "tsWas": "00:00",
-      "spkWas": "Adam Mosseri"
-    },
-    {
       "i": 2,
-      "timestamp": "08:37",
+      "timestamp": "08:38",
       "speaker": "Adam Mosseri",
       "trimmed": false,
-      "tsWas": "08:37",
+      "tsWas": "37:08",
       "spkWas": "Adam Mosseri"
     },
     {
       "i": 3,
-      "timestamp": "31:16",
+      "timestamp": "25:29",
       "speaker": "Adam Mosseri",
-      "trimmed": true,
-      "tsWas": "31:14",
+      "trimmed": false,
+      "tsWas": "25:33",
       "spkWas": "Adam Mosseri"
     },
     {
       "i": 4,
-      "timestamp": "60:53",
+      "timestamp": "42:39",
       "speaker": "Adam Mosseri",
       "trimmed": false,
-      "tsWas": "60:53",
+      "tsWas": "42:39",
+      "spkWas": "Adam Mosseri"
+    },
+    {
+      "i": 5,
+      "timestamp": "08:14",
+      "speaker": "Adam Mosseri",
+      "trimmed": false,
+      "tsWas": "08:12",
+      "spkWas": "Adam Mosseri"
+    },
+    {
+      "i": 7,
+      "timestamp": "34:41",
+      "speaker": "Adam Mosseri",
+      "trimmed": false,
+      "tsWas": "34:40",
+      "spkWas": "Adam Mosseri"
+    },
+    {
+      "i": 8,
+      "timestamp": "44:20",
+      "speaker": "Adam Mosseri",
+      "trimmed": false,
+      "tsWas": "44:18",
+      "spkWas": "Adam Mosseri"
+    },
+    {
+      "i": 9,
+      "timestamp": "38:56",
+      "speaker": "Adam Mosseri",
+      "trimmed": false,
+      "tsWas": "39:02",
+      "spkWas": "Adam Mosseri"
+    },
+    {
+      "i": 11,
+      "timestamp": "59:28",
+      "speaker": "Adam Mosseri",
+      "trimmed": false,
+      "tsWas": "59:28",
+      "spkWas": "Adam Mosseri"
+    },
+    {
+      "i": 12,
+      "timestamp": "58:31",
+      "speaker": "Adam Mosseri",
+      "trimmed": false,
+      "tsWas": "58:29",
       "spkWas": "Adam Mosseri"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 1,
+      "reason": "命中片段跨说话人(占比0.80/连续他人6词,疑拼接)",
+      "en": "i don't think we should filter out ai content i think we should let you know if content is ai content or not that's hard by the way"
+    },
+    {
+      "i": 6,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "i think if you ask an ai just for a strategy lazily you're not going to get something right you're going to get something pretty predictable that the competition would expect you to do"
+    },
+    {
+      "i": 10,
+      "reason": "命中片段跨说话人(占比0.92/连续他人2词,疑拼接)",
+      "en": "it is much easier to move engagement by showing people stuff that you know they'll probably like because lots of people like it it's much harder to go and figure out how to essentially test content"
+    }
+  ]
 }

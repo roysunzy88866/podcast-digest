@@ -1,31 +1,31 @@
 ---
-title: "估值 150 亿的隐形 AI 公司 Applied Intuition:给自动驾驶卡车的焦虑开一剂务实药方"
+title: 1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成
 podcast: "Lenny's Podcast"
 date: 2026-03-08
 source_url: https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of
 duration: "84:21"
 host: "[[Lenny]]"
 cohosts: ["[[Qasar Younis]]"]
-companies: ["[[Applied Intuition]]", "[[Waymo]]", "[[Tesla]]", "[[Huawei]]", "[[Rivian]]", "[[Google]]", "[[Facebook]]"]
-concepts: ["[[物理 AI]]", "[[智能体]]", "[[自动驾驶]]", "[[自主性]]", "[[人形机器人]]", "[[重置]]", "[[维护]]"]
+companies: ["[[Applied Intuition]]", "[[Tesla]]", "[[Waymo]]", "[[Huawei]]", "[[YCombinator]]"]
+concepts: ["[[物理 AI]]", "[[自动驾驶]]", "[[工业革命]]", "[[FSD]]", "[[ChatGPT]]", "[[智能体]]", "[[激进实用主义]]"]
 tags:
   - 物理 AI
   - 自动驾驶
-  - 人形机器人
-  - 制造业与危险工种
-  - 创始人方法论
+  - 创业哲学
+  - 中美科技竞争
+  - AI 大众焦虑
 ---
 
-# 估值 150 亿的隐形 AI 公司 Applied Intuition:给自动驾驶卡车的焦虑开一剂务实药方
+# 1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成
 
 > [!info] 关联
 > **主持**:[[Lenny]]
 >
 > **联合主持**:[[Qasar Younis]]
 >
-> **涉及公司**:[[Applied Intuition]] · [[Waymo]] · [[Tesla]] · [[Huawei]] · [[Rivian]] · [[Google]] · [[Facebook]]
+> **涉及公司**:[[Applied Intuition]] · [[Tesla]] · [[Waymo]] · [[Huawei]] · [[YCombinator]]
 >
-> **概念**:[[物理 AI]] · [[智能体]] · [[自动驾驶]] · [[自主性]] · [[人形机器人]] · [[重置]] · [[维护]]
+> **概念**:[[物理 AI]] · [[自动驾驶]] · [[工业革命]] · [[FSD]] · [[ChatGPT]] · [[智能体]] · [[激进实用主义]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of)
 
@@ -35,150 +35,122 @@ tags:
 
 ## 一句话 TLDR
 
-Applied Intuition CEO 谈物理 AI 的真正影响区、如何抵御对 AI 的恐惧,以及一家公司 10 年不花融资款的低调哲学。
+Applied Intuition CEO Qasar Younis 谈物理 AI、对抗焦虑与务实创业。
 
-[[Qasar Younis|Qasar Younis]] 是 [[Applied Intuition|Applied Intuition]] 的联合创始人兼 CEO。Marc Andreessen 称他为「没人知道的最棒 AI CEO」[00:02 主持人]。这是一家估值 150 亿美元的公司,在过去十年里悄悄增长。他们给汽车、拖拉机、飞机、潜艇、采矿钻机等车辆添加 AI,前 20 大汽车制造商中有 18 家是他们的客户,客户还包括全球最大的建筑、采矿、运输公司以及国防部 [01:29 主持人]。Qasar 本人在巴基斯坦的一个农场出生,在底特律长大,职业生涯起步于 GM(通用汽车)和 Bosch(博世)做工程师 [01:53 主持人]。本集核心围绕一个主线展开:面对 AI 的崛起,我们的焦虑从何而来、如何化解,以及[[物理 AI|物理 AI]](给汽车、机器等物理实体赋予的智能)究竟将怎样改变社会和我们的工作。
+[[Qasar Younis|Qasar Younis]] 是 [[Applied Intuition|Applied Intuition]] 的联合创始人兼 CEO。他近期发了人生第一条推文，引来 Marc Andreessen 转发并称其为「没人知道的最好的 AI CEO」[00:02 [[Lenny|Lenny]]]。这家估值达 150 亿美元的公司做的事情很具体：给汽车、拖拉机、飞机、潜艇、采矿钻机等大型车辆与机器加上 AI（即所谓「[[物理 AI|物理 AI]]」）。全球前 20 大汽车制造商中有 18 家是他们的客户，合作领域还涵盖最大的建筑、采矿、运输公司以及国防部[01:29 Lenny]。Qasar 本人在巴基斯坦的农场出生，在底特律长大，早期职业生涯在 GM 和 Bosch 做工程师，后来还当过 [[YCombinator|YCombinator]] 的 COO[01:53 Lenny]。在本集访谈中，他与主持人 Lenny 沿着一条主线展开：面对 AI 带来的社会巨变与大众焦虑，我们该如何理性看待？他的核心主张是，去了解它、使用它，而不是因恐惧而踩下刹车。接下来是具体的论述推演。
 
-### 物理 AI 的乐观图景:降低人类的净苦难
-一上来,主持人抛出了许多人最关心的问题:如果一切顺利,随着物理 AI 的出现,未来几年人们的生活会是什么样?
+**为什么 AI 浪潮值得拥抱**
 
-Qasar 的回答从宏观的 AI 角度切入。他建议把 AI 想象成一次工业革命。工业革命确实带来了童工、垄断等糟糕现象,但如果没有它带来的价值观和好处,我们就不会有如今视为理所当然的广泛医疗保健和给家里供暖制冷的物质商品 [05:10 Qasar Younis]。二战期间 80% 的德国城镇没有电力 [05:44 Qasar Younis];技术的普及让曾经只有富人能享受的东西,变成了每个人的日常。
+说完了嘉宾的背景，接下来是他如何看待 AI 给人类社会带来的宏观影响。
 
-顺着这个逻辑,AI 的乐观图景在于,它能以接近免费的成本把丰富的资源带给更多人 [08:40 Qasar Younis]。比如有一个专门针对你的私人教练,而不是给出通用答案的 ChatGPT;比如让所有人都能免费使用[[自动驾驶|自动驾驶]]汽车。如果你住在卢旺达,距离最近的医院有两小时车程,出行能力的提升就至关重要 [07:10 Qasar Younis]。他相信,解决像癌症这样一些不可能的问题,将直接与这次 AI 繁荣有关,人类的整体净苦难应该会大幅下降 [06:21 Qasar Younis]。
+Qasar 认为，应该把 AI 看作像[[工业革命|工业革命]]一样的历史性变革[04:35 Qasar Younis]。工业革命虽然也伴随着童工和垄断等负面问题，但它带来了前所未有的医疗普及和物质丰富。他举例说，二战期间 80% 的德国城镇没有电力，我们今天习以为常的商品、供暖和制冷，在历史上并不是平均分布的[05:44 Qasar Younis]。
 
-### 焦虑的根源是误解:去搞懂它,别被双截棍机器人吓倒
-既然图景如此积极,那为什么社会上围绕 AI 有那么多消极情绪?话题从美好的愿景转入了现实的焦虑。
+他相信 AI 能够延续这种趋势，以接近免费的成本将资源与便利带给更多人。例如，一个专门针对你个人的 AI 教练，远比给出通用答案的 [[ChatGPT|ChatGPT]] 要强大得多[06:08 Qasar Younis]。再比如，如果[[自动驾驶|自动驾驶]]汽车能对所有人免费，这对于住在卢旺达、距离最近的医院有两小时路程的人来说意义重大[07:10 Qasar Younis]。
 
-Qasar 指出,恐惧的核心根源是误解 [09:47 Qasar Younis]。如果你在家对 AI 感到非常焦虑,能做的最好的事就是花时间去理解它,你会很快看到它的局限性。比如网上流传的那些挥舞双截棍的[[人形机器人|人形机器人]]视频,它们其实是预先编程的,制作那个视频花费了 1500 万美元 [10:29 Qasar Younis]。如果我们对汽车工厂里已经存在了 25 年、以极快速度制造东西的先进机器人没有焦虑,为什么会害怕双截棍机器人?因为你不了解那个机器人是如何被做成那个动作的,所以你用焦虑和恐惧来代替它 [11:34 Qasar Younis]。
+> 【背景】ChatGPT 是 OpenAI 推出的通用 AI 聊天产品；Waymo 是 Alphabet 旗下的自动驾驶公司，特斯拉则以电动汽车和辅助驾驶系统闻名。本集提到美国国防部（即五角大楼）也是 Applied Intuition 的客户。
 
-> 【背景】主持人还顺带提及了另一种焦虑:股市抛售。但 Qasar 指出,公开市场投资者因为 AI 相关消息抛售股票(比如担心靠 vibe coding 就能取代十亿美元公司),与社会大众对 AI 的焦虑是两件独立的事,不应混为一谈。
+**焦虑的根源是误解**
 
-对于技术变革总会伤害一部分人的质疑,Qasar 的态度十分务实:在任何技术转变中,比如 WhatsApp 的出现,确实有公司消失、有人受损。作为社会的领导者和成员,我们要认识到技术可以用于善也可以用于恶;我们要做的不是因恐惧去阻拦,而是去了解它,并积极参与,让技术被用于善途 [12:46 Qasar Younis]。如果把 AI 这个感性的词替换成「技术」,你会发现对未知的恐惧感就变形了 [12:31 Qasar Younis]。
+AI 的好处虽然多，但大众的恐慌同样强烈。了解了 Qasar 为什么拥抱 AI，接下来的问题是：他如何应对弥漫在全社会的焦虑？
 
-### 重新理解机器人:最强的落地不在人形,而在危险行业
-搞清楚了焦虑的来源,我们就能更客观地看待机器人。主持人很赞同 Qasar 的一个说法:自动驾驶汽车本质上就是机器人([[智能体|智能体]]),但我们不怎么这么叫它 [16:35 主持人]。
+Qasar 给出的药方很直接：恐惧的核心根源是误解[09:47 Qasar Younis]。如果你对 AI 感到焦虑，最好的办法就是花时间去了解它，这样就能很快看到它的局限性。比如，网上流传着机器人挥舞双截棍的视频，看着很吓人，但实际上那是预先编程好的动作，制作那个视频花费了 1500 万美元[10:29 Qasar Younis]。他觉得，如果你去汽车工厂看看那些已经存在了 25 年的焊接机器人，就不会对双截棍机器人感到恐慌了，因为你理解了它的工作原理[11:00 Qasar Younis]。
 
-顺着这个「机器人就在身边」的话题,Qasar 指出了一个反直觉的事实:我们离日常生活中到处都有机器人的时代并不远,但它来的方式和形态很难预测,就像 2006 年时很难构想 Instagram 会出现一样。他认为,最先落地的,将是那些能以最高性价比(投入产出比)带来价值的用例 [23:01 Qasar Younis]。
+他还区分了「社会的普遍焦虑」与「股市的抛售行为」。他指出，华尔街的投资者之所以抛售某些科技股，很多时候只是听信了咨询公司几周内用 AI 拼凑出的一个简易应用，就以为那些花了几年、动用 500 名工程师打造复杂系统的公司要被取代了，从而将风险计入价格[15:16 Qasar Younis]。这与社会大众对 AI 的恐慌是两码事。
 
-这引出了本集最核心的判断之一:我们的大脑在情感上喜爱人形机器人,但更务实的做法,其实是把智能放入已经存在于我们周围的事物中 [23:43 Qasar Younis]。比如一辆自动驾驶的汽车、一台智能化的采矿车辆。原因在于:让那些移动泥土的巨型机器运转所需的工程,过去五六十年已经完成了,你只是把一点点智能放进去而已。
+至于自动驾驶，他认为这是一件能极大减少人类苦难的事。仅在美国，明年就有超过 30,000 人会死于车祸。人们疲惫、压力大甚至受酒精影响时还要亲自驾驶，这在未来看来将是非常疯狂的事情[17:50 Qasar Younis]。他呼吁大家认识到，当听到矿山或农场实现自动化时，第一反应不应该是「工作没了怎么办」——因为那些往往是既危险、人们又根本不愿意去做的苦差事，美国农民目前的平均年龄已经到了 58 岁左右[19:29 Qasar Younis]。
 
-他预测,在五到七年的快进未来里,行业内被称为 L2++(类似特斯拉那种传感器少、不需要高保真地图的半自动产品)和 L4 技术将更加无处不在 [25:17 Qasar Younis]。正如曾经在汽车里花大价钱的导航系统(Nav)最终被普及的 CarPlay 取代,完全[[自主性|自主性]]也将成为每个人都期待的事情,这将明显减少因车祸导致的受伤和死亡 [26:38 Qasar Younis]。
+**机器人的未来与中美竞争**
 
-### 填补劳动力缺口:AI 来得正是时候
-如果自动驾驶和智能机器接管了这些行业,那么卡车司机、矿工怎么办?顺着物理 AI 在现实中的落地,话题自然转向了就业。
+既然不该恐惧，那真实的物理 AI 会怎样落地？在这个话题上，主持人问我们距离日常生活中到处都是机器人还有多远。
 
-Qasar 认为,这些行业急需自主性,而且来得越快越好 [29:13 Qasar Younis]。这不是因为资本家要抢饭碗,而是现实情况所迫:如果你想当一名长途卡车司机,意味着家庭要做出牺牲,父亲常常连续几周不在家。今天,同样处境的工薪阶层家庭宁愿去开 Uber 或 DoorDash,因为「我可以关闭那个应用程序去接我的孩子」[30:20 Qasar Younis]。此外,农民的平均年龄已经在 58 岁左右,这意味着十年内许多人将退休 [29:30 Qasar Younis]。矿井等危险工作更是如此,最好的证据就是人们根本不想在这些地方工作 [20:13 Qasar Younis]。
+Qasar 用移动通信的发展做了类比：就像在 iPhone 诞生（07 年）前，人们拿着翻盖手机很难想象几年后会出现 Instagram 或 Uber 这样的应用一样[21:30 Qasar Younis]。他认为，机器人普及的速度可能会很快，但最先爆发的形态未必是我们大脑情感上最偏爱的人形机器人。最实用、性价比最高的做法，是把智能直接注入到已经存在的大型机器中，比如让现有的采矿车和汽车具备自动驾驶能力[23:10 Qasar Younis]。
 
-因此,智能革命在现实世界中的真正意义,是填补这些无人愿做的危险劳动力的缺口,而不是让整个行业突然消失。如果因为害怕失业就给前沿技术踩刹车,最终只会让美国经济陷入停滞,这对劳动力市场最低端的人伤害最大 [32:04 Qasar Younis]。在这个问题上,Qasar 给普通人提出的解药非常朴素:阅读历史书。通过阅读过去 150 年工业革命时期大量记录受影响者和受益者的文献,你会发现这总的来说是一次非常积极的体验 [31:21 Qasar Younis]。
+在自动驾驶领域，目前存在两种主流路线：一种是以 [[Waymo|Waymo]] 为代表的方案，依赖大量传感器、算力和高保真地图；另一种是以特斯拉为代表的方案，传感器少、不需要高保真地图、成本更低（业内通常称这类产品为 L2++）[24:31 Qasar Younis]。他预测，五年后 L2++ 和完全自动驾驶技术将像如今的导航系统一样在全球无处不在，价格也会在中国市场的竞争下接近免费[25:43 Qasar Younis]。
 
-### 不踩刹车与华为的特殊性
-提到国家之间的科技竞争,就不能不提中国以及最近让市场恐慌的中国双截棍机器人视频。话题从就业顺延到了中美科技竞逐。
+当谈到对 AI 竞争（特别是来自中国的竞争）的担忧时，Qasar 指出了一种常见的认知误区：人们常把中国企业与美国企业做同类对比，这是不对的。比如华为，它虽然有几十万员工在做非常好的技术，但其中约有四分之一是共产党员，它的目标不是盈利，更像是国家意志的延伸[33:52 Qasar Younis]。
 
-Qasar 认为,人们在进行比较时存在误区。我们最近作为公司读了《华为数据中心》这本书,华为有几十万员工,其中大约四分之一是共产党员。它的目标不是增加利润或造福股东,实际上是国家的延伸 [34:06 Qasar Younis]。所以,当我们拿苹果和华为做比较时,其实是在拿一家私营公司与中国政府做比较 [35:11 Qasar Younis]。
+> 【背景】DeepSeek 是一家中国的人工智能公司，主打大语言模型；OpenAI 是全球领先的 AI 研究与部署企业。
 
-以此类推,中国的电动汽车被赞誉为令人惊叹的产品,并伴随着「底特律、慕尼黑等汽车中心太差了」的肤浅分析。但如果在美国找一家类似的电动汽车公司 [[Rivian|Rivian]],它制造很棒的产品,但因为亏损而估值不高 [36:18 Qasar Younis]。如果我们像评判一家必须盈利的企业那样去评判中国那些根本不关心利润的组织,这种比较是非常偏颇的 [37:14 Qasar Younis]。但这也并不意味着必须是对抗关系,毕竟开放和自由市场已被证明是可以让所有人成功的 [37:30 Qasar Younis]。
+他提醒，不能把 OpenAI 与 DeepSeek 的竞争，简单等同于一家美国公司与一家中国公司的商业竞争，实际上你要理解为是在与中国政府竞争[35:02 Qasar Younis]。此外，人们常常称赞中国的电动汽车（EV）了不起，觉得底特律或东京相形见绌；但美国也有像 Rivian 这样能造出好电动车的公司，只是因为作为必须盈利的商业公司而在市场上受挫。如果不要求美国车企盈利，只是把特斯拉等所有资源结合起来去造车，一样能拿出惊艳的产品[37:06 Qasar Younis]。所以，这种比较从一开始就是偏颇的。
 
-### 低调做事的哲学:最好的工作是独自安静地完成的
-中美竞争的宏大叙事聊完,对话转向了 Qasar 本人以及他的创业方法论。主持人指出,与大多数被教导要「公开构建、建立追随者」的创始人不同,Qasar 是非常低调的。他最近发出的第一条推文获得了两百万的浏览量,Elon 和 Marc Andreessen 都进行了互动 [39:17 主持人]。为什么要一直保持隐形?
+**安静地构建，看重维护与品味**
 
-Qasar 的回答是,这是有意的。如果由他决定,他们会永远这样做。他更受 Berkshire Hathaway(伯克希尔·哈撒韦)这种风格的启发,而不是做硅谷宠儿 [40:15 Qasar Younis]。这种选择有着极为务实的根基:「我们最好的工作是独自安静地完成的」[00:08 Qasar Younis]。你做播客、发推文的每一分钟,都没有把你有限的时间集中在客户和产品上 [42:07 Qasar Younis]。
+工具与行业的变革固然宏大，但创办一家能够驾驭这种变革的公司，需要怎样的价值观？在聊完物理 AI 的大趋势后，话题转向了 Qasar 的创业哲学。
 
-他坦言,他之所以能做到低调,是因为他在这个生态系统中已经很有名了,不需要靠建立品牌让投资者记住他 [40:40 Qasar Younis]。如果你是一个毫无背景的初次创业者,建立名声确实是招募人才和客户的好工具,但在 10 多年前,这对 Applied Intuition 来说并不是硬性要求 [41:31 Qasar Younis]。
+Applied Intuition 一直非常低调，直到最近才「出道」发声。Qasar 坦言这是有意为之，甚至表示如果能由他决定，希望永远保持低调。他透露，公司的所有价值观都可以浓缩为两个词：[[激进实用主义|激进实用主义]][40:56 Qasar Younis]。他之所以以前不上网发声，是因为他在硅谷生态里已经人脉很广，不需要靠打造个人品牌来融资或招人[40:40 Qasar Younis]。况且，做播客或发推文的每一分钟，都是从极其有限的客户和产品时间中抽出来的[10:10 Qasar Younis]。直到后来，为了向更广泛的社会传达关于物理 AI 和技术变革的理念，他才在 Marc Andreessen 等人的推动下决定发声[44:55 Qasar Younis]。
 
-除了作为手段的低调,这也与他作为局外人的成长经历有关。作为一个有着奇怪名字、在密歇根州底特律长大的移民,你会对主流感到怀疑。所以他后来担任 YC 的 COO 时,这种「我是局外人」的叙事就显得很奇怪了 [43:34 Qasar Younis]。当 Marc Andreessen 等人推动他上线发声时,他们的建议是:放下你的包袱,更务实地思考。现在的他认识到,传达物理 AI 和社会变革的信息是有必要的,所以他才决定站出来 [44:28 Qasar Younis]。
+这种务实也体现在公司的内部管理上。他建议创始人，只有在获得初步发展势头时才去确立价值观，而且只需要写下那 5 到 10 件让你们取得成功的具体原因[51:48 Qasar Younis]。比如他们公司的价值观包括「速度高于一切」「永远不要让客户失望」以及「多笑一笑」[51:56 Qasar Younis]。
 
-### 给创始人的建议:重置与价值观的落地
-既然谈到了创业方法论,主持人追问了关于公司发展势头的问题。很多创始人相信只要继续奋斗,也许四年后就能成为下一个 Figma。Qasar 对此毫不客气。
+他特别强调「维护」的重要性，这源于他早年在汽车工程领域的经验。因为造车需要大规模、高质量地制造复杂机器，这就要求工厂必须极度重视安全和日常维护[54:27 Qasar Younis]。他将这种理念带到了 Applied Intuition，甚至规定员工每周要参与办公室的大扫除。他认为，在「安静独处、自己打扫桌子」和「写出优秀的软件」之间，存在着某种必然的连贯性[57:41 Qasar Younis]。
 
-他认为好的公司往往很早就获得发展势头,并将其维持十年以上 [45:47 Qasar Younis]。对于挣扎在两年节点上的创始人,如果从市场上得到的信息没有给你指出一条越来越具体的路径,他会考虑[[重置|重置]] [46:12 Qasar Younis]。这种重置往往是联合创始人的关系或所处市场等地基出了问题。就像如果你建的房子连桌子上的水杯都会滑下来掉在地上,也许问题不在桌子,而是整个地基歪了 [46:36 Qasar Younis]。
-
-同时,他也安慰初次创业者:把第一次创业的前三年当成是零。假设它不会成功。就像木工播客里说你做的第一张桌子是摇晃的,你不会气馁,只会说「那是第一张桌子,我们要继续做下去」[47:49 Qasar Younis]。他自己的第三家公司才是最成功的,这就是为什么要锻炼做创始人这块肌肉 [48:13 Qasar Younis]。
-
-他分享了 Applied Intuition 非常具体的操作原则。他建议在公司获得一点发展势头时想出你的价值观,不是作为哲学家去空想,而是写下你们正在成功的 5 到 10 个原因 [51:48 Qasar Younis]。他们公司的价值观包括:「速度高于一切」、「永远不要让客户失望」、「多笑一笑」[51:56 Qasar Younis]。这些价值观不是抽象的口号,他们每周都会和 Peter 一起给新团队成员开会讲解,甚至薪酬和晋升都是对照这些价值观来决定的 [52:41 Qasar Younis]。
-
-> 【背景】Qasar 反复提及对维护的重视。他深受汽车工程背景的影响,认为工厂的核心就是安全和维护。就像他们公司从未花过筹集来的任何资金,这也是一种财务上的卫生与维护习惯 [57:05 Qasar Younis]。他鼓励创始人广泛阅读,因为吸收多样化的数据(如同 LLM 需要丰富的数据)会以某种方式让你成为更好的创始人 [60:15 Qasar Younis]。
-
-### 听得进反对意见的理性文化
-聊到公司的管理与文化,主持人提到了一个关键痛点:很多公司嘴上说着欢迎反对意见,实际上几乎从未真正做到。Qasar 是如何操作的呢?
-
-Qasar 认为,公司失败的原因往往是因为最好的想法没有被采纳。很多时候这是因为创始人的问题。创始人受大众媒体和部落式世界观影响,觉得如果不强硬就不像个领导 [67:03 Qasar Younis]。但他坚信,情绪通常对做出理性决策没有帮助,它们几乎是理性的对立面 [68:09 Qasar Younis]。这展现了他们公司中西部根源的务实底色。
-
-他举了一个惨痛的教训:他在 [[Google|Google]] 工作时,正赶上 [[Facebook|Facebook]] 崛起。那时的 Google 是硅谷的顶级掠食者,拥有最好的工程师,每月产生 10 亿美元的现金流,而 Facebook 只有 1000 人左右。为什么 Google 打不赢社交媒体战争?因为 Google 根本不是社交媒体公司,它无法转向 [71:33 Qasar Younis]。这种凭借惯性向一个方向猛冲、听不到市场正在变化的新声音的情况,在非常小的公司里也会发生。
-
-为了对抗这种惯性,他要求公司里必须畅所欲言。即使是最资浅的人,只要他曾在 [[Waymo|Waymo]] 或中国公司工作过,带来了一线经验,在讨论太空领域该怎么做时,也必须分享出他脑海中那个也许能纠正 5 度航向的想法 [69:07 Qasar Younis]。但一旦辩论结束做出了决定,速度价值观就要求你果断地去执行 [74:19 Qasar Younis]。这种要求「一方面谦卑倾听,另一方面果断决策」看似矛盾,正是创始人拿高薪的原因 [74:36 Qasar Younis]。
-
-### 品味源于广阔的阅历
-在谈话的最后,主持人抛出了 Qasar 一个辛辣的观点:硅谷的许多 CEO 其实并没有很好的品味。这背后的原因是什么?
-
-Qasar 解释道,这里的品味既指艺术上的审美,也指经营公司、制定 HR 政策的判断力。很多 CEO 缺乏品味,是因为他们没有接触过很多有趣的好东西 [79:49 Qasar Younis]。很多创始人(他在不指名道姓的情况下说)在库比蒂诺长大,去伯克利读书,一出校门就开始创业,做了 20 年甚至从没当过员工 [80:01 Qasar Younis]。
-
-这与他的经历形成鲜明对比。他在像 GM 或 Bosch 这样超过 10 万名员工的大型组织的深处待过十多年。当你处在图腾柱的底层,你才会真正了解到头顶的官僚主义和过时工具有多糟糕 [80:26 Qasar Younis]。体验过这些,当你成为制定政策的领导者时就会把它记在心里。
-
-所以,关于品味的启发在于:如果你背起背包在世界各地旅行几年,这种广阔的阅历会以某种方式让你成为一个更好的创始人。因为当你对人类和生活有了更深入的理解,你就能用判断力辨别什么是好的,什么是不好的 [81:29 Qasar Younis]。
+更进一步，他鼓励创始人广泛阅读老书（因为时间已经过滤掉了噪音），去涉猎那些你一无所知的领域，比如历史、哲学或种族传记[59:19 Qasar Younis]。这背后的逻辑是：优秀的创始人不应该只有狭窄的工程思维，而要广泛汲取人类经验来培养自己的「品味」。在他看来，硅谷很多 CEO 之所以缺乏品味，正是因为他们的人生轨迹太单一：在库比蒂诺长大，去伯克利读书，一毕业就创业，从未在大组织底层体验过糟糕的官僚主义和过时的工具[80:01 Qasar Younis]。如果你没有在现实世界中摸爬滚打过、没有体验过当普通员工的苦，就很难做出真正契合人性的好产品和好政策。
 
 ## 本集带走
-1. **别被表象吓倒,去理解技术的边界**:对 AI 的恐惧源于误解。人形机器人挥舞双截棍只是昂贵的预编程表演。去学习它,你会发现它有局限性。
-2. **物理 AI 最大的影响不在人形,而在填补危险劳动力的缺口**:最具性价比的落地是把智能装进已经存在的汽车、采矿车辆中。随着农民、卡车司机等劳动力的老龄化与流失,智能机器来得正是时候。
-3. **最好的工作是独自安静地完成的**:与其花大量时间为大众消费制造内容,不如把极其有限的时间专注在产品和客户上。当你把公司看作一台需要精心[[维护|维护]]的机器时,务实与卫生比喧哗更重要。
-4. **在理性中拥抱反对意见**:情绪是理性决策的对立面。要创造一种谁提出最好想法谁就赢的文化,哪怕公司势头正猛,也要听得进「我们偏离航向 5 度」的反对声。
-5. **品味源于广阔的阅历**:不要只做身处硅谷泡泡里的终身创业者。去大型组织底层摸爬滚打,去阅读旧书,去背包环游世界,吸收多样化的输入,才会培养出真正的判断力。
+
+1. **战胜恐惧的最好办法是理解它**：大众对 AI 的恐慌往往源于对技术边界的无知（比如被预先编程好的双截棍机器人视频吓到）。与其盲目焦虑，不如主动了解它，让技术向善。
+2. **真实的 AI 价值在物理世界**：下一个五到十年，AI 最大的影响不只在软件和代码，而是切实地发生在农业、采矿、建筑和自动驾驶等领域，通过给现有的庞大机器注入智能，填补那些危险或没人愿意干的劳动力缺口。
+3. **最好的工作是独自安静地完成的**：创业者要保持「激进实用主义」，把时间花在客户和产品打磨上。通过广泛阅读和积累多元化的生活经验来培养品味，不要在聚光灯下迷失了公司的基本盘。
 
 ## 金句(中英对照 · 过机器闸门三联校验)
 
-> 我认为我们解决一些不可能的问题,比如癌症,将直接与这次 AI 繁荣有关。  
-> *I think us solving some of these impossible problems like cancer are directly going to be related to this AI boom.*  
-> —— Qasar Younis · [06:21] ^q1
+> 如果你在家对 AI 感到非常焦虑，你能做的最好的事情就是花时间去理解，你很快就会看到它的局限性。  
+> *If you at home are very anxious about AI, the best thing that you can do is spend time to understand and you will quickly see the limitations.*  
+> —— Qasar Younis · [00:59] ^q1
 
-> 我继续相信我们的大脑在情感上喜爱人形概念,因为我们是猴子。  
-> *I continue to believe that I think our brain emotionally loves the humanoid concept because we're monkeys.*  
-> —— Qasar Younis · [23:43] ^q2
+> 我们解决一些像癌症这样的不可能的问题，将直接与这次 AI 繁荣有关。  
+> *Us solving some of these impossible problems like cancer are directly going to be related to this AI boom.*  
+> —— Qasar Younis · [06:21] ^q2
 
-> 我认为 AI 在未来 5 到 10 年的真正影响将真正出现在农业、采矿、建筑和自动驾驶卡车上。  
-> *I think the real impact of AI in the next 5 to 10 years really is going to be in farming, in mining, in construction and self-driving trucks.*  
-> —— Qasar Younis · [28:08] ^q3
+> 你意识到你能看到挥舞双截棍的人形机器人的视频，它们是预先编程的，制作那个视频花费了 1500 万美元。  
+> *you realize that you can see the video of nunchuck wielding humanoids, which are pre-programmed and that costs $15 million to do that video.*  
+> —— Qasar Younis · [10:29] ^q3
 
-> 与其认为是 OpenAI 在与 DeepSeek 竞争,不如说是 OpenAI 在与中国政府竞争。  
-> *Instead of thinking OpenAI is competing against DeepSeek, you say OpenAIs competing against the Chinese government.*  
-> —— Qasar Younis · [35:04] ^q4
+> 仅在美国，明年将有超过 30,000 人死于这些事故。  
+> *just in the United States, over 30,000 people will die in the next year from these accidents.*  
+> —— Qasar Younis · [17:50] ^q4
 
-> 我认为我们的成名之处,这有点疯狂的现实,我们在公司历史上从未花过我们筹集的任何钱,这有点,这听起来像是编造的。  
-> *I think our claim to fame, which is kind of a crazy reality, is we've never spent any money we've ever raised in the history of the company, which is kind of, it almost sounds like it's made up.*  
-> —— Qasar Younis · [57:05] ^q5
+> AI 在未来 5 到 10 年的真正影响将真正是在农业、采矿和建筑领域。  
+> *The real impact of AI in the next 5 to 10 years really is going to be in farming, mining, construction.*  
+> —— Qasar Younis · [00:36] ^q5
 
-> Google 想要赢得社交媒体战争的唯一途径是成为一家社交媒体公司,但它根本上就不是。  
-> *the way that Google would've won the social media wars by being a social media company, it's just fundamentally not.*  
-> —— Qasar Younis · [71:44] ^q6
+> 我们所有的公司价值观都可以归结为这两个词：激进实用主义。  
+> *All of our company values can be reduced to these two words of radical pragmatism.*  
+> —— Qasar Younis · [40:58] ^q6
 
-> 嗯,我的一个观点是,情绪通常对做出理性决策没有帮助。  
-> *Well, one view I do have is emotions are generally not helpful in making rational decisions.*  
-> —— Qasar Younis · [68:02] ^q7
+> 你每一分钟都在为公共消费写东西，你就没有把你非常有限的时间集中在你的客户和产品上。  
+> *Every minute you're writing something for public consumption, you're not focusing your very limited time that you have on your customers and your product.*  
+> —— Qasar Younis · [00:10] ^q7
 
-> 俗话说,技术精通是掌握复杂,我认为计算机做得很好,而创造力是掌握简单。  
-> *The old saying of technical mastery is mastering the complex, and I think computers do that really well, and creativity is mastering the simple.*  
-> —— Qasar Younis · [77:40] ^q8
+> 读旧书，因为时间已经过滤掉了许多噪音。  
+> *Read old books because time has filtered out a lot of the noise.*  
+> —— Qasar Younis · [59:20] ^q8
+
+> 技术精通是掌握复杂，我认为计算机做得很好，而创造力是掌握简单。  
+> *technical mastery is mastering the complex, and I think computers do that really well, and creativity is mastering the simple.*  
+> —— Qasar Younis · [77:42] ^q9
 
 ## 相关单集
 
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被淘汰，构建者迎来黄金期》]] —— 同公司:Tesla · 同概念:智能体 (agent)、vibe coding
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel:在AI时代,做最会创新的公司》]] —— 同公司:Google · 同概念:智能体 (agent)
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同公司:OpenAI · 同概念:智能体 (agent)、ChatGPT
+- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]] —— 同公司:Waymo · 同概念:ChatGPT
+- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同公司:Waymo · 同概念:ChatGPT
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同公司:Lovable · 同概念:智能体 (agent)
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同概念:智能体 (agent)、ChatGPT
+- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:智能体 (agent)、ChatGPT
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] —— 同概念:智能体 (agent)
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体替代 10 人销售团队：SaaStr 创始人的前沿实战》]] —— 同概念:智能体 (agent)
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同概念:智能体 (agent)
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别怪高管不懂你：产品经理的向上影响力心法》]] —— 同概念:智能体 (agent)
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同概念:智能体 (agent)
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验》]] —— 同概念:智能体 (agent)
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同概念:智能体 (agent)
 - [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同概念:智能体 (agent)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的 AI 工作预测:智能体接管工作,但人类不会失业》]] —— 同概念:智能体 (agent)
-- [[2026-06-03-latent-space-satya-2026|《专访 Satya Nadella:智能体时代的平台逻辑与企业护城河》]] —— 同概念:智能体 (agent)
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人：别想从零颠覆世界，靠复制才能创新》]] —— 同概念:智能体 (agent)
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] —— 同概念:智能体 (agent)
+- [[2026-06-03-latent-space-satya-2026|《Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP》]] —— 同概念:智能体 (agent)
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] —— 同概念:智能体 (agent)
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同概念:智能体 (agent)
-- [[2026-06-22-latent-space-gray-swan|《给 AI 智能体装上「安全带」:Gray Swan 的攻防实战》]] —— 同概念:智能体 (agent)
-- [[2026-06-24-latent-space-databricks|《Databricks 的智能体时代布局：统一调度、开源治理与数据库重写》]] —— 同概念:智能体 (agent)
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]] —— 同概念:智能体 (agent)
-- [[2026-07-08-latent-space-modal|《AI 基础设施如何为智能体重新设计:Modal 联合创始人的方法》]] —— 同概念:智能体 (agent)
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:智能体 (agent)
-- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]] —— 同公司:Google、Waymo
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同公司:Waymo
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《在指数级增长公司做增长：Anthropic 增长负责人的打法》]] —— 同概念:智能体 (agent)
+- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] —— 同概念:智能体 (agent)
+- [[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]] —— 同概念:智能体 (agent)
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] —— 同概念:智能体 (agent)
+- [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同概念:智能体 (agent)
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同公司:Tesla · 同概念:智能体 (agent)
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代》]] —— 同概念:ChatGPT
 
 ---
 

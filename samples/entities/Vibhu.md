@@ -10,8 +10,8 @@ entity_type: 人物
 
 ## 出现在这些集
 
-- [[2026-07-08-latent-space-modal|《AI 基础设施如何为智能体重新设计:Modal 联合创始人的方法》]] — 作为联合主持
+- [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] — 作为联合主持
 
 ## 关联实体
 
-[[swyx]] · [[Akshat Bubna]] · [[Modal]] · [[Kubernetes]] · [[智能体]] · [[沙箱]] · [[推理]] · [[投机解码]] · [[智能体体验]] · [[Anthropic]]
+[[swyx]] · [[Akshat Bubna]] · [[Modal]] · [[智能体]] · [[AX]] · [[DX]] · [[沙箱]] · [[推理]] · [[弹性推理]] · [[投机解码]]

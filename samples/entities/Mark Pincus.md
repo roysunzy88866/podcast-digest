@@ -6,7 +6,7 @@ entity_type: 人物
 # Mark Pincus
 
 > [!info] 人物
-> 出现在 1 集 · 金句 11 条 · 关联 8 个
+> 出现在 1 集 · 金句 17 条 · 关联 10 个
 
 ## 金句
 
@@ -32,10 +32,22 @@ entity_type: 人物
 
 ![[2026-06-14-lennys-the-common-pattern-behind-successful#^q11]]
 
+![[2026-06-14-lennys-the-common-pattern-behind-successful#^q12]]
+
+![[2026-06-14-lennys-the-common-pattern-behind-successful#^q13]]
+
+![[2026-06-14-lennys-the-common-pattern-behind-successful#^q14]]
+
+![[2026-06-14-lennys-the-common-pattern-behind-successful#^q15]]
+
+![[2026-06-14-lennys-the-common-pattern-behind-successful#^q16]]
+
+![[2026-06-14-lennys-the-common-pattern-behind-successful#^q17]]
+
 ## 出现在这些集
 
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人：别想从零颠覆世界，靠复制才能创新》]] — 作为主持
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] — 作为主持
 
 ## 关联实体
 
-[[Lenny]] · [[Zynga]] · [[Proven, Better, New]] · [[留存率]] · [[智能体]] · [[AI 聊天]] · [[产品市场契合度]] · [[微管理]]
+[[Lenny]] · [[Zynga]] · [[已验证、更好、全新]] · [[产品市场契合度]] · [[留存率]] · [[分发]] · [[智能体]] · [[社交网络]] · [[微管理]] · [[OpenAI]]

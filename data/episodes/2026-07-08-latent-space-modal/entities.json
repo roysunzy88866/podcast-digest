@@ -4,10 +4,10 @@
   "date": "2026-07-08",
   "tags": [
     "AI 基础设施",
-    "弹性推理",
-    "智能体沙箱",
-    "多云策略",
-    "智能体体验(AX)"
+    "智能体",
+    "推理优化",
+    "多云架构",
+    "开发者体验"
   ],
   "entities": [
     {
@@ -47,7 +47,7 @@
       "name": "Modal",
       "file": "Modal",
       "primary": true,
-      "how_described": "本集重点讨论的公司。被描述为专为 AI 与智能体应用从头构建原语的云平台,提供无服务器运行时、弹性推理和隔离的沙箱环境。",
+      "how_described": "本集主要讨论的公司。被描述为一个为 AI 应用从头构建原语的云平台，不建自己的数据中心，而是在 17 个云提供商上构建了容量池，支持推理、训练、批处理和沙箱工作负载。",
       "source": "glm",
       "evidence": [
         {
@@ -323,70 +323,13 @@
       ]
     },
     {
-      "id": "kubernetes",
-      "type": "company",
-      "role": "company",
-      "name": "Kubernetes",
-      "file": "Kubernetes",
-      "primary": true,
-      "how_described": "本集将其描述为一种难以管理的容器管理系统,主要为缓慢扩展的 Web 服务器设计,无法适应 AI 带来的突发性工作负载。Modal 构建更好运行时就是为了摆脱它的繁琐。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 13,
-          "t": [
-            55.802,
-            57.254000000000005
-          ],
-          "quote": "It's because you have to run them on Kubernetes.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 14,
-          "t": [
-            57.304,
-            58.606
-          ],
-          "quote": "Kubernetes is hard to manage.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 43,
-          "t": [
-            170.695,
-            174.50699999999998
-          ],
-          "quote": "to burst up and down a lot versus like Kubernetes design for like slow scaling",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 79,
-          "t": [
-            305.607,
-            310.388
-          ],
-          "quote": "which is why would you have an agent read through hundreds of Kubernetes files",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 106,
-          "t": [
-            424.03,
-            428.934
-          ],
-          "quote": "So there is still a role for the always on large scale Kubernetes type of things.",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
       "id": "agent",
       "type": "concept",
       "role": "concept",
       "name": "智能体 (agent)",
       "file": "智能体",
       "primary": true,
-      "how_described": "本集将智能体描述为新型代码开发者,SDK 团队已从服务人类开发者(DX)转向服务智能体体验(AX);它们能启动自己的基础设施,甚至能在运行时里不断对自身进行迭代。",
+      "how_described": "本集核心主题之一。智能体不仅会编写工具代码（如 Claude Code 和 Codex），还需要能快速自我配置、自我迭代的底层基础设施；甚至还需要随时启动成千上万个沙箱来生成环境（如做强化学习时）。",
       "source": "glm",
       "evidence": [
         {
@@ -617,13 +560,64 @@
       ]
     },
     {
+      "id": "ax",
+      "type": "concept",
+      "role": "concept",
+      "name": "AX",
+      "file": "AX",
+      "primary": true,
+      "how_described": "本集说是继开发者体验（DX）之后的重点：Modal 把 SDK 团队的目标从优化 DX 转向优化 AX，强调让智能体能无摩擦地通过修改装饰器获得自我配置的运行时，并在 CLI 和仪表盘中提供可观测性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            300.105,
+            305.547
+          ],
+          "quote": "And we think that the same benefits that apply for DX also actually apply for AX,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "dx",
+      "type": "concept",
+      "role": "concept",
+      "name": "DX",
+      "file": "DX",
+      "primary": true,
+      "how_described": "本集把它描述为早期 Modal 的主打牌：解决传统工作流编排工具难用的问题，让开发者不用写复杂的 YAML，而是通过在代码里加装饰器来定义基础设施需求。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 57,
+          "t": [
+            219.93,
+            223.75
+          ],
+          "quote": " like a dx layer that was uh really important because we",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 78,
+          "t": [
+            300.105,
+            305.547
+          ],
+          "quote": "And we think that the same benefits that apply for DX also actually apply for AX,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
       "id": "sandbox",
       "type": "concept",
       "role": "concept",
       "name": "沙箱 (sandbox)",
       "file": "沙箱",
       "primary": true,
-      "how_described": "本集将沙箱描述为一种用于跑不受信代码、进行安全隔离的执行环境。Modal 在 2023 年 5 月就构建了沙箱,RL 爆发时有时瞬间需要十万个沙箱来跑策略部署。",
+      "how_described": "本集把它说成是跑不受信代码或隔离工作负载的容器环境。既支持瞬间扩缩容（如做 RL 时瞬间启动十万个沙箱），也升级成了类似 Pod 的结构，支持多容器和 Sidecar 模式。",
       "source": "glm",
       "evidence": [
         {
@@ -725,7 +719,7 @@
       "name": "推理 (inference)",
       "file": "推理",
       "primary": true,
-      "how_described": "本集反复讨论了推理,特别是自定义模型的大规模弹性推理。Modal 最早的产品市场契合点就是帮 Suno、Runway 等公司做不可预测流量模式下的推理。",
+      "how_described": "本集说 Modal 最大的用例就是弹性推理，尤其是为 Suno、Runway 等客户在流量波动极大时提供按需自动伸缩算力的推理服务。",
       "source": "glm",
       "evidence": [
         {
@@ -983,13 +977,34 @@
       ]
     },
     {
+      "id": "elastic-inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "弹性推理 (elastic inference)",
+      "file": "弹性推理",
+      "primary": true,
+      "how_described": "本集明确指出这是 Modal 目前最大的用例：根据流量自动伸缩算力，能在短时间内（比如从 1000 扩展到 1500 个 GPU）应对不可预测的突发流量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            740.219,
+            743.123
+          ],
+          "quote": " Our biggest use case actually is elastic inference.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
       "id": "speculative-decoding",
       "type": "concept",
       "role": "concept",
       "name": "投机解码 (speculative decoding)",
       "file": "投机解码",
       "primary": true,
-      "how_described": "本集解释了其原理:用一个小型草稿模型在前面预测 token,大模型随后批量验证。增加预测的接受长度能带来 2 到 4 倍的乘法级提速,且不会降低输出质量。",
+      "how_described": "本集说是让小模型（草稿模型）先猜几个词，再让大模型来验证的加速手段。嘉宾强调，相比于死磕底层内核只能提升几个百分点，优化投机解码的「接受长度」能带来 2 到 4 倍的乘法级提升，且零质量损耗。",
       "source": "glm",
       "evidence": [
         {
@@ -1022,109 +1037,49 @@
       ]
     },
     {
-      "id": "agent-experience",
+      "id": "dflash",
       "type": "concept",
       "role": "concept",
-      "name": "智能体体验 (agent experience)",
-      "file": "智能体体验",
+      "name": "DeFlash",
+      "file": "DeFlash",
       "primary": true,
-      "how_described": "本集说 Modal 已把 SDK 团队的思考方式从「开发者体验(DX)」转变为「智能体体验(AX)」,即不让智能体读复杂的 YAML,而是在一个装饰器里做几处修改即可自我配置。",
+      "how_described": "本集说是 Modal 开源的一个基于块的推测解码器：与传统一次猜一个词不同，它让草稿模型一次预测一整个块，从而大幅加速推理。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 76,
+          "seg": 250,
           "t": [
-            294.323,
-            298.284
+            966.665,
+            972.487
           ],
-          "quote": "We've actually changed our SDK team to think about agent experience sort",
+          "quote": "of recently we shared our work on dflash which is a block based speculator",
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 915,
+          "seg": 252,
           "t": [
-            3352.787,
-            3356.009222222222
+            976.729,
+            979.79
           ],
-          "quote": "and you've pivoted the team to agent experience is it like",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 917,
-          "t": [
-            3362.453,
-            3365.7419999999997
-          ],
-          "quote": "on just having better agent experience do you need something else",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 927,
-          "t": [
-            3402.058,
-            3405.629
-          ],
-          "quote": "for developer experience versus agent experience you seem to be on the side",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "snapshotting",
-      "type": "concept",
-      "role": "concept",
-      "name": "快照 (snapshotting)",
-      "file": "快照",
-      "primary": false,
-      "how_described": "本集提到 Modal 整合了 GPU 快照功能,可以截取 GPU 的状态(如模型状态),让下一次调用启动得快得多,避免冷启动;也可用于智能体的状态持久化。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 222,
-          "t": [
-            831.8599999999999,
-            834.76
-          ],
-          "quote": "snapshotting to the product so we can actually uh take",
+          "quote": "by using open source dflash you can get the same performance as you would with one",
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 371,
+          "seg": 291,
           "t": [
-            1372.628,
-            1377.191
+            1088.762,
+            1093.228
           ],
-          "quote": "because they were able to use some of the primitives like snapshotting",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
-      "id": "decorator",
-      "type": "concept",
-      "role": "concept",
-      "name": "装饰器 (decorator)",
-      "file": "装饰器",
-      "primary": false,
-      "how_described": "本集描述其为一种代码语法,Modal 希望开发者或智能体不用花大量时间编写 YAML,而是直接在代码的装饰器里压缩并声明基础设施需求。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 81,
-          "t": [
-            315.71,
-            320.251
-          ],
-          "quote": "in a decorator and it gets this sort of self-provisioning runtime of being able",
+          "quote": " And so we've been working a bunch on dflash, which is a block based speculator.",
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 473,
+          "seg": 310,
           "t": [
-            1720.472,
-            1725.157
+            1161.751,
+            1165.612
           ],
-          "quote": "other feature which is you can add a decorator to a function and you get a cluster",
+          "quote": "like the dflash stuff already baked in, and there's full transparency.",
           "speaker": "SPEAKER_02"
         }
       ]
@@ -1135,8 +1090,8 @@
       "role": "concept",
       "name": "Auto Endpoints",
       "file": "Auto Endpoints",
-      "primary": false,
-      "how_described": "本集说这是 Modal 推出的一种服务,让不想深度接触代码的用户也能从 UI 或 CLI 创建一个端点,内置了所有优化,但完全不设黑盒,用户随时可获取代码自行运行。",
+      "primary": true,
+      "how_described": "本集说是 Modal 推出的服务，让用户无需改代码、通过 UI 就能创建一个集成了所有优化（如 DeFlash）的推理端点，且保留代码透明度，想深度微调随时可以「弹出」黑盒拿回控制权。",
       "source": "glm",
       "evidence": [
         {
@@ -1160,22 +1115,367 @@
       ]
     },
     {
-      "id": "capacity-pool",
-      "type": "concept",
-      "role": "concept",
-      "name": "容量池 (capacity pool)",
-      "file": "容量池",
-      "primary": false,
-      "how_described": "本集提到 Modal 构建了一个跨越 17 个云提供商的容量池,使他们能比普通用户使用多得多、也便宜得多的云容量。",
+      "id": "kubernetes",
+      "type": "company",
+      "role": "company",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": true,
+      "how_described": "本集把它作为反面对照：说它是为缓慢扩展的 Web 服务器设计的，难以适应 AI 时代频繁突发的算力需求，且配置文件（YAML）庞大复杂，对人类和智能体都不友好。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 396,
+          "seg": 13,
           "t": [
-            1454.462,
-            1459.023
+            55.802,
+            57.254000000000005
           ],
-          "quote": "which is we've built this capacity pool that spans 17 cloud providers.",
+          "quote": "It's because you have to run them on Kubernetes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 14,
+          "t": [
+            57.304,
+            58.606
+          ],
+          "quote": "Kubernetes is hard to manage.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 43,
+          "t": [
+            170.695,
+            174.50699999999998
+          ],
+          "quote": "to burst up and down a lot versus like Kubernetes design for like slow scaling",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 79,
+          "t": [
+            305.607,
+            310.388
+          ],
+          "quote": "which is why would you have an agent read through hundreds of Kubernetes files",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 106,
+          "t": [
+            424.03,
+            428.934
+          ],
+          "quote": "So there is still a role for the always on large scale Kubernetes type of things.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "decorator",
+      "type": "concept",
+      "role": "concept",
+      "name": "装饰器 (decorator)",
+      "file": "装饰器",
+      "primary": true,
+      "how_described": "本集说是 Modal 核心的 DSL（领域特定语言）层语法：开发者只需在代码上加上装饰器，就能定义硬件需求和扩展方式，把基础设施需求与业务代码完美协同部署，特别适合智能体理解。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            315.71,
+            320.251
+          ],
+          "quote": "in a decorator and it gets this sort of self-provisioning runtime of being able",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 473,
+          "t": [
+            1720.472,
+            1725.157
+          ],
+          "quote": "other feature which is you can add a decorator to a function and you get a cluster",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到它作为大模型厂商之一，推出了自家的「托管智能体」，被主持人拿来质问会不会侵入 Modal 的地盘。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 720,
+          "t": [
+            2659.575,
+            2665
+          ],
+          "quote": "we're very excited to partner with Anthropic and some of the other foundation labs",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到它作为大模型厂商之一，推出了自家的「托管智能体」，与 Anthropic 一起被视作潜在的竞争或合作方。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 909,
+          "t": [
+            3331.015,
+            3335.997
+          ],
+          "quote": "Brett Taylor, who's chairman of OpenAI, I was like, we need a new language for LLM.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "suno",
+      "type": "company",
+      "role": "company",
+      "name": "Suno",
+      "file": "Suno",
+      "primary": false,
+      "how_described": "本集说是 Modal 的客户之一，一家音频公司，有完全自定义的模型架构，需要代码级的控制，在 Modal 上跑所有的推理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 201,
+          "t": [
+            748.691,
+            753.138
+          ],
+          "quote": "So we kind of stayed away from the LM space and we were serving companies like Suno",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 825,
+          "t": [
+            3020.14,
+            3026.124
+          ],
+          "quote": "A better example is like let's say Suno because Suno does not use modal for training",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "runway",
+      "type": "company",
+      "role": "company",
+      "name": "Runway",
+      "file": "Runway",
+      "primary": false,
+      "how_described": "本集说是 Modal 的客户之一，一家视频公司，流量波动极大，依赖 Modal 进行部署和自动扩展。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 202,
+          "t": [
+            753.158,
+            754.82
+          ],
+          "quote": "for audio, Runway for video.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vllm",
+      "type": "concept",
+      "role": "concept",
+      "name": "vLLM",
+      "file": "vLLM",
+      "primary": false,
+      "how_described": "本集在对比推理引擎性能时提及，被列为现成的开源推理引擎之一（另一个是 SGLang），用来和 Modal 的方案做对比。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 327,
+          "t": [
+            1220.483,
+            1224.785
+          ],
+          "quote": "the shelf inference engine vllm sc lang you know get compute",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sglang",
+      "type": "concept",
+      "role": "concept",
+      "name": "SGLang",
+      "file": "SGLang",
+      "primary": false,
+      "how_described": "本集在对比推理性能时提及，被列为现成的开源推理引擎之一，并提到 Modal 团队会与 SGLang 团队密切合作并将改进开源上游。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 332,
+          "t": [
+            1240.56,
+            1242.6155555555556
+          ],
+          "quote": "We work closely with the SGLang team.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gitpod",
+      "type": "company",
+      "role": "company",
+      "name": "Gitpod",
+      "file": "Gitpod",
+      "primary": false,
+      "how_described": "本集把它（改名 Ona）归为 CICD（持续集成/持续部署）领域的玩家，强调它和 Modal 一样本质上都是做沙箱，只不过一个是构建时沙箱、一个是运行时沙箱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 846,
+          "t": [
+            3113.039,
+            3117.562
+          ],
+          "quote": "Gitpod, somewhat different market.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 849,
+          "t": [
+            3123.346,
+            3129.77
+          ],
+          "quote": "Yeah, people on our team have talked to the Gitpod team and they're technically very strong.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 863,
+          "t": [
+            3186.209,
+            3189.172
+          ],
+          "quote": "yeah so so uh for those who don't know gitpod rebranded",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": false,
+      "how_described": "本集作为 Modal 的重点客户提及，使用 Modal 来运行智能体工作负载，且有工程师直接驻点在 Cognition 进行配合。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            473.065,
+            478.609
+          ],
+          "quote": "and so my first week at cognition i walked in there was someone wearing",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            534.541,
+            538.643
+          ],
+          "quote": "to me that was proto cognition right if only i had like stuck to it like that",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 866,
+          "t": [
+            3194.257,
+            3196.039
+          ],
+          "quote": "and cognition i was like you should take these guys seriously",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cicd",
+      "type": "concept",
+      "role": "concept",
+      "name": "CI/CD",
+      "file": "CI-CD",
+      "primary": false,
+      "how_described": "本集把它说成是智能体时代的一个潜在爆发点：随着编码智能体运行大量 CI 任务，可以用内存快照等原语来跳过依赖准备阶段，大幅减少 CI 浪费的时间。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 847,
+          "t": [
+            3117.642,
+            3121.244
+          ],
+          "quote": "They're in the CICD market, but actually technically very impressive.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 850,
+          "t": [
+            3130.937,
+            3135.24
+          ],
+          "quote": "I actually am we're very bullish and modal on the CI market as well",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 851,
+          "t": [
+            3135.66,
+            3140.984
+          ],
+          "quote": "because there's more agents coding agents they're going to run a lot more CI and",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 852,
+          "t": [
+            3141.664,
+            3145.857
+          ],
+          "quote": "the primitives there can be much better I think there's a lot of wasted CI yeah",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 854,
+          "t": [
+            3150.57,
+            3155.494
+          ],
+          "quote": "in improving CI for agents well there's a lot of wasted time in CI on like",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 859,
+          "t": [
+            3172.038,
+            3178.26
+          ],
+          "quote": "and restore can you just run ci more efficiently oh oh okay okay okay interesting",
           "speaker": "SPEAKER_02"
         }
       ]
@@ -1187,7 +1487,7 @@
       "name": "RDMA",
       "file": "RDMA",
       "primary": false,
-      "how_described": "本集描述它是一种绕过 TCP 网络协议、在节点间极快传输数据的技术。在 Modal 上做多节点训练时,内部网络速度可达每秒 3 万亿比特。",
+      "how_described": "本集说它是为了在节点之间更快地传输数据而绕过 TCP 网络的方式，对于多节点训练是必需的，Modal 内部网络支持每秒 3 万亿比特的传输标准。",
       "source": "glm",
       "evidence": [
         {
@@ -1256,250 +1556,106 @@
       ]
     },
     {
-      "id": "gitpod",
-      "type": "company",
-      "role": "company",
-      "name": "Gitpod",
-      "file": "Gitpod",
+      "id": "ipv6",
+      "type": "concept",
+      "role": "concept",
+      "name": "IPv6",
+      "file": "IPv6",
       "primary": false,
-      "how_described": "本集提到它位于 CI/CD 市场(后改名 Ona),做的是构建时的沙箱;相比之下 Modal 做的是运行时沙箱。",
+      "how_described": "本集说 Modal 偶然基于 IPv6 搭建了一个私有 Overlay 网络，原本只是给分布式训练做密钥交换用的，结果被客户自己发现并挪作他用（如跨节点容器通信）。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 846,
+          "seg": 469,
           "t": [
-            3113.039,
-            3117.562
+            1692.812,
+            1697.499
           ],
-          "quote": "Gitpod, somewhat different market.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 849,
-          "t": [
-            3123.346,
-            3129.77
-          ],
-          "quote": "Yeah, people on our team have talked to the Gitpod team and they're technically very strong.",
+          "quote": "which is this like overlay network using IPv6 addresses.",
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 863,
+          "seg": 508,
           "t": [
-            3186.209,
-            3189.172
+            1865.989,
+            1870.573
           ],
-          "quote": "yeah so so uh for those who don't know gitpod rebranded",
+          "quote": "the private ipv6 uh addressing that you've set up it's like it's basically a vpn",
           "speaker": "SPEAKER_01"
         }
       ]
     },
     {
-      "id": "suno",
-      "type": "company",
-      "role": "company",
-      "name": "Suno",
-      "file": "Suno",
+      "id": "python",
+      "type": "concept",
+      "role": "concept",
+      "name": "Python",
+      "file": "Python",
       "primary": false,
-      "how_described": "本集提到这是一家做音频的公司,不在 Modal 上训练模型,但用 Modal 跑所有的推理,因为其模型架构完全自定义。",
+      "how_described": "本集说是 Modal 的第一个 SDK 语言，因为这是人们做数据和机器学习用的语言，并指出即使在智能体时代，Python 依然在推理和训练领域占主导。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 201,
+          "seg": 885,
           "t": [
-            748.691,
-            753.138
+            3265.118,
+            3271.582
           ],
-          "quote": "So we kind of stayed away from the LM space and we were serving companies like Suno",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 825,
-          "t": [
-            3020.14,
-            3026.124
-          ],
-          "quote": "A better example is like let's say Suno because Suno does not use modal for training",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
-      "id": "runway",
-      "type": "company",
-      "role": "company",
-      "name": "Runway",
-      "file": "Runway",
-      "primary": false,
-      "how_described": "本集将 Runway 作为做视频的公司被提及,它使用 Modal 进行弹性推理部署。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 202,
-          "t": [
-            753.158,
-            754.82
-          ],
-          "quote": "for audio, Runway for video.",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
-      "id": "anthropic",
-      "type": "company",
-      "role": "company",
-      "name": "Anthropic",
-      "file": "Anthropic",
-      "primary": false,
-      "how_described": "本集在讨论基础模型实验室亲自下场做托管智能体时被提及,嘉宾认为这些大厂的托管产品适合作为起点。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 720,
-          "t": [
-            2659.575,
-            2665
-          ],
-          "quote": "we're very excited to partner with Anthropic and some of the other foundation labs",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
-      "id": "openai",
-      "type": "company",
-      "role": "company",
-      "name": "OpenAI",
-      "file": "OpenAI",
-      "primary": false,
-      "how_described": "本集被提及为下场做托管智能体的 AI 巨头之一;同时提到 Gitpod 团队后来加入了 OpenAI。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 909,
-          "t": [
-            3331.015,
-            3335.997
-          ],
-          "quote": "Brett Taylor, who's chairman of OpenAI, I was like, we need a new language for LLM.",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "replicate",
-      "type": "company",
-      "role": "company",
-      "name": "Replicate",
-      "file": "Replicate",
-      "primary": false,
-      "how_described": "本集提到它是一个「倒下的竞争对手」,因为它只为模型提供 API,最终服务的是一个粘性极低的业余市场。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 796,
-          "t": [
-            2905.121,
-            2910.363
-          ],
-          "quote": " This screen reminds me of a fallen competitor which Replicate.",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "ramp",
-      "type": "company",
-      "role": "company",
-      "name": "Ramp",
-      "file": "Ramp",
-      "primary": false,
-      "how_described": "本集提到它作为构建生产级面向外部客户的智能体(如会计智能体)的案例,需要 Modal 提供的专业沙箱以获得更深的计算控制权。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 370,
-          "t": [
-            1365.124,
-            1372.124
-          ],
-          "quote": "So Ramp Inspect was a great example of a background agent that was really successful",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 374,
-          "t": [
-            1383.055,
-            1385.436
-          ],
-          "quote": "That's the new CTO of Ramp right there.",
+          "quote": "yeah it's fascinating other people astro also open ai also like python tooling",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 725,
+          "seg": 887,
           "t": [
-            2679.448,
-            2684.936
+            3275.445,
+            3281.408
           ],
-          "quote": "building something more production grade like your company that's like ramp that's",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 726,
-          "t": [
-            2685.157,
-            2688.942
-          ],
-          "quote": "building their own ramp also runs their accounting agent on us",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 822,
-          "t": [
-            3007.57,
-            3012.494
-          ],
-          "quote": "or they were ramp actually early in the day was training their own tokenizer",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
-      "id": "cognition",
-      "type": "company",
-      "role": "company",
-      "name": "Cognition",
-      "file": "Cognition",
-      "primary": false,
-      "how_described": "本集提到它是 Modal 的客户,并且 Modal 派了工程师直接驻场在 Cognition 内部以降低沟通延迟。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 121,
-          "t": [
-            473.065,
-            478.609
-          ],
-          "quote": "and so my first week at cognition i walked in there was someone wearing",
+          "quote": "of python also recently modular also i got bought by qualcomm just any any",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 132,
+          "seg": 890,
           "t": [
-            534.541,
-            538.643
+            3284.17,
+            3288.592
           ],
-          "quote": "to me that was proto cognition right if only i had like stuck to it like that",
-          "speaker": "SPEAKER_01"
+          "quote": "we had Python as our first SDK language because that was the language",
+          "speaker": "SPEAKER_02"
         },
         {
-          "seg": 866,
+          "seg": 894,
           "t": [
-            3194.257,
-            3196.039
+            3295.494,
+            3298.771777777778
           ],
-          "quote": "and cognition i was like you should take these guys seriously",
+          "quote": "It isn't in Rust, but it's not tied to Python by any means.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 896,
+          "t": [
+            3303.396,
+            3304.8669999999997
+          ],
+          "quote": "People are still very Python.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 899,
+          "t": [
+            3313.087,
+            3317.309
+          ],
+          "quote": "I don't think we'll have to go beyond that super soon because Python",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 912,
+          "t": [
+            3338.898,
+            3343.841
+          ],
+          "quote": "and i keep looking you know python and typescript are you have a lot of data plus",
           "speaker": "SPEAKER_01"
         }
       ]
@@ -1507,15 +1663,11 @@
   ],
   "rejected": [
     {
+      "name": "GPU snapshotting",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
       "name": "supercloud",
-      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
-    },
-    {
-      "name": "cold start",
-      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
-    },
-    {
-      "name": "multi-node training",
       "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
     }
   ]

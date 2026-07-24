@@ -3,11 +3,11 @@
   "podcast": "Lenny's Podcast",
   "date": "2026-06-14",
   "tags": [
-    "产品方法论",
-    "初创公司",
+    "Proven, Better, New",
+    "产品市场契合度",
     "AI 时代社交",
     "消费者分发",
-    "管理与育儿"
+    "微观管理"
   ],
   "entities": [
     {
@@ -93,7 +93,7 @@
       "name": "Zynga",
       "file": "Zynga",
       "primary": true,
-      "how_described": "本集主要讨论的嘉宾创立的公司，被描述为创造过大量成功消费品（如《FarmVille》和《Words With Friends》），以高留存率和高命中率著称。",
+      "how_described": "本集讨论的主角公司，嘉宾创立了它并打造了数十款风靡全球的消费级社交游戏（如 FarmVille 和 Words With Friends）；它有着远高于同行的爆款命中率，核心指标是追踪罕见的「365天留存率」。",
       "source": "glm",
       "evidence": [
         {
@@ -327,10 +327,10 @@
       "id": "proven-better-new",
       "type": "concept",
       "role": "concept",
-      "name": "Proven, Better, New",
-      "file": "Proven, Better, New",
+      "name": "已验证、更好、全新 (Proven, Better, New)",
+      "file": "已验证、更好、全新",
       "primary": true,
-      "how_described": "本集核心拆解的产品构建框架：Proven（合法复制已验证的最佳方案）、Better（让现有用户觉得“太棒了，我要换”）、New（吸引人尝试但极可能失败的全新卖点）。",
+      "how_described": "本集探讨的核心产品方法论框架：对于不打算创新的环节直接合法复制市场上最成熟的「已验证」方案；在现有产品上做微小但能让所有核心用户拍手叫好的「更好」改进；只在一个全新、大概率会失败的「新」想法上承担创新风险。",
       "source": "glm",
       "evidence": [
         {
@@ -453,13 +453,70 @@
       ]
     },
     {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合度 (product market fit)",
+      "file": "产品市场契合度",
+      "primary": true,
+      "how_described": "本集反复强调的衡量标准：创始人越有雄心越应该从极小、极谦卑的地方起步，否则极容易因愿景过大而与它完美错过。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 221,
+          "t": [
+            1456.762,
+            1492.757
+          ],
+          "quote": "And I would say there's so many paradoxes in this and one that I've had to learn over and over again is if we're too ambitious at the outset and too ambitious and visionary about the product we want to build, then we will probably miss product market fit because we won't start at a small enough, humble enough place because it might ... Usually the starting point for these products is embarrassingly small.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1514.784,
+            1542.811
+          ],
+          "quote": "And the irony for me is I've found that my career has gone in these waves and maybe some of your other founders have had this experience too, that I've started in a very humble place of, \"I just want to get to anything, any product market fit\", had bigger success than I imagined I would have in my first two companies, Freeloader and Support.com.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1674.393,
+            1684.155
+          ],
+          "quote": "It's too easy to raise money and recruit teams against a big vision before we've gotten to product market fit, but the world doesn't care about your resume.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1951.931,
+            1968.834
+          ],
+          "quote": "Even if we could get funding, even if it has some traction, we have a north star that we are not going to stop until we find product market fit against our north star and this isn't it and it's going to take courage on our part.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 560,
+          "t": [
+            3641.011,
+            3653.698
+          ],
+          "quote": "I got so into wanting to prove I could build this experience that I was building this game engine, web browser-based game engine and I was not getting a product market fit.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
       "id": "retention",
       "type": "concept",
       "role": "concept",
       "name": "留存率 (retention)",
       "file": "留存率",
       "primary": true,
-      "how_described": "本集被反复强调为消费品成功的关键指标，嘉宾认为最有价值的公司都拥有最高的第365天留存率（Day 365 retention），以此取代短期的病毒式传播。",
+      "how_described": "本集将 Zynga 的成功归因于追踪极高的「Day 365 留存率」而非病毒传播；如果用户没有高留存，靠病毒式拉新只是正在下沉的速度快艇。",
       "source": "glm",
       "evidence": [
         {
@@ -546,13 +603,106 @@
       ]
     },
     {
+      "id": "distribution",
+      "type": "concept",
+      "role": "concept",
+      "name": "消费者分发 (distribution)",
+      "file": "消费者分发",
+      "primary": true,
+      "how_described": "本集指出，在 AI 时代由于构建产品的门槛极度降低，这已成为创始人面临的最大瓶颈和挑战；不能指望「产品做好了用户自然会来」，分发策略必须从第一天起就深度融入产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 567,
+          "t": [
+            3690.967,
+            3694.512
+          ],
+          "quote": "But I want to touch on distribution just as we're on this thread.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 569,
+          "t": [
+            3700.761,
+            3702.903
+          ],
+          "quote": "One of the biggest challenges becomes distribution.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 575,
+          "t": [
+            3720.783,
+            3726
+          ],
+          "quote": "Let's start with talking about consumer distribution, which I understand better.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 610,
+          "t": [
+            3917.793,
+            3919.073
+          ],
+          "quote": "And you asked about distribution.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 611,
+          "t": [
+            3920.354,
+            3931.68
+          ],
+          "quote": "Distribution is just so crucial and core to any consumer, any business idea, but any consumer idea, and it can't be an afterthought.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 613,
+          "t": [
+            3935.362,
+            3945.088
+          ],
+          "quote": "Distribution has to be part of your product and part of baked into the strategy deeply and proven from the beginning.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 617,
+          "t": [
+            3976.185,
+            3980.367
+          ],
+          "quote": "And once there is distribution, there'll be a flood of competition.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 618,
+          "t": [
+            3981.247,
+            3987.79
+          ],
+          "quote": "But when distribution is this broken, it is even more core to your product and your strategy.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 643,
+          "t": [
+            4242.723,
+            4251.518
+          ],
+          "quote": "Just to close the loop on the distribution part, what I'm hearing is we might be on the verge of a new distribution platform, a way to get out and for people to discover you.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
       "id": "agent",
       "type": "concept",
       "role": "concept",
       "name": "智能体 (agent)",
       "file": "智能体",
       "primary": true,
-      "how_described": "本集将其视为未来服务与社交的核心：既可以是24小时待命的旅行代理，也可以作为信任的“社交膜”，在孤独的 AI 时代重新连接人与人。",
+      "how_described": "本集指出 AI 目前不是软硬件平台而只是入口；嘉宾构想智能体未来可作为「社交秘书」充当信任膜，在保护隐私和时间边界的前提下聪明撮合朋友聚会，甚至充当随叫随到的私人旅行代理。",
       "source": "glm",
       "evidence": [
         {
@@ -621,88 +771,31 @@
       ]
     },
     {
-      "id": "ai-chat",
+      "id": "social-network",
       "type": "concept",
       "role": "concept",
-      "name": "AI 聊天 (AI chat)",
-      "file": "AI 聊天",
+      "name": "社交网络 (social network)",
+      "file": "社交网络",
       "primary": true,
-      "how_described": "本集指出目前的 AI 聊天（如 GPT 或 Claude）虽然是通往新技术的重要入口，但还没有成为一个真正的平台，导致应用分发极为困难。",
+      "how_described": "本集将其比喻为一场能带来意外线索和社交生产力的「喧闹的鸡尾酒会」（如早期的 Facebook、Friendster、LinkedIn）；而如今人们都在各自孤立地使用 AI，失去了社交的肾上腺素与生产力。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 580,
+          "seg": 406,
           "t": [
-            3745.19,
-            3755.076
+            2791.096,
+            2803.48
           ],
-          "quote": "We have a new kind of portal to that in GPT or whatever chat we use, AI chat, but it's not in my mind a platform.",
+          "quote": "This is an Easter egg if this doesn't get cut and anyone's still listening, we built a metric called ASN and it stood for, we measured what was your active social network.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 662,
+          "seg": 584,
           "t": [
-            4460.527,
-            4474.133
+            3770.928,
+            3779.594
           ],
-          "quote": "There's a lot of generic value I get through AI chat today that I'm having more and more trouble differentiating and it's just I don't even know anymore if I'm asking a question to Claude or to GPT.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "product-market-fit",
-      "type": "concept",
-      "role": "concept",
-      "name": "产品市场契合度 (product market fit)",
-      "file": "产品市场契合度",
-      "primary": true,
-      "how_described": "本集认为，想要找到它，创始人必须放下自尊和过度的雄心，从一个“小得让人尴尬”的切入点开始起步和试错。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 221,
-          "t": [
-            1456.762,
-            1492.757
-          ],
-          "quote": "And I would say there's so many paradoxes in this and one that I've had to learn over and over again is if we're too ambitious at the outset and too ambitious and visionary about the product we want to build, then we will probably miss product market fit because we won't start at a small enough, humble enough place because it might ... Usually the starting point for these products is embarrassingly small.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 224,
-          "t": [
-            1514.784,
-            1542.811
-          ],
-          "quote": "And the irony for me is I've found that my career has gone in these waves and maybe some of your other founders have had this experience too, that I've started in a very humble place of, \"I just want to get to anything, any product market fit\", had bigger success than I imagined I would have in my first two companies, Freeloader and Support.com.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 244,
-          "t": [
-            1674.393,
-            1684.155
-          ],
-          "quote": "It's too easy to raise money and recruit teams against a big vision before we've gotten to product market fit, but the world doesn't care about your resume.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 286,
-          "t": [
-            1951.931,
-            1968.834
-          ],
-          "quote": "Even if we could get funding, even if it has some traction, we have a north star that we are not going to stop until we find product market fit against our north star and this isn't it and it's going to take courage on our part.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 560,
-          "t": [
-            3641.011,
-            3653.698
-          ],
-          "quote": "I got so into wanting to prove I could build this experience that I was building this game engine, web browser-based game engine and I was not getting a product market fit.",
+          "quote": "And then it became at least an interface platform, whether it was a Windows interface or a browser interface or a social network that opened up.",
           "speaker": "SPEAKER_0"
         }
       ]
@@ -714,7 +807,7 @@
       "name": "微管理 (micromanagement)",
       "file": "微管理",
       "primary": true,
-      "how_described": "本集反直觉地提出“微观管理是美好的”，主张创始人应贴近底层（close to the metal），尽可能久地亲自抓像素级的产品细节，而不是把时间浪费在见投资人上。",
+      "how_described": "本集力挺的产品 CEO 治理理念：最好的产品领导者应尽可能久地深入像素级的微观管理，贴近底层做关键决策，而不是把时间花在过度授权或单纯的管理上。",
       "source": "glm",
       "evidence": [
         {
@@ -729,100 +822,349 @@
       ]
     },
     {
-      "id": "virtual-machine",
-      "type": "concept",
-      "role": "concept",
-      "name": "虚拟机 (virtual machine)",
-      "file": "虚拟机",
+      "id": "farmville",
+      "type": "company",
+      "role": "company",
+      "name": "FarmVille",
+      "file": "FarmVille",
       "primary": false,
-      "how_described": "本集在讨论 Bolt.new 爆火案例时提到，创始人将他们之前在 Web 端做的虚拟机加到了 AI 编程副驾中，从而做出了比其他人都好的产品。",
+      "how_described": "本集提到它是 Zynga 的代表性爆款游戏，通过连接朋友和加入合作玩法，深受中年女性喜爱。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 261,
+          "seg": 10,
           "t": [
-            1769.367,
-            1790.656
+            33.463,
+            43.553
           ],
-          "quote": "And then they had this realization one day of, \"Wait a second, if we take these web stacks, this virtual machine that we've been making work on the web, but we actually add that to an AI coding copilot, we now have something that's better than what anybody else has.\"",
+          "quote": "You became a founder, an entrepreneur because you wanted to go be an innovator, but you're trying to win the hearts and minds of nurses in Indiana, like for Farmville.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 150,
+          "t": [
+            981.906,
+            1016.48
+          ],
+          "quote": "And if you define your ambition in the eyes of your consumer, not your peers, you're not trying to win awards and respect from your peers, you're trying to win the hearts and minds of nurses in Indiana, like for Farmville, you're going to define innovation differently and you're not going to worry about whether ... You're going to take the best ideas wherever you can find them if they are in service of giving her an experience that she loves more.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 335,
+          "t": [
+            2248.641,
+            2262.165
+          ],
+          "quote": "When we were launching our first expansion pack for FarmVille, which these became massive business drivers for us, I think it was FarmVille English Countryside or something.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 350,
+          "t": [
+            2420.73,
+            2426.714
+          ],
+          "quote": "There's like FarmVille and CityVille and all these things that I think turn some people off.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 355,
+          "t": [
+            2434.44,
+            2452.547
+          ],
+          "quote": "I think if I'm unpacking that when you say that the products turn people off, it's funny you say that because FarmVille and CityVille were our biggest hits in terms of installs, engagement, retention, revenues.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 367,
+          "t": [
+            2576.665,
+            2592.21
+          ],
+          "quote": "Well, the reason why people, so many, especially middle-aged women love FarmVille and these games was because they had this hobby, but they weren't doing it alone and they were doing it with their good friends, making new friends.",
           "speaker": "SPEAKER_0"
         }
       ]
     },
     {
-      "id": "metaverse",
-      "type": "concept",
-      "role": "concept",
-      "name": "元宇宙 (metaverse)",
-      "file": "元宇宙",
+      "id": "words-with-friends",
+      "type": "company",
+      "role": "company",
+      "name": "Words With Friends",
+      "file": "Words With Friends",
       "primary": false,
-      "how_described": "本集提到嘉宾将其定义为“模糊虚拟与现实的界限”，并提到他四次终止了自己耗资数千万美元的元宇宙项目 do.Earth。",
+      "how_described": "本集将其作为「Proven, Better, New」的经典案例，它本质是拼字游戏，但凭借绝佳的移动端打磨与社交图谱连接成功转型，拥有 1400 万日活。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 551,
+          "seg": 92,
           "t": [
-            3598.104,
-            3601.827
+            564.407,
+            576.834
           ],
-          "quote": "I've been building my version of the metaverse for 20 years.",
+          "quote": "And in our game, Words With Friends, it was Scrabble, but if it was just Scrabble, why was it a massive hit with 14 million DAUs and Scrabble itself wasn't, right?",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 553,
+          "seg": 95,
           "t": [
-            3604.689,
-            3607.591
+            593.524,
+            596.526
           ],
-          "quote": "I call the metaverse that I want life at the speed of play.",
+          "quote": "In the case of Words with Friends, it was social.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 555,
+          "seg": 210,
           "t": [
-            3611.293,
-            3618.478
+            1421.278,
+            1427.46
           ],
-          "quote": "And by the way, I define the metaverse and I give Reid Hoffman credit for this definition as blurring the lines between the virtual and the reel.",
+          "quote": "And they perfectly copied our turn-based system from Words With Friends and they made a massive hit.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 557,
+          "seg": 351,
           "t": [
-            3621.54,
-            3623.521
+            2426.895,
+            2431.838
           ],
-          "quote": "So we're getting more and more metaverse in.",
+          "quote": "And then there's like Poker, Words with Friends, Mafia Wars that I think people are like, \"Oh, that's amazing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 356,
+          "t": [
+            2453.027,
+            2462.89
+          ],
+          "quote": "Now, Words with Friends and Poker were more enduring because they made the transition to mobile and the other games didn't.",
           "speaker": "SPEAKER_0"
         }
       ]
     },
     {
-      "id": "critical-thinking",
-      "type": "concept",
-      "role": "concept",
-      "name": "批判性思维 (critical thinking)",
-      "file": "批判性思维",
+      "id": "facebook",
+      "type": "company",
+      "role": "company",
+      "name": "Facebook",
+      "file": "Facebook",
       "primary": false,
-      "how_described": "本集在育儿话题中被提及，嘉宾认为在 AI 时代，流水线式的知识教育已经结束，比逼孩子考大学更重要的是教给他们批判性思维。",
+      "how_described": "本集多次提及：它既是 Zynga 爆款游戏的依托平台，也曾提供巨大的「社交生产力」让人们轻松与几百个朋友保持联系，但现在逐渐失去了原有的正向价值。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 827,
+          "seg": 61,
           "t": [
-            5416.105,
-            5430.754
+            322.453,
+            339.76
           ],
-          "quote": "And what I've tried to do with my older kids is teach them to have critical thinking more than... And I say, \"I don't care if you go to college,\" which is a little hard for them because they're achievers.",
+          "quote": "Sid Meiers, the godfather of game design, who's the most revered game designer, he came out with, I think, a social Civilization on Facebook and we thought, \"Oh, God, here comes the ultimate game designer.\"",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 829,
+          "seg": 63,
           "t": [
-            5433.635,
-            5441.6
+            355.868,
+            372.276
           ],
-          "quote": "What I care about is that you develop critical thinking, and you find a way to be useful to people in the world.\"",
+          "quote": "Even Sid Meiers tripped over what were understood by the most junior product managers at Zynga was the best of breed approach to onboarding a new user to the first time user experience on the Facebook platform.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 97,
+          "t": [
+            598.187,
+            605.091
+          ],
+          "quote": "It was attached to the Facebook graph and your friends are just already there to play with you, which was a new idea.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1500.44,
+            1514.224
+          ],
+          "quote": "Started with such humble non-ambitious places and The Facebook was just an app to check out girls and guys at Harvard.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1632.302,
+            1637.464
+          ],
+          "quote": "I made a Facebook app like a poker game, not even a Facebook app, I mean a poker game.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 357,
+          "t": [
+            2462.91,
+            2490.26
+          ],
+          "quote": "There's a whole other story, but I think the part you're getting to is that Zynga was in a lot of ways a victim of its own success, that our games were so viral and took over the feeds on Facebook so much that your friend who was playing it started to bug you as a person not playing it and that's fair.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 474,
+          "t": [
+            3159.372,
+            3173.279
+          ],
+          "quote": "And I think one interesting thing, we looked at NPS, Net Promoter Scores and we saw that when people quit Facebook and quit Instagram, they went from a plus 35 to a negative 35.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 481,
+          "t": [
+            3208.32,
+            3220.306
+          ],
+          "quote": "I would guess that they're going to give us productivity again, that they're going ... Part of what we got, people forget Facebook gave us massive social productivity.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 496,
+          "t": [
+            3313,
+            3330.73
+          ],
+          "quote": "And so that cocktail party that for me, it started with Napster when all of a sudden all of us were connected to each other and the great lead was a music file, but then Friendster, Facebook, LinkedIn, what we were getting was better lead generation.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 505,
+          "t": [
+            3383.296,
+            3390.94
+          ],
+          "quote": "I'm going to drop games in the middle and give them a new dimension to network in the games because they want to be on Facebook.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 673,
+          "t": [
+            4520.789,
+            4525.952
+          ],
+          "quote": "And then with us, we saw it on Facebook.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到的顶尖 AI 公司；嘉宾认为符合其利益去托管专门的面向消费者的智能体服务应用（如旅行代理）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            110.013,
+            117.917
+          ],
+          "quote": "In a quote for the book, Sam Altman, the co-founder of OpenAI, said that, \"Today, the only bottleneck to building great products is knowing what to create.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 66,
+          "t": [
+            385.442,
+            392.884
+          ],
+          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 652,
+          "t": [
+            4323.2,
+            4340.767
+          ],
+          "quote": "And I think it's going to be in OpenAI's interest, Claude, Grok to see these apps, consumer facing agentic service apps happen and see them be successful with their LLM baked in.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 653,
+          "t": [
+            4340.927,
+            4348.75
+          ],
+          "quote": "And the more it's uniquely instantiated to OpenAI, the more it drives their consumer value proposition.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 661,
+          "t": [
+            4443.7,
+            4460.487
+          ],
+          "quote": "But if it was specifically baked into OpenAI or Claude and gave me a real clear reason that I'm getting value from my GPT beyond ...",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集指出如今人们独自泡在各自的 Claude 界面中，这里安静且孤独，失去了曾经社交网络那种能带来意外惊喜的「鸡尾酒会」氛围。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            72.132,
+            78.456
+          ],
+          "quote": "Today we're all hanging out on our Claude, on our GPT, but there's no cocktail party.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 507,
+          "t": [
+            3392.76,
+            3401.164
+          ],
+          "quote": "Today we're all hanging out on our Claude on our GPT, but there's no cocktail party.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 652,
+          "t": [
+            4323.2,
+            4340.767
+          ],
+          "quote": "And I think it's going to be in OpenAI's interest, Claude, Grok to see these apps, consumer facing agentic service apps happen and see them be successful with their LLM baked in.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 661,
+          "t": [
+            4443.7,
+            4460.487
+          ],
+          "quote": "But if it was specifically baked into OpenAI or Claude and gave me a real clear reason that I'm getting value from my GPT beyond ...",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 662,
+          "t": [
+            4460.527,
+            4474.133
+          ],
+          "quote": "There's a lot of generic value I get through AI chat today that I'm having more and more trouble differentiating and it's just I don't even know anymore if I'm asking a question to Claude or to GPT.",
           "speaker": "SPEAKER_0"
         }
       ]

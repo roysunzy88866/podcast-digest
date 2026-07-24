@@ -1,170 +1,177 @@
 {
-  "tldr": "Gusto 五人团队用 AI 十周从零造出智能体产品,展示了一种全新的极简、高速开发模式。",
-  "digest_md": "本集讲述了一个极具启发性的 AI 时代软件开发故事。Gusto 是一家拥有超过一千名研发员工的大型企业,但其 CTO 兼联合创始人 Eddie Kim 带领一个仅由五人组成的小团队,在 10 周内从零开始构建并发布了一款全新的智能体产品「Co-Founder」。本期访谈拆解了他们颠覆传统的开发流程、背后的技术架构,以及 AI 如何重塑了团队的角色边界。\n\n### 诞生于航班延误的「凭感觉编程」(Vibe Code)\n故事的起点极具戏剧性。二月,Eddie 在度假返程途中因航班延误,意外在伦敦有了一段五小时的转机候机时间 [05:32 Eddie Kim]。作为一名技术领导者,他当时正在尝试使用 Cloud Code(一种 AI 编程工具),偶尔会在周末凭借直觉快速编写代码原型。在这无聊的五小时里,他打开电脑,用 Cloud Code 把脑海中酝酿已久的想法变成了一个原型。当他落地旧金山时,这个最终演变为 Gusto Co-Founder 的雏形诞生了 [06:31 Eddie Kim]。主持人 Claire Vo 笑称,她经常听到创业者们在长假或育儿假中,一手抱娃一手用 AI 编程并做出惊人成果的故事;她预测,给员工大段不被打扰的连续时间,将成为推进产品的重要方式 [07:26 Claire Vo]。\n\n### 推翻一切繁文缛节:Zoom 与白板足矣\n带回原型后,Eddie 没有启动常规的立项流程,而是找了几个经常交流的资深工程师和一位名叫 Katie 的设计师,在一个预定好的会议室里对着白板讨论 [09:39 Eddie Kim]。这块白板画着粗糙的线框图,列出了「任务」、「资产」等核心概念——这竟然成了整个 10 周开发周期里**唯一**的文档。当有人风闻这个项目来索取文档时,Eddie 会直接回答:「我们没有任何文档」[11:19 Eddie Kim]。\n\n这个团队砍掉了几乎所有传统研发的标配:没有会议、没有技术规格文档、没有 Figma(一种设计软件)、没有用来追踪故事的 JIRA 看板、没有站会,也没有回顾会 [10:10 Eddie Kim]。他们唯一保留的结构化工具,是一个 **24 小时开着的永久 Zoom(Perma-zoom)** 房间。因为大家都是远程工作,有人会整天泡在里面安静地写代码,需要讨论时随时开口 [10:31 Eddie Kim]。\n\n### 「垃圾桶法」:代码成本归零带来的自由\n由于团队里没有头衔为「产品经理(PM)」的人,所有的产品决策都由团队成员共同完成 [13:27 Eddie Kim]。他们的工作流极其直接:用 Cloud Code 写一个功能,提交一个准备好供人类审查的拉取请求(PR,用于向主项目提交代码修改的机制),然后在永久 Zoom 里讨论「这个功能到底有没有意义?」[14:00 Eddie Kim]。如果答案是肯定的,当场进行代码审查;如果大家觉得不需要,**就毫不犹豫地直接删掉这个已经写好的 PR**。\n\n这种做法催生了主持人所称的「垃圾桶法」[01:00 Claire Vo]。过去,写代码成本很高,丢弃代码令人心痛;但如今代码成本极低,你甚至可以开启一个 V2 分支从零重建,这在当下是完全合理的。\n\nEddie 分享了一段切身体会:当工程师建议把他的原型推倒重写时,他起初很抗拒,觉得那是自己的心血。但他最终选择信任团队,删掉原代码从零开始。事后证明这是最正确的决定,而他现在对丢弃代码已经完全习以为常 [15:48 Eddie Kim]。\n\n> 【背景】拉取请求(PR,Pull Request)是软件开发中的一种协作机制:开发者写好代码后发起 PR,其他团队成员可以在合并前对代码进行审查和讨论。\n\n### 极简技术栈与「雕塑式」开发\n作为面向大众的智能体产品,Co-Founder 的技术栈简单得令人惊讶。它仅仅构建在 Cloudflare Worker 和 Vercel AI SDK 之上,没有使用复杂的第三方记忆或规划框架。Eddie 指出,对他们来说,所谓的「记忆」只是一个向数据库「记忆」列写入数据的工具。过去那种复杂的智能体循环栈,现在已经不需要了 [18:26 Eddie Kim]。\n\n在具体的开发过程中,他们采用了一种「雕塑法」。设计师 Katie 会先做出一个带有假响应的纯前端体验,通过功能标志(Feature flag,允许在不完全发布的情况下控制功能可见性的技术手段)发布到生产环境。随后,工程师在后台并行构建数据模型和真实的智能体循环。前端不变,原本的假数据会慢慢被真实的运算结果替换 [20:16 Eddie Kim]。这就像是从一块大理石开始,边在生产环境中实地雕刻边将它变成艺术品 [19:54 Eddie Kim]。\n\n### 设计师变身高产工程师\n这个流程中最引人瞩目的,是设计师 Katie 的蜕变。她不仅做设计,还直接把前端代码写到了生产环境。根据他们使用的开发统计工具 DX 的数据,Katie 的真实代码吞吐量在整个一千人的研发组织中位列第 94 百分位,这意味着她击败了绝大多数受过专业训练的软件工程师 [22:45 Eddie Kim]。\n\nEddie 追问 Katie 成功的原因,得到两点结论:一是她本身就对技术充满好奇心;二是团队里有三四名工程师愿意花时间与她结对审查代码、教她如何更好地向 Claude 提示,以及判断什么是好代码 [23:29 Eddie Kim]。主持人强烈赞同这一点,她认为工程团队不应把非技术人员(如设计师或 PM)的提交视为累赘,而应像对待工程代码一样优先审查它们,这种文化投资会带来巨大的长期回报 [25:24 Claire Vo]。\n\n### 用真实场景证明价值:复杂算薪也能自动化\n在演示环节,Eddie 展示了 Co-Founder 如何解决现实中的繁杂问题。他举了一家纽约按摩水疗中心的例子:这位老板过去每周必须从排班软件 MindBody 导出数据,手工录入到 Google 电子表格中,计算出热石按摩或 CBD 精油的提成奖金和小费分配,最后再手动输入到 Gusto 中运行发薪 [32:32 Eddie Kim]。\n\n> 【背景】MindBody 是一款常用于健身房、水疗中心等预约排班的软件。\n\n而现在,借助 Co-Founder 的连接器(可对接 QuickBooks、Google Sheets、Notion 等),老板只需用大白话在自然语言中写明计算规则(例如「每次热石追加销售加 15 美元奖金」),智能体就会自己去读取电子表格、执行计算、更新薪资系统,并在最终提交前向用户确认 [34:10 Eddie Kim]。它还可以跨渠道运行:你可以直接通过发短信问「我有没有需要批准的休假请求?」,它便会代为执行操作 [31:01 Eddie Kim]。\n\n### 给领导者的建议:亲自动手,写到生产环境\n访谈末尾,Eddie 给其他企业高管提出了强硬的建议:不要只停留在用 AI 做个原型来向团队炫耀,那会让你低估工程落地时的真实难度。高管们必须亲自下场,编写并合并真正经过审核的生产级代码 [45:35 Eddie Kim]。Eddie 自己在过去三个月里,其代码吞吐量甚至达到了全公司第 95 百分位 [46:40 Eddie Kim]。\n\n主持人对此深表赞同:「现在是时候让硬技能再次现身了,而不是仅仅依靠领导力和感召力。」如果不亲自花时间使用这些 AI 产品,就根本无法理解它的底层原语和用户体验边界,更别提制定什么 AI 产品战略了 [47:00 Claire Vo]。这一切的根本动力,来自于 Eddie 第一次自己动手搭建 OpenClaw 个人智能体的经历——正是那段艰难但震撼的实操体验,让他真切感受到了个人智能体的潜力与痛点,进而孵化出了 Co-Founder [47:55 Eddie Kim]。\n\n> 【背景】OpenClaw/OpenClaw 可能是对开源个人智能体项目 OpenHands 或类似产品的音译误转。Eddie 提到购买 Mac mini 且极难买到的细节,符合在本地部署大模型或智能体框架的典型特征。",
+  "title_zh": "Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品",
+  "tldr": "大公司 CTO 用无文档、无会议、无 PM 的极简流程带 5 人团队开发新 AI 产品。",
+  "digest_md": "本集嘉宾是 Eddie Kim,Gusto 的 CTO 兼联合创始人。他在这家公司带领着上千人的研发团队,但他这次来分享的,是一个完全跳出常规管理框架的故事:他如何凭着一次航班延误时的直觉编程(指完全凭借人的直觉和感觉引导 AI 写代码,而不做细致规划),带着 4 个工程师和 1 个设计师,在短短 10 周内从零打造出了一条全新的 AI 产品线。整个对话将围绕这条主线展开:先看这套反常规的工作法(无文档、无会议、永久 Zoom),再听他们砍掉了哪些繁文缛节,接着剖析背后的极简技术栈,最后探讨这种模式对大团队和领导者的启发。\n\n### 灵感与起点:航班延误催生的原型\n\n故事始于二月份的一次度假返程。Eddie 从马德里飞回旧金山时,在伦敦转机航班延误,意外获得了一段长达五小时的机场停留时间 [05:32 Eddie Kim]。他当时正在把玩 Cloud Code,于是掏出电脑,试图把脑海里酝酿已久的一个产品想法具象化。等他落地旧金山时,这个最终演变为 Gusto Co-Founder(联合创始人版,一款 AI 智能体助手)的产品原型已经初步成型 [06:31 Eddie Kim]。\n\n拿着这个原型,他找到了几位经常交流的资深工程师和设计师 Katie,简单碰头后,他们决定在一个名为 Anchor Week 的季度内部聚会(在丹佛办公室)上,用一块白板把产品形态画出来 [09:33 Eddie Kim]。有意思的是,如今上线的 Co-Founder 产品的核心概念,竟然与当时白板上的潦草涂鸦惊人地一致——包括任务、任务运行产生的图表和文档资产,以及聊天和建议任务等功能 [12:22 Eddie Kim]。\n\n> 【背景】Gusto 是一家主打薪资发放和人力资源服务的知名科技公司。在本集提到的 Co-Founder 是他们新推出的 AI 助手产品。\n\n### 颠覆常规:无文档、无会议,只留一个 24 小时 Zoom\n\n白板画完后,真正的开发过程更是颠覆了传统大公司的做法。Eddie 团队最大的特点是由「他们没做的事」来定义的:没有会议、没有技术规格文档、没有 Figma 设计稿、没有用来追踪进度的 Jira 看板,甚至连每日站会和复盘会都没有 [10:10 Eddie Kim]。整个 10 周期间,他们产出的唯一文档就是那张白板的照片。\n\n他们唯一保留的协作机制,是一个 24 小时全天候开着的永久 Zoom(一个随时保持开启的 Zoom 视频会议室) [10:27 Eddie Kim]。大家远程办公,谁有需要就进去找人,或者干脆在里面待一天安静写代码。由于没有项目经理的角色,团队五个人人人都是 PM。他们的决策方式极其干脆:写完一个功能,丢到永久 Zoom 里讨论,有意义就当场代码审查并合并,没意义就直接删掉 [13:27 Eddie Kim]。\n\n这种做法的底层逻辑是:写代码的成本已经低到可以忽略不计。主持人 Claire Vo 将其称为「垃圾桶法」——如果你觉得一段功能代码写得不对,甚至不用费劲去修补,直接全删掉、另起一个 V2 分支从头再来,在商业成本上也完全划得来 [14:50 Claire Vo]。Eddie 分享了一个真实案例:他最初在机场写出的原型其实是他的心血,但当工程师建议用 TypeScript 重写时,他虽然不舍,还是同意删掉自己的代码从头开始,事后证明这是最正确的决定 [15:43 Eddie Kim]。\n\n### 极简技术栈与就地雕刻法\n\n对于如何构建智能体产品,许多人觉得高深莫测,但 Eddie 团队的技术栈简单得令人咋舌:他们只用 Cloudflare Worker(一种在云端运行的轻量级代码执行环境)来跑实际的智能体循环,再加上 Vercel AI SDK(一套帮助快速搭建 AI 应用的工具包),仅此而已 [17:44 Eddie Kim]。Eddie 强调,以前大家觉得做 AI 需要复杂的记忆或规划框架,但对他们来说,所谓「记忆」不过就是一个往数据库里写数据的简单工具。复杂的脚手架已经不再需要了 [18:15 Eddie Kim]。\n\n> 【背景】主持人 Claire Vo 提到 Anthropic 的 Claude Code(一款强大的命令行 AI 编程助手),并分享了她个人的提示词策略:当 AI 跑偏时,比起生硬命令,礼貌且留有余地的提示词能鼓励 AI 提出更好的反驳建议 [50:04 Eddie Kim]。\n\n在具体的产品打磨上,他们采用了一种「就地雕刻」的开发模式。设计师 Katie 会先用纯前端代码搭一个带有假数据的界面,并直接发布到真实的线上环境中(隐藏在功能开关后) [20:12 Eddie Kim]。随后,工程师在后台并行构建真实的数据模型和智能体循环。随着代码推进,原本写死的假数据会被逐渐替换成真实的业务响应。就像雕刻家对着一块大理石一点点凿出艺术品,他们是在线上的真实环境里,把一个粗糙的演示原型一点点「唤醒」成成熟的产品。\n\n这种对生产环境的极度拥抱,带来了一种奇特的「设计师变开发者」现象。设计师 Katie 在这种模式下爆发出惊人的战斗力。据 Eddie 透露,在使用 DX(一款工程效率分析工具)统计的全公司代码合并吞吐量中,Katie 位居第 94 百分位——这意味着她超越了公司绝大多数受过专业训练的工程师 [22:45 Eddie Kim]。她的秘诀在于对技术的好奇心,以及一个极度包容的工程师团队:工程师们愿意花时间与她结对编程、审查她的代码,而不是抱怨「非技术人员写代码拖慢了进度」。团队甚至将非工程人员的 PR(拉取请求,提交代码修改的申请)审查时间中位数硬生生控制在了 9 分钟 [26:05 Eddie Kim]。\n\n### 从 Demo 到落地:真实业务的打通\n\n说完了开发模式,接下来看看他们到底做出了什么。在直播演示中,Eddie 展示了 Co-Founder 与传统 Gusto 软件(被戏称为 Gusto 经典版)的联动。它不仅拥有接入 Gusto 底层数据的智能体,更重要的是,它支持通过 SMS 短信或 Slack 直接与用户对话 [30:30 Eddie Kim]。这对于随时奔波在手机端的小企业主来说极具实用性。\n\n一个真实的客户案例是一家纽约的按摩水疗中心。老板每周需要从排班软件 MindBody 导出数据,手动在表格里计算每位按摩师 60 分钟与 90 分钟按摩的单量、热石疗法或 CBD 油的提成,还要把集中起来的小费拆算给每个人,最后再人工把这些结果录入 Gusto 发工资 [32:26 Eddie Kim]。Eddie 在 Co-Founder 中通过连接器接入了表格,只需用自然语言告诉 AI 提成规则(比如「每推销一次热石加 15 美元」),AI 就会自动拉取数据、完成计算、更新系统,并在最后一步征询确认后提交 payroll(薪资发放) [34:00 Eddie Kim]。这把繁琐的「前置工作」彻底自动化了。\n\n> 【背景】Eddie 提到他在做 Co-Founder 之前,曾受到 OpenClaw 的启发(这是一款需要自行部署本地硬件的开源个人智能体)。他发现这玩意儿虽然理念震撼,但购买硬件、自行配置的门槛极高。正是这种切身体验,促使他把 Co-Founder 做成全云端运行,并把短信变成了第一交互入口 [47:49 Eddie Kim]。\n\n### 领导者的觉悟:撸起袖子下场写生产代码\n\n模式跑通了,但这对于 Gusto 这样上千人的大团队意味着什么?Eddie 坦言,这种「无法无天」的做法之所以能成,很大程度上是因为他联合创始人的特殊身份——他有特权打破公司定下的规章制度。如果是普通团队敢跳过文档和设计稿,早就被警告了 [41:30 Eddie Kim]。因此,要在全公司推广,领导者不能仅仅口头授权,必须下达极其明确的指令:不仅允许大家用这种方式,甚至要明令禁止他们产出文档或 Figma。\n\nClaire 对此深表赞同,并提到了一个极端的管理实验:要求工程师删掉本地的 IDE(代码编辑器),或者规定工程师不许碰 AI 生成的代码,只能通过修改输入提示词来调整结果 [42:37 Claire Vo]。\n\n最后,对于高管和领导者,Eddie 给出了最核心的建议:不要只停留在拿 AI 做原型来给团队提需求的阶段,必须亲自下场,去合并真正经过审查的生产级代码。Eddie 自己在过去三个月里,一直保持在全公司工程产出排名的第 95 百分位。他要通过亲身走完开发的全流程,来证明自己不是在站着说话不腰疼 [46:20 Eddie Kim]。\n\nClaire 补充道,这是对所有高管的硬技能大考:在这个时代,如果不把所有时间花在亲自使用和构建 AI 产品上,就无法真正理解它的能力边界,所谓的「AI 产品战略」只能是纸上谈兵 [47:00 Claire Vo]。\n\n## 本集带走\n1. **代码成本归零重塑流程**:当写代码的成本降到极低时,传统的文档和排期管理可以被「垃圾桶法」取代(直接全删重写)。用 24 小时 Zoom 替代各种会议,让代码本身成为讨论的载体。\n2. **拥抱非工程人员的代码**:给非技术人员(如设计师)提供耐心审查其代码的工程文化,能释放出惊人的生产力,他们的产出效率甚至可能超过大部分职业工程师。\n3. **高管必须下场:沉浸式下场**。领导者不能只拿 AI 写 Demo,必须去亲自维护生产级代码。只有亲历从原型到上线的全部痛苦,才能制定出贴合现实的 AI 产品策略。",
   "quotes": [
     {
-      "en": "We had no meetings, we had no tech specs, we had no figmas, we had no JIRA board where we tracked stories or tracked work.",
-      "zh": "我们没有会议,没有技术规格,没有 Figma,也没有用来追踪故事或追踪工作的 JIRA 看板。",
-      "timestamp": "00:00",
+      "en": "just zeroed everything out we had no meetings we had no tech specs we had no figmas. we had no JIRA board where we track stories or tracked work. We had no stand-ups, no retros.",
+      "zh": "我们把一切都归零了。我们没有会议,没有技术规格,没有 Figma。我们没有用来追踪故事或工作的 Jira 看板。我们没有站会,没有回顾会。",
+      "timestamp": "10:08",
       "speaker": "Eddie Kim"
     },
     {
-      "en": "And that whiteboard, which I took a photo of, was like literally the only documentation that we ever produced in this whole 10-week process.",
-      "zh": "而那个白板,我拍了一张照片,确实是我们在整个 10 周过程中产生的唯一文档。",
-      "timestamp": "11:03",
+      "en": "I think you actually have to go to these teams and say, we want you to work in this way, where you don't do any docs, no figmas, no tech specs.",
+      "zh": "我认为你必须去这些团队并说,我们希望你们以这种方式工作,你们不做任何文档,不做 Figma,不做技术规格。",
+      "timestamp": "41:53",
       "speaker": "Eddie Kim"
-    },
-    {
-      "en": "on average is your engineering teams PRS getting faster review than their non-engineering teams PRS and like across the board people are like yeah of course they are like that is an anti-pattern you need to prioritize reviewing these non-engineering PRS just as high as you do your engineering ones",
-      "zh": "平均而言,你们工程团队的 PR 是否比非工程团队的 PR 得到更快的审查?全面的人都说是的,当然是。这是一个反模式,你需要优先审查这些非工程 PR,就像审查你们的工程 PR 一样高。",
-      "timestamp": "25:24",
-      "speaker": "Claire Vo"
-    },
-    {
-      "en": "you can be a lot more ambitious and you can afford a lot more risk in your product development process.",
-      "zh": "在产品开发过程中,你可以有大得多的野心,也能承受大得多的风险。",
-      "timestamp": "36:02",
-      "speaker": "Claire Vo"
-    },
-    {
-      "en": "it's time for the hard skill to show up again, not leadership, inspiration, alignment.",
-      "zh": "是时候让硬技能再次现身了,而不是领导力、感召力、对齐。",
-      "timestamp": "47:03",
-      "speaker": "Claire Vo"
-    },
-    {
-      "en": "It's very hard to build great AI products if you are not spending all your time using AI products right now.",
-      "zh": "如果你现在没有把你所有的时间都用来使用 AI 产品,就很难构建出优秀的 AI 产品。",
-      "timestamp": "47:24",
-      "speaker": "Claire Vo"
-    },
-    {
-      "en": "I find that AI is so deferential and it just kind of like defaults to doing what you want to do but I actually want mind to challenge me",
-      "zh": "我发现 AI 是如此顺从,它只是默认做你想做的事,但我实际上想要它挑战我。",
-      "timestamp": "50:04",
-      "speaker": "Eddie Kim"
-    }
-  ],
-  "quotes_candidates": [
-    {
-      "en": "We had no meetings, we had no tech specs, we had no figmas, we had no JIRA board where we tracked stories or tracked work.",
-      "zh": "我们没有会议,没有技术规格,没有 Figma,也没有用来追踪故事或追踪工作的 JIRA 看板。",
-      "timestamp": "10:10",
-      "speaker": "Eddie Kim"
-    },
-    {
-      "en": "The only thing we decided to keep was a 24-7 perma-zoom, which is basically a Zoom room that we just keep because everybody's remote in this particular group.",
-      "zh": "我们唯一决定保留的是一个 24-7 永久 Zoom,这基本上就是一个我们一直开着的 Zoom 房间,因为在这个特定的小组里每个人都是远程的。",
-      "timestamp": "10:27",
-      "speaker": "Eddie Kim"
-    },
-    {
-      "en": "And that whiteboard, which I took a photo of, was like literally the only documentation that we ever produced in this whole 10-week process.",
-      "zh": "而那个白板,我拍了一张照片,确实是我们在整个 10 周过程中产生的唯一文档。",
-      "timestamp": "11:05",
-      "speaker": "Eddie Kim"
-    },
-    {
-      "en": "We discuss if that's the thing that we want to have, a functionality that we want to have. and we're okay with deleting that pull request if if the answer is no",
-      "zh": "我们会讨论那是否是我们想要拥有的东西,想要拥有的功能。如果答案是否定的,我们也没问题直接删除那个拉取请求。",
-      "timestamp": "14:10",
-      "speaker": "Eddie Kim"
-    },
-    {
-      "en": "Like the cost to write code is now so low that you can actually build products in this way.",
-      "zh": "就像现在写代码的成本是如此之低,以至于你实际上可以用这种方式构建产品。",
-      "timestamp": "14:38",
-      "speaker": "Eddie Kim"
-    },
-    {
-      "en": "I call this the trashcan method of software engineering right now, where you can actually trash all the code, start like a slash V2 branch and rebuild it from scratch.",
-      "zh": "我现在称之为软件工程的垃圾桶法,在那里你实际上可以丢弃所有代码,就像开始一个 slash V2 分支并从头开始重建它。",
-      "timestamp": "14:50",
-      "speaker": "Claire Vo"
-    },
-    {
-      "en": "In hindsight, that was absolutely the best decision.",
-      "zh": "事后看来,那绝对是最好的决定。",
-      "timestamp": "16:32",
-      "speaker": "Eddie Kim"
-    },
-    {
-      "en": "our stack is surprisingly simple we build on we use cloudflare worker for the actual agent loop and versell ai sdk that's it",
-      "zh": "我们的技术栈惊人地简单,我们构建在 Cloudflare Worker 之上用于实际的智能体循环,还有 Vercel AI SDK,就这样。",
-      "timestamp": "17:38",
-      "speaker": "Eddie Kim"
-    },
-    {
-      "en": "memory to us is a tool that writes to a database column called memory. And that simple, right?",
-      "zh": "对我们来说,记忆只是一个写入名为 memory 的数据库列的工具。就这么简单,对吧?",
-      "timestamp": "18:09",
-      "speaker": "Eddie Kim"
-    },
-    {
-      "en": "Literally, it's an agent SDK running somewhere in the cloud.",
-      "zh": "实际上,它就是一个运行在云端某处的智能体 SDK。",
-      "timestamp": "18:43",
-      "speaker": "Claire Vo"
-    },
-    {
-      "en": "she is in the 94th percentile of true throughput, which is a measure of like how many PRs you're landing into production.",
-      "zh": "她在真实吞吐量的第 94 个百分位,这是一个衡量你有多少 PR 进入生产环境的指标。",
-      "timestamp": "22:45",
-      "speaker": "Eddie Kim"
-    },
-    {
-      "en": "on average is your engineering teams PRS getting faster review than their non-engineering teams PRS and like across the board people are like yeah of course they are like that is an anti-pattern you need to prioritize reviewing these non-engineering PRS just as high as you do your engineering ones",
-      "zh": "平均而言,你们工程团队的 PR 是否比非工程团队的 PR 得到更快的审查?全面的人都说是的,当然是。这是一个反模式,你需要优先审查这些非工程 PR,就像审查你们的工程 PR 一样高。",
-      "timestamp": "25:24",
-      "speaker": "Claire Vo"
-    },
-    {
-      "en": "I think our median PR review time was nine minutes.",
-      "zh": "我认为我们的中位数 PR 审查时间是九分钟。",
-      "timestamp": "26:05",
-      "speaker": "Eddie Kim"
-    },
-    {
-      "en": "it's all this like what I call the work before the work that a business that is not using AI has to do to run the payroll every single week.",
-      "zh": "所有这些就像我称之为前置工作的东西,是一家没有使用 AI 的企业必须做的才能每周运行薪资。",
-      "timestamp": "33:29",
-      "speaker": "Eddie Kim"
-    },
-    {
-      "en": "you can be a lot more ambitious and you can afford a lot more risk in your product development process.",
-      "zh": "在产品开发过程中,你可以有大得多的野心,也能承受大得多的风险。",
-      "timestamp": "36:02",
-      "speaker": "Claire Vo"
     },
     {
       "en": "if you actually produce a doc or figma like you will get a slap on the wrist because we explicitly don't want you to do that",
-      "zh": "如果你真的写了文档或做了 Figma,你会受到警告,因为我们明确不希望你们那么做。",
+      "zh": "如果你真的写了文档或做了 Figma,你会受到警告,因为我们明确不希望你们做那个",
       "timestamp": "42:15",
       "speaker": "Eddie Kim"
     },
     {
-      "en": "I think my advice to leaders is like actually get hands on in building like production code",
-      "zh": "我认为我给领导者的建议是实际上动手去构建像生产代码那样的东西。",
-      "timestamp": "45:35",
+      "en": "I think it's very hard to build great AI products if you are not spending all your time using AI products right now.",
+      "zh": "我认为如果你现在没有把所有时间都用来使用 AI 产品,就很难构建出优秀的 AI 产品。",
+      "timestamp": "47:24",
+      "speaker": "Claire Vo"
+    },
+    {
+      "en": "even that's not a big investment across a company of a thousand in R&D. You're going to have like two or three of those, I think, meaningfully change the trajectory of the business.",
+      "zh": "即便这样,对于一家拥有上千名研发人员的公司来说,这也不是一笔大投资。我认为,只要有两三个这样的项目,就能有意义地改变企业的轨迹。",
+      "timestamp": "36:17",
       "speaker": "Eddie Kim"
     },
     {
-      "en": "it's time for the hard skill to show up again, not leadership, inspiration, alignment.",
+      "en": "on average is your engineering teams PRS getting faster review than their non-engineering teams PRS and like across the board people are like yeah of course they are like that is an anti-pattern you need to prioritize reviewing these non-engineering PRS just as high as you do your engineering ones",
+      "zh": "平均而言,你们工程团队的 PR 是否比非工程团队的 PR 得到更快的审查?全面的人们都说是的,当然是。这是一个反模式,你需要优先审查这些非工程的 PR,就像你审查工程 PR 一样高",
+      "timestamp": "25:24",
+      "speaker": "Claire Vo"
+    },
+    {
+      "en": "you don't touch the outputs of agent code. You only get to touch the inputs. You only get to reprompt. You don't get to rewrite the code.",
+      "zh": "你不要碰 agent 代码的输出。你只能碰输入。你只能重新提示。你不能重写代码。",
+      "timestamp": "42:56",
+      "speaker": "Claire Vo"
+    },
+    {
+      "en": "And that's actually a very interesting model where maybe docs exist, but they're for the agents, not for the humans.",
+      "zh": "这其实是一个很有趣的模型,也许文档是存在的,但它们是给智能体的,不是给人类的。",
+      "timestamp": "44:15",
+      "speaker": "Claire Vo"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "we just zeroed everything out we had no meetings we had no tech specs we had no figmas. we had no JIRA board where we track stories or tracked work. We had no stand-ups, no retros.",
+      "zh": "我们把一切都归零了。我们没有会议,没有技术规格,没有 Figma。我们没有用来追踪故事或工作的 Jira 看板。我们没有站会,没有回顾会。",
+      "timestamp": "10:04",
+      "speaker": "Eddie Kim"
+    },
+    {
+      "en": "It's really just, you know, memory to us is a tool that writes to a database column called memory.",
+      "zh": "你知道,对我们来说,记忆只是一个写入名为 memory 的数据库列的工具。",
+      "timestamp": "18:09",
+      "speaker": "Eddie Kim"
+    },
+    {
+      "en": "She, across our entire R&D org, she is in the 94th percentile of true throughput, which is a measure of like how many PRs you're landing into production.",
+      "zh": "在整个研发组织中,她在真实吞吐量方面排在第 94 百分位,这是衡量你有多少 PR 进入生产环境的指标。",
+      "timestamp": "22:45",
+      "speaker": "Eddie Kim"
+    },
+    {
+      "en": "Like the cost to write code is now so low that you can actually build products in this way.",
+      "zh": "现在写代码的成本如此之低,以至于你实际上可以用这种方式构建产品。",
+      "timestamp": "14:38",
+      "speaker": "Eddie Kim"
+    },
+    {
+      "en": "we actually just had a hidden page in our web app and we would land stuff into that hidden page it would be on production and then we would sort of like chip away at it",
+      "zh": "我们在网络应用中基本上有一个隐藏页面,我们会把东西放进那个隐藏页面,它会在生产环境中,然后我们会有点像削减它",
+      "timestamp": "19:44",
+      "speaker": "Eddie Kim"
+    },
+    {
+      "en": "I think you actually have to go to these teams and say, we want you to work in this way, where you don't do any docs, no figmas, no tech specs.",
+      "zh": "我认为你必须去这些团队并说,我们希望你们以这种方式工作,你们不做任何文档,不做 Figma,不做技术规格。",
+      "timestamp": "41:53",
+      "speaker": "Eddie Kim"
+    },
+    {
+      "en": "if you actually produce a doc or figma like you will get a slap on the wrist because we explicitly don't want you to do that",
+      "zh": "如果你真的写了文档或做了 Figma,你会受到警告,因为我们明确不希望你们做那个",
+      "timestamp": "42:15",
+      "speaker": "Eddie Kim"
+    },
+    {
+      "en": "I kind of took it to an extreme where I like went into almost icy mode for the past 10 weeks and I was like literally building I'm like 95th percentile on DDX for the past three months",
+      "zh": "我有点把它推向了极端,我就像在过去 10 周进入了几乎 IC 的模式,我实际上在构建,在过去三个月里我处于 DX 统计的第 95 百分位",
+      "timestamp": "46:30",
+      "speaker": "Eddie Kim"
+    },
+    {
+      "en": "it is time for the hard skill to show up again, not leadership, inspiration, alignment.",
       "zh": "是时候让硬技能再次现身了,而不是领导力、感召力、对齐。",
       "timestamp": "47:03",
       "speaker": "Claire Vo"
     },
     {
-      "en": "It's very hard to build great AI products if you are not spending all your time using AI products right now.",
-      "zh": "如果你现在没有把你所有的时间都用来使用 AI 产品,就很难构建出优秀的 AI 产品。",
+      "en": "I think it's very hard to build great AI products if you are not spending all your time using AI products right now.",
+      "zh": "我认为如果你现在没有把所有时间都用来使用 AI 产品,就很难构建出优秀的 AI 产品。",
       "timestamp": "47:24",
       "speaker": "Claire Vo"
     },
     {
-      "en": "I find that AI is so deferential and it just kind of like defaults to doing what you want to do but I actually want mind to challenge me",
-      "zh": "我发现 AI 是如此顺从,它只是默认做你想做的事,但我实际上想要它挑战我。",
-      "timestamp": "50:04",
+      "en": "And it's totally reasonable to do because the cost of the code is so low.",
+      "zh": "这样做是完全合理的,因为代码的成本非常低。",
+      "timestamp": "01:06",
+      "speaker": "Claire Vo"
+    },
+    {
+      "en": "where you can actually trash all the code, start like a slash V2 branch and rebuild it from scratch.",
+      "zh": "在那里你实际上可以把所有代码丢弃,就像开始一个 slash V2 分支并从头重建它。",
+      "timestamp": "01:00",
+      "speaker": "Claire Vo"
+    },
+    {
+      "en": "Literally, it's an agent SDK running somewhere in the cloud.",
+      "zh": "实际上,它就是一个在云端某处运行的智能体 SDK。",
+      "timestamp": "00:14",
+      "speaker": "Claire Vo"
+    },
+    {
+      "en": "even that's not a big investment across a company of a thousand in R&D. You're going to have like two or three of those, I think, meaningfully change the trajectory of the business.",
+      "zh": "即便这样,对于一家拥有上千名研发人员的公司来说,这也不是一笔大投资。我认为,只要有两三个这样的项目,就能有意义地改变企业的轨迹。",
+      "timestamp": "36:17",
       "speaker": "Eddie Kim"
+    },
+    {
+      "en": "I think my advice to leaders is like actually get hands on in building like production code don't just",
+      "zh": "我认为我给领导者的建议是,实际上要亲自动手构建生产级代码,不要只是",
+      "timestamp": "45:35",
+      "speaker": "Eddie Kim"
+    },
+    {
+      "en": "on average is your engineering teams PRS getting faster review than their non-engineering teams PRS and like across the board people are like yeah of course they are like that is an anti-pattern you need to prioritize reviewing these non-engineering PRS just as high as you do your engineering ones",
+      "zh": "平均而言,你们工程团队的 PR 是否比非工程团队的 PR 得到更快的审查?全面的人们都说是的,当然是。这是一个反模式,你需要优先审查这些非工程的 PR,就像你审查工程 PR 一样高",
+      "timestamp": "25:24",
+      "speaker": "Claire Vo"
+    },
+    {
+      "en": "like literally breathe life into this thing over time and that's kind of how we how we built this",
+      "zh": "随着时间的推移,我们会真正赋予这个东西生命,这就是我们如何构建它的方式",
+      "timestamp": "21:16",
+      "speaker": "Eddie Kim"
+    },
+    {
+      "en": "you don't touch the outputs of agent code. You only get to touch the inputs. You only get to reprompt. You don't get to rewrite the code.",
+      "zh": "你不要碰 agent 代码的输出。你只能碰输入。你只能重新提示。你不能重写代码。",
+      "timestamp": "42:58",
+      "speaker": "Claire Vo"
+    },
+    {
+      "en": "And that's actually a very interesting model where maybe docs exist, but they're for the agents, not for the humans.",
+      "zh": "这其实是一个很有趣的模型,也许文档是存在的,但它们是给智能体的,不是给人类的。",
+      "timestamp": "44:15",
+      "speaker": "Claire Vo"
+    },
+    {
+      "en": "And I will never be reading them",
+      "zh": "我永远不会去读它们",
+      "timestamp": "44:13",
+      "speaker": "Claire Vo"
     }
   ]
 }

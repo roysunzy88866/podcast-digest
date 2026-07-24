@@ -5,9 +5,9 @@
   "tags": [
     "社交产品",
     "护城河",
-    "组织与创新文化",
-    "AR 硬件",
-    "AI 工作流改造"
+    "硬件",
+    "设计文化",
+    "AI 工作流"
   ],
   "entities": [
     {
@@ -93,7 +93,7 @@
       "name": "Snap",
       "file": "Snap",
       "primary": true,
-      "how_described": "本集受访嘉宾 Evan Spiegel 创办的公司；拥有近十亿月活，并在过去 15 年里发明了 Stories、滑动导航、AR 眼镜等大量被行业广泛模仿的功能。本集讨论了其护城河逻辑、持续创新的组织文化、以及在 AI 和硬件上的战略投资。",
+      "how_described": "本集讨论的核心公司。旗下 Snapchat 拥有十亿月活、年营收超 60 亿美元；本集讲述它 15 年来的创新史、面临的护城河挑战、在硬件上的持续押注，以及称之为「严峻考验时刻」的当下转折点。",
       "source": "glm",
       "evidence": [
         {
@@ -393,7 +393,7 @@
       "name": "Snapchat",
       "file": "Snapchat",
       "primary": true,
-      "how_described": "本集主要讨论的社交应用。它靠连接最亲密的朋友而非所有人来实现分发增长；主打阅后即焚，并通过巧妙监听触摸事件实现了截图检测机制。目前拥有超过 10 亿月活、年收入超 60 亿美元。",
+      "how_described": "15 年前发布的持久消费者社交应用，本集说它当初的崛起靠的是连接用户「最在乎的少数人」(亲密关系),而非像传统社交网络那样追求把所有人连起来。",
       "source": "glm",
       "evidence": [
         {
@@ -633,955 +633,13 @@
       ]
     },
     {
-      "id": "tiktok",
-      "type": "company",
-      "role": "company",
-      "name": "TikTok",
-      "file": "TikTok",
-      "primary": true,
-      "how_described": "本集提到它更像媒体平台而非纯社交产品。Evan 指出它在破局分发难题时，采用了极具创新性的策略：花数十亿美元同时补贴观众（花钱请人看）和创作者（花钱请人做）来引导冷启动生态。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 35,
-          "t": [
-            170.366,
-            178.73
-          ],
-          "quote": "And just to give people this context, I don't think people realize this, but since you launched 15 years ago, there's basically TikTok, which is not really social.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 45,
-          "t": [
-            201.12,
-            210.584
-          ],
-          "quote": "Well, I think it's really interesting in terms of the examples that you just shared of TikTok and threads, because you just shared two examples of people who figured out distribution.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 55,
-          "t": [
-            242.837,
-            249
-          ],
-          "quote": "And both TikTok and Threads figured out distribution, which is why I think there are more recent examples of success.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 56,
-          "t": [
-            249.1,
-            252.342
-          ],
-          "quote": "TikTok did it with money, which I actually thought was really innovative.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "threads",
-      "type": "company",
-      "role": "company",
-      "name": "Threads",
-      "file": "Threads",
-      "primary": true,
-      "how_described": "主持人指出这是一个 15 年来少有存活下来并做大做强的社交应用，但 Evan 和主持人一致认为它「算作弊」，因为它是直接寄生在 Meta（Instagram）庞大的存量分发能力之上才解决获客难题的。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 37,
-          "t": [
-            181.271,
-            185.173
-          ],
-          "quote": "And then maybe threads, which I think is cheating because it just sits on top of Instagram.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 45,
-          "t": [
-            201.12,
-            210.584
-          ],
-          "quote": "Well, I think it's really interesting in terms of the examples that you just shared of TikTok and threads, because you just shared two examples of people who figured out distribution.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 55,
-          "t": [
-            242.837,
-            249
-          ],
-          "quote": "And both TikTok and Threads figured out distribution, which is why I think there are more recent examples of success.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 59,
-          "t": [
-            265.368,
-            271.531
-          ],
-          "quote": "And I think with Threads, obviously, they were able to leverage the amazing distribution that Meta has across all of their other products.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "meta",
-      "type": "company",
-      "role": "company",
-      "name": "Meta",
-      "file": "Meta",
-      "primary": true,
-      "how_described": "本集多次提及的巨头公司，被指为 Snap 的最大抄袭者（照搬了 Stories 甚至照搬了 Snapchat+ 的名字和订阅模式），同时也是利用 Instagram 存量网络为 Threads 输送分发的靠山。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 59,
-          "t": [
-            265.368,
-            271.531
-          ],
-          "quote": "And I think with Threads, obviously, they were able to leverage the amazing distribution that Meta has across all of their other products.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 111,
-          "t": [
-            541.872,
-            544.713
-          ],
-          "quote": "You guys launched spectacles before Meta got into this stuff.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 120,
-          "t": [
-            571.096,
-            574.96
-          ],
-          "quote": "So was I think probably enough to get Meta's attention that it's a good time to copy.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 577,
-          "t": [
-            3390.281,
-            3404.727
-          ],
-          "quote": "I think one of the things that's so funny about our service is that while we're very, very large in terms of the scale of our audience, in terms of the scale of our business, we're much larger than a Pinterest or Reddit, for example, we're also way smaller than Meta and Google.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "apple",
-      "type": "company",
-      "role": "company",
-      "name": "Apple",
-      "file": "Apple",
-      "primary": true,
-      "how_described": "",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 321,
-          "t": [
-            1820.1,
-            1829.685
-          ],
-          "quote": "So even though Apple didn't provide an API at the time to let you know that a screenshot had been taken, there was a way for us to essentially detect this touch event to learn that a screenshot had happened.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 694,
-          "t": [
-            3978.7,
-            3983.522
-          ],
-          "quote": "Well, you know what I just finished was The First 50 Years of Apple by David Pogue.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 696,
-          "t": [
-            3984.563,
-            3993.506
-          ],
-          "quote": "I would recommend the first half because he interviews like 150 early Apple team members and the stories are just great and there's a lot of learnings in there.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 766,
-          "t": [
-            4203.267,
-            4209.001
-          ],
-          "quote": "If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "anthropic",
-      "type": "company",
-      "role": "company",
-      "name": "Anthropic",
-      "file": "Anthropic",
-      "primary": false,
-      "how_described": "AI 公司；本集在提及前员工 Jenny Wen 的职业履历，以及广告赞助商读播环节时被顺带提及。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 96,
-          "t": [
-            455.103,
-            462.568
-          ],
-          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 457,
-          "t": [
-            2665.286,
-            2668.489
-          ],
-          "quote": "And then she came to Anthropic and moved to just IC design again.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "figma",
-      "type": "company",
-      "role": "company",
-      "name": "Figma",
-      "file": "Figma",
-      "primary": false,
-      "how_described": "设计工具公司；本集在介绍前嘉宾 Jenny Wen 的职业履历背景时作为她曾担任总监的公司被顺带提及。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 456,
-          "t": [
-            2660.102,
-            2664.726
-          ],
-          "quote": "She was head of design for Claude and Cowork and she was like a director at Figma.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "claude",
-      "type": "company",
-      "role": "company",
-      "name": "Claude",
-      "file": "Claude",
-      "primary": true,
-      "how_described": "Evan 提到 Snap 在跨公司打通和改造工作流时大量使用了 Claude（智能体），来端到端自动处理编写规格、找审批人、做法务风险分析等工作流。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 456,
-          "t": [
-            2660.102,
-            2664.726
-          ],
-          "quote": "She was head of design for Claude and Cowork and she was like a director at Figma.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 663,
-          "t": [
-            3836.04,
-            3841.418
-          ],
-          "quote": "We've been using Claude to do a lot of the work across Snap.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "glean",
-      "type": "company",
-      "role": "company",
-      "name": "Glean",
-      "file": "Glean",
-      "primary": true,
-      "how_described": "Evan 提到这是一个企业内部数据搜索整合工具。他用它接入了公司所有的仪表盘、文档和数据，并自己搭了一个智能体每天替他梳理全公司热点和盲区，以扁平、高速的方式领导公司。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 638,
-          "t": [
-            3695.245,
-            3699.948
-          ],
-          "quote": "And so we have Glean that integrates all this data for me.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 647,
-          "t": [
-            3752.824,
-            3754.814
-          ],
-          "quote": "And that agent was, you built it in Glean.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 650,
-          "t": [
-            3756.882,
-            3759.948
-          ],
-          "quote": "I mean, that I've done in Glean, which is great.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 651,
-          "t": [
-            3759.968,
-            3765.98
-          ],
-          "quote": "Obviously you can build all sorts of stuff in Cloud, but Glean for us is the most secure way to access all of our different documents and dashboards and things like that.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "workos",
-      "type": "company",
-      "role": "company",
-      "name": "WorkOS",
-      "file": "WorkOS",
-      "primary": false,
-      "how_described": "本集赞助商，被描述为专为 B2B SaaS 打造的开发者平台，能将大企业所需的单点登录、审计日志等功能转化为即插即用的 API。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 95,
-          "t": [
-            450.38,
-            454.543
-          ],
-          "quote": "This episode is brought to you by our season's presenting sponsor, WorkOS.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 97,
-          "t": [
-            462.988,
-            464.789
-          ],
-          "quote": "They are all powered by WorkOS.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 100,
-          "t": [
-            482.28,
-            489.924
-          ],
-          "quote": "Literally every startup that I'm an investor in that starts to expand upmarket ends up working with WorkOS, and that's because they are the best.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 101,
-          "t": [
-            490.284,
-            500.11
-          ],
-          "quote": "Whether you are a seat stage startup trying to land your first enterprise customer or a unicorn expanding globally, WorkOS is the fastest path to becoming enterprise ready and unblocking growth.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 103,
-          "t": [
-            503.311,
-            509.575
-          ],
-          "quote": "Visit workos.com to get started or just hit up their Slack where they have actual engineers waiting to answer your questions.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 105,
-          "t": [
-            516.438,
-            519.7
-          ],
-          "quote": "Go to workos.com to make your app enterprise ready today.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "vanta",
-      "type": "company",
-      "role": "company",
-      "name": "Vanta",
-      "file": "Vanta",
-      "primary": false,
-      "how_described": "本集赞助商，被描述为帮助 Cursor、Ramp、Duolingo 等公司快速实现并保持合规（如 SOC two、ISO 27001 等框架）的自动化风险管理平台。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 345,
-          "t": [
-            2013.22,
-            2017.322
-          ],
-          "quote": "I am so excited to tell you about this season's supporting sponsor Vanta.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 346,
-          "t": [
-            2017.662,
-            2027.207
-          ],
-          "quote": "Vanta helps over 15,000 companies like Cursor, Ramp, Duolingo, Snowflake, and Atlassian earn and prove trust with their customers.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 351,
-          "t": [
-            2054.42,
-            2063.847
-          ],
-          "quote": "Vanta automates compliance and risk management with over 35 security and privacy frameworks, including SOC two, ISO 27001, and HIPAA.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 354,
-          "t": [
-            2072.013,
-            2074.495
-          ],
-          "quote": "Learn more at vanta.com/lenny.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 355,
-          "t": [
-            2074.895,
-            2078.338
-          ],
-          "quote": "And as a listener of this podcast, you get $1,000 off Vanta.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 356,
-          "t": [
-            2078.698,
-            2080.92
-          ],
-          "quote": "That's vanta.com/lenny.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "reddit",
-      "type": "company",
-      "role": "company",
-      "name": "Reddit",
-      "file": "Reddit",
-      "primary": false,
-      "how_described": "嘉宾在形容 Snap 在市场上的处境时用作对比标尺的公司，他称 Snap 比 Pinterest 或 Reddit 大得多，但远不及 Meta 和 Google。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 577,
-          "t": [
-            3390.281,
-            3404.727
-          ],
-          "quote": "I think one of the things that's so funny about our service is that while we're very, very large in terms of the scale of our audience, in terms of the scale of our business, we're much larger than a Pinterest or Reddit, for example, we're also way smaller than Meta and Google.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "pinterest",
-      "type": "company",
-      "role": "company",
-      "name": "Pinterest",
-      "file": "Pinterest",
-      "primary": false,
-      "how_described": "嘉宾在形容 Snap 在市场上的处境时用作对比标尺的公司，他称 Snap 比 Pinterest 或 Reddit 大得多，但远不及 Meta 和 Google。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 577,
-          "t": [
-            3390.281,
-            3404.727
-          ],
-          "quote": "I think one of the things that's so funny about our service is that while we're very, very large in terms of the scale of our audience, in terms of the scale of our business, we're much larger than a Pinterest or Reddit, for example, we're also way smaller than Meta and Google.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "google",
-      "type": "company",
-      "role": "company",
-      "name": "Google",
-      "file": "Google",
-      "primary": false,
-      "how_described": "科技巨头；嘉宾在形容 Snap 在市场上的处境（比上不足比下有余）时作为庞然大物被提及。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 577,
-          "t": [
-            3390.281,
-            3404.727
-          ],
-          "quote": "I think one of the things that's so funny about our service is that while we're very, very large in terms of the scale of our audience, in terms of the scale of our business, we're much larger than a Pinterest or Reddit, for example, we're also way smaller than Meta and Google.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "uber",
-      "type": "company",
-      "role": "company",
-      "name": "Uber",
-      "file": "Uber",
-      "primary": false,
-      "how_described": "嘉宾在谈论新计算平台红利时作为案例提及，指出 Uber 和 Snapchat 一样吃到了当年移动时代（手机）红利才得以成长。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 88,
-          "t": [
-            407.766,
-            421.194
-          ],
-          "quote": "You think about a lot of the big consumer technology companies today, they were really born out of mobile, whether it's Uber, Snapchat, some of those early generation companies that really got distribution and built themselves on mobile.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "distribution",
-      "type": "concept",
-      "role": "concept",
-      "name": "分销 (distribution)",
-      "file": "分销",
-      "primary": true,
-      "how_described": "本集核心概念之一。嘉宾和主持人都认为，人们过度沉迷于做产品而没花足够时间思考分发；在 AI 逐渐接管代码和战略的漏斗后，分发正成为新计算平台前新的护城河和最大难题。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 3,
-          "t": [
-            12.05,
-            16
-          ],
-          "quote": "People don't spend nearly enough time thinking about distribution and figuring out distribution.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 45,
-          "t": [
-            201.12,
-            210.584
-          ],
-          "quote": "Well, I think it's really interesting in terms of the examples that you just shared of TikTok and threads, because you just shared two examples of people who figured out distribution.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 53,
-          "t": [
-            235.875,
-            239.476
-          ],
-          "quote": "It's a lot harder to get distribution for new ideas and new services.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 55,
-          "t": [
-            242.837,
-            249
-          ],
-          "quote": "And both TikTok and Threads figured out distribution, which is why I think there are more recent examples of success.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 59,
-          "t": [
-            265.368,
-            271.531
-          ],
-          "quote": "And I think with Threads, obviously, they were able to leverage the amazing distribution that Meta has across all of their other products.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 63,
-          "t": [
-            283.416,
-            288.239
-          ],
-          "quote": "And I think people don't spend nearly enough time thinking about distribution and figuring out distribution.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 65,
-          "t": [
-            291.2,
-            311
-          ],
-          "quote": "So as I reflect on the early days of building Snapchat, the thing that we figured out in terms of distribution, especially when it comes to social, was that back then people believed that there were network effects and social networks that meant that the more people you had using the service, the stickier that it is.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 70,
-          "t": [
-            343.576,
-            349.539
-          ],
-          "quote": "We had the benefit of the app store and mobile distribution, but we also had a different way of growing our service, which wasn't about having the most friends.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 73,
-          "t": [
-            352.66,
-            357.043
-          ],
-          "quote": "It's something that I've been thinking a lot about actually, this idea of distribution, because of AI.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 83,
-          "t": [
-            385.245,
-            393.436
-          ],
-          "quote": "And I feel like distribution is where it ends up being, what ends up being the new moat and the new biggest challenge because AI is not going to really help you there.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 88,
-          "t": [
-            407.766,
-            421.194
-          ],
-          "quote": "You think about a lot of the big consumer technology companies today, they were really born out of mobile, whether it's Uber, Snapchat, some of those early generation companies that really got distribution and built themselves on mobile.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 91,
-          "t": [
-            432.701,
-            434.303
-          ],
-          "quote": "Especially if they have distribution already.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 93,
-          "t": [
-            436.585,
-            443.453
-          ],
-          "quote": "It's going to be very hard to get distribution just like there's so much launching every day, so much to pay attention to.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "moat",
-      "type": "concept",
-      "role": "concept",
-      "name": "护城河 (moat)",
-      "file": "护城河",
-      "primary": true,
-      "how_described": "本集反复讨论的战略概念。嘉宾指出软件不是护城河，只靠网络效应也不够，必须叠加构建极难复制的创作者生态与垂直整合的硬件堆栈，才能建立真正的防御性业务。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 10,
-          "t": [
-            38.923,
-            44
-          ],
-          "quote": "15 years ago, we essentially learned that software is not a moat, which is something that everyone is discovering today with AI.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 83,
-          "t": [
-            385.245,
-            393.436
-          ],
-          "quote": "And I feel like distribution is where it ends up being, what ends up being the new moat and the new biggest challenge because AI is not going to really help you there.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 128,
-          "t": [
-            617.569,
-            631.575
-          ],
-          "quote": "And so I think one of the things, it's been an interesting time for me to reflect a lot on our strategy over the last 15 years, because 15 years ago, we essentially learned that software is not a moat, which is something that everyone is discovering today with AI.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 138,
-          "t": [
-            707.467,
-            709.629
-          ],
-          "quote": "You would think network effects would be the moat.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 139,
-          "t": [
-            709.789,
-            715.254
-          ],
-          "quote": "That's what everybody's always trying to get to because that's classically a great moat.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 140,
-          "t": [
-            715.995,
-            721.98
-          ],
-          "quote": "Are you saying that that's maybe not even as great a moat or that's just not enough and then you need something more like say hardware?",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "network-effects",
-      "type": "concept",
-      "role": "concept",
-      "name": "网络效应 (network effects)",
-      "file": "网络效应",
-      "primary": true,
-      "how_described": "传统认为社交网络靠它形成垄断（越多人用越有价值），但嘉宾认为它只是拼图里重要的一块，不足以抵抗软件克隆，必须要在其之上叠加生态和硬件才能形成有效护城河。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 65,
-          "t": [
-            291.2,
-            311
-          ],
-          "quote": "So as I reflect on the early days of building Snapchat, the thing that we figured out in terms of distribution, especially when it comes to social, was that back then people believed that there were network effects and social networks that meant that the more people you had using the service, the stickier that it is.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 138,
-          "t": [
-            707.467,
-            709.629
-          ],
-          "quote": "You would think network effects would be the moat.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 141,
-          "t": [
-            722.42,
-            732.206
-          ],
-          "quote": "I think network effects are certainly an important piece of the puzzle for sure, but I don't think they're enough when it comes to these sorts of software cloning.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 143,
-          "t": [
-            742.491,
-            757.76
-          ],
-          "quote": "And so I think in addition to network effects, it's really important to try to build businesses that are more defensible by truly building out a platform that can support relationships between creators, developers, and the community, because that in and of itself we found is incredibly difficult to copy.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "agent",
-      "type": "concept",
-      "role": "concept",
-      "name": "智能体 (agent)",
-      "file": "智能体",
-      "primary": true,
-      "how_described": "本集指用来执行闭环任务的 AI 程序。Snap 围绕用户旅程的具体任务（jobs to be done）构建了 go-to-market 智能体，能一次性自动跑完编写规格文档、风险分析、找审批人、写推广材料等完整工作流。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 639,
-          "t": [
-            3700.308,
-            3706.892
-          ],
-          "quote": "And I've built just an agent that will go and comb through everything that's happening in the company and let me know what's up, what I need to focus on, what I need to catch.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 647,
-          "t": [
-            3752.824,
-            3754.814
-          ],
-          "quote": "And that agent was, you built it in Glean.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 655,
-          "t": [
-            3775.56,
-            3782.264
-          ],
-          "quote": "I think one of the things that we're thinking a lot about is just taking the entire workflow and enabling it with an agent.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 656,
-          "t": [
-            3782.284,
-            3805.176
-          ],
-          "quote": "So for example, taking a product idea and with our go to-market agent, taking that product idea, writing the spec, identifying the relevant folks who need to be involved in sign-offs and understanding it, actually helping to do the risk analysis on the product from a legal, trust and safety perspective, writing the go to-market materials like the blog, et cetera.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 660,
-          "t": [
-            3824.632,
-            3832.059
-          ],
-          "quote": "So if we can define a job to be done clearly enough that we can build an agent to do it, that can really create a lot of lift.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 661,
-          "t": [
-            3833,
-            3834.591
-          ],
-          "quote": "Where do you build this agent?",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "augmented-reality",
-      "type": "concept",
-      "role": "concept",
-      "name": "增强现实 (augmented reality)",
-      "file": "增强现实",
-      "primary": true,
-      "how_described": "Snap 押注的下一代计算形态。嘉宾认为在巴掌大的手机屏上做 AR 像通过钥匙孔看世界，而通过 AR 眼镜将内容锚定在真实物理空间里，能把人带到户外并与朋友产生互动。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 130,
-          "t": [
-            644.12,
-            657.488
-          ],
-          "quote": "One of the first things we did was focus a lot on building ecosystems, whether those are the relationships between creators and Snap-chatters, whether that's the platform we built around augmented reality where developers have built millions of these lenses.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 134,
-          "t": [
-            678.3,
-            691.132
-          ],
-          "quote": "And then it also informed a lot of our thinking about investing in other places that are really hard to copy, including hardware, where it's really, really challenging to copy our fully vertically integrated stack around augmented reality.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 167,
-          "t": [
-            846.461,
-            856.504
-          ],
-          "quote": "We were innovating, building lenses and augmented reality, but ultimately we saw that people were using AR on these tiny little phone screens that required you to use your thumbs to interact.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 453,
-          "t": [
-            2646.173,
-            2648.915
-          ],
-          "quote": "We have the biggest augmented reality platform.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "jobs-to-be-done",
-      "type": "concept",
-      "role": "concept",
-      "name": "待办任务 (jobs to be done)",
-      "file": "待办任务",
-      "primary": true,
-      "how_described": "Snap 进行全公司 AI 改造的底层机制。把用户和广告商旅程拆解成极其具体的任务清单，只要任务能被清晰定义，就可以围绕它组建跨职能团队并用 AI 工具和智能体跑通整个闭环工作流。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 489,
-          "t": [
-            2858.828,
-            2865.551
-          ],
-          "quote": "And so the way that we did that was really by starting with the jobs to be done for our community and our advertisers.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 490,
-          "t": [
-            2865.991,
-            2881.277
-          ],
-          "quote": "So getting really, really basic and straightforward on, okay, for Snap-chatters, our jobs to be done, it's as simple as like get people to download the app, get them to add their close friends, get them to, I don't know, use lenses, something like that.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 493,
-          "t": [
-            2888.24,
-            2904.007
-          ],
-          "quote": "And so by listing out all these jobs to be done, really for the community journey and for advertisers as well, it became very clear where we could use agents, where we needed to be very focused in terms of building cross-functional teams around those jobs supported by AI tools.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 659,
-          "t": [
-            3821.349,
-            3824.612
-          ],
-          "quote": "And that's connected to how we think about those jobs to be done.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
       "id": "spectacles",
-      "type": "concept",
-      "role": "concept",
+      "type": "company",
+      "role": "company",
       "name": "Spectacles",
       "file": "Spectacles",
       "primary": true,
-      "how_described": "Snap 投入长达 12 年的自研 AR 眼镜产品线。本集提到它第一代旨在把摄像头从口袋里拿出来，而 2024 年发布的第五代 Specs 已搭载自研操作系统并允许开发者构建全功能软件，为正式面向消费者发布做准备。",
+      "how_described": "本集提及的 Snap 早期拍照眼镜，2014 年左右首发，初衷是把相机从口袋里拿出来、让人更方便地在真实世界里拍照。",
       "source": "glm",
       "evidence": [
         {
@@ -1624,12 +682,12 @@
     },
     {
       "id": "specs",
-      "type": "concept",
-      "role": "concept",
+      "type": "company",
+      "role": "company",
       "name": "Specs",
       "file": "Specs",
       "primary": true,
-      "how_described": "最新一代的 Spectacles 眼镜，将在今年正式发布。嘉宾称它为继 iPhone 之后等了 20 年终于该来的新计算形态，能把内容直接放在视野中而不需要低头看小屏幕。",
+      "how_described": "Snap 即将在今年发布的新一代 AR 眼镜。本集说它能把数字内容锚定在真实世界里(而非贴脸的小通知屏),把人带回现实、解放双手与朋友互动;Snap 为这个未来计算平台已投入 12 年。",
       "source": "glm",
       "evidence": [
         {
@@ -1761,175 +819,502 @@
       ]
     },
     {
-      "id": "stories",
-      "type": "concept",
-      "role": "concept",
-      "name": "stories",
-      "file": "stories",
+      "id": "glean",
+      "type": "company",
+      "role": "company",
+      "name": "Glean",
+      "file": "Glean",
       "primary": true,
-      "how_described": "Snap 发明并被全行业模仿的经典功能。本集复盘了其设计逻辑：通过倾听用户对压力和按倒序排生日派对的抱怨，Snap 创造了满足本质需求且按时间顺序排、24小时后消失的新解法，而非字面照做群发按钮。",
+      "how_described": "一款企业内部数据搜索整合工具。本集说 Evan 用它接入了 Snap 所有的仪表盘和文档,并在此基础上自己搭了一个智能体助理,每天梳理全公司动态、定位需要他关注的热点。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 4,
+          "seg": 638,
           "t": [
-            16.12,
-            24.699
+            3695.245,
+            3699.948
           ],
-          "quote": "I feel like Snap has always been punching above its weight in terms of just how much new stuff comes out of your team, stories, AR glasses, swipe-based navigation.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 22,
-          "t": [
-            100.02,
-            104.703
-          ],
-          "quote": "And over the years, Evan and his team have invented the concept of stories.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 109,
-          "t": [
-            535.108,
-            539.771
-          ],
-          "quote": "And just like a few examples that come to mind, stories you guys created.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 276,
-          "t": [
-            1580.12,
-            1583.361
-          ],
-          "quote": "Well, let's use stories as an example, right?",
+          "quote": "And so we have Glean that integrates all this data for me.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 293,
+          "seg": 647,
           "t": [
-            1656.413,
-            1666.458
+            3752.824,
+            3754.814
           ],
-          "quote": "So we listened to all of that and heard all of that, but then we came up with something totally new and different, which were stories that were responsive to the feedback.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 298,
-          "t": [
-            1683.907,
-            1690.751
-          ],
-          "quote": "And they, maybe most importantly, were in chronological order, which is the way that people have told stories since the beginning of time.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 303,
-          "t": [
-            1706.783,
-            1710.149
-          ],
-          "quote": "I love hearing these stories of features that everyone's using now and how they came to be.",
+          "quote": "And that agent was, you built it in Glean.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 307,
+          "seg": 650,
           "t": [
-            1732.229,
-            1748.359
+            3756.882,
+            3759.948
           ],
-          "quote": "And then again, through talking to people and iterating, understanding what folks were really looking for, we ended up with stories and some of the gestures that people maybe take for granted today, being able to tap forward through stories and backwards through stories, full screen, vertical content.",
+          "quote": "I mean, that I've done in Glean, which is great.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 310,
+          "seg": 651,
           "t": [
-            1755.893,
-            1758.599
+            3759.968,
+            3765.98
           ],
-          "quote": "These stories are so interesting and people don't know these histories.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 311,
-          "t": [
-            1759.08,
-            1770.026
-          ],
-          "quote": "One of my favorite stories was around screenshot detection actually in the early days because when we first built Snapchat and we shared with people, \"Oh, you could send photos that disappear.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 696,
-          "t": [
-            3984.563,
-            3993.506
-          ],
-          "quote": "I would recommend the first half because he interviews like 150 early Apple team members and the stories are just great and there's a lot of learnings in there.",
+          "quote": "Obviously you can build all sorts of stuff in Cloud, but Glean for us is the most secure way to access all of our different documents and dashboards and things like that.",
           "speaker": "SPEAKER_1"
         }
       ]
     },
     {
-      "id": "snapchat-plus",
+      "id": "distribution",
       "type": "concept",
       "role": "concept",
-      "name": "Snapchat plus",
-      "file": "Snapchat plus",
+      "name": "分发 (distribution)",
+      "file": "分发",
       "primary": true,
-      "how_described": "Snap 的订阅服务。本集提到它刚刚达到 2500 万订阅、营收年化破 10 亿美元，但其模式与命名立刻被竞争对手 Meta 原样照搬成了 Instagram+。",
+      "how_described": "本集说它是今天消费者技术里最难搞清楚的事,也是新社交产品几乎全军覆没的根因;主持人判断:AI 让做产品的门槛降低,而「分发」将成为 AI 帮不上忙的新护城河。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 119,
+          "seg": 3,
           "t": [
-            565.349,
-            571.056
+            12.05,
+            16
           ],
-          "quote": "Yeah, I think we just hit 25 million subscribers on Snapchat plus more than a billion revenue run rate.",
+          "quote": "People don't spend nearly enough time thinking about distribution and figuring out distribution.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 45,
+          "t": [
+            201.12,
+            210.584
+          ],
+          "quote": "Well, I think it's really interesting in terms of the examples that you just shared of TikTok and threads, because you just shared two examples of people who figured out distribution.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 53,
+          "t": [
+            235.875,
+            239.476
+          ],
+          "quote": "It's a lot harder to get distribution for new ideas and new services.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 55,
+          "t": [
+            242.837,
+            249
+          ],
+          "quote": "And both TikTok and Threads figured out distribution, which is why I think there are more recent examples of success.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 59,
+          "t": [
+            265.368,
+            271.531
+          ],
+          "quote": "And I think with Threads, obviously, they were able to leverage the amazing distribution that Meta has across all of their other products.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 63,
+          "t": [
+            283.416,
+            288.239
+          ],
+          "quote": "And I think people don't spend nearly enough time thinking about distribution and figuring out distribution.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 65,
+          "t": [
+            291.2,
+            311
+          ],
+          "quote": "So as I reflect on the early days of building Snapchat, the thing that we figured out in terms of distribution, especially when it comes to social, was that back then people believed that there were network effects and social networks that meant that the more people you had using the service, the stickier that it is.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 70,
+          "t": [
+            343.576,
+            349.539
+          ],
+          "quote": "We had the benefit of the app store and mobile distribution, but we also had a different way of growing our service, which wasn't about having the most friends.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 73,
+          "t": [
+            352.66,
+            357.043
+          ],
+          "quote": "It's something that I've been thinking a lot about actually, this idea of distribution, because of AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 83,
+          "t": [
+            385.245,
+            393.436
+          ],
+          "quote": "And I feel like distribution is where it ends up being, what ends up being the new moat and the new biggest challenge because AI is not going to really help you there.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 88,
+          "t": [
+            407.766,
+            421.194
+          ],
+          "quote": "You think about a lot of the big consumer technology companies today, they were really born out of mobile, whether it's Uber, Snapchat, some of those early generation companies that really got distribution and built themselves on mobile.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 91,
+          "t": [
+            432.701,
+            434.303
+          ],
+          "quote": "Especially if they have distribution already.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 93,
+          "t": [
+            436.585,
+            443.453
+          ],
+          "quote": "It's going to be very hard to get distribution just like there's so much launching every day, so much to pay attention to.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "moat",
+      "type": "concept",
+      "role": "concept",
+      "name": "护城河 (moat)",
+      "file": "护城河",
+      "primary": true,
+      "how_described": "本集反复讨论的业务壁垒概念。Snap 在 15 年前就领悟「软件不是护城河」;为对抗功能被克隆,他们转而构建难复制的生态/平台,并押注更难复制的硬件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            38.923,
+            44
+          ],
+          "quote": "15 years ago, we essentially learned that software is not a moat, which is something that everyone is discovering today with AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 83,
+          "t": [
+            385.245,
+            393.436
+          ],
+          "quote": "And I feel like distribution is where it ends up being, what ends up being the new moat and the new biggest challenge because AI is not going to really help you there.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 128,
+          "t": [
+            617.569,
+            631.575
+          ],
+          "quote": "And so I think one of the things, it's been an interesting time for me to reflect a lot on our strategy over the last 15 years, because 15 years ago, we essentially learned that software is not a moat, which is something that everyone is discovering today with AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 138,
+          "t": [
+            707.467,
+            709.629
+          ],
+          "quote": "You would think network effects would be the moat.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 139,
+          "t": [
+            709.789,
+            715.254
+          ],
+          "quote": "That's what everybody's always trying to get to because that's classically a great moat.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 140,
+          "t": [
+            715.995,
+            721.98
+          ],
+          "quote": "Are you saying that that's maybe not even as great a moat or that's just not enough and then you need something more like say hardware?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "network-effects",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络效应 (network effects)",
+      "file": "网络效应",
+      "primary": true,
+      "how_described": "传统观念认为社交网络的价值在于网络效应(人越多越有价值);本集说 Snapchat 发现真正重要的不是连所有人、而是连最在乎的少数人,这是他们早期增长的引擎。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            291.2,
+            311
+          ],
+          "quote": "So as I reflect on the early days of building Snapchat, the thing that we figured out in terms of distribution, especially when it comes to social, was that back then people believed that there were network effects and social networks that meant that the more people you had using the service, the stickier that it is.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 138,
+          "t": [
+            707.467,
+            709.629
+          ],
+          "quote": "You would think network effects would be the moat.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 141,
+          "t": [
+            722.42,
+            732.206
+          ],
+          "quote": "I think network effects are certainly an important piece of the puzzle for sure, but I don't think they're enough when it comes to these sorts of software cloning.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 143,
+          "t": [
+            742.491,
+            757.76
+          ],
+          "quote": "And so I think in addition to network effects, it's really important to try to build businesses that are more defensible by truly building out a platform that can support relationships between creators, developers, and the community, because that in and of itself we found is incredibly difficult to copy.",
           "speaker": "SPEAKER_1"
         }
       ]
     },
     {
-      "id": "screenshot-detection",
+      "id": "augmented-reality",
       "type": "concept",
       "role": "concept",
-      "name": "截图检测 (screenshot detection)",
-      "file": "截图检测",
+      "name": "增强现实 (augmented reality)",
+      "file": "增强现实",
       "primary": true,
-      "how_described": "",
+      "how_described": "本集把它说成一种能把数字内容锚定在真实世界、让人不再低头看手机的技术;Snap 围绕它建了由开发者贡献数百万滤镜的生态,并即将发布全新 AR 眼镜 Specs。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 311,
+          "seg": 130,
           "t": [
-            1759.08,
-            1770.026
+            644.12,
+            657.488
           ],
-          "quote": "One of my favorite stories was around screenshot detection actually in the early days because when we first built Snapchat and we shared with people, \"Oh, you could send photos that disappear.\"",
+          "quote": "One of the first things we did was focus a lot on building ecosystems, whether those are the relationships between creators and Snap-chatters, whether that's the platform we built around augmented reality where developers have built millions of these lenses.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 134,
+          "t": [
+            678.3,
+            691.132
+          ],
+          "quote": "And then it also informed a lot of our thinking about investing in other places that are really hard to copy, including hardware, where it's really, really challenging to copy our fully vertically integrated stack around augmented reality.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 167,
+          "t": [
+            846.461,
+            856.504
+          ],
+          "quote": "We were innovating, building lenses and augmented reality, but ultimately we saw that people were using AR on these tiny little phone screens that required you to use your thumbs to interact.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2646.173,
+            2648.915
+          ],
+          "quote": "We have the biggest augmented reality platform.",
           "speaker": "SPEAKER_1"
         }
       ]
     },
     {
-      "id": "automated-code-review",
+      "id": "agents",
       "type": "concept",
       "role": "concept",
-      "name": "自动代码审查 (automated code review)",
-      "file": "自动代码审查",
+      "name": "智能体 (agents)",
+      "file": "智能体",
       "primary": true,
-      "how_described": "Snap 为防范上十亿用户规模下的代码风险而引入的 AI 护栏机制。目前已自动检测出接近一万个 Bug，让设计师也能安全地亲自提交代码。",
+      "how_described": "本集说 Snap 围绕社区与广告主的核心任务来配智能体:比如内部 App 摇一摇报错后有智能体自动调试并建议修复;一个产品想法传入「上市智能体」就能自动写规格、拉审批、做风险分析甚至写发布博客。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 482,
+          "seg": 484,
           "t": [
-            2813.63,
-            2815.771
+            2822.433,
+            2835.078
           ],
-          "quote": "So we've got automated code review now.",
+          "quote": "We have a system at Snap where on the internal version of the app, you can shake to report your problem and agents now debug exactly what happened, what went wrong and can actually suggest a fix.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2888.24,
+            2904.007
+          ],
+          "quote": "And so by listing out all these jobs to be done, really for the community journey and for advertisers as well, it became very clear where we could use agents, where we needed to be very focused in terms of building cross-functional teams around those jobs supported by AI tools.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2911.971,
+            2930.52
+          ],
+          "quote": "So I think for us trying to, while I think in this moment of time, you certainly want to have a thousand flowers bloom and people are building agents and experimenting, I think at the same time, making sure that we stay focused on what matters to our community, what matters to advertisers is really, really important.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3812.38,
+            3821.329
+          ],
+          "quote": "So I think there's all sorts of examples like that across the company in terms of the way that agents can play a really massive role in changing the way that we work.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "type": "concept",
+      "role": "concept",
+      "name": "硬件 (hardware)",
+      "file": "硬件",
+      "primary": true,
+      "how_described": "本集把它说成 Snap 最反直觉、也最难被抄袭的业务壁垒;做硬件的动机是造一种能把人从屏幕前解放出来、带回朋友身边的新型计算机。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 134,
+          "t": [
+            678.3,
+            691.132
+          ],
+          "quote": "And then it also informed a lot of our thinking about investing in other places that are really hard to copy, including hardware, where it's really, really challenging to copy our fully vertically integrated stack around augmented reality.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 137,
+          "t": [
+            702.482,
+            707.447
+          ],
+          "quote": "And I was going to get to this later, but we can talk about this now, this big investment you've been putting into hardware.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 140,
+          "t": [
+            715.995,
+            721.98
+          ],
+          "quote": "Are you saying that that's maybe not even as great a moat or that's just not enough and then you need something more like say hardware?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 145,
+          "t": [
+            758.901,
+            765.267
+          ],
+          "quote": "If you think about it, you're working on two of the hardest types of businesses, a consumer social platform and hardware.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 147,
+          "t": [
+            767.99,
+            770.212
+          ],
+          "quote": "And this hardware investment, you've been at it for a long time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 156,
+          "t": [
+            781.621,
+            789.98
+          ],
+          "quote": "We're going to talk about it, but just maybe you've already answered it, why this is something you're so passionate about, but why this kind of ongoing investment in hardware?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "jobs-to-be-done",
+      "type": "concept",
+      "role": "concept",
+      "name": "要完成的任务 (jobs to be done)",
+      "file": "要完成的任务",
+      "primary": true,
+      "how_described": "本集说 Snap 用它来重新梳理整个公司运作:列出社区和广告商要完成的所有核心任务,据此构建跨职能团队并配以智能体,从而追踪每项任务对应的业务结果。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 489,
+          "t": [
+            2858.828,
+            2865.551
+          ],
+          "quote": "And so the way that we did that was really by starting with the jobs to be done for our community and our advertisers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2865.991,
+            2881.277
+          ],
+          "quote": "So getting really, really basic and straightforward on, okay, for Snap-chatters, our jobs to be done, it's as simple as like get people to download the app, get them to add their close friends, get them to, I don't know, use lenses, something like that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2888.24,
+            2904.007
+          ],
+          "quote": "And so by listing out all these jobs to be done, really for the community journey and for advertisers as well, it became very clear where we could use agents, where we needed to be very focused in terms of building cross-functional teams around those jobs supported by AI tools.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 659,
+          "t": [
+            3821.349,
+            3824.612
+          ],
+          "quote": "And that's connected to how we think about those jobs to be done.",
           "speaker": "SPEAKER_1"
         }
       ]

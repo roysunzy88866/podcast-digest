@@ -11,12 +11,12 @@ aliases: ["Mosaic"]
 
 ## 集里怎么说它
 
-- **[[2026-06-24-latent-space-databricks|《Databricks 的智能体时代布局：统一调度、开源治理与数据库重写》]]**(57:49起):本集提到 Databricks 收购了这家以开源大模型闻名的公司。但 Databricks 后来决定不盲目拼算力做通用大模型，而是将重点转向如何让模型变得有用，例如利用其训练栈来扩展针对特定高并发场景的专用模型。
+- **[[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]]**(57:49起):被 Databricks 收购的团队，早期发布了知名的开源通用大模型。被收购后，Databricks 决定不再让其在烧钱的通用大模型上死磕，而是转作专门领域的小模型（如文档视觉模型）。
 
 ## 出现在这些集
 
-- [[2026-06-24-latent-space-databricks|《Databricks 的智能体时代布局：统一调度、开源治理与数据库重写》]] — 作为被讨论公司
+- [[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Matei Zaharia]] · [[Reynold Xin]] · [[Databricks]] · [[Snowflake]] · [[Neon]] · [[Omnigen]] · [[智能体]] · [[沙箱]] · [[LTAP]] · [[Dream Engine]]
+[[Matei Zaharia]] · [[Reynold Xin]] · [[Databricks]] · [[Snowflake]] · [[Neon]] · [[Omnigen]] · [[LTAP]] · [[HTAP]] · [[Dream Engine]] · [[智能体]]

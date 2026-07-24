@@ -3,11 +3,11 @@
   "podcast": "Lenny's Podcast",
   "date": "2026-07-09",
   "tags": [
-    "产品团队重构",
-    "AI 时代的人才观",
-    "算法与信息流",
+    "产品团队重组",
+    "AI 时代的人才与品味",
+    "推荐算法",
     "创作者生态",
-    "公关与危机应对"
+    "平台公共沟通"
   ],
   "entities": [
     {
@@ -65,7 +65,7 @@
       "name": "instagram",
       "file": "instagram",
       "primary": true,
-      "how_described": "本集主要讨论的公司，月活超三十亿的社交平台。嘉宾探讨了其团队重构、信息流算法原理、AI 内容对其的影响以及面临的公关争议。",
+      "how_described": "本集的主要讨论对象。嘉宾 Adam Mosseri 负责的平台，拥有超三十亿月活用户。话题涉及该平台的团队架构演变、推荐算法机制、面对 AI 生成内容的策略以及其作为平台「出气筒」的公关哲学。",
       "source": "glm",
       "evidence": [
         {
@@ -296,61 +296,13 @@
       ]
     },
     {
-      "id": "meta",
-      "type": "company",
-      "role": "company",
-      "name": "meta",
-      "file": "meta",
-      "primary": true,
-      "how_described": "Instagram 的母公司。本集提到 Meta 内部团队配置向 Pods 转变，以及公司需要在可能引发争议的测试前准备好公关策略。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 35,
-          "t": [
-            136.581,
-            140.303
-          ],
-          "quote": "a long time you get to see how a lot of teams operate across meta",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 245,
-          "t": [
-            963.275,
-            967.04
-          ],
-          "quote": "those i think are premiums not just for hiring at a company like meta or",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 324,
-          "t": [
-            1282.508,
-            1285.552
-          ],
-          "quote": "meta was famous for this like leaderboard of token spend it's",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 971,
-          "t": [
-            3856.686,
-            3859.185
-          ],
-          "quote": "for this at a policy level for a long time in meta",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
       "id": "tiktok",
       "type": "company",
       "role": "company",
       "name": "TikTok",
       "file": "TikTok",
       "primary": true,
-      "how_described": "本集将其描述为在推荐系统（尤其是探索性排名和挖掘小众创作者方面）让 Instagram 感到压力并从中汲取灵感的竞争对手。",
+      "how_described": "",
       "source": "glm",
       "evidence": [
         {
@@ -383,475 +335,325 @@
       ]
     },
     {
-      "id": "embedding-models",
-      "type": "concept",
-      "role": "concept",
-      "name": "嵌入模型 (embedding models)",
-      "file": "嵌入模型",
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "anthropic",
+      "file": "anthropic",
       "primary": true,
-      "how_described": "本集说它是过去五到十年里真正推动推荐系统进展的技术，它将内容转化为人类看不懂的巨大向量数字，而非进行真正的语义理解。",
+      "how_described": "本集提到该公司的 Mythos 模型具有敢于唱反调的「混蛋」脾气，在制定反共识战略的来回拉扯中非常有帮助；此外还顺带提及其增长负责人在 Twitter 上因定价实验翻车。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 523,
+          "seg": 67,
           "t": [
-            2098.298,
-            2101.4919999999997
+            279.416,
+            286.006
           ],
-          "quote": "you know these large embedding models and these other techniques",
+          "quote": "by our season's presenting sponsor work os what do open ai anthropic cursor versell",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1233.231,
+            1236.015
+          ],
+          "quote": "and obviously mythos from anthropic but",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1251.59,
+            1257.951
+          ],
+          "quote": "for frontier tokens you know for whatever you know anthropic model 6.0 is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 908,
+          "t": [
+            3594.198,
+            3598.041
+          ],
+          "quote": "yeah uh the uh head of growth at anthropic launched an experiment with pricing",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 915,
+          "t": [
+            3617.876,
+            3618.876
+          ],
+          "quote": "in anthropic",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "facebook",
+      "type": "company",
+      "role": "company",
+      "name": "facebook",
+      "file": "facebook",
+      "primary": false,
+      "how_described": "本集提及嘉宾曾在此设计了早期的 News Feed（动态消息流）和排名算法，并在此经历了 2009 年改版导致的公共争议反噬。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            89.756,
+            92.837
+          ],
+          "quote": "and led the early facebook news feed he also ran the team that built",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            92.857,
+            96.86800000000001
+          ],
+          "quote": "the facebook ranking algorithm and eight years ago he took over instagram",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            661.55,
+            663.301
+          ],
+          "quote": "a designer at facebook way back when",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1091.7,
+            1094.664
+          ],
+          "quote": "it's for me it's kind of funny because when i get hired at facebook we all",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 796,
+          "t": [
+            3158.594,
+            3165.258
+          ],
+          "quote": "it started on newsfeed so i used to run newsfeed at facebook and i my take was that",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 835,
+          "t": [
+            3304.84,
+            3306.781
+          ],
+          "quote": "for facebook i was a designer i was a front like",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 920,
+          "t": [
+            3641.336,
+            3648.336
+          ],
+          "quote": "as a pm was on a project called facebook home which was a sort of fork of android um",
           "speaker": "SPEAKER_01"
         }
       ]
     },
     {
-      "id": "taste",
-      "type": "concept",
-      "role": "concept",
-      "name": "品味 (taste)",
-      "file": "品味",
-      "primary": true,
-      "how_described": "本集强调在 AI 让构建事物变得更容易的时代，决定「首先应该构建什么」的「品味」变得至关重要，是难以被替代的核心能力。",
+      "id": "open-ai",
+      "type": "company",
+      "role": "company",
+      "name": "open ai",
+      "file": "open ai",
+      "primary": false,
+      "how_described": "本集仅在口播赞助商和嘉宾引言中顺带提及，未作为主要话题深入讨论。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 0,
+          "seg": 67,
           "t": [
-            0.091,
-            2.993
+            279.416,
+            286.006
           ],
-          "quote": "no i think taste matters a ton in a world where it's easier",
+          "quote": "by our season's presenting sponsor work os what do open ai anthropic cursor versell",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1267.215,
+            1270.679
+          ],
+          "quote": "at uh open ai he's he famously said this is the worst",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "type": "company",
+      "role": "company",
+      "name": "twitter",
+      "file": "twitter",
+      "primary": false,
+      "how_described": "本集提到它是当时记者真正聚集的地方，嘉宾当年为了直面争议、主动沟通，开始在上面变得非常活跃。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 798,
+          "t": [
+            3169.1,
+            3172.442
+          ],
+          "quote": "and so i started being really active on twitter specifically because that's",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 114,
+          "seg": 801,
           "t": [
-            462.583,
-            468.847
+            3179.106,
+            3182.928
           ],
-          "quote": "the people she hires now are one builders with great taste that can take an idea",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 121,
-          "t": [
-            492.88,
-            498.143
-          ],
-          "quote": "on fire right now um no i think taste matters a ton uh so in a world",
+          "quote": "my twitter ended up being like the most the darkest place in my life",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 127,
+          "seg": 802,
           "t": [
-            517.762,
-            524.762
+            3183.048,
+            3185.849
           ],
-          "quote": "but i'm actually pretty long on design or designers because they tend to have taste",
+          "quote": "because i just followed all of our biggest critics that's not a dig on twitter",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 142,
+          "seg": 909,
           "t": [
-            578.767,
-            579.8781111111111
+            3598.061,
+            3601.063
           ],
-          "quote": "the taste side of it",
+          "quote": "and it just went crazy on twitter he's like oh yeah one percent",
           "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reels",
+      "type": "concept",
+      "role": "concept",
+      "name": "reels",
+      "file": "reels",
+      "primary": true,
+      "how_described": "本集把它说成是 Instagram 对标 TikTok 的短视频功能。嘉宾复盘了 2019 年把它建在 Stories 之上的失败教训，导致大多视频未被看到便消失。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            405.027,
+            409.03
+          ],
+          "quote": "if you wanted to look at people creating reels you would look at all the steps and",
+          "speaker": "SPEAKER_01"
         },
         {
-          "seg": 211,
+          "seg": 865,
           "t": [
-            839.819,
-            844.159
+            3427.96,
+            3432.744
           ],
-          "quote": "the pod yeah so you talked about taste this makes me think about",
-          "speaker": "SPEAKER_00"
+          "quote": "we were also leaning into reels a lot we were also leaning into recommendations",
+          "speaker": "SPEAKER_01"
         },
         {
-          "seg": 363,
+          "seg": 932,
           "t": [
-            1442.601,
-            1446.003
+            3697.648,
+            3701.489
           ],
-          "quote": "that product development lifecycle taste like we talked",
-          "speaker": "SPEAKER_00"
+          "quote": "of reels was built on top of stories stories had a ton",
+          "speaker": "SPEAKER_01"
         },
         {
-          "seg": 468,
+          "seg": 933,
           "t": [
-            1863.966,
-            1868.132
+            3701.509,
+            3707.511
           ],
-          "quote": "the best are have have taste are",
+          "quote": "of momentum this was i think 2019 and we were trying to build reels into stories",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 937,
+          "t": [
+            3718.855,
+            3722.8149999999996
+          ],
+          "quote": "to consume so most of the reels were never seen and then they disappeared",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 938,
+          "t": [
+            3722.865,
+            3726.687
+          ],
+          "quote": "um and if we had the version of reels that we launched",
           "speaker": "SPEAKER_01"
         }
       ]
     },
     {
-      "id": "strategy",
+      "id": "stories",
       "type": "concept",
       "role": "concept",
-      "name": "战略判断 (strategy)",
-      "file": "战略判断",
-      "primary": true,
-      "how_described": "本集将其描述为人类大脑极具价值的核心，认为有效的战略必须是主观取舍的（理性的人应能反对），否则如果把问题懒惰地扔给 AI，只会得到平庸且被竞争对手预测的答案。",
+      "name": "stories",
+      "file": "stories",
+      "primary": false,
+      "how_described": "本集提到它曾有很大势头，但阅读率相对较低，作为短视频基础并不牢固；也被作为产品进化中不可或缺的功能提及。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 55,
+          "seg": 891,
           "t": [
-            227.864,
-            231.086
+            3522.786,
+            3525.258
           ],
-          "quote": "a pricing strategy you need a senior data scientist if you're doing something",
+          "quote": "stories we didn't have ranking and we wouldn't be",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 150,
+          "seg": 932,
           "t": [
-            610.51,
-            613.994
+            3697.648,
+            3701.489
           ],
-          "quote": "on product strategy even on the business on the go-to-market and",
+          "quote": "of reels was built on top of stories stories had a ton",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 364,
+          "seg": 933,
           "t": [
-            1446.043,
-            1451.187
+            3701.509,
+            3707.511
           ],
-          "quote": "about um judgment particularly around strategy right like you're you're not",
+          "quote": "of momentum this was i think 2019 and we were trying to build reels into stories",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 365,
+          "seg": 936,
           "t": [
-            1452.087,
-            1455.573
+            3716.034,
+            3718.835
           ],
-          "quote": "you might get feedback from an ai on a strategy but you're not asking an ai",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 366,
-          "t": [
-            1455.593,
-            1461
-          ],
-          "quote": "to come up with a strategy anytime soon or if you are then it's within the context",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 382,
-          "t": [
-            1522.831,
-            1526.594
-          ],
-          "quote": "the state of the product you want to get to and i think of strategy as",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 383,
-          "t": [
-            1526.634,
-            1532.98
-          ],
-          "quote": "an opinionated path to achieve that vision if strategy can't be like be the best",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 387,
-          "t": [
-            1546.032,
-            1549.874
-          ],
-          "quote": "and i think they're both vision and strategy i think are going to be",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 391,
-          "t": [
-            1560.438,
-            1564.999
-          ],
-          "quote": "at strategy because you would think here's the market here's all the information on",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 396,
-          "t": [
-            1583.328,
-            1585.87
-          ],
-          "quote": "when you're trying to come up with a strategy there's a lot of things",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 405,
-          "t": [
-            1617.492,
-            1623.053
-          ],
-          "quote": "of these things i think if you ask an ai just for a strategy lazily you're not going",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 423,
-          "t": [
-            1688.546,
-            1692.056
-          ],
-          "quote": "about people being excited about the strategy is such an interesting one",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 433,
-          "t": [
-            1730.856,
-            1734.448
-          ],
-          "quote": "the danger thing for a lot of people is like like if it's giving us the strategy",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 436,
-          "t": [
-            1740.761,
-            1743.863
-          ],
-          "quote": "the strategy almost yeah no i i think there's",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 473,
-          "t": [
-            1887.812,
-            1892.637
-          ],
-          "quote": "if the strategy comes from them or comes from somebody else i just care",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 474,
-          "t": [
-            1892.657,
-            1897.381
-          ],
-          "quote": "that there is an amazing strategy and everyone is bought into it and that the and",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 475,
-          "t": [
-            1897.421,
-            1901.744
-          ],
-          "quote": "then we're executing against that strategy well and so i think that some of",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 483,
-          "t": [
-            1936.328,
-            1940.6057777777778
-          ],
-          "quote": "and they just want to do vision strategy just like not actually hands-on work",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 484,
-          "t": [
-            1941.092,
-            1947.377
-          ],
-          "quote": "and no ai's coming in here let me do the strategy yeah exactly and i love this point",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 898,
-          "t": [
-            3549.634,
-            3554.676
-          ],
-          "quote": "a calm strategy like we can't for any for any design change or any test",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 1004,
-          "t": [
-            3989.058,
-            3992.221
-          ],
-          "quote": "a strategy it's amazing it's a thing and you're you're you're not",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "chronological-feed",
-      "type": "concept",
-      "role": "concept",
-      "name": "按时间排序的信息流 (chronological feed)",
-      "file": "按时间排序的信息流",
-      "primary": true,
-      "how_described": "本集讨论了用户呼吁回归此功能的争议，指出纯按时间排序会导致大公司和媒体疯狂轰炸淹没普通人，且大规模内部调研显示这会导致整体使用量和满意度下降。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 580,
-          "t": [
-            2325.131,
-            2329.993
-          ],
-          "quote": "with the chronological feed so one is and some of this is the tension between",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 582,
-          "t": [
-            2336.317,
-            2342.419
-          ],
-          "quote": "if you do a pure chronological feed the incentive for everybody is to just post",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "ai-content",
-      "type": "concept",
-      "role": "concept",
-      "name": "AI 内容 (ai content)",
-      "file": "AI 内容",
-      "primary": true,
-      "how_described": "本集判断 AI 生成内容的爆发对 Instagram 相对其他平台是顺风，因为合成内容泛滥会让人们更渴求真实创作者；策略是不根据工具评判内容，而是给用户透明度。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 9,
-          "t": [
-            37.237,
-            42.26
-          ],
-          "quote": "in the algorithm than there is is the rise of ai content a headwind or a tailwind",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 15,
-          "t": [
-            57.368,
-            61.801
-          ],
-          "quote": "and people i don't think we should filter out ai content i think we should let you",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 16,
-          "t": [
-            61.851,
-            64.702
-          ],
-          "quote": "know if content is ai content or not that's hard by the way",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 616,
-          "t": [
-            2467.488,
-            2471.473
-          ],
-          "quote": "is the rise of ai content a headwind or a tailwind",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 623,
-          "t": [
-            2491.994,
-            2493.0449999999996
-          ],
-          "quote": "at ranking ai content",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 624,
-          "t": [
-            2493.095,
-            2496.178
-          ],
-          "quote": "yet this great ai content this crap ai content you should just see",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 644,
-          "t": [
-            2572.602,
-            2575.163
-          ],
-          "quote": "that will help us that doesn't mean that we won't have ai content",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 646,
-          "t": [
-            2576.983,
-            2580.386
-          ],
-          "quote": "bad and good ai content and we're going to try and handle that you know",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 660,
-          "t": [
-            2627.669,
-            2628.8356666666664
-          ],
-          "quote": "a bunch of ai content",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 663,
-          "t": [
-            2636.54,
-            2640.603
-          ],
-          "quote": "of just all this ai content if you just love ai content",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 671,
-          "t": [
-            2671.583,
-            2674.874
-          ],
-          "quote": "like i don't i don't think we should filter out ai content i think we should let you",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 672,
-          "t": [
-            2674.924,
-            2678.385
-          ],
-          "quote": "know if content is ai content or not i think we should let you know more about",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 712,
-          "t": [
-            2828.26,
-            2834.044
-          ],
-          "quote": "to label camera captured content like basically non-ai content as opposed",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 713,
-          "t": [
-            2834.064,
-            2838.026
-          ],
-          "quote": "to labeling ai content long term for a couple reasons but then at",
+          "quote": "on stories is relatively low there's way more stories than most people have time",
           "speaker": "SPEAKER_01"
         }
       ]
@@ -860,10 +662,10 @@
       "id": "pods",
       "type": "concept",
       "role": "concept",
-      "name": "迷你团队 (pods)",
-      "file": "迷你团队",
+      "name": "pods",
+      "file": "pods",
       "primary": true,
-      "how_described": "本集提到 Instagram 正在采用的四到六名偏向通才的工程师加一名 Product Staff 组成的六七人小队模式，协调成本低且决策更快。",
+      "how_described": "本集把它说成是 Instagram 今年采用的迷你小队架构：通常 4-6 名偏通才的工程师加一个产品人员，以更小核心团队替代过去十几人的庞大配置，决策更快。",
       "source": "glm",
       "evidence": [
         {
@@ -893,7 +695,7 @@
       "name": "产品人员 (product staff)",
       "file": "产品人员",
       "primary": true,
-      "how_described": "本集将其描述为传统 PM 的进化版超级通才，借助内部 AI 工具，能同时完成过去需要数据科学家、设计师或研究员才能干的工作。",
+      "how_described": "本集把它说成是传统 PM 的进化版。在 AI 工具辅助下，能够顺手干一部分设计师、数据科学家和研究员工作的超级通才角色。",
       "source": "glm",
       "evidence": [
         {
@@ -998,145 +800,13 @@
       ]
     },
     {
-      "id": "creators",
-      "type": "concept",
-      "role": "concept",
-      "name": "创作者 (creators)",
-      "file": "创作者",
-      "primary": true,
-      "how_described": "本集说他们是最重要的受众之一（不仅指网红），Instagram 投资于他们，认为在合成内容丰富的世界里，真实的人的视角和创造力会被更加渴求。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 631,
-          "t": [
-            2522.038,
-            2525.359
-          ],
-          "quote": "to invest in specifically for instagram and creators",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 632,
-          "t": [
-            2525.419,
-            2528.68
-          ],
-          "quote": "and i mean creators broadly i don't just mean influencers",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 656,
-          "t": [
-            2613.723,
-            2615.424
-          ],
-          "quote": "at how we define creators",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 657,
-          "t": [
-            2615.644,
-            2619.706
-          ],
-          "quote": "and how many creators use us versus other platforms i think it'll be a tailwind",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 745,
-          "t": [
-            2956.639,
-            2961.246
-          ],
-          "quote": "for niche creators and small creators because you give them a chance to find",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 767,
-          "t": [
-            3046.812,
-            3051.234
-          ],
-          "quote": "that you can break new creators into a wide audience if you have this kind",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 866,
-          "t": [
-            3432.804,
-            3437.407
-          ],
-          "quote": "so posts from accounts you don't follow a lot and there were also creators",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 869,
-          "t": [
-            3441.271,
-            3446.334
-          ],
-          "quote": "that those four things got all conflated we had some pretty big name creators",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 872,
-          "t": [
-            3454.343,
-            3457.616
-          ],
-          "quote": "then got more creators doing it so we ended up with this little bit of like",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "recommenders",
-      "type": "concept",
-      "role": "concept",
-      "name": "推荐系统 (recommenders)",
-      "file": "推荐系统",
-      "primary": false,
-      "how_described": "本集提到 TikTok 的推荐系统在基于探索的排名方面很强，能帮助小众创作者找到受众，Instagram 正投入精力追赶并试图成为业内最佳。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 522,
-          "t": [
-            2093.195,
-            2096.917
-          ],
-          "quote": "the world of recommenders over the last five ten years have been",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 731,
-          "t": [
-            2903.935,
-            2910.935
-          ],
-          "quote": "with is tick tock and their recommenders ability to break small talent um in",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 733,
-          "t": [
-            2911.987,
-            2917.053
-          ],
-          "quote": "ranking recommenders and rank you can talk about exploitation based ranking",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
       "id": "news-feed",
       "type": "concept",
       "role": "concept",
-      "name": "动态消息 (news feed)",
-      "file": "动态消息",
-      "primary": false,
-      "how_described": "本集提到嘉宾曾在 Facebook 负责动态消息，并在 2009 年改版时遭遇了极度难听的谩骂，这开启了他直面公众争议并保持谦卑沟通的策略。",
+      "name": "news feed",
+      "file": "news feed",
+      "primary": true,
+      "how_described": "本集提到它是 Facebook 的核心动态消息流，是嘉宾当年设计并主导的项目，也是他学会直面平台公共争议反噬的起点。",
       "source": "glm",
       "evidence": [
         {
@@ -1151,73 +821,266 @@
       ]
     },
     {
-      "id": "reels",
+      "id": "embedding",
       "type": "concept",
       "role": "concept",
-      "name": "短视频 (reels)",
-      "file": "短视频",
-      "primary": false,
-      "how_described": "本集提到最初将其建立在 Stories 之上是个错误（因为 Stories 阅读率低导致其被消失），后来通过独立发展并在推荐中强推带来了主要增长。",
+      "name": "嵌入模型 (embedding)",
+      "file": "嵌入模型",
+      "primary": true,
+      "how_described": "本集说它是过去五到十年推动推荐算法飞跃的底层技术。它产生的是高维空间里一堆人类看不懂的巨大向量，算法据此做数学相似度匹配而非真正的语义理解。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 100,
+          "seg": 523,
           "t": [
-            405.027,
-            409.03
+            2098.298,
+            2101.4919999999997
           ],
-          "quote": "if you wanted to look at people creating reels you would look at all the steps and",
+          "quote": "you know these large embedding models and these other techniques",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 865,
+          "seg": 539,
           "t": [
-            3427.96,
-            3432.744
+            2168.17,
+            2171.713
           ],
-          "quote": "we were also leaning into reels a lot we were also leaning into recommendations",
+          "quote": "that is in an embedding space you can think of embedding space as a map you can map",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "exploration-based-ranking",
+      "type": "concept",
+      "role": "concept",
+      "name": "探索性排名 (exploration based ranking)",
+      "file": "探索性排名",
+      "primary": true,
+      "how_described": "本集把它说成是推荐系统的工作逻辑之一：给你推你可能根本不知道自己会喜欢的小众内容。它虽难拉动短期数据，但能帮小众创作者破圈，是 TikTok 的核心强项。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 735,
+          "t": [
+            2920.456,
+            2923.119
+          ],
+          "quote": "then you can talk about exploration based ranking going and trying",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 932,
+          "seg": 744,
           "t": [
-            3697.648,
-            3701.489
+            2952.593,
+            2956.599
           ],
-          "quote": "of reels was built on top of stories stories had a ton",
+          "quote": "if you do the latter this exploration based ranking you can i think it's really good",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-content",
+      "type": "concept",
+      "role": "concept",
+      "name": "合成内容 (synthetic content)",
+      "file": "合成内容",
+      "primary": true,
+      "how_described": "本集把它说成是 AI 生成内容的浪潮。认为当世界充斥海量的此类内容时，人们对真实性和独特创造力的渴求会不降反升，成为 Instagram 的顺风。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            50.565,
+            55.427
+          ],
+          "quote": "of synthetic content i actually think people are going to seek out creativity",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 933,
+          "seg": 642,
           "t": [
-            3701.509,
-            3707.511
+            2559.956,
+            2563.758
           ],
-          "quote": "of momentum this was i think 2019 and we were trying to build reels into stories",
+          "quote": "where there's an abundance of synthetic content i actually think people are going",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chronological-feed",
+      "type": "concept",
+      "role": "concept",
+      "name": "时间线 (chronological feed)",
+      "file": "时间线",
+      "primary": true,
+      "how_described": "本集详细拆解了纯按时间排序的悖论：它会导致专业媒体刷屏淹没真实朋友，测试表明它会致使平台整体使用量与用户满意度双双大幅下降。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 580,
+          "t": [
+            2325.131,
+            2329.993
+          ],
+          "quote": "with the chronological feed so one is and some of this is the tension between",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 937,
+          "seg": 582,
           "t": [
-            3718.855,
-            3722.8149999999996
+            2336.317,
+            2342.419
           ],
-          "quote": "to consume so most of the reels were never seen and then they disappeared",
+          "quote": "if you do a pure chronological feed the incentive for everybody is to just post",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "llms",
+      "type": "concept",
+      "role": "concept",
+      "name": "大型语言模型 (llms)",
+      "file": "大型语言模型",
+      "primary": true,
+      "how_described": "本集说它们赋予了那些原本无法解释的推荐向量空间以可解释性，能够用人类语言总结出某块区域代表什么，从而催生了「你的算法」功能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 548,
+          "t": [
+            2205.896,
+            2208.878
+          ],
+          "quote": "the underlying technology underneath llms right that's how they all",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": true,
+      "how_described": "本集提到嘉宾带 10 岁儿子通过自然语言指挥 AI 写代码，做出了有着 19 个关卡和商店系统的 8 位风格超级马里奥游戏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            554.09,
+            557.644
+          ],
+          "quote": "it vibe coding but you're low like oh that's a codex app oh that's a cloud app right",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 938,
+          "seg": 987,
           "t": [
-            3722.865,
-            3726.687
+            3914.999,
+            3921.124
           ],
-          "quote": "um and if we had the version of reels that we launched",
+          "quote": "with my eldest we started um vibe coding recently together um he's just loves video",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "taste",
+      "type": "concept",
+      "role": "concept",
+      "name": "品味 (taste)",
+      "file": "品味",
+      "primary": true,
+      "how_described": "本集把它说成是 AI 极大降低「造物」门槛后的终极稀缺资源和护城河，指对产品策略、商业走向甚至交互视觉的综合审美与判断力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.091,
+            2.993
+          ],
+          "quote": "no i think taste matters a ton in a world where it's easier",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            462.583,
+            468.847
+          ],
+          "quote": "the people she hires now are one builders with great taste that can take an idea",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            492.88,
+            498.143
+          ],
+          "quote": "on fire right now um no i think taste matters a ton uh so in a world",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            517.762,
+            524.762
+          ],
+          "quote": "but i'm actually pretty long on design or designers because they tend to have taste",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            578.767,
+            579.8781111111111
+          ],
+          "quote": "the taste side of it",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 211,
+          "t": [
+            839.819,
+            844.159
+          ],
+          "quote": "the pod yeah so you talked about taste this makes me think about",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1442.601,
+            1446.003
+          ],
+          "quote": "that product development lifecycle taste like we talked",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 468,
+          "t": [
+            1863.966,
+            1868.132
+          ],
+          "quote": "the best are have have taste are",
           "speaker": "SPEAKER_01"
         }
       ]
     }
   ],
   "rejected": [
+    {
+      "name": "byte dance",
+      "reason": "专名「byte dance」未在真相源出现,且不在别名表(疑编造)"
+    },
     {
       "name": "agent",
       "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"

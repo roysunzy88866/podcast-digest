@@ -6,7 +6,7 @@ entity_type: 人物
 # Eddie Kim
 
 > [!info] 人物
-> 出现在 1 集 · 金句 3 条 · 关联 10 个
+> 出现在 1 集 · 金句 4 条 · 关联 10 个
 
 ## 金句
 
@@ -14,12 +14,14 @@ entity_type: 人物
 
 ![[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#^q2]]
 
-![[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#^q7]]
+![[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#^q3]]
+
+![[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#^q5]]
 
 ## 出现在这些集
 
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]] — 作为联合主持
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] — 作为联合主持
 
 ## 关联实体
 
-[[Claire Vo]] · [[Gusto]] · [[联合创始人]] · [[vibe code]] · [[垃圾桶法]] · [[拉取请求]] · [[功能开关]] · [[智能体]] · [[智能体循环]] · [[Cloud Code]]
+[[Claire Vo]] · [[Gusto]] · [[联合创始人]] · [[vibe coding]] · [[永久 Zoom]] · [[智能体]] · [[垃圾桶法]] · [[Cloudflare Worker]] · [[Vercel AI SDK]] · [[Claude Code]]

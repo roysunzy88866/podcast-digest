@@ -10,12 +10,12 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Tony Fadell：造出 iPod 和 iPhone 的人，怎么看 AI 时代的造物法则》]]**(01:44起):本集把它说成:早于 iPhone 15 年打造了智能设备的传奇团队,但只顾着做酷炫技术而没有解决真正的用户痛点,最终失败。
+- **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]]**(01:44起):本集将其作为经典的失败案例：指出他们“在 iPhone 出现的 15 年前就制造了它”，但因为只是在做“真的很酷但没人需要的东西”，只谈技术而不考虑客户痛点，最终导致失败。
 
 ## 出现在这些集
 
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Tony Fadell：造出 iPod 和 iPhone 的人，怎么看 AI 时代的造物法则》]] — 作为被讨论公司
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Tony Fadell]] · [[Lenny]] · [[Nest]] · [[OpenAI]] · [[基于意见的决策]] · [[微管理]] · [[三代定律]] · [[客户旅程]] · [[讲故事]] · [[技术债务]]
+[[Tony Fadell]] · [[Lenny]] · [[Nest]] · [[OpenAI]] · [[Anthropic]] · [[Apple]] · [[Flighty]] · [[iPod]] · [[iPhone]] · [[智能体]]

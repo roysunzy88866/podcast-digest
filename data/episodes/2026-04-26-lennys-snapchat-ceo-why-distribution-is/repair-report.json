@@ -1,14 +1,6 @@
 {
   "kept": [
     {
-      "i": 1,
-      "timestamp": "06:25",
-      "speaker": "Lenny",
-      "trimmed": false,
-      "tsWas": "06:25",
-      "spkWas": "Lenny"
-    },
-    {
       "i": 2,
       "timestamp": "10:24",
       "speaker": "Evan Spiegel",
@@ -26,20 +18,42 @@
     },
     {
       "i": 4,
-      "timestamp": "25:05",
+      "timestamp": "35:38",
       "speaker": "Evan Spiegel",
       "trimmed": false,
-      "tsWas": "24:58",
+      "tsWas": "35:37",
       "spkWas": "Evan Spiegel"
     },
     {
       "i": 5,
-      "timestamp": "00:52",
+      "timestamp": "50:46",
+      "speaker": "Evan Spiegel",
+      "trimmed": false,
+      "tsWas": "50:46",
+      "spkWas": "Evan Spiegel"
+    },
+    {
+      "i": 6,
+      "timestamp": "64:25",
       "speaker": "Evan Spiegel",
       "trimmed": false,
       "tsWas": "64:21",
       "spkWas": "Evan Spiegel"
+    },
+    {
+      "i": 7,
+      "timestamp": "68:23",
+      "speaker": "Evan Spiegel",
+      "trimmed": false,
+      "tsWas": "68:23",
+      "spkWas": "Evan Spiegel"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 1,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "I think distribution is where it ends up being, what ends up being the new moat and the new biggest challenge because AI is not going to really help you there."
+    }
+  ]
 }

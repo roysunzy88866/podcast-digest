@@ -4,10 +4,10 @@
   "date": "2026-06-22",
   "tags": [
     "AI 安全",
+    "红队测试",
     "智能体",
     "提示词注入",
-    "红队测试",
-    "护栏"
+    "沙箱"
   ],
   "entities": [
     {
@@ -37,7 +37,7 @@
       "name": "Gray Swan",
       "file": "Gray Swan",
       "primary": true,
-      "how_described": "本集把它说成:一家刚完成 A 轮融资的 AI 安全公司,核心业务是为企业提供模型的红队测试(寻找漏洞)和防御护栏(如 Signal 模型)产品,帮助企业在部署 AI 时减轻安全风险。",
+      "how_described": "本集把它说成:一家致力于帮助人们在部署大模型和智能体时,安全可靠地使用 AI 的初创公司,提供红队测试(找出模型软肋)和防御系统(为企业构筑安全防线)。",
       "source": "glm",
       "evidence": [
         {
@@ -160,13 +160,73 @@
       ]
     },
     {
+      "id": "carnegie-mellon",
+      "type": "company",
+      "role": "company",
+      "name": "Carnegie Mellon",
+      "file": "Carnegie Mellon",
+      "primary": false,
+      "how_described": "本集提到两位嘉宾在这里任教十余年,是优秀的计算机科学和 AI 研究中心。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            90.201,
+            91.883
+          ],
+          "quote": "Zeke and I have been at Carnegie Mellon,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 67,
+          "t": [
+            153.396,
+            155.038
+          ],
+          "quote": "been faculty at Carnegie Mellon for a while,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1120,
+          "t": [
+            2892.174,
+            2894.594
+          ],
+          "quote": "do at Gray Swan and and partially Carnegie Mellon.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "snowflake",
+      "type": "company",
+      "role": "company",
+      "name": "Snowflake",
+      "file": "Snowflake",
+      "primary": false,
+      "how_described": "本集提到它是 Gray Swan 的投资者之一,嘉宾当时正在参加其峰会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            27.82,
+            31.264
+          ],
+          "quote": "you're here because you're attending Snowflake Summit and Snowflake is one of your",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
       "id": "anthropic",
       "type": "company",
       "role": "company",
       "name": "Anthropic",
       "file": "Anthropic",
       "primary": false,
-      "how_described": "本集把它说成:一家前沿 AI 实验室,在内部进行模型安全测试,曾就模型抵抗间接提示词注入的鲁棒性与 Gray Swan 进行合作。",
+      "how_described": "本集提到 Gray Swan 帮他们测试模型(如 Mythos)对间接提示注入的鲁棒性,他们也具有内部安全审查的强烈意愿。",
       "source": "glm",
       "evidence": [
         {
@@ -181,13 +241,82 @@
       ]
     },
     {
+      "id": "discord",
+      "type": "company",
+      "role": "company",
+      "name": "Discord",
+      "file": "Discord",
+      "primary": false,
+      "how_described": "本集提到大约有 15000 人在这个平台上活跃,构成了 Gray Swan 的红队测试社区。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 189,
+          "t": [
+            504.688,
+            507.429
+          ],
+          "quote": "Like 15,000 people come and hang out on the Discord server.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "twitter",
+      "type": "company",
+      "role": "company",
+      "name": "Twitter",
+      "file": "Twitter",
+      "primary": false,
+      "how_described": "本集提到红队测试高手 Wyatt 在这个平台上分享关于大模型本质的深刻见解。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 285,
+          "t": [
+            755.337,
+            756.938
+          ],
+          "quote": "Wyatt's a big person on Twitter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            756.958,
+            758.598
+          ],
+          "quote": "You should follow him on Twitter if you're not already.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 295,
+          "t": [
+            773.852,
+            776.394
+          ],
+          "quote": "Wyatt, you should follow him on Twitter if you haven't already.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 311,
+          "t": [
+            813.747,
+            816.268
+          ],
+          "quote": "And if you read his Twitter, you'll find a bunch of really",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
       "id": "agent",
       "type": "concept",
       "role": "concept",
       "name": "智能体 (agent)",
       "file": "智能体",
       "primary": true,
-      "how_described": "本集把它说成:构建在基础模型之上、能使用工具并自主执行任务的系统;由于它们开始接管企业的真实工具和权限,带来了全新的安全隐患,例如可能被恶意操纵去窃取凭证或清空数据库。",
+      "how_described": "本集把它说成:基于大模型构建、能执行工具调用并自主运作的系统。它们会引入新型安全漏洞(如提示注入、窃取凭证),且未来会发展出类似人类那样区分工作和生活的「原生身份」角色。",
       "source": "glm",
       "evidence": [
         {
@@ -523,7 +652,7 @@
       "name": "红队测试 (red teaming)",
       "file": "红队测试",
       "primary": true,
-      "how_described": "本集把它说成:一种主动寻找 AI 系统安全漏洞的测试方法。嘉宾指出前沿模型因内置安全训练而极不擅长自我审查,必须通过专门训练的模型或众包社区来进行有效的红队测试。",
+      "how_described": "本集把它说成:通过模拟黑客攻击来主动发掘模型软肋的过程。文中探讨了人类红队测试员和自动化红队测试模型,并指出对抗性的红队测试还能用来逼出模型因「藏拙」而隐藏的真实能力。",
       "source": "glm",
       "evidence": [
         {
@@ -733,7 +862,7 @@
       "name": "提示词注入 (prompt injection)",
       "file": "提示词注入",
       "primary": true,
-      "how_described": "本集把它说成:由第三方在数据中间接植入恶意指令,操纵智能体执行坏事的攻击手段。它与直接提示词注入不同,只要系统满足摄取不可信数据、访问敏感信息和向外发送数据这三个条件(致命三角),就会构成最高风险。",
+      "how_described": "本集把它说成:第三方将恶意指令注入到智能体摄取的外部数据中,诱骗它偏离原有目标去执行坏操作(如泄露敏感信息),这构成了 AI 安全的核心风险之一。",
       "source": "glm",
       "evidence": [
         {
@@ -883,41 +1012,50 @@
       ]
     },
     {
-      "id": "robustness",
+      "id": "jailbreak",
       "type": "concept",
       "role": "concept",
-      "name": "鲁棒性 (robustness)",
-      "file": "鲁棒性",
+      "name": "越狱 (jailbreak)",
+      "file": "越狱",
       "primary": true,
-      "how_described": "本集把它说成:模型抵抗对抗性攻击(如越狱和提示词注入)的能力。嘉宾强调鲁棒性不会随着模型变大而自然增长,必须经过专门的外部训练才能获得。",
+      "how_described": "本集把它说成:突破大模型内置安全限制的行为。由于前沿模型自带极强安全护栏,直接用它们去越狱其他模型往往会被拒绝执行。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 448,
+          "seg": 206,
           "t": [
-            1152.799,
-            1154.862
+            543.585,
+            547.667
           ],
-          "quote": "Browser Agent Robustness Challenge.",
+          "quote": "we're still able to find ways to interact prompt inject or jailbreak or just",
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 599,
+          "seg": 233,
           "t": [
-            1561.211,
-            1562.653
+            607.025,
+            610.891
           ],
-          "quote": "You mean robustness?",
-          "speaker": "SPEAKER_01"
+          "quote": " So if you try to use them to jailbreak another model, they will actually refuse.",
+          "speaker": "SPEAKER_00"
         },
         {
-          "seg": 601,
+          "seg": 664,
           "t": [
-            1563.674,
-            1567.56
+            1761.202,
+            1762.042
           ],
-          "quote": "I guess robustness to injections and attacks like this.",
-          "speaker": "SPEAKER_01"
+          "quote": "jailbreak the agent?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 693,
+          "t": [
+            1812.787,
+            1815.93
+          ],
+          "quote": "And sometimes it's not even, you know, a jailbreak.",
+          "speaker": "SPEAKER_02"
         }
       ]
     },
@@ -928,7 +1066,7 @@
       "name": "护栏 (guardrails)",
       "file": "护栏",
       "primary": true,
-      "how_described": "本集把它说成:部署在基础模型外部,用于拦截恶意输入或违规工具调用的安全过滤系统。例如,基于自然语言书写的策略来判断智能体的行为是否违反企业自定义的合规要求。",
+      "how_described": "本集把它说成:部署在模型或系统外围的安全防线/过滤系统。基础模型自带的通用护栏在对抗性环境下非常脆弱,因此需要企业部署专门的定制化护栏。",
       "source": "glm",
       "evidence": [
         {
@@ -966,8 +1104,8 @@
       "role": "concept",
       "name": "沙箱 (sandbox)",
       "file": "沙箱",
-      "primary": false,
-      "how_described": "本集把它说成:一种用于隔离程序运行的环境。嘉宾指出,把智能体关在完全隔离的沙箱里最安全,但这会限制它的能力和可用性。",
+      "primary": true,
+      "how_described": "本集提到它是隔离智能体权限的运行环境,但也指出企业为了不影响智能体的能力,通常不想把智能体放在沙箱里。",
       "source": "glm",
       "evidence": [
         {
@@ -991,79 +1129,268 @@
       ]
     },
     {
-      "id": "mechinterp",
+      "id": "interpretability",
       "type": "concept",
       "role": "concept",
-      "name": "机械可解释性 (Mechinterp)",
-      "file": "机械可解释性",
-      "primary": false,
-      "how_described": "本集把它说成:一门旨在通过逆向工程理解神经网络内部机制的科学。嘉宾认为,随着 AI 编程智能体能够自动化运行大量对照实验,这门过去进展缓慢的学科将迎来爆发。",
+      "name": "可解释性 (interpretability)",
+      "file": "可解释性",
+      "primary": true,
+      "how_described": "本集把它说成:剖析深度学习模型内部激活回路和行为的科学。过去因耗费极大人力而进展缓慢,现在有望通过智能体将其自动化并迎来大爆发。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 374,
+          "seg": 416,
           "t": [
-            952.14,
-            956.501
+            1056.628,
+            1061.373
           ],
-          "quote": "So my tangent here is I have felt that Mechinterp is also very far behind where",
+          "quote": "science we should automate is the science of interpretability yes the science of",
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 377,
+          "seg": 437,
           "t": [
-            959.482,
-            964.003
+            1117.294,
+            1121.598
           ],
-          "quote": "or I should say more optimistic about Mechinterp in that I think actually,",
+          "quote": " science of interpretability advances as a science of adversarial red teaming advances.",
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 996,
+          "seg": 1003,
           "t": [
-            2584.478,
-            2587.321
+            2604.081,
+            2605.562
           ],
-          "quote": " agents to enhance the science of Mechinterp.",
+          "quote": "advances in interpretability broadly,",
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 1001,
+          "seg": 1033,
           "t": [
-            2599.478,
-            2602.74
+            2688.191,
+            2691.214
           ],
-          "quote": "is another potential direction is sort of advances in mechinterp,",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 1002,
-          "t": [
-            2602.82,
-            2604.061
-          ],
-          "quote": "or I shouldn't use a mechinterp,",
+          "quote": " You can have your agent do your interpretability research.",
           "speaker": "SPEAKER_00"
         }
       ]
     },
     {
-      "id": "correlated-failures",
+      "id": "lethal-trifecta",
       "type": "concept",
       "role": "concept",
-      "name": "相关故障 (correlated failures)",
-      "file": "相关故障",
-      "primary": false,
-      "how_described": "本集把它说成:AI 系统引入的一种新威胁特征。由于所有人都依赖于少数几个基础模型,一旦这些被广泛使用的智能体中出现漏洞,就会导致大量系统同时崩溃或被攻破。",
+      "name": "致命三角 (lethal trifecta)",
+      "file": "致命三角",
+      "primary": true,
+      "how_described": "本集把它说成:由 Simon Wilson 提出的经典安全框架,指智能体同时具备(1)接收外部不可信数据、(2)访问内部私有信息、(3)对外发送数据能力,这三者交汇时便构成极高的风险。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 82,
+          "seg": 789,
           "t": [
-            203.575,
-            208.939
+            2034,
+            2036.901
           ],
-          "quote": "And especially when there's the possibility of correlated failures, right?",
+          "quote": "Have we covered all the elements of the lethal trifecta?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 796,
+          "t": [
+            2045.564,
+            2050.025
+          ],
+          "quote": "So the lethal trifecta kind of refers to the things that make the risk highest or",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1057,
+          "t": [
+            2742.988,
+            2747.089
+          ],
+          "quote": "And like, I think a lot of people are, and I think that is the lethal trifecta nightmare.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "alien-intelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "外星智能 (alien intelligence)",
+      "file": "外星智能",
+      "primary": false,
+      "how_described": "本集把 AI 的本质说成是一种绝对具有智能、但与人类截然不同形式的智能。人类会被低级的网络钓鱼骗到,而最先进的前沿模型有时会中极其荒谬的招数。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 339,
+          "t": [
+            867.969,
+            869.511
+          ],
+          "quote": "It's some alien intelligence that is...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "formally-verify",
+      "type": "concept",
+      "role": "concept",
+      "name": "形式化验证 (formally verify)",
+      "file": "形式化验证",
+      "primary": false,
+      "how_described": "本集提到这是用算法严格证明和检查软件代码安全性的方法;过去极其耗费人力,现在有望利用智能体自动编写这类安全代码。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 955,
+          "t": [
+            2478.952,
+            2481.693
+          ],
+          "quote": "like formally verify and check with an algorithm.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "arena",
+      "type": "concept",
+      "role": "concept",
+      "name": "arena",
+      "file": "arena",
+      "primary": true,
+      "how_described": "本集把它说成:由 Gray Swan 运营的一个红队测试社区,通过奖金池将安全测试游戏化,目前有约 15000 名活跃成员在上面找模型的漏洞。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 180,
+          "t": [
+            472.666,
+            474.407
+          ],
+          "quote": " One is the race one arena.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 270,
+          "t": [
+            721.852,
+            725.235
+          ],
+          "quote": " Zico, I want to point out that you just threw up a challenge for everyone on the arena, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 309,
+          "t": [
+            807.466,
+            810.507
+          ],
+          "quote": "you mean in the concept of the arena itself or you mean in general terms of this?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 447,
+          "t": [
+            1148.914,
+            1152.759
+          ],
+          "quote": "One of the recent arena challenges or competitions that we had was called the Human",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 609,
+          "t": [
+            1591.185,
+            1594.087
+          ],
+          "quote": " And that's with the arena, that's with this automated editing system called Shade.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1338,
+          "t": [
+            3459.098,
+            3462.663
+          ],
+          "quote": " Is there a future where your customers are part of the arena?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1345,
+          "t": [
+            3479.822,
+            3483.663
+          ],
+          "quote": "You mean testing enterprise enterprise deployments inside the arena.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1346,
+          "t": [
+            3483.963,
+            3487.424
+          ],
+          "quote": "So we have had, you know, the situation where people join the arena.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1349,
+          "t": [
+            3491.846,
+            3494.95
+          ],
+          "quote": "They come across the arena and then eventually they become a customer like when",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1373,
+          "t": [
+            3536.416,
+            3539.657
+          ],
+          "quote": "What was the class of problem they work on that would require a private arena?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1376,
+          "t": [
+            3543.558,
+            3548.84
+          ],
+          "quote": "Enterprises are not willing to put up their pre-deployment agents on the arena for",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1378,
+          "t": [
+            3550.48,
+            3554.582
+          ],
+          "quote": "They're fine if it's 20 people that we've handpicked from the arena.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1384,
+          "t": [
+            3569.963,
+            3572.146
+          ],
+          "quote": " And it differs for each arena, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1418,
+          "t": [
+            3647.63,
+            3650.495
+          ],
+          "quote": "Well, use a tool like Shade or use Arena, right?",
           "speaker": "SPEAKER_00"
         }
       ]
@@ -1075,7 +1402,7 @@
       "name": "Shade",
       "file": "Shade",
       "primary": true,
-      "how_described": "本集把它说成:Gray Swan 开发的一套专门用于自动化寻找漏洞的红队测试模型系统。嘉宾表示,由于它寻找的是分布外的攻击方式,在特定任务的限时测试中,其找漏洞的能力已超越人类红队测试员。",
+      "how_described": "本集把它说成:Gray Swan 研发的自动化红队测试模型系统。专门被训练去「越狱」其他模型,在限定时间与任务下,打破模型的能力已超越了人类红队测试员。",
       "source": "glm",
       "evidence": [
         {
@@ -1168,7 +1495,7 @@
       "name": "Signal",
       "file": "Signal",
       "primary": true,
-      "how_described": "本集把它说成:Gray Swan 推出的专属护栏过滤模型。它位于用户、大语言模型和工具调用之间,双向审查数据以寻找潜在的提示词注入,并拦截违反企业自定义数据使用政策的工具调用。",
+      "how_described": "本集把它说成:Gray Swan 研发的专用防御过滤模型(取自天鹅 swan 的谐音)。位于用户、大模型和工具调用之间,专门盯着策略违规行为(如试图发 API 密钥到不受信任的地址)。",
       "source": "glm",
       "evidence": [
         {
@@ -1363,62 +1690,377 @@
       ]
     },
     {
-      "id": "lethal-trifecta",
+      "id": "mythos",
       "type": "concept",
       "role": "concept",
-      "name": "致命三角 (lethal trifecta)",
-      "file": "致命三角",
+      "name": "Mythos",
+      "file": "Mythos",
       "primary": false,
-      "how_described": "本集把它说成:由 Simon Wilson 提出的概念,概括了提示词注入构成最高风险的三个必要条件:能摄取不可信的外部数据、能访问私有敏感信息、具备向外发送(泄露)数据的能力。",
+      "how_described": "本集提到它是 Anthropic 的模型,嘉宾用它演示了编码智能体在抓取不受信任内容时的提示注入鲁棒性问题。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 789,
+          "seg": 145,
           "t": [
-            2034,
-            2036.901
+            379.376,
+            383.101
           ],
-          "quote": "Have we covered all the elements of the lethal trifecta?",
+          "quote": "One of the reasons we reached out to you was you were involved in the Cloud Mythos",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 796,
+          "seg": 150,
           "t": [
-            2045.564,
-            2050.025
+            394.718,
+            395.64
           ],
-          "quote": "So the lethal trifecta kind of refers to the things that make the risk highest or",
+          "quote": "it doesn't have to be Mythos,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            400.847,
+            403.531
+          ],
+          "quote": "In the Mythos case, I'll talk about that because you have it up on the screen.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 157,
+          "t": [
+            412.218,
+            416.119
+          ],
+          "quote": "If you operate a coding agent use Mythos as as the model,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1093,
+          "t": [
+            2797.655,
+            2800.017
+          ],
+          "quote": "And you guys also did this for the Mythos side of things.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集提到它是大家通用的编码智能体之一,如果在它里面找到漏洞,就拥有了一类全新的、可广泛利用的攻击方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            222.388,
+            223.809
+          ],
+          "quote": "things like Codex and Cloud Code,",
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 1057,
+          "seg": 980,
           "t": [
-            2742.988,
-            2747.089
+            2546.584,
+            2548.987
           ],
-          "quote": "And like, I think a lot of people are, and I think that is the lethal trifecta nightmare.",
+          "quote": "if Claude and Codex are writing our code for us,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1154,
+          "t": [
+            2968.615,
+            2973.183
+          ],
+          "quote": "a system like Codex or Cloud Code has without sort of too many plugins enabled",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1284,
+          "t": [
+            3310.924,
+            3314.725
+          ],
+          "quote": "for all enterprise as they adopt tools like Codex,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集提到它在为我们编写代码,并强调了当它擅长编写安全代码时的潜力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 980,
+          "t": [
+            2546.584,
+            2548.987
+          ],
+          "quote": "if Claude and Codex are writing our code for us,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cloud-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Cloud Code",
+      "file": "Cloud Code",
+      "primary": false,
+      "how_described": "本集提到它是大家通用的智能体之一,如果在它里面找到漏洞,就拥有了一类全新的、可广泛利用的攻击方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            222.388,
+            223.809
+          ],
+          "quote": "things like Codex and Cloud Code,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 926,
+          "t": [
+            2407.691,
+            2412.133
+          ],
+          "quote": "But you don't necessarily want your cloud code that you were hoping was going to",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1100,
+          "t": [
+            2831.949,
+            2836.59
+          ],
+          "quote": "But that is exclusively what I use, like codecs, computer use, cloud code work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1154,
+          "t": [
+            2968.615,
+            2973.183
+          ],
+          "quote": "a system like Codex or Cloud Code has without sort of too many plugins enabled",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1285,
+          "t": [
+            3315.065,
+            3315.925
+          ],
+          "quote": "like Cloud Code,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "concept",
+      "role": "concept",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": true,
+      "how_described": "本集把它说成:攻击面非常大的通用智能体/计算机使用环境。由于它会直接作为用户去操作,Gray Swan 专门为它开发了大量的刹车和护栏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1060,
+          "t": [
+            2755.132,
+            2758.295
+          ],
+          "quote": "We have developed a whole lot of breaks for OpenClaw in particular.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1073,
+          "t": [
+            2767.806,
+            2771.35
+          ],
+          "quote": "natural trajectories of humans using OpenClaw in various settings,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1079,
+          "t": [
+            2778.593,
+            2781.277
+          ],
+          "quote": "we do have a guardrails that you can integrate into OpenClaw,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1081,
+          "t": [
+            2783.14,
+            2784.502
+          ],
+          "quote": "OpenClaw is very,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1091,
+          "t": [
+            2794.093,
+            2794.353
+          ],
+          "quote": "OpenClaw,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1104,
+          "t": [
+            2840.335,
+            2843.96
+          ],
+          "quote": "So when you have computer use and when you have OpenClaw, man, you can break those things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1141,
+          "t": [
+            2933.235,
+            2934.918
+          ],
+          "quote": "And even with OpenClaw, so, you",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1155,
+          "t": [
+            2973.223,
+            2974.605
+          ],
+          "quote": "where it becomes essentially like OpenClaw.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1157,
+          "t": [
+            2980.088,
+            2981.068
+          ],
+          "quote": "anything OpenClaw can do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1166,
+          "t": [
+            3011.816,
+            3013.298
+          ],
+          "quote": "If you're going to put OpenClaw in a bank,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "llama-guard",
+      "type": "concept",
+      "role": "concept",
+      "name": "llama guard",
+      "file": "llama guard",
+      "primary": false,
+      "how_described": "本集提到它是各实验室发布的开源护栏之一,但由于不可配置,通常不会被直接部署在生产环境中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 604,
+          "t": [
+            1574.129,
+            1580.035
+          ],
+          "quote": " But it'd be nice if I just had like a llama guard or whatever the I mean, so we develop.",
           "speaker": "SPEAKER_01"
         }
       ]
     },
     {
-      "id": "agent-native-identity",
+      "id": "soc-2",
       "type": "concept",
       "role": "concept",
-      "name": "智能体原生身份 (agent native identity)",
-      "file": "智能体原生身份",
+      "name": "SOC 2",
+      "file": "SOC 2",
       "primary": false,
-      "how_described": "本集把它说成:解决智能体权限泛滥问题的关键机制。嘉宾预测,未来的智能体将拥有基于不同应用场景的独立配置文件(类似人类区分工作和家庭身份),以此作为权限隔离的最小可行方案。",
+      "how_described": "本集把它说成:现有的合规行业标准(类似护照的最低要求),但目前尚未形成被监管机构普遍接受的成熟 AI 领域合规框架。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 1180,
+          "seg": 1484,
           "t": [
-            3044.932,
-            3050.036
+            3791.928,
+            3795.009
           ],
-          "quote": "So, you know, a close cousin of this conversation I always have is agent native identity, right?",
+          "quote": " So I think SOC 2 is not a great model, we'll just say, but it is a model.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1505,
+          "t": [
+            3854.307,
+            3856.828
+          ],
+          "quote": "would you want them to fully establish a SOC 2,",
           "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1511,
+          "t": [
+            3863.789,
+            3867.61
+          ],
+          "quote": "So SOC 2 is not legally binding in any sense, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "chain-of-thought",
+      "type": "concept",
+      "role": "concept",
+      "name": "思维链 (chain of thought)",
+      "file": "思维链",
+      "primary": false,
+      "how_described": "本集提到它是模型思考的过程,嘉宾认为它在很大程度上(直到它们用数字思考前)是能相当好地反映模型内在意图的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 537,
+          "t": [
+            1388.886,
+            1392.33
+          ],
+          "quote": "there are lots of times where if you trust the chain of thought,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 538,
+          "t": [
+            1392.35,
+            1394.793
+          ],
+          "quote": "which I tend to think chain of thought's pretty good.",
+          "speaker": "SPEAKER_00"
         }
       ]
     }

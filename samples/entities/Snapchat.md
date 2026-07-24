@@ -6,16 +6,20 @@ entity_type: 公司
 # Snapchat
 
 > [!info] 公司
-> 出现在 1 集 · 金句 0 条 · 关联 10 个
+> 出现在 1 集 · 金句 1 条 · 关联 10 个
 
 ## 集里怎么说它
 
-- **[[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel:在AI时代,做最会创新的公司》]]**(01:21起):本集主要讨论的社交应用。它靠连接最亲密的朋友而非所有人来实现分发增长；主打阅后即焚，并通过巧妙监听触摸事件实现了截图检测机制。目前拥有超过 10 亿月活、年收入超 60 亿美元。
+- **[[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要》]]**(01:21起):15 年前发布的持久消费者社交应用，本集说它当初的崛起靠的是连接用户「最在乎的少数人」(亲密关系),而非像传统社交网络那样追求把所有人连起来。
+
+## 金句
+
+![[2026-06-14-lennys-the-common-pattern-behind-successful#^q12]]
 
 ## 出现在这些集
 
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel:在AI时代,做最会创新的公司》]] — 作为被讨论公司
+- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Lenny]] · [[Evan Spiegel]] · [[Snap]] · [[TikTok]] · [[Threads]] · [[Meta]] · [[Apple]] · [[Anthropic]] · [[Figma]] · [[Claude]]
+[[Lenny]] · [[Evan Spiegel]] · [[Snap]] · [[Spectacles]] · [[Specs]] · [[Glean]] · [[分发]] · [[护城河]] · [[网络效应]] · [[增强现实]]

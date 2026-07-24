@@ -2,36 +2,66 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "09:58",
+      "timestamp": "03:37",
       "speaker": "Zico Kolter",
       "trimmed": false,
-      "tsWas": "09:59",
+      "tsWas": "03:42",
       "spkWas": "Zico Kolter"
     },
     {
       "i": 2,
-      "timestamp": "17:35",
+      "timestamp": "10:01",
       "speaker": "Zico Kolter",
       "trimmed": false,
-      "tsWas": "17:36",
+      "tsWas": "10:03",
       "spkWas": "Zico Kolter"
     },
     {
       "i": 3,
-      "timestamp": "27:04",
+      "timestamp": "14:27",
       "speaker": "Zico Kolter",
       "trimmed": false,
-      "tsWas": "27:04",
+      "tsWas": "14:30",
       "spkWas": "Zico Kolter"
     },
     {
       "i": 4,
-      "timestamp": "27:32",
+      "timestamp": "21:06",
       "speaker": "Zico Kolter",
       "trimmed": false,
-      "tsWas": "27:32",
+      "tsWas": "21:06",
+      "spkWas": "Zico Kolter"
+    },
+    {
+      "i": 5,
+      "timestamp": "27:11",
+      "speaker": "Zico Kolter",
+      "trimmed": true,
+      "tsWas": "27:13",
+      "spkWas": "Zico Kolter"
+    },
+    {
+      "i": 6,
+      "timestamp": "35:35",
+      "speaker": "Zico Kolter",
+      "trimmed": false,
+      "tsWas": "35:31",
+      "spkWas": "Zico Kolter"
+    },
+    {
+      "i": 8,
+      "timestamp": "44:43",
+      "speaker": "Zico Kolter",
+      "trimmed": false,
+      "tsWas": "44:43",
       "spkWas": "Zico Kolter"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 7,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "I think that we're at this cusp where we can actually Start to automate this process and in automating it, make it more of a science."
+    }
+  ]
 }

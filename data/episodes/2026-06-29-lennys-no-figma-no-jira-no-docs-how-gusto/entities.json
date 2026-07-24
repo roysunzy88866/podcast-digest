@@ -1,13 +1,13 @@
 {
   "episode_id": "2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto",
-  "podcast": null,
-  "date": null,
+  "podcast": "Lenny's Podcast",
+  "date": "2026-06-29",
   "tags": [
-    "AI 时代软件开发",
-    "智能体",
-    "极简架构",
-    "代码成本归零",
-    "凭感觉编程"
+    "AI 产品开发",
+    "直觉编程",
+    "极简技术栈",
+    "高管下场",
+    "无文档工作法"
   ],
   "entities": [
     {
@@ -57,7 +57,7 @@
       "name": "Gusto",
       "file": "Gusto",
       "primary": true,
-      "how_described": "本集讨论的所属公司，拥有超过一千名研发员工，并在 10 周内由 5 人小团队从零构建发布了全新智能体产品 Co-Founder。",
+      "how_described": "本集嘉宾所在的、拥有上千名研发人员的科技公司，主营薪资发放和人力资源服务，内部孵化出了全新的 AI 助手产品线。",
       "source": "glm",
       "evidence": [
         {
@@ -285,7 +285,7 @@
       "name": "Co-Founder",
       "file": "Co-Founder",
       "primary": true,
-      "how_described": "本集核心产品，由 Gusto 推出的智能体产品。它自带 Gusto 已有的业务信息（如员工、排班、薪资等），并能通过 SMS 或 Slack 跨渠道接收自然语言指令来自动化复杂工作流（如算薪）。",
+      "how_described": "本集讨论的核心产品，Gusto 推出的 AI 助手。支持通过 SMS 短信或 Slack 沟通，能够自动拉取系统数据、按自然语言设定的规则完成计算并运行薪资发放等任务。",
       "source": "glm",
       "evidence": [
         {
@@ -489,167 +489,62 @@
       ]
     },
     {
-      "id": "vibe-code",
+      "id": "vibe-coding",
       "type": "concept",
       "role": "concept",
-      "name": "vibe code",
-      "file": "vibe code",
+      "name": "vibe coding",
+      "file": "vibe coding",
       "primary": true,
-      "how_described": "本集将它描述为一种新的开发范式：技术领导者可以利用长假或连续时间，凭借直觉使用 AI 编程工具将脑海中的想法快速变成代码原型。",
+      "how_described": "本集将这种方式描述为：完全凭借人的直觉和感觉引导 AI 写代码，而不做细致的文档和规划，嘉宾在机场延误时正是靠这种方式写出了产品原型。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 102,
+          "seg": 129,
           "t": [
-            354.077,
-            358.06
+            441.094,
+            446.058
           ],
-          "quote": "that like vibe code something over a weekend and then comes",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 146,
-          "t": [
-            507.343,
-            513.068
-          ],
-          "quote": "if you go on vacation and vibe code something awesome, we're happy to give you more.",
+          "quote": "That is where I have heard the vibe coding magic happens over and over again.",
           "speaker": "SPEAKER_00"
         }
       ]
     },
     {
-      "id": "trashcan-method",
+      "id": "perma-zoom",
       "type": "concept",
       "role": "concept",
-      "name": "垃圾桶法 (trashcan method)",
-      "file": "垃圾桶法",
+      "name": "永久 Zoom (perma-zoom)",
+      "file": "永久 Zoom",
       "primary": true,
-      "how_described": "本集提出的一种软件工程新方法：因为写代码成本极低，开发者可以直接写完一个完整的拉取请求（PR），如果讨论后发现不需要，就能毫不犹豫地直接删掉，甚至推倒重写。",
+      "how_described": "本集把它说成一种颠覆常规的协作机制：一个 24 小时全天候开着的 Zoom 视频会议室，团队成员远程在里面安静写代码或随时找人审查，取代了所有常规会议。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 22,
+          "seg": 184,
           "t": [
-            57.037,
-            60.249
+            627.059,
+            631.461
           ],
-          "quote": "I call this the trashcan method of software engineering right now,",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 258,
-          "t": [
-            890.019,
-            893.532
-          ],
-          "quote": "Yeah, I call this the trashcan method of software engineering right now",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "pull-request",
-      "type": "concept",
-      "role": "concept",
-      "name": "拉取请求 (pull request)",
-      "file": "拉取请求",
-      "primary": true,
-      "how_described": "本集被用作团队决策和产品讨论的核心机制：功能写好后提交准备供人类审查的 PR，团队在永久 Zoom 房间里讨论其是否有意义，如果不合适就直接删掉该 PR。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 245,
-          "t": [
-            840.079,
-            842.9123333333333
-          ],
-          "quote": "We submit, we open a pull request and this is not a",
+          "quote": "The only thing we decided to keep was a 24-7 perma-zoom,",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 246,
+          "seg": 671,
           "t": [
-            843.481,
-            844.242
+            2374.824,
+            2378.865
           ],
-          "quote": " Draft pull request.",
+          "quote": "the zoom perma zoom and you know get someone to review this",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 247,
+          "seg": 719,
           "t": [
-            844.262,
-            849.151
+            2523.243,
+            2527.006
           ],
-          "quote": "This is actually a pull request that is ready for a human code review.",
+          "quote": "we just want you to have a perma zoom and like we're giving you permission to do it",
           "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 250,
-          "t": [
-            856.603,
-            860.708
-          ],
-          "quote": "and we're okay with deleting that pull request if if the answer is no right you have",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 251,
-          "t": [
-            860.728,
-            863.872
-          ],
-          "quote": "a perfectly good pull request that was written that's like ready",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 670,
-          "t": [
-            2370.563,
-            2374.784
-          ],
-          "quote": "and and then and only then asking it to open up a pull request then I go to",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "feature-flag",
-      "type": "concept",
-      "role": "concept",
-      "name": "功能标志 (feature flag)",
-      "file": "功能标志",
-      "primary": true,
-      "how_described": "本集将其描述为「雕塑式」开发流程的关键支撑技术：允许设计师把带假响应的纯前端体验先发布到生产环境，随后工程师在后台并行构建真实逻辑并缓慢替换。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 341,
-          "t": [
-            1167.628,
-            1172.743
-          ],
-          "quote": " Were you merging those into your production app and putting them behind a feature flag?",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 362,
-          "t": [
-            1241.123,
-            1244.4750000000001
-          ],
-          "quote": "And that actually got shipped to production behind this feature flag.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 881,
-          "t": [
-            3070.686,
-            3075.509
-          ],
-          "quote": "So I'm going to ask you to feature flag me into the beta and I will send you all",
-          "speaker": "SPEAKER_00"
         }
       ]
     },
@@ -660,7 +555,7 @@
       "name": "智能体 (agent)",
       "file": "智能体",
       "primary": true,
-      "how_described": "本集主要探讨的通用技术概念，被描述为其实并没有那么可怕和复杂，本质上就是运行在云端某处的智能体 SDK，具备查找文件和调用工具的能力。",
+      "how_described": "本集重点探讨的通用概念。嘉宾强调构建智能体产品不再需要复杂的脚手架，只需通过 SDK 在云端跑实际的智能体循环，搭配简单的工具即可，没什么可怕的。",
       "source": "glm",
       "evidence": [
         {
@@ -792,190 +687,43 @@
       ]
     },
     {
-      "id": "agent-loop",
+      "id": "trashcan-method",
       "type": "concept",
       "role": "concept",
-      "name": "智能体循环 (agent loop)",
-      "file": "智能体循环",
+      "name": "垃圾桶法 (trashcan method)",
+      "file": "垃圾桶法",
       "primary": true,
-      "how_described": "本集指出，过去那种复杂的智能体循环栈已经不再需要，现在只需基于 Cloudflare Worker 和 AI SDK 构建极简的循环就足以驱动生产级产品。",
+      "how_described": "本集提到的一种新型软件工程方法：因为写代码的成本已经降到极低，如果觉得一段功能代码写得不对，不用费力修补，直接全删掉重开一个分支从头再来在商业上也完全划得来。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 4,
+          "seg": 22,
           "t": [
-            9.716,
-            13.799
+            57.037,
+            60.249
           ],
-          "quote": "We used Cloudflare Worker for the actual agent loop and Vercel AI SDK.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 312,
-          "t": [
-            1064.267,
-            1067.2114444444444
-          ],
-          "quote": "on we use cloudflare worker for the actual agent loop",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 321,
-          "t": [
-            1101.838,
-            1105.96
-          ],
-          "quote": "as complex like AI agent loop stack, I think is no longer needed.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 358,
-          "t": [
-            1230.679,
-            1233.12
-          ],
-          "quote": "It's not actually going to any kind of agent loop.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 364,
-          "t": [
-            1249.367,
-            1255.349
-          ],
-          "quote": "They build the agent loop and they would start to connect this to the faked front end",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 511,
-          "t": [
-            1798.836,
-            1800.468
-          ],
-          "quote": "It's kind of like the normal agent loop.",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "cloud-code",
-      "type": "concept",
-      "role": "concept",
-      "name": "Cloud Code",
-      "file": "Cloud Code",
-      "primary": true,
-      "how_described": "本集中嘉宾使用的主要 AI 编程工具。他在五小时的转机候机时间里，用它写出了产品原型，并用它来快速构建功能、甚至编写失败的评估来修复问题。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 36,
-          "t": [
-            98.422,
-            104.227
-          ],
-          "quote": "Today's engineers use cursor and cloud code to ship features in hours that used to take weeks.",
+          "quote": "I call this the trashcan method of software engineering right now,",
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 51,
+          "seg": 258,
           "t": [
-            141.541,
-            145.024
+            890.019,
+            893.532
           ],
-          "quote": "engineers can connect your prototype to cursor or cloud code with",
+          "quote": "Yeah, I call this the trashcan method of software engineering right now",
           "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 100,
-          "t": [
-            347.832,
-            350.174
-          ],
-          "quote": "And I had been like kind of playing around with cloud code.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 107,
-          "t": [
-            371.469,
-            374.59
-          ],
-          "quote": "that was my start into it as I started using cloud code a lot more first",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 194,
-          "t": [
-            656.093,
-            657.873
-          ],
-          "quote": "a lot of Cloud Code tokens,",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 208,
-          "t": [
-            704.079,
-            707.579
-          ],
-          "quote": "the entire product basically off this cloud code in a permazoom",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 244,
-          "t": [
-            835.536,
-            839.558
-          ],
-          "quote": "But these days with cloud code, we literally like write some, a feature.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 584,
-          "t": [
-            2057.816,
-            2062.738
-          ],
-          "quote": "by how many therapists we have and it just goes and it's kind of like cloud code",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 628,
-          "t": [
-            2192.406,
-            2196.568
-          ],
-          "quote": "So tell me a little bit about how you're using Cloud Code or maybe show a little bit",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 633,
-          "t": [
-            2210.688,
-            2216.073
-          ],
-          "quote": "yeah let's give a little review of how how i write code how i cloud code all right",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 643,
-          "t": [
-            2250.101,
-            2256.103
-          ],
-          "quote": "so it feels like cheating almost is I'm gonna start cloud code here",
-          "speaker": "SPEAKER_01"
         }
       ]
     },
     {
       "id": "cloudflare-worker",
-      "type": "company",
-      "role": "company",
+      "type": "concept",
+      "role": "concept",
       "name": "Cloudflare Worker",
       "file": "Cloudflare Worker",
       "primary": true,
-      "how_described": "本集中 Co-Founder 智能体使用的核心底层技术之一，被用于运行实际的无状态智能体循环。",
+      "how_described": "本集把它说成一种在云端运行的轻量级代码执行环境，极简技术栈的核心，团队仅靠它来跑实际的智能体循环。",
       "source": "glm",
       "evidence": [
         {
@@ -1018,12 +766,12 @@
     },
     {
       "id": "vercel-ai-sdk",
-      "type": "company",
-      "role": "company",
+      "type": "concept",
+      "role": "concept",
       "name": "Vercel AI SDK",
       "file": "Vercel AI SDK",
       "primary": true,
-      "how_described": "本集中 Co-Founder 智能体使用的另一核心底层技术，用于在云端运行智能体逻辑并允许切换不同模型。",
+      "how_described": "本集提到的一套帮助快速搭建 AI 应用的工具包，团队的技术栈除了 Cloudflare Worker 外仅使用了它，不再需要任何第三方的记忆或规划框架。",
       "source": "glm",
       "evidence": [
         {
@@ -1038,157 +786,22 @@
       ]
     },
     {
-      "id": "perma-zoom",
+      "id": "claude-code",
       "type": "concept",
       "role": "concept",
-      "name": "永久 Zoom (perma-zoom)",
-      "file": "永久 Zoom",
+      "name": "Claude Code",
+      "file": "Claude Code",
       "primary": true,
-      "how_described": "本集描述的取代所有常规会议和文档的唯一结构化工具：一个 24 小时开着的 Zoom 房间，远程团队成员在其中安静写代码并随时开口讨论 PR。",
+      "how_described": "本集提到的一款强大的命令行 AI 编程助手，嘉宾用它在机场写出了产品原型，并用它来跑从写评估测试到生成代码和提交拉取请求的完整开发流程。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 184,
+          "seg": 847,
           "t": [
-            627.059,
-            631.461
+            2947.106,
+            2951.427
           ],
-          "quote": "The only thing we decided to keep was a 24-7 perma-zoom,",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 671,
-          "t": [
-            2374.824,
-            2378.865
-          ],
-          "quote": "the zoom perma zoom and you know get someone to review this",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 719,
-          "t": [
-            2523.243,
-            2527.006
-          ],
-          "quote": "we just want you to have a perma zoom and like we're giving you permission to do it",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "dx",
-      "type": "company",
-      "role": "company",
-      "name": "DX",
-      "file": "DX",
-      "primary": false,
-      "how_described": "本集提到的一款 PR 统计与开发数据工具，数据显示团队中的设计师在真实代码吞吐量上击败了全公司 94% 的受过专业训练的工程师。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 391,
-          "t": [
-            1357.777,
-            1362.6
-          ],
-          "quote": " And I was just looking at our PR stats, which we use this tool called DX for it.",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "figma",
-      "type": "company",
-      "role": "company",
-      "name": "Figma",
-      "file": "Figma",
-      "primary": false,
-      "how_described": "本集将其描述为传统软件研发流程中被砍掉的「繁文缛节」之一，该智能体团队完全没有使用 Figma，直接以代码代原型。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 414,
-          "t": [
-            1436.717,
-            1441.76
-          ],
-          "quote": "it just slows us down and like designers should just focus on producing Figma so",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 722,
-          "t": [
-            2535.473,
-            2540.677
-          ],
-          "quote": "if you actually produce a doc or figma like you will get a slap on the wrist",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "jira",
-      "type": "company",
-      "role": "company",
-      "name": "JIRA",
-      "file": "JIRA",
-      "primary": false,
-      "how_described": "本集将其描述为被摒弃的传统研发标配之一，团队没有使用 JIRA 看板来追踪故事或工作。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 2,
-          "t": [
-            3.733,
-            8.896
-          ],
-          "quote": "we had no figmas, we had no JIRA board where we tracked stories or tracked work.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 181,
-          "t": [
-            618.716,
-            623.198
-          ],
-          "quote": "We had no JIRA board where we track stories or tracked work.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 454,
-          "t": [
-            1596.374,
-            1599.779
-          ],
-          "quote": " This episode is brought to you by Jira Product Discovery.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 461,
-          "t": [
-            1616.179,
-            1619.956777777778
-          ],
-          "quote": "Jira Product Discovery is where teams actually decide what to build,",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 468,
-          "t": [
-            1636.273,
-            1640.884111111111
-          ],
-          "quote": "you can hand it off straight to JIRA so a developer or even an agent can pick it up",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 470,
-          "t": [
-            1643.017,
-            1648.02
-          ],
-          "quote": "Teams at Canva, Deliveroo, and Toast already use JIRA product discovery.",
+          "quote": "um chat gpt first came out even Claude code didn't like change my world in",
           "speaker": "SPEAKER_00"
         }
       ]
@@ -1200,7 +813,7 @@
       "name": "MindBody",
       "file": "MindBody",
       "primary": false,
-      "how_described": "本集演示中提到的一家按摩水疗中心使用的排班软件，过去需从中导出数据并手动算薪，现可通过 Co-Founder 智能体直接读取并自动计算。",
+      "how_described": "本集顺带提到的一家排班软件公司，水疗中心老板每周需要从中导出数据以计算员工的薪资和提成。",
       "source": "glm",
       "evidence": [
         {
@@ -1233,34 +846,13 @@
       ]
     },
     {
-      "id": "quickbooks",
-      "type": "company",
-      "role": "company",
-      "name": "QuickBooks",
-      "file": "QuickBooks",
-      "primary": false,
-      "how_described": "本集提到的一个第三方财务系统示例，Co-Founder 的连接器可以对接该系统以执行自动化工作流。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 576,
-          "t": [
-            2024.637,
-            2027.9080000000001
-          ],
-          "quote": "Gusto Co-Founder can actually access third-party systems like QuickBooks,",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
       "id": "openclaw",
       "type": "concept",
       "role": "concept",
       "name": "OpenClaw",
       "file": "OpenClaw",
       "primary": false,
-      "how_described": "本集提到的个人智能体项目，嘉宾因亲自在本地（购买 Mac mini）痛苦部署并体验它，才深刻理解了智能体的潜力和痛点，进而孵化出了 Co-Founder。",
+      "how_described": "本集提到的一款需要自行购买硬件(如 Mac mini)并本地部署的开源个人智能体，嘉宾受其切身体验启发，决定把 Co-Founder 做成全云端运行并把短信作为第一交互入口。",
       "source": "glm",
       "evidence": [
         {
@@ -1293,77 +885,23 @@
       ]
     },
     {
-      "id": "eval",
-      "type": "concept",
-      "role": "concept",
-      "name": "评估 (eval)",
-      "file": "评估",
+      "id": "dx",
+      "type": "company",
+      "role": "company",
+      "name": "DX",
+      "file": "DX",
       "primary": false,
-      "how_described": "本集被描述为测试驱动开发在 AI 时代的新形态：让 AI 针对某问题先写一个失败的评估，然后再编写代码修复，直到评估通过。",
+      "how_described": "本集提到的一款工程效率分析工具，团队用它来统计全公司代码合并的真实吞吐量并计算百分位数排名。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 650,
+          "seg": 391,
           "t": [
-            2282.275,
-            2289.275
+            1357.777,
+            1362.6
           ],
-          "quote": "I'd love for you to first write an eval that fails to show that you can reproduce this issue.",
+          "quote": " And I was just looking at our PR stats, which we use this tool called DX for it.",
           "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 653,
-          "t": [
-            2296.461,
-            2297.722
-          ],
-          "quote": "the eval now passes.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 657,
-          "t": [
-            2305.627,
-            2310.291
-          ],
-          "quote": "It's going to write an eval that fails and then get that eval to pass.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 661,
-          "t": [
-            2320.641,
-            2324.645
-          ],
-          "quote": "the pass but when it comes to like eval stuff like AI stuff like it's basically kind",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 663,
-          "t": [
-            2328.609,
-            2332.6645555555556
-          ],
-          "quote": "so always write a eval a failing eval first then write the code to fix it",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 667,
-          "t": [
-            2355.921,
-            2361.442
-          ],
-          "quote": "the most important is actually like reviewing the code that it wrote the eval",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 855,
-          "t": [
-            2974.951,
-            2979.916
-          ],
-          "quote": "you know when when Claude is not writing a great eval when it's not listening",
-          "speaker": "SPEAKER_00"
         }
       ]
     },
@@ -1374,7 +912,7 @@
       "name": "Magic Patterns",
       "file": "Magic Patterns",
       "primary": false,
-      "how_described": "本集播客的广告赞助商，被描述为一款能让产品团队利用真实设计系统，快速从想法生成贴近实际产品原型的工具。",
+      "how_described": "本集节目的赞助商，主打帮助产品团队基于真实设计系统快速构建出能连接 Cursor 或 Cloud Code 的原型。",
       "source": "glm",
       "evidence": [
         {
@@ -1416,44 +954,31 @@
       ]
     },
     {
-      "id": "jira-product-discovery",
+      "id": "coinbase",
       "type": "company",
       "role": "company",
-      "name": "Jira Product Discovery",
-      "file": "Jira Product Discovery",
+      "name": "Coinbase",
+      "file": "Coinbase",
       "primary": false,
-      "how_described": "本集播客的广告赞助商，被描述为一款帮助团队捕获想法、排定优先级并分享动态路线图的工具。",
+      "how_described": "本集顺带提及的一家加密货币交易所，主持人的朋友曾在这里的工程团队进行过删除本地 IDE 等极端管理实验。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 454,
+          "seg": 729,
           "t": [
-            1596.374,
-            1599.779
+            2557.505,
+            2562.35
           ],
-          "quote": " This episode is brought to you by Jira Product Discovery.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 461,
-          "t": [
-            1616.179,
-            1619.956777777778
-          ],
-          "quote": "Jira Product Discovery is where teams actually decide what to build,",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 470,
-          "t": [
-            1643.017,
-            1648.02
-          ],
-          "quote": "Teams at Canva, Deliveroo, and Toast already use JIRA product discovery.",
+          "quote": "This reminds me of what my friend Chinton at Coinbase did is he actually,",
           "speaker": "SPEAKER_00"
         }
       ]
     }
   ],
-  "rejected": []
+  "rejected": [
+    {
+      "name": "chipping away",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
 }

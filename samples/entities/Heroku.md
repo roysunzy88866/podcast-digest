@@ -10,12 +10,12 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《前 GitHub、现 Notion 产品负责人 Max:每个项目的前 10% 现在免费了》]]**(01:21起):本集作为过去的案例被讨论，以其极简的「Git Push Heroku master」部署命令为微小核心，但指出其在与 Kubernetes 的竞争中失败，因为后者能赋能运维团队且不锁定云服务商。
+- **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]]**(01:21起):嘉宾曾在此领导设计团队。讨论了其成功的微小核心：通过 Git Push Heroku master 这行单行命令实现极速部署，但也因企业锁定策略输给了 Kubernetes。
 
 ## 出现在这些集
 
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《前 GitHub、现 Notion 产品负责人 Max:每个项目的前 10% 现在免费了》]] — 作为被讨论公司
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Max Schoening]] · [[Lenny]] · [[Notion]] · [[GitHub]] · [[主观能动性]] · [[可塑软件]] · [[微小核心]] · [[品味]] · [[智能体循环]] · [[渐进式正确性]]
+[[Max Schoening]] · [[Lenny]] · [[Notion]] · [[GitHub]] · [[Anthropic]] · [[OpenAI]] · [[Figma]] · [[主观能动性]] · [[可塑软件]] · [[智能体]]

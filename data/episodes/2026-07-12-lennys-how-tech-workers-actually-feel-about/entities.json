@@ -1,13 +1,13 @@
 {
   "episode_id": "2026-07-12-lennys-how-tech-workers-actually-feel-about",
-  "podcast": null,
-  "date": null,
+  "podcast": "Lenny's Podcast",
+  "date": "2026-07-12",
   "tags": [
-    "科技从业者情绪调查",
-    "职业倦怠",
-    "AI 对就业的影响",
-    "职场心理健康",
-    "科技圈阶层分化"
+    "科技从业者情绪",
+    "倦怠",
+    "认知衰退",
+    "职业分化",
+    "幸福感杠杆"
   ],
   "entities": [
     {
@@ -129,7 +129,7 @@
       "name": "职业倦怠 (burnout)",
       "file": "职业倦怠",
       "primary": true,
-      "how_described": "本集将职业倦怠列为核心议题：尽管 AI 使交付速度比以往都快，但因为员工被塞了更多的需求，导致显著倦怠的比例从去年的 44.7% 激增至 54.7%。",
+      "how_described": "本集数据显示它是科技圈的一大痛点，中重度倦怠比例从去年的 44.7% 飙升至今年的 54.7%。报告指出，虽然 AI 让大家交付得更快，但人们承担了过多的原型、PR 等任务，导致了更多倦怠。",
       "source": "glm",
       "evidence": [
         {
@@ -468,13 +468,100 @@
       ]
     },
     {
+      "id": "cognitive-rot",
+      "type": "concept",
+      "role": "concept",
+      "name": "认知衰退 (cognitive rot)",
+      "file": "认知衰退",
+      "primary": true,
+      "how_described": "本集把它说成是过度依赖 AI 的代价：人们看到 AI 的产出就直接全盘接受，放弃独立思考与判断。受访者原话描述这种状态为「我的大脑正在腐烂」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 451,
+          "t": [
+            2875.403,
+            2883.226
+          ],
+          "quote": "And this is related to phenomenon I've heard about recently, is it cognitive rot?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 480,
+          "t": [
+            3037.29,
+            3044.313
+          ],
+          "quote": "We need to put a little bit more energy into it, into fighting this cognitive rot that we're feeling.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "squeeze",
+      "type": "concept",
+      "role": "concept",
+      "name": "同薪挤压 (squeeze)",
+      "file": "同薪挤压",
+      "primary": true,
+      "how_described": "本集指出科技人最大的恐惧不是被 AI 取代，而是这种「以同样的薪水被期望做更多的事」的过度劳累挤压。AI 解锁的速度直接被转化为了对员工的期望。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 782,
+          "t": [
+            4520.04,
+            4527.184
+          ],
+          "quote": "And then the second thing is, we talked earlier about being overworked, about this squeeze that AI has on us.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 783,
+          "t": [
+            4527.924,
+            4532.827
+          ],
+          "quote": "Who's the person more than anyone else who manages that squeeze?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 907,
+          "t": [
+            5173.3,
+            5181.264
+          ],
+          "quote": "I also would love for people to watch out for this squeeze, being overworked for the same pay.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 918,
+          "t": [
+            5243.375,
+            5245.737
+          ],
+          "quote": "The other is what you said, just watch the squeeze.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 937,
+          "t": [
+            5364.8,
+            5368.242
+          ],
+          "quote": "And then otherwise, manage that squeeze.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
       "id": "nps",
       "type": "concept",
       "role": "concept",
       "name": "NPS",
       "file": "NPS",
       "primary": true,
-      "how_described": "本集用净推荐值（NPS）来衡量从业者是否愿意把自己的岗位推荐给刚入行的朋友，结果发现科技圈没有任何一个岗位（包括最快乐的创始人）的 NPS 为正。",
+      "how_described": "本集借用该指标（区间 -100 到 +100）来衡量科技人是否愿推荐亲友入行。结果显示目前没有任何一个科技岗位的 NPS 为正，连最幸福的创始人也不例外。",
       "source": "glm",
       "evidence": [
         {
@@ -552,190 +639,13 @@
       ]
     },
     {
-      "id": "cognitive-rot",
-      "type": "concept",
-      "role": "concept",
-      "name": "认知衰退 (cognitive rot)",
-      "file": "认知衰退",
-      "primary": true,
-      "how_described": "本集描述了人们因为全盘接受 AI 的输出而不加判断，导致自身思考与判断力萎缩的现象，受访者直言「我的大脑正在腐烂」，生产力提升了但质量下降。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 451,
-          "t": [
-            2875.403,
-            2883.226
-          ],
-          "quote": "And this is related to phenomenon I've heard about recently, is it cognitive rot?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 480,
-          "t": [
-            3037.29,
-            3044.313
-          ],
-          "quote": "We need to put a little bit more energy into it, into fighting this cognitive rot that we're feeling.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "founders",
-      "type": "concept",
-      "role": "concept",
-      "name": "创始人 (founders)",
-      "file": "创始人",
-      "primary": true,
-      "how_described": "本集数据显示创始人连续两年蝉联「最快乐的人」，拥有最高的乐观度（71%）、最低的裁员担忧和最高的 AI 兴奋感（尽管可能存在幸存者偏差）。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 141,
-          "t": [
-            739.122,
-            752.85
-          ],
-          "quote": "Founders, these people who are currently founders and in their journey of running a startup, are incredibly happy, probably because they have lots of agency and autonomy, relatively to the typical employee.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 287,
-          "t": [
-            1905,
-            1922.047
-          ],
-          "quote": "What you are seeing here is that no one is a promoter of their role in tech right now, not even founders who are by far the happiest, happy-go-lucky people in tech right now.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 288,
-          "t": [
-            1922.647,
-            1925.108
-          ],
-          "quote": "Founders would not recommend their roles.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 297,
-          "t": [
-            1966.181,
-            1973.007
-          ],
-          "quote": "We're going to talk about how founders are the happiest people in tech, but still it's a very stressful, hard job.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 299,
-          "t": [
-            1976.87,
-            1981.534
-          ],
-          "quote": "You would think many founders would be like, \"This is the craziest, gnarliest job.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 669,
-          "t": [
-            4003.484,
-            4010.266
-          ],
-          "quote": "It's still founders and people who are working in smaller companies.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 670,
-          "t": [
-            4011.027,
-            4022.271
-          ],
-          "quote": "And I do feel the need to say that when it comes to founders, to your point earlier, not that I know, but being a founder is an incredibly challenging, all encompassing job.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 672,
-          "t": [
-            4036.957,
-            4041.779
-          ],
-          "quote": "Rather than founders who had to shut down their startup or whatever it might be.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 674,
-          "t": [
-            4045.26,
-            4063.927
-          ],
-          "quote": "But yes, when we look at founders and when we look at, in this case, you're looking at company size as well, you can see that whether it's optimism, whether it's burnout, layoff worry, or whether people would recommend their job.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 676,
-          "t": [
-            4070.73,
-            4076.432
-          ],
-          "quote": "It's very clear that founders are top of nearly every measure.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 681,
-          "t": [
-            4096.52,
-            4107.107
-          ],
-          "quote": "And that said, if we talk about founders, even having that ownership and even having that agency has its limits.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 682,
-          "t": [
-            4108.688,
-            4115.533
-          ],
-          "quote": "Many founders are still moderately or at least moderately burnt out, 47% of founders.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 683,
-          "t": [
-            4116.934,
-            4125.119
-          ],
-          "quote": "And as we said earlier, even founders aren't very likely to recommend being a founder to other people right now, which is very interesting.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 692,
-          "t": [
-            4149.926,
-            4152.968
-          ],
-          "quote": "So far interestingly, we've seen two years in a row, founders are the happiest.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 695,
-          "t": [
-            4161.033,
-            4171
-          ],
-          "quote": "But it is really interesting that two years in a row of all of the ... Like the most clear ... One of the clearest takeaways is just founders seem to be happiest across every dimension.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
       "id": "skill-atrophy",
       "type": "concept",
       "role": "concept",
       "name": "技能萎缩 (skill atrophy)",
       "file": "技能萎缩",
       "primary": true,
-      "how_described": "本集提到人们因为过度依赖 AI 走捷径，担心不再深入学习从而导致自身专业技能退化，需要刻意练习和抵抗这种认知衰退。",
+      "how_described": "本集提到由于有了 AI 这个捷径，人们本能地不再去刻意练习和深度思考，导致自身编码或写战略文档等敏锐度与能力下降。",
       "source": "glm",
       "evidence": [
         {
@@ -750,49 +660,145 @@
       ]
     },
     {
-      "id": "guilt",
+      "id": "manager-effectiveness",
       "type": "concept",
       "role": "concept",
-      "name": "内疚感 (guilt)",
-      "file": "内疚感",
+      "name": "经理有效性 (manager effectiveness)",
+      "file": "经理有效性",
       "primary": true,
-      "how_described": "本集指出一种在职业生涯早期人群中尤为明显的「AI 内疚感」，他们觉得利用这项技术完成工作有点像作弊，这种内疚感会随着资历增加而减少。",
+      "how_described": "本集反复证明它是决定员工生死的最强杠杆：如果有极其有效的经理，工作享受度会高出约 65%，倦怠感大幅降低。但悲剧在于只有约 25% 的人认为自己的经理是高效的。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 967,
+          "seg": 751,
           "t": [
-            5528.101,
-            5545.207
+            4368.731,
+            4376.196
           ],
-          "quote": "We're starting to see this AI guilt, and in particular, amongst people who are early in their career in the sense that people who are early in their career feel like leveraging this technology is a little bit like cheating in a sense.",
+          "quote": "And we found this very explicitly last year and this year again, manager effectiveness.",
           "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "great-flattening",
+      "type": "concept",
+      "role": "concept",
+      "name": "大扁平化 (great flattening)",
+      "file": "大扁平化",
+      "primary": true,
+      "how_described": "本集提到当前科技圈「移除层级、保持组织扁平、让经理拥有更多直系下属」的趋势，并担忧在 AI 疯狂挤压员工的背景下，这会削弱经理保护员工免受过度压榨的能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 773,
+          "t": [
+            4487.404,
+            4491.029
+          ],
+          "quote": "First of all, we are in the era of the great flattening.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "imposter-phenomenon",
+      "type": "concept",
+      "role": "concept",
+      "name": "冒名顶替综合征 (imposter phenomenon)",
+      "file": "冒名顶替综合征",
+      "primary": true,
+      "how_described": "本集将其描述为「能干的人觉得自己的成功不属于自己」，并指出在 AI 时代的变体是「AI 内疚感」：早期职业生涯的年轻人觉得使用 AI 像是在作弊。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 970,
+          "t": [
+            5563.253,
+            5571.355
+          ],
+          "quote": "This is related to the well-known and well-established imposter phenomenon, \"I'm not good enough.\"",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": true,
+      "how_described": "本集提到这家开发 AI 软件工程师 Devin 的公司，并借用其 CEO 描述的「能力阶梯」比喻，来解释初级岗位的横档正在被 AI 快速抽走，导致没人愿意推荐新人入行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 341,
+          "t": [
+            2206.842,
+            2226.779
+          ],
+          "quote": "I like to use certain metaphors or examples from other areas in my life to explain these things, so I believe you spoke in the past to Scott Wu, the Co-Founder and CEO of Cognition.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "airbnb",
+      "type": "company",
+      "role": "company",
+      "name": "Airbnb",
+      "file": "Airbnb",
+      "primary": false,
+      "how_described": "本集提到主持人和嘉宾 Noam 在十年前曾在这里共事多年，当时 Noam 是他团队里的研究员。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            77.947,
+            81.712
+          ],
+          "quote": "We worked together at Airbnb for many years where he was my research partner.",
+          "speaker": "SPEAKER_1"
         },
         {
-          "seg": 968,
+          "seg": 40,
           "t": [
-            5545.887,
-            5549.388
+            171.531,
+            173.695
           ],
-          "quote": "And that guilt declines with seniority.",
-          "speaker": "SPEAKER_0"
+          "quote": "You were the researcher on our team when I was at Airbnb.",
+          "speaker": "SPEAKER_1"
         },
         {
-          "seg": 969,
+          "seg": 723,
           "t": [
-            5550.889,
-            5562.432
+            4277.02,
+            4280.123
           ],
-          "quote": "And in particular, we're seeing people in actually product marketing and data and analytics, which showed up previously in a couple of places, feeling the most guilt.",
+          "quote": "You mentioned how we met a decade ago with Airbnb.",
           "speaker": "SPEAKER_0"
-        },
+        }
+      ]
+    },
+    {
+      "id": "ramp",
+      "type": "company",
+      "role": "company",
+      "name": "Ramp",
+      "file": "Ramp",
+      "primary": false,
+      "how_described": "本集提到该公司的 Jeff 分享过经验：当他工作进展最缓慢（速度最低）时，他经历了最严重的职业倦怠。",
+      "source": "glm",
+      "evidence": [
         {
-          "seg": 974,
+          "seg": 214,
           "t": [
-            5586.12,
-            5591.044
+            1297.366,
+            1310.935
           ],
-          "quote": "I would say to all of you who might be feeling that guilt, AI is an incredible technology.",
+          "quote": "I loved your conversation with Jeff from Ramp, and he shared that his worst burnout happened when velocity was lowest.",
           "speaker": "SPEAKER_0"
         }
       ]
@@ -804,7 +810,7 @@
       "name": "WorkOS",
       "file": "WorkOS",
       "primary": false,
-      "how_described": "本集的播客赞助商，提供专为 B2B SaaS 构建的企业级开发者 API 平台（如单点登录、审计日志等）。",
+      "how_described": "本集播客赞助商，被描述为专为 B2B SaaS 构建的现代开发者平台，能将企业所需功能变为即插即用的 API。",
       "source": "glm",
       "evidence": [
         {
@@ -888,7 +894,7 @@
       "name": "Mercury",
       "file": "Mercury",
       "primary": false,
-      "how_described": "本集的播客赞助商，提供面向创业者的数字化银行业务服务，并在本期宣传其内置的对话式财务操作界面 Command。",
+      "how_described": "本集播客赞助商，被描述为一家由产品人员（而非银行家）构建的银行业务公司，最近推出了充当财务操作员的对话式界面 Command。",
       "source": "glm",
       "evidence": [
         {
@@ -948,91 +954,31 @@
       ]
     },
     {
-      "id": "airbnb",
+      "id": "anthropic",
       "type": "company",
       "role": "company",
-      "name": "Airbnb",
-      "file": "Airbnb",
+      "name": "Anthropic",
+      "file": "Anthropic",
       "primary": false,
-      "how_described": "本集提到这是两位主讲人（Lenny 和 Noam）大约十年前相识并共事的公司。",
+      "how_described": "本集在提到哪些顶级 AI 公司使用 WorkOS 时列出了它，并提及最近领导其 Claude 产品设计的设计师 Jenny Wen。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 20,
+          "seg": 69,
           "t": [
-            77.947,
-            81.712
+            300.343,
+            307.808
           ],
-          "quote": "We worked together at Airbnb for many years where he was my research partner.",
+          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 40,
+          "seg": 628,
           "t": [
-            171.531,
-            173.695
+            3810.183,
+            3816.511
           ],
-          "quote": "You were the researcher on our team when I was at Airbnb.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 723,
-          "t": [
-            4277.02,
-            4280.123
-          ],
-          "quote": "You mentioned how we met a decade ago with Airbnb.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "cognition",
-      "type": "company",
-      "role": "company",
-      "name": "Cognition",
-      "file": "Cognition",
-      "primary": false,
-      "how_described": "本集提到这是 AI 软件工程师产品 Devin 的开发商，其 CEO Scott Wu 曾在 Lenny 的节目中讨论过 AI 能力攀升的「阶梯」比喻。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 341,
-          "t": [
-            2206.842,
-            2226.779
-          ],
-          "quote": "I like to use certain metaphors or examples from other areas in my life to explain these things, so I believe you spoke in the past to Scott Wu, the Co-Founder and CEO of Cognition.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "devin",
-      "type": "concept",
-      "role": "concept",
-      "name": "Devin",
-      "file": "Devin",
-      "primary": false,
-      "how_described": "本集将其作为技术不断向上攀登的一个例子，其能力正从高中 CS 学生水平逐步攀升至资深工程师水平。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 342,
-          "t": [
-            2228.061,
-            2228.306
-          ],
-          "quote": "Devin.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 343,
-          "t": [
-            2230.14,
-            2231.861
-          ],
-          "quote": "And they are the makers of Devin.",
+          "quote": "Recently Jenny Wen who leads design for Claude at Anthropic.",
           "speaker": "SPEAKER_0"
         }
       ]

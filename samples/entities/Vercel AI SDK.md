@@ -1,21 +1,21 @@
 ---
 title: Vercel AI SDK
-entity_type: 公司
+entity_type: 概念
 ---
 
 # Vercel AI SDK
 
-> [!info] 公司
+> [!info] 概念
 > 出现在 1 集 · 金句 0 条 · 关联 10 个
 
 ## 集里怎么说它
 
-- **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]]**(00:09起):本集中 Co-Founder 智能体使用的另一核心底层技术，用于在云端运行智能体逻辑并允许切换不同模型。
+- **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]]**(00:09起):本集提到的一套帮助快速搭建 AI 应用的工具包，团队的技术栈除了 Cloudflare Worker 外仅使用了它，不再需要任何第三方的记忆或规划框架。
 
 ## 出现在这些集
 
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]] — 作为被讨论公司
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] — 作为概念
 
 ## 关联实体
 
-[[Claire Vo]] · [[Eddie Kim]] · [[Gusto]] · [[联合创始人]] · [[vibe code]] · [[垃圾桶法]] · [[拉取请求]] · [[功能开关]] · [[智能体]] · [[智能体循环]]
+[[Claire Vo]] · [[Eddie Kim]] · [[Gusto]] · [[联合创始人]] · [[vibe coding]] · [[永久 Zoom]] · [[智能体]] · [[垃圾桶法]] · [[Cloudflare Worker]] · [[Claude Code]]

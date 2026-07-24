@@ -6,7 +6,7 @@ entity_type: 人物
 # Keith Rabois
 
 > [!info] 人物
-> 出现在 1 集 · 金句 7 条 · 关联 10 个
+> 出现在 1 集 · 金句 10 条 · 关联 10 个
 
 ## 金句
 
@@ -24,10 +24,16 @@ entity_type: 人物
 
 ![[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era#^q7]]
 
+![[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era#^q8]]
+
+![[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era#^q9]]
+
+![[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era#^q10]]
+
 ## 出现在这些集
 
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别问客户、别信心理安全、只招「木桶」》]] — 作为主持
+- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评》]] — 作为主持
 
 ## 关联实体
 
-[[Lenny]] · [[PayPal]] · [[Square]] · [[Ramp]] · [[Faire]] · [[DoorDash]] · [[Airbnb]] · [[木桶与弹药]] · [[人才密度]] · [[AI 时代的产品角色演进]]
+[[Lenny]] · [[PayPal]] · [[Square]] · [[Faire]] · [[Ramp]] · [[Airbnb]] · [[桶和弹药]] · [[人才密度]] · [[PM]] · [[商业头脑]]

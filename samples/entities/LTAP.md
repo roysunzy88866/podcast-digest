@@ -10,12 +10,12 @@ entity_type: 概念
 
 ## 集里怎么说它
 
-- **[[2026-06-24-latent-space-databricks|《Databricks 的智能体时代布局：统一调度、开源治理与数据库重写》]]**(01:44起):本集将其描述为旨在解决分析数据实时性、且修正了 HTAP 缺陷的新架构。它不合并查询层，而是统一存储层：利用存储集群空闲的 CPU 将行数据实时转码为列式数据，实现分析端零延迟读取。
+- **[[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]]**(01:44起):Databricks 提出的 HTAP 替代方案：不合并查询引擎，而是统一存储层。让交易数据库在底层闲置 CPU 上直接将行数据转码为列式格式写入开放数据湖，从而让分析引擎无管道、零延迟直接读取，彻底消灭脆弱的 CDC 数据管道。
 
 ## 出现在这些集
 
-- [[2026-06-24-latent-space-databricks|《Databricks 的智能体时代布局：统一调度、开源治理与数据库重写》]] — 作为概念
+- [[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]] — 作为概念
 
 ## 关联实体
 
-[[Matei Zaharia]] · [[Reynold Xin]] · [[Databricks]] · [[Snowflake]] · [[Neon]] · [[MosaicML]] · [[Omnigen]] · [[智能体]] · [[沙箱]] · [[Dream Engine]]
+[[Matei Zaharia]] · [[Reynold Xin]] · [[Databricks]] · [[Snowflake]] · [[MosaicML]] · [[Neon]] · [[Omnigen]] · [[HTAP]] · [[Dream Engine]] · [[智能体]]

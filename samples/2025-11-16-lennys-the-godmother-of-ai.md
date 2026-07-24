@@ -164,12 +164,12 @@ World Labs 成立至今大约 18 个月,团队目前约 30 人。李飞飞坦言
 
 ## 相关单集
 
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《Cisco 高管 Jeetu Patel：如何把老牌巨头推向 AI 时代，以及他的六维制胜框架》]] —— 同公司:ChatGPT、NVIDIA · 同概念:GPU
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] —— 同公司:ChatGPT、Waymo
 - [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同公司:ChatGPT
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值 150 亿的隐形 AI 公司 Applied Intuition:给自动驾驶卡车的焦虑开一剂务实药方》]] —— 同公司:Google、Waymo
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代》]] —— 同公司:ChatGPT、NVIDIA
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同公司:ChatGPT
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《在指数级增长公司做增长：Anthropic 增长负责人的打法》]] —— 同公司:ChatGPT
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《前 GitHub、现 Notion 产品负责人 Max:每个项目的前 10% 现在免费了》]] —— 同概念:主观能动性 (agency)
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同概念:主观能动性 (agency)
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同公司:ChatGPT
 - [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同公司:ChatGPT
 
 ---

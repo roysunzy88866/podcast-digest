@@ -3,11 +3,11 @@
   "podcast": "Lenny's Podcast",
   "date": "2026-01-01",
   "tags": [
-    "AI 销售智能体",
-    "GTM 变革",
-    "团队重组",
-    "AI 取代人工",
-    "B2B 创业"
+    "AI 销售",
+    "GTM 自动化",
+    "智能体部署",
+    "销售职业前景",
+    "AI 时代创业"
   ],
   "entities": [
     {
@@ -579,7 +579,7 @@
       "name": "SaaStr",
       "file": "SaaStr",
       "primary": true,
-      "how_described": "本集讨论的核心公司，嘉宾创立的全球最大 B2B 创始人社区，将其销售团队从约 10 个人类替换为 1.2 个人类加 20 个 AI 智能体，仍维持八位数的年营收。",
+      "how_described": "本集将其描述为全球最大的 B2B 创始人社区，年营收八位数。他们用 1.2 个人类（1名全职 AE 加上花 20% 时间管理智能体的首席 AI 官）和 20 个 AI 智能体，替换了原来约 10 人的销售团队，且净生产力与原来持平。",
       "source": "glm",
       "evidence": [
         {
@@ -765,196 +765,13 @@
       ]
     },
     {
-      "id": "salesforce",
-      "type": "company",
-      "role": "company",
-      "name": "Salesforce",
-      "file": "Salesforce",
-      "primary": true,
-      "how_described": "本集提到它提供了 Agentforce 产品用于激活沉睡线索，并指出它现在派出了 2000 名前线部署工程师帮助客户成功上线。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 127,
-          "t": [
-            543.764,
-            545.125
-          ],
-          "quote": "Maybe we can make one up with Salesforce.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 283,
-          "t": [
-            1084.245,
-            1091.149
-          ],
-          "quote": "So you'd send a trillion emails and you'd do cold calls and you'd hope maybe 2026 was the time they were willing to dump Salesforce for your new product.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 354,
-          "t": [
-            1399.336,
-            1403.659
-          ],
-          "quote": "Like Denise just went from Slack and Salesforce after 14 years to be CRO of OpenAI.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 425,
-          "t": [
-            1670.12,
-            1676.378
-          ],
-          "quote": "So we're pretty far on Agentforce, which is Salesforce's one, which Mark talks a lot about, but we're probably one of the only organizations of our size on it.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 559,
-          "t": [
-            2056.741,
-            2063.37
-          ],
-          "quote": "So we used this vendor called Qualified, which was founded by the ex CMO of Salesforce that does a lot now, but mostly focused on Qualified stuff.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 625,
-          "t": [
-            2292.113,
-            2297.76
-          ],
-          "quote": "Then we did SDR for outbound, then we did inbound, and then we did Agentforce really early with Salesforce.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 672,
-          "t": [
-            2490.519,
-            2491.78
-          ],
-          "quote": "Salesforce, they just want to get their commission.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 676,
-          "t": [
-            2503.36,
-            2513.432
-          ],
-          "quote": "And so just be aware, if you're a startup or even Salesforce or HubSpot, maybe close those deals in the next 12 months, because the window may close where people say, \"Listen, that's the coolest agent I've ever seen.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 716,
-          "t": [
-            2641.144,
-            2644.587
-          ],
-          "quote": "And the data source could be as simple as Salesforce.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1051,
-          "t": [
-            3797.02,
-            3800.842
-          ],
-          "quote": "I will say it is working with Salesforce the way we are.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1052,
-          "t": [
-            3801.503,
-            3806.125
-          ],
-          "quote": "It's the way I haven't worked with Salesforce since it was the first product I bought, I mean, 20 years ago, dude.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1053,
-          "t": [
-            3806.565,
-            3809.867
-          ],
-          "quote": "When I bought Salesforce 20 years ago, I got everything that was hands-on.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1057,
-          "t": [
-            3814.709,
-            3815.409
-          ],
-          "quote": "You work at Salesforce.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1066,
-          "t": [
-            3824.534,
-            3826.835
-          ],
-          "quote": "And Mark's got 2,000 folks doing this at Salesforce now.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1175,
-          "t": [
-            4261,
-            4264.663
-          ],
-          "quote": "Salesforce is hiring more than ever and knocking on doors still works, man.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1241,
-          "t": [
-            4524.602,
-            4527.264
-          ],
-          "quote": "When I talk with Marc Benioff, and Salesforce is the biggest, right?",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1248,
-          "t": [
-            4539.769,
-            4543.57
-          ],
-          "quote": "I wish every Salesforce customer now could go live before they pay.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1541,
-          "t": [
-            5552.409,
-            5557.793
-          ],
-          "quote": "Right now, our hive, and there's a bit of a Renaissance for Salesforce as a CRM.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1544,
-          "t": [
-            5564.277,
-            5566.078
-          ],
-          "quote": "So, Salesforce has become the database for all these.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
       "id": "replit",
       "type": "company",
       "role": "company",
       "name": "Replit",
       "file": "Replit",
       "primary": true,
-      "how_described": "本集提到嘉宾是其前 1% 的深度用户，他在 150 天内用它在完全不会写代码的情况下构建了 12 个被使用上百万人次的应用。",
+      "how_described": "本集提到它是增长极快的 AI 领导者之一，面临海量线索处理不过来的问题；同时，它也是一款让不懂代码的人也能用自然语言开发应用的工具，Jason 是其前 1% 的高级用户，曾用它构建了 12 个应用。",
       "source": "glm",
       "evidence": [
         {
@@ -1128,7 +945,7 @@
       "name": "Vercel",
       "file": "Vercel",
       "primary": true,
-      "how_described": "本集将其作为标杆案例，指出他们的员工每人管理 10 个 AI 智能体，并建议大公司不要像 Vercel 那样什么都自己内部构建。",
+      "how_described": "本集将其描述为增长飞快的 AI 领导者，有顶尖的全职工程团队，并且会内部自建 GTM 智能体，被 Jason 当作「你是 Vercel 吗？不是的话就不要自建」的标杆。",
       "source": "glm",
       "evidence": [
         {
@@ -1314,67 +1131,184 @@
       ]
     },
     {
-      "id": "delphi",
+      "id": "salesforce",
       "type": "company",
       "role": "company",
-      "name": "Delphi",
-      "file": "Delphi",
+      "name": "Salesforce",
+      "file": "Salesforce",
       "primary": true,
-      "how_described": "本集提到它是用于制作数字克隆的应用，嘉宾用它制作了数字分身 Digital Jason，后来甚至自动包揽客服邮件并独立谈成了一笔 7 万美元的赞助。",
+      "how_described": "本集多次提及，推出了 Agentforce 智能体，并投入 2000 名前置部署工程师来确保客户成功。它正经历复兴，成为了众多 AI GTM 智能体底层插接的数据中心。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 99,
+          "seg": 127,
           "t": [
-            433.891,
-            443.979
+            543.764,
+            545.125
           ],
-          "quote": "The interesting thing, the aha moment that happened to us is going into May of this year, we had one AI agent in production called Delphi that we both use for digital lending and Digital Jason.",
+          "quote": "Maybe we can make one up with Salesforce.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 111,
+          "seg": 283,
           "t": [
-            479.281,
-            488.167
+            1084.245,
+            1091.149
           ],
-          "quote": "And I knew from this Delphi, this general agent that it would sort of work because going into annual, this general agent, this Digital Jason closed a 70K sponsorship on its own.",
+          "quote": "So you'd send a trillion emails and you'd do cold calls and you'd hope maybe 2026 was the time they were willing to dump Salesforce for your new product.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 478,
+          "seg": 354,
           "t": [
-            1813.667,
-            1816.371
+            1399.336,
+            1403.659
           ],
-          "quote": "I started, there's an app called Delphi, which makes digital clones.",
+          "quote": "Like Denise just went from Slack and Salesforce after 14 years to be CRO of OpenAI.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 506,
+          "seg": 425,
           "t": [
-            1893.04,
-            1893.841
+            1670.12,
+            1676.378
           ],
-          "quote": "I used Delphi.",
+          "quote": "So we're pretty far on Agentforce, which is Salesforce's one, which Mark talks a lot about, but we're probably one of the only organizations of our size on it.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 657,
+          "seg": 559,
           "t": [
-            2414.42,
-            2429.873
+            2056.741,
+            2063.37
           ],
-          "quote": "Because right now, when we did Delphi in the beginning, when I copied you with Delphi, even me, I spent almost an hour a day training it in the beginning because when we started to use it for support, it had an initial... it started telling people the wrong dates, and we could talk about why.",
+          "quote": "So we used this vendor called Qualified, which was founded by the ex CMO of Salesforce that does a lot now, but mostly focused on Qualified stuff.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 659,
+          "seg": 625,
           "t": [
-            2431.875,
-            2437.98
+            2292.113,
+            2297.76
           ],
-          "quote": "And so when people started to use it, I had to spend an hour each morning firing up Delphi, reviewing the issues and answering them.",
+          "quote": "Then we did SDR for outbound, then we did inbound, and then we did Agentforce really early with Salesforce.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 672,
+          "t": [
+            2490.519,
+            2491.78
+          ],
+          "quote": "Salesforce, they just want to get their commission.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 676,
+          "t": [
+            2503.36,
+            2513.432
+          ],
+          "quote": "And so just be aware, if you're a startup or even Salesforce or HubSpot, maybe close those deals in the next 12 months, because the window may close where people say, \"Listen, that's the coolest agent I've ever seen.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 716,
+          "t": [
+            2641.144,
+            2644.587
+          ],
+          "quote": "And the data source could be as simple as Salesforce.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1051,
+          "t": [
+            3797.02,
+            3800.842
+          ],
+          "quote": "I will say it is working with Salesforce the way we are.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1052,
+          "t": [
+            3801.503,
+            3806.125
+          ],
+          "quote": "It's the way I haven't worked with Salesforce since it was the first product I bought, I mean, 20 years ago, dude.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1053,
+          "t": [
+            3806.565,
+            3809.867
+          ],
+          "quote": "When I bought Salesforce 20 years ago, I got everything that was hands-on.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1057,
+          "t": [
+            3814.709,
+            3815.409
+          ],
+          "quote": "You work at Salesforce.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1066,
+          "t": [
+            3824.534,
+            3826.835
+          ],
+          "quote": "And Mark's got 2,000 folks doing this at Salesforce now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1175,
+          "t": [
+            4261,
+            4264.663
+          ],
+          "quote": "Salesforce is hiring more than ever and knocking on doors still works, man.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1241,
+          "t": [
+            4524.602,
+            4527.264
+          ],
+          "quote": "When I talk with Marc Benioff, and Salesforce is the biggest, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1248,
+          "t": [
+            4539.769,
+            4543.57
+          ],
+          "quote": "I wish every Salesforce customer now could go live before they pay.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1541,
+          "t": [
+            5552.409,
+            5557.793
+          ],
+          "quote": "Right now, our hive, and there's a bit of a Renaissance for Salesforce as a CRM.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1544,
+          "t": [
+            5564.277,
+            5566.078
+          ],
+          "quote": "So, Salesforce has become the database for all these.",
           "speaker": "SPEAKER_1"
         }
       ]
@@ -1386,7 +1320,7 @@
       "name": "Artisan",
       "file": "Artisan",
       "primary": true,
-      "how_described": "本集提到它是一家 YC 孵化的公司，其出站销售智能体帮嘉宾向 40 万人发了 6 万封邮件，嘉宾选它是因为他们最愿意派工程师手把手协助部署。",
+      "how_described": "本集说它是一家 YC 孵化的公司，SaaStr 选用其智能体进行外拓（向曾参会但流失的用户发送了约 6 万封邮件）。选它的关键反直觉原因是：它的团队提供了最多的手把手帮助。",
       "source": "glm",
       "evidence": [
         {
@@ -1461,7 +1395,7 @@
       "name": "Qualified",
       "file": "Qualified",
       "primary": true,
-      "how_described": "本集说它是由 Salesforce 前 CMO 创立的公司，其入站销售智能体能 24 小时无休地在网站拦截审核线索，并在周六晚 11 点自主搞定了赞助商。",
+      "how_described": "本集说它是由 Salesforce 前 CMO 创立的公司，提供类似 Intercom 的气泡对话窗来审核进站线索，能在周六晚上 11 点无人值守时直接把高意向赞助商转化掉。",
       "source": "glm",
       "evidence": [
         {
@@ -1539,76 +1473,67 @@
       ]
     },
     {
-      "id": "agentforce",
+      "id": "delphi",
       "type": "company",
       "role": "company",
-      "name": "Agentforce",
-      "file": "Agentforce",
+      "name": "Delphi",
+      "file": "Delphi",
       "primary": true,
-      "how_described": "本集提到它是 Salesforce 推出的智能体产品，嘉宾用它专门去重新联系那些被人类销售嫌佣金少而放弃跟进的线索，拿到了 70% 的回复率。",
+      "how_described": "本集说它是一款制作数字人克隆的工具，Jason 用它做了「Digital Jason」来回答知识问题，后来演变成处理客服支持并独自成交了 7 万美元赞助。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 126,
+          "seg": 99,
           "t": [
-            542.543,
-            543.724
+            433.891,
+            443.979
           ],
-          "quote": "Agentforce needs a nickname.",
+          "quote": "The interesting thing, the aha moment that happened to us is going into May of this year, we had one AI agent in production called Delphi that we both use for digital lending and Digital Jason.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 413,
+          "seg": 111,
           "t": [
-            1619.18,
-            1628.707
+            479.281,
+            488.167
           ],
-          "quote": "And if you can go do this, pick any tool, pick Agentforce, pick Qualified, pick Artisan, pick whatever you want, if you can go do this and get it live into production, you're hyper employable.",
+          "quote": "And I knew from this Delphi, this general agent that it would sort of work because going into annual, this general agent, this Digital Jason closed a 70K sponsorship on its own.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 425,
+          "seg": 478,
           "t": [
-            1670.12,
-            1676.378
+            1813.667,
+            1816.371
           ],
-          "quote": "So we're pretty far on Agentforce, which is Salesforce's one, which Mark talks a lot about, but we're probably one of the only organizations of our size on it.",
+          "quote": "I started, there's an app called Delphi, which makes digital clones.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 431,
+          "seg": 506,
           "t": [
-            1693.836,
-            1695.818
+            1893.04,
+            1893.841
           ],
-          "quote": "We took that prompt and gave it to Agentforce.",
+          "quote": "I used Delphi.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 625,
+          "seg": 657,
           "t": [
-            2292.113,
-            2297.76
+            2414.42,
+            2429.873
           ],
-          "quote": "Then we did SDR for outbound, then we did inbound, and then we did Agentforce really early with Salesforce.",
+          "quote": "Because right now, when we did Delphi in the beginning, when I copied you with Delphi, even me, I spent almost an hour a day training it in the beginning because when we started to use it for support, it had an initial... it started telling people the wrong dates, and we could talk about why.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 626,
+          "seg": 659,
           "t": [
-            2298.34,
-            2306.768
+            2431.875,
+            2437.98
           ],
-          "quote": "And we didn't know what to do with Agentforce at first, but we decided we would reactivate the folks that sales decide was not worth their time.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 632,
-          "t": [
-            2321.46,
-            2326.946
-          ],
-          "quote": "We just took Agentforce just on those and we trained it on very similar prompt.",
+          "quote": "And so when people started to use it, I had to spend an hour each morning firing up Delphi, reviewing the issues and answering them.",
           "speaker": "SPEAKER_1"
         }
       ]
@@ -1620,7 +1545,7 @@
       "name": "智能体 (agent)",
       "file": "智能体",
       "primary": true,
-      "how_described": "本集把它描述为本质上是一堆 API 拼接在一起的程序，需要经过数据摄取和为期一个月的人工纠错训练才能变得好用，能 24/7 无休工作并取代大量初级销售岗位。",
+      "how_described": "本集将它描述为 7x24 小时不知疲倦工作（甚至圣诞节和周末都在发邮件）的系统，能在销售、客服和外拓环节替代大量平庸人类。它们需要被喂养优质数据、进行训练和每天纠错才能发挥最大效用。",
       "source": "glm",
       "evidence": [
         {
@@ -1995,13 +1920,253 @@
       ]
     },
     {
+      "id": "orchestration",
+      "type": "concept",
+      "role": "concept",
+      "name": "编排 (orchestration)",
+      "file": "编排",
+      "primary": true,
+      "how_described": "本集指一个人统筹协调多个智能体分工，例如确保唤醒流失客户的智能体和进站审核智能体不去同时骚扰同一个客户。首席 AI 官每周需花 10-15 小时审查 20 个智能体的输出以防胡言乱语。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 387,
+          "t": [
+            1520.674,
+            1529.68
+          ],
+          "quote": "So the way all these agents work is there's a lot of jargon, which is intimidating, ingestion, orchestration, training.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 914,
+          "t": [
+            3308.431,
+            3311.453
+          ],
+          "quote": "And then have them be your chief orchestration officer.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1040,
+          "t": [
+            3763.073,
+            3765.494
+          ],
+          "quote": "Do everything from training to ingestion to orchestration.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1097,
+          "t": [
+            3950.082,
+            3952.022
+          ],
+          "quote": "All this orchestration and ingestion.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "go-to-market",
+      "type": "concept",
+      "role": "concept",
+      "name": "推向市场 (go-to market)",
+      "file": "推向市场",
+      "primary": true,
+      "how_described": "本集指出，传统的策略如发冷邮件、播客、线下活动依然有效，真正失效的是旧的「剧本」，因为 B2B 市场已经两极分化，需要用 AI 智能体来提效或处理海量需求。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            4.641,
+            7.084
+          ],
+          "quote": "We have 10 desks that used to be go-to market people.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 19,
+          "t": [
+            63.3,
+            72.846
+          ],
+          "quote": "Today, my guest is Jason Lemkin, founder and CEO of SaaStr, the world's largest community for B2B founders, and one of my absolute favorite sales and go-to market minds on the planet.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 24,
+          "t": [
+            116.595,
+            122.7
+          ],
+          "quote": "We cover all of the things that he has learned about where sales and go-to market is going in the AI age.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 25,
+          "t": [
+            123.1,
+            136.409
+          ],
+          "quote": "He gives a bunch of advice for salespeople and the future of their careers, the future of the go-to market org, how to win as an AI startup right now, what tools he's finding most useful, what it took to shift a sales team, and so much more.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 63,
+          "t": [
+            311.072,
+            320.678
+          ],
+          "quote": "Kauf AI, and what's happened is you've gone extremely deep on what AI enables for sales, for startups, for go-to market.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 96,
+          "t": [
+            426.526,
+            430.969
+          ],
+          "quote": "So we have built our own go-to market team over time, and I've lived the frustrations.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 124,
+          "t": [
+            534.418,
+            536.82
+          ],
+          "quote": "We have 10 desks that used to be go-to market people.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 182,
+          "t": [
+            740,
+            740.364
+          ],
+          "quote": "Yeah, go-to market.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 183,
+          "t": [
+            740.384,
+            741.737
+          ],
+          "quote": "Let's call it eight to nine and go-to market.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 223,
+          "t": [
+            858.841,
+            869.639
+          ],
+          "quote": "I want to spend time on the different agents you've built, but first of all, just kind of zooming out, having gone through this experience, how do you see the world of go-to market changing next year in the coming years?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 256,
+          "t": [
+            974.446,
+            981.671
+          ],
+          "quote": "So both ends have an incentive in 2026 to push the limits for AI for go-to market.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1324.44,
+            1332.209
+          ],
+          "quote": "It's interesting because I'm an investor in a bunch of startups, as are you, and I'm actually seeing a lot of asks for go-to market people, salespeople.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 473,
+          "t": [
+            1801.482,
+            1804.236
+          ],
+          "quote": "Basically, unless you have awesome go-to-market engineers.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 705,
+          "t": [
+            2602.481,
+            2611.45
+          ],
+          "quote": "What you do is an agent will be successful in go-to-market and sales today if you take what works for your best person, train... I know this seems like a scary term, but it's not.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 784,
+          "t": [
+            2868.481,
+            2874.96
+          ],
+          "quote": "Is this just where go-to-market salespeople still can exist, this much better email, or is that also going to go away?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 930,
+          "t": [
+            3366.542,
+            3370.98
+          ],
+          "quote": "And when you think of... Is Amelia, would you describe her as a go to-market engineer or is that a different role, would you call her chief AE officer?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1129,
+          "t": [
+            4089,
+            4103.519
+          ],
+          "quote": "I think what might be useful to close out this conversation is to go through what are the things that are changing, like maybe a handful of things that are changed that are now going to be different in the world of sales go-to-market, and what are a few things that are just going to stay the same?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1256,
+          "t": [
+            4589.1,
+            4600.044
+          ],
+          "quote": "Net net, we're going to need more sales and go-to-market professionals than ever because the winners are growing so quickly that even if they're more efficient, they will need more human beings than ever.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1288,
+          "t": [
+            4726.845,
+            4729.688
+          ],
+          "quote": "And this is what I've seen too, just like everyone's hiring salespeople, go-to-market people.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1512,
+          "t": [
+            5460.896,
+            5467.219
+          ],
+          "quote": "And so, read all these go to-market and sales books and take great items from them, which was always the goal from a book.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
       "id": "forward-deployed-engineer",
       "type": "concept",
       "role": "concept",
-      "name": "前线部署工程师 (Forward Deployed Engineer)",
-      "file": "前线部署工程师",
+      "name": "前置部署工程师 (Forward Deployed Engineer)",
+      "file": "前置部署工程师",
       "primary": true,
-      "how_described": "本集将其描述为供应商派来驻场帮你把产品真正跑通的人，并强调初创公司的巨大机会就是派 FDE 像顾问一样确保客户在付款前智能体就 100% 能跑起来。",
+      "how_described": "本集将其描述为一个听起来吓人、其实就是陪你调试和导入数据的供应商人员。并强调：如果采购智能体时供应商不提供这种人陪你调试，你根本没法上线。",
       "source": "glm",
       "evidence": [
         {
@@ -2043,115 +2208,149 @@
       ]
     },
     {
-      "id": "prompt",
+      "id": "playbooks",
       "type": "concept",
       "role": "concept",
-      "name": "提示词 (prompt)",
-      "file": "提示词",
+      "name": "剧本 (playbooks)",
+      "file": "剧本",
       "primary": true,
-      "how_described": "本集把它描述为一串描述你希望 AI 做什么的文本指令，嘉宾强调成熟的提示词可以直接复用，他把自己打磨好的提示词直接喂给新产品，当天就跑出了很好的效果。",
+      "how_described": "本集说它是教人怎么执行照搬流程的过时产物，在 AI 时代已经失效（坏了）。嘉宾建议远离剧本，拥抱策略。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 428,
+          "seg": 225,
           "t": [
-            1683.847,
-            1687.71
+            872.681,
+            874.783
           ],
-          "quote": "After training it and learning it and spending months time to learn it, we got it down to one prompt.",
+          "quote": "It's the playbooks that are kind of broken in the age of AI.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 429,
+          "seg": 239,
           "t": [
-            1687.77,
-            1689.632
+            892.512,
+            900.937
           ],
-          "quote": "And prompt is another almost intimidating word.",
+          "quote": "It's just the playbooks are broken because for folks that aren't in the age of AI, growth has decelerated so much that nothing seems to work.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 431,
+          "seg": 350,
           "t": [
-            1693.836,
-            1695.818
+            1373.18,
+            1380.825
           ],
-          "quote": "We took that prompt and gave it to Agentforce.",
+          "quote": "The question is, how many of the folks that had the current playbooks are the right folks for the future?",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 632,
+          "seg": 1509,
           "t": [
-            2321.46,
-            2326.946
+            5448.289,
+            5451.231
           ],
-          "quote": "We just took Agentforce just on those and we trained it on very similar prompt.",
+          "quote": "The plays all work, but the playbooks don't really work as well.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 1376,
+          "seg": 1510,
           "t": [
-            5024,
-            5027.442
+            5451.871,
+            5457.074
           ],
-          "quote": "Not only is it magical, I mean, great, you can do a prompt and build a crappy app that doesn't work.",
+          "quote": "So, many of these GTM books are playbooks, especially folks selling courses and stuff, but they're playbooks.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 1564,
+          "seg": 1511,
           "t": [
-            5629.127,
-            5634.73
+            5458.575,
+            5460.716
           ],
-          "quote": "And the reason I bring this up, I use it every single day is because it can do a lot of cool things with a prompt, right?",
+          "quote": "Run from the playbooks, embrace the plays.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 1571,
+          "seg": 1520,
           "t": [
-            5662.049,
-            5665.733
+            5486.186,
+            5491.052
           ],
-          "quote": "But it's just a simple prompt to go to it, type in whatever image you want to make.",
+          "quote": "Then all these playbooks that she's used over the last 20 years in growth just don't work anymore at AI companies.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "ai-bubble",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 泡沫 (AI bubble)",
+      "file": "AI 泡沫",
+      "primary": true,
+      "how_described": "本集指出当前是一个所有人同时都在采购的罕见窗口期（某类别潜在采购比例从 3%-5% 飙升至 50% 以上），这是 AI 泡沫的一个版本，会结束，但彻底改变了目前的销售运转方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 301,
+          "t": [
+            1143.995,
+            1152.82
+          ],
+          "quote": "So this is a version of the AI bubble that will end and we will revert in some ways to old school, but when everybody is in market, it just changes how you run the whole thing.",
           "speaker": "SPEAKER_1"
         }
       ]
     },
     {
-      "id": "hallucinations",
+      "id": "crm",
       "type": "concept",
       "role": "concept",
-      "name": "幻觉 (hallucinations)",
-      "file": "幻觉",
+      "name": "CRM",
+      "file": "CRM",
       "primary": true,
-      "how_described": "本集将其描述为 AI 一本正经胡说八道的现象，指出智能体刚开始发邮件时一定会产生幻觉，因此每天必须花一两个小时去人工纠正它的错误。",
+      "how_described": "本集指出，哪怕只有 300 个付费客户，CRM 里也可能躺着几万个曾访问过网站但无人跟进的线索。只要线索多到人类销售懒得全部去碰，就可以从 AI 中受益。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 404,
+          "seg": 605,
           "t": [
-            1594.806,
-            1598.87
+            2240.175,
+            2241.376
           ],
-          "quote": "Maybe it's hallucinations, it really doesn't matter what the technical term is, and you correct it.",
+          "quote": "How many folks do you have in your CRM?\"",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 1369,
+          "seg": 1015,
           "t": [
-            4997.444,
-            4998.585
+            3679.59,
+            3686.013
           ],
-          "quote": "The hallucinations went away.",
+          "quote": "And what it does is every single thing a human does is automatically tracked in your CRM instantly, real time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1398,
+          "t": [
+            5101.899,
+            5103.9
+          ],
+          "quote": "Now everyone in the world wants to build an AI, SDR, AIR, CRM.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1541,
+          "t": [
+            5552.409,
+            5557.793
+          ],
+          "quote": "Right now, our hive, and there's a bit of a Renaissance for Salesforce as a CRM.",
           "speaker": "SPEAKER_1"
         }
       ]
     }
   ],
-  "rejected": [
-    {
-      "name": "attrition",
-      "reason": "专名「attrition」未在真相源出现,且不在别名表(疑编造)"
-    }
-  ]
+  "rejected": []
 }

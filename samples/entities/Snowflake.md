@@ -6,16 +6,18 @@ entity_type: 公司
 # Snowflake
 
 > [!info] 公司
-> 出现在 1 集 · 金句 0 条 · 关联 10 个
+> 出现在 2 集 · 金句 0 条 · 关联 10 个
 
 ## 集里怎么说它
 
-- **[[2026-06-24-latent-space-databricks|《Databricks 的智能体时代布局：统一调度、开源治理与数据库重写》]]**(52:44起):本集将其描述为 Databricks 的核心竞争对手。双方都采用了存储与计算分离的云架构，但 Snowflake 早期坚持专有的封闭格式，试图锁定客户数据，最终在开放数据格式全面胜出的趋势下被迫改变立场。
+- **[[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]]**(00:27起):本集提到它是 Gray Swan 的投资者之一,嘉宾当时正在参加其峰会。
+- **[[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]]**(52:44起):本集中被作为竞争对手提及。起步时走专有封闭路线，试图锁定高价值数据做极速查询；相比 Databricks 从数据上游做大规模式处理起步，Snowflake 当初认为管理好高价值数据即可。
 
 ## 出现在这些集
 
-- [[2026-06-24-latent-space-databricks|《Databricks 的智能体时代布局：统一调度、开源治理与数据库重写》]] — 作为被讨论公司
+- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] — 作为被讨论公司(提及)
+- [[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Matei Zaharia]] · [[Reynold Xin]] · [[Databricks]] · [[Neon]] · [[MosaicML]] · [[Omnigen]] · [[智能体]] · [[沙箱]] · [[LTAP]] · [[Dream Engine]]
+[[智能体]] · [[Zico Kolter]] · [[Matei Zaharia]] · [[Matt Fredrikson]] · [[Reynold Xin]] · [[Gray Swan]] · [[Databricks]] · [[Anthropic]] · [[MosaicML]] · [[红队测试]]

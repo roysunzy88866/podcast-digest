@@ -1,31 +1,31 @@
 ---
-title: "Dan Shipper 的 AI 工作预测:智能体接管工作,但人类不会失业"
+title: Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切
 podcast: "Lenny's Podcast"
 date: 2026-05-24
 source_url: https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper
 duration: "94:04"
 host: "[[Lenny]]"
 cohosts: ["[[Dan Shipper]]"]
-companies: ["[[Every]]"]
-concepts: ["[[智能体]]", "[[Codex]]", "[[Claude Code]]", "[[Cowork]]", "[[SaaS]]", "[[OpenClaw]]", "[[终端]]", "[[CLI]]", "[[基准测试]]", "[[前线部署工程师]]", "[[全栈设计师]]", "[[工作自动化]]"]
+companies: ["[[Codex]]", "[[Claude Code]]", "[[Cowork]]", "[[OpenClaw]]"]
+concepts: ["[[智能体]]", "[[SaaS]]", "[[前置部署工程师]]", "[[PM]]", "[[CLI]]", "[[高级工程师基准测试]]"]
 tags:
-  - AI 时代工作方式
-  - 智能体协作
-  - 桌面工作环境
-  - SaaS 机会
-  - AI 乐观主义
+  - 未来工作方式
+  - 智能体
+  - 本地 AI 环境
+  - 产品经理与设计师
+  - 反直觉预测
 ---
 
-# Dan Shipper 的 AI 工作预测:智能体接管工作,但人类不会失业
+# Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切
 
 > [!info] 关联
 > **主持**:[[Lenny]]
 >
 > **联合主持**:[[Dan Shipper]]
 >
-> **涉及公司**:[[Every]]
+> **涉及公司**:[[Codex]] · [[Claude Code]] · [[Cowork]] · [[OpenClaw]]
 >
-> **概念**:[[智能体]] · [[Codex]] · [[Claude Code]] · [[Cowork]] · [[SaaS]] · [[OpenClaw]] · [[终端]] · [[CLI]] · [[基准测试]] · [[前线部署工程师]] · [[全栈设计师]] · [[工作自动化]]
+> **概念**:[[智能体]] · [[SaaS]] · [[前置部署工程师]] · [[PM]] · [[CLI]] · [[高级工程师基准测试]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper)
 
@@ -35,86 +35,63 @@ tags:
 
 ## 一句话 TLDR
 
-Every 创始人预测未来工作分两半:委派任务给智能体,并在 Codex 里完成所有日常软件操作。
+Every CEO 预测工作将分化为超级智能体与本机 AI 两条主线，SaaS 不会消亡，PM 与设计师将迎来黄金时代。
 
-[[Dan Shipper|Dan Shipper]] 是 [[Every|Every]] 的 CEO 兼创始人。他们公司全员使用 AI 工具,在过去一年里团队规模翻了一倍。Dan 上节目时有个激进观点:人们忽视了 [[Claude Code|Claude Code]](Anthropic 推出的编程[[智能体|智能体]],原本用于写代码,但 Dan 发现它能干各种非技术活)的巨大潜力。过去一年事实验证了他的判断。这一次,他带着关于未来一年工作方式改变的最新预测回来,并和主持人约定一年后复盘打分。整场访谈围绕三个板块展开:工作方式怎么变、工作内容怎么变、以及谁会在 AI 时代混得最好。下面带你顺着他的思路逐个拆解。
+上一次 [[Dan Shipper|Dan Shipper]] 上播客时，他随口抛出一个判断：人们严重低估了 [[Claude Code|Claude Code]] 在非工程工作上的潜力。事实证明他是对的。作为内容公司 Every 的 CEO，Dan 带着全公司把 AI 融入日常，活成了一个「未来工作」的试验田。这一次，主持人 [[Lenny|Lenny]] 邀请他回来，系统梳理对未来一年工作方式的预测。整集对话分三大块：首先是工作方式将如何改变；其次是工作内容将发生什么变化；最后是谁会在这波浪潮中胜出。
 
-## 预测一:公司级超级智能体成为新常态
-说到智能体怎么改变工作,Dan 抛出了第一个预测:未来每个人至少会有一个异步的智能体来帮忙干活。
+## 工作方式将分化为两条主线
+Dan 指出，我们使用 AI 的方式正在分裂为两种截然不同的模式。第一种是你可以异步委派任务的[[智能体|智能体]]（agent，能自主执行任务的 AI 程序）[11:24 Dan Shipper]。
 
-他起初觉得理想形态是平行的影子组织架构图——每个人都有自己的专属个人智能体,像灵魂的映射一样。但他现在的看法完全变了,他认为目前的模式将是一个全公司共享的超级智能体 [13:42 Dan Shipper]。
+关于这种异步智能体应该长什么样，Dan 的看法经历了一次彻底的反转。当 [[OpenClaw|OpenClaw]] 刚推出时，Every 内部每个人都为自己配置了专属的个人智能体，Dan 曾认为这就是未来——每个人都会有一个像《黄金罗盘》里「精灵」一样的智能体跟随着自己 [13:30 Dan Shipper]。但他现在完全改变了看法：**目前的现实模式将是每家公司拥有一个全公司共享的超级智能体**，Shopify 和 Ramp 等公司已经在这么做了 [13:42 Dan Shipper]。
 
-为什么会发生这种转变?他解释说,围绕 [[OpenClaw|OpenClaw]](一种开源的个人智能体框架)有大量炒作,大家都很兴奋。但用起来才发现工作量太大了,它经常出故障,还得不断添加上下文去维护它 [14:16 Dan Shipper]。一旦切断人类持续关注的连接,智能体就不再有用了。
+为什么个人智能体走不通？因为要让一个 AI 智能体真正有用，它必须有一个深度关心它、时刻盯着它的人类。「一旦你切断了这种连接，一旦有人说『啊，我不想维护这个愚蠢的东西了』，这个智能体就不再有用了」[15:01 Dan Shipper]。目前的模型还不够独立，必须由专人负责调教和维护，所以公司会先从顶部设置一个通用智能体，等模型变得更强大后再向下渗透到团队和个人。
 
-> 【背景】OpenClaw 在转写稿中多次被提及,是一种让个人定制 AI 智能体的开源工具或框架,在开发者社区极具热度但维护门槛高。转写稿中该词可能是对「OpenDev」等同类工具的听写变体。
+说完了通过 Slack 交流的公司级智能体，接下来是第二种、也是让 Dan 更加兴奋的工作模式：在本地电脑上运行的 AI 工作环境。这正是接下来要探讨的核心。
 
-他指出,为了让智能体真正有用,它需要一个关心它、时刻盯着的「人类主理人」[14:38 Dan Shipper]。所以现实中最管用的配置是:公司专门设置一个前置部署的工程师来负责维护这个全公司级别的智能体,Shopify 和 Ramp 等公司已经在这么做了。
+## 电脑里的工作环境将吞噬一切 SaaS
+Anthropic 意识到，如果把一个智能体直接放在你的电脑上，它就拥有了与你相同的超级权限，能够操作终端和所有文件 [18:31 Dan Shipper]。OpenAI 随后也加入了战局，推出了 [[Codex|Codex]] 桌面应用。Dan 认为，这种本地 AI 环境正在成为一种全新的「工作操作系统」。
 
-不过他仍相信个人智能体是未来的趋势。随着模型变得更独立,维护它们不再需要天天折腾底层细节,专属智能体就会普及 [15:34 Dan Shipper]。就目前而言,这些异步沟通主要通过 Slack 等工作软件发生,大多数人还是倾向于把工作和个人的智能体严格分开。
+Dan 自己的工作流已经彻底改变了：当他在自己开发的 Markdown 编辑器 Proof 里写文章时，Codex 的应用内浏览器可以实时看着他写，他能看到 Codex 在做什么 [21:49 Dan Shipper]。这不仅是一个并行的工作伙伴，更能包揽他拖延已久的杂事。Dan 已经连续 10 天保持收件箱清零，因为他只需对着 Codex 生成的一个页面口述，智能体就会去检索邮件、收集文档并发出回复 [22:21 Dan Shipper]。
 
-## 预测二:Codex 成为新一代工作操作系统
-说完了异步任务委派,接下来是他最激动的预测:你做的大部分工作将直接发生在 [[Codex|Codex]] 或 Claude [[Cowork|Cowork]] 这类桌面智能体环境里。
+这个模式带来一个非常深刻的二阶效应：**人们不再需要把 AI 塞进每一个 [[SaaS|SaaS]] 工具里，而是直接在 Codex 里使用这些 SaaS 工具**。Dan 认为，与其让 AI 存在于浏览器里，不如把浏览器装进 AI 智能体里，让它看到你正在做的一切 [23:17 Dan Shipper]。
 
-这个趋势源于 Anthropic 的一个发现:如果把编程智能体放在本地电脑上运行,它就能使用[[终端|终端]],获得超级权限去访问你能在电脑上触及的一切 [18:34 Dan Shipper]。由于网上有大量关于终端操作的训练数据,智能体极其擅长用终端,这造就了一种超级强大的新范式。
+> 【背景】SaaS（Software as a Service）即通过网页提供的软件服务。Dan 认为，由于用户是在自己的 AI 环境里打开这些网页工具，消耗的是用户自己的大模型算力（tokens），这反而拯救了 SaaS 厂商的成本，因为他们不再需要为每个用户额外支付 AI 费用。
 
-他提到,OpenAI 在这方面曾落后于 Anthropic,但在推出 GPT 5.3 后开始追赶,随后发布了 Codex 桌面应用,直接跳到了更成熟的形态 [20:19 Dan Shipper]。现在 Codex 已经成了他的日常主力工具。
+这也引出了本集最反直觉的判断之一：**「SaaS 末日论是愚蠢的，我现在会买入 SaaS 股票」**[37:09 Dan Shipper]。智能体并没有取代 SaaS，反而极大地增加了 SaaS 的用户量。因为每个人都可以轻易调遣成千上万个智能体去高频调用这些软件接口。
 
-他描绘了自己的实际工作流:为了写文档,他会打开 Codex 里的一个应用内浏览器,登录到他自己开发的 Markdown 编辑器 Proof。Codex 能实时看着他写东西,他也能看到 Codex 在干什么,两者在同一个界面里无缝协作。他把它称为一个并行的「工作伙伴」,不仅能帮忙写文档,还能顺手去查资料、发邮件 [21:56 Dan Shipper]。
+随着工作方式的巨变，很多人热衷的 [[CLI|CLI]]（命令行界面）操作时代即将终结。Dan 断言：「我们速通了 CLI 时代。它在持续期间很不错，但我认为 CLI 已经过时了」[31:25 Dan Shipper]。因为当真正的图形界面（GUI）与智能体结合时，人类会意识到图形界面远比枯燥的代码行更好用。
 
-这个变化的影响极其深远。主持人敏锐地提炼道:与其让 AI 被内嵌进各种 [[SaaS|SaaS]] 软件里,不如预测 SaaS 工具将会直接在 Codex 的内置浏览器里运行 [23:48 [[Lenny|Lenny]]]。
+工作环境被重塑了，那么身处其中的人，每天具体做的事情会发生什么变化？这正是下一个话题。
 
-Dan 深以为然。他指出,这产生了一个重要的二阶效应:当用户在 Codex 里运行 SaaS 产品时,他们使用的是自己的 AI 代币,而不是 SaaS 厂商的 [24:20 Dan Shipper]。这意味着 SaaS 公司不需要再为了帮用户跑 AI 而承担高昂成本。
+## 工作内容的变形：代码审查与 AI 厨师
+当构建软件变得极其容易，公司的运作方式就会产生巨大的压力。非技术人员（如编辑、运营）也能直接提交代码（pull request），这导致 PR 数量呈指数级飙升 [50:43 Dan Shipper]。这将彻底改变技术人员的职责。
 
-顺着这个逻辑,他得出了一个极其反直觉的结论:所谓的「SaaS 末日」(指 AI 智能体会取代传统软件)是愚蠢的。他不仅不看衰,反而会立刻买入 SaaS 股票。智能体不仅不会消灭 SaaS,反而会极大地增加其用户量和使用频次 [37:13 Dan Shipper]。
+Dan 提到了一个极端的例子：开发者 Pete 每天能收到数千个 PR，他直接启动 5 万个 Codex 实例去处理，最后合并其中的一千个 [51:36 Dan Shipper]。过去难的是怎么写代码，现在难的是：面对海量产出，哪些应该合并？系统整体的连贯性怎么维持？我们要删除什么冗余？因此，**「[[前置部署工程师|前置部署工程师]]」（Forward Deployed Engineer）** 将成为真实的、长期存在的新兴角色 [53:58 Dan Shipper]。
 
-主持人问到 Cursor 放在什么位置。Dan 认为 Cursor 的云端实现其实比两大巨头更好,但他们更明确地选择了专门服务程序员这条赛道。不过他强调,现在所有平台都意识到,光提供 API 接口不够了,必须提供智能体的「挽具」(指承接模型输出的外壳产品)才能最大化模型价值 [26:32 Dan Shipper]。
+这种工程师的工作不再是传统的写代码，而是维护和调教系统。Every 内部有一位叫 Nitesh 的 AI 工程师，他大部分时间都在 Slack 上和负责咨询业务的智能体 Claudy 聊天，质问它「你为什么做这件蠢事？我们来解决一下」[55:12 Dan Shipper]。所谓的自动化并不会消灭工作，反而创造了这类如同经理一般的「保姆」岗位。
 
-这意味着我们要进入一个新的软件构建范式:不再是纯给人类用,也不再是纯给智能体用,而是人和智能体同时看着同一块工作区协作 [28:25 Dan Shipper]。这种新软件形态需要全新的基础设施,比如智能体能在一秒内发出无数请求,产品必须能处理这种并发;GitHub 目前正因为智能体请求数量呈指数级暴涨而面临巨大的基础设施挑战 [29:58 Dan Shipper]。
+既然工作内容变成了审查和系统维护，那么在未来几年里，到底哪些角色能在这个新世界中如鱼得水？谁又会被边缘化？这正是最后要解答的问题。
 
-顺带一提,他宣判了 [[CLI|CLI]](命令行界面)时代的终结。很多人为了用 Claude Code 切回终端,但他认为我们已经「速通」了那个时代。GUI(图形用户界面)才是更顺手的归宿,他公司内部绝大多数技术人员已经不再把 CLI 作为主要工作界面了 [31:25 Dan Shipper]。
+## 胜出者：PM、设计师与「驾驭模型」的人
+面对「AI 末日」（jobpocalypse，指 AI 导致的大规模失业）的恐慌，Dan 给出了明确的判断：所谓的大规模失业并不会发生 [73:11 Dan Shipper]。模型公司出于合规和安全的财务激励机制，在结构上总是滞后于那些利用模型去创造新事物的人。
 
-## 预测三:自动化是个谎言,工作变成了管理智能体
-工具变了,那具体的工作内容会变成什么样?这正是下一个话题。
+Dan 用自己的「[[高级工程师基准测试|高级工程师基准测试]]」解释了这种错觉。在他的测试中，GPT 5.5 得到了 60 分，虽然远高于其他模型的 30 分，但人类工程师能达到 80 到 90 分 [42:24 Dan Shipper]。但最关键的不是分数，而是行为模式：如果你让 AI 修复一堆 bug，它会去打补丁；而真正的人类高级工程师看了代码会说「这代码就是一堆垃圾，我们必须重写」[44:37 Dan Shipper]。
 
-Dan 犀利地指出:自动化是个谎言。每当你自动化某件事时,为了确保自动化运转良好,你都需要一个人类在上面盯着它 [39:15 Dan Shipper]。
+> 【背景】这里的 GPT 5.5 等指代对话发生时的最新大语言模型版本。Dan 强调，即使模型能在设定的基准测试中拿高分，也不代表它们能完全替代人类去做出那些需要打破常规的复杂决策。
 
-这引出了他对工作本质变化的洞察:人类与 AI 协作的方式,将会像当经理一样去管理。别以为经理就是闲在沙滩上,他们花大量时间在检查工作、纠正错误上。他强调,管理模型同样需要大量的时间和注意力 [39:39 Dan Shipper]。
+因此，Dan 极其看好两类人在未来的爆发：
 
-我们常被各种[[基准测试|基准测试]]误导,觉得 AI 很快会完全自主。为此,他基于自己的应用 Proof 做了一个「高级工程师基准测试」[40:43 Dan Shipper]。他把烂摊子代码给模型重写,结果直到 GPT 5.5(配合 Opus 4.7 的计划)才拿到 62 分,而人类高级工程师能拿到 80 多分 [42:24 Dan Shipper]。
+1. **产品经理（[[PM|PM]]）**：以 Every 内部的 Marcus 为例，他虽然只有轻度技术背景，但依靠编码模型，他能将敏锐的产品嗅觉直接转化为产品，发布速度比团队里任何人都快 [69:37 Dan Shipper]。PM 终于被解放了，不再需要协调整个工程团队来实现自己的想法。
 
-更重要的是,人类工程师面对糟糕的代码库会主动判断「这代码就是一堆垃圾」,然后大胆主张推翻重写;而模型只会按部就班地打补丁 [44:37 Dan Shipper]。基准测试无法衡量那种需要人类主动思考的隐性工作,所以即便基准测试饱和,也不等同于完全替代所有高级工程师 [45:25 Dan Shipper]。这就是为什么 Dan 即便在模型能力大涨的时候,依然在积极雇佣工程师。
+2. **全栈设计师**：AI 可以轻易生成千篇一律的页面，但优秀的交互设计正是 AI 难以跨越的壁垒。现在，设计师不仅有能力构建自己脑海中惊艳的交互，而且可以直接提交代码，甚至出去创业 [71:06 Dan Shipper]。
 
-这种变化催生了新的工作角色:前端部署工程师(forward deployed engineer)。这是从「每个智能体都需要一个人类」的原则中衍生出来的真实岗位 [53:52 Dan Shipper]。他们的职责不是写传统代码,而是花大量时间在 Slack 里和内部智能体对话,确保它运作在正轨上。
-
-此外,日常审核大量低质量的产出成了常态。因为现在人人都能用智能体做事,数据科学团队和工程师的大部分时间,被用来审查其他人产出的低质量工作,去伪存真 [56:33 Dan Shipper]。
-
-虽然工作形态在变,但他认为销售是受影响最小的岗位,因为高度依赖面对面的真实互动 [59:06 Lenny]。Dan 则补充,他反而认为 CEO 不能把理解 AI 这件事委派给别人,公司能走多远,取决于 CEO 本人对 AI 介入有多深 [59:23 Dan Shipper]。
-
-说到日常文档,Dan 还有一个反直觉的判断:我们会阅读越来越多 AI 生成的文档和邮件,并且我们会喜欢它 [63:09 Dan Shipper]。因为大多数人其实很不擅长写战略规划或平淡的邮件,GPT 5.5 指导得当写出的东西,比人类自己敲键盘好得多。前提是,发送者必须真的知道文档里写了什么,不能用 AI 生成的垃圾来糊弄人。
-
-## 预测四:谁会在未来混得最好?
-工作方式变了,人也得跟着变。这正是最后一个板块的核心。
-
-Dan 给出的答案是:他极其、极其看好产品经理(PM)和[[全栈设计师|全栈设计师]] [13:18 Dan Shipper]。
-
-他讲了内部员工 Marcus 的例子。Marcus 是个受过 PM 训练的人,只有轻度技术背景。搁在一年前,公司绝不可能让他来做产品开发。但编程模型现在足够强了,他能把仅有的技术知识与极强的产品直觉和用户感结合起来。他的产出速度比团队里任何人都快,这太可怕了 [69:37 Dan Shipper]。
-
-设计师同理。现在 vibe coding(凭感觉让 AI 写代码)做出来的东西千篇一律。而设计师拥有让东西看起来与众不同的审美和创意,现在他们不仅能设计,还能直接自己构建出来,不需要频繁交接给工程师 [71:06 Dan Shipper]。
-
-既然工具这么强,那大家恐惧的「AI 大失业潮」真的会发生吗?Dan 明确表示:AI 末日并不是真的会发生 [73:11 Dan Shipper]。
-
-他给出了一个非常精妙的结构性解释:模型所做的事情,本质上是让昨天的人类能力变得廉价。它们吃掉过去的数据,让昨天创造的能力变得随手可得。因为大家都在用相同的模型,如果只是用最基础的方式生成,产出的东西看起来都一样,这就被商品化了,不再有价值 [74:45 Dan Shipper]。
-
-但人类的独特之处在于,我们能够拿着这些被冻结的旧能力去创造新的、有趣的东西。由于模型公司的激励机制要求它们必须合规、安全,这就决定了模型在结构上永远会落后于那些用模型去创造新专业知识的人 [75:34 Dan Shipper]。
-
-所以,普通人该怎么做才能不被淘汰?他的建议是:驾驭模型(ride the models)。保持好奇心和玩乐心态,每当新模型发布,就去把它应用到你关心的事情上,哪怕现在做不到,也去不断翻开石头尝试,终有一天它会成功 [78:10 Dan Shipper]。
-
-他还抛出一个很颠覆的观点:AI 的前沿不在旧金山。因为旧金山的人在制造 AI,但他们其实不太知道怎么用。真正的 AI 前沿,是 AI 遇到真实人类并解决具体问题的地方 [78:48 Dan Shipper]。旧金山的人需要看到其他人怎么用。这就是为什么身处布鲁克林的他,觉得在应用层面远超旧金山的同行。
+那么对于普通打工人，如何确保自己不被淘汰？Dan 的建议只有四个字：**驾驭模型（ride the models）**[76:29 Dan Shipper]。每当新模型发布，不要因为恐惧而逃避，而是要在自己关心的事物上不断测试它。Dan 指出，AI 的前沿并不只在旧金山，而是在 AI 遇到真实人类、解决真实问题的地方 [78:48 Dan Shipper]。
 
 ## 本集带走
-1. **工作分两半**:你将通过 Slack 等工具把任务委派给公司级的超级智能体,同时你手头的大部分日常操作会直接在 Codex 或 Claude Cowork 这种集成了浏览器的桌面环境里完成,SaaS 软件将在这个环境内被调用。
-2. **SaaS 不会死,反而更繁荣**:因为智能体调用 SaaS 的频次极高,而使用的 AI 算力由用户自带。这极大地改善了 SaaS 厂商的成本结构,并推高了需求。
-3. **驾驭而非恐惧**:不要对所谓的失业末日恐慌。模型让旧的技能商品化,但人类天然能用旧能力创造新事物。只要保持好奇,不断用最新的模型去解决真实问题,你就站在了 AI 时代的真正前沿。
+
+1. **工作模式将一分为二**：你既会有一个通过 Slack 交流的全公司共享的「超级智能体」，也会把大部分日常工作（收发邮件、写文档）转移到本地运行的 AI 环境（如 Codex 桌面应用）中。在这些环境里，你将通过应用内浏览器直接使用 SaaS 工具。
+2. **SaaS 和人类工作都不会消亡**：智能体会成倍增加 SaaS 的调用量，所谓的「SaaS 末日」和「AI 导致大规模失业」都是伪命题。模型只是在结构上让「昨天的能力」变得廉价，而人类的价值在于利用这些廉价的能力创造出全新的东西。
+3. **产品经理和设计师将迎来黄金时代**：构建软件的成本趋近于零，这意味着「决定构建什么」以及「打造极致体验」的能力将被无限放大。想要在未来立足，唯一需要做的就是「驾驭模型」：带着好奇心去玩、去测试新模型，而不是抗拒它。
 
 ## 金句(中英对照 · 过机器闸门三联校验)
 
@@ -122,45 +99,64 @@ Dan 给出的答案是:他极其、极其看好产品经理(PM)和[[全栈设计
 > *I think the SaaSpocalypse is dumb.*  
 > —— Dan Shipper · [01:17] ^q1
 
+> 我现在会买入 SaaS 股票。  
+> *I would buy SaaS stocks right now.*  
+> —— Dan Shipper · [37:09] ^q2
+
+> 智能体所做的是增加 SaaS 的用户数量，而不是摆脱它。  
+> *What agents do is increase the number of users of SaaS, not get rid of it.*  
+> —— Dan Shipper · [38:20] ^q3
+
+> 自动化是个谎言，从某种意义上说，每次你自动化某样东西时，为了确保自动化运行良好，你需要一个人在上面确保它运行良好。  
+> *Automation is a lie, in the sense that every time you automate something, in order to make sure the automation is working well you need a human on top of it making sure that it's working well.*  
+> —— Dan Shipper · [39:15] ^q4
+
+> 我同时极其 AI 信奉（pilled）且非常看好人类。  
+> *I'm simultaneously extremely AI pilled and very bullish on humans.*  
+> —— Dan Shipper · [00:24] ^q5
+
 > 模型总体上做的是让昨天的人类能力变得廉价。  
 > *What models do in general is they make yesterday's human competence cheap.*  
-> —— Dan Shipper · [00:40] ^q2
+> —— Dan Shipper · [73:51] ^q6
 
-> 智能体做的是增加 SaaS 的用户数量,而不是摆脱它。  
-> *What agents do is increase the number of users of SaaS, not get rid of it.*  
-> —— Dan Shipper · [01:20] ^q3
+> 我们速通了 CLI 时代。  
+> *We speed ran the CLI era.*  
+> —— Dan Shipper · [31:26] ^q7
 
-> 我们有如此多的自动化,如此多的 AI,而且我也工作得更多了。  
-> *We have so much automation, so much AI, and I also work way more.*  
-> —— Dan Shipper · [00:31] ^q4
+> 它在持续期间很不错，但我认为 CLI 已经过时了。  
+> *It was nice while it lasted, but I think CLIs are over.*  
+> —— Dan Shipper · [01:28] ^q8
+
+> 你的公司的发展程度只能达到你的 CEO 在 AI 方面的发展程度，而且这是你不能委托的事情。  
+> *Your company's only going to go as far as your CEO goes in AI and it's not something you can delegate.*  
+> —— Dan Shipper · [59:28] ^q9
+
+> 我认为 AI 的前沿是 AI 遇到真实的人做事情的地方  
+> *I think the edge of AI is wherever AI meets a real human doing something*  
+> —— Dan Shipper · [78:48] ^q10
 
 ## 相关单集
 
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:Claude Code、CLI、Codex、OpenClaw、智能体 (agent)
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同公司:Cursor · 同概念:Claude Code、Codex、智能体 (agent)
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同概念:Claude Code、OpenClaw、智能体 (agent)
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《在指数级增长公司做增长：Anthropic 增长负责人的打法》]] —— 同公司:Anthropic · 同概念:Claude Code、Cowork、智能体 (agent)
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同公司:Anthropic · 同概念:Claude Code、智能体 (agent)
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体替代 10 人销售团队：SaaStr 创始人的前沿实战》]] —— 同概念:前置部署工程师 (forward deployed engineer)、智能体 (agent)
-- [[2026-06-03-latent-space-satya-2026|《专访 Satya Nadella:智能体时代的平台逻辑与企业护城河》]] —— 同概念:SaaS、智能体 (agent)
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同公司:Anthropic · 同概念:基准测试 (benchmark)
-- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同公司:Anthropic · 同概念:Claude Code
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被淘汰，构建者迎来黄金期》]] —— 同概念:智能体 (agent)、Codex
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]] —— 同概念:智能体 (agent)、OpenClaw
+- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同公司:Claude Code、Codex、OpenClaw · 同概念:CLI、智能体 (agent)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同公司:Claude Code、Codex、Cursor · 同概念:智能体 (agent)
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同公司:Claude Code、OpenClaw · 同概念:智能体 (agent)
+- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] —— 同公司:OpenClaw、Codex · 同概念:智能体 (agent)
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] —— 同公司:Claude Code、OpenClaw · 同概念:智能体 (agent)
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验》]] —— 同概念:前置部署工程师 (forward deployed engineer)、智能体 (agent)
+- [[2026-06-03-latent-space-satya-2026|《Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP》]] —— 同概念:SaaS、智能体 (agent)
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同公司:Claude Code · 同概念:智能体 (agent)
+- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评》]] —— 同公司:Ramp · 同概念:PM
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] —— 同概念:智能体 (agent)
 - [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] —— 同概念:SaaS
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值 150 亿的隐形 AI 公司 Applied Intuition:给自动驾驶卡车的焦虑开一剂务实药方》]] —— 同概念:智能体 (agent)
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别怪高管不懂你：产品经理的向上影响力心法》]] —— 同概念:智能体 (agent)
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel:在AI时代,做最会创新的公司》]] —— 同概念:智能体 (agent)
+- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同公司:Claude Code
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] —— 同概念:智能体 (agent)
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同概念:智能体 (agent)
 - [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同概念:智能体 (agent)
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人：别想从零颠覆世界，靠复制才能创新》]] —— 同概念:智能体 (agent)
-- [[2026-06-22-latent-space-gray-swan|《给 AI 智能体装上「安全带」:Gray Swan 的攻防实战》]] —— 同概念:智能体 (agent)
-- [[2026-06-24-latent-space-databricks|《Databricks 的智能体时代布局：统一调度、开源治理与数据库重写》]] —— 同概念:智能体 (agent)
-- [[2026-07-08-latent-space-modal|《AI 基础设施如何为智能体重新设计:Modal 联合创始人的方法》]] —— 同概念:智能体 (agent)
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别问客户、别信心理安全、只招「木桶」》]] —— 同公司:Ramp
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《前 GitHub、现 Notion 产品负责人 Max:每个项目的前 10% 现在免费了》]] —— 同公司:GitHub
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」》]] —— 同公司:Anthropic
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Tony Fadell：造出 iPod 和 iPhone 的人，怎么看 AI 时代的造物法则》]] —— 同公司:OpenAI
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同概念:智能体 (agent)
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] —— 同概念:智能体 (agent)
+- [[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]] —— 同概念:智能体 (agent)
+- [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同概念:智能体 (agent)
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同公司:Codex · 同概念:智能体 (agent)
 
 ---
 

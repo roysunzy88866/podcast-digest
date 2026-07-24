@@ -2,18 +2,18 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "00:01",
+      "timestamp": "08:25",
       "speaker": "Eric Ries",
       "trimmed": false,
-      "tsWas": "00:01",
+      "tsWas": "08:25",
       "spkWas": "Eric Ries"
     },
     {
       "i": 2,
-      "timestamp": "12:12",
+      "timestamp": "12:22",
       "speaker": "Eric Ries",
       "trimmed": false,
-      "tsWas": "12:12",
+      "tsWas": "12:28",
       "spkWas": "Eric Ries"
     },
     {
@@ -34,14 +34,6 @@
     },
     {
       "i": 5,
-      "timestamp": "25:05",
-      "speaker": "Eric Ries",
-      "trimmed": false,
-      "tsWas": "25:05",
-      "spkWas": "Eric Ries"
-    },
-    {
-      "i": 6,
       "timestamp": "36:10",
       "speaker": "Eric Ries",
       "trimmed": false,
@@ -49,7 +41,7 @@
       "spkWas": "Eric Ries"
     },
     {
-      "i": 7,
+      "i": 6,
       "timestamp": "49:27",
       "speaker": "Eric Ries",
       "trimmed": false,
@@ -57,48 +49,53 @@
       "spkWas": "Eric Ries"
     },
     {
-      "i": 9,
-      "timestamp": "71:45",
+      "i": 7,
+      "timestamp": "96:23",
       "speaker": "Eric Ries",
       "trimmed": false,
-      "tsWas": "71:49",
+      "tsWas": "96:23",
+      "spkWas": "Eric Ries"
+    },
+    {
+      "i": 8,
+      "timestamp": "00:37",
+      "speaker": "Eric Ries",
+      "trimmed": false,
+      "tsWas": "00:37",
+      "spkWas": "Eric Ries"
+    },
+    {
+      "i": 9,
+      "timestamp": "00:50",
+      "speaker": "Eric Ries",
+      "trimmed": false,
+      "tsWas": "00:50",
       "spkWas": "Eric Ries"
     },
     {
       "i": 10,
-      "timestamp": "83:04",
+      "timestamp": "01:09",
       "speaker": "Eric Ries",
       "trimmed": false,
-      "tsWas": "83:04",
+      "tsWas": "01:09",
       "spkWas": "Eric Ries"
     },
     {
       "i": 11,
-      "timestamp": "91:22",
+      "timestamp": "75:53",
       "speaker": "Eric Ries",
       "trimmed": false,
-      "tsWas": "91:20",
+      "tsWas": "75:53",
       "spkWas": "Eric Ries"
     },
     {
       "i": 12,
-      "timestamp": "93:14",
+      "timestamp": "25:05",
       "speaker": "Eric Ries",
       "trimmed": false,
-      "tsWas": "93:14",
+      "tsWas": "25:05",
       "spkWas": "Eric Ries"
     }
   ],
-  "dropped": [
-    {
-      "i": 8,
-      "reason": "逐字命中不了(裁剪后仍无)",
-      "en": "Google reports its quarterly report on time because there is a massive, unbelievably expensive apparatus to make sure it happens every time. And don't be evil was just a slogan."
-    },
-    {
-      "i": 13,
-      "reason": "逐字命中不了(裁剪后仍无)",
-      "en": "Who aligns the aligners?"
-    }
-  ]
+  "dropped": []
 }

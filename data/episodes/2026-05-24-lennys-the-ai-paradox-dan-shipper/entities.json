@@ -3,11 +3,11 @@
   "podcast": "Lenny's Podcast",
   "date": "2026-05-24",
   "tags": [
-    "AI 时代工作方式",
-    "智能体协作",
-    "桌面工作环境",
-    "SaaS 机会",
-    "AI 乐观主义"
+    "未来工作方式",
+    "智能体",
+    "本地 AI 环境",
+    "产品经理与设计师",
+    "反直觉预测"
   ],
   "entities": [
     {
@@ -105,322 +105,13 @@
       ]
     },
     {
-      "id": "every",
-      "type": "company",
-      "role": "company",
-      "name": "Every",
-      "file": "Every",
-      "primary": true,
-      "how_described": "本集将其描述为一家极为 AI 先行的初创公司，全员使用 AI 工具，并在过去一年团队规模翻了一倍。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 8,
-          "t": [
-            30.032,
-            30.954
-          ],
-          "quote": "Every agent needs a human.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 27,
-          "t": [
-            93.48,
-            96.661
-          ],
-          "quote": "Today, my guest is Dan Shipper, CEO and founder of Every.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 29,
-          "t": [
-            108.966,
-            115.309
-          ],
-          "quote": "Everybody at their company, including every non-technical person, uses Codex and Cowork and Claude Code to get much of their work done.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 64,
-          "t": [
-            273.401,
-            284.625
-          ],
-          "quote": "And yeah, I think one of the things about predicting the future or the way that we think about predicting the future at Every is that what you don't want to do is prognosticate.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 66,
-          "t": [
-            290.127,
-            293.428
-          ],
-          "quote": "So everybody at Every is an AI early adopter.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 102,
-          "t": [
-            519.56,
-            527.184
-          ],
-          "quote": "Literally every startup that I'm an investor in that starts to expand upmarket ends up working with WorkOS and that's because they are the best.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 155,
-          "t": [
-            774.606,
-            776.207
-          ],
-          "quote": "Is every team going to have an agent?",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 159,
-          "t": [
-            785.19,
-            804.677
-          ],
-          "quote": "And when OpenClaw first came out, everyone internally at Every adopted it and I was very convinced that it would be everyone has their own agent and there's some really interesting things about that world of a parallel org chart.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 250,
-          "t": [
-            1268.701,
-            1272.923
-          ],
-          "quote": "I flip to Claude every once in a while, but I think they're getting the paradigm right.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 254,
-          "t": [
-            1294.413,
-            1307.579
-          ],
-          "quote": "And when I'm writing a document, I just go into one of my Codex threads, which I have one thread for every project, and I just open the in-app browser, I go to the document, I usually do it in Proof, which is this online markdown editor I built.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 299,
-          "t": [
-            1592.354,
-            1602.817
-          ],
-          "quote": "But it is really clear that every model company is starting to realize how important it is to have a harness to get the most out of the model.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 313,
-          "t": [
-            1680.821,
-            1697.506
-          ],
-          "quote": "So for example, every more classic piece of productivity software, whether it's Slack, or Word docs, or PowerPoints or whatever, it's really mostly meant for a human to use.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 350,
-          "t": [
-            1935.036,
-            1946.26
-          ],
-          "quote": "But I would estimate that definitely the majority of the technical people inside of Every are not using CLIs anymore as their main work surface.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 351,
-          "t": [
-            1947,
-            1955
-          ],
-          "quote": "I think a lot of programmers are still flipping into it every once in a while, but it's more or less they're using Codex, Claude Code, Cursor, that kind of thing.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 395,
-          "t": [
-            2276.769,
-            2296.014
-          ],
-          "quote": "And part of the reason I'm so bullish on SaaS is A, everybody internally here is, like I said, we have all got agents and we're all using Codex and whatever, and we still pay for a ton of SaaS and our SaaS spend is up year over year, and we're not vibe coding every single little thing.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 407,
-          "t": [
-            2355.26,
-            2366.464
-          ],
-          "quote": "Automation is a lie, in the sense that every time you automate something, in order to make sure the automation is working well you need a human on top of it making sure that it's working well.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 424,
-          "t": [
-            2456.798,
-            2460.34
-          ],
-          "quote": "I just vibe coded it on the side while running the rest of Every.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 428,
-          "t": [
-            2472.786,
-            2482.41
-          ],
-          "quote": "We had a lot of beta testers, but the day after launch it was like just every 10 minutes the servers would go down and people were looking at me and I'd be like, \"I don't know what's going on.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 457,
-          "t": [
-            2659.055,
-            2663.917
-          ],
-          "quote": "And every coding model on the market, and I'm pretty sure this ...",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 458,
-          "t": [
-            2664.137,
-            2668.459
-          ],
-          "quote": "Here's a prediction, I'm pretty sure every coding model on the market will still do this in a year.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 459,
-          "t": [
-            2669.179,
-            2671.72
-          ],
-          "quote": "Every coding model in the market will take that instruction seriously.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 475,
-          "t": [
-            2777.068,
-            2785.551
-          ],
-          "quote": "Every security leader that I talk to is feeling the increasing weight of protecting their organization, their business, and not to mention their customer data.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 556,
-          "t": [
-            3197.241,
-            3207.167
-          ],
-          "quote": "And one of the things that I think is special about every is... Everyone is sort of a generalist and really loves having their fingers in a lot of different pots or whatever the metaphor is.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 562,
-          "t": [
-            3232.06,
-            3246.406
-          ],
-          "quote": "And the thing that is becoming really clear is the whole Ford deployed engineer concept I think is for real and it comes out of every agent needs a human.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 589,
-          "t": [
-            3431.227,
-            3449.595
-          ],
-          "quote": "So the way that it works inside of the big model companies, for example, at least one of them has literally a data science bot that every single person in the org can query that is hooked up to their data warehouse that knows who's who so that it knows at the warehouse level who has permission to access what.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 652,
-          "t": [
-            3814.926,
-            3842.257
-          ],
-          "quote": "And I think the same is true when we did our quarterly planning for every at the end of 2025, we did it all with Notion Agents and we just had a bunch of Notion agents and we had really one Notion agent and then we had a top level company strategy and then we had everybody in the company just talked to an agent and it asked them about what happened last year, how did it go, what were your goals?",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 664,
-          "t": [
-            3889.11,
-            3897.912
-          ],
-          "quote": "And the slap one is it took them less time to make it than it takes me to read it and they don't stand behind every line.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 712,
-          "t": [
-            4201.24,
-            4214.85
-          ],
-          "quote": "He ships faster than almost anyone on the team and he has such a eye for every single user, every single conversation, like what does it mean and how do we collect it into a story about where we want to go next, and what are the issues we need to fix?",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 841,
-          "t": [
-            4879.21,
-            4886.634
-          ],
-          "quote": "On the other hand, every role transformed, engineers don't write code, PMs don't write PRDs, design and design.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 899,
-          "t": [
-            5140.663,
-            5142.644
-          ],
-          "quote": "Everyone at every has to read The Writing Life.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 903,
-          "t": [
-            5160.694,
-            5165.617
-          ],
-          "quote": "It's everything about every wrapped up into a very tight chapter.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 992,
-          "t": [
-            5583.055,
-            5585.238
-          ],
-          "quote": "Where can folks find you and every, what should people know?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 994,
-          "t": [
-            5587.36,
-            5598.507
-          ],
-          "quote": "You can find me on X@danshipper, S-H-I-P-P-E-R, and you can subscribe to every, please subscribe to every.to, every.to/subscribe.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
       "id": "agent",
       "type": "concept",
       "role": "concept",
       "name": "智能体 (agent)",
       "file": "智能体",
       "primary": true,
-      "how_described": "本集将其描述为人类工作的承接者，指出每个智能体都需要一个关心它的人类主理人；人们会和智能体像经理管理员工一样协作。",
+      "how_described": "本集核心主线，Dan 预测未来工作将分化为异步委派任务的智能体和本地电脑上运行的 AI 环境；指出每个智能体都需要有专人维护和调教，公司级应用将先从全公司共享的超级智能体开始。",
       "source": "glm",
       "evidence": [
         {
@@ -913,12 +604,12 @@
     },
     {
       "id": "codex",
-      "type": "concept",
-      "role": "concept",
+      "type": "company",
+      "role": "company",
       "name": "Codex",
       "file": "Codex",
       "primary": true,
-      "how_described": "本集将其描述为 OpenAI 推出的桌面智能体环境，嘉宾称其为日常主力工具，SaaS 工具将直接在它的内置浏览器里运行。",
+      "how_described": "OpenAI 推出的桌面应用，被 Dan 当作日常主力工作环境，其内置浏览器可让智能体看着用户工作；Dan 认为它抓住了未来工作的范式，甚至超过了 Anthropic 的产品。",
       "source": "glm",
       "evidence": [
         {
@@ -1330,12 +1021,12 @@
     },
     {
       "id": "claude-code",
-      "type": "concept",
-      "role": "concept",
+      "type": "company",
+      "role": "company",
       "name": "Claude Code",
       "file": "Claude Code",
       "primary": true,
-      "how_described": "本集将其描述为 Anthropic 推出的编程智能体，不仅用于写代码，还被广泛用于非技术活，被视为新工作范式的开创者。",
+      "how_described": "Anthropic 推出的终端工具，Dan 一年前曾预测人们严重低估了它在非工程工作（如整理文件、修 bug）上的潜力；它让本地电脑上的智能体拥有了访问一切的超级权限。",
       "source": "glm",
       "evidence": [
         {
@@ -1611,142 +1302,13 @@
       ]
     },
     {
-      "id": "cowork",
-      "type": "concept",
-      "role": "concept",
-      "name": "Cowork",
-      "file": "Cowork",
-      "primary": true,
-      "how_described": "本集将其描述为 Anthropic 对 Claude Code 的一个更好的封装产品，与 Codex 一同被视为未来的工作操作系统。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 19,
-          "t": [
-            65.05,
-            72.84
-          ],
-          "quote": "Second is that most of the work that you do is actually going to happen on your computer in an environment like Codex or Claude Cowork.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 29,
-          "t": [
-            108.966,
-            115.309
-          ],
-          "quote": "Everybody at their company, including every non-technical person, uses Codex and Cowork and Claude Code to get much of their work done.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 30,
-          "t": [
-            115.749,
-            124.852
-          ],
-          "quote": "And this is why, way before anybody else, Dan saw the rise of Claude Code and what is now Cowork, which he predicted almost a year ago when he was on the podcast last time.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 46,
-          "t": [
-            208.111,
-            214.954
-          ],
-          "quote": "They built Cowork, which built on this very specific idea using Claude Code for non-technical work.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 146,
-          "t": [
-            725.829,
-            737.093
-          ],
-          "quote": "Second is that most of the work that you do is actually going to happen on your computer, in an environment like Codex or Claude Cowork.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 219,
-          "t": [
-            1092.443,
-            1094.094
-          ],
-          "quote": "Like Codex, Cowork.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 234,
-          "t": [
-            1188.571,
-            1195.354
-          ],
-          "quote": "Anthropic then built Cowork, which is a little bit of a nicer wrapping around Claude Code, but is fundamentally the same thing.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 244,
-          "t": [
-            1240.73,
-            1251.435
-          ],
-          "quote": "If you look at all the lessons that Anthropic learned, they went from Claude code to Cowork and you can see that in the tabs on the Anthropic desktop app UI.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 369,
-          "t": [
-            2033.285,
-            2063.074
-          ],
-          "quote": "When I have Codex interact with another agent, it can give so much more context about me and what I want than I would be able to type, and it can go back and forth talking about things that would take a long time for me to express directly to an agent that you get this speed up effect when you assume that your users are using Codex, or Claude Code, or Cowork as their basic way they access your app.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 377,
-          "t": [
-            2124.1,
-            2152.41
-          ],
-          "quote": "If instead you just make a hard line of we are only going to service users who use Codex or Cowork, what happens is you just paste a prompt into Codex or Cowork, it goes and talks to the app, and the app can be either just a regular server or it can be its own agent, and Codex has so much information about you that it can just give it.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 388,
-          "t": [
-            2221.849,
-            2228.472
-          ],
-          "quote": "And I actually think once I have Codex or Cowork as my main work surface, I still want to use SaaS.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 793,
-          "t": [
-            4596.287,
-            4601.811
-          ],
-          "quote": "We've talked about how Codex and Cowork are becoming the sort of standard operating system for work.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 869,
-          "t": [
-            5024.081,
-            5034.425
-          ],
-          "quote": "I would try all of your workflows in Codex or Cowork and see how that works.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
       "id": "saas",
       "type": "concept",
       "role": "concept",
       "name": "SaaS",
       "file": "SaaS",
       "primary": true,
-      "how_described": "本集预测「SaaS 末日」是愚蠢的，认为智能体不仅不会消灭 SaaS，反而会因调用频次的暴增而极大地推高其需求与繁荣。",
+      "how_described": "Dan 反对「SaaS 末日论」，预测智能体会成倍增加 SaaS 的调用量和用户数，并且用户在自己电脑的本地 AI 环境中使用这些网页工具会消耗自己的大模型算力（tokens），从而大幅节省 SaaS 厂商的成本。",
       "source": "glm",
       "evidence": [
         {
@@ -1968,13 +1530,229 @@
       ]
     },
     {
-      "id": "openclaw",
+      "id": "forward-deployed-engineer",
       "type": "concept",
       "role": "concept",
+      "name": "前置部署工程师 (forward deployed engineer)",
+      "file": "前置部署工程师",
+      "primary": true,
+      "how_described": "Dan 预测将长期存在的新兴岗位，这类工程师的工作不再是写代码，而是负责调教、维护系统，确保智能体正常运行，并帮非技术人员把他们的产出以连贯的方式整合进产品中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 180,
+          "t": [
+            910.852,
+            933.96
+          ],
+          "quote": "And that's why I think it has started to shift to a more one agent per company model because for now, the ideal is you basically set up a forward deployed engineer or someone with that profile who's responsible for making sure that that agent is working for the whole company and then maybe you have some little team agents.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "pm",
+      "type": "concept",
+      "role": "concept",
+      "name": "PM",
+      "file": "PM",
+      "primary": true,
+      "how_described": "Dan 极度看好的未来赢家之一，依靠编码模型，他们能将敏锐的产品直觉直接转化为产品并快速发布，不再需要等工程团队排期来实现自己的想法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 706,
+          "t": [
+            4141.765,
+            4143.686
+          ],
+          "quote": "Marcus is a PM by training.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 707,
+          "t": [
+            4145.666,
+            4156.069
+          ],
+          "quote": "He previously ran Axios' writing product and was a PM and had a big team and it got to tens of millions of revenue in ARR.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 716,
+          "t": [
+            4223.476,
+            4229
+          ],
+          "quote": "And it's super impressive and it makes me very, very bullish on any PM who gets really AI-pilled.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 760,
+          "t": [
+            4387.273,
+            4389
+          ],
+          "quote": "So PM Designer thriving, killing-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 761,
+          "t": [
+            4389.4,
+            4390.521
+          ],
+          "quote": "PM Designer thriving.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 804,
+          "t": [
+            4643.474,
+            4646.82
+          ],
+          "quote": "Say a PM at Salesforce, what should they do to ride the model?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "cowork",
+      "type": "company",
+      "role": "company",
+      "name": "Cowork",
+      "file": "Cowork",
+      "primary": true,
+      "how_described": "Anthropic 基于 Claude Code 概念构建的更好封装的产品，Dan 预测它和 Codex 一样，将成为承载人们大部分日常工作的本地操作系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            65.05,
+            72.84
+          ],
+          "quote": "Second is that most of the work that you do is actually going to happen on your computer in an environment like Codex or Claude Cowork.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 29,
+          "t": [
+            108.966,
+            115.309
+          ],
+          "quote": "Everybody at their company, including every non-technical person, uses Codex and Cowork and Claude Code to get much of their work done.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 30,
+          "t": [
+            115.749,
+            124.852
+          ],
+          "quote": "And this is why, way before anybody else, Dan saw the rise of Claude Code and what is now Cowork, which he predicted almost a year ago when he was on the podcast last time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 46,
+          "t": [
+            208.111,
+            214.954
+          ],
+          "quote": "They built Cowork, which built on this very specific idea using Claude Code for non-technical work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 146,
+          "t": [
+            725.829,
+            737.093
+          ],
+          "quote": "Second is that most of the work that you do is actually going to happen on your computer, in an environment like Codex or Claude Cowork.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1092.443,
+            1094.094
+          ],
+          "quote": "Like Codex, Cowork.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1188.571,
+            1195.354
+          ],
+          "quote": "Anthropic then built Cowork, which is a little bit of a nicer wrapping around Claude Code, but is fundamentally the same thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1240.73,
+            1251.435
+          ],
+          "quote": "If you look at all the lessons that Anthropic learned, they went from Claude code to Cowork and you can see that in the tabs on the Anthropic desktop app UI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2033.285,
+            2063.074
+          ],
+          "quote": "When I have Codex interact with another agent, it can give so much more context about me and what I want than I would be able to type, and it can go back and forth talking about things that would take a long time for me to express directly to an agent that you get this speed up effect when you assume that your users are using Codex, or Claude Code, or Cowork as their basic way they access your app.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 377,
+          "t": [
+            2124.1,
+            2152.41
+          ],
+          "quote": "If instead you just make a hard line of we are only going to service users who use Codex or Cowork, what happens is you just paste a prompt into Codex or Cowork, it goes and talks to the app, and the app can be either just a regular server or it can be its own agent, and Codex has so much information about you that it can just give it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2221.849,
+            2228.472
+          ],
+          "quote": "And I actually think once I have Codex or Cowork as my main work surface, I still want to use SaaS.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 793,
+          "t": [
+            4596.287,
+            4601.811
+          ],
+          "quote": "We've talked about how Codex and Cowork are becoming the sort of standard operating system for work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 869,
+          "t": [
+            5024.081,
+            5034.425
+          ],
+          "quote": "I would try all of your workflows in Codex or Cowork and see how that works.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "company",
+      "role": "company",
       "name": "OpenClaw",
       "file": "OpenClaw",
       "primary": true,
-      "how_described": "本集将其描述为一种开源的个人智能体框架，在社区极具热度但维护门槛过高，常常出故障，导致大家转投全公司级的超级智能体。",
+      "how_described": "开源的智能体框架，Every 公司曾试用但发现维护成本极高，Dan 发现需要时刻盯着的「个人智能体」走不通，最终转向了公司级的单一智能体模式。",
       "source": "glm",
       "evidence": [
         {
@@ -2088,70 +1866,13 @@
       ]
     },
     {
-      "id": "terminal",
-      "type": "concept",
-      "role": "concept",
-      "name": "终端 (terminal)",
-      "file": "终端",
-      "primary": true,
-      "how_described": "本集指出编程智能体极其擅长使用终端操作，这造就了一种超级强大的新编程范式，但也宣称 CLI 时代已被「速通」。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 24,
-          "t": [
-            84.202,
-            86
-          ],
-          "quote": "A lot of people are moving to CLI and trying to work from the terminal.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 87,
-          "t": [
-            433.598,
-            438.68
-          ],
-          "quote": "Everybody was talking to their computer in English, using Claude Code in the terminal.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 226,
-          "t": [
-            1114.526,
-            1117.807
-          ],
-          "quote": "It uses the terminal, so it has basically superpowered access to it.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 227,
-          "t": [
-            1117.947,
-            1134.493
-          ],
-          "quote": "And not only that, these agents really understand how to use the terminal because there's so much content online about that and it created this super powerful coding paradigm, which is Anthropic was really doing it first.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 338,
-          "t": [
-            1873.261,
-            1882.9
-          ],
-          "quote": "So, as a part of this that a lot of people are moving to CLI and trying to work from the terminal, is part of this prediction that people shift away from that and back to actual UX with agents-",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
       "id": "cli",
       "type": "concept",
       "role": "concept",
       "name": "CLI",
       "file": "CLI",
       "primary": true,
-      "how_described": "本集宣判了 CLI 时代的终结，认为随着 GUI 的回归，技术人员将不再把 CLI 作为主要工作界面，且未来 SaaS 仍需支持智能体对 CLI 的调用。",
+      "how_described": "Dan 断言人们「速通了 CLI 时代」，当真正的图形界面（GUI）与智能体结合时，人类会意识到图形界面远比枯燥的代码行更好用。",
       "source": "glm",
       "evidence": [
         {
@@ -2256,33 +1977,15 @@
       ]
     },
     {
-      "id": "benchmark",
+      "id": "senior-engineer-benchmark",
       "type": "concept",
       "role": "concept",
-      "name": "基准测试 (benchmark)",
-      "file": "基准测试",
+      "name": "高级工程师基准测试 (senior engineer benchmark)",
+      "file": "高级工程师基准测试",
       "primary": true,
-      "how_described": "本集指出基准测试让人产生 AI 会完全自主的错觉，无法衡量需要人类主动思考的隐性工作，即便饱和也不等同于完全替代人类工程师。",
+      "how_described": "Dan 自己创建的测试，让模型从第一性原理重写代码；指出即使 GPT 5.5 拿了 60 分，真正的工程师会直接判断代码是垃圾并选择重写，而模型只会给问题打补丁。",
       "source": "glm",
       "evidence": [
-        {
-          "seg": 135,
-          "t": [
-            639.183,
-            650.146
-          ],
-          "quote": "Meter has this really cool benchmark where it's like it measures how long the newest models can do tasks autonomously and it's like, oh, it can, what's it called?",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 421,
-          "t": [
-            2436.711,
-            2442.433
-          ],
-          "quote": "And I think part of the paradox started to resolve for me a little bit when I made my own benchmark.",
-          "speaker": "SPEAKER_1"
-        },
         {
           "seg": 422,
           "t": [
@@ -2290,42 +1993,6 @@
             2449.736
           ],
           "quote": "So I made this senior, it's called the senior engineer benchmark, and it's like how good is AI versus a human engineer?",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 450,
-          "t": [
-            2584.626,
-            2598.351
-          ],
-          "quote": "It's very clear that in a year or less it's going to be senior engineer level, and that gives you a certain picture in your mind, especially based on how I named the benchmark, which I think a lot of benchmarks do.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 451,
-          "t": [
-            2599.572,
-            2609.776
-          ],
-          "quote": "And I can tell you that when we get to that point, it will be very easy for me to change the benchmark to zero out the current model, so that gets a zero out of 100.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 469,
-          "t": [
-            2711.335,
-            2725
-          ],
-          "quote": "And so, I think it's really important when we think about benchmark progress to think about it from that perspective, which is benchmarks rise on problems that we've framed that we can articulate, that we can score.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 495,
-          "t": [
-            2874.257,
-            2880
-          ],
-          "quote": "And in this case, the way the benchmark is structured is, yeah, these human engineers used AI, but they used it in a way that I could not because I didn't understand it and I didn't have time-",
           "speaker": "SPEAKER_1"
         },
         {
@@ -2340,130 +2007,13 @@
       ]
     },
     {
-      "id": "forward-deployed-engineer",
-      "type": "concept",
-      "role": "concept",
-      "name": "前置部署工程师 (forward deployed engineer)",
-      "file": "前置部署工程师",
-      "primary": true,
-      "how_described": "本集将其描述为一个从「每个智能体都需要人类」原则中衍生出的真实新岗位，职责是花大量时间在 Slack 中和内部智能体对话以确保其正常运作。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 180,
-          "t": [
-            910.852,
-            933.96
-          ],
-          "quote": "And that's why I think it has started to shift to a more one agent per company model because for now, the ideal is you basically set up a forward deployed engineer or someone with that profile who's responsible for making sure that that agent is working for the whole company and then maybe you have some little team agents.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "full-stack-designers",
-      "type": "concept",
-      "role": "concept",
-      "name": "全栈设计师 (full stack designers)",
-      "file": "全栈设计师",
-      "primary": true,
-      "how_described": "本集极度看好该角色，认为 vibe coding 出来的东西千篇一律，而设计师拥有与众不同的审美，现在能自己构建产品而不必频繁交接给工程师。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 4,
-          "t": [
-            13.409,
-            18
-          ],
-          "quote": "I am super, super bullish on PMs and full stack designers.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 732,
-          "t": [
-            4266.5,
-            4274.524
-          ],
-          "quote": "So the other people that I think are going to be super, super power people, and again, this is because we see this internally, is full stack designers.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "automation",
-      "type": "concept",
-      "role": "concept",
-      "name": "工作自动化 (automation)",
-      "file": "工作自动化",
-      "primary": true,
-      "how_described": "本集犀利指出「自动化是个谎言」，因为每次自动化某件事时，为了确保其运转良好，都需要一个人类在上面盯着它。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 7,
-          "t": [
-            29.11,
-            29.892
-          ],
-          "quote": "Automation is a lot.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 9,
-          "t": [
-            31.154,
-            33.98
-          ],
-          "quote": "We have so much automation, so much AI, and I also work way more.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 407,
-          "t": [
-            2355.26,
-            2366.464
-          ],
-          "quote": "Automation is a lie, in the sense that every time you automate something, in order to make sure the automation is working well you need a human on top of it making sure that it's working well.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 420,
-          "t": [
-            2431.309,
-            2435.771
-          ],
-          "quote": "I've been feeling that we have so much automation, so much AI, and I also work way more.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 471,
-          "t": [
-            2745.255,
-            2751.8
-          ],
-          "quote": "And I think it's why even though the models are getting better at automation, I still hire engineers.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 569,
-          "t": [
-            3284.361,
-            3293
-          ],
-          "quote": "And it's another one of those places where you're like, hmm, automation was supposed to take away jobs, but it looks like it just created one or many.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
       "id": "shopify",
       "type": "company",
       "role": "company",
       "name": "Shopify",
       "file": "Shopify",
       "primary": false,
-      "how_described": "本集提及该公司已经部署了全公司级别的超级智能体，由专人维护。",
+      "how_described": "本集作为案例提及，Dan 指出该公司采用了一个全公司共享的「超级智能体」（名为 River）。",
       "source": "glm",
       "evidence": [
         {
@@ -2493,7 +2043,7 @@
       "name": "Ramp",
       "file": "Ramp",
       "primary": false,
-      "how_described": "本集顺带提及这家公司也开始使用一个全公司共享的超级智能体。",
+      "how_described": "本集作为案例提及，与 Shopify 一样，Dan 指出他们现在也拥有了一个全公司共享的智能体。",
       "source": "glm",
       "evidence": [
         {
@@ -2526,301 +2076,13 @@
       ]
     },
     {
-      "id": "github",
-      "type": "company",
-      "role": "company",
-      "name": "GitHub",
-      "file": "GitHub",
-      "primary": false,
-      "how_described": "本集提到该平台目前正因为智能体发来的请求数量呈指数级暴涨而面临巨大的基础设施挑战。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 329,
-          "t": [
-            1801.206,
-            1809.849
-          ],
-          "quote": "This is exactly why GitHub is having problems right now because the number of people using GitHub is skyrocketing exponentially and it's really just people's agencies in GitHub.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 335,
-          "t": [
-            1843.922,
-            1848.005
-          ],
-          "quote": "And then we just get that, it becomes a GitHub issue, and then we can just send off an agent to fix it.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "anthropic",
-      "type": "company",
-      "role": "company",
-      "name": "Anthropic",
-      "file": "Anthropic",
-      "primary": false,
-      "how_described": "本集讨论了这家模型公司率先在本地电脑运行编程智能体方面的成功，并推出了 Cowork 产品。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 50,
-          "t": [
-            221.937,
-            227.48
-          ],
-          "quote": "I feel like this has also been a big part of Anthropic's success over the past year, just like how do non-technical people use this stuff.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 98,
-          "t": [
-            492.363,
-            499.828
-          ],
-          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 136,
-          "t": [
-            650.226,
-            658.028
-          ],
-          "quote": "Oh, Mythos preview, the big anthropic model that everyone's so worried about, it can do tasks of 17 hours at 50% accuracy.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 225,
-          "t": [
-            1098.021,
-            1114.186
-          ],
-          "quote": "So basically what happened was Anthropic realized at some point that, with Claude Code, if you put an agent on your computer and it runs on your computer, it has access to everything that you have access to.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 227,
-          "t": [
-            1117.947,
-            1134.493
-          ],
-          "quote": "And not only that, these agents really understand how to use the terminal because there's so much content online about that and it created this super powerful coding paradigm, which is Anthropic was really doing it first.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 234,
-          "t": [
-            1188.571,
-            1195.354
-          ],
-          "quote": "Anthropic then built Cowork, which is a little bit of a nicer wrapping around Claude Code, but is fundamentally the same thing.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 244,
-          "t": [
-            1240.73,
-            1251.435
-          ],
-          "quote": "If you look at all the lessons that Anthropic learned, they went from Claude code to Cowork and you can see that in the tabs on the Anthropic desktop app UI.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 262,
-          "t": [
-            1358.336,
-            1364.178
-          ],
-          "quote": "And then it renders a little page, and I think I showed you this at the Anthropic event.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 301,
-          "t": [
-            1611.36,
-            1623.065
-          ],
-          "quote": "When you call the model on the OpenAI platform, the Anthropic platform, they're literally running the model on a computer that is in the cloud that they run and then giving you the result out of it.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 303,
-          "t": [
-            1627.587,
-            1631.728
-          ],
-          "quote": "And so, you see Anthropic's got cloud managed agents.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 310,
-          "t": [
-            1662.821,
-            1674.134
-          ],
-          "quote": "So, if people building products that aren't OpenAI or Anthropic, if this proves to be true, the prediction here is they're going to be using your product over time inside of one of these agents.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 543,
-          "t": [
-            3143.951,
-            3146.032
-          ],
-          "quote": "I think Anthropic does this really well.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 822,
-          "t": [
-            4792.735,
-            4798.74
-          ],
-          "quote": "Maybe the only people that have an advantage are the people working at OpenAI or Anthropic, but otherwise it's just available.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 966,
-          "t": [
-            5481.78,
-            5493.286
-          ],
-          "quote": "I hate to say this, but I have to because anyone who knows me... We were at this conference recently, an Anthropic conference, and I'm telling Boris and Kat from Claude Code, \"You have to try Codex.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 970,
-          "t": [
-            5521.948,
-            5526
-          ],
-          "quote": "Do you feel like Anthropic can catch up or is this just like, \"Well, they get [inaudible 01:32:07]\"",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "openai",
-      "type": "company",
-      "role": "company",
-      "name": "OpenAI",
-      "file": "OpenAI",
-      "primary": false,
-      "how_described": "本集指出该公司曾落后于 Anthropic，但在发布 GPT 5.3 后推出 Codex 桌面应用开始追赶并反超。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 98,
-          "t": [
-            492.363,
-            499.828
-          ],
-          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 228,
-          "t": [
-            1134.933,
-            1141.515
-          ],
-          "quote": "OpenAI, for a while, was, in my opinion, very, very behind on this and then, in my opinion, has surpassed them recently.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 231,
-          "t": [
-            1157.12,
-            1170.625
-          ],
-          "quote": "There were people before them, like Devin, who, I think, had the big cloud environment and OpenAI tried this too, but the real adoption seems to have happened when you put it on your computer.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 235,
-          "t": [
-            1196.654,
-            1212.74
-          ],
-          "quote": "And then I think OpenAI made a couple of different bets, but their main bet on a programming agent was the earlier versions of Codex were very technical and they were super smart, but they were a little bit autistic.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 245,
-          "t": [
-            1252.235,
-            1254.676
-          ],
-          "quote": "I think OpenAI was just like, \"We see where this is going.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 301,
-          "t": [
-            1611.36,
-            1623.065
-          ],
-          "quote": "When you call the model on the OpenAI platform, the Anthropic platform, they're literally running the model on a computer that is in the cloud that they run and then giving you the result out of it.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 304,
-          "t": [
-            1633.389,
-            1637.23
-          ],
-          "quote": "OpenAI does not have a response yet, but I assume that that's going to happen.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 310,
-          "t": [
-            1662.821,
-            1674.134
-          ],
-          "quote": "So, if people building products that aren't OpenAI or Anthropic, if this proves to be true, the prediction here is they're going to be using your product over time inside of one of these agents.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 822,
-          "t": [
-            4792.735,
-            4798.74
-          ],
-          "quote": "Maybe the only people that have an advantage are the people working at OpenAI or Anthropic, but otherwise it's just available.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 972,
-          "t": [
-            5527.882,
-            5540.996
-          ],
-          "quote": "Like I said, I think it's going to be a horse race and different people will be ahead at different times, but I think right now OpenAI has gotten back the mandate of heaven a little bit.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 979,
-          "t": [
-            5550.584,
-            5552.366
-          ],
-          "quote": "People are like, \"Oh, are you sponsored by OpenAI?\"",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
       "id": "cursor",
       "type": "company",
       "role": "company",
       "name": "Cursor",
       "file": "Cursor",
       "primary": false,
-      "how_described": "本集提到它的云端实现比两大巨头更好，但明确选择了专门服务程序员这条赛道。",
+      "how_described": "被讨论的竞品，Dan 认为其云端实现很先进，但明确选择了专门为程序员服务的赛道，这可能会限制它在通用知识工作领域的扩展。",
       "source": "glm",
       "evidence": [
         {
@@ -2914,91 +2176,12 @@
           "speaker": "SPEAKER_1"
         }
       ]
-    },
-    {
-      "id": "proof",
-      "type": "concept",
-      "role": "concept",
-      "name": "Proof",
-      "file": "Proof",
-      "primary": false,
-      "how_described": "本集将其描述为嘉宾自己开发的在线 Markdown 编辑器，嘉宾常在 Codex 的应用内浏览器中打开它来进行人机协作写作。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 254,
-          "t": [
-            1294.413,
-            1307.579
-          ],
-          "quote": "And when I'm writing a document, I just go into one of my Codex threads, which I have one thread for every project, and I just open the in-app browser, I go to the document, I usually do it in Proof, which is this online markdown editor I built.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 255,
-          "t": [
-            1309.04,
-            1314.882
-          ],
-          "quote": "And then I just have Codex running and watching me in Proof and Codex can see what I'm doing.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 279,
-          "t": [
-            1449.923,
-            1460.746
-          ],
-          "quote": "Okay, so yeah, I'm using Proof or really any website, maybe PostHog or whatever, and I'm doing it inside of my agent and the agent has access to the website.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 288,
-          "t": [
-            1512.906,
-            1525.472
-          ],
-          "quote": "But I think for now there's this really cool thing where with Proof, for example, anyone who uses it, I don't pay for tokens because they bring their AI to Proof.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 318,
-          "t": [
-            1726.335,
-            1732.417
-          ],
-          "quote": "So for example, there's a lot of stuff that Proof doesn't have.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 331,
-          "t": [
-            1817.732,
-            1827.255
-          ],
-          "quote": "So for example, in Proof and some of our other products too, when someone has a problem they don't email support.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 334,
-          "t": [
-            1840.32,
-            1843.382
-          ],
-          "quote": "Proof is open source so, \"Here's what I think is going on in the code base.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 423,
-          "t": [
-            2451.376,
-            2456.578
-          ],
-          "quote": "And the way that I built it is again, have this app, Proof.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
     }
   ],
-  "rejected": []
+  "rejected": [
+    {
+      "name": "full stack designer",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
 }

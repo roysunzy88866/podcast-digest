@@ -11,12 +11,12 @@ aliases: ["Omnigens", "OmniGenes"]
 
 ## 集里怎么说它
 
-- **[[2026-06-24-latent-space-databricks|《Databricks 的智能体时代布局：统一调度、开源治理与数据库重写》]]**(01:42起):本集将其描述为 Databricks 推出的开源智能体框架。它旨在提供统一的通用 API、安全的云沙箱运行环境，并通过追踪操作历史和预算花费的「上下文策略」来实现企业级的智能体安全管控。
+- **[[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]]**(01:42起):Databricks 新推出的开源编程智能体管理底座，提供统一 API 支持云端代码、终端等不同运行环境与框架。其核心亮点是引入“上下文策略”动态拦截高危操作（如读机密文档+发公网），并支持为智能体设定开销预算。
 
 ## 出现在这些集
 
-- [[2026-06-24-latent-space-databricks|《Databricks 的智能体时代布局：统一调度、开源治理与数据库重写》]] — 作为概念
+- [[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]] — 作为概念
 
 ## 关联实体
 
-[[Matei Zaharia]] · [[Reynold Xin]] · [[Databricks]] · [[Snowflake]] · [[Neon]] · [[MosaicML]] · [[智能体]] · [[沙箱]] · [[LTAP]] · [[Dream Engine]]
+[[Matei Zaharia]] · [[Reynold Xin]] · [[Databricks]] · [[Snowflake]] · [[MosaicML]] · [[Neon]] · [[LTAP]] · [[HTAP]] · [[Dream Engine]] · [[智能体]]

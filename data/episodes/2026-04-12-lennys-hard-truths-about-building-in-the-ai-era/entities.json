@@ -4,10 +4,10 @@
   "date": "2026-04-12",
   "tags": [
     "人才密度",
-    "招聘与管理哲学",
-    "木桶理论",
-    "AI 时代的超级个体",
-    "反主流观点"
+    "招聘哲学",
+    "AI 时代组织变局",
+    "反直觉管理",
+    "早期投资心法"
   ],
   "entities": [
     {
@@ -93,7 +93,7 @@
       "name": "PayPal",
       "file": "PayPal",
       "primary": true,
-      "how_described": "本集作为「PayPal 黑手党」的大本营被反复提及。因为 Peter Thiel 和 Max Levchin 调动了令人难以置信的人才密度，它不仅自身成功，还在随后的 25 年里裂变出大量优秀公司。被收购时约有 254 名员工，其中真正的「木桶」只有 12 到 17 个。",
+      "how_described": "本集说它是「PayPal 黑手党」的大本营，Peter Thiel 和 Max Levchin 在此调动了极高的人才密度，不仅让它成功，还孕育了后续一连串伟大公司。",
       "source": "glm",
       "evidence": [
         {
@@ -240,7 +240,7 @@
       "name": "Square",
       "file": "Square",
       "primary": true,
-      "how_described": "Keith 曾任该公司的首席运营官，且 Jack Dorsey 当时用 iPad 运营公司。本集以 Square 为例讲述了「木桶与弹药」框架的来源（冰沙测试），并提到红杉资本的 Roelof Botha 惊叹于其运营节奏。",
+      "how_described": "本集说它是 Keith 曾担任首席运营官的公司，Jack Dorsey 当时用 iPad 运营公司；Keith 在此学到了「团队即公司」的理念，并在此验证了他的招聘与管理心法。",
       "source": "glm",
       "evidence": [
         {
@@ -363,13 +363,61 @@
       ]
     },
     {
+      "id": "faire",
+      "type": "company",
+      "role": "company",
+      "name": "Faire",
+      "file": "Faire",
+      "primary": true,
+      "how_described": "本集说它是一家电商平台，创始人 Max Rhodes 在做背景调查时因为 VC 问错了问题差点被错过；它还因极快的执行节奏（两次董事会之间就上线解决方案）吸引了 Keith 投资。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 153,
+          "t": [
+            738.961,
+            752.071
+          ],
+          "quote": "I've been a longtime investor from the seed round of a company called Faire, founded by two of my colleagues at Square, Max Rhodes and Jeff Colvison worked for me at Square and then the two other co-founders also worked at Square.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 156,
+          "t": [
+            763.34,
+            768.523
+          ],
+          "quote": "And so some venture capitalists, including some very good ones, were nervous about investing in Faire.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 874,
+          "t": [
+            4060.6,
+            4066.085
+          ],
+          "quote": "So the time between the seed and series A at Faire was pretty tight.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 876,
+          "t": [
+            4071.188,
+            4082.477
+          ],
+          "quote": "And Delian said to me after the second fare board meeting that he shadowed me at, he said, \"If there's one company in Silicon Valley that would cause me to leave being the VC, it'd be Faire.\"",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
       "id": "ramp",
       "type": "company",
       "role": "company",
       "name": "Ramp",
       "file": "Ramp",
       "primary": true,
-      "how_described": "Keith 抢投了其 A 轮，因为看到他们仅用 3 个月就做完了大银行通常需要 9 到 12 个月才能完成的企业卡发布准备。该公司的每次董事会都以「自发布以来的天数」作为第一张幻灯片。",
+      "how_described": "本集说它是一家展现极快执行速度的公司，通常发卡需要 9-12 个月，它 3 个月就做到了；其内部还极度推崇速度，每次董事会都从计算上线天数开始。",
       "source": "glm",
       "evidence": [
         {
@@ -474,109 +522,13 @@
       ]
     },
     {
-      "id": "faire",
-      "type": "company",
-      "role": "company",
-      "name": "Faire",
-      "file": "Faire",
-      "primary": true,
-      "how_described": "由 Keith 在 Square 的两位同事创立。本集以投资人对其创始人 Max Rhodes 做背景调查时「问错问题 vs 问对问题」为例，探讨如何准确识别潜力，并提到其极其惊人的执行速度。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 153,
-          "t": [
-            738.961,
-            752.071
-          ],
-          "quote": "I've been a longtime investor from the seed round of a company called Faire, founded by two of my colleagues at Square, Max Rhodes and Jeff Colvison worked for me at Square and then the two other co-founders also worked at Square.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 156,
-          "t": [
-            763.34,
-            768.523
-          ],
-          "quote": "And so some venture capitalists, including some very good ones, were nervous about investing in Faire.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 874,
-          "t": [
-            4060.6,
-            4066.085
-          ],
-          "quote": "So the time between the seed and series A at Faire was pretty tight.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 876,
-          "t": [
-            4071.188,
-            4082.477
-          ],
-          "quote": "And Delian said to me after the second fare board meeting that he shadowed me at, he said, \"If there's one company in Silicon Valley that would cause me to leave being the VC, it'd be Faire.\"",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "doordash",
-      "type": "company",
-      "role": "company",
-      "name": "DoorDash",
-      "file": "DoorDash",
-      "primary": true,
-      "how_described": "Keith 提到创始人 Tony 对每一位高级招聘都做 20 个背景调查，以此保证极高的招聘准确率；同时指出，他们创业时并不是通过问客户「需不需要送餐按钮」来验证市场的。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 23,
-          "t": [
-            78.965,
-            85.589
-          ],
-          "quote": "He was an early investor in Stripe, Palantir, Airbnb, YouTube, DoorDash, Ramp, and dozens of other companies.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 140,
-          "t": [
-            676.035,
-            682.999
-          ],
-          "quote": "So for example, ruthless referencing to me means Tony at DoorDash does 20 references on every single senior hire, 20.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 718,
-          "t": [
-            3372.868,
-            3374.849
-          ],
-          "quote": "So for example, let's go to DoorDash.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 735,
-          "t": [
-            3460.369,
-            3462.98
-          ],
-          "quote": "You're also talking like DoorDash has SMB-ish-",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
       "id": "airbnb",
       "type": "company",
       "role": "company",
       "name": "Airbnb",
       "file": "Airbnb",
       "primary": true,
-      "how_described": "Keith 是其早期投资者，他认同 CEO Brian Chesky「把油门踩到底」的做法，认为公司越成功、CEO 越要无情地抵消组织的自满情绪。",
+      "how_described": "本集提到创始人 Brian Chesky 最初向 Keith 顺推销时，用 Craigslist 上的真实数据验证了市场需求；同时，Brian Chesky 无论公司多成功都始终「把油门踩到底」、极度渴望前进。",
       "source": "glm",
       "evidence": [
         {
@@ -648,10 +600,10 @@
       "id": "barrels-and-ammunition",
       "type": "concept",
       "role": "concept",
-      "name": "木桶与弹药 (barrels and ammunition)",
-      "file": "木桶与弹药",
+      "name": "桶和弹药 (barrels and ammunition)",
+      "file": "桶和弹药",
       "primary": true,
-      "how_described": "Keith 著名的管理与招聘框架：「木桶」指能独立把一个想法从零推到闭环成功的人（极为稀缺），「弹药」指执行所需的团队和资源。如果不增加木桶数量，只是一味地增加弹药，反而会徒增协作税让公司变慢。",
+      "how_described": "本集提出的一个核心框架：「桶」指能独立把一件事从零推到完成的人，「弹药」指普通执行者。只增加弹药不增加桶，只会徒增协作和沟通成本。",
       "source": "glm",
       "evidence": [
         {
@@ -672,7 +624,7 @@
       "name": "人才密度 (density of talent)",
       "file": "人才密度",
       "primary": true,
-      "how_described": "本集贯穿始终的底层逻辑。初创公司就像有工资帽的球队，只有调动极高的人才密度，依靠「未被发现的才华」（往往缺乏数据点的年轻人），才能在与大公司的竞争中获胜。",
+      "how_described": "本集说它是初创公司建立不公平优势的根源，Peter Thiel 和 Max Levchin 在 PayPal 调动了极高的人才密度，成功的公司也会在发展过程中不断提升人才密度。",
       "source": "glm",
       "evidence": [
         {
@@ -696,22 +648,154 @@
       ]
     },
     {
-      "id": "foundation-models",
+      "id": "pm",
       "type": "concept",
       "role": "concept",
-      "name": "AI 时代的产品角色演进 (foundation models)",
-      "file": "AI 时代的产品角色演进",
+      "name": "PM",
+      "file": "PM",
       "primary": true,
-      "how_described": "本集指出，由于基础模型能力以月为单位跃升，制定长达一年的路线图变得荒谬，传统 PM 角色将失去意义。未来属于具备商业嗅觉、能在本周发现机会下周就推出新功能的「超级个体」（既懂商业又懂构建）。",
+      "how_described": "本集认为这个传统角色在 AI 时代将毫无意义，因为它做的制定年度路线图的工作被飞速的技术迭代淘汰；其核心技能必须向「懂商业、知道该做什么」的 CEO 角色演变。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 441,
+          "seg": 0,
           "t": [
-            2155.262,
-            2168.849
+            0,
+            2.268
           ],
-          "quote": "Right now, the capabilities of foundation models or companies like Lovable and things like that are just so improving such a rapid rate that it makes no sense to have a year-long roadmap.",
+          "quote": "... idea of a PM makes no sense in the future.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1110.947,
+            1117.07
+          ],
+          "quote": "Sometimes you may need a designer, an engineering team, a PM, a data analysis, blah, blah, blah.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1276.476,
+            1281.919
+          ],
+          "quote": "So settled on delivery and really wanted to provide a 9:00 PM cold smoothies.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1291.625,
+            1302.531
+          ],
+          "quote": "And so I tried through the office team EAs and nothing ... We never got healthy, delicious, and cold smoothies delivered at 9:00 PM.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1340.472,
+            1347.755
+          ],
+          "quote": "And lo and behold, smoothies show up at 9:00 PM, delivered on the standing desk table where the engineers would congregate.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2133.703,
+            2139.308
+          ],
+          "quote": "And he convinced me that the idea of a PM makes no sense basically in the future.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2139.969,
+            2143.352
+          ],
+          "quote": "If you think about decomposing the logic is what does PM usually do?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2260.162,
+            2269.96
+          ],
+          "quote": "I actually think whether you talk about someone who used to be a PM or someone who used to be a designer or called an engineer, the skill is more like being a CEO now, which is what are we building and why?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2376.116,
+            2381
+          ],
+          "quote": "But I think interestingly, what you're describing to me is what it sounds like what a great PM would be really good at basically represents [inaudible 00:39:41]",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "business-acumen",
+      "type": "concept",
+      "role": "concept",
+      "name": "商业头脑 (business acumen)",
+      "file": "商业头脑",
+      "primary": true,
+      "how_described": "本集说它是 AI 时代工程师和设计师最需要的核心技能：因为 AI 抹平了写代码和画设计的执行门槛，决定做什么、知道什么能为公司创造价值的人才能成为终极赢家。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 480,
+          "t": [
+            2336.262,
+            2336.624
+          ],
+          "quote": "Business acumen.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2336.644,
+            2337.711
+          ],
+          "quote": "It's basically business acumen.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "customer-feedback",
+      "type": "concept",
+      "role": "concept",
+      "name": "客户反馈 (customer feedback)",
+      "file": "客户反馈",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 565,
+          "t": [
+            2700.992,
+            2708.94
+          ],
+          "quote": "It's one of the reasons why I don't like to take customer feedback into account because by definition, when you put something in front of a customer, that's not a proxy for the real world.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 767,
+          "t": [
+            3606.413,
+            3610.276
+          ],
+          "quote": "Because the first success was not data-driven, was not customer feedback driven.",
           "speaker": "SPEAKER_0"
         }
       ]
@@ -723,7 +807,7 @@
       "name": "心理安全感 (psychological safety)",
       "file": "心理安全感",
       "primary": true,
-      "how_described": "Keith 明确表示完全不相信这个概念。他认为高性能机器没有心理安全感，它们是为了赢，并推荐《Jordan Rules》来佐证：如果想成为 Michael Jordan，就得表现得像 Michael Jordan。",
+      "how_described": "本集明确表示完全不信这一套，认为高性能机器的目标只有赢、不需要心理安全感；主张在公开场合批评人，让全团队知道问题正在被解决，而不是私下猜测。",
       "source": "glm",
       "evidence": [
         {
@@ -774,151 +858,47 @@
       ]
     },
     {
-      "id": "workos",
-      "type": "company",
-      "role": "company",
-      "name": "WorkOS",
-      "file": "WorkOS",
+      "id": "foundation-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "基础模型 (foundation models)",
+      "file": "基础模型",
       "primary": false,
-      "how_described": "本集播客的展示赞助商，被描述为为企业构建产品的最快路径，提供现成的 API 帮助初创公司解除企业级功能集成（如单点登录、审计日志）的增长阻碍。",
+      "how_described": "本集提到基础模型的能力正以极快的速度提升，导致传统的年度产品路线图显得荒谬，同时也让外界担忧基础实验室的进步速度会挤压初创公司的生存空间。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 58,
+          "seg": 441,
           "t": [
-            222.342,
-            226.504
+            2155.262,
+            2168.849
           ],
-          "quote": "This episode is brought to you by our season's presenting sponsor, WorkOS.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 60,
-          "t": [
-            234.949,
-            236.77
-          ],
-          "quote": "They are all powered by WorkOS.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 63,
-          "t": [
-            254.24,
-            261.884
-          ],
-          "quote": "Literally, every startup that I'm an investor in that starts to expand upmarket ends up working with WorkOS, and that's because they are the best.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 64,
-          "t": [
-            262.244,
-            272.07
-          ],
-          "quote": "Whether you are a seed stage startup trying to land your first enterprise customer or a unicorn expanding globally, WorkOS is the fastest path to becoming enterprise-ready and unblocking growth.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 66,
-          "t": [
-            275.271,
-            281.534
-          ],
-          "quote": "Visit workos.com to get started or just hit up their Slack where they have actual engineers waiting to answer your questions.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 67,
-          "t": [
-            281.935,
-            287.858
-          ],
-          "quote": "WorkOS allows you to build faster with delightful APIs, comprehensive docs, and a smooth developer experience.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 68,
-          "t": [
-            288.398,
-            291.68
-          ],
-          "quote": "Go to workos.com to make your app enterprise ready today.",
-          "speaker": "SPEAKER_1"
+          "quote": "Right now, the capabilities of foundation models or companies like Lovable and things like that are just so improving such a rapid rate that it makes no sense to have a year-long roadmap.",
+          "speaker": "SPEAKER_0"
         }
       ]
     },
     {
-      "id": "vanta",
-      "type": "company",
-      "role": "company",
-      "name": "Vanta",
-      "file": "Vanta",
+      "id": "network-effects",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络效应 (network effects)",
+      "file": "网络效应",
       "primary": false,
-      "how_described": "本集播客的支持赞助商，提供自动化合规与风险管理服务，帮助 Cursor、Ramp 等公司快速通过 SOC 2、ISO 27001 等安全与隐私框架。",
+      "how_described": "本集将它作为初创公司可构建的「累积优势」中最典型的一种，指出它能随着时间推移让业务越来越好。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 519,
+          "seg": 832,
           "t": [
-            2493.961,
-            2498.064
+            3844.488,
+            3850.874
           ],
-          "quote": "I am so excited to tell you about this season's supporting sponsor Vanta.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 520,
-          "t": [
-            2498.404,
-            2507.952
-          ],
-          "quote": "Vanta helps over 15,000 companies like Cursor, Ramp, Duolingo, Snowflake, and Atlassian earn and prove trust with their customers.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 525,
-          "t": [
-            2535.16,
-            2544.587
-          ],
-          "quote": "Vanta automates compliance and risk management with over 35 security and privacy frameworks, including SOC 2, ISO 27001, and HIPAA.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 528,
-          "t": [
-            2552.733,
-            2555.235
-          ],
-          "quote": "Learn more at vanta.com/lenny.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 529,
-          "t": [
-            2555.635,
-            2559.078
-          ],
-          "quote": "And as a listener of this podcast, you get $1,000 off Vanta.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 530,
-          "t": [
-            2559.438,
-            2560.779
-          ],
-          "quote": "That's vanta.com/lenny.",
-          "speaker": "SPEAKER_1"
+          "quote": "The one that people immediately gravitate to, but it's only one illustration of a set of options is network effects.",
+          "speaker": "SPEAKER_0"
         }
       ]
     }
   ],
-  "rejected": [
-    {
-      "name": "criticize in public",
-      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
-    }
-  ]
+  "rejected": []
 }

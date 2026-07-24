@@ -10,12 +10,12 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Tony Fadell：造出 iPod 和 iPhone 的人，怎么看 AI 时代的造物法则》]]**(01:40起):本集把它说成:由嘉宾创办、后被谷歌收购但遭边缘化的智能家居公司,其主打产品是能通过机器学习自主调温的 Nest 恒温器。
+- **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]]**(01:40起):本集将其作为讨论的重心，深入复盘了它在 Google 旗下被边缘化（成了“孤儿”）、恒温器和烟雾报警器业务停滞的惨痛现状，并指出如果它存活至今，将可以成为下一代家庭 AI 助手的核心枢纽。
 
 ## 出现在这些集
 
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Tony Fadell：造出 iPod 和 iPhone 的人，怎么看 AI 时代的造物法则》]] — 作为被讨论公司
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Tony Fadell]] · [[Lenny]] · [[OpenAI]] · [[General Magic]] · [[基于意见的决策]] · [[微管理]] · [[三代定律]] · [[客户旅程]] · [[讲故事]] · [[技术债务]]
+[[Tony Fadell]] · [[Lenny]] · [[OpenAI]] · [[Anthropic]] · [[General Magic]] · [[Apple]] · [[Flighty]] · [[iPod]] · [[iPhone]] · [[智能体]]

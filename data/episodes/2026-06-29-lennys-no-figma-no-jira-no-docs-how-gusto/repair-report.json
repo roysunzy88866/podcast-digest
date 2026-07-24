@@ -2,46 +2,30 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "00:00",
+      "timestamp": "10:08",
       "speaker": "Eddie Kim",
-      "trimmed": false,
-      "tsWas": "10:10",
+      "trimmed": true,
+      "tsWas": "10:04",
       "spkWas": "Eddie Kim"
     },
     {
       "i": 2,
-      "timestamp": "11:03",
+      "timestamp": "41:53",
       "speaker": "Eddie Kim",
       "trimmed": false,
-      "tsWas": "11:05",
+      "tsWas": "41:53",
       "spkWas": "Eddie Kim"
     },
     {
       "i": 3,
-      "timestamp": "25:24",
-      "speaker": "Claire Vo",
+      "timestamp": "42:15",
+      "speaker": "Eddie Kim",
       "trimmed": false,
-      "tsWas": "25:24",
-      "spkWas": "Claire Vo"
-    },
-    {
-      "i": 4,
-      "timestamp": "36:02",
-      "speaker": "Claire Vo",
-      "trimmed": false,
-      "tsWas": "36:02",
-      "spkWas": "Claire Vo"
+      "tsWas": "42:15",
+      "spkWas": "Eddie Kim"
     },
     {
       "i": 5,
-      "timestamp": "47:03",
-      "speaker": "Claire Vo",
-      "trimmed": false,
-      "tsWas": "47:03",
-      "spkWas": "Claire Vo"
-    },
-    {
-      "i": 6,
       "timestamp": "47:24",
       "speaker": "Claire Vo",
       "trimmed": false,
@@ -49,13 +33,43 @@
       "spkWas": "Claire Vo"
     },
     {
-      "i": 7,
-      "timestamp": "50:04",
+      "i": 6,
+      "timestamp": "36:17",
       "speaker": "Eddie Kim",
       "trimmed": false,
-      "tsWas": "50:04",
+      "tsWas": "36:17",
       "spkWas": "Eddie Kim"
+    },
+    {
+      "i": 7,
+      "timestamp": "25:24",
+      "speaker": "Claire Vo",
+      "trimmed": false,
+      "tsWas": "25:24",
+      "spkWas": "Claire Vo"
+    },
+    {
+      "i": 8,
+      "timestamp": "42:56",
+      "speaker": "Claire Vo",
+      "trimmed": false,
+      "tsWas": "42:58",
+      "spkWas": "Claire Vo"
+    },
+    {
+      "i": 9,
+      "timestamp": "44:15",
+      "speaker": "Claire Vo",
+      "trimmed": false,
+      "tsWas": "44:15",
+      "spkWas": "Claire Vo"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 4,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "it is time for the hard skill to show up again, not leadership, inspiration, alignment."
+    }
+  ]
 }

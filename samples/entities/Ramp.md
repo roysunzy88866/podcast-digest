@@ -10,16 +10,16 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别问客户、别信心理安全、只招「木桶」》]]**(01:18起):Keith 抢投了其 A 轮，因为看到他们仅用 3 个月就做完了大银行通常需要 9 到 12 个月才能完成的企业卡发布准备。该公司的每次董事会都以「自发布以来的天数」作为第一张幻灯片。
-- **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的 AI 工作预测:智能体接管工作,但人类不会失业》]]**(13:59起):本集顺带提及这家公司也开始使用一个全公司共享的超级智能体。
-- **[[2026-07-08-latent-space-modal|《AI 基础设施如何为智能体重新设计:Modal 联合创始人的方法》]]**(22:45起):本集提到它作为构建生产级面向外部客户的智能体(如会计智能体)的案例,需要 Modal 提供的专业沙箱以获得更深的计算控制权。
+- **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评》]]**(01:18起):本集说它是一家展现极快执行速度的公司，通常发卡需要 9-12 个月，它 3 个月就做到了；其内部还极度推崇速度，每次董事会都从计算上线天数开始。
+- **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]]**(13:59起):本集作为案例提及，与 Shopify 一样，Dan 指出他们现在也拥有了一个全公司共享的智能体。
+- **[[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]]**(21:37起):本集提到该公司的 Jeff 分享过经验：当他工作进展最缓慢（速度最低）时，他经历了最严重的职业倦怠。
 
 ## 出现在这些集
 
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别问客户、别信心理安全、只招「木桶」》]] — 作为被讨论公司
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的 AI 工作预测:智能体接管工作,但人类不会失业》]] — 作为被讨论公司(提及)
-- [[2026-07-08-latent-space-modal|《AI 基础设施如何为智能体重新设计:Modal 联合创始人的方法》]] — 作为被讨论公司(提及)
+- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评》]] — 作为被讨论公司
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] — 作为被讨论公司(提及)
+- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]] — 作为被讨论公司(提及)
 
 ## 关联实体
 
-[[Lenny]] · [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Keith Rabois]] · [[Dan Shipper]] · [[swyx]] · [[PayPal]] · [[Every]] · [[Akshat Bubna]]
+[[Lenny]] · [[Airbnb]] · [[PM]] · [[Keith Rabois]] · [[Dan Shipper]] · [[Noam Segal]] · [[PayPal]] · [[智能体]] · [[职业倦怠]] · [[Square]]

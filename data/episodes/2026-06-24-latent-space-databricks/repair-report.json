@@ -1,12 +1,20 @@
 {
   "kept": [
     {
-      "i": 2,
-      "timestamp": "31:16",
-      "speaker": "Reynold Xin",
+      "i": 1,
+      "timestamp": "21:04",
+      "speaker": "Matei Zaharia",
       "trimmed": false,
-      "tsWas": "31:16",
-      "spkWas": "Reynold Xin"
+      "tsWas": "21:04",
+      "spkWas": "Matei Zaharia"
+    },
+    {
+      "i": 2,
+      "timestamp": "10:56",
+      "speaker": "Matei Zaharia",
+      "trimmed": false,
+      "tsWas": "10:54",
+      "spkWas": "Matei Zaharia"
     },
     {
       "i": 3,
@@ -18,42 +26,52 @@
     },
     {
       "i": 4,
-      "timestamp": "44:25",
+      "timestamp": "30:40",
       "speaker": "Reynold Xin",
       "trimmed": false,
-      "tsWas": "44:23",
+      "tsWas": "30:40",
       "spkWas": "Reynold Xin"
     },
     {
       "i": 5,
+      "timestamp": "44:26",
+      "speaker": "Reynold Xin",
+      "trimmed": false,
+      "tsWas": "44:26",
+      "spkWas": "Reynold Xin"
+    },
+    {
+      "i": 6,
+      "timestamp": "32:05",
+      "speaker": "Reynold Xin",
+      "trimmed": false,
+      "tsWas": "32:02",
+      "spkWas": "Reynold Xin"
+    },
+    {
+      "i": 7,
+      "timestamp": "56:17",
+      "speaker": "Reynold Xin",
+      "trimmed": false,
+      "tsWas": "56:19",
+      "spkWas": "Reynold Xin"
+    },
+    {
+      "i": 8,
+      "timestamp": "60:52",
+      "speaker": "Matei Zaharia",
+      "trimmed": true,
+      "tsWas": "60:52",
+      "spkWas": "Matei Zaharia"
+    },
+    {
+      "i": 9,
       "timestamp": "51:18",
       "speaker": "Reynold Xin",
       "trimmed": false,
       "tsWas": "51:18",
       "spkWas": "Reynold Xin"
-    },
-    {
-      "i": 6,
-      "timestamp": "60:52",
-      "speaker": "Matei Zaharia",
-      "trimmed": false,
-      "tsWas": "60:52",
-      "spkWas": "Matei Zaharia"
-    },
-    {
-      "i": 7,
-      "timestamp": "21:04",
-      "speaker": "Matei Zaharia",
-      "trimmed": false,
-      "tsWas": "21:04",
-      "spkWas": "Matei Zaharia"
     }
   ],
-  "dropped": [
-    {
-      "i": 1,
-      "reason": "命中片段跨说话人(占比0.91/连续他人3词,疑拼接)",
-      "en": "Honestly, I was driving and I was tethering my laptop to my phone, keeping it on the side. Whenever I hit the red light, I started looking at what's going on on my laptop and I just felt that was ridiculous. It felt like we went back to the dark ages of programming."
-    }
-  ]
+  "dropped": []
 }

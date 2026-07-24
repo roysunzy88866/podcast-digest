@@ -4,10 +4,10 @@
   "date": "2026-04-19",
   "tags": [
     "产品经理",
+    "构建者",
+    "AI 时代职场",
     "职业重塑",
-    "智能体",
-    "AI 优先",
-    "行业大洗牌"
+    "信息搬运工"
   ],
   "entities": [
     {
@@ -174,7 +174,7 @@
       "name": "产品经理 (product manager)",
       "file": "产品经理",
       "primary": true,
-      "how_described": "本集核心议题。三年前往往沦为纯粹的「信息搬运工」、深陷「有责无权」的泥沼；如今必须向「热爱动手造东西的构建者」转型，核心价值转变为提供系统架构与产品方向的「判断力」。",
+      "how_described": "本集主要讨论对象。嘉宾指出产品经理过去主要靠传递信息来体现价值（成为信息搬运工），而未来必须转向纯粹的判断力和成为构建者，否则将面临淘汰。",
       "source": "glm",
       "evidence": [
         {
@@ -252,67 +252,106 @@
       ]
     },
     {
-      "id": "agent",
+      "id": "builder",
       "type": "concept",
       "role": "concept",
-      "name": "智能体 (agent)",
-      "file": "智能体",
+      "name": "构建者 (builder)",
+      "file": "构建者",
       "primary": true,
-      "how_described": "本集反复讨论的通用概念。指能自主调用工具、执行复杂业务流程的软件程序，产品人正用代码编写智能体去自动追踪进度、生成状态报告，以取代旧有低效的对齐流程，从而重写产品操作系统。",
+      "how_described": "本集极其核心的概念。嘉宾描述这类人是喜欢亲自动手写代码、做东西的人。预测他们是未来职场最吃香的人，将迎来职业生涯中最美好的时光，并且会打破职能界限扩散到各行业。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 602,
+          "seg": 264,
           "t": [
-            3604.624,
-            3607.725
+            1522.799,
+            1526.32
           ],
-          "quote": "I write an agent that goes in and actually does matching.",
+          "quote": "This was the IC conversation, the builder conversation.\"",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 603,
+          "seg": 271,
           "t": [
-            3608.185,
-            3613.327
+            1568.293,
+            1571.374
           ],
-          "quote": "I write an agent to figure out, \"Hey, what are all the jobs that my head of products are hiring?",
+          "quote": "I think those product managers, everybody wants a builder.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 643,
+          "seg": 302,
           "t": [
-            3803.446,
-            3810.713
+            1731.341,
+            1749.107
           ],
-          "quote": "And now you sit down and there's this moment where it's like, \"Hey, I used to have to go and work to do this, but now my agent's doing this.",
+          "quote": "So you would never think that an HR person would be a former product manager, but now forward-leading companies are starting to say, \"Hey, we need someone who can bring this obsolescence skill, this judgment skill, this empowerment skill, this builder skill to the function.\"",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 644,
+          "seg": 307,
           "t": [
-            3811.754,
-            3815.438
+            1791.2,
+            1795.902
           ],
-          "quote": "And then what's the next agent I could do to make my life a little bit better?\"",
+          "quote": "But if you're not a builder, if you're like, \"Look, I'm not really into tech.\"",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 751,
+          "seg": 317,
           "t": [
-            4387.561,
-            4395.509
+            1845,
+            1851.94
           ],
-          "quote": "And it feels like that's a remaining... and it's part of what you described, somebody that can get shit done, a change agent.",
-          "speaker": "SPEAKER_0"
+          "quote": "But I think that this non-builder piece is sort of a mirror image of the builder growth story that we're seeing.",
+          "speaker": "SPEAKER_1"
         },
         {
-          "seg": 763,
+          "seg": 545,
           "t": [
-            4461.772,
-            4465.475
+            3236.661,
+            3249.525
           ],
-          "quote": "The CEO can literally ask their agent, \"Well, what is the situation?",
+          "quote": "There's someone who's sitting, who's really afraid, who's a builder, who's like, \"Man, my job is changing so rapidly and I'm so nervous and I have to think through what's my career going to look like.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 704,
+          "t": [
+            4126.552,
+            4139.079
+          ],
+          "quote": "It's about making sure that your skip opportunity is saved and you are able to get that high salary, you're able to get one of those premier builder jobs, and that's the world that you have to have and the mindset you have to have.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "information-mover",
+      "type": "concept",
+      "role": "concept",
+      "name": "信息搬运工 (information mover)",
+      "file": "信息搬运工",
+      "primary": true,
+      "how_described": "本集用来指代只负责搬运、包装和向上传递信息的旧模式 PM。嘉宾断言这类人将变成恐龙、面临淘汰，约占行业现有人数的一半。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            18.596,
+            22
+          ],
+          "quote": "The information mover is essentially going to become a dinosaur.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1527,
+            1534.342
+          ],
+          "quote": "Now what we're essentially saying is the information mover is essentially going to become a dinosaur.",
           "speaker": "SPEAKER_1"
         }
       ]
@@ -324,7 +363,7 @@
       "name": "判断力 (judgment)",
       "file": "判断力",
       "primary": true,
-      "how_described": "本集将其锚定为产品经理在 AI 时代的终极核心价值。当代码生成和测试变更的成本趋近于零、产品变化冲击呈百倍增加时，评估某项变更是好是坏、如何构建可持续且不伤害品牌的系统的能力变得至关重要。",
+      "how_described": "本集描述为未来产品经理最核心的竞争力。指评估产品变更是好是坏、以及如何构建可持续和差异化产品的系统性能力，因为机械性的工作都将被 AI 接管。",
       "source": "glm",
       "evidence": [
         {
@@ -474,190 +513,298 @@
       ]
     },
     {
-      "id": "builder",
+      "id": "chief-of-staff-app",
       "type": "concept",
       "role": "concept",
-      "name": "构建者 (builder)",
-      "file": "构建者",
+      "name": "幕僚长应用 (chief of staff app)",
+      "file": "幕僚长应用",
       "primary": true,
-      "how_described": "本集极度推崇的角色类型，指真正喜欢动手造东西的人。嘉宾预测公司未来大换血招募的将全是 AI 优先的构建者，并断言「招募构建者」将成为未来几年最核心的口号。",
+      "how_described": "本集中提到的一种 PM 用 AI 自己动手构建的典型个人工具。例如用来追踪收件箱或处理日常琐事，嘉宾指出用它带来的乐趣是让人转变为构建者的关键敲门砖。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 264,
+          "seg": 554,
           "t": [
-            1522.799,
-            1526.32
+            3323.787,
+            3339.711
           ],
-          "quote": "This was the IC conversation, the builder conversation.\"",
+          "quote": "And oftentimes it's like, \"My partner and I use this app that I built,\" or, \"I built a chief of staff app to keep track of my inbox,\" or, \"I now manage the lights in my house using this thing.\"",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 271,
+          "seg": 969,
           "t": [
-            1568.293,
-            1571.374
+            5561.612,
+            5564.173
           ],
-          "quote": "I think those product managers, everybody wants a builder.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 302,
-          "t": [
-            1731.341,
-            1749.107
-          ],
-          "quote": "So you would never think that an HR person would be a former product manager, but now forward-leading companies are starting to say, \"Hey, we need someone who can bring this obsolescence skill, this judgment skill, this empowerment skill, this builder skill to the function.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 307,
-          "t": [
-            1791.2,
-            1795.902
-          ],
-          "quote": "But if you're not a builder, if you're like, \"Look, I'm not really into tech.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 317,
-          "t": [
-            1845,
-            1851.94
-          ],
-          "quote": "But I think that this non-builder piece is sort of a mirror image of the builder growth story that we're seeing.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 545,
-          "t": [
-            3236.661,
-            3249.525
-          ],
-          "quote": "There's someone who's sitting, who's really afraid, who's a builder, who's like, \"Man, my job is changing so rapidly and I'm so nervous and I have to think through what's my career going to look like.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 704,
-          "t": [
-            4126.552,
-            4139.079
-          ],
-          "quote": "It's about making sure that your skip opportunity is saved and you are able to get that high salary, you're able to get one of those premier builder jobs, and that's the world that you have to have and the mindset you have to have.",
+          "quote": "It might even be, \"How do I build a chief of staff app?\"",
           "speaker": "SPEAKER_1"
         }
       ]
     },
     {
-      "id": "claude",
-      "type": "company",
-      "role": "company",
-      "name": "Claude",
-      "file": "Claude",
-      "primary": true,
-      "how_described": "本集提到嘉宾在过去三个月里将其作为主力工具，甚至「all in on Claude」。他致力于「淘汰自己」，用它写出智能体去自动匹配社区里 125 位高管的社交需求、自动回答常见问题，并边看剧边用它凭直觉写代码。",
+      "id": "zirp",
+      "type": "concept",
+      "role": "concept",
+      "name": "ZIRP",
+      "file": "ZIRP",
+      "primary": false,
+      "how_described": "本集用来指代过去投资者提供近乎零利息免费资金的时代。在这个时期科技行业过度招聘，导致产品经理职责膨胀，饱受无权力地承担责任的痛苦。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 172,
+          "seg": 49,
           "t": [
-            1052.04,
-            1059.49
+            226.32,
+            240.945
           ],
-          "quote": "All that stuff's going to get fixed because someone's going to basically sit down and tell Claude to fix it, and it's just going to fix it.",
+          "quote": "I think that when we first chatted, it was like in maybe the end of COVID, I think the ZIRP era, as we called it, zero interest free money from investors was just cresting.",
           "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 176,
-          "t": [
-            1067.44,
-            1076.61
-          ],
-          "quote": "Along those lines, just real quick at a quick aside to your side, the prompt I constantly find myself using with Codex and Claude is just how can we make the product experience better?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 211,
-          "t": [
-            1242.456,
-            1249.759
-          ],
-          "quote": "We were talking about ICs, we were talking about hands-on, we're talking about opinion, even back then, before Claude and ChatGPT and others came out.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 370,
-          "t": [
-            2206.605,
-            2224.97
-          ],
-          "quote": "And I don't think that anyone's intentionally doing anything, but I think when pace is so high, the fact is that women are having kids in those power years and they just don't have the time to allot to spending their nights and weekends in Claude Code.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 556,
-          "t": [
-            3341.992,
-            3356.736
-          ],
-          "quote": "And usually accompanies with a story like, \"And I stayed up all night,\" or, \"I spent a bunch of time talking to my friends or hacking away,\" or, \"I just spent time talking to Claude about it.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 591,
-          "t": [
-            3539.16,
-            3543.422
-          ],
-          "quote": "I kind of am pretty all in on Claude these last three months.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 628,
-          "t": [
-            3747.488,
-            3754.391
-          ],
-          "quote": "All you do is go to, I don't know, Lovable or install Claude Code, download Codex and just tell it.",
-          "speaker": "SPEAKER_0"
         }
       ]
     },
     {
-      "id": "vibe-coding",
+      "id": "ai",
       "type": "concept",
       "role": "concept",
-      "name": "vibe coding",
-      "file": "vibe coding",
-      "primary": true,
-      "how_described": "本集提到的编程方式，指凭直觉用自然语言与 AI 对话来构建产品。嘉宾甚至找那些基于小说改编、情节结构清晰的剧集（如 Alex Cross 或 Jack Ryan），边看边进行 vibe coding。",
+      "name": "AI",
+      "file": "AI",
+      "primary": false,
+      "how_described": "本集描述为引发本次行业大洗牌的根本原因。它接管了产品开发中人们不喜欢的机械性工作，大幅降低了变更和测试成本，迫使所有人的工作方式必须现代化。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 576,
+          "seg": 11,
           "t": [
-            3477.877,
-            3487
+            43.65,
+            50.795
           ],
-          "quote": "And I try to find TV shows that I can vibe code in parallel to because I want to watch TV, but I want to be vibe coding at the same time [inaudible 00:58:07].",
+          "quote": "You might see a company shed 30,000 and hire 8,000, but the 8,000 people are going to all be AI first.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 578,
+          "seg": 59,
           "t": [
-            3487.906,
-            3489.134
+            304.087,
+            306.768
           ],
-          "quote": "What's a good show for vibe coding?",
+          "quote": "Boy, AI is going to replace our function, et cetera.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 148,
+          "t": [
+            880.883,
+            897.589
+          ],
+          "quote": "Product leaders will increasingly get paid and be asked to drive judgment, and then be the tip of the sphere on trying to essentially obsolete everything else through software, through AI, through agents.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 149,
+          "t": [
+            897.649,
+            915.175
+          ],
+          "quote": "This is partly why there's a lot of excitement, because just to be very honest with you and you were a PM and I was a PM, most of the stuff that you didn't like doing are the things that AI is really taking a real crack at.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1338.611,
+            1341.072
+          ],
+          "quote": "This AI thing requires a totally different skillset.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1354.797,
+            1363.98
+          ],
+          "quote": "But you might see a company shed 30,000 and hire 8,000, but the 8,000 people they're going to hire are going to all be AI first.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1438,
+            1440
+          ],
+          "quote": "Yeah, it did, because there's always this sense that, why do we need PMs? What's the point? We have AI to just built stuff, and like-",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 869,
+          "seg": 246,
           "t": [
-            5005.854,
-            5008.679
+            1442.061,
+            1443.302
           ],
-          "quote": "You've already shared some vibe-coding favorites to be in the background.",
+          "quote": "We have AI to just build stuff.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1832.735,
+            1844.8
+          ],
+          "quote": "It might be that they want to go build a new business outside of tech, but use some of these AI tools, or maybe they want to find a job completely foreign to tech.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 354,
+          "t": [
+            2077.768,
+            2094
+          ],
+          "quote": "I think those that are driving some of these initiatives are classic founders and AI is great at supplementing a lot of things, but I think judgment comes in the form of a combination of expertise and wisdom.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2164.873,
+            2177.317
+          ],
+          "quote": "But I think that because the AI wave is so heavily coming from the Bay Area, and because companies are hiring fewer folks, they're hiring people that look and act like themselves.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2340.16,
+            2350.793
+          ],
+          "quote": "That is such an interesting insight that the logo, it used to be fancy to have all these logos on your resume, and now you're saying sometimes that may hurt you because that company's not seen as a very AI forward company.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2865.333,
+            2874.757
+          ],
+          "quote": "Teams are building and shipping products faster than ever thanks to AI, but as a result, the amount of risk being introduced into your product and your business is higher than it's ever been.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2919.58,
+            2934.088
+          ],
+          "quote": "What I think about as you talk about this is, I don't know if you saw this, they asked all the heads of the AI labs like Demis, and Sam Altman, and Dario, just like, \"Okay, if everybody agreed to slow down and stop this stuff, would you do it?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 589,
+          "t": [
+            3532.223,
+            3534.789
+          ],
+          "quote": "Just like, what's your AI stack?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 606,
+          "t": [
+            3627.372,
+            3629.972
+          ],
+          "quote": "I think a lot about using AI for content.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 607,
+          "t": [
+            3630.373,
+            3640.036
+          ],
+          "quote": "So when I sit down, I have an AI that takes questions from people and then it's trained on my content and it gives answers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 621,
+          "t": [
+            3712.227,
+            3719.352
+          ],
+          "quote": "What AI has done that has basically put an [inaudible 01:01:57] on that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 750,
+          "t": [
+            4381.653,
+            4385.999
+          ],
+          "quote": "And we were joking, what's the harder alignment problem, aligning people in a company or AI's AGI?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 808,
+          "t": [
+            4660.545,
+            4662.687
+          ],
+          "quote": "I can't just use AI and become a great designer.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 809,
+          "t": [
+            4663.348,
+            4668.194
+          ],
+          "quote": "Unlike an engineer, maybe a PM, I could become a much better PM with AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 810,
+          "t": [
+            4668.734,
+            4673.72
+          ],
+          "quote": "AI is knocking; it will do some cool stuff, but I'm not ever going to feel like I am a great designer now.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 811,
+          "t": [
+            4674.301,
+            4679
+          ],
+          "quote": "So it's really interesting that design isn't more successful right now with the rise of AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 946,
+          "t": [
+            5388.501,
+            5402
+          ],
+          "quote": "What's interesting is, if you read that quote, \"Genius is 1% inspiration, 99% perspiration,\" through the lens of AI, it's absolutely fascinating, because it turns out the AI will do the perspiration quite literally.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 956,
+          "t": [
+            5457.08,
+            5460.764
+          ],
+          "quote": "And what I love about it is it's not AI most of the time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 957,
+          "t": [
+            5460.944,
+            5469.332
+          ],
+          "quote": "In spite of this conversation we just had, it's very much like, \"Here's stuff you need to know that is not flashy and shiny, AI, AI, AI, all the time.\"",
           "speaker": "SPEAKER_0"
         }
       ]
@@ -668,8 +815,8 @@
       "role": "concept",
       "name": "LLM",
       "file": "LLM",
-      "primary": true,
-      "how_described": "本集将「喂养 LLM」比喻为产品人当前的一种全新压力形式（晚上想花更多时间投喂 LLM），并将其描述为推动软件行业向「超级能力」自动化迭代运转的核心底层引擎。",
+      "primary": false,
+      "how_described": "本集提到从业者现在晚上要花时间喂养这头在夜间运行的野兽，这带来了跟上前沿的压力，但也带来了让工作自动化的可能。",
       "source": "glm",
       "evidence": [
         {
@@ -684,13 +831,154 @@
       ]
     },
     {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "本集中提到企业正在应用的技术，或个人用来代替自己执行匹配人脉、回复问题等任务的自动化程序。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 602,
+          "t": [
+            3604.624,
+            3607.725
+          ],
+          "quote": "I write an agent that goes in and actually does matching.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 603,
+          "t": [
+            3608.185,
+            3613.327
+          ],
+          "quote": "I write an agent to figure out, \"Hey, what are all the jobs that my head of products are hiring?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 643,
+          "t": [
+            3803.446,
+            3810.713
+          ],
+          "quote": "And now you sit down and there's this moment where it's like, \"Hey, I used to have to go and work to do this, but now my agent's doing this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 644,
+          "t": [
+            3811.754,
+            3815.438
+          ],
+          "quote": "And then what's the next agent I could do to make my life a little bit better?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 751,
+          "t": [
+            4387.561,
+            4395.509
+          ],
+          "quote": "And it feels like that's a remaining... and it's part of what you described, somebody that can get shit done, a change agent.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 763,
+          "t": [
+            4461.772,
+            4465.475
+          ],
+          "quote": "The CEO can literally ask their agent, \"Well, what is the situation?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "brands",
+      "type": "concept",
+      "role": "concept",
+      "name": "个人品牌 (brands)",
+      "file": "个人品牌",
+      "primary": false,
+      "how_described": "本集指出，过去十年备受推崇的大厂履历等个人品牌正在失效。如果工作方式不现代、没用 AI 工具，大厂品牌反而会让你显得脱节，保持现代化比过往背景更重要。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 373,
+          "t": [
+            2230.571,
+            2250.897
+          ],
+          "quote": "And then the last thing I would just say, and maybe this goes into some of the advice as well, is I think that one of the most surprising shifts we're seeing is your brands don't matter as much as how modern you are in your ability to deliver product.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2255.218,
+            2262.72
+          ],
+          "quote": "And even in this last podcast episode we did, Lenny, we talked about, hey, brands matter, you really need to make sure.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2263,
+            2263.755
+          ],
+          "quote": "Like personal brands?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 377,
+          "t": [
+            2264.32,
+            2265.14
+          ],
+          "quote": "Yeah, personal brands.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2313.837,
+            2322
+          ],
+          "quote": "And so how modern you are now becomes the career advice, not did you pick up the established brands?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2322,
+            2328.087
+          ],
+          "quote": "Because what if the established brands is very much working in a way that's not current?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2356.06,
+            2360.482
+          ],
+          "quote": "Well, I was just going to say, some of those biggest brands, it's hard to even talk about what you've done.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
       "id": "skip",
       "type": "company",
       "role": "company",
       "name": "Skip",
       "file": "Skip",
       "primary": true,
-      "how_described": "嘉宾运营的面向首席产品官等高管群体的社区，规模约 125 位产品负责人。嘉宾基于该群体观察到行业向「构建者」转变的剧变，并为其开发了基于智能体的自动匹配和问答网络资产。",
+      "how_described": "本集嘉宾运营的产品负责人社区及播客/通讯品牌，汇聚了 125 位顶尖的 CPO 和产品负责人，他们正在重新定义产品管理。",
       "source": "glm",
       "evidence": [
         {
@@ -858,178 +1146,13 @@
       ]
     },
     {
-      "id": "zirp",
-      "type": "concept",
-      "role": "concept",
-      "name": "ZIRP",
-      "file": "ZIRP",
-      "primary": false,
-      "how_described": "本集将其描述为三年前的状态，指来自投资者的零利息免费资金充裕的时代。当时的行业充满「有责无权」的官僚主义与信息搬运，是当前大转向的旧时代背景。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 49,
-          "t": [
-            226.32,
-            240.945
-          ],
-          "quote": "I think that when we first chatted, it was like in maybe the end of COVID, I think the ZIRP era, as we called it, zero interest free money from investors was just cresting.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "codex",
-      "type": "company",
-      "role": "company",
-      "name": "Codex",
-      "file": "Codex",
-      "primary": false,
-      "how_described": "本集提到的一款 AI 编程工具。嘉宾提到曾有一个月相当激进地使用它，认为其一些新东西特别是最高等级的推理能力相当先进。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 176,
-          "t": [
-            1067.44,
-            1076.61
-          ],
-          "quote": "Along those lines, just real quick at a quick aside to your side, the prompt I constantly find myself using with Codex and Claude is just how can we make the product experience better?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 192,
-          "t": [
-            1129.931,
-            1137.035
-          ],
-          "quote": "Now, all of these companies have access to the most skilled software engineer, Cloud Code, Codex and all these other tools.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 275,
-          "t": [
-            1593.185,
-            1605.479
-          ],
-          "quote": "I'll bet you, and this is a prediction, that if you had to choose between preparing a podcast and sitting in Codex or sitting in Claud Code and working on your laptop, you would prefer the latter.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 592,
-          "t": [
-            3544.142,
-            3556.166
-          ],
-          "quote": "I was, for a month, pretty aggressive on Codex because I found some of their newer stuff to be, especially with the highest level of reasoning to be quite advanced.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 628,
-          "t": [
-            3747.488,
-            3754.391
-          ],
-          "quote": "All you do is go to, I don't know, Lovable or install Claude Code, download Codex and just tell it.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "anthropic",
-      "type": "company",
-      "role": "company",
-      "name": "Anthropic",
-      "file": "Anthropic",
-      "primary": false,
-      "how_described": "本集在探讨产品经理是否应该下场写代码时，主持人转述了其增长负责人 Amol 的观点：既然工程师写代码这么快，PM 最好去「做更高杠杆的工作」。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 101,
-          "t": [
-            535.122,
-            542.563
-          ],
-          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 319,
-          "t": [
-            1854.481,
-            1861.304
-          ],
-          "quote": "One thing I want to throw out, it's kind of a hot take, and this came from a chat I just had with Amol, a Head of Growth at Anthropic.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 749,
-          "t": [
-            4372.922,
-            4381.493
-          ],
-          "quote": "So Amol, the head of growth at Anthropic, made this really interesting point that so much of his time now, more and more, is alignment as a product manager.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "tesla",
-      "type": "company",
-      "role": "company",
-      "name": "Tesla",
-      "file": "Tesla",
-      "primary": false,
-      "how_described": "本集在闪电轮中被嘉宾选为「近期最喜欢的智能产品」。他近期体验了最新的自动驾驶功能并赞叹其表现，指出该功能竟意外消除了他多年来未曾察觉的驾驶焦虑。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 892,
-          "t": [
-            5110.6,
-            5117.084
-          ],
-          "quote": "And I've had a Tesla for a really long time, a Model S for just a long time, and I've had it since pretty much they came out with them.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 914,
-          "t": [
-            5216.443,
-            5223.771
-          ],
-          "quote": "I've had a Tesla for a long time, from the beginnings of their explorations into self-driving, and it was always just like, \"I don't know, this is scary.\"",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 923,
-          "t": [
-            5268.853,
-            5273.517
-          ],
-          "quote": "So I think Tesla's got this unusual challenge of getting people to turn it back on.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 930,
-          "t": [
-            5303,
-            5322.94
-          ],
-          "quote": "Here's a Tesla suggestion for anyone who's listening is Lenny and I should be able to gift 30 days free to our friends of self-driving, people that have turned it off, because the referral of that plus the endorsement allows people to experience it for free and then they can get their monthly subscription.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
       "id": "workos",
       "type": "company",
       "role": "company",
       "name": "WorkOS",
       "file": "WorkOS",
       "primary": false,
-      "how_described": "本集的赞助商之一，被描述为通过一个专为 B2B SaaS 构建的现代化开发者平台，将单点登录、审计日志等大公司所需的集成障碍变成现成 API 的企业级服务。",
+      "how_described": "本集播客的赞助商，被介绍为一个专为 B2B SaaS 构建的现代化开发者平台，能将单点登录等企业级需求变成现成的 API。",
       "source": "glm",
       "evidence": [
         {
@@ -1113,7 +1236,7 @@
       "name": "Vanta",
       "file": "Vanta",
       "primary": false,
-      "how_described": "本集赞助商，通过包括 SOC 2、ISO 27001 和 HIPAA 在内的超过 35 个安全和隐私框架，帮助企业自动化合规性和风险管理。",
+      "how_described": "本集播客的赞助商，提供自动化合规和风险管理平台，帮助 Cursor、Duolingo 等公司在快速发布产品时赢得并证明信任。",
       "source": "glm",
       "evidence": [
         {
@@ -1169,6 +1292,312 @@
           ],
           "quote": "That's vanta.com/lenny.",
           "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到主持人聊天的一家 AI 公司，其增长负责人分享了产品经理因工程师速度加快而被挤压的观点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            535.122,
+            542.563
+          ],
+          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1854.481,
+            1861.304
+          ],
+          "quote": "One thing I want to throw out, it's kind of a hot take, and this came from a chat I just had with Amol, a Head of Growth at Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 749,
+          "t": [
+            4372.922,
+            4381.493
+          ],
+          "quote": "So Amol, the head of growth at Anthropic, made this really interesting point that so much of his time now, more and more, is alignment as a product manager.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集提到嘉宾曾任高管的公司，也作为过去庞大但可能面临工作方式陈旧的典型大厂品牌被提及。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            82.605,
+            86.987
+          ],
+          "quote": "He was a longtime exec at Meta and at Google, CPO at Credit Karma.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2361.503,
+            2370.087
+          ],
+          "quote": "It's like, if you're working at Meta and you spent two years and I managed to make this piece of this algorithm go a little faster, and by the way, it had a huge impact.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 504,
+          "t": [
+            3034.957,
+            3043.86
+          ],
+          "quote": "And that then birthed a lot of the current product managers, Microsoft and Meta and other big employers started to create a new version.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集提到嘉宾曾任高管的公司，并且讨论了其过去曾需要多少人来维持运营的间接费用问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            82.605,
+            86.987
+          ],
+          "quote": "He was a longtime exec at Meta and at Google, CPO at Credit Karma.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1278.35,
+            1287.093
+          ],
+          "quote": "It was funny, when I was at Google, now over 10, 15 years ago, we used to ask ourselves, I was on an ancillary team.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1289.394,
+            1295.936
+          ],
+          "quote": "We used to ask ourselves, \"How many people are really needed for Google to hit their numbers?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 502,
+          "t": [
+            3018.973,
+            3030.136
+          ],
+          "quote": "And Google, for one, built the APM program because they felt like, \"Hey, this product thing that exists in the market isn't really what we need and we're not seeing success.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集提到作为构建工具时大量使用的 AI 产品，比如用 Claude Code 进行 vibe coding、写智能体淘汰自己或修复糟糕软件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 172,
+          "t": [
+            1052.04,
+            1059.49
+          ],
+          "quote": "All that stuff's going to get fixed because someone's going to basically sit down and tell Claude to fix it, and it's just going to fix it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1067.44,
+            1076.61
+          ],
+          "quote": "Along those lines, just real quick at a quick aside to your side, the prompt I constantly find myself using with Codex and Claude is just how can we make the product experience better?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1242.456,
+            1249.759
+          ],
+          "quote": "We were talking about ICs, we were talking about hands-on, we're talking about opinion, even back then, before Claude and ChatGPT and others came out.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 370,
+          "t": [
+            2206.605,
+            2224.97
+          ],
+          "quote": "And I don't think that anyone's intentionally doing anything, but I think when pace is so high, the fact is that women are having kids in those power years and they just don't have the time to allot to spending their nights and weekends in Claude Code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 556,
+          "t": [
+            3341.992,
+            3356.736
+          ],
+          "quote": "And usually accompanies with a story like, \"And I stayed up all night,\" or, \"I spent a bunch of time talking to my friends or hacking away,\" or, \"I just spent time talking to Claude about it.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 591,
+          "t": [
+            3539.16,
+            3543.422
+          ],
+          "quote": "I kind of am pretty all in on Claude these last three months.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 628,
+          "t": [
+            3747.488,
+            3754.391
+          ],
+          "quote": "All you do is go to, I don't know, Lovable or install Claude Code, download Codex and just tell it.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集提到作为最高级推理能力相当先进的 AI 编码工具，被嘉宾用于日常构建中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 176,
+          "t": [
+            1067.44,
+            1076.61
+          ],
+          "quote": "Along those lines, just real quick at a quick aside to your side, the prompt I constantly find myself using with Codex and Claude is just how can we make the product experience better?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1129.931,
+            1137.035
+          ],
+          "quote": "Now, all of these companies have access to the most skilled software engineer, Cloud Code, Codex and all these other tools.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1593.185,
+            1605.479
+          ],
+          "quote": "I'll bet you, and this is a prediction, that if you had to choose between preparing a podcast and sitting in Codex or sitting in Claud Code and working on your laptop, you would prefer the latter.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 592,
+          "t": [
+            3544.142,
+            3556.166
+          ],
+          "quote": "I was, for a month, pretty aggressive on Codex because I found some of their newer stuff to be, especially with the highest level of reasoning to be quite advanced.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 628,
+          "t": [
+            3747.488,
+            3754.391
+          ],
+          "quote": "All you do is go to, I don't know, Lovable or install Claude Code, download Codex and just tell it.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "tesla",
+      "type": "company",
+      "role": "company",
+      "name": "Tesla",
+      "file": "Tesla",
+      "primary": false,
+      "how_described": "本集闪电轮中讨论的汽车公司，嘉宾非常推崇其最新版本的自动驾驶功能，并建议其采用推荐赠送模式以促成病毒式增长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 892,
+          "t": [
+            5110.6,
+            5117.084
+          ],
+          "quote": "And I've had a Tesla for a really long time, a Model S for just a long time, and I've had it since pretty much they came out with them.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 914,
+          "t": [
+            5216.443,
+            5223.771
+          ],
+          "quote": "I've had a Tesla for a long time, from the beginnings of their explorations into self-driving, and it was always just like, \"I don't know, this is scary.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 923,
+          "t": [
+            5268.853,
+            5273.517
+          ],
+          "quote": "So I think Tesla's got this unusual challenge of getting people to turn it back on.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 930,
+          "t": [
+            5303,
+            5322.94
+          ],
+          "quote": "Here's a Tesla suggestion for anyone who's listening is Lenny and I should be able to gift 30 days free to our friends of self-driving, people that have turned it off, because the referral of that plus the endorsement allows people to experience it for free and then they can get their monthly subscription.",
+          "speaker": "SPEAKER_1"
         }
       ]
     }

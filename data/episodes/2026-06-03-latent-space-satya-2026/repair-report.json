@@ -2,46 +2,22 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "01:25",
+      "timestamp": "11:47",
       "speaker": "Satya Nadella",
       "trimmed": false,
-      "tsWas": "01:25",
+      "tsWas": "11:47",
       "spkWas": "Satya Nadella"
     },
     {
       "i": 2,
-      "timestamp": "03:55",
+      "timestamp": "14:08",
       "speaker": "Satya Nadella",
-      "trimmed": true,
-      "tsWas": "03:55",
-      "spkWas": "Satya Nadella"
-    },
-    {
-      "i": 3,
-      "timestamp": "11:45",
-      "speaker": "Satya Nadella",
-      "trimmed": true,
-      "tsWas": "11:44",
+      "trimmed": false,
+      "tsWas": "14:08",
       "spkWas": "Satya Nadella"
     },
     {
       "i": 4,
-      "timestamp": "12:09",
-      "speaker": "Satya Nadella",
-      "trimmed": false,
-      "tsWas": "12:09",
-      "spkWas": "Satya Nadella"
-    },
-    {
-      "i": 5,
-      "timestamp": "15:35",
-      "speaker": "Satya Nadella",
-      "trimmed": false,
-      "tsWas": "15:35",
-      "spkWas": "Satya Nadella"
-    },
-    {
-      "i": 6,
       "timestamp": "22:46",
       "speaker": "Satya Nadella",
       "trimmed": false,
@@ -49,29 +25,48 @@
       "spkWas": "Satya Nadella"
     },
     {
-      "i": 7,
-      "timestamp": "30:15",
+      "i": 5,
+      "timestamp": "29:58",
       "speaker": "Satya Nadella",
       "trimmed": false,
-      "tsWas": "30:15",
+      "tsWas": "30:04",
+      "spkWas": "Satya Nadella"
+    },
+    {
+      "i": 7,
+      "timestamp": "31:12",
+      "speaker": "Satya Nadella",
+      "trimmed": false,
+      "tsWas": "31:12",
       "spkWas": "Satya Nadella"
     },
     {
       "i": 8,
-      "timestamp": "38:25",
+      "timestamp": "36:15",
       "speaker": "Satya Nadella",
       "trimmed": false,
-      "tsWas": "38:25",
+      "tsWas": "36:12",
       "spkWas": "Satya Nadella"
     },
     {
       "i": 9,
-      "timestamp": "01:26",
+      "timestamp": "19:45",
       "speaker": "Satya Nadella",
       "trimmed": false,
-      "tsWas": "01:26",
+      "tsWas": "19:45",
       "spkWas": "Satya Nadella"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 3,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "I've talked to customers who love outcome-based pricing, and I'm all in until they, oh my God, what are you talking about? You're sharing in my outcome?"
+    },
+    {
+      "i": 6,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "So they said, look, we don't need a headcount. We need tokens in order to be able to manage our operation."
+    }
+  ]
 }

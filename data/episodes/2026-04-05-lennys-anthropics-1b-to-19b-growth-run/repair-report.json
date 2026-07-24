@@ -2,36 +2,50 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "29:48",
+      "timestamp": "00:37",
       "speaker": "Amol Avasare",
       "trimmed": false,
-      "tsWas": "29:36",
+      "tsWas": "00:37",
       "spkWas": "Amol Avasare"
     },
     {
-      "i": 2,
+      "i": 3,
+      "timestamp": "01:08",
+      "speaker": "Amol Avasare",
+      "trimmed": false,
+      "tsWas": "01:08",
+      "spkWas": "Amol Avasare"
+    },
+    {
+      "i": 4,
+      "timestamp": "52:01",
+      "speaker": "Amol Avasare",
+      "trimmed": false,
+      "tsWas": "52:01",
+      "spkWas": "Amol Avasare"
+    },
+    {
+      "i": 5,
+      "timestamp": "70:15",
+      "speaker": "Amol Avasare",
+      "trimmed": true,
+      "tsWas": "70:15",
+      "spkWas": "Amol Avasare"
+    },
+    {
+      "i": 6,
       "timestamp": "76:23",
       "speaker": "Amol Avasare",
       "trimmed": false,
       "tsWas": "76:23",
       "spkWas": "Amol Avasare"
-    },
-    {
-      "i": 3,
-      "timestamp": "51:59",
-      "speaker": "Amol Avasare",
-      "trimmed": false,
-      "tsWas": "51:46",
-      "spkWas": "Amol Avasare"
-    },
-    {
-      "i": 4,
-      "timestamp": "37:57",
-      "speaker": "Amol Avasare",
-      "trimmed": false,
-      "tsWas": "38:04",
-      "spkWas": "Amol Avasare"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 2,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "I think one learning, seeing this time and time again across companies, actually the right friction helps and adding more friction usually works if you do it the right way."
+    }
+  ]
 }

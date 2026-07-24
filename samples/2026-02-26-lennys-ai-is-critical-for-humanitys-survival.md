@@ -1,5 +1,5 @@
 ---
-title: Cisco 高管 Jeetu Patel：如何把老牌巨头推向 AI 时代，以及他的六维制胜框架
+title: "对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代"
 podcast: "Lenny's Podcast"
 date: 2026-02-26
 source_url: https://www.lennysnewsletter.com/p/ai-is-critical-for-humanitys-survival
@@ -7,16 +7,16 @@ duration: "87:20"
 host: "[[Jeetu Patel]]"
 cohosts: ["[[Lenny]]"]
 companies: ["[[Cisco]]", "[[NVIDIA]]"]
-concepts: ["[[ChatGPT]]", "[[AI-first]]", "[[AI 基础设施]]", "[[GPU]]", "[[参与许可]]", "[[超级趋势]]", "[[丢包]]"]
+concepts: ["[[AI 优先]]", "[[能力过剩]]", "[[超级趋势]]", "[[炒作周期]]", "[[丢包]]", "[[松散耦合]]"]
 tags:
   - AI 基础设施
   - 企业转型
-  - 产品战略
-  - 组织管理
-  - 老牌巨头破局
+  - 大型组织管理
+  - AI 趋势判断
+  - 平台战略
 ---
 
-# Cisco 高管 Jeetu Patel：如何把老牌巨头推向 AI 时代，以及他的六维制胜框架
+# 对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代
 
 > [!info] 关联
 > **主持**:[[Jeetu Patel]]
@@ -25,7 +25,7 @@ tags:
 >
 > **涉及公司**:[[Cisco]] · [[NVIDIA]]
 >
-> **概念**:[[ChatGPT]] · [[AI-first]] · [[AI 基础设施]] · [[GPU]] · [[参与许可]] · [[超级趋势]] · [[丢包]]
+> **概念**:[[AI 优先]] · [[能力过剩]] · [[超级趋势]] · [[炒作周期]] · [[丢包]] · [[松散耦合]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/ai-is-critical-for-humanitys-survival)
 
@@ -35,152 +35,167 @@ tags:
 
 ## 一句话 TLDR
 
-从 AI 峰会洞察到改造 9 万人公司的实战，再到大公司战略与人生哲学。
+Cisco 产品一号位亲述:大企业如何从顶层决心转型 AI、放下自我,以及平台与时机为何决定个人成败。
 
-[[Jeetu Patel|Jeetu Patel]] 是 [[Cisco|Cisco]] 的首席产品官兼总裁，管理着约 30,000 人的团队。他不但在负责这家拥有约 90,000 名员工的老牌科技巨头向 AI 时代的转型，还刚刚组织了一场汇集了 Sam Altman、Marc Andreessen 等顶级 AI 领袖的峰会。在这集访谈中，他不仅分享了从峰会中带回的最核心洞察，更完整拆解了他如何将一家传统企业改造为 [[AI-first|AI-first]]（以 AI 为先）公司、他的产品战略框架，以及深刻的人生与管理哲学。全文将沿着「AI 时代的宏观判断 → 组织与战略实操 → 管理与人生智慧」这条主线展开。
+[[Jeetu Patel|Jeetu Patel]] 是 [[Cisco|Cisco]]（思科）的首席产品官（CPO）兼总裁,管理着公司内部约 3 万名员工 [09:13 Jeetu Patel]。但 Cisco 在大众印象里往往只是个做路由器和 WebEx 的老牌企业。事实上,他们不仅暗自完成了内部文化的 AI 转型,更是全球 AI 基础设施建设中最核心的玩家之一 [15:54 [[Lenny|Lenny]]]。本集他从刚举办完的一场 AI 峰会切入,聊了 AI 为什么是不可错失的大趋势、大型企业如何从顶层推进转型、他关于领导力与「讲故事」的内部秘辛,最后还给了一个判断成事的六要素框架——全篇干货,以下分为四个板块展开。
 
-## 能力过剩与人口危机：为什么 AI 是「恰逢其时」
+## 能力过剩与人口危机:为什么 AI 是刚需
 
-在刚结束的 AI 峰会后，Jeetu Patel 带回了三个核心洞察。首先是「能力过剩」的悖论：一方面，科技界正在用 AI 解决惊人的难题；另一方面，当他和企业交谈时，发现大家普遍在系统的采用与落地阶段挣扎 [06:05 Jeetu Patel]。这意味着，行业中累积的技术能力，远远跑在了实际应用的前面，组织内部急需帮助来消化这些技术。
+Jeetu 刚在几天前主持了一场长达 12 小时的 AI 峰会,请到了各路顶尖科技领袖。从这场信息量极大的对话中,他带回了三个核心洞察 [05:56 Jeetu Patel]。
 
-除了能力落地难，宏观的人口趋势让 AI 的出现显得尤为关键。第二个深刻洞察与全球人口结构有关。Jeetu Patel 指出，出生率正在下降，全球正在经历人口结构的转变。如果发展到处于老年年龄段的人多于年轻年龄段，而历史上一直是由年轻人照顾老年人，那我们将面临严重的劳动力短缺 [07:23 Jeetu Patel]。
+第一是「[[能力过剩|能力过剩]]」(capabilities overhang,指技术供给远超当下的实际应用能力)。一边是科技界用科学解决着惊人的难题,另一边是企业们在 AI 落地上挣扎,两者之间形成了鲜明对比 [06:05 Jeetu Patel]。第二点是,虽然写代码已经在 AI 上获得了巨大成功,Cisco 甚至在未来两周内就会推出一款 100% 由 AI 编写的产品,但要把 AI 推广到企业的其他业务环节,却远没有这么容易,需要对企业运转有非常精细的理解 [06:47 Jeetu Patel]。
 
-当这种情况发生时，许多人担心 AI 会夺走工作，但 Jeetu Patel 提出了截然相反的判断：人类的生存实际上取决于 AI 的成功。因为如果在某个时刻，你有 60% 的人口处于缺乏足够人手照顾的境地，将会造成巨大的痛苦 [07:56 Jeetu Patel]。所以，AI 不是来抢饭碗的，而是恰逢其时地出现来拯救劳动力缺口的。
+第三个洞察最让人深思:AI 的到来几乎恰逢其时。世界正在经历人口结构的转变,出生率下降,未来需要被照顾的老年人会比能去照顾人的年轻人多得多。如果在某个节点,你有 60% 的人口处于缺乏足够人手照料的境地,那将造成巨大的人类痛苦。因此他认为,与其担心 AI 夺走工作,不如说人类的生存恰恰依赖于 AI 的成功 [07:48 Jeetu Patel]。
 
-说完了宏观的危机与机遇，当 AI 这样一个巨大的趋势到来时，每家公司都想抓住它，但真正能完成转型的却寥寥无几。作为一家近 9 万人公司的核心高管，Jeetu Patel 是怎么做成的？这正是接下来要拆解的重点。
+说完了 AI 为什么是一场不可缺席的浪潮,接下来是他所在的公司如何从顶层下定决心,在这场浪潮中完成自我改造。
 
-## 改造老牌巨头：不做对冲，自上而下「All in」
+## 不对冲的押注:大企业转身的三步走
 
-要把一家偏传统的老牌企业变成 AI-first 公司极其困难。Jeetu Patel 认为，创新首先是一种每日每时都要做出的「二元选择」[09:57 Jeetu Patel]。
+很多公司都在试图适应这个新世界,但像 Cisco 这种拥有 9 万名员工的巨头想要转身尤其困难。Jeetu 认为,创新其实不分公司大小,它首先是一个坚定的「选择」[09:40 Jeetu Patel]。为了帮助 Cisco 拥抱 AI,他们主要做了三件事。
 
-Cisco 采取了几个极其关键的动作。第一件事，是明确什么是「不可以争论的」。在大公司里，如果你问足够多的人，总会遇到所谓的「暗中否决」，总有人会说「不」[10:50 Jeetu Patel]。大公司其实并不缺乏实验，但当实验成功时，大公司往往不敢加倍投入，而是试图不断对冲风险。但 Cisco 在 AI 上没有对冲，而是宣布要全力以赴 [11:25 Jeetu Patel]。他们让员工明白：如果不去灵活掌握 AI，长远来看工作的相关性就会下降；并且自上而下地明确，整个公司都在同一条战线上，是一家 AI-first 公司。
+第一件事,是极其明确地划定「什么不容讨论」(what is not up for debate),也就是下定战略决心。大公司其实做很多实验,但常常在一个实验成功后还继续对冲(hedge,指为了防范风险而两头下注、不全力以赴)。Jeetu 坦言,他们没有在 AI 上对冲,而是自上而下宣布全公司成为 AI-first([[AI 优先|AI 优先]])的公司。他明确告诉员工:如果你们不灵活掌握 AI,长远来看工作就不保 [11:25 Jeetu Patel]。
 
-> 【背景】Cisco 的 CEO 是 Chuck Robbins。Jeetu Patel 提到，他们在 ChatGPT 成为标志性事件的约一年前，就已经在朝这个方向努力了。
+第二件事是重新定义内部的「成功标准」,打破孤岛。以前员工都想升任总经理(GM),拥有自己的销售、产品和工程团队,仿佛经营一个独立王国。结果一家几百亿美元收入的公司被拆成了无数个 4000 万美元的小封地。为了改变这点,他们决定从一家有着多次收购记录的控股公司,变成一家「平台公司」——产品之间[[松散耦合|松散耦合]](loosely coupled,系统间依赖少、各自独立),但紧密集成(tightly integrated),一旦组合使用就能产生奇效 [13:30 Jeetu Patel]。
 
-第二件事，是改变个人成功的定义，打破「孤岛」。过去员工想晋升，都想成为拥有自己销售、营销、产品团队的「诸侯」。为了改变这种持有数千种产品的「控股公司」模式，Cisco 决定成为一家「平台公司」。平台的特点是松散耦合，但紧密集成——客户不必一次性买下所有东西，但当两样东西搭配使用时，能产生奇妙的化学反应 [14:16 Jeetu Patel]。
+第三件事则是彻底转变心态,打破围墙花园,坦然与竞争对手合作(因为客户可能同时选择了两家公司,只有帮客户成功,自己才能分到红利)[14:33 Jeetu Patel]。
 
-第三件事是建立开放的生态系统，甚至拥抱竞争对手。他们决定不在围墙花园里运作，而是坦然接受与竞争对手合作。因为如果客户选择了竞争对手，只要客户成功了，这种成功最终也会以很高的转化率回流到自己身上 [14:58 Jeetu Patel]。
+你可能好奇,作为一家做传统网络起家的公司,Cisco 到底在 AI 时代卖什么?答案藏在 GPU 的运作原理里。
 
-既然 Cisco 如此坚定地拥抱 AI，那这家以路由器和 WebEx 闻名的公司，究竟在 AI 时代扮演什么角色？这就引出了他们对自身定位的清晰思考。
+## 闷声发大财:揭秘 Cisco 在 AI 基础设施里的位置
 
-## 定位与取胜之道：用「参与许可」筛选战略
+简单来说,Cisco 是 AI 时代的关键基础设施公司 [16:03 Jeetu Patel]。Jeetu 指出,目前限制 AI 发展的瓶颈有三个:基础设施(算力、网络带宽和电力)、信任赤字(模型不可预测的幻觉难以被企业信任),以及数据鸿沟(互联网公开数据快用完了)。
 
-很多人不了解，Cisco 实际上是 AI 时代的关键基础设施公司。Jeetu Patel 指出，制约 AI 发展的三大瓶颈是：基础设施（算力、网络带宽和电力的短缺）、信任赤字（模型不可预测带来的安全隐患），以及数据鸿沟 [16:18 Jeetu Patel]。
+要理解 Cisco 的角色,要看懂 GPU 的发展。以前一个模型能放在单个 GPU 上训练;后来模型变大,需要一台装着 8 个 GPU 的服务器;再后来变成一整个机架、甚至一整个相连的集群。[[NVIDIA|NVIDIA]] 和 AMD 制造 GPU,而 Cisco 做的,就是把这些 GPU「连在一起」[18:16 Jeetu Patel]。如今的 AI 训练,要求可能相隔 800 公里的数据中心像同一个集群一样完全同步运作。Cisco 提供的正是连接这些节点的网络、光学技术和安全系统 [18:40 Jeetu Patel]。
 
-而在其中，Cisco 扮演着「连接者」的关键角色。过去你可以用单个 [[GPU|GPU]] 训练模型，但如今模型太大，必须把成百上千的 GPU 跨服务器、跨机架甚至跨数据中心连接起来，让它们在训练时完全同步。[[NVIDIA|NVIDIA]] 或 AMD 制造 GPU，而 Cisco 所做的，就是提供复杂的网络、光学技术和可观测性，把这些相隔可能达 800 公里的数据中心连成一个连贯运作的集群 [18:40 Jeetu Patel]。
+身处巨额投资的核心,Jeetu 觉得人们低估了 AI 的潜力。很多人把 AI 视为生产力工具,但这只是「冰山一角的 0.0001%」。真正的改变是,未来将产生人类知识库中不存在的原创洞见。他还分享了团队使用 OpenAI 编程工具 Codex 时的顿悟时刻:一位前 OpenAI 工程师告诉他们,别把这当成「工具」,要当成新加入的「队友」,你的思维框架和用法就会彻底改变 [22:12 Jeetu Patel]。
 
-面对如此庞大的业务版图，他们如何决定哪些事该做、哪些事不该做？Jeetu Patel 提出了「[[参与许可|参与许可]]（permission to play，即市场是否认为你做这件事合乎逻辑、是否有渠道分发）」的概念。
+工具变了,人怎么办?这正是接下来关于领导力的话题。作为管理 3 万人的高管,Jeetu 恰好有一套独特的人员管理与成长哲学。
 
-仅仅因为能做出一个好产品，并不意味着你能把它大规模推向市场。你必须问自己：由我们来构建这个功能，对人们来说合乎逻辑吗 [31:06 Jeetu Patel]？Cisco 不断有各种新想法，但 90% 甚至 99% 的时候，Jeetu Patel 都在说「不」。原因是你必须极其挑剔地分配你的「卡路里」（精力）[35:31 Jeetu Patel]。如果分散精力，什么也做不成。例如，他明确表示 Cisco 不做 B2C（面向消费者）业务，因为那不在他们的基因里，他们没有分发渠道，也没有参与许可 [36:10 Jeetu Patel]。只有把精力集中在能利用自身规模优势的领域，投资回报率才会最高。
+## 管理学反常识:公开批评、拒绝传话与放下自我
 
-战略上的取舍说到底是由业务和团队来执行的。那么，在庞大的组织中，如何保证执行不走样？Jeetu Patel 管理大规模团队的经验，提供了一个反直觉但极其实用的视角。
+在这个板块,Jeetu 分享了几条颠覆传统管理学认知的实战经验。
 
-## 消除「丢包」与反直觉的管理之道
+**第一是「公开批评,私下安抚」。** 所有的管理书都会教你「公开表扬,私下批评」,但 Jeetu 根本不同意 [50:23 Jeetu Patel]。他认为,必须在团队内建立足够的信任,让大家敢于在公开场合辩论和批评。与其在公开场合给敷衍的表扬(仪表盘全绿但业务只增长 1.5%),不如在公开场合直接、尊重地指出问题所在;然后在私下不吝言辞地表达对他们的支持 [51:21 Jeetu Patel]。
 
-随着公司规模扩大，Jeetu Patel 意识到一个致命问题：沟通的「传话游戏」会产生严重的损耗 [43:23 Jeetu Patel]。一位前董事会成员曾给他极其宝贵的建议：绝对不要把讲述公司的故事当作一种营销任务委派给别人，而要把它视为公司最基础的内核，你要永远亲自做信息的守护者 [44:19 Jeetu Patel]。
+**第二是作为一号位绝不能假手于人去「讲故事」。** 他初到 Cisco 时,一位董事会成员 Wes Bush 给了他改变认知的建议:不要把讲述公司的故事当成营销,而要当成最基础的工作。在一棵有着七八层汇报线的大公司树里,如果你交代给下属、让他们层层传递,就像玩「传话游戏」(telephone game),信息一定会被加料或损耗。因此,核心的愿景和故事,领导者必须亲自去一线讲,确保没有「[[丢包|丢包]]」(packet loss,网络术语,这里比喻信息在传递中流失)[43:51 Jeetu Patel]。
 
-如果不亲自讲，故事在传过层层组织后就会失真。网络术语里有个词叫「[[丢包|丢包]]」，即线路中丢失了数据包。他要求自己在向一线团队传达信息时，必须像直连的网线一样，确保没有「丢包」[47:30 Jeetu Patel]。
+**第三是学会为「生态系统」做嫁衣。** Jeetu 过去做的是直接面向用户的应用层,到了基础设施层他才领悟到:做基础设施,「你未必总是得到荣耀,但你总是要背锅」[53:31 Jeetu Patel]。他早上刚拜访的一家医疗客户告诉他:「我们必须跟你加深合作,因为当基础设施不工作时,人会死——有人没法做透析,有人没法做手术。」领导者必须放下自我,不再关注「我多厉害」,而是关注客户用你的基础设施达成了什么结果。
 
-除了沟通，他在团队反馈机制上也极为反直觉。传统管理书会告诉你「公开表扬，私下批评」，但 Jeetu Patel 根本不同意这个观点 [50:17 Jeetu Patel]。
+这种不抢功的特质,正是他从 Cisco 现任 CEO Chuck Robbins 身上学到的最大一课:如果不计较功劳归谁,你的人生能走得远得多 [38:32 Jeetu Patel]。
 
-他的做法恰恰相反：在公开场合非常直接地批评和辩论，因为只有建立足够的信任，大家才能不摆姿态、专注于解决问题，而不是互相敷衍表面的客套；而在私下，则要毫不吝啬言辞地去表达对他们的支持，让他们知道「我挺你」[50:44 Jeetu Patel]。如果不把人当成年人对待，公开辩论就会变成灾难。
+Jeetu 能有今天的视野,还因为他坚信一个关于个人成长的核心判断。这引出了他给普通人的建议,以及本集最后的压轴框架。
 
-这种不吝惜言辞的习惯，其实源于他个人极深的人生体验。这也构成了他整个职业生涯和人际关系的底色。
+## 平台决定命运:给普通人的建议与六要素框架
 
-## 别吝惜言辞：从个人伤痛中长出的人生哲学
+对于硅谷以外、资源匮乏的年轻人,Jeetu 给出了两点建议。
 
-Jeetu Patel 在印度孟买长大，童年非常艰难，父亲是个高风险的骗术高手。他为了摆脱这一切离开了印度。他和母亲感情极深，但在母亲去世前的八年里，两人曾经历过一段特殊的角色反转 [60:00 Jeetu Patel]。
+首先是「选对平台」。他分享了一个带女儿去参观泰姬陵时的故事:当时的导游会说 14 种语言,而且为了尊重游客还在每年学新语言。Jeetu 震撼地发现,这人比他自己公司的整个高管团队都聪明,但每天只赚 10 美元,差别仅仅在于他们有没有接入一个放大能力的「平台」(如美国、科技行业和好的导师)[67:01 Jeetu Patel]。其次,他指出大多数人选容易的问题去解,这其实大错特错;应该选最难的问题,因为只有足够重要的问题,才能吸引来最好的团队 [64:09 Jeetu Patel]。
 
-在母亲弥留之际的病床前，他曾痛哭流涕。母亲醒来后，非常困惑地看着他说：「我不知道你这么爱我。」[60:35 Jeetu Patel] 这句话给了他极大的震撼。他意识到，即使是那个最了解他的母亲，如果他不说，也无法感知他的内心。从此他明白了一个道理：绝对不要吝惜语言 [61:10 Jeetu Patel]。在商业世界里更是如此，如果你不明确表达，别人永远不知道你的感受。他成功的秘诀之一，就是真实地向周围人表达感激与欣赏，这让他的朋友与支持者越来越多。
+> 【背景】Jeetu 在此提及的「最难的问题吸引最好的团队」与硅谷投资者 Paul Graham 的「Schlep Blindness」理论(指人们习惯性逃避真正痛苦但有价值的大难题)有异曲同工之妙。
 
-> 【背景】前面提到 Jeetu Patel 借用网络术语「丢包」来比喻沟通中的信息损耗，实际上他自己也发现，人际网络与企业网络之间有着许多奇妙的类比。
+在本集最后,他抛出了自己评价公司能否赢的六要素框架,并按重要性从高到低排列:1. **时机**(Timing,最重要但最不可控,比如史蒂夫·乔布斯曾为了先做 iPhone 而搁置 iPad);2. **市场**(Market,烂市场会拖垮好团队);3. **团队**(Team,必须有互补的人);4. **产品**(Product,卖平庸的产品甚至是不道德的);5. **品牌**(Brand,失去信任很难挽回);6. **分销**(Distribution,做出来了客户也不会自己来)。六个要素缺一不可 [70:46 Jeetu Patel]。
 
-在访谈最后，他给所有渴望成功的人（尤其是远离硅谷的年轻人）提出了两条核心建议：一是选择一个好的「平台」，并选择那些足够难的问题去解决。因为困难的问题会吸引最优秀的团队，而最优秀的团队会极大提升你获胜的几率 [64:09 Jeetu Patel]。二是「渴望心是教不会的」，找到你真正渴望的事物并坚持下去。
-
-他甚至还分享了一个判断趋势的绝佳经验法则：你如何区分「[[超级趋势|超级趋势]]」与「炒作周期」？最简单的方法就是，看它的描述。如果一个东西你需要拥有博士学位才能听懂它在做什么，那它大概率只是炒作；而像 AI 这样，你去 [[ChatGPT|ChatGPT]] 问个问题就能得到答案、人人都懂的东西，才是真正的超级趋势 [75:25 Jeetu Patel]。
+在这个框架之上,他给出了一个辨别真趋势的绝佳启发式:如果你需要拿个博士学位才能听懂这东西能为大众做什么,它大概率只是「[[炒作周期|炒作周期]]」(Hype cycle),而不是不可阻挡的大趋势(megatrend)。AI 就属于后者——你去问 ChatGPT 一个问题,立刻就能得到答案,这毫无理解门槛 [75:25 Jeetu Patel]。
 
 ## 本集带走
 
-1. **AI 是恰逢其时的解药**：全球面临老龄化和劳动力短缺的巨大危机，AI 不是在抢工作，反而是维持人类社会运转、避免巨大痛苦的必需品。
-2. **大公司创新的解法是「不对冲」**：大公司不缺实验，缺的是在实验成功后敢于自上而下地全力投入，并果断打破内部的小孤岛，整合成统一的平台。
-3. **「参与许可」决定战略取舍**：能做出好产品不代表能卖得好。必须极其克制，只在自己的基因、分发渠道和规模优势能发挥压倒性作用的领域投入资源。
-4. **消除信息「丢包」与反直觉反馈**：领导者必须亲自讲故事，杜绝跨层级的传话游戏；在充分信任的前提下，应当公开辩论问题，而在私下给予团队成员最大的支持。
-5. **构建伟大公司的六要素框架**：按重要性降序排列，分别是：时机、市场、团队、产品、品牌、分销。缺一不可，但时机最难掌控，且重要性凌驾于一切之上。
-6. **别吝惜言辞**：无论在工作还是生活中，如果你欣赏或爱一个人，请明确、真实地表达出来，这是积累信任、扩充人际网络最简单也最强大的方式。
+1. **大公司做创新缺的不是点子,是「不对冲的决心」**:实验成功后敢不敢自上而下地押注,是巨头转身的关键。
+2. **领导者别当「传话筒」**:在大型组织里,最核心的战略故事必须由一号位亲自讲给一线听,以防信息在层级中出现「丢包」。
+3. **别选容易的问题**:挑那些难到能吸引顶尖人才的大问题,并选对一个能给你提供跳板的平台,这是普通人逆袭的最佳策略。
+4. **放下自我**:干基础设施(或任何底层赋能的活),必须习惯别人拿你的工作去邀功,只要客户成功,红利自然会流向你。
 
 ## 金句(中英对照 · 过机器闸门三联校验)
 
-> 大公司不做的是当一个实验成功时，他们不会全力以赴并加倍下注。  
-> *What large companies don't do is when an experiment works, they don't go all in and double down.*  
-> —— Jeetu Patel · [11:17] ^q1
+> 大多数人在大公司里认为的是大公司不进行实验。事实上并非如此。大公司经常进行实验。大公司不做的是当一个实验成功时,他们不会全力以赴并加倍下注。  
+> *Most people think in large companies is large companies don't experiment. That is in fact not true. Large companies experiment a lot. What large companies don't do is when an experiment works, they don't go all in and double down.*  
+> —— Jeetu Patel · [11:10] ^q1
 
-> 并且要始终做信息的守护者。不要把这件事委派给别人去传达。  
-> *Always be the custodian of the message. Don't delegate that to someone else to give.*  
-> —— Jeetu Patel · [44:37] ^q2
+> 但反过来是必然的,如果你不选择 AI,如果你在你的任何工作职能中不灵活,那么你的工作在长远来看可能不会那么相关。  
+> *But the reverse was guaranteed to be the case, that if you didn't choose AI, if you weren't going to be dexterous in whatever job function you're doing, then your job is probably not going to be that relevant over here in the long run.*  
+> —— Jeetu Patel · [11:56] ^q2
 
-> 而 90% 的时候，99% 的时候，我发现自己在说不。  
-> *And 90% of the times, 99% of the times, I find myself saying no.*  
-> —— Jeetu Patel · [35:27] ^q3
+> 我们绝不能成为一家拥有 251 次收购和数千种不同产品的控股公司,我们必须成为一家平台公司。  
+> *We have to become not a holding company of 251 acquisitions and thousands of different products, we have to become a platform company.*  
+> —— Jeetu Patel · [13:32] ^q3
 
-> 通常来说，更难的问题有更高的成功可能性。因为更难的问题是那些能吸引更好的人来解决这个问题，而商业是一项团队运动。  
-> *Typically harder problems have a higher likelihood of success. Because the harder problems are the ones that attract better people to that problem and business as a team sport.*  
-> —— Jeetu Patel · [64:10] ^q4
+> 如果这些 GPU 没有联网在一起,你就没有 AI,因为过去你可以在单个 GPU 上训练一个模型,但后来发生的事情是模型变得太大,无法放在单个 GPU 上。  
+> *If these GPUs aren't networked together, you don't have AI, because it used to be that you could train a model on a single GPU, but then what happened was the model got too big to be put on a single GPU.*  
+> —— Jeetu Patel · [17:41] ^q4
 
-> 当你觉得你需要有个博士学位才能理解某人在说什么时，它大概率不会是一个超级趋势，因为根据定义，超级趋势是它将影响世界上很大一部分人口。  
-> *When you feel like you need a PhD to understand what someone's saying, chances are it ain't going to be a megatrend, because by definition, a megatrend is it's going to impact a large population of the world.*  
-> —— Jeetu Patel · [75:25] ^q5
+> 这需要一套非常复杂的技术,我们要构建这些技术,以确保你可以有两个相距 800 公里的数据中心,但是,它们运行起来完全同步。  
+> *That requires a very sophisticated set of technologies that we build to make sure that you could have two data centers, 800 kilometers apart, but boy, they run completely in sync with each other.*  
+> —— Jeetu Patel · [18:40] ^q5
 
-> 一家公司需要的这六样东西，如果你没有全部这六样，你就赢不了。但它们是按重要性降序排列的，你必须拥有全部六样。第一是时机。  
-> *The six things you need in a company, if you don't have all these six, you don't win. But they're stack ranked in descending order of importance, but you have to have all six. Number one is timing.*  
-> —— Jeetu Patel · [71:01] ^q6
+> 当情况不再如此时,我们担心 AI 夺走我们的工作,我认为人类的生存取决于成功的 AI。  
+> *When that's not the case, we worry about AI taking our jobs, I think that survival of humanity depends on a successful AI.*  
+> —— Jeetu Patel · [07:48] ^q6
 
-> 时机胜过市场，市场胜过团队。团队胜过产品，产品胜过品牌，品牌胜过分销。  
-> *Timing trumps market, market trumps team. Team trumps product, product trumps brand, brand trumps distribution.*  
-> —— Jeetu Patel · [73:46] ^q7
+> 我学到的关于基础设施的一点是,你并不总是能得到荣耀,但你总是会得到指责。  
+> *And the thing that I learned about infrastructure is, you don't always get the glory, but you always get the blame.*  
+> —— Jeetu Patel · [53:31] ^q7
 
-> 如果 AI 不存在，零机会我能做到，因为我对我们要进入的许多领域一无所知。  
-> *There's zero chance I would've been able to do it if AI wasn't there, because I didn't know anything about so many domains that we were in.*  
-> —— Jeetu Patel · [80:53] ^q8
+> 因为如果在你和实际在一线工作的人之间隔着 3、4、5、6、7 层,你不想做的就是玩传话游戏,并假设人们只会层层传递  
+> *Because if you have 3, 4, 5, 6, 7 layers between you and the person who's actually doing the job in the front line, what you don't want to do is play the telephone game and assume that people will just cascade it*  
+> —— Jeetu Patel · [44:43] ^q8
 
-> 我实际上认为在市场上销售平庸的产品是不道德的。  
-> *I actually think it's unethical to have a mediocre product sold in the market.*  
-> —— Jeetu Patel · [73:04] ^q9
+> 因为当基础设施不工作时,人会死。有人没法做透析,有人没法做手术,我们需要确保我们正在与基础设施工作正常的人合作。  
+> *Because when the infrastructure doesn't work, people die. Someone doesn't get dialysis, someone doesn't get a surgery done, and we need to make sure that we're working with someone with the infrastructure is working.*  
+> —— Jeetu Patel · [54:47] ^q9
 
-> 如果你有一个伟大的市场和普通的团队，市场会把你拉上来。如果你有一个糟糕的市场和一个伟大的团队，市场会把你拖下去。市场总是赢家。  
+> 如果你不在乎谁得到功劳,你在生活中会走得远得多。  
+> *If you don't care about who gets the credit, you just go a lot farther in life.*  
+> —— Jeetu Patel · [38:27] ^q10
+
+> 因为即使是那个里里外外了解我的母亲都不知道我有多爱她,那么如果你在商业世界中不明确表达,那些人就没有机会知道你的感觉。  
+> *Because even my mother that knows me inside and out didn't know how much I loved her, that there's no chance that people in the business world are going to know how you feel if you're not explicit with them.*  
+> —— Jeetu Patel · [61:19] ^q11
+
+> 我说,「这家伙比高管团队的每个人都聪明,可能跟我们要有的每个销售人员一样聪明,但他一天赚 10 美元,而我们都在享受这美好的生活,这是因为我们有平台可以使用,而他没有。」  
+> *I'm like, "This guy is smarter than every person on the executive team and probably just as smart as every salesperson we have, but he's making $10 a day and all of us are enjoying this amazing life, and it's because we have access to a platform and he doesn't."*  
+> —— Jeetu Patel · [67:12] ^q12
+
+> 它是最重要的。它是你控制得最少的东西。有很多公司在错误的时候建立了惊人的产品、惊人的服务,在正确的市场却没有赢,对吧?  
+> *It's the most important. It's the thing that you control the least. And there's a lot of companies that have built amazing products, amazing services at the wrong time, in the right market and not won, right?*  
+> —— Jeetu Patel · [71:09] ^q13
+
+> 不,如果你有一个伟大的市场和普通的团队,市场会把你拉上来。如果你有一个糟糕的市场和一个伟大的团队,市场会把你拖下去。市场总是赢家。  
 > *If you have a great market mediocre team, the market pulls you up. If you have a shitty market and a great team, the market drags you down. The market always wins.*  
-> —— Jeetu Patel · [72:37] ^q10
+> —— Jeetu Patel · [72:37] ^q14
+
+> 当你觉得你需要有个博士学位才能理解某人在说什么时,它大概率不会是一个超级趋势,因为根据定义,超级趋势是它将影响世界上很大一部分人口。  
+> *When you feel like you need a PhD to understand what someone's saying, chances are it ain't going to be a megatrend, because by definition, a megatrend is it's going to impact a large population of the world.*  
+> —— Jeetu Patel · [75:25] ^q15
 
 ## 相关单集
 
-- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]] —— 同嘉宾:Lenny · 同公司:NVIDIA · 同概念:ChatGPT、GPU
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:ChatGPT
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《在指数级增长公司做增长：Anthropic 增长负责人的打法》]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:ChatGPT
-- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别怪高管不懂你：产品经理的向上影响力心法》]] —— 同嘉宾:Lenny · 同概念:护栏 (guardrails)
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同嘉宾:Lenny · 同概念:ChatGPT
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」》]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Tony Fadell：造出 iPod 和 iPhone 的人，怎么看 AI 时代的造物法则》]] —— 同嘉宾:Lenny · 同公司:OpenAI
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同嘉宾:Lenny · 同公司:Anthropic
+- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]] —— 同嘉宾:Lenny · 同公司:NVIDIA · 同概念:ChatGPT
+- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同嘉宾:Lenny · 同概念:ChatGPT
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] —— 同嘉宾:Lenny · 同概念:ChatGPT
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同嘉宾:Lenny · 同概念:主观能动性 (agency)
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失》]] —— 同嘉宾:Lenny · 同概念:护栏 (guardrails)
 - [[2025-11-20-lennys-slack-founder-stewart-butterfield|《把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学》]] —— 同嘉宾:Lenny
 - [[2025-11-23-lennys-a-guide-to-difficult-conversations|《别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课》]] —— 同嘉宾:Lenny
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] —— 同嘉宾:Lenny
 - [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷》]] —— 同嘉宾:Lenny
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体替代 10 人销售团队：SaaStr 创始人的前沿实战》]] —— 同嘉宾:Lenny
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验》]] —— 同嘉宾:Lenny
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同嘉宾:Lenny
 - [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] —— 同嘉宾:Lenny
-- [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|《Dr. Becky 谈领导力:把职场当家庭,用育儿智慧管理“伪装的婴儿”》]] —— 同嘉宾:Lenny
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值 150 亿的隐形 AI 公司 Applied Intuition:给自动驾驶卡车的焦虑开一剂务实药方》]] —— 同嘉宾:Lenny
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别问客户、别信心理安全、只招「木桶」》]] —— 同嘉宾:Lenny
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被淘汰，构建者迎来黄金期》]] —— 同嘉宾:Lenny
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel:在AI时代,做最会创新的公司》]] —— 同嘉宾:Lenny
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《前 GitHub、现 Notion 产品负责人 Max:每个项目的前 10% 现在免费了》]] —— 同嘉宾:Lenny
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的 AI 工作预测:智能体接管工作,但人类不会失业》]] —— 同嘉宾:Lenny
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人：别想从零颠覆世界，靠复制才能创新》]] —— 同嘉宾:Lenny
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队重塑与 Instagram 算法真相》]] —— 同嘉宾:Lenny
-- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)》]] —— 同嘉宾:Lenny
-- [[2026-06-22-latent-space-gray-swan|《给 AI 智能体装上「安全带」:Gray Swan 的攻防实战》]] —— 同概念:护栏 (guardrails)
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:ChatGPT
+- [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|《育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”》]] —— 同嘉宾:Lenny
+- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同嘉宾:Lenny
+- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别只想推销：产品负责人如何真正影响高管决策》]] —— 同嘉宾:Lenny
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同嘉宾:Lenny
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]] —— 同嘉宾:Lenny
+- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评》]] —— 同嘉宾:Lenny
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同嘉宾:Lenny
+- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要》]] —— 同嘉宾:Lenny
+- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」》]] —— 同嘉宾:Lenny
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] —— 同嘉宾:Lenny
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同嘉宾:Lenny
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] —— 同嘉宾:Lenny
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同嘉宾:Lenny
+- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]] —— 同嘉宾:Lenny
+- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]] —— 同嘉宾:Lenny
+- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] —— 同概念:护栏 (guardrails)
 
 ---
 

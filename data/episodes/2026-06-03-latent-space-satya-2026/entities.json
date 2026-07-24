@@ -3,11 +3,11 @@
   "podcast": "Latent Space",
   "date": "2026-06-03",
   "tags": [
-    "AI 生态系统",
-    "智能体",
+    "生态系统",
     "私有评估",
-    "测试框架",
-    "SaaS 重构"
+    "智能体",
+    "SaaS 拆解",
+    "数据中心"
   ],
   "entities": [
     {
@@ -66,7 +66,7 @@
       "name": "Microsoft",
       "file": "Microsoft",
       "primary": true,
-      "how_described": "本集被描述为正在向 AI 时代平台变迁的公司，CEO 强调其战略核心是做‘生态系统玩法’而非单一模型，致力于让所有企业都能作为一等公民参与其中创造属于自己的 AI。",
+      "how_described": "本集将其描述为正经历第四次平台变迁的科技巨头，并提出应将 AI 视为生态系统而非单一模型，同时正以惊人速度扩建 Azure 算力。",
       "source": "glm",
       "evidence": [
         {
@@ -198,13 +198,61 @@
       ]
     },
     {
-      "id": "github-copilot",
+      "id": "azure",
       "type": "company",
       "role": "company",
-      "name": "GitHub Copilot",
-      "file": "GitHub Copilot",
+      "name": "Azure",
+      "file": "Azure",
       "primary": true,
-      "how_described": "本集提到它是一个多模型测试框架，由于智能体使用强度极高，正在从按用户定价转向按消耗量计费，并且迫使软件 UI 不得不重建为可承载多智能体会话的新画布。",
+      "how_described": "本集提到其物理网络运营团队通过构建名为 Miles 的智能体系统来调度 500 多个光纤运营商，且过去 15 个月建成的算力容量超过了前 15 年的总和。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 623,
+          "t": [
+            1788.987,
+            1793.489
+          ],
+          "quote": "which is I take great inspiration from the people who were managing the Azure",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 627,
+          "t": [
+            1798.894,
+            1804.359
+          ],
+          "quote": "You saw that I talked about how we built in the last 15 months more Azure capacity",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 636,
+          "t": [
+            1817.186,
+            1820.19
+          ],
+          "quote": "essentially they said our job is not to do Azure networking,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 637,
+          "t": [
+            1820.471,
+            1824.737
+          ],
+          "quote": "our job is to build the agentic system does Azure networking.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": true,
+      "how_described": "本集描述其代码库中的智能体可跨应用读取如 M365 的设计会议记录并给出代码修改建议；其 Copilot 经历了因智能体高耗能而向消耗量计费的商业调整。",
       "source": "glm",
       "evidence": [
         {
@@ -214,6 +262,42 @@
             538.857
           ],
           "quote": "whether it's GitHub Copilot or the",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 198,
+          "t": [
+            576.512,
+            577.834
+          ],
+          "quote": "we have the GitHub harness,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1145.947,
+            1148.13
+          ],
+          "quote": "I go to a GitHub repo and I say,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 444,
+          "t": [
+            1287.872,
+            1289.853
+          ],
+          "quote": "Quite frankly, we face this with GitHub.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 445,
+          "t": [
+            1289.973,
+            1292.735
+          ],
+          "quote": "We just recently announced a per user pricing on GitHub.",
           "speaker": "SPEAKER_02"
         },
         {
@@ -237,85 +321,91 @@
       ]
     },
     {
-      "id": "agent",
-      "type": "concept",
-      "role": "concept",
-      "name": "智能体 (agent)",
-      "file": "智能体",
+      "id": "microsoft-365",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft 365",
+      "file": "Microsoft 365",
       "primary": true,
-      "how_described": "本集将其描述为能长期运行、执行工作流任务的数字劳动力。认为它的普及不仅放大了通才的杠杆，让传统 SaaS 被拆解重组，甚至能捕捉企业隐性知识成为应该记入资产负债表的‘老手智能体’资产。",
+      "how_described": "本集指出其通过 WorkIQ 暴露了公司内部最重要的数据库，打破邮件和文档等应用孤岛，未来针对智能体的调用量将远超人类终端用户。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 145,
+          "seg": 369,
           "t": [
-            410.528,
-            414.574
+            1091.659,
+            1096.422
           ],
-          "quote": "To see what we launched is, oh my God, I have these 100 agent sessions.",
+          "quote": "If you look at it, what's happening today with Microsoft 365 is a great example.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mai",
+      "type": "concept",
+      "role": "concept",
+      "name": "MAI",
+      "file": "MAI",
+      "primary": true,
+      "how_described": "本集指出该系列大模型拥有干净的血统，强调从预训练阶段严格把控数据质量，且能通过爬山脚手架让较小的模型（如 5B）在特定任务上取得更好效果。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            152.085,
+            156.447
+          ],
+          "quote": "so the thing that we wanted to do with the MAI models was to build,",
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 311,
+          "seg": 67,
           "t": [
-            920.659,
-            927.069
+            190.043,
+            196.149
           ],
-          "quote": " That goes back to train, not a generalist model, but to train the company veteran agent.",
+          "quote": "even in our FDs are pretty gone really excited about these MAI models because how",
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 399,
+          "seg": 108,
           "t": [
-            1169.321,
-            1173.367
+            302.168,
+            302.729
           ],
-          "quote": "So the value creation opportunity now in the agent world",
+          "quote": "two years for MAI?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "private-evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "私有评估 (private evals)",
+      "file": "私有评估",
+      "primary": true,
+      "how_described": "本集将其视为 AI 时代企业最大的核心知识产权。指出由于公开基准测试已被刷爆，只有用不泄露轨迹的私有评估来测试能否在不同模型间无缝切换，企业才算真正掌握主动权。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 83,
+          "t": [
+            236.052,
+            239.455
+          ],
+          "quote": "you'll have private evals because we know all the evals out there are good,",
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 406,
+          "seg": 237,
           "t": [
-            1185.356,
-            1193.222
+            707.27,
+            710.891
           ],
-          "quote": "In fact, what I use to serve an inbox or a mailbox cannot be used to serve an agent.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 455,
-          "t": [
-            1330.554,
-            1332.114
-          ],
-          "quote": "that almost have agent euphoria.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 474,
-          "t": [
-            1388.871,
-            1392.794
-          ],
-          "quote": "Of course, there's a coding agent to help you with, but then that burns tokens.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 524,
-          "t": [
-            1519.857,
-            1526.848
-          ],
-          "quote": "can I have an agent that is continuously monitoring essentially my own chief of",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 533,
-          "t": [
-            1538.645,
-            1541.188
-          ],
-          "quote": "go and build a Foundry long-running agent,",
+          "quote": " Having private evals may be the biggest IP.",
           "speaker": "SPEAKER_02"
         }
       ]
@@ -327,7 +417,7 @@
       "name": "测试框架 (harness)",
       "file": "测试框架",
       "primary": true,
-      "how_described": "本集将其视为智能体运行时的核心管理架构，是调度底层大模型、上下文记忆并渐进式调用外部工具以实现 token 高效执行的中间件；强调拥有开放的测试框架是企业能随时切换模型并保持掌控权的关键。",
+      "how_described": "本集将其描述为用于运行、调度和管理多个模型与工具的中间件层。拥有开放的测试框架可接入任意模型，是实现让模型与工具协同爬山的必要基础设施。",
       "source": "glm",
       "evidence": [
         {
@@ -414,31 +504,142 @@
       ]
     },
     {
-      "id": "private-eval",
+      "id": "traces",
       "type": "concept",
       "role": "concept",
-      "name": "私有评估 (private eval)",
-      "file": "私有评估",
+      "name": "轨迹 (traces)",
+      "file": "轨迹",
       "primary": true,
-      "how_described": "本集被定义为新时代企业‘可能是最大的知识产权’。因为公开基准测试已被刷满失去区分度，只有基于它，企业才能围绕模型搭建爬山脚手架，实现价值的持续复利。",
+      "how_described": "本集将其定义为人与智能体配合工作时沉淀下来的操作记录。它是训练「公司老手智能体」的核心资产，理应被计入公司的资产负债表。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 86,
+          "seg": 81,
           "t": [
-            244.879,
-            247.782
+            233.77,
+            235.412
           ],
-          "quote": "And so the point is each company will have its own private eval.",
+          "quote": "You will start collecting the traces.",
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 239,
+          "seg": 96,
           "t": [
-            711.711,
-            716.012
+            275.467,
+            277.089
           ],
-          "quote": "What's that private eval that you can then use even a frontier model to hill climb",
+          "quote": "Then you collected a bunch of traces,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 240,
+          "t": [
+            716.092,
+            717.672
+          ],
+          "quote": "on and not leak the traces?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 307,
+          "t": [
+            908.762,
+            912.687
+          ],
+          "quote": "I have a bunch of agents doing work and a bunch of humans doing work and the traces",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 318,
+          "t": [
+            948.188,
+            949.388
+          ],
+          "quote": "through all the traces.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集多次将其描述为长期运行、代替人执行业务逻辑的数字劳动力，强调其将使底层 SaaS 数据被彻底打通，引发工作流的压缩与重组。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 145,
+          "t": [
+            410.528,
+            414.574
+          ],
+          "quote": "To see what we launched is, oh my God, I have these 100 agent sessions.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 311,
+          "t": [
+            920.659,
+            927.069
+          ],
+          "quote": " That goes back to train, not a generalist model, but to train the company veteran agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1169.321,
+            1173.367
+          ],
+          "quote": "So the value creation opportunity now in the agent world",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 406,
+          "t": [
+            1185.356,
+            1193.222
+          ],
+          "quote": "In fact, what I use to serve an inbox or a mailbox cannot be used to serve an agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 455,
+          "t": [
+            1330.554,
+            1332.114
+          ],
+          "quote": "that almost have agent euphoria.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 474,
+          "t": [
+            1388.871,
+            1392.794
+          ],
+          "quote": "Of course, there's a coding agent to help you with, but then that burns tokens.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 524,
+          "t": [
+            1519.857,
+            1526.848
+          ],
+          "quote": "can I have an agent that is continuously monitoring essentially my own chief of",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 533,
+          "t": [
+            1538.645,
+            1541.188
+          ],
+          "quote": "go and build a Foundry long-running agent,",
           "speaker": "SPEAKER_02"
         }
       ]
@@ -450,7 +651,7 @@
       "name": "SaaS",
       "file": "SaaS",
       "primary": true,
-      "how_described": "本集认为它的底层数据模型和业务逻辑依然极具价值，但其打包方式必须被‘拆解并以新的方式重新打包’，从而让底层数据库暴露给智能体编排，产生十倍以上的价值创造。",
+      "how_described": "本集指出传统 SaaS 的打包方式（数据模型+业务逻辑+界面）必须被拆解重组。底层数据模型（如总账）应当保留，但应用孤岛将被打破，通过智能体重组创造新价值。",
       "source": "glm",
       "evidence": [
         {
@@ -537,151 +738,13 @@
       ]
     },
     {
-      "id": "generalist",
-      "type": "concept",
-      "role": "concept",
-      "name": "通才 (generalist)",
-      "file": "通才",
-      "primary": true,
-      "how_described": "本集指出这一角色的杠杆作用将迎来最大回报：过去知识工作者只能产出文档或表格，现在借助智能体工具他们可以直接构建应用程序，获得跨设计、产品与前端的全栈能力。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 75,
-          "t": [
-            218.474,
-            219.897
-          ],
-          "quote": "not just as a generalist,",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 311,
-          "t": [
-            920.659,
-            927.069
-          ],
-          "quote": " That goes back to train, not a generalist model, but to train the company veteran agent.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 577,
-          "t": [
-            1662.591,
-            1665.773
-          ],
-          "quote": "I think the generalist role is",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 579,
-          "t": [
-            1668.615,
-            1674.401
-          ],
-          "quote": "Because the leverage of a generalist is where we are going to see the maximum returns, right?",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 581,
-          "t": [
-            1676.283,
-            1677.464
-          ],
-          "quote": "I'm now a generalist.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 592,
-          "t": [
-            1694.549,
-            1697.471
-          ],
-          "quote": "my generalist skills have gotten a higher leverage,",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
-      "id": "scaling-laws",
-      "type": "concept",
-      "role": "concept",
-      "name": "缩放定律 (scaling laws)",
-      "file": "缩放定律",
-      "primary": true,
-      "how_described": "本集提及它是描述‘智能随对数计算量增长’的规律，激发了当前的 AI 浪潮；但嘉宾反思，虽然它驱动了模型能力攀升，行业却低估了在现实世界部署这些模型以交付真正价值的复杂性。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 110,
-          "t": [
-            307.132,
-            311.435
-          ],
-          "quote": "which is obviously I got into all this when I got excited by the scaling laws paper",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
-      "id": "open-weight-models",
-      "type": "concept",
-      "role": "concept",
-      "name": "开放权重模型 (open-weight models)",
-      "file": "开放权重模型",
-      "primary": true,
-      "how_described": "本集批评当前许多此类模型虽然‘在一个或两个基准测试上看起来很棒，但在实践中并不好’，强调必须依赖干净的数据血统消融才能得到实用的模型。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 63,
-          "t": [
-            181.916,
-            186.32
-          ],
-          "quote": "of a lot of the open-weight models is they look great on one benchmark or two,",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
-      "id": "data-model",
-      "type": "concept",
-      "role": "concept",
-      "name": "数据模型 (data model)",
-      "file": "数据模型",
-      "primary": true,
-      "how_described": "本集指出隐藏在 SaaS 应用底层的它是‘非常健壮且稳定的东西’，不需要被重新发明；通过将其暴露（如微软 WorkIQ），即可供智能体读取编排，从而释放巨大的价值。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 340,
-          "t": [
-            1010.837,
-            1012.719
-          ],
-          "quote": "Because we built a data model, right?",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 351,
-          "t": [
-            1033.941,
-            1039.485
-          ],
-          "quote": "that data model that you built underneath every SaaS application is super good.",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
       "id": "data-center",
       "type": "concept",
       "role": "concept",
       "name": "数据中心 (data center)",
       "file": "数据中心",
       "primary": true,
-      "how_described": "本集强调其超大规模建设必须通过‘社区许可’：必须确保不推高能源价格（甚至降低）、建立补充水资源的闭环系统、创造建设期就业并扩大税基，否则行业将失去前行的社会授权。",
+      "how_described": "本集强调其扩建规模空前，但这种基建必须为当地社区带来真实的就业、改善电网和降低能源价格等切实好处，否则整个 AI 行业就会失去社会运营许可。",
       "source": "glm",
       "evidence": [
         {
@@ -694,7 +757,129 @@
           "speaker": "SPEAKER_03"
         }
       ]
+    },
+    {
+      "id": "foundry",
+      "type": "concept",
+      "role": "concept",
+      "name": "Foundry",
+      "file": "Foundry",
+      "primary": false,
+      "how_described": "本集提到它是微软提供 GitHub 测试框架（harness）的产品平台，CEO 自己也曾用它在后端构建长时间运行的智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 200,
+          "t": [
+            580.418,
+            581.58
+          ],
+          "quote": "It's available in Foundry.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 519,
+          "t": [
+            1506.372,
+            1511.693
+          ],
+          "quote": "And so to me, what I'm building a lot of is these long-running foundry agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 533,
+          "t": [
+            1538.645,
+            1541.188
+          ],
+          "quote": "go and build a Foundry long-running agent,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "workiq",
+      "type": "concept",
+      "role": "concept",
+      "name": "WorkIQ",
+      "file": "WorkIQ",
+      "primary": false,
+      "how_described": "本集将其描述为微软 M365 的工作数据底层，把被应用囚禁的邮件、文档、会议记录等数据打通，转化为可供智能体查询的庞大数据库。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 370,
+          "t": [
+            1097.354,
+            1098.575
+          ],
+          "quote": " We have this thing called WorkIQ.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1123.799,
+            1127.801
+          ],
+          "quote": "The same thing is now happening with M365 because with WorkIQ,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1143.363,
+            1145.907
+          ],
+          "quote": " This is one of the coolest things I get to do with WorkIQ.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 530,
+          "t": [
+            1535.56,
+            1536.782
+          ],
+          "quote": "I took WorkIQ,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 532,
+          "t": [
+            1537.323,
+            1538.304
+          ],
+          "quote": "take WorkIQ,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "open-weight-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重模型 (open-weight models)",
+      "file": "开放权重模型",
+      "primary": false,
+      "how_described": "本集提到这类模型往往由于训练数据混杂，导致它们在某个公开基准测试上刷分很高，但在真实业务实践场景里并不好用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            181.916,
+            186.32
+          ],
+          "quote": "of a lot of the open-weight models is they look great on one benchmark or two,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
     }
   ],
-  "rejected": []
+  "rejected": [
+    {
+      "name": "full stack builder",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
 }

@@ -6,7 +6,7 @@ entity_type: 人物
 # Qasar Younis
 
 > [!info] 人物
-> 出现在 1 集 · 金句 8 条 · 关联 10 个
+> 出现在 1 集 · 金句 9 条 · 关联 10 个
 
 ## 金句
 
@@ -26,10 +26,12 @@ entity_type: 人物
 
 ![[2026-03-08-lennys-the-most-successful-ai-company-youve-nev#^q8]]
 
+![[2026-03-08-lennys-the-most-successful-ai-company-youve-nev#^q9]]
+
 ## 出现在这些集
 
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值 150 亿的隐形 AI 公司 Applied Intuition:给自动驾驶卡车的焦虑开一剂务实药方》]] — 作为联合主持
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] — 作为联合主持
 
 ## 关联实体
 
-[[Lenny]] · [[Applied Intuition]] · [[Waymo]] · [[Tesla]] · [[Huawei]] · [[Rivian]] · [[Google]] · [[Facebook]] · [[物理 AI]] · [[智能体]]
+[[Lenny]] · [[Applied Intuition]] · [[物理 AI]] · [[自动驾驶]] · [[工业革命]] · [[FSD]] · [[Tesla]] · [[Waymo]] · [[ChatGPT]] · [[Huawei]]

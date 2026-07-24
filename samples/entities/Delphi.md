@@ -10,12 +10,12 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体替代 10 人销售团队：SaaStr 创始人的前沿实战》]]**(07:13起):本集提到它是用于制作数字克隆的应用，嘉宾用它制作了数字分身 Digital Jason，后来甚至自动包揽客服邮件并独立谈成了一笔 7 万美元的赞助。
+- **[[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验》]]**(07:13起):本集说它是一款制作数字人克隆的工具，Jason 用它做了「Digital Jason」来回答知识问题，后来演变成处理客服支持并独自成交了 7 万美元赞助。
 
 ## 出现在这些集
 
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体替代 10 人销售团队：SaaStr 创始人的前沿实战》]] — 作为被讨论公司
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Lenny]] · [[Jason Lemkin]] · [[SaaStr]] · [[Salesforce]] · [[Replit]] · [[Vercel]] · [[Artisan]] · [[Qualified]] · [[Agentforce]] · [[智能体]]
+[[Lenny]] · [[Jason Lemkin]] · [[SaaStr]] · [[Replit]] · [[Vercel]] · [[Salesforce]] · [[Artisan]] · [[Qualified]] · [[智能体]] · [[编排]]

@@ -2,14 +2,30 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "00:55",
+      "timestamp": "03:25",
       "speaker": "Peter Steinberger",
       "trimmed": false,
-      "tsWas": "00:55",
+      "tsWas": "03:25",
       "spkWas": "Peter Steinberger"
     },
     {
       "i": 2,
+      "timestamp": "03:06",
+      "speaker": "Peter Steinberger",
+      "trimmed": false,
+      "tsWas": "03:05",
+      "spkWas": "Peter Steinberger"
+    },
+    {
+      "i": 3,
+      "timestamp": "03:29",
+      "speaker": "Peter Steinberger",
+      "trimmed": false,
+      "tsWas": "03:25",
+      "spkWas": "Peter Steinberger"
+    },
+    {
+      "i": 4,
       "timestamp": "03:45",
       "speaker": "Peter Steinberger",
       "trimmed": false,
@@ -17,7 +33,7 @@
       "spkWas": "Peter Steinberger"
     },
     {
-      "i": 4,
+      "i": 5,
       "timestamp": "03:49",
       "speaker": "Peter Steinberger",
       "trimmed": false,
@@ -25,35 +41,21 @@
       "spkWas": "Peter Steinberger"
     },
     {
-      "i": 5,
-      "timestamp": "05:25",
-      "speaker": "Peter Steinberger",
-      "trimmed": false,
-      "tsWas": "05:25",
-      "spkWas": "Peter Steinberger"
-    },
-    {
       "i": 6,
-      "timestamp": "05:26",
-      "speaker": "Peter Steinberger",
+      "timestamp": "01:50",
+      "speaker": "Raphael Schaad",
       "trimmed": false,
-      "tsWas": "05:25",
-      "spkWas": "Peter Steinberger"
+      "tsWas": "01:50",
+      "spkWas": "Raphael Schaad"
     },
     {
       "i": 7,
-      "timestamp": "05:45",
+      "timestamp": "04:26",
       "speaker": "Peter Steinberger",
       "trimmed": false,
-      "tsWas": "05:45",
+      "tsWas": "04:25",
       "spkWas": "Peter Steinberger"
     }
   ],
-  "dropped": [
-    {
-      "i": 3,
-      "reason": "逐字命中不了(裁剪后仍无)",
-      "en": "In the future, for the foreseeable future, the big companies still have a moat hardware-wise."
-    }
-  ]
+  "dropped": []
 }

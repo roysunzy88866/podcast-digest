@@ -6,7 +6,7 @@ entity_type: 人物
 # Amol Avasare
 
 > [!info] 人物
-> 出现在 1 集 · 金句 4 条 · 关联 10 个
+> 出现在 1 集 · 金句 5 条 · 关联 10 个
 
 ## 金句
 
@@ -18,10 +18,12 @@ entity_type: 人物
 
 ![[2026-04-05-lennys-anthropics-1b-to-19b-growth-run#^q4]]
 
+![[2026-04-05-lennys-anthropics-1b-to-19b-growth-run#^q5]]
+
 ## 出现在这些集
 
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《在指数级增长公司做增长：Anthropic 增长负责人的打法》]] — 作为联合主持
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]] — 作为联合主持
 
 ## 关联实体
 
-[[Lenny]] · [[Anthropic]] · [[Claude]] · [[Claude Code]] · [[Cowork]] · [[OpenAI]] · [[ChatGPT]] · [[成功灾难]] · [[冷启动]] · [[通过约束获得自由]]
+[[Lenny]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[Lovable]] · [[Slack]] · [[智能体编码]] · [[能力过剩]] · [[冷启动]] · [[正确的摩擦]]

@@ -3,11 +3,11 @@
   "podcast": "Lenny's Podcast",
   "date": "2026-03-22",
   "tags": [
-    "产品经理",
-    "向上影响",
+    "向上管理",
+    "影响力",
+    "产品经理技能",
     "高管沟通",
-    "利益相关者管理",
-    "AI 时代的技能杠杆"
+    "AI 与软技能"
   ],
   "entities": [
     {
@@ -78,505 +78,13 @@
       ]
     },
     {
-      "id": "influence",
-      "type": "concept",
-      "role": "concept",
-      "name": "影响力 (influence)",
-      "file": "影响力",
-      "primary": true,
-      "how_described": "本集将其定义为增加好想法存活几率的核心技能，区别于为私利的「政治」。主持人将其称为 AI 时代之外，产品负责人杠杆率最高的单一技能。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 22,
-          "t": [
-            84.71,
-            93
-          ],
-          "quote": "And she has gotten very, very uniquely good at the art and science of influence, and in particular, influencing executives.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 23,
-          "t": [
-            93.701,
-            98.926
-          ],
-          "quote": "Influence might be the single highest leverage skill for product leaders outside of AI.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 24,
-          "t": [
-            99.446,
-            102.269
-          ],
-          "quote": "We actually get into how AI is changing the skill of influence.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 25,
-          "t": [
-            102.61,
-            112.92
-          ],
-          "quote": "I've never heard a podcast conversation get deep into the art and science of influence, how to actually change people's minds, and the mistakes that people make when they're trying to influence leaders.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 58,
-          "t": [
-            246.003,
-            254.791
-          ],
-          "quote": "We're going to be talking about the skill and the art of influence, and in particular, influencing executives and leaders.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 64,
-          "t": [
-            271.605,
-            279.011
-          ],
-          "quote": "Influence and building momentum behind great ideas is the way that great products actually get built.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 65,
-          "t": [
-            279.552,
-            288.419
-          ],
-          "quote": "And if you don't have that influence, if you don't have the buy-in and the backing of your key stakeholders, of your executives, you can't build great products.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 130,
-          "t": [
-            636.636,
-            639.88
-          ],
-          "quote": "I always tell them, \"That's just you're not able to influence them and convince them that you're right.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 156,
-          "t": [
-            780.22,
-            797.314
-          ],
-          "quote": "I want to dive deeper into this stuff, but first, something on my mind is some people might be turned off by this topic in terms of, it may feel icky of just like, \"Oh, I don't want to try to be this manipulative person, and deal with politics and influence.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 163,
-          "t": [
-            814.508,
-            818.491
-          ],
-          "quote": "Influence is about increasing the odds that your good ideas survive.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 164,
-          "t": [
-            819.291,
-            830.6
-          ],
-          "quote": "And I think what happens is people actually let ego and let their own narrative, their own scope of influence, get in the way of empathy.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 436,
-          "t": [
-            2254.22,
-            2261.83
-          ],
-          "quote": "And then a second lever is trying to not go into a conversation, even though you are trying to influence them.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 474,
-          "t": [
-            2451.2,
-            2459.659
-          ],
-          "quote": "And it also sounds like a really good way to influence is you take the reins and here's where I think we could go with this, and here's the answer to your question.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 571,
-          "t": [
-            2860.377,
-            2865.799
-          ],
-          "quote": "You need to influence people in power to agree with your approach.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 731,
-          "t": [
-            3748.841,
-            3764.72
-          ],
-          "quote": "Before we get into AI's impact and all this stuff, are there any other common mistakes people make when they are trying to get better at the skill of influence or just any other really powerful tactics for increasing your ability to influence leaders?",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 807,
-          "t": [
-            4181.287,
-            4185.372
-          ],
-          "quote": "How is AI changing the skill of influence?",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 816,
-          "t": [
-            4316.777,
-            4322.98
-          ],
-          "quote": "And so it's actually an incredibly exciting place, but the act of influence, the act of stakeholder management, the act of learning...",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 817,
-          "t": [
-            4323,
-            4323.705
-          ],
-          "quote": "... active influence.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 852,
-          "t": [
-            4501.437,
-            4510.92
-          ],
-          "quote": "You are still working with millions of users, and alongside distribution is trust, and that is a function of influence and empathy.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 879,
-          "t": [
-            4687.31,
-            4698
-          ],
-          "quote": "Now that agents are a part of the workforce and increasingly, is there anything there around influence that is valuable for people to start thinking about to learn how to do?",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 882,
-          "t": [
-            4715.906,
-            4727.149
-          ],
-          "quote": "I think agents are absolutely something we have to think about with relation to influence, because we are basically all directors of work now, right?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 893,
-          "t": [
-            4797.48,
-            4804.808
-          ],
-          "quote": "What's so funny about this, essentially we're helping the agent learn the skills we've been talking about to influence you.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 932,
-          "t": [
-            5010.69,
-            5020.213
-          ],
-          "quote": "I think that something that has taken me a while in my career is how to be authentic to myself in influence, in relationships, in trust building.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 935,
-          "t": [
-            5031.037,
-            5041.02
-          ],
-          "quote": "I think all types of personalities can, in their own authentic way, communicate with the people around them to build trust, to build influence in the way that feels true to them.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "product-manager",
-      "type": "concept",
-      "role": "concept",
-      "name": "产品经理 (product manager)",
-      "file": "产品经理",
-      "primary": true,
-      "how_described": "本集探讨了该角色的演变。嘉宾指出在 AI 时代，PM 的杠杆将从「动手做」和「综合信息」转移到决定哪些工作值得活下来，并拉着所有人支持这个过程。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 102,
-          "t": [
-            481.02,
-            497.53
-          ],
-          "quote": "And the product manager coming to that product review, or the leader who's trying to make a pitch, thinks, \"I've been prepping for this meeting for two weeks, three weeks, maybe six weeks since we last spoke,\" but the executive coming into that session hasn't thought about you since.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "agent",
-      "type": "concept",
-      "role": "concept",
-      "name": "智能体 (agent)",
-      "file": "智能体",
-      "primary": true,
-      "how_described": "本集把它说成是加速工作的新同事。讨论了如何像带新实习生一样，向它们输入产品哲学和目标，同时又必须在拥有人类品味和判断力的地方设定护栏。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 878,
-          "t": [
-            4681.425,
-            4686.069
-          ],
-          "quote": "Everyone's got all these Claudes running, Codexes, all kinds of agent platforms.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 888,
-          "t": [
-            4760.4,
-            4777.69
-          ],
-          "quote": "And if we can do that upfront work to actually analyze ourselves and where we've seen success, where we've seen downfalls, and then continue to train our agent models with that data, that history, that context, they will be better off.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 893,
-          "t": [
-            4797.48,
-            4804.808
-          ],
-          "quote": "What's so funny about this, essentially we're helping the agent learn the skills we've been talking about to influence you.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 908,
-          "t": [
-            4862.981,
-            4866.906
-          ],
-          "quote": "When your tips has come into an open mind and learn, it's like exactly what an agent does.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "empathy",
-      "type": "concept",
-      "role": "concept",
-      "name": "同理心 (empathy)",
-      "file": "同理心",
-      "primary": true,
-      "how_described": "本集把它说成是产品经理最好的技能之一。强调要把对用户的同理心用在高管身上，理解他们面临的压力和决策上下文，而不是只想着要批准。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 0,
-          "t": [
-            0.08,
-            6.532
-          ],
-          "quote": "As product managers, one of our best sets of skills is curiosity and empathy and trying to understand our users.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 137,
-          "t": [
-            665.5,
-            671.964
-          ],
-          "quote": "As product managers, one of our best sets of skills is curiosity, and empathy, and trying to understand our users.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 139,
-          "t": [
-            688.175,
-            695.98
-          ],
-          "quote": "We don't think about the curiosity and empathy for what they're thinking about, for what their incentives are, for how their day has been.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 164,
-          "t": [
-            819.291,
-            830.6
-          ],
-          "quote": "And I think what happens is people actually let ego and let their own narrative, their own scope of influence, get in the way of empathy.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 204,
-          "t": [
-            1037.54,
-            1041.283
-          ],
-          "quote": "I think that has to be married again with that curiosity and empathy.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 738,
-          "t": [
-            3804.889,
-            3807.832
-          ],
-          "quote": "And so this keeps coming back to that curiosity and empathy.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 810,
-          "t": [
-            4204.586,
-            4232.02
-          ],
-          "quote": "More than ever, what we have to do is have really interesting ideas that are grounded in user empathy, curiosity, testing, iteration, but we will still be working in organizations where getting buy-in to those ideas and influencing people to fund not just the V1, but the much more expensive V2, three, four, and ongoing support become 10x more important.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 833,
-          "t": [
-            4367.644,
-            4390.732
-          ],
-          "quote": "And I think the best product thinkers, again, across functions that I've worked with, really are able to get to novel insights through that user empathy, through that understanding and through deep understanding of the business dynamics, changing industry, and bringing those together to prioritize ideas that actually really, really matter.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 852,
-          "t": [
-            4501.437,
-            4510.92
-          ],
-          "quote": "You are still working with millions of users, and alongside distribution is trust, and that is a function of influence and empathy.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "guardrails",
-      "type": "concept",
-      "role": "concept",
-      "name": "护栏 (guardrails)",
-      "file": "护栏",
-      "primary": true,
-      "how_described": "本集把它说成是人类在使用 AI 和智能体时的必备边界，即在拥有独特品味、判断力和参考框架的地方，必须果断介入并踩刹车。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 889,
-          "t": [
-            4778.07,
-            4780.231
-          ],
-          "quote": "But I also think the flip side of this is guardrails.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "minto-pyramid",
-      "type": "concept",
-      "role": "concept",
-      "name": "明托金字塔 (Minto Pyramid)",
-      "file": "明托金字塔",
-      "primary": true,
-      "how_described": "本集提到这是向高管汇报的最佳方式：倒过来讲，先抛出结论建议，再讲探索方向，最后给证据。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 306,
-          "t": [
-            1586.797,
-            1590.82
-          ],
-          "quote": "Have you ever looked into the Minto Pyramid way of presenting stuff?",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "product-market-fit",
-      "type": "concept",
-      "role": "concept",
-      "name": "产品市场契合度 (product market fit)",
-      "file": "产品市场契合度",
-      "primary": true,
-      "how_described": "本集提到这是在 AI 加速开发后，人类仍需凭借深刻的业务动态理解和用户同理心去积极探寻和判断的核心目标。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 551,
-          "t": [
-            2767.04,
-            2772.622
-          ],
-          "quote": "My podcast guest and I love talking about craft and taste and agency and product market fit.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 815,
-          "t": [
-            4295.327,
-            4316.417
-          ],
-          "quote": "And I actually think it's just so incredibly exciting because PMs and other functions, engineers, designers are so empowered to bring that first version to bear to get that momentum, to get that signal on product market fit, on user benefit, and then build momentum from that point in a much faster cycle.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 885,
-          "t": [
-            4752.378,
-            4755.178
-          ],
-          "quote": "What do I believe about product market fit?",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "proof-of-concept",
-      "type": "concept",
-      "role": "concept",
-      "name": "概念验证 (proof of concept)",
-      "file": "概念验证",
-      "primary": true,
-      "how_described": "本集提到把它当成说服高管的工具：将昂贵的新提案缩小变成一个为期一周的低风险实验，用小步快跑换取后续的巨大信任和资源。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 685,
-          "t": [
-            3533.353,
-            3536.395
-          ],
-          "quote": "It's a one week proof of concept.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
       "id": "webflow",
       "type": "company",
       "role": "company",
       "name": "Webflow",
       "file": "Webflow",
       "primary": true,
-      "how_described": "嘉宾 Jessica Fain 现在就职的公司。她在本集中分享了在此公司内部如何跟进 CPO 的面包屑线索、以及如何设立 Office Hours 对齐战略。",
+      "how_described": "本集嘉宾 Jessica Fain 目前任职产品负责人的公司，集里提及了该公司的 Office Hours (办公时间) 制度，以及内部探讨技能普及化（人人皆可写代码、写 PRD）的背景。",
       "source": "glm",
       "evidence": [
         {
@@ -615,7 +123,7 @@
       "name": "Slack",
       "file": "Slack",
       "primary": true,
-      "how_described": "嘉宾曾在此担任核心产品 PM 以及两任 CPO 的幕僚长。本集大量引用了她在此公司总结出的向上影响战术（如与创始人的「Stuart 加另外两个版本」工作流）。",
+      "how_described": "嘉宾曾担任产品经理与 CPO 幕僚长的公司。她在 Slack 近距离观察了高管如何做决策，并主导了核心产品团队和名为“客户爱冲刺”的内部修复改进运动。",
       "source": "glm",
       "evidence": [
         {
@@ -762,7 +270,7 @@
       "name": "Box",
       "file": "Box",
       "primary": false,
-      "how_described": "嘉宾早期的雇主，提到她的第一位 PM 经理以及一位擅长以全局业务视角思考的前同事均来自这家公司。",
+      "how_described": "嘉宾早期的雇主之一，她在此担任 PM，并在本期分享了她的第一任经理 Annie Pearl 如何教导她高管视角与向上沟通的责任意识。",
       "source": "glm",
       "evidence": [
         {
@@ -795,86 +303,172 @@
       ]
     },
     {
-      "id": "brightwheel",
-      "type": "company",
-      "role": "company",
-      "name": "Brightwheel",
-      "file": "Brightwheel",
-      "primary": false,
-      "how_described": "节目开场介绍中提到，嘉宾 Jessica Fain 曾在这家公司担任过产品负责人。",
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集讨论 AI 时代时指出，随着智能体像同事一样加入团队，你需要像给新员工做入职培训一样，把自己脑子里的目标、产品哲学和护栏明确写进设定里去影响这些不知疲倦的 AI。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 21,
+          "seg": 870,
           "t": [
-            77.541,
-            84.309
+            4637.758,
+            4639.98
           ],
-          "quote": "Today, my guest is Jessica Fain, who's been a product leader at Box and Slack and Brightwheel, and now at Webflow.",
+          "quote": "Fire off a hundred agents and we'll go build it and launch it.",
           "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 877,
+          "t": [
+            4676.38,
+            4681.345
+          ],
+          "quote": "Maybe one more question along these lines, just agents now running as colleagues.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 879,
+          "t": [
+            4687.31,
+            4698
+          ],
+          "quote": "Now that agents are a part of the workforce and increasingly, is there anything there around influence that is valuable for people to start thinking about to learn how to do?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 881,
+          "t": [
+            4700.641,
+            4715.066
+          ],
+          "quote": "We talk about this a lot, especially when we think about identity, security, compliance, that agents are a teammate for accelerating work, and the risks that that also provides because of the places where agents fall down.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 882,
+          "t": [
+            4715.906,
+            4727.149
+          ],
+          "quote": "I think agents are absolutely something we have to think about with relation to influence, because we are basically all directors of work now, right?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 883,
+          "t": [
+            4727.229,
+            4742.574
+          ],
+          "quote": "If we have an army of agents or this hundred new colleagues that joined our team, how would we onboard new junior team members who don't already understand our product philosophy, what's important to us, and how do we codify that for ourselves?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 900,
+          "t": [
+            4822.582,
+            4829.165
+          ],
+          "quote": "You should just feed this podcast to a bunch of agents and see if they can do this better than me, see what their advice is.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 901,
+          "t": [
+            4829.486,
+            4841.091
+          ],
+          "quote": "No, but I really think at this point we are in a place where it is a back and forth and where we should be using agents and AI as a really smart colleague that never gets irritated by our questions.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 911,
+          "t": [
+            4871.091,
+            4874.676
+          ],
+          "quote": "We'll add that to the...\" All the ideas you've shared, agents are so good at.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 920,
+          "t": [
+            4939.44,
+            4956.614
+          ],
+          "quote": "And so I think one of the ways that we actually have to use AI and agents is to help our brains be most effective, is to clear out distraction, to point out the most important things, to... And I think this is where people really need to make some tough decisions.",
+          "speaker": "SPEAKER_0"
         }
       ]
     },
     {
-      "id": "stripe",
-      "type": "company",
-      "role": "company",
-      "name": "Stripe",
-      "file": "Stripe",
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
       "primary": false,
-      "how_described": "主持人提到该公司的产品经理经常把公司作为一个整体业务去思考，以此作为建立资深产品视角的典型案例。",
+      "how_described": "嘉宾在谈及使用智能体时提到，由于 AI 会产生幻觉或失误，人类需要设定好护栏，明确指出在哪些需要人类独特品味和判断力的地方，AI 不能脱离控制“独自完成”。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 767,
+          "seg": 889,
           "t": [
-            3982.36,
-            3987.546
+            4778.07,
+            4780.231
           ],
-          "quote": "The epitome of this to me is Jeff Weinstein, I think is how you pronounce his last name, or Weinstein, at Stripe.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 768,
-          "t": [
-            3988.187,
-            3995.215
-          ],
-          "quote": "He's just like a PM on a product and he's just constantly tweeting and sharing Stripe as a business.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 769,
-          "t": [
-            3995.235,
-            4000
-          ],
-          "quote": "He's just thinking about Stripe as the company and then here's this thing I work on that helps the company.",
-          "speaker": "SPEAKER_1"
+          "quote": "But I also think the flip side of this is guardrails.",
+          "speaker": "SPEAKER_0"
         }
       ]
     },
     {
-      "id": "atlassian",
-      "type": "company",
-      "role": "company",
-      "name": "Atlassian",
-      "file": "Atlassian",
-      "primary": false,
-      "how_described": "本集提到嘉宾曾经的上级 Tamar Yehoshua 现在是这家公司的 CPO 和 AI 负责人。",
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合度 (product market fit)",
+      "file": "产品市场契合度",
+      "primary": true,
+      "how_described": "本集指出，随着执行层面的难度大幅下降，人们将更容易通过测试迭代获得产品市场契合度的早期信号，但这也让决定什么东西值得大规模推进变得更为关键。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 90,
+          "seg": 551,
           "t": [
-            399.46,
-            404.883
+            2767.04,
+            2772.622
           ],
-          "quote": "Who's been on the podcast, and is now a CPO and head of AI at Atlassian.",
+          "quote": "My podcast guest and I love talking about craft and taste and agency and product market fit.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 815,
+          "t": [
+            4295.327,
+            4316.417
+          ],
+          "quote": "And I actually think it's just so incredibly exciting because PMs and other functions, engineers, designers are so empowered to bring that first version to bear to get that momentum, to get that signal on product market fit, on user benefit, and then build momentum from that point in a much faster cycle.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 885,
+          "t": [
+            4752.378,
+            4755.178
+          ],
+          "quote": "What do I believe about product market fit?",
           "speaker": "SPEAKER_0"
         }
       ]
     }
   ],
-  "rejected": []
+  "rejected": [
+    {
+      "name": "prompt",
+      "reason": "专名「prompt」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
 }

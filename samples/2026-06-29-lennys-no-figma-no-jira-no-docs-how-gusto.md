@@ -1,31 +1,31 @@
 ---
-title: "No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)"
+title: "Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品"
 podcast: "Lenny's Podcast"
 date: 2026-06-29
 source_url: https://www.lennysnewsletter.com/p/no-figma-no-jira-no-docs-how-gusto
 duration: "51:49"
 host: "[[Claire Vo]]"
 cohosts: ["[[Eddie Kim]]"]
-companies: ["[[Gusto]]", "[[Cloudflare Worker]]", "[[Vercel AI SDK]]"]
-concepts: ["[[联合创始人]]", "[[vibe code]]", "[[垃圾桶法]]", "[[拉取请求]]", "[[功能开关]]", "[[智能体]]", "[[智能体循环]]", "[[Cloud Code]]", "[[永久 Zoom]]"]
+companies: ["[[Gusto]]"]
+concepts: ["[[联合创始人]]", "[[vibe coding]]", "[[永久 Zoom]]", "[[智能体]]", "[[垃圾桶法]]", "[[Cloudflare Worker]]", "[[Vercel AI SDK]]", "[[Claude Code]]"]
 tags:
-  - AI 时代软件开发
-  - 智能体
-  - 极简架构
-  - 代码成本归零
-  - 凭感觉编程
+  - AI 产品开发
+  - 直觉编程
+  - 极简技术栈
+  - 高管下场
+  - 无文档工作法
 ---
 
-# No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)
+# Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品
 
 > [!info] 关联
 > **主持**:[[Claire Vo]]
 >
 > **联合主持**:[[Eddie Kim]]
 >
-> **涉及公司**:[[Gusto]] · [[Cloudflare Worker]] · [[Vercel AI SDK]]
+> **涉及公司**:[[Gusto]]
 >
-> **概念**:[[联合创始人]] · [[vibe code]] · [[垃圾桶法]] · [[拉取请求]] · [[功能开关]] · [[智能体]] · [[智能体循环]] · [[Cloud Code]] · [[永久 Zoom]]
+> **概念**:[[联合创始人]] · [[vibe coding]] · [[永久 Zoom]] · [[智能体]] · [[垃圾桶法]] · [[Cloudflare Worker]] · [[Vercel AI SDK]] · [[Claude Code]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/no-figma-no-jira-no-docs-how-gusto)
 
@@ -35,105 +35,116 @@ tags:
 
 ## 一句话 TLDR
 
-Gusto 五人团队用 AI 十周从零造出智能体产品,展示了一种全新的极简、高速开发模式。
+大公司 CTO 用无文档、无会议、无 PM 的极简流程带 5 人团队开发新 AI 产品。
 
-本集讲述了一个极具启发性的 AI 时代软件开发故事。[[Gusto|Gusto]] 是一家拥有超过一千名研发员工的大型企业,但其 CTO 兼联合创始人 [[Eddie Kim|Eddie Kim]] 带领一个仅由五人组成的小团队,在 10 周内从零开始构建并发布了一款全新的[[智能体|智能体]]产品「[[联合创始人|Co-Founder]]」。本期访谈拆解了他们颠覆传统的开发流程、背后的技术架构,以及 AI 如何重塑了团队的角色边界。
+本集嘉宾是 [[Eddie Kim|Eddie Kim]],[[Gusto|Gusto]] 的 CTO 兼联合创始人。他在这家公司带领着上千人的研发团队,但他这次来分享的,是一个完全跳出常规管理框架的故事:他如何凭着一次航班延误时的直觉编程(指完全凭借人的直觉和感觉引导 AI 写代码,而不做细致规划),带着 4 个工程师和 1 个设计师,在短短 10 周内从零打造出了一条全新的 AI 产品线。整个对话将围绕这条主线展开:先看这套反常规的工作法(无文档、无会议、[[永久 Zoom|永久 Zoom]]),再听他们砍掉了哪些繁文缛节,接着剖析背后的极简技术栈,最后探讨这种模式对大团队和领导者的启发。
 
-### 诞生于航班延误的「凭感觉编程」(Vibe Code)
-故事的起点极具戏剧性。二月,Eddie 在度假返程途中因航班延误,意外在伦敦有了一段五小时的转机候机时间 [05:32 Eddie Kim]。作为一名技术领导者,他当时正在尝试使用 [[Cloud Code|Cloud Code]](一种 AI 编程工具),偶尔会在周末凭借直觉快速编写代码原型。在这无聊的五小时里,他打开电脑,用 Cloud Code 把脑海中酝酿已久的想法变成了一个原型。当他落地旧金山时,这个最终演变为 Gusto Co-Founder 的雏形诞生了 [06:31 Eddie Kim]。主持人 [[Claire Vo|Claire Vo]] 笑称,她经常听到创业者们在长假或育儿假中,一手抱娃一手用 AI 编程并做出惊人成果的故事;她预测,给员工大段不被打扰的连续时间,将成为推进产品的重要方式 [07:26 Claire Vo]。
+### 灵感与起点:航班延误催生的原型
 
-### 推翻一切繁文缛节:Zoom 与白板足矣
-带回原型后,Eddie 没有启动常规的立项流程,而是找了几个经常交流的资深工程师和一位名叫 Katie 的设计师,在一个预定好的会议室里对着白板讨论 [09:39 Eddie Kim]。这块白板画着粗糙的线框图,列出了「任务」、「资产」等核心概念——这竟然成了整个 10 周开发周期里**唯一**的文档。当有人风闻这个项目来索取文档时,Eddie 会直接回答:「我们没有任何文档」[11:19 Eddie Kim]。
+故事始于二月份的一次度假返程。Eddie 从马德里飞回旧金山时,在伦敦转机航班延误,意外获得了一段长达五小时的机场停留时间 [05:32 Eddie Kim]。他当时正在把玩 Cloud Code,于是掏出电脑,试图把脑海里酝酿已久的一个产品想法具象化。等他落地旧金山时,这个最终演变为 Gusto [[联合创始人|Co-Founder]](联合创始人版,一款 AI [[智能体|智能体]]助手)的产品原型已经初步成型 [06:31 Eddie Kim]。
 
-这个团队砍掉了几乎所有传统研发的标配:没有会议、没有技术规格文档、没有 Figma(一种设计软件)、没有用来追踪故事的 JIRA 看板、没有站会,也没有回顾会 [10:10 Eddie Kim]。他们唯一保留的结构化工具,是一个 **24 小时开着的[[永久 Zoom|永久 Zoom]](Perma-zoom)** 房间。因为大家都是远程工作,有人会整天泡在里面安静地写代码,需要讨论时随时开口 [10:31 Eddie Kim]。
+拿着这个原型,他找到了几位经常交流的资深工程师和设计师 Katie,简单碰头后,他们决定在一个名为 Anchor Week 的季度内部聚会(在丹佛办公室)上,用一块白板把产品形态画出来 [09:33 Eddie Kim]。有意思的是,如今上线的 Co-Founder 产品的核心概念,竟然与当时白板上的潦草涂鸦惊人地一致——包括任务、任务运行产生的图表和文档资产,以及聊天和建议任务等功能 [12:22 Eddie Kim]。
 
-### 「垃圾桶法」:代码成本归零带来的自由
-由于团队里没有头衔为「产品经理(PM)」的人,所有的产品决策都由团队成员共同完成 [13:27 Eddie Kim]。他们的工作流极其直接:用 Cloud Code 写一个功能,提交一个准备好供人类审查的[[拉取请求|拉取请求]](PR,用于向主项目提交代码修改的机制),然后在永久 Zoom 里讨论「这个功能到底有没有意义?」[14:00 Eddie Kim]。如果答案是肯定的,当场进行代码审查;如果大家觉得不需要,**就毫不犹豫地直接删掉这个已经写好的 PR**。
+> 【背景】Gusto 是一家主打薪资发放和人力资源服务的知名科技公司。在本集提到的 Co-Founder 是他们新推出的 AI 助手产品。
 
-这种做法催生了主持人所称的「[[垃圾桶法|垃圾桶法]]」[01:00 Claire Vo]。过去,写代码成本很高,丢弃代码令人心痛;但如今代码成本极低,你甚至可以开启一个 V2 分支从零重建,这在当下是完全合理的。
+### 颠覆常规:无文档、无会议,只留一个 24 小时 Zoom
 
-Eddie 分享了一段切身体会:当工程师建议把他的原型推倒重写时,他起初很抗拒,觉得那是自己的心血。但他最终选择信任团队,删掉原代码从零开始。事后证明这是最正确的决定,而他现在对丢弃代码已经完全习以为常 [15:48 Eddie Kim]。
+白板画完后,真正的开发过程更是颠覆了传统大公司的做法。Eddie 团队最大的特点是由「他们没做的事」来定义的:没有会议、没有技术规格文档、没有 Figma 设计稿、没有用来追踪进度的 Jira 看板,甚至连每日站会和复盘会都没有 [10:10 Eddie Kim]。整个 10 周期间,他们产出的唯一文档就是那张白板的照片。
 
-> 【背景】拉取请求(PR,Pull Request)是软件开发中的一种协作机制:开发者写好代码后发起 PR,其他团队成员可以在合并前对代码进行审查和讨论。
+他们唯一保留的协作机制,是一个 24 小时全天候开着的永久 Zoom(一个随时保持开启的 Zoom 视频会议室) [10:27 Eddie Kim]。大家远程办公,谁有需要就进去找人,或者干脆在里面待一天安静写代码。由于没有项目经理的角色,团队五个人人人都是 PM。他们的决策方式极其干脆:写完一个功能,丢到永久 Zoom 里讨论,有意义就当场代码审查并合并,没意义就直接删掉 [13:27 Eddie Kim]。
 
-### 极简技术栈与「雕塑式」开发
-作为面向大众的智能体产品,Co-Founder 的技术栈简单得令人惊讶。它仅仅构建在 [[Cloudflare Worker|Cloudflare Worker]] 和 [[Vercel AI SDK|Vercel AI SDK]] 之上,没有使用复杂的第三方记忆或规划框架。Eddie 指出,对他们来说,所谓的「记忆」只是一个向数据库「记忆」列写入数据的工具。过去那种复杂的[[智能体循环|智能体循环]]栈,现在已经不需要了 [18:26 Eddie Kim]。
+这种做法的底层逻辑是:写代码的成本已经低到可以忽略不计。主持人 [[Claire Vo|Claire Vo]] 将其称为「[[垃圾桶法|垃圾桶法]]」——如果你觉得一段功能代码写得不对,甚至不用费劲去修补,直接全删掉、另起一个 V2 分支从头再来,在商业成本上也完全划得来 [14:50 Claire Vo]。Eddie 分享了一个真实案例:他最初在机场写出的原型其实是他的心血,但当工程师建议用 TypeScript 重写时,他虽然不舍,还是同意删掉自己的代码从头开始,事后证明这是最正确的决定 [15:43 Eddie Kim]。
 
-在具体的开发过程中,他们采用了一种「雕塑法」。设计师 Katie 会先做出一个带有假响应的纯前端体验,通过[[功能开关|功能标志]](Feature flag,允许在不完全发布的情况下控制功能可见性的技术手段)发布到生产环境。随后,工程师在后台并行构建数据模型和真实的智能体循环。前端不变,原本的假数据会慢慢被真实的运算结果替换 [20:16 Eddie Kim]。这就像是从一块大理石开始,边在生产环境中实地雕刻边将它变成艺术品 [19:54 Eddie Kim]。
+### 极简技术栈与就地雕刻法
 
-### 设计师变身高产工程师
-这个流程中最引人瞩目的,是设计师 Katie 的蜕变。她不仅做设计,还直接把前端代码写到了生产环境。根据他们使用的开发统计工具 DX 的数据,Katie 的真实代码吞吐量在整个一千人的研发组织中位列第 94 百分位,这意味着她击败了绝大多数受过专业训练的软件工程师 [22:45 Eddie Kim]。
+对于如何构建智能体产品,许多人觉得高深莫测,但 Eddie 团队的技术栈简单得令人咋舌:他们只用 [[Cloudflare Worker|Cloudflare Worker]](一种在云端运行的轻量级代码执行环境)来跑实际的智能体循环,再加上 [[Vercel AI SDK|Vercel AI SDK]](一套帮助快速搭建 AI 应用的工具包),仅此而已 [17:44 Eddie Kim]。Eddie 强调,以前大家觉得做 AI 需要复杂的记忆或规划框架,但对他们来说,所谓「记忆」不过就是一个往数据库里写数据的简单工具。复杂的脚手架已经不再需要了 [18:15 Eddie Kim]。
 
-Eddie 追问 Katie 成功的原因,得到两点结论:一是她本身就对技术充满好奇心;二是团队里有三四名工程师愿意花时间与她结对审查代码、教她如何更好地向 Claude 提示,以及判断什么是好代码 [23:29 Eddie Kim]。主持人强烈赞同这一点,她认为工程团队不应把非技术人员(如设计师或 PM)的提交视为累赘,而应像对待工程代码一样优先审查它们,这种文化投资会带来巨大的长期回报 [25:24 Claire Vo]。
+> 【背景】主持人 Claire Vo 提到 Anthropic 的 Claude Code(一款强大的命令行 AI 编程助手),并分享了她个人的提示词策略:当 AI 跑偏时,比起生硬命令,礼貌且留有余地的提示词能鼓励 AI 提出更好的反驳建议 [50:04 Eddie Kim]。
 
-### 用真实场景证明价值:复杂算薪也能自动化
-在演示环节,Eddie 展示了 Co-Founder 如何解决现实中的繁杂问题。他举了一家纽约按摩水疗中心的例子:这位老板过去每周必须从排班软件 MindBody 导出数据,手工录入到 Google 电子表格中,计算出热石按摩或 CBD 精油的提成奖金和小费分配,最后再手动输入到 Gusto 中运行发薪 [32:32 Eddie Kim]。
+在具体的产品打磨上,他们采用了一种「就地雕刻」的开发模式。设计师 Katie 会先用纯前端代码搭一个带有假数据的界面,并直接发布到真实的线上环境中(隐藏在功能开关后) [20:12 Eddie Kim]。随后,工程师在后台并行构建真实的数据模型和智能体循环。随着代码推进,原本写死的假数据会被逐渐替换成真实的业务响应。就像雕刻家对着一块大理石一点点凿出艺术品,他们是在线上的真实环境里,把一个粗糙的演示原型一点点「唤醒」成成熟的产品。
 
-> 【背景】MindBody 是一款常用于健身房、水疗中心等预约排班的软件。
+这种对生产环境的极度拥抱,带来了一种奇特的「设计师变开发者」现象。设计师 Katie 在这种模式下爆发出惊人的战斗力。据 Eddie 透露,在使用 DX(一款工程效率分析工具)统计的全公司代码合并吞吐量中,Katie 位居第 94 百分位——这意味着她超越了公司绝大多数受过专业训练的工程师 [22:45 Eddie Kim]。她的秘诀在于对技术的好奇心,以及一个极度包容的工程师团队:工程师们愿意花时间与她结对编程、审查她的代码,而不是抱怨「非技术人员写代码拖慢了进度」。团队甚至将非工程人员的 PR(拉取请求,提交代码修改的申请)审查时间中位数硬生生控制在了 9 分钟 [26:05 Eddie Kim]。
 
-而现在,借助 Co-Founder 的连接器(可对接 QuickBooks、Google Sheets、Notion 等),老板只需用大白话在自然语言中写明计算规则(例如「每次热石追加销售加 15 美元奖金」),智能体就会自己去读取电子表格、执行计算、更新薪资系统,并在最终提交前向用户确认 [34:10 Eddie Kim]。它还可以跨渠道运行:你可以直接通过发短信问「我有没有需要批准的休假请求?」,它便会代为执行操作 [31:01 Eddie Kim]。
+### 从 Demo 到落地:真实业务的打通
 
-### 给领导者的建议:亲自动手,写到生产环境
-访谈末尾,Eddie 给其他企业高管提出了强硬的建议:不要只停留在用 AI 做个原型来向团队炫耀,那会让你低估工程落地时的真实难度。高管们必须亲自下场,编写并合并真正经过审核的生产级代码 [45:35 Eddie Kim]。Eddie 自己在过去三个月里,其代码吞吐量甚至达到了全公司第 95 百分位 [46:40 Eddie Kim]。
+说完了开发模式,接下来看看他们到底做出了什么。在直播演示中,Eddie 展示了 Co-Founder 与传统 Gusto 软件(被戏称为 Gusto 经典版)的联动。它不仅拥有接入 Gusto 底层数据的智能体,更重要的是,它支持通过 SMS 短信或 Slack 直接与用户对话 [30:30 Eddie Kim]。这对于随时奔波在手机端的小企业主来说极具实用性。
 
-主持人对此深表赞同:「现在是时候让硬技能再次现身了,而不是仅仅依靠领导力和感召力。」如果不亲自花时间使用这些 AI 产品,就根本无法理解它的底层原语和用户体验边界,更别提制定什么 AI 产品战略了 [47:00 Claire Vo]。这一切的根本动力,来自于 Eddie 第一次自己动手搭建 OpenClaw 个人智能体的经历——正是那段艰难但震撼的实操体验,让他真切感受到了个人智能体的潜力与痛点,进而孵化出了 Co-Founder [47:55 Eddie Kim]。
+一个真实的客户案例是一家纽约的按摩水疗中心。老板每周需要从排班软件 MindBody 导出数据,手动在表格里计算每位按摩师 60 分钟与 90 分钟按摩的单量、热石疗法或 CBD 油的提成,还要把集中起来的小费拆算给每个人,最后再人工把这些结果录入 Gusto 发工资 [32:26 Eddie Kim]。Eddie 在 Co-Founder 中通过连接器接入了表格,只需用自然语言告诉 AI 提成规则(比如「每推销一次热石加 15 美元」),AI 就会自动拉取数据、完成计算、更新系统,并在最后一步征询确认后提交 payroll(薪资发放) [34:00 Eddie Kim]。这把繁琐的「前置工作」彻底自动化了。
 
-> 【背景】OpenClaw/OpenClaw 可能是对开源个人智能体项目 OpenHands 或类似产品的音译误转。Eddie 提到购买 Mac mini 且极难买到的细节,符合在本地部署大模型或智能体框架的典型特征。
+> 【背景】Eddie 提到他在做 Co-Founder 之前,曾受到 OpenClaw 的启发(这是一款需要自行部署本地硬件的开源个人智能体)。他发现这玩意儿虽然理念震撼,但购买硬件、自行配置的门槛极高。正是这种切身体验,促使他把 Co-Founder 做成全云端运行,并把短信变成了第一交互入口 [47:49 Eddie Kim]。
+
+### 领导者的觉悟:撸起袖子下场写生产代码
+
+模式跑通了,但这对于 Gusto 这样上千人的大团队意味着什么?Eddie 坦言,这种「无法无天」的做法之所以能成,很大程度上是因为他联合创始人的特殊身份——他有特权打破公司定下的规章制度。如果是普通团队敢跳过文档和设计稿,早就被警告了 [41:30 Eddie Kim]。因此,要在全公司推广,领导者不能仅仅口头授权,必须下达极其明确的指令:不仅允许大家用这种方式,甚至要明令禁止他们产出文档或 Figma。
+
+Claire 对此深表赞同,并提到了一个极端的管理实验:要求工程师删掉本地的 IDE(代码编辑器),或者规定工程师不许碰 AI 生成的代码,只能通过修改输入提示词来调整结果 [42:37 Claire Vo]。
+
+最后,对于高管和领导者,Eddie 给出了最核心的建议:不要只停留在拿 AI 做原型来给团队提需求的阶段,必须亲自下场,去合并真正经过审查的生产级代码。Eddie 自己在过去三个月里,一直保持在全公司工程产出排名的第 95 百分位。他要通过亲身走完开发的全流程,来证明自己不是在站着说话不腰疼 [46:20 Eddie Kim]。
+
+Claire 补充道,这是对所有高管的硬技能大考:在这个时代,如果不把所有时间花在亲自使用和构建 AI 产品上,就无法真正理解它的能力边界,所谓的「AI 产品战略」只能是纸上谈兵 [47:00 Claire Vo]。
+
+## 本集带走
+1. **代码成本归零重塑流程**:当写代码的成本降到极低时,传统的文档和排期管理可以被「垃圾桶法」取代(直接全删重写)。用 24 小时 Zoom 替代各种会议,让代码本身成为讨论的载体。
+2. **拥抱非工程人员的代码**:给非技术人员(如设计师)提供耐心审查其代码的工程文化,能释放出惊人的生产力,他们的产出效率甚至可能超过大部分职业工程师。
+3. **高管必须下场:沉浸式下场**。领导者不能只拿 AI 写 Demo,必须去亲自维护生产级代码。只有亲历从原型到上线的全部痛苦,才能制定出贴合现实的 AI 产品策略。
 
 ## 金句(中英对照 · 过机器闸门三联校验)
 
-> 我们没有会议,没有技术规格,没有 Figma,也没有用来追踪故事或追踪工作的 JIRA 看板。  
-> *We had no meetings, we had no tech specs, we had no figmas, we had no JIRA board where we tracked stories or tracked work.*  
-> —— Eddie Kim · [00:00] ^q1
+> 我们把一切都归零了。我们没有会议,没有技术规格,没有 Figma。我们没有用来追踪故事或工作的 Jira 看板。我们没有站会,没有回顾会。  
+> *just zeroed everything out we had no meetings we had no tech specs we had no figmas. we had no JIRA board where we track stories or tracked work. We had no stand-ups, no retros.*  
+> —— Eddie Kim · [10:08] ^q1
 
-> 而那个白板,我拍了一张照片,确实是我们在整个 10 周过程中产生的唯一文档。  
-> *And that whiteboard, which I took a photo of, was like literally the only documentation that we ever produced in this whole 10-week process.*  
-> —— Eddie Kim · [11:03] ^q2
+> 我认为你必须去这些团队并说,我们希望你们以这种方式工作,你们不做任何文档,不做 Figma,不做技术规格。  
+> *I think you actually have to go to these teams and say, we want you to work in this way, where you don't do any docs, no figmas, no tech specs.*  
+> —— Eddie Kim · [41:53] ^q2
 
-> 平均而言,你们工程团队的 PR 是否比非工程团队的 PR 得到更快的审查?全面的人都说是的,当然是。这是一个反模式,你需要优先审查这些非工程 PR,就像审查你们的工程 PR 一样高。  
+> 如果你真的写了文档或做了 Figma,你会受到警告,因为我们明确不希望你们做那个  
+> *if you actually produce a doc or figma like you will get a slap on the wrist because we explicitly don't want you to do that*  
+> —— Eddie Kim · [42:15] ^q3
+
+> 我认为如果你现在没有把所有时间都用来使用 AI 产品,就很难构建出优秀的 AI 产品。  
+> *I think it's very hard to build great AI products if you are not spending all your time using AI products right now.*  
+> —— Claire Vo · [47:24] ^q4
+
+> 即便这样,对于一家拥有上千名研发人员的公司来说,这也不是一笔大投资。我认为,只要有两三个这样的项目,就能有意义地改变企业的轨迹。  
+> *even that's not a big investment across a company of a thousand in R&D. You're going to have like two or three of those, I think, meaningfully change the trajectory of the business.*  
+> —— Eddie Kim · [36:17] ^q5
+
+> 平均而言,你们工程团队的 PR 是否比非工程团队的 PR 得到更快的审查?全面的人们都说是的,当然是。这是一个反模式,你需要优先审查这些非工程的 PR,就像你审查工程 PR 一样高  
 > *on average is your engineering teams PRS getting faster review than their non-engineering teams PRS and like across the board people are like yeah of course they are like that is an anti-pattern you need to prioritize reviewing these non-engineering PRS just as high as you do your engineering ones*  
-> —— Claire Vo · [25:24] ^q3
+> —— Claire Vo · [25:24] ^q6
 
-> 在产品开发过程中,你可以有大得多的野心,也能承受大得多的风险。  
-> *you can be a lot more ambitious and you can afford a lot more risk in your product development process.*  
-> —— Claire Vo · [36:02] ^q4
+> 你不要碰 agent 代码的输出。你只能碰输入。你只能重新提示。你不能重写代码。  
+> *you don't touch the outputs of agent code. You only get to touch the inputs. You only get to reprompt. You don't get to rewrite the code.*  
+> —— Claire Vo · [42:56] ^q7
 
-> 是时候让硬技能再次现身了,而不是领导力、感召力、对齐。  
-> *it's time for the hard skill to show up again, not leadership, inspiration, alignment.*  
-> —— Claire Vo · [47:03] ^q5
-
-> 如果你现在没有把你所有的时间都用来使用 AI 产品,就很难构建出优秀的 AI 产品。  
-> *It's very hard to build great AI products if you are not spending all your time using AI products right now.*  
-> —— Claire Vo · [47:24] ^q6
-
-> 我发现 AI 是如此顺从,它只是默认做你想做的事,但我实际上想要它挑战我。  
-> *I find that AI is so deferential and it just kind of like defaults to doing what you want to do but I actually want mind to challenge me*  
-> —— Eddie Kim · [50:04] ^q7
+> 这其实是一个很有趣的模型,也许文档是存在的,但它们是给智能体的,不是给人类的。  
+> *And that's actually a very interesting model where maybe docs exist, but they're for the agents, not for the humans.*  
+> —— Claire Vo · [44:15] ^q8
 
 ## 相关单集
 
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同概念:智能体 (agent)、OpenClaw
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《前 GitHub、现 Notion 产品负责人 Max:每个项目的前 10% 现在免费了》]] —— 同公司:Figma · 同概念:智能体循环 (agent loop)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的 AI 工作预测:智能体接管工作,但人类不会失业》]] —— 同概念:智能体 (agent)、OpenClaw
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:智能体 (agent)、OpenClaw
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同概念:Claude Code、智能体 (agent)、OpenClaw
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] —— 同概念:Claude Code、智能体 (agent)、OpenClaw
+- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:Claude Code、智能体 (agent)、OpenClaw
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同概念:Claude Code、智能体 (agent)
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同概念:Claude Code、智能体 (agent)
+- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] —— 同概念:智能体 (agent)、OpenClaw
+- [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同公司:DX · 同概念:智能体 (agent)
 - [[2025-11-23-lennys-a-guide-to-difficult-conversations|《别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课》]] —— 同概念:Co-Founder
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] —— 同概念:智能体 (agent)
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体替代 10 人销售团队：SaaStr 创始人的前沿实战》]] —— 同概念:智能体 (agent)
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同概念:智能体 (agent)
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值 150 亿的隐形 AI 公司 Applied Intuition:给自动驾驶卡车的焦虑开一剂务实药方》]] —— 同概念:智能体 (agent)
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别怪高管不懂你：产品经理的向上影响力心法》]] —— 同概念:智能体 (agent)
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被淘汰，构建者迎来黄金期》]] —— 同概念:智能体 (agent)
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel:在AI时代,做最会创新的公司》]] —— 同概念:智能体 (agent)
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验》]] —— 同概念:智能体 (agent)
+- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同概念:Claude Code
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] —— 同概念:智能体 (agent)
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同概念:智能体 (agent)
 - [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同概念:智能体 (agent)
-- [[2026-06-03-latent-space-satya-2026|《专访 Satya Nadella:智能体时代的平台逻辑与企业护城河》]] —— 同概念:智能体 (agent)
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人：别想从零颠覆世界，靠复制才能创新》]] —— 同概念:智能体 (agent)
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同概念:智能体 (agent)
-- [[2026-06-22-latent-space-gray-swan|《给 AI 智能体装上「安全带」:Gray Swan 的攻防实战》]] —— 同概念:智能体 (agent)
-- [[2026-06-24-latent-space-databricks|《Databricks 的智能体时代布局：统一调度、开源治理与数据库重写》]] —— 同概念:智能体 (agent)
-- [[2026-07-08-latent-space-modal|《AI 基础设施如何为智能体重新设计:Modal 联合创始人的方法》]] —— 同概念:智能体 (agent)
-- [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷》]] —— 同概念:功能标志 (feature flag)
-- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同公司:Figma
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《在指数级增长公司做增长：Anthropic 增长负责人的打法》]] —— 同概念:智能体 (agent)
+- [[2026-06-03-latent-space-satya-2026|《Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP》]] —— 同概念:智能体 (agent)
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同概念:智能体 (agent)
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] —— 同概念:智能体 (agent)
+- [[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]] —— 同概念:智能体 (agent)
+- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]] —— 同概念:vibe coding
+- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同概念:vibe coding
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同概念:智能体 (agent)
 
 ---
 

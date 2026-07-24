@@ -3,11 +3,11 @@
   "podcast": "Latent Space",
   "date": "2026-06-24",
   "tags": [
-    "智能体管控",
-    "数据库架构",
-    "开源生态",
-    "AI 基础设施",
-    "大厂竞争"
+    "智能体管理",
+    "开源托管底座",
+    "LTAP与存储统一",
+    "数据库引擎重写",
+    "AI与数据战略"
   ],
   "entities": [
     {
@@ -37,7 +37,7 @@
       "name": "Databricks",
       "file": "Databricks",
       "primary": true,
-      "how_described": "本集主要讨论的公司，以 Spark 起家。本集将其描述为聚焦于数据与 AI 的平台，目前正致力于统一智能体管理框架、统一数据库存储，并坚持开放数据格式，以与 Snowflake 竞争。",
+      "how_described": "本集主要受访公司，大数据与 AI 领域的头部企业，举办有 3 万人到场的 Data AI Summit。在 AI 时代坚持开放数据格式（从 Parquet 到 Delta、Iceberg），业务从数据上游起步延伸至分析领域，并致力于从零重写数据库引擎。",
       "source": "glm",
       "evidence": [
         {
@@ -202,7 +202,7 @@
       "name": "Snowflake",
       "file": "Snowflake",
       "primary": true,
-      "how_described": "本集将其描述为 Databricks 的核心竞争对手。双方都采用了存储与计算分离的云架构，但 Snowflake 早期坚持专有的封闭格式，试图锁定客户数据，最终在开放数据格式全面胜出的趋势下被迫改变立场。",
+      "how_described": "本集中被作为竞争对手提及。起步时走专有封闭路线，试图锁定高价值数据做极速查询；相比 Databricks 从数据上游做大规模式处理起步，Snowflake 当初认为管理好高价值数据即可。",
       "source": "glm",
       "evidence": [
         {
@@ -235,79 +235,13 @@
       ]
     },
     {
-      "id": "neon",
-      "type": "company",
-      "role": "company",
-      "name": "Neon",
-      "file": "Neon",
-      "primary": true,
-      "how_described": "本集提到该团队提供了存储与计算分离的无服务器 Postgres 架构，该架构每天能发起 1300 万个数据库，这种能力极大地改变了人们使用数据库的方式，并被大量用于智能体和分支实验。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 330,
-          "t": [
-            934.024,
-            939.112
-          ],
-          "quote": " One of the first people that told me about compute sandboxing was Nikita from Neon.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 331,
-          "t": [
-            939.733,
-            944.319
-          ],
-          "quote": "A lot of people think about Neon as serverless Postgres with the separation",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 343,
-          "t": [
-            984.652,
-            986.3186666666667
-          ],
-          "quote": "Whereas the Neon architecture,",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 369,
-          "t": [
-            1048.817,
-            1051.738
-          ],
-          "quote": "And on Neon, it's actually pretty interesting, too.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 745,
-          "t": [
-            2073.302,
-            2077.736
-          ],
-          "quote": "a lot of it came from the Neon team, which is a separation of storage from compute.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 748,
-          "t": [
-            2085.28,
-            2087.941
-          ],
-          "quote": "In the Neon architecture and in lake-based architecture,",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
       "id": "mosaicml",
       "type": "company",
       "role": "company",
       "name": "MosaicML",
       "file": "MosaicML",
       "primary": true,
-      "how_described": "本集提到 Databricks 收购了这家以开源大模型闻名的公司。但 Databricks 后来决定不盲目拼算力做通用大模型，而是将重点转向如何让模型变得有用，例如利用其训练栈来扩展针对特定高并发场景的专用模型。",
+      "how_described": "被 Databricks 收购的团队，早期发布了知名的开源通用大模型。被收购后，Databricks 决定不再让其在烧钱的通用大模型上死磕，而是转作专门领域的小模型（如文档视觉模型）。",
       "source": "glm",
       "evidence": [
         {
@@ -367,13 +301,79 @@
       ]
     },
     {
+      "id": "neon",
+      "type": "company",
+      "role": "company",
+      "name": "Neon",
+      "file": "Neon",
+      "primary": true,
+      "how_described": "本集提及其为提供无服务器 Postgres 的公司，采用计算与存储分离架构，每天发起 1300 万个数据库。其架构启发了 Databricks 的沙箱与 LTAP 存储，区别在于 Neon 不需要持久化的本地磁盘，而编程沙箱需要本地状态持久化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 330,
+          "t": [
+            934.024,
+            939.112
+          ],
+          "quote": " One of the first people that told me about compute sandboxing was Nikita from Neon.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 331,
+          "t": [
+            939.733,
+            944.319
+          ],
+          "quote": "A lot of people think about Neon as serverless Postgres with the separation",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 343,
+          "t": [
+            984.652,
+            986.3186666666667
+          ],
+          "quote": "Whereas the Neon architecture,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1048.817,
+            1051.738
+          ],
+          "quote": "And on Neon, it's actually pretty interesting, too.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 745,
+          "t": [
+            2073.302,
+            2077.736
+          ],
+          "quote": "a lot of it came from the Neon team, which is a separation of storage from compute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 748,
+          "t": [
+            2085.28,
+            2087.941
+          ],
+          "quote": "In the Neon architecture and in lake-based architecture,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
       "id": "omnigen",
       "type": "concept",
       "role": "concept",
       "name": "Omnigen",
       "file": "Omnigen",
       "primary": true,
-      "how_described": "本集将其描述为 Databricks 推出的开源智能体框架。它旨在提供统一的通用 API、安全的云沙箱运行环境，并通过追踪操作历史和预算花费的「上下文策略」来实现企业级的智能体安全管控。",
+      "how_described": "Databricks 新推出的开源编程智能体管理底座，提供统一 API 支持云端代码、终端等不同运行环境与框架。其核心亮点是引入“上下文策略”动态拦截高危操作（如读机密文档+发公网），并支持为智能体设定开销预算。",
       "source": "glm",
       "evidence": [
         {
@@ -406,13 +406,229 @@
       ]
     },
     {
+      "id": "ltap",
+      "type": "concept",
+      "role": "concept",
+      "name": "LTAP",
+      "file": "LTAP",
+      "primary": true,
+      "how_described": "Databricks 提出的 HTAP 替代方案：不合并查询引擎，而是统一存储层。让交易数据库在底层闲置 CPU 上直接将行数据转码为列式格式写入开放数据湖，从而让分析引擎无管道、零延迟直接读取，彻底消灭脆弱的 CDC 数据管道。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            104.935,
+            105.935
+          ],
+          "quote": "LTAP, your baby.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 603,
+          "t": [
+            1660.631,
+            1666.215
+          ],
+          "quote": "If you want to tell the story of, you know, LTAP.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 608,
+          "t": [
+            1673.721,
+            1676.443
+          ],
+          "quote": "The LTAP idea is actually pretty simple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 690,
+          "t": [
+            1915.671,
+            1919.953
+          ],
+          "quote": "And our whole idea of LTAP is kind of obviously a wordplay on the term HTAP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 737,
+          "t": [
+            2056.386,
+            2058.269
+          ],
+          "quote": "but it wasn't as clear as LTAP.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 747,
+          "t": [
+            2080.969,
+            2084.352
+          ],
+          "quote": "going from that to this LTAP idea, which is, hey, we just...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1134,
+          "t": [
+            3087.766,
+            3090.6548888888888
+          ],
+          "quote": "You know, if everything becomes LTAP, like what's...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1135,
+          "t": [
+            3091.427,
+            3097.029
+          ],
+          "quote": "I think the thesis of LTAP is we're not collapsing the databases at the actual query layer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1267,
+          "t": [
+            3488.025,
+            3493.172
+          ],
+          "quote": "And it seems like you're going towards more of the LTAP and the harness stuff.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "htap",
+      "type": "concept",
+      "role": "concept",
+      "name": "HTAP",
+      "file": "HTAP",
+      "primary": true,
+      "how_described": "行业过去十年的“圣杯”设想：试图构建单一数据库引擎同时处理交易和分析。本集指出这种妥协往往导致两边都做不好，既缺乏专有生态系统，性能也无法两头兼顾，因此才催生了只统一存储的 LTAP 方案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 606,
+          "t": [
+            1670.679,
+            1672.92
+          ],
+          "quote": "about single store, HTAP, and all that history.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 609,
+          "t": [
+            1676.523,
+            1682.568
+          ],
+          "quote": "So if people have heard of the Ankur's talk about HTAP, it's effectively the world of databases.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 690,
+          "t": [
+            1915.671,
+            1919.953
+          ],
+          "quote": "And our whole idea of LTAP is kind of obviously a wordplay on the term HTAP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 691,
+          "t": [
+            1920.294,
+            1922.125
+          ],
+          "quote": "It's that we think this is HTAP done, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 692,
+          "t": [
+            1922.175,
+            1925.177
+          ],
+          "quote": "HTAP wants to build a single engine for both.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 717,
+          "t": [
+            1996.421,
+            2001.864
+          ],
+          "quote": "It gets you basically almost all of the benefits of the HTAP holy grail,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1139,
+          "t": [
+            3104.985,
+            3108.586
+          ],
+          "quote": " the query layer into a single htap style database.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dream-engine",
+      "type": "concept",
+      "role": "concept",
+      "name": "Dream Engine",
+      "file": "Dream Engine",
+      "primary": true,
+      "how_described": "Databricks 团队正在从零重写的全新数据库引擎。为避开“第二系统综合征”，他们建立了一座基于十年海量真实运行轨迹训练机器学习模型的“数据库工厂”，借此极高保真地预测和动态调度最适合特定数据的算法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            106.137,
+            107.137
+          ],
+          "quote": "Your dream engine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 602,
+          "t": [
+            1654.866,
+            1660.11
+          ],
+          "quote": " Okay, well, and then the other big thing is your dream engine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 951,
+          "t": [
+            2622.162,
+            2626.823
+          ],
+          "quote": "Okay, so and then I wanted to actually build out the sort of Dream Engine vision.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1005,
+          "t": [
+            2757.215,
+            2759.245
+          ],
+          "quote": "hey, maybe we'll just call it Reynolds Dream Engine.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
       "id": "agent",
       "type": "concept",
       "role": "concept",
       "name": "智能体 (agent)",
       "file": "智能体",
       "primary": true,
-      "how_described": "本集的核心主线概念。被描述为需要稳定的云沙箱来持续运行，且在企业落地时面临巨大的安全与预算管控挑战；同时，如果让智能体能直接查询底层的业务数据库，它的能力会变得十倍强大。",
+      "how_described": "本集核心主线之一。涵盖编程智能体和数据科学智能体（如 Genie），讨论了它们的本地与云端运行痛点、团队协作需求、花费预算限制，以及如何赋能其直接连入数据库同时理解业务日志与订单数据排查问题。",
       "source": "glm",
       "evidence": [
         {
@@ -634,33 +850,15 @@
       ]
     },
     {
-      "id": "sandbox",
+      "id": "cloud-sandbox",
       "type": "concept",
       "role": "concept",
-      "name": "沙箱 (sandbox)",
-      "file": "沙箱",
+      "name": "云沙箱 (cloud sandbox)",
+      "file": "云沙箱",
       "primary": true,
-      "how_described": "本集将其描述为为编程智能体提供安全、持续运行的隔离云环境。嘉宾极力主张需要一个「真正不关机的云沙箱」，以摆脱必须保持本地笔记本在线才能维持任务运行的「编程黑暗时代」。",
+      "how_described": "Databricks 为编程智能体打造的云端环境，具备不会断线的持久化特性。能提供打开终端、列出文件、渲染 Markdown 等功能，彻底摆脱对单一编辑器或本地电脑死守的依赖，且便于安全团队管控。",
       "source": "glm",
       "evidence": [
-        {
-          "seg": 137,
-          "t": [
-            409.586,
-            412.858
-          ],
-          "quote": "The thing you were working on was the sandbox or was this before that?",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 138,
-          "t": [
-            412.908,
-            414.609
-          ],
-          "quote": "It was a sandbox.",
-          "speaker": "SPEAKER_00"
-        },
         {
           "seg": 261,
           "t": [
@@ -669,164 +867,284 @@
           ],
           "quote": "So this can launch a cloud sandbox and run your agent in there,",
           "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "contextual-policies",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文策略 (contextual policies)",
+      "file": "上下文策略",
+      "primary": true,
+      "how_described": "针对安全权限“非黑即白”的痛点提出的动态规则。根据智能体会话的实时状态和历史记录（如刚装可疑包或读了一千份机密文档）来动态决定是否放行，使智能体既更有用又更安全。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 406,
+          "t": [
+            1155.192,
+            1160.941
+          ],
+          "quote": "So the thing we decided we need is stateful or what we call contextual policies",
+          "speaker": "SPEAKER_01"
         },
         {
-          "seg": 333,
+          "seg": 513,
           "t": [
-            946.803,
-            947.583
+            1439.202,
+            1443.105
           ],
-          "quote": "So our sandbox solution,",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 350,
-          "t": [
-            995.553,
-            998.515
-          ],
-          "quote": " Yeah, so this is when you run like a coding sandbox.",
+          "quote": "Just look in the docs on contextual policies if you want to see.",
           "speaker": "SPEAKER_01"
         }
       ]
     },
     {
-      "id": "ltap",
+      "id": "cdc",
       "type": "concept",
       "role": "concept",
-      "name": "LTAP",
-      "file": "LTAP",
+      "name": "CDC",
+      "file": "CDC",
       "primary": true,
-      "how_described": "本集将其描述为旨在解决分析数据实时性、且修正了 HTAP 缺陷的新架构。它不合并查询层，而是统一存储层：利用存储集群空闲的 CPU 将行数据实时转码为列式数据，实现分析端零延迟读取。",
+      "how_described": "将数据从交易库抽取到分析系统的行业标配。本集吐槽其极度脆弱，一旦交易库改表结构整个管道就会崩溃（被戏称为“持续数据损坏”），工程师常常半夜三点爬起来修管道。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 47,
+          "seg": 644,
           "t": [
-            104.935,
-            105.935
+            1791.635,
+            1793.596
           ],
-          "quote": "LTAP, your baby.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 603,
-          "t": [
-            1660.631,
-            1666.215
-          ],
-          "quote": "If you want to tell the story of, you know, LTAP.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 608,
-          "t": [
-            1673.721,
-            1676.443
-          ],
-          "quote": "The LTAP idea is actually pretty simple.",
+          "quote": "And there's this term called CDC.",
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 690,
+          "seg": 655,
           "t": [
-            1915.671,
-            1919.953
+            1823.146,
+            1827.169
           ],
-          "quote": "And our whole idea of LTAP is kind of obviously a wordplay on the term HTAP.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 737,
-          "t": [
-            2056.386,
-            2058.269
-          ],
-          "quote": "but it wasn't as clear as LTAP.",
+          "quote": "My explanation is Airbyte became a $5 billion company just doing CDC.",
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 747,
+          "seg": 657,
           "t": [
-            2080.969,
-            2084.352
+            1830.211,
+            1832.453
           ],
-          "quote": "going from that to this LTAP idea, which is, hey, we just...",
+          "quote": "CDC is one of the most boring,",
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 1134,
+          "seg": 662,
           "t": [
-            3087.766,
-            3090.6548888888888
+            1846.904,
+            1849.616
           ],
-          "quote": "You know, if everything becomes LTAP, like what's...",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 1135,
-          "t": [
-            3091.427,
-            3097.029
-          ],
-          "quote": "I think the thesis of LTAP is we're not collapsing the databases at the actual query layer.",
+          "quote": "the CDC pipeline fails to handle the schema change.",
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 1267,
+          "seg": 669,
           "t": [
-            3488.025,
-            3493.172
+            1858.823,
+            1861.785
           ],
-          "quote": "And it seems like you're going towards more of the LTAP and the harness stuff.",
-          "speaker": "SPEAKER_02"
+          "quote": "I asked the audience, put up their hand if they love their CDC pipeline.",
+          "speaker": "SPEAKER_00"
         }
       ]
     },
     {
-      "id": "dream-engine",
+      "id": "second-system-syndrome",
       "type": "concept",
       "role": "concept",
-      "name": "Dream Engine",
-      "file": "Dream Engine",
+      "name": "第二系统综合征 (second system syndrome)",
+      "file": "第二系统综合征",
       "primary": true,
-      "how_described": "本集将其描述为 Databricks 正在进行的从头重写数据库查询引擎的项目。为避免重写失败，他们建造了一个工厂，用十年来积累的海量运行追踪数据训练机器学习模型，以此高保真地指导底层算法选型。",
+      "how_described": "软件开发领域的经典陷阱：开发者在重写第二个系统时往往好大喜功，塞入过多完美主义需求，导致永远无法发布而失败。重写数据库引擎时极力试图避免此陷阱。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 48,
+          "seg": 980,
           "t": [
-            106.137,
-            107.137
+            2706.632,
+            2708.783
           ],
-          "quote": "Your dream engine.",
+          "quote": "There's a thing called a second system syndrome.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spark",
+      "type": "concept",
+      "role": "concept",
+      "name": "Spark",
+      "file": "Spark",
+      "primary": true,
+      "how_described": "嘉宾过往主导的知名分布式计算框架，强调库的可组合性与生态开放。Databricks 此次开源智能体底座 Omnigen 正是沿袭了当年 Spark 开源带动网络效应、众人贡献连接器的哲学。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            19.669,
+            23.353
+          ],
+          "quote": "Yeah, we do these tutorials and just teach people Spark.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            603.614,
+            605.5260000000001
+          ],
+          "quote": "I mean, this goes back to Spark, right?",
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 602,
+          "seg": 216,
           "t": [
-            1654.866,
-            1660.11
+            619.793,
+            620.793
           ],
-          "quote": " Okay, well, and then the other big thing is your dream engine.",
+          "quote": "with Spark,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 218,
+          "t": [
+            621.996,
+            626.262
+          ],
+          "quote": "when Spark came out, we also focused a lot on letting you have libraries",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 540,
+          "t": [
+            1503.33,
+            1506.681
+          ],
+          "quote": "probably very similar to how you did Spark, which is you could just start using.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 544,
+          "t": [
+            1514.703,
+            1515.845
+          ],
+          "quote": "But in Spark,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 682,
+          "t": [
+            1895.97,
+            1897.831
+          ],
+          "quote": "And Spark, for example, has a massive ecosystem.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1142,
+          "t": [
+            3116.248,
+            3119.1989999999996
+          ],
+          "quote": "about instead worrying about PostgreSQL and maybe Spark SQL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1145,
+          "t": [
+            3122.69,
+            3127.072
+          ],
+          "quote": "Agents are very eloquent in PostgreSQL or Spark SQL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1191,
+          "t": [
+            3267.434,
+            3271.037
+          ],
+          "quote": "We do that very large-scale stuff because that's what Spark was for,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "genie",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据科学智能体 (Genie)",
+      "file": "数据科学智能体",
+      "primary": false,
+      "how_described": "Databricks 内部打造的第一方数据科学智能体，被描述为一位对公司所有数据与机器学习库了如指掌的“虚拟数据科学家”，用户可以直接向其提问查询数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            108.2,
+            111.36666666666667
+          ],
+          "quote": " You're also going to cover Genie, cover Customer League.",
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 951,
+          "seg": 69,
           "t": [
-            2622.162,
-            2626.823
+            189.088,
+            193.634
           ],
-          "quote": "Okay, so and then I wanted to actually build out the sort of Dream Engine vision.",
-          "speaker": "SPEAKER_02"
+          "quote": " data science agent called Genie on the research team, which I co-lead.",
+          "speaker": "SPEAKER_01"
         },
         {
-          "seg": 1005,
+          "seg": 1297,
           "t": [
-            2757.215,
-            2759.245
+            3565.538,
+            3568.662
           ],
-          "quote": "hey, maybe we'll just call it Reynolds Dream Engine.",
+          "quote": "That's the first party agents we have called Genie.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "column-oriented-format",
+      "type": "concept",
+      "role": "concept",
+      "name": "列式格式 (column-oriented format)",
+      "file": "列式格式",
+      "primary": false,
+      "how_described": "适合数据分析的数据组织形式。在 LTAP 架构中，交易系统利用闲置 CPU 将行数据转码为列式格式（如 Parquet）写入数据湖，因为列式压缩效果更好，写入 S3 等对象存储反而更快。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 696,
+          "t": [
+            1935.122,
+            1939.125
+          ],
+          "quote": "if your Postgres databases are writing data in a column oriented format,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 753,
+          "t": [
+            2097.565,
+            2101.337
+          ],
+          "quote": "hey, can we actually just change that to write in column-oriented format?",
           "speaker": "SPEAKER_00"
         }
       ]
@@ -837,8 +1155,8 @@
       "role": "concept",
       "name": "开放数据格式 (open data format)",
       "file": "开放数据格式",
-      "primary": true,
-      "how_described": "本集将其描述为已经全面胜出的不可逆行业共识。从 Parquet 演进到 Delta 和 Iceberg，这种开放策略是拥有 30 年历史的企业 CTO 避免被单一厂商锁定的首要考量，也是 Databricks 押注成功的底座。",
+      "primary": false,
+      "how_described": "Databricks 从第一天起就坚持的数据底座策略（如 Parquet, Delta）。嘉宾指出封闭格式已被时代抛弃，如今每家企业都渴望开放，因为这让他们免于被供应商锁定，能随意把数据接走。",
       "source": "glm",
       "evidence": [
         {
@@ -858,6 +1176,108 @@
           ],
           "quote": "Like I think now every enterprise wants to put data in open data format.",
           "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "fine-tuning",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine tuning)",
+      "file": "微调",
+      "primary": false,
+      "how_described": "Databricks 提供的一项服务。随着基础模型变聪明以及合成数据生成能力提升，模型微调（如 RL 微调）的门槛正在降低，变得愈发容易，使得专做特定领域的小模型比烧钱做大模型更有价值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1264,
+          "t": [
+            3479.352,
+            3481.054
+          ],
+          "quote": " It's like, OK, well, we're going to do fine tuning.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1433,
+          "t": [
+            3917.398,
+            3924.168
+          ],
+          "quote": " Yeah, we do have, we're doing like RL fine tuning as a service and with a bunch of customers.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "document-vision-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "文档视觉模型 (document vision model)",
+      "file": "文档视觉模型",
+      "primary": false,
+      "how_described": "Databricks 团队打造的专门用于解析文档的特定领域小模型。能将 PDF 或 Word 转成结构化 JSON，比使用前沿大模型准确度更高，且成本便宜了约 100 倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1329,
+          "t": [
+            3644.874,
+            3650.362
+          ],
+          "quote": " document vision model that takes a page and gives you back a nice JSON with all the components.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": false,
+      "how_described": "本集提及的一款容器管理系统。开源项目 Omnigen 周六发布后，周一就收到大量合并请求，其中就有开源社区贡献者快速为其添加了在 Kubernetes 上运行的支持。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 259,
+          "t": [
+            728.503,
+            730.384
+          ],
+          "quote": " running it on Kubernetes.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "delta-lake",
+      "type": "concept",
+      "role": "concept",
+      "name": "Delta Lake",
+      "file": "Delta Lake",
+      "primary": false,
+      "how_described": "Databricks 在公司早期增加的存储层事务能力，是基于开放格式的存储底座。在与大客户的紧密合作打磨中诞生，是公司构建统一化数据栈产品的一环。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 827,
+          "t": [
+            2297.217,
+            2298.839
+          ],
+          "quote": " We added storage with Delta Lake.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 863,
+          "t": [
+            2381.857,
+            2386.524
+          ],
+          "quote": "Well, very early in the company, there was like Delta Lake, which is the trans",
+          "speaker": "SPEAKER_01"
         }
       ]
     }

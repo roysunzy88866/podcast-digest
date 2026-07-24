@@ -6,7 +6,7 @@ entity_type: 概念
 # 托管型 Kubernetes (managed Kubernetes)
 
 > [!info] 概念
-> 出现在 1 集 · 金句 1 条 · 关联 8 个
+> 出现在 1 集 · 金句 1 条 · 关联 9 个
 
 ## 集里怎么说它
 
@@ -14,7 +14,7 @@ entity_type: 概念
 
 ## 金句
 
-![[2026-07-08-latent-space-modal#^q1]]
+![[2026-07-08-latent-space-modal#^q2]]
 
 ## 出现在这些集
 
@@ -22,4 +22,4 @@ entity_type: 概念
 
 ## 关联实体
 
-[[Ivan Burazin]] · [[Daytona]] · [[Neon]] · [[智能体]] · [[沙箱]] · [[突发负载]] · [[裸金属]] · [[计算机使用]]
+[[Ivan Burazin]] · [[Daytona]] · [[Cognition]] · [[Neon]] · [[智能体]] · [[沙箱]] · [[突发负载]] · [[裸金属]] · [[计算机使用]]

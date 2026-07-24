@@ -6,13 +6,11 @@ entity_type: 人物
 # Jessica Fain
 
 > [!info] 人物
-> 出现在 1 集 · 金句 8 条 · 关联 10 个
+> 出现在 1 集 · 金句 6 条 · 关联 6 个
 
 ## 金句
 
 ![[2026-03-22-lennys-the-art-of-influence-jessica-fain#^q1]]
-
-![[2026-03-22-lennys-the-art-of-influence-jessica-fain#^q2]]
 
 ![[2026-03-22-lennys-the-art-of-influence-jessica-fain#^q3]]
 
@@ -24,12 +22,10 @@ entity_type: 人物
 
 ![[2026-03-22-lennys-the-art-of-influence-jessica-fain#^q7]]
 
-![[2026-03-22-lennys-the-art-of-influence-jessica-fain#^q8]]
-
 ## 出现在这些集
 
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别怪高管不懂你：产品经理的向上影响力心法》]] — 作为主持
+- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别只想推销：产品负责人如何真正影响高管决策》]] — 作为主持
 
 ## 关联实体
 
-[[Lenny]] · [[影响力]] · [[产品经理]] · [[智能体]] · [[同理心]] · [[护栏]] · [[明托金字塔]] · [[产品市场契合度]] · [[概念验证]] · [[Webflow]]
+[[Lenny]] · [[Webflow]] · [[Slack]] · [[智能体]] · [[护栏]] · [[产品市场契合度]]

@@ -10,8 +10,8 @@ entity_type: 人物
 
 ## 出现在这些集
 
-- [[2026-06-22-latent-space-gray-swan|《给 AI 智能体装上「安全带」:Gray Swan 的攻防实战》]] — 作为嘉宾
+- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] — 作为嘉宾
 
 ## 关联实体
 
-[[Zico Kolter]] · [[Gray Swan]] · [[Anthropic]] · [[智能体]] · [[红队测试]] · [[提示词注入]] · [[鲁棒性]] · [[护栏]] · [[沙箱]] · [[Shade]]
+[[Zico Kolter]] · [[Gray Swan]] · [[Snowflake]] · [[Anthropic]] · [[智能体]] · [[红队测试]] · [[提示词注入]] · [[越狱]] · [[护栏]] · [[沙箱]]

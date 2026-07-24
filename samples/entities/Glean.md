@@ -10,12 +10,12 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel:在AI时代,做最会创新的公司》]]**(61:35起):Evan 提到这是一个企业内部数据搜索整合工具。他用它接入了公司所有的仪表盘、文档和数据，并自己搭了一个智能体每天替他梳理全公司热点和盲区，以扁平、高速的方式领导公司。
+- **[[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要》]]**(61:35起):一款企业内部数据搜索整合工具。本集说 Evan 用它接入了 Snap 所有的仪表盘和文档,并在此基础上自己搭了一个智能体助理,每天梳理全公司动态、定位需要他关注的热点。
 
 ## 出现在这些集
 
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel:在AI时代,做最会创新的公司》]] — 作为被讨论公司
+- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Lenny]] · [[Evan Spiegel]] · [[Snap]] · [[Snapchat]] · [[TikTok]] · [[Threads]] · [[Meta]] · [[Apple]] · [[Anthropic]] · [[Figma]]
+[[Lenny]] · [[Evan Spiegel]] · [[Snap]] · [[Snapchat]] · [[Spectacles]] · [[Specs]] · [[分发]] · [[护城河]] · [[网络效应]] · [[增强现实]]
