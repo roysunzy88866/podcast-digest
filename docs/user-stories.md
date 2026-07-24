@@ -889,10 +889,10 @@ Scenario 3 [品味边界] a16z 只向前看,不自动回填存量
 ```
 
 ### DoD(C9)
-1. ⬜ P1 证据落盘(真 run 链接 + 耗时 + 说话人抽检结论);未达标记 drift 并降级。
-2. ⬜ 单测:per-source cutoff 迁移 / needsReseed 按源 / whisperX 输出→transcript.en.json 转换器(fixture,不真联网)。
-3. ⬜ 里程碑 E2E:真发布一集 a16z、用户真设备验收(烧 GLM 钱 + 公开发布,做前确认)。
-4. ⬜ glm-check --kind code 对抗审计 + 账本裁决。
+1. ✅ P1 证据落盘(run 30075152246,耗时+抽检见下方核验记录);模型档用户拍板:large-v3 默认、>100 分钟降 medium。
+2. ✅ 单测:per-source cutoff 迁移 / needsReseed 按源 / whisperX 转换器 fixture / Simplecast URL 解析(slugFromLink/enclosureUrl/durationSec/实体反转义)/ pickWhisperxModel(全 409 过)。
+3. ⬜ 里程碑 E2E:真发布一集 a16z、用户真设备验收(烧 GLM 钱 + 公开发布,做前确认)。入口=workflow_dispatch backfill=1 + source=a16z(跑完自动设 cutoff,cron 随后接管只向前看)。
+4. 🟡 glm-check --kind code 对抗审计:接线 diff 已过(20260724-006,3 条全 noise 附实证);E2E 后整片收口再复核一轮。
 
 ### P1 核验记录(C9 · 2026-07-24 真跑,run 30075152246)
 - **样本**:a16z feed 最新集(Travis Kalanick 谈 industrial AI),真实音频 45 分钟;免费 ubuntu runner,CPU int8。

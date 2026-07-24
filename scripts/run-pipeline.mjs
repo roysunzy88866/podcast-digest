@@ -12,14 +12,14 @@ import { readFileSync, existsSync, readdirSync, writeFileSync, mkdirSync, rename
 import { spawnSync } from "node:child_process";
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { xmlUnescape } from "./build-feed.mjs"; // C9:Simplecast 标题/URL 不走 CDATA,带 &apos;/&amp; 实体(有 isMain 守卫,import 无副作用)
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
-// C8 · 源清单(品味校准后只抓 🟢 高对味源,真相源 需求共创/内容品味档案.md v1)。
-// 每个源:{ key(id 前缀 + 状态), feedUrl }。都是 Substack 播客(现有 fetch-source.mjs 直接吃:
-// 官方 transcription.json 逐词时间戳 + 段级说话人,不烧 ASR)。
+// C8/C9 · 源清单(品味校准后只抓 🟢 高对味源,真相源 需求共创/内容品味档案.md v1)。
+// 每个源:{ key(id 前缀), name(卡片显示), feedUrl, archiveFile?(补历史), asr?(无官方稿源的转写路线) }。
 // 已退役(停抓,内容品味档案.md):Latent Space(🟡 混杂:AINews 水贴 + 模型发布 → 砍)。
-// 待接(下一步,非本切片):a16z / How I AI(非 Substack、无官方稿 → 需 ASR 决策);Y Combinator(YouTube 抓取坎)。
+// 待接(非本切片):Y Combinator(YouTube 抓取坎);How I AI 不用接(集子经 Lenny's feed 分发,已覆盖)。
 export const SOURCES = [
   // feedUrl = www RSS(最近 20 条,云 runner 200):日常 cron 只向前看够用。
   // archiveFile = 本机备好的全历史列表(drift #28):**--backfill 补历史读它**。
@@ -27,6 +27,9 @@ export const SOURCES = [
   //   两条云端路都拿不到播客历史 → 本机 curl(走代理 200)拉 353 集列表存进仓,runner 读列表 + 逐集抓集页(集页 runner 可达)。
   //   刷新:本机重跑 tools/refresh-archive(或 curl api.substack RSS→parseFeed→写此文件)。历史集不变,新集靠 cron 走 www RSS。
   { key: "lennys", name: "Lenny's Podcast", feedUrl: "https://www.lennysnewsletter.com/feed", archiveFile: "data/lennys-podcast-archive.json" },
+  // C9:a16z 无官方稿(单集页实测 0 处 transcript)→ asr:"whisperx"(processEpisode 直走 whisperX,
+  // 免费 Actions runner 转写,P1 已核验 run 30075152246)。只向前看,历史回填由用户点名(品味边界,Gherkin Scenario 3)。
+  { key: "a16z", name: "The a16z Show", feedUrl: "https://feeds.simplecast.com/JGE3yC0V", asr: "whisperx" },
 ];
 
 // 带浏览器 UA:Substack 对裸 node 请求可能 403(drift #28)
@@ -50,7 +53,15 @@ export function sourceMetaFields(item, source) {
   };
 }
 
-/** 解析 Substack 播客 RSS → [{title, link, pubDateISO, hasAudio}]。只用正则,不引 XML 依赖(feed 结构稳、CDATA 好切)。*/
+/** itunes:duration("HH:MM:SS" / "MM:SS" / 纯秒数)→ 秒;解析不了=0(不编造)。 */
+export function parseItunesDuration(s) {
+  if (!s) return 0;
+  const parts = String(s).trim().split(":").map(Number);
+  if (parts.some((n) => !Number.isFinite(n))) return 0;
+  return parts.reduce((acc, n) => acc * 60 + n, 0);
+}
+
+/** 解析播客 RSS(Substack/Simplecast 同构)→ [{title, link, pubDateISO, hasAudio, enclosureUrl, durationSec}]。只用正则,不引 XML 依赖。*/
 export function parseFeed(xml) {
   const items = [];
   const itemRe = /<item(?:\s[^>]*)?>([\s\S]*?)<\/item>/g; // 容忍带属性/命名空间的 <item ...>
@@ -58,38 +69,47 @@ export function parseFeed(xml) {
   while ((m = itemRe.exec(xml))) {
     const body = m[1];
     const pick = (re) => (body.match(re) || [])[1]?.trim() ?? "";
-    const title = pick(/<title>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/title>/);
-    const link = pick(/<link>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/link>/);
+    // Simplecast(a16z)的 title/link 不走 CDATA、带 XML 实体(&apos; 等)→ 统一反转义(CDATA 内容无实体,过一遍无害)
+    const title = xmlUnescape(pick(/<title>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/title>/));
+    const link = xmlUnescape(pick(/<link>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/link>/));
     const pubDate = pick(/<pubDate>([\s\S]*?)<\/pubDate>/);
     const hasAudio = /<enclosure[^>]*type=["']audio/i.test(body);
+    // C9 ASR 路线要音频直链
+    const enclosureUrl = xmlUnescape(pick(/<enclosure[^>]*url=["']([^"']+)["']/));
     const d = pubDate ? new Date(pubDate) : null;
     items.push({
       title,
       link,
       pubDateISO: d && !isNaN(+d) ? d.toISOString() : "",
       hasAudio,
+      enclosureUrl,
+      durationSec: parseItunesDuration(pick(/<itunes:duration>([\s\S]*?)<\/itunes:duration>/)),
     });
   }
   return items;
 }
 
-/** 是不是要处理的真访谈集?排掉每日 AI 快讯(/p/ainews-…,天天发、会天天烧钱)+ 必须有音频 enclosure。 */
+/** 集 URL → slug。按源适配(D44⑤):Substack=/p/<slug>,Simplecast=/episodes/<slug>。抠不出=空串。 */
+export function slugFromLink(link) {
+  return ((link || "").match(/\/(?:p|episodes)\/([^/?#]+)/) || [])[1] || "";
+}
+
+/** 是不是要处理的真访谈集?排掉每日 AI 快讯(ainews-…,天天发、会天天烧钱)+ 必须有音频 enclosure。 */
 export function isInterview(item) {
   if (!item.link || !item.pubDateISO) return false;
   if (!item.hasAudio) return false;
-  const slug = (item.link.match(/\/p\/([^/?#]+)/) || [])[1] || "";
-  if (/^ainews-/i.test(slug)) return false;
+  if (/^ainews-/i.test(slugFromLink(item.link))) return false;
   return true;
 }
 
 /**
- * 派集 id = <YYYY-MM-DD>-<source.key>-<slug>(slug 取 URL /p/ 段,截断防超长)。无人值守用内部标识,不必人工雅致。
+ * 派集 id = <YYYY-MM-DD>-<source.key>-<slug>(slug 按源从 URL 抠,截断防超长)。无人值守用内部标识,不必人工雅致。
  * C8:前缀取 source.key(去 latent-space 硬编码)。缺 source 直接抛,不静默派 undefined 前缀。
  */
 export function deriveId(item, source) {
   if (!source?.key) throw new Error("deriveId 需要 source.key(C8 多源:id 前缀按源)");
   const date = item.pubDateISO ? item.pubDateISO.slice(0, 10) : "unknown-date";
-  let slug = (item.link.match(/\/p\/([^/?#]+)/) || [])[1] || "episode";
+  let slug = slugFromLink(item.link) || "episode";
   slug = slug.toLowerCase().replace(/[^a-z0-9-]/g, "").slice(0, 40).replace(/-+$/, "");
   return `${date}-${source.key}-${slug}`;
 }
@@ -231,11 +251,19 @@ function runOk(cmd, args) {
 function processEpisode(item, id, source) {
   const dir = join("data/episodes", id);
   console.log(`\n▶ 处理新集 ${id}\n   ${item.title}\n   ${item.link}`);
-  // ① 取源:官方稿优先;无稿走 ASR 兜底(drift #14,需 ASSEMBLYAI_API_KEY)
-  const fs = spawnSync("node", ["scripts/fetch-source.mjs", item.link, id], { cwd: ROOT, stdio: "inherit" });
-  if (fs.status !== 0) {
-    console.log("   官方稿取源失败 → 尝试 ASR 兜底(fetch-source-asr)");
-    run("node", ["scripts/fetch-source-asr.mjs", item.link, id]);
+  // ① 取源:whisperx 源(a16z,无官方稿)直走 whisperX ASR(C9,不空跑 fetch-source);
+  //    其余源官方稿优先,失败走 AssemblyAI 兜底(drift #14,需 ASSEMBLYAI_API_KEY)
+  if (source?.asr === "whisperx") {
+    if (!item.enclosureUrl) throw new Error(`集 ${id} 无 enclosure 直链,whisperX 路线走不了(fail-closed)`);
+    run("node", ["scripts/fetch-source-whisperx.mjs", dir, "--transcribe", "--audio-url", item.enclosureUrl, "--duration", String(item.durationSec || 0)]);
+  } else {
+    const fs = spawnSync("node", ["scripts/fetch-source.mjs", item.link, id], { cwd: ROOT, stdio: "inherit" });
+    if (fs.status !== 0) {
+      console.log("   官方稿取源失败 → 尝试 ASR 兜底(fetch-source-asr)");
+      // 修潜伏参数错(C9 顺手,此路径从未真走过):CLI 约定是 <audio_url> <out_dir>,原来传的是集页 URL + 裸 id
+      if (!item.enclosureUrl) throw new Error(`集 ${id} 无 enclosure 直链,ASR 兜底走不了(fail-closed)`);
+      run("node", ["scripts/fetch-source-asr.mjs", item.enclosureUrl, dir]);
+    }
   }
   // C5.1 Scenario 3:显示字段随取源写进 meta(title_en/podcast/date;列表卡与集页要用,此前从没人写 → 首页裸文件名)
   if (source) {

@@ -57,6 +57,22 @@ describe("convertWhisperx · whisperX JSON → 官方稿同构", () => {
   });
 });
 
+// C9 接线 · 模型档(用户 2026-07-24 拍板):large-v3 默认(质量优先),超长集(>100 分钟)降 medium 保时长余量。
+// 锚 P1 实测(run 30075152246):large-v3 0.59x 实时 → 100 分钟集 ≈2.8h,再长贴 6h job 上限太近。
+describe("pickWhisperxModel · 按时长选模型档(C9)", () => {
+  it("★ 默认 large-v3;>100 分钟降 medium", async () => {
+    const { pickWhisperxModel } = await import("../scripts/fetch-source-whisperx.mjs");
+    expect(pickWhisperxModel(45 * 60)).toBe("large-v3");
+    expect(pickWhisperxModel(100 * 60)).toBe("large-v3"); // 边界:恰好 100 分钟仍 large-v3
+    expect(pickWhisperxModel(100 * 60 + 1)).toBe("medium");
+  });
+  it("时长未知(0/缺失)→ large-v3(播客单集不至于撞 6h 上限,质量优先)", async () => {
+    const { pickWhisperxModel } = await import("../scripts/fetch-source-whisperx.mjs");
+    expect(pickWhisperxModel(0)).toBe("large-v3");
+    expect(pickWhisperxModel(undefined)).toBe("large-v3");
+  });
+});
+
 describe("transcriptDuration · 末段 end 缺不产 undefined(GLM 20260724-004[2])", () => {
   it("★ 取各段 end/start 最大数值;end 缺回退 start;全缺=0", async () => {
     const { transcriptDuration } = await import("../scripts/fetch-source-whisperx.mjs");

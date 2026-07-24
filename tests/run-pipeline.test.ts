@@ -34,6 +34,19 @@ const FEED = `<?xml version="1.0"?><rss><channel>
 // C8 首个绿源 = Lenny's(测试用轻量 stub,只需 key)
 const LENNYS = { key: "lennys", feedUrl: "https://api.substack.com/feed/podcast/10845.rss" };
 
+// C9 · Simplecast(a16z)feed 形状:link 是 /episodes/<slug>(无 /p/,D44⑤)、enclosure url 带 &amp; 转义、itunes:duration。
+const SIMPLECAST_FEED = `<?xml version="1.0"?><rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"><channel>
+<item>
+  <guid isPermaLink="false">492cb9ec</guid>
+  <title>Building the Physical AI Stack: a16z&apos;s View | Travis Kalanick on TBPN</title>
+  <pubDate>Thu, 23 Jul 2026 10:00:00 +0000</pubDate>
+  <link>https://a16z.simplecast.com/episodes/building-the-physical-ai-stack-travis-kalanick-on-tbpn-pij0lvRd</link>
+  <enclosure length="22157799" type="audio/mpeg" url="https://x.simplecastaudio.com/e/audio/128/default.mp3?aid=rss_feed&amp;feed=JGE3yC0V"/>
+  <itunes:duration>00:23:04</itunes:duration>
+</item>
+</channel></rss>`;
+const A16Z = { key: "a16z", name: "The a16z Show" };
+
 describe("parseFeed", () => {
   const items = parseFeed(FEED);
   it("解析出全部 item 与字段", () => {
@@ -45,6 +58,38 @@ describe("parseFeed", () => {
   });
   it("无 enclosure 的 item hasAudio=false", () => {
     expect(items[3].hasAudio).toBe(false);
+  });
+});
+
+// C9 D44⑤:Simplecast(a16z)URL 无 /p/ → slug 抠取按源适配;enclosure 直链 + 时长供 ASR 路线用
+describe("parseFeed · Simplecast 形状(C9)", () => {
+  const items = parseFeed(SIMPLECAST_FEED);
+  it("★ enclosureUrl 抓出且 &amp; 反转义成真 URL(ASR 下载要直链)", () => {
+    expect(items[0].enclosureUrl).toBe("https://x.simplecastaudio.com/e/audio/128/default.mp3?aid=rss_feed&feed=JGE3yC0V");
+  });
+  it("★ itunes:duration(HH:MM:SS)→ durationSec(选 whisperX 模型档要)", () => {
+    expect(items[0].durationSec).toBe(23 * 60 + 4);
+  });
+  it("★ 非 CDATA 标题的 XML 实体反转义(Simplecast 通例;&apos; 不许原样上卡片)", () => {
+    expect(items[0].title).toBe("Building the Physical AI Stack: a16z's View | Travis Kalanick on TBPN");
+  });
+  it("无 itunes:duration 的 item(Substack 通例)durationSec=0,不编造", () => {
+    expect(parseFeed(FEED)[0].durationSec).toBe(0);
+  });
+});
+
+describe("isInterview / deriveId · Simplecast URL 按源适配(C9 D44⑤)", () => {
+  const items = parseFeed(SIMPLECAST_FEED);
+  it("★ /episodes/<slug> 的集是访谈(不再因无 /p/ 被 slug 空串误判)", () => {
+    expect(isInterview(items[0])).toBe(true);
+  });
+  it("★ deriveId 从 /episodes/ 抠 slug,不退化成 'episode' 撞 id", () => {
+    // slug 小写化 + 截 40 字符 + 去尾部连字符(现有规则不变)
+    expect(deriveId(items[0], A16Z)).toBe("2026-07-23-a16z-building-the-physical-ai-stack-travis-ka");
+  });
+  it("两集不同 slug 派不同 id(D44⑤ 的病:全撞 'episode')", () => {
+    const other = { ...items[0], link: "https://a16z.simplecast.com/episodes/sriram-krishnan-on-open-source-1yfA3ln5" };
+    expect(deriveId(other, A16Z)).not.toBe(deriveId(items[0], A16Z));
   });
 });
 
@@ -66,6 +111,12 @@ describe("C8 · SOURCES 源清单(品味校准后只留绿源)", () => {
     const keys = SOURCES.map((s) => s.key);
     expect(keys).toContain("lennys");
     expect(keys).not.toContain("latent-space");
+  });
+  it("★ C9:含 a16z(Simplecast feed + whisperX ASR 路线标记)", () => {
+    const a16z = SOURCES.find((s) => s.key === "a16z");
+    expect(a16z).toBeTruthy();
+    expect(a16z.feedUrl).toBe("https://feeds.simplecast.com/JGE3yC0V");
+    expect(a16z.asr).toBe("whisperx"); // processEpisode 据此直走 ASR(a16z 实测无官方稿,不空跑 fetch-source)
   });
   it("每个源都带 key + feedUrl", () => {
     for (const s of SOURCES) {

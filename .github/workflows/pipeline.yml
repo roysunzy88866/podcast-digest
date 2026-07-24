@@ -23,6 +23,10 @@ on:
         description: "存量翻新:按新叙事骨架重浓缩已完成集(all=全部,或逗号分隔集 id;过不了闸门自动回滚老版)"
         required: false
         default: ""
+      source:
+        description: "只跑指定源(如 a16z;多源下 backfill 必填,防笼统批量烧钱——C9)"
+        required: false
+        default: ""
 
 permissions:
   contents: write           # 处理完把新集 data/ + pipeline-state.json commit 回仓(去重状态持久化)
@@ -41,10 +45,19 @@ jobs:
         with:
           node-version: "22.16.0"
 
-      - name: 装环境(ffmpeg + edge-tts + glm-ask + node deps)
+      # C9:whisperx 要 3.11(spike 同款);edge-tts 纯 python,跟着 3.11 也没事
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 装环境(ffmpeg + edge-tts + glm-ask + whisperX + node deps)
         run: |
           sudo apt-get update && sudo apt-get install -y ffmpeg
           python3 -m pip install --user edge-tts
+          # C9 · a16z ASR 进料口:whisperX(CPU 版 torch 免 CUDA 大包)。每 run 都装(~3 分钟):
+          # 装不装取决于本轮有没有 a16z 新集,但那要跑了编排器才知道 → 无条件装,公开仓 runner 分钟免费。
+          pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip install -q whisperx
           echo "EDGE_TTS_BIN=$HOME/.local/bin/edge-tts" >> "$GITHUB_ENV"
           # 装 glm-ask 到 PATH:流水线脚本都调裸命令 glm-ask,runner 上没有 → 用仓库自带副本(key 走 ZHIPU_API_KEY env)
           mkdir -p "$HOME/.local/bin"
@@ -58,14 +71,22 @@ jobs:
         env:
           ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
           ASSEMBLYAI_API_KEY: ${{ secrets.ASSEMBLYAI_API_KEY }}
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}   # C9:whisperX pyannote 分离要(a16z ASR 路线)
         run: |
           # 手动触发可传 backfill=N 回填最近 N 集(评估批);cron/默认走正常「只向前看」
           BACKFILL="${{ github.event.inputs.backfill || '0' }}"
           REFRESH="${{ github.event.inputs.refresh || '' }}"
+          SOURCE="${{ github.event.inputs.source || '' }}"
           # 非法输入(非数字)响亮报错,不静默降级为只向前看(GLM 20260720-004[1])
           if ! echo "$BACKFILL" | grep -qE '^[0-9]+$'; then
             echo "::error::backfill 输入非法(需非负整数):'$BACKFILL'"; exit 1
           fi
+          # C9:source 只许简单 slug(照 backfill 校验先例);编排器还会核对 SOURCES 名单
+          if [ -n "$SOURCE" ] && ! echo "$SOURCE" | grep -qE '^[a-z0-9]+$'; then
+            echo "::error::source 输入非法(需小写字母数字 slug):'$SOURCE'"; exit 1
+          fi
+          SRC_ARGS=""
+          [ -n "$SOURCE" ] && SRC_ARGS="--source $SOURCE"
           if [ -n "$REFRESH" ]; then
             # 输入防呆(照 backfill 数字校验先例;GLM 20260724-002[2]):只许 all 或集 id 逗号串
             if ! echo "$REFRESH" | grep -qE '^(all|[a-zA-Z0-9,_-]+)$'; then
@@ -81,10 +102,11 @@ jobs:
             node scripts/build-feed.mjs --out feed.xml
             node scripts/gate-all.mjs
           elif [ "$BACKFILL" -gt 0 ]; then
-            echo "🔁 回填模式:最近 $BACKFILL 集"
-            node scripts/run-pipeline.mjs --backfill "$BACKFILL"
+            echo "🔁 回填模式:最近 $BACKFILL 集 ${SOURCE:+(源 $SOURCE)}"
+            # 多源配置下编排器强制回填必须点名源(C9 防呆);不点名会响亮 exit 2
+            node scripts/run-pipeline.mjs --backfill "$BACKFILL" $SRC_ARGS
           else
-            node scripts/run-pipeline.mjs
+            node scripts/run-pipeline.mjs $SRC_ARGS
           fi
           # 判定是否有**干净可发**的新内容:只看 data/episodes(新完成集)+ samples(新集页)——
           # 全被隔离时 data/episodes 无新增(失真集已移去 gitignore 的 data/skipped),samples 也无新增 → 不部署。
