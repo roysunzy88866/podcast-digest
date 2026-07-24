@@ -854,3 +854,42 @@ Scenario 5 [中文标题·云端] 浓缩顺带起中文标题
 2. ⬜ 本地真 build 首页:0 破卡、0 裸文件名标题、标签栏首屏 ≤15 个。
 3. ⬜ 时序纪律:backfill run 在跑期间只本地 commit 不 push;run 落地后 rebase 再推,部署走云端。
 4. ⬜ 用户真设备看线上首页拍板(里程碑规矩)。
+
+## C9 · a16z 源接入(whisperX ASR 进料口 + 按源 cutoff;2026-07-24 用户拍板「先接 a16z」)
+
+> 真相源:`需求共创/内容品味档案.md`(a16z=🟢 源,避开 CS/crypto 类)+ drift #14(ASR 免费选型:whisperX 主/Deepgram 备/AssemblyAI 三线)+ D44①②。
+> feed 已实探(2026-07-24):`https://feeds.simplecast.com/JGE3yC0V`(The a16z Show,1000 集,enclosure 齐)。
+
+```gherkin
+Feature: a16z 源接入(US-4, US-11)
+
+Scenario 0 [P1 前置核验,未过则停] whisperX 在 Actions runner 真跑一集
+  Given 用户已放 HF_TOKEN 进 GitHub Secrets(免费 HF 账号 + 接受 pyannote 模型条款)
+  When spike workflow 对一集真实 a16z 音频跑 whisperX(CPU int8 + 自带 VAD + pyannote 分离)
+  Then 产出词级时间戳 + 说话人段落;单集总耗时有安全余量(目标 <2.5h,job 上限 6h)
+  And 质量抽检:开场几分钟说话人切换不乱(人工抽查)
+  未达标 → 停 + 报用户,降级 Deepgram($200 注册额度)再核
+
+Scenario 1 [按源 cutoff] SOURCES 加 a16z,pipeline-state 重构 per-source(D44①)
+  Given SOURCES 增 { key:"a16z", name:"a16z Podcast", feedUrl:(上方实探 URL) }
+  When --seed
+  Then state 按源记 cutoff(lennys 现有 cutoff 无损迁移,老格式自动升级)
+  And needsReseed 防呆口径同步按源判
+
+Scenario 2 [ASR 进料] 无官方稿 → whisperX 转写,输出与官方稿同构
+  Given a16z 新集(无 Substack 官方稿)
+  When 取源步跑 whisperX 适配器
+  Then 产出 transcript.en.json 同构格式(段 + 词级时间戳 + SPEAKER_x 段级说话人)
+  And 后链(infer-speakers→translate→condense→judge→gate→tts)零改动照走
+  异常:音频下载失败 / ASR 崩 → 转瞬失败留半成品下次重试(现有机制)
+
+Scenario 3 [品味边界] a16z 只向前看,不自动回填存量
+  Given a16z 1000 集存量(混有 CS/crypto 类 ❌ 项)
+  Then seed 后 cron 只处理新集;历史回填由用户点名(避开品味档案 ❌ 类)
+```
+
+### DoD(C9)
+1. ⬜ P1 证据落盘(真 run 链接 + 耗时 + 说话人抽检结论);未达标记 drift 并降级。
+2. ⬜ 单测:per-source cutoff 迁移 / needsReseed 按源 / whisperX 输出→transcript.en.json 转换器(fixture,不真联网)。
+3. ⬜ 里程碑 E2E:真发布一集 a16z、用户真设备验收(烧 GLM 钱 + 公开发布,做前确认)。
+4. ⬜ glm-check --kind code 对抗审计 + 账本裁决。
