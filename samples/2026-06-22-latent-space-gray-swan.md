@@ -6,7 +6,7 @@ source_url: https://www.latent.space/p/gray-swan
 duration: "66:13"
 guests: ["[[Zico Kolter]]", "[[Matt Fredrikson]]"]
 companies: ["[[Gray Swan]]"]
-concepts: ["[[红队竞技场]]", "[[Shade]]", "[[Signal]]", "[[OpenClaw]]", "[[提示词注入]]", "[[间接提示词注入]]", "[[致命三角]]", "[[红队测试]]", "[[对抗性攻击]]", "[[智能体]]"]
+concepts: ["[[红队竞技场]]", "[[Shade]]", "[[Signal]]", "[[OpenClaw]]", "[[提示注入]]", "[[间接提示词注入]]", "[[致命三角]]", "[[红队测试]]", "[[对抗性攻击]]", "[[智能体]]"]
 tags:
   - AI 安全
   - 红队测试
@@ -22,7 +22,7 @@ tags:
 >
 > **涉及公司**:[[Gray Swan]]
 >
-> **概念**:[[红队竞技场]] · [[Shade]] · [[Signal]] · [[OpenClaw]] · [[提示词注入]] · [[间接提示词注入]] · [[致命三角]] · [[红队测试]] · [[对抗性攻击]] · [[智能体]]
+> **概念**:[[红队竞技场]] · [[Shade]] · [[Signal]] · [[OpenClaw]] · [[提示注入]] · [[间接提示词注入]] · [[致命三角]] · [[红队测试]] · [[对抗性攻击]] · [[智能体]]
 >
 > **来源**:[Latent Space](https://www.latent.space/p/gray-swan)
 
@@ -44,7 +44,7 @@ Gray Swan 用红队竞技场、自动化攻击模型 Shade 和防御过滤模型
 
 ## 二、攻击面剖析:智能体带来的「致命三角」
 
-随着模型被赋予使用工具的权限(例如执行命令、控制浏览器),安全风险被急剧放大。Matt Fredrikson 提到,目前最高频的安全事件往往发生在涉及「计算机使用」的场景中,有人会公开披露某个产品可以通过[[提示词注入|提示词注入]]被攻击,进而导致凭证泄露;有时模型甚至会因为随机失误去删除生产数据库 [30:03 Matt Fredrikson]。
+随着模型被赋予使用工具的权限(例如执行命令、控制浏览器),安全风险被急剧放大。Matt Fredrikson 提到,目前最高频的安全事件往往发生在涉及「计算机使用」的场景中,有人会公开披露某个产品可以通过[[提示注入|提示词注入]]被攻击,进而导致凭证泄露;有时模型甚至会因为随机失误去删除生产数据库 [30:03 Matt Fredrikson]。
 
 嘉宾们详细拆解了所谓的「[[致命三角|致命三角]]」——这是由 Simon Wilson 提出的概念,精准概括了提示词注入风险成立的三个必要条件 [34:11 Zico Kolter]:
 1. **摄取不可信的外部数据**:智能体被要求去抓取和阅读外部内容,而第三方可以在这些内容中藏匿恶意指令。
@@ -119,16 +119,23 @@ Signal 的核心作用是检查策略违规行为,它既能解析传入的不可
 
 ## 相关单集
 
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo》]] —— 同概念:OpenClaw、提示词注入 (prompt injection)、智能体 (agent)
 - [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:OpenClaw、智能体 (agent)
 - [[2026-06-24-latent-space-databricks|《为什么前沿生态必须开放》]] —— 同公司:Snowflake · 同概念:智能体 (agent)、沙箱 (sandbox)
 - [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
 - [[2026-07-08-latent-space-modal|《为什么 AI 基础设施必须为「Agent 体验」进化》]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《2026-02-26-lennys-ai-is-critical-for-humanitys-survival》]] —— 同概念:智能体 (agent)、护栏 (guardrails)
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《2026-05-24-lennys-the-ai-paradox-dan-shipper》]] —— 同公司:Anthropic · 同概念:智能体 (agent)
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《2026-06-21-lennys-building-the-most-ai-pilled-engineering》]] —— 同公司:Anthropic · 同概念:智能体 (agent)
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto》]] —— 同概念:智能体 (agent)、OpenClaw
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《2026-07-19-lennys-netflix-cpto-on-ai-and-the-future》]] —— 同概念:智能体 (agent)、护栏 (guardrails)
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella：Microsoft Build特别跨界对谈》]] —— 同概念:智能体 (agent)
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《2026-04-19-lennys-why-half-of-product-managers-are-in-trou》]] —— 同概念:智能体 (agent)
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|《2026-05-03-lennys-why-cultivating-agency-matters-more》]] —— 同概念:智能体 (agent)
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|《2026-06-14-lennys-the-common-pattern-behind-successful》]] —— 同概念:智能体 (agent)
+- [[2026-03-01-lennys-the-design-process-is-dead|《2026-03-01-lennys-the-design-process-is-dead》]] —— 同公司:Anthropic
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《2026-04-05-lennys-anthropics-1b-to-19b-growth-run》]] —— 同公司:Anthropic
+- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《2026-05-10-lennys-how-to-build-a-company-that-withstands》]] —— 同公司:Anthropic
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《2026-06-07-lennys-father-of-the-ipod-and-iphone-on》]] —— 同公司:Anthropic
 
 ---

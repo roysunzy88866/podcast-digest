@@ -1,0 +1,1477 @@
+{
+  "episode_id": "2026-05-10-lennys-how-to-build-a-company-that-withstands",
+  "podcast": null,
+  "date": null,
+  "tags": [
+    "公司治理",
+    "创业",
+    "使命驱动",
+    "公益公司",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "eric-ries",
+      "type": "person",
+      "role": "host",
+      "name": "Eric Ries",
+      "file": "Eric Ries",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            83,
+            89.923
+          ],
+          "quote": "Today, my guest is Eric Ries, author of the most influential and impactful book in startup history, The Lean Startup.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 29,
+          "t": [
+            144.131,
+            146.093
+          ],
+          "quote": "With that, I bring you Eric Ries.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 30,
+          "t": [
+            149.896,
+            153.9
+          ],
+          "quote": "Eric Ries, thank you so much for being here and welcome back to the podcast.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1718,
+          "t": [
+            5931.415,
+            5933
+          ],
+          "quote": "Eric Ries, thank you so much for being here.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            132.18,
+            143.651
+          ],
+          "quote": "Before we get into it, don't forget to check out lennysproductpass.com for a year free of the hottest and most well-crafted AI products in the world available exclusively to Lenny's newsletter subscribers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 162,
+          "t": [
+            594.268,
+            600.011
+          ],
+          "quote": "And if your bridge collapses, and Lenny, I say you're an engineer and I say, \"Lenny, why did my bridge collapse?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1010.257,
+            1014.078
+          ],
+          "quote": "\"I heard this guy on Lenny's podcast,\" and your lawyer's like, \"Oh, not again.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1015.319,
+            1017.499
+          ],
+          "quote": "How many good ideas from Lenny's podcast are you going to tell me about?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1350.311,
+            1352.732
+          ],
+          "quote": "Now Lenny, I want you to imagine this scenario with me, okay?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 419,
+          "t": [
+            1377.382,
+            1381.623
+          ],
+          "quote": "Or you have investors whispering in your ear, \"Lenny, you don't have to charge him a fair price.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 437,
+          "t": [
+            1482.408,
+            1488.532
+          ],
+          "quote": "In fact, I tell a story in the book and Lenny, I know you're going to think I'm exaggerating or at least some of your listeners are going to think, oh, Eric is an exaggerator.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 804,
+          "t": [
+            2727.853,
+            2730.355
+          ],
+          "quote": "Learn more at vanta.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 806,
+          "t": [
+            2734.558,
+            2736.34
+          ],
+          "quote": "That's vanta.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 987,
+          "t": [
+            3307.725,
+            3309.606
+          ],
+          "quote": "One is like, Lenny, you're a very high integrity person.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1119,
+          "t": [
+            3817.854,
+            3823.577
+          ],
+          "quote": "Now, maybe just by asking the CEO also listens to Lenny, because everyone listens to Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1614,
+          "t": [
+            5517.023,
+            5521.087
+          ],
+          "quote": "One of my favorite demonstrations of emergent intelligence, I don't know, maybe Lenny, maybe you can link the video.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1719,
+          "t": [
+            5933.08,
+            5933.643
+          ],
+          "quote": "Hey, thank you, Lenny.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说它是史上增长最快的公司；由于从一开始就注册为公益公司（PBC）并设立了长期利益信托（LTBT），使其能够拒绝发布过于危险的模型，甚至敢于拒绝 2 亿美元的合同。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            7,
+            9
+          ],
+          "quote": "I want to hear the OpenAI versus Anthropic story.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 11,
+          "t": [
+            25.35,
+            36.816
+          ],
+          "quote": "They wrote into their charter, Anthropic has directors on its for-profit board who are appointed by and are accountable to an outside group of trustees who are AI safety experts who do not have equity in Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 12,
+          "t": [
+            37.117,
+            43
+          ],
+          "quote": "Whenever you see Anthropic do the right thing, like when they refuse to release a model because they think it's too dangerous, think about how much that's costing them.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 73,
+          "t": [
+            299.921,
+            307.384
+          ],
+          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 600,
+          "t": [
+            2017.444,
+            2020.713
+          ],
+          "quote": "And obviously in the book, I tell the Anthropic story where I played a bit part.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1075,
+          "t": [
+            3661.12,
+            3669.784
+          ],
+          "quote": "And most of the best companies today are using this structure, like all the major AI labs are incorporated as PBCs, Anthropic most famously of all.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1079,
+          "t": [
+            3684.751,
+            3687.472
+          ],
+          "quote": "Why has Anthropic been able to resist all this pressure?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1080,
+          "t": [
+            3687.992,
+            3693.735
+          ],
+          "quote": "This is one of several of the interlocking components of the armor that protects Anthropic from outside pressure.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1167,
+          "t": [
+            3973.983,
+            3983.808
+          ],
+          "quote": "The fact that Anthropic did this is such a huge deal because I think a criticism of all of this that people probably hear is this is going to limit our growth, this is going to hurt our potential.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1172,
+          "t": [
+            3998.875,
+            4008.98
+          ],
+          "quote": "And Anthropic being the fastest growing company of all time, just like absurd, breaking all records is a Public Benefits Corporation should make you feel okay about doing this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1174,
+          "t": [
+            4010.26,
+            4016.283
+          ],
+          "quote": "Anthropic has helped so much because they do many of the things in the book, including this, what they have.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1177,
+          "t": [
+            4021.785,
+            4029.648
+          ],
+          "quote": "But it's so funny, even now, even with Anthropic having such success, people still say stuff like this like, \"Oh, I'm worried that I'm not going to be able to raise money.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1178,
+          "t": [
+            4029.668,
+            4031.608
+          ],
+          "quote": "I'm like, \"Anthropic's been able to raise some money.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1180,
+          "t": [
+            4033.989,
+            4037.05
+          ],
+          "quote": "In fact, if you ask people, why is Anthropic winning?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1182,
+          "t": [
+            4041.292,
+            4044.393
+          ],
+          "quote": "Anthropic very famously has lower inference costs than their competitors.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1240,
+          "t": [
+            4208,
+            4214.303
+          ],
+          "quote": "At Anthropic people, someone's like, \"Oh, I came up with this crazy unsafe thing that will make us an extra dollar.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1265,
+          "t": [
+            4318.306,
+            4325.089
+          ],
+          "quote": "When you hear someone who's living that flow, like Kat, you were talking about in Anthropic, that has been internalized in the organization.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1271,
+          "t": [
+            4349.36,
+            4356.028
+          ],
+          "quote": "I want to hear the OpenAI versus Anthropic story because you've mentioned a part of the structural pieces of this nonprofit.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1272,
+          "t": [
+            4356.429,
+            4361.455
+          ],
+          "quote": "So talk about just what happened there and how that relates to what you talk about versus Anthropic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1281,
+          "t": [
+            4384.149,
+            4387.97
+          ],
+          "quote": "I take no credit for Anthropic success, all the credit to Dario and Daniella and the whole team.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1283,
+          "t": [
+            4394.073,
+            4395.674
+          ],
+          "quote": "They left and they wanted to start Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1284,
+          "t": [
+            4395.714,
+            4398.636
+          ],
+          "quote": "Now today, people are like, \"Oh, sure it works for Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1309,
+          "t": [
+            4491,
+            4499.439
+          ],
+          "quote": "And so even today, Anthropic has directors on its for profit board who are appointed by and are accountable to an outside group of trustees who are AI safety experts who do not have equity in Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1311,
+          "t": [
+            4500,
+            4502.162
+          ],
+          "quote": "The experts who do not have equity in Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1314,
+          "t": [
+            4508.187,
+            4509.909
+          ],
+          "quote": "So whenever you see Anthropic, do the right thing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1340,
+          "t": [
+            4600.594,
+            4605.557
+          ],
+          "quote": "So Anthropic's solution to that is to have a mission guardian in the form of the long-term benefit trust.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1357,
+          "t": [
+            4640.042,
+            4644.906
+          ],
+          "quote": "Me, Anthropic, OpenAI, Google, Cohere, Palantir, everyone on this panel together.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1408,
+          "t": [
+            4828.08,
+            4831.983
+          ],
+          "quote": "The Anthropic long-term benefit trust has no economic dimension to it at all.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1533,
+          "t": [
+            5212.681,
+            5220.967
+          ],
+          "quote": "This came up obviously because there's this big fight going on between Anthropic and Figma and a reporter I text just got reported, reported on the idea.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1579,
+          "t": [
+            5371.033,
+            5377.418
+          ],
+          "quote": "And so if you're feeling a little greedy about grabbing all this power for yourself, that's the time to do something like the Anthropic LTBT.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1582,
+          "t": [
+            5386.144,
+            5388.545
+          ],
+          "quote": "All you have to do is write it into the charter the way Anthropic did.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare",
+      "type": "company",
+      "role": "company",
+      "name": "Cloudflare",
+      "file": "Cloudflare",
+      "primary": true,
+      "how_described": "本集说它早期为保护受到国家级黑客攻击的民主示威者网站挺身而出；后来面对工程师提议应免费提供 SSL 加密的「自断财路」之举，CEO 用「搞清楚它」三个字推动了底层重构，最终赢得了巨大信任，成为今天价值 700 亿美元的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 273,
+          "t": [
+            927.824,
+            933.766
+          ],
+          "quote": "So many times when people give me this argument, they were like, \"Well, such and such company...\" Someone was like, \"Cloudflare, they are just a normal company.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 276,
+          "t": [
+            936.487,
+            938.968
+          ],
+          "quote": "Cloudflare does many of the things that we're talking about.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 644,
+          "t": [
+            2193.643,
+            2195.084
+          ],
+          "quote": "And I mentioned Cloudflare before.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 645,
+          "t": [
+            2195.124,
+            2196.725
+          ],
+          "quote": "So let me actually tell the Cloudflare story.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 646,
+          "t": [
+            2196.765,
+            2207.071
+          ],
+          "quote": "I like Cloudflare because Matthew Prince and his co-founders, they were really anti-consulting BS talk.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 668,
+          "t": [
+            2252.701,
+            2259.265
+          ],
+          "quote": "So we know that Cloudflare had a mission because quite often they would do this harder is easier stuff.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 677,
+          "t": [
+            2290.148,
+            2292.39
+          ],
+          "quote": "And so Cloudflare, the tiny startup is like, \"We'll do it.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 754,
+          "t": [
+            2540.004,
+            2544.887
+          ],
+          "quote": "In fact, to this day, people still talk about how Cloudflare is like the reason you take for granted we have an encrypted internet.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "novo-nordisk",
+      "type": "company",
+      "role": "company",
+      "name": "Novo Nordisk",
+      "file": "Novo Nordisk",
+      "primary": true,
+      "how_described": "本集讲述了其前身在 1920 年采用特殊的双层结构（由非营利基金会拥有和治理的营利性企业），这种结构百年来经受住了无数次攻击，甚至曾阻止管理层短视卖掉套现，最终创造了超过 5000 亿美元的股东价值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 427,
+          "t": [
+            1420.858,
+            1426.16
+          ],
+          "quote": "This is the predecessor company to what we today call Novo Nordisk, one of the largest companies in the world.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 428,
+          "t": [
+            1427.18,
+            1439.065
+          ],
+          "quote": "And what's so interesting to me about this story is this structure has endured and protected the ethos of scientific integrity of Novo Nordisk for more than a hundred years.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1405,
+          "t": [
+            4803.984,
+            4815.852
+          ],
+          "quote": "But those are much more complicated compared to me, the two simplest solutions are either a nonprofit foundation as in the Novo Nordisk example, or in the case of what's called the Perpetual Purpose Trust or PPT.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1407,
+          "t": [
+            4819.775,
+            4827.119
+          ],
+          "quote": "So whereas the Novo Nordisk Foundation is the largest charitable foundation in the world because it owns a big chunk of Novo Nordisk and that's worked out pretty well.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1581,
+          "t": [
+            5381.56,
+            5386.043
+          ],
+          "quote": "Let's say you're a want to be Novo Nordisk, you don't actually have to boot up the nonprofit right now.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "vectura",
+      "type": "company",
+      "role": "company",
+      "name": "Vectura",
+      "file": "Vectura",
+      "primary": true,
+      "how_described": "本集说它是一家生产哮喘吸入器的英国医药公司；因董事会声称「有信托责任接受最高出价」而被烟草巨头 Philip Morris 收购，最终在三年内被拆解变卖不复存在，是结构软弱导致价值毁灭的典型反面教材。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 381,
+          "t": [
+            1201.308,
+            1214.615
+          ],
+          "quote": "And if you haven't studied these case studies, if you don't know the story of Whole Foods and what happened to it, if you don't know the story of Vectura, you don't know these stories, they're really grim and it's important to grapple with what happened so that it doesn't happen to you, so that you're prepared.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 533,
+          "t": [
+            1803.54,
+            1810.283
+          ],
+          "quote": "So before you tell me I'm exaggerating, I want you to consider this from the perspective of the founder scientists of the Vectura Corporation.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 534,
+          "t": [
+            1810.383,
+            1814.265
+          ],
+          "quote": "Vectura was a UK company, a spin out from the University of Bath.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 543,
+          "t": [
+            1844.178,
+            1847.339
+          ],
+          "quote": "I stretched out the hypothetical and it was like, \"Are you asking me about Vectura?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 552,
+          "t": [
+            1866.46,
+            1869.502
+          ],
+          "quote": "So here were the three choices that were facing the Vectura board.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 560,
+          "t": [
+            1898.454,
+            1902.336
+          ],
+          "quote": "But the only people that mattered were the people on the board of directors of the Vectura Corporation.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 570,
+          "t": [
+            1922.2,
+            1926.702
+          ],
+          "quote": "Philip Morris spent £1.1 billion to buy Vectura.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 618,
+          "t": [
+            2085.274,
+            2088.016
+          ],
+          "quote": "Now I got to worry about the Vectura thing and this other stuff.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 998,
+          "t": [
+            3347.988,
+            3352.551
+          ],
+          "quote": "Imagine you got a promise from the founders of Vectura that they'll never sell cigarettes to children.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1059,
+          "t": [
+            3597.313,
+            3604.356
+          ],
+          "quote": "So if you don't want that, and that's what doomed Vectura and all these companies, if you don't want that, you can change it.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说它和 Anthropic 一样采用了公益公司（PBC）等替代治理结构，并且指出当今几乎所有主要的 AI 实验室都采用了这种结构以保护其使命免受纯粹的资本裹挟。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            7,
+            9
+          ],
+          "quote": "I want to hear the OpenAI versus Anthropic story.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 73,
+          "t": [
+            299.921,
+            307.384
+          ],
+          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 596,
+          "t": [
+            2012.049,
+            2016
+          ],
+          "quote": "And I just want to plant the seed of OpenAI is probably on people's minds as they hear this idea of building a nonprofit.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 608,
+          "t": [
+            2045.236,
+            2046.798
+          ],
+          "quote": "OpenAI's business is insanely complicated.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1271,
+          "t": [
+            4349.36,
+            4356.028
+          ],
+          "quote": "I want to hear the OpenAI versus Anthropic story because you've mentioned a part of the structural pieces of this nonprofit.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1276,
+          "t": [
+            4366.72,
+            4375.204
+          ],
+          "quote": "OpenAI is a really hard case study to learn from because it's such a bizarre story and it involves mega personalities like Elon and Sam dueling to the death, so it's complicated.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1282,
+          "t": [
+            4388.991,
+            4393.633
+          ],
+          "quote": "But when they left OpenAI, this is two or three OpenAI crises ago, depending on how you count.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1341,
+          "t": [
+            4605.717,
+            4610
+          ],
+          "quote": "OpenAI very famously had the nonprofit foundation, although now they've converted to a public benefit corp structure.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1357,
+          "t": [
+            4640.042,
+            4644.906
+          ],
+          "quote": "Me, Anthropic, OpenAI, Google, Cohere, Palantir, everyone on this panel together.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "incorruptible",
+      "type": "concept",
+      "role": "concept",
+      "name": "Incorruptible",
+      "file": "Incorruptible",
+      "primary": true,
+      "how_described": "本集说这是 Eric Ries 继《精益创业》15 年后出版的一本新书，旨在教创始人如何通过内部防线（文化/精神）和外部防线（治理结构）来保护自己建立的公司，免受「金融重力」的吞噬。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            43.382,
+            46.715
+          ],
+          "quote": "This new book, Incorruptible, is about helping you protect what you've built.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 23,
+          "t": [
+            90.243,
+            97.506
+          ],
+          "quote": "Today he is back with a new book 15 years later called Incorruptible: Why Good Companies Go Bad and How Great Companies Stay Great.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 83,
+          "t": [
+            365.36,
+            368.122
+          ],
+          "quote": "You have a new book out called Incorruptible.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 86,
+          "t": [
+            375.667,
+            385.173
+          ],
+          "quote": "The way I've heard you describe the combination of The Lean Startup and this new book is The Lean Startup was about helping you build a successful company and Incorruptible is about helping you protect what you've built.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1699,
+          "t": [
+            5852.12,
+            5861.86
+          ],
+          "quote": "If any of this is at all interesting to you, if you want to explore this, if you want to implement it by Eric's book, Incorruptible, is there a website to look at or is just Google and find it?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1701,
+          "t": [
+            5864.622,
+            5866.764
+          ],
+          "quote": "But yes, we do have a website, incorruptible.co.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1717,
+          "t": [
+            5928.226,
+            5931.195
+          ],
+          "quote": "Incorruptible: Why Good Companies Go Bad... and How Great Companies Stay Great.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "public-benefit-corporation",
+      "type": "concept",
+      "role": "concept",
+      "name": "公益公司 (Public Benefit Corporation)",
+      "file": "公益公司",
+      "primary": true,
+      "how_described": "本集说它是只需两页纸的法律文件即可注册的结构，可将公司目的从「任何合法活动」改写为具体承诺；它没有任何缺点，唯一「代价」是当投资者逼迫你违背使命卖掉公司时，你可以合法地说「不」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1061,
+          "t": [
+            3616.34,
+            3619.522
+          ],
+          "quote": "One of them is called the Public Benefit Corporation or PBC.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "mission-guardian",
+      "type": "concept",
+      "role": "concept",
+      "name": "使命守护者 (mission guardian)",
+      "file": "使命守护者",
+      "primary": true,
+      "how_described": "本集说它是为了真正抵御外部压力、确保公司始终保持使命锁定而必需设立的核心角色；可以是具体的「人」（如早期创始人控制）也可以是「实体」（如非营利基金会或长期利益信托）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1337,
+          "t": [
+            4581.3,
+            4588.905
+          ],
+          "quote": "But to kind of answer your question, the critical thing we need, if we're going to really resist outside pressure, we need what I call a mission guardian.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1340,
+          "t": [
+            4600.594,
+            4605.557
+          ],
+          "quote": "So Anthropic's solution to that is to have a mission guardian in the form of the long-term benefit trust.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1343,
+          "t": [
+            4613.723,
+            4615.104
+          ],
+          "quote": "The founder is the mission guardian.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1381,
+          "t": [
+            4710,
+            4711.581
+          ],
+          "quote": "So we talked about we need a mission guardian.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1382,
+          "t": [
+            4711.981,
+            4714.643
+          ],
+          "quote": "So first question, is the mission guardian a person or a thing?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "financial-gravity",
+      "type": "concept",
+      "role": "concept",
+      "name": "金融重力 (financial gravity)",
+      "file": "金融重力",
+      "primary": true,
+      "how_described": "本集说它是一种「没有人控制但每个人都服从」的无形力量，倾向于把组织拖向平庸和纯粹的利润榨取，直到创始人失去对它的控制；不能仅仅甩锅给「重力/贪婪」，而要像桥梁工程师那样去研究并用结构抵御它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 167,
+          "t": [
+            611.596,
+            612.656
+          ],
+          "quote": "I call it financial gravity.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 454,
+          "t": [
+            1549.3,
+            1557.165
+          ],
+          "quote": "So I think it's really interesting that we have enough of these examples to know that there's nothing inevitable about this financial gravity.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1009,
+          "t": [
+            3397.156,
+            3403.66
+          ],
+          "quote": "Their board seeds its responsibility as a bulwark against pressure rather than as an amplifier of financial gravity.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "long-term-benefit-trust",
+      "type": "concept",
+      "role": "concept",
+      "name": "长期利益信托 (long-term benefit trust)",
+      "file": "长期利益信托",
+      "primary": true,
+      "how_described": "本集说它是 Anthropic 采用的一种使命守护实体机制；其董事由外部没有股权的 AI 安全专家任命并负责，使得投资者不能轻易罢免管理层，让公司敢于拒绝危险合同并承受压力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1175,
+          "t": [
+            4016.323,
+            4018.804
+          ],
+          "quote": "We can talk about the long-term benefit trust.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1307,
+          "t": [
+            4476.014,
+            4488.559
+          ],
+          "quote": "And they had to defend it for two years because they didn't actually implement what's called now the long-term benefit trust until their series C, but they had the right and the intention to do it in all their legal documents from inception.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1340,
+          "t": [
+            4600.594,
+            4605.557
+          ],
+          "quote": "So Anthropic's solution to that is to have a mission guardian in the form of the long-term benefit trust.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1408,
+          "t": [
+            4828.08,
+            4831.983
+          ],
+          "quote": "The Anthropic long-term benefit trust has no economic dimension to it at all.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "culture-bank",
+      "type": "concept",
+      "role": "concept",
+      "name": "文化银行 (culture bank)",
+      "file": "文化银行",
+      "primary": true,
+      "how_described": "本集说它是一条从 Devoted Health 和星巴克学来的规则：为了捍卫价值观而做出牺牲是在文化银行里「存款」，而贪婪利己的举动则是「取款」；其核心实践原则是「只存款，绝不取款」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1245,
+          "t": [
+            4221.265,
+            4236.451
+          ],
+          "quote": "But the second thing that I think is less appreciated is a practice I call the culture bank, which is when you start to see trustworthiness as an asset, you start to realize that certain actions build that asset and others take it away.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1255,
+          "t": [
+            4281.03,
+            4286.572
+          ],
+          "quote": "That's what they train people in at H-E-B, that you're making a deposit in the culture bank when you do the right thing.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "ethos",
+      "type": "concept",
+      "role": "concept",
+      "name": "精神 (ethos)",
+      "file": "精神",
+      "primary": true,
+      "how_described": "本集说它是构建公司内部防线的核心理念之一；指内在的一致性、性格和选择，即弄清目的并把它刻进管理系统里，让人无法通过背叛原则来赚钱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 387,
+          "t": [
+            1238.105,
+            1240.746
+          ],
+          "quote": "I just mentioned before, ethos plus integrity, that's our formula.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1241.267,
+            1248.51
+          ],
+          "quote": "Ethos meaning internal alignment, character, choices, integrity, meaning the structure to resist to keep ourselves aligned with human flourishing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 428,
+          "t": [
+            1427.18,
+            1439.065
+          ],
+          "quote": "And what's so interesting to me about this story is this structure has endured and protected the ethos of scientific integrity of Novo Nordisk for more than a hundred years.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 817,
+          "t": [
+            2750.907,
+            2752.889
+          ],
+          "quote": "The reason I use the old-fashioned word ethos.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 936,
+          "t": [
+            3157.622,
+            3162.667
+          ],
+          "quote": "I'm not saying Google's bad, but Google used to have this don't be evil ethos, and it got lost.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 982,
+          "t": [
+            3292.19,
+            3298.179
+          ],
+          "quote": "There's the ethos, which is what we've been talking about, values, purpose, mission, and then there's integrity.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1013,
+          "t": [
+            3413.844,
+            3415.265
+          ],
+          "quote": "We started with purpose and ethos.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1201,
+          "t": [
+            4080.97,
+            4082.231
+          ],
+          "quote": "Because that was the ethos.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1203,
+          "t": [
+            4084.792,
+            4086.994
+          ],
+          "quote": "Because they paired the ethos with the integrity.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "structural-integrity",
+      "type": "concept",
+      "role": "concept",
+      "name": "结构正直 (structural integrity)",
+      "file": "结构正直",
+      "primary": true,
+      "how_described": "本集说它是为了让组织能够信守承诺、抵御内外部短期榨取诱惑而构建的外部防线；就像桥梁上防锈的不锈钢螺栓一样，赋予组织抵抗董事会背叛和外部压力的法律权力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 994,
+          "t": [
+            3329.757,
+            3331.498
+          ],
+          "quote": "But we also have the word structural integrity.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1001,
+          "t": [
+            3356.893,
+            3367
+          ],
+          "quote": "So the goal of structural integrity for an organization is to give it the power to resist temptation from the inside, resist betrayal at the board level and resist pressure from the outside.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "mission-controlled-company",
+      "type": "concept",
+      "role": "concept",
+      "name": "使命控制公司 (mission controlled company)",
+      "file": "使命控制公司",
+      "primary": true,
+      "how_described": "本集说它不同于投资人控制或创始人控制的公司，而是一种由使命本身拥有主权的组织架构；是将使命保护条款直接写入章程，从而实现长久价值创造的设计。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1578,
+          "t": [
+            5366.55,
+            5369.752
+          ],
+          "quote": "So a mission controlled company is one where the mission itself has sovereignty.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "vanta",
+      "type": "company",
+      "role": "company",
+      "name": "Vanta",
+      "file": "Vanta",
+      "primary": false,
+      "how_described": "本集提到它是一家提供合规和风险管理自动化的平台赞助商。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 795,
+          "t": [
+            2669.08,
+            2673.182
+          ],
+          "quote": "I am so excited to tell you about this season's supporting sponsor, Vanta.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 796,
+          "t": [
+            2673.522,
+            2683.067
+          ],
+          "quote": "Vanta helps over 15,000 companies like Cursor, Ramp, Duolingo, Snowflake, and Atlassian earn and prove trust with their customers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 801,
+          "t": [
+            2710.26,
+            2719.687
+          ],
+          "quote": "Vanta automates compliance and risk management with over 35 security and privacy frameworks, including SOC 2, ISO 27001, and HIPAA.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 804,
+          "t": [
+            2727.853,
+            2730.355
+          ],
+          "quote": "Learn more at vanta.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 805,
+          "t": [
+            2730.735,
+            2734.178
+          ],
+          "quote": "And as a listener of this podcast, you get $1,000 off Vanta.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 806,
+          "t": [
+            2734.558,
+            2736.34
+          ],
+          "quote": "That's vanta.com/lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "workos",
+      "type": "company",
+      "role": "company",
+      "name": "WorkOS",
+      "file": "WorkOS",
+      "primary": false,
+      "how_described": "本集提到它是一个专为 B2B SaaS 构建的现代化开发者平台，提供单点登录等企业级功能 API。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 72,
+          "t": [
+            295.2,
+            299.341
+          ],
+          "quote": "This episode is brought to you by our season's presenting sponsor, WorkOS.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 74,
+          "t": [
+            307.804,
+            309.624
+          ],
+          "quote": "They are all powered by WorkOS.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 76,
+          "t": [
+            319.567,
+            326.589
+          ],
+          "quote": "WorkOS turns those deal blockers into drop-in APIs with a modern developer platform built specifically for B2B SaaS.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 77,
+          "t": [
+            327.109,
+            334.751
+          ],
+          "quote": "Literally, every startup that I'm an investor in that starts to expand upmarket ends up working with WorkOS, and that's because they are the best.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 78,
+          "t": [
+            335.111,
+            344.914
+          ],
+          "quote": "Whether you are a seed stage startup trying to land your first enterprise customer or a unicorn expanding globally, WorkOS is the fastest path to becoming enterprise ready and unblocking growth.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 80,
+          "t": [
+            348.135,
+            354.377
+          ],
+          "quote": "Visit workos.com to get started or just hit up their Slack where they have actual engineers waiting to answer your questions.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 81,
+          "t": [
+            354.777,
+            360.699
+          ],
+          "quote": "WorkOS allows you to build faster with delightful APIs, comprehensive docs, and a smooth developer experience.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 82,
+          "t": [
+            361.259,
+            364.54
+          ],
+          "quote": "Go to workos.com to make your app enterprise ready today.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "groupon",
+      "type": "company",
+      "role": "company",
+      "name": "Groupon",
+      "file": "Groupon",
+      "primary": false,
+      "how_described": "本集说它曾是美国增长最快的私营公司之一，但创始人在员工用数据施压下，从每天发一封邮件妥协为发八封，虽然短期赚了钱，却毁了整个公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 758,
+          "t": [
+            2563.2,
+            2568.665
+          ],
+          "quote": "To give you an easy contrast, Andrew Mason, the founder of Groupon once told me this story.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 759,
+          "t": [
+            2568.865,
+            2569.746
+          ],
+          "quote": "Everyone remember Groupon?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 761,
+          "t": [
+            2570.807,
+            2575.531
+          ],
+          "quote": "It's kind of fallen out of public consciousness, but there was this time where Groupon was one of the fastest growing private companies in America.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 763,
+          "t": [
+            2580.215,
+            2582.157
+          ],
+          "quote": "And the whole thing was you got one email a day from Groupon.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 784,
+          "t": [
+            2632.448,
+            2633.509
+          ],
+          "quote": "And this is not just Groupon.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "patagonia",
+      "type": "company",
+      "role": "company",
+      "name": "Patagonia",
+      "file": "Patagonia",
+      "primary": false,
+      "how_described": "本集提到其创始人是质量狂热者，坚信把质量从内部构建进去，以此作为说明「难就是易」领导原则的正面案例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 835,
+          "t": [
+            2806.59,
+            2809.311
+          ],
+          "quote": "If you know stories about Yvon Chouinard, the founder of Patagonia.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 839,
+          "t": [
+            2822.978,
+            2824.499
+          ],
+          "quote": "That's why Patagonia is such a success.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1410,
+          "t": [
+            4835.785,
+            4848.374
+          ],
+          "quote": "And what's nice about a Perpetual Purpose Trust, as in the case of Patagonia is governed with a purpose trust also, is you have the trustees, but then you also have someone whose job is actually to sue the trustees if they ever deviate from the mission.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

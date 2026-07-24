@@ -154,12 +154,22 @@ Steve Jobs 每天都在打磨 iPhone 的故事,他对着聪明但不了解内情
 
 ## 相关单集
 
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《2026-04-05-lennys-anthropics-1b-to-19b-growth-run》]] —— 同嘉宾:Lenny · 同公司:Anthropic、OpenAI · 同概念:Claude
+- [[2026-03-01-lennys-the-design-process-is-dead|《2026-03-01-lennys-the-design-process-is-dead》]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude
+- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《2026-05-10-lennys-how-to-build-a-company-that-withstands》]] —— 同嘉宾:Lenny · 同公司:Anthropic、OpenAI
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《2026-05-24-lennys-the-ai-paradox-dan-shipper》]] —— 同嘉宾:Lenny · 同公司:Anthropic、OpenAI
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|《2026-06-14-lennys-the-common-pattern-behind-successful》]] —— 同嘉宾:Lenny · 同公司:OpenAI · 同概念:微管理 (micromanagement)
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《2026-04-19-lennys-why-half-of-product-managers-are-in-trou》]] —— 同嘉宾:Lenny · 同公司:Anthropic、Google · 同概念:Claude
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《2026-06-21-lennys-building-the-most-ai-pilled-engineering》]] —— 同嘉宾:Lenny · 同公司:Anthropic
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《2026-02-26-lennys-ai-is-critical-for-humanitys-survival》]] —— 同嘉宾:Lenny · 同公司:OpenAI
 - [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《2026-04-26-lennys-snapchat-ceo-why-distribution-is》]] —— 同嘉宾:Lenny · 同概念:Claude
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|《2026-05-03-lennys-why-cultivating-agency-matters-more》]] —— 同嘉宾:Lenny · 同公司:Anthropic
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《2026-03-08-lennys-the-most-successful-ai-company-youve-nev》]] —— 同嘉宾:Lenny
 - [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《2026-03-22-lennys-the-art-of-influence-jessica-fain》]] —— 同嘉宾:Lenny
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo》]] —— 同嘉宾:Lenny
+- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《2026-04-12-lennys-hard-truths-about-building-in-the-ai-era》]] —— 同嘉宾:Lenny
 - [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for》]] —— 同嘉宾:Lenny
+- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《2026-07-12-lennys-how-tech-workers-actually-feel-about》]] —— 同嘉宾:Lenny
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《2026-07-19-lennys-netflix-cpto-on-ai-and-the-future》]] —— 同嘉宾:Lenny
 - [[2026-06-22-latent-space-gray-swan|《神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan》]] —— 同公司:Anthropic
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto》]] —— 同概念:vibe code

@@ -1,0 +1,56 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "00:50",
+      "speaker": "Cat Wu",
+      "trimmed": false,
+      "tsWas": "00:50",
+      "spkWas": "Cat Wu"
+    },
+    {
+      "i": 2,
+      "timestamp": "00:20",
+      "speaker": "Cat Wu",
+      "trimmed": false,
+      "tsWas": "00:20",
+      "spkWas": "Cat Wu"
+    },
+    {
+      "i": 3,
+      "timestamp": "70:06",
+      "speaker": "Cat Wu",
+      "trimmed": false,
+      "tsWas": "70:04",
+      "spkWas": "Cat Wu"
+    },
+    {
+      "i": 4,
+      "timestamp": "63:05",
+      "speaker": "Cat Wu",
+      "trimmed": false,
+      "tsWas": "63:04",
+      "spkWas": "Cat Wu"
+    },
+    {
+      "i": 6,
+      "timestamp": "31:47",
+      "speaker": "Cat Wu",
+      "trimmed": false,
+      "tsWas": "31:44",
+      "spkWas": "Cat Wu"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 5,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "We're sacrificing product consistency."
+    },
+    {
+      "i": 7,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "I think jobs are fake."
+    }
+  ]
+}

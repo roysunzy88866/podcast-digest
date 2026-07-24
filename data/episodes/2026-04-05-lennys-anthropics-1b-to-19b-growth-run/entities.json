@@ -1,0 +1,1933 @@
+{
+  "episode_id": "2026-04-05-lennys-anthropics-1b-to-19b-growth-run",
+  "podcast": null,
+  "date": null,
+  "tags": [
+    "AI 增长",
+    "自动化",
+    "冷启动",
+    "安全与品牌",
+    "角色重塑"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            185.133,
+            192.637
+          ],
+          "quote": "Before we get into it, don't forget to check out lennysproductpass.com for an incredible set of deals available exclusively to Lenny's newsletter subscribers.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2242.197,
+            2245.98
+          ],
+          "quote": "The one I didn't mention there, Lenny, is cross-functional stakeholder management.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 628,
+          "t": [
+            3361.727,
+            3376.58
+          ],
+          "quote": "One of the things, Lenny, it's a slight tangent, but one of the, I think, most effective ways I use Claude, or one of the most interesting ways I use Claude, which I see a number of people doing internally is to help you identify misalignment.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 650,
+          "t": [
+            3479.319,
+            3479.98
+          ],
+          "quote": "Learn more at vanta.com/lenny and ...",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 652,
+          "t": [
+            3480.922,
+            3483.407
+          ],
+          "quote": "Learn more at vanta.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 654,
+          "t": [
+            3485.711,
+            3486.393
+          ],
+          "quote": "That's vanta.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 876,
+          "t": [
+            4560.209,
+            4572.215
+          ],
+          "quote": "I think zooming out though, Lenny, one of the biggest mistakes I feel like I see growth teams make, and particularly just hardcore growth practitioners, is just trying to squeeze every last dollar.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1177,
+          "t": [
+            6109.237,
+            6119
+          ],
+          "quote": "And the part, Lenny, you don't know is in mid-2023, we posted that newsletter and a month later I got re-injured actually.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1195,
+          "t": [
+            6194.552,
+            6200.716
+          ],
+          "quote": "It's like even on the craziest days, Lenny, between the start of the day and lunch and between lunch and the end of the day, I take a short break.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1339,
+          "t": [
+            6743.604,
+            6744.027
+          ],
+          "quote": "Thanks, Lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "amol-avasare",
+      "type": "person",
+      "role": "cohost",
+      "name": "Amol Avasare",
+      "file": "Amol Avasare",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            82.54,
+            84.541
+          ],
+          "quote": "Today, my guest is Amol Avasare.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 44,
+          "t": [
+            193.017,
+            195.398
+          ],
+          "quote": "With that, I bring you Amol Avasare.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1328,
+          "t": [
+            6703.961,
+            6705.202
+          ],
+          "quote": "It's just Amol Avasare.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集说它是处于人类商业史上最陡峭增长轨道上的公司（14个月ARR从10亿飙升至190亿），原本是赛道里最小、资金最少、没有先发优势的玩家，靠极度专注(B2B与编程)和将安全作为核心竞争力实现反超。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.225,
+            4.406
+          ],
+          "quote": "Anthropic actually is.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 9,
+          "t": [
+            29.301,
+            33.759
+          ],
+          "quote": "Give us just a glimpse of what is like to be leading growth inside of Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 10,
+          "t": [
+            34.02,
+            36.989
+          ],
+          "quote": "It's the hardest job I've had in my life to come into Anthropic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 24,
+          "t": [
+            84.981,
+            91.084
+          ],
+          "quote": "Amol is head of growth at Anthropic, which is on the most unprecedented growth run in history.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 31,
+          "t": [
+            120.618,
+            123.94
+          ],
+          "quote": "Anthropic is adding this much ARR every few months.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 32,
+          "t": [
+            124.38,
+            129.843
+          ],
+          "quote": "And if that isn't interesting enough to you, Amol who leads growth at Anthropic is an incredible human.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 40,
+          "t": [
+            161.22,
+            167.043
+          ],
+          "quote": "And in this episode, Amol shares an unprecedented look at how a company like Anthropic operates and grows.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 47,
+          "t": [
+            204,
+            205.12
+          ],
+          "quote": "Head of growth at Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 50,
+          "t": [
+            212.443,
+            220.506
+          ],
+          "quote": "And Anthropic actually is, if you look at the trajectory, I just have some of the numbers here just so people understand how absurd this is.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 60,
+          "t": [
+            273.888,
+            281.651
+          ],
+          "quote": "And basically the way that I got to Anthropic was that I was actually a user of Claude and I was using a lot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 109,
+          "t": [
+            437.682,
+            445.125
+          ],
+          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 120,
+          "t": [
+            504.022,
+            513.877
+          ],
+          "quote": "So give us just a glimpse of what is like to be leading growth inside of Anthropic right now, the most by far fastest growing company in history.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 127,
+          "t": [
+            529.585,
+            536.268
+          ],
+          "quote": "We as Anthropic are really a model company and an intelligence company first and foremost.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 149,
+          "t": [
+            646,
+            653.824
+          ],
+          "quote": "I was talking to somebody at Anthropic about you, and they said that basically anytime they want something to grow, they ask you to help and it works.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 180,
+          "t": [
+            835.463,
+            847.376
+          ],
+          "quote": "One of the cleverest growth moves you all made recently was this idea of importing memory from ChatGPT where you just made it really easy and jumped on this trend of people getting really excited about Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1228.2,
+            1235.585
+          ],
+          "quote": "And so that to me is a broader learning around quality drives growth that I think I've tried to bring to Anthropic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1235.605,
+            1247.674
+          ],
+          "quote": "I think for us at Anthropic, some of the things that we've done in the onboarding flow is basically we ask users questions around who they are, what their interest areas are.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1374.24,
+            1378.263
+          ],
+          "quote": "We added steps into the flow there that actually performed well, same at Anthropic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1510.871,
+            1517.696
+          ],
+          "quote": "There's this whole meme on Twitter the other day of just like you have one growth marketer driving all growth at Anthropic and it's like, okay, that's crazy.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1661.405,
+            1668.448
+          ],
+          "quote": "I think if you look at anyone who's talking from Anthropic about basically anything, we always talk about the exponential.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1776,
+            1795.698
+          ],
+          "quote": "But for Anthropic, it's not really that way, where because of the exponential and our products being very, very, very ... The product value coming from AI, the product value that we will deliver in two years' time is probably a 1,000x, a 100 to a 1,000x what it is today.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1855.703,
+            1867.618
+          ],
+          "quote": "So one takeaway here is there's stuff to extract from your advice that is only true in Anthropic and then there's, what can other companies learn from this experience that you've had?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2014.16,
+            2019.468
+          ],
+          "quote": "So you've done growth at a lot of different companies, a lot of basically, let's call it traditional growth before Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 766,
+          "t": [
+            3990.501,
+            3994.203
+          ],
+          "quote": "I want to talk about the focus that Anthropic has had over the years.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 770,
+          "t": [
+            4013.371,
+            4019.473
+          ],
+          "quote": "As an external observer, it feels like Anthropic has been very good at doing very few things, but going super deep.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 808,
+          "t": [
+            4206.507,
+            4211.549
+          ],
+          "quote": "So it was well before my time, but Anthropic had a version of Claude.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 813,
+          "t": [
+            4232.216,
+            4238.299
+          ],
+          "quote": "There's another world where if Anthropic had launched Claude first, maybe did the other way around even with all that focused stuff.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 817,
+          "t": [
+            4245.262,
+            4250.205
+          ],
+          "quote": "I think also, people just don't realize how far behind Anthropic was.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 819,
+          "t": [
+            4252.046,
+            4255.829
+          ],
+          "quote": "But like, I just remember when people were talking about Anthropic, we were raising money.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 840,
+          "t": [
+            4333.324,
+            4340.028
+          ],
+          "quote": "So famously, Anthropic, I think the official name of Anthropic is Anthropic, an AI safety research company.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 888,
+          "t": [
+            4643.223,
+            4644.143
+          ],
+          "quote": "Anthropic is killing it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 941,
+          "t": [
+            4912.692,
+            4920.795
+          ],
+          "quote": "So one of the biggest things you come into Anthropic, is you need to understand that probably 50, 60, 70% of how you operate in the past, just throw it out the door.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 954,
+          "t": [
+            4983.234,
+            4989
+          ],
+          "quote": "Is there anything else about Anthropic that might be worth sharing, might be worth talking about?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1061,
+          "t": [
+            5518.633,
+            5529.139
+          ],
+          "quote": "A lot of people criticize Anthropic for talking about the dangers to humanity, throwing out all these numbers about jobs going away, just creating all this fear.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1066,
+          "t": [
+            5552.512,
+            5557.835
+          ],
+          "quote": "And you might say, \"Why is Anthropic even building AI if it's so dangerous?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1093,
+          "t": [
+            5720.845,
+            5734.053
+          ],
+          "quote": "One is I want to take us actually to failure corner because someone listening to this may be like, \"All right, look at this guy just worked at all these amazing companies, cold email, the CPO at Anthropic, got a job, joined this rocket ship.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1138,
+          "t": [
+            5920.847,
+            5930.651
+          ],
+          "quote": "And just seeing that, and this was three years, I'm looking at your LinkedIn, you had seven employees, something like that, and then it's like masterclass, Mercury, Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1194,
+          "t": [
+            6191.591,
+            6194.532
+          ],
+          "quote": "You might think even in a place like Anthropic, how do you survive in this way?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集把它说成是Anthropic的核心AI模型与产品，被团队深度使用来自动化各种工作（如看数据图表、揪出跨部门不一致、自动跑增长实验），拥有极佳的产品体验来驱动业务自然增长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            53.668,
+            60.616
+          ],
+          "quote": "Our growth platform team is driving this effort called CASH, which is Claude accelerate sustainable hypergrowth.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 16,
+          "t": [
+            60.776,
+            63.84
+          ],
+          "quote": "How can we use Claude to automate growth experimentation?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 60,
+          "t": [
+            273.888,
+            281.651
+          ],
+          "quote": "And basically the way that I got to Anthropic was that I was actually a user of Claude and I was using a lot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 130,
+          "t": [
+            543.65,
+            552.034
+          ],
+          "quote": "We have great teams on inference and compute, and then there's many other teams like Claude Code, go to-market, et cetera, who I think deserve much more credit than us.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 150,
+          "t": [
+            654.725,
+            663.09
+          ],
+          "quote": "So you talked about just things are magical and amazing and Claude and all the tools you all built are amazing innately, and that's a big part of the reason they grow.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 157,
+          "t": [
+            686.342,
+            689.743
+          ],
+          "quote": "We're very lucky to have products like Claude Code and Cowork.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 185,
+          "t": [
+            869.692,
+            883
+          ],
+          "quote": "But ultimately that you zoom out, it's like, okay, how do you really make it easier for people who are signing up to have Claude understand who they are and understand how Claude can help them and get them to the right place?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 193,
+          "t": [
+            913.917,
+            918.34
+          ],
+          "quote": "And two, what are some things you've learned about how to do that well with Claude or AI in general?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1446,
+            1452.143
+          ],
+          "quote": "Everyone's about to go do a bunch of tear downs of Claude's onboarding, MasterClass onboarding, Mercury onboarding.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1472.394,
+            1475.476
+          ],
+          "quote": "Just, \"Hey, Cowork...\" I don't know, would you use Cowork for this or Claude?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1545.051,
+            1552.714
+          ],
+          "quote": "You can think about B2B growth, you can think about Claude Code growth, knowledge worker growth, API growth.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1827.802,
+            1835.648
+          ],
+          "quote": "That is now the thing that underpins a number of use cases on Cowork and Claude Code as well.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1941.367,
+            1949.835
+          ],
+          "quote": "So there's the API growth, there's Claude Code growth, but then there's also personas, like a vertical of knowledge workers and B2B.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1963.527,
+            1975.796
+          ],
+          "quote": "But as you start to get into having multiple products, I think that's harder because if you do that, then if you just have one activation team, for example, but then you have Claude Code, you have Cowork, you have all the other things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 382,
+          "t": [
+            2004.347,
+            2010.656
+          ],
+          "quote": "The folks on our Claude Code growth team, they work extremely closely with Cat and Boris and the others on that team.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2074.452,
+            2078.894
+          ],
+          "quote": "And it's called CASH, which is Claude Accelerates Sustainable Hypergrowth.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2079.275,
+            2087.78
+          ],
+          "quote": "I did not come up with that, but really it's an effort to look at how can we use Claude to automate growth experimentation?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2137.105,
+            2144.569
+          ],
+          "quote": "How good is Claude at actually identifying opportunities based on different trends, based on previous trends that Claude has seen in the past?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2173.931,
+            2183.84
+          ],
+          "quote": "And we basically think about it in that four ways and we are scoring how good is Claude doing in each of those areas.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2305.409,
+            2315.459
+          ],
+          "quote": "So just to be clear what you shared here, there's basically this tool that comes up with experiments to run, to help grow Claude and all the tools.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2584.011,
+            2594.84
+          ],
+          "quote": "I look at tools like Claude Code, and the amount of leverage engineers are getting from them is higher than, I think the leverage that designers and PMs are getting from them today.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2608.29,
+            2614.034
+          ],
+          "quote": "With Claude Code, that five engineers is two to 3xed.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2644.04,
+            2654.429
+          ],
+          "quote": "I look at teams like Claude Code and I think that, or because that product is so technical, it's probably just the right thing, where the PMs are all basically engineers themselves anyway.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 609,
+          "t": [
+            3260.229,
+            3262.415
+          ],
+          "quote": "Is it ramble into Claude?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 624,
+          "t": [
+            3339.645,
+            3349.716
+          ],
+          "quote": "We work as versions of, how do you ... You can think about how can you mimic what someone might say and set up a Claude.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 627,
+          "t": [
+            3353.14,
+            3361.307
+          ],
+          "quote": "And then as Claude gets more and more context and gets better at parsing long contexts, I think these are things that Claude will just get better at knowing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 628,
+          "t": [
+            3361.727,
+            3376.58
+          ],
+          "quote": "One of the things, Lenny, it's a slight tangent, but one of the, I think, most effective ways I use Claude, or one of the most interesting ways I use Claude, which I see a number of people doing internally is to help you identify misalignment.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 636,
+          "t": [
+            3401.783,
+            3406.948
+          ],
+          "quote": "Claude's looking at things and coming back to me and saying, \"Hey, I think these things you should be aware of.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 637,
+          "t": [
+            3407.408,
+            3417.257
+          ],
+          "quote": "And so you can think about in that shipping context, it's a similar thing where Claude can basically be looking at what's happening across the company and say, \"You're thinking about shipping this thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 687,
+          "t": [
+            3623.022,
+            3645.92
+          ],
+          "quote": "But then there's the long tail of things, and even the medium tail where it's like, you don't have time to look at it every day, that if Claude is proactively looking at it and you start to feel good over time of, okay, it's like the false positive rate is going down, the false negative rate is going down of the things that Claude brings to you, then you just get a little bit more confidence and peace of mind there.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 703,
+          "t": [
+            3706.294,
+            3708.435
+          ],
+          "quote": "And so I get Claude to book my meeting rooms.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 705,
+          "t": [
+            3710.076,
+            3714.117
+          ],
+          "quote": "Claude archives sort of my email first pass at clearing out my inbox.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 707,
+          "t": [
+            3717.398,
+            3720.019
+          ],
+          "quote": "Claude will go to Benepass and file the reimbursements.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 712,
+          "t": [
+            3738.506,
+            3742.827
+          ],
+          "quote": "Claude can look into what have they done this week.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 731,
+          "t": [
+            3822.909,
+            3836.879
+          ],
+          "quote": "Do you ask Claude Cowork to go through all of her writing, basically build like a model of her and you ask, \"What should I be doing differently based on what you know about Ami\"?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 735,
+          "t": [
+            3840.221,
+            3848.404
+          ],
+          "quote": "I think if someone has a public profile where they've written extensively, it's helpful because Claude can just get all that information.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 736,
+          "t": [
+            3848.784,
+            3855.506
+          ],
+          "quote": "Otherwise, you can have a project or you can have a skill, but increasingly, Claude is better at just understanding.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 737,
+          "t": [
+            3855.586,
+            3858.527
+          ],
+          "quote": "Because you can tell Claude like, \"Look on Cowork.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 761,
+          "t": [
+            3980.595,
+            3985.859
+          ],
+          "quote": "But once you have the Slack MCP connected and on [inaudible 01:06:25], you just ask Claude.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 771,
+          "t": [
+            4019.513,
+            4026.936
+          ],
+          "quote": "So B2B, for example, just going deep on B2B, and then going really deep on coding use cases, Claude Code being an example.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 808,
+          "t": [
+            4206.507,
+            4211.549
+          ],
+          "quote": "So it was well before my time, but Anthropic had a version of Claude.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 813,
+          "t": [
+            4232.216,
+            4238.299
+          ],
+          "quote": "There's another world where if Anthropic had launched Claude first, maybe did the other way around even with all that focused stuff.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 859,
+          "t": [
+            4454.094,
+            4459.217
+          ],
+          "quote": "So we have it like back then, okay, you had Claude, but you don't want to release it because you're like, there's these safety risks.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 904,
+          "t": [
+            4705.983,
+            4712.686
+          ],
+          "quote": "I think you need to be using Claude Code, you need to be using Cowork and understanding just each model release.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 932,
+          "t": [
+            4870.936,
+            4875
+          ],
+          "quote": "We've launched Claude for Sheets, Claude for Excel-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 946,
+          "t": [
+            4938.561,
+            4956.031
+          ],
+          "quote": "It matches a lot of what Jenny shared when she came on the podcast, the design leader on Claude and Cowork and all these things, of just the idea of going deep, becoming the best or one of the best at a very specific thing, and that not every company will need and you don't need all 10, but just going deep on something.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1033,
+          "t": [
+            5394.882,
+            5397.044
+          ],
+          "quote": "It is something that goes to Claude.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1034,
+          "t": [
+            5397.424,
+            5409.212
+          ],
+          "quote": "There are certain documents in onboarding where it's like the HR team has written before editing anything on this document, please check with this person because this is a document that Claude references as a key thing, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1037,
+          "t": [
+            5415.177,
+            5419.88
+          ],
+          "quote": "You're arming Claude with that context to get better and better at helping in the future.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1049,
+          "t": [
+            5466.064,
+            5471.007
+          ],
+          "quote": "As time goes on, the ability for Claude to do that better increases.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "mercury",
+      "type": "company",
+      "role": "company",
+      "name": "Mercury",
+      "file": "Mercury",
+      "primary": true,
+      "how_described": "本集把它说成是嘉宾曾领导过增长团队的一家数字银行，它的核心价值是提供极佳的产品体验；嘉宾曾在此花了整整一个季度只打磨注册流程的质量，结果迎来了他作为增长PM经历过的最大转化跃升。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            130.203,
+            132.565
+          ],
+          "quote": "He previously led growth at Mercury and MasterClass.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1085.58,
+            1095.548
+          ],
+          "quote": "When I asked Ben Mann, one of the co-founders, former podcast guest, what to ask you about, and this is what he highlighted, is your experience, especially at Mercury redoing onboarding and making it magical.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1114.342,
+            1116.605
+          ],
+          "quote": "And I like that it brings up Mercury.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1118.368,
+            1122.213
+          ],
+          "quote": "So worked on the growth team at Mercury, I think it's a fantastic product.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1137.02,
+            1142.142
+          ],
+          "quote": "And so I think that the interesting thing about Mercury is the core value is that it's a better experience.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1353.693,
+            1363.216
+          ],
+          "quote": "It's not a coincidence that at Mercury we also tested, I think Immad posted on Twitter, we broke out some steps in onboarding.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1446,
+            1452.143
+          ],
+          "quote": "Everyone's about to go do a bunch of tear downs of Claude's onboarding, MasterClass onboarding, Mercury onboarding.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1138,
+          "t": [
+            5920.847,
+            5930.651
+          ],
+          "quote": "And just seeing that, and this was three years, I'm looking at your LinkedIn, you had seven employees, something like that, and then it's like masterclass, Mercury, Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1183,
+          "t": [
+            6143.809,
+            6152.173
+          ],
+          "quote": "And I was off work for two months when I... One month into joining Mercury, one month in, I'm like, \"Sorry guys, I need to peace out for three months.\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集把它说成是Anthropic内部的一款智能体编程工具，它给工程师带来了指数级的生产力杠杆，同时也挤压了PM和设计师的精力，促使团队必须让工程师充当「迷你PM」的新工作流。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            543.65,
+            552.034
+          ],
+          "quote": "We have great teams on inference and compute, and then there's many other teams like Claude Code, go to-market, et cetera, who I think deserve much more credit than us.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 157,
+          "t": [
+            686.342,
+            689.743
+          ],
+          "quote": "We're very lucky to have products like Claude Code and Cowork.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 311,
+          "t": [
+            1545.051,
+            1552.714
+          ],
+          "quote": "You can think about B2B growth, you can think about Claude Code growth, knowledge worker growth, API growth.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1827.802,
+            1835.648
+          ],
+          "quote": "That is now the thing that underpins a number of use cases on Cowork and Claude Code as well.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1941.367,
+            1949.835
+          ],
+          "quote": "So there's the API growth, there's Claude Code growth, but then there's also personas, like a vertical of knowledge workers and B2B.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1963.527,
+            1975.796
+          ],
+          "quote": "But as you start to get into having multiple products, I think that's harder because if you do that, then if you just have one activation team, for example, but then you have Claude Code, you have Cowork, you have all the other things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 382,
+          "t": [
+            2004.347,
+            2010.656
+          ],
+          "quote": "The folks on our Claude Code growth team, they work extremely closely with Cat and Boris and the others on that team.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2584.011,
+            2594.84
+          ],
+          "quote": "I look at tools like Claude Code, and the amount of leverage engineers are getting from them is higher than, I think the leverage that designers and PMs are getting from them today.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2608.29,
+            2614.034
+          ],
+          "quote": "With Claude Code, that five engineers is two to 3xed.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2644.04,
+            2654.429
+          ],
+          "quote": "I look at teams like Claude Code and I think that, or because that product is so technical, it's probably just the right thing, where the PMs are all basically engineers themselves anyway.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 771,
+          "t": [
+            4019.513,
+            4026.936
+          ],
+          "quote": "So B2B, for example, just going deep on B2B, and then going really deep on coding use cases, Claude Code being an example.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 904,
+          "t": [
+            4705.983,
+            4712.686
+          ],
+          "quote": "I think you need to be using Claude Code, you need to be using Cowork and understanding just each model release.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "cowork",
+      "type": "concept",
+      "role": "concept",
+      "name": "Cowork",
+      "file": "Cowork",
+      "primary": true,
+      "how_described": "本集把它说成是Anthropic内部的一款带Chrome扩展的智能体工作工具，能定时查看二三十张图表并总结异常，还能通过Slack MCP接口扫视全组动态来帮嘉宾揪出团队协作中的不一致。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 157,
+          "t": [
+            686.342,
+            689.743
+          ],
+          "quote": "We're very lucky to have products like Claude Code and Cowork.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 175,
+          "t": [
+            816.433,
+            821.555
+          ],
+          "quote": "And then things like we have a lot of new products coming up like, okay, you ship Cowork, now what?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 176,
+          "t": [
+            821.735,
+            827.438
+          ],
+          "quote": "When is the right time that we should lean in as a growth team to start optimizing the core adoption funnel for Cowork?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1472.394,
+            1475.476
+          ],
+          "quote": "Just, \"Hey, Cowork...\" I don't know, would you use Cowork for this or Claude?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1484.08,
+            1485.522
+          ],
+          "quote": "You can use Cowork for this, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1485.843,
+            1487.866
+          ],
+          "quote": "So you have Cowork with the Chrome extension.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1487.926,
+            1495.857
+          ],
+          "quote": "So if you task Cowork with a Chrome extension, go and look for these flows and give me a view of what's working, what's not.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1495.877,
+            1497.98
+          ],
+          "quote": "That's definitely something that Cowork can do.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1827.802,
+            1835.648
+          ],
+          "quote": "That is now the thing that underpins a number of use cases on Cowork and Claude Code as well.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 376,
+          "t": [
+            1963.527,
+            1975.796
+          ],
+          "quote": "But as you start to get into having multiple products, I think that's harder because if you do that, then if you just have one activation team, for example, but then you have Claude Code, you have Cowork, you have all the other things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 612,
+          "t": [
+            3269.505,
+            3278.093
+          ],
+          "quote": "So there's still some of those cases where I just set up the meeting and then five minutes before, I'll put it into Cowork, some of my thoughts, what credit.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 630,
+          "t": [
+            3380.783,
+            3390.172
+          ],
+          "quote": "So with Cowork, you have the Slack MCP, and you can tell Cowork to say basically, \"Look across Slack.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 672,
+          "t": [
+            3577.895,
+            3581.317
+          ],
+          "quote": "Cowork will tell me, \"Okay, here are the things that you should pay attention to.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 675,
+          "t": [
+            3589.181,
+            3591.134
+          ],
+          "quote": "For me, it just shows, it comes up in Cowork.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 676,
+          "t": [
+            3591.154,
+            3591.96
+          ],
+          "quote": "So Cowork has a schedule-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 709,
+          "t": [
+            3722.02,
+            3726.802
+          ],
+          "quote": "So all of that side of things, I'm just like, just hand it to Cowork, just get rid of it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 731,
+          "t": [
+            3822.909,
+            3836.879
+          ],
+          "quote": "Do you ask Claude Cowork to go through all of her writing, basically build like a model of her and you ask, \"What should I be doing differently based on what you know about Ami\"?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 737,
+          "t": [
+            3855.586,
+            3858.527
+          ],
+          "quote": "Because you can tell Claude like, \"Look on Cowork.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 759,
+          "t": [
+            3961.741,
+            3968.166
+          ],
+          "quote": "You go on to Cowork, download the desktop app on Cowork, connect the Slack MCP.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 904,
+          "t": [
+            4705.983,
+            4712.686
+          ],
+          "quote": "I think you need to be using Claude Code, you need to be using Cowork and understanding just each model release.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 946,
+          "t": [
+            4938.561,
+            4956.031
+          ],
+          "quote": "It matches a lot of what Jenny shared when she came on the podcast, the design leader on Claude and Cowork and all these things, of just the idea of going deep, becoming the best or one of the best at a very specific thing, and that not every company will need and you don't need all 10, but just going deep on something.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "cash",
+      "type": "concept",
+      "role": "concept",
+      "name": "CASH",
+      "file": "CASH",
+      "primary": true,
+      "how_described": "本集把它说成是内部代号「Claude加速可持续超高速增长(Claude Accelerates Sustainable Hypergrowth)」的项目，即用Claude来自动跑增长实验的闭环，目前的胜率相当于一个入职两三年的初级PM。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            19.167,
+            23.152
+          ],
+          "quote": "We didn't have the free cash flow or the distribution of a Meta or Google.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 15,
+          "t": [
+            53.668,
+            60.616
+          ],
+          "quote": "Our growth platform team is driving this effort called CASH, which is Claude accelerate sustainable hypergrowth.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2074.452,
+            2078.894
+          ],
+          "quote": "And it's called CASH, which is Claude Accelerates Sustainable Hypergrowth.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 657,
+          "t": [
+            3504.249,
+            3508.332
+          ],
+          "quote": "You talked about this cash automation for growing, like, how do I grow this product?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 800,
+          "t": [
+            4156.248,
+            4160.55
+          ],
+          "quote": "We didn't have the free cash flow or the distribution of a Meta or Google.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "本集把它说成是模型上下文协议(让AI能读取外部工具数据的一种接口，文中称Slack MCP)，让Claude能扫描整个工作群以提醒哪两个组在重复造轮子或哪个项目漏了利益相关方。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 630,
+          "t": [
+            3380.783,
+            3390.172
+          ],
+          "quote": "So with Cowork, you have the Slack MCP, and you can tell Cowork to say basically, \"Look across Slack.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 681,
+          "t": [
+            3602.307,
+            3617.279
+          ],
+          "quote": "It uses the Chrome extension for some things and it uses MCP for other things, and then it'll just give me a summary, and then I know... I saw this one, a few charts that I just like to look at because I was just like, \"I'm a numbers guy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 738,
+          "t": [
+            3858.567,
+            3865.589
+          ],
+          "quote": "You can say, using the Slack MCP, \"Look at everything that this person has said in the last week, et cetera.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 759,
+          "t": [
+            3961.741,
+            3968.166
+          ],
+          "quote": "You go on to Cowork, download the desktop app on Cowork, connect the Slack MCP.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 761,
+          "t": [
+            3980.595,
+            3985.859
+          ],
+          "quote": "But once you have the Slack MCP connected and on [inaudible 01:06:25], you just ask Claude.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "masterclass",
+      "type": "company",
+      "role": "company",
+      "name": "MasterClass",
+      "file": "MasterClass",
+      "primary": true,
+      "how_described": "本集把它说成是嘉宾曾工作过的一家公司，指出其购买流程中故意设置了大量「好摩擦」（问用户兴趣的测验题），这看似繁琐却成了重要的收入驱动因素。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            130.203,
+            132.565
+          ],
+          "quote": "He previously led growth at Mercury and MasterClass.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1302.575,
+            1309.237
+          ],
+          "quote": "I think if you've really thoroughly tested your flows, I look at the companies I've been at, MasterClass.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1309.597,
+            1317
+          ],
+          "quote": "If you go through MasterClass's purchase flow right now, you'll go through all these steps in this quiz when you land on, when you're trying to buy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1446,
+            1452.143
+          ],
+          "quote": "Everyone's about to go do a bunch of tear downs of Claude's onboarding, MasterClass onboarding, Mercury onboarding.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1138,
+          "t": [
+            5920.847,
+            5930.651
+          ],
+          "quote": "And just seeing that, and this was three years, I'm looking at your LinkedIn, you had seven employees, something like that, and then it's like masterclass, Mercury, Anthropic.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "friction",
+      "type": "concept",
+      "role": "concept",
+      "name": "好摩擦 (friction)",
+      "file": "好摩擦",
+      "primary": true,
+      "how_described": "本集把它说成是一种反直觉的增长哲学：只要增加的摩擦能帮用户搞懂产品适不适合自己、该用什么，它就能带来更高的转化率；只有纯粹惹人烦的无用摩擦才该砍掉。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 212,
+          "t": [
+            1053.95,
+            1065.154
+          ],
+          "quote": "And I think that one learning, seeing this time and time again across companies, actually the right friction helps and adding more friction usually works if you do it the right way.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1068.995,
+            1084.96
+          ],
+          "quote": "So to me, I think it's really being able to identify what are the characteristics of a user that allows you to then recommend them to the right feature or product and not being shy about adding friction to do that, I think is probably the single biggest thing that's important here.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1250.616,
+            1253.538
+          ],
+          "quote": "And number of people look at the flow and they're like, \"You have so much friction.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1257.683,
+            1260.457
+          ],
+          "quote": "What is your kind of philosophy on good friction versus bad friction?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1261,
+            1273.584
+          ],
+          "quote": "I've just seen time and time again at every job I've been in growth that adding friction and adding the right steps leads to higher conversion and higher funnel completion.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1283.108,
+            1288.69
+          ],
+          "quote": "But you want to get rid of annoying friction that doesn't add value.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1378.303,
+            1389.309
+          ],
+          "quote": "So I think that the takeaway to me is cut friction when it doesn't add to the experience of helping a user understand why the product is for them.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1389.869,
+            1401.136
+          ],
+          "quote": "But if you can help users understand a product, why product is for them and how to use it and what's most relevant to them, and it's going to add friction, don't shy away from it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1408.501,
+            1417.479
+          ],
+          "quote": "And for them is really important there, what you described is adding friction to better understand who they are so that you know how to recommend the right thing for them.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 943,
+          "t": [
+            4922.775,
+            4928.357
+          ],
+          "quote": "And if you try to stick to that, you're going to have a lot of friction and it's not going to be helpful.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集说它是先抢发ChatGPT从而获得先发优势的竞争对手，它的消费级聊天机器人获得了疯狂的吸引力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            23.192,
+            26.056
+          ],
+          "quote": "We didn't have the first-mover advantage of an OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 109,
+          "t": [
+            437.682,
+            445.125
+          ],
+          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 801,
+          "t": [
+            4160.59,
+            4164.091
+          ],
+          "quote": "We didn't have the first mover advantage of an OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 820,
+          "t": [
+            4255.849,
+            4258.991
+          ],
+          "quote": "I was like, \"There's no way they're going to compete with OpenAI at this point.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "ai-safety",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 安全 (AI safety)",
+      "file": "AI 安全",
+      "primary": false,
+      "how_described": "本集把它说成是Anthropic存在的根本原因和核心使命，甚至因此主动放弃了率先发布聊天机器人的机会，并视其为长远的竞争优势。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 840,
+          "t": [
+            4333.324,
+            4340.028
+          ],
+          "quote": "So famously, Anthropic, I think the official name of Anthropic is Anthropic, an AI safety research company.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 842,
+          "t": [
+            4350.896,
+            4353.137
+          ],
+          "quote": "Our goal is AI safety and alignment.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 871,
+          "t": [
+            4542.78,
+            4547.223
+          ],
+          "quote": "I think for us, AI safety is very much in one.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "freedom-through-constraints",
+      "type": "concept",
+      "role": "concept",
+      "name": "通过约束获得自由 (freedom through constraints)",
+      "file": "通过约束获得自由",
+      "primary": false,
+      "how_described": "本集把它说成是嘉宾的人生哲学：因为资源受限或条件苛刻，人才能排除一切杂念，找到那条唯一正确的窄路，这与他做企业增长时的打法如出一辙。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 803,
+          "t": [
+            4166.112,
+            4184.679
+          ],
+          "quote": "I think there's this broader principle I have just around life of like, the freedom through constraints, that when you have a bunch of constraints applied on you, whether that's in personal life or at work, I think that it can bring a lot of freedom because it just frees up all this excess choice.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1225,
+          "t": [
+            6336.12,
+            6340.702
+          ],
+          "quote": "I think that freedom through constraints is one of the big takeaways I've had during that time.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "workos",
+      "type": "company",
+      "role": "company",
+      "name": "WorkOS",
+      "file": "WorkOS",
+      "primary": false,
+      "how_described": "本集把它说成是播客赞助商，专门为B2B SaaS提供现代化的开发者平台，让初创公司能快速集成单点登录等企业级功能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            433,
+            437.102
+          ],
+          "quote": "This episode is brought to you by our season's presenting sponsor, WorkOS.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 110,
+          "t": [
+            445.545,
+            447.365
+          ],
+          "quote": "They are all powered by WorkOS.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 112,
+          "t": [
+            457.309,
+            464.332
+          ],
+          "quote": "WorkOS turns those deal blockers into drop-in APIs with a modern developer platform built specifically for B2B SaaS.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 113,
+          "t": [
+            464.852,
+            472.495
+          ],
+          "quote": "Literally every startup that I'm an investor in that starts to expand upmarket ends up working with WorkOS, and that's because they are the best.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 114,
+          "t": [
+            472.875,
+            482.679
+          ],
+          "quote": "Whether you are a seat stage startup trying to land your first enterprise customer or unicorn expanding globally, WorkOS is the fastest path to becoming enterprise ready and unblocking growth.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 116,
+          "t": [
+            486.02,
+            492.147
+          ],
+          "quote": "Visit workos.com to get started or just hit up their Slack where they have actual engineers waiting to answer your questions.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 117,
+          "t": [
+            492.528,
+            498.455
+          ],
+          "quote": "WorkOS allows you to build faster with delightful APIs, comprehensive docs, and a smooth developer experience.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 118,
+          "t": [
+            498.995,
+            502.239
+          ],
+          "quote": "Go to workos.com to make your app enterprise ready today.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "vanta",
+      "type": "company",
+      "role": "company",
+      "name": "Vanta",
+      "file": "Vanta",
+      "primary": false,
+      "how_described": "本集把它说成是播客赞助商，能自动化企业的合规与风险管理（包括SOC 2、ISO 27001等框架），帮助公司快速达成并维持安全合规。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 641,
+          "t": [
+            3422.163,
+            3426.248
+          ],
+          "quote": "I am so excited to tell you about this season's supporting sponsor, Vanta.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 642,
+          "t": [
+            3426.588,
+            3435.98
+          ],
+          "quote": "Vanta helps over 15,000 companies, like Cursor, Ramp, Duolingo, Snowflake, and Atlassian earn and prove trust with their customers.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 647,
+          "t": [
+            3463.347,
+            3472.774
+          ],
+          "quote": "Vanta automates compliance and risk management with over 35 security and privacy frameworks, including SOC 2, ISO 27001, and HIPAA.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 650,
+          "t": [
+            3479.319,
+            3479.98
+          ],
+          "quote": "Learn more at vanta.com/lenny and ...",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 652,
+          "t": [
+            3480.922,
+            3483.407
+          ],
+          "quote": "Learn more at vanta.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 653,
+          "t": [
+            3483.808,
+            3485.691
+          ],
+          "quote": "And as a listener of this podcast, you get $1,000 off Vanta.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 654,
+          "t": [
+            3485.711,
+            3486.393
+          ],
+          "quote": "That's vanta.com/lenny.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

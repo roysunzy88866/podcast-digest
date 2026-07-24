@@ -6,9 +6,17 @@ entity_type: 人物
 # Claire Vo
 
 > [!info] 人物
-> 出现在 1 集 · 金句 4 条 · 关联 10 个
+> 出现在 2 集 · 金句 8 条 · 关联 10 个
 
 ## 金句
+
+![[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo#^q1]]
+
+![[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo#^q2]]
+
+![[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo#^q3]]
+
+![[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo#^q4]]
 
 ![[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#^q3]]
 
@@ -20,8 +28,9 @@ entity_type: 人物
 
 ## 出现在这些集
 
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo》]] — 作为联合主持
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto》]] — 作为主持
 
 ## 关联实体
 
-[[Eddie Kim]] · [[Gusto]] · [[Co-Founder]] · [[vibe code]] · [[垃圾桶法]] · [[拉取请求]] · [[功能标志]] · [[智能体]] · [[智能体循环]] · [[Cloud Code]]
+[[OpenClaw]] · [[智能体]] · [[Lenny]] · [[Eddie Kim]] · [[灵魂]] · [[Gusto]] · [[心跳]] · [[Co-Founder]] · [[提示注入]] · [[vibe code]]

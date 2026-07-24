@@ -1,0 +1,966 @@
+{
+  "episode_id": "2026-04-12-lennys-hard-truths-about-building-in-the-ai-era",
+  "podcast": null,
+  "date": null,
+  "tags": [
+    "人才招聘",
+    "桶与弹药",
+    "AI 时代职业",
+    "反直觉商业观",
+    "团队管理"
+  ],
+  "entities": [
+    {
+      "id": "keith-rabois",
+      "type": "person",
+      "role": "host",
+      "name": "Keith Rabois",
+      "file": "Keith Rabois",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            72.34,
+            74.161
+          ],
+          "quote": "Today, my guest is Keith Rabois.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 29,
+          "t": [
+            118.073,
+            120.255
+          ],
+          "quote": "With that, I bring you Keith Rabois.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 54,
+          "t": [
+            214.626,
+            215.98
+          ],
+          "quote": "iPad Maxing, Keith Rabois.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            110.007,
+            117.733
+          ],
+          "quote": "Before we get into it, don't forget to check out lennysproductpass.com for an incredible set of deals available exclusively to Lenny's newsletter subscribers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 528,
+          "t": [
+            2552.733,
+            2555.235
+          ],
+          "quote": "Learn more at vanta.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2559.438,
+            2560.779
+          ],
+          "quote": "That's vanta.com/lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "barrels-and-ammunition",
+      "type": "concept",
+      "role": "concept",
+      "name": "桶与弹药 (barrels and ammunition)",
+      "file": "桶与弹药",
+      "primary": true,
+      "how_described": "本集把它说成:Keith 最著名的招聘与组织框架。「桶」指能独立把一件事从零做到成功的人(极稀缺),「弹药」是辅助他们的人;盲目招人只增加弹药不增加桶,只会增加协作税让公司变慢。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 194,
+          "t": [
+            932.762,
+            941.96
+          ],
+          "quote": "I want to talk about this framework that you have, barrels and ammunition, because this is really mind-expanding and helping people understand who to even hire.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "density-of-talent",
+      "type": "concept",
+      "role": "concept",
+      "name": "人才密度 (density of talent)",
+      "file": "人才密度",
+      "primary": true,
+      "how_described": "本集把它说成:PayPal 成功的底层原因,即 Peter Thiel 和 Max Levchin 调动了令人难以置信的关键人才密度;也是判断伟大初创公司的核心信号之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            387.19,
+            393.613
+          ],
+          "quote": "It's because Peter Thiel and Max Levchin marshaled an incredible density of talent.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 899,
+          "t": [
+            4160.123,
+            4165.009
+          ],
+          "quote": "Critical density of talent, you see companies just creating an unfair advantage.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "undiscovered-talent",
+      "type": "concept",
+      "role": "concept",
+      "name": "未被发现的才华 (undiscovered talent)",
+      "file": "未被发现的才华",
+      "primary": true,
+      "how_described": "本集把它说成:初创公司对抗大公司的唯一解法。年轻人因为缺乏历史数据点,大公司的标准化黑盒评估系统会漏掉他们,这天然构成了初创公司的 alpha。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 296,
+          "t": [
+            1506.04,
+            1512.585
+          ],
+          "quote": "My more important arc in this is I think you have to build a company on undiscovered talent.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1519.009,
+            1529.157
+          ],
+          "quote": "Peter taught me this literally the first week of my job at PayPal, that the way to build a company, we were jogging around the Stanford campuses, you've got to find these undiscovered talent.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1579.12,
+            1584.213
+          ],
+          "quote": "What's just one tip when you're looking for undiscovered talent that's a sign of, okay, this person is really special?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1627.592,
+            1635.256
+          ],
+          "quote": "Sometimes it's controversial to say this, but one of the reasons why the net impact of my higher undiscovered talent is you wind up skewing younger.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "agency",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agency)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "本集把它说成:主持人用来概括「桶」特质的词,指不用别人推、自己能想尽一切办法把事情办成的主观能动性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 247,
+          "t": [
+            1229.342,
+            1231.799
+          ],
+          "quote": "Agency is the word that comes to mind when you talk about this role.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1232.16,
+            1233.824
+          ],
+          "quote": "Yeah, I think agency is accurate.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1233.904,
+            1237.912
+          ],
+          "quote": "The problem I have with terms like agency is it's a little bit like strategy.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "pm",
+      "type": "concept",
+      "role": "concept",
+      "name": "PM",
+      "file": "PM",
+      "primary": true,
+      "how_described": "本集把它说成:在基础模型能力按周进化的 AI 时代,制定长达一年的产品路线图变得毫无意义,传统的 PM 中间层角色将被淘汰。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0,
+            2.268
+          ],
+          "quote": "... idea of a PM makes no sense in the future.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1110.947,
+            1117.07
+          ],
+          "quote": "Sometimes you may need a designer, an engineering team, a PM, a data analysis, blah, blah, blah.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1276.476,
+            1281.919
+          ],
+          "quote": "So settled on delivery and really wanted to provide a 9:00 PM cold smoothies.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1291.625,
+            1302.531
+          ],
+          "quote": "And so I tried through the office team EAs and nothing ... We never got healthy, delicious, and cold smoothies delivered at 9:00 PM.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1340.472,
+            1347.755
+          ],
+          "quote": "And lo and behold, smoothies show up at 9:00 PM, delivered on the standing desk table where the engineers would congregate.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2133.703,
+            2139.308
+          ],
+          "quote": "And he convinced me that the idea of a PM makes no sense basically in the future.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2139.969,
+            2143.352
+          ],
+          "quote": "If you think about decomposing the logic is what does PM usually do?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2260.162,
+            2269.96
+          ],
+          "quote": "I actually think whether you talk about someone who used to be a PM or someone who used to be a designer or called an engineer, the skill is more like being a CEO now, which is what are we building and why?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2376.116,
+            2381
+          ],
+          "quote": "But I think interestingly, what you're describing to me is what it sounds like what a great PM would be really good at basically represents [inaudible 00:39:41]",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "business-acumen",
+      "type": "concept",
+      "role": "concept",
+      "name": "商业头脑 (business acumen)",
+      "file": "商业头脑",
+      "primary": true,
+      "how_described": "本集把它说成:AI 时代最稀缺的技能。当工具把构建产品的门槛降到极低,最核心的是像 CEO 一样思考「我们在构建什么、为什么要构建」的商业直觉。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 480,
+          "t": [
+            2336.262,
+            2336.624
+          ],
+          "quote": "Business acumen.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2336.644,
+            2337.711
+          ],
+          "quote": "It's basically business acumen.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "psychological-safety",
+      "type": "concept",
+      "role": "concept",
+      "name": "心理安全感 (psychological safety)",
+      "file": "心理安全感",
+      "primary": true,
+      "how_described": "本集把它说成:硅谷流行但被 Keith 毫不妥协否定的概念。他直言「高性能机器不需要心理安全感,它们的目标是赢」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            36.864,
+            39.276
+          ],
+          "quote": "High performance machines don't have psychological safety.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 967,
+          "t": [
+            4473,
+            4478
+          ],
+          "quote": "It feels like you're not focused on psychological safety as a core tenent.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 969,
+          "t": [
+            4481.669,
+            4484.135
+          ],
+          "quote": "High performance machines don't have psychological safety.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 974,
+          "t": [
+            4499.422,
+            4502.698
+          ],
+          "quote": "Do you feel like that's negatively correlated to this idea of psychological safety with success?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1005,
+          "t": [
+            4616.964,
+            4628.29
+          ],
+          "quote": "And if you overemphasize failures and people think they're going to get criticized, this is where psychological safety maybe has some validity, which is be ambitious, be bold.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "network-effects",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络效应 (network effects)",
+      "file": "网络效应",
+      "primary": false,
+      "how_described": "本集把它说成:人们最容易想到的累积优势种类,也是公司成功后唯一能让其稍微免于自满带来负面影响的机制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 832,
+          "t": [
+            3844.488,
+            3850.874
+          ],
+          "quote": "The one that people immediately gravitate to, but it's only one illustration of a set of options is network effects.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "paypal",
+      "type": "company",
+      "role": "company",
+      "name": "PayPal",
+      "file": "PayPal",
+      "primary": true,
+      "how_described": "本集把它说成:著名的 PayPal Mafia 成员之一，他在该组织担任过负责业务发展和政策的执行副总裁。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            85.89,
+            90.913
+          ],
+          "quote": "He's part of the famous PayPal Mafia, where he was executive vice president of business development and policy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 87,
+          "t": [
+            371.02,
+            375.483
+          ],
+          "quote": "So, Vinod distilled it, but I actually learned this back on my PayPal days.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 88,
+          "t": [
+            375.923,
+            379.925
+          ],
+          "quote": "So in the early 2000s, why was PayPal so successful?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 91,
+          "t": [
+            393.913,
+            397.315
+          ],
+          "quote": "So it allowed PayPal to succeed where possibly we wouldn't have.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 94,
+          "t": [
+            421.528,
+            426.411
+          ],
+          "quote": "Back in the PayPal days, when I first started my career in technology, I actually truthfully was not very good at this.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 99,
+          "t": [
+            436.096,
+            443.94
+          ],
+          "quote": "So it was very difficult to get a job at PayPal, unless you had a first degree or second degree connection to the engineering team or to Peter through Stanford.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 107,
+          "t": [
+            473.42,
+            478.725
+          ],
+          "quote": "But what I learned to do is steal people from other people's organizations within PayPal very successfully.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 119,
+          "t": [
+            540.791,
+            549.777
+          ],
+          "quote": "So people that were in the building that I have lunch with or dinner with or go for a runaround the PayPal campus with, I was accurate at diagnosing their abilities.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1024.3,
+            1029.105
+          ],
+          "quote": "So for example, at PayPal, we had about 254 people in Mountain View when we were acquired.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1517.308,
+            1518.969
+          ],
+          "quote": "And I learned this at PayPal.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1519.009,
+            1529.157
+          ],
+          "quote": "Peter taught me this literally the first week of my job at PayPal, that the way to build a company, we were jogging around the Stanford campuses, you've got to find these undiscovered talent.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2389.686,
+            2401.475
+          ],
+          "quote": "Jeremy Stoppelman, he's worked with me very closely at PayPal before he started Yelp and got promoted to be engineering director and vice president of PayPal, had commercial instincts back when he was an individual contributor.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 868,
+          "t": [
+            4029.4,
+            4035.904
+          ],
+          "quote": "And six months in, so two board meetings in, he said to me, he's like, \"I haven't seen this kind of tempo since our PayPal days.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 982,
+          "t": [
+            4512.787,
+            4516.731
+          ],
+          "quote": "All these companies you invested in, all these businesses you've built, PayPal, all these things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1074,
+          "t": [
+            4866.104,
+            4868.728
+          ],
+          "quote": "So you were famously part of the PayPal Mafia.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "airbnb",
+      "type": "company",
+      "role": "company",
+      "name": "Airbnb",
+      "file": "Airbnb",
+      "primary": false,
+      "how_described": "本集把它说成:依赖创始人基础洞察而非客户调研的经典案例(Brian Chesky 是在解决自己付不起房租的问题);也是反直觉观点最终必须成为共识才能成功的代表。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            78.965,
+            85.589
+          ],
+          "quote": "He was an early investor in Stripe, Palantir, Airbnb, YouTube, DoorDash, Ramp, and dozens of other companies.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 168,
+          "t": [
+            822.035,
+            826.298
+          ],
+          "quote": "So in your case, I would've asked you, \"If you were CEO of Airbnb, what would you have done differently?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 177,
+          "t": [
+            856.701,
+            858.822
+          ],
+          "quote": "Because I don't want them to criticize Airbnb.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 181,
+          "t": [
+            874.133,
+            879.938
+          ],
+          "quote": "And then I have a follow-up question, which is usually gold, which is, let's say I asked you this question about Airbnb and you give me this great answer.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 658,
+          "t": [
+            3103.105,
+            3109.83
+          ],
+          "quote": "So Airbnb, you start with a contrarian take, but eventually if the company's going to succeed, it has to become consensus.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 747,
+          "t": [
+            3491.591,
+            3500.98
+          ],
+          "quote": "To some extent, when Brian first pitched me on Airbnb, there was some interesting evidence he already had that this was going to be successful.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 757,
+          "t": [
+            3537.12,
+            3541.092
+          ],
+          "quote": "And I think Airbnb was a good example where he was solving his own problem, saw an opportunity.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "doordash",
+      "type": "company",
+      "role": "company",
+      "name": "DoorDash",
+      "file": "DoorDash",
+      "primary": false,
+      "how_described": "本集提到:其创始人 Tony 会对每一个高管候选人做 20 个背景调查(ruthless referencing)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            78.965,
+            85.589
+          ],
+          "quote": "He was an early investor in Stripe, Palantir, Airbnb, YouTube, DoorDash, Ramp, and dozens of other companies.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 140,
+          "t": [
+            676.035,
+            682.999
+          ],
+          "quote": "So for example, ruthless referencing to me means Tony at DoorDash does 20 references on every single senior hire, 20.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 718,
+          "t": [
+            3372.868,
+            3374.849
+          ],
+          "quote": "So for example, let's go to DoorDash.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 735,
+          "t": [
+            3460.369,
+            3462.98
+          ],
+          "quote": "You're also talking like DoorDash has SMB-ish-",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "ramp",
+      "type": "company",
+      "role": "company",
+      "name": "Ramp",
+      "file": "Ramp",
+      "primary": true,
+      "how_described": "本集把它说成:展现惊人执行速度的典型(在官网上实时显示公司成立的天数逼迫自己,三个月就完成了发卡筹备),也是坚持内部提拔、不招外部高管的代表。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            78.965,
+            85.589
+          ],
+          "quote": "He was an early investor in Stripe, Palantir, Airbnb, YouTube, DoorDash, Ramp, and dozens of other companies.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1538.866,
+            1542.932
+          ],
+          "quote": "I gave a speech at Ramp, how to hire, the talks in detail.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1543.212,
+            1547.077
+          ],
+          "quote": "I also recommend Eric, CEO of Ramp's speech, which is fairly similar.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2425.42,
+            2429.364
+          ],
+          "quote": "Another example is a good friend of mine is director of engineering at Ramp.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2498.404,
+            2507.952
+          ],
+          "quote": "Vanta helps over 15,000 companies like Cursor, Ramp, Duolingo, Snowflake, and Atlassian earn and prove trust with their customers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 885,
+          "t": [
+            4107.48,
+            4112.625
+          ],
+          "quote": "It did lead me to, for example, preempt the series A of Ramp.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 888,
+          "t": [
+            4121.413,
+            4129.88
+          ],
+          "quote": "One of the two signals was how fast Ramp was able to be on the precipice of shipping the cards.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 894,
+          "t": [
+            4146.372,
+            4148.153
+          ],
+          "quote": "Ramp was on the precipice in three months.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 905,
+          "t": [
+            4199.654,
+            4204.996
+          ],
+          "quote": "It's definitely true of Ramp, definitely true of Trade Republic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 930,
+          "t": [
+            4322.02,
+            4325.464
+          ],
+          "quote": "When you talk about speed, I think about Ramp for sure.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 933,
+          "t": [
+            4333.693,
+            4339.519
+          ],
+          "quote": "If you go to days.ramp.com, it's the number of days since they launched and they're just always looking at that number, how long is it?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "square",
+      "type": "company",
+      "role": "company",
+      "name": "Square",
+      "file": "Square",
+      "primary": false,
+      "how_described": "本集提到:Keith 担任 COO 的公司,他在这里学到了「团队即公司」的道理,并发现了著名的「桶」(Taylor Francis)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            91.273,
+            96.017
+          ],
+          "quote": "He's also been chief operating officer at Square, VP of corporate development at LinkedIn.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 36,
+          "t": [
+            140.641,
+            145.026
+          ],
+          "quote": "So when I started working at Square, Jack Dorsey was running the company off an iPad.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 82,
+          "t": [
+            346.102,
+            354.107
+          ],
+          "quote": "The most important lesson I learned when I was working at Square from my board was Vinod Khosla was on my board, and he said, \"The team you build is the company you build.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 153,
+          "t": [
+            738.961,
+            752.071
+          ],
+          "quote": "I've been a longtime investor from the seed round of a company called Faire, founded by two of my colleagues at Square, Max Rhodes and Jeff Colvison worked for me at Square and then the two other co-founders also worked at Square.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1253.003,
+            1264.45
+          ],
+          "quote": "They can be as simple as the now somewhat famous in technology smoothie test, which is, we used to have engineers work pretty hard at Square and pretty late.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1283.1,
+            1290.424
+          ],
+          "quote": "And we had, at that time, a pretty substantial team at Square, office team, EAs, this was not a lean, mean organization.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1435.18,
+            1436.821
+          ],
+          "quote": "This is actually how I wound up at Square.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1451.609,
+            1462.274
+          ],
+          "quote": "And then the investors in Square called me up and they said, \"Hey, we've been looking for almost a year now for someone who knows something about financial services yet is still an entrepreneurial.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1842.001,
+            1846.144
+          ],
+          "quote": "Well, also you have to remember, I remember giving a speech once at Square.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 736,
+          "t": [
+            3463.364,
+            3464.98
+          ],
+          "quote": "Yeah, like Square and things like that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 737,
+          "t": [
+            3465.204,
+            3465.796
+          ],
+          "quote": "Square, yeah.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 738,
+          "t": [
+            3466.201,
+            3467.465
+          ],
+          "quote": "Square is a good example.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 865,
+          "t": [
+            4020.035,
+            4023.857
+          ],
+          "quote": "I remember when Roelof Botha was on my board at Square.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "khosla-ventures",
+      "type": "company",
+      "role": "company",
+      "name": "Khosla Ventures",
+      "file": "Khosla Ventures",
+      "primary": false,
+      "how_described": "本集提到:Keith 目前担任董事总经理的风险投资机构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            96.257,
+            100.86
+          ],
+          "quote": "He's also co-founded two companies, and he's currently managing director at Khosla Ventures.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "criticize in public",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

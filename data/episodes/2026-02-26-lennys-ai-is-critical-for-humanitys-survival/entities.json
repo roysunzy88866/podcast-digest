@@ -1,0 +1,1003 @@
+{
+  "episode_id": "2026-02-26-lennys-ai-is-critical-for-humanitys-survival",
+  "podcast": null,
+  "date": null,
+  "tags": [
+    "AI 转型",
+    "大企业管理",
+    "AI 基础设施",
+    "产品战略框架",
+    "领导力"
+  ],
+  "entities": [
+    {
+      "id": "jeetu-patel",
+      "type": "person",
+      "role": "host",
+      "name": "Jeetu Patel",
+      "file": "Jeetu Patel",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            75.78,
+            79.722
+          ],
+          "quote": "Today, my guest is Jeetu Patel, chief product officer and president at Cisco.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            107.235,
+            113.818
+          ],
+          "quote": "Don't forget to check out lennysproductpass.com for an incredible set of deals available exclusively to Lenny's Newsletter subscribers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 36,
+          "t": [
+            164.356,
+            172.018
+          ],
+          "quote": "Try Sentry and Seer for free at sentry.io/lenny, and use code Lenny for $100 in Sentry credits.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 37,
+          "t": [
+            172.358,
+            174.319
+          ],
+          "quote": "That's S-E-N-T-R-Y.io/Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 45,
+          "t": [
+            235.661,
+            244.088
+          ],
+          "quote": "Learn how to turn your website into a growth engine from a Framer expert, or just get started building for free today at framer.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 46,
+          "t": [
+            244.528,
+            250.614
+          ],
+          "quote": "And if you're a Lenny's Product Pass subscriber, you get an entire year of Framer Pro for free.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 47,
+          "t": [
+            251.074,
+            253.516
+          ],
+          "quote": "Check it out at framer.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 50,
+          "t": [
+            262.404,
+            263.172
+          ],
+          "quote": "Lenny, I'm excited.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1104.42,
+            1116.545
+          ],
+          "quote": "And now what's happened, Lenny, is you have these data centers that might be hundreds of kilometers apart that need to operate like one coherent cluster, which means that they're completely in sync.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1260.77,
+            1273.818
+          ],
+          "quote": "I have data all over and I'm going to be able to make sure that language can be used to compose the data in a way that I can give you, Lenny, the answer to the question that you're looking for that I think is the 0.0001% of the tip of the iceberg.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2355.104,
+            2359.706
+          ],
+          "quote": "And I've been lucky enough, Lenny, that, and this is just dumb luck.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 404,
+          "t": [
+            2515.531,
+            2518.493
+          ],
+          "quote": "Visit samsara.com/lenny to learn more.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2518.833,
+            2522.276
+          ],
+          "quote": "That's S-A-M-S-A-R-A.com/Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2727.3,
+            2735.664
+          ],
+          "quote": "And initially, the hidden benefit that came out of it that I did not realize is it massively, Lenny, simplified our business.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 591,
+          "t": [
+            3635.41,
+            3642.932
+          ],
+          "quote": "And she looks at me, Lenny, and she's like all perplexed and she's like, \"I had no idea that you loved me so much.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 803,
+          "t": [
+            4709.62,
+            4716.124
+          ],
+          "quote": "Experience, Lenny, can jade us, and I always say when people say, \"Oh, entry-level people will never be hired again.\"",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "cisco",
+      "type": "company",
+      "role": "company",
+      "name": "Cisco",
+      "file": "Cisco",
+      "primary": true,
+      "how_described": "本集将它描述为 AI 时代关键的基础设施公司，提供网络、光学和安全技术，将全球数据中心的大量 GPU 完美连接并保持绝对同步。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            30.481,
+            37
+          ],
+          "quote": "To turn Cisco from an older, slower, more traditional enterprise to a very AI-forward company, this is very difficult to do.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 19,
+          "t": [
+            75.78,
+            79.722
+          ],
+          "quote": "Today, my guest is Jeetu Patel, chief product officer and president at Cisco.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 20,
+          "t": [
+            80.182,
+            90.487
+          ],
+          "quote": "Cisco is not a brand that mostly people think about when they think about AI, but not only are they a massive part of the AI infrastructure build-out that is happening right now all over the world.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 21,
+          "t": [
+            90.807,
+            99.932
+          ],
+          "quote": "What Jeetu has achieved internally at Cisco in terms of transforming their culture and ways of working to be AI-first is something that most big company leaders only dream about.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 93,
+          "t": [
+            542.011,
+            552.218
+          ],
+          "quote": "And the way he described it is the work that you have done to turn Cisco the way he described it from an older, slower, more traditional enterprise to a very AI-forward company.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 99,
+          "t": [
+            567.909,
+            579.239
+          ],
+          "quote": "What are two or three things that you've done that you think have been most impactful and effective in helping Cisco lean into AI, not be scared of it, and actually embrace the future?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 106,
+          "t": [
+            604.33,
+            608.752
+          ],
+          "quote": "And so, we made that choice that says, Cisco is going to be not just an iconic company.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 108,
+          "t": [
+            612.953,
+            615.674
+          ],
+          "quote": "He's like, \"I want Cisco not just to be an iconic company.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 109,
+          "t": [
+            616.094,
+            620.516
+          ],
+          "quote": "I want Cisco to also be an iconic and innovative company.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 136,
+          "t": [
+            769.323,
+            774.705
+          ],
+          "quote": "The way that individual success was defined was everyone wanted to be a GM at Cisco.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 148,
+          "t": [
+            843.453,
+            850.416
+          ],
+          "quote": "But you don't have to buy everything all at once, because we also want to be realistic about the fact that not every customer only uses Cisco top to bottom.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 163,
+          "t": [
+            934.16,
+            938.903
+          ],
+          "quote": "I want to take a tangent and make sure people understand what Cisco even does these days.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 164,
+          "t": [
+            939.504,
+            944.427
+          ],
+          "quote": "I think as a lay person, you'll think about Cisco and you're like, \"Okay, they WebEx, yes.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 169,
+          "t": [
+            957.856,
+            963
+          ],
+          "quote": "Give us just a quick glimpse into how Cisco fits into this massive build-out and just what does Cisco these days?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 170,
+          "t": [
+            963.34,
+            965.942
+          ],
+          "quote": "Cisco is a critical infrastructure company for the AI era.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1040.928,
+            1045.449
+          ],
+          "quote": "And the third category of machine data we can play a massive role in at Cisco.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1046.03,
+            1048.43
+          ],
+          "quote": "So, what does Cisco do then?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1132.472,
+            1133.573
+          ],
+          "quote": "And that's what Cisco does.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1873.599,
+            1877.62
+          ],
+          "quote": "Is it going to be logical for people that Cisco built it versus another company building it?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1916.66,
+            1933.709
+          ],
+          "quote": "And so, I think in order to stop that, what you have to do is you have to actually use your scale as an advantage and you have to use the areas where you've got the ability to have permission to play where people feel like this is very logical for a company like Cisco.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 334,
+          "t": [
+            2027.773,
+            2036.84
+          ],
+          "quote": "I'm curious if there's an example you can share either from Box or Cisco where it's just like, \"Okay, this is like we're going to do this because we have the permission to play here.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 340,
+          "t": [
+            2101.06,
+            2113.043
+          ],
+          "quote": "Example of permission to play is, I mean, there's so many ideas that a company the size of Cisco, we have constantly new ideas that keep coming up.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 347,
+          "t": [
+            2160.877,
+            2168.54
+          ],
+          "quote": "And so, why are we not in business-to-consumer tech at Cisco?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 351,
+          "t": [
+            2183.947,
+            2190.93
+          ],
+          "quote": "That's an area where it would be extremely hard for people to growth that Cisco should be the one who's participating in that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2338.683,
+            2341.454
+          ],
+          "quote": "And by the way, he's the CEO of Cisco, in case people-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2343.28,
+            2343.74
+          ],
+          "quote": "He's the CEO of Cisco.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2523.196,
+            2525.978
+          ],
+          "quote": "So, you're currently CPO at Cisco.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2538.18,
+            2551.484
+          ],
+          "quote": "I don't know if it was ... I mean, I instinctively kind of knew it, but it was very, very accentuated at Cisco, because when people say, \"Oh, is scale hard?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2603.6,
+            2630.592
+          ],
+          "quote": "What I found over the years, not just at Cisco, but even when I ... Because I ran a small startup in Chicago for 17 years before I moved over to the Valley, what I found in the large companies is, the communication framework and the lossiness of communication, the telephone game, so to say, has a profoundly negative effect if you're not intentional about it and if you're not careful of it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 528,
+          "t": [
+            3247.826,
+            3267.291
+          ],
+          "quote": "And that is probably one of the lessons that I learned at Cisco in a very stark way, which I didn't fully appreciate it until I got into the details of the infrastructure going, \"Wow, if this thing doesn't work,\" we were ... Every single time, our infrastructure doesn't work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 544,
+          "t": [
+            3360.3,
+            3371.316
+          ],
+          "quote": "It's so interesting how this lesson connects so directly to the lesson you learned from Chuck, the CEO of Cisco, which is, \"Don't expect the praise and the credit.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 836,
+          "t": [
+            4847.365,
+            4856.848
+          ],
+          "quote": "So I actually feel like when I got this new job to run all product for Cisco, there's zero chance I would've been able to do it if AI wasn't there.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集将其描述为 GPU 的制造商，指出 AI 需要海量的算力，而 NVIDIA 的 GPU 是目前 AI 基础设施建设的核心。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 195,
+          "t": [
+            1096.714,
+            1102.539
+          ],
+          "quote": "That's what we end up doing is NVIDIA makes the GPUs and we connect those GPUs together.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到使用 OpenAI 的 Codex 模型和开发工具辅助编写代码，并引用了其前工程师关于把 AI 当作团队队友的建议。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            536.687,
+            541.23
+          ],
+          "quote": "We got connected through Kevin Weil, who is former CPO at OpenAI, now head of science at OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1314.17,
+            1327.773
+          ],
+          "quote": "And so our biggest realization that we had when we were using Codex, for example, when we were writing a code with OpenAI's kind of model and development tool, was the first three months we were screwing around with this.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1332.235,
+            1341.477
+          ],
+          "quote": "In fact, there was a former deployed engineer from OpenAI that told us about this, which is, \"Hey, stop trying to think of this as a tool.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "box",
+      "type": "company",
+      "role": "company",
+      "name": "Box",
+      "file": "Box",
+      "primary": false,
+      "how_described": "本集被提及为嘉宾的前雇主，他在这里与前 CEO Aaron Levie 共同探讨并提炼出了「获胜权」的商业战略概念。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 292,
+          "t": [
+            1790.089,
+            1794
+          ],
+          "quote": "I talked to Aaron Levie, your former boss at Box.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1866.856,
+            1873.539
+          ],
+          "quote": "Is it going to be logical for people that Box built it versus another company building it?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 334,
+          "t": [
+            2027.773,
+            2036.84
+          ],
+          "quote": "I'm curious if there's an example you can share either from Box or Cisco where it's just like, \"Okay, this is like we're going to do this because we have the permission to play here.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 520,
+          "t": [
+            3199.303,
+            3200.024
+          ],
+          "quote": "I worked at Box.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 669,
+          "t": [
+            4031.027,
+            4032.948
+          ],
+          "quote": "And I'm thinking to myself, I was a box at the time.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "megatrend",
+      "type": "concept",
+      "role": "concept",
+      "name": "超级趋势 (megatrend)",
+      "file": "超级趋势",
+      "primary": true,
+      "how_described": "本集将其描述为能影响世界上大量人口的、不可逆的长期大趋势，强调企业必须在面对它时全力以赴，绝不能像对待「炒作周期」那样去对冲风险。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            20.641,
+            24.389
+          ],
+          "quote": "You have to know the difference between a megatrend and a hype cycle.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 6,
+          "t": [
+            24.629,
+            26.333
+          ],
+          "quote": "When there's a megatrend, don't fight it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 7,
+          "t": [
+            26.353,
+            30
+          ],
+          "quote": "AI is a megatrend, one of the most foundational movements that we have seen in human history.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 757,
+          "t": [
+            4470.088,
+            4474.93
+          ],
+          "quote": "And by the way, you have to know the difference between a megatrend and a hype cycle.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 758,
+          "t": [
+            4476.051,
+            4486.215
+          ],
+          "quote": "When there's a megatrend, don't fight it and don't succumb to the temptation of trying to go out and do vanity work for a hype cycle.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 763,
+          "t": [
+            4500.242,
+            4501.535
+          ],
+          "quote": "I imagine AI megatrend.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 764,
+          "t": [
+            4502.26,
+            4511.965
+          ],
+          "quote": "AI is a megatrend in my mind, and there's a bunch of hype cycles we've had where I never particularly subscribe to them.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 766,
+          "t": [
+            4525.291,
+            4535.296
+          ],
+          "quote": "When you feel like you need a PhD to understand what someone's saying, chances are it ain't going to be a megatrend, because by definition, a megatrend is it's going to impact a large population of the world.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "right-to-win",
+      "type": "concept",
+      "role": "concept",
+      "name": "获胜权 (right to win)",
+      "file": "获胜权",
+      "primary": true,
+      "how_described": "本集将其定义为产品战略的核心考量：企业只应在自己拥有天然优势、逻辑契合且有分销渠道的领域参与竞争，以获取不成比例的回报。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 296,
+          "t": [
+            1803.307,
+            1810.753
+          ],
+          "quote": "And he share this concept of the right to win, which he says has informed the way he thinks about strategy ever since.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1878.7,
+            1881.142
+          ],
+          "quote": "So, that's this notion of permission to play, the right to win.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1881.182,
+            1884.163
+          ],
+          "quote": "Do we have a right to win in that area because we have permission to play?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "ai-infrastructure",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 基础设施 (AI infrastructure)",
+      "file": "AI 基础设施",
+      "primary": true,
+      "how_described": "本集将其描述为当下全球正大规模投资建设的关键底座，指出算力、网络带宽的短缺是制约 AI 发展的主要瓶颈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            80.182,
+            90.487
+          ],
+          "quote": "Cisco is not a brand that mostly people think about when they think about AI, but not only are they a massive part of the AI infrastructure build-out that is happening right now all over the world.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 166,
+          "t": [
+            947.489,
+            952.693
+          ],
+          "quote": "You guys are key to this massive AI infrastructure build-out that's happening right now.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集引用了 OpenAI 工程师的建议，主张不应把 AI 仅当成工具，而应把它当成团队里的智能体（队友），这会彻底改变人类使用技术的方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            150.211,
+            152.872
+          ],
+          "quote": "Seer, Sentry's AI debugging agent takes it from there.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "capabilities-overhang",
+      "type": "concept",
+      "role": "concept",
+      "name": "能力过剩 (capabilities overhang)",
+      "file": "能力过剩",
+      "primary": true,
+      "how_described": "本集将其描述为当前 AI 领域一种「进步的悖论」：前沿科学界正用 AI 创造奇迹，但普通企业却在采用上挣扎，前沿速度远超组织消化能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            357.802,
+            360.744
+          ],
+          "quote": "One is the capabilities overhang is real.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 70,
+          "t": [
+            394.599,
+            397
+          ],
+          "quote": "So, that was one is, the capabilities overhang is real.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集将其描述为 AI 安全风险的必要制衡机制，强调必须为 AI 设置护栏，确保它是为人类服务，而不是自己去建立一个独立的社会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 227,
+          "t": [
+            1380.753,
+            1390.517
+          ],
+          "quote": "And we have to make sure that we actually keep guardrails around that, because it is in service of humans, it is not to go out and build a society by itself.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1779.217,
+            1786.84
+          ],
+          "quote": "And as you have more automation in the world, being intentional not just with humans but also with machines and what you want to do to create the guardrails, I think is pretty important.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "packet-loss",
+      "type": "concept",
+      "role": "concept",
+      "name": "丢包 (packet loss)",
+      "file": "丢包",
+      "primary": true,
+      "how_described": "本集借用这一网络传输概念，生动比喻大公司管理层级过多会导致战略叙事和信息传递在层层传达中出现严重的「丢包」和失真。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 457,
+          "t": [
+            2847.765,
+            2850.087
+          ],
+          "quote": "We have this concept in networking called packet loss.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2858.295,
+            2863
+          ],
+          "quote": "You don't want to have packet loss in your storytelling from you to the person on the front line because-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2865.34,
+            2869.283
+          ],
+          "quote": "This is just a direct connection and there's no packet loss of this one.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "hype-cycle",
+      "type": "concept",
+      "role": "concept",
+      "name": "炒作周期 (hype cycle)",
+      "file": "炒作周期",
+      "primary": false,
+      "how_described": "本集将其与「超级趋势」对立，描述为一种需要极高学历才能听懂的、过度复杂的概念，企业不应为其做虚荣的工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            20.641,
+            24.389
+          ],
+          "quote": "You have to know the difference between a megatrend and a hype cycle.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 757,
+          "t": [
+            4470.088,
+            4474.93
+          ],
+          "quote": "And by the way, you have to know the difference between a megatrend and a hype cycle.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 758,
+          "t": [
+            4476.051,
+            4486.215
+          ],
+          "quote": "When there's a megatrend, don't fight it and don't succumb to the temptation of trying to go out and do vanity work for a hype cycle.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "platform",
+      "type": "concept",
+      "role": "concept",
+      "name": "平台 (platform)",
+      "file": "平台",
+      "primary": false,
+      "how_described": "本集将其描述为企业打破内部各自为政孤岛的组织目标，强调平台应做到「松散耦合但紧密集成」，同时它也是普通人成功的关键杠杆。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            810.2,
+            820.524
+          ],
+          "quote": "So, the thing we did was we said, \"We have to become not a holding company of 251 acquisitions and thousands of different products, we have to become a platform company.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 145,
+          "t": [
+            821.504,
+            830.188
+          ],
+          "quote": "And the characteristic of the platform is you have to be tightly integrated where the customer feels the same emotion, no matter what product of ours they use.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 161,
+          "t": [
+            917.951,
+            930.718
+          ],
+          "quote": "And so, that's what we did, and I think that's been those principles of building great products, but making sure that it operates like a platform and having an open ecosystem, I think has been kind of central.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1133.633,
+            1150
+          ],
+          "quote": "We provide the networking, we provide the optics technology, we provide the safety and security technology, we provide the observability, we provide the data platform, all of those things together for making sure that we provide critical infrastructure for the AI era.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 637,
+          "t": [
+            3840.14,
+            3849.283
+          ],
+          "quote": "The platform that you choose and the quality of problems that you pick to solve actually determine a lot of the path of success for you.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 670,
+          "t": [
+            4032.988,
+            4049.974
+          ],
+          "quote": "I'm like, \"This guy is smarter than every person on the executive team and probably just as smart as every salesperson we have, but he's making $10 a day and all of us are enjoying this amazing life, and it's because we have access to a platform and he doesn't.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 674,
+          "t": [
+            4071.462,
+            4075.103
+          ],
+          "quote": "And make sure that you pick the platform that can actually give you that springboard.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 676,
+          "t": [
+            4077.424,
+            4093.348
+          ],
+          "quote": "And if we, like I had the platform and benefit of America, of education, of being in tech, of having great friends and mentors, all of those things created compounding value.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 677,
+          "t": [
+            4094.068,
+            4108.012
+          ],
+          "quote": "But I intentionally sought out those platforms, seek out the platform, be obsessed about being extremely prepared, and don't be intellectually lazy.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

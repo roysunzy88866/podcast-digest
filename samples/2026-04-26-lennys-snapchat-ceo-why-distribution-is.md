@@ -129,9 +129,12 @@ Evan 曾在内部信中称今年为 Snap 的「关键时刻」（crucible moment
 
 ## 相关单集
 
+- [[2026-03-01-lennys-the-design-process-is-dead|《2026-03-01-lennys-the-design-process-is-dead》]] —— 同公司:Claude · 同概念:智能体 (agents)
 - [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:护城河 (moat)
 - [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《2026-03-22-lennys-the-art-of-influence-jessica-fain》]] —— 同概念:智能体 (agents)
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|《2026-06-14-lennys-the-common-pattern-behind-successful》]] —— 同概念:分发 (distribution)
 - [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for》]] —— 同公司:TikTok · 同概念:智能体 (agents)
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《2026-04-05-lennys-anthropics-1b-to-19b-growth-run》]] —— 同公司:Claude
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《2026-04-19-lennys-why-half-of-product-managers-are-in-trou》]] —— 同公司:Claude
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《2026-06-07-lennys-father-of-the-ipod-and-iphone-on》]] —— 同公司:Claude
 

@@ -1,0 +1,1267 @@
+{
+  "episode_id": "2026-06-21-lennys-building-the-most-ai-pilled-engineering",
+  "podcast": null,
+  "date": null,
+  "tags": [
+    "AI 团队管理",
+    "智能体",
+    "工程文化",
+    "工作流重构",
+    "验证"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            160.577,
+            161.199
+          ],
+          "quote": "having me Lenny",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 506,
+          "t": [
+            1655.416,
+            1660.999
+          ],
+          "quote": "here first on Lenny's podcast I think macrame is coming back but that was probably",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1787,
+          "t": [
+            5899.679,
+            5901.102
+          ],
+          "quote": "having me Lenny bye everyone",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fiona-fung",
+      "type": "person",
+      "role": "cohost",
+      "name": "Fiona Fung",
+      "file": "Fiona Fung",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            65.195,
+            66.777
+          ],
+          "quote": " Today my guest is Fiona Fung.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            128.118,
+            130.119
+          ],
+          "quote": " With that I bring you Fiona Fung",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集讨论的受访者所在公司，开发了 Claude 系列模型，团队内部重度使用自研的 Claude Code 和 Co-work，实现了工程师代码产量 8 倍的爆发式增长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.091,
+            3.636
+          ],
+          "quote": "Anthropic engineers on average have eight times as much code per quarter as they",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            67.098,
+            70.843
+          ],
+          "quote": "Fiona leads the teams behind Claude Code and Cowork at Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            80.217,
+            85.404
+          ],
+          "quote": " Before Anthropic, at Microsoft, Fiona ran the teams that built TypeScript and Visual Studio.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            119.206,
+            120.848
+          ],
+          "quote": "especially now at Anthropic,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            213.272,
+            217.014
+          ],
+          "quote": "anthropic engineers on average have eight times as much code per quarter as they",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            415.773,
+            416.374
+          ],
+          "quote": "Anthropic,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 581,
+          "t": [
+            1911.397,
+            1918.159
+          ],
+          "quote": "Anthropic has been super early on uncovering these really big opportunities ahead",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 609,
+          "t": [
+            1996.296,
+            2000.699
+          ],
+          "quote": "even outside of Anthropic that served me well in all the different products I've",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 735,
+          "t": [
+            2415.28,
+            2418.282
+          ],
+          "quote": "you guys have the unfair advantage of getting free tokens working in Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 980,
+          "t": [
+            3176.534,
+            3177.074
+          ],
+          "quote": "Anthropic,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 982,
+          "t": [
+            3178.215,
+            3182.037
+          ],
+          "quote": "And you moved to IC, IC engineer basically at Anthropic from that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1113,
+          "t": [
+            3609.704,
+            3613.925
+          ],
+          "quote": "Anthropic I'm curious so engineering like the most transformed I think of any role",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1115,
+          "t": [
+            3618.387,
+            3622.529
+          ],
+          "quote": "say within Anthropic that's most different from how it was like a couple years ago",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1610,
+          "t": [
+            5305.264,
+            5309.547
+          ],
+          "quote": "haven't watched tv shows that's very common across anthropic people I have on the",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": false,
+      "how_described": "本集提到受访者早期曾在此工作，她在此领导构建了 TypeScript 和 Visual Studio 的团队，并在此完成了从 Vim 到使用 IDE 的转变。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            80.217,
+            85.404
+          ],
+          "quote": " Before Anthropic, at Microsoft, Fiona ran the teams that built TypeScript and Visual Studio.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            267.289,
+            271.311
+          ],
+          "quote": "But the funny thing was, I think there's even a big shift from IBM to Microsoft.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            286.415,
+            289.856
+          ],
+          "quote": " And then when I joined Microsoft, I mean, this is how naive I was.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 100,
+          "t": [
+            310.299,
+            313.28
+          ],
+          "quote": "So I was so fortunate when Microsoft extended me an offer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1214.139,
+            1218.9
+          ],
+          "quote": "was the shift from Microsoft to Meta that was where I first real that first year",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 985,
+          "t": [
+            3186.82,
+            3190.561
+          ],
+          "quote": "but actually this was my journey between Microsoft and Meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 991,
+          "t": [
+            3199.519,
+            3203.743
+          ],
+          "quote": "Because before then I was at Microsoft, kind of like cut my teeth on engineering at Microsoft.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集提到受访者曾在Instagram和Meta负责基础设施、增长和安全团队，并在此深刻领悟了什么是真正的成长型心态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            96.84,
+            97.681
+          ],
+          "quote": "Also while at Meta,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            97.881,
+            100.424
+          ],
+          "quote": "she oversaw work on Meta's first smart glasses product,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            109.293,
+            112.236
+          ],
+          "quote": "While at Instagram and at Meta, she oversaw an org of over 500 people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1214.139,
+            1218.9
+          ],
+          "quote": "was the shift from Microsoft to Meta that was where I first real that first year",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 727,
+          "t": [
+            2395.915,
+            2401.496
+          ],
+          "quote": "meta that was like his job is measuring inch productivity and uh and then also just",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 979,
+          "t": [
+            3172.572,
+            3176.494
+          ],
+          "quote": "you were overseeing an org of like 500 people at Meta before you moved to",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 985,
+          "t": [
+            3186.82,
+            3190.561
+          ],
+          "quote": "but actually this was my journey between Microsoft and Meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 986,
+          "t": [
+            3190.722,
+            3191.502
+          ],
+          "quote": "So at Meta,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 990,
+          "t": [
+            3197.718,
+            3199.499
+          ],
+          "quote": " what it's like to be a meta engineer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 995,
+          "t": [
+            3211.809,
+            3215.532
+          ],
+          "quote": "like actually learn what it's like to ship as a meta engineer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1025,
+          "t": [
+            3317.645,
+            3319.026
+          ],
+          "quote": "It's such a meta role,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1737,
+          "t": [
+            5724.637,
+            5727.919
+          ],
+          "quote": "This is very meta for Claude Code building itself.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ibm",
+      "type": "company",
+      "role": "company",
+      "name": "IBM",
+      "file": "IBM",
+      "primary": false,
+      "how_described": "受访者职业生涯的起点，在此使用 Vim 和终端调试从事 DB2 操作系统服务团队的工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            180.173,
+            182.115
+          ],
+          "quote": "You started at IBM, of all places.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            246.032,
+            250.415
+          ],
+          "quote": "Yeah, like IBM working on DB2, the operating system services team.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            262.986,
+            266.368
+          ],
+          "quote": "So I was really fortunate to have gotten into the IBM internship.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 83,
+          "t": [
+            267.289,
+            271.311
+          ],
+          "quote": "But the funny thing was, I think there's even a big shift from IBM to Microsoft.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            271.792,
+            274.053
+          ],
+          "quote": "So at IBM, it was, I think, Vim.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1329.213,
+            1331.073
+          ],
+          "quote": "it's funny when we were going back to IBM,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集核心讨论的 AI 辅助编码产品，它让编码不再是瓶颈。不仅工程师，连 PM 和设计师都在用它提交代码，并通过挂载在所有代码库上的远程会话帮助管理者掌握团队工作进度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            67.098,
+            70.843
+          ],
+          "quote": "Fiona leads the teams behind Claude Code and Cowork at Anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1521,
+          "t": [
+            4990.223,
+            4994.667
+          ],
+          "quote": "like one other thing that's really big on Claude code and co-work team culture is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1737,
+          "t": [
+            5724.637,
+            5727.919
+          ],
+          "quote": "This is very meta for Claude Code building itself.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "co-work",
+      "type": "company",
+      "role": "concept",
+      "name": "co-work",
+      "file": "co-work",
+      "primary": true,
+      "how_described": "Anthropic 推出的辅助日常任务的智能体产品，受访者用它报销差旅，还发现小企业主可以用它处理发票或在混乱的下载文件夹里找菜单并做市场分析。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 172,
+          "t": [
+            539.16,
+            543.701
+          ],
+          "quote": "like we're seeing with with Cloud Code and Co-Work is coding is no longer the",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            866.93,
+            871.397
+          ],
+          "quote": "look at what people are saying about the current state of cloud code and co-work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 513,
+          "t": [
+            1672.295,
+            1679.147
+          ],
+          "quote": "And then how it happened was I was using co-work for my own business, expensing travel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 515,
+          "t": [
+            1684.165,
+            1688.308
+          ],
+          "quote": "using co-work it was magic I'm like all these things that I don't like to do like",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 516,
+          "t": [
+            1688.328,
+            1691.75
+          ],
+          "quote": "co-work is doing for me and I'm like wait a minute all my friends and honestly",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 528,
+          "t": [
+            1735.574,
+            1739.014
+          ],
+          "quote": "co-work in ways that I wouldn't have thought about because I was all fixated on",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 535,
+          "t": [
+            1761.666,
+            1765.427
+          ],
+          "quote": "work so we gave co-work access to the directory found the menus and then she's in a",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 562,
+          "t": [
+            1870.158,
+            1875.183
+          ],
+          "quote": " You know, co-work is possible and then, but it ended up, we ended up having a lot of fun.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 572,
+          "t": [
+            1893.68,
+            1898.462
+          ],
+          "quote": "I was just using co-work the other day to fill out my son's camp forms and just",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 578,
+          "t": [
+            1903.545,
+            1906.667
+          ],
+          "quote": "It's just like these little things you don't think about that co-work and clockwork can do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 579,
+          "t": [
+            1907.647,
+            1909.208
+          ],
+          "quote": "Kind of along those lines, speaking of co-work,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 589,
+          "t": [
+            1930.703,
+            1934.224
+          ],
+          "quote": "And then co-work is a great example, just leaning into knowledge work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 603,
+          "t": [
+            1972.649,
+            1976.97
+          ],
+          "quote": "co-work like we also keep an eye on like latent demand now we're very fortunate",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 606,
+          "t": [
+            1985.753,
+            1989.554
+          ],
+          "quote": "but latent demand has has been like a like for example a co-work we know to say a",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 617,
+          "t": [
+            2026.325,
+            2030.889
+          ],
+          "quote": "business bundles it all up so inside co-work you just have this little toggle and",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 619,
+          "t": [
+            2034.692,
+            2038.335
+          ],
+          "quote": "know doing uh co-work sessions with small business that probably found hey we could",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 707,
+          "t": [
+            2332.296,
+            2336.677
+          ],
+          "quote": "the cloud code and co-work team but it's interesting I say along with high because",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 941,
+          "t": [
+            3085.312,
+            3088.794
+          ],
+          "quote": "co-work and code so even me doing PRs it's less about",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1055,
+          "t": [
+            3409.416,
+            3413.499
+          ],
+          "quote": "Because what we also learned was on Cloud Code, everybody uses Cloud Code and Co-Work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1081,
+          "t": [
+            3478.135,
+            3481.757
+          ],
+          "quote": "our team just uses Cloud Code and co-work in different ways and so every time I",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1436,
+          "t": [
+            4693.127,
+            4697.029
+          ],
+          "quote": "cloud code and co-work team culture that's and the team culture is really important",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1496,
+          "t": [
+            4894.959,
+            4899.58
+          ],
+          "quote": "I think one of the important things to the Cloud Code and Co-Work team is whether",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1521,
+          "t": [
+            4990.223,
+            4994.667
+          ],
+          "quote": "like one other thing that's really big on Claude code and co-work team culture is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1760,
+          "t": [
+            5804.671,
+            5806.432
+          ],
+          "quote": "And then co-work would help you automate everything.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "visual-studio",
+      "type": "company",
+      "role": "concept",
+      "name": "Visual Studio",
+      "file": "Visual Studio",
+      "primary": false,
+      "how_described": "受访者曾在微软 Visual Studio 编辑器团队工作了11年，这是她首次接触带有多线程调试等高级功能的 IDE，并在此培养了对“内部试用”的热爱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            80.217,
+            85.404
+          ],
+          "quote": " Before Anthropic, at Microsoft, Fiona ran the teams that built TypeScript and Visual Studio.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            314.1,
+            315.84
+          ],
+          "quote": "And so they're like, you're going to work on Visual Studio.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            316.362,
+            320.125
+          ],
+          "quote": "I did not even know what Visual Studio was because I came from like a Unix school",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 103,
+          "t": [
+            320.165,
+            323.808
+          ],
+          "quote": "so I remembered asking oh because I was thinking about the name Visual Studio I'm",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 107,
+          "t": [
+            337.58,
+            342.404
+          ],
+          "quote": "used an IDE so joining the Visual Studio team seeing oh wow like here's an IDE with",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            352.895,
+            357.599
+          ],
+          "quote": "of the story going from Ibram to Visual Studio and then what I really loved",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            357.679,
+            362.463
+          ],
+          "quote": "actually about Visual Studio is I was on the Visual Studio editor team so I use a",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            485.747,
+            488.828
+          ],
+          "quote": "Not quite what we're living through, but just like IDEs, Visual Studio.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            496.671,
+            500.212
+          ],
+          "quote": "Yeah, when I worked on Visual Studio back then, we also shipped software on CDs.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "facebook-marketplace",
+      "type": "company",
+      "role": "concept",
+      "name": "Facebook Marketplace",
+      "file": "Facebook Marketplace",
+      "primary": false,
+      "how_described": "受访者曾在 Meta 创立的团队，并将其从想法推向发布。她分享了早期在智利因 LTE 网络慢导致无法加载信息流的轶事，印证了关注用户真实体验的重要性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            86.927,
+            88.789
+          ],
+          "quote": "where she started the Facebook Marketplace team,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            91.753,
+            93.916
+          ],
+          "quote": "Today, Facebook Marketplace generates over $100 billion",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 787,
+          "t": [
+            2573.12,
+            2574.26
+          ],
+          "quote": "Facebook marketplace days",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1248,
+          "t": [
+            4057.733,
+            4062.875
+          ],
+          "quote": "a Facebook marketplace we're trying to launch to Latin America and so we had you",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成是未来工作流的核心：每个人都开始与智能体紧密工作，甚至可以在你睡觉时由例行程序唤醒去自动写代码，但也带来了一种“孤独的体验”。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 258,
+          "t": [
+            800.224,
+            804.925
+          ],
+          "quote": "routines it's almost like I'm you know having an agent help me Jerry like generate",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 651,
+          "t": [
+            2139.247,
+            2142.888
+          ],
+          "quote": "like asynchronous and so to your point the fleets of agent like that that's why",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 706,
+          "t": [
+            2328.135,
+            2332.276
+          ],
+          "quote": "that's agent it's I love that word agency that's what we really hold important on",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "routine",
+      "type": "concept",
+      "role": "concept",
+      "name": "例行程序 (routine)",
+      "file": "例行程序",
+      "primary": true,
+      "how_described": "受访者将它重构为一种新的异步工作流：不再是同步写提示，而是设定时间让程序自动聚合多渠道反馈，并唤醒多个智能体写好 PR 等待人类醒来审查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 255,
+          "t": [
+            790.75,
+            794.193
+          ],
+          "quote": "changed like now I just have a routine that automates all this for me and then",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 274,
+          "t": [
+            861.403,
+            865.228
+          ],
+          "quote": "which is this kind of daily ritual slash routine where you,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 654,
+          "t": [
+            2151.491,
+            2156.492
+          ],
+          "quote": "asynchronously but now I can actually have a routine that actually generates you",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 665,
+          "t": [
+            2192.77,
+            2196.952
+          ],
+          "quote": "then now like I have a routine that I set to run every morning at a certain time to",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 676,
+          "t": [
+            2230.589,
+            2235.272
+          ],
+          "quote": "okay now how can I actually write a routine that also basically does prompts for me",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "verification",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证 (verification)",
+      "file": "验证",
+      "primary": true,
+      "how_described": "本集核心主线之一：当 AI 让代码产量剧增后，工作流的重心便从「如何产出」转向了如何验证。它也是“信任但验证”的基石。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 184,
+          "t": [
+            563.271,
+            564.912
+          ],
+          "quote": "How do we think about verification?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 192,
+          "t": [
+            581.986,
+            586.348
+          ],
+          "quote": "So you mentioned this point about a more focus on verification,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1065.833,
+            1066.694
+          ],
+          "quote": "the verification.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 694,
+          "t": [
+            2278.318,
+            2282.822
+          ],
+          "quote": "what like go for it like for example a verification is really good yeah go for it I",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1128,
+          "t": [
+            3658.543,
+            3662.225
+          ],
+          "quote": "the verification is important because when you have more different disciplines",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1293,
+          "t": [
+            4206.588,
+            4211.292
+          ],
+          "quote": "and so I have like actually the verification is still one that we I think and",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1305,
+          "t": [
+            4244.203,
+            4249.165
+          ],
+          "quote": "Basically, how do you set up a verification that the experience is what you wanted it to be?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "test-driven-development",
+      "type": "concept",
+      "role": "concept",
+      "name": "测试驱动开发 (test driven development)",
+      "file": "测试驱动开发",
+      "primary": true,
+      "how_described": "原本像“先吃西兰花”一样痛苦的约束，被智能体变成了无缝的自动化流程：Claude 可以根据规格说明先写好测试并确保失败，然后再去实现代码。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 299,
+          "t": [
+            952.985,
+            955.488
+          ],
+          "quote": "Basically, it's like the evolution of test-driven development.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            984.399,
+            988.242
+          ],
+          "quote": "hey I want to do test driven development help me write the test first make sure it",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dogfooding",
+      "type": "concept",
+      "role": "concept",
+      "name": "内部试用 (dogfooding)",
+      "file": "内部试用",
+      "primary": true,
+      "how_described": "受访者坚持的实践：亲自使用自己团队构建的产品，以便像用户一样保持对产品脉搏的感知，而不是迷失在指标和仪表盘中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1180,
+          "t": [
+            3824.319,
+            3828.2
+          ],
+          "quote": "obsession with the the product living breathing the product dogfooding I talked to",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1183,
+          "t": [
+            3835.003,
+            3839.345
+          ],
+          "quote": "product constantly whatever it is you're building this idea of dogfooding talk",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pairwise-programming-lunch",
+      "type": "concept",
+      "role": "concept",
+      "name": "结对编程午餐 (pairwise programming lunch)",
+      "file": "结对编程午餐",
+      "primary": false,
+      "how_described": "为了对抗与智能体协作带来的“孤独感”，受访者发起的活动：让大家并排坐在一起，各自用自己的方式跑 Claude Code，互相观摩新奇用法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            41.214,
+            44.015
+          ],
+          "quote": "Recently, we started a pairwise programming lunch.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1054,
+          "t": [
+            3404.632,
+            3408.855
+          ],
+          "quote": "So recently we started maybe like a pairwise programming lunch.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "latent-demand",
+      "type": "concept",
+      "role": "concept",
+      "name": "潜在需求 (latent demand)",
+      "file": "潜在需求",
+      "primary": false,
+      "how_described": "受访者提到，通过观察用户跳过重重障碍去完成某种非预期行为，从而发现新的市场机会，比如非程序员也在大量使用 cloud code 写代码。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 603,
+          "t": [
+            1972.649,
+            1976.97
+          ],
+          "quote": "co-work like we also keep an eye on like latent demand now we're very fortunate",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 606,
+          "t": [
+            1985.753,
+            1989.554
+          ],
+          "quote": "but latent demand has has been like a like for example a co-work we know to say a",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1773,
+          "t": [
+            5851.953,
+            5857.036
+          ],
+          "quote": "feedback of what's going well what's not going well also any latent demand that you",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "jit-planning",
+      "type": "concept",
+      "role": "concept",
+      "name": "准时制规划 (JIT planning)",
+      "file": "准时制规划",
+      "primary": false,
+      "how_described": "取代了漫长的六个月路线图，受访者把长线规划缩短为极轻量的规划：仅用一个电子表格列出当月的最高优先级，并每周与团队做一次极简对齐。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1546,
+          "t": [
+            5077.314,
+            5081.375
+          ],
+          "quote": "yeah I call it JIT planning now like just in time planning so it is like around",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "growth-mindset",
+      "type": "concept",
+      "role": "concept",
+      "name": "成长型心态 (growth mindset)",
+      "file": "成长型心态",
+      "primary": true,
+      "how_described": "受访者认为这是应对 AI 浪潮中受挫感的核心解药，它意味着始终保持好奇心与学习意愿，并勇于改变曾经让自己成功的旧习惯。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 379,
+          "t": [
+            1204.497,
+            1209.598
+          ],
+          "quote": "I would say a growth mindset really really helps like actually even before AI",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1218.92,
+            1223.141
+          ],
+          "quote": "I'm like oh this is what having a growth mindset really means it's really this",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1247.502,
+            1253.286
+          ],
+          "quote": "successful and so I would say like the growth mindset is is really really has has",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 784,
+          "t": [
+            2558.877,
+            2563.158
+          ],
+          "quote": "always keep in mind of is you know kind of my whole growth mindset of is it still",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 923,
+          "t": [
+            3008.754,
+            3012.575
+          ],
+          "quote": "whole theme of kind of growth mindset it's just because the landscape is changing",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

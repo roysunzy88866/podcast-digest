@@ -1,0 +1,1516 @@
+{
+  "episode_id": "2026-03-01-lennys-the-design-process-is-dead",
+  "podcast": null,
+  "date": null,
+  "tags": [
+    "设计流程演变",
+    "AI 工作流",
+    "设计师角色",
+    "管理层退回一线",
+    "招聘原型"
+  ],
+  "entities": [
+    {
+      "id": "jenny-wen",
+      "type": "person",
+      "role": "host",
+      "name": "Jenny Wen",
+      "file": "Jenny Wen",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            80.46,
+            81.821
+          ],
+          "quote": "Today's guest is Jenny Wen.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            116.715,
+            123.418
+          ],
+          "quote": "Don't forget to check out Lennysproductpass.com for an incredible set of deals available exclusively to Lenny's newsletter subscribers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 47,
+          "t": [
+            247.741,
+            250.707
+          ],
+          "quote": "Learn more at Orkes.io/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 48,
+          "t": [
+            250.908,
+            251.89
+          ],
+          "quote": "That's O-R-K-E-S.io/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1750.376,
+            1759.94
+          ],
+          "quote": "If you think about the hardest times that you've had at work, Lenny, it's probably things like, oh, you and some other person disagreeing about what should go into this feature or what shouldn't go into this feature.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2115.533,
+            2123.876
+          ],
+          "quote": "If you want AI analytics in your product without building the whole stack from scratch, check out omni.co/lenny for a free three-week trial.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 363,
+          "t": [
+            2130.058,
+            2131.019
+          ],
+          "quote": "That's OMNI.co/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 683,
+          "t": [
+            4240.652,
+            4252.419
+          ],
+          "quote": "I think this has very little to do with the stuff on your podcast, Lenny, but it's just a book that I really love, and just makes you think about mortality, but also love and life and stuff like that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 778,
+          "t": [
+            4616.208,
+            4617.456
+          ],
+          "quote": "It was great chatting Lenny.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集把它说成：处于 AI 风暴中心的 AI 实验室，嘉宾在此领导设计工作，内部 Slack 充满行业洞见，研究和原型开发节奏极快。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            608.905,
+            613.488
+          ],
+          "quote": "Someone may be hearing this, okay, Anthropic Claude, okay, they're at the bleeding edge, for one.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 122,
+          "t": [
+            781.873,
+            786.056
+          ],
+          "quote": "And so what's it just like to be a designer at Anthropic?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 123,
+          "t": [
+            786.096,
+            790.6
+          ],
+          "quote": "Just give us a day in the life of working at Anthropic, at the center of the storm.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 124,
+          "t": [
+            791.12,
+            799.403
+          ],
+          "quote": "A good amount of time at Anthropic is actually just catching up on what's happening at the company.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1139.202,
+            1143.805
+          ],
+          "quote": "Well, we work at Anthropic, so we're going deep on the Claude stack.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2151.061,
+            2165.006
+          ],
+          "quote": "So this past year at Anthropic, I joined as an IC at first, and then I managed a team for a few months in an org structure that sort of needed it, and now I'm actually back to doing full-time IC work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 372,
+          "t": [
+            2165.966,
+            2186.773
+          ],
+          "quote": "And I joined Anthropic as an IC because I was just really excited about the kind of work that there was to be done as an IC here, but also because I was feeling like I sort of want to be closer to the work, and I think this feels like a really important time to do it, before I ascend the corporate ranks.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 521,
+          "t": [
+            3045.361,
+            3055.88
+          ],
+          "quote": "If someone's a young designer trying to break in, trying to be successful, what would your advice be to them to help them have a shot at joining Anthropic, for example?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 615,
+          "t": [
+            3794.763,
+            3817.472
+          ],
+          "quote": "But I also think that part of the role of the designer, at least, at least at a frontier lab at Anthropic, is spotting the ideas that are illegible, and trying to understand what's there, and how to take that and transform it, whether it's through storytelling, or whether it's through the actual UX and the form factor, and put it out there.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 648,
+          "t": [
+            4022,
+            4022
+          ],
+          "quote": "So there's three patterns we found. One of the other ones was, there's just, pay attention to people getting very excited about this thing, even if you don't get it. And it sounds crazy. That's so interesting. Okay. And then what was the other one? Oh, the founders are just like top 1% was the other piece there, which everyone had Anthropic already. So you got that one. Oh man, Jenny, what a crazy time we're living through. What a world.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 653,
+          "t": [
+            4058.36,
+            4071.406
+          ],
+          "quote": "I think I just want to call out the Anthropic design team and shout them out, just because it's a team of folks that are just really humble, and they're not always [inaudible 01:07:49] on social, but they're doing a lot of really great work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 656,
+          "t": [
+            4096.137,
+            4102.74
+          ],
+          "quote": "If I didn't scare you with the way that we work internally at Anthropic, if it sounds more exciting than terrifying, would love to connect.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集把它说成：AI 模型与产品的核心。工程师用它快速写代码、交付功能；设计师用它探索视觉方案和长线任务。嘉宾指出其非确定性使得传统高保真模型图失效，只有底层模型真正跑起来才能发现问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            52,
+            55
+          ],
+          "quote": "Boris on the podcast recently was saying Claude Code is now helping him come up with ideas.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 21,
+          "t": [
+            82.141,
+            86.203
+          ],
+          "quote": "Jenny was head of design for Claude, is now leading design for Claude Cowork.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 66,
+          "t": [
+            369.067,
+            391.876
+          ],
+          "quote": "But I think even in the past three to four months since I did that talk, that talk actually starts to feel pretty ... It kind of feels outdated to me, which is a little embarrassing, but especially with the big shift of Opus 46 and a bunch of folks just really discovering and using Claude Code over the holiday break, I think we're seeing this force to change our process happen even more.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 95,
+          "t": [
+            608.905,
+            613.488
+          ],
+          "quote": "Someone may be hearing this, okay, Anthropic Claude, okay, they're at the bleeding edge, for one.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 103,
+          "t": [
+            647.886,
+            657.489
+          ],
+          "quote": "We are using tools like Claude Code and v0 and whatnot, to start to spin up prototypes, and PMs are starting to spin up prototypes and stuff like that as well.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 121,
+          "t": [
+            772.066,
+            781.293
+          ],
+          "quote": "So you can create these amazing mocks of what it might be, and then people use it in a completely different way, which is where Cowork came from, and probably even Claude Code at the beginning.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1139.202,
+            1143.805
+          ],
+          "quote": "Well, we work at Anthropic, so we're going deep on the Claude stack.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1144.846,
+            1151.331
+          ],
+          "quote": "I'm using, obviously, chats, Claude Chat, but increasingly more and more Claude Cowork.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1160.658,
+            1164
+          ],
+          "quote": "And most of the things I was asking Claude for are these longer running tasks.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1164.12,
+            1166.762
+          ],
+          "quote": "And then there's Claude Code, of course.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 199,
+          "t": [
+            1167.062,
+            1176.848
+          ],
+          "quote": "I use it mostly with VS Code and the IDE because I'm usually tweaking front-end stuff, and it helps to just be able to see the code and then talk to Claude as well.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1177.368,
+            1184.713
+          ],
+          "quote": "I've been trying to actually use Claude Code more remotely, through both mobile and through Slack as well.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1185.333,
+            1194.239
+          ],
+          "quote": "It's really fun for somebody to say, \"Oh yeah, this one icon's off or something,\" and you just at-mention Claude and Claude does it, and then you pick up the PR and it's done.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1197.043,
+            1200.672
+          ],
+          "quote": "And yeah, I think we're a fully Claude house here.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1262.975,
+            1274.64
+          ],
+          "quote": "Right now, coding, or right now working with some of these coding tools doesn't lend itself super well to that, because it's super linear, you get super invested in one direction and you just iterate with Claude on them, for example.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1407.871,
+            1419.336
+          ],
+          "quote": "So I also just try to point engineers to our design system and stuff like that in code, because right now Claude is writing a lot of the code and it's not always picking up stuff in the design system and whatnot.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1518.55,
+            1528.353
+          ],
+          "quote": "I think Claude Cowork is actually a good example of this, where we labeled it a research preview and we put it out there knowing that, \"Hey, this is similar to our models.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1650.295,
+            1654.779
+          ],
+          "quote": "And then because Claude Code can code very quickly, the fixes come very fast.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1684.5,
+            1691.806
+          ],
+          "quote": "Boris on the podcast recently was saying Claude Code is now helping them come up with ideas and decide what to build, which is like, okay, wow, look at that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1856.767,
+            1865.892
+          ],
+          "quote": "The same way that even though Claude can write all this code for you today, it is still an engineer who's accountable for, does that code actually work?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 334,
+          "t": [
+            1928.56,
+            1945.965
+          ],
+          "quote": "There will likely be a combination of both, both UIs and interfaces that you are interacting with, clicking with, and that feel more tactile., We are already seeing this and playing with this within Claude, the chatbot.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1946.325,
+            1956.708
+          ],
+          "quote": "So we recently released a bunch of these widgets that let Claude elicit and ask you questions, and also show you things like the weather and stocks and whatnot in interactive ways.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1957.409,
+            1970.432
+          ],
+          "quote": "And I think those have had a really good reception, because people still like to see UIs and touch them and click them, and they are much more efficient than typing something to Claude.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2021.441,
+            2033.838
+          ],
+          "quote": "It's interesting that with OpenClaw, Claude, Moltbot, all the names, one of the big innovations is another way to chat with it through WhatsApp and Telegram and SMS, just like another form of chatbot, but just like, that was a big [inaudible 00:33:54].",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2540.112,
+            2545.855
+          ],
+          "quote": "So things like when Claude gives you a to do list, we tried a bunch of different form factors for that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2617.332,
+            2630.318
+          ],
+          "quote": "We have been iterating, especially on the homepage, and to make that something where it feels more like, \"Hey, these are tasks you can give Claude and the tasks that Claude are working on. \"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2639.501,
+            2643.483
+          ],
+          "quote": "And then so when you actually start to work with Claude on stuff, it feels more like a to do list.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2644.064,
+            2649.687
+          ],
+          "quote": "It feels more like these are things Claude's working on, these are things that Claude needs your attention on.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2649.727,
+            2655.451
+          ],
+          "quote": "And I think there's an opportunity here to make it feel much more like this shared to do list between you and Claude.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2724.521,
+            2730.854
+          ],
+          "quote": "And by the way, for people that don't know much about cowork, the way I think about it, it's like Claude with hands, or to do stuff on your computer.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2736.542,
+            2738.363
+          ],
+          "quote": "I might use it more often as Claude with hands.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2738.983,
+            2748.95
+          ],
+          "quote": "I also think about it as it's like Claude, but Claude is really good at taking all your garbage and then turning it into something nice.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 531,
+          "t": [
+            3134.588,
+            3150.393
+          ],
+          "quote": "For example, somebody built this Claude robot project, this was a few years ago too, where they were just assembling robots that were running on Claude, and then somebody else did something where she just wanted to put Googly eyes on a bus in Boston or something.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 538,
+          "t": [
+            3234,
+            3241
+          ],
+          "quote": "How good of a designer is Claude, would you say, or Claude Code, however you want to describe ... Would you hire Claude as a designer or is it not there yet?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 539,
+          "t": [
+            3241.601,
+            3242.702
+          ],
+          "quote": "I don't think Claude is there yet.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 540,
+          "t": [
+            3242.842,
+            3245.084
+          ],
+          "quote": "I don't think Claude is there yet in terms of a designer you would hire.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 618,
+          "t": [
+            3837.88,
+            3860.208
+          ],
+          "quote": "There's one good example, actually, that ties to cowork where there was this internal prototype that we called Claude Studio that I think somebody built partway through last year, and it essentially was just this really kind of dense, powerful interface that was built on top of some agentic harness.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 619,
+          "t": [
+            3860.708,
+            3862.649
+          ],
+          "quote": "It might've been Claude Code at that point in time too.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 620,
+          "t": [
+            3863.169,
+            3870.671
+          ],
+          "quote": "And it had all these displays where it was showing you all this knowledge and all these skills and things Claude was doing, and previewing its outputs.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 626,
+          "t": [
+            3896.56,
+            3906.064
+          ],
+          "quote": "And ultimately what came from it was the skills framework and the markdown files that instruct Claude on how to do something.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 629,
+          "t": [
+            3914.848,
+            3921.07
+          ],
+          "quote": "But when it did come to work on Claude cowork and I was thinking about, oh yeah, what is the form factor for those things?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 630,
+          "t": [
+            3921.23,
+            3937.797
+          ],
+          "quote": "Seeing that prototype and seeing the kinds of information that people found really helpful, seeing Claude's plan and to-dos, seeing Claude's context and the files that it was going through, those kinds of things are things that I ended up pulling out of that prototype into Claude cowork.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 775,
+          "t": [
+            4606.734,
+            4612.86
+          ],
+          "quote": "We're working on Cowork, or anything Claude related really, just send us your feedback, we'd love to make it better for you.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成：工程师现在能同时启动运行的多个 AI 助手，用于持续不断地编写代码和构建功能；速度极快，甚至让工程师自己都在感叹难以跟上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            32.342,
+            35
+          ],
+          "quote": "How to keep up with all our agents, our seven agents who are constantly running?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 45,
+          "t": [
+            228.254,
+            237.457
+          ],
+          "quote": "Through a built-in MCP gateway, AI agents handle reasoning and decision-making while safely accessing existing APIs and internal systems as MCP tools.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 46,
+          "t": [
+            237.857,
+            247
+          ],
+          "quote": "This enables agents to operate across enterprise environments, and scale from demos to production, orchestrating systems, agents, and humans together, to deliver smarter outcomes faster.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1311.38,
+            1321.55
+          ],
+          "quote": "It's interesting you still use an IDE, because in engineering, it's clearly shifting to command lines, agents, IDEs are kind of moving to not be cool anymore.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1453,
+            1453
+          ],
+          "quote": "So true. Oh man, how to keep up with all our agents, our seven agents we're constantly running?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "claude-cowork",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Cowork",
+      "file": "Claude Cowork",
+      "primary": true,
+      "how_described": "本集把它说成：Anthropic 推出的类似「有手的 Claude」的智能体产品。适合处理长线任务，能阅读文件夹并输出深刻洞察。团队将其作为早期预览版发布，并通过极快的迭代速度在用户中建立信任。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            82.141,
+            86.203
+          ],
+          "quote": "Jenny was head of design for Claude, is now leading design for Claude Cowork.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1144.846,
+            1151.331
+          ],
+          "quote": "I'm using, obviously, chats, Claude Chat, but increasingly more and more Claude Cowork.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1518.55,
+            1528.353
+          ],
+          "quote": "I think Claude Cowork is actually a good example of this, where we labeled it a research preview and we put it out there knowing that, \"Hey, this is similar to our models.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 629,
+          "t": [
+            3914.848,
+            3921.07
+          ],
+          "quote": "But when it did come to work on Claude cowork and I was thinking about, oh yeah, what is the form factor for those things?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 630,
+          "t": [
+            3921.23,
+            3937.797
+          ],
+          "quote": "Seeing that prototype and seeing the kinds of information that people found really helpful, seeing Claude's plan and to-dos, seeing Claude's context and the files that it was going through, those kinds of things are things that I ended up pulling out of that prototype into Claude cowork.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集把它说成：用于搭配 VS Code 调整前端细节的工具；能极快地编写代码并提交修复，甚至开始帮助用户产生想法、决定要构建什么功能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            52,
+            55
+          ],
+          "quote": "Boris on the podcast recently was saying Claude Code is now helping him come up with ideas.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 66,
+          "t": [
+            369.067,
+            391.876
+          ],
+          "quote": "But I think even in the past three to four months since I did that talk, that talk actually starts to feel pretty ... It kind of feels outdated to me, which is a little embarrassing, but especially with the big shift of Opus 46 and a bunch of folks just really discovering and using Claude Code over the holiday break, I think we're seeing this force to change our process happen even more.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 103,
+          "t": [
+            647.886,
+            657.489
+          ],
+          "quote": "We are using tools like Claude Code and v0 and whatnot, to start to spin up prototypes, and PMs are starting to spin up prototypes and stuff like that as well.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 121,
+          "t": [
+            772.066,
+            781.293
+          ],
+          "quote": "So you can create these amazing mocks of what it might be, and then people use it in a completely different way, which is where Cowork came from, and probably even Claude Code at the beginning.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1164.12,
+            1166.762
+          ],
+          "quote": "And then there's Claude Code, of course.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1177.368,
+            1184.713
+          ],
+          "quote": "I've been trying to actually use Claude Code more remotely, through both mobile and through Slack as well.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1650.295,
+            1654.779
+          ],
+          "quote": "And then because Claude Code can code very quickly, the fixes come very fast.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1684.5,
+            1691.806
+          ],
+          "quote": "Boris on the podcast recently was saying Claude Code is now helping them come up with ideas and decide what to build, which is like, okay, wow, look at that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 538,
+          "t": [
+            3234,
+            3241
+          ],
+          "quote": "How good of a designer is Claude, would you say, or Claude Code, however you want to describe ... Would you hire Claude as a designer or is it not there yet?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 619,
+          "t": [
+            3860.708,
+            3862.649
+          ],
+          "quote": "It might've been Claude Code at that point in time too.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": true,
+      "how_described": "本集把它说成：仍在使用的设计工具。在平行探索 8 到 10 种不同的排版和视觉方案时，它依然是最快、最有效的，因为直接用代码探索过于线性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            86.563,
+            91.745
+          ],
+          "quote": "Prior to that, she was director of design at Figma, where she led the design teams behind FigJam and Slides.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1204.184,
+            1205
+          ],
+          "quote": "Are you still using Figma as a designer?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1205.705,
+            1207.537
+          ],
+          "quote": "I am still using Figma, yes, yes.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1208,
+            1208
+          ],
+          "quote": "Okay. I was waiting to hear. Okay. So Figma is still part of your life. Being a former Figmate, is that what y'all are called?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1225.838,
+            1226.619
+          ],
+          "quote": "Figma's still important?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1227.12,
+            1236.744
+          ],
+          "quote": "I mean, as a former Figmate, maybe I'm biased in that way, but I think there is still ... When I use Figma, I'm like, \"Yes, this is what I should be using.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1275.58,
+            1282.264
+          ],
+          "quote": "So Figma has been really great at just exploring all these different options, and I think it's still going to exist that way to some extent.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1282.764,
+            1292.049
+          ],
+          "quote": "And then I think there's really fine visual and interaction details that are also really great to be able to just try out in Figma.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2285,
+            2286
+          ],
+          "quote": "And so you were previously a director of design at Figma, right?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "design-process",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计流程 (design process)",
+      "file": "设计流程",
+      "primary": true,
+      "how_described": "本集把它说成：设计师过去被教导的发散-收敛等传统流程。这套被当作福音的流程现在已经死了，被极速的工程执行力倒逼改变，要么贴身支持执行，要么制定短期愿景。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.06,
+            4.208
+          ],
+          "quote": "This design process that designers have been taught, we sort of treat it as gospel.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 57,
+          "t": [
+            295.098,
+            299
+          ],
+          "quote": "How is the design process changing with the rise of AI?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 61,
+          "t": [
+            320.968,
+            342.596
+          ],
+          "quote": "And so I think some context around this, is I did a talk at a conference in Berlin a few months ago in September, and I called it Don't Trust the Design Process, where I basically just said, \"Hey, you know this design process that designers have been taught, where you go and you go off and you do a bunch of research and discovery, and then you diverge, you converge, diverge, converge.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 100,
+          "t": [
+            629.058,
+            631.68
+          ],
+          "quote": "How widespread do you think the design process shift is going to be?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 102,
+          "t": [
+            639.223,
+            647.105
+          ],
+          "quote": "And so I think it's something that people are starting to feel across the industry, where they're like, \"Oh yeah, we can't do the old design process anymore.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 106,
+          "t": [
+            665.752,
+            674.615
+          ],
+          "quote": "People clearly have invested their entire careers in learning, teaching, using this really stable design process.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1019.24,
+            1022.186
+          ],
+          "quote": "Are you still doing elements of the traditional design process?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1244.507,
+            1251.71
+          ],
+          "quote": "I think that's a really important part of the design process, to be able to just think about 8 to 10 different ways to do something.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 382,
+          "t": [
+            2237.914,
+            2248.559
+          ],
+          "quote": "Like I mentioned, the design process has changed so, so much in this past year, and I feel like I've just picked up so many hard skills that I wouldn't have necessarily had the time to do if I was just managing a team.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2251.12,
+            2259.565
+          ],
+          "quote": "And I think at any point if I'm managing a team again, I think it will give me the empathy and understanding of how the design process has changed.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "middle-management",
+      "type": "concept",
+      "role": "concept",
+      "name": "中期管理 (middle management)",
+      "file": "中期管理",
+      "primary": true,
+      "how_described": "本集把它说成：纯粹的人员管理正在失去价值。管理者如果不亲自下场用新工具、不理解流程剧变，就无法产生同理心。嘉宾因对中层管理的未来感到焦虑而退回 IC。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 373,
+          "t": [
+            2186.853,
+            2195.416
+          ],
+          "quote": "And I was having these questions and doubts about, is middle management, is that safe in the future?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2304.703,
+            2307.488
+          ],
+          "quote": "So you had the sense that middle management might not last.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "ic",
+      "type": "concept",
+      "role": "concept",
+      "name": "IC",
+      "file": "IC",
+      "primary": true,
+      "how_described": "本集把它说成：独立贡献者。管理者需要退回一线成为 IC，亲自体验工具剧变以掌握硬技能，未来理想的管理者必须是能给团队指明方向并能真刀真枪干活的人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 190,
+          "t": [
+            1130.027,
+            1134.816
+          ],
+          "quote": "What do you, as a designer, I know you're a manager and I want to talk about how you actually are IC also.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 365,
+          "t": [
+            2134.461,
+            2137.465
+          ],
+          "quote": "I want to come back to this whole idea of management and IC.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2138.146,
+            2143.593
+          ],
+          "quote": "So you've kind of put yourself back into the IC role in a lot of ways.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2151.061,
+            2165.006
+          ],
+          "quote": "So this past year at Anthropic, I joined as an IC at first, and then I managed a team for a few months in an org structure that sort of needed it, and now I'm actually back to doing full-time IC work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 372,
+          "t": [
+            2165.966,
+            2186.773
+          ],
+          "quote": "And I joined Anthropic as an IC because I was just really excited about the kind of work that there was to be done as an IC here, but also because I was feeling like I sort of want to be closer to the work, and I think this feels like a really important time to do it, before I ascend the corporate ranks.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 378,
+          "t": [
+            2213.043,
+            2218.485
+          ],
+          "quote": "I love setting up teams and being at that level, but I also just really love IC work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2226.029,
+            2237.154
+          ],
+          "quote": "But I think actually what being an IC across this past year has taught me, is that it actually just gave me a lot of skills that I don't think I would've gained if I was just managing throughout this year.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2301,
+            2301
+          ],
+          "quote": "Cool. And then you went back to an IC?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2309.412,
+            2313.98
+          ],
+          "quote": "Do you think design management is a thing that persists long-term, or do you think everyone turns into IC?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2390.22,
+            2403
+          ],
+          "quote": "So the advice I'm hearing for people in design that are especially managers, is you almost need to move back into IC in order to truly understand what is happening and how much it's changing, so that you can be a better manager.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2431.08,
+            2435
+          ],
+          "quote": "What did you find yourself most rusty in when you went back to IC designer?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2462.843,
+            2465.313
+          ],
+          "quote": "So currently you're leading design/IC designing on cowork.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "research-preview",
+      "type": "concept",
+      "role": "concept",
+      "name": "研究预览版 (research preview)",
+      "file": "研究预览版",
+      "primary": true,
+      "how_described": "本集把它说成：早期不完美的产品推向市场的阶段标签。核心在于建立一种信任机制——承诺会听取反馈并快速修复，通过速度建立信任。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 264,
+          "t": [
+            1508.107,
+            1514.009
+          ],
+          "quote": "So for example, we sometimes will launch things and we will say, \"Hey, this is a research preview.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1518.55,
+            1528.353
+          ],
+          "quote": "I think Claude Cowork is actually a good example of this, where we labeled it a research preview and we put it out there knowing that, \"Hey, this is similar to our models.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "chat",
+      "type": "concept",
+      "role": "concept",
+      "name": "聊天界面 (chat)",
+      "file": "聊天界面",
+      "primary": true,
+      "how_described": "本集把它说成：并不是临时的交互形态。交谈本身是一种跨越智力高低、完美适配模型能力增长的交互方式，开启了无限与模型协作的新范式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 195,
+          "t": [
+            1144.846,
+            1151.331
+          ],
+          "quote": "I'm using, obviously, chats, Claude Chat, but increasingly more and more Claude Cowork.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1151.571,
+            1160.577
+          ],
+          "quote": "I've basically shifted all of my chat use cases over to Cowork, because I've been finding that it sort of is better at these longer running tasks.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1982.136,
+            1996.96
+          ],
+          "quote": "So my read here is I don't think Chat is ever going away because this opened up this new way of infinite ways to work with the model, and to talk to the computer, that we just didn't have before.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 341,
+          "t": [
+            2013.254,
+            2020.98
+          ],
+          "quote": "But I think we're in this space where I don't think chat ... And maybe even talking to the terminal is going to go away.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 342,
+          "t": [
+            2021.441,
+            2033.838
+          ],
+          "quote": "It's interesting that with OpenClaw, Claude, Moltbot, all the names, one of the big innovations is another way to chat with it through WhatsApp and Telegram and SMS, just like another form of chatbot, but just like, that was a big [inaudible 00:33:54].",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 343,
+          "t": [
+            2033.918,
+            2035
+          ],
+          "quote": "Oh, I could just chat with it through WhatsApp.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "legibility-framework",
+      "type": "concept",
+      "role": "concept",
+      "name": "不可读性框架 (legibility framework)",
+      "file": "不可读性框架",
+      "primary": true,
+      "how_described": "本集把它说成：一个二乘二矩阵，用来判断想法是否处于前沿让人看不懂（不可读）。真正有爆发力的点子往往不可读，要求设计师像投资人一样捕捉内部说不清为什么但很兴奋的原型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 602,
+          "t": [
+            3716.932,
+            3719.736
+          ],
+          "quote": "And I hear you're a big fan of something called the legibility framework.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "vs-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "VS Code",
+      "file": "VS Code",
+      "primary": false,
+      "how_described": "本集把它说成：设计师用来搭配 Claude Code 微调前端细节的 IDE 编辑器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            1167.062,
+            1176.848
+          ],
+          "quote": "I use it mostly with VS Code and the IDE because I'm usually tweaking front-end stuff, and it helps to just be able to see the code and then talk to Claude as well.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "ide",
+      "type": "concept",
+      "role": "concept",
+      "name": "IDE",
+      "file": "IDE",
+      "primary": false,
+      "how_described": "本集把它说成：现在可能变得对设计师和 PM 有用的工具，因为工程师已经转向更高级的命令行和智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            1167.062,
+            1176.848
+          ],
+          "quote": "I use it mostly with VS Code and the IDE because I'm usually tweaking front-end stuff, and it helps to just be able to see the code and then talk to Claude as well.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1311.38,
+            1321.55
+          ],
+          "quote": "It's interesting you still use an IDE, because in engineering, it's clearly shifting to command lines, agents, IDEs are kind of moving to not be cool anymore.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "pr",
+      "type": "concept",
+      "role": "concept",
+      "name": "PR",
+      "file": "PR",
+      "primary": false,
+      "how_described": "本集把它说成：高级领导者亲自下场提交代码补丁（如 Mike Krieger）的机制，这种卷起袖子干脏活的低杠杆举动实则非常高杠杆，能带动团队士气。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 201,
+          "t": [
+            1185.333,
+            1194.239
+          ],
+          "quote": "It's really fun for somebody to say, \"Oh yeah, this one icon's off or something,\" and you just at-mention Claude and Claude does it, and then you pick up the PR and it's done.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "design-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计系统 (design system)",
+      "file": "设计系统",
+      "primary": false,
+      "how_described": "本集把它说成：设计师试图引导工程师参考的代码设计规范，因为 Claude 在写代码时并不总是能自动抓取设计系统里的组件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 249,
+          "t": [
+            1407.871,
+            1419.336
+          ],
+          "quote": "So I also just try to point engineers to our design system and stuff like that in code, because right now Claude is writing a lot of the code and it's not always picking up stuff in the design system and whatnot.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "psychological-safety",
+      "type": "concept",
+      "role": "concept",
+      "name": "心理安全感 (psychological safety)",
+      "file": "心理安全感",
+      "primary": false,
+      "how_described": "本集把它说成：团队内部能互相吐槽、甚至取笑领导口头禅所体现出的安全感。它与高标准不冲突，就像严厉的父母，团队知道你不会随意解雇他们，但也清楚你要求做到最好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 574,
+          "t": [
+            3502.161,
+            3517.967
+          ],
+          "quote": "I'm not forcing it in that way or anything, but when I think about the psychological safety, and teams and people that just get along with each other, when you think about your friends, you're always willing to push the boundaries a little bit and roast them.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 587,
+          "t": [
+            3608.535,
+            3624
+          ],
+          "quote": "And so the way I think about balancing this out is you have to create this baseline of psychological safety, and people feel comfortable both with each other and with you, but you also have to make sure that they know that you have really high standards.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 588,
+          "t": [
+            3624.86,
+            3644.527
+          ],
+          "quote": "And I think these two things can feel like they're at tension, but I think they work really well together, because it's like once you have that psychological safety, you have people trusting each other and you, applying the high standards actually I think becomes potentially easier because you can do it without fear, I think.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": false,
+      "how_described": "本集把它说成：在 AI 实验室里如同「金矿」的内部通讯软件，充满了行业洞见、哲学辩论以及正在构建的 AI 应用的最新动态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 147,
+          "t": [
+            915.59,
+            918.754
+          ],
+          "quote": "And so a lot of it is like, yeah, our Slack is a goldmine.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 152,
+          "t": [
+            934.363,
+            940.597
+          ],
+          "quote": "I think that is the best AI news is probably internally, if you're ever at one of these companies in the Slack.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1177.368,
+            1184.713
+          ],
+          "quote": "I've been trying to actually use Claude Code more remotely, through both mobile and through Slack as well.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 616,
+          "t": [
+            3818.233,
+            3825.255
+          ],
+          "quote": "And I think when I mentioned going through Slack and looking at all the stuff that people are making, that's kind of what I'm doing.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "socratica",
+      "type": "company",
+      "role": "company",
+      "name": "Socratica",
+      "file": "Socratica",
+      "primary": false,
+      "how_described": "本集把它说成：一个学校发起的构建实际东西并像科学项目一样展示的运动，代表了那种乐于尝试构建并分享的社区。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 528,
+          "t": [
+            3110.9,
+            3121.364
+          ],
+          "quote": "I think my one call it here too, is I went to a school that started something called Socratica a few years after, actually a while after I graduated.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

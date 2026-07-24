@@ -18,4 +18,4 @@ entity_type: 公司
 
 ## 关联实体
 
-[[Max Schoening]] · [[Lenny]] · [[GitHub]] · [[Heroku]] · [[Figma]] · [[Anthropic]] · [[智能体]] · [[智能体循环]] · [[主观能动性]] · [[可塑软件]]
+[[Max Schoening]] · [[Lenny]] · [[GitHub]] · [[Heroku]] · [[Figma]] · [[Anthropic]] · [[智能体]] · [[智能体循环]] · [[智能体]] · [[可塑软件]]

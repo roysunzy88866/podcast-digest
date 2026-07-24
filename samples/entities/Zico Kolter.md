@@ -26,4 +26,4 @@ entity_type: 人物
 
 ## 关联实体
 
-[[Matt Fredrikson]] · [[Gray Swan]] · [[Snowflake]] · [[Anthropic]] · [[红队竞技场]] · [[Shade]] · [[Signal]] · [[OpenClaw]] · [[提示词注入]] · [[间接提示词注入]]
+[[Matt Fredrikson]] · [[Gray Swan]] · [[Snowflake]] · [[Anthropic]] · [[红队竞技场]] · [[Shade]] · [[Signal]] · [[OpenClaw]] · [[提示注入]] · [[间接提示词注入]]

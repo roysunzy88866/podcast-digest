@@ -1,0 +1,170 @@
+{
+  "tldr": "Claude设计负责人Jenny Wen分享AI时代设计流程剧变:旧流程已死,设计师从画图者转向愿景领航员与代码实现者。",
+  "digest_md": "今天的嘉宾是 Jenny Wen,她曾是 Claude 的设计负责人,现在领导 Claude Cowork 的设计。在加入 Anthropic 之前,她是 Figma 的设计总监,领导了 FigJam 和 Slides 背后的设计团队,也曾在 Dropbox、Square 和 Shopify 担任设计师。本集的核心问题是:当 AI 让工程师能独自构建大量功能时,设计师的角色和工作流程会发生怎样的剧变?接下来我们将围绕六个话题展开:旧流程为何失效、新型设计工作长什么样、在 AI 实验室做设计是什么体验、人的价值还剩什么、管理者该往哪走,以及未来要招什么样的设计师。\n\n## 被迫改变的「设计流程」\n\n一切的起点是一个共识:设计师过去被教导的那套设计流程——先做研究、发散、收敛、再发散、再收敛——已经失效了 [05:20 Jenny Wen]。Jenny 几个月前在柏林的一场会议上做了一场名为《不要相信设计流程》的演讲,她当时指出这套被设计师奉为福音的流程正在消亡。而仅仅过去三到四个月,随着 Opus 46 的发布以及工程师在假期大量使用 Claude Code,她发现连自己的那场演讲都已经显得过时了 [06:09 Jenny Wen]。\n\n这不是设计行业自己主动求变,而是被工程效率倒逼的 [05:07 Jenny Wen]。现在工程师可以同时启动多个 Claude 帮他们写代码,一天之内交付大量功能。在这种狂奔的速度下,设计师如果想用旧流程去卡进度,只会成为瓶颈;正确做法是放手让工程师去做。\n\n但放手不等于设计师无事可做,工作只是发生了分化。Jenny 现在看到设计工作主要分成了两类。第一类是紧贴工程执行,也就是工程师用各种 AI 工具快速把想法做出来,设计师作为顾问加入,帮忙打磨和连接功能 [06:48 Jenny Wen]。在非确定性的 AI 模型面前,理论上画再多的高保真设计图也没用,因为模型实际表现出来的状态是无法穷举和预演的。只有真正用底层模型跑起来、用真实用户的用例去测,才能发现问题 [12:00 Jenny Wen]。\n\n第二类则是制定短期愿景与方向 [07:16 Jenny Wen]。这与过去也截然不同:过去设计师动辄制定两年、五年甚至十年的长远愿景;但在技术按月迭代、没人知道两年后世界会怎样的当下,愿景的保质期被压缩到了三到六个月 [07:49 Jenny Wen]。这种愿景也不再是那些精美排版的幻灯片,而往往就是一个能指出方向的原型。\n\n## 时间去哪了:画图少了,写码多了\n\n既然旧流程死了,新流程长什么样?这直接体现在设计师的时间分配上。Jenny 回顾几年前自己的状态:当时大概 60% 到 70% 的时间都花在制作高保真设计图和原型上,20% 的时间和工程师沟通协作,剩下 10% 处理各类协调会议 [17:58 Jenny Wen]。\n\n而现在,她做高保真设计图的时间骤降到了 30% 到 40%。取而代之的是,有 30% 到 40% 的时间她都在和工程师直接结对编程、做探讨 [18:29 Jenny Wen]。更有意思的是,还多出了一块「写代码」的时间——她现在会直接上手做最后一英里的视觉打磨和功能实现。具体来说,工程师和 AI 跑出第一版后,她会自己打开 IDE 改前端细节 [19:27 Jenny Wen]。\n\n在 AI 技术栈上,她基本上是「全 Claude」配置:日常对话用 Claude Chat,但越来越多转移到处理长线任务的 Cowork;前端微调则用 Claude Code 搭配 VS Code [19:04 Jenny Wen]。\n\n> 【背景】Opus 46 指 Anthropic 发布的 Claude Opus 4.5 模型(转写稿误作 46);Claude Cowork(转写稿前文曾误作 Cowriter)是 Anthropic 推出的智能体产品;VS Code 是一款代码编辑器。\n\n虽然代码写得越来越多,但 Jenny 认为现在还远远不是「代码取代设计工具」的时候。她仍在使用 Figma,因为用它来平行探索 8 到 10 种不同的排版和视觉方案依然是最快的,而直接用写代码工具去探索视觉方案过于线性,容易死磕在一个方向上 [21:02 Jenny Wen]。\n\n## 在 AI 风暴中心做设计\n\n了解到工作方式的变化后,我们自然会好奇:在 Anthropic 这样处于 AI 风暴中心的实验室做设计,日常到底是怎样的?\n\nJenny 描述了一个非常特别的日常状态:她每天会花相当一部分时间仅仅是去跟进公司内部正在发生的事情 [13:11 Jenny Wen]。一方面,研究和原型开发的节奏极快,内部有无数带有代号的项目在同时推进;她必须主动去搜寻情报,看看前方有哪些新东西即将落地。另一方面,内部 Slack 里有大量关于行业走向的洞见和哲学辩论,她形容为一个「金矿」,极其吸引人去跟进 [15:15 Jenny Wen]。而在剩下的时间里,除了设定三个月左右的短期愿景,她做得最多的是和工程师结对工作,以及自己写代码做打磨 [16:21 Jenny Wen]。\n\n这种高频的发布和迭代,会带来一个很多人担心的问题:质量怎么保证?设计师会不会失去对产品的把控?Jenny 的解法是区分产品所处的阶段。如果是早期预览版,就要明确告诉用户它的局限性 [25:08 Jenny Wen]。把不完美的东西推向市场的核心,在于建立一种信任机制——你必须承诺会听取反馈并快速修复。如果发了早期版本就不管了,会严重损害品牌;但如果做到快速响应、持续交付改进,反而能在用户中建立极高的信任 [26:16 Jenny Wen]。\n\n## 人的价值:从「执行者」到「拍板人」\n\n工具变了、速度变了,人脑的价值还剩什么?这正是下一个话题。主持人 Lenny 提到,如今连世界上最优秀的工程师都已经信任到不再看 AI 写的代码,而 AI 甚至开始帮人决定要构建什么产品。在这样的趋势下,Jenny 也承认:我们可能过于死守「设计师永远拥有最好的品味」这种幻觉了 [28:33 Jenny Wen]。\n\n但她认为,人依然有一个不可替代的核心价值:承担责任 [30:51 Jenny Wen]。就像即使 Claude 能写所有的代码,最终依然是工程师要为这堆代码能不能跑、是否符合产品逻辑负责。在品味和判断之外,构建软件最难的部分往往不是构建本身,而是在多人的分歧中拍板决定到底要做什么、不做什么 [29:10 Jenny Wen]。这种承担决策压力的判断层,在可预见的未来依然落在人类身上。另外谈及与 AI 的交互界面时,Jenny 认为聊天窗口和终端并不是临时形态。因为交谈本身就是一种能跨越智力高低、完美适配模型能力增长的交互方式 [32:26 Jenny Wen]。\n\n> 【背景】转写稿中提及的 OpenClaw、Moltbot 疑为 OpenAI 的 ChatGPT、Anthropic 的 Claude 等聊天机器人的转写误读,此处按原意理解。\n\n## 管理者退回 IC(独立贡献者)\n\n既然设计行业的工作方式发生了巨变,管理者该怎么办?Jenny 用自己的经历给出了答案:退回一线。她在 Anthropic 最初是以 IC 身份加入的,后来因为组织需要短暂带过一段时间团队(在 Figma 时她曾管理过 12 到 15 名设计师),但现在又回到了全职 IC [35:51 Jenny Wen]。\n\n促使她做这个决定的原因之一,是对中层管理未来的焦虑——她想弄清楚现在的这种工作方式到底能不能持久 [36:26 Jenny Wen]。但更重要的是,这一年的 IC 经历让她掌握了大量如果只做管理就根本没时间学的硬技能 [37:06 Jenny Wen]。她认为,当下的管理者如果不亲自下场用新工具、不理解设计流程的剧变,就无法对团队产生真正的同理心 [37:39 Jenny Wen]。在她看来,纯粹的人员管理正在消退,未来的管理者必须是能给团队指明方向并能真刀真枪干活的人 [39:03 Jenny Wen]。\n\n在具体的团队管理上,她有两个很特别的理念。第一是看似低杠杆的任务其实很高杠杆 [55:31 Jenny Wen]。比如高级领导者亲自去测产品、复现 Bug 甚至提交代码补丁(她举例看到 Mike Krieger 亲自提交代码 PR),这种卷起袖子干脏活的举动会极大地带动团队士气。\n\n> 【背景】PR(Pull Request)是工程师提交代码修改供团队审查的机制;Mike Krieger 是 Anthropic 的首席产品官,Instagram 联合创始人。\n\n第二是鼓励团队互相吐槽(roast)。Jenny 认为团队内部能互相开玩笑、甚至模仿、取笑领导的口头禅,是心理安全感极高的标志 [58:58 Jenny Wen]。这种舒适感与高标准并不冲突——就像做一个严厉的父母,团队知道你不会随意解雇他们,但也清楚你要求做到最好 [60:44 Jenny Wen]。\n\n## 招募未来的设计师:三种原型\n\n工作模式和团队理念更新了,招聘标准自然也要跟着变。除了适应力和韧性,Jenny 现在特别看重三种人才原型 [46:52 Jenny Wen]。\n\n第一种是「强通才」。不是什么都会一点的人,而是技能呈块状——在几个不同的核心领域都能达到前 80% 水平的多面手 [47:09 Jenny Wen]。第二种是「深度专家」。在 T 型人才中,他们是那根扎得比所有人都深的 T,比如行业前 10% 的视觉设计师,或半个软件工程师 [48:09 Jenny Wen]。第三种则是 Jenny 觉得大家最容易忽视的「顶尖应届生」。在流程剧变的当下,一张没有被旧流程和旧习惯污染的白纸,反而能迅速吸收新战术并大胆创造 [48:49 Jenny Wen]。对于想入行的年轻人,她的建议很直接:别只学理论,去真正造东西、玩技术。\n\n在方法论上,Jenny 分享了一个她极为推崇的「不可读性框架」(legibility framework)[62:00 Jenny Wen]。这个框架用二乘二矩阵将创始人和想法分别分为「可读」与「不可读」。对投资人而言,最平庸的机会往往是创始人和想法都很可读;真正有爆发力的点子往往处于前沿、让人看不太懂,即「不可读」[62:34 Jenny Wen]。Jenny 把这种思维用在了内部设计管理上——她要求自己像投资人扫项目一样,敏锐捕捉公司内部那些大家很兴奋但说不清为什么的原型 [65:37 Jenny Wen]。她举了一个叫 Claude Studio 的内部原型为例:当时很多人觉得界面莫名其妙,但内部热度极高。Jenny 敏锐地捕捉到这种能量,最终从中提炼出了清晰的功能点,应用到了 Cowork 中 [64:45 Jenny Wen]。\n\n> 【背景】Legible/Illigible 在此框架中意指一个想法或人是否容易被大众主流理解和归类;SPC 是一家知名创业孵化与投资机构。\n\n## 本集带走\n\n1. **设计旧流程已死,执行力倒逼新分工**:传统的发散-收敛流程在极速的工程交付面前失效了。现在设计师的核心要么是贴身支持执行(写代码打磨、做顾问),要么是制定极短期的产品方向。\n2. **AI 没有剥夺人的判断责任**:即便 AI 能写出所有代码、甚至提出方案,但面对多方分歧时,最终拍板决定「到底做不做、怎么做」并为此担责的,依然是人。\n3. **管理者必须重新下场**:纯粹的人员管理正在失去价值。只有退回一线、亲自体验工具剧变的管理者,才能真正理解并引领当下极度变化的团队。",
+  "quotes": [
+    {
+      "en": "I think it was sort of dying before the age of AI, but given now that engineers can go off and spin off their seven Claudes, I think as designers, we really have to let go of that process.",
+      "zh": "我认为它在 AI 时代之前就已经在消亡了,但既然现在工程师可以离开并启动他们的七个 Claude,我认为作为设计师,我们真的必须放弃那个流程。",
+      "timestamp": "05:52",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "At the end of the day, someone has to decide what is actually going to get built and what actually matters.",
+      "zh": "归根结底,必须有人决定实际要构建什么以及什么真正重要。",
+      "timestamp": "28:52",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "Or given what the AI is presenting us, someone still needs to be accountable for the decision.",
+      "zh": "或者鉴于 AI 展示给我们的东西,仍然需要有人对决定负责。",
+      "timestamp": "30:51",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "I think that what will probably happen here, is that a lot of those UIs will be generated more and more often by the models, as opposed to something that we're hand coding each instance.",
+      "zh": "我认为这里可能会发生的是,这些 UI 中的大多数将越来越多地由模型生成,而不是我们要为每个实例手工编码。",
+      "timestamp": "33:22",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "if both the founder and idea is super legible, the idea is probably not that novel, and somebody's already like, they're already going to implement it or do it and you're actually not finding something new.",
+      "zh": "如果创始人和想法都是超级可读的,那么这个想法可能不那么新颖,已经有人像那样要去实施它或做它了,而你实际上没有发现什么新东西。",
+      "timestamp": "62:37",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "And I think this person is really interesting right now because I think most companies are just hiring senior talent, folks that have done things before, are super experienced, but given how much the roles are changing and what we're expected to do is changing, I think having somebody who almost has a blank slate, and is just a really quick learner and is really eager to learn new tactics and stuff like that, and doesn't have all these baked in processes and rituals in their mind, that's super valuable.",
+      "zh": "我认为这个人现在真的很有趣,因为我认为大多数公司只是招聘高级人才,那些以前做过事情的人,非常有经验的人,但考虑到角色的变化程度以及我们要做的事情的变化程度,我认为拥有一个几乎是白纸一张的人,是一个非常快速的学习者,并且非常渴望学习新战术和类似的东西,并且脑海中没有所有这些既定的流程和仪式,这是非常有价值的。",
+      "timestamp": "48:49",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "But when I think about leaders and managers that I respect the most, I actually think some of their best traits is that they choose low leverage tasks that they take on themselves, and that actually ends up being actually a very high leverage thing, because it's them who's doing it.",
+      "zh": "但当我想到我最尊敬的领导者和经理时,我实际上认为他们最好的特质之一是他们选择自己承担的低杠杆任务,而这最终实际上是一件非常高杠杆的事情,因为是他们在做。",
+      "timestamp": "55:41",
+      "speaker": "Jenny Wen"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "You as a designer actually do not have the time to make these beautiful mocks anymore, or to lead in this way.",
+      "zh": "作为一名设计师,实际上你不再有时间去制作这些精美的模型了,也没有时间以这种方式来主导。",
+      "timestamp": "07:07",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "But now I feel like the mocking up part of it is 30 to 40%.",
+      "zh": "但现在我觉得制作模型这部分是 30% 到 40%。",
+      "timestamp": "18:24",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "I think it was sort of dying before the age of AI, but given now that engineers can go off and spin off their seven Claudes, I think as designers, we really have to let go of that process.",
+      "zh": "我认为它在 AI 时代之前就已经在消亡了,但既然现在工程师可以离开并启动他们的七个 Claude,我认为作为设计师,我们真的必须放弃那个流程。",
+      "timestamp": "05:52",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "A big part of the design role now is helping engineers and teams execute, not just telling them, \"Here's the design.\"",
+      "zh": "现在设计角色的很大一部分是帮助工程师和团队执行,而不仅仅是告诉他们,「这是设计。」",
+      "timestamp": "14:53",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "I think we might be holding onto that a little bit too much and saying, \"Oh yeah, a designer or somebody will always know the best thing to ship or the best version of this.\"",
+      "zh": "我认为我们可能有点太死守这一点了,并说,「哦,是的,设计师或某人总是会知道要发布的最好的东西或这个的最佳版本。」",
+      "timestamp": "28:33",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "At the end of the day, someone has to decide what is actually going to get built and what actually matters.",
+      "zh": "归根结底,必须有人决定实际要构建什么以及什么真正重要。",
+      "timestamp": "28:52",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "Or given what the AI is presenting us, someone still needs to be accountable for the decision.",
+      "zh": "或者鉴于 AI 展示给我们的东西,仍然需要有人对决定负责。",
+      "timestamp": "30:51",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "It's interesting that with OpenClaw, Claude, Moltbot, all the names, one of the big innovations is another way to chat with it through WhatsApp and Telegram and SMS, just like another form of chatbot",
+      "zh": "有趣的是,对于 OpenClaw,Claude,Moltbot,所有的名字,主要的创新之一是通过 WhatsApp 和 Telegram 以及 SMS 与它聊天的另一种方式,就像另一种形式的聊天机器人",
+      "timestamp": "33:41",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "I think that what will probably happen here, is that a lot of those UIs will be generated more and more often by the models, as opposed to something that we're hand coding each instance.",
+      "zh": "我认为这里可能会发生的是,这些 UI 中的大多数将越来越多地由模型生成,而不是我们要为每个实例手工编码。",
+      "timestamp": "33:22",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "We labeled it a research preview and we put it out there knowing that, \"Hey, this is similar to our models.",
+      "zh": "我们将其标记为研究预览版并将其推出,我们知道,「嘿,这类似于我们的模型。",
+      "timestamp": "25:18",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "I think actually what being an IC across this past year has taught me, is that it actually just gave me a lot of skills that I don't think I would've gained if I was just managing throughout this year.",
+      "zh": "我认为实际上,在过去的一年里作为一名 IC 教会了我的是,它实际上给了我很多技能,如果这一年我只是在做管理,我觉得我不会获得这些技能。",
+      "timestamp": "37:06",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "I think somebody who can really function as giving the team direction, as well as doing some of the people management stuff, that tied together, I think is the future of what managing looks like, at least for now.",
+      "zh": "我认为真正能起到给团队指明方向作用的人,以及做一些人员管理的事情,这两点结合在一起,我认为是管理未来的样子,至少目前是。",
+      "timestamp": "39:03",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "But I think it can be a really good sign when the people on your team feel comfortable just poking fun at each other a little bit.",
+      "zh": "但我认为当你的团队的人感到舒适,只是稍微互相取笑时,这可能是一个非常好的迹象。",
+      "timestamp": "58:48",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "But I think in this era, when our attention spans are so short, I think this is actually worth reading end to end, because I think there are very few collections or memoirs where it spans through someone's entire life, and you sort of see how somebody changes throughout those decades.",
+      "zh": "但我认为,在这个注意力持续时间如此短暂的时代,我认为这实际上值得从头到尾读完,因为我认为很少有合集或回忆录能跨越某人的整个一生,你可以看到某人在那几十年中是如何变化的。",
+      "timestamp": "69:34",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "if both the founder and idea is super legible, the idea is probably not that novel, and somebody's already like, they're already going to implement it or do it and you're actually not finding something new.",
+      "zh": "如果创始人和想法都是超级可读的,那么这个想法可能不那么新颖,已经有人像那样要去实施它或做它了,而你实际上没有发现什么新东西。",
+      "timestamp": "62:34",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "And I think this person is really interesting right now because I think most companies are just hiring senior talent, folks that have done things before, are super experienced, but given how much the roles are changing and what we're expected to do is changing, I think having somebody who almost has a blank slate, and is just a really quick learner and is really eager to learn new tactics and stuff like that, and doesn't have all these baked in processes and rituals in their mind, that's super valuable.",
+      "zh": "我认为这个人现在真的很有趣,因为我认为大多数公司只是招聘高级人才,那些以前做过事情的人,非常有经验的人,但考虑到角色的变化程度以及我们要做的事情的变化程度,我认为拥有一个几乎是白纸一张的人,是一个非常快速的学习者,并且非常渴望学习新战术和类似的东西,并且脑海中没有所有这些既定的流程和仪式,这是非常有价值的。",
+      "timestamp": "48:33",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "But when I think about leaders and managers that I respect the most, I actually think some of their best traits is that they choose low leverage tasks that they take on themselves, and that actually ends up being actually a very high leverage thing, because it's them who's doing it.",
+      "zh": "但当我想到我最尊敬的领导者和经理时,我实际上认为他们最好的特质之一是他们选择自己承担的低杠杆任务,而这最终实际上是一件非常高杠杆的事情,因为是他们在做。",
+      "timestamp": "55:41",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "I think I just want to call out the Anthropic design team and shout them out, just because it's a team of folks that are just really humble, and they're not always [inaudible 01:07:49] on social, but they're doing a lot of really great work.",
+      "zh": "我想我只是想呼吁大家关注 Anthropic 设计团队并为他们点赞,因为这个团队的人真的很谦逊,他们并不总是在社交媒体上[听不清],但他们做了很多很棒的工作。",
+      "timestamp": "67:38",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "my favorite, it's cool to me, is just using cowork to analyze that and have insights out of it, and actually create things out of it.",
+      "zh": "我最喜欢的,这对我来说很酷,就是使用 cowork 来分析它并从中获得洞察,并实际利用它创造东西。",
+      "timestamp": "75:03",
+      "speaker": "Jenny Wen"
+    },
+    {
+      "en": "I don't think Claude is there yet in terms of a designer you would hire.",
+      "zh": "我认为 Claude 还没到你会雇佣的设计师的程度。",
+      "timestamp": "54:02",
+      "speaker": "Jenny Wen"
+    }
+  ]
+}

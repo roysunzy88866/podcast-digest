@@ -1,0 +1,1042 @@
+{
+  "episode_id": "2026-07-12-lennys-how-tech-workers-actually-feel-about",
+  "podcast": null,
+  "date": null,
+  "tags": [
+    "科技从业者情绪调查",
+    "职业倦怠",
+    "AI 对就业的影响",
+    "职场心理健康",
+    "科技圈阶层分化"
+  ],
+  "entities": [
+    {
+      "id": "noam-segal",
+      "type": "person",
+      "role": "host",
+      "name": "Noam Segal",
+      "file": "Noam Segal",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            151.934,
+            154.037
+          ],
+          "quote": "With that, I bring you Noam Segal.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            140.441,
+            151.453
+          ],
+          "quote": "Before we get into it, do not forget to check out lennysproductpass.com for a free year of the hottest and most well-crafted AI products in the world available exclusively to Lenny's newsletter subscribers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 35,
+          "t": [
+            161.06,
+            162.345
+          ],
+          "quote": "Thank you so much, Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 42,
+          "t": [
+            176,
+            177
+          ],
+          "quote": "Oh, decades ago. A decade ago, Lenny. So much has changed.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 190,
+          "t": [
+            1108.04,
+            1108.98
+          ],
+          "quote": "I really agree with you, Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1642.33,
+            1662.4
+          ],
+          "quote": "I think many of us, even those who aren't as energized about the technology, we still feel like we're in this fascinating technological playground, and it's very, very hard to disengage from that technology and touch grass, read a book, whatever you love to do in your spare time as well, Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 622,
+          "t": [
+            3776.289,
+            3787.414
+          ],
+          "quote": "You've talked about this with many people, Lenny, in previous interviews about concept like taste, about concepts like craft, about concepts like quality.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 991,
+          "t": [
+            5659.788,
+            5663.612
+          ],
+          "quote": "Or within Lenny's community, within your Slack.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 998,
+          "t": [
+            5685.988,
+            5689.13
+          ],
+          "quote": "I'm really, really glad that we get to do these things, Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1003,
+          "t": [
+            5736.4,
+            5746.269
+          ],
+          "quote": "Because I do hope that even though much of this was a little bit tough and perhaps negative, I too, Lenny, am an eternal optimist.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "burnout",
+      "type": "concept",
+      "role": "concept",
+      "name": "职业倦怠 (burnout)",
+      "file": "职业倦怠",
+      "primary": true,
+      "how_described": "本集将职业倦怠列为核心议题：尽管 AI 使交付速度比以往都快，但因为员工被塞了更多的需求，导致显著倦怠的比例从去年的 44.7% 激增至 54.7%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.542,
+            9.98
+          ],
+          "quote": "Burnout at work is a major problem and AI could add to this already overwhelmed employee problem.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 7,
+          "t": [
+            31.13,
+            33.494
+          ],
+          "quote": "Burnout is increasing significantly.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 25,
+          "t": [
+            105.551,
+            115.357
+          ],
+          "quote": "I believe this is the largest survey of its kind, looking at how people in tech feel about their jobs and AI and layoffs and burnout, and the future of their careers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 58,
+          "t": [
+            246.013,
+            252.54
+          ],
+          "quote": "We were seeing fairly high levels of burnout, but also fairly good levels of optimism about where things are going.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 59,
+          "t": [
+            253,
+            258.352
+          ],
+          "quote": "And we actually followed up on the burnout point and we created the Armor Framework, if you remember.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 144,
+          "t": [
+            782.28,
+            789.11
+          ],
+          "quote": "So let's actually look at that data of just how this sort of classification connects to just optimism, burnout, things like that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 146,
+          "t": [
+            796.601,
+            814
+          ],
+          "quote": "Yeah, so we'll dive into some of these things in a little more depth later on, but just to put it all together, what you're looking at here is the AI identity stance, and then a breakdown by your AI identity around career optimism, burnout, layoff worry.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 149,
+          "t": [
+            836.534,
+            841.057
+          ],
+          "quote": "Burnout, or reports of burnout, go up significantly.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1177.065,
+            1179.759
+          ],
+          "quote": "Let's talk about burnout and optimism.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1180.96,
+            1192.584
+          ],
+          "quote": "So, last year we looked at burnout and we looked at optimism, and burnout was at a worrying level, enough that we published further research on it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1192.644,
+            1198.945
+          ],
+          "quote": "And we introduced the Armor Framework around how to deal with burnout and fight burnout.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1205.887,
+            1227.133
+          ],
+          "quote": "I think I was hoping that optimism would hold steady, and that burnout wouldn't go up, because supposedly with new abilities and even better models, perhaps you might think that we wouldn't have to work as hard, or put as much energy into everything in a way that gets us burnt out.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1230.454,
+            1237.136
+          ],
+          "quote": "When it comes to significant burnout, burnout that's higher than moderate, we've gone up from 44.7% in 2025 to 54.7% in 2026.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1237.156,
+            1238.376
+          ],
+          "quote": "So burnout is surging.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1280.211,
+            1287.059
+          ],
+          "quote": "Pretty worrisome, the rise to a massive jump, over 10% increase in burnout, just in a year.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1297.366,
+            1310.935
+          ],
+          "quote": "I loved your conversation with Jeff from Ramp, and he shared that his worst burnout happened when velocity was lowest.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1311.015,
+            1318.4
+          ],
+          "quote": "So when you put effort into things that don't actually move, it doesn't feel good and that leads to burnout.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1319.02,
+            1326.885
+          ],
+          "quote": "And I think that maps for me with certain theories around burnout, where stagnation leads to burnout.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1358.166,
+            1373.5
+          ],
+          "quote": "We're just taking on more stuff, more stuff, more prototypes, more PRDs, more PRs, more campaigns, more agents, more ads, and it's leading to more burnout.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1376.924,
+            1389.479
+          ],
+          "quote": "I don't know if you have this in this deck, but a glimmer of hope that you pointed out is that enjoyment of work is actually still very high, that it's burnout, but also people still at the same levels last year actually, really enjoying their work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1504.827,
+            1513.139
+          ],
+          "quote": "But before we get there, one of the other really interesting takeaways was around layoffs and how layoffs impact fear of layoffs impact burnout.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1604.949,
+            1609.692
+          ],
+          "quote": "At the same time, just broadly, burnout is increasing significantly.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1619.738,
+            1623
+          ],
+          "quote": "My people are having a really bad time, but then broadly, this optimism and burnout shift.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 529,
+          "t": [
+            3316.294,
+            3318.639
+          ],
+          "quote": "Obviously connects to that burnout point we made earlier.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 562,
+          "t": [
+            3480.822,
+            3487.264
+          ],
+          "quote": "The old type of emotion, the old type of burnout was just completely grim.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 674,
+          "t": [
+            4045.26,
+            4063.927
+          ],
+          "quote": "But yes, when we look at founders and when we look at, in this case, you're looking at company size as well, you can see that whether it's optimism, whether it's burnout, layoff worry, or whether people would recommend their job.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 679,
+          "t": [
+            4083.555,
+            4088.297
+          ],
+          "quote": "They have the lowest burnout, the lowest layoff worry, the most AI excitement.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 703,
+          "t": [
+            4197.08,
+            4217.54
+          ],
+          "quote": "And if we look just at burnout specifically, then you can see very clearly here that burnout climbs in very significant ways in between working for a small 1 to 10 person startup and working for a 5,000 or 10,000 person enterprise company.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 717,
+          "t": [
+            4245.281,
+            4250.444
+          ],
+          "quote": "I would say one thing to highlight here, if you look at burnout, for example, is that ...",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 720,
+          "t": [
+            4261.13,
+            4268.955
+          ],
+          "quote": "But I would view these levels of burnout, of worry as worrisome.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 756,
+          "t": [
+            4399.427,
+            4412.331
+          ],
+          "quote": "So if you have an extremely effective manager, for example, you're reporting around 65% higher job enjoyment and dramatically lower burnout.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 763,
+          "t": [
+            4448.453,
+            4455.58
+          ],
+          "quote": "The impact that has on people's enjoyment, burnout and other aspects as well is incredible.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 909,
+          "t": [
+            5183.405,
+            5186.246
+          ],
+          "quote": "We've linked in the article to a burnout test.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 910,
+          "t": [
+            5186.587,
+            5190.749
+          ],
+          "quote": "Take the test, see where you're at on the burnout scale.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 936,
+          "t": [
+            5348.672,
+            5363.54
+          ],
+          "quote": "And so, if you want to improve burnout, if you want to elevate enjoyment, if you want to improve retention with these crazy job offers flying around from AI labs, you have to invest in your managers.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 947,
+          "t": [
+            5448.461,
+            5452.405
+          ],
+          "quote": "I want to double down on that burnout survey that you mentioned.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 950,
+          "t": [
+            5458.851,
+            5462.695
+          ],
+          "quote": "I've definitely gone through periods of burnout and wasn't aware that that was happening.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "nps",
+      "type": "concept",
+      "role": "concept",
+      "name": "NPS",
+      "file": "NPS",
+      "primary": true,
+      "how_described": "本集用净推荐值（NPS）来衡量从业者是否愿意把自己的岗位推荐给刚入行的朋友，结果发现科技圈没有任何一个岗位（包括最快乐的创始人）的 NPS 为正。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 268,
+          "t": [
+            1772.091,
+            1778.8
+          ],
+          "quote": "I even built a website dedicated to fighting NPS, npsistheworst.com.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1782.923,
+            1795.217
+          ],
+          "quote": "Fun fact, by the way, I dislike NPS so much that I even brought to the domain npsisthebest.com, and I forward people from that to npsistheworst.com.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1795.517,
+            1798
+          ],
+          "quote": "That's how committed I am to fighting NPS.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1836.956,
+            1846.7
+          ],
+          "quote": "So let me show you the data around this, and let me preface this with a quick explanation on NPS because it's not so easy to understand.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1847.4,
+            1856.723
+          ],
+          "quote": "NPS is this question around whether you would recommend a product, or in this case your role to a friend or family member, right?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1868.707,
+            1878.411
+          ],
+          "quote": "But then NPS as a whole, when it's calculated, goes from minus 100, which is absolutely terrible, to plus 100.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1887.914,
+            1895.817
+          ],
+          "quote": "It's not a promoter to use NPS speak, meaning I would promote my role to other people.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 614,
+          "t": [
+            3727.949,
+            3741
+          ],
+          "quote": "And then finally, when it comes to these NPS-like scores of whether people would recommend their role to a friend or to a colleague, researchers and designers are the least likely to recommend entering their role at this point.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "cognitive-rot",
+      "type": "concept",
+      "role": "concept",
+      "name": "认知衰退 (cognitive rot)",
+      "file": "认知衰退",
+      "primary": true,
+      "how_described": "本集描述了人们因为全盘接受 AI 的输出而不加判断，导致自身思考与判断力萎缩的现象，受访者直言「我的大脑正在腐烂」，生产力提升了但质量下降。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 451,
+          "t": [
+            2875.403,
+            2883.226
+          ],
+          "quote": "And this is related to phenomenon I've heard about recently, is it cognitive rot?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 480,
+          "t": [
+            3037.29,
+            3044.313
+          ],
+          "quote": "We need to put a little bit more energy into it, into fighting this cognitive rot that we're feeling.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "founders",
+      "type": "concept",
+      "role": "concept",
+      "name": "创始人 (founders)",
+      "file": "创始人",
+      "primary": true,
+      "how_described": "本集数据显示创始人连续两年蝉联「最快乐的人」，拥有最高的乐观度（71%）、最低的裁员担忧和最高的 AI 兴奋感（尽管可能存在幸存者偏差）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            739.122,
+            752.85
+          ],
+          "quote": "Founders, these people who are currently founders and in their journey of running a startup, are incredibly happy, probably because they have lots of agency and autonomy, relatively to the typical employee.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1905,
+            1922.047
+          ],
+          "quote": "What you are seeing here is that no one is a promoter of their role in tech right now, not even founders who are by far the happiest, happy-go-lucky people in tech right now.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1922.647,
+            1925.108
+          ],
+          "quote": "Founders would not recommend their roles.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1966.181,
+            1973.007
+          ],
+          "quote": "We're going to talk about how founders are the happiest people in tech, but still it's a very stressful, hard job.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1976.87,
+            1981.534
+          ],
+          "quote": "You would think many founders would be like, \"This is the craziest, gnarliest job.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 669,
+          "t": [
+            4003.484,
+            4010.266
+          ],
+          "quote": "It's still founders and people who are working in smaller companies.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 670,
+          "t": [
+            4011.027,
+            4022.271
+          ],
+          "quote": "And I do feel the need to say that when it comes to founders, to your point earlier, not that I know, but being a founder is an incredibly challenging, all encompassing job.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 672,
+          "t": [
+            4036.957,
+            4041.779
+          ],
+          "quote": "Rather than founders who had to shut down their startup or whatever it might be.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 674,
+          "t": [
+            4045.26,
+            4063.927
+          ],
+          "quote": "But yes, when we look at founders and when we look at, in this case, you're looking at company size as well, you can see that whether it's optimism, whether it's burnout, layoff worry, or whether people would recommend their job.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 676,
+          "t": [
+            4070.73,
+            4076.432
+          ],
+          "quote": "It's very clear that founders are top of nearly every measure.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 681,
+          "t": [
+            4096.52,
+            4107.107
+          ],
+          "quote": "And that said, if we talk about founders, even having that ownership and even having that agency has its limits.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 682,
+          "t": [
+            4108.688,
+            4115.533
+          ],
+          "quote": "Many founders are still moderately or at least moderately burnt out, 47% of founders.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 683,
+          "t": [
+            4116.934,
+            4125.119
+          ],
+          "quote": "And as we said earlier, even founders aren't very likely to recommend being a founder to other people right now, which is very interesting.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 692,
+          "t": [
+            4149.926,
+            4152.968
+          ],
+          "quote": "So far interestingly, we've seen two years in a row, founders are the happiest.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 695,
+          "t": [
+            4161.033,
+            4171
+          ],
+          "quote": "But it is really interesting that two years in a row of all of the ... Like the most clear ... One of the clearest takeaways is just founders seem to be happiest across every dimension.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "skill-atrophy",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能萎缩 (skill atrophy)",
+      "file": "技能萎缩",
+      "primary": true,
+      "how_described": "本集提到人们因为过度依赖 AI 走捷径，担心不再深入学习从而导致自身专业技能退化，需要刻意练习和抵抗这种认知衰退。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 476,
+          "t": [
+            3014.12,
+            3020.523
+          ],
+          "quote": "You had Simon Willison on this show talking about how people are worried about skill atrophy.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "guilt",
+      "type": "concept",
+      "role": "concept",
+      "name": "内疚感 (guilt)",
+      "file": "内疚感",
+      "primary": true,
+      "how_described": "本集指出一种在职业生涯早期人群中尤为明显的「AI 内疚感」，他们觉得利用这项技术完成工作有点像作弊，这种内疚感会随着资历增加而减少。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 967,
+          "t": [
+            5528.101,
+            5545.207
+          ],
+          "quote": "We're starting to see this AI guilt, and in particular, amongst people who are early in their career in the sense that people who are early in their career feel like leveraging this technology is a little bit like cheating in a sense.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 968,
+          "t": [
+            5545.887,
+            5549.388
+          ],
+          "quote": "And that guilt declines with seniority.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 969,
+          "t": [
+            5550.889,
+            5562.432
+          ],
+          "quote": "And in particular, we're seeing people in actually product marketing and data and analytics, which showed up previously in a couple of places, feeling the most guilt.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 974,
+          "t": [
+            5586.12,
+            5591.044
+          ],
+          "quote": "I would say to all of you who might be feeling that guilt, AI is an incredible technology.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "workos",
+      "type": "company",
+      "role": "company",
+      "name": "WorkOS",
+      "file": "WorkOS",
+      "primary": false,
+      "how_described": "本集的播客赞助商，提供专为 B2B SaaS 构建的企业级开发者 API 平台（如单点登录、审计日志等）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            295.6,
+            299.763
+          ],
+          "quote": "This episode is brought to you by our seasons presenting sponsor, WorkOS.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 70,
+          "t": [
+            308.208,
+            310.029
+          ],
+          "quote": "They are all powered by WorkOS.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 72,
+          "t": [
+            319.976,
+            327
+          ],
+          "quote": "WorkOS turns those deal blockers into drop-in APIs with a modern developer platform built specifically for B2B SaaS.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 73,
+          "t": [
+            327.52,
+            335.166
+          ],
+          "quote": "Literally every startup that I'm an investor in, that starts to expand upmarket, ends up working with WorkOS, and that's because they are the best.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 74,
+          "t": [
+            335.526,
+            345.333
+          ],
+          "quote": "Whether you are a seed stage startup trying to land your first enterprise customer or a unicorn expanding globally, WorkOS is the fastest path to becoming enterprise ready and unblocking growth.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 76,
+          "t": [
+            348.535,
+            354.8
+          ],
+          "quote": "Visit workos.com to get started, or just hit up their Slack where they have actual engineers waiting to answer your questions.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 77,
+          "t": [
+            355.18,
+            361.131
+          ],
+          "quote": "WorkOS allows you to build faster with delightful APIs, comprehensive docs, and a smooth developer experience.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 78,
+          "t": [
+            361.652,
+            364.918
+          ],
+          "quote": "Go to workos.com to make your app enterprise ready today.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "mercury",
+      "type": "company",
+      "role": "company",
+      "name": "Mercury",
+      "file": "Mercury",
+      "primary": false,
+      "how_described": "本集的播客赞助商，提供面向创业者的数字化银行业务服务，并在本期宣传其内置的对话式财务操作界面 Command。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 414,
+          "t": [
+            2642.68,
+            2650.624
+          ],
+          "quote": "This episode is brought to you by Mercury, radically different banking loved by over 300,000 entrepreneurs and now with command.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2651.044,
+            2653.065
+          ],
+          "quote": "I've been a customer of Mercury's for over six years.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2655.707,
+            2660.629
+          ],
+          "quote": "Mercury is basically what happens when banking is built by product people, not by bankers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2676.316,
+            2683.8
+          ],
+          "quote": "And just recently, they launched Command, a conversational interface built directly into Mercury, which acts as your financial operator.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 428,
+          "t": [
+            2703.192,
+            2706.675
+          ],
+          "quote": "Visit mercury.com to learn more and apply online in minutes.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2707.075,
+            2709.897
+          ],
+          "quote": "Mercury is a FinTech company, not an FDIC-insured bank.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "airbnb",
+      "type": "company",
+      "role": "company",
+      "name": "Airbnb",
+      "file": "Airbnb",
+      "primary": false,
+      "how_described": "本集提到这是两位主讲人（Lenny 和 Noam）大约十年前相识并共事的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            77.947,
+            81.712
+          ],
+          "quote": "We worked together at Airbnb for many years where he was my research partner.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 40,
+          "t": [
+            171.531,
+            173.695
+          ],
+          "quote": "You were the researcher on our team when I was at Airbnb.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 723,
+          "t": [
+            4277.02,
+            4280.123
+          ],
+          "quote": "You mentioned how we met a decade ago with Airbnb.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": false,
+      "how_described": "本集提到这是 AI 软件工程师产品 Devin 的开发商，其 CEO Scott Wu 曾在 Lenny 的节目中讨论过 AI 能力攀升的「阶梯」比喻。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 341,
+          "t": [
+            2206.842,
+            2226.779
+          ],
+          "quote": "I like to use certain metaphors or examples from other areas in my life to explain these things, so I believe you spoke in the past to Scott Wu, the Co-Founder and CEO of Cognition.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "devin",
+      "type": "concept",
+      "role": "concept",
+      "name": "Devin",
+      "file": "Devin",
+      "primary": false,
+      "how_described": "本集将其作为技术不断向上攀登的一个例子，其能力正从高中 CS 学生水平逐步攀升至资深工程师水平。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 342,
+          "t": [
+            2228.061,
+            2228.306
+          ],
+          "quote": "Devin.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 343,
+          "t": [
+            2230.14,
+            2231.861
+          ],
+          "quote": "And they are the makers of Devin.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

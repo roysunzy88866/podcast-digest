@@ -1,0 +1,1048 @@
+{
+  "episode_id": "2026-06-14-lennys-the-common-pattern-behind-successful",
+  "podcast": null,
+  "date": null,
+  "tags": [
+    "产品方法论",
+    "AI 时代",
+    "消费者社交",
+    "初创公司战略",
+    "管理与育儿"
+  ],
+  "entities": [
+    {
+      "id": "mark-pincus",
+      "type": "person",
+      "role": "host",
+      "name": "Mark Pincus",
+      "file": "Mark Pincus",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            84,
+            94.905
+          ],
+          "quote": "Today, my guest is Mark Pincus, founder of Zynga, who has arguably created more successful consumer products than anyone else in history, over a dozen both within Zynga and before Zynga.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 34,
+          "t": [
+            165.353,
+            167.376
+          ],
+          "quote": "With that, I bring you Mark Pincus.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            154.34,
+            164.813
+          ],
+          "quote": "Before we get into it, don't forget to check out lennysproductpass.com for a free year of the hottest and most well-crafted AI products in the world available exclusively to Lenny's Newsletter subscribers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2907.457,
+            2909.938
+          ],
+          "quote": "Learn more at vanta.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2914.139,
+            2916.36
+          ],
+          "quote": "That's vanta.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 629,
+          "t": [
+            4169.08,
+            4173.242
+          ],
+          "quote": "It could be you're in Marin and I'm like, \"Lenny, let's hang out.\"",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "zynga",
+      "type": "company",
+      "role": "company",
+      "name": "Zynga",
+      "file": "Zynga",
+      "primary": true,
+      "how_described": "本集将其作为主要案例进行讨论,它是 Mark Pincus 创立的公司,曾做出 FarmVille 等爆款。本集提到 Zynga 极度关注留存率(追踪 Day 365 retention),其产品管理引擎是 Proven, Better, New 框架。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            84,
+            94.905
+          ],
+          "quote": "Today, my guest is Mark Pincus, founder of Zynga, who has arguably created more successful consumer products than anyone else in history, over a dozen both within Zynga and before Zynga.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 51,
+          "t": [
+            224.78,
+            241.029
+          ],
+          "quote": "Well, this is a framework that we got to early on at Zynga and it became like a religion and the fundamental, the core principles and engine behind how we did product management at Zynga.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 55,
+          "t": [
+            260.18,
+            278.631
+          ],
+          "quote": "But Proven, Better, New is this core philosophy that I've had around products since I started Zynga, which is that we have these instincts in our gut, these human level instincts that are pretty much always right.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 60,
+          "t": [
+            318.771,
+            322.072
+          ],
+          "quote": "I mean, at Zynga, we'd see new game launches.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 62,
+          "t": [
+            340.34,
+            355.468
+          ],
+          "quote": "And 10 minutes after the game came out, the Zynga PMs emailed around their analysis and they said it's dead on arrival because his FTUE, his first time user experience was so many clicks and so bad that no one was ever going to see his great game design.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 63,
+          "t": [
+            355.868,
+            372.276
+          ],
+          "quote": "Even Sid Meiers tripped over what were understood by the most junior product managers at Zynga was the best of breed approach to onboarding a new user to the first time user experience on the Facebook platform.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 149,
+          "t": [
+            973.543,
+            981.366
+          ],
+          "quote": "And I like to say, and I said this to my product makers at Zynga, if you're truly ambitious, burn your resume.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 157,
+          "t": [
+            1082.975,
+            1088.597
+          ],
+          "quote": "And he lived in my neighborhood and he was friends with my dog, Zynga, more than he was friends with me.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1365.46,
+            1380.325
+          ],
+          "quote": "Or do you want to do what OMGPOP did, which is very similar story but opposite path, which was OMGPOP created the hit game Draw Something and Zynga bought them.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1608.193,
+            1622.74
+          ],
+          "quote": "And then I was so humbled and I was in this abyss we can talk about for so long and I was so just desperate to get out of that abyss that by the time I got to Zynga, I did something that was embarrassingly small.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1905.861,
+            1932.647
+          ],
+          "quote": "I err on the side of transparency and honesty and being authentic to a fault and I burn out people in that process and I did at Zynga and I have since because people will say, the negative critique I'm working with me is, \"Oh, working for Mark is like third grade soccer and every Monday he comes in excited about a different idea.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 333,
+          "t": [
+            2243.1,
+            2245.261
+          ],
+          "quote": "And it was so often at Zynga, it blew my mind.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 334,
+          "t": [
+            2245.801,
+            2247.921
+          ],
+          "quote": "I mean, I'll give you one story from Zynga.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 348,
+          "t": [
+            2412.143,
+            2416.767
+          ],
+          "quote": "For a lot of product builders, when I think Zynga, they're not like, \"This is the product I want to build.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 357,
+          "t": [
+            2462.91,
+            2490.26
+          ],
+          "quote": "There's a whole other story, but I think the part you're getting to is that Zynga was in a lot of ways a victim of its own success, that our games were so viral and took over the feeds on Facebook so much that your friend who was playing it started to bug you as a person not playing it and that's fair.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2491.72,
+            2506.844
+          ],
+          "quote": "But what I would say, I think what's misunderstood about Zynga from the beginning and why we succeeded and we created eight massive hits out of 10 mass large game launches.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 404,
+          "t": [
+            2772.951,
+            2786.735
+          ],
+          "quote": "And I think the two things to take away from Zynga's success in my opinion that I hold is to have a strong innovation vision that translates to what your teams are doing every week.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2989.716,
+            2997.199
+          ],
+          "quote": "And in 2007 when I started Zynga, video gaming was a $23 billion business, but I had stopped playing games.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 503,
+          "t": [
+            3375.893,
+            3380.755
+          ],
+          "quote": "Today and by the way, with Zynga, I said, \"I'm going to go to the cocktail party.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 552,
+          "t": [
+            3602.507,
+            3603.908
+          ],
+          "quote": "It's what led me to Zynga.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 621,
+          "t": [
+            4043.451,
+            4068.759
+          ],
+          "quote": "Our demand will too, but if today we start building, re-imagining consumer services based on free tokens, I think that's such an interesting innovation zone and it could sound like a dot-com business plan when I remember ordering pig ears from my dog, Zynga, and wanting to send thank you notes to the VCs because they were cheaper than at Petco.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 743,
+          "t": [
+            4903.4,
+            4907.442
+          ],
+          "quote": "I believe that, and I did that building Zynga to a fault.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 753,
+          "t": [
+            4948.284,
+            4963.134
+          ],
+          "quote": "But when I was building Zynga, we had to apologize for things like micromanaging, or expecting massive results from our teams.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 876,
+          "t": [
+            5690.12,
+            5696.525
+          ],
+          "quote": "I wanted to write a book on parenting saying, \"Everything I know about parenting, I learned from my dog Zynga.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 882,
+          "t": [
+            5730.289,
+            5735.573
+          ],
+          "quote": "It took me until I started Zynga at 41 to finally identify and articulate my why.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "workos",
+      "type": "company",
+      "role": "company",
+      "name": "WorkOS",
+      "file": "WorkOS",
+      "primary": false,
+      "how_described": "本集播客的赞助商,被描述为专门为 B2B SaaS 构建的现代化开发者平台,提供单点登录等功能,帮助初创公司快速具备企业就绪能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            380.7,
+            384.861
+          ],
+          "quote": "This episode is brought to you by our season's presenting sponsor WorkOS.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 67,
+          "t": [
+            393.304,
+            395.124
+          ],
+          "quote": "They are all powered by WorkOS.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 69,
+          "t": [
+            405.067,
+            412.109
+          ],
+          "quote": "WorkOS turns those deal blockers into drop-in APIs with a modern developer platform built specifically for B2B SaaS.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 70,
+          "t": [
+            412.629,
+            420.252
+          ],
+          "quote": "Literally every startup that I'm an investor in that starts to expand upmarket ends up working with WorkOS and that's because they are the best.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 71,
+          "t": [
+            420.632,
+            430.434
+          ],
+          "quote": "Whether you are a seed stage startup trying to land your first enterprise customer or a unicorn expanding globally, WorkOS is the fastest path to becoming enterprise ready and unblocking growth.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 73,
+          "t": [
+            433.635,
+            439.897
+          ],
+          "quote": "Visit workos.com to get started or just hit up their Slack where they have actual engineers waiting to answer your questions.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 74,
+          "t": [
+            440.297,
+            446.219
+          ],
+          "quote": "WorkOS allows you to build faster with delightful APIs, comprehensive docs, and a smooth developer experience.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 75,
+          "t": [
+            446.759,
+            450
+          ],
+          "quote": "Go to workos.com to make your app enterprise ready today.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "vanta",
+      "type": "company",
+      "role": "company",
+      "name": "Vanta",
+      "file": "Vanta",
+      "primary": false,
+      "how_described": "本集播客的赞助商,被描述为通过超过 35 个安全和隐私框架(如 SOC 2)帮助公司自动化合规和风险管理的平台。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 411,
+          "t": [
+            2848.66,
+            2852.761
+          ],
+          "quote": "I am so excited to tell you about this season's supporting sponsor Vanta.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2853.101,
+            2862.644
+          ],
+          "quote": "Vanta helps over 15,000 companies like Cursor, Ramp, Duolingo, Snowflake, and Atlassian earn and prove trust with their customers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2889.872,
+            2899.275
+          ],
+          "quote": "Vanta automates compliance and risk management with over 35 security and privacy frameworks, including SOC 2, ISO 27001, and HIPAA.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2907.457,
+            2909.938
+          ],
+          "quote": "Learn more at vanta.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2910.338,
+            2913.779
+          ],
+          "quote": "And as a listener of this podcast, you get $1,000 off Vanta.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2914.139,
+            2916.36
+          ],
+          "quote": "That's vanta.com/lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "bolt-new",
+      "type": "company",
+      "role": "company",
+      "name": "Bolt.new",
+      "file": "Bolt.new",
+      "primary": false,
+      "how_described": "本集作为“成功的小起点”案例被提及,团队在濒临失败时,将此前死磕的 Web 虚拟机技术加入 AI 编程副驾驶中,从而做出了远超别人的产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 254,
+          "t": [
+            1745.661,
+            1749.49
+          ],
+          "quote": "I love the story of Bolt.new that really blew up last year.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "discord",
+      "type": "company",
+      "role": "company",
+      "name": "Discord",
+      "file": "Discord",
+      "primary": false,
+      "how_described": "本集提到其创始人意识到他们曾把最重要的产品决策外包给最没经验的人,因此决定转变为倒金字塔模式,由创始人亲自把控产品体验的首尾一公里。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 728,
+          "t": [
+            4817.244,
+            4824.726
+          ],
+          "quote": "And I had a great conversation with the founders of Discord, and they came to this conclusion too that they needed to actually be an inverted pyramid.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "craigslist",
+      "type": "company",
+      "role": "company",
+      "name": "Craigslist",
+      "file": "Craigslist",
+      "primary": false,
+      "how_described": "本集作为产品“Better(更好)”的极佳案例,创始人花了两年时间才给列表加上照片,这体现了尊重用户习惯、不随意挪动用户依赖信息的世界级产品素养。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            1071.43,
+            1082.655
+          ],
+          "quote": "But the best product makers, and I love referencing someone like Craig Newmark and Craigslist, who took two years to add photos to Craigslist listings.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 498,
+          "t": [
+            3333.852,
+            3345.338
+          ],
+          "quote": "Before that, we would go to Google for a lead or Craigslist and it was a lot of noise to signal and now we're like, \"Oh my God, I could get on Friendster and find a date and it's actually a good lead.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集讨论了它作为大模型厂商的竞争格局,指出 OpenAI 等目前都在卷“编程”,但缺乏面向消费者的差异化,未来需要长出一套 AI 应用和智能体平台。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            110.013,
+            117.917
+          ],
+          "quote": "In a quote for the book, Sam Altman, the co-founder of OpenAI, said that, \"Today, the only bottleneck to building great products is knowing what to create.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 66,
+          "t": [
+            385.442,
+            392.884
+          ],
+          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 652,
+          "t": [
+            4323.2,
+            4340.767
+          ],
+          "quote": "And I think it's going to be in OpenAI's interest, Claude, Grok to see these apps, consumer facing agentic service apps happen and see them be successful with their LLM baked in.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 653,
+          "t": [
+            4340.927,
+            4348.75
+          ],
+          "quote": "And the more it's uniquely instantiated to OpenAI, the more it drives their consumer value proposition.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 661,
+          "t": [
+            4443.7,
+            4460.487
+          ],
+          "quote": "But if it was specifically baked into OpenAI or Claude and gave me a real clear reason that I'm getting value from my GPT beyond ...",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "proven-better-new",
+      "type": "concept",
+      "role": "concept",
+      "name": "Proven, Better, New",
+      "file": "Proven, Better, New",
+      "primary": true,
+      "how_described": "本集核心探讨的产品方法论框架:Proven 指合法且有品味地复制已被市场验证的东西;Better 指 10/10 用户都会叫好的微小改进;New 指大概率会失败但能吸引用户尝试的创新点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            193.24,
+            199.004
+          ],
+          "quote": "I want to start with this framework that you developed called Proven, Better, New.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 52,
+          "t": [
+            241.69,
+            249.214
+          ],
+          "quote": "And it was so fundamental to the book that for three of the four years writing the book, we called it Proven, Better, New.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 55,
+          "t": [
+            260.18,
+            278.631
+          ],
+          "quote": "But Proven, Better, New is this core philosophy that I've had around products since I started Zynga, which is that we have these instincts in our gut, these human level instincts that are pretty much always right.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 58,
+          "t": [
+            293.4,
+            300.423
+          ],
+          "quote": "The framework of Proven, Better, New takes that philosophy and says, \"Okay, what do we do with that?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 76,
+          "t": [
+            450.56,
+            456.362
+          ],
+          "quote": "So the point of Proven, Better, New is to say, \"Let's take all the proven off the table.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 100,
+          "t": [
+            621,
+            631.248
+          ],
+          "quote": "And if we do Proven, Better, New right, the product has much better odds of succeeding in the market, not failing for the wrong reasons.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 102,
+          "t": [
+            646.16,
+            662.847
+          ],
+          "quote": "I like to think if you do Proven, Better, New right, it's like a time machine because what if I could go back to Mark 2003 and '4 and say, \"Dude, you don't even realize how right you are.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 110,
+          "t": [
+            710.751,
+            719.237
+          ],
+          "quote": "If you're doing Proven, Better New, you're also looking around you for what are you finding heat that's proven in the market that you can also go test?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 115,
+          "t": [
+            738.177,
+            741
+          ],
+          "quote": "So kind of the steps that I hear is, so Proven, Better, New.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 130,
+          "t": [
+            814.909,
+            823.311
+          ],
+          "quote": "And that what I've found over the years with founders is that they start to use Proven, Better, New to justify a wrong idea.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 137,
+          "t": [
+            865.78,
+            884.308
+          ],
+          "quote": "And yet the masters at this product craft do Proven, Better, New, whether they call it that or not, and they do it at such a beautiful level that nobody even thinks ... No one realizes what it's derivative of.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1315.322,
+            1317.683
+          ],
+          "quote": "Is every product from Proven, Better, New?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1398.631,
+            1407.053
+          ],
+          "quote": "And now they were ruthlessly, desperately in need of a hit and now they did Proven, Better, New perfectly.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集指出未来需要面向消费者的智能体平台,并构想了一种“智能体旅行代理”(agentic travel agent),可随时处理行程和改签;还设想了智能体作为社交中间人,基于双方偏好协调社交活动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 627,
+          "t": [
+            4123.611,
+            4137.774
+          ],
+          "quote": "I love the idea of the agent being in the middle on brokering our social relationships and getting back to that lead gen, dating, jobs, general listings.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 628,
+          "t": [
+            4138.334,
+            4168.38
+          ],
+          "quote": "But I love the idea that the agent has our context and knows my context and your context and we have this membrane, I call it the social membrane, this intelligent membrane of trust and it gets smarter and smarter at knowing when to change dynamically change that trust or change that attention level that it's going to take from us like a great chief of staff and it could share less information with both of us than it knows.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 633,
+          "t": [
+            4191.23,
+            4203.575
+          ],
+          "quote": "There's some really interesting spaces that the AI and the agent can broker between us in ways that start to give us both productivity.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 654,
+          "t": [
+            4348.97,
+            4359.694
+          ],
+          "quote": "One example that is my number one is my Easter egg on this is I think there should be an agentic travel agent.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 655,
+          "t": [
+            4360.095,
+            4373.98
+          ],
+          "quote": "So a perfect example to me of a place where I think there is latent demand and the only reason we don't have it is because it doesn't make economic sense to offer it to us because we won't pay enough for it is a travel agent.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 656,
+          "t": [
+            4374.74,
+            4405.035
+          ],
+          "quote": "I believe if I offered you a free 24/7 travel agent that was always there for you, knows your travel context, knows you, and will actually not just book travel, but I think the most valuable part is when you're in the middle of a travel, a trip, be ready to rebook your flight and be on top of your travel logistics as they're happening and often failing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 660,
+          "t": [
+            4435.395,
+            4442.76
+          ],
+          "quote": "But if someone built the best travel agent today, maybe we'd find out about it, but it's a tough road.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "retention",
+      "type": "concept",
+      "role": "concept",
+      "name": "留存率 (retention)",
+      "file": "留存率",
+      "primary": true,
+      "how_described": "本集将其视为衡量公司价值的最核心指标,强调基于病毒式传播的公司是“正在下沉的快艇”,而 Zynga 成功是因为关注留存率,甚至是世界上唯一追踪 Day 365 retention(第365天留存率)的消费者公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 107,
+          "t": [
+            695.66,
+            701.825
+          ],
+          "quote": "So there was a point in Tribe where I knew my metrics weren't working, our D30 retention was terrible.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 355,
+          "t": [
+            2434.44,
+            2452.547
+          ],
+          "quote": "I think if I'm unpacking that when you say that the products turn people off, it's funny you say that because FarmVille and CityVille were our biggest hits in terms of installs, engagement, retention, revenues.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 378,
+          "t": [
+            2635.243,
+            2643.286
+          ],
+          "quote": "And then if you think at a mechanical metric level, our core metric was retention, not virality.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 379,
+          "t": [
+            2643.846,
+            2648.528
+          ],
+          "quote": "We grew, we outlasted everybody because we had the best retention.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2649.288,
+            2654.15
+          ],
+          "quote": "I think we were the only consumer company in the world that tracked Day 365 retention.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2660.352,
+            2668.615
+          ],
+          "quote": "I believe that the most valuable companies in the world, well, statistically this is true, they have the highest Day 365 retention.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2669.595,
+            2672.696
+          ],
+          "quote": "Can you build against Day 365 retention?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2676.617,
+            2682.7
+          ],
+          "quote": "We can find early indicators of a positive Day 365 and a negative Day 365 retention.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2759.968,
+            2766.029
+          ],
+          "quote": "But we were tracking both in our games, in our network, what was the retention?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "micromanagement",
+      "type": "concept",
+      "role": "concept",
+      "name": "微观管理 (micromanagement)",
+      "file": "微观管理",
+      "primary": true,
+      "how_described": "本集极力推崇的理念,认为创始人或最好的产品 CEO 必须贴近底层细节。原话指出:「微观管理是美好的,你应该尽可能久地微观管理」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 741,
+          "t": [
+            4897.207,
+            4901.096
+          ],
+          "quote": "You have this line in the book along these lines, \"Micromanagement is beautiful.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "distribution",
+      "type": "concept",
+      "role": "concept",
+      "name": "分发 (distribution)",
+      "file": "分发",
+      "primary": true,
+      "how_described": "本集指出在 AI 时代,构建产品变得容易,使得分发成为了初创公司最大的挑战。分发不能是事后补充,而必须深度融入产品战略并从一开始就得到验证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 567,
+          "t": [
+            3690.967,
+            3694.512
+          ],
+          "quote": "But I want to touch on distribution just as we're on this thread.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 569,
+          "t": [
+            3700.761,
+            3702.903
+          ],
+          "quote": "One of the biggest challenges becomes distribution.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 575,
+          "t": [
+            3720.783,
+            3726
+          ],
+          "quote": "Let's start with talking about consumer distribution, which I understand better.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 610,
+          "t": [
+            3917.793,
+            3919.073
+          ],
+          "quote": "And you asked about distribution.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 611,
+          "t": [
+            3920.354,
+            3931.68
+          ],
+          "quote": "Distribution is just so crucial and core to any consumer, any business idea, but any consumer idea, and it can't be an afterthought.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 613,
+          "t": [
+            3935.362,
+            3945.088
+          ],
+          "quote": "Distribution has to be part of your product and part of baked into the strategy deeply and proven from the beginning.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 617,
+          "t": [
+            3976.185,
+            3980.367
+          ],
+          "quote": "And once there is distribution, there'll be a flood of competition.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 618,
+          "t": [
+            3981.247,
+            3987.79
+          ],
+          "quote": "But when distribution is this broken, it is even more core to your product and your strategy.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 643,
+          "t": [
+            4242.723,
+            4251.518
+          ],
+          "quote": "Just to close the loop on the distribution part, what I'm hearing is we might be on the verge of a new distribution platform, a way to get out and for people to discover you.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "critical-thinking",
+      "type": "concept",
+      "role": "concept",
+      "name": "批判性思维 (critical thinking)",
+      "file": "批判性思维",
+      "primary": true,
+      "how_described": "本集探讨 AI 时代育儿的核心,认为学校仍在灌输知识的流水线教育已经过时,父母最该在乎的是培养孩子的批判性思维,教他们理解他人观点背后的议程和逻辑,而不是仅仅知道答案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 827,
+          "t": [
+            5416.105,
+            5430.754
+          ],
+          "quote": "And what I've tried to do with my older kids is teach them to have critical thinking more than... And I say, \"I don't care if you go to college,\" which is a little hard for them because they're achievers.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 829,
+          "t": [
+            5433.635,
+            5441.6
+          ],
+          "quote": "What I care about is that you develop critical thinking, and you find a way to be useful to people in the world.\"",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
