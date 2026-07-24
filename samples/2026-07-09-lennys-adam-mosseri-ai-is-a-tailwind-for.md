@@ -1,7 +1,7 @@
 ---
-title: 
-podcast: 
-date: undefined
+title: "Adam Mosseri: AI is a tailwind for authenticity"
+podcast: "Lenny's Podcast"
+date: 2026-07-09
 source_url: https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for
 duration: "68:26"
 host: "[[Lenny]]"
@@ -16,7 +16,7 @@ tags:
   - 战略与愿景
 ---
 
-# undefined
+# Adam Mosseri: AI is a tailwind for authenticity
 
 > [!info] 关联
 > **主持**:[[Lenny]]
@@ -27,7 +27,7 @@ tags:
 >
 > **概念**:[[pods]] · [[product staff]] · [[品味]] · [[大型语言模型]] · [[嵌入模型]] · [[按时间顺序的信息流]] · [[AI 生成内容]] · [[vibe coding]]
 >
-> **来源**:[undefined](https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for)
+> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for)
 
 ## 🎧 本集中文精华音频
 

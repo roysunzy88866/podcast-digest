@@ -1,7 +1,7 @@
 ---
-title: 
-podcast: 
-date: undefined
+title: "Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone"
+podcast: "Lenny's Podcast"
+date: 2026-07-19
 source_url: https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future
 duration: "72:05"
 host: "[[Lenny]]"
@@ -16,7 +16,7 @@ tags:
   - 内容制作
 ---
 
-# undefined
+# Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone
 
 > [!info] 关联
 > **主持**:[[Lenny]]
@@ -27,7 +27,7 @@ tags:
 >
 > **概念**:[[智能体]] · [[系统思维]] · [[动荡阶段]] · [[护栏]] · [[卓越即操作系统]] · [[留任测试]] · [[AI 流畅度]] · [[无责复盘]]
 >
-> **来源**:[undefined](https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future)
+> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future)
 
 ## 🎧 本集中文精华音频
 
@@ -125,9 +125,13 @@ Elizabeth 强调，即便有了 AI 的助力，各专业角色的比较优势依
 
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《2026-02-26-lennys-ai-is-critical-for-humanitys-survival》]] —— 同概念:护栏 (guardrails)、智能体 (agent)
 - [[2026-06-22-latent-space-gray-swan|《神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan》]] —— 同概念:智能体 (agent)、护栏 (guardrails)
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)》]] —— 同概念:智能体 (agent)
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)》]] —— 同概念:智能体 (agent)
 - [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同概念:智能体 (agent)
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《The AI paradox: More automation, more humans, more work | Dan Shipper》]] —— 同概念:智能体 (agent)
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella：Microsoft Build特别跨界对谈》]] —— 同概念:智能体 (agent)
 - [[2026-06-24-latent-space-databricks|《为什么前沿生态必须开放》]] —— 同概念:智能体 (agent)
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]] —— 同概念:智能体 (agent)
 - [[2026-07-08-latent-space-modal|《为什么 AI 基础设施必须为「Agent 体验」进化》]] —— 同概念:智能体 (agent)
 - [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:智能体 (agent)
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo》]] —— 同概念:智能体 (agent)

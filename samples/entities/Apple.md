@@ -10,11 +10,11 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《2026-06-07-lennys-father-of-the-ipod-and-iphone-on》]]**(02:58起):本集把它说成:2001年时离破产非常近、没有任何零售业务的公司,后来通过将 iPod 连接 Windows 才起死回生,最终靠卖 iPod 而不是 Mac 拯救了自己。
+- **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell》]]**(02:58起):本集把它说成:2001年时离破产非常近、没有任何零售业务的公司,后来通过将 iPod 连接 Windows 才起死回生,最终靠卖 iPod 而不是 Mac 拯救了自己。
 
 ## 出现在这些集
 
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《2026-06-07-lennys-father-of-the-ipod-and-iphone-on》]] — 作为被讨论公司
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell》]] — 作为被讨论公司
 
 ## 关联实体
 

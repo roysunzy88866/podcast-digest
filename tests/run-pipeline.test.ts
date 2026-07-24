@@ -171,3 +171,18 @@ describe("appendSkip · 隔离账本去重", () => {
     expect(st.skipped).toHaveLength(1);
   });
 });
+
+describe("sourceMetaFields · 新集 meta 补齐(C5.1 Scenario 3:title_en/podcast/date 随取源写入)", () => {
+  it("★ 从 RSS item + 源清单派生显示字段", async () => {
+    const { sourceMetaFields } = await import("../scripts/run-pipeline.mjs");
+    const f = sourceMetaFields(
+      { title: "Netflix CPTO on AI | Elizabeth Stone", pubDateISO: "2026-07-19T12:31:21.000Z" },
+      { key: "lennys", name: "Lenny's Podcast" },
+    );
+    expect(f).toEqual({ title_en: "Netflix CPTO on AI | Elizabeth Stone", podcast: "Lenny's Podcast", date: "2026-07-19" });
+  });
+  it("★ SOURCES 每个源都带显示名(卡片来源栏要用)", async () => {
+    const { SOURCES } = await import("../scripts/run-pipeline.mjs");
+    for (const s of SOURCES) expect(typeof s.name).toBe("string");
+  });
+});

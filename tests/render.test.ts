@@ -203,3 +203,18 @@ describe("renderEpisode · 整页(host=null 不崩、金句带 ^块ID)", () => {
     expect(renderEpisode(META, DIGEST, ENTITIES)).toContain(`title: ${META.title_zh}`);
   });
 });
+
+// C5.1 · 标题/日期 fallback(Lenny's 集 title_zh 全空 → 集页 H1/frontmatter 曾渲染出 "undefined")
+describe("renderEpisode · C5.1 标题/日期 fallback 链", () => {
+  it("★★ title_zh 空 → H1/frontmatter 用 title_en,页面不出现 undefined", () => {
+    const meta = { ...META, title_zh: undefined, title_en: "Netflix CPTO on AI", date: undefined };
+    const page = renderEpisode(meta, DIGEST, ENTITIES);
+    expect(page).toContain("# Netflix CPTO on AI");
+    expect(page).not.toContain("undefined");
+  });
+  it("★ date 空 → 从 id 前缀取(YYYY-MM-DD)", () => {
+    const meta = { ...META, id: "2026-07-19-lennys-x", date: undefined };
+    const page = renderEpisode(meta, DIGEST, ENTITIES);
+    expect(page).toContain("date: 2026-07-19");
+  });
+});

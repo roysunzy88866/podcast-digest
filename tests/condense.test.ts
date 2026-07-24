@@ -34,3 +34,18 @@ describe("extractJson", () => {
     expect(extractJson("这里没有大括号")).toBeNull();
   });
 });
+
+describe("validate · C5.1 Scenario 5:浓缩产物必须带 title_zh(中文标题)", () => {
+  it("★ 缺 title_zh → 结构不合格(逼 GLM 重试,不留空标题)", async () => {
+    const { validate } = await import("../scripts/condense.mjs");
+    const ok = {
+      title_zh: "标题",
+      tldr: "一句话",
+      digest_md: "x".repeat(300),
+      quotes: [1, 2, 3, 4].map((i) => ({ en: "e", zh: "z", timestamp: "0:0" + i, speaker: "s" })),
+    };
+    expect(validate(ok)).toEqual([]);
+    const { title_zh, ...noTitle } = ok;
+    expect(validate(noTitle).join()).toContain("title_zh");
+  });
+});

@@ -10,11 +10,11 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto》]]**(00:09起):本集中 Co-Founder 智能体使用的核心底层技术之一，被用于运行实际的无状态智能体循环。
+- **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]]**(00:09起):本集中 Co-Founder 智能体使用的核心底层技术之一，被用于运行实际的无状态智能体循环。
 
 ## 出现在这些集
 
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto》]] — 作为被讨论公司
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]] — 作为被讨论公司
 
 ## 关联实体
 

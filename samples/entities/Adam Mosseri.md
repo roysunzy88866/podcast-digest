@@ -36,7 +36,7 @@ entity_type: 人物
 
 ## 出现在这些集
 
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for》]] — 作为联合主持
+- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri: AI is a tailwind for authenticity》]] — 作为联合主持
 
 ## 关联实体
 

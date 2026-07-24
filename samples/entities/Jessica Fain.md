@@ -24,7 +24,7 @@ entity_type: 人物
 
 ## 出现在这些集
 
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《2026-03-22-lennys-the-art-of-influence-jessica-fain》]] — 作为主持
+- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《The art of influence: The single most important skill that AI can’t replace | Jessica Fain (Webflow, ex-Slack)》]] — 作为主持
 
 ## 关联实体
 

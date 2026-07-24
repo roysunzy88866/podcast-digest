@@ -1,7 +1,7 @@
 ---
-title: 
-podcast: 
-date: undefined
+title: "Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell"
+podcast: "Lenny's Podcast"
+date: 2026-06-07
 source_url: https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on
 duration: "95:05"
 host: "[[Tony Fadell]]"
@@ -16,7 +16,7 @@ tags:
   - 基于观点的决策
 ---
 
-# undefined
+# Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell
 
 > [!info] 关联
 > **主持**:[[Tony Fadell]]
@@ -27,7 +27,7 @@ tags:
 >
 > **概念**:[[iPod]] · [[iPhone]] · [[Nest]] · [[Claude]] · [[基于观点的决策]] · [[快时尚软件]] · [[技术债务]] · [[多点触控]] · [[Flighty]] · [[微管理]]
 >
-> **来源**:[undefined](https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on)
+> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on)
 
 ## 🎧 本集中文精华音频
 
@@ -172,7 +172,7 @@ Steve Jobs 每天都在打磨 iPhone 的故事,他对着聪明但不了解内情
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《2026-07-12-lennys-how-tech-workers-actually-feel-about》]] —— 同嘉宾:Lenny
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《2026-07-19-lennys-netflix-cpto-on-ai-and-the-future》]] —— 同嘉宾:Lenny
 - [[2026-06-22-latent-space-gray-swan|《神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan》]] —— 同公司:Anthropic
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto》]] —— 同概念:vibe code
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]] —— 同概念:vibe code
 
 ---
 

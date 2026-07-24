@@ -10,7 +10,7 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《2026-05-24-lennys-the-ai-paradox-dan-shipper》]]**(00:30起):本集嘉宾 Dan Shipper 创办的内容与软件孵化器公司，全员使用 AI 并能提前拿到模型公司的新产品测试，过去一年人数翻倍。
+- **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《The AI paradox: More automation, more humans, more work | Dan Shipper》]]**(00:30起):本集嘉宾 Dan Shipper 创办的内容与软件孵化器公司，全员使用 AI 并能提前拿到模型公司的新产品测试，过去一年人数翻倍。
 
 ## 金句
 
@@ -38,7 +38,7 @@ entity_type: 公司
 
 ## 出现在这些集
 
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《2026-05-24-lennys-the-ai-paradox-dan-shipper》]] — 作为被讨论公司
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《The AI paradox: More automation, more humans, more work | Dan Shipper》]] — 作为被讨论公司
 
 ## 关联实体
 

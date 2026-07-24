@@ -1,6 +1,6 @@
 // C5 · 列表页(单集卡流 + 标签 + 排序 + 空站)真业务测试。只调被测函数。
 import { describe, it, expect } from "vitest";
-import { cardData, renderList } from "../scripts/build-list.mjs";
+import { cardData, cardHtml, renderList } from "../scripts/build-list.mjs";
 
 // 造一集(默认全字段;可覆盖 meta/digest/entities)
 const ep = (over: any = {}) => ({
@@ -86,5 +86,70 @@ describe("renderList · 列表页 markdown", () => {
     const md = renderList([ep({ meta: { id: "z", date: "2026-03-03", title_zh: "A<b>&C", podcast: "p" } })]);
     expect(md).toContain("A&lt;b&gt;&amp;C");
     expect(md).not.toContain("A<b>&C");
+  });
+});
+
+// ── C5.1 列表页可读性修复(破卡 / 标题 fallback / 标签归并)──────────────
+
+describe("C5.1 破卡:卡片 HTML 不许有空白行", () => {
+  it("★★ 无嘉宾的卡不留空白行(空行=markdown 截断 HTML 块 → 后半卡变转义源码,线上 22 卡破损根因)", () => {
+    const c = cardData(ep({ meta: { guests: [], guest_titles: {} } }));
+    expect(c.guest).toBe("");
+    const html = cardHtml(c);
+    expect(html.split("\n").some((l) => l.trim() === "")).toBe(false);
+  });
+  it("★ 有嘉宾的卡同样无空白行", () => {
+    const html = cardHtml(cardData(ep()));
+    expect(html.split("\n").some((l) => l.trim() === "")).toBe(false);
+  });
+});
+
+describe("C5.1 标题/日期 fallback 链(title_zh→title_en→id;date→id 前缀)", () => {
+  it("★ title_zh 空 → 用 title_en(英文原标题,不再显示文件名)", () => {
+    const c = cardData(ep({ meta: { title_zh: null, title_en: "Netflix CPTO on AI" } }));
+    expect(c.title).toBe("Netflix CPTO on AI");
+  });
+  it("★ title_zh/title_en 都空 → id 兜底", () => {
+    const c = cardData(ep({ meta: { title_zh: null } }));
+    expect(c.title).toBe("2026-07-08-x");
+  });
+  it("★ meta.date 空 → 从 id 前缀取日期", () => {
+    const c = cardData(ep({ meta: { date: null } }));
+    expect(c.date).toBe("2026-07-08");
+  });
+});
+
+describe("C5.1 标签归并 + 首屏 TOP15", () => {
+  const epTag = (id: string, tags: string[]) =>
+    ep({ meta: { id, date: `2026-01-01`, title_zh: id, podcast: "p" }, digest: { tldr: "t", tags } });
+
+  it("★★ 空格变体自动归并(AI 安全/AI安全 → 一个标签),卡上 data-tags 同步为正主", () => {
+    const md = renderList([epTag("a", ["AI 安全"]), epTag("b", ["AI安全"])]);
+    const btns = [...md.matchAll(/data-tag="(AI ?安全)"/g)].map((m) => m[1]);
+    expect(btns.length).toBe(1); // 只剩一个按钮
+    const cardTags = [...md.matchAll(/data-tags="([^"]*)"/g)].map((m) => m[1]);
+    expect(new Set(cardTags).size).toBe(1); // 两张卡指向同一正主 → 筛选不漏集
+  });
+  it("★ 别名表归并:开源战略 → 开源策略", () => {
+    const md = renderList([epTag("a", ["开源战略"]), epTag("b", ["开源策略"])], { 开源战略: "开源策略" });
+    expect(md).toContain('data-tag="开源策略"');
+    expect(md).not.toContain('data-tag="开源战略"');
+  });
+  it("★ 超过 15 个标签 → 首屏只 15 个,其余进「更多标签」折叠区", () => {
+    const eps = Array.from({ length: 17 }, (_, i) => epTag(`e${i}`, [`标签${String(i).padStart(2, "0")}`]));
+    const md = renderList(eps);
+    const more = md.match(/<div class="ep-tagbar ep-tagbar-more" hidden>[\s\S]*?<\/div>/);
+    expect(more).toBeTruthy();
+    expect((more![0].match(/data-tag=/g) || []).length).toBe(2); // 17-15
+    expect(md).toContain('class="ep-tagmore"');
+  });
+  it("★ 不超过 15 个 → 无「更多标签」按钮", () => {
+    const md = renderList([epTag("a", ["甲"]), epTag("b", ["乙"])]);
+    expect(md).not.toContain('class="ep-tagmore"');
+  });
+  it("★ 高频标签排前(按集数倒序)", () => {
+    const md = renderList([epTag("a", ["热门"]), epTag("b", ["热门", "冷门"])]);
+    const order = [...md.matchAll(/data-tag="([^"]+)"/g)].map((m) => m[1]);
+    expect(order.indexOf("热门")).toBeLessThan(order.indexOf("冷门"));
   });
 });

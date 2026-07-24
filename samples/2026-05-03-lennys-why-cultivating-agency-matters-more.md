@@ -1,7 +1,7 @@
 ---
-title: 
-podcast: 
-date: undefined
+title: "Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)"
+podcast: "Lenny's Podcast"
+date: 2026-05-03
 source_url: https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more
 duration: "87:20"
 host: "[[Max Schoening]]"
@@ -16,7 +16,7 @@ tags:
   - 产品核心与设计哲学
 ---
 
-# undefined
+# Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)
 
 > [!info] 关联
 > **主持**:[[Max Schoening]]
@@ -27,7 +27,7 @@ tags:
 >
 > **概念**:[[智能体]] · [[智能体循环]] · [[智能体]] · [[可塑软件]] · [[LLM]] · [[品味]] · [[代码]]
 >
-> **来源**:[undefined](https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more)
+> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more)
 
 ## 🎧 本集中文精华音频
 

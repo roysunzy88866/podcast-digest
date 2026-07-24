@@ -4,7 +4,7 @@
 // 走集页同款「生成 markdown(内嵌 HTML)→ Quartz 套外壳渲染」模式(不动 Quartz 组件系统)。
 // 卡片字段全来自 data/episodes 的 meta/digest(可溯源);排序=发布日期倒序。
 // 首页由 Quartz 套上顶栏(搜索框=US-3 各页可达)。标签筛选/已读压暗=内联脚本(客户端 localStorage)。
-import { writeFileSync, mkdirSync, realpathSync } from "node:fs";
+import { writeFileSync, mkdirSync, realpathSync, existsSync, readFileSync } from "node:fs";
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadAllEpisodes } from "./build-entities.mjs";
@@ -31,39 +31,71 @@ export function cardData(ep) {
   const tags = (ep.entities?.tags ?? digest.tags ?? []).filter(Boolean);
   return {
     slug: meta.id,
-    title: meta.title_zh ?? meta.id,
+    // C5.1:fallback 链 title_zh→title_en→id(Lenny's 集 title_zh 未生成前先显示英文原标题,不显示文件名)
+    title: meta.title_zh ?? meta.title_en ?? meta.id,
     guest,
     guestTitle,
     quote: digest.tldr ?? "", // 一句精华语录=TLDR(一句话精华、总在;金句脱离上下文看不懂,D14)
     podcast: meta.podcast ?? "",
     source_url: meta.source_url ?? "",
-    date: meta.date ?? "",
+    // date 缺 → 从 id 前缀取(id 恒以 YYYY-MM-DD 开头;老集 meta 没写 date)
+    date: meta.date ?? (String(meta.id).match(/^\d{4}-\d{2}-\d{2}/)?.[0] ?? ""),
     tags,
   };
 }
 
-function cardHtml(c) {
+/**
+ * C5.1 标签归并:① 别名表(变体→正主,人工登记 data/tag-aliases.json)② 空格变体自动归并
+ * (去空格后相同 → 出现次数最多的形式当正主,平票取 zh 排序靠前)。返回 tag→正主 的映射函数。
+ */
+export function tagCanonicalizer(cards, aliases = {}) {
+  const resolve1 = (t) => aliases[String(t).trim()] ?? String(t).trim();
+  const counts = new Map(); // 过别名表后的形式 → 出现次数
+  for (const c of cards) for (const t of c.tags) {
+    const r = resolve1(t);
+    counts.set(r, (counts.get(r) || 0) + 1);
+  }
+  const byKey = new Map(); // 去空格 key → 正主形式
+  for (const [form, n] of counts) {
+    const k = form.replace(/\s+/g, "");
+    const cur = byKey.get(k);
+    if (!cur || n > cur.n || (n === cur.n && form.localeCompare(cur.form, "zh") < 0)) byKey.set(k, { form, n });
+  }
+  return (t) => byKey.get(resolve1(t).replace(/\s+/g, ""))?.form ?? resolve1(t);
+}
+
+export function cardHtml(c) {
   const tagAttr = c.tags.map((t) => esc(t)).join("|");
   const guestLine = c.guest
     ? `<div class="ep-guest">${esc(c.guest)}${c.guestTitle ? ` <span class="ep-guest-title">· ${esc(c.guestTitle)}</span>` : ""}</div>`
     : "";
-  const tagsHtml = c.tags.map((t) => `<span class="ep-tag">#${esc(t)}</span>`).join("");
-  return `  <a class="ep-card" href="/${esc(c.slug)}" data-slug="${esc(c.slug)}" data-tags="${tagAttr}">
+  const html = `  <a class="ep-card" href="/${esc(c.slug)}" data-slug="${esc(c.slug)}" data-tags="${tagAttr}">
     <div class="ep-cover" aria-hidden="true"><span>${esc(c.podcast || "播客")}</span></div>
     <div class="ep-body">
       <div class="ep-metaline"><span class="ep-src">${esc(c.podcast)}</span><span class="ep-date">${esc(c.date)}</span></div>
       <div class="ep-title">${esc(c.title)}</div>
       ${guestLine}
       <p class="ep-quote">${esc(c.quote)}</p>
-      <div class="ep-tags">${tagsHtml}</div>
+      <div class="ep-tags">${c.tags.map((t) => `<span class="ep-tag">#${esc(t)}</span>`).join("")}</div>
     </div>
   </a>`;
+  // ⚠️ 空白行必须滤掉:markdown 把空行当「HTML 块结束」,后半张卡按 4 空格缩进转成代码块、
+  // 原样吐 HTML 源码(线上 22/27 卡破损根因——guestLine 为空时正好留下一个纯空白行)。
+  return html.split("\n").filter((l) => l.trim() !== "").join("\n");
 }
 
+const TAGBAR_TOP = 15; // 首屏标签数;其余收进「更多标签」(C5.1 用户拍板:121 个标签墙 → 收敛)
+
 /** 全部集 → 列表页 markdown(含内嵌 HTML/样式/脚本)。空站 → 友好空状态(US-1a)。 */
-export function renderList(episodes) {
+export function renderList(episodes, tagAliases = {}) {
   const cards = episodes.map(cardData).sort((a, b) => String(b.date).localeCompare(String(a.date))); // 发布日期倒序
-  const allTags = [...new Set(cards.flatMap((c) => c.tags))].sort((a, b) => a.localeCompare(b, "zh"));
+  // C5.1 标签归并:卡上与标签栏统一用正主形式(变体不漏集)
+  const canon = tagCanonicalizer(cards, tagAliases);
+  for (const c of cards) c.tags = [...new Set(c.tags.map(canon))];
+  const tagCount = new Map();
+  for (const c of cards) for (const t of new Set(c.tags)) tagCount.set(t, (tagCount.get(t) || 0) + 1);
+  // 按集数倒序(高频在前),平票按 zh 排序
+  const allTags = [...tagCount.keys()].sort((a, b) => tagCount.get(b) - tagCount.get(a) || a.localeCompare(b, "zh"));
 
   const fm = `---\ntitle: 英文播客中文精华\n---\n`;
 
@@ -77,10 +109,15 @@ ${STYLE}
 `;
   }
 
+  const btn = (t) => `<button class="ep-tagbtn" data-tag="${esc(t)}" type="button">#${esc(t)}</button>`;
+  const topTags = allTags.slice(0, TAGBAR_TOP);
+  const restTags = allTags.slice(TAGBAR_TOP);
   const tagbar =
     `<div class="ep-tagbar" role="toolbar" aria-label="标签筛选">` +
-    allTags.map((t) => `<button class="ep-tagbtn" data-tag="${esc(t)}" type="button">#${esc(t)}</button>`).join("") +
-    `</div>`;
+    topTags.map(btn).join("") +
+    (restTags.length ? `<button class="ep-tagmore" type="button">更多标签 ▾</button>` : "") +
+    `</div>` +
+    (restTags.length ? `\n  <div class="ep-tagbar ep-tagbar-more" hidden>${restTags.map(btn).join("")}</div>` : "");
 
   const clearbar = `<div class="ep-clear" hidden>筛选:<b class="ep-clear-tag"></b><button type="button" class="ep-clear-btn">✕ 清除</button></div>`;
   const cardsHtml = `<div class="ep-cards">\n${cards.map(cardHtml).join("\n")}\n</div>`;
@@ -104,6 +141,9 @@ const STYLE = `<style>
 .ep-tagbtn{font-size:.8rem;padding:.25rem .7rem;border-radius:999px;border:1px solid var(--lightgray);background:var(--light);color:var(--darkgray);cursor:pointer;transition:all .15s}
 .ep-tagbtn:hover{border-color:var(--secondary);color:var(--secondary)}
 .ep-tagbtn.active{background:var(--secondary);color:var(--light);border-color:var(--secondary)}
+.ep-tagmore{font-size:.8rem;padding:.25rem .7rem;border-radius:999px;border:1px dashed var(--lightgray);background:transparent;color:var(--gray);cursor:pointer}
+.ep-tagmore:hover{border-color:var(--secondary);color:var(--secondary)}
+.ep-tagbar-more{margin-top:-.6rem}
 .ep-clear{display:flex;align-items:center;gap:.5rem;margin:-.4rem 0 1rem;font-size:.85rem;color:var(--gray)}
 .ep-clear[hidden],.ep-empty[hidden]{display:none!important}
 .ep-clear b{color:var(--secondary)}
@@ -156,6 +196,9 @@ const SCRIPT = `<script>
     }
     btns.forEach(function(b){ b.addEventListener('click', function(){ active=(active===b.dataset.tag)?null:b.dataset.tag; apply(); }); });
     [].slice.call(root.querySelectorAll('.ep-clear-btn,.ep-clear-btn2')).forEach(function(b){ b.addEventListener('click', function(){ active=null; apply(); }); });
+    // C5.1 「更多标签」折叠(首屏只显示 TOP15)
+    const moreBtn=root.querySelector('.ep-tagmore'), moreBar=root.querySelector('.ep-tagbar-more');
+    if(moreBtn&&moreBar) moreBtn.addEventListener('click', function(){ moreBar.hidden=!moreBar.hidden; moreBtn.textContent=moreBar.hidden?'更多标签 ▾':'收起 ▴'; });
   }
   // Quartz 是 SPA:内联脚本换页后不重跑 → 挂 nav 事件(每次导航含首载都会触发),换页回首页也重新绑定
   document.addEventListener('nav', init);
@@ -176,7 +219,10 @@ if (isMain) {
   const outIdx = process.argv.indexOf("--out");
   const out = outIdx >= 0 && process.argv[outIdx + 1] ? process.argv[outIdx + 1] : join(ROOT, "site/content/index.md");
   const episodes = loadAllEpisodes(join(ROOT, "data/episodes"));
-  const md = renderList(episodes);
+  // 标签别名表(近义变体→正主,人工登记;没有就空表)
+  const aliasFile = join(ROOT, "data/tag-aliases.json");
+  const tagAliases = existsSync(aliasFile) ? JSON.parse(readFileSync(aliasFile, "utf8")) : {};
+  const md = renderList(episodes, tagAliases);
   mkdirSync(dirname(out), { recursive: true });
   writeFileSync(out, md);
   console.log(`✅ 列表页 → ${out}(${episodes.length} 张卡,发布日期倒序)`);

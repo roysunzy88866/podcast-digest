@@ -10,11 +10,11 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto》]]**(00:35起):本集讨论的所属公司，拥有超过一千名研发员工，并在 10 周内由 5 人小团队从零构建发布了全新智能体产品 Co-Founder。
+- **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]]**(00:35起):本集讨论的所属公司，拥有超过一千名研发员工，并在 10 周内由 5 人小团队从零构建发布了全新智能体产品 Co-Founder。
 
 ## 出现在这些集
 
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto》]] — 作为被讨论公司
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]] — 作为被讨论公司
 
 ## 关联实体
 

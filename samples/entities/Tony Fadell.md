@@ -22,7 +22,7 @@ entity_type: 人物
 
 ## 出现在这些集
 
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《2026-06-07-lennys-father-of-the-ipod-and-iphone-on》]] — 作为主持
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell》]] — 作为主持
 
 ## 关联实体
 

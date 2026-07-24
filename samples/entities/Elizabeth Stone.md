@@ -20,7 +20,7 @@ entity_type: 人物
 
 ## 出现在这些集
 
-- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《2026-07-19-lennys-netflix-cpto-on-ai-and-the-future》]] — 作为联合主持
+- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone》]] — 作为联合主持
 
 ## 关联实体
 

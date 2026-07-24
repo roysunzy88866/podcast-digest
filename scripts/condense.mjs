@@ -70,9 +70,10 @@ export function extractJson(text) {
 }
 
 /** 结构校验(抽成函数:重试循环要用它,不能只在循环外算一次) */
-function validate(o) {
+export function validate(o) {
   const errs = [];
   if (!o || typeof o !== "object") return ["不是对象"];
+  if (!o.title_zh) errs.push("缺 title_zh"); // C5.1:中文标题随浓缩生成(标题是创作不设逐字闸门)
   if (!o.tldr) errs.push("缺 tldr");
   if (!o.digest_md || o.digest_md.length < 300) errs.push("digest_md 太短或缺");
   if (!Array.isArray(o.quotes) || o.quotes.length < 4) errs.push("quotes 少于 4 条");
@@ -135,7 +136,13 @@ async function main() {
 
   // 到这里必定已通过校验,才写、才敢打 ✅
   writeFileSync(resolve(ROOT, DIR, "digest.json"), JSON.stringify(obj, null, 2));
-  console.log(`✅ digest.json: tldr(${obj.tldr.length}字) digest_md(${obj.digest_md.length}字) quotes(${obj.quotes.length}条)`);
+  // C5.1:中文标题写回 meta.title_zh(列表卡/集页/feed 的显示标题;refresh 翻新存量同样走这里)
+  const metaPath = resolve(ROOT, DIR, "meta.json");
+  if (obj.title_zh && existsSync(metaPath)) {
+    const meta = JSON.parse(readFileSync(metaPath, "utf8"));
+    if (meta.title_zh !== obj.title_zh) writeFileSync(metaPath, JSON.stringify({ ...meta, title_zh: obj.title_zh }, null, 2));
+  }
+  console.log(`✅ digest.json: title_zh(${obj.title_zh}) tldr(${obj.tldr.length}字) digest_md(${obj.digest_md.length}字) quotes(${obj.quotes.length}条)`);
 }
 
 function isMain() {

@@ -169,7 +169,7 @@ if (isMain) {
     const digest = existsSync(digestP) ? JSON.parse(readFileSync(digestP, "utf8")) : {};
     episodes.push({
       id,
-      title: meta.title_zh ?? id,
+      title: meta.title_zh ?? meta.title_en ?? id, // C5.1 fallback 链:feed 标题不再显示裸 id
       description: digest.tldr ?? "",
       pubDate: meta.date ?? audioMeta.generated_at ?? new Date().toISOString(),
       audioUrl: `${SITE_URL}/audio/${id}.mp3`, // C7a Pages 静态公开 URL(drift #18);gate ④ 反解回本地核存在

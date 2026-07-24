@@ -10,7 +10,7 @@ entity_type: 概念
 
 ## 集里怎么说它
 
-- **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for》]]**(00:37起):本集认为这对于 Instagram 而言将是顺风也是挑战。在一个充斥合成内容的世界里，人们会更渴望真实的人与创造力；平台不应过滤掉它，而应让你知道发帖者的背景，甚至未来可能转为标记真实的相机拍摄内容。
+- **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri: AI is a tailwind for authenticity》]]**(00:37起):本集认为这对于 Instagram 而言将是顺风也是挑战。在一个充斥合成内容的世界里，人们会更渴望真实的人与创造力；平台不应过滤掉它，而应让你知道发帖者的背景，甚至未来可能转为标记真实的相机拍摄内容。
 
 ## 金句
 
@@ -60,7 +60,7 @@ entity_type: 概念
 
 ## 出现在这些集
 
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for》]] — 作为概念
+- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri: AI is a tailwind for authenticity》]] — 作为概念
 
 ## 关联实体
 

@@ -10,11 +10,11 @@ entity_type: 概念
 
 ## 集里怎么说它
 
-- **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for》]]**(03:14起):本集指 Instagram 正在采用的迷你团队模式。通常由 4-6 名偏通才的工程师和一名 Product Staff 组成，因需协调的人变少，行动更快，决策也更少受委员会设计的拖累。
+- **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri: AI is a tailwind for authenticity》]]**(03:14起):本集指 Instagram 正在采用的迷你团队模式。通常由 4-6 名偏通才的工程师和一名 Product Staff 组成，因需协调的人变少，行动更快，决策也更少受委员会设计的拖累。
 
 ## 出现在这些集
 
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for》]] — 作为概念
+- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri: AI is a tailwind for authenticity》]] — 作为概念
 
 ## 关联实体
 

@@ -1,7 +1,7 @@
 ---
-title: 
-podcast: 
-date: undefined
+title: "The art of influence: The single most important skill that AI can’t replace | Jessica Fain (Webflow, ex-Slack)"
+podcast: "Lenny's Podcast"
+date: 2026-03-22
 source_url: https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain
 duration: "93:30"
 host: "[[Jessica Fain]]"
@@ -16,7 +16,7 @@ tags:
   - AI 时代的职场技能
 ---
 
-# undefined
+# The art of influence: The single most important skill that AI can’t replace | Jessica Fain (Webflow, ex-Slack)
 
 > [!info] 关联
 > **主持**:[[Jessica Fain]]
@@ -27,7 +27,7 @@ tags:
 >
 > **概念**:[[影响力]] · [[智能体]] · [[参谋长]] · [[上下文切换]]
 >
-> **来源**:[undefined](https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain)
+> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain)
 
 ## 🎧 本集中文精华音频
 

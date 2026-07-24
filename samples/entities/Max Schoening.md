@@ -38,7 +38,7 @@ entity_type: 人物
 
 ## 出现在这些集
 
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《2026-05-03-lennys-why-cultivating-agency-matters-more》]] — 作为主持
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)》]] — 作为主持
 
 ## 关联实体
 

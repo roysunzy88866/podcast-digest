@@ -1,7 +1,7 @@
 ---
-title: 
-podcast: 
-date: undefined
+title: "Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel"
+podcast: "Lenny's Podcast"
+date: 2026-04-26
 source_url: https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is
 duration: "70:22"
 host: "[[Lenny]]"
@@ -16,7 +16,7 @@ tags:
   - AI 时代的协作
 ---
 
-# undefined
+# Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel
 
 > [!info] 关联
 > **主持**:[[Lenny]]
@@ -27,7 +27,7 @@ tags:
 >
 > **概念**:[[Specs]] · [[分发]] · [[护城河]] · [[增强现实]] · [[设计团队]] · [[智能体]] · [[生态系统]] · [[设计师]]
 >
-> **来源**:[undefined](https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is)
+> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is)
 
 ## 🎧 本集中文精华音频
 

@@ -10,11 +10,11 @@ entity_type: 概念
 
 ## 集里怎么说它
 
-- **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto》]]**(00:29起):本集核心产品，由 Gusto 推出的智能体产品。它自带 Gusto 已有的业务信息（如员工、排班、薪资等），并能通过 SMS 或 Slack 跨渠道接收自然语言指令来自动化复杂工作流（如算薪）。
+- **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]]**(00:29起):本集核心产品，由 Gusto 推出的智能体产品。它自带 Gusto 已有的业务信息（如员工、排班、薪资等），并能通过 SMS 或 Slack 跨渠道接收自然语言指令来自动化复杂工作流（如算薪）。
 
 ## 出现在这些集
 
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto》]] — 作为概念
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]] — 作为概念
 
 ## 关联实体
 

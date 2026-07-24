@@ -1,7 +1,7 @@
 ---
-title: 
-podcast: 
-date: undefined
+title: "Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)"
+podcast: "Lenny's Podcast"
+date: 2026-04-19
 source_url: https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble
 duration: "95:08"
 host: "[[Lenny]]"
@@ -16,7 +16,7 @@ tags:
   - 智能体
 ---
 
-# undefined
+# Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)
 
 > [!info] 关联
 > **主持**:[[Lenny]]
@@ -27,7 +27,7 @@ tags:
 >
 > **概念**:[[智能体]] · [[幕僚长应用]] · [[构建者]] · [[判断力]] · [[IC]] · [[ZIRP]] · [[vibe coding]]
 >
-> **来源**:[undefined](https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble)
+> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble)
 
 ## 🎧 本集中文精华音频
 
@@ -153,6 +153,7 @@ Nikhyl 自己就是这么做的。他为社区写了一个[[智能体|智能体]
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella：Microsoft Build特别跨界对谈》]] —— 同概念:智能体 (agent)
 - [[2026-06-22-latent-space-gray-swan|《神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan》]] —— 同概念:智能体 (agent)
 - [[2026-06-24-latent-space-databricks|《为什么前沿生态必须开放》]] —— 同概念:智能体 (agent)
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]] —— 同概念:智能体 (agent)
 - [[2026-07-08-latent-space-modal|《为什么 AI 基础设施必须为「Agent 体验」进化》]] —— 同概念:智能体 (agent)
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《2026-02-26-lennys-ai-is-critical-for-humanitys-survival》]] —— 同概念:智能体 (agent)
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo》]] —— 同概念:智能体 (agent)

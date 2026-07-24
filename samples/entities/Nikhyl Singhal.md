@@ -32,7 +32,7 @@ entity_type: 人物
 
 ## 出现在这些集
 
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《2026-04-19-lennys-why-half-of-product-managers-are-in-trou》]] — 作为联合主持
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)》]] — 作为联合主持
 
 ## 关联实体
 

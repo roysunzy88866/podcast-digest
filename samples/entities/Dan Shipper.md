@@ -32,7 +32,7 @@ entity_type: 人物
 
 ## 出现在这些集
 
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《2026-05-24-lennys-the-ai-paradox-dan-shipper》]] — 作为联合主持
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《The AI paradox: More automation, more humans, more work | Dan Shipper》]] — 作为联合主持
 
 ## 关联实体
 

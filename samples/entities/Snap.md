@@ -10,11 +10,11 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《2026-04-26-lennys-snapchat-ceo-why-distribution-is》]]**(00:16起):本集讨论的公司主体， Evan Spiegel 在此复盘了过去 15 年做 Snapchat 的经验，并强调公司正处在向 AR 眼镜转型的「关键时刻」
+- **[[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel》]]**(00:16起):本集讨论的公司主体， Evan Spiegel 在此复盘了过去 15 年做 Snapchat 的经验，并强调公司正处在向 AR 眼镜转型的「关键时刻」
 
 ## 出现在这些集
 
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《2026-04-26-lennys-snapchat-ceo-why-distribution-is》]] — 作为被讨论公司
+- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel》]] — 作为被讨论公司
 
 ## 关联实体
 

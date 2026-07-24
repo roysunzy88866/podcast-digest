@@ -26,7 +26,7 @@ export const SOURCES = [
   //   为何 vendored:api.substack 全 353 集 RSS 对 runner 403 封 IP;www archive JSON 只返文本 newsletter、无播客集。
   //   两条云端路都拿不到播客历史 → 本机 curl(走代理 200)拉 353 集列表存进仓,runner 读列表 + 逐集抓集页(集页 runner 可达)。
   //   刷新:本机重跑 tools/refresh-archive(或 curl api.substack RSS→parseFeed→写此文件)。历史集不变,新集靠 cron 走 www RSS。
-  { key: "lennys", feedUrl: "https://www.lennysnewsletter.com/feed", archiveFile: "data/lennys-podcast-archive.json" },
+  { key: "lennys", name: "Lenny's Podcast", feedUrl: "https://www.lennysnewsletter.com/feed", archiveFile: "data/lennys-podcast-archive.json" },
 ];
 
 // 带浏览器 UA:Substack 对裸 node 请求可能 403(drift #28)
@@ -40,6 +40,15 @@ const EPISODES_DIR = join(ROOT, "data/episodes");
 const SKIPPED_DIR = join(ROOT, "data/skipped"); // 隔离区:自动跑出失真、闸门拦下的集(不删、留人工看,不发布不重跑,drift #24)
 
 // ── 纯逻辑(可单测,无副作用)──────────────────────────────
+
+/** C5.1:从 RSS item + 源清单派生 meta 显示字段(title_en/podcast/date)。取源后写进 meta.json。 */
+export function sourceMetaFields(item, source) {
+  return {
+    title_en: item.title,
+    podcast: source.name ?? source.key,
+    date: String(item.pubDateISO || "").slice(0, 10),
+  };
+}
 
 /** 解析 Substack 播客 RSS → [{title, link, pubDateISO, hasAudio}]。只用正则,不引 XML 依赖(feed 结构稳、CDATA 好切)。*/
 export function parseFeed(xml) {
@@ -200,7 +209,7 @@ function runOk(cmd, args) {
  * 产出步骤 fail-fast(抛=转瞬失败,留半成品下次重试);验证(gate 金句三联 + gate-facts 导读事实)fail=失真 → 返回 {ok:false} 交 main 隔离。
  * 返回 {ok, reason}。
  */
-function processEpisode(item, id) {
+function processEpisode(item, id, source) {
   const dir = join("data/episodes", id);
   console.log(`\n▶ 处理新集 ${id}\n   ${item.title}\n   ${item.link}`);
   // ① 取源:官方稿优先;无稿走 ASR 兜底(drift #14,需 ASSEMBLYAI_API_KEY)
@@ -208,6 +217,12 @@ function processEpisode(item, id) {
   if (fs.status !== 0) {
     console.log("   官方稿取源失败 → 尝试 ASR 兜底(fetch-source-asr)");
     run("node", ["scripts/fetch-source-asr.mjs", item.link, id]);
+  }
+  // C5.1 Scenario 3:显示字段随取源写进 meta(title_en/podcast/date;列表卡与集页要用,此前从没人写 → 首页裸文件名)
+  if (source) {
+    const metaPath = join(ROOT, dir, "meta.json");
+    const meta = { ...JSON.parse(readFileSync(metaPath, "utf8")), ...sourceMetaFields(item, source) };
+    writeFileSync(metaPath, JSON.stringify(meta, null, 2));
   }
   // 无人值守补人工缺口:GLM 推说话人真名 + grounding 机器校(drift #23),传 RSS 标题当候选名源
   run("node", ["scripts/infer-speakers.mjs", dir, item.title]);
@@ -341,7 +356,7 @@ async function main() {
     const id = deriveId(item, source);
     let res;
     try {
-      res = processEpisode(item, id);
+      res = processEpisode(item, id, source);
     } catch (e) {
       console.error(`   ⚠️ ${id} 处理中断(转瞬失败,留半成品下次重试):${e.message}`);
       skipped.push({ id, reason: `处理中断(转瞬失败,下次重试):${e.message}`, retry: true });

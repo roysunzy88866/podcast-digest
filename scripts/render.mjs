@@ -150,13 +150,18 @@ export function linkPrimaryEntities(md, entities) {
 }
 
 /** frontmatter:类型化属性 + host=null 绝不打印 */
+// C5.1 fallback 链:title_zh(云端浓缩生成)→ title_en(RSS 原标题)→ id;date 缺 → id 前缀(YYYY-MM-DD)。
+// Lenny's 存量集 title_zh/date 全空,此前页面渲染出 "# undefined" / "date: undefined"。
+export const displayTitle = (meta) => meta.title_zh ?? meta.title_en ?? meta.id;
+export const displayDate = (meta) => meta.date ?? (String(meta.id).match(/^\d{4}-\d{2}-\d{2}/)?.[0] ?? "");
+
 function renderFrontmatter(meta, digest, entities) {
   const dur = mmss(meta.duration_sec);
   const lines = [
     "---",
-    `title: ${yamlScalar(meta.title_zh)}`,
+    `title: ${yamlScalar(displayTitle(meta))}`,
     `podcast: ${yamlScalar(meta.podcast)}`,
-    `date: ${meta.date}`,
+    `date: ${displayDate(meta)}`,
     `source_url: ${meta.source_url}`,
     `duration: "${dur}"`,
   ];
@@ -193,7 +198,7 @@ export function renderEpisode(meta, digest, entities = null, related = null) {
     .join("、");
   const top = entities
     ? renderRelations(entities, meta)
-    : `> [!info] 本集\n> ${meta.podcast} · 嘉宾 ${guestsLine}${meta.host ? ` · 主持 ${meta.host}` : ""} · ${meta.date} · ${dur}\n> 来源:${meta.source_url}`;
+    : `> [!info] 本集\n> ${meta.podcast} · 嘉宾 ${guestsLine}${meta.host ? ` · 主持 ${meta.host}` : ""} · ${displayDate(meta)} · ${dur}\n> 来源:${meta.source_url}`;
 
   let digestMd = String(digest.digest_md);
   // 无时间戳源:剥掉导读内联占位时间戳,说话人用中文括号(避开方括号与 [[双链]] 冲突,防三重括号畸形)
@@ -219,7 +224,7 @@ export function renderEpisode(meta, digest, entities = null, related = null) {
       : "英文原稿/全译存档于项目仓库、本页不展示(可事后核对);上云后迁 R2(C7)。";
 
   const body = `
-# ${meta.title_zh}
+# ${displayTitle(meta)}
 
 ${top}
 

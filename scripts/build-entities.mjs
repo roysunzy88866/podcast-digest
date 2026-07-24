@@ -49,7 +49,7 @@ export function aggregate(episodes, aliasById = new Map()) {
       if (alias) { agg.name = alias.name; agg.file = alias.file; }
       agg.appearances.push({
         epId: meta.id,
-        epTitle: meta.title_zh ?? meta.id,
+        epTitle: meta.title_zh ?? meta.title_en ?? meta.id, // C5.1 fallback 链
         epDate: meta.date,
         role: e.role,
         primary: !!e.primary,
@@ -161,7 +161,7 @@ export function relatedEpisodes(targetEpId, episodes, { minShared = 1 } = {}) {
     const score = items.length; // 合格共享数(已排除 primary-in-neither 噪音)
     const strongScore = items.filter((x) => x.strong).length; // 两集都主讨论的数
     if (score >= minShared) {
-      out.push({ epId: ep.meta.id, epTitle: ep.meta.title_zh ?? ep.meta.id, epDate: ep.meta.date, shared, score, strongScore });
+      out.push({ epId: ep.meta.id, epTitle: ep.meta.title_zh ?? ep.meta.title_en ?? ep.meta.id, epDate: ep.meta.date, shared, score, strongScore });
     }
   }
   // 排名:强共享多的排前(审计:强主题应主导)→ 合格共享多 → 日期升序 → id 稳定
