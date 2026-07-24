@@ -1,6 +1,8 @@
 ---
 title: Cloudflare Worker
 entity_type: 概念
+type: entity
+unlisted: true
 ---
 
 # Cloudflare Worker

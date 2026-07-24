@@ -1,6 +1,8 @@
 ---
 title: Nikhyl Singhal
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Nikhyl Singhal

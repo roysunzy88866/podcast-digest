@@ -1,6 +1,8 @@
 ---
 title: Modal
 entity_type: 公司
+type: entity
+unlisted: true
 aliases: ["Modal Labs", "Modo", "moto"]
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: Peter Steinberger
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Peter Steinberger

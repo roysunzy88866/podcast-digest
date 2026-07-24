@@ -1,6 +1,8 @@
 ---
 title: Notion
 entity_type: 公司
+type: entity
+unlisted: true
 ---
 
 # Notion

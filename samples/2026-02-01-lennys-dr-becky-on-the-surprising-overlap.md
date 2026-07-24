@@ -4,16 +4,17 @@ podcast: "Lenny's Podcast"
 date: 2026-02-01
 source_url: https://www.lennysnewsletter.com/p/dr-becky-on-the-surprising-overlap
 duration: "91:52"
+type: episode
+cover: "#6366f1"
+description: 临床心理学家 Dr. Becky 将育儿原则迁移到职场，教你如何修复关系、设定界限并建立长期韧性。
 host: "[[Lenny]]"
 cohosts: ["[[Dr. Becky Kennedy]]"]
 companies: ["[[Good Inside]]"]
 concepts: ["[[修复]]", "[[连接]]", "[[界限]]", "[[韧性]]", "[[最宽容解读]]", "[[稳健的领导者]]", "[[安全依恋]]"]
+category: 组织与领导力
 tags:
-  - 职场心理
-  - 亲子教育
-  - 领导力
-  - 人际沟通
-  - 韧性
+  - 组织与领导力
+  - 职业与个人成长
 ---
 
 # 育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”
@@ -117,6 +118,8 @@ tags:
 > 这感觉很难，是因为它本来就难，而不是因为我做错了什么。  
 > *This feels hard because it is hard, not because I'm doing something wrong.*  
 > —— Dr. Becky Kennedy · [88:52] ^q9
+
+*本集关键词:职场心理 · 亲子教育 · 领导力 · 人际沟通 · 韧性*
 
 ---
 

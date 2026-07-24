@@ -1,6 +1,8 @@
 ---
 title: Matt Fredrikson
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Matt Fredrikson

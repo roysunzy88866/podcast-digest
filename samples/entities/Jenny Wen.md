@@ -1,6 +1,8 @@
 ---
 title: Jenny Wen
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Jenny Wen

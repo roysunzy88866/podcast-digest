@@ -1,6 +1,8 @@
 ---
 title: Keith Rabois
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Keith Rabois

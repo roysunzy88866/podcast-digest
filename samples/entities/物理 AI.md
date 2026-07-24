@@ -1,6 +1,8 @@
 ---
 title: 物理 AI (physical AI)
 entity_type: 概念
+type: entity
+unlisted: true
 ---
 
 # 物理 AI (physical AI)

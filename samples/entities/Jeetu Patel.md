@@ -1,6 +1,8 @@
 ---
 title: Jeetu Patel
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Jeetu Patel

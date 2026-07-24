@@ -222,16 +222,31 @@ export function buildEntities({ meta, transcript, aliases, glmOut, glossary }) {
     podcast: meta?.podcast ?? null,
     date: meta?.date ?? null,
     tags: glmOut?.tags ?? [],
+    categories: glmOut?.categories ?? [], // C10:大类(1-2,词表内;validateExtract 已卡过)
     entities,
     rejected,
   };
 }
 
-/** 结构校验(重试循环要用):tags 3-5 个、entities 非空、每个实体五字段齐全(含硬契约 name_en) */
+// C10 · 大类词表(受控;GLM 只准从这里选,validateExtract 硬卡)
+let _vocabCache;
+export function taxonomyVocab() {
+  if (!_vocabCache) {
+    _vocabCache = JSON.parse(readFileSync(resolve(ROOT, "data/tag-taxonomy.json"), "utf8"));
+  }
+  return _vocabCache.vocabulary ?? {};
+}
+
+/** 结构校验(重试循环要用):tags 3-5 个、categories 1-2 个且在词表内、entities 非空、每个实体五字段齐全(含硬契约 name_en) */
 export function validateExtract(o) {
   if (!o || typeof o !== "object") return ["不是对象"];
   const errs = [];
   if (!Array.isArray(o.tags) || o.tags.length < 3 || o.tags.length > 5) errs.push("tags 必须 3-5 个");
+  // C10:大类必须 1-2 个、逐字命中词表(防 GLM 发明新类;老缓存无 categories 会判无效 → 重抽一次补上)
+  const vocab = Object.keys(taxonomyVocab());
+  if (!Array.isArray(o.categories) || o.categories.length < 1 || o.categories.length > 2)
+    errs.push("categories 必须 1-2 个(从词表选)");
+  else for (const c of o.categories) if (!vocab.includes(c)) errs.push(`categories「${c}」不在词表`);
   if (!Array.isArray(o.entities) || o.entities.length < 1) errs.push("entities 为空");
   for (const [i, e] of (o.entities ?? []).entries()) {
     for (const k of ["name_zh", "name_en", "type", "role", "how_described"]) {
@@ -282,7 +297,10 @@ async function main() {
 
   const glossaryMd = readFileSync(resolve(ROOT, "prompts/glossary.md"), "utf8");
   const glossaryPins = parseGlossaryPins(glossaryMd); // 概念页中文名钉死表(bug b)
+  const vocab = taxonomyVocab(); // C10:大类词表注入(prompt 里只写规则,词表以 data/tag-taxonomy.json 为唯一真相)
   const SYS = readFileSync(resolve(ROOT, "prompts/extract-entities.md"), "utf8") +
+    "\n\n---\n大类词表(categories 只准从这里逐字选):\n" +
+    Object.entries(vocab).map(([k, v]) => `- ${k}:${v}`).join("\n") +
     "\n\n---\n术语表(统一译名):\n" + glossaryMd;
 
   const mmss = (s) => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(Math.floor(s % 60)).padStart(2, "0")}`;

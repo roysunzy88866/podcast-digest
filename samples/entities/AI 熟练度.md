@@ -1,6 +1,8 @@
 ---
 title: AI 熟练度 (AI fluency)
 entity_type: 概念
+type: entity
+unlisted: true
 ---
 
 # AI 熟练度 (AI fluency)

@@ -1,6 +1,8 @@
 ---
 title: Claude Cowork
 entity_type: 公司
+type: entity
+unlisted: true
 ---
 
 # Claude Cowork

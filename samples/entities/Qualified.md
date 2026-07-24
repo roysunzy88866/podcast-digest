@@ -1,6 +1,8 @@
 ---
 title: Qualified
 entity_type: 公司
+type: entity
+unlisted: true
 ---
 
 # Qualified

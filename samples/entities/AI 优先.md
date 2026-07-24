@@ -1,6 +1,8 @@
 ---
 title: AI 优先 (AI-first)
 entity_type: 概念
+type: entity
+unlisted: true
 ---
 
 # AI 优先 (AI-first)

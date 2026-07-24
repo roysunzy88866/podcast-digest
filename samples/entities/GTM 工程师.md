@@ -1,6 +1,8 @@
 ---
 title: GTM 工程师 (go-to-market engineer)
 entity_type: 概念
+type: entity
+unlisted: true
 ---
 
 # GTM 工程师 (go-to-market engineer)

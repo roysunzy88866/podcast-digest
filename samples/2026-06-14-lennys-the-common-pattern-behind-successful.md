@@ -4,16 +4,17 @@ podcast: "Lenny's Podcast"
 date: 2026-06-14
 source_url: https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful
 duration: "99:20"
+type: episode
+cover: "#6366f1"
+description: "Zynga 创始人分享消费产品的核心方法论「Proven, Better, New」：大胆借鉴被验证的模式，克制野心从小处起步，并果断放弃平庸的 B+ 想法。"
 host: "[[Mark Pincus]]"
 cohosts: ["[[Lenny]]"]
 companies: ["[[Zynga]]"]
 concepts: ["[[已验证、更好、全新]]", "[[产品市场契合度]]", "[[留存率]]", "[[分发]]", "[[智能体]]", "[[社交网络]]", "[[微管理]]"]
+category: 产品方法
 tags:
-  - Proven, Better, New
-  - 产品市场契合度
-  - AI 时代社交
-  - 消费者分发
-  - 微观管理
+  - 产品方法
+  - 创业与行业
 ---
 
 # Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」
@@ -195,6 +196,8 @@ Mark 指出，回顾互联网历史，真正伟大的社交网络其实都在提
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]] —— 同嘉宾:Lenny
 - [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:智能体 (agent)
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失》]] —— 同嘉宾:Lenny
+
+*本集关键词:Proven, Better, New · 产品市场契合度 · AI 时代社交 · 消费者分发 · 微观管理*
 
 ---
 

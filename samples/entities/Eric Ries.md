@@ -1,6 +1,8 @@
 ---
 title: Eric Ries
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Eric Ries

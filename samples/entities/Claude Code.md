@@ -1,6 +1,8 @@
 ---
 title: Claude Code
 entity_type: 概念
+type: entity
+unlisted: true
 ---
 
 # Claude Code

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "quartz-site",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": ["-lc", "cd site && eval \"$(fnm env)\" && fnm use 22.16.0 && node ./quartz/bootstrap-cli.mjs build --serve"],
+      "port": 8080
+    }
+  ]
+}

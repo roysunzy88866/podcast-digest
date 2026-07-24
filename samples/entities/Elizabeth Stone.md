@@ -1,6 +1,8 @@
 ---
 title: Elizabeth Stone
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Elizabeth Stone

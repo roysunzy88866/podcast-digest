@@ -1,6 +1,8 @@
 ---
 title: Mark Pincus
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Mark Pincus

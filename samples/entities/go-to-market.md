@@ -1,6 +1,8 @@
 ---
 title: go-to-market
 entity_type: 概念
+type: entity
+unlisted: true
 ---
 
 # go-to-market

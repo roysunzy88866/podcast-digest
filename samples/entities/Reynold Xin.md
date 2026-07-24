@@ -1,6 +1,8 @@
 ---
 title: Reynold Xin
 entity_type: 人物
+type: entity
+unlisted: true
 aliases: ["Reynold", "Reynolds"]
 ---
 

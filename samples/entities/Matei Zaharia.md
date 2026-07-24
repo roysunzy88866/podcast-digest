@@ -1,6 +1,8 @@
 ---
 title: Matei Zaharia
 entity_type: 人物
+type: entity
+unlisted: true
 aliases: ["Matei", "Mattia"]
 ---
 

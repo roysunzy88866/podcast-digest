@@ -1,6 +1,8 @@
 ---
 title: TikTok
 entity_type: 公司
+type: entity
+unlisted: true
 aliases: ["tiktok", "tik tok"]
 ---
 

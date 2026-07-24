@@ -218,3 +218,22 @@ describe("renderEpisode · C5.1 标题/日期 fallback 链", () => {
     expect(page).toContain("date: 2026-07-19");
   });
 });
+
+// ── C10 · 8 大类词表(episodeCategories:人工映射 > 生成端 categories > 未分类兜底)──
+import { episodeCategories } from "../scripts/render.mjs";
+
+describe("C10 episodeCategories · 词表解析优先级", () => {
+  it("★ 人工映射表命中 → 用映射(纠偏覆盖层,优先于生成端)", () => {
+    // 用真词表里的真实存量集(映射改了这条要跟着改——它就是抽查锚点)
+    expect(episodeCategories({ id: "2026-07-08-latent-space-modal" }, { categories: ["AI 安全"] })).toEqual(["智能体"]);
+  });
+  it("★ 无人工映射 → 用生成端 categories(过词表,最多 2 个)", () => {
+    expect(episodeCategories({ id: "no-such-ep" }, { categories: ["产品方法", "词表外的类", "AI 安全"] })).toEqual([
+      "产品方法",
+      "AI 安全",
+    ]);
+  });
+  it("★ 都没有 → 落「未分类」(gate-all 词表层会拦,不静默上线)", () => {
+    expect(episodeCategories({ id: "no-such-ep" }, null)).toEqual(["未分类"]);
+  });
+});

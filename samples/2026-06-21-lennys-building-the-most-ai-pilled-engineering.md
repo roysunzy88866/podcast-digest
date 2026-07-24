@@ -4,16 +4,17 @@ podcast: "Lenny's Podcast"
 date: 2026-06-21
 source_url: https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering
 duration: "98:42"
+type: episode
+cover: "#6366f1"
+description: "Fiona Fung分享在代码量暴涨8倍后,如何用异步智能体、验证机制与新管理者制度重塑工程团队。"
 host: "[[Lenny]]"
 cohosts: ["[[Fiona Fung]]"]
 companies: ["[[Anthropic]]", "[[Facebook Marketplace]]"]
 concepts: ["[[Claude Code]]", "[[Co-Work]]", "[[智能体]]", "[[验证]]", "[[测试驱动开发]]", "[[潜在需求]]", "[[结对编程]]", "[[Visual Studio]]", "[[准时制]]", "[[IC]]", "[[内部试用]]"]
+category: 组织与领导力
 tags:
-  - AI 研发范式
-  - 角色融合
-  - 异步智能体
-  - 质量与验证
-  - 工程管理
+  - 组织与领导力
+  - AI 编程
 ---
 
 # 当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构
@@ -120,6 +121,8 @@ Fiona 回忆了软件工程历史上的几次大转折:从早期在 IBM 用 Vim 
 - [[2025-11-20-lennys-slack-founder-stewart-butterfield|《把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学》]] —— 同公司:Slack
 - [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别只想推销：产品负责人如何真正影响高管决策》]] —— 同公司:Slack
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]] —— 同公司:Anthropic
+
+*本集关键词:AI 研发范式 · 角色融合 · 异步智能体 · 质量与验证 · 工程管理*
 
 ---
 

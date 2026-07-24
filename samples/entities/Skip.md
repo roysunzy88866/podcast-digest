@@ -1,6 +1,8 @@
 ---
 title: Skip
 entity_type: 公司
+type: entity
+unlisted: true
 ---
 
 # Skip

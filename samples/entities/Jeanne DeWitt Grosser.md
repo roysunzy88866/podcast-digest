@@ -1,6 +1,8 @@
 ---
 title: Jeanne DeWitt Grosser
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Jeanne DeWitt Grosser

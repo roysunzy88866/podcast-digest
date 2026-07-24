@@ -1,6 +1,8 @@
 ---
 title: Alpha 与 Beta (alpha beta)
 entity_type: 概念
+type: entity
+unlisted: true
 ---
 
 # Alpha 与 Beta (alpha beta)

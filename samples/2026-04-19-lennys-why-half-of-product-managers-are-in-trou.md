@@ -4,16 +4,17 @@ podcast: "Lenny's Podcast"
 date: 2026-04-19
 source_url: https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble
 duration: "95:08"
+type: episode
+cover: "#6366f1"
+description: 前 Meta、Google 高管 Nikhyl Singhal 断言：PM 行业正在大洗牌，未来两年唯有成为拥抱 AI 的「构建者」才能生存。
 host: "[[Lenny]]"
 cohosts: ["[[Nikhyl Singhal]]"]
 companies: ["[[Skip]]"]
 concepts: ["[[产品经理]]", "[[构建者]]", "[[信息搬运工]]", "[[判断力]]", "[[幕僚长应用]]"]
+category: 职业与个人成长
 tags:
-  - 产品经理
-  - 构建者
-  - AI 时代职场
-  - 职业重塑
-  - 信息搬运工
+  - 职业与个人成长
+  - 产品方法
 ---
 
 # AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴
@@ -142,6 +143,8 @@ Nikhyl 提出了几条硬核建议：
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] —— 同概念:智能体 (agent)
 - [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同概念:智能体 (agent)
 - [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]] —— 同公司:Anthropic
+
+*本集关键词:产品经理 · 构建者 · AI 时代职场 · 职业重塑 · 信息搬运工*
 
 ---
 

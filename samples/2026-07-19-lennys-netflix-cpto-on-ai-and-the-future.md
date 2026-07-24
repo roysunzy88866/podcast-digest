@@ -4,16 +4,17 @@ podcast: "Lenny's Podcast"
 date: 2026-07-19
 source_url: https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future
 duration: "72:05"
+type: episode
+cover: "#6366f1"
+description: "Elizabeth Stone 分享 AI 如何重塑 Netflix 的团队角色、招聘标准与企业文化——专长不会消失,系统思维与对模糊性的包容成为刚需。"
 host: "[[Lenny]]"
 cohosts: ["[[Elizabeth Stone]]"]
 companies: ["[[Netflix]]", "[[InterPositive]]"]
 concepts: ["[[GenAI]]", "[[智能体]]", "[[系统思维]]", "[[动荡阶段]]", "[[留任测试]]", "[[卓越即操作系统]]", "[[铺设路径]]", "[[人才密度]]", "[[无责复盘]]", "[[AI 熟练度]]", "[[真相来源数据]]", "[[护栏]]"]
+category: 组织与领导力
 tags:
-  - 组织文化
-  - 团队角色分工
-  - AI 时代招聘
-  - 系统思维
-  - 娱乐未来
+  - 组织与领导力
+  - 职业与个人成长
 ---
 
 # Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失
@@ -129,6 +130,8 @@ Netflix 也提醒大家,它在 AI 和机器学习(ML)上的积累不是从 GenAI
 - [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] —— 同概念:护栏 (guardrails)
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代》]] —— 同概念:护栏 (guardrails)
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同概念:主观能动性 (agency)
+
+*本集关键词:组织文化 · 团队角色分工 · AI 时代招聘 · 系统思维 · 娱乐未来*
 
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: Shade
 entity_type: 概念
+type: entity
+unlisted: true
 ---
 
 # Shade

@@ -1,6 +1,8 @@
 ---
 title: Fiona Fung
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Fiona Fung

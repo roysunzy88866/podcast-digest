@@ -1,6 +1,8 @@
 ---
 title: Dr. Fei-Fei Li
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Dr. Fei-Fei Li

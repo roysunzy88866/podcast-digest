@@ -1,6 +1,8 @@
 ---
 title: Raphael Schaad
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Raphael Schaad

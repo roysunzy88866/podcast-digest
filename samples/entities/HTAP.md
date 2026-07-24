@@ -1,6 +1,8 @@
 ---
 title: HTAP
 entity_type: 概念
+type: entity
+unlisted: true
 ---
 
 # HTAP

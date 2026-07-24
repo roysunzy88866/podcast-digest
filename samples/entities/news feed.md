@@ -1,6 +1,8 @@
 ---
 title: news feed
 entity_type: 概念
+type: entity
+unlisted: true
 ---
 
 # news feed

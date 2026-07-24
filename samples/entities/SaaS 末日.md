@@ -1,6 +1,8 @@
 ---
 title: SaaS 末日 (SaaS apocalypse)
 entity_type: 概念
+type: entity
+unlisted: true
 ---
 
 # SaaS 末日 (SaaS apocalypse)

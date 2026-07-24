@@ -1,6 +1,8 @@
 ---
 title: Rachel Lockett
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Rachel Lockett

@@ -1,6 +1,8 @@
 ---
 title: Vibhu
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Vibhu

@@ -14,7 +14,8 @@ import { gateEntities } from "./gate-entities.mjs";
 import { gateRelations } from "./gate-relations.mjs";
 import { gateAudio } from "./gate-audio.mjs";
 import { feedEnclosuresFromXml } from "./build-feed.mjs";
-import { renderEpisode, loadEpisode } from "./render.mjs";
+import { renderEpisode, loadEpisode, episodeCategories } from "./render.mjs";
+import { taxonomyCategories } from "./build-list.mjs";
 import { renderAllEpisodes } from "./build-pages.mjs";
 import { loadAllEpisodes } from "./build-entities.mjs";
 
@@ -95,6 +96,24 @@ for (const id of gatedIds) {
       }
     } catch (e) {
       console.error(`[机器闸门门] ❌ ${id}: 重渲染比对失败:${e.message}`);
+      bad++;
+    }
+  }
+
+  // ②b2 C10 词表层:发布集的大类必须全在 8 大类词表内(「未分类」会污染首页看板/图谱分组,拦下不发)。
+  //   新集正常不会走到这:validateExtract 在抽取期已硬卡 categories;此处防的是老 entities 无 categories
+  //   又不在人工映射表里的边角(GLM 20260724-010[2])。fail-closed。
+  {
+    try {
+      const { meta, entities } = loadEpisode(join(base, id));
+      const vocab = new Set(taxonomyCategories());
+      const badCats = episodeCategories(meta, entities).filter((c) => !vocab.has(c));
+      if (badCats.length) {
+        console.error(`[机器闸门门] ❌ ${id}: 大类不在词表(${badCats.join("、")})→ 补 data/tag-taxonomy.json episodes 映射或重跑实体抽取`);
+        bad++;
+      }
+    } catch (e) {
+      console.error(`[机器闸门门] ❌ ${id}: 词表层闸门执行失败(fail-closed,不放行):${e.message}`);
       bad++;
     }
   }

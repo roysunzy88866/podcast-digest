@@ -348,11 +348,19 @@ describe("buildEntities · 装配(纯函数,不调 GLM)", () => {
 describe("validateExtract · 结构校验(重试循环要用)", () => {
   const ok = {
     tags: ["a", "b", "c"],
+    categories: ["智能体"], // C10:大类必填(1-2,词表内)
     entities: [{ name_zh: "Modal", name_en: "Modal", type: "company", role: "company", primary: true, how_described: "x" }],
   };
 
   it("合格 → 无错", () => {
     expect(validateExtract(ok)).toEqual([]);
+  });
+
+  it("★ C10 categories:缺失/超 2 个/词表外 → 报错(受控词表硬闸)", () => {
+    expect(validateExtract({ ...ok, categories: undefined }).length).toBeGreaterThan(0);
+    expect(validateExtract({ ...ok, categories: [] }).length).toBeGreaterThan(0);
+    expect(validateExtract({ ...ok, categories: ["智能体", "AI 安全", "产品方法"] }).length).toBeGreaterThan(0);
+    expect(validateExtract({ ...ok, categories: ["我发明的新类"] }).some((e) => e.includes("不在词表"))).toBe(true);
   });
 
   it("★ tags 少于 3 / 多于 5 → 报错(Gherkin:AI 自由打 3-5 个)", () => {

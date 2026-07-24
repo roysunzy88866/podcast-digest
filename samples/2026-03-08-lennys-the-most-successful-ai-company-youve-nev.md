@@ -4,16 +4,16 @@ podcast: "Lenny's Podcast"
 date: 2026-03-08
 source_url: https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of
 duration: "84:21"
+type: episode
+cover: "#6366f1"
+description: Applied Intuition CEO Qasar Younis 谈物理 AI、对抗焦虑与务实创业。
 host: "[[Lenny]]"
 cohosts: ["[[Qasar Younis]]"]
 companies: ["[[Applied Intuition]]", "[[Tesla]]", "[[Waymo]]", "[[Huawei]]", "[[YCombinator]]"]
 concepts: ["[[物理 AI]]", "[[自动驾驶]]", "[[工业革命]]", "[[FSD]]", "[[ChatGPT]]", "[[智能体]]", "[[激进实用主义]]"]
+category: 创业与行业
 tags:
-  - 物理 AI
-  - 自动驾驶
-  - 创业哲学
-  - 中美科技竞争
-  - AI 大众焦虑
+  - 创业与行业
 ---
 
 # 1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成
@@ -151,6 +151,8 @@ Applied Intuition 一直非常低调，直到最近才「出道」发声。Qasar
 - [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同概念:智能体 (agent)
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同公司:Tesla · 同概念:智能体 (agent)
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代》]] —— 同概念:ChatGPT
+
+*本集关键词:物理 AI · 自动驾驶 · 创业哲学 · 中美科技竞争 · AI 大众焦虑*
 
 ---
 

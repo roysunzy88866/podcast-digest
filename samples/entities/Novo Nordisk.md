@@ -1,6 +1,8 @@
 ---
 title: Novo Nordisk
 entity_type: 公司
+type: entity
+unlisted: true
 ---
 
 # Novo Nordisk

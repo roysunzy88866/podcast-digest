@@ -1,6 +1,8 @@
 ---
 title: Neon
 entity_type: 公司
+type: entity
+unlisted: true
 ---
 
 # Neon

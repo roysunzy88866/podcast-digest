@@ -1,6 +1,8 @@
 ---
 title: Amol Avasare
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Amol Avasare

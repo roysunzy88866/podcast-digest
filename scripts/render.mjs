@@ -36,6 +36,31 @@ export function blockId(index) {
   return `q${index + 1}`;
 }
 
+// C10 · 8 大类受控词表(data/tag-taxonomy.json,2026-07-24 用户拍板):
+// frontmatter tags=大类(1-2,首位=主类 category);自由细标签退出 frontmatter,降级为页底关键词。
+let _taxonomy;
+function taxonomy() {
+  if (!_taxonomy) _taxonomy = JSON.parse(readFileSync(resolve(ROOT, "data/tag-taxonomy.json"), "utf8"));
+  return _taxonomy;
+}
+
+/** 本集大类:人工映射表(纠偏覆盖层)> 生成端 entities.categories(过词表)> 未分类 */
+export function episodeCategories(meta, entities = null) {
+  const tax = taxonomy();
+  const manual = tax.episodes?.[meta.id];
+  if (Array.isArray(manual) && manual.length) return manual.slice(0, 2);
+  const vocab = new Set(Object.keys(tax.vocabulary ?? {}));
+  const gen = (entities?.categories ?? []).filter((c) => vocab.has(c));
+  if (gen.length) return gen.slice(0, 2);
+  // 兜底不许静默(GLM 20260724-010[2]):落「未分类」会污染看板分组,响亮警告;verify-c5 词表闸会把它拦在上线前
+  console.error(`⚠️ [taxonomy] ${meta.id} 无人工映射且 entities.categories 无词表内值 → 落「未分类」(verify-c5 会拦)`);
+  return ["未分类"];
+}
+
+// 首页卡片封面色条(Bases cards 的 image 属性支持纯色):按播客定色,未知播客用中性灰
+const PODCAST_COLORS = { "Lenny's Podcast": "#6366f1", "Latent Space": "#0e7490", "a16z Podcast": "#ea580c" };
+export const coverColor = (podcast) => PODCAST_COLORS[podcast] ?? "#64748b";
+
 /** 只收 primary、按角色分组(US-6:详情页关联区要「按角色分行」,不是一排无差别标签) */
 export function groupByRole(entities) {
   const prim = asArr(entities).filter((e) => e.primary);
@@ -156,15 +181,18 @@ export const displayTitle = (meta) => meta.title_zh ?? meta.title_en ?? meta.id;
 export const displayDate = (meta) => meta.date ?? (String(meta.id).match(/^\d{4}-\d{2}-\d{2}/)?.[0] ?? "");
 
 function renderFrontmatter(meta, digest, entities) {
-  const dur = mmss(meta.duration_sec);
   const lines = [
     "---",
     `title: ${yamlScalar(displayTitle(meta))}`,
     `podcast: ${yamlScalar(meta.podcast)}`,
     `date: ${displayDate(meta)}`,
     `source_url: ${meta.source_url}`,
-    `duration: "${dur}"`,
   ];
+  // duration_sec 缺(如第三方稿源)→ 整行不写,首页卡片该栏自动隐藏(不许渲染出 NaN:NaN)
+  if (Number.isFinite(meta.duration_sec)) lines.push(`duration: "${mmss(meta.duration_sec)}"`);
+  // C10:type 供首页 Bases 视图筛选(只收集页);cover 供卡片色条;description 供卡片简介
+  lines.push("type: episode", `cover: "${coverColor(meta.podcast)}"`);
+  if (digest.tldr) lines.push(`description: ${yamlScalar(digest.tldr)}`);
   if (meta.host) lines.push(`host: "[[${meta.host}]]"`); // 无 host → 整行不写(不打印 null)
   if (entities) {
     const g = groupByRole(entities);
@@ -180,8 +208,10 @@ function renderFrontmatter(meta, digest, entities) {
       .join("、");
     if (guestsLine) lines.push(`guests: ${guestsLine}`);
   }
-  const tags = (entities?.tags ?? (Array.isArray(digest.tags) ? digest.tags : [])).filter(Boolean);
-  if (tags.length) lines.push("tags:", ...tags.map((t) => `  - ${t}`));
+  // C10:tags=大类词表(进图谱/首页/标签页);category=主类(看板分组);细标签不再进 frontmatter
+  const cats = episodeCategories(meta, entities);
+  lines.push(`category: ${yamlScalar(cats[0])}`);
+  lines.push("tags:", ...cats.map((t) => `  - ${t}`));
   lines.push("---");
   return lines.join("\n");
 }
@@ -223,6 +253,10 @@ export function renderEpisode(meta, digest, entities = null, related = null) {
       ? "英文原稿/全译云端存档、本页不展示(可事后核对)。"
       : "英文原稿/全译存档于项目仓库、本页不展示(可事后核对);上云后迁 R2(C7)。";
 
+  // C10:自由细标签降级为页底关键词(纯文本,不带 #,不进图谱/首页/标签页)
+  const keywords = (entities?.tags ?? (Array.isArray(digest.tags) ? digest.tags : [])).filter(Boolean);
+  const keywordsLine = keywords.length ? `\n*本集关键词:${keywords.join(" · ")}*\n` : "";
+
   const body = `
 # ${displayTitle(meta)}
 
@@ -239,7 +273,7 @@ ${bodyMd.trim()}
 ## 金句(中英对照 · 过机器闸门三联校验)
 
 ${quoteBlocks}${relatedSection ? `\n\n${relatedSection}` : ""}
-
+${keywordsLine}
 ---
 
 *中文精华由 GLM-5.2 从官方转写稿全译→浓缩产出,金句经机器闸门(逐字命中转写稿+时间戳区间+说话人)三联校验。${archiveNote}*

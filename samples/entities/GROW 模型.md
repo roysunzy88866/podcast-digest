@@ -1,6 +1,8 @@
 ---
 title: GROW 模型 (GROW model)
 entity_type: 概念
+type: entity
+unlisted: true
 ---
 
 # GROW 模型 (GROW model)

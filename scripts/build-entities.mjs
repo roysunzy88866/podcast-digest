@@ -185,6 +185,10 @@ export function renderEntityPage(agg, quotes, relatedIds, pageById, aliasById = 
     "---",
     `title: ${agg.name}`,
     `entity_type: ${TYPE_CN[agg.type] ?? agg.type}`,
+    "type: entity",
+    // C10(用户拍板):实体不进图谱/搜索/列表(unlisted 约定,graph/search/explorer 都认),
+    // 页面照常产出、双链直达照常可点,实体页自身的回链列表不受影响。
+    "unlisted: true",
     ...(aliasNames.length ? [`aliases: [${aliasNames.map((a) => `"${a}"`).join(", ")}]`] : []),
     "---",
   ].join("\n");

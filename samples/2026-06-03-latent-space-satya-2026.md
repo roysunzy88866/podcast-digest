@@ -4,16 +4,17 @@ podcast: Latent Space
 date: 2026-06-03
 source_url: https://www.latent.space/p/satya-2026
 duration: "38:50"
+type: episode
+cover: "#0e7490"
+description: "微软 CEO 畅谈 AI 时代的平台生态战略:从模型血统到智能体重塑企业价值。"
 host: "[[Saragawa]]"
 cohosts: ["[[Satya Nadella]]"]
 companies: ["[[Microsoft]]", "[[Azure]]", "[[GitHub]]", "[[Microsoft 365]]"]
 concepts: ["[[MAI]]", "[[私有评估]]", "[[测试框架]]", "[[轨迹]]", "[[智能体]]", "[[SaaS]]", "[[数据中心]]"]
+category: 创业与行业
 tags:
-  - 生态系统
-  - 私有评估
+  - 创业与行业
   - 智能体
-  - SaaS 拆解
-  - 数据中心
 ---
 
 # Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP
@@ -127,6 +128,8 @@ Nadella 提到一组震撼的数字:微软在过去 15 个月里建成的 Azure(
 - [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同概念:智能体 (agent)
 - [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:智能体 (agent)
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同概念:智能体 (agent)
+
+*本集关键词:生态系统 · 私有评估 · 智能体 · SaaS 拆解 · 数据中心*
 
 ---
 

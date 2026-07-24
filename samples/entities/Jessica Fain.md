@@ -1,6 +1,8 @@
 ---
 title: Jessica Fain
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Jessica Fain

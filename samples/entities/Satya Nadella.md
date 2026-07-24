@@ -1,6 +1,8 @@
 ---
 title: Satya Nadella
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Satya Nadella

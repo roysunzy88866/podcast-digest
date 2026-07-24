@@ -1,6 +1,8 @@
 ---
 title: Dr. Becky Kennedy
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Dr. Becky Kennedy

@@ -1,6 +1,8 @@
 ---
 title: Matt MacInnis
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Matt MacInnis

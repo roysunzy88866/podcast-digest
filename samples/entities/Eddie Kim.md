@@ -1,6 +1,8 @@
 ---
 title: Eddie Kim
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Eddie Kim

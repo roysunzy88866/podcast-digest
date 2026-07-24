@@ -1,6 +1,8 @@
 ---
 title: Surge AI
 entity_type: 公司
+type: entity
+unlisted: true
 ---
 
 # Surge AI

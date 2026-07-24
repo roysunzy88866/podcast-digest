@@ -44,6 +44,8 @@ cd site
 npm i
 node ./quartz/bootstrap-cli.mjs create -X new -t default -l shortest -b "podcast-digest.local"
 node ./quartz/bootstrap-cli.mjs plugin install --from-config --latest
+# C10 配置定制补丁(弹框关/站名/Bases 默认视图;site/ 每次重建,定制必须走这里)
+node "$ROOT"/scripts/patch-site.mjs
 
 echo "==> 4/5 灌样片(来自版本化的 samples/)"
 if ! ls "$ROOT"/samples/*.md >/dev/null 2>&1; then

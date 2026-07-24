@@ -901,3 +901,42 @@ Scenario 3 [品味边界] a16z 只向前看,不自动回填存量
 - **前两跑失败教训**:whisperX 新版分离模型默认 pyannote **community-1**(用户须单独接受条款;`--diarize_model` 钉 3.1 被忽略,无效参数)→ 用户接受 community-1 条款后三跑通过。HF_TOKEN 校验已挪 job 首步(缺 token 秒死)。
 - **结论**:whisperX 免费路线**成立**;模型档建议 large-v3(质量优先,时长可容),超长集(>100 分钟)可降 medium。artifact 留 14 天(asr-spike-large-v3 / asr-spike-medium),转换产物已验与官方稿同构。
 - **剩余(接线时做)**:D44⑤ 按源 URL 解析(Simplecast 无 /p/ slug)+ fetch-source-whisperx 接进 processEpisode ASR 兜底链 + SOURCES 加 a16z + --seed --source a16z。
+
+## C10 · 首页交互改版:Bases 三视图 + 8 大类词表 + 图谱去杂(2026-07-24 用户发起)
+
+> 完整共识与 reasoning:`需求共创/首页交互改版.md`。本片 Gherkin 是行为真相。
+> 背景:用户点名「标签几十个不合理 / 悬浮框没必要 / 卡片看不清日期内容 / 没发挥 Quartz 5 能力 / 图谱里公司名无用,要内容主题的关系」。
+
+**Scenario 1(首页三视图)**
+Given 站里有已发布的集
+When 访客打开首页
+Then 主体是原生数据库视图,默认落在「最新」卡片页签,每卡显示 日期/中文标题/播客/时长/简介,不显示标签
+And 可切到「全部」表格(点列头可排序)与「按主题」看板(按主类分列)
+And 顶部有 8 大类速览链接;不存在旧版 163 标签墙/「更多标签」折叠
+
+**Scenario 2(词表闸)**
+Given 8 大类词表 data/tag-taxonomy.json(改词表须用户点头)
+When 任何集页被渲染
+Then frontmatter 的 tags(1-2 个)与 category(主类)必须逐字在词表内(verify-c5 硬卡)
+And 163 个自由细标签只出现在单集页底部「本集关键词」纯文本,不进图谱/首页/搜索导航
+
+**Scenario 2a(生成端约束,新集)**
+Given 新集跑实体抽取
+When GLM 输出 categories 缺失/超 2 个/词表外
+Then validateExtract 打回重试,不落盘(机器闸门,不靠自觉)
+
+**Scenario 3(图谱)**
+Given 图谱开启 showTags 且集页 tags=大类
+When 访客看全局图谱
+Then 图里是「集 ↔ 8 大类」的主题网;人物/公司/概念实体页不出现(实体页 unlisted)
+And 实体页直链仍可访问、集内双链仍可点、实体页回链列表照常
+
+**Scenario 4(弹框与细节)**
+When 访客悬浮任何站内链接
+Then 不再弹出预览框(enablePopovers: false,patch-site 补丁,site/ 重建后仍生效)
+And 首页不显示框架自动的错误日期/阅读时长;已读集卡片压暗(pd-read 老数据不丢)
+
+**Scenario 4a(异常:空站)**
+Given data/episodes 无任何集
+When 构建首页
+Then 显示友好空状态「还没有内容」,无 base 代码块,不是空白页

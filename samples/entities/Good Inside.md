@@ -1,6 +1,8 @@
 ---
 title: Good Inside
 entity_type: 公司
+type: entity
+unlisted: true
 ---
 
 # Good Inside

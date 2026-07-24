@@ -1,6 +1,8 @@
 ---
 title: vibe coding
 entity_type: 概念
+type: entity
+unlisted: true
 ---
 
 # vibe coding

@@ -4,17 +4,17 @@ podcast: Latent Space
 date: 2026-07-08
 source_url: https://www.latent.space/p/modal2026
 duration: "57:42"
+type: episode
+cover: "#0e7490"
+description: Modal CTO 剖析从开发者体验转向智能体体验的推理云进化路径。
 host: "[[swyx]]"
 guests: ["[[Akshat Bubna]]"]
 cohosts: ["[[Vibhu]]"]
 companies: ["[[Modal]]", "[[Kubernetes]]"]
 concepts: ["[[智能体]]", "[[AX]]", "[[DX]]", "[[沙箱]]", "[[推理]]", "[[弹性推理]]", "[[投机解码]]", "[[DeFlash]]", "[[Auto Endpoints]]", "[[装饰器]]"]
+category: 智能体
 tags:
-  - AI 基础设施
   - 智能体
-  - 推理优化
-  - 多云架构
-  - 开发者体验
 ---
 
 # 从避战大模型到押注智能体：Modal 的推理基础设施进化史
@@ -123,6 +123,8 @@ Modal 最初并不是一家 GPU 推理公司。Akshat 回忆，Erik 最早的出
 - [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」》]] —— 同公司:Anthropic
 - [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]] —— 同公司:Anthropic
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]] —— 同公司:Cognition
+
+*本集关键词:AI 基础设施 · 智能体 · 推理优化 · 多云架构 · 开发者体验*
 
 ---
 

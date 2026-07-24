@@ -1,6 +1,8 @@
 ---
 title: Claire Vo
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Claire Vo

@@ -4,16 +4,16 @@ podcast: "Lenny's Podcast"
 date: 2025-11-16
 source_url: https://www.lennysnewsletter.com/p/the-godmother-of-ai
 duration: "79:30"
+type: episode
+cover: "#6366f1"
+description: "从 ImageNet 催生深度学习,到 World Labs 用空间智能解锁 3D 世界模型。"
 host: "[[Lenny]]"
 cohosts: ["[[Dr. Fei-Fei Li]]"]
 companies: ["[[World Labs]]", "[[ChatGPT]]"]
 concepts: ["[[Marble]]", "[[ImageNet]]", "[[空间智能]]", "[[世界模型]]", "[[具身智能]]", "[[苦涩的教训]]", "[[神经网络]]", "[[机器学习]]", "[[人工智能]]", "[[GPU]]"]
+category: 创业与行业
 tags:
-  - AI 历史
-  - 空间智能
-  - 世界模型
-  - 具身智能
-  - 3D 生成模型
+  - 创业与行业
 ---
 
 # AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble
@@ -171,6 +171,8 @@ World Labs 成立至今大约 18 个月,团队目前约 30 人。李飞飞坦言
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同概念:主观能动性 (agency)
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同公司:ChatGPT
 - [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同公司:ChatGPT
+
+*本集关键词:AI 历史 · 空间智能 · 世界模型 · 具身智能 · 3D 生成模型*
 
 ---
 

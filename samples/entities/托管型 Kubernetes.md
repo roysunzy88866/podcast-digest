@@ -1,6 +1,8 @@
 ---
 title: 托管型 Kubernetes (managed Kubernetes)
 entity_type: 概念
+type: entity
+unlisted: true
 ---
 
 # 托管型 Kubernetes (managed Kubernetes)

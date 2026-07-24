@@ -4,16 +4,16 @@ podcast: "Lenny's Podcast"
 date: 2025-11-30
 source_url: https://www.lennysnewsletter.com/p/what-the-best-gtm-teams-do-differently
 duration: "85:38"
+type: episode
+cover: "#6366f1"
+description: 前 Stripe、现 Vercel 的 COO 分享如何用 AI 智能体重构销售流程，并将 GTM 视为产品来打造卓越体验。
 host: "[[Jeanne DeWitt Grosser]]"
 cohosts: ["[[Lenny]]"]
 companies: ["[[Vercel]]", "[[Stripe]]", "[[Gong]]"]
 concepts: ["[[go-to-market]]", "[[智能体]]", "[[GTM 工程师]]", "[[市场细分]]", "[[PLG]]", "[[购买体验]]"]
+category: 增长与销售
 tags:
-  - Go-to-Market
-  - 智能体自动化
-  - 市场细分
-  - SaaS商业策略
-  - 销售组织变革
+  - 增长与销售
 ---
 
 # 把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织
@@ -139,6 +139,8 @@ tags:
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]] —— 同嘉宾:Lenny
 - [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:智能体 (agent)
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失》]] —— 同嘉宾:Lenny
+
+*本集关键词:Go-to-Market · 智能体自动化 · 市场细分 · SaaS商业策略 · 销售组织变革*
 
 ---
 

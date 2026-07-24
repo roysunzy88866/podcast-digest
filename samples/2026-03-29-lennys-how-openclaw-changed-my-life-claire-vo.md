@@ -4,16 +4,16 @@ podcast: "Lenny's Podcast"
 date: 2026-03-29
 source_url: https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo
 duration: "106:33"
+type: episode
+cover: "#6366f1"
+description: 从最早期把日历删光的怀疑者，到给九个智能体各配角色的重度玩家，Claire Vo 完整复盘 OpenClaw 的安装、避坑与日常用法。
 host: "[[Lenny]]"
 cohosts: ["[[Claire Vo]]"]
 companies: ["[[ChatPRD]]"]
 concepts: ["[[OpenClaw]]", "[[智能体]]", "[[上下文过载]]", "[[提示词注入]]", "[[系统提示词]]", "[[浏览器使用]]", "[[Mac mini]]", "[[身份]]", "[[Claude Code]]"]
+category: 智能体
 tags:
-  - 个人智能体
-  - 多智能体分工
-  - 智能体入职与管理
-  - 智能体安全与提示词注入
-  - 产品市场契合度
+  - 智能体
 ---
 
 # OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得
@@ -147,6 +147,8 @@ Claire 的智能体团队里，每个成员都有清晰的岗位画像。Sam 是
 - [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同概念:ChatGPT
 - [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别只想推销：产品负责人如何真正影响高管决策》]] —— 同概念:Slack
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同概念:智能体 (agent)
+
+*本集关键词:个人智能体 · 多智能体分工 · 智能体入职与管理 · 智能体安全与提示词注入 · 产品市场契合度*
 
 ---
 

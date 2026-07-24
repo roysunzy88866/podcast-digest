@@ -1,6 +1,8 @@
 ---
 title: Snapchat
 entity_type: 公司
+type: entity
+unlisted: true
 ---
 
 # Snapchat

@@ -1,6 +1,8 @@
 ---
 title: Tony Fadell
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Tony Fadell

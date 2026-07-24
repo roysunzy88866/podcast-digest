@@ -1,6 +1,8 @@
 ---
 title: Saragawa
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Saragawa

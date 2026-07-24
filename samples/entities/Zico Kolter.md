@@ -1,6 +1,8 @@
 ---
 title: Zico Kolter
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Zico Kolter

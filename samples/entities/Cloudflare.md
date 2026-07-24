@@ -1,6 +1,8 @@
 ---
 title: Cloudflare
 entity_type: 公司
+type: entity
+unlisted: true
 ---
 
 # Cloudflare

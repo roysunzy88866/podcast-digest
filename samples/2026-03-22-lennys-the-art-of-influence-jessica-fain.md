@@ -4,16 +4,16 @@ podcast: "Lenny's Podcast"
 date: 2026-03-22
 source_url: https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain
 duration: "93:30"
+type: episode
+cover: "#6366f1"
+description: 产品负责人掌握影响力的核心，是理解高管的处境与目标，用同理心引导他们为好想法买账。
 host: "[[Jessica Fain]]"
 cohosts: ["[[Lenny]]"]
 companies: ["[[Webflow]]", "[[Slack]]"]
 concepts: ["[[智能体]]", "[[产品市场契合度]]"]
+category: 职业与个人成长
 tags:
-  - 向上管理
-  - 影响力
-  - 产品经理技能
-  - 高管沟通
-  - AI 与软技能
+  - 职业与个人成长
 ---
 
 # 别只想推销：产品负责人如何真正影响高管决策
@@ -142,6 +142,8 @@ Jessica 提供了一个极具实操性的战术短语。当高管说出一句与
 - [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]] —— 同嘉宾:Lenny
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]] —— 同嘉宾:Lenny
 - [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] —— 同概念:护栏 (guardrails)
+
+*本集关键词:向上管理 · 影响力 · 产品经理技能 · 高管沟通 · AI 与软技能*
 
 ---
 

@@ -1,6 +1,8 @@
 ---
 title: AI 泡沫 (AI bubble)
 entity_type: 概念
+type: entity
+unlisted: true
 ---
 
 # AI 泡沫 (AI bubble)

@@ -1,6 +1,8 @@
 ---
 title: Microsoft 365
 entity_type: 公司
+type: entity
+unlisted: true
 ---
 
 # Microsoft 365

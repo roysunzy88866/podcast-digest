@@ -4,16 +4,16 @@ podcast: "Lenny's Podcast"
 date: 2026-06-07
 source_url: https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on
 duration: "95:05"
+type: episode
+cover: "#6366f1"
+description: iPod与Nest之父Tony Fadell谈伟大产品背后的直觉、取舍与反共识勇气。
 host: "[[Tony Fadell]]"
 cohosts: ["[[Lenny]]"]
 companies: ["[[Nest]]", "[[OpenAI]]", "[[Anthropic]]", "[[General Magic]]", "[[Apple]]", "[[Flighty]]"]
 concepts: ["[[iPod]]", "[[iPhone]]", "[[智能体]]", "[[逆向工作]]", "[[臭鼬工厂]]", "[[技术债务]]", "[[人在回路中]]"]
+category: 产品方法
 tags:
-  - 产品方法论
-  - AI 时代的产品构建
-  - 硬件创业
-  - 营销与故事讲述
-  - 直觉决策
+  - 产品方法
 ---
 
 # iPod之父Tony Fadell：反直觉的产品课
@@ -166,6 +166,8 @@ Tony 警告说，如果不进行正确的架构设计，直接让[[智能体|智
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] —— 同概念:智能体 (agent)
 - [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:智能体 (agent)
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失》]] —— 同嘉宾:Lenny
+
+*本集关键词:产品方法论 · AI 时代的产品构建 · 硬件创业 · 营销与故事讲述 · 直觉决策*
 
 ---
 

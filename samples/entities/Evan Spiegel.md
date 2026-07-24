@@ -1,6 +1,8 @@
 ---
 title: Evan Spiegel
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # Evan Spiegel

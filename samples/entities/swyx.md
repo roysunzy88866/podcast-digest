@@ -1,6 +1,8 @@
 ---
 title: swyx
 entity_type: 人物
+type: entity
+unlisted: true
 ---
 
 # swyx
