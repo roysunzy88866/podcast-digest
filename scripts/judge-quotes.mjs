@@ -21,7 +21,7 @@ import { spawn } from "node:child_process";
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const DIR = process.argv[2] || "data/episodes/2026-07-08-latent-space-modal";
 const CONCURRENCY = 3; // 每条 ×VOTES 票并发,别把并发乘爆
-const MIN_KEEP = 4;
+const MIN_KEEP = 3; // 4→3 [standard-change: 用户授权 2026-07-24]:whisperX 逐字稿口语毛边拖低候选池,两集实证 16→3/15→3 被 4 地板毙穿;留 3 条的质量经人工抽检在线
 const VOTES = 3; // 每条判几票
 // 一票否决:3 票全「是」才留。依据=需求共识第 7 轮 🔒「判官降级为只投否决票的小角色」,
 // 且用户金句标准是「宁缺毋滥/宁可错杀」。实测 20 条候选里 19 条全票一致(13×0/3、6×3/3),

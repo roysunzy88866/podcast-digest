@@ -272,8 +272,13 @@ function processEpisode(item, id, source) {
   // ① 取源:whisperx 源(a16z,无官方稿)直走 whisperX ASR(C9,不空跑 fetch-source);
   //    其余源官方稿优先,失败走 AssemblyAI 兜底(drift #14,需 ASSEMBLYAI_API_KEY)
   if (source?.asr === "whisperx") {
-    if (!item.enclosureUrl) throw new Error(`集 ${id} 无 enclosure 直链,whisperX 路线走不了(fail-closed)`);
-    run("node", ["scripts/fetch-source-whisperx.mjs", dir, "--transcribe", "--audio-url", item.enclosureUrl, "--duration", String(item.durationSec || 0)]);
+    if (existsSync(join(ROOT, dir, "transcript.en.json"))) {
+      // 半成品重试复用已有转写稿(设计初衷「留半成品下次重试复用缓存」;不跳过=每次重烧 60-80 分钟 ASR,C10 实证)
+      console.log("   复用已有转写稿(半成品重试,跳过 whisperX)");
+    } else {
+      if (!item.enclosureUrl) throw new Error(`集 ${id} 无 enclosure 直链,whisperX 路线走不了(fail-closed)`);
+      run("node", ["scripts/fetch-source-whisperx.mjs", dir, "--transcribe", "--audio-url", item.enclosureUrl, "--duration", String(item.durationSec || 0)]);
+    }
   } else {
     const fs = spawnSync("node", ["scripts/fetch-source.mjs", item.link, id], { cwd: ROOT, stdio: "inherit" });
     if (fs.status !== 0) {

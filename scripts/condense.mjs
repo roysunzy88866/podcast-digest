@@ -91,8 +91,12 @@ export function validate(o) {
 //   ③ 重试条件是 `!obj`,「合法 JSON 但结构不合格」根本不重试 → MAX_RETRY 对最常见失败模式是摆设
 async function main() {
   const tr = JSON.parse(readFileSync(resolve(ROOT, DIR, "translation.zh.json"), "utf8"));
+  // C10:ASR 源(meta.asr=true)附加选句特别规矩——逐字稿口语毛边会拖垮金句候选池(两集实证被判官毙穿)
+  const metaPath0 = resolve(ROOT, DIR, "meta.json");
+  const isAsr = existsSync(metaPath0) && JSON.parse(readFileSync(metaPath0, "utf8")).asr === true;
   const SYS =
     readFileSync(resolve(ROOT, "prompts/condense.md"), "utf8") +
+    (isAsr ? "\n\n---\n" + readFileSync(resolve(ROOT, "prompts/condense-asr.md"), "utf8") : "") +
     "\n\n---\n术语表:\n" +
     readFileSync(resolve(ROOT, "prompts/glossary.md"), "utf8");
   // 双语对齐输入:每段 [mm:ss 说话人] 英文 ‖ 中文

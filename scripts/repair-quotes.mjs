@@ -11,7 +11,7 @@ import { buildWordStream, norm, findAllSpans, spanSpeaker, parseTs } from "./gat
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const DIR = process.argv[2] || "data/episodes/2026-07-08-latent-space-modal";
-const MIN_KEEP = 4; // 下限(非目标数)。宁缺毋滥是金句标准的一部分(用户 2026-07-17):硬要 6 条=逼凑数,与标准矛盾
+const MIN_KEEP = 3; // 下限(非目标数)。宁缺毋滥(用户 2026-07-17);4→3 [standard-change: 用户授权 2026-07-24] 与 judge-quotes 同口径(ASR 源实证)
 const MAX_TRIM = 1; // 前后各最多裁剪几个词(只救 GLM 边界多加的单个词如 "it's";多词偏差宁丢不救,依 GLM 20260717-008 [1][2])
 const SPEAKER_FRAC = 0.8;
 
