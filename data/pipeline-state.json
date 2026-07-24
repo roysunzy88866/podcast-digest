@@ -1,6 +1,7 @@
 {
   "cutoffs": {
-    "lennys": "2026-07-22T12:03:38.000Z"
+    "lennys": "2026-07-22T12:03:38.000Z",
+    "pg": "2026-07-20T22:11:52.000Z"
   },
   "skipped": [
     {
@@ -110,6 +111,12 @@
       "reason": "金句三联闸门未过(疑拼接/编造/张冠李戴)",
       "title": "Marc Andreessen: The real AI boom hasn’t even started yet",
       "pubDate": "2026-01-29T13:32:06.000Z"
+    },
+    {
+      "id": "2026-07-20-pg-eric-ries-incorruptible",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "The PM's Guide to Governance with Eric Ries, author of The Lean Startup",
+      "pubDate": "2026-07-20T22:11:52.000Z"
     }
   ]
 }
