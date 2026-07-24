@@ -19,6 +19,10 @@ on:
         description: "强制部署当前已发布集(即便本轮无新集)——用于把已提交的干净集重新上线"
         required: false
         default: "false"
+      refresh:
+        description: "存量翻新:按新叙事骨架重浓缩已完成集(all=全部,或逗号分隔集 id;过不了闸门自动回滚老版)"
+        required: false
+        default: ""
 
 permissions:
   contents: write           # 处理完把新集 data/ + pipeline-state.json commit 回仓(去重状态持久化)
@@ -57,11 +61,25 @@ jobs:
         run: |
           # 手动触发可传 backfill=N 回填最近 N 集(评估批);cron/默认走正常「只向前看」
           BACKFILL="${{ github.event.inputs.backfill || '0' }}"
+          REFRESH="${{ github.event.inputs.refresh || '' }}"
           # 非法输入(非数字)响亮报错,不静默降级为只向前看(GLM 20260720-004[1])
           if ! echo "$BACKFILL" | grep -qE '^[0-9]+$'; then
             echo "::error::backfill 输入非法(需非负整数):'$BACKFILL'"; exit 1
           fi
-          if [ "$BACKFILL" -gt 0 ]; then
+          if [ -n "$REFRESH" ]; then
+            # 输入防呆(照 backfill 数字校验先例;GLM 20260724-002[2]):只许 all 或集 id 逗号串
+            if ! echo "$REFRESH" | grep -qE '^(all|[a-zA-Z0-9,_-]+)$'; then
+              echo "::error::refresh 输入非法(需 all 或逗号分隔集 id):'$REFRESH'"; exit 1
+            fi
+            # 存量翻新(2026-07-24 用户拍板:云端真实流程做):重浓缩→闸门→败者回滚老版 → 统一重建+全库门
+            echo "🔄 存量翻新模式:$REFRESH"
+            if [ "$REFRESH" = "all" ]; then node scripts/refresh-digests.mjs; else node scripts/refresh-digests.mjs --ids "$REFRESH"; fi
+            node scripts/build-entities.mjs
+            node scripts/build-pages.mjs
+            node scripts/build-list.mjs
+            node scripts/build-feed.mjs --out feed.xml
+            node scripts/gate-all.mjs
+          elif [ "$BACKFILL" -gt 0 ]; then
             echo "🔁 回填模式:最近 $BACKFILL 集"
             node scripts/run-pipeline.mjs --backfill "$BACKFILL"
           else
