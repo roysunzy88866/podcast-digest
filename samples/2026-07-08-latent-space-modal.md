@@ -145,6 +145,10 @@ Akshat 透露了一个内部的「自动推理」代码库。本质上,他们用
 - [[2026-06-24-latent-space-databricks|《为什么前沿生态必须开放》]] —— 同概念:智能体 (agent)、沙箱 (sandbox)、Kubernetes
 - [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
 - [[2026-06-22-latent-space-gray-swan|《神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan》]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把销售当产品做：用 AI 重构 GTM 团队的实战指南》]] —— 同概念:智能体 (agent)
+- [[2025-12-07-lennys-surge-ai-edwin-chen|《被 10 亿美元验证的逆向创业法:AI 数据公司 Surge 的独立路径》]] —— 同概念:后训练 (post-training)
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 1.2 个人加 20 个 AI 智能体，替换 10 人销售团队》]] —— 同概念:智能体 (agent)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同概念:智能体 (agent)
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]] —— 同概念:智能体 (agent)
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《From skeptic to true believer: How OpenClaw changed my life | Claire Vo》]] —— 同概念:智能体 (agent)
 - [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)》]] —— 同公司:Ramp

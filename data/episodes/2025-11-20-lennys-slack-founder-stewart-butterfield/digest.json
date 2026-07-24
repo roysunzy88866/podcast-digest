@@ -1,0 +1,159 @@
+{
+  "title_zh": "把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学",
+  "tldr": "Slack 创始人谈效用曲线、匠心、别让用户思考、伪工作与创造市场的哲学。",
+  "digest_md": "Stewart Butterfield 是 Flickr 和 Slack 的创始人，他将 Slack 卖给 Salesforce，创下了当时科技史上最大的收购案之一。在本集中，他与主持人深入探讨了产品哲学与领导力。本文将顺着他的思路，拆解出五个核心模块：如何判断一个功能值不值得做、如何对待产品中的摩擦力、如何对抗组织中的「伪工作」、如何面对商业转型的阵痛，以及如何真正为客户创造价值。\n\n## 效用曲线：判断功能价值的一把尺子\n说完了 Stewart Butterfield 是谁，我们来看他做产品的第一个核心心法。在与他共事过的人当中，反复被提及的一个概念叫做「效用曲线」。Stewart 解释说，这其实就是一条大家很熟悉的 S 型曲线：横轴是成本或投入，纵轴是价值或便利性。它的特点是：你在最初投入的一点点努力，往往产生不了什么价值；但跨过一个神奇的分水岭后，产品会产生巨大的价值；过了这个点，再继续疯狂投入，回报就开始递减了。\n\n他用做一把锤子打比方：如果锤子一敲手柄就断，那它完全是垃圾；稍微做坚固一点，还是没用。只有当它达到了足够结实的基本质量门槛，它才是一把好锤子，而到了这个级别，再去死磕也意义不大了 [07:45 Stewart Butterfield]。\n\n这给做软件的人什么启示呢？Stewart 指出，大家通常把功能看成非黑即白的二进制选择（要么有，要么没有）。但真正该问的问题是：**我们到底处在这条曲线的哪个位置？** 是还在最初那个平缓无用的阶段？还是已经跨过了陡峭的价值爆发期？如果是前者，人们不用你的功能是因为它还不够好，这时候你需要加大投入跨过门槛 [08:46 Stewart Butterfield]。\n\n## 匠心与细节：用「倾斜你的雨伞」创造竞争优势\n理解了效用曲线怎么用，接下来的问题是：跨过门槛之后，还需要打磨那些微小的细节吗？Stewart 认为，注重品味和匠心，能为你创造真正的竞争优势。\n\n关于品味能否后天培养，Stewart 认为绝对可以，就像厨师可以通过训练变得更优秀，尽管有些人天生有优势一样 [16:06 Stewart Butterfield]。更关键的是，由于大多数人或公司既没有好品味，也不愿意在这方面投资，只要你愿意拥抱它，就能获得巨大的领先优势 [16:29 Stewart Butterfield]。\n\n为了说明 Slack 是如何在细节上下功夫的，他分享了一个著名的「雨伞」隐喻。在温哥华狭窄的下雨街道上，他注意到很多撑伞的人根本不顾及对面行人的视线，伞骨尖正好戳在别人的眼睛高度。只有大约三分之一的人会主动把伞倾斜让路 [18:00 Stewart Butterfield]。对于这种冷漠，Stewart 和同事得出了一个产品哲学：别人对你缺乏同理心、做不到基本的礼貌和体贴，**这就是你可以抓住的、用来创造关键优势的机会** [19:08 Stewart Butterfield]。\n\n> 【背景】Jeff Bezos 有一句名言叫「你的利润就是我的机会」。Stewart 在这里是对这句话的改写：别人在体贴和用户体验上偷懒，就是 Slack 拔高标准的发力点。这种理念在 Slack 内部深入人心，公司甚至把「倾斜你的雨伞」印在了周边商品上。\n\n正是这些微小的便利，让 Slack 建立了深厚的情感连接，促成了自下而上的口碑传播和病毒式增长 [19:31 Stewart Butterfield]。Stewart 还举了几个具体的例子：比如放弃手机端输密码，改用只需输入邮箱的「魔法链接」登录；比如在默认通知策略上做巧妙的引导，既照顾新用户的心理预期，又避免他们被消息轰炸。\n\n## 「减少摩擦力」是个伪命题：真正要做的是「别让我思考」\n说完了为什么要注重打磨和体验，我们来看看一个常常被误解的概念：摩擦力。很多产品经理的口头禅是「减少摩擦」、「减少点击次数」，但这在 Stewart 看来不仅大错特错，而且忽略了问题的本质。\n\n他拿买泰勒·斯威夫特的演唱会门票举例。当你去抢票时，你的意图是 100% 明确且强烈的，哪怕 Ticketmaster 的网站很慢、支付页面报错，你都会死磕到底把票买下来 [30:03 Stewart Butterfield]。但对于绝大多数产品（比如当时的 Slack），人们只是道听途说后顺路点进来看看，意图处于勉强超过行动门槛的绝对最低值 [31:46 Stewart Butterfield]。这时候，你面临的真正挑战不是如何帮他们减少点击，而是**理解力**——他们根本不知道这个东西是干嘛的，也不知道下一步该怎么做。\n\n如果产品的 UI、视觉层次和交互指引无法清晰地传达这些信息，用户就会退缩。Stewart 认为产品设计的绝大头（可能有 70% 到 80%）都应该花在这个「帮助用户理解」的步骤上 [33:40 Stewart Butterfield]。\n\n他极其推崇「别让我思考」这条法则（出自同名经典书）。这不仅仅是因为做决定会消耗大脑的葡萄糖（神经元确实会产生代谢代价），更是出于情感上的考量：**如果你的软件拦住我，非要让我做一个我不理解的决定，你会让我觉得自己很蠢** [36:56 Stewart Butterfield]。这也是为什么年长者在面对不熟悉的软件时，总是会产生挫败感。\n\n「减少点击次数」也是同样的逻辑。Stewart 回忆起曾观察过一个十来岁的女孩在登机口排队时使用 Snapchat，她每秒能点击 4 到 7 次，整个过程极其丝滑流畅 [44:11 Stewart Butterfield]。如果此时 Snapchat 的产品经理为了「让她少点几下」而重新设计流程，反而会毁了这种流畅的体验。关键不在于点了几次，而在于**每一步是不是都不用动脑子**。\n\n## 伪工作与组织膨胀：警惕「已知有价值工作」的枯竭\n工具和摩擦力的问题解决了，组织内部的人怎么办？这正是下一个话题：大型组织为什么总是显得效率低下？Stewart 在这里提出了一个极其深刻的洞察：**「超逼真的类工作活动」**。\n\n这要从一个朴素的规律说起。在任何一个创业公司最开始的阶段，大家每天上班都有大把「已知的有价值工作」等着去做——你知道这事该怎么做，也确信做完一定有价值（比如开个公司银行账户、建个用户数据库） [63:50 Stewart Butterfield]。但随着公司变大，越来越多人被招进来。Stewart 引用了帕金森定律：**工作会自动膨胀，直到填满所有可用的时间**。更重要的是，绝大多数被招进来的人，出于合理的职业发展诉求（管的人越多、地位越高），都会倾向于继续招人 [56:36 Stewart Butterfield]。\n\n当简单有价值的事情被做完后，「待做工作的供给」就不够分了。这时候，人们就会开始发明各种看似在工作、实则毫无意义的事情，这就是「超逼真的类工作活动」 [66:11 Stewart Butterfield]。\n\nStewart 讲了 Slack 内部的一个真实案例。团队曾针对消息串的输入框是否要自动 @ 上一个发言人，进行了复杂的 A/B 测试和数据验证。结果显示，有自动 @ 功能时，消息串平均长度是 2.17 条；没有时是 2.14 条 [60:55 Stewart Butterfield]。这么微乎其微的差异，不仅不一定是好事，还牵扯了工程、QA、数据分析等十几个人的精力，投入了成千上万的人时。为了一个注定亏本的微小改动，大家表演了一场极其逼真的「工作」。\n\n那么，为什么大家会深陷其中而不自知？Stewart 指出，这并非因为人们愚蠢或邪恶，而是因为作为领导者，你没有为他们提供足够清晰的优先级和真正有价值的工作方向 [68:16 Stewart Butterfield]。\n\n## 「我们不卖马鞍」：不仅要造产品，还要造市场\n说完了内部管理和伪工作，最后来看看产品推向市场时的逻辑。Stewart 有一篇著名的备忘录叫《我们不卖马鞍》，核心观点是：仅仅打造出一款伟大的产品是不够的。\n\n这篇备忘录最初是 Slack 发布前，他在只有 8 个人的小团队里发布的内部信 [69:45 Stewart Butterfield]。他强调，如果你的产品与市面上的替代品有任何重大的差异，你其实不仅仅是在创造产品，**你还在创造市场**。你必须花同样多的精力去向客户沟通：这东西能为他们解决什么问题，能带来什么结果 [70:28 Stewart Butterfield]。\n\n你不能只是向别人炫耀你造了一个多好的马鞍，你要向他们推销骑马这种令人难以置信的体验，他们自然就会去买马鞍 [72:06 Lenny]。这正是营销的经典逻辑：卖哈雷摩托车卖的不是引擎，而是自由和开阔的道路。\n\n当被问及公司转型的建议时，Stewart 坦言，默认的建议永远是「坚持」。但当真的需要考虑转型时，你必须极其冷酷和理性，要判断自己是否已经穷尽了所有现实的好主意 [73:43 Stewart Butterfield]。他在放弃游戏 Glitch 转向做 Slack 时，就是判定自己的预期价值已经降到了谷底 [75:54 Stewart Butterfield]。\n\n尽管如此，转型依然是极其痛苦和羞辱的。因为你必须面对被你说服的投资人、员工、用户和媒体，承认自己错了 [76:21 Stewart Butterfield]。为了安抚员工，Stewart 有着一套极具「慷慨」底色的行事哲学。他曾在公司全员大会上，让所有人把一句话当成口号齐声重复：「从长远来看，衡量我们成功的标准，将是我们为客户创造的价值量」 [00:34 Stewart Butterfield]。\n\n这种创造真实价值的哲学，甚至体现在一些看似吃亏的政策上。比如 Slack 曾承诺：只要有宕机，就赔偿 100 倍的停机时长费用。随着公司上市规模变大，一次重大宕机直接让他们自动返还了 800 万美元的额度 [84:03 Stewart Butterfield]。但 Stewart 认为，这种做法不仅符合商业伦理，也有助于建立与客户及员工之间长期的合作信任。\n\n最后，Stewart 分享了一个叫做「**所有者的错觉**」的概念：产品创造者常常自视甚高，以为用户会像看戏的观众一样全神贯注于你的杰作 [88:01 Stewart Butterfield]。但其实，用户只是一个今天迟到了、急着上厕所、满脑子生活琐事的普通人。如果你不深吸一口气，假装自己是个普通的真实人类去审视产品，那你的设计注定会让人摸不着头脑。\n\n## 本集带走\n1. **用效用曲线评估功能**：不要只把功能看成有或没有。判断它是处于价值爆发期前的平缓阶段，还是已经过了边际递减的拐点，以此来决定是加大投入还是果断放弃。\n2. **别执着于「减少摩擦」，要追求「别让我思考」**：对于意图不明确的新用户，设计的核心挑战是帮助他们理解产品能做什么、下一步该怎么做，而不是单纯减少点击次数。每让用户多动一次脑子，都在消耗他们的认知成本和情绪好感。\n3. **警惕组织里的「超逼真类工作」**：随着公司变大，真正有价值的工作会被稀释。管理者有责任为团队划清优先级，避免大家把成千上万的人时浪费在无意义的流程、A/B 测试和汇报表演上。",
+  "quotes": [
+    {
+      "en": "I feel like what we have right now is just a giant piece of shit.",
+      "zh": "我觉得我们现在拥有的东西就是一大坨狗屎。",
+      "timestamp": "00:08",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "And then there's some magic threshold where it produces an enormous amount of value and then continued investment doesn't really pay off.",
+      "zh": "然后有一个神奇的阈值，它产生巨大的价值，但继续投资并没有真正的回报。",
+      "timestamp": "07:38",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "If your software stops me and asks me to make a decision and I don't really understand it, you make me feel stupid.",
+      "zh": "如果你的软件阻止我并要求我做出决定，而我真的不理解它，你会让我觉得自己很蠢。",
+      "timestamp": "00:58",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "If you can't see almost limitless opportunities to improve, then you shouldn't be designing the product, or you shouldn't be in charge of the company, or you shouldn't almost nothing.",
+      "zh": "如果你看不到几乎无限的改进机会，那么你不应该设计该产品，或者你不应该负责公司，或者你几乎不应该做任何事。",
+      "timestamp": "47:30",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "Everything is simple if you have no idea what you're talking about.",
+      "zh": "如果你对正在谈论的事情一无所知，那么一切都是简单的。",
+      "timestamp": "57:37",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "And the reason I say you have to be coldly rational about it is because it's fucking humiliating.",
+      "zh": "我说你必须对此保持冷酷理性的原因是因为这真他妈令人感到羞辱。",
+      "timestamp": "75:54",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "But by the time we got that scale, 100 times the money back for the third of a day that we were down was $8 million or something like that.",
+      "zh": "但是当我们达到那个规模时，对于停机的三分之一天，100 倍的退款是 800 万美元或类似的东西。",
+      "timestamp": "84:03",
+      "speaker": "Stewart Butterfield"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "I feel like what we have right now is just a giant piece of shit.",
+      "zh": "我觉得我们现在拥有的东西就是一大坨狗屎。",
+      "timestamp": "00:08",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "In the long run, the measure of our success will be the amount of value that we create for customers",
+      "zh": "从长远来看，衡量我们成功的标准将是我们为客户创造的价值量。",
+      "timestamp": "00:34",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "I'm mostly just chilling.",
+      "zh": "我大部分时间只是在休息。",
+      "timestamp": "05:28",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "And then there's some magic threshold where it produces an enormous amount of value and then continued investment doesn't really pay off.",
+      "zh": "然后有一个神奇的阈值，它产生巨大的价值，但继续投资并没有真正的回报。",
+      "timestamp": "07:38",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "But I think it was ultimately helpful in getting people to understand whether something was worth it or not.",
+      "zh": "但我认为这最终有助于人们理解某件事是否值得。",
+      "timestamp": "09:15",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "your failure to really be consider it exercise this courtesy and really be empathic about other people's experience is an advantage that you can create a critical advantage.",
+      "zh": "但你未能真正考虑它，行使这种礼貌，真正对他人经历感同身受，是你可以创造关键优势的一个优势。",
+      "timestamp": "19:08",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "It wouldn't have grown the way it did without those little conveniences which caused people to form an emotional connection",
+      "zh": "如果没有那些微小的便利，它就不会像那样增长，因为这些便利导致人们建立了情感联系。",
+      "timestamp": "19:31",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "If your software stops me and asks me to make a decision and I don't really understand it, you make me feel stupid.",
+      "zh": "如果你的软件阻止我并要求我做出决定，而我真的不理解它，你会让我觉得自己很蠢。",
+      "timestamp": "37:36",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "It's the easiest way you could make any action in your app, a single click or tap by just exposing every single possibility on one screen that scrolls for thousands and thousands and thousands and thousands of pages.",
+      "zh": "这是你可以在你的应用中执行任何操作的最简单方式,只需在一个滚动数千数千数千数千页的屏幕上展示每一个可能性,就能实现一次点击或点击。",
+      "timestamp": "38:50",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "And imagine if the goal was to try to make her tap less, how much of an impediment it would've been to the experience that both her and Snapchat wanted to create?",
+      "zh": "想象一下，如果目标是试图让她少点击几次，这对她和 Snapchat 想要创造的体验来说会是多大的阻碍？",
+      "timestamp": "44:53",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "If you can't see almost limitless opportunities to improve, then you shouldn't be designing the product, or you shouldn't be in charge of the company, or you shouldn't almost nothing.",
+      "zh": "如果你看不到几乎无限的改进机会，那么你不应该设计该产品，或者你不应该负责公司，或者你几乎不应该做任何事。",
+      "timestamp": "47:29",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "Everything is simple if you have no idea what you're talking about.",
+      "zh": "如果你对正在谈论的事情一无所知，那么一切都是简单的。",
+      "timestamp": "57:31",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "The problem with that, so I think it was a bad idea, right?",
+      "zh": "问题在于，所以我认为这是一个坏主意，对吧？",
+      "timestamp": "62:09",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "But that's exactly what we do when we're working.",
+      "zh": "但那正是我们在工作时所做的。",
+      "timestamp": "66:31",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "You're not just responsible for creating the product, but also, to a certain degree, creating the market.",
+      "zh": "你不仅负责创造产品，而且在一定程度上还负责创造市场。",
+      "timestamp": "71:08",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "And the reason I say you have to be coldly rational about it is because it's fucking humiliating.",
+      "zh": "我说你必须对此保持冷酷理性的原因是因为这真他妈令人感到羞辱。",
+      "timestamp": "75:54",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "In the long run, the measure of our success will be the amount of value that we create for customers",
+      "zh": "从长远来看，衡量我们成功的标准将是我们为客户创造的价值量。",
+      "timestamp": "81:51",
+      "speaker": "Stewart Butterfield"
+    },
+    {
+      "en": "But by the time we got that scale, 100 times the money back for the third of a day that we were down was $8 million or something like that.",
+      "zh": "但是当我们达到那个规模时，对于停机的三分之一天，100 倍的退款是 800 万美元或类似的东西。",
+      "timestamp": "84:03",
+      "speaker": "Stewart Butterfield"
+    }
+  ]
+}

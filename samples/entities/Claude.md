@@ -6,10 +6,11 @@ entity_type: 概念
 # Claude
 
 > [!info] 概念
-> 出现在 5 集 · 金句 1 条 · 关联 10 个
+> 出现在 6 集 · 金句 1 条 · 关联 10 个
 
 ## 集里怎么说它
 
+- **[[2025-12-07-lennys-surge-ai-edwin-chen|《被 10 亿美元验证的逆向创业法:AI 数据公司 Surge 的独立路径》]]**(00:48起):本集中被用作探讨模型「性格与价值观」的例子(花30分钟打磨一封无关紧要的邮件),并提及了它的 artifacts 功能。
 - **[[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]]**(00:52起):本集把它说成：AI 模型与产品的核心。工程师用它快速写代码、交付功能；设计师用它探索视觉方案和长线任务。嘉宾指出其非确定性使得传统高保真模型图失效，只有底层模型真正跑起来才能发现问题。
 - **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare》]]**(00:53起):本集把它说成是Anthropic的核心AI模型与产品，被团队深度使用来自动化各种工作（如看数据图表、揪出跨部门不一致、自动跑增长实验），拥有极佳的产品体验来驱动业务自然增长。
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)》]]**(17:32起):本集将其描述为相当于最高级的软件工程师，可以用英语指令让它去修复那些原本被企业忽视的、难用的边角料软件；嘉宾在过去三个月也几乎完全 all in 在 Claude 上。
@@ -22,6 +23,7 @@ entity_type: 概念
 
 ## 出现在这些集
 
+- [[2025-12-07-lennys-surge-ai-edwin-chen|《被 10 亿美元验证的逆向创业法:AI 数据公司 Surge 的独立路径》]] — 作为概念(提及)
 - [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] — 作为概念
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare》]] — 作为概念
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)》]] — 作为被讨论公司
@@ -30,4 +32,4 @@ entity_type: 概念
 
 ## 关联实体
 
-[[Lenny]] · [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Google]] · [[Claude Code]] · [[IC]] · [[Jenny Wen]] · [[Amol Avasare]] · [[Nikhyl Singhal]]
+[[Lenny]] · [[Anthropic]] · [[OpenAI]] · [[vibe coding]] · [[智能体]] · [[Google]] · [[Claude Code]] · [[IC]] · [[Edwin Chen]] · [[Jenny Wen]]

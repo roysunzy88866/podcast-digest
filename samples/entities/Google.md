@@ -6,7 +6,7 @@ entity_type: 公司
 # Google
 
 > [!info] 公司
-> 出现在 2 集 · 金句 1 条 · 关联 10 个
+> 出现在 2 集 · 金句 2 条 · 关联 10 个
 
 ## 集里怎么说它
 
@@ -14,6 +14,8 @@ entity_type: 公司
 - **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell》]]**(17:06起):本集把它说成:收购 Nest 后让其沦为不受重视的孤儿产品,导致同类最好的烟雾报警器遭停产;目前在平台层面,本应在数字消费管控上做得更多来帮助用户。
 
 ## 金句
+
+![[2025-12-28-lennys-10-contrarian-leadership-truths#^q18]]
 
 ![[2026-03-08-lennys-the-most-successful-ai-company-youve-nev#^q7]]
 

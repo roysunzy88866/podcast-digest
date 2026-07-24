@@ -147,13 +147,23 @@ Eric 在对话的最后点破了这背后的深层哲学：为什么我们要这
 
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《The AI paradox: More automation, more humans, more work | Dan Shipper》]] —— 同嘉宾:Lenny · 同公司:Anthropic、OpenAI
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell》]] —— 同嘉宾:Lenny · 同公司:Anthropic、OpenAI
+- [[2025-12-07-lennys-surge-ai-edwin-chen|《被 10 亿美元验证的逆向创业法:AI 数据公司 Surge 的独立路径》]] —— 同嘉宾:Lenny · 同公司:Anthropic、OpenAI
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare》]] —— 同嘉宾:Lenny · 同公司:Anthropic、OpenAI
 - [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同嘉宾:Lenny · 同公司:Anthropic
 - [[2026-06-14-lennys-the-common-pattern-behind-successful|《The hidden pattern behind successful products | Mark Pincus (founder of Zynga)》]] —— 同嘉宾:Lenny · 同公司:OpenAI
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)》]] —— 同嘉宾:Lenny · 同公司:Anthropic
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把销售当产品做：用 AI 重构 GTM 团队的实战指南》]] —— 同嘉宾:Lenny · 同公司:OpenAI
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同嘉宾:Lenny · 同公司:Anthropic
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]] —— 同嘉宾:Lenny · 同公司:OpenAI
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)》]] —— 同嘉宾:Lenny · 同公司:Anthropic
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|《Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)》]] —— 同嘉宾:Lenny · 同公司:Anthropic
+- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:为什么大语言模型之后,「空间智能」才是下一个前沿》]] —— 同嘉宾:Lenny
+- [[2025-11-20-lennys-slack-founder-stewart-butterfield|《把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学》]] —— 同嘉宾:Lenny
+- [[2025-11-23-lennys-a-guide-to-difficult-conversations|《别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课》]] —— 同嘉宾:Lenny
+- [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling 高管的反共识管理课：故意人手不足、果断放弃、复利对抗熵增》]] —— 同嘉宾:Lenny
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 1.2 个人加 20 个 AI 智能体，替换 10 人销售团队》]] —— 同嘉宾:Lenny
+- [[2026-01-25-lennys-why-your-product-stopped-growing|《产品增长停滞怎么办?Jason Cohen 的诊断四步法》]] —— 同嘉宾:Lenny
+- [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|《育儿法则就是管理法则：Dr. Becky 谈如何领导“伪装的婴儿”》]] —— 同嘉宾:Lenny
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《The most successful AI company you’ve never heard of | Qasar Younis》]] —— 同嘉宾:Lenny
 - [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《The art of influence: The single most important skill that AI can’t replace | Jessica Fain (Webflow, ex-Slack)》]] —— 同嘉宾:Lenny
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《From skeptic to true believer: How OpenClaw changed my life | Claire Vo》]] —— 同嘉宾:Lenny

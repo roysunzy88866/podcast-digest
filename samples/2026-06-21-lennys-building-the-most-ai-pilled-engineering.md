@@ -114,6 +114,7 @@ Fiona 坚持一条铁律:**所有新加入的经理,都必须先从 IC(独立贡
 ## 相关单集
 
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《The AI paradox: More automation, more humans, more work | Dan Shipper》]] —— 同公司:Anthropic、Claude Code · 同概念:智能体 (agent)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同公司:Claude Code、Anthropic · 同概念:智能体 (agent)
 - [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同公司:Anthropic、Claude Code
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《From skeptic to true believer: How OpenClaw changed my life | Claire Vo》]] —— 同公司:Claude Code · 同概念:智能体 (agent)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare》]] —— 同公司:Anthropic、Claude Code
@@ -122,6 +123,9 @@ Fiona 坚持一条铁律:**所有新加入的经理,都必须先从 IC(独立贡
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|《Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)》]] —— 同公司:Anthropic · 同概念:智能体 (agent)
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella：Microsoft Build特别跨界对谈》]] —— 同公司:Microsoft · 同概念:智能体 (agent)
 - [[2026-06-22-latent-space-gray-swan|《神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan》]] —— 同公司:Anthropic · 同概念:智能体 (agent)
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把销售当产品做：用 AI 重构 GTM 团队的实战指南》]] —— 同概念:智能体 (agent)
+- [[2025-12-07-lennys-surge-ai-edwin-chen|《被 10 亿美元验证的逆向创业法:AI 数据公司 Surge 的独立路径》]] —— 同公司:Anthropic
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 1.2 个人加 20 个 AI 智能体，替换 10 人销售团队》]] —— 同概念:智能体 (agent)
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]] —— 同概念:智能体 (agent)
 - [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《How to build a company that withstands any era | Eric Ries, Lean Startup author》]] —— 同公司:Anthropic
 - [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同概念:智能体 (agent)

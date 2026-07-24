@@ -124,7 +124,17 @@ tags:
 
 ## 相关单集
 
+- [[2025-11-23-lennys-a-guide-to-difficult-conversations|《别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课》]] —— 同嘉宾:Lenny · 同概念:职业倦怠 (burnout)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare》]] —— 同嘉宾:Lenny · 同公司:Mercury
+- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:为什么大语言模型之后,「空间智能」才是下一个前沿》]] —— 同嘉宾:Lenny
+- [[2025-11-20-lennys-slack-founder-stewart-butterfield|《把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学》]] —— 同嘉宾:Lenny
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把销售当产品做：用 AI 重构 GTM 团队的实战指南》]] —— 同嘉宾:Lenny
+- [[2025-12-07-lennys-surge-ai-edwin-chen|《被 10 亿美元验证的逆向创业法:AI 数据公司 Surge 的独立路径》]] —— 同嘉宾:Lenny
+- [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling 高管的反共识管理课：故意人手不足、果断放弃、复利对抗熵增》]] —— 同嘉宾:Lenny
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 1.2 个人加 20 个 AI 智能体，替换 10 人销售团队》]] —— 同嘉宾:Lenny
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同嘉宾:Lenny
+- [[2026-01-25-lennys-why-your-product-stopped-growing|《产品增长停滞怎么办?Jason Cohen 的诊断四步法》]] —— 同嘉宾:Lenny
+- [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|《育儿法则就是管理法则：Dr. Becky 谈如何领导“伪装的婴儿”》]] —— 同嘉宾:Lenny
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]] —— 同嘉宾:Lenny
 - [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同嘉宾:Lenny
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《The most successful AI company you’ve never heard of | Qasar Younis》]] —— 同嘉宾:Lenny

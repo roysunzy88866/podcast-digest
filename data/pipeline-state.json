@@ -1,5 +1,7 @@
 {
-  "sincePubDate": "2026-07-22T12:03:38.000Z",
+  "cutoffs": {
+    "lennys": "2026-07-22T12:03:38.000Z"
+  },
   "skipped": [
     {
       "id": "2026-07-09-lennys-gpt-56-sol-vs-claude-fable-why-openais",
@@ -60,7 +62,54 @@
       "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
       "title": "Why we’re at the beginning of the AI hardware boom | Caitlin Kalinowski (ex–OpenAI, Meta, Apple)",
       "pubDate": "2026-05-17T12:31:57.000Z"
+    },
+    {
+      "id": "2025-11-13-lennys-how-50-people-built-a-profitable-ai-unic",
+      "reason": "金句三联闸门未过(疑拼接/编造/张冠李戴)",
+      "title": "“Dumbest idea I’ve heard” to $100M ARR: Inside the rise of Gamma | Grant Lee (CEO)",
+      "pubDate": "2025-11-13T13:31:58.000Z"
+    },
+    {
+      "id": "2025-12-04-lennys-why-linkedin-is-replacing-pms",
+      "reason": "金句三联闸门未过(疑拼接/编造/张冠李戴)",
+      "title": "Why LinkedIn is turning PMs into AI-powered \"full stack builders” | Tomer Cohen (LinkedIn CPO)",
+      "pubDate": "2025-12-04T13:32:07.000Z"
+    },
+    {
+      "id": "2025-12-14-lennys-why-humans-are-ais-biggest-bottleneck",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "Why humans are AI’s biggest bottleneck (and what’s coming in 2026) | Alexander Embiricos (OpenAI Codex Product Lead)",
+      "pubDate": "2025-12-14T13:31:26.000Z"
+    },
+    {
+      "id": "2025-12-18-lennys-the-new-ai-growth-playbook-for-2026-elen",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "The new AI growth playbook for 2026: How Lovable hit $200M ARR in one year | Elena Verna (Head of Growth)",
+      "pubDate": "2025-12-18T13:31:55.000Z"
+    },
+    {
+      "id": "2026-01-04-lennys-the-high-growth-handbook-molly-graham",
+      "reason": "金句三联闸门未过(疑拼接/编造/张冠李戴)",
+      "title": "The high-growth handbook: Molly Graham’s frameworks for leading through chaos, change, and scale",
+      "pubDate": "2026-01-04T13:31:22.000Z"
+    },
+    {
+      "id": "2026-01-11-lennys-what-openai-and-google-engineers-learned",
+      "reason": "金句三联闸门未过(疑拼接/编造/张冠李戴)",
+      "title": "Why most AI products fail: Lessons from 50+ AI deployments at OpenAI, Google, and Amazon",
+      "pubDate": "2026-01-11T13:31:22.000Z"
+    },
+    {
+      "id": "2026-01-15-lennys-silicon-valleys-missing-etiquette-playbo",
+      "reason": "金句三联闸门未过(疑拼接/编造/张冠李戴)",
+      "title": "How to show up in any room with a low heart rate: Silicon Valley’s missing etiquette playbook | Sam Lessin",
+      "pubDate": "2026-01-15T13:32:15.000Z"
+    },
+    {
+      "id": "2026-01-29-lennys-marc-andreessen-the-real-ai-boom",
+      "reason": "金句三联闸门未过(疑拼接/编造/张冠李戴)",
+      "title": "Marc Andreessen: The real AI boom hasn’t even started yet",
+      "pubDate": "2026-01-29T13:32:06.000Z"
     }
-  ],
-  "cutoffSource": "lennys"
+  ]
 }

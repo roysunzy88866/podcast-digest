@@ -18,4 +18,4 @@ entity_type: 公司
 
 ## 关联实体
 
-[[Lenny]] · [[Amol Avasare]] · [[Anthropic]] · [[Claude]] · [[Mercury]] · [[Claude Code]] · [[Cowork]] · [[CASH]] · [[MCP]] · [[好摩擦]]
+[[Lenny]] · [[Amol Avasare]] · [[Anthropic]] · [[Claude]] · [[Mercury]] · [[Claude Code]] · [[Cowork]] · [[CASH]] · [[MCP]] · [[摩擦力]]

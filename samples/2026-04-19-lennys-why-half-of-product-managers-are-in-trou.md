@@ -145,10 +145,13 @@ Nikhyl 自己就是这么做的。他为社区写了一个[[智能体|智能体]
 
 - [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同公司:Claude、Anthropic · 同概念:IC
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《The AI paradox: More automation, more humans, more work | Dan Shipper》]] —— 同公司:Codex、Anthropic · 同概念:智能体 (agent)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同公司:Codex · 同概念:智能体 (agent)
 - [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同公司:Codex · 同概念:智能体 (agent)
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell》]] —— 同公司:Claude、Anthropic、Google
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare》]] —— 同公司:Claude、Anthropic
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)》]] —— 同公司:Anthropic · 同概念:智能体 (agent)
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把销售当产品做：用 AI 重构 GTM 团队的实战指南》]] —— 同概念:智能体 (agent)
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 1.2 个人加 20 个 AI 智能体，替换 10 人销售团队》]] —— 同概念:智能体 (agent)
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]] —— 同概念:智能体 (agent)
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《From skeptic to true believer: How OpenClaw changed my life | Claire Vo》]] —— 同概念:智能体 (agent)
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|《Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)》]] —— 同概念:智能体 (agent)
@@ -161,6 +164,7 @@ Nikhyl 自己就是这么做的。他为社区写了一个[[智能体|智能体]
 - [[2026-07-08-latent-space-modal|《为什么 AI 基础设施必须为「Agent 体验」进化》]] —— 同概念:智能体 (agent)
 - [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri: AI is a tailwind for authenticity》]] —— 同概念:vibe coding
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone》]] —— 同概念:智能体 (agent)
+- [[2025-12-07-lennys-surge-ai-edwin-chen|《被 10 亿美元验证的逆向创业法:AI 数据公司 Surge 的独立路径》]] —— 同公司:Anthropic、Claude · 同概念:vibe coding
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《The most successful AI company you’ve never heard of | Qasar Younis》]] —— 同公司:Tesla
 - [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel》]] —— 同公司:Claude
 - [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《How to build a company that withstands any era | Eric Ries, Lean Startup author》]] —— 同公司:Anthropic

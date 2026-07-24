@@ -28,4 +28,4 @@ entity_type: 人物
 
 ## 关联实体
 
-[[Lenny]] · [[Anthropic]] · [[Claude]] · [[Mercury]] · [[Claude Code]] · [[Cowork]] · [[CASH]] · [[MCP]] · [[MasterClass]] · [[好摩擦]]
+[[Lenny]] · [[Anthropic]] · [[Claude]] · [[Mercury]] · [[Claude Code]] · [[Cowork]] · [[CASH]] · [[MCP]] · [[MasterClass]] · [[摩擦力]]

@@ -1,0 +1,88 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "05:40",
+      "speaker": "Edwin Chen",
+      "trimmed": false,
+      "tsWas": "05:40",
+      "spkWas": "Edwin Chen"
+    },
+    {
+      "i": 2,
+      "timestamp": "05:57",
+      "speaker": "Edwin Chen",
+      "trimmed": false,
+      "tsWas": "05:57",
+      "spkWas": "Edwin Chen"
+    },
+    {
+      "i": 3,
+      "timestamp": "07:27",
+      "speaker": "Edwin Chen",
+      "trimmed": false,
+      "tsWas": "07:27",
+      "spkWas": "Edwin Chen"
+    },
+    {
+      "i": 4,
+      "timestamp": "09:51",
+      "speaker": "Edwin Chen",
+      "trimmed": false,
+      "tsWas": "09:51",
+      "spkWas": "Edwin Chen"
+    },
+    {
+      "i": 5,
+      "timestamp": "18:48",
+      "speaker": "Edwin Chen",
+      "trimmed": false,
+      "tsWas": "18:48",
+      "spkWas": "Edwin Chen"
+    },
+    {
+      "i": 7,
+      "timestamp": "24:15",
+      "speaker": "Edwin Chen",
+      "trimmed": false,
+      "tsWas": "24:15",
+      "spkWas": "Edwin Chen"
+    },
+    {
+      "i": 8,
+      "timestamp": "23:25",
+      "speaker": "Edwin Chen",
+      "trimmed": false,
+      "tsWas": "23:25",
+      "spkWas": "Edwin Chen"
+    },
+    {
+      "i": 9,
+      "timestamp": "51:56",
+      "speaker": "Edwin Chen",
+      "trimmed": false,
+      "tsWas": "51:54",
+      "spkWas": "Edwin Chen"
+    },
+    {
+      "i": 10,
+      "timestamp": "47:11",
+      "speaker": "Edwin Chen",
+      "trimmed": false,
+      "tsWas": "47:10",
+      "spkWas": "Edwin Chen"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 6,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "It's literally optimizing your models for the types of people who buy tabloids at a grocery store."
+    },
+    {
+      "i": 11,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "You are your objective function."
+    }
+  ]
+}

@@ -36,4 +36,4 @@ entity_type: 人物
 
 ## 关联实体
 
-[[Lenny]] · [[Every]] · [[Codex]] · [[Claude Code]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[智能体]] · [[自动化]] · [[前置部署工程师]]
+[[Lenny]] · [[Every]] · [[Codex]] · [[Claude Code]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[智能体]] · [[自动化]] · [[前线部署工程师]]

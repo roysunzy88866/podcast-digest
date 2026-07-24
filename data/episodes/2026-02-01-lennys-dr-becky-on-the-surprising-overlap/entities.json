@@ -1,0 +1,1414 @@
+{
+  "episode_id": "2026-02-01-lennys-dr-becky-on-the-surprising-overlap",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-02-01",
+  "tags": [
+    "领导力",
+    "育儿理念",
+    "职场沟通",
+    "情绪管理",
+    "心理学应用"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            234.295,
+            239.678
+          ],
+          "quote": "Book and attend a meeting at merge.dev/lenny, and they'll send you a $50 Amazon gift card.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 44,
+          "t": [
+            239.958,
+            241.759
+          ],
+          "quote": "That's merge.dev/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 57,
+          "t": [
+            304.794,
+            310.997
+          ],
+          "quote": "Try Metaview today for free and get an extra month of sourcing at metaview.ai/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 58,
+          "t": [
+            311.277,
+            313.378
+          ],
+          "quote": "That's Metaview.ai/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 148,
+          "t": [
+            721.755,
+            723.916
+          ],
+          "quote": "Lenny, I'm pretty sure no one would tell me I have a listening problem.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 175,
+          "t": [
+            836.391,
+            841.855
+          ],
+          "quote": "So if I'm going into a conversation with you, Lenny, and let's say, I don't know, I want you to do something for me.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 178,
+          "t": [
+            845.417,
+            847.018
+          ],
+          "quote": "And I'm like, I'm going to connect to Lenny first.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1244.1,
+            1249.424
+          ],
+          "quote": "And it's honestly, Lenny, it's the same thing we do, I don't know, and like a good sports coach.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1602.812,
+            1605.633
+          ],
+          "quote": "And I think Lenny, that's one of the things that we also miss a ton in our kids.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1886.127,
+            1887.13
+          ],
+          "quote": "Lenny, I'm going to talk to you after.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 605,
+          "t": [
+            2775.189,
+            2783.634
+          ],
+          "quote": "Learn how to turn your website into a growth engine from a Framer expert, or just get started building for free today at framer.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 606,
+          "t": [
+            2784.054,
+            2790.137
+          ],
+          "quote": "And if you're a Lenny's Product Pass subscriber, you get an entire year of Framer Pro for free.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 607,
+          "t": [
+            2790.597,
+            2792.999
+          ],
+          "quote": "Check it out at framer.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 644,
+          "t": [
+            2917.935,
+            2922.357
+          ],
+          "quote": "Can you imagine if the pilot was like, \"Oh, Becky and Lenny are really upset about this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 764,
+          "t": [
+            3458.507,
+            3464.332
+          ],
+          "quote": "And I don't know if you hear this, Lenny, but I used to hear this all the time and I couldn't let myself let this small talk moment go.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 845,
+          "t": [
+            3840.331,
+            3844.291
+          ],
+          "quote": "And that's actually, Lenny, something I used to say to my kids when they were your kids' age.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 887,
+          "t": [
+            4011.515,
+            4015.596
+          ],
+          "quote": "I think deep down, Lenny, that's literally what we're all looking for as humans is just to be believed.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1138,
+          "t": [
+            4967.962,
+            4973.865
+          ],
+          "quote": "You're like a major celebrity to me and my whole team knows it, that of all of the podcasts I've been on, they're like, \"You must be nervous for Lenny.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1171,
+          "t": [
+            5095.579,
+            5097.94
+          ],
+          "quote": "Oh, I learn skills from Lenny all the time.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "dr-becky-kennedy",
+      "type": "person",
+      "role": "cohost",
+      "name": "Dr. Becky Kennedy",
+      "file": "Dr. Becky Kennedy",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            65.52,
+            75.446
+          ],
+          "quote": "Today, my guest is Dr. Becky Kennedy, a clinical psychologist, author, and CEO of one of the most popular parenting books, podcasts, communities, and apps called \"Good Inside.\"",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "good-inside",
+      "type": "company",
+      "role": "company",
+      "name": "Good Inside",
+      "file": "Good Inside",
+      "primary": true,
+      "how_described": "本集说它是 Dr. Becky 创办的育儿书籍、播客、社区和应用程序（App），提供了一套核心原则，帮助人们理解人类行为，其理念同样适用于职场领导力和人际关系。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            28.543,
+            31.879
+          ],
+          "quote": "You teach kids are good inside, no matter their behavior, is that useful in work?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 8,
+          "t": [
+            32.22,
+            38.167
+          ],
+          "quote": "The idea of being good inside inherently requires us to separate behavior and identity.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 11,
+          "t": [
+            42.833,
+            49
+          ],
+          "quote": "The quickest way to have an unproductive conversation is to lose sight of the fact that someone's good inside.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 16,
+          "t": [
+            65.52,
+            75.446
+          ],
+          "quote": "Today, my guest is Dr. Becky Kennedy, a clinical psychologist, author, and CEO of one of the most popular parenting books, podcasts, communities, and apps called \"Good Inside.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 68,
+          "t": [
+            344.38,
+            356.349
+          ],
+          "quote": "I think Good Inside, which is kind of I guess the company and the method around all the things I've thought about is known for helping parents with parenting struggles and different things that are going on with our kids at various ages.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 74,
+          "t": [
+            394.056,
+            399.52
+          ],
+          "quote": "So to me, what Good Inside really gives people is a way to think about themselves and the way to think about leadership.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1066.22,
+            1071.385
+          ],
+          "quote": "So one of the core principles you teach, the name of your book and the name of your product and community and everything you built is \"Good Inside.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1075.969,
+            1082.395
+          ],
+          "quote": "You teach kids are good inside, no matter their behavior, they may be having a hard time, but they're still good inside.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1084.937,
+            1086.258
+          ],
+          "quote": "Are people always still good inside?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1095.045,
+            1101.109
+          ],
+          "quote": "No part of me if my kid is, when they were younger hitting, would I be like, \"My kid is good inside, so who cares that they hit?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1101.709,
+            1106.793
+          ],
+          "quote": "Or, \"This employee's good inside, so it doesn't matter that they're not getting their PRDs in on time,\" whatever it is.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1107.853,
+            1117.54
+          ],
+          "quote": "And I think that's actually the other thing that's core to Good Inside is the idea of being good inside inherently requires us to separate behavior and identity.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1136.252,
+            1141.575
+          ],
+          "quote": "Seeing that person as good inside starts with this sentence, \"This is a good person who is late.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1149.42,
+            1159.286
+          ],
+          "quote": "One hand is identity, the other hand is behavior and literally just separating them forces you to distinguish who someone is good inside from their behavior.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1186.944,
+            1193.768
+          ],
+          "quote": "So the quickest way to have an unproductive conversation is to lose sight of the fact that someone's good inside.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1194.709,
+            1201.334
+          ],
+          "quote": "If I'm talking about someone at work, let's say again, who's always late, here's like a quote \"good inside,\" infused conversation.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1268.078,
+            1270.239
+          ],
+          "quote": "That comes from seeing the good inside someone.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1345.867,
+            1355.696
+          ],
+          "quote": "So this whole idea, people are good inside, how can you separate behavior from identity as a framework to then go into a conversation, all of it just feels too theoretical for me.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1423.16,
+            1441.548
+          ],
+          "quote": "And I realized at night, the only way to shift this and get into a good inside mindset, was just to say to myself, what's the most generous interpretation of why I would say to my kids some version of, stop jumping on the couch, it's dangerous, you're near the glass table, and he'd look at me and jump doubly hard on the couch.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1548,
+            1565.88
+          ],
+          "quote": "It's interesting how much of this comes back to just kind of assuming they're smart and are trying to do their best job and are good inside and translating to, okay, in spite of that, here's something that is still going wrong, let's try to figure out... There's kind of this idea of curiosity over judgment, trying to figure out what's missing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1580.265,
+            1587.067
+          ],
+          "quote": "And I think it's assuming... I say assume, good inside or assume MGI, other people say assume positive intent.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1691.04,
+            1693.481
+          ],
+          "quote": "And that's actually what gave me insight into starting Good Inside.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1739.996,
+            1751.28
+          ],
+          "quote": "We escalate and here's one of the big insights besides people are good inside, that helped me form all of my other approaches, is kids are born with all the feelings and none of the skills to manage feelings.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 427,
+          "t": [
+            1921.417,
+            1924.98
+          ],
+          "quote": "So, if you Google Good Inside potty, you can have it for zero dollars.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2159.02,
+            2161.901
+          ],
+          "quote": "Yeah, I think that's the essence of what Good Inside does.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2283.972,
+            2295.72
+          ],
+          "quote": "I think that's a massive overcorrection I've seen in parenting and I just want to make it very clear that is not what we do at Good Inside, which is kind of, my kid is upset and instead of just caring about their feelings, now their feelings dictate my decisions.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 792,
+          "t": [
+            3625.894,
+            3631.678
+          ],
+          "quote": "That's the world I think we try to live in and good inside where I can help my kids see they're capable of dealing with this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 980,
+          "t": [
+            4382.06,
+            4384.441
+          ],
+          "quote": "So yeah, so that's what Good Inside is.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 987,
+          "t": [
+            4417.36,
+            4439.495
+          ],
+          "quote": "And so Good Inside and our app to me is the most modern, alive, personalized, technologically informed way of feeling like I have something in my pocket and someone and a community too in my pocket that can just close the gap between how I kind of want to show up and how I do show up.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 989,
+          "t": [
+            4444.799,
+            4446.94
+          ],
+          "quote": "And that's what Good Inside as a business is built around.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1007,
+          "t": [
+            4541.283,
+            4544.725
+          ],
+          "quote": "We have coaches we've trained, so we've manualized the Good Inside approach.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1058,
+          "t": [
+            4709.58,
+            4715.142
+          ],
+          "quote": "I'm just laughing because Andrew Hogan who does insights at Figma, he's been a big Good Inside member.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1103,
+          "t": [
+            4857.125,
+            4860.707
+          ],
+          "quote": "Those kids are kind of my passion project within the passion project that is Good Inside.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1120,
+          "t": [
+            4902.221,
+            4904.582
+          ],
+          "quote": ": A Good Inside Story About Deeply Feeling Kids.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1281,
+          "t": [
+            5427.695,
+            5430.978
+          ],
+          "quote": "Where can folks find you, Good Inside, your book, anything else you want to share?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "repair",
+      "type": "concept",
+      "role": "concept",
+      "name": "修复 (repair)",
+      "file": "修复",
+      "primary": true,
+      "how_described": "本集把它说成:头号关系策略。指在搞砸、为自己感觉糟糕的时刻之后，主动回到对方面前承担责任、承认影响并探讨下次如何改进，它是重新建立信任的关键。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            118.05,
+            123.592
+          ],
+          "quote": "We talk about the power of repair, the importance of building long-term resilience versus short-term happiness.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 108,
+          "t": [
+            523.565,
+            529.412
+          ],
+          "quote": "Let's talk about the power of repair, one of your more important and impactful lessons that you teach parents.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 111,
+          "t": [
+            538.481,
+            542.464
+          ],
+          "quote": "I think repair is kind of the number one relationship strategy we have.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 119,
+          "t": [
+            581.67,
+            595.5
+          ],
+          "quote": "And one of the things I remember learning in clinical psych grad school was that the thing that really differentiated secure attachment, which is the nature of a relationship you really want to have with your kid is the presence of repair.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 122,
+          "t": [
+            606.906,
+            613.51
+          ],
+          "quote": "Secure attachment is just defined by, we're all going to mess up, but secure attachment has an adult who's willing to repair?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 133,
+          "t": [
+            647.109,
+            652.092
+          ],
+          "quote": "There's just nothing to reestablish trust and connection like repair.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 995,
+          "t": [
+            4481.595,
+            4482.855
+          ],
+          "quote": "We have to learn how to repair.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1160,
+          "t": [
+            5048.121,
+            5049.081
+          ],
+          "quote": "Do I know how to repair?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "connection",
+      "type": "concept",
+      "role": "concept",
+      "name": "连接 (connection)",
+      "file": "连接",
+      "primary": true,
+      "how_described": "本集把它说成:在纠正之前先连接。它是指在两人之间搭起一座桥，不带任何议程地真正关注对方几十秒，是合作与工作高效率的基础。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            647.109,
+            652.092
+          ],
+          "quote": "There's just nothing to reestablish trust and connection like repair.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 134,
+          "t": [
+            652.112,
+            664.84
+          ],
+          "quote": "And when trust and connection are reestablished, then whether it's your kid or someone at work, they cooperate better, you don't get into conversations that are kind of run on conversations that are really an act of defensiveness and you can just get a lot more done.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 164,
+          "t": [
+            763.32,
+            769.423
+          ],
+          "quote": "He kind of joins my world where I'm embedded in my own priorities and by doing that forms a bridge, that's what connection is.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 166,
+          "t": [
+            775.427,
+            781.81
+          ],
+          "quote": "So connection, it first all just feels good anyway, but it's not such a kind of soft topic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 167,
+          "t": [
+            782.29,
+            789.554
+          ],
+          "quote": "Connection is what forms a bridge between two people so they can act together in the same interest.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 168,
+          "t": [
+            789.734,
+            800.32
+          ],
+          "quote": "And so whether you're thinking about your kid not listening or thinking about things at work, coming back to connection is really the foundation for both cooperation and at work, even productivity.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 170,
+          "t": [
+            807.067,
+            817.9
+          ],
+          "quote": "To listen to help people actually do this in day-to-day, what's the way to approach the way you phrase beginning that connection conversation?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 187,
+          "t": [
+            876.616,
+            882.96
+          ],
+          "quote": "Being present with someone without an agenda is increasingly hard to do, but that is what connection is about.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 201,
+          "t": [
+            931.436,
+            935.6
+          ],
+          "quote": "And I hear myself say that because I can say that, but it's not connection actually.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1092,
+          "t": [
+            4820.25,
+            4828.535
+          ],
+          "quote": "But there's just so many other things in a Disney type ecosystem that I think can come out out of IP and story and feeling and connection.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1110,
+          "t": [
+            4880.516,
+            4888.32
+          ],
+          "quote": "If our app is like the companion for the parent, I feel like the connection moment and for a kid to see themselves in this book is the purpose of that.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "sturdy",
+      "type": "concept",
+      "role": "concept",
+      "name": "坚定的领导者 (sturdy)",
+      "file": "坚定的领导者",
+      "primary": true,
+      "how_described": "本集把它说成:最优秀的领导者必须具备的品质。用飞机遇气流颠簸的飞行员广播作比喻：能够承认别人的情绪体验是真实的，但自己不被淹没，能基于独家信息坚持做决策。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            123.952,
+            138.879
+          ],
+          "quote": "Why your goal as a leader is to become sturdy, the power of curiosity over judgment, the framework Dr. Becky calls the most generous interpretation, also a ton of really specific phrases that work really well with kids and adults who you're having a hard time with.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2142.301,
+            2148.989
+          ],
+          "quote": "Something else that you teach, that I find really helpful, is this idea of sturdy, becoming a sturdy parent, learning to be sturdy.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2162.081,
+            2166.083
+          ],
+          "quote": "We help parents become sturdy leaders, so they can raise sturdy, confident kids.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2179.409,
+            2188.034
+          ],
+          "quote": "It takes it out of my brain and I think the word sturdy, if you picture someone in your life, even if you haven't thought about them, who's the sturdy person I know?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2192.536,
+            2194.937
+          ],
+          "quote": "And I think the best leaders we have are sturdy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2217.828,
+            2220.309
+          ],
+          "quote": "The third one's going to be the sturdy one, the first two, not as much.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2264.279,
+            2265.62
+          ],
+          "quote": "That's not sturdy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2266.52,
+            2268.682
+          ],
+          "quote": "The second version is also not sturdy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 532,
+          "t": [
+            2357.084,
+            2365.368
+          ],
+          "quote": "This sturdy leader is able to see my emotional experience as real for me and not be overwhelmed by it themself.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2365.648,
+            2368.789
+          ],
+          "quote": "Those are the two distinct aspects of being a sturdy leader.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 539,
+          "t": [
+            2393,
+            2397.542
+          ],
+          "quote": "So, a sturdy leader would say in that position, I'm turning the TV off, that's my decision.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2443.02,
+            2452.297
+          ],
+          "quote": "And I think, in every situation, kids, workplace, in laws, whatever it is, that sturdy leadership always feels good.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2485.36,
+            2491.943
+          ],
+          "quote": "And so, I think related to being a sturdy leader, to make it more concrete, there's two jobs we have as a parent.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2492.063,
+            2495.604
+          ],
+          "quote": "I think they're the same two jobs we have as any sturdy leader in any environment.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "boundaries",
+      "type": "concept",
+      "role": "concept",
+      "name": "界限 (boundaries)",
+      "file": "界限",
+      "primary": true,
+      "how_described": "本集把它说成:你单方面告诉别人你将做什么，且不需要对方做任何事。这与需要对方配合的「请求」截然不同，把真正的界限设定好不需要交出主动权。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            49.081,
+            51
+          ],
+          "quote": "I definitely wanted to ask you about this idea of boundaries.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 13,
+          "t": [
+            51.301,
+            56.734
+          ],
+          "quote": "Boundaries are what you tell someone else you will do, and it requires the other person to do nothing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 407,
+          "t": [
+            1851.19,
+            1852.931
+          ],
+          "quote": "The answer is, we have to set boundaries.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 408,
+          "t": [
+            1853.211,
+            1856.333
+          ],
+          "quote": "We have to be the people setting boundaries around out of control behavior.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 549,
+          "t": [
+            2454,
+            2464.647
+          ],
+          "quote": "This is a really good segue to something I definitely wanted to ask you about, which is this idea of boundaries, of how to set boundaries well and how that relates to long-term resilience, versus just this idea of short-term happiness.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2464.727,
+            2471.392
+          ],
+          "quote": "I was just yesterday watching your advice on how to set boundaries with my kid, because I struggle with it sometimes and I'm just like, What am I doing wrong?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 554,
+          "t": [
+            2478.576,
+            2484
+          ],
+          "quote": "So, talk about just from your advice to parents around boundaries and this idea of long-term resilience and then how that might translate.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2495.764,
+            2501.226
+          ],
+          "quote": "And that's setting boundaries, which are limits we set, certain decisions we make.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2501.306,
+            2513.53
+          ],
+          "quote": "Boundaries often relate to your position of authority, where you have some long-term goal in mind that someone else in the system just isn't as aware of, or a two-year-old isn't as capable of holding onto, which is why you're in the position of making a decision.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 560,
+          "t": [
+            2513.73,
+            2514.551
+          ],
+          "quote": "So, that's the boundaries.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2531.597,
+            2540.98
+          ],
+          "quote": "That is half of our job, but it doesn't work if we're not doing the other half, which is setting boundaries, which is the skill I feel best about teaching people, because I think it's what we're often lacking.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2541.28,
+            2546.202
+          ],
+          "quote": "So, my definition of boundaries, I do like because it's immediately usable and testable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 565,
+          "t": [
+            2547.282,
+            2553.564
+          ],
+          "quote": "Boundaries are what you tell someone else you will do, and it requires the other person to do nothing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 566,
+          "t": [
+            2555.365,
+            2558.486
+          ],
+          "quote": "Too often I hear people say, My kid doesn't respect my boundaries.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 567,
+          "t": [
+            2558.726,
+            2561.227
+          ],
+          "quote": "My colleague doesn't respect my boundaries.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 568,
+          "t": [
+            2561.307,
+            2565.909
+          ],
+          "quote": "And with all due respect, I often think, I think you have an incorrect definition of boundaries.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 609,
+          "t": [
+            2795.28,
+            2799.725
+          ],
+          "quote": "Let me actually ask you a parenting question while we're on this topic as I'm trying to learn this boundaries thing better.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 614,
+          "t": [
+            2815.521,
+            2820.225
+          ],
+          "quote": "Well, boundaries are something I will do when they require my kid to do nothing, we want to try.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 632,
+          "t": [
+            2875.031,
+            2884.797
+          ],
+          "quote": "That might happen in some households, but it actually won't reliably happen until you've actually set boundaries over and over, where it's not about taking advantage of you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 992,
+          "t": [
+            4461.965,
+            4469.869
+          ],
+          "quote": "I really do believe, I know kind of, not formula that makes it too specific and perfect, but we need to learn how to set boundaries.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "separate-behavior-and-identity",
+      "type": "concept",
+      "role": "concept",
+      "name": "行为与身份分离 (separate behavior and identity)",
+      "file": "行为与身份分离",
+      "primary": true,
+      "how_described": "本集把它说成:「Good Inside」的核心概念。强调把一个人内在的价值（身份）和他的具体行为区分开来，这是避免陷入防备心、有效改善行为的前提。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            32.22,
+            38.167
+          ],
+          "quote": "The idea of being good inside inherently requires us to separate behavior and identity.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1107.853,
+            1117.54
+          ],
+          "quote": "And I think that's actually the other thing that's core to Good Inside is the idea of being good inside inherently requires us to separate behavior and identity.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "most-generous-interpretation",
+      "type": "concept",
+      "role": "concept",
+      "name": "最宽容的解读 (most generous interpretation)",
+      "file": "最宽容的解读",
+      "primary": true,
+      "how_described": "本集把它说成:把「人是内心向善的」理念付诸行动的工具。指导人们放弃对他人的悲观推断，转为寻找对方行为背后最合理的动机，从而保持好奇而非评判。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            123.952,
+            138.879
+          ],
+          "quote": "Why your goal as a leader is to become sturdy, the power of curiosity over judgment, the framework Dr. Becky calls the most generous interpretation, also a ton of really specific phrases that work really well with kids and adults who you're having a hard time with.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 100,
+          "t": [
+            495.36,
+            502.706
+          ],
+          "quote": "I guess my most generous interpretation of what you just said is slightly different but similar, which is that all humans need the same things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1329.261,
+            1334.915
+          ],
+          "quote": "This connects to something else that you teach, which is the MGI, the most generous interpretation.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1423.16,
+            1441.548
+          ],
+          "quote": "And I realized at night, the only way to shift this and get into a good inside mindset, was just to say to myself, what's the most generous interpretation of why I would say to my kids some version of, stop jumping on the couch, it's dangerous, you're near the glass table, and he'd look at me and jump doubly hard on the couch.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1445.61,
+            1448.932
+          ],
+          "quote": "My most generous interpretation, there's not one right answer.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1486.789,
+            1492.692
+          ],
+          "quote": "And then I came up with a whole different range of interventions because I used a most generous interpretation.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1510.12,
+            1513.782
+          ],
+          "quote": "My most generous interpretation, I don't know, could be a variety of things.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "resilience-over-happiness",
+      "type": "concept",
+      "role": "concept",
+      "name": "韧性优于快乐 (resilience over happiness)",
+      "file": "韧性优于快乐",
+      "primary": true,
+      "how_described": "本集把它说成:Dr. Becky 指导一切的育儿哲学。指出如果在早期一味优化舒适和快乐，会制造脆弱的建筑物；成年后的快乐其实来源于我们管理最广泛困难情况的能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            18,
+            21.828
+          ],
+          "quote": "Our whole parenting philosophy is resilience over happiness.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 763,
+          "t": [
+            3450.06,
+            3458.407
+          ],
+          "quote": "One of the chapters in my book and something that guides our whole parenting philosophy is just codified as resilience over happiness.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "factory-settings",
+      "type": "concept",
+      "role": "concept",
+      "name": "出厂设置 (factory settings)",
+      "file": "出厂设置",
+      "primary": false,
+      "how_described": "本集提到:Dr. Becky 的朋友 Maile 提出的概念，指童年时期大脑布线的默认方式，将决定我们余生面对困难时的反应模式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 808,
+          "t": [
+            3677.604,
+            3684.229
+          ],
+          "quote": "It's when we form the blueprint, or my friend Maile calls it the factory settings, for the rest of our kids' lives.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "merge",
+      "type": "company",
+      "role": "company",
+      "name": "Merge",
+      "file": "Merge",
+      "primary": false,
+      "how_described": "本集赞助商，被描述为一个提供单一 API 的平台，让 B2B SaaS 公司能在数周内快速安全地部署 220 多个客户数据集成。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            176.844,
+            178.885
+          ],
+          "quote": "This episode is brought to you by Merge.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 37,
+          "t": [
+            189.391,
+            192.333
+          ],
+          "quote": "Lucky for you, Merge is obsessed with integrations.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 38,
+          "t": [
+            192.753,
+            201.218
+          ],
+          "quote": "With a single API, B2B SaaS companies embed Merge into their product and ship 220 plus customer-facing integrations in weeks, not quarters.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 39,
+          "t": [
+            201.818,
+            204.82
+          ],
+          "quote": "Think of Merge like Plaid, but for everything B2B SaaS.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 40,
+          "t": [
+            205.42,
+            217.847
+          ],
+          "quote": "Companies like Mistral AI, Ramp, and Drata use Merge to connect their customers as accounting, HR, ticketing, CRM, and file storage systems to power everything from automatic onboarding to AI-ready data pipelines.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 41,
+          "t": [
+            218.467,
+            227.112
+          ],
+          "quote": "Even better, Merge now supports the secure deployment of connectors to AI agents with a new product so that you can safely power AI workflows with real customer data.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 42,
+          "t": [
+            227.592,
+            233.775
+          ],
+          "quote": "If your product needs customer data from dozens of systems, Merge is the fastest, safest way to get it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 43,
+          "t": [
+            234.295,
+            239.678
+          ],
+          "quote": "Book and attend a meeting at merge.dev/lenny, and they'll send you a $50 Amazon gift card.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 44,
+          "t": [
+            239.958,
+            241.759
+          ],
+          "quote": "That's merge.dev/lenny.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "metaview",
+      "type": "company",
+      "role": "company",
+      "name": "Metaview",
+      "file": "Metaview",
+      "primary": false,
+      "how_described": "本集赞助商，被描述为一家提供 AI 招聘智能体的公司，能自动记录面试笔记、收集洞见，帮助团队提升招聘效率。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            259.91,
+            271.978
+          ],
+          "quote": "That's why teams like ElevenLabs, Brex, Replit, deal, and 5,000 other organizations use Metaview, the AI company giving high performance teams a real, unfair advantage in hiring.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 56,
+          "t": [
+            301.432,
+            304.414
+          ],
+          "quote": "Metaview customers close roles 30% faster.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 57,
+          "t": [
+            304.794,
+            310.997
+          ],
+          "quote": "Try Metaview today for free and get an extra month of sourcing at metaview.ai/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 58,
+          "t": [
+            311.277,
+            313.378
+          ],
+          "quote": "That's Metaview.ai/lenny.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": false,
+      "how_described": "本集赞助商。嘉宾提到使用了其产品 Figma Make，称赞它能帮自己极快地把脑海中的想法变成可视化的 UX 设计和产品流程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1041,
+          "t": [
+            4640.177,
+            4647.9
+          ],
+          "quote": "I currently was playing around with Figma Make and I was like, oh my goodness, I can vomit my ideas.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1054,
+          "t": [
+            4690,
+            4691
+          ],
+          "quote": "That is super cool. It feels like this is what these apps are so useful for. People that are not designers, product managers, engineers, trying stuff out, prototyping, thinking through and real designs, not just sketches. Well, Figma Make, that's cool. Proud podcast sponsor. Is that the one-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1058,
+          "t": [
+            4709.58,
+            4715.142
+          ],
+          "quote": "I'm just laughing because Andrew Hogan who does insights at Figma, he's been a big Good Inside member.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1060,
+          "t": [
+            4716.283,
+            4724.526
+          ],
+          "quote": "And I said to him, \"If it would help at all, I want to make a video for just your team to tell them how obsessed I am with Figma Make in case that...\" And he's like, \"Go ahead.\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

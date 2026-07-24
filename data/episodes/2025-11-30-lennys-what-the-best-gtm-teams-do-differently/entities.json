@@ -1,0 +1,2289 @@
+{
+  "episode_id": "2025-11-30-lennys-what-the-best-gtm-teams-do-differently",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-11-30",
+  "tags": [
+    "推向市场 (GTM)",
+    "AI 智能体",
+    "销售流程",
+    "自建 AI 与采购",
+    "企业市场"
+  ],
+  "entities": [
+    {
+      "id": "jeanne-dewitt-grosser",
+      "type": "person",
+      "role": "host",
+      "name": "Jeanne DeWitt Grosser",
+      "file": "Jeanne DeWitt Grosser",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            185.927,
+            188.528
+          ],
+          "quote": "Head on over to Lenny's Newsletter.com and click Product Pass.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 109,
+          "t": [
+            268.501,
+            272.082
+          ],
+          "quote": "Request a demo at datadoghq.com slash Lenny.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 110,
+          "t": [
+            272.262,
+            274.603
+          ],
+          "quote": "That's datadoghq.com slash Lenny.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 128,
+          "t": [
+            332.906,
+            333.767
+          ],
+          "quote": "Thanks for having me, Lenny.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1383,
+          "t": [
+            3824.844,
+            3826.866
+          ],
+          "quote": "And so they know that Lenny's site gets,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1841,
+          "t": [
+            5133.32,
+            5134.32
+          ],
+          "quote": "Thanks so much for having me, Lenny.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "type": "company",
+      "role": "company",
+      "name": "Vercel",
+      "file": "Vercel",
+      "primary": true,
+      "how_described": "本集嘉宾 Jeanne DeWitt Grosser 现任首席运营官 (COO) 的公司，她在此统管所有接触客户的职能，并用自家的 AI 云成功跑通了由 GTM 工程师编写、成本极低的线索处理智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 32,
+          "t": [
+            105.962,
+            108.144
+          ],
+          "quote": "She's currently COO at Vercel,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 145,
+          "t": [
+            373.95,
+            376.131
+          ],
+          "quote": " And actually my remit at Vercel is that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 149,
+          "t": [
+            386.035,
+            387.816
+          ],
+          "quote": "architects is what we call them at Vercel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 295,
+          "t": [
+            811.9,
+            817.283
+          ],
+          "quote": "And now that we're literally redoing here at Vercel as we speak, and it actually works.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 307,
+          "t": [
+            844.527,
+            848.752
+          ],
+          "quote": "And then how do you encode that using Vercel workflows as an example?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 684,
+          "t": [
+            1864.677,
+            1871.122
+          ],
+          "quote": "So at Vercel, our first three go-to-market engineers were actually sales engineers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 685,
+          "t": [
+            1871.142,
+            1874.504
+          ],
+          "quote": "So Vercel hires very technical sales engineers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 720,
+          "t": [
+            1959.127,
+            1962.49
+          ],
+          "quote": "I mean, we're having a lot of fun with it at Vercel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 722,
+          "t": [
+            1965.492,
+            1970.475
+          ],
+          "quote": "So everything that we're building with agents, we're building on Vercel's AI cloud.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 724,
+          "t": [
+            1974.878,
+            1981.042
+          ],
+          "quote": "So we're using Vercel's workflow SDK and workflow offering.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 787,
+          "t": [
+            2176.703,
+            2180.105
+          ],
+          "quote": "I've got work to do to build out how we quantify the value of Vercel,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 805,
+          "t": [
+            2225.214,
+            2227.955
+          ],
+          "quote": "Vercel is incredibly heavy users of Slack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 973,
+          "t": [
+            2679.316,
+            2681.597
+          ],
+          "quote": "I know they sit on Vercel, so shout out Vercel.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 983,
+          "t": [
+            2701.307,
+            2704.389
+          ],
+          "quote": "And actually, these agents, they're building directly on Vercel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1001,
+          "t": [
+            2757.327,
+            2762.909
+          ],
+          "quote": "Vercel can build these agents so easily is because the Vercel platform is making it",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1012,
+          "t": [
+            2780.256,
+            2785.639
+          ],
+          "quote": "And just everyone is constantly, we say Vercel builds Vercel with Vercel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1105,
+          "t": [
+            3047.692,
+            3049.652
+          ],
+          "quote": "and I brought it to Vercel,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1119,
+          "t": [
+            3080.679,
+            3087.862
+          ],
+          "quote": "examples of this that we're doing at Vercel is we you can there's great data on the",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1248,
+          "t": [
+            3427.645,
+            3429.346
+          ],
+          "quote": "somewhat tangential to Vercel,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1262,
+          "t": [
+            3454.841,
+            3458.824
+          ],
+          "quote": "you taught me a lot and therefore I want Vercel to help me with performance.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1272,
+          "t": [
+            3473.412,
+            3474.933
+          ],
+          "quote": "investigate that aspect of Vercel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1375,
+          "t": [
+            3794.495,
+            3795.916
+          ],
+          "quote": "Vercel, sort of similar deal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1462,
+          "t": [
+            4041.244,
+            4045.746
+          ],
+          "quote": "But in enterprise, most of those companies built that SaaS offering before Vercel existed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1463,
+          "t": [
+            4046.246,
+            4052.768
+          ],
+          "quote": "And so migrating two million lines of code to Vercel, that's a big lift, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1490,
+          "t": [
+            4122.347,
+            4124.088
+          ],
+          "quote": "So when you join Vercel,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1684,
+          "t": [
+            4683.961,
+            4687.162
+          ],
+          "quote": "So, you know, that's that's another one at Vercel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1732,
+          "t": [
+            4810.792,
+            4815.736
+          ],
+          "quote": "when we wrote the sales plans for this year at Vercel,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": true,
+      "how_described": "本集提到嘉宾曾从零搭建其早期销售团队的公司，在此实践了将销售流程产品化（如白板会议），并曾尝试用数据科学硬算（Project Rosalind）来跑通自动拓客但受限于当时技术。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            100.418,
+            102.48
+          ],
+          "quote": "Jean was chief business officer at Stripe,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 77,
+          "t": [
+            184.707,
+            185.647
+          ],
+          "quote": "and Stripe Atlas.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 205,
+          "t": [
+            529.727,
+            530.067
+          ],
+          "quote": "at Stripe,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            693.232,
+            700.756
+          ],
+          "quote": "So I think maybe like an interesting story to tell when I when I was at Stripe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            708.239,
+            710.22
+          ],
+          "quote": "And Stripe always ran lean.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 272,
+          "t": [
+            759.387,
+            760.428
+          ],
+          "quote": "So at Stripe,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 274,
+          "t": [
+            765.032,
+            768.574
+          ],
+          "quote": "super helpful because that would mean you wanted to sell Stripe Connect versus",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 319,
+          "t": [
+            882.154,
+            887.018
+          ],
+          "quote": "So I was working on that with a bunch of folks at Stripe on my team,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 733,
+          "t": [
+            2009.483,
+            2013.648
+          ],
+          "quote": "Stripe handles the massive scale and complexity of many of the world's fastest",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 738,
+          "t": [
+            2022.519,
+            2026.404
+          ],
+          "quote": "and Urban Outfitters use Stripe to create fully branded and customized checkout",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 740,
+          "t": [
+            2031.05,
+            2035.215
+          ],
+          "quote": "There's a reason I've had more leaders from Stripe on this podcast than any other company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 742,
+          "t": [
+            2039.6,
+            2041.462
+          ],
+          "quote": " And Stripe is a lot more than payments.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 747,
+          "t": [
+            2054.555,
+            2058.859
+          ],
+          "quote": "and Pepsi that are using Stripe to grow faster and to grow the world's GDP.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 748,
+          "t": [
+            2059.299,
+            2062.743
+          ],
+          "quote": "Learn how Stripe can help your business grow at Stripe.com.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1052,
+          "t": [
+            2917.669,
+            2921.51
+          ],
+          "quote": "And so we did a lot of this at Stripe, and now we're looking to replicate this here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1053,
+          "t": [
+            2921.99,
+            2925.792
+          ],
+          "quote": "But an example of one of the things I think we did really nicely at Stripe was,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1067,
+          "t": [
+            2950.445,
+            2956.109
+          ],
+          "quote": "And so what we started to do at Stripe was that first session was a whiteboarding session.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1104,
+          "t": [
+            3045.331,
+            3047.692
+          ],
+          "quote": "we really developed this at Stripe 2,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1113,
+          "t": [
+            3069.136,
+            3070.476
+          ],
+          "quote": " You know, I was at Stripe for nine years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1173,
+          "t": [
+            3238.846,
+            3240.287
+          ],
+          "quote": "this is from Stripe,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1176,
+          "t": [
+            3241.387,
+            3243.649
+          ],
+          "quote": "Stripe was excellent at marketplaces.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1177,
+          "t": [
+            3243.889,
+            3246.551
+          ],
+          "quote": "Most, you know, Lyft, Instacart, DoorDash, they were all on Stripe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1178,
+          "t": [
+            3247.632,
+            3251.635
+          ],
+          "quote": "And so Stripe definitely knew the best way to set up payments for a marketplace",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1186,
+          "t": [
+            3260.622,
+            3262.904
+          ],
+          "quote": "Because they're like, hey, every marketplace runs on Stripe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1223,
+          "t": [
+            3357.14,
+            3360.862
+          ],
+          "quote": "Maybe a story of just how you convinced someone you're selling Stripe over sale of",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1319,
+          "t": [
+            3617.492,
+            3621.393
+          ],
+          "quote": "career bet we are going to bring in product x and it's going to become like stripe",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1320,
+          "t": [
+            3621.413,
+            3624.955
+          ],
+          "quote": "let's say let's not talk about our sell but let's say stripe we're going to adopt",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1321,
+          "t": [
+            3624.995,
+            3629.656
+          ],
+          "quote": "stripe that's like a huge decision if it doesn't go well your career is hurt your",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1335,
+          "t": [
+            3671.283,
+            3675.966
+          ],
+          "quote": " So I'll give examples from Stripe and Bercel to bring this home.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1344,
+          "t": [
+            3709.702,
+            3715.564
+          ],
+          "quote": "So at Stripe, there were two ways we further cut the business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1349,
+          "t": [
+            3727.286,
+            3730.448
+          ],
+          "quote": "And that was important for Stripe because it was a consumption-based business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1351,
+          "t": [
+            3733.55,
+            3736.873
+          ],
+          "quote": "you were more valuable to Stripe than if you were going to grow at 8% year-on-year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1354,
+          "t": [
+            3747.781,
+            3751.304
+          ],
+          "quote": "And then for Stripe, the other thing that we cut it was business model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1412,
+          "t": [
+            3909.151,
+            3914.214
+          ],
+          "quote": "original story at Stripe into to help you sort essentially which companies are most",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1570,
+          "t": [
+            4357.483,
+            4358.404
+          ],
+          "quote": "worked with you at Stripe.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1630,
+          "t": [
+            4507.212,
+            4509.513
+          ],
+          "quote": "It was a big driver of Stripe's growth.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1678,
+          "t": [
+            4661.769,
+            4664.911
+          ],
+          "quote": "Like a good example at Stripe, we launched Stripe Billings years ago.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "go-to-market",
+      "type": "concept",
+      "role": "concept",
+      "name": "推向市场 (go-to-market)",
+      "file": "推向市场",
+      "primary": true,
+      "how_described": "本集将其重新定义为任何接触客户或赚取收入的职能总和（不仅是市场与销售），并指出当产品只在边际上有差异时，GTM 本身就成了核心竞争力，需像产品体验一样编排客户全生命周期。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.069,
+            3.01
+          ],
+          "quote": " I've been getting so many asks for go-to-market help.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 17,
+          "t": [
+            52.918,
+            55.46
+          ],
+          "quote": "I've heard a lot about how you think about go to market as a product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 38,
+          "t": [
+            113.547,
+            116.89
+          ],
+          "quote": "Jean has built world-class go-to-market teams at multiple unicorns.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 41,
+          "t": [
+            120.871,
+            124.092
+          ],
+          "quote": "we go deep on what a world-class go-to-market team looks like,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 42,
+          "t": [
+            124.592,
+            126.533
+          ],
+          "quote": "including what the heck is go-to-market,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 43,
+          "t": [
+            126.913,
+            128.614
+          ],
+          "quote": "the rise of the go-to-market engineer,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 45,
+          "t": [
+            133.035,
+            136.296
+          ],
+          "quote": "a bunch of very specific tactics to level up your go-to-market skills,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 47,
+          "t": [
+            138.657,
+            141.217
+          ],
+          "quote": "how to think about your go-to-market process like a product,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 48,
+          "t": [
+            141.357,
+            142.558
+          ],
+          "quote": "her favorite go-to-market tools,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 50,
+          "t": [
+            148.902,
+            152.525
+          ],
+          "quote": "If you're looking to get smart on the latest and greatest in go-to-market thinking,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 132,
+          "t": [
+            341.183,
+            341.644
+          ],
+          "quote": "go to market.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 138,
+          "t": [
+            353.027,
+            354.528
+          ],
+          "quote": "When people hear the term go to market.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 164,
+          "t": [
+            426.985,
+            430.667
+          ],
+          "quote": "because I think we're going to see a lot of the functions of go to market get",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            432.027,
+            436.329
+          ],
+          "quote": "So we've gone through a period of like hyper specialization and go to market,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            440.43,
+            444.992
+          ],
+          "quote": "I think somebody quoted like 17 different roles within go to market these days.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 173,
+          "t": [
+            449.033,
+            452.354
+          ],
+          "quote": "And so if you think of go to market more holistically,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 181,
+          "t": [
+            474.595,
+            476.957
+          ],
+          "quote": "We're going to go through that whole cycle of go to market.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 183,
+          "t": [
+            481.762,
+            482.742
+          ],
+          "quote": "when they say go to market,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 200,
+          "t": [
+            513.705,
+            517.146
+          ],
+          "quote": "So essentially it's like the term go to market tells you what we're talking about.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 203,
+          "t": [
+            524.241,
+            528.025
+          ],
+          "quote": "What has most changed in the world of go-to-market over the last few years?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 208,
+          "t": [
+            532.27,
+            535.153
+          ],
+          "quote": "What's changed most in the skill and art of go-to-market?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 211,
+          "t": [
+            540.101,
+            545.565
+          ],
+          "quote": "I think you saw go-to-market shift into being meaningfully more consultative",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 222,
+          "t": [
+            581.829,
+            587.012
+          ],
+          "quote": "And so I think you're seeing a lot more of go-to-market orgs leaning into the art",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 242,
+          "t": [
+            653.359,
+            654.279
+          ],
+          "quote": "go-to-market engineer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 244,
+          "t": [
+            659.866,
+            665.671
+          ],
+          "quote": "but it's kind of bringing one technical prowess to bear on go-to-market in general.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 251,
+          "t": [
+            684.448,
+            687.49
+          ],
+          "quote": "OK, let's follow the thread on this go to market engineer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 299,
+          "t": [
+            828.53,
+            829.892
+          ],
+          "quote": "But I have a go-to-market engineer,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            836.439,
+            841.264
+          ],
+          "quote": "And my go-to-market engineer is helping me build an agent where we're coming up",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 322,
+          "t": [
+            890,
+            894.784
+          ],
+          "quote": "who went on to go to ZoomInfo and actually recently just founded a go-to-market",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1136.449,
+            1143.472
+          ],
+          "quote": "And so basically where we'll start is we take a go-to-market engineer and we have",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 572,
+          "t": [
+            1583.798,
+            1585.121
+          ],
+          "quote": "automate the go to market process?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 600,
+          "t": [
+            1655.033,
+            1658.736
+          ],
+          "quote": "And you can't really apply go-to-market engineering unless you actually have a",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 680,
+          "t": [
+            1851.288,
+            1852.829
+          ],
+          "quote": "To close the loop on the go-to-market engineer,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 681,
+          "t": [
+            1852.869,
+            1856.07
+          ],
+          "quote": "what's the profile of the ideal go-to-market engineer,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 683,
+          "t": [
+            1857.932,
+            1864.297
+          ],
+          "quote": " What we have found works really well is somebody who does have go-to-market experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 684,
+          "t": [
+            1864.677,
+            1871.122
+          ],
+          "quote": "So at Vercel, our first three go-to-market engineers were actually sales engineers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 753,
+          "t": [
+            2070.602,
+            2073.284
+          ],
+          "quote": "go-to-market stack that you love that you'd recommend?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 790,
+          "t": [
+            2185.388,
+            2187.489
+          ],
+          "quote": "but we got to codify that for the go-to-market team.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 825,
+          "t": [
+            2273.296,
+            2275.458
+          ],
+          "quote": " And so for go-to-market teams, that's really hard.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 838,
+          "t": [
+            2319.336,
+            2320.917
+          ],
+          "quote": "They're bugs in your go-to-market process.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 845,
+          "t": [
+            2335.847,
+            2339.83
+          ],
+          "quote": "But that's where we're talking about taking things right now within our go-to-market org.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1021,
+          "t": [
+            2801.36,
+            2804.682
+          ],
+          "quote": "is I've heard a lot about how you think about go to market as a product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1023,
+          "t": [
+            2807.784,
+            2810.906
+          ],
+          "quote": "So I think this is a really nice way of thinking about go to market.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1025,
+          "t": [
+            2813.448,
+            2816.35
+          ],
+          "quote": "but just what's a way to think about go to market as a product?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1083,
+          "t": [
+            3000.263,
+            3005.705
+          ],
+          "quote": "So that's sort of how I think about building go-to-market like a product is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1150,
+          "t": [
+            3164.731,
+            3169.955
+          ],
+          "quote": "So what are just some go-to-market tactics that you find really effective these",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1488,
+          "t": [
+            4117.305,
+            4119.686
+          ],
+          "quote": "times folks think segmentation is a go to market thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1506,
+          "t": [
+            4162.494,
+            4166.418
+          ],
+          "quote": "then it's much easier to then go speak the same language with the go to market org",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1513,
+          "t": [
+            4179.171,
+            4183.472
+          ],
+          "quote": "amazing at building a go-to-market org that works really well with product and",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1528,
+          "t": [
+            4229.421,
+            4234.447
+          ],
+          "quote": "I also believe that the best go-to-market orgs on the planet are equal parts",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1572,
+          "t": [
+            4360.266,
+            4363.109
+          ],
+          "quote": "but a little different that Jean is probably the best go to market person at",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1583,
+          "t": [
+            4384.062,
+            4389.785
+          ],
+          "quote": " Company strategy is basically product strategy meets go-to-market strategy, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1585,
+          "t": [
+            4393.486,
+            4394.767
+          ],
+          "quote": "I guess as a go-to-market leader,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集将其说成可以替代团队中机械劳动的自动化工具：GTM 工程师将相对确定、可复制的销售流程写成 AI 代码，既可用来做入站线索甄别，也能用于拉取数据复盘丢单原因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 302,
+          "t": [
+            836.439,
+            841.264
+          ],
+          "quote": "And my go-to-market engineer is helping me build an agent where we're coming up",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1001.924,
+            1004.645
+          ],
+          "quote": "And we actually built the agent and then we keep a human in the loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1021.335,
+            1026.219
+          ],
+          "quote": " There we might use an agent for research, but maybe not all the way to actually send a message.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1089.408,
+            1094.511
+          ],
+          "quote": "rote and don't use the entirety of your human capacity done by an agent and then",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 419,
+          "t": [
+            1167.825,
+            1170.467
+          ],
+          "quote": " And then what we do is we let the agent make a call.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 423,
+          "t": [
+            1181.236,
+            1183.879
+          ],
+          "quote": "And so we'll let the agent make those two calls.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 431,
+          "t": [
+            1199.851,
+            1203.553
+          ],
+          "quote": "and now we just have one that is effectively QAing the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 441,
+          "t": [
+            1221.904,
+            1227.25
+          ],
+          "quote": " But right now, we're still trying to train the agent in it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 450,
+          "t": [
+            1244.755,
+            1247.416
+          ],
+          "quote": "agent was a single GTM engineer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 456,
+          "t": [
+            1265.422,
+            1269.664
+          ],
+          "quote": "now we just sort of keep that agent manager sort of working with the agent to get",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 466,
+          "t": [
+            1293.114,
+            1295.655
+          ],
+          "quote": "So the agent is as good as our humans were,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 614,
+          "t": [
+            1679.95,
+            1684.013
+          ],
+          "quote": "Ostensibly, you know, a GTM engineer can come in and turn that into an agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 618,
+          "t": [
+            1699.789,
+            1704.634
+          ],
+          "quote": "practice is and then tries to turn that into an agent that's riding alongside them",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 695,
+          "t": [
+            1902.959,
+            1905.462
+          ],
+          "quote": "this lead agent and QAing it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 699,
+          "t": [
+            1912.769,
+            1915.292
+          ],
+          "quote": "lead agent send and realized,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 703,
+          "t": [
+            1922.421,
+            1923.222
+          ],
+          "quote": "agent off,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 714,
+          "t": [
+            1944.48,
+            1948.301
+          ],
+          "quote": "and try to incorporate some of those into into your agent development.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 766,
+          "t": [
+            2109.307,
+            2117.792
+          ],
+          "quote": "So we take all of our Gong transcripts and we dump them into an agent called the deal bot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 774,
+          "t": [
+            2145.638,
+            2149.862
+          ],
+          "quote": "And when you ran the agent over every Slack interaction,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 828,
+          "t": [
+            2282.904,
+            2290.611
+          ],
+          "quote": "And so this bot agent is now also letting us where we're starting to go with it is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 831,
+          "t": [
+            2294.454,
+            2298.617
+          ],
+          "quote": "Then we'll go run the agent across calls, interactions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 834,
+          "t": [
+            2310.29,
+            2313.912
+          ],
+          "quote": " What are all the places that our agent would suggest we aren't selling effectively?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 851,
+          "t": [
+            2353.234,
+            2354.134
+          ],
+          "quote": "this agent you built,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 899,
+          "t": [
+            2472.643,
+            2477.806
+          ],
+          "quote": "I mentioned the lead agent that was a six week process with one human,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 910,
+          "t": [
+            2498.103,
+            2500.566
+          ],
+          "quote": "but that that lead agent,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 916,
+          "t": [
+            2519.709,
+            2522.772
+          ],
+          "quote": "And then behind that, I have a lead agent that costs a thousand bucks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 923,
+          "t": [
+            2547.259,
+            2551.622
+          ],
+          "quote": "your workflow is really key to unlocking the power of the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 924,
+          "t": [
+            2552.302,
+            2557.466
+          ],
+          "quote": "And so I think there's real value in experimenting with your own internal agent development.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 927,
+          "t": [
+            2560.969,
+            2563.892
+          ],
+          "quote": "better integrated agent platforms in the fullness of time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 968,
+          "t": [
+            2666.712,
+            2669.913
+          ],
+          "quote": "For that, it might be worth building your own agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1004,
+          "t": [
+            2765.209,
+            2769.89
+          ],
+          "quote": "framework to find infrastructure and get that agent onto into production really",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "go-to-market-engineer",
+      "type": "concept",
+      "role": "concept",
+      "name": "GTM 工程师 (go-to-market engineer)",
+      "file": "GTM 工程师",
+      "primary": true,
+      "how_described": "本集将其描述为一个正在崛起的新角色：任务是把销售团队里可复制的流程拆解成代码写成智能体，通常由懂销售最佳实践的技术型销售（如前端工程师）转型而来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            126.913,
+            128.614
+          ],
+          "quote": "the rise of the go-to-market engineer,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 242,
+          "t": [
+            653.359,
+            654.279
+          ],
+          "quote": "go-to-market engineer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 251,
+          "t": [
+            684.448,
+            687.49
+          ],
+          "quote": "OK, let's follow the thread on this go to market engineer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 299,
+          "t": [
+            828.53,
+            829.892
+          ],
+          "quote": "But I have a go-to-market engineer,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 302,
+          "t": [
+            836.439,
+            841.264
+          ],
+          "quote": "And my go-to-market engineer is helping me build an agent where we're coming up",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1136.449,
+            1143.472
+          ],
+          "quote": "And so basically where we'll start is we take a go-to-market engineer and we have",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 680,
+          "t": [
+            1851.288,
+            1852.829
+          ],
+          "quote": "To close the loop on the go-to-market engineer,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 681,
+          "t": [
+            1852.869,
+            1856.07
+          ],
+          "quote": "what's the profile of the ideal go-to-market engineer,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sdr",
+      "type": "concept",
+      "role": "concept",
+      "name": "SDR",
+      "file": "SDR",
+      "primary": true,
+      "how_described": "本集将其说成专门负责寻找潜在线索并做初步筛选以生成管道的销售角色；过去 10 名 SDR 做的入站甄别工作，现在 1 个人负责质量把关即可。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 255,
+          "t": [
+            702.236,
+            707.419
+          ],
+          "quote": " We went to launch an outbound SDR function, so outbound prospecting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1148.655,
+            1153.898
+          ],
+          "quote": " And so you can go and you shadow an SDR and you can see, oh, wow, they've got seven tabs open.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 461,
+          "t": [
+            1274.026,
+            1279.248
+          ],
+          "quote": "we also tracked all of the KPIs that you typically would hold an SDR accountable",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 477,
+          "t": [
+            1319.828,
+            1322.593
+          ],
+          "quote": "What I love about this is this SDR that is now doing this is,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 488,
+          "t": [
+            1341.668,
+            1345.271
+          ],
+          "quote": "What I'm hearing here is it gives one SDR a lot more leverage and obviously still",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 494,
+          "t": [
+            1355.08,
+            1363.106
+          ],
+          "quote": "it can replace a fair amount because the average SDR wasn't doing overly",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 508,
+          "t": [
+            1398.272,
+            1401.033
+          ],
+          "quote": "I just went to college for four years to become an SDR.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 510,
+          "t": [
+            1406.277,
+            1411.701
+          ],
+          "quote": "But I think the average SDR could have gone straight into outbound or straight into",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 519,
+          "t": [
+            1433.098,
+            1434.599
+          ],
+          "quote": "we've used this term SDR.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 521,
+          "t": [
+            1436.42,
+            1438.622
+          ],
+          "quote": "Can you just help people understand what is an SDR?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 525,
+          "t": [
+            1441.863,
+            1447.029
+          ],
+          "quote": " Sure, so SDR is typically in charge of generating pipeline.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 528,
+          "t": [
+            1459.665,
+            1462.409
+          ],
+          "quote": " So you typically have two types of an SDR.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 566,
+          "t": [
+            1566.565,
+            1569.628
+          ],
+          "quote": "So SDR pipeline generation AEE closer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 913,
+          "t": [
+            2508.596,
+            2512.921
+          ],
+          "quote": " So if you remember, I told you we had 10 people in the SDR function.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 975,
+          "t": [
+            2684.778,
+            2685.878
+          ],
+          "quote": "like are these SDR,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "segmentation",
+      "type": "concept",
+      "role": "concept",
+      "name": "细分 (segmentation)",
+      "file": "细分",
+      "primary": true,
+      "how_described": "本集将其说成如何划分潜在客户群体（如 XY 轴：规模大小 × 增长潜力）以便采取不同的销售策略；这是整个公司的事，产品经理在写第一行代码前就要想清楚目标。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            136.696,
+            138.317
+          ],
+          "quote": "a primer on segmentation,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 159,
+          "t": [
+            414.454,
+            416.636
+          ],
+          "quote": "slightly differing segmentation frameworks,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1325,
+          "t": [
+            3642.001,
+            3645.302
+          ],
+          "quote": "and uh help people think about is segmentation yes",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1327,
+          "t": [
+            3647.588,
+            3651.331
+          ],
+          "quote": "They know, OK, I need to figure out my segmentation strategy and hear what we're going after.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1328,
+          "t": [
+            3651.351,
+            3653.913
+          ],
+          "quote": "Can you just kind of give us a primer on segmentation,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1332,
+          "t": [
+            3659.277,
+            3664.421
+          ],
+          "quote": "So segmentation is basically how do you carve up the world of companies that exist",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1336,
+          "t": [
+            3676.727,
+            3682.03
+          ],
+          "quote": "So a very typical company segmentation is small, medium, large.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1345,
+          "t": [
+            3716.598,
+            3720.201
+          ],
+          "quote": " Way one was, so think of segmentation as a graph.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1438,
+          "t": [
+            3977.843,
+            3980.725
+          ],
+          "quote": "That's probably going to be part of a segmentation framework.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1488,
+          "t": [
+            4117.305,
+            4119.686
+          ],
+          "quote": "times folks think segmentation is a go to market thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1495,
+          "t": [
+            4131.893,
+            4139.137
+          ],
+          "quote": "and I deliver the KYC section and talk through our segmentation framework,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "plg",
+      "type": "concept",
+      "role": "concept",
+      "name": "PLG",
+      "file": "PLG",
+      "primary": true,
+      "how_described": "本集将其说成很多公司起步的有效方式，但指出纯靠它通常有天花板，想维持增长率必须不断加大交易规模，若没有及时引入销售组织就会碰壁。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            143.098,
+            148.422
+          ],
+          "quote": " her hot takes on PLG and sales comp and sales hiring, and so much more.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 193,
+          "t": [
+            496.817,
+            498.738
+          ],
+          "quote": "just because a lot of companies also start PLG,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1362,
+          "t": [
+            3766.495,
+            3768.737
+          ],
+          "quote": "Credit card was useful for a PLG function,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1363,
+          "t": [
+            3769.597,
+            3770.338
+          ],
+          "quote": "PLG sale,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1605,
+          "t": [
+            4443.977,
+            4444.478
+          ],
+          "quote": "PLG,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1608,
+          "t": [
+            4449.261,
+            4450.162
+          ],
+          "quote": "you got to go PLG.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1611,
+          "t": [
+            4452.524,
+            4454.625
+          ],
+          "quote": "There's no, the future is PLG.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1613,
+          "t": [
+            4457.227,
+            4460.29
+          ],
+          "quote": "Obviously, still companies grow through PLG and work through PLG.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1614,
+          "t": [
+            4460.69,
+            4464.293
+          ],
+          "quote": "What's just kind of your thoughts on PLG and when does it make sense for a company",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1616,
+          "t": [
+            4467.853,
+            4472.695
+          ],
+          "quote": "I think a lot PLG is makes sense for a lot of companies at the outset,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1622,
+          "t": [
+            4486.441,
+            4490.482
+          ],
+          "quote": "So PLG is not going to be overly useful to them because they are trying to win",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1628,
+          "t": [
+            4502.769,
+            4505.111
+          ],
+          "quote": "So I think PLG is still super relevant.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1638,
+          "t": [
+            4533.83,
+            4540.472
+          ],
+          "quote": "And where I think folks get stuck is waiting too long on PLG because it does take a",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1655,
+          "t": [
+            4581.792,
+            4589.634
+          ],
+          "quote": "So yeah, I don't know that I can think of like a hundred billion dollar company that's PLG only.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1660,
+          "t": [
+            4595.117,
+            4600.739
+          ],
+          "quote": "I know Atlassian was a longtime PLG company, but eventually succumbed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1707,
+          "t": [
+            4743.059,
+            4746.98
+          ],
+          "quote": "so now that's like really driven a lot of growth in our PLG funnel,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "forward-deployed-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "前置部署工程 (forward deployed engineering)",
+      "file": "前置部署工程",
+      "primary": true,
+      "how_described": "本集说它是专业服务的改头换面：工程师深入客户环境，不仅帮客户把技术落地，还顺带把可复用的经验抽离出来带回给产品团队。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 226,
+          "t": [
+            592.916,
+            597.879
+          ],
+          "quote": "And so one of the things you see more of right now is forward deployed engineering,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gong",
+      "type": "company",
+      "role": "company",
+      "name": "Gong",
+      "file": "Gong",
+      "primary": false,
+      "how_described": "本集顺带提到的一款销售工具：因其转写稿可被用来跑交易复盘智能体而变得更有意思。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 759,
+          "t": [
+            2087.613,
+            2093.577
+          ],
+          "quote": "But I think Gong has gotten just meaningfully more interesting in the last year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 764,
+          "t": [
+            2101.463,
+            2102.744
+          ],
+          "quote": " So, all right, Gong.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 765,
+          "t": [
+            2103.944,
+            2107.827
+          ],
+          "quote": "Gong is incredible because you can run agents against it now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 766,
+          "t": [
+            2109.307,
+            2117.792
+          ],
+          "quote": "So we take all of our Gong transcripts and we dump them into an agent called the deal bot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 776,
+          "t": [
+            2150.843,
+            2151.824
+          ],
+          "quote": "every gong call,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "consumption-based",
+      "type": "concept",
+      "role": "concept",
+      "name": "基于消费量计费 (consumption-based)",
+      "file": "基于消费量计费",
+      "primary": false,
+      "how_described": "本集提到当这种计费模式兴起时，初次签约只是旅程的开始，促使销售必须从一锤子买卖转向深度顾问型去理解客户要达成什么。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 210,
+          "t": [
+            536.479,
+            540.081
+          ],
+          "quote": "So when consumption-based business models started,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1349,
+          "t": [
+            3727.286,
+            3730.448
+          ],
+          "quote": "And that was important for Stripe because it was a consumption-based business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1378,
+          "t": [
+            3803.083,
+            3804.084
+          ],
+          "quote": "consumption-based business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1686,
+          "t": [
+            4690.023,
+            4693.146
+          ],
+          "quote": " You know, we're a consumption based business model ultimately.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mcp-servers",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP 服务器 (MCP servers)",
+      "file": "MCP 服务器",
+      "primary": false,
+      "how_described": "本集提到 Vercel 会帮客户理解 MCP 服务器以及什么时候在产品中使用一个是有意义的，因为大家虽然觉得很流行但往往不知道如何上手。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1238,
+          "t": [
+            3404.671,
+            3409.934
+          ],
+          "quote": " Customers understand MCP servers and when it would make sense to use one.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "aeo",
+      "type": "concept",
+      "role": "concept",
+      "name": "AEO",
+      "file": "AEO",
+      "primary": false,
+      "how_described": "本集将其说成让你的内容更容易被 AI 搜索引擎抓取和总结；受 SEO 影响，而 SEO 又受网站速度影响，所以现在所有人都在思考 AEO。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1121,
+          "t": [
+            3092.643,
+            3100.593
+          ],
+          "quote": " And how fast your website is actually impacts SEO and SEO impacts AEO.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1122,
+          "t": [
+            3101.053,
+            3102.935
+          ],
+          "quote": "And everybody's thinking about AEO right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1244,
+          "t": [
+            3421.301,
+            3424.283
+          ],
+          "quote": "And then related to the first one is AEO,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1252,
+          "t": [
+            3432.548,
+            3434.089
+          ],
+          "quote": "SEO is an input into AEO.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1253,
+          "t": [
+            3435.049,
+            3441.393
+          ],
+          "quote": "But we have spent a ton of time sharing insights on AEO because we ourselves focus",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1282,
+          "t": [
+            3496.788,
+            3500.691
+          ],
+          "quote": "So here's like you're missing out on speed and you're going to get screwed in AEO",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "company",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": false,
+      "how_described": "本集打比方时提到 AWS 称之为 well-architected guides 或 blueprints，指出大客户真的很想知道结合自身环境实施产品的最佳实践。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1167,
+          "t": [
+            3218.172,
+            3224.957
+          ],
+          "quote": " doing things like, you know, AWS calls it well-architected guides or blueprints.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1408,
+          "t": [
+            3893.091,
+            3896.115
+          ],
+          "quote": "you might be running soup to nuts on AWS.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集举例时提到，OpenAI 虽然员工数顶多是中端市场，但由于它是互联网上前 25 的流量网站，因此在 Vercel 的细分里被推向了企业级销售。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 329,
+          "t": [
+            916.799,
+            918.64
+          ],
+          "quote": "Some of the folks doing that now work at OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 746,
+          "t": [
+            2053.794,
+            2054.334
+          ],
+          "quote": "OpenAI,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1389,
+          "t": [
+            3842.38,
+            3845.282
+          ],
+          "quote": "So a great example of this would be OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1390,
+          "t": [
+            3846.063,
+            3849.345
+          ],
+          "quote": "OpenAI, I forget these days how many employees it has.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sierra",
+      "type": "company",
+      "role": "company",
+      "name": "Sierra",
+      "file": "Sierra",
+      "primary": false,
+      "how_described": "本集举例时提到的一家公司，它们非常明确地争取全球 2000 强企业，所以产品驱动增长（PLG）对它们来说用处不大。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1618,
+          "t": [
+            4478.337,
+            4479.498
+          ],
+          "quote": "So Sierra,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "experience of being sold to",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "GitHub",
+      "reason": "专名「GitHub」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

@@ -1,0 +1,2478 @@
+{
+  "episode_id": "2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-01-01",
+  "tags": [
+    "AI 替代销售",
+    "智能体部署与编排",
+    "GTM 自动化",
+    "B2B 销售革命",
+    "前线部署工程师"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            206.751,
+            211.493
+          ],
+          "quote": "To learn more, visit DX's website at getdx.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 40,
+          "t": [
+            211.893,
+            214.575
+          ],
+          "quote": "That's getdx.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 53,
+          "t": [
+            271.07,
+            274.273
+          ],
+          "quote": "Visit vercel.com/lenny to get started.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 54,
+          "t": [
+            274.593,
+            276.855
+          ],
+          "quote": "That's vercel.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 74,
+          "t": [
+            346.08,
+            347.647
+          ],
+          "quote": "I'm still trying to figure it out, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 87,
+          "t": [
+            397.164,
+            399.206
+          ],
+          "quote": "I'm sure there was no revenue, Lenny in the beginning.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 95,
+          "t": [
+            422.543,
+            426.426
+          ],
+          "quote": "If you wanted to have four Lenny podcast, it just scales.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 131,
+          "t": [
+            551.468,
+            556.651
+          ],
+          "quote": "And net-net, Lenny, it's about, here's the Meta learning for when we're recording this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 153,
+          "t": [
+            649.476,
+            655.94
+          ],
+          "quote": "And so, you can just post an email like you do and you probably fill up Lenny Summit, but if you want to max it out, you got to do work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 156,
+          "t": [
+            658.643,
+            666.813
+          ],
+          "quote": "You have to reactivate folks that came to Lenny's Summit three years ago, but you want them back because they're good people and that just requires work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 157,
+          "t": [
+            666.893,
+            671.939
+          ],
+          "quote": "And as your base scales, you have how many people subscribe to Lenny's newsletter now?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 166,
+          "t": [
+            689.826,
+            691.407
+          ],
+          "quote": "I want them to come to Lenny's Summit.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 236,
+          "t": [
+            888.07,
+            889.891
+          ],
+          "quote": "Why do they go on Lenny's podcast?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1056.183,
+            1060.748
+          ],
+          "quote": "Because it's not just at the software ... We love this stuff, Lenny, all these new tools, we love them.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1119.1,
+            1121.762
+          ],
+          "quote": "I need to bring a Vibecode tool into my company, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1216.748,
+            1218.909
+          ],
+          "quote": "Maybe I'll set up a call with Lenny later this week.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1275.861,
+            1284.626
+          ],
+          "quote": "So that's all in progress now, but the classic ... And the tough part, and a lot of folks ask this question, Lenny, they say, \"Okay, Jason, I see that in your data.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1473.362,
+            1476.184
+          ],
+          "quote": "We literally ... we've turned it into a consulting shop, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 479,
+          "t": [
+            1818.013,
+            1820.176
+          ],
+          "quote": "You used it for the Lenny Bot a long time ago.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 489,
+          "t": [
+            1840.967,
+            1844.531
+          ],
+          "quote": "People should love Lenny Bot because if folks haven't tried it, try it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 496,
+          "t": [
+            1868.631,
+            1871.216
+          ],
+          "quote": "And Lenny Bot is kind of Lenny, but it's also kind of all your guests.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 504,
+          "t": [
+            1888.834,
+            1891.318
+          ],
+          "quote": "And I'm not Lenny in terms of productivity, but I've got a lot of voices.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 510,
+          "t": [
+            1901.288,
+            1911.298
+          ],
+          "quote": "Some people spend hours a day on Digital Jason in another browser and they don't do what they do with Lenny, but they'll ask about their sales woes and what to do with their sales team and they'll upload LinkedIns and ask if they should hire people.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 565,
+          "t": [
+            2088.749,
+            2090.97
+          ],
+          "quote": "Folks that say, \"Hey, I want to sponsor Lenny's podcast.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2123.28,
+            2126.103
+          ],
+          "quote": "At the end of the day, Lenny, these are all running on Claude 4.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2169.541,
+            2174.105
+          ],
+          "quote": "And before you write a check, get on the phone with Lenny and see if Lenny's really going to do deployment.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 584,
+          "t": [
+            2174.145,
+            2178.469
+          ],
+          "quote": "And if Lenny rocks and the other vendor is better and won't help you, don't do it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 590,
+          "t": [
+            2201,
+            2208.708
+          ],
+          "quote": "An interesting learning from this for folks is a lot of folks say, and they would say it to you if you use these, Lenny, they say, \"You have too much data.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 594,
+          "t": [
+            2213.613,
+            2213.913
+          ],
+          "quote": "Lenny has 1.2,000,000.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 618,
+          "t": [
+            2267.169,
+            2268.31
+          ],
+          "quote": "I'm sure you've seen it with Lenny Bot.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 717,
+          "t": [
+            2645.307,
+            2650.952
+          ],
+          "quote": "And then if it has any data on Lenny, it can pull data and it can lightly personalize that email.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 722,
+          "t": [
+            2672.471,
+            2680.138
+          ],
+          "quote": "You should be getting emails when you get them and you're like, \"This isn't as good as Jason said on Lenny's podcast, but it's pretty good.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 754,
+          "t": [
+            2786.339,
+            2787
+          ],
+          "quote": "They want Lenny involved, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 785,
+          "t": [
+            2875.02,
+            2890
+          ],
+          "quote": "Look, if you have a high-performing human team hunting high dollar value logos, and this is classic stuff, Lenny and I and Jen are in a conference room, we put a whiteboard of the 50 best folks that we want to sponsor Lenny's podcast.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 791,
+          "t": [
+            2903.14,
+            2906.933
+          ],
+          "quote": "We divide them up and we say, \"Lenny's best at this, Jason's best as Jen,\" and we each take 15 or 17.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 820,
+          "t": [
+            2994.853,
+            2997.196
+          ],
+          "quote": "I get confused with the time zones, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 854,
+          "t": [
+            3102.567,
+            3109.052
+          ],
+          "quote": "Lenny, you're so great, but even a lot of folks that would want to go work for you if you wanted to hire someone, they'd be like, \"Well, I love the... But what do I have to do?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 857,
+          "t": [
+            3115.378,
+            3117.82
+          ],
+          "quote": "I love Lenny, but is that really going to get me there?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 865,
+          "t": [
+            3134.747,
+            3138.989
+          ],
+          "quote": "You have such a huge audience, Lenny, but I still think most of your folks are in tech and doing tech sales.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 968,
+          "t": [
+            3511.555,
+            3515.157
+          ],
+          "quote": "Request a demo at datadoghq.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 969,
+          "t": [
+            3515.298,
+            3516.819
+          ],
+          "quote": "That's datadoghq.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 977,
+          "t": [
+            3548.803,
+            3553.665
+          ],
+          "quote": "The problem, Lenny, is that all these agents that work today, they have forward deployed engineers, they have training.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1104,
+          "t": [
+            3989.077,
+            3996.3
+          ],
+          "quote": "So the eight reps, there'd be a pod and one SE would be responsible and you'd kind of have to fight to get Jason or Lenny's time to help the eight reps.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1158,
+          "t": [
+            4222.418,
+            4224.72
+          ],
+          "quote": "You know how you can tell a mediocre salesperson, Lenny?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1161,
+          "t": [
+            4227.061,
+            4229.482
+          ],
+          "quote": "I'm a people person, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1162,
+          "t": [
+            4229.523,
+            4231.003
+          ],
+          "quote": "You know how good I am, Lenny?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1201,
+          "t": [
+            4357.674,
+            4364.639
+          ],
+          "quote": "But if you talk to the startups you'd invest in, Lenny, fewer of them are good at outbound phone calls than you'd think.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1281,
+          "t": [
+            4689.704,
+            4692.786
+          ],
+          "quote": "These are the best of times, aren't they, Lenny, for product and business?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1309,
+          "t": [
+            4804.02,
+            4810.931
+          ],
+          "quote": "I mean, the classic Lenny vibe at 100,000 subscribers was, leave me alone.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1328,
+          "t": [
+            4856.45,
+            4862.273
+          ],
+          "quote": "I can't even code Lenny, and I've built 12 apps on Replit in the last 150 days used by a million times.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1424,
+          "t": [
+            5189.15,
+            5192.84
+          ],
+          "quote": "And even for Lenny's newsletter, I bet we can find some part you forgot to touch.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1486,
+          "t": [
+            5384.436,
+            5388.86
+          ],
+          "quote": "But what it does mean is if you don't want to embrace it, Lenny, maybe don't leave your current job.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1546,
+          "t": [
+            5569,
+            5588.78
+          ],
+          "quote": "But when all these agents can talk with each other for real and share all their GTM data and all the customer data and everything on the next time we do it, the 3.8 million people that read Lenny's and all the agents can share data together, I don't mean to turn Pluribus into an AI GTM show, but there's my connection, but it's pretty good, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1617,
+          "t": [
+            5806.043,
+            5806.963
+          ],
+          "quote": "It's not too late, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1671,
+          "t": [
+            5937.853,
+            5939.714
+          ],
+          "quote": "That's nothing for Lenny, but for me, that's pretty good.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1685,
+          "t": [
+            5993.125,
+            6002.535
+          ],
+          "quote": "But because Sam was, they worked together and now Sam's on the board and all, they have a fluency of two CROs who are honest and have a Lenny style learner's mindset.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1694,
+          "t": [
+            6049.161,
+            6050.064
+          ],
+          "quote": "All right, Lenny, you're the best.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1716,
+          "t": [
+            6103,
+            6103.796
+          ],
+          "quote": "All right, Lenny, you're the best.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "jason-lemkin",
+      "type": "person",
+      "role": "cohost",
+      "name": "Jason Lemkin",
+      "file": "Jason Lemkin",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            63.3,
+            72.846
+          ],
+          "quote": "Today, my guest is Jason Lemkin, founder and CEO of SaaStr, the world's largest community for B2B founders, and one of my absolute favorite sales and go-to market minds on the planet.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 32,
+          "t": [
+            167.608,
+            171.19
+          ],
+          "quote": "With that, I'd bring you Jason Lemkin after a short word from our sponsors.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "saastr",
+      "type": "company",
+      "role": "company",
+      "name": "SaaStr",
+      "file": "SaaStr",
+      "primary": true,
+      "how_described": "本集说它是全球最大的 B2B 创始人社区，每年有八位数的年收入。嘉宾把它的约10人销售团队换成了1.2个人类加20个AI智能体，业绩表现与之前持平。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            22.1,
+            30.03
+          ],
+          "quote": "If I had two more great humans that wanted to join, don't get me wrong, I would hire them tomorrow, but I'm not going to hire someone that after their third month in the job doesn't know what SaaStr does.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 19,
+          "t": [
+            63.3,
+            72.846
+          ],
+          "quote": "Today, my guest is Jason Lemkin, founder and CEO of SaaStr, the world's largest community for B2B founders, and one of my absolute favorite sales and go-to market minds on the planet.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 21,
+          "t": [
+            85.233,
+            95.959
+          ],
+          "quote": "He's transformed his own SaaStr sales team from around 10 SDRs and AEs to one full-time AE, a part-time chief of AI, named Amelia, and 20 AI agents.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 69,
+          "t": [
+            338.141,
+            341.719
+          ],
+          "quote": "Help us understand just the business you run, this SaaStr.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 81,
+          "t": [
+            369.669,
+            372.651
+          ],
+          "quote": "Then we do 10,000 people a year at SaaStr Annual.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 123,
+          "t": [
+            530.956,
+            534.398
+          ],
+          "quote": "And now if you walk into SaaStr's office, it's kind of funny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 178,
+          "t": [
+            724.303,
+            730.298
+          ],
+          "quote": "So like eight, nine people full-time working on SaaStr to bring in sponsors and to bring in tickets.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 215,
+          "t": [
+            818.426,
+            825.19
+          ],
+          "quote": "So I would love to have more humans, but I'm not going to hire someone that after their third month in the job doesn't know what SaaStr does.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 442,
+          "t": [
+            1735.441,
+            1740.133
+          ],
+          "quote": "If anyone goes to SaaStr.ai/agents, you'll see everything we built.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 531,
+          "t": [
+            1984.016,
+            1986.259
+          ],
+          "quote": "So we wanted to say, \"Hey, come back to our SaaStr event.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 537,
+          "t": [
+            1997.273,
+            2001.438
+          ],
+          "quote": "They were a sponsor at SaaStr, we didn't know, and they offered to help us the most.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 542,
+          "t": [
+            2015.013,
+            2017.236
+          ],
+          "quote": "Another one said they were scared of SaaStr.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 591,
+          "t": [
+            2209.028,
+            2210.109
+          ],
+          "quote": "SaaStr is not like us.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 614,
+          "t": [
+            2260.363,
+            2262.165
+          ],
+          "quote": "They're like, \"Well, SaaStr has a lot of scale.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1202,
+          "t": [
+            4366.98,
+            4374.124
+          ],
+          "quote": "We had many of the heads of revenue at Rippling, speak at SaaStr, the old CRO worked on my team and others.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1637,
+          "t": [
+            5851.475,
+            5853.698
+          ],
+          "quote": "So, how many SaaStr have you done at this point?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1638,
+          "t": [
+            5853.858,
+            5854.98
+          ],
+          "quote": "How many years have SaaStr have there been?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1662,
+          "t": [
+            5907.613,
+            5912.499
+          ],
+          "quote": "One that you think you'd want people to check out if they were to check out one talk across all SaaStr.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1699,
+          "t": [
+            6057.16,
+            6061.263
+          ],
+          "quote": "The fun thing for me, we have two websites, SaaStr.com and SaaStr.ai.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1702,
+          "t": [
+            6066.706,
+            6075.352
+          ],
+          "quote": "Play with the AI VC, play with any of our tools and just have fun and share any feedback because I've waited 10 years to build tools for the SaaStr community.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "artisan",
+      "type": "company",
+      "role": "company",
+      "name": "Artisan",
+      "file": "Artisan",
+      "primary": true,
+      "how_described": "本集说它是一家 YC 孵化的公司，提供 Outbound 智能体。嘉宾用它向 40 万联系人发了约 6 万封邮件。选它的关键原因是它愿意派人手把手帮忙。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            7.104,
+            12.472
+          ],
+          "quote": "They're all just labeled with our agents, Repli for Replit, Quali for Qualified, Arti for Artisan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 125,
+          "t": [
+            537,
+            542.463
+          ],
+          "quote": "They're all just labeled with our agents, Repli for Replit, Quali for Qualified, Arti for Artisan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1619.18,
+            1628.707
+          ],
+          "quote": "And if you can go do this, pick any tool, pick Agentforce, pick Qualified, pick Artisan, pick whatever you want, if you can go do this and get it live into production, you're hyper employable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 534,
+          "t": [
+            1990.164,
+            1992.407
+          ],
+          "quote": "So we picked a YC company called Artisan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 539,
+          "t": [
+            2003.461,
+            2005.543
+          ],
+          "quote": "We didn't know if Artisan was the... I have opinions now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2024.691,
+            2025.936
+          ],
+          "quote": "And Artisan said, \"We'll do it.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2178.51,
+            2186.457
+          ],
+          "quote": "And that's why we've had so much success is the first two we did, yeah, they were startups, so they worked harder, but Artisan and Qualified just did the work with us.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "qualified",
+      "type": "company",
+      "role": "company",
+      "name": "Qualified",
+      "file": "Qualified",
+      "primary": true,
+      "how_described": "本集说它被用作网站对话气泡来筛选入站线索。由 Salesforce 前 CMO 创立。它的智能体曾在周六晚上11点无人值守时谈下一笔赞助。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            7.104,
+            12.472
+          ],
+          "quote": "They're all just labeled with our agents, Repli for Replit, Quali for Qualified, Arti for Artisan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 125,
+          "t": [
+            537,
+            542.463
+          ],
+          "quote": "They're all just labeled with our agents, Repli for Replit, Quali for Qualified, Arti for Artisan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1221.03,
+            1228.615
+          ],
+          "quote": "Our AI alone, one of our agent fully qualifies everybody on the website, so they don't even know they're being qualified and just sets up the meeting with the salesperson.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1236,
+            1237.301
+          ],
+          "quote": "It doesn't feel good to be qualified, does it?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1619.18,
+            1628.707
+          ],
+          "quote": "And if you can go do this, pick any tool, pick Agentforce, pick Qualified, pick Artisan, pick whatever you want, if you can go do this and get it live into production, you're hyper employable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2056.741,
+            2063.37
+          ],
+          "quote": "So we used this vendor called Qualified, which was founded by the ex CMO of Salesforce that does a lot now, but mostly focused on Qualified stuff.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2077.16,
+            2088.689
+          ],
+          "quote": "Well, it's literally, if you go to SaaStrAnnual.com, and anyone should buy a product like this, it doesn't have to be Qualified, and the bubble, the intercom-like bubble, is tuned to qualifying inbound prospects.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2178.51,
+            2186.457
+          ],
+          "quote": "And that's why we've had so much success is the first two we did, yeah, they were startups, so they worked harder, but Artisan and Qualified just did the work with us.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "agentforce",
+      "type": "company",
+      "role": "company",
+      "name": "Agentforce",
+      "file": "Agentforce",
+      "primary": true,
+      "how_described": "本集说它是 Salesforce 推出的智能体产品。嘉宾很早就接入了它，专门拿去唤醒“销售员懒得跟的线索”，结果达到了70%的回复率。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            542.543,
+            543.724
+          ],
+          "quote": "Agentforce needs a nickname.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1619.18,
+            1628.707
+          ],
+          "quote": "And if you can go do this, pick any tool, pick Agentforce, pick Qualified, pick Artisan, pick whatever you want, if you can go do this and get it live into production, you're hyper employable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 425,
+          "t": [
+            1670.12,
+            1676.378
+          ],
+          "quote": "So we're pretty far on Agentforce, which is Salesforce's one, which Mark talks a lot about, but we're probably one of the only organizations of our size on it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 431,
+          "t": [
+            1693.836,
+            1695.818
+          ],
+          "quote": "We took that prompt and gave it to Agentforce.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 625,
+          "t": [
+            2292.113,
+            2297.76
+          ],
+          "quote": "Then we did SDR for outbound, then we did inbound, and then we did Agentforce really early with Salesforce.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 626,
+          "t": [
+            2298.34,
+            2306.768
+          ],
+          "quote": "And we didn't know what to do with Agentforce at first, but we decided we would reactivate the folks that sales decide was not worth their time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 632,
+          "t": [
+            2321.46,
+            2326.946
+          ],
+          "quote": "We just took Agentforce just on those and we trained it on very similar prompt.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": true,
+      "how_described": "本集说它正经历复兴，成为各类AI GTM智能体插接的中心数据库。Marc Benioff表示现在有2000名前线部署工程师专门确保客户在付款前就能让智能体跑通。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            543.764,
+            545.125
+          ],
+          "quote": "Maybe we can make one up with Salesforce.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1084.245,
+            1091.149
+          ],
+          "quote": "So you'd send a trillion emails and you'd do cold calls and you'd hope maybe 2026 was the time they were willing to dump Salesforce for your new product.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1399.336,
+            1403.659
+          ],
+          "quote": "Like Denise just went from Slack and Salesforce after 14 years to be CRO of OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 425,
+          "t": [
+            1670.12,
+            1676.378
+          ],
+          "quote": "So we're pretty far on Agentforce, which is Salesforce's one, which Mark talks a lot about, but we're probably one of the only organizations of our size on it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2056.741,
+            2063.37
+          ],
+          "quote": "So we used this vendor called Qualified, which was founded by the ex CMO of Salesforce that does a lot now, but mostly focused on Qualified stuff.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 625,
+          "t": [
+            2292.113,
+            2297.76
+          ],
+          "quote": "Then we did SDR for outbound, then we did inbound, and then we did Agentforce really early with Salesforce.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 672,
+          "t": [
+            2490.519,
+            2491.78
+          ],
+          "quote": "Salesforce, they just want to get their commission.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 676,
+          "t": [
+            2503.36,
+            2513.432
+          ],
+          "quote": "And so just be aware, if you're a startup or even Salesforce or HubSpot, maybe close those deals in the next 12 months, because the window may close where people say, \"Listen, that's the coolest agent I've ever seen.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 716,
+          "t": [
+            2641.144,
+            2644.587
+          ],
+          "quote": "And the data source could be as simple as Salesforce.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1051,
+          "t": [
+            3797.02,
+            3800.842
+          ],
+          "quote": "I will say it is working with Salesforce the way we are.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1052,
+          "t": [
+            3801.503,
+            3806.125
+          ],
+          "quote": "It's the way I haven't worked with Salesforce since it was the first product I bought, I mean, 20 years ago, dude.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1053,
+          "t": [
+            3806.565,
+            3809.867
+          ],
+          "quote": "When I bought Salesforce 20 years ago, I got everything that was hands-on.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1057,
+          "t": [
+            3814.709,
+            3815.409
+          ],
+          "quote": "You work at Salesforce.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1066,
+          "t": [
+            3824.534,
+            3826.835
+          ],
+          "quote": "And Mark's got 2,000 folks doing this at Salesforce now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1175,
+          "t": [
+            4261,
+            4264.663
+          ],
+          "quote": "Salesforce is hiring more than ever and knocking on doors still works, man.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1241,
+          "t": [
+            4524.602,
+            4527.264
+          ],
+          "quote": "When I talk with Marc Benioff, and Salesforce is the biggest, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1248,
+          "t": [
+            4539.769,
+            4543.57
+          ],
+          "quote": "I wish every Salesforce customer now could go live before they pay.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1541,
+          "t": [
+            5552.409,
+            5557.793
+          ],
+          "quote": "Right now, our hive, and there's a bit of a Renaissance for Salesforce as a CRM.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1544,
+          "t": [
+            5564.277,
+            5566.078
+          ],
+          "quote": "So, Salesforce has become the database for all these.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "delphi",
+      "type": "company",
+      "role": "company",
+      "name": "Delphi",
+      "file": "Delphi",
+      "primary": true,
+      "how_described": "本集说它是一款制作“数字分身”的应用，能摄取个人的所有公开内容。嘉宾用它制作了数字版的自己，后来它自动承担了客服工作，并自己谈下了一笔7万美元的赞助。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            433.891,
+            443.979
+          ],
+          "quote": "The interesting thing, the aha moment that happened to us is going into May of this year, we had one AI agent in production called Delphi that we both use for digital lending and Digital Jason.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 111,
+          "t": [
+            479.281,
+            488.167
+          ],
+          "quote": "And I knew from this Delphi, this general agent that it would sort of work because going into annual, this general agent, this Digital Jason closed a 70K sponsorship on its own.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 478,
+          "t": [
+            1813.667,
+            1816.371
+          ],
+          "quote": "I started, there's an app called Delphi, which makes digital clones.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 506,
+          "t": [
+            1893.04,
+            1893.841
+          ],
+          "quote": "I used Delphi.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 657,
+          "t": [
+            2414.42,
+            2429.873
+          ],
+          "quote": "Because right now, when we did Delphi in the beginning, when I copied you with Delphi, even me, I spent almost an hour a day training it in the beginning because when we started to use it for support, it had an initial... it started telling people the wrong dates, and we could talk about why.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 659,
+          "t": [
+            2431.875,
+            2437.98
+          ],
+          "quote": "And so when people started to use it, I had to spend an hour each morning firing up Delphi, reviewing the issues and answering them.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "replit",
+      "type": "company",
+      "role": "company",
+      "name": "Replit",
+      "file": "Replit",
+      "primary": true,
+      "how_described": "本集说它是一家爆发式增长的 AI 公司，代表高端市场的需求过剩。此外，嘉宾提到自己是 Replit 的前 1% 用户，并用它在 150 天内构建了 12 个应用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            7.104,
+            12.472
+          ],
+          "quote": "They're all just labeled with our agents, Repli for Replit, Quali for Qualified, Arti for Artisan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 30,
+          "t": [
+            154.16,
+            164.146
+          ],
+          "quote": "Including a year free of Lovable, Replit, Bolt, N8N, Gamma, Linear, Devin, Posthog, Superhuman, Descript, Wspr Flow, Perplexity, Warp, Granola, Magic Patterns, Raycast, ChatPRD, Mobbin, and Stripe Atlas.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 119,
+          "t": [
+            520.248,
+            525.712
+          ],
+          "quote": "Even if Replit only goes from zero to 200, it could have been 220 with the smaller sales team.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 125,
+          "t": [
+            537,
+            542.463
+          ],
+          "quote": "They're all just labeled with our agents, Repli for Replit, Quali for Qualified, Arti for Artisan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 210,
+          "t": [
+            790.666,
+            794.689
+          ],
+          "quote": "And if you go to Vercel, if you go to Replit, if you go to ... They're all going to tell you the same.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 214,
+          "t": [
+            810.12,
+            818.386
+          ],
+          "quote": "The ones that don't really know what a pull request is or exactly how Replit works, the AI can do better, not than the best, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 247,
+          "t": [
+            932.496,
+            936.939
+          ],
+          "quote": "So for example, Bolt is probably a distant number three behind Replit and Lovable, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1122.482,
+            1126.484
+          ],
+          "quote": "Okay, go out and do the work, compare Replit, Lovable, and whoever else and buy one.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 446,
+          "t": [
+            1745.784,
+            1747.005
+          ],
+          "quote": "I built a lot of stuff in Replit.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 695,
+          "t": [
+            2578.627,
+            2579.829
+          ],
+          "quote": "Replit didn't work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 786,
+          "t": [
+            2890.361,
+            2894.166
+          ],
+          "quote": "There's only 50 and we write Notion and we write Linear and we write Replit.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 912,
+          "t": [
+            3300.446,
+            3306.55
+          ],
+          "quote": "I've already written 10 apps in Replit and I love Vercel and I did this and I've already tried these ones on my own.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1148,
+          "t": [
+            4174.048,
+            4177.69
+          ],
+          "quote": "We just don't want 200 reps running around Vercel or Replit that don't know what the product does.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1271,
+          "t": [
+            4641,
+            4645.822
+          ],
+          "quote": "I think Replit just added a sales team a couple months ago for real, and now they've added another CRO.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1328,
+          "t": [
+            4856.45,
+            4862.273
+          ],
+          "quote": "I can't even code Lenny, and I've built 12 apps on Replit in the last 150 days used by a million times.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1331,
+          "t": [
+            4867.695,
+            4877.439
+          ],
+          "quote": "I literally, just when I was in London, I built a whole app where you can practice selling Harvey, Cursor, Replit, and ChatGPT Enterprise, and it works.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1360,
+          "t": [
+            4974.291,
+            4980.816
+          ],
+          "quote": "I mean, we could talk about it forever, but even for me, I picked Replit because Twitter told me to, I could have picked another tool.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1362,
+          "t": [
+            4985.161,
+            4988.658
+          ],
+          "quote": "Just to double down what you said, you're top 1% user of Replit?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "bolt",
+      "type": "company",
+      "role": "company",
+      "name": "Bolt",
+      "file": "Bolt",
+      "primary": true,
+      "how_described": "本集提到它作为爆发式增长的 AI 公司代表，在六个月内从零做到 5000 万美元营收。因为线索太多，销售团队一半的精力花在决定回复哪些线索上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            154.16,
+            164.146
+          ],
+          "quote": "Including a year free of Lovable, Replit, Bolt, N8N, Gamma, Linear, Devin, Posthog, Superhuman, Descript, Wspr Flow, Perplexity, Warp, Granola, Magic Patterns, Raycast, ChatPRD, Mobbin, and Stripe Atlas.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 247,
+          "t": [
+            932.496,
+            936.939
+          ],
+          "quote": "So for example, Bolt is probably a distant number three behind Replit and Lovable, right?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lovable",
+      "type": "company",
+      "role": "company",
+      "name": "Lovable",
+      "file": "Lovable",
+      "primary": true,
+      "how_described": "本集提到它是一家 AI 公司，竞争对手 Bolt 抢走了它的一个七位数大单，原因仅仅是 Lovable 的人没及时回电话。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            154.16,
+            164.146
+          ],
+          "quote": "Including a year free of Lovable, Replit, Bolt, N8N, Gamma, Linear, Devin, Posthog, Superhuman, Descript, Wspr Flow, Perplexity, Warp, Granola, Magic Patterns, Raycast, ChatPRD, Mobbin, and Stripe Atlas.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 247,
+          "t": [
+            932.496,
+            936.939
+          ],
+          "quote": "So for example, Bolt is probably a distant number three behind Replit and Lovable, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 252,
+          "t": [
+            949.568,
+            954.692
+          ],
+          "quote": "And he also is like,\" we closed a seven figure deal we stole from Lovable because no one called them back at Lovable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1122.482,
+            1126.484
+          ],
+          "quote": "Okay, go out and do the work, compare Replit, Lovable, and whoever else and buy one.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 696,
+          "t": [
+            2579.929,
+            2580.95
+          ],
+          "quote": "Lovable didn't exist.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 856,
+          "t": [
+            3112.595,
+            3114.417
+          ],
+          "quote": "I want to be CRO at Lovable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1518,
+          "t": [
+            5482.24,
+            5484.764
+          ],
+          "quote": "Had the head of growth from Lovable, Elena Vernon on the podcast.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "type": "company",
+      "role": "company",
+      "name": "Vercel",
+      "file": "Vercel",
+      "primary": true,
+      "how_described": "本集说它是一家高速增长的 AI 公司，代表了拥有内部工程能力去自己构建智能体的大公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            39.24,
+            44.446
+          ],
+          "quote": "We should have $250,000 a year SDRs, but they'd be like ... At Vercel, they'd be managing 10 agents, not 10 people.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 41,
+          "t": [
+            215.796,
+            219.117
+          ],
+          "quote": "This episode is brought to you by v0 from Vercel.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 51,
+          "t": [
+            263.604,
+            268.168
+          ],
+          "quote": "Vercel built v0 for the builders who want to create at the moment of inspiration.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 53,
+          "t": [
+            271.07,
+            274.273
+          ],
+          "quote": "Visit vercel.com/lenny to get started.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 54,
+          "t": [
+            274.593,
+            276.855
+          ],
+          "quote": "That's vercel.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 210,
+          "t": [
+            790.666,
+            794.689
+          ],
+          "quote": "And if you go to Vercel, if you go to Replit, if you go to ... They're all going to tell you the same.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 259,
+          "t": [
+            986.134,
+            989.015
+          ],
+          "quote": "Not everyone like Vercel will build their own internally.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1385.167,
+            1397.115
+          ],
+          "quote": "20 are still panicking about AI and I'll tell you how to be in the 20% if you want to know, but I think very few like the Janine from Vercel are going to make the jump, so we'll see.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 452,
+          "t": [
+            1753.714,
+            1754.495
+          ],
+          "quote": "You're not Vercel.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 468,
+          "t": [
+            1794.562,
+            1798.453
+          ],
+          "quote": "Just a caveat, don't build it yourself, unless you're Vercel, unless you have a reason.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 493,
+          "t": [
+            1853.521,
+            1861.477
+          ],
+          "quote": "It can combine the Vercel story and what you did with Dylan at Figma, and it can synthesize the knowledge, and it's pretty good.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 912,
+          "t": [
+            3300.446,
+            3306.55
+          ],
+          "quote": "I've already written 10 apps in Replit and I love Vercel and I did this and I've already tried these ones on my own.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 924,
+          "t": [
+            3343.55,
+            3347.131
+          ],
+          "quote": "Even between Vercel that basically grew the resource at home.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 925,
+          "t": [
+            3347.312,
+            3349.472
+          ],
+          "quote": "We're not all Vercel, but I just haven't seen it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 990,
+          "t": [
+            3592.102,
+            3598.925
+          ],
+          "quote": "A lot of them are worried that I'm obsolete, that I'm obsolete, that I'm not going to get that role at Vercel or OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1023,
+          "t": [
+            3703.4,
+            3711.585
+          ],
+          "quote": "Every day he would show up to our standup and he said, \"Yeah, I'm doing outbound and I'm really working on that deal with Vercel and nothing would close.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1148,
+          "t": [
+            4174.048,
+            4177.69
+          ],
+          "quote": "We just don't want 200 reps running around Vercel or Replit that don't know what the product does.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1270,
+          "t": [
+            4636.618,
+            4640.06
+          ],
+          "quote": "The fact that Vercel just added Janine means they're going more enterprise by definition.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1275,
+          "t": [
+            4674.616,
+            4681.919
+          ],
+          "quote": "I've talked about that we should have $250,000 a year SDRs, but they'd be like at Vercel, they'd be managing 10 agents, not 10 people.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1467,
+          "t": [
+            5313.42,
+            5319.067
+          ],
+          "quote": "I love that in your case and in Jean's case at Vercel, it's not like you let anyone go.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "type": "company",
+      "role": "company",
+      "name": "Palantir",
+      "file": "Palantir",
+      "primary": true,
+      "how_described": "本集说它是目前最成功的上市 B2B 公司之一。它因为拥有前线部署工程师并在现场把产品跑通的模式，实现了九位数规模的交易。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1098,
+          "t": [
+            3952.362,
+            3957.585
+          ],
+          "quote": "I think Palantir is obviously the single most successful public B2B company at the moment.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1244,
+          "t": [
+            4530.505,
+            4535.007
+          ],
+          "quote": "He's like, \"The number one thing I envy in Palantir, one is their high deal sizes.\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说它能自主执行销售和客服任务，并24/7全天候工作。但它们无法开箱即用，必须经过摄取数据、每日纠错和长达30天的训练才能成功。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            12.572,
+            13.734
+          ],
+          "quote": "Agent Force needs a nickname.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 99,
+          "t": [
+            433.891,
+            443.979
+          ],
+          "quote": "The interesting thing, the aha moment that happened to us is going into May of this year, we had one AI agent in production called Delphi that we both use for digital lending and Digital Jason.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 111,
+          "t": [
+            479.281,
+            488.167
+          ],
+          "quote": "And I knew from this Delphi, this general agent that it would sort of work because going into annual, this general agent, this Digital Jason closed a 70K sponsorship on its own.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 112,
+          "t": [
+            489.548,
+            497.313
+          ],
+          "quote": "So when I saw that a horizontal agent, not trained for sales, not trained for GTM could close one deal, they're like, \"Let's deploy a couple of these apps.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 137,
+          "t": [
+            579.085,
+            592.395
+          ],
+          "quote": "But when you dial them in, when you take your best person or your best script and you train an agent with your best person and best script, that agent can start to become a version of your best salesperson, your best person.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 169,
+          "t": [
+            701.233,
+            704.275
+          ],
+          "quote": "And then, we have a different agent to get people to come back, lapse people.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1221.03,
+            1228.615
+          ],
+          "quote": "Our AI alone, one of our agent fully qualifies everybody on the website, so they don't even know they're being qualified and just sets up the meeting with the salesperson.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1255.531,
+            1260.975
+          ],
+          "quote": "I don't think there's any reason what we're seeing in other categories, a great agent can't close a deal too.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1262.376,
+            1269.98
+          ],
+          "quote": "If there's not a lot to negotiate on price and the agent knows the product better than a human, at least for folks like you and me, I mean, do you like to talk to a human in sales?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1314.427,
+            1324
+          ],
+          "quote": "So the folks that know how to manage an agent, work with an agent, the folks that know their product for real, they're going to become more valuable and the rest are going to become less valuable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1436.803,
+            1441.665
+          ],
+          "quote": "Pick a tool, an agent, an agentic tool to solve one of your problems.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1461.896,
+            1468.919
+          ],
+          "quote": "Train the agent, ingest the data, do the iterations, understand how this damn thing works.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1509.986,
+            1519.133
+          ],
+          "quote": "So they thought they could take an untrained agent with no training and just magically give it to a bunch of young 20-year-old SDRs and this magically would sell on its own.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 423,
+          "t": [
+            1663.235,
+            1667.358
+          ],
+          "quote": "And you will learn the limits and you will learn the agent can... what it can do and where it can't do.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 520,
+          "t": [
+            1936.469,
+            1938.692
+          ],
+          "quote": "And the agent just started doing support on its own.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2073.322,
+            2077
+          ],
+          "quote": "And this is an agent that is emailing with prospect selling them on a sponsorship.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2114.291,
+            2120.838
+          ],
+          "quote": "But the key to the first two, and if you're going to pick an agent, is they offered to help the most.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 651,
+          "t": [
+            2378.308,
+            2382.579
+          ],
+          "quote": "I bet if you spooled up an agent and emailed all those folks back automatically, you'd fill up the docket, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 676,
+          "t": [
+            2503.36,
+            2513.432
+          ],
+          "quote": "And so just be aware, if you're a startup or even Salesforce or HubSpot, maybe close those deals in the next 12 months, because the window may close where people say, \"Listen, that's the coolest agent I've ever seen.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 705,
+          "t": [
+            2602.481,
+            2611.45
+          ],
+          "quote": "What you do is an agent will be successful in go-to-market and sales today if you take what works for your best person, train... I know this seems like a scary term, but it's not.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 707,
+          "t": [
+            2613.933,
+            2617.196
+          ],
+          "quote": "Train the agent on it and let it iterate an A/B test from that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 713,
+          "t": [
+            2626.027,
+            2632.595
+          ],
+          "quote": "That's all the agent has to do is take your best email you ever sent and stick it through an API.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 733,
+          "t": [
+            2714.756,
+            2716.459
+          ],
+          "quote": "You just haven't seen a well-trained agent.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 879,
+          "t": [
+            3181.989,
+            3186.639
+          ],
+          "quote": "And so now, just instead of humans, there's an agent doing each of these jobs.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 881,
+          "t": [
+            3187.36,
+            3193.068
+          ],
+          "quote": "They have this outbound agent that's just sending emails, trying to find potential leads.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 882,
+          "t": [
+            3194.19,
+            3198.756
+          ],
+          "quote": "An inbound agent that's talking to people that are interested, trying to get them more excited.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 883,
+          "t": [
+            3199.136,
+            3202
+          ],
+          "quote": "And then is there an AE agent or... I forget how that works.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 975,
+          "t": [
+            3542.14,
+            3546.502
+          ],
+          "quote": "I don't know that if your average SDR or junior salesperson is going to get budget for their own agent.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 993,
+          "t": [
+            3609.35,
+            3615.433
+          ],
+          "quote": "Whatever tools your organization is using, become the best person at working with that agent and you'll automatically get more efficient.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 995,
+          "t": [
+            3617.955,
+            3622.557
+          ],
+          "quote": "Is it annoying that you walk into work and the agent set up four calls for you and maybe you only wanted to do two of them?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1038,
+          "t": [
+            3758.951,
+            3761.972
+          ],
+          "quote": "For the managers, buy an agent, deploy it yourself.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1083,
+          "t": [
+            3903.944,
+            3909.866
+          ],
+          "quote": "I think what's different today is the agent will fail without training and onboarding this product.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1087,
+          "t": [
+            3917.349,
+            3926.333
+          ],
+          "quote": "This term's been bandied about too much, but you need a team of humans, we can call them forward deployed engineers that make 100% sure that when the agent is turned on, it's awesome.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1118,
+          "t": [
+            4042.217,
+            4048.58
+          ],
+          "quote": "And it's a fancy name for a bunch of folks on your team that when it goes live, the AI agent actually works.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1236,
+          "t": [
+            4499.495,
+            4509.197
+          ],
+          "quote": "When you expect the agent to work during the pilot before the big check comes, people person is insufficient.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1238,
+          "t": [
+            4512.398,
+            4517.82
+          ],
+          "quote": "Tell me the person that's going to launch my agent, train it and get into production for me before I even pay you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1273,
+          "t": [
+            4652.445,
+            4671.715
+          ],
+          "quote": "So if you get great at this stuff, if you go buy an agent today, when you listen to this and deploy it yourself and do the hard work and train it and ingest it and iterate it every day and get ahead of it and then get two agents and then three and then four, you may become more valuable, have a better experience in ETM.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1374,
+          "t": [
+            5011.913,
+            5019.978
+          ],
+          "quote": "So, when I have an issue and I'm trying to figure out how to do something, the agent calls in an architect or another agent and they debate and argue with it and they come up with the right answer.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1417,
+          "t": [
+            5162.027,
+            5165.729
+          ],
+          "quote": "Pick the thing that makes you cry the most over your mold wine and go buy that agent and fix it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1434,
+          "t": [
+            5213.37,
+            5220.059
+          ],
+          "quote": "What you're saying here is no, find an agent to take care of this in the future, make this a much better experience for everyone always.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1454,
+          "t": [
+            5265.147,
+            5268.529
+          ],
+          "quote": "I'm going to bring in this agent, this sales agent or this support agent.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "forward-deployed-engineer",
+      "type": "concept",
+      "role": "concept",
+      "name": "前线部署工程师 (Forward Deployed Engineer)",
+      "file": "前线部署工程师",
+      "primary": true,
+      "how_described": "本集说它是供应商派去客户现场的技术人员。这是决定智能体选型的关键：好的供应商会派他们手把手帮客户把模型调通、在付款前就出业绩，而不是直接卖空壳软件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 400,
+          "t": [
+            1570.2,
+            1580.432
+          ],
+          "quote": "So first you upload a bunch of your stuff, then you spend hours training it, often with the help of a vendor, someone called the Forward Deployed Engineer, which is a scary term, it means someone's going to help you do this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 582,
+          "t": [
+            2161.934,
+            2168.62
+          ],
+          "quote": "You've got to do another column, which is your Forward Deployed Engineer or solution architect or your SE and talk to them and say, \"Who is going to help me?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1046,
+          "t": [
+            3778.302,
+            3785.55
+          ],
+          "quote": "For founders in startups, what I'm hearing is be that forward deployed engineer, have that person, that sales engineer that's sitting there helping companies.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1067,
+          "t": [
+            3827.215,
+            3828.436
+          ],
+          "quote": "So we have a forward deployed engineer.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "sdr",
+      "type": "concept",
+      "role": "concept",
+      "name": "SDR",
+      "file": "SDR",
+      "primary": true,
+      "how_described": "本集说这种负责按固定节奏群发邮件的初级岗位明年会被 AI 取代 90%。未来懂产品的人能通过管理10个智能体拿到25万美元的年薪，而不是管10个人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            44.567,
+            50.754
+          ],
+          "quote": "The classic SDR junior kid that is hired out of college to send emails, we don't need them.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 114,
+          "t": [
+            498.654,
+            503.637
+          ],
+          "quote": "And I just can't pay a junior SDR $150,000 a year to quit.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 165,
+          "t": [
+            681.04,
+            687.564
+          ],
+          "quote": "Imagine you hired a 21-year-old SDR fresh out of junior college and said, here's my list, 1.2 million people, start calling them.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1167.8,
+            1181.588
+          ],
+          "quote": "The classic SDR junior kid that is hired out of college to send emails and respond to inbound emails and maybe get back to them later that day or the next day, we don't need them.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1189.592,
+            1194.915
+          ],
+          "quote": "The email-based cadence SDR will be 90% displaced by AI next year.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1228.975,
+            1235.74
+          ],
+          "quote": "So this email-based SDR and this human qualifying leads, which is not good for the customer.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1445.628,
+            1448.869
+          ],
+          "quote": "It could be support, it could be SDR, it could be inbound qualification.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1489.393,
+            1493.255
+          ],
+          "quote": "And we did a call with their team and they're like, \"We want to figure out this AI SDR stuff.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 403,
+          "t": [
+            1588.761,
+            1593.685
+          ],
+          "quote": "And every day when that AI SDR sends out emails and do practice emails, they will say some dumb things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 625,
+          "t": [
+            2292.113,
+            2297.76
+          ],
+          "quote": "Then we did SDR for outbound, then we did inbound, and then we did Agentforce really early with Salesforce.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 888,
+          "t": [
+            3216,
+            3216.694
+          ],
+          "quote": "No SDR, BDRs.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 975,
+          "t": [
+            3542.14,
+            3546.502
+          ],
+          "quote": "I don't know that if your average SDR or junior salesperson is going to get budget for their own agent.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1141,
+          "t": [
+            4132.631,
+            4142.574
+          ],
+          "quote": "I do think the classic cadence-based SDR running campaigns through a tool, him or herself, will be mostly extinct with 12 months.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1398,
+          "t": [
+            5101.899,
+            5103.9
+          ],
+          "quote": "Now everyone in the world wants to build an AI, SDR, AIR, CRM.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "ae",
+      "type": "concept",
+      "role": "concept",
+      "name": "AE",
+      "file": "AE",
+      "primary": true,
+      "how_described": "本集说这种负责真正成交的客户经理，明年大概 70% 的工作还是安全的，但再往后会降到只有 40% 到 50% 安全，仅仅“会搞关系”将不再是护城河。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            85.233,
+            95.959
+          ],
+          "quote": "He's transformed his own SaaStr sales team from around 10 SDRs and AEs to one full-time AE, a part-time chief of AI, named Amelia, and 20 AI agents.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1240.142,
+            1247.767
+          ],
+          "quote": "I'm guessing with your ... Now the AE, the classic human doing the sales, most of the tools aren't there yet for the most part.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 883,
+          "t": [
+            3199.136,
+            3202
+          ],
+          "quote": "And then is there an AE agent or... I forget how that works.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 885,
+          "t": [
+            3204.665,
+            3211.86
+          ],
+          "quote": "We have one full-time AE plus 20% of Amelia's time, so it's 1.2, doing what five or six AEs do.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 930,
+          "t": [
+            3366.542,
+            3370.98
+          ],
+          "quote": "And when you think of... Is Amelia, would you describe her as a go to-market engineer or is that a different role, would you call her chief AE officer?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1157,
+          "t": [
+            4214.993,
+            4220.797
+          ],
+          "quote": "So I think the AE is what we will always have salespeople, but being a people person is not enough anymore.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "hubspot",
+      "type": "company",
+      "role": "company",
+      "name": "HubSpot",
+      "file": "HubSpot",
+      "primary": false,
+      "how_described": "本集提到它的创始人 Brian Halligan 做了一个数字分身。嘉宾还反问听众，躺在他们 HubSpot 里废弃的线索有多少，这正是智能体大显身手的地方。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 486,
+          "t": [
+            1827.421,
+            1830.589
+          ],
+          "quote": "And then Brian Halligan, who's the founder and chairman of HubSpot, did one too.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 604,
+          "t": [
+            2238.774,
+            2240.155
+          ],
+          "quote": "\"How many folks do you have in your HubSpot?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 676,
+          "t": [
+            2503.36,
+            2513.432
+          ],
+          "quote": "And so just be aware, if you're a startup or even Salesforce or HubSpot, maybe close those deals in the next 12 months, because the window may close where people say, \"Listen, that's the coolest agent I've ever seen.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "reve",
+      "type": "company",
+      "role": "company",
+      "name": "Reve",
+      "file": "Reve",
+      "primary": false,
+      "how_described": "本集在推荐最爱产品时提到，它是一个图像生成应用，能通过提示词生成营销缩略图或文章配图，嘉宾说他自己每天都会用两三次。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1560,
+          "t": [
+            5619.523,
+            5621.704
+          ],
+          "quote": "But there is an app called Reve.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1573,
+          "t": [
+            5671.303,
+            5671.909
+          ],
+          "quote": "And it's Reve.com?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1575,
+          "t": [
+            5673.367,
+            5673.878
+          ],
+          "quote": "Reve.com.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1578,
+          "t": [
+            5678.343,
+            5678.727
+          ],
+          "quote": "App.reve.com.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "BDR",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

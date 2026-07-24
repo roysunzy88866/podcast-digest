@@ -21,4 +21,4 @@ aliases: ["凭感觉编程", "氛围编程"]
 
 ## 关联实体
 
-[[Tony Fadell]] · [[Claire Vo]] · [[Lenny]] · [[Eddie Kim]] · [[iPod]] · [[Gusto]] · [[iPhone]] · [[Co-Founder]] · [[Nest]] · [[垃圾桶法]]
+[[Tony Fadell]] · [[Claire Vo]] · [[Lenny]] · [[Eddie Kim]] · [[iPod]] · [[Gusto]] · [[iPhone]] · [[联合创始人]] · [[Nest]] · [[垃圾桶法]]

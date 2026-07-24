@@ -6,13 +6,35 @@ entity_type: 概念
 # 物理 AI (physical AI)
 
 > [!info] 概念
-> 出现在 1 集 · 金句 22 条 · 关联 10 个
+> 出现在 1 集 · 金句 33 条 · 关联 10 个
 
 ## 集里怎么说它
 
 - **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《The most successful AI company you’ve never heard of | Qasar Younis》]]**(04:20起):本集核心概念，指将 AI 应用到汽车、拖拉机、采矿设备等物理实体机器上使其具备智能化自主能力；嘉宾认为这是未来 5-10 年 AI 产生真正巨大影响（降低净苦难、填补劳动力缺口）的领域。
 
 ## 金句
+
+![[2025-11-16-lennys-the-godmother-of-ai#^q2]]
+
+![[2025-11-16-lennys-the-godmother-of-ai#^q3]]
+
+![[2025-11-16-lennys-the-godmother-of-ai#^q4]]
+
+![[2025-11-30-lennys-what-the-best-gtm-teams-do-differently#^q3]]
+
+![[2025-12-28-lennys-10-contrarian-leadership-truths#^q20]]
+
+![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q2]]
+
+![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q3]]
+
+![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q4]]
+
+![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q8]]
+
+![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q4]]
+
+![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q5]]
 
 ![[2026-02-26-lennys-ai-is-critical-for-humanitys-survival#^q1]]
 

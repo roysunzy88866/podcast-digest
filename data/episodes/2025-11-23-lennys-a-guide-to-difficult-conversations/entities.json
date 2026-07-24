@@ -1,0 +1,1279 @@
+{
+  "episode_id": "2025-11-23-lennys-a-guide-to-difficult-conversations",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-11-23",
+  "tags": [
+    "高管教练",
+    "领导力",
+    "沟通框架",
+    "冲突处理",
+    "组织运营"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            88.14,
+            89.264
+          ],
+          "quote": "Lenny, let's try it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 59,
+          "t": [
+            290.997,
+            291.737
+          ],
+          "quote": "Get $1,000 off at vanta.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 61,
+          "t": [
+            303.544,
+            304.913
+          ],
+          "quote": "Thank you so much for having me, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 92,
+          "t": [
+            476.779,
+            478.4
+          ],
+          "quote": "And today, guess what he's doing, Lenny?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 151,
+          "t": [
+            763,
+            763
+          ],
+          "quote": "Yeah, it's an urgent issue and you actually have an answer that you want to drive. So, don't coach and make it a game. You want your person on your team to guess what's in your mind. That's not a good time to coach. You have something you absolutely want them to do. You know the right answer. You want them to be motivated to go do it. Advise them. Help them see the path. But most leaders over-index on that solution. So, I want to share. Maybe Lenny, I can teach you two skills that I think are the basics of leader coaching-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 162,
+          "t": [
+            815.625,
+            821.572
+          ],
+          "quote": "And Lenny, you're probably a good listener because this is what you do for a living is you listen to the people who come on your podcast.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 369,
+          "t": [
+            1657.163,
+            1657.878
+          ],
+          "quote": "Lenny, let's try it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2376.12,
+            2380.782
+          ],
+          "quote": "Well thank you, Lenny, for letting me just demonstrate what powerful questions are.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2454.185,
+            2459.988
+          ],
+          "quote": "So if I told you, Lenny, I've heard all kinds of leaders come to me talking about being too busy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 643,
+          "t": [
+            2798.02,
+            2799.869
+          ],
+          "quote": "And it sounds like maybe you need a refresh, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 709,
+          "t": [
+            3054.168,
+            3058.513
+          ],
+          "quote": "Just head to WithPersona.com/Lenny to get started.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 711,
+          "t": [
+            3059.975,
+            3061.016
+          ],
+          "quote": "com/Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1000,
+          "t": [
+            4592.04,
+            4593.622
+          ],
+          "quote": "Lenny, try this with your wife tonight.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1268,
+          "t": [
+            5843.662,
+            5847.134
+          ],
+          "quote": "One free year of Granola, for becoming an annual subscriber of Lenny's Newsletter, lennysnewsletter.com.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1386,
+          "t": [
+            6291.374,
+            6291.879
+          ],
+          "quote": "Take care, Lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "rachel-lockett",
+      "type": "person",
+      "role": "cohost",
+      "name": "Rachel Lockett",
+      "file": "Rachel Lockett",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            94,
+            103.824
+          ],
+          "quote": "The main thing I struggle with these days is just... Today, my guest is Rachel Lockett, an executive coach and former longtime HR leader at Pinterest and at Stripe.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 35,
+          "t": [
+            164.316,
+            168.079
+          ],
+          "quote": "With that, I bring you Rachel Lockett after a short word from our sponsors.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "coaching",
+      "type": "concept",
+      "role": "concept",
+      "name": "辅导 (coaching)",
+      "file": "辅导",
+      "primary": true,
+      "how_described": "本集将其描述为释放团队才华的替代路径：领导者通过保持好奇心和提问（而非直接给建议），帮助团队成员自己想出解决难题的办法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            130.934,
+            135.076
+          ],
+          "quote": "We even do a couple live coaching sessions to demonstrate some of Rachel's approaches.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 115,
+          "t": [
+            625.186,
+            626.966
+          ],
+          "quote": "And coaching is a different way.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 117,
+          "t": [
+            636.53,
+            646.955
+          ],
+          "quote": "So, coaching is actually a learnable skill, obviously, because there's tons of coaches around Silicon Valley, but you don't have to coach in the same way that an executive coaches.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 122,
+          "t": [
+            679.853,
+            690.6
+          ],
+          "quote": "So, I think it's useful for your listeners to actually know that coaching's an alternative, and I can help them learn some basic skills around this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 151,
+          "t": [
+            763,
+            763
+          ],
+          "quote": "Yeah, it's an urgent issue and you actually have an answer that you want to drive. So, don't coach and make it a game. You want your person on your team to guess what's in your mind. That's not a good time to coach. You have something you absolutely want them to do. You know the right answer. You want them to be motivated to go do it. Advise them. Help them see the path. But most leaders over-index on that solution. So, I want to share. Maybe Lenny, I can teach you two skills that I think are the basics of leader coaching-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 189,
+          "t": [
+            910.774,
+            918.998
+          ],
+          "quote": "So, dropping into level three listening is what great leaders do when they're influencing, when they're selling, when they're pitching a vision, and definitely when they're coaching.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1040.704,
+            1048.288
+          ],
+          "quote": "So, what I want to invite listeners to understand is that active listening doesn't mean you're setting up an hour coaching session with every person on your team.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1113.523,
+            1116.879
+          ],
+          "quote": "Okay, so this is a core skill of coaching is active listening.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1324.947,
+            1326.429
+          ],
+          "quote": "That's a premise of coaching.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1370.889,
+            1376.572
+          ],
+          "quote": "So, coaching in a manager or a leader context is not the same as in an executive coaching conversation.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1379.954,
+            1386.857
+          ],
+          "quote": "You're not setting up an hour-long coaching session, you're just using coaching as an additional tool in your toolkit from advising.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1517.487,
+            1519.648
+          ],
+          "quote": "So, he came to me and we started coaching together.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1532.612,
+            1541.214
+          ],
+          "quote": "But with some coaching, he realized he was training his team to come to him with every decision because he had always operated that way.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 353,
+          "t": [
+            1578.766,
+            1597.332
+          ],
+          "quote": "So, we really invested in this idea of I'm going to start to set the system up so we have a product review every two weeks, they each have clear KPIs they're driving to that we co-design, and for this next quarter, I'm shifting from the role of deciding on everything to coaching.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1629.109,
+            1638.74
+          ],
+          "quote": "So that's more of a global example of what results from leaders shifting from the mode of solving every problem to coaching.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 528,
+          "t": [
+            2301.423,
+            2304
+          ],
+          "quote": "Yeah, I'm trying to do very simple coaching right now, just [inaudible 00:38:25]-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 606,
+          "t": [
+            2571.163,
+            2577.527
+          ],
+          "quote": "I remember when I was coaching top talent at Stripe, Patrick Collison is really committed to retaining top talent.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 608,
+          "t": [
+            2585.071,
+            2587.993
+          ],
+          "quote": "And we looked at their engagement scores, we did coaching circles.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 681,
+          "t": [
+            2932.998,
+            2936
+          ],
+          "quote": "But what I have in the back of my mind is I'm honing my coaching skills.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 682,
+          "t": [
+            2936.801,
+            2947.949
+          ],
+          "quote": "And so when this opportunity to work on top talent retention came about, it was very aligned in the realm of coaching and L&D, background that I had.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 933,
+          "t": [
+            4188.44,
+            4196.704
+          ],
+          "quote": "And over our coaching, they turned back towards each other and they created more of a rhythm of how they would get together without me involved.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 934,
+          "t": [
+            4197.944,
+            4203.867
+          ],
+          "quote": "And they ended coaching after our arc feeling renewed and really recommitted.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 950,
+          "t": [
+            4314.145,
+            4316.63
+          ],
+          "quote": "The other takeaway here is that just get coaching.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1263,
+          "t": [
+            5820.61,
+            5825.514
+          ],
+          "quote": "I guess that is the question here, just how has AI changed, I guess coaching, as a coach?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1264,
+          "t": [
+            5825.994,
+            5832.96
+          ],
+          "quote": "But also just, from a client's perspective, how are people using AI to help them in their, I guess life, from a coaching perspective?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1289,
+          "t": [
+            5957.32,
+            5973.786
+          ],
+          "quote": "So I'm curious about the future of coaching, how in between sessions, clients can get access to more of an AI support, where the bot has all of their context, their development plan that we create at the beginning.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1297,
+          "t": [
+            5999.795,
+            6006.337
+          ],
+          "quote": "I see personal coaching as still critical for, \"What is your vision of your life?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1308,
+          "t": [
+            6025.104,
+            6034.715
+          ],
+          "quote": "It's not replacing coaching and therapists, let's say, but it's adding a lot more in-between time where you could just talk to us, based on everything you've talked about, all the frameworks that you use.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1317,
+          "t": [
+            6059.201,
+            6067.544
+          ],
+          "quote": "There's a lot of research on this, but it's also obvious in my coaching sessions, that people feel more alienated from one another.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1383,
+          "t": [
+            6281.429,
+            6287.519
+          ],
+          "quote": "Listeners should turn towards each other, build great relationships, and send CEOs and co-founders my way if they need coaching.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "grow-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "GROW 模型 (GROW model)",
+      "file": "GROW 模型",
+      "primary": true,
+      "how_described": "本集将其描述为构建辅导提问的四个强力问题类别，代表目标、当前现实、选项和前进的道路。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 251,
+          "t": [
+            1157.64,
+            1160.921
+          ],
+          "quote": "So, the first kind is I use a GROW model.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1161.081,
+            1165.423
+          ],
+          "quote": "So, the GROW model just is four different categories of kinds of powerful questions.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1176.566,
+            1179.567
+          ],
+          "quote": "The R in the GROW model is about your current reality.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1196.992,
+            1199.853
+          ],
+          "quote": "And the W in the GROW model is the way forward.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2398.829,
+            2403.691
+          ],
+          "quote": "So even with that kind of topic, using a simple grow model can be useful.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "active-listening",
+      "type": "concept",
+      "role": "concept",
+      "name": "积极倾听 (active listening)",
+      "file": "积极倾听",
+      "primary": true,
+      "how_described": "本集将其分为三个层次：内在倾听、专注倾听和全局倾听，并指出优秀的领导者能察觉对方话语之下的情绪和肢体语言。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 161,
+          "t": [
+            811.541,
+            814.584
+          ],
+          "quote": "So, the first skill is active listening.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1014.168,
+            1017.536
+          ],
+          "quote": "Clearly, you listened to everything I said and that was a really good example of active listening.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1040.704,
+            1048.288
+          ],
+          "quote": "So, what I want to invite listeners to understand is that active listening doesn't mean you're setting up an hour coaching session with every person on your team.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1081.031,
+            1088.078
+          ],
+          "quote": "But knowing that you're listening to me and you're going to show me active listening, it still feels really nice to just hear back what I said.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1113.523,
+            1116.879
+          ],
+          "quote": "Okay, so this is a core skill of coaching is active listening.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 880,
+          "t": [
+            3914.168,
+            3933.416
+          ],
+          "quote": "Active listening skills will come in handy in those conversations, but it's about taking space out of hustling and running the business to think about the business from a like to say, instead of being on the dance floor, you need time on the balcony to look down at what's happening.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "nonviolent-communication",
+      "type": "concept",
+      "role": "concept",
+      "name": "非暴力沟通 (Nonviolent Communication)",
+      "file": "非暴力沟通",
+      "primary": true,
+      "how_described": "本集将其作为处理冲突的四步框架：陈述客观事实、表达感受、点出未被满足的需要、提出具体请求，核心是始终留在「自己这半场」陈述问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 970,
+          "t": [
+            4440.222,
+            4443.243
+          ],
+          "quote": "It's from Marshall Rosenberg's Nonviolent Communication.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1101,
+          "t": [
+            5090.975,
+            5093.116
+          ],
+          "quote": "Do you use the nonviolent communication framework?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1119,
+          "t": [
+            5172.284,
+            5176.358
+          ],
+          "quote": "And there's a nonviolent communication book, if folks are into the framework, and want to check it out.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "burnout",
+      "type": "concept",
+      "role": "concept",
+      "name": "职业倦怠 (burnout)",
+      "file": "职业倦怠",
+      "primary": true,
+      "how_described": "本集指出，当领导者长期把时间花在消耗自己精力的事情上（而非自身天赋和优势所在），就会像油箱慢漏气一样精疲力竭。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            57.623,
+            61
+          ],
+          "quote": "Talk about what you've learned about helping leaders in tech avoid burnout.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2519.482,
+            2523
+          ],
+          "quote": "This is a good segway to something I wanted to spend a little time on, which is burnout.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 597,
+          "t": [
+            2525,
+            2525
+          ],
+          "quote": "What I'm talking about is stuff that often leads to burnout. I'm definitely not burnt out, but this is a common problem in tech. Where people feel depleted and just go too hard. So many people I've worked with just left tech. I had a colleague at Airbnb, he's like a park ranger now near woods. That's how far tech-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 602,
+          "t": [
+            2558.952,
+            2566.48
+          ],
+          "quote": "So just talk about what you've learned about helping leaders in tech avoid burnout and feel energized and excited about their work for a long time.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "co-founder",
+      "type": "concept",
+      "role": "concept",
+      "name": "联合创始人 (co-founder)",
+      "file": "联合创始人",
+      "primary": true,
+      "how_described": "本集指出他们之间的关系像极高压环境下的婚姻，并建议定期深度复盘和写下明确处理分歧方式的「誓言」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 806,
+          "t": [
+            3491.552,
+            3498.817
+          ],
+          "quote": "And then Darmesh, co-founder of HubSpot, he knew from the beginning he didn't want to manage people, so he made a rule with his co-founder, \"I will never have reports.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 830,
+          "t": [
+            3626.695,
+            3631.417
+          ],
+          "quote": "And in my experience one of the most challenging parts of starting a company is the co-founder relationship.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 841,
+          "t": [
+            3683.51,
+            3687.932
+          ],
+          "quote": "So there's so much energy in the co-founder dynamic for me and for co-founders themselves.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 846,
+          "t": [
+            3710.82,
+            3727.686
+          ],
+          "quote": "In fact, I know you probably know this stat, 65% of startups fail because of co-founder conflict, and co-founders are in a moment where they're trying to build the future for their business, but also trying to build their own livelihood.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 847,
+          "t": [
+            3727.706,
+            3730.387
+          ],
+          "quote": "So there's so much at stake to get along with your co-founder.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 865,
+          "t": [
+            3821.303,
+            3837.09
+          ],
+          "quote": "In a marriage, for example, I talk about co-founder vows and recommitments and renewals because in a marriage you get married, and a lot of times people build a family and then they think, \"Oh, the relationship will just continue around each other all the time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 874,
+          "t": [
+            3885.257,
+            3889.38
+          ],
+          "quote": "That space is critical for the health of a co-founder relationship.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 889,
+          "t": [
+            3957.254,
+            3962.64
+          ],
+          "quote": "These are things you can go into intentionally and design with your co-founder.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 924,
+          "t": [
+            4123.949,
+            4129.891
+          ],
+          "quote": "And I think someone said, \"End it or send,\" was what one co-founder said to me.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 938,
+          "t": [
+            4225.456,
+            4234.739
+          ],
+          "quote": "I had one last week where we all came together, we had a great full day in-person discussion about how they were making this co-founder duo, how they were making decisions.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 946,
+          "t": [
+            4284.582,
+            4292.948
+          ],
+          "quote": "So the only difference is a marriage is rooted in sexual attraction and love, and that's not the case always in the co-founder dynamic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 947,
+          "t": [
+            4293.288,
+            4300.673
+          ],
+          "quote": "But I have worked with couples who are also co-founders, but there should be some element of love for your co-founder.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 960,
+          "t": [
+            4355.36,
+            4367.937
+          ],
+          "quote": "Outside of the co-founder relationship, do you have any just tactical tips for people to improve their interpersonal skills with just team members, anyone they work with, just people that may struggle like, \"Man, I have a hard time with this person.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1107,
+          "t": [
+            5117.34,
+            5126.444
+          ],
+          "quote": "For example, I was working with a CEO whose co-founder was constantly undercutting his decisions, and criticizing him.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1111,
+          "t": [
+            5147.754,
+            5152.776
+          ],
+          "quote": "And it turned out that the co-founder was really frustrated with how he was spending his time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1242,
+          "t": [
+            5725.44,
+            5731.204
+          ],
+          "quote": "So just like I said in co-founder dynamics, a key is to step out of the dance floor and to get onto the balcony.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "one-page-plan",
+      "type": "concept",
+      "role": "concept",
+      "name": "一页纸计划 (one-page plan)",
+      "file": "一页纸计划",
+      "primary": true,
+      "how_described": "本集把它描述为一种将愿景、价值观、战略意图和目标拉通在同一页纸上的对齐方法，它源于以人为本的运营节奏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1204,
+          "t": [
+            5520.349,
+            5531.076
+          ],
+          "quote": "And something that you help leaders do is create a very specific way of operating around a one-page plan, and how that kind of trickles down and just makes everything at a company more effective.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1205,
+          "t": [
+            5531.856,
+            5536.179
+          ],
+          "quote": "Talk about this one-page plan, how you recommend companies operate with this.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1211,
+          "t": [
+            5570,
+            5574.063
+          ],
+          "quote": "So the reason I like the one-page plan concept is, it's simplifying.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1215,
+          "t": [
+            5594.16,
+            5598.162
+          ],
+          "quote": "So I actually got this idea of the one-page plan from Alpine Investors.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1219,
+          "t": [
+            5614.908,
+            5616.849
+          ],
+          "quote": "So it's not just about a one-page plan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1227,
+          "t": [
+            5670.161,
+            5673
+          ],
+          "quote": "We're going to hopefully link to a template of this one-page plan?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1244,
+          "t": [
+            5741.731,
+            5746.794
+          ],
+          "quote": "So around this one-page plan, the reason I like a rhythm, is you can kick off the year with the plan.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "monkey-on-the-back",
+      "type": "concept",
+      "role": "concept",
+      "name": "背上的猴子 (monkey on the back)",
+      "file": "背上的猴子",
+      "primary": false,
+      "how_described": "借用《哈佛商业评论》的比喻，指领导者应通过提问帮员工自行解决问题，而不是顺手把代表问题的「猴子」接过来自己养。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 127,
+          "t": [
+            697.692,
+            700.056
+          ],
+          "quote": "It's like 30 years ago maybe about the monkey on the back.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 137,
+          "t": [
+            717.273,
+            723.54
+          ],
+          "quote": "And the role of a leader is to keep the monkey on the back of the person and help them figure out how to solve the problem, exactly what you're describing.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "zone-of-genius",
+      "type": "concept",
+      "role": "concept",
+      "name": "天才领域 (zone of genius)",
+      "file": "天才领域",
+      "primary": false,
+      "how_described": "本集建议领导者盘点自身能量来源，以主动设计自己的工作，争取将80%的时间都花在自己天生擅长的这个领域里。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 665,
+          "t": [
+            2878.429,
+            2881.791
+          ],
+          "quote": "So there's various ways you can get to what is your zone of genius?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 767,
+          "t": [
+            3295.58,
+            3314.429
+          ],
+          "quote": "And he said, \"Rachel, you're a zone of genius or your gift is not being a product strategist, but I've watched you over the last few months, and you have gotten the team more motivated than I ever could, and you've influenced the entire executive team behind your ideas, and that's impressive.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1313,
+          "t": [
+            6043.306,
+            6044
+          ],
+          "quote": "It's not your zone of genius.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "people-first-operating-rhythm",
+      "type": "concept",
+      "role": "concept",
+      "name": "以人为本的运营节奏 (People First Operating Rhythm)",
+      "file": "以人为本的运营节奏",
+      "primary": false,
+      "how_described": "源自投资机构 Alpine Investors 的方法，要求公司把愿景、战略和各周期目标放在同一页上，并定期走出日常运营进行反思。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1216,
+          "t": [
+            5598.642,
+            5606.665
+          ],
+          "quote": "They have something called the People First Operating Rhythm, and they've successfully implemented that at their portfolio companies.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1225,
+          "t": [
+            5648.944,
+            5657.03
+          ],
+          "quote": "They've collected some data that their portfolio companies that actually institute the People First Operating Rhythm result in higher returns.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "enneagram",
+      "type": "concept",
+      "role": "concept",
+      "name": "九型人格 (Enneagram)",
+      "file": "九型人格",
+      "primary": false,
+      "how_described": "本集将其作为帮助联合创始人建立自我认知和通用语言的人格评估工具之一，以便认清彼此在互动中带来的动态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 852,
+          "t": [
+            3756.917,
+            3765.96
+          ],
+          "quote": "I like to use the Enneagram for this, but there's all kinds of tools, self-awareness tools that you can use to give a common language to what is my thing and what is your thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 891,
+          "t": [
+            3963.341,
+            3972
+          ],
+          "quote": "We're going to link to that post The first step, Enneagram sounds like that's what you recommend, and this is basically a personality profile that a lot of people love.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 892,
+          "t": [
+            3972.3,
+            3973.381
+          ],
+          "quote": "I really like the Enneagram.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "嘉宾曾长期担任该公司的HR领导者，并在此期间为技术高管设计了旨在避免倦怠、留住顶尖人才的项目。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            94,
+            103.824
+          ],
+          "quote": "The main thing I struggle with these days is just... Today, my guest is Rachel Lockett, an executive coach and former longtime HR leader at Pinterest and at Stripe.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 33,
+          "t": [
+            146,
+            160.312
+          ],
+          "quote": "And if you become an annual subscriber of my newsletter, you get a year free of a ton of incredible products, including Devon Lovable, Replit Bolt, NNN, Linear, Superhuman, Descript, Wispr Flow, Gamma, Perplexity, Warp, Granola, Magic Patterns, Raycast, JPRD, Mobin, and Stripe Atlas.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 37,
+          "t": [
+            174.963,
+            178.565
+          ],
+          "quote": "Stripe processed just over $1.4 trillion last year.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 40,
+          "t": [
+            188.19,
+            198.075
+          ],
+          "quote": "Stripe handles the massive scale and complexity of many of the world's fastest-growing enterprises, including 78% of the Forbes AI 50 and more than half of the Fortune 100.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 41,
+          "t": [
+            199.116,
+            203.238
+          ],
+          "quote": "There's a reason I've had more leaders from Stripe on this podcast than any other company.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 43,
+          "t": [
+            207.74,
+            210.202
+          ],
+          "quote": "Stripe is also a lot more than just payments.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 45,
+          "t": [
+            218.307,
+            227.592
+          ],
+          "quote": "Enterprises like Atlassian, Figma, and Urban use Stripe to create fully branded and customized checkout pages with access to more than 125 global payment methods.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 46,
+          "t": [
+            228.132,
+            235.997
+          ],
+          "quote": "Join the ranks of industry leaders like Salesforce, OpenAI, and Pepsi that are using Stripe to grow faster and grow GDP.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 47,
+          "t": [
+            236.537,
+            239.559
+          ],
+          "quote": "Learn how Stripe can help your business grow at stripe.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 606,
+          "t": [
+            2571.163,
+            2577.527
+          ],
+          "quote": "I remember when I was coaching top talent at Stripe, Patrick Collison is really committed to retaining top talent.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 677,
+          "t": [
+            2913.484,
+            2922.61
+          ],
+          "quote": "So for example, when I was an HR business partner, my boss bought into this and I explained to her, \"Hey, I started at Stripe because I actually know I'm going to be a coach.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 781,
+          "t": [
+            3347.963,
+            3358.767
+          ],
+          "quote": "And Zach, who was a gifted product strategist, went on to lead product at Coinbase and BREX and most recently Bridge, which was acquired by Stripe, and he's still my client.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1148,
+          "t": [
+            5258.267,
+            5260.148
+          ],
+          "quote": "Which is the question we always asked at Stripe.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1153,
+          "t": [
+            5282.762,
+            5284.384
+          ],
+          "quote": "I did not know Stripe operated that way.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "pinterest",
+      "type": "company",
+      "role": "company",
+      "name": "Pinterest",
+      "file": "Pinterest",
+      "primary": false,
+      "how_described": "在开场介绍中被提及，是高管教练嘉宾曾经长期领导人力资源团队的知名科技公司之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            94,
+            103.824
+          ],
+          "quote": "The main thing I struggle with these days is just... Today, my guest is Rachel Lockett, an executive coach and former longtime HR leader at Pinterest and at Stripe.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "alpine-investors",
+      "type": "company",
+      "role": "company",
+      "name": "Alpine Investors",
+      "file": "Alpine Investors",
+      "primary": false,
+      "how_described": "一家投资机构，本集讨论的「一页纸计划」和「以人为本的运营节奏」等组织管理框架正源自该机构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1215,
+          "t": [
+            5594.16,
+            5598.162
+          ],
+          "quote": "So I actually got this idea of the one-page plan from Alpine Investors.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1255,
+          "t": [
+            5805,
+            5805
+          ],
+          "quote": "Wait, Alpine Investors, Graham Weaver. He was on the podcast.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "coinbase",
+      "type": "company",
+      "role": "company",
+      "name": "Coinbase",
+      "file": "Coinbase",
+      "primary": false,
+      "how_described": "在嘉宾分享的个人成长案例中被提及，是她一位从一线工程经理一路成长为客户社区负责人的客户曾经就职的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            428.02,
+            439.945
+          ],
+          "quote": "I started working with him when he was a frontline engineering manager at Coinbase, and we talked about who he is, what his strengths are, and his bigger picture why.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 96,
+          "t": [
+            482,
+            487.619
+          ],
+          "quote": "... but he's running a community, a global community for Coinbase called Base and the Base app.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 781,
+          "t": [
+            3347.963,
+            3358.767
+          ],
+          "quote": "And Zach, who was a gifted product strategist, went on to lead product at Coinbase and BREX and most recently Bridge, which was acquired by Stripe, and he's still my client.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

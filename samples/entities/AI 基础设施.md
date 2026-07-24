@@ -6,13 +6,35 @@ entity_type: 概念
 # AI 基础设施 (AI infrastructure)
 
 > [!info] 概念
-> 出现在 1 集 · 金句 22 条 · 关联 10 个
+> 出现在 1 集 · 金句 33 条 · 关联 10 个
 
 ## 集里怎么说它
 
 - **[[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]]**(01:20起):本集将其描述为当下全球正大规模投资建设的关键底座，指出算力、网络带宽的短缺是制约 AI 发展的主要瓶颈。
 
 ## 金句
+
+![[2025-11-16-lennys-the-godmother-of-ai#^q2]]
+
+![[2025-11-16-lennys-the-godmother-of-ai#^q3]]
+
+![[2025-11-16-lennys-the-godmother-of-ai#^q4]]
+
+![[2025-11-30-lennys-what-the-best-gtm-teams-do-differently#^q3]]
+
+![[2025-12-28-lennys-10-contrarian-leadership-truths#^q20]]
+
+![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q2]]
+
+![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q3]]
+
+![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q4]]
+
+![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q8]]
+
+![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q4]]
+
+![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q5]]
 
 ![[2026-02-26-lennys-ai-is-critical-for-humanitys-survival#^q1]]
 

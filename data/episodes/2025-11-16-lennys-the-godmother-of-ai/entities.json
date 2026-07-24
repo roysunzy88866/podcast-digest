@@ -1,0 +1,1648 @@
+{
+  "episode_id": "2025-11-16-lennys-the-godmother-of-ai",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-11-16",
+  "tags": [
+    "AI 简史",
+    "世界模型",
+    "空间智能",
+    "具身智能",
+    "创始人经验"
+  ],
+  "entities": [
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            277.138,
+            278.559
+          ],
+          "quote": "Check it out at figma.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 61,
+          "t": [
+            334.566,
+            335.939
+          ],
+          "quote": "I'm excited to be here, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 74,
+          "t": [
+            390.06,
+            392.561
+          ],
+          "quote": "Yeah, okay, so Lenny, let me be very clear.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1453.3,
+            1455.681
+          ],
+          "quote": "Yeah, this is a very interesting term, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 304,
+          "t": [
+            2096.08,
+            2097.24
+          ],
+          "quote": "That's part of it, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 348,
+          "t": [
+            2427.308,
+            2436.134
+          ],
+          "quote": "Sinch is already helping major brands send RCS messages around the world and they're helping Lenny's podcast listeners get registered first before the rush hits the US market.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 349,
+          "t": [
+            2436.634,
+            2439.116
+          ],
+          "quote": "Learn more and get started at sinch.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 350,
+          "t": [
+            2439.156,
+            2440.437
+          ],
+          "quote": "That's S-I-N-C-H.com/lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 554,
+          "t": [
+            3925.64,
+            3940.004
+          ],
+          "quote": "Yeah, this is actually a great question, Lenny, because I do think about it, and obviously we talked about it's curiosity and passion that brought me to AI, that is more a scientific north star, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 613,
+          "t": [
+            4492.38,
+            4495.341
+          ],
+          "quote": "I am very excited by AI, Lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 646,
+          "t": [
+            4744.747,
+            4745.475
+          ],
+          "quote": "Thank you, Lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "dr-fei-fei-li",
+      "type": "person",
+      "role": "cohost",
+      "name": "Dr. Fei-Fei Li",
+      "file": "Dr. Fei-Fei Li",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            96.22,
+            100.562
+          ],
+          "quote": "Today, my guest is Dr. Fei-Fei Li, who's known as the godmother of AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 38,
+          "t": [
+            212.274,
+            216.419
+          ],
+          "quote": "With that, I bring you Dr. Fei-Fei Li after a short word from our sponsors.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "world-labs",
+      "type": "company",
+      "role": "company",
+      "name": "World Labs",
+      "file": "World Labs",
+      "primary": true,
+      "how_described": "本集说它是一家由李飞飞创立的基础前沿模型公司，专注于空间智能和世界建模，团队约30人，现已推出首款产品 Marble。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 299,
+          "t": [
+            2068.817,
+            2071.918
+          ],
+          "quote": "And that's when we founded this company called World Labs.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 353,
+          "t": [
+            2451.02,
+            2457
+          ],
+          "quote": "Yeah, we've known each other for many years, but yes, right now they're investors of World Labs.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2896.001,
+            2901.662
+          ],
+          "quote": "So first of all, Marble is one of the first product that World Labs has rolled out.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2902.162,
+            2905.843
+          ],
+          "quote": "World Labs is a foundation frontier model company.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 493,
+          "t": [
+            3466.62,
+            3477.983
+          ],
+          "quote": "World Labs' thesis is that spatial intelligence is fundamentally very important, and spatial intelligence is not just about videos.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 556,
+          "t": [
+            3945.725,
+            3962.97
+          ],
+          "quote": "But how did I end up choosing in the particular places I work in, including starting World Labs, is I think I'm very grateful to myself or maybe to my parents' genes.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 569,
+          "t": [
+            4092.211,
+            4093.492
+          ],
+          "quote": "The same with World Labs.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 577,
+          "t": [
+            4124,
+            4135.543
+          ],
+          "quote": "I do want to say one thing to all the young talents in AI, the engineers, the researchers out there, because some of you apply to World Labs, I feel very privileged you considered World Labs.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 634,
+          "t": [
+            4709.094,
+            4712.759
+          ],
+          "quote": "Where can they go, maybe try to join World Labs if they want to?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 637,
+          "t": [
+            4714.821,
+            4725.828
+          ],
+          "quote": "Well, World Labs website is www.worldlabs.ai and you can find our research progress there.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "marble",
+      "type": "company",
+      "role": "company",
+      "name": "Marble",
+      "file": "Marble",
+      "primary": true,
+      "how_described": "本集说它是 World Labs 推出的世界上首个能真正生成可探索 3D 世界的产品，能将电影虚拟制作时间缩短 40 倍，也可用于机器人仿真和心理治疗。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            169.588,
+            188.455
+          ],
+          "quote": "We also chat about her take on how she sees AI impacting humanity in the future, how far current technologies will take us, why she's so passionate about building a world model and what exactly world models are, and most exciting of all, the launch of the world's first large world model, Marble, which just came out as this podcast comes out.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 32,
+          "t": [
+            188.775,
+            192.096
+          ],
+          "quote": "Anyone can go play with this at marble.worldlabs.ai.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2885.925,
+            2887.548
+          ],
+          "quote": "It's called Marble, a very cute name.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2893.359,
+            2893.82
+          ],
+          "quote": "What is Marble?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2896.001,
+            2901.662
+          ],
+          "quote": "So first of all, Marble is one of the first product that World Labs has rolled out.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2948.954,
+            2955.456
+          ],
+          "quote": "So Marble is an app that's built upon our frontier models.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 431,
+          "t": [
+            3041.656,
+            3045.957
+          ],
+          "quote": "So we developed Marble as a first step.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 459,
+          "t": [
+            3179,
+            3180
+          ],
+          "quote": "Yeah, so we do believe that world modeling is very horizontal, but we're already seeing some really exciting use cases, virtual production for movies, because what they need are 3D worlds that they can align with the camera. So when the actors are acting on it, they can position the camera and shoot the segments really well. And we're already seeing incredible use. In fact, I don't know if you have seen our launch video showing Marble. It was produced by a virtual production company. We collaborated with Sony and they use Marble scenes to shoot those videos. So we were collaborating with those technical artists and directors, and they were saying, this has cut our production time by 40X. In fact, it has to-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 462,
+          "t": [
+            3249.023,
+            3258.946
+          ],
+          "quote": "So using Marble really, really significantly accelerated the virtual production for VFX and movies.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 464,
+          "t": [
+            3260.666,
+            3275.53
+          ],
+          "quote": "We are already seeing our users taking our Marble scene and taking the mesh export and putting games, whether it's games on VR or just fun games that they have developed.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 472,
+          "t": [
+            3319.562,
+            3325.684
+          ],
+          "quote": "So we already have researchers reaching out and wanting to use Marble to create those synthetic environments.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 473,
+          "t": [
+            3326.364,
+            3335.706
+          ],
+          "quote": "We also have unexpected user outreach in terms of how they want to use Marble.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 474,
+          "t": [
+            3335.786,
+            3343.347
+          ],
+          "quote": "For example, a psychologist team called us to use Marble to do psychology research.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 478,
+          "t": [
+            3374.555,
+            3385.097
+          ],
+          "quote": "And Marble is a really almost instantaneous way of getting so many of these experimental environments into their hands.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 487,
+          "t": [
+            3432.703,
+            3440.274
+          ],
+          "quote": "A friend of mine last night literally called me and talked about his height scare and asked me if Marble should be used.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 504,
+          "t": [
+            3594.232,
+            3617.539
+          ],
+          "quote": "So part of our technology includes that, but I think Marble is very different because we really want creators, designers, developers to have in their hands a model that can give them worlds with 3D structures so they can use it for their work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 505,
+          "t": [
+            3617.719,
+            3620.7
+          ],
+          "quote": "And that's why Marble is so different.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 510,
+          "t": [
+            3633.36,
+            3638.544
+          ],
+          "quote": "By the way, we could in Marble, we could allow people to export in video forms.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 512,
+          "t": [
+            3645.429,
+            3661.76
+          ],
+          "quote": "You can actually, especially as a creator, you have such a specific way of moving the camera in a trajectory in the director's mind, and then you can export that from Marble into a video.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 621,
+          "t": [
+            4592.888,
+            4594.609
+          ],
+          "quote": "In fact, embrace Marble.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 633,
+          "t": [
+            4707.673,
+            4709.054
+          ],
+          "quote": "Final question, where can folks find Marble?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 639,
+          "t": [
+            4728.19,
+            4730.232
+          ],
+          "quote": "You can find Marble, the product there.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "imagenet",
+      "type": "concept",
+      "role": "concept",
+      "name": "ImageNet",
+      "file": "ImageNet",
+      "primary": true,
+      "how_described": "本集说它是 2006 年启动、精心整理了 1500 万张图像并分类出 22000 个概念的开源数据集，被视为打破 AI 寒冬、引爆深度学习浪潮的那簇火花。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            108.365,
+            121.53
+          ],
+          "quote": "She spearheaded the creation of ImageNet, which was basically her realizing that AI needed a ton of clean-labeled data to get smarter, and that data set became the breakthrough that led to the current approach to building and scaling AI models.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 117,
+          "t": [
+            631.095,
+            643.6
+          ],
+          "quote": "So I thought it'd be really interesting to hear from you just the brief history of what the world was like before ImageNet and just the work you did to create ImageNet, why that was so important, and then just what happened after.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 162,
+          "t": [
+            1057.672,
+            1062.534
+          ],
+          "quote": "And then we began this ImageNet project in 2006, 2007.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1108.067,
+            1114.709
+          ],
+          "quote": "And we combine that into ImageNet and we open-sourced that to the research community.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 170,
+          "t": [
+            1114.809,
+            1121.611
+          ],
+          "quote": "We held an annual ImageNet challenge to encourage everybody to participate in this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1122.091,
+            1150.36
+          ],
+          "quote": "We continue to do our own research, but 2012 was the moment that many people think was the beginning of the deep learning or birth of modern AI because a group of Toronto researchers led by Professor Geoff Hinton, participated in ImageNet Challenge, used ImageNet big data and two GPUs from NVIDIA and created successfully the first neural network algorithm that can...",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1565.34,
+            1579.427
+          ],
+          "quote": "So let me ask you maybe this way, like you described, there's kind of these components that from ImageNet and AlexNet took us to where we're today, GPUs essentially, data, label data, just like the algorithm of the model.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 359,
+          "t": [
+            2512.67,
+            2517.472
+          ],
+          "quote": "I mean, that was actually... This paper came years after ImageNet.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2521.533,
+            2527.335
+          ],
+          "quote": "That's why I built ImageNet because I believe that big data plays that role.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 551,
+          "t": [
+            3901.908,
+            3909.312
+          ],
+          "quote": "Obviously, we talk about ImageNet also just SAIL at Stanford is where a lot of the work happened, Google Cloud, which a lot of the breakthroughs happened.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "spatial-intelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "空间智能 (spatial intelligence)",
+      "file": "空间智能",
+      "primary": true,
+      "how_described": "本集说它是语言模型之外缺失的下一块核心拼图，指的是感知、推理并与三维物理世界交互的能力，也是李飞飞创立 World Labs 的核心技术基石。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 289,
+          "t": [
+            1930.483,
+            1955.449
+          ],
+          "quote": "Of course, I come from the world of visual intelligence and I was just thinking there's so much we can push forward beyond language because humans, humans use our sense of spatial intelligence, a world understanding to do so many things and they are beyond language.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 295,
+          "t": [
+            2005.681,
+            2033.108
+          ],
+          "quote": "And in the meantime, I was doing a lot of robotics research and it dawned on me that the linchpin of connecting the additional intelligence, in addition to language embodied AI, which are robotics, connecting visual intelligence, is the sense of spatial intelligence about understanding the world.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 296,
+          "t": [
+            2033.808,
+            2042.81
+          ],
+          "quote": "And that's when I think it was 2024, I gave a TED talk about spatial intelligence at world models.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 300,
+          "t": [
+            2071.998,
+            2080.98
+          ],
+          "quote": "And you can see the word world is in the title of our company because we believe so much in world modeling and spatial intelligence.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 316,
+          "t": [
+            2185.203,
+            2193.026
+          ],
+          "quote": "I think world modeling and spatial intelligence is a key missing piece of embodied AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 319,
+          "t": [
+            2215.633,
+            2234.2
+          ],
+          "quote": "I think that we shouldn't underestimate or maybe we tend not to talk about how humans, as an embodied agents, can actually benefit so much from world models and spatial intelligence models as well as robots can.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 331,
+          "t": [
+            2332.036,
+            2338.918
+          ],
+          "quote": "You have to think in 3D spatial, use the human spatial intelligence.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 332,
+          "t": [
+            2339.338,
+            2347.6
+          ],
+          "quote": "So I think even in scientific discovery, spatial intelligence or AI-assisted spatial intelligence is critical.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2589.212,
+            2615.96
+          ],
+          "quote": "But if you think about what made language model worth a very... As someone who does computer vision and spatial intelligence and robotics, I'm very jealous of my colleagues in language because they had this perfect setup where their training data are in words, eventually tokens, and then they produce a model that outputs words.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2628.763,
+            2630.524
+          ],
+          "quote": "Even spatial intelligence is different.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2817.832,
+            2823.013
+          ],
+          "quote": "That's why I'm in robotics, that's why I'm in spatial intelligence and I'm excited by it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2917.266,
+            2935.291
+          ],
+          "quote": "We all come from the research field of AI, computer graphics, computer vision, and we believe that spatial intelligence and world modeling is as important, if not more, to language models and complementary to language models.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 493,
+          "t": [
+            3466.62,
+            3477.983
+          ],
+          "quote": "World Labs' thesis is that spatial intelligence is fundamentally very important, and spatial intelligence is not just about videos.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 500,
+          "t": [
+            3545.978,
+            3554
+          ],
+          "quote": "So spatial intelligence to me is deeper than only creating that flat 2D world.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 501,
+          "t": [
+            3554.64,
+            3572.646
+          ],
+          "quote": "Spatial intelligence to me is the ability to create, reason, interact, make sense of deeply spatial world, whether it's 2D or 3D or 4D, including dynamics and all that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 522,
+          "t": [
+            3708.352,
+            3724.457
+          ],
+          "quote": "We actually really believe that we want to create a company that's anchored in the deep tech of spatial intelligence, but we are actually building serious products.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "world-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "世界模型 (world model)",
+      "file": "世界模型",
+      "primary": true,
+      "how_described": "本集说它是一种能让任何人通过提示生成完整、可走进浏览、可交互甚至能让机器人规划路径的底层模型，是具身智能的关键枢纽。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            169.588,
+            188.455
+          ],
+          "quote": "We also chat about her take on how she sees AI impacting humanity in the future, how far current technologies will take us, why she's so passionate about building a world model and what exactly world models are, and most exciting of all, the launch of the world's first large world model, Marble, which just came out as this podcast comes out.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1813.931,
+            1814.731
+          ],
+          "quote": "This is a world model.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1831.039,
+            1832.06
+          ],
+          "quote": "Talk about what is a world model?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 302,
+          "t": [
+            2084.565,
+            2091.834
+          ],
+          "quote": "A simple way to understand a world model is you basically describe a scene and it generates an infinitely explorable world.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 305,
+          "t": [
+            2097.681,
+            2114.006
+          ],
+          "quote": "I think a simple way to understand a world model is that this model can allow anyone to create any worlds in their mind's eye by prompting whether it's an image or a sentence.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 306,
+          "t": [
+            2115.146,
+            2147.296
+          ],
+          "quote": "And also be able to interact in this world whether you are browsing and walking or picking objects up or changing things as well as to reason within this world, for example, if the person consuming, if the agent consuming this output of the world model is a robot, it should be able to plan its path and help to tidy the kitchen, for example.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 307,
+          "t": [
+            2148.036,
+            2159.22
+          ],
+          "quote": "So world model is a foundation that you can use to reason, to interact, and to create worlds.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": true,
+      "how_described": "本集说它更像是一个营销术语而不是科学术语；因为当前 AI 连蹒跚学步的小孩都能做到的数椅子任务都做不好，仅靠堆数据和算力还远不够实现它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 226,
+          "t": [
+            1435.822,
+            1443.27
+          ],
+          "quote": "It feels like we're always on this precipice of AGI, this kind of vague term people throw around, AGI is coming, it's going to take over everything.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1444.071,
+            1446.593
+          ],
+          "quote": "What's your take on how far you think we might be from AGI?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1457.982,
+            1464.104
+          ],
+          "quote": "I don't know if anyone has ever defined AGI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1483.231,
+            1484.971
+          ],
+          "quote": "Is that the definition of AGI?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1505.919,
+            1510
+          ],
+          "quote": "And from that point of view, I don't know what's the difference between AI and AGI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1523.685,
+            1547.234
+          ],
+          "quote": "And I think our founding fathers, Alan Turing, I wonder if Alan Turing is around today and you ask him to contrast AI versus AGI, he might just shrugged and said, \"Well, I asked the same question back in 1940s,\" so I don't want to get onto a rabbit hole of defining AI versus AGI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1547.714,
+            1554.856
+          ],
+          "quote": "I feel AGI is more a marketing term than a scientific term as a scientist than technologist.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1740.581,
+            1747.587
+          ],
+          "quote": "Demis had this really interesting interview recently from DeepMind slash Google where someone asked him just like, \"What do you think, how far are we from AGI?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "embodied-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "具身智能 (embodied AI)",
+      "file": "具身智能",
+      "primary": true,
+      "how_described": "本集说它主要指机器人技术，其发展需要物理身体、应用场景和供应链，且极度缺乏 3D 真实动作数据，比单纯的软件大模型面临更多物理层面的挑战。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 295,
+          "t": [
+            2005.681,
+            2033.108
+          ],
+          "quote": "And in the meantime, I was doing a lot of robotics research and it dawned on me that the linchpin of connecting the additional intelligence, in addition to language embodied AI, which are robotics, connecting visual intelligence, is the sense of spatial intelligence about understanding the world.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 316,
+          "t": [
+            2185.203,
+            2193.026
+          ],
+          "quote": "I think world modeling and spatial intelligence is a key missing piece of embodied AI.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "deep-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "深度学习 (deep learning)",
+      "file": "深度学习",
+      "primary": true,
+      "how_described": "本集将其描述为 2012 年多伦多大学团队用 GPU 和 ImageNet 大数据训练出能大幅推进物体识别算法后，正式迎来的现代 AI 爆发时代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 171,
+          "t": [
+            1122.091,
+            1150.36
+          ],
+          "quote": "We continue to do our own research, but 2012 was the moment that many people think was the beginning of the deep learning or birth of modern AI because a group of Toronto researchers led by Professor Geoff Hinton, participated in ImageNet Challenge, used ImageNet big data and two GPUs from NVIDIA and created successfully the first neural network algorithm that can...",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2799.826,
+            2812.93
+          ],
+          "quote": "So the journey is going to be, there's many aspects, elements, and of course one could say, well, the self-driving car, early algorithm were pre deep learning era.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2813.33,
+            2816.611
+          ],
+          "quote": "So deep learning is accelerating the brains.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "bitter-lesson",
+      "type": "concept",
+      "role": "concept",
+      "name": "苦涩的教训 (bitter lesson)",
+      "file": "苦涩的教训",
+      "primary": true,
+      "how_described": "本集解释这是 Richard Sutton 提出的观点，即简单模型加海量数据最终总会赢过复杂模型；但该定律在机器人领域受挫，因为机器人缺乏 3D 动作数据且是复杂的物理系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 355,
+          "t": [
+            2458.061,
+            2467.811
+          ],
+          "quote": "Okay, so I asked him what I should ask you about and he suggested ask you why is the bitter lesson alone not likely to work for robots?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 356,
+          "t": [
+            2468.311,
+            2475.318
+          ],
+          "quote": "So first of all, just explain what the bitter lesson was in the history of AI and then just why that won't get us to where we want to be with robots.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 362,
+          "t": [
+            2527.815,
+            2532.316
+          ],
+          "quote": "So why can't bitter lesson work in robotics alone?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2663.232,
+            2681.537
+          ],
+          "quote": "So then we have to start talking about adding supplementing data such as teleoperation data or synthetic data so that the robots are trained with this hypothesis of bitter lesson, which is large amount of data.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 382,
+          "t": [
+            2693.18,
+            2706.143
+          ],
+          "quote": "But I think we have to be careful because we're at the early days of this and bitter lesson is still to be tested because we haven't fully figured out the data for.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2706.903,
+            2721.447
+          ],
+          "quote": "Another part of the bitter lesson of robotics I think we should be so realistic about is again, compared to language models or even spatial models, robots are physical systems.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "neural-network",
+      "type": "concept",
+      "role": "concept",
+      "name": "神经网络 (neural network)",
+      "file": "神经网络",
+      "primary": true,
+      "how_described": "本集将其描述为现代 AI 黄金配方（大数据、神经网络、GPU）的核心技术之一，李飞飞在 AI 寒冬期间读博时就专攻这一方向。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            765.391,
+            782.015
+          ],
+          "quote": "And between the '50s, '60s, '70s, and '80s, it was the early days of AI exploration and we had logic systems, we had expert systems, we also had early exploration of neural network.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 143,
+          "t": [
+            873.78,
+            883.003
+          ],
+          "quote": "And so I was one of the first generation machine learning researchers and we were already studying this concept of machine learning, especially neural network.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 144,
+          "t": [
+            883.263,
+            890.646
+          ],
+          "quote": "I remember that was one of my first courses at Caltech is called neural network, but it was very painful.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 156,
+          "t": [
+            987.653,
+            1012.72
+          ],
+          "quote": "So I was among the first researchers to identify this as a north star problem, but I think what happened is that as a student of AI and a researcher of AI, I was working on all kinds of mathematical models including neural network, including Bayesian network, including many, many models.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1122.091,
+            1150.36
+          ],
+          "quote": "We continue to do our own research, but 2012 was the moment that many people think was the beginning of the deep learning or birth of modern AI because a group of Toronto researchers led by Professor Geoff Hinton, participated in ImageNet Challenge, used ImageNet big data and two GPUs from NVIDIA and created successfully the first neural network algorithm that can...",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1160.223,
+            1172.086
+          ],
+          "quote": "And that combination of the trio technology, big data, neural network, and GPU was kind of the golden recipe for modern AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 175,
+          "t": [
+            1193.533,
+            1209.598
+          ],
+          "quote": "Now, it's internet-scale data mostly texts is a much more complex neural network architecture than 2012, but it's still neural network and a lot more GPUs, but it's still GPUs.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "large-language-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "大型语言模型 (large language model)",
+      "file": "大型语言模型",
+      "primary": false,
+      "how_described": "本集说它的训练数据（文本）和输出（文本）完美对齐，但它无法应对真实物理世界的突发状况（如火灾救援），因此需要空间智能的补充。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 285,
+          "t": [
+            1875.63,
+            1905.577
+          ],
+          "quote": "I was co-director, I still am, but I was at that time full-time co-director of Stanford's Human-Centered AI institute, and I remember it was... The public was not aware of the power of the large language model yet, but as researchers, we were seeing it, we're seeing the future, and I had pretty long conversations with my natural language processing colleagues like Percy Liang and Chris Manning.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 301,
+          "t": [
+            2081.601,
+            2084.525
+          ],
+          "quote": "People are so used to just chatbots and that's a large language model.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2722.267,
+            2727.748
+          ],
+          "quote": "So robots are closer to self-driving cars than a large language model.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "machine-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器学习 (machine learning)",
+      "file": "机器学习",
+      "primary": false,
+      "how_described": "本集将其描述为 20 世纪 80 年代末到 21 世纪初，把计算机编程和统计学习结合起来，让机器自己学习模式的早期 AI 发展阶段。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            600.121,
+            610.946
+          ],
+          "quote": "But very few people know there was a long, long history of people working on, it was called machine learning back then and there's other terms, and now it's just everything's AI and there was kind of a long period of just a lot of people working on it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 132,
+          "t": [
+            792.637,
+            802.76
+          ],
+          "quote": "That stretch about 20 years is actually the beginning of machine learning, is the marriage between computer programming and statistical learning.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 139,
+          "t": [
+            856.735,
+            860.817
+          ],
+          "quote": "And we, as a field, realized, \"We need machine learning.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 143,
+          "t": [
+            873.78,
+            883.003
+          ],
+          "quote": "And so I was one of the first generation machine learning researchers and we were already studying this concept of machine learning, especially neural network.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1281.376,
+            1283.278
+          ],
+          "quote": "And it's called machine learning back then, right?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "object-recognition",
+      "type": "concept",
+      "role": "concept",
+      "name": "物体识别 (object recognition)",
+      "file": "物体识别",
+      "primary": false,
+      "how_described": "本集说它是李飞飞早期研究生涯致力于解决的「北极星」问题，因为人类在世界中感知、推理和互动，几乎都是在「物体」这个层面上进行的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 150,
+          "t": [
+            937.14,
+            956.145
+          ],
+          "quote": "So I choose to look at visual intelligence and my PhD and my early professor years, my students and I are very committed to a north star problem, which is solving the problem of object recognition because it's a building block for the perceptual world, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1152.44,
+            1159.222
+          ],
+          "quote": "It didn't totally solve, but made a huge progress towards solving the problem of object recognition.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "visual-intelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "视觉智能 (visual intelligence)",
+      "file": "视觉智能",
+      "primary": false,
+      "how_described": "本集说李飞飞选择通过视觉智能的视角来看待人工智能，因为人类是深深依赖视觉的动物。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            63.42,
+            71.145
+          ],
+          "quote": "I chose to look at artificial intelligence through the lens of visual intelligence because humans are deeply visual animals.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 147,
+          "t": [
+            903.229,
+            923.736
+          ],
+          "quote": "And I think two things happened to myself that brought my own career so close to the birth of modern AI is that I chose to look at artificial intelligence through the lens of visual intelligence because humans are deeply visual animals.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 150,
+          "t": [
+            937.14,
+            956.145
+          ],
+          "quote": "So I choose to look at visual intelligence and my PhD and my early professor years, my students and I are very committed to a north star problem, which is solving the problem of object recognition because it's a building block for the perceptual world, right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1930.483,
+            1955.449
+          ],
+          "quote": "Of course, I come from the world of visual intelligence and I was just thinking there's so much we can push forward beyond language because humans, humans use our sense of spatial intelligence, a world understanding to do so many things and they are beyond language.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 295,
+          "t": [
+            2005.681,
+            2033.108
+          ],
+          "quote": "And in the meantime, I was doing a lot of robotics research and it dawned on me that the linchpin of connecting the additional intelligence, in addition to language embodied AI, which are robotics, connecting visual intelligence, is the sense of spatial intelligence about understanding the world.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "synthetic-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "合成数据 (synthetic data)",
+      "file": "合成数据",
+      "primary": false,
+      "how_described": "本集说由于网络视频缺乏 3D 真实动作数据，机器人训练需要靠遥操作数据或合成数据来补充。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 380,
+          "t": [
+            2663.232,
+            2681.537
+          ],
+          "quote": "So then we have to start talking about adding supplementing data such as teleoperation data or synthetic data so that the robots are trained with this hypothesis of bitter lesson, which is large amount of data.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 466,
+          "t": [
+            3291.675,
+            3296.236
+          ],
+          "quote": "One of the biggest pain point is to create synthetic data for training robots.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 467,
+          "t": [
+            3296.656,
+            3299.257
+          ],
+          "quote": "And this synthetic data needs to be very diverse.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "human-centered-ai-institute",
+      "type": "company",
+      "role": "company",
+      "name": "Human-Centered AI Institute",
+      "file": "Human-Centered AI Institute",
+      "primary": false,
+      "how_described": "本集说这是由李飞飞等人于 2018 年联合创立的研究所，专注于跨学科的以人为本的 AI 研究、政策影响和教育。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            133.894,
+            139.997
+          ],
+          "quote": "She's also co-creator of Stanford's Human-Centered AI Institute, which is playing a vital role in a direction that AI is taking.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1875.63,
+            1905.577
+          ],
+          "quote": "I was co-director, I still am, but I was at that time full-time co-director of Stanford's Human-Centered AI institute, and I remember it was... The public was not aware of the power of the large language model yet, but as researchers, we were seeing it, we're seeing the future, and I had pretty long conversations with my natural language processing colleagues like Percy Liang and Chris Manning.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1905.657,
+            1919
+          ],
+          "quote": "We were talking about how critical this technology is going to be and the Stanford AI Institute, Human-Centered AI Institute, HAI, was the first one to establish a full research center foundation model.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 590,
+          "t": [
+            4230.02,
+            4231.886
+          ],
+          "quote": "HAI, Human-Centered AI Institute.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 593,
+          "t": [
+            4236.8,
+            4252.824
+          ],
+          "quote": "So yes, HAI, Human-Centered AI Institute was co-founded by me and a group of faculty like Professor John Etchemendy, Professor James Landay, Professor Chris Manning back in 2018.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "sail",
+      "type": "company",
+      "role": "company",
+      "name": "SAIL",
+      "file": "SAIL",
+      "primary": false,
+      "how_described": "本集提到这是斯坦福大学的人工智能实验室，诞生了许多最伟大的 AI 思想，李飞飞曾是该实验室的主管，也是其首位女性主任。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            127.712,
+            133.494
+          ],
+          "quote": "She was director at SAIL, Stanford's Artificial Intelligence Lab, where many of the biggest AI minds came out of.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 551,
+          "t": [
+            3901.908,
+            3909.312
+          ],
+          "quote": "Obviously, we talk about ImageNet also just SAIL at Stanford is where a lot of the work happened, Google Cloud, which a lot of the breakthroughs happened.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 564,
+          "t": [
+            4048.214,
+            4061.259
+          ],
+          "quote": "Becoming the first female director of SAIL, I was actually relatively speaking a very young faculty at that time, and I wanted to do that because I care about that community.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "google-cloud",
+      "type": "company",
+      "role": "company",
+      "name": "Google Cloud",
+      "file": "Google Cloud",
+      "primary": false,
+      "how_described": "本集提到这是谷歌的云服务部门，李飞飞曾出任该部门的首席 AI 科学家，这里涌现了一些最大的早期技术突破。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            121.91,
+            127.412
+          ],
+          "quote": "She was chief AI scientist at Google Cloud, which is where some of the biggest early technology breakthroughs emerged from.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 542,
+          "t": [
+            3812.04,
+            3819.902
+          ],
+          "quote": "And then I founded Google Cloud AI and then I founded an institute at Stanford but those are different beasts.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 551,
+          "t": [
+            3901.908,
+            3909.312
+          ],
+          "quote": "Obviously, we talk about ImageNet also just SAIL at Stanford is where a lot of the work happened, Google Cloud, which a lot of the breakthroughs happened.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集将其描述为大约三年前引发公众对 AI 浓烈关注的里程碑时刻，是 AI 领域向公众普及的关键产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            582.508,
+            589.758
+          ],
+          "quote": "Most people started hearing and caring about AI, as what it's called today, just like, I don't know, a few years ago when ChatGPT came out.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 109,
+          "t": [
+            595,
+            596
+          ],
+          "quote": "Wow, okay. And that was ChatGPT coming out. Is that the milestone you have in mind?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 174,
+          "t": [
+            1172.947,
+            1193.073
+          ],
+          "quote": "And then fast-forward, the public moment of AI, which is the ChatGPT moment, if you look at the ingredients of what brought ChatGPT to the world technically still use these three ingredients.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 334,
+          "t": [
+            2355.466,
+            2360.73
+          ],
+          "quote": "When ChatGPT just came out, I remember Sam Altman just tweeted it as like, \"Here's a cool thing we're playing with, check it out.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 483,
+          "t": [
+            3408.786,
+            3421.554
+          ],
+          "quote": "The head of ChatGPT told me how, when they first put out ChatGPT, he was just scanning TikTok to see how people were using it and all the things they were talking about, and that's what convinced them where to lean in and help them see how people actually want to use it.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "sinch",
+      "type": "company",
+      "role": "company",
+      "name": "Sinch",
+      "file": "Sinch",
+      "primary": false,
+      "how_described": "本集说它是一家客户通信云服务商，提供 API 帮助企业在产品中构建消息、邮件和通话功能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 337,
+          "t": [
+            2373,
+            2377.222
+          ],
+          "quote": "This episode is brought to you by Sinch, the customer communications cloud.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 340,
+          "t": [
+            2386.926,
+            2388.027
+          ],
+          "quote": "That's where Sinch comes in.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 341,
+          "t": [
+            2388.607,
+            2398.592
+          ],
+          "quote": "Over 150,000 businesses, including 8 of the top 10 largest tech companies globally use Sinch's API to build messaging, email, and calling into their products.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 348,
+          "t": [
+            2427.308,
+            2436.134
+          ],
+          "quote": "Sinch is already helping major brands send RCS messages around the world and they're helping Lenny's podcast listeners get registered first before the rush hits the US market.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 349,
+          "t": [
+            2436.634,
+            2439.116
+          ],
+          "quote": "Learn more and get started at sinch.com/lenny.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": false,
+      "how_described": "本集说它推出了 Figma Make，这是一种 vibe coding 工具，可以通过几个提示把想法变成完全可用的原型或应用程序。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            217.22,
+            220.782
+          ],
+          "quote": "This episode is brought to you by Figma, makers of Figma Make.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 40,
+          "t": [
+            221.302,
+            227.025
+          ],
+          "quote": "When I was a PM at Airbnb, I still remember when Figma came out and how much it improved how we operated as a team.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 42,
+          "t": [
+            236.41,
+            238.351
+          ],
+          "quote": "But Figma never felt like it was for me.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 44,
+          "t": [
+            243.814,
+            245.655
+          ],
+          "quote": "That's why Figma built Figma Make.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 46,
+          "t": [
+            255.12,
+            257.582
+          ],
+          "quote": "Figma Make is a different kind of vibe coding tool.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 47,
+          "t": [
+            257.962,
+            267.59
+          ],
+          "quote": "Because it's all in Figma, you can use your team's existing design building blocks, making it easy to create outputs that look good and feel real and are connected to how your team builds.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 49,
+          "t": [
+            273.315,
+            276.837
+          ],
+          "quote": "Make code-back prototypes and apps fast with Figma Make.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 50,
+          "t": [
+            277.138,
+            278.559
+          ],
+          "quote": "Check it out at figma.com/lenny.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

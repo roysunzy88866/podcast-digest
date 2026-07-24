@@ -132,10 +132,13 @@ OpenClaw 让 Claire 觉得它「活着」,有三个设计支柱 [34:41 Claire Vo
 
 - [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同公司:Claude Code、OpenClaw、ChatGPT · 同概念:智能体 (agent)、MCP
 - [[2026-06-22-latent-space-gray-swan|《神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan》]] —— 同公司:OpenClaw · 同概念:提示词注入 (prompt injection)、智能体 (agent)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同公司:Claude Code、Linear · 同概念:智能体 (agent)
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]] —— 同嘉宾:Claire Vo · 同公司:OpenClaw · 同概念:智能体 (agent)
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《The AI paradox: More automation, more humans, more work | Dan Shipper》]] —— 同公司:Claude Code · 同概念:智能体 (agent)
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)》]] —— 同公司:Claude Code · 同概念:智能体 (agent)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare》]] —— 同公司:Claude Code · 同概念:MCP
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把销售当产品做：用 AI 重构 GTM 团队的实战指南》]] —— 同概念:智能体 (agent)
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 1.2 个人加 20 个 AI 智能体，替换 10 人销售团队》]] —— 同概念:智能体 (agent)
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]] —— 同概念:智能体 (agent)
 - [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同公司:Claude Code
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)》]] —— 同概念:智能体 (agent)
@@ -146,6 +149,8 @@ OpenClaw 让 Claire 觉得它「活着」,有三个设计支柱 [34:41 Claire Vo
 - [[2026-06-24-latent-space-databricks|《为什么前沿生态必须开放》]] —— 同概念:智能体 (agent)
 - [[2026-07-08-latent-space-modal|《为什么 AI 基础设施必须为「Agent 体验」进化》]] —— 同概念:智能体 (agent)
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone》]] —— 同概念:智能体 (agent)
+- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:为什么大语言模型之后,「空间智能」才是下一个前沿》]] —— 同公司:ChatGPT
+- [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling 高管的反共识管理课：故意人手不足、果断放弃、复利对抗熵增》]] —— 同公司:ChatGPT
 
 ---
 

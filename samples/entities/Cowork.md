@@ -18,4 +18,4 @@ entity_type: 概念
 
 ## 关联实体
 
-[[Lenny]] · [[Amol Avasare]] · [[Anthropic]] · [[Claude]] · [[Mercury]] · [[Claude Code]] · [[CASH]] · [[MCP]] · [[MasterClass]] · [[好摩擦]]
+[[Lenny]] · [[Amol Avasare]] · [[Anthropic]] · [[Claude]] · [[Mercury]] · [[Claude Code]] · [[CASH]] · [[MCP]] · [[MasterClass]] · [[摩擦力]]

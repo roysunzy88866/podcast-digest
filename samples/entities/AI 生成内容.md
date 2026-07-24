@@ -6,13 +6,35 @@ entity_type: 概念
 # AI 生成内容 (ai content)
 
 > [!info] 概念
-> 出现在 1 集 · 金句 22 条 · 关联 10 个
+> 出现在 1 集 · 金句 33 条 · 关联 10 个
 
 ## 集里怎么说它
 
 - **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri: AI is a tailwind for authenticity》]]**(00:37起):本集认为这对于 Instagram 而言将是顺风也是挑战。在一个充斥合成内容的世界里，人们会更渴望真实的人与创造力；平台不应过滤掉它，而应让你知道发帖者的背景，甚至未来可能转为标记真实的相机拍摄内容。
 
 ## 金句
+
+![[2025-11-16-lennys-the-godmother-of-ai#^q2]]
+
+![[2025-11-16-lennys-the-godmother-of-ai#^q3]]
+
+![[2025-11-16-lennys-the-godmother-of-ai#^q4]]
+
+![[2025-11-30-lennys-what-the-best-gtm-teams-do-differently#^q3]]
+
+![[2025-12-28-lennys-10-contrarian-leadership-truths#^q20]]
+
+![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q2]]
+
+![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q3]]
+
+![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q4]]
+
+![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q8]]
+
+![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q4]]
+
+![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q5]]
 
 ![[2026-02-26-lennys-ai-is-critical-for-humanitys-survival#^q1]]
 

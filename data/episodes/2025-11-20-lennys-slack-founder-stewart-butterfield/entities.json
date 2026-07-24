@@ -1,0 +1,1000 @@
+{
+  "episode_id": "2025-11-20-lennys-slack-founder-stewart-butterfield",
+  "podcast": "Lenny's Podcast",
+  "date": "2025-11-20",
+  "tags": [
+    "产品哲学",
+    "产品设计",
+    "创业与转型",
+    "组织管理",
+    "用户体验"
+  ],
+  "entities": [
+    {
+      "id": "stewart-butterfield",
+      "type": "person",
+      "role": "host",
+      "name": "Stewart Butterfield",
+      "file": "Stewart Butterfield",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            96.04,
+            101.262
+          ],
+          "quote": "Today, my guest is Stewart Butterfield, a founder and product legend who rarely does podcasts.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 31,
+          "t": [
+            171.817,
+            175.979
+          ],
+          "quote": "With that, I bring you Stewart Butterfield after a short word from our sponsors.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 671,
+          "t": [
+            4116.843,
+            4122.467
+          ],
+          "quote": "One is, when people think of Stewart Butterfield, I think a lot of people think of, We Don't Sell Saddles Here.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 551,
+          "t": [
+            3542.372,
+            3545.713
+          ],
+          "quote": "And let's say you, Lenny, post a message.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 911,
+          "t": [
+            5404.423,
+            5405.228
+          ],
+          "quote": "Thank you for having me, Lenny.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": true,
+      "how_described": "本集大量讨论的公司，被描述为早期消费化的 B2B SaaS 产品，通过注重微小便利和情感连接实现了病毒式增长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            0.741,
+            3.285
+          ],
+          "quote": "That was the year that Slack actually launched.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 2,
+          "t": [
+            3.345,
+            7.971
+          ],
+          "quote": "I was interviewed by MIT Technology Review and asked if we were working to improve Slack.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 7,
+          "t": [
+            24.02,
+            28.88
+          ],
+          "quote": "Slack was famous for being one of the early, consumerized B2B SaaS products.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 21,
+          "t": [
+            101.702,
+            107.685
+          ],
+          "quote": "Stewart founded Flickr and then Slack, which he sold to Salesforce in one of the biggest acquisitions in tech history at the time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 39,
+          "t": [
+            219.028,
+            226.013
+          ],
+          "quote": "Visit WorkOS.com to get started or just hit up their Slack support where they have real engineers in there who answer your questions superfast.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 63,
+          "t": [
+            323.256,
+            325.898
+          ],
+          "quote": "I feel like ever since you left Slack, we haven't heard much from Stewart.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 69,
+          "t": [
+            354.052,
+            369.88
+          ],
+          "quote": "Basically every three to six weeks there's this cycle because Cal Henderson who's the CTO of Slack and who also, we worked together on Flickr, so have worked together now for 23 years, have been talking about what we want to do next if there is something.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 96,
+          "t": [
+            591.63,
+            598.673
+          ],
+          "quote": "It feels like this works both for a specific feature and also just for Slack, getting people to even understand here's what Slack can do for you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 97,
+          "t": [
+            598.713,
+            600.154
+          ],
+          "quote": "And then now I can't live without Slack.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 135,
+          "t": [
+            915.702,
+            921.506
+          ],
+          "quote": "Slack was famous for being one of the early, let's say consumerized B2B SaaS products.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 136,
+          "t": [
+            921.726,
+            925.828
+          ],
+          "quote": "Slack leaned into delight and experience and craft and a great experience.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 152,
+          "t": [
+            1014.62,
+            1016.821
+          ],
+          "quote": "I would tell the story at Slack over and over again.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1167.248,
+            1171.709
+          ],
+          "quote": "I think that there's many reasons why Slack was successful at the moment.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1171.749,
+            1193.676
+          ],
+          "quote": "It was successful and we think we had a bunch of really wonderful tailwinds and all of that stuff, but it wouldn't have grown the way it did without those little conveniences which caused people to form an emotional connection because a lot of our growth came from startup A uses Slack, and then someone leaves startup A for startup B, and startup B doesn't use Slack yet.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1209.046,
+            1214
+          ],
+          "quote": "I love that one moment became a value of product craftsmanship at Slack.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1220.14,
+            1237
+          ],
+          "quote": "Is there an example, I imagine there are many, but from the time of building Slack, especially in the early days where you chose to go big on craftsmanship and experience and delight versus speed where you thought looking back that was a really great idea and worth really core just to success.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 188,
+          "t": [
+            1267.42,
+            1279.73
+          ],
+          "quote": "And so when Slack's first version of the mobile app came out, we're like, \"Typing your password on your phone if you have any minimal threshold of password hygiene is a terrible experience.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1327.954,
+            1338.278
+          ],
+          "quote": "And in the case of Slack, that doesn't make as much sense because you're a member of many channels and the messages may not be for you, and so that's why we have the @ tagging people.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1343.701,
+            1355
+          ],
+          "quote": "But what we realized was people were signing up for Slack, and it's one engineer on this team inside of this larger organization, inside this larger company, and they would pull in the person next to them and they would say, \"Let's try it out.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1378.398,
+            1379.259
+          ],
+          "quote": "We don't want Slack to be noisy for you.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1381.241,
+            1382.681
+          ],
+          "quote": "We don't want Slack to be noisy for you.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1503.523,
+            1509.837
+          ],
+          "quote": "I see that rooster all the, no, I don't see it all, well, actually I do @channel, because I run a big Slack, so I see that rooster, that survived.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1541.383,
+            1563.73
+          ],
+          "quote": "And we had this, not conundrum, but you're trying to take into account all the different uses of Slack because by the time we implemented this, 2017, there was tens of thousands of paying customers, the organizations, hundreds of probably millions of users, maybe hundreds of thousands of organizations.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1597.38,
+            1608.484
+          ],
+          "quote": "So we came up with this really elaborate system for the rollout, which was, we told everyone, I'm sorry, every Slack administrator that this was coming weeks before it came.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1652,
+            1667.286
+          ],
+          "quote": "But this was a much longer and more convoluted process, but it allowed the millions of people who were using Slack to get the feature without creating a bunch of conflict and without people turning it off automatically.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1746.627,
+            1747.888
+          ],
+          "quote": "We would talk about it in Slack.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 273,
+          "t": [
+            1751.849,
+            1769.515
+          ],
+          "quote": "You could say a messaging app for businesses or whatever, but a critical disadvantage to Slack doing out-of-home advertising, putting up a billboard versus beer or cars is, no one needs to be explained why they would want a car or beer, but everyone will have to explain one day why they want Slack.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1887.394,
+            1906
+          ],
+          "quote": "But now, okay, people coming to Slack.com, some friend had mentioned Slack and talked their ear off at some point months ago, and then they saw a news article and then they saw someone's tweet and then they saw an ad on about the website they were visiting and they finally said, \"Okay, I'm going to go to this website.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 378,
+          "t": [
+            2531.866,
+            2542.551
+          ],
+          "quote": "Uber doesn't work like this anymore, but when I first brought this up to people inside of Slack, there was a moment when the Uber app, when you opened it was just, \"Where would you like to go?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2636.176,
+            2645.099
+          ],
+          "quote": "So I was going back and forth in Vancouver in San Francisco at the time when we were talking about all this inside of Slack, and I was behind a teenager in line aboard the plane and it was like, we're on the jet way.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2793.742,
+            2801.666
+          ],
+          "quote": "This is 2014, so like that was the year that Slack actually launched officially in February.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2804.228,
+            2809.771
+          ],
+          "quote": "I was interviewed by MIT Technology Review and asked if we were working to improve Slack.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 532,
+          "t": [
+            3417.681,
+            3421.847
+          ],
+          "quote": "So we would hire 27 Royal product managers in Slack who immediately want to hire someone.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 548,
+          "t": [
+            3510.26,
+            3529.267
+          ],
+          "quote": "I'll give one example from Slack's history, and I have tried in the past to disguise this example so that no one feels bad about it but I... Unfortunately, the specifics are so important to the example that it's not disguised and so I'll just reiterate that the people involved aren't stupid or evil.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 550,
+          "t": [
+            3533.389,
+            3541.752
+          ],
+          "quote": "So the example inside of Slack was we introduced threads, which was the ability to reply to a message inside of a channel.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 594,
+          "t": [
+            3749.18,
+            3765.687
+          ],
+          "quote": "Like there's just, there's no world in which anyone could imagine putting the at previous respondent in the thread at the beginning of the message could possibly make that much of a difference to the quality of Slack, and how much utility it provides for people and all of that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 624,
+          "t": [
+            3898.903,
+            3904.426
+          ],
+          "quote": "And now your questions are like, \"God, should we do FedRAMP high and make a Slack version?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 682,
+          "t": [
+            4149.504,
+            4167.352
+          ],
+          "quote": "One of the crappy things about Slack is if all your corporate communication is on email, depending on exactly how it works and what system you use, you probably walk away with an archive of everything you said at Company X. If it's Slack, once you're turned off, you lose access to all that history.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 688,
+          "t": [
+            4185.141,
+            4186.919
+          ],
+          "quote": "It was before Slack launched even.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 689,
+          "t": [
+            4187.4,
+            4188.321
+          ],
+          "quote": "Yeah, it was before Slack launched.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 740,
+          "t": [
+            4437.964,
+            4445.827
+          ],
+          "quote": "and in the case where we were working on Glitch, this game where we used IRC for internal communication and we added a bunch of IRC which became the Proto Slack.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 741,
+          "t": [
+            4446.307,
+            4468.233
+          ],
+          "quote": "I think Slack had an enormous advantage in the fact that we are working on this for several years without actually explicitly working on it and only doing the minimum number of features that were absolutely guaranteed to be successful in the sense that it was so irritating that we couldn't stand it anymore or such an obvious improvement that we couldn't help but take advantage of it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 751,
+          "t": [
+            4539.12,
+            4545.162
+          ],
+          "quote": "She actually uses Glitch and Slack as an example of a smart fold basically.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 799,
+          "t": [
+            4782.883,
+            4786.865
+          ],
+          "quote": "Also, with the structure of the Slack deal, people said that acquisition was very employee friendly.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 855,
+          "t": [
+            5129.365,
+            5132.739
+          ],
+          "quote": "I'm just trying to picture the entire team at Slack reciting this mantra.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "salesforce",
+      "type": "company",
+      "role": "company",
+      "name": "Salesforce",
+      "file": "Salesforce",
+      "primary": false,
+      "how_described": "本集提到 Stewart Butterfield 将 Slack 卖给 Salesforce，创下了当时科技史上最大的收购案之一，他本人也在两年半前离开了这家公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            101.702,
+            107.685
+          ],
+          "quote": "Stewart founded Flickr and then Slack, which he sold to Salesforce in one of the biggest acquisitions in tech history at the time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 66,
+          "t": [
+            329.781,
+            345.468
+          ],
+          "quote": "I left Salesforce two and a half years ago and I have a two and a half year old, so she was actually born three days after my last day, so a lot of time with family and it's an enormous privilege to be able to spend time with young kids while they're young.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "flickr",
+      "type": "company",
+      "role": "company",
+      "name": "Flickr",
+      "file": "Flickr",
+      "primary": false,
+      "how_described": "本集提到 Stewart Butterfield 在创立 Slack 之前创立的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            101.702,
+            107.685
+          ],
+          "quote": "Stewart founded Flickr and then Slack, which he sold to Salesforce in one of the biggest acquisitions in tech history at the time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 69,
+          "t": [
+            354.052,
+            369.88
+          ],
+          "quote": "Basically every three to six weeks there's this cycle because Cal Henderson who's the CTO of Slack and who also, we worked together on Flickr, so have worked together now for 23 years, have been talking about what we want to do next if there is something.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "glitch",
+      "type": "company",
+      "role": "company",
+      "name": "Glitch",
+      "file": "Glitch",
+      "primary": true,
+      "how_described": "本集提到 Stewart 放弃的一款游戏，他在判定预期价值降到谷底后转向做了 Slack，转型极其痛苦和羞辱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 740,
+          "t": [
+            4437.964,
+            4445.827
+          ],
+          "quote": "and in the case where we were working on Glitch, this game where we used IRC for internal communication and we added a bunch of IRC which became the Proto Slack.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 751,
+          "t": [
+            4539.12,
+            4545.162
+          ],
+          "quote": "She actually uses Glitch and Slack as an example of a smart fold basically.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 764,
+          "t": [
+            4606.56,
+            4613.482
+          ],
+          "quote": "When we shut down Glitch, there was a lot of people who loved it and would spend all of their free time and couldn't wait to get home from work to go play it more.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 796,
+          "t": [
+            4750.907,
+            4768.196
+          ],
+          "quote": "Other folks shared that, when you talked about Glitch just recently when you had to lay people off, you cried real tears when you were laying people off and then you spent an incredible amount of time helping them find new jobs and extending their severance pay and just taking it extremely, extremely seriously, much more than I think most people feel like CEOs do.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "ticketmaster",
+      "type": "company",
+      "role": "company",
+      "name": "Ticketmaster",
+      "file": "Ticketmaster",
+      "primary": false,
+      "how_described": "本集被用作讨论产品摩擦力的例子，说明当用户意图 100% 明确且强烈（如抢泰勒·斯威夫特演唱会门票）时，网站慢或报错也不会阻止用户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 275,
+          "t": [
+            1776.318,
+            1782.66
+          ],
+          "quote": "So now imagine you want to get tickets to the Taylor Swift concert in San Francisco and you go to the Ticketmaster website.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1803.547,
+            1812.91
+          ],
+          "quote": "And so in that scenario, it doesn't really matter if Ticketmaster's website is slow, it doesn't really matter if the payments page errors out, you're going to persist and get through it.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "utility-curves",
+      "type": "concept",
+      "role": "concept",
+      "name": "效用曲线 (utility curves)",
+      "file": "效用曲线",
+      "primary": true,
+      "how_described": "本集核心概念之一，是一条 S 型曲线（横轴成本/投入，纵轴价值/便利性），用于判断产品功能是处于无用的平缓期、爆发的陡峭期，还是回报递减期，以此决定增减投入。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            114.287,
+            134.215
+          ],
+          "quote": "We chat about utility curves, something he calls the owner's delusion, a hilarious pattern he sees at companies he calls hyperrealistic work-like activities, what he's learned about product and craft and taste and Parkinson's law, why you need to obsess with not making your users think, the backstory on his legendary we don't sell saddles here memo, and so much more.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 74,
+          "t": [
+            417.811,
+            420.473
+          ],
+          "quote": "The first is a concept called utility curves.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 142,
+          "t": [
+            949.04,
+            960.704
+          ],
+          "quote": "There is a lot of you going back to the utility curves again, people who are obsessed with this one little thing and keep on adding more and more detailed improvements beyond the point where it makes much of a difference.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 337,
+          "t": [
+            2224.62,
+            2235.425
+          ],
+          "quote": "And honestly, it's been many more than 10 years since I read it, so I don't even remember all of the examples in the book, but as a mantra that was up there with utility curves because for two reasons.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "friction",
+      "type": "concept",
+      "role": "concept",
+      "name": "摩擦力 (friction)",
+      "file": "摩擦力",
+      "primary": true,
+      "how_described": "本集反驳了产品应一味「减少摩擦/减少点击次数」的常见误区，指出当用户意图不明确时，真正的挑战是帮助用户理解（减少思考），而不是单纯减少摩擦。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            45.521,
+            51.679
+          ],
+          "quote": "Something else I heard that you often espouse is friction in a product experience is actually often a good thing?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 11,
+          "t": [
+            52.1,
+            58.025
+          ],
+          "quote": "It became an assumption that it should always be trying to remove friction when the challenge is really comprehension.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 13,
+          "t": [
+            63.33,
+            71.857
+          ],
+          "quote": "If people could get over the idea of reducing friction as a number of goal or reducing the number of clicks or taps to do something, and instead focus on how can I make this simple?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1711.32,
+            1718.87
+          ],
+          "quote": "Something else I heard that you often espouse, which is counterintuitive to a lot of people is about friction, friction in the product experience.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1719.351,
+            1721.674
+          ],
+          "quote": "That friction is actually often a good thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1727.02,
+            1742.366
+          ],
+          "quote": "So yes, and there's also another issue around friction, which is it became like a mantra or just kind of an assumption that you should always be trying to remove friction.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 282,
+          "t": [
+            1813.21,
+            1820.392
+          ],
+          "quote": "So obviously they're better to reduce friction, but in some sense there's not a huge amount of value in doing that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1881.252,
+            1887.154
+          ],
+          "quote": "So if you're, the amount of friction is above that, I'm not going to do it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1943.776,
+            1952.379
+          ],
+          "quote": "It wasn't friction, because it's not like they were aiming for something and they knew what they were aiming for and they were just trying to get themselves to that point.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 309,
+          "t": [
+            2010.067,
+            2019.61
+          ],
+          "quote": "And this was a lifelong battle because the remove friction orientation is so deep in people.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 312,
+          "t": [
+            2060.224,
+            2073.909
+          ],
+          "quote": "And I think that the trick is for most of the unique parts of any application, most of the specific things that your app, your product, your software does are areas where the challenge is going to be comprehension inside of friction.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 349,
+          "t": [
+            2315,
+            2330.747
+          ],
+          "quote": "So I'm going to keep going with one last thing, because they just kind of come together, which is along with reduced friction, it's like reduce the number of clicks or taps it takes for someone to accomplish something which is almost always exactly the wrong thing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2617.372,
+            2627.374
+          ],
+          "quote": "And if people could get over the idea of reducing friction as the [inaudible 00:43:42] or reducing the number of clicks or taps to do something and instead focus on how can I make this simple?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2728.04,
+            2742.372
+          ],
+          "quote": "I love just even the way you summarize this, just a really good reframing of, instead of obsessing with reducing friction and reducing steps, instead think, how do I reduce the amount of thinking the user has to do?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2742.852,
+            2751.74
+          ],
+          "quote": "I've never heard of it described as, you have to think about the ATP and glucose being used to actually think, and your goal is to reduce that versus let's just reduce friction, reduce clicks.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "hyperrealistic-work-like-activities",
+      "type": "concept",
+      "role": "concept",
+      "name": "超逼真的类工作活动 (hyperrealistic work-like activities)",
+      "file": "超逼真的类工作活动",
+      "primary": true,
+      "how_described": "本集提出的一种组织现象，指公司变大、真正有价值的工作被做完后，人们发明出看似在工作、实则是毫无意义浪费时间（如做微乎其微差异的 A/B 测试和汇报）的虚假工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            114.287,
+            134.215
+          ],
+          "quote": "We chat about utility curves, something he calls the owner's delusion, a hilarious pattern he sees at companies he calls hyperrealistic work-like activities, what he's learned about product and craft and taste and Parkinson's law, why you need to obsess with not making your users think, the backstory on his legendary we don't sell saddles here memo, and so much more.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "parkinson-s-law",
+      "type": "concept",
+      "role": "concept",
+      "name": "帕金森定律 (Parkinson's Law)",
+      "file": "帕金森定律",
+      "primary": true,
+      "how_described": "本集引用的概念，指「工作会自动膨胀，直到填满所有可用的时间」，用以解释组织膨胀和招聘失控的必然倾向。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            114.287,
+            134.215
+          ],
+          "quote": "We chat about utility curves, something he calls the owner's delusion, a hilarious pattern he sees at companies he calls hyperrealistic work-like activities, what he's learned about product and craft and taste and Parkinson's law, why you need to obsess with not making your users think, the backstory on his legendary we don't sell saddles here memo, and so much more.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 504,
+          "t": [
+            3265.462,
+            3270.759
+          ],
+          "quote": "I know kind of along those lines, you're a big believer in something called Parkinson's Law.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "owner-s-delusion",
+      "type": "concept",
+      "role": "concept",
+      "name": "所有者的错觉 (owner's delusion)",
+      "file": "所有者的错觉",
+      "primary": true,
+      "how_described": "本集提出的概念，指产品创造者自视甚高，以为用户会全神贯注于产品，却没意识到用户只是满脑子生活琐事、随时会跳走的普通人，从而导致糟糕的设计。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            114.287,
+            134.215
+          ],
+          "quote": "We chat about utility curves, something he calls the owner's delusion, a hilarious pattern he sees at companies he calls hyperrealistic work-like activities, what he's learned about product and craft and taste and Parkinson's law, why you need to obsess with not making your users think, the backstory on his legendary we don't sell saddles here memo, and so much more.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 870,
+          "t": [
+            5192.06,
+            5200.146
+          ],
+          "quote": "I'm going to add just one last little tidbit because I forgot about this earlier on and I think it helps tie things together, and it's called the owner's delusion.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 886,
+          "t": [
+            5281.66,
+            5287.543
+          ],
+          "quote": "And whoever replied to the tweet, she said, \"We should call it the owner's delusion,\" and I was like, \"Oh my God.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "we-don-t-sell-saddles-here",
+      "type": "concept",
+      "role": "concept",
+      "name": "我们不卖马鞍 (We Don't Sell Saddles Here)",
+      "file": "我们不卖马鞍",
+      "primary": true,
+      "how_described": "本集讨论的 Stewart 写的一篇著名内部备忘录，核心观点是仅仅造出好产品是不够的，如果你的产品有重大差异，你必须花精力向客户沟通结果，本质上是在创造市场。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            114.287,
+            134.215
+          ],
+          "quote": "We chat about utility curves, something he calls the owner's delusion, a hilarious pattern he sees at companies he calls hyperrealistic work-like activities, what he's learned about product and craft and taste and Parkinson's law, why you need to obsess with not making your users think, the backstory on his legendary we don't sell saddles here memo, and so much more.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 671,
+          "t": [
+            4116.843,
+            4122.467
+          ],
+          "quote": "One is, when people think of Stewart Butterfield, I think a lot of people think of, We Don't Sell Saddles Here.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 710,
+          "t": [
+            4326.528,
+            4337.656
+          ],
+          "quote": "Just the specific example of, \"We don't sell saddles here,\" just to quickly communicate this to folks, and correct me if I'm missing anything, is just instead of, \"Hey, look at this amazing saddle we've bought,\" which you want to communicate as, \"Here, go horseback riding.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "pivot",
+      "type": "concept",
+      "role": "concept",
+      "name": "转型 (pivot)",
+      "file": "转型",
+      "primary": true,
+      "how_described": "本集深入探讨了公司转型的逻辑，指出默认建议永远是坚持，但若穷尽了好主意且预期价值降到谷底，就必须冷酷理性地转型，尽管这伴随着极大的痛苦和羞辱感。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 737,
+          "t": [
+            4420.338,
+            4420.878
+          ],
+          "quote": "Should I pivot?\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 772,
+          "t": [
+            4648.753,
+            4649.814
+          ],
+          "quote": "It's not really a pivot.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 773,
+          "t": [
+            4650.554,
+            4657.136
+          ],
+          "quote": "Obviously in this case, it worked out great and there's survivorship bias and that doesn't mean that everyone should pivot all the time.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -6,10 +6,12 @@ entity_type: 公司
 # Anthropic
 
 > [!info] 公司
-> 出现在 9 集 · 金句 0 条 · 关联 10 个
+> 出现在 11 集 · 金句 0 条 · 关联 10 个
 
 ## 集里怎么说它
 
+- **[[2025-12-07-lennys-surge-ai-edwin-chen|《被 10 亿美元验证的逆向创业法:AI 数据公司 Surge 的独立路径》]]**(16:42起):本集将其视为一个正面的典范。Edwin 称赞它非常有原则,不会一味迎合营销或基准测试,并且注重模型在真实世界任务中的表现和品味。
+- **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]]**(10:35起):本集提到它是知名 AI 公司,也是大语言模型 Claude 的开发商,并提到嘉宾用其创建的 MCP 技术来赋予 AI 使用工具的能力。
 - **[[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]]**(10:08起):本集把它说成：处于 AI 风暴中心的 AI 实验室，嘉宾在此领导设计工作，内部 Slack 充满行业洞见，研究和原型开发节奏极快。
 - **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare》]]**(00:03起):本集说它是处于人类商业史上最陡峭增长轨道上的公司（14个月ARR从10亿飙升至190亿），原本是赛道里最小、资金最少、没有先发优势的玩家，靠极度专注(B2B与编程)和将安全作为核心竞争力实现反超。
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)》]]**(08:55起):本集提到其增长负责人 Amol 的观察：因为工程师构建速度极快，PM 被挤压，需要做更高杠杆的对齐工作而非自己发布代码。
@@ -22,6 +24,8 @@ entity_type: 公司
 
 ## 出现在这些集
 
+- [[2025-12-07-lennys-surge-ai-edwin-chen|《被 10 亿美元验证的逆向创业法:AI 数据公司 Surge 的独立路径》]] — 作为被讨论公司
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] — 作为被讨论公司(提及)
 - [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] — 作为被讨论公司
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare》]] — 作为被讨论公司
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)》]] — 作为被讨论公司(提及)
@@ -34,4 +38,4 @@ entity_type: 公司
 
 ## 关联实体
 
-[[Lenny]] · [[智能体]] · [[Claude]] · [[OpenAI]] · [[Claude Code]] · [[Figma]] · [[Codex]] · [[IC]] · [[Google]] · [[Jenny Wen]]
+[[Lenny]] · [[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Claude]] · [[Codex]] · [[基准测试]] · [[Cursor]] · [[Figma]] · [[Google]]

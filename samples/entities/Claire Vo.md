@@ -33,4 +33,4 @@ entity_type: 人物
 
 ## 关联实体
 
-[[OpenClaw]] · [[智能体]] · [[Lenny]] · [[Eddie Kim]] · [[灵魂]] · [[Gusto]] · [[心跳]] · [[Co-Founder]] · [[提示词注入]] · [[vibe code]]
+[[OpenClaw]] · [[智能体]] · [[Lenny]] · [[Eddie Kim]] · [[灵魂]] · [[Gusto]] · [[心跳]] · [[联合创始人]] · [[提示词注入]] · [[vibe code]]
