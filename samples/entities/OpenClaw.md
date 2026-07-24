@@ -30,4 +30,4 @@ entity_type: 公司
 
 ## 关联实体
 
-[[智能体]] · [[Claire Vo]] · [[提示注入]] · [[Claude Code]] · [[ChatGPT]] · [[MCP]] · [[Lenny]] · [[Zico Kolter]] · [[Eddie Kim]] · [[Raphael Schaad]]
+[[智能体]] · [[Claire Vo]] · [[提示词注入]] · [[Claude Code]] · [[ChatGPT]] · [[MCP]] · [[Lenny]] · [[Zico Kolter]] · [[Eddie Kim]] · [[Raphael Schaad]]

@@ -4,12 +4,15 @@
 > 用法:注入全译/浓缩 system prompt。新集发现高频新术语 → 补这里再跑。
 
 ## 保留英文不译(品牌/协议/库/缩写)
-Modal · Kubernetes(K8s) · GPU · CPU · RDMA · IPv6 · vLLM · SGLang · DeFlash · Modal Bench · Gitpod · Ona · ChatGPT · Claude · Python · TypeScript · CI · ETL · DSL · RL · LLM · API · CTO · CEO · vibe coding
+Modal · Kubernetes(K8s) · GPU · CPU · RDMA · IPv6 · vLLM · SGLang · DeFlash · Modal Bench · Gitpod · Ona · ChatGPT · Claude · Python · TypeScript · CI · ETL · DSL · RL · LLM · API · CTO · CEO · vibe coding · Cognition
 
 ## 统一中文译名
 | 英文 | 中文 | 备注 |
 |---|---|---|
 | agent | 智能体 | ⚠️ **不译「代理」**;proxy 才是「代理」 |
+| agency | 主观能动性 | ⚠️ 不译「智能体」(那是 agent);2026-07-24 漂移钉死 |
+| prompt injection | 提示词注入 | 2026-07-24 漂移钉死(vs 提示注入) |
+| micromanagement | 微管理 | 2026-07-24 漂移钉死(vs 微观管理) |
 | sandbox | 沙箱 | 试跑高频(35次) |
 | inference | 推理 | 试跑高频(34次) |
 | decorator | 装饰器 | |

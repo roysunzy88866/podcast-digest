@@ -1,6 +1,6 @@
 ---
 title: "Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare"
-podcast: 
+podcast: "Lenny's Podcast"
 date: 2026-04-05
 source_url: https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run
 duration: "112:46"
@@ -27,7 +27,7 @@ tags:
 >
 > **概念**:[[Claude]] · [[Claude Code]] · [[Cowork]] · [[CASH]] · [[MCP]] · [[好摩擦]]
 >
-> **来源**:[undefined](https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run)
+> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run)
 
 ## 🎧 本集中文精华音频
 
@@ -140,15 +140,15 @@ Amol 的团队正在搞一个内部代号叫 [[CASH|CASH]](Claude Accelerates Su
 - [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同公司:Anthropic · 同概念:Claude、Claude Code
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《The AI paradox: More automation, more humans, more work | Dan Shipper》]] —— 同公司:Anthropic、OpenAI · 同概念:Claude Code
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell》]] —— 同公司:Anthropic、OpenAI · 同概念:Claude
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:Claude Code、MCP
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)》]] —— 同公司:Anthropic · 同概念:Claude Code
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)》]] —— 同公司:Anthropic · 同概念:Claude
+- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:Claude Code、MCP
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《From skeptic to true believer: How OpenClaw changed my life | Claire Vo》]] —— 同概念:Claude Code、MCP
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)》]] —— 同公司:Anthropic · 同概念:Claude
 - [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《How to build a company that withstands any era | Eric Ries, Lean Startup author》]] —— 同公司:Anthropic、OpenAI
 - [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel》]] —— 同概念:Claude
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|《Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)》]] —— 同公司:Anthropic
-- [[2026-06-22-latent-space-gray-swan|《神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan》]] —— 同公司:Anthropic
 - [[2026-06-14-lennys-the-common-pattern-behind-successful|《The hidden pattern behind successful products | Mark Pincus (founder of Zynga)》]] —— 同公司:OpenAI
+- [[2026-06-22-latent-space-gray-swan|《神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan》]] —— 同公司:Anthropic
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)》]] —— 同公司:Mercury
 
 ---

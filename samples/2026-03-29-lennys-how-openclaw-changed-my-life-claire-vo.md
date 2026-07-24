@@ -1,13 +1,13 @@
 ---
 title: "From skeptic to true believer: How OpenClaw changed my life | Claire Vo"
-podcast: 
+podcast: "Lenny's Podcast"
 date: 2026-03-29
 source_url: https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo
 duration: "106:33"
 host: "[[Lenny]]"
 cohosts: ["[[Claire Vo]]"]
 companies: ["[[OpenClaw]]", "[[Claude Code]]", "[[ChatGPT]]", "[[ChatPRD]]", "[[Telegram]]"]
-concepts: ["[[智能体]]", "[[灵魂]]", "[[心跳]]", "[[提示注入]]", "[[上下文过载]]", "[[Mac Mini]]"]
+concepts: ["[[智能体]]", "[[灵魂]]", "[[心跳]]", "[[提示词注入]]", "[[上下文过载]]", "[[Mac Mini]]"]
 tags:
   - 智能体
   - AI 个人助理
@@ -25,9 +25,9 @@ tags:
 >
 > **涉及公司**:[[OpenClaw]] · [[Claude Code]] · [[ChatGPT]] · [[ChatPRD]] · [[Telegram]]
 >
-> **概念**:[[智能体]] · [[灵魂]] · [[心跳]] · [[提示注入]] · [[上下文过载]] · [[Mac Mini]]
+> **概念**:[[智能体]] · [[灵魂]] · [[心跳]] · [[提示词注入]] · [[上下文过载]] · [[Mac Mini]]
 >
-> **来源**:[undefined](https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo)
+> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo)
 
 ## 🎧 本集中文精华音频
 
@@ -74,7 +74,7 @@ Claire 反复强调一条贯穿全篇的主线:用管理真人下属的框架去
 
 几个能大幅提升体验的关键技巧:
 
-**关于模型选型:** 别图便宜用弱模型。Claire 用 Opus 4.6、Sonnet 4.6、GPT-5.4 这些「好模型」,理由有两点:强模型对[[提示注入|提示注入]](prompt injection,一种通过外部文本诱骗 AI 执行恶意指令的攻击手段)有更好的出厂防御;效果也显著更好 [27:16-27:53 Claire Vo]。
+**关于模型选型:** 别图便宜用弱模型。Claire 用 Opus 4.6、Sonnet 4.6、GPT-5.4 这些「好模型」,理由有两点:强模型对提示注入(prompt injection,一种通过外部文本诱骗 AI 执行恶意指令的攻击手段)有更好的出厂防御;效果也显著更好 [27:16-27:53 Claire Vo]。
 
 **关于沟通渠道:** 她选 [[Telegram|Telegram]] 作为和 OpenClaw 对话的主通道,因为对新手最友好。配置时需要和一个叫 BotFather 的官方机器人打个招呼 [28:02-28:23 Claire Vo]。之后可以扩展到 WhatsApp、iMessage、Slack、邮件 [28:33 Claire Vo]。语音消息是高带宽的输入方式,她强烈推荐用语音完成「入门访谈」[81:22 Claire Vo]。
 
@@ -131,21 +131,21 @@ OpenClaw 让 Claire 觉得它「活着」,有三个设计支柱 [34:41 Claire Vo
 ## 相关单集
 
 - [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同公司:Claude Code、OpenClaw、ChatGPT · 同概念:智能体 (agent)、MCP
-- [[2026-06-22-latent-space-gray-swan|《神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan》]] —— 同公司:OpenClaw · 同概念:提示注入 (prompt injection)、智能体 (agent)
+- [[2026-06-22-latent-space-gray-swan|《神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan》]] —— 同公司:OpenClaw · 同概念:提示词注入 (prompt injection)、智能体 (agent)
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]] —— 同嘉宾:Claire Vo · 同公司:OpenClaw · 同概念:智能体 (agent)
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《The AI paradox: More automation, more humans, more work | Dan Shipper》]] —— 同公司:Claude Code · 同概念:智能体 (agent)
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)》]] —— 同公司:Claude Code · 同概念:智能体 (agent)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare》]] —— 同公司:Claude Code · 同概念:MCP
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]] —— 同概念:智能体 (agent)
+- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同公司:Claude Code
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)》]] —— 同概念:智能体 (agent)
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|《Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)》]] —— 同概念:智能体 (agent)
 - [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同概念:智能体 (agent)
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella：Microsoft Build特别跨界对谈》]] —— 同概念:智能体 (agent)
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|《The hidden pattern behind successful products | Mark Pincus (founder of Zynga)》]] —— 同概念:智能体 (agent)
 - [[2026-06-24-latent-space-databricks|《为什么前沿生态必须开放》]] —— 同概念:智能体 (agent)
 - [[2026-07-08-latent-space-modal|《为什么 AI 基础设施必须为「Agent 体验」进化》]] —— 同概念:智能体 (agent)
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone》]] —— 同概念:智能体 (agent)
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]] —— 同概念:智能体 (agent)
-- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同公司:Claude Code
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《The hidden pattern behind successful products | Mark Pincus (founder of Zynga)》]] —— 同概念:智能体 (agent)
 
 ---
 

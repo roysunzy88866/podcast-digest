@@ -1,6 +1,6 @@
 ---
 title: "The most successful AI company you’ve never heard of | Qasar Younis"
-podcast: 
+podcast: "Lenny's Podcast"
 date: 2026-03-08
 source_url: https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of
 duration: "84:21"
@@ -27,7 +27,7 @@ tags:
 >
 > **概念**:[[物理 AI]] · [[自动驾驶]] · [[L2++]] · [[猴子大脑]] · [[激进实用主义]] · [[声音之墙]] · [[品味]]
 >
-> **来源**:[undefined](https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of)
+> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of)
 
 ## 🎧 本集中文精华音频
 

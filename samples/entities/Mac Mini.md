@@ -14,4 +14,4 @@ entity_type: 概念
 
 ## 关联实体
 
-[[Lenny]] · [[Claire Vo]] · [[OpenClaw]] · [[智能体]] · [[灵魂]] · [[心跳]] · [[提示注入]] · [[上下文过载]] · [[Claude Code]] · [[ChatGPT]]
+[[Lenny]] · [[Claire Vo]] · [[OpenClaw]] · [[智能体]] · [[灵魂]] · [[心跳]] · [[提示词注入]] · [[上下文过载]] · [[Claude Code]] · [[ChatGPT]]

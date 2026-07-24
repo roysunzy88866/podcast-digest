@@ -269,6 +269,53 @@
         "Zuck",
         "Mark Zuckerberg"
       ]
+    },
+    {
+      "id": "agency",
+      "type": "concept",
+      "name": "主观能动性 (agency)",
+      "file": "主观能动性",
+      "forms": [
+        "agency",
+        "主观能动性"
+      ],
+      "evidence": "2026-07-24 译名漂移钉死:04-12 集曾译「智能体」撞 agent 页;glossary 已钉 agency→主观能动性"
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "forms": [
+        "prompt injection",
+        "提示词注入",
+        "提示注入",
+        "prompt inject"
+      ],
+      "evidence": "2026-07-24 译名漂移钉死:03-29 集曾译「提示注入」;glossary 已钉;「prompt inject」为 2026-singju-openclaw-80apps 转写稿实际书写形式(实测 1 次,\"prompt injection\" 0 次),登记防 D17 误报"
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "forms": [
+        "Cognition",
+        "cognition"
+      ],
+      "evidence": "2026-07-24 大小写漂移钉死:公司名保英文,glossary 保留英文段已加"
+    },
+    {
+      "id": "micromanagement",
+      "type": "concept",
+      "name": "微管理 (micromanagement)",
+      "file": "微管理",
+      "forms": [
+        "micromanagement",
+        "微管理",
+        "微观管理"
+      ],
+      "evidence": "2026-07-24 译名漂移钉死:06-14 集曾译「微观管理」;glossary 已钉"
     }
   ]
 }
