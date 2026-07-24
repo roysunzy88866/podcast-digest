@@ -159,6 +159,10 @@ jobs:
           # data/skipped 是 gitignore 的(不入公开仓);去重靠 pipeline-state.json 的 skipped 账本
           git add data/episodes data/pipeline-state.json samples 2>/dev/null || true
           git commit -m "[C7 🤖] C7b 自动跑批:推进 cutoff + skipped 账本(+干净集若有) (US-4, US-5)" || { echo "无改动可提交"; exit 0; }
+          # commit 后清场:add 只收产物三路径,其余 tracked 文件的运行期改动(如 npm install 动 lockfile)
+          # 会以 unstaged 状态阻塞 pull --rebase(run 30058134004 实测连败 3 次丢第二批产物的根因)。
+          # 产物已全在 commit 里 → reset --hard 只丢「不该回仓的运行期垃圾」,安全。
+          git reset --hard HEAD
           # ⚠️ push 失败绝不静默(drift #32 血账:跑批 2h 期间远端被推了 docs → push rejected 被
           #    `|| echo` 吞掉 → 十几集付费产物随 runner 销毁)。修:先 rebase 远端再推,重试 3 次,
           #    仍败响亮 exit 1(产物在丢失边缘,必须人立刻看)。产物路径与 docs/代码天然不相交,rebase 必顺。
