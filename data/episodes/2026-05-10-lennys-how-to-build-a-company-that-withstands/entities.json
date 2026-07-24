@@ -1,12 +1,12 @@
 {
   "episode_id": "2026-05-10-lennys-how-to-build-a-company-that-withstands",
-  "podcast": null,
-  "date": null,
+  "podcast": "Lenny's Podcast",
+  "date": "2026-05-10",
   "tags": [
     "公司治理",
-    "创业",
     "使命驱动",
     "公益公司",
+    "结构完整性",
     "AI 安全"
   ],
   "entities": [
@@ -186,13 +186,229 @@
       ]
     },
     {
+      "id": "incorruptible",
+      "type": "concept",
+      "role": "concept",
+      "name": "Incorruptible",
+      "file": "Incorruptible",
+      "primary": true,
+      "how_described": "本集把它说成:Eric Ries 15 年后写的新书，讨论如何保护你所建立的公司，防止它被「金融重力」毁掉，让好公司不至于变坏，伟大的公司继续保持伟大。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            43.382,
+            46.715
+          ],
+          "quote": "This new book, Incorruptible, is about helping you protect what you've built.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 23,
+          "t": [
+            90.243,
+            97.506
+          ],
+          "quote": "Today he is back with a new book 15 years later called Incorruptible: Why Good Companies Go Bad and How Great Companies Stay Great.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 83,
+          "t": [
+            365.36,
+            368.122
+          ],
+          "quote": "You have a new book out called Incorruptible.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 86,
+          "t": [
+            375.667,
+            385.173
+          ],
+          "quote": "The way I've heard you describe the combination of The Lean Startup and this new book is The Lean Startup was about helping you build a successful company and Incorruptible is about helping you protect what you've built.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1699,
+          "t": [
+            5852.12,
+            5861.86
+          ],
+          "quote": "If any of this is at all interesting to you, if you want to explore this, if you want to implement it by Eric's book, Incorruptible, is there a website to look at or is just Google and find it?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1701,
+          "t": [
+            5864.622,
+            5866.764
+          ],
+          "quote": "But yes, we do have a website, incorruptible.co.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1717,
+          "t": [
+            5928.226,
+            5931.195
+          ],
+          "quote": "Incorruptible: Why Good Companies Go Bad... and How Great Companies Stay Great.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare",
+      "type": "company",
+      "role": "company",
+      "name": "Cloudflare",
+      "file": "Cloudflare",
+      "primary": true,
+      "how_described": "本集把它说成:早期为了捍卫「让互联网更美好」的使命，顶住压力重写底层代码以免费提供 SSL 加密，因赢得海量信任而成长为价值数百亿美元的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 273,
+          "t": [
+            927.824,
+            933.766
+          ],
+          "quote": "So many times when people give me this argument, they were like, \"Well, such and such company...\" Someone was like, \"Cloudflare, they are just a normal company.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 276,
+          "t": [
+            936.487,
+            938.968
+          ],
+          "quote": "Cloudflare does many of the things that we're talking about.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 644,
+          "t": [
+            2193.643,
+            2195.084
+          ],
+          "quote": "And I mentioned Cloudflare before.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 645,
+          "t": [
+            2195.124,
+            2196.725
+          ],
+          "quote": "So let me actually tell the Cloudflare story.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 646,
+          "t": [
+            2196.765,
+            2207.071
+          ],
+          "quote": "I like Cloudflare because Matthew Prince and his co-founders, they were really anti-consulting BS talk.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 668,
+          "t": [
+            2252.701,
+            2259.265
+          ],
+          "quote": "So we know that Cloudflare had a mission because quite often they would do this harder is easier stuff.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 677,
+          "t": [
+            2290.148,
+            2292.39
+          ],
+          "quote": "And so Cloudflare, the tiny startup is like, \"We'll do it.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 754,
+          "t": [
+            2540.004,
+            2544.887
+          ],
+          "quote": "In fact, to this day, people still talk about how Cloudflare is like the reason you take for granted we have an encrypted internet.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "novo-nordisk",
+      "type": "company",
+      "role": "company",
+      "name": "Novo Nordisk",
+      "file": "Novo Nordisk",
+      "primary": true,
+      "how_described": "本集把它说成:一家百年前由夫妇俩为了将胰岛素商业化而创立的公司，通过工业基金会这种双层非营利治理结构，成功保护了公司的科学诚信精神长达一百多年。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 427,
+          "t": [
+            1420.858,
+            1426.16
+          ],
+          "quote": "This is the predecessor company to what we today call Novo Nordisk, one of the largest companies in the world.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 428,
+          "t": [
+            1427.18,
+            1439.065
+          ],
+          "quote": "And what's so interesting to me about this story is this structure has endured and protected the ethos of scientific integrity of Novo Nordisk for more than a hundred years.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1405,
+          "t": [
+            4803.984,
+            4815.852
+          ],
+          "quote": "But those are much more complicated compared to me, the two simplest solutions are either a nonprofit foundation as in the Novo Nordisk example, or in the case of what's called the Perpetual Purpose Trust or PPT.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1407,
+          "t": [
+            4819.775,
+            4827.119
+          ],
+          "quote": "So whereas the Novo Nordisk Foundation is the largest charitable foundation in the world because it owns a big chunk of Novo Nordisk and that's worked out pretty well.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1581,
+          "t": [
+            5381.56,
+            5386.043
+          ],
+          "quote": "Let's say you're a want to be Novo Nordisk, you don't actually have to boot up the nonprofit right now.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
       "id": "anthropic",
       "type": "company",
       "role": "company",
       "name": "Anthropic",
       "file": "Anthropic",
       "primary": true,
-      "how_described": "本集说它是史上增长最快的公司；由于从一开始就注册为公益公司（PBC）并设立了长期利益信托（LTBT），使其能够拒绝发布过于危险的模型，甚至敢于拒绝 2 亿美元的合同。",
+      "how_described": "本集把它说成:从创立第一天起就注册为公益公司（PBC），并设立了长期利益信托（LTBT），凭借这套结构保护成功顶住压力拒绝危险合同，从而实现更低推理成本和更快产品迭代。",
       "source": "glm",
       "evidence": [
         {
@@ -477,154 +693,13 @@
       ]
     },
     {
-      "id": "cloudflare",
-      "type": "company",
-      "role": "company",
-      "name": "Cloudflare",
-      "file": "Cloudflare",
-      "primary": true,
-      "how_described": "本集说它早期为保护受到国家级黑客攻击的民主示威者网站挺身而出；后来面对工程师提议应免费提供 SSL 加密的「自断财路」之举，CEO 用「搞清楚它」三个字推动了底层重构，最终赢得了巨大信任，成为今天价值 700 亿美元的公司。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 273,
-          "t": [
-            927.824,
-            933.766
-          ],
-          "quote": "So many times when people give me this argument, they were like, \"Well, such and such company...\" Someone was like, \"Cloudflare, they are just a normal company.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 276,
-          "t": [
-            936.487,
-            938.968
-          ],
-          "quote": "Cloudflare does many of the things that we're talking about.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 644,
-          "t": [
-            2193.643,
-            2195.084
-          ],
-          "quote": "And I mentioned Cloudflare before.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 645,
-          "t": [
-            2195.124,
-            2196.725
-          ],
-          "quote": "So let me actually tell the Cloudflare story.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 646,
-          "t": [
-            2196.765,
-            2207.071
-          ],
-          "quote": "I like Cloudflare because Matthew Prince and his co-founders, they were really anti-consulting BS talk.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 668,
-          "t": [
-            2252.701,
-            2259.265
-          ],
-          "quote": "So we know that Cloudflare had a mission because quite often they would do this harder is easier stuff.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 677,
-          "t": [
-            2290.148,
-            2292.39
-          ],
-          "quote": "And so Cloudflare, the tiny startup is like, \"We'll do it.\"",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 754,
-          "t": [
-            2540.004,
-            2544.887
-          ],
-          "quote": "In fact, to this day, people still talk about how Cloudflare is like the reason you take for granted we have an encrypted internet.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "novo-nordisk",
-      "type": "company",
-      "role": "company",
-      "name": "Novo Nordisk",
-      "file": "Novo Nordisk",
-      "primary": true,
-      "how_described": "本集讲述了其前身在 1920 年采用特殊的双层结构（由非营利基金会拥有和治理的营利性企业），这种结构百年来经受住了无数次攻击，甚至曾阻止管理层短视卖掉套现，最终创造了超过 5000 亿美元的股东价值。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 427,
-          "t": [
-            1420.858,
-            1426.16
-          ],
-          "quote": "This is the predecessor company to what we today call Novo Nordisk, one of the largest companies in the world.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 428,
-          "t": [
-            1427.18,
-            1439.065
-          ],
-          "quote": "And what's so interesting to me about this story is this structure has endured and protected the ethos of scientific integrity of Novo Nordisk for more than a hundred years.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1405,
-          "t": [
-            4803.984,
-            4815.852
-          ],
-          "quote": "But those are much more complicated compared to me, the two simplest solutions are either a nonprofit foundation as in the Novo Nordisk example, or in the case of what's called the Perpetual Purpose Trust or PPT.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1407,
-          "t": [
-            4819.775,
-            4827.119
-          ],
-          "quote": "So whereas the Novo Nordisk Foundation is the largest charitable foundation in the world because it owns a big chunk of Novo Nordisk and that's worked out pretty well.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1581,
-          "t": [
-            5381.56,
-            5386.043
-          ],
-          "quote": "Let's say you're a want to be Novo Nordisk, you don't actually have to boot up the nonprofit right now.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
       "id": "vectura",
       "type": "company",
       "role": "company",
       "name": "Vectura",
       "file": "Vectura",
       "primary": true,
-      "how_described": "本集说它是一家生产哮喘吸入器的英国医药公司；因董事会声称「有信托责任接受最高出价」而被烟草巨头 Philip Morris 收购，最终在三年内被拆解变卖不复存在，是结构软弱导致价值毁灭的典型反面教材。",
+      "how_described": "本集把它说成:一家制造哮喘吸入器疗法的英国医药公司，董事会在「股东至上」的信托责任压力下被迫卖身给烟草巨头 Philip Morris，最终被榨干拆解而毁灭。",
       "source": "glm",
       "evidence": [
         {
@@ -720,670 +795,13 @@
       ]
     },
     {
-      "id": "openai",
-      "type": "company",
-      "role": "company",
-      "name": "OpenAI",
-      "file": "OpenAI",
-      "primary": true,
-      "how_described": "本集说它和 Anthropic 一样采用了公益公司（PBC）等替代治理结构，并且指出当今几乎所有主要的 AI 实验室都采用了这种结构以保护其使命免受纯粹的资本裹挟。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 3,
-          "t": [
-            7,
-            9
-          ],
-          "quote": "I want to hear the OpenAI versus Anthropic story.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 73,
-          "t": [
-            299.921,
-            307.384
-          ],
-          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 596,
-          "t": [
-            2012.049,
-            2016
-          ],
-          "quote": "And I just want to plant the seed of OpenAI is probably on people's minds as they hear this idea of building a nonprofit.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 608,
-          "t": [
-            2045.236,
-            2046.798
-          ],
-          "quote": "OpenAI's business is insanely complicated.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1271,
-          "t": [
-            4349.36,
-            4356.028
-          ],
-          "quote": "I want to hear the OpenAI versus Anthropic story because you've mentioned a part of the structural pieces of this nonprofit.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1276,
-          "t": [
-            4366.72,
-            4375.204
-          ],
-          "quote": "OpenAI is a really hard case study to learn from because it's such a bizarre story and it involves mega personalities like Elon and Sam dueling to the death, so it's complicated.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1282,
-          "t": [
-            4388.991,
-            4393.633
-          ],
-          "quote": "But when they left OpenAI, this is two or three OpenAI crises ago, depending on how you count.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1341,
-          "t": [
-            4605.717,
-            4610
-          ],
-          "quote": "OpenAI very famously had the nonprofit foundation, although now they've converted to a public benefit corp structure.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1357,
-          "t": [
-            4640.042,
-            4644.906
-          ],
-          "quote": "Me, Anthropic, OpenAI, Google, Cohere, Palantir, everyone on this panel together.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "incorruptible",
-      "type": "concept",
-      "role": "concept",
-      "name": "Incorruptible",
-      "file": "Incorruptible",
-      "primary": true,
-      "how_described": "本集说这是 Eric Ries 继《精益创业》15 年后出版的一本新书，旨在教创始人如何通过内部防线（文化/精神）和外部防线（治理结构）来保护自己建立的公司，免受「金融重力」的吞噬。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 13,
-          "t": [
-            43.382,
-            46.715
-          ],
-          "quote": "This new book, Incorruptible, is about helping you protect what you've built.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 23,
-          "t": [
-            90.243,
-            97.506
-          ],
-          "quote": "Today he is back with a new book 15 years later called Incorruptible: Why Good Companies Go Bad and How Great Companies Stay Great.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 83,
-          "t": [
-            365.36,
-            368.122
-          ],
-          "quote": "You have a new book out called Incorruptible.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 86,
-          "t": [
-            375.667,
-            385.173
-          ],
-          "quote": "The way I've heard you describe the combination of The Lean Startup and this new book is The Lean Startup was about helping you build a successful company and Incorruptible is about helping you protect what you've built.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1699,
-          "t": [
-            5852.12,
-            5861.86
-          ],
-          "quote": "If any of this is at all interesting to you, if you want to explore this, if you want to implement it by Eric's book, Incorruptible, is there a website to look at or is just Google and find it?",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1701,
-          "t": [
-            5864.622,
-            5866.764
-          ],
-          "quote": "But yes, we do have a website, incorruptible.co.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1717,
-          "t": [
-            5928.226,
-            5931.195
-          ],
-          "quote": "Incorruptible: Why Good Companies Go Bad... and How Great Companies Stay Great.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "public-benefit-corporation",
-      "type": "concept",
-      "role": "concept",
-      "name": "公益公司 (Public Benefit Corporation)",
-      "file": "公益公司",
-      "primary": true,
-      "how_described": "本集说它是只需两页纸的法律文件即可注册的结构，可将公司目的从「任何合法活动」改写为具体承诺；它没有任何缺点，唯一「代价」是当投资者逼迫你违背使命卖掉公司时，你可以合法地说「不」。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 1061,
-          "t": [
-            3616.34,
-            3619.522
-          ],
-          "quote": "One of them is called the Public Benefit Corporation or PBC.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "mission-guardian",
-      "type": "concept",
-      "role": "concept",
-      "name": "使命守护者 (mission guardian)",
-      "file": "使命守护者",
-      "primary": true,
-      "how_described": "本集说它是为了真正抵御外部压力、确保公司始终保持使命锁定而必需设立的核心角色；可以是具体的「人」（如早期创始人控制）也可以是「实体」（如非营利基金会或长期利益信托）。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 1337,
-          "t": [
-            4581.3,
-            4588.905
-          ],
-          "quote": "But to kind of answer your question, the critical thing we need, if we're going to really resist outside pressure, we need what I call a mission guardian.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1340,
-          "t": [
-            4600.594,
-            4605.557
-          ],
-          "quote": "So Anthropic's solution to that is to have a mission guardian in the form of the long-term benefit trust.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1343,
-          "t": [
-            4613.723,
-            4615.104
-          ],
-          "quote": "The founder is the mission guardian.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1381,
-          "t": [
-            4710,
-            4711.581
-          ],
-          "quote": "So we talked about we need a mission guardian.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1382,
-          "t": [
-            4711.981,
-            4714.643
-          ],
-          "quote": "So first question, is the mission guardian a person or a thing?",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "financial-gravity",
-      "type": "concept",
-      "role": "concept",
-      "name": "金融重力 (financial gravity)",
-      "file": "金融重力",
-      "primary": true,
-      "how_described": "本集说它是一种「没有人控制但每个人都服从」的无形力量，倾向于把组织拖向平庸和纯粹的利润榨取，直到创始人失去对它的控制；不能仅仅甩锅给「重力/贪婪」，而要像桥梁工程师那样去研究并用结构抵御它。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 167,
-          "t": [
-            611.596,
-            612.656
-          ],
-          "quote": "I call it financial gravity.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 454,
-          "t": [
-            1549.3,
-            1557.165
-          ],
-          "quote": "So I think it's really interesting that we have enough of these examples to know that there's nothing inevitable about this financial gravity.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1009,
-          "t": [
-            3397.156,
-            3403.66
-          ],
-          "quote": "Their board seeds its responsibility as a bulwark against pressure rather than as an amplifier of financial gravity.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "long-term-benefit-trust",
-      "type": "concept",
-      "role": "concept",
-      "name": "长期利益信托 (long-term benefit trust)",
-      "file": "长期利益信托",
-      "primary": true,
-      "how_described": "本集说它是 Anthropic 采用的一种使命守护实体机制；其董事由外部没有股权的 AI 安全专家任命并负责，使得投资者不能轻易罢免管理层，让公司敢于拒绝危险合同并承受压力。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 1175,
-          "t": [
-            4016.323,
-            4018.804
-          ],
-          "quote": "We can talk about the long-term benefit trust.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1307,
-          "t": [
-            4476.014,
-            4488.559
-          ],
-          "quote": "And they had to defend it for two years because they didn't actually implement what's called now the long-term benefit trust until their series C, but they had the right and the intention to do it in all their legal documents from inception.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1340,
-          "t": [
-            4600.594,
-            4605.557
-          ],
-          "quote": "So Anthropic's solution to that is to have a mission guardian in the form of the long-term benefit trust.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1408,
-          "t": [
-            4828.08,
-            4831.983
-          ],
-          "quote": "The Anthropic long-term benefit trust has no economic dimension to it at all.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "culture-bank",
-      "type": "concept",
-      "role": "concept",
-      "name": "文化银行 (culture bank)",
-      "file": "文化银行",
-      "primary": true,
-      "how_described": "本集说它是一条从 Devoted Health 和星巴克学来的规则：为了捍卫价值观而做出牺牲是在文化银行里「存款」，而贪婪利己的举动则是「取款」；其核心实践原则是「只存款，绝不取款」。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 1245,
-          "t": [
-            4221.265,
-            4236.451
-          ],
-          "quote": "But the second thing that I think is less appreciated is a practice I call the culture bank, which is when you start to see trustworthiness as an asset, you start to realize that certain actions build that asset and others take it away.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1255,
-          "t": [
-            4281.03,
-            4286.572
-          ],
-          "quote": "That's what they train people in at H-E-B, that you're making a deposit in the culture bank when you do the right thing.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "ethos",
-      "type": "concept",
-      "role": "concept",
-      "name": "精神 (ethos)",
-      "file": "精神",
-      "primary": true,
-      "how_described": "本集说它是构建公司内部防线的核心理念之一；指内在的一致性、性格和选择，即弄清目的并把它刻进管理系统里，让人无法通过背叛原则来赚钱。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 387,
-          "t": [
-            1238.105,
-            1240.746
-          ],
-          "quote": "I just mentioned before, ethos plus integrity, that's our formula.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 388,
-          "t": [
-            1241.267,
-            1248.51
-          ],
-          "quote": "Ethos meaning internal alignment, character, choices, integrity, meaning the structure to resist to keep ourselves aligned with human flourishing.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 428,
-          "t": [
-            1427.18,
-            1439.065
-          ],
-          "quote": "And what's so interesting to me about this story is this structure has endured and protected the ethos of scientific integrity of Novo Nordisk for more than a hundred years.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 817,
-          "t": [
-            2750.907,
-            2752.889
-          ],
-          "quote": "The reason I use the old-fashioned word ethos.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 936,
-          "t": [
-            3157.622,
-            3162.667
-          ],
-          "quote": "I'm not saying Google's bad, but Google used to have this don't be evil ethos, and it got lost.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 982,
-          "t": [
-            3292.19,
-            3298.179
-          ],
-          "quote": "There's the ethos, which is what we've been talking about, values, purpose, mission, and then there's integrity.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1013,
-          "t": [
-            3413.844,
-            3415.265
-          ],
-          "quote": "We started with purpose and ethos.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1201,
-          "t": [
-            4080.97,
-            4082.231
-          ],
-          "quote": "Because that was the ethos.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1203,
-          "t": [
-            4084.792,
-            4086.994
-          ],
-          "quote": "Because they paired the ethos with the integrity.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "structural-integrity",
-      "type": "concept",
-      "role": "concept",
-      "name": "结构正直 (structural integrity)",
-      "file": "结构正直",
-      "primary": true,
-      "how_described": "本集说它是为了让组织能够信守承诺、抵御内外部短期榨取诱惑而构建的外部防线；就像桥梁上防锈的不锈钢螺栓一样，赋予组织抵抗董事会背叛和外部压力的法律权力。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 994,
-          "t": [
-            3329.757,
-            3331.498
-          ],
-          "quote": "But we also have the word structural integrity.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1001,
-          "t": [
-            3356.893,
-            3367
-          ],
-          "quote": "So the goal of structural integrity for an organization is to give it the power to resist temptation from the inside, resist betrayal at the board level and resist pressure from the outside.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "mission-controlled-company",
-      "type": "concept",
-      "role": "concept",
-      "name": "使命控制公司 (mission controlled company)",
-      "file": "使命控制公司",
-      "primary": true,
-      "how_described": "本集说它不同于投资人控制或创始人控制的公司，而是一种由使命本身拥有主权的组织架构；是将使命保护条款直接写入章程，从而实现长久价值创造的设计。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 1578,
-          "t": [
-            5366.55,
-            5369.752
-          ],
-          "quote": "So a mission controlled company is one where the mission itself has sovereignty.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "vanta",
-      "type": "company",
-      "role": "company",
-      "name": "Vanta",
-      "file": "Vanta",
-      "primary": false,
-      "how_described": "本集提到它是一家提供合规和风险管理自动化的平台赞助商。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 795,
-          "t": [
-            2669.08,
-            2673.182
-          ],
-          "quote": "I am so excited to tell you about this season's supporting sponsor, Vanta.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 796,
-          "t": [
-            2673.522,
-            2683.067
-          ],
-          "quote": "Vanta helps over 15,000 companies like Cursor, Ramp, Duolingo, Snowflake, and Atlassian earn and prove trust with their customers.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 801,
-          "t": [
-            2710.26,
-            2719.687
-          ],
-          "quote": "Vanta automates compliance and risk management with over 35 security and privacy frameworks, including SOC 2, ISO 27001, and HIPAA.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 804,
-          "t": [
-            2727.853,
-            2730.355
-          ],
-          "quote": "Learn more at vanta.com/lenny.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 805,
-          "t": [
-            2730.735,
-            2734.178
-          ],
-          "quote": "And as a listener of this podcast, you get $1,000 off Vanta.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 806,
-          "t": [
-            2734.558,
-            2736.34
-          ],
-          "quote": "That's vanta.com/lenny.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "workos",
-      "type": "company",
-      "role": "company",
-      "name": "WorkOS",
-      "file": "WorkOS",
-      "primary": false,
-      "how_described": "本集提到它是一个专为 B2B SaaS 构建的现代化开发者平台，提供单点登录等企业级功能 API。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 72,
-          "t": [
-            295.2,
-            299.341
-          ],
-          "quote": "This episode is brought to you by our season's presenting sponsor, WorkOS.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 74,
-          "t": [
-            307.804,
-            309.624
-          ],
-          "quote": "They are all powered by WorkOS.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 76,
-          "t": [
-            319.567,
-            326.589
-          ],
-          "quote": "WorkOS turns those deal blockers into drop-in APIs with a modern developer platform built specifically for B2B SaaS.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 77,
-          "t": [
-            327.109,
-            334.751
-          ],
-          "quote": "Literally, every startup that I'm an investor in that starts to expand upmarket ends up working with WorkOS, and that's because they are the best.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 78,
-          "t": [
-            335.111,
-            344.914
-          ],
-          "quote": "Whether you are a seed stage startup trying to land your first enterprise customer or a unicorn expanding globally, WorkOS is the fastest path to becoming enterprise ready and unblocking growth.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 80,
-          "t": [
-            348.135,
-            354.377
-          ],
-          "quote": "Visit workos.com to get started or just hit up their Slack where they have actual engineers waiting to answer your questions.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 81,
-          "t": [
-            354.777,
-            360.699
-          ],
-          "quote": "WorkOS allows you to build faster with delightful APIs, comprehensive docs, and a smooth developer experience.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 82,
-          "t": [
-            361.259,
-            364.54
-          ],
-          "quote": "Go to workos.com to make your app enterprise ready today.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
       "id": "groupon",
       "type": "company",
       "role": "company",
       "name": "Groupon",
       "file": "Groupon",
-      "primary": false,
-      "how_described": "本集说它曾是美国增长最快的私营公司之一，但创始人在员工用数据施压下，从每天发一封邮件妥协为发八封，虽然短期赚了钱，却毁了整个公司。",
+      "primary": true,
+      "how_described": "本集把它说成:一家曾靠每天给用户发一封邮件高速增长的明星公司，但由于无法捍卫原则，在利润驱使下最终演变成每天发八封邮件，毁掉了用户体验和整个公司。",
       "source": "glm",
       "evidence": [
         {
@@ -1434,40 +852,631 @@
       ]
     },
     {
-      "id": "patagonia",
-      "type": "company",
-      "role": "company",
-      "name": "Patagonia",
-      "file": "Patagonia",
-      "primary": false,
-      "how_described": "本集提到其创始人是质量狂热者，坚信把质量从内部构建进去，以此作为说明「难就是易」领导原则的正面案例。",
+      "id": "integrity",
+      "type": "concept",
+      "role": "concept",
+      "name": "结构完整性 (integrity)",
+      "file": "结构完整性",
+      "primary": true,
+      "how_described": "本集把它说成:组织抵抗内部背叛和外部压力、从而信守承诺的能力。缺乏结构完整性的软弱组织无法兑现其使命，只有建立法律结构才能让承诺有分量。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 835,
+          "seg": 387,
           "t": [
-            2806.59,
-            2809.311
+            1238.105,
+            1240.746
           ],
-          "quote": "If you know stories about Yvon Chouinard, the founder of Patagonia.",
+          "quote": "I just mentioned before, ethos plus integrity, that's our formula.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 839,
+          "seg": 388,
           "t": [
-            2822.978,
-            2824.499
+            1241.267,
+            1248.51
           ],
-          "quote": "That's why Patagonia is such a success.",
+          "quote": "Ethos meaning internal alignment, character, choices, integrity, meaning the structure to resist to keep ourselves aligned with human flourishing.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 1410,
+          "seg": 428,
           "t": [
-            4835.785,
-            4848.374
+            1427.18,
+            1439.065
           ],
-          "quote": "And what's nice about a Perpetual Purpose Trust, as in the case of Patagonia is governed with a purpose trust also, is you have the trustees, but then you also have someone whose job is actually to sue the trustees if they ever deviate from the mission.",
+          "quote": "And what's so interesting to me about this story is this structure has endured and protected the ethos of scientific integrity of Novo Nordisk for more than a hundred years.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 635,
+          "t": [
+            2146.84,
+            2157.926
+          ],
+          "quote": "So harder is easier is a principle that says, if you're willing to do the work upfront to commit to quality, to design, to ethics, to integrity, to safety, whatever the thing, I don't want to tell you what your values are, you tell me what they are.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 982,
+          "t": [
+            3292.19,
+            3298.179
+          ],
+          "quote": "There's the ethos, which is what we've been talking about, values, purpose, mission, and then there's integrity.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 985,
+          "t": [
+            3300.061,
+            3301.561
+          ],
+          "quote": "So why did I use the word integrity?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 986,
+          "t": [
+            3302.062,
+            3307.164
+          ],
+          "quote": "In normal human language, not consultant speak, but among normal people, integrity has two meanings.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 987,
+          "t": [
+            3307.725,
+            3309.606
+          ],
+          "quote": "One is like, Lenny, you're a very high integrity person.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 994,
+          "t": [
+            3329.757,
+            3331.498
+          ],
+          "quote": "But we also have the word structural integrity.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1000,
+          "t": [
+            3354.572,
+            3356.253
+          ],
+          "quote": "No, that's not integrity.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1001,
+          "t": [
+            3356.893,
+            3367
+          ],
+          "quote": "So the goal of structural integrity for an organization is to give it the power to resist temptation from the inside, resist betrayal at the board level and resist pressure from the outside.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1128,
+          "t": [
+            3854.174,
+            3858.937
+          ],
+          "quote": "So of course, that's not the only thing you can do, but that is the beginning, the easiest one on the integrity side.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1203,
+          "t": [
+            4084.792,
+            4086.994
+          ],
+          "quote": "Because they paired the ethos with the integrity.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "public-benefit-corporation",
+      "type": "concept",
+      "role": "concept",
+      "name": "公益公司 (Public Benefit Corporation)",
+      "file": "公益公司",
+      "primary": true,
+      "how_described": "本集把它说成:一种允许在公司章程中明确写明特定公共使命的公司治理结构。只需两页纸法律文件，毫无坏处，没有权衡取舍，是保护公司不被恶意收购违背使命的最低门槛。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1061,
+          "t": [
+            3616.34,
+            3619.522
+          ],
+          "quote": "One of them is called the Public Benefit Corporation or PBC.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "financial-gravity",
+      "type": "concept",
+      "role": "concept",
+      "name": "金融重力 (financial gravity)",
+      "file": "金融重力",
+      "primary": true,
+      "how_described": "本集把它说成:一种「没有人控制、但每个人都服从」的系统性力量，它会在公司取得成功后将它们拖向平庸，迫使它们偷工减料、榨取利润，甚至沦为纯粹的作恶工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 167,
+          "t": [
+            611.596,
+            612.656
+          ],
+          "quote": "I call it financial gravity.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 454,
+          "t": [
+            1549.3,
+            1557.165
+          ],
+          "quote": "So I think it's really interesting that we have enough of these examples to know that there's nothing inevitable about this financial gravity.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1009,
+          "t": [
+            3397.156,
+            3403.66
+          ],
+          "quote": "Their board seeds its responsibility as a bulwark against pressure rather than as an amplifier of financial gravity.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "long-term-benefit-trust",
+      "type": "concept",
+      "role": "concept",
+      "name": "长期利益信托 (long-term benefit trust)",
+      "file": "长期利益信托",
+      "primary": true,
+      "how_described": "本集把它说成:Anthropic 采用的一种双层治理结构。由不持有公司股权的 AI 安全专家担任受托人，负责任命和监督董事会，使他们在公司面临利润诱惑时能行使否决权。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1175,
+          "t": [
+            4016.323,
+            4018.804
+          ],
+          "quote": "We can talk about the long-term benefit trust.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1307,
+          "t": [
+            4476.014,
+            4488.559
+          ],
+          "quote": "And they had to defend it for two years because they didn't actually implement what's called now the long-term benefit trust until their series C, but they had the right and the intention to do it in all their legal documents from inception.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1340,
+          "t": [
+            4600.594,
+            4605.557
+          ],
+          "quote": "So Anthropic's solution to that is to have a mission guardian in the form of the long-term benefit trust.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1408,
+          "t": [
+            4828.08,
+            4831.983
+          ],
+          "quote": "The Anthropic long-term benefit trust has no economic dimension to it at all.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "culture-bank",
+      "type": "concept",
+      "role": "concept",
+      "name": "文化银行 (culture bank)",
+      "file": "文化银行",
+      "primary": true,
+      "how_described": "本集把它说成:一种将「可信赖度」视为资产的管理实践。每次为了价值观牺牲时就是在存款，为了私利走捷径就是取款。核心规则是「只做存款，绝不做取款」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1245,
+          "t": [
+            4221.265,
+            4236.451
+          ],
+          "quote": "But the second thing that I think is less appreciated is a practice I call the culture bank, which is when you start to see trustworthiness as an asset, you start to realize that certain actions build that asset and others take it away.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1255,
+          "t": [
+            4281.03,
+            4286.572
+          ],
+          "quote": "That's what they train people in at H-E-B, that you're making a deposit in the culture bank when you do the right thing.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "spiritual-holding-company",
+      "type": "concept",
+      "role": "concept",
+      "name": "精神控股公司 (spiritual holding company)",
+      "file": "精神控股公司",
+      "primary": true,
+      "how_described": "本集把它说成:一个统称，用来描述各种能作为「使命守护者」的替代性法律结构（如非营利基金会、员工持股信托等），它负责持有并捍卫整个公司的精神与本质。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1415,
+          "t": [
+            4860.643,
+            4866.768
+          ],
+          "quote": "To me though, I use the omnibus term spiritual holding company to describe this category of things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1425,
+          "t": [
+            4888.124,
+            4889.505
+          ],
+          "quote": "I call it the spiritual holding company.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "mission-guardian",
+      "type": "concept",
+      "role": "concept",
+      "name": "使命守护者 (mission guardian)",
+      "file": "使命守护者",
+      "primary": true,
+      "how_described": "本集把它说成:某人或某个实体的职责，专门用来确保公司保持使命锁定或使命一致。因为「金融重力」极其强大，使命守护不会偶然发生，必须由结构来保障。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1337,
+          "t": [
+            4581.3,
+            4588.905
+          ],
+          "quote": "But to kind of answer your question, the critical thing we need, if we're going to really resist outside pressure, we need what I call a mission guardian.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1340,
+          "t": [
+            4600.594,
+            4605.557
+          ],
+          "quote": "So Anthropic's solution to that is to have a mission guardian in the form of the long-term benefit trust.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1343,
+          "t": [
+            4613.723,
+            4615.104
+          ],
+          "quote": "The founder is the mission guardian.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1381,
+          "t": [
+            4710,
+            4711.581
+          ],
+          "quote": "So we talked about we need a mission guardian.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1382,
+          "t": [
+            4711.981,
+            4714.643
+          ],
+          "quote": "So first question, is the mission guardian a person or a thing?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "invisible-leader",
+      "type": "concept",
+      "role": "concept",
+      "name": "无形领袖 (invisible leader)",
+      "file": "无形领袖",
+      "primary": true,
+      "how_described": "本集把它说成:管理先驱 Mary Parker Follett 提出的概念，指那个当管理者不在场时，依然能指引成千上万个微小决策的「共同目标」。只有使命内化，组织才真正不可摧毁。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1266,
+          "t": [
+            4326.33,
+            4330.872
+          ],
+          "quote": "It's what the pioneering management theorist, Mary Parker Follett called the invisible leader.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1672,
+          "t": [
+            5741.736,
+            5745.359
+          ],
+          "quote": "So one of her most important concepts is what she called the invisible leader.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1684,
+          "t": [
+            5783.16,
+            5787.523
+          ],
+          "quote": "And the common purpose rather than Mr. Rowntree himself is their invisible leader.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1694,
+          "t": [
+            5835.53,
+            5837.992
+          ],
+          "quote": "Only the invisible leader is present.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "shareholder-primacy",
+      "type": "concept",
+      "role": "concept",
+      "name": "股东至上 (shareholder primacy)",
+      "file": "股东至上",
+      "primary": true,
+      "how_described": "本集把它说成:一种近 40 年来主导我们生活的理论，认为公司唯一目的是为股东最大化赚钱；在这种语境下，标准章程意味着公司有义务为了最高出价出卖自己。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            69.407,
+            79.717
+          ],
+          "quote": "But most leaders, when asked to defend their principles, can't do it because they've been taught ROI-based thinking, shareholder primacy, that's the path of maximum profitability.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 757,
+          "t": [
+            2556.515,
+            2562.98
+          ],
+          "quote": "Because they've been taught ROI-based thinking, they've been taught shareholder primacy, they've been taught that that's the path of maximum profitability.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1028,
+          "t": [
+            3467.245,
+            3478.009
+          ],
+          "quote": "Unfortunately, we live in the era of what's called shareholder primacy, meaning that according to this theory, which is the governing theory of our lives, we live under this law today, right now.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "mission-driven",
+      "type": "concept",
+      "role": "concept",
+      "name": "使命驱动 (mission driven)",
+      "file": "使命驱动",
+      "primary": true,
+      "how_described": "本集把它说成:真正使命驱动的公司，必须能证明「除非实现使命，否则你无法盈利」。如果公司能绕开使命去赚钱，那就只是「对使命抱有希望」（mission hopeful）的伪使命驱动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 222,
+          "t": [
+            781.587,
+            784.268
+          ],
+          "quote": "We want to think long-term, we're really a mission-driven company, et cetera, et cetera.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 278,
+          "t": [
+            941.509,
+            954.455
+          ],
+          "quote": "A lot of companies that you don't necessarily instantly think of as do-gooder, mission-driven companies are actually very mission-driven in terms of how they're structured, and they are almost always protected by at least one of the governance structures from this book.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 871,
+          "t": [
+            2957.762,
+            2960.583
+          ],
+          "quote": "Companies that claim to be mission driven, most of them are just mission hopeful.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 876,
+          "t": [
+            2967.506,
+            2974.449
+          ],
+          "quote": "If you're serious about being mission driven, you have to show me that you cannot profit except by achieving the mission.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1100,
+          "t": [
+            3747.262,
+            3750.483
+          ],
+          "quote": "You can say, \"Is this a mission driven company?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1103,
+          "t": [
+            3756.286,
+            3758.087
+          ],
+          "quote": "What kind of things do we do that are mission driven?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "founders-preferred-shares",
+      "type": "concept",
+      "role": "concept",
+      "name": "创始人优先股 (founders preferred shares)",
+      "file": "创始人优先股",
+      "primary": true,
+      "how_described": "本集把它说成:创始人应在早期就落实的股份结构，本集强烈建议创始人了解其经济原理，并在此逻辑场所中实施使命保护条款和董事会控制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1552,
+          "t": [
+            5264.761,
+            5274.047
+          ],
+          "quote": "And then the third thing is I'm going to presume, again, for founders, we'll talk about non-founders in a second, but for founder, I'm going to presume you've already got what are called founders preferred shares.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1554,
+          "t": [
+            5279.391,
+            5286.395
+          ],
+          "quote": "And just say, \" Eric said founders preferred shares could potentially make me personally an extra billion dollars someday.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1557,
+          "t": [
+            5290.438,
+            5293
+          ],
+          "quote": "You need to understand the economics of what are called founders preferred shares.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "harder-is-easier",
+      "type": "concept",
+      "role": "concept",
+      "name": "难就是易 (Harder is easier)",
+      "file": "难就是易",
+      "primary": true,
+      "how_described": "本集把它说成:一个核心领导原则，指愿意在前端投入致力于质量、道德，去承担短期成本，最终会获得「信任」这个最被低估的资产，从而带来意想不到的长期回报。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            62.46,
+            63.582
+          ],
+          "quote": "Harder is easier.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 610,
+          "t": [
+            2050.18,
+            2052.743
+          ],
+          "quote": "Let's start with the principle I call harder is easier.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 635,
+          "t": [
+            2146.84,
+            2157.926
+          ],
+          "quote": "So harder is easier is a principle that says, if you're willing to do the work upfront to commit to quality, to design, to ethics, to integrity, to safety, whatever the thing, I don't want to tell you what your values are, you tell me what they are.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 668,
+          "t": [
+            2252.701,
+            2259.265
+          ],
+          "quote": "So we know that Cloudflare had a mission because quite often they would do this harder is easier stuff.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 698,
+          "t": [
+            2348.816,
+            2353.6
+          ],
+          "quote": "Their number one value, by the way, is be principled, which is the ultimate harder is easier move.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 704,
+          "t": [
+            2362.923,
+            2364.624
+          ],
+          "quote": "That's why we call the principle harder is easier.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 790,
+          "t": [
+            2653.241,
+            2660.719
+          ],
+          "quote": "So if you can stick to the harder is easier principle, that is the first line of defense against losing whatever it is that makes a company special.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 833,
+          "t": [
+            2802.548,
+            2804.189
+          ],
+          "quote": "That's so classic, harder is easier, right?",
           "speaker": "SPEAKER_0"
         }
       ]

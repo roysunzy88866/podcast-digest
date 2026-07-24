@@ -10,12 +10,12 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-06-22-latent-space-gray-swan|《神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan》]]**(00:04起):本集嘉宾联合创立的 AI 安全初创公司，致力于帮助企业安全部署 AI，提供红队竞技场、自动化测试工具 Shade 以及防御过滤模型 Signal。
+- **[[2026-06-22-latent-space-gray-swan|《给 AI 智能体装上「安全带」:Gray Swan 的攻防实战》]]**(00:04起):本集把它说成:一家刚完成 A 轮融资的 AI 安全公司,核心业务是为企业提供模型的红队测试(寻找漏洞)和防御护栏(如 Signal 模型)产品,帮助企业在部署 AI 时减轻安全风险。
 
 ## 出现在这些集
 
-- [[2026-06-22-latent-space-gray-swan|《神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan》]] — 作为被讨论公司
+- [[2026-06-22-latent-space-gray-swan|《给 AI 智能体装上「安全带」:Gray Swan 的攻防实战》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Zico Kolter]] · [[Matt Fredrikson]] · [[Snowflake]] · [[Anthropic]] · [[红队竞技场]] · [[Shade]] · [[Signal]] · [[OpenClaw]] · [[提示词注入]] · [[间接提示词注入]]
+[[Zico Kolter]] · [[Matt Fredrikson]] · [[Anthropic]] · [[智能体]] · [[红队测试]] · [[提示词注入]] · [[鲁棒性]] · [[护栏]] · [[沙箱]] · [[Shade]]

@@ -1,13 +1,13 @@
 {
   "episode_id": "2026-05-03-lennys-why-cultivating-agency-matters-more",
-  "podcast": null,
-  "date": null,
+  "podcast": "Lenny's Podcast",
+  "date": "2026-05-03",
   "tags": [
-    "AI 时代的产品构建",
-    "角色融合与主观能动性",
+    "AI 时代产品构建",
+    "主观能动性",
     "可塑软件",
-    "软件质量与品味",
-    "产品核心与设计哲学"
+    "品味",
+    "微小核心"
   ],
   "entities": [
     {
@@ -84,7 +84,7 @@
       "name": "Notion",
       "file": "Notion",
       "primary": true,
-      "how_described": "本集讨论的主要公司,嘉宾 Max 担任产品负责人;本集提到 Notion 的设计师和 PM 开始写代码做原型,内部推出了备受欢迎的 Notion AI 智能体,并视其为一个连接的工作空间和操作系统。",
+      "how_described": "本集主要探讨的公司，被嘉宾描述为一个连接的工作空间，为 AI 智能体提供完美的运作上下文，可视为一种操作系统，且在 AI 智能体方面取得了巨大成功。",
       "source": "glm",
       "evidence": [
         {
@@ -483,7 +483,7 @@
       "name": "GitHub",
       "file": "GitHub",
       "primary": true,
-      "how_described": "本集提到嘉宾曾在此领导设计,内部推崇『演示而非备忘录』;它的 Pull Request(拉取请求)被嘉宾作为『所有伟大产品都有一个极小的超强核心』的首选案例。",
+      "how_described": "本集多次提及作为对标的产品（如以拉取请求为微小核心），以及嘉宾曾在此推行「演示而不是备忘录」等工作文化。",
       "source": "glm",
       "evidence": [
         {
@@ -558,7 +558,7 @@
       "name": "Heroku",
       "file": "Heroku",
       "primary": true,
-      "how_described": "本集提到嘉宾曾在此领导设计团队,它的核心超能力是 `Git Push Heroku Master` 这行命令,能瞬间把本地代码变成线上 URL。",
+      "how_described": "本集作为过去的案例被讨论，以其极简的「Git Push Heroku master」部署命令为微小核心，但指出其在与 Kubernetes 的竞争中失败，因为后者能赋能运维团队且不锁定云服务商。",
       "source": "glm",
       "evidence": [
         {
@@ -618,322 +618,13 @@
       ]
     },
     {
-      "id": "figma",
-      "type": "company",
-      "role": "company",
-      "name": "Figma",
-      "file": "Figma",
-      "primary": true,
-      "how_described": "本集讨论了随着设计师开始用代码做原型,Figma 的使用呈下降趋势;它的『实时协作与非协作之间的无缝融合』被作为伟大产品微小核心的案例。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 52,
-          "t": [
-            197.544,
-            210.332
-          ],
-          "quote": "I think that would have probably happened anyways, but I can tell you the origin story of it, which is when I joined Notion, we were building a lot of chat interfaces and we were designing the chat interfaces in Figma.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 80,
-          "t": [
-            402.3,
-            420.75
-          ],
-          "quote": "I feel so uncomfortable predicting the future in terms of where things are heading because, well, predicting exponentials is really hard, but I'll take the stab at, it is very, very useful for designers to move from manipulating Figma documents into code.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 85,
-          "t": [
-            442.963,
-            458.737
-          ],
-          "quote": "One is we have designers who now mostly code and prototype in code, and then they are asked by other teams in marketing and so on to reverse engineer that in Figma because they use that to create assets for videos and so on.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 151,
-          "t": [
-            814.42,
-            819.005
-          ],
-          "quote": "And that led to first spending more time in Figma instead of writing long PRDs.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 152,
-          "t": [
-            819.366,
-            821.448
-          ],
-          "quote": "And now it's just, why do I have to do the Figma thing?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 352,
-          "t": [
-            1865.941,
-            1878.151
-          ],
-          "quote": "And so what is the future of Figma, for example, is a really interesting example to me because on one hand, I do see a drop in usage of Figma in some designers at Notion.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 475,
-          "t": [
-            2348.063,
-            2351.95
-          ],
-          "quote": "You mentioned Figma is trending down within the design org, which is really interesting.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 477,
-          "t": [
-            2358.24,
-            2362.102
-          ],
-          "quote": "So I'm actually not positive that Figma is trending down.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 479,
-          "t": [
-            2367.485,
-            2371.948
-          ],
-          "quote": "I could totally believe the Jevons paradox, which is Figma is actually going up.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 483,
-          "t": [
-            2387.477,
-            2392.6
-          ],
-          "quote": "So I don't want to perpetuate that with the Figma versus coding.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 750,
-          "t": [
-            3716.468,
-            3724.153
-          ],
-          "quote": "Figma, it's the seamless blend between real-time collaboration and not.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "anthropic",
-      "type": "company",
-      "role": "company",
-      "name": "Anthropic",
-      "file": "Anthropic",
-      "primary": false,
-      "how_described": "本集顺带提及的 AI 实验室;嘉宾指出它全员狂用 Slack 而非自己造一个,证明 SaaS 的长期维护价值,并提到它的模型与未来 AGI 发展。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 69,
-          "t": [
-            326.287,
-            333.737
-          ],
-          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 298,
-          "t": [
-            1633.36,
-            1643.028
-          ],
-          "quote": "One of the funniest things that I see again and again, I just had the head of product for Claude Code on the podcast, Cat Wu, and she talks about how Slack is basically the OS for Anthropic.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 310,
-          "t": [
-            1680.203,
-            1685.98
-          ],
-          "quote": "No, people at Anthropic, their time is better spent on building AGI than trying to build better Slack.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 356,
-          "t": [
-            1897.752,
-            1904
-          ],
-          "quote": "If I look at the really, really fast models like Spark, and I forget what the Anthropic variant is where-",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 422,
-          "t": [
-            2120.763,
-            2126.188
-          ],
-          "quote": "I would assume they pale in comparison to the folks at OpenAI and Anthropic just by the nature of the work they do and so on.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 482,
-          "t": [
-            2375.59,
-            2387.437
-          ],
-          "quote": "In general, I really, really dislike the rivalry discourse that exists in Silicon Valley, which is for Anthropic to win, OpenAI needs to lose and vice versa and that kind of thing.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 795,
-          "t": [
-            3879.241,
-            3887.539
-          ],
-          "quote": "I think speaking of models, a good example is Anthropic, which was way behind, started after OpenAI, got less funding and now is just killing it and dominating.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "agent",
-      "type": "concept",
-      "role": "concept",
-      "name": "智能体 (agent)",
-      "file": "智能体",
-      "primary": true,
-      "how_described": "本集核心通用概念;嘉宾认为设计者和 PM 必须用代码构建它才能真正理解其运作逻辑,且由于模型变强,未来能派 10 个智能体去探索不同的事物。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 62,
-          "t": [
-            266.803,
-            277.89
-          ],
-          "quote": "We don't always use ... maybe at Notion, the main code base is not always the most agent-friendly because iterations and a decade of patterns.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 105,
-          "t": [
-            563.653,
-            580.54
-          ],
-          "quote": "If they know how to tweak small details of the UI, but they don't understand how an agent loop works, I would much rather take the designer or PM that deeply has an affinity for understanding how agent loops work and can design those than someone who can write traditional software and tweak styles.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 106,
-          "t": [
-            581.22,
-            591.348
-          ],
-          "quote": "And that's really hard because I think the only way that you can actually get to understanding agent loops is if you build them in the material that they're made of, which is currently code.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 178,
-          "t": [
-            973.953,
-            976.695
-          ],
-          "quote": "I'm such an agent and I'll do what needs to be done.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 354,
-          "t": [
-            1881.314,
-            1887.539
-          ],
-          "quote": "It's very hard for me to predict of like, is direct manipulation going away because the agent is doing the direct manipulation?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 451,
-          "t": [
-            2212.7,
-            2228.21
-          ],
-          "quote": "To be fair, I do understand why companies do that, which is I am surprised by how much work it takes to get people to identify the outer loop of their work and enlist an agent and build the ...",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 473,
-          "t": [
-            2340.241,
-            2345.739
-          ],
-          "quote": "I think that's a good litmus test for how, I don't know, agent-filled you are.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 537,
-          "t": [
-            2639.066,
-            2653.737
-          ],
-          "quote": "This makes me think about the head of product for Codex said the same thing that every agent, there's all these different kinds of agents and his take is every agent that will win is going to be a coding agent that builds the thing it needs versus it's come, it has certain number of capabilities.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 541,
-          "t": [
-            2658.421,
-            2667
-          ],
-          "quote": "All agents are also, if you look at all the harnesses, whether it's the open source ones or the ones from the model companies, ours as well, they all resemble a coding agent now.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 584,
-          "t": [
-            2919.66,
-            2929.467
-          ],
-          "quote": "Speaking of superhero, I wasn't planning to talk about this, but I've been hearing a lot about how much people love your agent, the Notion AI agent that you all released.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "agent-loop",
-      "type": "concept",
-      "role": "concept",
-      "name": "智能体循环 (agent loop)",
-      "file": "智能体循环",
-      "primary": true,
-      "how_described": "本集指 AI 自主接收指令、执行任务、反馈结果的运行逻辑;嘉宾强调真正理解它的唯一途径是用构成它的材料(代码)去亲手构建它。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 105,
-          "t": [
-            563.653,
-            580.54
-          ],
-          "quote": "If they know how to tweak small details of the UI, but they don't understand how an agent loop works, I would much rather take the designer or PM that deeply has an affinity for understanding how agent loops work and can design those than someone who can write traditional software and tweak styles.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
       "id": "agency",
       "type": "concept",
       "role": "concept",
       "name": "主观能动性 (agency)",
       "file": "主观能动性",
       "primary": true,
-      "how_described": "本集核心通用概念;嘉宾认为即便 AI 抹平了技能门槛,真正稀缺的、驱动人去改变现状的依然是内在的主观能动性,并建议通过动手制作来培养它。",
+      "how_described": "本集的核心概念之一，被定义为自发采取行动、改变周围世界的能力。嘉宾认为在 AI 抹平技能门槛的未来，这种品质分布不均，将成为区分成功者与落后者的关键。",
       "source": "glm",
       "evidence": [
         {
@@ -1107,7 +798,7 @@
       "name": "可塑软件 (malleable software)",
       "file": "可塑软件",
       "primary": true,
-      "how_described": "嘉宾极力倡导的理念;指软件应更多服务于使用者而非开发公司的利益,当前 App 像被胶水死死粘合的小方块,而 AI 的出现让人们觉醒可以去制造自己的工具。",
+      "how_described": "本集重要理念，指软件更贴近使用者的利益（而非制造公司的利益），允许用户像布置客厅一样对其进行改动和定制。",
       "source": "glm",
       "evidence": [
         {
@@ -1221,23 +912,68 @@
       ]
     },
     {
-      "id": "llm",
+      "id": "tiny-core",
       "type": "concept",
       "role": "concept",
-      "name": "LLM",
-      "file": "LLM",
+      "name": "微小核心 (tiny core)",
+      "file": "微小核心",
       "primary": true,
-      "how_described": "本集频繁提及的通用概念;Notion 专门搭建了对它非常友好的小型独立代码库作为游乐场,并指出随着它的能力提升,人们能做的工作量呈指数级增长。",
+      "how_described": "本集关于伟大产品的核心洞察，指所有伟大的产品都有一个微小但极其出色、像超能力一样的核心（如 iPhone 的多点触控、Dropbox 的同步），而不是盲目的功能堆砌。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 56,
+          "seg": 15,
           "t": [
-            229.784,
-            243.676
+            54.28,
+            60.389
           ],
-          "quote": "And so two designers, myself, just put together the worst possible playground you could think of of a small code base that is very LLM-friendly, used the tools that LLMs are very good at using.",
+          "quote": "All the great products have something tiny that is a superpower, one tiny core that is so exceptionally good.",
           "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 743,
+          "t": [
+            3684.587,
+            3691.912
+          ],
+          "quote": "If I really look at the truly great products, they all have one tiny core that is so exceptionally good.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 745,
+          "t": [
+            3699.838,
+            3701.559
+          ],
+          "quote": "But I think it's the, what's the tiny core?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 755,
+          "t": [
+            3740.411,
+            3743.94
+          ],
+          "quote": "Because this is really interesting, just like what's the tiny core that makes everything else work?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 777,
+          "t": [
+            3809.858,
+            3813.98
+          ],
+          "quote": "And so I think the tiny core is the thing that makes great products.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 937,
+          "t": [
+            4525.661,
+            4536.657
+          ],
+          "quote": "Just coming back to your insight of when a product works, there's just this tiny core thing that is the thing that makes it amazing and what people want to come back to no matter how bad everything else is.",
+          "speaker": "SPEAKER_1"
         }
       ]
     },
@@ -1248,7 +984,7 @@
       "name": "品味 (taste)",
       "file": "品味",
       "primary": true,
-      "how_described": "嘉宾认为 AI 包揽构建后人类的核心剩余价值;定义为脑海中能运行一台虚拟机,以准确预测特定群体是否会喜欢某个想法,并需通过带反馈的迭代来建立。",
+      "how_described": "本集被定义为在脑海中运行一台虚拟机以预测特定群体对想法反应的能力，来源于带反馈的迭代，可以通过像训练模型一样的高频「重复训练」来培养。",
       "source": "glm",
       "evidence": [
         {
@@ -1416,67 +1152,64 @@
       ]
     },
     {
-      "id": "code",
+      "id": "agent-loop",
       "type": "concept",
       "role": "concept",
-      "name": "代码 (code)",
-      "file": "代码",
+      "name": "智能体循环 (agent loop)",
+      "file": "智能体循环",
       "primary": true,
-      "how_described": "本集反复强调的核心媒介;嘉宾坚持『设计师应该写代码』,主因不在乎投入生产,而是用代码思考能迫使你直面并审问真正的媒介材料。",
+      "how_described": "本集讨论中被强调的关键概念，理解它的唯一途径是用代码去构建它；强调理解这种循环比单纯会用工具调整 UI 细节更重要。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 44,
+          "seg": 105,
           "t": [
-            160.03,
-            167.436
+            563.653,
+            580.54
           ],
-          "quote": "And I ask you this because I've heard from so many people at Notion that you are the reason that designers are shipping code, PMs are shipping code.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 51,
-          "t": [
-            190.66,
-            196.824
-          ],
-          "quote": "I wouldn't take credit for the designers at Notion and the PMs at Notion now code.",
+          "quote": "If they know how to tweak small details of the UI, but they don't understand how an agent loop works, I would much rather take the designer or PM that deeply has an affinity for understanding how agent loops work and can design those than someone who can write traditional software and tweak styles.",
           "speaker": "SPEAKER_0"
-        },
+        }
+      ]
+    },
+    {
+      "id": "incremental-correctness",
+      "type": "concept",
+      "role": "concept",
+      "name": "渐进式正确性 (incremental correctness)",
+      "file": "渐进式正确性",
+      "primary": true,
+      "how_described": "本集提到的嘉宾核心价值观之一，指通过高频迭代不断逼近正确，与「只做显然好的东西」结合使用，避免闭门造车。",
+      "source": "glm",
+      "evidence": [
         {
-          "seg": 56,
+          "seg": 671,
           "t": [
-            229.784,
-            243.676
+            3329.86,
+            3335.423
           ],
-          "quote": "And so two designers, myself, just put together the worst possible playground you could think of of a small code base that is very LLM-friendly, used the tools that LLMs are very good at using.",
+          "quote": "One of my core values is incremental correctness, which is iterate, get really, really good at iterating.",
           "speaker": "SPEAKER_0"
-        },
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": true,
+      "how_described": "本集作为传统设计工具被讨论，指出随着 AI 兴起，部分设计师对其使用率下降，转而直接用代码构建原型；它是传统 UI 设计的标准，但面临新工作流的挑战。",
+      "source": "glm",
+      "evidence": [
         {
-          "seg": 58,
+          "seg": 52,
           "t": [
-            249.2,
-            261
+            197.544,
+            210.332
           ],
-          "quote": "And just to understand this playground concept, essentially, this is an idea of people work within this separate area with AI tools versus their whole Notion code base, making it really easy to get started and try stuff.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 62,
-          "t": [
-            266.803,
-            277.89
-          ],
-          "quote": "We don't always use ... maybe at Notion, the main code base is not always the most agent-friendly because iterations and a decade of patterns.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 65,
-          "t": [
-            295.28,
-            309.651
-          ],
-          "quote": "Now, the good news is that's just to get people on the treadmill because as model capabilities get better, now we have the same designers and PMs also just contributing to the production code base to a lesser degree, of course.",
+          "quote": "I think that would have probably happened anyways, but I can tell you the origin story of it, which is when I joined Notion, we were building a lot of chat interfaces and we were designing the chat interfaces in Figma.",
           "speaker": "SPEAKER_0"
         },
         {
@@ -1489,15 +1222,6 @@
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 82,
-          "t": [
-            422.911,
-            425.953
-          ],
-          "quote": "I've always been camp designers should code.",
-          "speaker": "SPEAKER_0"
-        },
-        {
           "seg": 85,
           "t": [
             442.963,
@@ -1507,67 +1231,97 @@
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 94,
+          "seg": 151,
           "t": [
-            505.28,
-            508.523
+            814.42,
+            819.005
           ],
-          "quote": "There's all this talk about designers should be shipping code, PM should be shipping code.",
+          "quote": "And that led to first spending more time in Figma instead of writing long PRDs.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 152,
+          "t": [
+            819.366,
+            821.448
+          ],
+          "quote": "And now it's just, why do I have to do the Figma thing?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1865.941,
+            1878.151
+          ],
+          "quote": "And so what is the future of Figma, for example, is a really interesting example to me because on one hand, I do see a drop in usage of Figma in some designers at Notion.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2348.063,
+            2351.95
+          ],
+          "quote": "You mentioned Figma is trending down within the design org, which is really interesting.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 101,
+          "seg": 477,
           "t": [
-            533.64,
-            538.902
+            2358.24,
+            2362.102
           ],
-          "quote": "I actually don't care at all whether designers write code that lands in production.",
+          "quote": "So I'm actually not positive that Figma is trending down.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 102,
+          "seg": 479,
           "t": [
-            539.623,
-            548.066
+            2367.485,
+            2371.948
           ],
-          "quote": "The reason I like thinking in code is because it forces you to consider the medium.",
+          "quote": "I could totally believe the Jevons paradox, which is Figma is actually going up.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 104,
+          "seg": 483,
           "t": [
-            552.048,
-            562.892
+            2387.477,
+            2392.6
           ],
-          "quote": "So, for example, I think the two extremes would be if a PM or a designer knows how to tweak with, pick your favorite, they're all the same, Codex, Claude Code or whatever.",
+          "quote": "So I don't want to perpetuate that with the Figma versus coding.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 106,
+          "seg": 750,
           "t": [
-            581.22,
-            591.348
+            3716.468,
+            3724.153
           ],
-          "quote": "And that's really hard because I think the only way that you can actually get to understanding agent loops is if you build them in the material that they're made of, which is currently code.",
+          "quote": "Figma, it's the seamless blend between real-time collaboration and not.",
           "speaker": "SPEAKER_0"
-        },
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集顺带提及的前沿 AI 公司，指出其起步晚且资金少但依然占据主导；并以其内部通过 Slack 运行一切事务为例，说明 SaaS 的价值。",
+      "source": "glm",
+      "evidence": [
         {
-          "seg": 108,
+          "seg": 69,
           "t": [
-            597.773,
-            607
+            326.287,
+            333.737
           ],
-          "quote": "And so, I think that's why I care that people code, not because of the utility of shipping to production, but because it forces you to really interrogate the material that you're designing with.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 110,
-          "t": [
-            614.741,
-            621.788
-          ],
-          "quote": "It tends to be that once you awaken someone to a new material, that at some point they also blur the lines and then write production code.",
-          "speaker": "SPEAKER_0"
+          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_1"
         },
         {
           "seg": 298,
@@ -1579,237 +1333,294 @@
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 348,
+          "seg": 310,
           "t": [
-            1850.649,
-            1852.871
+            1680.203,
+            1685.98
           ],
-          "quote": "Code is such a durable thing.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 349,
-          "t": [
-            1852.891,
-            1859.436
-          ],
-          "quote": "I think that expressing your thoughts in code is probably a really good thing.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 370,
-          "t": [
-            1945.834,
-            1950.256
-          ],
-          "quote": "Do you instantly mold the clay that is the code?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 440,
-          "t": [
-            2168.32,
-            2182.513
-          ],
-          "quote": "Yeah, I think there's a real danger in making the token spend the metric to boast about, which is the same as when people boast about how many lines of code they've written in a day.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 441,
-          "t": [
-            2182.533,
-            2187.338
-          ],
-          "quote": "And I'm like, \"Why do you have so many lines of code?\"",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 443,
-          "t": [
-            2190.901,
-            2198.27
-          ],
-          "quote": "The largest software projects in the world have not that many millions of lines of code.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 468,
-          "t": [
-            2303.52,
-            2317.128
-          ],
-          "quote": "I think on the engineering side, something that Simon last talks about a lot is any manual intervention in code is bad.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 470,
-          "t": [
-            2323.951,
-            2326.273
-          ],
-          "quote": "This excludes obviously reviewing code.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 472,
-          "t": [
-            2328.174,
-            2339.88
-          ],
-          "quote": "You should probably review more code than put more effort into reviewing code than you do, but at least on the writing side, every time there is an intervention, a human intervention, it should feel a little bit like a bug.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 484,
-          "t": [
-            2393,
-            2406.289
-          ],
-          "quote": "I think the terminal is actually surprising, which is it's initially scary for people and you could do so much, but now PMs are slowly ... Once they're in Claude Code or Codex, everything is fine.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 510,
-          "t": [
-            2511.188,
-            2512.489
-          ],
-          "quote": "Almost all your code is now AI.",
+          "quote": "No, people at Anthropic, their time is better spent on building AGI than trying to build better Slack.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 511,
+          "seg": 356,
           "t": [
-            2512.609,
-            2518.575
+            1897.752,
+            1904
           ],
-          "quote": "And we've been talking about when will 50% of engineers in the world be writing 100% AI code?",
+          "quote": "If I look at the really, really fast models like Spark, and I forget what the Anthropic variant is where-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2120.763,
+            2126.188
+          ],
+          "quote": "I would assume they pale in comparison to the folks at OpenAI and Anthropic just by the nature of the work they do and so on.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 482,
+          "t": [
+            2375.59,
+            2387.437
+          ],
+          "quote": "In general, I really, really dislike the rivalry discourse that exists in Silicon Valley, which is for Anthropic to win, OpenAI needs to lose and vice versa and that kind of thing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 795,
+          "t": [
+            3879.241,
+            3887.539
+          ],
+          "quote": "I think speaking of models, a good example is Anthropic, which was way behind, started after OpenAI, got less funding and now is just killing it and dominating.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集多次顺带提及的竞争对手或行业前沿代表，用于讨论模型代码能力的指数级进步，以及行业竞争防止权力集中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            326.287,
+            333.737
+          ],
+          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 529,
+          "seg": 422,
           "t": [
-            2575.449,
-            2588.815
+            2120.763,
+            2126.188
           ],
-          "quote": "Well, if the cost of software and creating software and encoding business practices in code, and I just literally mean the old software 1.0 kind of code, then if that cost is very much going to zero, we will just have a lot more of it.",
+          "quote": "I would assume they pale in comparison to the folks at OpenAI and Anthropic just by the nature of the work they do and so on.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 531,
+          "seg": 482,
           "t": [
-            2601.14,
-            2609.266
+            2375.59,
+            2387.437
           ],
-          "quote": "Our folks in HR are automating a lot of things because now, they don't have to bug an engineering team to write that code.",
+          "quote": "In general, I really, really dislike the rivalry discourse that exists in Silicon Valley, which is for Anthropic to win, OpenAI needs to lose and vice versa and that kind of thing.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 580,
+          "seg": 795,
           "t": [
-            2881.981,
-            2891.329
+            3879.241,
+            3887.539
           ],
-          "quote": "I think it's actually a thing that the coding companies had to learn when they tried to move to like, why do code review tools, automatic code review tools not work that well?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 581,
-          "t": [
-            2891.969,
-            2904.399
-          ],
-          "quote": "I think there's actually a subtle thing, which is you push your code publicly to or publicly within your organization or your team, and then a thing roasts your code and tells you how terrible of a developer you are.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 582,
-          "t": [
-            2905,
-            2916.557
-          ],
-          "quote": "Versus if you think about what Claude Code and Codex does is you're coding and then you publish the work of you plus Claude and you get bragging rights of how good of a developer you are.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 650,
-          "t": [
-            3220.566,
-            3227.99
-          ],
-          "quote": "But at the end of the day, feature count is the same silly metric as lines of code or tokens consumed or whatever.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 660,
-          "t": [
-            3279.164,
-            3282.067
-          ],
-          "quote": "So there's code quality and then there's actual software quality.",
+          "quote": "I think speaking of models, a good example is Anthropic, which was way behind, started after OpenAI, got less funding and now is just killing it and dominating.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 680,
+          "seg": 797,
           "t": [
-            3377.488,
-            3387
+            3893.125,
+            3903.076
           ],
-          "quote": "Like somebody was joking like, why does Claude, the desktop have three tabs of co-work, code, and I don't know what the first chat or whatever, why do we have six automation primitives?",
+          "quote": "I don't know who to give credit, but obviously, you give the CEO a bunch of credit, but like Dario is that he wasn't ... Oh, he wasn't just lucky once at OpenAI.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "dropbox",
+      "type": "company",
+      "role": "company",
+      "name": "Dropbox",
+      "file": "Dropbox",
+      "primary": false,
+      "how_described": "本集作为「微小核心」的优秀案例被提及，其菜单栏图标在同步方面做得太好了，用户甚至可以用它来判断有没有联网。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 768,
+          "t": [
+            3777.08,
+            3778.501
+          ],
+          "quote": "Dropbox is a great one.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 865,
+          "seg": 769,
           "t": [
-            4204.08,
-            4207.923
+            3778.521,
+            3790.687
           ],
-          "quote": "I think I am someone who I don't code because of a utility.",
+          "quote": "I think Dropbox is such an interesting study where it was the little menu bar icon that was so good at syncing that you could even use it as a symbol for, do I have internet or not?",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": false,
+      "how_described": "本集在与 Heroku 的对比中被提及，指其不锁定云服务商并赋予运维团队超级英雄般能力，从而获得了比 Heroku 更大的成功。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 564,
+          "t": [
+            2817.08,
+            2826.426
+          ],
+          "quote": "In the past life, I worked at Heroku and Kubernetes was much more successful than Heroku, even though I think from a user experience perspective, it was much worse.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 866,
+          "seg": 566,
           "t": [
-            4207.983,
-            4210.084
+            2832.39,
+            2835.652
           ],
-          "quote": "I code because it's also an intellectual challenge.",
+          "quote": "And Kubernetes was, \"We're going to make your ops team superheroes.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "back-propagation",
+      "type": "concept",
+      "role": "concept",
+      "name": "反向传播 (back propagation)",
+      "file": "反向传播",
+      "primary": false,
+      "how_described": "本集作为培养品味的绝佳比喻，指「输入想法-观察人们反应-调整」的循环过程，非常像神经网络的机制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 705,
+          "t": [
+            3507.895,
+            3511.158
+          ],
+          "quote": "That seems very back propagation.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "universal-basic-income",
+      "type": "concept",
+      "role": "concept",
+      "name": "全民基本收入 (universal basic income)",
+      "file": "全民基本收入",
+      "primary": false,
+      "how_described": "本集嘉宾抛出的激进观点：认为我们已经有了全民基本收入，它就叫作「知识工作」，实际维持生活满足感所需的比这套庞大的工作体系要少得多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            68.303,
+            69.98
+          ],
+          "quote": "Give this hot take on universal basic income.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 19,
+          "t": [
+            70.321,
+            72.108
+          ],
+          "quote": "We already have universal basic income.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 918,
+          "seg": 828,
           "t": [
-            4426.3,
-            4438.229
+            4052.964,
+            4055.666
           ],
-          "quote": "Culturally, I think in running teams, I think a mistake that I made is at some point because hiring ... Now, it's easy, but at the time hiring designers that can code was quite challenging.",
-          "speaker": "SPEAKER_0"
+          "quote": "You have this hot take on universal basic income.",
+          "speaker": "SPEAKER_1"
         },
         {
-          "seg": 1000,
+          "seg": 831,
           "t": [
-            4779.523,
-            4787.588
+            4062.993,
+            4070.419
           ],
-          "quote": "So Code by Charles Petzold, which is The Secret Language of Hardware and Software.",
-          "speaker": "SPEAKER_0"
+          "quote": "We'll just get some UBI and enjoy our life and you have this hot take that maybe we already have universal basic income.",
+          "speaker": "SPEAKER_1"
         },
         {
-          "seg": 1003,
+          "seg": 835,
           "t": [
-            4797.135,
-            4803.799
+            4081.068,
+            4083.59
           ],
-          "quote": "That one, the funny thing is it does not have a line of code in it until chapter 27, so exceptionally good book.",
+          "quote": "My take is that we already have universal basic income.",
           "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "jobs-to-be-done",
+      "type": "concept",
+      "role": "concept",
+      "name": "待办任务 (jobs to be done)",
+      "file": "待办任务",
+      "primary": false,
+      "how_described": "本集提及的一种产品思维框架，用于提醒团队全局性思考用户为何要「雇佣」产品，防止员工在审查自家产品时失去用户视角。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 800,
+          "t": [
+            3907.1,
+            3917.854
+          ],
+          "quote": "I know you're also a believer in jobs to be done as a way of thinking about product, which it's been a long time controversial topic on this podcast mostly because of Sriram who's very anti-jobs to be done.",
+          "speaker": "SPEAKER_1"
         },
         {
-          "seg": 1051,
+          "seg": 807,
           "t": [
-            5022.256,
-            5025.219
+            3971.133,
+            3979.038
           ],
-          "quote": "I mostly code on the phone now because I don't have a real job.",
+          "quote": "And so I think jobs to be done might encourage people to zoom out and not get lost in the sauce of making the thing.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "tui",
+      "type": "concept",
+      "role": "concept",
+      "name": "TUI",
+      "file": "TUI",
+      "primary": false,
+      "how_described": "本集中嘉宾鼓励设计师和产品经理使用终端用户界面而非图形界面，以便他们随着时间的推移能自然而然地拉扯线索，最终理解计算机运作的底层基础。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 656,
+          "t": [
+            3250.082,
+            3262.551
+          ],
+          "quote": "I live in the CLIs, but a regression every two weeks of a thing that was fixed three weeks before, and they still can't render a TUI at, I don't know, a frame rate that's reasonable.",
           "speaker": "SPEAKER_0"
         }
       ]

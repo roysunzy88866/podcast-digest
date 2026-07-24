@@ -1,13 +1,13 @@
 {
   "episode_id": "2026-05-24-lennys-the-ai-paradox-dan-shipper",
-  "podcast": null,
-  "date": null,
+  "podcast": "Lenny's Podcast",
+  "date": "2026-05-24",
   "tags": [
-    "AI 智能体预测",
-    "工作方式变革",
-    "自动化与分配经济",
-    "SaaS 机遇",
-    "驾驭模型"
+    "AI 时代工作方式",
+    "智能体协作",
+    "桌面工作环境",
+    "SaaS 机会",
+    "AI 乐观主义"
   ],
   "entities": [
     {
@@ -111,7 +111,7 @@
       "name": "Every",
       "file": "Every",
       "primary": true,
-      "how_described": "本集嘉宾 Dan Shipper 创办的内容与软件孵化器公司，全员使用 AI 并能提前拿到模型公司的新产品测试，过去一年人数翻倍。",
+      "how_described": "本集将其描述为一家极为 AI 先行的初创公司，全员使用 AI 工具，并在过去一年团队规模翻了一倍。",
       "source": "glm",
       "evidence": [
         {
@@ -414,1102 +414,13 @@
       ]
     },
     {
-      "id": "codex",
-      "type": "company",
-      "role": "company",
-      "name": "Codex",
-      "file": "Codex",
-      "primary": true,
-      "how_described": "本集说是 OpenAI 推出的桌面应用，嘉宾称它为自己每天工作的主战场，可在应用内打开浏览器，结合模型形成强大的工作智能体。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 19,
-          "t": [
-            65.05,
-            72.84
-          ],
-          "quote": "Second is that most of the work that you do is actually going to happen on your computer in an environment like Codex or Claude Cowork.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 20,
-          "t": [
-            73,
-            76.92
-          ],
-          "quote": "What you're predicting here is the SaaS tools will run within Codex or Claude Code.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 29,
-          "t": [
-            108.966,
-            115.309
-          ],
-          "quote": "Everybody at their company, including every non-technical person, uses Codex and Cowork and Claude Code to get much of their work done.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 47,
-          "t": [
-            215.014,
-            216.295
-          ],
-          "quote": "Codex is getting into this now.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 146,
-          "t": [
-            725.829,
-            737.093
-          ],
-          "quote": "Second is that most of the work that you do is actually going to happen on your computer, in an environment like Codex or Claude Cowork.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 188,
-          "t": [
-            995.597,
-            998
-          ],
-          "quote": "I'm going to go back to Codex or Claude or something like that.\"",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 219,
-          "t": [
-            1092.443,
-            1094.094
-          ],
-          "quote": "Like Codex, Cowork.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 235,
-          "t": [
-            1196.654,
-            1212.74
-          ],
-          "quote": "And then I think OpenAI made a couple of different bets, but their main bet on a programming agent was the earlier versions of Codex were very technical and they were super smart, but they were a little bit autistic.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 242,
-          "t": [
-            1235.709,
-            1237.569
-          ],
-          "quote": "And then they launched the Codex desktop app.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 243,
-          "t": [
-            1238.19,
-            1240.71
-          ],
-          "quote": "And I think the Codex desktop app takes ...",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 247,
-          "t": [
-            1256.476,
-            1260.018
-          ],
-          "quote": "And so I think Codex right now, this is a horse race.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 248,
-          "t": [
-            1260.038,
-            1265.88
-          ],
-          "quote": "They're going to have different positions, but I think Codex right now, it's my daily driver.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 252,
-          "t": [
-            1277.285,
-            1292.392
-          ],
-          "quote": "Whoever's in the lead, it feels very obvious to me that all of the work that you do is going to be in one of those surfaces where, for example, when I'm writing a document, Codex has a browser in the app.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 254,
-          "t": [
-            1294.413,
-            1307.579
-          ],
-          "quote": "And when I'm writing a document, I just go into one of my Codex threads, which I have one thread for every project, and I just open the in-app browser, I go to the document, I usually do it in Proof, which is this online markdown editor I built.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 255,
-          "t": [
-            1309.04,
-            1314.882
-          ],
-          "quote": "And then I just have Codex running and watching me in Proof and Codex can see what I'm doing.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 256,
-          "t": [
-            1314.962,
-            1316.242
-          ],
-          "quote": "I can see what Codex is doing.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 261,
-          "t": [
-            1348.793,
-            1357.696
-          ],
-          "quote": "I'm never like this, and that's because I literally just have Codex gather all my emails with Quora, which is our email agent.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 275,
-          "t": [
-            1428.304,
-            1440.178
-          ],
-          "quote": "What I'm hearing is instead of AI being baked into SaaS tools, what you're predicting here is the SaaS tools will run within Codex or Claude Code?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 291,
-          "t": [
-            1540.602,
-            1548.054
-          ],
-          "quote": "So, what you're describing here is more and more work that we do, more and more professional work, is it just going to happen within Codex or Claude Code?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 351,
-          "t": [
-            1947,
-            1955
-          ],
-          "quote": "I think a lot of programmers are still flipping into it every once in a while, but it's more or less they're using Codex, Claude Code, Cursor, that kind of thing.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 355,
-          "t": [
-            1965.587,
-            1975.913
-          ],
-          "quote": "One is this super agent within a company that you chat with through Slack most likely that can go off and do work and answer questions, and then there's on your computer running Codex or Claude Code.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 356,
-          "t": [
-            1976.594,
-            1985.6
-          ],
-          "quote": "And within that, all the work that you normally do on your computers now are going to be living within Codex or Claude Code, or maybe some third party that emerges that we're not even aware of yet.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 361,
-          "t": [
-            2002.77,
-            2009.898
-          ],
-          "quote": "We don't currently have an AI that we talk to regularly in Slack, and we also don't work currently mostly in Codex or Claude Code.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 369,
-          "t": [
-            2033.285,
-            2063.074
-          ],
-          "quote": "When I have Codex interact with another agent, it can give so much more context about me and what I want than I would be able to type, and it can go back and forth talking about things that would take a long time for me to express directly to an agent that you get this speed up effect when you assume that your users are using Codex, or Claude Code, or Cowork as their basic way they access your app.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 377,
-          "t": [
-            2124.1,
-            2152.41
-          ],
-          "quote": "If instead you just make a hard line of we are only going to service users who use Codex or Cowork, what happens is you just paste a prompt into Codex or Cowork, it goes and talks to the app, and the app can be either just a regular server or it can be its own agent, and Codex has so much information about you that it can just give it.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 379,
-          "t": [
-            2163.894,
-            2169.716
-          ],
-          "quote": "And also for a technical product like an agent, when something goes wrong I can just tell Codex, \"Go fix it.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 380,
-          "t": [
-            2170.076,
-            2172.897
-          ],
-          "quote": "And Codex will go talk to the app and figure out what's going on for me.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 388,
-          "t": [
-            2221.849,
-            2228.472
-          ],
-          "quote": "And I actually think once I have Codex or Cowork as my main work surface, I still want to use SaaS.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 395,
-          "t": [
-            2276.769,
-            2296.014
-          ],
-          "quote": "And part of the reason I'm so bullish on SaaS is A, everybody internally here is, like I said, we have all got agents and we're all using Codex and whatever, and we still pay for a ton of SaaS and our SaaS spend is up year over year, and we're not vibe coding every single little thing.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 429,
-          "t": [
-            2482.45,
-            2483.171
-          ],
-          "quote": "Codex, fix it.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 430,
-          "t": [
-            2483.751,
-            2485.272
-          ],
-          "quote": "And Codex is like, \"I don't know what's going on.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 431,
-          "t": [
-            2486.012,
-            2489.354
-          ],
-          "quote": "Or really Codex was like, \"I do know what's going on, I fixed it.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 505,
-          "t": [
-            2930.306,
-            2936.648
-          ],
-          "quote": "One is start using Codex or Claude Code more and more for the work you're doing and especially the browser, use tools inside of it.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 527,
-          "t": [
-            3028.981,
-            3040.365
-          ],
-          "quote": "Once you're in this land where you've got async agents off that you delegate work to, then you've got your Codex Claude Code work surface that starts to happen.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 534,
-          "t": [
-            3096.487,
-            3108.215
-          ],
-          "quote": "Pete gets thousands of poll requests a day on OpenClaw and then he just spins up 50,000 Codex instances and then sorts through them and then merges a thousand of them.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 624,
-          "t": [
-            3631.486,
-            3651.432
-          ],
-          "quote": "My favorite Codex, one of my favorite Codex experiences is we're hiring a head of L&D and we always put out a job post, whatever, but I was like, \"I feel like there's this company called General Assembly in New York and they've done really good technology education for a long time.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 626,
-          "t": [
-            3659.054,
-            3667.277
-          ],
-          "quote": "And I just literally typed it into Codex and then went off and was doing something else and I came back and it found this the perfect guy.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 673,
-          "t": [
-            3936.681,
-            3939.242
-          ],
-          "quote": "Most of my email is written by GPT 5.5 in Codex right now.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 675,
-          "t": [
-            3947.305,
-            3959.169
-          ],
-          "quote": "But I had this experience the other day where I had to send an email to one of our investors and I asked Codex to go do it.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 676,
-          "t": [
-            3959.349,
-            3969.852
-          ],
-          "quote": "And Codex knows to ask me and it usually does, but this time it didn't and it just sent the email and I didn't look at it at all and I was like, \"Fuck.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 793,
-          "t": [
-            4596.287,
-            4601.811
-          ],
-          "quote": "We've talked about how Codex and Cowork are becoming the sort of standard operating system for work.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 869,
-          "t": [
-            5024.081,
-            5034.425
-          ],
-          "quote": "I would try all of your workflows in Codex or Cowork and see how that works.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 944,
-          "t": [
-            5352.061,
-            5352.367
-          ],
-          "quote": "Codex.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 965,
-          "t": [
-            5479.979,
-            5480.9
-          ],
-          "quote": "Don't say, \"Codex.\"",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 966,
-          "t": [
-            5481.78,
-            5493.286
-          ],
-          "quote": "I hate to say this, but I have to because anyone who knows me... We were at this conference recently, an Anthropic conference, and I'm telling Boris and Kat from Claude Code, \"You have to try Codex.\"",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "claude-code",
-      "type": "company",
-      "role": "company",
-      "name": "Claude Code",
-      "file": "Claude Code",
-      "primary": true,
-      "how_described": "本集说是 Anthropic 推出的命令行编程智能体，嘉宾一年前精准预测了它在非技术工作（如整理文件、写文章）上的巨大潜力。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 0,
-          "t": [
-            0.14,
-            5.311
-          ],
-          "quote": "The last time you were on this podcast, you had this hot take that people were sleeping on Claude Code.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 20,
-          "t": [
-            73,
-            76.92
-          ],
-          "quote": "What you're predicting here is the SaaS tools will run within Codex or Claude Code.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 29,
-          "t": [
-            108.966,
-            115.309
-          ],
-          "quote": "Everybody at their company, including every non-technical person, uses Codex and Cowork and Claude Code to get much of their work done.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 30,
-          "t": [
-            115.749,
-            124.852
-          ],
-          "quote": "And this is why, way before anybody else, Dan saw the rise of Claude Code and what is now Cowork, which he predicted almost a year ago when he was on the podcast last time.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 41,
-          "t": [
-            183.48,
-            199.327
-          ],
-          "quote": "The last time you were on this podcast, you had this, it was almost like an offhand hot take that people were sleeping on Claude Code and in particular Claude Code for non-engineering work, for just fixing files, sorting your hard drive, just all these things that people hadn't thought about.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 46,
-          "t": [
-            208.111,
-            214.954
-          ],
-          "quote": "They built Cowork, which built on this very specific idea using Claude Code for non-technical work.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 55,
-          "t": [
-            235.984,
-            238.505
-          ],
-          "quote": "I asked people, \"How do you use Claude Code for non-engineering work?\"",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 80,
-          "t": [
-            384.4,
-            394.544
-          ],
-          "quote": "And so the Claude Code thing, it's this very organic thing where, for us, we tried Claude Code when it came out.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 87,
-          "t": [
-            433.598,
-            438.68
-          ],
-          "quote": "Everybody was talking to their computer in English, using Claude Code in the terminal.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 225,
-          "t": [
-            1098.021,
-            1114.186
-          ],
-          "quote": "So basically what happened was Anthropic realized at some point that, with Claude Code, if you put an agent on your computer and it runs on your computer, it has access to everything that you have access to.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 233,
-          "t": [
-            1183.409,
-            1188.471
-          ],
-          "quote": "And people started just hacking Claude Code, essentially, to do all of their work.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 234,
-          "t": [
-            1188.571,
-            1195.354
-          ],
-          "quote": "Anthropic then built Cowork, which is a little bit of a nicer wrapping around Claude Code, but is fundamentally the same thing.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 244,
-          "t": [
-            1240.73,
-            1251.435
-          ],
-          "quote": "If you look at all the lessons that Anthropic learned, they went from Claude code to Cowork and you can see that in the tabs on the Anthropic desktop app UI.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 257,
-          "t": [
-            1316.543,
-            1322.565
-          ],
-          "quote": "It's all in one place, which is an extension of the same thing that made Claude Code work really well originally.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 272,
-          "t": [
-            1415.337,
-            1421.679
-          ],
-          "quote": "You can't even do this in Claude Code because they don't let you browse external websites inside of Claude Code.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 275,
-          "t": [
-            1428.304,
-            1440.178
-          ],
-          "quote": "What I'm hearing is instead of AI being baked into SaaS tools, what you're predicting here is the SaaS tools will run within Codex or Claude Code?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 291,
-          "t": [
-            1540.602,
-            1548.054
-          ],
-          "quote": "So, what you're describing here is more and more work that we do, more and more professional work, is it just going to happen within Codex or Claude Code?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 348,
-          "t": [
-            1903.926,
-            1918.171
-          ],
-          "quote": "And I think there is this moment when Claude Code was so popular, or when Claude Code was really starting to gain in popularity that people were like, \"The thing that's working is the fact that it's the CLI,\" and I don't think that's what it is.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 351,
-          "t": [
-            1947,
-            1955
-          ],
-          "quote": "I think a lot of programmers are still flipping into it every once in a while, but it's more or less they're using Codex, Claude Code, Cursor, that kind of thing.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 355,
-          "t": [
-            1965.587,
-            1975.913
-          ],
-          "quote": "One is this super agent within a company that you chat with through Slack most likely that can go off and do work and answer questions, and then there's on your computer running Codex or Claude Code.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 356,
-          "t": [
-            1976.594,
-            1985.6
-          ],
-          "quote": "And within that, all the work that you normally do on your computers now are going to be living within Codex or Claude Code, or maybe some third party that emerges that we're not even aware of yet.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 361,
-          "t": [
-            2002.77,
-            2009.898
-          ],
-          "quote": "We don't currently have an AI that we talk to regularly in Slack, and we also don't work currently mostly in Codex or Claude Code.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 369,
-          "t": [
-            2033.285,
-            2063.074
-          ],
-          "quote": "When I have Codex interact with another agent, it can give so much more context about me and what I want than I would be able to type, and it can go back and forth talking about things that would take a long time for me to express directly to an agent that you get this speed up effect when you assume that your users are using Codex, or Claude Code, or Cowork as their basic way they access your app.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 505,
-          "t": [
-            2930.306,
-            2936.648
-          ],
-          "quote": "One is start using Codex or Claude Code more and more for the work you're doing and especially the browser, use tools inside of it.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 527,
-          "t": [
-            3028.981,
-            3040.365
-          ],
-          "quote": "Once you're in this land where you've got async agents off that you delegate work to, then you've got your Codex Claude Code work surface that starts to happen.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 544,
-          "t": [
-            3146.672,
-            3150.174
-          ],
-          "quote": "They delete a lot of stuff from Claude Code to make sure that it's not bloated.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 573,
-          "t": [
-            3320.311,
-            3327.693
-          ],
-          "quote": "There is code and he is using Claude Code and other things like that, but a lot of it is just talking to it and being like, \"Why did you do this dumb thing?",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 709,
-          "t": [
-            4166.051,
-            4169.272
-          ],
-          "quote": "Now I think he uses Claude Code, but he was extremely cursor pilled for a long time.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 966,
-          "t": [
-            5481.78,
-            5493.286
-          ],
-          "quote": "I hate to say this, but I have to because anyone who knows me... We were at this conference recently, an Anthropic conference, and I'm telling Boris and Kat from Claude Code, \"You have to try Codex.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 981,
-          "t": [
-            5554.289,
-            5561.78
-          ],
-          "quote": "I was super loud about Claude Code when that was the thing I really liked, and I'll just say what I like when it happens.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "anthropic",
-      "type": "company",
-      "role": "company",
-      "name": "Anthropic",
-      "file": "Anthropic",
-      "primary": true,
-      "how_described": "本集说它率先意识到把智能体放在电脑上能产生强大编程范式，在非技术用途上大火，并基于此构建了 Cowork 产品。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 50,
-          "t": [
-            221.937,
-            227.48
-          ],
-          "quote": "I feel like this has also been a big part of Anthropic's success over the past year, just like how do non-technical people use this stuff.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 98,
-          "t": [
-            492.363,
-            499.828
-          ],
-          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 136,
-          "t": [
-            650.226,
-            658.028
-          ],
-          "quote": "Oh, Mythos preview, the big anthropic model that everyone's so worried about, it can do tasks of 17 hours at 50% accuracy.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 225,
-          "t": [
-            1098.021,
-            1114.186
-          ],
-          "quote": "So basically what happened was Anthropic realized at some point that, with Claude Code, if you put an agent on your computer and it runs on your computer, it has access to everything that you have access to.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 227,
-          "t": [
-            1117.947,
-            1134.493
-          ],
-          "quote": "And not only that, these agents really understand how to use the terminal because there's so much content online about that and it created this super powerful coding paradigm, which is Anthropic was really doing it first.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 234,
-          "t": [
-            1188.571,
-            1195.354
-          ],
-          "quote": "Anthropic then built Cowork, which is a little bit of a nicer wrapping around Claude Code, but is fundamentally the same thing.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 244,
-          "t": [
-            1240.73,
-            1251.435
-          ],
-          "quote": "If you look at all the lessons that Anthropic learned, they went from Claude code to Cowork and you can see that in the tabs on the Anthropic desktop app UI.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 262,
-          "t": [
-            1358.336,
-            1364.178
-          ],
-          "quote": "And then it renders a little page, and I think I showed you this at the Anthropic event.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 301,
-          "t": [
-            1611.36,
-            1623.065
-          ],
-          "quote": "When you call the model on the OpenAI platform, the Anthropic platform, they're literally running the model on a computer that is in the cloud that they run and then giving you the result out of it.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 303,
-          "t": [
-            1627.587,
-            1631.728
-          ],
-          "quote": "And so, you see Anthropic's got cloud managed agents.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 310,
-          "t": [
-            1662.821,
-            1674.134
-          ],
-          "quote": "So, if people building products that aren't OpenAI or Anthropic, if this proves to be true, the prediction here is they're going to be using your product over time inside of one of these agents.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 543,
-          "t": [
-            3143.951,
-            3146.032
-          ],
-          "quote": "I think Anthropic does this really well.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 822,
-          "t": [
-            4792.735,
-            4798.74
-          ],
-          "quote": "Maybe the only people that have an advantage are the people working at OpenAI or Anthropic, but otherwise it's just available.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 966,
-          "t": [
-            5481.78,
-            5493.286
-          ],
-          "quote": "I hate to say this, but I have to because anyone who knows me... We were at this conference recently, an Anthropic conference, and I'm telling Boris and Kat from Claude Code, \"You have to try Codex.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 970,
-          "t": [
-            5521.948,
-            5526
-          ],
-          "quote": "Do you feel like Anthropic can catch up or is this just like, \"Well, they get [inaudible 01:32:07]\"",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "openai",
-      "type": "company",
-      "role": "company",
-      "name": "OpenAI",
-      "file": "OpenAI",
-      "primary": true,
-      "how_described": "本集说它在编程智能体上曾落后于 Anthropic，但靠 Codex 桌面应用成功追赶甚至超越，并预测它会推出云端管理的智能体。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 98,
-          "t": [
-            492.363,
-            499.828
-          ],
-          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 228,
-          "t": [
-            1134.933,
-            1141.515
-          ],
-          "quote": "OpenAI, for a while, was, in my opinion, very, very behind on this and then, in my opinion, has surpassed them recently.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 231,
-          "t": [
-            1157.12,
-            1170.625
-          ],
-          "quote": "There were people before them, like Devin, who, I think, had the big cloud environment and OpenAI tried this too, but the real adoption seems to have happened when you put it on your computer.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 235,
-          "t": [
-            1196.654,
-            1212.74
-          ],
-          "quote": "And then I think OpenAI made a couple of different bets, but their main bet on a programming agent was the earlier versions of Codex were very technical and they were super smart, but they were a little bit autistic.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 245,
-          "t": [
-            1252.235,
-            1254.676
-          ],
-          "quote": "I think OpenAI was just like, \"We see where this is going.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 301,
-          "t": [
-            1611.36,
-            1623.065
-          ],
-          "quote": "When you call the model on the OpenAI platform, the Anthropic platform, they're literally running the model on a computer that is in the cloud that they run and then giving you the result out of it.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 304,
-          "t": [
-            1633.389,
-            1637.23
-          ],
-          "quote": "OpenAI does not have a response yet, but I assume that that's going to happen.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 310,
-          "t": [
-            1662.821,
-            1674.134
-          ],
-          "quote": "So, if people building products that aren't OpenAI or Anthropic, if this proves to be true, the prediction here is they're going to be using your product over time inside of one of these agents.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 822,
-          "t": [
-            4792.735,
-            4798.74
-          ],
-          "quote": "Maybe the only people that have an advantage are the people working at OpenAI or Anthropic, but otherwise it's just available.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 972,
-          "t": [
-            5527.882,
-            5540.996
-          ],
-          "quote": "Like I said, I think it's going to be a horse race and different people will be ahead at different times, but I think right now OpenAI has gotten back the mandate of heaven a little bit.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 979,
-          "t": [
-            5550.584,
-            5552.366
-          ],
-          "quote": "People are like, \"Oh, are you sponsored by OpenAI?\"",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "cursor",
-      "type": "company",
-      "role": "company",
-      "name": "Cursor",
-      "file": "Cursor",
-      "primary": true,
-      "how_described": "本集说它更明确地选择了为程序员服务的赛道，其云端实现比 OpenAI 或 Anthropic 的更先进，但可能受限于非编程工作领域。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 98,
-          "t": [
-            492.363,
-            499.828
-          ],
-          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 292,
-          "t": [
-            1548.995,
-            1550.117
-          ],
-          "quote": "Where does Cursor fit into this?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 295,
-          "t": [
-            1553.22,
-            1561.823
-          ],
-          "quote": "I think that Cursor sees a lot of the same stuff, and in some ways they have some of the same stuff but it's better.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 296,
-          "t": [
-            1561.963,
-            1576.268
-          ],
-          "quote": "I think that Cursor's cloud implementation is better than either OpenAIs or Anthropics and is more advanced, and I think that Cursor has at least so far more distinctly chosen a lane.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 305,
-          "t": [
-            1637.35,
-            1640.972
-          ],
-          "quote": "And now Cursor was just essentially acquired by SpaceX.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 309,
-          "t": [
-            1655.437,
-            1661.94
-          ],
-          "quote": "Cursor itself feels like one of the things that it's going to be a hard decision for them whether to stay just for coders or not.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 351,
-          "t": [
-            1947,
-            1955
-          ],
-          "quote": "I think a lot of programmers are still flipping into it every once in a while, but it's more or less they're using Codex, Claude Code, Cursor, that kind of thing.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 473,
-          "t": [
-            2756.942,
-            2766.505
-          ],
-          "quote": "Vanta helps over 15,000 companies like Cursor, Ramp, Duolingo, Snowflake, and Atlassian earn and prove trust with their customers.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 708,
-          "t": [
-            4157.189,
-            4165.891
-          ],
-          "quote": "And he took a year off that job and just got super AI-pilled and just learned how to use cursor basically really well.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 709,
-          "t": [
-            4166.051,
-            4169.272
-          ],
-          "quote": "Now I think he uses Claude Code, but he was extremely cursor pilled for a long time.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "shopify",
-      "type": "company",
-      "role": "company",
-      "name": "Shopify",
-      "file": "Shopify",
-      "primary": false,
-      "how_described": "本集提到它设有一个专门岗位来维护供全公司使用的「超级智能体」（名字叫 River）。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 168,
-          "t": [
-            839.548,
-            847.29
-          ],
-          "quote": "So Shopify very famously has one, Ramp has one now and I think there's some really interesting reasons for that.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 193,
-          "t": [
-            1005.774,
-            1008.058
-          ],
-          "quote": "As you said, Shopify's got River, I think it's called.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
       "id": "agent",
       "type": "concept",
       "role": "concept",
       "name": "智能体 (agent)",
       "file": "智能体",
       "primary": true,
-      "how_described": "本集核心主线概念。嘉宾认为公司架构将转向全公司共用一个「超级智能体」，且每用自动化智能体都需要派一个人去像经理一样盯着它。",
+      "how_described": "本集将其描述为人类工作的承接者，指出每个智能体都需要一个关心它的人类主理人；人们会和智能体像经理管理员工一样协作。",
       "source": "glm",
       "evidence": [
         {
@@ -2001,13 +912,1492 @@
       ]
     },
     {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集将其描述为 OpenAI 推出的桌面智能体环境，嘉宾称其为日常主力工具，SaaS 工具将直接在它的内置浏览器里运行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            65.05,
+            72.84
+          ],
+          "quote": "Second is that most of the work that you do is actually going to happen on your computer in an environment like Codex or Claude Cowork.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 20,
+          "t": [
+            73,
+            76.92
+          ],
+          "quote": "What you're predicting here is the SaaS tools will run within Codex or Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 29,
+          "t": [
+            108.966,
+            115.309
+          ],
+          "quote": "Everybody at their company, including every non-technical person, uses Codex and Cowork and Claude Code to get much of their work done.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 47,
+          "t": [
+            215.014,
+            216.295
+          ],
+          "quote": "Codex is getting into this now.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 146,
+          "t": [
+            725.829,
+            737.093
+          ],
+          "quote": "Second is that most of the work that you do is actually going to happen on your computer, in an environment like Codex or Claude Cowork.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 188,
+          "t": [
+            995.597,
+            998
+          ],
+          "quote": "I'm going to go back to Codex or Claude or something like that.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1092.443,
+            1094.094
+          ],
+          "quote": "Like Codex, Cowork.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1196.654,
+            1212.74
+          ],
+          "quote": "And then I think OpenAI made a couple of different bets, but their main bet on a programming agent was the earlier versions of Codex were very technical and they were super smart, but they were a little bit autistic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1235.709,
+            1237.569
+          ],
+          "quote": "And then they launched the Codex desktop app.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1238.19,
+            1240.71
+          ],
+          "quote": "And I think the Codex desktop app takes ...",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1256.476,
+            1260.018
+          ],
+          "quote": "And so I think Codex right now, this is a horse race.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1260.038,
+            1265.88
+          ],
+          "quote": "They're going to have different positions, but I think Codex right now, it's my daily driver.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1277.285,
+            1292.392
+          ],
+          "quote": "Whoever's in the lead, it feels very obvious to me that all of the work that you do is going to be in one of those surfaces where, for example, when I'm writing a document, Codex has a browser in the app.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1294.413,
+            1307.579
+          ],
+          "quote": "And when I'm writing a document, I just go into one of my Codex threads, which I have one thread for every project, and I just open the in-app browser, I go to the document, I usually do it in Proof, which is this online markdown editor I built.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1309.04,
+            1314.882
+          ],
+          "quote": "And then I just have Codex running and watching me in Proof and Codex can see what I'm doing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1314.962,
+            1316.242
+          ],
+          "quote": "I can see what Codex is doing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1348.793,
+            1357.696
+          ],
+          "quote": "I'm never like this, and that's because I literally just have Codex gather all my emails with Quora, which is our email agent.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1428.304,
+            1440.178
+          ],
+          "quote": "What I'm hearing is instead of AI being baked into SaaS tools, what you're predicting here is the SaaS tools will run within Codex or Claude Code?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1540.602,
+            1548.054
+          ],
+          "quote": "So, what you're describing here is more and more work that we do, more and more professional work, is it just going to happen within Codex or Claude Code?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1947,
+            1955
+          ],
+          "quote": "I think a lot of programmers are still flipping into it every once in a while, but it's more or less they're using Codex, Claude Code, Cursor, that kind of thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1965.587,
+            1975.913
+          ],
+          "quote": "One is this super agent within a company that you chat with through Slack most likely that can go off and do work and answer questions, and then there's on your computer running Codex or Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1976.594,
+            1985.6
+          ],
+          "quote": "And within that, all the work that you normally do on your computers now are going to be living within Codex or Claude Code, or maybe some third party that emerges that we're not even aware of yet.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2002.77,
+            2009.898
+          ],
+          "quote": "We don't currently have an AI that we talk to regularly in Slack, and we also don't work currently mostly in Codex or Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2033.285,
+            2063.074
+          ],
+          "quote": "When I have Codex interact with another agent, it can give so much more context about me and what I want than I would be able to type, and it can go back and forth talking about things that would take a long time for me to express directly to an agent that you get this speed up effect when you assume that your users are using Codex, or Claude Code, or Cowork as their basic way they access your app.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 377,
+          "t": [
+            2124.1,
+            2152.41
+          ],
+          "quote": "If instead you just make a hard line of we are only going to service users who use Codex or Cowork, what happens is you just paste a prompt into Codex or Cowork, it goes and talks to the app, and the app can be either just a regular server or it can be its own agent, and Codex has so much information about you that it can just give it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 379,
+          "t": [
+            2163.894,
+            2169.716
+          ],
+          "quote": "And also for a technical product like an agent, when something goes wrong I can just tell Codex, \"Go fix it.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2170.076,
+            2172.897
+          ],
+          "quote": "And Codex will go talk to the app and figure out what's going on for me.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2221.849,
+            2228.472
+          ],
+          "quote": "And I actually think once I have Codex or Cowork as my main work surface, I still want to use SaaS.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2276.769,
+            2296.014
+          ],
+          "quote": "And part of the reason I'm so bullish on SaaS is A, everybody internally here is, like I said, we have all got agents and we're all using Codex and whatever, and we still pay for a ton of SaaS and our SaaS spend is up year over year, and we're not vibe coding every single little thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2482.45,
+            2483.171
+          ],
+          "quote": "Codex, fix it.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2483.751,
+            2485.272
+          ],
+          "quote": "And Codex is like, \"I don't know what's going on.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2486.012,
+            2489.354
+          ],
+          "quote": "Or really Codex was like, \"I do know what's going on, I fixed it.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2930.306,
+            2936.648
+          ],
+          "quote": "One is start using Codex or Claude Code more and more for the work you're doing and especially the browser, use tools inside of it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 527,
+          "t": [
+            3028.981,
+            3040.365
+          ],
+          "quote": "Once you're in this land where you've got async agents off that you delegate work to, then you've got your Codex Claude Code work surface that starts to happen.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 534,
+          "t": [
+            3096.487,
+            3108.215
+          ],
+          "quote": "Pete gets thousands of poll requests a day on OpenClaw and then he just spins up 50,000 Codex instances and then sorts through them and then merges a thousand of them.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 624,
+          "t": [
+            3631.486,
+            3651.432
+          ],
+          "quote": "My favorite Codex, one of my favorite Codex experiences is we're hiring a head of L&D and we always put out a job post, whatever, but I was like, \"I feel like there's this company called General Assembly in New York and they've done really good technology education for a long time.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 626,
+          "t": [
+            3659.054,
+            3667.277
+          ],
+          "quote": "And I just literally typed it into Codex and then went off and was doing something else and I came back and it found this the perfect guy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 673,
+          "t": [
+            3936.681,
+            3939.242
+          ],
+          "quote": "Most of my email is written by GPT 5.5 in Codex right now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 675,
+          "t": [
+            3947.305,
+            3959.169
+          ],
+          "quote": "But I had this experience the other day where I had to send an email to one of our investors and I asked Codex to go do it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 676,
+          "t": [
+            3959.349,
+            3969.852
+          ],
+          "quote": "And Codex knows to ask me and it usually does, but this time it didn't and it just sent the email and I didn't look at it at all and I was like, \"Fuck.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 793,
+          "t": [
+            4596.287,
+            4601.811
+          ],
+          "quote": "We've talked about how Codex and Cowork are becoming the sort of standard operating system for work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 869,
+          "t": [
+            5024.081,
+            5034.425
+          ],
+          "quote": "I would try all of your workflows in Codex or Cowork and see how that works.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 944,
+          "t": [
+            5352.061,
+            5352.367
+          ],
+          "quote": "Codex.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 965,
+          "t": [
+            5479.979,
+            5480.9
+          ],
+          "quote": "Don't say, \"Codex.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 966,
+          "t": [
+            5481.78,
+            5493.286
+          ],
+          "quote": "I hate to say this, but I have to because anyone who knows me... We were at this conference recently, an Anthropic conference, and I'm telling Boris and Kat from Claude Code, \"You have to try Codex.\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集将其描述为 Anthropic 推出的编程智能体，不仅用于写代码，还被广泛用于非技术活，被视为新工作范式的开创者。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.14,
+            5.311
+          ],
+          "quote": "The last time you were on this podcast, you had this hot take that people were sleeping on Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 20,
+          "t": [
+            73,
+            76.92
+          ],
+          "quote": "What you're predicting here is the SaaS tools will run within Codex or Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 29,
+          "t": [
+            108.966,
+            115.309
+          ],
+          "quote": "Everybody at their company, including every non-technical person, uses Codex and Cowork and Claude Code to get much of their work done.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 30,
+          "t": [
+            115.749,
+            124.852
+          ],
+          "quote": "And this is why, way before anybody else, Dan saw the rise of Claude Code and what is now Cowork, which he predicted almost a year ago when he was on the podcast last time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 41,
+          "t": [
+            183.48,
+            199.327
+          ],
+          "quote": "The last time you were on this podcast, you had this, it was almost like an offhand hot take that people were sleeping on Claude Code and in particular Claude Code for non-engineering work, for just fixing files, sorting your hard drive, just all these things that people hadn't thought about.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 46,
+          "t": [
+            208.111,
+            214.954
+          ],
+          "quote": "They built Cowork, which built on this very specific idea using Claude Code for non-technical work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 55,
+          "t": [
+            235.984,
+            238.505
+          ],
+          "quote": "I asked people, \"How do you use Claude Code for non-engineering work?\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 80,
+          "t": [
+            384.4,
+            394.544
+          ],
+          "quote": "And so the Claude Code thing, it's this very organic thing where, for us, we tried Claude Code when it came out.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 87,
+          "t": [
+            433.598,
+            438.68
+          ],
+          "quote": "Everybody was talking to their computer in English, using Claude Code in the terminal.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1098.021,
+            1114.186
+          ],
+          "quote": "So basically what happened was Anthropic realized at some point that, with Claude Code, if you put an agent on your computer and it runs on your computer, it has access to everything that you have access to.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1183.409,
+            1188.471
+          ],
+          "quote": "And people started just hacking Claude Code, essentially, to do all of their work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1188.571,
+            1195.354
+          ],
+          "quote": "Anthropic then built Cowork, which is a little bit of a nicer wrapping around Claude Code, but is fundamentally the same thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1240.73,
+            1251.435
+          ],
+          "quote": "If you look at all the lessons that Anthropic learned, they went from Claude code to Cowork and you can see that in the tabs on the Anthropic desktop app UI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1316.543,
+            1322.565
+          ],
+          "quote": "It's all in one place, which is an extension of the same thing that made Claude Code work really well originally.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1415.337,
+            1421.679
+          ],
+          "quote": "You can't even do this in Claude Code because they don't let you browse external websites inside of Claude Code.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1428.304,
+            1440.178
+          ],
+          "quote": "What I'm hearing is instead of AI being baked into SaaS tools, what you're predicting here is the SaaS tools will run within Codex or Claude Code?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1540.602,
+            1548.054
+          ],
+          "quote": "So, what you're describing here is more and more work that we do, more and more professional work, is it just going to happen within Codex or Claude Code?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1903.926,
+            1918.171
+          ],
+          "quote": "And I think there is this moment when Claude Code was so popular, or when Claude Code was really starting to gain in popularity that people were like, \"The thing that's working is the fact that it's the CLI,\" and I don't think that's what it is.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1947,
+            1955
+          ],
+          "quote": "I think a lot of programmers are still flipping into it every once in a while, but it's more or less they're using Codex, Claude Code, Cursor, that kind of thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1965.587,
+            1975.913
+          ],
+          "quote": "One is this super agent within a company that you chat with through Slack most likely that can go off and do work and answer questions, and then there's on your computer running Codex or Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1976.594,
+            1985.6
+          ],
+          "quote": "And within that, all the work that you normally do on your computers now are going to be living within Codex or Claude Code, or maybe some third party that emerges that we're not even aware of yet.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2002.77,
+            2009.898
+          ],
+          "quote": "We don't currently have an AI that we talk to regularly in Slack, and we also don't work currently mostly in Codex or Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2033.285,
+            2063.074
+          ],
+          "quote": "When I have Codex interact with another agent, it can give so much more context about me and what I want than I would be able to type, and it can go back and forth talking about things that would take a long time for me to express directly to an agent that you get this speed up effect when you assume that your users are using Codex, or Claude Code, or Cowork as their basic way they access your app.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2930.306,
+            2936.648
+          ],
+          "quote": "One is start using Codex or Claude Code more and more for the work you're doing and especially the browser, use tools inside of it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 527,
+          "t": [
+            3028.981,
+            3040.365
+          ],
+          "quote": "Once you're in this land where you've got async agents off that you delegate work to, then you've got your Codex Claude Code work surface that starts to happen.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 544,
+          "t": [
+            3146.672,
+            3150.174
+          ],
+          "quote": "They delete a lot of stuff from Claude Code to make sure that it's not bloated.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 573,
+          "t": [
+            3320.311,
+            3327.693
+          ],
+          "quote": "There is code and he is using Claude Code and other things like that, but a lot of it is just talking to it and being like, \"Why did you do this dumb thing?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 709,
+          "t": [
+            4166.051,
+            4169.272
+          ],
+          "quote": "Now I think he uses Claude Code, but he was extremely cursor pilled for a long time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 966,
+          "t": [
+            5481.78,
+            5493.286
+          ],
+          "quote": "I hate to say this, but I have to because anyone who knows me... We were at this conference recently, an Anthropic conference, and I'm telling Boris and Kat from Claude Code, \"You have to try Codex.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 981,
+          "t": [
+            5554.289,
+            5561.78
+          ],
+          "quote": "I was super loud about Claude Code when that was the thing I really liked, and I'll just say what I like when it happens.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "cowork",
+      "type": "concept",
+      "role": "concept",
+      "name": "Cowork",
+      "file": "Cowork",
+      "primary": true,
+      "how_described": "本集将其描述为 Anthropic 对 Claude Code 的一个更好的封装产品，与 Codex 一同被视为未来的工作操作系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            65.05,
+            72.84
+          ],
+          "quote": "Second is that most of the work that you do is actually going to happen on your computer in an environment like Codex or Claude Cowork.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 29,
+          "t": [
+            108.966,
+            115.309
+          ],
+          "quote": "Everybody at their company, including every non-technical person, uses Codex and Cowork and Claude Code to get much of their work done.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 30,
+          "t": [
+            115.749,
+            124.852
+          ],
+          "quote": "And this is why, way before anybody else, Dan saw the rise of Claude Code and what is now Cowork, which he predicted almost a year ago when he was on the podcast last time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 46,
+          "t": [
+            208.111,
+            214.954
+          ],
+          "quote": "They built Cowork, which built on this very specific idea using Claude Code for non-technical work.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 146,
+          "t": [
+            725.829,
+            737.093
+          ],
+          "quote": "Second is that most of the work that you do is actually going to happen on your computer, in an environment like Codex or Claude Cowork.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1092.443,
+            1094.094
+          ],
+          "quote": "Like Codex, Cowork.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1188.571,
+            1195.354
+          ],
+          "quote": "Anthropic then built Cowork, which is a little bit of a nicer wrapping around Claude Code, but is fundamentally the same thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1240.73,
+            1251.435
+          ],
+          "quote": "If you look at all the lessons that Anthropic learned, they went from Claude code to Cowork and you can see that in the tabs on the Anthropic desktop app UI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2033.285,
+            2063.074
+          ],
+          "quote": "When I have Codex interact with another agent, it can give so much more context about me and what I want than I would be able to type, and it can go back and forth talking about things that would take a long time for me to express directly to an agent that you get this speed up effect when you assume that your users are using Codex, or Claude Code, or Cowork as their basic way they access your app.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 377,
+          "t": [
+            2124.1,
+            2152.41
+          ],
+          "quote": "If instead you just make a hard line of we are only going to service users who use Codex or Cowork, what happens is you just paste a prompt into Codex or Cowork, it goes and talks to the app, and the app can be either just a regular server or it can be its own agent, and Codex has so much information about you that it can just give it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2221.849,
+            2228.472
+          ],
+          "quote": "And I actually think once I have Codex or Cowork as my main work surface, I still want to use SaaS.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 793,
+          "t": [
+            4596.287,
+            4601.811
+          ],
+          "quote": "We've talked about how Codex and Cowork are becoming the sort of standard operating system for work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 869,
+          "t": [
+            5024.081,
+            5034.425
+          ],
+          "quote": "I would try all of your workflows in Codex or Cowork and see how that works.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "saas",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS",
+      "file": "SaaS",
+      "primary": true,
+      "how_described": "本集预测「SaaS 末日」是愚蠢的，认为智能体不仅不会消灭 SaaS，反而会因调用频次的暴增而极大地推高其需求与繁荣。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            73,
+            76.92
+          ],
+          "quote": "What you're predicting here is the SaaS tools will run within Codex or Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 22,
+          "t": [
+            79.066,
+            80.47
+          ],
+          "quote": "I would buy SaaS stocks right now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 23,
+          "t": [
+            80.57,
+            84
+          ],
+          "quote": "What agents do is increase the number of users of SaaS, not get rid of it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 101,
+          "t": [
+            512.016,
+            518.98
+          ],
+          "quote": "Work OS turns those deal blockers into drop-in APIs with a modern developer platform built specifically for B2B SaaS.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1428.304,
+            1440.178
+          ],
+          "quote": "What I'm hearing is instead of AI being baked into SaaS tools, what you're predicting here is the SaaS tools will run within Codex or Claude Code?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1472.57,
+            1483.113
+          ],
+          "quote": "And so, it puts SaaS back in this place where yeah, you want to make it friendly for an agent and everyone's got a CLI now, you want to make the HTML really usable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1526.313,
+            1538.48
+          ],
+          "quote": "And so, it changes what you build as a SaaS company and you build it now for both humans and agents to use at the same time, and it changes your margins back to, well, I don't really have to pay for tokens anymore because the user's going to bring AI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2187.065,
+            2195.334
+          ],
+          "quote": "One is you made this point about SaaS tools not using ... You can use tokens from the model companies basically when using a SaaS tool.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2195.574,
+            2199.719
+          ],
+          "quote": "Talk a bit more about that, because that may change the business model for SaaS companies in the future.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 388,
+          "t": [
+            2221.849,
+            2228.472
+          ],
+          "quote": "And I actually think once I have Codex or Cowork as my main work surface, I still want to use SaaS.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2229.833,
+            2232.935
+          ],
+          "quote": "I would buy SaaS stocks right now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 391,
+          "t": [
+            2233.175,
+            2238.677
+          ],
+          "quote": "I think the SaaS apocalypse is dumb, and SaaS stocks will be up majorly in the next couple years.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2239.457,
+            2243.579
+          ],
+          "quote": "Not investment advice, but I would buy SaaS stocks.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2276.769,
+            2296.014
+          ],
+          "quote": "And part of the reason I'm so bullish on SaaS is A, everybody internally here is, like I said, we have all got agents and we're all using Codex and whatever, and we still pay for a ton of SaaS and our SaaS spend is up year over year, and we're not vibe coding every single little thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2298.135,
+            2305.657
+          ],
+          "quote": "And I think that what agents do is increase the number of users of SaaS, not get rid of it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 397,
+          "t": [
+            2306.757,
+            2316
+          ],
+          "quote": "And so, I think SaaS companies are going to see an insane spike in the amount of demand that they have, because there's going to be tons of agents using these products at a very high volume.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2319.627,
+            2326.519
+          ],
+          "quote": "There's a lot of interesting pricing challenges, but it makes me very bullish on SaaS.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2328.062,
+            2332.272
+          ],
+          "quote": "If anything else comes out of this conversation, Dan Shipper, SaaS is the future of AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 402,
+          "t": [
+            2332.332,
+            2335.218
+          ],
+          "quote": "B2B SaaS.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2942.051,
+            2946.713
+          ],
+          "quote": "If you're building a SaaS tool, make it easy for agents to be a user essentially.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2964.441,
+            2969.233
+          ],
+          "quote": "Buy SaaS stock ASAP, not investment advice.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 520,
+          "t": [
+            3010.162,
+            3010.566
+          ],
+          "quote": "Buy SaaS.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 728,
+          "t": [
+            4255.987,
+            4257.497
+          ],
+          "quote": "SaaS is back, PMs are back.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 837,
+          "t": [
+            4871.045,
+            4873.767
+          ],
+          "quote": "SaaS continues, jobs not disappearing.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "openclaw",
+      "type": "concept",
+      "role": "concept",
+      "name": "OpenClaw",
+      "file": "OpenClaw",
+      "primary": true,
+      "how_described": "本集将其描述为一种开源的个人智能体框架，在社区极具热度但维护门槛过高，常常出故障，导致大家转投全公司级的超级智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 145,
+          "t": [
+            721.927,
+            724.889
+          ],
+          "quote": "And we'll talk about what that looks like, but it's essentially like OpenClaw.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 159,
+          "t": [
+            785.19,
+            804.677
+          ],
+          "quote": "And when OpenClaw first came out, everyone internally at Every adopted it and I was very convinced that it would be everyone has their own agent and there's some really interesting things about that world of a parallel org chart.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 169,
+          "t": [
+            847.87,
+            856.773
+          ],
+          "quote": "I actually still think that the personal agent thing is coming, but what we found is there's all this hype with OpenClaw.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 177,
+          "t": [
+            878.34,
+            891.865
+          ],
+          "quote": "And the fundamental, underlying thing that drives that is whether it's OpenClaw or any other harness, in order for an AI agent to be useful right now, it really needs a human who cares about it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 179,
+          "t": [
+            901.548,
+            910.111
+          ],
+          "quote": "And the minute you sever that connection, so the minute someone's like, \"Ah, I don't want to maintain this dumb OpenClaw,\" is the minute the agent is not really that useful anymore.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1047.081,
+            1050.663
+          ],
+          "quote": "I think people love having the green bubbles on OpenClaw.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1050.923,
+            1060.167
+          ],
+          "quote": "Sorry, the blue bubbles on OpenClaw, if you can use it with your iPhone, but I think there's this little thing in people's heads where they really like to keep their personal and work agents separate.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 370,
+          "t": [
+            2064.335,
+            2072.997
+          ],
+          "quote": "And a really simple example, we have this hosted OpenClaw product, which we had on waitlist.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 371,
+          "t": [
+            2073.037,
+            2080.2
+          ],
+          "quote": "We actually had to pause it because we started taking people off the waitlist, and OpenClaw is just a very a very hard agent harness to make work.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 533,
+          "t": [
+            3089.763,
+            3095.927
+          ],
+          "quote": "So for example, like OpenClaw, I mentioned that earlier.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 534,
+          "t": [
+            3096.487,
+            3108.215
+          ],
+          "quote": "Pete gets thousands of poll requests a day on OpenClaw and then he just spins up 50,000 Codex instances and then sorts through them and then merges a thousand of them.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 870,
+          "t": [
+            5034.505,
+            5047.87
+          ],
+          "quote": "And if your company doesn't let you do it on your own time, I would try out some of these agent products like OpenClaw or Hermes or for less technical people, there's like Victor, we have OnePlus ones.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "terminal",
+      "type": "concept",
+      "role": "concept",
+      "name": "终端 (terminal)",
+      "file": "终端",
+      "primary": true,
+      "how_described": "本集指出编程智能体极其擅长使用终端操作，这造就了一种超级强大的新编程范式，但也宣称 CLI 时代已被「速通」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            84.202,
+            86
+          ],
+          "quote": "A lot of people are moving to CLI and trying to work from the terminal.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 87,
+          "t": [
+            433.598,
+            438.68
+          ],
+          "quote": "Everybody was talking to their computer in English, using Claude Code in the terminal.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1114.526,
+            1117.807
+          ],
+          "quote": "It uses the terminal, so it has basically superpowered access to it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1117.947,
+            1134.493
+          ],
+          "quote": "And not only that, these agents really understand how to use the terminal because there's so much content online about that and it created this super powerful coding paradigm, which is Anthropic was really doing it first.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1873.261,
+            1882.9
+          ],
+          "quote": "So, as a part of this that a lot of people are moving to CLI and trying to work from the terminal, is part of this prediction that people shift away from that and back to actual UX with agents-",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "cli",
+      "type": "concept",
+      "role": "concept",
+      "name": "CLI",
+      "file": "CLI",
+      "primary": true,
+      "how_described": "本集宣判了 CLI 时代的终结，认为随着 GUI 的回归，技术人员将不再把 CLI 作为主要工作界面，且未来 SaaS 仍需支持智能体对 CLI 的调用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            84.202,
+            86
+          ],
+          "quote": "A lot of people are moving to CLI and trying to work from the terminal.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 25,
+          "t": [
+            86.16,
+            88.487
+          ],
+          "quote": "We speed ran the CLI era.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1472.57,
+            1483.113
+          ],
+          "quote": "And so, it puts SaaS back in this place where yeah, you want to make it friendly for an agent and everyone's got a CLI now, you want to make the HTML really usable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1483.153,
+            1487.575
+          ],
+          "quote": "You want to make sure that anything that happens in the CLI shows up for the user immediately, all that kind of stuff.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1698.126,
+            1704.208
+          ],
+          "quote": "And now people are doing CLI so it's meant for an agent to use independently of a human.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1873.261,
+            1882.9
+          ],
+          "quote": "So, as a part of this that a lot of people are moving to CLI and trying to work from the terminal, is part of this prediction that people shift away from that and back to actual UX with agents-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1886.38,
+            1888.941
+          ],
+          "quote": "We speed ran the CLI era.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1903.926,
+            1918.171
+          ],
+          "quote": "And I think there is this moment when Claude Code was so popular, or when Claude Code was really starting to gain in popularity that people were like, \"The thing that's working is the fact that it's the CLI,\" and I don't think that's what it is.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2973.301,
+            2987.089
+          ],
+          "quote": "My slight tweak is when you're thinking about building your software for agents, the current model is I'm building a CLI that an agent uses, but they're using it in a sort of like they're being...",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 514,
+          "t": [
+            2987.709,
+            2990.511
+          ],
+          "quote": "I delegated to task the agent and the agent's using the CLI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 516,
+          "t": [
+            2996.815,
+            3001.878
+          ],
+          "quote": "The agent's probably using the CLI, but you're using the web interface and they both need to be in sync.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "concept",
+      "role": "concept",
+      "name": "基准测试 (benchmark)",
+      "file": "基准测试",
+      "primary": true,
+      "how_described": "本集指出基准测试让人产生 AI 会完全自主的错觉，无法衡量需要人类主动思考的隐性工作，即便饱和也不等同于完全替代人类工程师。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            639.183,
+            650.146
+          ],
+          "quote": "Meter has this really cool benchmark where it's like it measures how long the newest models can do tasks autonomously and it's like, oh, it can, what's it called?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2436.711,
+            2442.433
+          ],
+          "quote": "And I think part of the paradox started to resolve for me a little bit when I made my own benchmark.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2443.574,
+            2449.736
+          ],
+          "quote": "So I made this senior, it's called the senior engineer benchmark, and it's like how good is AI versus a human engineer?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2584.626,
+            2598.351
+          ],
+          "quote": "It's very clear that in a year or less it's going to be senior engineer level, and that gives you a certain picture in your mind, especially based on how I named the benchmark, which I think a lot of benchmarks do.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2599.572,
+            2609.776
+          ],
+          "quote": "And I can tell you that when we get to that point, it will be very easy for me to change the benchmark to zero out the current model, so that gets a zero out of 100.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2711.335,
+            2725
+          ],
+          "quote": "And so, I think it's really important when we think about benchmark progress to think about it from that perspective, which is benchmarks rise on problems that we've framed that we can articulate, that we can score.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2874.257,
+            2880
+          ],
+          "quote": "And in this case, the way the benchmark is structured is, yeah, these human engineers used AI, but they used it in a way that I could not because I didn't understand it and I didn't have time-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 809,
+          "t": [
+            4681.35,
+            4688.333
+          ],
+          "quote": "So it could not do the senior engineer benchmark last time, and I turned the rock over again and now it's at a 60 out of 100, which is really good.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "forward-deployed-engineer",
+      "type": "concept",
+      "role": "concept",
+      "name": "前置部署工程师 (forward deployed engineer)",
+      "file": "前置部署工程师",
+      "primary": true,
+      "how_described": "本集将其描述为一个从「每个智能体都需要人类」原则中衍生出的真实新岗位，职责是花大量时间在 Slack 中和内部智能体对话以确保其正常运作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 180,
+          "t": [
+            910.852,
+            933.96
+          ],
+          "quote": "And that's why I think it has started to shift to a more one agent per company model because for now, the ideal is you basically set up a forward deployed engineer or someone with that profile who's responsible for making sure that that agent is working for the whole company and then maybe you have some little team agents.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "full-stack-designers",
+      "type": "concept",
+      "role": "concept",
+      "name": "全栈设计师 (full stack designers)",
+      "file": "全栈设计师",
+      "primary": true,
+      "how_described": "本集极度看好该角色，认为 vibe coding 出来的东西千篇一律，而设计师拥有与众不同的审美，现在能自己构建产品而不必频繁交接给工程师。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            13.409,
+            18
+          ],
+          "quote": "I am super, super bullish on PMs and full stack designers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 732,
+          "t": [
+            4266.5,
+            4274.524
+          ],
+          "quote": "So the other people that I think are going to be super, super power people, and again, this is because we see this internally, is full stack designers.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
       "id": "automation",
       "type": "concept",
       "role": "concept",
-      "name": "自动化 (automation)",
-      "file": "自动化",
+      "name": "工作自动化 (automation)",
+      "file": "工作自动化",
       "primary": true,
-      "how_described": "本集断言「自动化是个谎言」：每次弄了自动化，为确保不出错，就必须得派一个人天天盯着它。",
+      "how_described": "本集犀利指出「自动化是个谎言」，因为每次自动化某件事时，为了确保其运转良好，都需要一个人类在上面盯着它。",
       "source": "glm",
       "evidence": [
         {
@@ -2067,61 +2457,148 @@
       ]
     },
     {
-      "id": "forward-deployed-engineer",
-      "type": "concept",
-      "role": "concept",
-      "name": "前置部署工程师 (forward deployed engineer)",
-      "file": "前置部署工程师",
-      "primary": true,
-      "how_described": "本集说由于每个智能体都需要人来维护，催生了这一全新的核心岗位：主要在 Slack 里跟公司的智能体对话、纠正错误并搭建系统。",
+      "id": "shopify",
+      "type": "company",
+      "role": "company",
+      "name": "Shopify",
+      "file": "Shopify",
+      "primary": false,
+      "how_described": "本集提及该公司已经部署了全公司级别的超级智能体，由专人维护。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 180,
+          "seg": 168,
           "t": [
-            910.852,
-            933.96
+            839.548,
+            847.29
           ],
-          "quote": "And that's why I think it has started to shift to a more one agent per company model because for now, the ideal is you basically set up a forward deployed engineer or someone with that profile who's responsible for making sure that that agent is working for the whole company and then maybe you have some little team agents.",
+          "quote": "So Shopify very famously has one, Ramp has one now and I think there's some really interesting reasons for that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1005.774,
+            1008.058
+          ],
+          "quote": "As you said, Shopify's got River, I think it's called.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "ramp",
+      "type": "company",
+      "role": "company",
+      "name": "Ramp",
+      "file": "Ramp",
+      "primary": false,
+      "how_described": "本集顺带提及这家公司也开始使用一个全公司共享的超级智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 168,
+          "t": [
+            839.548,
+            847.29
+          ],
+          "quote": "So Shopify very famously has one, Ramp has one now and I think there's some really interesting reasons for that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1008.078,
+            1008.94
+          ],
+          "quote": "What's the Ramp one called?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2756.942,
+            2766.505
+          ],
+          "quote": "Vanta helps over 15,000 companies like Cursor, Ramp, Duolingo, Snowflake, and Atlassian earn and prove trust with their customers.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "本集提到该平台目前正因为智能体发来的请求数量呈指数级暴涨而面临巨大的基础设施挑战。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 329,
+          "t": [
+            1801.206,
+            1809.849
+          ],
+          "quote": "This is exactly why GitHub is having problems right now because the number of people using GitHub is skyrocketing exponentially and it's really just people's agencies in GitHub.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1843.922,
+            1848.005
+          ],
+          "quote": "And then we just get that, it becomes a GitHub issue, and then we can just send off an agent to fix it.",
           "speaker": "SPEAKER_1"
         }
       ]
     },
     {
-      "id": "terminal",
-      "type": "concept",
-      "role": "concept",
-      "name": "终端 (terminal)",
-      "file": "终端",
-      "primary": true,
-      "how_described": "本集说当 AI 智能体在电脑上通过终端访问一切时，产生了极强大的编程能力，但嘉宾断言纯文字的 CLI 时代已结束，人类终究需要图形界面。",
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集讨论了这家模型公司率先在本地电脑运行编程智能体方面的成功，并推出了 Cowork 产品。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 24,
+          "seg": 50,
           "t": [
-            84.202,
-            86
+            221.937,
+            227.48
           ],
-          "quote": "A lot of people are moving to CLI and trying to work from the terminal.",
+          "quote": "I feel like this has also been a big part of Anthropic's success over the past year, just like how do non-technical people use this stuff.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 87,
+          "seg": 98,
           "t": [
-            433.598,
-            438.68
+            492.363,
+            499.828
           ],
-          "quote": "Everybody was talking to their computer in English, using Claude Code in the terminal.",
+          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 136,
+          "t": [
+            650.226,
+            658.028
+          ],
+          "quote": "Oh, Mythos preview, the big anthropic model that everyone's so worried about, it can do tasks of 17 hours at 50% accuracy.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 226,
+          "seg": 225,
           "t": [
-            1114.526,
-            1117.807
+            1098.021,
+            1114.186
           ],
-          "quote": "It uses the terminal, so it has basically superpowered access to it.",
+          "quote": "So basically what happened was Anthropic realized at some point that, with Claude Code, if you put an agent on your computer and it runs on your computer, it has access to everything that you have access to.",
           "speaker": "SPEAKER_1"
         },
         {
@@ -2134,42 +2611,345 @@
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 338,
+          "seg": 234,
           "t": [
-            1873.261,
-            1882.9
+            1188.571,
+            1195.354
           ],
-          "quote": "So, as a part of this that a lot of people are moving to CLI and trying to work from the terminal, is part of this prediction that people shift away from that and back to actual UX with agents-",
+          "quote": "Anthropic then built Cowork, which is a little bit of a nicer wrapping around Claude Code, but is fundamentally the same thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1240.73,
+            1251.435
+          ],
+          "quote": "If you look at all the lessons that Anthropic learned, they went from Claude code to Cowork and you can see that in the tabs on the Anthropic desktop app UI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1358.336,
+            1364.178
+          ],
+          "quote": "And then it renders a little page, and I think I showed you this at the Anthropic event.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1611.36,
+            1623.065
+          ],
+          "quote": "When you call the model on the OpenAI platform, the Anthropic platform, they're literally running the model on a computer that is in the cloud that they run and then giving you the result out of it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1627.587,
+            1631.728
+          ],
+          "quote": "And so, you see Anthropic's got cloud managed agents.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1662.821,
+            1674.134
+          ],
+          "quote": "So, if people building products that aren't OpenAI or Anthropic, if this proves to be true, the prediction here is they're going to be using your product over time inside of one of these agents.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 543,
+          "t": [
+            3143.951,
+            3146.032
+          ],
+          "quote": "I think Anthropic does this really well.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 822,
+          "t": [
+            4792.735,
+            4798.74
+          ],
+          "quote": "Maybe the only people that have an advantage are the people working at OpenAI or Anthropic, but otherwise it's just available.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 966,
+          "t": [
+            5481.78,
+            5493.286
+          ],
+          "quote": "I hate to say this, but I have to because anyone who knows me... We were at this conference recently, an Anthropic conference, and I'm telling Boris and Kat from Claude Code, \"You have to try Codex.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 970,
+          "t": [
+            5521.948,
+            5526
+          ],
+          "quote": "Do you feel like Anthropic can catch up or is this just like, \"Well, they get [inaudible 01:32:07]\"",
           "speaker": "SPEAKER_0"
         }
       ]
     },
     {
-      "id": "tokens",
-      "type": "concept",
-      "role": "concept",
-      "name": "令牌 (tokens)",
-      "file": "令牌",
-      "primary": true,
-      "how_described": "本集说当用户在自己电脑的智能体里操作 SaaS 时，用的是自己的令牌，这帮 SaaS 公司省下了 AI 成本并保住了利润率。",
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集指出该公司曾落后于 Anthropic，但在发布 GPT 5.3 后推出 Codex 桌面应用开始追赶并反超。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 281,
+          "seg": 98,
           "t": [
-            1465.148,
-            1467.949
+            492.363,
+            499.828
           ],
-          "quote": "When I run the agent on that website, I'm using my tokens.",
+          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1134.933,
+            1141.515
+          ],
+          "quote": "OpenAI, for a while, was, in my opinion, very, very behind on this and then, in my opinion, has surpassed them recently.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 282,
+          "seg": 231,
           "t": [
-            1468.909,
-            1471.91
+            1157.12,
+            1170.625
           ],
-          "quote": "I'm not using the vendor's tokens, I'm not using the app's tokens.",
+          "quote": "There were people before them, like Devin, who, I think, had the big cloud environment and OpenAI tried this too, but the real adoption seems to have happened when you put it on your computer.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1196.654,
+            1212.74
+          ],
+          "quote": "And then I think OpenAI made a couple of different bets, but their main bet on a programming agent was the earlier versions of Codex were very technical and they were super smart, but they were a little bit autistic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1252.235,
+            1254.676
+          ],
+          "quote": "I think OpenAI was just like, \"We see where this is going.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1611.36,
+            1623.065
+          ],
+          "quote": "When you call the model on the OpenAI platform, the Anthropic platform, they're literally running the model on a computer that is in the cloud that they run and then giving you the result out of it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1633.389,
+            1637.23
+          ],
+          "quote": "OpenAI does not have a response yet, but I assume that that's going to happen.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1662.821,
+            1674.134
+          ],
+          "quote": "So, if people building products that aren't OpenAI or Anthropic, if this proves to be true, the prediction here is they're going to be using your product over time inside of one of these agents.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 822,
+          "t": [
+            4792.735,
+            4798.74
+          ],
+          "quote": "Maybe the only people that have an advantage are the people working at OpenAI or Anthropic, but otherwise it's just available.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 972,
+          "t": [
+            5527.882,
+            5540.996
+          ],
+          "quote": "Like I said, I think it's going to be a horse race and different people will be ahead at different times, but I think right now OpenAI has gotten back the mandate of heaven a little bit.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 979,
+          "t": [
+            5550.584,
+            5552.366
+          ],
+          "quote": "People are like, \"Oh, are you sponsored by OpenAI?\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集提到它的云端实现比两大巨头更好，但明确选择了专门服务程序员这条赛道。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            492.363,
+            499.828
+          ],
+          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1548.995,
+            1550.117
+          ],
+          "quote": "Where does Cursor fit into this?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1553.22,
+            1561.823
+          ],
+          "quote": "I think that Cursor sees a lot of the same stuff, and in some ways they have some of the same stuff but it's better.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1561.963,
+            1576.268
+          ],
+          "quote": "I think that Cursor's cloud implementation is better than either OpenAIs or Anthropics and is more advanced, and I think that Cursor has at least so far more distinctly chosen a lane.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1637.35,
+            1640.972
+          ],
+          "quote": "And now Cursor was just essentially acquired by SpaceX.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1655.437,
+            1661.94
+          ],
+          "quote": "Cursor itself feels like one of the things that it's going to be a hard decision for them whether to stay just for coders or not.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1947,
+            1955
+          ],
+          "quote": "I think a lot of programmers are still flipping into it every once in a while, but it's more or less they're using Codex, Claude Code, Cursor, that kind of thing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2756.942,
+            2766.505
+          ],
+          "quote": "Vanta helps over 15,000 companies like Cursor, Ramp, Duolingo, Snowflake, and Atlassian earn and prove trust with their customers.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 708,
+          "t": [
+            4157.189,
+            4165.891
+          ],
+          "quote": "And he took a year off that job and just got super AI-pilled and just learned how to use cursor basically really well.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 709,
+          "t": [
+            4166.051,
+            4169.272
+          ],
+          "quote": "Now I think he uses Claude Code, but he was extremely cursor pilled for a long time.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "proof",
+      "type": "concept",
+      "role": "concept",
+      "name": "Proof",
+      "file": "Proof",
+      "primary": false,
+      "how_described": "本集将其描述为嘉宾自己开发的在线 Markdown 编辑器，嘉宾常在 Codex 的应用内浏览器中打开它来进行人机协作写作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 254,
+          "t": [
+            1294.413,
+            1307.579
+          ],
+          "quote": "And when I'm writing a document, I just go into one of my Codex threads, which I have one thread for every project, and I just open the in-app browser, I go to the document, I usually do it in Proof, which is this online markdown editor I built.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1309.04,
+            1314.882
+          ],
+          "quote": "And then I just have Codex running and watching me in Proof and Codex can see what I'm doing.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1449.923,
+            1460.746
+          ],
+          "quote": "Okay, so yeah, I'm using Proof or really any website, maybe PostHog or whatever, and I'm doing it inside of my agent and the agent has access to the website.",
           "speaker": "SPEAKER_1"
         },
         {
@@ -2182,165 +2962,39 @@
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 289,
+          "seg": 318,
           "t": [
-            1526.313,
-            1538.48
+            1726.335,
+            1732.417
           ],
-          "quote": "And so, it changes what you build as a SaaS company and you build it now for both humans and agents to use at the same time, and it changes your margins back to, well, I don't really have to pay for tokens anymore because the user's going to bring AI.",
+          "quote": "So for example, there's a lot of stuff that Proof doesn't have.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 383,
+          "seg": 331,
           "t": [
-            2187.065,
-            2195.334
+            1817.732,
+            1827.255
           ],
-          "quote": "One is you made this point about SaaS tools not using ... You can use tokens from the model companies basically when using a SaaS tool.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 387,
-          "t": [
-            2217.287,
-            2221.429
-          ],
-          "quote": "And that cost tokens, obviously.",
+          "quote": "So for example, in Proof and some of our other products too, when someone has a problem they don't email support.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 394,
+          "seg": 334,
           "t": [
-            2264.285,
-            2276.749
+            1840.32,
+            1843.382
           ],
-          "quote": "And that's hard, but once you build it, it's a lot cheaper than assuming everyone's spending tokens, and I think it's a good business.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "allocation-economy",
-      "type": "concept",
-      "role": "concept",
-      "name": "分配经济 (allocation economy)",
-      "file": "分配经济",
-      "primary": true,
-      "how_described": "本集提出的概念，指人类与 AI 协作的方式越来越像经理：天天跟智能体核对工作，而不是在自动化中无所事事。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 408,
-          "t": [
-            2366.765,
-            2378.149
-          ],
-          "quote": "And so, I wrote this piece a couple years ago about the allocation economy, the idea that the way that humans are going to work with AI is going to be like being a manager.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "benchmarks",
-      "type": "concept",
-      "role": "concept",
-      "name": "基准测试 (benchmarks)",
-      "file": "基准测试",
-      "primary": true,
-      "how_described": "本集说基准测试让人觉得 AI 能全自主干活了，这是一种错觉；嘉宾自己写了「高级工程师基准测试」来检验模型重构代码的真实水平。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 134,
-          "t": [
-            629.62,
-            637.202
-          ],
-          "quote": "One of my favorite questions, because I think if you look at the benchmarks, you're just looking at, okay, yeah, AI is going to just take all of our jobs, basically.",
+          "quote": "Proof is open source so, \"Here's what I think is going on in the code base.\"",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 417,
+          "seg": 423,
           "t": [
-            2412.142,
-            2419.104
+            2451.376,
+            2456.578
           ],
-          "quote": "And one of the reasons is, benchmarks make it look like AI is more autonomous than it is.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 450,
-          "t": [
-            2584.626,
-            2598.351
-          ],
-          "quote": "It's very clear that in a year or less it's going to be senior engineer level, and that gives you a certain picture in your mind, especially based on how I named the benchmark, which I think a lot of benchmarks do.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 469,
-          "t": [
-            2711.335,
-            2725
-          ],
-          "quote": "And so, I think it's really important when we think about benchmark progress to think about it from that perspective, which is benchmarks rise on problems that we've framed that we can articulate, that we can score.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 470,
-          "t": [
-            2725.721,
-            2745.195
-          ],
-          "quote": "And there's a lot of work that's human work that it can't be scored until you write it down, but the act of thinking to prompt it or write it down is something that you can't measure but means that even if the benchmarks get saturated, it doesn't mean the same thing as you totally replace all senior engineers.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 497,
-          "t": [
-            2887.444,
-            2895.889
-          ],
-          "quote": "And I think that's a really important thing when we think about benchmarks is AI is a broadly distributed technology that any human can use.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 785,
-          "t": [
-            4552.673,
-            4561.219
-          ],
-          "quote": "And I think that's something that the benchmarks rising doesn't really capture and it feels like a thing that will take a long time to change.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "full-stack-designers",
-      "type": "concept",
-      "role": "concept",
-      "name": "全栈设计师 (full stack designers)",
-      "file": "全栈设计师",
-      "primary": true,
-      "how_described": "本集预测这类人将迎来黄金时代：他们能用 AI 工具直接实现以前需工程师才能做出来的酷炫交互，并直接提交拉取请求。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 4,
-          "t": [
-            13.409,
-            18
-          ],
-          "quote": "I am super, super bullish on PMs and full stack designers.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 732,
-          "t": [
-            4266.5,
-            4274.524
-          ],
-          "quote": "So the other people that I think are going to be super, super power people, and again, this is because we see this internally, is full stack designers.",
+          "quote": "And the way that I built it is again, have this app, Proof.",
           "speaker": "SPEAKER_1"
         }
       ]

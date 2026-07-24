@@ -1,13 +1,13 @@
 {
   "episode_id": "2026-03-08-lennys-the-most-successful-ai-company-youve-nev",
-  "podcast": null,
-  "date": null,
+  "podcast": "Lenny's Podcast",
+  "date": "2026-03-08",
   "tags": [
     "物理 AI",
     "自动驾驶",
-    "中美科技竞争",
-    "创业哲学",
-    "管理与品味"
+    "人形机器人",
+    "制造业与危险工种",
+    "创始人方法论"
   ],
   "entities": [
     {
@@ -93,7 +93,7 @@
       "name": "Applied Intuition",
       "file": "Applied Intuition",
       "primary": true,
-      "how_described": "本集说它是一家估值 150 亿美元、过去十年悄悄增长的物理 AI 公司，给车辆（汽车、拖拉机、飞机、潜艇、采矿钻机）添加 AI；前 20 大汽车制造商有 18 家是客户，业务横跨农业、采矿、建筑和国防，被称为「没有硬件的 Waymo 或 Tesla」。",
+      "how_described": "本集嘉宾 Qasar Younis 联合创办的公司,估值 150 亿美元,在过去十年悄悄增长。他们给汽车、拖拉机、飞机、潜艇、采矿钻机等车辆添加 AI,前 20 大汽车制造商中有 18 家是他们的客户,被称为「最重要的隐形 AI 公司」。",
       "source": "glm",
       "evidence": [
         {
@@ -144,76 +144,49 @@
       ]
     },
     {
-      "id": "huawei",
+      "id": "waymo",
       "type": "company",
       "role": "company",
-      "name": "Huawei",
-      "file": "Huawei",
+      "name": "Waymo",
+      "file": "Waymo",
       "primary": true,
-      "how_described": "本集在讨论中美竞争时重点提及它，指出其约有四分之一员工是共产党员，本质上是国家的延伸而非单纯以营利为目的的商业公司，不能直接拿它和苹果等美国公司做公平比较。",
+      "how_described": "本集在讨论自动驾驶技术时作为技术路径的代表被提及,采用大量传感器、大量计算和高保真地图的方法,其产品在地理受限区域内功能更好。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 333,
+          "seg": 24,
           "t": [
-            2023.44,
-            2031.423
+            109.498,
+            112.86
           ],
-          "quote": "The summary version of this is I think the way we recently read as a company, we read this book, House of Huawei, which is just a really great interesting book.",
+          "quote": "They're basically Waymo or Tesla, but without the hardware.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1471.18,
+            1481.104
+          ],
+          "quote": "So the fundamental difference, just to simplify it all, the Tesla approach versus the Waymo approach, just to really keep it simple, is the Waymo approach is lots of sensors and lots of compute and maps.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 334,
+          "seg": 243,
           "t": [
-            2032.003,
-            2038.465
+            1504.372,
+            1509.254
           ],
-          "quote": "And Huawei is a really amazing company for the reason that it makes great technology.",
+          "quote": "The Waymo product functions better in a geographically constrained area.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 335,
+          "seg": 730,
           "t": [
-            2038.905,
-            2045.547
+            4119.32,
+            4129.264
           ],
-          "quote": "But the couple hundred thousand people that work at Huawei, about a quarter of them are members of the Communist Party.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 336,
-          "t": [
-            2046.427,
-            2049.388
-          ],
-          "quote": "And Huawei's goal is not to grow profits or shareholders.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 339,
-          "t": [
-            2052.889,
-            2056.251
-          ],
-          "quote": "So literally the name Huawei means China's ambition.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 343,
-          "t": [
-            2086.04,
-            2089.081
-          ],
-          "quote": "So we think Huawei, since they make phones, they must be just like Apple.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 350,
-          "t": [
-            2111.45,
-            2115.792
-          ],
-          "quote": "Instead of Apple competing against Huawei, Apple's competing against the Chinese government.",
+          "quote": "Everyone has to speak up because that one person with their one experience, because they worked at Zoox, or Waymo, or wherever, Tesla, or they worked at a Chinese company, whatever it is.",
           "speaker": "SPEAKER_1"
         }
       ]
@@ -225,7 +198,7 @@
       "name": "Tesla",
       "file": "Tesla",
       "primary": true,
-      "how_described": "本集多次提及，用来举例说明自动驾驶领域的两种技术路线之一（传感器少、无高精地图、成本较低，其行业产品被称为 L2++）；并提到如果美国像中国那样不关心利润，特斯拉等车企合起来也能造出惊艳的产品。",
+      "how_described": "本集作为自动驾驶另一条技术路径的代表被提及,采用极少传感器、不需要高保真地图、成本更低的方案,这种产品在行业内被称为 L2++,将在未来更加无处不在。",
       "source": "glm",
       "evidence": [
         {
@@ -303,49 +276,76 @@
       ]
     },
     {
-      "id": "waymo",
+      "id": "huawei",
       "type": "company",
       "role": "company",
-      "name": "Waymo",
-      "file": "Waymo",
+      "name": "Huawei",
+      "file": "Huawei",
       "primary": true,
-      "how_described": "本集作为自动驾驶技术的另一条路线代表被讨论（采用大量传感器、大量计算和高精地图，在地理受限区域表现更好），并作为 Applied Intuition 业务形象的类比（没有硬件的 Waymo）。",
+      "how_described": "本集在讨论中美科技竞争时被深入提及。嘉宾指出它有几十万员工,其中约四分之一是共产党员,目标不是增加利润或造福股东,实际上是国家意志的延伸,不能像评判普通商业公司那样去评判它。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 24,
+          "seg": 333,
           "t": [
-            109.498,
-            112.86
+            2023.44,
+            2031.423
           ],
-          "quote": "They're basically Waymo or Tesla, but without the hardware.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 240,
-          "t": [
-            1471.18,
-            1481.104
-          ],
-          "quote": "So the fundamental difference, just to simplify it all, the Tesla approach versus the Waymo approach, just to really keep it simple, is the Waymo approach is lots of sensors and lots of compute and maps.",
+          "quote": "The summary version of this is I think the way we recently read as a company, we read this book, House of Huawei, which is just a really great interesting book.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 243,
+          "seg": 334,
           "t": [
-            1504.372,
-            1509.254
+            2032.003,
+            2038.465
           ],
-          "quote": "The Waymo product functions better in a geographically constrained area.",
+          "quote": "And Huawei is a really amazing company for the reason that it makes great technology.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 730,
+          "seg": 335,
           "t": [
-            4119.32,
-            4129.264
+            2038.905,
+            2045.547
           ],
-          "quote": "Everyone has to speak up because that one person with their one experience, because they worked at Zoox, or Waymo, or wherever, Tesla, or they worked at a Chinese company, whatever it is.",
+          "quote": "But the couple hundred thousand people that work at Huawei, about a quarter of them are members of the Communist Party.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 336,
+          "t": [
+            2046.427,
+            2049.388
+          ],
+          "quote": "And Huawei's goal is not to grow profits or shareholders.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 339,
+          "t": [
+            2052.889,
+            2056.251
+          ],
+          "quote": "So literally the name Huawei means China's ambition.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 343,
+          "t": [
+            2086.04,
+            2089.081
+          ],
+          "quote": "So we think Huawei, since they make phones, they must be just like Apple.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 350,
+          "t": [
+            2111.45,
+            2115.792
+          ],
+          "quote": "Instead of Apple competing against Huawei, Apple's competing against the Chinese government.",
           "speaker": "SPEAKER_1"
         }
       ]
@@ -356,8 +356,8 @@
       "role": "company",
       "name": "Rivian",
       "file": "Rivian",
-      "primary": false,
-      "how_described": "本集拿它作为美国「中国 EV 模式公司」的例子：产品很好，但因为亏损而不被资本市场看好，以此说明用「盈利」标准去比较中美车企是偏颇的。",
+      "primary": true,
+      "how_described": "本集被用作对比中国电动汽车公司的例子。嘉宾指出它制造了很棒的产品,但因为亏损而导致估值不高,借此说明美国企业受制于必须盈利的市场压力。",
       "source": "glm",
       "evidence": [
         {
@@ -390,13 +390,241 @@
       ]
     },
     {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集作为失败案例被深入探讨:当 Facebook 崛起时,当时的 Google 拥有地球最好的工程师和每月 10 亿美元现金流,却打不赢社交媒体战争,因为它根本不是社交媒体公司,无法凭借惯性实现转向。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 481,
+          "t": [
+            2906.28,
+            2919.954
+          ],
+          "quote": "What I love about that advice is often the best ideas come from when you have low expectations, you're just playing around, you're just tinkering, you're not like, I'm going to build the next great, I don't know, Google, it's just you having fun.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 745,
+          "t": [
+            4223.46,
+            4228.222
+          ],
+          "quote": "A good example, I had front row seats for this when I worked at Google, it was the era where Facebook was emerging.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 746,
+          "t": [
+            4228.842,
+            4233.844
+          ],
+          "quote": "And here's Google, and people don't remember Google in the late 00s and early teens.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 747,
+          "t": [
+            4234.465,
+            4237.546
+          ],
+          "quote": "Google wasn't just a company.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 754,
+          "t": [
+            4263.717,
+            4267.478
+          ],
+          "quote": "But Google was this already larger than life, number one company.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 755,
+          "t": [
+            4267.738,
+            4271.84
+          ],
+          "quote": "Everybody wanted to work at Google, and there were not many companies with that stature.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 757,
+          "t": [
+            4276.942,
+            4284.484
+          ],
+          "quote": "And Google, who has the best engineers on the planet, is making a billion in cash flow a month, tries to fight this little company.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 758,
+          "t": [
+            4284.965,
+            4293.308
+          ],
+          "quote": "And I remember Facebook at that time maybe had 1,000 people, and Google was like 15X, 20X the size with a lot of cashflow.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 759,
+          "t": [
+            4293.828,
+            4296.469
+          ],
+          "quote": "And why couldn't Google fight Facebook?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 760,
+          "t": [
+            4297.069,
+            4299.13
+          ],
+          "quote": "It's because Google is not Facebook.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 763,
+          "t": [
+            4304.472,
+            4310.074
+          ],
+          "quote": "The way that Google would've won the social media wars by being a social media company, it's just fundamentally not.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "facebook",
+      "type": "company",
+      "role": "company",
+      "name": "Facebook",
+      "file": "Facebook",
+      "primary": true,
+      "how_described": "本集在讲述 Google 错失机会的案例中作为强劲崛起的对手被提及,当时只有约 1000 人,最终却在社交媒体战争中战胜了规模和现金流大其十几倍的 Google。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 224,
+          "t": [
+            1351.378,
+            1357
+          ],
+          "quote": "This is pre-Twitter and Facebook is not that big and MySpace is, but it's not the same type of private kind of communication.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 745,
+          "t": [
+            4223.46,
+            4228.222
+          ],
+          "quote": "A good example, I had front row seats for this when I worked at Google, it was the era where Facebook was emerging.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 756,
+          "t": [
+            4272.36,
+            4276.482
+          ],
+          "quote": "And then in the periphery, this little company Facebook starts emerging.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 758,
+          "t": [
+            4284.965,
+            4293.308
+          ],
+          "quote": "And I remember Facebook at that time maybe had 1,000 people, and Google was like 15X, 20X the size with a lot of cashflow.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 759,
+          "t": [
+            4293.828,
+            4296.469
+          ],
+          "quote": "And why couldn't Google fight Facebook?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 760,
+          "t": [
+            4297.069,
+            4299.13
+          ],
+          "quote": "It's because Google is not Facebook.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "gm",
+      "type": "company",
+      "role": "company",
+      "name": "GM",
+      "file": "GM",
+      "primary": false,
+      "how_described": "通用汽车,嘉宾职业生涯起步的地方,他在这样拥有超过 10 万名员工的大型组织深处做过十多年工程师。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            113.26,
+            120.646
+          ],
+          "quote": "Qasar himself was born on a farm in Pakistan, grew up in Detroit, started his career as an engineer at GM, and then at Bosch.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "bosch",
+      "type": "company",
+      "role": "company",
+      "name": "Bosch",
+      "file": "Bosch",
+      "primary": false,
+      "how_described": "博世,嘉宾曾在此担任工程师,这段在庞大组织底层摸爬滚打的经历让他真正了解到头顶的官僚主义和过时工具有多糟糕。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            113.26,
+            120.646
+          ],
+          "quote": "Qasar himself was born on a farm in Pakistan, grew up in Detroit, started his career as an engineer at GM, and then at Bosch.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 864,
+          "t": [
+            4816.141,
+            4825.744
+          ],
+          "quote": "I spent over a decade working in large organizations and truly large, more than 100,000 employees, like a General Motors or like a Bosch.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
       "id": "physical-ai",
       "type": "concept",
       "role": "concept",
       "name": "物理 AI (physical AI)",
       "file": "物理 AI",
       "primary": true,
-      "how_described": "本集核心概念，指将 AI 应用到汽车、拖拉机、采矿设备等物理实体机器上使其具备智能化自主能力；嘉宾认为这是未来 5-10 年 AI 产生真正巨大影响（降低净苦难、填补劳动力缺口）的领域。",
+      "how_described": "本集的核心概念。指给汽车、采矿车辆等物理实体赋予智能。嘉宾认为,它未来 5 到 10 年真正的巨大影响不在人形机器人,而是以最高性价比填补农业、采矿、建筑和长途运输等危险行业的劳动力缺口。",
       "source": "glm",
       "evidence": [
         {
@@ -465,13 +693,34 @@
       ]
     },
     {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集明确将自动驾驶汽车等同于智能体/机器人,指出它们能在危险任务中作为「物理智能体」协助人类,并解锁极大的生产力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 269,
+          "t": [
+            1627.07,
+            1641.335
+          ],
+          "quote": "The productivity unlock from just you looking at a machine, not like a sentient being, but almost like a physical agent of something you're trying to accomplish, unlocks things that I think are very hard to think about.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
       "id": "self-driving",
       "type": "concept",
       "role": "concept",
       "name": "自动驾驶 (self-driving)",
       "file": "自动驾驶",
       "primary": true,
-      "how_described": "本集说自动驾驶汽车本质上就是机器人，而且统计数据表明它比人类司机安全得多；未来 5-7 年内 L2++ 辅助驾驶将无处不在并逐渐接近免费，能大幅减少伤亡事故并填补危险行业的劳动力短缺。",
+      "how_described": "本集反复讨论的核心话题。嘉宾指出,无论怎么看统计数据,它都比人类司机安全得多。随着技术普及,它将明显减少因车祸导致的受伤和死亡,并在未来成为每个人都期待的标配。",
       "source": "glm",
       "evidence": [
         {
@@ -549,13 +798,82 @@
       ]
     },
     {
+      "id": "autonomy",
+      "type": "concept",
+      "role": "concept",
+      "name": "自主性 (autonomy)",
+      "file": "自主性",
+      "primary": true,
+      "how_described": "本集指出农业、采矿、建筑等现实行业急需自主性,且来得越快越好,因为农民平均年龄已近 58 岁,卡车司机等岗位也面临招工难,智能自主机器将填补这些劳动力缺口而非抢走工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            43.989,
+            47.794
+          ],
+          "quote": "These industries, they need autonomy and it couldn't come soon enough.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1553.32,
+            1557.842
+          ],
+          "quote": "So now you fast-forward five to seven years and every car has some level of autonomy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1593.338,
+            1597.7
+          ],
+          "quote": "And so I think the next thing that happens in five to seven years is then full autonomy becomes the thing that everyone expects.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1753.92,
+            1763.904
+          ],
+          "quote": "I think honestly speaking, these industries, they need autonomy and it couldn't come soon enough, frankly speaking.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "humanoid",
+      "type": "concept",
+      "role": "concept",
+      "name": "人形机器人 (humanoid)",
+      "file": "人形机器人",
+      "primary": true,
+      "how_described": "本集讨论大众焦虑时的核心反例。嘉宾指出那些挥舞双截棍的人形机器人视频其实是预先编程的,花了 1500 万美元;大脑在情感上喜爱它,但最务实的做法其实是把智能放进已经存在的汽车和采矿车辆中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 233,
+          "t": [
+            1423.482,
+            1430.485
+          ],
+          "quote": "I continue to believe that I think our brain emotionally loves the humanoid concept because we're monkeys.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
       "id": "l2",
       "type": "concept",
       "role": "concept",
       "name": "L2++",
       "file": "L2++",
-      "primary": true,
-      "how_described": "本集说这是一种介于辅助驾驶与完全自动驾驶之间的行业标准（特斯拉版本的产品路线），因为成本低且不需要高精地图，未来五年将在全球无处不在，就像曾经的汽车导航最终被免费的 CarPlay 取代一样。",
+      "primary": false,
+      "how_described": "本集用来代指类似特斯拉那种传感器少、不需要高保真地图的半自动产品。嘉宾预测它和 L4 技术将在五到七年内更加无处不在,甚至成为汽车的标配。",
       "source": "glm",
       "evidence": [
         {
@@ -588,149 +906,158 @@
       ]
     },
     {
-      "id": "monkey-brain",
+      "id": "ev",
       "type": "concept",
       "role": "concept",
-      "name": "猴子大脑 (monkey brain)",
-      "file": "猴子大脑",
-      "primary": true,
-      "how_described": "本集用来解释人类对未知技术产生恐惧的心理学根源：人类数十万年在野外求生进化的大脑，会自动把未知（如新出现的 AI 机器人）填补为致命威胁，从而产生焦虑。",
+      "name": "EV",
+      "file": "EV",
+      "primary": false,
+      "how_described": "本集在讨论中美科技竞争时被提及。嘉宾指出中国电动汽车被赞誉为令人惊叹的产品,但这种比较非常偏颇,因为它背后是不关心利润的国家意志,而非受制于盈利压力的市场企业。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 198,
+          "seg": 359,
           "t": [
-            1169.26,
-            1194.129
+            2175.574,
+            2178.355
           ],
-          "quote": "And so I think I implore everybody who thinks about AI broadly and physical AI specifically to always recognize that your monkey brain is programmed because of hundreds of thousands of years of living out in the wild and being in the cave that when you hear the rustle in the bush, that is you think it's a snake because that's what our ancestors were programmed.",
+          "quote": "There is a Chinese EV-like company in America.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 365,
+          "t": [
+            2200.503,
+            2202.604
+          ],
+          "quote": "The EV business in automotive is a tough business.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 367,
+          "t": [
+            2205.125,
+            2209.707
+          ],
+          "quote": "So we say, look how amazing these Chinese EV companies are and look how bad the home team is.",
           "speaker": "SPEAKER_1"
         }
       ]
     },
     {
-      "id": "radical-pragmatism",
+      "id": "reset",
       "type": "concept",
       "role": "concept",
-      "name": "激进实用主义 (radical pragmatism)",
-      "file": "激进实用主义",
+      "name": "重置 (reset)",
+      "file": "重置",
       "primary": true,
-      "how_described": "本集说这是 Applied Intuition 的核心公司价值观，解释了公司为何极度低调：因为做播客、发推特的每一分钟都没法花在客户和产品上，保持安静务实才能把精力集中在唯一能产生结果的事情上。",
+      "how_described": "本集给挣扎在两年节点上的创始人的建议:如果从市场上得到的信息没有指出一条越来越具体的路径,就该考虑重置,这往往意味着联合创始人关系或所处市场等底层地基出了问题。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 417,
+          "seg": 461,
           "t": [
-            2456.997,
-            2462.058
+            2784.656,
+            2796
           ],
-          "quote": "So all of our company values can be reduced to these two words of radical pragmatism.",
+          "quote": "And what I mean by reset is oftentimes, and this is wearing my YC hat, seeing hundreds and thousands of companies, is oftentimes it's like the co-founding, literally the foundation upon which the house is built is not correct.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 515,
+          "seg": 467,
           "t": [
-            3075.933,
-            3078.497
+            2825.835,
+            2827.656
           ],
-          "quote": "Radical pragmatism is the other one you shared earlier.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "wall-of-sound",
-      "type": "concept",
-      "role": "concept",
-      "name": "声音之墙 (wall of sound)",
-      "file": "声音之墙",
-      "primary": true,
-      "how_described": "本集用来形容公司既有发展势头带来的盲目惯性：它会淹没市场上所有警告你偏离航线的新声音，导致公司无法应对市场变化（以谷歌打不赢社交网络之战为例）。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 743,
-          "t": [
-            4200.892,
-            4218.598
-          ],
-          "quote": "Or more often than not, when I think about companies that have been very successful is they have momentum going in a specific direction and that wall of sound overwhelms any new sound that's emerging which is, \"Hey, the market's changing, the market's changing.\"",
+          "quote": "I'm just going to have to have a hard reset here.\"",
           "speaker": "SPEAKER_1"
         }
       ]
     },
     {
-      "id": "taste",
+      "id": "maintenance",
       "type": "concept",
       "role": "concept",
-      "name": "品味 (taste)",
-      "file": "品味",
+      "name": "维护 (maintenance)",
+      "file": "维护",
       "primary": true,
-      "how_described": "本集将「品味」定义为经历过真正的生活（如体验过底层员工的痛苦、读旧书、去世界各地走走）；认为丰富多元的生活经验就像喂给大模型的高质量数据，能塑造出更敏锐、更有判断力的决策者。",
+      "how_described": "本集强调其作为工厂运营核心的重要性。嘉宾受汽车工程背景影响,把公司看作需要精心维护的机器,自己清洁办公室、从未花过筹集的资金,都是这种财务和运营卫生习惯的体现。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 40,
+          "seg": 547,
           "t": [
-            188.78,
-            194.362
+            3185.064,
+            3192.96
           ],
-          "quote": "My podcast guests and I love talking about craft, and taste, and agency, and product market fit.",
+          "quote": "And then on the last piece there, there's this book that just came out by Stripe Press about maintenance and how valuable and underappreciated the maintenance part of work is.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 534,
+          "seg": 556,
           "t": [
-            3133.402,
-            3145.187
+            3235.616,
+            3244.059
           ],
-          "quote": "And it's like when you're working on intense things, if you don't have the ability to keep grounded, have perspective, laughter and humor also is a way to get subtle feedback and a slightly different taste than this sucks.",
+          "quote": "Maintenance or another version of... My roots are in automotive engineering, and automotive engineering is actually exercising quality.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 853,
+          "seg": 562,
           "t": [
-            4749.589,
-            4754.055
+            3267.027,
+            3269.588
           ],
-          "quote": "You have this view that a lot of CEOs in Silicon Valley don't actually have great taste.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 858,
-          "t": [
-            4765.143,
-            4789.051
-          ],
-          "quote": "I think it is true because a lot of the... Couple of reasons, both taste in the most, let's say, artistic sense and in the most running a company and what should be the HR policy for point X. A lot of that is I think they're just not exposed to a lot of interesting good things.",
+          "quote": "And a factory is about safety and maintenance.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 871,
+          "seg": 566,
           "t": [
-            4889.006,
-            4904.072
+            3291.295,
+            3294.817
           ],
-          "quote": "And there's something about taste there, because really what you're talking about is understanding humans and understanding life, and then being able to discern with some judgment what is good and what's not good, because that's really what we're talking about.",
+          "quote": "And that maintenance aspect is a part of that.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 876,
+          "seg": 570,
           "t": [
-            4931.175,
-            4932.978
+            3323.307,
+            3329.049
           ],
-          "quote": "There is some developing of taste.",
+          "quote": "Just like you'll meet people who really love cars and they really obsess about the maintenance of cars.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": false,
+      "how_described": "本集提及其加剧了股市焦虑:公开市场投资者看到网上关于仅靠 vibe coding 就能取代十亿美元公司的说法,就信以为真并引发抛售,但这与社会大众对 AI 的焦虑是两码事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 155,
+          "t": [
+            916.934,
+            928.539
+          ],
+          "quote": "This AI thing could be real and the things I'm reading on X about just vibe coding your way to replace billion dollar companies, that might be the case and the market immediately prices in that risk.\"",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 878,
+          "seg": 664,
           "t": [
-            4934.12,
-            4942.335
+            3739.705,
+            3746.628
           ],
-          "quote": "Well, I feel like we have helped people build their taste, feed their model with more insights and different perspectives in this conversation.",
-          "speaker": "SPEAKER_0"
+          "quote": "I'm reading the vibe coding book that came out where our whole company's reading that, which is a new book and it goes against my grain of my heuristic.",
+          "speaker": "SPEAKER_1"
         }
       ]
     }

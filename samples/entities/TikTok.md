@@ -11,14 +11,14 @@ aliases: ["tiktok", "tik tok"]
 
 ## 集里怎么说它
 
-- **[[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel》]]**(02:50起):本集把它作为少数成功突围的新社交/媒体平台的代表，指出它靠的是「用数十亿美元补贴双边市场」这种用钱搞定分发的创新策略
-- **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri: AI is a tailwind for authenticity》]]**(62:12起):本集作为竞争对手被提及。嘉宾认为其基于探索的推荐算法在挖掘小众创作者方面非常强，这激发了 Instagram 在推荐系统上的追赶；并提到它在 2020 年疫情期间迎来了爆发式增长。
+- **[[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel:在AI时代,做最会创新的公司》]]**(02:50起):本集提到它更像媒体平台而非纯社交产品。Evan 指出它在破局分发难题时，采用了极具创新性的策略：花数十亿美元同时补贴观众（花钱请人看）和创作者（花钱请人做）来引导冷启动生态。
+- **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队重塑与 Instagram 算法真相》]]**(62:12起):本集将其描述为在推荐系统（尤其是探索性排名和挖掘小众创作者方面）让 Instagram 感到压力并从中汲取灵感的竞争对手。
 
 ## 出现在这些集
 
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel》]] — 作为被讨论公司
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri: AI is a tailwind for authenticity》]] — 作为被讨论公司(提及)
+- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel:在AI时代,做最会创新的公司》]] — 作为被讨论公司
+- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队重塑与 Instagram 算法真相》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Lenny]] · [[智能体]] · [[Evan Spiegel]] · [[Adam Mosseri]] · [[Snap]] · [[instagram]] · [[Snapchat]] · [[pods]] · [[Specs]] · [[product staff]]
+[[Lenny]] · [[Meta]] · [[Evan Spiegel]] · [[Adam Mosseri]] · [[Snap]] · [[instagram]] · [[Snapchat]] · [[嵌入模型]] · [[Threads]] · [[品味]]

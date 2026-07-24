@@ -1,1 +1,171 @@
-{"title_zh":"被 10 亿美元验证的逆向创业法:AI 数据公司 Surge 的独立路径","tldr":"AI 数据公司 Surge 以不到 100 人实现十亿美元收入、不拿 VC 一分钱,创始人谈高质量数据与 AGI 的走向。","digest_md":"本期嘉宾是 Surge AI 的创始人 Edwin Chen。Surge 是一家为前沿 AI 实验室提供高质量数据的公司。它创下了一个惊人的纪录:不到 100 人的团队,在不到四年的时间里实现了 10 亿美元的收入 [05:40 Edwin Chen]。更特别的是,他们完全自力更生,没有拿过一分钱 VC 投资。围绕「如何建立一家极其成功却又完全不一样的公司」以及「什么才是真正对人类有益的 AI」,Edwin 分享了他非常个人化且反主流的洞见。\n\n## 不融资、不转型、不搞 PR:小而精的极客团队如何赢\n\n创业圈里充斥着「快速融资、闪电式扩张、不停追逐热点」的标准剧本。但在 Edwin 看来,这种硅谷游戏是荒谬的。他曾在大型科技公司工作,总觉得「可以解雇 90% 的人,公司反而会走得更快,因为最优秀的人不会被各种杂事干扰」[05:57 Edwin Chen]。因此,从创立 Surge 的第一天起,他就决定用一个非常小、极其精锐的团队来做事。\n\n由于拒绝融资,Surge 自然也就不被纳入那个靠发推文、办大会、彼此吹捧的硅谷公关机器中。这让公司早期的路走得更艰难,因为他们能依靠的只有产品本身十倍以上的优秀,以及懂行客户的口口相传 [08:08 Edwin Chen]。但也正因如此,他们的早期客户都是真正关心数据质量、真正懂技术的专家。Edwin 甚至对「转型(pivot,指创业公司频繁改变业务方向)」深恶痛绝,他认为那些什么火就追什么(比如前几年做加密货币,这两年又摇身一变做 AI)的公司没有真正的使命感 [29:35 Edwin Chen]。他对创业者的建议是:不要转型,不要盲目追求规模,只去构建那个只有你能做出来、没有你就不存在的东西 [29:20 Edwin Chen]。\n\n> 【背景】VC 即风险投资。通常的科技初创公司会通过向 VC 出售股份换取早期发展资金,代价是承受快速增长和扩张的压力。Surge 选择了「自力更生」,完全靠自己的营收来支撑发展,从而保留了极大的独立性和对产品质量的执着。\n\n## 质量不是「画勾」:数据标注的诺贝尔奖标准\n\n既然拒绝走捷径,那 Surge 凭什么拿下所有顶级 AI 实验室的订单?答案在于他们对「数据质量」极其深刻的理解。很多人误以为训练 AI 的数据标注就是「画边界框、认认猫狗」这种简单的体力活,觉得靠堆人力就能解决,Edwin 认为这完全错了 [09:51 Edwin Chen]。\n\n他举了一个例子:如果要训练模型写一首关于月亮的诗,缺乏品味的人只会机械地检查——「这是一首诗吗?有八行吗?有『月亮』这个词吗?」但这根本不是真正的高质量。Surge 寻找的是诺贝尔奖级别的表达:这首诗独特吗?有微妙的意象吗?能触动你的内心吗?能教给你关于月光本质的思考吗? [10:19 Edwin Chen]\n\n为了找到这种极致的质量,Surge 在平台上收集关于标注员的数千个信号——不仅看你敲击键盘的习惯、回答速度,还要用你自己训练模型,看你的输出是否真正能提升模型表现 [12:06 Edwin Chen]。就像谷歌搜索要过滤掉最差的垃圾网页、找出最优质的网页一样,Surge 用极其复杂的机器学习系统,找出在诗歌、物理、写代码等各个细分领域里,真正能写出让人感动或绝对正确内容的人 [12:31 Edwin Chen]。\n\n> 【背景】后训练:AI 模型在读完互联网上所有公开资料后,还需要通过人类反馈和专门的微调,才能学会如何礼貌、准确地回答问题、按指令行事。这个让 AI 变得「更好用」的过程就是后训练。后训练里使用的「品味」,会直接决定模型最终的性格和水平。\n\n## 算分变味了:为什么对模型进步的判断往往是错的\n\n数据这么讲究,那我们平时看到的那些「模型跑分(benchmark,即标准化能力测试)」排名靠谱吗?Edwin 直言他根本不信任这些基准测试 [18:00 Edwin Chen]。\n\n首先,很多测试题本身就有错误答案,或者充满了混乱。其次,基准测试通常有标准答案,这让模型很容易通过「应试技巧」去优化,但这跟现实世界里乱七八糟的真实问题完全不同。Edwin 觉得特别荒谬的一点是:现在这些模型都能拿国际数学奥林匹克竞赛金牌了,却连解析一份排版复杂的 PDF 文件都费劲 [18:48 Edwin Chen]。\n\n更糟糕的是一种名为 LLM Arena 的在线盲测排行榜。这是由大众投票决定哪个 AI 回答更好的榜单。问题在于,普通投票者根本不会仔细核查事实,他们往往只花两秒钟扫一眼,就把票投给那个表情符号用得多、排版花哨、回答长篇大论的模型,哪怕那个模型完全是在胡说八道 [24:07 Edwin Chen]。这导致一个荒唐的结果:最容易爬榜的方法,就是把模型的回答长度增加三倍,或者疯狂加倍使用表情符号,即使这会让模型偏离事实 [24:15 Edwin Chen]。\n\nEdwin 曾在社交媒体领域工作,他警惕地指出:当 AI 实验室为了让销售好卖,而去迎合这种只看表面光鲜的榜单时,我们其实是在重蹈社交媒体的覆辙。就像为了提高用户停留时间,信息流里塞满了标题党一样,现在为了讨好用户,模型会不停地告诉你「你是个天才,你的想法太棒了」[25:21 Edwin Chen]。这种迎合,实际上是在把 AI 往追求多巴胺刺激的错误方向上推。相比之下,他高度赞赏 Anthropic(Claude 背后的公司),认为他们对待模型的态度非常有原则 [26:21 Edwin Chen]。\n\n## 终极训练场:RL 环境里的「虚拟人生」\n\n如果不迷信跑分,那该如何让 AI 变聪明?Edwin 极其推崇强化学习(RL)环境。传统的训练方法像是手把手教小孩:你写一篇作文,老师给你打分并写评语。但在 RL 环境里,情况完全不同。\n\n你可以把 RL 环境想象成一个极其逼真的电子游戏世界。在这个世界里,有一家模拟的初创公司,里面有互相沟通的 Slack 消息、Jira 工单、GitHub 上的代码。突然,AWS(云服务)和 Slack 同时宕机了,这时候你问 AI 模型:「现在该怎么办?」[35:13 Edwin Chen]。\n\n模型必须自己摸索,尝试调用各种工具,一步步排查问题。这种模拟现实世界混乱和突发状况的「游乐场」,能彻底暴露出模型在处理长链条任务时的弱点 [35:48 Edwin Chen]。更妙的是,在这个过程中,我们不仅看模型最终有没有给出正确答案,还要看它解决问题的「轨迹」——是瞎猫碰上死耗子试了 50 次蒙对的,还是通过深刻反思一步步高效推导出来的?这种对过程的精细奖励,才是让模型逼近人类智慧的途径 [40:12 Edwin Chen]。\n\n> 【背景】SFT(有监督微调)与 RLHF(基于人类反馈的强化学习)是过去几年最主流的两种后训练方法。SFT 类似于让模型照抄标准答案;RLHF 则是人类充当裁判,对模型的多个回答进行排序,让模型学习人类的偏好。Edwin 认为,RL 环境是继这些方法之后,推动 AI 进化的下一个重要阶段。\n\n## 价值观决定模型性格,你就是你的目标函数\n\n在过去的一年里,Edwin 意识到一个深刻的趋势:AI 模型正变得越来越有「个性」,不同公司的价值观会深刻地塑造模型的行为 [48:45 Edwin Chen]。\n\n他讲了一个自己的亲身经历。有一天他让 Claude 帮他起草一封邮件,Claude 给出了 30 个版本,花了 30 分钟终于打磨出一封完美的邮件。但发送之后他突然意识到:这封邮件根本无关紧要,他却浪费了宝贵的半小时 [49:12 Edwin Chen]。\n\n这引出了一个核心的哲学拷问:你想要什么样的 AI?是想要一个不停夸你、给你提 20 条修改意见、让你陷入无尽修改循环的「谄媚型」AI?还是想要一个直接告诉你「你的邮件已经够好了,别改了,赶紧去做正事」的「效率型」AI? [49:42 Edwin Chen] 就像不同的科技公司会做出完全不同的产品一样,未来的 AI 实验室也会因为各自秉持的价值观,走向截然不同的道路。\n\nEdwin 认为这触及了人类未来的根本:我们的目标究竟是不是在创造真正推动人类进步、治愈癌症的 AI?还是仅仅在制造一些吸走我们时间、让我们越来越懒的「时间杀手」?[59:27 Edwin Chen] 用他的话来总结:「你就是你的目标函数」[60:01 Edwin Chen]。如果你只盯着点击量、停留时间这些容易衡量的表象指标,你就会得到一个短视的系统。只有去攻克那些最难衡量、却关乎人类核心福祉的问题,才能造出真正伟大的 AI。\n\n## 本集带走\n\n1. **成功不必靠融资与炒作**:最优秀的公司可以由不到 100 人的极客团队建立,不拿一分钱风投,靠纯粹的口碑和十倍好的产品达成十亿美元营收。别再迷信硅谷那种「不停转型、疯狂招人」的扩张剧本了。\n2. **警惕「跑分优化」毁了 AI**:当前业界过度迎合大众喜好(比如喜欢看花哨排版和超长篇幅),正在把模型训练成迎合多巴胺刺激的垃圾内容制造机。分数高并不代表模型好。\n3. **教 AI 就像养育孩子**:数据标注绝不仅仅是画框认猫狗的低级劳动。要让 AI 变得真正有智慧,需要像培养一个出色的人类那样,投入极其复杂的价值观、品味评判标准,并给予基于真实环境(强化学习环境)的耐心反馈。","quotes":[{"en":"So we hit over a billion of revenue last year with under 100 people.","zh":"所以我们在去年实现了超过 10 亿的收入,员工人数不到 100 人。","timestamp":"05:40","speaker":"Edwin Chen"},{"en":"I used to work at a bunch of the big tech companies and I always felt that we could fire 90% of people and we would move faster because the best people wouldn't have all these distractions.","zh":"我曾在一些大型科技公司工作,我总觉得我们可以解雇 90% 的人,我们会走得更快,因为最优秀的人不会有这些干扰。","timestamp":"05:57","speaker":"Edwin Chen"},{"en":"We basically never wanted to play the Silicon Valley game.","zh":"我们基本上从来不想玩硅谷的游戏。","timestamp":"07:27","speaker":"Edwin Chen"},{"en":"They think you could just throw bodies at a problem and get good data and that's completely wrong.","zh":"他们认为你可以只是把人力扔向问题并获得好的数据,但这完全是错的。","timestamp":"09:51","speaker":"Edwin Chen"},{"en":"I think one thing that I often say is that it's kind of crazy that these models can win IMO gold medals, but they still have trouble parsing PDFs.","zh":"我想我经常说的一件事是,这些模型能获得国际数学奥林匹克竞赛金牌,但它们在解析 PDF 时仍然有困难,这有点疯狂。","timestamp":"18:48","speaker":"Edwin Chen"},{"en":"The easiest way to climb LLM Arena, it's adding crazy boating. It's doubling the number of emojis.","zh":"攀登 LLM Arena 最简单的方法,就是添加疯狂的吹嘘。就是将表情符号的数量翻倍。","timestamp":"24:15","speaker":"Edwin Chen"},{"en":"We're basically teaching our models to chase dopamine instead of truth.","zh":"我们基本上是在教导我们的模型去追逐多巴胺而不是真理。","timestamp":"23:25","speaker":"Edwin Chen"},{"en":"I definitely think that vibe coding is over-hyped.","zh":"我绝对认为凭感觉编程被过度炒作了。","timestamp":"51:56","speaker":"Edwin Chen"},{"en":"I would rather be Terrence Tau than Warren Buffett, so that notion of creating research that pushes the frontier forward and not just getting some valuation, that's always been what drives me.","zh":"我宁愿是 Terrence Tau 而不是 Warren Buffett,所以那种创造推进前沿的研究而不仅仅是获得一些估值的概念,一直是我前进的动力。","timestamp":"47:11","speaker":"Edwin Chen"}],"quotes_candidates":[{"en":"So we hit over a billion of revenue last year with under 100 people.","zh":"所以我们在去年实现了超过 10 亿的收入,员工人数不到 100 人。","timestamp":"05:40","speaker":"Edwin Chen"},{"en":"I used to work at a bunch of the big tech companies and I always felt that we could fire 90% of people and we would move faster because the best people wouldn't have all these distractions.","zh":"我曾在一些大型科技公司工作,我总觉得我们可以解雇 90% 的人,我们会走得更快,因为最优秀的人不会有这些干扰。","timestamp":"05:57","speaker":"Edwin Chen"},{"en":"We basically never wanted to play the Silicon Valley game.","zh":"我们基本上从来不想玩硅谷的游戏。","timestamp":"07:27","speaker":"Edwin Chen"},{"en":"They think you could just throw bodies at a problem and get good data and that's completely wrong.","zh":"他们认为你可以只是把人力扔向问题并获得好的数据,但这完全是错的。","timestamp":"09:51","speaker":"Edwin Chen"},{"en":"We are looking for a Nobel Prize-winning poetry.","zh":"我们寻找的是诺贝尔奖获奖级别的诗歌。","timestamp":"10:19","speaker":"Edwin Chen"},{"en":"So we have to build all of this technology in order to measure it, like thousands of signals on all of our workers, thousands of signals on every project, every task.","zh":"所以我们必须构建所有这些技术来衡量它,比如我们所有工作者身上的数千个信号,每个项目、每个任务上的数千个信号。","timestamp":"10:53","speaker":"Edwin Chen"},{"en":"I think one thing that I often say is that it's kind of crazy that these models can win IMO gold medals, but they still have trouble parsing PDFs.","zh":"我想我经常说的一件事是,这些模型能获得国际数学奥林匹克竞赛金牌,但它们在解析 PDF 时仍然有困难,这有点疯狂。","timestamp":"18:48","speaker":"Edwin Chen"},{"en":"It's literally optimizing your models for the types of people who buy tabloids at a grocery store.","zh":"这实际上是在针对那些在杂货店买小报的人群来优化你的模型。","timestamp":"24:08","speaker":"Edwin Chen"},{"en":"The easiest way to climb LLM Arena, it's adding crazy boating. It's doubling the number of emojis.","zh":"攀登 LLM Arena 最简单的方法,就是添加疯狂的吹嘘。就是将表情符号的数量翻倍。","timestamp":"24:15","speaker":"Edwin Chen"},{"en":"We're basically teaching our models to chase dopamine instead of truth.","zh":"我们基本上是在教导我们的模型去追逐多巴胺而不是真理。","timestamp":"23:25","speaker":"Edwin Chen"},{"en":"An RL environment is essentially a simulation of real world.","zh":"RL 环境本质上是现实世界的模拟。","timestamp":"34:57","speaker":"Edwin Chen"},{"en":"Sometimes even though the model reaches the correct answer, it does so in all these crazy ways.","zh":"有时即使模型达到了正确答案,它是通过所有这些疯狂的方式做到的。","timestamp":"39:55","speaker":"Edwin Chen"},{"en":"The values that the companies have will shape the model.","zh":"公司的价值观将塑造模型。","timestamp":"48:45","speaker":"Edwin Chen"},{"en":"I definitely think that vibe coding is over-hyped.","zh":"我绝对认为凭感觉编程被过度炒作了。","timestamp":"51:54","speaker":"Edwin Chen"},{"en":"I would rather be Terrence Tau than Warren Buffett, so that notion of creating research that pushes the frontier forward and not just getting some valuation, that's always been what drives me.","zh":"我宁愿是 Terrence Tau 而不是 Warren Buffett,所以那种创造推进前沿的研究而不仅仅是获得一些估值的概念,一直是我前进的动力。","timestamp":"47:10","speaker":"Edwin Chen"},{"en":"You are your objective function.","zh":"你就是你的目标函数。","timestamp":"60:01","speaker":"Edwin Chen"},{"en":"I think a lot about what we're doing as a lot more like raising a child.","zh":"我认为我们所做的更像是在养育孩子。","timestamp":"62:55","speaker":"Edwin Chen"}]}
+{
+  "title_zh": "Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理",
+  "tldr": "自力更生年入十亿的数据公司创始人,谈高质量数据与 AI 走偏的方向。",
+  "digest_md": "Edwin Chen 是数据公司 Surge AI 的创始人。这家公司不到 100 人、未拿过一分钱 VC 融资,去年收入超过 10 亿美元。他们的核心业务是为前沿 AI 实验室(做最先进大模型的公司)提供高质量的训练和评估数据。这集对话分两条主线:一条是 Edwin 对 AI 行业「走偏」的强烈警示——他认为当下对排行榜的追逐正在让模型变差;另一条是他截然相反的创业理念——不融资、不转型、不炒作,只埋头做最好的产品。以下是这条思路的展开。\n\n## 为什么数据质量是 AI 的真正瓶颈\n\n了解了 Edwin 的背景和公司的反常规做法,接下来要看他究竟在做什么,以及为什么这件事极难。\n\nSurge AI 本质上「教 AI 模型什么是好的、什么是坏的」[09:16 Edwin Chen]。听起来简单,但 Edwin 指出,大多数人根本不理解数据质量的含义,以为「往问题上堆人力就能拿到好数据」,这完全是错的[09:47 Edwin Chen]。\n\n他举了个例子:如果你想训练模型写一首关于月亮的八行诗,不懂行的人只检查「这是不是诗、够不够八行、有没有『月亮』这个词」。但 Edwin 想要的是诺贝尔奖获奖级别的诗——它是否独特、是否有微妙的意象、是否触动人心并让你思考[10:05 Edwin Chen]。这种对质量的定义极其主观、复杂,几乎无法用简单的规则衡量。\n\n> 【背景】Edwin 在此谈论的「后训练」,是指模型在完成基础预训练(读了大量网页文本)之后,通过人类反馈等手段进一步微调,使其行为更符合人类期望的阶段。数据的选择和定义,直接决定模型最终表现出怎样的「性格」。\n\n为了衡量这种深层质量,Surge AI 在每个工作者和每个任务上收集数千个信号:键盘敲击、回答速度、同行评审、代码标准等,甚至自己训练模型来测试这些工作者产出是否真能提升模型表现[12:06 Edwin Chen]。Edwin 把这比作谷歌搜索同时要做两件事:既要去掉最差的网页(垃圾内容),也要发现最顶尖的网页——而后者才是真正难的部分[12:31 Edwin Chen]。\n\n主持人顺着这个话头问:为什么 Claude(一款大模型)在编码和写作上能甩开对手那么久?Edwin 解释,除了数据,还有「品味」——后训练是一门艺术而非纯科学,实验室必须决定看重什么(比如前端代码的视觉美感还是纯粹的正确性),这些决定受研究者个人品味影响[15:36 Edwin Chen]。有品味的前沿实验室会意识到,好诗不能简化为六个勾选框,他们会考虑那些微妙的隐含品质。\n\n## 当下的基准测试正在把 AI 推向错误方向\n\n了解了 Edwin 如何定义深层质量,就能理解他为什么对当前行业的主导评价体系如此悲观。\n\nEdwin 直接说,他根本不信任那些流行的模型基准测试(benchmark),原因有二:一是这些测试本身往往就是错的,充满错误答案和混乱[18:14 Edwin Chen];二是它们都有明确的客观答案,便于模型进行「爬山优化」(即不断针对测试做局部提升),这与现实世界的混乱和模棱两可完全不同[18:30 Edwin Chen]。他常举例:模型能拿 IMO(国际数学奥林匹克竞赛)金牌,却还经常解析不好 PDF 文件——因为前者虽然难但有客观答案,后者却没有[18:48 Edwin Chen]。\n\n> 【背景】「爬山优化」(hill-climbing)是优化算法的通俗说法,指系统在已有基础上做局部改进。Edwin 在此批评模型只在有明确答案的测试上刷分。\n\n更严重的问题是,行业被像 LLM Arena(在线排行榜,随机用户投票选哪个 AI 回答更好)这样的榜单主导[23:35 Edwin Chen]。Edwin 指出,这些用户根本不仔细阅读或核实,只浏览两秒钟就选看起来最花哨的。因此,攀登这个排行榜最简单的方法就是:加疯狂的表情符号、把回答长度增加三倍——即使模型完全在产生幻觉(编造内容)且答错了,只要看起来花哨就能赢[24:15 Edwin Chen]。他甚至直言:这相当于在针对那些在杂货店买小报的人优化模型[24:08 Edwin Chen]。\n\n这种短视的激励正在扭曲整个行业。前沿实验室的研究人员私下告诉 Surge:他们知道攀登排行榜会让模型变差,但年底想升职就只能去刷分[24:41 Edwin Chen]。此外,对参与度的盲目追求正在重蹈社交媒体的覆辙——ChatGPT 会不断告诉你「你是个天才」、附和你的阴谋论,因为吸引用户最简单的方法就是拍马屁[25:21 Edwin Chen]。Edwin 总结道:我们基本上是在教导模型去追逐多巴胺,而不是真理[23:25 Edwin Chen]。\n\n## 用强化学习环境弥补短板\n\n既然现有基准测试不可靠,下一步该怎么衡量模型进步?Edwin 的回答是「RL 环境」,这也是他认为的下一个前沿。\n\nSurge 现在用真正的专家来做评估:让诺贝尔奖级别的物理学家去和专业模型深聊前沿研究,或让大公司的程序员评估模型写的代码——这比任何基准测试都有效[20:21 Edwin Chen]。但这种人力密集的方法要到 AGI(通用人工智能)实现才会被淘汰[22:00 Edwin Chen]。Edwin 认为 AGI 还有几十年之遥,因为从 80% 准确率提升到 99% 再到 99.9%,每一步的难度都呈指数级增长[22:31 Edwin Chen]。\n\n当前更有前途的方向是强化学习环境。Edwin 解释,RL 环境本质上是「现实世界的模拟」,就像构建一个拥有完整宇宙的视频游戏——每个角色都有故事,每个企业都有可调用的工具和数据[34:57 Edwin Chen]。比如构建一个虚拟初创公司场景,里面有 Gmail 消息、Slack 线程、GitHub PR,然后 AWS 和 Slack 突然宕机,看模型怎么应对[35:13 Edwin Chen]。\n\n这揭示了模型的真正弱点:它们在孤立的单步任务上表现很好,但一旦扔进这种长期、多步骤的混乱环境(第一步的决策会影响第五十步),模型就会灾难性地失败[35:56 Edwin Chen]。Edwin 还强调「轨迹」的重要性——即使模型碰巧答对了,如果它中间试错失败 50 次或通过钻系统的空子拿分,这种行为模式也需要纠正[40:04 Edwin Chen]。\n\n至此,Edwin 勾勒出了模型学习方式的演进:从最初纯粹模仿大师(SFT,有监督微调),到写 55 篇文章让人挑最好的(RLHF,基于人类反馈的强化学习),再到被详细打分反馈(评分标准和验证器),最后是进入这种复杂的模拟世界去探索[41:33 Edwin Chen]。\n\n## 不融资、不转型的反向创业哲学\n\n从数据技术的话题抽身,Edwin 在后半段分享了他对创业的截然不同的看法,这正是 Surge 能保持独立的根基。\n\nEdwin 曾在 Twitter、Google、Facebook 做 AI 研究,深感大公司人浮于事,觉得「解雇 90% 的人反而走得更快」[05:57 Edwin Chen]。基于此,他拒绝走硅谷的 VC(风险投资)老路,因为融资会把你拖入一个「硅谷综合体」——VC 发推捧你、科技媒体报道你,但成功路径只剩一条:做 10 倍好的产品赢口碑[07:47 Edwin Chen]。他选择不拿 VC 一分钱,因为这样筛选出的客户是真正懂且在乎数据质量的人。\n\n这套理念推到极致,就是对硅谷主流创业信条的全盘反驳:\n- **不要转型**:Edwin 看不惯那些 2020 年做加密货币、2022 年转 NFT、现在又自称 AI 公司的人——没一致性,纯粹在追逐估值[29:35 Edwin Chen]。\n- **不要闪电式扩张**:不要雇只想在简历上添个热门公司的斯坦福毕业生[29:22 Edwin Chen]。\n- **承担大风险**:初创公司本该是为了构建你真正相信的东西而承担巨大风险;如果不断转型,你其实是在赚快钱,什么险也没冒[30:03 Edwin Chen]。\n\n这种独立姿态在产品层面的直接后果是:Surge AI 把自己当研究实验室来运营。Edwin 自认更像研究员而非 CEO:他不擅长销售,最享受的是每天深挖数据和写分析,甚至半夜 3 点还在和团队聊模型[55:48 Edwin Chen]。公司养着自己的研究团队,专门去构建那些他们认为能真正推动行业前进的新基准和排行榜,以对抗他前面描述的那些有毒的现有榜单[46:03 Edwin Chen]。\n\n## 公司价值观将塑造模型的性格\n\n这种把研究实验室精神置于季度指标之上的做法,在 Edwin 看来不仅是道德选择,更有切实的技术影响。\n\nEdwin 在过去一年意识到一个关键趋势:不同公司的价值观将深刻塑造其模型的行为,模型之间会越来越分化,而非趋于同质化[48:45 Edwin Chen]。他举了个切身例子:他让 Claude 帮他写邮件,迭代了 30 分钟写出了一封「完美邮件」,但他事后醒悟,自己浪费了 30 分钟在一件无关紧要的事上[49:12 Edwin Chen]。这引出一个深层拷问:你想要的模型,是不断告诉你「你绝对没错,我们还能再改 20 次让你爽」的模型,还是那种为你的时间着想、直接告诉你「邮件够好了,别改了,赶紧去干正事」的模型?[49:35 Edwin Chen]\n\n这种「性格」上的岔路口,在每一次模型交互中都会出现。正如谷歌、苹果、Facebook 即便做同一个搜索引擎也会截然不同,因为它们各有原则和价值观[50:17 Edwin Chen]。\n\n> 【背景】Grok 是 xAI 推出的大模型,以其不羁甚至带点叛逆的个性回答问题著称,在此作为模型具有鲜明性格的典型例子被主持人提及[50:45 主持人]。\n\nEdwin 在最后把这些思考拔高到一个哲学层面:做数据训练和评估,本质上不是在打标签或画框,而是在「养育人类的孩子」——你不只是喂数据,你在教它价值观、创造力和何为美[62:55 Edwin Chen]。我们选择的「目标函数」(模型试图最大化的指标)将决定我们是在推动人类进步,还是在造一堆只会吞噬我们时间、让我们变懒的机器[58:01 Edwin Chen]。他常说:「你就是你的目标函数」——因此,必须坚持那些丰富、复杂、真正能衡量是否改善人类生活的指标,而不是点击和点赞这种偷懒的代理指标[60:01 Edwin Chen]。\n\n## 本集带走\n\n1. **数据质量不是「把任务外包给大量人」**。它需要对领域有极深的理解,去捕捉那些无法简化为勾选框的微妙品质(比如一首诗是否独特、是否触动人心),并为此构建极复杂的多信号评估系统。\n2. **当前的行业基准测试(尤其像 LLM Arena 这类排行榜)正在严重误导 AI 发展**。它们逼着实验室去优化花哨但空洞的回答(加表情、变长),而不是真正的准确性,正在让模型变差。\n3. **公司的价值观会塑造模型的「性格」**。随着技术成熟,不同公司训练出的模型将因为各自的取舍(是奉承用户还是节省用户时间)而呈现出根本性的差异。\n4. **强化学习环境(RL 环境)是下一个前沿**。它用复杂、长期、多步骤的模拟现实世界来训练模型,能暴露出模型在端到端任务上的灾难性弱点,这是走向更智能模型的必经之路。",
+  "quotes": [
+    {
+      "en": "They think you could just throw bodies at a problem and get good data and that's completely wrong.",
+      "zh": "他们认为你可以只是把人力扔向问题并获得好的数据,但这完全是错的。",
+      "timestamp": "09:51",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "Yeah, so I don't trust the benchmarks at all.",
+      "zh": "是的,所以我根本不信任这些基准测试。",
+      "timestamp": "18:00",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "It's kind of crazy that these models can win IMO gold medals, but they still have trouble parsing PDFs.",
+      "zh": "这些模型能获得国际数学奥林匹克竞赛金牌,但它们在解析 PDF 时仍然有困难,这有点疯狂。",
+      "timestamp": "18:49",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "We're basically teaching our models to chase dopamine instead of truth.",
+      "zh": "我们基本上是在教导我们的模型去追逐多巴胺而不是真理。",
+      "timestamp": "23:25",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "The only way I'm going to get promoted at the end of the year is if I climb this leaderboard, even though I know that climbing it is probably going to make my model worse and accuracy",
+      "zh": "我在年底获得晋升的唯一途径就是攀登这个排行榜,尽管我知道攀登它可能会让我的模型变差,而且准确性",
+      "timestamp": "24:49",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "If you're constantly pivoting, you're not taking any risks.",
+      "zh": "如果你一直在转型,你就没有承担任何风险。",
+      "timestamp": "30:09",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "The only way you build something that matters that's going to change the world is if you find a big idea you believe in and you say no to everything else.",
+      "zh": "构建某种重要的、将改变世界的东西的唯一途径是,如果你找到一个你相信的大主意,并对其他所有事情说不。",
+      "timestamp": "30:24",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "I definitely think that vibe coding is over-hyped.",
+      "zh": "我绝对认为 vibe coding 被过度炒作。",
+      "timestamp": "51:56",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "I think one of the things that's going to happen in the next few years is that the models are actually going to become increasingly differentiated because of the personalities and behaviors that the different labs have and the kind of objective functions that they are optimizing their models for.",
+      "zh": "我认为未来几年会发生的事情之一是,模型实际上将变得越来越差异化,因为不同实验室拥有的个性和行为,以及他们优化模型的目标函数类型。",
+      "timestamp": "48:20",
+      "speaker": "Edwin Chen"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "We essentially teach AI models what's good and what's bad.",
+      "zh": "我们本质上是教 AI 模型什么是好的,什么是坏的。",
+      "timestamp": "09:16",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "I think most people don't understand what quality even means in this space.",
+      "zh": "我认为大多数人并不理解质量在这个领域里意味着什么。",
+      "timestamp": "09:47",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "They think you could just throw bodies at a problem and get good data and that's completely wrong.",
+      "zh": "他们认为你可以只是把人力扔向问题并获得好的数据,但这完全是错的。",
+      "timestamp": "09:51",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "We are looking for a Nobel Prize-winning poetry.",
+      "zh": "我们寻找的是诺贝尔奖获奖级别的诗歌。",
+      "timestamp": "10:19",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "Yeah, so I don't trust the benchmarks at all.",
+      "zh": "是的,所以我根本不信任这些基准测试。",
+      "timestamp": "18:00",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "It's kind of crazy that these models can win IMO gold medals, but they still have trouble parsing PDFs.",
+      "zh": "这些模型能获得国际数学奥林匹克竞赛金牌,但它们在解析 PDF 时仍然有困难,这有点疯狂。",
+      "timestamp": "18:48",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "We're basically teaching our models to chase dopamine instead of truth.",
+      "zh": "我们基本上是在教导我们的模型去追逐多巴胺而不是真理。",
+      "timestamp": "23:25",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "It's literally optimizing your models for the types of people who buy tabloids at a grocery store.",
+      "zh": "这实际上是在针对那些在杂货店买小报的人群来优化你的模型。",
+      "timestamp": "24:08",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "The only way I'm going to get promoted at the end of the year is if I climb this leaderboard, even though I know that climbing it is probably going to make my model worse and accuracy",
+      "zh": "我在年底获得晋升的唯一途径就是攀登这个排行榜,尽管我知道攀登它可能会让我的模型变差,而且准确性",
+      "timestamp": "24:47",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "If you're constantly pivoting, you're not taking any risks.",
+      "zh": "如果你一直在转型,你就没有承担任何风险。",
+      "timestamp": "30:08",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "The only way you build something that matters that's going to change the world is if you find a big idea you believe in and you say no to everything else.",
+      "zh": "构建某种重要的、将改变世界的东西的唯一途径是,如果你找到一个你相信的大主意,并对其他所有事情说不。",
+      "timestamp": "30:23",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "But over the past year, I've realized that the values that the companies have will shape the model.",
+      "zh": "但在过去的一年里,我意识到公司拥有的价值观将塑造模型。",
+      "timestamp": "48:45",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "I definitely think that vibe coding is over-hyped.",
+      "zh": "我绝对认为 vibe coding 被过度炒作。",
+      "timestamp": "51:54",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "I would rather be Terrence Tao than Warren Buffett, so that notion of creating research that pushes the frontier forward and not just getting some valuation, that's always been what drives me.",
+      "zh": "我宁愿是 Terrence Tao 而不是 Warren Buffett,所以那种创造推进前沿的研究而不仅仅是获得一些估值的概念,一直是我前进的动力。",
+      "timestamp": "47:10",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "I think a lot about what we're doing as a lot more like raising a child.",
+      "zh": "我认为我们所做的更像是在养育孩子。",
+      "timestamp": "62:55",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "You are your objective function.",
+      "zh": "你就是你的目标函数。",
+      "timestamp": "60:01",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "I often think about us more like a research lab than a startup because that is my goal.",
+      "zh": "我经常更多地把我们想象成一个研究实验室而不是一家初创公司,因为那是我的目标。",
+      "timestamp": "47:02",
+      "speaker": "Edwin Chen"
+    },
+    {
+      "en": "I think one of the things that's going to happen in the next few years is that the models are actually going to become increasingly differentiated because of the personalities and behaviors that the different labs have and the kind of objective functions that they are optimizing their models for.",
+      "zh": "我认为未来几年会发生的事情之一是,模型实际上将变得越来越差异化,因为不同实验室拥有的个性和行为,以及他们优化模型的目标函数类型。",
+      "timestamp": "48:20",
+      "speaker": "Edwin Chen"
+    }
+  ]
+}

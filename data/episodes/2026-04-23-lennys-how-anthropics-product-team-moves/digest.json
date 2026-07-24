@@ -1,57 +1,46 @@
 {
-  "tldr": "Claude Code产品负责人分享AI原生时代的产品经理角色、极速发布心法与开发者工作流的未来。",
-  "digest_md": "本集嘉宾是 Anthropic（打造 Claude 的公司）旗下 Claude Code 和 Co-Work 的产品负责人 Cat Wu。在 AI 席卷软件行业的当下，她和团队打造的正是千千万万开发者每天都在使用的编程工具。主持人 Lenny 在开篇直言：他面试过数以百计想来 Anthropic 做产品经理（PM）的人，发现大多数人应对 AI 时代的方法完全错了。本期对话将围绕一条主线展开：**当代码越来越便宜，开发和发布的周期从数月压缩到以天计时，产品经理该干什么、团队该怎么运作、未来的软件又会变成什么样。**\n\n### AI 时代的 PM：别再规划多季度路线图了\n\nLenny 指出，很多人带着传统的产品经理思维来应聘，却完全没意识到工作方式已经变了。Cat 解释了这种根本性的转变：在 AI 出现之前，技术变革相对缓慢，团队习惯于规划六到十二个月的路线图，花费大量时间与其他团队协调，确保依赖的功能能按时上线，因为那时编写代码的成本非常高 [05:11 Cat Wu]。\n\n但现在，AI 极大加速了工程开发，模型的能力也在飞速提升。Cat 坦言，他们许多产品功能的周期已经从六个月缩短到了一个月，有时甚至缩短到一周或一天 [05:35 Cat Wu]。这意味着 PM 的核心任务必须发生改变：**应该减少对跨部门多季度路线图对齐的强调，转而想方设法以最快速度把东西发出去。** PM 应该帮团队建立机制，让工程师或 PM 只要有个点子，到周末就能交付到用户手中 [06:02 Cat Wu]。主持人 Lenny 总结道：很多人还没意识到，现在 PM 很大一部分工作就是单纯地「帮团队快速移动」[06:41 Lenny]。\n\n具体该怎么做？Cat 给出了三个关键做法：\n1. **设定清晰目标**：LLM（大语言模型）太通用了，这会导致「我们在为谁解决什么问题」变得极度模糊。优秀的 PM 必须明确关键用户和具体用例，比如「让专业开发者达到零权限提示」，这就排除了大量干扰，给团队指明了清晰方向 [07:09 Cat Wu]。\n2. **建立可重复的极速发布流程**：他们几乎所有的功能都会以「Research Preview（研究预览版）」的形式发布，并明确告知用户这只是个早期想法，可能随时不再支持。这极大降低了团队的心理负担和发布承诺，让他们能在极短时间内把新东西推上线 [07:52 Cat Wu]。\n3. **搭建无缝的跨职能护城河**：PM 需要拉通工程、营销和文档团队。比如在他们的「常青发布室」里，一旦工程师在内部试用觉得没问题，营销和文档人员第二天就能立刻跟进发布。这种极低摩擦的流程，让任何工程师都能轻松发版 [08:32 Cat Wu]。\n\n### 代码变得廉价后，真正的护城河是「产品品味」\n\n说完了 PM 该如何提速，接下来是关于人的变化：既然所有人都能用 AI 快速写代码了，那未来还需要 PM 吗？PM 又该具备什么素质？\n\n面对 Lenny 提出的疑问，Cat 给出了一个非常反直觉的回答：**在 AI 原生产品上表现最好的 PM，恰恰是那些知道如何缩短从点子到用户手中时间的人。** 随着代码变得越来越不值钱，真正变得值钱的是「决定该写什么代码」——这要回归到「产品品味（Product Taste）」[18:16 Cat Wu]。团队每天都会收到成千上万个希望增加各种功能的 GitHub issue，到底哪个值得做？正确的交互体验是什么？这都需要极强的判断力。\n\n更进一步，Cat 认为未来的角色边界正在彻底融合 [15:15 Cat Wu]：PM 在做工程的事，工程师在做 PM 的事，设计师甚至在落地代码。为了最大化发布效率，她的团队非常倾向于**直接雇佣具备极佳产品品味的工程师**，这样很多端到端的工作就不再需要 PM 介入 overhead（额外开销）。主持人 Lenny 感叹，也许未来真正的核心技能，就是知道构建什么东西，并以早期版本把它推出去。\n\n### 身处龙卷风中：拥抱混乱的内部文化\n\n工作变得如此极速和模糊，作为身处前线的从业者，人该如何保持理智？Lenny 形容这就像「身处龙卷风内部」。Cat 分享了 Anthropic 内部真实的工作状态：也许周日晚上有个最高优先级（p0）的紧急问题，到了周一就变成了更严重的 p00，到了周一下午又升级成 p000，回头看周日那个 p0 简直不值一提 [23:26 Cat Wu]。\n\n在这种高压下，Cat 强调团队里全是「拥抱混乱」的人 [22:39 Cat Wu]。他们必须极度无情地优先排序，并接受一个现实：**发布的很多产品并没有那么完美。** 曾经会因为有 bug 而彻夜难眠，现在她能坦然接受，因为只要不阻碍核心用例，收到反馈后下个版本补救即可 [24:17 Cat Wu]。Lenny 精准地形容这就像《加勒比海盗》里的那个名场面：整艘船都在你周围分崩离析，但你依然能淡定地从楼梯上走下来。\n\n> 【背景】Anthropic 是 AI 领域的核心公司之一，该团队以极高的产品发布频率著称。\n\n### 当工具变多：巧妙取舍与打补丁的艺术\n\n随着开发提速，必然会出现另一个问题：**为了抢速度，牺牲了什么？** Cat 非常坦诚地承认：牺牲了产品的一致性 [25:42 Cat Wu]。过去代码昂贵时，一个套件里每个产品的定位和交互都精心规划；现在为了快速测试，内部甚至会同时上线两个功能重叠的形态，让外部用户来投票哪个更好。这导致新用户往往不知道该用哪个，只能倒逼团队后来做更多的入门教育。\n\n除了产品自身的复杂，更大的挑战来自于模型的快速进化。Cat 指出一个非常反直觉的现象：**当新模型变得更聪明时，他们做的第一件事往往是「删功能」。** \n\n她举了一个经典例子：早期模型记忆力差，让它改 20 处代码，它改到第 5 个就忘了。为了给模型打补丁，团队加了一个「待办事项列表」工具强制它走完流程 [61:20 Cat Wu]。但到了 Opus 4（高阶模型阶段）以后，模型自己就知道该列清单并全部完成了。这时，原本作为「拐杖」的工具就没必要了。每次出新模型，团队都会重新通读整个系统提示词，删掉所有模型已经不再需要的多余提醒 [63:09 Cat Wu]。同时，新模型也会解锁以前做不到的事，比如跨大型代码库的智能代码审查。\n\n> 【背景】「系统提示词」是用户看不到的底层指令，用来引导大模型如何表现和执行任务。\n\n### 从助手到智能体：Claude 与 Co-Work 的未来图景\n\n聊完了战术与文化，最后是关于未来的愿景。Cat 揭示了 Claude Code 和 Co-Work 的底层逻辑演进：**最核心的积木，是让单任务能够完美成功交付。** \n\n当单任务成功率足够高后，人们开始多任务并发。Cat 预测，下一步可能是几十上百个任务同时跑。这就催生了全新的基础设施需求——本地机器的内存根本不够，这些任务必须在远程运行 [65:34 Cat Wu]。未来的产品形态，将需要构建全新的界面，让人类能一眼看清哪些任务需要审查，并确保智能体验完全验证自己的工作。\n\n这意味着大模型的定位正在发生质变。Cat 分享了一个让她感到震撼的转变：**2024 年一代的产品是基于聊天的（你问它怎么做），而 Claude Code 这一代是基于行动的（它直接替你做）** [74:42 Cat Wu]。她极力建议用户，不要只停留在玩弄原型的阶段，而是把繁琐重复的工作真正交给 AI，并耐心教它、给它反馈，把它打磨到 100% 的成功率。只有当 AI 真的帮你完成那些你讨厌的琐事时，你才能获得真正的杠杆，去创造更大的价值 [68:07 Cat Wu]。\n\n## 本集带走\n1. **PM 的新核心是「移除发布阻力」**：不要再纠结于长周期的路线图，AI 时代的 PM 应该建立极速反馈闭环，用「研究预览版」等产品形态降低发布承诺，把功能从点子到上线的周期压缩到一周甚至一天。\n2. **代码越廉价，品味越值钱**：当编写代码的成本趋近于零时，真正的竞争力不在于能不能写，而在于决定「写什么」以及「什么才是最好的交互」。\n3. **拥抱混乱，接受不完美**：在模型能力每周都在发生质变的时代，试图维持完美的产品一致性是不现实的。团队需要极强的心理素质去接受有缺陷的快速发布，并具备随时为模型「拆拐杖」和「加新瓦」的敏捷性。",
+  "title_zh": "对话 Anthropic 产品负责人 Cat Wu:AI 时代 PM 如何跟上「每周发布」的疯狂节奏",
+  "tldr": "Cat Wu 揭示 AI 原生产品 PM 在极速迭代、角色融合的浪潮中立足的核心能力与工作实操。",
+  "digest_md": "Cat Wu 是 Anthropic 的产品负责人,主管 Claude Code 和 Co-Work 这两款核心产品。她和团队处于当下 AI 产品开发的最前沿。主持人 Lenny 感叹,他从未见过像 Anthropic 这样以惊人速度发布新功能的团队。本期对话深入拆解了这种「每周甚至每天」迭代背后的工作方法,以及在 AI 大幅降低写代码门槛的当下,产品经理(PM)这个角色为何正在发生剧变——它没有消失,但对从业者提出了全新的要求。\n\n接下来,我们将从 Anthropic 的内功讲起,逐步深入到产品线的演进逻辑、PM 核心技能的变迁,最后谈谈在这个混乱而极速的行业里如何保持节奏。\n\n## 不只是靠最先进的模型:Anthropic 的高速内功\n\n人们看到 Anthropic 推出产品的速度极快,很容易猜测他们是不是在内部使用了尚未公开的强大模型(如本期提到的 Mythos 模型)。Cat Wu 坦言,虽然他们确实能在内部使用前沿模型,且这「稍微增加了我们的发布速度」,但这绝不是全部原因 [11:11 Cat Wu]。\n\n> 【背景】Mythos 是本集播客中提及的一个极其强大的预览模型,因过于强大而处于预览阶段。\n\n高速运转的真正核心在于「流程」和「期望」。Cat Wu 表示,AI 出现前的技术迭代慢,大家习惯按 6 到 12 个月的时间线去规划,因为那时「编写代码的成本非常高」[05:21 Cat Wu]。但现在,随着模型能力飞速提升和 AI 对工程的加速,产品功能的周期已从 6 个月骤降至 1 个月,甚至 1 周或 1 天 [05:35 Cat Wu]。这意味着重点不再是多团队间的冗长对齐,而是如何以最快速度把新想法交到用户手中。\n\n为了实现这点,Cat Wu 的团队采取了三个关键动作:\n\n1. **设定极其清晰的目标**:因为 LLM(大语言模型,一种能理解和生成人类语言的 AI 系统)太通用了,会带来巨大的方向模糊性。好 PM 必须一针见血地框定目标,比如「我们的核心用户是专业开发者,用例是让企业的专业开发者安全地达到零权限提示」[07:23 Cat Wu]。\n2. **建立低阻力的发布机制**:几乎所有的功能都以「Research Preview」(研究预览版,一种明确告知用户这是早期测试、随时可能下线的功能状态)的形式发布。这降低了团队的交付承诺压力,让新想法能在一两周内就推给用户 [07:50 Cat Wu]。\n3. **搭建跨职能的紧密流水线**:PM 的职责是搭建让团队自由狂奔的轨道。比如,一旦工程师把内部测试过的功能发到「常青发布室」,文档、营销、开发者关系的同事就会立刻介入,第二天就能产出配套的发布公告 [08:32 Cat Wu]。\n\n## 源码泄露与 Co-Work 争议:没有完美流程,只有快速修复\n\n建立了紧密的流程并不意味着不犯错,关键是面对失误的态度。前阵子,Claude Code 的整个源代码意外泄露,在社区引起轩然大波。Cat Wu 透露,调查显示这是人为错误的结果——当时有人正和 Claude 一起写一个关于发布包更新的 PR(拉取请求,一种提交代码修改的方式),虽然经过了两层人工审查,但还是漏了 [12:19 Cat Wu]。她强调,这是一次流程失败,最重要的是从中吸取教训并增加更多保障,而犯错的员工依然受到保护。\n\n除了内部失误,对外他们也做出了引发争议的决定:限制人们将 Claude 订阅用于第三方产品(即社区俗称的 Open Claude)。很多用户对此感到愤怒和不解。Cat Wu 解释了背后的取舍:Claude 的订阅服务面临极大需求,但这些第三方产品的使用模式与第一方产品不同。为了保证计算资源能优先供给第一方产品和 API(应用程序接口,允许第三方软件与 Claude 通信的桥梁),他们不得不做出这个艰难的决定,并为订阅用户提供了一些额度作为过渡补偿 [13:18 Cat Wu]。\n\n## 从分工明确到角色融合:「AGI peeled」的艰难平衡\n\n讲完了外部争议,我们来看看团队内部正在发生的深层变化。在 AI 时代,人才模型正在被重塑。Cat Wu 观察到,一个优秀的人才必须掌握一种艰难的平衡——她称之为「恰到好处地剥离 AGI」(the right amount of AGI peeled)[00:00 Cat Wu]。\n\n> 【背景】AGI 指通用人工智能,代表能像人类一样思考和学习的人工智能。在本期语境中,过度「AGI peeled」是指沉迷于未来模型将无所不能的幻想中。\n\nCat Wu 认为,每个人都能预见一个模型极其聪明、几乎无所不能的未来,在那个未来里做产品很容易,「只需要一个文本框」让模型自己去搞定一切就行了 [52:23 Cat Wu]。但**真正的难点在于,对于能力尚不完美的当前模型,你要如何激发其最大能力?如何引导用户走上能最大化发挥模型优势的「黄金路径」,并巧妙修补它的弱点?** [52:58 Cat Wu] 这种对当前模型极限的深刻感知,正是目前最稀缺的技能。\n\n正因为模型能力在飞速变化,传统的「写好需求文档然后照着做」的模式已经不再适用。Cat Wu 指出,工作正变得越来越无形,所有的角色都在融合:PM 在写代码,工程师在做 PM 的产品决策,设计师甚至也在提交代码 [16:15 Cat Wu]。Anthropic 的做法是:**大量招聘拥有良好「产品品味」的工程师**,这样能最大程度减少沟通摩擦,让工程师从看 Twitter 用户反馈到周末发布产品,全程几乎不需要 PM 介入 [16:38 Cat Wu]。\n\n既然写代码的门槛降低甚至被 AI 代劳了,那么「什么是有价值的」就发生了转移。「随着编写代码的成本大幅降低,变得更有价值的是决定写什么」[18:18 Cat Wu]。人类大脑在现阶段依然不可替代的作用在于常识、情商以及协调千丝万缕的人际利益关系,这是模型暂时还做不好的 [21:43 Cat Wu]。\n\n## 「模型会吃掉你的线缆」:为尚未到来的能力构建产品\n\n既然角色在融合,产品本身的设计逻辑也在改变。其中一个极其反直觉但又至关重要的做法是:**构建那些当下尚不能完美运行的功能**。Cat Wu 指出,这样做是为了搞清楚「这个产品要正常工作到底还缺什么」,这样当新的、更聪明的模型发布时,你直接把它换进已有的原型里,就能立刻验证是否填补了差距 [64:54 Cat Wu]。\n\n一个绝佳的例子是 Claude Code 中的「待办事项列表」功能。早期模型记性不好,面对大规模重构(对代码库进行大规模结构性调整)往往改几个地方就停了。于是团队给它加了一个类似人类做法的「待办事项列表」工具,强迫模型走完整个清单 [61:19 Cat Wu]。\n\n但模型迭代到 Opus 4.5 和 4.6 等较新版本后,Cat Wu 发现不需要再强迫它使用列表了,它自己就会很周全地完成任务。**「每次模型变得更聪明时,我们都会通读整个系统提示词,并移除大量不再需要的提示干预。」** [63:04 Cat Wu] 这就是行业内常说的「模型会吃掉你的线缆」——你为修补模型缺陷而搭建的外部支架,随着模型变强会被逐步拆除。同时,这也解锁了全新的能力:比如在最新的模型支撑下,他们终于能够运行多个代码审查智能体(能自主完成特定任务的 AI 程序)同时遍历代码库,成为工程团队可以依赖的可靠代码审查员 [64:11 Cat Wu]。\n\n顺着这个逻辑往前看,Cat Wu 分享了他们对产品愿景的思考:核心是让单项任务成功 -> 同时做多任务 -> 未来可能一次跑 50 到数百个任务。随着并发量激增,本地电脑的内存将无法支撑,任务将转向远程运行。团队接下来的设计重点,就是如何让人类在复杂的远程多智能体网络中,依然能清晰掌控并完全信任智能体的工作 [65:32 Cat Wu]。\n\n## 坦然接受混乱:把繁琐交给 AI,把精力留给品味\n\n了解了 Anthropic 的产品逻辑后,我们来看看普通人在这个极速变化的世界里该如何自处。要在这种一周一个样的龙卷风里不被击垮,首要的是心理建设。Cat Wu 描述了一种真实的体验:周日晚上出了一个最高级别故障,周一早上出现了更高一级的故障,周一下午又出了更更高级别的故障,回过头看,周日那个根本不值一提 [23:24 Cat Wu]。\n\n因此,她强调必须「残酷地优先排序」,接受有些产品发布时并不完美,只要不阻碍核心用例,就可以放手让它去接受真实用户的检验 [23:50 Cat Wu]。团队也更倾向于招聘经历过行业起伏、知道如何维持自身能量的资深从业者。\n\n具体到每个人的日常工作,Cat Wu 给出了最实用的建议:寻找你工作中重复繁琐的部分,把它交给 Claude Code 或 Co-Work 等 AI 工具去自动化。但千万要警惕一个陷阱——**「如果自动化不能 100% 有效,它就不是真正的自动化。」** [70:10 Cat Wu] 很多人尝试把准确率做到 90%-95% 就放弃了,但这最后 5% 到 10% 的打磨,才是决定你能否真正放手并重获 20% 自由时间的关键。一旦 AI 能为你承担繁文缛节,你就能腾出精力去做那些你一直想做、却始终没时间做的「宠物项目」[69:04 Cat Wu]。\n\n> 【背景】闪电问答环节,Cat Wu 分享了她喜爱的读物,包括探讨经济发展政策的《How Asia Works》、复盘历次技术革命对劳动者影响的《The Technology Trap》,以及短篇故事集《Paper Menagerie》。此外,她极力推荐了自动驾驶出租车 Waymo,称其让她免去了社交压力,每天在车上能更自在地开工作电话,极大地提升了效率 [76:33 Cat Wu]。\n\n## 本集带走\n\n1. **最难的能力是「恰到好处地剥离 AGI」**:不要沉迷于未来无所不能的超级模型,真正的考验是深刻理解当前不完美的模型,通过精巧的产品设计激发其最大潜能,并补足其短板。\n2. **「模型会吃掉你的线缆」**:随着模型变聪明,过去为了弥补其缺陷而加上的产品拐杖(如待办事项列表)会被逐步移除,同时解锁全新的高阶能力(如可靠的代码审查)。\n3. **把繁琐打磨到 100% 自动化**:把重复性工作交给 AI,并投入精力跨越那最后 5%-10% 的准确率鸿沟,才能获得真正的杠杆效应与自由时间。",
   "quotes": [
     {
-      "en": "As code becomes much cheaper to write, the thing that becomes more valuable is deciding what to write.",
-      "zh": "随着编写代码的成本变得非常低，变得更有价值的是决定写什么。",
-      "timestamp": "00:50",
-      "speaker": "Cat Wu"
-    },
-    {
       "en": "The timelines for a lot of our product features have gone down from six months to one month and sometimes to even one day.",
-      "zh": "我们许多产品功能的周期已经从六个月缩短到一个月，有时甚至缩短到一天。",
+      "zh": "我们许多产品功能的周期已经从六个月缩短到一个月,有时甚至缩短到一天。",
       "timestamp": "00:20",
       "speaker": "Cat Wu"
     },
     {
-      "en": "if an automation doesn't work 100% of the time, it's not really an automation.",
-      "zh": "如果自动化不能 100% 的时间有效，它就不是真正的自动化。",
+      "en": "As code becomes much cheaper to write, the thing that becomes more valuable is deciding what to write.",
+      "zh": "随着编写代码的成本变得非常低,变得更有价值的是决定写什么。",
+      "timestamp": "00:50",
+      "speaker": "Cat Wu"
+    },
+    {
+      "en": "It's pretty important to build products that don't necessarily work yet so that you know, OK, what is missing for this product to work?",
+      "zh": "构建那些不一定能工作的产品是非常重要的,这样你就知道,好的,这个产品要工作还缺什么?",
+      "timestamp": "64:54",
+      "speaker": "Cat Wu"
+    },
+    {
+      "en": "If an automation doesn't work 100% of the time, it's not really an automation.",
+      "zh": "如果自动化不能 100% 的时间有效,它就不是真正的自动化。",
       "timestamp": "70:06",
       "speaker": "Cat Wu"
     },
     {
-      "en": "we can remove a lot of prompting interventions every time the model gets smarter.",
-      "zh": "每次模型变得更聪明时，我们都可以移除大量的提示干预。",
-      "timestamp": "63:05",
+      "en": "I think the big shift is that the 2024 generation of products were chat-based and the cloud code generation of products is action-based",
+      "zh": "我认为巨大的转变是,2024 年一代的产品是基于聊天的,而云代码生成的产品是基于行动的。",
+      "timestamp": "74:38",
       "speaker": "Cat Wu"
     },
     {
       "en": "if Claude Code failed, but Anthropic succeeded, I would be extremely happy.",
-      "zh": "如果 Claude Code 失败了，但 Anthropic 成功了，我会非常高兴。",
+      "zh": "如果 Claude Code 失败了,但 Anthropic 成功了,我会非常高兴。",
       "timestamp": "31:47",
       "speaker": "Cat Wu"
     }
   ],
   "quotes_candidates": [
-    {
-      "en": "As code becomes much cheaper to write, the thing that becomes more valuable is deciding what to write.",
-      "zh": "随着编写代码的成本变得非常低，变得更有价值的是决定写什么。",
-      "timestamp": "00:50",
-      "speaker": "Cat Wu"
-    },
-    {
-      "en": "The timelines for a lot of our product features have gone down from six months to one month and sometimes to even one day.",
-      "zh": "我们许多产品功能的周期已经从六个月缩短到一个月，有时甚至缩短到一天。",
-      "timestamp": "00:20",
-      "speaker": "Cat Wu"
-    },
-    {
-      "en": "The hard thing is figuring out for the current model, how do you elicit the maximum capability?",
-      "zh": "难点在于，对于当前的模型，你要如何激发其最大能力？",
-      "timestamp": "00:08",
-      "speaker": "Cat Wu"
-    },
     {
       "en": "I think it is very hard to be the right amount of AGI peeled.",
       "zh": "我认为很难做到恰到好处地剥离 AGI。",
@@ -59,9 +48,21 @@
       "speaker": "Cat Wu"
     },
     {
-      "en": "It's very easy to build the product for the super AGI strong model.",
-      "zh": "为超级 AGI 强力模型构建产品非常容易。",
-      "timestamp": "00:03",
+      "en": "The timelines for a lot of our product features have gone down from six months to one month and sometimes to even one day.",
+      "zh": "我们许多产品功能的周期已经从六个月缩短到一个月,有时甚至缩短到一天。",
+      "timestamp": "00:20",
+      "speaker": "Cat Wu"
+    },
+    {
+      "en": "Because LLMs are so general, that actually creates a lot of ambiguity in who we're building for, what problems we're trying to solve, what the top use cases are.",
+      "zh": "因为 LLM 太通用了,这实际上在我们在为谁构建,试图解决什么问题,顶级用例是什么方面产生了很多歧义。",
+      "timestamp": "07:00",
+      "speaker": "Cat Wu"
+    },
+    {
+      "en": "As code becomes much cheaper to write, the thing that becomes more valuable is deciding what to write.",
+      "zh": "随着编写代码的成本变得非常低,变得更有价值的是决定写什么。",
+      "timestamp": "00:50",
       "speaker": "Cat Wu"
     },
     {
@@ -71,63 +72,87 @@
       "speaker": "Cat Wu"
     },
     {
-      "en": "I think all of the roles are merging.",
-      "zh": "我认为所有的角色都在融合。",
-      "timestamp": "16:15",
+      "en": "A lot of the changes that we make with a new model is removing features that are no longer needed.",
+      "zh": "我们用新模型做的很多改变是移除不再需要的功能。",
+      "timestamp": "61:03",
       "speaker": "Cat Wu"
     },
     {
-      "en": "The 2024 generation of products were chat-based and the cloud code generation of products is action-based",
-      "zh": "2024 年一代的产品是基于聊天的，而云代码生成的产品是基于行动的",
-      "timestamp": "74:42",
-      "speaker": "Cat Wu"
-    },
-    {
-      "en": "if an automation doesn't work 100% of the time, it's not really an automation.",
-      "zh": "如果自动化不能 100% 的时间有效，它就不是真正的自动化。",
-      "timestamp": "70:04",
-      "speaker": "Cat Wu"
-    },
-    {
-      "en": "we can remove a lot of prompting interventions every time the model gets smarter.",
-      "zh": "每次模型变得更聪明时，我们都可以移除大量的提示干预。",
+      "en": "yeah we can remove a lot of prompting interventions every time the model gets smarter",
+      "zh": "是的,每次模型变得更聪明时,我们都可以移除大量的提示干预。",
       "timestamp": "63:04",
       "speaker": "Cat Wu"
     },
     {
-      "en": "We're sacrificing product consistency.",
-      "zh": "我们正在牺牲产品一致性。",
-      "timestamp": "25:42",
+      "en": "The hard thing is figuring out for the current model, how do you elicit the maximum capability?",
+      "zh": "难点在于,对于当前的模型,你要如何激发其最大能力?",
+      "timestamp": "00:08",
       "speaker": "Cat Wu"
     },
     {
-      "en": "if Claude Code failed, but Anthropic succeeded, I would be extremely happy.",
-      "zh": "如果 Claude Code 失败了，但 Anthropic 成功了，我会非常高兴。",
-      "timestamp": "31:44",
+      "en": "It's kind of very easy to build the product for the super AGI strong model.",
+      "zh": "为超级 AGI 强力模型构建产品是非常容易的。",
+      "timestamp": "52:45",
       "speaker": "Cat Wu"
     },
     {
-      "en": "I think jobs are fake.",
-      "zh": "我认为工作是假的。",
-      "timestamp": "79:55",
+      "en": "I think the most important thing is to be able to to have this like first principles thinking where you can figure out how the tech landscape is changing, what the team really needs from you and to like jump in and fix that hole.",
+      "zh": "我认为最重要的是能够拥有这种像第一性原理思维,你能够弄清楚技术风景是如何变化的,团队真正需要你做什么,然后跳进去填补那个漏洞。",
+      "timestamp": "20:10",
       "speaker": "Cat Wu"
     },
     {
-      "en": "The like big aha moment people have is when Claude can just like do things on your behalf.",
-      "zh": "人们最大的顿悟时刻是当 Claude 可以代表你做事时。",
-      "timestamp": "74:52",
+      "en": "It's pretty important to build products that don't necessarily work yet so that you know, OK, what is missing for this product to work?",
+      "zh": "构建那些不一定能工作的产品是非常重要的,这样你就知道,好的,这个产品要工作还缺什么?",
+      "timestamp": "64:54",
       "speaker": "Cat Wu"
     },
     {
-      "en": "I think humans still provide a level of common sense that the models don't.",
-      "zh": "我认为人类仍然提供模型所没有的一定程度的常识。",
-      "timestamp": "21:43",
+      "en": "If an automation doesn't work 100% of the time, it's not really an automation.",
+      "zh": "如果自动化不能 100% 的时间有效,它就不是真正的自动化。",
+      "timestamp": "70:10",
+      "speaker": "Cat Wu"
+    },
+    {
+      "en": "I think the big shift is that the 2024 generation of products were chat-based and the cloud code generation of products is action-based",
+      "zh": "我认为巨大的转变是,2024 年一代的产品是基于聊天的,而云代码生成的产品是基于行动的。",
+      "timestamp": "74:42",
       "speaker": "Cat Wu"
     },
     {
       "en": "I would really push people towards building apps that you're actually using every single day.",
       "zh": "我真的想推动人们去构建你实际上每天都在使用的应用程序。",
       "timestamp": "72:17",
+      "speaker": "Cat Wu"
+    },
+    {
+      "en": "if Claude Code failed, but Anthropic succeeded, I would be extremely happy.",
+      "zh": "如果 Claude Code 失败了,但 Anthropic 成功了,我会非常高兴。",
+      "timestamp": "31:44",
+      "speaker": "Cat Wu"
+    },
+    {
+      "en": "And so I would push you towards anytime you realize that you're doing some manual task multiple times, think about how you can use cloud code, co-work or other AI tools to automate that for you.",
+      "zh": "所以我会鼓励你,每当你意识到你在多次做一些手工任务时,思考一下你如何使用 cloud code、co-work 或其他 AI 工具来为你自动化这些。",
+      "timestamp": "67:54",
+      "speaker": "Cat Wu"
+    },
+    {
+      "en": "Because I think only through that usage are you actually getting the value.",
+      "zh": "因为我认为只有通过那种使用,你实际上才在获得价值。",
+      "timestamp": "72:22",
+      "speaker": "Cat Wu"
+    },
+    {
+      "en": "I think there's a lot of value in first principles thinking.",
+      "zh": "我认为第一性原理思考有很大的价值。",
+      "timestamp": "79:38",
+      "speaker": "Cat Wu"
+    },
+    {
+      "en": "I think jobs are fake.",
+      "zh": "我认为工作是假的。",
+      "timestamp": "79:55",
       "speaker": "Cat Wu"
     }
   ]

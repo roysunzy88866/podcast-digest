@@ -6,16 +6,16 @@ entity_type: 公司
 # Zynga
 
 > [!info] 公司
-> 出现在 1 集 · 金句 0 条 · 关联 9 个
+> 出现在 1 集 · 金句 0 条 · 关联 8 个
 
 ## 集里怎么说它
 
-- **[[2026-06-14-lennys-the-common-pattern-behind-successful|《The hidden pattern behind successful products | Mark Pincus (founder of Zynga)》]]**(01:24起):本集将其作为主要案例进行讨论,它是 Mark Pincus 创立的公司,曾做出 FarmVille 等爆款。本集提到 Zynga 极度关注留存率(追踪 Day 365 retention),其产品管理引擎是 Proven, Better, New 框架。
+- **[[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人：别想从零颠覆世界，靠复制才能创新》]]**(01:24起):本集主要讨论的嘉宾创立的公司，被描述为创造过大量成功消费品（如《FarmVille》和《Words With Friends》），以高留存率和高命中率著称。
 
 ## 出现在这些集
 
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《The hidden pattern behind successful products | Mark Pincus (founder of Zynga)》]] — 作为被讨论公司
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人：别想从零颠覆世界，靠复制才能创新》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Mark Pincus]] · [[Lenny]] · [[OpenAI]] · [[Proven, Better, New]] · [[智能体]] · [[留存率]] · [[微管理]] · [[分发]] · [[批判性思维]]
+[[Mark Pincus]] · [[Lenny]] · [[Proven, Better, New]] · [[留存率]] · [[智能体]] · [[AI 聊天]] · [[产品市场契合度]] · [[微管理]]

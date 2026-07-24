@@ -1,21 +1,21 @@
 ---
 title: Nest
-entity_type: 概念
+entity_type: 公司
 ---
 
 # Nest
 
-> [!info] 概念
+> [!info] 公司
 > 出现在 1 集 · 金句 0 条 · 关联 10 个
 
 ## 集里怎么说它
 
-- **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell》]]**(01:40起):本集把它说成:起源于解决人们不会编程旧式恒温器的痛点,用 AI 学习作息以节省能源,并做出极度大胆的定价(249美元);后被 Google 收购沦为文化冲突的牺牲品,原本可成为当今 AI 助手的核心。
+- **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Tony Fadell：造出 iPod 和 iPhone 的人，怎么看 AI 时代的造物法则》]]**(01:40起):本集把它说成:由嘉宾创办、后被谷歌收购但遭边缘化的智能家居公司,其主打产品是能通过机器学习自主调温的 Nest 恒温器。
 
 ## 出现在这些集
 
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell》]] — 作为概念
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Tony Fadell：造出 iPod 和 iPhone 的人，怎么看 AI 时代的造物法则》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Tony Fadell]] · [[Lenny]] · [[iPod]] · [[iPhone]] · [[Apple]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[Claude]] · [[基于观点的决策]]
+[[Tony Fadell]] · [[Lenny]] · [[OpenAI]] · [[General Magic]] · [[基于意见的决策]] · [[微管理]] · [[三代定律]] · [[客户旅程]] · [[讲故事]] · [[技术债务]]

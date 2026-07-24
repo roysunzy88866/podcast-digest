@@ -10,12 +10,12 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 1.2 个人加 20 个 AI 智能体，替换 10 人销售团队》]]**(09:02起):本集说它是 Salesforce 推出的智能体产品。嘉宾很早就接入了它，专门拿去唤醒“销售员懒得跟的线索”，结果达到了70%的回复率。
+- **[[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体替代 10 人销售团队：SaaStr 创始人的前沿实战》]]**(09:02起):本集提到它是 Salesforce 推出的智能体产品，嘉宾用它专门去重新联系那些被人类销售嫌佣金少而放弃跟进的线索，拿到了 70% 的回复率。
 
 ## 出现在这些集
 
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 1.2 个人加 20 个 AI 智能体，替换 10 人销售团队》]] — 作为被讨论公司
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体替代 10 人销售团队：SaaStr 创始人的前沿实战》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Lenny]] · [[Jason Lemkin]] · [[SaaStr]] · [[Artisan]] · [[Qualified]] · [[Salesforce]] · [[Delphi]] · [[Replit]] · [[Bolt]] · [[Lovable]]
+[[Lenny]] · [[Jason Lemkin]] · [[SaaStr]] · [[Salesforce]] · [[Replit]] · [[Vercel]] · [[Delphi]] · [[Artisan]] · [[Qualified]] · [[智能体]]

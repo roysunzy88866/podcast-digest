@@ -6,7 +6,7 @@ entity_type: 人物
 # Max Schoening
 
 > [!info] 人物
-> 出现在 1 集 · 金句 13 条 · 关联 10 个
+> 出现在 1 集 · 金句 10 条 · 关联 10 个
 
 ## 金句
 
@@ -30,16 +30,10 @@ entity_type: 人物
 
 ![[2026-05-03-lennys-why-cultivating-agency-matters-more#^q10]]
 
-![[2026-05-03-lennys-why-cultivating-agency-matters-more#^q11]]
-
-![[2026-05-03-lennys-why-cultivating-agency-matters-more#^q12]]
-
-![[2026-05-03-lennys-why-cultivating-agency-matters-more#^q13]]
-
 ## 出现在这些集
 
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)》]] — 作为主持
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《前 GitHub、现 Notion 产品负责人 Max:每个项目的前 10% 现在免费了》]] — 作为主持
 
 ## 关联实体
 
-[[Lenny]] · [[Notion]] · [[GitHub]] · [[Heroku]] · [[Figma]] · [[Anthropic]] · [[智能体]] · [[智能体循环]] · [[主观能动性]] · [[可塑软件]]
+[[Lenny]] · [[Notion]] · [[GitHub]] · [[Heroku]] · [[主观能动性]] · [[可塑软件]] · [[微小核心]] · [[品味]] · [[智能体循环]] · [[渐进式正确性]]

@@ -4,10 +4,10 @@
   "date": "2026-07-08",
   "tags": [
     "AI 基础设施",
-    "智能体体验",
     "弹性推理",
-    "超级云",
-    "沙箱"
+    "智能体沙箱",
+    "多云策略",
+    "智能体体验(AX)"
   ],
   "entities": [
     {
@@ -47,7 +47,7 @@
       "name": "Modal",
       "file": "Modal",
       "primary": true,
-      "how_described": "本集主要讨论的公司，主持人嘉宾为其工作/投资。被描述为专为 AI 应用从底层构建原语的云平台，覆盖推理、训练、批处理和沙箱，强调其可观测性、跨云容量池和开发者/智能体体验。",
+      "how_described": "本集重点讨论的公司。被描述为专为 AI 与智能体应用从头构建原语的云平台,提供无服务器运行时、弹性推理和隔离的沙箱环境。",
       "source": "glm",
       "evidence": [
         {
@@ -324,12 +324,12 @@
     },
     {
       "id": "kubernetes",
-      "type": "concept",
-      "role": "concept",
+      "type": "company",
+      "role": "company",
       "name": "Kubernetes",
       "file": "Kubernetes",
       "primary": true,
-      "how_described": "本集把它说成：很难管理的容器管理系统，设计初衷是为缓慢扩展的 Web 服务器，不适合需要频繁上下波动的计算密集型任务，导致工作流编排产品极难用。",
+      "how_described": "本集将其描述为一种难以管理的容器管理系统,主要为缓慢扩展的 Web 服务器设计,无法适应 AI 带来的突发性工作负载。Modal 构建更好运行时就是为了摆脱它的繁琐。",
       "source": "glm",
       "evidence": [
         {
@@ -380,154 +380,13 @@
       ]
     },
     {
-      "id": "serverless",
-      "type": "concept",
-      "role": "concept",
-      "name": "无服务器 (serverless)",
-      "file": "无服务器",
-      "primary": true,
-      "how_described": "本集把它说成：Modal 构建的基础计算形态，支持任务队列、ETL、突发处理等场景，能够实现真正的按需扩展至零和真正的突发性。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 20,
-          "t": [
-            78.351,
-            81.093
-          ],
-          "quote": "the serverless container stack that you guys did,",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 29,
-          "t": [
-            106.088,
-            110.909
-          ],
-          "quote": "by serverless functions like you can do ETL stuff you can do job queues you can do",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 475,
-          "t": [
-            1728.299,
-            1732.804
-          ],
-          "quote": "a speed training job that's truly serverless and we need the overlay network for",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
-      "id": "sandbox",
-      "type": "concept",
-      "role": "concept",
-      "name": "沙箱 (sandbox)",
-      "file": "沙箱",
-      "primary": true,
-      "how_described": "本集把它说成：2023年5月就构建的隔离安全执行环境，是构建自迭代智能体的基础，支持容器 Pod、Sidecar、出站网络控制，被证明是比构建时沙箱更好的运行时形态。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 104,
-          "t": [
-            414.133,
-            419.635
-          ],
-          "quote": "And right now it basically covers inference, training, batch crossing and sandbox workloads.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 183,
-          "t": [
-            669.792,
-            673.034
-          ],
-          "quote": "a gpu sandbox we can throw it on there they'll take a hugging face link",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 365,
-          "t": [
-            1355.154,
-            1357.8762222222222
-          ],
-          "quote": "let's say, you know, sandbox, persistent storage,",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 453,
-          "t": [
-            1630.678,
-            1635.9002222222223
-          ],
-          "quote": "A sandbox is actually a pod of containers, and you can run multiple containers in the sandbox.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 455,
-          "t": [
-            1638.865,
-            1643.449
-          ],
-          "quote": "people want a lot of control over outbound networking from a sandbox.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 464,
-          "t": [
-            1677.85,
-            1681.476
-          ],
-          "quote": "which is you can uh expose a tunnel inside a sandbox yeah and",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 705,
-          "t": [
-            2592.66,
-            2593.66
-          ],
-          "quote": "the sandbox level",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 732,
-          "t": [
-            2708.339,
-            2714.083
-          ],
-          "quote": "a specialized sandbox provider that gives you those things and that's the role",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 735,
-          "t": [
-            2721.007,
-            2724.0625555555557
-          ],
-          "quote": "to modal sandbox we run the harness in modal sandbox um",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 877,
-          "t": [
-            3235.497,
-            3242.497
-          ],
-          "quote": "It's in to give cases really taking off and dealing more of a sandbox-shaped thing",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
       "id": "agent",
       "type": "concept",
       "role": "concept",
       "name": "智能体 (agent)",
       "file": "智能体",
       "primary": true,
-      "how_described": "本集把它说成：能调用工具、编排工作流并启动自身基础设施的自主 AI 系统；Modal 认为智能体无需阅读大量配置文件，只需修改装饰器即可获得自我配置的运行时。",
+      "how_described": "本集将智能体描述为新型代码开发者,SDK 团队已从服务人类开发者(DX)转向服务智能体体验(AX);它们能启动自己的基础设施,甚至能在运行时里不断对自身进行迭代。",
       "source": "glm",
       "evidence": [
         {
@@ -758,13 +617,115 @@
       ]
     },
     {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集将沙箱描述为一种用于跑不受信代码、进行安全隔离的执行环境。Modal 在 2023 年 5 月就构建了沙箱,RL 爆发时有时瞬间需要十万个沙箱来跑策略部署。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            414.133,
+            419.635
+          ],
+          "quote": "And right now it basically covers inference, training, batch crossing and sandbox workloads.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 183,
+          "t": [
+            669.792,
+            673.034
+          ],
+          "quote": "a gpu sandbox we can throw it on there they'll take a hugging face link",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1355.154,
+            1357.8762222222222
+          ],
+          "quote": "let's say, you know, sandbox, persistent storage,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 453,
+          "t": [
+            1630.678,
+            1635.9002222222223
+          ],
+          "quote": "A sandbox is actually a pod of containers, and you can run multiple containers in the sandbox.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 455,
+          "t": [
+            1638.865,
+            1643.449
+          ],
+          "quote": "people want a lot of control over outbound networking from a sandbox.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 464,
+          "t": [
+            1677.85,
+            1681.476
+          ],
+          "quote": "which is you can uh expose a tunnel inside a sandbox yeah and",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 705,
+          "t": [
+            2592.66,
+            2593.66
+          ],
+          "quote": "the sandbox level",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 732,
+          "t": [
+            2708.339,
+            2714.083
+          ],
+          "quote": "a specialized sandbox provider that gives you those things and that's the role",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 735,
+          "t": [
+            2721.007,
+            2724.0625555555557
+          ],
+          "quote": "to modal sandbox we run the harness in modal sandbox um",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 877,
+          "t": [
+            3235.497,
+            3242.497
+          ],
+          "quote": "It's in to give cases really taking off and dealing more of a sandbox-shaped thing",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
       "id": "inference",
       "type": "concept",
       "role": "concept",
       "name": "推理 (inference)",
       "file": "推理",
       "primary": true,
-      "how_described": "本集把它说成：Modal 目前最大的用例，支持自定义模型和开源模型的弹性推理，并通过快照、投机解码等技术实现高性能和跨区域自动扩展。",
+      "how_described": "本集反复讨论了推理,特别是自定义模型的大规模弹性推理。Modal 最早的产品市场契合点就是帮 Suno、Runway 等公司做不可预测流量模式下的推理。",
       "source": "glm",
       "evidence": [
         {
@@ -1022,43 +983,13 @@
       ]
     },
     {
-      "id": "snapshotting",
-      "type": "concept",
-      "role": "concept",
-      "name": "GPU 快照 (snapshotting)",
-      "file": "GPU 快照",
-      "primary": true,
-      "how_described": "本集把它说成：保存 GPU 当前运行状态（如模型状态）的技术，能让下一次调用启动得快得多，也被客户（如 Ramp）用于构建高反应性的会计智能体。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 222,
-          "t": [
-            831.8599999999999,
-            834.76
-          ],
-          "quote": "snapshotting to the product so we can actually uh take",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 371,
-          "t": [
-            1372.628,
-            1377.191
-          ],
-          "quote": "because they were able to use some of the primitives like snapshotting",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
       "id": "speculative-decoding",
       "type": "concept",
       "role": "concept",
       "name": "投机解码 (speculative decoding)",
       "file": "投机解码",
       "primary": true,
-      "how_described": "本集把它说成：让小模型（草稿模型）先猜、大模型来验证的加速推理技术；能增加接受长度，带来 2 到 4 倍的乘法性加速且无质量损失。",
+      "how_described": "本集解释了其原理:用一个小型草稿模型在前面预测 token,大模型随后批量验证。增加预测的接受长度能带来 2 到 4 倍的乘法级提速,且不会降低输出质量。",
       "source": "glm",
       "evidence": [
         {
@@ -1091,31 +1022,79 @@
       ]
     },
     {
-      "id": "observability",
+      "id": "agent-experience",
       "type": "concept",
       "role": "concept",
-      "name": "可观测性 (observability)",
-      "file": "可观测性",
+      "name": "智能体体验 (agent experience)",
+      "file": "智能体体验",
       "primary": true,
-      "how_described": "本集把它说成：在代码逐渐「黑盒化」的今天极其重要的能力，强调仪表盘和 CLI 工具，因为人类仍然需要去解释系统发生了什么并做出判断。",
+      "how_described": "本集说 Modal 已把 SDK 团队的思考方式从「开发者体验(DX)」转变为「智能体体验(AX)」,即不让智能体读复杂的 YAML,而是在一个装饰器里做几处修改即可自我配置。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 90,
+          "seg": 76,
           "t": [
-            346.984,
-            350.907
+            294.323,
+            298.284
           ],
-          "quote": "One thing we actually still see is really important is observability.",
+          "quote": "We've actually changed our SDK team to think about agent experience sort",
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 610,
+          "seg": 915,
           "t": [
-            2231.074,
-            2236.357
+            3352.787,
+            3356.009222222222
           ],
-          "quote": "the rest of our observability like how to something is failing like how do you look",
+          "quote": "and you've pivoted the team to agent experience is it like",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 917,
+          "t": [
+            3362.453,
+            3365.7419999999997
+          ],
+          "quote": "on just having better agent experience do you need something else",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 927,
+          "t": [
+            3402.058,
+            3405.629
+          ],
+          "quote": "for developer experience versus agent experience you seem to be on the side",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "snapshotting",
+      "type": "concept",
+      "role": "concept",
+      "name": "快照 (snapshotting)",
+      "file": "快照",
+      "primary": false,
+      "how_described": "本集提到 Modal 整合了 GPU 快照功能,可以截取 GPU 的状态(如模型状态),让下一次调用启动得快得多,避免冷启动;也可用于智能体的状态持久化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 222,
+          "t": [
+            831.8599999999999,
+            834.76
+          ],
+          "quote": "snapshotting to the product so we can actually uh take",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 371,
+          "t": [
+            1372.628,
+            1377.191
+          ],
+          "quote": "because they were able to use some of the primitives like snapshotting",
           "speaker": "SPEAKER_02"
         }
       ]
@@ -1126,8 +1105,8 @@
       "role": "concept",
       "name": "装饰器 (decorator)",
       "file": "装饰器",
-      "primary": true,
-      "how_described": "本集把它说成：Modal 用于将基础设施的配置需求直接写进代码里的语法，压缩了配置表面积，让用户免于编写大量 YAML，且智能体只需改动几处即可获得自配置运行时。",
+      "primary": false,
+      "how_described": "本集描述其为一种代码语法,Modal 希望开发者或智能体不用花大量时间编写 YAML,而是直接在代码的装饰器里压缩并声明基础设施需求。",
       "source": "glm",
       "evidence": [
         {
@@ -1151,61 +1130,13 @@
       ]
     },
     {
-      "id": "developer-experience",
-      "type": "concept",
-      "role": "concept",
-      "name": "开发者体验 (developer experience)",
-      "file": "开发者体验",
-      "primary": false,
-      "how_described": "本集把它说成：Modal 最初重点押注的方向，现已被扩展思考为如何兼顾智能体体验（AX）。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 40,
-          "t": [
-            155.647,
-            160.47
-          ],
-          "quote": "a really great developer experience and also there's a general trend of a lot of",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 77,
-          "t": [
-            298.324,
-            299.6573333333333
-          ],
-          "quote": "of developer experience.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 914,
-          "t": [
-            3348.504,
-            3352.6706666666664
-          ],
-          "quote": "then my close is i think modal used to be a big bet on developer experience",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 927,
-          "t": [
-            3402.058,
-            3405.629
-          ],
-          "quote": "for developer experience versus agent experience you seem to be on the side",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
       "id": "auto-endpoints",
       "type": "concept",
       "role": "concept",
-      "name": "auto endpoints",
-      "file": "auto endpoints",
-      "primary": true,
-      "how_described": "本集把它说成：Modal 推出的开箱即用端点，内置各种优化（如投机解码），提供完全的透明度，用户可拿到代码自己跑，也可随时弹出到完整的 Modal 体验中去微调。",
+      "name": "Auto Endpoints",
+      "file": "Auto Endpoints",
+      "primary": false,
+      "how_described": "本集说这是 Modal 推出的一种服务,让不想深度接触代码的用户也能从 UI 或 CLI 创建一个端点,内置了所有优化,但完全不设黑盒,用户随时可获取代码自行运行。",
       "source": "glm",
       "evidence": [
         {
@@ -1229,376 +1160,22 @@
       ]
     },
     {
-      "id": "dflash",
+      "id": "capacity-pool",
       "type": "concept",
       "role": "concept",
-      "name": "DeFlash",
-      "file": "DeFlash",
-      "primary": true,
-      "how_described": "本集把它说成：Modal 开源的一种基于块的推测器，一次预测一整个块而非单个 token，能让开源模型达到专有提供商的性能。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 250,
-          "t": [
-            966.665,
-            972.487
-          ],
-          "quote": "of recently we shared our work on dflash which is a block based speculator",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 252,
-          "t": [
-            976.729,
-            979.79
-          ],
-          "quote": "by using open source dflash you can get the same performance as you would with one",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 291,
-          "t": [
-            1088.762,
-            1093.228
-          ],
-          "quote": " And so we've been working a bunch on dflash, which is a block based speculator.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 310,
-          "t": [
-            1161.751,
-            1165.612
-          ],
-          "quote": "like the dflash stuff already baked in, and there's full transparency.",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
-      "id": "modal-bench",
-      "type": "concept",
-      "role": "concept",
-      "name": "modal bench",
-      "file": "modal bench",
-      "primary": true,
-      "how_described": "本集把它说成：Modal 推出的专门用来测试当前大模型还做不到的那些难事（如读日志排查错误）的基准测试，以此发现智能体的不足并完善产品。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 606,
-          "t": [
-            2212.223,
-            2216.723
-          ],
-          "quote": "We're playing around with releasing like a modal bench for like the harder things",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 933,
-          "t": [
-            3417.274,
-            3421.774
-          ],
-          "quote": "as I said, we built this benchmark, modal bench, to see where agents are lacking.",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
-      "id": "post-training",
-      "type": "concept",
-      "role": "concept",
-      "name": "后训练 (post-training)",
-      "file": "后训练",
-      "primary": true,
-      "how_described": "本集把它说成：模型训练的一大趋势，指人们在已有模型基础上做特定优化（如训练中等大小的模型以在推理上获得更高质量），是 Modal 多节点训练的核心适用场景。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 543,
-          "t": [
-            1984.912,
-            1991.177
-          ],
-          "quote": "The thing that we've built Multano training for is we see a lot of smaller-scale post-training.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 544,
-          "t": [
-            1992.378,
-            1998.864
-          ],
-          "quote": "People are post-training medium-sized fun models so they can get higher quality on inference.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 546,
-          "t": [
-            2002.228,
-            2007.703
-          ],
-          "quote": "That is my impression of how a lot of these labs explore branches in post training",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 821,
-          "t": [
-            3003.827,
-            3007.52
-          ],
-          "quote": "with companies that were building their own post training frameworks",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
-      "id": "suno",
-      "type": "company",
-      "role": "company",
-      "name": "Suno",
-      "file": "Suno",
-      "primary": true,
-      "how_described": "本集把它说成：一家做音频的公司，不使用 Modal 做训练，但因拥有完全自定义的模型架构，将所有推理部署在 Modal 上。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 201,
-          "t": [
-            748.691,
-            753.138
-          ],
-          "quote": "So we kind of stayed away from the LM space and we were serving companies like Suno",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 825,
-          "t": [
-            3020.14,
-            3026.124
-          ],
-          "quote": "A better example is like let's say Suno because Suno does not use modal for training",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
-      "id": "runway",
-      "type": "company",
-      "role": "company",
-      "name": "Runway",
-      "file": "Runway",
-      "primary": true,
-      "how_described": "本集把它说成：一家做视频的公司，是 Modal 早期在弹性推理方面找到产品市场契合点的代表客户之一。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 202,
-          "t": [
-            753.158,
-            754.82
-          ],
-          "quote": "for audio, Runway for video.",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
-      "id": "ramp",
-      "type": "company",
-      "role": "company",
-      "name": "Ramp",
-      "file": "Ramp",
-      "primary": true,
-      "how_described": "本集把它说成：一家金融科技公司，利用 Modal 的快照和快速扩展等底层组件，成功构建了极具反应性的会计智能体。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 370,
-          "t": [
-            1365.124,
-            1372.124
-          ],
-          "quote": "So Ramp Inspect was a great example of a background agent that was really successful",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 374,
-          "t": [
-            1383.055,
-            1385.436
-          ],
-          "quote": "That's the new CTO of Ramp right there.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 725,
-          "t": [
-            2679.448,
-            2684.936
-          ],
-          "quote": "building something more production grade like your company that's like ramp that's",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 726,
-          "t": [
-            2685.157,
-            2688.942
-          ],
-          "quote": "building their own ramp also runs their accounting agent on us",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 822,
-          "t": [
-            3007.57,
-            3012.494
-          ],
-          "quote": "or they were ramp actually early in the day was training their own tokenizer",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
-      "id": "replicate",
-      "type": "company",
-      "role": "company",
-      "name": "Replicate",
-      "file": "Replicate",
+      "name": "容量池 (capacity pool)",
+      "file": "容量池",
       "primary": false,
-      "how_described": "本集把它说成：一个仅提供模型 API 的「倒下的竞争对手」，主持人借此引出 Modal 刻意避开低粘性业余爱好者市场、坚持提供代码级灵活性的话题。",
+      "how_described": "本集提到 Modal 构建了一个跨越 17 个云提供商的容量池,使他们能比普通用户使用多得多、也便宜得多的云容量。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 796,
+          "seg": 396,
           "t": [
-            2905.121,
-            2910.363
+            1454.462,
+            1459.023
           ],
-          "quote": " This screen reminds me of a fallen competitor which Replicate.",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "gitpod",
-      "type": "company",
-      "role": "company",
-      "name": "Gitpod",
-      "file": "Gitpod",
-      "primary": false,
-      "how_described": "本集把它说成：CI/CD 市场的技术很强的参与者（后改名为 Ona），嘉宾认为其构建时沙箱与 Modal 的运行时沙箱本质相通，但运行时被证明是更好的形态。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 846,
-          "t": [
-            3113.039,
-            3117.562
-          ],
-          "quote": "Gitpod, somewhat different market.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 849,
-          "t": [
-            3123.346,
-            3129.77
-          ],
-          "quote": "Yeah, people on our team have talked to the Gitpod team and they're technically very strong.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 863,
-          "t": [
-            3186.209,
-            3189.172
-          ],
-          "quote": "yeah so so uh for those who don't know gitpod rebranded",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "cognition",
-      "type": "company",
-      "role": "company",
-      "name": "Cognition",
-      "file": "Cognition",
-      "primary": false,
-      "how_described": "本集把它说成：一家与 Modal 深度合作的初创公司，Modal 甚至派工程师入驻以降低分布式开发的沟通延迟。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 121,
-          "t": [
-            473.065,
-            478.609
-          ],
-          "quote": "and so my first week at cognition i walked in there was someone wearing",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 132,
-          "t": [
-            534.541,
-            538.643
-          ],
-          "quote": "to me that was proto cognition right if only i had like stuck to it like that",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 866,
-          "t": [
-            3194.257,
-            3196.039
-          ],
-          "quote": "and cognition i was like you should take these guys seriously",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "vllm",
-      "type": "concept",
-      "role": "concept",
-      "name": "vllm",
-      "file": "vllm",
-      "primary": false,
-      "how_described": "本集一笔带过提及的现成的推理引擎，主持人在询问自行部署开源模型与使用 Modal 的差异时作为对比项提出。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 327,
-          "t": [
-            1220.483,
-            1224.785
-          ],
-          "quote": "the shelf inference engine vllm sc lang you know get compute",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "sglang",
-      "type": "concept",
-      "role": "concept",
-      "name": "SGLang",
-      "file": "SGLang",
-      "primary": false,
-      "how_described": "本集一笔带过提及的推理框架，嘉宾指出 Modal 团队与之密切合作，将改进贡献并上游化到该开源项目中。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 332,
-          "t": [
-            1240.56,
-            1242.6155555555556
-          ],
-          "quote": "We work closely with the SGLang team.",
+          "quote": "which is we've built this capacity pool that spans 17 cloud providers.",
           "speaker": "SPEAKER_02"
         }
       ]
@@ -1609,8 +1186,8 @@
       "role": "concept",
       "name": "RDMA",
       "file": "RDMA",
-      "primary": true,
-      "how_described": "本集把它说成：绕过 TCP 网络实现节点间高速传输的远程直接内存访问技术，Modal 用它在多节点训练中达到每秒 3 万亿比特的内部网络速度。",
+      "primary": false,
+      "how_described": "本集描述它是一种绕过 TCP 网络协议、在节点间极快传输数据的技术。在 Modal 上做多节点训练时,内部网络速度可达每秒 3 万亿比特。",
       "source": "glm",
       "evidence": [
         {
@@ -1677,16 +1254,269 @@
           "speaker": "SPEAKER_02"
         }
       ]
+    },
+    {
+      "id": "gitpod",
+      "type": "company",
+      "role": "company",
+      "name": "Gitpod",
+      "file": "Gitpod",
+      "primary": false,
+      "how_described": "本集提到它位于 CI/CD 市场(后改名 Ona),做的是构建时的沙箱;相比之下 Modal 做的是运行时沙箱。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 846,
+          "t": [
+            3113.039,
+            3117.562
+          ],
+          "quote": "Gitpod, somewhat different market.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 849,
+          "t": [
+            3123.346,
+            3129.77
+          ],
+          "quote": "Yeah, people on our team have talked to the Gitpod team and they're technically very strong.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 863,
+          "t": [
+            3186.209,
+            3189.172
+          ],
+          "quote": "yeah so so uh for those who don't know gitpod rebranded",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "suno",
+      "type": "company",
+      "role": "company",
+      "name": "Suno",
+      "file": "Suno",
+      "primary": false,
+      "how_described": "本集提到这是一家做音频的公司,不在 Modal 上训练模型,但用 Modal 跑所有的推理,因为其模型架构完全自定义。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 201,
+          "t": [
+            748.691,
+            753.138
+          ],
+          "quote": "So we kind of stayed away from the LM space and we were serving companies like Suno",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 825,
+          "t": [
+            3020.14,
+            3026.124
+          ],
+          "quote": "A better example is like let's say Suno because Suno does not use modal for training",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "runway",
+      "type": "company",
+      "role": "company",
+      "name": "Runway",
+      "file": "Runway",
+      "primary": false,
+      "how_described": "本集将 Runway 作为做视频的公司被提及,它使用 Modal 进行弹性推理部署。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 202,
+          "t": [
+            753.158,
+            754.82
+          ],
+          "quote": "for audio, Runway for video.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集在讨论基础模型实验室亲自下场做托管智能体时被提及,嘉宾认为这些大厂的托管产品适合作为起点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 720,
+          "t": [
+            2659.575,
+            2665
+          ],
+          "quote": "we're very excited to partner with Anthropic and some of the other foundation labs",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集被提及为下场做托管智能体的 AI 巨头之一;同时提到 Gitpod 团队后来加入了 OpenAI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 909,
+          "t": [
+            3331.015,
+            3335.997
+          ],
+          "quote": "Brett Taylor, who's chairman of OpenAI, I was like, we need a new language for LLM.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "replicate",
+      "type": "company",
+      "role": "company",
+      "name": "Replicate",
+      "file": "Replicate",
+      "primary": false,
+      "how_described": "本集提到它是一个「倒下的竞争对手」,因为它只为模型提供 API,最终服务的是一个粘性极低的业余市场。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 796,
+          "t": [
+            2905.121,
+            2910.363
+          ],
+          "quote": " This screen reminds me of a fallen competitor which Replicate.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ramp",
+      "type": "company",
+      "role": "company",
+      "name": "Ramp",
+      "file": "Ramp",
+      "primary": false,
+      "how_described": "本集提到它作为构建生产级面向外部客户的智能体(如会计智能体)的案例,需要 Modal 提供的专业沙箱以获得更深的计算控制权。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 370,
+          "t": [
+            1365.124,
+            1372.124
+          ],
+          "quote": "So Ramp Inspect was a great example of a background agent that was really successful",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1383.055,
+            1385.436
+          ],
+          "quote": "That's the new CTO of Ramp right there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 725,
+          "t": [
+            2679.448,
+            2684.936
+          ],
+          "quote": "building something more production grade like your company that's like ramp that's",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 726,
+          "t": [
+            2685.157,
+            2688.942
+          ],
+          "quote": "building their own ramp also runs their accounting agent on us",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 822,
+          "t": [
+            3007.57,
+            3012.494
+          ],
+          "quote": "or they were ramp actually early in the day was training their own tokenizer",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": false,
+      "how_described": "本集提到它是 Modal 的客户,并且 Modal 派了工程师直接驻场在 Cognition 内部以降低沟通延迟。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            473.065,
+            478.609
+          ],
+          "quote": "and so my first week at cognition i walked in there was someone wearing",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            534.541,
+            538.643
+          ],
+          "quote": "to me that was proto cognition right if only i had like stuck to it like that",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 866,
+          "t": [
+            3194.257,
+            3196.039
+          ],
+          "quote": "and cognition i was like you should take these guys seriously",
+          "speaker": "SPEAKER_01"
+        }
+      ]
     }
   ],
   "rejected": [
     {
       "name": "supercloud",
-      "reason": "专名「supercloud」未在真相源出现,且不在别名表(疑编造)"
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
     },
     {
-      "name": "multinode training",
-      "reason": "专名「multinode training」未在真相源出现,且不在别名表(疑编造)"
+      "name": "cold start",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "multi-node training",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
     }
   ]
 }

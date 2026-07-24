@@ -1,13 +1,13 @@
 {
   "episode_id": "2026-06-07-lennys-father-of-the-ipod-and-iphone-on",
-  "podcast": null,
-  "date": null,
+  "podcast": "Lenny's Podcast",
+  "date": "2026-06-07",
   "tags": [
     "产品构建",
-    "硬件创业",
-    "AI 时代编码",
-    "产品营销",
-    "基于观点的决策"
+    "意见主导型决策",
+    "硬件复兴",
+    "客户旅程",
+    "讲故事"
   ],
   "entities": [
     {
@@ -87,478 +87,13 @@
       ]
     },
     {
-      "id": "ipod",
-      "type": "concept",
-      "role": "concept",
-      "name": "iPod",
-      "file": "iPod",
-      "primary": true,
-      "how_described": "本集把它说成:经历了三代才真正成功的创新产品(第一代只吸引不到1%的 Mac 极客,直到第三代连接了 Windows 并推出 iTunes 音乐商店才起飞),且前两代根本不赚钱。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 14,
-          "t": [
-            36.241,
-            37.605
-          ],
-          "quote": "Oh, the iPod wasn't big enough.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 15,
-          "t": [
-            37.625,
-            40.453
-          ],
-          "quote": "It took three generations of the iPod before it became successful.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 30,
-          "t": [
-            100.857,
-            103.8
-          ],
-          "quote": "The iPod, the iPhone, the Nest Thermostat.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 318,
-          "t": [
-            1520.288,
-            1526.811
-          ],
-          "quote": "Just like the iPod wasn't the iPod or the iPhone wasn't the iPhone.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 319,
-          "t": [
-            1527.992,
-            1536.736
-          ],
-          "quote": "It was the iPhone plus the app store, iPod plus iTunes and then the iTunes music store.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 332,
-          "t": [
-            1579.863,
-            1586.106
-          ],
-          "quote": "If you look at the iPhone, or you're with Nest, iPhone or iPod, you can see where all these technologies were just coming to light.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 333,
-          "t": [
-            1586.406,
-            1591.267
-          ],
-          "quote": "So in the iPod, it was just now mass storage that was portable and battery operated.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 355,
-          "t": [
-            1679.36,
-            1681.22
-          ],
-          "quote": "Well, the iPod wasn't big enough.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 356,
-          "t": [
-            1682.361,
-            1686.341
-          ],
-          "quote": "It took three generations of the iPod before it became successful.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 357,
-          "t": [
-            1686.941,
-            1691.982
-          ],
-          "quote": "Well, anyone who knows if they remember iPod before iPhone, because iPhone swallowed everything.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 359,
-          "t": [
-            1693.883,
-            1700.484
-          ],
-          "quote": "But iPod, the first generation was only successful with the Mac Geeks.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 368,
-          "t": [
-            1741.732,
-            1751.854
-          ],
-          "quote": "The team that I was running, we were really clear that we had to have Windows connectivity out of the gate, or not out of the gate, but just after the first iPod shipped.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 405,
-          "t": [
-            1892.887,
-            1901.451
-          ],
-          "quote": "The second iPhone and second iPod, okay, we started getting a little bit better numbers, but we got more or less the features dialed.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 421,
-          "t": [
-            1974.18,
-            1984.449
-          ],
-          "quote": "The other interesting part of the story you just shared here, it was one of my favorite stories in your book actually, the fact you implied this, but basically the first iPod was you had to have a Mac to use it.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 427,
-          "t": [
-            1998.94,
-            2005.003
-          ],
-          "quote": "The mantra was, \"Steve, if we don't have Windows connectivity, the iPod doesn't cost $349.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 434,
-          "t": [
-            2032.774,
-            2043.218
-          ],
-          "quote": "Because that was just such a sublime experience and that's how it all changed and that's how iPhone was able to be created, because without the iPod, I'm pretty sure there would've been no iPhone.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 487,
-          "t": [
-            2334.398,
-            2340.62
-          ],
-          "quote": "And then by the third, fourth version of iPod, we had some really refined language for those late adopters.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 489,
-          "t": [
-            2348.082,
-            2353.645
-          ],
-          "quote": "Because iPod hadn't taken off in Europe, so we're going to push iPod into Europe.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 518,
-          "t": [
-            2522.577,
-            2533.68
-          ],
-          "quote": "Versus iPhone, which was we had discussions of it, should we call it the iPod phone or should we call it the iPhone because Cisco had the iPhone back in the day, and there was copyright issues and trademark issues.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 520,
-          "t": [
-            2539.404,
-            2542.887
-          ],
-          "quote": "And it was betting the farm and we were going to cannibalize iPod.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 906,
-          "t": [
-            4421.584,
-            4426.246
-          ],
-          "quote": "And then iPod comes, and I was pitching new businesses in '99 and 2000.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 908,
-          "t": [
-            4428.987,
-            4434.369
-          ],
-          "quote": "Then the iPod comes out, \"Tony, you want to leave Apple and start that business you wanted to do with hardware?\"",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "iphone",
-      "type": "concept",
-      "role": "concept",
-      "name": "iPhone",
-      "file": "iPhone",
-      "primary": true,
-      "how_described": "本集把它说成:开发时面临物理键盘与虚拟键盘的内部激辩,最终在数据不明确时由 Steve Jobs 拍板走上多点触控路线;且最初受限于 2.5G 网络只在 AT&T 运行,经历三代才真正赚钱。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 24,
-          "t": [
-            66.507,
-            71.772
-          ],
-          "quote": "When I watched Steve, he was honing the story of the iPhone every day.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 30,
-          "t": [
-            100.857,
-            103.8
-          ],
-          "quote": "The iPod, the iPhone, the Nest Thermostat.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 48,
-          "t": [
-            169.3,
-            172.604
-          ],
-          "quote": "And then at the end, they're like, \"Oh, and this iPhone thing launched.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 53,
-          "t": [
-            178.77,
-            187.96
-          ],
-          "quote": "I've always wondered, just being on the other side of this, being within Apple building the iPhone, how much did you guys actually doubt that, \"Okay, maybe they have something, maybe we need to add a keyboard.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 159,
-          "t": [
-            865.008,
-            886
-          ],
-          "quote": "But then you can delegate other things, but certain pieces of it you really need to... And when I mean micromanage, it means micromanage the decision, not necessarily the operations of doing it, making sure you're getting the data like we did with the keyboard on the iPhone to make sure we're getting the right data to help us get the informed gut to make that opinion-based decision.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 318,
-          "t": [
-            1520.288,
-            1526.811
-          ],
-          "quote": "Just like the iPod wasn't the iPod or the iPhone wasn't the iPhone.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 319,
-          "t": [
-            1527.992,
-            1536.736
-          ],
-          "quote": "It was the iPhone plus the app store, iPod plus iTunes and then the iTunes music store.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 327,
-          "t": [
-            1561.753,
-            1569.319
-          ],
-          "quote": "It's because it's interesting because when you talked about the iPhone keyboard, it was a similar story of, okay, we can actually sort of do this virtual keyboard for the first time in history.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 332,
-          "t": [
-            1579.863,
-            1586.106
-          ],
-          "quote": "If you look at the iPhone, or you're with Nest, iPhone or iPod, you can see where all these technologies were just coming to light.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 341,
-          "t": [
-            1624.859,
-            1628
-          ],
-          "quote": "And then on the iPhone, it was multi-touch, but it wasn't just that.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 357,
-          "t": [
-            1686.941,
-            1691.982
-          ],
-          "quote": "Well, anyone who knows if they remember iPod before iPhone, because iPhone swallowed everything.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 377,
-          "t": [
-            1778.999,
-            1782.399
-          ],
-          "quote": "Steve never wanted a stylist on the iPhone or the iPad.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 391,
-          "t": [
-            1840.406,
-            1844.468
-          ],
-          "quote": "But we had to, like I said, the iPhone wasn't a hit right away.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 405,
-          "t": [
-            1892.887,
-            1901.451
-          ],
-          "quote": "The second iPhone and second iPod, okay, we started getting a little bit better numbers, but we got more or less the features dialed.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 434,
-          "t": [
-            2032.774,
-            2043.218
-          ],
-          "quote": "Because that was just such a sublime experience and that's how it all changed and that's how iPhone was able to be created, because without the iPod, I'm pretty sure there would've been no iPhone.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 518,
-          "t": [
-            2522.577,
-            2533.68
-          ],
-          "quote": "Versus iPhone, which was we had discussions of it, should we call it the iPod phone or should we call it the iPhone because Cisco had the iPhone back in the day, and there was copyright issues and trademark issues.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 590,
-          "t": [
-            2826.04,
-            2834
-          ],
-          "quote": "... we made the iPhone 15 years too early and that was a classic case where we were just making the things that were really cool, but nobody needed it.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 743,
-          "t": [
-            3696.727,
-            3708.091
-          ],
-          "quote": "And so when I watched Steve prepare for, and like I said, when we did the two and a half years with the iPhone, he was honing the story of the iPhone every day.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 789,
-          "t": [
-            3939,
-            3939
-          ],
-          "quote": "But it's like a cool lens to go really far and then kind of pull back the best parts and make it honest. I think we just came up with a really good idea here. I want to come back to the iPhone. So I think it-",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 793,
-          "t": [
-            3957,
-            3961.084
-          ],
-          "quote": "So what's crazy is people are still trying to build the next iPhone, especially with AI.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 798,
-          "t": [
-            3969.133,
-            3972.656
-          ],
-          "quote": "I'm curious just what you think the next iPhone may look like with AI.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 813,
-          "t": [
-            4044.783,
-            4062.508
-          ],
-          "quote": "So I am of the opinion that long term, if you look at how a device is layered today, and this is many, many devices, and iPhone specifically started this, which was tapping and swiping, right?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 977,
-          "t": [
-            4885.303,
-            4890.81
-          ],
-          "quote": "General Magic iPhone too early, and then I just kept adding and adding and adding, then doing the iPhone.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1049,
-          "t": [
-            5377.32,
-            5380.484
-          ],
-          "quote": "A lot of people look at the iPhone as this thing now that everyone's hooked on.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1053,
-          "t": [
-            5389.135,
-            5392.96
-          ],
-          "quote": "Just how do you think about that and the impact the iPhone has had on people?",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1054,
-          "t": [
-            5393.8,
-            5397.361
-          ],
-          "quote": "Well, the first thing is the iPhone wasn't set out to be that.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1061,
-          "t": [
-            5475.484,
-            5497.555
-          ],
-          "quote": "And I still think that the platform companies like Google and Apple could be doing a lot more around digital consumption tools and information to help people make better decisions for themselves, for their families, and what have you, because you could go to the... iPhone's just a refrigerator, and you can put in junk food or you can put in good food.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
       "id": "nest",
-      "type": "concept",
-      "role": "concept",
+      "type": "company",
+      "role": "company",
       "name": "Nest",
       "file": "Nest",
       "primary": true,
-      "how_described": "本集把它说成:起源于解决人们不会编程旧式恒温器的痛点,用 AI 学习作息以节省能源,并做出极度大胆的定价(249美元);后被 Google 收购沦为文化冲突的牺牲品,原本可成为当今 AI 助手的核心。",
+      "how_described": "本集把它说成:由嘉宾创办、后被谷歌收购但遭边缘化的智能家居公司,其主打产品是能通过机器学习自主调温的 Nest 恒温器。",
       "source": "glm",
       "evidence": [
         {
@@ -771,190 +306,13 @@
       ]
     },
     {
-      "id": "apple",
-      "type": "company",
-      "role": "company",
-      "name": "Apple",
-      "file": "Apple",
-      "primary": true,
-      "how_described": "本集把它说成:2001年时离破产非常近、没有任何零售业务的公司,后来通过将 iPod 连接 Windows 才起死回生,最终靠卖 iPod 而不是 Mac 拯救了自己。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 53,
-          "t": [
-            178.77,
-            187.96
-          ],
-          "quote": "I've always wondered, just being on the other side of this, being within Apple building the iPhone, how much did you guys actually doubt that, \"Okay, maybe they have something, maybe we need to add a keyboard.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 285,
-          "t": [
-            1311.244,
-            1318.627
-          ],
-          "quote": "But Hermann... Just for context, Hermann was the creator of Acorn Computer, which was the Apple II of the UK back in the '70s.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 424,
-          "t": [
-            1989.593,
-            1995.598
-          ],
-          "quote": "The way you tell it is basically this ended up saving Apple eventually, not selling Macs, but people buying iPods.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 435,
-          "t": [
-            2043.238,
-            2046.38
-          ],
-          "quote": "There would've probably been no Apple because it was close to bankruptcy.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 441,
-          "t": [
-            2054.786,
-            2056.489
-          ],
-          "quote": "Apple retailers, none of that stuff.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 442,
-          "t": [
-            2056.509,
-            2060.958
-          ],
-          "quote": "Most people don't know how on the ropes Apple was back in 2001.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 484,
-          "t": [
-            2312.451,
-            2324.174
-          ],
-          "quote": "Back in 2001, '2, '3, still when Apple had no presence outside of the US, Apple was really, it was selling in the US, some Canada, and some in Japan, but that was it and that was the max.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 508,
-          "t": [
-            2463.58,
-            2476.444
-          ],
-          "quote": "Back in the day at Apple, and maybe it's changed now, but back in the Steve days, there was the different functions of Apple.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 908,
-          "t": [
-            4428.987,
-            4434.369
-          ],
-          "quote": "Then the iPod comes out, \"Tony, you want to leave Apple and start that business you wanted to do with hardware?\"",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1027,
-          "t": [
-            5228.829,
-            5253.54
-          ],
-          "quote": "You really need to start thinking systemically about the benefit that you're bringing to this society as a whole, not just to the business that you're in and trying to bring in whatever revenue you're trying to do because at the end of the day, users will feel that and then I think and will reward that as we see with Apple with privacy and people say, \"Oh, they're behind because they're so private and there's this.\"",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1038,
-          "t": [
-            5287.814,
-            5292.335
-          ],
-          "quote": "And Apple is related with that and Apple's about... Is that what we want to do?\"",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1055,
-          "t": [
-            5397.421,
-            5410.165
-          ],
-          "quote": "There's unintended consequences, and the unintended consequence was social media happened, and social media, Apple's not a social media company, but it does distribute the apps or make available those apps.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1061,
-          "t": [
-            5475.484,
-            5497.555
-          ],
-          "quote": "And I still think that the platform companies like Google and Apple could be doing a lot more around digital consumption tools and information to help people make better decisions for themselves, for their families, and what have you, because you could go to the... iPhone's just a refrigerator, and you can put in junk food or you can put in good food.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1116,
-          "t": [
-            5686.026,
-            5691.775
-          ],
-          "quote": "If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "anthropic",
-      "type": "company",
-      "role": "company",
-      "name": "Anthropic",
-      "file": "Anthropic",
-      "primary": true,
-      "how_described": "本集把它说成:其大模型 Claude 的主循环源代码发生泄露,真实代码架构被专业软件架构师评价为极度脆弱、不可读的工业级反面教材。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 95,
-          "t": [
-            406.144,
-            413.611
-          ],
-          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 548,
-          "t": [
-            2653.838,
-            2657.88
-          ],
-          "quote": "And now Anthropic's where they are and valued more and higher revenue and all that other stuff.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 637,
-          "t": [
-            3094.992,
-            3099.655
-          ],
-          "quote": "This is the main loop of Anthropic's Claude.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
       "id": "openai",
       "type": "company",
       "role": "company",
       "name": "OpenAI",
       "file": "OpenAI",
       "primary": true,
-      "how_described": "本集把它说成:目前像病毒式传播的技术演示,产品定位模糊不清,客户不知道该把它的诸多功能用在哪,正面临因缺乏产品营销思维而被 Anthropic 追赶的危机。",
+      "how_described": "本集把它说成:像早期的网景浏览器一样,虽然是个引发轰动的工具,但用户不知道每天拿它干嘛、缺乏明确产品定义的纯技术导向公司。",
       "source": "glm",
       "evidence": [
         {
@@ -996,472 +354,13 @@
       ]
     },
     {
-      "id": "google",
-      "type": "company",
-      "role": "company",
-      "name": "Google",
-      "file": "Google",
-      "primary": true,
-      "how_described": "本集把它说成:收购 Nest 后让其沦为不受重视的孤儿产品,导致同类最好的烟雾报警器遭停产;目前在平台层面,本应在数字消费管控上做得更多来帮助用户。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 199,
-          "t": [
-            1026,
-            1027.798
-          ],
-          "quote": "It's just not a big enough business within Google [inaudible 00:17:08]-",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 242,
-          "t": [
-            1138.307,
-            1150.273
-          ],
-          "quote": "I think if Nest was around and alive today like it was, it would have a whole different thing when like Google and Gemini and Google IO was what yesterday or the day before.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1061,
-          "t": [
-            5475.484,
-            5497.555
-          ],
-          "quote": "And I still think that the platform companies like Google and Apple could be doing a lot more around digital consumption tools and information to help people make better decisions for themselves, for their families, and what have you, because you could go to the... iPhone's just a refrigerator, and you can put in junk food or you can put in good food.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "blackberry",
-      "type": "company",
-      "role": "company",
-      "name": "BlackBerry",
-      "file": "BlackBerry",
-      "primary": false,
-      "how_described": "本集把它说成:当时只有1%到2%手机用户使用的全键盘商务手机,iPhone 研发时面临的物理键盘对标竞品。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 46,
-          "t": [
-            160.69,
-            162.852
-          ],
-          "quote": "I want to start with the BlackBerry.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 47,
-          "t": [
-            163.954,
-            169
-          ],
-          "quote": "I was just watching the Blackberry movie recently, and it's kind of this journey of the BlackBerry founders and their story.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 55,
-          "t": [
-            193.823,
-            200.786
-          ],
-          "quote": "There was one way of looking at the BlackBerry, which was that is the market we want to go after or we want to win.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 56,
-          "t": [
-            201.667,
-            213.192
-          ],
-          "quote": "And then there's the other side, the flip side of that argument, which is only 1% or 2% of mobile phone users at the time had a BlackBerry, knew what a BlackBerry was.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 346,
-          "t": [
-            1647.613,
-            1654.598
-          ],
-          "quote": "So it was all of those things just on the verge to say, this is what's going to be very different than what just came before it, like a Blackberry.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "claude",
-      "type": "concept",
-      "role": "concept",
-      "name": "Claude",
-      "file": "Claude",
-      "primary": true,
-      "how_described": "本集把它说成:Anthropic 开发的大模型,其源代码泄露后暴露了严重的技术债务问题,展示了完全依赖 AI 写代码会导致不可维护的脆弱架构。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 530,
-          "t": [
-            2592.229,
-            2597.152
-          ],
-          "quote": "And, oh, Claude, it does Claude code and it does code.\"",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 627,
-          "t": [
-            3024.84,
-            3039.586
-          ],
-          "quote": "And to say that they're going to get washed away and an AI is going to come up with it, it reminds me a lot of how software coding is getting done with something like Claude today.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 628,
-          "t": [
-            3039.967,
-            3046.049
-          ],
-          "quote": "I don't know, maybe it was a month ago when the Claude source code leaked, right?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 629,
-          "t": [
-            3046.429,
-            3047.85
-          ],
-          "quote": "Claude source code leaked.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 631,
-          "t": [
-            3052.492,
-            3067.798
-          ],
-          "quote": "And at the time, and maybe they changed it, maybe they didn't, but at the time Dario was saying, \" 90 to 100% of all our codes written by Claude, and we just monitor it and watch it.\"",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 637,
-          "t": [
-            3094.992,
-            3099.655
-          ],
-          "quote": "This is the main loop of Anthropic's Claude.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 658,
-          "t": [
-            3224.874,
-            3243
-          ],
-          "quote": "What's proven is if you properly architect it and have Claude Code go into certain sub-segments, or have Claude help you build the architecture, you modify, refine it, lock it in and say, \"Just work on these few things and these more limited-scoped things,\" yeah, you can make that work.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 699,
-          "t": [
-            3458.233,
-            3470
-          ],
-          "quote": "And yeah, maybe a lot of the sub-functions of Flighty could be built and whatever from Claude Code or whatever, but the whole thing and the architecture and everything, I don't think so.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "opinion-based-decision",
-      "type": "concept",
-      "role": "concept",
-      "name": "基于观点的决策 (opinion-based decision)",
-      "file": "基于观点的决策",
-      "primary": true,
-      "how_described": "本集把它说成:在做世界没见过的新产品(1.0版本)时必须依赖的决策方式,因为缺乏类比数据,必须靠经验、品味和直觉(有根据的直觉)来做定夺。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 83,
-          "t": [
-            359.701,
-            365.044
-          ],
-          "quote": "So this was a classic, like I say in Build, data versus opinion-based decision.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 133,
-          "t": [
-            686.201,
-            698.185
-          ],
-          "quote": "And so you have to be very articulate about how... what that opinion-based decision is made for, why, how it might affect market, how you do it, and make sure the team understands it.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 142,
-          "t": [
-            748.38,
-            768.154
-          ],
-          "quote": "And I saw this so many times at all these major corporations, so they're just kind of covering their with bullshit data and not really doing the hard work of saying, \"I'm going to make this decision and we are going to select this, and yes, I might be wrong or we as the opinion based decision makers are wrong and we will correct it later and we'll take the heat for that.\"",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 159,
-          "t": [
-            865.008,
-            886
-          ],
-          "quote": "But then you can delegate other things, but certain pieces of it you really need to... And when I mean micromanage, it means micromanage the decision, not necessarily the operations of doing it, making sure you're getting the data like we did with the keyboard on the iPhone to make sure we're getting the right data to help us get the informed gut to make that opinion-based decision.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 309,
-          "t": [
-            1458.746,
-            1468.549
-          ],
-          "quote": "But that was the crazy opinion-based decision was, okay, yes, it's going to cost 249, but it's going to save you 800 to $1,200 a year.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 367,
-          "t": [
-            1736.711,
-            1741.672
-          ],
-          "quote": "And that was a real opinion-based decision.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 512,
-          "t": [
-            2495.509,
-            2504.492
-          ],
-          "quote": "Steve was the hub and he was in each of them putting them together, like I said, the opinion-based decision maker.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "fast-fashion",
-      "type": "concept",
-      "role": "concept",
-      "name": "快时尚软件 (fast fashion)",
-      "file": "快时尚软件",
-      "primary": true,
-      "how_described": "本集把它说成:用 AI 编程工具快速堆砌出来的软件原型,就像快时尚服装一样便宜但不可持续,如果想建立真正的公司就会因积累可怕的技术债务而崩塌。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 667,
-          "t": [
-            3295.138,
-            3296.839
-          ],
-          "quote": "So like it's called fast fashion.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "technical-debt",
-      "type": "concept",
-      "role": "concept",
-      "name": "技术债务 (technical debt)",
-      "file": "技术债务",
-      "primary": true,
-      "how_described": "本集把它说成:为了快速交付而用 AI 妥协性生成的脆弱代码,在未来需要付出极大的额外维护和重构代价。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 651,
-          "t": [
-            3174.559,
-            3177.52
-          ],
-          "quote": "And that's called software debt, right, technical debt.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 652,
-          "t": [
-            3177.88,
-            3179
-          ],
-          "quote": "And everybody hates technical debt.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 653,
-          "t": [
-            3179.72,
-            3186.142
-          ],
-          "quote": "So it might be fixing something, but it most likely is giving more technical debt, especially when you're at the high level.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 670,
-          "t": [
-            3302.462,
-            3307.465
-          ],
-          "quote": "Maybe it can, but I don't think it can be if you're really going to do this because you get just technical debt and you got to start over again.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "multitouch",
-      "type": "concept",
-      "role": "concept",
-      "name": "多点触控 (multitouch)",
-      "file": "多点触控",
-      "primary": true,
-      "how_described": "本集把它说成:允许屏幕同时识别多个触点的技术,开发 iPhone 时这项技术还很初级,只存在于巨大的乒乓球桌上,直到经过软硬件反复打磨才缩小放入手机。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 65,
-          "t": [
-            272.025,
-            277.488
-          ],
-          "quote": "And we had... Multitouch just was on a big ping-pong table.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 69,
-          "t": [
-            292.538,
-            296
-          ],
-          "quote": "And then how can we do this on the virtual one with multitouch?\"",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "flighty",
-      "type": "concept",
-      "role": "concept",
-      "name": "Flighty",
-      "file": "Flighty",
-      "primary": true,
-      "how_described": "本集把它说成:一款被极度精心打磨的航班追踪应用,被当作 AI 时代奢侈品级工匠软件的正面代表,因为充满关爱和工艺而脱颖而出。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 678,
-          "t": [
-            3377.216,
-            3379.838
-          ],
-          "quote": "Now, do you think you could vibe code Flighty?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 680,
-          "t": [
-            3383.162,
-            3385
-          ],
-          "quote": "Maybe now that Flighty exists, you could.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 682,
-          "t": [
-            3386.08,
-            3389.702
-          ],
-          "quote": "Like you could do version two of Flighty, maybe vibe coded because you say, look at Flighty.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 683,
-          "t": [
-            3389.962,
-            3396.846
-          ],
-          "quote": "But the original Flighty, to me, that's luxury software, right?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 694,
-          "t": [
-            3441.644,
-            3447.027
-          ],
-          "quote": "I'm like telling, Flighty, Flighty, because all the people in my sphere, they're all flying all time.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 699,
-          "t": [
-            3458.233,
-            3470
-          ],
-          "quote": "And yeah, maybe a lot of the sub-functions of Flighty could be built and whatever from Claude Code or whatever, but the whole thing and the architecture and everything, I don't think so.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 700,
-          "t": [
-            3470.523,
-            3473.658
-          ],
-          "quote": "And if someone hasn't tried Flighty, clearly downloaded and play with it.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1100,
-          "t": [
-            5639.426,
-            5645.929
-          ],
-          "quote": "And so, to me, that's the most important way to help me is by making other cool products like Flighty or other things.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "micromanagement",
-      "type": "concept",
-      "role": "concept",
-      "name": "微管理 (micromanagement)",
-      "file": "微管理",
-      "primary": true,
-      "how_described": "本集把它说成:在构建创新产品时被正名的管理方式,即对产品关键细节和数据的微观把控,而不是凡事都按老板的方式执行。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 153,
-          "t": [
-            830.163,
-            836.168
-          ],
-          "quote": "It's micromanagement of certain details, and then there's the kind of hands-off of other details.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
       "id": "general-magic",
       "type": "company",
       "role": "company",
       "name": "General Magic",
       "file": "General Magic",
-      "primary": false,
-      "how_described": "本集把它说成:在 iPhone 出现的 15 年前就过早制造了它的传奇公司,因为只专注做酷炫技术而非解决用户痛点而失败。",
+      "primary": true,
+      "how_described": "本集把它说成:早于 iPhone 15 年打造了智能设备的传奇团队,但只顾着做酷炫技术而没有解决真正的用户痛点,最终失败。",
       "source": "glm",
       "evidence": [
         {
@@ -1539,13 +438,163 @@
       ]
     },
     {
+      "id": "workos",
+      "type": "company",
+      "role": "company",
+      "name": "WorkOS",
+      "file": "WorkOS",
+      "primary": false,
+      "how_described": "本集把它说成:提供单点登录、审计日志等 API、帮助企业快速集成大型客户所需功能的 B2B SaaS 开发者平台(赞助商)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 94,
+          "t": [
+            401.42,
+            405.564
+          ],
+          "quote": "This episode is brought to you by our season's presenting sponsor, WorkOS.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 96,
+          "t": [
+            414.031,
+            415.832
+          ],
+          "quote": "They are all powered by WorkOS.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 98,
+          "t": [
+            425.781,
+            432.845
+          ],
+          "quote": "WorkOS turns those deal blockers into drop-in APIs with a modern developer platform built specifically for B2B SaaS.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 99,
+          "t": [
+            433.326,
+            440.971
+          ],
+          "quote": "Literally every startup that I'm an investor in that starts to expand upmarket ends up working with WorkOS, and that's because they are the best.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 100,
+          "t": [
+            441.331,
+            451.158
+          ],
+          "quote": "Whether you are a seed-stage startup trying to land your first enterprise customer or a unicorn expanding globally, WorkOS is the fastest path to becoming enterprise-ready and unblocking growth.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 102,
+          "t": [
+            454.34,
+            460.624
+          ],
+          "quote": "Visit workos.com to get started, or just hit up their Slack, where they have actual engineers waiting to answer your questions.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 103,
+          "t": [
+            461.004,
+            466.928
+          ],
+          "quote": "WorkOS allows you to build faster with delightful APIs, comprehensive docs, and a smooth developer experience.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 104,
+          "t": [
+            467.468,
+            470.75
+          ],
+          "quote": "Go to workos.com to make your app enterprise-ready today.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "vanta",
+      "type": "company",
+      "role": "company",
+      "name": "Vanta",
+      "file": "Vanta",
+      "primary": false,
+      "how_described": "本集把它说成:能自动化 SOC 2、ISO 27001 等多项框架合规与风险管理的安全平台(赞助商)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 598,
+          "t": [
+            2850.26,
+            2854.383
+          ],
+          "quote": "I am so excited to tell you about this season's supporting sponsor Vanta.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 599,
+          "t": [
+            2854.703,
+            2864.249
+          ],
+          "quote": "Vanta helps over 15,000 companies like Cursor, Ramp, Duolingo, Snowflake, and Atlassian earn and prove trust with their customers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 604,
+          "t": [
+            2891.466,
+            2900.871
+          ],
+          "quote": "Vanta automates compliance and risk management with over 35 security and privacy frameworks, including SOC 2, ISO 27001, and HIPAA.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 607,
+          "t": [
+            2909.055,
+            2911.537
+          ],
+          "quote": "Learn more at vanta.com/lenny.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 608,
+          "t": [
+            2911.937,
+            2915.379
+          ],
+          "quote": "And as a listener of this podcast, you get $1,000 off Vanta.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 609,
+          "t": [
+            2915.759,
+            2917.96
+          ],
+          "quote": "That's vanta.com/lenny.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
       "id": "humane",
       "type": "company",
       "role": "company",
       "name": "Humane",
       "file": "Humane",
       "primary": false,
-      "how_described": "本集把它说成:试图用激光在手掌上投影取代手机屏幕的 AI 硬件公司,被批评为只是不同而非更好。",
+      "how_described": "本集把它说成:试图用投影到手上替代屏幕的 AI 硬件公司,被嘉宾评价为「只是不同,但并不是更好」。",
       "source": "glm",
       "evidence": [
         {
@@ -1578,83 +627,424 @@
       ]
     },
     {
-      "id": "arm",
+      "id": "simbe-robotics",
       "type": "company",
       "role": "company",
-      "name": "ARM",
-      "file": "ARM",
+      "name": "Simbe Robotics",
+      "file": "Simbe Robotics",
       "primary": false,
-      "how_described": "本集把它说成:由嘉宾同事 Hermann Hauser 参与创立、如今在移动设备中占据统治地位的处理器架构,初代 iPod 正是借助其低功耗特性诞生。",
+      "how_described": "本集把它说成:结合 AI 和机器人来解决零售店库存盘点痛点、解放讨厌数货架的工人的公司。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 286,
+          "seg": 944,
           "t": [
-            1319.008,
-            1323.71
+            4640.183,
+            4645.385
           ],
-          "quote": "And then he created with his team the ARM processor.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 288,
-          "t": [
-            1324.63,
-            1328.072
-          ],
-          "quote": "So ARM means Acorn RISC Machine from Acorn Computer.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 289,
-          "t": [
-            1328.432,
-            1330.873
-          ],
-          "quote": "And so he was one of... one of the founders of ARM.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 338,
-          "t": [
-            1606.733,
-            1620.257
-          ],
-          "quote": "So it was new battery technology, new mass storage, portable mass storage and this new generation of digital music and we had ARM processors.",
+          "quote": "And so company like Simbe Robotics, it's Simbe Robotics.",
           "speaker": "SPEAKER_0"
         }
       ]
     },
     {
-      "id": "vibe-code",
-      "type": "concept",
-      "role": "concept",
-      "name": "vibe code",
-      "file": "vibe code",
+      "id": "greyparrot",
+      "type": "company",
+      "role": "company",
+      "name": "Greyparrot",
+      "file": "Greyparrot",
       "primary": false,
-      "how_described": "本集把它说成:完全靠自然语言提示让 AI 生成完整代码的开发方式,可以用来做玩具原型,但无法用来构建像 Flighty 这样底层的奢侈品级创新软件。",
+      "how_described": "本集把它说成:利用 AI 和摄像头极快地分辨垃圾、解决回收分类痛点的公司。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 678,
+          "seg": 949,
           "t": [
-            3377.216,
-            3379.838
+            4673.916,
+            4678.598
           ],
-          "quote": "Now, do you think you could vibe code Flighty?",
+          "quote": "We're doing the same thing at Greyparrot with AI and recycling.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "opinion-based-decisions",
+      "type": "concept",
+      "role": "concept",
+      "name": "基于意见的决策 (opinion-based decisions)",
+      "file": "基于意见的决策",
+      "primary": true,
+      "how_described": "本集把它说成:在没有历史数据可参考的 1.0 版本全新品类中,依靠极少数人深思熟虑的直觉和品味来做拍板判断的决策模式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 117,
+          "t": [
+            538.528,
+            561.419
+          ],
+          "quote": "And so if most of your decisions are going to be opinion-based decisions for a 1.0, you have to have one or two or a very, very small set of people who are charged with making the opinion-based decisions and can actually get you from point A to... from a white paper or a white... bank sheet of white paper or whiteboard to an actual 1.0 spec.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 919,
+          "seg": 119,
           "t": [
-            4499.592,
-            4512.097
+            575.387,
+            584.292
           ],
-          "quote": "If we look now, going on, people are like, if you're a SaaS company or if you're a software only company, your software companies' worthless because anyone can vibe code it into the thing.",
+          "quote": "So you're going to have to figure out how to get opinion-based decisions to happen, and that means you have to have, for lack of a better word, taste makers.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 121,
+          "t": [
+            585.973,
+            590.916
+          ],
+          "quote": "We are the person or the team who is going to make those opinion-based decisions.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 130,
+          "t": [
+            657.808,
+            672.095
+          ],
+          "quote": "When it comes to consumer... atoms-based products with services or not, whatever it is, you have to build the entire thing and visualize the entire thing to be able to make those opinion-based decisions.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "micromanagement",
+      "type": "concept",
+      "role": "concept",
+      "name": "微管理 (micromanagement)",
+      "file": "微管理",
+      "primary": true,
+      "how_described": "本集把它说成:不是控制员工每一步操作,而是死磕并统筹那些影响用户体验的、软硬件交织的核心关键细节。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 153,
+          "t": [
+            830.163,
+            836.168
+          ],
+          "quote": "It's micromanagement of certain details, and then there's the kind of hands-off of other details.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "three-generations",
+      "type": "concept",
+      "role": "concept",
+      "name": "三代定律 (three generations)",
+      "file": "三代定律",
+      "primary": true,
+      "how_described": "本集把它说成:产品走向成功的必经规律——第一代做产品,第二代修产品,第三代修业务(做利润)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            37.625,
+            40.453
+          ],
+          "quote": "It took three generations of the iPod before it became successful.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1682.361,
+            1686.341
+          ],
+          "quote": "It took three generations of the iPod before it became successful.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1854.152,
+            1861.695
+          ],
+          "quote": "And that's in my book, it's called, I think it's three generations.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1862.415,
+            1863.635
+          ],
+          "quote": "Everything needs three generations.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 398,
+          "t": [
+            1864.836,
+            1865.656
+          ],
+          "quote": "Three generations.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "customer-journey",
+      "type": "concept",
+      "role": "concept",
+      "name": "客户旅程 (customer journey)",
+      "file": "客户旅程",
+      "primary": true,
+      "how_described": "本集把它说成:不能只靠产品取胜,必须涵盖营销、销售、分发等全链路的整体设计与情境构建,让用户在了解产品时就被打动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 443,
+          "t": [
+            2062.34,
+            2074.408
+          ],
+          "quote": "So many stories, but I want to come back to the customer journey thread that you touched on, which I think is really, really important for people listening to this podcast to hear, something that you kind of reinforce again and again in the book.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2074.428,
+            2078.11
+          ],
+          "quote": "And you have this awesome image that we're going to show of the entire customer journey.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2666.545,
+            2680.153
+          ],
+          "quote": "You need to think holistically and you need to think about the entire customer journey, the marketing, the sales pieces, the distribution pieces, the product definition piece, the messaging, the target markets, early on.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1003,
+          "t": [
+            5081.614,
+            5100.88
+          ],
+          "quote": "So I just finished up my first year there with the MIT Media Lab in architecture and design, and help to give lectures and work with students, amazing, amazing, smart students with the great technology, but help them with the customer journey.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "storytelling",
+      "type": "concept",
+      "role": "concept",
+      "name": "讲故事 (storytelling)",
+      "file": "讲故事",
+      "primary": true,
+      "how_described": "本集把它说成:技术只回答了是什么,而讲故事回答了为什么,是引导客户情感共鸣、完成营销转化最核心的手段。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            57,
+            60
+          ],
+          "quote": "You often come back to the value of storytelling for product builders.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 23,
+          "t": [
+            64.785,
+            66.227
+          ],
+          "quote": "The why is with storytelling.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 707,
+          "t": [
+            3481.081,
+            3492.093
+          ],
+          "quote": "Something along these lines, as people hear you talk, clearly you are an amazing storyteller and in your book, you often come back to the power of storytelling, the value of storytelling for product builders.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 709,
+          "t": [
+            3495.176,
+            3498.84
+          ],
+          "quote": "And two, is what's one tip you could give people to get better at storytelling?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 710,
+          "t": [
+            3499.82,
+            3507.243
+          ],
+          "quote": "Storytelling, that's how we've passed information down or got people to commit to doing something.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 716,
+          "t": [
+            3537.173,
+            3551.897
+          ],
+          "quote": "And so Dave Chappelle is, when it comes to comedy and storytelling, the way he weaves it, he can weave a story for 20 minutes to get to the punchline and you're just in it, right?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 737,
+          "t": [
+            3670.575,
+            3677
+          ],
+          "quote": "And actually go to my competitor down the street,\" because he was building a relationship in storytelling because these people loved what it was.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 752,
+          "t": [
+            3756.947,
+            3761.649
+          ],
+          "quote": "It was just that same storytelling over and over, why does it matter?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 756,
+          "t": [
+            3770.552,
+            3778.195
+          ],
+          "quote": "And the why is where the storytelling is because you want to take a journey of why it matters to you.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 768,
+          "t": [
+            3831.396,
+            3835.798
+          ],
+          "quote": "Now, there's another way to look at the storytelling and this is, and I put this in the book.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 778,
+          "t": [
+            3885.823,
+            3890.446
+          ],
+          "quote": "There's probably no realness there, but it is storytelling in a way.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 994,
+          "t": [
+            5013.889,
+            5023.954
+          ],
+          "quote": "Because we talked about storytelling, storytelling is really important, and a lot of deep technology people, they're incredible engineers, scientists, researchers, what have you.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "technical-debt",
+      "type": "concept",
+      "role": "concept",
+      "name": "技术债务 (technical debt)",
+      "file": "技术债务",
+      "primary": true,
+      "how_described": "本集把它说成:完全依赖 AI 生成代码而不加人工架构审查,虽然能短期造出原型,但会带来不可维护、长期积重难返的灾难性后果。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 651,
+          "t": [
+            3174.559,
+            3177.52
+          ],
+          "quote": "And that's called software debt, right, technical debt.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 652,
+          "t": [
+            3177.88,
+            3179
+          ],
+          "quote": "And everybody hates technical debt.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 653,
+          "t": [
+            3179.72,
+            3186.142
+          ],
+          "quote": "So it might be fixing something, but it most likely is giving more technical debt, especially when you're at the high level.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 670,
+          "t": [
+            3302.462,
+            3307.465
+          ],
+          "quote": "Maybe it can, but I don't think it can be if you're really going to do this because you get just technical debt and you got to start over again.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "humans-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "人在回路中 (humans in the loop)",
+      "file": "人在回路中",
+      "primary": true,
+      "how_described": "本集把它说成:在编写代码和交付产品时,依然需要人类进行把关、架构和安全审查,不能完全依赖机器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0,
+            1.265
+          ],
+          "quote": "You still need humans in the loop.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 647,
+          "t": [
+            3127.725,
+            3134.747
+          ],
+          "quote": "There's so many other aspects to writing code and delivering a product thing that you still need humans in the loop.",
           "speaker": "SPEAKER_0"
         }
       ]
     }
   ],
-  "rejected": []
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
 }

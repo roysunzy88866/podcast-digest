@@ -1,31 +1,15 @@
 {
   "kept": [
     {
-      "i": 1,
-      "timestamp": "03:28",
-      "speaker": "Matei Zaharia",
-      "trimmed": false,
-      "tsWas": "03:28",
-      "spkWas": "Matei Zaharia"
-    },
-    {
       "i": 2,
-      "timestamp": "06:37",
+      "timestamp": "31:16",
       "speaker": "Reynold Xin",
       "trimmed": false,
-      "tsWas": "06:37",
+      "tsWas": "31:16",
       "spkWas": "Reynold Xin"
     },
     {
       "i": 3,
-      "timestamp": "21:04",
-      "speaker": "Matei Zaharia",
-      "trimmed": false,
-      "tsWas": "21:04",
-      "spkWas": "Matei Zaharia"
-    },
-    {
-      "i": 4,
       "timestamp": "30:30",
       "speaker": "Reynold Xin",
       "trimmed": false,
@@ -33,39 +17,15 @@
       "spkWas": "Reynold Xin"
     },
     {
-      "i": 5,
-      "timestamp": "30:37",
-      "speaker": "Reynold Xin",
-      "trimmed": false,
-      "tsWas": "30:37",
-      "spkWas": "Reynold Xin"
-    },
-    {
-      "i": 6,
-      "timestamp": "33:02",
-      "speaker": "Reynold Xin",
-      "trimmed": false,
-      "tsWas": "33:02",
-      "spkWas": "Reynold Xin"
-    },
-    {
-      "i": 7,
+      "i": 4,
       "timestamp": "44:25",
       "speaker": "Reynold Xin",
-      "trimmed": true,
-      "tsWas": "44:26",
-      "spkWas": "Reynold Xin"
-    },
-    {
-      "i": 8,
-      "timestamp": "44:36",
-      "speaker": "Reynold Xin",
       "trimmed": false,
-      "tsWas": "44:36",
+      "tsWas": "44:23",
       "spkWas": "Reynold Xin"
     },
     {
-      "i": 9,
+      "i": 5,
       "timestamp": "51:18",
       "speaker": "Reynold Xin",
       "trimmed": false,
@@ -73,13 +33,27 @@
       "spkWas": "Reynold Xin"
     },
     {
-      "i": 10,
-      "timestamp": "56:17",
-      "speaker": "Reynold Xin",
+      "i": 6,
+      "timestamp": "60:52",
+      "speaker": "Matei Zaharia",
       "trimmed": false,
-      "tsWas": "56:17",
-      "spkWas": "Reynold Xin"
+      "tsWas": "60:52",
+      "spkWas": "Matei Zaharia"
+    },
+    {
+      "i": 7,
+      "timestamp": "21:04",
+      "speaker": "Matei Zaharia",
+      "trimmed": false,
+      "tsWas": "21:04",
+      "spkWas": "Matei Zaharia"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 1,
+      "reason": "命中片段跨说话人(占比0.91/连续他人3词,疑拼接)",
+      "en": "Honestly, I was driving and I was tethering my laptop to my phone, keeping it on the side. Whenever I hit the red light, I started looking at what's going on on my laptop and I just felt that was ridiculous. It felt like we went back to the dark ages of programming."
+    }
+  ]
 }

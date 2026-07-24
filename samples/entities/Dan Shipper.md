@@ -6,7 +6,7 @@ entity_type: 人物
 # Dan Shipper
 
 > [!info] 人物
-> 出现在 1 集 · 金句 10 条 · 关联 10 个
+> 出现在 1 集 · 金句 4 条 · 关联 10 个
 
 ## 金句
 
@@ -18,22 +18,10 @@ entity_type: 人物
 
 ![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q4]]
 
-![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q5]]
-
-![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q6]]
-
-![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q7]]
-
-![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q8]]
-
-![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q9]]
-
-![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q10]]
-
 ## 出现在这些集
 
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《The AI paradox: More automation, more humans, more work | Dan Shipper》]] — 作为联合主持
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的 AI 工作预测:智能体接管工作,但人类不会失业》]] — 作为联合主持
 
 ## 关联实体
 
-[[Lenny]] · [[Every]] · [[Codex]] · [[Claude Code]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[智能体]] · [[自动化]] · [[前线部署工程师]]
+[[Lenny]] · [[Every]] · [[智能体]] · [[Codex]] · [[Claude Code]] · [[Cowork]] · [[SaaS]] · [[OpenClaw]] · [[终端]] · [[CLI]]

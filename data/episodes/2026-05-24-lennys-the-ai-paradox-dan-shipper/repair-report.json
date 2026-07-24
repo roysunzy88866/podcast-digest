@@ -2,6 +2,22 @@
   "kept": [
     {
       "i": 1,
+      "timestamp": "01:17",
+      "speaker": "Dan Shipper",
+      "trimmed": false,
+      "tsWas": "01:17",
+      "spkWas": "Dan Shipper"
+    },
+    {
+      "i": 2,
+      "timestamp": "00:40",
+      "speaker": "Dan Shipper",
+      "trimmed": false,
+      "tsWas": "00:40",
+      "spkWas": "Dan Shipper"
+    },
+    {
+      "i": 3,
       "timestamp": "01:20",
       "speaker": "Dan Shipper",
       "trimmed": false,
@@ -9,77 +25,24 @@
       "spkWas": "Dan Shipper"
     },
     {
-      "i": 2,
-      "timestamp": "15:01",
-      "speaker": "Dan Shipper",
-      "trimmed": false,
-      "tsWas": "15:01",
-      "spkWas": "Dan Shipper"
-    },
-    {
-      "i": 3,
-      "timestamp": "39:15",
-      "speaker": "Dan Shipper",
-      "trimmed": false,
-      "tsWas": "39:15",
-      "spkWas": "Dan Shipper"
-    },
-    {
-      "i": 4,
-      "timestamp": "40:15",
-      "speaker": "Dan Shipper",
-      "trimmed": false,
-      "tsWas": "40:12",
-      "spkWas": "Dan Shipper"
-    },
-    {
       "i": 5,
-      "timestamp": "59:27",
+      "timestamp": "00:31",
       "speaker": "Dan Shipper",
       "trimmed": false,
-      "tsWas": "59:23",
-      "spkWas": "Dan Shipper"
-    },
-    {
-      "i": 6,
-      "timestamp": "37:09",
-      "speaker": "Dan Shipper",
-      "trimmed": false,
-      "tsWas": "37:09",
-      "spkWas": "Dan Shipper"
-    },
-    {
-      "i": 7,
-      "timestamp": "73:51",
-      "speaker": "Dan Shipper",
-      "trimmed": false,
-      "tsWas": "73:56",
-      "spkWas": "Dan Shipper"
-    },
-    {
-      "i": 8,
-      "timestamp": "78:48",
-      "speaker": "Dan Shipper",
-      "trimmed": false,
-      "tsWas": "78:48",
-      "spkWas": "Dan Shipper"
-    },
-    {
-      "i": 9,
-      "timestamp": "80:14",
-      "speaker": "Dan Shipper",
-      "trimmed": false,
-      "tsWas": "80:14",
-      "spkWas": "Dan Shipper"
-    },
-    {
-      "i": 10,
-      "timestamp": "79:15",
-      "speaker": "Dan Shipper",
-      "trimmed": false,
-      "tsWas": "79:12",
+      "tsWas": "00:31",
       "spkWas": "Dan Shipper"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 4,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "Every agent needs a human."
+    },
+    {
+      "i": 6,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "CLIs are over."
+    }
+  ]
 }

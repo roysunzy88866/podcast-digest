@@ -10,12 +10,12 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)》]]**(01:25起):本集把它说成:著名的 PayPal Mafia 成员之一，他在该组织担任过负责业务发展和政策的执行副总裁。
+- **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别问客户、别信心理安全、只招「木桶」》]]**(01:25起):本集作为「PayPal 黑手党」的大本营被反复提及。因为 Peter Thiel 和 Max Levchin 调动了令人难以置信的人才密度，它不仅自身成功，还在随后的 25 年里裂变出大量优秀公司。被收购时约有 254 名员工，其中真正的「木桶」只有 12 到 17 个。
 
 ## 出现在这些集
 
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)》]] — 作为被讨论公司
+- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别问客户、别信心理安全、只招「木桶」》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Keith Rabois]] · [[Lenny]] · [[桶与弹药]] · [[人才密度]] · [[未被发现的才华]] · [[主观能动性]] · [[PM]] · [[商业头脑]] · [[心理安全感]] · [[Ramp]]
+[[Keith Rabois]] · [[Lenny]] · [[Square]] · [[Ramp]] · [[Faire]] · [[DoorDash]] · [[Airbnb]] · [[木桶与弹药]] · [[人才密度]] · [[AI 时代的产品角色演进]]

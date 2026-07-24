@@ -6,13 +6,14 @@ entity_type: 概念
 # vibe coding
 
 > [!info] 概念
-> 出现在 3 集 · 金句 2 条 · 关联 10 个
+> 出现在 4 集 · 金句 2 条 · 关联 10 个
 
 ## 集里怎么说它
 
-- **[[2025-12-07-lennys-surge-ai-edwin-chen|《被 10 亿美元验证的逆向创业法:AI 数据公司 Surge 的独立路径》]]**(51:54起):被描述为一种被过度炒作的概念,嘉宾担心直接把看似能跑的代码倾倒进代码库,长期来看会让系统变得不可维护。
-- **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)》]]**(57:57起):本集提到两位主播和嘉宾都极其沉迷于使用 AI 工具编写代码，甚至找电视剧边看边进行 vibe coding，以享受亲手把想法做出来的乐趣。
-- **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri: AI is a tailwind for authenticity》]]**(09:14起):本集指通过自然语言引导 AI 生成代码。集里提到不同模型生成的应用都有各自的 vibe，嘉宾也分享了和他 10 岁的儿子通过 vibe coding 在几个小时内做出了一款 19 关的平台跳跃游戏。
+- **[[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]]**(51:54起):本集在「最被过度炒作」话题中被提及;嘉宾担忧这种将看似能跑的代码直接倾倒进库的做法,会让系统长期变得不可维护。
+- **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值 150 亿的隐形 AI 公司 Applied Intuition:给自动驾驶卡车的焦虑开一剂务实药方》]]**(15:16起):本集提及其加剧了股市焦虑:公开市场投资者看到网上关于仅靠 vibe coding 就能取代十亿美元公司的说法,就信以为真并引发抛售,但这与社会大众对 AI 的焦虑是两码事。
+- **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被淘汰，构建者迎来黄金期》]]**(57:57起):本集提到的编程方式，指凭直觉用自然语言与 AI 对话来构建产品。嘉宾甚至找那些基于小说改编、情节结构清晰的剧集（如 Alex Cross 或 Jack Ryan），边看边进行 vibe coding。
+- **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《OpenAI Codex lead on the new shape of product work | Andrew Ambrosino》]]**(43:56起):指用自然语言与 AI 对话来快速生成和迭代代码的方式。团队甚至构建了大幅简化的「婴儿版 Codex」代码库，因为用它进行 vibe coding 验证设计原型要快得多。
 
 ## 金句
 
@@ -22,10 +23,11 @@ entity_type: 概念
 
 ## 出现在这些集
 
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《被 10 亿美元验证的逆向创业法:AI 数据公司 Surge 的独立路径》]] — 作为概念(提及)
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)》]] — 作为概念
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri: AI is a tailwind for authenticity》]] — 作为概念
+- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] — 作为概念(提及)
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值 150 亿的隐形 AI 公司 Applied Intuition:给自动驾驶卡车的焦虑开一剂务实药方》]] — 作为概念(提及)
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被淘汰，构建者迎来黄金期》]] — 作为概念
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《OpenAI Codex lead on the new shape of product work | Andrew Ambrosino》]] — 作为概念(提及)
 
 ## 关联实体
 
-[[Lenny]] · [[Anthropic]] · [[Claude]] · [[Edwin Chen]] · [[Nikhyl Singhal]] · [[Adam Mosseri]] · [[Surge AI]] · [[智能体]] · [[instagram]] · [[强化学习环境]]
+[[Lenny]] · [[智能体]] · [[Anthropic]] · [[Tesla]] · [[Codex]] · [[ChatGPT]] · [[Waymo]] · [[Claude]] · [[Edwin Chen]] · [[Qasar Younis]]

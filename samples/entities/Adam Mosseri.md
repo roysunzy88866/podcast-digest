@@ -6,7 +6,7 @@ entity_type: 人物
 # Adam Mosseri
 
 > [!info] 人物
-> 出现在 1 集 · 金句 12 条 · 关联 10 个
+> 出现在 1 集 · 金句 4 条 · 关联 10 个
 
 ## 金句
 
@@ -18,26 +18,10 @@ entity_type: 人物
 
 ![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q4]]
 
-![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q5]]
-
-![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q6]]
-
-![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q7]]
-
-![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q8]]
-
-![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q9]]
-
-![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q10]]
-
-![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q11]]
-
-![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q12]]
-
 ## 出现在这些集
 
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri: AI is a tailwind for authenticity》]] — 作为联合主持
+- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队重塑与 Instagram 算法真相》]] — 作为联合主持
 
 ## 关联实体
 
-[[Lenny]] · [[instagram]] · [[TikTok]] · [[pods]] · [[product staff]] · [[品味]] · [[智能体]] · [[大型语言模型]] · [[嵌入模型]] · [[按时间顺序的信息流]]
+[[Lenny]] · [[instagram]] · [[Meta]] · [[TikTok]] · [[嵌入模型]] · [[品味]] · [[战略判断]] · [[按时间排序的信息流]] · [[AI 内容]] · [[迷你团队]]

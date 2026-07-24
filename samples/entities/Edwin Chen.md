@@ -30,8 +30,8 @@ entity_type: 人物
 
 ## 出现在这些集
 
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《被 10 亿美元验证的逆向创业法:AI 数据公司 Surge 的独立路径》]] — 作为联合主持
+- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] — 作为联合主持
 
 ## 关联实体
 
-[[Lenny]] · [[Surge AI]] · [[Anthropic]] · [[强化学习环境]] · [[后训练]] · [[目标函数]] · [[基准测试]] · [[SFT]] · [[RLHF]] · [[OpenAI]]
+[[Lenny]] · [[Surge AI]] · [[Anthropic]] · [[ChatGPT]] · [[LLM Arena]] · [[Waymo]] · [[Claude]] · [[基准测试]] · [[后训练]] · [[强化学习环境]]

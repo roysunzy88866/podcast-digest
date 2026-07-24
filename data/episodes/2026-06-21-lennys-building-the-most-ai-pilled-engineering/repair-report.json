@@ -2,15 +2,7 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "34:28",
-      "speaker": "Fiona Fung",
-      "trimmed": false,
-      "tsWas": "34:28",
-      "spkWas": "Fiona Fung"
-    },
-    {
-      "i": 2,
-      "timestamp": "21:27",
+      "timestamp": "21:28",
       "speaker": "Fiona Fung",
       "trimmed": false,
       "tsWas": "21:27",
@@ -18,36 +10,42 @@
     },
     {
       "i": 3,
-      "timestamp": "24:58",
+      "timestamp": "34:28",
       "speaker": "Fiona Fung",
       "trimmed": false,
-      "tsWas": "24:56",
+      "tsWas": "34:28",
       "spkWas": "Fiona Fung"
     },
     {
       "i": 4,
       "timestamp": "41:29",
       "speaker": "Fiona Fung",
-      "trimmed": true,
+      "trimmed": false,
       "tsWas": "41:29",
       "spkWas": "Fiona Fung"
     },
     {
       "i": 5,
-      "timestamp": "83:10",
+      "timestamp": "45:26",
       "speaker": "Fiona Fung",
       "trimmed": false,
-      "tsWas": "83:10",
+      "tsWas": "45:25",
       "spkWas": "Fiona Fung"
     },
     {
       "i": 6,
-      "timestamp": "84:37",
+      "timestamp": "56:38",
       "speaker": "Fiona Fung",
       "trimmed": false,
-      "tsWas": "84:37",
+      "tsWas": "56:38",
       "spkWas": "Fiona Fung"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 2,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "do something what would you do if you're not afraid and do something scary once in a while because that's also usually how we grow"
+    }
+  ]
 }

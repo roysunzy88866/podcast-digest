@@ -10,12 +10,12 @@ entity_type: 概念
 
 ## 集里怎么说它
 
-- **[[2026-06-22-latent-space-gray-swan|《神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan》]]**(08:30起):Gray Swan 推出的定制过滤模型，部署在用户、大模型与工具调用之间，负责解析不可信内容、检查出站请求并执行企业特定的无形安全策略。
+- **[[2026-06-22-latent-space-gray-swan|《给 AI 智能体装上「安全带」:Gray Swan 的攻防实战》]]**(08:30起):本集把它说成:Gray Swan 推出的专属护栏过滤模型。它位于用户、大语言模型和工具调用之间,双向审查数据以寻找潜在的提示词注入,并拦截违反企业自定义数据使用政策的工具调用。
 
 ## 出现在这些集
 
-- [[2026-06-22-latent-space-gray-swan|《神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan》]] — 作为概念
+- [[2026-06-22-latent-space-gray-swan|《给 AI 智能体装上「安全带」:Gray Swan 的攻防实战》]] — 作为概念
 
 ## 关联实体
 
-[[Zico Kolter]] · [[Matt Fredrikson]] · [[Gray Swan]] · [[Snowflake]] · [[Anthropic]] · [[红队竞技场]] · [[Shade]] · [[OpenClaw]] · [[提示词注入]] · [[间接提示词注入]]
+[[Zico Kolter]] · [[Matt Fredrikson]] · [[Gray Swan]] · [[Anthropic]] · [[智能体]] · [[红队测试]] · [[提示词注入]] · [[鲁棒性]] · [[护栏]] · [[沙箱]]

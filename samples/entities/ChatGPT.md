@@ -7,26 +7,36 @@ aliases: ["chat gpt", "ChatGPD"]
 # ChatGPT
 
 > [!info] 公司 · 又名 chat gpt / ChatGPD
-> 出现在 4 集 · 金句 1 条 · 关联 10 个
+> 出现在 8 集 · 金句 2 条 · 关联 10 个
 
 ## 集里怎么说它
 
-- **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:为什么大语言模型之后,「空间智能」才是下一个前沿》]]**(09:42起):本集将其描述为大约三年前引发公众对 AI 浓烈关注的里程碑时刻，是 AI 领域向公众普及的关键产品。
-- **[[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling 高管的反共识管理课：故意人手不足、果断放弃、复利对抗熵增》]]**(84:48起):嘉宾日常用作思考和表达的辅助工具，帮助他打磨措辞和提炼商业想法，但指出其多数输出是平庸的。
-- **[[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《From skeptic to true believer: How OpenClaw changed my life | Claire Vo》]]**(02:06起):作为衡量 AI 冲击力的基准线被反复提及。嘉宾称 OpenClaw 是「自 ChatGPT 以来最令人兴奋的 AI 体验」，她在周末醒来时对丈夫说「我又经历了一个 ChatGPT 时刻」。
+- **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]]**(09:42起):本集说它的发布是大众真正感知到 AI 力量的公众时刻(大约三年前),指出其底层技术本质上依然是大数据、神经网络和 GPU 这“黄金配方”的放大版。
+- **[[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]]**(21:17起):本集以它的「谄媚（sycophancy）」为例,说明 AI 为了参与度不断告诉用户「你是天才」,是行业被错误目标函数带偏的典型。
+- **[[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《Cisco 高管 Jeetu Patel：如何把老牌巨头推向 AI 时代，以及他的六维制胜框架》]]**(12:31起):本集把它说成：点燃企业转向 AI-first 的决定性标志（'22年的11月），也是人人都能轻松听懂的「超级趋势」的典型代表。
+- **[[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]]**(02:06起):本集把它说成:传统的托管型 AI 工具;嘉宾将 OpenClaw 与之对比,强调用 OpenClaw 就像“自己组装电脑”,学到的东西远超按按按钮就用 ChatGPT,体验也更有趣。
+- **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《在指数级增长公司做增长：Anthropic 增长负责人的打法》]]**(00:41起):本集提到 Anthropic 曾将其作为记忆导入的来源,做成了一个聪明的增长举措以改善冷启动体验;并指出其发布获得了疯狂的吸引力。
+- **[[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样重要,但现在只是 1997 年》]]**(00:23起):本集将其作为 AI 工具的典型代表：悲观主义者认为大公司明天就会买下它并开除员工；它之所以能迅速获得 9 亿周活跃用户，是因为全球已有几十亿部智能手机和宽带网络铺路。
+- **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《OpenAI Codex lead on the new shape of product work | Andrew Ambrosino》]]**(36:09起):OpenAI 推出的核心产品。本集谈到 Codex 的经验正被整合进 ChatGPT 桌面应用中，两者会结合在一起为用户提供通用知识工作服务。
 - **[[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]]**(01:05起):集里作为对比对象被提及，强调由于在云端运行它只能做有限的事（比如做不到控制嘉宾床的温度），且各家（如 ChatGPT）都有自己的数据孤岛，无法被别的公司提取记忆。
 
 ## 金句
 
-![[2026-04-05-lennys-anthropics-1b-to-19b-growth-run#^q5]]
+![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q12]]
+
+![[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo#^q5]]
 
 ## 出现在这些集
 
-- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:为什么大语言模型之后,「空间智能」才是下一个前沿》]] — 作为被讨论公司(提及)
-- [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling 高管的反共识管理课：故意人手不足、果断放弃、复利对抗熵增》]] — 作为概念(提及)
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《From skeptic to true believer: How OpenClaw changed my life | Claire Vo》]] — 作为被讨论公司
+- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]] — 作为被讨论公司
+- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] — 作为被讨论公司
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《Cisco 高管 Jeetu Patel：如何把老牌巨头推向 AI 时代，以及他的六维制胜框架》]] — 作为概念
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] — 作为概念(提及)
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《在指数级增长公司做增长：Anthropic 增长负责人的打法》]] — 作为被讨论公司(提及)
+- [[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样重要,但现在只是 1997 年》]] — 作为被讨论公司
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《OpenAI Codex lead on the new shape of product work | Andrew Ambrosino》]] — 作为被讨论公司
 - [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] — 作为被讨论公司(提及)
 
 ## 关联实体
 
-[[Lenny]] · [[OpenClaw]] · [[智能体]] · [[Claude Code]] · [[MCP]] · [[Dr. Fei-Fei Li]] · [[Matt MacInnis]] · [[Claire Vo]] · [[Raphael Schaad]] · [[World Labs]]
+[[Lenny]] · [[Anthropic]] · [[OpenAI]] · [[智能体]] · [[Claude Code]] · [[GPU]] · [[Claude]] · [[OpenClaw]] · [[PRD]] · [[Codex]]

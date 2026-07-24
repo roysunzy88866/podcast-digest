@@ -10,14 +10,14 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)》]]**(01:23起):本集提到嘉宾曾在此领导设计,内部推崇『演示而非备忘录』;它的 Pull Request(拉取请求)被嘉宾作为『所有伟大产品都有一个极小的超强核心』的首选案例。
-- **[[2026-06-03-latent-space-satya-2026|《Satya Nadella：Microsoft Build特别跨界对谈》]]**(08:57起):本集提到它的 Copilot 产品具备多模型测试框架，且其代码库可以与 WorkIQ 结合，读取设计会议转录稿后直接返回修改代码的计划；此外它正面临调整，需要引入基于消耗量的定价机制。
+- **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《前 GitHub、现 Notion 产品负责人 Max:每个项目的前 10% 现在免费了》]]**(01:23起):本集多次提及作为对标的产品（如以拉取请求为微小核心），以及嘉宾曾在此推行「演示而不是备忘录」等工作文化。
+- **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的 AI 工作预测:智能体接管工作,但人类不会失业》]]**(30:01起):本集提到该平台目前正因为智能体发来的请求数量呈指数级暴涨而面临巨大的基础设施挑战。
 
 ## 出现在这些集
 
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)》]] — 作为被讨论公司
-- [[2026-06-03-latent-space-satya-2026|《Satya Nadella：Microsoft Build特别跨界对谈》]] — 作为被讨论公司
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《前 GitHub、现 Notion 产品负责人 Max:每个项目的前 10% 现在免费了》]] — 作为被讨论公司
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的 AI 工作预测:智能体接管工作,但人类不会失业》]] — 作为被讨论公司(提及)
 
 ## 关联实体
 
-[[智能体]] · [[Max Schoening]] · [[Saragawa]] · [[Lenny]] · [[Satya Nadella]] · [[Notion]] · [[Microsoft]] · [[Heroku]] · [[MAI 模型]] · [[Figma]]
+[[Lenny]] · [[Anthropic]] · [[OpenAI]] · [[Max Schoening]] · [[Dan Shipper]] · [[Notion]] · [[Every]] · [[Heroku]] · [[智能体]] · [[主观能动性]]

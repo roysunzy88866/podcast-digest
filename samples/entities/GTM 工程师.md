@@ -10,12 +10,12 @@ entity_type: 概念
 
 ## 集里怎么说它
 
-- **[[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把销售当产品做：用 AI 重构 GTM 团队的实战指南》]]**(02:06起):本集将其描述为一个正在崛起的新角色：任务是把销售团队里可复制的流程拆解成代码写成智能体，通常由懂销售最佳实践的技术型销售（如前端工程师）转型而来。
+- **[[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]]**(02:06起):一种新兴的技术销售角色，负责将顶尖销售的工作流转化为智能体。本集中提到 Vercel 最初的 GTM 工程师由懂技术的销售工程师转岗而来，用 25-30% 的时间在六周内搭建出入站线索智能体。
 
 ## 出现在这些集
 
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把销售当产品做：用 AI 重构 GTM 团队的实战指南》]] — 作为概念
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] — 作为概念
 
 ## 关联实体
 
-[[Jeanne DeWitt Grosser]] · [[Lenny]] · [[Vercel]] · [[Stripe]] · [[推向市场]] · [[智能体]] · [[SDR]] · [[细分]] · [[PLG]] · [[前置部署工程]]
+[[Jeanne DeWitt Grosser]] · [[Lenny]] · [[Vercel]] · [[Stripe]] · [[Gong]] · [[OpenAI]] · [[go-to-market]] · [[智能体]] · [[市场细分]] · [[PLG]]

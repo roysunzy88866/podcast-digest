@@ -1,31 +1,31 @@
 ---
-title: "How to build a company that withstands any era | Eric Ries, Lean Startup author"
+title: 《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」
 podcast: "Lenny's Podcast"
 date: 2026-05-10
 source_url: https://www.lennysnewsletter.com/p/how-to-build-a-company-that-withstands
 duration: "99:20"
 host: "[[Eric Ries]]"
 cohosts: ["[[Lenny]]"]
-companies: ["[[Anthropic]]", "[[Cloudflare]]", "[[Novo Nordisk]]", "[[Vectura]]", "[[OpenAI]]"]
-concepts: ["[[Incorruptible]]", "[[公益公司]]", "[[使命守护者]]", "[[金融重力]]", "[[长期利益信托]]", "[[文化银行]]", "[[精神]]", "[[结构正直]]", "[[使命控制公司]]"]
+companies: ["[[Cloudflare]]", "[[Novo Nordisk]]", "[[Anthropic]]", "[[Vectura]]", "[[Groupon]]"]
+concepts: ["[[Incorruptible]]", "[[结构完整性]]", "[[公益公司]]", "[[金融重力]]", "[[长期利益信托]]", "[[文化银行]]", "[[精神控股公司]]", "[[使命守护者]]", "[[无形领袖]]", "[[股东至上]]", "[[使命驱动]]", "[[创始人优先股]]", "[[难就是易]]"]
 tags:
   - 公司治理
-  - 创业
   - 使命驱动
   - 公益公司
+  - 结构完整性
   - AI 安全
 ---
 
-# How to build a company that withstands any era | Eric Ries, Lean Startup author
+# 《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」
 
 > [!info] 关联
 > **主持**:[[Eric Ries]]
 >
 > **联合主持**:[[Lenny]]
 >
-> **涉及公司**:[[Anthropic]] · [[Cloudflare]] · [[Novo Nordisk]] · [[Vectura]] · [[OpenAI]]
+> **涉及公司**:[[Cloudflare]] · [[Novo Nordisk]] · [[Anthropic]] · [[Vectura]] · [[Groupon]]
 >
-> **概念**:[[Incorruptible]] · [[公益公司]] · [[使命守护者]] · [[金融重力]] · [[长期利益信托]] · [[文化银行]] · [[精神]] · [[结构正直]] · [[使命控制公司]]
+> **概念**:[[Incorruptible]] · [[结构完整性]] · [[公益公司]] · [[金融重力]] · [[长期利益信托]] · [[文化银行]] · [[精神控股公司]] · [[使命守护者]] · [[无形领袖]] · [[股东至上]] · [[使命驱动]] · [[创始人优先股]] · [[难就是易]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/how-to-build-a-company-that-withstands)
 
@@ -35,77 +35,69 @@ tags:
 
 ## 一句话 TLDR
 
-《精益创业》作者谈公司治理：好公司变坏,根源是放弃了使命与结构性保护。
+创始人如何用法律结构和使命驱动，保护公司免受短期利润的侵蚀。
 
-15 年前，[[Eric Ries|Eric Ries]] 写了创业史上最有影响力的书之一《精益创业》。今天他带来一本非常不同的新书《[[Incorruptible|Incorruptible]]》。如果把《精益创业》看作教你如何建立一家成功的公司，《Incorruptible》则是教你如何保护你所建立的东西 [06:12 [[Lenny|Lenny]]]。这本书源于他多年的切肤之痛：他见过太多曾怀揣使命的创始人，最终被赶出自己亲手建立的公司，或眼睁睁看着它沦为纯粹的榨取利润的机器。Lenny 指出，这不是一个人们经常谈论的话题，但却是每个成功创始人必将面临的结构性危机。本集对话围绕三个核心展开：公司为什么会变坏？治理结构的百年智慧是什么？以及普通创业者在当下究竟该怎么做？
+15 年前写出《精益创业》（The Lean Startup）的 [[Eric Ries|Eric Ries]] 带着新书《[[Incorruptible|Incorruptible]]》回归。《精益创业》讲的是怎么建立一家成功的公司，而这本书讲的是——当你建起来之后，**怎么保护它不被「[[金融重力|金融重力]]」毁掉**。这期对话里，Eric 用 [[Cloudflare|Cloudflare]]、[[Novo Nordisk|Novo Nordisk]]、[[Anthropic|Anthropic]]、[[Vectura|Vectura]] 等一连串真实的案例，揭示了为什么那么多好公司最终走向平庸甚至邪恶，并提出了一条核心解法：把使命写进法律结构里。全文分四部分：先讲「公司为什么会被毁掉」，再说「保护它需要什么原则」，接着看「具体怎么做」，最后聊「Anthropic 为什么能顶住压力」。
 
-## 公司变坏，不是因为竞争，而是因为「金融重力」
+## 公司不是被对手打败的，是被自己的成功毁的
 
-Eric 试图解答一个像悬疑小说般的双重谜题：既然市场机制理应奖励创造价值的公司，为什么好公司被毁的悲剧却几百年来不断上演？如果这种衰败真的是由于贪婪或规模变大而不可避免，为什么又有少数公司能基业长青？[10:56 Eric Ries]
+翻开这本书的第一个问题：一家公司做得好好的，为什么突然就不行了？Eric 说，他看过太多这样的故事。摧毁这些公司的往往不是竞争对手做出了更好的产品，而是它们自己的成功变成了负债——因为金鹅越金贵，杀鹅取卵的诱惑就越大 [08:25 Eric Ries]。
 
-他借用了和朋友去一家常去的餐厅吃饭的例子来说明这种「衰败」：朋友吃了一口菜，立刻低头查手机，然后断定「这家餐厅被私募股权收购了，我能尝出来」[07:49 Eric Ries]。这种事情极其普遍：一个天然食品品牌，创始人的名字就是品牌名，当公司做大后，董事会为了追求更高的利润率和增长，把创始人赶走，结果产品质量下降，客户愤怒，市场份额萎缩——一切都如同剧本般精准复刻 [09:20 Eric Ries]。
+> 【背景】Eric 讲了一个私人故事：朋友在一家餐厅吃了一口菜，立刻掏出手机查，因为他「能尝出这家餐厅被私募股权收购了」——食材成本被压缩，品质下降。类似地，主持人提到网友抱怨他们一直买的 Vital Farms 鸡蛋变差了，后来发现它被大资本收购。
 
-Eric 将这种无形的力量称为「没有人控制、但每个人都服从的力量」，它倾向于把组织拖向平庸，直到创始人失去对它的控制 [06:39 Eric Ries]。人们习惯把这归咎于「贪婪」，认为这是商业的必然。但 Eric 将其称为「[[金融重力|金融重力]]」：如果一座桥塌了，你不能仅仅甩锅给「重力」，真正的桥梁工程师会去研究载荷、风阻，然后把生锈的金属螺栓换成不锈钢螺栓。这本书要讲的，正是组织层面相当于「不锈钢」的东西 [10:10 Eric Ries]。
+Eric 把这种力量称为「没有人控制、但每个人都服从的力量」[06:39 Eric Ries]。它把组织拖向平庸。具体表现是什么？是创始人被踢出局，是产品偷工减料，是公司沦为纯粹的榨取利润的工具。Eric 强调：这不是个人道德问题，而是结构问题。大多数创始人甚至没有读过自己公司的章程，而那份标准章程里写着「公司可从事任何合法行为或活动」，在今天的「[[股东至上|股东至上]]」（shareholder primacy，一种认为公司唯一目的是为股东赚钱的观念）语境下，这就意味着公司有义务为了最高出价出卖自己 [57:32 Eric Ries]。
 
-这场危机的残酷性远超很多人的想象。Lenny 提出了一个常见的侥幸心理：很多创始人觉得这种事不会发生在自己身上，或者觉得现在最重要的是先找到产品市场契合度（指产品真正满足市场需求的那个关键点），以后再操心保护的事也不迟。Eric 用数据打破了这种幻觉：根据哈佛法学院的数据，在采用标准「最佳实践」的风险投资支持的公司中，上市三年后仍担任 CEO 的创始人仅剩 20% [12:22 Eric Ries]。
+Eric 给出了一个触目惊心的数据：根据哈佛法学院的研究，采用标准最佳实践的 VC（风险投资）支持的公司里，上市三年后只有 20% 的创始人还是 CEO [12:22 Eric Ries]。如果你觉得自己是例外，那很可能只是因为还没轮到你。
 
-那些拿「以后再说」当借口的人，最终都会掉进一个永远不存在的「合适时机」陷阱。Eric 生动还原了创始人的融资历程：早期律师会告诉你「先找到产品市场契合度，成功会保护你」；VC 入场后会说「我们想法一致，以后再弄」；成长期 VC 会说「别搞得太特殊，影响融资」；等真到了 IPO 准备阶段，CFO 会告诉你在 S1（招股书）里根本来不及加这些条款了 [17:14 Eric Ries]。他总结道，成功不会保护你，因为成功正是让你成为靶子的原因 [18:44 Eric Ries]。
+## 保护公司要趁早，而且「难做的事反而更省事」
 
-## 结构性保护的百年智慧：精神加上正直
+既然公司随时可能被资本「洗劫」，那该怎么办？Eric 提出了一个听起来很反直觉的领导原则：**「[[难就是易|难就是易]]」（Harder is easier）**。
 
-既然这种力量可以抵抗，那些幸存的公司做对了什么？Eric 给出了一个公式：[[精神|精神]]加上正直 [20:38 Eric Ries]。
+大多数人觉得生意已经够难了，为什么还要自找麻烦？但 Eric 反问：有没有一种可能，正是因为别人不信任你，生意才这么难？[34:57 Eric Ries] 如果你愿意在前端投入，致力于质量、设计、道德，你会得到意想不到的回报，因为**信任是商业中最被低估的资产** [36:10 Eric Ries]。
 
-「精神」指的是内在的一致性、性格和选择（后文会详述）。而「正直」在此处有双重含义：既是个人的信守承诺，也是组织的结构完整性。一个结构软弱的组织无法信守承诺，因为做出承诺的人随时可能被赶走，或屈从于短期的榨取诱惑 [55:29 Eric Ries]。为了证明「结构性正直」的力量，Eric 讲述了一个震撼的百年故事。
+他举了 Cloudflare 的例子。这家公司起初根本没有使命宣言。但当民主示威者的网站遭到国家级黑客攻击、硅谷大公司都不敢帮忙时，是这家小初创公司站出来免费提供防护 [38:12 Eric Ries]。后来，一位初级工程师问 CEO Matthew Prince：既然我们的使命是「让互联网更美好」，为什么我们不把收费的 SSL 加密（网页加密技术）免费开放？[39:25 Eric Ries] Matthew 没有像普通高管那样把这人打发走，而是说了三个字：「搞清楚它」（Figure it out）[41:01 Eric Ries]。他们为了免费提供加密，硬是重写了底层代码，虽然短期收入下降，但长期赢得了海量信任，这成了他们今天价值数百亿美元公司的基石。
 
-1920 年，丹麦医生 Marie Krogh 被诊断出患有当时尚无药可治的糖尿病，而她的丈夫 August 刚刚获得诺贝尔奖。在前往北美的旅途中，他们了解到加拿大科学家发明了提取胰岛素的技术。他们看到了既能救 Marie，也能救百万人的希望。但他们也极度恐惧：如果有朝一日公司被资本裹挟，垄断了救命药的人可能会为了利益收取天价，这正是几十年后 Martin Shkreli（臭名昭著的「制药大亨」）所做的事 [23:06 Eric Ries]。
+> 【背景】作为对比，Eric 讲了 Groupon 的故事。这家曾靠「每天一封邮件」极速增长的公司，为了季度财报，不断有人提议多发邮件，最终演变成每天发八封，毁掉了用户体验和公司价值 [43:22 Eric Ries]。
 
-为了抵御这种诱惑，1920 年他们回到丹麦创立公司时，采用了一种特殊的双层结构：公司是一家营利性企业，有外部投资者，但由一个非营利基金会拥有和治理 [23:27 Eric Ries]。这家名为 Nordisk Insulinlaboratorium 的初创公司，正是今天全球巨头 [[Novo Nordisk|Novo Nordisk]] 的前身。一百多年来，这种结构经受住了无数次攻击，保护了该公司的科学诚信精神。书中提到，该基金会的受托人甚至曾介入，阻止了管理层试图将公司卖掉套现的短视行为——这一保护使命的动作，最终创造了超过 5000 亿美元的股东价值 [25:05 Eric Ries]。
+既然「难就是易」，那什么时候开始建立这种保护？Eric 的答案是：**现在**。他套用了那句老话：种一棵树最好的时间是 40 年前，其次是现在 [16:24 Eric Ries]。他警告，创始人常常被律师、投资人一路安抚：「等找到产品市场契合度（Product-Market Fit，产品满足市场需求的那个点）再说」「等上市再说」，结果到了 IPO（首次公开募股）前夕，才发现「以前太早，现在太晚」[18:27 Eric Ries]。成功不会保护你，成功只会让你成为靶子 [18:44 Eric Ries]。
 
-这并非孤例。学术研究表明，采用这种基金会结构（如 Novo Nordisk、光学巨头 ZEISS，后者在 1885 年就已采用此结构）的公司，存活到 50 年以上的可能性是同行的六倍，且投资资本回报率更优 [26:05 Eric Ries]。
+## 核心方法论：Ethos + Integrity（精神 + 正直）
 
-与这种百年智慧形成鲜明对比的，是那些被「最佳实践」毁掉的公司。Eric 讲述了 [[Vectura|Vectura]] 的故事。这家从英国巴斯大学分拆出来的公司，专门生产哮喘吸入器，业绩良好并成功上市。直到某一天，真正的烟草巨头 Philip Morris 提出要收购他们，理由竟然是「我们对吸入东西很有经验」[30:51 Eric Ries]。尽管英国胸科学会恳求他们拒绝，公众也极其愤怒，但 Vectura 的董事会仅仅开了两次会，就决定接受每股 165 便士的最高报价。他们的理由是：「我们的双手被束缚住了，我们有信托责任（Fiduciary Duty，指管理者必须为股东利益最大化服务的法律要求）接受最高的出价」[31:43 Eric Ries]。结果是灾难性的：Philip Morris 花费 11 亿英镑收购，三年内计提了 9 亿美元的减值，最终把公司拆解变卖，它不复存在了 [32:02 Eric Ries]。
+理解了紧迫性，具体要怎么做？Eric 给出的蓝图公式是：**Ethos（精神）加上 Integrity（[[结构完整性|结构完整性]]）**。
 
-这就是结构性软弱的代价。如果我们任由股东利益最大化成为公司章程里唯一的「合法行为」，我们就会在不知不觉中授权公司做出向儿童推销香烟这样的事 [29:12 Eric Ries]。
+**第一步是确立精神（Ethos）。** 这不是写一句漂亮的使命宣言贴在墙上。Eric 反复强调：使命宣言不是使命本身，就像地图不是疆域 [37:08 Eric Ries]。真正的使命是公司这个「活着的超级生物」的涌现属性。他提出了「[[使命驱动|使命驱动]]」（Mission drive）的概念：如果你声称是使命驱动，那就必须证明，**除非实现使命，否则你无法盈利** [49:27 Eric Ries]。他批评 Google 的「不作恶」（Don't be evil）最终沦为口号——Google 按时提交季度财报的概率是 100%，但避免过失杀人的概率只有 90%-95%，原因很简单：前者有庞大的机制保证，后者没有 [53:22 Eric Ries]。
 
-## 建立内部防线：「难就是易」与文化银行
+**第二步是建立结构完整性（Integrity）。** 组织的软弱会导致无法兑现承诺。如果你阻止不了内部背叛，使命就是空谈。这里最容易、最基础的一步是：**成为一家[[公益公司|公益公司]]（Public Benefit Corporation, PBC）**。
 
-说完了不采取行动的灾难性后果，接下来是他给组织打造内部防线的方法。核心理念之一被他称为「精神」：即弄清你的目的，并把它刻进管理系统里，让人无法通过背叛原则来赚钱 [47:08 Eric Ries]。
+> 【背景】PBC（公益公司）是一种公司治理结构。传统的「任何合法行为」章程意味着公司必须为股东利益最大化服务（即使牺牲社会利益）；而注册为 PBC，可以在公司章程里明确写入特定的公共使命，并在面临恶意收购或短期套利压力时，作为法律武器拒绝违背使命的要求。
 
-Eric 用 Patagonia（以户外服饰和环保著称）创始人的故事说明：如果你相信质量，你必须把它从内部构建进去。很多领导者觉得坚持原则太难了，因为做正确的事往往有无形的回报，却有有形的成本。但 Eric 提出了「难就是易」的领导原则 [34:57 Eric Ries]。
+Eric 强调，注册 PBC 只需要一份两页纸的法律文件，毫无坏处，没有权衡 [64:27 Eric Ries]。如果你是员工，面试时只要问一句「我们在章程里写了使命吗？」就能逼着管理层去思考这件事 [62:31 Eric Ries]。
 
-如果一家公司的员工信任它，就能省下海量的内部沟通成本；如果客户信任它，不仅获客成本低，犯错后也更容易被原谅。而打造这种信任的关键，是「搞清楚它」的决心。他举了 [[Cloudflare|Cloudflare]] 的例子。这家提供云网络安全的公司，早期为了保护受到国家级黑客攻击的民主示威者网站，哪怕对方是免费用户也毫不犹豫地挺身而出 [38:12 Eric Ries]。
+此外，他提出了**「[[文化银行|文化银行]]」**的概念：每次你为了价值观做出牺牲，就是在存款；每次为了私利走捷径，就是在取款。规则是：**只存款，不取款** [71:49 Eric Ries]。
 
-后来，一位初级工程师跑去找 CEO Matthew Prince，指出公司最大的付费转化点（SSL 加密）理应免费，因为「一个更好的互联网，应该是一个加密的互联网」[40:08 Eric Ries]。面对这种自断财路的提议，Matthew 没有像常规的中层经理那样打发他走，而是说了三个字：「搞清楚它」。团队硬是重写了汇编语言、跟证书机构重新谈判，把成本压了下来。虽然短期内付费转化率下降了，但他们坚持了下来。结果是，Cloudflare 赢得了巨大的信任漏斗，成为了今天价值 700 亿美元的公司 [42:22 Eric Ries]。反观 Groupon，创始人在员工不断「拿数据说话」的软磨硬泡下，从每天发一封邮件妥协为发两封，最后变成八封，短期内赚了钱，却毁了整个公司 [43:06 Eric Ries]。
+## 案例深挖：Anthropic 为什么能顶住 2 亿美元诱惑
 
-为了让「精神」不只是挂在墙上的口号，Eric 引入了「[[文化银行|文化银行]]」的概念。他分享了一条从健康保险公司 Devoted Health 创始人 Todd Park 那里学来的规则，后者又是从星巴克创始人 Howard Schultz 那里学来的：在强大的文化中，当你为了捍卫价值观而做出牺牲时（比如冰灾停电时让顾客免费拿走生活必需品），你是在文化银行里「存款」；而贪婪、利己的举动则是「取款」。这条规则听起来极其苛刻——「只存款，绝不取款」[71:49 Eric Ries]。因为只有当组织里所有的微小决策（如产品经理面对代码质量妥协时）都在自发维护共同目标时，才会形成管理学家 Mary Parker Follett 所说的「无形领袖」——即使没有管理者在场，每个人依然追随的那个共同目的 [96:30 Eric Ries]。
+到了 AI 时代，这套理念变得前所未有地重要。Eric 讲述了他亲身参与的 Anthropic 的故事。
 
-## 外部防线：使命控制与公益公司
+在 ChatGPT 引爆 AI 热潮之前，Dario 还只是个首次创业的技术创始人，并不被顶级风投看好。但因为他们笃信「AI 安全」，一位投资人介绍他们来找 Eric。Eric 给他们讲了那套「如果你不搞定结构，就会被资本毁掉」的恐怖故事 [74:10 Eric Ries]。于是，Anthropic 从第一天起就注册为 PBC，并在 C 轮融资时正式设立了**[[长期利益信托|长期利益信托]]（Long-Term Benefit Trust, LTBT）**。
 
-内部防线确立了公司的价值观，但这远远不够——就像一块优质的钢材，如果不放进坚固的堡垒里，依然会被资本的重力吞噬。这就需要构建外部防线：治理结构。
+> 【背景】这是一种双层结构：外部由一群不持有公司股权的 AI 安全专家担任受托人，他们有权任命和监督营利性公司的部分董事。因为没有经济利益，他们能在公司面临危险诱惑时行使否决权。这不同于 Mark Zuckerberg 在 Meta 的「双重股权」绝对创始人控制，它是一种更制度化、更持久的保护机制 [76:13 Eric Ries]。
 
-Eric 指出，如今大多数创始人从未读过自己公司的章程。如果他们读了，会看到一句标准的话：「公司被设立以从事任何合法的商业活动。」这在股东至上主义盛行的今天，实际上意味着公司成了一个纯粹的金融工具，唯一的目的是让股东回报最大化 [57:31 Eric Ries]。但具有讽刺意味的是，股东至上并非自古以来的自然法则，它只有大约 40 年的历史。在 19 世纪，如果你想修一条铁路，你必须向州立法机构证明这对公众有益；如果你收购了一家修铁路的公司并把它改成纯为股东赚钱，法院会直接废除你的公司章程——这被称为「公司死刑」[59:35 Eric Ries]。
+Eric 指出，Anthropic 拒绝发布危险模型、甚至据说拒绝了一份价值 2 亿美元的合同 [75:53 Eric Ries]。如果换了标准结构，投资人早就为了利润把 CEO 踢出局了。正因为有了结构保护，Anthropic 才能真正做到「对齐」（Alignment），这也是他们吸引顶尖人才、实现更低推理成本（inference cost，运行 AI 模型的计算开销）和更快产品迭代速度的深层原因。
 
-好在，近 15 到 20 年来，一批公司治理叛逆者构建了替代方案。最简单、也是全书建议每个人立刻去做的一件事，就是注册成为「[[公益公司|公益公司]]」[60:16 Eric Ries]。这只需一份两页纸的法律文件，将公司的目的从「任何合法活动」改写为具体的承诺（例如「旨在通过创造安全且负责任的 AI 系统来促进人类繁荣」）。注册公益公司没有任何坏处，不会限制你的融资能力，唯一的「代价」是：当有朝一日投资者逼迫你违背使命卖掉公司时，你可以合法地说「不」[64:27 Eric Ries]。这也是为什么当今几乎所有主要的 AI 实验室（包括 [[OpenAI|OpenAI]] 和 [[Anthropic|Anthropic]]）都采用了这种结构。
-
-但要真正抵御外部压力，还需要一个核心角色：[[使命守护者|使命守护者]]。它是「人」还是「实体」？这是一个关键决策点 [78:31 Eric Ries]。对于早期公司，创始人控制（如双层股权结构）是一个不错的过渡桥梁，但这会让创始人变成永远不能松懈的阿特拉斯神，独自抵挡深渊，并不长久 [78:55 Eric Ries]。证据表明，更稳定的永久方案是将保护写入结构本身，比如设立非营利基金会，或[[长期利益信托|长期利益信托]] [80:16 Eric Ries]。
-
-本书中最具代表性的成功案例就是 Anthropic。Eric 在其早期作为「怪异想法收藏家」曾给过他们很少的建议 [74:06 Eric Ries]。他们从一开始就将公司注册为公益公司，并在章程中写入了实施额外改革（即现在的长期利益信托）的权利。凭借这种结构，Anthropic 的董事由外部没有股权的 AI 安全专家任命。这种机制让 Anthropic 能够拒绝发布认为过于危险的模型，甚至敢于拒绝一份 2 亿美元的合同并承受来自政府的巨大压力 [76:02 Eric Ries]。
-
-我们真正需要建立的，是由使命本身拥有主权的「[[使命控制公司|使命控制公司]]」。Eric 给早期创始人的行动清单极其简单：第一，如果你还没融资或只用了简单的融资工具，赶紧注册为公益公司，花一个小时跟联合创始人做对抗性头脑风暴，写下让你感觉良好的使命，并自问「违背这个使命能赚钱吗？我会为此感到难过吗」[86:15 Eric Ries]；第二，在你的章程里加入「董事誓言」（类似医生的希波克拉底誓言），要求所有董事首先承诺不作恶 [86:48 Eric Ries]；第三，设立创始人优先股，并与非按小时收费的新型法律机构合作，制定使命保护条款 [87:44 Eric Ries]。这一切，最好今天就办。
-
-Eric 在对话的最后点破了这背后的深层哲学：为什么我们要这么费尽心机地对齐人类组织？因为这正是解决 AGI（通用人工智能）对齐问题的头号未解难题。组织的架构图会不可避免地映射到软件的架构图中 [90:50 Eric Ries]。如果我们无法对齐制造软件的人类价值观，AI 对齐根本无从谈起。公司是地球上最古老的人工智能，它们是一种涌现的超级生物。如果不加以妥善引导，它就会发展出恶意的特征，而任何数量的「创始人模式」都无法清理深藏于事物 DNA 中的腐败 [93:37 Eric Ries]。
+最后，Eric 提到了管理学先驱 Mary Parker Follett 提出的**「[[无形领袖|无形领袖]]」**概念 [95:41 Eric Ries]。真正的领导力，是当管理者不在场时，那个指引成千上万个微小决策的「共同目标」。正如他所说，组织是地球上最古老的人工智能形式，只有当使命内化到每个人的骨髓里，公司才能真正不可摧毁。
 
 ## 本集带走
 
-1. **「太早」是一个永远不存在的时机**：保护使命结构的最佳时机要么是公司创立的第一天，要么就是现在。不要妄想等做大做强了、成功上市了再去补这些条款。成功不会保护你，它只会让你成为资本重力优先吞噬的靶子。
-2. **要把使命焊死在法律文件里，而不只是挂在墙上**：仅凭良好的意愿或内部价值观培训，根本无法抵御系统的短期利益诱惑。你必须在公司章程（如注册为公益公司 PBC）里明确设定使命，并设立「使命守护者」结构，让人无法通过背叛原则来赚钱。
-3. **好的治理不是反商业，而是终极的价值创造引擎**：采用非营利基金会或长期利益信托等另类治理结构的公司，不仅能存活得更久，在投资资本回报率上也优于传统同行。敢于拒绝短期利润的诱惑（如 Anthropic 拒绝危险合同），正是建立长期信任、吸引顶尖人才的核心护城河。
+1. **成功是诱饵，不是护盾**：采用标准公司章程的创始人，上市三年后留在 CEO 位子上的只有 20%。你的公司越成功，越容易成为资本猎杀的目标，不要等「以后」再做保护，因为永远「太早」，直到「太晚」。
+2. **「难就是易」**：愿意为了质量、道德、使命承担短期成本，最终会转化为「信任」这个最被低估的资产。Cloudflare 的免费 SSL 和 [[Groupon|Groupon]] 的八封邮件，是两个截然相反的典型。
+3. **最小阻力路径**：立刻注册为公益公司（PBC），把使命写进章程；建立「文化银行」只存不取；确保公司不受单一资本控制，而是由「使命」控制。只有结构完整，承诺才有分量。
 
 ## 金句(中英对照 · 过机器闸门三联校验)
 
-> 它们的成功变成了负债，因为金鹅越金贵，杀鹅的诱惑就越大。  
-> *Their very success became a liability because the more golden the goose, the greater the temptation to butcher.*  
-> —— Eric Ries · [08:25] ^q1
+> 摧毁它们的东西不是竞争。  
+> *The thing that destroyed them was not competition.*  
+> —— Eric Ries · [00:01] ^q1
 
 > 如果你搞不定这个，那么你关于公司做出的其他决定都没有长期意义，因为你不会是做决定的那个人。  
 > *If you don't get this right, no other decision you make about your company will matter for the long term because you're not going to be the one making it.*  
@@ -123,56 +115,64 @@ Eric 在对话的最后点破了这背后的深层哲学：为什么我们要这
 > *Their intervention ultimately created more than $500 billion of shareholder value.*  
 > —— Eric Ries · [25:05] ^q5
 
-> 像诺和诺德和蔡司这样拥有这种结构的公司，与它们的传统同行相比，它们存活到 50 年的可能性要高出六倍。  
-> *Companies with that structure like Novo and ZEISS. They are six times more likely to live to year 50 compared to their conventional counterparts.*  
-> —— Eric Ries · [26:02] ^q6
-
-> 菲利普·莫里斯花费了 11 亿英镑收购 Vectura。在三年内，他们计提了 9 亿美元的减值，并将公司拆解出售，它不再存在了。  
-> *Philip Morris spent £1.1 billion to buy Vectura. Within three years, they had taken a $900 million write down and disposed of the company for peace parts, it doesn't exist anymore.*  
-> —— Eric Ries · [32:02] ^q7
-
 > 可信度是所有商业中最被低估的资产。  
 > *Trustworthiness is the most underrated asset in all of business.*  
-> —— Eric Ries · [36:10] ^q8
+> —— Eric Ries · [36:10] ^q6
 
-> 坦率地说，我认为这种结构比创始人控制更好。  
-> *I think the structure, frankly, is better than founder control.*  
-> —— Eric Ries · [76:11] ^q9
+> 如果你真的对使命驱动很认真，你必须向我表明，除非实现使命，否则你就无法盈利。  
+> *If you're serious about being mission driven, you have to show me that you cannot profit except by achieving the mission.*  
+> —— Eric Ries · [49:27] ^q7
 
-> 任何数量的创始人模式都无法清理它，因为你说的是深藏在你所制造事物的 DNA 里的东西。  
-> *No amount of founder mode is going to clean that up because you're talking about something that is deep in the DNA of the thing you made.*  
-> —— Eric Ries · [93:39] ^q10
+> 只做存款，绝不做取款。  
+> *Only make deposits, never make withdrawals.*  
+> —— Eric Ries · [71:45] ^q8
+
+> 问题在于，如果一家公司随时可能被斩首，你就再也无法信任它了。  
+> *The problem is if a company can be decapitated at any time, you can no longer trust it.*  
+> —— Eric Ries · [83:04] ^q9
+
+> 公司、组织是地球上最古老的人工智能形式。  
+> *Corporations, organizations are the oldest form of artificial intelligence on the planet.*  
+> —— Eric Ries · [91:22] ^q10
+
+> 你在谜题中放入的蚂蚁越多，解决速度越快。但是你增加的人类越多，情况越糟，除非这些人类非常仔细地对齐。  
+> *The more ants you put in the puzzle, the faster the solution. But the more humans you add, the worse, unless the humans are very carefully aligned.*  
+> —— Eric Ries · [93:14] ^q11
 
 ## 相关单集
 
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《The AI paradox: More automation, more humans, more work | Dan Shipper》]] —— 同嘉宾:Lenny · 同公司:Anthropic、OpenAI
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell》]] —— 同嘉宾:Lenny · 同公司:Anthropic、OpenAI
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《被 10 亿美元验证的逆向创业法:AI 数据公司 Surge 的独立路径》]] —— 同嘉宾:Lenny · 同公司:Anthropic、OpenAI
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare》]] —— 同嘉宾:Lenny · 同公司:Anthropic、OpenAI
+- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同嘉宾:Lenny · 同公司:Anthropic
 - [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《The hidden pattern behind successful products | Mark Pincus (founder of Zynga)》]] —— 同嘉宾:Lenny · 同公司:OpenAI
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)》]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把销售当产品做：用 AI 重构 GTM 团队的实战指南》]] —— 同嘉宾:Lenny · 同公司:OpenAI
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《在指数级增长公司做增长：Anthropic 增长负责人的打法》]] —— 同嘉宾:Lenny · 同公司:Anthropic
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|《对话 Anthropic 产品负责人 Cat Wu:AI 时代 PM 如何跟上「每周发布」的疯狂节奏》]] —— 同嘉宾:Lenny · 同公司:Anthropic
+- [[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样重要,但现在只是 1997 年》]] —— 同嘉宾:Lenny · 同公司:Anthropic
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同嘉宾:Lenny · 同公司:Anthropic
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]] —— 同嘉宾:Lenny · 同公司:OpenAI
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)》]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)》]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:为什么大语言模型之后,「空间智能」才是下一个前沿》]] —— 同嘉宾:Lenny
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《Cisco 高管 Jeetu Patel：如何把老牌巨头推向 AI 时代，以及他的六维制胜框架》]] —— 同嘉宾:Lenny · 同公司:Anthropic
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被淘汰，构建者迎来黄金期》]] —— 同嘉宾:Lenny · 同公司:Anthropic
+- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel:在AI时代,做最会创新的公司》]] —— 同嘉宾:Lenny · 同公司:Anthropic
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《前 GitHub、现 Notion 产品负责人 Max:每个项目的前 10% 现在免费了》]] —— 同嘉宾:Lenny · 同公司:Anthropic
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的 AI 工作预测:智能体接管工作,但人类不会失业》]] —— 同嘉宾:Lenny · 同公司:Anthropic
+- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]] —— 同嘉宾:Lenny
 - [[2025-11-20-lennys-slack-founder-stewart-butterfield|《把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学》]] —— 同嘉宾:Lenny
 - [[2025-11-23-lennys-a-guide-to-difficult-conversations|《别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课》]] —— 同嘉宾:Lenny
-- [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling 高管的反共识管理课：故意人手不足、果断放弃、复利对抗熵增》]] —— 同嘉宾:Lenny
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 1.2 个人加 20 个 AI 智能体，替换 10 人销售团队》]] —— 同嘉宾:Lenny
-- [[2026-01-25-lennys-why-your-product-stopped-growing|《产品增长停滞怎么办?Jason Cohen 的诊断四步法》]] —— 同嘉宾:Lenny
-- [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|《育儿法则就是管理法则：Dr. Becky 谈如何领导“伪装的婴儿”》]] —— 同嘉宾:Lenny
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《The most successful AI company you’ve never heard of | Qasar Younis》]] —— 同嘉宾:Lenny
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《The art of influence: The single most important skill that AI can’t replace | Jessica Fain (Webflow, ex-Slack)》]] —— 同嘉宾:Lenny
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《From skeptic to true believer: How OpenClaw changed my life | Claire Vo》]] —— 同嘉宾:Lenny
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)》]] —— 同嘉宾:Lenny
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel》]] —— 同嘉宾:Lenny
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri: AI is a tailwind for authenticity》]] —— 同嘉宾:Lenny
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] —— 同嘉宾:Lenny
+- [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷》]] —— 同嘉宾:Lenny
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体替代 10 人销售团队：SaaStr 创始人的前沿实战》]] —— 同嘉宾:Lenny
+- [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] —— 同嘉宾:Lenny
+- [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|《Dr. Becky 谈领导力:把职场当家庭,用育儿智慧管理“伪装的婴儿”》]] —— 同嘉宾:Lenny
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值 150 亿的隐形 AI 公司 Applied Intuition:给自动驾驶卡车的焦虑开一剂务实药方》]] —— 同嘉宾:Lenny
+- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别怪高管不懂你：产品经理的向上影响力心法》]] —— 同嘉宾:Lenny
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同嘉宾:Lenny
+- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别问客户、别信心理安全、只招「木桶」》]] —— 同嘉宾:Lenny
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Tony Fadell：造出 iPod 和 iPhone 的人，怎么看 AI 时代的造物法则》]] —— 同嘉宾:Lenny
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人：别想从零颠覆世界，靠复制才能创新》]] —— 同嘉宾:Lenny
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《OpenAI Codex lead on the new shape of product work | Andrew Ambrosino》]] —— 同嘉宾:Lenny
+- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队重塑与 Instagram 算法真相》]] —— 同嘉宾:Lenny
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)》]] —— 同嘉宾:Lenny
-- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone》]] —— 同嘉宾:Lenny
-- [[2026-06-22-latent-space-gray-swan|《神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan》]] —— 同公司:Anthropic
+- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失》]] —— 同嘉宾:Lenny
+- [[2026-06-22-latent-space-gray-swan|《给 AI 智能体装上「安全带」:Gray Swan 的攻防实战》]] —— 同公司:Anthropic
+- [[2026-07-08-latent-space-modal|《AI 基础设施如何为智能体重新设计:Modal 联合创始人的方法》]] —— 同公司:Anthropic
 
 ---
 

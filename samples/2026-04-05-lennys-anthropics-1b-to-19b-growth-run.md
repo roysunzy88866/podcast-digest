@@ -1,31 +1,31 @@
 ---
-title: "Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare"
+title: 在指数级增长公司做增长：Anthropic 增长负责人的打法
 podcast: "Lenny's Podcast"
 date: 2026-04-05
 source_url: https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run
 duration: "112:46"
 host: "[[Lenny]]"
 cohosts: ["[[Amol Avasare]]"]
-companies: ["[[Anthropic]]", "[[Mercury]]", "[[MasterClass]]"]
-concepts: ["[[Claude]]", "[[Claude Code]]", "[[Cowork]]", "[[CASH]]", "[[MCP]]", "[[摩擦力]]"]
+companies: ["[[Anthropic]]", "[[Claude]]", "[[Claude Code]]", "[[Cowork]]"]
+concepts: ["[[成功灾难]]", "[[冷启动]]", "[[通过约束获得自由]]", "[[指数级]]", "[[PRD]]", "[[软指导]]", "[[CASH]]"]
 tags:
-  - AI 增长
-  - 自动化
-  - 冷启动
-  - 安全与品牌
-  - 角色重塑
+  - AI 增长策略
+  - 指数级增长
+  - 产品经理角色重塑
+  - AI 安全文化
+  - 自动化实验
 ---
 
-# Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare
+# 在指数级增长公司做增长：Anthropic 增长负责人的打法
 
 > [!info] 关联
 > **主持**:[[Lenny]]
 >
 > **联合主持**:[[Amol Avasare]]
 >
-> **涉及公司**:[[Anthropic]] · [[Mercury]] · [[MasterClass]]
+> **涉及公司**:[[Anthropic]] · [[Claude]] · [[Claude Code]] · [[Cowork]]
 >
-> **概念**:[[Claude]] · [[Claude Code]] · [[Cowork]] · [[CASH]] · [[MCP]] · [[摩擦力]]
+> **概念**:[[成功灾难]] · [[冷启动]] · [[通过约束获得自由]] · [[指数级]] · [[PRD]] · [[软指导]] · [[CASH]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run)
 
@@ -35,124 +35,135 @@ tags:
 
 ## 一句话 TLDR
 
-Anthropic 增长负责人首谈如何用 AI 自动化增长实验、在指数级曲线上做决策,以及从创伤中重塑工作哲学。
+Amol 讲述如何在增速史无前例的公司做增长,包括押大赌注、自动化实验与在 AI 时代重塑 PM 角色。
 
-[[Amol Avasare|Amol Avasare]] 是 [[Anthropic|Anthropic]] 的增长负责人。这家公司正处于人类商业史上最陡峭的增长轨道上——14 个月内,其年度经常性收入(ARR,衡量订阅业务规模的指标)从 10 亿美元飙升至 190 亿美元 [03:52 Amol Avasare]。在加入 Anthropic 之前,他曾领导过 [[Mercury|Mercury]] 和 [[MasterClass|MasterClass]] 的增长。这一集是一次非常罕见的深度访谈:Amol 不仅分享了在一家「模型能力每月都在变」的公司里怎么做增长,更首次详细披露了他内部如何用 [[Claude|Claude]] 自动化增长实验、AI 时代产品和增长角色将如何重组,以及他个人如何从一次几乎毁了他的创伤性脑损伤中恢复。全文围绕四个核心主题展开:前两个关于工具和工作方法的重塑,后两个关于战略定力与个人生命力。
+[[Anthropic|Anthropic]] 是目前历史上增速最快的公司之一:2025 年初 ARR 为 10 亿,到了年底已达到 90 亿,短短几个月后又翻倍至 190 亿 [03:40 [[Amol Avasare|Amol Avasare]]]。增长负责人 Amol Avasare 在本集中分享了身处这场[[指数级|指数级]]增长内部的真实体验,以及他对 AI 时代产品增长工作彻底重塑的预判。全文将沿着四个线索展开:他是怎么加入 Anthropic 的;在指数级增长下怎么做增长打法;他如何用 AI 自动化增长实验和重塑 PM 角色;以及 AI 安全与人才文化如何构成 Anthropic 的底层护城河。
 
-## 一、入场券:一封冷邮件
+## 一封冷邮件换来史上最强公司的入场券
 
-要理解 Amol 在 Anthropic 的所作所为,得先看他怎么进来的——这个故事本身就是一个教科书级的「增长人」实操。
+Amol 最初的身份只是 [[Claude|Claude]] 的重度用户。在使用中他发现:产品极佳,但公司显然没有增长团队。当时做创始人的经历让他练就了一手写冷邮件的硬功夫 [04:15 Amol Avasare]。于是,他搞到了 Mike Krieger(Mike Krieger 是 Anthropic 的首席产品官)的个人邮箱,给对方发了一封冷邮件,直言「你们急需一个增长团队」 [04:47 Amol Avasare]。Mike 不仅回复了,还把他招入麾下——Amol 成了 Mike 唯一一个通过冷邮件招聘来的 PM [05:23 Amol Avasare]。
 
-2024 年,Amol 是 Claude 的重度用户。他察觉到这家公司产品极好,但「显然没有增长团队」[04:41 Amol Avasare]。他没有去官网投简历,而是直接给首席产品官 Mike Krieger 发了一封冷邮件(冷邮件指发给不认识的人、试图建立联系的邮件),大意是:「我喜欢你们的产品,但你们太缺一个增长团队了,聊聊?」[04:47 Amol Avasare]。
+> 【背景】Mike Krieger 是知名图片分享应用 Instagram 的联合创始人。
 
-> 【背景】Mike Krieger 是 Instagram 的联合创始人,后加入 Anthropic 担任首席产品官。Amol 在转写稿中仅称其为「Mike」,此处姓氏依公开信息补全。
+冷邮件想奏效,Amol 的经验是:必须精心打磨高打开率的标题,避开人满为患的沟通渠道去触达,并且保持极短的篇幅(我是谁、为什么合适、该聊聊),最后就是不厌其烦地持续跟进,直到对方明确拒绝 [06:39 Amol Avasare]。
 
-这封邮件发得极准。Amol 解释了冷邮件的打法:第一,标题必须经过测试,要有极高的打开率(具体文案他视为秘密);第二,不要在大家都扎堆的渠道(如 LinkedIn)联系,要想办法找到对方的个人邮箱;第三,信息要极简——「我是谁、为什么合适、该聊聊」;第四,也是最重要的一点,如果真在乎,就一直跟进到对方明确说「请停止」为止 [06:18 Amol Avasare]。Mike 回了第一封邮件,Amol 成了 Mike 唯一通过冷邮件招进来的 PM [05:23 Amol Avasare]。
+从靠冷邮件求职,我们自然会问:进入如此疯狂的增长引擎后,他每天到底在做什么?
 
-## 二、增长团队的日常:70% 在扑灭「成功灾难」
+## 在 190 亿 ARR 的引擎里救火:70% 时间在处理「成功灾难」
 
-拿到了入场券,接下来看他每天都在做什么。这是理解他后续所有 AI 自动化举措的背景板。
+作为增长团队负责人,Amol 坦言这虽然是他一生中最艰难的工作,但增长团队绝不能把公司成功的功劳全揽在自己身上——Anthropic 首先是一家模型与智能公司,核心驱动力是拥有世界顶级的研究、推理与计算团队 [08:49 Amol Avasare]。
 
-Amol 坦言,这是他一生中最难的工作 [11:33 Amol Avasare]。在一个增长常态化的普通公司里,增长团队大约会把 60-70% 的时间花在中小型赌注上。但在 Anthropic,局面被彻底颠倒:他 70% 的时间在处理内部所谓的「成功灾难」(success disasters)——业务跑得太猛,导致原有的系统、流程或其他环节崩坏,团队只能不停从一个火场扑向另一个火场 [12:24 Amol Avasare]。剩下的 30% 才是主动的常规增长工作。
+在这样一家图表「只有画成对数线性比例才有人看」的公司里,增长团队约 70% 的时间实际上是在应对所谓的「[[成功灾难|成功灾难]]」(success disasters):即业务爆炸式增长导致其他系统接连崩盘的紧急灭火工作 [12:13 Amol Avasare]。剩下的 30% 才是常规的主动型增长工作,比如决定长期定价包装,或者为 [[Cowork|Cowork]] 这样的新产品规划增长路径。
 
-在这种极其高压的环境下,他们依然坚持一些核心的产品哲学,最反直觉的一条是:**增加摩擦反而能提高转化**。
+> 【背景】对数线性(log linear)是数据可视化中的一种坐标轴比例,能将呈指数级暴增的数据画成近似直线,便于直观比较增速。
 
-很多人认为,优化注册流程就是「砍掉所有步骤,尽快让用户摸到产品」。Amol 认为这是错的。在 Mercury(一家数字银行)时,他的团队曾花了整整一个季度,什么转化指标都不看,纯粹去打磨注册流程的「质量」——处理那些极其繁琐的合规细节。结果是:这个季度的转化率反而迎来了他作为增长 PM 经历过的最大跃升 [20:04 Amol Avasare]。他把这归结为一条铁律:**质量驱动增长**。
+在这种极端增速下做增长,必然带来一个棘手的现实问题:该主动出击优化,还是被动防守?他接下来的洞察,颠覆了常规的增长常识。
 
-以 Anthropic 自身的新手注册为例,他们会问用户一系列问题以了解其身份和兴趣,哪怕这让流程显得很长。很多人评价「摩擦太大」,但数据显示这表现很好 [20:50 Amol Avasare]。原理是:只要这些摩擦能帮用户搞明白「这个产品适不适合我、该怎么用」,它就是[[摩擦力|好摩擦]];反之,单纯惹人烦的无用摩擦才该砍掉 [21:28 Amol Avasare]。这种「前置多问几句」的做法,带来的收益不止于激活,还能为后续的精准推荐提供数据。
+## 反直觉的增长策略:押注大变动,且刻意增加「好的摩擦」
 
-理解了他这套在刀尖上跳舞的打法,接下来的问题就顺理成章了:既然每天这么忙,他怎么用 AI 把自己从这些苦活累活里解救出来?
+一般的增长团队会把 60%-70% 的时间花在转化漏斗等把握度高的小优化上。但 Amol 的团队将这个比例倒置,将精力大量倾斜于更宏观、更具产品属性的「大赌注」上 [26:36 Amol Avasare]。为什么放弃堆积如山的小优化?因为对数级思维告诉他们:公司两年后能交付的产品价值是今天的 100 到 1000 倍。在如此巨大的增量面前,小修小补带来的复合收益显得微不足道 [29:36 Amol Avasare]。比如,由增长团队主动发起的 Chrome 扩展程序,如今已成为支撑 Cowork 和 [[Claude Code|Claude Code]] 等产品多项用例的核心基建 [30:25 Amol Avasare]。
 
-## 三、用 Claude 自动化增长:他「生活在未来」
+> 【背景】Claude Code 是一款专为开发者设计的命令行智能编码工具,Cowork 则是 Anthropic 推出的能在电脑内自动化操作多步骤的智能体桌面应用。
 
-Amol 的团队正在搞一个内部代号叫 [[CASH|CASH]](Claude Accelerates Sustainable Hypergrowth)的项目 [34:34 Amol Avasare]。简单说,就是**用 Claude 来自动跑增长实验**。
+这种打法的前提,是产品的核心价值必须由 AI 支撑(如 Lovable、Cursor 等 AI-first 产品),否则依然是传统打法 [31:38 Amol Avasare]。
 
-他把发布一个功能的生命周期拆成四步,并正在给 Claude 在每一步的表现打分:1. 识别机会;2. 构建功能并准备发布;3. 测试质量与合规;4. 发布后分析数据、沉淀经验 [35:29 Amol Avasare]。目前这个自动化实验还限于文案修改和微小的 UI 调整,而且仍保留了「回路中的人类」进行审批 [36:27 Amol Avasare]。它已经在产生实际收益了,Amol 评价其目前的胜率相当于一个入职两三年的初级 PM,还达不到高级 PM 的水平,但正随着模型迭代飞速变好 [36:36 Amol Avasare]。
+在面对新用户激活(day zero 体验)时,Amol 提出了另一个反直觉的观点:正确的摩擦通常有效,增加摩擦往往能带来更高的漏斗完成率 [17:33 Amol Avasare]。他在 Mercury 任职时,曾要求团队「忘掉一切指标」,花整整一个季度专门修复银行开户流程的产品质量。结果开户完成率反而迎来了显著提升,这让他深刻领悟到:质量驱动增长 [19:13 Amol Avasare]。如今在 Anthropic,他们同样在注册流程中向用户抛出大量提问以了解其身份与偏好。这种「好的摩擦」不仅能精准推荐产品,还能用于后续的相似定位与广告定向 [23:48 Amol Avasare]。
 
-更让人惊掉下巴的是他日常把 AI 用到了什么程度。他有一个每日定时任务,让 [[Cowork|Cowork]](Anthropic 内部的一个带 Chrome 扩展的智能体工作工具)在每天早上自动去查 20-25 张数据图,等他一开工,直接告诉他哪些指标异常、哪些值得关注 [59:25 Amol Avasare]。
+> 【背景】Mercury 是一家专为初创企业提供数字化银行及金融服务的企业。
 
-还有一项他反复提及的关键操作是识别团队内部的「不一致」。通过接入 Slack 的 [[MCP|MCP]](MCP 即模型上下文协议,让 AI 能读取外部工具数据的一种接口),他让 Claude 每周扫视整个工作群,提醒他「哪两个组正在重复造轮子」或「哪个项目推进前漏了哪个关键利益相关方」[56:17 Amol Avasare]。他甚至用同样的逻辑,输入自己经理 Ami Vora 的公开发言和内部交流记录,每周让 Claude 以 Ami 的口吻给自己写一份反馈 [63:01 Amol Avasare]。这一切让他觉得自己仿佛「生活在未来」。
+既然增长团队要花大量精力押注大变动、做高质量实验,那么实验本身能不能也交给 AI 来跑?这正是 Amol 带来的最具前瞻性的实践。
 
-工具改变了工作流,也必然重塑做工作的人。这正是下一个话题。
+## 用 Claude 跑增长实验:CASH 系统与「软指导」
 
-## 四、AI 时代的角色洗牌:工程师成了「迷你 PM」
+Amol 的团队正在推进一项名为 [[CASH|CASH]](Claude Accelerates Sustainable Hypergrowth)的内部计划,尝试用 Claude 全自动化地驱动增长实验。其流程被拆解为四个步骤:寻找机会、构建功能、测试与发布、分析数据 [35:33 Amol Avasare]。目前,该系统已能自动处理文案修改和微小的 UI 调整。它像「印钞机」一样产出成果——其想法的胜率相当于一个有两三年经验的初级 PM,且在飞速进化中 [36:36 Amol Avasare]。
 
-工具变强了,人怎么办?Amol 给出的判断与绝大多数人的直觉相反:随着 AI 赋能,公司不但不需要更少的 PM,反而可能需要更多。
+> 【背景】CASH(Claude Accelerates Sustainable Hypergrowth,即 Claude 加速可持续超高速增长)是 Anthropic 内部尝试自动化增长实验的系统代号。
 
-原因在于杠杆的倾斜。以前一个典型的团队是 5 个工程师配 1 个 PM 和 1 个设计师。现在因为有了 [[Claude Code|Claude Code]] 这种工具,这 5 个工程师的产出相当于以前的 15-20 个 [43:28 Amol Avasare]。产出暴增,导致仅有的 PM 和设计师被严重挤压,根本盯不过来。
+既然 AI 开始抢增长 PM 的活,那 PM 会被取代吗?Amol 认为不会,但角色的内涵会剧变。随着 Claude Code 等 AI 工具赋予工程师 2 到 3 倍的产能,传统的「5 个工程师+1 个 PM」团队配比被打破——PM 如今实际要面对的是相当于过去的 15 到 20 个工程师的产出量。这导致 PM 和设计师被极度「挤压」[43:19 Amol Avasare]。
 
-为此,Amol 团队立了一条规矩:**以两周(约一个开发周期)的工程量为界**。如果一个项目预期耗时两周或更短,直接让工程师顶上当「迷你 PM」——去跟法务谈、跟安全部门对接,PM 只做后台顾问;如果超过两周,才由 PM 正式挂帅负责 [45:35 Amol Avasare]。这意味着,具备「产品思维」的工程师将变成奇货可居的独角兽 [46:28 Amol Avasare]。反过来说,这也意味着,公司急需补招大量 PM 来协调日益庞大的「虚拟工程师队伍」。
+应对这种张力,Amol 推出了一个硬性规则:若项目只需少于两周的工程时间,工程师就必须兼任该项目的 PM(自行去搞定法务、安全等跨职能协调);只有需两周以上的大项目,才由专职 PM 介入主导 [45:35 Amol Avasare]。他甚至极度反感繁文缛节,团队交付的 60% 到 80% 的产品都不写 [[PRD|PRD]](产品需求文档),改用快速的 Slack 沟通或直接上原型 [51:46 Amol Avasare]。在一个拥有庞大产出的团队里,真正优秀的 PM 的最高杠杆做法不再是亲自下场写代码交付功能,而是提升对「为什么做」和「做什么」的引导力 [49:45 Amol Avasare]。
 
-面对焦虑的从业者,Amol 给出三条破局建议:一是紧贴工具,每次模型更新都要重试以前做不了的事;二是长出「横向 E 型」的跨学科能力(如懂金融的做金融 AI 产品);三是果断抛弃旧的工作剧本,如果环境变了还死守旧经验,只会徒增痛苦 [81:52 Amol Avasare]。
+> 【背景】PRD(Product Requirements Document,产品需求文档)是产品经理用于详述产品功能与设计逻辑的规范文件。
 
-## 五、专注与安全:Anthropic 的底层密码
+除了重塑工作流,Amol 还极其前卫地利用 Cowork 和 Slack MCP,让 Claude 每周帮他扫描内部沟通,揪出潜在的团队目标错位,甚至通过输入经理人的偏好来对自己进行每周的「[[软指导|软指导]]」[63:17 Amol Avasare]。
 
-聊完了战术,最后来看战略。人们常问:Anthropic 凭什么能追上并有赶超之势?Amol 认为秘诀在于极度的专注,以及将「安全」视为核心竞争力。
+> 【背景】MCP(Model Context Protocol,模型上下文协议)是一种让大模型安全连接外部工具与数据源的开放协议。
 
-早期,Anthropic 是赛道里资金最少、最小、且没有先发优势(OpenAI 抢先推出了 ChatGPT)的玩家 [14:14 Amol Avasare]。甚至在他们有条件率先推出聊天机器人时,出于安全顾虑主动选择了按下不表 [70:15 Amol Avasare]。资源匮乏逼出了极度的克制:他们把极其有限的弹药精准打在了 B2B(企业服务)和 Coding(智能体编程)两个极窄的场景上 [67:00 Amol Avasare]。
+工具与角色的进化固然震撼,但驱动这家公司实现如此惊人增长的底层动力,其实是更深层的战略定力与安全文化。
 
-这种专注并非纯靠商业嗅觉,而是根植于一个内部闭环:押注编程能反哺研究。如果你拥有最强的模型来帮自己写代码,你就能加速自身的研发循环,从而造出更强的模型 [71:55 Amol Avasare]。这是一种典型的飞轮效应。
+## 专注的奇迹:从落后到超越的安全护城河
 
-将安全置于增长之上的原则,同样植入了增长团队的工作日常。当面临争议性的增长实验时,Amol 会把它们分进两个篮子:第一类是有违品牌价值观或用户善意的红线,坚决不碰;第二类只是让人略感不适但并非红线,可以测试,但必须看到极高的回报率才会上线 [74:49 Amol Avasare]。Amol 深信:**不榨干最后一块钱**,愿意为了品牌体验和安全牺牲短期指标,才是驱动长期增长的真正动力 [76:31 Amol Avasare]。
+Amol 回忆,Anthropic 曾是 AI 领域里最小、资金最不充裕的玩家,既没有大厂的自由现金流与分发渠道,也没有先发优势 [69:04 Amol Avasare]。他们甚至在 ChatGPT 之前就有了聊天机器人,但为了不引发不可控的 AI 全球军备竞赛,主动选择不发布 [70:11 Amol Avasare]。在资源匮乏的绝境下,「自由源于约束」成为了底层生存逻辑,逼迫他们极其专注地深挖单一赛道 [69:44 Amol Avasare]。
 
-## 六、劫后余生:通过约束获得自由
+他们最早重押的赛道是编码与 B2B。早在 2021 年,创始人 Ben Mann 就在公司成立几个月后写下备忘录,确立了深耕编码的战略。原因不仅是商业变现空间大,更是因为最好的 AI 编码能力能反哺研究本身,形成加速循环 [67:37 Amol Avasare]。
 
-在对话的后半段,Amol 首次详细讲述了一段不为人知的个人至暗时刻,这也解释了他为何能在极端高压下保持定力。
+> 【背景】Ben Mann 是 Anthropic 的联合创始人之一。
 
-2022 年初,因为一次泰拳对练中的意外重击,Amol 遭受了严重的创伤性脑损伤 [100:14 Amol Avasare]。整整九个月,他无法工作;头两三个月里,他连听 20 秒音乐都会呕吐,完全看不了屏幕 [101:05 Amol Avasare]。好不容易恢复复工,在加入 Mercury 刚一个月时,他又因为一次轻微的意外被包砸到头而复发,不得不再次离岗两三个月 [102:32 Amol Avasare]。至今他仍未百分之百痊愈。
+这种战略取舍延伸到了增长团队的价值观:拒绝榨干最后一分钱。Amol 坚信,把一部分钱留在桌上、为了 AI 安全和品牌体验牺牲短期指标,不仅是底线,更将成为长期的核心竞争优势 [76:31 Amol Avasare]。这种使命感与令人惊叹的人才密度(连美国驻澳大利亚大使都在这里默默吃爆米花当普通员工)相结合,构成了 Anthropic 不可复制的秘密武器 [87:29 Amol Avasare]。
 
-这场灾难成了他人生的转折点。它逼着他戒掉了酒精和咖啡因,养成了在最忙的日子里也要雷打不动去冥想区休息的习惯 [103:10 Amol Avasare]。他把这一切浓缩为自己的人生哲学:**「通过约束获得自由」(freedom through constraints)** [69:44 Amol Avasare]。这与他做企业增长时的哲学如出一辙:正因为资源受限、条件苛刻,人才能排出一切杂念,找到那条唯一正确的窄路。
+在惊人战绩与尖端工具之外,Amol 还经历过极其黑暗的人生低谷,这也最终塑造了他独特的个人哲学与抗压内核。
+
+## 从创伤到觉知:通过约束获得自由
+
+Amol 曾在一次泰拳训练中意外头部遭受重创。整整九个月无法工作,甚至一度怀疑自己还能否重返职场 [100:14 Amol Avasare]。在漫长的恢复期里,他不得不强行建立极度自律的生理约束(戒断咖啡因和酒精、雷打不动地每日冥想休息) [103:06 Amol Avasare]。
+
+这段残酷的经历让他领悟到:当面对不可抗拒的约束时,你有两个选择——要么与现实死磕而痛苦,要么接受现实、不让它剥夺你的幸福感 [106:09 Amol Avasare]。他将这种「[[通过约束获得自由|通过约束获得自由]]」的哲学同样应用在极度高压的 AI 创业之中:把曾经的逆境视为通向今天位置的必经之路。
 
 ## 本集带走
 
-1. **如果核心价值由 AI 驱动,就把精力压在「大赌注」上**:在指数级增长的市场里,产品未来两年的价值将是今天的百倍乃至千倍。此时微调转化率收益极小,增长团队应果断转向更大的产品级押注。
-2. **拥抱「好摩擦」**:别盲目追求极简注册流程。只要摩擦能帮用户搞懂产品是否适合自己,并为你提供推荐数据,它往往能带来更高的转化率和更好的长期留存。
-3. **用 AI 把自己武装到牙齿**:不仅用 AI 写代码,更要让它自动看图表、写复盘、揪出跨部门协作的「不一致」。学会调度 AI,就是在提前兑现未来的生产力。
+1. **在指数级增长中,大赌注优于微优化**:如果你的产品价值随 AI 呈指数级上升,不要拘泥于 1% 的转化率漏斗优化,而应把重心放在能开辟新市场的「大赌注」上。
+2. **正确增加摩擦反而能驱动增长**:彻底删减步骤并不总是对的,通过提问与高质量的交互摩擦帮助用户理解产品,不仅能提升留存,更是后续营销与定向的数据基石。
+3. **被极度赋能的工程师正在挤压 PM 与设计**:AI 让单兵工程产能暴增,应对这种失衡的权宜之计是让工程师兼任小项目的 PM。对高级 PM 而言,最高杠杆不再是亲自交付,而是为团队指明「为什么」与「做什么」。
+4. **极度专注与让步短期指标是最深的护城河**:资源匮乏逼迫 Anthropic 深耕核心场景;把品牌与 AI 安全置于短期变现之上,不仅没拖垮增长,反而构成了其长远的竞争身位。
 
 ## 金句(中英对照 · 过机器闸门三联校验)
 
-> 我认为我的经验法则是，如果我真的在乎，我就应该一直联系他们，直到他们告诉我，「请停止。」  
-> *I think my role of thumb is like, if I really care about it, I should just keep reaching out to them until they tell me, "Please stop."*  
-> —— Amol Avasare · [06:53] ^q1
-
-> 我们将在两年后交付的产品价值可能是今天的 1000 倍，是今天的 100 到 1000 倍。  
+> 我们将在两年后交付的产品价值可能是今天的 1000 倍,是今天的 100 到 1000 倍。  
 > *The product value that we will deliver in two years time is probably a 1,000x, a 100 to a 1,000x what it is today.*  
-> —— Amol Avasare · [29:48] ^q2
+> —— Amol Avasare · [29:48] ^q1
 
-> 我反感 PRD。我想我只是讨厌文档。  
-> *I'm averse to PRDs. I think I just hate documentation.*  
-> —— Amol Avasare · [52:01] ^q3
+> 我认为在增长中,我认为非常重要的是你需要愿意把钱留在桌上。  
+> *And I think in growth, I think it's really important that you just need to be okay leaving money on the table.*  
+> —— Amol Avasare · [76:23] ^q2
 
-> Amol，我们将会有 AGI，而且让六个人在房间里达成一致仍然是不可能的。  
-> *Amol, we will have AGI and it will still be impossible to get six people in a room to get to align.*  
-> —— Amol Avasare · [38:05] ^q4
+> 所以可能 70%,也许 60、70、80% 我们交付的东西没有 PRD。  
+> *Probably 70%, maybe 60, 70, 80% of what we ship does not have a PRD.*  
+> —— Amol Avasare · [51:59] ^q3
 
-> 在 ChatGPT 推出之前我们就有了一个聊天机器人。而我们最终出于安全原因选择了不推出它。  
-> *We had a chatbot before ChatGPT was launched. And we had ultimately chosen not to launch it for safety reasons.*  
-> —— Amol Avasare · [70:11] ^q5
-
-> 你需要明白，过去 50%、60%、70% 的运作方式，直接把它们抛在脑后吧。  
-> *You need to understand that probably 50, 60, 70% of how you operate in the past, just throw it out the door.*  
-> —— Amol Avasare · [81:55] ^q6
+> 很有趣,几周前我们开了一个很难的会,我和我们的设计负责人 Joel,我们在事后做复盘。他给我发消息,他就像,"Amol,我们将会有 AGI,而且让六个人在房间里达成一致仍然是不可能的。"  
+> *It's funny, we had a difficult meeting a couple of weeks ago, and me and our head of design, Joel, we were debriefing afterwards. And he pings me, he's just like, "Amol, we will have AGI and it will still be impossible to get six people in a room to get to align."*  
+> —— Amol Avasare · [37:57] ^q4
 
 ## 相关单集
 
-- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同公司:Anthropic · 同概念:Claude、Claude Code
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《The AI paradox: More automation, more humans, more work | Dan Shipper》]] —— 同公司:Anthropic、OpenAI · 同概念:Claude Code
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell》]] —— 同公司:Anthropic、OpenAI · 同概念:Claude
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)》]] —— 同公司:Anthropic · 同概念:Claude Code
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:Claude Code、MCP
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《被 10 亿美元验证的逆向创业法:AI 数据公司 Surge 的独立路径》]] —— 同公司:Anthropic · 同概念:Claude
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同公司:Anthropic · 同概念:Claude Code
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《From skeptic to true believer: How OpenClaw changed my life | Claire Vo》]] —— 同概念:Claude Code、MCP
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)》]] —— 同公司:Anthropic · 同概念:Claude
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《How to build a company that withstands any era | Eric Ries, Lean Startup author》]] —— 同公司:Anthropic、OpenAI
-- [[2025-11-20-lennys-slack-founder-stewart-butterfield|《把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学》]] —— 同概念:好摩擦 (friction)
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel》]] —— 同概念:Claude
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)》]] —— 同公司:Anthropic
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《The hidden pattern behind successful products | Mark Pincus (founder of Zynga)》]] —— 同公司:OpenAI
-- [[2026-06-22-latent-space-gray-swan|《神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan》]] —— 同公司:Anthropic
-- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)》]] —— 同公司:Mercury
+- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同公司:Anthropic、Claude、Claude Code
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的 AI 工作预测:智能体接管工作,但人类不会失业》]] —— 同公司:Claude Code、Cowork、Anthropic · 同概念:智能体 (agent)
+- [[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样重要,但现在只是 1997 年》]] —— 同公司:Anthropic、Claude Code、ChatGPT、OpenAI
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|《对话 Anthropic 产品负责人 Cat Wu:AI 时代 PM 如何跟上「每周发布」的疯狂节奏》]] —— 同公司:Anthropic、Claude Code · 同概念:智能体 (agent)
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同公司:Anthropic、Claude Code · 同概念:智能体 (agent)
+- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同公司:Anthropic、ChatGPT、Claude
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同公司:Claude Code、Anthropic · 同概念:智能体 (agent)
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被淘汰，构建者迎来黄金期》]] —— 同公司:Claude、Anthropic · 同概念:智能体 (agent)
+- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel:在AI时代,做最会创新的公司》]] —— 同公司:Claude、Anthropic · 同概念:智能体 (agent)
+- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同公司:Claude Code · 同概念:MCP、智能体 (agent)
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同公司:Claude Code · 同概念:智能体 (agent)
+- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」》]] —— 同公司:Anthropic
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《OpenAI Codex lead on the new shape of product work | Andrew Ambrosino》]] —— 同公司:ChatGPT、OpenAI · 同概念:PRD、智能体 (agent)
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《Cisco 高管 Jeetu Patel：如何把老牌巨头推向 AI 时代，以及他的六维制胜框架》]] —— 同公司:Anthropic、ChatGPT
+- [[2026-06-22-latent-space-gray-swan|《给 AI 智能体装上「安全带」:Gray Swan 的攻防实战》]] —— 同公司:Anthropic · 同概念:智能体 (agent)
+- [[2026-07-08-latent-space-modal|《AI 基础设施如何为智能体重新设计:Modal 联合创始人的方法》]] —— 同公司:Anthropic · 同概念:智能体 (agent)
+- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]] —— 同公司:ChatGPT
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] —— 同概念:智能体 (agent)
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体替代 10 人销售团队：SaaStr 创始人的前沿实战》]] —— 同概念:智能体 (agent)
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值 150 亿的隐形 AI 公司 Applied Intuition:给自动驾驶卡车的焦虑开一剂务实药方》]] —— 同概念:智能体 (agent)
+- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别怪高管不懂你：产品经理的向上影响力心法》]] —— 同概念:智能体 (agent)
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《前 GitHub、现 Notion 产品负责人 Max:每个项目的前 10% 现在免费了》]] —— 同公司:Anthropic
+- [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同概念:智能体 (agent)
+- [[2026-06-03-latent-space-satya-2026|《专访 Satya Nadella:智能体时代的平台逻辑与企业护城河》]] —— 同概念:智能体 (agent)
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Tony Fadell：造出 iPod 和 iPhone 的人，怎么看 AI 时代的造物法则》]] —— 同公司:OpenAI
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人：别想从零颠覆世界，靠复制才能创新》]] —— 同概念:智能体 (agent)
+- [[2026-06-24-latent-space-databricks|《Databricks 的智能体时代布局：统一调度、开源治理与数据库重写》]] —— 同概念:智能体 (agent)
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]] —— 同概念:智能体 (agent)
 
 ---
 

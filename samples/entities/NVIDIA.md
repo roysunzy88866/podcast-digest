@@ -6,16 +6,18 @@ entity_type: 公司
 # NVIDIA
 
 > [!info] 公司
-> 出现在 1 集 · 金句 0 条 · 关联 10 个
+> 出现在 2 集 · 金句 0 条 · 关联 10 个
 
 ## 集里怎么说它
 
-- **[[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]]**(18:16起):本集将其描述为 GPU 的制造商，指出 AI 需要海量的算力，而 NVIDIA 的 GPU 是目前 AI 基础设施建设的核心。
+- **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]]**(18:42起):本集在回顾 2012 年 ImageNet 突破时提及,说 Hinton 教授团队当年就是使用了来自 NVIDIA 的两张 GPU 成功训练了首个神经网络算法。
+- **[[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《Cisco 高管 Jeetu Patel：如何把老牌巨头推向 AI 时代，以及他的六维制胜框架》]]**(18:16起):本集把它说成：制造和提供 AI 核心算力 GPU 的巨头，而 Cisco 的工作就是把这些分散的 GPU 跨服务器、跨数据中心「连接」在一起。
 
 ## 出现在这些集
 
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]] — 作为被讨论公司
+- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]] — 作为被讨论公司(提及)
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《Cisco 高管 Jeetu Patel：如何把老牌巨头推向 AI 时代，以及他的六维制胜框架》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Jeetu Patel]] · [[Lenny]] · [[Cisco]] · [[OpenAI]] · [[超级趋势]] · [[获胜权]] · [[AI 基础设施]] · [[智能体]] · [[能力过剩]] · [[护栏]]
+[[Lenny]] · [[GPU]] · [[ChatGPT]] · [[Dr. Fei-Fei Li]] · [[Jeetu Patel]] · [[World Labs]] · [[Cisco]] · [[Marble]] · [[OpenAI]] · [[ImageNet]]

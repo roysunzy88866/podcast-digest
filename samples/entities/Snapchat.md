@@ -10,12 +10,12 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel》]]**(01:21起):本集说是过去 15 年里极少数存活下来的持久社交消费应用，目前拥有近十亿月活，通过 Stories、截图检测等创新深刻改变了行业
+- **[[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel:在AI时代,做最会创新的公司》]]**(01:21起):本集主要讨论的社交应用。它靠连接最亲密的朋友而非所有人来实现分发增长；主打阅后即焚，并通过巧妙监听触摸事件实现了截图检测机制。目前拥有超过 10 亿月活、年收入超 60 亿美元。
 
 ## 出现在这些集
 
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel》]] — 作为被讨论公司
+- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel:在AI时代,做最会创新的公司》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Lenny]] · [[Evan Spiegel]] · [[Snap]] · [[Specs]] · [[TikTok]] · [[分发]] · [[护城河]] · [[增强现实]] · [[设计团队]] · [[智能体]]
+[[Lenny]] · [[Evan Spiegel]] · [[Snap]] · [[TikTok]] · [[Threads]] · [[Meta]] · [[Apple]] · [[Anthropic]] · [[Figma]] · [[Claude]]

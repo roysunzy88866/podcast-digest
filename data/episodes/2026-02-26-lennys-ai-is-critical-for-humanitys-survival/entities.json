@@ -1,13 +1,13 @@
 {
   "episode_id": "2026-02-26-lennys-ai-is-critical-for-humanitys-survival",
-  "podcast": null,
-  "date": null,
+  "podcast": "Lenny's Podcast",
+  "date": "2026-02-26",
   "tags": [
-    "AI 转型",
-    "大企业管理",
     "AI 基础设施",
-    "产品战略框架",
-    "领导力"
+    "企业转型",
+    "产品战略",
+    "组织管理",
+    "老牌巨头破局"
   ],
   "entities": [
     {
@@ -183,7 +183,7 @@
       "name": "Cisco",
       "file": "Cisco",
       "primary": true,
-      "how_described": "本集将它描述为 AI 时代关键的基础设施公司，提供网络、光学和安全技术，将全球数据中心的大量 GPU 完美连接并保持绝对同步。",
+      "how_described": "本集把它说成：正在被 CPO 从老牌传统企业改造为 AI-first（以 AI 为先）的平台公司，也是 AI 时代提供网络、光学、可观测性等关键基础设施的连接者。",
       "source": "glm",
       "evidence": [
         {
@@ -477,73 +477,13 @@
       ]
     },
     {
-      "id": "nvidia",
-      "type": "company",
-      "role": "company",
-      "name": "NVIDIA",
-      "file": "NVIDIA",
-      "primary": true,
-      "how_described": "本集将其描述为 GPU 的制造商，指出 AI 需要海量的算力，而 NVIDIA 的 GPU 是目前 AI 基础设施建设的核心。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 195,
-          "t": [
-            1096.714,
-            1102.539
-          ],
-          "quote": "That's what we end up doing is NVIDIA makes the GPUs and we connect those GPUs together.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "openai",
-      "type": "company",
-      "role": "company",
-      "name": "OpenAI",
-      "file": "OpenAI",
-      "primary": false,
-      "how_described": "本集提到使用 OpenAI 的 Codex 模型和开发工具辅助编写代码，并引用了其前工程师关于把 AI 当作团队队友的建议。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 92,
-          "t": [
-            536.687,
-            541.23
-          ],
-          "quote": "We got connected through Kevin Weil, who is former CPO at OpenAI, now head of science at OpenAI.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 221,
-          "t": [
-            1314.17,
-            1327.773
-          ],
-          "quote": "And so our biggest realization that we had when we were using Codex, for example, when we were writing a code with OpenAI's kind of model and development tool, was the first three months we were screwing around with this.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 223,
-          "t": [
-            1332.235,
-            1341.477
-          ],
-          "quote": "In fact, there was a former deployed engineer from OpenAI that told us about this, which is, \"Hey, stop trying to think of this as a tool.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
       "id": "box",
       "type": "company",
       "role": "company",
       "name": "Box",
       "file": "Box",
       "primary": false,
-      "how_described": "本集被提及为嘉宾的前雇主，他在这里与前 CEO Aaron Levie 共同探讨并提炼出了「获胜权」的商业战略概念。",
+      "how_described": "本集提到它是嘉宾的前东家，他在这里与前 CEO Aaron Levie 探讨出了「参与许可/获胜权」的产品战略框架。",
       "source": "glm",
       "evidence": [
         {
@@ -594,13 +534,427 @@
       ]
     },
     {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集把它说成：制造和提供 AI 核心算力 GPU 的巨头，而 Cisco 的工作就是把这些分散的 GPU 跨服务器、跨数据中心「连接」在一起。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 195,
+          "t": [
+            1096.714,
+            1102.539
+          ],
+          "quote": "That's what we end up doing is NVIDIA makes the GPUs and we connect those GPUs together.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "amd",
+      "type": "company",
+      "role": "company",
+      "name": "AMD",
+      "file": "AMD",
+      "primary": false,
+      "how_described": "本集顺带提及：与 NVIDIA 一样制造 GPU，其产出的算力设备同样需要 Cisco 提供的网络技术将它们连接。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 196,
+          "t": [
+            1102.679,
+            1104
+          ],
+          "quote": "AMD makes the GPUs, we connect them together.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到：ChatGPT 是促成本轮 AI 浪潮的决定性时刻；嘉宾团队在用 OpenAI 的模型和开发工具（Codex）时，意识到不该把它当工具，而该当成「队友」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            536.687,
+            541.23
+          ],
+          "quote": "We got connected through Kevin Weil, who is former CPO at OpenAI, now head of science at OpenAI.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1314.17,
+            1327.773
+          ],
+          "quote": "And so our biggest realization that we had when we were using Codex, for example, when we were writing a code with OpenAI's kind of model and development tool, was the first three months we were screwing around with this.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1332.235,
+            1341.477
+          ],
+          "quote": "In fact, there was a former deployed engineer from OpenAI that told us about this, which is, \"Hey, stop trying to think of this as a tool.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到它非常看重价值观，为 Claude 发布了类似「宪法」的价值观体系，嘉宾发现这与人类培养优秀孩子的底层逻辑极其相似。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 278,
+          "t": [
+            1719.482,
+            1725.428
+          ],
+          "quote": "What's interesting is that I know Anthropic is really big, this idea of values and just how you operate.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1725.828,
+            1730.473
+          ],
+          "quote": "Anthropic has this constitution they released of how the values essentially of Claude.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": true,
+      "how_described": "本集把它说成：点燃企业转向 AI-first 的决定性标志（'22年的11月），也是人人都能轻松听懂的「超级趋势」的典型代表。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            751.914,
+            761.64
+          ],
+          "quote": "And this happened, we were working towards it even prior to ChatGPT, but ChatGPT became that seminal moment in November of '22 that we actually did that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 775,
+          "t": [
+            4558.433,
+            4562.497
+          ],
+          "quote": "But with AI, it's like you go to ChatGPT, you ask it a question, you get an answer.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 834,
+          "t": [
+            4833,
+            4842.564
+          ],
+          "quote": "I mean, it's cliche, but I feel like what ChatGPT, Gemini and Claude have done, it's changed lives.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "ai-first",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI-first",
+      "file": "AI-first",
+      "primary": true,
+      "how_described": "本集把它说成：一种自上而下不可动摇的战略选择与思维模式，公司宣告全力拥抱，不灵活掌握 AI 的人长期看就会失去工作相关性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            90.807,
+            99.932
+          ],
+          "quote": "What Jeetu has achieved internally at Cisco in terms of transforming their culture and ways of working to be AI-first is something that most big company leaders only dream about.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 132,
+          "t": [
+            746.531,
+            750.413
+          ],
+          "quote": "The entire company is on the same page, we are an AI-first company.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 162,
+          "t": [
+            930.838,
+            934
+          ],
+          "quote": "And then not being confused about the fact that we'll be AI-first from the top down.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "ai-infrastructure",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 基础设施 (AI infrastructure)",
+      "file": "AI 基础设施",
+      "primary": true,
+      "how_described": "本集把它说成：制约 AI 发展的核心瓶颈所在，具体包括算力、网络带宽、电力，以及如何把相隔数百公里的 GPU 连成连贯运作的集群。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            80.182,
+            90.487
+          ],
+          "quote": "Cisco is not a brand that mostly people think about when they think about AI, but not only are they a massive part of the AI infrastructure build-out that is happening right now all over the world.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 166,
+          "t": [
+            947.489,
+            952.693
+          ],
+          "quote": "You guys are key to this massive AI infrastructure build-out that's happening right now.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "本集把它说成：AI 的核心贡献算力单元，如今模型太大，必须把成百上千的 GPU 跨服务器、跨机架甚至跨数据中心完全同步连接起来进行训练。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 186,
+          "t": [
+            1048.51,
+            1060.074
+          ],
+          "quote": "If you think about a GPU, which is what everyone now is very clear because of the great job that Jensen has done that here's what a GPU's core contribution is to AI.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1061.275,
+            1072.718
+          ],
+          "quote": "If these GPUs aren't networked together, you don't have AI, because it used to be that you could train a model on a single GPU, but then what happened was the model got too big to be put on a single GPU.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1116.645,
+            1120.447
+          ],
+          "quote": "Every GPU is in sync with each other when you're doing a training run.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": false,
+      "how_described": "本集提到它是 Cisco 为 AI 时代提供的关键基础设施技术之一，用来保障这些相距遥远的超大规模数据集群连贯、安全地运作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 201,
+          "t": [
+            1133.633,
+            1150
+          ],
+          "quote": "We provide the networking, we provide the optics technology, we provide the safety and security technology, we provide the observability, we provide the data platform, all of those things together for making sure that we provide critical infrastructure for the AI era.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "hallucination",
+      "type": "concept",
+      "role": "concept",
+      "name": "幻觉 (hallucination)",
+      "file": "幻觉",
+      "primary": false,
+      "how_described": "本集把它说成：大模型的不可预测性带来的安全隐患，写诗时是特性，但在运行可预测的企业系统时是坏事，导致了行业的「信任赤字」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 179,
+          "t": [
+            1002.529,
+            1009.355
+          ],
+          "quote": "Hallucination is a feature when you're writing poetry, but when you're trying to go out and run predictable systems, hallucination can be a bad thing.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集把它说成：随着自动化加深，必须为机器行为有意设置的制衡机制，以确保 AI 始终服务于人类而非自行建立社会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 227,
+          "t": [
+            1380.753,
+            1390.517
+          ],
+          "quote": "And we have to make sure that we actually keep guardrails around that, because it is in service of humans, it is not to go out and build a society by itself.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1779.217,
+            1786.84
+          ],
+          "quote": "And as you have more automation in the world, being intentional not just with humans but also with machines and what you want to do to create the guardrails, I think is pretty important.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "permission-to-play",
+      "type": "concept",
+      "role": "concept",
+      "name": "参与许可 (permission to play)",
+      "file": "参与许可",
+      "primary": true,
+      "how_described": "本集把它说成：决定战略取舍的核心判据，即市场是否认为由你的公司来做某件事合乎逻辑、你是否有规模化分发的基因与渠道。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 298,
+          "t": [
+            1818.16,
+            1827.823
+          ],
+          "quote": "One of the things that we would always talk about is in the areas that we are going to participate, do we have permission to play?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1828.844,
+            1843.729
+          ],
+          "quote": "Every company has to make sure that the way in which they provide points of insertion and logical entry into a market is a lot of times dependent on, do you have the permission to play in that market?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1878.7,
+            1881.142
+          ],
+          "quote": "So, that's this notion of permission to play, the right to win.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1881.182,
+            1884.163
+          ],
+          "quote": "Do we have a right to win in that area because we have permission to play?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1916.66,
+            1933.709
+          ],
+          "quote": "And so, I think in order to stop that, what you have to do is you have to actually use your scale as an advantage and you have to use the areas where you've got the ability to have permission to play where people feel like this is very logical for a company like Cisco.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 334,
+          "t": [
+            2027.773,
+            2036.84
+          ],
+          "quote": "I'm curious if there's an example you can share either from Box or Cisco where it's just like, \"Okay, this is like we're going to do this because we have the permission to play here.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 340,
+          "t": [
+            2101.06,
+            2113.043
+          ],
+          "quote": "Example of permission to play is, I mean, there's so many ideas that a company the size of Cisco, we have constantly new ideas that keep coming up.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 350,
+          "t": [
+            2181.005,
+            2182.906
+          ],
+          "quote": "I don't think that we've got permission to play there.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
       "id": "megatrend",
       "type": "concept",
       "role": "concept",
       "name": "超级趋势 (megatrend)",
       "file": "超级趋势",
       "primary": true,
-      "how_described": "本集将其描述为能影响世界上大量人口的、不可逆的长期大趋势，强调企业必须在面对它时全力以赴，绝不能像对待「炒作周期」那样去对冲风险。",
+      "how_described": "本集把它说成：将深刻影响大量人口的不可逆时代浪潮（如 AI）；判断它不是炒作周期的经验法则是：不需要博士学位就能听懂它最终能为大众做什么。",
       "source": "glm",
       "evidence": [
         {
@@ -678,202 +1032,13 @@
       ]
     },
     {
-      "id": "right-to-win",
-      "type": "concept",
-      "role": "concept",
-      "name": "获胜权 (right to win)",
-      "file": "获胜权",
-      "primary": true,
-      "how_described": "本集将其定义为产品战略的核心考量：企业只应在自己拥有天然优势、逻辑契合且有分销渠道的领域参与竞争，以获取不成比例的回报。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 296,
-          "t": [
-            1803.307,
-            1810.753
-          ],
-          "quote": "And he share this concept of the right to win, which he says has informed the way he thinks about strategy ever since.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 306,
-          "t": [
-            1878.7,
-            1881.142
-          ],
-          "quote": "So, that's this notion of permission to play, the right to win.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 307,
-          "t": [
-            1881.182,
-            1884.163
-          ],
-          "quote": "Do we have a right to win in that area because we have permission to play?",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "ai-infrastructure",
-      "type": "concept",
-      "role": "concept",
-      "name": "AI 基础设施 (AI infrastructure)",
-      "file": "AI 基础设施",
-      "primary": true,
-      "how_described": "本集将其描述为当下全球正大规模投资建设的关键底座，指出算力、网络带宽的短缺是制约 AI 发展的主要瓶颈。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 20,
-          "t": [
-            80.182,
-            90.487
-          ],
-          "quote": "Cisco is not a brand that mostly people think about when they think about AI, but not only are they a massive part of the AI infrastructure build-out that is happening right now all over the world.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 166,
-          "t": [
-            947.489,
-            952.693
-          ],
-          "quote": "You guys are key to this massive AI infrastructure build-out that's happening right now.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "agent",
-      "type": "concept",
-      "role": "concept",
-      "name": "智能体 (agent)",
-      "file": "智能体",
-      "primary": true,
-      "how_described": "本集引用了 OpenAI 工程师的建议，主张不应把 AI 仅当成工具，而应把它当成团队里的智能体（队友），这会彻底改变人类使用技术的方式。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 33,
-          "t": [
-            150.211,
-            152.872
-          ],
-          "quote": "Seer, Sentry's AI debugging agent takes it from there.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "capabilities-overhang",
-      "type": "concept",
-      "role": "concept",
-      "name": "能力过剩 (capabilities overhang)",
-      "file": "能力过剩",
-      "primary": true,
-      "how_described": "本集将其描述为当前 AI 领域一种「进步的悖论」：前沿科学界正用 AI 创造奇迹，但普通企业却在采用上挣扎，前沿速度远超组织消化能力。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 64,
-          "t": [
-            357.802,
-            360.744
-          ],
-          "quote": "One is the capabilities overhang is real.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 70,
-          "t": [
-            394.599,
-            397
-          ],
-          "quote": "So, that was one is, the capabilities overhang is real.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "guardrails",
-      "type": "concept",
-      "role": "concept",
-      "name": "护栏 (guardrails)",
-      "file": "护栏",
-      "primary": true,
-      "how_described": "本集将其描述为 AI 安全风险的必要制衡机制，强调必须为 AI 设置护栏，确保它是为人类服务，而不是自己去建立一个独立的社会。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 227,
-          "t": [
-            1380.753,
-            1390.517
-          ],
-          "quote": "And we have to make sure that we actually keep guardrails around that, because it is in service of humans, it is not to go out and build a society by itself.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 290,
-          "t": [
-            1779.217,
-            1786.84
-          ],
-          "quote": "And as you have more automation in the world, being intentional not just with humans but also with machines and what you want to do to create the guardrails, I think is pretty important.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "packet-loss",
-      "type": "concept",
-      "role": "concept",
-      "name": "丢包 (packet loss)",
-      "file": "丢包",
-      "primary": true,
-      "how_described": "本集借用这一网络传输概念，生动比喻大公司管理层级过多会导致战略叙事和信息传递在层层传达中出现严重的「丢包」和失真。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 457,
-          "t": [
-            2847.765,
-            2850.087
-          ],
-          "quote": "We have this concept in networking called packet loss.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 459,
-          "t": [
-            2858.295,
-            2863
-          ],
-          "quote": "You don't want to have packet loss in your storytelling from you to the person on the front line because-",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 461,
-          "t": [
-            2865.34,
-            2869.283
-          ],
-          "quote": "This is just a direct connection and there's no packet loss of this one.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
       "id": "hype-cycle",
       "type": "concept",
       "role": "concept",
       "name": "炒作周期 (hype cycle)",
       "file": "炒作周期",
       "primary": false,
-      "how_described": "本集将其与「超级趋势」对立，描述为一种需要极高学历才能听懂的、过度复杂的概念，企业不应为其做虚荣的工作。",
+      "how_described": "本集把它说成：看似火热但实际很难找出使用场景的虚火（如 Web3），描述得极其复杂，通常需要博士学位才能听懂。",
       "source": "glm",
       "evidence": [
         {
@@ -906,94 +1071,70 @@
       ]
     },
     {
-      "id": "platform",
+      "id": "telephone-game",
       "type": "concept",
       "role": "concept",
-      "name": "平台 (platform)",
-      "file": "平台",
+      "name": "传话游戏 (telephone game)",
+      "file": "传话游戏",
       "primary": false,
-      "how_described": "本集将其描述为企业打破内部各自为政孤岛的组织目标，强调平台应做到「松散耦合但紧密集成」，同时它也是普通人成功的关键杠杆。",
+      "how_described": "本集把它说成：大公司内部沟通随着层级增加而严重失真的顽疾，就像信息的「丢包」，需要领导者亲自直连一线去讲故事以防失真。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 144,
+          "seg": 421,
           "t": [
-            810.2,
-            820.524
+            2603.6,
+            2630.592
           ],
-          "quote": "So, the thing we did was we said, \"We have to become not a holding company of 251 acquisitions and thousands of different products, we have to become a platform company.\"",
+          "quote": "What I found over the years, not just at Cisco, but even when I ... Because I ran a small startup in Chicago for 17 years before I moved over to the Valley, what I found in the large companies is, the communication framework and the lossiness of communication, the telephone game, so to say, has a profoundly negative effect if you're not intentional about it and if you're not careful of it.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 145,
+          "seg": 431,
           "t": [
-            821.504,
-            830.188
+            2683.331,
+            2701.316
           ],
-          "quote": "And the characteristic of the platform is you have to be tightly integrated where the customer feels the same emotion, no matter what product of ours they use.",
+          "quote": "Because if you have 3, 4, 5, 6, 7 layers between you and the person who's actually doing the job in the front line, what you don't want to do is play the telephone game and assume that people will just cascade it when you go to your team and then say, 'Okay, that team will cascade to the next team, cascade to the next team, cascade to the next team.'",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "packet-loss",
+      "type": "concept",
+      "role": "concept",
+      "name": "丢包 (packet loss)",
+      "file": "丢包",
+      "primary": true,
+      "how_described": "本集把它巧妙比喻为：大企业里信息从高管传达给一线员工时发生的内容损耗与语义削弱，领导者必须像直连网线一样杜绝这种损耗。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 457,
+          "t": [
+            2847.765,
+            2850.087
+          ],
+          "quote": "We have this concept in networking called packet loss.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 161,
+          "seg": 459,
           "t": [
-            917.951,
-            930.718
+            2858.295,
+            2863
           ],
-          "quote": "And so, that's what we did, and I think that's been those principles of building great products, but making sure that it operates like a platform and having an open ecosystem, I think has been kind of central.",
+          "quote": "You don't want to have packet loss in your storytelling from you to the person on the front line because-",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 201,
+          "seg": 461,
           "t": [
-            1133.633,
-            1150
+            2865.34,
+            2869.283
           ],
-          "quote": "We provide the networking, we provide the optics technology, we provide the safety and security technology, we provide the observability, we provide the data platform, all of those things together for making sure that we provide critical infrastructure for the AI era.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 637,
-          "t": [
-            3840.14,
-            3849.283
-          ],
-          "quote": "The platform that you choose and the quality of problems that you pick to solve actually determine a lot of the path of success for you.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 670,
-          "t": [
-            4032.988,
-            4049.974
-          ],
-          "quote": "I'm like, \"This guy is smarter than every person on the executive team and probably just as smart as every salesperson we have, but he's making $10 a day and all of us are enjoying this amazing life, and it's because we have access to a platform and he doesn't.\"",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 674,
-          "t": [
-            4071.462,
-            4075.103
-          ],
-          "quote": "And make sure that you pick the platform that can actually give you that springboard.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 676,
-          "t": [
-            4077.424,
-            4093.348
-          ],
-          "quote": "And if we, like I had the platform and benefit of America, of education, of being in tech, of having great friends and mentors, all of those things created compounding value.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 677,
-          "t": [
-            4094.068,
-            4108.012
-          ],
-          "quote": "But I intentionally sought out those platforms, seek out the platform, be obsessed about being extremely prepared, and don't be intellectually lazy.",
+          "quote": "This is just a direct connection and there's no packet loss of this one.",
           "speaker": "SPEAKER_0"
         }
       ]

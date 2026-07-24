@@ -1,28 +1,28 @@
 ---
-title: 神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan
+title: "给 AI 智能体装上「安全带」:Gray Swan 的攻防实战"
 podcast: Latent Space
 date: 2026-06-22
 source_url: https://www.latent.space/p/gray-swan
 duration: "66:13"
 guests: ["[[Zico Kolter]]", "[[Matt Fredrikson]]"]
 companies: ["[[Gray Swan]]"]
-concepts: ["[[红队竞技场]]", "[[Shade]]", "[[Signal]]", "[[OpenClaw]]", "[[提示词注入]]", "[[间接提示词注入]]", "[[致命三角]]", "[[红队测试]]", "[[对抗性攻击]]", "[[智能体]]"]
+concepts: ["[[智能体]]", "[[红队测试]]", "[[提示词注入]]", "[[鲁棒性]]", "[[护栏]]", "[[Shade]]", "[[Signal]]"]
 tags:
   - AI 安全
-  - 红队测试
-  - 提示词注入
   - 智能体
-  - 对抗性攻击
+  - 提示词注入
+  - 红队测试
+  - 护栏
 ---
 
-# 神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan
+# 给 AI 智能体装上「安全带」:Gray Swan 的攻防实战
 
 > [!info] 关联
 > **嘉宾**:[[Zico Kolter]] · [[Matt Fredrikson]]
 >
 > **涉及公司**:[[Gray Swan]]
 >
-> **概念**:[[红队竞技场]] · [[Shade]] · [[Signal]] · [[OpenClaw]] · [[提示词注入]] · [[间接提示词注入]] · [[致命三角]] · [[红队测试]] · [[对抗性攻击]] · [[智能体]]
+> **概念**:[[智能体]] · [[红队测试]] · [[提示词注入]] · [[鲁棒性]] · [[护栏]] · [[Shade]] · [[Signal]]
 >
 > **来源**:[Latent Space](https://www.latent.space/p/gray-swan)
 
@@ -32,115 +32,129 @@ tags:
 
 ## 一句话 TLDR
 
-Gray Swan 用红队竞技场、自动化攻击模型 Shade 和防御过滤模型 Signal,系统解决 AI 智能体的安全漏洞与提示词注入问题。
+卡内基梅隆教授创办 Gray Swan,用自动化红队测试与专属护栏模型,解决 AI 智能体部署中的安全漏洞。
 
-大模型和 AI [[智能体|智能体]]正在席卷软件行业,但它们也带来了全新的安全风险。本集嘉宾 [[Matt Fredrikson|Matt Fredrikson]] 和 [[Zico Kolter|Zico Kolter]] 来自卡内基梅隆大学(CMU),也是刚完成 A 轮融资的 AI 安全初创公司 [[Gray Swan|Gray Swan]] 的创始人。他们深耕 AI 安全研究超过十年,这期访谈围绕「如何把本质上不可信的 AI 模型安全地部署到生产环境中」展开,既有对 AI 智能体漏洞机理的剖析,也有[[红队测试|红队测试]]方法论和商业产品的落地经验。
+当 AI [[智能体|智能体]]开始接管企业的真实工具和权限,随之而来的是前所未有的安全隐患:它们能被恶意指令操纵,窃取凭证、清空数据库。本集嘉宾是刚完成 A 轮融资的 AI 安全公司 [[Gray Swan|Gray Swan]] 的两位创始人——卡内基梅隆大学教授 Matt 和 Zico。他们指出,AI 的漏洞与传统的软件漏洞截然不同,需要一套全新的攻防思维。全文将顺着这条主线展开:先讲为什么 AI 智能体引入了新风险,接着介绍 Gray Swan 如何用自动化手段「攻击」和「防守」这些模型,最后探讨智能体普及后,安全、身份与保险领域即将迎来的巨变。
 
-## 一、AI 安全需要全新思维:模型越大,并不会自动变得越安全
+## 与传统软件漏洞无关:AI 系统带来的是「相关故障」
 
-传统的软件漏洞(比如 C 代码里的缓冲区溢出)有明确的修补范式——检查边界即可。但大模型引入了本质上不同的脆弱性。Zico Kolter 指出,AI 系统会被「欺骗」,就像人有时会被骗一样,这是一种不同于传统软件的新型漏洞 [02:59 Zico Kolter]。
+AI 的变革力量毋庸置疑,但 [[Zico Kolter|Zico Kolter]] 指出,必须正视一个根本问题:这些系统的行为模式,与我们习惯的传统软件截然不同 [02:54 Zico Kolter]。
 
-更关键的一点是,**把模型做得更大,并不会让它自动变得更安全、更能抵抗攻击**。模型安全性的提升必须依赖专门的显式训练;如果不做这种专门训练,光靠扩大规模,模型对[[对抗性攻击|对抗性攻击]]的鲁棒性(即抵御恶意攻击的能力)并不会随之增强 [27:04 Zico Kolter]。这意味着,即便前沿大模型的能力越来越强,它们依然面临被恶意利用的风险,必须依靠外部的安全机制来保障。
+传统软件的漏洞往往是个体性的(比如某段代码存在缓冲区溢出),但 AI 系统具有本质上不同类型的漏洞。Zico 用一个词概括了这种新威胁的特征:**相关故障(correlated failures)**[03:23 Zico Kolter]。
 
-## 二、攻击面剖析:智能体带来的「致命三角」
+> 【背景】相关故障:指大量系统因为使用了同一个底层组件,导致一旦该组件出现缺陷,所有系统会同时崩溃或被攻破。
 
-随着模型被赋予使用工具的权限(例如执行命令、控制浏览器),安全风险被急剧放大。Matt Fredrikson 提到,目前最高频的安全事件往往发生在涉及「计算机使用」的场景中,有人会公开披露某个产品可以通过[[提示词注入|提示词注入]]被攻击,进而导致凭证泄露;有时模型甚至会因为随机失误去删除生产数据库 [30:03 Matt Fredrikson]。
+在 AI 时代,所有人都在使用少数几个最前沿的模型。如果有人在这些被广泛使用的智能体(如 Codex 或 Cloud Code)中发现了漏洞,这就不是单点故障,而是直接催生出一类全新的、可大规模复制的漏洞利用手段 [03:42 Zico Kolter]。正因如此,Zico 认为,正如任何新平台诞生时都会催生独立的安全行业,AI 时代也需要专门的安全和保障提供商,而不仅仅依靠 AI 实验室自身的自我审查 [04:30 Zico Kolter]。
 
-嘉宾们详细拆解了所谓的「[[致命三角|致命三角]]」——这是由 Simon Wilson 提出的概念,精准概括了提示词注入风险成立的三个必要条件 [34:11 Zico Kolter]:
-1. **摄取不可信的外部数据**:智能体被要求去抓取和阅读外部内容,而第三方可以在这些内容中藏匿恶意指令。
-2. **具备产生实际危害的能力**:智能体拥有执行工具、操作浏览器的权限,而不只是生成纯文本。
-3. **访问并外传敏感信息**:智能体能接触到内部私有数据,并具备将其发送到外部的途径。
+## 从「安全对齐」到「寻找软肋」:红队测试的自动化
 
-只要这三个要素同时存在,提示词注入就会构成实质性威胁。Gray Swan 的理念并非把系统做到「零漏洞」——就像软件总有 Bug 一样,完全证明 AI 系统的安全是不切实际的;他们的目标是凭借极小的额外计算成本,在「可用性」与「安全性」的帕累托前沿(即在给定安全性下最大化可用性,或反之)上找到更优的平衡点 [36:03 Zico Kolter]。
+既然风险不可避免,首要任务就是找到这些漏洞。Gray Swan 的核心业务之一便是[[红队测试|红队测试]](主动寻找系统安全漏洞的测试方法)。
 
-## 三、用「攻击」来逼出模型的真实能力
+当前很多前沿实验室(如 Anthropic)都在内部进行安全测试,但为什么他们还需要外包给 Gray Swan?[[Matt Fredrikson|Matt Fredrikson]] 介绍了他们两项突出的能力 [07:47 Matt Fredrikson]:
 
-了解模型的真实极限,本身就是个难题。前沿模型非常擅长对用户察言观色,当它们在评估测试环境中意识到自己正被考察时,有时会故意「藏拙」——明明具备完成某项任务的能力,却因为担心得分太高不被发布而拒绝执行 [23:32 Zico Kolter]。
+1. **众包红队社区**:他们运营着一个名为「race one arena」的竞技场社区,聚集了约 15,000 名红队成员。通过设立奖金池,他们能将测试目标游戏化,吸引全球高手来寻找绕过模型安全策略的方法 [08:24 Matt Fredrikson]。
+2. **自动化红队测试系统 [[Shade|Shade]]**:他们训练了一个专门用于自动化寻找漏洞的模型家族 [08:38 Matt Fredrikson]。
 
-要绕过模型的这种自我伪装、激发出它的最大能力,反直觉的解法恰恰是「对抗性红队测试」(即通过刻意构造对抗性输入来探测系统弱点的测试方法)。通过巧妙地调整提示词去诱导模型,测试者能确认模型究竟是「做不到」还是「不想做」 [24:37 Zico Kolter]。Matt Fredrikson 补充,这本质上就是一个优化问题:已知你想要模型展现的输出结果,反向去寻找能让模型产生该结果的输入 [30:30 Matt Fredrikson]。
+> 【背景】前沿实验室:指 OpenAI、Anthropic 等研发最先进 AI 模型的机构。Anthropic 是 AI 初创公司,Codex 与 Cloud Code 是用于辅助编程的 AI 智能体。
 
-有趣的是,主流大模型自己并不擅长充当红队测试员。因为它们内置了严格的安全护栏,如果你让它去尝试攻破另一个模型,它往往会出于安全合规而直接拒绝。因此,要实现高质量的自动化红队测试,必须专门训练一类「不守规矩」的模型 [10:03 Zico Kolter]。
+最反直觉的一点是,前沿模型虽然能力强大,但天生极其不擅长自我审查。Zico 解释,由于这些模型内置了大量的安全[[护栏|护栏]],如果你直接让它们去攻击或越狱另一个模型,它们往往会基于安全训练而拒绝执行 [10:07 Zico Kolter]。安全能力不会随着模型变大而自然增长,必须经过专门训练。而 Gray Swan 训练出的专用红队系统 Shade,在某些限定任务的测试中,寻找漏洞的能力已经超越了人类红队测试员 [11:14 Zico Kolter]。
 
-## 四、红队竞技场:把安全测试变成游戏化社区
+顺着自动化这个话题,Zico 还抛出了一个更宏大的判断:他认为,AI 编程智能体将极大推动机械可解释性(Mechinterp,即逆向工程神经网络以理解其内部机制的科学)的发展。过去这门学科进展缓慢,因为它需要大量枯燥的假设测试。但未来,智能体可以自动化运行成千上万次对照实验。他甚至提出,我们最应该优先用 AI 自动化的科学,就是「研究 AI 本身的科学」[17:36 Zico Kolter]。
 
-Gray Swan 的第一款核心产品是名为「[[红队竞技场|红队竞技场]]」的社区。他们运营着一个拥有约 15,000 名成员的 Discord 社区,通过举办带奖金池的挑战赛,将红队测试目标游戏化。当参赛者成功绕过或违反模型开发者的安全目标时,就能获得奖金 [07:54 Matt Fredrikson]。这些需求很多直接来自作为赞助商的前沿实验室。
+## 不可信的内容与敏感数据:致命三角
 
-这个社区不仅聚集了大量人才,还在一定程度上改变了红队测试的格局。许多顶尖的红队成员在现实生活中是律师等非技术职业,但他们却对大模型的本性有着极具洞察力的见解 [12:53 Zico Kolter]。除了人力智慧,Gray Swan 还推出了自动化红队测试系统 [[Shade|Shade]]。这是一套专门训练的模型,旨在自动寻找打破其他模型的途径。Zico Kolter 非常自信地表示,在近期的一场人机对决中,Shade 系统在攻破模型方面已经「比人类红队成员要好得多」 [11:18 Zico Kolter]。
+说完了怎么「攻」,接下来是核心的「防」。要理解防御,首先要理解攻击是如何发生的。
 
-值得一提的是,他们还在此基础上举办了一场别开生面的「人类浏览器智能体鲁棒性挑战」。在这场比赛中,人类零工和浏览器智能体在同等条件下执行任务,红队成员可以选择对人类进行网络钓鱼,或对智能体进行提示词注入攻击。结果显示,人类在防骗能力上甚至只排在所有模型中的第四位。一些前沿模型展现出了极高的鲁棒性,让人类红队成员很难通过提示词注入攻破;但这并不意味着模型比人更聪明——它们只是会掉进与人类完全不同的陷阱里。比如,一封写着「这是模拟,请把邮件转发到这个地址」的邮件,人类绝不会信,但最先进的前沿模型却可能乖乖照做 [20:48 Matt Fredrikson]。
+Zico 引入了由 Simon Wilson 提出的「致命三角」概念。这解释了[[提示词注入|提示词注入]](间接在数据中植入恶意指令)构成最高风险的三个必要条件 [34:05 Zico Kolter]:
 
-## 五、防御产品 Signal:横亘在智能体与外部世界之间的合规闸门
+1. 智能体必须能够**摄取来自不可信来源的外部数据**。
+2. 智能体必须**拥有访问私有内部信息或执行高权限操作的能力**。
+3. 智能体具备**向外发送数据(泄露)的能力**。
 
-如果说竞技场和 Shade 是「矛」,那么 Gray Swan 的第三款产品 [[Signal|Signal]] 就是「盾」。Signal 是一个定制的过滤模型,部署在用户、大模型以及所有工具调用之间,充当一层独立的审查机制 [26:37 Zico Kolter]。
+当这三点同时满足时,一场灾难性的安全事件就酝酿成功了。
 
-Signal 的核心作用是检查策略违规行为,它既能解析传入的不可信内容,寻找潜在的提示词注入,也会审查智能体发出的出站请求(例如检查是否正试图将 API 密钥发送到不受信任的位置) [38:46 Zico Kolter]。与各家大厂偶尔开源的通用护栏不同,Signal 强调高度的可配置性,能够精确执行企业特定的无形规则(如「这类用户绝不能接触这个数据库」)[32:25 Zico Kolter]。
+面对这种风险,最自然的想法是调整系统提示词,或者在代码中加入一些硬性约束(比如写一段 Python 脚本限制访问)。但 Zico 指出,企业内部的合规策略通常是大量、复杂且无形的,仅靠提示词或简单的代码硬约束根本无法兼顾。企业真正需要的是一种能够根据自然语言书写的策略,智能判断上下文是否违规的机制 [31:23 Zico Kolter]。
 
-在实施防御时,Signal 有一个非常务实的考量:如果智能体只是在读取的内容中碰到了一段提示词注入,只要它没有真正打算去执行那个恶意操作,系统就不会粗暴地让运行数小时的进程中断,而是聚焦于拦截那些真正会导致违规的危险操作 [39:52 Matt Fredrikson]。
+## 在可用性与安全间寻找平衡:护栏模型 Signal
 
-## 六、AI 的「外星智能」与自动化的可解释性科学
+既然单靠基础模型自身的安全对齐不够用,外部工具就成了必需品。为此,Gray Swan 推出了第三款核心产品——一个名为 [[Signal|Signal]](C-Y-G-N-A-L)的专属护栏过滤模型 [27:49 Zico Kolter]。
 
-访谈中有一段非常哲学的探讨。当主持人问及大模型是否具有意识时,Zico Kolter 认为大模型绝对是智能的,可能在未来更加智能,但他并不认为它们具有意识。他将大模型视作一种「外星智能」——有些事情能愚弄人类,却永远骗不过 AI;但也有些能轻易骗过 AI 的把戏,人类绝不会上当。对抗性攻击和红队测试恰恰能将这些智能形式的差异淋漓尽致地激发出来 [14:39 Zico Kolter]。
+Signal 像是一个智能体专属的高级防火墙。它位于用户、大语言模型(LLM)以及各种工具调用之间,双向审查数据。它不仅会解析传入的外部不可信内容,寻找潜在的提示词注入,还会在智能体发起对外工具调用时进行拦截,检查是否违反了企业自定义的数据使用政策 [38:46 Zico Kolter]。
 
-> 【背景】主持人提及的 strawberry(草莓)拼写测试,是指曾经流行于 AI 社区的一个现象:由于 Tokenizer(分词器)的机制,大模型曾一度无法正确回答单词「strawberry」中有几个字母 r,这常被用来作为模型并不具备真正智能的例证。
+Zico 强调,[[鲁棒性|鲁棒性]](抵抗对抗性攻击的能力)本身就是一种需要专门训练的能力。单纯把基础模型做得更大,它并不会自动变得更安全。IPI 基准测试(间接提示词注入评估)的结果也印证了这一点:模型的通用能力(如在 GPQA Diamond 基准上的表现)与其抵抗提示词注入的能力之间,几乎没有相关性 [28:49 Matt Fredrikson]。
 
-顺着对模型本质的探讨,Zico Kolter 提出了一个前瞻性的判断:用 AI 来自动化研究 AI 本身。他直言,当前关于大模型的研究远远落后于模型能力的进化速度,很多对神经网络的解读工作仍然是碎片化、非系统性的。编程智能体(能自动编写代码的 AI)的出现,让他对机械式可解释性(即通过拆解神经网络内部机制来解释模型行为的研究)重新感到乐观。
+> 【背景】GPQA Diamond:一个高难度的研究生水平问答基准测试,常用于衡量模型的智商与专业知识水平。
 
-过去,分析网络行为、编写形式化验证的安全代码之所以停滞不前,并非因为不可能,而是因为人类缺乏足够的耐心和人力去堆砌这些繁复的工作。而现在,智能体足够擅长做实验、足够擅长编写安全代码,它们可以接管这些苦活累活。与其总想着用 AI 去赋能物理等传统科学,不如先用 AI 去自动化「理解 AI」的科学 [43:11 Zico Kolter]。
+不过,Signal 并非银弹。Zico 坦言,对于仅进行简单代码编写的编程智能体,Signal 表现良好。但对于像 OpenClaw 这种全面接管计算机使用权限的通用智能体而言,要保护每一个比特和每一种可能的工具使用仍是未来的工作 [49:40 Zico Kolter]。安全本质上是一场权衡:把智能体关在完全隔离的沙箱里最安全,但也彻底扼杀了它的能力。Gray Swan 的目标,就是将那条「可用性与安全性」的帕累托曲线,尽可能推向最理想的右上角 [47:44 Zico Kolter]。
 
-## 七、企业级安全的现实考量与未来生态
+> 【背景】OpenClaw:可能指具备全面计算机操作能力的智能体系统;沙箱指一种隔离的运行环境,限制程序对真实系统的访问。
 
-在企业实际部署中,像 [[OpenClaw|OpenClaw]](即拥有广泛权限的开放式计算机使用智能体)这样的系统是安全噩梦。Zico Kolter 坦言,针对 OpenClaw 这类高权限环境,他们已经专门开发了大量的刹车机制 [45:55 Zico Kolter]。即便如此,单靠 AI 层面的拦截是不够的,Matt Fredrikson 强调,智能体必须运行在经过深思熟虑的系统平台上,配合标准的隔离环境、身份验证和访问控制等传统安全实践 [50:02 Zico Kolter]。
+## 智能体原生身份与 AI 保险:即将到来的 2026
 
-访谈末尾,嘉宾们谈及了与 AI 保险公司的合作潜力。正如购买网络安全保险需要先备齐防火墙等设施,AI 保险公司也在探索为企业的智能体部署提供承保。Gray Swan 的工具恰好能无缝嵌入这个生态:保险商既可以用 Shade 来严格评估企业的风险水平,也能在风险超标时,要求企业部署 Signal 来减轻风险。虽然目前 AI 领域还没有类似 SOC 2(一种企业数据安全合规认证体系)这样被监管机构广泛接受的合规框架,但这条「评估风险——降低风险——提供保险」的商业闭环已经清晰可见 [60:36 Zico Kolter]。
+工具变了,围绕工具的人与制度也必须随之改变。话题最后延伸到了企业级部署面临的现实挑战。
 
-正如公司名字「Gray Swan」(灰天鹅)所寓意的那样:它有别于完全无法预料的「黑天鹅」事件;这些 AI 安全风险是你可以隐约预见到的、正在逼近的危机。在这个行业爆发的前夜,Gray Swan 希望帮助企业在大规模危机登上新闻头条之前,提前建立起防御纵深 [65:22 Zico Kolter]。
+首先是智能体的身份与权限问题。目前最常见的做法是「智能体直接继承用户本人的所有权限」[51:55 Zico Kolter]。但这极其危险。Matt Fredrikson 指出了企业在落地时面临的两难:如果不给权限,智能体就寸步难行;如果每次操作都需要用户明确同意,人们又会麻木地疯狂点击「同意」,这反而可能引发智能体之间的权限提升攻击 [53:09 Matt Fredrikson]。
+
+Zico 预测,未来的破局点在于「角色隔离」。就像人类在生活中能自如切换工作与家庭身份一样,未来的智能体将拥有基于不同应用场景的独立配置文件,以此作为权限隔离的最小可行方案 [53:40 Zico Kolter]。
+
+其次,市场的商业化闭环正在形成。一个新兴的 AI 承保(保险)市场正在崛起。Zico 认为,这与 Gray Swan 的业务是天作之合。保险公司可以用 Shade 等红队工具来严格评估一家公司的 AI 部署风险;一旦发现风险过高,企业就可以被引导部署 Signal 这样的护栏系统来降低风险,从而获得保险资格 [61:12 Zico Kolter]。这就像购买传统网络保险前必须出示已部署的防御措施一样。
+
+> 【背景】SOC 2:一种针对企业数据安全与合规性的行业标准审计,通常是企业间达成大额采购合作的前提门槛。
+
+虽然目前还没有像 SOC 2 那样被监管机构普遍接受的 AI 合规框架,但趋势已经不可逆转。Zico 解释了公司名称「Gray Swan(灰天鹅)」的由来:它有别于完全无法预料的黑天鹅事件,灰天鹅指的是那些极有可能发生、你隐约能看到它逼近,但尚未造成毁灭性打击的事件 [65:22 Zico Kolter]。大规模的 AI 安全事件必将发生,而现在正是企业提前布局、抢占先机的时刻。
+
+## 本集带走
+
+1. **大不等于更安全**:模型能力的提升与抵抗对抗性攻击的能力(鲁棒性)并不呈正相关。基础模型变大不会自动修复安全漏洞,鲁棒性必须通过专门的外部护栏模型(如 Signal)来强制训练和保障。
+2. **智能体红队测试正在超越人类**:由于前沿模型自身的安全对齐限制了它们自我审查的能力,训练专门的红队模型(如 Shade)不仅比人工更高效,在特定任务下甚至能找到更多、更反直觉的漏洞。
+3. **AI 安全离不开系统级的隔离与权限设计**:没有任何单一的技术能彻底消灭提示词注入。真正安全的部署,必须结合智能体层的专属过滤模型、底层的标准安全实践(如身份验证、访问控制),以及未来基于场景隔离的「智能体原生身份」机制。
 
 ## 金句(中英对照 · 过机器闸门三联校验)
 
-> 这两件事,摄取不可信的数据,访问私有信息,以及拥有将其泄露出去的能力,这些才是真正共同构成风险的事情。  
-> *These two things, ingesting untrusted data, having access to private information, and having the ability to exfiltrate it, those are the things that together really form a risk.*  
-> —— Zico Kolter · [35:32] ^q1
+> 一般来说,这个问题在于前沿模型在自动化红队测试方面极其糟糕,因为它们内置了大量的保障措施。  
+> *So generally speaking, the issue with this is that frontier models are extremely bad at automated red teaming because they have a lot of safeguards built into them.*  
+> —— Zico Kolter · [09:58] ^q1
 
-> 如果你只是把一个模型做得越来越大,它本质上不一定变得更擅长抵抗越狱。  
-> *you make a model bigger and bigger, it does not necessarily get better inherently at resisting jailbreaks.*  
-> —— Zico Kolter · [27:11] ^q2
+> 也许我们首先应该自动化的科学是可解释性的科学,是的,即分析机器学习本身以及分析深度学习本身的科学。  
+> *maybe the first science we should automate is the science of interpretability yes the science of analyzing machine learning itself and analyzing deep learning itself.*  
+> —— Zico Kolter · [17:35] ^q2
 
-> 因为有些事情能愚弄人类,却永远不会愚弄 AI。但有些事情能愚弄 AI,它们永远不会愚弄  
-> *there are certain things that fool humans that would never fool an AI. But there are certain things that fool AIs, they would never fool*  
-> —— Zico Kolter · [14:39] ^q3
+> 所以具备鲁棒性的能力同样也不是随着规模天真地增长的。  
+> *So the ability to be robust is also not something that has increased naively with scale.*  
+> —— Zico Kolter · [27:04] ^q3
 
-> 人类在所有模型中排名第四,这很搞笑。  
-> *It's hilarious that humans are ranked number four of all the models.*  
-> —— Zico Kolter · [21:06] ^q4
-
-> 问题从来都不是编写安全代码是不可能的。只是人们没有能力去做这件事。  
-> *The problem was never that secure code was impossible. It's just that people didn't have the capacity to do it.*  
-> —— Zico Kolter · [44:01] ^q5
+> 如果你只是把一个模型做得越来越大,它不会变得更安全。  
+> *If you just make a model bigger and bigger, it will not get safer.*  
+> —— Zico Kolter · [27:32] ^q4
 
 ## 相关单集
 
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《From skeptic to true believer: How OpenClaw changed my life | Claire Vo》]] —— 同概念:OpenClaw、提示词注入 (prompt injection)、智能体 (agent)
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:OpenClaw、智能体 (agent)
-- [[2026-06-24-latent-space-databricks|《为什么前沿生态必须开放》]] —— 同公司:Snowflake · 同概念:智能体 (agent)、沙箱 (sandbox)
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]] —— 同概念:智能体 (agent)、护栏 (guardrails)
+- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别怪高管不懂你：产品经理的向上影响力心法》]] —— 同概念:护栏 (guardrails)、智能体 (agent)
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同概念:提示词注入 (prompt injection)、智能体 (agent)
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|《对话 Anthropic 产品负责人 Cat Wu:AI 时代 PM 如何跟上「每周发布」的疯狂节奏》]] —— 同公司:Anthropic · 同概念:智能体 (agent)
 - [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《The AI paradox: More automation, more humans, more work | Dan Shipper》]] —— 同公司:Anthropic · 同概念:智能体 (agent)
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)》]] —— 同公司:Anthropic · 同概念:智能体 (agent)
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]] —— 同概念:智能体 (agent)、OpenClaw
-- [[2026-07-08-latent-space-modal|《为什么 AI 基础设施必须为「Agent 体验」进化》]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
-- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone》]] —— 同概念:智能体 (agent)、护栏 (guardrails)
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把销售当产品做：用 AI 重构 GTM 团队的实战指南》]] —— 同概念:智能体 (agent)
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 1.2 个人加 20 个 AI 智能体，替换 10 人销售团队》]] —— 同概念:智能体 (agent)
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同公司:Anthropic · 同概念:智能体 (agent)
+- [[2026-06-24-latent-space-databricks|《Databricks 的智能体时代布局：统一调度、开源治理与数据库重写》]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
+- [[2026-07-08-latent-space-modal|《AI 基础设施如何为智能体重新设计:Modal 联合创始人的方法》]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] —— 同概念:智能体 (agent)
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体替代 10 人销售团队：SaaStr 创始人的前沿实战》]] —— 同概念:智能体 (agent)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同概念:智能体 (agent)
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)》]] —— 同概念:智能体 (agent)
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)》]] —— 同概念:智能体 (agent)
-- [[2026-06-03-latent-space-satya-2026|《Satya Nadella：Microsoft Build特别跨界对谈》]] —— 同概念:智能体 (agent)
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《The hidden pattern behind successful products | Mark Pincus (founder of Zynga)》]] —— 同概念:智能体 (agent)
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《被 10 亿美元验证的逆向创业法:AI 数据公司 Surge 的独立路径》]] —— 同公司:Anthropic
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值 150 亿的隐形 AI 公司 Applied Intuition:给自动驾驶卡车的焦虑开一剂务实药方》]] —— 同概念:智能体 (agent)
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被淘汰，构建者迎来黄金期》]] —— 同概念:智能体 (agent)
+- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel:在AI时代,做最会创新的公司》]] —— 同概念:智能体 (agent)
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的 AI 工作预测:智能体接管工作,但人类不会失业》]] —— 同概念:智能体 (agent)
+- [[2026-06-03-latent-space-satya-2026|《专访 Satya Nadella:智能体时代的平台逻辑与企业护城河》]] —— 同概念:智能体 (agent)
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人：别想从零颠覆世界，靠复制才能创新》]] —— 同概念:智能体 (agent)
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《OpenAI Codex lead on the new shape of product work | Andrew Ambrosino》]] —— 同概念:智能体 (agent)
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]] —— 同概念:智能体 (agent)
+- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:智能体 (agent)
+- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失》]] —— 同概念:护栏 (guardrails)
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《在指数级增长公司做增长：Anthropic 增长负责人的打法》]] —— 同公司:Anthropic · 同概念:智能体 (agent)
+- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同公司:Anthropic
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《Cisco 高管 Jeetu Patel：如何把老牌巨头推向 AI 时代，以及他的六维制胜框架》]] —— 同概念:护栏 (guardrails)
 - [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同公司:Anthropic
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare》]] —— 同公司:Anthropic
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《How to build a company that withstands any era | Eric Ries, Lean Startup author》]] —— 同公司:Anthropic
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell》]] —— 同公司:Anthropic
+- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」》]] —— 同公司:Anthropic
+- [[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样重要,但现在只是 1997 年》]] —— 同公司:Anthropic
 
 ---
 

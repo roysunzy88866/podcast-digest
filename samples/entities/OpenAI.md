@@ -6,34 +6,36 @@ entity_type: 公司
 # OpenAI
 
 > [!info] 公司
-> 出现在 8 集 · 金句 1 条 · 关联 10 个
+> 出现在 9 集 · 金句 1 条 · 关联 10 个
 
 ## 集里怎么说它
 
-- **[[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把销售当产品做：用 AI 重构 GTM 团队的实战指南》]]**(15:16起):本集举例时提到，OpenAI 虽然员工数顶多是中端市场，但由于它是互联网上前 25 的流量网站，因此在 Vercel 的细分里被推向了企业级销售。
-- **[[2025-12-07-lennys-surge-ai-edwin-chen|《被 10 亿美元验证的逆向创业法:AI 数据公司 Surge 的独立路径》]]**(03:49起):本集提到其 ChatGPT 存在「谄媚」(不停夸赞用户)的问题,并作为代际成功公司的早期加入者案例被顺带提及。
-- **[[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]]**(08:56起):本集提到使用 OpenAI 的 Codex 模型和开发工具辅助编写代码，并引用了其前工程师关于把 AI 当作团队队友的建议。
-- **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare》]]**(00:23起):本集说它是先抢发ChatGPT从而获得先发优势的竞争对手，它的消费级聊天机器人获得了疯狂的吸引力。
-- **[[2026-05-10-lennys-how-to-build-a-company-that-withstands|《How to build a company that withstands any era | Eric Ries, Lean Startup author》]]**(00:07起):本集说它和 Anthropic 一样采用了公益公司（PBC）等替代治理结构，并且指出当今几乎所有主要的 AI 实验室都采用了这种结构以保护其使命免受纯粹的资本裹挟。
-- **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《The AI paradox: More automation, more humans, more work | Dan Shipper》]]**(08:12起):本集说它在编程智能体上曾落后于 Anthropic，但靠 Codex 桌面应用成功追赶甚至超越，并预测它会推出云端管理的智能体。
-- **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell》]]**(06:46起):本集把它说成:目前像病毒式传播的技术演示,产品定位模糊不清,客户不知道该把它的诸多功能用在哪,正面临因缺乏产品营销思维而被 Anthropic 追赶的危机。
-- **[[2026-06-14-lennys-the-common-pattern-behind-successful|《The hidden pattern behind successful products | Mark Pincus (founder of Zynga)》]]**(01:50起):本集讨论了它作为大模型厂商的竞争格局,指出 OpenAI 等目前都在卷“编程”,但缺乏面向消费者的差异化,未来需要长出一套 AI 应用和智能体平台。
+- **[[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]]**(15:16起):作为 Vercel 客户的典型案例被提及，因其虽然员工人数处于中端市场，但网站流量极高（互联网前25），故被 Vercel 划分为需要深度服务的企业级市场。
+- **[[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《Cisco 高管 Jeetu Patel：如何把老牌巨头推向 AI 时代，以及他的六维制胜框架》]]**(08:56起):本集提到：ChatGPT 是促成本轮 AI 浪潮的决定性时刻；嘉宾团队在用 OpenAI 的模型和开发工具（Codex）时，意识到不该把它当工具，而该当成「队友」。
+- **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《在指数级增长公司做增长：Anthropic 增长负责人的打法》]]**(00:23起):本集作为行业竞品被提及。嘉宾指出 Anthropic 历史上资金匮乏,没有 OpenAI 的先发优势;并提到 OpenAI 发布 ChatGPT 后取得了疯狂的吸引力。
+- **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《前 GitHub、现 Notion 产品负责人 Max:每个项目的前 10% 现在免费了》]]**(05:26起):本集多次顺带提及的竞争对手或行业前沿代表，用于讨论模型代码能力的指数级进步，以及行业竞争防止权力集中。
+- **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的 AI 工作预测:智能体接管工作,但人类不会失业》]]**(08:12起):本集指出该公司曾落后于 Anthropic，但在发布 GPT 5.3 后推出 Codex 桌面应用开始追赶并反超。
+- **[[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样重要,但现在只是 1997 年》]]**(00:17起):本集将其描述为最前沿的 AI 实验室之一，不仅没有裁員反而在持续增加人手，斥巨资投资咨询服务和前向部署工程师；同时在努力建立分发渠道，以防范被巨头边缘化的焦虑。
+- **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Tony Fadell：造出 iPod 和 iPhone 的人，怎么看 AI 时代的造物法则》]]**(06:46起):本集把它说成:像早期的网景浏览器一样,虽然是个引发轰动的工具,但用户不知道每天拿它干嘛、缺乏明确产品定义的纯技术导向公司。
+- **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《OpenAI Codex lead on the new shape of product work | Andrew Ambrosino》]]**(00:00起):本集嘉宾 Andrew 所在的公司，内部近 100% 的员工都在使用 Codex，公司文化鼓励每个人发挥极强的主观能动性去构建一切。
+- **[[2026-07-08-latent-space-modal|《AI 基础设施如何为智能体重新设计:Modal 联合创始人的方法》]]**(55:31起):本集被提及为下场做托管智能体的 AI 巨头之一;同时提到 Gitpod 团队后来加入了 OpenAI。
 
 ## 金句
 
-![[2025-12-28-lennys-10-contrarian-leadership-truths#^q18]]
+![[2026-03-08-lennys-the-most-successful-ai-company-youve-nev#^q4]]
 
 ## 出现在这些集
 
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把销售当产品做：用 AI 重构 GTM 团队的实战指南》]] — 作为被讨论公司(提及)
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《被 10 亿美元验证的逆向创业法:AI 数据公司 Surge 的独立路径》]] — 作为被讨论公司(提及)
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]] — 作为被讨论公司(提及)
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare》]] — 作为被讨论公司(提及)
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《How to build a company that withstands any era | Eric Ries, Lean Startup author》]] — 作为被讨论公司
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《The AI paradox: More automation, more humans, more work | Dan Shipper》]] — 作为被讨论公司
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell》]] — 作为被讨论公司
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《The hidden pattern behind successful products | Mark Pincus (founder of Zynga)》]] — 作为被讨论公司
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] — 作为被讨论公司(提及)
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《Cisco 高管 Jeetu Patel：如何把老牌巨头推向 AI 时代，以及他的六维制胜框架》]] — 作为被讨论公司(提及)
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《在指数级增长公司做增长：Anthropic 增长负责人的打法》]] — 作为被讨论公司(提及)
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《前 GitHub、现 Notion 产品负责人 Max:每个项目的前 10% 现在免费了》]] — 作为被讨论公司(提及)
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的 AI 工作预测:智能体接管工作,但人类不会失业》]] — 作为被讨论公司(提及)
+- [[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样重要,但现在只是 1997 年》]] — 作为被讨论公司
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Tony Fadell：造出 iPod 和 iPhone 的人，怎么看 AI 时代的造物法则》]] — 作为被讨论公司
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《OpenAI Codex lead on the new shape of product work | Andrew Ambrosino》]] — 作为被讨论公司
+- [[2026-07-08-latent-space-modal|《AI 基础设施如何为智能体重新设计:Modal 联合创始人的方法》]] — 作为被讨论公司(提及)
 
 ## 关联实体
 
-[[Lenny]] · [[Anthropic]] · [[智能体]] · [[Claude]] · [[基准测试]] · [[Claude Code]] · [[微管理]] · [[Jeanne DeWitt Grosser]] · [[Edwin Chen]] · [[Jeetu Patel]]
+[[Lenny]] · [[Anthropic]] · [[智能体]] · [[ChatGPT]] · [[Claude Code]] · [[Cowork]] · [[GitHub]] · [[Codex]] · [[PRD]] · [[主观能动性]]

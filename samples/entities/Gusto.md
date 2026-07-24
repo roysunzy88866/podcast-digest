@@ -18,4 +18,4 @@ entity_type: 公司
 
 ## 关联实体
 
-[[Claire Vo]] · [[Eddie Kim]] · [[联合创始人]] · [[vibe code]] · [[垃圾桶法]] · [[拉取请求]] · [[功能标志]] · [[智能体]] · [[智能体循环]] · [[Cloud Code]]
+[[Claire Vo]] · [[Eddie Kim]] · [[联合创始人]] · [[vibe code]] · [[垃圾桶法]] · [[拉取请求]] · [[功能开关]] · [[智能体]] · [[智能体循环]] · [[Cloud Code]]

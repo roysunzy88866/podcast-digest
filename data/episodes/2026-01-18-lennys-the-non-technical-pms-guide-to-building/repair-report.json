@@ -2,26 +2,26 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "07:17",
+      "timestamp": "11:29",
       "speaker": "Zevi Arnovitz",
       "trimmed": false,
-      "tsWas": "07:16",
+      "tsWas": "11:36",
       "spkWas": "Zevi Arnovitz"
     },
     {
       "i": 2,
-      "timestamp": "28:18",
+      "timestamp": "41:35",
       "speaker": "Zevi Arnovitz",
-      "trimmed": false,
-      "tsWas": "28:18",
+      "trimmed": true,
+      "tsWas": "41:35",
       "spkWas": "Zevi Arnovitz"
     },
     {
       "i": 3,
-      "timestamp": "35:17",
+      "timestamp": "11:29",
       "speaker": "Zevi Arnovitz",
-      "trimmed": true,
-      "tsWas": "35:17",
+      "trimmed": false,
+      "tsWas": "11:36",
       "spkWas": "Zevi Arnovitz"
     },
     {
@@ -33,29 +33,27 @@
       "spkWas": "Zevi Arnovitz"
     },
     {
-      "i": 5,
-      "timestamp": "62:43",
-      "speaker": "Lenny",
-      "trimmed": false,
-      "tsWas": "62:43",
-      "spkWas": "Zevi Arnovitz"
-    },
-    {
       "i": 6,
-      "timestamp": "52:45",
+      "timestamp": "66:41",
       "speaker": "Zevi Arnovitz",
       "trimmed": false,
-      "tsWas": "52:45",
+      "tsWas": "66:41",
       "spkWas": "Zevi Arnovitz"
     },
     {
       "i": 7,
-      "timestamp": "55:08",
+      "timestamp": "64:33",
       "speaker": "Zevi Arnovitz",
       "trimmed": false,
-      "tsWas": "55:16",
+      "tsWas": "64:42",
       "spkWas": "Zevi Arnovitz"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 5,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "I think there's a misconception with a lot of PMs that the job is always having the right answers and being the smartest person in the room."
+    }
+  ]
 }

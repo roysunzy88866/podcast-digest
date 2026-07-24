@@ -10,8 +10,8 @@ entity_type: 人物
 
 ## 出现在这些集
 
-- [[2026-07-08-latent-space-modal|《为什么 AI 基础设施必须为「Agent 体验」进化》]] — 作为联合主持
+- [[2026-07-08-latent-space-modal|《AI 基础设施如何为智能体重新设计:Modal 联合创始人的方法》]] — 作为联合主持
 
 ## 关联实体
 
-[[swyx]] · [[Akshat Bubna]] · [[Modal]] · [[Kubernetes]] · [[无服务器]] · [[沙箱]] · [[智能体]] · [[推理]] · [[GPU 快照]] · [[投机解码]]
+[[swyx]] · [[Akshat Bubna]] · [[Modal]] · [[Kubernetes]] · [[智能体]] · [[沙箱]] · [[推理]] · [[投机解码]] · [[智能体体验]] · [[Anthropic]]

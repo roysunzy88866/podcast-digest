@@ -1,1 +1,159 @@
-{"title_zh":"产品增长停滞怎么办?Jason Cohen 的诊断四步法","tldr":"用流失率、定价、NRR 和渠道四道诊断漏斗,揪出 SaaS 增长停滞的病根。","digest_md":"Jason Cohen 是一位四次创业者,亲手打造了两家独角兽公司(其中包括 WP Engine),同时在线写作分享产品智慧已有约 20 年 [36:06 Lenny]。很多产品团队都经历过这样的痛苦:产品有起色、在增长,然后突然卡住了 [08:42 Lenny]。本集 Jason 带来了一套非常实用的诊断框架:面对增长停滞,不要盲目加快脚步,而是按顺序问自己四个问题——**客户流失、定价策略、净收入留存、获客渠道**。前三个关于产品和商业模式,最后一个是人和方向。带着这张地图,我们来逐一拆解。\n\n### 第一步:客户为什么离开?看「客户流失」里的数学\n\n第一个要问的问题是:**客户流失率太高了吗?** [11:30 Jason Cohen] Jason 之所以把它排在首位,是因为它是有序排查的第一道关卡——如果产品根基有致命问题(客户正在大批逃离),后面优化定价或搞新营销都没用 [11:15 Jason Cohen]。\n\n流失最可怕的地方在于它的**数学特性**。很多人觉得月流失 5% 还能接受,但 Jason 提出了一个让人后背发凉的算法 [14:08 Jason Cohen]:获客营销的产出往往是线性的(比如 AdWords 每月带来固定数量的新客户),但流失是按你总客户基数的百分比计算的。这意味着随着公司变大,流失的**绝对数量**会像滚雪球一样自动追赶并最终压倒营销带来的新增 [14:43 Jason Cohen]。\n\n这会推导出一个残酷的「天花板」公式:**每月新增客户数 ÷ 月流失率 = 公司客户规模的终极上限** [16:29 Jason Cohen]。假设你每月获客 100 家,流失率是 5%,那么 100 ÷ 5% = 2000。无论营销多卖力,这家公司的客户数永远不可能超过 2000 个 [16:48 Jason Cohen]。\n\n既然流失如此致命,该怎么降低它?Jason 给出了具体建议。首先,不要迷信客户取消时填写的下拉菜单原因(比如太贵、项目结束),往往客户只是顺手选了第一个选项,完全充满噪音 [19:13 Jason Cohen]。更好的做法是问开放式问题,而且要把「你为什么取消?」改成「**是什么让你取消?**」 [19:46 Jason Cohen]。\n\n> 【背景】这招来自一家叫 Groove 的公司,他们仅凭改动这一句文案,有效回复率从 10% 翻倍到了 20%。\n\n当客户说「太贵了」时,千万别信。一个早就看过定价页并掏了钱的客户,说明价格本在预期内 [20:51 Jason Cohen]。真正的病根往往隐藏得更深(比如缺少关键的软件集成)。就像在医疗诊断中,病人死亡的表象是「停止呼吸」,但真正的病因可能是「未确诊的糖尿病」 [22:09 Jason Cohen]。产品经理要像医生一样,追问比表面借口「更根本的原因」。\n\n此外,与其等客户取消后去挽回,不如在他们还在使用但表现出「遇到麻烦的信号」(如很久没登录)时主动干预 [25:56 Jason Cohen]。如果实在不知道从哪里下手改善,就去改进入职引导(Onboarding,指用户初次使用产品的体验过程)。因为绝大多数流失发生在使用前 30 天,在这个阶段哪怕提升 10% 的留存,也会对最终客户规模产生巨大的乘数级放大效应 [27:07 Jason Cohen]。\n\n### 第二步:你的定价对吗?别被微观经济学的需求曲线骗了\n\n解决了流失问题,接下来看商业模式。第二个问题是:**定价和定位正确吗?** [35:46 Lenny] Jason 发现,尤其是初创公司,定价往往低得离谱。\n\n> 【背景】定价专家 Patrick Campbell 拥有 4200 个初创公司的数据点,他的一句名言是:「你的价格太低了,因为你只是瞎猜的,并且从未改变过它。」\n\n为什么创始人不敢涨价?因为他们脑子里有一根微观经济学 101 的需求曲线:价格一涨,需求就会下降 [36:46 Jason Cohen]。但在真实的 To B(企业级)商业世界里,规律并非如此。\n\nJason 分享了一个他亲历的极端案例:一家面向企业和政府的产品,原本每年收费 300 美元,每周有一两个新客户。Jason 建议他干脆改成每月 300 美元(价格直接涨了 12 倍)。结果呢?每周依然是一两个新客户,毫无变化 [38:19 Jason Cohen]。\n\n原因在于,**定价实际上是在筛选你的目标市场** [39:04 Jason Cohen]。如果你定价每月 2 美元,一家有一千名员工、四亿美元营收的中型公司根本不会看一眼,因为这价格显得「太便宜、不够成熟」 [39:23 Jason Cohen]。当你提价时,你实际上是被低价值的小客户市场「过滤」掉,从而进入了愿意为高价值买单的大客户视野 [40:51 Jason Cohen]。\n\n更要命的是,定价不仅仅是网页上的那个数字,**定位**同样决定定价的天花板。Jason 用一个虚拟的「Double Down」案例做了绝妙的说明 [42:37 Jason Cohen]:\n- 假设这是个帮你「把 AdWords 成本减半」的工具,客户每月省两万,自然只愿意分给你五千块。\n- 但如果你换一种卖法:不谈省钱,谈增长。告诉客户:「用了这工具,同样预算下你的获客线索直接翻倍。」对老板来说,「线索翻倍」的价值远大于「省点钱」,这时客户就愿意为同一个产品支付四万美金 [45:23 Jason Cohen]。\n\n**卖客户真正看重的东西(如业务增长),而不是次要价值(如降本增效),才能打破定价的天花板** [46:42 Jason Cohen]。当然,提价和换市场意味着你需要匹配新的能力(比如提供安全认证、专业服务),这也可能是整个公司战略和文化的一次重塑 [49:45 Jason Cohen]。\n\n### 第三步:留存客户能长大吗?净收入留存(NRR)的真相\n\n说完了防流失和定准价,接下来的问题是:**现有的客户群体能自己增长吗?** [52:19 Lenny]\n\n因为营销获客是线性的,要对抗随公司规模扩大的流失,另一个武器就是让留下的客户付更多钱(比如基于使用量或层级的升级) [52:47 Jason Cohen]。这里的关键指标是 **NRR(Net Revenue Retention,净收入留存)**,即现有客户群在一年后的收入变化(扣减退订,加上升级) [53:11 Jason Cohen]。\n\nJason 在此提出了一个反直觉的观点:虽然很多人把 NRR 视为黄金指标,但如果你不看绝对的「客户数」,只看 NRR,你会被骗 [53:57 Jason Cohen]。因为投资里的数学定律同样适用于此:跌掉 20% 的客户群,需要 25% 的增长才能回到原点。如果客户绝对数量在飞速流失,NRR 再好看也无济于事,因为没人留下来去升级了 [54:48 Jason Cohen]。所以,客户流失率是根,NRR 是叶。\n\n要提升 NRR,核心是**为客户创造更多价值,然后再考虑如何与客户「分割」这份价值** [59:43 Jason Cohen]。这意味着你要找到衡量客户获得价值的「北极星指标」,甚至是定性的反馈,确保他们觉得付的钱远超获得的价值。\n\n如果产品本身确实无法再让单个客户多付钱(比如很多消费级 App),还可以依靠现有客户**带来新客户**(如推荐机制),这也是对抗指数级流失的有效手段 [64:35 Jason Cohen]。\n\n### 第四步:渠道枯竭与灵魂拷问——你真的需要增长吗?\n\n前面三步都排查完且做对了,但增长还是停滞了。最后一个诊断问题是:**你的获客渠道是不是已经枯竭了?** [66:57 Lenny]\n\n很多团队面对增长停滞的第一反应是「拼命鞭策营销部门去搞 AdWords」 [67:02 Jason Cohen]。但任何渠道都有物理极限,比如某个关键词的搜索总量就是固定的 [67:32 Jason Cohen]。\n\nJason 将营销渠道的生命周期称为「大象曲线」:一开始像 S 型曲线一样爬坡,摸到天花板后,就会像大象下垂的屁股一样开始衰减 [68:26 Jason Cohen]。因为受众会饱和(同一个人看了太多遍广告不再点),渠道本身也会衰退(比如杂志停刊、某个社交平台活跃度下降) [69:23 Jason Cohen]。\n\n如果现有渠道真的枯竭了,靠「增加一个小功能并指望营销去卖」是绝对没用的 [71:42 Jason Cohen]。你需要更有创造力的打法:\n- **寻找变体渠道**:比如原来只做直销,现在试试通过代理商卖(HubSpot 曾靠这招拿下 50% 营收) [74:46 Jason Cohen]。\n- **开发新产品**:针对现有客户群体推出互补的新产品 [75:25 Jason Cohen]。\n\n然而,如果一切招数都用尽,增长依然停滞,我们就来到了一个灵魂拷问面前——**你真的需要增长吗?** [79:04 Lenny]\n\n商业世界里有一句老话:「如果你不增长,你就在消亡」 [80:38 Jason Cohen]。这往往被投资人用来逼迫创始人。但 Jason 提醒,即使是不追求无限扩张的自力更生型(Bootstrap)公司,这句话依然有意义——只是我们要把「公司」换成「你这个人」 [83:02 Jason Cohen]。\n\n如果一家公司多年停滞不前,对创始人自己和团队来说,它还是那个能让你们成长、创新、充满成就感的环境吗?很多时候,「必须增长」可能只是出于自我和惯性 [85:54 Lenny]。有时候,接受现状、追求利润最大化,甚至卖掉公司、换个人生轨道,可能是比「不惜一切代价硬磕增长」更诚实的选择 [84:10 Jason Cohen]。\n\n## 本集带走\n\n1. **流失的数学定律**:流失率是按总盘子抽税的,它最终一定会吃掉线性的营销获客。用「月新增客户数 ÷ 流失率」算算你公司的规模天花板,那个数字会逼你正视留存问题。\n2. **定价不是数字,是筛选器**:不要怕提价吓跑客户。低价吸引来的往往是要求多、价值低的客群。把产品重新定位在「帮客户赚钱/增长」而非「帮客户省钱」,能瞬间打开 10 倍的定价空间。\n3. **NRR 无法掩盖绝对流失**:不要被大于 100% 的净收入留存蒙蔽。如果绝对客户数在剧减,留下的人再怎么升级付费,也无法阻挡公司走向死亡。","quotes":[{"en":"What often happens is you raise prices and signups don't change.","zh":"经常发生的是你提高了价格,注册量却没有变化。","timestamp":"37:16","speaker":"Jason Cohen"},{"en":"The reason is that pricing selects the market.","zh":"原因在于定价筛选了市场。","timestamp":"38:59","speaker":"Jason Cohen"},{"en":"if you don't know who the patsy is, it's you.","zh":"因为如果你不知道傻瓜是谁,那就是你。","timestamp":"96:22","speaker":"Jason Cohen"},{"en":"if you don't know who the patsy is, it's you.","zh":"因为如果你不知道谁是那个容易被骗的傻瓜,那就是你自己。","timestamp":"96:22","speaker":"Jason Cohen"},{"en":"So maybe growing forever isn't the goal actually, or growing revenue isn't.","zh":"所以也许永远增长并不是真正的目标,或者说增加收入不是。","timestamp":"80:23","speaker":"Jason Cohen"}],"quotes_candidates":[{"en":"It's not always, but that's the common thing.","zh":"虽然不总是这样,但这是普遍现象。","timestamp":"35:58","speaker":"Jason Cohen"},{"en":"What often happens is you raise prices and signups don't change.","zh":"经常发生的是你提高了价格,注册量却没有变化。","timestamp":"37:20","speaker":"Jason Cohen"},{"en":"And he goes, \"Oh my gosh, well, now I have so much more money and profit, so I'm going to hire an engineer.","zh":"他说:「天哪,好吧,现在我有这么多更多的钱和利润,所以我打算雇一名工程师。","timestamp":"38:27","speaker":"Jason Cohen"},{"en":"The reason is that pricing selects the market.","zh":"原因在于定价筛选了市场。","timestamp":"39:04","speaker":"Jason Cohen"},{"en":"So pricing is not just the number on the page.","zh":"所以定价不仅仅是页面上的那个数字。","timestamp":"46:00","speaker":"Jason Cohen"},{"en":"I'm not a shill for them.","zh":"我不是他们的托儿。","timestamp":"102:16","speaker":"Jason Cohen"},{"en":"And the fact that you will get false positives even if the tool is statistically accurate means that most of them are false positives.","zh":"而且即使工具在统计上是准确的,你也会得到假阳性这一事实,意味着大多数是假阳性。","timestamp":"95:47","speaker":"Jason Cohen"},{"en":"So just adding one little feature and then hoping we can flog AdWords is not going to work.","zh":"所以仅仅增加一个小功能然后希望我们能以此利用 AdWords 是行不通的。","timestamp":"71:38","speaker":"Jason Cohen"},{"en":"If you're not growing, you're dying.","zh":"如果你没有在增长,你就在消亡。","timestamp":"80:38","speaker":"Jason Cohen"},{"en":"But given that we've gone into so much detail, perhaps that's a nice way of summarizing it.","zh":"但鉴于我们深入到了这么多细节,也许那是总结它的一个不错的方式。","timestamp":"92:39","speaker":"Jason Cohen"},{"en":"Because if you don't know who the patsy is, it's you.","zh":"因为如果你不知道傻瓜是谁,那就是你。","timestamp":"96:22","speaker":"Jason Cohen"},{"en":"Be yourself, everyone else is taken.","zh":"做你自己,因为别人都有人做了。","timestamp":"102:36","speaker":"Jason Cohen"},{"en":"Maybe I should sell the company.","zh":"也许我应该卖掉公司。","timestamp":"84:07","speaker":"Jason Cohen"},{"en":"Because if you don't know who the patsy is, it's you.","zh":"因为如果你不知道谁是那个容易被骗的傻瓜,那就是你自己。","timestamp":"96:22","speaker":"Jason Cohen"},{"en":"I'm going to hire an engineer. I'm going to do this marketing.","zh":"我打算雇一名工程师。我打算做这个营销。","timestamp":"38:27","speaker":"Jason Cohen"},{"en":"It sounds small, has a huge thing, onboarding as opposed to later, huge thing.","zh":"听起来很小,却有巨大的作用,相对于后来的入职引导,也有巨大的影响。","timestamp":"90:09","speaker":"Jason Cohen"},{"en":"And so this idea of getting into not even the root cause, but let's say root-er causes.","zh":"因此,这种深入甚至不是根本原因,但让我们说更根本原因的想法。","timestamp":"23:30","speaker":"Jason Cohen"},{"en":"I'm just asking because a lot of times, whether it's our careers, or as founders, our companies, a lot of times we've just been in the mode of, \"Oh, I've got to grow, I've got to get promoted, I've got to do more, I've got my resume.\"","zh":"我只是因为很多情况下问这个问题,无论是我们的职业生涯,还是作为创始人的我们,我们的公司,很多时候我们都只是处于这种模式:「噢,我必须成长,我必须升职,我必须做得更多,我有我的简历。」","timestamp":"81:42","speaker":"Jason Cohen"},{"en":"So maybe growing forever isn't the goal actually, or growing revenue isn't.","zh":"所以也许永远增长并不是真正的目标,或者说增加收入不是。","timestamp":"80:22","speaker":"Jason Cohen"}]}
+{
+  "title_zh": "增长停滞怎么办？Jason Cohen 的四步诊断法",
+  "tldr": "从流失率、定价、净收入留存到渠道饱和度，按序排查增长瓶颈。",
+  "digest_md": "很多产品团队都经历过这样的痛苦：产品好不容易有起色，开始增长，然后突然就停滞了。Jason Cohen 是一位四次创业者，曾创办两家独角兽公司，过去近 20 年里一直在博客上深度分享产品与商业心得。本集他系统地分享了一套非常实用的「增长停滞诊断框架」。\n\n这套框架的核心是**按顺序回答四个问题**——就像一个营销漏斗，如果第一层漏水，修补底部的缝隙是没用的，必须按顺序排查并修复最大的问题。这四个问题分别是：客户是不是走得太快？定价是不是错了？老客户能不能帮我们增长？营销渠道是不是已经打满了？最后，还要回到一个哲学问题：你真的还需要增长吗？\n\n> 【背景】本集嘉宾 Jason Cohen 是 WP Engine 等公司的创始人。他即将出版新书《Hidden Multipliers》。播客中主持人与 Jason 还探讨了写作习惯，一致认为内容创作**质量远比保持更新频率重要**，哪怕一年只发一两次，只要是精品就足够有价值 [07:01 Jason Cohen]。\n\n### 一、客户是不是走得太快？(流失率与“漏水桶”上限)\n\n增长放缓，首先要诊断的就是「客户流失率」是否过高。流失率之所以是最大的杀手，是因为它是按你总客户量的百分比计算的。\n\nJason 提出了一个极其反直觉的数学规律：**当公司规模变大时，流失客户数的增长会自动超过营销获客的增长** [14:08 Jason Cohen]。你的营销渠道（比如投广告、做 SEO）每个月通常只能带来恒定数量的新客户，但流失量却是「总客户数 × 流失率」。随着基数变大，流失迟早会吃掉新增。\n\n这意味着任何 SaaS 公司都有一个由流失率决定的「绝对规模天花板」。计算公式非常简单：**每月新增客户数 ÷ 流失率** [16:35 Jason Cohen]。比如你每月新增 100 个客户，流失率是 5%，那么 100 ÷ 5% = 2000。这个公司永远不可能超过 2000 个客户。\n\n面对客户流失，最大的陷阱是「只听信表面理由」。Jason 指出，当客户在退订表单里选「太贵了」或「项目结束」时，这几乎永远不是真正的原因。他打了个绝妙的比方：这就像医生写死亡证明，病人「停止呼吸」只是表象，真正的死因可能是「患有未确诊的糖尿病」 [21:36 Jason Cohen]。你必须不断追问，客户一路走到购买经历了千难万险，他明明想要这个产品，为什么最后还是说「不，再见」？[12:48 Jason Cohen]。\n\n**实操建议**：想要深挖真正原因，退订调查不要用选择题，要问开放式问题，而且要问「是什么让你取消？」，而不是「你为什么取消？」。前者能逼迫客户思考具体的产品缺陷，后者的回答往往只是敷衍的借口 [19:46 Jason Cohen]。此外，要在客户真正离开前抓住他们——如果发现他们没上传数据、不登录了，赶紧介入。如果你实在不知道怎么降低流失率，去优化新手引导，这往往是投入产出比最高的切入点 [27:00 Jason Cohen]。\n\n> 【背景】关于用 AI 总结这些退订理由：Jason 认为用大语言模型提炼主题是有效的，但它很难找出真正可操作的细节 [30:38 Jason Cohen]。AI 本质上是一台预测最可能性的「平均机器」，而真正能触发产品改进的，往往是那些不平均的、具体的痛点细节。\n\n### 二、定价和定位是不是错了？(突破「太便宜」的心理魔障)\n\n如果客户流失率控制住了，第二个要排查的是定价。Jason 引用了一位定价专家的数据结论：「你的价格太低了，因为你只是瞎猜的，而且后来再也没改过」 [36:00 Jason Cohen]。\n\n很多人不敢涨价，是因为脑子里有根深蒂固的「微观经济学供需曲线」——认为涨价一定会导致需求下降。但在 B2B 和 SaaS 的现实世界，这往往不成立。一个非常戏剧化的真实案例：有人把面向大企业的产品直接从「300 美元/年」改成了「300 美元/月」（涨了 12 倍），结果每周的注册量完全没有变化 [38:11 Jason Cohen]。\n\n为什么？因为**定价本质上是在筛选你的目标市场**。哪怕是一家有一千名员工、四亿美元收入的正规公司，看到一个每月只要 2 美元或 100 美元的软件，也会觉得「这玩意儿肯定不够好、不够成熟」，直接 PASS [39:23 Jason Cohen]。当你涨价时，你其实是离开了那个预算最紧张、最难伺候的低端市场，进入了愿意为价值买单的市场，所以需求反而可能上升。\n\n**实操建议**：定价不仅是网页上的一个数字，更是**产品定位**。Jason 讲了一个让人拍案叫绝的虚构案例：一家叫 Double Down 的公司，帮你把 AdWords（谷歌广告）的成本减半。\n- 如果你定位成「帮你省钱」，客户每月只愿意付你 5000 美金，因为他要从省下的 2 万美金里抠出一点给你才算真正赚到了。\n- 但如果你换一种定位：「用同样的 AdWords 预算，帮你把获客线索翻倍」。客户一听这是在帮他「增长」，而增长比省钱对公司更有价值。为了销售额翻倍，他绝对愿意每个月付你 4 万美金 [43:14 Jason Cohen]。\n\n同样的底层技术，仅仅换了定位和讲述的故事，定价直接翻了 8 倍。所以排查定价时，要问问自己：我们卖的是客户真正看重的价值（如增长、市场份额），还是仅仅在卖「便宜」和「省事」？\n\n### 三、老客户能帮我们继续增长吗？(揭开净留存 NRR 的盲区)\n\n解决完流失和定价，第三个问题是：留下来的老客户，能不能给我们带来更多收入？这里要看的指标是 NRR（净收入留存）。\n\nNRR 衡量的是：抛开新客户不谈，现有的客户群一年后带来的收入是变多了还是变少了？如果客户升级套餐或增加用量，NRR 就会上升。这是抵消客户流失的最强武器。事实上，如果看那些上市 SaaS 公司，除非 NRR 大于 100%，否则根本无法做大 [56:00 Jason Cohen]。\n\n但 Jason 提出了一个极其重要的「反直觉」警示：**不要因为 NRR 好看，就忽视了客户总数的流失**。投资里有个常识：跌了 20% 的本金，需要涨 25% 才能回本（而不是涨 20%）。同样，如果你因为老客户流失损失了 20% 的收入，仅靠剩下的人升级套餐（也就是 NRR 的逻辑）是很难填补这个窟窿的 [54:31 Jason Cohen]。所以，前两步（控制流失、定价）依然是基础，千万别被漂亮的 NRR 掩盖了客户正在大批逃离的事实。\n\n提升 NRR 的核心思路，是思考「**我们如何为客户创造更多价值，然后再把这个增值与他们分成**」 [59:39 Jason Cohen]。如果是 B2B 软件，可以随着客户公司规模扩大自然涨价；如果是面对消费者，也可以像 Duolingo（多邻国）那样，推出各种花里胡哨的皮肤、道具来让你额外掏钱 [66:33 Lenny]。另一种方式是让老客户带来新客户（转介绍），这在消费级产品中尤其威力巨大 [64:35 Jason Cohen]。\n\n### 四、获客渠道是不是已经打满了？(大象曲线与新征程)\n\n如果以上三点都没大问题，但增长依然停滞，那就要问最后一个问题：**你的营销渠道是不是已经枯竭了？**\n\n很多产品团队的惯性反应是：「咱们再加个小功能，然后让投放团队去死磕 AdWords」。但如果渠道已经饱和，这是没用的 [71:38 Jason Cohen]。\n\nJason 提出了一个叫「大象曲线」的概念。传统的观点认为新渠道会呈现不断上升的「S 型曲线」，但实际上，所有营销渠道最终都会走平，甚至开始「屁股下垂」——随着时间推移，受众看腻了广告、平台算法变更、竞争者变多，渠道效能必然衰退 [68:21 Jason Cohen]。哪怕是曾经很有效的 SEO（搜索引擎优化）或线下展会，最终都会面临见顶的一天。\n\n**实操建议**：要对抗渠道饱和，必须做点「不一样」的事。\n- 比如转换销售模式。HubSpot 著名的增长转折点，就是除了直接卖软件，还开始通过「代理机构」去卖，几年后这部分收入占到了总营收的一半 [74:46 Jason Cohen]。\n- 或者做些看起来「不划算」的事。做邮件营销的 Constant Contact 曾经为了突破瓶颈，派人去各个城市给小商家开线下研讨会。为了一个月 20 美元的产品办线下会，看着极不划算，但恰恰抓住了精准客户，成功重启了增长 [73:44 Jason Cohen]。\n\n### 终极一问：你真的还需要增长吗？\n\n如果前四个问题都排查并解决到位了，增长依然很慢，或者你已经竭尽全力，这时候就要问自己一个存在主义的问题：**你真的需要增长吗？** [79:04 Jason Cohen]\n\n科技圈常有一种迷思：「不增长，就消亡」。这句话经常是投资人用来逼迫创始人扩张的话术。但现实是，如果产品已经处于停滞期，也许选择将利润最大化，像很多不融资的自力更生公司那样，每年安安稳稳分红，也是一种成功。\n\nJason 提醒，关键是要分清「是你需要增长，还是你的自我意识需要增长」。不要为了追求无意义的数字，去接手你不喜欢的工作，去服务你不喜欢的市场，甚至去做你自己都不引以为傲的粗糙产品。\n\n如果公司停滞不前，而你还想做一番事业，也许不是产品不够好，而是「你这个人」在这里停滞了。这时候，也许换一个赛道、做一个新产品，或者把公司卖掉，才是对人生更负责任的选择。\n\n## 本集带走\n\n1. **算算你的「增长天花板」**：用「每月新增客户数 ÷ 流失率」算算公司理论上限。如果不解决流失问题，营销做得再好也突破不了这个天花板。\n2. **大胆涨价，重新定位**：你的价格大概率定低了。不要只卖「省钱/省时间」，要卖给客户他们真正渴望的「增长与竞争力」，这能让你理直气壮地收 8 倍的价格。\n3. **警惕漂亮的 NRR 掩盖流失**：跌 20% 需要涨 25% 才能回本。如果老客户在快速流失，剩下的人再怎么升级套餐也救不回全局。\n4. **渠道终将衰退，逼自己破局**：不要指望永远靠同一个广告渠道吃饭。渠道饱和时，试试换一个全新的获客模式（比如发展代理分销商），或者干脆开发新产品。",
+  "quotes": [
+    {
+      "en": "Your prices are way too low because you just guessed and you haven't changed them.",
+      "zh": "你的价格太低了，因为你只是猜的，而且你从未改变过它们。",
+      "timestamp": "36:10",
+      "speaker": "Jason Cohen"
+    },
+    {
+      "en": "Your prices are way too low because you just guessed and you haven't changed them.",
+      "zh": "你的价格太低了，因为你只是瞎猜的，而且你没有改变过它们。",
+      "timestamp": "36:10",
+      "speaker": "Jason Cohen"
+    },
+    {
+      "en": "quality is actually the only thing that matters and the consistency doesn't matter.",
+      "zh": "质量实际上是唯一重要的事情，而一致性并不重要。",
+      "timestamp": "07:48",
+      "speaker": "Lenny"
+    },
+    {
+      "en": "So a company like that will never have more than 2,000 customers.",
+      "zh": "所以像这样的公司永远不会有超过 2,000 个客户。",
+      "timestamp": "16:49",
+      "speaker": "Jason Cohen"
+    },
+    {
+      "en": "how this company was able to charge eight times as much for the same product just by talking about it differently.",
+      "zh": "这家公司如何能够通过用不同的方式谈论同一个产品而收取八倍的价格。",
+      "timestamp": "42:21",
+      "speaker": "Jason Cohen"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "Your prices are way too low because you just guessed and you haven't changed them.",
+      "zh": "你的价格太低了，因为你只是猜的，而且你从未改变过它们。",
+      "timestamp": "36:00",
+      "speaker": "Jason Cohen"
+    },
+    {
+      "en": "Just think about a company with a thousand employees and 400 million in revenue or whatever.",
+      "zh": "想想一家有一千名员工和四亿收入之类的公司。",
+      "timestamp": "42:07",
+      "speaker": "Jason Cohen"
+    },
+    {
+      "en": "If they see a product that's $2 a month or even $100 a month, thought is like, that can't be good enough.",
+      "zh": "如果他们看到一个每月 2 美元甚至每月 100 美元的产品，想法会像，这肯定不够好。",
+      "timestamp": "47:02",
+      "speaker": "Jason Cohen"
+    },
+    {
+      "en": "Your prices are way too low because you just guessed and you haven't changed them.",
+      "zh": "你的价格太低了，因为你只是瞎猜的，而且你没有改变过它们。",
+      "timestamp": "36:00",
+      "speaker": "Jason Cohen"
+    },
+    {
+      "en": "I will only put out stuff if it's the best that I can do.",
+      "zh": "如果这是我能做到的最好的，我才会发布内容。",
+      "timestamp": "06:51",
+      "speaker": "Jason Cohen"
+    },
+    {
+      "en": "quality is actually the only thing that matters and the consistency doesn't matter.",
+      "zh": "质量实际上是唯一重要的事情，而一致性并不重要。",
+      "timestamp": "07:39",
+      "speaker": "Lenny"
+    },
+    {
+      "en": "And after all of that, which clearly means they wanted it to work, they're like, \"No, bye.\"",
+      "zh": "在所有这一切之后，这显然意味着他们希望它奏效，他们却说，“不，拜拜。”",
+      "timestamp": "12:54",
+      "speaker": "Jason Cohen"
+    },
+    {
+      "en": "cancellations grow faster than marketing, and so cancellations overpower the growth of the company and slow it to a halt, i.e. growth slows, right?",
+      "zh": "取消比营销增长得更快，所以取消压倒了公司的增长并让它慢下来直到停止，也就是增长放缓，对吧？",
+      "timestamp": "14:08",
+      "speaker": "Jason Cohen"
+    },
+    {
+      "en": "So a company like that will never have more than 2,000 customers.",
+      "zh": "所以像这样的公司永远不会有超过 2,000 个客户。",
+      "timestamp": "16:49",
+      "speaker": "Jason Cohen"
+    },
+    {
+      "en": "What you want to do is say, \"What made you cancel?\"",
+      "zh": "你想做的是说，“是什么让你取消？”",
+      "timestamp": "19:46",
+      "speaker": "Jason Cohen"
+    },
+    {
+      "en": "They had an email that they sent out, which is a great email, and they started by asking, \"Why did you cancel?\" They got 10% usable responses.",
+      "zh": "他们有一封发送出去的邮件，那是一封很棒的邮件，他们开始时问，「你为什么取消？」他们得到了 10% 的可用回复。",
+      "timestamp": "20:12",
+      "speaker": "Jason Cohen"
+    },
+    {
+      "en": "They changed the same email to what made you cancel, and it's 20% usable responses.",
+      "zh": "他们将同样的邮件改成了是什么让你取消，这就是 20% 的可用回复。",
+      "timestamp": "20:13",
+      "speaker": "Jason Cohen"
+    },
+    {
+      "en": "And that is never, ever, ever the reason.",
+      "zh": "那绝不是，永远，永远，永远不是原因。",
+      "timestamp": "20:51",
+      "speaker": "Jason Cohen"
+    },
+    {
+      "en": "if we don't know what to do, or all else being equal, then focus on onboarding.",
+      "zh": "如果你不知道该做什么，或所有其他条件相同，那么关注入职引导。",
+      "timestamp": "27:00",
+      "speaker": "Jason Cohen"
+    },
+    {
+      "en": "just for fun, just change it from per year to per month,",
+      "zh": "纯粹为了好玩，把它从每年改成每月，",
+      "timestamp": "38:11",
+      "speaker": "Jason Cohen"
+    },
+    {
+      "en": "So he did, and he still got one or two per week.",
+      "zh": "所以他照做了，而他仍然每周获得一两个。",
+      "timestamp": "38:22",
+      "speaker": "Jason Cohen"
+    },
+    {
+      "en": "how this company was able to charge eight times as much for the same product just by talking about it differently.",
+      "zh": "这家公司如何能够通过用不同的方式谈论同一个产品而收取八倍的价格。",
+      "timestamp": "42:17",
+      "speaker": "Jason Cohen"
+    },
+    {
+      "en": "A/B testing doesn't work very well and it doesn't work on most things.",
+      "zh": "A/B 测试效果不是很好，而且它对大多数事情都不起作用。",
+      "timestamp": "94:43",
+      "speaker": "Jason Cohen"
+    },
+    {
+      "en": "If you're not growing, you're dying.",
+      "zh": "如果你没有在增长，你就在消亡。",
+      "timestamp": "80:35",
+      "speaker": "Jason Cohen"
+    },
+    {
+      "en": "the largest point is pricing is not just the number on the page.",
+      "zh": "最大的重点是定价不仅仅是页面上的那个数字。",
+      "timestamp": "46:00",
+      "speaker": "Jason Cohen"
+    }
+  ]
+}

@@ -6,16 +6,16 @@ entity_type: 公司
 # Webflow
 
 > [!info] 公司
-> 出现在 1 集 · 金句 0 条 · 关联 9 个
+> 出现在 1 集 · 金句 0 条 · 关联 10 个
 
 ## 集里怎么说它
 
-- **[[2026-03-22-lennys-the-art-of-influence-jessica-fain|《The art of influence: The single most important skill that AI can’t replace | Jessica Fain (Webflow, ex-Slack)》]]**(01:17起):本集嘉宾目前担任产品负责人的公司。她在本集分享了近期在 Webflow 与 CPO 进行产品评审的经历，以及设计主管迅速响应 CPO 线索、录制屏幕视频框架的案例。
+- **[[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别怪高管不懂你：产品经理的向上影响力心法》]]**(01:17起):嘉宾 Jessica Fain 现在就职的公司。她在本集中分享了在此公司内部如何跟进 CPO 的面包屑线索、以及如何设立 Office Hours 对齐战略。
 
 ## 出现在这些集
 
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《The art of influence: The single most important skill that AI can’t replace | Jessica Fain (Webflow, ex-Slack)》]] — 作为被讨论公司
+- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别怪高管不懂你：产品经理的向上影响力心法》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Jessica Fain]] · [[Lenny]] · [[Slack]] · [[影响力]] · [[智能体]] · [[护栏]] · [[参谋长]] · [[上下文切换]] · [[产品市场契合度]]
+[[Jessica Fain]] · [[Lenny]] · [[影响力]] · [[产品经理]] · [[智能体]] · [[同理心]] · [[护栏]] · [[明托金字塔]] · [[产品市场契合度]] · [[概念验证]]

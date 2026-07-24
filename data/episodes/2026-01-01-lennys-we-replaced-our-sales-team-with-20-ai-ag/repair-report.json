@@ -2,84 +2,106 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "07:50",
+      "timestamp": "19:27",
       "speaker": "Jason Lemkin",
       "trimmed": false,
-      "tsWas": "07:43",
+      "tsWas": "19:27",
       "spkWas": "Jason Lemkin"
     },
     {
       "i": 2,
-      "timestamp": "00:31",
+      "timestamp": "19:49",
       "speaker": "Jason Lemkin",
       "trimmed": false,
-      "tsWas": "13:47",
+      "tsWas": "19:53",
       "spkWas": "Jason Lemkin"
     },
     {
       "i": 3,
-      "timestamp": "14:30",
+      "timestamp": "13:50",
       "speaker": "Jason Lemkin",
       "trimmed": false,
-      "tsWas": "14:30",
+      "tsWas": "13:43",
       "spkWas": "Jason Lemkin"
     },
     {
       "i": 4,
-      "timestamp": "19:49",
+      "timestamp": "00:39",
       "speaker": "Jason Lemkin",
       "trimmed": false,
-      "tsWas": "19:49",
+      "tsWas": "00:39",
       "spkWas": "Jason Lemkin"
     },
     {
       "i": 5,
-      "timestamp": "28:26",
+      "timestamp": "09:16",
       "speaker": "Jason Lemkin",
       "trimmed": false,
-      "tsWas": "28:26",
+      "tsWas": "09:16",
       "spkWas": "Jason Lemkin"
     },
     {
       "i": 6,
-      "timestamp": "15:50",
+      "timestamp": "40:55",
       "speaker": "Jason Lemkin",
       "trimmed": false,
-      "tsWas": "15:49",
+      "tsWas": "41:01",
       "spkWas": "Jason Lemkin"
     },
     {
       "i": 7,
-      "timestamp": "97:11",
+      "timestamp": "41:43",
       "speaker": "Jason Lemkin",
       "trimmed": false,
-      "tsWas": "97:11",
+      "tsWas": "41:43",
       "spkWas": "Jason Lemkin"
     },
     {
       "i": 8,
-      "timestamp": "16:42",
+      "timestamp": "33:50",
       "speaker": "Jason Lemkin",
-      "trimmed": true,
-      "tsWas": "16:41",
+      "trimmed": false,
+      "tsWas": "33:50",
       "spkWas": "Jason Lemkin"
     },
     {
       "i": 9,
-      "timestamp": "85:56",
+      "timestamp": "86:02",
       "speaker": "Jason Lemkin",
       "trimmed": false,
-      "tsWas": "85:56",
+      "tsWas": "86:02",
       "spkWas": "Jason Lemkin"
     },
     {
       "i": 10,
-      "timestamp": "76:29",
+      "timestamp": "07:50",
       "speaker": "Jason Lemkin",
       "trimmed": false,
-      "tsWas": "76:29",
+      "tsWas": "07:48",
+      "spkWas": "Jason Lemkin"
+    },
+    {
+      "i": 11,
+      "timestamp": "80:56",
+      "speaker": "Jason Lemkin",
+      "trimmed": false,
+      "tsWas": "80:56",
+      "spkWas": "Jason Lemkin"
+    },
+    {
+      "i": 13,
+      "timestamp": "74:33",
+      "speaker": "Jason Lemkin",
+      "trimmed": false,
+      "tsWas": "74:33",
       "spkWas": "Jason Lemkin"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 12,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "We didn't fire. When they go, this time we just said, now it's the agents, right?"
+    }
+  ]
 }

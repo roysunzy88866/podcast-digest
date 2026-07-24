@@ -2,108 +2,100 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "18:16",
-      "speaker": "Max Schoening",
-      "trimmed": false,
-      "tsWas": "18:16",
-      "spkWas": "Max"
-    },
-    {
-      "i": 2,
-      "timestamp": "19:33",
-      "speaker": "Max Schoening",
-      "trimmed": false,
-      "tsWas": "19:33",
-      "spkWas": "Max"
-    },
-    {
-      "i": 3,
-      "timestamp": "24:51",
-      "speaker": "Max Schoening",
-      "trimmed": false,
-      "tsWas": "24:51",
-      "spkWas": "Max"
-    },
-    {
-      "i": 4,
       "timestamp": "28:47",
       "speaker": "Max Schoening",
       "trimmed": false,
       "tsWas": "28:47",
-      "spkWas": "Max"
+      "spkWas": "Max Schoening"
+    },
+    {
+      "i": 2,
+      "timestamp": "10:21",
+      "speaker": "Max Schoening",
+      "trimmed": false,
+      "tsWas": "10:14",
+      "spkWas": "Max Schoening"
+    },
+    {
+      "i": 3,
+      "timestamp": "11:27",
+      "speaker": "Max Schoening",
+      "trimmed": false,
+      "tsWas": "11:27",
+      "spkWas": "Max Schoening"
+    },
+    {
+      "i": 4,
+      "timestamp": "01:00",
+      "speaker": "Max Schoening",
+      "trimmed": false,
+      "tsWas": "01:00",
+      "spkWas": "Max Schoening"
     },
     {
       "i": 5,
-      "timestamp": "29:22",
-      "speaker": "Max Schoening",
-      "trimmed": false,
-      "tsWas": "29:22",
-      "spkWas": "Max"
-    },
-    {
-      "i": 6,
-      "timestamp": "36:08",
-      "speaker": "Max Schoening",
-      "trimmed": false,
-      "tsWas": "36:08",
-      "spkWas": "Max"
-    },
-    {
-      "i": 7,
-      "timestamp": "57:29",
-      "speaker": "Max Schoening",
-      "trimmed": false,
-      "tsWas": "57:29",
-      "spkWas": "Max"
-    },
-    {
-      "i": 8,
-      "timestamp": "61:15",
-      "speaker": "Max Schoening",
-      "trimmed": false,
-      "tsWas": "61:15",
-      "spkWas": "Max"
-    },
-    {
-      "i": 9,
       "timestamp": "00:54",
       "speaker": "Max Schoening",
       "trimmed": false,
-      "tsWas": "61:55",
-      "spkWas": "Max"
+      "tsWas": "01:00",
+      "spkWas": "Max Schoening"
+    },
+    {
+      "i": 6,
+      "timestamp": "68:01",
+      "speaker": "Max Schoening",
+      "trimmed": false,
+      "tsWas": "67:52",
+      "spkWas": "Max Schoening"
     },
     {
       "i": 10,
-      "timestamp": "71:38",
+      "timestamp": "00:40",
       "speaker": "Max Schoening",
       "trimmed": false,
-      "tsWas": "71:38",
-      "spkWas": "Max"
+      "tsWas": "00:40",
+      "spkWas": "Max Schoening"
     },
     {
       "i": 11,
-      "timestamp": "76:40",
+      "timestamp": "00:22",
       "speaker": "Max Schoening",
       "trimmed": false,
-      "tsWas": "76:40",
-      "spkWas": "Max"
+      "tsWas": "00:22",
+      "spkWas": "Max Schoening"
     },
     {
       "i": 12,
-      "timestamp": "75:18",
+      "timestamp": "18:16",
       "speaker": "Max Schoening",
       "trimmed": false,
-      "tsWas": "75:18",
-      "spkWas": "Max"
+      "tsWas": "18:16",
+      "spkWas": "Max Schoening"
     },
     {
       "i": 13,
-      "timestamp": "86:34",
+      "timestamp": "09:23",
       "speaker": "Max Schoening",
       "trimmed": false,
-      "tsWas": "86:34",
-      "spkWas": "Max"
+      "tsWas": "09:23",
+      "spkWas": "Max Schoening"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 7,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "And then maybe even if you're generous and say the first 90% are now done, the last 10% are still actually 90%."
+    },
+    {
+      "i": 8,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "I think that inclusivity isn't always all that great. I think the world is run by group chats of eight people or fewer."
+    },
+    {
+      "i": 9,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "If you really look at the truly great products, they all have one tiny core that is so exceptionally good."
+    }
+  ]
 }

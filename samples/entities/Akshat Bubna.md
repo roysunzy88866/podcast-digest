@@ -7,7 +7,7 @@ aliases: ["Akshat"]
 # Akshat Bubna
 
 > [!info] 人物 · 又名 Akshat
-> 出现在 1 集 · 金句 6 条 · 关联 10 个
+> 出现在 1 集 · 金句 5 条 · 关联 10 个
 
 ## 金句
 
@@ -17,16 +17,14 @@ aliases: ["Akshat"]
 
 ![[2026-07-08-latent-space-modal#^q3]]
 
+![[2026-07-08-latent-space-modal#^q4]]
+
 ![[2026-07-08-latent-space-modal#^q5]]
-
-![[2026-07-08-latent-space-modal#^q6]]
-
-![[2026-07-08-latent-space-modal#^q7]]
 
 ## 出现在这些集
 
-- [[2026-07-08-latent-space-modal|《为什么 AI 基础设施必须为「Agent 体验」进化》]] — 作为嘉宾
+- [[2026-07-08-latent-space-modal|《AI 基础设施如何为智能体重新设计:Modal 联合创始人的方法》]] — 作为嘉宾
 
 ## 关联实体
 
-[[swyx]] · [[Vibhu]] · [[Modal]] · [[Kubernetes]] · [[无服务器]] · [[沙箱]] · [[智能体]] · [[推理]] · [[GPU 快照]] · [[投机解码]]
+[[swyx]] · [[Vibhu]] · [[Modal]] · [[Kubernetes]] · [[智能体]] · [[沙箱]] · [[推理]] · [[投机解码]] · [[智能体体验]] · [[Anthropic]]

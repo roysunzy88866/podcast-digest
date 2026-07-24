@@ -10,12 +10,12 @@ entity_type: 概念
 
 ## 集里怎么说它
 
-- **[[2026-01-25-lennys-why-your-product-stopped-growing|《产品增长停滞怎么办?Jason Cohen 的诊断四步法》]]**(53:11起):本集说它是衡量现有客户群一年后收入变化(扣减退订加上升级)的黄金指标,但反直觉地指出如果只看它而不看绝对的客户数流失就会被骗(跌掉 20% 需要 25% 的增长才能回本)。
+- **[[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]]**(53:11起):本集将它作为诊断框架的第三步，指出若 NRR 大于 100% 才能抵消流失做大公司；但同时也提出反直觉警示——因为基数（logo 数）流失时，剩下的老客户再怎么升级套餐也很难填补窟窿，不能被漂亮的 NRR 掩盖了大批客户逃离的事实
 
 ## 出现在这些集
 
-- [[2026-01-25-lennys-why-your-product-stopped-growing|《产品增长停滞怎么办?Jason Cohen 的诊断四步法》]] — 作为概念
+- [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] — 作为概念
 
 ## 关联实体
 
-[[Lenny]] · [[Jason Cohen]] · [[客户流失]] · [[定价]] · [[定位]] · [[Logo 流失]] · [[增长]] · [[入职引导]] · [[大象曲线]] · [[WP Engine]]
+[[Lenny]] · [[Jason Cohen]] · [[客户流失率]] · [[定价]] · [[渠道饱和]] · [[入职引导]] · [[定位]] · [[大象曲线]] · [[SaaS]] · [[营销漏斗]]

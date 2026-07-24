@@ -6,22 +6,18 @@ entity_type: 公司
 # Notion
 
 > [!info] 公司
-> 出现在 2 集 · 金句 1 条 · 关联 10 个
+> 出现在 2 集 · 金句 0 条 · 关联 10 个
 
 ## 集里怎么说它
 
-- **[[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling 高管的反共识管理课：故意人手不足、果断放弃、复利对抗熵增》]]**(54:13起):嘉宾是该公司的早期投资者，以它作为「叙事违规」的典型案例，指出其依靠创始人特质和极致的坚持获得了成功，但非常罕见且难以复制。
-- **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)》]]**(00:19起):本集讨论的主要公司,嘉宾 Max 担任产品负责人;本集提到 Notion 的设计师和 PM 开始写代码做原型,内部推出了备受欢迎的 Notion AI 智能体,并视其为一个连接的工作空间和操作系统。
-
-## 金句
-
-![[2025-12-07-lennys-surge-ai-edwin-chen#^q9]]
+- **[[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷》]]**(54:13起):本集提到嘉宾是它的早期投资者。它被描绘为一家在由巨头主导的艰难生产力市场中，靠着创始人极度坚持这种'叙事违规'（极罕见）才开辟出利基市场的公司。
+- **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《前 GitHub、现 Notion 产品负责人 Max:每个项目的前 10% 现在免费了》]]**(00:19起):本集主要探讨的公司，被嘉宾描述为一个连接的工作空间，为 AI 智能体提供完美的运作上下文，可视为一种操作系统，且在 AI 智能体方面取得了巨大成功。
 
 ## 出现在这些集
 
-- [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling 高管的反共识管理课：故意人手不足、果断放弃、复利对抗熵增》]] — 作为被讨论公司(提及)
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)》]] — 作为被讨论公司
+- [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷》]] — 作为被讨论公司(提及)
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《前 GitHub、现 Notion 产品负责人 Max:每个项目的前 10% 现在免费了》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Lenny]] · [[Matt MacInnis]] · [[Max Schoening]] · [[Amar]] · [[GitHub]] · [[Rippling]] · [[Heroku]] · [[Apple]] · [[Figma]] · [[ChatGPT]]
+[[Lenny]] · [[Matt MacInnis]] · [[Max Schoening]] · [[Amar]] · [[GitHub]] · [[Rippling]] · [[Heroku]] · [[Apple]] · [[主观能动性]] · [[刻意人手不足]]

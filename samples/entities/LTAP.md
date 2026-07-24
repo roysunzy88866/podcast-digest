@@ -10,12 +10,12 @@ entity_type: 概念
 
 ## 集里怎么说它
 
-- **[[2026-06-24-latent-space-databricks|《为什么前沿生态必须开放》]]**(01:44起):本集另一重磅发布，是对 HTAP 的文字游戏。其核心思路是不合并查询引擎，而是统一存储层，将事务数据库的数据转码为列式格式存储于数据湖中，让分析端能零延迟读取真实业务数据。
+- **[[2026-06-24-latent-space-databricks|《Databricks 的智能体时代布局：统一调度、开源治理与数据库重写》]]**(01:44起):本集将其描述为旨在解决分析数据实时性、且修正了 HTAP 缺陷的新架构。它不合并查询层，而是统一存储层：利用存储集群空闲的 CPU 将行数据实时转码为列式数据，实现分析端零延迟读取。
 
 ## 出现在这些集
 
-- [[2026-06-24-latent-space-databricks|《为什么前沿生态必须开放》]] — 作为概念
+- [[2026-06-24-latent-space-databricks|《Databricks 的智能体时代布局：统一调度、开源治理与数据库重写》]] — 作为概念
 
 ## 关联实体
 
-[[Matei Zaharia]] · [[Reynold Xin]] · [[Databricks]] · [[Snowflake]] · [[Neon]] · [[MosaicML]] · [[Omnigen]] · [[智能体]] · [[沙箱]] · [[上下文策略]]
+[[Matei Zaharia]] · [[Reynold Xin]] · [[Databricks]] · [[Snowflake]] · [[Neon]] · [[MosaicML]] · [[Omnigen]] · [[智能体]] · [[沙箱]] · [[Dream Engine]]

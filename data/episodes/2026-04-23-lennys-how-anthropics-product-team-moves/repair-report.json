@@ -2,14 +2,6 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "00:50",
-      "speaker": "Cat Wu",
-      "trimmed": false,
-      "tsWas": "00:50",
-      "spkWas": "Cat Wu"
-    },
-    {
-      "i": 2,
       "timestamp": "00:20",
       "speaker": "Cat Wu",
       "trimmed": false,
@@ -17,19 +9,35 @@
       "spkWas": "Cat Wu"
     },
     {
-      "i": 3,
-      "timestamp": "70:06",
+      "i": 2,
+      "timestamp": "00:50",
       "speaker": "Cat Wu",
       "trimmed": false,
-      "tsWas": "70:04",
+      "tsWas": "00:50",
+      "spkWas": "Cat Wu"
+    },
+    {
+      "i": 3,
+      "timestamp": "64:54",
+      "speaker": "Cat Wu",
+      "trimmed": false,
+      "tsWas": "64:54",
       "spkWas": "Cat Wu"
     },
     {
       "i": 4,
-      "timestamp": "63:05",
+      "timestamp": "70:06",
       "speaker": "Cat Wu",
       "trimmed": false,
-      "tsWas": "63:04",
+      "tsWas": "70:10",
+      "spkWas": "Cat Wu"
+    },
+    {
+      "i": 5,
+      "timestamp": "74:38",
+      "speaker": "Cat Wu",
+      "trimmed": false,
+      "tsWas": "74:42",
       "spkWas": "Cat Wu"
     },
     {
@@ -41,16 +49,5 @@
       "spkWas": "Cat Wu"
     }
   ],
-  "dropped": [
-    {
-      "i": 5,
-      "reason": "逐字命中不了(裁剪后仍无)",
-      "en": "We're sacrificing product consistency."
-    },
-    {
-      "i": 7,
-      "reason": "逐字命中不了(裁剪后仍无)",
-      "en": "I think jobs are fake."
-    }
-  ]
+  "dropped": []
 }

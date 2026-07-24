@@ -1,31 +1,31 @@
 ---
-title: "What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)"
+title: "当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构"
 podcast: "Lenny's Podcast"
 date: 2026-06-21
 source_url: https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering
 duration: "98:42"
 host: "[[Lenny]]"
 cohosts: ["[[Fiona Fung]]"]
-companies: ["[[Anthropic]]", "[[Claude Code]]", "[[co-work]]"]
-concepts: ["[[智能体]]", "[[例行程序]]", "[[验证]]", "[[测试驱动开发]]", "[[内部试用]]", "[[成长型心态]]"]
+companies: ["[[Anthropic]]", "[[Facebook Marketplace]]"]
+concepts: ["[[Claude Code]]", "[[Co-Work]]", "[[智能体]]", "[[验证]]", "[[测试驱动开发]]", "[[潜在需求]]", "[[结对编程]]", "[[Visual Studio]]", "[[准时制]]", "[[IC]]", "[[内部试用]]"]
 tags:
-  - AI 团队管理
-  - 智能体
-  - 工程文化
-  - 工作流重构
-  - 验证
+  - AI 研发范式
+  - 角色融合
+  - 异步智能体
+  - 质量与验证
+  - 工程管理
 ---
 
-# What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)
+# 当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构
 
 > [!info] 关联
 > **主持**:[[Lenny]]
 >
 > **联合主持**:[[Fiona Fung]]
 >
-> **涉及公司**:[[Anthropic]] · [[Claude Code]] · [[co-work]]
+> **涉及公司**:[[Anthropic]] · [[Facebook Marketplace]]
 >
-> **概念**:[[智能体]] · [[例行程序]] · [[验证]] · [[测试驱动开发]] · [[内部试用]] · [[成长型心态]]
+> **概念**:[[Claude Code]] · [[Co-Work]] · [[智能体]] · [[验证]] · [[测试驱动开发]] · [[潜在需求]] · [[结对编程]] · [[Visual Studio]] · [[准时制]] · [[IC]] · [[内部试用]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering)
 
@@ -35,106 +35,93 @@ tags:
 
 ## 一句话 TLDR
 
-Fiona Fung 解读编码不再是瓶颈后,软件团队如何重工作流、质量把控与团队文化。
+Fiona Fung分享在代码量暴涨8倍后,如何用异步智能体、验证机制与新管理者制度重塑工程团队。
 
-[[Fiona Fung|Fiona Fung]] 是 [[Anthropic|Anthropic]] 团队背后的负责人,她主管构建 [[Claude Code|Claude Code]] 和 Co-work(一套辅助编码与处理日常任务的[[智能体|智能体]]产品)的团队。在加入 Anthropic 之前,她在微软和 Meta 领导了 TypeScript、Visual Studio 和 Facebook Marketplace 等产品的工程团队。本集她做客播客,聊了一个所有技术团队都在面对的核心问题:**当 AI 智能体让代码产量激增、编码不再是瓶颈后,工程师的角色、团队的工作流和管理方式应该如何随之演变?** 全文将沿着三条线索展开:先看她如何重构团队的工作流以接住「代码量 8 倍」的增长;接着探讨工具变了,人该怎么适应;最后是她对文化与未来人才培养的思考。
+本集嘉宾是 [[Fiona Fung|Fiona Fung]],她领导 [[Anthropic|Anthropic]] 的 [[Claude Code|Claude Code]] 和 [[Co-Work|Co-Work]] 团队。在加入 Anthropic 之前,她曾在微软工作多年,后转战 Facebook(现 Meta)领导了 [[Facebook Marketplace|Facebook Marketplace]] 团队,并在 Instagram 负责过包含五百多人的庞大工程组织。作为拥有二十五年经验的资深工程师,她亲历了软件工程从光盘时代到云时代的历次变迁。在这集访谈中,Fiona 分享了当生成式 AI 让代码产量激增、编码不再是瓶颈时,软件团队在[[验证|验证]]、协作、角色边界乃至新人培养上面临的全面冲击。全文将沿着四个维度展开:编码生产力暴涨后的验证新命题、团队角色的模糊与新工作流、面对 AI 的两种心态与落差危机,以及团队规模化的文化与制度挑战。
 
-> 【背景】Anthropic 是开发 Claude 系列大模型的公司;播客中提及的 Boris Cherny 和 Kat Wu 是 Fiona 在 Claude Code 与 Co-work 团队的下属,此前均作为嘉宾上过该播客热门集。文中讨论的推文数据,指 Anthropic 工程师当前季度的平均代码产出相比过往有了近 8 倍的爆发式增长。
+## 当吞吐量不再是瓶颈:验证成为新战场
+Fiona 回忆了软件工程历史上的几次大转折:从早期在 IBM 用 Vim 和终端做调试,到加入微软后第一次用上带调试器的 IDE(集成开发环境,即集成了代码编写、运行和调试功能的软件);从软件必须刻成光盘上架的「硬截止日期」时代,到可以随时在线发版的云时代。每一次工具演进,都在重新分配工程师的时间。而眼下的 AI 变革尤为剧烈:她指出,过去工程时间是最宝贵的资源,但现在编码本身已经不再是瓶颈。最近一条推文展示的数据显示,Anthropic 的工程师平均每个季度的代码量达到了 2025 年时的八倍 [03:28 [[Lenny|Lenny]]]。随之而来的核心变化是:不仅工程师在提交代码,设计师、产品经理(Co-Work 团队的所有人)都在提交代码,而且吞吐量极高。这种量级的变化,把团队的重心从「写代码」推向了「验证」[08:59 Fiona Fung]。
 
-## 重构工作流:接住八倍增量
+## 用 Claude 当管理耳目,用「坏与悲」抓质量
+既然编码不再是瓶颈,工具变了,团队的工作方式怎么跟上?Fiona 介绍了几项她作为管理者的新做法。她把一个 Claude Code 远程会话注册到了团队的所有代码仓库中,这个实例还能访问所有 Slack 频道和指标数据。这样,她每个月可以用共享屏幕的方式,带着团队用 Claude Code 一起复盘:上个月的重点是什么?发布了哪些产品?反馈如何?有没有引发什么 Bug?她强调,通过 Claude 的全局视角,团队可以更容易地从大量数据和事件中提炼出下个季度的投资主题 [10:10 Fiona Fung]。
 
-回顾自己从使用 Vim 和终端调试的早期工程岁月,到拥抱带有高级调试功能的 IDE(集成开发环境),Fiona 坦言工程师的角色一直在演进。但在 AI 时代,真正的范式转移发生了:当吞吐量剧增,Claude Code 和 Co-work 不仅要帮工程师写代码,还要帮 PM 和设计师也提交代码,工作流的重心便从「如何产出」转向了「如何[[验证|验证]]」[09:23 Fiona Fung]。
+顺着「如何在高产出下维持质量」这个问题,Fiona 提到了两项更具体的做法。第一是利用自动化测试框架进行代码审查。她指出,Claude 在你给它提供一个「好代码长什么样」的框架时非常出色。团队的做法是把规格说明签入代码仓库并保持与代码同步更新,让 Claude 验证提交的代码是否符合预期。她将这视为[[测试驱动开发|测试驱动开发]](即先写测试用例再写功能代码,TDD)的演进 [15:25 Fiona Fung]。第二是她在团队中推行的「坏与悲」体验分类法。「坏」指的是非常严重的、不可恢复的错误(比如 CLI 崩溃导致用户丢失工作);「悲」则是指那些可恢复但让人不舒服的痛点(比如界面闪烁)。她给每个团队高度自主权,让他们根据各自的服务定义自己的「坏」与「悲」,这样就能在性能、可靠性等原始指标之外,提供一个衡量用户体验的高层框架 [45:25 Fiona Fung]。更有趣的是,团队甚至做了一个追踪脏话的仪表盘,用来监测用户在反馈渠道里的挫败感 [47:50 Fiona Fung]。
 
-她将这个新工作流称为「Routines」([[例行程序|例行程序]])。过去 Fiona 习惯每天早晨喝咖啡时,手动去各个 Slack 频道查看用户反馈,再手动写提示词让 Claude 生成修复 PR。现在,她可以将这些步骤编写为一个异步的 Routine:这个例行程序会在每天设定时间自动运行,不仅能聚合多渠道的反馈生成摘要,还能直接代替她启动多个智能体去写代码。当她醒来时,等待她的是已经写好、可供审查的 PR,而不是一堆需要她分发的杂活 [36:38 Fiona Fung]。
+## 角色大融合与异步智能体工作流
+说完了怎么管质量,接下来是人的问题。在 AI 工具的加持下,团队的角色边界正在迅速模糊。Fiona 现在在招聘时最看重两类人:一类是有产品直觉的「创意构建者」,一类是能处理核心难题的「深层系统专家」[17:09 Lenny]。产品经理也不再受限于工程资源的带宽,遇到想做的功能可以直接卷起袖子自己动手;而非移动端出身的工程师,也能在 Claude 的辅助下顺利给功能加上安卓端的适配 [18:54 Fiona Fung]。代码相关职位的界限都在模糊,工程师变得越来越有产品思维,而所有人都在变成构建者 [62:21 Fiona Fung]。
 
-当代码量呈指数级上升,人类审查者成了最大的瓶颈。Fiona 发现,单靠人盯人不仅跟不上速度,还容易失去对全局的把控。她的解法是**将管理动作沉淀为系统反馈**:她设立了一个挂载在所有代码库上的 Claude Code 远程会话,每月与团队开会复盘时,不再靠每个人口头汇报「我发了什么功能」,而是直接共享屏幕,让 Claude 汇总出上个周期合并的 PR、引发的 Bug 甚至事故报告,并据此与下属展开关于质量和投资方向的深度对话 [10:18 Fiona Fung]。
+工作方式也在向更高的抽象层演进。Fiona 提到,团队正转向更多的异步工作风格。过去她需要同步地手写各种提示词(Prompt,即给 AI 模型下指令的文本),现在她可以设定一个例行程序,让它在每天早上特定时间自动运行。这个程序不仅能汇总反馈,甚至能代表她启动其他的[[智能体|智能体]]去处理潜在的 Bug 并生成 PR(拉取请求,即提交代码修改的机制)供她醒来后审查 [36:24 Fiona Fung]。这种模式虽然极大地提升了产能,但也带来了新的烦恼:上下文切换的认知负荷太重了。当你同时开着二十个智能体时,要追踪它们各自在干什么、随时切换语境去审查,成了一个尚未解决的难题 [71:13 Fiona Fung]。
 
-这套机制甚至重塑了她对[[测试驱动开发|测试驱动开发]](TDD)的看法。曾经,先写测试再写代码对工程师来说像「先吃西兰花」一样痛苦;现在,Claude 可以根据规格说明先自动写好测试并确保其失败,然后再去实现修复代码。原本令人抗拒的约束,被智能体变成了无缝的自动化流程 [16:24 Fiona Fung]。
+## 面对技术狂飙:成长心态与弥合鸿沟
+工具和人都在变,不同人的处境也因此拉开差距。当主持人问及为什么有的人在 AI 时代如鱼得水、有的人却充满挫败感时,Fiona 认为关键在于成长型思维。她坦言,放弃那些过去让你成功的旧习惯会很可怕,但对于任何让你感到恐惧的事情,最好的应对方式就是主动拥抱它,并问自己「什么是我的控制范围内的事?」[21:11 Fiona Fung]。
 
-面对性能与质量的平衡,Fiona 还引入了一套直观的分类法:**「Bad」与「Sad」**。「Bad」指代不可恢复的严重错误(例如 CLI 崩溃导致用户丢失工作),「Sad」则是那些可恢复但令人沮丧的体验小瑕疵(例如界面闪烁)。比起干瘪的性能指标,赋予每个团队自主权去定义各自的 Bad 与 Sad,能更敏锐地捕捉并提升真实的用户体验 [45:25 Fiona Fung]。
+这种主动出击的心态,也延伸到了她弥合 AI 鸿沟的努力中。Fiona 非常关心小企业主群体,因为她曾亲眼看到自己的奶奶移民加拿大时,因为语言不通而陷入孤立,最终在一家小纱线店里找到了社区归属感。她发现 Co-Work 可以极其有效地帮小企业主处理他们最讨厌的开票和报销工作。更有趣的是,一位开餐厅的朋友把 Co-Work 接入了自己杂乱的文件夹,让它帮忙找菜单,甚至做竞品分析。基于这些反馈,团队推出了打包小企业插件的 Co-Work 版本 [27:18 Fiona Fung]。她的呼吁非常具体:如果你身边有对 AI 感到恐惧或无从下手的朋友或社区商户,请主动向他们展示 AI 是如何改善了你的生活,因为知识就是力量,如果不主动分享,这道鸿沟只会越来越大 [30:04 Fiona Fung]。
 
-## 工具变了,人怎么适应?
+## 守住团队文化与未来的未知数
+角色模糊了,节奏变快了,这正是下一个话题:团队怎么管?Fiona 分享了几项独特的管理实践。首先是要求所有新加入的管理者先以个人贡献者的身份工作一段时间,亲自动手写代码、用产品,然后再承担起带人的责任。她自己哪怕在管理五百人的组织时,也坚持亲自使用产品(即[[内部试用|内部试用]])。她最近还用 Claude 重新找回了写生产级代码的自信 [49:55 Fiona Fung]。
 
-随着流水线和验证方式改变,团队成员的画像与心态也必须转型。
+其次,随着大家都埋头和各自的智能体协作,团队里出现了一种「孤独感」。为此,她发起了[[结对编程|结对编程]]午餐和黑客松,让大家能在并肩工作时观察到彼此使用工具的奇招 [56:38 Fiona Fung]。在规划方面,她彻底抛弃了半年期的路线图,改为「[[准时制|准时制]]」的月度规划,每周只做快速对齐 [84:37 Fiona Fung]。被问及最让她夜不能寐的难题时,她坦言不是具体的产品挑战,而是如何在飞速扩张中维持那种开放、互助的团队文化 [78:04 Fiona Fung]。
 
-**1. 重新定义人才画像。** Fiona 在招聘时,如今最看重两类人:一是具有极强产品直觉的「创意构建者」,他们充满热情,能端到端将一个想法打磨成令人愉悦的产品;二是「深层系统专家」,用于攻克那些需要极度专业信任、必须人工验证的硬核技术难点 [17:09 [[Lenny|Lenny]]]。由于 AI 补足了跨领域的技能鸿沟,「全员皆 Builder」正在成为现实:一个非移动端出身的工程师,现在可以借助 Claude 轻松为功能补上移动端版本,个人的能力天花板被彻底打破 [19:11 Fiona Fung]。
+> 【背景】TDD(Test-Driven Development)即测试驱动开发,是一种先编写自动化测试用例,再编写能通过测试的功能代码的软件开发方法论。
 
-**2. [[成长型心态|成长型心态]]与直面恐惧。** 面对那些在 AI 浪潮中感到受挫甚至抵触的人,Fiona 认为这背后往往是「恐惧」。她用自己高中时为了负担大学学费、硬着头皮去当银行柜员的故事举例:当感觉一切失控时,最好的办法就是找到那个「你能控制的微小行动」并去做 [24:46 Fiona Fung]。她信奉「如果你不害怕,你会做什么?」以及「偶尔做点可怕的事」,因为只有持续涉足未知,人才能保持成长 [25:00 Fiona Fung]。
-
-**3. 警惕孤独感,重建人际连结。** 一个反直觉的痛点是:当每个人都对着自己的智能体高效工作时,工程团队开始变得孤独。为了找回协作感,Fiona 发起了「结对编程午餐」,让大家并排坐在一起,各自用自己的方式跑 Claude Code。因为每个人调教工具的习惯不同,哪怕只是旁观旁边的人怎么构建,大家也能互相学到大量新奇的用法 [56:44 Fiona Fung]。
-
-## 管理者要亲临前线,但要砍掉冗余流程
-
-工作流与角色的变化,对工程管理者提出了全新的要求。
-
-Fiona 坚持一条铁律:**所有新加入的经理,都必须先从 IC(独立贡献者)做起。** 在承担支持他人的管理责任前,他们需要给自己留出足够的「创造者时间」,深入代码库和产品中去。只有亲自使用团队构建的工具,管理者才不会迷失在指标报表中,才能真正与团队建立共鸣 [50:50 Fiona Fung]。
-
-她甚至要求经理们保持对「轶事」的敏感。分享的数据仪表盘固然客观,但 Fiona 发现,很多时候最有效的管理抓手来自她亲自使用产品时发现的一个小 Bug,或是进行客户访谈时听到的真实抱怨 [66:02 Fiona Fung]。
-
-> 【背景】播客主持人 Lenny 提到亚马逊创始人 Jeff Bezos 的名言:「当数据和轶事发生冲突时,相信轶事。」
-
-正因为变化太快,管理者应当给予团队明确的许可:**终止一切不再发挥作用的流程。** Fiona 刚加入时曾推行过六个月的路线图规划,但三个月后就发现已不再适用。如今,她将长线规划缩短为极为轻量的「准时制规划」:仅用一个电子表格列出当月的最高优先级,并每周与团队做一次极简对齐 [84:37 Fiona Fung]。
-
-## 如何培养下一代工程师?
-
-节目的尾声,Fiona 分享了她如今「夜不能寐」的隐忧:在这个不再需要手敲代码的时代,**该如何培养下一代工程师?** 过去的工程师是靠在「代码堆里的日子」积累了对底层架构的理解,现在的新人该如何跨越这道鸿沟?她猜想,未来的软件工程或许会演变为类似医学的「驻院医生」学徒制。但不论工具如何智能,「深入理解你依赖的那一层架构」依然是人类专家不可替代的价值所在 [73:26 Fiona Fung]。
+> 【背景】Co-Work 是 Anthropic 推出的面向日常知识工作的智能体产品,能够处理文件、填报表格等任务;Claude Code 则专注于编程辅助。
 
 ## 本集带走
-
-1. **管理重心从「写」转向「验」**:当智能体能以 8 倍速产出代码,管理者的核心工作不再是催促产出,而是把「验证什么是好」的框架(如规格说明、自动测试)固化到代码库中,让智能体自己去比对和纠偏。
-2. **所有管理者必须亲临前线**:经理必须先做 IC、必须亲自使用产品。脱离了真实的使用体验和一线代码,只看仪表盘的管理动作在极速变化的 AI 时代注定失效。
-3. **要有勇气砍掉旧流程**:在 AI 时代,没有什么是永远有效的。从六个月的路线图到死板的绩效指标,只要不再服务于当前目标,就果断终结它。
+1. **编码已非瓶颈,验证才是重心**:当全员都在用 AI 大幅提速时,质量保证的重心应从人工审查转向提供自动化测试框架和体验监控(如「坏与悲」分类法),让模型自行验证。
+2. **角色边界正在消融**:在 AI 辅助下,产品经理可以直接写代码,工程师能跨界做移动端适配。未来的关键人才是兼具产品直觉的「创意构建者」与掌握核心难题的「深层系统专家」。
+3. **管理动作必须升级**:管理者要善用智能体获取全局洞察并转向异步工作流;同时,要在团队扩张和技术狂飙中,通过坚持使用产品、缩短规划周期以及创造人际连接来守住团队文化。
 
 ## 金句(中英对照 · 过机器闸门三联校验)
 
+> 对于任何你知道存在恐惧的事情,我的建议是拥抱它并问自己,好吧,有什么我能做的吗,什么在我的控制范围内。  
+> *for anything that you know that there is a fear my advice is kind of lean in and ask okay is there some what can I do about it what is within my control*  
+> —— Fiona Fung · [21:28] ^q1
+
 > 客户会以你没有意图的方式使用你的产品,无论好坏。  
 > *Customers will use your product in ways that you did not intend for good or for bad.*  
-> —— Fiona Fung · [34:28] ^q1
+> —— Fiona Fung · [34:28] ^q2
 
-> 但对于任何你知道存在恐惧的事情,我的建议是某种程度的投入。然后问自己,好吧,有什么我能做的吗,什么在我的控制范围内  
-> *but for anything that you know that there is a fear my advice is kind of lean in and ask okay is there some what can I do about it what is within my control*  
-> —— Fiona Fung · [21:27] ^q2
+> 不要首先把动静误认为是进步。  
+> *don't first take motion for progress*  
+> —— Fiona Fung · [41:29] ^q3
 
-> 实际上如果你不害怕你会做什么,并且偶尔做点可怕的事情,因为那通常也是我们成长的方式  
-> *actually those were my two favorite things before like what would you do if you're not afraid and do something scary once in a while because that's also usually how we grow*  
-> —— Fiona Fung · [24:58] ^q3
+> 我开始引入这个概念,让我们区分什么是坏的与什么是悲的,坏是非常糟糕的不可恢复的错误,悲是某种痛点但可恢复。  
+> *I started this hey let's have a concept of what's bad versus what's sad and bad is like a very bad irrecoverable error and sad is something that's kind of like a pain point recoverable*  
+> —— Fiona Fung · [45:26] ^q4
 
-> 不要首先把动静误认为是进步,因为如果你在衡量工具的用户使用情况,那么你衡量的是行动  
-> *first take motion for progress because if you're measuring like you know like tool user usage then you're you're measuring the action*  
-> —— Fiona Fung · [41:29] ^q4
-
-> 在 Claude 代码和 co-work 团队文化中真正重要的另一件事,就是明确的许可去终止那些不再服务于我们的流程  
-> *one other thing that's really big on Claude code and co-work team culture is explicit permission to kill processes that no longer serve us*  
-> —— Fiona Fung · [83:10] ^q5
-
-> 我现在称之为 JIT 规划,就像准时制规划,因为是的我认为六个月太长了  
-> *I call it JIT planning now like just in time planning so it is like around like because yeah I think six months was too long*  
-> —— Fiona Fung · [84:37] ^q6
+> 过了一段时间,我们感觉这可能开始变成一种孤独的体验,因为我们都开始如此频繁地与我们的智能体一起工作了。  
+> *after a while we felt it could start being a lonely experience because we all started just working with our agents so much.*  
+> —— Fiona Fung · [56:38] ^q5
 
 ## 相关单集
 
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《The AI paradox: More automation, more humans, more work | Dan Shipper》]] —— 同公司:Anthropic、Claude Code · 同概念:智能体 (agent)
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同公司:Claude Code、Anthropic · 同概念:智能体 (agent)
-- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同公司:Anthropic、Claude Code
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《From skeptic to true believer: How OpenClaw changed my life | Claire Vo》]] —— 同公司:Claude Code · 同概念:智能体 (agent)
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare》]] —— 同公司:Anthropic、Claude Code
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同公司:Claude Code · 同概念:智能体 (agent)
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)》]] —— 同公司:Anthropic · 同概念:智能体 (agent)
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)》]] —— 同公司:Anthropic · 同概念:智能体 (agent)
-- [[2026-06-03-latent-space-satya-2026|《Satya Nadella：Microsoft Build特别跨界对谈》]] —— 同公司:Microsoft · 同概念:智能体 (agent)
-- [[2026-06-22-latent-space-gray-swan|《神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan》]] —— 同公司:Anthropic · 同概念:智能体 (agent)
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把销售当产品做：用 AI 重构 GTM 团队的实战指南》]] —— 同概念:智能体 (agent)
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《被 10 亿美元验证的逆向创业法:AI 数据公司 Surge 的独立路径》]] —— 同公司:Anthropic
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 1.2 个人加 20 个 AI 智能体，替换 10 人销售团队》]] —— 同概念:智能体 (agent)
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]] —— 同概念:智能体 (agent)
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《How to build a company that withstands any era | Eric Ries, Lean Startup author》]] —— 同公司:Anthropic
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|《对话 Anthropic 产品负责人 Cat Wu:AI 时代 PM 如何跟上「每周发布」的疯狂节奏》]] —— 同公司:Anthropic · 同概念:Claude Code、Co-Work、智能体 (agent)
+- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同公司:Anthropic · 同概念:Claude Code、IC
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同公司:Anthropic · 同概念:Claude Code、智能体 (agent)
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《在指数级增长公司做增长：Anthropic 增长负责人的打法》]] —— 同公司:Anthropic · 同概念:Claude Code、智能体 (agent)
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的 AI 工作预测:智能体接管工作,但人类不会失业》]] —— 同公司:Anthropic · 同概念:Claude Code、智能体 (agent)
+- [[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样重要,但现在只是 1997 年》]] —— 同公司:Anthropic、Microsoft · 同概念:Claude Code
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同概念:Claude Code、智能体 (agent)
+- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:Claude Code、智能体 (agent)
+- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别怪高管不懂你：产品经理的向上影响力心法》]] —— 同公司:Slack · 同概念:智能体 (agent)
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被淘汰，构建者迎来黄金期》]] —— 同公司:Anthropic · 同概念:智能体 (agent)
+- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel:在AI时代,做最会创新的公司》]] —— 同公司:Anthropic · 同概念:智能体 (agent)
+- [[2026-06-03-latent-space-satya-2026|《专访 Satya Nadella:智能体时代的平台逻辑与企业护城河》]] —— 同公司:Microsoft · 同概念:智能体 (agent)
+- [[2026-06-22-latent-space-gray-swan|《给 AI 智能体装上「安全带」:Gray Swan 的攻防实战》]] —— 同公司:Anthropic · 同概念:智能体 (agent)
+- [[2026-07-08-latent-space-modal|《AI 基础设施如何为智能体重新设计:Modal 联合创始人的方法》]] —— 同公司:Anthropic · 同概念:智能体 (agent)
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] —— 同概念:智能体 (agent)
+- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同公司:Anthropic
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体替代 10 人销售团队：SaaStr 创始人的前沿实战》]] —— 同概念:智能体 (agent)
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值 150 亿的隐形 AI 公司 Applied Intuition:给自动驾驶卡车的焦虑开一剂务实药方》]] —— 同概念:智能体 (agent)
+- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」》]] —— 同公司:Anthropic
 - [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同概念:智能体 (agent)
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell》]] —— 同公司:Anthropic
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《The hidden pattern behind successful products | Mark Pincus (founder of Zynga)》]] —— 同概念:智能体 (agent)
-- [[2026-06-24-latent-space-databricks|《为什么前沿生态必须开放》]] —— 同概念:智能体 (agent)
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人：别想从零颠覆世界，靠复制才能创新》]] —— 同概念:智能体 (agent)
+- [[2026-06-24-latent-space-databricks|《Databricks 的智能体时代布局：统一调度、开源治理与数据库重写》]] —— 同概念:智能体 (agent)
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《OpenAI Codex lead on the new shape of product work | Andrew Ambrosino》]] —— 同概念:智能体 (agent)
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]] —— 同概念:智能体 (agent)
-- [[2026-07-08-latent-space-modal|《为什么 AI 基础设施必须为「Agent 体验」进化》]] —— 同概念:智能体 (agent)
-- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone》]] —— 同概念:智能体 (agent)
+- [[2025-11-20-lennys-slack-founder-stewart-butterfield|《把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学》]] —— 同公司:Slack
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《Cisco 高管 Jeetu Patel：如何把老牌巨头推向 AI 时代，以及他的六维制胜框架》]] —— 同公司:Anthropic
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《前 GitHub、现 Notion 产品负责人 Max:每个项目的前 10% 现在免费了》]] —— 同公司:Anthropic
 
 ---
 

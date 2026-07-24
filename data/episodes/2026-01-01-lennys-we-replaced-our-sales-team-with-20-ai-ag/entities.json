@@ -3,11 +3,11 @@
   "podcast": "Lenny's Podcast",
   "date": "2026-01-01",
   "tags": [
-    "AI 替代销售",
-    "智能体部署与编排",
-    "GTM 自动化",
-    "B2B 销售革命",
-    "前线部署工程师"
+    "AI 销售智能体",
+    "GTM 变革",
+    "团队重组",
+    "AI 取代人工",
+    "B2B 创业"
   ],
   "entities": [
     {
@@ -579,7 +579,7 @@
       "name": "SaaStr",
       "file": "SaaStr",
       "primary": true,
-      "how_described": "本集说它是全球最大的 B2B 创始人社区，每年有八位数的年收入。嘉宾把它的约10人销售团队换成了1.2个人类加20个AI智能体，业绩表现与之前持平。",
+      "how_described": "本集讨论的核心公司，嘉宾创立的全球最大 B2B 创始人社区，将其销售团队从约 10 个人类替换为 1.2 个人类加 20 个 AI 智能体，仍维持八位数的年营收。",
       "source": "glm",
       "evidence": [
         {
@@ -765,247 +765,13 @@
       ]
     },
     {
-      "id": "artisan",
-      "type": "company",
-      "role": "company",
-      "name": "Artisan",
-      "file": "Artisan",
-      "primary": true,
-      "how_described": "本集说它是一家 YC 孵化的公司，提供 Outbound 智能体。嘉宾用它向 40 万联系人发了约 6 万封邮件。选它的关键原因是它愿意派人手把手帮忙。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 3,
-          "t": [
-            7.104,
-            12.472
-          ],
-          "quote": "They're all just labeled with our agents, Repli for Replit, Quali for Qualified, Arti for Artisan.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 125,
-          "t": [
-            537,
-            542.463
-          ],
-          "quote": "They're all just labeled with our agents, Repli for Replit, Quali for Qualified, Arti for Artisan.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 413,
-          "t": [
-            1619.18,
-            1628.707
-          ],
-          "quote": "And if you can go do this, pick any tool, pick Agentforce, pick Qualified, pick Artisan, pick whatever you want, if you can go do this and get it live into production, you're hyper employable.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 534,
-          "t": [
-            1990.164,
-            1992.407
-          ],
-          "quote": "So we picked a YC company called Artisan.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 539,
-          "t": [
-            2003.461,
-            2005.543
-          ],
-          "quote": "We didn't know if Artisan was the... I have opinions now.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 548,
-          "t": [
-            2024.691,
-            2025.936
-          ],
-          "quote": "And Artisan said, \"We'll do it.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 585,
-          "t": [
-            2178.51,
-            2186.457
-          ],
-          "quote": "And that's why we've had so much success is the first two we did, yeah, they were startups, so they worked harder, but Artisan and Qualified just did the work with us.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "qualified",
-      "type": "company",
-      "role": "company",
-      "name": "Qualified",
-      "file": "Qualified",
-      "primary": true,
-      "how_described": "本集说它被用作网站对话气泡来筛选入站线索。由 Salesforce 前 CMO 创立。它的智能体曾在周六晚上11点无人值守时谈下一笔赞助。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 3,
-          "t": [
-            7.104,
-            12.472
-          ],
-          "quote": "They're all just labeled with our agents, Repli for Replit, Quali for Qualified, Arti for Artisan.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 125,
-          "t": [
-            537,
-            542.463
-          ],
-          "quote": "They're all just labeled with our agents, Repli for Replit, Quali for Qualified, Arti for Artisan.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 319,
-          "t": [
-            1221.03,
-            1228.615
-          ],
-          "quote": "Our AI alone, one of our agent fully qualifies everybody on the website, so they don't even know they're being qualified and just sets up the meeting with the salesperson.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 321,
-          "t": [
-            1236,
-            1237.301
-          ],
-          "quote": "It doesn't feel good to be qualified, does it?",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 413,
-          "t": [
-            1619.18,
-            1628.707
-          ],
-          "quote": "And if you can go do this, pick any tool, pick Agentforce, pick Qualified, pick Artisan, pick whatever you want, if you can go do this and get it live into production, you're hyper employable.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 559,
-          "t": [
-            2056.741,
-            2063.37
-          ],
-          "quote": "So we used this vendor called Qualified, which was founded by the ex CMO of Salesforce that does a lot now, but mostly focused on Qualified stuff.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 564,
-          "t": [
-            2077.16,
-            2088.689
-          ],
-          "quote": "Well, it's literally, if you go to SaaStrAnnual.com, and anyone should buy a product like this, it doesn't have to be Qualified, and the bubble, the intercom-like bubble, is tuned to qualifying inbound prospects.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 585,
-          "t": [
-            2178.51,
-            2186.457
-          ],
-          "quote": "And that's why we've had so much success is the first two we did, yeah, they were startups, so they worked harder, but Artisan and Qualified just did the work with us.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "agentforce",
-      "type": "company",
-      "role": "company",
-      "name": "Agentforce",
-      "file": "Agentforce",
-      "primary": true,
-      "how_described": "本集说它是 Salesforce 推出的智能体产品。嘉宾很早就接入了它，专门拿去唤醒“销售员懒得跟的线索”，结果达到了70%的回复率。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 126,
-          "t": [
-            542.543,
-            543.724
-          ],
-          "quote": "Agentforce needs a nickname.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 413,
-          "t": [
-            1619.18,
-            1628.707
-          ],
-          "quote": "And if you can go do this, pick any tool, pick Agentforce, pick Qualified, pick Artisan, pick whatever you want, if you can go do this and get it live into production, you're hyper employable.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 425,
-          "t": [
-            1670.12,
-            1676.378
-          ],
-          "quote": "So we're pretty far on Agentforce, which is Salesforce's one, which Mark talks a lot about, but we're probably one of the only organizations of our size on it.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 431,
-          "t": [
-            1693.836,
-            1695.818
-          ],
-          "quote": "We took that prompt and gave it to Agentforce.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 625,
-          "t": [
-            2292.113,
-            2297.76
-          ],
-          "quote": "Then we did SDR for outbound, then we did inbound, and then we did Agentforce really early with Salesforce.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 626,
-          "t": [
-            2298.34,
-            2306.768
-          ],
-          "quote": "And we didn't know what to do with Agentforce at first, but we decided we would reactivate the folks that sales decide was not worth their time.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 632,
-          "t": [
-            2321.46,
-            2326.946
-          ],
-          "quote": "We just took Agentforce just on those and we trained it on very similar prompt.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
       "id": "salesforce",
       "type": "company",
       "role": "company",
       "name": "Salesforce",
       "file": "Salesforce",
       "primary": true,
-      "how_described": "本集说它正经历复兴，成为各类AI GTM智能体插接的中心数据库。Marc Benioff表示现在有2000名前线部署工程师专门确保客户在付款前就能让智能体跑通。",
+      "how_described": "本集提到它提供了 Agentforce 产品用于激活沉睡线索，并指出它现在派出了 2000 名前线部署工程师帮助客户成功上线。",
       "source": "glm",
       "evidence": [
         {
@@ -1182,79 +948,13 @@
       ]
     },
     {
-      "id": "delphi",
-      "type": "company",
-      "role": "company",
-      "name": "Delphi",
-      "file": "Delphi",
-      "primary": true,
-      "how_described": "本集说它是一款制作“数字分身”的应用，能摄取个人的所有公开内容。嘉宾用它制作了数字版的自己，后来它自动承担了客服工作，并自己谈下了一笔7万美元的赞助。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 99,
-          "t": [
-            433.891,
-            443.979
-          ],
-          "quote": "The interesting thing, the aha moment that happened to us is going into May of this year, we had one AI agent in production called Delphi that we both use for digital lending and Digital Jason.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 111,
-          "t": [
-            479.281,
-            488.167
-          ],
-          "quote": "And I knew from this Delphi, this general agent that it would sort of work because going into annual, this general agent, this Digital Jason closed a 70K sponsorship on its own.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 478,
-          "t": [
-            1813.667,
-            1816.371
-          ],
-          "quote": "I started, there's an app called Delphi, which makes digital clones.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 506,
-          "t": [
-            1893.04,
-            1893.841
-          ],
-          "quote": "I used Delphi.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 657,
-          "t": [
-            2414.42,
-            2429.873
-          ],
-          "quote": "Because right now, when we did Delphi in the beginning, when I copied you with Delphi, even me, I spent almost an hour a day training it in the beginning because when we started to use it for support, it had an initial... it started telling people the wrong dates, and we could talk about why.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 659,
-          "t": [
-            2431.875,
-            2437.98
-          ],
-          "quote": "And so when people started to use it, I had to spend an hour each morning firing up Delphi, reviewing the issues and answering them.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
       "id": "replit",
       "type": "company",
       "role": "company",
       "name": "Replit",
       "file": "Replit",
       "primary": true,
-      "how_described": "本集说它是一家爆发式增长的 AI 公司，代表高端市场的需求过剩。此外，嘉宾提到自己是 Replit 的前 1% 用户，并用它在 150 天内构建了 12 个应用。",
+      "how_described": "本集提到嘉宾是其前 1% 的深度用户，他在 150 天内用它在完全不会写代码的情况下构建了 12 个被使用上百万人次的应用。",
       "source": "glm",
       "evidence": [
         {
@@ -1422,118 +1122,13 @@
       ]
     },
     {
-      "id": "bolt",
-      "type": "company",
-      "role": "company",
-      "name": "Bolt",
-      "file": "Bolt",
-      "primary": true,
-      "how_described": "本集提到它作为爆发式增长的 AI 公司代表，在六个月内从零做到 5000 万美元营收。因为线索太多，销售团队一半的精力花在决定回复哪些线索上。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 30,
-          "t": [
-            154.16,
-            164.146
-          ],
-          "quote": "Including a year free of Lovable, Replit, Bolt, N8N, Gamma, Linear, Devin, Posthog, Superhuman, Descript, Wspr Flow, Perplexity, Warp, Granola, Magic Patterns, Raycast, ChatPRD, Mobbin, and Stripe Atlas.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 247,
-          "t": [
-            932.496,
-            936.939
-          ],
-          "quote": "So for example, Bolt is probably a distant number three behind Replit and Lovable, right?",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "lovable",
-      "type": "company",
-      "role": "company",
-      "name": "Lovable",
-      "file": "Lovable",
-      "primary": true,
-      "how_described": "本集提到它是一家 AI 公司，竞争对手 Bolt 抢走了它的一个七位数大单，原因仅仅是 Lovable 的人没及时回电话。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 30,
-          "t": [
-            154.16,
-            164.146
-          ],
-          "quote": "Including a year free of Lovable, Replit, Bolt, N8N, Gamma, Linear, Devin, Posthog, Superhuman, Descript, Wspr Flow, Perplexity, Warp, Granola, Magic Patterns, Raycast, ChatPRD, Mobbin, and Stripe Atlas.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 247,
-          "t": [
-            932.496,
-            936.939
-          ],
-          "quote": "So for example, Bolt is probably a distant number three behind Replit and Lovable, right?",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 252,
-          "t": [
-            949.568,
-            954.692
-          ],
-          "quote": "And he also is like,\" we closed a seven figure deal we stole from Lovable because no one called them back at Lovable.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 294,
-          "t": [
-            1122.482,
-            1126.484
-          ],
-          "quote": "Okay, go out and do the work, compare Replit, Lovable, and whoever else and buy one.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 696,
-          "t": [
-            2579.929,
-            2580.95
-          ],
-          "quote": "Lovable didn't exist.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 856,
-          "t": [
-            3112.595,
-            3114.417
-          ],
-          "quote": "I want to be CRO at Lovable.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1518,
-          "t": [
-            5482.24,
-            5484.764
-          ],
-          "quote": "Had the head of growth from Lovable, Elena Vernon on the podcast.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
       "id": "vercel",
       "type": "company",
       "role": "company",
       "name": "Vercel",
       "file": "Vercel",
       "primary": true,
-      "how_described": "本集说它是一家高速增长的 AI 公司，代表了拥有内部工程能力去自己构建智能体的大公司。",
+      "how_described": "本集将其作为标杆案例，指出他们的员工每人管理 10 个 AI 智能体，并建议大公司不要像 Vercel 那样什么都自己内部构建。",
       "source": "glm",
       "evidence": [
         {
@@ -1719,31 +1314,301 @@
       ]
     },
     {
-      "id": "palantir",
+      "id": "delphi",
       "type": "company",
       "role": "company",
-      "name": "Palantir",
-      "file": "Palantir",
+      "name": "Delphi",
+      "file": "Delphi",
       "primary": true,
-      "how_described": "本集说它是目前最成功的上市 B2B 公司之一。它因为拥有前线部署工程师并在现场把产品跑通的模式，实现了九位数规模的交易。",
+      "how_described": "本集提到它是用于制作数字克隆的应用，嘉宾用它制作了数字分身 Digital Jason，后来甚至自动包揽客服邮件并独立谈成了一笔 7 万美元的赞助。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 1098,
+          "seg": 99,
           "t": [
-            3952.362,
-            3957.585
+            433.891,
+            443.979
           ],
-          "quote": "I think Palantir is obviously the single most successful public B2B company at the moment.",
+          "quote": "The interesting thing, the aha moment that happened to us is going into May of this year, we had one AI agent in production called Delphi that we both use for digital lending and Digital Jason.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 1244,
+          "seg": 111,
           "t": [
-            4530.505,
-            4535.007
+            479.281,
+            488.167
           ],
-          "quote": "He's like, \"The number one thing I envy in Palantir, one is their high deal sizes.\"",
+          "quote": "And I knew from this Delphi, this general agent that it would sort of work because going into annual, this general agent, this Digital Jason closed a 70K sponsorship on its own.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 478,
+          "t": [
+            1813.667,
+            1816.371
+          ],
+          "quote": "I started, there's an app called Delphi, which makes digital clones.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 506,
+          "t": [
+            1893.04,
+            1893.841
+          ],
+          "quote": "I used Delphi.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 657,
+          "t": [
+            2414.42,
+            2429.873
+          ],
+          "quote": "Because right now, when we did Delphi in the beginning, when I copied you with Delphi, even me, I spent almost an hour a day training it in the beginning because when we started to use it for support, it had an initial... it started telling people the wrong dates, and we could talk about why.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 659,
+          "t": [
+            2431.875,
+            2437.98
+          ],
+          "quote": "And so when people started to use it, I had to spend an hour each morning firing up Delphi, reviewing the issues and answering them.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "artisan",
+      "type": "company",
+      "role": "company",
+      "name": "Artisan",
+      "file": "Artisan",
+      "primary": true,
+      "how_described": "本集提到它是一家 YC 孵化的公司，其出站销售智能体帮嘉宾向 40 万人发了 6 万封邮件，嘉宾选它是因为他们最愿意派工程师手把手协助部署。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            7.104,
+            12.472
+          ],
+          "quote": "They're all just labeled with our agents, Repli for Replit, Quali for Qualified, Arti for Artisan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 125,
+          "t": [
+            537,
+            542.463
+          ],
+          "quote": "They're all just labeled with our agents, Repli for Replit, Quali for Qualified, Arti for Artisan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1619.18,
+            1628.707
+          ],
+          "quote": "And if you can go do this, pick any tool, pick Agentforce, pick Qualified, pick Artisan, pick whatever you want, if you can go do this and get it live into production, you're hyper employable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 534,
+          "t": [
+            1990.164,
+            1992.407
+          ],
+          "quote": "So we picked a YC company called Artisan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 539,
+          "t": [
+            2003.461,
+            2005.543
+          ],
+          "quote": "We didn't know if Artisan was the... I have opinions now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2024.691,
+            2025.936
+          ],
+          "quote": "And Artisan said, \"We'll do it.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2178.51,
+            2186.457
+          ],
+          "quote": "And that's why we've had so much success is the first two we did, yeah, they were startups, so they worked harder, but Artisan and Qualified just did the work with us.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "qualified",
+      "type": "company",
+      "role": "company",
+      "name": "Qualified",
+      "file": "Qualified",
+      "primary": true,
+      "how_described": "本集说它是由 Salesforce 前 CMO 创立的公司，其入站销售智能体能 24 小时无休地在网站拦截审核线索，并在周六晚 11 点自主搞定了赞助商。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            7.104,
+            12.472
+          ],
+          "quote": "They're all just labeled with our agents, Repli for Replit, Quali for Qualified, Arti for Artisan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 125,
+          "t": [
+            537,
+            542.463
+          ],
+          "quote": "They're all just labeled with our agents, Repli for Replit, Quali for Qualified, Arti for Artisan.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1221.03,
+            1228.615
+          ],
+          "quote": "Our AI alone, one of our agent fully qualifies everybody on the website, so they don't even know they're being qualified and just sets up the meeting with the salesperson.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1236,
+            1237.301
+          ],
+          "quote": "It doesn't feel good to be qualified, does it?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1619.18,
+            1628.707
+          ],
+          "quote": "And if you can go do this, pick any tool, pick Agentforce, pick Qualified, pick Artisan, pick whatever you want, if you can go do this and get it live into production, you're hyper employable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2056.741,
+            2063.37
+          ],
+          "quote": "So we used this vendor called Qualified, which was founded by the ex CMO of Salesforce that does a lot now, but mostly focused on Qualified stuff.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 564,
+          "t": [
+            2077.16,
+            2088.689
+          ],
+          "quote": "Well, it's literally, if you go to SaaStrAnnual.com, and anyone should buy a product like this, it doesn't have to be Qualified, and the bubble, the intercom-like bubble, is tuned to qualifying inbound prospects.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2178.51,
+            2186.457
+          ],
+          "quote": "And that's why we've had so much success is the first two we did, yeah, they were startups, so they worked harder, but Artisan and Qualified just did the work with us.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "agentforce",
+      "type": "company",
+      "role": "company",
+      "name": "Agentforce",
+      "file": "Agentforce",
+      "primary": true,
+      "how_described": "本集提到它是 Salesforce 推出的智能体产品，嘉宾用它专门去重新联系那些被人类销售嫌佣金少而放弃跟进的线索，拿到了 70% 的回复率。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            542.543,
+            543.724
+          ],
+          "quote": "Agentforce needs a nickname.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1619.18,
+            1628.707
+          ],
+          "quote": "And if you can go do this, pick any tool, pick Agentforce, pick Qualified, pick Artisan, pick whatever you want, if you can go do this and get it live into production, you're hyper employable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 425,
+          "t": [
+            1670.12,
+            1676.378
+          ],
+          "quote": "So we're pretty far on Agentforce, which is Salesforce's one, which Mark talks a lot about, but we're probably one of the only organizations of our size on it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 431,
+          "t": [
+            1693.836,
+            1695.818
+          ],
+          "quote": "We took that prompt and gave it to Agentforce.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 625,
+          "t": [
+            2292.113,
+            2297.76
+          ],
+          "quote": "Then we did SDR for outbound, then we did inbound, and then we did Agentforce really early with Salesforce.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 626,
+          "t": [
+            2298.34,
+            2306.768
+          ],
+          "quote": "And we didn't know what to do with Agentforce at first, but we decided we would reactivate the folks that sales decide was not worth their time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 632,
+          "t": [
+            2321.46,
+            2326.946
+          ],
+          "quote": "We just took Agentforce just on those and we trained it on very similar prompt.",
           "speaker": "SPEAKER_1"
         }
       ]
@@ -1755,7 +1620,7 @@
       "name": "智能体 (agent)",
       "file": "智能体",
       "primary": true,
-      "how_described": "本集说它能自主执行销售和客服任务，并24/7全天候工作。但它们无法开箱即用，必须经过摄取数据、每日纠错和长达30天的训练才能成功。",
+      "how_described": "本集把它描述为本质上是一堆 API 拼接在一起的程序，需要经过数据摄取和为期一个月的人工纠错训练才能变得好用，能 24/7 无休工作并取代大量初级销售岗位。",
       "source": "glm",
       "evidence": [
         {
@@ -2136,7 +2001,7 @@
       "name": "前线部署工程师 (Forward Deployed Engineer)",
       "file": "前线部署工程师",
       "primary": true,
-      "how_described": "本集说它是供应商派去客户现场的技术人员。这是决定智能体选型的关键：好的供应商会派他们手把手帮客户把模型调通、在付款前就出业绩，而不是直接卖空壳软件。",
+      "how_described": "本集将其描述为供应商派来驻场帮你把产品真正跑通的人，并强调初创公司的巨大机会就是派 FDE 像顾问一样确保客户在付款前智能体就 100% 能跑起来。",
       "source": "glm",
       "evidence": [
         {
@@ -2178,292 +2043,106 @@
       ]
     },
     {
-      "id": "sdr",
+      "id": "prompt",
       "type": "concept",
       "role": "concept",
-      "name": "SDR",
-      "file": "SDR",
+      "name": "提示词 (prompt)",
+      "file": "提示词",
       "primary": true,
-      "how_described": "本集说这种负责按固定节奏群发邮件的初级岗位明年会被 AI 取代 90%。未来懂产品的人能通过管理10个智能体拿到25万美元的年薪，而不是管10个人。",
+      "how_described": "本集把它描述为一串描述你希望 AI 做什么的文本指令，嘉宾强调成熟的提示词可以直接复用，他把自己打磨好的提示词直接喂给新产品，当天就跑出了很好的效果。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 14,
+          "seg": 428,
           "t": [
-            44.567,
-            50.754
+            1683.847,
+            1687.71
           ],
-          "quote": "The classic SDR junior kid that is hired out of college to send emails, we don't need them.",
+          "quote": "After training it and learning it and spending months time to learn it, we got it down to one prompt.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 114,
+          "seg": 429,
           "t": [
-            498.654,
-            503.637
+            1687.77,
+            1689.632
           ],
-          "quote": "And I just can't pay a junior SDR $150,000 a year to quit.",
+          "quote": "And prompt is another almost intimidating word.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 165,
+          "seg": 431,
           "t": [
-            681.04,
-            687.564
+            1693.836,
+            1695.818
           ],
-          "quote": "Imagine you hired a 21-year-old SDR fresh out of junior college and said, here's my list, 1.2 million people, start calling them.",
+          "quote": "We took that prompt and gave it to Agentforce.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 306,
+          "seg": 632,
           "t": [
-            1167.8,
-            1181.588
+            2321.46,
+            2326.946
           ],
-          "quote": "The classic SDR junior kid that is hired out of college to send emails and respond to inbound emails and maybe get back to them later that day or the next day, we don't need them.",
+          "quote": "We just took Agentforce just on those and we trained it on very similar prompt.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 309,
+          "seg": 1376,
           "t": [
-            1189.592,
-            1194.915
+            5024,
+            5027.442
           ],
-          "quote": "The email-based cadence SDR will be 90% displaced by AI next year.",
+          "quote": "Not only is it magical, I mean, great, you can do a prompt and build a crappy app that doesn't work.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 320,
+          "seg": 1564,
           "t": [
-            1228.975,
-            1235.74
+            5629.127,
+            5634.73
           ],
-          "quote": "So this email-based SDR and this human qualifying leads, which is not good for the customer.",
+          "quote": "And the reason I bring this up, I use it every single day is because it can do a lot of cool things with a prompt, right?",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 365,
+          "seg": 1571,
           "t": [
-            1445.628,
-            1448.869
+            5662.049,
+            5665.733
           ],
-          "quote": "It could be support, it could be SDR, it could be inbound qualification.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 377,
-          "t": [
-            1489.393,
-            1493.255
-          ],
-          "quote": "And we did a call with their team and they're like, \"We want to figure out this AI SDR stuff.\"",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 403,
-          "t": [
-            1588.761,
-            1593.685
-          ],
-          "quote": "And every day when that AI SDR sends out emails and do practice emails, they will say some dumb things.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 625,
-          "t": [
-            2292.113,
-            2297.76
-          ],
-          "quote": "Then we did SDR for outbound, then we did inbound, and then we did Agentforce really early with Salesforce.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 888,
-          "t": [
-            3216,
-            3216.694
-          ],
-          "quote": "No SDR, BDRs.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 975,
-          "t": [
-            3542.14,
-            3546.502
-          ],
-          "quote": "I don't know that if your average SDR or junior salesperson is going to get budget for their own agent.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1141,
-          "t": [
-            4132.631,
-            4142.574
-          ],
-          "quote": "I do think the classic cadence-based SDR running campaigns through a tool, him or herself, will be mostly extinct with 12 months.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1398,
-          "t": [
-            5101.899,
-            5103.9
-          ],
-          "quote": "Now everyone in the world wants to build an AI, SDR, AIR, CRM.",
+          "quote": "But it's just a simple prompt to go to it, type in whatever image you want to make.",
           "speaker": "SPEAKER_1"
         }
       ]
     },
     {
-      "id": "ae",
+      "id": "hallucinations",
       "type": "concept",
       "role": "concept",
-      "name": "AE",
-      "file": "AE",
+      "name": "幻觉 (hallucinations)",
+      "file": "幻觉",
       "primary": true,
-      "how_described": "本集说这种负责真正成交的客户经理，明年大概 70% 的工作还是安全的，但再往后会降到只有 40% 到 50% 安全，仅仅“会搞关系”将不再是护城河。",
+      "how_described": "本集将其描述为 AI 一本正经胡说八道的现象，指出智能体刚开始发邮件时一定会产生幻觉，因此每天必须花一两个小时去人工纠正它的错误。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 21,
+          "seg": 404,
           "t": [
-            85.233,
-            95.959
+            1594.806,
+            1598.87
           ],
-          "quote": "He's transformed his own SaaStr sales team from around 10 SDRs and AEs to one full-time AE, a part-time chief of AI, named Amelia, and 20 AI agents.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 323,
-          "t": [
-            1240.142,
-            1247.767
-          ],
-          "quote": "I'm guessing with your ... Now the AE, the classic human doing the sales, most of the tools aren't there yet for the most part.",
+          "quote": "Maybe it's hallucinations, it really doesn't matter what the technical term is, and you correct it.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 883,
+          "seg": 1369,
           "t": [
-            3199.136,
-            3202
+            4997.444,
+            4998.585
           ],
-          "quote": "And then is there an AE agent or... I forget how that works.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 885,
-          "t": [
-            3204.665,
-            3211.86
-          ],
-          "quote": "We have one full-time AE plus 20% of Amelia's time, so it's 1.2, doing what five or six AEs do.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 930,
-          "t": [
-            3366.542,
-            3370.98
-          ],
-          "quote": "And when you think of... Is Amelia, would you describe her as a go to-market engineer or is that a different role, would you call her chief AE officer?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1157,
-          "t": [
-            4214.993,
-            4220.797
-          ],
-          "quote": "So I think the AE is what we will always have salespeople, but being a people person is not enough anymore.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "hubspot",
-      "type": "company",
-      "role": "company",
-      "name": "HubSpot",
-      "file": "HubSpot",
-      "primary": false,
-      "how_described": "本集提到它的创始人 Brian Halligan 做了一个数字分身。嘉宾还反问听众，躺在他们 HubSpot 里废弃的线索有多少，这正是智能体大显身手的地方。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 486,
-          "t": [
-            1827.421,
-            1830.589
-          ],
-          "quote": "And then Brian Halligan, who's the founder and chairman of HubSpot, did one too.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 604,
-          "t": [
-            2238.774,
-            2240.155
-          ],
-          "quote": "\"How many folks do you have in your HubSpot?",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 676,
-          "t": [
-            2503.36,
-            2513.432
-          ],
-          "quote": "And so just be aware, if you're a startup or even Salesforce or HubSpot, maybe close those deals in the next 12 months, because the window may close where people say, \"Listen, that's the coolest agent I've ever seen.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "reve",
-      "type": "company",
-      "role": "company",
-      "name": "Reve",
-      "file": "Reve",
-      "primary": false,
-      "how_described": "本集在推荐最爱产品时提到，它是一个图像生成应用，能通过提示词生成营销缩略图或文章配图，嘉宾说他自己每天都会用两三次。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 1560,
-          "t": [
-            5619.523,
-            5621.704
-          ],
-          "quote": "But there is an app called Reve.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1573,
-          "t": [
-            5671.303,
-            5671.909
-          ],
-          "quote": "And it's Reve.com?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1575,
-          "t": [
-            5673.367,
-            5673.878
-          ],
-          "quote": "Reve.com.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1578,
-          "t": [
-            5678.343,
-            5678.727
-          ],
-          "quote": "App.reve.com.",
+          "quote": "The hallucinations went away.",
           "speaker": "SPEAKER_1"
         }
       ]
@@ -2471,8 +2150,8 @@
   ],
   "rejected": [
     {
-      "name": "BDR",
-      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+      "name": "attrition",
+      "reason": "专名「attrition」未在真相源出现,且不在别名表(疑编造)"
     }
   ]
 }

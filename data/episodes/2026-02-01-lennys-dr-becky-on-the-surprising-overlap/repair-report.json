@@ -1,71 +1,23 @@
 {
   "kept": [
     {
-      "i": 1,
-      "timestamp": "00:00",
-      "speaker": "Lenny",
-      "trimmed": false,
-      "tsWas": "00:00",
-      "spkWas": "Lenny"
-    },
-    {
       "i": 2,
-      "timestamp": "00:42",
+      "timestamp": "42:27",
       "speaker": "Dr. Becky Kennedy",
       "trimmed": false,
-      "tsWas": "00:42",
+      "tsWas": "42:35",
+      "spkWas": "Dr. Becky Kennedy"
+    },
+    {
+      "i": 3,
+      "timestamp": "26:12",
+      "speaker": "Dr. Becky Kennedy",
+      "trimmed": false,
+      "tsWas": "26:12",
       "spkWas": "Dr. Becky Kennedy"
     },
     {
       "i": 4,
-      "timestamp": "10:06",
-      "speaker": "Dr. Becky Kennedy",
-      "trimmed": false,
-      "tsWas": "10:06",
-      "spkWas": "Dr. Becky Kennedy"
-    },
-    {
-      "i": 5,
-      "timestamp": "14:36",
-      "speaker": "Dr. Becky Kennedy",
-      "trimmed": false,
-      "tsWas": "14:36",
-      "spkWas": "Dr. Becky Kennedy"
-    },
-    {
-      "i": 7,
-      "timestamp": "42:01",
-      "speaker": "Dr. Becky Kennedy",
-      "trimmed": false,
-      "tsWas": "42:01",
-      "spkWas": "Dr. Becky Kennedy"
-    },
-    {
-      "i": 8,
-      "timestamp": "42:27",
-      "speaker": "Dr. Becky Kennedy",
-      "trimmed": false,
-      "tsWas": "42:27",
-      "spkWas": "Dr. Becky Kennedy"
-    },
-    {
-      "i": 9,
-      "timestamp": "42:54",
-      "speaker": "Dr. Becky Kennedy",
-      "trimmed": false,
-      "tsWas": "42:54",
-      "spkWas": "Dr. Becky Kennedy"
-    },
-    {
-      "i": 10,
-      "timestamp": "43:12",
-      "speaker": "Dr. Becky Kennedy",
-      "trimmed": false,
-      "tsWas": "43:10",
-      "spkWas": "Dr. Becky Kennedy"
-    },
-    {
-      "i": 11,
       "timestamp": "58:05",
       "speaker": "Dr. Becky Kennedy",
       "trimmed": false,
@@ -73,40 +25,51 @@
       "spkWas": "Dr. Becky Kennedy"
     },
     {
-      "i": 12,
-      "timestamp": "59:35",
-      "speaker": "Dr. Becky Kennedy",
-      "trimmed": false,
-      "tsWas": "59:34",
-      "spkWas": "Dr. Becky Kennedy"
-    },
-    {
-      "i": 13,
-      "timestamp": "71:37",
-      "speaker": "Dr. Becky Kennedy",
-      "trimmed": false,
-      "tsWas": "71:32",
-      "spkWas": "Dr. Becky Kennedy"
-    },
-    {
-      "i": 14,
+      "i": 5,
       "timestamp": "88:52",
       "speaker": "Dr. Becky Kennedy",
       "trimmed": false,
       "tsWas": "88:52",
       "spkWas": "Dr. Becky Kennedy"
+    },
+    {
+      "i": 6,
+      "timestamp": "30:40",
+      "speaker": "Dr. Becky Kennedy",
+      "trimmed": false,
+      "tsWas": "30:40",
+      "spkWas": "Dr. Becky Kennedy"
+    },
+    {
+      "i": 7,
+      "timestamp": "19:47",
+      "speaker": "Dr. Becky Kennedy",
+      "trimmed": false,
+      "tsWas": "19:46",
+      "spkWas": "Dr. Becky Kennedy"
+    },
+    {
+      "i": 8,
+      "timestamp": "63:21",
+      "speaker": "Dr. Becky Kennedy",
+      "trimmed": false,
+      "tsWas": "63:21",
+      "spkWas": "Dr. Becky Kennedy"
+    },
+    {
+      "i": 9,
+      "timestamp": "00:00",
+      "speaker": "Lenny",
+      "trimmed": false,
+      "tsWas": "01:18",
+      "spkWas": "Lenny"
     }
   ],
   "dropped": [
     {
-      "i": 3,
+      "i": 1,
       "reason": "逐字命中不了(裁剪后仍无)",
       "en": "Perfect is creepy."
-    },
-    {
-      "i": 6,
-      "reason": "逐字命中不了(裁剪后仍无)",
-      "en": "I think the story you tell yourself as a kid at night, kind of becomes the parent you are the next morning."
     }
   ]
 }

@@ -4,10 +4,10 @@
   "date": "2025-12-28",
   "tags": [
     "企业管理",
-    "创业方法论",
-    "产品管理",
-    "AI 与 SaaS 趋势",
-    "高强度组织文化"
+    "组织设计",
+    "产品市场契合度",
+    "AI 时代的企业软件",
+    "创业心法"
   ],
   "entities": [
     {
@@ -140,7 +140,7 @@
       "name": "Rippling",
       "file": "Rippling",
       "primary": true,
-      "how_described": "本集主要讨论的公司，嘉宾 Matt 担任其 CPO 和长期 COO。被描述为一家极其成功、估值超 160 亿美元的企业，其业务统合了 HR、薪酬和 IT 等数据，正在构建强大的商业软件平台。",
+      "how_described": "本集讨论的估值超过 160 亿美元的企业软件公司，嘉宾长期担任其 COO 并近期转任 CPO。本集将其视为拥有单一业务数据图和一致数据湖的平台，认为在 AI 时代，拥有数据'矿山'的它在竞争中极具优势。",
       "source": "glm",
       "evidence": [
         {
@@ -569,43 +569,13 @@
       ]
     },
     {
-      "id": "apple",
-      "type": "company",
-      "role": "company",
-      "name": "Apple",
-      "file": "Apple",
-      "primary": false,
-      "how_described": "嘉宾曾在此工作 7 年，提到了在乔布斯领导下工程师经历高压「死亡行军」式的工作节奏。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 95,
-          "t": [
-            537.02,
-            547.584
-          ],
-          "quote": "I spent seven years at Apple and learned under Steve Jobs when he was the CEO, learned what we called the death march, which is what we did to the engineers.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1104,
-          "t": [
-            5753.823,
-            5759.554
-          ],
-          "quote": "If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
       "id": "notion",
       "type": "company",
       "role": "company",
       "name": "Notion",
       "file": "Notion",
       "primary": false,
-      "how_described": "嘉宾是该公司的早期投资者，以它作为「叙事违规」的典型案例，指出其依靠创始人特质和极致的坚持获得了成功，但非常罕见且难以复制。",
+      "how_described": "本集提到嘉宾是它的早期投资者。它被描绘为一家在由巨头主导的艰难生产力市场中，靠着创始人极度坚持这种'叙事违规'（极罕见）才开辟出利基市场的公司。",
       "source": "glm",
       "evidence": [
         {
@@ -674,177 +644,84 @@
       ]
     },
     {
-      "id": "inkling",
+      "id": "apple",
       "type": "company",
       "role": "company",
-      "name": "Inkling",
-      "file": "Inkling",
+      "name": "Apple",
+      "file": "Apple",
       "primary": false,
-      "how_described": "嘉宾曾经创办的初创公司，奋斗了 9 年最终黯然收场，他以这段未能迎来爆发式增长的亲身经历来阐述尽早止损的观点。",
+      "how_described": "本集提到嘉宾曾在此工作七年，并在史蒂夫·乔布斯手下经历了发布 iPhone 后立刻投入下一个版本、毫无休息的'死亡行军'阶段，以此印证非凡成果需要非凡努力。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 161,
+          "seg": 95,
           "t": [
-            889.11,
-            901.335
+            537.02,
+            547.584
           ],
-          "quote": "When I look back at the nine years I spent working on inkling from day one in 2009 until we sold that business to a private equity firm in 2018, up the curve of Silicon Valley coolness, back down the other side into obscurity.",
+          "quote": "I spent seven years at Apple and learned under Steve Jobs when he was the CEO, learned what we called the death march, which is what we did to the engineers.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 481,
+          "seg": 1104,
           "t": [
-            2601.643,
-            2609.469
+            5753.823,
+            5759.554
           ],
-          "quote": "It's like, ah, man, over and over again, over the course of the many years that I spent at Inkling, we thought we had it.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 501,
-          "t": [
-            2734.268,
-            2737.589
-          ],
-          "quote": "And I don't regret what I did at Inkling, I learned a lot.",
-          "speaker": "SPEAKER_0"
+          "quote": "If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app.",
+          "speaker": "SPEAKER_1"
         }
       ]
     },
     {
-      "id": "workday",
-      "type": "company",
-      "role": "company",
-      "name": "Workday",
-      "file": "Workday",
-      "primary": false,
-      "how_described": "被描述为糟糕的软件，尽管很成功，但未能基于人员数据原语构建出真正广泛通用的商业软件平台。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 797,
-          "t": [
-            4548.706,
-            4549.867
-          ],
-          "quote": "Workday is terrible software.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 799,
-          "t": [
-            4550.708,
-            4552.089
-          ],
-          "quote": "I think Workday agrees on that.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "chatgpt",
+      "id": "understaffed",
       "type": "concept",
       "role": "concept",
-      "name": "ChatGPT",
-      "file": "ChatGPT",
-      "primary": false,
-      "how_described": "嘉宾日常用作思考和表达的辅助工具，帮助他打磨措辞和提炼商业想法，但指出其多数输出是平庸的。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 923,
-          "t": [
-            5088.485,
-            5112.075
-          ],
-          "quote": "So when I talk about the product quality list and the pickle, as something that we've come up with internally, I do turn to AI, ChatGPT and Gemini, where I take a really, let's say, angular view of some topic and I give ... really, I write the essay for the AI and I'm like, \"Look, this is the crisp idea I want to communicate.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 931,
-          "t": [
-            5146.413,
-            5155.358
-          ],
-          "quote": "And I do find that the ChatGPT and Gemini do a great job of helping me refine how to articulate the concepts that I want to articulate.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "alpha",
-      "type": "concept",
-      "role": "concept",
-      "name": "alpha",
-      "file": "alpha",
+      "name": "刻意人手不足 (understaffed)",
+      "file": "刻意人手不足",
       "primary": true,
-      "how_described": "借用金融术语指代「超额收益」，本集中用来形容打破常规的创造力与高上限，用于从零到一的新产品构建。",
+      "how_described": "本集提出的一项人员配置原则：故意让每个项目人手不足。理由是人手过剩会产生政治斗争，且员工会去处理优先级本不必要那么低的事情，从而产生浪费和垃圾代码。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 251,
+          "seg": 0,
           "t": [
-            1548.143,
-            1550.084
+            0.1,
+            5.347
           ],
-          "quote": "In the financial world, there's this concept of alpha.",
+          "quote": "It is really important to me that we feel that we've deliberately understaffed every project at the company.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 252,
+          "seg": 137,
           "t": [
-            1552.066,
-            1555.828
+            744.763,
+            758.559
           ],
-          "quote": "Alpha is outperformance relative to the index.",
+          "quote": "Everyone is constantly asking for more resources and of course where we can afford to and where it's appropriate new resources arrive, but it is really important to me that we feel that we've deliberately understaffed every project at the company.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 255,
+          "seg": 210,
           "t": [
-            1569.458,
-            1572
+            1194.801,
+            1215.308
           ],
-          "quote": "So alpha is the outperformance relative to the index.",
+          "quote": "Jumping into the product role when the product function itself, although staffed with really talented people, wildly under understaffed, and without a single spiritual leader on top of it to drive consistency and process excellence had become locally optimized but globally incoherent.",
           "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 263,
-          "t": [
-            1588.1,
-            1593.529
-          ],
-          "quote": "So your ideal stock is a very high alpha, very low beta stock.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 264,
-          "t": [
-            1593.83,
-            1600
-          ],
-          "quote": "They don't really come in that shape because alpha and beta tend to be correlated, but that's what you want when you buy a financial asset.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 266,
-          "t": [
-            1602.902,
-            1606.944
-          ],
-          "quote": "I think you have high alpha people who are very valuable.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 268,
-          "t": [
-            1613.929,
-            1619.792
-          ],
-          "quote": "Dennis Rodman, basketball player, nut job, very high alpha.",
-          "speaker": "SPEAKER_0"
-        },
+        }
+      ]
+    },
+    {
+      "id": "alpha-beta",
+      "type": "concept",
+      "role": "concept",
+      "name": "Alpha 与 Beta (alpha beta)",
+      "file": "Alpha 与 Beta",
+      "primary": true,
+      "how_described": "本集借用金融概念提出的管理框架：高 alpha 的人（能带来超额回报）和低 beta 的人（稳定可靠）都很有价值。组织中的流程存在的唯一目的就是降低 beta（减少产出波动），但代价是会抑制 alpha（压制创新）。",
+      "source": "glm",
+      "evidence": [
         {
           "seg": 271,
           "t": [
@@ -853,69 +730,6 @@
           ],
           "quote": "So this alpha beta thing, I use it pretty often when contemplating what kind of person I want and also what kind of process I want.",
           "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 272,
-          "t": [
-            1642.427,
-            1647.45
-          ],
-          "quote": "So when you're building a product from zero to one, you're probably pursuing alpha.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 279,
-          "t": [
-            1695.61,
-            1698.852
-          ],
-          "quote": "The downside of a process is that it suppresses alpha.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 280,
-          "t": [
-            1699.872,
-            1713.639
-          ],
-          "quote": "And you have to be super, super careful and judicious in the application of process and the product team to know that you're lowering beta in the places where you want to do that without suppressing alpha in the places where you need it.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 282,
-          "t": [
-            1728.631,
-            1735.056
-          ],
-          "quote": "Other places where I need to implement a very clear, rigid process where I don't want alpha, I just want low beta.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 339,
-          "t": [
-            1979,
-            2001.039
-          ],
-          "quote": "This framework, the PQL, given these lightweight checklists, iterated on consistently in response to everything we learn as we go, constitutes a very nice lightweight way to lower the beta of the system with hopefully only a modicum of negative impact on the alpha for how we build product.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 358,
-          "t": [
-            2044.922,
-            2047.386
-          ],
-          "quote": "So this high alpha, low beta, I love this concept.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 359,
-          "t": [
-            2047.406,
-            2056
-          ],
-          "quote": "So the idea is depending on the team, depending on the problem, we need a high alpha, low beta person or actually okay with a lot of variants for this specific project that's actually [inaudible 00:34:16]-",
-          "speaker": "SPEAKER_1"
         },
         {
           "seg": 390,
@@ -927,24 +741,6 @@
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 393,
-          "t": [
-            2198.332,
-            2201.995
-          ],
-          "quote": "And the answer is like, \"This is a high alpha product area and he's a low beta person.\"",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 399,
-          "t": [
-            2213.581,
-            2217.669
-          ],
-          "quote": "So high alpha, low beta, sometimes high beta is okay, SPOTAC.",
-          "speaker": "SPEAKER_1"
-        },
-        {
           "seg": 593,
           "t": [
             3270.959,
@@ -952,402 +748,6 @@
           ],
           "quote": "Let's talk about alpha beta again.",
           "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 926,
-          "t": [
-            5119.278,
-            5123.4
-          ],
-          "quote": "It's just sort of middle of the road, average, low alpha junk.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "beta",
-      "type": "concept",
-      "role": "concept",
-      "name": "beta",
-      "file": "beta",
-      "primary": true,
-      "how_described": "借用金融术语指代「波动性」，本集中用来形容系统的不确定性，指出组织中设立流程的唯一目的就是为了降低 Beta。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 256,
-          "t": [
-            1572.02,
-            1573.842
-          ],
-          "quote": "And then you have the concept of beta.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 257,
-          "t": [
-            1573.922,
-            1575.164
-          ],
-          "quote": "Beta is just volatility.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 258,
-          "t": [
-            1575.404,
-            1576.205
-          ],
-          "quote": "Beta's not good.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 259,
-          "t": [
-            1576.546,
-            1580.33
-          ],
-          "quote": "A high beta stock jerks around for no particular reason.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 261,
-          "t": [
-            1583.374,
-            1584.055
-          ],
-          "quote": "It's very high beta.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 263,
-          "t": [
-            1588.1,
-            1593.529
-          ],
-          "quote": "So your ideal stock is a very high alpha, very low beta stock.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 264,
-          "t": [
-            1593.83,
-            1600
-          ],
-          "quote": "They don't really come in that shape because alpha and beta tend to be correlated, but that's what you want when you buy a financial asset.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 267,
-          "t": [
-            1606.964,
-            1612.308
-          ],
-          "quote": "I think you also have low beta people who are also very valuable people.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 271,
-          "t": [
-            1632.42,
-            1641.326
-          ],
-          "quote": "So this alpha beta thing, I use it pretty often when contemplating what kind of person I want and also what kind of process I want.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 274,
-          "t": [
-            1656.876,
-            1664
-          ],
-          "quote": "When you have a more mature product or if you have somebody in the product operations group or whatever, you probably want a more low beta environment where it's like it cranks it out, it does it very reliably.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 275,
-          "t": [
-            1664.08,
-            1667.927
-          ],
-          "quote": "Our payroll product, we badly want the payroll product to be very low beta.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 277,
-          "t": [
-            1675.04,
-            1687.606
-          ],
-          "quote": "And here's a fundamental principle of design in an organization, which is that processes, processes in a business exist for the sole purpose of lowering beta.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 280,
-          "t": [
-            1699.872,
-            1713.639
-          ],
-          "quote": "And you have to be super, super careful and judicious in the application of process and the product team to know that you're lowering beta in the places where you want to do that without suppressing alpha in the places where you need it.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 282,
-          "t": [
-            1728.631,
-            1735.056
-          ],
-          "quote": "Other places where I need to implement a very clear, rigid process where I don't want alpha, I just want low beta.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 339,
-          "t": [
-            1979,
-            2001.039
-          ],
-          "quote": "This framework, the PQL, given these lightweight checklists, iterated on consistently in response to everything we learn as we go, constitutes a very nice lightweight way to lower the beta of the system with hopefully only a modicum of negative impact on the alpha for how we build product.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 358,
-          "t": [
-            2044.922,
-            2047.386
-          ],
-          "quote": "So this high alpha, low beta, I love this concept.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 359,
-          "t": [
-            2047.406,
-            2056
-          ],
-          "quote": "So the idea is depending on the team, depending on the problem, we need a high alpha, low beta person or actually okay with a lot of variants for this specific project that's actually [inaudible 00:34:16]-",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 361,
-          "t": [
-            2066.04,
-            2068.955
-          ],
-          "quote": "So when you're hiring, you're looking for, again, is this person low beta or not?",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 390,
-          "t": [
-            2186.322,
-            2192.807
-          ],
-          "quote": "And I think the alpha beta framework is also super useful when you come away from a conversation and you're like, \"I like that guy.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 393,
-          "t": [
-            2198.332,
-            2201.995
-          ],
-          "quote": "And the answer is like, \"This is a high alpha product area and he's a low beta person.\"",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 399,
-          "t": [
-            2213.581,
-            2217.669
-          ],
-          "quote": "So high alpha, low beta, sometimes high beta is okay, SPOTAC.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 593,
-          "t": [
-            3270.959,
-            3271.96
-          ],
-          "quote": "Let's talk about alpha beta again.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 599,
-          "t": [
-            3293.447,
-            3294.567
-          ],
-          "quote": "They're all about suppressing beta.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "power-law",
-      "type": "concept",
-      "role": "concept",
-      "name": "幂律 (power law)",
-      "file": "幂律",
-      "primary": true,
-      "how_described": "商业结果遵循的分布规律，即少数顶尖的事物占据绝大部分回报，嘉宾借此强调必须保持极致的努力才能触及高回报区。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 669,
-          "t": [
-            3642.461,
-            3657.439
-          ],
-          "quote": "There's a topic around this area that I wanted to spend time on, and I haven't heard anyone think of things this way, which is this idea you talk about of compounding plus power law plus entropy and how that's a really useful frame to think about business.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 671,
-          "t": [
-            3675.487,
-            3682.55
-          ],
-          "quote": "Man, understanding the nature of the universe is a pretty good way to work within it, and so power law distributions happen everywhere.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 675,
-          "t": [
-            3697.896,
-            3704.919
-          ],
-          "quote": "It's like, power law distribution just plays out everywhere, and once you see it, you can't unsee it.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 679,
-          "t": [
-            3721.329,
-            3730.935
-          ],
-          "quote": "You haven't hit the inflection point in terms of reward, and so the implication of the power law more broadly is that people who are in the top 10%, the top 5%, don't just get 10 or 20% more reward.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 706,
-          "t": [
-            3993.488,
-            4022.84
-          ],
-          "quote": "Your job is to preserve that intensity at its highest possible level and let the buffering happen somewhere else, and that's the point is that entropy creeps into the system insidiously and slowly over time off your radar and you have to maintain that intensity every minute of every day to try and fight it if you want to stay at the extreme right end of the power law that obviously governs the outcome of everything that we build.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "entropy",
-      "type": "concept",
-      "role": "concept",
-      "name": "熵 (entropy)",
-      "file": "熵",
-      "primary": true,
-      "how_described": "系统中自然走向混乱的趋势，嘉宾强调高管和领导者的重要职责就是持续注入能量来对抗熵增，防止组织衰退。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 669,
-          "t": [
-            3642.461,
-            3657.439
-          ],
-          "quote": "There's a topic around this area that I wanted to spend time on, and I haven't heard anyone think of things this way, which is this idea you talk about of compounding plus power law plus entropy and how that's a really useful frame to think about business.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 682,
-          "t": [
-            3740.2,
-            3743.743
-          ],
-          "quote": "Entropy, the second law of thermodynamics is a very simple concept.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 686,
-          "t": [
-            3758.833,
-            3766.499
-          ],
-          "quote": "If you abandon a city for a few months, it starts to go fallow, and so entropy is just this concept that shit tends toward disorder.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 687,
-          "t": [
-            3768.28,
-            3773.464
-          ],
-          "quote": "The universe, I mean, life itself is a temporary victory against entropy.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 690,
-          "t": [
-            3778.908,
-            3787.213
-          ],
-          "quote": "It organizes stuff that we can eat and we fight entropy until we lose the battle somewhere, as I said earlier at the age of 70 or 80, if we're lucky.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 693,
-          "t": [
-            3797.16,
-            3803.582
-          ],
-          "quote": "The only antidote to entropy, the only antidote to decay in a system is energy.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 695,
-          "t": [
-            3806.504,
-            3838.535
-          ],
-          "quote": "So if you have a code base, every line of code that you add to that code base increases the entropy of that system and demands ever more energy from human beings to go and intend to it to make sure it doesn't break, and if you want to achieve greatness, if you want an extraordinary outcome, and in particular, if you want to be in the top 10%, top 5% on the X axis so that the Y axis is through the roof, then you have to relentlessly inject energy at every single step of the game.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 697,
-          "t": [
-            3851,
-            3867.685
-          ],
-          "quote": "Not because they get together and think, \"We should do that,\" although unions do do that unequivocally, deliberately, but even in a collection of product managers or engineers, what's going to happen over time is entropy is going to creep in and people are going to optimize for local comfort.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 698,
-          "t": [
-            3868.645,
-            3877.068
-          ],
-          "quote": "Your job as an executive, as a leader, is to fight that entropy tooth and nail every single day.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 699,
-          "t": [
-            3878.088,
-            3917.46
-          ],
-          "quote": "It means that every time you see a bug, every time you see a bug, not most of the time, every time you go and you drop it at the feet of the product manager or the engineering manager, every time, in public, preferably, it means that every time someone comes to you to hire someone and says that they have skipped the back channel, every time you're like, \"You can't hire this person unless you do the back channel,\" it means that when you get into the board and tired zone on any process, that you as the executive have got to demand the 99th percentile of energy, because otherwise entropy creeps in and the system decays.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 706,
-          "t": [
-            3993.488,
-            4022.84
-          ],
-          "quote": "Your job is to preserve that intensity at its highest possible level and let the buffering happen somewhere else, and that's the point is that entropy creeps into the system insidiously and slowly over time off your radar and you have to maintain that intensity every minute of every day to try and fight it if you want to stay at the extreme right end of the power law that obviously governs the outcome of everything that we build.",
-          "speaker": "SPEAKER_0"
         }
       ]
     },
@@ -1358,7 +758,7 @@
       "name": "产品市场契合度 (product market fit)",
       "file": "产品市场契合度",
       "primary": true,
-      "how_described": "嘉宾用「药物发现与受体结合」的绝妙比喻来形容它，强调市场需求是预先存在的，如果四五年内仍未迎来爆发式增长，就应该果断重置。",
+      "how_described": "本集将其比作药物发现中的受体结合：要么契合要么不契合，命运早已决定。嘉宾强调如果创业四五年转型多次依然没有起色，就应该果断放弃，不要试图通过营销来凭空创造需求。",
       "source": "glm",
       "evidence": [
         {
@@ -1463,13 +863,181 @@
       ]
     },
     {
+      "id": "entropy",
+      "type": "concept",
+      "role": "concept",
+      "name": "熵 (entropy)",
+      "file": "熵",
+      "primary": true,
+      "how_described": "本集将其引申为系统自然趋于混乱和局部舒适的倾向。嘉宾强调，对抗熵的唯一解药就是能量，高管必须每时每刻保持最高强度的精力注入（如不断提供反馈、不放过每个 Bug），才能防止系统衰变。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 669,
+          "t": [
+            3642.461,
+            3657.439
+          ],
+          "quote": "There's a topic around this area that I wanted to spend time on, and I haven't heard anyone think of things this way, which is this idea you talk about of compounding plus power law plus entropy and how that's a really useful frame to think about business.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 682,
+          "t": [
+            3740.2,
+            3743.743
+          ],
+          "quote": "Entropy, the second law of thermodynamics is a very simple concept.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 686,
+          "t": [
+            3758.833,
+            3766.499
+          ],
+          "quote": "If you abandon a city for a few months, it starts to go fallow, and so entropy is just this concept that shit tends toward disorder.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 687,
+          "t": [
+            3768.28,
+            3773.464
+          ],
+          "quote": "The universe, I mean, life itself is a temporary victory against entropy.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 690,
+          "t": [
+            3778.908,
+            3787.213
+          ],
+          "quote": "It organizes stuff that we can eat and we fight entropy until we lose the battle somewhere, as I said earlier at the age of 70 or 80, if we're lucky.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 693,
+          "t": [
+            3797.16,
+            3803.582
+          ],
+          "quote": "The only antidote to entropy, the only antidote to decay in a system is energy.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 695,
+          "t": [
+            3806.504,
+            3838.535
+          ],
+          "quote": "So if you have a code base, every line of code that you add to that code base increases the entropy of that system and demands ever more energy from human beings to go and intend to it to make sure it doesn't break, and if you want to achieve greatness, if you want an extraordinary outcome, and in particular, if you want to be in the top 10%, top 5% on the X axis so that the Y axis is through the roof, then you have to relentlessly inject energy at every single step of the game.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 697,
+          "t": [
+            3851,
+            3867.685
+          ],
+          "quote": "Not because they get together and think, \"We should do that,\" although unions do do that unequivocally, deliberately, but even in a collection of product managers or engineers, what's going to happen over time is entropy is going to creep in and people are going to optimize for local comfort.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 698,
+          "t": [
+            3868.645,
+            3877.068
+          ],
+          "quote": "Your job as an executive, as a leader, is to fight that entropy tooth and nail every single day.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 699,
+          "t": [
+            3878.088,
+            3917.46
+          ],
+          "quote": "It means that every time you see a bug, every time you see a bug, not most of the time, every time you go and you drop it at the feet of the product manager or the engineering manager, every time, in public, preferably, it means that every time someone comes to you to hire someone and says that they have skipped the back channel, every time you're like, \"You can't hire this person unless you do the back channel,\" it means that when you get into the board and tired zone on any process, that you as the executive have got to demand the 99th percentile of energy, because otherwise entropy creeps in and the system decays.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 706,
+          "t": [
+            3993.488,
+            4022.84
+          ],
+          "quote": "Your job is to preserve that intensity at its highest possible level and let the buffering happen somewhere else, and that's the point is that entropy creeps into the system insidiously and slowly over time off your radar and you have to maintain that intensity every minute of every day to try and fight it if you want to stay at the extreme right end of the power law that obviously governs the outcome of everything that we build.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "power-law",
+      "type": "concept",
+      "role": "concept",
+      "name": "幂律分布 (power law)",
+      "file": "幂律分布",
+      "primary": true,
+      "how_described": "本集用来解释商业世界的非线性回报：前 5% 或 10% 的人/成果获取的不是 10% 或 20% 的回报，而是 10 倍或 100 倍的奖励。如果你稍微松懈导致 X 轴下降一点，Y 轴的回报就会崩塌。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 669,
+          "t": [
+            3642.461,
+            3657.439
+          ],
+          "quote": "There's a topic around this area that I wanted to spend time on, and I haven't heard anyone think of things this way, which is this idea you talk about of compounding plus power law plus entropy and how that's a really useful frame to think about business.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 671,
+          "t": [
+            3675.487,
+            3682.55
+          ],
+          "quote": "Man, understanding the nature of the universe is a pretty good way to work within it, and so power law distributions happen everywhere.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 675,
+          "t": [
+            3697.896,
+            3704.919
+          ],
+          "quote": "It's like, power law distribution just plays out everywhere, and once you see it, you can't unsee it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 679,
+          "t": [
+            3721.329,
+            3730.935
+          ],
+          "quote": "You haven't hit the inflection point in terms of reward, and so the implication of the power law more broadly is that people who are in the top 10%, the top 5%, don't just get 10 or 20% more reward.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 706,
+          "t": [
+            3993.488,
+            4022.84
+          ],
+          "quote": "Your job is to preserve that intensity at its highest possible level and let the buffering happen somewhere else, and that's the point is that entropy creeps into the system insidiously and slowly over time off your radar and you have to maintain that intensity every minute of every day to try and fight it if you want to stay at the extreme right end of the power law that obviously governs the outcome of everything that we build.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
       "id": "point-solutions",
       "type": "concept",
       "role": "concept",
       "name": "单点解决方案 (point solutions)",
       "file": "单点解决方案",
       "primary": true,
-      "how_described": "只解决某一个特定问题的 SaaS 软件。嘉宾指出在 AI 时代它们因缺乏全局数据而陷入绝境，只能「用吸管喝数据」。",
+      "how_described": "本集认为在 AI 时代，这种孤立的软件处境艰难。因为 AI 需要大量数据上下文才能发挥作用，而单点软件数据不足，必须依赖第三方系统（就像通过吸管喝水一样困难），将被上下游挤压。",
       "source": "glm",
       "evidence": [
         {
@@ -1497,6 +1065,93 @@
             4786.463
           ],
           "quote": "The other thing that I would say about the world of, even just like not SaaS, but AI software is that point solutions in the AI world are also in a rough spot for the same reason.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "feature-flag",
+      "type": "concept",
+      "role": "concept",
+      "name": "功能开关 (feature flag)",
+      "file": "功能开关",
+      "primary": false,
+      "how_described": "本集将其描述为系统出错和制造混乱的根源。嘉宾对其深恶痛绝，认为工程师临时放进去然后忘记关掉，就像盖房子时留下垫片一样危险。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 324,
+          "t": [
+            1908.22,
+            1913.143
+          ],
+          "quote": "What we missed was there was a fucking feature flag, a fucking feature flag.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1913.163,
+            1920.268
+          ],
+          "quote": "And I'm not allowed to say feature flag without fucking in front of it because feature flags are the bane of my existence and the worst things in the world that constantly cause problems.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1940.403,
+            1943.426
+          ],
+          "quote": "Parker installs it, they forgot to disable the feature flag.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1963.406,
+            1973.535
+          ],
+          "quote": "So I added a line to the fucking PQL that said, \"You are allowed to have one feature flag that governs your entire product at ship.\"",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "escalation",
+      "type": "concept",
+      "role": "concept",
+      "name": "升级事态 (escalation)",
+      "file": "升级事态",
+      "primary": false,
+      "how_described": "本集将其视作一种礼物。嘉宾认为客户或员工向高管'升级问题'是帮其发现问题并迭代系统的重要途径，隐瞒反馈以追求个人舒适是最自私的行为。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            415.968,
+            433.954
+          ],
+          "quote": "So on Friday night, when you get hit with an escalation on Friday night, when you get sort of hit with a bunch of new bugs from someone in the engineering team that you've got a triage, those are the moments where great players and great teams are separated from good players and good teams.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 772,
+          "t": [
+            4389.62,
+            4395.744
+          ],
+          "quote": "There's no greater gift to me as a product executive than receiving an escalation from a customer.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 776,
+          "t": [
+            4424.48,
+            4427.401
+          ],
+          "quote": "Escalation seems extremely good at that at Rippling.",
           "speaker": "SPEAKER_0"
         }
       ]

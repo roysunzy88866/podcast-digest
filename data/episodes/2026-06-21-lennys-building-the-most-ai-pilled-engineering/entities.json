@@ -1,13 +1,13 @@
 {
   "episode_id": "2026-06-21-lennys-building-the-most-ai-pilled-engineering",
-  "podcast": null,
-  "date": null,
+  "podcast": "Lenny's Podcast",
+  "date": "2026-06-21",
   "tags": [
-    "AI 团队管理",
-    "智能体",
-    "工程文化",
-    "工作流重构",
-    "验证"
+    "AI 研发范式",
+    "角色融合",
+    "异步智能体",
+    "质量与验证",
+    "工程管理"
   ],
   "entities": [
     {
@@ -84,7 +84,7 @@
       "name": "Anthropic",
       "file": "Anthropic",
       "primary": true,
-      "how_described": "本集讨论的受访者所在公司，开发了 Claude 系列模型，团队内部重度使用自研的 Claude Code 和 Co-work，实现了工程师代码产量 8 倍的爆发式增长。",
+      "how_described": "Fiona Fung 当前所在的公司，其工程师平均每个季度的代码量是 2025 年时的八倍。",
       "source": "glm",
       "evidence": [
         {
@@ -216,274 +216,13 @@
       ]
     },
     {
-      "id": "microsoft",
-      "type": "company",
-      "role": "company",
-      "name": "Microsoft",
-      "file": "Microsoft",
-      "primary": false,
-      "how_described": "本集提到受访者早期曾在此工作，她在此领导构建了 TypeScript 和 Visual Studio 的团队，并在此完成了从 Vim 到使用 IDE 的转变。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 24,
-          "t": [
-            80.217,
-            85.404
-          ],
-          "quote": " Before Anthropic, at Microsoft, Fiona ran the teams that built TypeScript and Visual Studio.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 83,
-          "t": [
-            267.289,
-            271.311
-          ],
-          "quote": "But the funny thing was, I think there's even a big shift from IBM to Microsoft.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 89,
-          "t": [
-            286.415,
-            289.856
-          ],
-          "quote": " And then when I joined Microsoft, I mean, this is how naive I was.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 100,
-          "t": [
-            310.299,
-            313.28
-          ],
-          "quote": "So I was so fortunate when Microsoft extended me an offer.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 381,
-          "t": [
-            1214.139,
-            1218.9
-          ],
-          "quote": "was the shift from Microsoft to Meta that was where I first real that first year",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 985,
-          "t": [
-            3186.82,
-            3190.561
-          ],
-          "quote": "but actually this was my journey between Microsoft and Meta.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 991,
-          "t": [
-            3199.519,
-            3203.743
-          ],
-          "quote": "Because before then I was at Microsoft, kind of like cut my teeth on engineering at Microsoft.",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "meta",
-      "type": "company",
-      "role": "company",
-      "name": "Meta",
-      "file": "Meta",
-      "primary": false,
-      "how_described": "本集提到受访者曾在Instagram和Meta负责基础设施、增长和安全团队，并在此深刻领悟了什么是真正的成长型心态。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 31,
-          "t": [
-            96.84,
-            97.681
-          ],
-          "quote": "Also while at Meta,",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 32,
-          "t": [
-            97.881,
-            100.424
-          ],
-          "quote": "she oversaw work on Meta's first smart glasses product,",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 36,
-          "t": [
-            109.293,
-            112.236
-          ],
-          "quote": "While at Instagram and at Meta, she oversaw an org of over 500 people.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 381,
-          "t": [
-            1214.139,
-            1218.9
-          ],
-          "quote": "was the shift from Microsoft to Meta that was where I first real that first year",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 727,
-          "t": [
-            2395.915,
-            2401.496
-          ],
-          "quote": "meta that was like his job is measuring inch productivity and uh and then also just",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 979,
-          "t": [
-            3172.572,
-            3176.494
-          ],
-          "quote": "you were overseeing an org of like 500 people at Meta before you moved to",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 985,
-          "t": [
-            3186.82,
-            3190.561
-          ],
-          "quote": "but actually this was my journey between Microsoft and Meta.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 986,
-          "t": [
-            3190.722,
-            3191.502
-          ],
-          "quote": "So at Meta,",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 990,
-          "t": [
-            3197.718,
-            3199.499
-          ],
-          "quote": " what it's like to be a meta engineer.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 995,
-          "t": [
-            3211.809,
-            3215.532
-          ],
-          "quote": "like actually learn what it's like to ship as a meta engineer.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 1025,
-          "t": [
-            3317.645,
-            3319.026
-          ],
-          "quote": "It's such a meta role,",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 1737,
-          "t": [
-            5724.637,
-            5727.919
-          ],
-          "quote": "This is very meta for Claude Code building itself.",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "ibm",
-      "type": "company",
-      "role": "company",
-      "name": "IBM",
-      "file": "IBM",
-      "primary": false,
-      "how_described": "受访者职业生涯的起点，在此使用 Vim 和终端调试从事 DB2 操作系统服务团队的工作。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 54,
-          "t": [
-            180.173,
-            182.115
-          ],
-          "quote": "You started at IBM, of all places.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 75,
-          "t": [
-            246.032,
-            250.415
-          ],
-          "quote": "Yeah, like IBM working on DB2, the operating system services team.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 82,
-          "t": [
-            262.986,
-            266.368
-          ],
-          "quote": "So I was really fortunate to have gotten into the IBM internship.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 83,
-          "t": [
-            267.289,
-            271.311
-          ],
-          "quote": "But the funny thing was, I think there's even a big shift from IBM to Microsoft.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 84,
-          "t": [
-            271.792,
-            274.053
-          ],
-          "quote": "So at IBM, it was, I think, Vim.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 413,
-          "t": [
-            1329.213,
-            1331.073
-          ],
-          "quote": "it's funny when we were going back to IBM,",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
       "id": "claude-code",
-      "type": "company",
+      "type": "concept",
       "role": "concept",
       "name": "Claude Code",
       "file": "Claude Code",
       "primary": true,
-      "how_described": "本集核心讨论的 AI 辅助编码产品，它让编码不再是瓶颈。不仅工程师，连 PM 和设计师都在用它提交代码，并通过挂载在所有代码库上的远程会话帮助管理者掌握团队工作进度。",
+      "how_described": "本集核心产品，Fiona 领导的团队构建的编程辅助智能体；本集指出它让编码不再是瓶颈，并将其用于团队复盘和自动化质量验证。",
       "source": "glm",
       "evidence": [
         {
@@ -517,12 +256,12 @@
     },
     {
       "id": "co-work",
-      "type": "company",
+      "type": "concept",
       "role": "concept",
-      "name": "co-work",
-      "file": "co-work",
+      "name": "Co-Work",
+      "file": "Co-Work",
       "primary": true,
-      "how_described": "Anthropic 推出的辅助日常任务的智能体产品，受访者用它报销差旅，还发现小企业主可以用它处理发票或在混乱的下载文件夹里找菜单并做市场分析。",
+      "how_described": "Fiona 团队构建的日常知识工作智能体；本集中提到它能高效处理开发票、报销等繁杂事务，甚至被小企业主用于找菜单和竞品分析。",
       "source": "glm",
       "evidence": [
         {
@@ -744,13 +483,244 @@
       ]
     },
     {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "构成新工作流的核心；本集提到人们开始频繁且孤独地与各自的智能体工作，甚至可以通过设定例行程序让多个智能体异步执行任务、修复 Bug 并生成 PR。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 258,
+          "t": [
+            800.224,
+            804.925
+          ],
+          "quote": "routines it's almost like I'm you know having an agent help me Jerry like generate",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 651,
+          "t": [
+            2139.247,
+            2142.888
+          ],
+          "quote": "like asynchronous and so to your point the fleets of agent like that that's why",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 706,
+          "t": [
+            2328.135,
+            2332.276
+          ],
+          "quote": "that's agent it's I love that word agency that's what we really hold important on",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "verification",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证 (verification)",
+      "file": "验证",
+      "primary": true,
+      "how_described": "当编码不再受限于工程时间且产出激增时，团队面临的新核心命题；即如何确保所有人（包括 PM 和设计师）提交的高吞吐量代码符合预期质量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 184,
+          "t": [
+            563.271,
+            564.912
+          ],
+          "quote": "How do we think about verification?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 192,
+          "t": [
+            581.986,
+            586.348
+          ],
+          "quote": "So you mentioned this point about a more focus on verification,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1065.833,
+            1066.694
+          ],
+          "quote": "the verification.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 694,
+          "t": [
+            2278.318,
+            2282.822
+          ],
+          "quote": "what like go for it like for example a verification is really good yeah go for it I",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1128,
+          "t": [
+            3658.543,
+            3662.225
+          ],
+          "quote": "the verification is important because when you have more different disciplines",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1293,
+          "t": [
+            4206.588,
+            4211.292
+          ],
+          "quote": "and so I have like actually the verification is still one that we I think and",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1305,
+          "t": [
+            4244.203,
+            4249.165
+          ],
+          "quote": "Basically, how do you set up a verification that the experience is what you wanted it to be?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "test-driven-development",
+      "type": "concept",
+      "role": "concept",
+      "name": "测试驱动开发 (test-driven development)",
+      "file": "测试驱动开发",
+      "primary": true,
+      "how_described": "Fiona 将其视为一种演进；团队现在通过让模型基于规格说明验证代码是否符合预期，从而把以前写测试的负担交给了自动化工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 299,
+          "t": [
+            952.985,
+            955.488
+          ],
+          "quote": "Basically, it's like the evolution of test-driven development.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            984.399,
+            988.242
+          ],
+          "quote": "hey I want to do test driven development help me write the test first make sure it",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "latent-demand",
+      "type": "concept",
+      "role": "concept",
+      "name": "潜在需求 (latent demand)",
+      "file": "潜在需求",
+      "primary": true,
+      "how_described": "团队发掘新机会的重要方式；指密切关注用户可能未预料到的、正在涌现的产品使用行为，并为其构建更流畅的体验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 603,
+          "t": [
+            1972.649,
+            1976.97
+          ],
+          "quote": "co-work like we also keep an eye on like latent demand now we're very fortunate",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 606,
+          "t": [
+            1985.753,
+            1989.554
+          ],
+          "quote": "but latent demand has has been like a like for example a co-work we know to say a",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1773,
+          "t": [
+            5851.953,
+            5857.036
+          ],
+          "quote": "feedback of what's going well what's not going well also any latent demand that you",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "pairwise-programming",
+      "type": "concept",
+      "role": "concept",
+      "name": "结对编程 (pairwise programming)",
+      "file": "结对编程",
+      "primary": true,
+      "how_described": "为了缓解大家埋头和智能体协作而产生的「孤独感」，Fiona 发起的午餐活动；让大家在并肩工作时互相观察和学习不同的工具使用奇招。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            41.214,
+            44.015
+          ],
+          "quote": "Recently, we started a pairwise programming lunch.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1054,
+          "t": [
+            3404.632,
+            3408.855
+          ],
+          "quote": "So recently we started maybe like a pairwise programming lunch.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1059,
+          "t": [
+            3417.248,
+            3418.949
+          ],
+          "quote": "when we do pairwise programming,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1111,
+          "t": [
+            3600.2,
+            3604.062
+          ],
+          "quote": "pairwise programming and the hackathon that did recently come up more folks were",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
       "id": "visual-studio",
-      "type": "company",
+      "type": "concept",
       "role": "concept",
       "name": "Visual Studio",
       "file": "Visual Studio",
-      "primary": false,
-      "how_described": "受访者曾在微软 Visual Studio 编辑器团队工作了11年，这是她首次接触带有多线程调试等高级功能的 IDE，并在此培养了对“内部试用”的热爱。",
+      "primary": true,
+      "how_described": "Fiona 在微软时曾深耕 11 年的 IDE 产品；她提到通过用它构建其自身，确立了自己对「内部试用」和使用自身产品的热爱。",
       "source": "glm",
       "evidence": [
         {
@@ -837,13 +807,121 @@
       ]
     },
     {
+      "id": "just-in-time",
+      "type": "concept",
+      "role": "concept",
+      "name": "准时制 (just in time)",
+      "file": "准时制",
+      "primary": true,
+      "how_described": "Fiona 抛弃半年期路线图后采用的规划模式；即「准时制」的月度规划，辅以每周对齐，以应对飞速变化的开发节奏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1546,
+          "t": [
+            5077.314,
+            5081.375
+          ],
+          "quote": "yeah I call it JIT planning now like just in time planning so it is like around",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ic",
+      "type": "concept",
+      "role": "concept",
+      "name": "IC",
+      "file": "IC",
+      "primary": true,
+      "how_described": "Fiona 对新加入管理者的要求；即要求他们先以个人贡献者的身份深入代码和产品，建立内部体感后再承担带人的责任。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 916,
+          "t": [
+            2988.024,
+            2992.968
+          ],
+          "quote": "One is making every manager start as an IC and then just every manager has to",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 917,
+          "t": [
+            2992.988,
+            2995.05
+          ],
+          "quote": "continue being an IC part time,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 934,
+          "t": [
+            3056.366,
+            3061.167
+          ],
+          "quote": "as IC first without the worry of supporting people because that's a very heavy",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 982,
+          "t": [
+            3178.215,
+            3182.037
+          ],
+          "quote": "And you moved to IC, IC engineer basically at Anthropic from that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 989,
+          "t": [
+            3194.824,
+            3197.365
+          ],
+          "quote": "I was also in IC because I really wanted to learn",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dogfooding",
+      "type": "concept",
+      "role": "concept",
+      "name": "内部试用 (dogfooding)",
+      "file": "内部试用",
+      "primary": true,
+      "how_described": "Fiona 在职业生涯中保持的核心理念；她坚持管理五百人时也要亲自使用产品，以保持对用户体验和痛点的敏锐感知。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1180,
+          "t": [
+            3824.319,
+            3828.2
+          ],
+          "quote": "obsession with the the product living breathing the product dogfooding I talked to",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1183,
+          "t": [
+            3835.003,
+            3839.345
+          ],
+          "quote": "product constantly whatever it is you're building this idea of dogfooding talk",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
       "id": "facebook-marketplace",
       "type": "company",
-      "role": "concept",
+      "role": "company",
       "name": "Facebook Marketplace",
       "file": "Facebook Marketplace",
-      "primary": false,
-      "how_described": "受访者曾在 Meta 创立的团队，并将其从想法推向发布。她分享了早期在智利因 LTE 网络慢导致无法加载信息流的轶事，印证了关注用户真实体验的重要性。",
+      "primary": true,
+      "how_described": "Fiona 在 Meta 时创立并主导的团队；本集中作为案例出现，用于讲述如何因地制宜地调整数据指标（如考量「强力卖家」）。",
       "source": "glm",
       "evidence": [
         {
@@ -885,383 +963,256 @@
       ]
     },
     {
-      "id": "agent",
-      "type": "concept",
-      "role": "concept",
-      "name": "智能体 (agent)",
-      "file": "智能体",
-      "primary": true,
-      "how_described": "本集把它说成是未来工作流的核心：每个人都开始与智能体紧密工作，甚至可以在你睡觉时由例行程序唤醒去自动写代码，但也带来了一种“孤独的体验”。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 258,
-          "t": [
-            800.224,
-            804.925
-          ],
-          "quote": "routines it's almost like I'm you know having an agent help me Jerry like generate",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 651,
-          "t": [
-            2139.247,
-            2142.888
-          ],
-          "quote": "like asynchronous and so to your point the fleets of agent like that that's why",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 706,
-          "t": [
-            2328.135,
-            2332.276
-          ],
-          "quote": "that's agent it's I love that word agency that's what we really hold important on",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "routine",
-      "type": "concept",
-      "role": "concept",
-      "name": "例行程序 (routine)",
-      "file": "例行程序",
-      "primary": true,
-      "how_described": "受访者将它重构为一种新的异步工作流：不再是同步写提示，而是设定时间让程序自动聚合多渠道反馈，并唤醒多个智能体写好 PR 等待人类醒来审查。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 255,
-          "t": [
-            790.75,
-            794.193
-          ],
-          "quote": "changed like now I just have a routine that automates all this for me and then",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 274,
-          "t": [
-            861.403,
-            865.228
-          ],
-          "quote": "which is this kind of daily ritual slash routine where you,",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 654,
-          "t": [
-            2151.491,
-            2156.492
-          ],
-          "quote": "asynchronously but now I can actually have a routine that actually generates you",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 665,
-          "t": [
-            2192.77,
-            2196.952
-          ],
-          "quote": "then now like I have a routine that I set to run every morning at a certain time to",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 676,
-          "t": [
-            2230.589,
-            2235.272
-          ],
-          "quote": "okay now how can I actually write a routine that also basically does prompts for me",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "verification",
-      "type": "concept",
-      "role": "concept",
-      "name": "验证 (verification)",
-      "file": "验证",
-      "primary": true,
-      "how_described": "本集核心主线之一：当 AI 让代码产量剧增后，工作流的重心便从「如何产出」转向了如何验证。它也是“信任但验证”的基石。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 184,
-          "t": [
-            563.271,
-            564.912
-          ],
-          "quote": "How do we think about verification?",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 192,
-          "t": [
-            581.986,
-            586.348
-          ],
-          "quote": "So you mentioned this point about a more focus on verification,",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 338,
-          "t": [
-            1065.833,
-            1066.694
-          ],
-          "quote": "the verification.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 694,
-          "t": [
-            2278.318,
-            2282.822
-          ],
-          "quote": "what like go for it like for example a verification is really good yeah go for it I",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 1128,
-          "t": [
-            3658.543,
-            3662.225
-          ],
-          "quote": "the verification is important because when you have more different disciplines",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 1293,
-          "t": [
-            4206.588,
-            4211.292
-          ],
-          "quote": "and so I have like actually the verification is still one that we I think and",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 1305,
-          "t": [
-            4244.203,
-            4249.165
-          ],
-          "quote": "Basically, how do you set up a verification that the experience is what you wanted it to be?",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "test-driven-development",
-      "type": "concept",
-      "role": "concept",
-      "name": "测试驱动开发 (test driven development)",
-      "file": "测试驱动开发",
-      "primary": true,
-      "how_described": "原本像“先吃西兰花”一样痛苦的约束，被智能体变成了无缝的自动化流程：Claude 可以根据规格说明先写好测试并确保失败，然后再去实现代码。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 299,
-          "t": [
-            952.985,
-            955.488
-          ],
-          "quote": "Basically, it's like the evolution of test-driven development.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 309,
-          "t": [
-            984.399,
-            988.242
-          ],
-          "quote": "hey I want to do test driven development help me write the test first make sure it",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "dogfooding",
-      "type": "concept",
-      "role": "concept",
-      "name": "内部试用 (dogfooding)",
-      "file": "内部试用",
-      "primary": true,
-      "how_described": "受访者坚持的实践：亲自使用自己团队构建的产品，以便像用户一样保持对产品脉搏的感知，而不是迷失在指标和仪表盘中。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 1180,
-          "t": [
-            3824.319,
-            3828.2
-          ],
-          "quote": "obsession with the the product living breathing the product dogfooding I talked to",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 1183,
-          "t": [
-            3835.003,
-            3839.345
-          ],
-          "quote": "product constantly whatever it is you're building this idea of dogfooding talk",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "pairwise-programming-lunch",
-      "type": "concept",
-      "role": "concept",
-      "name": "结对编程午餐 (pairwise programming lunch)",
-      "file": "结对编程午餐",
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
       "primary": false,
-      "how_described": "为了对抗与智能体协作带来的“孤独感”，受访者发起的活动：让大家并排坐在一起，各自用自己的方式跑 Claude Code，互相观摩新奇用法。",
+      "how_described": "Fiona 职业生涯早期工作了 11 年的公司；她在那里首次接触带调试器的 IDE，经历了从光盘硬截止日期到云端在线发版的转变。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 10,
+          "seg": 24,
           "t": [
-            41.214,
-            44.015
+            80.217,
+            85.404
           ],
-          "quote": "Recently, we started a pairwise programming lunch.",
+          "quote": " Before Anthropic, at Microsoft, Fiona ran the teams that built TypeScript and Visual Studio.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            267.289,
+            271.311
+          ],
+          "quote": "But the funny thing was, I think there's even a big shift from IBM to Microsoft.",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 1054,
+          "seg": 89,
           "t": [
-            3404.632,
-            3408.855
+            286.415,
+            289.856
           ],
-          "quote": "So recently we started maybe like a pairwise programming lunch.",
+          "quote": " And then when I joined Microsoft, I mean, this is how naive I was.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 100,
+          "t": [
+            310.299,
+            313.28
+          ],
+          "quote": "So I was so fortunate when Microsoft extended me an offer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1214.139,
+            1218.9
+          ],
+          "quote": "was the shift from Microsoft to Meta that was where I first real that first year",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 985,
+          "t": [
+            3186.82,
+            3190.561
+          ],
+          "quote": "but actually this was my journey between Microsoft and Meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 991,
+          "t": [
+            3199.519,
+            3203.743
+          ],
+          "quote": "Because before then I was at Microsoft, kind of like cut my teeth on engineering at Microsoft.",
           "speaker": "SPEAKER_01"
         }
       ]
     },
     {
-      "id": "latent-demand",
-      "type": "concept",
-      "role": "concept",
-      "name": "潜在需求 (latent demand)",
-      "file": "潜在需求",
+      "id": "workos",
+      "type": "company",
+      "role": "company",
+      "name": "WorkOS",
+      "file": "WorkOS",
       "primary": false,
-      "how_described": "受访者提到，通过观察用户跳过重重障碍去完成某种非预期行为，从而发现新的市场机会，比如非程序员也在大量使用 cloud code 写代码。",
+      "how_described": "本集播客的赞助商，提供面向企业级应用的即插即用现代化开发者平台（如单点登录、审计日志等）。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 603,
+          "seg": 126,
           "t": [
-            1972.649,
-            1976.97
+            409.93,
+            414.092
           ],
-          "quote": "co-work like we also keep an eye on like latent demand now we're very fortunate",
-          "speaker": "SPEAKER_01"
+          "quote": "This episode is brought to you by our season's presenting sponsor, WorkOS.",
+          "speaker": "SPEAKER_00"
         },
         {
-          "seg": 606,
+          "seg": 135,
           "t": [
-            1985.753,
-            1989.554
+            422.538,
+            424.359
           ],
-          "quote": "but latent demand has has been like a like for example a co-work we know to say a",
-          "speaker": "SPEAKER_01"
+          "quote": "They are all powered by WorkOS.",
+          "speaker": "SPEAKER_00"
         },
         {
-          "seg": 1773,
+          "seg": 142,
           "t": [
-            5851.953,
-            5857.036
+            434.293,
+            439.521
           ],
-          "quote": "feedback of what's going well what's not going well also any latent demand that you",
-          "speaker": "SPEAKER_01"
+          "quote": "WorkOS turns those deal blockers into drop-in APIs with a modern developer platform built",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            455.423,
+            457.724
+          ],
+          "quote": "WorkOS allows you to build faster with delightful APIs,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            460.384,
+            462.985
+          ],
+          "quote": "Go to workos.com to make your app enterprise-ready today.",
+          "speaker": "SPEAKER_00"
         }
       ]
     },
     {
-      "id": "jit-planning",
-      "type": "concept",
-      "role": "concept",
-      "name": "准时制规划 (JIT planning)",
-      "file": "准时制规划",
+      "id": "mercury",
+      "type": "company",
+      "role": "company",
+      "name": "Mercury",
+      "file": "Mercury",
       "primary": false,
-      "how_described": "取代了漫长的六个月路线图，受访者把长线规划缩短为极轻量的规划：仅用一个电子表格列出当月的最高优先级，并每周与团队做一次极简对齐。",
+      "how_described": "本集播客的赞助商；提供深受企业家喜爱的银行业务，最近推出了作为财务运营者的对话式界面 Command。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 1546,
+          "seg": 892,
           "t": [
-            5077.314,
-            5081.375
+            2902.163,
+            2904.284
           ],
-          "quote": "yeah I call it JIT planning now like just in time planning so it is like around",
-          "speaker": "SPEAKER_01"
+          "quote": "This episode is brought to you by Mercury.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 894,
+          "t": [
+            2910.527,
+            2912.548
+          ],
+          "quote": "I've been a customer of Mercury's for over six years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 896,
+          "t": [
+            2915.19,
+            2916.931
+          ],
+          "quote": "Mercury is basically what happens when",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 902,
+          "t": [
+            2940.487,
+            2944.674
+          ],
+          "quote": "into mercury which acts as your financial operator i've been using command to",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 907,
+          "t": [
+            2959.404,
+            2964.385
+          ],
+          "quote": "seconds later I have an answer it is so freaking cool visit mercury.com to learn",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 908,
+          "t": [
+            2964.405,
+            2969.086
+          ],
+          "quote": "more and apply online in minutes mercury is a fintech company not an fdic insured",
+          "speaker": "SPEAKER_00"
         }
       ]
     },
     {
-      "id": "growth-mindset",
-      "type": "concept",
-      "role": "concept",
-      "name": "成长型心态 (growth mindset)",
-      "file": "成长型心态",
-      "primary": true,
-      "how_described": "受访者认为这是应对 AI 浪潮中受挫感的核心解药，它意味着始终保持好奇心与学习意愿，并勇于改变曾经让自己成功的旧习惯。",
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": false,
+      "how_described": "Fiona 团队收集内部与外部反馈及沟通的核心即时通讯渠道；她通过让 Claude 会话访问所有 Slack 频道来获取全局视角。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 379,
+          "seg": 204,
           "t": [
-            1204.497,
-            1209.598
+            623.792,
+            628.254
           ],
-          "quote": "I would say a growth mindset really really helps like actually even before AI",
+          "quote": "it also has access to all our Slack channels and I'll have access to how are the",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 382,
+          "seg": 267,
           "t": [
-            1218.92,
-            1223.141
+            839.504,
+            844.086
           ],
-          "quote": "I'm like oh this is what having a growth mindset really means it's really this",
+          "quote": "that in Slack as well and so and we also have like of course partnerships and so we",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 389,
+          "seg": 664,
           "t": [
-            1247.502,
-            1253.286
+            2188.888,
+            2192.75
           ],
-          "quote": "successful and so I would say like the growth mindset is is really really has has",
+          "quote": "with my morning cup of coffee and hey look at through this slack channel for me but",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 784,
+          "seg": 1156,
           "t": [
-            2558.877,
-            2563.158
+            3749.851,
+            3754.975
           ],
-          "quote": "always keep in mind of is you know kind of my whole growth mindset of is it still",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 923,
-          "t": [
-            3008.754,
-            3012.575
-          ],
-          "quote": "whole theme of kind of growth mindset it's just because the landscape is changing",
+          "quote": "I think you know I kind of like mentioned we have like slack channels with all the",
           "speaker": "SPEAKER_01"
         }
       ]
     }
   ],
-  "rejected": []
+  "rejected": [
+    {
+      "name": "Linux",
+      "reason": "专名「Linux」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
 }

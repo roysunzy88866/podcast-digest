@@ -1,31 +1,31 @@
 ---
-title: 用 1.2 个人加 20 个 AI 智能体，替换 10 人销售团队
+title: 用 20 个 AI 智能体替代 10 人销售团队：SaaStr 创始人的前沿实战
 podcast: "Lenny's Podcast"
 date: 2026-01-01
 source_url: https://www.lennysnewsletter.com/p/we-replaced-our-sales-team-with-20-ai-agents
 duration: "102:07"
 host: "[[Lenny]]"
 cohosts: ["[[Jason Lemkin]]"]
-companies: ["[[SaaStr]]", "[[Artisan]]", "[[Qualified]]", "[[Agentforce]]", "[[Salesforce]]", "[[Delphi]]", "[[Replit]]", "[[Bolt]]", "[[Lovable]]", "[[Vercel]]", "[[Palantir]]"]
-concepts: ["[[智能体]]", "[[前线部署工程师]]", "[[SDR]]", "[[AE]]"]
+companies: ["[[SaaStr]]", "[[Salesforce]]", "[[Replit]]", "[[Vercel]]", "[[Delphi]]", "[[Artisan]]", "[[Qualified]]", "[[Agentforce]]"]
+concepts: ["[[智能体]]", "[[前线部署工程师]]", "[[提示词]]", "[[幻觉]]"]
 tags:
-  - AI 替代销售
-  - 智能体部署与编排
-  - GTM 自动化
-  - B2B 销售革命
-  - 前线部署工程师
+  - AI 销售智能体
+  - GTM 变革
+  - 团队重组
+  - AI 取代人工
+  - B2B 创业
 ---
 
-# 用 1.2 个人加 20 个 AI 智能体，替换 10 人销售团队
+# 用 20 个 AI 智能体替代 10 人销售团队：SaaStr 创始人的前沿实战
 
 > [!info] 关联
 > **主持**:[[Lenny]]
 >
 > **联合主持**:[[Jason Lemkin]]
 >
-> **涉及公司**:[[SaaStr]] · [[Artisan]] · [[Qualified]] · [[Agentforce]] · [[Salesforce]] · [[Delphi]] · [[Replit]] · [[Bolt]] · [[Lovable]] · [[Vercel]] · [[Palantir]]
+> **涉及公司**:[[SaaStr]] · [[Salesforce]] · [[Replit]] · [[Vercel]] · [[Delphi]] · [[Artisan]] · [[Qualified]] · [[Agentforce]]
 >
-> **概念**:[[智能体]] · [[前线部署工程师]] · [[SDR]] · [[AE]]
+> **概念**:[[智能体]] · [[前线部署工程师]] · [[提示词]] · [[幻觉]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/we-replaced-our-sales-team-with-20-ai-agents)
 
@@ -35,151 +35,142 @@ tags:
 
 ## 一句话 TLDR
 
-SaaStr 创始人亲历：AI 智能体已能持平 10 人销售团队的业绩，不拥抱它就会被淘汰。
+当 AI 销售智能体能 7x24 小时工作，中庸的销售人员将被加速淘汰，未来的组织将走向极度精简。
 
-[[Jason Lemkin|Jason Lemkin]] 是全球最大的 B2B 创始人社区 [[SaaStr|SaaStr]] 的创始人，每年举办万人规模的大会，有八位数的年收入。过去一年半里，他把自己公司约 10 人的销售团队（包括负责外呼寻找客户的 [[SDR|SDR]]、负责审核线索的 BDR，以及负责成交的 [[AE|AE]]），换成了 1.2 个人类加 20 个 AI [[智能体|智能体]]（能自主执行销售、客服等任务的程序）[07:43 Jason Lemkin]。
+[[Jason Lemkin|Jason Lemkin]] 是全球最大的 B2B 创始人社区 [[SaaStr|SaaStr]] 的创始人。在今年的万人年度大会现场，他高薪聘请的两名核心销售在现场直接辞职——这已经是他职业生涯中组建的第八个销售团队了。受够了反复招聘的 Jason 当机立断，宣布不再在销售岗位上招聘人类，而是把团队彻底换成了 AI [[智能体|智能体]] [07:43 Jason Lemkin]。在这一集访谈中，他详尽拆解了自己用「1.2 个人类 + 20 个 AI 智能体」运营八位数营收业务的完整实战经验。全文将沿着四个部分展开：第一部分讲他为什么要做这次团队大换血，以及 AI 销售智能体最基础的工作原理；第二部分盘点他正在使用的几个核心智能体及他的选品逻辑；第三部分谈这场变革对每个销售从业者的职业影响；最后给出具体的落地行动建议。
 
-> 【背景】SDR（Sales Development Representative）指通过发邮件、打电话等方式寻找潜在线索的初级销售；BDR 通常负责审核入站线索的质量；AE（Account Executive）是真正负责把交易谈成的客户经理。
+## 从「不再招人」到 AI 接管：变革的起点与智能体基础
 
-这场转变并不是因为业绩不好——业务的净产出和以前差不多——而是因为他实在厌倦了在高价雇人后遭遇员工离职。他想看看，用 AI 智能体「突破极限」到底能把团队带到哪一步。全文脉络如下：先讲他为什么要用 AI 替换人类、销售行业的哪些岗位最危险；再拆解他具体部署了哪些智能体、核心成功因素是什么；最后给从业者和创业公司各开一剂「在 AI 时代怎么活下去并赢」的药方。
+说完了开头那段戏剧性的团队大换血背景，接下来我们来看看他具体是怎么做的。Jason 现在的团队配置是：一名全职 AE（客户经理）、花 20% 时间管理智能体的兼职首席 AI 官 Amelia，外加 20 个 AI 智能体 [12:30 Jason Lemkin]。以前需要 8 到 9 个人类完成的活，现在他们做到了相近的净生产力，而且因为软件可以无限扩展，整体效率得到了质的提升 [09:20 Jason Lemkin]。
 
-## 销售行业的旧打法全废了，但好线索从没有这么多
+很多人一听到 AI 智能体（Agent，指能自主感知环境、做出决策并执行任务的 AI 程序）觉得很玄乎，但 Jason 强调，销售智能体的底层并不神秘，本质上就是一堆 API（应用程序接口，软件之间对话的通道）拼接在一起 [35:26 Jason Lemkin]。它之所以能工作，关键不在于模型本身多神奇，而在于你如何「训练」它。
 
-说完了他的大致背景，先来看他为什么要彻底重构团队。Jason 观察到，在 AI 时代，B2B 公司的处境发生了极端的两极分化 [17:14 Jason Lemkin]。
+Jason 分享了让一个销售智能体从零上线的标准五步法 [25:36 Jason Lemkin]：
+1. **摄取**：把你的网站链接、维基百科、培训文档甚至招股说明书上传给它。所谓的「摄取」就是让它把你的数据读进去，做些你不需要懂的处理（比如 RAG 检索增强和向量化）[25:49 Jason Lemkin]。
+2. **训练**：它会把摄取的内容转成各种问题来问你。你不断回答这些问题，它就会越来越好 [26:05 Jason Lemkin]。
+3. **测试与纠错**：在它刚开始发邮件时，一定会说蠢话或者产生「[[幻觉|幻觉]]」（AI 一本正经胡说八道的术语）。你必须每天花一两个小时去纠正它的错误 [26:39 Jason Lemkin]。
+4. **产出**：坚持纠错 30 天后，智能体就会变得相当不错了。
+5. **提效**：当它跑通后，你能把繁杂的话术浓缩成一个极致的[[提示词|提示词]]（Prompt，即一串描述你希望 AI 做什么的文本指令）[28:07 Jason Lemkin]。Jason 把自己三个不同智能体的成熟提示词直接喂给新产品，当天就跑出了很好的效果。
 
-在低端（增长慢的传统 SaaS 公司），需求枯竭，大家只能靠涨价榨取存量客户。在高端（像 [[Vercel|Vercel]]、[[Replit|Replit]]、ElevenLabs 这种爆发式增长的 AI 公司），需求多到根本服务不过来。他举了个极端的例子：[[Bolt|Bolt]] 在六个月内从零做到 5000 万美元营收，销售团队一半的精力花在「决定回复哪些线索」上，因为他们从竞争对手 [[Lovable|Lovable]] 那儿抢来一个七位数的大单，原因仅仅是 Lovable 的人没回电话 [15:49 Jason Lemkin]。
+## 核心智能体大盘点与「谁帮你最多」的选品逻辑
 
-更反常的是，整个市场进入了一种罕见的「全员采购」状态。传统上，每年大概只有 3% 到 5% 的潜在客户在市场上买东西；但现在，由于高层被 AI 的巨大投资回报率（ROI）倒逼，许多类别中有超过 50% 的客户同时在市场上找方案 [18:13 Jason Lemkin]。所以，不管你是增长太快缺人手，还是增长停滞需要砍成本，2026 年你都有极强动力用 AI 智能体来突破现有的销售极限。
+了解了基础原理，接下来看看他在真实的 GTM 中部署了哪些关键智能体。Jason 强调，在 AI 时代，像发冷邮件、打陌生电话这些经典的销售战术本身依然有效，只是把它们串起来的「老剧本」不灵了 [14:32 Jason Lemkin]。
 
-那么，这对销售职业本身意味着什么？Jason 给出了非常具体的预判：那种刚大学毕业、每天按固定节奏群发邮件的初级 SDR，明年会被 AI 取代 90%；而审核入站线索的 BDR（比如等一两天才回复客户问「你是做什么的」的人）明年应该直接灭绝 [19:49 Jason Lemkin]。
+目前他跑通的核心智能体主要有以下几个：
+- **通用问答与支持智能体**：这是他最早用 [[Delphi|Delphi]] 做的数字分身（Digital Jason）。它原本只是用来回答创始人问题的，但后来它不仅自动包揽了以往人类要两周才回的客服支持邮件，甚至还在无人干预的情况下，独自搞定了一笔 7 万美元的赞助 [08:02 Jason Lemkin]。
+- **出站销售智能体**：专门用于向 40 万名流失或潜在用户发邮件召回。他们用了 YC 孵化的创业公司 [[Artisan|Artisan]] 的产品，发了 6 万封邮件，回复率很高 [33:10 Jason Lemkin]。
+- **入站销售智能体**：负责在网站上拦截、审核那些主动找上门的线索。他们用了 [[Qualified|Qualified]]（一家由 [[Salesforce|Salesforce]] 前 CMO 创立的公司）的产品。它在周六晚上 11 点自主搞定了赞助商，而且 24 小时无休 [34:23 Jason Lemkin]。
+- **沉睡线索激活智能体**：专门去重新联系那些被人类销售嫌佣金少、主动放弃跟进的线索。他们用了 Salesforce 的 [[Agentforce|Agentforce]] 产品，竟然拿到了高达 70% 的回复率 [38:47 Jason Lemkin]。
 
-但并不是所有岗位都末日临头。负责真正成交的 AE（客户经理），明年大概 70% 的工作还是安全的，但再往后会降到只有 40% 到 50% 安全 [20:48 Jason Lemkin]。原因很简单：如果一个智能体比人类更懂产品，且价格没什么可谈的，客户其实更愿意直接和聪明的 AI 聊天。
+那么，面对市面上海量的智能体工具，到底该怎么选？Jason 给出了他最具反直觉的选品逻辑：**不要只挑功能最强的，要挑「谁愿意派工程师来手把手帮你上线」的**。
 
-这里引出一个所有人都在问的元问题：如果入门级的 SDR 和 AE 都没了，销售行业的新人从哪儿起步？Jason 坦言这是整个 AI 时代的共同困境（就像很多公司宁愿要熟练工也不愿带新人）。但他强调：**那些真正懂产品、知道怎么管理和「编排」智能体的人，会变得更有价值；而那些只知道混日子的「平庸者」将被加速淘汰。** 他特别指出，那种自称「我很会搞人际关系」却一问产品技术三不知的销售，日子到头了 [70:42 Jason Lemkin]。
+他强调，在底层，市面上这些顶尖的 AI GTM 工具其实大同小异，底层调用的甚至都是 Claude 4 模型 [35:23 Jason Lemkin]。既然必须花一个月来训练它，那么如果没有供应商的协助，光靠你自己是很难搞定的。所以，挑选工具时，你必须在评估矩阵里加上关键的一列：**谁会派 Forward Deployed Engineer（[[前线部署工程师|前线部署工程师]]，简称 FDE，指供应商派来驻场帮你把产品真正跑通的人）？** [36:01 Jason Lemkin]
 
-## 具体怎么部署：他的四类智能体与选型秘诀
+Jason 当初选 Artisan，不是因为它最知名，而是因为它的团队最愿意提供帮助。这正是初创公司的巨大机会：大厂也许软件做得好，但如果你能像初创公司这样，派 FDE 像顾问一样坐在客户公司里，确保智能体在开出的支票兑现前就 100% 能跑起来，客户根本无法拒绝 [67:17 Jason Lemkin]。
 
-工具变了，人怎么办？这正是他接下来讲的核心实操。Jason 把自己公司的智能体生态全公开在 SaaStr.ai/agents 上，主要分四类：
+## 「有人格魅力」已不再是护城河：从业者的生死分水岭
 
-第一类是通用数字分身。他用 [[Delphi|Delphi]] 做了一个「Digital Jason」，把自己写过的上万篇文章全喂进去。它起初只是为了陪创始人聊天，结果客户开始拿它问活动退票、折扣等客服问题，它甚至自己在没人管的情况下谈下了一笔 7 万美元的赞助 [08:05 Jason Lemkin]。这成了他用智能体做客服支持的起点。
+工具变了，用工具的人怎么办？这正是我们要探讨的下一个话题：这场变革对销售从业者意味着什么。
 
-> 【背景】Delphi 是一款制作「数字分身」的应用，能摄取一个人所有的公开内容并模仿其语气交流。
+Jason 给出了极其冷酷的预判：
+- **SDR（销售开发代表）与 BDR（业务开发代表）将大面积消亡**。那些刚毕业只会发邮件、做线索资格认定的初级岗位，在 AI 面前毫无价值，明年就会灭绝 [19:44 Jason Lemkin]。
+- **AE（客户经理）将面临减半与提效**。目前大多数 AI 工具还无法完全搞定复杂的销售谈判，但未来几年，AE 的工作量会大幅萎缩 [20:48 Jason Lemkin]。
 
-第二类是 Outbound（出站/外呼）智能体。他选了 YC 孵化的 [[Artisan|Artisan]]，向过去积累的 40 万联系人发邮件拉新，发了约 6 万封，效果很好 [33:12 Jason Lemkin]。
+更致命的是，很多平庸的销售赖以生存的最大护城河——「我是一个有人格魅力、会搞关系的人」——在 AI 时代将彻底失效 [70:22 Jason Lemkin]。Jason 一针见血地指出，ChatGPT 现在就是地球上最好的心理治疗师，它比大多数打工人更懂倾听、更像一个「有人格魅力的人」[74:33 Jason Lemkin]。
 
-第三类是 Inbound（入站）智能体。他选了 [[Qualified|Qualified]]，把它做成网站上的一个对话气泡。有人在周六晚上 11 点想赞助，智能体直接接待并拿下了单子 [34:24 Jason Lemkin]。
+真正的分水岭在于你懂不懂产品。如果你对你所卖的产品的技术异议一无所知，只会处关系，你就会被 AI 淘汰。而那些真正懂产品、知道怎么管理智能体的人，将获得超能力。Jason 预测，未来的顶级 SDR 年薪应该达到 25 万美元，但他们的职责不再是自己打电话，而是像在 [[Vercel|Vercel]] 公司一样，每个人管理 10 个 AI 智能体 [39:39 Jason Lemkin]。
 
-第四类是老线索唤醒。他很早接入了 [[Salesforce|Salesforce]] 的 [[Agentforce|Agentforce]]，专门拿去对付「那些销售员懒得跟、认为佣金太低的线索」，结果达到了 70% 的回复率 [38:50 Jason Lemkin]。
+## 终极建议与未来职场法则
 
-这里有个非常关键的选型秘诀。Jason 强调，这些智能体在底层调的其实都是差不多的 API（比如都在用 Claude 4），因此选谁的区别不在于功能列表 [35:26 Jason Lemkin]。关键在于：**哪家供应商愿意派 Forward Deployed Engineer（[[前线部署工程师|前线部署工程师]]，简称 FDE）手把手帮你把模型调好。** 他曾经接触一家供应商，开价要先收 10 万美元才肯帮忙；而 Artisan 和 Qualified 愿意下场陪他一起干，所以他选了后者。
+那么，无论是高管还是基层员工，到底该如何在这场洪流中自救并脱颖而出？Jason 给出了落地的操作指南。
 
-> 【背景】Forward Deployed Engineer（FDE）指供应商派去客户现场、专门负责把产品部署跑通的技术人员。
+如果你是**总监或高管**：马上选一个最让你头疼的环节（比如客服支持或线索分发），挑一个主流的智能体供应商，**自己亲自下场跑通它**。自己上传数据，自己测试纠错，把训练和编排的全流程走一遍 [24:01 Jason Lemkin]。Jason 警告说，他见过太多规模数百亿美元的上市公司，幻想着买个工具直接扔给年轻的 SDR 团队去鼓捣，结果注定是零回报 [24:49 Jason Lemkin]。
 
-对于初创公司，这也是个巨大的销售启示：不要只卖一个空壳软件让客户自己琢磨。你需要派人坐在客户旁边，确保智能体在客户付款前就能真正跑起来、出业绩，这在 AI 时代是唯一的制胜法 [65:10 Jason Lemkin]。
+如果你是**普通从业者**：不要抗拒组织引入的 AI 工具。拥抱那些能让你产能翻倍的智能体，因为现在像 Momentum 和 Attention 这样的 AI RevOps（营收运营）工具，能实时把你每天的一举一动自动同步进 CRM（客户关系管理系统）[61:18 Jason Lemkin]。Jason 团队里有个老销售，就是在上线这种全透明监控工具的当天，因为过去 30 天啥也没干被当场揭穿而引咎辞职的 [61:36 Jason Lemkin]。
 
-## 训练智能体很难，但远没你想的那么高深
+对于创始人，Jason 给了一个假期作业：用浏览器的无痕模式，用一个全新的 Gmail 邮箱，去走一遍你自己产品的购买流程。去体验一下你们糟糕的客服回复速度和销售跟进效率，挑出那个让你流泪的环节，然后买个智能体去修好它 [85:30 Jason Lemkin]。
 
-选好了工具，接下来是最关键的「训练」环节，这也是他反复强调没人能逃避的苦活。Jason 发现，很多人对 AI 存在致命误解：以为买了个工具、按下开关，它就会像魔法一样自动卖货。他跟一家市值超百亿美元的上市 B2B 公司开会，发现他们打算把未训练的智能体直接扔给 20 岁的初级 SDR 去「自己摸索」，全场 20 个人里没有一个人亲手上手过 [24:54 Jason Lemkin]。他指出：零工作直接开启智能体，是 100% 的失败率 [57:12 Jason Lemkin]。
-
-真正的训练其实并不神秘，就是把流程反过来做：
-1. **喂基础数据**：把你的官网链接、Wiki 文档、培训手册传给它，这叫「摄取」。
-2. **角色扮演与纠错**：它每天会发一些练习邮件，有时候会产生「幻觉」（说错话）。你每天花一两个小时去纠正它。
-3. **复制最强员工**：把你团队里金牌销售的最好邮件文案，上传给它当模板。让 AI 基于此进行 A/B 测试（同时试验多种方案看哪个好），它甚至能帮你生成三封你那封最好邮件的变体 [43:37 Jason Lemkin]。
-
-只要坚持做 30 天，到第 30 天它就会变得相当好 [26:46 Jason Lemkin]。
-
-有了这套方法，他做出了一个重要的性能反直觉判断：**你不需要拥有庞大的数据库也能用智能体。** 很多小公司说「我只有 300 个客户」，但 Jason 反问：「那访问过你网站的累计有多少人？你 HubSpot（客户管理系统）里躺着的废弃线索有多少？」往往一查有几万人，人类根本碰不过来，这正是智能体大显身手的地方 [36:48 Jason Lemkin]。
-
-此外，**你也不需要 12 年的内容积累才能训练它**，只要有几个月的优质内容加上后期的持续补充就够了 [37:48 Jason Lemkin]。即便只有几百万美元营收的小公司也能从中获益。
-
-## 管理员的新角色：编排官
-
-既然部署了一个又一个智能体，谁来管它们？Jason 介绍了他团队里那「0.2 个人类」——兼职首席 AI 官 Amelia 的日常。
-
-现在有 20 个智能体整晚、整周末地连轴转工作，Amelia 每周必须花 10 到 15 个小时专门审查它们的输出 [40:40 Jason Lemkin]。因为多个智能体同时在跑，必须有人足够聪明，去把客户库切分好（比如谁归入站管、谁归出站管、谁归唤醒管），否则它们就会互相冲突，把整个系统搞得一团糟 [56:25 Jason Lemkin]。这是一个全新的岗位：智能体编排官。Jason 建议从内部提拔那些喜欢在数据前一坐就是几小时、懂营销懂数据的「极客」，而不是指望传统销售出身的人 [54:54 Jason Lemkin]。
-
-## 给每个人的生存指南与行动号召
-
-聊了这么多「道」与「术」，他最后给出了针对不同人群的明确建议：
-
-**如果你是领导者/VP**：别等了，现在就挑一个最痛的环节，选一个供应商，亲自下场搞训练、摄取数据、编排流程。如果你能自己把一个智能体跑通并投产，你就会成为市场上极度抢手的人才 [26:59 Jason Lemkin]。
-
-**如果你是初级员工**：拥抱团队正在用的 AI 工具。当 AI 自动帮你排满了日程，别抱怨，去接纳它，这会让你的效率翻倍。Jason 提到一个反面案例：他们曾推出一款能自动追踪所有销售举动的 RevOps 工具，结果一个老员工在上线当天就辞职了，因为他三十天啥也没干，彻底露馅了 [61:29 Jason Lemkin]。未来你的一切都会全透明。
-
-最后，Jason 抛出了一个极具情绪感染力的年终总结式建议：**在假期里，用浏览器的「无痕模式」假装新客户，去体验一下你自家公司的产品。** 试试你的客服多久回消息、试试销售联系有多费劲。「挑出那个让你气得想哭的环节，去买个智能体把它修好。」
-
-> 【背景】RevOps（Revenue Operations，营收运营）指统筹管理公司销售、市场等各环节营收流程的岗位或工具。
-
-不过，Jason 对行业的长期前景依然极度乐观：AI 领导者们的增长太猛了（比如有公司靠 AI 把单个销售的年产出从三五十万美元拉升到了 300 万到 500 万美元 [60:38 Jason Lemkin]），所以整个行业其实需要比以往更多的人类来填坑——只不过，新坑留给的是那些掌握了 AI 工具的超级人类，而不是还在装「会搞关系」的旧人类。
+最后，面对大家最担心的「AI 会不会导致人类大量失业」，Jason 给出了相当宏观的判断：真正的危机不是裁员，而是当有人离职后，公司不再招人填补——他原话是那些增长缓慢的公司「仍然需要人，不需要那么多，但它们仍然需要人」[82:11 Jason Lemkin]，言下之意空出的岗位会被 AI 顶上。而对于那些真正掌握 AI 的人来说，最好的时代才刚开始，因为你甚至不需要会写代码，就能在 150 天内用 [[Replit|Replit]] 构建出 12 个被使用上百万人次的工具 [81:03 Jason Lemkin]。
 
 ## 本集带走
 
-1. **不亲自训练的智能体等于废铁**：AI 智能体无法开箱即用。哪怕底层模型再强，不经过上传最佳销售话术、每日纠错和 30 天的持续打磨，它的成功率就是零。亲自上手「训练、摄取、编排」，是领导者明年不被淘汰的唯一出路。
-2. **选型不看功能看部署帮扶**：各家底层调用的模型大同小异。决定成败的关键是供应商愿不愿意派人手把手帮你调通产品。对初创公司来说，派人入驻客户现场确保「上线即出业绩」，是抢占大公司市场的终极武器。
-3. **「只会搞关系」不再是护城河**：明年起，发邮件的 SDR 和审核线索的 BDR 将基本灭绝。能活下来并拿高薪的，是那些真正懂产品、懂技术异议、能指挥 10 个智能体的超级个体。
+1. **销售智能体绝不是「一键启动」的魔法**。它在底层只是 API 的堆砌，真正的核心壁垒在于持续一个月的「数据摄取与人工纠错训练」。谁能得到供应商 FDE（前线部署工程师）最得力的保姆式协助，谁才能成功。
+2. **「我是一个有人格魅力的人」不再是销售的职业护城河**。AI 可以比大多数打工人更具同理心。未来的高薪销售不靠自己打电话，而是靠管理 10 个 AI 智能体来产生以往数十倍的产能。
+3. **AI 对就业市场的真实冲击是「不再补员」**。大规模裁员往往只是借口，未来的常态是员工离职后不再招人，而是由 1.2 个人类加上 20 个智能体，继续维系八位数的营收。
 
 ## 金句(中英对照 · 过机器闸门三联校验)
 
-> 我们在销售领域雇佣人类这件事已经结束了。  
-> *We're done with hiring humans in sales.*  
-> —— Jason Lemkin · [07:50] ^q1
-
-> AI 正在取代人们今天不想做的工作，并且正在取代中游和平庸的人。  
-> *AI is replacing the jobs people don't want to do today, and it is displacing the midpack and the mediocre.*  
-> —— Jason Lemkin · [00:31] ^q2
-
-> 所有的策略都有效。是那些剧本在 AI 时代有点坏了。  
-> *All the plays work. It's the playbooks that are kind of broken in the age of AI.*  
-> —— Jason Lemkin · [14:30] ^q3
+> 那种大学毕业后被雇佣来发邮件和回复入站邮件，也许当天晚些时候或第二天才回复他们的初级 SDR，我们不需要他们了。  
+> *The classic SDR junior kid that is hired out of college to send emails and respond to inbound emails and maybe get back to them later that day or the next day, we don't need them.*  
+> —— Jason Lemkin · [19:27] ^q1
 
 > 基于邮件节奏的 SDR 明年将被 AI 取代 90%。  
 > *The email-based cadence SDR will be 90% displaced by AI next year.*  
-> —— Jason Lemkin · [19:49] ^q4
+> —— Jason Lemkin · [19:49] ^q2
 
-> 如果你在等你的团队的人去做，如果你在等一家代理机构去做，我认为你会失业。  
-> *If you're waiting for people on your team to do it, if you're waiting for an agency to do it, I think you're going to be out of a job.*  
-> —— Jason Lemkin · [28:26] ^q5
+> AI 正在取代人们今天不想做的工作，并且它正在挤出中游和平庸的人。  
+> *AI is replacing the jobs people don't want to do today, and it is displacing the mid-pack and the mediocre.*  
+> —— Jason Lemkin · [13:50] ^q3
 
-> 我们成交了一个七位数的交易，是我们从 Lovable 那里抢来的，因为 Lovable 没人回电话给他们。  
-> *We closed a seven figure deal we stole from Lovable because no one called them back at Lovable.*  
-> —— Jason Lemkin · [15:50] ^q6
+> 我们应该有年薪 25 万美元的 SDR，但他们应该像……在 Vercel，他们会管理 10 个智能体，而不是 10 个人。  
+> *We should have $250,000 a year SDRs, but they'd be like ... At Vercel, they'd be managing 10 agents, not 10 people.*  
+> —— Jason Lemkin · [00:39] ^q4
 
-> 你可能拥有的最好的初创公司也许就是今天你正在工作的那家。  
-> *The best startup you're ever going to have probably is the one you're working at today.*  
-> —— Jason Lemkin · [97:11] ^q7
+> 净生产力大约是一样的。它不是更好，也不是更差，但它更高效得多而且它可以扩展，因为软件可以扩展。  
+> *The net productivity is about the same. It's not better, it's not worse, but it's so much more efficient and it scales because software scales.*  
+> —— Jason Lemkin · [09:16] ^q5
 
-> 在 AI 行得通的任何地方，需求是无穷无尽的。  
-> *AI works, the demand is inexhaustible.*  
-> —— Jason Lemkin · [16:42] ^q8
+> 做编排者或首席 AI 人员对于懒人来说不是一份好工作，因为智能体从不睡觉。  
+> *Being the orchestrator or the chief AI person is not a good job for lazy people because the agents never sleep.*  
+> —— Jason Lemkin · [40:55] ^q6
 
-> 你会为你的支持有多糟糕而哭泣。  
-> *You're going to cry how bad your support is.*  
-> —— Jason Lemkin · [85:56] ^q9
+> 所以请注意，如果你是一个创业公司甚至是 Salesforce 或 HubSpot，也许在未来 12 个月内关闭这些交易，因为窗口可能会关闭，人们会说，听着，那是我见过的最酷的智能体。我对之前的五个感到筋疲力尽。  
+> *So just be aware, if you're a startup or even Salesforce or HubSpot, maybe close those deals in the next 12 months, because the window may close where people say, Listen, that's the coolest agent I've ever seen. I'm exhausted from the last five.*  
+> —— Jason Lemkin · [41:43] ^q7
 
-> 总的来说，我们将需要比以往更多的销售和进入市场专业人士，因为赢家增长得太快了，即使他们效率更高，他们也比以往更需要人类。  
-> *Net net, we're going to need more sales and go-to-market professionals than ever because the winners are growing so quickly that even if they're more efficient, they will need more human beings than ever.*  
-> —— Jason Lemkin · [76:29] ^q10
+> 如果你什么都没有，它也不必改变世界。如果你真的什么都不做，然后开始做一些高 ROI 的事情，你就会得到回报。  
+> *If you have nothing, it doesn't have to change the world. If you're literally doing nothing and you start to do something that's high ROI, you're going to get return.*  
+> —— Jason Lemkin · [33:50] ^q8
+
+> 挑选那个让你在喝热红酒时哭得最厉害的事情，去买那个智能体并修复它。  
+> *Pick the thing that makes you cry the most over your mold wine and go buy that agent and fix it.*  
+> —— Jason Lemkin · [86:02] ^q9
+
+> 我们在销售领域雇佣人类这件事已经结束了。完毕。  
+> *We're done with hiring humans in sales. We're done.*  
+> —— Jason Lemkin · [07:50] ^q10
+
+> 我甚至不会写代码 Lenny，但在过去 150 天里，我在 Replit 上构建了 12 个应用程序，被使用了 100 万次。  
+> *I can't even code Lenny, and I've built 12 apps on Replit in the last 150 days used by a million times.*  
+> —— Jason Lemkin · [80:56] ^q11
+
+> ChatGPT 是地球上我们最好的治疗师。它是一个有人缘的人。  
+> *ChatGPT is our best therapist on planet Earth. It's a people person.*  
+> —— Jason Lemkin · [74:33] ^q12
 
 ## 相关单集
 
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同公司:Bolt、Lovable、Replit · 同概念:智能体 (agent)
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把销售当产品做：用 AI 重构 GTM 团队的实战指南》]] —— 同公司:Vercel · 同概念:SDR、智能体 (agent)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《The AI paradox: More automation, more humans, more work | Dan Shipper》]] —— 同概念:前线部署工程师 (Forward Deployed Engineer)、智能体 (agent)
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]] —— 同概念:智能体 (agent)
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《From skeptic to true believer: How OpenClaw changed my life | Claire Vo》]] —— 同概念:智能体 (agent)
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)》]] —— 同概念:智能体 (agent)
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)》]] —— 同概念:智能体 (agent)
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] —— 同公司:Vercel · 同概念:智能体 (agent)
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的 AI 工作预测:智能体接管工作,但人类不会失业》]] —— 同概念:前线部署工程师 (Forward Deployed Engineer)、智能体 (agent)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同公司:Replit · 同概念:智能体 (agent)
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值 150 亿的隐形 AI 公司 Applied Intuition:给自动驾驶卡车的焦虑开一剂务实药方》]] —— 同概念:智能体 (agent)
+- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别怪高管不懂你：产品经理的向上影响力心法》]] —— 同概念:智能体 (agent)
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同概念:智能体 (agent)
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被淘汰，构建者迎来黄金期》]] —— 同概念:智能体 (agent)
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|《对话 Anthropic 产品负责人 Cat Wu:AI 时代 PM 如何跟上「每周发布」的疯狂节奏》]] —— 同概念:智能体 (agent)
+- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel:在AI时代,做最会创新的公司》]] —— 同概念:智能体 (agent)
 - [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同概念:智能体 (agent)
-- [[2026-06-03-latent-space-satya-2026|《Satya Nadella：Microsoft Build特别跨界对谈》]] —— 同概念:智能体 (agent)
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《The hidden pattern behind successful products | Mark Pincus (founder of Zynga)》]] —— 同概念:智能体 (agent)
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)》]] —— 同概念:智能体 (agent)
-- [[2026-06-22-latent-space-gray-swan|《神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan》]] —— 同概念:智能体 (agent)
-- [[2026-06-24-latent-space-databricks|《为什么前沿生态必须开放》]] —— 同概念:智能体 (agent)
+- [[2026-06-03-latent-space-satya-2026|《专访 Satya Nadella:智能体时代的平台逻辑与企业护城河》]] —— 同概念:智能体 (agent)
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人：别想从零颠覆世界，靠复制才能创新》]] —— 同概念:智能体 (agent)
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同概念:智能体 (agent)
+- [[2026-06-22-latent-space-gray-swan|《给 AI 智能体装上「安全带」:Gray Swan 的攻防实战》]] —— 同概念:智能体 (agent)
+- [[2026-06-24-latent-space-databricks|《Databricks 的智能体时代布局：统一调度、开源治理与数据库重写》]] —— 同概念:智能体 (agent)
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《OpenAI Codex lead on the new shape of product work | Andrew Ambrosino》]] —— 同概念:智能体 (agent)
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]] —— 同概念:智能体 (agent)
-- [[2026-07-08-latent-space-modal|《为什么 AI 基础设施必须为「Agent 体验」进化》]] —— 同概念:智能体 (agent)
+- [[2026-07-08-latent-space-modal|《AI 基础设施如何为智能体重新设计:Modal 联合创始人的方法》]] —— 同概念:智能体 (agent)
 - [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:智能体 (agent)
-- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone》]] —— 同概念:智能体 (agent)
 - [[2025-11-20-lennys-slack-founder-stewart-butterfield|《把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学》]] —— 同公司:Salesforce
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《在指数级增长公司做增长：Anthropic 增长负责人的打法》]] —— 同概念:智能体 (agent)
 
 ---
 

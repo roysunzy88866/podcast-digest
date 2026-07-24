@@ -10,12 +10,12 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《The most successful AI company you’ve never heard of | Qasar Younis》]]**(33:43起):本集在讨论中美竞争时重点提及它，指出其约有四分之一员工是共产党员，本质上是国家的延伸而非单纯以营利为目的的商业公司，不能直接拿它和苹果等美国公司做公平比较。
+- **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值 150 亿的隐形 AI 公司 Applied Intuition:给自动驾驶卡车的焦虑开一剂务实药方》]]**(33:43起):本集在讨论中美科技竞争时被深入提及。嘉宾指出它有几十万员工,其中约四分之一是共产党员,目标不是增加利润或造福股东,实际上是国家意志的延伸,不能像评判普通商业公司那样去评判它。
 
 ## 出现在这些集
 
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《The most successful AI company you’ve never heard of | Qasar Younis》]] — 作为被讨论公司
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值 150 亿的隐形 AI 公司 Applied Intuition:给自动驾驶卡车的焦虑开一剂务实药方》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Lenny]] · [[Qasar Younis]] · [[Applied Intuition]] · [[Tesla]] · [[Waymo]] · [[物理 AI]] · [[自动驾驶]] · [[L2++]] · [[猴子大脑]] · [[激进实用主义]]
+[[Lenny]] · [[Qasar Younis]] · [[Applied Intuition]] · [[Waymo]] · [[Tesla]] · [[Rivian]] · [[Google]] · [[Facebook]] · [[物理 AI]] · [[智能体]]

@@ -18,84 +18,50 @@
     },
     {
       "i": 3,
-      "timestamp": "28:28",
+      "timestamp": "33:15",
       "speaker": "Keith Rabois",
       "trimmed": false,
-      "tsWas": "28:32",
-      "spkWas": "Keith Rabois"
-    },
-    {
-      "i": 4,
-      "timestamp": "28:45",
-      "speaker": "Keith Rabois",
-      "trimmed": false,
-      "tsWas": "28:49",
+      "tsWas": "33:15",
       "spkWas": "Keith Rabois"
     },
     {
       "i": 5,
-      "timestamp": "32:18",
+      "timestamp": "52:18",
       "speaker": "Keith Rabois",
       "trimmed": false,
-      "tsWas": "32:18",
+      "tsWas": "52:18",
       "spkWas": "Keith Rabois"
     },
     {
       "i": 6,
-      "timestamp": "33:15",
+      "timestamp": "74:41",
       "speaker": "Keith Rabois",
       "trimmed": false,
-      "tsWas": "34:15",
+      "tsWas": "74:38",
       "spkWas": "Keith Rabois"
     },
     {
       "i": 7,
-      "timestamp": "35:30",
+      "timestamp": "28:45",
       "speaker": "Keith Rabois",
       "trimmed": false,
-      "tsWas": "35:30",
+      "tsWas": "28:41",
       "spkWas": "Keith Rabois"
     },
     {
       "i": 8,
-      "timestamp": "36:31",
+      "timestamp": "29:09",
       "speaker": "Keith Rabois",
       "trimmed": false,
-      "tsWas": "36:31",
-      "spkWas": "Keith Rabois"
-    },
-    {
-      "i": 9,
-      "timestamp": "52:17",
-      "speaker": "Keith Rabois",
-      "trimmed": false,
-      "tsWas": "52:17",
-      "spkWas": "Keith Rabois"
-    },
-    {
-      "i": 10,
-      "timestamp": "53:02",
-      "speaker": "Keith Rabois",
-      "trimmed": false,
-      "tsWas": "53:02",
-      "spkWas": "Keith Rabois"
-    },
-    {
-      "i": 11,
-      "timestamp": "73:10",
-      "speaker": "Keith Rabois",
-      "trimmed": false,
-      "tsWas": "73:17",
-      "spkWas": "Keith Rabois"
-    },
-    {
-      "i": 12,
-      "timestamp": "74:41",
-      "speaker": "Keith Rabois",
-      "trimmed": false,
-      "tsWas": "74:41",
+      "tsWas": "29:09",
       "spkWas": "Keith Rabois"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 4,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "I hate talking to customers."
+    }
+  ]
 }

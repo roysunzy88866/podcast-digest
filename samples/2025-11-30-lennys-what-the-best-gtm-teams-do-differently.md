@@ -1,31 +1,31 @@
 ---
-title: 把销售当产品做：用 AI 重构 GTM 团队的实战指南
+title: 把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织
 podcast: "Lenny's Podcast"
 date: 2025-11-30
 source_url: https://www.lennysnewsletter.com/p/what-the-best-gtm-teams-do-differently
 duration: "85:38"
 host: "[[Jeanne DeWitt Grosser]]"
 cohosts: ["[[Lenny]]"]
-companies: ["[[Vercel]]", "[[Stripe]]"]
-concepts: ["[[推向市场]]", "[[智能体]]", "[[GTM 工程师]]", "[[SDR]]", "[[细分]]", "[[PLG]]", "[[前置部署工程]]"]
+companies: ["[[Vercel]]", "[[Stripe]]", "[[Gong]]"]
+concepts: ["[[go-to-market]]", "[[智能体]]", "[[GTM 工程师]]", "[[市场细分]]", "[[PLG]]", "[[购买体验]]"]
 tags:
-  - 推向市场 (GTM)
-  - AI 智能体
-  - 销售流程
-  - 自建 AI 与采购
-  - 企业市场
+  - Go-to-Market
+  - 智能体自动化
+  - 市场细分
+  - SaaS商业策略
+  - 销售组织变革
 ---
 
-# 把销售当产品做：用 AI 重构 GTM 团队的实战指南
+# 把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织
 
 > [!info] 关联
 > **主持**:[[Jeanne DeWitt Grosser]]
 >
 > **联合主持**:[[Lenny]]
 >
-> **涉及公司**:[[Vercel]] · [[Stripe]]
+> **涉及公司**:[[Vercel]] · [[Stripe]] · [[Gong]]
 >
-> **概念**:[[推向市场]] · [[智能体]] · [[GTM 工程师]] · [[SDR]] · [[细分]] · [[PLG]] · [[前置部署工程]]
+> **概念**:[[go-to-market]] · [[智能体]] · [[GTM 工程师]] · [[市场细分]] · [[PLG]] · [[购买体验]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/what-the-best-gtm-teams-do-differently)
 
@@ -35,127 +35,113 @@ tags:
 
 ## 一句话 TLDR
 
-前 Stripe、现任 Vercel COO 分享如何用 AI 智能体重构上市团队并实现 10 倍提效。
+前 Stripe、现 Vercel 的 COO 分享如何用 AI 智能体重构销售流程，并将 GTM 视为产品来打造卓越体验。
 
-Jean（全名 [[Jeanne DeWitt Grosser|Jeanne DeWitt Grosser]]）是曾从零搭建 [[Stripe|Stripe]] 早期销售团队的老兵，现任 [[Vercel|Vercel]] 的首席运营官（COO），统管市场营销、销售、客户成功等所有接触客户的职能。在 AI 时代，十家创业公司在抢同一个机会，产品之间往往只在边际上有差异，「如何把产品[[推向市场|推向市场]]」本身就成了核心竞争力。本期对话就是一份写给创始人和产品人的 GTM（Go-To-Market，即产品推向市场的全过程）实操指南，沿着一条主线展开：先是重新定义 GTM 职能与新兴的 [[GTM 工程师|GTM 工程师]]角色，接着拆解如何把销售流程像产品一样精心设计，最后分享了关于市场[[细分|细分]]、定价和招聘的独特心法。
+当产品间的技术差异逐渐缩小时，一家公司该如何脱颖而出？本期嘉宾 Jean Grosser 曾在 [[Stripe|Stripe]] 担任首席商务官并从零搭建销售团队，目前担任 [[Vercel|Vercel]] 的首席运营官（COO）。在这一集里，她深入拆解了什么是世界级的 Go-to-Market（简称 GTM，即产品推向市场的全过程，涵盖营销、销售、技术支持等所有接触客户或产生收入的环节）。整场对话沿着一条非常清晰的主线展开：从 GTM 职能在 AI 时代的演变，到如何用[[智能体|智能体]]重构销售流程，再到像打造产品一样打磨客户的[[购买体验|购买体验]]，最后分享了团队搭建、[[市场细分|市场细分]]、[[PLG|PLG]] 边界与定价的实操心法。
 
-## GTM 的新边界：从「细分职能」走向「全生命周期」
+## 从过度细分走向整合，AI 正在重构 GTM 职能
 
-很多人一听 GTM，以为只是销售和市场。Jean 给出了更大的视野：GTM 应该是任何接触客户或为公司赚取收入的职能总和 [06:13 Jeanne DeWitt Grosser]。过去十几年，GTM 经历了极度细分的过程，甚至出现了「17 种不同的 GTM 角色」[07:20 Jeanne DeWitt Grosser]。但不同职能往往各自为战——市场、销售、支持团队画着各自的维恩图，追求着并不完全一致的目标 [06:37 Jeanne DeWitt Grosser]。Jean 判断，未来的趋势是这些职能将重新整合，我们要像编排产品体验一样，编排客户从认知到高留存的完整生命周期。
+关于什么是 Go-to-Market，很多人以为它就是营销和销售这个驱动收入的矛尖。但 Jean 在 Vercel 的管理范围更广——任何接触客户或赚取收入的职能（包括销售工程师、客户成功、支持与合作伙伴关系）都在她麾下。在她的职业生涯中，这些不同职能往往各自为政：市场、销售和支持部门各有各的策略和细分框架，像维恩图一样只能部分重叠。她预测，经历了过去几年 GTM 职能的过度细分（有人曾统计有 17 种不同的 GTM 角色）后，行业将迎来整合 [07:20 [[Jeanne DeWitt Grosser|Jeanne DeWitt Grosser]]]。
 
-这种整合之所以在当下加速，是因为商业模式的演变和 AI 的爆发。当基于消费量计费的模式兴起时，初次签约只是旅程的开始，销售必须从「一锤子买卖」转向深度顾问，去理解客户到底想达成什么 [09:00 Jeanne DeWitt Grosser]。而在当下，大家都知道要用 AI，却不知道具体该用什么替换现有的工作流 [09:32 Jeanne DeWitt Grosser]。于是我们看到一种老角色的复兴——[[前置部署工程|前置部署工程]]（forward deployed engineering）。它表面上是专业服务的改头换面，实质上是工程师深入客户环境，不仅帮客户把技术落地，还顺带把可复用的经验抽离出来带回给产品团队 [09:52 Jeanne DeWitt Grosser]。
+这种整合的底层动力，是商业模式的演进与 AI 的爆发。Jean 观察到，当基于消费的商业模式兴起时，GT M 就开始向咨询化转变，因为初次落地往往只占未来总业务量的极小部分，需要更深层的关系维系。如今在 AI 时代，客户虽然知道自己需要变革，但根本不知道具体要变成什么样，因此销售团队必须像顾问一样帮客户理清思路。这催生了「前置部署工程」的复兴（一种深入客户环境提供贴身技术服务的模式）[09:52 Jeanne DeWitt Grosser]，以及全新角色的诞生：[[GTM 工程师|GTM 工程师]]。
 
-## GTM 工程师：让人机协同的自动化工作流
+## GTM 工程师：用智能体把人从机械劳动中解放出来
 
-说完了 GTM 职能的大融合，接下来就是具体怎么做——这引出了一个正在崛起的新角色：GTM 工程师（go-to-market engineer）。
+前置部署工程帮客户落地技术，而 GTM 工程师则是用技术重构内部销售流程。这个角色的核心职责，是把销售团队中重复、机械的工作流拆解出来并转化为智能体（AI Agent）去完成。为了理解它为什么重要，Jean 讲述了她在 2017 年于 Stripe 的尝试。当时她只有 4 个外向拓展人员（而同类公司通常有 30 个），为了提高效率，她们试图建立一个包含地球上所有公司的巨大数据库，根据其商业模式等属性自动拼装个性化的邮件模板。但在没有 AI 的时代，由于数据假阳性率太高等原因，这套系统非常难用且并未完全成功 [11:33 Jeanne DeWitt Grosser]。而现在，得益于 AI，她们在 Vercel 真正把这件事做成了。
 
-Jean 在 Stripe 时就试图用数据驱动销售。2017 年，她只有 4 个 [[SDR|SDR]]，而同等规模的公司通常有 30 个 [11:58 Jeanne DeWitt Grosser]。为了提高效率，团队试图建一个包含地球上所有公司属性的巨大数据库，像玩填字游戏一样拼出高度个性化的邮件。但当时靠数据科学的规则硬算，假阳性率太高，效果并不好 [13:25 Jeanne DeWitt Grosser]。如今在 Vercel，她重新做这件事并且成功了，差别就在于引入了 GTM 工程师结合 AI [[智能体|智能体]]来做 [13:31 Jeanne DeWitt Grosser]。
+理解了这种效率突破，就不难明白这种新工具为什么能彻底改变团队结构。Jean 团队目前的做法是：让 GTM 工程师跟随业绩最好的销售，记录他们打开的网页、查的数据，将这套人类工作流编码成智能体。在处理入站线索时，她们的智能体会先判断线索质量，接着做深度调研并撰写回复。但关键在于，必须保留「人在回路」——让真人审核内容并点击发送。这套逻辑过去需要 10 名销售拓展人员（SDR，负责挖掘潜在客户并生成销售管道）完成，现在只需 1 人对智能体进行质量把控，其余 9 人全部被释放到了更具挑战的外向拓展中 [19:55 Jeanne DeWitt Grosser]。
 
-GTM 工程师的任务，是把 GTM 团队里相对确定、可复制的流程拆解出来，写成代码变成智能体，把人从机械劳动中解放出来 [16:00 Jeanne DeWitt Grosser]。Vercel 用一名 GTM 工程师花了六周时间、只用 25% 到 30% 的精力，就建好了一个入站（inbound，即客户主动找上门）线索处理智能体 [20:47 Jeanne DeWitt Grosser]。过去 10 名 SDR 做的线索甄别和跟进工作，现在 1 个人负责质量把关即可，另外 9 人被调配去做了更复杂的外站（outbound，即主动出击寻找客户）拓客 [20:04 Jeanne DeWitt Grosser]。结果是：智能体不仅保持了原有的线索转化率，还因为 24 小时秒回而压缩了转化所需的接触次数。
+> 【背景】在销售术语中，SDR（销售拓展代表）主要负责前期寻找线索并初步沟通，而 AE（客户主管）则负责后续的深度谈判与最终促成交易。
 
-在这个人机协同的过程中，Jean 还发现了一个关键细节：因为 AI 是向团队里最优秀的 SDR（只有两年经验）学习的，当拥有 20 年销售经验的 Jean 亲自审查智能体的回复时，依然能挑出毛病 [31:47 Jeanne DeWitt Grosser]。这反过来说明，要当好 GTM 工程师，最好要有懂销售最佳实践的底子。Vercel 的前三名 GTM 工程师，都是从懂技术的销售工程师转型的 [31:04 Jeanne DeWitt Grosser]。
+这个转变不仅压缩了成本，还大幅提升了响应速度。整个入站智能体项目仅由 1 名 GTM 工程师用 25% 到 30% 的时间，历时六周就完成了开发部署，且线索转化率与人类持平。更惊人的是，这个全栈智能体运行一整年的算力成本仅约 1000 美元——相比于原本超 100 万美元的人力薪资，总成本下降了 90% 以上 [41:40 Jeanne DeWitt Grosser]。Jean 认为，对于门槛较低的拓客工作，AI 会取代很大一部分；但对于需要跨多个业务线进行三角验证的深度企业级客户开发，AI 短期内仍无法替代人类 [22:32 Jeanne DeWitt Grosser]。
 
-## 把销售流程当产品打磨：构建独特的购买体验
+## 像打造产品一样打磨「购买体验」
 
-理清了人和 AI 如何分工后，组织本身该怎么运作？Jean 的核心法则是：把推向市场的流程当成产品来设计。Jean 在做 Gmail 时体会过碾压级的技术优势，但随着云计算普及，软件功能开始商品化，技术差异在缩小 [47:46 Jeanne DeWitt Grosser]。当产品只在边际上有差异时，「被推销的体验」就成了差异化公司并驱动购买决策的关键 [48:13 Jeanne DeWitt Grosser]。
+工具与工作流的升级，最终都指向同一个战略核心：在技术差异缩小的今天，要把 GTM 当做产品来打磨。Jean 回忆，她大学毕业后的第一份工作是 2004 年加入 Gmail 团队，当时 Gmail 的技术远超竞品；但十年后云计算普及，软件功能开始商品化。她由此得出结论：当产品的技术差异变小，「被推销的体验」将越来越能决定公司的竞争力 [46:56 Jeanne DeWitt Grosser]。
 
-既然是做产品体验，就要像产品经理一样，去打磨每一步的客户旅程。在 Stripe 时，Jean 把原本像审问一样的「需求挖掘电话」改成了「白板会议」：让客户当场画出自己的支付架构图 [49:17 Jeanne DeWitt Grosser]。客户从中拿到了有价值的架构资产，Stripe 则摸清了客户的技术栈和痛点。
+把 GTM 当产品做，意味着必须设计一套独特的客户购买旅程，让每个触点都在创造价值，而不仅仅是完成交易。一个经典的案例是 Stripe 的「白板环节」。通常，销售过程的第一个正式电话（探索性会谈）往往是单向盘问客户痛点，这让客户感到无聊。而在 Stripe，这第一通电话变成了白板会议：销售会邀请客户画出他们的支付系统架构图。这不仅让 Stripe 了解了客户的技术栈，客户自己也获得了清晰的业务认知图景，双方由此建立了深度的协作感 [48:46 Jeanne DeWitt Grosser]。
 
-除了打造惊艳的触点，「在任何触点增加价值，无论对方买不买」是另一个重要原则 [50:49 Jeanne DeWitt Grosser]。在 Vercel，当联系潜在客户时，销售会直接利用公开数据帮客户分析其网站速度，以及与同行的基准对比 [51:45 Jeanne DeWitt Grosser]。
+承接这种「任何触点都要创造价值」的理念，Vercel 还会利用公开数据（如衡量网站性能的 Crux 指标）为客户提供独特的行业洞察。很多公司现在关心 AEO（Answer Engine Optimization，即针对 AI 搜索引擎的内容优化），因为网站性能会影响 SEO，进而影响 AEO。Vercel 会告诉客户其网站速度相对于同行的表现如何。即使客户当下没有购买，这种专业的洞察也会建立信任，让他们在未来产生需求时首先想到你 [51:20 Jeanne DeWitt Grosser]。在这个沟通过程中，极其重要的一点是：优秀的销售在谈话中的发言时间应少于一半，要多提问、引导客户自己得出结论，而不是急于推销解决方案 [55:11 Jeanne DeWitt Grosser]。
 
-> 【背景】网站速度会影响 SEO（搜索引擎优化，即让网站在搜索结果里排名靠前），如今 SEO 又会影响 AEO（Answer Engine Optimization，回答引擎优化，即让你的内容更容易被 AI 搜索引擎抓取和总结）。
+## 实操指南：市场细分、销售协作与定价策略
 
-Jean 坦言，她听说的一个粗略数据是：80% 的客户购买是为了避免痛苦或降低风险，而不是为了增加上行空间 [27:34 Jeanne DeWitt Grosser]。很多初创公司喜欢谈愿景，但这通常只能打动另一位创始人；对于企业的采购者而言，他们真正想规避的是「下个季度没完成业绩目标」或「被竞争对手超越」的风险 [59:14 Jeanne DeWitt Grosser]。
+要落地这些战略，离不开精准的市场细分。细分不仅是 GTM 的事，更是一个全公司（包括产品研发）的事。Vercel 有一个核心价值观叫「了解你的客户」，Jean 会在每位新员工入职的第一周讲解公司的细分框架，确保产品经理在开发新功能时，已经清楚目标用户是企业还是初创公司 [68:46 Jeanne DeWitt Grosser]。在具体做法上，不能仅仅按公司规模（大、中、小）来划分。比如 Stripe 曾加上「增长潜力」维度，因为对基于消费的模式来说，年增长 200% 的客户比增长 8% 的更有价值；Vercel 则加上了「流量规模」和「工作负载类型」（如电商与加密货币公司的销售策略完全不同）。一个有效的细分框架，应该通过数据回归分析找出与成功最相关的三个关键属性 [60:58 Jeanne DeWitt Grosser]。
 
-## 支撑这一切的底层内功：细分、自建 AI 与招聘
+有了清晰的定位，如何让销售组织与产品工程团队顺畅配合？Jean 给销售团队定下的试金石测试是：如果把你（客户主管）放在公司的 10 名工程师面前，他们需要 10 分钟才能分辨出你不是产品经理 [69:59 Jeanne DeWitt Grosser]。她坚信，最好的 GTM 组织是营收引擎与产品研发的完美结合。销售人员需要具备极强的产品深度，这样才能将一线听到的噪音转化为有效信号，反哺给产品团队。此外，她强烈建议在招聘时构建多元化背景的组合：既要有真正懂销售技能的老手，也要有咨询或投行背景的人，后者更擅长与客户的 CFO 探讨损益表或总拥有成本（TCO）等量化分析 [81:14 Jeanne DeWitt Grosser]。
 
-在分享了具体的流程设计后，Jean 还抛出了几个支撑整个体系的硬核底层逻辑，涵盖了如何精准寻找客户、如何对待 AI 工具，以及如何招人。
-
-首先是市场细分（segmentation，即如何划分潜在客户群体以便采取不同的销售策略）。这不仅仅是市场部的事，更是整个公司的事 [68:39 Jeanne DeWitt Grosser]。在 Vercel，Jean 会亲自给新员工培训，要求产品经理在写第一行代码前就想清楚：这是卖给初创公司还是企业级客户 [68:59 Jeanne DeWitt Grosser]？
-
-其次是自建 AI 与采购的权衡。Jean 发现，自己构建上述那些智能体其实并不难，而且极其便宜。那个线索处理智能体跑满一年成本也就一千美元出头，相比于原来超百万美元的人力成本，实现了 90% 以上的总成本下降 [42:03 Jeanne DeWitt Grosser]。因此，对于那些包含你公司独特上下文的专属工作流，自己动手写智能体往往比买现成软件更划算 [42:32 Jeanne DeWitt Grosser]。这种 AI 带来的便利让 CIO（首席信息官）正在从软件的「采购者」变成软件的「构建者」，在组织内部构建一个跑满专属智能体的 AI 平台 [42:50 Jeanne DeWitt Grosser]。
-
-最后是关于销售招聘和薪酬。Jean 建议把真正有销售经验的人，和具有投行或咨询背景的人搭配起来 [81:30 Jeanne DeWitt Grosser]。前者教后者怎么做单，后者教前者怎么像总经理一样算损益表，和 CFO（首席财务官）谈总拥有成本（TCO）[82:05 Jeanne DeWitt Grosser]。
-
-而在薪酬上，传统的「绩效提成」让组织变得不够灵活，因为你必须提前 12 个月定好奖励什么 [79:51 Jeanne DeWitt Grosser]。Jean 坦言在 Vercel 制定今年销售计划时，AI 云产品根本还不存在，这就导致传统的硬性指标很难快速适应业务转型。这也是她正在探索突破的痛点。
+这种基于深度协作的 GTM 团队，该如何选择增长路径与商业模式？关于 PLG（产品驱动增长）和定价，Jean 有着清醒的认知。她认为 PLG 仍然是 SaaS 公司起盘的重要引擎，但它的致命弱点是有天花板——极少有人会通过纯自助服务直接购买上百万美元的订单。许多公司撞墙，就是因为建立可复制的销售引擎（尤其是外向拓展）需要漫长时间，但他们等得太久了 [74:30 Jeanne DeWitt Grosser]。此外，定价必须像对待产品一样深思熟虑。Vercel 曾在 8 月份做过一次重大的定价解绑：他们发现企业版 SKU 中有一半用户其实是初创公司，这说明他们把初创公司真正想要的功能错误地锁在了企业版里。将这些功能剥离出来供客户自助购买后，既大幅推动了 PLG 漏斗的增长，也提升了整体效率 [78:34 Jeanne DeWitt Grosser]。
 
 ## 本集带走
 
-1. **GTM 工程师正在重塑销售人效**：把懂销售最佳实践的「技术型销售」转型为 GTM 工程师，用他们把机械的线索甄别工作写成 AI 智能体。人退居质量把关，从而实现数十倍的人效提升。
-2. **把「被推销的体验」当成产品打磨**：当技术差异缩小，购买体验本身就是竞争力。把客户旅程的每一步设计成有价值的体验（如白板会议、同行基准分析），并在任何触点提供无条件的价值。
-3. **80% 的购买是为了避险**：绝大多数企业客户买单是为了避免业绩不达标或输给对手的风险，而不是为了追逐未来的愿景。理解并直面这一心理，是销售破局的关键。
-4. **自建 AI 往往比买现成工具更划算**：包含你公司专属上下文的工作流，自己构建智能体的成本极低。未来的 CIO 将越来越多地演变成内部 AI 平台的构建者。
+1. **GTM 工程师是销售的未来**：把顶尖销售的工作流拆解成智能体，并保留「人在回路」进行最终把关，能用极低的成本（如千美元/年的算力）释放成倍的人力，让他们专注于与客户的深度沟通。
+2. **卖产品不如卖「降低风险」的体验**：企业客户本质上更倾向于规避风险而非追求上行空间（约 80% 的购买动机是避免痛苦或降低风险）。通过白板协作、提供专业对标数据等方式建立信任，比单纯推销功能更有效。
+3. **市场细分和定价是动态的**：成功的 GTM 不能只靠公司规模划分市场，需结合数据回归找出流量、商业模式等关键驱动属性。同时，要敢于像调整产品一样去解绑和调整定价策略，确保增长路径不被 PLG 的天花板卡死。
 
 ## 金句(中英对照 · 过机器闸门三联校验)
 
-> 80% 的客户购买是为了避免痛苦或降低风险，而不是增加上行空间，这对于初创公司创始人来说是件好事。  
-> *80% of customers buy to avoid pain or reduce risk as opposed to increase upside, which is a good thing for startup founders to understand.*  
+> 80% 的客户购买是为了避免痛苦或降低风险，而不是增加上行空间，  
+> *80% of customers buy to avoid pain or reduce risk as opposed to increase upside,*  
 > —— Jeanne DeWitt Grosser · [00:27] ^q1
-
-> 如果产品只在边际上有差异，你被推销的体验将越来越多地真正区分公司并推动购买决策。  
-> *the experience that you have of being sold to will increasingly actually differentiate a company and drive buying decisions if products are only different at the margin.*  
-> —— Jeanne DeWitt Grosser · [00:58] ^q2
-
-> 我们可能会发现 CIO 越来越从软件的采购者变成软件的构建者，你会拥有一个拥有 1000 个智能体的 AI 内部平台在你的组织中运行。  
-> *we may find that the CIO increasingly goes from a procurer of software to a builder of software and you'll have an AI internal platform with a thousand agents running across your org.*  
-> —— Jeanne DeWitt Grosser · [42:45] ^q3
 
 > 如果你是我组织里的客户主管，我把你放在我们公司的 10 名工程师面前，他们应该花 10 分钟才能弄清楚你不是产品经理。  
 > *if you are an account executive in my org and I put you in front of 10 engineers at our company, it should take them 10 minutes to figure out you aren't a product manager.*  
-> —— Jeanne DeWitt Grosser · [01:26] ^q4
+> —— Jeanne DeWitt Grosser · [01:26] ^q2
 
-> 你有很多公司严重定价过低的例子，因为你有点不敢为你实际提供的价值收费。  
-> *you've got lots of examples of companies grossly underpricing because you're sort of afraid to charge for the value that you actually provide.*  
-> —— Jeanne DeWitt Grosser · [77:23] ^q5
+> 我认为在拓客方面，AI 可以取代相当大一部分，因为普通的 SDR 一开始也没有做特别复杂的研究。  
+> *I think on prospecting, it can replace a fair amount because the average SDR wasn't doing overly sophisticated research in the first place.*  
+> —— Jeanne DeWitt Grosser · [22:32] ^q3
 
-> 你想要一个能像总经理一样思考的销售组织。  
-> *you want a sales org that can think like a general manager.*  
-> —— Jeanne DeWitt Grosser · [71:53] ^q6
+> 实际上，你输的原因是你从未真正联系到经济决策人。  
+> *actually, you lost because you never really got in touch with the economic buyer.*  
+> —— Jeanne DeWitt Grosser · [35:53] ^q4
+
+> 我们最终可能会在时机成熟时使用更好的集成智能体平台。或者我们可能会发现 CIO 越来越从软件的采购者变成软件的构建者  
+> *we may ultimately end up on, you know, better integrated agent platforms in the fullness of time. Or we may find that the CIO increasingly goes from a procurer of software to a builder of software*  
+> —— Jeanne DeWitt Grosser · [42:38] ^q5
 
 > “是”很棒，“不”很棒，“也许”会毁了你。  
 > *yeses are great, noes are great, maybes will kill you.*  
-> —— Jeanne DeWitt Grosser · [85:15] ^q7
-
-> 它会让你的组织变得不那么灵活，因为你基本上必须提前 12 个月做出决定。  
-> *it makes your organization less flexible because you basically have to decide 12 months in advance.*  
-> —— Jeanne DeWitt Grosser · [79:52] ^q8
+> —— Jeanne DeWitt Grosser · [85:15] ^q6
 
 ## 相关单集
 
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 1.2 个人加 20 个 AI 智能体，替换 10 人销售团队》]] —— 同嘉宾:Lenny · 同公司:Vercel · 同概念:SDR、智能体 (agent)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《The AI paradox: More automation, more humans, more work | Dan Shipper》]] —— 同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《The hidden pattern behind successful products | Mark Pincus (founder of Zynga)》]] —— 同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体替代 10 人销售团队：SaaStr 创始人的前沿实战》]] —— 同嘉宾:Lenny · 同公司:Vercel · 同概念:智能体 (agent)
+- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别怪高管不懂你：产品经理的向上影响力心法》]] —— 同嘉宾:Lenny · 同公司:Stripe · 同概念:智能体 (agent)
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《OpenAI Codex lead on the new shape of product work | Andrew Ambrosino》]] —— 同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《From skeptic to true believer: How OpenClaw changed my life | Claire Vo》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《Why half of product managers are in trouble | Nikhyl Singhal (Meta, Google)》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《Why cultivating agency matters more than cultivating skills in the AI era | Max Schoening (Head of Product, Notion)》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《What happens after coding is solved? | Fiona Fung (Manager of the Claude Code and Cowork Teams)》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
-- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix CPTO on AI and the future of product and tech roles | Elizabeth Stone》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值 150 亿的隐形 AI 公司 Applied Intuition:给自动驾驶卡车的焦虑开一剂务实药方》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被淘汰，构建者迎来黄金期》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|《对话 Anthropic 产品负责人 Cat Wu:AI 时代 PM 如何跟上「每周发布」的疯狂节奏》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
+- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel:在AI时代,做最会创新的公司》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的 AI 工作预测:智能体接管工作,但人类不会失业》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人：别想从零颠覆世界，靠复制才能创新》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
 - [[2025-11-23-lennys-a-guide-to-difficult-conversations|《别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课》]] —— 同嘉宾:Lenny · 同公司:Stripe
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《How to build a company that withstands any era | Eric Ries, Lean Startup author》]] —— 同嘉宾:Lenny · 同公司:OpenAI
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Father of the iPod and iPhone on building taste, judgment, and creativity in the AI era | Tony Fadell》]] —— 同嘉宾:Lenny · 同公司:OpenAI
-- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:为什么大语言模型之后,「空间智能」才是下一个前沿》]] —— 同嘉宾:Lenny
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《在指数级增长公司做增长：Anthropic 增长负责人的打法》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
+- [[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样重要,但现在只是 1997 年》]] —— 同嘉宾:Lenny · 同公司:OpenAI
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《Tony Fadell：造出 iPod 和 iPhone 的人，怎么看 AI 时代的造物法则》]] —— 同嘉宾:Lenny · 同公司:OpenAI
+- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]] —— 同嘉宾:Lenny
 - [[2025-11-20-lennys-slack-founder-stewart-butterfield|《把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学》]] —— 同嘉宾:Lenny
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《被 10 亿美元验证的逆向创业法:AI 数据公司 Surge 的独立路径》]] —— 同嘉宾:Lenny
-- [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling 高管的反共识管理课：故意人手不足、果断放弃、复利对抗熵增》]] —— 同嘉宾:Lenny
-- [[2026-01-25-lennys-why-your-product-stopped-growing|《产品增长停滞怎么办?Jason Cohen 的诊断四步法》]] —— 同嘉宾:Lenny
-- [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|《育儿法则就是管理法则：Dr. Becky 谈如何领导“伪装的婴儿”》]] —— 同嘉宾:Lenny
+- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同嘉宾:Lenny
+- [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷》]] —— 同嘉宾:Lenny
+- [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] —— 同嘉宾:Lenny
+- [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|《Dr. Becky 谈领导力:把职场当家庭,用育儿智慧管理“伪装的婴儿”》]] —— 同嘉宾:Lenny
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《Cisco 高管 Jeetu Patel：如何把老牌巨头推向 AI 时代，以及他的六维制胜框架》]] —— 同嘉宾:Lenny
 - [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同嘉宾:Lenny
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《The most successful AI company you’ve never heard of | Qasar Younis》]] —— 同嘉宾:Lenny
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《The art of influence: The single most important skill that AI can’t replace | Jessica Fain (Webflow, ex-Slack)》]] —— 同嘉宾:Lenny
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Head of Growth (Anthropic): “Claude is growing itself at this point” | Amol Avasare》]] —— 同嘉宾:Lenny
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Hard truths about building in the AI era | Keith Rabois (Khosla Ventures)》]] —— 同嘉宾:Lenny
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel》]] —— 同嘉宾:Lenny
+- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别问客户、别信心理安全、只招「木桶」》]] —— 同嘉宾:Lenny
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《前 GitHub、现 Notion 产品负责人 Max:每个项目的前 10% 现在免费了》]] —— 同嘉宾:Lenny
+- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」》]] —— 同嘉宾:Lenny
 - [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同概念:智能体 (agent)
-- [[2026-06-03-latent-space-satya-2026|《Satya Nadella：Microsoft Build特别跨界对谈》]] —— 同概念:智能体 (agent)
-- [[2026-06-22-latent-space-gray-swan|《神话之后的红队评估 — Zico Kolter与Matt Fredrikson，Gray Swan》]] —— 同概念:智能体 (agent)
-- [[2026-06-24-latent-space-databricks|《为什么前沿生态必须开放》]] —— 同概念:智能体 (agent)
+- [[2026-06-03-latent-space-satya-2026|《专访 Satya Nadella:智能体时代的平台逻辑与企业护城河》]] —— 同概念:智能体 (agent)
+- [[2026-06-22-latent-space-gray-swan|《给 AI 智能体装上「安全带」:Gray Swan 的攻防实战》]] —— 同概念:智能体 (agent)
+- [[2026-06-24-latent-space-databricks|《Databricks 的智能体时代布局：统一调度、开源治理与数据库重写》]] —— 同概念:智能体 (agent)
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《No Figma. No Jira. No docs. How Gusto built a new product line with Claude Code | Eddie Kim (CTO)》]] —— 同概念:智能体 (agent)
-- [[2026-07-08-latent-space-modal|《为什么 AI 基础设施必须为「Agent 体验」进化》]] —— 同概念:智能体 (agent)
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri: AI is a tailwind for authenticity》]] —— 同嘉宾:Lenny
+- [[2026-07-08-latent-space-modal|《AI 基础设施如何为智能体重新设计:Modal 联合创始人的方法》]] —— 同概念:智能体 (agent)
+- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队重塑与 Instagram 算法真相》]] —— 同嘉宾:Lenny
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《How tech workers actually feel about AI in 2026 | Annual AI sentiment survey (Noam Segal)》]] —— 同嘉宾:Lenny
 - [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:智能体 (agent)
+- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失》]] —— 同嘉宾:Lenny
 
 ---
 

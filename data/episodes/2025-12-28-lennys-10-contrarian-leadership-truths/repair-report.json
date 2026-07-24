@@ -2,10 +2,10 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "00:05",
+      "timestamp": "00:00",
       "speaker": "Matt MacInnis",
       "trimmed": false,
-      "tsWas": "00:05",
+      "tsWas": "00:00",
       "spkWas": "Matt MacInnis"
     },
     {
@@ -13,19 +13,11 @@
       "timestamp": "00:56",
       "speaker": "Matt MacInnis",
       "trimmed": false,
-      "tsWas": "00:56",
+      "tsWas": "00:53",
       "spkWas": "Matt MacInnis"
     },
     {
       "i": 3,
-      "timestamp": "01:01",
-      "speaker": "Matt MacInnis",
-      "trimmed": false,
-      "tsWas": "01:01",
-      "spkWas": "Matt MacInnis"
-    },
-    {
-      "i": 4,
       "timestamp": "01:07",
       "speaker": "Matt MacInnis",
       "trimmed": false,
@@ -33,39 +25,47 @@
       "spkWas": "Matt MacInnis"
     },
     {
-      "i": 5,
-      "timestamp": "00:41",
+      "i": 4,
+      "timestamp": "06:01",
       "speaker": "Matt MacInnis",
       "trimmed": false,
-      "tsWas": "00:41",
+      "tsWas": "05:59",
+      "spkWas": "Matt MacInnis"
+    },
+    {
+      "i": 5,
+      "timestamp": "09:33",
+      "speaker": "Matt MacInnis",
+      "trimmed": false,
+      "tsWas": "09:33",
       "spkWas": "Matt MacInnis"
     },
     {
       "i": 6,
-      "timestamp": "00:50",
+      "timestamp": "12:04",
       "speaker": "Matt MacInnis",
       "trimmed": false,
-      "tsWas": "00:50",
+      "tsWas": "12:04",
+      "spkWas": "Matt MacInnis"
+    },
+    {
+      "i": 7,
+      "timestamp": "14:27",
+      "speaker": "Matt MacInnis",
+      "trimmed": false,
+      "tsWas": "14:23",
       "spkWas": "Matt MacInnis"
     },
     {
       "i": 8,
-      "timestamp": "24:30",
+      "timestamp": "28:03",
       "speaker": "Matt MacInnis",
       "trimmed": false,
-      "tsWas": "24:37",
+      "tsWas": "27:55",
       "spkWas": "Matt MacInnis"
     },
     {
       "i": 9,
-      "timestamp": "28:03",
-      "speaker": "Matt MacInnis",
-      "trimmed": false,
-      "tsWas": "28:08",
-      "spkWas": "Matt MacInnis"
-    },
-    {
-      "i": 10,
       "timestamp": "28:15",
       "speaker": "Matt MacInnis",
       "trimmed": false,
@@ -73,99 +73,53 @@
       "spkWas": "Matt MacInnis"
     },
     {
+      "i": 10,
+      "timestamp": "41:55",
+      "speaker": "Lenny",
+      "trimmed": false,
+      "tsWas": "41:55",
+      "spkWas": "Matt MacInnis"
+    },
+    {
       "i": 11,
       "timestamp": "44:29",
       "speaker": "Matt MacInnis",
       "trimmed": false,
-      "tsWas": "25:25",
+      "tsWas": "44:29",
       "spkWas": "Matt MacInnis"
     },
     {
       "i": 12,
-      "timestamp": "45:56",
+      "timestamp": "46:11",
       "speaker": "Matt MacInnis",
       "trimmed": false,
-      "tsWas": "45:56",
+      "tsWas": "46:06",
       "spkWas": "Matt MacInnis"
     },
     {
       "i": 13,
-      "timestamp": "51:15",
+      "timestamp": "50:24",
       "speaker": "Matt MacInnis",
       "trimmed": false,
-      "tsWas": "51:13",
+      "tsWas": "50:22",
       "spkWas": "Matt MacInnis"
     },
     {
       "i": 14,
-      "timestamp": "50:24",
+      "timestamp": "53:52",
       "speaker": "Matt MacInnis",
       "trimmed": false,
-      "tsWas": "50:00",
+      "tsWas": "53:52",
       "spkWas": "Matt MacInnis"
     },
     {
       "i": 15,
-      "timestamp": "50:31",
-      "speaker": "Matt MacInnis",
-      "trimmed": false,
-      "tsWas": "50:31",
-      "spkWas": "Matt MacInnis"
-    },
-    {
-      "i": 16,
       "timestamp": "63:17",
       "speaker": "Matt MacInnis",
       "trimmed": false,
       "tsWas": "63:17",
       "spkWas": "Matt MacInnis"
-    },
-    {
-      "i": 17,
-      "timestamp": "70:01",
-      "speaker": "Matt MacInnis",
-      "trimmed": false,
-      "tsWas": "70:01",
-      "spkWas": "Matt MacInnis"
-    },
-    {
-      "i": 18,
-      "timestamp": "78:49",
-      "speaker": "Matt MacInnis",
-      "trimmed": false,
-      "tsWas": "78:47",
-      "spkWas": "Matt MacInnis"
-    },
-    {
-      "i": 19,
-      "timestamp": "79:47",
-      "speaker": "Matt MacInnis",
-      "trimmed": false,
-      "tsWas": "79:46",
-      "spkWas": "Matt MacInnis"
-    },
-    {
-      "i": 20,
-      "timestamp": "80:26",
-      "speaker": "Matt MacInnis",
-      "trimmed": false,
-      "tsWas": "80:26",
-      "spkWas": "Matt MacInnis"
-    },
-    {
-      "i": 21,
-      "timestamp": "80:45",
-      "speaker": "Matt MacInnis",
-      "trimmed": false,
-      "tsWas": "80:45",
-      "spkWas": "Matt MacInnis"
     }
   ],
-  "dropped": [
-    {
-      "i": 7,
-      "reason": "逐字命中不了(裁剪后仍无)",
-      "en": "There is no excuse as an executive for sitting outside of the mess and thinking you know the answers."
-    }
-  ]
+  "dropped": []
 }

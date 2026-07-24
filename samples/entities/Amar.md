@@ -10,8 +10,8 @@ entity_type: 人物
 
 ## 出现在这些集
 
-- [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling 高管的反共识管理课：故意人手不足、果断放弃、复利对抗熵增》]] — 作为联合主持
+- [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷》]] — 作为联合主持
 
 ## 关联实体
 
-[[Matt MacInnis]] · [[Lenny]] · [[Rippling]] · [[Apple]] · [[Notion]] · [[ChatGPT]] · [[alpha]] · [[beta]] · [[幂律]] · [[熵]]
+[[Matt MacInnis]] · [[Lenny]] · [[Rippling]] · [[Notion]] · [[Apple]] · [[刻意人手不足]] · [[Alpha 与 Beta]] · [[产品市场契合度]] · [[熵]] · [[幂律分布]]

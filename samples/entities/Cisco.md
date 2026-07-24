@@ -10,12 +10,12 @@ entity_type: 公司
 
 ## 集里怎么说它
 
-- **[[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]]**(00:30起):本集将它描述为 AI 时代关键的基础设施公司，提供网络、光学和安全技术，将全球数据中心的大量 GPU 完美连接并保持绝对同步。
+- **[[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《Cisco 高管 Jeetu Patel：如何把老牌巨头推向 AI 时代，以及他的六维制胜框架》]]**(00:30起):本集把它说成：正在被 CPO 从老牌传统企业改造为 AI-first（以 AI 为先）的平台公司，也是 AI 时代提供网络、光学、可观测性等关键基础设施的连接者。
 
 ## 出现在这些集
 
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《AI is critical for humanity’s survival: Cisco president on the AI revolution | Jeetu Patel》]] — 作为被讨论公司
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《Cisco 高管 Jeetu Patel：如何把老牌巨头推向 AI 时代，以及他的六维制胜框架》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Jeetu Patel]] · [[Lenny]] · [[NVIDIA]] · [[OpenAI]] · [[超级趋势]] · [[获胜权]] · [[AI 基础设施]] · [[智能体]] · [[能力过剩]] · [[护栏]]
+[[Jeetu Patel]] · [[Lenny]] · [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[ChatGPT]] · [[AI-first]] · [[AI 基础设施]] · [[GPU]] · [[护栏]]

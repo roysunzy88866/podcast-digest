@@ -30,8 +30,8 @@ entity_type: 人物
 
 ## 出现在这些集
 
-- [[2026-06-03-latent-space-satya-2026|《Satya Nadella：Microsoft Build特别跨界对谈》]] — 作为联合主持
+- [[2026-06-03-latent-space-satya-2026|《专访 Satya Nadella:智能体时代的平台逻辑与企业护城河》]] — 作为联合主持
 
 ## 关联实体
 
-[[Saragawa]] · [[Microsoft]] · [[GitHub]] · [[MAI 模型]] · [[私有评估]] · [[测试框架]] · [[上下文层]] · [[WorkIQ]] · [[爬山]] · [[智能体]]
+[[Saragawa]] · [[Microsoft]] · [[GitHub Copilot]] · [[智能体]] · [[测试框架]] · [[私有评估]] · [[SaaS]] · [[通才]] · [[缩放定律]] · [[开放权重模型]]

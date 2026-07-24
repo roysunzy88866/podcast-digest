@@ -6,7 +6,7 @@ entity_type: 人物
 # Jeanne DeWitt Grosser
 
 > [!info] 人物
-> 出现在 1 集 · 金句 8 条 · 关联 10 个
+> 出现在 1 集 · 金句 6 条 · 关联 10 个
 
 ## 金句
 
@@ -22,14 +22,10 @@ entity_type: 人物
 
 ![[2025-11-30-lennys-what-the-best-gtm-teams-do-differently#^q6]]
 
-![[2025-11-30-lennys-what-the-best-gtm-teams-do-differently#^q7]]
-
-![[2025-11-30-lennys-what-the-best-gtm-teams-do-differently#^q8]]
-
 ## 出现在这些集
 
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把销售当产品做：用 AI 重构 GTM 团队的实战指南》]] — 作为主持
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] — 作为主持
 
 ## 关联实体
 
-[[Lenny]] · [[Vercel]] · [[Stripe]] · [[推向市场]] · [[智能体]] · [[GTM 工程师]] · [[SDR]] · [[细分]] · [[PLG]] · [[前置部署工程]]
+[[Lenny]] · [[Vercel]] · [[Stripe]] · [[Gong]] · [[OpenAI]] · [[go-to-market]] · [[智能体]] · [[GTM 工程师]] · [[市场细分]] · [[PLG]]

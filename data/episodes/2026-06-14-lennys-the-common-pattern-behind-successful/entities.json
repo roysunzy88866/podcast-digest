@@ -1,12 +1,12 @@
 {
   "episode_id": "2026-06-14-lennys-the-common-pattern-behind-successful",
-  "podcast": null,
-  "date": null,
+  "podcast": "Lenny's Podcast",
+  "date": "2026-06-14",
   "tags": [
     "产品方法论",
-    "AI 时代",
-    "消费者社交",
-    "初创公司战略",
+    "初创公司",
+    "AI 时代社交",
+    "消费者分发",
     "管理与育儿"
   ],
   "entities": [
@@ -93,7 +93,7 @@
       "name": "Zynga",
       "file": "Zynga",
       "primary": true,
-      "how_described": "本集将其作为主要案例进行讨论,它是 Mark Pincus 创立的公司,曾做出 FarmVille 等爆款。本集提到 Zynga 极度关注留存率(追踪 Day 365 retention),其产品管理引擎是 Proven, Better, New 框架。",
+      "how_described": "本集主要讨论的嘉宾创立的公司，被描述为创造过大量成功消费品（如《FarmVille》和《Words With Friends》），以高留存率和高命中率著称。",
       "source": "glm",
       "evidence": [
         {
@@ -324,292 +324,13 @@
       ]
     },
     {
-      "id": "workos",
-      "type": "company",
-      "role": "company",
-      "name": "WorkOS",
-      "file": "WorkOS",
-      "primary": false,
-      "how_described": "本集播客的赞助商,被描述为专门为 B2B SaaS 构建的现代化开发者平台,提供单点登录等功能,帮助初创公司快速具备企业就绪能力。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 65,
-          "t": [
-            380.7,
-            384.861
-          ],
-          "quote": "This episode is brought to you by our season's presenting sponsor WorkOS.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 67,
-          "t": [
-            393.304,
-            395.124
-          ],
-          "quote": "They are all powered by WorkOS.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 69,
-          "t": [
-            405.067,
-            412.109
-          ],
-          "quote": "WorkOS turns those deal blockers into drop-in APIs with a modern developer platform built specifically for B2B SaaS.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 70,
-          "t": [
-            412.629,
-            420.252
-          ],
-          "quote": "Literally every startup that I'm an investor in that starts to expand upmarket ends up working with WorkOS and that's because they are the best.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 71,
-          "t": [
-            420.632,
-            430.434
-          ],
-          "quote": "Whether you are a seed stage startup trying to land your first enterprise customer or a unicorn expanding globally, WorkOS is the fastest path to becoming enterprise ready and unblocking growth.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 73,
-          "t": [
-            433.635,
-            439.897
-          ],
-          "quote": "Visit workos.com to get started or just hit up their Slack where they have actual engineers waiting to answer your questions.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 74,
-          "t": [
-            440.297,
-            446.219
-          ],
-          "quote": "WorkOS allows you to build faster with delightful APIs, comprehensive docs, and a smooth developer experience.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 75,
-          "t": [
-            446.759,
-            450
-          ],
-          "quote": "Go to workos.com to make your app enterprise ready today.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "vanta",
-      "type": "company",
-      "role": "company",
-      "name": "Vanta",
-      "file": "Vanta",
-      "primary": false,
-      "how_described": "本集播客的赞助商,被描述为通过超过 35 个安全和隐私框架(如 SOC 2)帮助公司自动化合规和风险管理的平台。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 411,
-          "t": [
-            2848.66,
-            2852.761
-          ],
-          "quote": "I am so excited to tell you about this season's supporting sponsor Vanta.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 412,
-          "t": [
-            2853.101,
-            2862.644
-          ],
-          "quote": "Vanta helps over 15,000 companies like Cursor, Ramp, Duolingo, Snowflake, and Atlassian earn and prove trust with their customers.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 417,
-          "t": [
-            2889.872,
-            2899.275
-          ],
-          "quote": "Vanta automates compliance and risk management with over 35 security and privacy frameworks, including SOC 2, ISO 27001, and HIPAA.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 420,
-          "t": [
-            2907.457,
-            2909.938
-          ],
-          "quote": "Learn more at vanta.com/lenny.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 421,
-          "t": [
-            2910.338,
-            2913.779
-          ],
-          "quote": "And as a listener of this podcast, you get $1,000 off Vanta.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 422,
-          "t": [
-            2914.139,
-            2916.36
-          ],
-          "quote": "That's vanta.com/lenny.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "bolt-new",
-      "type": "company",
-      "role": "company",
-      "name": "Bolt.new",
-      "file": "Bolt.new",
-      "primary": false,
-      "how_described": "本集作为“成功的小起点”案例被提及,团队在濒临失败时,将此前死磕的 Web 虚拟机技术加入 AI 编程副驾驶中,从而做出了远超别人的产品。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 254,
-          "t": [
-            1745.661,
-            1749.49
-          ],
-          "quote": "I love the story of Bolt.new that really blew up last year.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "discord",
-      "type": "company",
-      "role": "company",
-      "name": "Discord",
-      "file": "Discord",
-      "primary": false,
-      "how_described": "本集提到其创始人意识到他们曾把最重要的产品决策外包给最没经验的人,因此决定转变为倒金字塔模式,由创始人亲自把控产品体验的首尾一公里。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 728,
-          "t": [
-            4817.244,
-            4824.726
-          ],
-          "quote": "And I had a great conversation with the founders of Discord, and they came to this conclusion too that they needed to actually be an inverted pyramid.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "craigslist",
-      "type": "company",
-      "role": "company",
-      "name": "Craigslist",
-      "file": "Craigslist",
-      "primary": false,
-      "how_described": "本集作为产品“Better(更好)”的极佳案例,创始人花了两年时间才给列表加上照片,这体现了尊重用户习惯、不随意挪动用户依赖信息的世界级产品素养。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 156,
-          "t": [
-            1071.43,
-            1082.655
-          ],
-          "quote": "But the best product makers, and I love referencing someone like Craig Newmark and Craigslist, who took two years to add photos to Craigslist listings.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 498,
-          "t": [
-            3333.852,
-            3345.338
-          ],
-          "quote": "Before that, we would go to Google for a lead or Craigslist and it was a lot of noise to signal and now we're like, \"Oh my God, I could get on Friendster and find a date and it's actually a good lead.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "openai",
-      "type": "company",
-      "role": "company",
-      "name": "OpenAI",
-      "file": "OpenAI",
-      "primary": true,
-      "how_described": "本集讨论了它作为大模型厂商的竞争格局,指出 OpenAI 等目前都在卷“编程”,但缺乏面向消费者的差异化,未来需要长出一套 AI 应用和智能体平台。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 26,
-          "t": [
-            110.013,
-            117.917
-          ],
-          "quote": "In a quote for the book, Sam Altman, the co-founder of OpenAI, said that, \"Today, the only bottleneck to building great products is knowing what to create.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 66,
-          "t": [
-            385.442,
-            392.884
-          ],
-          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 652,
-          "t": [
-            4323.2,
-            4340.767
-          ],
-          "quote": "And I think it's going to be in OpenAI's interest, Claude, Grok to see these apps, consumer facing agentic service apps happen and see them be successful with their LLM baked in.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 653,
-          "t": [
-            4340.927,
-            4348.75
-          ],
-          "quote": "And the more it's uniquely instantiated to OpenAI, the more it drives their consumer value proposition.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 661,
-          "t": [
-            4443.7,
-            4460.487
-          ],
-          "quote": "But if it was specifically baked into OpenAI or Claude and gave me a real clear reason that I'm getting value from my GPT beyond ...",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
       "id": "proven-better-new",
       "type": "concept",
       "role": "concept",
       "name": "Proven, Better, New",
       "file": "Proven, Better, New",
       "primary": true,
-      "how_described": "本集核心探讨的产品方法论框架:Proven 指合法且有品味地复制已被市场验证的东西;Better 指 10/10 用户都会叫好的微小改进;New 指大概率会失败但能吸引用户尝试的创新点。",
+      "how_described": "本集核心拆解的产品构建框架：Proven（合法复制已验证的最佳方案）、Better（让现有用户觉得“太棒了，我要换”）、New（吸引人尝试但极可能失败的全新卖点）。",
       "source": "glm",
       "evidence": [
         {
@@ -732,88 +453,13 @@
       ]
     },
     {
-      "id": "agent",
-      "type": "concept",
-      "role": "concept",
-      "name": "智能体 (agent)",
-      "file": "智能体",
-      "primary": true,
-      "how_described": "本集指出未来需要面向消费者的智能体平台,并构想了一种“智能体旅行代理”(agentic travel agent),可随时处理行程和改签;还设想了智能体作为社交中间人,基于双方偏好协调社交活动。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 627,
-          "t": [
-            4123.611,
-            4137.774
-          ],
-          "quote": "I love the idea of the agent being in the middle on brokering our social relationships and getting back to that lead gen, dating, jobs, general listings.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 628,
-          "t": [
-            4138.334,
-            4168.38
-          ],
-          "quote": "But I love the idea that the agent has our context and knows my context and your context and we have this membrane, I call it the social membrane, this intelligent membrane of trust and it gets smarter and smarter at knowing when to change dynamically change that trust or change that attention level that it's going to take from us like a great chief of staff and it could share less information with both of us than it knows.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 633,
-          "t": [
-            4191.23,
-            4203.575
-          ],
-          "quote": "There's some really interesting spaces that the AI and the agent can broker between us in ways that start to give us both productivity.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 654,
-          "t": [
-            4348.97,
-            4359.694
-          ],
-          "quote": "One example that is my number one is my Easter egg on this is I think there should be an agentic travel agent.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 655,
-          "t": [
-            4360.095,
-            4373.98
-          ],
-          "quote": "So a perfect example to me of a place where I think there is latent demand and the only reason we don't have it is because it doesn't make economic sense to offer it to us because we won't pay enough for it is a travel agent.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 656,
-          "t": [
-            4374.74,
-            4405.035
-          ],
-          "quote": "I believe if I offered you a free 24/7 travel agent that was always there for you, knows your travel context, knows you, and will actually not just book travel, but I think the most valuable part is when you're in the middle of a travel, a trip, be ready to rebook your flight and be on top of your travel logistics as they're happening and often failing.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 660,
-          "t": [
-            4435.395,
-            4442.76
-          ],
-          "quote": "But if someone built the best travel agent today, maybe we'd find out about it, but it's a tough road.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
       "id": "retention",
       "type": "concept",
       "role": "concept",
       "name": "留存率 (retention)",
       "file": "留存率",
       "primary": true,
-      "how_described": "本集将其视为衡量公司价值的最核心指标,强调基于病毒式传播的公司是“正在下沉的快艇”,而 Zynga 成功是因为关注留存率,甚至是世界上唯一追踪 Day 365 retention(第365天留存率)的消费者公司。",
+      "how_described": "本集被反复强调为消费品成功的关键指标，嘉宾认为最有价值的公司都拥有最高的第365天留存率（Day 365 retention），以此取代短期的病毒式传播。",
       "source": "glm",
       "evidence": [
         {
@@ -900,13 +546,175 @@
       ]
     },
     {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集将其视为未来服务与社交的核心：既可以是24小时待命的旅行代理，也可以作为信任的“社交膜”，在孤独的 AI 时代重新连接人与人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 627,
+          "t": [
+            4123.611,
+            4137.774
+          ],
+          "quote": "I love the idea of the agent being in the middle on brokering our social relationships and getting back to that lead gen, dating, jobs, general listings.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 628,
+          "t": [
+            4138.334,
+            4168.38
+          ],
+          "quote": "But I love the idea that the agent has our context and knows my context and your context and we have this membrane, I call it the social membrane, this intelligent membrane of trust and it gets smarter and smarter at knowing when to change dynamically change that trust or change that attention level that it's going to take from us like a great chief of staff and it could share less information with both of us than it knows.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 633,
+          "t": [
+            4191.23,
+            4203.575
+          ],
+          "quote": "There's some really interesting spaces that the AI and the agent can broker between us in ways that start to give us both productivity.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 654,
+          "t": [
+            4348.97,
+            4359.694
+          ],
+          "quote": "One example that is my number one is my Easter egg on this is I think there should be an agentic travel agent.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 655,
+          "t": [
+            4360.095,
+            4373.98
+          ],
+          "quote": "So a perfect example to me of a place where I think there is latent demand and the only reason we don't have it is because it doesn't make economic sense to offer it to us because we won't pay enough for it is a travel agent.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 656,
+          "t": [
+            4374.74,
+            4405.035
+          ],
+          "quote": "I believe if I offered you a free 24/7 travel agent that was always there for you, knows your travel context, knows you, and will actually not just book travel, but I think the most valuable part is when you're in the middle of a travel, a trip, be ready to rebook your flight and be on top of your travel logistics as they're happening and often failing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 660,
+          "t": [
+            4435.395,
+            4442.76
+          ],
+          "quote": "But if someone built the best travel agent today, maybe we'd find out about it, but it's a tough road.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "ai-chat",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 聊天 (AI chat)",
+      "file": "AI 聊天",
+      "primary": true,
+      "how_described": "本集指出目前的 AI 聊天（如 GPT 或 Claude）虽然是通往新技术的重要入口，但还没有成为一个真正的平台，导致应用分发极为困难。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 580,
+          "t": [
+            3745.19,
+            3755.076
+          ],
+          "quote": "We have a new kind of portal to that in GPT or whatever chat we use, AI chat, but it's not in my mind a platform.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 662,
+          "t": [
+            4460.527,
+            4474.133
+          ],
+          "quote": "There's a lot of generic value I get through AI chat today that I'm having more and more trouble differentiating and it's just I don't even know anymore if I'm asking a question to Claude or to GPT.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "product-market-fit",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品市场契合度 (product market fit)",
+      "file": "产品市场契合度",
+      "primary": true,
+      "how_described": "本集认为，想要找到它，创始人必须放下自尊和过度的雄心，从一个“小得让人尴尬”的切入点开始起步和试错。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 221,
+          "t": [
+            1456.762,
+            1492.757
+          ],
+          "quote": "And I would say there's so many paradoxes in this and one that I've had to learn over and over again is if we're too ambitious at the outset and too ambitious and visionary about the product we want to build, then we will probably miss product market fit because we won't start at a small enough, humble enough place because it might ... Usually the starting point for these products is embarrassingly small.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1514.784,
+            1542.811
+          ],
+          "quote": "And the irony for me is I've found that my career has gone in these waves and maybe some of your other founders have had this experience too, that I've started in a very humble place of, \"I just want to get to anything, any product market fit\", had bigger success than I imagined I would have in my first two companies, Freeloader and Support.com.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1674.393,
+            1684.155
+          ],
+          "quote": "It's too easy to raise money and recruit teams against a big vision before we've gotten to product market fit, but the world doesn't care about your resume.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1951.931,
+            1968.834
+          ],
+          "quote": "Even if we could get funding, even if it has some traction, we have a north star that we are not going to stop until we find product market fit against our north star and this isn't it and it's going to take courage on our part.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 560,
+          "t": [
+            3641.011,
+            3653.698
+          ],
+          "quote": "I got so into wanting to prove I could build this experience that I was building this game engine, web browser-based game engine and I was not getting a product market fit.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
       "id": "micromanagement",
       "type": "concept",
       "role": "concept",
       "name": "微管理 (micromanagement)",
       "file": "微管理",
       "primary": true,
-      "how_described": "本集极力推崇的理念,认为创始人或最好的产品 CEO 必须贴近底层细节。原话指出:「微观管理是美好的,你应该尽可能久地微观管理」。",
+      "how_described": "本集反直觉地提出“微观管理是美好的”，主张创始人应贴近底层（close to the metal），尽可能久地亲自抓像素级的产品细节，而不是把时间浪费在见投资人上。",
       "source": "glm",
       "evidence": [
         {
@@ -921,95 +729,71 @@
       ]
     },
     {
-      "id": "distribution",
+      "id": "virtual-machine",
       "type": "concept",
       "role": "concept",
-      "name": "分发 (distribution)",
-      "file": "分发",
-      "primary": true,
-      "how_described": "本集指出在 AI 时代,构建产品变得容易,使得分发成为了初创公司最大的挑战。分发不能是事后补充,而必须深度融入产品战略并从一开始就得到验证。",
+      "name": "虚拟机 (virtual machine)",
+      "file": "虚拟机",
+      "primary": false,
+      "how_described": "本集在讨论 Bolt.new 爆火案例时提到，创始人将他们之前在 Web 端做的虚拟机加到了 AI 编程副驾中，从而做出了比其他人都好的产品。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 567,
+          "seg": 261,
           "t": [
-            3690.967,
-            3694.512
+            1769.367,
+            1790.656
           ],
-          "quote": "But I want to touch on distribution just as we're on this thread.",
-          "speaker": "SPEAKER_1"
-        },
+          "quote": "And then they had this realization one day of, \"Wait a second, if we take these web stacks, this virtual machine that we've been making work on the web, but we actually add that to an AI coding copilot, we now have something that's better than what anybody else has.\"",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "metaverse",
+      "type": "concept",
+      "role": "concept",
+      "name": "元宇宙 (metaverse)",
+      "file": "元宇宙",
+      "primary": false,
+      "how_described": "本集提到嘉宾将其定义为“模糊虚拟与现实的界限”，并提到他四次终止了自己耗资数千万美元的元宇宙项目 do.Earth。",
+      "source": "glm",
+      "evidence": [
         {
-          "seg": 569,
+          "seg": 551,
           "t": [
-            3700.761,
-            3702.903
+            3598.104,
+            3601.827
           ],
-          "quote": "One of the biggest challenges becomes distribution.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 575,
-          "t": [
-            3720.783,
-            3726
-          ],
-          "quote": "Let's start with talking about consumer distribution, which I understand better.",
+          "quote": "I've been building my version of the metaverse for 20 years.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 610,
+          "seg": 553,
           "t": [
-            3917.793,
-            3919.073
+            3604.689,
+            3607.591
           ],
-          "quote": "And you asked about distribution.",
+          "quote": "I call the metaverse that I want life at the speed of play.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 611,
+          "seg": 555,
           "t": [
-            3920.354,
-            3931.68
+            3611.293,
+            3618.478
           ],
-          "quote": "Distribution is just so crucial and core to any consumer, any business idea, but any consumer idea, and it can't be an afterthought.",
+          "quote": "And by the way, I define the metaverse and I give Reid Hoffman credit for this definition as blurring the lines between the virtual and the reel.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 613,
+          "seg": 557,
           "t": [
-            3935.362,
-            3945.088
+            3621.54,
+            3623.521
           ],
-          "quote": "Distribution has to be part of your product and part of baked into the strategy deeply and proven from the beginning.",
+          "quote": "So we're getting more and more metaverse in.",
           "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 617,
-          "t": [
-            3976.185,
-            3980.367
-          ],
-          "quote": "And once there is distribution, there'll be a flood of competition.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 618,
-          "t": [
-            3981.247,
-            3987.79
-          ],
-          "quote": "But when distribution is this broken, it is even more core to your product and your strategy.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 643,
-          "t": [
-            4242.723,
-            4251.518
-          ],
-          "quote": "Just to close the loop on the distribution part, what I'm hearing is we might be on the verge of a new distribution platform, a way to get out and for people to discover you.",
-          "speaker": "SPEAKER_1"
         }
       ]
     },
@@ -1019,8 +803,8 @@
       "role": "concept",
       "name": "批判性思维 (critical thinking)",
       "file": "批判性思维",
-      "primary": true,
-      "how_described": "本集探讨 AI 时代育儿的核心,认为学校仍在灌输知识的流水线教育已经过时,父母最该在乎的是培养孩子的批判性思维,教他们理解他人观点背后的议程和逻辑,而不是仅仅知道答案。",
+      "primary": false,
+      "how_described": "本集在育儿话题中被提及，嘉宾认为在 AI 时代，流水线式的知识教育已经结束，比逼孩子考大学更重要的是教给他们批判性思维。",
       "source": "glm",
       "evidence": [
         {

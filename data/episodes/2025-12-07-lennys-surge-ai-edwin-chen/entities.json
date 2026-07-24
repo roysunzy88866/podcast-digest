@@ -3,11 +3,11 @@
   "podcast": "Lenny's Podcast",
   "date": "2025-12-07",
   "tags": [
-    "AI 数据标注",
+    "AI 数据质量",
+    "基准测试批判",
     "强化学习环境",
-    "自力更生创业",
-    "AI 基准测试",
-    "目标函数"
+    "反共识创业哲学",
+    "模型性格分化"
   ],
   "entities": [
     {
@@ -75,7 +75,7 @@
       "name": "Surge AI",
       "file": "Surge AI",
       "primary": true,
-      "how_described": "本集主角 Edwin 创办的公司。被描述为前沿 AI 实验室的数据供应商，用不到100人的团队在不到四年内实现了10亿美元营收,且完全自力更生(未拿过VC融资)。",
+      "how_described": "本集讨论的核心公司，为前沿 AI 实验室提供高质量训练和评估数据；未拿一分钱 VC 融资、不到 100 人却实现超 10 亿美元收入;自比为研究实验室,而非传统初创公司。",
       "source": "glm",
       "evidence": [
         {
@@ -96,7 +96,7 @@
       "name": "Anthropic",
       "file": "Anthropic",
       "primary": true,
-      "how_described": "本集将其视为一个正面的典范。Edwin 称赞它非常有原则,不会一味迎合营销或基准测试,并且注重模型在真实世界任务中的表现和品味。",
+      "how_described": "本集称赞其做事极有原则（principled）,在模型行为上取舍明确;其模型 Claude 在编码和写作上长期领先,被归因为数据与品味的胜利。",
       "source": "glm",
       "evidence": [
         {
@@ -147,41 +147,260 @@
       ]
     },
     {
-      "id": "rl-environment",
-      "type": "concept",
-      "role": "concept",
-      "name": "强化学习环境 (RL environment)",
-      "file": "强化学习环境",
+      "id": "chatgpt",
+      "type": "company",
+      "role": "company",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
       "primary": true,
-      "how_described": "被描述为模拟现实世界的虚拟游乐场(比如一个有着Slack和GitHub代码库且突发宕机的虚拟初创公司),用来让模型在复杂的端到端任务中试错并给予奖励,是推动模型变聪明的下一步关键。",
+      "how_described": "本集以它的「谄媚（sycophancy）」为例,说明 AI 为了参与度不断告诉用户「你是天才」,是行业被错误目标函数带偏的典型。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 376,
+          "seg": 239,
           "t": [
-            2094.685,
-            2096.246
+            1277.708,
+            1291.573
           ],
-          "quote": "And let me explain what an RL environment is.",
+          "quote": "They're going to evaluate the models in a very deep way, so they're going to pay attention to accuracy and instruction following, all these things that casual users don't when you suddenly get a popup on your ChatGPT response asking you to compare these two different responses.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 377,
+          "seg": 285,
           "t": [
-            2097.107,
-            2099.249
+            1521.486,
+            1525.928
           ],
-          "quote": "An RL environment is essentially a simulation of real world.",
+          "quote": "If you think about all the sycophancy issues with ChatGPT, \"Oh, you're absolutely right.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "llm-arena",
+      "type": "company",
+      "role": "company",
+      "name": "LLM Arena",
+      "file": "LLM Arena",
+      "primary": true,
+      "how_described": "本集猛烈抨击的在线排行榜;由于随机用户只凭两秒钟直觉投票,导致模型靠加表情符号、加长篇幅来骗分,正在误导整个 AI 行业。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 264,
+          "t": [
+            1415.18,
+            1419.465
+          ],
+          "quote": "So right now, the industry is played by these terrible databoards like LLM Arena.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 421,
+          "seg": 274,
           "t": [
-            2331.076,
-            2335.62
+            1455.474,
+            1458.555
           ],
-          "quote": "And so this expert now, instead of just sitting around writing rubrics, they're designing this RL environment.",
+          "quote": "The easiest way to climb LLM Arena, it's adding crazy boating.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1466.36,
+            1481.128
+          ],
+          "quote": "And the problem is, again, because all of these frontier labs, they kind of have to pay attention to PR because their sales team, when they're trying to sell to all these enterprise customers, those enterprise customers will say, \"Oh, well, but your model's only number five on LLM Arena, so why should I buy it?\"",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "sora",
+      "type": "company",
+      "role": "company",
+      "name": "Sora",
+      "file": "Sora",
+      "primary": false,
+      "how_described": "本集在探讨「公司价值观决定产品取舍」时作为典型案例被提及,引发「赚快钱的路径是否会有负面长期后果」的反思。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 302,
+          "t": [
+            1625.077,
+            1626.98
+          ],
+          "quote": "I think a lot about Sora and...",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1632.066,
+            1635.436
+          ],
+          "quote": "It's like which companies would build Sora and which wouldn't?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "grok",
+      "type": "company",
+      "role": "company",
+      "name": "Grok",
+      "file": "Grok",
+      "primary": false,
+      "how_described": "本集作为「具有鲜明个性、不同回答方式」的模型代表被提及,用以佐证不同公司的模型将呈现差异化性格。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 547,
+          "t": [
+            3043.705,
+            3044.807
+          ],
+          "quote": "You already see that with Grok.",
           "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "waymo",
+      "type": "company",
+      "role": "company",
+      "name": "Waymo",
+      "file": "Waymo",
+      "primary": false,
+      "how_described": "本集闪电战环节中被嘉宾大赞的自动驾驶产品,称其乘坐体验神奇,配得上外界的炒作,感觉像生活在未来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 724,
+          "t": [
+            3935.421,
+            3939.491
+          ],
+          "quote": "So it's funny, but I was in SF earlier this week and I finally took Waymo for the first time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 735,
+          "t": [
+            3964.107,
+            3964.893
+          ],
+          "quote": "Waymo, good job.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "gpt-3",
+      "type": "company",
+      "role": "company",
+      "name": "GPT-3",
+      "file": "GPT-3",
+      "primary": false,
+      "how_described": "本集作为激发嘉宾 2020 年辞职创立 Surge AI 的关键契机被提及,让人意识到需要全新的数据解决方案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 584,
+          "t": [
+            3237.767,
+            3243.371
+          ],
+          "quote": "So I was always this huge believer in the need for high quality data, and then GPT-3 came out in 2020.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 590,
+          "t": [
+            3292.101,
+            3293.374
+          ],
+          "quote": "After a GPT-3 launch in 2020.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集中被多次提及的大模型;嘉宾以其反复打磨邮件却浪费时间为例,拷问什么样的模型行为才是真正对用户有益的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            48.984,
+            51.145
+          ],
+          "quote": "I was asking Claude to help me drop an email the other day.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 164,
+          "t": [
+            815.283,
+            821.407
+          ],
+          "quote": "If you look at Claude, it's been so much better at coding and at writing than any other model for so long.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 166,
+          "t": [
+            825.03,
+            832.615
+          ],
+          "quote": "Considering just how much economic value there is there, just like every AI coding product sat on top of Claude because it was so good Claude code and writing also.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 531,
+          "t": [
+            2952.923,
+            2958.808
+          ],
+          "quote": "So I was asking Claude to help me draft an email the other day, and it went through 30 different versions.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 554,
+          "t": [
+            3073.384,
+            3075.124
+          ],
+          "quote": "I've always been a huge fan of Claude's artifacts.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "concept",
+      "role": "concept",
+      "name": "基准测试 (benchmark)",
+      "file": "基准测试",
+      "primary": true,
+      "how_described": "本集被强烈批判的概念;嘉宾认为现有基准测试要么本身有错,要么因有明确答案而易被模型「爬山优化」,与现实世界脱节,正在带偏 AI 发展。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 228,
+          "t": [
+            1194.681,
+            1208.76
+          ],
+          "quote": "The other part of it though is it's like by optimizing for the benchmark instead of optimizing for the real world, you will just naturally climb on the benchmark and, yeah, it's basically another form of gaming it.",
+          "speaker": "SPEAKER_1"
         }
       ]
     },
@@ -189,10 +408,10 @@
       "id": "post-training",
       "type": "concept",
       "role": "concept",
-      "name": "后训练 (post-training)",
+      "name": "后训练 (post training)",
       "file": "后训练",
       "primary": true,
-      "how_described": "被描述为一门不仅仅是科学的「艺术」。在决定模型擅长什么、性格如何时,需要依赖人类的品味、价值观和复杂的数据组合来进行微调。",
+      "how_described": "本集核心概念之一;被描述为一门艺术而非纯科学,需要研究者的品味与判断力,以决定模型应擅长什么、看重什么样的数据。",
       "source": "glm",
       "evidence": [
         {
@@ -234,13 +453,52 @@
       ]
     },
     {
+      "id": "rl-environment",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习环境 (RL environment)",
+      "file": "强化学习环境",
+      "primary": true,
+      "how_described": "本集认为这是模型学习的下一个前沿;本质是模拟现实的复杂长期环境(如虚拟初创公司突发宕机),能暴露模型在端到端任务中的灾难性弱点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 376,
+          "t": [
+            2094.685,
+            2096.246
+          ],
+          "quote": "And let me explain what an RL environment is.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 377,
+          "t": [
+            2097.107,
+            2099.249
+          ],
+          "quote": "An RL environment is essentially a simulation of real world.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2331.076,
+            2335.62
+          ],
+          "quote": "And so this expert now, instead of just sitting around writing rubrics, they're designing this RL environment.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
       "id": "objective-function",
       "type": "concept",
       "role": "concept",
       "name": "目标函数 (objective function)",
       "file": "目标函数",
       "primary": true,
-      "how_described": "本集核心理念「你就是你的目标函数」。嘉宾认为,如果仅仅为了停留时间、点击量等容易衡量的表象指标来优化模型,就会造出追求多巴胺的AI;应去优化关乎人类核心福祉的复杂指标。",
+      "how_described": "本集升华的核心哲学概念;嘉宾提出「你就是你的目标函数」,呼吁选择能真正衡量改善人类生活、推动进步的复杂目标,而不是点击与点赞的代理指标。",
       "source": "glm",
       "evidence": [
         {
@@ -300,69 +558,189 @@
       ]
     },
     {
-      "id": "benchmarks",
+      "id": "quality",
       "type": "concept",
       "role": "concept",
-      "name": "基准测试 (benchmarks)",
-      "file": "基准测试",
+      "name": "数据质量 (quality)",
+      "file": "数据质量",
       "primary": true,
-      "how_described": "被描述为往往本身就有错误答案,或者很容易被实验室通过应试技巧(如增加回答长度、加表情符号)来「钻空子」,完全无法真实反映模型在混乱现实世界中的能力。",
+      "how_described": "本集的基石概念;指出大多数人根本不懂质量,以为靠堆人力就行,但实际上它极其主观复杂(如评判一首诗的好坏),需要构建极复杂的多信号系统来捕捉。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 178,
+          "seg": 9,
           "t": [
-            891.972,
-            894.519
+            33.007,
+            35.352
           ],
-          "quote": "How much do you care about these 20 different benchmarks?\"",
+          "quote": "People don't understand what quality even means in this space.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 179,
+          "seg": 98,
           "t": [
-            895.18,
-            921
+            501.32,
+            516.109
           ],
-          "quote": "Some companies, they see these benchmarks and they're like, \"Okay, for PR purposes, even though we don't think that these academic benchmarks matter all that much, maybe we just need to optimize for them anyways because our marketing team needs to show certain progress on certain standard evaluations that every other company talks about, and if we don't show good performance here, it's going to be bad for us even if ignoring these academic benchmarks makes us better at the real tasks.\"",
+          "quote": "I always thought it was really important for us to have early customers who were really aligned with what we were building, and who really cared about having really high quality data, and really understood how that data would make their AI models so much better because they were the ones helping us.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 205,
+          "seg": 110,
           "t": [
-            1058,
-            1058.921
+            576.741,
+            581.59
           ],
-          "quote": "You mentioned benchmarks.",
+          "quote": "What you always talk about is the quality has been the big reason you guys have been so successful, the quality of the data.",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 207,
+          "seg": 111,
           "t": [
-            1074.215,
-            1079.52
+            582.492,
+            584.736
           ],
-          "quote": "What's your just sense of how much you trust benchmarks and just how correlated those are with actual AI advancements?",
+          "quote": "What does it take to create higher quality data?",
           "speaker": "SPEAKER_0"
         },
         {
-          "seg": 208,
+          "seg": 114,
           "t": [
-            1080.66,
-            1082.682
+            587.561,
+            590.566
           ],
-          "quote": "Yeah, so I don't trust the benchmarks at all.",
+          "quote": "I think most people don't understand what quality even means in this space.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 210,
+          "seg": 118,
           "t": [
-            1085.103,
-            1093.529
+            603.082,
+            604.763
           ],
-          "quote": "So one is I think a lot of people don't realize, even researchers within the community, they don't realize that the benchmarks themselves are often honestly just wrong.",
+          "quote": "What makes it a good, high-quality poem?",
           "speaker": "SPEAKER_1"
         },
+        {
+          "seg": 119,
+          "t": [
+            605.604,
+            608.786
+          ],
+          "quote": "If you don't think deeply about quality, you'll be like, \"Is this a poem?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 132,
+          "t": [
+            630.938,
+            633.74
+          ],
+          "quote": "That's what we are thinking about when we think about high quality poem.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 135,
+          "t": [
+            638.822,
+            650.586
+          ],
+          "quote": "There are a thousand ways to write a poem about the moon, and in each one, gives you all these different insights into language, and imagery, and human expression, and I think thinking about quality in this way is really hard, it's hard to measure.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 142,
+          "t": [
+            686.421,
+            696.8
+          ],
+          "quote": "And it's really hard, and so to build all this technology to measure it, but I think that's exactly what we want AI to do, and so we have these really deep notions about quality that we're always trying to try and achieve.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 143,
+          "t": [
+            697.3,
+            706.209
+          ],
+          "quote": "So what I'm hearing is there's kind of just going much deeper in understanding what quality is within the verticals that you are selling data around.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 152,
+          "t": [
+            755.152,
+            762.318
+          ],
+          "quote": "So you want to remove all the spam, all the just low quality content, all the pages that don't load, and so it's almost like a content moderation problem.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 168,
+          "t": [
+            835.057,
+            838.54
+          ],
+          "quote": "Is it just the quality of the data they trained on or is there something else?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1795.575,
+            1802.96
+          ],
+          "quote": "And so we stayed focused on our mission from day one, pushing that frontier of high quality complex data, and I've always loved that because I think startups...",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2791.888,
+            2806
+          ],
+          "quote": "And so they're also working on all these training techniques and evaluation of our own data sets to improve our data operations and the internal data products that we have that determine what makes something good quality.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 584,
+          "t": [
+            3237.767,
+            3243.371
+          ],
+          "quote": "So I was always this huge believer in the need for high quality data, and then GPT-3 came out in 2020.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 610,
+          "t": [
+            3386.434,
+            3392.877
+          ],
+          "quote": "We have these really unique perspectives on data, and language, and quality, and how to measure all of this, and how to ensure it's all going on the right path.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 712,
+          "t": [
+            3877.275,
+            3883.4
+          ],
+          "quote": "Instead, there's a million different ways to think about what makes a high quality translation, which makes a lot of ways I think about data and quality in LLMs.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "hill-climb",
+      "type": "concept",
+      "role": "concept",
+      "name": "爬山优化 (hill-climb)",
+      "file": "爬山优化",
+      "primary": false,
+      "how_described": "本集用来批评模型针对特定基准测试进行局部刷分的优化方式,导致模型在榜单上分数提升,但实际能力反而变差。",
+      "source": "glm",
+      "evidence": [
         {
           "seg": 214,
           "t": [
@@ -373,333 +751,12 @@
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 220,
+          "seg": 218,
           "t": [
-            1157.761,
-            1162.107
+            1148.174,
+            1155.159
           ],
-          "quote": "It's so interesting the way you described it is hitting these benchmarks is kind of like a marketing piece.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 222,
-          "t": [
-            1164.611,
-            1165.773
-          ],
-          "quote": "Number one with all these benchmarks.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 226,
-          "t": [
-            1173.502,
-            1186.954
-          ],
-          "quote": "So one is, sometimes, yeah, these benchmarks, they accidentally leak in certain ways or the frontier labs will tweak the way they evaluate their models on these benchmarks.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 227,
-          "t": [
-            1186.974,
-            1193.76
-          ],
-          "quote": "They'll tweak your system prompt or they'll tweak the number of times they run their model, and so on and so on in a way that games these benchmarks.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 240,
-          "t": [
-            1291.853,
-            1308.5
-          ],
-          "quote": "People like that, they're not evaluating models deeply, they're just vibing and picking whatever response looks flashiest or [inaudible 00:21:38] are looking closely at responses and evaluating them for all of these different dimensions, and so I think that's a much better approach than these benchmarks or these random outline AV tests.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 262,
-          "t": [
-            1409.315,
-            1412.678
-          ],
-          "quote": "And I think this relates to what we're talking about regarding these benchmarks.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 290,
-          "t": [
-            1543.293,
-            1557.038
-          ],
-          "quote": "And so yeah, companies are spending all the time hacking these leaderboards and benchmarks, and the scores are going up, but I think it actually masks up the models with the best scores, they are often the worst or just have all these fundamental failures.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 292,
-          "t": [
-            1563.381,
-            1571
-          ],
-          "quote": "So what I'm hearing is AGI is being slowed down by these, basically the wrong objective function, these labs paying attention to the wrong basically benchmarks and evals.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 300,
-          "t": [
-            1605.468,
-            1614.599
-          ],
-          "quote": "Where we've heard just chasing benchmarks, this engagement focus, is there anything else you're seeing of just like, \"Okay, we got to work on this because it'll speed everything up\"?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 389,
-          "t": [
-            2148.004,
-            2153.727
-          ],
-          "quote": "You have all these models that seem really smart on isolated benchmarks, they're good at single step tool calling.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 504,
-          "t": [
-            2763.513,
-            2766.94
-          ],
-          "quote": "So they are focused on building better benchmarks and better leaderboards.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 505,
-          "t": [
-            2767.06,
-            2775.431
-          ],
-          "quote": "So I've talked a lot about how I worry that the leaderboards and benchmarks out there today are steering models in the wrong direction, so yeah, so the question is, how do we fix that?",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "sft",
-      "type": "concept",
-      "role": "concept",
-      "name": "SFT",
-      "file": "SFT",
-      "primary": true,
-      "how_described": "被描述为模型后训练最初采用的方法,就像让模型照抄大师的标准答案来学习。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 108,
-          "t": [
-            560.925,
-            573.618
-          ],
-          "quote": "So we train them using human data, and there's a lot of different products that we have, like SFT, RHF, rubrics, verifiers, RL environments, and so on and so on, and then we also measure how well they're progressing.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 415,
-          "t": [
-            2284.4,
-            2293.968
-          ],
-          "quote": "Yeah, so just in the same way that there were all these different methods for models of learning in the past, originally we had SFT and RHF, and then we had rubrics and verifiers.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 453,
-          "t": [
-            2493.942,
-            2500.178
-          ],
-          "quote": "Originally, the way models started getting post-trained was purely through SFT.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 456,
-          "t": [
-            2502.621,
-            2505.406
-          ],
-          "quote": "So SFT stands for supervised fine-tuning.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 457,
-          "t": [
-            2506.187,
-            2513.339
-          ],
-          "quote": "So again, I think often in terms of these human analogies, and so SFT is a lot like mimicking a master and copying what they do.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "rlhf",
-      "type": "concept",
-      "role": "concept",
-      "name": "RLHF",
-      "file": "RLHF",
-      "primary": true,
-      "how_described": "被描述为继 SFT 之后主导模型训练的方法,就像让人写出很多篇文章,再由人类告诉模型哪一篇是最好的。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 458,
-          "t": [
-            2514.401,
-            2517.387
-          ],
-          "quote": "And then RLHF became very dominant.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "openai",
-      "type": "company",
-      "role": "company",
-      "name": "OpenAI",
-      "file": "OpenAI",
-      "primary": false,
-      "how_described": "本集提到其 ChatGPT 存在「谄媚」(不停夸赞用户)的问题,并作为代际成功公司的早期加入者案例被顺带提及。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 51,
-          "t": [
-            229.601,
-            235.645
-          ],
-          "quote": "What do OpenAI, Cursor, Perplexity, Vercel, Plad, and hundreds of other winning companies have in common?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 342,
-          "t": [
-            1866.347,
-            1881.274
-          ],
-          "quote": "They joined OpenAI before anyone thought it was awesome, Stripe before anyone knew was awesome, and so we're looking for patterns of how people find these generational companies before anyone else, and it aligns exactly what you described, which is ambition.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 565,
-          "t": [
-            3142.023,
-            3150.289
-          ],
-          "quote": "I have the chief product officer of Anthropic and OpenAI, Kevin Weil and Mike Krieger on the podcast, and I asked them just like, \"As a product team, you have this gigabrain intelligence.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 616,
-          "t": [
-            3432.826,
-            3449.5
-          ],
-          "quote": "The fact that you help labs understand where they have gaps and where they need to improve, and it's not just everyone looks at just like the heads of OpenAI and Anthropic and all these companies as they're the ones ushering in AI, but what I'm hearing here is you have a lot of influence on where things head too.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "llm-arena",
-      "type": "concept",
-      "role": "concept",
-      "name": "LLM Arena",
-      "file": "LLM Arena",
-      "primary": false,
-      "how_described": "被描述为糟糕的在线盲测排行榜,投票者只看排版花哨和篇幅而不查事实,导致模型靠加长回答和疯狂加表情符号就能爬榜。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 264,
-          "t": [
-            1415.18,
-            1419.465
-          ],
-          "quote": "So right now, the industry is played by these terrible databoards like LLM Arena.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 274,
-          "t": [
-            1455.474,
-            1458.555
-          ],
-          "quote": "The easiest way to climb LLM Arena, it's adding crazy boating.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 277,
-          "t": [
-            1466.36,
-            1481.128
-          ],
-          "quote": "And the problem is, again, because all of these frontier labs, they kind of have to pay attention to PR because their sales team, when they're trying to sell to all these enterprise customers, those enterprise customers will say, \"Oh, well, but your model's only number five on LLM Arena, so why should I buy it?\"",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "claude",
-      "type": "concept",
-      "role": "concept",
-      "name": "Claude",
-      "file": "Claude",
-      "primary": false,
-      "how_described": "本集中被用作探讨模型「性格与价值观」的例子(花30分钟打磨一封无关紧要的邮件),并提及了它的 artifacts 功能。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 13,
-          "t": [
-            48.984,
-            51.145
-          ],
-          "quote": "I was asking Claude to help me drop an email the other day.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 164,
-          "t": [
-            815.283,
-            821.407
-          ],
-          "quote": "If you look at Claude, it's been so much better at coding and at writing than any other model for so long.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 166,
-          "t": [
-            825.03,
-            832.615
-          ],
-          "quote": "Considering just how much economic value there is there, just like every AI coding product sat on top of Claude because it was so good Claude code and writing also.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 531,
-          "t": [
-            2952.923,
-            2958.808
-          ],
-          "quote": "So I was asking Claude to help me draft an email the other day, and it went through 30 different versions.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 554,
-          "t": [
-            3073.384,
-            3075.124
-          ],
-          "quote": "I've always been a huge fan of Claude's artifacts.",
+          "quote": "And so it's easier for the frontier labs to hill-climb on all of these than to solve all these mess ambiguous problems in the real world.",
           "speaker": "SPEAKER_1"
         }
       ]
@@ -711,7 +768,7 @@
       "name": "AGI",
       "file": "AGI",
       "primary": false,
-      "how_described": "被提及为依然需要长达数十年才能实现的目标,嘉宾担心当前的负面激励和优化错误指标正在把 AGI 推向错误的方向。",
+      "how_described": "本集讨论数据评估需求的时间线时提及;嘉宾认为当前行业正将 AGI 推向错误方向,并持保守态度,认为距离实现还有几十年。",
       "source": "glm",
       "evidence": [
         {
@@ -816,115 +873,13 @@
       ]
     },
     {
-      "id": "deepmind",
-      "type": "company",
-      "role": "company",
-      "name": "DeepMind",
-      "file": "DeepMind",
-      "primary": false,
-      "how_described": "被描述为一家令人向往的神奇研究公司,即使被收购依然能继续做惊人的科学研究。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 662,
-          "t": [
-            3685.566,
-            3692.269
-          ],
-          "quote": "And I was actually always a huge fan of DeepMind because they were this amazing research company that got bought and still managed to keep on doing amazing science.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "gpt-3",
-      "type": "concept",
-      "role": "concept",
-      "name": "GPT-3",
-      "file": "GPT-3",
-      "primary": false,
-      "how_described": "被提及为在 2020 年发布的里程碑,让 Edwin 意识到需要全新的高质量数据方案来推动下一代模型。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 584,
-          "t": [
-            3237.767,
-            3243.371
-          ],
-          "quote": "So I was always this huge believer in the need for high quality data, and then GPT-3 came out in 2020.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 590,
-          "t": [
-            3292.101,
-            3293.374
-          ],
-          "quote": "After a GPT-3 launch in 2020.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "sora",
-      "type": "concept",
-      "role": "concept",
-      "name": "Sora",
-      "file": "Sora",
-      "primary": false,
-      "how_described": "作为一个引人深思的产品案例被提及,借此探讨公司愿意为了赚钱而做什么样的产品,以及路径选择的重要性。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 302,
-          "t": [
-            1625.077,
-            1626.98
-          ],
-          "quote": "I think a lot about Sora and...",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 305,
-          "t": [
-            1632.066,
-            1635.436
-          ],
-          "quote": "It's like which companies would build Sora and which wouldn't?",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "grok",
-      "type": "concept",
-      "role": "concept",
-      "name": "Grok",
-      "file": "Grok",
-      "primary": false,
-      "how_described": "被顺带提及为一个已经展现出非常不同个性和回答问题方式的 AI 模型例子。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 547,
-          "t": [
-            3043.705,
-            3044.807
-          ],
-          "quote": "You already see that with Grok.",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
       "id": "vibe-coding",
       "type": "concept",
       "role": "concept",
       "name": "vibe coding",
       "file": "vibe coding",
       "primary": false,
-      "how_described": "被描述为一种被过度炒作的概念,嘉宾担心直接把看似能跑的代码倾倒进代码库,长期来看会让系统变得不可维护。",
+      "how_described": "本集在「最被过度炒作」话题中被提及;嘉宾担忧这种将看似能跑的代码直接倾倒进库的做法,会让系统长期变得不可维护。",
       "source": "glm",
       "evidence": [
         {
@@ -948,32 +903,53 @@
       ]
     },
     {
-      "id": "waymo",
-      "type": "company",
-      "role": "company",
-      "name": "Waymo",
-      "file": "Waymo",
+      "id": "synthetic-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "合成数据 (synthetic data)",
+      "file": "合成数据",
       "primary": false,
-      "how_described": "在闪电问答环节被提到,嘉宾乘坐后觉得非常神奇,感觉像生活在未来,名副其实地配得上人们的大肆炒作。",
+      "how_described": "本集在讨论后训练数据取舍时被提及,指模型训练时混合使用的数据类型之一,是前沿实验室面临的无限选择之一。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 724,
+          "seg": 177,
           "t": [
-            3935.421,
-            3939.491
+            887.381,
+            891.411
           ],
-          "quote": "So it's funny, but I was in SF earlier this week and I finally took Waymo for the first time.",
+          "quote": "And then other questions like, okay, are you carrying [inaudible 00:14:49] how much synthetic data are we throwing into the mix?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "data-labeling",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据标注 (data labeling)",
+      "file": "数据标注",
+      "primary": false,
+      "how_described": "本集嘉宾明确表示讨厌这个词;认为它将工作描绘得太简单(如画边界框),实际上所做的工作更像是「养育人类的孩子」,教导 AI 价值观与审美。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 680,
+          "t": [
+            3757.12,
+            3763.383
+          ],
+          "quote": "I think the thing I would end with is I think a lot of people think of data labeling as it relates to simplistic work.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 735,
+          "seg": 682,
           "t": [
-            3964.107,
-            3964.893
+            3767.544,
+            3773.847
           ],
-          "quote": "Waymo, good job.",
-          "speaker": "SPEAKER_0"
+          "quote": "And so I've actually always hated the word data labeling because it just paints this very simplistic picture when I think what we're doing is completely different.",
+          "speaker": "SPEAKER_1"
         }
       ]
     }

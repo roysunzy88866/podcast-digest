@@ -3,11 +3,11 @@
   "podcast": "Lenny's Podcast",
   "date": "2025-11-30",
   "tags": [
-    "推向市场 (GTM)",
-    "AI 智能体",
-    "销售流程",
-    "自建 AI 与采购",
-    "企业市场"
+    "Go-to-Market",
+    "智能体自动化",
+    "市场细分",
+    "SaaS商业策略",
+    "销售组织变革"
   ],
   "entities": [
     {
@@ -92,7 +92,7 @@
       "name": "Vercel",
       "file": "Vercel",
       "primary": true,
-      "how_described": "本集嘉宾 Jeanne DeWitt Grosser 现任首席运营官 (COO) 的公司，她在此统管所有接触客户的职能，并用自家的 AI 云成功跑通了由 GTM 工程师编写、成本极低的线索处理智能体。",
+      "how_described": "本集嘉宾 Jean 担任 COO 的公司，其平台被用于通过 workflow SDK 和 AI 网关构建内部销售智能体（Vercel 用 Vercel 构建 Vercel），并提供前端云、AI 云及基于消费的定价模式。",
       "source": "glm",
       "evidence": [
         {
@@ -347,7 +347,7 @@
       "name": "Stripe",
       "file": "Stripe",
       "primary": true,
-      "how_described": "本集提到嘉宾曾从零搭建其早期销售团队的公司，在此实践了将销售流程产品化（如白板会议），并曾尝试用数据科学硬算（Project Rosalind）来跑通自动拓客但受限于当时技术。",
+      "how_described": "本集嘉宾曾担任首席商务官的公司。节目中大量引用了她在此公司从零搭建销售团队、实行按消费计费、运用市场细分及建立白板会议购买体验的经验。",
       "source": "glm",
       "evidence": [
         {
@@ -686,13 +686,118 @@
       ]
     },
     {
+      "id": "gong",
+      "type": "company",
+      "role": "company",
+      "name": "Gong",
+      "file": "Gong",
+      "primary": true,
+      "how_described": "一个销售工具平台，嘉宾团队提取其所有通话记录，将数据喂给自研的 Deal Bot（交易机器人）以复盘流失原因，并实时提供销售流程的改进建议。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 759,
+          "t": [
+            2087.613,
+            2093.577
+          ],
+          "quote": "But I think Gong has gotten just meaningfully more interesting in the last year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 764,
+          "t": [
+            2101.463,
+            2102.744
+          ],
+          "quote": " So, all right, Gong.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 765,
+          "t": [
+            2103.944,
+            2107.827
+          ],
+          "quote": "Gong is incredible because you can run agents against it now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 766,
+          "t": [
+            2109.307,
+            2117.792
+          ],
+          "quote": "So we take all of our Gong transcripts and we dump them into an agent called the deal bot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 776,
+          "t": [
+            2150.843,
+            2151.824
+          ],
+          "quote": "every gong call,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "作为 Vercel 客户的典型案例被提及，因其虽然员工人数处于中端市场，但网站流量极高（互联网前25），故被 Vercel 划分为需要深度服务的企业级市场。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 329,
+          "t": [
+            916.799,
+            918.64
+          ],
+          "quote": "Some of the folks doing that now work at OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 746,
+          "t": [
+            2053.794,
+            2054.334
+          ],
+          "quote": "OpenAI,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1389,
+          "t": [
+            3842.38,
+            3845.282
+          ],
+          "quote": "So a great example of this would be OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1390,
+          "t": [
+            3846.063,
+            3849.345
+          ],
+          "quote": "OpenAI, I forget these days how many employees it has.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
       "id": "go-to-market",
       "type": "concept",
       "role": "concept",
-      "name": "推向市场 (go-to-market)",
-      "file": "推向市场",
+      "name": "go-to-market",
+      "file": "go-to-market",
       "primary": true,
-      "how_described": "本集将其重新定义为任何接触客户或赚取收入的职能总和（不仅是市场与销售），并指出当产品只在边际上有差异时，GTM 本身就成了核心竞争力，需像产品体验一样编排客户全生命周期。",
+      "how_described": "本集的核心概念，指产品推向市场的全过程。被描述为涵盖任何接触客户或产生收入的职能，并强调应当像打磨产品一样去打磨被推销的体验。",
       "source": "glm",
       "evidence": [
         {
@@ -1181,7 +1286,7 @@
       "name": "智能体 (agent)",
       "file": "智能体",
       "primary": true,
-      "how_described": "本集将其说成可以替代团队中机械劳动的自动化工具：GTM 工程师将相对确定、可复制的销售流程写成 AI 代码，既可用来做入站线索甄别，也能用于拉取数据复盘丢单原因。",
+      "how_described": "被描述为重构销售工作流的利器，用来自动化线索调研、入站邮件撰写和交易洞察分析，并且必须保留人在回路（点击发送），其算力成本极低且大幅提升响应速度。",
       "source": "glm",
       "evidence": [
         {
@@ -1472,7 +1577,7 @@
       "name": "GTM 工程师 (go-to-market engineer)",
       "file": "GTM 工程师",
       "primary": true,
-      "how_described": "本集将其描述为一个正在崛起的新角色：任务是把销售团队里可复制的流程拆解成代码写成智能体，通常由懂销售最佳实践的技术型销售（如前端工程师）转型而来。",
+      "how_described": "一种新兴的技术销售角色，负责将顶尖销售的工作流转化为智能体。本集中提到 Vercel 最初的 GTM 工程师由懂技术的销售工程师转岗而来，用 25-30% 的时间在六周内搭建出入站线索智能体。",
       "source": "glm",
       "evidence": [
         {
@@ -1550,160 +1655,13 @@
       ]
     },
     {
-      "id": "sdr",
-      "type": "concept",
-      "role": "concept",
-      "name": "SDR",
-      "file": "SDR",
-      "primary": true,
-      "how_described": "本集将其说成专门负责寻找潜在线索并做初步筛选以生成管道的销售角色；过去 10 名 SDR 做的入站甄别工作，现在 1 个人负责质量把关即可。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 255,
-          "t": [
-            702.236,
-            707.419
-          ],
-          "quote": " We went to launch an outbound SDR function, so outbound prospecting.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 413,
-          "t": [
-            1148.655,
-            1153.898
-          ],
-          "quote": " And so you can go and you shadow an SDR and you can see, oh, wow, they've got seven tabs open.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 461,
-          "t": [
-            1274.026,
-            1279.248
-          ],
-          "quote": "we also tracked all of the KPIs that you typically would hold an SDR accountable",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 477,
-          "t": [
-            1319.828,
-            1322.593
-          ],
-          "quote": "What I love about this is this SDR that is now doing this is,",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 488,
-          "t": [
-            1341.668,
-            1345.271
-          ],
-          "quote": "What I'm hearing here is it gives one SDR a lot more leverage and obviously still",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 494,
-          "t": [
-            1355.08,
-            1363.106
-          ],
-          "quote": "it can replace a fair amount because the average SDR wasn't doing overly",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 508,
-          "t": [
-            1398.272,
-            1401.033
-          ],
-          "quote": "I just went to college for four years to become an SDR.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 510,
-          "t": [
-            1406.277,
-            1411.701
-          ],
-          "quote": "But I think the average SDR could have gone straight into outbound or straight into",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 519,
-          "t": [
-            1433.098,
-            1434.599
-          ],
-          "quote": "we've used this term SDR.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 521,
-          "t": [
-            1436.42,
-            1438.622
-          ],
-          "quote": "Can you just help people understand what is an SDR?",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 525,
-          "t": [
-            1441.863,
-            1447.029
-          ],
-          "quote": " Sure, so SDR is typically in charge of generating pipeline.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 528,
-          "t": [
-            1459.665,
-            1462.409
-          ],
-          "quote": " So you typically have two types of an SDR.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 566,
-          "t": [
-            1566.565,
-            1569.628
-          ],
-          "quote": "So SDR pipeline generation AEE closer.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 913,
-          "t": [
-            2508.596,
-            2512.921
-          ],
-          "quote": " So if you remember, I told you we had 10 people in the SDR function.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 975,
-          "t": [
-            2684.778,
-            2685.878
-          ],
-          "quote": "like are these SDR,",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
       "id": "segmentation",
       "type": "concept",
       "role": "concept",
-      "name": "细分 (segmentation)",
-      "file": "细分",
+      "name": "市场细分 (segmentation)",
+      "file": "市场细分",
       "primary": true,
-      "how_described": "本集将其说成如何划分潜在客户群体（如 XY 轴：规模大小 × 增长潜力）以便采取不同的销售策略；这是整个公司的事，产品经理在写第一行代码前就要想清楚目标。",
+      "how_described": "将现有的公司世界进行划分以针对不同购买行为的策略。节目指出它不仅限于大中小规模，还应叠加流量和商业模式等关键维度，且是全公司（不仅是销售）都需对齐的框架。",
       "source": "glm",
       "evidence": [
         {
@@ -1814,7 +1772,7 @@
       "name": "PLG",
       "file": "PLG",
       "primary": true,
-      "how_described": "本集将其说成很多公司起步的有效方式，但指出纯靠它通常有天花板，想维持增长率必须不断加大交易规模，若没有及时引入销售组织就会碰壁。",
+      "how_described": "被描述为 SaaS 公司起盘的重要引擎，但具有天花板（极少有人通过纯自助购买上百万美元订单）。建议企业不要在 PLG 上等待太久，应及时叠加可复制的销售流程。",
       "source": "glm",
       "evidence": [
         {
@@ -1964,13 +1922,43 @@
       ]
     },
     {
+      "id": "customer-buying-journey",
+      "type": "concept",
+      "role": "concept",
+      "name": "购买体验 (customer buying journey)",
+      "file": "购买体验",
+      "primary": true,
+      "how_described": "把获客到留存的整个生命周期视为打造产品的过程。例如 Stripe 用第一通电话邀请客户画出支付架构的白板会议，以及在沟通中通过专业数据洞察建立信任。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            69.45,
+            75.034
+          ],
+          "quote": "And so then you really want to create a customer buying journey that feels like",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1050,
+          "t": [
+            2909.825,
+            2915.588
+          ],
+          "quote": "then you really want to create a customer buying journey that feels like very",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
       "id": "forward-deployed-engineering",
       "type": "concept",
       "role": "concept",
       "name": "前置部署工程 (forward deployed engineering)",
       "file": "前置部署工程",
-      "primary": true,
-      "how_described": "本集说它是专业服务的改头换面：工程师深入客户环境，不仅帮客户把技术落地，还顺带把可复用的经验抽离出来带回给产品团队。",
+      "primary": false,
+      "how_described": "一种深入客户环境、提供贴身技术服务的模式，嘉宾称其为专业服务（professional services）的某种重塑，旨在更好地了解客户并把技术落地。",
       "source": "glm",
       "evidence": [
         {
@@ -1983,307 +1971,7 @@
           "speaker": "SPEAKER_01"
         }
       ]
-    },
-    {
-      "id": "gong",
-      "type": "company",
-      "role": "company",
-      "name": "Gong",
-      "file": "Gong",
-      "primary": false,
-      "how_described": "本集顺带提到的一款销售工具：因其转写稿可被用来跑交易复盘智能体而变得更有意思。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 759,
-          "t": [
-            2087.613,
-            2093.577
-          ],
-          "quote": "But I think Gong has gotten just meaningfully more interesting in the last year.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 764,
-          "t": [
-            2101.463,
-            2102.744
-          ],
-          "quote": " So, all right, Gong.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 765,
-          "t": [
-            2103.944,
-            2107.827
-          ],
-          "quote": "Gong is incredible because you can run agents against it now.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 766,
-          "t": [
-            2109.307,
-            2117.792
-          ],
-          "quote": "So we take all of our Gong transcripts and we dump them into an agent called the deal bot.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 776,
-          "t": [
-            2150.843,
-            2151.824
-          ],
-          "quote": "every gong call,",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "consumption-based",
-      "type": "concept",
-      "role": "concept",
-      "name": "基于消费量计费 (consumption-based)",
-      "file": "基于消费量计费",
-      "primary": false,
-      "how_described": "本集提到当这种计费模式兴起时，初次签约只是旅程的开始，促使销售必须从一锤子买卖转向深度顾问型去理解客户要达成什么。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 210,
-          "t": [
-            536.479,
-            540.081
-          ],
-          "quote": "So when consumption-based business models started,",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 1349,
-          "t": [
-            3727.286,
-            3730.448
-          ],
-          "quote": "And that was important for Stripe because it was a consumption-based business.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 1378,
-          "t": [
-            3803.083,
-            3804.084
-          ],
-          "quote": "consumption-based business.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 1686,
-          "t": [
-            4690.023,
-            4693.146
-          ],
-          "quote": " You know, we're a consumption based business model ultimately.",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "mcp-servers",
-      "type": "concept",
-      "role": "concept",
-      "name": "MCP 服务器 (MCP servers)",
-      "file": "MCP 服务器",
-      "primary": false,
-      "how_described": "本集提到 Vercel 会帮客户理解 MCP 服务器以及什么时候在产品中使用一个是有意义的，因为大家虽然觉得很流行但往往不知道如何上手。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 1238,
-          "t": [
-            3404.671,
-            3409.934
-          ],
-          "quote": " Customers understand MCP servers and when it would make sense to use one.",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "aeo",
-      "type": "concept",
-      "role": "concept",
-      "name": "AEO",
-      "file": "AEO",
-      "primary": false,
-      "how_described": "本集将其说成让你的内容更容易被 AI 搜索引擎抓取和总结；受 SEO 影响，而 SEO 又受网站速度影响，所以现在所有人都在思考 AEO。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 1121,
-          "t": [
-            3092.643,
-            3100.593
-          ],
-          "quote": " And how fast your website is actually impacts SEO and SEO impacts AEO.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 1122,
-          "t": [
-            3101.053,
-            3102.935
-          ],
-          "quote": "And everybody's thinking about AEO right now.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 1244,
-          "t": [
-            3421.301,
-            3424.283
-          ],
-          "quote": "And then related to the first one is AEO,",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 1252,
-          "t": [
-            3432.548,
-            3434.089
-          ],
-          "quote": "SEO is an input into AEO.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 1253,
-          "t": [
-            3435.049,
-            3441.393
-          ],
-          "quote": "But we have spent a ton of time sharing insights on AEO because we ourselves focus",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 1282,
-          "t": [
-            3496.788,
-            3500.691
-          ],
-          "quote": "So here's like you're missing out on speed and you're going to get screwed in AEO",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
-      "id": "aws",
-      "type": "company",
-      "role": "company",
-      "name": "AWS",
-      "file": "AWS",
-      "primary": false,
-      "how_described": "本集打比方时提到 AWS 称之为 well-architected guides 或 blueprints，指出大客户真的很想知道结合自身环境实施产品的最佳实践。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 1167,
-          "t": [
-            3218.172,
-            3224.957
-          ],
-          "quote": " doing things like, you know, AWS calls it well-architected guides or blueprints.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 1408,
-          "t": [
-            3893.091,
-            3896.115
-          ],
-          "quote": "you might be running soup to nuts on AWS.",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "openai",
-      "type": "company",
-      "role": "company",
-      "name": "OpenAI",
-      "file": "OpenAI",
-      "primary": false,
-      "how_described": "本集举例时提到，OpenAI 虽然员工数顶多是中端市场，但由于它是互联网上前 25 的流量网站，因此在 Vercel 的细分里被推向了企业级销售。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 329,
-          "t": [
-            916.799,
-            918.64
-          ],
-          "quote": "Some of the folks doing that now work at OpenAI.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 746,
-          "t": [
-            2053.794,
-            2054.334
-          ],
-          "quote": "OpenAI,",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 1389,
-          "t": [
-            3842.38,
-            3845.282
-          ],
-          "quote": "So a great example of this would be OpenAI.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 1390,
-          "t": [
-            3846.063,
-            3849.345
-          ],
-          "quote": "OpenAI, I forget these days how many employees it has.",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "sierra",
-      "type": "company",
-      "role": "company",
-      "name": "Sierra",
-      "file": "Sierra",
-      "primary": false,
-      "how_described": "本集举例时提到的一家公司，它们非常明确地争取全球 2000 强企业，所以产品驱动增长（PLG）对它们来说用处不大。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 1618,
-          "t": [
-            4478.337,
-            4479.498
-          ],
-          "quote": "So Sierra,",
-          "speaker": "SPEAKER_01"
-        }
-      ]
     }
   ],
-  "rejected": [
-    {
-      "name": "experience of being sold to",
-      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
-    },
-    {
-      "name": "GitHub",
-      "reason": "专名「GitHub」未在真相源出现,且不在别名表(疑编造)"
-    }
-  ]
+  "rejected": []
 }

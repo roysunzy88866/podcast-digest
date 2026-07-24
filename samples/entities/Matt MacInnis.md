@@ -6,7 +6,7 @@ entity_type: 人物
 # Matt MacInnis
 
 > [!info] 人物
-> 出现在 1 集 · 金句 20 条 · 关联 10 个
+> 出现在 1 集 · 金句 14 条 · 关联 10 个
 
 ## 金句
 
@@ -28,8 +28,6 @@ entity_type: 人物
 
 ![[2025-12-28-lennys-10-contrarian-leadership-truths#^q9]]
 
-![[2025-12-28-lennys-10-contrarian-leadership-truths#^q10]]
-
 ![[2025-12-28-lennys-10-contrarian-leadership-truths#^q11]]
 
 ![[2025-12-28-lennys-10-contrarian-leadership-truths#^q12]]
@@ -40,20 +38,10 @@ entity_type: 人物
 
 ![[2025-12-28-lennys-10-contrarian-leadership-truths#^q15]]
 
-![[2025-12-28-lennys-10-contrarian-leadership-truths#^q16]]
-
-![[2025-12-28-lennys-10-contrarian-leadership-truths#^q17]]
-
-![[2025-12-28-lennys-10-contrarian-leadership-truths#^q18]]
-
-![[2025-12-28-lennys-10-contrarian-leadership-truths#^q19]]
-
-![[2025-12-28-lennys-10-contrarian-leadership-truths#^q20]]
-
 ## 出现在这些集
 
-- [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling 高管的反共识管理课：故意人手不足、果断放弃、复利对抗熵增》]] — 作为主持
+- [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷》]] — 作为主持
 
 ## 关联实体
 
-[[Lenny]] · [[Amar]] · [[Rippling]] · [[Apple]] · [[Notion]] · [[ChatGPT]] · [[alpha]] · [[beta]] · [[幂律]] · [[熵]]
+[[Lenny]] · [[Amar]] · [[Rippling]] · [[Notion]] · [[Apple]] · [[刻意人手不足]] · [[Alpha 与 Beta]] · [[产品市场契合度]] · [[熵]] · [[幂律分布]]

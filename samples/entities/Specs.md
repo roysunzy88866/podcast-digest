@@ -10,7 +10,7 @@ entity_type: 概念
 
 ## 集里怎么说它
 
-- **[[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel》]]**(12:55起):Snap 即将发布的 AR 眼镜，本集说它能将数字内容直接锚定在真实的物理空间中，让人腾出双手在现实里互动，以取代低头看手机的孤立感
+- **[[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel:在AI时代,做最会创新的公司》]]**(12:55起):最新一代的 Spectacles 眼镜，将在今年正式发布。嘉宾称它为继 iPhone 之后等了 20 年终于该来的新计算形态，能把内容直接放在视野中而不需要低头看小屏幕。
 
 ## 金句
 
@@ -18,8 +18,8 @@ entity_type: 概念
 
 ## 出现在这些集
 
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snapchat CEO: Why distribution has become the most important moat | Evan Spiegel》]] — 作为概念
+- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel:在AI时代,做最会创新的公司》]] — 作为概念
 
 ## 关联实体
 
-[[Lenny]] · [[Evan Spiegel]] · [[Snap]] · [[Snapchat]] · [[TikTok]] · [[分发]] · [[护城河]] · [[增强现实]] · [[设计团队]] · [[智能体]]
+[[Lenny]] · [[Evan Spiegel]] · [[Snap]] · [[Snapchat]] · [[TikTok]] · [[Threads]] · [[Meta]] · [[Apple]] · [[Anthropic]] · [[Figma]]

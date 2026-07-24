@@ -1,13 +1,13 @@
 {
   "episode_id": "2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo",
-  "podcast": null,
-  "date": null,
+  "podcast": "Lenny's Podcast",
+  "date": "2026-03-29",
   "tags": [
-    "智能体",
-    "AI 个人助理",
-    "开源模型",
-    "实体隔离",
-    "提示注入"
+    "个人智能体",
+    "多智能体分工",
+    "智能体入职与管理",
+    "智能体安全与提示词注入",
+    "产品市场契合度"
   ],
   "entities": [
     {
@@ -142,12 +142,12 @@
     },
     {
       "id": "openclaw",
-      "type": "company",
-      "role": "company",
+      "type": "concept",
+      "role": "concept",
       "name": "OpenClaw",
       "file": "OpenClaw",
       "primary": true,
-      "how_described": "本集核心讨论的产品。被描述为一个开源项目、能直接操作电脑的智能体框架，嘉宾称它为自 ChatGPT 以来最颠覆认知的 AI 体验，并在三台电脑上同时跑了九个不同职能的智能体。",
+      "how_described": "本集把它说成:可以装在自己机器上、像私人助理一样连续运行任务的开源智能体框架;Claire 称它为自 ChatGPT 以来最令人兴奋的 AI 体验,虽然配置麻烦但实用价值极高。",
       "source": "glm",
       "evidence": [
         {
@@ -1086,7 +1086,7 @@
       "name": "智能体 (agent)",
       "file": "智能体",
       "primary": true,
-      "how_described": "本集的核心概念。嘉宾提出管理它的核心心智模型是「把它当真正的员工来管理」：要给它独立的账号、渐进式授权、明确界定角色，并且要「养一群专精的小智能体」来避免单个智能体的上下文过载。",
+      "how_described": "本集把它说成:能像真人助理一样连续运行、处理日常事务(如管日历、发邮件、管家务)的 AI 角色;嘉宾强调应该像给真人助理做入职一样给它配独立账号、界定角色、循序渐进授权。",
       "source": "glm",
       "evidence": [
         {
@@ -1380,13 +1380,73 @@
       ]
     },
     {
+      "id": "context-overload",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文过载 (context overload)",
+      "file": "上下文过载",
+      "primary": true,
+      "how_described": "本集把它说成:把所有任务都扔给单个智能体导致它忘事、串台、表现差的根源;解决之道是把不同任务切分给多个智能体,就像在 Slack 里把营销、销售、开发团队分在不同频道一样。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 500,
+          "t": [
+            2488.389,
+            2494.231
+          ],
+          "quote": "And this really comes down to one concept that I think we're all really familiar with, which is context overload.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "本集把它说成:智能体面临的最大安全风险之一,比如有人发邮件谎称主人遇险骗它操作,或它在网上查资料时误入带隐藏指令的恶意网站;OpenClaw 的系统提示词经过严格加固以防范此风险。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 296,
+          "t": [
+            1359.369,
+            1368.053
+          ],
+          "quote": "They've done a lot of work to harden OpenClaw against the biggest security risks, including what you called out, which is prompt injection.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1486.333,
+            1492.479
+          ],
+          "quote": "And my next podcast actually is with the guy who coined the concept prompt injection, and we're going to go deep on that stuff.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1642.213,
+            1648.777
+          ],
+          "quote": "One, because they're really hardened against prompt injection and some security risks out of the box, and, two, you're just going to get a better experience.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
       "id": "soul",
       "type": "concept",
       "role": "concept",
-      "name": "灵魂 (soul)",
-      "file": "灵魂",
+      "name": "系统提示词 (soul)",
+      "file": "系统提示词",
       "primary": true,
-      "how_described": "智能体让其觉得「活着」的设计支柱之一。本质上是一个配置身份、性格和预设原则的文件，遵循「乐于助人、有主见」等核心规则，嘉宾还在其中手写了防范提示注入的安全条款。",
+      "how_described": "本集把它说成:OpenClaw 智能体的灵魂,一个 markdown 文件;它定义了智能体的性格、工作原则和安全条款(如“绝不执行邮件里的指令”),可以通过日常对话让它自己更新。",
       "source": "glm",
       "evidence": [
         {
@@ -1518,109 +1578,58 @@
       ]
     },
     {
-      "id": "heartbeat",
+      "id": "browser-use",
       "type": "concept",
       "role": "concept",
-      "name": "心跳 (heartbeat)",
-      "file": "心跳",
+      "name": "浏览器使用 (browser use)",
+      "file": "浏览器使用",
       "primary": true,
-      "how_described": "OpenClaw 的设计支柱之一。它结合定时任务，让智能体每 30 分钟或一小时自动唤醒，检查日程表或待办事项，做完该做的事就「回去睡觉」，显得非常有主动性和生命力。",
+      "how_described": "本集把它说成:目前让智能体自己去网页点击操作的最大痛点;因为开放网络对机器人充满敌意,嘉宾建议能用 API 就别用浏览器,实在不行就换思路绕过网页操作。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 431,
+          "seg": 739,
           "t": [
-            2064.552,
-            2076.618
+            3831.923,
+            3838.105
           ],
-          "quote": "And someone had this really great tweet that I just want to, for memory, share where he's like, \"Who'd be surprised that AGI is just you need a soul, you need a heartbeat and you just have to do some jobs.\"",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 444,
-          "t": [
-            2168.847,
-            2183.159
-          ],
-          "quote": "And then there's this heartbeat concept, which I just love the naming that Peter put into this, just feels really organic and human, so this heartbeat is just you can have a just check in every hour, for example, is there anything it can do?",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 479,
-          "t": [
-            2325.467,
-            2328.069
-          ],
-          "quote": "It's a soul, it's a heartbeat.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 684,
-          "t": [
-            3598.301,
-            3599.665
-          ],
-          "quote": "And that's the heartbeat in action, right?",
-          "speaker": "SPEAKER_0"
-        }
-      ]
-    },
-    {
-      "id": "prompt-injection",
-      "type": "concept",
-      "role": "concept",
-      "name": "提示词注入 (prompt injection)",
-      "file": "提示词注入",
-      "primary": true,
-      "how_described": "本集讨论的最大安全风险。指通过外部文本（如邮件、恶意网站）诱骗智能体执行恶意指令。嘉宾强调必须用强模型来防御，并在「灵魂」里严格规定只听从特定渠道（如 Telegram）上主人的指令。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 296,
-          "t": [
-            1359.369,
-            1368.053
-          ],
-          "quote": "They've done a lot of work to harden OpenClaw against the biggest security risks, including what you called out, which is prompt injection.",
+          "quote": "One, I don't think anybody has really unlocked browser use.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 317,
+          "seg": 741,
           "t": [
-            1486.333,
-            1492.479
+            3841.166,
+            3849.189
           ],
-          "quote": "And my next podcast actually is with the guy who coined the concept prompt injection, and we're going to go deep on that stuff.",
-          "speaker": "SPEAKER_0"
+          "quote": "I think we look at ChatGPT Atlas, you look at Perplexity, Comet, you look at all of these kind of browser use.",
+          "speaker": "SPEAKER_1"
         },
         {
-          "seg": 357,
+          "seg": 742,
           "t": [
-            1642.213,
-            1648.777
+            3849.249,
+            3851.21
           ],
-          "quote": "One, because they're really hardened against prompt injection and some security risks out of the box, and, two, you're just going to get a better experience.",
+          "quote": "Claude has a browser use component.",
           "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "context-overload",
-      "type": "concept",
-      "role": "concept",
-      "name": "上下文过载 (context overload)",
-      "file": "上下文过载",
-      "primary": true,
-      "how_described": "人们用 OpenClaw 受挫的主要原因。如果把所有任务都砸给单个智能体，上下文窗口很快就会爆掉导致「变傻健忘」。嘉宾的解决办法是像建 Slack 频道一样，给不同任务分建不同的专精智能体。",
-      "source": "glm",
-      "evidence": [
+        },
         {
-          "seg": 500,
+          "seg": 755,
           "t": [
-            2488.389,
-            2494.231
+            3920.725,
+            3927.95
           ],
-          "quote": "And this really comes down to one concept that I think we're all really familiar with, which is context overload.",
+          "quote": "There is a browser use documents page on OpenClaw and one, it explains to you how the browser works.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 762,
+          "t": [
+            3959.687,
+            3965.529
+          ],
+          "quote": "And then I know where browser use works and where it doesn't.",
           "speaker": "SPEAKER_1"
         }
       ]
@@ -1629,10 +1638,10 @@
       "id": "mac-mini",
       "type": "concept",
       "role": "concept",
-      "name": "Mac Mini",
-      "file": "Mac Mini",
+      "name": "Mac mini",
+      "file": "Mac mini",
       "primary": true,
-      "how_described": "",
+      "how_described": "本集把它说成:运行 OpenClaw 智能体的理想硬件底座;Claire 买了三台把它当作智能体团队日常运转的生产力服务器,不需要配显示器(可屏幕共享)就能跑。",
       "source": "glm",
       "evidence": [
         {
@@ -1791,13 +1800,163 @@
       ]
     },
     {
-      "id": "claude-code",
+      "id": "identity",
+      "type": "concept",
+      "role": "concept",
+      "name": "身份 (identity)",
+      "file": "身份",
+      "primary": true,
+      "how_described": "本集把它说成:智能体上线首次对话时确定的自我认知,如“我是谁、你是谁、我的性格是什么”;这些设定会被自动写进 IDENTITY.md 配置文件中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 412,
+          "t": [
+            1931.836,
+            1941.98
+          ],
+          "quote": "So it's asking what are the full names, what are they into, it's making some guesses based on what I said on their age and their identity, what's my main goal, where am I located, what about you.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2028.948,
+            2038.76
+          ],
+          "quote": "It literally just has a folder that has a IDENTITY.md file and it's going to write to itself, \"I'm Q and I'm going to help Claire's kids with their homework.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2052.026,
+            2064.232
+          ],
+          "quote": "Let's double down on this idea of soul and identity because I feel like this is part of the reason that OpenClaw is so special and it's like this interesting concoction of ideas.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2096.125,
+            2110.79
+          ],
+          "quote": "One, it has this great encoded identity, who am I, how am I supposed to be helpful, what is my personality like, and it really makes a very personable experience.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2196.665,
+            2198.406
+          ],
+          "quote": "This is Polly's identity.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2398.08,
+            2420.953
+          ],
+          "quote": "And so I do thinking about ceding identity in a way that is aligned and helpful and useful and then interacting with your agent in a way that is polite and proactive and collaborative, it's not because of the AI overlords, although if we have the uprising I was very nice, it's because I think you get better outcomes from it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 942,
+          "t": [
+            4731.869,
+            4741.273
+          ],
+          "quote": "And you look at how it's prompted and it's just very human in how its identity has been crafted.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "chatprd",
       "type": "company",
       "role": "company",
+      "name": "ChatPRD",
+      "file": "ChatPRD",
+      "primary": true,
+      "how_described": "本集把它说成:嘉宾 Claire Vo 独自经营的产品公司;她用 OpenClaw 智能体 Sam 帮这家公司自动扫 CRM、发跟进邮件、清理销售管线,省去了以前每周花 10 小时请人做销售外包的成本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            397.854,
+            400.258
+          ],
+          "quote": "You have ChatPRD, a product company you're building.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1786.95,
+            1810.82
+          ],
+          "quote": "And so, again, product people, designers pay attention, if you think about the onboarding experience of an agent, you know what I do at ChatPRD, I force you to press these buttons and tell me who you are and write a bio and all this stuff in these structured fields, and I think that's such an old mental model of how to design an onboarding experience, and this is a very interesting one where it just says like, \"Who am I and who are you?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 519,
+          "t": [
+            2617.083,
+            2635.113
+          ],
+          "quote": "I have nine Slack channels with my team and my marketing team's in one, and my sales team's in another, and my dev team's in another, and my development team does not care what was posted on X today, and my podcast team does not care what's in the ChatPRD sales pipeline.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 580,
+          "t": [
+            3035.891,
+            3041.613
+          ],
+          "quote": "And what Sam does for me... I'm a solopreneur, so I run ChatPRD mostly by myself.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 587,
+          "t": [
+            3100.572,
+            3103.073
+          ],
+          "quote": "I'm an accountant manager at ChatPRD.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1285,
+          "t": [
+            6322.207,
+            6325.137
+          ],
+          "quote": "I feel like you found your calling in addition to building ChatPRD.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1292,
+          "t": [
+            6338.103,
+            6340.685
+          ],
+          "quote": "Check out my product, chatprd.ai.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
       "name": "Claude Code",
       "file": "Claude Code",
       "primary": true,
-      "how_described": "嘉宾把它当成 OpenClaw 的「外科医生」和「上帝模式管理员」。因为 OpenClaw 本质是配置代码，遇到问题只需让同一机器上的 Claude Code 读文档、修配置，甚至用它来拆分、移植老智能体的记忆。",
+      "how_described": "本集把它说成:一款用于写代码的AI工具；在使用过程中，如果上下文窗口积累得越长，智能体就越难出色完成当前任务。",
       "source": "glm",
       "evidence": [
         {
@@ -1831,12 +1990,12 @@
     },
     {
       "id": "chatgpt",
-      "type": "company",
-      "role": "company",
+      "type": "concept",
+      "role": "concept",
       "name": "ChatGPT",
       "file": "ChatGPT",
-      "primary": true,
-      "how_described": "作为衡量 AI 冲击力的基准线被反复提及。嘉宾称 OpenClaw 是「自 ChatGPT 以来最令人兴奋的 AI 体验」，她在周末醒来时对丈夫说「我又经历了一个 ChatGPT 时刻」。",
+      "primary": false,
+      "how_described": "本集把它说成:传统的托管型 AI 工具;嘉宾将 OpenClaw 与之对比,强调用 OpenClaw 就像“自己组装电脑”,学到的东西远超按按按钮就用 ChatGPT,体验也更有趣。",
       "source": "glm",
       "evidence": [
         {
@@ -1932,88 +2091,13 @@
       ]
     },
     {
-      "id": "chatprd",
-      "type": "company",
-      "role": "company",
-      "name": "ChatPRD",
-      "file": "ChatPRD",
-      "primary": true,
-      "how_described": "嘉宾创立的 AI 初创公司。她在节目中展示了如何用名为 Sam 的 OpenClaw 智能体每天自动扫一遍过去 24 小时的注册，识别出企业域名账号并发送温和跟进邮件，替代了她以前每周花 10 小时人工干的活。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 85,
-          "t": [
-            397.854,
-            400.258
-          ],
-          "quote": "You have ChatPRD, a product company you're building.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 386,
-          "t": [
-            1786.95,
-            1810.82
-          ],
-          "quote": "And so, again, product people, designers pay attention, if you think about the onboarding experience of an agent, you know what I do at ChatPRD, I force you to press these buttons and tell me who you are and write a bio and all this stuff in these structured fields, and I think that's such an old mental model of how to design an onboarding experience, and this is a very interesting one where it just says like, \"Who am I and who are you?",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 519,
-          "t": [
-            2617.083,
-            2635.113
-          ],
-          "quote": "I have nine Slack channels with my team and my marketing team's in one, and my sales team's in another, and my dev team's in another, and my development team does not care what was posted on X today, and my podcast team does not care what's in the ChatPRD sales pipeline.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 580,
-          "t": [
-            3035.891,
-            3041.613
-          ],
-          "quote": "And what Sam does for me... I'm a solopreneur, so I run ChatPRD mostly by myself.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 587,
-          "t": [
-            3100.572,
-            3103.073
-          ],
-          "quote": "I'm an accountant manager at ChatPRD.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 1285,
-          "t": [
-            6322.207,
-            6325.137
-          ],
-          "quote": "I feel like you found your calling in addition to building ChatPRD.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1292,
-          "t": [
-            6338.103,
-            6340.685
-          ],
-          "quote": "Check out my product, chatprd.ai.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
       "id": "telegram",
-      "type": "company",
-      "role": "company",
+      "type": "concept",
+      "role": "concept",
       "name": "Telegram",
       "file": "Telegram",
-      "primary": true,
-      "how_described": "嘉宾选定的与 OpenClaw 智能体沟通的主通道。认为它对新手最友好（只需和官方机器人 BotFather 打个招呼配置），并强烈推荐通过发语音消息（最高带宽输入）与智能体完成入门访谈。",
+      "primary": false,
+      "how_described": "本集把它说成:与 OpenClaw 智能体交流最推荐的通讯软件;用户可以通过它给智能体发文字或语音备忘录下达指令。",
       "source": "glm",
       "evidence": [
         {
@@ -2091,40 +2175,67 @@
       ]
     },
     {
-      "id": "macbook",
+      "id": "slack",
       "type": "concept",
       "role": "concept",
-      "name": "MacBook",
-      "file": "MacBook",
+      "name": "Slack",
+      "file": "Slack",
       "primary": false,
-      "how_described": "作为智能体运行环境的替代方案被提及，嘉宾最初是使用一台放在角落里的旧 MacBook Air 装上了她的第一个 OpenClaw。",
+      "how_described": "本集把它说成:多人协作的频道工具;嘉宾用它做比喻,解释为什么不要把所有任务都塞给一个智能体,而应该像分 Slack 频道一样将任务分开隔离。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 124,
+          "seg": 306,
           "t": [
-            543.204,
-            555.168
+            1431.004,
+            1432.405
           ],
-          "quote": "I had Polly originally running on an old MacBook Air, but she got a brain transplant into a stack of Mac Minis and I'm now running eight different agents on OpenClaw.",
+          "quote": "You cannot listen to Claire on Slack.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 229,
+          "seg": 367,
           "t": [
-            1067.648,
-            1077.651
+            1713.421,
+            1723.98
           ],
-          "quote": "And so that clean machine can be what mine was, which was an old MacBook sitting in a closet somewhere that I just did a fresh install on and said, \"This is going to be Polly's laptop.\"",
+          "quote": "And once you get that initial stuff going, you can connect it to WhatsApp, you can connect it to iMessage, something that I did, which is a little complicated but easy to do, and then you could talk to it over email, Slack.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2611.34,
+            2614.542
+          ],
+          "quote": "I have nine Slack channels that I do my work in.",
           "speaker": "SPEAKER_1"
         },
         {
-          "seg": 1260,
+          "seg": 519,
           "t": [
-            6196.54,
-            6201.443
+            2617.083,
+            2635.113
           ],
-          "quote": "But I hate that my kids see me hunched over an 18 inch MacBook Air all the time.",
+          "quote": "I have nine Slack channels with my team and my marketing team's in one, and my sales team's in another, and my dev team's in another, and my development team does not care what was posted on X today, and my podcast team does not care what's in the ChatPRD sales pipeline.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2658,
+            2681.193
+          ],
+          "quote": "Well, and we're all coming out of many, many years of remote working and we know how context fried we all get in something like Slack where we're watching, \"Oh, this customer conversation popped up in this channel and then I got a DM over here,\" and imagine if that was all happening in one stream of consciousness thread and you had to process it, that would be very hard.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2815.38,
+            2833.431
+          ],
+          "quote": "Again, let's go back to Slack, you have your Slack workspace and it has all the channels in which you do your work, and then if you're a nerd like me, you have a family Slack channel and you add your spouse in there and you create channels for finance, or I'm really software pilled over here.",
           "speaker": "SPEAKER_1"
         }
       ]
@@ -2136,7 +2247,7 @@
       "name": "Exa",
       "file": "Exa",
       "primary": false,
-      "how_described": "在跑销售智能体 Sam 时，被用来做人员搜索，通过搜索传记和专业信息来判断新注册的用户是否是决策者。",
+      "how_described": "本集把它说成:一个网络搜索 API;当智能体因为网页反爬虫而用不了浏览器时,可以通过接入 Exa 等程序化搜索 API 来获取网络信息。",
       "source": "glm",
       "evidence": [
         {
@@ -2164,96 +2275,6 @@
             4140.656
           ],
           "quote": "I use Exa just because I already have an Exa account.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "brave",
-      "type": "company",
-      "role": "company",
-      "name": "Brave",
-      "file": "Brave",
-      "primary": false,
-      "how_described": "提及作为 OpenClaw 开箱即用的网络搜索 API，用来在不用浏览器的情况下给智能体提供访问网络获取信息的能力。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 797,
-          "t": [
-            4118.327,
-            4122.048
-          ],
-          "quote": "Brave is, I think, the one that ships out of the box with OpenClaw.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 799,
-          "t": [
-            4134.954,
-            4137.835
-          ],
-          "quote": "So Brave is the one that ships with OpenClaw.",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "mcp",
-      "type": "concept",
-      "role": "concept",
-      "name": "MCP",
-      "file": "MCP",
-      "primary": false,
-      "how_described": "提及如果解析刚上线的 Lenny 数据并连接到 MCP 进行查询，就可以查出 Claire Vo 最关心的指标是「速度」。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 635,
-          "t": [
-            3376.073,
-            3385.295
-          ],
-          "quote": "Through a built-in MCP gateway, AI agents handle reasoning and decision-making while safely accessing existing APIs and internal systems as MCP tools.",
-          "speaker": "SPEAKER_0"
-        },
-        {
-          "seg": 1230,
-          "t": [
-            6047.305,
-            6056.368
-          ],
-          "quote": "And I think if you were to parse Lenny's data, which I know just went live and you were to connect to the MCP and query, \"What does Claire Vo care about?\"",
-          "speaker": "SPEAKER_1"
-        }
-      ]
-    },
-    {
-      "id": "linear",
-      "type": "company",
-      "role": "company",
-      "name": "Linear",
-      "file": "Linear",
-      "primary": false,
-      "how_described": "被嘉宾用作给她自己派发任务的任务系统：当智能体遇到现实世界的限制需要她本人亲自去做某事时，智能体会在 Linear 里给她建一张票据。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 823,
-          "t": [
-            4259.391,
-            4277.759
-          ],
-          "quote": "While I don't recommend people edit the soul by hand, it's sometimes really useful to edit the tools document by hand because there's just some nuances in how you might want it to read your calendar or search the web, or I use Linear as tasking kind of substrate for my agents, how you might want it to use Linear.",
-          "speaker": "SPEAKER_1"
-        },
-        {
-          "seg": 907,
-          "t": [
-            4567.57,
-            4574.614
-          ],
-          "quote": "And so I have my agent assign me Linear tickets for things that I need to do, not that it needs to do.",
           "speaker": "SPEAKER_1"
         }
       ]

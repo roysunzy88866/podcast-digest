@@ -10,12 +10,12 @@ entity_type: 概念
 
 ## 集里怎么说它
 
-- **[[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把销售当产品做：用 AI 重构 GTM 团队的实战指南》]]**(02:23起):本集将其说成很多公司起步的有效方式，但指出纯靠它通常有天花板，想维持增长率必须不断加大交易规模，若没有及时引入销售组织就会碰壁。
+- **[[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]]**(02:23起):被描述为 SaaS 公司起盘的重要引擎，但具有天花板（极少有人通过纯自助购买上百万美元订单）。建议企业不要在 PLG 上等待太久，应及时叠加可复制的销售流程。
 
 ## 出现在这些集
 
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把销售当产品做：用 AI 重构 GTM 团队的实战指南》]] — 作为概念
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] — 作为概念
 
 ## 关联实体
 
-[[Jeanne DeWitt Grosser]] · [[Lenny]] · [[Vercel]] · [[Stripe]] · [[推向市场]] · [[智能体]] · [[GTM 工程师]] · [[SDR]] · [[细分]] · [[前置部署工程]]
+[[Jeanne DeWitt Grosser]] · [[Lenny]] · [[Vercel]] · [[Stripe]] · [[Gong]] · [[OpenAI]] · [[go-to-market]] · [[智能体]] · [[GTM 工程师]] · [[市场细分]]

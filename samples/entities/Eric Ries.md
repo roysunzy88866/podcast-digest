@@ -6,7 +6,7 @@ entity_type: 人物
 # Eric Ries
 
 > [!info] 人物
-> 出现在 1 集 · 金句 10 条 · 关联 10 个
+> 出现在 1 集 · 金句 11 条 · 关联 10 个
 
 ## 金句
 
@@ -30,10 +30,12 @@ entity_type: 人物
 
 ![[2026-05-10-lennys-how-to-build-a-company-that-withstands#^q10]]
 
+![[2026-05-10-lennys-how-to-build-a-company-that-withstands#^q11]]
+
 ## 出现在这些集
 
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《How to build a company that withstands any era | Eric Ries, Lean Startup author》]] — 作为主持
+- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」》]] — 作为主持
 
 ## 关联实体
 
-[[Lenny]] · [[Anthropic]] · [[Cloudflare]] · [[Novo Nordisk]] · [[Vectura]] · [[OpenAI]] · [[Incorruptible]] · [[公益公司]] · [[使命守护者]] · [[金融重力]]
+[[Lenny]] · [[Incorruptible]] · [[Cloudflare]] · [[Novo Nordisk]] · [[Anthropic]] · [[Vectura]] · [[Groupon]] · [[结构完整性]] · [[公益公司]] · [[金融重力]]

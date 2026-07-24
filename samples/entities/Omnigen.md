@@ -11,12 +11,12 @@ aliases: ["Omnigens", "OmniGenes"]
 
 ## 集里怎么说它
 
-- **[[2026-06-24-latent-space-databricks|《为什么前沿生态必须开放》]]**(01:42起):本集重点发布的产品。它包含 runner 和 server 组件，本质上是构建了一个「智能体云」，为智能体提供运行环境、统一接口、持久化层以及安全控制策略。
+- **[[2026-06-24-latent-space-databricks|《Databricks 的智能体时代布局：统一调度、开源治理与数据库重写》]]**(01:42起):本集将其描述为 Databricks 推出的开源智能体框架。它旨在提供统一的通用 API、安全的云沙箱运行环境，并通过追踪操作历史和预算花费的「上下文策略」来实现企业级的智能体安全管控。
 
 ## 出现在这些集
 
-- [[2026-06-24-latent-space-databricks|《为什么前沿生态必须开放》]] — 作为概念
+- [[2026-06-24-latent-space-databricks|《Databricks 的智能体时代布局：统一调度、开源治理与数据库重写》]] — 作为概念
 
 ## 关联实体
 
-[[Matei Zaharia]] · [[Reynold Xin]] · [[Databricks]] · [[Snowflake]] · [[Neon]] · [[MosaicML]] · [[智能体]] · [[沙箱]] · [[上下文策略]] · [[LTAP]]
+[[Matei Zaharia]] · [[Reynold Xin]] · [[Databricks]] · [[Snowflake]] · [[Neon]] · [[MosaicML]] · [[智能体]] · [[沙箱]] · [[LTAP]] · [[Dream Engine]]
