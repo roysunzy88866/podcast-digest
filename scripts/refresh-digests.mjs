@@ -32,8 +32,10 @@ function refreshOne(id) {
   const dir = join(EPISODES, id);
   if (!existsSync(join(dir, "digest.json"))) return { id, status: "skip", why: "无 digest(半成品,翻新只对已完成集)" };
   // 备份(entities 可能缺——老集半途,也翻;恢复时只还原真备过的)
+  // meta.json 也备:C5.1 起 condense 会把 title_zh 写回 meta——翻新失败回滚时不能让
+  // 被毙掉那版 digest 的标题留在 meta 里(回滚必须彻底)
   const backups = [];
-  for (const f of ["digest.json", "entities.json"]) {
+  for (const f of ["digest.json", "entities.json", "meta.json"]) {
     const p = join(dir, f);
     if (existsSync(p)) { copyFileSync(p, p + ".bak"); backups.push(f); }
   }
