@@ -140,8 +140,17 @@ jobs:
           git config user.email "c7b-bot@users.noreply.github.com"
           # data/skipped 是 gitignore 的(不入公开仓);去重靠 pipeline-state.json 的 skipped 账本
           git add data/episodes data/pipeline-state.json samples 2>/dev/null || true
-          git commit -m "[C7 🤖] C7b 自动跑批:推进 cutoff + skipped 账本(+干净集若有) (US-4, US-5)" || echo "无改动可提交"
-          git push || echo "无改动或推送跳过"
+          git commit -m "[C7 🤖] C7b 自动跑批:推进 cutoff + skipped 账本(+干净集若有) (US-4, US-5)" || { echo "无改动可提交"; exit 0; }
+          # ⚠️ push 失败绝不静默(drift #32 血账:跑批 2h 期间远端被推了 docs → push rejected 被
+          #    `|| echo` 吞掉 → 十几集付费产物随 runner 销毁)。修:先 rebase 远端再推,重试 3 次,
+          #    仍败响亮 exit 1(产物在丢失边缘,必须人立刻看)。产物路径与 docs/代码天然不相交,rebase 必顺。
+          ok=""
+          for i in 1 2 3; do
+            if git pull --rebase origin main && git push; then ok=1; break; fi
+            git rebase --abort 2>/dev/null || true   # rebase 半途失败会留 in-progress 态,不清掉重试必撞(GLM 20260724-001[2])
+            echo "回仓 push 第 $i 次失败,5s 后重试"; sleep 5
+          done
+          [ -n "$ok" ] || { echo "::error::回仓 push 连败 3 次——本批付费产物将随 runner 销毁!立刻人工介入(重跑或手动捞产物)"; exit 1; }
 
       - name: 发布小结(写进 job summary)
         if: always()

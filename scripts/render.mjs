@@ -123,10 +123,12 @@ function firstIdxOutsideLinks(L, t) {
 }
 
 export function linkPrimaryEntities(md, entities) {
+  // find=正文里真出现的词(本集原词 sourceForm,权威化前的写法);target=链接目标页(聚合权威 file)。
+  // 无权威化(sourceForm 缺省)时 find===target → 输出 [[t|t]] 与历史逐字节一致。
   const targets = asArr(entities)
     .filter((e) => e.primary && e.file)
-    .map((e) => String(e.file))
-    .sort((a, b) => b.length - a.length);
+    .map((e) => ({ find: String(e.sourceForm ?? e.file), target: String(e.file) }))
+    .sort((a, b) => b.find.length - a.find.length);
   const linked = new Set();
   return String(md)
     .split("\n")
@@ -134,13 +136,13 @@ export function linkPrimaryEntities(md, entities) {
       if (BACKGROUND_LINE_RE.test(line) || QUOTE_LINE_RE.test(line) || HEADING_LINE_RE.test(line)) return line;
       let L = line;
       for (const t of targets) {
-        if (linked.has(t)) continue;
+        if (linked.has(t.find)) continue;
         // 先长后短仍会让短名命中长名链接内部(如 [[智能体编码]] 里的「智能体」)→ 必须避开已插链接区,
         // 否则产出 [[[[智能体]] / [[编码[[智能体]] 畸形双链(backfill=40 弄脏 ~11 集的根因)。
-        const idx = firstIdxOutsideLinks(L, t);
+        const idx = firstIdxOutsideLinks(L, t.find);
         if (idx < 0) continue;
-        L = L.slice(0, idx) + `[[${t}|${t}]]` + L.slice(idx + t.length);
-        linked.add(t);
+        L = L.slice(0, idx) + `[[${t.target}|${t.find}]]` + L.slice(idx + t.find.length);
+        linked.add(t.find);
       }
       return L;
     })

@@ -75,3 +75,31 @@ describe("renderAudioPlayer · 详情页播放器(US-5)", () => {
     expect(md.indexOf("<audio")).toBeLessThan(md.indexOf("一句话 TLDR"));
   });
 });
+
+// ── 跨集权威名统一(drift #32 死链根因):正文补链目标=聚合权威页名,找词仍用本集原词 ──
+import { renderAllEpisodes } from "../scripts/build-pages.mjs";
+
+describe("renderAllEpisodes · 集页双链用聚合权威名(漂移不再产死链)", () => {
+  const mkEp = (id: string, date: string, file: string, extra: any = {}) => ({
+    meta: { id, title_zh: id, podcast: "P", date, duration_sec: 60, source_url: "http://x" },
+    digest: { tldr: "t", digest_md: `本集聊了 ${file} 的实践。`, quotes: [] },
+    entities: { entities: [
+      { id: "co-work", type: "concept", role: "concept", name: file, file, primary: true, how_described: "协作模式" },
+      ...(extra.entities ?? []),
+    ] },
+  });
+  it("★ 同 id 跨集两个写法:后见集正文链 [[首见权威名|本集原词]],frontmatter 用权威名", () => {
+    const a = mkEp("epA", "2026-04-23", "Co-work");
+    const b = mkEp("epB", "2026-06-21", "Co-Work");
+    const pages = renderAllEpisodes([a, b]);
+    const pb = pages.get("epB")!;
+    expect(pb).toContain("[[Co-work|Co-Work]]"); // 目标=权威页,显示=本集原词
+    expect(pb).not.toContain("[[Co-Work|"); // 不再链向不存在的页
+    expect(pb).toContain('"[[Co-work]]"'); // frontmatter 类型化属性也统一权威名
+  });
+  it("★ 无漂移时输出与单集渲染逐字节一致(不扰动已上线集)", () => {
+    const a = mkEp("epA", "2026-04-23", "Co-work");
+    const single = renderEpisode(a.meta, a.digest, a.entities, []);
+    expect(renderAllEpisodes([a]).get("epA")).toBe(single);
+  });
+});

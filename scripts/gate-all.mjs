@@ -139,6 +139,8 @@ for (const id of gatedIds) {
 if (existsSync(join(samplesDir, "entities"))) {
   try {
     const r = gateEntities({ base, samplesDir });
+    // 软提醒(不拦发布):译名漂移 → 建议补别名表钉死(drift #32 降级,权威名机制已保页面统一)
+    for (const w of r.warnings ?? []) console.log(`[机器闸门门] ⚠️ [${w.kind}] ${w.file ?? ""} — ${w.reason ?? ""}`);
     if (r.pass) {
       console.log(`[机器闸门门] ✅ 实体层过(${r.counts.entities} 实体页,死链/一致性/属性事实层全绿)`);
     } else {

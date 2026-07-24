@@ -176,9 +176,11 @@ export function gateEntities({ base = resolve(ROOT, "data/episodes"), samplesDir
     ...checkDeadLinks({ pages, episodeIds, entityFiles, episodeBlocks }),
     ...checkEntityConsistency(episodes, aliasById, entityDir),
     ...checkEntityFacts(episodes, aliases),
-    ...checkNameDrift(episodes),
   ];
-  return { pass: failures.length === 0, failures, counts: { pages: pages.length, entities: entityFiles.size } };
+  // 译名漂移降为软提醒 [standard-change: 用户授权 2026-07-24,drift #32]:renderAllEpisodes 权威名统一后,
+  // 漂移不再产生死链/页名不一致(页面全站一个名),拦整批的理由已消;仍检测并提醒补别名表钉死。
+  const warnings = checkNameDrift(episodes);
+  return { pass: failures.length === 0, failures, warnings, counts: { pages: pages.length, entities: entityFiles.size } };
 }
 
 // ── CLI ──
@@ -189,6 +191,7 @@ const isMain = (() => {
 if (isMain) {
   const r = gateEntities();
   console.log(`── 实体层闸门(死链 + 产物一致性 + 属性事实层)· ${r.counts.entities} 实体页 / ${r.counts.pages} 页 ──`);
+  for (const w of r.warnings ?? []) console.log(`⚠️ [${w.kind}] ${w.file ?? ""} — ${w.reason ?? ""}`);
   if (!r.pass) {
     console.error(`\n❌ 实体层闸门未过(${r.failures.length} 条):`);
     for (const f of r.failures.slice(0, 20)) console.error(`   [${f.kind}] ${f.file ?? ""} — ${f.reason ?? ""}`);
