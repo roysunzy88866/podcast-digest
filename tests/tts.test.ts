@@ -126,7 +126,9 @@ describe("chunkForSynthesis · ≤max、无损、不硬断句子", () => {
     for (const c of chunks) expect(c.length).toBeLessThanOrEqual(20);
   });
   it("★ 生产默认 max=3000(合成长文,不依赖 digest 字数):多块+无损+句末边界(GLM 20260724-007[2] 回归覆盖)", () => {
-    const text = Array.from({ length: 200 }, (_, i) => `这是第${i}句用于覆盖生产默认切块值的测试语料,讲的是智能体与推理云。`).join("");
+    const ends = ["。", "！", "?", "…"]; // 句末标点轮换:边界分支覆盖不依赖真语料的标点分布(GLM 008[1])
+    const text = Array.from({ length: 200 }, (_, i) => `这是第${i}句用于覆盖生产默认切块值的测试语料,讲的是智能体与推理云${ends[i % ends.length]}`).join("");
+    expect(text.length).toBeGreaterThan(3000); // 硬断言语料够长,防改短后多块断言空转(GLM 008[2])
     const chunks = chunkForSynthesis(text, 3000);
     expect(chunks.length).toBeGreaterThan(1);
     expect(chunks.join("")).toBe(text);
