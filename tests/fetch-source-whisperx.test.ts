@@ -56,3 +56,12 @@ describe("convertWhisperx · whisperX JSON → 官方稿同构", () => {
     expect(() => convertWhisperx({ segments: [] })).toThrow();
   });
 });
+
+describe("transcriptDuration · 末段 end 缺不产 undefined(GLM 20260724-004[2])", () => {
+  it("★ 取各段 end/start 最大数值;end 缺回退 start;全缺=0", async () => {
+    const { transcriptDuration } = await import("../scripts/fetch-source-whisperx.mjs");
+    expect(transcriptDuration([{ start: 0, end: 10 }, { start: 11, end: undefined }])).toBe(11);
+    expect(transcriptDuration([{ start: 0, end: 10 }, { start: 11, end: 12.5 }])).toBe(12.5);
+    expect(transcriptDuration([{ text: "x" }])).toBe(0);
+  });
+});

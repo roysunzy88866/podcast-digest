@@ -35,6 +35,13 @@ export function convertWhisperx(wx) {
   }));
 }
 
+/** 时长 = 各段 end/start 的最大数值(末段 end 可能缺——GLM 20260724-004[2],不许 duration 变 undefined)。 */
+export function transcriptDuration(transcript) {
+  let max = 0;
+  for (const s of transcript) for (const v of [s.end, s.start]) if (typeof v === "number" && v > max) max = v;
+  return max;
+}
+
 const isMain = process.argv[1] && resolve(process.argv[1]) === fileURLToPath(import.meta.url);
 if (isMain) {
   const [dirArg] = process.argv.slice(2).filter((a) => !a.startsWith("--"));
@@ -52,7 +59,7 @@ if (isMain) {
 
   const metaPath = join(dir, "meta.json");
   const prev = existsSync(metaPath) ? JSON.parse(readFileSync(metaPath, "utf8")) : {};
-  const duration = transcript[transcript.length - 1].end;
+  const duration = transcriptDuration(transcript);
   const meta = {
     ...prev,
     id: prev.id ?? dirArg.split("/").pop(),

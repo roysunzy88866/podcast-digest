@@ -22,11 +22,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: 校验 HF_TOKEN(先于一切耗时步,缺就立刻死)
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        run: |
+          [ -n "$HF_TOKEN" ] || { echo "::error::缺 HF_TOKEN secret(pyannote 门控模型要)"; exit 1; }
+
       - name: 选集(默认 a16z feed 最新 enclosure)
         id: pick
+        env:
+          INPUT_URL: ${{ inputs.audio_url }} # 经 env 传递,不插 shell(防注入)
         run: |
-          if [ -n "${{ inputs.audio_url }}" ]; then
-            URL="${{ inputs.audio_url }}"; TITLE="(手动指定)"
+          if [ -n "$INPUT_URL" ]; then
+            URL="$INPUT_URL"; TITLE="(手动指定)"
           else
             FEED=$(curl -sL "https://feeds.simplecast.com/JGE3yC0V")
             URL=$(echo "$FEED" | grep -o '<enclosure[^>]*url="[^"]*"' | head -1 | sed 's/.*url="//;s/"$//')
@@ -39,9 +47,11 @@ jobs:
 
       - name: 下载音频 + 时长
         id: audio
+        env:
+          AUDIO_URL: ${{ steps.pick.outputs.url }} # feed 来的第三方数据,只走 env 不插脚本
         run: |
           sudo apt-get update -q && sudo apt-get install -y -q ffmpeg
-          curl -sL "${{ steps.pick.outputs.url }}" -o episode.mp3
+          curl -sL "$AUDIO_URL" -o episode.mp3
           DUR=$(ffprobe -v error -show_entries format=duration -of default=noprint_wrappers=1:nokey=1 episode.mp3)
           echo "音频 $(du -h episode.mp3 | cut -f1),${DUR%.*}s"
           echo "dur=${DUR%.*}" >> "$GITHUB_OUTPUT"
@@ -60,7 +70,6 @@ jobs:
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
         run: |
-          [ -n "$HF_TOKEN" ] || { echo "::error::缺 HF_TOKEN secret(pyannote 门控模型要)"; exit 1; }
           T0=$SECONDS
           whisperx episode.mp3 \
             --model ${{ matrix.model }} --compute_type int8 --language en --threads 4 \
@@ -72,7 +81,7 @@ jobs:
 
       - name: 转成官方稿同构 + 质量摘要
         run: |
-          node scripts/fetch-source-whisperx.mjs data/asr-spike --wx out/episode.json --audio-url "${{ steps.pick.outputs.url }}"
+          node scripts/fetch-source-whisperx.mjs data/asr-spike --wx out/episode.json --audio-url "$AUDIO_URL"
           node -e '
             const t=JSON.parse(require("fs").readFileSync("data/asr-spike/transcript.en.json","utf8"));
             const spk={}; for(const s of t) spk[s.speaker]=(spk[s.speaker]||0)+1;
@@ -81,7 +90,7 @@ jobs:
             const dur=Number(process.env.AUDIO_DUR||0), asr=Number(process.env.ASR_SECONDS||0);
             const lines=[
               "## whisperX P1 · ${{ matrix.model }}",
-              `- 音频时长:${Math.round(dur/60)} 分 | ASR 耗时:${Math.round(asr/60)} 分 | 倍速:${(dur/asr).toFixed(2)}x 实时`,
+              `- 音频时长:${Math.round(dur/60)} 分 | ASR 耗时:${Math.round(asr/60)} 分 | 倍速:${asr>0?(dur/asr).toFixed(2):"?"}x 实时`,
               `- 段:${t.length} | 词:${words}(带时间戳 ${(100*timed/words).toFixed(1)}%)| 说话人分布:${JSON.stringify(spk)}`,
               "", "### 开场 15 段抽检(人工核说话人切换)", ...t.slice(0,15).map(s=>`- [${s.speaker}] ${s.text}`)];
             require("fs").appendFileSync(process.env.GITHUB_STEP_SUMMARY, lines.join("\n")+"\n");
@@ -89,6 +98,7 @@ jobs:
           '
         env:
           AUDIO_DUR: ${{ steps.audio.outputs.dur }}
+          AUDIO_URL: ${{ steps.pick.outputs.url }}
 
       - uses: actions/upload-artifact@v4
         with:
