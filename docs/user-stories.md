@@ -891,7 +891,7 @@ Scenario 3 [品味边界] a16z 只向前看,不自动回填存量
 ### DoD(C9)
 1. ✅ P1 证据落盘(run 30075152246,耗时+抽检见下方核验记录);模型档用户拍板:large-v3 默认、>100 分钟降 medium。
 2. ✅ 单测:per-source cutoff 迁移 / needsReseed 按源 / whisperX 转换器 fixture / Simplecast URL 解析(slugFromLink/enclosureUrl/durationSec/实体反转义)/ pickWhisperxModel。**账实更正(2026-07-24 独立审计 A5)**:a3ebde5 提交快照实为 407/409(2 个 tts fixture 测试被 cron 回仓刷新 digest 打断,与 C9 改动无关,862cf86 修复;C9 自身新测试全过)——原「全 409 过」是把修复后状态写到了提交时点上。
-3. ⬜ 里程碑 E2E:真发布一集 a16z、用户真设备验收(烧 GLM 钱 + 公开发布,做前确认)。入口=workflow_dispatch backfill=1 + source=a16z(跑完自动设 cutoff,cron 随后接管只向前看)。
+3. 🟡 里程碑 E2E:**Sriram 集已真发布上站**(run 30110188589,2026-07-25;三跑历程:短集判官拦→Travis 判官拦→三件套后 Sriram 过);**待用户真设备验收即闭**。
 4. 🟡 glm-check --kind code 对抗审计:接线 diff 已过(20260724-006,3 条全 noise 附实证);E2E 后整片收口再复核一轮。
 
 ### P1 核验记录(C9 · 2026-07-24 真跑,run 30075152246)
