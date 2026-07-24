@@ -15,6 +15,8 @@
 | C7b | **无人值守**:**GitHub Actions cron**(非 Workers,drift #21/ADR 0012)定时跑现有流水线 → 全自动发布(ADR 0011 不等人 + 通知/回滚安全网) | 全部 | 🟡 机制全建成验通,待首集干净新集自然触发首发验收 |
 | C7c | **运维硬化**:GitHub+分支保护+CI / 失败告警 / 额度告警 / R2 备份口径 / 回滚演练 / 钉插件版本(D21)/ 前端库自托管(D36) | 全部 | ⏳ |
 | C8 | **内容源切换与品味漏斗(第一步)**:多源骨架(去 Latent 硬编码)+ 接入 Lenny's + --backfill 回填 + 品味漏斗(手动排除off-taste)。E2E 首跑逼出并修 3 bug(translate漏译/部署链/专名误报D46);**Netflix+Adam 2 集已上线 voice.solomind.cc**。真相源 `需求共创/内容品味档案.md`(v1) | US-4, US-11 | 🟡 代码完成+2集上线,待产出率提升(专名误报白名单)/更多集验收 |
+| C5.1 | **列表页可读性修复**(2026-07-24 用户点名):破卡空白行 + 标题 fallback 链(title_zh→title_en→id)+ meta 显示字段补齐 + 标签归并 TOP15 折叠 + condense 产 title_zh。Gherkin 见 user-stories C5.1 | US-1, US-2, US-4 | 🟡 本地全绿(f8cc323),待 backfill run 落地后 push→云端部署→用户线上验收 |
+| C9 | **a16z 源接入**:whisperX ASR 进料口(P1 真跑核验)+ 按源 cutoff 重构(D44①)+ 品味边界(只向前看)。Gherkin 见 user-stories C9;feed 已实探 | US-4, US-11 | ⏳ Gherkin 已落,待用户二次确认 + HF_TOKEN 进 Secrets |
 
 > C7 原为单行「上云」,2026-07-19 用户 AskUserQuestion 拍板拆 C7a/b/c(drift #15);前置仍是过 `docs/上线前checklist.md`(8 项分摊到三片)。里程碑规矩(用户亲手验收)对 C7a 照旧;C7b 全自动发布是用户明选的例外,做前单独确认。
 
