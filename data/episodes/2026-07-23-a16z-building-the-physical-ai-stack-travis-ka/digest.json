@@ -1,0 +1,97 @@
+{
+  "title_zh": "Travis Kalanick 的新赌注:用工业 AI 改造矿山与食品供应链",
+  "tldr": "Uber 创始人谈新公司 Atoms:做工业 AI,把矿山和食品供应链全栈自动化。",
+  "digest_md": "本次做客播客的嘉宾是 Travis Kalanick。他上一次来节目被主持人称为「人生巅峰时刻」,这次回归带着重磅新闻:新公司宣布完成 17 亿美元融资。这档节目本身由风险投资机构 A16Z 制作。Kalanick 在访谈中详细阐述了他的新事业——他称之为「工业 AI」,即用全栈的软硬件方案改造采矿和食品等传统实体行业。整集访谈可以分为三个部分:前一部分讲他进入采矿业的见闻与打法,中间一部分聊他的管理与招人心法,最后探讨自动化带来的工作与监管议题。\n\n### 为什么要做物理世界的 AI?因为软件之外的天地更大\n\n回到四年多前,Kalanick 开启了新事业。他最初手头有不同业务线,本来分属不同的独立公司:食品业务是一摊(涉及机器人和像餐厅这样的房地产),采矿和运输业务是另一摊 [04:35 Travis Kalanick]。但他去和投资者沟通时,发现无论向他们推介哪一个具体的业务板块,前五个人都直接对他说:「我们想投资的是你这个人」 [04:52 Travis Kalanick]。于是,他把这些公司整合成了单一实体 Atoms 来出售股权 [05:07 Travis Kalanick]。他把这套做法称为「工业 AI」——用包含软件、机器人、传感器和机械的全栈方案,一次改造一个行业 [04:06 Travis Kalanick]。他认为这是比纯软件更大的机会。\n\n理解了这套「物理世界改造论」,我们就能明白他在采矿业如何出击。\n\n### 采矿业的市场进入法:从巴西雨林到中东沙漠\n\n从纯软件转向 To B(面向企业)的传统行业是一回事,采矿业的市场进入方式完全是另一套画风。与 Uber 当年靠组织设计在各个城市做营销噱头不同,这次是实打实的「硬核出差」:Kalanick 描述了他最近一个月内,先是深入巴西北部的亚马逊雨林腹地——那里只有简陋的小型机场,降落在泥地跑道上 [08:41 Travis Kalanick]。他们在那里为世界最大的铁矿运营商 Vale 运营着一座巨型铁矿,光坐直升机飞越其中一个作业点就要 30 分钟 [09:07 Travis Kalanick]。紧接着,他又从巴西直飞沙特阿拉伯与伊拉克的边境地带,那里有一座磷酸盐矿,因为边境冲突氛围导致信号被干扰,直升机飞行员甚至不得不靠老派的「目视」方式降落 [10:00 Travis Kalanick]。\n\n这套打法之所以行得通,是因为技术已经越过了「验证」的临界点。Kalanick 表示,他们的技术已经超越了人类的生产力 [10:39 Travis Kalanick]。面对金矿 CEO,他的推销话术直截了当:「你愿意每年多产出 20% 的黄金吗?」 [10:44 Travis Kalanick] 对方从不会拒绝,只会要求「证明给我看」。一旦某个试点项目成功验证了效益,矿场就会要求把方案推广到所有车辆上。这就像企业软件公司的打单逻辑:先拿下几个席位做试点,跑通后就全面铺开 [11:26 Travis Kalanick]。\n\n生产力提升的来源主要有两方面:一是机器每小时的产出变高;二是解决了人力排班和随叫随到的痛点,同时安全规程也会因风险降低而改变。Kalanick 估计,最终能让矿山的生产力提升 30% 到 40% [12:36 Travis Kalanick]。他特别提到旗下负责这项业务的公司 Pronto 及其团队的风格:原本像「超级精简」的初创团队,但面对庞大的客户需求,他要求团队必须「从精简走向强健(肌肉化)」,因为企业客户需要他们有足够的服务承载力 [13:48 Travis Kalanick]。\n\n### 在物理世界里「加装大脑」\n\n要把技术落地到极其传统的现场,Kalanick 的团队面临着非常硬核的工程挑战。由于许多矿山设备的服役期长达 20 年,它们本不是线控的——比如方向盘是通过纯机械或液压系统操作的 [17:26 Travis Kalanick]。要让这种老机器实现自主驾驶,团队必须引入物理执行器,让电信号能真正去推动物理按钮或操作杆 [17:39 Travis Kalanick]。在他看来,团队本质上是在现场搬运一堆传感器、计算设备和机械系统,但这并非是在「建数据中心」,而是给庞大的移动设备加装智能大脑 [16:11 Travis Kalanick]。\n\n这套技术的终极目标是打造「无人矿井」(no-entry mine)——除了可能有人坐在远程控制中心,矿坑里完全没有人类 [18:18 Travis Kalanick]。他们从运输环节切入,将其视为整个矿山的「心血管系统」,通过 API(应用程序接口)与其他作业(如钻探、爆破、装载)的机器协同 [20:21 Travis Kalanick]。在这片天地里,他最钟爱的推销年轻人的方式就是:「你是想要一份坐在笔记本电脑前的工作,还是想被空降到亚马逊的矿坑里,造科幻?」毕竟,这可是让一台重达 200 万磅、载着黄金的庞然大物在非铺装路面上以每小时 35 英里的速度自主狂奔 [22:00 Travis Kalanick]。\n\n物理世界之外的世界观聊完了,接下来是他作为管理者的心法。\n\n### 管理哲学:做「首席问题解决者」\n\n当主持人问及如何招聘高管时,Kalanick 认为所有高管面试时都极其能说会道,但真正能完美胜任的人极少。他认为理想的高管必须同时具备两种能力:一是能大规模组织和管理(领导力);二是能成为极具战略眼光的史诗级问题解决者 [29:12 Travis Kalanick]。这就像惯用左手还是右手,很少人能双手灵巧。\n\n> 【背景】在访谈中,Kalanick 提到他最喜欢的科幻作家是 Asimov 及其《我,机器人》系列。当被问及 AI 对齐问题时,他借用《我,机器人》中的「机器人三定律」表达了观点:定律虽好,但与其在科幻小说里探讨 AI 末日,不如在现实中直接做出来,并确保「机器留在路上」。他认为创业失败通常是因为做了人们不喜欢的产品,只要 AI 的最终目的是取悦并服务人类,就没有那么可怕 [23:49 Travis Kalanick]。\n\n在权衡组织能力与解题能力后,他得出结论:问题解决能力最重要 [29:41 Travis Kalanick]。因为如果一个人只会管理而不会解题,他会以极其有条理的方式做极其荒谬的事情。\n\n由此引出了他的管理心法:他将自己的角色定位为「首席问题解决者」(problem solver in chief)。他会把组织内当前最棘手、最有影响力且未被解决的问题揽到自己桌上 [30:31 Travis Kalanick]。因为一天只有 24 小时,他只能解决一部分,所以这种解题逻辑必须向下传递:他的每个直接下属必须成为被授权的代理首席问题解决者,然后再层层传递给他们的团队 [31:03 Travis Kalanick]。在招人面试时,他会直接模拟「一起工作」的真实场景,确保第一天上班就像已经工作了第二周那样顺滑且兴奋 [31:27 Travis Kalanick]。\n\n说完了内部管理,最后来看他对更宏观的行业监管与就业问题的判断。\n\n### 监管与工作的未来:从抵制到超级繁荣\n\nUber 当年是挨个城市去打地面战,而如今的 AI 实验室则在联邦层面的监管规则上博弈。当被问及「联邦优先权(全国统一规则)与各州分别监管哪个更好」时,Kalanick 给出了非常犀利的论断:只有当你想要搞「监管俘获」——即利用联邦层面的庞大监管壁垒把其他竞争对手排挤出去时,联邦优先权才是好的 [32:15 Travis Kalanick]。他提到要警惕某些搞闭源权重的公司,它们可能试图制造出必须被严格监管的局面,然后自己顺水推舟去呼吁监管,借此巩固垄断地位 [32:45 Travis Kalanick]。\n\n他还尖锐地抨击了交通监管背后的既得利益者。他认为交通领域里所有系统性的蠢规定,背后推手都是庭审律师和保险公司 [34:08 Travis Kalanick]。这两者形成了诡异的利益共同体:律师想要更多事故以便打官司赚钱,而保险公司其实也热爱事故——因为没有事故就没有保险这门生意。他们只要确保事故在精算表内就好。他回忆当年 Uber 去华盛顿特区,原本出租车单次事故责任限额只有 2.5 万美元,但既得利益者推动对网约车要求高达 150 万美元的保单 [34:59 Travis Kalanick]。\n\n> 【背景】「杰文斯悖论」指当技术进步提高资源使用效率时,该资源的总消耗量反而会增加。Kalanick 用它解释了就业前景。\n\n谈及自动化对就业的冲击,Kalanick 借用「杰文斯悖论」表达了极度乐观的态度 [39:53 Travis Kalanick]。主持人举例说,比如卡车司机的工作中其实包含了驾驶、持武器安保、维护等多项任务,单纯把「驾驶」自动化不代表工作消失。Kalanick 进一步延伸到食品行业:如果通过全栈自动化(从后端的工业地产、机器人制造,到前端的自主配送),食品价格大幅下降,结果是什么?结果是人们会有更多的钱去消费其他事物 [40:20 Travis Kalanick]。因为机器人没有银行账户,生产效率提升带来的财富盈余最终还是流向人类。由此将催生一千种全新的工作类别,最终迎来「超级繁荣」 [40:51 Travis Kalanick]。\n\n> 【背景】访谈首尾两次提到,如果创始人们需要针对「退休后的心理落差」做心理治疗,Kalanick 自荐可以做导师。他本人的日常解压方式非常硬核:早上 7 点半去教科技圈的创始人和工程师们尾波冲浪,甚至教过一个不会游泳的人穿救生衣冲浪。\n\n## 本集带走\n\n1. **工业 AI 是全栈改造:** Travis Kalanick 的新公司 Atoms 并非只做软件,而是整合软件、机器人、传感器和机械系统,目标是一次性全栈改造采矿和食品等重资产行业。\n2. **传统行业的增长飞轮:** 在采矿这种 To B 领域,一旦自主化技术能证明它超越了人类生产力(如提升 30%-40% 产出),销售模式就会像企业软件一样,从一个试点迅速铺开到全场地的所有设备。\n3. **解题重于管理:** Kalanick 的管理哲学是做「首席问题解决者」。他认为理想高管的最核心能力是大规模解决问题的能力,这种能力比单纯的组织管理能力更稀缺也更重要。\n4. **警惕用监管设槛:** 他尖锐指出,呼吁联邦层面的统一大监管,往往是大公司搞「监管俘获」、排挤创业者的手段,交通领域许多不合理的旧规定本质上都是律师和保险公司的利益产物。",
+  "quotes": [
+    {
+      "en": "So, yeah, I announced earlier today we did a $1.7 billion raise.",
+      "zh": "所以，是的，我今天早些时候宣布了我们完成了 17 亿美元融资。",
+      "timestamp": "03:05",
+      "speaker": "Travis Kalanick"
+    },
+    {
+      "en": "So then what we did is we put the companies together and then sold the equity in a singular entity.",
+      "zh": "所以我们做了的是，我们把公司整合在一起，然后出售单一实体的股权。",
+      "timestamp": "05:01",
+      "speaker": "Travis Kalanick"
+    },
+    {
+      "en": "what we are calling industrial AI, to transform these industries one at a time.",
+      "zh": "我们称之为工业 AI，一次一个地改造这些行业。",
+      "timestamp": "04:06",
+      "speaker": "Travis Kalanick"
+    },
+    {
+      "en": "So a month ago, I dropped into deep Amazon in Brazil, okay?",
+      "zh": "一个月前，我深入到了巴西的亚马逊地区，好吗？",
+      "timestamp": "08:23",
+      "speaker": "Travis Kalanick"
+    },
+    {
+      "en": "you basically take a kit, you install it onto a machine, and that machine becomes autonomous.",
+      "zh": "你基本上带上一个套件，把它安装到一台机器上，然后那台机器就变得自主了。",
+      "timestamp": "09:25",
+      "speaker": "Travis Kalanick"
+    },
+    {
+      "en": "Because that machine may not even be drive-by-wire.",
+      "zh": "因为那台机器甚至可能不是线控的。",
+      "timestamp": "17:26",
+      "speaker": "Travis Kalanick"
+    },
+    {
+      "en": "A no-entry mine is a mine where there are no people in the pit.",
+      "zh": "无人矿井是指矿坑里没有人的矿井。",
+      "timestamp": "18:20",
+      "speaker": "Travis Kalanick"
+    },
+    {
+      "en": "automating a 2 million pound machine going 35 miles an hour carrying gold.",
+      "zh": "自动化一台重达两百万磅、以每小时 35 英里速度行驶、载着黄金的机器。",
+      "timestamp": "22:23",
+      "speaker": "Travis Kalanick"
+    },
+    {
+      "en": "And I have failed.",
+      "zh": "而且我失败了。",
+      "timestamp": "24:00",
+      "speaker": "Travis Kalanick"
+    },
+    {
+      "en": "Well, if you make something that is anti-human, if you make something that doesn't serve people, I don't think you're going to make it.",
+      "zh": "嗯，如果你制造反人类的东西，如果你制造不为人类服务的东西，我认为你是做不成的。",
+      "timestamp": "24:24",
+      "speaker": "Travis Kalanick"
+    },
+    {
+      "en": "the only constraint on your imagination is management capacity.",
+      "zh": "你想象力的唯一约束是管理能力。",
+      "timestamp": "29:59",
+      "speaker": "Travis Kalanick"
+    },
+    {
+      "en": "Federal preemption is good when you are pro-regulatory capture.",
+      "zh": "当你支持监管俘获时，联邦优先权是好的。",
+      "timestamp": "32:15",
+      "speaker": "Travis Kalanick"
+    },
+    {
+      "en": "was most likely pushed by the trial lawyers and the insurance companies.",
+      "zh": "很可能都是由庭审律师和保险公司推动的。",
+      "timestamp": "34:08",
+      "speaker": "Travis Kalanick"
+    },
+    {
+      "en": "It's going to be super prosperity.",
+      "zh": "这将是超级繁荣。",
+      "timestamp": "41:02",
+      "speaker": "Travis Kalanick"
+    },
+    {
+      "en": "it's like, okay, this is a full stack software, robotics, sensors, machinery, like a full stack solution to automating an industry.",
+      "zh": "这就像，好吧，这是一个全栈软件、机器人技术、传感器、机械，就像一个自动化行业的全栈解决方案。",
+      "timestamp": "43:03",
+      "speaker": "Travis Kalanick"
+    }
+  ]
+}
