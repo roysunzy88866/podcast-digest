@@ -46,5 +46,6 @@
 - 标题《Sonnet 5 review: I ran 64 generations to find out if it's worth it》 → **skip**,命中「❌ 大模型发布 / 跑分评测」。
 - 标题《The biggest chip ever built — why OpenAI runs on it | Cerebras CEO》+ 简介是与 CEO 的单集深谈,讲推理瓶颈与产业格局 → **publish**,命中「✅ AI 基础设施·产业面」。
 - 标题《World Models, Explained》+ 简介讲模型为什么需要大量样本、研究方向 → **skip**,命中「❌ 学术研究 / 架构前沿」。
+- 标题《A guide to difficult conversations》《The art of influence》《Why your product stopped growing》——**通篇没提 AI** → **publish**,命中「✅ 组织与领导力 / 软技能」或「✅ 产品 / 增长 / 设计」。**这一整块不要求跟 AI 相关**(用户 2026-07-25 裁决,已写进档案的「补充分界」段)。❌「学术·非 AI」指的是物理/历史那类知识科普,**不是**职场与产品方法论,别搞混。
 - 标题《How OpenClaw changed my life | Claire Vo》、无简介 → **publish**,命中「✅ AI 编程 / agent 实操」——这是「我怎么用这个工具干活」,**不是**产品发布。(这条是 2026-07-25 存量重判里判官真实误杀的案例,写进来当反例。)
 - 标题只有《Our conversation with Sarah》、无简介 → **undecided**:标题本身看不出主题和形态,这才是 undecided 的正当用法(纪律 5)。
