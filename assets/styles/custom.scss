@@ -1,0 +1,263 @@
+@use "./variables.scss" as *;
+
+/* ══════════════════════════════════════════════════════════════════════
+   C11 视觉改版 · 方向 A「少数派简约风」(需求共创/视觉调研-播客UI.md §七 拍板)
+   - 标题字体:阿里巴巴普惠体(自托管子集,/static/fonts/)
+   - 主色:暖红(经 quartz.config.yaml 的 secondary 注入,此处只做 wash/点缀)
+   - 卡片:小圆角 + 极浅阴影 + 左侧大类色带(data-cat 客户端打标,见 build-list.mjs)
+   - 亮暗双套:亮为默认(Head 注入 seed),暗色 token 走 :root[saved-theme="dark"]
+   本文件是唯一视觉定制入口(项目铁律:Quartz 定制收进独立组件,不散改 fork)。
+   ═══════════════════════════════════════════════════════════════════════ */
+
+/* ── 普惠体:自托管子集(GB2312 常用字,~1.2MB,苹方兜底异步换) ── */
+@font-face {
+  font-family: "AlibabaPuHuiTi";
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+  src: url("/static/fonts/AlibabaPuHuiTi-subset.woff2") format("woff2");
+}
+
+:root {
+  --puhui: "AlibabaPuHuiTi", var(--headerFont), "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+
+  /* 少数派暖调中性 —— 卡片面(白)独立于页面底(米白) */
+  --pd-surface: #ffffff;
+  --pd-shadow: 0 1px 2px rgba(60, 48, 40, 0.04), 0 4px 16px rgba(60, 48, 40, 0.05);
+  --pd-shadow-hover: 0 2px 6px rgba(60, 48, 40, 0.07), 0 10px 28px rgba(60, 48, 40, 0.09);
+  /* 主色 wash 由 secondary 的 HSL(theme.ts 已算出 --accent-h/s/l)派生 */
+  --pd-accent-wash: hsl(var(--accent-h) var(--accent-s) var(--accent-l) / 0.08);
+
+  /* 8 大类色带(亮) */
+  --c-智能体: #3e938a;
+  --c-AI安全: #c1584b;
+  --c-AI编程: #5566b8;
+  --c-产品方法: #8a66a8;
+  --c-增长与销售: #bf922f;
+  --c-组织与领导力: #57789a;
+  --c-创业与行业: #c0743f;
+  --c-职业与个人成长: #6b9a54;
+}
+
+:root[saved-theme="dark"] {
+  --pd-surface: #232120;
+  --pd-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 4px 16px rgba(0, 0, 0, 0.28);
+  --pd-shadow-hover: 0 2px 6px rgba(0, 0, 0, 0.32), 0 10px 28px rgba(0, 0, 0, 0.4);
+  --pd-accent-wash: hsl(var(--accent-h) var(--accent-s) var(--accent-l) / 0.14);
+  --c-智能体: #52b3a8;
+  --c-AI安全: #e0776a;
+  --c-AI编程: #7b8be0;
+  --c-产品方法: #ad86ce;
+  --c-增长与销售: #dcb04e;
+  --c-组织与领导力: #7699be;
+  --c-创业与行业: #e0925a;
+  --c-职业与个人成长: #8cbd72;
+}
+
+/* ── 标题一律普惠体(全站生效:首页卡片 + 单集页正文标题)── */
+h1, h2, h3, h4,
+.bases-card-title,
+.bases-board-card-title,
+article h1, article h2, article h3 {
+  font-family: var(--puhui);
+  letter-spacing: 0.2px;
+}
+
+/* ════════════ 首页 · 8 大类速览 chips ════════════ */
+.home-cats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0.4rem 0 1.4rem;
+}
+.home-cat {
+  font-size: 0.82rem;
+  padding: 0.28rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--lightgray);
+  background: var(--pd-surface);
+  color: var(--darkgray);
+  text-decoration: none !important;
+  transition: border-color 0.14s ease, color 0.14s ease, background 0.14s ease;
+}
+.home-cat:hover {
+  border-color: var(--secondary);
+  color: var(--secondary);
+  background: var(--pd-accent-wash);
+}
+
+/* ════════════ 首页 · 视图页签(最新/全部/按主题)════════════ */
+.bases-view-tabs {
+  display: flex;
+  gap: 0;
+  border-bottom: 1px solid var(--lightgray);
+  margin-bottom: 1.1rem;
+}
+.bases-view-tabs button {
+  font-family: var(--puhui);
+  font-size: 0.95rem;
+  color: var(--gray);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.55rem 0.15rem;
+  margin-right: 1.5rem;
+  position: relative;
+  transition: color 0.14s ease;
+}
+.bases-view-tabs button:hover { color: var(--darkgray); }
+.bases-view-tabs button.is-active {
+  color: var(--dark);
+  font-weight: 700;
+}
+.bases-view-tabs button.is-active::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: -1px;
+  height: 2px;
+  background: var(--secondary);
+  border-radius: 2px;
+}
+
+.bases-view-meta {
+  font-size: 0.75rem;
+  color: var(--gray);
+  margin: 0 0 0.9rem;
+}
+
+/* ════════════ 首页 · 卡片墙 ════════════ */
+.bases-cards {
+  gap: 1.1rem !important;
+}
+.bases-card {
+  position: relative;
+  overflow: hidden;
+  background: var(--pd-surface);
+  border: 1px solid var(--lightgray);
+  border-radius: 10px;
+  box-shadow: var(--pd-shadow);
+  padding: 0;
+  transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
+}
+.bases-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--pd-shadow-hover);
+  border-color: var(--gray);
+}
+
+/* 插件自带的 note.cover 色条 → 改造成左侧竖色带(覆盖内联 aspect-ratio/背景)*/
+.bases-card-color {
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  width: 3px !important;
+  height: auto !important;
+  aspect-ratio: auto !important;
+  background: var(--gray) !important; /* 默认;下方按 data-cat 覆盖 */
+  border-radius: 0;
+}
+/* 大类色带(data-cat 由 build-list.mjs 客户端脚本按主类打标)*/
+.bases-card[data-cat="智能体"]        .bases-card-color { background: var(--c-智能体) !important; }
+.bases-card[data-cat="AI 安全"]       .bases-card-color { background: var(--c-AI安全) !important; }
+.bases-card[data-cat="AI 编程"]       .bases-card-color { background: var(--c-AI编程) !important; }
+.bases-card[data-cat="产品方法"]      .bases-card-color { background: var(--c-产品方法) !important; }
+.bases-card[data-cat="增长与销售"]    .bases-card-color { background: var(--c-增长与销售) !important; }
+.bases-card[data-cat="组织与领导力"]  .bases-card-color { background: var(--c-组织与领导力) !important; }
+.bases-card[data-cat="创业与行业"]    .bases-card-color { background: var(--c-创业与行业) !important; }
+.bases-card[data-cat="职业与个人成长"] .bases-card-color { background: var(--c-职业与个人成长) !important; }
+
+.bases-card-body {
+  padding: 15px 18px 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+.bases-card-title {
+  font-size: 1.04rem;
+  font-weight: 700;
+  line-height: 1.46;
+  color: var(--dark);
+  transition: color 0.16s ease;
+}
+.bases-card:hover .bases-card-title { color: var(--secondary); }
+
+/* meta:base 的 order 固定为 日期(1)/播客(2)/时长(3)/简介(4);
+   1-3 收成一行灰字元信息,4(简介)独占一行做正文。隐藏标签(少数派不显「日期:」)。*/
+.bases-card-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.1rem 0.55rem;
+}
+.bases-card-label { display: none; }
+.bases-card-row {
+  display: inline-flex;
+  font-size: 0.77rem;
+  color: var(--gray);
+  font-variant-numeric: tabular-nums;
+}
+.bases-card-row:nth-child(1)::after,
+.bases-card-row:nth-child(2)::after {
+  content: "·";
+  margin-left: 0.55rem;
+  color: var(--gray);
+  opacity: 0.6;
+}
+.bases-card-row:nth-child(2) .bases-text { color: var(--darkgray); } /* 播客名稍重 */
+.bases-card-row:nth-child(4) {
+  flex-basis: 100%;
+  margin-top: 0.2rem;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  color: var(--darkgray);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* 已读压暗(build-list 脚本加 .ep-read)*/
+.bases-card.ep-read { opacity: 0.55; }
+.bases-card.ep-read:hover { opacity: 0.85; }
+.bases-card.ep-read .bases-card-title { font-weight: 500; }
+
+/* ════════════ 首页 · 表格视图(全部)════════════ */
+.bases-table { font-size: 0.88rem; }
+.bases-table-header { font-family: var(--puhui); color: var(--darkgray); }
+
+/* ════════════ 首页 · 看板视图(按主题)════════════ */
+.bases-board-column-header {
+  font-family: var(--puhui);
+  font-weight: 700;
+  color: var(--dark);
+}
+.bases-board-card {
+  background: var(--pd-surface);
+  border: 1px solid var(--lightgray);
+  border-radius: 8px;
+  box-shadow: var(--pd-shadow);
+  transition: box-shadow 0.14s ease, transform 0.14s ease;
+}
+.bases-board-card:hover { box-shadow: var(--pd-shadow-hover); transform: translateY(-1px); }
+.bases-board-card-label { color: var(--gray); }
+
+/* 空状态 */
+.ep-empty-site {
+  padding: 2rem;
+  text-align: center;
+  color: var(--gray);
+  border: 1px dashed var(--lightgray);
+  border-radius: 12px;
+}
+
+/* 框架自动日期/阅读时长对首页无意义 */
+.page-header .content-meta { display: none; }
+
+/* ── 手机端微调 ── */
+@media (max-width: 600px) {
+  .bases-cards { grid-template-columns: 1fr !important; }
+  .bases-view-tabs button { margin-right: 1.1rem; font-size: 0.9rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bases-card, .bases-card-title, .home-cat, .bases-board-card { transition: none; }
+}
