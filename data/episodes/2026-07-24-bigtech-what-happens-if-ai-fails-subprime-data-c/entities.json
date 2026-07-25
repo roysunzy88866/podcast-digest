@@ -1,0 +1,1439 @@
+{
+  "episode_id": "2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c",
+  "podcast": "Big Technology Podcast",
+  "date": "2026-07-24",
+  "tags": [
+    "AI 基础设施",
+    "资本支出",
+    "AI 经济基本面",
+    "表外债务",
+    "财富效应"
+  ],
+  "categories": [
+    "创业与行业",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "ranjan-roy",
+      "type": "person",
+      "role": "host",
+      "name": "Ranjan Roy",
+      "file": "Ranjan Roy",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            126.518,
+            129.803
+          ],
+          "quote": "Joining us as always on Friday to do it is Ranjan Roy of Margins.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "alex",
+      "type": "person",
+      "role": "cohost",
+      "name": "Alex",
+      "file": "Alex",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            131.766,
+            132.747
+          ],
+          "quote": "Good to see you, Alex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            958.788,
+            961.228
+          ],
+          "quote": "Yeah, Alex, I like my markets healthy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1494.582,
+            1497.704
+          ],
+          "quote": "Because they didn't listen to Alex Gantrowitz.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1650.122,
+            1651.383
+          ],
+          "quote": "follow Alex's advice.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集把它说成:把 AI 基础设施支出预期上调至超 2000 亿美元后股价下跌的巨头,它本季度可能首次出现预计负自由现金流,被视为引发市场合理化回调的关键节点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 100,
+          "t": [
+            496.15,
+            523.715
+          ],
+          "quote": "what we've seen in the market especially this week and whether that's just kind of like a slight correction or whether it actually signifies something much deeper and we're going to get into google spending and free cash flow and which i think is actually really notable um to to me time frame it with the whole ai discussion i've said this regularly like the time frame is the most interesting part of the entire thing because you know if",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            524.555,
+            530.798
+          ],
+          "quote": "Google is investing now for two to three years down the road, and you're really not going to see anything or maybe even a year down the road.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            575.263,
+            597.665
+          ],
+          "quote": "right like that's basically been the logic and this could really unravel very quickly if the big tech companies like a google like microsoft like meta determine hey maybe we don't need to you know make these massive infrastructure spends and we can have some of the benefits of ai uh from from you know other sources do you think",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            693.574,
+            711.604
+          ],
+          "quote": "be a cause of concern if you're not one of them in terms of well how are you going to make money off of this and then i think by the way you mentioned google earnings right that leads right into this big problem with google so google this week is down like eight percent and it dropped immediately after its earnings after its capex uh went from um",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            768.695,
+            775.939
+          ],
+          "quote": "And Google became this linchpin, I think, because it's not having the model success as OpenAI and Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            789.167,
+            790.408
+          ],
+          "quote": "Now, cloud is growing for Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            922.39,
+            925.891
+          ],
+          "quote": "And I'll go to a tweet from Mr. Ron John Roy this week about the Google product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 184,
+          "t": [
+            1057.521,
+            1066.546
+          ],
+          "quote": "Like, again, the reason this raised alarm bells is I think this was Google's first quarter of projected negative free cash flow ever.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1103.978,
+            1121.837
+          ],
+          "quote": "meta and Google and everyone just looking at each other and again Microsoft is not doing this like all of them looking each other in the eye and being like alright you're going for it I'm going for it we're all gonna like sink or swim on this and just shovel money in and see what happens that's my healthy market",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1224.056,
+            1230.963
+          ],
+          "quote": "I want Google, Microsoft, Meta, Amazon to believe this is an incremental technology.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1967.549,
+            1987.101
+          ],
+          "quote": "Nikkei Asia reported this week that Meta, Google, Amazon, Microsoft, and Oracle have accrued around $1.65 trillion in outstanding debt over the last five years with an additional hundreds of billions of dollars worth of off-balance sheet debt, meaning that the corporate structure allows the company to not include it as part of its liabilities.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 348,
+          "t": [
+            2047.126,
+            2059.053
+          ],
+          "quote": "Now, even Google metastock, when you have $46 billion of exposure, a bunch of circular financing and revenue recognition that none of us have any really clear idea on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 349,
+          "t": [
+            2059.993,
+            2072.884
+          ],
+          "quote": "And like that level of risk and and Ed does continue about how he's estimating 70 percent of this capacity from Microsoft, Amazon, Google is open AI and anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2784.814,
+            2794.645
+          ],
+          "quote": "Google missed, you know, the chatbot moment and only entered because of, you know, chat GPT and sort of you think about the enterprise side of things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 539,
+          "t": [
+            3099.731,
+            3103.214
+          ],
+          "quote": "If someone has a grievance against your company, the first place they turn to is Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 686,
+          "t": [
+            3790.892,
+            3794.636
+          ],
+          "quote": "So I think that like the Google thing might have just been the beginning.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集把它说成:尚未实现长期盈利、但已被大型科技公司依赖其持续付钱来支撑 AI 数据中心债务的 AI 实验室,其 API 开放策略被质疑与「AGI 或破产」叙事自相矛盾。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            654.436,
+            664.347
+          ],
+          "quote": "But I do think that this is a cumulative situation of the models getting cheaper, people showing that models outside of OpenAI and Anthropic can work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            664.668,
+            670.975
+          ],
+          "quote": "OpenAI and Anthropic not really being close, at least in their projections, to long-term profitability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            768.695,
+            775.939
+          ],
+          "quote": "And Google became this linchpin, I think, because it's not having the model success as OpenAI and Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            918.169,
+            922.35
+          ],
+          "quote": "And the only ones that seem to have the product momentum are OpenAI and Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 173,
+          "t": [
+            992.02,
+            1005.589
+          ],
+          "quote": "The market rewarding Oracle for taking on a bunch of debt and all these crazy commits from OpenAI and these deals being structured around these very optimistic, if not crazy, scenarios and being rewarded for it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1220.913,
+            1223.436
+          ],
+          "quote": "Let's say you're OpenAI, because OpenAI is the most likely candidate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1372.857,
+            1380.18
+          ],
+          "quote": "Do you think anyone other than OpenAI and Anthropic still believe that as of Friday, July 24th today?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1386.944,
+            1393.567
+          ],
+          "quote": "Which is that OpenAI and Anthropic have been sellers of intelligence, not products, effectively.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1452.945,
+            1460.227
+          ],
+          "quote": "And I'm going to go upstream and make OpenAI CRM, OpenAI design, OpenAI customer service.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1748.48,
+            1751.543
+          ],
+          "quote": "let's say OpenAI, they are actually signing a deal with the SPV.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 356,
+          "t": [
+            2103.597,
+            2106.818
+          ],
+          "quote": "Everyone else fails in OpenAI and Anthropic come out okay.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 379,
+          "t": [
+            2181.155,
+            2199.322
+          ],
+          "quote": "The only way that this doesn't end up in a disaster is if basically OpenAI and Anthropic have the exponential increases in revenue continue in a way that will have to be massive to pay this money back.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2199.762,
+            2205.864
+          ],
+          "quote": "And if OpenAI and Anthropic's revenues do not continue to accelerate exponentially,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2237.053,
+            2247.237
+          ],
+          "quote": "OpenAI and Anthropics certainly are holding some bags there because that's basically saying that they're not going to be like going entities at a certain point.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 398,
+          "t": [
+            2296.858,
+            2301
+          ],
+          "quote": "And again, I feel like the expectation set, OpenAI, like...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2437.551,
+            2444.079
+          ],
+          "quote": "I don't think anybody would have predicted OpenAI and Anthropic getting to $120 billion as quickly as they have.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2620.366,
+            2638.751
+          ],
+          "quote": "with a smile on his face, or John Ternus, as per our Ternus fanfic from last week, on stage, acquired OpenAI for far less than the value of even their, like, three rounds ago, saying Siri is finally going to get actually good.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2661.958,
+            2671.08
+          ],
+          "quote": "I was going to say, you know, if we hadn't seen the past month play out the way that it has for SpaceX, you know, does Elon go full circle and acquire OpenAI?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2724.097,
+            2732.624
+          ],
+          "quote": "I guess I'm curious, I saw this one tweet around OpenAI and we had brought this up on the show last week about how...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2794.745,
+            2796.848
+          ],
+          "quote": "OpenAI has sparked that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2797.789,
+            2805.577
+          ],
+          "quote": "I think it would be, the energy of a company like OpenAI is overall good despite its shortcomings and it has plenty.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集把它说成:与 OpenAI 并列的「双重故障点」,两者必须保持指数级收入增长才能撑起万亿规模的 AI 数据中心表外债务链条。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            654.436,
+            664.347
+          ],
+          "quote": "But I do think that this is a cumulative situation of the models getting cheaper, people showing that models outside of OpenAI and Anthropic can work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            664.668,
+            670.975
+          ],
+          "quote": "OpenAI and Anthropic not really being close, at least in their projections, to long-term profitability.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            672.376,
+            692.974
+          ],
+          "quote": "more and more models like meta and grok you know being cheaper and um you know effectively the gains not really being found outside of opening eye and anthropic right so so those two companies which you've talked about as the sort of dual points of failure in this whole thing um you know i think that that is starting to you know",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            768.695,
+            775.939
+          ],
+          "quote": "And Google became this linchpin, I think, because it's not having the model success as OpenAI and Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            918.169,
+            922.35
+          ],
+          "quote": "And the only ones that seem to have the product momentum are OpenAI and Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1372.857,
+            1380.18
+          ],
+          "quote": "Do you think anyone other than OpenAI and Anthropic still believe that as of Friday, July 24th today?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1386.944,
+            1393.567
+          ],
+          "quote": "Which is that OpenAI and Anthropic have been sellers of intelligence, not products, effectively.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1594.296,
+            1602.2
+          ],
+          "quote": "Like, you know, there's that moment of giving Anthropic access to your systems and they're just going to copy your products, which I do feel...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 349,
+          "t": [
+            2059.993,
+            2072.884
+          ],
+          "quote": "And like that level of risk and and Ed does continue about how he's estimating 70 percent of this capacity from Microsoft, Amazon, Google is open AI and anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            2078.577,
+            2089.762
+          ],
+          "quote": "like all of the other side of the trade are open AI and Anthropic actually being able to meet these commitments and give them that money to fund this SPV to actually make the whole thing work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 356,
+          "t": [
+            2103.597,
+            2106.818
+          ],
+          "quote": "Everyone else fails in OpenAI and Anthropic come out okay.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 379,
+          "t": [
+            2181.155,
+            2199.322
+          ],
+          "quote": "The only way that this doesn't end up in a disaster is if basically OpenAI and Anthropic have the exponential increases in revenue continue in a way that will have to be massive to pay this money back.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2199.762,
+            2205.864
+          ],
+          "quote": "And if OpenAI and Anthropic's revenues do not continue to accelerate exponentially,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 400,
+          "t": [
+            2306.458,
+            2312.78
+          ],
+          "quote": "Anthropic from the release of Cloud Code for like six, seven months was in perfect execution mode.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2437.551,
+            2444.079
+          ],
+          "quote": "I don't think anybody would have predicted OpenAI and Anthropic getting to $120 billion as quickly as they have.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": true,
+      "how_described": "本集把它说成:拥有 187 亿美元营收却支撑着 1.5 万亿美元天价市值的公司,近期股价已显著回落,并可能在未来与特斯拉合并。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            6.715,
+            8.677
+          ],
+          "quote": "And will SpaceX and Tesla merge?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 25,
+          "t": [
+            113.066,
+            120.09
+          ],
+          "quote": "We're going to talk about whether we're heading towards a subprime data center crisis and how bad SpaceX can get.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            347.353,
+            351.937
+          ],
+          "quote": "So this stuff, and that's not counting SpaceX, which we're going to talk about later.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2548.429,
+            2555.935
+          ],
+          "quote": "If you are a retail shareholder of Micron or SpaceX or whatever else,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2661.958,
+            2671.08
+          ],
+          "quote": "I was going to say, you know, if we hadn't seen the past month play out the way that it has for SpaceX, you know, does Elon go full circle and acquire OpenAI?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2671.641,
+            2676.282
+          ],
+          "quote": "It actually could happen in the combined Tesla and SpaceX entity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 559,
+          "t": [
+            3177.467,
+            3186.274
+          ],
+          "quote": "You have brought up that you want to talk about whether SpaceX and Tesla might merge and how steep the fall of SpaceX could be.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 562,
+          "t": [
+            3195.386,
+            3202.572
+          ],
+          "quote": "I think those are two separate questions around, you know, will SpaceX and Tesla merge?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 563,
+          "t": [
+            3202.592,
+            3204.913
+          ],
+          "quote": "And then the other is what is actually happening with SpaceX?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 564,
+          "t": [
+            3204.973,
+            3212.119
+          ],
+          "quote": "As we're recording, SpaceX is at around $114, which is still $1.5 trillion in market cap.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 586,
+          "t": [
+            3319.066,
+            3326.569
+          ],
+          "quote": "I mean, I think the next month and a half are going to be really, really interesting for SpaceX itself before we get into the merger.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 588,
+          "t": [
+            3338.013,
+            3341.735
+          ],
+          "quote": "You know, I will recall before SpaceX went public, I...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 606,
+          "t": [
+            3414.338,
+            3417.58
+          ],
+          "quote": "a billion market cap, and again, SpaceX, 1.5 trillion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 612,
+          "t": [
+            3432.85,
+            3441.936
+          ],
+          "quote": "But he had already on Tesla's earnings call, you know, said, as you can tell from the many collaborations on so many fronts with SpaceX, there's more and more overlap there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 618,
+          "t": [
+            3464.849,
+            3469.334
+          ],
+          "quote": "SpaceX kind of has a space business, still has an internet satellite business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 628,
+          "t": [
+            3503.399,
+            3512.964
+          ],
+          "quote": "Actually, I'm going back to this SpaceX IPO because, you know, we we we reacted that week and we called it SpaceX or I called it SpaceX's IPO triumph.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 665,
+          "t": [
+            3661.882,
+            3676.35
+          ],
+          "quote": "When discussing Elon Musk, I mean, we can get into what it actually means for the overall economy and society versus he executed the SpaceX IPO to benefit...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 666,
+          "t": [
+            3677.396,
+            3705.321
+          ],
+          "quote": "existing shareholders of spacex very well yeah and only some of my nuance okay we'll take it do you think all right we recon you and i will still have the friday show going but you and i reconvene uh 21st of august has that move has that move been announced oh the merge okay oh let's get into predictions for 21st of august and i think that's a good way to walk out of here uh",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 671,
+          "t": [
+            3728.779,
+            3730.88
+          ],
+          "quote": "Does that benefit SpaceX or Tesla more?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tesla",
+      "type": "company",
+      "role": "company",
+      "name": "Tesla",
+      "file": "Tesla",
+      "primary": true,
+      "how_described": "本集探讨了其与 SpaceX 合并是否具有可行性，主持人认为两者本质上都是对埃隆·马斯克的押注，合并几乎不可避免。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            6.715,
+            8.677
+          ],
+          "quote": "And will SpaceX and Tesla merge?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 26,
+          "t": [
+            120.83,
+            126.138
+          ],
+          "quote": "and whether it's planned to merge with Tesla are currently even feasible.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2671.641,
+            2676.282
+          ],
+          "quote": "It actually could happen in the combined Tesla and SpaceX entity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 559,
+          "t": [
+            3177.467,
+            3186.274
+          ],
+          "quote": "You have brought up that you want to talk about whether SpaceX and Tesla might merge and how steep the fall of SpaceX could be.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 562,
+          "t": [
+            3195.386,
+            3202.572
+          ],
+          "quote": "I think those are two separate questions around, you know, will SpaceX and Tesla merge?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 604,
+          "t": [
+            3405.093,
+            3407.974
+          ],
+          "quote": "Okay, more interesting, are they going to merge with Tesla?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 605,
+          "t": [
+            3408.295,
+            3412.477
+          ],
+          "quote": "Because I put down the market caps before we started talking and Tesla's at a 970 market cap.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 612,
+          "t": [
+            3432.85,
+            3441.936
+          ],
+          "quote": "But he had already on Tesla's earnings call, you know, said, as you can tell from the many collaborations on so many fronts with SpaceX, there's more and more overlap there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 617,
+          "t": [
+            3461.045,
+            3464.749
+          ],
+          "quote": "These two companies, again, Tesla has a car business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 624,
+          "t": [
+            3488.87,
+            3498.938
+          ],
+          "quote": "And remember, Tesla had an AI story to it that's kind of gone away, which is not good for a car company because it can never be valued as a car company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 671,
+          "t": [
+            3728.779,
+            3730.88
+          ],
+          "quote": "Does that benefit SpaceX or Tesla more?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 675,
+          "t": [
+            3743.031,
+            3756.234
+          ],
+          "quote": "They're both incredibly overvalued companies that are betting on a much larger promise of a robotic economy that Tesla and Optimus robots everywhere or data centers in space.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "oracle",
+      "type": "company",
+      "role": "company",
+      "name": "Oracle",
+      "file": "Oracle",
+      "primary": false,
+      "how_described": "本集把它说成:此前因承诺在未经验证的 AI 技术上大举借债投资而被市场疯狂奖励,现已从 9 月的峰值大幅下跌 65% 的科技公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 143,
+          "t": [
+            828.781,
+            833.163
+          ],
+          "quote": "Again, Oracle is down 65% from the peak up back in September.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            992.02,
+            1005.589
+          ],
+          "quote": "The market rewarding Oracle for taking on a bunch of debt and all these crazy commits from OpenAI and these deals being structured around these very optimistic, if not crazy, scenarios and being rewarded for it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 339,
+          "t": [
+            1967.549,
+            1987.101
+          ],
+          "quote": "Nikkei Asia reported this week that Meta, Google, Amazon, Microsoft, and Oracle have accrued around $1.65 trillion in outstanding debt over the last five years with an additional hundreds of billions of dollars worth of off-balance sheet debt, meaning that the corporate structure allows the company to not include it as part of its liabilities.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2262.482,
+            2270.846
+          ],
+          "quote": "And that's kind of been what has been hammering Oracle is that very quickly, especially because that was actually, to their credit, straightforward debt fuel.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": true,
+      "how_described": "本集把它说成:一种要么赢者通吃要么全盘皆输的终极叙事(AGI 或破产),但嘉宾指出随着模型路径多元化,如今除了 OpenAI 和 Anthropic 几乎没人再信这套。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            566.414,
+            574.342
+          ],
+          "quote": "Right, because ultimately, like, everyone has gone along, you know, with the story of more spending will inevitably be worth it because AGI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            948.848,
+            956.155
+          ],
+          "quote": "I feel like it's either, you know, you go all in and you're going to build AGI and that'll be worth a ton of money or you don't.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1122.277,
+            1149.272
+          ],
+          "quote": "right but i'm asking like what is the narrative about ai like what does the market believe about let me let me just get the question out yeah uh like right now like basically the market is investing blank check there's going to be agi um you know if there's if there's a complete pullback basically it means like this is not an economically feasible technology so does the market thesis then sort of become uh you know ai might not be like the next i don't know iphone or the next",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1149.792,
+            1172.438
+          ],
+          "quote": "internet uh but it will be this sort of helpful um new mode of computing and we will actually this might make sense and we will just keep investing in it to grow incrementally um and and sort of make our bets that way you know have big tech make their bets that way versus let's say and we're going to talk about it with paul kadrowski in a couple weeks but a call option on agi",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1180.792,
+            1186.076
+          ],
+          "quote": "And I love that call option on AGI that you just put all your money in and either it works or it doesn't.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1327.93,
+            1334.26
+          ],
+          "quote": "if one company reaches AGI before others, does everyone else lose and only they win?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1367.873,
+            1372.177
+          ],
+          "quote": "And that idea that AGI or bust, whoever wins owns the entire thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1411.104,
+            1421.534
+          ],
+          "quote": "Because the only way you reach AGI and still lose is if you make that AGI available to others.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1423.475,
+            1431.939
+          ],
+          "quote": "And the way that you reach AGI and win is if you hoard it and basically say, I've been making all these models available.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1462.988,
+            1463.988
+          ],
+          "quote": "You want the power of AGI?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1481.838,
+            1489.439
+          ],
+          "quote": "And I think if you believe it, that the AGI or bus story, that actually is the right strategy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1521.741,
+            1533.547
+          ],
+          "quote": "If you have very distinct strategies for the frontier labs, our strategy is it's always been about AGI or Bust owning the intelligence, turning that into products.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1643.028,
+            1647.83
+          ],
+          "quote": "Well, to Sam and Dario, I say, I think if you are AGI or BUS,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1679.665,
+            1682.668
+          ],
+          "quote": "If you're close to AGI, own it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2108.618,
+            2109.658
+          ],
+          "quote": "Oh, I guess the AGI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 359,
+          "t": [
+            2109.798,
+            2110.298
+          ],
+          "quote": "AGI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 363,
+          "t": [
+            2113.619,
+            2116.379
+          ],
+          "quote": "I thought Sam said AGI is not a thing anymore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 369,
+          "t": [
+            2126.401,
+            2132.622
+          ],
+          "quote": "He basically talked about how we should probably agree that we've kind of breezed past AGI and are on our way to super intelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2592.07,
+            2619.225
+          ],
+          "quote": "know basically triple levered on reaching agi you know so to speak and is an outcome that we could potentially see is everything that ed anticipates comes to fruition and that they can't pay back these contracts leads to debt they can't raise any more money um do we end up like seeing them be acquired by yeah big tech companies and just imagine you know amazon and microsoft on stage",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2733.249,
+            2742.453
+          ],
+          "quote": "them not being able to invest in AGI by having normal business pressures is effectively negative for the economy and humanity.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2862.693,
+            2867.375
+          ],
+          "quote": "And I think that's what the promise of AGI and the conversation around it is created.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "subprime-data-center-crisis",
+      "type": "concept",
+      "role": "concept",
+      "name": "次级数据中心危机 (subprime data center crisis)",
+      "file": "次级数据中心危机",
+      "primary": true,
+      "how_described": "本集把它说成:评论家 Ed Zitron 提出的概念,指 AI 数据中心通过 SPV 筹集并切片打包的巨额表外债务,其偿付极度依赖少数公司,被类比为 2008 年次贷危机。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            113.066,
+            120.09
+          ],
+          "quote": "We're going to talk about whether we're heading towards a subprime data center crisis and how bad SpaceX can get.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1701.664,
+            1704.666
+          ],
+          "quote": "He calls it the subprime data center crisis.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "capex",
+      "type": "concept",
+      "role": "concept",
+      "name": "资本支出 (Capex)",
+      "file": "资本支出",
+      "primary": true,
+      "how_described": "本集把它说成:科技巨头在 AI 基础设施上的激进投入,当 Google 的支出预期突破 2000 亿美元这条红线时,市场开始惩戒其股票,并质问回报在哪里。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 115,
+          "t": [
+            618.512,
+            623.034
+          ],
+          "quote": "So that whole CapEx story doesn't quite make as much sense?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            693.574,
+            711.604
+          ],
+          "quote": "be a cause of concern if you're not one of them in terms of well how are you going to make money off of this and then i think by the way you mentioned google earnings right that leads right into this big problem with google so google this week is down like eight percent and it dropped immediately after its earnings after its capex uh went from um",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 687,
+          "t": [
+            3794.696,
+            3796.338
+          ],
+          "quote": "Let's see what Amazon says on CapEx.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 688,
+          "t": [
+            3796.358,
+            3798.039
+          ],
+          "quote": "Let's see what Microsoft says on CapEx.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "wealth-effect",
+      "type": "concept",
+      "role": "concept",
+      "name": "财富效应 (wealth effect)",
+      "file": "财富效应",
+      "primary": true,
+      "how_described": "本集把它说成:一种经济现象,指投资组合每涨 100 美元消费就增加约 3 美元,反向亦然;目前股市若下跌 30% 可能引发近 7000 亿美元的消费收缩。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            221.406,
+            232.074
+          ],
+          "quote": "Economic research has found that for every $100 investor gain in their stock portfolios, they spend about $3 more on goods and services, a phenomenon known as the wealth effect.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            232.395,
+            234.656
+          ],
+          "quote": "But the wealth effect also operates in reverse.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 52,
+          "t": [
+            283.618,
+            292.185
+          ],
+          "quote": "Well, I think when we examine it in terms of the wealth effect, I think it's always a little difficult of what you can actually directly attribute.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            296.228,
+            303.614
+          ],
+          "quote": "But I would also say anyone who tried to get tickets during that could feel the wealth effect just front and center when people...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            308.955,
+            319.177
+          ],
+          "quote": "So I think in all kinds of especially luxury spending, we've seen the wealth effect live and very present.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2531.556,
+            2546.708
+          ],
+          "quote": "And so the knock-on effects, the actual acceleration of housing prices declining, leading to instant wealth effect issues versus anyone who has been able to invest in a Hyperion SPV, you're going to be doing okay.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spv",
+      "type": "concept",
+      "role": "concept",
+      "name": "SPV",
+      "file": "SPV",
+      "primary": true,
+      "how_described": "本集把它说成:独立于母公司的小型法律实体,被用来为数据中心筹集债务、购买 Nvidia GPU 并隐藏风险,将数千亿美元的表外债务切碎散布到整个经济中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 303,
+          "t": [
+            1742.015,
+            1744.497
+          ],
+          "quote": "Think of SPV as its own little company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1748.48,
+            1751.543
+          ],
+          "quote": "let's say OpenAI, they are actually signing a deal with the SPV.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1752.024,
+            1765.618
+          ],
+          "quote": "When the SPV receives funds from the debt it raises, it makes payments to contractors and suppliers like Nvidia for GPUs and receives the revenue from the customer contract assuming said customer is paying or has anything to pay for.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1766.098,
+            1773.946
+          ],
+          "quote": "During construction, interest payments are taken out of the SPV from a pre-funded interest reserve account when a customer pays.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1774.346,
+            1781.754
+          ],
+          "quote": "The SPV uses those funds to pay for operating expenses of the data centers and then creditors based on their seniority and debt.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 343,
+          "t": [
+            2003.547,
+            2012.875
+          ],
+          "quote": "So Meta recorded $88.6 billion in capital expenditures, but that doesn't include the Hyperion SPV, which had its own $46 billion of exposure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 351,
+          "t": [
+            2078.577,
+            2089.762
+          ],
+          "quote": "like all of the other side of the trade are open AI and Anthropic actually being able to meet these commitments and give them that money to fund this SPV to actually make the whole thing work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2531.556,
+            2546.708
+          ],
+          "quote": "And so the knock-on effects, the actual acceleration of housing prices declining, leading to instant wealth effect issues versus anyone who has been able to invest in a Hyperion SPV, you're going to be doing okay.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2580.864,
+            2583.925
+          ],
+          "quote": "Not everyone is able to invest in the Hyperion SPV.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "type": "concept",
+      "role": "concept",
+      "name": "蒸馏 (distillation)",
+      "file": "蒸馏",
+      "primary": false,
+      "how_described": "本集把它说成:一种窃取模型能力的手段(用大模型输出去训练小模型);如果前沿实验室真信赢者通吃,逻辑上就该切断 API 专有化模型以防被蒸馏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 249,
+          "t": [
+            1466.654,
+            1470.335
+          ],
+          "quote": "And by the way, that also prevents some distillation as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1675.222,
+            1678.504
+          ],
+          "quote": "And then you're complaining about distillation, et cetera, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 555,
+          "t": [
+            3158.271,
+            3165.818
+          ],
+          "quote": "So maybe, Ranjan, you and I, when we come back, we can talk a little bit more about distillation and whether open source AI should exist.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agentic-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 AI (agentic AI)",
+      "file": "智能体 AI",
+      "primary": false,
+      "how_described": "本集把它说成:嘉宾明确表示在中期依然非常看好的领域,也是能让市场相信 AI 是一项渐进式而非非黑即白投资的关键理由。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 178,
+          "t": [
+            1017.593,
+            1025.975
+          ],
+          "quote": "And again, as regular listeners know, I'm very optimistic about at least the medium term and the world of agentic AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
