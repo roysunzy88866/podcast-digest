@@ -1005,6 +1005,10 @@ Scenario 1 [判官核心] 标题+简介 → 三档判定
   Given 一条 RSS item(title + description/itunes:summary)与 `内容品味档案.md` 的 ✅/❌/🔶 三段
   When judge-taste.mjs 把「品味档案全文 + 本集标题 + 简介」点对点喂给 GLM-4.6(一次一集,不给别的候选,防相对比较偏见)
   Then 返回 {verdict: "publish"|"skip"|"undecided", reason: <人话一句>, matched: <命中的档案类目>}
+  And 🔑 最高原则(用户 2026-07-25 二次拍板,凌驾所有细则):**杀掉肯定不是的,不杀可能是的**
+      —— skip 需举证「明确撞某条 ❌ 且找不出合理 ✅ 解释」;只要存在说得通的 ✅ 解释就不许 skip
+      —— 有疑问 → publish(不是 skip,也不是 undecided)
+      —— undecided 收窄为「标题+简介信息量不足以判断这是什么内容」,不再是「两边都沾」的出口
   And verdict 只认这三个字面值,返回别的 → 当 "undecided" 处理(fail-safe:绝不因解析失败而误发)
   And 判官**不读转写稿**(此时还没转写)
 
