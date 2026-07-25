@@ -18,6 +18,16 @@ export function taxonomyCategories() {
   return Object.keys(tax.vocabulary ?? {});
 }
 
+/** slug → 主类(首个大类):供首页卡片左侧色带按大类上色(人工映射优先,CLAUDE.md 铁律) */
+export function episodeCategoryMap() {
+  const tax = JSON.parse(readFileSync(join(ROOT, "data/tag-taxonomy.json"), "utf8"));
+  const out = {};
+  for (const [slug, cats] of Object.entries(tax.episodes ?? {})) {
+    if (Array.isArray(cats) && cats.length) out[slug] = cats[0];
+  }
+  return out;
+}
+
 /**
  * 全部集 → 首页 markdown。空站 → 友好空状态(US-1a)。
  * episodes 仅用于空站判断与集数注释;数据本身由 Bases 在构建期从集页 frontmatter 现查。
@@ -109,7 +119,7 @@ views:
 ${baseBlock}
 
 ${STYLE}
-${SCRIPT}
+${scriptBlock(episodeCategoryMap())}
 `;
 }
 
@@ -125,8 +135,9 @@ const STYLE = `<style>
 .ep-empty-site{padding:2rem;text-align:center;color:var(--gray);border:1px dashed var(--lightgray);border-radius:12px}
 </style>`;
 
-const SCRIPT = `<script>
+const scriptBlock = (catMap) => `<script>
 (function(){
+  var CAT=${JSON.stringify(catMap)};
   function init(){
     var root=document.querySelector('.bases-view-container'); if(!root||root.__epInit) return; root.__epInit=1;
     // 已读压暗(客户端 localStorage;键沿用 pd-read,老已读史不丢)
@@ -135,6 +146,8 @@ const SCRIPT = `<script>
     var cards=[].slice.call(root.querySelectorAll('.bases-card'));
     cards.forEach(function(c){
       var slug=c.dataset.slug; if(!slug) return;
+      // 左侧色带按主类上色(CSS 认 data-cat;缺映射则留默认灰带)
+      if(CAT[slug]) c.setAttribute('data-cat', CAT[slug]);
       if(read.has(slug)) c.classList.add('ep-read');
       c.addEventListener('click', function(){ read.add(slug); try{localStorage.setItem(KEY, JSON.stringify([...read]));}catch(e){} });
     });
