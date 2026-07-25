@@ -8,7 +8,7 @@ unlisted: true
 # Claude
 
 > [!info] 公司
-> 出现在 5 集 · 金句 1 条 · 关联 10 个
+> 出现在 6 集 · 金句 2 条 · 关联 10 个
 
 ## 集里怎么说它
 
@@ -17,10 +17,13 @@ unlisted: true
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]]**(17:32起):本集提到作为构建工具时大量使用的 AI 产品，比如用 Claude Code 进行 vibe coding、写智能体淘汰自己或修复糟糕软件。
 - **[[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]]**(01:12起):本集指出如今人们独自泡在各自的 Claude 界面中，这里安静且孤独，失去了曾经社交网络那种能带来意外惊喜的「鸡尾酒会」氛围。
 - **[[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]]**(42:26起):本集提到它在为我们编写代码,并强调了当它擅长编写安全代码时的潜力。
+- **[[2026-07-13-pg-the-complete-claude-stack-for-pms|《PM 如何用 Claude 把生产力提升 10 倍：全栈实战》]]**(01:49起):本集的核心主角。嘉宾完整分享了 Claude 的五层架构栈（模型、界面、知识库、集成、智能体与编排），教你如何利用整个 Claude 生态系统将日常生产力提升 10 倍。
 
 ## 金句
 
 ![[2026-06-14-lennys-the-common-pattern-behind-successful#^q13]]
+
+![[2026-07-13-pg-the-complete-claude-stack-for-pms#^q1]]
 
 ## 出现在这些集
 
@@ -29,7 +32,8 @@ unlisted: true
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] — 作为被讨论公司(提及)
 - [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] — 作为被讨论公司(提及)
 - [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] — 作为概念(提及)
+- [[2026-07-13-pg-the-complete-claude-stack-for-pms|《PM 如何用 Claude 把生产力提升 10 倍：全栈实战》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Lenny]] · [[Anthropic]] · [[智能体]] · [[Codex]] · [[Edwin Chen]] · [[Jenny Wen]] · [[Nikhyl Singhal]] · [[Mark Pincus]] · [[Zico Kolter]] · [[Surge AI]]
+[[Lenny]] · [[智能体]] · [[Anthropic]] · [[vibe coding]] · [[Claude Code]] · [[Codex]] · [[红队测试]] · [[Edwin Chen]] · [[Jenny Wen]] · [[Nikhyl Singhal]]

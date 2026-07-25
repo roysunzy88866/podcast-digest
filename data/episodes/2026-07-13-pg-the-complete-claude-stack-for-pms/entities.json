@@ -1,0 +1,1559 @@
+{
+  "episode_id": "2026-07-13-pg-the-complete-claude-stack-for-pms",
+  "podcast": "Product Growth Podcast",
+  "date": "2026-07-13",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "产品经理",
+    "工作流自动化",
+    "红队测试"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "aakash-gupta",
+      "type": "person",
+      "role": "host",
+      "name": "Aakash Gupta",
+      "file": "Aakash Gupta",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "jyothi-nookula",
+      "type": "person",
+      "role": "cohost",
+      "name": "Jyothi Nookula",
+      "file": "Jyothi Nookula",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集的核心主角。嘉宾完整分享了 Claude 的五层架构栈（模型、界面、知识库、集成、智能体与编排），教你如何利用整个 Claude 生态系统将日常生产力提升 10 倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            109.387,
+            113.309
+          ],
+          "quote": "so i've been thinking about something we've had advanced tutorials on claude code",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            118.652,
+            121.703
+          ],
+          "quote": "the entire claude ecosystem and make the most out of it",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            158.026,
+            161.909
+          ],
+          "quote": "to break down for all the beginners how to make the most out of claude today",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            369.569,
+            376.231
+          ],
+          "quote": "in it's this layer that makes claude go from being a generic chatbot",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            755.332,
+            761.176
+          ],
+          "quote": "i also use claude for chrome plugins especially it's very helpful if you want",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 163,
+          "t": [
+            767.421,
+            773.826
+          ],
+          "quote": "to do some competitive research i'll kick it off for through my claude plugin",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            803.474,
+            807.896
+          ],
+          "quote": "an instruction to claude saying go find check check out this item",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1114.178,
+            1118.821
+          ],
+          "quote": "to focus on what needs my attention immediately claude can sometimes pump you up",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1326.819,
+            1328.4750000000001
+          ],
+          "quote": "and now you can just build it in claude",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1502.549,
+            1506.591
+          ],
+          "quote": "the assignee on those and set up an automation for a claude",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 383,
+          "t": [
+            1830.165,
+            1836.072
+          ],
+          "quote": "the skill file how important is that for pms versus just letting claude kind",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1836.112,
+            1842.038
+          ],
+          "quote": "of handle what's in the skill file so a lot of times we do use claude to write",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1866.269,
+            1872.094
+          ],
+          "quote": "for what you need versus just taking it and automating it from Claude and putting it",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1872.194,
+            1875.736
+          ],
+          "quote": "in there so I have used Claude a lot to",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2228.07,
+            2234.294
+          ],
+          "quote": "and claude wrote this right yes claude wrote this yeah cool um i told it",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2239.217,
+            2244.18
+          ],
+          "quote": "of created this whole um .md file that i could use now with claude again um",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2280.328,
+            2284.769
+          ],
+          "quote": "the architecture overview now i gave my use case to claude",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 594,
+          "t": [
+            2845.83,
+            2852.83
+          ],
+          "quote": "so i um i don't even go look into the .md files i just ask desktop um claude saying",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 805,
+          "t": [
+            3903.548,
+            3908.571
+          ],
+          "quote": "now it's built this now let's say i want to mark it up i want to tell claude",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 807,
+          "t": [
+            3913.655,
+            3920.655
+          ],
+          "quote": "and use orange highlight color and claude can go and change just this one piece",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 824,
+          "t": [
+            4006.768,
+            4010.729
+          ],
+          "quote": "to Claude I made it create a slide deck it's like looks",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集将其定位为集成在 VS Code 等 IDE 中的编程扩展。嘉宾用它从零编写知识库架构，并构建了赢得黑客马拉松的「对抗性智能体评估器」。(注:英文稿中误听为 plot code / cloud code)",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            109.387,
+            113.309
+          ],
+          "quote": "so i've been thinking about something we've had advanced tutorials on claude code",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集将其描绘为能执行复杂任务、具备记忆与编排能力的数字助手。嘉宾专门搭建了能理解公司政治、具备战略洞察力的「幕僚长智能体」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            195.467,
+            200.933
+          ],
+          "quote": "and they had this concept of adversarial agents where you build an agent and",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 46,
+          "t": [
+            200.973,
+            206.198
+          ],
+          "quote": "then you set up configurations in another agent telling it what matters most",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 48,
+          "t": [
+            213.58,
+            220.58
+          ],
+          "quote": " capabilities that you want your um agent to test and so i set up i started with",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            231.38000000000002,
+            236.22
+          ],
+          "quote": " and there we go i had an adversarial agent evaluator running",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            650.754,
+            654.177
+          ],
+          "quote": "a podcast guest prep agent in hybrid the job is simple",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            700.224,
+            703.729
+          ],
+          "quote": "as an agent the output is useful but the saved agent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            703.769,
+            707.972
+          ],
+          "quote": "is the real goal i don't have to rebuild the whole thing i point the same agent at",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            716.919,
+            722.383
+          ],
+          "quote": "the bigger idea is recurring work becoming reusable agents hyper agent is built by",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2182.411,
+            2186.814
+          ],
+          "quote": "the senior director there um i want to build this personal agent",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2192.365,
+            2197.866
+          ],
+          "quote": "so the agent should learn from my meeting trans transcripts and i use granola",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2220.465,
+            2227.465
+          ],
+          "quote": "of inputs here's my context and my agent and i said here's my documentation",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 470,
+          "t": [
+            2253.406,
+            2259.155
+          ],
+          "quote": "a personal ai agent that helps me navigate my work like my strategy execution people",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2260.784,
+            2262.244
+          ],
+          "quote": "so the agent should like learn",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2547.289,
+            2553.613
+          ],
+          "quote": "the agent system prompt and this is my prompt for the agent on you have access",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2654.067,
+            2661.067
+          ],
+          "quote": "of staff agent design it can go and search through your repository um and find uh",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 730,
+          "t": [
+            3527.637,
+            3531.862
+          ],
+          "quote": "and so that's a clean agent ux signal where and it's this kind",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 772,
+          "t": [
+            3721.564,
+            3725.8417777777777
+          ],
+          "quote": "the next is five what do people need to know about agents and agent harnesses",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 869,
+          "t": [
+            4234.296,
+            4239.598
+          ],
+          "quote": "of creating this gan inspired adversarial agent so here's the thing it's not",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 878,
+          "t": [
+            4275.65,
+            4280.41
+          ],
+          "quote": "a few questions around agent interface how will i call your agents on the test",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 966,
+          "t": [
+            4702.856,
+            4707.917
+          ],
+          "quote": "it's built an agent.py my evaluator so here's",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 969,
+          "t": [
+            4722.742,
+            4728.663
+          ],
+          "quote": "an agent i wanted to automatically go and do a red teaming and adversarial example",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 970,
+          "t": [
+            4728.763,
+            4730.763
+          ],
+          "quote": "on it so as soon as i build an agent",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 971,
+          "t": [
+            4732.304,
+            4739.304
+          ],
+          "quote": " i want to kick off my adversarial agent until end",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 972,
+          "t": [
+            4742.233,
+            4749.233
+          ],
+          "quote": "the feedback from my adversarial agent is passed back to my generator agent",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 973,
+          "t": [
+            4754.522,
+            4761.522
+          ],
+          "quote": "until it passes the criteria of my adversarial agent so you're gonna send it off",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 989,
+          "t": [
+            4824.329,
+            4827.744
+          ],
+          "quote": "and then we can test it out with a simple agent and see how it works",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1058,
+          "t": [
+            5162.439,
+            5167.983
+          ],
+          "quote": "an agent which is a weak support bot let's see how it will do it there",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1085,
+          "t": [
+            5281.017,
+            5283.017
+          ],
+          "quote": "where your agent orchestrates across",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1088,
+          "t": [
+            5297.3,
+            5301.32
+          ],
+          "quote": " or the various systems that your agent",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1099,
+          "t": [
+            5363.169,
+            5369.693
+          ],
+          "quote": "and bugs come in they have the pm agent that is triaging and understanding those",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1100,
+          "t": [
+            5369.753,
+            5372.755
+          ],
+          "quote": "then they have the pm agent understanding okay this is the future we want",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1104,
+          "t": [
+            5383.841,
+            5387.714
+          ],
+          "quote": "code the feature then they have their analytics team agent that creates",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1107,
+          "t": [
+            5395.309,
+            5399.531
+          ],
+          "quote": "and they have their own analytics agent that automatically is analyzing it and",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1120,
+          "t": [
+            5445.183,
+            5450.388
+          ],
+          "quote": "in first iteration it was it scored an 8.52 but the agent caved",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1122,
+          "t": [
+            5455.274,
+            5462.274
+          ],
+          "quote": "the generator agent to improve the prompt and then second iteration it scored a nine",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1125,
+          "t": [
+            5475.3,
+            5482.3
+          ],
+          "quote": "until it passed the threshold and that's when the agent got a pass sign and",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1126,
+          "t": [
+            5485.308,
+            5489.474666666667
+          ],
+          "quote": "so this is where you're not just building an agent you're actually building",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1127,
+          "t": [
+            5489.692,
+            5495.735
+          ],
+          "quote": "another evaluator to go break this agent in different ways that's important for you",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1129,
+          "t": [
+            5503.02,
+            5509.063
+          ],
+          "quote": "until the agent that's built is not strong enough and that's the beauty",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "adversarial-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "对抗性智能体 (adversarial agents)",
+      "file": "对抗性智能体",
+      "primary": true,
+      "how_described": "借鉴自 GAN 思想的概念。嘉宾构建了一个作为红队测试员的对抗智能体，专门去攻击和诱导生成器智能体，自动测出系统提示词漏洞并迭代修复，这是她夺冠的秘密武器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            21.202,
+            23.836
+          ],
+          "quote": "and you used this concept of adversarial agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            30.095,
+            34.582
+          ],
+          "quote": "the concept of adversarial agents that was what got me the hackathon right",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 41,
+          "t": [
+            177.085,
+            181.19611111111112
+          ],
+          "quote": "of adversarial agents can you break down exactly how you won the hackathon",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            195.467,
+            200.933
+          ],
+          "quote": "and they had this concept of adversarial agents where you build an agent and",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 848,
+          "t": [
+            4124.463,
+            4129.545
+          ],
+          "quote": "with adversarial agents and your cloud code setup to win the hackathon can you do",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 963,
+          "t": [
+            4680.92,
+            4687.422
+          ],
+          "quote": "for example got it so how are adversarial agents looking so let's see it's built",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": true,
+      "how_described": "被描述为让大模型与 Slack、Gmail 等外部系统安全通信的集成编织层标准。嘉宾将私有知识库部署为本地 MCP 服务器，从而随时通过桌面端安全调用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            45.477,
+            52.477
+          ],
+          "quote": "how do you use cloud design how do you build a knowledge base mcp server for all",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            386.012,
+            391.938
+          ],
+          "quote": "for example your mcps now mcp connects cloud to every external system",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            623.047,
+            630.047
+          ],
+          "quote": "an mcp server but still it's it's i don't prefer it for um for anything that",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 543,
+          "t": [
+            2597.352,
+            2602.835
+          ],
+          "quote": "and can you put this behind an mcp server so that i can use my cloud desktop",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 546,
+          "t": [
+            2608.982,
+            2614.624
+          ],
+          "quote": "an implementation you can see my implementation i'm saying cloud desktop plus mcp",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2614.724,
+            2619.906
+          ],
+          "quote": "so build mcp servers for kb read and write chat with cloud desktop can also connect",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 568,
+          "t": [
+            2719.957,
+            2720.957
+          ],
+          "quote": "an mcp server",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 570,
+          "t": [
+            2725.422,
+            2730.544
+          ],
+          "quote": "and say obsidian you can connect it that way and and put it behind an mcp server",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 582,
+          "t": [
+            2788.814,
+            2792.836
+          ],
+          "quote": "and what does putting the mcp server on top of the knowledge base help",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 617,
+          "t": [
+            2956.616,
+            2961.058
+          ],
+          "quote": "that up yeah i'll just show that once this is done so uh it's again your mcp",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 623,
+          "t": [
+            2986.695,
+            2988.757
+          ],
+          "quote": "an mcp server so that you can access it",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 638,
+          "t": [
+            3056.644,
+            3060.206
+          ],
+          "quote": "so i'll just show that to you and it's also mcp server is at",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3120.265,
+            3125.349
+          ],
+          "quote": "and my mcp server i hit on context kb it has created these folders in",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 656,
+          "t": [
+            3142.02,
+            3147.544
+          ],
+          "quote": "the mcp server so let's see what it has asked me to do from the slash menu okay",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 660,
+          "t": [
+            3166.876,
+            3173.876
+          ],
+          "quote": "of staff local mcp server this is so cool we've done a lot of cloud guides",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 667,
+          "t": [
+            3203.306,
+            3207.267
+          ],
+          "quote": "the system prong lifts inside the mcp server here it's the chief",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 687,
+          "t": [
+            3328.15,
+            3333.395
+          ],
+          "quote": "so I just started you have MCP access use these tools your job is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 696,
+          "t": [
+            3374.263,
+            3378.525
+          ],
+          "quote": "so ideally it should be using kind of the right tool in our kb mcp server",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 705,
+          "t": [
+            3413.198,
+            3419.804
+          ],
+          "quote": "so you can see it's loaded a bunch of um mcp tools um and so it's going and saving",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 735,
+          "t": [
+            3546.452,
+            3551.357
+          ],
+          "quote": "a little bit talked about layer four with people because we've showed them an mcp",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 739,
+          "t": [
+            3564.358,
+            3567.699
+          ],
+          "quote": "yes so mcp is the way that allows you to connect",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 742,
+          "t": [
+            3576.86,
+            3582.242
+          ],
+          "quote": "so i didn't i showed you two things i showed you remote mcp i also showed you local",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 743,
+          "t": [
+            3582.282,
+            3589.282
+          ],
+          "quote": "mcp like your knowledge kbe is your local mcp that uh you're accessing",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 759,
+          "t": [
+            3669.622,
+            3672.965
+          ],
+          "quote": "but that doesn't mean you go you just go on MCP shopping spree",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "knowledge-base",
+      "type": "concept",
+      "role": "concept",
+      "name": "知识库 (knowledge base)",
+      "file": "知识库",
+      "primary": true,
+      "how_described": "被描述为给 AI 装上的「专属大脑」，能将日常摄入的文档和会议记录提取成结构化数据，自动维护着人物档案（谁是谁的盟友），让 AI 真正变成懂人情的私人高参。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            45.477,
+            52.477
+          ],
+          "quote": "how do you use cloud design how do you build a knowledge base mcp server for all",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            352.983,
+            356.884
+          ],
+          "quote": "on top of this layer is your knowledge base now this is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 184,
+          "t": [
+            869.419,
+            874.1
+          ],
+          "quote": "knowledge base on how to create but first let me show you how you you as",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2087.495,
+            2092.958
+          ],
+          "quote": "the knowledge base for what you're working on and so i wanted to build a chief",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2092.998,
+            2099.321
+          ],
+          "quote": "of staff that understands and is grounded in the knowledge base that i have and",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2207.888,
+            2214.888
+          ],
+          "quote": "a knowledge base over time about people dynamics topics company context and",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2270.686,
+            2275.587
+          ],
+          "quote": "that here ingest documents and build a knowledge base over time",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2315.596,
+            2319.682
+          ],
+          "quote": "and it'll read it up it will store it into a knowledge base and i'll show you that",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2394.003,
+            2397.787
+          ],
+          "quote": "so i'm saying you're helping me build a knowledge base about my workplace i'll share",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 508,
+          "t": [
+            2419.877,
+            2424.2103333333334
+          ],
+          "quote": "and i said format the output in this wave for it to store in my knowledge base",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2425.421,
+            2432.421
+          ],
+          "quote": "a knowledge base structure it has its context it has people topics meetings",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 518,
+          "t": [
+            2473.524,
+            2477.605
+          ],
+          "quote": "to like save it into the knowledge base any document that i give extract",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 544,
+          "t": [
+            2603.075,
+            2604.616
+          ],
+          "quote": "to access my knowledge base",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 569,
+          "t": [
+            2722.501,
+            2725.382
+          ],
+          "quote": "it's a good call so if you want your knowledge base",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 578,
+          "t": [
+            2771.041,
+            2775.462
+          ],
+          "quote": "because this is just so much of knowledge base and very private",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2784.291,
+            2788.679888888889
+          ],
+          "quote": "for your knowledge base you just have to change the system prompt at that point",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 582,
+          "t": [
+            2788.814,
+            2792.836
+          ],
+          "quote": "and what does putting the mcp server on top of the knowledge base help",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 584,
+          "t": [
+            2796.579,
+            2803.579
+          ],
+          "quote": "so what what it allows it to do is your you can talk to your knowledge base",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2822.132,
+            2827.617
+          ],
+          "quote": "and write it on into your knowledge base automatically okay so it makes it",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 593,
+          "t": [
+            2841.008,
+            2845.75
+          ],
+          "quote": "of time like right now i have my knowledge base is like really huge um and",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 596,
+          "t": [
+            2858.804,
+            2863.027
+          ],
+          "quote": "and it will go and dig up all the context in the knowledge base and say here are all",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 602,
+          "t": [
+            2887.36,
+            2891.202
+          ],
+          "quote": "to make sure is hitting their knowledge base your meeting transcripts for sure",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 611,
+          "t": [
+            2929.758,
+            2936.042
+          ],
+          "quote": "that you review you can push that um to your knowledge base too and then your slack",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 637,
+          "t": [
+            3051.28,
+            3056.604
+          ],
+          "quote": "let's do it so here it's done there's a knowledge base at context kb full structure",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 712,
+          "t": [
+            3447.799,
+            3451.2434444444443
+          ],
+          "quote": "and it will automatically extract and fill your knowledge base",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 721,
+          "t": [
+            3488.255,
+            3492.089
+          ],
+          "quote": "you will but you have such a rich knowledge base at that point in time",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 846,
+          "t": [
+            4114.238,
+            4120.241
+          ],
+          "quote": "into wherever your uh knowledge base is awesome you mentioned you use cloud code",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skills)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本质是一套带步骤的指南剧本，采用了「渐进式披露」机制：一开始只往上下文窗口里塞 50 个词，当模型思考时发现该技能有用，才会把完整指令加载进内存，从而避免塞爆上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            4.237,
+            8.003
+          ],
+          "quote": "the core pm skills that will help you become 10x more effective",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            344.879,
+            348.984
+          ],
+          "quote": "the core pm skills that will help you become 10x more effective",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            356.944,
+            363.407
+          ],
+          "quote": "where your institutional knowledge lives your projects your skills your memory your",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            399.404,
+            405.525
+          ],
+          "quote": "or your own local files skills are what extends what your cloud knows how to do",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 185,
+          "t": [
+            874.14,
+            881.14
+          ],
+          "quote": "a pm can 100x your productivity by running a few skills and scheduled runs",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1571.395,
+            1574.397
+          ],
+          "quote": "the next thing you had mentioned this section were skills what do we need to know",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1574.437,
+            1577.8
+          ],
+          "quote": "about skills what skills should we have how do we create them",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1577.85,
+            1582.633
+          ],
+          "quote": "yes so if you go to customize again and you can see skills this is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1582.673,
+            1586.276
+          ],
+          "quote": "where you can add different skills i'll show you some examples of some skills",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1664.89,
+            1671.652
+          ],
+          "quote": "you also can add functions into it you can have it link to other skills for example",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1733.381,
+            1737.722
+          ],
+          "quote": "of instructions into memory so that's why skills are powerful",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1749.128,
+            1754.711
+          ],
+          "quote": "or more uh skills or functions even like you can have a function where it needs",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1758.934,
+            1762.436
+          ],
+          "quote": "when they made skills not just a single markdown file",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1900.869,
+            1906.677
+          ],
+          "quote": "for you so the way to think about skill skills is this is um kind of like a",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2027.101,
+            2030.644
+          ],
+          "quote": "to have more skills than scheduled automations some",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 626,
+          "t": [
+            2995.462,
+            3001.947
+          ],
+          "quote": "within layer three you've got skills you've got memory is there anything people need",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1138,
+          "t": [
+            5547.459,
+            5553.165
+          ],
+          "quote": "below go check that out go fork the repo start to use some of these skills",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coding",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coding",
+      "file": "vibe coding",
+      "primary": false,
+      "how_described": "被描述为纯凭直觉用自然语言让 AI 写代码。嘉宾建议别只做一锤子买卖，要把 vibe coding 做出来的小玩意儿当成真正的产品，找真实用户来用并不断迭代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1002,
+          "t": [
+            4870.527,
+            4877.229
+          ],
+          "quote": "the basics um vibe coding is building right there's no shortcut to it just build um",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "red-teaming",
+      "type": "concept",
+      "role": "concept",
+      "name": "红队测试 (red teaming)",
+      "file": "红队测试",
+      "primary": false,
+      "how_described": "在黑客马拉松演示中，作为系统设定的自动攻击循环机制，对抗智能体对生成器智能体不断进行红队测试，直到它扛住所有对抗攻击并达到及格线为止。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 969,
+          "t": [
+            4722.742,
+            4728.663
+          ],
+          "quote": "an agent i wanted to automatically go and do a red teaming and adversarial example",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 974,
+          "t": [
+            4763.969,
+            4769.093
+          ],
+          "quote": "on essentially its own red teaming improvement loop yes yes so is this",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "make",
+      "type": "company",
+      "role": "company",
+      "name": "Make",
+      "file": "Make",
+      "primary": false,
+      "how_described": "被提及的传统自动化工具。对比指出，过去用 Make 需要一个个连线、拼框，一旦一处失败全盘崩溃；现在用自然语言向 Claude 下达指令即可。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            54.466,
+            58.329
+          ],
+          "quote": "of your pm contacts to make cloud 10x more productive that is what we're going",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            118.652,
+            121.703
+          ],
+          "quote": "the entire claude ecosystem and make the most out of it",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 36,
+          "t": [
+            158.026,
+            161.909
+          ],
+          "quote": "to break down for all the beginners how to make the most out of claude today",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            430.027,
+            434.37
+          ],
+          "quote": "about layers one and two in order to make the most out of the top layers yeah",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            955.989,
+            961.938
+          ],
+          "quote": "to just make your um work life much more easier so you're focusing on things",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1320.136,
+            1326.759
+          ],
+          "quote": "a relay or a lindy last year or a gumloop or a even make.com",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1862.967,
+            1866.209
+          ],
+          "quote": "in your human domain knowledge in there to make it work",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2342.039,
+            2345.594555555556
+          ],
+          "quote": "then it said you know what you should make this person your ally",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 602,
+          "t": [
+            2887.36,
+            2891.202
+          ],
+          "quote": "to make sure is hitting their knowledge base your meeting transcripts for sure",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 614,
+          "t": [
+            2945.13,
+            2948.512
+          ],
+          "quote": "or do you set a scheduled task to update your kb or how do you make sure",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 622,
+          "t": [
+            2982.632,
+            2986.655
+          ],
+          "quote": "so set up some sort of automation to make your kb updating make your kb",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 744,
+          "t": [
+            3589.818,
+            3596.818
+          ],
+          "quote": "what integrations or mcps do pms need to make sure that they have so look at",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 806,
+          "t": [
+            3908.631,
+            3913.575
+          ],
+          "quote": "to change something so maybe say i wanted to tell uh make layers",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 815,
+          "t": [
+            3964.74,
+            3969.621
+          ],
+          "quote": "and say make it counterclockwise wow so this is a carousel",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 836,
+          "t": [
+            4065.785,
+            4069.806
+          ],
+          "quote": "to create your slide decks to make presentations to your company about",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1017,
+          "t": [
+            4937.167,
+            4943.51
+          ],
+          "quote": "in real world so i always say this don't build projects try to make your projects",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1068,
+          "t": [
+            5204.34,
+            5209.364
+          ],
+          "quote": "make you feel overwhelmed so i prefer to show vs code because it's like",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "guardrails",
+      "reason": "专名「guardrails」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

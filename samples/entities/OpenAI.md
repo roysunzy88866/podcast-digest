@@ -8,7 +8,7 @@ unlisted: true
 # OpenAI
 
 > [!info] 公司
-> 出现在 8 集 · 金句 0 条 · 关联 10 个
+> 出现在 9 集 · 金句 0 条 · 关联 10 个
 
 ## 集里怎么说它
 
@@ -20,6 +20,7 @@ unlisted: true
 - **[[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]]**(01:50起):本集提到的顶尖 AI 公司；嘉宾认为符合其利益去托管专门的面向消费者的智能体服务应用（如旅行代理）。
 - **[[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]]**(55:31起):本集提到它作为大模型厂商之一，推出了自家的「托管智能体」，与 Anthropic 一起被视作潜在的竞争或合作方。
 - **[[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]]**(05:46起):本集作为前沿实验室的代表之一，被提及曾谈论构建自动化的 AI 研究实习生，且面临开源模型带来的定价与竞争压力。
+- **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]]**(10:54起):本集把它说成:尚未实现长期盈利、但已被大型科技公司依赖其持续付钱来支撑 AI 数据中心债务的 AI 实验室,其 API 开放策略被质疑与「AGI 或破产」叙事自相矛盾。
 
 ## 出现在这些集
 
@@ -31,7 +32,8 @@ unlisted: true
 - [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] — 作为被讨论公司(提及)
 - [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] — 作为被讨论公司(提及)
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]] — 作为被讨论公司(提及)
+- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[智能体]] · [[Lenny]] · [[Anthropic]] · [[ChatGPT]] · [[Lovable]] · [[Jeanne DeWitt Grosser]] · [[Qasar Younis]] · [[Amol Avasare]] · [[Max Schoening]] · [[Tony Fadell]]
+[[智能体]] · [[Lenny]] · [[Anthropic]] · [[Google]] · [[Tesla]] · [[AGI]] · [[蒸馏]] · [[ChatGPT]] · [[Lovable]] · [[Jeanne DeWitt Grosser]]

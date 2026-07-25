@@ -1,0 +1,1173 @@
+{
+  "episode_id": "2026-06-24-pg-company-os-jz",
+  "podcast": "Product Growth Podcast",
+  "date": "2026-06-24",
+  "tags": [
+    "AI 原生公司",
+    "公司操作系统",
+    "非工程师写代码",
+    "PM 角色演变",
+    "智能体自动化"
+  ],
+  "categories": [
+    "产品方法",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "jiaona-zhang",
+      "type": "person",
+      "role": "host",
+      "name": "Jiaona Zhang",
+      "file": "Jiaona Zhang",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "akash",
+      "type": "person",
+      "role": "cohost",
+      "name": "Akash",
+      "file": "Akash",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 215,
+          "t": [
+            740.653,
+            745.058
+          ],
+          "quote": "Start measuring your AI's performance with Agent Analytics at pendo.io slash akash.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "laurel",
+      "type": "company",
+      "role": "company",
+      "name": "Laurel",
+      "file": "Laurel",
+      "primary": true,
+      "how_described": "本集主要讨论的公司，嘉宾 Jiaona Zhang 担任其 CPO。本集全面展示了 Laurel 是如何作为一家 AI 原生公司，通过 GitHub、Claude 和智能体搭建全公司操作系统的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            113.782,
+            117.805
+          ],
+          "quote": "You guys at Laurel have taken it to a level I have not seen before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 260,
+          "t": [
+            878.078,
+            883.78
+          ],
+          "quote": "a team that usually has a lot of people a lot of humans at Laurel we have a large",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            895.059,
+            898.543
+          ],
+          "quote": " into these organizations, helping them use Laurel as a product.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1015.322,
+            1017.103
+          ],
+          "quote": "at Laurel use Dust and so",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1312.518,
+            1316.639
+          ],
+          "quote": "and the last thing I'll share at Laurel is we think a lot about how do we surface",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 438,
+          "t": [
+            1490.536,
+            1492.957
+          ],
+          "quote": "Nick, who's awesome, has been at Laurel for some time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 708,
+          "t": [
+            2359.288,
+            2363.788
+          ],
+          "quote": "much more alignment so a great example is within Laurel if you're going to change",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 743,
+          "t": [
+            2462.2,
+            2467.944
+          ],
+          "quote": " Today, Laurel is beloved in a lot of firms that think about billable hours.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 766,
+          "t": [
+            2538.158,
+            2544.462
+          ],
+          "quote": "It is such a core value of us, of ours here at Laurel, where we really want to delight.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 776,
+          "t": [
+            2574.642,
+            2577.664
+          ],
+          "quote": "even if you're four years into your time at Laurel or you're four days into your",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 777,
+          "t": [
+            2577.684,
+            2578.224
+          ],
+          "quote": "time at Laurel,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 787,
+          "t": [
+            2607.547,
+            2612.152
+          ],
+          "quote": "holder that is by the way a lot of people on the Laurel team but if I were to scale",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 914,
+          "t": [
+            3009.02,
+            3013.361
+          ],
+          "quote": "responsibility it's no one's responsibility and so what we have at Laurel is we",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 940,
+          "t": [
+            3118.435,
+            3124.319
+          ],
+          "quote": "I want to give a ton of credit to Ryan so yes Laurel was founded actually I would",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 941,
+          "t": [
+            3124.339,
+            3129.603
+          ],
+          "quote": "say Time by Ping this is what Laurel was called previously was founded in 2018 but",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 953,
+          "t": [
+            3183.239,
+            3189.722
+          ],
+          "quote": "Laurel is AI native although it was founded like more than three years ago and so",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1124,
+          "t": [
+            3787.469,
+            3790.429
+          ],
+          "quote": "If you want a really amazing job, apply to Laurel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1129,
+          "t": [
+            3802.933,
+            3804.833
+          ],
+          "quote": "Can you catch us up outside of Laurel?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1138,
+          "t": [
+            3825.034,
+            3830.157
+          ],
+          "quote": "once took my class then TA'd for me and now is at Laurel and you know teaching for",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1181,
+          "t": [
+            3981.809,
+            3986.052
+          ],
+          "quote": " 365,000 of you to flood Laurel's PM applications.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": true,
+      "how_described": "本集展示 Laurel 用 GitHub 的文件夹结构来作为「公司操作系统」的底座，在里面存储和共享各个职能的「剧本」和「技能」文件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            128.966,
+            134.571
+          ],
+          "quote": "GitHub our favorite place and so you'll see here that we have in GitHub a",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            177.762,
+            181.445
+          ],
+          "quote": "familiar with GitHub will actually hop over here to something that is very",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            215.034,
+            219.216
+          ],
+          "quote": "and now you're like okay cool you have some folders in GitHub you have you know",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            469.704,
+            474.507
+          ],
+          "quote": "again going back to this GitHub and going to let's say product right",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 604,
+          "t": [
+            2023.87,
+            2030.353
+          ],
+          "quote": "you can ask Devon or even anything that's connected to your GitHub account to look",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 819,
+          "t": [
+            2701.981,
+            2705.364
+          ],
+          "quote": "The PM traditionally never had access to GitHub,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": true,
+      "how_described": "本集展示员工如何生活在 Slack 中。团队直接在 Slack 里构建简单的自动化来收集功能请求、分配工单，并向员工及时交付智能体简报。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            229.502,
+            234.805
+          ],
+          "quote": "live in some form of email or slack and so what I'll do really quickly is I'll open",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            234.845,
+            235.365
+          ],
+          "quote": "up my slack",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            620.286,
+            622.887
+          ],
+          "quote": " Ariso connects to my email, calendar, and Slack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 182,
+          "t": [
+            622.987,
+            626.148
+          ],
+          "quote": "Then I just chat with it over Slack, and it helps me with everything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            750.616,
+            752.979
+          ],
+          "quote": " Okay, so let's move into Slack and see what this might look like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            771.841,
+            775.286
+          ],
+          "quote": "is we created a Slack automation that essentially said,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            830.688,
+            833.81
+          ],
+          "quote": "all of that you can build into something as simple as slack so again a lot of",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 250,
+          "t": [
+            833.83,
+            837.632
+          ],
+          "quote": "people have slack teams whatever it is you're using to chat with your teams you can",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dust",
+      "type": "company",
+      "role": "company",
+      "name": "Dust",
+      "file": "Dust",
+      "primary": true,
+      "how_described": "本集提到它是一款专门的智能体构建工具。Laurel 去年秋天开始使用 Dust 来构建工作流智能体，但嘉宾表示现在随着 Claude 等工具的成熟，两者的差距正在缩小。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 305,
+          "t": [
+            1008.419,
+            1014.982
+          ],
+          "quote": "use a lot of things from OpenAI as well you can use a Glean you can use a Dust we",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1015.322,
+            1017.103
+          ],
+          "quote": "at Laurel use Dust and so",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1017.968,
+            1022.03
+          ],
+          "quote": "take a moment see if this loads so if somebody hasn't heard of dust yeah this is an",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1142.676,
+            1147.458
+          ],
+          "quote": "understand this part why use dust instead of just all clod or clod code",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1149.109,
+            1152.57
+          ],
+          "quote": "We started using dust back in fall of last year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1161.592,
+            1162.472
+          ],
+          "quote": "glean or a dust.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1183.584,
+            1190.689
+          ],
+          "quote": "go through a dust or a clod instead what we're able to do make this much larger is",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1328.21,
+            1332.733
+          ],
+          "quote": " that's most important is not the scheduled tasks or this particular interface and dust.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "devon",
+      "type": "company",
+      "role": "company",
+      "name": "Devon",
+      "file": "Devon",
+      "primary": true,
+      "how_described": "本集把它描述为一款「智能体工程师」工具，目前已达到合格软件工程师的水平。Laurel 团队（包括非技术背景的 PM 和客户成功人员）都使用它来端到端地交付前端和后端代码功能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 419,
+          "t": [
+            1409.741,
+            1413.585
+          ],
+          "quote": "enablement guide for how to ship features with Devon and so you know Devon",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 464,
+          "t": [
+            1568.394,
+            1568.675
+          ],
+          "quote": "Devon,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 604,
+          "t": [
+            2023.87,
+            2030.353
+          ],
+          "quote": "you can ask Devon or even anything that's connected to your GitHub account to look",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 655,
+          "t": [
+            2169.553,
+            2174.636
+          ],
+          "quote": "a channel like Ask Devon Reviewers and being able to go through here and making",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 656,
+          "t": [
+            2174.656,
+            2179.318
+          ],
+          "quote": "sure that there's visibility around all of the Devon all the ways we're using Devon",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 663,
+          "t": [
+            2203.266,
+            2206.648
+          ],
+          "quote": "As part of even the way Devon works,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 820,
+          "t": [
+            2705.925,
+            2709.268
+          ],
+          "quote": "let alone the amount we're showing here where they have a Devon agent that is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 898,
+          "t": [
+            2942.347,
+            2945.549
+          ],
+          "quote": "this enablement playbook of Devon where anyone can ship to production?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集主线概念之一。用于将日常剧本任务转化为自动化流程，并强调不要让员工记忆几十个工具，而是建立「超级智能体」作为统一入口来路由和分发任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 214,
+          "t": [
+            737.049,
+            740.473
+          ],
+          "quote": "Pendo Agent Analytics is the only solution built to do this for product teams.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 215,
+          "t": [
+            740.653,
+            745.058
+          ],
+          "quote": "Start measuring your AI's performance with Agent Analytics at pendo.io slash akash.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 292,
+          "t": [
+            959.686,
+            962.968
+          ],
+          "quote": "something we can productize or this is something that we can create an agent to do",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1000.415,
+            1004.197
+          ],
+          "quote": "which is there are a lot of agent builders out there today in the world so you",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1022.15,
+            1027.332
+          ],
+          "quote": "agent building tool this is an agent building tool and what we find is often a lot",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1053.142,
+            1056.583
+          ],
+          "quote": "What you can do is go into an agent builder and say,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1056.883,
+            1059.184
+          ],
+          "quote": "I'm going to create an agent for each of these steps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1072.731,
+            1074.392
+          ],
+          "quote": "you can build an agent for each of the",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1083.799,
+            1087.322
+          ],
+          "quote": "No one's going to remember that they're going to call the specific agent that's",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1087.342,
+            1090.565
+          ],
+          "quote": "going to do the email and the specific agent that's going to do the RFP.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1091.245,
+            1095.489
+          ],
+          "quote": "The big learning that we've had is how do you create a mega agent,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1095.509,
+            1099.152
+          ],
+          "quote": "something like a go-to-market agent that can be called",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1099.713,
+            1105.097
+          ],
+          "quote": "by the sales team at any point by the success team at any point and then that agent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1157.031,
+            1161.532
+          ],
+          "quote": "it was just much easier to use something that specialized in agent building like a",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1211.704,
+            1216.646
+          ],
+          "quote": "me having to go and call an agent builder and then should people be setting up like",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 515,
+          "t": [
+            1686.13,
+            1689.792
+          ],
+          "quote": "example it should you should be spending time building the agent to pull",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 524,
+          "t": [
+            1719.067,
+            1723.411
+          ],
+          "quote": "really tedious or at the very least to be calling an agent every single time that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 820,
+          "t": [
+            2705.925,
+            2709.268
+          ],
+          "quote": "let alone the amount we're showing here where they have a Devon agent that is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 852,
+          "t": [
+            2827.031,
+            2832.413
+          ],
+          "quote": "I would love to be prepped for that in a way that you know an agent is serving me",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1081,
+          "t": [
+            3634.267,
+            3639.033
+          ],
+          "quote": "some kind of agent or are you starting to build like apps and or you know what are",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 1111,
+          "t": [
+            3738.367,
+            3739.607
+          ],
+          "quote": "workflow and agent around that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "playbook",
+      "type": "concept",
+      "role": "concept",
+      "name": "剧本 (playbook)",
+      "file": "剧本",
+      "primary": true,
+      "how_described": "本集指代公司各部门（如客户成功、销售）标准操作流程的汇总文档。嘉宾提到借助 AI，过去需要数周撰写的 55 页剧本初稿现在不到一分钟就能生成。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 265,
+          "t": [
+            898.983,
+            901.527
+          ],
+          "quote": "And so what we've done is we've essentially created a playbook.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            903.169,
+            906.893
+          ],
+          "quote": "I think anyone who's ever created a playbook before, this is 50 pages.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            923.626,
+            928.107
+          ],
+          "quote": "But what the struggle most companies has is now that I've created a playbook",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 276,
+          "t": [
+            929.08,
+            931.161
+          ],
+          "quote": " How do I actually get people to do the playbook?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 277,
+          "t": [
+            931.421,
+            935.562
+          ],
+          "quote": "And how much of the playbook is actually done by the human versus actually done by,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 283,
+          "t": [
+            939.963,
+            943.124
+          ],
+          "quote": "going back to this concept of the playbook model,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            945.724,
+            946.885
+          ],
+          "quote": "I've created a playbook.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            966.191,
+            970.074
+          ],
+          "quote": "essentially create a playbook and then off of the playbook you decide on a set of",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1041.903,
+            1044.805
+          ],
+          "quote": "So going back to the playbook concept,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1045.806,
+            1049.248
+          ],
+          "quote": "I have a playbook of all the things that you need to be doing here,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 480,
+          "t": [
+            1593.879,
+            1594.279
+          ],
+          "quote": "playbook,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 863,
+          "t": [
+            2864.691,
+            2869.054
+          ],
+          "quote": "map out your ontology or take your playbook and really,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 868,
+          "t": [
+            2874.599,
+            2877.001
+          ],
+          "quote": "I think if someone was tasked to write a playbook back in the day,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 898,
+          "t": [
+            2942.347,
+            2945.549
+          ],
+          "quote": "this enablement playbook of Devon where anyone can ship to production?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1121,
+          "t": [
+            3761.375,
+            3762.376
+          ],
+          "quote": "We just gave you the entire playbook.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skill",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skill)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集指代封装好的、能让 AI 执行特定任务的指令文件。Laurel 将剧本转化为一个个具体的技能文件，上传到 Claude 的公司语境中供员工随时调用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            172.998,
+            177.742
+          ],
+          "quote": "Each of these folders have a skill and I think for those of you who are less",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            205.891,
+            211.132
+          ],
+          "quote": "for renewals right what is the skill file there to really think about how do you",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            334.403,
+            337.888
+          ],
+          "quote": "It is actually something you know exactly what skill to use when.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 356,
+          "t": [
+            1190.749,
+            1195.633
+          ],
+          "quote": "we can we can take all of these skill files and go into clod itself and put them in",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1195.733,
+            1200.776
+          ],
+          "quote": "as skill files and so as a result you could now you can literally just say hey I'm",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1201.901,
+            1207.563
+          ],
+          "quote": "whatever it is I'm doing and I can just call the you know that skill slash morning",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 477,
+          "t": [
+            1587.598,
+            1589.719
+          ],
+          "quote": "should we start building skill files,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 527,
+          "t": [
+            1729.209,
+            1730.829
+          ],
+          "quote": "By building the skill files,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 547,
+          "t": [
+            1799.538,
+            1804.902
+          ],
+          "quote": "And the captain is the person where that skill set is the most important.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ontology",
+      "type": "concept",
+      "role": "concept",
+      "name": "本体 (ontology)",
+      "file": "本体",
+      "primary": true,
+      "how_described": "本集将每个职能的工作地图称为「本体」，通过明确区分哪些任务必须由人完成、哪些应该被自动化，从而指导整个团队的运作和时间分配。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 107,
+          "t": [
+            381.671,
+            387.196
+          ],
+          "quote": "ontology so in sales you know all of the work in sales maps to these categories",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            392.34,
+            395.443
+          ],
+          "quote": "And this is actually what has informed the ontology that I just showed you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 133,
+          "t": [
+            431.983,
+            435.986
+          ],
+          "quote": "the ontology or the work map of a product manager is starting to look a lot more",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 492,
+          "t": [
+            1617.722,
+            1620.065
+          ],
+          "quote": "but I think it's also really cool to look at this ontology,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 505,
+          "t": [
+            1654.248,
+            1655.748
+          ],
+          "quote": "where you know here in the ontology",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 518,
+          "t": [
+            1697.755,
+            1702.517
+          ],
+          "quote": "and so when we actually create this ontology we're able to say well we want these",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 750,
+          "t": [
+            2480.611,
+            2485.014
+          ],
+          "quote": "Going back to this ontology and this work map of every single function.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 863,
+          "t": [
+            2864.691,
+            2869.054
+          ],
+          "quote": "map out your ontology or take your playbook and really,",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "captain",
+      "type": "concept",
+      "role": "concept",
+      "name": "船长 (captain)",
+      "file": "船长",
+      "primary": true,
+      "how_described": "本集提出的工作模式：为每个项目任命一位技能最契合其核心难点的人当「船长」。如果业务最重要就让 PM 当船长，架构最重要就让工程师当船长。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 545,
+          "t": [
+            1790.852,
+            1797.637
+          ],
+          "quote": "And we've really landed on this concept of we want there always to be a captain of",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 547,
+          "t": [
+            1799.538,
+            1804.902
+          ],
+          "quote": "And the captain is the person where that skill set is the most important.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 553,
+          "t": [
+            1816.903,
+            1820.145
+          ],
+          "quote": "Usually the captain is an engineering captain because that's an architectural change.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 589,
+          "t": [
+            1968.067,
+            1972.292
+          ],
+          "quote": "delightful and as a result a designer is the captain of that work stream and then",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 599,
+          "t": [
+            2006.393,
+            2011.779
+          ],
+          "quote": " And as a result, how do we appoint a captain that is skilled in that particular area?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 633,
+          "t": [
+            2090.569,
+            2095.69
+          ],
+          "quote": "that is a very classic PM thing and so it makes sense for the PM to be the captain",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 686,
+          "t": [
+            2270.487,
+            2274.869
+          ],
+          "quote": "Yeah the same way we have this captain's model I think about a framework where we",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 689,
+          "t": [
+            2283.813,
+            2289.495
+          ],
+          "quote": "again a PM somebody a product captain or a product builder right can take it end to",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "orchestrator",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

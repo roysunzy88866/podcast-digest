@@ -36,4 +36,4 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## 关联实体
 
-[[Lenny]] · [[智能体]] · [[Waymo]] · [[NVIDIA]] · [[Anthropic]] · [[OpenAI]] · [[OpenClaw]] · [[主观能动性]] · [[Claude Code]] · [[Dr. Fei-Fei Li]]
+[[Lenny]] · [[智能体]] · [[Waymo]] · [[NVIDIA]] · [[Anthropic]] · [[OpenAI]] · [[OpenClaw]] · [[Google]] · [[Claude Code]] · [[主观能动性]]

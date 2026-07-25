@@ -28,4 +28,4 @@ unlisted: true
 
 ## 关联实体
 
-[[Lenny]] · [[Anthropic]] · [[OpenAI]] · [[Cursor]] · [[Lovable]] · [[Slack]] · [[智能体编码]] · [[能力过剩]] · [[冷启动]] · [[正确的摩擦]]
+[[Lenny]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[Cursor]] · [[Lovable]] · [[Slack]] · [[智能体编码]] · [[能力过剩]] · [[冷启动]]

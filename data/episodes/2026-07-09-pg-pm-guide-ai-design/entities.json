@@ -1,0 +1,1407 @@
+{
+  "episode_id": "2026-07-09-pg-pm-guide-ai-design",
+  "podcast": "Product Growth Podcast",
+  "date": "2026-07-09",
+  "tags": [
+    "AI 工作流",
+    "Codex",
+    "智能体",
+    "技术型 PM",
+    "数字分身"
+  ],
+  "categories": [
+    "AI 编程",
+    "职业与个人成长"
+  ],
+  "entities": [
+    {
+      "id": "meng-to",
+      "type": "person",
+      "role": "host",
+      "name": "Meng To",
+      "file": "Meng To",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            21.743,
+            25.669
+          ],
+          "quote": "maybe my favorite voice online is Meng To he has been publishing",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "akash",
+      "type": "person",
+      "role": "cohost",
+      "name": "Akash",
+      "file": "Akash",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "codex",
+      "file": "codex",
+      "primary": true,
+      "how_described": "本集把它说成:加了类固醇的 ChatGPT，不仅是写代码的工具，更是启动项目、管理上下文、生成幻灯片/网站/移动应用的超级中枢。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            44.42,
+            47.141000000000005
+          ],
+          "quote": "to all of your existing apps if you're using it in codex",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 12,
+          "t": [
+            50.094,
+            52.538444444444444
+          ],
+          "quote": "that fits your workflow can be done in codex",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            61.885,
+            62.716
+          ],
+          "quote": "on codex",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            117.398,
+            121.021
+          ],
+          "quote": "into codex i've been using this since day one but also",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 28,
+          "t": [
+            121.122,
+            126.848
+          ],
+          "quote": "before codex came out just like four months ago i've been you know billing apps uh",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            190.364,
+            196.713
+          ],
+          "quote": "I was a huge cursor user before OpenAI came up with Codex which basically changed",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            224.565,
+            228.909
+          ],
+          "quote": "of everything we have anthropic and then we have open ai with codex",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            234.857,
+            240.384
+          ],
+          "quote": "of fresh air to see codex can you fire it up can you show us how you use codex",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            245.79,
+            249.335
+          ],
+          "quote": "all right so obviously i'm going to be covering codex which for those",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            320.639,
+            324.845
+          ],
+          "quote": "so when you use something like codex or cloud code you're creating a ton",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 99,
+          "t": [
+            428.619,
+            434.163
+          ],
+          "quote": "so you have a tool like codex which gives you all of these superpowers and you want",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            438.005,
+            443.428
+          ],
+          "quote": "a podcast i have a prep document that i you know i talk to my codex",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            503.591,
+            508.156
+          ],
+          "quote": "to get a ton of value and then i'm gonna switch to the codex and i'm gonna start",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            526.302,
+            531.008
+          ],
+          "quote": "but this is my codex my real codex is not a demo one and these are all my projects",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            542.185,
+            545.53
+          ],
+          "quote": "of getting started with codex obviously at this point i assume",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            545.55,
+            549.876
+          ],
+          "quote": "that you already downloaded codex and the idea is that when you talk",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            582.454,
+            584.1206666666666
+          ],
+          "quote": "codex has everything it's like",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            612.939,
+            617.706
+          ],
+          "quote": "because codex yes it does a lot of this stuff but obsidian is going to allow you",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 215,
+          "t": [
+            958.98,
+            963.82
+          ],
+          "quote": "that nowadays codex has its own browser and so the ai is",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1000.981,
+            1006.389
+          ],
+          "quote": "until i got into codex but the biggest problem with openclaw was security a lot",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1023.073,
+            1028.061
+          ],
+          "quote": "to things like Codex you have something that is within a trusted channel",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1028.141,
+            1030.925
+          ],
+          "quote": "which is Codex or an open AI and since they have",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1612.284,
+            1616.784
+          ],
+          "quote": "and this is where we are right now with codex and codex has started this movement",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 572,
+          "t": [
+            2603.255,
+            2610.255
+          ],
+          "quote": "i can open my codex which is connected to my computer and i can go to each",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2617.249,
+            2624.249
+          ],
+          "quote": "by just chatting so the mobile the codex mobile sits in your chat gpt app",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 576,
+          "t": [
+            2632.62,
+            2638.002
+          ],
+          "quote": "that says codex you click on it you connect it to your to your codex",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2673.082,
+            2679.369
+          ],
+          "quote": "for example uh you know keep my codex on even though my screen is locked um",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 630,
+          "t": [
+            2897.359,
+            2901.863
+          ],
+          "quote": "that yeah i think this codex spark 5.3 they have they don't have the",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 666,
+          "t": [
+            3086.445,
+            3090.867
+          ],
+          "quote": "the AI in Figma to recreate this in Figma but if you want to stay in codex",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 681,
+          "t": [
+            3151.524,
+            3158.524
+          ],
+          "quote": "in codex probably probably the least tokens then too absolutely so you have",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 696,
+          "t": [
+            3230.394,
+            3233.1717777777776
+          ],
+          "quote": "of course now i could say the same about codex but",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 703,
+          "t": [
+            3262.998,
+            3267.941
+          ],
+          "quote": "in codex absolutely everything you can think of you can imagine anything",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 704,
+          "t": [
+            3267.961,
+            3270.863
+          ],
+          "quote": "that fits your workflow can be done in codex",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 707,
+          "t": [
+            3280.791,
+            3283.493
+          ],
+          "quote": "the codex mobile what's next after presentations",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 784,
+          "t": [
+            3643.445,
+            3649.128
+          ],
+          "quote": "that okay amazing last point i just wanted to cover off on in codex is",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 801,
+          "t": [
+            3720.387,
+            3727.387
+          ],
+          "quote": "and so on so um okay so my codex was opening figma so i had to focus back um",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 803,
+          "t": [
+            3737.074,
+            3744.074
+          ],
+          "quote": "at every step of the way you can ask for you know for codex to take a screenshot of",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 820,
+          "t": [
+            3816.237,
+            3820.979
+          ],
+          "quote": "and I open it in codex and I can like it's a PowerPoint file I can also open it",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 831,
+          "t": [
+            3867.2,
+            3870.483
+          ],
+          "quote": "can you open this html file for me and open it in codex",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "cursor",
+      "file": "cursor",
+      "primary": true,
+      "how_described": "本集把它说成:一款带有 AI 智能体的代码编辑器，嘉宾曾是其重度用户，但在 OpenAI 推出 Codex 后改变了工作流思维。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 42,
+          "t": [
+            181.06,
+            186.603
+          ],
+          "quote": "of people they love cloud code some people still they love cursor i think cursor is",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            190.364,
+            196.713
+          ],
+          "quote": "I was a huge cursor user before OpenAI came up with Codex which basically changed",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1484.493,
+            1489.361
+          ],
+          "quote": "like i mentioned before i was a huge cursor user i was also into the nitty-gritty",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1574.573,
+            1580.622
+          ],
+          "quote": "into the chat box okay so basically cursor is also like VS code but with AI agents",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1581.123,
+            1588.123
+          ],
+          "quote": "and even cursor they're moving away from the sort of like github centric file",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2808.824,
+            2813.391
+          ],
+          "quote": "a time you have one cursor what you need to understand nowadays is",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "obsidian",
+      "type": "company",
+      "role": "company",
+      "name": "obsidian",
+      "file": "obsidian",
+      "primary": true,
+      "how_described": "本集把它说成:本地文档管理软件，因为像 Codex 这样的工具会在本地生成大量文档，需要用它来把文件夹组织成有条理的「知识库」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            315.011,
+            320.118
+          ],
+          "quote": "so that's very good for pms especially you want to use something like obsidian",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            512.843,
+            518.47
+          ],
+          "quote": "on two things one was how obsidian plays in maybe i just missed the connection and",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            612.939,
+            617.706
+          ],
+          "quote": "because codex yes it does a lot of this stuff but obsidian is going to allow you",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            655.31,
+            659.313
+          ],
+          "quote": "if it's an md document you need something like obsidian that organize and read all",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hey-gen",
+      "type": "company",
+      "role": "company",
+      "name": "hey gen",
+      "file": "hey gen",
+      "primary": true,
+      "how_described": "本集把它说成:一种专门用于生成数字分身的 AI 模型，可以生成你的克隆体和声音，用来配合屏幕录制制作极具人情味的演示视频。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 777,
+          "t": [
+            3608.072,
+            3612.1831111111114
+          ],
+          "quote": "that i would use if if you're focusing on presentation i would use hey gen",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:帮你干活的人工智能执行单元，现代工作流意味着你不再局限于单一光标，而是拥有一支可以并发处理任务的「智能体大军/舰队」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            285.167,
+            290.174
+          ],
+          "quote": "to ask a question you have the ask button and you can also let the AI agent take",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            919.98,
+            924.66
+          ],
+          "quote": " computer use and you have an ai agent that records on your computer and creates videos",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1065.395,
+            1070.041
+          ],
+          "quote": "with you know an auto reply but using an ai instead like an agent instead which",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1342.84,
+            1347.08
+          ],
+          "quote": " i didn't have a way to see what my agent was actually doing step by step every tool call",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1360.916,
+            1364.952
+          ],
+          "quote": "already knows how to instrument my agent i tell it setup tracing to arise",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1382.868,
+            1388.436
+          ],
+          "quote": "this trace right here my resume feedback agent was supposed to pull",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1410.708,
+            1411.8600000000001
+          ],
+          "quote": "that my agent was making",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 436,
+          "t": [
+            1942.15,
+            1944.844
+          ],
+          "quote": "of like you do a fleet of agent i like to do like",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 614,
+          "t": [
+            2818.518,
+            2823.162
+          ],
+          "quote": "so when I say an agent like this is an agent this is an agent this is an agent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 697,
+          "t": [
+            3233.677,
+            3237.0103333333336
+          ],
+          "quote": "in this case we're actually using agent and the agent is not",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 698,
+          "t": [
+            3238.39,
+            3245.39
+          ],
+          "quote": "using only figma right and the agent has access to the whole world of tools",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "本集把它说成:「上下文为王」，是新时代的生产力护城河，所有的文档和项目必须高度组织化并保持在本地，才能让 AI 获得最大权限与最强能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            276.695,
+            282.022
+          ],
+          "quote": "and basically what is really cool about this is for me context is king so anything",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            282.062,
+            285.147
+          ],
+          "quote": "that you have that is context is super useful so you're browsing something you want",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            329.853,
+            334.40855555555555
+          ],
+          "quote": "that workflow where everything happens locally because you have a ton more context",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            353.3,
+            357.2
+          ],
+          "quote": " The whole context around every document that you have done so far basically",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 388,
+          "t": [
+            1732.413,
+            1739.143
+          ],
+          "quote": "and receipts but also all your company files you know all the context",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1757.202,
+            1761.569
+          ],
+          "quote": "so that the ai has context because you don't want",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 395,
+          "t": [
+            1761.589,
+            1763.752
+          ],
+          "quote": "to give ai too much context otherwise it's going",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 402,
+          "t": [
+            1791.372,
+            1797.561
+          ],
+          "quote": "the context usually you you can ask questions right um the first thing you want",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2019.482,
+            2024.103
+          ],
+          "quote": "and give a ton of context and it also formats everything that i say in",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2277.77,
+            2281.27
+          ],
+          "quote": "and you know that's just the power of ai it understands context",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2412.898,
+            2415.0646666666667
+          ],
+          "quote": "It understands the context of the text.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2529.593,
+            2534.137
+          ],
+          "quote": "whisper flow to talk and give a ton of context because the more context the better",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2534.157,
+            2537.549
+          ],
+          "quote": "and you don't want to type all of that context because you get lazy",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 603,
+          "t": [
+            2765.977,
+            2769.86
+          ],
+          "quote": "the context again beautiful animation right boom",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 604,
+          "t": [
+            2770.12,
+            2774.424
+          ],
+          "quote": "and it just you know it does this beautiful animation gives me the context gives",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 607,
+          "t": [
+            2782.63,
+            2786.7411111111114
+          ],
+          "quote": "you know that shortcut and gives you the context and so on and so forth so",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集把它说成:AI 工具在受信通道内（如 Codex）提供的安全机制，能请求权限防止恶意注入，是让用户愿意给 AI 电脑完全访问权限的前提。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 228,
+          "t": [
+            1015.923,
+            1020.47
+          ],
+          "quote": "open AI keys and stuff like that and so you know there were no guardrails at",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1656.884,
+            1661.831
+          ],
+          "quote": "because it has guardrails so what you want to do is you you're going",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "figma",
+      "file": "figma",
+      "primary": true,
+      "how_described": "本集把它说成:传统的设计工具，新一代基于 AI 的工作流正逐渐摆脱对它的依赖，但它也能通过 MCP 或 computer use 被 AI 调用来重建设计。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 193,
+          "t": [
+            845.497,
+            850.484
+          ],
+          "quote": "and the whole integration more like a figma plugin or photoshop plugin",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            897.372,
+            901.579
+          ],
+          "quote": "when uh figma for example introduced some sort of like a plug-in and",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1489.401,
+            1495.57
+          ],
+          "quote": "of like using figma for design and using something like vs code for coding",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1570.951,
+            1573.653
+          ],
+          "quote": "from vs code and figma",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 610,
+          "t": [
+            2797.894,
+            2801.996
+          ],
+          "quote": "about 10 years ago using figma or using vscode",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 654,
+          "t": [
+            3028.226,
+            3033.293
+          ],
+          "quote": "to recreate it in figma maybe we can use computer use to open figma and then",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 655,
+          "t": [
+            3033.513,
+            3040.513
+          ],
+          "quote": "try to recreate it so that's another another way and can you use the figma mcp to",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 660,
+          "t": [
+            3061.298,
+            3064.0757777777776
+          ],
+          "quote": "if you're asking it to recreate something in figma",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 661,
+          "t": [
+            3064.198,
+            3070.54
+          ],
+          "quote": "it's going to take way longer and you might need to know figma and you might need",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 662,
+          "t": [
+            3070.56,
+            3075.021
+          ],
+          "quote": "to install the mcp or you might even need to do it directly in figma",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 664,
+          "t": [
+            3079.623,
+            3084.965
+          ],
+          "quote": "in figma they already kind of figure out the workflow and you just drop the image",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 666,
+          "t": [
+            3086.445,
+            3090.867
+          ],
+          "quote": "the AI in Figma to recreate this in Figma but if you want to stay in codex",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 668,
+          "t": [
+            3094.449,
+            3099.791
+          ],
+          "quote": "to have like 10 20 subscriptions all at once like Figma subscription you know all",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 695,
+          "t": [
+            3223.427,
+            3230.094
+          ],
+          "quote": "before my whole life revolved around using figma and you know",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 698,
+          "t": [
+            3238.39,
+            3245.39
+          ],
+          "quote": "using only figma right and the agent has access to the whole world of tools",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 801,
+          "t": [
+            3720.387,
+            3727.387
+          ],
+          "quote": "and so on so um okay so my codex was opening figma so i had to focus back um",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vs-code",
+      "type": "company",
+      "role": "company",
+      "name": "vs code",
+      "file": "vs code",
+      "primary": false,
+      "how_described": "本集把它说成:传统的代码编辑器，过去常与 Figma 搭配使用，但受限于单一任务和单一光标，正被基于聊天的 AI 产品取代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 342,
+          "t": [
+            1489.401,
+            1495.57
+          ],
+          "quote": "of like using figma for design and using something like vs code for coding",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1570.951,
+            1573.653
+          ],
+          "quote": "from vs code and figma",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1574.573,
+            1580.622
+          ],
+          "quote": "into the chat box okay so basically cursor is also like VS code but with AI agents",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "playwright",
+      "type": "concept",
+      "role": "concept",
+      "name": "playwright",
+      "file": "playwright",
+      "primary": true,
+      "how_described": "本集把它说成:一种非常好的自动化测试工具，可用于为网站截图，嘉宾凭经验引导 AI 使用它替代外部截图服务以优化技术选型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 259,
+          "t": [
+            1146.846,
+            1153.536
+          ],
+          "quote": "which is what dreamcut is is on so i use swift ui skills playwright is really good",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2483.169,
+            2488.391
+          ],
+          "quote": "that playwright would be a better technology for taking screenshots right so",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 548,
+          "t": [
+            2489.74,
+            2493.053
+          ],
+          "quote": "this depends on your knowledge i know that playwright is one of the best ways",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "plan-mode",
+      "type": "concept",
+      "role": "concept",
+      "name": "计划模式 (plan mode)",
+      "file": "计划模式",
+      "primary": true,
+      "how_described": "本集把它说成:开始项目构建的第一步，让 AI 先产出一份详细的架构和功能清单供人类审批，而不是一上来就盲目写代码。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 403,
+          "t": [
+            1797.581,
+            1801.287
+          ],
+          "quote": "to do is the plan mode so you're going to start with",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "digital-twin",
+      "type": "concept",
+      "role": "concept",
+      "name": "数字分身 (digital twin)",
+      "file": "数字分身",
+      "primary": true,
+      "how_described": "本集把它说成:用 AI 生成的克隆体和声音，结合屏幕录制，免去真人出镜打理形象的麻烦，向团队或受众传递极具人情味的信息。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 716,
+          "t": [
+            3316.575,
+            3322.399
+          ],
+          "quote": "that you have to create the most is to creating like a digital twin of yourself so",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 717,
+          "t": [
+            3322.64,
+            3326.002
+          ],
+          "quote": "in order to create a digital twin what you would do is that you would take",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 723,
+          "t": [
+            3352.737,
+            3359.319
+          ],
+          "quote": "an avatar a digital twin of myself using gpt image 2.0",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 737,
+          "t": [
+            3428.174,
+            3433.557
+          ],
+          "quote": "and i want you to say those things using my my digital twin to say those things",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 753,
+          "t": [
+            3506.353,
+            3510.997
+          ],
+          "quote": "which comes back to the point where creating you a digital twin is going",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 757,
+          "t": [
+            3523.632,
+            3528.879
+          ],
+          "quote": "to deceive consumers so doing a digital twin is fine as long",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 779,
+          "t": [
+            3617.364,
+            3622.752
+          ],
+          "quote": "for creating your avatar creating your digital twin specifically for the need",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ugc",
+      "type": "concept",
+      "role": "concept",
+      "name": "ugc",
+      "file": "ugc",
+      "primary": false,
+      "how_described": "本集把它说成:新的营销 2.0，人们厌倦了公司的官方套话，更渴望看到真实个人分享的用户生成内容。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 161,
+          "t": [
+            695.682,
+            700.564
+          ],
+          "quote": "into ugc content have you heard about ugc content user generated content",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            784.409,
+            788.975
+          ],
+          "quote": "so you know ugc is a presentation it's just in a form of something you would post",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集把它说成:近期裁掉了许多 PM 的大公司之一，释放出非技术型 PM 正被淘汰的市场信号。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 847,
+          "t": [
+            3941.128,
+            3946.311
+          ],
+          "quote": "of product management right now last week we saw 10 of meta get laid off",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "oracle",
+      "type": "company",
+      "role": "company",
+      "name": "Oracle",
+      "file": "Oracle",
+      "primary": false,
+      "how_described": "本集把它说成:与 Meta 一样近期大量裁撤 PM 的全球大型企业级软件公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 848,
+          "t": [
+            3947.052,
+            3950.434
+          ],
+          "quote": "a couple weeks before we saw similar numbers at oracle the market is starting",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "airbnb",
+      "type": "company",
+      "role": "company",
+      "name": "airbnb",
+      "file": "airbnb",
+      "primary": false,
+      "how_described": "本集引用了其 CEO 提出的「追求十一星级体验」的类比，说明 AI 时代人类需不断拉高产品体验的上限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 930,
+          "t": [
+            4324.069,
+            4329.731
+          ],
+          "quote": "of Airbnb you want to get to 11 star but at the minimum should be the five star and",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "whisper-flow",
+      "type": "company",
+      "role": "company",
+      "name": "whisper flow",
+      "file": "whisper flow",
+      "primary": false,
+      "how_described": "本集把它说成:一款准确率极高且能处理生僻词的语音输入工具，能为 PM 高效地提供大量文本上下文。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            295.041,
+            300.67
+          ],
+          "quote": "the tools i think it's super important to give you an idea so also whisper flow",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1787.507,
+            1791.012
+          ],
+          "quote": "and you can use whisper flow and you can start with",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2012.572,
+            2017.359
+          ],
+          "quote": "then i want you to create a slide so again this is why i'm using whisper flow",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2017.539,
+            2019.462
+          ],
+          "quote": "because when i'm using whisper flow i can",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2268.036,
+            2272.923
+          ],
+          "quote": "of um you know i correct it and then the whisper flow understood",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 556,
+          "t": [
+            2529.593,
+            2534.137
+          ],
+          "quote": "whisper flow to talk and give a ton of context because the more context the better",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "discord",
+      "type": "company",
+      "role": "company",
+      "name": "discord",
+      "file": "discord",
+      "primary": false,
+      "how_described": "本集把它说成:嘉宾因高度面向客户而日常使用的团队沟通软件，可用于替代 Linear 等工具的团队聊天功能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 245,
+          "t": [
+            1080.777,
+            1087.777
+          ],
+          "quote": "a linear user by the way and for me i actually use discord um and you know discord",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1091.052,
+            1094.537
+          ],
+          "quote": "i use discord for everything team chats and all that stuff",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "mcp",
+      "file": "mcp",
+      "primary": false,
+      "how_described": "本集把它说成:一种让大模型更好地与外部工具（如 Figma）或 API 进行通信的标准，能大幅拓展 AI 的执行边界。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            890.462,
+            897.272
+          ],
+          "quote": "is when it goes to your command line and starts communicating with apis and mcp is",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 655,
+          "t": [
+            3033.513,
+            3040.513
+          ],
+          "quote": "try to recreate it so that's another another way and can you use the figma mcp to",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 662,
+          "t": [
+            3070.56,
+            3075.021
+          ],
+          "quote": "to install the mcp or you might even need to do it directly in figma",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "prompt injection",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

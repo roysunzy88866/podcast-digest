@@ -28,4 +28,4 @@ unlisted: true
 
 ## 关联实体
 
-[[Lenny]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[智能体]] · [[Zevi Arnovitz]] · [[Qasar Younis]] · [[Amol Avasare]] · [[Claude Code]] · [[Applied Intuition]]
+[[Lenny]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[Google]] · [[智能体]] · [[Zevi Arnovitz]] · [[Qasar Younis]] · [[Amol Avasare]] · [[Claude Code]]

@@ -8,7 +8,7 @@ unlisted: true
 # AI 泡沫 (AI bubble)
 
 > [!info] 概念
-> 出现在 1 集 · 金句 30 条 · 关联 10 个
+> 出现在 1 集 · 金句 39 条 · 关联 10 个
 
 ## 集里怎么说它
 
@@ -68,13 +68,31 @@ unlisted: true
 
 ![[2026-06-14-lennys-the-common-pattern-behind-successful#^q11]]
 
+![[2026-06-24-pg-company-os-jz#^q1]]
+
+![[2026-06-24-pg-company-os-jz#^q4]]
+
+![[2026-06-24-pg-company-os-jz#^q7]]
+
 ![[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#^q4]]
+
+![[2026-07-09-pg-pm-guide-ai-design#^q1]]
+
+![[2026-07-09-pg-pm-guide-ai-design#^q3]]
+
+![[2026-07-09-pg-pm-guide-ai-design#^q5]]
 
 ![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q1]]
 
 ![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q4]]
 
 ![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q5]]
+
+![[2026-07-13-pg-the-complete-claude-stack-for-pms#^q4]]
+
+![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q3]]
+
+![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q4]]
 
 ## 出现在这些集
 

@@ -8,7 +8,7 @@ cover: "#64748b"
 description: "OpenClaw 作者谈运行在本地的个人 AI 智能体如何吞掉多数 App、用 CLI 取代 MCP,以及他作为独立开发者的构建哲学。"
 guests: ["[[Raphael Schaad]]", "[[Peter Steinberger]]"]
 companies: ["[[Codex]]", "[[Claude Code]]"]
-concepts: ["[[OpenClaw]]", "[[智能体]]", "[[MCP]]", "[[提示注入]]", "[[CLI]]", "[[护城河]]"]
+concepts: ["[[OpenClaw]]", "[[智能体]]", "[[mcp]]", "[[提示注入]]", "[[CLI]]", "[[护城河]]"]
 category: 智能体
 tags:
   - 智能体
@@ -22,7 +22,7 @@ tags:
 >
 > **涉及公司**:[[Codex]] · [[Claude Code]]
 >
-> **概念**:[[OpenClaw]] · [[智能体]] · [[MCP]] · [[提示注入]] · [[CLI]] · [[护城河]]
+> **概念**:[[OpenClaw]] · [[智能体]] · [[mcp]] · [[提示注入]] · [[CLI]] · [[护城河]]
 >
 > **来源**:[SingjuPost 转录](https://singjupost.com/openclaw-creator-why-80-of-apps-will-disappear-transcript/)
 
@@ -100,7 +100,7 @@ Peter 觉得这极其迷人,于是和自己的智能体一起创建了 SOL MD,�
 
 **拒绝 work tree,只用多个仓库副本**。Peter 说同步切换十个 Codex 已经够复杂了,所以要把其他复杂度降到最低。在他脑子里「main 总是可发布的」,于是他干脆把同一仓库克隆成多个副本,都停在 main 上,这样不用纠结分支命名、不用处理 work tree 带来的各种限制。「我不喜欢使用 UI,因为这又增加了复杂度……我只关心同步和文本」（Peter Steinberger）。代码他大多「看到它飞过」,只有遇到棘手的才会细看。
 
-**故意不做 [[MCP|MCP]] 支持,用 [[CLI|CLI]] 取代**。这是最反潮流的一招。「我很高兴我甚至没有构建 MCP 支持。OpenClaw 非常成功,里面没有 MCP 支持」(只带一个小星号:他写了个技能,用自己的工具 MakePorter 把 MCP 转成 CLI 来用)（Peter Steinberger）。
+**故意不做 [[mcp|MCP]] 支持,用 [[CLI|CLI]] 取代**。这是最反潮流的一招。「我很高兴我甚至没有构建 MCP 支持。OpenClaw 非常成功,里面没有 MCP 支持」(只带一个小星号:他写了个技能,用自己的工具 MakePorter 把 MCP 转成 CLI 来用)（Peter Steinberger）。
 
 > 【背景】MCP(Model Context Protocol)是 Anthropic 提出的一套让大模型调用外部工具/数据的协议,被视为给 AI「插外设」的标准;CLI 是 Unix 命令行工具的统称,也是程序员最熟悉的交互方式。
 
@@ -139,8 +139,10 @@ Peter 觉得这极其迷人,于是和自己的智能体一起创建了 SOL MD,�
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] —— 同公司:Claude Code、Codex · 同概念:CLI、OpenClaw、智能体 (agent)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同公司:Claude Code、Codex · 同概念:智能体 (agent)
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同公司:Claude Code · 同概念:OpenClaw、智能体 (agent)
+- [[2026-07-13-pg-the-complete-claude-stack-for-pms|《PM 如何用 Claude 把生产力提升 10 倍：全栈实战》]] —— 同公司:Claude Code · 同概念:MCP、智能体 (agent)
 - [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] —— 同公司:Codex · 同概念:OpenClaw、智能体 (agent)
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] —— 同公司:Claude Code · 同概念:智能体 (agent)、OpenClaw
+- [[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]] —— 同公司:Codex · 同概念:智能体 (agent)、MCP
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同公司:Claude Code · 同概念:智能体 (agent)
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] —— 同公司:ChatGPT · 同概念:智能体 (agent)
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] —— 同概念:智能体 (agent)
@@ -153,6 +155,7 @@ Peter 觉得这极其迷人,于是和自己的智能体一起创建了 SOL MD,�
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同概念:智能体 (agent)
 - [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] —— 同概念:智能体 (agent)
 - [[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]] —— 同概念:智能体 (agent)
+- [[2026-06-24-pg-company-os-jz|《AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战》]] —— 同概念:智能体 (agent)
 - [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同概念:智能体 (agent)
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]] —— 同概念:智能体 (agent)
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同公司:Codex · 同概念:智能体 (agent)

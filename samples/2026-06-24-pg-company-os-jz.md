@@ -1,0 +1,170 @@
+---
+title: AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战
+podcast: Product Growth Podcast
+date: 2026-06-24
+source_url: https://www.news.aakashg.com/p/company-os-jz
+duration: "67:49"
+type: episode
+cover: "#64748b"
+description: Laurel CPO 分享如何用 AI 技能库构建公司操作系统，让非工程师也能端到端交付产品功能。
+host: "[[Jiaona Zhang]]"
+cohosts: ["[[Akash]]"]
+companies: ["[[Laurel]]", "[[GitHub]]", "[[Slack]]", "[[Dust]]", "[[Devon]]"]
+concepts: ["[[智能体]]", "[[剧本]]", "[[技能]]", "[[本体]]", "[[船长]]"]
+category: 产品方法
+tags:
+  - 产品方法
+  - AI 编程
+---
+
+# AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战
+
+> [!info] 关联
+> **主持**:[[Jiaona Zhang]]
+>
+> **联合主持**:[[Akash]]
+>
+> **涉及公司**:[[Laurel]] · [[GitHub]] · [[Slack]] · [[Dust]] · [[Devon]]
+>
+> **概念**:[[智能体]] · [[剧本]] · [[技能]] · [[本体]] · [[船长]]
+>
+> **来源**:[Product Growth Podcast](https://www.news.aakashg.com/p/company-os-jz)
+
+## 🎧 本集中文精华音频
+
+<audio controls preload="metadata" src="/audio/2026-06-24-pg-company-os-jz.mp3" style="width:100%">你的浏览器不支持音频播放,或音频尚未生成。</audio>
+
+## 一句话 TLDR
+
+Laurel CPO 分享如何用 AI 技能库构建公司操作系统，让非工程师也能端到端交付产品功能。
+
+如果你还在用传统方式管理团队——PM 写需求文档、扔给设计师、再扔给工程师开发——那么这期访谈可能会彻底改变你的想法。本期嘉宾是 [[Jiaona Zhang|Jiaona Zhang]]（被主持人戏称为 Jay-Z），她是估值 1 亿美元、AI 原生公司 [[Laurel|Laurel]] 的首席产品官（CPO）。她曾在早期 Airbnb 等公司任职，见证了产品管理的数次演变。
+
+在这场访谈中，她直接屏幕共享，向主持人 [[Akash|Akash]] 展示了 Laurel 是如何用 [[GitHub|GitHub]] 文件夹、Claude [[技能|技能]]库和 AI [[智能体|智能体]]搭建出一套「全公司操作系统」的。她不仅分享了具体的落地实操方法，更抛出了一个极具颠覆性的观点：**未来的产品团队不仅不需要扩军，反而会越来越精简；只要资深且拥抱 AI，一个 PM 就能发挥出过去一个团队的战斗力。** 全文将围绕「公司操作系统怎么搭」以及「谁来干活」这两条主线展开，带你从方法走向人。
+
+## 把 1% 高手的经验，复制给全公司：什么是「公司操作系统」？
+
+企业应用 AI 时普遍面临一个困境：组织里有约 1% 的人极其热衷于折腾 AI 工作流（被称为「1% AI 用户」），但剩下 90% 到 99% 的人完全不知道什么时候该用什么工具 [05:41 Jiaona Zhang]。为了抹平这种巨大的能力鸿沟，Laurel 搭建了一套公司级的操作系统。
+
+这套系统并不神秘，本质上就是大家熟悉的 GitHub 文件夹结构。他们把公司从客户成功、数据科学到工程、财务等每个职能的日常工作，拆解成一本本「[[剧本|剧本]]（Playbook，即标准操作流程）」[02:19 Jiaona Zhang]。比如，客户成功团队该怎么做续约、怎么做交接，都被清晰地记录下来。
+
+但光有文档没用，关键在于**将剧本转化为可随时调用的技能（Skills，指封装好的、能让 AI 执行特定任务的指令文件），并融入员工的工作流中**。在 Laurel，员工每天早上看日历时，系统已经集成了一天的简报；用 Claude 处理邮件或会议准备时，可以直接调用针对特定任务（如处理功能请求）的专属技能 [04:55 Jiaona Zhang]。
+
+> 【背景】嘉宾在演示中频繁提及 Claude。Claude 是一款主流的 AI 模型，类似于 ChatGPT。此处提到的「技能」是指将公司最佳实践封装成 AI 可以读取和执行的指令包，让全员共享高手的经验。
+
+他们构建这套系统时有一个重要教训：**不要让员工去记几十个不同小工具的名字，而是要创建一个「超级智能体（Mega Agent）」作为统一入口** [18:11 Jiaona Zhang]。比如设立一个「市场拓展智能体」，销售或客户成功团队遇到任何需求都先抛给它，由这个中枢负责自动把任务路由、分发给底下的各个子智能体。
+
+### 亲自动手：如何从零搭建你的公司操作系统
+
+说完了这套系统长什么样，接下来是他具体怎么一步步落地的。对于想要尝试的团队，Laurel 的路径非常清晰：
+
+**第一步：从小处开始，先自动化一个无聊的工作流。**
+不要一上来就想搞全公司的大动作。找一个最枯燥、每天都在重复的事情，比如销售在 [[Slack|Slack]] 里向 PM 提功能请求。过去这需要大量来回沟通（问客户说了什么、影响多大、该谁处理），现在只需做一个简单的 Slack 自动化，请求一进来就自动抓取必要信息、分派给对应的人并生成工单 [12:30 Jiaona Zhang]。
+
+**第二步：把人工剧本升级为智能体自动化。**
+每个团队都有厚厚的操作手册。Laurel 的 GTM（市场拓展）团队曾有一份长达 55 页的客户实施剧本 [15:06 Jiaona Zhang]。现在借助 AI，写初稿连一分钟都不用 [48:03 Jiaona Zhang]。写完剧本后，要明确区分哪些是必须人做的（如飞到现场拜访客户），哪些是可以自动化的（如抓取资料、起草邮件），然后为后者构建出一个个的技能文件。
+
+**第三步：直面智能体过载（Agent Overload）。**
+一开始大家很兴奋，建了一堆定时任务和智能体，但很快发现陷入了信息过载 [20:44 Jiaona Zhang]。为了防止员工被各种自动化消息淹没，Laurel 专门花时间把所有的技能和简报集中到一起，确保全公司的步调一致，尤其是让不太懂技术的非工程团队也能顺畅使用 [21:14 Jiaona Zhang]。
+
+## 谁来写代码？让非工程师端到端交付功能
+
+工具和工作流建好了，接下来是这套系统最反直觉的地方：**在公司里写代码交付功能的，不只有工程师，甚至主要不是工程师。**
+
+Laurel 提出了一个「[[船长|船长]]」模式：每个项目任命一位最契合其核心难点的人当「船长」全权负责 [29:57 Jiaona Zhang]。比如，如果是底层架构大改，工程 leader 当船长；如果是视觉交互最重要，设计师当船长；如果是涉及深刻的业务理解和用户心理，PM 当船长。
+
+更疯狂的是，这些非工程师的「船长」，是真的在向生产环境提交前端加后端的完整代码。例如团队里的 PM Nick 独立端到端交付了「临时工时」功能（这不仅是改个按钮，而是涉及复杂数据交互的全局功能）[23:55 Jiaona Zhang]；另一位 PM Jessica 完成了新用户空状态体验的开发 [25:29 Jiaona Zhang]。甚至连客户成功团队（非技术人员）也参与进来了，他们与 PM 合作编写了如何使用 AI 工具交付特性的指南 [26:03 Jiaona Zhang]。
+
+> 【背景】访谈中多次提到 Devon。Devon 是 Cognition 公司推出的一款 AI 智能体工程师。你只需给它下达任务指令，它就能自主完成代码编写和修复。在 Laurel，Devon 被视作一个能力合格的「软件工程师」来使用。
+
+他们能做到这一点，是因为有了像 [[Devon|Devon]] 这样的智能体工程师，以及像 Claude Code、Cursor（查代码库的 AI 工具）这样的辅助工具。一个不懂代码的 PM 在动手前，可以让 AI 扫描代码库并评估风险 [33:43 Jiaona Zhang]。遇到真正高危的改动，再通过类似 Ask Devon Reviewers 的公开频道，拉入真正的人类工程师做代码审查 [36:09 Jiaona Zhang]。通过这种「人+AI」的制衡机制，让所有人都能安全地交付。
+
+### 需要制衡，但绝不能放任所有人各自为战
+
+工具已经赋予了所有人极强的交付能力，那组织该怎么管理协作？这正是下一个关键话题。Jiaona Zhang 强调，必须对工作实行「双轨制」管理 [37:50 Jiaona Zhang]：
+
+对于改动较小、逻辑独立的功能，直接让「船长」端到端搞定，打破传统的瀑布流式交接（PM 扔给设计，设计再扔给开发）[38:25 Jiaona Zhang]，这才是真正的速度。
+
+但对于会改变核心交互逻辑的系统性大改，必须强制走严格的「产品评审」和「架构评审」[39:39 Jiaona Zhang]。她强烈抨击了当下许多所谓「AI 原生公司」的误区：认为有了 AI 就不需要规划、路线图全消失。她指出，如果所有人朝不同方向狂奔，即便局部跑得再快，也无法实现全局最优 [40:14 Jiaona Zhang]。清晰的策略依然是行动的底线。
+
+## PM 的未来：越资深、团队越小
+
+工作方式变了，人的结构自然也要变。节目的最后探讨了产品经理（PM）这个岗位的未来。Jiaona Zhang 抛出了一个让许多人焦虑的判断：**产品团队不是在扩招，而是在急剧缩小。**
+
+她曾管理过几百人的庞大团队，但在 Laurel，她只有 5 个 PM 和 4 个设计师，且完全没有扩招计划 [57:30 Jiaona Zhang]。因为多一个人就多一分沟通和协调的额外开销，而 AI 工具已经让一个优秀的人能抵过去一个军团。
+
+她将 AI 使用能力分为四个层级 [59:06 Jiaona Zhang]：第一级是把 AI 当搜索引擎聊天（如直接问 ChatGPT）；第二级是开始自动化零散的工作流；第三级是用 AI 构建内部应用；最高第四级是构建能交付给客户的共享应用（真正贯穿产品生命周期）。目前大多数人和公司依然停留在第一级。
+
+在招聘时，她甚至不做标准笔试，而是直接让候选人共享屏幕，展示他们真实的 AI 工作流 [58:51 Jiaona Zhang]。以此来过滤掉那些只会口嗨、实则仍用传统方式工作的人。
+
+对于行业里普遍存在的「AI 会淘汰初级 PM」的恐慌，她的回答非常直接：真正懂客户、有判断力、且无畏拥抱 AI 的顶尖 PM 会获得前所未有的杠杆，变得比以往任何时候都更有价值；而缺乏这些特质的平庸者，确实会面临淘汰 [61:32 Jiaona Zhang]。她把这些顶尖人才称为「编排者」——既有全局视野，又能俯身落地执行 [62:19 Jiaona Zhang]。团队不需要一大堆人，只需要几个身经百战的「编排者」即可。
+
+## 本集带走
+
+1. **公司操作系统 = 共享最佳实践的技能库**：要解决「1% 的 AI 狂人 vs 99% 不知所措的员工」这个困局，别只停留在丢给员工几个工具。必须把组织的隐性知识梳理成文档，转化为 AI 可调用的「技能」，并在员工最习惯的工作流中（如日历、邮件）即时推送给他们。
+2. **非技术人员写代码将成为常态**：传统「PM-设计-工程」的流水线交接正在瓦解。当 AI 智能体能承担大部分编码时，谁最懂客户和业务场景，谁就应该当「船长」端到端负责交付。工程师应聚焦于高风险的架构和数据底线，而非包揽所有需求。
+3. **产品团队会越来越小，但门槛越来越高**：AI 大幅消解了庞大的团队沟通成本，一个人加一群智能体就能干一个团队的活。未来的高薪 PM 必须同时具备深刻的业务判断力、贴近客户的共情力，以及运用 AI 亲自动手构建产品的执行力。只会写传统需求文档的中间层将失去生存空间。
+
+## 金句(中英对照 · 过机器闸门三联校验)
+
+> 我认为这是公司最挣扎的事情，也就是你有这些人，他们是这 1% 的 AI 用户。他们在修补他们的工作流程，他们高度 AI 化，然后你有你知道组织中其余 90% 到 99% 的人不确定该什么时候使用什么。  
+> *I think that's the biggest thing that companies struggle with, which is you got these people who are these 1% AI users. they're tinkering with their workflows they're highly AI pilled and then you have the you know 90 to 99 percent of the rest of the organization who isn't sure what to use when*  
+> —— Jiaona Zhang · [05:38] ^q1
+
+> 如果每个人都在朝不同的方向奔跑，即使你跑得非常快，你也不会真的到达任何地方。  
+> *if everyone's running in different directions, even if you're running incredibly fast, you're not really going to get anywhere.*  
+> —— Jiaona Zhang · [40:08] ^q2
+
+> 我想是的，是的，我的意思是，我曾经手下有几百人，而今天我有 5 个 PM 和 4 个设计师，并且没有真正的理由去增加人数，因为就像当你增加更多人，你就增加了更多协调成本  
+> *I think so yeah I mean I've had hundreds of people and today I have five PMs and four designers and there isn't a real reason to grow that because again like when you add more people you add more coordination costs*  
+> —— Jiaona Zhang · [57:25] ^q3
+
+> 我认为这是因为 1 个 PM 可以做比以往任何时候多得多的事情，但没有那么多有这种技能的人，有那种判断力的人，是 AI 化的人，无畏地经历所有这些环节的人  
+> *I think it's because 1PM can do so much more than ever before, but there aren't that many of them who are that skilled, that have that judgment, who are AI-pilled, who fearlessly are going through all of these pieces*  
+> —— Jiaona Zhang · [61:32] ^q4
+
+> 我们在这里正在处理的空状态，最难做对的部分绝对不是工程，最难做对的部分甚至不是设计，而是内容  
+> *The empty state that we're working on here it's the hardest part to get right is definitely not the engineering the hardest part to get right is not even the design it's the content*  
+> —— Jiaona Zhang · [34:39] ^q5
+
+> 所以我认为这真的在于寻找我称之为编排者的人，那些在思维上有大局观但在执行上落实到细节的人。  
+> *So I think it's really finding who I call the orchestrators, the people who are big picture in terms of their thinking but down to the detail in terms of their execution.*  
+> —— Jiaona Zhang · [62:19] ^q6
+
+> 很多时候当你说这是每个人的责任时，那就是没有任何人的责任，所以我们在 Laurel 所做的是我们实际上有一个 AI 运营团队  
+> *a lot of times when you say it's everyone's responsibility it's no one's responsibility and so what we have at Laurel is we actually have an AI operations team*  
+> —— Jiaona Zhang · [50:07] ^q7
+
+## 相关单集
+
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同公司:GitHub · 同概念:智能体 (agent)
+- [[2026-06-03-latent-space-satya-2026|《Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP》]] —— 同公司:GitHub · 同概念:智能体 (agent)
+- [[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]] —— 同嘉宾:Akash · 同概念:智能体 (agent)
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同公司:Slack · 同概念:智能体 (agent)
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同公司:Slack · 同概念:智能体 (agent)
+- [[2025-11-20-lennys-slack-founder-stewart-butterfield|《把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学》]] —— 同公司:Slack
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] —— 同概念:智能体 (agent)
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验》]] —— 同概念:智能体 (agent)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同概念:智能体 (agent)
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] —— 同概念:智能体 (agent)
+- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别只想推销：产品负责人如何真正影响高管决策》]] —— 同公司:Slack
+- [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同概念:智能体 (agent)
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] —— 同概念:智能体 (agent)
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同概念:智能体 (agent)
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] —— 同概念:智能体 (agent)
+- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] —— 同概念:智能体 (agent)
+- [[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]] —— 同概念:智能体 (agent)
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] —— 同概念:智能体 (agent)
+- [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同概念:智能体 (agent)
+- [[2026-07-13-pg-the-complete-claude-stack-for-pms|《PM 如何用 Claude 把生产力提升 10 倍：全栈实战》]] —— 同概念:智能体 (agent)
+- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:智能体 (agent)
+- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]] —— 同概念:智能体 (agent)
+- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同公司:Slack
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]] —— 同公司:Slack
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同概念:智能体 (agent)
+
+*本集关键词:AI 原生公司 · 公司操作系统 · 非工程师写代码 · PM 角色演变 · 智能体自动化*
+
+---
+
+*中文精华由 GLM-5.2 从官方转写稿全译→浓缩产出,金句经机器闸门(逐字命中转写稿+时间戳区间+说话人)三联校验。英文原稿/全译存档于项目仓库、本页不展示(可事后核对);上云后迁 R2(C7)。*

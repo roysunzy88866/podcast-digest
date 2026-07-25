@@ -22,4 +22,4 @@ unlisted: true
 
 ## 关联实体
 
-[[Peter Steinberger]] · [[OpenClaw]] · [[智能体]] · [[Codex]] · [[Claude Code]] · [[MCP]] · [[提示注入]] · [[CLI]] · [[护城河]] · [[ChatGPT]]
+[[Peter Steinberger]] · [[OpenClaw]] · [[智能体]] · [[Codex]] · [[Claude Code]] · [[mcp]] · [[提示注入]] · [[CLI]] · [[护城河]] · [[ChatGPT]]

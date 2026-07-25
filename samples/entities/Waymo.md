@@ -24,4 +24,4 @@ unlisted: true
 
 ## 关联实体
 
-[[Lenny]] · [[ChatGPT]] · [[Dr. Fei-Fei Li]] · [[Edwin Chen]] · [[Qasar Younis]] · [[World Labs]] · [[Surge AI]] · [[Applied Intuition]] · [[Marble]] · [[Anthropic]]
+[[Lenny]] · [[ChatGPT]] · [[Google]] · [[Dr. Fei-Fei Li]] · [[Edwin Chen]] · [[Qasar Younis]] · [[World Labs]] · [[Surge AI]] · [[Applied Intuition]] · [[Marble]]

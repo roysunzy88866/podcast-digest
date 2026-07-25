@@ -8,7 +8,7 @@ unlisted: true
 # Slack
 
 > [!info] 公司
-> 出现在 6 集 · 金句 0 条 · 关联 10 个
+> 出现在 7 集 · 金句 0 条 · 关联 10 个
 
 ## 集里怎么说它
 
@@ -18,6 +18,7 @@ unlisted: true
 - **[[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]]**(23:51起):本集把它说成:多人协作的频道工具;嘉宾用它做比喻,解释为什么不要把所有任务都塞给一个智能体,而应该像分 Slack 频道一样将任务分开隔离。
 - **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]]**(08:06起):本集提到 Anthropic 内部重度使用的沟通工具，增长团队常在上面直接沟通启动小型项目，并通过 MCP 将其接入 AI 助手进行跨部门风险分析。
 - **[[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]]**(10:23起):Fiona 团队收集内部与外部反馈及沟通的核心即时通讯渠道；她通过让 Claude 会话访问所有 Slack 频道来获取全局视角。
+- **[[2026-06-24-pg-company-os-jz|《AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战》]]**(03:49起):本集展示员工如何生活在 Slack 中。团队直接在 Slack 里构建简单的自动化来收集功能请求、分配工单，并向员工及时交付智能体简报。
 
 ## 出现在这些集
 
@@ -27,7 +28,8 @@ unlisted: true
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] — 作为概念(提及)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]] — 作为被讨论公司(提及)
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] — 作为被讨论公司(提及)
+- [[2026-06-24-pg-company-os-jz|《AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Lenny]] · [[Anthropic]] · [[Claude Code]] · [[智能体]] · [[智能体]] · [[IC]] · [[Stewart Butterfield]] · [[Jenny Wen]] · [[Jessica Fain]] · [[Claire Vo]]
+[[Lenny]] · [[Anthropic]] · [[智能体]] · [[Claude Code]] · [[智能体]] · [[IC]] · [[Stewart Butterfield]] · [[Jenny Wen]] · [[Jessica Fain]] · [[Claire Vo]]
