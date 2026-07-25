@@ -980,3 +980,75 @@ Scenario 3 [基线与量控] seed 只向前看,首集发布单独确认
 4. ✅ 品味档案源清单同步(8 源表+拍板日)。
 5. ⬜ glm-check --kind code 对抗审计 + 账本裁决。
 6. ⬜ PG 首集 E2E 用户真设备验收(触发前单独确认烧钱+发布)。
+
+---
+
+## C12 · 自动品味判官(还 D44③)(2026-07-25 用户拍板「先做逐集判官,把 D44③ 还了」)
+
+> **触发原因(D44③ 的条件被真实触发)**:D44③ 原文「本切片靠『源已被筛成高对味』省掉判官(源级预筛=硬过滤)。**等真出现『绿源里漏进不对味集』再做 per-集判官**」。
+> 2026-07-25 真实发生:`2026-07-24-bigtech-what-happens-if-ai-fails-…`(Big Technology 周五**新闻回顾体**)自动上线 voice.solomind.cc。源级预筛在 bigtech 上不成立——该源一周 2-3 集混着「访谈」与「每周新闻讨论」两种形态,**切不开**。
+> **真相源**:`需求共创/内容品味档案.md`(v1,✅/❌/🔶 三段 + 更新机制)。本片把该档案的「🔄 更新机制(待正式切片实现)」实现掉。
+> **用户 2026-07-25 拍板**:① 拿不准 → 进**待裁清单**攒着集中裁(不自动发、不静默杀);② 存量 39 集**重判但只出报告,不动站**。
+> **本片自决的技术决策(已向用户交底,未被否)**:③ 判官跑在**转写之前**(只读标题+简介 → 判掉一集省 ~2h whisperX + 整条付费链);④ 用**付费档 GLM-4.6**(输入几百 token,≈¥0.005/集、≈¥5/月;免费档实测判断类任务否决≈随机,见 D15/judge-faithful 头注,不为省 ¥5 冒险)。
+
+### 前置核验(已过 · 2026-07-25 本机真抓)
+六源 feed 的 item 简介长度实测:yc 562-1815 / mad 2532-3107 / trainingdata 999-1771 / bigtech 905-1275 / aia16z 1001-2050 字符 —— **判官输入充足**。且 bigtech 新闻回顾体简介首句即 "Ranjan Roy from Margins is back for our weekly discussion of the latest tech news",一眼可判。
+
+### 本片做什么 / 不做什么(防范围蔓延)
+- ✅ 做:逐集品味判官(标题+简介 → 发布/跳过/待裁)、待裁清单落盘、判官接进编排器(转写前)、人工强制入口、存量 39 集重判**只出报告**。
+- ❌ 不做:裁决自动回写 `内容品味档案.md`(下一片;本片只把裁决记进 state,回写靠人)、撤下已上线集(用户明确「只出报告不动站」)、演讲/YouTube 形态的品味口径(那要等共识修改)。
+
+```gherkin
+Feature: 自动品味判官(C12)(US-4, US-11)
+
+Scenario 1 [判官核心] 标题+简介 → 三档判定
+  Given 一条 RSS item(title + description/itunes:summary)与 `内容品味档案.md` 的 ✅/❌/🔶 三段
+  When judge-taste.mjs 把「品味档案全文 + 本集标题 + 简介」点对点喂给 GLM-4.6(一次一集,不给别的候选,防相对比较偏见)
+  Then 返回 {verdict: "publish"|"skip"|"undecided", reason: <人话一句>, matched: <命中的档案类目>}
+  And verdict 只认这三个字面值,返回别的 → 当 "undecided" 处理(fail-safe:绝不因解析失败而误发)
+  And 判官**不读转写稿**(此时还没转写)
+
+Scenario 2 [省钱的位置] 判官在转写之前拦下
+  Given 编排器选出一集新集(selectNew 已过 isInterview + cutoff + 去重)
+  When 判官判 "skip"
+  Then 该集**不进转写、不进翻译、不进浓缩**(whisperX 源省 ~2h runner + 全部 GLM 费用)
+  And 记进 state.skipped:{id, title, pubDate, reason: "品味排除(自动判官):<判官 reason>", judge: "glm-4.6", at: <ISO>}
+  And cutoff 照常推进(不会下轮又抓回来)
+
+Scenario 3 [待裁清单] 拿不准的不发也不杀
+  Given 判官判 "undecided"
+  Then 该集**不进付费链、不发布**,记进 state.pending_review:{id, title, pubDate, reason, source, at}
+  And cutoff 照常推进(不阻塞后续新集)
+  And run 结束时打印「🔔 本轮 N 集待裁,见 data/pipeline-state.json 的 pending_review」
+
+Scenario 4 [人工翻盘入口] 判官判错了人能改回来
+  Given 一集被判 skip 或 undecided
+  When 用户点名 workflow_dispatch 传 force=<集 id>(或本机 --force <id>)
+  Then 该集绕过判官直接进付费链(记 "人工强制:用户点名 override 判官")
+  And 反向:用户可把已在 pending_review 的集手动移进 skipped(不跑)
+
+Scenario 5 [存量重判 · 只出报告] 拿 39 集已知内容验判官准不准
+  Given 已上线/已完成的集(data/episodes/*/meta.json 有 title_en + 原 RSS 简介)
+  When judge-taste.mjs --audit(只读、不改 state、不碰站)
+  Then 产出 data/taste-audit.json + 控制台表格:每集 {id, 判定, reason},并汇总「判 skip 的 N 集」
+  And **不修改任何已发布内容、不触发部署**(用户 2026-07-25 明确「只出报告不动站」)
+  And 已知的真值锚点:bigtech 新闻回顾集应判 skip;lennys 那 4 条手动品味排除应判 skip(判官准确性的现成标尺)
+
+Scenario 6 [异常] 判官挂了不能变成静默放行
+  Given GLM 调用超时/返回非法/额度用尽
+  When 判官无法给出判定
+  Then 该集进 pending_review(**不是** publish,也不是 skip),reason 记「判官不可用:<错误>」
+  And run 不因此整体失败(其余集照跑)
+```
+
+### 测试锚点(C12)
+- 纯逻辑单测(不打网络):`parseVerdict`(三档字面值 / 非法值→undecided / 大小写与空白容错)、`buildJudgePrompt`(档案全文+标题+简介都在,且不含别的候选集)、`pickDescription`(description 与 itunes:summary 取长者、剥 HTML 标签与实体)、state 读写(skipped/pending_review 幂等、同 id 不重复追加)。
+- 真值回归:bigtech 新闻回顾集 + lennys 4 条手动品味排除,判官应全判 skip(Scenario 5 的标尺)。
+
+### DoD(C12)
+1. ⬜ 单测全绿(现有 417 + 本片新增),`npm test` 通过。
+2. ⬜ Scenario 5 存量重判真跑一次,报告落盘,**39 集里判官与人的分歧逐条过用户**。
+3. ⬜ 判官接进编排器,一次真 cron/dispatch 干跑证明「skip 的集没进转写」(看 run 日志)。
+4. ⬜ `glm-check --kind code` 对抗审计 + 账本裁决。
+5. ⬜ ADR 补:D44③ 为何现在还、判官为何用付费档、为何只提醒不硬杀(承 judge-faithful 的哲学)。
+6. ⬜ D44③ 在 `docs/tech-debt.md` 标已还(附本片证据)。

@@ -34,6 +34,14 @@ on:
         description: "true=给缺基线的源设 cutoff(只补缺,绝不顶已有;配 source 可只 seed 一个源)——C10,本机 fetch 不走代理故 seed 放云端"
         required: false
         default: "false"
+      force:
+        description: "C12:逗号分隔的集 id,这些集**绕过品味判官**直接进付费链(判官判错时人工翻盘;救「待裁」的集需配 backfill,因其 cutoff 已推进)"
+        required: false
+        default: ""
+      taste_audit:
+        description: "C12:true=用品味判官重判全部存量集,只出报告落 data/taste-audit.json,**不动站不部署**(用户 2026-07-25 拍板)"
+        required: false
+        default: "false"
 
 permissions:
   contents: write           # 处理完把新集 data/ + pipeline-state.json commit 回仓(去重状态持久化)
@@ -94,6 +102,20 @@ jobs:
           fi
           SRC_ARGS=""
           [ -n "$SOURCE" ] && SRC_ARGS="--source $SOURCE"
+          # C12 · force:点名的集绕过品味判官(人工翻盘)。同 refresh 的 id 校验口径。
+          FORCE="${{ github.event.inputs.force || '' }}"
+          if [ -n "$FORCE" ] && ! echo "$FORCE" | grep -qE '^[a-zA-Z0-9,_-]+$'; then
+            echo "::error::force 输入非法(需逗号分隔集 id):'$FORCE'"; exit 1
+          fi
+          FORCE_ARGS=""
+          [ -n "$FORCE" ] && FORCE_ARGS="--force $FORCE"
+          # C12 · 存量重判(只读、只出报告、不动站;用户 2026-07-25 拍板)。放最前面:它不产内容、不部署。
+          if [ "${{ github.event.inputs.taste_audit || 'false' }}" = "true" ]; then
+            echo "🔍 C12 存量重判模式:只读不动站"
+            node scripts/judge-taste.mjs --audit
+            echo "has_new=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
           # C10:seed 模式(设基线不处理内容,不烧钱)。放云端因本机 Node fetch 不走代理、部分 feed 取不到。
           if [ "${{ github.event.inputs.seed || 'false' }}" = "true" ]; then
             echo "🌱 seed 模式:补缺基线 ${SOURCE:+(只 $SOURCE)}"
@@ -118,9 +140,9 @@ jobs:
           elif [ "$BACKFILL" -gt 0 ]; then
             echo "🔁 回填模式:最近 $BACKFILL 集 ${SOURCE:+(源 $SOURCE)}"
             # 多源配置下编排器强制回填必须点名源(C9 防呆);不点名会响亮 exit 2
-            node scripts/run-pipeline.mjs --backfill "$BACKFILL" $SRC_ARGS
+            node scripts/run-pipeline.mjs --backfill "$BACKFILL" $SRC_ARGS $FORCE_ARGS
           else
-            node scripts/run-pipeline.mjs $SRC_ARGS
+            node scripts/run-pipeline.mjs $SRC_ARGS $FORCE_ARGS
           fi
           # 判定是否有**干净可发**的新内容:只看 data/episodes(新完成集)+ samples(新集页)——
           # 全被隔离时 data/episodes 无新增(失真集已移去 gitignore 的 data/skipped),samples 也无新增 → 不部署。

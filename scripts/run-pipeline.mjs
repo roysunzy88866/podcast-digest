@@ -6,6 +6,10 @@
 //   node scripts/run-pipeline.mjs --seed     # 设站基线:把当前 feed 最新集时间记为 cutoff,不处理任何集
 //   node scripts/run-pipeline.mjs            # 正常跑:处理 cutoff 之后的新访谈集
 //   node scripts/run-pipeline.mjs --dry-run  # 只打印会处理哪些集,不真跑(省钱、CI 干验)
+//   node scripts/run-pipeline.mjs --backfill 3 --source pg --force <集id>[,<集id>]
+//                                            # C12:点名的集**绕过品味判官**直接进付费链(判官判错时人工翻盘)。
+//                                            # 注意:判「待裁」的集 cutoff 已推进,日常 cron 不会再选中它 →
+//                                            # 要救它得走 --backfill(backfill 无视 cutoff,且待裁集不在 seen 里,会被重新选中)。
 //
 // 纯逻辑(parseFeed/isInterview/deriveId/selectNew)导出供单测;副作用在 main()。
 import { readFileSync, existsSync, readdirSync, writeFileSync, mkdirSync, renameSync, rmSync } from "node:fs";
@@ -14,8 +18,13 @@ import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { createHash } from "node:crypto";
 import { xmlUnescape } from "./build-feed.mjs"; // C9:Simplecast 标题/URL 不走 CDATA,带 &apos;/&amp; 实体(有 isMain 守卫,import 无副作用)
+import { judgeOne, appendPending } from "./judge-taste.mjs"; // C12 品味判官(跑在转写前;有 isMain 守卫,import 无副作用)
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
+
+// C12:品味判官引擎。付费档——输入仅标题+简介几百 token(≈¥0.005/集),
+// 而免费档实测在判断类任务上否决不可复现≈随机(judge-faithful.mjs 头注 / D15),不为省几块钱冒险。
+const TASTE_JUDGE_MODEL = "glm-4.6";
 
 // C8/C9 · 源清单(品味校准后只抓 🟢 高对味源,真相源 需求共创/内容品味档案.md v1)。
 // 每个源:{ key(id 前缀), name(卡片显示), feedUrl, archiveFile?(补历史), asr?(无官方稿源的转写路线) }。
@@ -72,7 +81,8 @@ export function parseItunesDuration(s) {
   return parts.reduce((acc, n) => acc * 60 + n, 0);
 }
 
-/** 解析播客 RSS(Substack/Simplecast 同构)→ [{title, link, pubDateISO, hasAudio, enclosureUrl, durationSec}]。只用正则,不引 XML 依赖。*/
+/** 解析播客 RSS(Substack/Simplecast 同构)→ [{title, link, pubDateISO, hasAudio, enclosureUrl, durationSec, description, itunesSummary}]。只用正则,不引 XML 依赖。
+ *  C12:description / itunes:summary 是**品味判官的唯一输入**(判官跑在转写前,只有这些能看)。原样带出,清洗交 judge-taste.pickDescription。 */
 export function parseFeed(xml) {
   const items = [];
   const itemRe = /<item(?:\s[^>]*)?>([\s\S]*?)<\/item>/g; // 容忍带属性/命名空间的 <item ...>
@@ -95,6 +105,9 @@ export function parseFeed(xml) {
       hasAudio,
       enclosureUrl,
       durationSec: parseItunesDuration(pick(/<itunes:duration>([\s\S]*?)<\/itunes:duration>/)),
+      // C12 品味判官输入(原样,不清洗)
+      description: pick(/<description>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/description>/),
+      itunesSummary: pick(/<itunes:summary>(?:<!\[CDATA\[)?([\s\S]*?)(?:\]\]>)?<\/itunes:summary>/),
     });
   }
   return items;
@@ -368,6 +381,17 @@ async function main() {
     process.exit(2);
   }
 
+  // C12 --force <id>[,<id>]:点名的集绕过品味判官(人工翻盘)。只放行、不改判官本身。
+  const fIdx = argv.indexOf("--force");
+  const forceIds = new Set(
+    fIdx >= 0 ? String(argv[fIdx + 1] ?? "").split(",").map((s) => s.trim()).filter(Boolean) : [],
+  );
+  if (fIdx >= 0 && !forceIds.size) {
+    console.error("⛔ --force 需集 id(逗号分隔),如 `--force 2026-07-24-bigtech-xxx`。");
+    process.exit(2);
+  }
+  if (forceIds.size) console.log(`🔓 人工强制放行 ${forceIds.size} 集(绕过品味判官):${[...forceIds].join(", ")}`);
+
   // --ensure-audio:只补齐已发布集缺失音频(CI 检出不带 gitignore 音频;refresh 分支回滚集在
   // runner 上没音频,gate-audio 必挂 —— refresh=all 首跑 18 条实测)。不取源不处理内容。
   if (flags.has("--ensure-audio")) {
@@ -393,7 +417,7 @@ async function main() {
   let totalClean = 0;
   let totalSkipped = 0;
   for (const source of sources) {
-    const r = await processSource(source, state, { backfillN, dryRun: flags.has("--dry-run") });
+    const r = await processSource(source, state, { backfillN, dryRun: flags.has("--dry-run"), forceIds });
     totalClean += r.clean;
     totalSkipped += r.skipped;
   }
@@ -409,7 +433,7 @@ async function main() {
 }
 
 /** 单源一轮:取 feed→选新集→逐集处理→按源推进 cutoff。返回 {clean, skipped} 计数。 */
-async function processSource(source, state, { backfillN, dryRun }) {
+async function processSource(source, state, { backfillN, dryRun, forceIds = new Set() }) {
   console.log(`\n══ 源:${source.key}(${source.feedUrl})`);
 
   // 补历史(--backfill)读本机备好的全历史列表;日常/cron 走 RSS(最近 20,只向前看够用,drift #28)
@@ -458,8 +482,41 @@ async function processSource(source, state, { backfillN, dryRun }) {
   // 逐集处理:干净集入发布,失真集隔离(skip+通知,drift #24),转瞬失败留半成品下次重试。
   const clean = [];
   const skipped = [];
+  const pending = []; // C12:判官拿不准的,攒起来等用户集中裁
   for (const item of picks) {
     const id = deriveId(item, source);
+
+    // C12 · 品味判官(跑在转写之前:判掉一集省 ~2h whisperX + 整条付费链)。
+    // 三档:publish 放行 / skip 记账不跑 / undecided 进待裁攒着等人裁(都不跑付费链)。
+    // 🔒 判官不可用 → judgeOne 内部落 undecided,不是放行也不是杀(Scenario 6)。
+    if (forceIds.has(id)) {
+      console.log(`   🔓 ${id} 人工强制:用户点名 override 判官,直接进付费链`);
+    } else {
+      const verdictObj = await judgeOne(item);
+      if (verdictObj.verdict === "skip") {
+        appendSkip(state, {
+          id, title: item.title, pubDate: item.pubDateISO,
+          reason: `品味排除(自动判官 C12):${verdictObj.reason}${verdictObj.matched ? `【${verdictObj.matched}】` : ""}`,
+          judge: TASTE_JUDGE_MODEL, at: new Date().toISOString(),
+        });
+        writeState(state); // 即刻落盘,承 bug c:后续崩了也不丢账、不重扣钱
+        skipped.push({ id, reason: `品味排除(自动判官):${verdictObj.reason}`, retry: false });
+        console.log(`   ⛔ ${id} 品味排除(未转写、未花钱):${verdictObj.reason}`);
+        continue;
+      }
+      if (verdictObj.verdict === "undecided") {
+        appendPending(state, {
+          id, title: item.title, pubDate: item.pubDateISO, source: source.key,
+          reason: verdictObj.reason, judge: TASTE_JUDGE_MODEL, at: new Date().toISOString(),
+        });
+        writeState(state);
+        pending.push({ id, reason: verdictObj.reason });
+        console.log(`   🔶 ${id} 待裁(未转写、未花钱):${verdictObj.reason}`);
+        continue;
+      }
+      console.log(`   ✅ ${id} 品味过:${verdictObj.reason}`);
+    }
+
     let res;
     try {
       res = processEpisode(item, id, source);
@@ -490,6 +547,12 @@ async function processSource(source, state, { backfillN, dryRun }) {
   if (skipped.length) {
     console.log(`\n🔔 通知:${source.key} 本批 ${skipped.length} 集未发布:`);
     skipped.forEach((s) => console.log(`   - ${s.id} — ${s.reason}${s.retry ? "" : "(隔离 data/skipped,待人工看)"}`));
+  }
+
+  // 🔔 C12 待裁通知:攒着等用户集中裁,不自动发也不静默杀
+  if (pending.length) {
+    console.log(`\n🔔 ${source.key} 本轮 ${pending.length} 集待裁(判官拿不准,未花钱;见 data/pipeline-state.json 的 pending_review):`);
+    pending.forEach((p) => console.log(`   🔶 ${p.id} — ${p.reason}`));
   }
 
   // cutoff(按源):无「转瞬失败待重试」的集时,推进到本批最新(干净集+隔离集都是终态,靠 seen 去重不重跑);

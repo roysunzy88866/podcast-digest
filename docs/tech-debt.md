@@ -55,7 +55,10 @@
 ## D44 · C8 内容源切换的三个缓办项(2026-07-20 登记)
 - **① 按源独立 cutoff(state 重构)**:✅ **已还(2026-07-24,C9)**:`state.cutoffs[source.key]` 按源映射 + `migrateState` 旧格式无损迁移(旧字段不残留)+ `applySeed` 只补缺的源(已有基线绝不顶掉)+ main 拆 `processSource` 按源循环 + `--source` 点名 + 多源下 `--backfill` 必须 `--source`。单源守卫(`SOURCES.length===1` exit 2)已拆。测试:migrateState/needsReseed/applySeed 单测 + 真 feed dry-run 验迁移透明。
 - **② a16z / How I AI 无官方稿 → ASR 决策**:两源非 Substack、RSS 与集页均无官方转写(2026-07-19 真查),接入需走云端 ASR——**要花钱 + 是最易失真环节**。**2026-07-24 更新**:① **How I AI 不用接了**——实测其集子经 Lenny's Substack feed 分发(solo-builder/morning-brew/codex 全是 Claire Vo 的 How I AI 集,带官方稿),已被现有源覆盖;它自己的 anchor.fm feed 反而无稿。② **a16z ASR 选型用户拍板**:whisperX 自托管 Actions 为主(免费无限)、Deepgram $200 额度为备、AssemblyAI 三线;CPU 速度/质量【未验证】待接入 P1 真跑。剩余工程活=按源 cutoff 重构(见 ①)+ whisperX 接入。
-- **③ 自动品味判官 + 待裁清单 + 回写档案**:本切片靠「源已被筛成高对味」省掉判官(源级预筛=硬过滤)。等真出现「绿源里漏进不对味集」再做 per-集判官(读简介对 `内容品味档案.md` 打分 → 发布/跳过/待裁)+ 待裁攒着对话集中裁 + 裁决回写档案。ADR 待补。
+- **③ 自动品味判官 + 待裁清单 + 回写档案**:~~本切片靠「源已被筛成高对味」省掉判官(源级预筛=硬过滤)。等真出现「绿源里漏进不对味集」再做 per-集判官(读简介对 `内容品味档案.md` 打分 → 发布/跳过/待裁)+ 待裁攒着对话集中裁 + 裁决回写档案。ADR 待补。~~
+  🟡 **大部分已还(2026-07-25,C12 · ADR 0015)**。**触发条件真的发生了**:`2026-07-24-bigtech-what-happens-if-ai-fails-…`(Big Technology 周五**新闻回顾体**)过了全部防失真闸门、自动上线 voice.solomind.cc —— 根因是 bigtech 一周 2-3 集混着「深度访谈」与「每周新闻讨论」两种形态,**源级预筛切不开**。
+  **已做**:`scripts/judge-taste.mjs`(标题+简介 → GLM-4.6 判 publish/skip/undecided)+ `prompts/judge-taste.md` + 接进编排器**转写之前**(判掉一集省 ~2h whisperX + 整条付费链)+ `state.pending_review` 待裁账本 + `--force <id>` 人工翻盘 + workflow 同名 input + `--audit` 存量重判(只出报告不动站)。fail-safe:判官挂/返回非法值一律落 `undecided`,**结构上不可能误放行**(17 条单测守,含 fuzz 组)。
+  **仍未做(不宣称闭合)**:① **裁决自动回写 `内容品味档案.md`**(档案「更新机制」第 2 步)——现在裁决只进 state,回写靠人;② **判官准确率未经验证**——DoD#2 的存量重判是第一次真检验,分歧要逐条过用户,验不过不算还清;③ 判官读简介不读正文,标题党/含糊简介判不准,靠 `undecided` 兜。
 - **④ 换源需 --seed**:源从 Latent 换 Lenny's 后,旧 cutoff(Latent 时间线)对 Lenny's 无意义。**已加固为机器闸门**(GLM 20260720-001[1])。**2026-07-24 更新(C9)**:cutoff 已按源(①还账),`needsReseed` 语义收敛为「该源无基线即逼 seed」——结构上不可能再串号;无基线的源只跳过自己(响亮报警),不砸别的源的日常 cron。
 - **⑤ `isInterview`/`deriveId` 的 `/p/<slug>` 抠取是 Substack 专用**(GLM 20260720-002[2])。✅ **已还(2026-07-24,C9 接线)**:抽 `slugFromLink`(`/(p|episodes)/<slug>` 一个正则管 Substack+Simplecast),isInterview/deriveId 共用;真 a16z feed 干验 id 派生正确、不同集不撞。YC=YouTube 仍未适配(接 YC 时再扩)。
 
