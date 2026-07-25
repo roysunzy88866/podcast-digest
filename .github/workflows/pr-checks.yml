@@ -1,0 +1,52 @@
+# PR 检查 + 自动合并(2026-07-25 用户拍板「测试完自动合并,不要我点」)
+#
+# 设计要点(为什么这么写,别乱改):
+#   ① 不加分支保护规则 —— C7b 流水线用 GITHUB_TOKEN 直推 main(contents: write),
+#      一旦给 main 上「必须过检查才能推」的保护,机器人的直推会被拒 → 每天 4 巡的内容流水线全断。
+#      所以改用「工作流内自助合并」:检查绿了由 Actions 自己合,main 的推送规则一个字不动。
+#   ② 自动合并只对 claude/* 分支生效(AI 开的 PR);人手开的 PR 照旧要人点,不被自动吞掉。
+#   ③ 只跑单元测试:verify-c5 依赖 site/(需 clone Quartz + 44 插件再 build,慢且吃网络),
+#      gate-all 依赖 audio.mp3(云端产物、不入仓,CI 上必然误报失败)。这两个不适合当 PR 闸。
+#   ④ 合并 ≠ 部署:部署另有条件(有新集且闸门全过,或手动 deploy=true),见 pipeline.yml。
+name: PR 检查
+
+on:
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: 单元测试
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.16.0" # 对齐 pipeline.yml 与 Quartz .node-version
+
+      - name: 装依赖
+        run: npm install --no-audit --no-fund
+
+      - name: 跑测试
+        run: npm test
+
+  auto-merge:
+    name: 全绿则自动合并
+    needs: test # test 挂掉这一步根本不跑 = 红了绝不合
+    if: github.event.pull_request.draft == false && startsWith(github.head_ref, 'claude/')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: 合并 PR
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh pr merge ${{ github.event.pull_request.number }} \
+            --repo ${{ github.repository }} \
+            --merge --delete-branch
