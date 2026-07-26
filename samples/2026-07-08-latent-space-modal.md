@@ -47,31 +47,31 @@ Akshat 是 [[Modal|Modal]] 的 CTO，他和 CEO Erik、另一位联创 [[Vibhu|V
 
 ## 从装饰器到智能体体验
 
-Modal 最初并不是一家 GPU 推理公司。Akshat 回忆，Erik 最早的出发点是想做一个更好的运行时（runtime，程序运行的环境），解决工作流编排产品太难用的问题 [00:48 [[Akshat Bubna|Akshat Bubna]]]。而难用的根源在于必须部署在 [[Kubernetes|Kubernetes]]（一种管理容器的系统）上，但 Kubernetes 的设计更偏向缓慢扩展的 Web 服务器，无法适应 AI 时代频繁突发（bursty，指流量短时间内剧烈飙升）的计算需求 [02:50 Akshat Bubna]。
+Modal 最初并不是一家 GPU 推理公司。Akshat 回忆，Erik 最早的出发点是想做一个更好的运行时（runtime，程序运行的环境），解决工作流编排产品太难用的问题 <button class="pd-ts" data-t="00:48" data-who="Akshat Bubna" data-en="Back then, Eric was already thinking about building a new kind of runtime. And he got there thinking through why are workflow orchestration products so hard to use?" aria-label="回原文"></button>。而难用的根源在于必须部署在 [[Kubernetes|Kubernetes]]（一种管理容器的系统）上，但 Kubernetes 的设计更偏向缓慢扩展的 Web 服务器，无法适应 AI 时代频繁突发（bursty，指流量短时间内剧烈飙升）的计算需求 <button class="pd-ts" data-t="02:50" data-who="Akshat Bubna" data-en="for it but compute heavy like they need one like need a lot more resources you need to burst up and down a lot versus like Kubernetes design for like slow scaling" aria-label="回原文"></button>。
 
-为了解决配置复杂的问题，Modal 推出了核心的 DSL（领域特定语言）层：开发者只需在代码上加上[[装饰器|装饰器]]（decorator，一种包裹函数的特殊语法），就能定义硬件需求和扩展方式，基础设施需求与业务代码完美协同部署 [03:30 [[swyx|swyx]]]。这让 Modal 引以为傲的开发者体验（[[DX|DX]]）脱颖而出。
+为了解决配置复杂的问题，Modal 推出了核心的 DSL（领域特定语言）层：开发者只需在代码上加上[[装饰器|装饰器]]（decorator，一种包裹函数的特殊语法），就能定义硬件需求和扩展方式，基础设施需求与业务代码完美协同部署 <button class="pd-ts" data-t="03:30" data-who="swyx" data-en="the landing page yeah we really like uh the term and so we stole it because you had the insight that everything can just be in decorators next co-located with the code right was that a big part of the original story or is this" aria-label="回原文"></button>。这让 Modal 引以为傲的开发者体验（[[DX|DX]]）脱颖而出。
 
-工具变了，人怎么办？这正是 Modal 团队思考的下一个问题。随着 Claude Code、Codex 等智能体开始自动编写工具代码，开发者逐渐不再直接看代码。Modal 敏锐地把 SDK 团队的目标，从优化开发者体验（DX）转向了优化「智能体体验」（AX） [04:54 Akshat Bubna]。背后的逻辑很直接：为什么要让一个智能体去阅读数百个 Kubernetes 文件、编写甚至没有类型的 YAML，而它其实只需在装饰器里做几个更改，就能获得一个自我配置的运行时 [05:05 Akshat Bubna]？虽然人类不再逐行读代码，但「可观测性」变得前所未有的重要——仪表盘和 CLI 成了人类监督智能体行为的关键 [05:46 Akshat Bubna]。
+工具变了，人怎么办？这正是 Modal 团队思考的下一个问题。随着 Claude Code、Codex 等智能体开始自动编写工具代码，开发者逐渐不再直接看代码。Modal 敏锐地把 SDK 团队的目标，从优化开发者体验（DX）转向了优化「智能体体验」（AX） <button class="pd-ts" data-t="04:54" data-who="Akshat Bubna" data-en="if i'm doing this myself right We've actually changed our SDK team to think about agent experience sort of developer experience." aria-label="回原文"></button>。背后的逻辑很直接：为什么要让一个智能体去阅读数百个 Kubernetes 文件、编写甚至没有类型的 YAML，而它其实只需在装饰器里做几个更改，就能获得一个自我配置的运行时 <button class="pd-ts" data-t="05:05" data-who="Akshat Bubna" data-en="And we think that the same benefits that apply for DX also actually apply for AX, which is why would you have an agent read through hundreds of Kubernetes files and write YAML that's not even typed when it can basically make a couple of changes" aria-label="回原文"></button>？虽然人类不再逐行读代码，但「可观测性」变得前所未有的重要——仪表盘和 CLI 成了人类监督智能体行为的关键 <button class="pd-ts" data-t="05:46" data-who="Akshat Bubna" data-en="Yeah, I mean, people aren't looking at code. One thing we actually still see is really important is observability. How good is your dashboard?" aria-label="回原文"></button>。
 
 ## 推理的硬功夫：快照与投机解码
 
 解决了人机交互的体验问题，接下来是 Modal 在推理引擎内部做的硬核技术优化。Akshat 强调，Modal 最大的用例是[[弹性推理|弹性推理]]（elastic inference，根据流量自动伸缩算力的推理服务）。为了满足音频公司 Suno、视频公司 Runway 等客户波动极大的流量，Modal 把自动扩展做到了极致。
 
-为了让频繁启动的模型更快响应，Modal 引入了 GPU 快照（snapshotting，保存运行状态以便瞬间恢复）技术。它可以提取 torch 编译好的模型状态并保存，下一次调用时就能跳过漫长的加载过程，启动速度快得多 [13:51 Akshat Bubna]。对于强化学习（RL）中需要频繁生成环境的场景，甚至有时瞬间需要十万个[[沙箱|沙箱]]，这种极速扩缩容的能力至关重要 [14:31 Akshat Bubna]。
+为了让频繁启动的模型更快响应，Modal 引入了 GPU 快照（snapshotting，保存运行状态以便瞬间恢复）技术。它可以提取 torch 编译好的模型状态并保存，下一次调用时就能跳过漫长的加载过程，启动速度快得多 <button class="pd-ts" data-t="13:51" data-who="Akshat Bubna" data-en="And we've gone deeper into it on the tech side, but we've incorporated GPU. snapshotting to the product so we can actually uh take the gpu state like your torch compiler model" aria-label="回原文"></button>。对于强化学习（RL）中需要频繁生成环境的场景，甚至有时瞬间需要十万个[[沙箱|沙箱]]，这种极速扩缩容的能力至关重要 <button class="pd-ts" data-t="14:31" data-who="Akshat Bubna" data-en="like for our old stuff your rollouts are bursting as you When you're doing rollouts, you sometimes need 100,000 sandboxes. i'm curious if you've seen early sparks" aria-label="回原文"></button>。
 
-除了扩缩容，提升大模型本身的推理速度也是重头戏。Akshat 介绍了他们的开源项目 [[DeFlash|DeFlash]]——一种基于块的投机解码（speculative decoding，让小模型先猜、大模型来验，从而加速推理）推测器 [16:06 Akshat Bubna]。传统的投机解码让小模型每次猜一个词（token），而 DeFlash 让它一次预测一整个块。
+除了扩缩容，提升大模型本身的推理速度也是重头戏。Akshat 介绍了他们的开源项目 [[DeFlash|DeFlash]]——一种基于块的投机解码（speculative decoding，让小模型先猜、大模型来验，从而加速推理）推测器 <button class="pd-ts" data-t="16:06" data-who="Akshat Bubna" data-en="of this and we've actually been open sourcing a lot of our work in terms of recently we shared our work on dflash which is a block based speculator and we've open sourced all of it so you can get" aria-label="回原文"></button>。传统的投机解码让小模型每次猜一个词（token），而 DeFlash 让它一次预测一整个块。
 
-这块有一个反直觉的技术洞见：很多人花精力改进底层计算内核，但那通常只能带来几个百分点的速度提升；而通过增加推测器的「接受长度」（accept length，大模型认可小模型猜测的词数），能带来 2 到 4 倍的乘法级性能提升，且完全不影响生成质量 [17:37 Akshat Bubna]。为了让所有人都能用上这项前沿技术，Modal 推出了 [[Auto Endpoints|Auto Endpoints]]（自动化端点服务）。用户无需改代码，通过 UI 就能创建一个集成了所有优化的端点，如果想深度微调，随时可以「弹出」黑盒，拿回代码控制权 [18:38 Akshat Bubna]。
+这块有一个反直觉的技术洞见：很多人花精力改进底层计算内核，但那通常只能带来几个百分点的速度提升；而通过增加推测器的「接受长度」（accept length，大模型认可小模型猜测的词数），能带来 2 到 4 倍的乘法级性能提升，且完全不影响生成质量 <button class="pd-ts" data-t="17:37" data-who="Akshat Bubna" data-en="we made these kernels faster whatnot but improving kernel only give you like few percentage points improvement and increasing except lengths literally is multiplicative decrease" aria-label="回原文"></button>。为了让所有人都能用上这项前沿技术，Modal 推出了 [[Auto Endpoints|Auto Endpoints]]（自动化端点服务）。用户无需改代码，通过 UI 就能创建一个集成了所有优化的端点，如果想深度微调，随时可以「弹出」黑盒，拿回代码控制权 <button class="pd-ts" data-t="18:38" data-who="Akshat Bubna" data-en="And our vision for, this is why we launched auto endpoints is we want to make frontier level performance available to everyone and so uh we mentioned this announcement we kind of teased it" aria-label="回原文"></button>。
 
 ## 智能体时代的底层拼图：网络与超级云
 
-软件和推理算法说完了，物理硬件与网络怎么组织？这正是 Modal 另一个不寻常的战略选择。他们不建自己的数据中心，而是构建了一个跨越 17 个云提供商的「超级云」（supercloud）容量池 [24:14 Akshat Bubna]。由于底层集成了大量可靠性不一的新云厂商（neocloud），Modal 在上面自建了一层可靠性兜底：如果某块 GPU 掉线，用户的工作负载完全不受影响 [25:15 Akshat Bubna]。
+软件和推理算法说完了，物理硬件与网络怎么组织？这正是 Modal 另一个不寻常的战略选择。他们不建自己的数据中心，而是构建了一个跨越 17 个云提供商的「超级云」（supercloud）容量池 <button class="pd-ts" data-t="24:14" data-who="Akshat Bubna" data-en="we see is something appealing about modal, which is we've built this capacity pool that spans 17 cloud providers. So we're very good at running on various kinds of cloud capacity across the world." aria-label="回原文"></button>。由于底层集成了大量可靠性不一的新云厂商（neocloud），Modal 在上面自建了一层可靠性兜底：如果某块 GPU 掉线，用户的工作负载完全不受影响 <button class="pd-ts" data-t="25:15" data-who="Akshat Bubna" data-en="and that's why it's something we've What we can invest a lot of time in is actually building our own reliability layer on top. So if the GPU falls off the bus or something happens, user workloads are not affected." aria-label="回原文"></button>。
 
-随着智能体工作负载变重，单纯的计算已经不够，Modal 发现智能体对容器网络提出了意想不到的需求。最典型的是，智能体经常需要对出站网络进行精细控制，比如在沙箱里跑一个「中间人代理」（man-in-the-middle proxy）来拦截日志，或控制对外域名进行凭据注入 [27:23 Akshat Bubna]。
+随着智能体工作负载变重，单纯的计算已经不够，Modal 发现智能体对容器网络提出了意想不到的需求。最典型的是，智能体经常需要对出站网络进行精细控制，比如在沙箱里跑一个「中间人代理」（man-in-the-middle proxy）来拦截日志，或控制对外域名进行凭据注入 <button class="pd-ts" data-t="27:23" data-who="Akshat Bubna" data-en="people want a lot of control over outbound networking from a sandbox. They might want to run a man-in-the-middle proxy for maybe logging stuff for RL or... controlling how egress can happen to a domain injecting credentials and yeah" aria-label="回原文"></button>。
 
-为了支持跨节点的多容器任务，Modal 的沙箱升级成了类似 Pod 的结构，支持「Sidecar」（边车，与主容器共生的辅助容器）模式 [27:06 Akshat Bubna]。有趣的是，Modal 偶然建立的一个基于 IPv6 的私有 Overlay（覆盖）网络，原本只是为了给分布式训练做密钥交换用的，结果也被客户用来实现跨多节点沙箱通信等其他需求 [28:09 Akshat Bubna]。这印证了 Modal 的产品哲学：构建底层原语，让用户自己去探索极限。
+为了支持跨节点的多容器任务，Modal 的沙箱升级成了类似 Pod 的结构，支持「Sidecar」（边车，与主容器共生的辅助容器）模式 <button class="pd-ts" data-t="27:06" data-who="Akshat Bubna" data-en="if you want to talk to compose, our sandboxes now support this thing called sidecarves. A sandbox is actually a pod of containers, and you can run multiple containers in the sandbox." aria-label="回原文"></button>。有趣的是，Modal 偶然建立的一个基于 IPv6 的私有 Overlay（覆盖）网络，原本只是为了给分布式训练做密钥交换用的，结果也被客户用来实现跨多节点沙箱通信等其他需求 <button class="pd-ts" data-t="28:09" data-who="Akshat Bubna" data-en="So you can add like a htp aught layer above it. But we have this thing called i6pn, which we haven't talked about," aria-label="回原文"></button>。这印证了 Modal 的产品哲学：构建底层原语，让用户自己去探索极限。
 
-主持人 swyx 提出了一个很有代表性的疑问：随着 Anthropic、OpenAI 等大模型厂商纷纷推出自家的「托管智能体」，会不会侵入 Modal 的地盘 [44:12 swyx]？Akshat 的判断是，大厂的托管产品适合起步，但当代码走向生产级，企业必然需要专门的沙箱提供商来控制网络隔离、文件持久化和快照恢复 [45:08 Akshat Bubna]。这条「专注底层」的战略，让 Modal 能够心无旁骛地吃下 AI 爆发带来的基础设施红利。
+主持人 [[swyx|swyx]] 提出了一个很有代表性的疑问：随着 Anthropic、OpenAI 等大模型厂商纷纷推出自家的「托管智能体」，会不会侵入 Modal 的地盘 <button class="pd-ts" data-t="44:12" data-who="swyx" data-en="of moto managed agents everyone has one gemini open ai claude uh very useful for you but also like it is their way of starting to edge into your space yeah uh what's going on" aria-label="回原文"></button>？Akshat 的判断是，大厂的托管产品适合起步，但当代码走向生产级，企业必然需要专门的沙箱提供商来控制网络隔离、文件持久化和快照恢复 <button class="pd-ts" data-t="45:08" data-who="Akshat Bubna" data-en="the networking maybe on gpus when you get to that point you kind of want a specialized sandbox provider that gives you those things and that's the role that we are trying to play yeah we don't really have an opinion on the harness" aria-label="回原文"></button>。这条「专注底层」的战略，让 Modal 能够心无旁骛地吃下 AI 爆发带来的基础设施红利。
 
 ## 本集带走
 
@@ -158,6 +158,31 @@ Modal 最初并不是一家 GPU 推理公司。Akshat 回忆，Erik 最早的出
   }
   document.addEventListener('nav', move);
   move();
+})();
+</script>
+
+<script>
+(function(){
+  function bind(){
+    document.querySelectorAll('button.pd-ts').forEach(function(b){
+      if(b.dataset.bound) return;
+      b.dataset.bound='1';
+      b.addEventListener('click',function(){
+        var n=b.nextElementSibling;
+        if(n&&n.classList.contains('pd-orig')){ n.remove(); return; }
+        var d=document.createElement('div');
+        d.className='pd-orig';
+        var h=document.createElement('b');
+        h.textContent='英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'');
+        d.appendChild(h);
+        d.appendChild(document.createElement('br'));
+        d.appendChild(document.createTextNode(b.dataset.en||''));
+        b.after(d);
+      });
+    });
+  }
+  document.addEventListener('nav', bind);
+  bind();
 })();
 </script>
 

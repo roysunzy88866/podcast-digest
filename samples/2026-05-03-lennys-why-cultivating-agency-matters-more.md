@@ -44,9 +44,9 @@ tags:
 
 ### 被唤醒的设计师：不是为了发布，而是为了掌握材料
 
-既然聊到产品团队和构建方式的变化，就得先看看具体做法是怎么演进的。当主持人问及 Notion 的设计师和产品经理（PM）发布代码的起源故事时，Max 澄清他不敢揽功，但这背后确实有个演变过程：刚开始构建聊天界面时，他们在 [[Figma|Figma]] 里画静态图，但这根本无法让人感受到动态的 AI。于是他拉上两位设计师，用对大模型（LLM）友好的小代码库搭了一个简陋的「游乐场」，把原型制作全搬了过去。现在的趋势是，随着模型能力变强，同样的设计师和 PM 已经开始为生产级代码库做一定贡献了 [03:10 Max Schoening]。
+既然聊到产品团队和构建方式的变化，就得先看看具体做法是怎么演进的。当主持人问及 Notion 的设计师和产品经理（PM）发布代码的起源故事时，Max 澄清他不敢揽功，但这背后确实有个演变过程：刚开始构建聊天界面时，他们在 [[Figma|Figma]] 里画静态图，但这根本无法让人感受到动态的 AI。于是他拉上两位设计师，用对大模型（LLM）友好的小代码库搭了一个简陋的「游乐场」，把原型制作全搬了过去。现在的趋势是，随着模型能力变强，同样的设计师和 PM 已经开始为生产级代码库做一定贡献了 <button class="pd-ts" data-t="03:10" data-who="Max Schoening" data-en="It's the first time I've quoted the Bible on this podcast, I think. I wouldn't take credit for the designers at Notion and the PMs at Notion now code. I think that would have probably happened anyways, but I can tell you the origin story of it, which is when I joined Notion, we were building a lot of chat interfaces and we were designing the chat interfaces in Figma." aria-label="回原文"></button>。
 
-工具变了，人的角色和认知怎么跟上？这正是接下来的核心议题。主持人提到，因为工程师用 AI 推进极快，设计师和 PM 被挤压得很厉害，与其花时间写代码，不如确保业务大方向不跑偏。Max 对此给出了非常反直觉的判断：他其实一点都不在乎设计师写的代码能否真正上线 [08:53 Max Schoening]。他坚持设计师应该懂代码，是因为用代码思考能逼迫他们直面真正的媒介。如果你只懂用工具微调 UI 小细节，却不理解「[[智能体循环|智能体循环]]」是如何运转的，那远远不够；真正有价值的，是那种能深度理解[[智能体|智能体]]循环并设计它们的人 [09:23 Max Schoening]。观察现在的各种编程环境，本质上就像上世纪 90 年代的操作系统。
+工具变了，人的角色和认知怎么跟上？这正是接下来的核心议题。主持人提到，因为工程师用 AI 推进极快，设计师和 PM 被挤压得很厉害，与其花时间写代码，不如确保业务大方向不跑偏。Max 对此给出了非常反直觉的判断：他其实一点都不在乎设计师写的代码能否真正上线 <button class="pd-ts" data-t="08:53" data-who="Max Schoening" data-en="What's your thoughts on just that balance? I actually don't care at all whether designers write code that lands in production. The reason I like thinking in code is because it forces you to consider the medium." aria-label="回原文"></button>。他坚持设计师应该懂代码，是因为用代码思考能逼迫他们直面真正的媒介。如果你只懂用工具微调 UI 小细节，却不理解「[[智能体循环|智能体循环]]」是如何运转的，那远远不够；真正有价值的，是那种能深度理解[[智能体|智能体]]循环并设计它们的人 <button class="pd-ts" data-t="09:23" data-who="Max Schoening" data-en="So, for example, I think the two extremes would be if a PM or a designer knows how to tweak with, pick your favorite, they're all the same, Codex, Claude Code or whatever." aria-label="回原文"></button>。观察现在的各种编程环境，本质上就像上世纪 90 年代的操作系统。
 
 说完了怎么用工具，接下来要谈的是什么样的人能在这种新世界里胜出。
 
@@ -54,39 +54,39 @@ tags:
 
 工具和工作流程巨变，什么样的人能脱颖而出？Max 一针见血地指出，区分优劣的关键在于「主观能动性」。
 
-以前，面对做不成的事，人们很容易拿「技能不足」当借口。但现在，随着接近通用人工智能（AGI）的模型能帮你补齐技能，真正决定成败的是你有没有主观能动性，并且这种特质在世界上分布得极不均匀 [11:09 Max Schoening]。那些拥有真正能动性、明白周围世界是可塑的人会大放异彩；而那些死守着「PM 到底该干嘛、设计师只能干嘛」这类边界的人，会过得很艰难 [11:37 Max Schoening]。他生动地概括这种状态：「你驾驭 Notion，是不是像开着偷来的车那么猛？」(即把公司的产品当成自己的事业来拼命) [12:31 Max Schoening]。
+以前，面对做不成的事，人们很容易拿「技能不足」当借口。但现在，随着接近通用人工智能（AGI）的模型能帮你补齐技能，真正决定成败的是你有没有主观能动性，并且这种特质在世界上分布得极不均匀 <button class="pd-ts" data-t="11:09" data-who="Max Schoening" data-en="I think before, it was very easy to always say, &quot;Well, I will never be able to do this because insert skill issue.&quot; And I think we're realizing that even if you have the skills at your fingertips because now, I don't know, an AGI adjacent model helps you." aria-label="回原文"></button>。那些拥有真正能动性、明白周围世界是可塑的人会大放异彩；而那些死守着「PM 到底该干嘛、设计师只能干嘛」这类边界的人，会过得很艰难 <button class="pd-ts" data-t="11:37" data-who="Max Schoening" data-en="And I think people who have true agency and they understand that the world around them is malleable will do great. And the folks who stick to, &quot;Tell me really, what does it mean to be a PM?" aria-label="回原文"></button>。他生动地概括这种状态：「你驾驭 Notion，是不是像开着偷来的车那么猛？」(即把公司的产品当成自己的事业来拼命) <button class="pd-ts" data-t="12:31" data-who="Max Schoening" data-en="You should cut this one short and have him on. I think the way I would describe it is, and I tell this to myself as well, which is like, okay, do you drive Notion like it's stolen, which is we're not the founders." aria-label="回原文"></button>。
 
 为什么这种特质如此重要？这就引出了 Max 一直在倡导的深层产品哲学。
 
 ### 可塑软件：把对软件的控制权还给用户
 
-谈到能动性，Max 顺理成章地引出了他大力倡导的「可塑软件」概念。它的核心理念是：软件应当更多地服务于使用者的利益，而不是受制于开发它的公司 [18:16 Max Schoening]。
+谈到能动性，Max 顺理成章地引出了他大力倡导的「可塑软件」概念。它的核心理念是：软件应当更多地服务于使用者的利益，而不是受制于开发它的公司 <button class="pd-ts" data-t="18:16" data-who="Max Schoening" data-en="Talk about just this idea, malleable software, why you think it's so important, what you think people need to be thinking about here. Malleable software is the idea that software works closer to the interest of the people that use it than the interest of the corporation that makes it, maybe that's how I'd frame it." aria-label="回原文"></button>。
 
-Max 说，他不想用那些只由大厂「象牙塔」设计师定死的软件。目前的软件世界就像一排排死板的格子间，界面、数据等所有层级被死死粘在一起，你几乎无法改动任何细节。想要可塑性，难道只能去折腾 Linux？Max 指出，如今正是因为有了 AI，人们开始觉醒，意识到「我完全可以自己造工具」[19:56 Max Schoening]。为了不让大家各自为战造出一个个孤岛，可塑软件必须建立在鼓励定制的平台或操作系统之上。
+Max 说，他不想用那些只由大厂「象牙塔」设计师定死的软件。目前的软件世界就像一排排死板的格子间，界面、数据等所有层级被死死粘在一起，你几乎无法改动任何细节。想要可塑性，难道只能去折腾 Linux？Max 指出，如今正是因为有了 AI，人们开始觉醒，意识到「我完全可以自己造工具」<button class="pd-ts" data-t="19:56" data-who="Max Schoening" data-en="Now, you brought this up presumably because I think you may have not thought about malleable software too much before AI, but now you're making your own tools maybe for podcast recording, for prepping for shows or, I don't know, whatever." aria-label="回原文"></button>。为了不让大家各自为战造出一个个孤岛，可塑软件必须建立在鼓励定制的平台或操作系统之上。
 
 顺着软件形态的演变，自然会引出一个当下热议的行业话题：如果软件这么好改，SaaS 是不是要终结了？
 
 ### SaaS 末日被严重夸大
 
-既然软件变得越来越可塑、每个人都能用 AI 敲敲打打做个工具，那传统的 SaaS（软件即服务）是不是要被颠覆了？很多人甚至扬言不再需要 Notion。Max 直言，所谓「[[SaaS 末日|SaaS 末日]]」被严重夸大了 [26:51 Max Schoening]。
+既然软件变得越来越可塑、每个人都能用 AI 敲敲打打做个工具，那传统的 SaaS（软件即服务）是不是要被颠覆了？很多人甚至扬言不再需要 Notion。Max 直言，所谓「[[SaaS 末日|SaaS 末日]]」被严重夸大了 <button class="pd-ts" data-t="26:51" data-who="Max Schoening" data-en="And then you'll still have specialized tools around security and so on of just people who go the extra mile to really solve a user problem. So I think to some degree the SaaS apocalypse is greatly exaggerated." aria-label="回原文"></button>。
 
-他承认，2010 年代很多花哨的 SaaS 其实就是个变相的电子表格。但「即服务」这部分才是核心价值：大多数人并不想维护一整套复杂的软件栈。软件就像花园，需要人持续照料 [25:37 Max Schoening]。他预言软件会回归更通用的形态，但安全等高度专业化的领域依然需要专门团队去死磕，这正是「即服务」的价值所在。
+他承认，2010 年代很多花哨的 SaaS 其实就是个变相的电子表格。但「即服务」这部分才是核心价值：大多数人并不想维护一整套复杂的软件栈。软件就像花园，需要人持续照料 <button class="pd-ts" data-t="25:37" data-who="Max Schoening" data-en="They just want to go to Costco and have the steak in a styrofoam packaging and pretend that it wasn't hunting or an animal in the first place. I think with software, Bret Taylor says this too, software is like a garden, you need to tend to it." aria-label="回原文"></button>。他预言软件会回归更通用的形态，但安全等高度专业化的领域依然需要专门团队去死磕，这正是「即服务」的价值所在。
 
 理清了宏观的趋势，接下来回归到具体的产品方法论：到底怎么才算做出了一个好产品？
 
 ### 伟大产品的密码：极小的核心与品味
 
-既然谈到了产品的存亡，Max 分享了他眼中构建成功产品最核心的秘密。现在每个项目的前 10% 几乎都是免费的 [28:47 Max Schoening]，写长篇产品需求文档（PRD）没意义了，直接做个粗糙版演示就行。但前 90% 容易，最后 10% 依然占 90% 的工作量。
+既然谈到了产品的存亡，Max 分享了他眼中构建成功产品最核心的秘密。现在每个项目的前 10% 几乎都是免费的 <button class="pd-ts" data-t="28:47" data-who="Max Schoening" data-en="What part is most not something you don't do anymore or you do a lot more of now with AI emerging as a big part of your process? I think the first 10% of every project are now free." aria-label="回原文"></button>，写长篇产品需求文档（PRD）没意义了，直接做个粗糙版演示就行。但前 90% 容易，最后 10% 依然占 90% 的工作量。
 
-最大的陷阱，就是陷入「再加一个功能就会变好」的死循环 [61:10 Max Schoening]。真正伟大的产品，都有一个极小却做到极致的核心：手机的杀手锏是多点触控，GitHub 是拉取请求（PR），Notion 是块和斜杠命令，Figma 则是实时协作与非协作间的无缝切换 [61:32 Max Schoening]。此外，Max 强调，决定这 20% 核心竞争力的，是「[[品味|品味]]」。品味就像是在脑子里跑虚拟机，能精准预判特定人群是否会喜欢某个点子。要练就品味，唯一的办法就是不断做重复训练，增加反馈的频率 [58:11 Max Schoening]。
+最大的陷阱，就是陷入「再加一个功能就会变好」的死循环 <button class="pd-ts" data-t="61:10" data-who="Max Schoening" data-en="And I think then as a designer, you can have this identity crisis of like, why am I doing this? I think you can't even say that the way it's built always, the best engineering always wins." aria-label="回原文"></button>。真正伟大的产品，都有一个极小却做到极致的核心：手机的杀手锏是多点触控，GitHub 是拉取请求（PR），Notion 是块和斜杠命令，Figma 则是实时协作与非协作间的无缝切换 <button class="pd-ts" data-t="61:32" data-who="Max Schoening" data-en="If I really look at the truly great products, they all have one tiny core that is so exceptionally good. And that is both a combination of you stumbled upon it by luck and then the market agreed." aria-label="回原文"></button>。此外，Max 强调，决定这 20% 核心竞争力的，是「[[品味|品味]]」。品味就像是在脑子里跑虚拟机，能精准预判特定人群是否会喜欢某个点子。要练就品味，唯一的办法就是不断做重复训练，增加反馈的频率 <button class="pd-ts" data-t="58:11" data-who="Max Schoening" data-en="I would probably be terrible at it, but you decide what your in group is and then how good do you get at emulating how they will react to it. And to do that, you just have to do reps." aria-label="回原文"></button>。
 
 讲清了产品方法论，最后我们来看看 Max 给从业者的人生建议。
 
 ### 别让焦虑吞噬热爱
 
-Max 观察到，现在的硅谷充斥着并不真正热爱计算机的人。很多人满脑子想的是「这是最后一班车，挤不进科技圈就会沦为永久底层」，他把这种心态称为极其空虚的活法 [77:51 Max Schoening]。他强烈建议人们拉远视角，别被这种狂热分散了对真正热爱事物的专注。
+Max 观察到，现在的硅谷充斥着并不真正热爱计算机的人。很多人满脑子想的是「这是最后一班车，挤不进科技圈就会沦为永久底层」，他把这种心态称为极其空虚的活法 <button class="pd-ts" data-t="77:51" data-who="Max Schoening" data-en="And it doesn't seem right to me. And I think it seems like a very hollow way of leading life. So I would encourage people to zoom out and not think about it that way." aria-label="回原文"></button>。他强烈建议人们拉远视角，别被这种狂热分散了对真正热爱事物的专注。
 
-聊到 UBI（全民基本收入）时，他抛出了极具启发性的观点：我们现在其实已经有了 UBI，它就叫「[[知识工作|知识工作]]」[68:01 Max Schoening]。如果真有了 AGI，他表示自己依然会捣鼓、造东西，因为创造本身就是纯粹的智力乐趣。正如主持人引用乔布斯的名言并总结的本集精髓：你总有一天会意识到，世界是由并不比你聪明的人构成的；所以去捣鼓吧，你拥有比想象中大得多的能动性去改变周遭的一切。
+聊到 UBI（全民基本收入）时，他抛出了极具启发性的观点：我们现在其实已经有了 UBI，它就叫「[[知识工作|知识工作]]」<button class="pd-ts" data-t="68:01" data-who="Max Schoening" data-en="So please extend me some grace here because I both mean it as a joke and maybe somewhat real, just depends on which altitude of human nature you look at. My take is that we already have universal basic income." aria-label="回原文"></button>。如果真有了 AGI，他表示自己依然会捣鼓、造东西，因为创造本身就是纯粹的智力乐趣。正如主持人引用乔布斯的名言并总结的本集精髓：你总有一天会意识到，世界是由并不比你聪明的人构成的；所以去捣鼓吧，你拥有比想象中大得多的能动性去改变周遭的一切。
 
 ## 本集带走
 1. **写代码是为了掌握材料，而非单纯出货**：对非工程师而言，AI 时代学代码的真正价值，是逼迫自己直面智能体运转的底层逻辑，而不是单纯为了多发几个功能。
@@ -199,6 +199,31 @@ Max 观察到，现在的硅谷充斥着并不真正热爱计算机的人。很�
   }
   document.addEventListener('nav', move);
   move();
+})();
+</script>
+
+<script>
+(function(){
+  function bind(){
+    document.querySelectorAll('button.pd-ts').forEach(function(b){
+      if(b.dataset.bound) return;
+      b.dataset.bound='1';
+      b.addEventListener('click',function(){
+        var n=b.nextElementSibling;
+        if(n&&n.classList.contains('pd-orig')){ n.remove(); return; }
+        var d=document.createElement('div');
+        d.className='pd-orig';
+        var h=document.createElement('b');
+        h.textContent='英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'');
+        d.appendChild(h);
+        d.appendChild(document.createElement('br'));
+        d.appendChild(document.createTextNode(b.dataset.en||''));
+        b.after(d);
+      });
+    });
+  }
+  document.addEventListener('nav', bind);
+  bind();
 })();
 </script>
 

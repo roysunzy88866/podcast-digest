@@ -47,33 +47,33 @@ tags:
 
 Nadella 首先用微软新推出的 [[MAI|MAI]] 模型(大模型系列)来解释什么是「干净的血统」。他指出,现在很多开放权重的模型(模型参数公开可下载)往往只在某个公开基准测试上刷分很高,但在真实业务场景里并不好用。原因在于训练数据混杂。因此,微软特别强调从预训练阶段就严格把控数据质量,把无用的信息「消融」掉。
 
-但更重要的判断是:模型再好,也只是个通才。企业真正需要的是专才。怎么实现?Nadella 给出的配方不是单纯调用模型,而是围绕模型搭建一套系统:首先建立一套围绕模型的「爬山脚手架」(hill climbing scaffold,指通过不断试错逐步逼近最优解的工具流);然后收集业务运行的真实「[[轨迹|轨迹]]」(traces,指智能体或模型在完成任务时产生的一系列操作记录);最关键的,是建立**[[私有评估|私有评估]]**(private evals,企业自己定制的、不公开的测试题库)。他认为,公开测试集都已经「被刷爆」了,失去了衡量价值的作用 [03:56 Satya Nadella]。
+但更重要的判断是:模型再好,也只是个通才。企业真正需要的是专才。怎么实现?Nadella 给出的配方不是单纯调用模型,而是围绕模型搭建一套系统:首先建立一套围绕模型的「爬山脚手架」(hill climbing scaffold,指通过不断试错逐步逼近最优解的工具流);然后收集业务运行的真实「[[轨迹|轨迹]]」(traces,指智能体或模型在完成任务时产生的一系列操作记录);最关键的,是建立**[[私有评估|私有评估]]**(private evals,企业自己定制的、不公开的测试题库)。他认为,公开测试集都已经「被刷爆」了,失去了衡量价值的作用 <button class="pd-ts" data-t="03:56" data-who="Satya Nadella" data-en="Most importantly, you'll have private evals because we know all the evals out there are good, interesting," aria-label="回原文"></button>。
 
-顺着这个逻辑,他抛出了本集一个极具颠覆性的观点:在 AI 时代,每家公司最大的**知识产权**(IP)不再是代码或专利,而是**私有评估**。他的测试标准很直接:如果你手里有一套私有的评估标准,今天用模型 A,明天能不能无缝切换到模型 B 并继续提升效果?如果能,你才真正掌握主动权;如果不能,你就被某一家模型厂绑架了 [12:18 Satya Nadella]。为了保证这种灵活性,微软提供了一套开放的「[[测试框架|测试框架]]」(harness,指用来运行、调用和管理多个模型与工具的中间件层),让客户可以随意接入任何模型。他拿微软的安全产品举例:因为带有多模型调度能力,它在上线初就发现了传统单模型工具漏掉的漏洞——这就是开放平台的存在性证明 [10:04 Satya Nadella]。
+顺着这个逻辑,他抛出了本集一个极具颠覆性的观点:在 AI 时代,每家公司最大的**知识产权**(IP)不再是代码或专利,而是**私有评估**。他的测试标准很直接:如果你手里有一套私有的评估标准,今天用模型 A,明天能不能无缝切换到模型 B 并继续提升效果?如果能,你才真正掌握主动权;如果不能,你就被某一家模型厂绑架了 <button class="pd-ts" data-t="12:18" data-who="Satya Nadella" data-en="If you can't, you're not in control. And that's where even the harness decision becomes super important, right? So therefore," aria-label="回原文"></button>。为了保证这种灵活性,微软提供了一套开放的「[[测试框架|测试框架]]」(harness,指用来运行、调用和管理多个模型与工具的中间件层),让客户可以随意接入任何模型。他拿微软的安全产品举例:因为带有多模型调度能力,它在上线初就发现了传统单模型工具漏掉的漏洞——这就是开放平台的存在性证明 <button class="pd-ts" data-t="10:04" data-who="Satya Nadella" data-en="together you get evals and what we are proving out is and the best example of that is what we did with em dash right because when it launched it found bugs or vulnerabilities that were not found by mythos" aria-label="回原文"></button>。
 
 ## 工作流被拆解重组,企业软件到了重新发牌的时候
 
 既然模型和工具的使用方式变了,企业软件([[SaaS|SaaS]])自然也得跟着变。主持人抛出了业界热议的「软件终结论」:既然 AI 能一键生成应用,传统 SaaS 还有存在价值吗?Nadella 的回答是:底层价值还在,但打包方式必须重做。
 
-他拆解了传统 SaaS 的构成:把业务流程抽象成数据模型,写一堆业务逻辑,再套上一个界面,这套玩法统治了过去 20 年 [17:04 Satya Nadella]。他明确指出,底层的「数据模型」(比如总账)是非常稳健的,不需要重新发明;但问题在于,以前这些数据被锁死在一个个应用孤岛里。
+他拆解了传统 SaaS 的构成:把业务流程抽象成数据模型,写一堆业务逻辑,再套上一个界面,这套玩法统治了过去 20 年 <button class="pd-ts" data-t="17:04" data-who="Satya Nadella" data-en="20 years, that was it. And that was it. So interestingly enough, now you get to relitigate that vertical stacking." aria-label="回原文"></button>。他明确指出,底层的「数据模型」(比如总账)是非常稳健的,不需要重新发明;但问题在于,以前这些数据被锁死在一个个应用孤岛里。
 
-为了说明怎么打破孤岛,他举了微软 M365 里的 WorkIQ(企业工作数据底层)为例。以前,公司的邮件、文档、会议记录分别存放在不同的应用里;现在,这些数据被彻底打通,变成了一个可以被智能体查询的庞大数据库 [18:48 Satya Nadella]。他分享了一个极具画面的亲身经历:他让 [[GitHub|GitHub]](代码托管平台)里的智能体去读取他上周参加的一堆设计会议记录,智能体竟能自动汇总并给出具体的代码修改建议。这在以前是不可想象的。这也意味着,智能体对 M365 后端数据的调用量,甚至将远远超过人类终端用户的日常点击量。
+为了说明怎么打破孤岛,他举了微软 M365 里的 WorkIQ(企业工作数据底层)为例。以前,公司的邮件、文档、会议记录分别存放在不同的应用里;现在,这些数据被彻底打通,变成了一个可以被智能体查询的庞大数据库 <button class="pd-ts" data-t="18:48" data-who="Satya Nadella" data-en="The same thing is now happening with M365 because with WorkIQ, We have exposed what was perhaps the most important database in a company that never got used as a database because it was only captive to our apps." aria-label="回原文"></button>。他分享了一个极具画面的亲身经历:他让 [[GitHub|GitHub]](代码托管平台)里的智能体去读取他上周参加的一堆设计会议记录,智能体竟能自动汇总并给出具体的代码修改建议。这在以前是不可想象的。这也意味着,智能体对 M365 后端数据的调用量,甚至将远远超过人类终端用户的日常点击量。
 
 ## 新的资产负债表:智能体将要记录在账上
 
 工具和平台变了,人的价值怎么算?这正是访谈接下来切入的深水区。
 
-Nadella 提出了一个非常超前的管理学观点:当一家公司里,一批人和一批智能体配合工作,它们之间产生的交互「轨迹」(数据沉淀),将成为企业最核心的资产。这些轨迹可以拿去训练专属于这家公司的「公司老手智能体」。他甚至断言,当这种智能体沉淀了足够的公司专有知识后,它实际上应该被计入公司的**资产负债表** [15:33 Satya Nadella]。因为过去,人类的隐性知识无法被量化记录;而现在,智能体把这些工作流程完整捕捉了下来。
+Nadella 提出了一个非常超前的管理学观点:当一家公司里,一批人和一批智能体配合工作,它们之间产生的交互「轨迹」(数据沉淀),将成为企业最核心的资产。这些轨迹可以拿去训练专属于这家公司的「公司老手智能体」。他甚至断言,当这种智能体沉淀了足够的公司专有知识后,它实际上应该被计入公司的**资产负债表** <button class="pd-ts" data-t="15:33" data-who="Satya Nadella" data-en="which is when a company says it should in fact go on to the balance sheet, is how I think about it. There may be like human capital was never possible to go put on a balance sheet" aria-label="回原文"></button>。因为过去,人类的隐性知识无法被量化记录;而现在,智能体把这些工作流程完整捕捉了下来。
 
-顺着「人机如何配合」这个话题,主持人问到了工程团队的分工。Nadella 非常认同「通才将迎来最大杠杆」的判断。以 LinkedIn(职场社交平台)为例,他们内部设立了「全栈构建者」的角色,把懂设计、懂产品、懂前端的人揉在一起,打破了原有的职能壁垒 [26:38 Satya Nadella]。但他也强调,在构建底层基础设施(比如支撑模型不断学习的系统)时,依然极度需要分布式系统的顶尖专家。
+顺着「人机如何配合」这个话题,主持人问到了工程团队的分工。Nadella 非常认同「通才将迎来最大杠杆」的判断。以 LinkedIn(职场社交平台)为例,他们内部设立了「全栈构建者」的角色,把懂设计、懂产品、懂前端的人揉在一起,打破了原有的职能壁垒 <button class="pd-ts" data-t="26:38" data-who="Satya Nadella" data-en="But what you said is what there are some very at scale things. At LinkedIn, they did structurally change and it basically built up a new discipline called full" aria-label="回原文"></button>。但他也强调,在构建底层基础设施(比如支撑模型不断学习的系统)时,依然极度需要分布式系统的顶尖专家。
 
-那么,当智能体开始大批量接管日常工作,人类的出路在哪?Nadella 的判断反直觉却充满乐观:他拿微软 [[Azure|Azure]] 云的物理网络运营团队举例。面对庞大的光纤铺设和维修需求,这个团队没有申请增加人手,而是要了更多的 token,自己搭建了一个名叫 Miles 的智能体系统,让它去自动调度 500 多个光纤运营商 [30:47 Satya Nadella]。这意味着,工作被「元化」(meta)了——人类的最新工作,变成了「构建管理系统去干活的智能体」。他甚至抛出了一个绝佳的类比:就像 80 年代没人会想到全球会有四十亿打字员,因为我们做的不是打字,而是知识工作;今天面对 AI,我们也应该跳出「替换人」的线性思维。
+那么,当智能体开始大批量接管日常工作,人类的出路在哪?Nadella 的判断反直觉却充满乐观:他拿微软 [[Azure|Azure]] 云的物理网络运营团队举例。面对庞大的光纤铺设和维修需求,这个团队没有申请增加人手,而是要了更多的 token,自己搭建了一个名叫 Miles 的智能体系统,让它去自动调度 500 多个光纤运营商 <button class="pd-ts" data-t="30:47" data-who="Satya Nadella" data-en="So they built this agentic system. They even have a character for it. It's called Miles and it has all this stuff." aria-label="回原文"></button>。这意味着,工作被「元化」(meta)了——人类的最新工作,变成了「构建管理系统去干活的智能体」。他甚至抛出了一个绝佳的类比:就像 80 年代没人会想到全球会有四十亿打字员,因为我们做的不是打字,而是知识工作;今天面对 AI,我们也应该跳出「替换人」的线性思维。
 
 ## 技术狂飙背后的账本:基建与社区必须双赢
 
 聊完工作方式的颠覆,最后一个话题落在了更宏大的物理世界约束上:[[数据中心|数据中心]]的大举扩张。
 
-Nadella 提到一组震撼的数字:微软在过去 15 个月里建成的 Azure(微软云)算力容量,超过了过去前 15 年的总和 [30:04 Satya Nadella]。但他极其清醒地指出,这种规模的基建如果无法让当地社区感受到切实好处,整个行业就会失去「社会运营许可」。他算了一笔账:数据中心必须带来真实的就业、改善的电网和更低的能源价格,这是必须用真金白银兑现的承诺 [32:55 Satya Nadella]。他还把这种务实精神延伸到了教育领域,指出在获取信息的方式巨变后,传统的教学法和学历认证体系需要被彻底重构。
+Nadella 提到一组震撼的数字:微软在过去 15 个月里建成的 Azure(微软云)算力容量,超过了过去前 15 年的总和 <button class="pd-ts" data-t="30:04" data-who="Satya Nadella" data-en="You saw that I talked about how we built in the last 15 months more Azure capacity than we built in the first 15 years. That's crazy." aria-label="回原文"></button>。但他极其清醒地指出,这种规模的基建如果无法让当地社区感受到切实好处,整个行业就会失去「社会运营许可」。他算了一笔账:数据中心必须带来真实的就业、改善的电网和更低的能源价格,这是必须用真金白银兑现的承诺 <button class="pd-ts" data-t="32:55" data-who="Satya Nadella" data-en="In fact, if anything, it's bringing down prices because long-term there's going to be a better grid," aria-label="回原文"></button>。他还把这种务实精神延伸到了教育领域,指出在获取信息的方式巨变后,传统的教学法和学历认证体系需要被彻底重构。
 
 ## 本集带走
 
@@ -161,6 +161,31 @@ Nadella 提到一组震撼的数字:微软在过去 15 个月里建成的 Azure(
   }
   document.addEventListener('nav', move);
   move();
+})();
+</script>
+
+<script>
+(function(){
+  function bind(){
+    document.querySelectorAll('button.pd-ts').forEach(function(b){
+      if(b.dataset.bound) return;
+      b.dataset.bound='1';
+      b.addEventListener('click',function(){
+        var n=b.nextElementSibling;
+        if(n&&n.classList.contains('pd-orig')){ n.remove(); return; }
+        var d=document.createElement('div');
+        d.className='pd-orig';
+        var h=document.createElement('b');
+        h.textContent='英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'');
+        d.appendChild(h);
+        d.appendChild(document.createElement('br'));
+        d.appendChild(document.createTextNode(b.dataset.en||''));
+        b.after(d);
+      });
+    });
+  }
+  document.addEventListener('nav', bind);
+  bind();
 })();
 </script>
 

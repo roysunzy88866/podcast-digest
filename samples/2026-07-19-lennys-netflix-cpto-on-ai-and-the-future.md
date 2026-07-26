@@ -45,57 +45,57 @@ Elizabeth Stone 分享 AI 如何重塑 Netflix 的团队角色、招聘标准与
 
 ## 每个人都能做一切,但专业并不会消亡
 
-工具变了,角色怎么变?这是 AI 带给每一个组织最直接的冲击。Elizabeth 观察到,像 [[GenAI|GenAI]](生成式 AI)这样的新技术一旦出现,组织会先经历一个「动荡期」(storming phase),然后才能进入「形成期」(forming phase),而目前整个行业正处于动荡期的中间 [03:53 Elizabeth Stone]。
+工具变了,角色怎么变?这是 AI 带给每一个组织最直接的冲击。Elizabeth 观察到,像 [[GenAI|GenAI]](生成式 AI)这样的新技术一旦出现,组织会先经历一个「动荡期」(storming phase),然后才能进入「形成期」(forming phase),而目前整个行业正处于动荡期的中间 <button class="pd-ts" data-t="03:53" data-who="Elizabeth Stone" data-en="I think anytime a new technology comes along, especially one that's as transformative as GenAI, you go through a storming phase before you go through the forming phase of things." aria-label="回原文"></button>。
 
-她的核心判断是:AI 确实让职能边界流动起来了,但并没有让专业过时。具体来说,PM、设计师和数据科学家现在能在产品开发生命周期里走得更远,不需要像过去那样早早等工程师来解锁;他们可以自己做原型、写代码来快速验证假设。但「能做」不等于「该做最终的产品化决策」。Elizabeth 强调,当业务问题清晰时,角色之间的流动是健康的,但「每个人都能把代码发布到生产环境」就不是个好主意 [04:40 Elizabeth Stone]。工程师在「怎么做」(如何扩展、什么是高质量、构建方式会带来什么隐患)上的手艺依然不可替代 [11:39 Elizabeth Stone]。
+她的核心判断是:AI 确实让职能边界流动起来了,但并没有让专业过时。具体来说,PM、设计师和数据科学家现在能在产品开发生命周期里走得更远,不需要像过去那样早早等工程师来解锁;他们可以自己做原型、写代码来快速验证假设。但「能做」不等于「该做最终的产品化决策」。Elizabeth 强调,当业务问题清晰时,角色之间的流动是健康的,但「每个人都能把代码发布到生产环境」就不是个好主意 <button class="pd-ts" data-t="04:40" data-who="Elizabeth Stone" data-en="Do I believe that means anyone should be shipping code to production, that everyone should actually be doing everything? Probably not, but I think that it's good for people to be exploring what's possible." aria-label="回原文"></button>。工程师在「怎么做」(如何扩展、什么是高质量、构建方式会带来什么隐患)上的手艺依然不可替代 <button class="pd-ts" data-t="11:39" data-who="Elizabeth Stone" data-en="An engineer still has a craft around the how. How does this scale? What does high quality look like?" aria-label="回原文"></button>。
 
 > 【背景】「动荡—形成」(storming—forming)借用了组织行为学中经典的团队发展阶段理论(形成 Forming、动荡 Storming、规范 Norming、执行 Performing),用来描述团队在面对颠覆性技术时,旧的协作规则失效、新规则尚未建立的混乱过渡期。
 
-这背后有一个关键的组合拳:一方面,鼓励大家探索 AI 能做什么;另一方面,必须在组织层面把基础设施和[[护栏|护栏]](指防止系统越界、确保输出质量的保护机制)搭好。Elizabeth 点出了几件必须落实的事:对「[[真相来源数据|真相来源数据]]」(source of truth data,指整个组织公认的、准确可信的原始数据)有清晰界定;在代码发布或大改动前有明确的测试护栏;明确哪些场景可以信任 AI 输出、哪些必须走人工审查流程;以及最关键的一条——重申人类对结果仍负有最终责任 [05:36 Elizabeth Stone]。
+这背后有一个关键的组合拳:一方面,鼓励大家探索 AI 能做什么;另一方面,必须在组织层面把基础设施和[[护栏|护栏]](指防止系统越界、确保输出质量的保护机制)搭好。Elizabeth 点出了几件必须落实的事:对「[[真相来源数据|真相来源数据]]」(source of truth data,指整个组织公认的、准确可信的原始数据)有清晰界定;在代码发布或大改动前有明确的测试护栏;明确哪些场景可以信任 AI 输出、哪些必须走人工审查流程;以及最关键的一条——重申人类对结果仍负有最终责任 <button class="pd-ts" data-t="05:36" data-who="Elizabeth Stone" data-en="From an organizational perspective, things I think about to make this more coherent or less frustrating, are some of the things that have to be in place for us to get the benefits rather than the cost." aria-label="回原文"></button>。
 
 说完了角色分工怎么变,接下来一个自然而然的问题就是:既然职能在流动,那 Netflix 到底在招什么样的人?哪些技能在升值,哪些在贬值?
 
 ## 系统思维在升值,狭窄的专长在贬值
 
-如果只能记住一个词来概括 Elizabeth 眼中 AI 时代最稀缺的能力,那就是「[[系统思维|系统思维]]」(systems thinking)。她解释说,Netflix 过去成功的很大一部分原因,是本地团队能针对具体业务问题快速搭建自己需要的技术栈,不需要走中央统一规划的路。但在一个有 AI [[智能体|智能体]](agents,能自主跨系统执行任务的 AI 程序)运行的世界里,如果每个团队还是各搞各的,就会出问题:智能体需要跨系统调用真实数据,如果没有统一的「[[铺设路径|铺设路径]]」(paved paths,指组织预先搭建好、带有护栏的标准化基础设施和流程),数据安全、代码质量、访问权限都会失控 [14:29 Elizabeth Stone]。
+如果只能记住一个词来概括 Elizabeth 眼中 AI 时代最稀缺的能力,那就是「[[系统思维|系统思维]]」(systems thinking)。她解释说,Netflix 过去成功的很大一部分原因,是本地团队能针对具体业务问题快速搭建自己需要的技术栈,不需要走中央统一规划的路。但在一个有 AI [[智能体|智能体]](agents,能自主跨系统执行任务的 AI 程序)运行的世界里,如果每个团队还是各搞各的,就会出问题:智能体需要跨系统调用真实数据,如果没有统一的「[[铺设路径|铺设路径]]」(paved paths,指组织预先搭建好、带有护栏的标准化基础设施和流程),数据安全、代码质量、访问权限都会失控 <button class="pd-ts" data-t="14:29" data-who="Elizabeth Stone" data-en="They built the stack that they needed to solve the problem and have the impact. In a world of AI with agents operating across multiple systems, wanting source of truth data, the importance of having preferred paved paths that get the most of the benefits and produce some guardrails so we can make sure we're doing good work." aria-label="回原文"></button>。
 
-所以 Netflix 正在招聘更多能跨业务域看问题的人,把需求抽象成「在 AI 世界里我们需要哪些通用构建块」。这带来的一个直接变化是:工程师的画像更偏向分布式系统和基础设施,而不只是某个业务领域的专家 [15:14 Elizabeth Stone]。设计团队也一样——现在更需要能制定设计模板和系统规范、思考「Netflix 体验整体该是什么样」的设计师,而不是只负责某个具体功能的人 [16:15 Elizabeth Stone]。
+所以 Netflix 正在招聘更多能跨业务域看问题的人,把需求抽象成「在 AI 世界里我们需要哪些通用构建块」。这带来的一个直接变化是:工程师的画像更偏向分布式系统和基础设施,而不只是某个业务领域的专家 <button class="pd-ts" data-t="15:14" data-who="Elizabeth Stone" data-en="And we're going to have to have a stronger set of infrastructure to move quickly in this future. So, that means that engineering profiles are more distributed systems, more infrastructure, more of that system thinking mindset than a local business expertise." aria-label="回原文"></button>。设计团队也一样——现在更需要能制定设计模板和系统规范、思考「Netflix 体验整体该是什么样」的设计师,而不是只负责某个具体功能的人 <button class="pd-ts" data-t="16:15" data-who="Elizabeth Stone" data-en="So, designers need to then be the people we're hiring again for design systems thinking. How do we think about templates and expression of the brand? And what a good user experience looks like." aria-label="回原文"></button>。
 
-与系统思维同样重要的,是一种心态:对模糊性感到舒服、对探索新事物感到兴奋。Elizabeth 明确说,Netflix 不会招那些对变化和模糊不适应的人 [16:52 Elizabeth Stone]。
+与系统思维同样重要的,是一种心态:对模糊性感到舒服、对探索新事物感到兴奋。Elizabeth 明确说,Netflix 不会招那些对变化和模糊不适应的人 <button class="pd-ts" data-t="16:52" data-who="Elizabeth Stone" data-en="And across all of it, it's a mindset shift. So, we are not hiring people who are not excited to explore, try new things, understand lots is changing and feel comfortable with that ambiguity, be comfortable that there's a blurring of how we work and how we partner." aria-label="回原文"></button>。
 
-反过来,什么在贬值?是那种非常狭窄、深度的专业化。Elizabeth 澄清说,某些领域(比如视频编码或播放系统的底层技术)世界级专家仍然不可或缺。但整体趋势是,相比五到十年前,Netflix 需要更少的纯专家、更多的通才或能在多方向适应的人——能同时搞前端和后端,能深入基础设施,心态上随时准备学新东西 [23:01 Elizabeth Stone]。一个只愿守着狭窄专业、不愿探索新方向的人,会让她担心。
+反过来,什么在贬值?是那种非常狭窄、深度的专业化。Elizabeth 澄清说,某些领域(比如视频编码或播放系统的底层技术)世界级专家仍然不可或缺。但整体趋势是,相比五到十年前,Netflix 需要更少的纯专家、更多的通才或能在多方向适应的人——能同时搞前端和后端,能深入基础设施,心态上随时准备学新东西 <button class="pd-ts" data-t="23:01" data-who="Elizabeth Stone" data-en="I still believe we need specialized practitioners in those spaces. But as a general rule, compared to five or 10 years ago, I would believe we have fewer specialists and more people who are generalists or adaptable in multiple directions." aria-label="回原文"></button>。一个只愿守着狭窄专业、不愿探索新方向的人,会让她担心。
 
-那么,普通人怎么练系统思维?Elizabeth 给了一个非常实操的小技巧:每接到一个具体任务,就往外退一步,问自己一个更大的问题。比如让你给会员体验加个新功能,花一拍时间想想:这背后要解决的更大的消费者问题是什么?这个功能要支持的内容类型,未来会不会扩展?我打算的构建方式,放到更大的产品体系里还成立吗 [25:46 Elizabeth Stone]?她强调不用「煮干整个海洋」(试图一次解决所有问题),只需要对当前任务做一次缩小(zoom out)就够了。一个相关的思维练习是:想想如果你是经理,你会怎么看待这件事——这自然会让你把视角拉到更大的图景 [27:18 Elizabeth Stone]。
+那么,普通人怎么练系统思维?Elizabeth 给了一个非常实操的小技巧:每接到一个具体任务,就往外退一步,问自己一个更大的问题。比如让你给会员体验加个新功能,花一拍时间想想:这背后要解决的更大的消费者问题是什么?这个功能要支持的内容类型,未来会不会扩展?我打算的构建方式,放到更大的产品体系里还成立吗 <button class="pd-ts" data-t="25:46" data-who="Elizabeth Stone" data-en="Each problem you're trying to solve, step out one click to the like, what am I assuming is true about the broader space in solving this problem? So, I was given a task to build some new feature for the Netflix member experience." aria-label="回原文"></button>?她强调不用「煮干整个海洋」(试图一次解决所有问题),只需要对当前任务做一次缩小(zoom out)就够了。一个相关的思维练习是:想想如果你是经理,你会怎么看待这件事——这自然会让你把视角拉到更大的图景 <button class="pd-ts" data-t="27:18" data-who="Elizabeth Stone" data-en="As you describe it, another way I'm thinking about it is think... if you were your manager, what's their broader perspective across not just your one team and problem and KPI, but the larger picture?" aria-label="回原文"></button>。
 
-至于这些变化如何反映在考核上,Elizabeth 透露 Netflix 没有在职业阶梯上为 AI 单独写一套逐级标准,而是在所有岗位之上叠加了一层期望:「[[AI 熟练度|AI 熟练度]]」(AI fluency)。它意味着你有实验心态、知道 AI 在哪里有用在哪里没用、而且真的动手用它做过东西。甚至连编程面试都允许候选人使用 AI 工具,因为这就是实际工作的方式 [29:20 Elizabeth Stone]。
+至于这些变化如何反映在考核上,Elizabeth 透露 Netflix 没有在职业阶梯上为 AI 单独写一套逐级标准,而是在所有岗位之上叠加了一层期望:「[[AI 熟练度|AI 熟练度]]」(AI fluency)。它意味着你有实验心态、知道 AI 在哪里有用在哪里没用、而且真的动手用它做过东西。甚至连编程面试都允许候选人使用 AI 工具,因为这就是实际工作的方式 <button class="pd-ts" data-t="29:20" data-who="Elizabeth Stone" data-en="So, the way we've approached this so far is, instead of trying to articulate at each level exactly how AI changes those expectations, to instead put an overlay across all of the talent at Netflix, people on the team and those who are hiring, to talk about an aspiration for AI fluency." aria-label="回原文"></button>。
 
 明确了要招什么样的人,接下来的问题是:Netflix 凭什么能招到并留住这些人?答案指向了它那套在 AI 时代反而更显珍贵的文化底座。
 
 ## 「卓越即操作系统」:Netflix 文化的底层逻辑
 
-主持人敏锐地捕捉到一个现象:Netflix 早期文化手册里强调的东西——高主观能动性、自主权、高[[人才密度|人才密度]]、支付市场顶薪——恰恰是当下顶级 AI 实验室的运作方式。换句话说,整个行业绕了一大圈,走到了 Netflix 一直在的地方 [38:37 主持人]。
+主持人敏锐地捕捉到一个现象:Netflix 早期文化手册里强调的东西——高主观能动性、自主权、高[[人才密度|人才密度]]、支付市场顶薪——恰恰是当下顶级 AI 实验室的运作方式。换句话说,整个行业绕了一大圈,走到了 Netflix 一直在的地方 <button class="pd-ts" data-t="38:37" data-who="主持人" data-en="Even if Netflix isn't branded as an AI company, AI is a tool that we're very comfortable using to get these great entertainment and technology outcomes. The other really interesting thing, just to keep complimenting Netflix here, if you look at the early culture deck of Netflix and also our conversation last time, things that emerge from that are things like high agency." aria-label="回原文"></button>。
 
-Elizabeth 用一句话总结了这套文化的内核:Netflix 把「卓越」当作一套「操作系统」来运行 [39:20 Elizabeth Stone]。这不是一句口号,它的意思是——赋予人们大量自主权和问责制、把决策尽可能推到组织最深处、雇佣能被信任的优秀人才,所有这些做法本身不是目的,而是通往卓越成果的手段 [39:42 Elizabeth Stone]。
+Elizabeth 用一句话总结了这套文化的内核:Netflix 把「卓越」当作一套「操作系统」来运行 <button class="pd-ts" data-t="39:20" data-who="Elizabeth Stone" data-en="It's a little prescient in understanding what makes talent incredible. I've thought about all those aspects of the culture at Netflix as, this is going to sound a little bit nerdy, but excellence as an operating system." aria-label="回原文"></button>。这不是一句口号,它的意思是——赋予人们大量自主权和问责制、把决策尽可能推到组织最深处、雇佣能被信任的优秀人才,所有这些做法本身不是目的,而是通往卓越成果的手段 <button class="pd-ts" data-t="39:42" data-who="Elizabeth Stone" data-en="We don't like process, so let's make sure that we don't have any of that. It was instead a very strongly held opinion that you get to excellence by giving people a lot of agency and accountability, by pushing decisions as deep in the organization as possible, hiring great people who can be trusted to have good judgment and make good decisions." aria-label="回原文"></button>。
 
-要真正落地这套操作系统,需要几个支柱。第一,也是不可商量的前提:人才密度。没有这个基础,就不可能对各级决策有信心,也没法让人们去冒险 [41:51 Elizabeth Stone]。第二,对冒险感到自在。Netflix 不试图避免失败,而是试图快速恢复——她举了 Netflix 涉足直播为例,明知会不完美也要上,因为会快速学习并变得更好 [42:19 Elizabeth Stone]。第三,一种无私:清楚你做的事是为消费者和 Netflix 推动成果,而不是为了个人偏好 [43:08 Elizabeth Stone]。
+要真正落地这套操作系统,需要几个支柱。第一,也是不可商量的前提:人才密度。没有这个基础,就不可能对各级决策有信心,也没法让人们去冒险 <button class="pd-ts" data-t="41:51" data-who="Elizabeth Stone" data-en="What would you say are the pillars of creating this excellence as an operating system, if founders are listening to this and like, I want them to do that? Well, the talent density is the non-negotiable." aria-label="回原文"></button>。第二,对冒险感到自在。Netflix 不试图避免失败,而是试图快速恢复——她举了 Netflix 涉足直播为例,明知会不完美也要上,因为会快速学习并变得更好 <button class="pd-ts" data-t="42:19" data-who="Elizabeth Stone" data-en="I think there's been great examples of that. Our foray into live was a wonderful example of being comfortable taking a ton of risk, knowing it would be imperfect, knowing we would learn fast and we would be better for it." aria-label="回原文"></button>。第三,一种无私:清楚你做的事是为消费者和 Netflix 推动成果,而不是为了个人偏好 <button class="pd-ts" data-t="43:08" data-who="Elizabeth Stone" data-en="So, there's a selflessness that is part of this excellence operating system. And then the other thing I would say is some of the things that are... they're really unnatural for humans to do." aria-label="回原文"></button>。
 
-但最难做到的,是几件「对人类来说很不自然」的事。比如,当你看到下属做了一个你不同意的决定,只要不会「把地方烧毁」,就忍住别介入,让对方自己做完决定、事后复盘学习 [43:52 Elizabeth Stone]。再比如,当事情不顺时,本能反应是加流程、设关卡来约束,但 Elizabeth 发现每次这么做都花了更多时间却没得到更好的结果——正确的做法是抵制那种「加流程」的冲动,相信优秀的人会通过[[无责复盘|无责复盘]](blameless retro,一种不追个人责任、只分析根因的复盘方式)自己反思和改进 [44:51 Elizabeth Stone]。
+但最难做到的,是几件「对人类来说很不自然」的事。比如,当你看到下属做了一个你不同意的决定,只要不会「把地方烧毁」,就忍住别介入,让对方自己做完决定、事后复盘学习 <button class="pd-ts" data-t="43:52" data-who="Elizabeth Stone" data-en="Especially if it's not material, it's not going to burn the place down, let people make that decision and learn from it and ask for those reflections afterwards of how did it go." aria-label="回原文"></button>。再比如,当事情不顺时,本能反应是加流程、设关卡来约束,但 Elizabeth 发现每次这么做都花了更多时间却没得到更好的结果——正确的做法是抵制那种「加流程」的冲动,相信优秀的人会通过[[无责复盘|无责复盘]](blameless retro,一种不追个人责任、只分析根因的复盘方式)自己反思和改进 <button class="pd-ts" data-t="44:51" data-who="Elizabeth Stone" data-en="Something I've learned over the past few years, that when planning is difficult, I've never heard someone say like, &quot;Oh, we figured out the perfect way to plan or the perfect way to go through feedback and leveling and compensation.&quot;" aria-label="回原文"></button>。
 
-这套文化的另一面是著名的「[[留任测试|留任测试]]」(keeper's test)。Elizabeth 特别澄清,大众往往把它理解为「决定让某人走人的那一刻」,但它同样频繁地用于非常正面的场景:上级对下属说「我会拼命留住你」,然后具体讲对方哪里做得好、影响在哪、怎么更好 [47:17 Elizabeth Stone]。它的本质是一个强制反馈的机制——好的坏的都不回避。
+这套文化的另一面是著名的「[[留任测试|留任测试]]」(keeper's test)。Elizabeth 特别澄清,大众往往把它理解为「决定让某人走人的那一刻」,但它同样频繁地用于非常正面的场景:上级对下属说「我会拼命留住你」,然后具体讲对方哪里做得好、影响在哪、怎么更好 <button class="pd-ts" data-t="47:17" data-who="Elizabeth Stone" data-en="It's often cited in a way where you think of keeper's test as that moment where you decide to let someone go, that they're not the right fit for the role and the conversation about that." aria-label="回原文"></button>。它的本质是一个强制反馈的机制——好的坏的都不回避。
 
-那么,在到处是高薪 AI 实验室的今天,Netflix 怎么竞争人才?Elizabeth 的回答很坦率:必须更明确地说清楚什么样的人在 Netflix 会如鱼得水。你得热爱娱乐、热爱大规模消费产品、热爱技术落地于产品的那个「甜蜜点」。如果你追求的是前沿模型公司做的基础研究,那是完全不同的人格画像 [51:51 Elizabeth Stone]。她不认为缺这样的人——那些对「技术能用来创造人们每天喜爱的东西」感到兴奋的人。
+那么,在到处是高薪 AI 实验室的今天,Netflix 怎么竞争人才?Elizabeth 的回答很坦率:必须更明确地说清楚什么样的人在 Netflix 会如鱼得水。你得热爱娱乐、热爱大规模消费产品、热爱技术落地于产品的那个「甜蜜点」。如果你追求的是前沿模型公司做的基础研究,那是完全不同的人格画像 <button class="pd-ts" data-t="51:51" data-who="Elizabeth Stone" data-en="You have to love the global nature of that. There are a lot of incredibly talented people who love that sweet spot, I am one of them, between tech and product and entertainment." aria-label="回原文"></button>。她不认为缺这样的人——那些对「技术能用来创造人们每天喜爱的东西」感到兴奋的人。
 
 聊完了 Netflix 内部的组织和人,最后一个层面的视角是:这些技术和人才的汇聚,最终会怎样改变我们消费的娱乐本身?
 
 ## 娱乐的未来不会是单一形态
 
-关于 AI 对内容创作的影响,Elizabeth 分享了 Netflix 内部两个影响最大的用例(远超大家熟悉的写代码)。第一个是数据分析和信息提炼:用 AI 快速调取 Netflix 几十年实验和消费者洞察,判断某个方向是否值得深入 [31:17 Elizabeth Stone]。第二个是内容生产本身——Netflix 最近收购了一家由本·阿弗莱克创立的公司 [[InterPositive|InterPositive]],它的技术允许电影制作人在拍摄完成后重新布光、重新构图、甚至修改对白,以获得更高质量的内容,而整个过程仍由创作者主导 [32:47 Elizabeth Stone]。
+关于 AI 对内容创作的影响,Elizabeth 分享了 Netflix 内部两个影响最大的用例(远超大家熟悉的写代码)。第一个是数据分析和信息提炼:用 AI 快速调取 Netflix 几十年实验和消费者洞察,判断某个方向是否值得深入 <button class="pd-ts" data-t="31:17" data-who="Elizabeth Stone" data-en="So, there's two that come to mind. So, the first is data analysis, distillation of information, modeling, which is using the tools to get our arms around all the insights we have, similar to what I mentioned before." aria-label="回原文"></button>。第二个是内容生产本身——Netflix 最近收购了一家由本·阿弗莱克创立的公司 [[InterPositive|InterPositive]],它的技术允许电影制作人在拍摄完成后重新布光、重新构图、甚至修改对白,以获得更高质量的内容,而整个过程仍由创作者主导 <button class="pd-ts" data-t="32:47" data-who="Elizabeth Stone" data-en="There's lots of use cases in post-production. So, we recently acquired a company, InterPositive, that was started by Ben Affleck, that built a set of models and capabilities." aria-label="回原文"></button>。
 
 > 【背景】InterPositive 是 Netflix 收购的 AI 制作公司,由演员/导演本·阿弗莱克(Ben Affleck)创立,专注于用 AI 赋能后期制作环节。Elizabeth 在此特意强调「仍由创作者主导」,回应了当下好莱坞对 AI 替代人类的焦虑。
 
-Netflix 也提醒大家,它在 AI 和机器学习(ML)上的积累不是从 GenAI 才开始的。早年的 Netflix Prize(一个百万美元奖金的推荐算法优化比赛)就证明了它在个性化推荐上的先行者地位 [35:25 主持人]。而随着内容越来越广(电影、剧集、游戏、直播、播客),用 AI 做个性化推荐的挑战只会更大 [36:36 Elizabeth Stone]。
+Netflix 也提醒大家,它在 AI 和机器学习(ML)上的积累不是从 GenAI 才开始的。早年的 Netflix Prize(一个百万美元奖金的推荐算法优化比赛)就证明了它在个性化推荐上的先行者地位 <button class="pd-ts" data-t="35:25" data-who="主持人" data-en="The Netflix prize. Yeah, the Netflix prize. Just show an example of how early you were to AI and ML." aria-label="回原文"></button>。而随着内容越来越广(电影、剧集、游戏、直播、播客),用 AI 做个性化推荐的挑战只会更大 <button class="pd-ts" data-t="36:36" data-who="Elizabeth Stone" data-en="The more exciting our catalog gets, the greater breadth of content we have, not just film and TV, but games and live and podcasts. Personalization becomes even more important and what that experience is." aria-label="回原文"></button>。
 
-至于「会不会有整部剧集纯 AI 制作」这种问题,Elizabeth 的态度很明确:我很难想象没有人类在核心的娱乐。讲故事与人性是一回事,屏幕上没有人的角色很难有感染力。AI 一定会参与制作,但人类是骨干 [64:09 Elizabeth Stone]。Netflix 在好莱坞与硅谷之间的立场是:不规定只用一种方式,而是赋能那些想用 AI 的创作者,也尊重那些完全不用 AI 的创作者 [62:35 Elizabeth Stone]。
+至于「会不会有整部剧集纯 AI 制作」这种问题,Elizabeth 的态度很明确:我很难想象没有人类在核心的娱乐。讲故事与人性是一回事,屏幕上没有人的角色很难有感染力。AI 一定会参与制作,但人类是骨干 <button class="pd-ts" data-t="64:09" data-who="Elizabeth Stone" data-en="Do you think we'll get to a place where just whole TV shows are AI and people love it? I have a hard time picturing entertainment that doesn't have humans at the heart of it." aria-label="回原文"></button>。Netflix 在好莱坞与硅谷之间的立场是:不规定只用一种方式,而是赋能那些想用 AI 的创作者,也尊重那些完全不用 AI 的创作者 <button class="pd-ts" data-t="62:35" data-who="Elizabeth Stone" data-en="There's a very wide array. So, Netflix's role in this is to enable creators with whatever tools they want to use to bring their vision to life. There are going to be some creators or filmmakers who are on the end of the spectrum that says, &quot;Absolutely not." aria-label="回原文"></button>。
 
 ## 本集带走
 
@@ -160,6 +160,31 @@ Netflix 也提醒大家,它在 AI 和机器学习(ML)上的积累不是从 GenAI
   }
   document.addEventListener('nav', move);
   move();
+})();
+</script>
+
+<script>
+(function(){
+  function bind(){
+    document.querySelectorAll('button.pd-ts').forEach(function(b){
+      if(b.dataset.bound) return;
+      b.dataset.bound='1';
+      b.addEventListener('click',function(){
+        var n=b.nextElementSibling;
+        if(n&&n.classList.contains('pd-orig')){ n.remove(); return; }
+        var d=document.createElement('div');
+        d.className='pd-orig';
+        var h=document.createElement('b');
+        h.textContent='英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'');
+        d.appendChild(h);
+        d.appendChild(document.createElement('br'));
+        d.appendChild(document.createTextNode(b.dataset.en||''));
+        b.after(d);
+      });
+    });
+  }
+  document.addEventListener('nav', bind);
+  bind();
 })();
 </script>
 

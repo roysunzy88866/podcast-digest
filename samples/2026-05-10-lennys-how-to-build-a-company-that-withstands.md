@@ -45,51 +45,51 @@ tags:
 
 ## 公司不是被对手打败的，是被自己的成功毁的
 
-翻开这本书的第一个问题：一家公司做得好好的，为什么突然就不行了？Eric 说，他看过太多这样的故事。摧毁这些公司的往往不是竞争对手做出了更好的产品，而是它们自己的成功变成了负债——因为金鹅越金贵，杀鹅取卵的诱惑就越大 [08:25 Eric Ries]。
+翻开这本书的第一个问题：一家公司做得好好的，为什么突然就不行了？Eric 说，他看过太多这样的故事。摧毁这些公司的往往不是竞争对手做出了更好的产品，而是它们自己的成功变成了负债——因为金鹅越金贵，杀鹅取卵的诱惑就越大 <button class="pd-ts" data-t="08:25" data-who="Eric Ries" data-en="It was not someone else came up with a better product. No. Their very success became a liability because the more golden the goose, the greater the temptation to butcher." aria-label="回原文"></button>。
 
 > 【背景】Eric 讲了一个私人故事：朋友在一家餐厅吃了一口菜，立刻掏出手机查，因为他「能尝出这家餐厅被私募股权收购了」——食材成本被压缩，品质下降。类似地，主持人提到网友抱怨他们一直买的 Vital Farms 鸡蛋变差了，后来发现它被大资本收购。
 
-Eric 把这种力量称为「没有人控制、但每个人都服从的力量」[06:39 Eric Ries]。它把组织拖向平庸。具体表现是什么？是创始人被踢出局，是产品偷工减料，是公司沦为纯粹的榨取利润的工具。Eric 强调：这不是个人道德问题，而是结构问题。大多数创始人甚至没有读过自己公司的章程，而那份标准章程里写着「公司可从事任何合法行为或活动」，在今天的「[[股东至上|股东至上]]」（shareholder primacy，一种认为公司唯一目的是为股东赚钱的观念）语境下，这就意味着公司有义务为了最高出价出卖自己 [57:32 Eric Ries]。
+Eric 把这种力量称为「没有人控制、但每个人都服从的力量」<button class="pd-ts" data-t="06:39" data-who="Eric Ries" data-en="Yeah, we all know this force. In the book, I call it the force that no one controls, but everyone obeys. That tends to drag organizations down into mediocrity to the point that we lose control of them." aria-label="回原文"></button>。它把组织拖向平庸。具体表现是什么？是创始人被踢出局，是产品偷工减料，是公司沦为纯粹的榨取利润的工具。Eric 强调：这不是个人道德问题，而是结构问题。大多数创始人甚至没有读过自己公司的章程，而那份标准章程里写着「公司可从事任何合法行为或活动」，在今天的「[[股东至上|股东至上]]」（shareholder primacy，一种认为公司唯一目的是为股东赚钱的观念）语境下，这就意味着公司有义务为了最高出价出卖自己 <button class="pd-ts" data-t="57:32" data-who="Eric Ries" data-en="It will say: &quot;The Acme Corporation is hereby incorporated to pursue any lawful act or activity.&quot; And you read that and you're like, &quot;That sounds pretty open-ended.&quot;" aria-label="回原文"></button>。
 
-Eric 给出了一个触目惊心的数据：根据哈佛法学院的研究，采用标准最佳实践的 VC（风险投资）支持的公司里，上市三年后只有 20% 的创始人还是 CEO [12:22 Eric Ries]。如果你觉得自己是例外，那很可能只是因为还没轮到你。
+Eric 给出了一个触目惊心的数据：根据哈佛法学院的研究，采用标准最佳实践的 VC（风险投资）支持的公司里，上市三年后只有 20% 的创始人还是 CEO <button class="pd-ts" data-t="12:22" data-who="Eric Ries" data-en="If you don't get this right, no other decision you make about your company will matter for the long term because you're not going to be the one making it. According to Harvard Law School, among venture-backed companies that have the standard best practices set up that you got from your lawyer, only 20% of founders are still the CEO three years after going public." aria-label="回原文"></button>。如果你觉得自己是例外，那很可能只是因为还没轮到你。
 
 ## 保护公司要趁早，而且「难做的事反而更省事」
 
 既然公司随时可能被资本「洗劫」，那该怎么办？Eric 提出了一个听起来很反直觉的领导原则：**「[[难就是易|难就是易]]」（Harder is easier）**。
 
-大多数人觉得生意已经够难了，为什么还要自找麻烦？但 Eric 反问：有没有一种可能，正是因为别人不信任你，生意才这么难？[34:57 Eric Ries] 如果你愿意在前端投入，致力于质量、设计、道德，你会得到意想不到的回报，因为**信任是商业中最被低估的资产** [36:10 Eric Ries]。
+大多数人觉得生意已经够难了，为什么还要自找麻烦？但 Eric 反问：有没有一种可能，正是因为别人不信任你，生意才这么难？<button class="pd-ts" data-t="34:57" data-who="Eric Ries" data-en="But I think this is a basically backwards way of looking at it. Because I ask people, could it be, just consider the possibility that one of the reasons you're finding business so hard is that nobody trusts you." aria-label="回原文"></button> 如果你愿意在前端投入，致力于质量、设计、道德，你会得到意想不到的回报，因为**信任是商业中最被低估的资产** <button class="pd-ts" data-t="36:10" data-who="Eric Ries" data-en="You have to do it for the thing itself. Trustworthiness is the most underrated asset in all of business. And the things that create trustworthiness, by definition, stack rank to the bottom if we do it by ROI." aria-label="回原文"></button>。
 
-他举了 Cloudflare 的例子。这家公司起初根本没有使命宣言。但当民主示威者的网站遭到国家级黑客攻击、硅谷大公司都不敢帮忙时，是这家小初创公司站出来免费提供防护 [38:12 Eric Ries]。后来，一位初级工程师问 CEO Matthew Prince：既然我们的使命是「让互联网更美好」，为什么我们不把收费的 SSL 加密（网页加密技术）免费开放？[39:25 Eric Ries] Matthew 没有像普通高管那样把这人打发走，而是说了三个字：「搞清楚它」（Figure it out）[41:01 Eric Ries]。他们为了免费提供加密，硬是重写了底层代码，虽然短期收入下降，但长期赢得了海量信任，这成了他们今天价值数百亿美元公司的基石。
+他举了 Cloudflare 的例子。这家公司起初根本没有使命宣言。但当民主示威者的网站遭到国家级黑客攻击、硅谷大公司都不敢帮忙时，是这家小初创公司站出来免费提供防护 <button class="pd-ts" data-t="38:12" data-who="Eric Ries" data-en="And so Cloudflare, the tiny startup is like, &quot;We'll do it.&quot; These were free tier customers. They weren't even paying any money." aria-label="回原文"></button>。后来，一位初级工程师问 CEO Matthew Prince：既然我们的使命是「让互联网更美好」，为什么我们不把收费的 SSL 加密（网页加密技术）免费开放？<button class="pd-ts" data-t="39:25" data-who="Eric Ries" data-en="That's why we call the principle harder is easier. One day, a junior engineer, not like some senior executive or anything, walks into Matthew Prince's office and he says, &quot;Boss, isn't our mission statement to make a better internet?&quot;" aria-label="回原文"></button> Matthew 没有像普通高管那样把这人打发走，而是说了三个字：「搞清楚它」（Figure it out）<button class="pd-ts" data-t="41:01" data-who="Eric Ries" data-en="And he uttered the three keywords, he said, &quot;Let's figure it out.&quot; Figure it out. This is the leadership principle I think is so powerful, the figure it out principle." aria-label="回原文"></button>。他们为了免费提供加密，硬是重写了底层代码，虽然短期收入下降，但长期赢得了海量信任，这成了他们今天价值数百亿美元公司的基石。
 
-> 【背景】作为对比，Eric 讲了 Groupon 的故事。这家曾靠「每天一封邮件」极速增长的公司，为了季度财报，不断有人提议多发邮件，最终演变成每天发八封，毁掉了用户体验和公司价值 [43:22 Eric Ries]。
+> 【背景】作为对比，Eric 讲了 Groupon 的故事。这家曾靠「每天一封邮件」极速增长的公司，为了季度财报，不断有人提议多发邮件，最终演变成每天发八封，毁掉了用户体验和公司价值 <button class="pd-ts" data-t="43:22" data-who="Eric Ries" data-en="Have you considered two emails?&quot; And he was like, &quot;No. One email a day,&quot; he's like, &quot;That's our whole thing.&quot;" aria-label="回原文"></button>。
 
-既然「难就是易」，那什么时候开始建立这种保护？Eric 的答案是：**现在**。他套用了那句老话：种一棵树最好的时间是 40 年前，其次是现在 [16:24 Eric Ries]。他警告，创始人常常被律师、投资人一路安抚：「等找到产品市场契合度（Product-Market Fit，产品满足市场需求的那个点）再说」「等上市再说」，结果到了 IPO（首次公开募股）前夕，才发现「以前太早，现在太晚」[18:27 Eric Ries]。成功不会保护你，成功只会让你成为靶子 [18:44 Eric Ries]。
+既然「难就是易」，那什么时候开始建立这种保护？Eric 的答案是：**现在**。他套用了那句老话：种一棵树最好的时间是 40 年前，其次是现在 <button class="pd-ts" data-t="16:24" data-who="Eric Ries" data-en="The most important question about how to protect a product is not what protections it needs, but when those protections need to be enacted. And it's basically like that old proverb about the best time to plant a tree was 40 years ago, but the next best time is now." aria-label="回原文"></button>。他警告，创始人常常被律师、投资人一路安抚：「等找到产品市场契合度（Product-Market Fit，产品满足市场需求的那个点）再说」「等上市再说」，结果到了 IPO（首次公开募股）前夕，才发现「以前太早，现在太晚」<button class="pd-ts" data-t="18:27" data-who="Eric Ries" data-en="Now it's too late.&quot; You're like, &quot;Wait a minute, but when I talked to you about it last year, you said it was too early.&quot; &quot;Yeah, it was." aria-label="回原文"></button>。成功不会保护你，成功只会让你成为靶子 <button class="pd-ts" data-t="18:44" data-who="Eric Ries" data-en="You will have lost the leverage. Success will not protect you because success is what makes you a target. That story I told you about the five months CEO got fired." aria-label="回原文"></button>。
 
 ## 核心方法论：Ethos + Integrity（精神 + 正直）
 
 理解了紧迫性，具体要怎么做？Eric 给出的蓝图公式是：**Ethos（精神）加上 Integrity（[[结构完整性|结构完整性]]）**。
 
-**第一步是确立精神（Ethos）。** 这不是写一句漂亮的使命宣言贴在墙上。Eric 反复强调：使命宣言不是使命本身，就像地图不是疆域 [37:08 Eric Ries]。真正的使命是公司这个「活着的超级生物」的涌现属性。他提出了「[[使命驱动|使命驱动]]」（Mission drive）的概念：如果你声称是使命驱动，那就必须证明，**除非实现使命，否则你无法盈利** [49:27 Eric Ries]。他批评 Google 的「不作恶」（Don't be evil）最终沦为口号——Google 按时提交季度财报的概率是 100%，但避免过失杀人的概率只有 90%-95%，原因很简单：前者有庞大的机制保证，后者没有 [53:22 Eric Ries]。
+**第一步是确立精神（Ethos）。** 这不是写一句漂亮的使命宣言贴在墙上。Eric 反复强调：使命宣言不是使命本身，就像地图不是疆域 <button class="pd-ts" data-t="37:08" data-who="Eric Ries" data-en="As leaders, we get so focused on value statement, mission statements. We forget the mission statement is not the mission. The map is not the territory." aria-label="回原文"></button>。真正的使命是公司这个「活着的超级生物」的涌现属性。他提出了「[[使命驱动|使命驱动]]」（Mission drive）的概念：如果你声称是使命驱动，那就必须证明，**除非实现使命，否则你无法盈利** <button class="pd-ts" data-t="49:27" data-who="Eric Ries" data-en="Sorry, I don't buy it. If you're serious about being mission driven, you have to show me that you cannot profit except by achieving the mission. That's the audit we have to do." aria-label="回原文"></button>。他批评 Google 的「不作恶」（Don't be evil）最终沦为口号——Google 按时提交季度财报的概率是 100%，但避免过失杀人的概率只有 90%-95%，原因很简单：前者有庞大的机制保证，后者没有 <button class="pd-ts" data-t="53:22" data-who="Eric Ries" data-en="What is the probability that Google will file its next quarterly report on time?&quot; He was like, &quot;That's a dumb question, Eric. Obviously they're going to do it.&quot;" aria-label="回原文"></button>。
 
 **第二步是建立结构完整性（Integrity）。** 组织的软弱会导致无法兑现承诺。如果你阻止不了内部背叛，使命就是空谈。这里最容易、最基础的一步是：**成为一家[[公益公司|公益公司]]（Public Benefit Corporation, PBC）**。
 
 > 【背景】PBC（公益公司）是一种公司治理结构。传统的「任何合法行为」章程意味着公司必须为股东利益最大化服务（即使牺牲社会利益）；而注册为 PBC，可以在公司章程里明确写入特定的公共使命，并在面临恶意收购或短期套利压力时，作为法律武器拒绝违背使命的要求。
 
-Eric 强调，注册 PBC 只需要一份两页纸的法律文件，毫无坏处，没有权衡 [64:27 Eric Ries]。如果你是员工，面试时只要问一句「我们在章程里写了使命吗？」就能逼着管理层去思考这件事 [62:31 Eric Ries]。
+Eric 强调，注册 PBC 只需要一份两页纸的法律文件，毫无坏处，没有权衡 <button class="pd-ts" data-t="64:27" data-who="Eric Ries" data-en="No. This is the one thing that has no trade, truly no trade-offs at all. I mean, maybe you'll meet an investor who's suspicious about or doesn't like it." aria-label="回原文"></button>。如果你是员工，面试时只要问一句「我们在章程里写了使命吗？」就能逼着管理层去思考这件事 <button class="pd-ts" data-t="62:31" data-who="Eric Ries" data-en="You can say, &quot;Is this a mission driven company?&quot; They're going to say yes. Okay, but how do you know?" aria-label="回原文"></button>。
 
-此外，他提出了**「[[文化银行|文化银行]]」**的概念：每次你为了价值观做出牺牲，就是在存款；每次为了私利走捷径，就是在取款。规则是：**只存款，不取款** [71:49 Eric Ries]。
+此外，他提出了**「[[文化银行|文化银行]]」**的概念：每次你为了价值观做出牺牲，就是在存款；每次为了私利走捷径，就是在取款。规则是：**只存款，不取款** <button class="pd-ts" data-t="71:49" data-who="Eric Ries" data-en="Only make deposits, never make withdrawals. That's it. Because you're going to make withdrawals by accident sometimes because you can make mistakes, but you never intentionally make a withdrawal." aria-label="回原文"></button>。
 
 ## 案例深挖：Anthropic 为什么能顶住 2 亿美元诱惑
 
 到了 AI 时代，这套理念变得前所未有地重要。Eric 讲述了他亲身参与的 Anthropic 的故事。
 
-在 ChatGPT 引爆 AI 热潮之前，Dario 还只是个首次创业的技术创始人，并不被顶级风投看好。但因为他们笃信「AI 安全」，一位投资人介绍他们来找 Eric。Eric 给他们讲了那套「如果你不搞定结构，就会被资本毁掉」的恐怖故事 [74:10 Eric Ries]。于是，Anthropic 从第一天起就注册为 PBC，并在 C 轮融资时正式设立了**[[长期利益信托|长期利益信托]]（Long-Term Benefit Trust, LTBT）**。
+在 ChatGPT 引爆 AI 热潮之前，Dario 还只是个首次创业的技术创始人，并不被顶级风投看好。但因为他们笃信「AI 安全」，一位投资人介绍他们来找 Eric。Eric 给他们讲了那套「如果你不搞定结构，就会被资本毁掉」的恐怖故事 <button class="pd-ts" data-t="74:10" data-who="Eric Ries" data-en="So when they came to me, I was walking them through the same horror story I'm telling you today. I told them, &quot;Look, if you don't get this right, here's what's going to happen.&quot;" aria-label="回原文"></button>。于是，Anthropic 从第一天起就注册为 PBC，并在 C 轮融资时正式设立了**[[长期利益信托|长期利益信托]]（Long-Term Benefit Trust, LTBT）**。
 
-> 【背景】这是一种双层结构：外部由一群不持有公司股权的 AI 安全专家担任受托人，他们有权任命和监督营利性公司的部分董事。因为没有经济利益，他们能在公司面临危险诱惑时行使否决权。这不同于 Mark Zuckerberg 在 Meta 的「双重股权」绝对创始人控制，它是一种更制度化、更持久的保护机制 [76:13 Eric Ries]。
+> 【背景】这是一种双层结构：外部由一群不持有公司股权的 AI 安全专家担任受托人，他们有权任命和监督营利性公司的部分董事。因为没有经济利益，他们能在公司面临危险诱惑时行使否决权。这不同于 Mark Zuckerberg 在 Meta 的「双重股权」绝对创始人控制，它是一种更制度化、更持久的保护机制 <button class="pd-ts" data-t="76:13" data-who="Eric Ries" data-en="I think the structure, frankly, is better than founder control. Dario does not have dual class shares the way that Mark Zuckerberg or Larry and Sergey had. It's more institutional in its nature." aria-label="回原文"></button>。
 
-Eric 指出，Anthropic 拒绝发布危险模型、甚至据说拒绝了一份价值 2 亿美元的合同 [75:53 Eric Ries]。如果换了标准结构，投资人早就为了利润把 CEO 踢出局了。正因为有了结构保护，Anthropic 才能真正做到「对齐」（Alignment），这也是他们吸引顶尖人才、实现更低推理成本（inference cost，运行 AI 模型的计算开销）和更快产品迭代速度的深层原因。
+Eric 指出，Anthropic 拒绝发布危险模型、甚至据说拒绝了一份价值 2 亿美元的合同 <button class="pd-ts" data-t="75:53" data-who="Eric Ries" data-en="But even people who think they did the wrong thing, tactically speaking, admire them because we live in a time when it's so rare for companies to turn down money ever." aria-label="回原文"></button>。如果换了标准结构，投资人早就为了利润把 CEO 踢出局了。正因为有了结构保护，Anthropic 才能真正做到「对齐」（Alignment），这也是他们吸引顶尖人才、实现更低推理成本（inference cost，运行 AI 模型的计算开销）和更快产品迭代速度的深层原因。
 
-最后，Eric 提到了管理学先驱 Mary Parker Follett 提出的**「[[无形领袖|无形领袖]]」**概念 [95:41 Eric Ries]。真正的领导力，是当管理者不在场时，那个指引成千上万个微小决策的「共同目标」。正如他所说，组织是地球上最古老的人工智能形式，只有当使命内化到每个人的骨髓里，公司才能真正不可摧毁。
+最后，Eric 提到了管理学先驱 Mary Parker Follett 提出的**「[[无形领袖|无形领袖]]」**概念 <button class="pd-ts" data-t="95:41" data-who="Eric Ries" data-en="The great Peter Drucker called her the &quot;Prophet of management.&quot; So one of her most important concepts is what she called the invisible leader. And I just love this." aria-label="回原文"></button>。真正的领导力，是当管理者不在场时，那个指引成千上万个微小决策的「共同目标」。正如他所说，组织是地球上最古老的人工智能形式，只有当使命内化到每个人的骨髓里，公司才能真正不可摧毁。
 
 ## 本集带走
 
@@ -203,6 +203,31 @@ Eric 指出，Anthropic 拒绝发布危险模型、甚至据说拒绝了一份�
   }
   document.addEventListener('nav', move);
   move();
+})();
+</script>
+
+<script>
+(function(){
+  function bind(){
+    document.querySelectorAll('button.pd-ts').forEach(function(b){
+      if(b.dataset.bound) return;
+      b.dataset.bound='1';
+      b.addEventListener('click',function(){
+        var n=b.nextElementSibling;
+        if(n&&n.classList.contains('pd-orig')){ n.remove(); return; }
+        var d=document.createElement('div');
+        d.className='pd-orig';
+        var h=document.createElement('b');
+        h.textContent='英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'');
+        d.appendChild(h);
+        d.appendChild(document.createElement('br'));
+        d.appendChild(document.createTextNode(b.dataset.en||''));
+        b.after(d);
+      });
+    });
+  }
+  document.addEventListener('nav', bind);
+  bind();
 })();
 </script>
 

@@ -44,41 +44,41 @@ tags:
 
 ### 理解「频闪灯」式的高管生活
 
-很多产品经理都曾陷入一个误区：觉得「我只要做出惊艳的工作，大家自然会看到」。Jessica 回忆自己在 Slack 做独立产品经理（负责具体执行、不涉及战略决策的产品经理）时，一些她深信不疑的想法获得了资金和支持，而另一些却莫名其妙地夭折了。这让她非常困惑，直到她成为 CPO 的幕僚长，才彻底看清高管是如何做决策的 [06:00 Jessica Fain]。
+很多产品经理都曾陷入一个误区：觉得「我只要做出惊艳的工作，大家自然会看到」。Jessica 回忆自己在 Slack 做独立产品经理（负责具体执行、不涉及战略决策的产品经理）时，一些她深信不疑的想法获得了资金和支持，而另一些却莫名其妙地夭折了。这让她非常困惑，直到她成为 CPO 的幕僚长，才彻底看清高管是如何做决策的 <button class="pd-ts" data-t="06:00" data-who="Jessica Fain" data-en="I really understand what's going to move the ball forward and I don't understand how these decisions are actually being made behind the scenes.&quot; And I was eight months pregnant, eight and a half months pregnant, April Underwood, who had just been named CPO of Slack." aria-label="回原文"></button>。
 
-她意识到，人们最常犯的错误就是**不理解高管的日程表**。Jessica 把高管的日程表比作「频闪灯」：他们每天早上 8 点醒来，脑子里已经塞满紧急事项。一个小时里，他们可能要从预算会议无缝切换到高管的面试，再到处理人事纠纷、法律问题，最后才来到你的产品评审会 [07:30 Jessica Fain]。你为了这个评审会准备了两三周甚至六周，但在这位高管走进会议室的前一秒，他根本没想过你的项目——他可能连今天上洗手间的时间都没有。
+她意识到，人们最常犯的错误就是**不理解高管的日程表**。Jessica 把高管的日程表比作「频闪灯」：他们每天早上 8 点醒来，脑子里已经塞满紧急事项。一个小时里，他们可能要从预算会议无缝切换到高管的面试，再到处理人事纠纷、法律问题，最后才来到你的产品评审会 <button class="pd-ts" data-t="07:30" data-who="Jessica Fain" data-en="Oh my gosh. I think the biggest example of this is people don't understand executive calendars. A lot of times on Google Calendar, it's blocked." aria-label="回原文"></button>。你为了这个评审会准备了两三周甚至六周，但在这位高管走进会议室的前一秒，他根本没想过你的项目——他可能连今天上洗手间的时间都没有。
 
-因此，Jessica 给出的第一个战术建议极其具体：**在会议最开头，只花 30 秒帮高管把思绪拉回你的频道**。这 30 秒里你要说清：「我们今天为什么在这里？上次聊到哪了？今天会议的目标是什么？」[08:44 Jessica Fain] 如果超过 60 秒还在铺垫，你就会失去他们的注意力 [44:16 Jessica Fain]。你得帮他们进入最佳状态，因为高管是在为「全局最优」做优化，而不仅仅是为你这个「局部」操心 [09:01 Jessica Fain]。
+因此，Jessica 给出的第一个战术建议极其具体：**在会议最开头，只花 30 秒帮高管把思绪拉回你的频道**。这 30 秒里你要说清：「我们今天为什么在这里？上次聊到哪了？今天会议的目标是什么？」<button class="pd-ts" data-t="08:44" data-who="Jessica Fain" data-en="They are running around context switching in the most insane ways I've ever seen, and everything that comes across their plate is an emergency. So one of the biggest tactics I think is so important is, just take 30 seconds at the top of a meeting." aria-label="回原文"></button> 如果超过 60 秒还在铺垫，你就会失去他们的注意力 <button class="pd-ts" data-t="44:16" data-who="Jessica Fain" data-en="Here's how we're going to run this meeting. And then stop talking Because the moment you go off over 60 seconds, you've lost them. And oh, I think the other really important thing I would add there is to say, was there anything else you were hoping to cover today?" aria-label="回原文"></button>。你得帮他们进入最佳状态，因为高管是在为「全局最优」做优化，而不仅仅是为你这个「局部」操心 <button class="pd-ts" data-t="09:01" data-who="Jessica Fain" data-en="And really remember that they are not thinking just about you. They are optimizing for a global maximum and not for the local that you're optimizing for. Essentially, this is how to help someone in this world that is running around from meeting to meeting without context on most things, maybe hasn't have time to go to the bathroom." aria-label="回原文"></button>。
 
 ### 去学习，而不是去索要批准
 
-理解了高管的处境，接下来的核心误区就是沟通心态。很多产品经理把对用户的好奇心和同理心用得极好，但一到对高管的汇报会议上，就把这些抛诸脑后，变成一个只想要「橡皮图章」（盲目同意、不加审查的走过场式批准）的人 [11:05 Jessica Fain]。Jessica 强调：**如果高管没认同你的想法，那是你的错** [10:23 Jessica Fain]。这不是搞政治操纵，而是增加好想法存活的概率 [13:34 Jessica Fain]。
+理解了高管的处境，接下来的核心误区就是沟通心态。很多产品经理把对用户的好奇心和同理心用得极好，但一到对高管的汇报会议上，就把这些抛诸脑后，变成一个只想要「橡皮图章」（盲目同意、不加审查的走过场式批准）的人 <button class="pd-ts" data-t="11:05" data-who="Jessica Fain" data-en="And I think that that's the vantage point that a product leader has to have, especially if they're trying to put themselves in the shoes of an executive. As product managers, one of our best sets of skills is curiosity, and empathy, and trying to understand our users." aria-label="回原文"></button>。Jessica 强调：**如果高管没认同你的想法，那是你的错** <button class="pd-ts" data-t="10:23" data-who="Jessica Fain" data-en="But part of that is literally just setting up the meeting effectively, so that they can have the context, the wherewithal, the sort of breadth at the beginning of the meeting, to dive into it." aria-label="回原文"></button>。这不是搞政治操纵，而是增加好想法存活的概率 <button class="pd-ts" data-t="13:34" data-who="Jessica Fain" data-en="Politics is manipulating outcomes and people for your own gain. Influence is about increasing the odds that your good ideas survive. And I think what happens is people actually let ego and let their own narrative, their own scope of influence, get in the way of empathy." aria-label="回原文"></button>。
 
-那最理想的沟通心态是什么？是**带着学习的心态进场，而不是去说服** [20:45 Jessica Fain]。不要试图展示你做了多少苦劳（比如「我们找了 15 个客户做了访谈，这在统计上是显著的」），这只会让高管无聊到拿起手机 [22:37 Jessica Fain]。相反，你要把他们当成最宝贵的领域专家，把会议当成一场用户访谈，去下载他们的经验。
+那最理想的沟通心态是什么？是**带着学习的心态进场，而不是去说服** <button class="pd-ts" data-t="20:45" data-who="Jessica Fain" data-en="What do they want to hear and anchor on that? I think the second piece is going in to learn not to convince. And the earlier on you do that, the better." aria-label="回原文"></button>。不要试图展示你做了多少苦劳（比如「我们找了 15 个客户做了访谈，这在统计上是显著的」），这只会让高管无聊到拿起手机 <button class="pd-ts" data-t="22:37" data-who="Jessica Fain" data-en="So my advice on this may be a little paradoxical, because I think people make mistakes in both directions on the polls here. On the one hand, I think there's an error people make of trying to show too much work, trying to tell too much upfront proof point." aria-label="回原文"></button>。相反，你要把他们当成最宝贵的领域专家，把会议当成一场用户访谈，去下载他们的经验。
 
-Jessica 提供了一个极具实操性的战术短语。当高管说出一句与你所见数据完全相悖、甚至显得「愚蠢」的话时，最好的反应是：**「这太有趣了。是什么让你产生了这样的看法？」** [19:02 Jessica Fain] 这个问题瞬间化解了对抗，因为你是在真诚地探求他们背后的逻辑——也许他们上周正面临董事会的压力，也许他们听到了你没听到的风声 [18:07 Jessica Fain]。顺着这个线索，你们就变成了共同创造。
+Jessica 提供了一个极具实操性的战术短语。当高管说出一句与你所见数据完全相悖、甚至显得「愚蠢」的话时，最好的反应是：**「这太有趣了。是什么让你产生了这样的看法？」** <button class="pd-ts" data-t="19:02" data-who="Jessica Fain" data-en="Let's just say this is like they're a director of product, VP of product, CEO that you're trying to convince to agree to plan. So the phrase you're suggesting here is, &quot;That's so interesting." aria-label="回原文"></button> 这个问题瞬间化解了对抗，因为你是在真诚地探求他们背后的逻辑——也许他们上周正面临董事会的压力，也许他们听到了你没听到的风声 <button class="pd-ts" data-t="18:07" data-who="Jessica Fain" data-en="You're able to say to them, &quot;I'm interested in what led you to that belief, your experience. Did you have a meeting last week? Are you getting pressure from the board right now in a certain way?" aria-label="回原文"></button>。顺着这个线索，你们就变成了共同创造。
 
-> 【背景】主持人还补充了一个经典的「Minto 金字塔原理」（由前麦肯锡顾问 Barbara Minto 提出的结构化表达工具）：向上汇报时别从「我们做了什么过程」讲起，而是**倒过来讲**：先抛出建议，再讲探索过的选项，最后补齐底层证据，这也是顺应高管极度有限注意力的做法 [26:26 Lenny (主持人)]。
+> 【背景】主持人还补充了一个经典的「Minto 金字塔原理」（由前麦肯锡顾问 Barbara Minto 提出的结构化表达工具）：向上汇报时别从「我们做了什么过程」讲起，而是**倒过来讲**：先抛出建议，再讲探索过的选项，最后补齐底层证据，这也是顺应高管极度有限注意力的做法 <button class="pd-ts" data-t="26:26" data-who="Lenny (主持人)" data-en="And then if they dig in, you have to be ready for more options. Have you ever looked into the Minto Pyramid way of presenting stuff? No, I don't know what that is." aria-label="回原文"></button>。
 
 ### 用对齐的目标撬动 10 倍的资源
 
-当你理解了高管的心态，并学会从他们身上挖取信息后，最高阶的杠杆在于：**把你的提案，与高管正在承受的压力和成功指标深度绑定** [30:54 Jessica Fain]。你要弄清他们是如何被考核的（比如他们背负的 OKR），甚至可以直白地问 CEO：「董事会最近在向你施加什么压力？」[30:05 Jessica Fain]
+当你理解了高管的心态，并学会从他们身上挖取信息后，最高阶的杠杆在于：**把你的提案，与高管正在承受的压力和成功指标深度绑定** <button class="pd-ts" data-t="30:54" data-who="Jessica Fain" data-en="But if you actually have alignment, point out that alignment. How is the metric that they're trying to move, the OKR they're responsible for, the board pressure that they're under going to be improved by the thing that you are proposing and how do you get there together?" aria-label="回原文"></button>。你要弄清他们是如何被考核的（比如他们背负的 OKR），甚至可以直白地问 CEO：「董事会最近在向你施加什么压力？」<button class="pd-ts" data-t="30:05" data-who="Jessica Fain" data-en="I recently did this with our CEO. I said, &quot;Tell me what the board is pushing you on because everyone's got a boss. And even a CEO who seems so powerful and competent and sure is getting pressures, right?" aria-label="回原文"></button>
 
-一旦对齐了目标，你就可以做一件很多产品人不敢做的事：**反客为主，向高管要资源**。Jessica 指出，高管面临的预算、人手和时间限制，与基层管理者的感受是不同的——他们有权力提升项目优先级、调动人员甚至终止项目 [49:44 Jessica Fain]。所以，不要总是用「我手头只有 4 个工程师，这事做不了」的思维去回绝。如果你真的觉得这是一个能改变公司轨迹的 10 倍（10X）机会，你该做的是回去告诉他：「你要求的这个目标让我非常兴奋。为了按这个速度达成，我还需要 8 个人，需要你每周抽 1 小时协调，以及营销团队的深度配合。如果你能给我这些，我就能交出你要的结果。」[50:38 Jessica Fain] 高管极度渴望有人带着大想法来帮他们达成业务目标，关键在于你要敢于开口。
+一旦对齐了目标，你就可以做一件很多产品人不敢做的事：**反客为主，向高管要资源**。Jessica 指出，高管面临的预算、人手和时间限制，与基层管理者的感受是不同的——他们有权力提升项目优先级、调动人员甚至终止项目 <button class="pd-ts" data-t="49:44" data-who="Jessica Fain" data-en="So I think one of the things that people misunderstand is the constraints that they are bound by versus their leadership. Execs are not ... They don't have the same boundaries of budget and headcount and timeline that you feel." aria-label="回原文"></button>。所以，不要总是用「我手头只有 4 个工程师，这事做不了」的思维去回绝。如果你真的觉得这是一个能改变公司轨迹的 10 倍（10X）机会，你该做的是回去告诉他：「你要求的这个目标让我非常兴奋。为了按这个速度达成，我还需要 8 个人，需要你每周抽 1 小时协调，以及营销团队的深度配合。如果你能给我这些，我就能交出你要的结果。」<button class="pd-ts" data-t="50:38" data-who="Jessica Fain" data-en="Well, if it's not possible, tell them why not. Come back and say, &quot;The thing that you're asking for, I'm super stoked about that. I need eight more people." aria-label="回原文"></button> 高管极度渴望有人带着大想法来帮他们达成业务目标，关键在于你要敢于开口。
 
 ### 建立「敢于砍掉项目」的终极信任
 
-影响高管并非一锤子买卖，它建立在长期信任上。而在 Jessica 看来，建立信任最有效的方法出人意料——**砍掉项目、降低优先级** [52:00 Jessica Fain]。当你主动告诉领导：「我们评估过了，这是一个糟糕的想法，虽然我花了几个月时间，但我们应该停掉它。」这正是最资深、最具主人翁意识的表现 [61:13 Jessica Fain]。
+影响高管并非一锤子买卖，它建立在长期信任上。而在 Jessica 看来，建立信任最有效的方法出人意料——**砍掉项目、降低优先级** <button class="pd-ts" data-t="52:00" data-who="Jessica Fain" data-en="Or is it something else that's actually more aligned? And so I think it's still being so rooted in the company goals and what the exec is trying to accomplish and what your users really need to be successful so that you can say, &quot;In order to accelerate our goals, here's what we can do.&quot;" aria-label="回原文"></button>。当你主动告诉领导：「我们评估过了，这是一个糟糕的想法，虽然我花了几个月时间，但我们应该停掉它。」这正是最资深、最具主人翁意识的表现 <button class="pd-ts" data-t="61:13" data-who="Jessica Fain" data-en="That is a very, very senior way of thinking, and it shows that you have the same aligned incentives as the executive who's thinking about the good of the company outcome, the user outcome, and not just your own." aria-label="回原文"></button>。
 
-另一个建立信任的战术叫做「缩小变革」(Shrinking the change，出自商业书《Switch》)：如果一个大想法太吓人，就把它缩小成一个为期一周的概念验证，通过极小的风险换取初步的信任 [58:40 Jessica Fain]。同时，要学会接住高管抛出的「微弱信号」：如果高管随口提了一句「我挺想看看 X 的前 10 个用例」，不要把它当成耳旁风。优秀的下属会迅速跟进，如果你不确定这是命令还是随口一说，可以直接问：「你对这件事的迫切程度怎么看？它比我们手头那三个项目更重要吗？」[42:19 Jessica Fain] 及时且聪明的跟进，会让高管觉得你极其靠谱。
+另一个建立信任的战术叫做「缩小变革」(Shrinking the change，出自商业书《Switch》)：如果一个大想法太吓人，就把它缩小成一个为期一周的概念验证，通过极小的风险换取初步的信任 <button class="pd-ts" data-t="58:40" data-who="Jessica Fain" data-en="I think the other thing I would say is one of my favorite ... Well, actually one of the only business books I've ever liked is called Switch. It's about change management, and they talk a lot about shrinking the change, which is this brilliant idea." aria-label="回原文"></button>。同时，要学会接住高管抛出的「微弱信号」：如果高管随口提了一句「我挺想看看 X 的前 10 个用例」，不要把它当成耳旁风。优秀的下属会迅速跟进，如果你不确定这是命令还是随口一说，可以直接问：「你对这件事的迫切程度怎么看？它比我们手头那三个项目更重要吗？」<button class="pd-ts" data-t="42:19" data-who="Jessica Fain" data-en="And a great question to ask in that scenario is how strongly do you feel about this? So if you hear something that they say really strongly, or how urgent do you think that is?" aria-label="回原文"></button> 及时且聪明的跟进，会让高管觉得你极其靠谱。
 
 ### AI 时代的软技能跃升
 
-聊完传统的高管沟通术，两人把目光转向了 AI。Jessica 的判断颇为反直觉：**AI 并没有消灭产品经理的价值，反而将产品管理推向了「黄金时代」** [69:51 Jessica Fain]。
+聊完传统的高管沟通术，两人把目光转向了 AI。Jessica 的判断颇为反直觉：**AI 并没有消灭产品经理的价值，反而将产品管理推向了「黄金时代」** <button class="pd-ts" data-t="69:51" data-who="Jessica Fain" data-en="What's changed in the past couple years in trying to convince people to do the things you're hoping them to do? I think that we are entering a golden age of product management, not of product managers, but of product management and the core skills that made this function the thing that I love to do." aria-label="回原文"></button>。
 
-当 AI 把写代码、做数据分析、写会议纪要这些「苦力活」的难度无限拉低，每个人都能轻易做出 V1 版本的产品时，真正稀缺的是**决定什么东西值得做、以及有本事让整个组织为它持续买单（比如更昂贵的 V2 和 V3 版本）的能力** [70:04 Jessica Fain]。换句话说，执行层面的杠杆在失效，而「影响力、利益相关者管理、主动学习」这些软技能，成了能带来 10 倍效能的硬通货 [72:03 Jessica Fain]。
+当 AI 把写代码、做数据分析、写会议纪要这些「苦力活」的难度无限拉低，每个人都能轻易做出 V1 版本的产品时，真正稀缺的是**决定什么东西值得做、以及有本事让整个组织为它持续买单（比如更昂贵的 V2 和 V3 版本）的能力** <button class="pd-ts" data-t="70:04" data-who="Jessica Fain" data-en="I think that we are entering a golden age of product management, not of product managers, but of product management and the core skills that made this function the thing that I love to do." aria-label="回原文"></button>。换句话说，执行层面的杠杆在失效，而「影响力、利益相关者管理、主动学习」这些软技能，成了能带来 10 倍效能的硬通货 <button class="pd-ts" data-t="72:03" data-who="Jessica Fain" data-en="... active influence. The act of stakeholder management, the act of learning is the 10X skill. Awesome." aria-label="回原文"></button>。
 
-有趣的是，面对满场跑的 AI [[智能体|智能体]]（同事），我们也需要用上这套影响高管的方法论。因为智能体不懂得你的产品哲学和品味，你需要像给新员工做入职培训一样，把自己脑子里的「战略清晰度」、成功指标、甚至「护栏（防幻觉的红线，指限制 AI 拥有完全自主权的安全机制）」明确地写进提示词或系统设定里，去「影响」这些不知疲倦的智能体同事 [78:47 Jessica Fain]。在信息爆炸的时代，清晰的战略和人与人之间的信任，成了最坚不可摧的护城河。
+有趣的是，面对满场跑的 AI [[智能体|智能体]]（同事），我们也需要用上这套影响高管的方法论。因为智能体不懂得你的产品哲学和品味，你需要像给新员工做入职培训一样，把自己脑子里的「战略清晰度」、成功指标、甚至「护栏（防幻觉的红线，指限制 AI 拥有完全自主权的安全机制）」明确地写进提示词或系统设定里，去「影响」这些不知疲倦的智能体同事 <button class="pd-ts" data-t="78:47" data-who="Jessica Fain" data-en="I think agents are absolutely something we have to think about with relation to influence, because we are basically all directors of work now, right? If we have an army of agents or this hundred new colleagues that joined our team, how would we onboard new junior team members who don't already understand our product philosophy, what's important to us, and how do we codify that for ourselves?" aria-label="回原文"></button>。在信息爆炸的时代，清晰的战略和人与人之间的信任，成了最坚不可摧的护城河。
 
 ## 本集带走
 1. **高管是频闪灯，不是你的橡皮图章**：别带着索要批准的心态开会。用前 30 秒帮他们找回上下文，用「是什么让你产生这种看法」代替争辩，把会议变成挖取他们智慧的访谈。
@@ -173,6 +173,31 @@ Jessica 提供了一个极具实操性的战术短语。当高管说出一句与
   }
   document.addEventListener('nav', move);
   move();
+})();
+</script>
+
+<script>
+(function(){
+  function bind(){
+    document.querySelectorAll('button.pd-ts').forEach(function(b){
+      if(b.dataset.bound) return;
+      b.dataset.bound='1';
+      b.addEventListener('click',function(){
+        var n=b.nextElementSibling;
+        if(n&&n.classList.contains('pd-orig')){ n.remove(); return; }
+        var d=document.createElement('div');
+        d.className='pd-orig';
+        var h=document.createElement('b');
+        h.textContent='英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'');
+        d.appendChild(h);
+        d.appendChild(document.createElement('br'));
+        d.appendChild(document.createTextNode(b.dataset.en||''));
+        b.after(d);
+      });
+    });
+  }
+  document.addEventListener('nav', bind);
+  bind();
 })();
 </script>
 

@@ -48,7 +48,7 @@ export function renderAllEpisodes(episodes, aliasById) {
   const out = new Map();
   for (const ep of episodes) {
     const related = relatedEpisodes(ep.meta.id, episodes);
-    out.set(ep.meta.id, renderEpisode(ep.meta, ep.digest, canonize(ep.entities), related));
+    out.set(ep.meta.id, renderEpisode(ep.meta, ep.digest, canonize(ep.entities), related, ep.transcript));
   }
   return out;
 }

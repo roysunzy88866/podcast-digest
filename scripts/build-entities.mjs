@@ -249,10 +249,21 @@ export function loadAllEpisodes(base) {
     if (!d.isDirectory()) continue;
     const dir = join(base, d.name);
     if (!existsSync(join(dir, "entities.json"))) continue;
+    // transcript = C13d-1 ↩ 回原文的英文原话底料;缺了只是回不了原文,不拦这一集(与 loadEpisode 同口径)
+    let transcript = null;
+    const tp = join(dir, "transcript.en.json");
+    if (existsSync(tp)) {
+      try {
+        transcript = JSON.parse(readFileSync(tp, "utf8"));
+      } catch {
+        transcript = null;
+      }
+    }
     eps.push({
       meta: JSON.parse(readFileSync(join(dir, "meta.json"), "utf8")),
       digest: JSON.parse(readFileSync(join(dir, "digest.json"), "utf8")),
       entities: JSON.parse(readFileSync(join(dir, "entities.json"), "utf8")),
+      transcript,
     });
   }
   return eps;

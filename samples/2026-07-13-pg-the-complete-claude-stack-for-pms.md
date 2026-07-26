@@ -41,41 +41,41 @@ tags:
 
 从模型选型到构建个人幕僚长智能体,用 Claude 全栈打造 PM 生产力引擎。
 
-产品经理(PM) Jyothi 曾在内部黑客马拉松中击败了 30 个工程团队夺冠,她的武器是 [[Claude|Claude]] 和「[[对抗性智能体|对抗性智能体]]」(adversarial agents)。本集她从零开始,手把手教不熟悉技术的读者如何利用整个 Claude 生态系统将日常生产力提升 10 倍。全文将按 Claude 的五层架构展开:前两层讲怎么选对工具,中间两层讲怎么通过定时任务和私有[[知识库|知识库]]把繁杂工作自动化,最后一层讲怎么用 Claude 代码构建自我纠错的[[智能体|智能体]],并在结尾谈谈这一切将如何重塑 PM 这个职业本身 [00:04 [[Jyothi Nookula|Jyothi Nookula]]]。
+产品经理(PM) Jyothi 曾在内部黑客马拉松中击败了 30 个工程团队夺冠,她的武器是 [[Claude|Claude]] 和「[[对抗性智能体|对抗性智能体]]」(adversarial agents)。本集她从零开始,手把手教不熟悉技术的读者如何利用整个 Claude 生态系统将日常生产力提升 10 倍。全文将按 Claude 的五层架构展开:前两层讲怎么选对工具,中间两层讲怎么通过定时任务和私有[[知识库|知识库]]把繁杂工作自动化,最后一层讲怎么用 Claude 代码构建自我纠错的[[智能体|智能体]],并在结尾谈谈这一切将如何重塑 PM 这个职业本身 <button class="pd-ts" data-t="00:04" data-who="Jyothi Nookula" data-en="understanding which surface to reach for which use case becomes one of the core pm skills that will help you become 10x more effective on LinkedIn and it caught my eye." aria-label="回原文"></button>。
 
 > 【背景】Claude 是 Anthropic 公司推出的 AI 大模型。本集反复提到 plot code / clod,均为语音转写时对「Claude Code」(Anthropic 的终端/IDE 编程工具)或「Claude」的误听,为符合读者认知,导读正文直接使用正确名称 Claude / Claude Code。
 
 ## 第一、二层:选对模型与交互界面
 
-很多人以为 AI 就是一个聊天框,但要用好 Claude,得先懂它的底层结构。栈的最底层是模型,Claude 目前主要有三个模型:Haiku(速度快、成本低,适合大批量简单分类任务)、Sonnet(性价比最高,Jyothi 日常 90% 的工作都用它,比如起草 PRD 或做竞品分析),以及 Opus(擅长复杂推理和长线规划)。但 Opus 有时容易陷入「幻觉卡死模式」,在一个局部思路上原地打转,这时就得关掉重开,或者退回用 Sonnet [07:14 Jyothi Nookula]。
+很多人以为 AI 就是一个聊天框,但要用好 Claude,得先懂它的底层结构。栈的最底层是模型,Claude 目前主要有三个模型:Haiku(速度快、成本低,适合大批量简单分类任务)、Sonnet(性价比最高,Jyothi 日常 90% 的工作都用它,比如起草 PRD 或做竞品分析),以及 Opus(擅长复杂推理和长线规划)。但 Opus 有时容易陷入「幻觉卡死模式」,在一个局部思路上原地打转,这时就得关掉重开,或者退回用 Sonnet <button class="pd-ts" data-t="07:14" data-who="Jyothi Nookula" data-en="about layers one and two in order to make the most out of the top layers yeah so let's get into the models now haiku is your speed machine it's the fastest cost efficient and it's really great for tasks where you need volume" aria-label="回原文"></button>。
 
-模型之上是第二层——交互界面。界面不仅指浏览器里的 cloud.ai,还包括桌面应用、手机端、Chrome 插件以及集成在 VS Code 里的 [[Claude Code|Claude Code]] 扩展。理解针对哪个场景该用哪个界面,是一项能让你效率提升 10 倍的核心 PM [[技能|技能]] [00:04 Jyothi Nookula]。例如,网页版无法直接碰你电脑里的本地文件;而桌面应用可以接入你的本地系统,随时跑一些自动化任务;Chrome 插件则可以用来做竞品调研,甚至模拟真实用户去点击你的产品网页,做基础的用户体验测试 [12:35 Jyothi Nookula]。
+模型之上是第二层——交互界面。界面不仅指浏览器里的 cloud.ai,还包括桌面应用、手机端、Chrome 插件以及集成在 VS Code 里的 [[Claude Code|Claude Code]] 扩展。理解针对哪个场景该用哪个界面,是一项能让你效率提升 10 倍的核心 PM [[技能|技能]] <button class="pd-ts" data-t="00:04" data-who="Jyothi Nookula" data-en="understanding which surface to reach for which use case becomes one of the core pm skills that will help you become 10x more effective on LinkedIn and it caught my eye." aria-label="回原文"></button>。例如,网页版无法直接碰你电脑里的本地文件;而桌面应用可以接入你的本地系统,随时跑一些自动化任务;Chrome 插件则可以用来做竞品调研,甚至模拟真实用户去点击你的产品网页,做基础的用户体验测试 <button class="pd-ts" data-t="12:35" data-who="Jyothi Nookula" data-en="that way i also use claude for chrome plugins especially it's very helpful if you want to do computer use so for example when i'm launching an ad and i want" aria-label="回原文"></button>。
 
 界面与底层模型的分工明确了,接下来就是怎么让它们真正替你干活。而这,正是通过自动化和「技能」来实现的。
 
 ## 第三层:用定时任务与技能把繁杂工作外包
 
-说完了底层模型和界面,我们进入第三层:知识库与自动化。这部分是大多数 PM 投入不足的地方。Jyothi 主要通过桌面应用里的 co-work(协作自动化功能区)来安排定时任务 [06:09 Jyothi Nookula]。她搭建了四个核心自动化任务:每日早晨简报、每日站会简报、每日结束总结,以及「幕僚长」任务。
+说完了底层模型和界面,我们进入第三层:知识库与自动化。这部分是大多数 PM 投入不足的地方。Jyothi 主要通过桌面应用里的 co-work(协作自动化功能区)来安排定时任务 <button class="pd-ts" data-t="06:09" data-who="Jyothi Nookula" data-en="custom instructions now this is the layer that i think most pms under invest in it's this layer that makes claude go from being a generic chatbot to actually knowing your context" aria-label="回原文"></button>。她搭建了四个核心自动化任务:每日早晨简报、每日站会简报、每日结束总结,以及「幕僚长」任务。
 
-以早晨简报为例,她把 Claude 接入 Google Calendar、Gmail、Google Drive 和 Jira 等系统。每天早上 9 点,Claude 自动拉取今天的日历事件、需要关注的 Jira 任务和邮件,并严格按照她设定的「400 字以内、只给事实不打鸡血、绝不捏造截止日期」的规则生成一份简报 [16:29 Jyothi Nookula]。这就像雇佣了一个全天候的幕僚长,它替代了过去人们需要用 Make 等传统自动化工具一个个连线、拼框的复杂操作,现在只需用自然语言下达指令即可 [22:08 Jyothi Nookula]。
+以早晨简报为例,她把 Claude 接入 Google Calendar、Gmail、Google Drive 和 Jira 等系统。每天早上 9 点,Claude 自动拉取今天的日历事件、需要关注的 Jira 任务和邮件,并严格按照她设定的「400 字以内、只给事实不打鸡血、绝不捏造截止日期」的规则生成一份简报 <button class="pd-ts" data-t="16:29" data-who="Jyothi Nookula" data-en="of staff and i'll walk you through each one um right now so every day at 9 a.m this runs for me where i can say and i'll show you a few as well right now" aria-label="回原文"></button>。这就像雇佣了一个全天候的幕僚长,它替代了过去人们需要用 Make 等传统自动化工具一个个连线、拼框的复杂操作,现在只需用自然语言下达指令即可 <button class="pd-ts" data-t="22:08" data-who="Jyothi Nookula" data-en="and now you can just build it in claude yes and one thing it's different from all of those other ones is you would have to like paint box by box think about how the interaction works connect each of those" aria-label="回原文"></button>。
 
 除了定时任务,「技能(Skills)」是第三层的另一大杀器。Jyothi 展示了一个用于「综合分析客户访谈」的技能文件。技能本质上是一套带步骤的指南剧本,告诉 Claude 遇到这类任务该怎么做。
 
 > 【背景】传统 AI 工具调用时,会把所有工具的说明全塞进上下文窗口,极其消耗记忆。Skill 技术采用了「渐进式披露(progressive disclosure)」机制:一开始只往上下文里塞 50 个词的简短描述。当模型在思考时,如果发现这个技能对当前问题有用,才会把完整指令加载进内存。
 
-这意味着技能不会轻易塞爆上下文窗口。Jyothi 强调,虽然可以用 AI 帮你写技能文件,但人工注入自己的领域知识(比如你想用什么模板输出)至关重要,因为研究表明 AI 自动生成的技能文件效果往往不如人工写的 [30:42 Jyothi Nookula]。
+这意味着技能不会轻易塞爆上下文窗口。Jyothi 强调,虽然可以用 AI 帮你写技能文件,但人工注入自己的领域知识(比如你想用什么模板输出)至关重要,因为研究表明 AI 自动生成的技能文件效果往往不如人工写的 <button class="pd-ts" data-t="30:42" data-who="Jyothi Nookula" data-en="of handle what's in the skill file so a lot of times we do use claude to write the skill file too but it's also shown research has shown that AI generated skill file is less effective than human written skill files so" aria-label="回原文"></button>。
 
 当自动化任务和技能都搭建好后,工具算是用明白了。但如果想让 AI 真正懂你的公司、懂你身边的人,还得往下走一步——给它建一个「大脑」。
 
 ## 知识库与 MCP:给 AI 装上专属大脑
 
-工具能跑了,可它依然不认识你的同事,也不懂公司的政治格局。这正是建立私有知识库(KB)要解决的问题。为了打造一个真正懂她的「幕僚长」,Jyothi 用 Claude Code 写了一个架构,把日常摄入的文档(如战略图、PRD、会议记录)提取成结构化数据存入本地文件夹 [34:29 Jyothi Nookula]。
+工具能跑了,可它依然不认识你的同事,也不懂公司的政治格局。这正是建立私有知识库(KB)要解决的问题。为了打造一个真正懂她的「幕僚长」,Jyothi 用 Claude Code 写了一个架构,把日常摄入的文档(如战略图、PRD、会议记录)提取成结构化数据存入本地文件夹 <button class="pd-ts" data-t="34:29" data-who="Jyothi Nookula" data-en="to do context in this skill so here's the thing so until now what you have done is you've connected it to sources it can go read all of those sources and go and do the task for you but it doesn't learn" aria-label="回原文"></button>。
 
-这个知识库里不仅有会议摘要,还自动维护着人物档案:记录每个同事的沟通风格、决策方式,以及他们与 Jyothi 的关系是「强力盟友」还是「摩擦点」[41:29 Jyothi Nookula]。以前开完会,她把会议记录一扔,幕僚长不仅会自动总结,还会给出战略提醒:「这个人擅长 X,你应该让他做你的盟友」,甚至会警告「这件事极其敏感,你在通知某个人之前,必须先知会另外几个人」[39:02 Jyothi Nookula]。这种深刻的组织理解,让 AI 真正变成了私人高参。
+这个知识库里不仅有会议摘要,还自动维护着人物档案:记录每个同事的沟通风格、决策方式,以及他们与 Jyothi 的关系是「强力盟友」还是「摩擦点」<button class="pd-ts" data-t="41:29" data-who="Jyothi Nookula" data-en="and my vertical what are the action items and some raw notes and for people profile again extract these metadata how they operate the communication style making behavior what works or doesn't work what they care" aria-label="回原文"></button>。以前开完会,她把会议记录一扔,幕僚长不仅会自动总结,还会给出战略提醒:「这个人擅长 X,你应该让他做你的盟友」,甚至会警告「这件事极其敏感,你在通知某个人之前,必须先知会另外几个人」<button class="pd-ts" data-t="39:02" data-who="Jyothi Nookula" data-en="through my chief of staff reviewed it and then it said you know what you should make this person your ally because this person is good at x which you're trying to like get into" aria-label="回原文"></button>。这种深刻的组织理解,让 AI 真正变成了私人高参。
 
 > 【背景】MCP(Model Context Protocol,模型上下文协议)是让外部数据源或工具与 AI 大模型安全通信的开放标准。
 
-为了随时随地调用这个存放在本地的知识库,Jyothi 把它部署成了一个本地 [[mcp|MCP]] 服务器。这样做的好处是数据极其隐私(离开公司时直接带走电脑即可),同时你在桌面端开个聊天窗口,就能直接问它:「我明天要见经理,该注意什么?」AI 会从知识库里翻出经理的风格(比如「他是个习惯先说不的人,别铺垫,直接切入正题」)给你建议 [47:33 Jyothi Nookula]。
+为了随时随地调用这个存放在本地的知识库,Jyothi 把它部署成了一个本地 [[mcp|MCP]] 服务器。这样做的好处是数据极其隐私(离开公司时直接带走电脑即可),同时你在桌面端开个聊天窗口,就能直接问它:「我明天要见经理,该注意什么?」AI 会从知识库里翻出经理的风格(比如「他是个习惯先说不的人,别铺垫,直接切入正题」)给你建议 <button class="pd-ts" data-t="47:33" data-who="Jyothi Nookula" data-en="so i um i don't even go look into the .md files i just ask desktop um claude saying hey i'm going to meet my manager one-on-one tomorrow what should i know and it will go and dig up all the context in the knowledge base and say here are all" aria-label="回原文"></button>。
 
 有了自动化的工作流,又给 AI 装上了懂人情的「大脑」,基础设施已经彻底搭好。接下来的终极问题是:能不能让 AI 自己去测试、去迭代,甚至自己攻击自己?
 
@@ -83,19 +83,19 @@ tags:
 
 一切铺垫就绪,我们终于来到了本集开篇的那个悬念:Jyothi 是怎么赢下黑客马拉松的?答案是用 Claude Code 构建了一个对抗性智能体评估器。
 
-这套系统借鉴了 GAN(生成式对抗网络)的思想。简单来说,你先写一个执行任务的「生成器智能体」(比如一个客服机器人),然后再写一个「对抗智能体」(红队测试员)。对抗智能体的唯一任务,就是想尽办法去攻击、诱导、破坏生成器智能体。如果生成器没顶住,它的系统提示词就会被自动打回重写,直到它能扛住所有对抗攻击为止 [78:07 Jyothi Nookula]。
+这套系统借鉴了 GAN(生成式对抗网络)的思想。简单来说,你先写一个执行任务的「生成器智能体」(比如一个客服机器人),然后再写一个「对抗智能体」(红队测试员)。对抗智能体的唯一任务,就是想尽办法去攻击、诱导、破坏生成器智能体。如果生成器没顶住,它的系统提示词就会被自动打回重写,直到它能扛住所有对抗攻击为止 <button class="pd-ts" data-t="78:07" data-who="Jyothi Nookula" data-en="for example got it so how are adversarial agents looking so let's see it's built and here's the gan inspired architecture uh let's go and see you can see it's built" aria-label="回原文"></button>。
 
-现场演示中,Jyothi 设置了及格线(平均分大于 8 分,最多迭代 5 次)。在测试一个较弱的支持机器人时,第一轮它得了 8.52 分,但在面对「格式冲突攻击」时屈服了,没通过测试。系统自动打回,改进提示词后,在第三次迭代中拿到了 9.08 分,成功过关 [90:45 Jyothi Nookula]。这种自动化的红队测试循环,正是她夺冠的秘密武器。
+现场演示中,Jyothi 设置了及格线(平均分大于 8 分,最多迭代 5 次)。在测试一个较弱的支持机器人时,第一轮它得了 8.52 分,但在面对「格式冲突攻击」时屈服了,没通过测试。系统自动打回,改进提示词后,在第三次迭代中拿到了 9.08 分,成功过关 <button class="pd-ts" data-t="90:45" data-who="Jyothi Nookula" data-en="okay so it's come up it's done a few iterations so you see in first iteration it was it scored an 8.52 but the agent caved on some format conflict attacks so it didn't pass it went back to" aria-label="回原文"></button>。这种自动化的红队测试循环,正是她夺冠的秘密武器。
 
 工具越来越强大,未来 PM 这个岗位本身会怎样?这正是最后一个话题。
 
 ## PM 的未来:成为会构建的「AI Builder」
 
-工具变了,对人的要求也变了。Jyothi 观察到,行业里正在出现一种名为「AI Builder」或「技术团队成员」的新角色,工程师、PM、设计师的界限正在合并。以前 1 个 PM 配 8 个工程师,以后可能是 2 个 PM 配 1 个工程师。PM 自己就能拉着 Claude Code 去处理用户反馈、写代码、提 PR [73:23 Jyothi Nookula]。
+工具变了,对人的要求也变了。Jyothi 观察到,行业里正在出现一种名为「AI Builder」或「技术团队成员」的新角色,工程师、PM、设计师的界限正在合并。以前 1 个 PM 配 8 个工程师,以后可能是 2 个 PM 配 1 个工程师。PM 自己就能拉着 Claude Code 去处理用户反馈、写代码、提 PR <button class="pd-ts" data-t="73:23" data-who="Jyothi Nookula" data-en="and developer line begin in 2026 different companies are trying it in different ways now there's this new role coming up called ai builder or you can see it as a member of technical staff" aria-label="回原文"></button>。
 
-在最近的求职面试中,Jyothi 发现面试流程变了。除了传统的「产品直觉」和「行为面试」,现在多了一轮「AI 基础」和一轮「实战写代码」。面试官会让你打开 IDE,现场用 Claude 把一个想法写出来。他们不仅看你写得快不快,更看你在面对 AI 时,是全盘盲信第一版结果,还是会仔细审视边界情况,像牧羊犬一样把 AI 引导到正确的方向上 [76:36 Jyothi Nookula]。
+在最近的求职面试中,Jyothi 发现面试流程变了。除了传统的「产品直觉」和「行为面试」,现在多了一轮「AI 基础」和一轮「实战写代码」。面试官会让你打开 IDE,现场用 Claude 把一个想法写出来。他们不仅看你写得快不快,更看你在面对 AI 时,是全盘盲信第一版结果,还是会仔细审视边界情况,像牧羊犬一样把 AI 引导到正确的方向上 <button class="pd-ts" data-t="76:36" data-who="Jyothi Nookula" data-en="you also have an ai round as well now where you're asked to code your idea so like in product sense whatever idea i would have come up" aria-label="回原文"></button>。
 
-Jyothi 给转型者的建议是:别只做一锤子买卖的项目,要把平时用 vibe coding(纯凭直觉用自然语言让 AI 写代码)做出来的小玩意儿当成真正的产品去做,找真实用户来用,收集反馈不断迭代。现在的核心壁垒不再是「会不会写代码」,而是你有没有「品味」去发现问题,并判断什么是好产品 [80:00 Jyothi Nookula]。
+Jyothi 给转型者的建议是:别只做一锤子买卖的项目,要把平时用 vibe coding(纯凭直觉用自然语言让 AI 写代码)做出来的小玩意儿当成真正的产品去做,找真实用户来用,收集反馈不断迭代。现在的核心壁垒不再是「会不会写代码」,而是你有没有「品味」去发现问题,并判断什么是好产品 <button class="pd-ts" data-t="80:00" data-who="Jyothi Nookula" data-en="and building is easy now taste is what is important for us to develop what should that was real feedback iterate on something okay there are a couple of options for now i'm saying just iterate on" aria-label="回原文"></button>。
 
 ## 本集带走
 
@@ -181,6 +181,31 @@ Jyothi 给转型者的建议是:别只做一锤子买卖的项目,要把平时�
   }
   document.addEventListener('nav', move);
   move();
+})();
+</script>
+
+<script>
+(function(){
+  function bind(){
+    document.querySelectorAll('button.pd-ts').forEach(function(b){
+      if(b.dataset.bound) return;
+      b.dataset.bound='1';
+      b.addEventListener('click',function(){
+        var n=b.nextElementSibling;
+        if(n&&n.classList.contains('pd-orig')){ n.remove(); return; }
+        var d=document.createElement('div');
+        d.className='pd-orig';
+        var h=document.createElement('b');
+        h.textContent='英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'');
+        d.appendChild(h);
+        d.appendChild(document.createElement('br'));
+        d.appendChild(document.createTextNode(b.dataset.en||''));
+        b.after(d);
+      });
+    });
+  }
+  document.addEventListener('nav', bind);
+  bind();
 })();
 </script>
 

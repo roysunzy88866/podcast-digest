@@ -40,60 +40,60 @@ tags:
 本集嘉宾是高管教练 [[Rachel Lockett|Rachel Lockett]]，她曾在 Pinterest 和 Stripe 担任长期人力资源领导者，专门与科技公司的 CEO、创始人和领导者合作。这集访谈没有停留在空谈理念，而是高度聚焦实操。他们探讨了领导者最常陷入的“凡事要有答案”的误区，并完整拆解了几个极度实用的核心框架：如何用[[辅导|辅导]]替代直接给答案、如何围绕自身天赋重塑工作以对抗[[职业倦怠|职业倦怠]]、如何处理[[联合创始人|联合创始人]]冲突，以及如何用一套公式搞定艰难对话。全文脉络分为五个部分：前两个部分关于“领导者如何带人”，中间两个部分关于“如何向内探索自己与处理关系”，最后一部分关于“公司如何对齐目标”。
 
 ## 从“大包大揽”到“提问赋能”：领导者的工具箱
-科技行业的技术领导者之所以能晋升，往往是因为他们一直是房间里最聪明、最能解决问题的人。但这种赖以成功的本能，在领导一家快速扩张的公司时反而会失效——你很快就会比你周围的人拥有更少的背景信息，不可能再事无巨细地深入每一个问题 [09:30 Rachel Lockett]。如果你总是一味地提供建议、给出答案，你实际上并没有真正装备你的团队去解决难题，反而是在训练他们把所有难题都带给你 [10:12 Rachel Lockett]。
+科技行业的技术领导者之所以能晋升，往往是因为他们一直是房间里最聪明、最能解决问题的人。但这种赖以成功的本能，在领导一家快速扩张的公司时反而会失效——你很快就会比你周围的人拥有更少的背景信息，不可能再事无巨细地深入每一个问题 <button class="pd-ts" data-t="09:30" data-who="Rachel Lockett" data-en="I think that most leaders, especially technical leaders, assume they have to have all the answers. People have climbed the ladder in whatever realm they're in because they've been dependable, reliable, the smartest person in the room." aria-label="回原文"></button>。如果你总是一味地提供建议、给出答案，你实际上并没有真正装备你的团队去解决难题，反而是在训练他们把所有难题都带给你 <button class="pd-ts" data-t="10:12" data-who="Rachel Lockett" data-en="So, I've seen leaders at every phase from frontline managers up to running an 8,000-person company struggle with knowing when do I have to have the answer, and when I don't have the answer, what options do I have?" aria-label="回原文"></button>。
 
-Rachel 指出，此时你需要切换到「辅导」模式。当然，并非所有情况都适合辅导：如果事情紧急且你心里已有明确的正确答案，就该直接下达指令 [12:43 Rachel Lockett]。但在很多场景下，领导者应该退后一步，用好奇心取代直接建议。她借用了《哈佛商业评论》里经典的“背上的猴子”比喻：当员工带着问题（猴子）来找你时，你的角色是让猴子留在他们背上，通过提问帮助他们自己想出办法，而不是顺手把猴子接过来自己养 [11:44 [[Lenny|Lenny]]]。
+Rachel 指出，此时你需要切换到「辅导」模式。当然，并非所有情况都适合辅导：如果事情紧急且你心里已有明确的正确答案，就该直接下达指令 <button class="pd-ts" data-t="12:43" data-who="Rachel Lockett" data-en="Yeah, it's an urgent issue and you actually have an answer that you want to drive. So, don't coach and make it a game. You want your person on your team to guess what's in your mind. That's not a good time to coach. You have something you absolutely want them to do. You know the right answer. You want them to be motivated to go do it. Advise them. Help them see the path. But most leaders over-index on that solution. So, I want to share. Maybe Lenny, I can teach you two skills that I think are the basics of leader coaching-" aria-label="回原文"></button>。但在很多场景下，领导者应该退后一步，用好奇心取代直接建议。她借用了《哈佛商业评论》里经典的“背上的猴子”比喻：当员工带着问题（猴子）来找你时，你的角色是让猴子留在他们背上，通过提问帮助他们自己想出办法，而不是顺手把猴子接过来自己养 <button class="pd-ts" data-t="11:44" data-who="Lenny" data-en="Okay, we'll link to it. It's this idea that as a leader, people always just coming to you trying to give you their monkey that's sitting on their back. And they're like, &quot;Hey, this monkey is causing me all this problem." aria-label="回原文"></button>。
 
 为了帮听众掌握辅导技能，Rachel 给出了两个非常具体的实操工具：
 
 **工具一：三层次倾听**
-真正的[[积极倾听|积极倾听]]不是机械地重复对方的话。Rachel 将倾听分为三个层次 [14:05 Rachel Lockett]：
+真正的[[积极倾听|积极倾听]]不是机械地重复对方的话。Rachel 将倾听分为三个层次 <button class="pd-ts" data-t="14:05" data-who="Rachel Lockett" data-en="They can ask the hard questions to get people collaborating. So, there's actually three levels to listening. So, the first level listening, level one is internal." aria-label="回原文"></button>：
 - **第一层：内在倾听**。你表面上在听对方说话，脑子里却在思考“这事对我有什么影响”，完全被自己的内心对话分心。大多数忙碌的人在日常中几乎都处于这一层。
 - **第二层：专注倾听**。你能完整复述对方的话语和内容，也就是一般良好的一对一沟通状态。
 - **第三层：全局倾听**。你不仅听到了对方表面上的话语，还能察觉到他们的话语之下在传达什么——你关注到了对方的肢体语言、语调以及背后的情绪。这才是优秀领导者在推销愿景或辅导团队时应达到的境界。
 
 **工具二：[[GROW 模型|GROW 模型]]的强力问题**
-除了倾听，辅导的核心是提出能打开新思路的“强力问题”（即没有唯一标准答案、能启发对方获得新洞察的问题）[18:42 Rachel Lockett]。Rachel 推荐使用 GROW 模型来构建提问：
+除了倾听，辅导的核心是提出能打开新思路的“强力问题”（即没有唯一标准答案、能启发对方获得新洞察的问题）<button class="pd-ts" data-t="18:42" data-who="Rachel Lockett" data-en="Second skill, powerful questions. So, asking powerful questions means I'm curious about what's really going on, and there's not one right answer. So, a powerful question helps you gain insight and it takes you to a new solution set you didn't have before." aria-label="回原文"></button>。Rachel 推荐使用 GROW 模型来构建提问：
 - **G (Goal - 目标)**：“对这件事来说，成功的样子是什么？”
 - **R (Reality - 现实)**：“你卡在哪里了？”
 - **O (Options - 选项)**：“你目前有哪些可走的路径？”
 - **W (Way forward - 前进道路)**：“你下一步打算做什么？”
 
-Rachel 现场用这套模型对主持人 Lenny 进行了辅导（Lenny 的困扰是事业做太大、像被巨石追着跑，他渴望腾出时间来探索摆弄新东西）。通过一步步引导，Lenny 自己意识到他最大的阻碍是：只要一闲下来，他就会反射性地用新项目把时间填满。最终他主动承诺：两周后停更一次通讯，并重新审视自己对各项事务说“是”的原则 [38:36 Lenny]。Rachel 指出，当答案是由你自己推导出来时，你执行的意愿远比别人塞给你一张待办清单要高得多 [40:47 Rachel Lockett]。
+Rachel 现场用这套模型对主持人 [[Lenny|Lenny]] 进行了辅导（Lenny 的困扰是事业做太大、像被巨石追着跑，他渴望腾出时间来探索摆弄新东西）。通过一步步引导，Lenny 自己意识到他最大的阻碍是：只要一闲下来，他就会反射性地用新项目把时间填满。最终他主动承诺：两周后停更一次通讯，并重新审视自己对各项事务说“是”的原则 <button class="pd-ts" data-t="38:36" data-who="Lenny" data-en="Okay, so what's the one thing I could do in the next couple of weeks to help you move forward on this? I think one is at least skip a week or two of the newsletter and just actually stick to that plan." aria-label="回原文"></button>。Rachel 指出，当答案是由你自己推导出来时，你执行的意愿远比别人塞给你一张待办清单要高得多 <button class="pd-ts" data-t="40:47" data-who="Rachel Lockett" data-en="We can flip it, we can flip it. I do want to name that typically when you're coached versus told what to do, you're more bought in. So if I told you, Lenny, I've heard all kinds of leaders come to me talking about being too busy." aria-label="回原文"></button>。
 
 ## 找到“天才领域”：应对职业倦怠的能量管理法
-掌握了带人的工具后，下一个话题是关于领导者自身的状态：如何避免精疲力竭，长期保持对工作的兴奋感？ Rachel 在 Stripe 任职时，曾为技术部门的顶尖高管群体设计过一个留存项目，但她惊讶地发现，这群极具创造力和敬业精神的领导者竟然普遍处于极度疲惫的状态 [43:19 Rachel Lockett]。她观察到，那些能始终保持精力充沛的少数人，都有一个共同点：他们把大部分时间花在了自己天生擅长且热爱的事情上 [44:18 Rachel Lockett]。
+掌握了带人的工具后，下一个话题是关于领导者自身的状态：如何避免精疲力竭，长期保持对工作的兴奋感？ Rachel 在 Stripe 任职时，曾为技术部门的顶尖高管群体设计过一个留存项目，但她惊讶地发现，这群极具创造力和敬业精神的领导者竟然普遍处于极度疲惫的状态 <button class="pd-ts" data-t="43:19" data-who="Rachel Lockett" data-en="And it was so sad to see how exhausted that group of incredibly creative and committed leaders was in that moment. And it's so common that people who start with incredible inspiration and incredible capacity start to feel like they've been pushing and pushing and pushing for years." aria-label="回原文"></button>。她观察到，那些能始终保持精力充沛的少数人，都有一个共同点：他们把大部分时间花在了自己天生擅长且热爱的事情上 <button class="pd-ts" data-t="44:18" data-who="Rachel Lockett" data-en="And so what I make of that is that when people are in their gifts and their strengths firmly, most of the time, they have more energy. We all have more energy when we're operating from the things we naturally are good at and the things we innately love doing." aria-label="回原文"></button>。
 
-她给出了一个极具实操性的自我盘点工具：花两周时间，每天晚上记录当天最给你带来能量的五件事，以及最消耗你能量的五件事 [45:23 Rachel Lockett]。连续记录两周后，你就能清晰地看到模式：哪些是你真正的天赋所在，哪些是在像慢漏气一样消耗你的油箱。
+她给出了一个极具实操性的自我盘点工具：花两周时间，每天晚上记录当天最给你带来能量的五件事，以及最消耗你能量的五件事 <button class="pd-ts" data-t="45:23" data-who="Rachel Lockett" data-en="So one tool I like to give is for people to actually take two weeks and every night reflect on, what are the five things today that gave me the most energy? And what are the five things that depleted my energy the most?" aria-label="回原文"></button>。连续记录两周后，你就能清晰地看到模式：哪些是你真正的天赋所在，哪些是在像慢漏气一样消耗你的油箱。
 
-Rachel 的目标是帮助领导者设计自己的生活，争取把 80% 的时间花在自己的“天才领域”里 [52:48 Rachel Lockett]。即使你不是创始人，你也有主观能动性去改变现状——最关键的是要把你的发现告诉你的经理。在大公司里，人们常犯的错误是抱怨老板没把工作安排得有趣，但实际上，经理的职责只是帮你把现有的工作做好；主动经营职业生涯、让工作匹配你的天赋，这是你自己的责任 [57:19 Rachel Lockett]。
+Rachel 的目标是帮助领导者设计自己的生活，争取把 80% 的时间花在自己的“天才领域”里 <button class="pd-ts" data-t="52:48" data-who="Rachel Lockett" data-en="80%. That's the aspiration. You're always going to have 20% of things you don't love doing." aria-label="回原文"></button>。即使你不是创始人，你也有主观能动性去改变现状——最关键的是要把你的发现告诉你的经理。在大公司里，人们常犯的错误是抱怨老板没把工作安排得有趣，但实际上，经理的职责只是帮你把现有的工作做好；主动经营职业生涯、让工作匹配你的天赋，这是你自己的责任 <button class="pd-ts" data-t="57:19" data-who="Rachel Lockett" data-en="Yeah. Well, it's no one else's job to help you live in your gifts. And what I notice in big companies is people are often annoyed or frustrated with their management for not making their job more interesting." aria-label="回原文"></button>。
 
 ## 像经营婚姻一样经营联合创始人的关系
-说完了个体，接下来把视角放大到人与人之间。在创业公司中，联合创始人的关系往往是决定生死的关键，它本质上就像是在极高压环境下的“婚姻”。Rachel 强调了一个数据：65% 的创业失败是因为联合创始人之间发生了冲突 [61:50 Rachel Lockett]。
+说完了个体，接下来把视角放大到人与人之间。在创业公司中，联合创始人的关系往往是决定生死的关键，它本质上就像是在极高压环境下的“婚姻”。Rachel 强调了一个数据：65% 的创业失败是因为联合创始人之间发生了冲突 <button class="pd-ts" data-t="61:50" data-who="Rachel Lockett" data-en="It's very normal. In fact, I know you probably know this stat, 65% of startups fail because of co-founder conflict, and co-founders are in a moment where they're trying to build the future for their business, but also trying to build their own livelihood." aria-label="回原文"></button>。
 
 要建立健康的联合创始人关系，Rachel 认为需要做好两点：
-1. **知道你们在跳什么舞**：比如 CTO 角色通常热爱事实、寻求深度、趋于怀疑论；而 CEO 角色往往热爱推销宏大愿景、趋于盲目乐观。认清这种角色带来的内在张力，你们才不会盲目地互相踩脚 [62:46 Rachel Lockett]。
-2. **刻意为这段关系留出空间**：不要被日常运营冲昏头脑。就像夫妻需要约会之夜，联合创始人也需要定期抽身出来，比如每季度进行一次面对面的深度复盘，讨论“我们的愿景还一致吗”、“我最近做了什么让你恼火的事” [64:27 Rachel Lockett]。她甚至建议联合创始人写下“誓言”，明确双方将如何共同做决策、处理分歧 [64:50 Lenny]。
+1. **知道你们在跳什么舞**：比如 CTO 角色通常热爱事实、寻求深度、趋于怀疑论；而 CEO 角色往往热爱推销宏大愿景、趋于盲目乐观。认清这种角色带来的内在张力，你们才不会盲目地互相踩脚 <button class="pd-ts" data-t="62:46" data-who="Rachel Lockett" data-en="I like to use the Enneagram for this, but there's all kinds of tools, self-awareness tools that you can use to give a common language to what is my thing and what is your thing." aria-label="回原文"></button>。
+2. **刻意为这段关系留出空间**：不要被日常运营冲昏头脑。就像夫妻需要约会之夜，联合创始人也需要定期抽身出来，比如每季度进行一次面对面的深度复盘，讨论“我们的愿景还一致吗”、“我最近做了什么让你恼火的事” <button class="pd-ts" data-t="64:27" data-who="Rachel Lockett" data-en="But if you're just in the hustle and bustle of running and scaling your startup, you don't make time for that conversation. So I think it's incredibly important for co- founders to make space for their relationship, whether that's a dinner every other week, whether that's going out to lunch regularly, whether that's just touching base business-wise, but having an in-person quarterly check-in." aria-label="回原文"></button>。她甚至建议联合创始人写下“誓言”，明确双方将如何共同做决策、处理分歧 <button class="pd-ts" data-t="64:50" data-who="Lenny" data-en="On that second piece, the vows idea is such a good idea. Is that something you actually recommend, here's what I vow to do? Yeah, here's what I commit to do." aria-label="回原文"></button>。
 
-如果在关系已经千疮百孔、满腔怨气时才想补救怎么办？Rachel 讲述了一对公关公司的合伙人案例。当她们愿意坐下来、使用 360 度反馈敞开心扉时，她们才意识到彼此原来是多么需要对方的优势作为制衡 [69:03 Rachel Lockett]。即便最终决定分开，只要达成了清晰的认识，这也算 coaching 的成功——因为你不再是稀里糊涂地被困在糟糕的动态里。
+如果在关系已经千疮百孔、满腔怨气时才想补救怎么办？Rachel 讲述了一对公关公司的合伙人案例。当她们愿意坐下来、使用 360 度反馈敞开心扉时，她们才意识到彼此原来是多么需要对方的优势作为制衡 <button class="pd-ts" data-t="69:03" data-who="Rachel Lockett" data-en="We did use a 360. So they got feedback from their teams and then shared it with one another, but they were able to be open and vulnerable in what was working and what wasn't working." aria-label="回原文"></button>。即便最终决定分开，只要达成了清晰的认识，这也算 coaching 的成功——因为你不再是稀里糊涂地被困在糟糕的动态里。
 
 ## 破解冲突：非暴力沟通的四步框架
-如果说联合创始人的关系需要定期维护，那日常工作中不可避免的冲突该如何处理？Rachel 指出，大多数人走进一场冲突对话时，都是全副武装、准备去“证明对方是错的”。但这恰恰是最致命的误区。她强调：“任何冲突的真正目标，是创造相互理解，而不是说服对方” [73:17 Rachel Lockett]。
+如果说联合创始人的关系需要定期维护，那日常工作中不可避免的冲突该如何处理？Rachel 指出，大多数人走进一场冲突对话时，都是全副武装、准备去“证明对方是错的”。但这恰恰是最致命的误区。她强调：“任何冲突的真正目标，是创造相互理解，而不是说服对方” <button class="pd-ts" data-t="73:17" data-who="Rachel Lockett" data-en="You finally get to the point of engaging, and often there's a misguided view that the goal is to convince the other person that what they're doing is wrong. Actually, the goal of any conflict is to create mutual understanding." aria-label="回原文"></button>。
 
-为此，她推荐了一个强大的框架——[[非暴力沟通|非暴力沟通]]（NVC），分为四步 [74:00 Rachel Lockett]：
+为此，她推荐了一个强大的框架——[[非暴力沟通|非暴力沟通]]（NVC），分为四步 <button class="pd-ts" data-t="74:00" data-who="Rachel Lockett" data-en="So I'm going to give you a framework that I like that many of my clients use. It's from Marshall Rosenberg's Nonviolent Communication. It is a book and a framework." aria-label="回原文"></button>：
 1. **观察**：陈述客观事实。比如：“我注意到最近三次冲刺规划会议，你都没有邀请我。”
 2. **感受**：表达你真实的情绪。比如：“因为不知道这周的计划，我感到焦虑和困惑。”
 3. **需要**：点出你内心未被满足的普遍需求。比如：“我需要清晰度，也需要协作。”
 4. **请求**：提出一个具体、可操作的请求。比如：“下次开会能把我也加上，或者把路线图发我一份吗？”
 
-这个框架的核心奥义在于，它逼迫你始终留在“自己这半场”陈述问题，而不是把手指向对方。> 【背景】Rachel 在讲述该模型时，引入了斯坦福商学院著名课程“Touchy Feely”以及 Carol Robbins 提出的“网”的概念：你可以谈论你的感受，但一旦越过网去指责别人，就会立刻激起对方的防御机制。此外，Rachel 特别提醒，科技行业常有一种错觉，认为工作纯粹是理性的，但“专业人士是有感情的”。如果忽略情绪，它们就会无意识地左右你的行为 [77:37 Rachel Lockett]。对于真正让人想逃避的艰难对话，Rachel 给出了一个精彩的视角转换：“你害怕进入的那个洞穴，往往藏着你寻找的宝藏”。
+这个框架的核心奥义在于，它逼迫你始终留在“自己这半场”陈述问题，而不是把手指向对方。> 【背景】Rachel 在讲述该模型时，引入了斯坦福商学院著名课程“Touchy Feely”以及 Carol Robbins 提出的“网”的概念：你可以谈论你的感受，但一旦越过网去指责别人，就会立刻激起对方的防御机制。此外，Rachel 特别提醒，科技行业常有一种错觉，认为工作纯粹是理性的，但“专业人士是有感情的”。如果忽略情绪，它们就会无意识地左右你的行为 <button class="pd-ts" data-t="77:37" data-who="Rachel Lockett" data-en="And then now that you have that in context, here's something I'm asking for versus you did this and you're feeling this and you thought this. Exactly. It also acknowledges that professionals have feelings." aria-label="回原文"></button>。对于真正让人想逃避的艰难对话，Rachel 给出了一个精彩的视角转换：“你害怕进入的那个洞穴，往往藏着你寻找的宝藏”。
 
 ## 一页纸计划与运营节奏
 最后，话题落脚在公司层面的组织管理上。Rachel 发现，很多公司把愿景、战略、目标和价值观散落在各种文档里，导致基层员工根本说不清自己每天做的事和公司大方向有什么关系。
 
-她分享了一个名为“[[一页纸计划|一页纸计划]]”的方法。> 【背景】该方法源自投资机构 Alpine Investors 的“以人为本的运营节奏”。它要求把所有的核心管理要素压缩在同一页上：第一列是愿景和价值观，第二列是战略意图和 KPI，第三列是年度目标，第四列是季度目标 [93:34 Rachel Lockett]。这样一拉通，任何人在做优先级取舍时，都能清晰地看到它与顶层愿景的关联。
+她分享了一个名为“[[一页纸计划|一页纸计划]]”的方法。> 【背景】该方法源自投资机构 Alpine Investors 的“以人为本的运营节奏”。它要求把所有的核心管理要素压缩在同一页上：第一列是愿景和价值观，第二列是战略意图和 KPI，第三列是年度目标，第四列是季度目标 <button class="pd-ts" data-t="93:34" data-who="Rachel Lockett" data-en="To execute this rhythm. So it's not just about a one-page plan. It puts your vision and your values on the first column, your strategic intentions and your KPIs on the second column, your annual goals on the third, and your quarterly goals on the fourth." aria-label="回原文"></button>。这样一拉通，任何人在做优先级取舍时，都能清晰地看到它与顶层愿景的关联。
 
-但仅仅有一张纸是不够的，关键在于建立“运营节奏”。高管团队必须定期“走出舞池、上到阳台”，也就是从忙碌的日常运营中抽身出来，去反思、去提出“不方便的真相”（那些大家心知肚明但没人敢挑明的问题）[95:48 Rachel Lockett]。
+但仅仅有一张纸是不够的，关键在于建立“运营节奏”。高管团队必须定期“走出舞池、上到阳台”，也就是从忙碌的日常运营中抽身出来，去反思、去提出“不方便的真相”（那些大家心知肚明但没人敢挑明的问题）<button class="pd-ts" data-t="95:48" data-who="Rachel Lockett" data-en="That's really simple, easy to understand. Everyone can have it accessible and every quarter, you can get together to reflect, &quot;What worked, what didn't work?&quot; I really like the question, &quot;What's an inconvenient truth?&quot;" aria-label="回原文"></button>。
 
 ## 本集带走
 1. **停止当答案机，改当提问者**：领导者最根深蒂固的毛病是总想证明自己最聪明。当员工带着问题来时，用 GROW 模型（目标-现实-选项-前进）向他提问，把“猴子”留在他自己背上，这比直接给建议更能培养团队。
@@ -168,6 +168,31 @@ Rachel 的目标是帮助领导者设计自己的生活，争取把 80% 的时�
   }
   document.addEventListener('nav', move);
   move();
+})();
+</script>
+
+<script>
+(function(){
+  function bind(){
+    document.querySelectorAll('button.pd-ts').forEach(function(b){
+      if(b.dataset.bound) return;
+      b.dataset.bound='1';
+      b.addEventListener('click',function(){
+        var n=b.nextElementSibling;
+        if(n&&n.classList.contains('pd-orig')){ n.remove(); return; }
+        var d=document.createElement('div');
+        d.className='pd-orig';
+        var h=document.createElement('b');
+        h.textContent='英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'');
+        d.appendChild(h);
+        d.appendChild(document.createElement('br'));
+        d.appendChild(document.createTextNode(b.dataset.en||''));
+        b.after(d);
+      });
+    });
+  }
+  document.addEventListener('nav', bind);
+  bind();
 })();
 </script>
 

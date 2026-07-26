@@ -47,60 +47,60 @@ Laurel CPO 分享如何用 AI 技能库构建公司操作系统，让非工程�
 
 ## 把 1% 高手的经验，复制给全公司：什么是「公司操作系统」？
 
-企业应用 AI 时普遍面临一个困境：组织里有约 1% 的人极其热衷于折腾 AI 工作流（被称为「1% AI 用户」），但剩下 90% 到 99% 的人完全不知道什么时候该用什么工具 [05:41 Jiaona Zhang]。为了抹平这种巨大的能力鸿沟，Laurel 搭建了一套公司级的操作系统。
+企业应用 AI 时普遍面临一个困境：组织里有约 1% 的人极其热衷于折腾 AI 工作流（被称为「1% AI 用户」），但剩下 90% 到 99% 的人完全不知道什么时候该用什么工具 <button class="pd-ts" data-t="05:41" data-who="Jiaona Zhang" data-en="And I think that's the biggest thing that companies struggle with, which is you got these people who are these 1% AI users. they're tinkering with their workflows they're highly AI pilled and then you have" aria-label="回原文"></button>。为了抹平这种巨大的能力鸿沟，Laurel 搭建了一套公司级的操作系统。
 
-这套系统并不神秘，本质上就是大家熟悉的 GitHub 文件夹结构。他们把公司从客户成功、数据科学到工程、财务等每个职能的日常工作，拆解成一本本「[[剧本|剧本]]（Playbook，即标准操作流程）」[02:19 Jiaona Zhang]。比如，客户成功团队该怎么做续约、怎么做交接，都被清晰地记录下来。
+这套系统并不神秘，本质上就是大家熟悉的 GitHub 文件夹结构。他们把公司从客户成功、数据科学到工程、财务等每个职能的日常工作，拆解成一本本「[[剧本|剧本]]（Playbook，即标准操作流程）」<button class="pd-ts" data-t="02:19" data-who="Jiaona Zhang" data-en="company-wide operating system where for every single function in a company customer success data science design engineering finance imitation legal marketing we have" aria-label="回原文"></button>。比如，客户成功团队该怎么做续约、怎么做交接，都被清晰地记录下来。
 
-但光有文档没用，关键在于**将剧本转化为可随时调用的技能（Skills，指封装好的、能让 AI 执行特定任务的指令文件），并融入员工的工作流中**。在 Laurel，员工每天早上看日历时，系统已经集成了一天的简报；用 Claude 处理邮件或会议准备时，可以直接调用针对特定任务（如处理功能请求）的专属技能 [04:55 Jiaona Zhang]。
+但光有文档没用，关键在于**将剧本转化为可随时调用的技能（Skills，指封装好的、能让 AI 执行特定任务的指令文件），并融入员工的工作流中**。在 Laurel，员工每天早上看日历时，系统已经集成了一天的简报；用 Claude 处理邮件或会议准备时，可以直接调用针对特定任务（如处理功能请求）的专属技能 <button class="pd-ts" data-t="04:55" data-who="Jiaona Zhang" data-en="But what we're now doing is we're integrating all the skills. So for example, when we do a handoff, when we do a session prep, all of these are actual skills. And what happens is then when anyone is using Claude, for example, and I'll just go into..." aria-label="回原文"></button>。
 
 > 【背景】嘉宾在演示中频繁提及 Claude。Claude 是一款主流的 AI 模型，类似于 ChatGPT。此处提到的「技能」是指将公司最佳实践封装成 AI 可以读取和执行的指令包，让全员共享高手的经验。
 
-他们构建这套系统时有一个重要教训：**不要让员工去记几十个不同小工具的名字，而是要创建一个「超级智能体（Mega Agent）」作为统一入口** [18:11 Jiaona Zhang]。比如设立一个「市场拓展智能体」，销售或客户成功团队遇到任何需求都先抛给它，由这个中枢负责自动把任务路由、分发给底下的各个子智能体。
+他们构建这套系统时有一个重要教训：**不要让员工去记几十个不同小工具的名字，而是要创建一个「超级智能体（Mega Agent）」作为统一入口** <button class="pd-ts" data-t="18:11" data-who="Jiaona Zhang" data-en="going to do the email and the specific agent that's going to do the RFP. The big learning that we've had is how do you create a mega agent, something like a go-to-market agent that can be called" aria-label="回原文"></button>。比如设立一个「市场拓展智能体」，销售或客户成功团队遇到任何需求都先抛给它，由这个中枢负责自动把任务路由、分发给底下的各个子智能体。
 
 ### 亲自动手：如何从零搭建你的公司操作系统
 
 说完了这套系统长什么样，接下来是他具体怎么一步步落地的。对于想要尝试的团队，Laurel 的路径非常清晰：
 
 **第一步：从小处开始，先自动化一个无聊的工作流。**
-不要一上来就想搞全公司的大动作。找一个最枯燥、每天都在重复的事情，比如销售在 [[Slack|Slack]] 里向 PM 提功能请求。过去这需要大量来回沟通（问客户说了什么、影响多大、该谁处理），现在只需做一个简单的 Slack 自动化，请求一进来就自动抓取必要信息、分派给对应的人并生成工单 [12:30 Jiaona Zhang]。
+不要一上来就想搞全公司的大动作。找一个最枯燥、每天都在重复的事情，比如销售在 [[Slack|Slack]] 里向 PM 提功能请求。过去这需要大量来回沟通（问客户说了什么、影响多大、该谁处理），现在只需做一个简单的 Slack 自动化，请求一进来就自动抓取必要信息、分派给对应的人并生成工单 <button class="pd-ts" data-t="12:30" data-who="Jiaona Zhang" data-en="That's p-e-n-d-o dot i-o slash a-a-k-a-s-h. Okay, so let's move into Slack and see what this might look like. You know," aria-label="回原文"></button>。
 
 **第二步：把人工剧本升级为智能体自动化。**
-每个团队都有厚厚的操作手册。Laurel 的 GTM（市场拓展）团队曾有一份长达 55 页的客户实施剧本 [15:06 Jiaona Zhang]。现在借助 AI，写初稿连一分钟都不用 [48:03 Jiaona Zhang]。写完剧本后，要明确区分哪些是必须人做的（如飞到现场拜访客户），哪些是可以自动化的（如抓取资料、起草邮件），然后为后者构建出一个个的技能文件。
+每个团队都有厚厚的操作手册。Laurel 的 GTM（市场拓展）团队曾有一份长达 55 页的客户实施剧本 <button class="pd-ts" data-t="15:06" data-who="Jiaona Zhang" data-en="I think anyone who's ever created a playbook before, this is 50 pages. It covers everything from implementation to onboarding to user onboarding." aria-label="回原文"></button>。现在借助 AI，写初稿连一分钟都不用 <button class="pd-ts" data-t="48:03" data-who="Jiaona Zhang" data-en="These playbooks can be written in an hour. Actually, the first draft can be written in sub a minute," aria-label="回原文"></button>。写完剧本后，要明确区分哪些是必须人做的（如飞到现场拜访客户），哪些是可以自动化的（如抓取资料、起草邮件），然后为后者构建出一个个的技能文件。
 
 **第三步：直面智能体过载（Agent Overload）。**
-一开始大家很兴奋，建了一堆定时任务和智能体，但很快发现陷入了信息过载 [20:44 Jiaona Zhang]。为了防止员工被各种自动化消息淹没，Laurel 专门花时间把所有的技能和简报集中到一起，确保全公司的步调一致，尤其是让不太懂技术的非工程团队也能顺畅使用 [21:14 Jiaona Zhang]。
+一开始大家很兴奋，建了一堆定时任务和智能体，但很快发现陷入了信息过载 <button class="pd-ts" data-t="20:44" data-who="Jiaona Zhang" data-en="only see a couple of these pinned and what I found was that it was almost overkill it was like I sat there I was like oh I might automate this and so I built it I was" aria-label="回原文"></button>。为了防止员工被各种自动化消息淹没，Laurel 专门花时间把所有的技能和简报集中到一起，确保全公司的步调一致，尤其是让不太懂技术的非工程团队也能顺畅使用 <button class="pd-ts" data-t="21:14" data-who="Jiaona Zhang" data-en="that's how we consolidated it all into what I was showing you earlier, which is this, this idea of actually having all in one place," aria-label="回原文"></button>。
 
 ## 谁来写代码？让非工程师端到端交付功能
 
 工具和工作流建好了，接下来是这套系统最反直觉的地方：**在公司里写代码交付功能的，不只有工程师，甚至主要不是工程师。**
 
-Laurel 提出了一个「[[船长|船长]]」模式：每个项目任命一位最契合其核心难点的人当「船长」全权负责 [29:57 Jiaona Zhang]。比如，如果是底层架构大改，工程 leader 当船长；如果是视觉交互最重要，设计师当船长；如果是涉及深刻的业务理解和用户心理，PM 当船长。
+Laurel 提出了一个「[[船长|船长]]」模式：每个项目任命一位最契合其核心难点的人当「船长」全权负责 <button class="pd-ts" data-t="29:57" data-who="Jiaona Zhang" data-en="And we've really landed on this concept of we want there always to be a captain of any given initiative. And the captain is the person where that skill set is the most important." aria-label="回原文"></button>。比如，如果是底层架构大改，工程 leader 当船长；如果是视觉交互最重要，设计师当船长；如果是涉及深刻的业务理解和用户心理，PM 当船长。
 
-更疯狂的是，这些非工程师的「船长」，是真的在向生产环境提交前端加后端的完整代码。例如团队里的 PM Nick 独立端到端交付了「临时工时」功能（这不仅是改个按钮，而是涉及复杂数据交互的全局功能）[23:55 Jiaona Zhang]；另一位 PM Jessica 完成了新用户空状态体验的开发 [25:29 Jiaona Zhang]。甚至连客户成功团队（非技术人员）也参与进来了，他们与 PM 合作编写了如何使用 AI 工具交付特性的指南 [26:03 Jiaona Zhang]。
+更疯狂的是，这些非工程师的「船长」，是真的在向生产环境提交前端加后端的完整代码。例如团队里的 PM Nick 独立端到端交付了「临时工时」功能（这不仅是改个按钮，而是涉及复杂数据交互的全局功能）<button class="pd-ts" data-t="23:55" data-who="Jiaona Zhang" data-en="lot of things and as a result you know my team is able to ship and I'll just go through a couple examples here is a feature an end-to-end feature which includes front-end changes and back-end changes where you know we enable people to do" aria-label="回原文"></button>；另一位 PM Jessica 完成了新用户空状态体验的开发 <button class="pd-ts" data-t="25:29" data-who="Jiaona Zhang" data-en="onboarding what is it that they see how do how do we make that experience super delightful all of this is done by by Jessica who is again a PM on my team not an engineer and also not a PM who necessarily started their career in in" aria-label="回原文"></button>。甚至连客户成功团队（非技术人员）也参与进来了，他们与 PM 合作编写了如何使用 AI 工具交付特性的指南 <button class="pd-ts" data-t="26:03" data-who="Jiaona Zhang" data-en="She deeply understands our customers and their needs. And by working with the PMs on the team to really create this enablement guide for Devon," aria-label="回原文"></button>。
 
 > 【背景】访谈中多次提到 Devon。Devon 是 Cognition 公司推出的一款 AI 智能体工程师。你只需给它下达任务指令，它就能自主完成代码编写和修复。在 Laurel，Devon 被视作一个能力合格的「软件工程师」来使用。
 
-他们能做到这一点，是因为有了像 [[Devon|Devon]] 这样的智能体工程师，以及像 Claude Code、Cursor（查代码库的 AI 工具）这样的辅助工具。一个不懂代码的 PM 在动手前，可以让 AI 扫描代码库并评估风险 [33:43 Jiaona Zhang]。遇到真正高危的改动，再通过类似 Ask Devon Reviewers 的公开频道，拉入真正的人类工程师做代码审查 [36:09 Jiaona Zhang]。通过这种「人+AI」的制衡机制，让所有人都能安全地交付。
+他们能做到这一点，是因为有了像 [[Devon|Devon]] 这样的智能体工程师，以及像 Claude Code、Cursor（查代码库的 AI 工具）这样的辅助工具。一个不懂代码的 PM 在动手前，可以让 AI 扫描代码库并评估风险 <button class="pd-ts" data-t="33:43" data-who="Jiaona Zhang" data-en="If we believe that the backend is in a good enough spot, and by the way, you can ask Devon or even anything that's connected to your GitHub account to look" aria-label="回原文"></button>。遇到真正高危的改动，再通过类似 Ask Devon Reviewers 的公开频道，拉入真正的人类工程师做代码审查 <button class="pd-ts" data-t="36:09" data-who="Jiaona Zhang" data-en="again I believe in the power of humans so something as simple as you know creating a channel like Ask Devon Reviewers and being able to go through here and making" aria-label="回原文"></button>。通过这种「人+AI」的制衡机制，让所有人都能安全地交付。
 
 ### 需要制衡，但绝不能放任所有人各自为战
 
-工具已经赋予了所有人极强的交付能力，那组织该怎么管理协作？这正是下一个关键话题。Jiaona Zhang 强调，必须对工作实行「双轨制」管理 [37:50 Jiaona Zhang]：
+工具已经赋予了所有人极强的交付能力，那组织该怎么管理协作？这正是下一个关键话题。Jiaona Zhang 强调，必须对工作实行「双轨制」管理 <button class="pd-ts" data-t="37:50" data-who="Jiaona Zhang" data-en="right level of collaboration on bigger features Yeah the same way we have this captain's model I think about a framework where we call it two tracks so there's one track which is much smaller if you have something" aria-label="回原文"></button>：
 
-对于改动较小、逻辑独立的功能，直接让「船长」端到端搞定，打破传统的瀑布流式交接（PM 扔给设计，设计再扔给开发）[38:25 Jiaona Zhang]，这才是真正的速度。
+对于改动较小、逻辑独立的功能，直接让「船长」端到端搞定，打破传统的瀑布流式交接（PM 扔给设计，设计再扔给开发）<button class="pd-ts" data-t="38:25" data-who="Jiaona Zhang" data-en="are good you by the way you are responsible for end-to-end testing of your features I think that's actually really positive the number of times we're in a waterfall" aria-label="回原文"></button>，这才是真正的速度。
 
-但对于会改变核心交互逻辑的系统性大改，必须强制走严格的「产品评审」和「架构评审」[39:39 Jiaona Zhang]。她强烈抨击了当下许多所谓「AI 原生公司」的误区：认为有了 AI 就不需要规划、路线图全消失。她指出，如果所有人朝不同方向狂奔，即便局部跑得再快，也无法实现全局最优 [40:14 Jiaona Zhang]。清晰的策略依然是行动的底线。
+但对于会改变核心交互逻辑的系统性大改，必须强制走严格的「产品评审」和「架构评审」<button class="pd-ts" data-t="39:39" data-who="Jiaona Zhang" data-en="It's the whole user interaction. And as a result, we say, look, we do want to do a product review for that. We want to make sure that we talk about," aria-label="回原文"></button>。她强烈抨击了当下许多所谓「AI 原生公司」的误区：认为有了 AI 就不需要规划、路线图全消失。她指出，如果所有人朝不同方向狂奔，即便局部跑得再快，也无法实现全局最优 <button class="pd-ts" data-t="40:14" data-who="Jiaona Zhang" data-en="you're not really going to get anywhere. And I see a lot of great local maximizations, but sometimes it's really hard to get to the global max," aria-label="回原文"></button>。清晰的策略依然是行动的底线。
 
 ## PM 的未来：越资深、团队越小
 
 工作方式变了，人的结构自然也要变。节目的最后探讨了产品经理（PM）这个岗位的未来。Jiaona Zhang 抛出了一个让许多人焦虑的判断：**产品团队不是在扩招，而是在急剧缩小。**
 
-她曾管理过几百人的庞大团队，但在 Laurel，她只有 5 个 PM 和 4 个设计师，且完全没有扩招计划 [57:30 Jiaona Zhang]。因为多一个人就多一分沟通和协调的额外开销，而 AI 工具已经让一个优秀的人能抵过去一个军团。
+她曾管理过几百人的庞大团队，但在 Laurel，她只有 5 个 PM 和 4 个设计师，且完全没有扩招计划 <button class="pd-ts" data-t="57:30" data-who="Jiaona Zhang" data-en="I think so yeah I mean I've had hundreds of people and today I have five PMs and four designers and there isn't a real reason to grow that because again like when" aria-label="回原文"></button>。因为多一个人就多一分沟通和协调的额外开销，而 AI 工具已经让一个优秀的人能抵过去一个军团。
 
-她将 AI 使用能力分为四个层级 [59:06 Jiaona Zhang]：第一级是把 AI 当搜索引擎聊天（如直接问 ChatGPT）；第二级是开始自动化零散的工作流；第三级是用 AI 构建内部应用；最高第四级是构建能交付给客户的共享应用（真正贯穿产品生命周期）。目前大多数人和公司依然停留在第一级。
+她将 AI 使用能力分为四个层级 <button class="pd-ts" data-t="59:06" data-who="Jiaona Zhang" data-en="like if you really peek under the hoods you're like actually I think you're what I call like level one and maybe I'll just take a moment and talk about the levels for" aria-label="回原文"></button>：第一级是把 AI 当搜索引擎聊天（如直接问 ChatGPT）；第二级是开始自动化零散的工作流；第三级是用 AI 构建内部应用；最高第四级是构建能交付给客户的共享应用（真正贯穿产品生命周期）。目前大多数人和公司依然停留在第一级。
 
-在招聘时，她甚至不做标准笔试，而是直接让候选人共享屏幕，展示他们真实的 AI 工作流 [58:51 Jiaona Zhang]。以此来过滤掉那些只会口嗨、实则仍用传统方式工作的人。
+在招聘时，她甚至不做标准笔试，而是直接让候选人共享屏幕，展示他们真实的 AI 工作流 <button class="pd-ts" data-t="58:51" data-who="Jiaona Zhang" data-en="function not just product or design or so you know so and so forth um is I do ask people to screen share and what I found is it is so easy to say hey we are you know" aria-label="回原文"></button>。以此来过滤掉那些只会口嗨、实则仍用传统方式工作的人。
 
-对于行业里普遍存在的「AI 会淘汰初级 PM」的恐慌，她的回答非常直接：真正懂客户、有判断力、且无畏拥抱 AI 的顶尖 PM 会获得前所未有的杠杆，变得比以往任何时候都更有价值；而缺乏这些特质的平庸者，确实会面临淘汰 [61:32 Jiaona Zhang]。她把这些顶尖人才称为「编排者」——既有全局视野，又能俯身落地执行 [62:19 Jiaona Zhang]。团队不需要一大堆人，只需要几个身经百战的「编排者」即可。
+对于行业里普遍存在的「AI 会淘汰初级 PM」的恐慌，她的回答非常直接：真正懂客户、有判断力、且无畏拥抱 AI 的顶尖 PM 会获得前所未有的杠杆，变得比以往任何时候都更有价值；而缺乏这些特质的平庸者，确实会面临淘汰 <button class="pd-ts" data-t="61:32" data-who="Jiaona Zhang" data-en="fear and destruction can you unpack that for us I think it's because 1PM can do so much more than ever before, but there aren't that many of them who are that skilled," aria-label="回原文"></button>。她把这些顶尖人才称为「编排者」——既有全局视野，又能俯身落地执行 <button class="pd-ts" data-t="62:19" data-who="Jiaona Zhang" data-en="workflow and agent around that. So I think it's really finding who I call the orchestrators, the people who are big picture in terms of their thinking but down to the detail in" aria-label="回原文"></button>。团队不需要一大堆人，只需要几个身经百战的「编排者」即可。
 
 ## 本集带走
 
@@ -190,6 +190,31 @@ Laurel 提出了一个「[[船长|船长]]」模式：每个项目任命一位�
   }
   document.addEventListener('nav', move);
   move();
+})();
+</script>
+
+<script>
+(function(){
+  function bind(){
+    document.querySelectorAll('button.pd-ts').forEach(function(b){
+      if(b.dataset.bound) return;
+      b.dataset.bound='1';
+      b.addEventListener('click',function(){
+        var n=b.nextElementSibling;
+        if(n&&n.classList.contains('pd-orig')){ n.remove(); return; }
+        var d=document.createElement('div');
+        d.className='pd-orig';
+        var h=document.createElement('b');
+        h.textContent='英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'');
+        d.appendChild(h);
+        d.appendChild(document.createElement('br'));
+        d.appendChild(document.createTextNode(b.dataset.en||''));
+        b.after(d);
+      });
+    });
+  }
+  document.addEventListener('nav', bind);
+  bind();
 })();
 </script>
 

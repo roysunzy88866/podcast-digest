@@ -45,33 +45,33 @@ Zynga 创始人分享消费产品的核心方法论「Proven, Better, New」：�
 
 ## 方法论：Proven, Better, New（已验证、更好、全新）
 
-聊到如何构建伟大的产品，Mark 抛出了他贯穿 Zynga 始终的核心哲学：**我们的直觉在 95% 的情况下是对的，但加在直觉之上的那些具体想法，有 75% 都是错的** [04:43 Mark Pincus]。为了提高成功率，他制定了「Proven, Better, New」框架。
+聊到如何构建伟大的产品，Mark 抛出了他贯穿 Zynga 始终的核心哲学：**我们的直觉在 95% 的情况下是对的，但加在直觉之上的那些具体想法，有 75% 都是错的** <button class="pd-ts" data-t="04:43" data-who="Mark Pincus" data-en="And then we put these ideas on top of the instincts that are usually wrong. And my rule of thumb is your instincts are right 95% of the time, your ideas are wrong 75% or at best right 25% of the time." aria-label="回原文"></button>。为了提高成功率，他制定了「Proven, Better, New」框架。
 
-Proven（已验证）是指，对于那些你并不打算创新的环节，直接去找市场上最成熟、最优秀的方案（哪怕是竞争对手的），合法地复制过来。Mark 认为，你必须先「在 Proven 上拿到博士学位」 [08:14 Mark Pincus]，才有资格谈创新。他举了游戏界教父 Sid Meiers 的反面例子：这位大师在 Facebook 上推出了一款社交版《文明》，但因为没把新用户引导这个「Proven」的环节做好，导致游戏刚发布 10 分钟，就被 Zynga 的初级产品经理判定为「一出世就死了」 [05:40 Mark Pincus]。连最顶级的游戏设计师都会因为没有敬畏常识而失败，足见 Proven 的重要性。
+Proven（已验证）是指，对于那些你并不打算创新的环节，直接去找市场上最成熟、最优秀的方案（哪怕是竞争对手的），合法地复制过来。Mark 认为，你必须先「在 Proven 上拿到博士学位」 <button class="pd-ts" data-t="08:14" data-who="Mark Pincus" data-en="And with hopefully some taste we can get into great copies and bad copies, but be a master of the proven first. Get your PhD in proven first. And I like to say we haven't earned the right to innovate on the camera until we are the world's leading PhD on the best mobile cameras that already exist." aria-label="回原文"></button>，才有资格谈创新。他举了游戏界教父 Sid Meiers 的反面例子：这位大师在 Facebook 上推出了一款社交版《文明》，但因为没把新用户引导这个「Proven」的环节做好，导致游戏刚发布 10 分钟，就被 Zynga 的初级产品经理判定为「一出世就死了」 <button class="pd-ts" data-t="05:40" data-who="Mark Pincus" data-en="Sid Meiers, the godfather of game design, who's the most revered game designer, he came out with, I think, a social Civilization on Facebook and we thought, &quot;Oh, God, here comes the ultimate game designer.&quot;" aria-label="回原文"></button>。连最顶级的游戏设计师都会因为没有敬畏常识而失败，足见 Proven 的重要性。
 
-Better（更好）是那些极其微小、但能让产品现有的 10 个核心用户中有 10 个都拍手叫好的改进 [08:36 Mark Pincus]。很多人会把自己眼中的「全新」误认为是「更好」，但在 Mark 看来，「更好」往往极其微小且精致，比如让应用免费、不需要下载，或者是给原有产品加上绝佳的移动端打磨。
+Better（更好）是那些极其微小、但能让产品现有的 10 个核心用户中有 10 个都拍手叫好的改进 <button class="pd-ts" data-t="08:36" data-who="Mark Pincus" data-en="And then better is usually we can't find better. Better is usually very small increments and innovations and better is something that 10 out of 10 of the existing users of that product would say, &quot;Fuck yeah.&quot;" aria-label="回原文"></button>。很多人会把自己眼中的「全新」误认为是「更好」，但在 Mark 看来，「更好」往往极其微小且精致，比如让应用免费、不需要下载，或者是给原有产品加上绝佳的移动端打磨。
 
 New（全新）则是你真正要承担风险的、别人没做过的新想法。Mark 坦言，如果我们诚实面对现实，就必须接受这个「New」大概率会失败。但好处在于，如果你的「Proven」和「Better」做对了，你的产品就不会因为那些愚蠢的基础错误而完蛋。
 
-很多人对这套方法论感到反感，因为它听起来就是在鼓励「抄袭」。对此，Mark 的态度十分鲜明：**如果你真有雄心壮志，就烧掉你的简历** [16:13 Mark Pincus]。这意味着，你应该把「成功」定义为赢得真实消费者的心，而不是在同行的圈子里装作一个高雅的创新者。只要你能在别人已验证的乐趣上，哪怕只做出一点微小的改进，消费者也会比看到完全陌生的新事物更愿意买单 [17:06 Mark Pincus]。他将这称为一种「道德套利」 [15:27 Mark Pincus]——克服那种想要证明自己聪明的虚荣心，才是做出好产品的必经之路。
+很多人对这套方法论感到反感，因为它听起来就是在鼓励「抄袭」。对此，Mark 的态度十分鲜明：**如果你真有雄心壮志，就烧掉你的简历** <button class="pd-ts" data-t="16:13" data-who="Mark Pincus" data-en="But that also makes that opportunity in some ways more available for people who have less ego involved. And I like to say, and I said this to my product makers at Zynga, if you're truly ambitious, burn your resume." aria-label="回原文"></button>。这意味着，你应该把「成功」定义为赢得真实消费者的心，而不是在同行的圈子里装作一个高雅的创新者。只要你能在别人已验证的乐趣上，哪怕只做出一点微小的改进，消费者也会比看到完全陌生的新事物更愿意买单 <button class="pd-ts" data-t="17:06" data-who="Mark Pincus" data-en="So if all you did was copy, there's no reason for her to choose your product, right? But if you took something that she loves and you make it one inch better, she might love that more than if you showed her something she's never seen before and didn't wake up knowing that she wanted." aria-label="回原文"></button>。他将这称为一种「道德套利」 <button class="pd-ts" data-t="15:27" data-who="Mark Pincus" data-en="Talk about what you think people are missing and how you get over that hump of like this is actually the right approach in most cases. In the Peter Thiel sense, it's almost a moral arbitrage because there's something in our gut as a product maker." aria-label="回原文"></button>——克服那种想要证明自己聪明的虚荣心，才是做出好产品的必经之路。
 
 ## 悖论：少一点雄心，才能撞上最大的机会
 
 说完了具体的产品构建法则，Mark 接着探讨了创始人最容易栽跟头的心态问题：野心太大。
 
-这就引出了 Mark 眼中关于产品最大的悖论之一：**你越有雄心壮志，就越应该从一个足够谦卑、极小的地方起步** [28:25 Mark Pincus]。如果一开始的愿景太宏大，你往往会完美错过真正的[[产品市场契合度|产品市场契合度]]（指产品刚好满足市场需求的那个点）。
+这就引出了 Mark 眼中关于产品最大的悖论之一：**你越有雄心壮志，就越应该从一个足够谦卑、极小的地方起步** <button class="pd-ts" data-t="28:25" data-who="Mark Pincus" data-en="So the paradox is the more ambitious you are that the more humble you should be in the smaller place you should be willing to start. One of your insights along these lines is that this is your advantage as a startup is to be less ambitious because a Zuck needs to go really big because the revenue is already so high." aria-label="回原文"></button>。如果一开始的愿景太宏大，你往往会完美错过真正的[[产品市场契合度|产品市场契合度]]（指产品刚好满足市场需求的那个点）。
 
-他自己就吃过大亏。在创办 Zynga 之前，他做过一家叫 Tribe 的公司，当时看到了[[社交网络|社交网络]]的巨大机会，试图什么都做，结果因为目标过于庞大而惨败。被彻底打入谷底后，41 岁的他在绝望中创办了 Zynga，这次他把自己的雄心从「十万英尺」降到了「一千英尺」，做了一件小得让人尴尬的事：在 Facebook 上做了一个扑克游戏 [27:03 Mark Pincus]。所有人都觉得他毫无尊严，但这恰恰成了他通向巨大成功的钥匙。
+他自己就吃过大亏。在创办 Zynga 之前，他做过一家叫 Tribe 的公司，当时看到了[[社交网络|社交网络]]的巨大机会，试图什么都做，结果因为目标过于庞大而惨败。被彻底打入谷底后，41 岁的他在绝望中创办了 Zynga，这次他把自己的雄心从「十万英尺」降到了「一千英尺」，做了一件小得让人尴尬的事：在 Facebook 上做了一个扑克游戏 <button class="pd-ts" data-t="27:03" data-who="Mark Pincus" data-en="And then I was so humbled and I was in this abyss we can talk about for so long and I was so just desperate to get out of that abyss that by the time I got to Zynga, I did something that was embarrassingly small." aria-label="回原文"></button>。所有人都觉得他毫无尊严，但这恰恰成了他通向巨大成功的钥匙。
 
-对很多连续创业者来说，成功后的自负往往是下一次失败的开始。像 Zuck 这样的巨头,必须做特别大的事,因为已有收入太高,他们承担的任何项目都需要是数十亿美元级别的商业机会 [28:25 Mark Pincus]。而初创公司不需要这样做——正因为没资金、没资源，反而能被迫寻找那些看似极其微小、大公司根本看不上的细分线索去深挖 [28:35 Mark Pincus]。那些极度渴望成功的人，反而更容易放低身段，这恰恰是通向最终大发现的路径。
+对很多连续创业者来说，成功后的自负往往是下一次失败的开始。像 Zuck 这样的巨头,必须做特别大的事,因为已有收入太高,他们承担的任何项目都需要是数十亿美元级别的商业机会 <button class="pd-ts" data-t="28:25" data-who="Mark Pincus" data-en="So the paradox is the more ambitious you are that the more humble you should be in the smaller place you should be willing to start. One of your insights along these lines is that this is your advantage as a startup is to be less ambitious because a Zuck needs to go really big because the revenue is already so high." aria-label="回原文"></button>。而初创公司不需要这样做——正因为没资金、没资源，反而能被迫寻找那些看似极其微小、大公司根本看不上的细分线索去深挖 <button class="pd-ts" data-t="28:35" data-who="Mark Pincus" data-en="One of your insights along these lines is that this is your advantage as a startup is to be less ambitious because a Zuck needs to go really big because the revenue is already so high." aria-label="回原文"></button>。那些极度渴望成功的人，反而更容易放低身段，这恰恰是通向最终大发现的路径。
 
 > 【背景】主持人提到，这也正是大公司（如 Meta）的盲区：Zuck 需要去做能带来几十亿美元收入的大生意，而初创公司完全可以从一个月入几十美元的小需求开始。
 
-然而，心态要谦卑，但对产品质量的判断却必须极其严苛。这正是 Mark 给出的最残酷也最诚恳的建议：**在希望扼杀你之前，先扼杀希望** [33:38 Mark Pincus]。
+然而，心态要谦卑，但对产品质量的判断却必须极其严苛。这正是 Mark 给出的最残酷也最诚恳的建议：**在希望扼杀你之前，先扼杀希望** <button class="pd-ts" data-t="33:38" data-who="Mark Pincus" data-en="I don't know if I get credit for making up that quote, but I love it, kill hope before hope kills you. There's a difference between belief and hope. Hope is confidence without basis." aria-label="回原文"></button>。
 
-当你在做一款产品时，必须分清什么是「信念」，什么是「希望」。希望是没有根据的祈祷，是「也许下个版本就能奇迹般地留住用户」；而信念是基于数据、反馈和真实体验的确凿信号。当你拥有真正的爆款时，一切都会顺理成章地运转，你自己会沉迷其中，朋友会爱不释手，数据也会爆发。**如果你还在开口问「这到底是不是个 A 级产品」，那它就绝对不是** [58:09 Mark Pincus]。
+当你在做一款产品时，必须分清什么是「信念」，什么是「希望」。希望是没有根据的祈祷，是「也许下个版本就能奇迹般地留住用户」；而信念是基于数据、反馈和真实体验的确凿信号。当你拥有真正的爆款时，一切都会顺理成章地运转，你自己会沉迷其中，朋友会爱不释手，数据也会爆发。**如果你还在开口问「这到底是不是个 A 级产品」，那它就绝对不是** <button class="pd-ts" data-t="58:09" data-who="Mark Pincus" data-en="You have feet in two canoes. If you're asking whether or not your product is an A, it's not an A and you're full of hope. You hope it's an A." aria-label="回原文"></button>。
 
-对于很多困在 B+ 级产品里的团队，Mark 认为最大的力量恰恰来自于「敢于承认它不够好并拔掉插头」。他分享了自己第四次终止 do.Earth 项目的经历：他花了四年时间、投入了数千万美元去构建自己理想中的元宇宙，但始终找不到产品市场契合度 [60:58 Mark Pincus]。而在两周前终于彻底停掉它之后，他反而迎来了四年来最猛烈的灵感爆发。AI 的强大让团队能以极低的成本快速做出可行产品，这让 Mark 担忧：很多人在用 AI 耗费三个月去精心打磨一个坏点子，而不是在一天内去测试 100 个新想法 [36:17 Mark Pincus]。**在确定它是对的之前，先快速而错误地把它造出来，拿到信号就好** [36:35 Mark Pincus]。
+对于很多困在 B+ 级产品里的团队，Mark 认为最大的力量恰恰来自于「敢于承认它不够好并拔掉插头」。他分享了自己第四次终止 do.Earth 项目的经历：他花了四年时间、投入了数千万美元去构建自己理想中的元宇宙，但始终找不到产品市场契合度 <button class="pd-ts" data-t="60:58" data-who="Mark Pincus" data-en="I was not going for a small, small idea. I was going for a really big idea and it was really hard and I pulled the plug on it after four years and $25 million in just this one version of it." aria-label="回原文"></button>。而在两周前终于彻底停掉它之后，他反而迎来了四年来最猛烈的灵感爆发。AI 的强大让团队能以极低的成本快速做出可行产品，这让 Mark 担忧：很多人在用 AI 耗费三个月去精心打磨一个坏点子，而不是在一天内去测试 100 个新想法 <button class="pd-ts" data-t="36:17" data-who="Mark Pincus" data-en="How are you testing a 100 ideas a day instead of one in three months? I think AI is being used more to build one idea in three months than a hundred ideas in a day." aria-label="回原文"></button>。**在确定它是对的之前，先快速而错误地把它造出来，拿到信号就好** <button class="pd-ts" data-t="36:35" data-who="Mark Pincus" data-en="So build it wrong before you know it's right. And if you could build it right, great, but don't be slowed down by that. Because if we start off, if we say, &quot;Okay, what can I believe today?" aria-label="回原文"></button>。
 
 ## 机会：寻找 AI 时代「喧闹的社交鸡尾酒会」
 
@@ -79,13 +79,13 @@ New（全新）则是你真正要承担风险的、别人没做过的新想法�
 
 主持人抛出了一个普遍的行业痛点：现在做消费级应用太难了，所有的流量渠道都被填满，产品稍纵即逝。
 
-Mark 给出的答案直指当前社交网络的核心困境：人们对社交的「潜在需求」一直都在，只是它**失去了肾上腺素** [52:13 Mark Pincus]。现在的年轻人以「我不玩 Instagram」为荣，就像戒烟成功一样充满自豪感 [52:56 Mark Pincus]。这说明当前的社交网络提供的不再是正向的价值，而是消耗人的空热量。
+Mark 给出的答案直指当前社交网络的核心困境：人们对社交的「潜在需求」一直都在，只是它**失去了肾上腺素** <button class="pd-ts" data-t="52:13" data-who="Mark Pincus" data-en="I believe that we have beyond a latent demand for social, we are being social online. We are on Snapchat and Instagram and TikTok, but I believe it's lost the adrenaline." aria-label="回原文"></button>。现在的年轻人以「我不玩 Instagram」为荣，就像戒烟成功一样充满自豪感 <button class="pd-ts" data-t="52:56" data-who="Mark Pincus" data-en="People have a feeling like they just quit smoking. People are proud to tell you they're not on Instagram. They're not missing the party." aria-label="回原文"></button>。这说明当前的社交网络提供的不再是正向的价值，而是消耗人的空热量。
 
 > 【背景】AI 如今确实是一项极其强大的技术，但 Mark 坚持认为，它目前还只是一种技术或入口，并没有像当年的 PC 或智能手机那样，形成一套完善的软硬件平台生态。
 
-Mark 指出，回顾互联网历史，真正伟大的社交网络其实都在提供一种「社交生产力」，它们就像一场永不落幕的鸡尾酒会。Friendster 让你找到约会对象，LinkedIn 给你带来商业线索，早期的 Facebook 让你轻松与几百个朋友保持联系。但如今，大家都独自沉浸在各自的 Claude 或 GPT 界面中，这里安静且孤独，根本没有那场能够带来意外惊喜和「线索」的鸡尾酒会 [56:32 Mark Pincus]。
+Mark 指出，回顾互联网历史，真正伟大的社交网络其实都在提供一种「社交生产力」，它们就像一场永不落幕的鸡尾酒会。Friendster 让你找到约会对象，LinkedIn 给你带来商业线索，早期的 Facebook 让你轻松与几百个朋友保持联系。但如今，大家都独自沉浸在各自的 Claude 或 GPT 界面中，这里安静且孤独，根本没有那场能够带来意外惊喜和「线索」的鸡尾酒会 <button class="pd-ts" data-t="56:32" data-who="Mark Pincus" data-en="I want to give them more to do.&quot; Today we're all hanging out on our Claude on our GPT, but there's no cocktail party. So my Easter egg people is, it's a quiet, lonely cocktail party like the web was before social networking." aria-label="回原文"></button>。
 
-他确信，一定会有人为[[智能体|智能体]] AI 时代重新发明社交体验，而这其中的关键就在于：**利用 AI 重新为社交注入肾上腺素和社交生产力** [53:28 Mark Pincus]。这可能意味着由智能体充当你的社交秘书，它掌握你和朋友的上下文，在尊重彼此隐私和时间边界的前提下，聪明地撮合你们的社交活动 [69:38 Mark Pincus]。当人们都在谈论 AI 将取代某些工作时，Mark 看到的彩蛋是：那些过去因为太贵而无法普及的服务（比如随叫随到、能在航班取消时自动为你改签的私人旅行代理），将因为 AI 而变得人人都能拥有 [72:40 Mark Pincus]。谁能解决这些痛点，谁就能挖到金矿。
+他确信，一定会有人为[[智能体|智能体]] AI 时代重新发明社交体验，而这其中的关键就在于：**利用 AI 重新为社交注入肾上腺素和社交生产力** <button class="pd-ts" data-t="53:28" data-who="Mark Pincus" data-en="I feel very confident that someone is going to reinvent this social experience for the agentic AI age, but how are they going to do it? I would guess that they're going to give us productivity again, that they're going ... Part of what we got, people forget Facebook gave us massive social productivity." aria-label="回原文"></button>。这可能意味着由智能体充当你的社交秘书，它掌握你和朋友的上下文，在尊重彼此隐私和时间边界的前提下，聪明地撮合你们的社交活动 <button class="pd-ts" data-t="69:38" data-who="Mark Pincus" data-en="So okay, let's have our social secretaries work on that. There's going to be an asymmetry in your interest and my interest in any given weekend and hanging out and how do we broker that without hurting one of our feelings or going into ..." aria-label="回原文"></button>。当人们都在谈论 AI 将取代某些工作时，Mark 看到的彩蛋是：那些过去因为太贵而无法普及的服务（比如随叫随到、能在航班取消时自动为你改签的私人旅行代理），将因为 AI 而变得人人都能拥有 <button class="pd-ts" data-t="72:40" data-who="Mark Pincus" data-en="One example that is my number one is my Easter egg on this is I think there should be an agentic travel agent. So a perfect example to me of a place where I think there is latent demand and the only reason we don't have it is because it doesn't make economic sense to offer it to us because we won't pay enough for it is a travel agent." aria-label="回原文"></button>。谁能解决这些痛点，谁就能挖到金矿。
 
 ## 本集带走
 
@@ -230,6 +230,31 @@ Mark 指出，回顾互联网历史，真正伟大的社交网络其实都在提
   }
   document.addEventListener('nav', move);
   move();
+})();
+</script>
+
+<script>
+(function(){
+  function bind(){
+    document.querySelectorAll('button.pd-ts').forEach(function(b){
+      if(b.dataset.bound) return;
+      b.dataset.bound='1';
+      b.addEventListener('click',function(){
+        var n=b.nextElementSibling;
+        if(n&&n.classList.contains('pd-orig')){ n.remove(); return; }
+        var d=document.createElement('div');
+        d.className='pd-orig';
+        var h=document.createElement('b');
+        h.textContent='英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'');
+        d.appendChild(h);
+        d.appendChild(document.createElement('br'));
+        d.appendChild(document.createTextNode(b.dataset.en||''));
+        b.after(d);
+      });
+    });
+  }
+  document.addEventListener('nav', bind);
+  bind();
 })();
 </script>
 

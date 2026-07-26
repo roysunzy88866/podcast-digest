@@ -84,8 +84,8 @@ for (const id of gatedIds) {
       if (expectedPages.has(id)) {
         expected = expectedPages.get(id); // C6:跨集渲染(含相关单集)
       } else {
-        const { meta, digest, entities } = loadEpisode(join(base, id)); // C2 期无 entities:退回单集渲染
-        expected = renderEpisode(meta, digest, entities);
+        const { meta, digest, entities, transcript } = loadEpisode(join(base, id)); // C2 期无 entities:退回单集渲染
+        expected = renderEpisode(meta, digest, entities, null, transcript);
       }
       const actual = readFileSync(sample, "utf8");
       if (expected !== actual) {

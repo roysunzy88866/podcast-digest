@@ -656,16 +656,21 @@ body[data-slug^="tags/"] {
    backlinks(反链)、graph(一跳邻域图),与设计稿右栏「目录 / 这一集涉及」一一对应,
    改造它比重造一套省得多,也不会丢掉它自带的行为。 */
 body:has(.pd-play) {
-  /* 设计稿 .shell.det:中栏 700 + 右栏 282,居中 1000,没有左栏那一列 */
-  #quartz-body {
-    grid-template-columns: minmax(0, 700px) 282px;
-    grid-template-areas:
-      "grid-header grid-sidebar-right"
-      "grid-center grid-sidebar-right"
-      "grid-footer grid-sidebar-right";
-    justify-content: center;
-    max-width: 1000px;
-    column-gap: 24px;
+  /* 设计稿 .shell.det:中栏 700 + 右栏 282,居中 1000,没有左栏那一列。
+     ⚠️ **必须锁在桌面档**:这条原来没有断点,375 手机上右栏照旧占死 282px,正文被挤成 37px
+     一行一个字(Gherkin「手机端不塌」实测逮到)。窄屏交回 Quartz 自己的响应式(单列 + 侧栏顺排),
+     手机版右栏内容的正式形态归 C13b(吸顶折叠目录)。 */
+  @media (min-width: 1024px) {
+    #quartz-body {
+      grid-template-columns: minmax(0, 700px) 282px;
+      grid-template-areas:
+        "grid-header grid-sidebar-right"
+        "grid-center grid-sidebar-right"
+        "grid-footer grid-sidebar-right";
+      justify-content: center;
+      max-width: 1000px;
+      column-gap: 24px;
+    }
   }
   .left.sidebar { display: none; }
   /* 设计稿第八批 #2「详情页顶部收拾干净」:只留标题 + 一条统一灰度 meta。
@@ -775,4 +780,60 @@ body:has(.pd-play) article blockquote:has(> p[id^="q"]) em {
   color: var(--B6);
   line-height: 1.55;
   font-style: normal;
+}
+
+/* ── 回原文 ↩(设计稿 .ts / .orig)──
+   导读正文里的出处标注收成一个 17px 暖色小圆点,点开就地展开英文原话,不跳走。
+   数值照抄设计稿 style.css:17px 圆点 / #f4eceb 底 / #a1524b 字 / .orig 虚线框。 */
+.pd-ts {
+  font: inherit;
+  font-size: 11px;
+  background: #f4eceb;
+  color: #a1524b;
+  border: 0;
+  border-radius: 50%;
+  width: 17px;
+  height: 17px;
+  line-height: 17px;
+  padding: 0;
+  margin: 0 1px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  vertical-align: 1px;
+  position: relative;
+}
+.pd-ts:before { content: "\21A9"; }
+.pd-ts:hover { background: #e8d5d3; }
+.pd-orig {
+  background: #fbf7f6;
+  border: 1px dashed #e3d0ce;
+  border-radius: 6px;
+  padding: 11px 14px;
+  margin: 9px 0;
+  font-size: 13.5px;
+  color: #5a4a48;
+  line-height: 1.75;
+}
+.pd-orig b { font-size: 11px; color: #a1524b; letter-spacing: 0.5px; }
+:root[saved-theme="dark"] {
+  .pd-ts { background: #3a2b2a; color: #d9a9a3; }
+  .pd-ts:hover { background: #4a3634; }
+  .pd-orig { background: #241d1c; border-color: #4a3634; color: #c6b5b2; }
+  .pd-orig b { color: #d9a9a3; }
+}
+/* 手机没有悬停,小圆点得靠热区点得中。
+   ⚠️ 纵向只放到 ±6px:正文行高实测 32px,±12px 会让隐形热区探进上下两行,把相邻双链的点击抢走
+   (设计稿那边 GLM 检查员 20260726-002 提出并实测证实)。最终热区 41×31px。 */
+@media (max-width: 1023px) {
+  .pd-ts { width: 19px; height: 19px; line-height: 19px; font-size: 11.5px; }
+  .pd-ts:after {
+    content: "";
+    position: absolute;
+    left: -11px;
+    right: -11px;
+    top: -6px;
+    bottom: -6px;
+  }
+  .pd-orig { font-size: 13px; padding: 10px 12px; }
 }

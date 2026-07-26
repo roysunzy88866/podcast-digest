@@ -14,6 +14,8 @@ import {
   renderEpisodeMeta,
   renderSidebarScript,
   renderHook,
+  renderOrigRefs,
+  renderOrigScript,
 } from "../scripts/render.mjs";
 
 const META = {
@@ -396,5 +398,123 @@ describe("C13d-1 · 开篇钩子 + 金句区外观", () => {
     );
     expect(md).toContain("^q1");           // 块 ID 还在
     expect(md).toContain("> 【背景】说明。"); // 背景块仍是普通引用块
+  });
+});
+
+// ── C13d-1 Scenario「回原文是小圆点,不是方括号」(设计稿 .ts / .orig)──
+// 正文里那些 `[03:53 Elizabeth Stone]` 是导读的出处标注,设计稿把它收成一个 ↩ 小圆点,
+// 点开就地展开英文原话(数据来自 transcript.en.json,不跳走)。
+describe("C13d-1 · 回原文 ↩ 小圆点(设计稿 .ts / .orig)", () => {
+  const scss = readFileSync(new URL("../assets/styles/custom.scss", import.meta.url), "utf8");
+
+  // 真转写稿的形状:段级 start/end/text(+ words/speaker,这里用不到)
+  const TRANSCRIPT = [
+    { start: 0.1, end: 60, text: "Cold open line." },
+    { start: 233.0, end: 238.4, text: 'She said "storming" comes first & then forming.' },
+    { start: 238.4, end: 244.0, text: "The whole industry sits in the middle of it right now." },
+    { start: 244.0, end: 250.0, text: "And that is uncomfortable for everyone involved." },
+    { start: 250.0, end: 256.0, text: "A fourth sentence that must be cut off." },
+    { start: 600.0, end: 604.0, text: "A much later moment." },
+  ];
+
+  it("★★★ 方括号出处变成 ↩ 按钮,正文里不再留方括号", () => {
+    const out = renderOrigRefs("组织会先经历动荡期 [03:53 Elizabeth Stone]。", TRANSCRIPT, {} as any);
+    expect(out).not.toContain("[03:53 Elizabeth Stone]");
+    expect(out).toContain('class="pd-ts"');
+    expect(out).toContain('data-t="03:53"');
+    expect(out).toContain('data-who="Elizabeth Stone"');
+  });
+
+  it("★★★ data-en 逐字取自转写稿里盖住那个时间点的段(不是编的)", () => {
+    const out = renderOrigRefs("正文 [03:53 X]。", TRANSCRIPT, {} as any);
+    expect(out).toContain("The whole industry sits in the middle of it right now.");
+    expect(out).not.toContain("A much later moment.");   // 不许把别处的段拽过来
+    expect(out).not.toContain("Cold open line.");
+  });
+
+  it("★★ 段太短就顺着往下接,但最多 3 段(一句残句看不懂,一整章又太长)", () => {
+    const out = renderOrigRefs("正文 [03:53 X]。", TRANSCRIPT, {} as any);
+    expect(out).toContain("And that is uncomfortable for everyone involved."); // 第 3 段接上了
+    expect(out).not.toContain("A fourth sentence that must be cut off.");      // 第 4 段被截住
+  });
+
+  it("★★★ 英文原话里的引号/尖括号被转义,不许撑破属性", () => {
+    const out = renderOrigRefs("正文 [03:53 X]。", TRANSCRIPT, {} as any);
+    expect(out).toContain("&quot;storming&quot;");
+    expect(out).toContain("&amp;");
+    expect(/data-en="[^"]*"/.test(out)).toBe(true);
+  });
+
+  it("★★ 出处标 00:00(落在片头静音里)→ 取开场第一段,不是空手而归", () => {
+    const out = renderOrigRefs("正文 [00:00 X]。", TRANSCRIPT, {} as any); // 第一段 0.1s 才开口
+    expect(out).toContain('data-t="00:00"');
+    expect(out).toContain("Cold open line.");
+  });
+
+  it("★★★ 没有转写稿 / 时间点找不到 → 原样保留方括号(不出空按钮)", () => {
+    expect(renderOrigRefs("正文 [03:53 X]。", null, {} as any)).toContain("[03:53 X]");
+    expect(renderOrigRefs("正文 [99:59 X]。", TRANSCRIPT, {} as any)).toContain("[99:59 X]");
+    expect(renderOrigRefs("正文 [99:59 X]。", TRANSCRIPT, {} as any)).not.toContain("pd-ts");
+  });
+
+  it("★★ 出处里的说话人已被补成双链时也能收(data-who 取读文,不带双链语法)", () => {
+    const out = renderOrigRefs("正文 [03:53 [[Lenny|Lenny]]]。", TRANSCRIPT, {} as any);
+    expect(out).toContain('data-who="Lenny"');
+    expect(out).not.toContain("[[Lenny|Lenny]]");
+  });
+
+  it("★★★ 无时间戳源(第三方稿)不产生按钮:那里根本没有时间点可回", () => {
+    const md = renderEpisode(
+      { id: "x", title_zh: "T", date: "2026-01-01", podcast: "P", guests: [], host: null, no_timestamps: true } as any,
+      { tldr: "T。", digest_md: "正文 [03:53 某人]。", quotes: [] } as any,
+      null,
+      null,
+      TRANSCRIPT,
+    );
+    expect(md).not.toContain('<button class="pd-ts"');
+    expect(md).toContain("（某人）"); // 上游已换成全角括号,避开与 [[双链]] 的方括号打架
+  });
+
+  it("★★★ 补双链不许插进按钮属性里(否则 data-en 被 [[ ]] 撑烂)", () => {
+    // 实体「动荡期」的正文首现处正好落在英文原话里 —— 补链必须跳过它,链到后面的正文出现处
+    const md = linkPrimaryEntities(
+      '正文一 <button class="pd-ts" data-en="the storming phase"></button>,后面才说 storming phase 的事。',
+      { entities: [{ id: "s", type: "concept", role: "concept", name: "动荡期", file: "动荡期", sourceForm: "storming phase", primary: true }] } as any,
+    );
+    expect(md).toContain('data-en="the storming phase"');
+    expect(md).toContain("[[动荡期|storming phase]] 的事");
+  });
+
+  it("★ 点开就地展开英文原话:脚本无空行、切换式、数据取 data-en", () => {
+    const js = renderOrigScript();
+    expect(js).not.toMatch(/\n\s*\n/);          // 有空行 Markdown 会把脚本吃掉
+    expect(js).toContain("pd-orig");
+    expect(js).toContain("dataset.en");
+    expect(js).toContain("remove()");           // 再点一次收起
+  });
+
+  it("★★★ 集页两栏必须锁在桌面档(没断点的话手机上右栏占死 282px,正文被挤成一行一个字)", () => {
+    // 实测逮到:375 视口下 #quartz-body 仍是 "37px 282px"。这条守住那个 @media 不被人拿掉。
+    const twoCol = /@media \(min-width: 1024px\) \{\s*#quartz-body \{\s*grid-template-columns: minmax\(0, 700px\) 282px/;
+    expect(scss).toMatch(twoCol);
+  });
+
+  it("★★ 设计稿的 .ts 外观(17px 暖色小圆点)与手机触摸热区 41×31 都在样式里", () => {
+    expect(scss).toMatch(/\.pd-ts \{[\s\S]*?border-radius: 50%;[\s\S]*?width: 17px/);
+    expect(scss).toMatch(/\.pd-ts:after[\s\S]*?left: -11px[\s\S]*?top: -6px/); // 横向 ±11 / 纵向 ±6 = 41×31
+    expect(scss).toMatch(/\.pd-orig/);
+  });
+
+  it("★★★ 集页真的接上了这条链路(渲染整页就能看到按钮 + 脚本)", () => {
+    const md = renderEpisode(
+      { id: "x", title_zh: "T", date: "2026-01-01", podcast: "P", guests: [], host: null } as any,
+      { tldr: "T。", digest_md: "正文 [03:53 Elizabeth Stone]。", quotes: [] } as any,
+      null,
+      null,
+      TRANSCRIPT,
+    );
+    expect(md).toContain('data-t="03:53"');
+    expect(md).toContain("pd-orig");
+    expect(md).not.toContain("[03:53 Elizabeth Stone]");
   });
 });

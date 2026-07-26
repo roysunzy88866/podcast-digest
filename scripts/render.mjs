@@ -167,6 +167,89 @@ export function renderHook(digest, meta) {
   return `<div class="pd-hook"><div class="z">${String(q.zh).trim()}</div>${who ? `<div class="a">${who}</div>` : ""}</div>`;
 }
 
+/**
+ * C13d-1 ·「回原文是小圆点,不是方括号」(设计稿 .ts / .orig)。
+ * 导读正文里的出处标注 `[03:53 Elizabeth Stone]` → 一个 ↩ 小圆点,点开**就地**展开英文原话。
+ *
+ * 英文原话逐字取自 transcript.en.json(与防失真闸门同一份底料),**取不到就原样留方括号** ——
+ * 宁可丑一点,也不出一个点开什么都没有的空按钮,更不许让模型现编原话。
+ */
+const HTML_ESC = { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" };
+const attrEscape = (s) => String(s).replace(/[&<>"]/g, (c) => HTML_ESC[c]);
+// 出处里的说话人可能已被 linkPrimaryEntities 补成双链([03:53 [[Lenny|Lenny]]]),data-who 要读文不要语法
+const plainText = (s) => String(s).replace(/\[\[([^\]|]*)\|([^\]]*)\]\]/g, "$2").replace(/\[\[([^\]]*)\]\]/g, "$1").trim();
+const secOf = (t) => {
+  const m = /^(\d{1,2}):(\d{2})$/.exec(String(t)); // 分钟可超 59(64:09 是第 64 分钟)
+  return m ? Number(m[1]) * 60 + Number(m[2]) : null;
+};
+
+/** 转写稿里盖住 sec 的那一段 + 顺着往下接的段(接够 160 字符即止,最多 3 段);盖不住返回 null */
+export function originalAt(transcript, sec) {
+  const segs = Array.isArray(transcript) ? transcript : null;
+  if (!segs?.length || sec == null) return null;
+  let i = -1;
+  for (let k = 0; k < segs.length; k++) if (Number(segs[k].start) <= sec) i = k;
+  // 出处标 00:00/00:04 这类落在片头静音里的(第一段还没开口)→ 取开场第一段:那就是那个时刻的原话
+  if (i < 0) return sec < Number(segs[0].start) ? textFrom(segs, 0) : null;
+  const limit = segs[i + 1] ? Number(segs[i + 1].start) : Number(segs[i].end); // 段间静音仍算这一段
+  if (!(sec < limit)) return null;
+  return textFrom(segs, i);
+}
+
+/** 从第 i 段起顺着往下接,接够 160 字符即止、最多 3 段(一句残句看不懂,一整章又太长) */
+function textFrom(segs, i) {
+  const out = [];
+  let n = 0;
+  for (let k = i; k < segs.length && k < i + 3 && n < 160; k++) {
+    const t = String(segs[k].text ?? "").trim();
+    if (!t) continue;
+    out.push(t);
+    n += t.length;
+  }
+  return out.length ? out.join(" ") : null;
+}
+
+export function renderOrigRefs(md, transcript, meta) {
+  if (meta?.no_timestamps) return String(md); // 无时间戳源:没有时间点可回,上游已把方括号换成(说话人)
+  // 说话人段允许含 [[双链]](补链可能先跑过);`[06:02]` 这种没有说话人的不匹配(那是金句署名)
+  return String(md).replace(/\[(\d{1,2}:\d{2})\s+((?:[^[\]]|\[\[[^\]]*\]\])+?)\]/g, (whole, t, who) => {
+    const en = originalAt(transcript, secOf(t));
+    if (!en) return whole;
+    return `<button class="pd-ts" data-t="${attrEscape(t)}" data-who="${attrEscape(plainText(who))}" data-en="${attrEscape(en)}" aria-label="回原文"></button>`;
+  });
+}
+
+/**
+ * ↩ 的行为:点开在按钮后面就地插一块英文原话,再点收起。
+ * ⚠️ 与右栏脚本同一条规矩:脚本内一个空行都不能有(Markdown 原样 HTML 块遇空行即结束)。
+ */
+export function renderOrigScript() {
+  return `<script>
+(function(){
+  function bind(){
+    document.querySelectorAll('button.pd-ts').forEach(function(b){
+      if(b.dataset.bound) return;
+      b.dataset.bound='1';
+      b.addEventListener('click',function(){
+        var n=b.nextElementSibling;
+        if(n&&n.classList.contains('pd-orig')){ n.remove(); return; }
+        var d=document.createElement('div');
+        d.className='pd-orig';
+        var h=document.createElement('b');
+        h.textContent='英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'');
+        d.appendChild(h);
+        d.appendChild(document.createElement('br'));
+        d.appendChild(document.createTextNode(b.dataset.en||''));
+        b.after(d);
+      });
+    });
+  }
+  document.addEventListener('nav', bind);
+  bind();
+})();
+</script>`.replace(/\n\s*\n/g, "\n");
+}
+
 export function renderAudioPlayer(meta) {
   // C13d-1(ADR 0015,用户 2026-07-26 明文确认):播放条**紧贴标题**、撑满宽,不再套
   // 「## 🎧 本集中文精华音频」这个小节标题 —— 设计稿 .play 就是标题正下方一条 bar。
@@ -184,12 +267,15 @@ const HEADING_LINE_RE = /^\s*#/;
  * 只链 primary(有页,#9);每个实体只链一次(首现);【背景】/引用行跳过。
  * file 名按长度降序,先长后短,避免短名先吃掉长名的子串。
  */
-// 已插入的 [[…]] 双链区间(补链时是禁区:短名不许匹配进长名的链接内部,防畸形嵌套 [[[[…]] / [[…[[…]])
+// 补链禁区:① 已插入的 [[…]] 双链区间(短名不许匹配进长名的链接内部,防畸形嵌套 [[[[…]] / [[…[[…]])
+// ② HTML 标签内部(`<button … data-en="…">`)—— 回原文按钮把英文原话搬进了属性,那里的词
+//    只是引文、不是本集正文讨论,补链进去会把属性撑烂(data-en="the [[动荡期|storming phase]]")。
 function linkSpans(L) {
   const spans = [];
-  const re = /\[\[.*?\]\]/g;
-  let m;
-  while ((m = re.exec(L))) spans.push([m.index, m.index + m[0].length]);
+  for (const re of [/\[\[.*?\]\]/g, /<[^>]*>/g]) {
+    let m;
+    while ((m = re.exec(L))) spans.push([m.index, m.index + m[0].length]);
+  }
   return spans;
 }
 
@@ -284,7 +370,7 @@ function renderFrontmatter(meta, digest, entities) {
 }
 
 /** meta + digest(+ entities)→ 集页 markdown(纯函数;gate-all 复用它做「重渲染比对」) */
-export function renderEpisode(meta, digest, entities = null, related = null) {
+export function renderEpisode(meta, digest, entities = null, related = null, transcript = null) {
   const dur = mmss(meta.duration_sec);
   const fm = renderFrontmatter(meta, digest, entities);
   const relatedSection = renderRelatedEpisodes(related); // C6 关联区③(空则 "")
@@ -301,6 +387,9 @@ export function renderEpisode(meta, digest, entities = null, related = null) {
   // 无时间戳源:剥掉导读内联占位时间戳,说话人用中文括号(避开方括号与 [[双链]] 冲突,防三重括号畸形)
   // [00:55 X] → (X)(标准变更·用户授权)
   if (meta.no_timestamps) digestMd = digestMd.replace(/\s*\[\d{1,2}:\d{2}\s+([^\]]+)\]/g, "（$1）");
+  // ⚠️ 顺序:先收 ↩ 再补双链。反过来的话,出处里的说话人会先被补成 [[双链]],↩ 一收就把那个链吃掉;
+  //    而补链已被教会跳过 HTML 标签内部,所以英文原话里的词不会被误链(linkSpans 第二条禁区)。
+  digestMd = renderOrigRefs(digestMd, transcript, meta);
   const bodyMd = entities ? linkPrimaryEntities(digestMd, entities) : digestMd;
 
   const quoteBlocks = (digest.quotes || [])
@@ -347,6 +436,8 @@ ${quoteBlocks}${relatedSection ? `\n\n${relatedSection}` : ""}
 ${keywordsLine}
 ${renderSidebarScript()}
 
+${renderOrigScript()}
+
 ---
 
 *中文精华由 GLM-5.2 从官方转写稿全译→浓缩产出,金句经机器闸门(逐字命中转写稿+时间戳区间+说话人)三联校验。${archiveNote}*
@@ -360,7 +451,17 @@ export function loadEpisode(dir) {
   let entities = null;
   const ep = resolve(dir, "entities.json");
   if (existsSync(ep)) entities = JSON.parse(readFileSync(ep, "utf8"));
-  return { meta, digest, entities };
+  // C13d-1 ↩ 回原文要的英文原话底料。缺了不报错:老集/无稿源只是回不了原文,不该拦住整页渲染。
+  let transcript = null;
+  const tp = resolve(dir, "transcript.en.json");
+  if (existsSync(tp)) {
+    try {
+      transcript = JSON.parse(readFileSync(tp, "utf8"));
+    } catch {
+      transcript = null;
+    }
+  }
+  return { meta, digest, entities, transcript };
 }
 
 /** 集页在仓库里的路径(已提交内容源;bootstrap-site.sh 由此灌进 site/content) */
@@ -379,8 +480,8 @@ const isMain = (() => {
 
 if (isMain) {
   const DIR = process.argv[2] || "data/episodes/2026-07-08-latent-space-modal";
-  const { meta, digest, entities } = loadEpisode(resolve(ROOT, DIR));
-  const md = renderEpisode(meta, digest, entities);
+  const { meta, digest, entities, transcript } = loadEpisode(resolve(ROOT, DIR));
+  const md = renderEpisode(meta, digest, entities, null, transcript);
   writeFileSync(samplePath(meta.id), md);
   console.log(`✅ 已写 samples/${meta.id}.md (${md.length} 字符, ${digest.quotes?.length ?? 0} 金句, entities ${entities ? "有" : "无"})`);
 }

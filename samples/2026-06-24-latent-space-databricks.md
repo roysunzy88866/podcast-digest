@@ -40,45 +40,45 @@ tags:
 [[Databricks|Databricks]] 是大数据领域的一家头部公司，本次 Data AI Summit 有 3 万人亲自到场。这期访谈的两位嘉宾是 Databricks 的联合创始人 [[Reynold Xin|Reynold Xin]] 与 [[Matei Zaharia|Matei Zaharia]]（同时也是知名计算框架 [[Spark|Spark]] 的作者）。本集聊了他们最近发布的两大核心动作：第一个是关于[[智能体|智能体]]怎么管——如何为 AI 编程智能体打造一个开源的托管与安全底座（平台名为 [[Omnigen|Omnigen]]）；第二个是关于数据怎么连——如何消灭繁琐的数据管道，把交易型数据库和分析型数据库在存储层统一起来（这个技术叫 [[LTAP|LTAP]]）。全文沿着这两条主线展开，最后还聊到了他们从零重写数据库引擎的野心，以及和竞争对手 [[Snowflake|Snowflake]] 的路线之别。
 
 ## 智能体大爆发：从「各自为战」到统一底座
-节目一开始，Matei Zaharia 解释了 Databricks 为什么要做智能体的管理底座。起因是他们观察到公司内部出现了几条「汇合的线索」：一方面，高级工程师们在疯狂搭建自己的编程智能体工作流，但团队之间完全没法共享；另一方面，他们自己也在做各种数据科学智能体（比如内部叫 Genie 的智能体）。大家每隔几个月就要被迫切换底层模型或框架，而且如果不能共享会话历史，智能体几乎没法用于协作 [02:22 Matei Zaharia]。
+节目一开始，Matei Zaharia 解释了 Databricks 为什么要做智能体的管理底座。起因是他们观察到公司内部出现了几条「汇合的线索」：一方面，高级工程师们在疯狂搭建自己的编程智能体工作流，但团队之间完全没法共享；另一方面，他们自己也在做各种数据科学智能体（比如内部叫 Genie 的智能体）。大家每隔几个月就要被迫切换底层模型或框架，而且如果不能共享会话历史，智能体几乎没法用于协作 <button class="pd-ts" data-t="02:22" data-who="Matei Zaharia" data-en="What led you to it? Yeah, there were actually a couple of like converging lines, which I think is a good sign that you need something new." aria-label="回原文"></button>。
 
-随后，Reynold Xin 讲了一个让开发者极具共鸣的痛点，直接推动了「[[云沙箱|云沙箱]]」的诞生：为了在使用智能体编程时不中断，他不得不把笔记本电脑连着手机网络，开车去赴医生预约的路上，只要一遇红灯，就赶紧看一眼电脑上的智能体跑得怎么样了。他觉得「感觉就像我们回到了编程的黑暗时代」，明明身处云时代，却还要用本地电脑死守着一个编程任务 [06:12 Reynold Xin]。为了让沙箱真正好用，他还给平台提了具体需求：不仅要能支持协作，还要能直接打开终端、列出文件，甚至要把 Markdown 文件渲染好，彻底甩掉其他单一用途的编辑器 [07:41 Reynold Xin]。
+随后，Reynold Xin 讲了一个让开发者极具共鸣的痛点，直接推动了「[[云沙箱|云沙箱]]」的诞生：为了在使用智能体编程时不中断，他不得不把笔记本电脑连着手机网络，开车去赴医生预约的路上，只要一遇红灯，就赶紧看一眼电脑上的智能体跑得怎么样了。他觉得「感觉就像我们回到了编程的黑暗时代」，明明身处云时代，却还要用本地电脑死守着一个编程任务 <button class="pd-ts" data-t="06:12" data-who="Reynold Xin" data-en="And, and one of the things particularly annoying was having to keep my laptop open. I was actually driving to a doctor's appointment and I remember because I wanted" aria-label="回原文"></button>。为了让沙箱真正好用，他还给平台提了具体需求：不仅要能支持协作，还要能直接打开终端、列出文件，甚至要把 Markdown 文件渲染好，彻底甩掉其他单一用途的编辑器 <button class="pd-ts" data-t="07:41" data-who="Reynold Xin" data-en="Yeah. And also another thing I think asked was I had I still use cursor for the sole purpose of rendering markdown files." aria-label="回原文"></button>。
 
 ## 安全与开销：给智能体装上「上下文护栏」
 说完了「怎么把智能体跑起来」，接下来是一个让所有企业头疼的问题——安全。这也是 Matei 在 Omnigen 里最兴奋的部分。
 
-Matei 指出，现在很多编程智能体的安全措施极其基础，只允许你设置「是」或「否」（比如「能不能读机密文件」「能不能从 NPM 装新包」）。这种非黑即白的选项把开发者逼到了死角。真正可怕的是风险的叠加：比如智能体不仅读了机密文档，同时还把它发布到了公司公网上。为了解决这种割裂，Omnigen 引入了「[[上下文策略|上下文策略]]（contextual policies，即根据智能体会话的实时状态和历史记录来动态决定是否放行某项操作的规则）」。系统会实时跟踪智能体的一举一动，如果它刚安装了一个可疑的新包，或者一口气读了一千份机密文档，系统就会果断拦截它把数据发到网外 [19:20 Matei Zaharia]。
+Matei 指出，现在很多编程智能体的安全措施极其基础，只允许你设置「是」或「否」（比如「能不能读机密文件」「能不能从 NPM 装新包」）。这种非黑即白的选项把开发者逼到了死角。真正可怕的是风险的叠加：比如智能体不仅读了机密文档，同时还把它发布到了公司公网上。为了解决这种割裂，Omnigen 引入了「[[上下文策略|上下文策略]]（contextual policies，即根据智能体会话的实时状态和历史记录来动态决定是否放行某项操作的规则）」。系统会实时跟踪智能体的一举一动，如果它刚安装了一个可疑的新包，或者一口气读了一千份机密文档，系统就会果断拦截它把数据发到网外 <button class="pd-ts" data-t="19:20" data-who="Matei Zaharia" data-en="So the thing we decided we need is stateful or what we call contextual policies where you keep track of the state of that session. It's not like, is it allowed to push to the marketing site or not?" aria-label="回原文"></button>。
 
-除了安全，智能体「乱花钱」也是个现实问题。Matei 分享了一个真实案例：他让一个智能体去调试问题，结果它为了排查狂读日志文件、疯狂消耗 token，一个不小心就烧掉了 500 美元 [21:04 Matei Zaharia]。现在在他们的平台上，你可以直接给智能体划定预算，比如「只花 5 美元」，一旦超支它就会弹窗找你要授权。
+除了安全，智能体「乱花钱」也是个现实问题。Matei 分享了一个真实案例：他让一个智能体去调试问题，结果它为了排查狂读日志文件、疯狂消耗 token，一个不小心就烧掉了 500 美元 <button class="pd-ts" data-t="21:04" data-who="Matei Zaharia" data-en="I've had like, I asked an agent to debug something and it spent $500 because it decided to read a lot of log files and burn a lot of tokens." aria-label="回原文"></button>。现在在他们的平台上，你可以直接给智能体划定预算，比如「只花 5 美元」，一旦超支它就会弹窗找你要授权。
 
-更值得一提的是，Omnigen 选择了开源。Matei 坦言，如果市面上同时存在一个封闭和一个开源的智能体托管平台，长远赢的必定是开源——因为大家都能往里加库，网络效应会让它变得越来越强 [10:54 Matei Zaharia]。事实证明，项目周六刚发布，周一就已经收到了 400 个代码合并请求，有人加上了在 Kubernetes（一种管理容器的系统）上运行的功能，有人接入了各家初创公司的云沙箱 [11:56 Matei Zaharia]。
+更值得一提的是，Omnigen 选择了开源。Matei 坦言，如果市面上同时存在一个封闭和一个开源的智能体托管平台，长远赢的必定是开源——因为大家都能往里加库，网络效应会让它变得越来越强 <button class="pd-ts" data-t="10:54" data-who="Matei Zaharia" data-en="So that's like one of these. Another way to think about it Imagine our thing wasn't open." aria-label="回原文"></button>。事实证明，项目周六刚发布，周一就已经收到了 400 个代码合并请求，有人加上了在 Kubernetes（一种管理容器的系统）上运行的功能，有人接入了各家初创公司的云沙箱 <button class="pd-ts" data-t="11:56" data-who="Matei Zaharia" data-en="Yeah, you can look at the merge runs. I actually asked Somnijen this morning about the- 400 merge already? Yeah." aria-label="回原文"></button>。
 
 ## 打通数据库的任督二脉：LTAP 与消灭数据管道
 工具和安全的底座搭好了，接下来这集最硬核的技术登场了。主持人抛出了一个行业历史：过去十年大家都在谈论 [[HTAP|HTAP]]（试图用单一数据库同时搞定交易和分析），但往往两头都做不好。Reynold Xin 顺势介绍了他们的解法——LTAP。
 
-要理解 LTAP，得先知道数据库分两类：一类是 OLTP（处理事务的数据库，比如 Postgres，专门干快速下单、改库存的活），另一类是分析型数据库（专门用来算「每个店每天赚多少钱」）。通常，为了不把跑交易的主数据库搞崩溃，大家得用 [[CDC|CDC]]（变更数据捕获，即读取数据库的增量日志去重建状态）把数据抽出来，扔到分析系统里去算 [27:53 Reynold Xin]。但 Reynold Xin 吐槽，这东西太脆弱了，业内甚至有个冷笑话管它叫「持续数据损坏」，因为只要交易库稍微改个表结构，整个数据管道就会崩溃，工程师经常要在半夜三点爬起来修管道 [30:37 Reynold Xin]。
+要理解 LTAP，得先知道数据库分两类：一类是 OLTP（处理事务的数据库，比如 Postgres，专门干快速下单、改库存的活），另一类是分析型数据库（专门用来算「每个店每天赚多少钱」）。通常，为了不把跑交易的主数据库搞崩溃，大家得用 [[CDC|CDC]]（变更数据捕获，即读取数据库的增量日志去重建状态）把数据抽出来，扔到分析系统里去算 <button class="pd-ts" data-t="27:53" data-who="Reynold Xin" data-en="Yeah, yeah. The LTAP idea is actually pretty simple. So if people have heard of the Ankur's talk about HTAP, it's effectively the world of databases." aria-label="回原文"></button>。但 Reynold Xin 吐槽，这东西太脆弱了，业内甚至有个冷笑话管它叫「持续数据损坏」，因为只要交易库稍微改个表结构，整个数据管道就会崩溃，工程师经常要在半夜三点爬起来修管道 <button class="pd-ts" data-t="30:37" data-who="Reynold Xin" data-en="but one of the most fundamental operations powering modern society. But it's so brittle that a weak joke that it should be called continuous data corruption" aria-label="回原文"></button>。
 
 > 【背景】主持人提到「Airbyte 成为 50 亿美元的公司」靠的就是做 CDC 管道；「Elasticsearch」也常被用来做日志分析。
 
-Databricks 的 LTAP 思路是：不要试图去合并查询引擎，而是直接合并「存储层」。只要交易数据库在底层以列式格式直接把数据写到开放数据湖里，分析引擎就能零延迟、无管道地去直接读这些数据 [32:00 Reynold Xin]。Reynold Xin 坦言，最开始就算他们自己也不敢相信能成，但一位工程师灵光一闪做了个原型：利用存储集群里闲置的 CPU，把行数据转码成列数据，结果发现因为列式压缩更好，写入 S3 等对象存储反而更快了 [35:09 Reynold Xin]。
+Databricks 的 LTAP 思路是：不要试图去合并查询引擎，而是直接合并「存储层」。只要交易数据库在底层以列式格式直接把数据写到开放数据湖里，分析引擎就能零延迟、无管道地去直接读这些数据 <button class="pd-ts" data-t="32:00" data-who="Reynold Xin" data-en="And our whole idea of LTAP is kind of obviously a wordplay on the term HTAP. It's that we think this is HTAP done, right? HTAP wants to build a single engine for both." aria-label="回原文"></button>。Reynold Xin 坦言，最开始就算他们自己也不敢相信能成，但一位工程师灵光一闪做了个原型：利用存储集群里闲置的 CPU，把行数据转码成列数据，结果发现因为列式压缩更好，写入 S3 等对象存储反而更快了 <button class="pd-ts" data-t="35:09" data-who="Reynold Xin" data-en="Wait, so prototype what? Prototype, instead of storing the data in the data lake in the role-oriented format, like Postgres pages, write them in parquet." aria-label="回原文"></button>。
 
-主持人问：既然智能体来了，这玩意儿有啥用？Reynold Xin 讲了个顿悟时刻：他和一位澳大利亚客户吃饭，客户抱怨线上服务出故障时，智能体只能看到服务的运行日志，却没法直接钻进数据库里看看到底是谁下了什么订单导致了问题。如果有了 LTAP，智能体能同时看懂机器日志和真实的业务数据，排查问题的能力直接提升十倍 [32:39 Reynold Xin]。
+主持人问：既然智能体来了，这玩意儿有啥用？Reynold Xin 讲了个顿悟时刻：他和一位澳大利亚客户吃饭，客户抱怨线上服务出故障时，智能体只能看到服务的运行日志，却没法直接钻进数据库里看看到底是谁下了什么订单导致了问题。如果有了 LTAP，智能体能同时看懂机器日志和真实的业务数据，排查问题的能力直接提升十倍 <button class="pd-ts" data-t="32:39" data-who="Reynold Xin" data-en="even though we wrote that positioning. But then last night I was having dinner with an Australian customer and they actually told me, oh, hey," aria-label="回原文"></button>。
 
 ## 文化与野心：从零重写数据库引擎
-说完了现阶段的突破，Reynold Xin 还分享了一个更疯狂的计划——从零重写一个数据库引擎（团队戏称它为 [[Dream Engine|Dream Engine]]）。市面上主流的分析引擎大多都有十年历史了，经过无数次缝缝补补，已经变成了一堆「屎山代码」（Databricks 的系统也不例外）。为了彻底根治，他们决定推倒重来 [44:00 Reynold Xin]。
+说完了现阶段的突破，Reynold Xin 还分享了一个更疯狂的计划——从零重写一个数据库引擎（团队戏称它为 [[Dream Engine|Dream Engine]]）。市面上主流的分析引擎大多都有十年历史了，经过无数次缝缝补补，已经变成了一堆「屎山代码」（Databricks 的系统也不例外）。为了彻底根治，他们决定推倒重来 <button class="pd-ts" data-t="44:00" data-who="Reynold Xin" data-en="especially on the analytics side, are kind of a decade old. Pretty much everything that have reasonable traction are about a decade old. And they all started targeting some very specific narrow use cases." aria-label="回原文"></button>。
 
-做这事最大的风险是所谓的「[[第二系统综合征|第二系统综合征]]」：开发者在重写时往往容易好大喜功，加塞太多完美主义需求，最后永远无法发布。为了避开这个坑，Databricks 的工程师没有去拍脑袋设计算法，而是建了一座「数据库工厂」：他们拿了十年的海量真实运行轨迹，训练了一个机器学习模型。这个模型能极高保真度地预测某项算法在特定数据特征下到底跑得快不快 [46:30 Reynold Xin]。有了它，团队可以在开发时甚至运行时，动态选出最适合当下的算法。
+做这事最大的风险是所谓的「[[第二系统综合征|第二系统综合征]]」：开发者在重写时往往容易好大喜功，加塞太多完美主义需求，最后永远无法发布。为了避开这个坑，Databricks 的工程师没有去拍脑袋设计算法，而是建了一座「数据库工厂」：他们拿了十年的海量真实运行轨迹，训练了一个机器学习模型。这个模型能极高保真度地预测某项算法在特定数据特征下到底跑得快不快 <button class="pd-ts" data-t="46:30" data-who="Reynold Xin" data-en="but then it backfires on the other 30%. They actually when built a more of a factory for building the database." aria-label="回原文"></button>。有了它，团队可以在开发时甚至运行时，动态选出最适合当下的算法。
 
-如此大胆的创新，离不开公司极简的审批文化。主持人惊叹于他们这种大公司居然能允许工程师「不要先写一堆设计文档，直接做原型」。Reynold Xin 笑着说，就是在这种「直接试」的文化下，激烈的辩论才会被一行能跑通的代码迅速终结 [36:23 Matei Zaharia]。
+如此大胆的创新，离不开公司极简的审批文化。主持人惊叹于他们这种大公司居然能允许工程师「不要先写一堆设计文档，直接做原型」。Reynold Xin 笑着说，就是在这种「直接试」的文化下，激烈的辩论才会被一行能跑通的代码迅速终结 <button class="pd-ts" data-t="36:23" data-who="Matei Zaharia" data-en="from first principle and then somebody just did it. Yeah, I mean, if you set yourself up so people do that, that'll be great. That happened a bit with Omnigent, too." aria-label="回原文"></button>。
 
 ## 路线之争：为什么是 Databricks 跑出来了
 节目的最后，主持人问了一个尖锐的问题：和死对头 Snowflake 相比，你们做对的核心战略是什么？
 
-Reynold Xin 给出了两个关键判断：一是「拥抱开放」，二是「天生为 AI 而生」。Snowflake 一开始走的是专有封闭路线，想把小部分高价值数据锁在自己的系统里做极速查询；而 Databricks 从第一天起就用 Parquet 这样的开放格式，哪怕一开始查询慢点，但客户能随意把海量数据接走。事实证明，今天所有企业都渴望开放，封闭格式已经被时代抛弃 [56:19 Reynold Xin]。
+Reynold Xin 给出了两个关键判断：一是「拥抱开放」，二是「天生为 AI 而生」。Snowflake 一开始走的是专有封闭路线，想把小部分高价值数据锁在自己的系统里做极速查询；而 Databricks 从第一天起就用 Parquet 这样的开放格式，哪怕一开始查询慢点，但客户能随意把海量数据接走。事实证明，今天所有企业都渴望开放，封闭格式已经被时代抛弃 <button class="pd-ts" data-t="56:19" data-who="Reynold Xin" data-en="But the open data format have won. Like I think now every enterprise wants to put data in open data format. But it was actually very controversial." aria-label="回原文"></button>。
 
-而在 AI 上，Matei 补充道，Snowflake 当时觉得「我们管好高价值数据就行」，但 Databricks 最早就是干大规模数据清洗（JSON 日志等）起家的，是从数据的上游起步的。结果发现，计算任务不可避免地会往上游转移，于是顺理成章地就把分析能力做起来了 [54:50 Matei Zaharia]。
+而在 AI 上，Matei 补充道，Snowflake 当时觉得「我们管好高价值数据就行」，但 Databricks 最早就是干大规模数据清洗（JSON 日志等）起家的，是从数据的上游起步的。结果发现，计算任务不可避免地会往上游转移，于是顺理成章地就把分析能力做起来了 <button class="pd-ts" data-t="54:50" data-who="Matei Zaharia" data-en="It's easier to go from that bod thing that's really good at the scale and ingesting and super low cost and create versions in it that have the speed and features of" aria-label="回原文"></button>。
 
-聊到被收购的 Mosaic 团队，既然行业有大把人在做烧钱拼算力的通用大模型，Databricks 决定把力气花在刀刃上——做专门领域的小模型。比如他们做了一个文档视觉模型，专门用来把 PDF 或 Word 转成结构化的 JSON，不仅比前沿大模型准，而且成本便宜了 100 倍 [60:52 Matei Zaharia]。在他们看来，把数据放对位置、再放上智能体，传统软件就会被重写，「魔法」自然就会发生 [66:36 Reynold Xin]。
+聊到被收购的 Mosaic 团队，既然行业有大把人在做烧钱拼算力的通用大模型，Databricks 决定把力气花在刀刃上——做专门领域的小模型。比如他们做了一个文档视觉模型，专门用来把 PDF 或 Word 转成结构化的 JSON，不仅比前沿大模型准，而且成本便宜了 100 倍 <button class="pd-ts" data-t="60:52" data-who="Matei Zaharia" data-en="And it's very competitive. It's probably like 100x cheaper than those frontier models and still better. And that's actually done by one of" aria-label="回原文"></button>。在他们看来，把数据放对位置、再放上智能体，传统软件就会被重写，「魔法」自然就会发生 <button class="pd-ts" data-t="66:36" data-who="Reynold Xin" data-en="Actually, I think many of the traditional software will be sort of rewritten. with this new paradigm, which is just get the data to be there and then slap some agent on top." aria-label="回原文"></button>。
 
 ## 本集带走
 1. **智能体需要「上下文安全」**：非黑即白的权限设置已经过时，根据会话历史动态拦截高危操作的「上下文策略」，以及直接给智能体划定预算，是企业落地 AI 编程的刚需。
@@ -171,6 +171,31 @@ Reynold Xin 给出了两个关键判断：一是「拥抱开放」，二是「�
   }
   document.addEventListener('nav', move);
   move();
+})();
+</script>
+
+<script>
+(function(){
+  function bind(){
+    document.querySelectorAll('button.pd-ts').forEach(function(b){
+      if(b.dataset.bound) return;
+      b.dataset.bound='1';
+      b.addEventListener('click',function(){
+        var n=b.nextElementSibling;
+        if(n&&n.classList.contains('pd-orig')){ n.remove(); return; }
+        var d=document.createElement('div');
+        d.className='pd-orig';
+        var h=document.createElement('b');
+        h.textContent='英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'');
+        d.appendChild(h);
+        d.appendChild(document.createElement('br'));
+        d.appendChild(document.createTextNode(b.dataset.en||''));
+        b.after(d);
+      });
+    });
+  }
+  document.addEventListener('nav', bind);
+  bind();
 })();
 </script>
 

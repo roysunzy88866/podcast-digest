@@ -44,49 +44,49 @@ Rippling CPO 谈如何用极度紧绷的状态对抗组织熵增,以及何时该
 
 ## 刻意人手不足:让发动机始终在红线运转
 
-Matt 访谈开篇就抛出了一个贯穿全局的框架:**非凡的成果需要非凡的努力**(extraordinary results require extraordinary efforts)。他强调,如果你在工作中发现自己处于舒适区,那肯定是搞砸了。这种紧绷不是通过某件宏大事件体现的,而是体现在每一个周五晚上突发的 Bug 和一千个 Jira 工单里 [07:05 Matt MacInnis]。
+Matt 访谈开篇就抛出了一个贯穿全局的框架:**非凡的成果需要非凡的努力**(extraordinary results require extraordinary efforts)。他强调,如果你在工作中发现自己处于舒适区,那肯定是搞砸了。这种紧绷不是通过某件宏大事件体现的,而是体现在每一个周五晚上突发的 Bug 和一千个 Jira 工单里 <button class="pd-ts" data-t="07:05" data-who="Matt MacInnis" data-en="So on Friday night, when you get hit with an escalation on Friday night, when you get sort of hit with a bunch of new bugs from someone in the engineering team that you've got a triage, those are the moments where great players and great teams are separated from good players and good teams." aria-label="回原文"></button>。
 
-这背后的逻辑是一种防患于未然的危机感。Matt 在苹果公司工作时,曾经历过被称作“死亡行军”的阶段:一旦你发布了 iPhone 的一个版本,就会立即被扔进构建下一个版本的坑里,没有任何休息 [09:07 Matt MacInnis]。他认为在竞争激烈且有价值的市场中,如果你在场上留下了任何东西,或者为竞争对手留下了一条裂缝,他们 100% 会去填满那条裂缝 [09:33 Matt MacInnis]。因此,组织不能有任何松懈,必须时刻保持警惕。
+这背后的逻辑是一种防患于未然的危机感。Matt 在苹果公司工作时,曾经历过被称作“死亡行军”的阶段:一旦你发布了 iPhone 的一个版本,就会立即被扔进构建下一个版本的坑里,没有任何休息 <button class="pd-ts" data-t="09:07" data-who="Matt MacInnis" data-en="I spent seven years at Apple and learned under Steve Jobs when he was the CEO, learned what we called the death march, which is what we did to the engineers. It was like as soon as you shipped one version of the iPhone, you were just immediately thrown into the pit of building the next one and there was no break." aria-label="回原文"></button>。他认为在竞争激烈且有价值的市场中,如果你在场上留下了任何东西,或者为竞争对手留下了一条裂缝,他们 100% 会去填满那条裂缝 <button class="pd-ts" data-t="09:33" data-who="Matt MacInnis" data-en="In a competitive market, and if the market is valuable, it's competitive, no question. If you leave anything on the field, if you sort of leave a crack for your competitor, 100% chance they're going to go fill that crack." aria-label="回原文"></button>。因此,组织不能有任何松懈,必须时刻保持警惕。
 
-有趣的是,他认为让团队保持忙碌本身就是激发士气的方法。反直觉的是,当你确实给你的团队空间去无所事事时,坏事就开始发生,人们会分心,士气实际上会低落 [10:24 Matt MacInnis]。
+有趣的是,他认为让团队保持忙碌本身就是激发士气的方法。反直觉的是,当你确实给你的团队空间去无所事事时,坏事就开始发生,人们会分心,士气实际上会低落 <button class="pd-ts" data-t="10:24" data-who="Matt MacInnis" data-en="Also, very counterintuitively, and maybe the more optimistic perspective here is when you do give your team space to just twiddle their thumbs, bad things start to happen." aria-label="回原文"></button>。
 
-基于这种理念,Rippling 在人员配置上有一个硬性原则:**刻意让每个项目人手不足**(deliberately understaffed)[00:00 Matt MacInnis]。为什么宁可人手不足也不能人员过剩?Matt 解释说,如果人手过剩,就会产生政治斗争。更严重的是,员工会去处理那些优先级本不必要那么低的事情。比如你有一个包含 20 件事的优先级列表,你知道必须做前五件,但因为人员过剩,下面的 10 件事也会被处理——这会产生大量垃圾代码和浪费 [11:37 Matt MacInnis]。
+基于这种理念,Rippling 在人员配置上有一个硬性原则:**刻意让每个项目人手不足**(deliberately understaffed)<button class="pd-ts" data-t="00:00" data-who="Matt MacInnis" data-en="It is really important to me that we feel that we've deliberately understaffed every project at the company. If you overstaff, you get politics, you get people working on things that are further down the priority list than necessary." aria-label="回原文"></button>。为什么宁可人手不足也不能人员过剩?Matt 解释说,如果人手过剩,就会产生政治斗争。更严重的是,员工会去处理那些优先级本不必要那么低的事情。比如你有一个包含 20 件事的优先级列表,你知道必须做前五件,但因为人员过剩,下面的 10 件事也会被处理——这会产生大量垃圾代码和浪费 <button class="pd-ts" data-t="11:37" data-who="Matt MacInnis" data-en="When you staff a project, is it better to overstaff or is it better to under-staff knowing that you can't get it right? Well, it's better to under-staff. If you overstaff, you get everything that you just said." aria-label="回原文"></button>。
 
 ## 从外部看像“垃圾火灾”,直到你跳进锅炉房
 
 说完了保持高强度的重要性,接下来是他跨界收拾残局的真实经历。
 
-Matt 曾长期担任 COO,近期才转任 CPO。在担任 COO 期间,他有一个绰号叫“MacInnis 的受伤小鸟”——公司里任何处于混乱或危险中的职能,他都会去仔细关注,使其恢复秩序 [17:35 Matt MacInnis]。但他唯独没有碰过研发部门。从外部看,他发现研发部门“局部优化但全局不连贯”,甚至像一个冒着烟的“垃圾火灾”。但当时他只能提出一些外部批评 [18:23 Matt MacInnis]。
+Matt 曾长期担任 COO,近期才转任 CPO。在担任 COO 期间,他有一个绰号叫“MacInnis 的受伤小鸟”——公司里任何处于混乱或危险中的职能,他都会去仔细关注,使其恢复秩序 <button class="pd-ts" data-t="17:35" data-who="Matt MacInnis" data-en="They will fix the thing. And I do appreciate the terms that people have used at Rippling for me, talking about MacInnis's injured birds, where at any given moment some function is in disarray or in jeopardy and I go and focus very carefully on that function to get it back in order batting 800 maybe, like not always wild success, but I did that everywhere except R&amp;D." aria-label="回原文"></button>。但他唯独没有碰过研发部门。从外部看,他发现研发部门“局部优化但全局不连贯”,甚至像一个冒着烟的“垃圾火灾”。但当时他只能提出一些外部批评 <button class="pd-ts" data-t="18:23" data-who="Matt MacInnis" data-en="I would think about helping out with components of the sales organization like our channel team, or I spent time building out the recruiting function a few times when it needed to be sort of rethought in response to our growth, but it never R&amp;D." aria-label="回原文"></button>。
 
-后来,因为工程和产品的高管招聘接连出现失误,他决定亲自接管产品部门。他深刻体会到:身为高管坐在混乱之外并自以为知道答案,是不可饶恕的错误。你必须下到锅炉房里,从底层研究系统 [22:34 Matt MacInnis]。
+后来,因为工程和产品的高管招聘接连出现失误,他决定亲自接管产品部门。他深刻体会到:身为高管坐在混乱之外并自以为知道答案,是不可饶恕的错误。你必须下到锅炉房里,从底层研究系统 <button class="pd-ts" data-t="22:34" data-who="Matt MacInnis" data-en="There is just no excuse as an executive for sitting outside of the mess and thinking you know the answers. It's a cardinal sin as an executive to do that. You need to go and see." aria-label="回原文"></button>。
 
 ## 降低波动性(Beta),而不是扼杀超额回报(Alpha)
 
-跳进锅炉房后该怎么管理?Matt 借用金融概念提出了一个组织设计框架。他使用金融世界里的概念:alpha 代表相对于指数的超额表现,beta 代表波动性。应用到人身上,**高 alpha 的人非常有价值,低 beta 的人(稳定可靠)也很有价值** [25:56 Matt MacInnis]。比如丹尼斯·罗德曼是个疯子(极高 alpha),但每个球队都有空间容纳一个这样难搞但潜力巨大的员工。
+跳进锅炉房后该怎么管理?Matt 借用金融概念提出了一个组织设计框架。他使用金融世界里的概念:alpha 代表相对于指数的超额表现,beta 代表波动性。应用到人身上,**高 alpha 的人非常有价值,低 beta 的人(稳定可靠)也很有价值** <button class="pd-ts" data-t="25:56" data-who="Matt MacInnis" data-en="Alpha is outperformance relative to the index. So that's why you have seekingalpha.com as a very popular website. What they mean by that is you're looking to buy something, some combination of assets that will outperform, let's say the S&amp;P 500, if that's your benchmark." aria-label="回原文"></button>。比如丹尼斯·罗德曼是个疯子(极高 alpha),但每个球队都有空间容纳一个这样难搞但潜力巨大的员工。
 
 > 【背景】丹尼斯·罗德曼(Dennis Rodman)是美国职业篮球联赛的著名球员,以出色的篮板能力和张扬、不羁的个性著称。
 
-Matt 在这里提出了一个关键的管理原则:组织中的流程,其存在的唯一目的就是降低 beta(减少系统产出的波动性);但流程的缺点是它会抑制 alpha(压制创新和超额回报)[28:08 Matt MacInnis]。例如,对于一款成熟的薪资产品,Rippling 极度渴望它是低 beta 的,不容许任何不可预测性,因此愿意接受更多僵化的流程 [27:44 Matt MacInnis]。
+Matt 在这里提出了一个关键的管理原则:组织中的流程,其存在的唯一目的就是降低 beta(减少系统产出的波动性);但流程的缺点是它会抑制 alpha(压制创新和超额回报)<button class="pd-ts" data-t="28:08" data-who="Matt MacInnis" data-en="And here's a fundamental principle of design in an organization, which is that processes, processes in a business exist for the sole purpose of lowering beta. Processes are for decreasing volatility in the output of the system." aria-label="回原文"></button>。例如,对于一款成熟的薪资产品,Rippling 极度渴望它是低 beta 的,不容许任何不可预测性,因此愿意接受更多僵化的流程 <button class="pd-ts" data-t="27:44" data-who="Matt MacInnis" data-en="When you have a more mature product or if you have somebody in the product operations group or whatever, you probably want a more low beta environment where it's like it cranks it out, it does it very reliably." aria-label="回原文"></button>。
 
-为了在两者间取得平衡,他创造了一个名为 PQL(产品质量清单)的机制。PQL 是一份轻量级的出厂检查清单,用以规定产品发布时应达到的基本标准(如测试覆盖率)。Matt 强调,如果你想创造能留在人们脑中的文化,就必须创造一个实体意义的载体并填满你的含义。PQL 虽然听起来有些滑稽,但正是为了成为 Rippling 独有的模因而设计的 [30:01 Matt MacInnis]。
+为了在两者间取得平衡,他创造了一个名为 PQL(产品质量清单)的机制。PQL 是一份轻量级的出厂检查清单,用以规定产品发布时应达到的基本标准(如测试覆盖率)。Matt 强调,如果你想创造能留在人们脑中的文化,就必须创造一个实体意义的载体并填满你的含义。PQL 虽然听起来有些滑稽,但正是为了成为 Rippling 独有的模因而设计的 <button class="pd-ts" data-t="30:01" data-who="Matt MacInnis" data-en="And if they just fumble around with the word strategy again, I'm like, &quot;Okay, you actually haven't thought this through.&quot; So with the PQL, with the product quality list, it's like I could come up with some generic term for this, but I really want a new joiner at the company to understand that this is an idiosyncratic thing to Rippling." aria-label="回原文"></button>。
 
-顺带一提,他对“功能开关”(feature flag)深恶痛绝,认为工程师临时放进去然后忘记关掉,就像盖房子时留下的垫片一样危险,是系统出错和制造混乱的根源 [31:48 Matt MacInnis]。
+顺带一提,他对“功能开关”(feature flag)深恶痛绝,认为工程师临时放进去然后忘记关掉,就像盖房子时留下的垫片一样危险,是系统出错和制造混乱的根源 <button class="pd-ts" data-t="31:48" data-who="Matt MacInnis" data-en="And I'm like, &quot;Well, what did we miss?&quot; What we missed was there was a fucking feature flag, a fucking feature flag. And I'm not allowed to say feature flag without fucking in front of it because feature flags are the bane of my existence and the worst things in the world that constantly cause problems." aria-label="回原文"></button>。
 
 ## 别问别人要建议,问他们相关的经验
 
 工具与方法讲完了,如果方向错了怎么办?这正是下一个话题:该不该放弃。
 
-Matt 曾创办一家公司长达九年,却以黯然收场。他深刻体会到,没有真正达到过[[产品市场契合度|产品市场契合度]]。虽然硅谷文化常谈论永不放弃,但他直言不讳地说这完全是为了风险投资家的利益:VC 永远拿不回钱,所以他们只会激励你不顾一切地继续尝试 [44:29 Matt MacInnis]。
+Matt 曾创办一家公司长达九年,却以黯然收场。他深刻体会到,没有真正达到过[[产品市场契合度|产品市场契合度]]。虽然硅谷文化常谈论永不放弃,但他直言不讳地说这完全是为了风险投资家的利益:VC 永远拿不回钱,所以他们只会激励你不顾一切地继续尝试 <button class="pd-ts" data-t="44:29" data-who="Matt MacInnis" data-en="But when I get the investor updates for the guys who've been at it for like three, four years and I read the updates from them that I sent to my investors in 2011 and 2012, I'm kind of heartbroken." aria-label="回原文"></button>。
 
-对于何时该放弃,他给出的实用建议是:**不要向别人征求建议,而要向别人征求相关经验**。如果你问别人要建议,他们总是会给出建议;但如果你问他们的相关经验,他们很少能提供 [50:31 Matt MacInnis]。基于他四次创业的相关经验,他认为如果已经转型了一两次却依然没有起色,大概到了第四年就该放弃了,这没有任何可耻的 [51:00 Matt MacInnis]。
+对于何时该放弃,他给出的实用建议是:**不要向别人征求建议,而要向别人征求相关经验**。如果你问别人要建议,他们总是会给出建议;但如果你问他们的相关经验,他们很少能提供 <button class="pd-ts" data-t="50:31" data-who="Matt MacInnis" data-en="I think Rippling, had it been started today, would not be what it is five years from now today, and so I think timing is a lot and it's very hard to control for, but when you get the timing right and the market is real and the product works, product market fit, like I said earlier, it's super clear, and so if I were to pick a number out of a hat just from my lived experience, I think it's very important, one aside, don't ask people for advice, ask people for relevant experience." aria-label="回原文"></button>。基于他四次创业的相关经验,他认为如果已经转型了一两次却依然没有起色,大概到了第四年就该放弃了,这没有任何可耻的 <button class="pd-ts" data-t="51:00" data-who="Matt MacInnis" data-en="So ask people for relevant experience, and I try to do this with my own entrepreneurs when I work with them, it's like, let me offer you whatever relevant experience I have, and my relevant experience on this topic of when to quit is like, I think we could have called it after the second or third pivot, which was somewhere around year four." aria-label="回原文"></button>。
 
-对于为何要在适当时机退出,他用药物发现打了一个绝佳的比方:你不能通过营销来说服人体产生药物受体。你要么找到了契合的受体(市场需求),要么没有,命运早已决定。不要发布了产品发现缺乏成功后,再试图通过营销来度过难关 [53:14 Matt MacInnis]。
+对于为何要在适当时机退出,他用药物发现打了一个绝佳的比方:你不能通过营销来说服人体产生药物受体。你要么找到了契合的受体(市场需求),要么没有,命运早已决定。不要发布了产品发现缺乏成功后,再试图通过营销来度过难关 <button class="pd-ts" data-t="53:14" data-who="Matt MacInnis" data-en="Then you take a different mindset. You have to view your startup as running an experiment in the universe to see what you get in return for that, and this analogy of drug discovery and binding receptors is like nobody at Genentech thinks they can market their way to better performance inside your body." aria-label="回原文"></button>。
 
 > 【背景】Notion 是一款极其流行的笔记与生产力软件。Matt 提到他是 Notion 的早期投资者之一。Notion 在艰难的市场中成功开辟了利基市场,但他认为这种极度的坚持是一种“叙事违规”,普通人无法复制。
 
 ## 单点 SaaS 在 AI 时代的困境
 
-既然方向比死磕更重要,这就引出了他对行业趋势的判断。Matt 认为,在当前的 AI 时代,[[单点解决方案|单点解决方案]]处境艰难。AI 需要大量数据的上下文才能发挥作用,而单点 SaaS 没有足够的数据,必须依赖第三方系统(就像通过吸管喝水一样困难)[78:34 Matt MacInnis]。Rippling 之所以有优势,是因为他们拥有单一的业务数据图和一致的数据湖。他将公司定位为拥有数据“矿山”的人,那些既没有底层模型(铲子)又没有数据(矿山)的中间层 AI 软件,将被上下游的议价权压垮 [80:00 Matt MacInnis]。
+既然方向比死磕更重要,这就引出了他对行业趋势的判断。Matt 认为,在当前的 AI 时代,[[单点解决方案|单点解决方案]]处境艰难。AI 需要大量数据的上下文才能发挥作用,而单点 SaaS 没有足够的数据,必须依赖第三方系统(就像通过吸管喝水一样困难)<button class="pd-ts" data-t="78:34" data-who="Matt MacInnis" data-en="So this is a period of bundling. So here's the problem; point solutions don't have enough data in the age of AI to be useful. You got to be able to provide the AI with a lot of context about a lot of data so it can do things." aria-label="回原文"></button>。Rippling 之所以有优势,是因为他们拥有单一的业务数据图和一致的数据湖。他将公司定位为拥有数据“矿山”的人,那些既没有底层模型(铲子)又没有数据(矿山)的中间层 AI 软件,将被上下游的议价权压垮 <button class="pd-ts" data-t="80:00" data-who="Matt MacInnis" data-en="And if you own the mine, like Rippling, with the data, you can make money. If you're somewhere in the middle, building AI software that then tries to use the shovels from the shovel provider, but then also needs to rent out the mine, or get the ore out of somebody else's mind and start refining it, you're in a very difficult place from an economic standpoint." aria-label="回原文"></button>。
 
 ## 本集带走
 
@@ -211,6 +211,31 @@ Matt 曾创办一家公司长达九年,却以黯然收场。他深刻体会到,�
   }
   document.addEventListener('nav', move);
   move();
+})();
+</script>
+
+<script>
+(function(){
+  function bind(){
+    document.querySelectorAll('button.pd-ts').forEach(function(b){
+      if(b.dataset.bound) return;
+      b.dataset.bound='1';
+      b.addEventListener('click',function(){
+        var n=b.nextElementSibling;
+        if(n&&n.classList.contains('pd-orig')){ n.remove(); return; }
+        var d=document.createElement('div');
+        d.className='pd-orig';
+        var h=document.createElement('b');
+        h.textContent='英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'');
+        d.appendChild(h);
+        d.appendChild(document.createElement('br'));
+        d.appendChild(document.createTextNode(b.dataset.en||''));
+        b.after(d);
+      });
+    });
+  }
+  document.addEventListener('nav', bind);
+  bind();
 })();
 </script>
 

@@ -43,41 +43,41 @@ tags:
 
 ## 开源追兵逼近：前沿实验室的护城河在哪里？
 
-Sriram 回忆，大概四五个月前，行业内领先的模型似乎只有 Opus 和 GPT 这几个，大家曾担忧前沿实验室（Frontier Labs，指 OpenAI、Anthropic 等持续研发最尖端模型的公司）会在自我改进的曲线上把其他人彻底甩开。但过去几周情况突变，尤其是 Kimi K3 的发布，让这种局面被打破 [03:19 Sriram Krishnan]。
+Sriram 回忆，大概四五个月前，行业内领先的模型似乎只有 Opus 和 GPT 这几个，大家曾担忧前沿实验室（Frontier Labs，指 OpenAI、Anthropic 等持续研发最尖端模型的公司）会在自我改进的曲线上把其他人彻底甩开。但过去几周情况突变，尤其是 Kimi K3 的发布，让这种局面被打破 <button class="pd-ts" data-t="03:19" data-who="Sriram Krishnan" data-en="which I think is nearly SOTA on many, many benchmarks. But I think the big news over the last three, four days was obviously Kimi K3 coming out, I think on Thursday or Friday." aria-label="回原文"></button>。
 
-Sriram 指出，Kimi K3 的出现有三重含义。首先，生态系统中有了真正的选择权，你可以将[[智能体|智能体]]（Agent，能自主执行任务的 AI 程序）指向不同的模型。其次，一个尴尬的现状是：一些美国前沿模型在网络安全等领域受到了限制。他提到一位朋友甚至开始使用 Kimi K3 而不是前沿闭源模型来做安全工作，因为后者总是触发安全拒绝（护栏机制），而前者则更为自由 [04:09 Sriram Krishnan]。最后，这也意味着前沿模型的定价权受到了挑战。
+Sriram 指出，Kimi K3 的出现有三重含义。首先，生态系统中有了真正的选择权，你可以将[[智能体|智能体]]（Agent，能自主执行任务的 AI 程序）指向不同的模型。其次，一个尴尬的现状是：一些美国前沿模型在网络安全等领域受到了限制。他提到一位朋友甚至开始使用 Kimi K3 而不是前沿闭源模型来做安全工作，因为后者总是触发安全拒绝（护栏机制），而前者则更为自由 <button class="pd-ts" data-t="04:09" data-who="Sriram Krishnan" data-en="For example, on cyber and on security. And I was talking to a friend of mine where this person was actually starting to do security work using Kimmy K3 rather than Fable because with Fable, he would run into these refusals and safeguards." aria-label="回原文"></button>。最后，这也意味着前沿模型的定价权受到了挑战。
 
-说完了开源带来的冲击，接下来是前沿实验室该如何应对。Sriram 判断，前沿实验室依然会在参差不齐的性能前沿持续探索，但他怀疑真正的压力将集中在定价上。他认为，确实有一部分任务需要绝对顶尖的前沿智能，但对于像检查邮件、扫描日历这样的普通智能体任务，人们完全可以用次优的[[开源权重|开源权重]]模型来替代 [06:21 Sriram Krishnan]。这将直接导致前沿模型面临定价压力。
+说完了开源带来的冲击，接下来是前沿实验室该如何应对。Sriram 判断，前沿实验室依然会在参差不齐的性能前沿持续探索，但他怀疑真正的压力将集中在定价上。他认为，确实有一部分任务需要绝对顶尖的前沿智能，但对于像检查邮件、扫描日历这样的普通智能体任务，人们完全可以用次优的[[开源权重|开源权重]]模型来替代 <button class="pd-ts" data-t="06:21" data-who="Sriram Krishnan" data-en="these open models could really start putting pressure on them is one on pricing. Because it may turn out that the number of tasks that you need absolutely frontier intelligence from is, let's call it like one subset." aria-label="回原文"></button>。这将直接导致前沿模型面临定价压力。
 
 > 【背景】开源权重（Open-weight）模型是指将神经网络参数公开的模型，允许用户下载并在本地运行。用户可以通过微调（Fine-tuning）等方式修改它，以满足特定需求。
 
-他观察到，前沿实验室已经开始行动。比如 Anthropic 就已经延长了其顶级模型的可用期限。他还进一步抛出了一个核心问题：如果你是前沿实验室，真正的护城河到底是在底层智能里，还是在工具套件里 [07:20 Sriram Krishnan]？他认为，智能层面正变得越来越像大宗商品，因此前沿实验室（比如围绕 Claude 的产品）可能会投入更多精力，让自身的工具套件变得更具用户粘性。
+他观察到，前沿实验室已经开始行动。比如 Anthropic 就已经延长了其顶级模型的可用期限。他还进一步抛出了一个核心问题：如果你是前沿实验室，真正的护城河到底是在底层智能里，还是在工具套件里 <button class="pd-ts" data-t="07:20" data-who="Sriram Krishnan" data-en="I predict there'll probably be more extensions just because otherwise you have an open model, which is very much near the frontier. I think the other interesting question is, where is the real moat if you're a frontier lab?" aria-label="回原文"></button>？他认为，智能层面正变得越来越像大宗商品，因此前沿实验室（比如围绕 Claude 的产品）可能会投入更多精力，让自身的工具套件变得更具用户粘性。
 
 ## 蒸馏争议：不对称的竞争环境
 
 工具和定价的竞争尚属商业范畴，但在国家安全层面，关于开源模型的讨论则更为复杂。
 
-Axios 当天报道称，美国政府正在考虑限制中国的开源模型。面对“政府是否会打压开源模型”的提问，Sriram 明确表示，他深信开源社区中经典的 Linus 定律——只要有足够多的眼睛，所有的 Bug 都无所遁形 [10:29 Sriram Krishnan]。他认为，从 [[Hugging Face|Hugging Face]] 下载的开源权重模型本质上更安全，因为全球的开发者都可以去拆解、检查和修改它，这是闭源模型做不到的。
+Axios 当天报道称，美国政府正在考虑限制中国的开源模型。面对“政府是否会打压开源模型”的提问，Sriram 明确表示，他深信开源社区中经典的 Linus 定律——只要有足够多的眼睛，所有的 Bug 都无所遁形 <button class="pd-ts" data-t="10:29" data-who="Sriram Krishnan" data-en="And I was a big fan of Linus's law, as in Linus Torvalds of Linux fame's law. And his law was that given enough eyes, all bugs are shallow. And what I believe with that is that open-weight models are inherently secure because when you download a model of Hugging Face, it means you have the entire world being able to take it apart, inspect it, fine-tune it, modify it, look at it in ways that you absolutely cannot if they are closed." aria-label="回原文"></button>。他认为，从 [[Hugging Face|Hugging Face]] 下载的开源权重模型本质上更安全，因为全球的开发者都可以去拆解、检查和修改它，这是闭源模型做不到的。
 
-然而，今天让他感到不适的是：由于美国前沿模型设置了安全护栏，防御者反而难以直接审查自身代码的漏洞；相比之下，使用中国模型反而可能更利于做安全审查。他甚至提到，就在节目录制当天，Hugging Face 报告了一起事件：有人使用 AI 智能体在多个节点上猛烈攻击系统试图突破 [11:02 Sriram Krishnan]。他主张，反击这种威胁的最好办法，就是确保美国的防御者能够使用最好的模型来提升软件安全。
+然而，今天让他感到不适的是：由于美国前沿模型设置了安全护栏，防御者反而难以直接审查自身代码的漏洞；相比之下，使用中国模型反而可能更利于做安全审查。他甚至提到，就在节目录制当天，Hugging Face 报告了一起事件：有人使用 AI 智能体在多个节点上猛烈攻击系统试图突破 <button class="pd-ts" data-t="11:02" data-who="Sriram Krishnan" data-en="So I kind of believe that they bring a very, very different, positive angle to security. The moment we are in, which I think is not great, is I think there was an incident with Hugging Face that got reported on earlier today, which I think was an active tweet." aria-label="回原文"></button>。他主张，反击这种威胁的最好办法，就是确保美国的防御者能够使用最好的模型来提升软件安全。
 
 > 【背景】在讨论模型安全与攻击时，通常涉及模型生成的「漏洞利用」——即针对操作系统或固件最新漏洞编写的攻击代码。这是网络战中极具破坏力的武器。
 
 顺着安全问题，话题来到了引发业界热议的“蒸馏”（Distillation，即用大模型生成的输出来训练另一个模型）争议上。
 
-Sriram 解释道，蒸馏从来都是模型训练的核心组成部分。毕竟，最初的 AI 模型就是通过爬取互联网上的内容（本质上是人类知识的结晶）来引导训练的 [12:09 Sriram Krishnan]。如今的互联网上充斥着大量 AI 生式的垃圾内容，这些内容不可避免地被纳入了新模型的训练集。
+Sriram 解释道，蒸馏从来都是模型训练的核心组成部分。毕竟，最初的 AI 模型就是通过爬取互联网上的内容（本质上是人类知识的结晶）来引导训练的 <button class="pd-ts" data-t="12:09" data-who="Sriram Krishnan" data-en="So it's kind of a complex topic because there's a few things in there. So first of all, every model we have today distilled off of all human knowledge, right? If you go back to the original GPT or the original..." aria-label="回原文"></button>。如今的互联网上充斥着大量 AI 生式的垃圾内容，这些内容不可避免地被纳入了新模型的训练集。
 
-但他指出了一个极其不对称且糟糕的现状：来自其他国家的模型（比如中国模型）可以肆无忌惮地基于美国模型进行蒸馏训练；而如果你是一家美国的开源权重模型公司，或者硅谷的新创公司，你是否能合法地蒸馏其他美国模型的输出，在法律界定上却充满困惑 [14:35 Sriram Krishnan]。他非常赞同 Sequoia（红杉资本）的 Dean Mayer 和 Strategy 的 Ben Thompson 提出的思路：政府必须想办法为蒸馏建立清晰的规则，确保美国的模型公司能在一个公平的环境里竞争。事实上，现在几乎每一个美国的开源模型，都在微调过程中把中国模型当作老师来用 [15:25 Sriram Krishnan]。
+但他指出了一个极其不对称且糟糕的现状：来自其他国家的模型（比如中国模型）可以肆无忌惮地基于美国模型进行蒸馏训练；而如果你是一家美国的开源权重模型公司，或者硅谷的新创公司，你是否能合法地蒸馏其他美国模型的输出，在法律界定上却充满困惑 <button class="pd-ts" data-t="14:35" data-who="Sriram Krishnan" data-en="He wrote this yesterday. I think the situation which is bad today is that some of these models from other countries can train off American models. Whereas if you are an American open weight model, it may be really confusing or challenging on whether you can distill off of other American models." aria-label="回原文"></button>。他非常赞同 Sequoia（红杉资本）的 Dean Mayer 和 Strategy 的 Ben Thompson 提出的思路：政府必须想办法为蒸馏建立清晰的规则，确保美国的模型公司能在一个公平的环境里竞争。事实上，现在几乎每一个美国的开源模型，都在微调过程中把中国模型当作老师来用 <button class="pd-ts" data-t="15:25" data-who="Sriram Krishnan" data-en="I think Ben Thompson of Strategy had a similar idea today, was to basically say, how do we find a way to make distillation acceptable in any number of ways, whether you are getting, you know, outputs of other models, or sometimes it's more subtle." aria-label="回原文"></button>。
 
 ## 政策的边界：对快速自我改进的应对
 
 既然开源带来了如此多复杂的连锁反应，政策制定者该如何看待潜在的颠覆性风险？主持人特别提到了“自动化的 AI 研究员”（即 AI 能自动化并加速 AI 自身的研究）这一备受争议的话题。
 
-Sriram 对这种纯理论的探讨持谨慎态度。他指出，学术界对于我们究竟处于指数曲线的哪个位置存在巨大分歧。有人相信几年内就会出现自动化的 AI 研究员，但也有观点认为，存在无法轻易突破的根本性瓶颈，因此进步曲线会平缓得多 [17:03 Sriram Krishnan]。
+Sriram 对这种纯理论的探讨持谨慎态度。他指出，学术界对于我们究竟处于指数曲线的哪个位置存在巨大分歧。有人相信几年内就会出现自动化的 AI 研究员，但也有观点认为，存在无法轻易突破的根本性瓶颈，因此进步曲线会平缓得多 <button class="pd-ts" data-t="17:03" data-who="Sriram Krishnan" data-en="Whether RSI is real or not, where you are on the exponent is a much debated topic. I've heard many, many schools of thought where they believe you're going to have automated AI researchers in a couple of years." aria-label="回原文"></button>。
 
-他主张务实的应对策略：政府不应过早陷入理论恐慌，而应将精力集中于解决具体的可信风险。例如在网络安全领域，当模型真的具备了为最新固件生成漏洞的能力时，政策应当鼓励用更多的 AI 去扫描代码库、加固防御 [18:26 Sriram Krishnan]。
+他主张务实的应对策略：政府不应过早陷入理论恐慌，而应将精力集中于解决具体的可信风险。例如在网络安全领域，当模型真的具备了为最新固件生成漏洞的能力时，政策应当鼓励用更多的 AI 去扫描代码库、加固防御 <button class="pd-ts" data-t="18:26" data-who="Sriram Krishnan" data-en="I think there are very credible threats on cyber, on biological advances, a couple of other topics. And I think... there are definitely efforts to try and tackle just those." aria-label="回原文"></button>。
 
-当被问及开放权重模型是否会打击前沿实验室的资本支出意愿时，Sriram 给出了极其坚定的商业乐观主义判断。他认为，只要你在提供有价值的开放权重模型，资本主义的力量自然会理顺整个供应链——无论是数据中心、芯片提供商，还是提供灭火系统的供应商，都会顺势为你服务 [19:19 Sriram Krishnan]。例如，银行因为合规需求无法使用前沿模型，就会转而支持能在内部运行的开源模型。而那些推理云（提供 AI 计算的云服务商）的强劲增长，已经证明了开源生态的繁荣。
+当被问及开放权重模型是否会打击前沿实验室的资本支出意愿时，Sriram 给出了极其坚定的商业乐观主义判断。他认为，只要你在提供有价值的开放权重模型，资本主义的力量自然会理顺整个供应链——无论是数据中心、芯片提供商，还是提供灭火系统的供应商，都会顺势为你服务 <button class="pd-ts" data-t="19:19" data-who="Sriram Krishnan" data-en="Well... I think at the end of the day, if you kind of bring it back to very business-first principles, if you're providing a product of value, capitalism will find a way to make the supply chain work for you." aria-label="回原文"></button>。例如，银行因为合规需求无法使用前沿模型，就会转而支持能在内部运行的开源模型。而那些推理云（提供 AI 计算的云服务商）的强劲增长，已经证明了开源生态的繁荣。
 
 ## 本集带走
 
@@ -167,6 +167,31 @@ Sriram 对这种纯理论的探讨持谨慎态度。他指出，学术界对于�
   }
   document.addEventListener('nav', move);
   move();
+})();
+</script>
+
+<script>
+(function(){
+  function bind(){
+    document.querySelectorAll('button.pd-ts').forEach(function(b){
+      if(b.dataset.bound) return;
+      b.dataset.bound='1';
+      b.addEventListener('click',function(){
+        var n=b.nextElementSibling;
+        if(n&&n.classList.contains('pd-orig')){ n.remove(); return; }
+        var d=document.createElement('div');
+        d.className='pd-orig';
+        var h=document.createElement('b');
+        h.textContent='英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'');
+        d.appendChild(h);
+        d.appendChild(document.createElement('br'));
+        d.appendChild(document.createTextNode(b.dataset.en||''));
+        b.after(d);
+      });
+    });
+  }
+  document.addEventListener('nav', bind);
+  bind();
 })();
 </script>
 
