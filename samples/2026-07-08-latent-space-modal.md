@@ -6,6 +6,7 @@ source_url: https://www.latent.space/p/modal2026
 duration: "57:42"
 type: episode
 cover: "#0e7490"
+image: "/covers/2026-07-08-latent-space-modal.jpg"
 description: Modal CTO 剖析从开发者体验转向智能体体验的推理云进化路径。
 host: "[[swyx]]"
 guests: ["[[Akshat Bubna]]"]

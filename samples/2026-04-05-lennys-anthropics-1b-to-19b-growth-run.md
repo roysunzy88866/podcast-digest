@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run
 duration: "112:46"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-04-05-lennys-anthropics-1b-to-19b-growth-run.jpg"
 description: 在增长快到「线性图都不酷了」的 Anthropic，增长团队用 AI 自动跑实验、让工程师当 mini-PM，还坚持把安全和品牌置于短期指标之上。
 host: "[[Lenny]]"
 cohosts: ["[[Amol Avasare]]"]

@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/what-the-best-gtm-teams-do-differ
 duration: "85:38"
 type: episode
 cover: "#6366f1"
+image: "/covers/2025-11-30-lennys-what-the-best-gtm-teams-do-differently.jpg"
 description: 前 Stripe、现 Vercel 的 COO 分享如何用 AI 智能体重构销售流程，并将 GTM 视为产品来打造卓越体验。
 host: "[[Jeanne DeWitt Grosser]]"
 cohosts: ["[[Lenny]]"]

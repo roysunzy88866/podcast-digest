@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-clai
 duration: "106:33"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo.jpg"
 description: 从最早期把日历删光的怀疑者，到给九个智能体各配角色的重度玩家，Claire Vo 完整复盘 OpenClaw 的安装、避坑与日常用法。
 host: "[[Lenny]]"
 cohosts: ["[[Claire Vo]]"]

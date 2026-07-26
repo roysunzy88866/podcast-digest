@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-mo
 duration: "87:20"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-05-03-lennys-why-cultivating-agency-matters-more.jpg"
 description: 前 GitHub 设计主管、现 Notion 产品负责人 Max Schoening 谈 AI 如何重塑产品构建、角色边界与可塑软件。
 host: "[[Max Schoening]]"
 cohosts: ["[[Lenny]]"]

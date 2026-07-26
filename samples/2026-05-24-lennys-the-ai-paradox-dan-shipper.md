@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper
 duration: "94:04"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-05-24-lennys-the-ai-paradox-dan-shipper.jpg"
 description: Every CEO 预测工作将分化为超级智能体与本机 AI 两条主线，SaaS 不会消亡，PM 与设计师将迎来黄金时代。
 host: "[[Lenny]]"
 cohosts: ["[[Dan Shipper]]"]

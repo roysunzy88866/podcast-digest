@@ -6,6 +6,7 @@ source_url: https://www.latent.space/p/satya-2026
 duration: "38:50"
 type: episode
 cover: "#0e7490"
+image: "/covers/2026-06-03-latent-space-satya-2026.jpg"
 description: "微软 CEO 畅谈 AI 时代的平台生态战略:从模型血统到智能体重塑企业价值。"
 host: "[[Saragawa]]"
 cohosts: ["[[Satya Nadella]]"]

@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/we-replaced-our-sales-team-with-2
 duration: "102:07"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag.jpg"
 description: SaaStr 创始人用 20 个智能体替代约 10 人销售团队，详解 AI 落地 GTM 的实战经验。
 host: "[[Lenny]]"
 cohosts: ["[[Jason Lemkin]]"]

@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/how-to-build-a-company-that-withs
 duration: "99:20"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-05-10-lennys-how-to-build-a-company-that-withstands.jpg"
 description: 创始人如何用法律结构和使命驱动，保护公司免受短期利润的侵蚀。
 host: "[[Eric Ries]]"
 cohosts: ["[[Lenny]]"]

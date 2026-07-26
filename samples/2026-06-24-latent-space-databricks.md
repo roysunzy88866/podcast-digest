@@ -6,6 +6,7 @@ source_url: https://www.latent.space/p/databricks
 duration: "68:43"
 type: episode
 cover: "#0e7490"
+image: "/covers/2026-06-24-latent-space-databricks.jpg"
 description: 两位创始人详解智能体平台 Omnigen、打通交易与分析的 LTAP，以及从零重写的数据库引擎。
 guests: ["[[Matei Zaharia]]", "[[Reynold Xin]]"]
 companies: ["[[Databricks]]", "[[Snowflake]]", "[[MosaicML]]", "[[Neon]]"]

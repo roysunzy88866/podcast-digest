@@ -6,6 +6,7 @@ source_url: https://www.news.aakashg.com/p/company-os-jz
 duration: "67:49"
 type: episode
 cover: "#64748b"
+image: "/covers/2026-06-24-pg-company-os-jz.jpg"
 description: Laurel CPO 分享如何用 AI 技能库构建公司操作系统，让非工程师也能端到端交付产品功能。
 host: "[[Jiaona Zhang]]"
 cohosts: ["[[Akash]]"]

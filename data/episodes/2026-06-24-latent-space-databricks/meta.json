@@ -35,5 +35,13 @@
   },
   "guest_titles_note": "只记**有出处的机构归属**(出处=集标题『... — Matei Zaharia and Reynold Xin, Databricks』)。**不写具体头衔**(CTO/Chief Architect 等):集标题、API 描述(『the Databricks technical leaders』)、转写稿均未给出具体头衔 → 写了就是编造。对照集 1:其标题原文即『Akshat Bubna, Modal CTO』,故 guest_titles 写『Modal CTO』有出处。",
   "transcript_data_quirk": "3 个词(#91『A』/#1135『I』/#1474『Yeah.』)的 words[].speaker 为 undefined(段首词丢标签)。段级说话人取众数仍可正确解析,不影响闸门;记录以备日后排查。",
-  "archive_location": "local"
+  "archive_location": "local",
+  "cover_official_url": "",
+  "cover_image": {
+    "file": "cover.svg",
+    "source": "fallback",
+    "style": "E_程序化",
+    "category": "智能体",
+    "generated_at": "2026-07-25T14:43:39.752Z"
+  }
 }

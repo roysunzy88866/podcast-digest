@@ -6,6 +6,7 @@ source_url: https://www.latent.space/p/daytona
 duration: "70:18"
 type: episode
 cover: "#0e7490"
+image: "/covers/2026-05-21-latent-space-daytona.jpg"
 description: "Daytona 为智能体打造毫秒级启动的裸金属沙箱,迎击 RL 训练与后台智能体的算力新挑战。"
 guests: ["[[Ivan Burazin]]"]
 companies: ["[[Daytona]]"]

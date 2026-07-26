@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/surge-ai-edwin-chen
 duration: "70:27"
 type: episode
 cover: "#6366f1"
+image: "/covers/2025-12-07-lennys-surge-ai-edwin-chen.jpg"
 description: "自力更生年入十亿的数据公司创始人,谈高质量数据与 AI 走偏的方向。"
 host: "[[Lenny]]"
 cohosts: ["[[Edwin Chen]]"]

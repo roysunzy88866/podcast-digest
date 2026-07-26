@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/a-guide-to-difficult-conversation
 duration: "105:15"
 type: episode
 cover: "#6366f1"
+image: "/covers/2025-11-23-lennys-a-guide-to-difficult-conversations.jpg"
 description: 高管教练拆解从“大包大揽”到“赋能团队”的领导力转变：辅导、优势设计与沟通框架。
 host: "[[Lenny]]"
 cohosts: ["[[Rachel Lockett]]"]

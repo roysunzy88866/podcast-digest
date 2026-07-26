@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for
 duration: "68:26"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for.jpg"
 description: Instagram 负责人 Adam Mosseri 聊 AI 如何重塑团队、品味与推荐算法。
 host: "[[Lenny]]"
 cohosts: ["[[Adam Mosseri]]"]

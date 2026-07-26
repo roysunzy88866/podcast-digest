@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the
 duration: "82:37"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-04-12-lennys-hard-truths-about-building-in-the-ai-era.jpg"
 description: 从 PayPal 黑帮到顶级 VC，Keith Rabois 讲透了如何识别顶尖人才、如何在 AI 时代重构团队。
 host: "[[Keith Rabois]]"
 cohosts: ["[[Lenny]]"]
