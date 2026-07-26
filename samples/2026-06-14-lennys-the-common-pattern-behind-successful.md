@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/the-common-pattern-behind-success
 duration: "99:20"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-06-14-lennys-the-common-pattern-behind-successful.jpg"
 description: "Zynga 创始人分享消费产品的核心方法论「Proven, Better, New」：大胆借鉴被验证的模式，克制野心从小处起步，并果断放弃平庸的 B+ 想法。"
 host: "[[Mark Pincus]]"
 cohosts: ["[[Lenny]]"]

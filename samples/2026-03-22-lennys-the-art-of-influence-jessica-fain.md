@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain
 duration: "93:30"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-03-22-lennys-the-art-of-influence-jessica-fain.jpg"
 description: 产品负责人掌握影响力的核心，是理解高管的处境与目标，用同理心引导他们为好想法买账。
 host: "[[Jessica Fain]]"
 cohosts: ["[[Lenny]]"]

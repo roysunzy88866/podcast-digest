@@ -5,6 +5,7 @@ date: 2026-07-14
 source_url: https://singjupost.com/openclaw-creator-why-80-of-apps-will-disappear-transcript/
 type: episode
 cover: "#64748b"
+image: "/covers/2026-singju-openclaw-80apps.jpg"
 description: "OpenClaw 作者谈运行在本地的个人 AI 智能体如何吞掉多数 App、用 CLI 取代 MCP,以及他作为独立开发者的构建哲学。"
 guests: ["[[Raphael Schaad]]", "[[Peter Steinberger]]"]
 companies: ["[[Codex]]", "[[Claude Code]]"]

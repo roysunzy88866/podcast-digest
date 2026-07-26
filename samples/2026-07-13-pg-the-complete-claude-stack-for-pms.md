@@ -6,6 +6,7 @@ source_url: https://www.news.aakashg.com/p/the-complete-claude-stack-for-pms
 duration: "93:20"
 type: episode
 cover: "#64748b"
+image: "/covers/2026-07-13-pg-the-complete-claude-stack-for-pms.jpg"
 description: "从模型选型到构建个人幕僚长智能体,用 Claude 全栈打造 PM 生产力引擎。"
 host: "[[Aakash Gupta]]"
 cohosts: ["[[Jyothi Nookula]]"]

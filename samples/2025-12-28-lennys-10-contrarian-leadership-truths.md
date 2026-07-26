@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/10-contrarian-leadership-truths
 duration: "96:13"
 type: episode
 cover: "#6366f1"
+image: "/covers/2025-12-28-lennys-10-contrarian-leadership-truths.jpg"
 description: "Rippling CPO 谈如何用极度紧绷的状态对抗组织熵增,以及何时该放弃并退出创业。"
 host: "[[Matt MacInnis]]"
 cohosts: ["[[Lenny]]", "[[Amar]]"]

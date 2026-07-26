@@ -13,6 +13,7 @@
 import { writeFileSync, mkdirSync, existsSync, readFileSync } from "node:fs";
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
+import { officialImageFromHtml } from "./cover.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const [pageUrl, epId] = process.argv.slice(2);
@@ -66,6 +67,9 @@ const withWords = transcript.filter((s) => Array.isArray(s.words) && s.words.len
 if (withWords !== transcript.length)
   console.warn(`⚠️ ${transcript.length - withWords}/${transcript.length} 段缺逐词数据(闸门的说话人/时间戳精度会降级)`);
 
+// 官方单集图(拍板 #15):集页已在手,顺手抠出来写进 meta,cover.mjs 后面直接用(抠法见 cover.mjs)。
+const coverUrl = officialImageFromHtml(html);
+
 // mp3 直链(C2 不下载 21MB 音频,只记直链;音频是 C4 的活)
 const mp3 = (txt.match(new RegExp(`https://api\\.substack\\.com/api/v1/audio/upload/[0-9a-f-]+/src`)) || [])[0] || null;
 
@@ -95,6 +99,7 @@ const meta = {
   duration_sec: duration,
   transcript_source: "Substack 官方 aligned transcription.json(说话人标注+逐词时间戳);由 scripts/fetch-source.mjs 取",
   transcript_segments: transcript.length,
+  ...(coverUrl ? { cover_official_url: coverUrl } : {}),
 };
 writeFileSync(metaPath, JSON.stringify(meta, null, 2));
 

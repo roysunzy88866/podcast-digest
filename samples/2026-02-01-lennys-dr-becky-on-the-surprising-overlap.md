@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/dr-becky-on-the-surprising-overla
 duration: "91:52"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-02-01-lennys-dr-becky-on-the-surprising-overlap.jpg"
 description: 临床心理学家 Dr. Becky 将育儿原则迁移到职场，教你如何修复关系、设定界限并建立长期韧性。
 host: "[[Lenny]]"
 cohosts: ["[[Dr. Becky Kennedy]]"]

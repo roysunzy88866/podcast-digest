@@ -6,6 +6,7 @@ source_url: undefined
 duration: "66:31"
 type: episode
 cover: "#64748b"
+image: "/covers/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c.jpg"
 description: "本期探讨 AI 经济风险:资本支出悬空、SPV 次级债隐患与 SpaceX 高估值回归。"
 host: "[[Ranjan Roy]]"
 cohosts: ["[[Alex]]"]

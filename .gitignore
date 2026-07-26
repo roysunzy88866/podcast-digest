@@ -17,6 +17,9 @@ data/episodes/*/.entities-raw.bad.txt
 # C4 edge-tts 本地 venv(免 key,不进仓库)
 .venv/
 
+# 每集配图 data/episodes/*/cover.jpg **故意不在这里** —— 它入库。
+# 理由:图是外部资源的快照(对方换图/删图我们就没了),不像音频那样能随时再生;单张 ~30KB,千集约 30MB。
+
 # C4 音频产物(可再生:npm run tts 从 digest 合成 + build:feed)。大二进制不入库。
 # 决策待用户结项拍板:commit 音频(clone 即用,repo 变大)vs 再生(clone 后跑 tts)。
 data/episodes/*/audio.mp3

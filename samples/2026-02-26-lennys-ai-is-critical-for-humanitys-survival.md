@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/ai-is-critical-for-humanitys-surv
 duration: "87:20"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-02-26-lennys-ai-is-critical-for-humanitys-survival.jpg"
 description: "Cisco 产品一号位亲述:大企业如何从顶层决心转型 AI、放下自我,以及平台与时机为何决定个人成败。"
 host: "[[Jeetu Patel]]"
 cohosts: ["[[Lenny]]"]

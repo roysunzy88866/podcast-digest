@@ -192,6 +192,9 @@ function renderFrontmatter(meta, digest, entities) {
   if (Number.isFinite(meta.duration_sec)) lines.push(`duration: "${mmss(meta.duration_sec)}"`);
   // C10:type 供首页 Bases 视图筛选(只收集页);cover 供卡片色条;description 供卡片简介
   lines.push("type: episode", `cover: "${coverColor(meta.podcast)}"`);
+  // 每集配图:cover.mjs 取下来的官方图,部署时拷进 public/covers/<id>.jpg(见 deploy-site.sh)。
+  // 与上面的 cover 色值分开两个字段 —— cover 是卡片色条,image 是真图片,别混用。
+  if (meta.cover_image?.file) lines.push(`image: "/covers/${meta.id}.jpg"`);
   if (digest.tldr) lines.push(`description: ${yamlScalar(digest.tldr)}`);
   if (meta.host) lines.push(`host: "[[${meta.host}]]"`); // 无 host → 整行不写(不打印 null)
   if (entities) {

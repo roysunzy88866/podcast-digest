@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-
 duration: "95:08"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-04-19-lennys-why-half-of-product-managers-are-in-trou.jpg"
 description: 前 Meta、Google 高管 Nikhyl Singhal 断言：PM 行业正在大洗牌，未来两年唯有成为拥抱 AI 的「构建者」才能生存。
 host: "[[Lenny]]"
 cohosts: ["[[Nikhyl Singhal]]"]

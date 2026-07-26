@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/the-godmother-of-ai
 duration: "79:30"
 type: episode
 cover: "#6366f1"
+image: "/covers/2025-11-16-lennys-the-godmother-of-ai.jpg"
 description: "从 ImageNet 催生深度学习,到 World Labs 用空间智能解锁 3D 世界模型。"
 host: "[[Lenny]]"
 cohosts: ["[[Dr. Fei-Fei Li]]"]

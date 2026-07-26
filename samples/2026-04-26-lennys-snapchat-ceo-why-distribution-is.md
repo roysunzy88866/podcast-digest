@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is
 duration: "70:22"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-04-26-lennys-snapchat-ceo-why-distribution-is.jpg"
 description: "Snap CEO 谈软件不是护城河、硬件为何重要,以及如何用扁平设计团队持续创新。"
 host: "[[Lenny]]"
 cohosts: ["[[Evan Spiegel]]"]

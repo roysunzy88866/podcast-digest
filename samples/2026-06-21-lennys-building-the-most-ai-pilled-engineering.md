@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engin
 duration: "98:42"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-06-21-lennys-building-the-most-ai-pilled-engineering.jpg"
 description: "Fiona Fung分享在代码量暴涨8倍后,如何用异步智能体、验证机制与新管理者制度重塑工程团队。"
 host: "[[Lenny]]"
 cohosts: ["[[Fiona Fung]]"]

@@ -6,6 +6,7 @@ source_url: undefined
 duration: "22:29"
 type: episode
 cover: "#64748b"
+image: "/covers/2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge.jpg"
 description: 白宫前 AI 政策顾问解读 Kimi K3 等开源模型带来的定价、安全与政策冲击。
 host: "[[Theo Jaffe]]"
 cohosts: ["[[Sriram Krishnan]]", "[[Sofia Puccini]]"]

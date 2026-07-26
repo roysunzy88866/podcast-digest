@@ -49,6 +49,14 @@ for f in ../data/episodes/*/audio.mp3; do
   cp "$f" "public/audio/$id.mp3"
 done
 ls -la public/audio
+# 3.2) 每集配图进 public/covers(随 Pages 静态;集页 frontmatter 的 image 指向 /covers/<id>.jpg)
+mkdir -p public/covers
+for f in ../data/episodes/*/cover.jpg; do
+  [ -e "$f" ] || continue   # 空 glob 保护
+  id=$(basename "$(dirname "$f")")
+  cp "$f" "public/covers/$id.jpg"
+done
+echo "public/covers jpg=$(ls public/covers/*.jpg 2>/dev/null | wc -l | tr -d ' ')"
 # 3.5) 私有播客 feed 随站点部署(drift #29:此步原缺 → feed.xml 不进 public/、
 #      Quartz 只出自家 index.xml,线上 /feed.xml 源头 404、订阅端只剩 CDN 幽灵)。
 #      build-feed ROOT 脚本锚定仓库根,从 site/ 跑仍正确读 samples/ + data/episodes。

@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/why-your-product-stopped-growing
 duration: "106:00"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-01-25-lennys-why-your-product-stopped-growing.jpg"
 description: 从流失率、定价、净收入留存到渠道饱和度，按序排查增长瓶颈。
 host: "[[Lenny]]"
 cohosts: ["[[Jason Cohen]]"]

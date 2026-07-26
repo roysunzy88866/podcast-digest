@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/the-non-technical-pms-guide-to-bu
 duration: "75:08"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-01-18-lennys-the-non-technical-pms-guide-to-building.jpg"
 description: 完全不懂代码的 PM 分享如何用 AI 搭建赚钱产品并保持代码质量。
 host: "[[Lenny]]"
 cohosts: ["[[Zevi Arnovitz]]"]

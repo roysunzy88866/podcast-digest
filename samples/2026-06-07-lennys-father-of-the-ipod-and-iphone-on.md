@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on
 duration: "95:05"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-06-07-lennys-father-of-the-ipod-and-iphone-on.jpg"
 description: iPod与Nest之父Tony Fadell谈伟大产品背后的直觉、取舍与反共识勇气。
 host: "[[Tony Fadell]]"
 cohosts: ["[[Lenny]]"]

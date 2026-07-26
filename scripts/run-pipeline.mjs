@@ -61,6 +61,8 @@ export function sourceMetaFields(item, source) {
     title_en: item.title,
     podcast: source.name ?? source.key,
     date: String(item.pubDateISO || "").slice(0, 10),
+    // 官方单集图直链(可能为空;cover.mjs 负责取图与缩放)
+    ...(item.imageUrl ? { cover_official_url: item.imageUrl } : {}),
   };
 }
 
@@ -87,6 +89,9 @@ export function parseFeed(xml) {
     const hasAudio = /<enclosure[^>]*type=["']audio/i.test(body);
     // C9 ASR 路线要音频直链
     const enclosureUrl = xmlUnescape(pick(/<enclosure[^>]*url=["']([^"']+)["']/));
+    // 单集封面(拍板 #15):8 源中只有 Lenny's / Training Data / YC 三源真有一集一张;
+    // 其余源要么没有、要么整季共用同一张节目封面。这里只负责抓,取不到就没有。
+    const imageUrl = xmlUnescape(pick(/<itunes:image[^>]*href=["']([^"']+)["']/));
     const d = pubDate ? new Date(pubDate) : null;
     items.push({
       title,
@@ -94,6 +99,7 @@ export function parseFeed(xml) {
       pubDateISO: d && !isNaN(+d) ? d.toISOString() : "",
       hasAudio,
       enclosureUrl,
+      imageUrl,
       durationSec: parseItunesDuration(pick(/<itunes:duration>([\s\S]*?)<\/itunes:duration>/)),
     });
   }
@@ -337,6 +343,9 @@ function ensureAllAudio() {
 function rebuildAll() {
   console.log("\n▶ 全库重建");
   ensureAllAudio();
+  // 每集配图:把集页 og:image 取下来缩存。幂等(图在不重做)、增量(只补缺的)、零 API 调用。
+  // 取不到图不该拖垮整条流水线 → runOk 不抛。
+  runOk("node", ["scripts/cover.mjs"]);
   run("node", ["scripts/build-entities.mjs"]);
   run("node", ["scripts/build-pages.mjs"]);
   run("node", ["scripts/build-list.mjs"]);

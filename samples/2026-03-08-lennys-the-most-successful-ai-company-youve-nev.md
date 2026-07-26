@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/the-most-successful-ai-company-yo
 duration: "84:21"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-03-08-lennys-the-most-successful-ai-company-youve-nev.jpg"
 description: Applied Intuition CEO Qasar Younis 谈物理 AI、对抗焦虑与务实创业。
 host: "[[Lenny]]"
 cohosts: ["[[Qasar Younis]]"]

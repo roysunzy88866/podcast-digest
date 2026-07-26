@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/slack-founder-stewart-butterfield
 duration: "90:31"
 type: episode
 cover: "#6366f1"
+image: "/covers/2025-11-20-lennys-slack-founder-stewart-butterfield.jpg"
 description: Slack 创始人谈效用曲线、匠心、别让用户思考、伪工作与创造市场的哲学。
 host: "[[Stewart Butterfield]]"
 cohosts: ["[[Lenny]]"]

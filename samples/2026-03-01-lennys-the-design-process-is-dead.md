@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/the-design-process-is-dead
 duration: "77:22"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-03-01-lennys-the-design-process-is-dead.jpg"
 description: "Claude设计负责人Jenny Wen分享AI时代设计流程剧变:旧流程已死,设计师从画图者转向愿景领航员与代码实现者。"
 host: "[[Jenny Wen]]"
 cohosts: ["[[Lenny]]"]

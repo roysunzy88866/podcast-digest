@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-ab
 duration: "96:26"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-07-12-lennys-how-tech-workers-actually-feel-about.jpg"
 description: 6000人调查揭示科技圈因AI一分为二，倦怠激增、乐观骤降，但经理和小公司是破局关键。
 host: "[[Noam Segal]]"
 cohosts: ["[[Lenny]]"]

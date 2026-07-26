@@ -6,6 +6,7 @@ source_url: https://www.news.aakashg.com/p/pm-guide-ai-design
 duration: "74:34"
 type: episode
 cover: "#64748b"
+image: "/covers/2026-07-09-pg-pm-guide-ai-design.jpg"
 description: 设计师 Meng To 展示如何用 Codex 搭建插件与技能生态，转型为掌控智能体舰队的超级个体。
 host: "[[Meng To]]"
 cohosts: ["[[Akash]]"]

@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/no-figma-no-jira-no-docs-how-gust
 duration: "51:49"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto.jpg"
 description: 大公司 CTO 用无文档、无会议、无 PM 的极简流程带 5 人团队开发新 AI 产品。
 host: "[[Claire Vo]]"
 cohosts: ["[[Eddie Kim]]"]

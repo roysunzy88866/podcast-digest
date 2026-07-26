@@ -6,6 +6,7 @@ source_url: https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future
 duration: "72:05"
 type: episode
 cover: "#6366f1"
+image: "/covers/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future.jpg"
 description: "Elizabeth Stone 分享 AI 如何重塑 Netflix 的团队角色、招聘标准与企业文化——专长不会消失,系统思维与对模糊性的包容成为刚需。"
 host: "[[Lenny]]"
 cohosts: ["[[Elizabeth Stone]]"]

@@ -6,6 +6,7 @@ source_url: https://www.latent.space/p/gray-swan
 duration: "66:13"
 type: episode
 cover: "#0e7490"
+image: "/covers/2026-06-22-latent-space-gray-swan.jpg"
 description: "CMU学者创办Gray Swan,通过社区与自动化红队测试找出AI漏洞,并用专用模型Signal拦截提示注入,守护企业AI部署。"
 guests: ["[[Zico Kolter]]", "[[Matt Fredrikson]]"]
 companies: ["[[Gray Swan]]"]
