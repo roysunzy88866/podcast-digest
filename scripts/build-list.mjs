@@ -293,7 +293,7 @@ const scriptBlock = () => `<script>
   // 刻意不走它的 showSearch 入口:那个入口会把焦点抢到 Quartz 自己的输入框,用户得换框继续打字。
   function wireSearch(){
     var box=document.querySelector('.pd .mhq'); if(!box||box.__wired) return; box.__wired=1;
-    box.addEventListener('input', function(){
+    function forward(){
       var bar=document.querySelector('.search .search-bar');
       var panel=document.querySelector('.search .search-container');
       if(!bar||!panel) return;
@@ -302,7 +302,13 @@ const scriptBlock = () => `<script>
       panel.classList.add('active');
       bar.value=q;
       bar.dispatchEvent(new Event('input'));
-    });
+    }
+    box.addEventListener('input', forward);
+    // 也挂 focus/click:Quartz 的浮层可以「点空白处关掉」,关掉后我的框里还留着查询词。
+    // 只挂 input 的话,用户再点输入框不会把结果调回来 —— 看着自己的词却没有结果、
+    // 又没法靠继续打字恢复(GLM 20260726-025[4] 逼出来的死角,实测证实)。
+    box.addEventListener('focus', forward);
+    box.addEventListener('click', forward);
   }
   function init(){
     adopt();

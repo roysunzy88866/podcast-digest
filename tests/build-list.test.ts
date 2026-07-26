@@ -364,3 +364,17 @@ describe("C13a · 打字时看得见自己打的字", () => {
     expect(scss).toMatch(/\.search-container \{ backdrop-filter: none/);
   });
 });
+
+describe("C13a · 浮层被点关后,再点输入框要能把结果调回来", () => {
+  const md = renderList([ep()], opts);
+
+  it("★★ input / focus / click 三个入口都转发(只挂 input 会留下「有词无结果」的死角)", () => {
+    for (const evt of ["input", "focus", "click"]) {
+      expect(md).toContain(`box.addEventListener('${evt}', forward)`);
+    }
+  });
+
+  it("★ 转发逻辑只有一份(抽成 forward,不是三处复制)", () => {
+    expect((md.match(/function forward\(\)/g) || []).length).toBe(1);
+  });
+});
