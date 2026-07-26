@@ -23,21 +23,28 @@ if (!episodes.length) fail("data/episodes 无集 → 列表页演示不出来(�
 const md = renderList(episodes);
 const cats = taxonomyCategories();
 
-// ① base 代码块 + 三视图 + 全部日期倒序
-if (md.includes("```base") && md.includes('note.type == "episode"')) pass("首页含 base 代码块,只筛 type=episode");
-else fail("首页缺 base 代码块或 type 筛选");
-for (const v of ["name: 最新", "name: 全部", "name: 按主题"]) {
-  if (md.includes(v)) pass(`视图页签:${v.replace("name: ", "")}`);
-  else fail(`缺视图:${v}`);
-}
-const descSorts = md.match(/property: note\.date\n\s+direction: DESC/g)?.length ?? 0;
-if (descSorts === 3) pass("三视图全部按日期倒序");
-else fail(`日期倒序 sort 只有 ${descSorts}/3 处`);
+// ① 卡片流:Bases 痕迹清零 + 每集一张卡 + 日期分组倒序
+if (!md.includes("```base") && !md.includes("bases-")) pass("Bases 痕迹清零(无 base 代码块、无 .bases-* 类名)");
+else fail("首页仍有 Bases 残留(base 代码块或 .bases-* 类名)");
+
+const cardCount = (md.match(/class="card"/g) || []).length;
+if (cardCount === episodes.length) pass(`每集一张卡(${cardCount}/${episodes.length})`);
+else fail(`卡片数 ${cardCount} ≠ 集数 ${episodes.length}(漏渲染或重复渲染)`);
+
+const dates = [...md.matchAll(/<div class="dateh">([^<]+)<\/div>/g)].map((m) => m[1]);
+const desc = [...dates].sort().reverse();
+if (dates.length && dates.join() === desc.join()) pass(`日期分组倒序(${dates.length} 组,新的在前)`);
+else fail(`日期分组未倒序:${dates.join(" / ")}`);
 
 // ② 8 大类速览行
-const missCat = cats.filter((c) => !md.includes(`#${c}</a>`));
-if (cats.length === 8 && !missCat.length) pass("8 大类速览行齐全(词表驱动)");
-else fail(`大类速览缺:${missCat.join("、") || `词表数=${cats.length}≠8`}`);
+// C13a [standard-change: 用户 2026-07-26 明文授权]:主题入口从「#大类速览行」搬到
+// 左栏(.cl)+ 手机横滑条(.mhc)—— 🔒 拍板 #13 三栏 / #9 主题入口不降级。
+const missCat = cats.filter((c) => !md.includes(`<span>${c}</span>`));
+if (cats.length === 8 && !missCat.length) pass("8 大类主题入口齐全(左栏,词表驱动)");
+else fail(`左栏主题缺:${missCat.join("、") || `词表数=${cats.length}≠8`}`);
+const mhc = md.match(/<div class="mhc">[\s\S]*?<\/div>/)?.[0] ?? "";
+if ((mhc.match(/<i>/g) || []).length === cats.length + 1) pass("手机横滑主题条齐全(全部 + 8 大类)");
+else fail("手机横滑主题条缺项(🔒 #9 主题入口不许降级)");
 
 // ③ 词表闸:集页 frontmatter tags/category ⊆ 词表(细标签不许回流 frontmatter)
 const vocabSet = new Set(cats);

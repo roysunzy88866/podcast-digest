@@ -1,12 +1,26 @@
 @use "./variables.scss" as *;
 
 /* ══════════════════════════════════════════════════════════════════════
-   C11 视觉改版 · 方向 A「少数派简约风」(需求共创/视觉调研-播客UI.md §七 拍板)
-   - 标题字体:阿里巴巴普惠体(自托管子集,/static/fonts/)
-   - 主色:暖红(经 quartz.config.yaml 的 secondary 注入,此处只做 wash/点缀)
-   - 卡片:小圆角 + 极浅阴影 + 左侧大类色带(data-cat 客户端打标,见 build-list.mjs)
-   - 亮暗双套:亮为默认(Head 注入 seed),暗色 token 走 :root[saved-theme="dark"]
-   本文件是唯一视觉定制入口(项目铁律:Quartz 定制收进独立组件,不散改 fork)。
+   C13a 骨架换血 · 首页照原型设计稿移植(2026-07-26 用户 🔒 拍板)
+   设计稿 = `需求共创/原型/style.css`(577 行)+ `需求共创/原型/index.html`。
+   本文件是这套设计稿在真站里的落地,数值一律照抄设计稿,不另发明。
+
+   照抄的依据(设计稿拍板表 `需求共创/UI交互重做-2026-07-25.md`):
+     🔒 #1  站名 = 跨国深谈           🔒 #9  搜索与主题入口不降级
+     🔒 #2  视觉延用方向A,亮暗双模式默认浅色,本轮只重做结构与交互
+     🔒 #11 按日期分组                🔒 #13 保留三栏(左导航/中/右自动区)
+     🔒 #14 图谱降级(首页不给图谱入口)  🔒 #20 卡片配图按长宽比分流裁法
+     第八批 #1 顶栏不吸顶
+
+   两处「设计稿没画、我据 🔒 反推」的地方(需用户眼验):
+     ① 暗色:设计稿只画了浅色一套(--B0..B8 是实抓少数派的浅色灰阶)。
+        🔒 #2 要求亮暗双模式必须留 → 暗色灰阶由本文件按同样的层级关系反推。
+     ② Quartz 自带侧栏:搜索/深浅色留着(🔒 #9/#2),图谱藏掉(🔒 #14),
+        站名藏掉(顶栏已有品牌名)。做法是把 Quartz 的 .left.sidebar 移进顶栏右侧。
+
+   作用域:所有移植规则都锁在 `body[data-slug="index"] .pd` 下 ——
+   单集页/大类页/人物页归 C13b–d,本片不碰,别的页面样式一行不受影响。
+   ⚠️ 原型用 `.left`/`.right` 当栏名,与 Quartz 侧栏类名撞车 → 一律改前缀 `.pd-`。
    ═══════════════════════════════════════════════════════════════════════ */
 
 /* ── 普惠体:自托管子集(GB2312 常用字,~1.2MB,苹方兜底异步换) ── */
@@ -18,17 +32,25 @@
   src: url("/static/fonts/AlibabaPuHuiTi-subset.woff2") format("woff2");
 }
 
+/* ══ 设计稿 token(浅色 = 实抓 sspai.com,照抄;深色 = 按同层级关系反推)══ */
 :root {
   --puhui: "AlibabaPuHuiTi", var(--headerFont), "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+  --pd-font: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", Arial, sans-serif;
 
-  /* 少数派暖调中性 —— 卡片面(白)独立于页面底(米白) */
-  --pd-surface: #ffffff;
-  --pd-shadow: 0 1px 2px rgba(60, 48, 40, 0.04), 0 4px 16px rgba(60, 48, 40, 0.05);
-  --pd-shadow-hover: 0 2px 6px rgba(60, 48, 40, 0.07), 0 10px 28px rgba(60, 48, 40, 0.09);
-  /* 主色 wash 由 secondary 的 HSL(theme.ts 已算出 --accent-h/s/l)派生 */
-  --pd-accent-wash: hsl(var(--accent-h) var(--accent-s) var(--accent-l) / 0.08);
+  --B8: #000;
+  --B7: #48494c;
+  --B6: #6f7174;
+  --B5: #acaeb3;
+  --B4: #cdcdce;
+  --B3: #e4e4e5;
+  --B2: #f0f0f3;
+  --B1: #f7f7f9;
+  --B0: #fff;
+  --pd-accent: #b8443c;
+  --pd-accent-soft: #fdf5f4;
 
-  /* 8 大类色带(亮) */
+  /* 8 大类色(浅)—— chip 与无封面兜底块按 data-cat 取用 */
   --c-智能体: #3e938a;
   --c-AI安全: #c1584b;
   --c-AI编程: #5566b8;
@@ -39,11 +61,20 @@
   --c-职业与个人成长: #6b9a54;
 }
 
+/* 反推的暗色一套:灰阶整体翻转(B8 最强 ↔ B0 最弱),accent 提亮以在深底上够醒 */
 :root[saved-theme="dark"] {
-  --pd-surface: #232120;
-  --pd-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), 0 4px 16px rgba(0, 0, 0, 0.28);
-  --pd-shadow-hover: 0 2px 6px rgba(0, 0, 0, 0.32), 0 10px 28px rgba(0, 0, 0, 0.4);
-  --pd-accent-wash: hsl(var(--accent-h) var(--accent-s) var(--accent-l) / 0.14);
+  --B8: #f2f0ef;
+  --B7: #cfcdcb;
+  --B6: #a3a1a0;
+  --B5: #77757a;
+  --B4: #4e4c4b;
+  --B3: #3a3837;
+  --B2: #2c2a29;
+  --B1: #262423;
+  --B0: #1c1b1a;
+  --pd-accent: #e0776a;
+  --pd-accent-soft: #2e2422;
+
   --c-智能体: #52b3a8;
   --c-AI安全: #e0776a;
   --c-AI编程: #7b8be0;
@@ -54,210 +85,373 @@
   --c-职业与个人成长: #8cbd72;
 }
 
-/* ── 标题一律普惠体(全站生效:首页卡片 + 单集页正文标题)── */
-h1, h2, h3, h4,
-.bases-card-title,
-.bases-board-card-title,
-article h1, article h2, article h3 {
-  font-family: var(--puhui);
-  letter-spacing: 0.2px;
+/* ══════════ 首页:让 .pd 独占整个内容区 ══════════
+   Quartz 的 .left/.right sidebar 与三栏 shell 冲突。图谱整块藏掉(🔒 #14);
+   站名藏掉(顶栏已有);搜索/深浅色/阅读模式保留,移到顶栏右侧(🔒 #9/#2)。 */
+body[data-slug="index"] {
+  .right.sidebar { display: none; }
+  .left.sidebar {
+    position: absolute;
+    top: 0.5rem;
+    right: max(1.5rem, calc(50vw - 588px));
+    left: auto;
+    width: auto;
+    max-width: none;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.35rem;
+    padding: 0;
+    z-index: 40;
+    .page-title { display: none; }
+  }
+  .center,
+  .page > #quartz-body .center {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+  .page-header { display: none; } /* 首页不要框架标题与自动日期/阅读时长 */
 }
 
-/* ════════════ 首页 · 8 大类速览 chips ════════════ */
-.home-cats {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin: 0.4rem 0 1.4rem;
-}
-.home-cat {
-  font-size: 0.82rem;
-  padding: 0.28rem 0.8rem;
-  border-radius: 999px;
-  border: 1px solid var(--lightgray);
-  background: var(--pd-surface);
-  color: var(--darkgray);
-  text-decoration: none !important;
-  transition: border-color 0.14s ease, color 0.14s ease, background 0.14s ease;
-}
-.home-cat:hover {
-  border-color: var(--secondary);
-  color: var(--secondary);
-  background: var(--pd-accent-wash);
+/* ══════════ 以下全部照抄设计稿 style.css,只加 .pd 作用域与 pd- 前缀 ══════════ */
+.pd {
+  font-family: var(--pd-font);
+  font-size: 14px;
+  line-height: 1.75;
+  color: var(--B8);
+
+  * { box-sizing: border-box; }
+  /* Quartz 给 a.internal 加了淡红底(--highlight),卡片里不要 —— 设计稿是纯文字标题 */
+  a,
+  a.internal { color: inherit; text-decoration: none !important; background: none; }
+
+  /* ── 顶栏(第八批 #1:不吸顶,跟着页面走)── */
+  .pd-top {
+    border-bottom: 1px solid var(--B3);
+    background: var(--B0);
+    position: static;
+  }
+  .pd-topin {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+  }
+  .pd-top .b {
+    font-family: var(--puhui);
+    letter-spacing: 0.2px;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--B8);
+    white-space: nowrap;
+  }
+  /* 顶栏当前项:层级纠偏后是 1px 浅线,不是 2px 暖红(设计稿 L527) */
+  .pd-nav {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+  }
+  .pd-nav a,
+  .pd-nav span {
+    font-size: 14px;
+    color: var(--B7);
+    padding: 0 16px;
+  }
+  .pd-nav a:hover { color: var(--pd-accent); }
+  .pd-nav .cur {
+    font-weight: 500;
+    color: var(--B7);
+    position: relative;
+  }
+  .pd-nav .cur:after {
+    content: "";
+    position: absolute;
+    left: 16px;
+    right: 16px;
+    bottom: -13px;
+    height: 1px;
+    background: var(--B4);
+  }
+  .pd-nav .soon { color: var(--B5); cursor: default; }
+
+  /* ── 三栏(🔒 #13):200 / 588 / 282,居中 1200 ── */
+  .pd-shell {
+    display: grid;
+    grid-template-columns: 200px minmax(0, 588px) 282px;
+    justify-content: center;
+    gap: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 80vh;
+  }
+  .pd-left { padding: 24px 14px 24px 0; }
+  .pd-right { padding: 24px 0 24px 24px; }
+  .pd-mid { padding: 24px 32px 60px; min-width: 0; }
+
+  /* 用户批注 #1/#2:左右两栏固定,不随中栏滚动 */
+  .pd-left,
+  .pd-right {
+    position: sticky;
+    top: 8px;
+    align-self: start;
+    max-height: calc(100vh - 8px);
+    overflow-y: auto;
+    scrollbar-width: thin;
+  }
+  .pd-left::-webkit-scrollbar,
+  .pd-right::-webkit-scrollbar { width: 0; }
+
+  .sh {
+    font-family: var(--puhui);
+    letter-spacing: 0.6px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #a09a94;
+    margin: 0 0 10px;
+  }
+  .cl {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15.5px;
+    color: var(--B7);
+    padding: 9px 12px;
+    border-radius: 8px;
+    margin-bottom: 1px;
+  }
+  .cl i { font-style: normal; font-size: 11.5px; color: var(--B5); }
+  .cl.on { background: var(--B0); color: var(--B8); font-weight: 600; }
+  .cl:hover { color: var(--pd-accent); }
+  .about {
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 1px solid var(--B3);
+    font-size: 12px;
+    line-height: 1.85;
+    color: var(--B6);
+  }
+  .about b { display: block; color: var(--B7); font-size: 12.5px; margin-bottom: 5px; }
+  .blk { margin-bottom: 28px; }
+  .rr {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: var(--B6);
+    padding: 4px 0;
+  }
+  .rr span:last-child { color: var(--B5); font-size: 11.5px; }
+  .rr:hover { color: var(--pd-accent); }
+  .rr.more2 span:first-child { color: var(--B5); font-size: 12px; }
+
+  /* ── 日期分组(🔒 #11)── */
+  .dateh {
+    font-family: var(--puhui);
+    letter-spacing: 0.2px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--B5);
+    margin: 26px 0 0;
+  }
+  .dateh:first-child { margin-top: 2px; }
+  .dateh:after { content: ""; flex: 1; height: 1px; background: var(--B3); }
+
+  /* ── 卡片 ── */
+  .grid { display: grid; grid-template-columns: 1fr; gap: 0; align-items: stretch; }
+  .card {
+    display: flex;
+    gap: 48px;
+    padding: 40px 0;
+    border-bottom: 1px solid var(--B2);
+    align-items: stretch;
+    background: none;
+    border-radius: 0;
+    min-height: calc(105px + 80px);
+    overflow: hidden;
+  }
+  .grid > .card:last-child { border-bottom: none; }
+  .card:hover { border-color: #dcd8d3; box-shadow: 0 2px 10px #0000000a; }
+  .card:hover .t { color: var(--pd-accent); }
+  .card .tx { flex: 1; min-width: 0; display: flex; flex-direction: column; align-self: stretch; }
+  .card .t {
+    font-family: var(--puhui);
+    letter-spacing: 0.2px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--B8);
+    margin: 0 0 16px;
+    transition: color 0.15s;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    min-height: 2.9em;
+  }
+  .card .t a { color: inherit; }
+  /* 金句:斜体 + 引号由样式生成(设计稿 L359-363);内容里不写标点 */
+  .card .q {
+    font-size: 15px;
+    line-height: 1.66;
+    margin: 8px 0 0;
+    font-weight: 400;
+    color: var(--B7);
+    font-style: italic;
+    font-synthesis-style: auto;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    min-height: 3.32em;
+    overflow-wrap: anywhere;
+  }
+  .card .q:before { content: "\201C"; }
+  .card .q:after { content: "\201D"; }
+  .card .who {
+    font-size: 12.5px;
+    color: var(--B7);
+    margin-top: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .card .who .role { color: var(--B5); }
+  .card .tags {
+    margin-top: auto;
+    padding-top: 12px;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    min-height: 34px;
+  }
+  .card .tags::-webkit-scrollbar { display: none; }
+  .chip {
+    display: inline-block;
+    font-size: 10.5px;
+    padding: 1px 8px;
+    border-radius: 10px;
+    border: 1px solid;
+    margin-left: 0;
+    flex: 0 0 auto;
+  }
+
+  /* ── 缩略图:140×105,有图 .fr / 无图 .fb 主题色兜底 ── */
+  .th {
+    flex: 0 0 140px;
+    width: 140px;
+    height: 105px;
+    border-radius: 4px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid var(--B3);
+    align-self: flex-start;
+  }
+  .th.fr img { position: absolute; width: 100%; height: 100%; object-fit: cover; }
+  /* 🔒 #20 近方图裁到脸(1.55× / 焦点 50% 48%,用户四选一拍板);宽图不打 face 走中心裁 */
+  .th.fr img.face { transform: scale(1.55); transform-origin: 50% 48%; }
+  .th.fb { display: flex; align-items: center; justify-content: center; padding: 6px; background: var(--B5); }
+  .th.fb span { color: #fff; font-size: 11px; font-weight: 700; text-align: center; line-height: 1.3; }
+
+  /* 已读压暗(build-list 脚本加 .ep-read) */
+  .card.ep-read { opacity: 0.55; }
+  .card.ep-read:hover { opacity: 0.85; }
+
+  .ep-empty-site {
+    padding: 2rem;
+    text-align: center;
+    color: var(--B5);
+    border: 1px dashed var(--B3);
+    border-radius: 12px;
+    margin: 24px;
+  }
+
+  /* ── 手机端摊开区(设计稿 L430-464 + L510-525 层级纠偏)── */
+  .pd-mhome { display: none; }
+
+  /* ── 响应式:与少数派断点对齐(1280 / 1024)── */
+  @media (max-width: 1279px) {
+    .pd-shell { grid-template-columns: 164px minmax(0, 520px) 224px; max-width: 960px; }
+  }
+  @media (max-width: 1023px) {
+    .pd-shell { grid-template-columns: 1fr; max-width: 100%; }
+    .pd-left,
+    .pd-right { display: none; }
+    .pd-nav { display: none; }
+    .pd-mid { padding: 0 16px 44px; }
+    .pd-topin { padding: 12px 16px; }
+    .card { gap: 16px; padding: 32px 0; min-height: calc(81px + 64px); }
+    .th { flex: 0 0 108px; width: 108px; height: 81px; }
+    .card .t { font-size: 15.5px; }
+    .card .q { font-size: 13.5px; -webkit-line-clamp: 2; min-height: 3.2em; }
+
+    /* 一级页把入口摊开:搜索 / 最新·最热 / 主题横滑,都不藏进汉堡 */
+    .pd-mhome { display: block; padding: 14px 16px 4px; border-bottom: 1px solid var(--B2); }
+    /* 排序弱于分类(设计稿 L510:实测原来是倒挂的)*/
+    .mhv { display: flex; gap: 16px; margin: 12px 2px 0; }
+    .mhv a,
+    .mhv span {
+      font-family: var(--pd-font);
+      font-size: 13.5px;
+      font-weight: 400;
+      color: var(--B5);
+      padding-bottom: 3px;
+      border-bottom: 1px solid transparent;
+    }
+    .mhv .on { color: var(--B7); font-weight: 500; border-bottom-color: var(--B4); }
+    /* 分类是导航主角 */
+    .mhc {
+      display: flex;
+      gap: 8px;
+      overflow-x: auto;
+      scrollbar-width: none;
+      padding: 10px 16px 12px;
+      margin: 0 -16px;
+    }
+    .mhc::-webkit-scrollbar { display: none; }
+    .mhc a {
+      flex: 0 0 auto;
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--B7);
+      padding: 8px 14px;
+      background: var(--B1);
+      border: 1px solid transparent;
+      border-radius: 16px;
+      white-space: nowrap;
+    }
+    .mhc a i { font-style: normal; font-size: 11.5px; color: var(--B5); font-weight: 400; margin-left: 5px; }
+    .mhc a:hover { background: var(--pd-accent-soft); color: var(--pd-accent); }
+  }
 }
 
-/* ════════════ 首页 · 视图页签(最新/全部/按主题)════════════ */
-.bases-view-tabs {
-  display: flex;
-  gap: 0;
-  border-bottom: 1px solid var(--lightgray);
-  margin-bottom: 1.1rem;
-}
-.bases-view-tabs button {
-  font-family: var(--puhui);
-  font-size: 0.95rem;
-  color: var(--gray);
-  background: none;
-  border: none;
-  cursor: pointer;
-  padding: 0.55rem 0.15rem;
-  margin-right: 1.5rem;
-  position: relative;
-  transition: color 0.14s ease;
-}
-.bases-view-tabs button:hover { color: var(--darkgray); }
-.bases-view-tabs button.is-active {
-  color: var(--dark);
-  font-weight: 700;
-}
-.bases-view-tabs button.is-active::after {
-  content: "";
-  position: absolute;
-  left: 0; right: 0; bottom: -1px;
-  height: 2px;
-  background: var(--secondary);
-  border-radius: 2px;
-}
+/* 大类色:哪个大类用哪个变量(亮暗两套值都在上面的 :root 里)。
+   变量名不能带空格,所以「AI 安全」对应 --c-AI安全。 */
+.pd .chip[data-cat="智能体"]        { color: var(--c-智能体);        border-color: var(--c-智能体); }
+.pd .chip[data-cat="AI 安全"]       { color: var(--c-AI安全);        border-color: var(--c-AI安全); }
+.pd .chip[data-cat="AI 编程"]       { color: var(--c-AI编程);        border-color: var(--c-AI编程); }
+.pd .chip[data-cat="产品方法"]      { color: var(--c-产品方法);      border-color: var(--c-产品方法); }
+.pd .chip[data-cat="增长与销售"]    { color: var(--c-增长与销售);    border-color: var(--c-增长与销售); }
+.pd .chip[data-cat="组织与领导力"]  { color: var(--c-组织与领导力);  border-color: var(--c-组织与领导力); }
+.pd .chip[data-cat="创业与行业"]    { color: var(--c-创业与行业);    border-color: var(--c-创业与行业); }
+.pd .chip[data-cat="职业与个人成长"] { color: var(--c-职业与个人成长); border-color: var(--c-职业与个人成长); }
 
-.bases-view-meta {
-  font-size: 0.75rem;
-  color: var(--gray);
-  margin: 0 0 0.9rem;
-}
-
-/* ════════════ 首页 · 卡片墙 ════════════ */
-.bases-cards {
-  gap: 1.1rem !important;
-}
-.bases-card {
-  position: relative;
-  overflow: hidden;
-  background: var(--pd-surface);
-  border: 1px solid var(--lightgray);
-  border-radius: 10px;
-  box-shadow: var(--pd-shadow);
-  padding: 0;
-  transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
-}
-.bases-card:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--pd-shadow-hover);
-  border-color: var(--gray);
-}
-
-/* 插件自带的 note.cover 色条 → 改造成左侧竖色带(覆盖内联 aspect-ratio/背景)*/
-.bases-card-color {
-  position: absolute;
-  left: 0; top: 0; bottom: 0;
-  width: 3px !important;
-  height: auto !important;
-  aspect-ratio: auto !important;
-  background: var(--gray) !important; /* 默认;下方按 data-cat 覆盖 */
-  border-radius: 0;
-}
-/* 大类色带(data-cat 由 build-list.mjs 客户端脚本按主类打标)*/
-.bases-card[data-cat="智能体"]        .bases-card-color { background: var(--c-智能体) !important; }
-.bases-card[data-cat="AI 安全"]       .bases-card-color { background: var(--c-AI安全) !important; }
-.bases-card[data-cat="AI 编程"]       .bases-card-color { background: var(--c-AI编程) !important; }
-.bases-card[data-cat="产品方法"]      .bases-card-color { background: var(--c-产品方法) !important; }
-.bases-card[data-cat="增长与销售"]    .bases-card-color { background: var(--c-增长与销售) !important; }
-.bases-card[data-cat="组织与领导力"]  .bases-card-color { background: var(--c-组织与领导力) !important; }
-.bases-card[data-cat="创业与行业"]    .bases-card-color { background: var(--c-创业与行业) !important; }
-.bases-card[data-cat="职业与个人成长"] .bases-card-color { background: var(--c-职业与个人成长) !important; }
-
-.bases-card-body {
-  padding: 15px 18px 16px 20px;
-  display: flex;
-  flex-direction: column;
-  gap: 9px;
-}
-.bases-card-title {
-  font-size: 1.04rem;
-  font-weight: 700;
-  line-height: 1.46;
-  color: var(--dark);
-  transition: color 0.16s ease;
-}
-.bases-card:hover .bases-card-title { color: var(--secondary); }
-
-/* meta:base 的 order 固定为 日期(1)/播客(2)/时长(3)/简介(4);
-   1-3 收成一行灰字元信息,4(简介)独占一行做正文。隐藏标签(少数派不显「日期:」)。*/
-.bases-card-meta {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: baseline;
-  gap: 0.1rem 0.55rem;
-}
-.bases-card-label { display: none; }
-.bases-card-row {
-  display: inline-flex;
-  font-size: 0.77rem;
-  color: var(--gray);
-  font-variant-numeric: tabular-nums;
-}
-.bases-card-row:nth-child(1)::after,
-.bases-card-row:nth-child(2)::after {
-  content: "·";
-  margin-left: 0.55rem;
-  color: var(--gray);
-  opacity: 0.6;
-}
-.bases-card-row:nth-child(2) .bases-text { color: var(--darkgray); } /* 播客名稍重 */
-.bases-card-row:nth-child(4) {
-  flex-basis: 100%;
-  margin-top: 0.2rem;
-  font-size: 0.85rem;
-  line-height: 1.6;
-  color: var(--darkgray);
-  display: -webkit-box;
-  -webkit-line-clamp: 2;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-
-/* 已读压暗(build-list 脚本加 .ep-read)*/
-.bases-card.ep-read { opacity: 0.55; }
-.bases-card.ep-read:hover { opacity: 0.85; }
-.bases-card.ep-read .bases-card-title { font-weight: 500; }
-
-/* ════════════ 首页 · 表格视图(全部)════════════ */
-.bases-table { font-size: 0.88rem; }
-.bases-table-header { font-family: var(--puhui); color: var(--darkgray); }
-
-/* ════════════ 首页 · 看板视图(按主题)════════════ */
-.bases-board-column-header {
-  font-family: var(--puhui);
-  font-weight: 700;
-  color: var(--dark);
-}
-.bases-board-card {
-  background: var(--pd-surface);
-  border: 1px solid var(--lightgray);
-  border-radius: 8px;
-  box-shadow: var(--pd-shadow);
-  transition: box-shadow 0.14s ease, transform 0.14s ease;
-}
-.bases-board-card:hover { box-shadow: var(--pd-shadow-hover); transform: translateY(-1px); }
-.bases-board-card-label { color: var(--gray); }
-
-/* 空状态 */
-.ep-empty-site {
-  padding: 2rem;
-  text-align: center;
-  color: var(--gray);
-  border: 1px dashed var(--lightgray);
-  border-radius: 12px;
-}
-
-/* 框架自动日期/阅读时长对首页无意义 */
-.page-header .content-meta { display: none; }
-
-/* ── 手机端微调 ── */
-@media (max-width: 600px) {
-  .bases-cards { grid-template-columns: 1fr !important; }
-  .bases-view-tabs button { margin-right: 1.1rem; font-size: 0.9rem; }
-}
+.pd .card[data-cat="智能体"]        .th.fb { background: var(--c-智能体); }
+.pd .card[data-cat="AI 安全"]       .th.fb { background: var(--c-AI安全); }
+.pd .card[data-cat="AI 编程"]       .th.fb { background: var(--c-AI编程); }
+.pd .card[data-cat="产品方法"]      .th.fb { background: var(--c-产品方法); }
+.pd .card[data-cat="增长与销售"]    .th.fb { background: var(--c-增长与销售); }
+.pd .card[data-cat="组织与领导力"]  .th.fb { background: var(--c-组织与领导力); }
+.pd .card[data-cat="创业与行业"]    .th.fb { background: var(--c-创业与行业); }
+.pd .card[data-cat="职业与个人成长"] .th.fb { background: var(--c-职业与个人成长); }
 
 @media (prefers-reduced-motion: reduce) {
-  .bases-card, .bases-card-title, .home-cat, .bases-board-card { transition: none; }
+  .pd .card,
+  .pd .card .t { transition: none; }
 }

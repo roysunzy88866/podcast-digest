@@ -39,8 +39,11 @@ if ls ../samples/entities/*.md >/dev/null 2>&1; then
 fi
 node ../scripts/build-list.mjs
 node ./quartz/bootstrap-cli.mjs build
-# C10 硬断言:首页 Bases 卡片真渲染出来(bases-page 插件 --latest 浮动,类名/属性漂移会静默毁首页;GLM 20260724-014[2])
-grep -q 'bases-card' public/index.html && grep -q 'data-slug=' public/index.html || { echo "::error::首页 Bases 卡片未渲染(插件漂移?),拒绝部署"; exit 1; }
+# C13a 硬断言 [standard-change: 用户 2026-07-26 明文授权]:首页卡片流真进产物。
+# 原为「Bases 卡片真渲染」(插件 --latest 浮动、类名漂移会静默毁首页;GLM 20260724-014[2])——
+# Bases 骨架已退役,改断言自家卡片 + 反向断言 Bases 痕迹清零(DoD#3 的部署期版本)。
+grep -q 'class="card"' public/index.html && grep -q 'data-slug=' public/index.html || { echo "::error::首页卡片流未进产物(build-list/Quartz 原样 HTML 透传坏了?),拒绝部署"; exit 1; }
+grep -q 'bases-card' public/index.html && { echo "::error::首页仍有 Bases 残留(bases-card),C13a 要求痕迹清零,拒绝部署"; exit 1; } || true
 # 3) 音频进 public/audio(C7a:随 Pages 静态,drift #18;当年手动 cp,此处脚本化)
 mkdir -p public/audio
 for f in ../data/episodes/*/audio.mp3; do

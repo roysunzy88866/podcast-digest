@@ -4,8 +4,8 @@
 //
 // C10 三刀(2026-07-24 用户拍板,需求共创/首页交互改版.md):
 //   ① enablePopovers → false(全站关悬浮预览弹框)
-//   ② pageTitle → 英文播客中文精华(站名)
-//   ③ bases-page 默认视图 = cards(否则首页页签默认落在表格)
+//   ② pageTitle → 跨国深谈(🔒 设计稿拍板 #1;原为「英文播客中文精华」——那是说明书不是名字)
+//   ③ bases-page 插件 → 关掉(原为「默认视图=cards」;C13a 移植后首页不出 base 代码块)
 // C11 视觉改版(2026-07-25 用户拍板,需求共创/视觉调研-播客UI.md §七 · 方向 A 少数派风):
 //   ④ 主题色 = 暖红亮暗双套(secondary=红;中性走少数派暖调)
 //   ⑤ 默认浅色:Head 注入种子脚本(首访无记忆→light;用户切换仍记忆)
@@ -41,16 +41,18 @@ function patchFile(path, from, to, why) {
 
 // ── C10 三刀 ──
 patch("enablePopovers: true", "enablePopovers: false", "全站关闭悬浮预览弹框");
-patch("pageTitle: Quartz 5", "pageTitle: 英文播客中文精华", "站名");
+patch("pageTitle: Quartz 5", "pageTitle: 跨国深谈", "站名(🔒 拍板 #1 跨国深谈)");
+// C13a(2026-07-26 用户 🔒 拍板移植原型):首页不再出 base 代码块 → 这个上游默认插件
+// 对本站已无用武之地,关掉它(不下架:它是 `create -t default` 自带的,锚点留着,
+// 上游哪天挪走了照旧硬错让我们看见)。原先这里是把默认视图改成 cards。
 patch(
   `  - source: github:quartz-community/bases-page
     enabled: true
     options: {}`,
   `  - source: github:quartz-community/bases-page
-    enabled: true
-    options:
-      defaultViewType: cards`,
-  "首页 Bases 默认视图=卡片(最新)",
+    enabled: false
+    options: {}`,
+  "关掉 bases-page 插件(C13a 首页改真卡片流,不再渲染 base 代码块)",
 );
 
 // ── C11 ④ 主题色:暖红亮暗双套(少数派暖调中性 + 红 accent)──
