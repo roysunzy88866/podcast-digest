@@ -23,6 +23,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">我认为人们在 OpenClaw 上跌跌撞撞的部分原因是，他们读到 OpenClaw 正在经营我的业务，他们以为可以把任何任务扔给单个智能体并获得出色的结果。</div><div class="a">Claire Vo · 40:59</div></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >

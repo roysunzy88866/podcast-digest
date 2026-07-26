@@ -24,6 +24,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">所以,可能是一个智能体编写了代码,或者我帮助进行了分析,而这并不是我的背景,但这并不意味着人们不需要对他们所创造的东西带来的责任负责。</div><div class="a">Elizabeth Stone · 06:02</div></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >

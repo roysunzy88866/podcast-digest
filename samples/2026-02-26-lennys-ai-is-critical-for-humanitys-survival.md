@@ -24,6 +24,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-02-26-lennys-ai-is-critical-for-humanitys-survival.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">大多数人在大公司里认为的是大公司不进行实验。事实上并非如此。大公司经常进行实验。大公司不做的是当一个实验成功时,他们不会全力以赴并加倍下注。</div><div class="a">Jeetu Patel · 11:10</div></div>
+
 > [!info] 关联
 > **主持**:[[Jeetu Patel]]
 >

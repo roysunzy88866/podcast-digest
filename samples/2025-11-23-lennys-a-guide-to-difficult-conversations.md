@@ -22,6 +22,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2025-11-23-lennys-a-guide-to-difficult-conversations.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">但伟大的领导者知道，当你试图一直提供建议并给出答案时，你实际上并没有装备你的团队去解决难题。</div><div class="a">Rachel Lockett · 10:12</div></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >

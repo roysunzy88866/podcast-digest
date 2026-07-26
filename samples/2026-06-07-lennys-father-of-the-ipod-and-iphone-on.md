@@ -23,6 +23,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-07-lennys-father-of-the-ipod-and-iphone-on.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">因为如果你一路尝试做数据驱动的决策，你要么不是在做差异化的产品，因为你在从其他东西获取数据，要么你只是在得到废话数据，对吧。</div><div class="a">Tony Fadell · 09:23</div></div>
+
 > [!info] 关联
 > **主持**:[[Tony Fadell]]
 >

@@ -24,6 +24,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-24-pg-company-os-jz.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">我认为这是公司最挣扎的事情，也就是你有这些人，他们是这 1% 的 AI 用户。他们在修补他们的工作流程，他们高度 AI 化，然后你有你知道组织中其余 90% 到 99% 的人不确定该什么时候使用什么。</div><div class="a">Jiaona Zhang · 05:38</div></div>
+
 > [!info] 关联
 > **主持**:[[Jiaona Zhang]]
 >

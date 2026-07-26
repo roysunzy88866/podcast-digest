@@ -23,6 +23,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-03-22-lennys-the-art-of-influence-jessica-fain.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">而来参加那个产品评审的产品经理，或者是试图做推介的领导者，心里想的是，“为了这次会议我已经准备了两周、三周，也许自从我们上次说话以来已经六周了，”但走进那个会议的高管从那以后就没想过你。</div><div class="a">Jessica Fain · 08:01</div></div>
+
 > [!info] 关联
 > **主持**:[[Jessica Fain]]
 >

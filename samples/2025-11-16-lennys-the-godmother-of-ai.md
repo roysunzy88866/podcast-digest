@@ -23,6 +23,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2025-11-16-lennys-the-godmother-of-ai.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">我觉得 AGI 更多是一个营销术语,而不是科学术语,作为科学家而非技术专家来说。</div><div class="a">Dr. Fei-Fei Li · 25:47</div></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >

@@ -24,6 +24,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-05-10-lennys-how-to-build-a-company-that-withstands.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">摧毁它们的东西不是竞争。</div><div class="a">Eric Ries · 00:01</div></div>
+
 > [!info] 关联
 > **主持**:[[Eric Ries]]
 >

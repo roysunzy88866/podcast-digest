@@ -24,6 +24,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">我实际上非常看好设计师，因为他们往往有品味，我认为这是更难想象被自动化掉的事情</div><div class="a">Adam Mosseri · 08:38</div></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >

@@ -155,6 +155,18 @@ export function renderSidebarScript() {
 </script>`.replace(/\n\s*\n/g, "\n");
 }
 
+/**
+ * 开篇钩子(设计稿 .hook,第八批 #2「钩子收声」版):一句斜体带引号的金句 + 出处。
+ * 取 digest.quotes[0] —— 与卡片同一条,读者从卡片点进来时是接得上的。
+ * 引号由样式生成(与卡片同口径),内容里不写标点。无金句就整块不渲染。
+ */
+export function renderHook(digest, meta) {
+  const q = digest?.quotes?.[0];
+  if (!q?.zh) return "";
+  const who = [q.speaker, meta?.no_timestamps ? null : q.timestamp].filter(Boolean).join(" · ");
+  return `<div class="pd-hook"><div class="z">${String(q.zh).trim()}</div>${who ? `<div class="a">${who}</div>` : ""}</div>`;
+}
+
 export function renderAudioPlayer(meta) {
   // C13d-1(ADR 0015,用户 2026-07-26 明文确认):播放条**紧贴标题**、撑满宽,不再套
   // 「## 🎧 本集中文精华音频」这个小节标题 —— 设计稿 .play 就是标题正下方一条 bar。
@@ -318,6 +330,8 @@ export function renderEpisode(meta, digest, entities = null, related = null) {
 ${renderEpisodeMeta(meta, entities)}
 
 ${renderAudioPlayer(meta)}
+
+${renderHook(digest, meta)}
 
 ${top}
 

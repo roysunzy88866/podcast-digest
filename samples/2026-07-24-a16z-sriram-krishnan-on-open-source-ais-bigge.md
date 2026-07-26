@@ -24,6 +24,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">如果你提供有价值的产品，资本主义会负责处理其余的一切。</div><div class="a">Sriram Krishnan · 00:27</div></div>
+
 > [!info] 关联
 > **主持**:[[Theo Jaffe]]
 >

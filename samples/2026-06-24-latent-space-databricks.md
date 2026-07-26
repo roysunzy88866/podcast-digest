@@ -22,6 +22,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-24-latent-space-databricks.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">我让一个智能体去调试某个东西,它花了 500 美元,因为它决定读取大量日志文件并消耗大量 token。</div><div class="a">Matei Zaharia · 21:04</div></div>
+
 > [!info] 关联
 > **嘉宾**:[[Matei Zaharia]] · [[Reynold Xin]]
 >

@@ -23,6 +23,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-22-latent-space-gray-swan.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">如果你在每个人都在使用的智能体中发现漏洞,像 Codex 和 Cloud Code 这样的东西,你现在实际上基本上就可以拥有一种新的漏洞利用,一类新的漏洞利用。</div><div class="a">Zico Kolter · 03:37</div></div>
+
 > [!info] 关联
 > **嘉宾**:[[Zico Kolter]] · [[Matt Fredrikson]]
 >

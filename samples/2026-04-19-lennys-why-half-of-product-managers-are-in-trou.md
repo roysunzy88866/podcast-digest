@@ -24,6 +24,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-04-19-lennys-why-half-of-product-managers-are-in-trou.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">总的来说，这个职能已经变得极其专注于没有权力的责任。</div><div class="a">Nikhyl Singhal · 04:47</div></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >

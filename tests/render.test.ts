@@ -13,6 +13,7 @@ import {
   renderAudioPlayer,
   renderEpisodeMeta,
   renderSidebarScript,
+  renderHook,
 } from "../scripts/render.mjs";
 
 const META = {
@@ -361,5 +362,39 @@ describe("C13d-1 · 关联框搬进右栏「这一集涉及」", () => {
       null,
     );
     expect(md).toContain("这一集涉及");
+  });
+});
+
+describe("C13d-1 · 开篇钩子 + 金句区外观", () => {
+  const scss = readFileSync(new URL("../assets/styles/custom.scss", import.meta.url), "utf8");
+
+  it("★★ 钩子取第一条金句,与卡片同一条(从卡片点进来接得上)", () => {
+    const out = renderHook({ quotes: [{ zh: "一句金句。", speaker: "某人", timestamp: "06:02" }] } as any, {} as any);
+    expect(out).toContain("一句金句。");
+    expect(out).toContain("某人 · 06:02");
+  });
+
+  it("★★ 引号由样式生成,内容里不写标点(与卡片同口径)", () => {
+    const out = renderHook({ quotes: [{ zh: "一句金句。", speaker: "某人" }] } as any, {} as any);
+    expect(out).not.toContain("“");
+    expect(scss).toMatch(/\.pd-hook \.z:before \{ content: "\\201C"/);
+  });
+
+  it("★ 无金句 → 整块不渲染", () => {
+    expect(renderHook({ quotes: [] } as any, {} as any)).toBe("");
+  });
+
+  it("★★★ 金句区只改外观不动结构(靠 p[id^=q] 命中,块 ID 与实体页金句墙不受影响)", () => {
+    expect(scss).toMatch(/blockquote:has\(> p\[id\^="q"\]\)/);
+  });
+
+  it("★★ 正文里的【背景】引用块不会被金句样式误伤(它没有 q 开头的 id)", () => {
+    const md = renderEpisode(
+      { id: "x", title_zh: "T", date: "2026-01-01", podcast: "P", guests: [], host: null } as any,
+      { tldr: "T。", digest_md: "> 【背景】说明。", quotes: [{ zh: "金句。", en: "Q.", speaker: "某人", timestamp: "01:00" }] } as any,
+      null,
+    );
+    expect(md).toContain("^q1");           // 块 ID 还在
+    expect(md).toContain("> 【背景】说明。"); // 背景块仍是普通引用块
   });
 });

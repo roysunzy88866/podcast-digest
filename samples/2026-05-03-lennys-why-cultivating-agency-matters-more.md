@@ -23,6 +23,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-05-03-lennys-why-cultivating-agency-matters-more.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">重要的是能动性，我不认为能动性在世界上分布得很均匀。</div><div class="a">Max Schoening · 11:20</div></div>
+
 > [!info] 关联
 > **主持**:[[Max Schoening]]
 >

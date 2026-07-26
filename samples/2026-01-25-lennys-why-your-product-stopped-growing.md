@@ -22,6 +22,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-01-25-lennys-why-your-product-stopped-growing.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">你的价格太低了，因为你只是猜的，而且你从未改变过它们。</div><div class="a">Jason Cohen · 36:10</div></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >

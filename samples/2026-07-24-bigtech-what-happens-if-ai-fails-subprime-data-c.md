@@ -24,6 +24,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">现在举证责任在怀疑者身上,但一旦你有了令人失望的信息的缓慢渗透,那么举证责任就开始转移到乐观者身上了。</div><div class="a">Alex · 09:15</div></div>
+
 > [!info] 关联
 > **主持**:[[Ranjan Roy]]
 >

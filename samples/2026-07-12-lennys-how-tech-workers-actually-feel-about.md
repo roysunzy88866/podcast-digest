@@ -23,6 +23,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-12-lennys-how-tech-workers-actually-feel-about.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">而每次你把这种负担推卸给你最喜欢的 AI 模型时，你都在降低那个基线，而你的思考和判断正在旁观。</div><div class="a">Noam Segal · 52:15</div></div>
+
 > [!info] 关联
 > **主持**:[[Noam Segal]]
 >

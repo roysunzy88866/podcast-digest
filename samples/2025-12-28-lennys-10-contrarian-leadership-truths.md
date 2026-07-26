@@ -23,6 +23,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2025-12-28-lennys-10-contrarian-leadership-truths.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">对我来说,我们要感觉公司里的每一个项目都是故意人手不足的,这一点真的很重要。</div><div class="a">Matt MacInnis · 00:00</div></div>
+
 > [!info] 关联
 > **主持**:[[Matt MacInnis]]
 >

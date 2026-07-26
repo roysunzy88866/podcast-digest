@@ -24,6 +24,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-04-26-lennys-snapchat-ceo-why-distribution-is.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">15 年前，我们基本上认识到软件不是护城河，这是今天每个人都在随着 AI 发现的事情。</div><div class="a">Evan Spiegel · 10:24</div></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >

@@ -24,6 +24,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-14-lennys-the-common-pattern-behind-successful.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">你的直觉 95% 的时候是对的，而你的想法 75% 的时候是错的，或者充其量只有 25% 的时候是对的。</div><div class="a">Mark Pincus · 04:45</div></div>
+
 > [!info] 关联
 > **主持**:[[Mark Pincus]]
 >

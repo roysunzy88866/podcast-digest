@@ -23,6 +23,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2025-12-07-lennys-surge-ai-edwin-chen.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">他们认为你可以只是把人力扔向问题并获得好的数据,但这完全是错的。</div><div class="a">Edwin Chen · 09:51</div></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >

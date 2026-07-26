@@ -24,6 +24,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2025-11-20-lennys-slack-founder-stewart-butterfield.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">我觉得我们现在拥有的东西就是一大坨狗屎。</div><div class="a">Stewart Butterfield · 00:08</div></div>
+
 > [!info] 关联
 > **主持**:[[Stewart Butterfield]]
 >

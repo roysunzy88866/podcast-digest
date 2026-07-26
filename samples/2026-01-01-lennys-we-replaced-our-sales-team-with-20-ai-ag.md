@@ -24,6 +24,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">我真的无法每年付给一个初级 SDR 15 万美元结果他们却辞职。</div><div class="a">Jason Lemkin · 08:18</div></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >

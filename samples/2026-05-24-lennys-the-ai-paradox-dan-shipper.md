@@ -24,6 +24,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-05-24-lennys-the-ai-paradox-dan-shipper.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">我认为 SaaS 末日论是愚蠢的。</div><div class="a">Dan Shipper · 01:17</div></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >

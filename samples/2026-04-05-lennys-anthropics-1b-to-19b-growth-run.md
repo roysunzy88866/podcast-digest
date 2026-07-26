@@ -23,6 +23,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-04-05-lennys-anthropics-1b-to-19b-growth-run.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">你需要明白，你过去 50%、60%、70% 的运作方式，直接把它们抛在脑后吧。</div><div class="a">Amol Avasare · 00:37</div></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >

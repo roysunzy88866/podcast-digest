@@ -22,6 +22,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-05-21-latent-space-daytona.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">但如果你想一次启动 50,000 个,我们现在大约需要 75 秒。</div><div class="a">Ivan Burazin · 16:36</div></div>
+
 > [!info] 关联
 > **嘉宾**:[[Ivan Burazin]]
 >

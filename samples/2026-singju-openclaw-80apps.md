@@ -22,6 +22,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-singju-openclaw-80apps.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">看起来每个人都在追逐某种集中的上帝智能。而在过去十天左右涌现出来的似乎是群体智能和社区智能。</div><div class="a">Raphael Schaad</div></div>
+
 > [!info] 关联
 > **嘉宾**:[[Raphael Schaad]] · [[Peter Steinberger]]
 >

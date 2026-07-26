@@ -23,6 +23,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-03-01-lennys-the-design-process-is-dead.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">我认为它在 AI 时代之前就已经在消亡了,但既然现在工程师可以离开并启动他们的七个 Claude,我认为作为设计师,我们真的必须放弃那个流程。</div><div class="a">Jenny Wen · 05:52</div></div>
+
 > [!info] 关联
 > **主持**:[[Jenny Wen]]
 >

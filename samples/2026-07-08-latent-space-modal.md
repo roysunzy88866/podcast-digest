@@ -24,6 +24,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-08-latent-space-modal.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">我们在 2023 年 5 月就构建了沙箱，在任何人甚至知道这将成为一件事之前。</div><div class="a">Akshat Bubna · 09:19</div></div>
+
 > [!info] 关联
 > **嘉宾**:[[Akshat Bubna]]
 >

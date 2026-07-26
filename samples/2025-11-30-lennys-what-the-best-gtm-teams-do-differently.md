@@ -23,6 +23,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2025-11-30-lennys-what-the-best-gtm-teams-do-differently.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">80% 的客户购买是为了避免痛苦或降低风险，而不是增加上行空间，</div><div class="a">Jeanne DeWitt Grosser · 00:27</div></div>
+
 > [!info] 关联
 > **主持**:[[Jeanne DeWitt Grosser]]
 >

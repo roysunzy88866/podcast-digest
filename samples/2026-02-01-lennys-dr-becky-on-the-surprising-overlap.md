@@ -24,6 +24,8 @@ tags:
 
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-02-01-lennys-dr-becky-on-the-surprising-overlap.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
+<div class="pd-hook"><div class="z">我认为修复是我们拥有的头号关系策略。</div><div class="a">Dr. Becky Kennedy · 08:58</div></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >
