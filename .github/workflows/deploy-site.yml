@@ -33,6 +33,21 @@ jobs:
         with:
           python-version: "3.11" # edge-tts 要(补已发布集缺的音频)
 
+      # 部署慢的根子:audio.mp3 是 gitignore 的产物,每次都是空白机器 →
+      # 40 集全部重念一遍(实测 25 分钟里约 20 分钟花在这)。哪怕只改了几行 CSS。
+      # 用 Actions 自带缓存把音频存下来:deploy-site.sh 本来就只给「缺音频的集」合成,
+      # 所以缓存命中后它自然只念新集。
+      # key 里带 digest 的哈希 → 某集内容变了就换 key;restore-keys 前缀回退让老音频仍能复用。
+      - name: 取回音频缓存(省掉重复合成)
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/episodes/*/audio.mp3
+            data/episodes/*/audio.meta.json
+          key: audio-v1-${{ hashFiles('data/episodes/*/digest.json') }}
+          restore-keys: |
+            audio-v1-
+
       - name: 装环境(ffmpeg + edge-tts + node deps)
         run: |
           set -e

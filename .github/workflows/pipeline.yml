@@ -57,6 +57,18 @@ jobs:
         with:
           python-version: "3.11"
 
+      # 与 deploy-site.yml 同一手法:音频是 gitignore 的产物,不缓存就每次重念全库。
+      # 合成逻辑本来就只补「缺音频的集」,缓存命中后自然只念新集。
+      - name: 取回音频缓存(省掉重复合成)
+        uses: actions/cache@v4
+        with:
+          path: |
+            data/episodes/*/audio.mp3
+            data/episodes/*/audio.meta.json
+          key: audio-v1-${{ hashFiles('data/episodes/*/digest.json') }}
+          restore-keys: |
+            audio-v1-
+
       - name: 装环境(ffmpeg + edge-tts + glm-ask + whisperX + node deps)
         run: |
           sudo apt-get update && sudo apt-get install -y ffmpeg
