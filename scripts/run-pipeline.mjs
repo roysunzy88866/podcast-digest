@@ -321,6 +321,10 @@ function processEpisode(item, id, source) {
       return { ok: false, reason: "导读/实体事实层未过(定点重写后仍未过,或密度熔断)" };
   }
 
+  // C12:嘉宾姓名+职位落 meta(卡片第三行「人名 · 公司职位」的数据源)。放在闸门之后:
+  // 职位要回本集中文稿逐字命中,而 repair-facts 可能刚改过 digest —— 抽早了会拿被改掉的措辞去对。
+  // 抽不到只留空、不阻塞发布(脚本自己 exit 0)。
+  run("node", ["scripts/extract-guest.mjs", dir]);
   run("node", ["scripts/render.mjs", dir]); // 验证过了才出集页
   run("node", ["scripts/tts.mjs", dir]);    // 才配音
   return { ok: true };
