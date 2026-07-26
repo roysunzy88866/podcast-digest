@@ -146,6 +146,7 @@ Meng To 展示了他的真实工作区，并强调一个核心理念：**一切�
 - [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别只想推销：产品负责人如何真正影响高管决策》]] —— 同概念:护栏 (guardrails)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]] —— 同公司:cursor
 - [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评》]] —— 同公司:airbnb
+- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]] —— 同概念:护栏 (guardrails)
 
 *本集关键词:AI 工作流 · Codex · 智能体 · 技术型 PM · 数字分身*
 

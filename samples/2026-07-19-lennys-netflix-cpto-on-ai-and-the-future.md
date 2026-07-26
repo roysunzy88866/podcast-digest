@@ -134,6 +134,7 @@ Netflix 也提醒大家,它在 AI 和机器学习(ML)上的积累不是从 GenAI
 - [[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]] —— 同概念:护栏 (guardrails)
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代》]] —— 同概念:护栏 (guardrails)
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同概念:主观能动性 (agency)
+- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]] —— 同概念:护栏 (guardrails)
 
 *本集关键词:组织文化 · 团队角色分工 · AI 时代招聘 · 系统思维 · 娱乐未来*
 

@@ -1,0 +1,2022 @@
+{
+  "episode_id": "2026-07-26-lennys-anthropics-first-technical-pm-on",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-07-26",
+  "tags": [
+    "AI 产品经理",
+    "评估即需求",
+    "模型迭代",
+    "第一性原理",
+    "适应能力"
+  ],
+  "categories": [
+    "产品方法",
+    "职业与个人成长"
+  ],
+  "entities": [
+    {
+      "id": "dianne-penn",
+      "type": "person",
+      "role": "host",
+      "name": "Dianne Penn",
+      "file": "Dianne Penn",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "lenny",
+      "type": "person",
+      "role": "cohost",
+      "name": "Lenny",
+      "file": "Lenny",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            138.349,
+            150.517
+          ],
+          "quote": "Before we get into it, don't forget to check out lennysproductpass.com for a year free of the hottest and most beautifully crafted AI products in the world available exclusively to Lenny's newsletter subscribers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 29,
+          "t": [
+            161,
+            161.485
+          ],
+          "quote": "Thank you, Lenny.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 664,
+          "t": [
+            4076.408,
+            4085.892
+          ],
+          "quote": "I think it should be clear where an idea is being led by you or by you, Lenny, or me, Dianne.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 968,
+          "t": [
+            5581.544,
+            5582.309
+          ],
+          "quote": "Thank you, Lenny.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集讨论的 AI 公司，拥有 Claude 系列模型，嘉宾在其中担任 AI 研究和实验室团队的产品负责人，讲述了公司早期摸索与押注编码能力的发展历程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.12,
+            6
+          ],
+          "quote": "In 2023 when I started, nobody said Anthropic and Claude and coding in the same sentence.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1,
+          "t": [
+            6.421,
+            9.97
+          ],
+          "quote": "I want to go back to the beginning of Anthropic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 21,
+          "t": [
+            96.1,
+            100.924
+          ],
+          "quote": "Today, my guest is Diane Penn, head of product for the AI research and Labs teams at Anthropic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 22,
+          "t": [
+            101.304,
+            107.789
+          ],
+          "quote": "She joined Anthropic as the first technical product manager over three years ago, which is a lifetime in AI time.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 23,
+          "t": [
+            108.109,
+            114.534
+          ],
+          "quote": "When the product team was just five engineers, she's helped ship every model at Anthropic from Claude 2 through Fable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 25,
+          "t": [
+            123.22,
+            137.889
+          ],
+          "quote": "It is always such a treat and so mind-expanding to get to talk to someone who's at the very center of AI and product management, it's hard to imagine someone who has seen more of where things are going than the head of product for Anthropic's research and Labs teams.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 31,
+          "t": [
+            163.561,
+            169.129
+          ],
+          "quote": "I want to go back to the beginning of Anthropic, the early days.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 32,
+          "t": [
+            169.149,
+            175.519
+          ],
+          "quote": "I remember when Anthropic first launched, this was, I don't know, the first model when it launched years ago, three years ago, something like that.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 42,
+          "t": [
+            191.226,
+            196.609
+          ],
+          "quote": "The latest number I saw was Anthropic was making, I don't know, $50 billion in ARR.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 45,
+          "t": [
+            203.351,
+            205.952
+          ],
+          "quote": "Anthropic reportedly is making that every single year.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 49,
+          "t": [
+            217.097,
+            220.098
+          ],
+          "quote": "What was it like in those early days of Anthropic?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 51,
+          "t": [
+            224.18,
+            233.065
+          ],
+          "quote": "I think a big part of what's made Anthropic today actually has been very much the core of even the early days.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 90,
+          "t": [
+            471.163,
+            478.628
+          ],
+          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 101,
+          "t": [
+            536.701,
+            547.375
+          ],
+          "quote": "What are some of the other big inflection moments as you think about just Anthropic going from just this lab that's trying to compete with this juggernaut of OpenAI at that point to what it is today?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 120,
+          "t": [
+            673.208,
+            680.511
+          ],
+          "quote": "In 2023 when I started, nobody said Anthropic and Claude and coding in the same sentence.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 201,
+          "t": [
+            1186.411,
+            1193.615
+          ],
+          "quote": "And that discovery is actually another part of what's been in the early days of Anthropic's DNA.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1299.445,
+            1306.526
+          ],
+          "quote": "So one thing that we do a lot is actually working in public internally within Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1430.614,
+            1437.44
+          ],
+          "quote": "And how do they work that enables them to create such innovative ideas outside of even the core Anthropic product team?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1535.658,
+            1544
+          ],
+          "quote": "And so I think that allows the incubation and the charter of Labs to really accelerate and see around corners more broadly for Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1544.721,
+            1555.408
+          ],
+          "quote": "It's so funny to think about Labs within an Anthropic, which was already so innovative and creative and just shipping like crazy, that there's value to still creating a Labs team within Anthropic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1558.971,
+            1563.634
+          ],
+          "quote": "Because you listed all these products and it's like, what else has Anthropic shipped?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1572.76,
+            1581.344
+          ],
+          "quote": "I think the team culture, similar to broadly at Anthropic, I think the team culture is very valuable.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1650.2,
+            1653.522
+          ],
+          "quote": "So you lead product for the research team, you work with the researchers at Anthropic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1694.322,
+            1706.767
+          ],
+          "quote": "I think one piece around researchers and research organizations like at Anthropic is there's also a vision of the future more broadly.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1720.212,
+            1732.017
+          ],
+          "quote": "So there's a lot of actually very founder-like energy is how I describe it within researchers are really bold and ambitious researchers, and we have a ton of those at Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1942.66,
+            1953.263
+          ],
+          "quote": "I think a lot of the most successful researchers and research leadership at Anthropic are folks who are really strong first principles thinkers about problems.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 365,
+          "t": [
+            2249.1,
+            2256.085
+          ],
+          "quote": "What's really interesting and just unexpected here is it creates this really interesting advantage for Anthropic where you have access to the latest stuff.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2669.38,
+            2672.821
+          ],
+          "quote": "We actually pioneered this concept within Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2808.21,
+            2812.578
+          ],
+          "quote": "So is this just a core part of the product management job now at Anthropic writing evals?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 555,
+          "t": [
+            3450.129,
+            3463.455
+          ],
+          "quote": "But yeah, I think the secret sauce of Anthropic is the culture and the bottoms of nature of how people work and this experimenting in public.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 721,
+          "t": [
+            4314.514,
+            4317.958
+          ],
+          "quote": "I know Anthropic's mission and vision will reach AGI, a super intelligence.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 776,
+          "t": [
+            4594.609,
+            4607.595
+          ],
+          "quote": "How do you stay just recharged and not burnout, being in the center of this crazy storm of AI, as a mom working in ... We're seeing the research work at Anthropic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 777,
+          "t": [
+            4607.615,
+            4613.757
+          ],
+          "quote": "We're living through the most unprecedented time, working at ... Just being on the outside of Anthropic, it's crazy.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 789,
+          "t": [
+            4720.515,
+            4733.98
+          ],
+          "quote": "But I think one of the magical parts of Anthropic is this ability for us to figure out what are those opportunities to help each other and actually then taking the next smile of mind melding.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 799,
+          "t": [
+            4769.534,
+            4774.116
+          ],
+          "quote": "This is year six of me working in AI, so Amazon and then Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 816,
+          "t": [
+            4867.253,
+            4882.678
+          ],
+          "quote": "Is this person going to care about their own ego and building out a big org or are they going to care about contributing to Anthropic and contributing to the impact of the team and orienting towards folks who are low ego, team-oriented?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 820,
+          "t": [
+            4895.623,
+            4898.745
+          ],
+          "quote": "And I know I've heard a lot, just the reason Anthropic is able to move so fast.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 837,
+          "t": [
+            5026.475,
+            5035.499
+          ],
+          "quote": "And those are things that are also traits that have, I think, helped Anthropic from a product development and model development perspective and as part of the culture.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 887,
+          "t": [
+            5196.03,
+            5200
+          ],
+          "quote": "Most people at Anthropic do not have time to watch things, but I'm curious if you have an answer.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 899,
+          "t": [
+            5238.548,
+            5248.399
+          ],
+          "quote": "We actually have different versions of this within Anthropic, and I think it's actually been a really, really, really powerful tool.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 902,
+          "t": [
+            5251.884,
+            5256.911
+          ],
+          "quote": "The fact that everyone at Anthropic is raving about it tells me something important is going on here.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 934,
+          "t": [
+            5371.62,
+            5379.042
+          ],
+          "quote": "I think I learned, actually, a lot that I applied here at Anthropic and other jobs thereafter.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 953,
+          "t": [
+            5493.361,
+            5505.464
+          ],
+          "quote": "I think the best way to find my work, my team's work is really the Anthropic blog and when we're publishing new models, new product experiences.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 961,
+          "t": [
+            5567.926,
+            5571.839
+          ],
+          "quote": "So basically open PM roles at Anthropic on the research team.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到的一家 AI 公司，主持人在开篇指出在 Anthropic 刚创立时，认为 OpenAI 遥遥领先，Anthropic 毫无机会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            12.897,
+            14
+          ],
+          "quote": "OpenAI is so far ahead.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 36,
+          "t": [
+            181.902,
+            183.163
+          ],
+          "quote": "OpenAI is so far ahead.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 39,
+          "t": [
+            186.905,
+            187.605
+          ],
+          "quote": "OpenAI is one.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 90,
+          "t": [
+            471.163,
+            478.628
+          ],
+          "quote": "What do OpenAI, Anthropic, Cursor, Vercel, Replit, Sierra, Clay, and hundreds of other winning companies all have in common?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 101,
+          "t": [
+            536.701,
+            547.375
+          ],
+          "quote": "What are some of the other big inflection moments as you think about just Anthropic going from just this lab that's trying to compete with this juggernaut of OpenAI at that point to what it is today?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2980.561,
+            2986.244
+          ],
+          "quote": "I just had Andrew, he's the head of the Codex app at OpenAI, and you guys are aligned.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集将其描述为 Anthropic 旗下的核心 AI 模型，不仅具备编码、工具调用和智能体能力，还能充当陪练主动反驳用户想法，从而帮助人类得出更好的结论。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.12,
+            6
+          ],
+          "quote": "In 2023 when I started, nobody said Anthropic and Claude and coding in the same sentence.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 8,
+          "t": [
+            31.28,
+            40.37
+          ],
+          "quote": "What was magical about Opus 4.5 is we also now not just had a model, but a vehicle, a great product experience like Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 9,
+          "t": [
+            40.55,
+            49.64
+          ],
+          "quote": "Opus 4.5 wouldn't have had that moment without a product like Claude Code and Claude Code wouldn't have had that type of adoption accelerated without Opus 4.5.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 18,
+          "t": [
+            86,
+            89.647
+          ],
+          "quote": "One thing I ask the team is let's say Claude 8 comes around.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 23,
+          "t": [
+            108.109,
+            114.534
+          ],
+          "quote": "When the product team was just five engineers, she's helped ship every model at Anthropic from Claude 2 through Fable.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 24,
+          "t": [
+            114.914,
+            122.98
+          ],
+          "quote": "She's also helped incubate and launch Claude Code, MCP, skills, Claude Design, and also core capabilities like computer use, tool use, and reasoning.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 61,
+          "t": [
+            284.351,
+            291.535
+          ],
+          "quote": "We did start with Claude.ai, another chatbot, chat assistant, and evolving into things like tool use.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 62,
+          "t": [
+            292.535,
+            299.919
+          ],
+          "quote": "I think one of the moments where really we started to get into our groove was shipping things like Golden Gate Claude.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 71,
+          "t": [
+            341.815,
+            349.118
+          ],
+          "quote": "And so when you actually essentially dialed up that feature, Claude would obsess about the Golden Gate Bridge.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 75,
+          "t": [
+            370.866,
+            380.309
+          ],
+          "quote": "And we very much wanted to, in that situation, just bring it to the masses and bring it to people who were starting to use Claude.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 76,
+          "t": [
+            381.209,
+            388.372
+          ],
+          "quote": "And so the entire experience actually we spun up on our Claude.ai website within 24 hours.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 83,
+          "t": [
+            430.24899999999997,
+            444.615
+          ],
+          "quote": "And I think that obviously Labs, Claude Code, et cetera, we then started to identify ourselves as would we actually think the world, how to think about AI, how to bring that closer to the public.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 107,
+          "t": [
+            580.87,
+            587.072
+          ],
+          "quote": "And we were looking for ways for also why should somebody choose Claude?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 120,
+          "t": [
+            673.208,
+            680.511
+          ],
+          "quote": "In 2023 when I started, nobody said Anthropic and Claude and coding in the same sentence.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 124,
+          "t": [
+            707.884,
+            729.66
+          ],
+          "quote": "And it ended up being a relatively smaller change from a training perspective, but it ended up helping us differentiate in the early days competitively for users and actually bring a lot of the very early Claude enthusiasts and developers because we were providing a value that they didn't really think was possible at the time.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 132,
+          "t": [
+            763.383,
+            776.029
+          ],
+          "quote": "I think what was magical about Opus 4.5 is we also now not just had a model, but a vehicle, which is a great product experience like Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 134,
+          "t": [
+            787.756,
+            794.119
+          ],
+          "quote": "And I think we felt the magic of Claude Code for many months before that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 137,
+          "t": [
+            817.813,
+            822.596
+          ],
+          "quote": "I think Opus 4.5 wouldn't have had that moment without a product like Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 138,
+          "t": [
+            823.196,
+            829.6
+          ],
+          "quote": "And Claude Code, I think, wouldn't have had that type of adoption accelerated without Opus 4.5.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 164,
+          "t": [
+            934.592,
+            950.058
+          ],
+          "quote": "I think we have evals, we have on the safety side, safety testing, red teaming on the capabilities and product side, new prototypes, products like Claude Code, Tag and others.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1260.893,
+            1273.12
+          ],
+          "quote": "I will say internally, some of the most creative thinkers, the best prototypers do spend a lot of time with Claude, with every new version of a research model that we have.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1307.167,
+            1320.289
+          ],
+          "quote": "And so in the early days when we had less product surfaces, there was a Slack channel where everyone, almost the entire company was testing early versions of Claude and trying different use cases.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1461.296,
+            1465.74
+          ],
+          "quote": "And so for example, things like Claude Code, I think-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1469.28,
+            1476.702
+          ],
+          "quote": "Things like Claude Code, things like skills, and most recently Claude Design, MCP.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1706.887,
+            1717.351
+          ],
+          "quote": "So for example, things like, I think even at the founding of the company, researchers were talking about how do we get Claude to use a computer?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1739,
+            1746.846
+          ],
+          "quote": "And then I think on this other side of the loop, there's also, now that this technology or Claude is in people's hands, how do we make it better today?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1757.834,
+            1766
+          ],
+          "quote": "And so I think you're describing a really good sense of how do we make iterative improvements on different versions of Claude?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1814.922,
+            1818.664
+          ],
+          "quote": "So for example, we might get feedback on claude.ai.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1818.684,
+            1820.164
+          ],
+          "quote": "\"Claude hallucinated.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1822.545,
+            1829.627
+          ],
+          "quote": "If you bring that to a researcher and you say, \"Please fix Claude from being hallucinated,\" it's not very actionable.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1838.471,
+            1844.613
+          ],
+          "quote": "And so we look at, okay, what should Claude have called tools in that moment?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 340,
+          "t": [
+            2084.092,
+            2092.114
+          ],
+          "quote": "One thing I ask the team frequently or how I think about when we're building a product is let's say Claude 8 comes around.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 347,
+          "t": [
+            2119.303,
+            2132.908
+          ],
+          "quote": "Speaking of ambition and Claude 8, Fable/Mythos recently feels like hit this very new tipping point with models where it used to be you have an awesome model, release it.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 418,
+          "t": [
+            2591.559,
+            2593.96
+          ],
+          "quote": "Was this Claude being overconfident?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2635.768,
+            2644.453
+          ],
+          "quote": "Is Claude now able to identify the right places in the document and pull the right synthesis out?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2673.242,
+            2681.885
+          ],
+          "quote": "So one of the early examples is the early Claude models were not very good at following specific schemas.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 432,
+          "t": [
+            2684.986,
+            2690.848
+          ],
+          "quote": "And now that is fundamental to Claude being able to be a good agent.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2698.03,
+            2706.733
+          ],
+          "quote": "And so the initial end-to-end was I was hearing feedback around Claude two days.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2707.394,
+            2709.394
+          ],
+          "quote": "Claude was not very good at following instructions.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2710.115,
+            2715.417
+          ],
+          "quote": "So then digging in with the users, what do you mean by Claude is not good at following instructions?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2721.539,
+            2722.659
+          ],
+          "quote": "What was Claude's response?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2725.26,
+            2734.382
+          ],
+          "quote": "And what I saw was something like 80% of what people meant in the early days for this failure was Claude would not write the right JSON.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2735.923,
+            2744.945
+          ],
+          "quote": "And so then, okay, let's generate maybe to start, just 30 to 40 examples of when Claude was not doing this thing correctly.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2767.651,
+            2779.234
+          ],
+          "quote": "And so then we added that to our repositories for evals, and when we have versions of Claude, we actually run that eval and just check.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 530,
+          "t": [
+            3300.734,
+            3313.678
+          ],
+          "quote": "That's something a lot of times internally we have somebody who is very curious, and them sharing an idea of a new prototype actually brings a ton more people who are like, oh, I didn't know this could work now with Claude.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 537,
+          "t": [
+            3341.012,
+            3348.157
+          ],
+          "quote": "The thing I've also heard a lot is just find a problem you want to solve in your life or work and just open up Claude, Claude Code, tell it, here's what I want to do.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 562,
+          "t": [
+            3491.341,
+            3501.118
+          ],
+          "quote": "I'm curious how, kind of on this thread of finding ways for AI to help you in your work and life, are there any interesting ways you've been using Claude lately in your work as a PM?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 569,
+          "t": [
+            3576.927,
+            3590.033
+          ],
+          "quote": "So for managers on the team, that's actually a thing that I've been sharing more with our managers of, okay, how do you actually use Claude to make you a better coach?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 574,
+          "t": [
+            3607.663,
+            3610.706
+          ],
+          "quote": "So you built a skill; you're just like, \"Help me, Claude, build a skill.\"",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 577,
+          "t": [
+            3617.833,
+            3622.818
+          ],
+          "quote": "And then you use that skill to talk to Claude, \"Hey, I have this very difficult conversation coming up with a colleague.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 581,
+          "t": [
+            3639.787,
+            3654.755
+          ],
+          "quote": "And having Claude help me pair and help me... And maybe there are times where I end up not using suggestions from Claude, but it actually ends up being very helpful for just coming up and brainstorming.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 592,
+          "t": [
+            3703.082,
+            3716.286
+          ],
+          "quote": "And so I think there are ways where I use Claude to augment my thinking, but what I want to make sure, and maybe this is what you're describing, is Claude doesn't take over all of my thinking for me.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 593,
+          "t": [
+            3717.247,
+            3739.094
+          ],
+          "quote": "And so I think depending on the situation, depending on how much more personal judgment I want to have in a situation, I might come up with my own POV first and then work with Claude through that, and making sure that I maintain my sense and tone throughout.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 598,
+          "t": [
+            3771.329,
+            3774.791
+          ],
+          "quote": "And so how do I get that piece delegated to Claude fully?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 600,
+          "t": [
+            3778.553,
+            3790.66
+          ],
+          "quote": "So I think it depends on what you're using Claude for and what you're trying to convey, and is there asymmetrical value in delegating more to Claude.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 601,
+          "t": [
+            3791.321,
+            3801.679
+          ],
+          "quote": "What I'm also hearing, the first tip is really great, which was think first, have a point of view, and then use Claude as a sparring partner almost to evolve the idea, push back on the idea.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 606,
+          "t": [
+            3820.232,
+            3825.255
+          ],
+          "quote": "And so sometimes it's having Claude push back makes me better.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 610,
+          "t": [
+            3834.2,
+            3851.647
+          ],
+          "quote": "I've heard that when Ben Mann was on the podcast, he talked about the constitution that is built into Claude and how unintuitively the work and the focus on safety and alignment, as you said, and this constitution that describes how Claude should think and operate.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 611,
+          "t": [
+            3851.667,
+            3857.329
+          ],
+          "quote": "You would think that would limit the abilities of Claude and make it less fun and interesting.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 613,
+          "t": [
+            3859.549,
+            3861.37
+          ],
+          "quote": "Claude is the most interesting personality.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 615,
+          "t": [
+            3862.471,
+            3869.653
+          ],
+          "quote": "It's just like I much prefer talking to... OpenClaw famously was built on Claude, and then people were forced to switch.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 624,
+          "t": [
+            3884.999,
+            3888.6
+          ],
+          "quote": "Why does that make Claude better and more interesting to talk to you also?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 625,
+          "t": [
+            3889.18,
+            3907.81
+          ],
+          "quote": "In order to make Claude as intelligent and as capable as possible, being able to have Claude actually push back in the right points and then add, it's like a yes or no and actually helps you come to a better conclusion.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 626,
+          "t": [
+            3908.59,
+            3914.794
+          ],
+          "quote": "So I've used Claude to help with things like, are we making the right pricing decision on the next version of Claude?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 634,
+          "t": [
+            3955.333,
+            3963.737
+          ],
+          "quote": "And so in order for Claude to be more useful, the general approach has to be that it knows when to push back.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 645,
+          "t": [
+            4000.751,
+            4007.116
+          ],
+          "quote": "And you should come away at the end of the day having better ideas because you worked with Claude.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 652,
+          "t": [
+            4025.767,
+            4030.129
+          ],
+          "quote": "I want to come back to something that I was thinking about as we were talking about talking to Claude constantly.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 662,
+          "t": [
+            4062.601,
+            4067.183
+          ],
+          "quote": "I actually do think there's more that we could be doing on making Claude write better.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 663,
+          "t": [
+            4067.223,
+            4075.327
+          ],
+          "quote": "There's actually very active efforts on my team and on the research side about making Claude write better, just generally.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 666,
+          "t": [
+            4092.576,
+            4099.959
+          ],
+          "quote": "For something like a monthly business review, I would actually love to have that end-to-end be written by Claude.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 714,
+          "t": [
+            4276.53,
+            4286.654
+          ],
+          "quote": "And I think once we improve, let's say, writing and tone and character, we probably will say, how do we have Claude be even more proactive?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 726,
+          "t": [
+            4329.78,
+            4339.543
+          ],
+          "quote": "We started to talk about making Claude and models better at judgment, especially in the last year or so.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 742,
+          "t": [
+            4432.472,
+            4448.959
+          ],
+          "quote": "And so I think you're seeing us shift things like Claude Science investing in these areas because those are areas that I think is just bring this technology to society and having a positive benefit for society.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 828,
+          "t": [
+            4930.141,
+            4931.913
+          ],
+          "quote": "I'm your real human Claude over here.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 898,
+          "t": [
+            5232.801,
+            5238.448
+          ],
+          "quote": "I really do think Claude Tag is very interesting in terms of a product experience.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 957,
+          "t": [
+            5533.992,
+            5541.754
+          ],
+          "quote": "So giving us that feedback, pushing Claude, telling us where it's falling down, those help us make Claude better.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集将其描述为 Anthropic Labs 团队孵化的前沿产品，它与 Opus 4.5 模型相互成就，作为载体让用户真正感受到了前沿模型的魔力，迎来了爆发式的采用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            31.28,
+            40.37
+          ],
+          "quote": "What was magical about Opus 4.5 is we also now not just had a model, but a vehicle, a great product experience like Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 9,
+          "t": [
+            40.55,
+            49.64
+          ],
+          "quote": "Opus 4.5 wouldn't have had that moment without a product like Claude Code and Claude Code wouldn't have had that type of adoption accelerated without Opus 4.5.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 24,
+          "t": [
+            114.914,
+            122.98
+          ],
+          "quote": "She's also helped incubate and launch Claude Code, MCP, skills, Claude Design, and also core capabilities like computer use, tool use, and reasoning.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 83,
+          "t": [
+            430.24899999999997,
+            444.615
+          ],
+          "quote": "And I think that obviously Labs, Claude Code, et cetera, we then started to identify ourselves as would we actually think the world, how to think about AI, how to bring that closer to the public.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 132,
+          "t": [
+            763.383,
+            776.029
+          ],
+          "quote": "I think what was magical about Opus 4.5 is we also now not just had a model, but a vehicle, which is a great product experience like Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 134,
+          "t": [
+            787.756,
+            794.119
+          ],
+          "quote": "And I think we felt the magic of Claude Code for many months before that.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 137,
+          "t": [
+            817.813,
+            822.596
+          ],
+          "quote": "I think Opus 4.5 wouldn't have had that moment without a product like Claude Code.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 138,
+          "t": [
+            823.196,
+            829.6
+          ],
+          "quote": "And Claude Code, I think, wouldn't have had that type of adoption accelerated without Opus 4.5.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 164,
+          "t": [
+            934.592,
+            950.058
+          ],
+          "quote": "I think we have evals, we have on the safety side, safety testing, red teaming on the capabilities and product side, new prototypes, products like Claude Code, Tag and others.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1461.296,
+            1465.74
+          ],
+          "quote": "And so for example, things like Claude Code, I think-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1469.28,
+            1476.702
+          ],
+          "quote": "Things like Claude Code, things like skills, and most recently Claude Design, MCP.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 537,
+          "t": [
+            3341.012,
+            3348.157
+          ],
+          "quote": "The thing I've also heard a lot is just find a problem you want to solve in your life or work and just open up Claude, Claude Code, tell it, here's what I want to do.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集把它说成是「新的 PRD」，通过将模糊的用户痛点（如格式错误、幻觉）转化为标准化的数据集，作为 AI 时代产品经理定义工作、衡量产品改进的核心抓手。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            58.252,
+            62
+          ],
+          "quote": "The evals, we actually have a saying on the team of evals are the new PRDs.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 164,
+          "t": [
+            934.592,
+            950.058
+          ],
+          "quote": "I think we have evals, we have on the safety side, safety testing, red teaming on the capabilities and product side, new prototypes, products like Claude Code, Tag and others.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1136.37,
+            1143.754
+          ],
+          "quote": "You need the evals to be able to assess that has actually always been a part of how this technology works.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1146.955,
+            1154.959
+          ],
+          "quote": "Because unless you have the evals, unless you have the systems to test, these jumps might actually happen and you don't know.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1874.566,
+            1878.528
+          ],
+          "quote": "Figure out things like evals to then describe what we've improved it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1970.146,
+            1988.711
+          ],
+          "quote": "And so our leadership, our chief scientists, our heads of fine-tuning and RL, folks are actually really close to the training runs and actually look at things like how the training run is going, evals, looking at the underlying data.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2477.065,
+            2495.27
+          ],
+          "quote": "And for my team as research product managers, the way to drive user value is to figure out the right user feedback, the evals that then can be a personification of that user need.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2496.01,
+            2504.413
+          ],
+          "quote": "So we do write some product documents and PRDs, but we actually have a saying on the team of evals are the new PRDs.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2767.651,
+            2779.234
+          ],
+          "quote": "And so then we added that to our repositories for evals, and when we have versions of Claude, we actually run that eval and just check.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 455,
+          "t": [
+            2808.21,
+            2812.578
+          ],
+          "quote": "So is this just a core part of the product management job now at Anthropic writing evals?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2835.89,
+            2850.216
+          ],
+          "quote": "And so having things like evals actually is a way, not just for folks working on models, but generally within product to get to better user experiences because you can't improve what you can't measure.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2868.51,
+            2876.177
+          ],
+          "quote": "So this is a really interesting change in the way product happens and will happen is evals, writing evals versus PRDs is a big part of this.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2883.84,
+            2889.443
+          ],
+          "quote": "I think when there's a very defined problem, I think things like evals might be almost a shorthand.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "emerging-capabilities",
+      "type": "concept",
+      "role": "concept",
+      "name": "涌现能力 (emerging capabilities)",
+      "file": "涌现能力",
+      "primary": true,
+      "how_described": "本集将其描述为模型在整体损失平滑下降的同时，于某些特定能力上表现出的不连续的跳跃式突破，正是它让模型的发展具有不可预测性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 190,
+          "t": [
+            1106.555,
+            1117.94
+          ],
+          "quote": "And so for example, as you add in more data and you train the models with more compute, you essentially see these actually discontinuous emerging capabilities jump.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1125.944,
+            1136.09
+          ],
+          "quote": "And so these emerging capabilities, this some nature of predictability is not necessarily everyone knows the exact moment.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "golden-gate-claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "金门大桥版 Claude (Golden Gate Claude)",
+      "file": "金门大桥版 Claude",
+      "primary": true,
+      "how_described": "本集把它说成是团队早期的一个隐藏转折点：通过调整模型层内的特征，让 Claude 在每个回答中都痴迷地谈论金门大桥，证明了团队能够构建出截然不同的产品体验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            292.535,
+            299.919
+          ],
+          "quote": "I think one of the moments where really we started to get into our groove was shipping things like Golden Gate Claude.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "frontier-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier model)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集将其描述为处于行业最前沿的模型，如 Opus 3，并强调需要搭配前沿产品，才能让大众真正感受到前沿模型的魔力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 105,
+          "t": [
+            563.724,
+            569.326
+          ],
+          "quote": "And it was very clear that we needed and wanted to create a frontier model.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 127,
+          "t": [
+            740.107,
+            748.353
+          ],
+          "quote": "It almost feels like this confidence y'all built that, wow, we could really ship a frontier model, which is now today so not great if you compare it to what we've got today.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能 (skills)",
+      "file": "技能",
+      "primary": true,
+      "how_described": "本集把它说成是出自 Labs 的能力，能够引入特定书籍（如《关键时刻》）的经验，帮助管理者提升情商并更好地准备高难度对话。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            114.914,
+            122.98
+          ],
+          "quote": "She's also helped incubate and launch Claude Code, MCP, skills, Claude Design, and also core capabilities like computer use, tool use, and reasoning.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 173,
+          "t": [
+            1011.48,
+            1016.303
+          ],
+          "quote": "So this is things like co-work, skills, tag.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1469.28,
+            1476.702
+          ],
+          "quote": "Things like Claude Code, things like skills, and most recently Claude Design, MCP.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 493,
+          "t": [
+            2996.209,
+            3000.431
+          ],
+          "quote": "So we've been talking a bit about just what kind of skills are emerging for product people.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "prd",
+      "type": "concept",
+      "role": "concept",
+      "name": "PRD",
+      "file": "PRD",
+      "primary": true,
+      "how_described": "本集将其描述为传统的产品需求文档，虽然在明确痛点的开发中被评估（evals）替代，但在需要对齐大量利益相关者或探索极其模糊的新领域时依然具有不可替代的价值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 404,
+          "t": [
+            2460,
+            2475.664
+          ],
+          "quote": "I think one example is I think you think of a product manager as I own product strategy and delivering user value, but I demonstrate day-to-day by writing a PRD or writing a product vision doc.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2530.12,
+            2539.869
+          ],
+          "quote": "So the idea here used to be have an idea, create a PRD, talk to people about it, align on the plan, design it, build it, ship it, see how it goes, iterate.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2545.694,
+            2551.319
+          ],
+          "quote": "Step one is the eval is now how you define what the work is versus a PRD.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2905.689,
+            2933.58
+          ],
+          "quote": "So when we do have a model, we actually, for every model, we do have a PRD, less necessarily for our researchers, but more for our growing product surfaces, for our engineering teams, for our stakeholders like legal and safety and others as just a source of truth of putting together what we're aiming to achieve so that a big group of people can row in the same direction.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2950.247,
+            2967.435
+          ],
+          "quote": "And I think there's value in the product vision portions of a PRD to explore what could, even if a technology is not yet ready to work for everyone, how do you get it to work well for some group so you can explore the value?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2986.444,
+            2987.224
+          ],
+          "quote": "PRD's not dead.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2992.227,
+            2994.668
+          ],
+          "quote": "We've closed the book on... PRD is still kicking.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 854,
+          "t": [
+            5066.446,
+            5067.288
+          ],
+          "quote": "PRD is not dead.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "agentic",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agentic)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成是一种允许模型端到端运行事务的工作方式，指出模型在智能体行为上的跳跃已成为新常态，改变了软件工程的协作模式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            796.2,
+            815.652
+          ],
+          "quote": "But the fact that the model essentially got to a level of intelligence where at a very broad level, users can experience both frontier intelligence in new use cases, allow it to run things end to end in agentic manner, I think that was the inflection.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1779.066,
+            1789.951
+          ],
+          "quote": "So this is things like vision, computer use, coding, agentic coding, tool use, test time compute, things where there's a direct user impact.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 688,
+          "t": [
+            4178.487,
+            4187.13
+          ],
+          "quote": "So sometimes when the models were good at writing, but not agentic, our thesis is: how do we make the models more agentic or call the right tools?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 711,
+          "t": [
+            4256.541,
+            4269.187
+          ],
+          "quote": "I think it's this advancement of the technology is a work in progress and so we see a leap or an emergence of a jump in agentic behaviors.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "labs",
+      "type": "concept",
+      "role": "concept",
+      "name": "Labs",
+      "file": "Labs",
+      "primary": true,
+      "how_described": "本集将其描述为 Anthropic 内部旨在拉扯非连续性大押注、探索 10 倍乃至 1000 倍潜力的实验室团队，拥有自下而上、小团队试错的创新文化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            96.1,
+            100.924
+          ],
+          "quote": "Today, my guest is Diane Penn, head of product for the AI research and Labs teams at Anthropic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 25,
+          "t": [
+            123.22,
+            137.889
+          ],
+          "quote": "It is always such a treat and so mind-expanding to get to talk to someone who's at the very center of AI and product management, it's hard to imagine someone who has seen more of where things are going than the head of product for Anthropic's research and Labs teams.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 83,
+          "t": [
+            430.24899999999997,
+            444.615
+          ],
+          "quote": "And I think that obviously Labs, Claude Code, et cetera, we then started to identify ourselves as would we actually think the world, how to think about AI, how to bring that closer to the public.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1194.956,
+            1202.78
+          ],
+          "quote": "And I think it's also continuing to be a big part of how we operate in product, in Labs and across research.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1413.781,
+            1419.765
+          ],
+          "quote": "So following this thread, you oversee product for the Labs team, which is extremely cool.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1419.785,
+            1423.008
+          ],
+          "quote": "We've had Ben Mann on the podcast, Mike Krieger, whom both work on Labs now.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1423.849,
+            1424.729
+          ],
+          "quote": "Talk about Labs.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1425.29,
+            1426.03
+          ],
+          "quote": "What is Labs?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1426.591,
+            1427.652
+          ],
+          "quote": "What's come out of Labs?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1438.02,
+            1440
+          ],
+          "quote": "The thesis of Labs in many ways is identifying and pulling the thread on...",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1535.658,
+            1544
+          ],
+          "quote": "And so I think that allows the incubation and the charter of Labs to really accelerate and see around corners more broadly for Anthropic.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1544.721,
+            1555.408
+          ],
+          "quote": "It's so funny to think about Labs within an Anthropic, which was already so innovative and creative and just shipping like crazy, that there's value to still creating a Labs team within Anthropic.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1556.009,
+            1558.871
+          ],
+          "quote": "What enables Labs to work as well as it has?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1568.157,
+            1571.72
+          ],
+          "quote": "What's core to creating a successful Labs org within a larger company?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1591.289,
+            1598.752
+          ],
+          "quote": "And the teams, the pods within Labs is small, sometimes these ideas start with one engineer.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1657.984,
+            1663.627
+          ],
+          "quote": "I think a lot of people don't totally understand these very valuable people at all the AI labs.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 367,
+          "t": [
+            2258.026,
+            2266.191
+          ],
+          "quote": "Everyone's going to keep improving and it creates this unfair advantage within the Labs to have access to the best stuff that other people can't yet outside of your control.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 558,
+          "t": [
+            3475.621,
+            3482.17
+          ],
+          "quote": "Yeah, I've heard this so many times from all the labs, just like no one's exactly sure how some of this is going to be used.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "computer-use",
+      "type": "concept",
+      "role": "concept",
+      "name": "计算机使用 (computer use)",
+      "file": "计算机使用",
+      "primary": false,
+      "how_described": "本集将其描述为直接影响用户的核心能力之一，在它这种尚未成熟的模糊领域探索时，PRD 依然有其不可替代的价值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            114.914,
+            122.98
+          ],
+          "quote": "She's also helped incubate and launch Claude Code, MCP, skills, Claude Design, and also core capabilities like computer use, tool use, and reasoning.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1779.066,
+            1789.951
+          ],
+          "quote": "So this is things like vision, computer use, coding, agentic coding, tool use, test time compute, things where there's a direct user impact.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2941.603,
+            2949.387
+          ],
+          "quote": "So if we haven't shipped a thing like computer use, we don't necessarily have a set of user specific pain points always.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 516,
+          "t": [
+            3214.008,
+            3221.311
+          ],
+          "quote": "Here's what they're talking about computer use; here's what they're talking about with this limitation of this UX situation.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集提到它是出自 Labs 团队的代表性创新产品之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            114.914,
+            122.98
+          ],
+          "quote": "She's also helped incubate and launch Claude Code, MCP, skills, Claude Design, and also core capabilities like computer use, tool use, and reasoning.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1469.28,
+            1476.702
+          ],
+          "quote": "Things like Claude Code, things like skills, and most recently Claude Design, MCP.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 381,
+          "t": [
+            2332.416,
+            2337.819
+          ],
+          "quote": "Does your bank have an API, a terminal native CLI, or an AI-ready MCP server?",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "scaling laws",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

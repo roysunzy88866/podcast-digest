@@ -8,7 +8,7 @@ unlisted: true
 # Claude
 
 > [!info] 公司
-> 出现在 6 集 · 金句 2 条 · 关联 10 个
+> 出现在 7 集 · 金句 2 条 · 关联 10 个
 
 ## 集里怎么说它
 
@@ -18,6 +18,7 @@ unlisted: true
 - **[[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]]**(01:12起):本集指出如今人们独自泡在各自的 Claude 界面中，这里安静且孤独，失去了曾经社交网络那种能带来意外惊喜的「鸡尾酒会」氛围。
 - **[[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]]**(42:26起):本集提到它在为我们编写代码,并强调了当它擅长编写安全代码时的潜力。
 - **[[2026-07-13-pg-the-complete-claude-stack-for-pms|《PM 如何用 Claude 把生产力提升 10 倍：全栈实战》]]**(01:49起):本集的核心主角。嘉宾完整分享了 Claude 的五层架构栈（模型、界面、知识库、集成、智能体与编排），教你如何利用整个 Claude 生态系统将日常生产力提升 10 倍。
+- **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]]**(00:00起):本集将其描述为 Anthropic 旗下的核心 AI 模型，不仅具备编码、工具调用和智能体能力，还能充当陪练主动反驳用户想法，从而帮助人类得出更好的结论。
 
 ## 金句
 
@@ -33,7 +34,8 @@ unlisted: true
 - [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] — 作为被讨论公司(提及)
 - [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] — 作为概念(提及)
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|《PM 如何用 Claude 把生产力提升 10 倍：全栈实战》]] — 作为被讨论公司
+- [[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]] — 作为概念
 
 ## 关联实体
 
-[[Lenny]] · [[智能体]] · [[Anthropic]] · [[vibe coding]] · [[Claude Code]] · [[Codex]] · [[红队测试]] · [[Edwin Chen]] · [[Jenny Wen]] · [[Nikhyl Singhal]]
+[[Lenny]] · [[Anthropic]] · [[智能体]] · [[Claude Code]] · [[vibe coding]] · [[Codex]] · [[OpenAI]] · [[红队测试]] · [[mcp]] · [[技能]]

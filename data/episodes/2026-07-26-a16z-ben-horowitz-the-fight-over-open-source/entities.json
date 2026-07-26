@@ -1,0 +1,1258 @@
+{
+  "episode_id": "2026-07-26-a16z-ben-horowitz-the-fight-over-open-source",
+  "podcast": "The a16z Show",
+  "date": "2026-07-26",
+  "tags": [
+    "开源 AI",
+    "开放权重",
+    "反垄断",
+    "国家安全",
+    "蒸馏"
+  ],
+  "categories": [
+    "创业与行业",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "theo-jaffe",
+      "type": "person",
+      "role": "host",
+      "name": "Theo Jaffe",
+      "file": "Theo Jaffe",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            42.504,
+            58.915
+          ],
+          "quote": "Theo Jaffe and Sofia Puccini are joined by Ben Horowitz to discuss the battle over open-source AI, why he believes open models are essential to innovation and national security, and what the future of AI competition means for startups, frontier labs, and the broader technology ecosystem.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ben-horowitz",
+      "type": "person",
+      "role": "cohost",
+      "name": "Ben Horowitz",
+      "file": "Ben Horowitz",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            42.504,
+            58.915
+          ],
+          "quote": "Theo Jaffe and Sofia Puccini are joined by Ben Horowitz to discuss the battle over open-source AI, why he believes open models are essential to innovation and national security, and what the future of AI competition means for startups, frontier labs, and the broader technology ecosystem.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 10,
+          "t": [
+            61.728,
+            67.372
+          ],
+          "quote": "We are live with Ben Horowitz of Andreessen Horowitz, who needs no introduction.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "sofia-puccini",
+      "type": "person",
+      "role": "cohost",
+      "name": "Sofia Puccini",
+      "file": "Sofia Puccini",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            42.504,
+            58.915
+          ],
+          "quote": "Theo Jaffe and Sofia Puccini are joined by Ben Horowitz to discuss the battle over open-source AI, why he believes open models are essential to innovation and national security, and what the future of AI competition means for startups, frontier labs, and the broader technology ecosystem.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集提到它今天发布了一封名为《开放权重与美国 AI 领导力》的公开信，并由其创始人 Jensen（黄仁勋）专门为此注册推特账号发布，旨在呼吁保护开源 AI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            84.929,
+            94.913
+          ],
+          "quote": "There's an open letter released by NVIDIA today called Open Weights in American AI Leadership, signed by many companies, including Andreessen Horowitz.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "andreessen-horowitz",
+      "type": "company",
+      "role": "company",
+      "name": "Andreessen Horowitz",
+      "file": "Andreessen Horowitz",
+      "primary": true,
+      "how_described": "本集嘉宾 Ben Horowitz 联合创立的风险投资公司，签署了上述公开信，并在节目中反对以安全为名禁止开源 AI 的反竞争行为。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            61.728,
+            67.372
+          ],
+          "quote": "We are live with Ben Horowitz of Andreessen Horowitz, who needs no introduction.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 19,
+          "t": [
+            84.929,
+            94.913
+          ],
+          "quote": "There's an open letter released by NVIDIA today called Open Weights in American AI Leadership, signed by many companies, including Andreessen Horowitz.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集将其作为闭源垄断巨头的典型反复点名：被指投入大量资金推动禁止开源；既当裁判又当运动员下场抢夺应用层生意；甚至公然无视政府与国家安全，宣称「我们说了算」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            285.312,
+            287.415
+          ],
+          "quote": "And obviously, Anthropic has not solved it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            365.412,
+            375.118
+          ],
+          "quote": "Well, look, I think there's a huge push with a lot of money behind it, you know, particularly from Anthropic to ban open source.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            496.753,
+            504.657
+          ],
+          "quote": "Yeah, I mean, as could a Chinese national working for Anthropic or OpenAI or, you know, SpaceX, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 105,
+          "t": [
+            585.367,
+            591.969
+          ],
+          "quote": "We've already seen a glimpse of it, right, with Anthropic saying, like, I don't care who got elected in the U.S.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            647.295,
+            655.667
+          ],
+          "quote": "You know, how can Anthropic, like, just take everyone's training data without paying them at all, but when other labs pay them, it's distillation, it needs to be banned?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 125,
+          "t": [
+            673.369,
+            679.535
+          ],
+          "quote": "You know, Anthropic just paid $1.5 billion for stealing everybody's books, including mine, by the way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 162,
+          "t": [
+            875.058,
+            886.925
+          ],
+          "quote": "it's been already fairly dangerous to build on anthropic because every time an application category starts to do well, they move into that category.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 167,
+          "t": [
+            931.794,
+            944.297
+          ],
+          "quote": "So if you're building robots, for example, if you were to build your robot on Anthropic, then at some point, you know Anthropic's going to go into the robot business and put you out of business just by either cutting you off or overcharging you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1373.632,
+            1379.777
+          ],
+          "quote": "Like when DeepSeq came out, it was a DeepSeq moment, and oh my gosh, and this is the end of Anthropic and OpenAI and all that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1385.281,
+            1390.825
+          ],
+          "quote": "And that's because, but DeepSeq is more valuable, and Anthropic's more valuable, and OpenAI is more valuable.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": true,
+      "how_described": "本集以它遭遇 OpenAI 黑客入侵的安全事件为例，指出由于其专有模型受限于护栏，最终只能依靠开源模型才得以阻止安全威胁。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            148.992,
+            157.894
+          ],
+          "quote": "I think secondly, we just had a really interesting security incident with OpenAI hacking into Hugging Face.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            158.514,
+            170.616
+          ],
+          "quote": "And the only way Hugging Face was able to prevent it, because the proprietary models had guardrails which prevented them from doing security tasks, was to use an open source model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 40,
+          "t": [
+            207.649,
+            213.012
+          ],
+          "quote": "So a company like Hugging Face would not be able to actually use the product.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "deepseq",
+      "type": "company",
+      "role": "company",
+      "name": "DeepSeq",
+      "file": "DeepSeq",
+      "primary": true,
+      "how_described": "本集提及它（原稿音译为 DeepSeq）作为开源模型的代表，发布时曾引发轰动，但并没有摧毁闭源巨头的商业模式，反而让闭源公司的估值变得更高了。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 238,
+          "t": [
+            1373.632,
+            1379.777
+          ],
+          "quote": "Like when DeepSeq came out, it was a DeepSeq moment, and oh my gosh, and this is the end of Anthropic and OpenAI and all that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1385.281,
+            1390.825
+          ],
+          "quote": "And that's because, but DeepSeq is more valuable, and Anthropic's more valuable, and OpenAI is more valuable.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "thinking-machines",
+      "type": "company",
+      "role": "company",
+      "name": "Thinking Machines",
+      "file": "Thinking Machines",
+      "primary": true,
+      "how_described": "本集说它是一家在构建开源模型方面做得很好、取得很大进展的美国公司（a16z 投资组合公司之一）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 99,
+          "t": [
+            554.215,
+            556.256
+          ],
+          "quote": "Thinking Machines is doing a good job of that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            796.536,
+            804.184
+          ],
+          "quote": "I do think that we're going to see, I mean, like you said, with thinking machines, they've got, you know, they're making really good headway with their open source efforts.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1154.837,
+            1157.798
+          ],
+          "quote": "No, we have like A16Z port co-thinking machines.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mistral",
+      "type": "company",
+      "role": "company",
+      "name": "Mistral",
+      "file": "Mistral",
+      "primary": true,
+      "how_described": "本集提到它是一家法国的开源大模型公司，在推动开源技术发展方面做得不错。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            557.657,
+            559.738
+          ],
+          "quote": "France, you know, Mistral's doing a good job of that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1161.16,
+            1161.5
+          ],
+          "quote": "And Mistral.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1161.52,
+            1163.28
+          ],
+          "quote": "And Mistral, yeah, yeah.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源 (open source)",
+      "file": "开源",
+      "primary": true,
+      "how_described": "本集的核心主题：被描述为比闭源更安全、国家安全的基础保障，也是唯一能让学术界留在牌桌上、避免单一巨头垄断生态的必要路径。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.742,
+            5.985
+          ],
+          "quote": "If you look at the history of the industry, the open source version of everything has been much safer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 5,
+          "t": [
+            20.173,
+            24.655
+          ],
+          "quote": "And I think that open source is basically the best path towards that goal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 9,
+          "t": [
+            42.504,
+            58.915
+          ],
+          "quote": "Theo Jaffe and Sofia Puccini are joined by Ben Horowitz to discuss the battle over open-source AI, why he believes open models are essential to innovation and national security, and what the future of AI competition means for startups, frontier labs, and the broader technology ecosystem.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 16,
+          "t": [
+            74.806,
+            80.868
+          ],
+          "quote": "So much has happened in the world of open source, open weights in the last couple of weeks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 23,
+          "t": [
+            131.273,
+            138.701
+          ],
+          "quote": "And so if you look at why is open source important, and there's many reasons.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 25,
+          "t": [
+            142.005,
+            146.63
+          ],
+          "quote": "Academia is completely out of the AI game if there's no open source.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            158.514,
+            170.616
+          ],
+          "quote": "And the only way Hugging Face was able to prevent it, because the proprietary models had guardrails which prevented them from doing security tasks, was to use an open source model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 29,
+          "t": [
+            170.936,
+            176.398
+          ],
+          "quote": "And I think the important point there is you can't actually ban open source, of course.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            198.783,
+            207.588
+          ],
+          "quote": "And that's what would happen, I think, in the case of an open source ban is, you know, the threats would be, well, you can't work with the U.S. government if you use open source or you can't do this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 43,
+          "t": [
+            217.274,
+            223.58
+          ],
+          "quote": "Just like if you look at the history of the industry, the open source version of everything has been much safer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            256.494,
+            267.339
+          ],
+          "quote": "If you look at, now, the argument against open AI or AI being open source is, oh, well, nobody understands how the weights work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            332.955,
+            338.16
+          ],
+          "quote": "And I think that open source is basically the best path, you know, kind of towards that goal.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 67,
+          "t": [
+            358.566,
+            363.388
+          ],
+          "quote": "What do you think are some of the risks right now from like a government action perspective on open source?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            365.412,
+            375.118
+          ],
+          "quote": "Well, look, I think there's a huge push with a lot of money behind it, you know, particularly from Anthropic to ban open source.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            423.357,
+            432.325
+          ],
+          "quote": "And I think that there is certainly a kind of pretty strong community pushing for the banning of open source.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            457.808,
+            466.27
+          ],
+          "quote": "Well, another angle that many people talk about with respect to open source is China and national security, as opposed to like AI safety stuff.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 83,
+          "t": [
+            467.47,
+            482.153
+          ],
+          "quote": "And some people say, you know, it's a national security risk for so many American startups to be dependent on like infrastructure that comes from China, you know, in the event that, for example, China decided to cut everything off and stop releasing better open source models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 84,
+          "t": [
+            482.953,
+            495.91
+          ],
+          "quote": "to American companies or perhaps they could you know in an AI future make these open source models like sleeper agents basically or you can think of all kinds of things that they could do",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 88,
+          "t": [
+            512.5,
+            518.043
+          ],
+          "quote": "So, like, if that's a threat, like, I think that's just a general threat, not specific to open source AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            535.446,
+            536.866
+          ],
+          "quote": "But, look, it's open source.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            550.213,
+            553.555
+          ],
+          "quote": "And, you know, look, we need to build our own open source products here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            600.111,
+            610.079
+          ],
+          "quote": "okay, that seems like a much bigger national security risk than the kinds of little holes people are trying to poke in the open source story.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            739.464,
+            747.309
+          ],
+          "quote": "So why do you think that so far over the last few years, Chinese labs have surpassed American labs in terms of open source performance?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 145,
+          "t": [
+            796.536,
+            804.184
+          ],
+          "quote": "I do think that we're going to see, I mean, like you said, with thinking machines, they've got, you know, they're making really good headway with their open source efforts.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            804.224,
+            812.472
+          ],
+          "quote": "So, you know, hopefully we'll see kind of more of that and kind of more breakthroughs, you know, on the open source side.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            827.801,
+            830.622
+          ],
+          "quote": "What about open source in industries like robotics?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            830.763,
+            836.365
+          ],
+          "quote": "Because, like, Unitary is at least, like, you know, a large percentage open source.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            847.149,
+            850.69
+          ],
+          "quote": "Do you think that we're missing like that open source ecosystem in the U.S.?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            927.833,
+            931.694
+          ],
+          "quote": "And so open source is kind of a way that the ecosystem gets built.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            945.017,
+            950.919
+          ],
+          "quote": "And so this is kind of a way that their ecosystem can grow by building on the open source.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            954.361,
+            980.718
+          ],
+          "quote": "A lot of our application companies have used open source to kind of bootstrap themselves or get going or that kind of thing, and often Chinese open source, which is why it's really important to the U.S. ecosystem that we have applications, that we have embodied AI, that we have robots and all these things that we have access to that technology because the kind of other model is a monopoly model where there's one company that owns all the applications.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1151.376,
+            1154.557
+          ],
+          "quote": "What other open source companies with regards to AI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1163.44,
+            1166.622
+          ],
+          "quote": "Where else do you see like new open source models coming out of?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1184.724,
+            1199.414
+          ],
+          "quote": "My friend Jan Stojka from Berkeley is kind of working hard to put together a project where we can fund kind of an open source model that everybody in academia can use and build on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1209.019,
+            1221.726
+          ],
+          "quote": "And they've kind of been iced out of AI due to the incredible costs and the threat that open source is under.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1221.886,
+            1224.628
+          ],
+          "quote": "And the lack of U.S. open source in particular, yeah.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1225.874,
+            1237.23
+          ],
+          "quote": "In the long run, what exactly is the incentive for a business to release open source models, especially if they're a foundation lab and most of their business is making the models, which are very expensive?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1246.688,
+            1267.252
+          ],
+          "quote": "But look, I think that there's different business, like, I think the business model of selling, serving the model at a very high premium doesn't work if you're open source, but there's other things, you know, particularly, like, one of the things we already know is that, you know, for an enterprise in a B2B context,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1317.111,
+            1324.596
+          ],
+          "quote": "Do you think that open source models are currently a threat to the business model of large closed source foundation model developers?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1523.713,
+            1533.141
+          ],
+          "quote": "And then, you know, look, I think Cursor survived for a long time because it was able to have an open source alternative for cheap tasks that they have.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1542.725,
+            1549.689
+          ],
+          "quote": "Every application company in AI world benefits from open source right now to some degree.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1550.65,
+            1555.093
+          ],
+          "quote": "Nobody's not using an open source model who's an application provider that I know of.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "open-weights",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重 (open weights)",
+      "file": "开放权重",
+      "primary": true,
+      "how_described": "本集重点探讨的 AI 政策议题，与开源同义，指公开模型内部的参数（权重）供全球社区共同检视，以解决奖励黑客等棘手的安全问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            74.806,
+            80.868
+          ],
+          "quote": "So much has happened in the world of open source, open weights in the last couple of weeks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 19,
+          "t": [
+            84.929,
+            94.913
+          ],
+          "quote": "There's an open letter released by NVIDIA today called Open Weights in American AI Leadership, signed by many companies, including Andreessen Horowitz.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "proprietary-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "专有模型 (proprietary model)",
+      "file": "专有模型",
+      "primary": true,
+      "how_described": "本集指美国大实验室基于此建立的封闭商业模式。因为内置了护栏，在面对安全任务时往往拒绝执行而存在盲区。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            914.244,
+            927.193
+          ],
+          "quote": "And so if you're an application provider, like, okay, how can I safely build on a proprietary model if that company is going to come attack me and then charge me much more than they're charging themselves to do the same thing?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1268.232,
+            1284.62
+          ],
+          "quote": "A really well post-trained, kind of less powerful, smaller model works often better for a business task than like a large, you know, kind of a large proprietary model and is much cheaper as well.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "type": "concept",
+      "role": "concept",
+      "name": "蒸馏 (distillation)",
+      "file": "蒸馏",
+      "primary": true,
+      "how_described": "本集将这一技术定义为「非偷窃」：由于 AI 输出不受版权法保护，利用大模型生成的数据来训练更小开源模型是合法且对世界有益的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 114,
+          "t": [
+            621.081,
+            625.943
+          ],
+          "quote": "So we have kind of become a little more defenders of distillation recently.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            626.924,
+            634.048
+          ],
+          "quote": "So we talk about how distillation is not actually illegal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            647.295,
+            655.667
+          ],
+          "quote": "You know, how can Anthropic, like, just take everyone's training data without paying them at all, but when other labs pay them, it's distillation, it needs to be banned?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 129,
+          "t": [
+            699.912,
+            703.614
+          ],
+          "quote": "And I think the same – yeah, like I think distillation is generally good for the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            716.24,
+            721.263
+          ],
+          "quote": "But yeah, I think distillation is good and like the whole idea that we're stealing –",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            771.59,
+            778.772
+          ],
+          "quote": "And, you know, because they're in the lead, you know, distillation doesn't work for them because their model is on the cutting edge.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1238.767,
+            1246.668
+          ],
+          "quote": "Yeah, so I think that, I mean, this is where, like, I'm glad you both are pro-distillation, because I think that's an important equation.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "monopoly",
+      "type": "concept",
+      "role": "concept",
+      "name": "垄断 (monopoly)",
+      "file": "垄断",
+      "primary": true,
+      "how_described": "本集将 AI 领域的单一公司垄断描绘为最大的国家安全风险——它会无视政府监管、任意绞杀初创生态，对世界最安全的局面是没有一个能统治一切的 AI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            232.757,
+            245.166
+          ],
+          "quote": "Well, because the whole community could work on the safety problems as opposed to just a company and particularly a monopoly company that, you know, like you can't.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 47,
+          "t": [
+            245.266,
+            250.77
+          ],
+          "quote": "Even if Windows has a million security bugs, there's nothing we can do about it because it was a monopoly at the time, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 103,
+          "t": [
+            569.222,
+            575.905
+          ],
+          "quote": "And, like, we can't be held hostage by, like, the worst scenario is there ends up being a monopoly in AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            900.914,
+            913.183
+          ],
+          "quote": "And so it's kind of that they've kind of fast-forwarded, I would say, the Microsoft playbook from the old days to, like, skipping the platform generation and just going straight to the monopoly generation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            954.361,
+            980.718
+          ],
+          "quote": "A lot of our application companies have used open source to kind of bootstrap themselves or get going or that kind of thing, and often Chinese open source, which is why it's really important to the U.S. ecosystem that we have applications, that we have embodied AI, that we have robots and all these things that we have access to that technology because the kind of other model is a monopoly model where there's one company that owns all the applications.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sleeper-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "潜伏智能体 (sleeper agents)",
+      "file": "潜伏智能体",
+      "primary": false,
+      "how_described": "本集讨论国家安全时提到的潜在威胁：担忧外国开源模型在未来可能被激活成潜伏的间谍智能体，但这被指出并非开源独有（在闭源大厂工作的外籍员工也存在此风险）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            482.953,
+            495.91
+          ],
+          "quote": "to American companies or perhaps they could you know in an AI future make these open source models like sleeper agents basically or you can think of all kinds of things that they could do",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": false,
+      "how_described": "本集指闭源专有模型中内置的安全限制机制，但也批评其无法阻止 AI 为了达成目标而钻规则空子的「奖励黑客行为」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            158.514,
+            170.616
+          ],
+          "quote": "And the only way Hugging Face was able to prevent it, because the proprietary models had guardrails which prevented them from doing security tasks, was to use an open source model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            297.965,
+            301.247
+          ],
+          "quote": "Why is it that guardrails don't prevent the reward hack?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提及的顶尖闭源大厂之一，曾发生过黑客入侵 Hugging Face 的安全事件，目前并未解决棘手的奖励黑客问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            148.992,
+            157.894
+          ],
+          "quote": "I think secondly, we just had a really interesting security incident with OpenAI hacking into Hugging Face.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            287.675,
+            291.339
+          ],
+          "quote": "Obviously, OpenAI has not solved it because we just had these incidents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            496.753,
+            504.657
+          ],
+          "quote": "Yeah, I mean, as could a Chinese national working for Anthropic or OpenAI or, you know, SpaceX, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1373.632,
+            1379.777
+          ],
+          "quote": "Like when DeepSeq came out, it was a DeepSeq moment, and oh my gosh, and this is the end of Anthropic and OpenAI and all that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1385.281,
+            1390.825
+          ],
+          "quote": "And that's because, but DeepSeq is more valuable, and Anthropic's more valuable, and OpenAI is more valuable.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": false,
+      "how_described": "本集作为例子提及，指出如果是国家安全威胁（如潜伏间谍），其内部工作的中国公民也可能被激活，风险并非开源独有。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            496.753,
+            504.657
+          ],
+          "quote": "Yeah, I mean, as could a Chinese national working for Anthropic or OpenAI or, you know, SpaceX, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1392.987,
+            1394.428
+          ],
+          "quote": "And SpaceX is more valuable.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": false,
+      "how_described": "本集作为历史类比提及，批评 Anthropic 等闭源大厂「快进」了微软昔日的 playbook，跳过开放平台直接进入垄断收割阶段。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 164,
+          "t": [
+            900.914,
+            913.183
+          ],
+          "quote": "And so it's kind of that they've kind of fast-forwarded, I would say, the Microsoft playbook from the old days to, like, skipping the platform generation and just going straight to the monopoly generation.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "windows",
+      "type": "company",
+      "role": "company",
+      "name": "Windows",
+      "file": "Windows",
+      "primary": false,
+      "how_described": "本集作为反面教材提及：历史上的垄断产品，即便漏洞百出，外部社区也无能为力，因此不如互联网和 Linux 安全。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            6.705,
+            10.447
+          ],
+          "quote": "So the internet and Linux were far safer than Windows.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            224.281,
+            230.347
+          ],
+          "quote": "So the internet and Linux were far safer than Windows, like by a lot.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 47,
+          "t": [
+            245.266,
+            250.77
+          ],
+          "quote": "Even if Windows has a million security bugs, there's nothing we can do about it because it was a monopoly at the time, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "linux",
+      "type": "company",
+      "role": "company",
+      "name": "Linux",
+      "file": "Linux",
+      "primary": false,
+      "how_described": "本集作为安全开源史的成功案例提及，指出因为整个社区都能参与修补漏洞，它远比闭源垄断的 Windows 安全。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            6.705,
+            10.447
+          ],
+          "quote": "So the internet and Linux were far safer than Windows.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            224.281,
+            230.347
+          ],
+          "quote": "So the internet and Linux were far safer than Windows, like by a lot.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "netscape",
+      "type": "company",
+      "role": "company",
+      "name": "Netscape",
+      "file": "Netscape",
+      "primary": false,
+      "how_described": "本集作为历史类比提及，Ben 提到他曾在 Netscape 工作，当时情报界试图禁止密码学，但数学公式客观存在无法被抹杀，正如今天无法根除开源代码。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            184.683,
+            189.407
+          ],
+          "quote": "And it reminds me of years ago when I was at Netscape, they tried to ban cryptography.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cryptography",
+      "type": "concept",
+      "role": "concept",
+      "name": "密码学 (cryptography)",
+      "file": "密码学",
+      "primary": false,
+      "how_described": "本集作为类比：情报界曾因不理解技术且想要控制权而试图禁止密码学，但禁令挡不住坏人只会绑架好人，正如当前针对开源 AI 的打压。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            184.683,
+            189.407
+          ],
+          "quote": "And it reminds me of years ago when I was at Netscape, they tried to ban cryptography.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 70,
+          "t": [
+            388.366,
+            390.808
+          ],
+          "quote": "So one of the things that happened with cryptography...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 71,
+          "t": [
+            391.866,
+            406.171
+          ],
+          "quote": "is there are people who are very senior in the intelligence community who didn't understand the technological aspect of it, who pushed for banning cryptography because they wanted control.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -8,7 +8,7 @@ unlisted: true
 # AI 优先 (AI-first)
 
 > [!info] 概念
-> 出现在 1 集 · 金句 39 条 · 关联 10 个
+> 出现在 1 集 · 金句 44 条 · 关联 10 个
 
 ## 集里怎么说它
 
@@ -93,6 +93,16 @@ unlisted: true
 ![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q3]]
 
 ![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q4]]
+
+![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q1]]
+
+![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q2]]
+
+![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q4]]
+
+![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q6]]
+
+![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q9]]
 
 ## 出现在这些集
 

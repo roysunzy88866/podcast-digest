@@ -175,6 +175,7 @@ World Labs 成立至今大约 18 个月,团队目前约 30 人。李飞飞坦言
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同公司:ChatGPT
 - [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同公司:ChatGPT
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]] —— 同公司:Google
+- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]] —— 同公司:NVIDIA
 
 *本集关键词:AI 历史 · 空间智能 · 世界模型 · 具身智能 · 3D 生成模型*
 

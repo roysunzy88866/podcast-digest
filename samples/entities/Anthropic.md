@@ -8,7 +8,7 @@ unlisted: true
 # Anthropic
 
 > [!info] 公司
-> 出现在 15 集 · 金句 0 条 · 关联 10 个
+> 出现在 17 集 · 金句 2 条 · 关联 10 个
 
 ## 集里怎么说它
 
@@ -27,6 +27,14 @@ unlisted: true
 - **[[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]]**(05:00起):本集在提到哪些顶级 AI 公司使用 WorkOS 时列出了它，并提及最近领导其 Claude 产品设计的设计师 Jenny Wen。
 - **[[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]]**(05:46起):本集作为前沿实验室的代表，被提及已延长其顶级模型的可用期限以应对开源模型的逼近；同时其围绕 Claude 的产品工具套件被视为构建护城河的关键。
 - **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]]**(10:54起):本集把它说成:与 OpenAI 并列的「双重故障点」,两者必须保持指数级收入增长才能撑起万亿规模的 AI 数据中心表外债务链条。
+- **[[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]]**(04:45起):本集将其作为闭源垄断巨头的典型反复点名：被指投入大量资金推动禁止开源；既当裁判又当运动员下场抢夺应用层生意；甚至公然无视政府与国家安全，宣称「我们说了算」。
+- **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]]**(00:00起):本集讨论的 AI 公司，拥有 Claude 系列模型，嘉宾在其中担任 AI 研究和实验室团队的产品负责人，讲述了公司早期摸索与押注编码能力的发展历程。
+
+## 金句
+
+![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q8]]
+
+![[2026-07-26-lennys-anthropics-first-technical-pm-on#^q2]]
 
 ## 出现在这些集
 
@@ -45,7 +53,9 @@ unlisted: true
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]] — 作为被讨论公司(提及)
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]] — 作为被讨论公司(提及)
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]] — 作为被讨论公司
+- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]] — 作为被讨论公司
+- [[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Lenny]] · [[智能体]] · [[OpenAI]] · [[Claude]] · [[AGI]] · [[Claude Code]] · [[Slack]] · [[Google]] · [[Codex]] · [[ChatGPT]]
+[[Lenny]] · [[智能体]] · [[OpenAI]] · [[Claude]] · [[Claude Code]] · [[AGI]] · [[Codex]] · [[Slack]] · [[Google]] · [[蒸馏]]

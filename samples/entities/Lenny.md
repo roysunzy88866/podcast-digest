@@ -8,7 +8,7 @@ unlisted: true
 # Lenny
 
 > [!info] 人物
-> 出现在 28 集 · 金句 9 条 · 关联 10 个
+> 出现在 29 集 · 金句 9 条 · 关联 10 个
 
 ## 金句
 
@@ -60,7 +60,8 @@ unlisted: true
 - [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]] — 作为主持
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]] — 作为联合主持
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失》]] — 作为主持
+- [[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]] — 作为联合主持
 
 ## 关联实体
 
-[[智能体]] · [[Anthropic]] · [[ChatGPT]] · [[Slack]] · [[OpenAI]] · [[Claude Code]] · [[Google]] · [[Claude]] · [[智能体]] · [[主观能动性]]
+[[Anthropic]] · [[智能体]] · [[OpenAI]] · [[ChatGPT]] · [[Slack]] · [[Claude Code]] · [[Claude]] · [[Google]] · [[智能体]] · [[主观能动性]]
