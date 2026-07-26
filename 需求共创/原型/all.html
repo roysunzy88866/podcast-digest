@@ -1,0 +1,135 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>原型总览 · 电脑版 + 手机版并排</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#ececed;font:14px/1.7 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif;color:#1e1e1e}
+.wrap{max-width:1240px;margin:0 auto;padding:18px 16px 60px}
+h1{font-size:19px;font-weight:600;margin:0 0 4px;letter-spacing:.2px}
+.sub{font-size:13px;color:#6f7174;margin:0 0 16px}
+.sub b{color:#b8443c}
+
+.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;background:#fff;border-radius:12px;
+     padding:11px 13px;margin-bottom:10px;box-shadow:0 1px 3px #00000010}
+.bar>b{font-size:12px;color:#8a8a8e;font-weight:600;margin-right:2px}
+.bar button{font:inherit;font-size:13px;padding:7px 13px;border:1px solid #dcdcde;background:#fff;
+            border-radius:16px;cursor:pointer;color:#48494c}
+.bar button:hover{border-color:#b8443c;color:#b8443c}
+.bar button.on{background:#b8443c;border-color:#b8443c;color:#fff}
+.bar .sp{flex:1}
+.tog{display:flex;align-items:center;gap:7px;font-size:12.5px;color:#6f7174;cursor:pointer;user-select:none}
+.tog input{accent-color:#b8443c;width:15px;height:15px}
+
+.stage{display:flex;gap:18px;align-items:flex-start;flex-wrap:wrap}
+.pane{background:#fff;border-radius:12px;padding:12px;box-shadow:0 1px 3px #00000010}
+.pane h2{font-size:13px;font-weight:600;margin:0 0 2px;display:flex;align-items:center;gap:8px}
+.pane h2 i{font-style:normal;font-size:11.5px;color:#a0a0a4;font-weight:400}
+.pane .path{font-size:11px;color:#acaeb3;margin:0 0 9px;font-family:ui-monospace,Menlo,monospace;
+            white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.shot{overflow:hidden;border-radius:8px;border:1px solid #e4e4e5;background:#fff}
+.shot iframe{border:0;display:block;transform-origin:0 0}
+/* 电脑版:按 1280×860 渲染后整体缩到 0.52,一屏能同时看两端 */
+#pcBox{width:666px;height:447px}
+#pcFrame{width:1280px;height:860px;transform:scale(.52)}
+/* 手机版:390×844 原尺寸,不缩放 —— 字号手感要真 */
+#mbBox{width:390px;height:750px}
+#mbFrame{width:390px;height:750px}
+
+.state{background:#fff;border-radius:12px;padding:16px 18px;margin-top:18px;box-shadow:0 1px 3px #00000010}
+.state h3{font-size:14px;margin:0 0 10px}
+.state ul{margin:0 0 14px;padding-left:19px}
+.state li{font-size:13px;line-height:1.95;color:#48494c}
+.state li b{color:#1e1e1e}
+.ok{color:#3E938A;font-weight:600}
+.wait{color:#b8443c;font-weight:600}
+@media (max-width:1180px){
+  #pcBox{width:512px;height:344px} #pcFrame{transform:scale(.4)}
+}
+@media (max-width:960px){
+  .stage{flex-direction:column}
+  #pcBox{width:100%;max-width:512px}
+}
+</style></head><body>
+<div class="wrap">
+<h1>原型总览 · 电脑版与手机版并排</h1>
+<p class="sub">左边是电脑版(按 1280 宽渲染后缩到 52% 显示),右边是手机版(390×844 <b>原尺寸</b>,字号手感是真的)。
+两边都是<b>活页面</b>,可以滚、可以点。默认<b>联动</b>:在任意一边点进某一集,另一边自动跟到同一页。</p>
+
+<div class="bar"><b>页面</b>
+  <button class="on" data-u="index.html">首页</button>
+  <button data-u="must-read.html">必读</button>
+  <button data-u="cat-1.html">大类页</button>
+  <button data-u="ep-2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo.html">单集页</button>
+  <button data-u="person-peter-steinberger.html">人物页</button>
+  <button data-u="search.html">搜索页</button>
+  <span class="sp"></span>
+  <label class="tog"><input type="checkbox" id="sync" checked> 两边联动</label>
+</div>
+
+<div class="stage">
+  <div class="pane">
+    <h2>电脑版 <i>1280 × 860 · 显示缩到 52%</i></h2>
+    <div class="path" id="pcPath">index.html</div>
+    <div class="shot" id="pcBox"><iframe id="pcFrame" src="index.html"></iframe></div>
+  </div>
+  <div class="pane">
+    <h2>手机版 <i>390 × 844 · 原尺寸</i></h2>
+    <div class="path" id="mbPath">index.html</div>
+    <div class="shot" id="mbBox"><iframe id="mbFrame" src="index.html"></iframe></div>
+  </div>
+</div>
+
+<div class="state">
+  <h3>这一版做到哪了</h3>
+  <ul>
+    <li><span class="ok">✅ 已做完</span> —— 首页 / 必读 / 8 个大类页 / 40 个单集页 / 8 个人物页 / 搜索(弹层 + 独立结果页),
+        <b>每一页都有电脑版和手机版两套设计</b>(手机不是把电脑压窄,是另做的一套)。
+        实测:9 个代表页 × 两种宽度,0 个报错、0 处横向溢出。</li>
+    <li><span class="ok">✅ 今天新加</span> —— 单集页手机版(吸顶折叠目录 + 阅读进度 + `↩` 触摸热区放大)、
+        人物页手机版(吸顶 chip 条)、<b>「必读」栏</b>(机器按两条口径各挑一半,同源不超一半)。</li>
+    <li><span class="wait">⏳ 等你拍板</span> —— <b>首页第一屏长什么样</b>(说清楚+精选+列表 / 纯介绍页 / 直接进内容),
+        你说过要先自己看几个活站再定。</li>
+    <li><span class="wait">⏳ 等你拍板</span> —— <b>人物页留不留</b>。实测 46 位人物里 44 位只出现在 1 集,
+        点进去比来时那页信息还少;但砍它会动到需求共识里两条 P0,得走共识修改流程。</li>
+    <li><span class="wait">⏳ 别的 session 在做</span> —— 每集配图的生成、流水线抽「嘉宾名 · 职位」。
+        卡片上那行人名职位现在是原型里用正则凑的,以后由流水线供给。</li>
+  </ul>
+  <h3>关于内容</h3>
+  <ul>
+    <li>页面里的标题、金句、正文、人物、话题<b>全是真数据</b>,不是占位文字。</li>
+    <li>40 集里只有 6 集有真配图,其余是兜底色块 —— 这是<b>真实情况</b>,不是没做完(8 个源里只有 3 个源真的一集一张图)。</li>
+  </ul>
+</div>
+</div>
+
+<script>
+var pc=document.getElementById('pcFrame'), mb=document.getElementById('mbFrame'),
+    pcP=document.getElementById('pcPath'), mbP=document.getElementById('mbPath'),
+    sync=document.getElementById('sync');
+var last={pc:'index.html', mb:'index.html'};
+
+function file(fr){                       // 取 iframe 当前文件名(同源,可读)
+  try{ return fr.contentWindow.location.pathname.split('/').pop() || 'index.html'; }
+  catch(e){ return null; }               // 没加载完时读不到,跳过这一轮
+}
+function go(url){
+  last.pc=last.mb=url;
+  pc.src=url; mb.src=url;
+  pcP.textContent=mbP.textContent=url;
+  document.querySelectorAll('.bar button[data-u]').forEach(function(b){
+    b.classList.toggle('on', b.dataset.u===url); });
+}
+document.querySelectorAll('.bar button[data-u]').forEach(function(b){
+  b.onclick=function(){ go(b.dataset.u); }; });
+
+// 联动:哪边被点进新页面,另一边跟过去(轮询比拦点击稳 —— 卡片是 data-go 点击委托,不是 <a>)
+setInterval(function(){
+  var a=file(pc), b=file(mb);
+  if(a) pcP.textContent=a;
+  if(b) mbP.textContent=b;
+  if(!sync.checked) { if(a) last.pc=a; if(b) last.mb=b; return; }
+  if(a && a!==last.pc){ last.pc=last.mb=a; if(b!==a) mb.src=a; }
+  else if(b && b!==last.mb){ last.mb=last.pc=b; if(a!==b) pc.src=b; }
+}, 400);
+</script>
+</body></html>

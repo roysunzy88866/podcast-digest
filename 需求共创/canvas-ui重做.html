@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UI 重做 · 结构容纳稿(非视觉稿)</title>
+<style>
+  :root{
+    --ink:#1a1a1a; --ink2:#5c5c5c; --ink3:#8e8e8e;
+    --line:#e4e4e4; --bg:#fff; --bg2:#fafafa;
+    --accent:#b8443c;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#ececed;color:var(--ink);
+    font:14px/1.6 -apple-system,"PingFang SC","Microsoft YaHei",sans-serif}
+  .note{max-width:1400px;margin:24px auto 8px;padding:14px 18px;background:#fff6f5;
+    border-left:3px solid var(--accent);font-size:13px;line-height:1.8;color:#4a3330}
+  .note b{color:var(--accent)}
+  h2.sec{max-width:1400px;margin:34px auto 12px;font-size:15px;color:#333;font-weight:700}
+
+  /* ---------- 桌面 ---------- */
+  .desk{max-width:1400px;margin:0 auto;background:var(--bg);border:1px solid #d5d5d5;
+    border-radius:6px;overflow:hidden}
+  .topbar{display:flex;align-items:center;gap:26px;padding:14px 22px;border-bottom:1px solid var(--line)}
+  .brand{font-size:17px;font-weight:700;white-space:nowrap}
+  .navi{display:flex;gap:20px;font-size:14px;color:var(--ink2)}
+  .search{flex:1;max-width:420px;margin-left:auto;border:1px solid var(--line);
+    border-radius:4px;padding:7px 12px;color:var(--ink3);font-size:13px;background:var(--bg2)}
+  .cols{display:grid;grid-template-columns:170px 1fr 230px;min-height:620px}
+  .left,.right{padding:18px 16px}
+  .left{border-right:1px solid var(--line)}
+  .right{border-left:1px solid var(--line)}
+  .vitem{padding:7px 0;font-size:14px;color:var(--ink2)}
+  .vitem.on{color:var(--ink);font-weight:700}
+  .about{margin-top:22px;padding-top:16px;border-top:1px solid var(--line);
+    font-size:12px;line-height:1.85;color:var(--ink2)}
+  .about b{display:block;color:var(--ink);margin-bottom:6px;font-size:13px}
+  .rblock{margin-bottom:26px}
+  .rblock h4{margin:0 0 9px;font-size:13px;font-weight:700}
+  .rrow{display:flex;justify-content:space-between;font-size:13px;color:var(--ink2);padding:4px 0}
+  .rrow span:last-child{color:var(--ink3);font-variant-numeric:tabular-nums}
+  .mid{padding:18px 20px;background:var(--bg)}
+  .dateh{display:flex;align-items:center;gap:12px;font-size:13px;font-weight:700;
+    color:var(--ink2);margin:6px 0 14px}
+  .dateh:after{content:"";flex:1;height:1px;background:var(--line)}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-bottom:26px}
+  .card{border:1px solid var(--line);border-radius:5px;padding:14px 15px;background:var(--bg)}
+  .card .t{font-size:16px;font-weight:700;line-height:1.45;margin-bottom:9px}
+  .card .q{font-size:13px;line-height:1.65;color:#3d3d3d;padding-left:9px;
+    border-left:2px solid var(--accent);margin-bottom:10px}
+  .card .m{font-size:12px;color:var(--ink3);line-height:1.7}
+  .chip{display:inline-block;font-size:11px;padding:1px 7px;border:1px solid var(--line);
+    border-radius:9px;color:var(--ink2);margin-left:4px}
+  .full{grid-column:1/-1;background:var(--bg2);border-color:#d8d8d8}
+  .full .t{font-size:19px}
+  .full .q{font-size:15px}
+  .star{font-size:11px;color:var(--accent);font-weight:700;margin-bottom:6px}
+
+  /* ---------- 手机 ---------- */
+  .phones{max-width:1400px;margin:0 auto;display:flex;gap:26px;flex-wrap:wrap}
+  .ph{flex:0 0 375px;width:375px;background:var(--bg);border:1px solid #d5d5d5;border-radius:8px;overflow:hidden}
+  .ph .cap{padding:9px 12px;background:#333;color:#fff;font-size:12px;line-height:1.6}
+  .ph .cap b{color:#ffb3ad}
+  .viewport{height:667px;overflow-y:auto;position:relative}
+  .fold{border-top:2px dashed var(--accent);font-size:10px;color:var(--accent);
+    padding:2px 8px;background:#fff6f5}
+  .ptop{display:flex;align-items:center;gap:10px;padding:11px 13px;border-bottom:1px solid var(--line)}
+  .ptop .brand{font-size:15px}
+  .ptabs{display:flex;gap:16px;padding:9px 13px;border-bottom:1px solid var(--line);
+    font-size:13px;color:var(--ink2);overflow-x:auto}
+  .ptabs .on{color:var(--ink);font-weight:700}
+  .plist{padding:0 13px}
+  .pdate{font-size:12px;font-weight:700;color:var(--ink2);padding:13px 0 7px;
+    display:flex;align-items:center;gap:9px}
+  .pdate:after{content:"";flex:1;height:1px;background:var(--line)}
+  .it{padding:10px 0;border-bottom:1px solid #f0f0f0}
+  .it .t{font-size:15px;font-weight:600;line-height:1.45}
+  .it .q{font-size:13px;color:#3d3d3d;line-height:1.5;margin-top:4px;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .it .q.wrap{white-space:normal}
+  .it .m{font-size:12px;color:var(--ink3);margin-top:3px;
+    white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .it.up{background:var(--bg2);border:1px solid var(--line);border-radius:5px;
+    padding:11px 12px;margin:8px 0}
+  .it.up .q{white-space:normal;border-left:2px solid var(--accent);padding-left:8px;margin-top:6px}
+  .it.d1{padding:7px 0}
+  .it.d1 .t{font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .it.d1 i{font-style:normal;font-size:12px;color:var(--ink3);font-weight:400}
+</style>
+</head>
+<body>
+
+<div class="note">
+  <b>这是结构容纳稿,不是视觉稿。</b>只用来看「元素装不装得下、位置对不对、一屏能放几条」。
+  配色、字体、间距、圆角、比例 <b>全部不算数</b>,视觉 100% 归设计侧从头定(方向 A 规格另有文档)。<br>
+  条目内容为示意占位,<b>非真实数据</b>。红色虚线 = 手机首屏折叠线(iPhone 可视区约 667px 处)。
+</div>
+
+<h2 class="sec">桌面 · 已确认结构(三栏 + 日期分组 + 双排 + 通栏升格)</h2>
+<div class="desk">
+  <div class="topbar">
+    <div class="brand">英文播客中文精华</div>
+    <div class="navi"><span>主题</span><span>人物</span><span>关于</span></div>
+    <div class="search">🔍 搜正文 / 金句 / 人名</div>
+  </div>
+  <div class="cols">
+    <div class="left">
+      <div class="vitem on">最新</div>
+      <div class="vitem">必读</div>
+      <div class="vitem">全部 44</div>
+      <div class="vitem">按主题</div>
+      <div class="about"><b>关于本站</b>每周把几集英文播客变成能读的中文精华,每句都能回到原话。</div>
+    </div>
+
+    <div class="mid">
+      <div class="dateh">7月25日</div>
+      <div class="grid">
+        <div class="card">
+          <div class="t">黄仁勋复盘 NVIDIA 的二十年</div>
+          <div class="q">「我们赌的不是芯片,是整个软件栈都会被重写。」</div>
+          <div class="m">Jensen Huang · NVIDIA CEO<br>Acquired <span class="chip">智能体</span></div>
+        </div>
+        <div class="card">
+          <div class="t">为什么大部分 AI 产品活不过 6 个月</div>
+          <div class="q">「用户不要 AI,用户要结果。」</div>
+          <div class="m">Lenny Rachitsky · 产品顾问<br>Lenny's Podcast <span class="chip">产品方法</span></div>
+        </div>
+        <div class="card full">
+          <div class="star">★ 今天最值得读</div>
+          <div class="t">沉默的大多数:B2B 增长里没人愿意讲的真相</div>
+          <div class="q">「增长不是把新客拉进来,是让老客走不掉 —— 这两件事用的根本不是同一套人。」</div>
+          <div class="m">Elena Verna · 增长顾问 · Lenny's Podcast <span class="chip">增长与销售</span></div>
+        </div>
+        <div class="card">
+          <div class="t">平台化不是万灵药</div>
+          <div class="q">「先赢下一个场景,再谈平台。」</div>
+          <div class="m">Casey Winters · 产品顾问<br>Lenny's Podcast <span class="chip">产品方法</span></div>
+        </div>
+        <div class="card">
+          <div class="t">当模型开始自己写测试</div>
+          <div class="q">「评估集才是护城河,模型不是。」</div>
+          <div class="m">Mike Krieger · Anthropic CPO<br>Latent Space <span class="chip">AI 编程</span></div>
+        </div>
+      </div>
+      <div class="dateh">7月24日</div>
+      <div class="grid">
+        <div class="card">
+          <div class="t">远程团队怎么保住信任</div>
+          <div class="q">「信任是靠可预测性攒的,不是靠开会。」</div>
+          <div class="m">Claire Hughes Johnson · 前 Stripe COO<br>Lenny's Podcast <span class="chip">组织与领导力</span></div>
+        </div>
+        <div class="card">
+          <div class="t">对齐研究到底卡在哪</div>
+          <div class="q">「我们能测的和我们在乎的,还差着一整层。」</div>
+          <div class="m">Jan Leike · 研究员<br>Latent Space <span class="chip">AI 安全</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="rblock"><h4>按主题</h4>
+        <div class="rrow"><span>智能体</span><span>12</span></div>
+        <div class="rrow"><span>AI 编程</span><span>9</span></div>
+        <div class="rrow"><span>组织与领导力</span><span>7</span></div>
+        <div class="rrow"><span>产品方法</span><span>6</span></div>
+        <div class="rrow"><span>增长与销售</span><span>5</span></div>
+        <div class="rrow"><span>AI 安全</span><span>3</span></div>
+        <div class="rrow"><span>创业与行业</span><span>2</span></div>
+      </div>
+      <div class="rblock"><h4>常出现的人</h4>
+        <div class="rrow"><span>Lenny Rachitsky</span><span>6 集</span></div>
+        <div class="rrow"><span>Elena Verna</span><span>4 集</span></div>
+        <div class="rrow"><span>Jensen Huang</span><span>3 集</span></div>
+      </div>
+      <div class="rblock"><h4>随便看一集 🎲</h4></div>
+    </div>
+  </div>
+</div>
+
+<h2 class="sec">手机 · 三种密度对照(同一批内容,同一可视高度 375×667)</h2>
+<div class="phones">
+
+  <!-- A -->
+  <div class="ph">
+    <div class="cap"><b>A · 三行/条</b> 标题 / 金句(单行截断) / 嘉宾·头衔 —— 金句每条都有</div>
+    <div class="viewport">
+      <div class="ptop"><span>☰</span><span class="brand">英文播客中文精华</span><span style="margin-left:auto">🔍</span></div>
+      <div class="ptabs"><span class="on">最新</span><span>必读</span><span>全部</span><span>按主题</span></div>
+      <div class="plist">
+        <div class="pdate">7月25日</div>
+        <div class="it"><div class="t">黄仁勋复盘 NVIDIA 的二十年</div><div class="q">「我们赌的不是芯片,是整个软件栈都会被重写。」</div><div class="m">Jensen Huang · NVIDIA CEO · 智能体</div></div>
+        <div class="it"><div class="t">为什么大部分 AI 产品活不过 6 个月</div><div class="q">「用户不要 AI,用户要结果。」</div><div class="m">Lenny Rachitsky · 产品顾问 · 产品方法</div></div>
+        <div class="it"><div class="t">沉默的大多数:B2B 增长里没人愿意讲的真相</div><div class="q">「增长不是把新客拉进来,是让老客走不掉。」</div><div class="m">Elena Verna · 增长顾问 · 增长与销售</div></div>
+        <div class="it"><div class="t">平台化不是万灵药</div><div class="q">「先赢下一个场景,再谈平台。」</div><div class="m">Casey Winters · 产品顾问 · 产品方法</div></div>
+        <div class="it"><div class="t">当模型开始自己写测试</div><div class="q">「评估集才是护城河,模型不是。」</div><div class="m">Mike Krieger · Anthropic CPO · AI 编程</div></div>
+        <div class="fold">首屏折叠线 ↑ 以上 5 条</div>
+        <div class="it"><div class="t">远程团队怎么保住信任</div><div class="q">「信任是靠可预测性攒的,不是靠开会。」</div><div class="m">Claire Hughes Johnson · 前 Stripe COO · 组织与领导力</div></div>
+        <div class="it"><div class="t">对齐研究到底卡在哪</div><div class="q">「我们能测的和我们在乎的,还差着一整层。」</div><div class="m">Jan Leike · 研究员 · AI 安全</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- B -->
+  <div class="ph">
+    <div class="cap"><b>B · 两行/条</b> 标题 / 金句 —— 最密。嘉宾头衔挤不下,只留名字</div>
+    <div class="viewport">
+      <div class="ptop"><span>☰</span><span class="brand">英文播客中文精华</span><span style="margin-left:auto">🔍</span></div>
+      <div class="ptabs"><span class="on">最新</span><span>必读</span><span>全部</span><span>按主题</span></div>
+      <div class="plist">
+        <div class="pdate">7月25日</div>
+        <div class="it"><div class="t">黄仁勋复盘 NVIDIA 的二十年</div><div class="q">「赌的不是芯片,是软件栈会被重写」— Jensen Huang</div></div>
+        <div class="it"><div class="t">为什么大部分 AI 产品活不过 6 个月</div><div class="q">「用户不要 AI,用户要结果」— Lenny Rachitsky</div></div>
+        <div class="it"><div class="t">沉默的大多数:B2B 增长里没人愿意讲的真相</div><div class="q">「增长不是拉新客,是让老客走不掉」— Elena Verna</div></div>
+        <div class="it"><div class="t">平台化不是万灵药</div><div class="q">「先赢下一个场景,再谈平台」— Casey Winters</div></div>
+        <div class="it"><div class="t">当模型开始自己写测试</div><div class="q">「评估集才是护城河,模型不是」— Mike Krieger</div></div>
+        <div class="it"><div class="t">远程团队怎么保住信任</div><div class="q">「信任是靠可预测性攒的,不是靠开会」— Claire H. Johnson</div></div>
+        <div class="it"><div class="t">对齐研究到底卡在哪</div><div class="q">「我们能测的和在乎的差着一整层」— Jan Leike</div></div>
+        <div class="fold">首屏折叠线 ↑ 以上 7 条</div>
+        <div class="it"><div class="t">定价是产品的一部分</div><div class="q">「定价改一次,等于重做一次产品」— Madhavan Ramanujam</div></div>
+        <div class="it"><div class="t">从 0 到 1 的第一批用户</div><div class="q">「前一百个用户要手动捞」— Paul Graham</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- C -->
+  <div class="ph">
+    <div class="cap"><b>C · 混合</b> 默认两行(标题/嘉宾),金句只给升格条 —— 与桌面通栏升格同一规则</div>
+    <div class="viewport">
+      <div class="ptop"><span>☰</span><span class="brand">英文播客中文精华</span><span style="margin-left:auto">🔍</span></div>
+      <div class="ptabs"><span class="on">最新</span><span>必读</span><span>全部</span><span>按主题</span></div>
+      <div class="plist">
+        <div class="pdate">7月25日</div>
+        <div class="it"><div class="t">黄仁勋复盘 NVIDIA 的二十年</div><div class="m">Jensen Huang · NVIDIA CEO · 智能体</div></div>
+        <div class="it"><div class="t">为什么大部分 AI 产品活不过 6 个月</div><div class="m">Lenny Rachitsky · 产品顾问 · 产品方法</div></div>
+        <div class="it up"><div class="star">★ 今天最值得读</div><div class="t">沉默的大多数:B2B 增长里没人愿意讲的真相</div><div class="q">「增长不是把新客拉进来,是让老客走不掉 —— 这两件事用的根本不是同一套人。」</div><div class="m">Elena Verna · 增长顾问 · 增长与销售</div></div>
+        <div class="it"><div class="t">平台化不是万灵药</div><div class="m">Casey Winters · 产品顾问 · 产品方法</div></div>
+        <div class="it"><div class="t">当模型开始自己写测试</div><div class="m">Mike Krieger · Anthropic CPO · AI 编程</div></div>
+        <div class="it"><div class="t">远程团队怎么保住信任</div><div class="m">Claire Hughes Johnson · 前 Stripe COO · 组织与领导力</div></div>
+        <div class="fold">首屏折叠线 ↑ 以上 6 条(含 1 条升格)</div>
+        <div class="it"><div class="t">对齐研究到底卡在哪</div><div class="m">Jan Leike · 研究员 · AI 安全</div></div>
+        <div class="it"><div class="t">定价是产品的一部分</div><div class="m">Madhavan Ramanujam · 定价顾问 · 增长与销售</div></div>
+        <div class="it"><div class="t">从 0 到 1 的第一批用户</div><div class="m">Paul Graham · YC 创始人 · 创业与行业</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- D -->
+  <div class="ph">
+    <div class="cap"><b>D · 一行/条</b> 标题 + 嘉宾同行截断,金句完全不上列表(Lex Fridman 式)</div>
+    <div class="viewport">
+      <div class="ptop"><span>☰</span><span class="brand">英文播客中文精华</span><span style="margin-left:auto">🔍</span></div>
+      <div class="ptabs"><span class="on">最新</span><span>必读</span><span>全部</span><span>按主题</span></div>
+      <div class="plist">
+        <div class="pdate">7月25日</div>
+        <div class="it d1"><div class="t">黄仁勋复盘 NVIDIA 的二十年 <i>Jensen Huang·NVIDIA CEO</i></div></div>
+        <div class="it d1"><div class="t">为什么大部分 AI 产品活不过 6 个月 <i>Lenny Rachitsky·产品顾问</i></div></div>
+        <div class="it d1"><div class="t">沉默的大多数:B2B 增长里没人愿意讲的真相 <i>Elena Verna·增长顾问</i></div></div>
+        <div class="it d1"><div class="t">平台化不是万灵药 <i>Casey Winters·产品顾问</i></div></div>
+        <div class="it d1"><div class="t">当模型开始自己写测试 <i>Mike Krieger·Anthropic CPO</i></div></div>
+        <div class="it d1"><div class="t">远程团队怎么保住信任 <i>Claire Hughes Johnson·前 Stripe COO</i></div></div>
+        <div class="it d1"><div class="t">对齐研究到底卡在哪 <i>Jan Leike·研究员</i></div></div>
+        <div class="it d1"><div class="t">定价是产品的一部分 <i>Madhavan Ramanujam·定价顾问</i></div></div>
+        <div class="pdate">7月24日</div>
+        <div class="it d1"><div class="t">从 0 到 1 的第一批用户 <i>Paul Graham·YC 创始人</i></div></div>
+        <div class="it d1"><div class="t">招人这件事没有捷径 <i>Claire Hughes Johnson·前 Stripe COO</i></div></div>
+        <div class="it d1"><div class="t">评估驱动的开发流程 <i>Hamel Husain·ML 顾问</i></div></div>
+        <div class="it d1"><div class="t">当 Agent 开始自己调用工具 <i>Shreya Shankar·研究员</i></div></div>
+        <div class="it d1"><div class="t">别急着做平台 <i>Gokul Rajaram·产品负责人</i></div></div>
+        <div class="it d1"><div class="t">留存曲线怎么读 <i>Elena Verna·增长顾问</i></div></div>
+        <div class="fold">首屏折叠线</div>
+        <div class="it d1"><div class="t">创始人怎么招第一个销售 <i>Pete Kazanjy·销售顾问</i></div></div>
+      </div>
+    </div>
+  </div>
+
+</div>
+<div style="height:40px"></div>
+</body>
+</html>

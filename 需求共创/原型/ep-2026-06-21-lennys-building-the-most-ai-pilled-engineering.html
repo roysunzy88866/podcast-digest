@@ -1,0 +1,128 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构</title><link rel="stylesheet" href="style.css?v=41"><script src="search.js" defer></script><script src="m-detail.js?v=7" defer></script></head><body>
+<header class="top"><div class="topin">
+<a class="b" href="index.html">跨国深谈</a>
+<nav class="mainnav"><a href="index.html">最新</a><a href="must-read.html">最热</a></nav>
+<a class="mtitle" href="index.html">←<span>返回</span></a><div class="acts"><button class="ico deskonly" onclick="openSearch()" title="搜索"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="9" r="5.5"/><path d="M13.2 13.2 17 17"/></svg></button><button class="ico deskonly" title="深浅色"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="6.5"/><path d="M10 3.5v13a6.5 6.5 0 0 0 0-13z" fill="currentColor" stroke="none"/></svg></button>
+<button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div>
+</div></header>
+<div class="mmenu" id="mm">
+  <div class="mmhead"><span class="b">跨国深谈</span><button class="ico" onclick="document.getElementById('mm').classList.remove('open')">✕</button></div>
+  <input class="mmsearch" id="mmq" placeholder="搜标题 / 金句 / 正文 / 人名">
+  <div id="mmres"></div>
+  <div class="mmsec">浏览</div><div class="mmnav" id="mmnav"></div>
+  <div class="mmsec">主题</div><div class="mmcat" id="mmcat"></div>
+</div>
+<div class="skrim" id="sk" onclick="if(event.target===this)this.style.display='none'">
+  <div class="sbox"><input id="sq" placeholder="搜标题 / 金句 / 正文 / 人名">
+  <div id="sres"></div>
+  <div class="shist"><span>试试</span><b>智能体</b><b>护城河</b><b>Anthropic</b><b>增长</b></div></div>
+</div>
+<div class="shell det"><div class="mid">
+<a class="back" href="index.html">← 返回</a>
+<h1 class="pt">当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构</h1>
+<div class="byl"></div>
+<div class="mt">Lenny&#x27;s Podcast · 2026-06-21 · <a class="mcat" href="cat-2.html">组织与领导力</a> · <a class="mcat" href="cat-ai.html">AI 编程</a></div>
+<div class="play"><span class="pb">▶</span><span><span class="tt">听中文精华</span><span class="s">98 分钟 · AI 合成朗读</span></span><span class="bar"></span><span class="s">00:00</span></div>
+<div class="hook"><div class="z">对于任何你知道存在恐惧的事情,我的建议是拥抱它并问自己,好吧,有什么我能做的吗,什么在我的控制范围内。</div><div class="a">— Fiona Fung <button class="ts" data-t="21:28"></button></div></div>
+<div class="tldr"><b>一句话</b>Fiona Fung分享在代码量暴涨8倍后,如何用异步智能体、验证机制与新管理者制度重塑工程团队。</div>
+<p>本集嘉宾是 Fiona Fung,她领导 Anthropic 的 Claude Code 和 Co-Work 团队。在加入 Anthropic 之前,她曾在微软工作多年,后转战 Facebook(现 Meta)领导了 Facebook Marketplace 团队,并在 Instagram 负责过包含五百多人的庞大工程组织。作为拥有二十五年经验的资深工程师,她亲历了软件工程从光盘时代到云时代的历次变迁。在这集访谈中,Fiona 分享了当生成式 AI 让代码产量激增、编码不再是瓶颈时,软件团队在验证、协作、角色边界乃至新人培养上面临的全面冲击。全文将沿着四个维度展开:编码生产力暴涨后的验证新命题、团队角色的模糊与新工作流、面对 AI 的两种心态与落差危机,以及团队规模化的文化与制度挑战。</p><h2 id="s0">当吞吐量不再是瓶颈:验证成为新战场</h2><p>Fiona 回忆了软件工程历史上的几次大转折:从早期在 IBM 用 Vim 和终端做调试,到加入微软后第一次用上带调试器的 IDE(集成开发环境,即集成了代码编写、运行和调试功能的软件);从软件必须刻成光盘上架的「硬截止日期」时代,到可以随时在线发版的云时代。每一次工具演进,都在重新分配工程师的时间。而眼下的 AI 变革尤为剧烈:她指出,过去工程时间是最宝贵的资源,但现在编码本身已经不再是瓶颈。最近一条推文展示的数据显示,Anthropic 的工程师平均每个季度的代码量达到了 2025 年时的八倍 <button class="ts" data-t="03:28" data-who="Lenny"></button>。随之而来的核心变化是:不仅工程师在提交代码,设计师、产品经理(Co-Work 团队的所有人)都在提交代码,而且吞吐量极高。这种量级的变化,把团队的重心从「写代码」推向了「验证」<button class="ts" data-t="08:59" data-who="Fiona Fung"></button>。</p><h2 id="s1">用 Claude 当管理耳目,用「坏与悲」抓质量</h2><p>既然编码不再是瓶颈,工具变了,团队的工作方式怎么跟上?Fiona 介绍了几项她作为管理者的新做法。她把一个 Claude Code 远程会话注册到了团队的所有代码仓库中,这个实例还能访问所有 Slack 频道和指标数据。这样,她每个月可以用共享屏幕的方式,带着团队用 Claude Code 一起复盘:上个月的重点是什么?发布了哪些产品?反馈如何?有没有引发什么 Bug?她强调,通过 Claude 的全局视角,团队可以更容易地从大量数据和事件中提炼出下个季度的投资主题 <button class="ts" data-t="10:10" data-who="Fiona Fung"></button>。</p>
+<p>顺着「如何在高产出下维持质量」这个问题,Fiona 提到了两项更具体的做法。第一是利用自动化测试框架进行代码审查。她指出,Claude 在你给它提供一个「好代码长什么样」的框架时非常出色。团队的做法是把规格说明签入代码仓库并保持与代码同步更新,让 Claude 验证提交的代码是否符合预期。她将这视为测试驱动开发(即先写测试用例再写功能代码,TDD)的演进 <button class="ts" data-t="15:25" data-who="Fiona Fung"></button>。第二是她在团队中推行的「坏与悲」体验分类法。「坏」指的是非常严重的、不可恢复的错误(比如 CLI 崩溃导致用户丢失工作);「悲」则是指那些可恢复但让人不舒服的痛点(比如界面闪烁)。她给每个团队高度自主权,让他们根据各自的服务定义自己的「坏」与「悲」,这样就能在性能、可靠性等原始指标之外,提供一个衡量用户体验的高层框架 <button class="ts" data-t="45:25" data-who="Fiona Fung"></button>。更有趣的是,团队甚至做了一个追踪脏话的仪表盘,用来监测用户在反馈渠道里的挫败感 <button class="ts" data-t="47:50" data-who="Fiona Fung"></button>。</p><h2 id="s2">角色大融合与异步智能体工作流</h2><p>说完了怎么管质量,接下来是人的问题。在 AI 工具的加持下,团队的角色边界正在迅速模糊。Fiona 现在在招聘时最看重两类人:一类是有产品直觉的「创意构建者」,一类是能处理核心难题的「深层系统专家」<button class="ts" data-t="17:09" data-who="Lenny"></button>。产品经理也不再受限于工程资源的带宽,遇到想做的功能可以直接卷起袖子自己动手;而非移动端出身的工程师,也能在 Claude 的辅助下顺利给功能加上安卓端的适配 <button class="ts" data-t="18:54" data-who="Fiona Fung"></button>。代码相关职位的界限都在模糊,工程师变得越来越有产品思维,而所有人都在变成构建者 <button class="ts" data-t="62:21" data-who="Fiona Fung"></button>。</p>
+<p>工作方式也在向更高的抽象层演进。Fiona 提到,团队正转向更多的异步工作风格。过去她需要同步地手写各种提示词(Prompt,即给 AI 模型下指令的文本),现在她可以设定一个例行程序,让它在每天早上特定时间自动运行。这个程序不仅能汇总反馈,甚至能代表她启动其他的智能体去处理潜在的 Bug 并生成 PR(拉取请求,即提交代码修改的机制)供她醒来后审查 <button class="ts" data-t="36:24" data-who="Fiona Fung"></button>。这种模式虽然极大地提升了产能,但也带来了新的烦恼:上下文切换的认知负荷太重了。当你同时开着二十个智能体时,要追踪它们各自在干什么、随时切换语境去审查,成了一个尚未解决的难题 <button class="ts" data-t="71:13" data-who="Fiona Fung"></button>。</p><h2 id="s3">面对技术狂飙:成长心态与弥合鸿沟</h2><p>工具和人都在变,不同人的处境也因此拉开差距。当主持人问及为什么有的人在 AI 时代如鱼得水、有的人却充满挫败感时,Fiona 认为关键在于成长型思维。她坦言,放弃那些过去让你成功的旧习惯会很可怕,但对于任何让你感到恐惧的事情,最好的应对方式就是主动拥抱它,并问自己「什么是我的控制范围内的事?」<button class="ts" data-t="21:11" data-who="Fiona Fung"></button>。</p>
+<p>这种主动出击的心态,也延伸到了她弥合 AI 鸿沟的努力中。Fiona 非常关心小企业主群体,因为她曾亲眼看到自己的奶奶移民加拿大时,因为语言不通而陷入孤立,最终在一家小纱线店里找到了社区归属感。她发现 Co-Work 可以极其有效地帮小企业主处理他们最讨厌的开票和报销工作。更有趣的是,一位开餐厅的朋友把 Co-Work 接入了自己杂乱的文件夹,让它帮忙找菜单,甚至做竞品分析。基于这些反馈,团队推出了打包小企业插件的 Co-Work 版本 <button class="ts" data-t="27:18" data-who="Fiona Fung"></button>。她的呼吁非常具体:如果你身边有对 AI 感到恐惧或无从下手的朋友或社区商户,请主动向他们展示 AI 是如何改善了你的生活,因为知识就是力量,如果不主动分享,这道鸿沟只会越来越大 <button class="ts" data-t="30:04" data-who="Fiona Fung"></button>。</p><h2 id="s4">守住团队文化与未来的未知数</h2><p>角色模糊了,节奏变快了,这正是下一个话题:团队怎么管?Fiona 分享了几项独特的管理实践。首先是要求所有新加入的管理者先以个人贡献者的身份工作一段时间,亲自动手写代码、用产品,然后再承担起带人的责任。她自己哪怕在管理五百人的组织时,也坚持亲自使用产品(即内部试用)。她最近还用 Claude 重新找回了写生产级代码的自信 <button class="ts" data-t="49:55" data-who="Fiona Fung"></button>。</p>
+<p>其次,随着大家都埋头和各自的智能体协作,团队里出现了一种「孤独感」。为此,她发起了结对编程午餐和黑客松,让大家能在并肩工作时观察到彼此使用工具的奇招 <button class="ts" data-t="56:38" data-who="Fiona Fung"></button>。在规划方面,她彻底抛弃了半年期的路线图,改为「准时制」的月度规划,每周只做快速对齐 <button class="ts" data-t="84:37" data-who="Fiona Fung"></button>。被问及最让她夜不能寐的难题时,她坦言不是具体的产品挑战,而是如何在飞速扩张中维持那种开放、互助的团队文化 <button class="ts" data-t="78:04" data-who="Fiona Fung"></button>。</p>
+<blockquote>【背景】TDD(Test-Driven Development)即测试驱动开发,是一种先编写自动化测试用例,再编写能通过测试的功能代码的软件开发方法论。</blockquote>
+<blockquote>【背景】Co-Work 是 Anthropic 推出的面向日常知识工作的智能体产品,能够处理文件、填报表格等任务;Claude Code 则专注于编程辅助。</blockquote><h2 id="s5">本集带走</h2><p>1. **编码已非瓶颈,验证才是重心**:当全员都在用 AI 大幅提速时,质量保证的重心应从人工审查转向提供自动化测试框架和体验监控(如「坏与悲」分类法),让模型自行验证。
+2. **角色边界正在消融**:在 AI 辅助下,产品经理可以直接写代码,工程师能跨界做移动端适配。未来的关键人才是兼具产品直觉的「创意构建者」与掌握核心难题的「深层系统专家」。
+3. **管理动作必须升级**:管理者要善用智能体获取全局洞察并转向异步工作流;同时,要在团队扩张和技术狂飙中,通过坚持使用产品、缩短规划周期以及创造人际连接来守住团队文化。</p>
+<div class="sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div><div class="qr"><div class="z">对于任何你知道存在恐惧的事情,我的建议是拥抱它并问自己,好吧,有什么我能做的吗,什么在我的控制范围内。</div><div class="e">for anything that you know that there is a fear my advice is kind of lean in and ask okay is there some what can I do about it wha…</div>
+<div class="m">Fiona Fung · 21:28 <button class="ts" data-t="21:28"></button></div></div><div class="qr"><div class="z">客户会以你没有意图的方式使用你的产品,无论好坏。</div><div class="e">Customers will use your product in ways that you did not intend for good or for bad.…</div>
+<div class="m">Fiona Fung · 34:28 <button class="ts" data-t="34:28"></button></div></div><div class="qr"><div class="z">不要首先把动静误认为是进步。</div><div class="e">don&#x27;t first take motion for progress…</div>
+<div class="m">Fiona Fung · 41:29 <button class="ts" data-t="41:29"></button></div></div><div class="qr"><div class="z">我开始引入这个概念,让我们区分什么是坏的与什么是悲的,坏是非常糟糕的不可恢复的错误,悲是某种痛点但可恢复。</div><div class="e">I started this hey let&#x27;s have a concept of what&#x27;s bad versus what&#x27;s sad and bad is like a very bad irrecoverable error and sad is …</div>
+<div class="m">Fiona Fung · 45:26 <button class="ts" data-t="45:26"></button></div></div><div class="qr"><div class="z">过了一段时间,我们感觉这可能开始变成一种孤独的体验,因为我们都开始如此频繁地与我们的智能体一起工作了。</div><div class="e">after a while we felt it could start being a lonely experience because we all started just working with our agents so much.…</div>
+<div class="m">Fiona Fung · 56:38 <button class="ts" data-t="56:38"></button></div></div>
+<div class="sec">接着看</div>
+<div class="exit"><div class="ex"><b>顺着「组织与领导力」挖下去</b><a href="ep-2026-07-19-lennys-netflix-cpto-on-ai-and-the-future.html">Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失</a><a href="ep-2026-07-13-pg-the-complete-claude-stack-for-pms.html">PM 如何用 Claude 把生产力提升 10 倍：全栈实战</a><a href="ep-2026-07-09-pg-pm-guide-ai-design.html">用 AI 武装技术型 PM：Codex 工作流全解析</a></div>
+<div class="ex"><b>换个口味</b><a href="ep-2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge.html">Sriram Krishnan：Kimi K3 将改写 AI 行业版图</a><a href="ep-2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c.html">AI 悬崖边？数据中心次级债与 SpaceX 缩水</a><a href="ep-2026-singju-openclaw-80apps.html">OpenClaw创始人：为何80%的应用将消失</a></div></div>
+</div><div class="right"><div class="blk"><div class="sh">本集目录</div><div class="toc"><a href="#s0" class=on>当吞吐量不再是瓶颈:验证成为新战场</a><a href="#s1">用 Claude 当管理耳目,用「坏与悲」抓质量</a><a href="#s2">角色大融合与异步智能体工作流</a><a href="#s3">面对技术狂飙:成长心态与弥合鸿沟</a><a href="#s4">守住团队文化与未来的未知数</a><a href="#s5">本集带走</a></div></div>
+<div class="blk"><div class="sh">这一集涉及</div><div class="rr" style="display:block"><span><b class="ek">人物</b>Lenny · Fiona Fung</span></div><div class="rr" style="display:block"><span><b class="ek">公司</b>Anthropic · Facebook Marketplace · Microsoft · WorkOS · Mercury</span></div><div class="rr" style="display:block"><span><b class="ek">概念</b>Claude Code · Co-Work · 智能体 (agent) · 验证 (verification) · 测试驱动开发 (test-driven development)</span></div></div></div></div>
+<script>
+function openSearch(){const k=document.getElementById('sk');k.style.display='flex';
+  loadIdx().then(()=>{const i=document.getElementById('sq');i.focus();i.oninput=drawS;});}
+function drawS(){const i=document.getElementById('sq'),r=document.getElementById('sres');
+  const {n,groups}=runSearch(i.value);
+  if(!i.value.trim()){r.innerHTML='';return}
+  if(!n){r.innerHTML='<div class="sg">没有匹配</div>';return}
+  let h='',c=0;
+  for(const [g,items] of groups){ h+='<div class="sg">'+g+'</div>';
+    for(const x of items){ if(c++>=6) break;
+      h+='<a class="si" href="ep-'+x.e.id+'.html"><div class="a">'+(g==='标题'?x.s:x.e.t)+'</div>'+
+         (g!=='标题'?'<div class="b">'+x.s+'</div>':'<div class="b">'+x.e.p+'</div>')+'</a>'; } }
+  h+='<a class="more" href="search.html?q='+encodeURIComponent(i.value)+'">查看全部 '+n+' 条结果 →</a>';
+  r.innerHTML=h; }
+document.addEventListener('keydown',e=>{ if(e.key==='Escape'){const k=document.getElementById('sk'); if(k)k.style.display='none';}
+  if(e.key==='Enter'&&document.activeElement&&document.activeElement.id==='sq'){
+    location.href='search.html?q='+encodeURIComponent(document.activeElement.value);} });
+document.querySelectorAll('.shist b').forEach(b=>b.onclick=()=>{const i=document.getElementById('sq');i.value=b.textContent;drawS();});
+
+// ── 手机端:从左栏/右栏克隆内容,填进大字下拉与全屏菜单(始终与桌面同源,不会漂移)──
+(function(){
+  const L=document.querySelector('.shell .left'), mdm=document.getElementById('mdm'),
+        mdl=document.getElementById('mdl'), mmnav=document.getElementById('mmnav'), mmcat=document.getElementById('mmcat');
+  // 视图切换(最新/最热)在手机上从顶栏 nav 取 —— 顶栏在窄屏是隐藏的,视图得有地方去
+  if(mdm){
+    const cur=(location.pathname.split('/').pop()||'index.html');
+    [['index.html','最新'],['must-read.html','最热']].forEach(([h,t])=>{
+      const c=document.createElement('a'); c.href=h; c.textContent=t;
+      if(h===cur){c.classList.add('on'); if(mdl) mdl.textContent=t;}
+      mdm.appendChild(c);
+    });
+    if(mdl && !mdm.querySelector('.on')) mdl.textContent='最新';
+  }
+  if(mmnav) mmnav.innerHTML='<a href="index.html">最新</a><a href="must-read.html">最热</a>';
+  if(mmcat){
+    const src=L?[...L.querySelectorAll('.cl')]:[];
+    if(src.length){
+      mmcat.innerHTML=src.map(a=>'<a href="'+(a.getAttribute('href')||'#')+'">'+
+        (a.querySelector('span')?a.querySelector('span').textContent:a.textContent).trim()+
+        '<i>'+(a.querySelector('i')?a.querySelector('i').textContent:'')+'</i></a>').join('');
+    } else {
+      mmcat.innerHTML=[['创业与行业','cat-1.html',13],['产品方法','cat-6.html',10],['组织与领导力','cat-2.html',9],
+        ['智能体','cat-4.html',9],['职业与个人成长','cat-3.html',8],['AI 编程','cat-ai.html',7],
+        ['增长与销售','cat-7.html',4],['AI 安全','cat-ai.html',3]]
+        .map(x=>'<a href="'+x[1]+'">'+x[0]+'<i>'+x[2]+'</i></a>').join('');
+    }
+  }
+  const q=document.getElementById('mmq');
+  if(q) q.addEventListener('focus',()=>loadIdx(),{once:true});
+  if(q) q.addEventListener('input',()=>{
+    const r=document.getElementById('mmres'); if(!IDX){loadIdx().then(()=>q.dispatchEvent(new Event('input')));return}
+    const {n,groups}=runSearch(q.value);
+    if(!q.value.trim()){r.innerHTML='';return}
+    if(!n){r.innerHTML='<div class="sg">没有匹配</div>';return}
+    let h='',c=0;
+    for(const [g,items] of groups){h+='<div class="sg">'+g+'</div>';
+      for(const x of items){ if(c++>=5) break;
+        h+='<a class="si" href="ep-'+x.e.id+'.html"><div class="a">'+(g==='标题'?x.s:x.e.t)+'</div>'+
+           (g!=='标题'?'<div class="b">'+x.s+'</div>':'')+'</a>';}}
+    h+='<a class="more" href="search.html?q='+encodeURIComponent(q.value)+'">查看全部 '+n+' 条 →</a>';
+    r.innerHTML=h;});
+  document.addEventListener('click',e=>{const m=document.getElementById('mdm');
+    if(m&&m.classList.contains('open')&&!e.target.closest('.mdrop')) m.classList.remove('open');});
+})();
+
+document.querySelectorAll('[data-go]').forEach(el=>{
+ el.style.cursor='pointer';
+ el.addEventListener('click',ev=>{ if(ev.target.closest('a')) return; location.href=el.dataset.go; });
+});
+document.querySelectorAll('.ts').forEach(b=>b.onclick=()=>{
+ let n=b.nextElementSibling;
+ if(n&&n.classList.contains('orig')){n.remove();return}
+ const d=document.createElement('div');d.className='orig';
+ d.innerHTML='<b>英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'')+'</b><br>'+(b.dataset.en||'“…original English transcript segment…”')+
+ '<br><span style="font-size:11px;color:#b0a3a1">↑ 就地展开,不跳走。数据来自 transcript.en.json</span>';
+ b.after(d);
+});
+</script><script src="comment.js?v=4"></script><script>(function(){function s(){var t=document.querySelector('.top');
+var sticky=t&&getComputedStyle(t).position==='sticky';document.documentElement.style.setProperty('--stick',(sticky?t.offsetHeight:0)+'px');}
+s();addEventListener('resize',s);})();</script><script src="actions.js?v=3" defer></script></body></html>

@@ -1,0 +1,71 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>主色对比 · 暖红 vs 少数派正红</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#ececed;font:14px/1.75 -apple-system,"PingFang SC",sans-serif;color:#1e1e1e}
+.note{max-width:1500px;margin:18px auto;padding:13px 17px;background:#fff;border-left:3px solid #888;font-size:13px;line-height:1.85}
+.note b{color:#b8443c}
+.wrap{max-width:1500px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.col{background:#fff;border:1px solid #d5d5d5;border-radius:8px;overflow:hidden}
+.hd{padding:12px 16px;border-bottom:1px solid #eee;display:flex;align-items:center;gap:12px}
+.hd b{font-size:15px}.hd code{font-size:12px;color:#888}
+.sw{width:26px;height:26px;border-radius:6px;border:1px solid #0001}
+/* 内部按 1440 桌面宽渲染,再等比缩到栏宽,保证是真桌面布局 */
+.vp{height:820px;overflow:hidden;position:relative}
+iframe{width:1440px;height:1560px;border:0;display:block;transform-origin:0 0}
+.uses{max-width:1500px;margin:20px auto;background:#fff;border:1px solid #d5d5d5;border-radius:8px;padding:18px 22px}
+.uses h3{margin:0 0 12px;font-size:14px}
+.row{display:grid;grid-template-columns:150px 1fr 1fr;gap:14px;align-items:center;padding:9px 0;border-bottom:1px solid #f3f3f3;font-size:13px}
+.row .k{color:#888;font-size:12px}
+.chipA{display:inline-block;font-size:11px;padding:2px 9px;border-radius:11px;border:1px solid #b8443c55;color:#b8443c}
+.chipB{display:inline-block;font-size:11px;padding:2px 9px;border-radius:11px;border:1px solid #fd281a55;color:#fd281a}
+.starA{color:#b8443c;font-weight:700;font-size:12px}
+.starB{color:#fd281a;font-weight:700;font-size:12px}
+.btnA{display:inline-flex;width:30px;height:30px;border-radius:50%;background:#b8443c;color:#fff;align-items:center;justify-content:center;font-size:12px}
+.btnB{display:inline-flex;width:30px;height:30px;border-radius:50%;background:#fd281a;color:#fff;align-items:center;justify-content:center;font-size:12px}
+.qA{border-left:3px solid #b8443c;padding-left:12px;font-size:15px}
+.qB{border-left:3px solid #fd281a;padding-left:12px;font-size:15px}
+</style></head><body>
+<div class="note"><b>主色 A/B —— 左:方向A 暖红 #b8443c(你之前拍的) · 右:少数派正红 #fd281a(实抓其 CSS 变量 --red)。</b><br>
+两边其余完全相同(同样的普惠体标题、同样的少数派字号灰阶、同样的 1200/588 布局)。只有红色不同。</div>
+<div class="wrap">
+  <div class="col"><div class="hd"><span class="sw" style="background:#b8443c"></span><b>暖红</b><code>#b8443c</code></div>
+    <div class="vp"><iframe id="a" src="index.html"></iframe></div></div>
+  <div class="col"><div class="hd"><span class="sw" style="background:#fd281a"></span><b>少数派正红</b><code>#fd281a</code></div>
+    <div class="vp"><iframe id="b" src="index.html"></iframe></div></div>
+</div>
+<div class="uses"><h3>红色在站里出现的全部位置(左暖红 / 右正红)</h3>
+<div class="row"><span class="k">★ 升格标记</span><span class="starA">★ 今天最值得读</span><span class="starB">★ 今天最值得读</span></div>
+<div class="row"><span class="k">大类 chip</span><span><span class="chipA">智能体</span> <span class="chipA">AI 安全</span></span><span><span class="chipB">智能体</span> <span class="chipB">AI 安全</span></span></div>
+<div class="row"><span class="k">左栏当前项</span><span style="border-left:3px solid #b8443c;padding-left:9px;font-weight:700">最新</span><span style="border-left:3px solid #fd281a;padding-left:9px;font-weight:700">最新</span></div>
+<div class="row"><span class="k">音频播放键</span><span class="btnA">▶</span><span class="btnB">▶</span></div>
+<div class="row"><span class="k">金句钩子竖线</span><span class="qA">「用户不要 AI,用户要结果。」</span><span class="qB">「用户不要 AI,用户要结果。」</span></div>
+<div class="row"><span class="k">回原文按钮</span><span style="font-size:11px;background:#f4eceb;color:#a1524b;border-radius:50%;padding:2px 6px">↩</span><span style="font-size:11px;background:#ffeae7;color:#fd281a;border-radius:50%;padding:2px 6px">↩</span></div>
+</div>
+<div style="height:40px"></div>
+<script>
+function paint(id,accent,soft,softbg){
+  const f=document.getElementById(id);
+  f.addEventListener('load',()=>{
+    const d=f.contentDocument, st=d.createElement('style');
+    st.textContent=`:root{--accent:${accent}}
+      .star{color:${accent} !important}
+      .chip{color:${accent} !important;border-color:${accent}55 !important}
+      .vi.on,.cl.on{border-left-color:${accent} !important}
+      .rr:hover span,.vi:hover,.cl:hover{color:${accent} !important}
+      .play .pb{background:${accent} !important}
+      .hook{border-left-color:${accent} !important}
+      .ex b,.sec span b{color:${accent} !important}
+      .ts{background:${softbg} !important;color:${soft} !important}
+      .banner b{color:${accent} !important}`;
+    d.head.appendChild(st);
+  });
+}
+function fit(){document.querySelectorAll('.vp').forEach(v=>{
+  const f=v.querySelector('iframe'); const k=v.clientWidth/1440;
+  f.style.transform='scale('+k+')'; v.style.height=(1560*k)+'px';});}
+window.addEventListener('resize',fit); setTimeout(fit,60); setTimeout(fit,400);
+paint('a','#b8443c','#a1524b','#f4eceb');
+paint('b','#fd281a','#fd281a','#ffeae7');
+</script><script src="comment.js?v=4"></script><script>(function(){function s(){var t=document.querySelector('.top');
+var sticky=t&&getComputedStyle(t).position==='sticky';document.documentElement.style.setProperty('--stick',(sticky?t.offsetHeight:0)+'px');}
+s();addEventListener('resize',s);})();</script></body></html>

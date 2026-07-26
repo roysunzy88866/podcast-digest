@@ -1,0 +1,49 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>手机预览 · 真页面</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#e9e9ea;font:14px/1.7 -apple-system,"PingFang SC",sans-serif;color:#1e1e1e;
+     min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:22px 16px 40px}
+.bar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;justify-content:center;margin-bottom:6px;max-width:900px}
+.bar b{font-size:13px;color:#6f7174;margin-right:4px}
+.bar button{font:inherit;font-size:13px;padding:7px 13px;border:1px solid #d9d9dc;background:#fff;
+            border-radius:18px;cursor:pointer;color:#48494c}
+.bar button:hover{border-color:#b8443c;color:#b8443c}
+.bar button.on{background:#b8443c;border-color:#b8443c;color:#fff}
+.hint{font-size:12px;color:#8a8a8e;margin:10px 0 16px;text-align:center}
+.hint code{background:#fff;padding:1px 6px;border-radius:4px}
+.dev{background:#111;border-radius:38px;padding:12px;box-shadow:0 18px 50px #0000002e}
+.screen{border-radius:28px;overflow:hidden;background:#fff;position:relative}
+iframe{border:0;display:block;width:100%;height:100%}
+.notch{position:absolute;top:0;left:50%;transform:translateX(-50%);width:120px;height:26px;
+       background:#111;border-radius:0 0 16px 16px;z-index:5}
+.sz{font-size:12px;color:#8a8a8e;margin-top:12px}
+</style></head><body>
+<div class="bar"><b>页面</b>
+  <button class="on" data-u="index.html">首页</button>
+  <button data-u="search.html">搜索</button>
+  <button data-u="cat-1.html">大类页</button>
+  <button data-u="ep-2026-singju-openclaw-80apps.html">单集页</button>
+  <button data-u="person-peter-steinberger.html">人物页</button>
+</div>
+<div class="bar"><b>机型</b>
+  <button class="on sz-btn" data-w="390" data-h="844">iPhone 390×844</button>
+  <button class="sz-btn" data-w="375" data-h="667">小屏 375×667</button>
+  <button class="sz-btn" data-w="430" data-h="932">大屏 430×932</button>
+  <button class="sz-btn" data-w="768" data-h="1024">平板 768×1024</button>
+</div>
+<div class="hint">框里是<b>真页面</b>,不是截图 —— 可以滚动、点卡片跳转、点右上角放大镜搜索。<br>
+也可以直接开 <code>localhost:8123/index.html</code> 然后把浏览器窗口拖窄,效果一样。</div>
+<div class="dev"><div class="screen" id="scr"><div class="notch"></div><iframe id="fr" src="index.html"></iframe></div></div>
+<div class="sz" id="szt"></div>
+<script>
+const fr=document.getElementById('fr'),scr=document.getElementById('scr'),szt=document.getElementById('szt');
+let W=390,H=844;
+function apply(){scr.style.width=W+'px';scr.style.height=H+'px';szt.textContent=`当前视口 ${W} × ${H}`;}
+document.querySelectorAll('.bar button[data-u]').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('.bar button[data-u]').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on'); fr.src=b.dataset.u;});
+document.querySelectorAll('.sz-btn').forEach(b=>b.onclick=()=>{
+  document.querySelectorAll('.sz-btn').forEach(x=>x.classList.remove('on'));
+  b.classList.add('on'); W=+b.dataset.w; H=+b.dataset.h; apply();});
+apply();
+</script></body></html>

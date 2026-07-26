@@ -1,0 +1,151 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验</title><link rel="stylesheet" href="style.css?v=41"><script src="search.js" defer></script><script src="m-detail.js?v=7" defer></script></head><body>
+<header class="top"><div class="topin">
+<a class="b" href="index.html">跨国深谈</a>
+<nav class="mainnav"><a href="index.html">最新</a><a href="must-read.html">最热</a></nav>
+<a class="mtitle" href="index.html">←<span>返回</span></a><div class="acts"><button class="ico deskonly" onclick="openSearch()" title="搜索"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="9" r="5.5"/><path d="M13.2 13.2 17 17"/></svg></button><button class="ico deskonly" title="深浅色"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="6.5"/><path d="M10 3.5v13a6.5 6.5 0 0 0 0-13z" fill="currentColor" stroke="none"/></svg></button>
+<button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div>
+</div></header>
+<div class="mmenu" id="mm">
+  <div class="mmhead"><span class="b">跨国深谈</span><button class="ico" onclick="document.getElementById('mm').classList.remove('open')">✕</button></div>
+  <input class="mmsearch" id="mmq" placeholder="搜标题 / 金句 / 正文 / 人名">
+  <div id="mmres"></div>
+  <div class="mmsec">浏览</div><div class="mmnav" id="mmnav"></div>
+  <div class="mmsec">主题</div><div class="mmcat" id="mmcat"></div>
+</div>
+<div class="skrim" id="sk" onclick="if(event.target===this)this.style.display='none'">
+  <div class="sbox"><input id="sq" placeholder="搜标题 / 金句 / 正文 / 人名">
+  <div id="sres"></div>
+  <div class="shist"><span>试试</span><b>智能体</b><b>护城河</b><b>Anthropic</b><b>增长</b></div></div>
+</div>
+<div class="shell det"><div class="mid">
+<a class="back" href="index.html">← 返回</a>
+<h1 class="pt">1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验</h1>
+<div class="byl"></div>
+<div class="mt">Lenny&#x27;s Podcast · 2026-01-01 · <a class="mcat" href="cat-7.html">增长与销售</a> · <a class="mcat" href="cat-4.html">智能体</a></div>
+<div class="play"><span class="pb">▶</span><span><span class="tt">听中文精华</span><span class="s">102 分钟 · AI 合成朗读</span></span><span class="bar"></span><span class="s">00:00</span></div>
+<div class="hook"><div class="z">我真的无法每年付给一个初级 SDR 15 万美元结果他们却辞职。</div><div class="a">— Jason Lemkin <button class="ts" data-t="08:18"></button></div></div>
+<div class="tldr"><b>一句话</b>SaaStr 创始人用 20 个智能体替代约 10 人销售团队，详解 AI 落地 GTM 的实战经验。</div>
+<p>Jason Lemkin 是 SaaStr（全球最大的 B2B 创始人社区之一）的创始人。今年五月，在一场大型年度活动上，他的两名高薪销售人员在活动现场直接辞职。这已经是他第三次经历团队流失了。他当即决定：「我们在销售领域雇佣人类这件事已经结束了」<button class="ts" data-t="07:43" data-who="Jason Lemkin"></button>。如今，SaaStr 的销售团队从曾经的约 10 个人，变成了「1.2 个人类」（一名全职 AE 加上花 20% 时间管理智能体的首席 AI 官）和 20 个 AI 智能体，而净生产力与原来持平 <button class="ts" data-t="12:53" data-who="Jason Lemkin"></button>。本集访谈是一份极其具体的实操手册：智能体在销售中能做什么、人类该如何适应，以及为什么你必须亲自动手部署一个智能体。全文脉络如下：先看 GTM（go-to-market，推向市场）的哪些环节被智能体改变；接着拆解 SaaStr 真实部署的智能体与选型逻辑；然后是如何训练智能体并保证邮件质量；最后是对销售个人、初创公司的行动指南与职业预判。</p><h2 id="s0">GTM 智能体到底改变了什么：不是策略失效，是剧本过时了</h2><p>要理解智能体对销售的影响，得先看清当下 B2B 市场的两极分化。</p>
+<p>Jason 指出，传统的销售「策略」（plays，如外拓邮件、播客、线下活动）依然有效，真正失效的是旧的「剧本」（playbooks，即教人怎么执行的照搬流程）<button class="ts" data-t="14:30" data-who="Jason Lemkin"></button>。如今的 B2B 市场出现了前所未有的两极分化：一头是增长飞快的 AI 领导者（如 Vercel、Replit、ElevenLabs），它们面临的是海量线索处理不过来；另一头是增长停滞的传统 SaaS 公司。这两类公司都有极强的动力用 AI 来提效——前者为了处理溢出的需求，后者为了无情地压缩成本 <button class="ts" data-t="16:14" data-who="Jason Lemkin"></button>。</p>
+<p>更反常的是，当前是一个「所有人同时都在采购」的罕见窗口期。Jason 观察到，过去一年里某个类别中潜在的采购客户比例从传统的 3%-5% 飙升到了 50% 以上，因为各家公司高管都在强推 AI 转型 <button class="ts" data-t="17:52" data-who="Jason Lemkin"></button>。他提醒，这是一个会结束的「AI 泡沫版本」，但在它结束前，需求端的狂热彻底改变了销售运转的方式 <button class="ts" data-t="18:56" data-who="Jason Lemkin"></button>。</p>
+<p>市场逻辑变了，那具体的销售岗位会怎样？顺着这个思路，我们进入他对各种销售角色的具体预测。</p><h2 id="s1">销售职业的未来：入门岗被清洗，精英被放大</h2><p>如果你问销售职业的未来是什么，Jason 的预测极其冷酷。</p>
+<p>首当其冲的是 SDR（销售开发代表，通常负责发掘和初步联系潜在客户）。那种刚大学毕业、主要靠发邮件做「节奏触达」的初级 SDR，他认为明年将被 AI 取代 90% <button class="ts" data-t="19:44" data-who="Jason Lemkin"></button>。而负责审核进站线索的 BDR（业务开发代表）更是「明年应该灭绝」<button class="ts" data-t="19:56" data-who="Jason Lemkin"></button>。原因很简单：让客户等一两天，只为了让一个不了解产品的 21 岁年轻人来问「你是做什么的」，这在 AI 时代毫无道理。他自己的智能体已经能在网站上静默完成资格审核，并直接安排好与销售的会议 <button class="ts" data-t="20:16" data-who="Jason Lemkin"></button>。</p>
+<p>至于负责实际成交的 AE（Account Executive，客户经理），Jason 预测他们 70% 的工作明年还安全，但长期看会降至 40%-50% <button class="ts" data-t="20:48" data-who="Jason Lemkin"></button>。只要价格谈判空间不大，且智能体比人更懂产品，智能体也能自己完成交易。</p>
+<blockquote>【背景】SDR、BDR、AE 都是 B2B 科技销售中常见的岗位划分。SDR 多侧重外拓发冷邮件，BDR 侧重处理进站线索审核，AE 则负责接手成熟线索并完成最终签约收款。</blockquote>
+<p>这意味着一个严峻的元问题：如果不再有入门级的 SDR/AE，销售职业的晋升梯队怎么建？Jason 坦言，这一趋势已在全行业发生——公司宁愿要懂行的熟手配 AI，也不愿从零培养新人。那些真正懂产品、且知道如何「管理和编排」智能体的人将变得极度抢手；而只靠「我擅长跟人打交道」却对产品技术一无所知的平庸销售，正在迅速被淘汰 <button class="ts" data-t="54:11" data-who="Jason Lemkin"></button>。</p>
+<p>岗位会被重塑，那具体该怎么把智能体加进你的业务里？这正是他接下来分享的实战历程。</p><h2 id="s2">从客服到外拓：SaaStr 的智能体部署之路</h2><p>在 SaaStr 真实部署智能体时，Jason 走过了一条循序渐进的路，并总结出了最关键的避坑指南。</p>
+<p>他的第一个重要忠告是：**不要自己建，去采购**。即使他是 Replit（一款让不懂代码的人也能用自然语言开发应用的工具）的前 1% 高级用户，自己也绝不建议公司自建 GTM 智能体。原因是在 AI 时代，工具迭代速度极快，自建的东西几个月就会过时，除非你是 Vercel 这种有顶尖全职工程团队的公司 <button class="ts" data-t="29:04" data-who="Jason Lemkin"></button>。</p>
+<p>SaaStr 采购部署的第一个突破，其实始于「客服支持」。Jason 用 Delphi（一款制作数字人克隆的工具）做了个「数字 Jason」。他原本只想做知识问答，结果发现用户开始拿它问活动退款、折扣等客服问题，甚至直接通过它成交了一笔 7 万美元的赞助 <button class="ts" data-t="07:59" data-who="Jason Lemkin"></button>。这让他意识到，如果你还没开始，做 7x24 小时无死角响应的支持智能体是最佳切入点 <button class="ts" data-t="32:22" data-who="Jason Lemkin"></button>。</p>
+<p>随后他们扩展到了外拓和进站线索处理：
+- **外拓**：他们选了 YC 孵化的 Artisan，向曾经参会但流失的用户发送了约 6 万封邮件，效果显著 <button class="ts" data-t="34:02" data-who="Jason Lemkin"></button>。
+- **进站审核**：他们选了 Qualified（一家由 Salesforce 前 CMO 创立的公司）。以前没人愿意半夜去回邮件，现在智能体可以在周六晚上 11 点直接把高意向的赞助商转化掉 <button class="ts" data-t="34:16" data-who="Jason Lemkin"></button>。</p>
+<p>为什么选这两家？Jason 揭示了一个反直觉的采购标准：**底层技术上大家都在拼装 API（程序接口），大同小异，关键看哪家能给你提供最多的手把手帮助** <button class="ts" data-t="35:17" data-who="Jason Lemkin"></button>。他强调，这些工具都需要拿你最好的销售话术去「喂养」并花一个月时间不断纠错，如果供应商不提供一位 FDE（Forward Deployed Engineer，前置部署工程师）陪你调试，你根本没法上线。很多最好的供应商甚至会主动拒掉那些他们判定无法帮成功的客户 <button class="ts" data-t="36:33" data-who="Jason Lemkin"></button>。</p>
+<p>既然提到了客户线索，很多人会质疑：「SaaStr 有 40 万联系人，我没有这么大的数据库怎么办？」Jason 打消了这个疑虑：哪怕你只有 300 个付费客户，你的 CRM（客户关系管理系统）里也可能躺着几万个曾访问过网站但无人跟进的线索。只要你的线索多到人类销售懒得全部去碰，你就可以从 AI 中受益 <button class="ts" data-t="37:11" data-who="Jason Lemkin"></button>。</p>
+<p>部署了智能体，发出了成千上万封邮件，怎么保证这些邮件不变成令人厌恶的垃圾信息？这是下一个必须解决的问题。</p><h2 id="s3">训练与质量：如何让智能体写出不招人烦的邮件？</h2><p>很多人对 AI 销售邮件的印象是「糟糕透顶」。Jason 认为，问题出在你没用对方法训练它。</p>
+<p>他给出了让智能体写出好邮件的秘方：**拿你团队里最顶尖的销售或营销人员发过的最好邮件，直接用作智能体的模板** <button class="ts" data-t="42:36" data-who="Jason Lemkin"></button>。在他被 Adobe 收购时，当时的销售 leader Sam Blond 发现团队里很多老销售的邮件写得惨不忍睹。既然平庸的人类本来就在发烂邮件，那只要把顶尖高手的模板喂给智能体，再配合网站访客数据做轻度个性化（比如知道对方在用什么竞品），AI 写出来的邮件水平其实远超平庸的人类 <button class="ts" data-t="44:11" data-who="Jason Lemkin"></button>。他甚至建议，你可以直接让大模型帮你写三个变体，然后做 A/B 测试（对比测试哪种效果更好），智能体非常擅长做这类变体测试 <button class="ts" data-t="43:37" data-who="Jason Lemkin"></button>。</p>
+<p>很多人会纠结：发邮件时要不要告诉对方这是 AI？Jason 团队发了数十万封邮件后得出的结论是：**没人在乎**。只要邮件能提供价值，且能秒回，创始人甚至会回复说「哈哈我知道你是 AI，但这封挺好，我们聊聊吧」<button class="ts" data-t="45:24" data-who="Jason Lemkin"></button>。</p>
+<p>不过，即使智能体再聪明，如果没有人盯着它们，这套系统也会瞬间崩塌。这正是接下来要谈的「编排者」角色。</p><h2 id="s4">最关键的新角色：AI 编排官与暗藏的隐患</h2><p>智能体不能自己管自己，SaaStr 的 20 个智能体背后，是那个至关重要的「1.2 个人类」。</p>
+<p>那「0.2 个人类」指的是 Amelia——SaaStr 的首席 AI 官。她每周要花 10 到 15 个小时审查这 20 个智能体的输出 <button class="ts" data-t="40:40" data-who="Jason Lemkin"></button>。这绝非一份轻松的差事。Jason 强调，智能体 7x24 小时永不停歇，连圣诞节都在疯狂发邮件，这意味着作为编排者，你必须时刻盯着它们有没有「胡言乱语」（即模型产生的幻觉或事实错误）。如果没人每天花一两小时去纠偏，这些智能体就会给客户报错活动日期，或者发出极度尴尬的邮件 <button class="ts" data-t="40:24" data-who="Jason Lemkin"></button>。</p>
+<blockquote>【背景】这里的「编排」（orchestration）指的是：一个人统筹协调多个 AI 智能体的分工。比如要给客户发邮件，编排者要确保「流失客户唤醒智能体」和「进站审核智能体」不要同时去骚扰同一个客户。</blockquote>
+<p>那么去哪找这种「AI 编排官」？Jason 给招聘者的忠告是：**今天，你大概率招不到这样的人，只能从内部提拔**。不要指望从传统销售里找，你要找的是懂数据、懂营销、对工具有热情、每天愿意坐在屏幕前看数据的「书呆子」<button class="ts" data-t="54:21" data-who="Jason Lemkin"></button>。如果你能把自己团队里一个曾在 Replit 自己写过应用的人提拔起来做编排，你就能在 2026 年的竞争中遥遥领先。</p>
+<p>搭建好团队和工具后，新的隐患也随之浮现。Jason 提出了一个常被忽视的预警：**客户的流程变更疲劳**。现在采购智能体顺风顺水，但到了明年，当一家企业已经被塞了五个需要人盯着调试的智能体后，他们可能会对你的新产品说「我真的受不了了，别再卖给我了」<button class="ts" data-t="41:47" data-who="Jason Lemkin"></button>。因此，对于初创公司来说，趁现在这扇窗还开着，必须赶紧把单子签下来。</p>
+<p>理解了整个系统的运作逻辑和风险后，我们该如何把这些洞察转化为对个人职业和公司战略的具体行动？</p><h2 id="s5">本集带走</h2><p>1. **亲自动手部署一个，别当旁观者**：如果你是 VP 或管理者，不要指望外包或丢给底下人。选一个痛点（客服或 SDR），挑一家提供 FDE 帮扶的头部供应商，花一个月亲自做数据导入（摄取）、训练、测试和纠错。做过一个，你就能成为就业市场上最抢手的人 <button class="ts" data-t="23:48" data-who="Jason Lemkin"></button>。对于初级人员，不要抗拒公司引入 AI，成为团队里最会用智能体的人，你的产出能翻十倍 <button class="ts" data-t="60:09" data-who="Jason Lemkin"></button>。
+2. **「只会搞人际关系」不再是护城河**：如果你在科技销售岗，只会陪人聊天但不懂产品技术细节，你正在被淘汰。未来的高薪属于能一人管理 10 个智能体的超级个体，他们的年产值将是现在的十倍 <button class="ts" data-t="69:33" data-who="Jason Lemkin"></button>。
+3. **别自己造轮子，但要留心部署疲劳**：除非你是 Vercel，否则别自己建 GTM 智能体，去买。但作为初创公司创始人，你要明白客户对「业务流程变更」的忍受度是有上限的，现在趁热卖，未来窗口会因客户过载而关闭 <button class="ts" data-t="41:31" data-who="Jason Lemkin"></button>。</p>
+<div class="sec">全部金句 <span>10 条(中英对照,已过机器闸门)</span></div><div class="qr"><div class="z">我真的无法每年付给一个初级 SDR 15 万美元结果他们却辞职。</div><div class="e">I just can&#x27;t pay a junior SDR $150,000 a year to quit.…</div>
+<div class="m">Jason Lemkin · 08:18 <button class="ts" data-t="08:18"></button></div></div><div class="qr"><div class="z">基于邮件节奏的 SDR 明年将被 AI 取代 90%。</div><div class="e">The email-based cadence SDR will be 90% displaced by AI next year.…</div>
+<div class="m">Jason Lemkin · 19:49 <button class="ts" data-t="19:49"></button></div></div><div class="qr"><div class="z">AI 正在取代人们今天不想做的工作，并且它正在挤出中游和平庸的人。</div><div class="e">AI is replacing the jobs people don&#x27;t want to do today, and it is displacing the mid-pack and the mediocre.…</div>
+<div class="m">Jason Lemkin · 13:50 <button class="ts" data-t="13:50"></button></div></div><div class="qr"><div class="z">如果 Lenny 很棒，而另一个供应商更好但不会帮你，那就别做。</div><div class="e">if Lenny rocks and the other vendor is better and won&#x27;t help you, don&#x27;t do it.…</div>
+<div class="m">Jason Lemkin · 36:14 <button class="ts" data-t="36:14"></button></div></div><div class="qr"><div class="z">做编排者或首席 AI 人员对于懒人来说不是一份好工作，因为智能体从不睡觉。</div><div class="e">Being the orchestrator or the chief AI person is not a good job for lazy people because the agents never sleep.…</div>
+<div class="m">Jason Lemkin · 40:55 <button class="ts" data-t="40:55"></button></div></div><div class="qr"><div class="z">业务流程变更归根结底，这么多创始人搞错了这一点，99% 的销售人员，他们不在乎业务流程变更。</div><div class="e">Business process change at the end of the day, and so many founders get this wrong, and 99% of sales folks, they don&#x27;t care about …</div>
+<div class="m">Jason Lemkin · 41:23 <button class="ts" data-t="41:23"></button></div></div><div class="qr"><div class="z">拿你销售团队里最好的人，你拥有的最好的营销人员，拿他们的邮件文案并把它用作你的 AI 的模板。</div><div class="e">Take your best person on your sales team, your best marketer you have, take their email copy and use that as the template for your…</div>
+<div class="m">Jason Lemkin · 42:40 <button class="ts" data-t="42:40"></button></div></div><div class="qr"><div class="z">对于 AI GTM 来说「足够好」的门槛，并没有我们想象的那么高。</div><div class="e">the bar for good enough for AI GTM, it&#x27;s not as high as we think.…</div>
+<div class="m">Jason Lemkin · 47:16 <button class="ts" data-t="47:16"></button></div></div><div class="qr"><div class="z">我认为今天，在 100 分里，你有 95 分必须从内部提拔某人。</div><div class="e">I think today, 95% of 100, you&#x27;ve got to promote someone internally.…</div>
+<div class="m">Jason Lemkin · 54:20 <button class="ts" data-t="54:20"></button></div></div><div class="qr"><div class="z">总的来说，我们将需要比以往更多的销售和 go-to-market 专业人士，因为赢家增长得太快了，即使他们效率更高，他们也比以往更需要人类。</div><div class="e">Net net, we&#x27;re going to need more sales and go-to-market professionals than ever because the winners are growing so quickly that e…</div>
+<div class="m">Jason Lemkin · 76:29 <button class="ts" data-t="76:29"></button></div></div>
+<div class="sec">接着看</div>
+<div class="exit"><div class="ex"><b>顺着「增长与销售」挖下去</b><a href="ep-2026-singju-openclaw-80apps.html">OpenClaw创始人：为何80%的应用将消失</a><a href="ep-2026-07-13-pg-the-complete-claude-stack-for-pms.html">PM 如何用 Claude 把生产力提升 10 倍：全栈实战</a><a href="ep-2026-07-08-latent-space-modal.html">从避战大模型到押注智能体：Modal 的推理基础设施进化史</a></div>
+<div class="ex"><b>换个口味</b><a href="ep-2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge.html">Sriram Krishnan：Kimi K3 将改写 AI 行业版图</a><a href="ep-2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c.html">AI 悬崖边？数据中心次级债与 SpaceX 缩水</a><a href="ep-2026-07-19-lennys-netflix-cpto-on-ai-and-the-future.html">Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失</a></div></div>
+</div><div class="right"><div class="blk"><div class="sh">本集目录</div><div class="toc"><a href="#s0" class=on>GTM 智能体到底改变了什么：不是策略失效，是剧本过时了</a><a href="#s1">销售职业的未来：入门岗被清洗，精英被放大</a><a href="#s2">从客服到外拓：SaaStr 的智能体部署之路</a><a href="#s3">训练与质量：如何让智能体写出不招人烦的邮件？</a><a href="#s4">最关键的新角色：AI 编排官与暗藏的隐患</a><a href="#s5">本集带走</a></div></div>
+<div class="blk"><div class="sh">这一集涉及</div><div class="rr" style="display:block"><span><b class="ek">人物</b>Lenny · Jason Lemkin</span></div><div class="rr" style="display:block"><span><b class="ek">公司</b>SaaStr · Replit · Vercel · Salesforce · Artisan</span></div><div class="rr" style="display:block"><span><b class="ek">概念</b>智能体 (agent) · 编排 (orchestration) · 推向市场 (go-to market) · 前置部署工程师 (Forward Deployed Engineer) · 剧本 (playbooks)</span></div></div></div></div>
+<script>
+function openSearch(){const k=document.getElementById('sk');k.style.display='flex';
+  loadIdx().then(()=>{const i=document.getElementById('sq');i.focus();i.oninput=drawS;});}
+function drawS(){const i=document.getElementById('sq'),r=document.getElementById('sres');
+  const {n,groups}=runSearch(i.value);
+  if(!i.value.trim()){r.innerHTML='';return}
+  if(!n){r.innerHTML='<div class="sg">没有匹配</div>';return}
+  let h='',c=0;
+  for(const [g,items] of groups){ h+='<div class="sg">'+g+'</div>';
+    for(const x of items){ if(c++>=6) break;
+      h+='<a class="si" href="ep-'+x.e.id+'.html"><div class="a">'+(g==='标题'?x.s:x.e.t)+'</div>'+
+         (g!=='标题'?'<div class="b">'+x.s+'</div>':'<div class="b">'+x.e.p+'</div>')+'</a>'; } }
+  h+='<a class="more" href="search.html?q='+encodeURIComponent(i.value)+'">查看全部 '+n+' 条结果 →</a>';
+  r.innerHTML=h; }
+document.addEventListener('keydown',e=>{ if(e.key==='Escape'){const k=document.getElementById('sk'); if(k)k.style.display='none';}
+  if(e.key==='Enter'&&document.activeElement&&document.activeElement.id==='sq'){
+    location.href='search.html?q='+encodeURIComponent(document.activeElement.value);} });
+document.querySelectorAll('.shist b').forEach(b=>b.onclick=()=>{const i=document.getElementById('sq');i.value=b.textContent;drawS();});
+
+// ── 手机端:从左栏/右栏克隆内容,填进大字下拉与全屏菜单(始终与桌面同源,不会漂移)──
+(function(){
+  const L=document.querySelector('.shell .left'), mdm=document.getElementById('mdm'),
+        mdl=document.getElementById('mdl'), mmnav=document.getElementById('mmnav'), mmcat=document.getElementById('mmcat');
+  // 视图切换(最新/最热)在手机上从顶栏 nav 取 —— 顶栏在窄屏是隐藏的,视图得有地方去
+  if(mdm){
+    const cur=(location.pathname.split('/').pop()||'index.html');
+    [['index.html','最新'],['must-read.html','最热']].forEach(([h,t])=>{
+      const c=document.createElement('a'); c.href=h; c.textContent=t;
+      if(h===cur){c.classList.add('on'); if(mdl) mdl.textContent=t;}
+      mdm.appendChild(c);
+    });
+    if(mdl && !mdm.querySelector('.on')) mdl.textContent='最新';
+  }
+  if(mmnav) mmnav.innerHTML='<a href="index.html">最新</a><a href="must-read.html">最热</a>';
+  if(mmcat){
+    const src=L?[...L.querySelectorAll('.cl')]:[];
+    if(src.length){
+      mmcat.innerHTML=src.map(a=>'<a href="'+(a.getAttribute('href')||'#')+'">'+
+        (a.querySelector('span')?a.querySelector('span').textContent:a.textContent).trim()+
+        '<i>'+(a.querySelector('i')?a.querySelector('i').textContent:'')+'</i></a>').join('');
+    } else {
+      mmcat.innerHTML=[['创业与行业','cat-1.html',13],['产品方法','cat-6.html',10],['组织与领导力','cat-2.html',9],
+        ['智能体','cat-4.html',9],['职业与个人成长','cat-3.html',8],['AI 编程','cat-ai.html',7],
+        ['增长与销售','cat-7.html',4],['AI 安全','cat-ai.html',3]]
+        .map(x=>'<a href="'+x[1]+'">'+x[0]+'<i>'+x[2]+'</i></a>').join('');
+    }
+  }
+  const q=document.getElementById('mmq');
+  if(q) q.addEventListener('focus',()=>loadIdx(),{once:true});
+  if(q) q.addEventListener('input',()=>{
+    const r=document.getElementById('mmres'); if(!IDX){loadIdx().then(()=>q.dispatchEvent(new Event('input')));return}
+    const {n,groups}=runSearch(q.value);
+    if(!q.value.trim()){r.innerHTML='';return}
+    if(!n){r.innerHTML='<div class="sg">没有匹配</div>';return}
+    let h='',c=0;
+    for(const [g,items] of groups){h+='<div class="sg">'+g+'</div>';
+      for(const x of items){ if(c++>=5) break;
+        h+='<a class="si" href="ep-'+x.e.id+'.html"><div class="a">'+(g==='标题'?x.s:x.e.t)+'</div>'+
+           (g!=='标题'?'<div class="b">'+x.s+'</div>':'')+'</a>';}}
+    h+='<a class="more" href="search.html?q='+encodeURIComponent(q.value)+'">查看全部 '+n+' 条 →</a>';
+    r.innerHTML=h;});
+  document.addEventListener('click',e=>{const m=document.getElementById('mdm');
+    if(m&&m.classList.contains('open')&&!e.target.closest('.mdrop')) m.classList.remove('open');});
+})();
+
+document.querySelectorAll('[data-go]').forEach(el=>{
+ el.style.cursor='pointer';
+ el.addEventListener('click',ev=>{ if(ev.target.closest('a')) return; location.href=el.dataset.go; });
+});
+document.querySelectorAll('.ts').forEach(b=>b.onclick=()=>{
+ let n=b.nextElementSibling;
+ if(n&&n.classList.contains('orig')){n.remove();return}
+ const d=document.createElement('div');d.className='orig';
+ d.innerHTML='<b>英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'')+'</b><br>'+(b.dataset.en||'“…original English transcript segment…”')+
+ '<br><span style="font-size:11px;color:#b0a3a1">↑ 就地展开,不跳走。数据来自 transcript.en.json</span>';
+ b.after(d);
+});
+</script><script src="comment.js?v=4"></script><script>(function(){function s(){var t=document.querySelector('.top');
+var sticky=t&&getComputedStyle(t).position==='sticky';document.documentElement.style.setProperty('--stick',(sticky?t.offsetHeight:0)+'px');}
+s();addEventListener('resize',s);})();</script><script src="actions.js?v=3" defer></script></body></html>

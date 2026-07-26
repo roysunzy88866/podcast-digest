@@ -4,8 +4,21 @@
     {
       "name": "quartz-site",
       "runtimeExecutable": "bash",
-      "runtimeArgs": ["-lc", "cd site && eval \"$(fnm env)\" && fnm use 22.16.0 && node ./quartz/bootstrap-cli.mjs build --serve"],
+      "runtimeArgs": [
+        "-lc",
+        "cd site && eval \"$(fnm env)\" && fnm use 22.16.0 && node ./quartz/bootstrap-cli.mjs build --serve"
+      ],
       "port": 8080
+    },
+    {
+      "name": "ui-proto",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-lc",
+        "cd / && exec python3 -m http.server ${PORT:-8123} --directory /tmp/uiproto"
+      ],
+      "port": 8123,
+      "autoPort": true
     }
   ]
 }

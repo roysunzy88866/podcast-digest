@@ -25,3 +25,10 @@ feed.xml
 
 # C7b 隔离区:自动跑出失真被闸门拦下的集(完整内容仅本地/CI 临时查;持久去重靠 pipeline-state.json 的 skipped 账本,不进公开仓)
 data/skipped/
+
+# UI 原型的配图试跑产物(AI 生成的废稿,画风由独立 session 重做)
+需求共创/图片试跑/
+需求共创/原型/covers/
+
+# 原型生成器的 Python 字节码
+需求共创/原型/__pycache__/

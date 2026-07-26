@@ -1,0 +1,136 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」</title><link rel="stylesheet" href="style.css?v=41"><script src="search.js" defer></script><script src="m-detail.js?v=7" defer></script></head><body>
+<header class="top"><div class="topin">
+<a class="b" href="index.html">跨国深谈</a>
+<nav class="mainnav"><a href="index.html">最新</a><a href="must-read.html">最热</a></nav>
+<a class="mtitle" href="index.html">←<span>返回</span></a><div class="acts"><button class="ico deskonly" onclick="openSearch()" title="搜索"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="9" r="5.5"/><path d="M13.2 13.2 17 17"/></svg></button><button class="ico deskonly" title="深浅色"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="6.5"/><path d="M10 3.5v13a6.5 6.5 0 0 0 0-13z" fill="currentColor" stroke="none"/></svg></button>
+<button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div>
+</div></header>
+<div class="mmenu" id="mm">
+  <div class="mmhead"><span class="b">跨国深谈</span><button class="ico" onclick="document.getElementById('mm').classList.remove('open')">✕</button></div>
+  <input class="mmsearch" id="mmq" placeholder="搜标题 / 金句 / 正文 / 人名">
+  <div id="mmres"></div>
+  <div class="mmsec">浏览</div><div class="mmnav" id="mmnav"></div>
+  <div class="mmsec">主题</div><div class="mmcat" id="mmcat"></div>
+</div>
+<div class="skrim" id="sk" onclick="if(event.target===this)this.style.display='none'">
+  <div class="sbox"><input id="sq" placeholder="搜标题 / 金句 / 正文 / 人名">
+  <div id="sres"></div>
+  <div class="shist"><span>试试</span><b>智能体</b><b>护城河</b><b>Anthropic</b><b>增长</b></div></div>
+</div>
+<div class="shell det"><div class="mid">
+<a class="back" href="index.html">← 返回</a>
+<h1 class="pt">非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」</h1>
+<div class="byl"></div>
+<div class="mt">Lenny&#x27;s Podcast · 2026-01-18 · <a class="mcat" href="cat-ai.html">AI 编程</a> · <a class="mcat" href="cat-3.html">职业与个人成长</a></div>
+<div class="play"><span class="pb">▶</span><span><span class="tt">听中文精华</span><span class="s">75 分钟 · AI 合成朗读</span></span><span class="bar"></span><span class="s">00:00</span></div>
+<div class="hook"><div class="z">如果人们离开时觉得你多么了不起，你就失败了。如果人们离开后打开他们的电脑并开始构建，你就成功了。</div><div class="a">— Zevi Arnovitz <button class="ts" data-t="07:17"></button></div></div>
+<div class="tldr"><b>一句话</b>完全不懂代码的 PM 分享如何用 AI 搭建赚钱产品并保持代码质量。</div>
+<p>今天的嘉宾是 Zevi Arnovitz。他现任 Meta 的产品经理（PM），此前在 Wix 做 PM。他没有技术背景，高中学的是音乐，但靠着一套自己摸索出的 AI 工具工作流，完全独立地构建出了能赚钱的真实产品。本期对话的核心问题非常接地气：一个完全不懂代码的人，到底该怎么用 AI 真正构建出严肃的产品？接下来的脉络分为四步：首先是他如何用 AI 工具搭出一个工作流框架；其次是他如何让不同的 AI 模型扮演团队成员、互相对抗来审查代码；再是如何把 AI 当作导师进行高频学习；最后是他对非技术人员在这个时代该如何自处的核心判断。</p>
+<p>工具变了，人怎么用？这正是接下来的第一个话题。</p><h2 id="s0">工具进阶：从「聊天机器人」到全控代码库</h2><p>要用 AI 做严肃开发，第一步是克服对代码本身的恐惧。Zevi 回忆了自己的起点：当 Sonnet 3.5 这类模型出来时，他用 Bolt 和 Lovable（两款降低开发门槛的 AI 应用构建工具）立刻开始动手，感觉就像获得了超能力 <button class="ts" data-t="06:54" data-who="Zevi Arnovitz"></button>。但他很快发现了一个痛点：这些工具有非常强烈的「自以为是」倾向 <button class="ts" data-t="32:05" data-who="Zevi Arnovitz"></button>。为了让非技术用户省心，Lovable、Bolt、Replit 以及 Base44 等工具会在中间层替用户做大量决策（比如自动帮你接入默认的数据库或登录系统）。好处是简单省事，代价是你失去了控制权 <button class="ts" data-t="34:10" data-who="Zevi Arnovitz"></button>。一旦要做接入支付或改写复杂数据结构等严肃功能，这种黑箱模式就会带来大量棘手的 Bug。</p>
+<p>因此，当他的知识积累到一定程度后，便「毕业」去了 Cursor（一款深受开发者欢迎的 AI 代码编辑器），并在其中运行 Claude Code（Anthropic 公司推出的具备执行能力的 AI 编程智能体）。两者的根本区别在于控制权：Cursor 配合 Claude Code，是把 AI 直接塞进你的代码系统里，赋予它完整工具去执行任务，但随之而来的是你需要自己做大量的架构决策 <button class="ts" data-t="32:54" data-who="Zevi Arnovitz"></button>。他强调，如果你和他一样非技术背景，代码看起来很可怕，这就像一种「暴露疗法」（通过循序渐进的接触来克服恐惧）——他建议从简单的 ChatGPT 项目开始，过渡到 Bolt，再到 Cursor 的浅色模式，最后慢慢进入全暗色的开发者模式 <button class="ts" data-t="12:49" data-who="Zevi Arnovitz"></button>。</p>
+<blockquote>【背景】Anthropic 是知名 AI 公司，也是大语言模型 Claude 的开发商。Sonnet 3.5 是其推出的一款在编程能力上表现优异的模型版本。</blockquote>
+<p>熟悉了工具，接下来看他在这套工具里搭出了怎样的一套「标准开发流」。</p><h2 id="s1">搭工作流：把 AI 当成各有脾气的「同事」</h2><p>Zevi 在 Cursor 里构建了一套基于「斜杠命令」（指在代码库里保存的可重复使用的提示词文件，可通过输入 `/` 加文件名调用）的完整产品开发流。这套流程的精妙之处在于：他把 AI 工具完全拟人化了，当成了自己公司的各个职能同事。</p>
+<p>整个流程分为几步：第一步是「创建问题」，用语音把脑海中的想法快速丢给 AI，由 AI 去读取代码库并自动在 Linear（一款项目跟踪管理工具）里生成一个标准工单 <button class="ts" data-t="15:10" data-who="Zevi Arnovitz"></button>；第二步是「探索阶段」，他会让 AI 充当开发主管（Dev Lead）的角色，理解当前代码结构，并向他提出关于数据模型、用户体验等一系列尖锐的澄清问题 <button class="ts" data-t="24:12" data-who="Zevi Arnovitz"></button>；第三步是「创建计划」，生成一份详细的执行清单文件；第四步则是使用 Composer（Cursor 中速度极快的模型）去执行计划写代码 <button class="ts" data-t="30:27" data-who="Zevi Arnovitz"></button>。</p>
+<p>但写代码其实是最简单的，真正的挑战在后面。非技术人用 AI 写代码，最大的恐惧就是看不懂、查不出 Bug。为了解决这个核心痛点，Zevi 发明了一个极其聪明的「同行评审」机制。既然自己不懂代码，那就让别的 AI 来查 <button class="ts" data-t="43:07" data-who="Zevi Arnovitz"></button>。</p>
+<p>他会在本地测试后，先让原本负责写代码的 Claude 进行自我审查（/review）。接着，他会打开 Codex 5.1 Max 和 Cursor，分别让这两个来自不同公司的模型去审查同一段代码。最后，他会把这两个模型挑出的毛病复制下来，统一丢回给作为「开发主管」的 Claude，并告诉它：「你是这个项目的主管，其他团队的主管看了你的代码并发现了这些问题。基于你对项目的全局了解，你要么反驳他们，要么自己动手修掉」<button class="ts" data-t="40:21" data-who="Zevi Arnovitz"></button>。</p>
+<p>之所以要让多个模型互相「打架」，是因为 Zevi 发现每个模型都有极其鲜明的人格特征与长短板，他能利用这些特征来互补 <button class="ts" data-t="41:08" data-who="Zevi Arnovitz"></button>。例如，Claude 像一位完美的 CTO：极其善于沟通、聪明且有主见，愿意和你深度协作探讨；Codex 则像公司里最好的「独狼」程序员：穿着连帽衫坐在小黑屋里，沟通极差，但遇到最恶心的 Bug 时，关上门两小时就能完美修好；而 Gemini 则像一位疯狂的科学家：极具艺术和设计天赋，UI 做得很美，但看它干活的过程非常吓人（甚至会说出「我要先删掉整个仪表盘」这种让人冒冷汗的话）。通过让它们互为对手段子挑错，非技术 PM 也能把控极高的代码质量。</p>
+<p>代码质量的把关有了着落，那这些工具对个人能力的长期影响是什么？这引出了他对 AI 时代最核心的判断。</p><h2 id="s2">用 AI 做教练：这不是「外包思考」，是高频练习</h2><p>很多人有一种恐惧：过度依赖 AI 会让 PM 的专业技能萎缩，最终产出大量看似精美实则无用的「半成品垃圾」<button class="ts" data-t="54:02" data-who="Zevi Arnovitz"></button>。但 Zevi 对此有截然不同的看法。他认为，PM 的职责从来就不是「做房间里最聪明、永远有正确答案的人」，而是利用一切手段，以最快速度为用户交付正确的解决方案。如果你只是用 AI 自动生成东西然后直接扔出去，那确实是制造垃圾，但如果你承担起对最终产出的完全责任，AI 就是你最顶级的导师 <button class="ts" data-t="55:49" data-who="Zevi Arnovitz"></button>。</p>
+<p>他把这套「让 AI 教自己」的逻辑运用到了极致，甚至靠它拿下了 Meta 的 Offer。为了准备竞争极其激烈的 Meta 面试，他直接在 Claude 中建了一个「教练」项目，将网上搜集到的最优质信息喂给它，让 AI 不断给他出题做模拟面试 <button class="ts" data-t="59:18" data-who="Zevi Arnovitz"></button>。他还会录下自己面试的音频，专门让 AI 给他挑刺，补足真实世界里极度缺失的反馈闭环 <button class="ts" data-t="61:15" data-who="Zevi Arnovitz"></button>。他还鼓励大家在遇到不懂的概念时，直接用自己写的 `/learning opportunity` 命令，要求 AI 用「80/20 法则」给一个懂一点架构的中级工程师讲明白，把每一次开发都当成深度的技术学习课 <button class="ts" data-t="28:44" data-who="Zevi Arnovitz"></button>。</p>
+<p>他强烈建议年轻 PM 在业余做点自己的副业项目，因为 AI 极大地拉高了你能操作的盘子。在公司里你可能没机会思考整体营销策略，但在自己的项目里，你可以随意让 AI 配合你进行全盘的高阶演练，这能为你带来极其宝贵的实战经验 <button class="ts" data-t="56:22" data-who="Zevi Arnovitz"></button>。</p>
+<p>听完他怎么把 AI 当导师，最后是他给这个时代年轻从业者的定心丸。</p><h2 id="s3">本集带走</h2><p>1. **非技术人也能把控代码质量**：不要只用一个 AI 工具写代码。利用不同大模型各有长短的「性格特征」，让多个模型充当不同的团队主管，让它们互相审查代码、挑毛病甚至争吵，非技术 PM 也能像高管一样做最终的质量裁决。
+2. **不断复盘更新工具链**：每次 AI 犯了错，不要只是让它重试。像做产品复盘一样，要求它反思是什么系统提示词或上下文不足导致了错误，然后把规避该错误的规则写进工具文档里，让你的 AI 同事随着时间推移越来越聪明。
+3. **现在是做初级人员的最好时机**：不要被「初级岗位即将消失」的焦虑裹挟。在这个历史节点，只要你保持好奇心和求知欲，利用 AI 做高频练习和模拟，哪怕刚出校园，你也能以前所未有的速度独自跑通一家完整的初创公司。</p>
+<div class="sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div><div class="qr"><div class="z">如果人们离开时觉得你多么了不起，你就失败了。如果人们离开后打开他们的电脑并开始构建，你就成功了。</div><div class="e">If people walk away thinking how amazing you are, you failed. And if people walk away and open their computer and start building, …</div>
+<div class="m">Zevi Arnovitz · 07:17 <button class="ts" data-t="07:17"></button></div></div><div class="qr"><div class="z">是的，我认为这就是单纯的 vibe coding 和顺其自然与真正构建严肃应用之间的巨大区别。</div><div class="e">Yeah, and I think this is the big difference between just vibe coding and going along with the vibes and really building serious a…</div>
+<div class="m">Zevi Arnovitz · 28:18 <button class="ts" data-t="28:18"></button></div></div><div class="qr"><div class="z">我正在构建，我正在把 StudyMate 从希伯来语完全本地化到英语，我在两天内完成了，这可能需要一个开发团队几周的时间。</div><div class="e">I was building, I was fully localizing StudyMate from Hebrew to English, which I did in two days, which would probably take a dev …</div>
+<div class="m">Zevi Arnovitz · 35:17 <button class="ts" data-t="35:17"></button></div></div><div class="qr"><div class="z">回到你的提示词，去理解哪些不够好，对其进行迭代，然后看看 AI 的响应如何变好，我认为这可能是最重要的事情之一，也是区分那些还可以使用 AI 的人和真正知道如何使用 AI 的人的因素之一。</div><div class="e">Going back to your prompts, understanding what was not good enough, iterating on them and then seeing how AI&#x27;s responses get bette…</div>
+<div class="m">Zevi Arnovitz · 47:20 <button class="ts" data-t="47:20"></button></div></div><div class="qr"><div class="z">取代你的是那些比你更擅长使用 AI 的人。</div><div class="e">It&#x27;s you&#x27;ll be replaced by someone who&#x27;s better at using AI than you.…</div>
+<div class="m">Lenny · 62:43 <button class="ts" data-t="62:43"></button></div></div><div class="qr"><div class="z">是的，我认为头衔将会崩塌，责任将会崩塌，每个人都将只是在构建。</div><div class="e">Yeah, I think titles are going to collapse and responsibilities are going to collapse and everyone&#x27;s just going to be building.…</div>
+<div class="m">Zevi Arnovitz · 52:45 <button class="ts" data-t="52:45"></button></div></div><div class="qr"><div class="z">我认为许多 PM 有一个误解，认为工作总是拥有正确的答案并成为房间里最聪明的人。</div><div class="e">I think that there&#x27;s a misconception with a lot of PMs that the job is always having the right answers and being the smartest pers…</div>
+<div class="m">Zevi Arnovitz · 55:08 <button class="ts" data-t="55:08"></button></div></div>
+<div class="sec">接着看</div>
+<div class="exit"><div class="ex"><b>顺着「AI 编程」挖下去</b><a href="ep-2026-07-19-lennys-netflix-cpto-on-ai-and-the-future.html">Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失</a><a href="ep-2026-07-13-pg-the-complete-claude-stack-for-pms.html">PM 如何用 Claude 把生产力提升 10 倍：全栈实战</a><a href="ep-2026-07-12-lennys-how-tech-workers-actually-feel-about.html">科技圈情绪调查：一半人狂喜，一半人煎熬</a></div>
+<div class="ex"><b>换个口味</b><a href="ep-2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge.html">Sriram Krishnan：Kimi K3 将改写 AI 行业版图</a><a href="ep-2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c.html">AI 悬崖边？数据中心次级债与 SpaceX 缩水</a><a href="ep-2026-singju-openclaw-80apps.html">OpenClaw创始人：为何80%的应用将消失</a></div></div>
+</div><div class="right"><div class="blk"><div class="sh">本集目录</div><div class="toc"><a href="#s0" class=on>工具进阶：从「聊天机器人」到全控代码库</a><a href="#s1">搭工作流：把 AI 当成各有脾气的「同事」</a><a href="#s2">用 AI 做教练：这不是「外包思考」，是高频练习</a><a href="#s3">本集带走</a></div></div>
+<div class="blk"><div class="sh">这一集涉及</div><div class="rr" style="display:block"><span><b class="ek">人物</b>Lenny · Zevi Arnovitz</span></div><div class="rr" style="display:block"><span><b class="ek">公司</b>Cursor · Bolt · Lovable · Linear · Anthropic</span></div><div class="rr" style="display:block"><span><b class="ek">概念</b>Claude Code · Composer · Codex · 智能体 (agent) · 斜杠命令 (/commands)</span></div></div></div></div>
+<script>
+function openSearch(){const k=document.getElementById('sk');k.style.display='flex';
+  loadIdx().then(()=>{const i=document.getElementById('sq');i.focus();i.oninput=drawS;});}
+function drawS(){const i=document.getElementById('sq'),r=document.getElementById('sres');
+  const {n,groups}=runSearch(i.value);
+  if(!i.value.trim()){r.innerHTML='';return}
+  if(!n){r.innerHTML='<div class="sg">没有匹配</div>';return}
+  let h='',c=0;
+  for(const [g,items] of groups){ h+='<div class="sg">'+g+'</div>';
+    for(const x of items){ if(c++>=6) break;
+      h+='<a class="si" href="ep-'+x.e.id+'.html"><div class="a">'+(g==='标题'?x.s:x.e.t)+'</div>'+
+         (g!=='标题'?'<div class="b">'+x.s+'</div>':'<div class="b">'+x.e.p+'</div>')+'</a>'; } }
+  h+='<a class="more" href="search.html?q='+encodeURIComponent(i.value)+'">查看全部 '+n+' 条结果 →</a>';
+  r.innerHTML=h; }
+document.addEventListener('keydown',e=>{ if(e.key==='Escape'){const k=document.getElementById('sk'); if(k)k.style.display='none';}
+  if(e.key==='Enter'&&document.activeElement&&document.activeElement.id==='sq'){
+    location.href='search.html?q='+encodeURIComponent(document.activeElement.value);} });
+document.querySelectorAll('.shist b').forEach(b=>b.onclick=()=>{const i=document.getElementById('sq');i.value=b.textContent;drawS();});
+
+// ── 手机端:从左栏/右栏克隆内容,填进大字下拉与全屏菜单(始终与桌面同源,不会漂移)──
+(function(){
+  const L=document.querySelector('.shell .left'), mdm=document.getElementById('mdm'),
+        mdl=document.getElementById('mdl'), mmnav=document.getElementById('mmnav'), mmcat=document.getElementById('mmcat');
+  // 视图切换(最新/最热)在手机上从顶栏 nav 取 —— 顶栏在窄屏是隐藏的,视图得有地方去
+  if(mdm){
+    const cur=(location.pathname.split('/').pop()||'index.html');
+    [['index.html','最新'],['must-read.html','最热']].forEach(([h,t])=>{
+      const c=document.createElement('a'); c.href=h; c.textContent=t;
+      if(h===cur){c.classList.add('on'); if(mdl) mdl.textContent=t;}
+      mdm.appendChild(c);
+    });
+    if(mdl && !mdm.querySelector('.on')) mdl.textContent='最新';
+  }
+  if(mmnav) mmnav.innerHTML='<a href="index.html">最新</a><a href="must-read.html">最热</a>';
+  if(mmcat){
+    const src=L?[...L.querySelectorAll('.cl')]:[];
+    if(src.length){
+      mmcat.innerHTML=src.map(a=>'<a href="'+(a.getAttribute('href')||'#')+'">'+
+        (a.querySelector('span')?a.querySelector('span').textContent:a.textContent).trim()+
+        '<i>'+(a.querySelector('i')?a.querySelector('i').textContent:'')+'</i></a>').join('');
+    } else {
+      mmcat.innerHTML=[['创业与行业','cat-1.html',13],['产品方法','cat-6.html',10],['组织与领导力','cat-2.html',9],
+        ['智能体','cat-4.html',9],['职业与个人成长','cat-3.html',8],['AI 编程','cat-ai.html',7],
+        ['增长与销售','cat-7.html',4],['AI 安全','cat-ai.html',3]]
+        .map(x=>'<a href="'+x[1]+'">'+x[0]+'<i>'+x[2]+'</i></a>').join('');
+    }
+  }
+  const q=document.getElementById('mmq');
+  if(q) q.addEventListener('focus',()=>loadIdx(),{once:true});
+  if(q) q.addEventListener('input',()=>{
+    const r=document.getElementById('mmres'); if(!IDX){loadIdx().then(()=>q.dispatchEvent(new Event('input')));return}
+    const {n,groups}=runSearch(q.value);
+    if(!q.value.trim()){r.innerHTML='';return}
+    if(!n){r.innerHTML='<div class="sg">没有匹配</div>';return}
+    let h='',c=0;
+    for(const [g,items] of groups){h+='<div class="sg">'+g+'</div>';
+      for(const x of items){ if(c++>=5) break;
+        h+='<a class="si" href="ep-'+x.e.id+'.html"><div class="a">'+(g==='标题'?x.s:x.e.t)+'</div>'+
+           (g!=='标题'?'<div class="b">'+x.s+'</div>':'')+'</a>';}}
+    h+='<a class="more" href="search.html?q='+encodeURIComponent(q.value)+'">查看全部 '+n+' 条 →</a>';
+    r.innerHTML=h;});
+  document.addEventListener('click',e=>{const m=document.getElementById('mdm');
+    if(m&&m.classList.contains('open')&&!e.target.closest('.mdrop')) m.classList.remove('open');});
+})();
+
+document.querySelectorAll('[data-go]').forEach(el=>{
+ el.style.cursor='pointer';
+ el.addEventListener('click',ev=>{ if(ev.target.closest('a')) return; location.href=el.dataset.go; });
+});
+document.querySelectorAll('.ts').forEach(b=>b.onclick=()=>{
+ let n=b.nextElementSibling;
+ if(n&&n.classList.contains('orig')){n.remove();return}
+ const d=document.createElement('div');d.className='orig';
+ d.innerHTML='<b>英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'')+'</b><br>'+(b.dataset.en||'“…original English transcript segment…”')+
+ '<br><span style="font-size:11px;color:#b0a3a1">↑ 就地展开,不跳走。数据来自 transcript.en.json</span>';
+ b.after(d);
+});
+</script><script src="comment.js?v=4"></script><script>(function(){function s(){var t=document.querySelector('.top');
+var sticky=t&&getComputedStyle(t).position==='sticky';document.documentElement.style.setProperty('--stick',(sticky?t.offsetHeight:0)+'px');}
+s();addEventListener('resize',s);})();</script><script src="actions.js?v=3" defer></script></body></html>

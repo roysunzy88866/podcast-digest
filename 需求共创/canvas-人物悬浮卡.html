@@ -1,0 +1,62 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>人物:从「页面」降级为「悬浮卡」</title><style>*{box-sizing:border-box}body{margin:0;background:#ececed;font:15px/1.8 -apple-system,"PingFang SC",sans-serif;color:#1e1e1e}
+.note{max-width:1180px;margin:20px auto;padding:13px 17px;background:#fff6f5;border-left:3px solid #b8443c;font-size:13px;line-height:1.85;color:#4a3330}
+.note b{color:#b8443c}
+h2{max-width:1180px;margin:26px auto 10px;font-size:15px}
+.box{max-width:1180px;margin:0 auto;background:#fff;border:1px solid #d5d5d5;border-radius:6px;padding:26px 30px}
+.demo p{font-size:16.5px;line-height:1.95;margin:0 0 16px}
+.pl{color:#1a1a1a;border-bottom:1px solid #d9c3c1;cursor:pointer;position:relative;font-weight:500}
+.pl:hover{background:#fdf4f3}
+.pc{position:absolute;z-index:20;width:320px;background:#fff;border:1px solid #e2dcdb;border-radius:8px;
+    box-shadow:0 10px 34px #0000001f;padding:15px 17px;left:0;top:calc(100% + 9px);display:none;font-size:14px;line-height:1.7}
+.pl.on .pc{display:block}
+.pc .nm{font-size:16px;font-weight:700}
+.pc .ro{font-size:12.5px;color:#8a8a8a;margin-top:1px}
+.pc .st{font-size:11.5px;color:#b8443c;margin:9px 0 11px;padding-bottom:9px;border-bottom:1px solid #f2f2f2}
+.pc .qq{font-size:13px;line-height:1.6;color:#333;padding-left:9px;border-left:2px solid #e3cfcd;margin-bottom:9px}
+.pc .qq i{font-style:normal;display:block;font-size:11px;color:#b3a9a8;margin-top:3px}
+.pc .go{font-size:12.5px;color:#b8443c;margin-top:4px}
+.pc .dim{font-size:11.5px;color:#bbb;margin-top:8px;padding-top:8px;border-top:1px solid #f5f5f5}
+.side{max-width:1180px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:22px}
+.card{background:#fff;border:1px solid #d5d5d5;border-radius:6px;padding:20px 22px}
+.card h3{margin:0 0 4px;font-size:15px}
+.card .sub{font-size:12px;color:#999;margin-bottom:14px}
+.bad{background:#fff8f7;border:1px dashed #e8c9c6;border-radius:5px;padding:14px 16px;font-size:13px;color:#a8615a;line-height:1.75}
+.good{background:#f3f9f5;border:1px dashed #c5ddc9;border-radius:5px;padding:14px 16px;font-size:13px;color:#3f6b4a;line-height:1.75}
+.tip{font-size:12px;color:#aaa;margin-top:12px;line-height:1.7}
+</style></head><body>
+<div class="note"><b>方案:人物不做独立页面,做悬浮卡。</b><br>
+理由是数据 —— 46 位人物 44 位只出现在 1 集;把正文里「被提到的人」也算进去,135 个人名里<b>被 ≥2 集提到的只有 2 个,≥3 集的 0 个</b>。<br>
+独立页面在「只有一集」时必然是死胡同(点进去比刚离开那页信息还少);<b>悬浮卡在一集时不尴尬,多集时能自然长大</b>。<br>
+下面正文里带下划线的人名<b>可以点</b>,试试。</div>
+
+<h2>① 正文里点人名会发生什么</h2>
+<div class="box demo">
+<p>OpenClaw 这个项目最近彻底爆了,作者 <span class="pl" onclick="this.classList.toggle('on')">Peter Steinberger<span class="pc">
+<div class="nm">Peter Steinberger</div><div class="ro">独立开发者 · OpenClaw 作者</div>
+<div class="st">本站收录 1 集 · 5 条金句</div><div class="qq">「看起来每个人都在追逐某种集中的上帝智能。而在过去十天左右涌现出来的似乎是群体…」<i>01:50 · 本集</i></div><div class="qq">「即使它是通用智能,如果它实际上也是专用智能呢?…」<i>01:58 · 本集</i></div>
+<div class="dim">只有 1 集时不给「查看全部」入口 —— 不制造死胡同</div></span></span> 自己也形容这简直太狂野。
+主持人 <span class="pl" onclick="this.classList.toggle('on')">Raphael Schaad<span class="pc">
+<div class="nm">Raphael Schaad</div><div class="ro">主持人</div>
+<div class="st">本站收录 1 集 · 3 条金句</div><div class="qq">「看起来每个人都在追逐某种集中的上帝智能…」<i>01:50 · 本集</i></div>
+<div class="dim">只有 1 集时不给「查看全部」入口</div></span></span> 在开场就把这个问题抛了出来。</p>
+<p>而像 <span class="pl" onclick="this.classList.toggle('on')">Lenny Rachitsky<span class="pc">
+<div class="nm">Lenny Rachitsky</div><div class="ro">Lenny's Podcast 主持人 · 产品顾问</div>
+<div class="st">本站收录 28 集 · 190 条金句</div>
+<div class="qq">「用户不要 AI,用户要结果。」<i>产品方法 · 2026-03</i></div>
+<div class="qq">「增长不是拉新客,是让老客走不掉。」<i>增长与销售 · 2026-01</i></div>
+<div class="go">→ 查看全部 28 集 &nbsp;·&nbsp; → 全部金句</div>
+<div class="dim">≥2 集时才出现「查看全部」—— 卡片自然升级成入口</div></span></span> 这种跨很多集的人,同一张卡就长出了「查看全部」的入口。</p>
+</div>
+
+<h2>② 为什么不做成独立页面</h2>
+<div class="side">
+<div class="card"><h3>做成独立页面</h3><div class="sub">46 位人物里 44 位会是这样</div>
+<div class="bad">点「Peter Steinberger」→ 跳到一个新页面 → 页面上只有:他是谁、他的 1 集、这 1 集的金句。<br><br>
+<b>用户刚从那一集过来。</b>他失去了阅读位置,换来的是更少的信息。上千集时 = 上千个这样的死胡同页,还全都进搜索索引和站点地图。</div></div>
+<div class="card"><h3>做成悬浮卡</h3><div class="sub">同一套数据,不跳页</div>
+<div class="good">点人名 → 就地弹卡 → 他是谁、几集、最狠的两条金句。<br><br>
+<b>不丢阅读位置</b>,信息密度正好匹配「只有一集」的现实。<br>
+而当这个人真的攒到 ≥2 集(比如主持人、或千集后的大名字),<b>同一张卡自动长出「查看全部 N 集」</b>,那时候才真的生成一个人物页 —— <b>页面数量由数据决定,不是预先铺满</b>。</div>
+<div class="tip">副作用:实体页 unlisted 那条老账(搜不到实体页)自然消失 —— 因为大部分人物根本不生成页面。</div></div>
+</div>
+<div style="height:44px"></div></body></html>

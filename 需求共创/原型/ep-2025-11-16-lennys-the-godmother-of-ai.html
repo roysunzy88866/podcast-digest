@@ -1,0 +1,156 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble</title><link rel="stylesheet" href="style.css?v=41"><script src="search.js" defer></script><script src="m-detail.js?v=7" defer></script></head><body>
+<header class="top"><div class="topin">
+<a class="b" href="index.html">跨国深谈</a>
+<nav class="mainnav"><a href="index.html">最新</a><a href="must-read.html">最热</a></nav>
+<a class="mtitle" href="index.html">←<span>返回</span></a><div class="acts"><button class="ico deskonly" onclick="openSearch()" title="搜索"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="9" r="5.5"/><path d="M13.2 13.2 17 17"/></svg></button><button class="ico deskonly" title="深浅色"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="6.5"/><path d="M10 3.5v13a6.5 6.5 0 0 0 0-13z" fill="currentColor" stroke="none"/></svg></button>
+<button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div>
+</div></header>
+<div class="mmenu" id="mm">
+  <div class="mmhead"><span class="b">跨国深谈</span><button class="ico" onclick="document.getElementById('mm').classList.remove('open')">✕</button></div>
+  <input class="mmsearch" id="mmq" placeholder="搜标题 / 金句 / 正文 / 人名">
+  <div id="mmres"></div>
+  <div class="mmsec">浏览</div><div class="mmnav" id="mmnav"></div>
+  <div class="mmsec">主题</div><div class="mmcat" id="mmcat"></div>
+</div>
+<div class="skrim" id="sk" onclick="if(event.target===this)this.style.display='none'">
+  <div class="sbox"><input id="sq" placeholder="搜标题 / 金句 / 正文 / 人名">
+  <div id="sres"></div>
+  <div class="shist"><span>试试</span><b>智能体</b><b>护城河</b><b>Anthropic</b><b>增长</b></div></div>
+</div>
+<div class="shell det"><div class="mid">
+<a class="back" href="index.html">← 返回</a>
+<h1 class="pt">AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble</h1>
+<div class="byl"></div>
+<div class="mt">Lenny&#x27;s Podcast · 2025-11-16 · <a class="mcat" href="cat-1.html">创业与行业</a></div>
+<div class="play"><span class="pb">▶</span><span><span class="tt">听中文精华</span><span class="s">79 分钟 · AI 合成朗读</span></span><span class="bar"></span><span class="s">00:00</span></div>
+<div class="hook"><div class="z">我觉得 AGI 更多是一个营销术语,而不是科学术语,作为科学家而非技术专家来说。</div><div class="a">— Dr. Fei-Fei Li <button class="ts" data-t="25:47"></button></div></div>
+<div class="tldr"><b>一句话</b>从 ImageNet 催生深度学习,到 World Labs 用空间智能解锁 3D 世界模型。</div>
+<p>当大多数人谈论 AI 时,脑海里浮现的往往是 ChatGPT 和聊天机器人。但 Dr. Fei-Fei Li(李飞飞博士)——被许多人称为「AI 教母」,曾在 Google Cloud 担任首席 AI 科学家、主导斯坦福人工智能实验室(SAIL)、联合创立斯坦福以人为中心的人工智能研究所(HAI)——看到的远不止于此。在本集访谈中,她带我们回顾了 AI 如何从一项几乎没人愿意碰的「脏词」变成今天的世界级浪潮,并第一次详细阐述了她为什么要押注「空间智能」(spatial intelligence),以及她新公司 World Labs 刚刚发布的、世界上第一个可生成 3D 世界的大模型 Marble。全文脉络很清晰:前半段是「我们怎么走到今天」,后半段是「接下来该去哪里」——中间的桥梁,就是「世界模型」这个关键拼图。</p><h2 id="s0">AI 的三件法宝,和一段没人愿意提的「寒冬」</h2><p>如果你问今天的人 AI 是什么时候起飞的,大多数人会指向大约三年前 ChatGPT 的发布 <button class="ts" data-t="09:49" data-who=""></button>。但李飞飞提醒我们,这条时间线其实长得惊人。</p>
+<p>AI 作为一个科学领域,最早可以追溯到上世纪 40 年代 Alan Turing(艾伦·图灵)那个大胆的问题:「机器能思考吗?」随后在 1956 年,John McCarthy 教授在达特茅斯研讨会上正式提出了「人工智能」这个术语 <button class="ts" data-t="12:31" data-who=""></button>。但在早期,科学家们主要尝试用纯规则来编程,后来发现这条路走不通——如果你不给机器看几十万只猫,它就永远认不出第一百万只猫。</p>
+<p>这就是机器学习(machine learning,让机器通过数据自己找规律,而不是靠人写死规则)的起点。李飞飞在 2000 年于加州理工学院开始读博时,进入的正是这个领域。她清楚地记得,那时的 AI 正处于所谓的「AI 寒冬」(AI winter,指公众和投资者对 AI 几乎失去信心、资金枯竭的时期),没多少人关注,课程也很难 <button class="ts" data-t="14:50" data-who=""></button>。</p>
+<p>她当时选择了一个「北极星」难题:物体识别(object recognition,教计算机认出图片里有什么东西)。她意识到,要训练机器认出几万个物体概念,就必须给它看几百万个例子。人类的婴儿也是靠不断看世界来学习的——AI 同样需要海量的数据。</p>
+<p>于是,从 2006、2007 年开始,她带着学生做了一件被她今天形容为「完全妄想」的事:爬遍整个互联网,精心整理了 1500 万张图片,建立了涵盖 22000 个物体概念的数据库——这就是 ImageNet <button class="ts" data-t="18:07" data-who=""></button>。他们把数据开源,并办了年度挑战赛。</p>
+<p>真正的转折点发生在 2012 年。多伦多大学的 Geoff Hinton 教授团队带着他们的神经网络(neural network,一种模仿大脑神经元结构的数学模型)算法,用了 ImageNet 的海量数据和来自 NVIDIA 的两张 GPU(图形处理器,最初是游戏玩家用的显卡,后来被发现极其擅长做这类数学运算),在挑战赛上取得了巨大突破 <button class="ts" data-t="18:42" data-who=""></button>。李飞飞把这三样东西——大数据、神经网络和 GPU——称为现代 AI 的「黄金配方」<button class="ts" data-t="19:32" data-who=""></button>。</p>
+<blockquote>【背景】李飞飞口中的 2012 年突破通常被业界称为 AlexNet 时刻,它标志着深度学习(deep learning,层数很多的神经网络)时代的全面开启。</blockquote>
+<p>有趣的是,即便在 2012 年之后,AI 依然是个有争议的词。李飞飞回忆,大约在 2015 到 2016 年间,有科技公司会刻意避免使用「AI」这个词,怕它是个贬义词 <button class="ts" data-t="21:28" data-who=""></button>。直到大约 2017 年,硅谷才开始有公司自称是「AI 公司」<button class="ts" data-t="22:20" data-who=""></button>。短短不到十年,风向彻底变了——今天,「每家公司都是 AI 公司」。</p><h2 id="s1">到底离 AGI 有多远?</h2><p>说完了 AI 的早期历史,接下来是一个所有人都在问的问题:我们距离 AGI(通用人工智能)还有多远?</p>
+<p>李飞飞对这个问题给出了一个非常「科学家」的回答。她觉得 AGI 这个词更像是一个营销术语,而不是科学术语 <button class="ts" data-t="25:47" data-who=""></button>。她说,从 Turing 时代起,AI 领域的北极星就是探索「机器能否像人一样思考和做事」,她不在乎别人怎么定义 AGI,她只关心这个最初的科学目标。</p>
+<p>如果非要说现在的 AI 有多远,她给出了两个非常生动的反例,来说明我们其实还有很长的路要走:</p>
+<p>1. **物理直觉的缺失**:今天最先进的 AI,连一个蹒跚学步的小孩都能做到的事都做不好——比如看一段有几个办公室房间的视频,数一数里面有几把椅子 <button class="ts" data-t="27:29" data-who=""></button>。
+2. **科学发现与情感智能的缺失**:她提到,如果我们给 AI 喂牛顿那个时代都不知道的天体数据,让它推导出 17 世纪的物体运动定律,今天的 AI 根本做不到 <button class="ts" data-t="29:25" data-who=""></button>。同样,在涉及动机、热情的深层对话上,今天的对话机器人也完全给不了那种情感认知智能 <button class="ts" data-t="28:53" data-who=""></button>。</p>
+<blockquote>【背景】主持人提到 DeepMind 的 Demis 曾提出过一个类似的思想实验:给最先进的模型输入爱因斯坦之前所有的信息,看它能否复现爱因斯坦的突破。李飞飞顺着这个思路,用牛顿的例子做了更有力的反驳。</blockquote>
+<p>她明确表示:不认为靠单纯堆更多的数据和 GPU 就能解决所有问题,我们绝对需要更多的根本性创新 <button class="ts" data-t="26:44" data-who=""></button>。</p><h2 id="s2">世界模型:为了解决 AI 「不接地气」的毛病</h2><p>既然光靠语言模型(LLM)不够,那还缺什么?这正是李飞飞现在最想讲的东西:世界模型(world models)。</p>
+<p>为什么需要世界模型?这要从李飞飞的老本行——视觉智能说起。人类不只是靠语言理解世界的。想象一个火灾或交通事故的混乱现场,救援人员要判断怎么救人、怎么灭火,这种对空间、物体和态势的自发理解,很多是超越语言的 <button class="ts" data-t="32:36" data-who=""></button>。「语言没法帮你把火扑灭。」</p>
+<p>李飞飞在 2022 年做机器人研究时,把这种连接视觉与具身智能(embodied AI,即有物理身体、能在现实世界里行动的 AI,比如机器人)的关键概念,命名为「空间智能」(spatial intelligence) <button class="ts" data-t="33:53" data-who=""></button>。</p>
+<p>怎么理解世界模型?简单说,它是一个能让你通过输入一句话或一张图,在脑海中生成一个无限可探索、可互动、可推理的 3D 世界的基础模型 <button class="ts" data-t="35:15" data-who=""></button>。如果使用者是个机器人,这个世界模型就能帮它规划路线、收拾厨房。</p>
+<p>为了尽快把这项技术做出来,她创办了 World Labs(名字里就有「World」)。</p><h2 id="s3">为什么「苦涩的教训」在机器人身上行不通?</h2><p>聊到机器人,主持人转述了投资人 Ben Horowitz(也是 World Labs 的投资人)提出的一个尖锐问题:在 AI 历史上著名的「苦涩的教训」(the bitter lesson,图灵奖得主 Richard Sutton 的观点:在 AI 发展史上,用简单模型配合海量数据,最终总是能赢过那些用复杂模型但数据量少的做法)——为什么这一套在机器人领域可能行不通? <button class="ts" data-t="41:08" data-who=""></button></p>
+<blockquote>【背景】Richard Sutton 是强化学习(reinforcement learning,一种让机器通过试错和奖励来学习的方法)的泰斗。</blockquote>
+<p>李飞飞认为,大数据在机器人领域依然重要,但机器人面临的困难有两点:</p>
+<p>第一,**数据的获取极难**。语言模型的训练数据就是文本,输出也是文本,两者完美对齐。但你希望机器人输出的是「3D 世界中的物理动作」,可现实世界里并没有那么多带动作标签的 3D 数据,我们只有海量的网络视频 <button class="ts" data-t="43:09" data-who=""></button>。所以必须引入遥操作数据(teleoperation,人远程操控机器人生成的数据)或合成数据。</p>
+<p>第二,**机器人是物理系统**。这一点很关键。她说机器人比大语言模型更接近自动驾驶汽车。她提到了同事 Sebastian Thrun 当年带着斯坦福的车赢得 DARPA 自动驾驶挑战赛——那已经是将近 20 年前的事了,但今天的 Waymo(自动驾驶服务)也还没完全普及 <button class="ts" data-t="46:00" data-who=""></button>。</p>
+<p>她做了一个非常精彩的类比:自动驾驶汽车是在 2D 表面上跑的金属盒子,目标是**不碰到任何东西**;而机器人是在 3D 世界里运行的,目标恰恰是**要去触碰和操作东西** <button class="ts" data-t="46:32" data-who=""></button>。所以,机器人的成熟,不仅仅是「大脑」(算法)的问题,还涉及硬件、供应链和应用场景,这条路注定很长。</p>
+<p>不过她也透露了一个有趣的感叹:人脑只需要大约 20 瓦的功率(比房间里的灯泡还暗)就能做这么多事。在 AI 领域做得越久,她对人类自身的精妙就越发敬畏 <button class="ts" data-t="47:49" data-who=""></button>。</p><h2 id="s4">Marble:看起来像个玩具,却可能开启下一个时代</h2><p>谈完了理论,终于要揭晓 World Labs 的第一款产品了:Marble。</p>
+<p>World Labs 是一家做基础前沿模型的公司,由四位在 AI、计算机图形学和计算机视觉领域有深厚背景的联合创始人(包括李飞飞、Justin Johnson、Christoph Lassner 和 Ben Mildenhall)创立。他们花了一年多的时间,做出了世界上第一个能输出真正 3D 世界的生成模型 <button class="ts" data-t="49:26" data-who=""></button>。</p>
+<p>Marble 就是建立在这个模型上的应用。你可以输入一句话或几张图,它就能生成一个你可以走进去、四处走动、探索的 3D 世界。</p>
+<p>主持人玩完之后非常兴奋,提到了一个很有趣的细节:在生成的世界完全渲染出纹理之前,你会先看到由「点」组成的世界轮廓,让人感觉像是在窥探模型的工作原理 <button class="ts" data-t="51:22" data-who=""></button>。李飞飞笑着回应,这其实是工程师们为了引导用户进入世界而特意做的视觉化功能,并不是模型本身的一部分,没想到大受好评 <button class="ts" data-t="51:46" data-who=""></button>。这让主持人想起了电影《黑客帝国》里的场景。</p>
+<p>现在 Marble 已经有了不少实际用例。比如,它与 Sony(索尼)合作用于电影的虚拟制作,把 VFX(视觉特效)的制作时间缩短了 40 倍 <button class="ts" data-t="53:59" data-who=""></button>。很多游戏开发者、做机器人仿真训练的研究员,甚至心理学家都找上门来——心理学家想用 Marble 快速生成各种沉浸式场景,用于治疗精神病患者或做暴露疗法 <button class="ts" data-t="55:35" data-who=""></button>。</p>
+<p>那么,Marble 和那些 AI 视频生成工具有什么区别?</p>
+<p>李飞飞用柏拉图的「洞穴寓言」来解释:世界不是被动地看墙上投影的 2D 视频。空间智能的内涵远比生成一段平面的视频要深——它是关于如何在一个有深度、有结构(无论是 3D 还是包含时间动态的 4D)的世界里进行推理和交互 <button class="ts" data-t="58:05" data-who=""></button>。虽然 World Labs 也在单张 H100 GPU 上实现了实时视频生成,但 Marble 的核心区别在于,它给创作者和开发者的是带有 3D 结构的世界,而不仅仅是一段播放完就结束的视频 <button class="ts" data-t="59:41" data-who=""></button>。</p><h2 id="s5">不算「典型的年轻创始人」</h2><p>World Labs 成立至今大约 18 个月,团队目前约 30 人。李飞飞坦言,相比于 20 岁的创业者(她 19 岁时其实开过一家干洗店),她对这段创业的磨砺之旅准备得更充分一些 <button class="ts" data-t="63:30" data-who=""></button>。但 AI 领域竞争的激烈程度——无论是技术本身还是人才争夺——依然让她时常感到偏执和警惕 <button class="ts" data-t="64:19" data-who=""></button>。</p>
+<p>回顾她的职业生涯:从 Princeton 到 Stanford 放弃重算终身教职年限,到成为 SAIL 的首位女性主任,再到去 Google 与 Jeff Dean、Geoff Hinton 等大神共事,她总结自己的一条主线是:**在智力上非常无畏,不纠结于失败的可能,只关注人、使命和好奇心** <button class="ts" data-t="66:05" data-who=""></button>。</p>
+<p>她也借此给 AI 领域的年轻人提了个建议:不要在选工作时过度计算每一个微小的维度,要专注于最重要的事——你的热情在哪里?你是否认同使命?你是否信任这个团队? <button class="ts" data-t="69:27" data-who=""></button></p><h2 id="s6">AI 是关于人的</h2><p>除了 World Labs,李飞飞仍在斯坦福的 HAI(以人为中心的人工智能研究所)担任职务。这个成立于 2018 年的机构,致力于跨越医学、教育、法律等所有学院,推动让 AI 技术的开发与治理锚定在「人类尊严」之上 <button class="ts" data-t="70:53" data-who=""></button>。她还特别提到,硅谷需要与华盛顿、布鲁塞尔等政策制定中心对话,这也是 HAI 介入政策工作的原因。</p>
+<p>在访谈的最后,李飞飞回到了一个最朴素的话题。她说,无论她走到哪里,不管是中学老师、护士、会计还是农民,大家都会问同一个问题:「我在 AI 时代还有角色吗?」</p>
+<p>她的回答是响亮的「有」。没有任何技术应该夺走人类尊严和主观能动性(agency,即人自主做决定和行动的能力)。如果你是艺术家,就把 AI 当作讲故事的工具;如果你是护士,AI 能帮你减轻过劳;如果你是即将退休的农民,你作为公民依然可以对 AI 怎么应用发表声音。</p>
+<p>说到底,就像她在美国国会作证时说的那句名言:「AI 没有任何人工之处。它的灵感来自人,由人创造,最重要的是,它影响人。」<button class="ts" data-t="07:51" data-who=""></button> 一切,依然取决于我们自己。</p><h2 id="s7">本集带走</h2><p>1. **AI 的「黄金配方」其实没变过**:早在 ChatGPT 出现的十几年前,2012 年的 ImageNet 突破就已经奠定了大数据、神经网络和 GPU 这三件法宝。今天的大模型,本质上依然是这三者的放大版。
+2. **光靠语言不够,空间智能是下一块拼图**:语言模型很强大,但人类理解世界靠的是超越语言的物理直觉和空间推理。世界模型不是生成 2D 视频,而是生成能让人或机器人走进去、互动并推理的 3D/4D 结构。
+3. **机器人不是大语言模型的简单翻版**:机器人是物理系统,面临的不仅是算法问题,更是数据获取(缺乏 3D 动作数据)和硬件供应链的挑战。从自动驾驶的历史看,这条落地之路依然漫长。</p>
+<div class="sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div><div class="qr"><div class="z">我觉得 AGI 更多是一个营销术语,而不是科学术语,作为科学家而非技术专家来说。</div><div class="e">I feel AGI is more a marketing term than a scientific term as a scientist than technologist.…</div>
+<div class="m">Dr. Fei-Fei Li · 25:47 <button class="ts" data-t="25:47"></button></div></div><div class="qr"><div class="z">AI 没有任何人工的成分。它的灵感来自人。它是由人创造的,最重要的是,它影响人。</div><div class="e">There&#x27;s nothing artificial about AI. It&#x27;s inspired by people. It&#x27;s created by people, and most importantly, it impacts people.…</div>
+<div class="m">Lenny · 07:50 <button class="ts" data-t="07:50"></button></div></div><div class="qr"><div class="z">我是一个在智力上非常无畏的人,我必须说当我雇佣年轻人时,我会寻找这一点,因为我认为如果一个人想要做出改变,这是一个非常重要的品质,那就是当你想要做出改变时,你必须接受你正在创造新事物或正在潜入新事物。</div><div class="e">I&#x27;m an intellectually very fearless person, and I have to say when I hire young people, I look for that because I think that&#x27;s a v…</div>
+<div class="m">Dr. Fei-Fei Li · 66:05 <button class="ts" data-t="66:05"></button></div></div><div class="qr"><div class="z">它是由一家虚拟制作公司制作的。我们与索尼合作,他们使用 Marble 场景来拍摄那些视频。所以我们与那些技术艺术家和导演合作,他们当时说,这将我们的制作时间缩短了 40 倍。</div><div class="e">It was produced by a virtual production company. We collaborated with Sony and they use Marble scenes to shoot those videos. So we…</div>
+<div class="m">Dr. Fei-Fei Li · 52:59 <button class="ts" data-t="52:59"></button></div></div><div class="qr"><div class="z">我认为实际上我在 AI 领域工作得越多,我就越尊重人类。</div><div class="e">I think actually the more I work in AI, the more I respect humans.…</div>
+<div class="m">Dr. Fei-Fei Li · 47:57 <button class="ts" data-t="47:57"></button></div></div>
+<div class="sec">接着看</div>
+<div class="exit"><div class="ex"><b>顺着「创业与行业」挖下去</b><a href="ep-2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge.html">Sriram Krishnan：Kimi K3 将改写 AI 行业版图</a><a href="ep-2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c.html">AI 悬崖边？数据中心次级债与 SpaceX 缩水</a><a href="ep-2026-singju-openclaw-80apps.html">OpenClaw创始人：为何80%的应用将消失</a></div>
+<div class="ex"><b>换个口味</b><a href="ep-2026-07-19-lennys-netflix-cpto-on-ai-and-the-future.html">Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失</a><a href="ep-2026-07-13-pg-the-complete-claude-stack-for-pms.html">PM 如何用 Claude 把生产力提升 10 倍：全栈实战</a><a href="ep-2026-07-12-lennys-how-tech-workers-actually-feel-about.html">科技圈情绪调查：一半人狂喜，一半人煎熬</a></div></div>
+</div><div class="right"><div class="blk"><div class="sh">本集目录</div><div class="toc"><a href="#s0" class=on>AI 的三件法宝,和一段没人愿意提的「寒冬」</a><a href="#s1">到底离 AGI 有多远?</a><a href="#s2">世界模型:为了解决 AI 「不接地气」的毛病</a><a href="#s3">为什么「苦涩的教训」在机器人身上行不通?</a><a href="#s4">Marble:看起来像个玩具,却可能开启下一个时代</a><a href="#s5">不算「典型的年轻创始人」</a><a href="#s6">AI 是关于人的</a><a href="#s7">本集带走</a></div></div>
+<div class="blk"><div class="sh">这一集涉及</div><div class="rr" style="display:block"><span><b class="ek">人物</b>Lenny · Dr. Fei-Fei Li</span></div><div class="rr" style="display:block"><span><b class="ek">公司</b>World Labs · ChatGPT · NVIDIA · Waymo · Twitter</span></div><div class="rr" style="display:block"><span><b class="ek">概念</b>Marble · ImageNet · 空间智能 (spatial intelligence) · 世界模型 (world models) · 具身智能 (embodied AI)</span></div></div></div></div>
+<script>
+function openSearch(){const k=document.getElementById('sk');k.style.display='flex';
+  loadIdx().then(()=>{const i=document.getElementById('sq');i.focus();i.oninput=drawS;});}
+function drawS(){const i=document.getElementById('sq'),r=document.getElementById('sres');
+  const {n,groups}=runSearch(i.value);
+  if(!i.value.trim()){r.innerHTML='';return}
+  if(!n){r.innerHTML='<div class="sg">没有匹配</div>';return}
+  let h='',c=0;
+  for(const [g,items] of groups){ h+='<div class="sg">'+g+'</div>';
+    for(const x of items){ if(c++>=6) break;
+      h+='<a class="si" href="ep-'+x.e.id+'.html"><div class="a">'+(g==='标题'?x.s:x.e.t)+'</div>'+
+         (g!=='标题'?'<div class="b">'+x.s+'</div>':'<div class="b">'+x.e.p+'</div>')+'</a>'; } }
+  h+='<a class="more" href="search.html?q='+encodeURIComponent(i.value)+'">查看全部 '+n+' 条结果 →</a>';
+  r.innerHTML=h; }
+document.addEventListener('keydown',e=>{ if(e.key==='Escape'){const k=document.getElementById('sk'); if(k)k.style.display='none';}
+  if(e.key==='Enter'&&document.activeElement&&document.activeElement.id==='sq'){
+    location.href='search.html?q='+encodeURIComponent(document.activeElement.value);} });
+document.querySelectorAll('.shist b').forEach(b=>b.onclick=()=>{const i=document.getElementById('sq');i.value=b.textContent;drawS();});
+
+// ── 手机端:从左栏/右栏克隆内容,填进大字下拉与全屏菜单(始终与桌面同源,不会漂移)──
+(function(){
+  const L=document.querySelector('.shell .left'), mdm=document.getElementById('mdm'),
+        mdl=document.getElementById('mdl'), mmnav=document.getElementById('mmnav'), mmcat=document.getElementById('mmcat');
+  // 视图切换(最新/最热)在手机上从顶栏 nav 取 —— 顶栏在窄屏是隐藏的,视图得有地方去
+  if(mdm){
+    const cur=(location.pathname.split('/').pop()||'index.html');
+    [['index.html','最新'],['must-read.html','最热']].forEach(([h,t])=>{
+      const c=document.createElement('a'); c.href=h; c.textContent=t;
+      if(h===cur){c.classList.add('on'); if(mdl) mdl.textContent=t;}
+      mdm.appendChild(c);
+    });
+    if(mdl && !mdm.querySelector('.on')) mdl.textContent='最新';
+  }
+  if(mmnav) mmnav.innerHTML='<a href="index.html">最新</a><a href="must-read.html">最热</a>';
+  if(mmcat){
+    const src=L?[...L.querySelectorAll('.cl')]:[];
+    if(src.length){
+      mmcat.innerHTML=src.map(a=>'<a href="'+(a.getAttribute('href')||'#')+'">'+
+        (a.querySelector('span')?a.querySelector('span').textContent:a.textContent).trim()+
+        '<i>'+(a.querySelector('i')?a.querySelector('i').textContent:'')+'</i></a>').join('');
+    } else {
+      mmcat.innerHTML=[['创业与行业','cat-1.html',13],['产品方法','cat-6.html',10],['组织与领导力','cat-2.html',9],
+        ['智能体','cat-4.html',9],['职业与个人成长','cat-3.html',8],['AI 编程','cat-ai.html',7],
+        ['增长与销售','cat-7.html',4],['AI 安全','cat-ai.html',3]]
+        .map(x=>'<a href="'+x[1]+'">'+x[0]+'<i>'+x[2]+'</i></a>').join('');
+    }
+  }
+  const q=document.getElementById('mmq');
+  if(q) q.addEventListener('focus',()=>loadIdx(),{once:true});
+  if(q) q.addEventListener('input',()=>{
+    const r=document.getElementById('mmres'); if(!IDX){loadIdx().then(()=>q.dispatchEvent(new Event('input')));return}
+    const {n,groups}=runSearch(q.value);
+    if(!q.value.trim()){r.innerHTML='';return}
+    if(!n){r.innerHTML='<div class="sg">没有匹配</div>';return}
+    let h='',c=0;
+    for(const [g,items] of groups){h+='<div class="sg">'+g+'</div>';
+      for(const x of items){ if(c++>=5) break;
+        h+='<a class="si" href="ep-'+x.e.id+'.html"><div class="a">'+(g==='标题'?x.s:x.e.t)+'</div>'+
+           (g!=='标题'?'<div class="b">'+x.s+'</div>':'')+'</a>';}}
+    h+='<a class="more" href="search.html?q='+encodeURIComponent(q.value)+'">查看全部 '+n+' 条 →</a>';
+    r.innerHTML=h;});
+  document.addEventListener('click',e=>{const m=document.getElementById('mdm');
+    if(m&&m.classList.contains('open')&&!e.target.closest('.mdrop')) m.classList.remove('open');});
+})();
+
+document.querySelectorAll('[data-go]').forEach(el=>{
+ el.style.cursor='pointer';
+ el.addEventListener('click',ev=>{ if(ev.target.closest('a')) return; location.href=el.dataset.go; });
+});
+document.querySelectorAll('.ts').forEach(b=>b.onclick=()=>{
+ let n=b.nextElementSibling;
+ if(n&&n.classList.contains('orig')){n.remove();return}
+ const d=document.createElement('div');d.className='orig';
+ d.innerHTML='<b>英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'')+'</b><br>'+(b.dataset.en||'“…original English transcript segment…”')+
+ '<br><span style="font-size:11px;color:#b0a3a1">↑ 就地展开,不跳走。数据来自 transcript.en.json</span>';
+ b.after(d);
+});
+</script><script src="comment.js?v=4"></script><script>(function(){function s(){var t=document.querySelector('.top');
+var sticky=t&&getComputedStyle(t).position==='sticky';document.documentElement.style.setProperty('--stick',(sticky?t.offsetHeight:0)+'px');}
+s();addEventListener('resize',s);})();</script><script src="actions.js?v=3" defer></script></body></html>

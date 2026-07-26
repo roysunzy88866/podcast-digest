@@ -1,0 +1,101 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><title>人物页 · 结构稿</title><style>*{box-sizing:border-box}body{margin:0;background:#ececed;font:15px/1.8 -apple-system,"PingFang SC",sans-serif;color:#1e1e1e}
+.note{max-width:1300px;margin:20px auto;padding:13px 17px;background:#fff6f5;border-left:3px solid #b8443c;font-size:13px;line-height:1.85;color:#4a3330}
+.note b{color:#b8443c}
+h2.lbl{max-width:1300px;margin:26px auto 10px;font-size:15px;color:#333}
+.wrap{max-width:1300px;margin:0 auto;background:#fff;border:1px solid #d5d5d5;border-radius:6px;overflow:hidden}
+.top{display:flex;align-items:center;gap:24px;padding:13px 22px;border-bottom:1px solid #e8e8e8;font-size:14px;color:#5c5c5c}
+.top .b{font-size:16px;font-weight:700;color:#1a1a1a}
+.top .sr{margin-left:auto;border:1px solid #e4e4e4;background:#fafafa;border-radius:4px;padding:6px 12px;font-size:13px;color:#9a9a9a;width:300px}
+.cols{display:grid;grid-template-columns:1fr 260px}
+.main{padding:26px 34px 46px;min-width:0}
+.side{border-left:1px solid #eee;padding:24px 20px;background:#fcfcfc}
+.back{font-size:13px;color:#8a8a8a;margin-bottom:16px}
+.hero{display:flex;gap:18px;align-items:flex-start;padding-bottom:20px;border-bottom:1px solid #eee;margin-bottom:24px}
+.av{flex:0 0 74px;width:74px;height:74px;border-radius:50%;background:#3E938A;color:#fff;display:flex;align-items:center;justify-content:center;font-size:26px;font-weight:700}
+h1{margin:0 0 3px;font-size:27px}
+.ro{font-size:14px;color:#555}
+.derived{font-size:13px;color:#777;margin-top:9px;padding-left:11px;border-left:2px solid #e8dedd;line-height:1.7}
+.derived i{font-style:normal;color:#b8443c;font-size:11px;display:block;margin-bottom:2px}
+.nums{font-size:12.5px;color:#9a9a9a;margin-top:11px}
+.nums b{color:#1a1a1a;font-size:15px}
+.sec{font-size:13px;font-weight:700;color:#666;letter-spacing:.4px;margin:34px 0 14px;display:flex;align-items:baseline;gap:9px}
+.sec span{font-weight:400;font-size:11.5px;color:#b0b0b0}
+.q{padding:15px 0;border-bottom:1px solid #f3f3f3}
+.q .z{font-size:17px;line-height:1.7;font-weight:500}
+.q .e{font-size:12.5px;color:#a5a5a5;line-height:1.55;margin-top:5px}
+.q .m{font-size:11.5px;color:#b0b0b0;margin-top:7px}
+.ts{font:inherit;font-size:11px;background:#f4eceb;color:#a1524b;border:0;border-radius:50%;width:17px;height:17px;line-height:17px;padding:0;cursor:pointer;display:inline-block;text-align:center}
+.ep{display:flex;gap:12px;padding:13px 0;border-bottom:1px solid #f3f3f3;align-items:flex-start}
+.ep .t{font-size:15.5px;font-weight:600;line-height:1.45}
+.ep .m{font-size:11.5px;color:#a8a8a8;margin-top:5px}
+.chips{display:flex;flex-wrap:wrap;gap:7px}
+.chip{font-size:12px;padding:3px 11px;border:1px solid #e4e4e4;border-radius:13px;color:#555;cursor:pointer}
+.chip b{color:#b0b0b0;font-weight:400;font-size:10.5px;margin-left:3px}
+.chip:hover{border-color:#b8443c;color:#b8443c}
+.exit{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:12px}
+.ex{border:1px solid #e8e8e8;border-radius:5px;padding:14px 16px}
+.ex b{display:block;font-size:11.5px;color:#b8443c;margin-bottom:8px;letter-spacing:.4px}
+.ex a{display:block;font-size:13.5px;color:#2a2a2a;text-decoration:none;padding:4px 0;line-height:1.5}
+.sh{font-size:12.5px;font-weight:700;color:#999;margin:0 0 10px}
+.sb{margin-bottom:26px}
+.sr2{font-size:13px;color:#666;padding:5px 0}
+.warn{background:#fff8f7;border:1px dashed #e8c9c6;border-radius:5px;padding:12px 15px;font-size:12.5px;color:#a8615a;line-height:1.75;margin-top:12px}
+</style></head><body>
+<div class="note"><b>人物页(页面形式)· 真数据。</b>样本 = Peter Steinberger,<b>只出现在 1 集</b> —— 这是 46 位人物里 44 位的典型情况,先把最坏情况做好。<br>
+<b>数据修正</b>:我之前只看「出现在几集」就判它是死胡同,漏了一层 —— 他在那一集里有 <b>6 条过闸金句 + 29 条候选</b>。金句墙把散落在 4000 字正文里的话重新编排,<b>这本身就是独立内容</b>。<br>
+<b>设计重心 = 不让它成为终点</b>:③④⑤ 三块全是出口(他谈到的公司/概念 → 那些页有真内容;同集的人;同主题的其他嘉宾)。<br>
+「他是谁」那段用<b>集内原话派生</b>,不用模型世界知识 —— 照 ADR 0009,全站唯一不可校验的文字不能存在。</div>
+<h2 class="lbl">桌面</h2>
+<div class="wrap"><div class="top"><span class="b">英文播客中文精华</span><span>主题</span><span>人物</span><span>关于</span><span class="sr">🔍 搜正文 / 金句 / 人名</span></div>
+<div class="cols"><div class="main">
+<div class="back">← 返回</div>
+<div class="hero"><div class="av">PS</div><div>
+<h1>Peter Steinberger</h1><div class="ro">独立开发者 · OpenClaw 作者</div>
+<div class="derived"><i>集里怎么说他</i>「我最大的不同在于它实际上是在你的电脑上运行的。我目前看到的所有东西都在云端运行。」<button class="ts">↩</button></div>
+<div class="nums">本站收录 <b>1</b> 集 · <b>6</b> 条金句 · 关联 <b>13</b> 个实体</div></div></div>
+
+<div class="sec">① 他说过的话 <span>6 条,均已过机器闸门(逐字回原文校验)</span></div>
+<div class="q"><div class="z">「即使它是通用智能,如果它实际上也是专用智能呢?」</div>
+<div class="e">Even though it’s generalized intelligence, what if it actually is also specialized intelligence?…</div>
+<div class="m">OpenClaw 创始人:为何 80% 的应用将消失 · 01:58 <button class="ts">↩</button></div></div><div class="q"><div class="z">「所以公司试图把你绑定到他们的数据孤岛。」</div>
+<div class="e">So the companies try to bind you to their data silo.…</div>
+<div class="m">OpenClaw 创始人:为何 80% 的应用将消失 · 03:49 <button class="ts">↩</button></div></div><div class="q"><div class="z">「不,只需要 CLI。机器人真的擅长 Unix。你可以想要多少就有多少,它就能工作。」</div>
+<div class="e">No, just have CLIs. The bot really is good at Unix. You can have as many as you want and it just works.…</div>
+<div class="m">OpenClaw 创始人:为何 80% 的应用将消失 · 05:29 <button class="ts">↩</button></div></div><div class="q"><div class="z">「没有理智的人类会尝试手动调用 MCP。」</div>
+<div class="e">No sane human tries to call MCP manually.…</div>
+<div class="m">OpenClaw 创始人:为何 80% 的应用将消失 · 05:45 <button class="ts">↩</button></div></div>
+<div class="q" style="opacity:.62"><div class="z">「我想我最大的区别在于它实际上是在你的电脑上运行的。我目前看到的所有东西都在云端运行。」</div>
+<div class="m">候选金句(未过闸门,不展示 / 仅示意) · 00:55</div></div><div class="q" style="opacity:.62"><div class="z">「如果你在电脑上运行它,它可以做每一件该死的事情。」</div>
+<div class="m">候选金句(未过闸门,不展示 / 仅示意) · 00:55</div></div>
+
+<div class="sec">② 出现在这些集 <span>1 集</span></div>
+<div class="ep"><div><div class="t">OpenClaw 创始人:为何 80% 的应用将消失</div>
+<div class="m">SingjuPost 转录 · 2026-07-14 · 智能体 · 作为嘉宾</div></div></div>
+
+<div class="sec">③ 他谈到的 <span>点进去有真内容 —— 这是本页最主要的出口</span></div>
+<div class="chips">
+<span class="chip">智能体<b>19 集</b></span><span class="chip">MCP<b>3 集</b></span><span class="chip">CLI<b>2 集</b></span>
+<span class="chip">提示注入<b>2 集</b></span><span class="chip">护城河<b>2 集</b></span>
+<span class="chip">Claude Code<b>4 集</b></span><span class="chip">Codex<b>2 集</b></span><span class="chip">ChatGPT<b>4 集</b></span></div>
+
+<div class="sec">④ 同一集里的其他人</div>
+<div class="chips"><span class="chip">Raphael Schaad<b>主持人</b></span></div>
+
+<div class="sec">⑤ 也在聊「智能体」的人 <span>同主题横向走</span></div>
+<div class="chips"><span class="chip">Ivan Burazin<b>Daytona</b></span><span class="chip">Reynold Xin<b>Databricks</b></span>
+<span class="chip">Satya Nadella<b>Microsoft</b></span><span class="chip">Jason Lemkin<b>SaaStr</b></span></div>
+
+<div class="sec">接着看</div>
+<div class="exit">
+<div class="ex"><b>顺着「智能体」挖下去</b><a>Modal 的推理基础设施进化史</a><a>Gray Swan 的红队测试与安全护栏</a><a>三任 CPO 的九个智能体实战心得</a></div>
+<div class="ex"><b>换个口味</b><a>沉默的大多数:B2B 增长的真相</a><a>远程团队怎么保住信任</a></div></div>
+</div>
+<div class="side">
+<div class="sb"><div class="sh">本页导航</div>
+<div class="sr2">① 他说过的话</div><div class="sr2">② 出现在这些集</div><div class="sr2">③ 他谈到的</div>
+<div class="sr2">④ 同集的其他人</div><div class="sr2">⑤ 同主题的人</div></div>
+<div class="sb"><div class="sh">生成策略</div>
+<div class="warn">📌 待定:是给全部 46 位都生成页面,还是只给<b>嘉宾</b>生成(被顺带提到的人不生成)。<br><br>
+上千集时前者 = 上千个页面。既有共识里实体页是 <b>unlisted</b>(不进搜索/列表/图谱,直链可访问)。</div></div>
+</div></div></div>
+<div style="height:44px"></div></body></html>

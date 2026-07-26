@@ -1,0 +1,149 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性</title><link rel="stylesheet" href="style.css?v=41"><script src="search.js" defer></script><script src="m-detail.js?v=7" defer></script></head><body>
+<header class="top"><div class="topin">
+<a class="b" href="index.html">跨国深谈</a>
+<nav class="mainnav"><a href="index.html">最新</a><a href="must-read.html">最热</a></nav>
+<a class="mtitle" href="index.html">←<span>返回</span></a><div class="acts"><button class="ico deskonly" onclick="openSearch()" title="搜索"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="9" r="5.5"/><path d="M13.2 13.2 17 17"/></svg></button><button class="ico deskonly" title="深浅色"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="6.5"/><path d="M10 3.5v13a6.5 6.5 0 0 0 0-13z" fill="currentColor" stroke="none"/></svg></button>
+<button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div>
+</div></header>
+<div class="mmenu" id="mm">
+  <div class="mmhead"><span class="b">跨国深谈</span><button class="ico" onclick="document.getElementById('mm').classList.remove('open')">✕</button></div>
+  <input class="mmsearch" id="mmq" placeholder="搜标题 / 金句 / 正文 / 人名">
+  <div id="mmres"></div>
+  <div class="mmsec">浏览</div><div class="mmnav" id="mmnav"></div>
+  <div class="mmsec">主题</div><div class="mmcat" id="mmcat"></div>
+</div>
+<div class="skrim" id="sk" onclick="if(event.target===this)this.style.display='none'">
+  <div class="sbox"><input id="sq" placeholder="搜标题 / 金句 / 正文 / 人名">
+  <div id="sres"></div>
+  <div class="shist"><span>试试</span><b>智能体</b><b>护城河</b><b>Anthropic</b><b>增长</b></div></div>
+</div>
+<div class="shell det"><div class="mid">
+<a class="back" href="index.html">← 返回</a>
+<h1 class="pt">对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性</h1>
+<div class="byl"></div>
+<div class="mt">Lenny&#x27;s Podcast · 2026-05-03 · <a class="mcat" href="cat-6.html">产品方法</a></div>
+<div class="play"><span class="pb">▶</span><span><span class="tt">听中文精华</span><span class="s">87 分钟 · AI 合成朗读</span></span><span class="bar"></span><span class="s">00:00</span></div>
+<div class="hook"><div class="z">重要的是能动性，我不认为能动性在世界上分布得很均匀。</div><div class="a">— Max Schoening <button class="ts" data-t="11:20"></button></div></div>
+<div class="tldr"><b>一句话</b>前 GitHub 设计主管、现 Notion 产品负责人 Max Schoening 谈 AI 如何重塑产品构建、角色边界与可塑软件。</div>
+<p>本集嘉宾是 Max Schoening。他曾在 Google 担任产品经理，领导过 Heroku 的设计团队，曾在 GitHub 任设计负责人和工程师，现在是 Notion 的产品负责人。主持人形容他是目前最成功的 AI 先行产品领导者之一。这一集核心聊的是：随着 AI 变得越来越强大并被深度集成到工作流中，产品构建的方式、团队的角色边界，乃至软件本身的形态，正在发生怎样深刻的变化。全文脉络分为六个部分：先讲设计师和产品经理为什么要拥抱代码，接着谈驱动这种转变的内在特质「主观能动性」，第三部分展开 Max 关于「可塑软件」的产品哲学，第四部分探讨 SaaS 会不会消亡，第五部分拆解伟大产品背后的共性方法论，最后是他给从业者的人生建议。</p>
+<p>### 被唤醒的设计师：不是为了发布，而是为了掌握材料</p>
+<p>既然聊到产品团队和构建方式的变化，就得先看看具体做法是怎么演进的。当主持人问及 Notion 的设计师和产品经理（PM）发布代码的起源故事时，Max 澄清他不敢揽功，但这背后确实有个演变过程：刚开始构建聊天界面时，他们在 Figma 里画静态图，但这根本无法让人感受到动态的 AI。于是他拉上两位设计师，用对大模型（LLM）友好的小代码库搭了一个简陋的「游乐场」，把原型制作全搬了过去。现在的趋势是，随着模型能力变强，同样的设计师和 PM 已经开始为生产级代码库做一定贡献了 <button class="ts" data-t="03:10" data-who="Max Schoening"></button>。</p>
+<p>工具变了，人的角色和认知怎么跟上？这正是接下来的核心议题。主持人提到，因为工程师用 AI 推进极快，设计师和 PM 被挤压得很厉害，与其花时间写代码，不如确保业务大方向不跑偏。Max 对此给出了非常反直觉的判断：他其实一点都不在乎设计师写的代码能否真正上线 <button class="ts" data-t="08:53" data-who="Max Schoening"></button>。他坚持设计师应该懂代码，是因为用代码思考能逼迫他们直面真正的媒介。如果你只懂用工具微调 UI 小细节，却不理解「智能体循环」是如何运转的，那远远不够；真正有价值的，是那种能深度理解智能体循环并设计它们的人 <button class="ts" data-t="09:23" data-who="Max Schoening"></button>。观察现在的各种编程环境，本质上就像上世纪 90 年代的操作系统。</p>
+<p>说完了怎么用工具，接下来要谈的是什么样的人能在这种新世界里胜出。</p>
+<p>### 新世界的通关密码：主观能动性</p>
+<p>工具和工作流程巨变，什么样的人能脱颖而出？Max 一针见血地指出，区分优劣的关键在于「主观能动性」。</p>
+<p>以前，面对做不成的事，人们很容易拿「技能不足」当借口。但现在，随着接近通用人工智能（AGI）的模型能帮你补齐技能，真正决定成败的是你有没有主观能动性，并且这种特质在世界上分布得极不均匀 <button class="ts" data-t="11:09" data-who="Max Schoening"></button>。那些拥有真正能动性、明白周围世界是可塑的人会大放异彩；而那些死守着「PM 到底该干嘛、设计师只能干嘛」这类边界的人，会过得很艰难 <button class="ts" data-t="11:37" data-who="Max Schoening"></button>。他生动地概括这种状态：「你驾驭 Notion，是不是像开着偷来的车那么猛？」(即把公司的产品当成自己的事业来拼命) <button class="ts" data-t="12:31" data-who="Max Schoening"></button>。</p>
+<p>为什么这种特质如此重要？这就引出了 Max 一直在倡导的深层产品哲学。</p>
+<p>### 可塑软件：把对软件的控制权还给用户</p>
+<p>谈到能动性，Max 顺理成章地引出了他大力倡导的「可塑软件」概念。它的核心理念是：软件应当更多地服务于使用者的利益，而不是受制于开发它的公司 <button class="ts" data-t="18:16" data-who="Max Schoening"></button>。</p>
+<p>Max 说，他不想用那些只由大厂「象牙塔」设计师定死的软件。目前的软件世界就像一排排死板的格子间，界面、数据等所有层级被死死粘在一起，你几乎无法改动任何细节。想要可塑性，难道只能去折腾 Linux？Max 指出，如今正是因为有了 AI，人们开始觉醒，意识到「我完全可以自己造工具」<button class="ts" data-t="19:56" data-who="Max Schoening"></button>。为了不让大家各自为战造出一个个孤岛，可塑软件必须建立在鼓励定制的平台或操作系统之上。</p>
+<p>顺着软件形态的演变，自然会引出一个当下热议的行业话题：如果软件这么好改，SaaS 是不是要终结了？</p>
+<p>### SaaS 末日被严重夸大</p>
+<p>既然软件变得越来越可塑、每个人都能用 AI 敲敲打打做个工具，那传统的 SaaS（软件即服务）是不是要被颠覆了？很多人甚至扬言不再需要 Notion。Max 直言，所谓「SaaS 末日」被严重夸大了 <button class="ts" data-t="26:51" data-who="Max Schoening"></button>。</p>
+<p>他承认，2010 年代很多花哨的 SaaS 其实就是个变相的电子表格。但「即服务」这部分才是核心价值：大多数人并不想维护一整套复杂的软件栈。软件就像花园，需要人持续照料 <button class="ts" data-t="25:37" data-who="Max Schoening"></button>。他预言软件会回归更通用的形态，但安全等高度专业化的领域依然需要专门团队去死磕，这正是「即服务」的价值所在。</p>
+<p>理清了宏观的趋势，接下来回归到具体的产品方法论：到底怎么才算做出了一个好产品？</p>
+<p>### 伟大产品的密码：极小的核心与品味</p>
+<p>既然谈到了产品的存亡，Max 分享了他眼中构建成功产品最核心的秘密。现在每个项目的前 10% 几乎都是免费的 <button class="ts" data-t="28:47" data-who="Max Schoening"></button>，写长篇产品需求文档（PRD）没意义了，直接做个粗糙版演示就行。但前 90% 容易，最后 10% 依然占 90% 的工作量。</p>
+<p>最大的陷阱，就是陷入「再加一个功能就会变好」的死循环 <button class="ts" data-t="61:10" data-who="Max Schoening"></button>。真正伟大的产品，都有一个极小却做到极致的核心：手机的杀手锏是多点触控，GitHub 是拉取请求（PR），Notion 是块和斜杠命令，Figma 则是实时协作与非协作间的无缝切换 <button class="ts" data-t="61:32" data-who="Max Schoening"></button>。此外，Max 强调，决定这 20% 核心竞争力的，是「品味」。品味就像是在脑子里跑虚拟机，能精准预判特定人群是否会喜欢某个点子。要练就品味，唯一的办法就是不断做重复训练，增加反馈的频率 <button class="ts" data-t="58:11" data-who="Max Schoening"></button>。</p>
+<p>讲清了产品方法论，最后我们来看看 Max 给从业者的人生建议。</p>
+<p>### 别让焦虑吞噬热爱</p>
+<p>Max 观察到，现在的硅谷充斥着并不真正热爱计算机的人。很多人满脑子想的是「这是最后一班车，挤不进科技圈就会沦为永久底层」，他把这种心态称为极其空虚的活法 <button class="ts" data-t="77:51" data-who="Max Schoening"></button>。他强烈建议人们拉远视角，别被这种狂热分散了对真正热爱事物的专注。</p>
+<p>聊到 UBI（全民基本收入）时，他抛出了极具启发性的观点：我们现在其实已经有了 UBI，它就叫「知识工作」<button class="ts" data-t="68:01" data-who="Max Schoening"></button>。如果真有了 AGI，他表示自己依然会捣鼓、造东西，因为创造本身就是纯粹的智力乐趣。正如主持人引用乔布斯的名言并总结的本集精髓：你总有一天会意识到，世界是由并不比你聪明的人构成的；所以去捣鼓吧，你拥有比想象中大得多的能动性去改变周遭的一切。</p><h2 id="s0">本集带走</h2><p>1. **写代码是为了掌握材料，而非单纯出货**：对非工程师而言，AI 时代学代码的真正价值，是逼迫自己直面智能体运转的底层逻辑，而不是单纯为了多发几个功能。
+2. **伟大产品必有极小核心**：好产品绝不是功能的堆砌，而是有一个小到极致、却做得极其出色的杀手锏核心。
+3. **品味就是脑海中的虚拟机**：品味绝非虚无缥缈的天赋，而是通过高频反馈和大量重复训练，练就的精准预判特定群体反应的能力。</p>
+<div class="sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div><div class="qr"><div class="z">重要的是能动性，我不认为能动性在世界上分布得很均匀。</div><div class="e">The thing that matters is agency, and I don&#x27;t think agency is very evenly distributed in the world.…</div>
+<div class="m">Max Schoening · 11:20 <button class="ts" data-t="11:20"></button></div></div><div class="qr"><div class="z">可塑软件的理念是，软件更贴近使用者的利益，而不是制造它的公司的利益，也许这就是我的框架。</div><div class="e">Malleable software is the idea that software works closer to the interest of the people that use it than the interest of the corpo…</div>
+<div class="m">Max Schoening · 18:16 <button class="ts" data-t="18:16"></button></div></div><div class="qr"><div class="z">我认为在某种程度上 SaaS 末日被大大夸大了。</div><div class="e">I think to some degree the SaaS apocalypse is greatly exaggerated.…</div>
+<div class="m">Max Schoening · 26:51 <button class="ts" data-t="26:51"></button></div></div><div class="qr"><div class="z">我认为每个项目的前 10% 现在是免费的。</div><div class="e">I think the first 10% of every project are now free.…</div>
+<div class="m">Max Schoening · 28:47 <button class="ts" data-t="28:47"></button></div></div><div class="qr"><div class="z">最大的陷阱之一是如果你陷入这个循环：如果我再给产品添加一样东西，它最终就会变得很棒。</div><div class="e">One of the biggest pitfalls is if you get into the loop of, if I just add one more thing to the product, it&#x27;ll be finally great.…</div>
+<div class="m">Max Schoening · 61:16 <button class="ts" data-t="61:16"></button></div></div><div class="qr"><div class="z">如果我真正看看那些真正伟大的产品，它们都有一个非常小的核心，那是极其出色的。</div><div class="e">If I really look at the truly great products, they all have one tiny core that is so exceptionally good.…</div>
+<div class="m">Max Schoening · 61:24 <button class="ts" data-t="61:24"></button></div></div><div class="qr"><div class="z">品味实际上意味着你能够在脑海中运行一台虚拟机，给定一个想法，你可以预测某个特定群体是否会喜欢它。</div><div class="e">Taste actually means you&#x27;re able to run a virtual machine in your head where given an idea, you can predict for a certain in group…</div>
+<div class="m">Max Schoening · 00:40 <button class="ts" data-t="00:40"></button></div></div><div class="qr"><div class="z">我的观点是我们已经有了全民基本收入，它叫作知识工作。</div><div class="e">My take is that we already have universal basic income. It&#x27;s called knowledge work.…</div>
+<div class="m">Max Schoening · 68:01 <button class="ts" data-t="68:01"></button></div></div><div class="qr"><div class="z">有一天你醒来，你会意识到这个世界是由并不比你聪明的人组成的。</div><div class="e">One day you wake up and you realize the world is made up by people no smarter than you.…</div>
+<div class="m">Max Schoening · 16:31 <button class="ts" data-t="16:31"></button></div></div>
+<div class="sec">接着看</div>
+<div class="exit"><div class="ex"><b>顺着「产品方法」挖下去</b><a href="ep-2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for.html">Adam Mosseri：AI 时代的团队重组与产品品味</a><a href="ep-2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto.html">Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品</a><a href="ep-2026-06-24-pg-company-os-jz.html">AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战</a></div>
+<div class="ex"><b>换个口味</b><a href="ep-2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge.html">Sriram Krishnan：Kimi K3 将改写 AI 行业版图</a><a href="ep-2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c.html">AI 悬崖边？数据中心次级债与 SpaceX 缩水</a><a href="ep-2026-07-19-lennys-netflix-cpto-on-ai-and-the-future.html">Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失</a></div></div>
+</div><div class="right"><div class="blk"><div class="sh">本集目录</div><div class="toc"><a href="#s0" class=on>本集带走</a></div></div>
+<div class="blk"><div class="sh">这一集涉及</div><div class="rr" style="display:block"><span><b class="ek">人物</b>Max Schoening · Lenny</span></div><div class="rr" style="display:block"><span><b class="ek">公司</b>Notion · GitHub · Heroku · Anthropic · OpenAI</span></div><div class="rr" style="display:block"><span><b class="ek">概念</b>主观能动性 (agency) · 可塑软件 (malleable software) · 智能体 (agent) · 品味 (taste) · SaaS 末日 (SaaS apocalypse)</span></div></div></div></div>
+<script>
+function openSearch(){const k=document.getElementById('sk');k.style.display='flex';
+  loadIdx().then(()=>{const i=document.getElementById('sq');i.focus();i.oninput=drawS;});}
+function drawS(){const i=document.getElementById('sq'),r=document.getElementById('sres');
+  const {n,groups}=runSearch(i.value);
+  if(!i.value.trim()){r.innerHTML='';return}
+  if(!n){r.innerHTML='<div class="sg">没有匹配</div>';return}
+  let h='',c=0;
+  for(const [g,items] of groups){ h+='<div class="sg">'+g+'</div>';
+    for(const x of items){ if(c++>=6) break;
+      h+='<a class="si" href="ep-'+x.e.id+'.html"><div class="a">'+(g==='标题'?x.s:x.e.t)+'</div>'+
+         (g!=='标题'?'<div class="b">'+x.s+'</div>':'<div class="b">'+x.e.p+'</div>')+'</a>'; } }
+  h+='<a class="more" href="search.html?q='+encodeURIComponent(i.value)+'">查看全部 '+n+' 条结果 →</a>';
+  r.innerHTML=h; }
+document.addEventListener('keydown',e=>{ if(e.key==='Escape'){const k=document.getElementById('sk'); if(k)k.style.display='none';}
+  if(e.key==='Enter'&&document.activeElement&&document.activeElement.id==='sq'){
+    location.href='search.html?q='+encodeURIComponent(document.activeElement.value);} });
+document.querySelectorAll('.shist b').forEach(b=>b.onclick=()=>{const i=document.getElementById('sq');i.value=b.textContent;drawS();});
+
+// ── 手机端:从左栏/右栏克隆内容,填进大字下拉与全屏菜单(始终与桌面同源,不会漂移)──
+(function(){
+  const L=document.querySelector('.shell .left'), mdm=document.getElementById('mdm'),
+        mdl=document.getElementById('mdl'), mmnav=document.getElementById('mmnav'), mmcat=document.getElementById('mmcat');
+  // 视图切换(最新/最热)在手机上从顶栏 nav 取 —— 顶栏在窄屏是隐藏的,视图得有地方去
+  if(mdm){
+    const cur=(location.pathname.split('/').pop()||'index.html');
+    [['index.html','最新'],['must-read.html','最热']].forEach(([h,t])=>{
+      const c=document.createElement('a'); c.href=h; c.textContent=t;
+      if(h===cur){c.classList.add('on'); if(mdl) mdl.textContent=t;}
+      mdm.appendChild(c);
+    });
+    if(mdl && !mdm.querySelector('.on')) mdl.textContent='最新';
+  }
+  if(mmnav) mmnav.innerHTML='<a href="index.html">最新</a><a href="must-read.html">最热</a>';
+  if(mmcat){
+    const src=L?[...L.querySelectorAll('.cl')]:[];
+    if(src.length){
+      mmcat.innerHTML=src.map(a=>'<a href="'+(a.getAttribute('href')||'#')+'">'+
+        (a.querySelector('span')?a.querySelector('span').textContent:a.textContent).trim()+
+        '<i>'+(a.querySelector('i')?a.querySelector('i').textContent:'')+'</i></a>').join('');
+    } else {
+      mmcat.innerHTML=[['创业与行业','cat-1.html',13],['产品方法','cat-6.html',10],['组织与领导力','cat-2.html',9],
+        ['智能体','cat-4.html',9],['职业与个人成长','cat-3.html',8],['AI 编程','cat-ai.html',7],
+        ['增长与销售','cat-7.html',4],['AI 安全','cat-ai.html',3]]
+        .map(x=>'<a href="'+x[1]+'">'+x[0]+'<i>'+x[2]+'</i></a>').join('');
+    }
+  }
+  const q=document.getElementById('mmq');
+  if(q) q.addEventListener('focus',()=>loadIdx(),{once:true});
+  if(q) q.addEventListener('input',()=>{
+    const r=document.getElementById('mmres'); if(!IDX){loadIdx().then(()=>q.dispatchEvent(new Event('input')));return}
+    const {n,groups}=runSearch(q.value);
+    if(!q.value.trim()){r.innerHTML='';return}
+    if(!n){r.innerHTML='<div class="sg">没有匹配</div>';return}
+    let h='',c=0;
+    for(const [g,items] of groups){h+='<div class="sg">'+g+'</div>';
+      for(const x of items){ if(c++>=5) break;
+        h+='<a class="si" href="ep-'+x.e.id+'.html"><div class="a">'+(g==='标题'?x.s:x.e.t)+'</div>'+
+           (g!=='标题'?'<div class="b">'+x.s+'</div>':'')+'</a>';}}
+    h+='<a class="more" href="search.html?q='+encodeURIComponent(q.value)+'">查看全部 '+n+' 条 →</a>';
+    r.innerHTML=h;});
+  document.addEventListener('click',e=>{const m=document.getElementById('mdm');
+    if(m&&m.classList.contains('open')&&!e.target.closest('.mdrop')) m.classList.remove('open');});
+})();
+
+document.querySelectorAll('[data-go]').forEach(el=>{
+ el.style.cursor='pointer';
+ el.addEventListener('click',ev=>{ if(ev.target.closest('a')) return; location.href=el.dataset.go; });
+});
+document.querySelectorAll('.ts').forEach(b=>b.onclick=()=>{
+ let n=b.nextElementSibling;
+ if(n&&n.classList.contains('orig')){n.remove();return}
+ const d=document.createElement('div');d.className='orig';
+ d.innerHTML='<b>英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'')+'</b><br>'+(b.dataset.en||'“…original English transcript segment…”')+
+ '<br><span style="font-size:11px;color:#b0a3a1">↑ 就地展开,不跳走。数据来自 transcript.en.json</span>';
+ b.after(d);
+});
+</script><script src="comment.js?v=4"></script><script>(function(){function s(){var t=document.querySelector('.top');
+var sticky=t&&getComputedStyle(t).position==='sticky';document.documentElement.style.setProperty('--stick',(sticky?t.offsetHeight:0)+'px');}
+s();addEventListener('resize',s);})();</script><script src="actions.js?v=3" defer></script></body></html>

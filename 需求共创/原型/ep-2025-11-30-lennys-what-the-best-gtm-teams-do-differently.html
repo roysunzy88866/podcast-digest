@@ -1,0 +1,131 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织</title><link rel="stylesheet" href="style.css?v=41"><script src="search.js" defer></script><script src="m-detail.js?v=7" defer></script></head><body>
+<header class="top"><div class="topin">
+<a class="b" href="index.html">跨国深谈</a>
+<nav class="mainnav"><a href="index.html">最新</a><a href="must-read.html">最热</a></nav>
+<a class="mtitle" href="index.html">←<span>返回</span></a><div class="acts"><button class="ico deskonly" onclick="openSearch()" title="搜索"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="9" r="5.5"/><path d="M13.2 13.2 17 17"/></svg></button><button class="ico deskonly" title="深浅色"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="6.5"/><path d="M10 3.5v13a6.5 6.5 0 0 0 0-13z" fill="currentColor" stroke="none"/></svg></button>
+<button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div>
+</div></header>
+<div class="mmenu" id="mm">
+  <div class="mmhead"><span class="b">跨国深谈</span><button class="ico" onclick="document.getElementById('mm').classList.remove('open')">✕</button></div>
+  <input class="mmsearch" id="mmq" placeholder="搜标题 / 金句 / 正文 / 人名">
+  <div id="mmres"></div>
+  <div class="mmsec">浏览</div><div class="mmnav" id="mmnav"></div>
+  <div class="mmsec">主题</div><div class="mmcat" id="mmcat"></div>
+</div>
+<div class="skrim" id="sk" onclick="if(event.target===this)this.style.display='none'">
+  <div class="sbox"><input id="sq" placeholder="搜标题 / 金句 / 正文 / 人名">
+  <div id="sres"></div>
+  <div class="shist"><span>试试</span><b>智能体</b><b>护城河</b><b>Anthropic</b><b>增长</b></div></div>
+</div>
+<div class="shell det"><div class="mid">
+<a class="back" href="index.html">← 返回</a>
+<h1 class="pt">把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织</h1>
+<div class="byl"></div>
+<div class="mt">Lenny&#x27;s Podcast · 2025-11-30 · <a class="mcat" href="cat-7.html">增长与销售</a></div>
+<div class="play"><span class="pb">▶</span><span><span class="tt">听中文精华</span><span class="s">85 分钟 · AI 合成朗读</span></span><span class="bar"></span><span class="s">00:00</span></div>
+<div class="hook"><div class="z">80% 的客户购买是为了避免痛苦或降低风险，而不是增加上行空间，</div><div class="a">— Jeanne DeWitt Grosser <button class="ts" data-t="00:27"></button></div></div>
+<div class="tldr"><b>一句话</b>前 Stripe、现 Vercel 的 COO 分享如何用 AI 智能体重构销售流程，并将 GTM 视为产品来打造卓越体验。</div>
+<p>当产品间的技术差异逐渐缩小时，一家公司该如何脱颖而出？本期嘉宾 Jean Grosser 曾在 Stripe 担任首席商务官并从零搭建销售团队，目前担任 Vercel 的首席运营官（COO）。在这一集里，她深入拆解了什么是世界级的 Go-to-Market（简称 GTM，即产品推向市场的全过程，涵盖营销、销售、技术支持等所有接触客户或产生收入的环节）。整场对话沿着一条非常清晰的主线展开：从 GTM 职能在 AI 时代的演变，到如何用智能体重构销售流程，再到像打造产品一样打磨客户的购买体验，最后分享了团队搭建、市场细分、PLG 边界与定价的实操心法。</p><h2 id="s0">从过度细分走向整合，AI 正在重构 GTM 职能</h2><p>关于什么是 Go-to-Market，很多人以为它就是营销和销售这个驱动收入的矛尖。但 Jean 在 Vercel 的管理范围更广——任何接触客户或赚取收入的职能（包括销售工程师、客户成功、支持与合作伙伴关系）都在她麾下。在她的职业生涯中，这些不同职能往往各自为政：市场、销售和支持部门各有各的策略和细分框架，像维恩图一样只能部分重叠。她预测，经历了过去几年 GTM 职能的过度细分（有人曾统计有 17 种不同的 GTM 角色）后，行业将迎来整合 <button class="ts" data-t="07:20" data-who="Jeanne DeWitt Grosser"></button>。</p>
+<p>这种整合的底层动力，是商业模式的演进与 AI 的爆发。Jean 观察到，当基于消费的商业模式兴起时，GT M 就开始向咨询化转变，因为初次落地往往只占未来总业务量的极小部分，需要更深层的关系维系。如今在 AI 时代，客户虽然知道自己需要变革，但根本不知道具体要变成什么样，因此销售团队必须像顾问一样帮客户理清思路。这催生了「前置部署工程」的复兴（一种深入客户环境提供贴身技术服务的模式）<button class="ts" data-t="09:52" data-who="Jeanne DeWitt Grosser"></button>，以及全新角色的诞生：GTM 工程师。</p><h2 id="s1">GTM 工程师：用智能体把人从机械劳动中解放出来</h2><p>前置部署工程帮客户落地技术，而 GTM 工程师则是用技术重构内部销售流程。这个角色的核心职责，是把销售团队中重复、机械的工作流拆解出来并转化为智能体（AI Agent）去完成。为了理解它为什么重要，Jean 讲述了她在 2017 年于 Stripe 的尝试。当时她只有 4 个外向拓展人员（而同类公司通常有 30 个），为了提高效率，她们试图建立一个包含地球上所有公司的巨大数据库，根据其商业模式等属性自动拼装个性化的邮件模板。但在没有 AI 的时代，由于数据假阳性率太高等原因，这套系统非常难用且并未完全成功 <button class="ts" data-t="11:33" data-who="Jeanne DeWitt Grosser"></button>。而现在，得益于 AI，她们在 Vercel 真正把这件事做成了。</p>
+<p>理解了这种效率突破，就不难明白这种新工具为什么能彻底改变团队结构。Jean 团队目前的做法是：让 GTM 工程师跟随业绩最好的销售，记录他们打开的网页、查的数据，将这套人类工作流编码成智能体。在处理入站线索时，她们的智能体会先判断线索质量，接着做深度调研并撰写回复。但关键在于，必须保留「人在回路」——让真人审核内容并点击发送。这套逻辑过去需要 10 名销售拓展人员（SDR，负责挖掘潜在客户并生成销售管道）完成，现在只需 1 人对智能体进行质量把控，其余 9 人全部被释放到了更具挑战的外向拓展中 <button class="ts" data-t="19:55" data-who="Jeanne DeWitt Grosser"></button>。</p>
+<blockquote>【背景】在销售术语中，SDR（销售拓展代表）主要负责前期寻找线索并初步沟通，而 AE（客户主管）则负责后续的深度谈判与最终促成交易。</blockquote>
+<p>这个转变不仅压缩了成本，还大幅提升了响应速度。整个入站智能体项目仅由 1 名 GTM 工程师用 25% 到 30% 的时间，历时六周就完成了开发部署，且线索转化率与人类持平。更惊人的是，这个全栈智能体运行一整年的算力成本仅约 1000 美元——相比于原本超 100 万美元的人力薪资，总成本下降了 90% 以上 <button class="ts" data-t="41:40" data-who="Jeanne DeWitt Grosser"></button>。Jean 认为，对于门槛较低的拓客工作，AI 会取代很大一部分；但对于需要跨多个业务线进行三角验证的深度企业级客户开发，AI 短期内仍无法替代人类 <button class="ts" data-t="22:32" data-who="Jeanne DeWitt Grosser"></button>。</p><h2 id="s2">像打造产品一样打磨「购买体验」</h2><p>工具与工作流的升级，最终都指向同一个战略核心：在技术差异缩小的今天，要把 GTM 当做产品来打磨。Jean 回忆，她大学毕业后的第一份工作是 2004 年加入 Gmail 团队，当时 Gmail 的技术远超竞品；但十年后云计算普及，软件功能开始商品化。她由此得出结论：当产品的技术差异变小，「被推销的体验」将越来越能决定公司的竞争力 <button class="ts" data-t="46:56" data-who="Jeanne DeWitt Grosser"></button>。</p>
+<p>把 GTM 当产品做，意味着必须设计一套独特的客户购买旅程，让每个触点都在创造价值，而不仅仅是完成交易。一个经典的案例是 Stripe 的「白板环节」。通常，销售过程的第一个正式电话（探索性会谈）往往是单向盘问客户痛点，这让客户感到无聊。而在 Stripe，这第一通电话变成了白板会议：销售会邀请客户画出他们的支付系统架构图。这不仅让 Stripe 了解了客户的技术栈，客户自己也获得了清晰的业务认知图景，双方由此建立了深度的协作感 <button class="ts" data-t="48:46" data-who="Jeanne DeWitt Grosser"></button>。</p>
+<p>承接这种「任何触点都要创造价值」的理念，Vercel 还会利用公开数据（如衡量网站性能的 Crux 指标）为客户提供独特的行业洞察。很多公司现在关心 AEO（Answer Engine Optimization，即针对 AI 搜索引擎的内容优化），因为网站性能会影响 SEO，进而影响 AEO。Vercel 会告诉客户其网站速度相对于同行的表现如何。即使客户当下没有购买，这种专业的洞察也会建立信任，让他们在未来产生需求时首先想到你 <button class="ts" data-t="51:20" data-who="Jeanne DeWitt Grosser"></button>。在这个沟通过程中，极其重要的一点是：优秀的销售在谈话中的发言时间应少于一半，要多提问、引导客户自己得出结论，而不是急于推销解决方案 <button class="ts" data-t="55:11" data-who="Jeanne DeWitt Grosser"></button>。</p><h2 id="s3">实操指南：市场细分、销售协作与定价策略</h2><p>要落地这些战略，离不开精准的市场细分。细分不仅是 GTM 的事，更是一个全公司（包括产品研发）的事。Vercel 有一个核心价值观叫「了解你的客户」，Jean 会在每位新员工入职的第一周讲解公司的细分框架，确保产品经理在开发新功能时，已经清楚目标用户是企业还是初创公司 <button class="ts" data-t="68:46" data-who="Jeanne DeWitt Grosser"></button>。在具体做法上，不能仅仅按公司规模（大、中、小）来划分。比如 Stripe 曾加上「增长潜力」维度，因为对基于消费的模式来说，年增长 200% 的客户比增长 8% 的更有价值；Vercel 则加上了「流量规模」和「工作负载类型」（如电商与加密货币公司的销售策略完全不同）。一个有效的细分框架，应该通过数据回归分析找出与成功最相关的三个关键属性 <button class="ts" data-t="60:58" data-who="Jeanne DeWitt Grosser"></button>。</p>
+<p>有了清晰的定位，如何让销售组织与产品工程团队顺畅配合？Jean 给销售团队定下的试金石测试是：如果把你（客户主管）放在公司的 10 名工程师面前，他们需要 10 分钟才能分辨出你不是产品经理 <button class="ts" data-t="69:59" data-who="Jeanne DeWitt Grosser"></button>。她坚信，最好的 GTM 组织是营收引擎与产品研发的完美结合。销售人员需要具备极强的产品深度，这样才能将一线听到的噪音转化为有效信号，反哺给产品团队。此外，她强烈建议在招聘时构建多元化背景的组合：既要有真正懂销售技能的老手，也要有咨询或投行背景的人，后者更擅长与客户的 CFO 探讨损益表或总拥有成本（TCO）等量化分析 <button class="ts" data-t="81:14" data-who="Jeanne DeWitt Grosser"></button>。</p>
+<p>这种基于深度协作的 GTM 团队，该如何选择增长路径与商业模式？关于 PLG（产品驱动增长）和定价，Jean 有着清醒的认知。她认为 PLG 仍然是 SaaS 公司起盘的重要引擎，但它的致命弱点是有天花板——极少有人会通过纯自助服务直接购买上百万美元的订单。许多公司撞墙，就是因为建立可复制的销售引擎（尤其是外向拓展）需要漫长时间，但他们等得太久了 <button class="ts" data-t="74:30" data-who="Jeanne DeWitt Grosser"></button>。此外，定价必须像对待产品一样深思熟虑。Vercel 曾在 8 月份做过一次重大的定价解绑：他们发现企业版 SKU 中有一半用户其实是初创公司，这说明他们把初创公司真正想要的功能错误地锁在了企业版里。将这些功能剥离出来供客户自助购买后，既大幅推动了 PLG 漏斗的增长，也提升了整体效率 <button class="ts" data-t="78:34" data-who="Jeanne DeWitt Grosser"></button>。</p><h2 id="s4">本集带走</h2><p>1. **GTM 工程师是销售的未来**：把顶尖销售的工作流拆解成智能体，并保留「人在回路」进行最终把关，能用极低的成本（如千美元/年的算力）释放成倍的人力，让他们专注于与客户的深度沟通。
+2. **卖产品不如卖「降低风险」的体验**：企业客户本质上更倾向于规避风险而非追求上行空间（约 80% 的购买动机是避免痛苦或降低风险）。通过白板协作、提供专业对标数据等方式建立信任，比单纯推销功能更有效。
+3. **市场细分和定价是动态的**：成功的 GTM 不能只靠公司规模划分市场，需结合数据回归找出流量、商业模式等关键驱动属性。同时，要敢于像调整产品一样去解绑和调整定价策略，确保增长路径不被 PLG 的天花板卡死。</p>
+<div class="sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div><div class="qr"><div class="z">80% 的客户购买是为了避免痛苦或降低风险，而不是增加上行空间，</div><div class="e">80% of customers buy to avoid pain or reduce risk as opposed to increase upside,…</div>
+<div class="m">Jeanne DeWitt Grosser · 00:27 <button class="ts" data-t="00:27"></button></div></div><div class="qr"><div class="z">如果你是我组织里的客户主管，我把你放在我们公司的 10 名工程师面前，他们应该花 10 分钟才能弄清楚你不是产品经理。</div><div class="e">if you are an account executive in my org and I put you in front of 10 engineers at our company, it should take them 10 minutes to…</div>
+<div class="m">Jeanne DeWitt Grosser · 01:26 <button class="ts" data-t="01:26"></button></div></div><div class="qr"><div class="z">我认为在拓客方面，AI 可以取代相当大一部分，因为普通的 SDR 一开始也没有做特别复杂的研究。</div><div class="e">I think on prospecting, it can replace a fair amount because the average SDR wasn&#x27;t doing overly sophisticated research in the fir…</div>
+<div class="m">Jeanne DeWitt Grosser · 22:32 <button class="ts" data-t="22:32"></button></div></div><div class="qr"><div class="z">实际上，你输的原因是你从未真正联系到经济决策人。</div><div class="e">actually, you lost because you never really got in touch with the economic buyer.…</div>
+<div class="m">Jeanne DeWitt Grosser · 35:53 <button class="ts" data-t="35:53"></button></div></div><div class="qr"><div class="z">我们最终可能会在时机成熟时使用更好的集成智能体平台。或者我们可能会发现 CIO 越来越从软件的采购者变成软件的构建者</div><div class="e">we may ultimately end up on, you know, better integrated agent platforms in the fullness of time. Or we may find that the CIO incr…</div>
+<div class="m">Jeanne DeWitt Grosser · 42:38 <button class="ts" data-t="42:38"></button></div></div><div class="qr"><div class="z">“是”很棒，“不”很棒，“也许”会毁了你。</div><div class="e">yeses are great, noes are great, maybes will kill you.…</div>
+<div class="m">Jeanne DeWitt Grosser · 85:15 <button class="ts" data-t="85:15"></button></div></div>
+<div class="sec">接着看</div>
+<div class="exit"><div class="ex"><b>顺着「增长与销售」挖下去</b><a href="ep-2026-04-05-lennys-anthropics-1b-to-19b-growth-run.html">Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师</a><a href="ep-2026-01-25-lennys-why-your-product-stopped-growing.html">增长停滞怎么办？Jason Cohen 的四步诊断法</a><a href="ep-2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag.html">1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验</a></div>
+<div class="ex"><b>换个口味</b><a href="ep-2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge.html">Sriram Krishnan：Kimi K3 将改写 AI 行业版图</a><a href="ep-2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c.html">AI 悬崖边？数据中心次级债与 SpaceX 缩水</a><a href="ep-2026-07-19-lennys-netflix-cpto-on-ai-and-the-future.html">Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失</a></div></div>
+</div><div class="right"><div class="blk"><div class="sh">本集目录</div><div class="toc"><a href="#s0" class=on>从过度细分走向整合，AI 正在重构 GTM 职能</a><a href="#s1">GTM 工程师：用智能体把人从机械劳动中解放出来</a><a href="#s2">像打造产品一样打磨「购买体验」</a><a href="#s3">实操指南：市场细分、销售协作与定价策略</a><a href="#s4">本集带走</a></div></div>
+<div class="blk"><div class="sh">这一集涉及</div><div class="rr" style="display:block"><span><b class="ek">人物</b>Jeanne DeWitt Grosser · Lenny</span></div><div class="rr" style="display:block"><span><b class="ek">公司</b>Vercel · Stripe · Gong · OpenAI</span></div><div class="rr" style="display:block"><span><b class="ek">概念</b>go-to-market · 智能体 (agent) · GTM 工程师 (go-to-market engineer) · 市场细分 (segmentation) · PLG</span></div></div></div></div>
+<script>
+function openSearch(){const k=document.getElementById('sk');k.style.display='flex';
+  loadIdx().then(()=>{const i=document.getElementById('sq');i.focus();i.oninput=drawS;});}
+function drawS(){const i=document.getElementById('sq'),r=document.getElementById('sres');
+  const {n,groups}=runSearch(i.value);
+  if(!i.value.trim()){r.innerHTML='';return}
+  if(!n){r.innerHTML='<div class="sg">没有匹配</div>';return}
+  let h='',c=0;
+  for(const [g,items] of groups){ h+='<div class="sg">'+g+'</div>';
+    for(const x of items){ if(c++>=6) break;
+      h+='<a class="si" href="ep-'+x.e.id+'.html"><div class="a">'+(g==='标题'?x.s:x.e.t)+'</div>'+
+         (g!=='标题'?'<div class="b">'+x.s+'</div>':'<div class="b">'+x.e.p+'</div>')+'</a>'; } }
+  h+='<a class="more" href="search.html?q='+encodeURIComponent(i.value)+'">查看全部 '+n+' 条结果 →</a>';
+  r.innerHTML=h; }
+document.addEventListener('keydown',e=>{ if(e.key==='Escape'){const k=document.getElementById('sk'); if(k)k.style.display='none';}
+  if(e.key==='Enter'&&document.activeElement&&document.activeElement.id==='sq'){
+    location.href='search.html?q='+encodeURIComponent(document.activeElement.value);} });
+document.querySelectorAll('.shist b').forEach(b=>b.onclick=()=>{const i=document.getElementById('sq');i.value=b.textContent;drawS();});
+
+// ── 手机端:从左栏/右栏克隆内容,填进大字下拉与全屏菜单(始终与桌面同源,不会漂移)──
+(function(){
+  const L=document.querySelector('.shell .left'), mdm=document.getElementById('mdm'),
+        mdl=document.getElementById('mdl'), mmnav=document.getElementById('mmnav'), mmcat=document.getElementById('mmcat');
+  // 视图切换(最新/最热)在手机上从顶栏 nav 取 —— 顶栏在窄屏是隐藏的,视图得有地方去
+  if(mdm){
+    const cur=(location.pathname.split('/').pop()||'index.html');
+    [['index.html','最新'],['must-read.html','最热']].forEach(([h,t])=>{
+      const c=document.createElement('a'); c.href=h; c.textContent=t;
+      if(h===cur){c.classList.add('on'); if(mdl) mdl.textContent=t;}
+      mdm.appendChild(c);
+    });
+    if(mdl && !mdm.querySelector('.on')) mdl.textContent='最新';
+  }
+  if(mmnav) mmnav.innerHTML='<a href="index.html">最新</a><a href="must-read.html">最热</a>';
+  if(mmcat){
+    const src=L?[...L.querySelectorAll('.cl')]:[];
+    if(src.length){
+      mmcat.innerHTML=src.map(a=>'<a href="'+(a.getAttribute('href')||'#')+'">'+
+        (a.querySelector('span')?a.querySelector('span').textContent:a.textContent).trim()+
+        '<i>'+(a.querySelector('i')?a.querySelector('i').textContent:'')+'</i></a>').join('');
+    } else {
+      mmcat.innerHTML=[['创业与行业','cat-1.html',13],['产品方法','cat-6.html',10],['组织与领导力','cat-2.html',9],
+        ['智能体','cat-4.html',9],['职业与个人成长','cat-3.html',8],['AI 编程','cat-ai.html',7],
+        ['增长与销售','cat-7.html',4],['AI 安全','cat-ai.html',3]]
+        .map(x=>'<a href="'+x[1]+'">'+x[0]+'<i>'+x[2]+'</i></a>').join('');
+    }
+  }
+  const q=document.getElementById('mmq');
+  if(q) q.addEventListener('focus',()=>loadIdx(),{once:true});
+  if(q) q.addEventListener('input',()=>{
+    const r=document.getElementById('mmres'); if(!IDX){loadIdx().then(()=>q.dispatchEvent(new Event('input')));return}
+    const {n,groups}=runSearch(q.value);
+    if(!q.value.trim()){r.innerHTML='';return}
+    if(!n){r.innerHTML='<div class="sg">没有匹配</div>';return}
+    let h='',c=0;
+    for(const [g,items] of groups){h+='<div class="sg">'+g+'</div>';
+      for(const x of items){ if(c++>=5) break;
+        h+='<a class="si" href="ep-'+x.e.id+'.html"><div class="a">'+(g==='标题'?x.s:x.e.t)+'</div>'+
+           (g!=='标题'?'<div class="b">'+x.s+'</div>':'')+'</a>';}}
+    h+='<a class="more" href="search.html?q='+encodeURIComponent(q.value)+'">查看全部 '+n+' 条 →</a>';
+    r.innerHTML=h;});
+  document.addEventListener('click',e=>{const m=document.getElementById('mdm');
+    if(m&&m.classList.contains('open')&&!e.target.closest('.mdrop')) m.classList.remove('open');});
+})();
+
+document.querySelectorAll('[data-go]').forEach(el=>{
+ el.style.cursor='pointer';
+ el.addEventListener('click',ev=>{ if(ev.target.closest('a')) return; location.href=el.dataset.go; });
+});
+document.querySelectorAll('.ts').forEach(b=>b.onclick=()=>{
+ let n=b.nextElementSibling;
+ if(n&&n.classList.contains('orig')){n.remove();return}
+ const d=document.createElement('div');d.className='orig';
+ d.innerHTML='<b>英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'')+'</b><br>'+(b.dataset.en||'“…original English transcript segment…”')+
+ '<br><span style="font-size:11px;color:#b0a3a1">↑ 就地展开,不跳走。数据来自 transcript.en.json</span>';
+ b.after(d);
+});
+</script><script src="comment.js?v=4"></script><script>(function(){function s(){var t=document.querySelector('.top');
+var sticky=t&&getComputedStyle(t).position==='sticky';document.documentElement.style.setProperty('--stick',(sticky?t.offsetHeight:0)+'px');}
+s();addEventListener('resize',s);})();</script><script src="actions.js?v=3" defer></script></body></html>
