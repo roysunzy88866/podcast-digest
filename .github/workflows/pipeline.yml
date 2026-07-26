@@ -1,5 +1,5 @@
 # C7b 无人值守 · 全自动发布流水线(Scenario 3 · ADR 0011/0012 · drift #20/#21/#22)
-# cron 一天一次(+手动)→ 取 RSS → 只向前看的新访谈集跑完整链 → gate-all 全过 → 部署 voice.solomind.cc → 去重状态 commit 回仓。
+# cron 一天一次(+手动)→ 取 RSS → 只向前看的新访谈集跑完整链 → gate-all 全过 → 部署 talk.solomind.cc → 去重状态 commit 回仓。
 #
 # 【全自动例外】发布无人工复核,靠 gate-all(五层机器闸门)+ 定点重写兜底(drift #20,用户知情风险自担)。
 # 【安全】只有「真处理了新集 且 gate-all 全过」才 deploy;无新集/闸门不过 → 不碰线上(保上一版)。
@@ -146,7 +146,7 @@ jobs:
           retention-days: 7
           if-no-files-found: ignore
 
-      - name: 构建站点 + 部署 voice.solomind.cc(有新集且闸门全过,或手动强制)
+      - name: 构建站点 + 部署 talk.solomind.cc(有新集且闸门全过,或手动强制)
         if: steps.pipeline.outputs.has_new == 'true' || github.event.inputs.deploy == 'true'
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -189,6 +189,6 @@ jobs:
           {
             echo "## C7b 跑批结果"
             echo "- 有新集:\`${{ steps.pipeline.outputs.has_new }}\`"
-            echo "- 有新集→已部署 voice.solomind.cc 并 commit 回仓;无新集→未碰线上。"
+            echo "- 有新集→已部署 talk.solomind.cc 并 commit 回仓;无新集→未碰线上。"
             echo "- 失败时 GitHub 会自动给仓库 owner 发邮件(原生告警)。"
           } >> "$GITHUB_STEP_SUMMARY"

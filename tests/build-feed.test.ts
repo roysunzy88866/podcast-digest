@@ -1,6 +1,7 @@
 // C4 Scenario 3 · 私有播客 feed(RSS 2.0 + iTunes)真业务测试。
 // 只调被测函数;每条尽量可变异验证(★)。
 import { describe, it, expect } from "vitest";
+import { readFileSync } from "node:fs";
 import {
   buildFeedXml,
   buildItem,
@@ -159,5 +160,28 @@ describe("xmlEscape · 文本 XML 正确转义(防 & < > 破坏结构)", () => {
     const xml = buildFeedXml([{ ...EP_A, title: "AT&T 与 <云>" }], {});
     expect(xml).toContain("AT&amp;T 与 &lt;云&gt;");
     expect(xml).not.toContain("AT&T 与 <云>");
+  });
+});
+
+describe("换域名守卫(2026-07-26 用户拍板 talk.solomind.cc)", () => {
+  const read = (p: string) => readFileSync(new URL(p, import.meta.url), "utf8");
+
+  it("★★ feed 里每条音频的地址用新域名(订阅端就是靠这个取音频的)", () => {
+    expect(read("../scripts/build-feed.mjs")).toContain("https://talk.solomind.cc");
+  });
+
+  it("★★ 部署脚本与两个 workflow 里不许再有老域名(漏一处就会前后不一致)", () => {
+    for (const f of [
+      "../scripts/deploy-site.sh",
+      "../scripts/build-feed.mjs",
+      "../.github/workflows/deploy-site.yml",
+      "../.github/workflows/pipeline.yml",
+    ]) {
+      expect(read(f)).not.toContain("voice.solomind.cc");
+    }
+  });
+
+  it("★ Pages 项目名 voice-solomind 保持不变(那是 CF 内部项目名,不是域名;改它要重建项目)", () => {
+    expect(read("../scripts/deploy-site.sh")).toContain("--project-name voice-solomind");
   });
 });

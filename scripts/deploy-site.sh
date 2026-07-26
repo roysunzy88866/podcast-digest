@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# 构建站点 + 部署 voice.solomind.cc —— 唯一部署真相(2026-07-25 抽出)。
+# 构建站点 + 部署 talk.solomind.cc —— 唯一部署真相(2026-07-25 抽出)。
 #
 # 为什么抽出来:原逻辑内联在 pipeline.yml 的部署步里,而 pipeline.yml 的并发组 c7b-pipeline
 # 串行排队 → 想单独上线一个视觉改动,得排在长跑的内容处理(ASR 可达 60-77 分钟)后面。
@@ -19,7 +19,7 @@ for d in data/episodes/*/; do
     echo "补音频:$d"; node scripts/tts.mjs "$d" || echo "::warning::音频合成失败 $d"
   fi
 done
-# 1) bootstrap Quartz v5(钉 commit)+ baseUrl 设 voice.solomind.cc
+# 1) bootstrap Quartz v5(钉 commit)+ baseUrl 设 talk.solomind.cc
 # ⚠️ 必须 rm -rf site:流水线步骤 build-list.mjs 默认写 site/content/index.md 会预建出 site/,
 #    若沿用 `[ -d site ] ||` 跳过 clone → 对半拉子 site 执行 checkout 报 "unable to read tree"(C7b 首次部署干净集才暴露)。
 QUARTZ_COMMIT=9cf87ff1c248a8ca551093214b0fec3b31415009
@@ -28,7 +28,7 @@ git clone --branch v5 --single-branch https://github.com/jackyzha0/quartz.git si
 git -C site checkout "$QUARTZ_COMMIT"
 cd site
 npm i --no-audit --no-fund
-node ./quartz/bootstrap-cli.mjs create -X new -t default -l shortest -b "voice.solomind.cc"
+node ./quartz/bootstrap-cli.mjs create -X new -t default -l shortest -b "talk.solomind.cc"
 node ./quartz/bootstrap-cli.mjs plugin install --from-config --latest
 # C10 配置定制补丁(弹框关/站名/Bases 默认视图;C11 主题色/默认浅色/custom.scss/普惠体字体。site/ 每次重建,定制必须走这里)
 node ../scripts/patch-site.mjs
