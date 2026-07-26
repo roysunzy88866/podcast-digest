@@ -13,6 +13,8 @@ data/episodes/*/.digest-raw.txt
 # C3 实体抽取的 GLM 原始输出缓存(可再生;产物 entities.json 入库)
 data/episodes/*/.entities-raw.txt
 data/episodes/*/.entities-raw.bad.txt
+# C12 嘉宾姓名/职位抽取的 GLM 原始输出缓存(可再生;产物写进 meta.json)
+data/episodes/*/.guest-raw.txt
 
 # C4 edge-tts 本地 venv(免 key,不进仓库)
 .venv/
