@@ -702,6 +702,26 @@ body:has(.pd-play) {
       border-left-color: var(--pd-accent);
       font-weight: 600;
     }
+    /* 搬进右栏的「这一集涉及」:去掉 callout 的框和图标,压成右栏那种清淡列表 */
+    .pd-rel h3 {
+      font-family: var(--puhui);
+      font-size: 12px;
+      font-weight: 700;
+      color: #a09a94;
+      letter-spacing: 0.6px;
+      margin: 28px 0 10px;
+    }
+    .pd-rel blockquote.callout {
+      border: 0;
+      background: none;
+      padding: 0;
+      margin: 0;
+    }
+    .pd-rel .callout-title { display: none; }
+    .pd-rel .callout-content p { font-size: 13px; line-height: 1.85; color: var(--B6); margin: 0 0 8px; }
+    .pd-rel .callout-content strong { color: var(--B7); font-weight: 500; }
+    .pd-rel .callout-content a { color: var(--pd-accent); }
+
     .backlinks a { font-size: 13.5px; line-height: 1.8; color: var(--B7); }
     .backlinks a:hover { color: var(--pd-accent); }
   }

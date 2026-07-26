@@ -130,6 +130,31 @@ Fiona 回忆了软件工程历史上的几次大转折:从早期在 IBM 用 Vim 
 
 *本集关键词:AI 研发范式 · 角色融合 · 异步智能体 · 质量与验证 · 工程管理*
 
+<script>
+(function(){
+  function move(){
+    var side=document.querySelector('.right.sidebar'); if(!side) return;
+    var box=null;
+    var all=document.querySelectorAll('article blockquote[data-callout]');
+    for(var i=0;i<all.length;i++){
+      var t=all[i].querySelector('.callout-title-inner');
+      if(t&&t.textContent.trim().indexOf('关联')===0){ box=all[i]; break; }
+    }
+    if(!box) return;
+    if(box.closest('.right.sidebar')) return;
+    var wrap=document.createElement('div');
+    wrap.className='pd-rel';
+    var h=document.createElement('h3'); h.textContent='这一集涉及';
+    wrap.appendChild(h); wrap.appendChild(box);
+    var toc=side.querySelector('.toc');
+    if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
+    else side.appendChild(wrap);
+  }
+  document.addEventListener('nav', move);
+  move();
+})();
+</script>
+
 ---
 
 *中文精华由 GLM-5.2 从官方转写稿全译→浓缩产出,金句经机器闸门(逐字命中转写稿+时间戳区间+说话人)三联校验。英文原稿/全译存档于项目仓库、本页不展示(可事后核对);上云后迁 R2(C7)。*

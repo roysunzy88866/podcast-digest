@@ -119,6 +119,42 @@ export function renderEpisodeMeta(meta, entities = null) {
   return parts.length ? `<div class="pd-mt">${parts.join(" · ")}</div>` : "";
 }
 
+/**
+ * 把正文里的「关联」框搬进右栏,改标题为「这一集涉及」(设计稿 .shell.det 右栏)。
+ * **搬节点,不重写一份** —— 框里的 [[双链]] 是实体页反链的来源(CLAUDE.md 铁律),
+ * 用原样 HTML 包住它会让 markdown 不处理、双链失效;所以只能渲染完再搬。
+ * 设计稿自己也是这个手法(m-detail.js 克隆右栏块到页尾)。
+ * JS 关掉时它留在正文里,内容不丢。
+ * ⚠️ 脚本内一个空行都不能有:Markdown 原样 HTML 块遇空行即结束,后面缩进行会被
+ *    当代码块吃掉(大类页踩过,GLM 20260726-024[1])。
+ */
+export function renderSidebarScript() {
+  return `<script>
+(function(){
+  function move(){
+    var side=document.querySelector('.right.sidebar'); if(!side) return;
+    var box=null;
+    var all=document.querySelectorAll('article blockquote[data-callout]');
+    for(var i=0;i<all.length;i++){
+      var t=all[i].querySelector('.callout-title-inner');
+      if(t&&t.textContent.trim().indexOf('关联')===0){ box=all[i]; break; }
+    }
+    if(!box) return;
+    if(box.closest('.right.sidebar')) return;
+    var wrap=document.createElement('div');
+    wrap.className='pd-rel';
+    var h=document.createElement('h3'); h.textContent='这一集涉及';
+    wrap.appendChild(h); wrap.appendChild(box);
+    var toc=side.querySelector('.toc');
+    if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
+    else side.appendChild(wrap);
+  }
+  document.addEventListener('nav', move);
+  move();
+})();
+</script>`.replace(/\n\s*\n/g, "\n");
+}
+
 export function renderAudioPlayer(meta) {
   // C13d-1(ADR 0015,用户 2026-07-26 明文确认):播放条**紧贴标题**、撑满宽,不再套
   // 「## 🎧 本集中文精华音频」这个小节标题 —— 设计稿 .play 就是标题正下方一条 bar。
@@ -295,6 +331,8 @@ ${bodyMd.trim()}
 
 ${quoteBlocks}${relatedSection ? `\n\n${relatedSection}` : ""}
 ${keywordsLine}
+${renderSidebarScript()}
+
 ---
 
 *中文精华由 GLM-5.2 从官方转写稿全译→浓缩产出,金句经机器闸门(逐字命中转写稿+时间戳区间+说话人)三联校验。${archiveNote}*

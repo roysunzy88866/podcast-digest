@@ -12,6 +12,7 @@ import {
   renderEpisode,
   renderAudioPlayer,
   renderEpisodeMeta,
+  renderSidebarScript,
 } from "../scripts/render.mjs";
 
 const META = {
@@ -326,5 +327,39 @@ describe("C13d-1 · 集页 meta 行(设计稿 .mt:日期 · 播客 · 时长 · 
 
   it("★ 什么都没有 → 整行不渲染", () => {
     expect(renderEpisodeMeta({ id: "" } as any, null)).toBe("");
+  });
+});
+
+describe("C13d-1 · 关联框搬进右栏「这一集涉及」", () => {
+  const scss = readFileSync(new URL("../assets/styles/custom.scss", import.meta.url), "utf8");
+  const js = renderSidebarScript();
+
+  it("★★★ 脚本里一个空行都没有(有空行 Markdown 会把整段脚本吃掉)", () => {
+    expect(js).not.toMatch(/\n\s*\n/);
+  });
+
+  it("★★ 是「搬节点」不是重写一份(双链必须原样带过去,它是实体反链来源)", () => {
+    expect(js).toContain("wrap.appendChild(box)");
+    expect(js).not.toMatch(/innerHTML\s*=/);
+  });
+
+  it("★★ 靠 callout 标题「关联」定位,且搬过去就不再搬(幂等)", () => {
+    expect(js).toContain("indexOf('关联')===0");
+    expect(js).toContain("if(box.closest('.right.sidebar')) return;");
+    expect(js).toContain("document.addEventListener('nav', move)");
+  });
+
+  it("★ 右栏里它被压成清淡列表(去掉 callout 的框与图标)", () => {
+    expect(scss).toMatch(/\.pd-rel \.callout-title \{ display: none/);
+    expect(scss).toMatch(/\.pd-rel blockquote\.callout \{[\s\S]*?border: 0/);
+  });
+
+  it("★ 集页里真挂上了这段脚本", () => {
+    const md = renderEpisode(
+      { id: "x", title_zh: "T", date: "2026-01-01", podcast: "P", guests: [], host: null } as any,
+      { tldr: "一句话。", digest_md: "正文。", quotes: [] } as any,
+      null,
+    );
+    expect(md).toContain("这一集涉及");
   });
 });
