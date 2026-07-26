@@ -16,12 +16,12 @@
 // 卡片数据来源(全部已有,本文件不新造):
 //   标题 render.mjs 的 displayTitle(C5.1 fallback 链)/ 金句 digest.quotes[0].zh
 //   嘉宾 meta.guest_name / meta.guest_title(C12 产出,缺则按 C13a 场景3 降级)
-//   大类 data/tag-taxonomy.json / 封面 meta.cover_image(裁法按 🔒 #20)
+//   大类 render.mjs 的 episodeCategories(人工映射>生成端,同源)/ 封面 meta.cover_image(🔒 #20)
 import { writeFileSync, mkdirSync, realpathSync, readFileSync, existsSync } from "node:fs";
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadAllEpisodes } from "./build-entities.mjs";
-import { displayTitle } from "./render.mjs";
+import { displayTitle, episodeCategories } from "./render.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -31,14 +31,15 @@ export function taxonomyCategories() {
   return Object.keys(tax.vocabulary ?? {});
 }
 
-/** slug → 大类数组(1–2 个,人工映射优先于生成端,CLAUDE.md 铁律) */
-export function episodeCategoriesMap() {
-  const tax = JSON.parse(readFileSync(join(ROOT, "data/tag-taxonomy.json"), "utf8"));
-  const out = {};
-  for (const [slug, cats] of Object.entries(tax.episodes ?? {})) {
-    if (Array.isArray(cats) && cats.length) out[slug] = cats;
-  }
-  return out;
+/**
+ * 本集大类。**真相源是 render.mjs 的 episodeCategories()**(人工映射 > 生成端
+ * entities.categories > 未分类)—— 别再自己读一份人工映射:那样会漏掉新集,
+ * 因为新集的大类是生成端算好的,只在 entities/frontmatter 里,不在人工映射表里
+ * (实测漏了 5/40 集,卡片没 chip、兜底块空白)。
+ * 「未分类」不上卡:它是响亮兜底值,verify-c5 词表闸会在上线前拦住。
+ */
+export function categoriesOf(episode) {
+  return episodeCategories(episode.meta, episode.entities).filter((c) => c !== "未分类");
 }
 
 const esc = (s) =>
@@ -107,10 +108,10 @@ function card(episode, cats, hasCover) {
 }
 
 /** 左栏:主题导航(设计稿是主题名 + 条数)。条数只数真会渲染的集。 */
-function leftRail(episodes, catsBySlug, vocabulary) {
+function leftRail(episodes, catsOf, vocabulary) {
   const n = {};
   for (const c of vocabulary) n[c] = 0;
-  for (const ep of episodes) for (const c of catsBySlug[ep.meta.id] ?? []) if (c in n) n[c]++;
+  for (const ep of episodes) for (const c of catsOf(ep)) if (c in n) n[c]++;
   const rows = Object.entries(n)
     .sort(byCountThenName)
     .map(
@@ -180,10 +181,10 @@ function rightRail(episodes) {
 }
 
 /** 手机端摊开区(🔒 #9 搜索与主题不降级;层级纠偏:排序弱于分类) */
-function mobileHome(episodes, catsBySlug, vocabulary) {
+function mobileHome(episodes, catsOf, vocabulary) {
   const n = {};
   for (const c of vocabulary) n[c] = 0;
-  for (const ep of episodes) for (const c of catsBySlug[ep.meta.id] ?? []) if (c in n) n[c]++;
+  for (const ep of episodes) for (const c of catsOf(ep)) if (c in n) n[c]++;
   const chips = Object.entries(n)
     .sort(byCountThenName)
     .map(([c, k]) => `<a class="internal" href="./tags/${encodeURIComponent(c)}">${esc(c)}<i>${k}</i></a>`)
@@ -194,10 +195,12 @@ function mobileHome(episodes, catsBySlug, vocabulary) {
   </div>`;
 }
 
-/** 顶栏。「最热」= 必读页,归 C13c 才生成 → 本片先出不可点的占位,不留死链。 */
+/** 顶栏。「最热」= 必读页,归 C13c 才生成 → 本片先出不可点的占位,不留死链。
+ *  右侧 .pd-acts 是空槽,由脚本把 Quartz 的搜索/深浅色/阅读模式搬进来(见 scriptBlock)。 */
 const topBar = () => `<header class="pd-top"><div class="pd-topin">
     <a class="b" href="./">跨国深谈</a>
     <nav class="pd-nav"><a class="cur" href="./">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav>
+    <div class="pd-acts"></div>
   </div></header>`;
 
 /**
@@ -208,7 +211,10 @@ const topBar = () => `<header class="pd-top"><div class="pd-topin">
  */
 export function renderList(episodes, opts = {}) {
   const fm = `---\ntitle: 跨国深谈\n---\n`;
-  const catsBySlug = opts.categoriesBySlug ?? episodeCategoriesMap();
+  // 测试可注入 categoriesBySlug;生产走 render.mjs 的权威函数(同源,不另立一套)
+  const catsOf = opts.categoriesBySlug
+    ? (ep) => opts.categoriesBySlug[ep.meta.id] ?? []
+    : categoriesOf;
   const vocabulary = taxonomyCategories();
   // 默认以磁盘为准;测试可注入
   const hasCover = opts.hasCover ?? ((id) => existsSync(join(ROOT, "data/episodes", id, "cover.jpg")));
@@ -236,7 +242,7 @@ ${scriptBlock()}
       const cards = eps
         .slice()
         .sort((x, y) => String(displayTitle(x.meta)).localeCompare(String(displayTitle(y.meta)), "zh"))
-        .map((ep) => card(ep, catsBySlug[ep.meta.id] ?? [], hasCover))
+        .map((ep) => card(ep, catsOf(ep), hasCover))
         .join("\n");
       return `<div class="dateh">${esc(date)}</div>\n<div class="grid">\n${cards}\n</div>`;
     })
@@ -245,9 +251,9 @@ ${scriptBlock()}
   return `${fm}
 <div class="pd">
   ${topBar()}
-  ${mobileHome(episodes, catsBySlug, vocabulary)}
+  ${mobileHome(episodes, catsOf, vocabulary)}
   <div class="pd-shell">
-  ${leftRail(episodes, catsBySlug, vocabulary)}
+  ${leftRail(episodes, catsOf, vocabulary)}
   <div class="pd-mid">
 ${groups}
   </div>
@@ -260,7 +266,18 @@ ${scriptBlock()}
 
 const scriptBlock = () => `<script>
 (function(){
+  // 把 Quartz 侧栏里的搜索/深浅色/阅读模式搬进顶栏,再由 custom.scss 藏掉空壳侧栏。
+  // 搬节点而不是重写一套:这三个组件的行为(搜索索引、主题记忆)全在 Quartz 自己手里,
+  // 复刻一份必然走样。🔒 #9 搜索不许降级 / 🔒 #2 亮暗双模式必须留。
+  function adopt(){
+    var acts=document.querySelector('.pd .pd-acts'); if(!acts) return;
+    ['.search','.darkmode','.readermode'].forEach(function(sel){
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==acts) acts.appendChild(el);
+    });
+  }
   function init(){
+    adopt();
     var root=document.querySelector('.pd'); if(!root||root.__epInit) return; root.__epInit=1;
     // 已读压暗(客户端 localStorage;键沿用 pd-read,老已读史不丢)
     var KEY='pd-read', read;

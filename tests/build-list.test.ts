@@ -267,3 +267,23 @@ describe("C13a · 封面以「文件真在」为准,不信 meta 的声明", () =
     expect(cardOf(md, "2026-07-19-x-netflix")).not.toContain("<img");
   });
 });
+
+describe("C13a · Quartz 骨架摘干净(首页独占版面,但不连坐搜索/深浅色)", () => {
+  const md = renderList([ep()], opts);
+
+  it("★★ 顶栏留了 .pd-acts 空槽,脚本把搜索/深浅色/阅读模式搬进来(🔒 #9/#2 不许降级)", () => {
+    expect(md).toContain('<div class="pd-acts"></div>');
+    expect(md).toContain("'.search','.darkmode','.readermode'");
+    expect(md).toMatch(/acts\.appendChild\(el\)/);
+  });
+
+  it("★★ 搬运是幂等的(SPA 每次 nav 都会重跑,不能把节点搬丢或搬重)", () => {
+    expect(md).toMatch(/el\.parentElement!==acts/);
+    expect(md).toContain("document.addEventListener('nav', init)");
+  });
+
+  it("★★ 首页把框架栅格压成单列、两侧栏整块藏掉(否则三栏被挤变形)", () => {
+    expect(scss).toMatch(/body\[data-slug="index"\][\s\S]*grid-template-columns:\s*1fr/);
+    expect(scss).toMatch(/body\[data-slug="index"\][\s\S]*\.left\.sidebar,\s*\n?\s*\.right\.sidebar\s*\{\s*display:\s*none/);
+  });
+});

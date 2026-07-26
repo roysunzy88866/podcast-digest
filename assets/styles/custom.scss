@@ -89,29 +89,30 @@
    Quartz 的 .left/.right sidebar 与三栏 shell 冲突。图谱整块藏掉(🔒 #14);
    站名藏掉(顶栏已有);搜索/深浅色/阅读模式保留,移到顶栏右侧(🔒 #9/#2)。 */
 body[data-slug="index"] {
-  .right.sidebar { display: none; }
-  .left.sidebar {
-    position: absolute;
-    top: 0.5rem;
-    right: max(1.5rem, calc(50vw - 588px));
-    left: auto;
-    width: auto;
+  /* Quartz 的 #quartz-body 是「左栏 / 中 / 右栏」三列具名栅格(quartz/styles/variables.scss
+     $desktopGrid)。首页要自己的三栏,所以把框架栅格压成单列、两侧栏整块藏掉。
+     ⚠️ 侧栏里的「搜索 / 深浅色 / 阅读模式」不能连坐(🔒 #9 搜索不降级、🔒 #2 亮暗双模式)——
+     由 build-list.mjs 的脚本先把这三个节点搬进顶栏,再由这里藏掉空壳侧栏。 */
+  & > #quartz-body,
+  #quartz-body {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "grid-header"
+      "grid-center"
+      "grid-footer";
+    column-gap: 0;
     max-width: none;
-    height: auto;
-    flex-direction: row;
-    align-items: center;
-    gap: 0.35rem;
     padding: 0;
-    z-index: 40;
-    .page-title { display: none; }
   }
-  .center,
-  .page > #quartz-body .center {
+  .left.sidebar,
+  .right.sidebar { display: none; }
+  .center {
     max-width: none;
     margin: 0;
     padding: 0;
   }
   .page-header { display: none; } /* 首页不要框架标题与自动日期/阅读时长 */
+  article > h1:first-child { display: none; } /* 正文自动大标题(站名重复一遍) */
 }
 
 /* ══════════ 以下全部照抄设计稿 style.css,只加 .pd 作用域与 pd- 前缀 ══════════ */
@@ -175,6 +176,33 @@ body[data-slug="index"] {
     background: var(--B4);
   }
   .pd-nav .soon { color: var(--B5); cursor: default; }
+
+  /* 顶栏右侧:搬进来的 Quartz 搜索/深浅色/阅读模式(设计稿 .acts/.ico 的位置与手感) */
+  .pd-acts {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--B6);
+  }
+  .pd-acts .search,
+  .pd-acts .darkmode,
+  .pd-acts .readermode {
+    margin: 0;
+    padding: 0;
+    flex: 0 0 auto;
+  }
+  .pd-acts .search-button {
+    background: var(--B1);
+    border: 1px solid var(--B3);
+    border-radius: 8px;
+    padding: 5px 12px;
+    font-size: 13px;
+    color: var(--B6);
+  }
+  .pd-acts .search-button:hover { border-color: var(--pd-accent); color: var(--pd-accent); }
+  .pd-acts svg { color: var(--B6); }
+  .pd-acts svg:hover { color: var(--B8); }
 
   /* ── 三栏(🔒 #13):200 / 588 / 282,居中 1200 ── */
   .pd-shell {
