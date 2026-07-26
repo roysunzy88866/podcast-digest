@@ -19,6 +19,8 @@ tags:
 
 # 对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性
 
+<div class="pd-mt">2026-05-03 · Lenny's Podcast · 87:20 · <a class="mcat" href="./tags/%E4%BA%A7%E5%93%81%E6%96%B9%E6%B3%95">产品方法</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-05-03-lennys-why-cultivating-agency-matters-more.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

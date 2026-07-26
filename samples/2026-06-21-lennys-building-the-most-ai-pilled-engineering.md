@@ -20,6 +20,8 @@ tags:
 
 # 当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构
 
+<div class="pd-mt">2026-06-21 · Lenny's Podcast · 98:42 · <a class="mcat" href="./tags/%E7%BB%84%E7%BB%87%E4%B8%8E%E9%A2%86%E5%AF%BC%E5%8A%9B">组织与领导力</a> · <a class="mcat" href="./tags/AI%20%E7%BC%96%E7%A8%8B">AI 编程</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-21-lennys-building-the-most-ai-pilled-engineering.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

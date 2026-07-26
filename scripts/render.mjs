@@ -106,6 +106,19 @@ export function renderRelatedEpisodes(related) {
 }
 
 /** C4 · 详情页音频播放器(US-5)。音频缺失/加载失败 → 浏览器原生降级为不可用态,不卡死页面(Scenario 2a)。 */
+/**
+ * 集页 meta 行(设计稿 .mt,第八批 #2「详情页顶部只留两层:标题 + 一条统一灰度 meta」)。
+ * 内容:日期 · 播客 · 时长 · 大类。大类链到大类页,其余是纯文本。
+ * 缺字段就整段略过,不留孤立的分隔点(与卡片降级同一口径)。
+ */
+export function renderEpisodeMeta(meta, entities = null) {
+  const dur = meta.duration_sec ? mmss(meta.duration_sec) : null;
+  const cats = episodeCategories(meta, entities).filter((c) => c !== "未分类");
+  const catLinks = cats.map((c) => `<a class="mcat" href="./tags/${encodeURIComponent(c)}">${c}</a>`).join(" · ");
+  const parts = [displayDate(meta), meta.podcast, dur, catLinks || null].filter(Boolean);
+  return parts.length ? `<div class="pd-mt">${parts.join(" · ")}</div>` : "";
+}
+
 export function renderAudioPlayer(meta) {
   // C13d-1(ADR 0015,用户 2026-07-26 明文确认):播放条**紧贴标题**、撑满宽,不再套
   // 「## 🎧 本集中文精华音频」这个小节标题 —— 设计稿 .play 就是标题正下方一条 bar。
@@ -265,6 +278,8 @@ export function renderEpisode(meta, digest, entities = null, related = null) {
 
   const body = `
 # ${displayTitle(meta)}
+
+${renderEpisodeMeta(meta, entities)}
 
 ${renderAudioPlayer(meta)}
 

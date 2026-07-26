@@ -19,6 +19,8 @@ tags:
 
 # The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)
 
+<div class="pd-mt">2026-03-01 · Lenny's Podcast · 77:22 · <a class="mcat" href="./tags/%E4%BA%A7%E5%93%81%E6%96%B9%E6%B3%95">产品方法</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-03-01-lennys-the-design-process-is-dead.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

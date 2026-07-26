@@ -19,6 +19,8 @@ tags:
 
 # 让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏
 
+<div class="pd-mt">2026-06-22 · Latent Space · 66:13 · <a class="mcat" href="./tags/AI%20%E5%AE%89%E5%85%A8">AI 安全</a> · <a class="mcat" href="./tags/%E6%99%BA%E8%83%BD%E4%BD%93">智能体</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-22-latent-space-gray-swan.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

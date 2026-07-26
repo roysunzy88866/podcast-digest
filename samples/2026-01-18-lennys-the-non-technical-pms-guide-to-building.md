@@ -20,6 +20,8 @@ tags:
 
 # 非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」
 
+<div class="pd-mt">2026-01-18 · Lenny's Podcast · 75:08 · <a class="mcat" href="./tags/AI%20%E7%BC%96%E7%A8%8B">AI 编程</a> · <a class="mcat" href="./tags/%E8%81%8C%E4%B8%9A%E4%B8%8E%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF">职业与个人成长</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-01-18-lennys-the-non-technical-pms-guide-to-building.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

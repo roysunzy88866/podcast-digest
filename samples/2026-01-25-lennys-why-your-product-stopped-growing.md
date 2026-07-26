@@ -18,6 +18,8 @@ tags:
 
 # 增长停滞怎么办？Jason Cohen 的四步诊断法
 
+<div class="pd-mt">2026-01-25 · Lenny's Podcast · 106:00 · <a class="mcat" href="./tags/%E5%A2%9E%E9%95%BF%E4%B8%8E%E9%94%80%E5%94%AE">增长与销售</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-01-25-lennys-why-your-product-stopped-growing.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

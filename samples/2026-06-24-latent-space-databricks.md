@@ -18,6 +18,8 @@ tags:
 
 # Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图
 
+<div class="pd-mt">2026-06-24 · Latent Space · 68:43 · <a class="mcat" href="./tags/%E6%99%BA%E8%83%BD%E4%BD%93">智能体</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-24-latent-space-databricks.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

@@ -20,6 +20,8 @@ tags:
 
 # 育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”
 
+<div class="pd-mt">2026-02-01 · Lenny's Podcast · 91:52 · <a class="mcat" href="./tags/%E7%BB%84%E7%BB%87%E4%B8%8E%E9%A2%86%E5%AF%BC%E5%8A%9B">组织与领导力</a> · <a class="mcat" href="./tags/%E8%81%8C%E4%B8%9A%E4%B8%8E%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF">职业与个人成长</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-02-01-lennys-dr-becky-on-the-surprising-overlap.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

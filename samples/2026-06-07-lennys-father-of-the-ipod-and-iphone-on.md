@@ -19,6 +19,8 @@ tags:
 
 # iPod之父Tony Fadell：反直觉的产品课
 
+<div class="pd-mt">2026-06-07 · Lenny's Podcast · 95:05 · <a class="mcat" href="./tags/%E4%BA%A7%E5%93%81%E6%96%B9%E6%B3%95">产品方法</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-07-lennys-father-of-the-ipod-and-iphone-on.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

@@ -20,6 +20,8 @@ tags:
 
 # AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战
 
+<div class="pd-mt">2026-06-24 · Product Growth Podcast · 67:49 · <a class="mcat" href="./tags/%E4%BA%A7%E5%93%81%E6%96%B9%E6%B3%95">产品方法</a> · <a class="mcat" href="./tags/AI%20%E7%BC%96%E7%A8%8B">AI 编程</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-24-pg-company-os-jz.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

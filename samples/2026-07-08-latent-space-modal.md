@@ -20,6 +20,8 @@ tags:
 
 # 从避战大模型到押注智能体：Modal 的推理基础设施进化史
 
+<div class="pd-mt">2026-07-08 · Latent Space · 57:42 · <a class="mcat" href="./tags/%E6%99%BA%E8%83%BD%E4%BD%93">智能体</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-08-latent-space-modal.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

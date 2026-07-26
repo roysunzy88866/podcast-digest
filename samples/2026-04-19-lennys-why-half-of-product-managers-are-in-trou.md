@@ -20,6 +20,8 @@ tags:
 
 # AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴
 
+<div class="pd-mt">2026-04-19 · Lenny's Podcast · 95:08 · <a class="mcat" href="./tags/%E8%81%8C%E4%B8%9A%E4%B8%8E%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF">职业与个人成长</a> · <a class="mcat" href="./tags/%E4%BA%A7%E5%93%81%E6%96%B9%E6%B3%95">产品方法</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-04-19-lennys-why-half-of-product-managers-are-in-trou.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

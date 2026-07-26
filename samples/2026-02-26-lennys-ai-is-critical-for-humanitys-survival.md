@@ -20,6 +20,8 @@ tags:
 
 # 对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代
 
+<div class="pd-mt">2026-02-26 · Lenny's Podcast · 87:20 · <a class="mcat" href="./tags/%E7%BB%84%E7%BB%87%E4%B8%8E%E9%A2%86%E5%AF%BC%E5%8A%9B">组织与领导力</a> · <a class="mcat" href="./tags/%E5%88%9B%E4%B8%9A%E4%B8%8E%E8%A1%8C%E4%B8%9A">创业与行业</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-02-26-lennys-ai-is-critical-for-humanitys-survival.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

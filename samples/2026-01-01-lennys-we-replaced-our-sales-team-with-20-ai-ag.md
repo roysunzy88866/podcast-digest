@@ -20,6 +20,8 @@ tags:
 
 # 1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验
 
+<div class="pd-mt">2026-01-01 · Lenny's Podcast · 102:07 · <a class="mcat" href="./tags/%E5%A2%9E%E9%95%BF%E4%B8%8E%E9%94%80%E5%94%AE">增长与销售</a> · <a class="mcat" href="./tags/%E6%99%BA%E8%83%BD%E4%BD%93">智能体</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

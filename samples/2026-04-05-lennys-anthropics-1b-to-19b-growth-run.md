@@ -19,6 +19,8 @@ tags:
 
 # Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师
 
+<div class="pd-mt">2026-04-05 · Lenny's Podcast · 112:46 · <a class="mcat" href="./tags/%E5%A2%9E%E9%95%BF%E4%B8%8E%E9%94%80%E5%94%AE">增长与销售</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-04-05-lennys-anthropics-1b-to-19b-growth-run.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

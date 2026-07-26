@@ -629,6 +629,11 @@ body[data-slug^="tags/"] {
   .pd .card .t { transition: none; }
 }
 
+/* ── 单集页 meta 行(设计稿 .mt:统一灰度一行,第八批 #2)── */
+.pd-mt { font-size: 13px; color: var(--B6); margin: 8px 0 0; }
+.pd-mt .mcat { color: var(--B6); text-decoration: none !important; }
+.pd-mt .mcat:hover { color: var(--pd-accent); }
+
 /* ── 单集页播放条(C13d-1 · ADR 0015:紧贴标题、撑满宽)──
    集页不在 .pd 作用域里(它是 Quartz 渲染的 markdown),所以按类名直接生效。
    设计稿 .play 是「圆形播放钮 + 标题 + 进度条」的成品样子;这里保留原生 controls

@@ -20,6 +20,8 @@ tags:
 
 # AI 悬崖边？数据中心次级债与 SpaceX 缩水
 
+<div class="pd-mt">2026-07-24 · Big Technology Podcast · 66:31 · <a class="mcat" href="./tags/%E5%88%9B%E4%B8%9A%E4%B8%8E%E8%A1%8C%E4%B8%9A">创业与行业</a> · <a class="mcat" href="./tags/AI%20%E5%AE%89%E5%85%A8">AI 安全</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

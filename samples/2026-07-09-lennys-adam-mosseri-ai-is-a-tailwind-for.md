@@ -20,6 +20,8 @@ tags:
 
 # Adam Mosseri：AI 时代的团队重组与产品品味
 
+<div class="pd-mt">2026-07-09 · Lenny's Podcast · 68:26 · <a class="mcat" href="./tags/%E7%BB%84%E7%BB%87%E4%B8%8E%E9%A2%86%E5%AF%BC%E5%8A%9B">组织与领导力</a> · <a class="mcat" href="./tags/%E4%BA%A7%E5%93%81%E6%96%B9%E6%B3%95">产品方法</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

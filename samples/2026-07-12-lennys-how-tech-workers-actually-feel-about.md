@@ -19,6 +19,8 @@ tags:
 
 # 科技圈情绪调查：一半人狂喜，一半人煎熬
 
+<div class="pd-mt">2026-07-12 · Lenny's Podcast · 96:26 · <a class="mcat" href="./tags/%E8%81%8C%E4%B8%9A%E4%B8%8E%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF">职业与个人成长</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-12-lennys-how-tech-workers-actually-feel-about.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

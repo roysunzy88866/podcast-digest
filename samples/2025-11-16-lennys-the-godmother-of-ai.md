@@ -19,6 +19,8 @@ tags:
 
 # AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble
 
+<div class="pd-mt">2025-11-16 · Lenny's Podcast · 79:30 · <a class="mcat" href="./tags/%E5%88%9B%E4%B8%9A%E4%B8%8E%E8%A1%8C%E4%B8%9A">创业与行业</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2025-11-16-lennys-the-godmother-of-ai.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

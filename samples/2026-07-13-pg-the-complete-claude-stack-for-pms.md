@@ -20,6 +20,8 @@ tags:
 
 # PM 如何用 Claude 把生产力提升 10 倍：全栈实战
 
+<div class="pd-mt">2026-07-13 · Product Growth Podcast · 93:20 · <a class="mcat" href="./tags/%E6%99%BA%E8%83%BD%E4%BD%93">智能体</a> · <a class="mcat" href="./tags/AI%20%E7%BC%96%E7%A8%8B">AI 编程</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-13-pg-the-complete-claude-stack-for-pms.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

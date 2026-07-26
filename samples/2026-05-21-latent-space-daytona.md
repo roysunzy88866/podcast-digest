@@ -18,6 +18,8 @@ tags:
 
 # 赋予AI智能体计算机——Daytona创始人Ivan Burazin
 
+<div class="pd-mt">2026-05-21 · Latent Space · 70:18 · <a class="mcat" href="./tags/%E6%99%BA%E8%83%BD%E4%BD%93">智能体</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-05-21-latent-space-daytona.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

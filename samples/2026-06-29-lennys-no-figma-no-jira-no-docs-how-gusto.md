@@ -20,6 +20,8 @@ tags:
 
 # Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品
 
+<div class="pd-mt">2026-06-29 · Lenny's Podcast · 51:49 · <a class="mcat" href="./tags/AI%20%E7%BC%96%E7%A8%8B">AI 编程</a> · <a class="mcat" href="./tags/%E4%BA%A7%E5%93%81%E6%96%B9%E6%B3%95">产品方法</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

@@ -20,6 +20,8 @@ tags:
 
 # Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要
 
+<div class="pd-mt">2026-04-26 · Lenny's Podcast · 70:22 · <a class="mcat" href="./tags/%E4%BA%A7%E5%93%81%E6%96%B9%E6%B3%95">产品方法</a> · <a class="mcat" href="./tags/%E5%88%9B%E4%B8%9A%E4%B8%8E%E8%A1%8C%E4%B8%9A">创业与行业</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-04-26-lennys-snapchat-ceo-why-distribution-is.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

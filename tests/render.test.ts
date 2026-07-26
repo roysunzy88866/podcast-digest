@@ -11,6 +11,7 @@ import {
   linkPrimaryEntities,
   renderEpisode,
   renderAudioPlayer,
+  renderEpisodeMeta,
 } from "../scripts/render.mjs";
 
 const META = {
@@ -270,10 +271,12 @@ describe("C13d-1 · 播放条紧随标题(ADR 0015,用户 2026-07-26 明文确�
     const iPlay = md.indexOf('<div class="pd-play"'); // 切到元素开头,不然会留下半截 <div
     const between = md.slice(iTitle, iPlay);
     expect(iPlay).toBeGreaterThan(iTitle);
-    // ⚠️ 原先只断言「没有 ## 小节标题」→ 假绿:关联框是引用块不是标题,照样夹在中间,
-    //    ADR 0015 的「紧贴」根本没达成。改硬:中间除了标题那一行,不许有任何非空内容。
+    // ⚠️ 原先只断言「没有 ## 小节标题」→ 假绿:关联框是引用块不是标题,照样夹在中间。
+    // 现口径(照设计稿 ep-*.html 的真实顺序:标题 → meta 行 → 播放条):
+    // 中间**只允许那一行 meta**,别的一律不许 —— 关联框若再挤进来仍会被逮住。
     const 夹着的 = between.split("\n").slice(1).filter((l) => l.trim());
-    expect(夹着的).toEqual([]);
+    expect(夹着的.length).toBeLessThanOrEqual(1);
+    if (夹着的.length) expect(夹着的[0]).toMatch(/class="pd-mt"/);
   });
 });
 
@@ -299,5 +302,29 @@ describe("C13d-1 · 单集页右栏改造 + ADR 0016 全局图谱入口摘除", 
     expect(scss).toMatch(/\.toc-content a/);
     expect(scss).toMatch(/\.toc-content a\.in-view/);
     expect(scss).toMatch(/\.backlinks a/);
+  });
+});
+
+describe("C13d-1 · 集页 meta 行(设计稿 .mt:日期 · 播客 · 时长 · 大类)", () => {
+  it("★★ 四样齐,大类可点进大类页", () => {
+    const out = renderEpisodeMeta(
+      { id: "2026-07-19-x", date: "2026-07-19", podcast: "Lenny's Podcast", duration_sec: 4325 } as any,
+      { categories: ["组织与领导力"] } as any,
+    );
+    expect(out).toContain("2026-07-19");
+    expect(out).toContain("Lenny's Podcast");
+    expect(out).toContain("72:05");
+    expect(out).toMatch(/<a class="mcat" href="\.\/tags\/[^"]+">组织与领导力<\/a>/);
+  });
+
+  it("★★ 缺字段不留孤立分隔点(与卡片降级同口径)", () => {
+    const out = renderEpisodeMeta({ id: "x", date: "2026-01-01" } as any, null);
+    expect(out).toContain("2026-01-01");
+    expect(out).not.toMatch(/·\s*<\/div>/);
+    expect(out).not.toMatch(/·\s*·/);
+  });
+
+  it("★ 什么都没有 → 整行不渲染", () => {
+    expect(renderEpisodeMeta({ id: "" } as any, null)).toBe("");
   });
 });

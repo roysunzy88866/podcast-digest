@@ -20,6 +20,8 @@ tags:
 
 # 《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」
 
+<div class="pd-mt">2026-05-10 · Lenny's Podcast · 99:20 · <a class="mcat" href="./tags/%E5%88%9B%E4%B8%9A%E4%B8%8E%E8%A1%8C%E4%B8%9A">创业与行业</a> · <a class="mcat" href="./tags/%E7%BB%84%E7%BB%87%E4%B8%8E%E9%A2%86%E5%AF%BC%E5%8A%9B">组织与领导力</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-05-10-lennys-how-to-build-a-company-that-withstands.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

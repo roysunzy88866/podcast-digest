@@ -20,6 +20,8 @@ tags:
 
 # 用 AI 武装技术型 PM：Codex 工作流全解析
 
+<div class="pd-mt">2026-07-09 · Product Growth Podcast · 74:34 · <a class="mcat" href="./tags/AI%20%E7%BC%96%E7%A8%8B">AI 编程</a> · <a class="mcat" href="./tags/%E8%81%8C%E4%B8%9A%E4%B8%8E%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF">职业与个人成长</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-09-pg-pm-guide-ai-design.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

@@ -19,6 +19,8 @@ tags:
 
 # OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得
 
+<div class="pd-mt">2026-03-29 · Lenny's Podcast · 106:33 · <a class="mcat" href="./tags/%E6%99%BA%E8%83%BD%E4%BD%93">智能体</a></div>
+
 <div class="pd-play"><audio controls preload="metadata" src="/audio/2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 > [!info] 关联

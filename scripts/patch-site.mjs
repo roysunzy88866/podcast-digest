@@ -41,6 +41,9 @@ function patchFile(path, from, to, why) {
 
 // ── C10 三刀 ──
 patch("enablePopovers: true", "enablePopovers: false", "全站关闭悬浮预览弹框");
+// C13d-1:框架自带文案中文化(右栏「目录/反链/图谱」小标题、日期格式)。
+// Quartz 自带 zh-CN 词条,不用自己翻也不用改 fork。
+patch("locale: en-US", "locale: zh-CN", "界面语言 zh-CN(右栏小标题与日期中文化)");
 patch("pageTitle: Quartz 5", "pageTitle: 跨国深谈", "站名(🔒 拍板 #1 跨国深谈)");
 // C13a(2026-07-26 用户 🔒 拍板移植原型):首页不再出 base 代码块 → 这个上游默认插件
 // 对本站已无用武之地,关掉它(不下架:它是 `create -t default` 自带的,锚点留着,
