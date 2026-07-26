@@ -31,9 +31,7 @@ tags:
 >
 > **来源**:[Product Growth Podcast](https://www.news.aakashg.com/p/company-os-jz)
 
-## 🎧 本集中文精华音频
-
-<audio controls preload="metadata" src="/audio/2026-06-24-pg-company-os-jz.mp3" style="width:100%">你的浏览器不支持音频播放,或音频尚未生成。</audio>
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-24-pg-company-os-jz.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

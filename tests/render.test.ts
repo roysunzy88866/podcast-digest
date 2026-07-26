@@ -9,6 +9,7 @@ import {
   renderRelations,
   linkPrimaryEntities,
   renderEpisode,
+  renderAudioPlayer,
 } from "../scripts/render.mjs";
 
 const META = {
@@ -235,5 +236,39 @@ describe("C10 episodeCategories · 词表解析优先级", () => {
   });
   it("★ 都没有 → 落「未分类」(gate-all 词表层会拦,不静默上线)", () => {
     expect(episodeCategories({ id: "no-such-ep" }, null)).toEqual(["未分类"]);
+  });
+});
+
+describe("C13d-1 · 播放条紧随标题(ADR 0015,用户 2026-07-26 明文确认)", () => {
+  const meta = { id: "2026-07-19-x", title_zh: "标题", date: "2026-07-19", podcast: "P" } as any;
+
+  it("★★ 不再有「🎧 本集中文精华音频」小标题(设计稿:播放条紧贴标题,不套小节)", () => {
+    const out = renderAudioPlayer(meta);
+    expect(out).not.toContain("🎧");
+    expect(out).not.toMatch(/^##\s/m);
+  });
+
+  it("★★ 是一条撑满宽的播放条,且音频还能真播(保留原生 controls)", () => {
+    const out = renderAudioPlayer(meta);
+    expect(out).toMatch(/class="pd-play"/);
+    expect(out).toContain("<audio controls");
+    expect(out).toContain('src="/audio/2026-07-19-x.mp3"');
+  });
+
+  it("★ 音频缺失时的兜底话术保留(不能变成一条死掉的空条)", () => {
+    expect(renderAudioPlayer(meta)).toContain("你的浏览器不支持音频播放");
+  });
+
+  it("★★ 播放条在集页里紧跟标题之后(中间不夹别的小节标题)", () => {
+    const md = renderEpisode(
+      { ...meta, guests: [], host: null },
+      { tldr: "一句话。", digest_md: "## 小节\n\n正文。", quotes: [] } as any,
+      null,
+    );
+    const iTitle = md.indexOf("# 标题");
+    const iPlay = md.indexOf('class="pd-play"');
+    const between = md.slice(iTitle, iPlay);
+    expect(iPlay).toBeGreaterThan(iTitle);
+    expect(between).not.toMatch(/^##\s/m); // 标题与播放条之间没有小节标题
   });
 });

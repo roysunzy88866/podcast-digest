@@ -107,7 +107,10 @@ export function renderRelatedEpisodes(related) {
 
 /** C4 · 详情页音频播放器(US-5)。音频缺失/加载失败 → 浏览器原生降级为不可用态,不卡死页面(Scenario 2a)。 */
 export function renderAudioPlayer(meta) {
-  return `## 🎧 本集中文精华音频\n\n<audio controls preload="metadata" src="/audio/${meta.id}.mp3" style="width:100%">你的浏览器不支持音频播放,或音频尚未生成。</audio>`;
+  // C13d-1(ADR 0015,用户 2026-07-26 明文确认):播放条**紧贴标题**、撑满宽,不再套
+  // 「## 🎧 本集中文精华音频」这个小节标题 —— 设计稿 .play 就是标题正下方一条 bar。
+  // 保留原生 <audio controls>:真要能播,不能做成设计稿里那种假进度条。
+  return `<div class="pd-play"><audio controls preload="metadata" src="/audio/${meta.id}.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>`;
 }
 
 // 不补链的行:【背景】块 / 引用续行(AI 补充,非本集实体讨论)/ 标题行(链进标题会毁锚点、Quartz 渲染差)

@@ -29,9 +29,7 @@ tags:
 >
 > **概念**:[[AGI]] · [[次级数据中心危机]] · [[资本支出]] · [[财富效应]] · [[SPV]]
 
-## 🎧 本集中文精华音频
-
-<audio controls preload="metadata" src="/audio/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c.mp3" style="width:100%">你的浏览器不支持音频播放,或音频尚未生成。</audio>
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

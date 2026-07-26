@@ -628,3 +628,18 @@ body[data-slug^="tags/"] {
   .pd .card,
   .pd .card .t { transition: none; }
 }
+
+/* ── 单集页播放条(C13d-1 · ADR 0015:紧贴标题、撑满宽)──
+   集页不在 .pd 作用域里(它是 Quartz 渲染的 markdown),所以按类名直接生效。
+   设计稿 .play 是「圆形播放钮 + 标题 + 进度条」的成品样子;这里保留原生 controls
+   (真要能播),只把容器做成同款一条 bar。 */
+.pd-play {
+  display: flex;
+  align-items: center;
+  border: 1px solid var(--B3);
+  background: var(--B1);
+  border-radius: 7px;
+  padding: 10px 14px;
+  margin: 14px 0 24px;
+}
+.pd-play audio { width: 100%; height: 34px; }

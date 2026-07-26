@@ -31,9 +31,7 @@ tags:
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/ai-is-critical-for-humanitys-survival)
 
-## 🎧 本集中文精华音频
-
-<audio controls preload="metadata" src="/audio/2026-02-26-lennys-ai-is-critical-for-humanitys-survival.mp3" style="width:100%">你的浏览器不支持音频播放,或音频尚未生成。</audio>
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-02-26-lennys-ai-is-critical-for-humanitys-survival.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

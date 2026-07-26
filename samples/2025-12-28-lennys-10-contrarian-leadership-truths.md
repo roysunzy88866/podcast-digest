@@ -30,9 +30,7 @@ tags:
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/10-contrarian-leadership-truths)
 
-## 🎧 本集中文精华音频
-
-<audio controls preload="metadata" src="/audio/2025-12-28-lennys-10-contrarian-leadership-truths.mp3" style="width:100%">你的浏览器不支持音频播放,或音频尚未生成。</audio>
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2025-12-28-lennys-10-contrarian-leadership-truths.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

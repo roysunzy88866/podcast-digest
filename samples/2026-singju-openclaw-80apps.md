@@ -27,9 +27,7 @@ tags:
 >
 > **来源**:[SingjuPost 转录](https://singjupost.com/openclaw-creator-why-80-of-apps-will-disappear-transcript/)
 
-## 🎧 本集中文精华音频
-
-<audio controls preload="metadata" src="/audio/2026-singju-openclaw-80apps.mp3" style="width:100%">你的浏览器不支持音频播放,或音频尚未生成。</audio>
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-singju-openclaw-80apps.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 
