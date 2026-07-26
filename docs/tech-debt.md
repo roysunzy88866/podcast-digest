@@ -70,3 +70,15 @@
 - **影响**:Lenny's/AI 类内容通病,非偶发;闸门 fail-closed 宁可错杀,但对新源产出率打骨折。
 - **处置(建议,未做)**:①给**常见真实体建基线白名单**(OpenAI/Anthropic/Google/知名人物等,带出处)②匹配容错(大小写/空格/连字符,如 open AI↔OpenAI)③仍拿不准的进「待核」而非硬拦(与 drift #25/#26 软化同思路)。**红线**:白名单只放"世所公认真实体",不放模糊名——防真编造漏网。
 - **现状**:①**拼接容错已做(2026-07-20,standard-change)**:concats 相邻词拼接双向匹配(open AI↔OpenAI),GLM 006 复核 2 real 收紧(门槛≥6+长度守卫)+1 noise。修的是**空格差异**类误报。②**仍未做**:真正稿里没有的实体(swyx/Smol 若稿里根本没提)只能靠白名单/aliases,白名单风险高(可能放行真编造)待与用户单独定。被拦集仍隔离 data/skipped。
+
+## D47 · meta 的 host/guests/cohosts 角色标注系统性错置(2026-07-26 C12 登记)
+- **问题**:`infer-speakers.mjs` 派生角色时,`candidateNamesFromTitle` 只按破折号 `—/–/-` 切标题抽候选嘉宾名,
+  而 Lenny's / PG 等 Substack 源的标题惯例是 `主题 | 嘉宾名`(竖线)→ 候选恒为空 → `meta.guests` 恒为 `[]`,
+  `host` 实际退化成「SPEAKER_0 是谁」,嘉宾全被塞进 `cohosts`。实测 45 集里 `guests` 非空的只有 Latent Space 那几集;
+  `Stewart Butterfield` / `Matt MacInnis` / `Jeanne DeWitt Grosser` 等**嘉宾被写成了 host**。
+- **影响**:①`extract-entities.personEntitiesFromMeta` 据此给人物实体打 `role`,人物页的 host/guest 角色是错的;
+  ②`render.mjs` 的 frontmatter `guests:` 与集页「嘉宾」行大量为空;③遗留待办「人物页只给嘉宾生成」没有可信依据。
+- **本片怎么绕过的**:C12 **不信角色、只用名字池**(speaker_map ∪ guests ∪ cohosts ∪ host),
+  主持人靠全库频次识别 —— 所以 `guest_name` 98% 正确,但**没有修根因**。
+- **处置**:接受记账。真修=`candidateNamesFromTitle` 补 `|`/`ft.`/`with` 等 Substack 标题惯例 + 复跑存量重派角色;
+  牵动人物实体 role 与人物页生成,**属独立切片,不在 C12 外科范围内**。UI 侧要「人物页只给嘉宾生成」时必须先还这笔债。

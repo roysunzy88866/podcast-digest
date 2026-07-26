@@ -20,6 +20,8 @@
 | C10 | **首页交互改版**(2026-07-24 用户发起):Bases 三视图首页(最新卡片/全部表格/按主题看板)+ 8 大类受控词表(163 细标签降级页底关键词)+ 图谱只画集↔大类(实体 unlisted)+ 全站关弹框 + patch-site 配置补丁。共识:需求共创/首页交互改版.md;Gherkin 见 user-stories C10 | US-1, US-2, US-4 | 🟡 代码全落+单测/verify-c5 绿;待本地 build 预览→用户拍板→跑批窗口 push 上线 |
 | C11 | **第一梯队六源批量接入**(2026-07-24 用户拍板,PG 优先;原编号 C10,与并行 UI 片撞号后让号):pg 官方稿零成本(P1 ✅ 真取 1742 段同构)+ yc/mad/trainingdata/bigtech/aia16z 走 whisperX + deriveId 标题回退(Megaphone 无集页 link)+ isInterview 放宽 link 可缺 + workflow seed 入口(云端 seed)。Gherkin 见 user-stories C11;真相源 调研-新源候选-2026-07-24.md | US-4, US-11 | 🟡 八源全带基线巡航中(cron 每天4巡);PG 首集判官 20→12 过、卡事实层(Amodei 世界知识补名 + SPEAKER_00 漏正文=infer 候选名太窄真bug)隔离待修;修法=SOURCES 配 host 候选(待用户点头) |
 
+| C12 | **嘉宾姓名+职位入库**(2026-07-26 用户点名):流水线抽 `guest_name`/`guest_title` 落 meta.json,供 UI 卡片第三行「人名 · 公司职位」🔒。人名限本集说话人候选(GLM 只选不造)+ 主持人全库频次自动识别 + 职位逐字回中文稿校验。Gherkin 见 user-stories C12;实测覆盖率见 docs/c12-嘉宾字段-覆盖率证据.md | US-1 | 🟡 代码+单测+存量 45 集回填全落(人名 98%/职位 93%),待 UI 侧接用 + 用户线上验收 |
+
 > C7 原为单行「上云」,2026-07-19 用户 AskUserQuestion 拍板拆 C7a/b/c(drift #15);前置仍是过 `docs/上线前checklist.md`(8 项分摊到三片)。里程碑规矩(用户亲手验收)对 C7a 照旧;C7b 全自动发布是用户明选的例外,做前单独确认。
 
 **里程碑规矩(业务级 E2E)**:每个里程碑收口前,真跑一集完整流水线(真 RSS→真转写→真闸门→真发布),用户亲手点验收,不认 mock 绿。

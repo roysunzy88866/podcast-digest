@@ -980,3 +980,59 @@ Scenario 3 [基线与量控] seed 只向前看,首集发布单独确认
 4. ✅ 品味档案源清单同步(8 源表+拍板日)。
 5. ⬜ glm-check --kind code 对抗审计 + 账本裁决。
 6. ⬜ PG 首集 E2E 用户真设备验收(触发前单独确认烧钱+发布)。
+
+## C12 · 嘉宾姓名与职位入库(2026-07-26 用户点名;UI 卡片第三行「人名 · 公司职位」的数据地基)
+
+> 真相源:`需求共创/UI交互重做-2026-07-25.md`「卡片内容规格」🔒(第三行 = 人名 · 公司职位,**不放播客名**)+「遗留待办 #1」。
+> 起因:UI 会话实测 47 集 —— 职位 41/47 有、人名 45/47 有,**数据在文本里、不在字段里**;`guest_titles` 只有 2 集手工加过、`guests` 大量为空(嘉宾被塞进 `cohosts`,仓库既有 bug,见 tech-debt)。
+> 用户 2026-07-26 三条拍板:① 职位闸门**不必特别严格**,但要**短**(标杆「Netflix 产品负责人」);② 多嘉宾集 `guest_name` **只落主嘉宾单值**;③ 存量回填**本次本地跑**(用户明文,例外于「内容云端跑」约定)。
+
+```gherkin
+Feature: 每集产出 guest_name / guest_title 落 meta.json(US-1 卡片可读)
+
+Scenario 1 [人名不许编] 嘉宾只能从本集说话人里选
+  Given 本集 meta 有 speaker_map / guests / cohosts / host(角色标注不可信,只当名字池)
+  When 抽嘉宾
+  Then guest_name 必须逐字等于名字池里的某一个,否则打回重试
+  And 标题里的非人名(Subprime Data / Former FAANG / Agent Experience)永远进不来
+  And 一个名字都选不出 → guest_name 留空,不硬凑
+
+Scenario 2 [主持人不许当嘉宾] 全库频次自动识主持,不写死名单
+  Given 同一播客源下某个名字出现在 ≥30% 的集里、且至少出现 2 集
+  Then 判为该源主持人,从嘉宾候选里剔除(实测:Lenny's→Lenny 33/36、Product Growth→Akash 2/3)
+  And 单集源(只有 1 集)不下主持判定(1 集里人人都 100%),候选全留给模型判
+  And 主持人对谈/无外部嘉宾的集(如 Big Technology 双主持)→ 两字段都留空
+
+Scenario 3 [职位只许抄不许编] 逐字回原文
+  Given 本集中文文本 = title_zh + tldr + digest_md
+  When 模型给出 guest_title
+  Then 去空白后必须能在中文文本里逐字命中(verbatim);
+       整串命中不了时,允许拆成「公司名 + 职位」两段、每段各自逐字命中(spliced,记账可查)
+  And 两种都不命中 → guest_title 留空,绝不编(本项目有编造前科)
+  And meta.guest_source 记下命中方式(title_match=verbatim|spliced|none),可事后审计
+
+Scenario 4 [卡片放得下] 短且干净
+  Given 卡片第三行只有一行位置
+  Then guest_title 显示长度 ≤16 字符(标杆「Netflix 产品负责人」);超长打回重试
+  And 起首为「公司/长期/三任/资深/知名/前任/现任/目前/曾经/本集/嘉宾」等噪声词 → 打回(原型正则踩过)
+  And 不含嘉宾本人姓名、不以「的」收尾
+
+Scenario 5 [不阻塞流水线] 抽不到只是留空,不是失败
+  Given 新集跑完整链
+  When 走到抽嘉宾这步(在防失真闸门之后、出稿之前)
+  Then 抽不到时写空字符串、exit 0,后续渲染/发布照常
+  And 只有读不到 meta/digest 这类真错误才非 0 退出
+
+Scenario 6 [存量回填] 47 集一次性补齐
+  When node scripts/extract-guest.mjs --all
+  Then 每集 meta.json 落 guest_name / guest_title / guest_source
+  And 打印实测覆盖率(有名几集 / 有职位几集 / 空的是哪几集)
+```
+
+### DoD(C12)
+1. ✅ 单测 25 条覆盖四个已知坑 + 五处闸门做过变异验证(逐个回退实现测试必红);全库 438 测全绿。
+2. ✅ `run-pipeline.mjs` 在防失真闸门之后、`render.mjs` 之前调 `extract-guest.mjs`。
+3. ✅ 存量回填完成:45 集可处理(另 2 集是无 digest 的半成品),**实测人名 44/45=98%、职位 42/45=93%**;
+   逐集明细 + 独立复核 + 复现命令落 `docs/c12-嘉宾字段-覆盖率证据.md`。
+4. ✅ `guests`/`cohosts` 角色错置登记 tech-debt D47(本片不顺手改,只做多来源兜底)。
+5. ⬜ UI 侧真接上卡片第三行 + 用户线上验收(归 UI 会话)。
