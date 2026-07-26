@@ -18,6 +18,8 @@ tags:
 
 # 增长停滞怎么办？Jason Cohen 的四步诊断法
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-01-25-lennys-why-your-product-stopped-growing.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >
@@ -26,8 +28,6 @@ tags:
 > **概念**:[[客户流失率]] · [[定价]] · [[NRR]] · [[渠道饱和]] · [[入职引导]] · [[定位]] · [[大象曲线]] · [[SaaS]] · [[营销漏斗]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/why-your-product-stopped-growing)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-01-25-lennys-why-your-product-stopped-growing.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

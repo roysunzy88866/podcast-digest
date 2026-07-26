@@ -3,6 +3,7 @@
 // 纪律同前:只调被测函数,不重抄逻辑;每条能变异验证。
 // 渲染是「集页唯一真相」(gate-all 重渲染逐字比对),所以这些纯函数必须稳定、确定。
 import { describe, it, expect } from "vitest";
+import { readFileSync } from "node:fs";
 import {
   blockId,
   groupByRole,
@@ -266,9 +267,37 @@ describe("C13d-1 · 播放条紧随标题(ADR 0015,用户 2026-07-26 明文确�
       null,
     );
     const iTitle = md.indexOf("# 标题");
-    const iPlay = md.indexOf('class="pd-play"');
+    const iPlay = md.indexOf('<div class="pd-play"'); // 切到元素开头,不然会留下半截 <div
     const between = md.slice(iTitle, iPlay);
     expect(iPlay).toBeGreaterThan(iTitle);
-    expect(between).not.toMatch(/^##\s/m); // 标题与播放条之间没有小节标题
+    // ⚠️ 原先只断言「没有 ## 小节标题」→ 假绿:关联框是引用块不是标题,照样夹在中间,
+    //    ADR 0015 的「紧贴」根本没达成。改硬:中间除了标题那一行,不许有任何非空内容。
+    const 夹着的 = between.split("\n").slice(1).filter((l) => l.trim());
+    expect(夹着的).toEqual([]);
+  });
+});
+
+describe("C13d-1 · 单集页右栏改造 + ADR 0016 全局图谱入口摘除", () => {
+  const scss = readFileSync(new URL("../assets/styles/custom.scss", import.meta.url), "utf8");
+
+  it("★★ 全局图谱入口全站摘掉(ADR 0016),但一跳邻域图保留", () => {
+    expect(scss).toMatch(/\.global-graph-icon \{ display: none/);
+    // 不许把整个 graph 块也藏了 —— ADR 0016 明确「单集页保留一跳邻域」
+    expect(scss).not.toMatch(/\n\.graph \{[^}]*display: none/);
+  });
+
+  it("★★ 集页用 :has(.pd-play) 定位,不需要给每页打标记", () => {
+    expect(scss).toMatch(/body:has\(\.pd-play\)/);
+  });
+
+  it("★★ 集页按设计稿 .shell.det 排:中栏 700 + 右栏 282,左栏不显示", () => {
+    expect(scss).toMatch(/grid-template-columns: minmax\(0, 700px\) 282px/);
+    expect(scss).toMatch(/body:has\(\.pd-play\)[\s\S]*?\.left\.sidebar \{ display: none/);
+  });
+
+  it("★ 不另建右栏:复用 Quartz 自带的 toc/backlinks(它们自带滚动高亮与反链)", () => {
+    expect(scss).toMatch(/\.toc-content a/);
+    expect(scss).toMatch(/\.toc-content a\.in-view/);
+    expect(scss).toMatch(/\.backlinks a/);
   });
 });

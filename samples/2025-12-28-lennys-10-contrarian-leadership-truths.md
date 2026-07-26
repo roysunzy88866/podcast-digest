@@ -19,6 +19,8 @@ tags:
 
 # Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2025-12-28-lennys-10-contrarian-leadership-truths.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Matt MacInnis]]
 >
@@ -29,8 +31,6 @@ tags:
 > **概念**:[[刻意人手不足]] · [[Alpha 与 Beta]] · [[产品市场契合度]] · [[熵]] · [[幂律分布]] · [[单点解决方案]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/10-contrarian-leadership-truths)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2025-12-28-lennys-10-contrarian-leadership-truths.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

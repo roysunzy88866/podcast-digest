@@ -19,6 +19,8 @@ tags:
 
 # 让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-22-latent-space-gray-swan.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **嘉宾**:[[Zico Kolter]] · [[Matt Fredrikson]]
 >
@@ -27,8 +29,6 @@ tags:
 > **概念**:[[智能体]] · [[红队测试]] · [[提示词注入]] · [[越狱]] · [[护栏]] · [[沙箱]] · [[可解释性]] · [[致命三角]] · [[arena]] · [[Shade]] · [[Signal]] · [[OpenClaw]]
 >
 > **来源**:[Latent Space](https://www.latent.space/p/gray-swan)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-22-latent-space-gray-swan.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

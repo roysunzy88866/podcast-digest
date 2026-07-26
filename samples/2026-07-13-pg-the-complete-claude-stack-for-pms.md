@@ -20,6 +20,8 @@ tags:
 
 # PM 如何用 Claude 把生产力提升 10 倍：全栈实战
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-13-pg-the-complete-claude-stack-for-pms.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Aakash Gupta]]
 >
@@ -30,8 +32,6 @@ tags:
 > **概念**:[[Claude Code]] · [[智能体]] · [[对抗性智能体]] · [[mcp]] · [[知识库]] · [[技能]]
 >
 > **来源**:[Product Growth Podcast](https://www.news.aakashg.com/p/the-complete-claude-stack-for-pms)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-13-pg-the-complete-claude-stack-for-pms.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

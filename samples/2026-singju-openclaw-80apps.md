@@ -18,6 +18,8 @@ tags:
 
 # OpenClaw创始人：为何80%的应用将消失
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-singju-openclaw-80apps.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **嘉宾**:[[Raphael Schaad]] · [[Peter Steinberger]]
 >
@@ -26,8 +28,6 @@ tags:
 > **概念**:[[OpenClaw]] · [[智能体]] · [[mcp]] · [[提示注入]] · [[CLI]] · [[护城河]]
 >
 > **来源**:[SingjuPost 转录](https://singjupost.com/openclaw-creator-why-80-of-apps-will-disappear-transcript/)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-singju-openclaw-80apps.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

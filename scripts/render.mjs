@@ -266,9 +266,9 @@ export function renderEpisode(meta, digest, entities = null, related = null) {
   const body = `
 # ${displayTitle(meta)}
 
-${top}
-
 ${renderAudioPlayer(meta)}
+
+${top}
 
 ## 一句话 TLDR
 

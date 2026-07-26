@@ -20,6 +20,8 @@ tags:
 
 # Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >
@@ -30,8 +32,6 @@ tags:
 > **概念**:[[GenAI]] · [[智能体]] · [[系统思维]] · [[动荡阶段]] · [[留任测试]] · [[卓越即操作系统]] · [[铺设路径]] · [[人才密度]] · [[无责复盘]] · [[AI 熟练度]] · [[真相来源数据]] · [[护栏]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

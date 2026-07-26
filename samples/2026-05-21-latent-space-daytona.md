@@ -18,6 +18,8 @@ tags:
 
 # 赋予AI智能体计算机——Daytona创始人Ivan Burazin
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-05-21-latent-space-daytona.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **嘉宾**:[[Ivan Burazin]]
 >
@@ -26,8 +28,6 @@ tags:
 > **概念**:[[智能体]] · [[沙箱]] · [[突发负载]] · [[裸金属]] · [[计算机使用]] · [[托管型 Kubernetes]]
 >
 > **来源**:[Latent Space](https://www.latent.space/p/daytona)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-05-21-latent-space-daytona.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

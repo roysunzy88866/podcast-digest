@@ -20,6 +20,8 @@ tags:
 
 # 非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-01-18-lennys-the-non-technical-pms-guide-to-building.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >
@@ -30,8 +32,6 @@ tags:
 > **概念**:[[Claude Code]] · [[Composer]] · [[Codex]] · [[智能体]] · [[斜杠命令]] · [[同行评审]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/the-non-technical-pms-guide-to-building-with-cursor)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-01-18-lennys-the-non-technical-pms-guide-to-building.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

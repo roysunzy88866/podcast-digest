@@ -20,6 +20,8 @@ tags:
 
 # Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-14-lennys-the-common-pattern-behind-successful.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Mark Pincus]]
 >
@@ -30,8 +32,6 @@ tags:
 > **概念**:[[已验证、更好、全新]] · [[产品市场契合度]] · [[留存率]] · [[分发]] · [[智能体]] · [[社交网络]] · [[微管理]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-14-lennys-the-common-pattern-behind-successful.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

@@ -19,6 +19,8 @@ tags:
 
 # AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2025-11-16-lennys-the-godmother-of-ai.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >
@@ -29,8 +31,6 @@ tags:
 > **概念**:[[Marble]] · [[ImageNet]] · [[空间智能]] · [[世界模型]] · [[具身智能]] · [[苦涩的教训]] · [[神经网络]] · [[机器学习]] · [[人工智能]] · [[GPU]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/the-godmother-of-ai)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2025-11-16-lennys-the-godmother-of-ai.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

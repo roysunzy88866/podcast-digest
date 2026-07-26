@@ -20,6 +20,8 @@ tags:
 
 # Sriram Krishnan：Kimi K3 将改写 AI 行业版图
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Theo Jaffe]]
 >
@@ -28,8 +30,6 @@ tags:
 > **涉及公司**:[[Hugging Face]]
 >
 > **概念**:[[开源权重]] · [[前沿实验室]] · [[蒸馏]] · [[智能体]] · [[Kimi K3]]
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

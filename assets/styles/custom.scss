@@ -643,3 +643,65 @@ body[data-slug^="tags/"] {
   margin: 14px 0 24px;
 }
 .pd-play audio { width: 100%; height: 34px; }
+
+/* ══════════ 单集页(C13d-1)══════════
+   选择器用 :has(.pd-play) —— 只有集页有播放条,精准且不用给每页打标记
+   (设计稿自己也用 :has,如 .topin:has(.mtitle))。
+   核心判断:**不另建右栏**。Quartz 集页右栏本来就有 toc(目录,自带滚动高亮)、
+   backlinks(反链)、graph(一跳邻域图),与设计稿右栏「目录 / 这一集涉及」一一对应,
+   改造它比重造一套省得多,也不会丢掉它自带的行为。 */
+body:has(.pd-play) {
+  /* 设计稿 .shell.det:中栏 700 + 右栏 282,居中 1000,没有左栏那一列 */
+  #quartz-body {
+    grid-template-columns: minmax(0, 700px) 282px;
+    grid-template-areas:
+      "grid-header grid-sidebar-right"
+      "grid-center grid-sidebar-right"
+      "grid-footer grid-sidebar-right";
+    justify-content: center;
+    max-width: 1000px;
+    column-gap: 24px;
+  }
+  .left.sidebar { display: none; }
+  /* 设计稿第八批 #2「详情页顶部收拾干净」:只留标题 + 一条统一灰度 meta。
+     框架页头(面包屑 + 又一遍标题 + 自动阅读时长)与 Properties 表都不在设计里。
+     正文里那个 # 标题才是真标题,留着。 */
+  .page-header { display: none; }
+  .note-properties-table,
+  .note-properties-header,
+  .note-properties-separator { display: none; }
+
+  /* 右栏各块的小标题:设计稿 .sh(12px/700/浅灰/字距 .6) */
+  .right.sidebar {
+    .toc-header h3,
+    .backlinks h3,
+    .graph h3 {
+      font-family: var(--puhui);
+      font-size: 12px;
+      font-weight: 700;
+      color: #a09a94;
+      letter-spacing: 0.6px;
+      margin: 0 0 10px;
+    }
+    /* 目录项:设计稿 .toc a —— 左侧细竖线,当前项暖红 */
+    .toc-content a {
+      display: block;
+      font-size: 13px;
+      color: var(--B6);
+      padding: 6px 0 6px 11px;
+      border-left: 2px solid var(--B3);
+      line-height: 1.5;
+    }
+    .toc-content a.in-view {
+      color: var(--pd-accent);
+      border-left-color: var(--pd-accent);
+      font-weight: 600;
+    }
+    .backlinks a { font-size: 13.5px; line-height: 1.8; color: var(--B7); }
+    .backlinks a:hover { color: var(--pd-accent); }
+  }
+}
+
+/* ADR 0016(用户 2026-07-26 明文确认):全站导航不给**全局**图谱入口。
+   单集页的一跳邻域图保留 —— 只摘掉那个「放大到全局」的按钮。 */
+.global-graph-icon { display: none !important; }

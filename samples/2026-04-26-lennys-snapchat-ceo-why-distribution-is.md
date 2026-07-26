@@ -20,6 +20,8 @@ tags:
 
 # Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-04-26-lennys-snapchat-ceo-why-distribution-is.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >
@@ -30,8 +32,6 @@ tags:
 > **概念**:[[分发]] · [[护城河]] · [[网络效应]] · [[增强现实]] · [[智能体]] · [[硬件]] · [[要完成的任务]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-04-26-lennys-snapchat-ceo-why-distribution-is.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

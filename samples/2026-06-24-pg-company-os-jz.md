@@ -20,6 +20,8 @@ tags:
 
 # AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-24-pg-company-os-jz.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Jiaona Zhang]]
 >
@@ -30,8 +32,6 @@ tags:
 > **概念**:[[智能体]] · [[剧本]] · [[技能]] · [[本体]] · [[船长]]
 >
 > **来源**:[Product Growth Podcast](https://www.news.aakashg.com/p/company-os-jz)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-24-pg-company-os-jz.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

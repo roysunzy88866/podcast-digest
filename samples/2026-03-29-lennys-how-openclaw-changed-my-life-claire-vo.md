@@ -19,6 +19,8 @@ tags:
 
 # OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >
@@ -29,8 +31,6 @@ tags:
 > **概念**:[[OpenClaw]] · [[智能体]] · [[上下文过载]] · [[提示词注入]] · [[系统提示词]] · [[浏览器使用]] · [[Mac mini]] · [[身份]] · [[Claude Code]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

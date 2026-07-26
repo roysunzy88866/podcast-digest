@@ -19,6 +19,8 @@ tags:
 
 # 别只想推销：产品负责人如何真正影响高管决策
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-03-22-lennys-the-art-of-influence-jessica-fain.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Jessica Fain]]
 >
@@ -29,8 +31,6 @@ tags:
 > **概念**:[[智能体]] · [[产品市场契合度]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-03-22-lennys-the-art-of-influence-jessica-fain.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

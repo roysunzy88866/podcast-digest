@@ -19,6 +19,8 @@ tags:
 
 # Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-04-05-lennys-anthropics-1b-to-19b-growth-run.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >
@@ -29,8 +31,6 @@ tags:
 > **概念**:[[智能体编码]] · [[能力过剩]] · [[冷启动]] · [[正确的摩擦]] · [[成功灾难]] · [[公益公司]] · [[跨职能利益相关者管理]] · [[增长自动化]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-04-05-lennys-anthropics-1b-to-19b-growth-run.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

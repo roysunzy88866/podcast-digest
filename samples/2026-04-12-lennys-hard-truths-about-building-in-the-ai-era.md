@@ -20,6 +20,8 @@ tags:
 
 # Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-04-12-lennys-hard-truths-about-building-in-the-ai-era.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Keith Rabois]]
 >
@@ -30,8 +32,6 @@ tags:
 > **概念**:[[桶和弹药]] · [[人才密度]] · [[PM]] · [[商业头脑]] · [[客户反馈]] · [[心理安全感]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-04-12-lennys-hard-truths-about-building-in-the-ai-era.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

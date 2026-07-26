@@ -20,6 +20,8 @@ tags:
 
 # AI 悬崖边？数据中心次级债与 SpaceX 缩水
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Ranjan Roy]]
 >
@@ -28,8 +30,6 @@ tags:
 > **涉及公司**:[[Google]] · [[OpenAI]] · [[Anthropic]] · [[SpaceX]] · [[Tesla]]
 >
 > **概念**:[[AGI]] · [[次级数据中心危机]] · [[资本支出]] · [[财富效应]] · [[SPV]]
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

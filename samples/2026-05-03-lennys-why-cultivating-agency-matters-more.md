@@ -19,6 +19,8 @@ tags:
 
 # 对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-05-03-lennys-why-cultivating-agency-matters-more.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Max Schoening]]
 >
@@ -29,8 +31,6 @@ tags:
 > **概念**:[[主观能动性]] · [[可塑软件]] · [[智能体]] · [[品味]] · [[SaaS 末日]] · [[智能体循环]] · [[微小核心]] · [[知识工作]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-05-03-lennys-why-cultivating-agency-matters-more.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

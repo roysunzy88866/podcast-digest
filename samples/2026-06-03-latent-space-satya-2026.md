@@ -20,6 +20,8 @@ tags:
 
 # Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-03-latent-space-satya-2026.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Saragawa]]
 >
@@ -30,8 +32,6 @@ tags:
 > **概念**:[[MAI]] · [[私有评估]] · [[测试框架]] · [[轨迹]] · [[智能体]] · [[SaaS]] · [[数据中心]]
 >
 > **来源**:[Latent Space](https://www.latent.space/p/satya-2026)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-03-latent-space-satya-2026.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

@@ -19,6 +19,8 @@ tags:
 
 # 1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-03-08-lennys-the-most-successful-ai-company-youve-nev.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >
@@ -29,8 +31,6 @@ tags:
 > **概念**:[[物理 AI]] · [[自动驾驶]] · [[工业革命]] · [[FSD]] · [[ChatGPT]] · [[智能体]] · [[激进实用主义]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-03-08-lennys-the-most-successful-ai-company-youve-nev.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

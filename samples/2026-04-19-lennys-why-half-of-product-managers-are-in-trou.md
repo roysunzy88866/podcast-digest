@@ -20,6 +20,8 @@ tags:
 
 # AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-04-19-lennys-why-half-of-product-managers-are-in-trou.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >
@@ -30,8 +32,6 @@ tags:
 > **概念**:[[产品经理]] · [[构建者]] · [[信息搬运工]] · [[判断力]] · [[幕僚长应用]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-04-19-lennys-why-half-of-product-managers-are-in-trou.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

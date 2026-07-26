@@ -20,6 +20,8 @@ tags:
 
 # Adam Mosseri：AI 时代的团队重组与产品品味
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >
@@ -30,8 +32,6 @@ tags:
 > **概念**:[[reels]] · [[pods]] · [[产品人员]] · [[news feed]] · [[嵌入模型]] · [[探索性排名]] · [[合成内容]] · [[时间线]] · [[大型语言模型]] · [[vibe coding]] · [[品味]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

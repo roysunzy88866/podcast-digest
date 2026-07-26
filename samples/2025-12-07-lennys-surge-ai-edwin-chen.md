@@ -19,6 +19,8 @@ tags:
 
 # Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2025-12-07-lennys-surge-ai-edwin-chen.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >
@@ -29,8 +31,6 @@ tags:
 > **概念**:[[基准测试]] · [[后训练]] · [[强化学习环境]] · [[目标函数]] · [[数据质量]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/surge-ai-edwin-chen)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2025-12-07-lennys-surge-ai-edwin-chen.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

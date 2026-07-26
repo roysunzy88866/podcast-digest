@@ -19,6 +19,8 @@ tags:
 
 # 把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2025-11-30-lennys-what-the-best-gtm-teams-do-differently.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Jeanne DeWitt Grosser]]
 >
@@ -29,8 +31,6 @@ tags:
 > **概念**:[[go-to-market]] · [[智能体]] · [[GTM 工程师]] · [[市场细分]] · [[PLG]] · [[购买体验]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/what-the-best-gtm-teams-do-differently)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2025-11-30-lennys-what-the-best-gtm-teams-do-differently.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

@@ -20,6 +20,8 @@ tags:
 
 # 对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-02-26-lennys-ai-is-critical-for-humanitys-survival.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Jeetu Patel]]
 >
@@ -30,8 +32,6 @@ tags:
 > **概念**:[[AI 优先]] · [[能力过剩]] · [[超级趋势]] · [[炒作周期]] · [[丢包]] · [[松散耦合]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/ai-is-critical-for-humanitys-survival)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-02-26-lennys-ai-is-critical-for-humanitys-survival.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

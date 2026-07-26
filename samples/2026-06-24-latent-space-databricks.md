@@ -18,6 +18,8 @@ tags:
 
 # Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-24-latent-space-databricks.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **嘉宾**:[[Matei Zaharia]] · [[Reynold Xin]]
 >
@@ -26,8 +28,6 @@ tags:
 > **概念**:[[Omnigen]] · [[LTAP]] · [[HTAP]] · [[Dream Engine]] · [[智能体]] · [[云沙箱]] · [[上下文策略]] · [[CDC]] · [[第二系统综合征]] · [[Spark]]
 >
 > **来源**:[Latent Space](https://www.latent.space/p/databricks)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-24-latent-space-databricks.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

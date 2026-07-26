@@ -20,6 +20,8 @@ tags:
 
 # 用 AI 武装技术型 PM：Codex 工作流全解析
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-09-pg-pm-guide-ai-design.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Meng To]]
 >
@@ -30,8 +32,6 @@ tags:
 > **概念**:[[Codex]] · [[智能体]] · [[上下文]] · [[护栏]] · [[playwright]] · [[计划模式]] · [[数字分身]]
 >
 > **来源**:[Product Growth Podcast](https://www.news.aakashg.com/p/pm-guide-ai-design)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-09-pg-pm-guide-ai-design.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

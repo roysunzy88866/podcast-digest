@@ -20,6 +20,8 @@ tags:
 
 # Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Claire Vo]]
 >
@@ -30,8 +32,6 @@ tags:
 > **概念**:[[联合创始人]] · [[vibe coding]] · [[永久 Zoom]] · [[智能体]] · [[垃圾桶法]] · [[Cloudflare Worker]] · [[Vercel AI SDK]] · [[Claude Code]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/no-figma-no-jira-no-docs-how-gusto)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

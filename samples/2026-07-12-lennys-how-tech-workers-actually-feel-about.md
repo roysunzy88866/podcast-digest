@@ -19,6 +19,8 @@ tags:
 
 # 科技圈情绪调查：一半人狂喜，一半人煎熬
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-12-lennys-how-tech-workers-actually-feel-about.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Noam Segal]]
 >
@@ -29,8 +31,6 @@ tags:
 > **概念**:[[职业倦怠]] · [[认知衰退]] · [[同薪挤压]] · [[NPS]] · [[技能萎缩]] · [[经理有效性]] · [[大扁平化]] · [[冒名顶替综合征]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-12-lennys-how-tech-workers-actually-feel-about.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

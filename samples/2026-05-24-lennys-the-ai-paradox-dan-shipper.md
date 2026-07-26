@@ -20,6 +20,8 @@ tags:
 
 # Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-05-24-lennys-the-ai-paradox-dan-shipper.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >
@@ -30,8 +32,6 @@ tags:
 > **概念**:[[智能体]] · [[SaaS]] · [[前置部署工程师]] · [[PM]] · [[CLI]] · [[高级工程师基准测试]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-05-24-lennys-the-ai-paradox-dan-shipper.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

@@ -19,6 +19,8 @@ tags:
 
 # iPod之父Tony Fadell：反直觉的产品课
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-07-lennys-father-of-the-ipod-and-iphone-on.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Tony Fadell]]
 >
@@ -29,8 +31,6 @@ tags:
 > **概念**:[[iPod]] · [[iPhone]] · [[智能体]] · [[逆向工作]] · [[臭鼬工厂]] · [[技术债务]] · [[人在回路中]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-06-07-lennys-father-of-the-ipod-and-iphone-on.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

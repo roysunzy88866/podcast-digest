@@ -20,6 +20,8 @@ tags:
 
 # 从避战大模型到押注智能体：Modal 的推理基础设施进化史
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-08-latent-space-modal.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **嘉宾**:[[Akshat Bubna]]
 >
@@ -32,8 +34,6 @@ tags:
 > **概念**:[[智能体]] · [[AX]] · [[DX]] · [[沙箱]] · [[推理]] · [[弹性推理]] · [[投机解码]] · [[DeFlash]] · [[Auto Endpoints]] · [[装饰器]]
 >
 > **来源**:[Latent Space](https://www.latent.space/p/modal2026)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-08-latent-space-modal.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

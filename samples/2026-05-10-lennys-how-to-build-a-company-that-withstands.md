@@ -20,6 +20,8 @@ tags:
 
 # 《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-05-10-lennys-how-to-build-a-company-that-withstands.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Eric Ries]]
 >
@@ -30,8 +32,6 @@ tags:
 > **概念**:[[Incorruptible]] · [[结构完整性]] · [[公益公司]] · [[金融重力]] · [[长期利益信托]] · [[文化银行]] · [[精神控股公司]] · [[使命守护者]] · [[无形领袖]] · [[股东至上]] · [[使命驱动]] · [[创始人优先股]] · [[难就是易]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/how-to-build-a-company-that-withstands)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-05-10-lennys-how-to-build-a-company-that-withstands.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

@@ -20,6 +20,8 @@ tags:
 
 # 1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >
@@ -30,8 +32,6 @@ tags:
 > **概念**:[[智能体]] · [[编排]] · [[go-to-market]] · [[前置部署工程师]] · [[剧本]] · [[AI 泡沫]] · [[CRM]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/we-replaced-our-sales-team-with-20-ai-agents)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

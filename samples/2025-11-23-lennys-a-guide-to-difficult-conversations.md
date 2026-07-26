@@ -18,6 +18,8 @@ tags:
 
 # 别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2025-11-23-lennys-a-guide-to-difficult-conversations.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Lenny]]
 >
@@ -26,8 +28,6 @@ tags:
 > **概念**:[[辅导]] · [[GROW 模型]] · [[积极倾听]] · [[非暴力沟通]] · [[职业倦怠]] · [[联合创始人]] · [[一页纸计划]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/a-guide-to-difficult-conversations)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2025-11-23-lennys-a-guide-to-difficult-conversations.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 

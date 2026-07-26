@@ -20,6 +20,8 @@ tags:
 
 # 把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学
 
+<div class="pd-play"><audio controls preload="metadata" src="/audio/2025-11-20-lennys-slack-founder-stewart-butterfield.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
 > [!info] 关联
 > **主持**:[[Stewart Butterfield]]
 >
@@ -30,8 +32,6 @@ tags:
 > **概念**:[[效用曲线]] · [[摩擦力]] · [[超逼真的类工作活动]] · [[帕金森定律]] · [[所有者的错觉]] · [[我们不卖马鞍]] · [[转型]]
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/slack-founder-stewart-butterfield)
-
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2025-11-20-lennys-slack-founder-stewart-butterfield.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 ## 一句话 TLDR
 
