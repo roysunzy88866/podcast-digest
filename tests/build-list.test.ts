@@ -306,3 +306,61 @@ describe("C13a · 日期组标兜底不许出垃圾字符串(GLM 20260726-024[2]
     expect(md).toContain('<div class="dateh">2026-07-19</div>');
   });
 });
+
+describe("C13a · 手机端摊开搜索(🔒 #9 搜索与主题入口不降级)", () => {
+  const md = renderList([ep()], opts);
+
+  it("★★ 手机摊开区有真输入框,占位文案照设计稿,不是小图标", () => {
+    expect(md).toMatch(/<div class="mhs"><input class="mhq"/);
+    expect(md).toContain('placeholder="搜标题 / 金句 / 正文 / 人名"');
+    expect(md).toMatch(/aria-label="搜索标题、金句、正文、人名"/);
+  });
+
+  it("★★ 输入框在「最新/最热」与主题条之前(搜索不降级,排在最上)", () => {
+    expect(md.indexOf('class="mhq"')).toBeLessThan(md.indexOf('class="mhv"'));
+    expect(md.indexOf('class="mhv"')).toBeLessThan(md.indexOf('class="mhc"'));
+  });
+
+  it("★★ 检索转发给 Quartz 的搜索,不自建索引(往 .search-bar 塞值 + 派发 input)", () => {
+    expect(md).toContain(".search .search-bar");
+    expect(md).toContain("panel.classList.add('active')");
+    expect(md).toMatch(/bar\.dispatchEvent\(new Event\('input'\)\)/);
+    // 不**调用** showSearch:那会把焦点抢到 Quartz 自己的输入框,用户得换个框继续打字
+    expect(md).not.toMatch(/showSearch\s*\(/);
+  });
+
+  it("★★ 清空输入 → 关掉浮层并清掉它的输入框(不留半开的结果面板)", () => {
+    expect(md).toMatch(/if\(!q\.trim\(\)\)\{\s*panel\.classList\.remove\('active'\)/);
+  });
+
+  it("★ 接线幂等(SPA 每次 nav 重跑不许重复绑监听)", () => {
+    expect(md).toMatch(/box\.__wired/);
+  });
+
+  it("★★ 只藏顶栏那个搜索按钮,不许藏整个 .search(结果浮层是它的子节点,会被连坐)", () => {
+    // 实测过的坑:藏 .pd-acts .search 时,8 条结果在 DOM 里、active 也加上了,屏幕上却什么都没有
+    expect(scss).toMatch(/\.pd-acts \.search \.search-button \{ display: none/);
+    expect(scss).not.toMatch(/\.pd-acts \.search \{ display: none/);
+    expect(scss).not.toMatch(/\.pd-acts \.darkmode \{ display: none/);
+  });
+});
+
+describe("C13a · 搜索结果面板收成下拉(手机上一条卡原本占满整屏)", () => {
+  it("★★ 摘要锁 3 行(实测一张结果卡高 537px,一条就占满 812px 的屏)", () => {
+    expect(scss).toMatch(/\.result-card \.card-description \{[\s\S]*?-webkit-line-clamp: 3/);
+  });
+
+  it("★★ 藏掉浮层里 Quartz 自带的输入框(摊开的那个才是主角,否则两个框叠着)", () => {
+    expect(scss).toMatch(/\.search-container \.search-bar \{ display: none/);
+  });
+
+  it("★ 浮层挪到摊开输入框正下方,不再从 12vh 居中起", () => {
+    expect(scss).toMatch(/\.search-container \.search-space \{[\s\S]*?margin-top: 118px/);
+  });
+});
+
+describe("C13a · 打字时看得见自己打的字", () => {
+  it("★★ 去掉浮层的 backdrop-filter(它会把摊开的输入框一起糊掉,用户盲打)", () => {
+    expect(scss).toMatch(/\.search-container \{ backdrop-filter: none/);
+  });
+});

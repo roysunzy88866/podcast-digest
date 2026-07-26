@@ -189,7 +189,10 @@ function mobileHome(episodes, catsOf, vocabulary) {
     .sort(byCountThenName)
     .map(([c, k]) => `<a class="internal" href="./tags/${encodeURIComponent(c)}">${esc(c)}<i>${k}</i></a>`)
     .join("");
+  // 🔒 #9:搜索是**摊开的真输入框**,不是小图标。占位文案照设计稿。
+  // 检索本身转发给 Quartz 的搜索(复用它的中文索引,见 scriptBlock 的 wireSearch)。
   return `<div class="pd-mhome">
+    <div class="mhs"><input class="mhq" type="search" autocomplete="off" placeholder="搜标题 / 金句 / 正文 / 人名" aria-label="搜索标题、金句、正文、人名"></div>
     <div class="mhv"><span class="on">最新</span><span class="soon">最热</span></div>
     <div class="mhc"><a class="internal" href="./">全部<i>${episodes.length}</i></a>${chips}</div>
   </div>`;
@@ -284,8 +287,26 @@ const scriptBlock = () => `<script>
       if(el && el.parentElement!==acts) acts.appendChild(el);
     });
   }
+  // 手机端摊开的搜索框(🔒 #9)。检索不自己实现:把键入转发给 Quartz 的搜索 ——
+  // 索引、中文分词、结果预览全在它手里(verify-c5 就是在校验那个索引含中文)。
+  // 机制:.search-container 加 active 就开浮层;往 .search-bar 塞值并派发 input 即触发检索。
+  // 刻意不走它的 showSearch 入口:那个入口会把焦点抢到 Quartz 自己的输入框,用户得换框继续打字。
+  function wireSearch(){
+    var box=document.querySelector('.pd .mhq'); if(!box||box.__wired) return; box.__wired=1;
+    box.addEventListener('input', function(){
+      var bar=document.querySelector('.search .search-bar');
+      var panel=document.querySelector('.search .search-container');
+      if(!bar||!panel) return;
+      var q=box.value;
+      if(!q.trim()){ panel.classList.remove('active'); bar.value=''; bar.dispatchEvent(new Event('input')); return; }
+      panel.classList.add('active');
+      bar.value=q;
+      bar.dispatchEvent(new Event('input'));
+    });
+  }
   function init(){
     adopt();
+    wireSearch();
     var root=document.querySelector('.pd'); if(!root||root.__epInit) return; root.__epInit=1;
     // 已读压暗(客户端 localStorage;键沿用 pd-read,老已读史不丢)
     var KEY='pd-read', read;

@@ -421,6 +421,46 @@ body[data-slug="index"] {
 
     /* 一级页把入口摊开:搜索 / 最新·最热 / 主题横滑,都不藏进汉堡 */
     .pd-mhome { display: block; padding: 14px 16px 4px; border-bottom: 1px solid var(--B2); }
+    /* 🔒 #9 搜索=摊开的真输入框(设计稿 .mhs input,L439-441)。
+       输入框摊开后顶栏那个搜索图标就是重复入口 → 藏掉(设计稿手机顶栏也没有它);
+       深浅色留着。 */
+    .mhs { position: relative; }
+    .mhs input {
+      width: 100%;
+      height: 44px;
+      font: inherit;
+      font-size: 15px;
+      padding: 0 14px;
+      border: 1px solid var(--B3);
+      border-radius: 10px;
+      outline: 0;
+      background: var(--B1);
+      color: var(--B8);
+    }
+    .mhs input:focus { border-color: var(--pd-accent); background: var(--B0); }
+    .mhs input::placeholder { color: var(--B5); }
+    /* ⚠️ 只藏那个按钮,不能藏整个 .search —— 结果浮层 .search-container 是它的子节点,
+       藏父节点会连浮层一起藏掉(实测:8 条结果在 DOM 里、active 也加上了,屏幕上却什么都没有)。*/
+    .pd-acts .search .search-button { display: none; }
+
+    /* 结果浮层收成「输入框下面的下拉」(设计稿 #mhres 就是这个形态)。实测三处不合用:
+       ① Quartz 自带的输入框在浮层里重复出现(摊开的那个才是主角)→ 藏掉
+       ② 一张结果卡高 537px,一条就占满整屏 → 摘要锁 3 行
+       ③ 浮层默认从 12vh 起、居中 90% 宽 → 挪到摊开输入框正下方 */
+    /* ④ 浮层自带 backdrop-filter: blur(4px) 盖住整屏,会把摊开的输入框一起糊掉 ——
+       用户看不见自己打的字。去掉这层糊,下拉本身是白卡,照样看得清。 */
+    .pd-acts .search .search-container { backdrop-filter: none; }
+    .pd-acts .search .search-container .search-bar { display: none; }
+    .pd-acts .search .search-container .search-space {
+      margin-top: 118px;
+      width: calc(100% - 32px);
+    }
+    .pd-acts .search .result-card .card-description {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 3;
+      overflow: hidden;
+    }
     /* 排序弱于分类(设计稿 L510:实测原来是倒挂的)*/
     .mhv { display: flex; gap: 16px; margin: 12px 2px 0; }
     .mhv a,
