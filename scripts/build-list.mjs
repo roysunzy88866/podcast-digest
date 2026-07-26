@@ -230,9 +230,17 @@ ${scriptBlock()}
   }
 
   // 按日期分组、日期倒序;同日多集按标题兜底(可复现)
+  // 组标兜底:date 缺了就从 id 前缀取,但**必须真长得像日期**才用 —— 否则会把 id 的前
+  // 10 个字符当日期显示出来(实测 `2026-singju-openclaw-80apps` 这类 id 会切出「2026-singj」)。
+  // 今天没露是因为 40 集 meta.date 都在;不钉住就是等着以后出个垃圾组标。
+  const dateKey = (meta) => {
+    if (meta.date) return String(meta.date);
+    const head = String(meta.id ?? "").slice(0, 10);
+    return /^\d{4}-\d{2}-\d{2}$/.test(head) ? head : "日期未知";
+  };
   const byDate = new Map();
   for (const ep of episodes) {
-    const d = ep.meta.date ?? String(ep.meta.id ?? "").slice(0, 10);
+    const d = dateKey(ep.meta);
     if (!byDate.has(d)) byDate.set(d, []);
     byDate.get(d).push(ep);
   }

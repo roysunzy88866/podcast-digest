@@ -287,3 +287,22 @@ describe("C13a · Quartz 骨架摘干净(首页独占版面,但不连坐搜索/�
     expect(scss).toMatch(/body\[data-slug="index"\][\s\S]*\.left\.sidebar,\s*\n?\s*\.right\.sidebar\s*\{\s*display:\s*none/);
   });
 });
+
+describe("C13a · 日期组标兜底不许出垃圾字符串(GLM 20260726-024[2] 蹭到的潜在洞)", () => {
+  it("★★ 缺 date 且 id 前缀不是日期 → 组标是「日期未知」,不是 id 的前 10 个字符", () => {
+    const md = renderList([ep({ meta: { id: "2026-singju-openclaw-80apps", date: undefined } })], {
+      categoriesBySlug: {},
+      hasCover: () => false,
+    });
+    expect(md).toContain('<div class="dateh">日期未知</div>');
+    expect(md).not.toContain("2026-singj<");
+  });
+
+  it("★ 缺 date 但 id 前缀是日期 → 仍用 id 前缀当组标(老行为不变)", () => {
+    const md = renderList([ep({ meta: { id: "2026-07-19-x-netflix", date: undefined } })], {
+      categoriesBySlug: {},
+      hasCover: () => false,
+    });
+    expect(md).toContain('<div class="dateh">2026-07-19</div>');
+  });
+});
