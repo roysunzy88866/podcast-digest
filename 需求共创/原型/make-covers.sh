@@ -9,16 +9,28 @@
 set -uo pipefail
 HERE=$(cd "$(dirname "$0")" && pwd)
 ROOT=$(cd "$HERE/../.." && pwd)
-SRC="$ROOT/data/episodes"
 OUT="$HERE/covers"
 
-[ -d "$SRC" ] || { echo "✗ 找不到 $SRC" >&2; exit 1; }
+# 图源:优先主仓;若封面还没合并进来,退到配图分支的工作区去取。
+# (cover.jpg 不在 .gitignore 里 —— 2026-07-26 时它们只存在于 claude/competent-snyder-f02abf 分支,
+#  主仓 data/episodes/ 下一张都没有。合并之后第一条就能命中。)
+SRC=""
+for cand in "$ROOT/data/episodes" "$ROOT/.claude/worktrees/competent-snyder-f02abf/data/episodes"; do
+  if [ -d "$cand" ] && compgen -G "$cand/*/cover.jpg" >/dev/null 2>&1; then SRC="$cand"; break; fi
+done
+if [ -z "$SRC" ]; then
+  echo "✗ 找不到任何 cover.jpg。图源应在 data/episodes/<id>/cover.jpg" >&2
+  echo "  · 若配图分支还没合并:先合 claude/competent-snyder-f02abf(那 43 张封面在它上面)" >&2
+  echo "  · 若确实没生成过:让流水线跑 scripts/cover.mjs" >&2
+  exit 1
+fi
+echo "· 图源:${SRC#$ROOT/}"
 command -v sips >/dev/null || { echo "✗ 需要 macOS 自带的 sips" >&2; exit 1; }
 
 mkdir -p "$OUT"
 n=0; miss=0
 for f in "$SRC"/*/cover.jpg; do
-  [ -e "$f" ] || { echo "✗ 一张 cover.jpg 都没有 —— 先让流水线跑 scripts/cover.mjs" >&2; exit 1; }
+  [ -e "$f" ] || break                     # glob 没展开就别把字面量当文件(SRC 选取时已用 compgen 保证有图,这里是兜底)
   id=$(basename "$(dirname "$f")")
   if sips -Z 280 "$f" --out "$OUT/$id.jpg" >/dev/null 2>&1; then n=$((n+1)); else miss=$((miss+1)); fi
 done
@@ -27,6 +39,7 @@ echo "✓ 生成 $n 张缩略图 → $OUT$([ "$miss" -gt 0 ] && echo " (失败 $
 # 提醒:原型里哪些集还没有图(卡片会退回主题色块,这是真实情况,不是 bug)
 lack=0
 for p in "$HERE"/ep-*.html; do
+  [ -e "$p" ] || break                     # 目录里没有 ep-*.html 时 glob 不展开,别把字面量当文件数
   id=$(basename "$p" .html); id=${id#ep-}
   [ -f "$OUT/$id.jpg" ] || lack=$((lack+1))
 done
