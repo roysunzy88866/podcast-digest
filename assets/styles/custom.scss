@@ -88,7 +88,15 @@
 /* ══════════ 首页:让 .pd 独占整个内容区 ══════════
    Quartz 的 .left/.right sidebar 与三栏 shell 冲突。图谱整块藏掉(🔒 #14);
    站名藏掉(顶栏已有);搜索/深浅色/阅读模式保留,移到顶栏右侧(🔒 #9/#2)。 */
-body[data-slug="index"] {
+/* 大类页(C13b)与首页共用同一套「让 .pd 独占内容区」的处理。
+   大类页的 slug 是 tags/<大类> —— 它被 tag-page 插件的页型接住,而该页型的
+   TagContent 组件会先渲染页面自身内容、再挂一份它自己的列表 → 那份列表要藏掉。 */
+body[data-slug^="tags/"] {
+  .page-listing { display: none; }
+}
+
+body[data-slug="index"],
+body[data-slug^="tags/"] {
   /* Quartz 的 #quartz-body 是「左栏 / 中 / 右栏」三列具名栅格(quartz/styles/variables.scss
      $desktopGrid)。首页要自己的三栏,所以把框架栅格压成单列、两侧栏整块藏掉。
      ⚠️ 侧栏里的「搜索 / 深浅色 / 阅读模式」不能连坐(🔒 #9 搜索不降级、🔒 #2 亮暗双模式)——
@@ -214,6 +222,86 @@ body[data-slug="index"] {
     margin: 0 auto;
     min-height: 80vh;
   }
+  /* 大类页没有右栏(设计稿 .shell.two:左导航 + 加宽的中栏) */
+  .pd-shell.two { grid-template-columns: 200px minmax(0, 870px); }
+
+  /* ── 大类页页头 + 三轴筛选 + 排序行(设计稿 L148-159 / L385-399)── */
+  .hero {
+    border-bottom: 1px solid var(--B3);
+    padding-bottom: 18px;
+    margin-bottom: 18px;
+  }
+  .hero h1 {
+    font-family: var(--puhui);
+    letter-spacing: 0.2px;
+    margin: 0 0 6px;
+    font-size: 26px;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+  }
+  .hero .dot { width: 11px; height: 11px; border-radius: 50%; background: var(--B5); flex: 0 0 auto; }
+  .hero .cnt { font-size: 13px; color: var(--B6); font-weight: 400; }
+
+  .frow {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 12px;
+  }
+  .frow .k { font-size: 12px; color: var(--B5); width: 100%; margin-bottom: 2px; }
+  .fx {
+    font: inherit;
+    font-size: 12.5px;
+    background: var(--B0);
+    border: 1px solid var(--B3);
+    border-radius: 14px;
+    padding: 3px 11px;
+    color: var(--B7);
+    cursor: pointer;
+  }
+  .fx:hover { border-color: var(--pd-accent); color: var(--pd-accent); }
+  .fx b { font-weight: 600; color: var(--B5); margin-left: 3px; font-size: 11px; }
+  .fx.on {
+    border-color: var(--pd-accent);
+    background: var(--pd-accent-soft);
+    color: var(--pd-accent);
+    font-weight: 600;
+  }
+  .fx.on b { color: var(--pd-accent); }
+  /* 0 条:置灰但**不隐藏** —— 让人看得见「这条路走不通」(设计稿注) */
+  .fx.zero { opacity: 0.38; cursor: default; }
+  .fx.zero:hover { border-color: var(--B3); color: var(--B7); }
+
+  .sortbar {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    font-size: 12.5px;
+    color: var(--B6);
+    border-top: 1px solid var(--B2);
+    margin-top: 14px;
+    padding-top: 12px;
+  }
+  .sortbar .so { color: var(--B6); padding: 0 2px; }
+  .sortbar .so.on { color: var(--B8); font-weight: 600; }
+  .sortbar .so:hover { color: var(--pd-accent); }
+  .sortbar .sep { color: var(--B4); margin: 0 4px; }
+  .sortbar #fstate { color: var(--B6); }
+  .sortbar #fstate b { color: var(--B8); }
+  .sortbar .clr {
+    font: inherit;
+    font-size: 12px;
+    margin-left: 10px;
+    border: 1px solid var(--B3);
+    background: var(--B0);
+    border-radius: 12px;
+    padding: 2px 10px;
+    color: var(--B6);
+    cursor: pointer;
+  }
+  .sortbar .clr:hover { border-color: var(--pd-accent); color: var(--pd-accent); }
   .pd-left { padding: 24px 14px 24px 0; }
   .pd-right { padding: 24px 0 24px 24px; }
   .pd-mid { padding: 24px 32px 60px; min-width: 0; }
@@ -408,7 +496,15 @@ body[data-slug="index"] {
     .pd-shell { grid-template-columns: 164px minmax(0, 520px) 224px; max-width: 960px; }
   }
   @media (max-width: 1023px) {
-    .pd-shell { grid-template-columns: 1fr; max-width: 100%; }
+    .pd-shell,
+    .pd-shell.two { grid-template-columns: 1fr; max-width: 100%; }
+    /* 🔒 手机不显示筛选轴(筛选属「坐下来精读」场景);排序行保留 */
+    .frow { display: none; }
+    .hero { padding-bottom: 12px; margin-bottom: 14px; }
+    .hero h1 { font-size: 21px; gap: 8px; }
+    .hero h1 .dot { width: 9px; height: 9px; }
+    .hero .cnt { font-size: 12px; }
+    .sortbar { margin-top: 0; padding-top: 10px; font-size: 12px; }
     .pd-left,
     .pd-right { display: none; }
     .pd-nav { display: none; }
@@ -509,6 +605,15 @@ body[data-slug="index"] {
 .pd .chip[data-cat="组织与领导力"]  { color: var(--c-组织与领导力);  border-color: var(--c-组织与领导力); }
 .pd .chip[data-cat="创业与行业"]    { color: var(--c-创业与行业);    border-color: var(--c-创业与行业); }
 .pd .chip[data-cat="职业与个人成长"] { color: var(--c-职业与个人成长); border-color: var(--c-职业与个人成长); }
+
+.pd .hero .dot[data-cat="智能体"]            { background: var(--c-智能体); }
+.pd .hero .dot[data-cat="AI 安全"]          { background: var(--c-AI安全); }
+.pd .hero .dot[data-cat="AI 编程"]          { background: var(--c-AI编程); }
+.pd .hero .dot[data-cat="产品方法"]           { background: var(--c-产品方法); }
+.pd .hero .dot[data-cat="增长与销售"]          { background: var(--c-增长与销售); }
+.pd .hero .dot[data-cat="组织与领导力"]         { background: var(--c-组织与领导力); }
+.pd .hero .dot[data-cat="创业与行业"]          { background: var(--c-创业与行业); }
+.pd .hero .dot[data-cat="职业与个人成长"]        { background: var(--c-职业与个人成长); }
 
 .pd .card[data-cat="智能体"]        .th.fb { background: var(--c-智能体); }
 .pd .card[data-cat="AI 安全"]       .th.fb { background: var(--c-AI安全); }

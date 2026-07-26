@@ -25,6 +25,9 @@ import { displayTitle, episodeCategories } from "./render.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
+/** 封面是否真在磁盘上(不信 meta 的声明,理由见 thumb) */
+export const coverOnDisk = (id) => existsSync(join(ROOT, "data/episodes", id, "cover.jpg"));
+
 /** 词表大类(有序,呈现顺序=词表登记顺序) */
 export function taxonomyCategories() {
   const tax = JSON.parse(readFileSync(join(ROOT, "data/tag-taxonomy.json"), "utf8"));
@@ -42,7 +45,7 @@ export function categoriesOf(episode) {
   return episodeCategories(episode.meta, episode.entities).filter((c) => c !== "未分类");
 }
 
-const esc = (s) =>
+export const esc = (s) =>
   String(s ?? "")
     .replace(/&/g, "&amp;")
     .replace(/</g, "&lt;")
@@ -82,7 +85,12 @@ function thumb(meta, primaryCat, hasCover) {
   return `<div class="th fb"><span>${esc(primaryCat ?? "")}</span></div>`;
 }
 
-function card(episode, cats, hasCover) {
+/**
+ * 一张集卡。首页与大类页共用同一套标记 —— 设计稿里 `.card` 与 `.list .row` 两个类名
+ * 长得一模一样(手搓原型的产物),复用 `.card` 出的画面相同,但只需要一套 CSS。
+ * @param extraAttrs 额外的 data-*(大类页的三轴筛选靠它们过滤,见 build-tag-pages.mjs)
+ */
+export function card(episode, cats, hasCover, extraAttrs = "") {
   const { meta, digest } = episode;
   const quote = digest?.quotes?.[0]?.zh?.trim();
   const primary = cats[0];
@@ -93,7 +101,7 @@ function card(episode, cats, hasCover) {
     : "";
 
   return [
-    `<div class="card" data-slug="${esc(meta.id)}"${primary ? ` data-cat="${esc(primary)}"` : ""}>`,
+    `<div class="card" data-slug="${esc(meta.id)}"${primary ? ` data-cat="${esc(primary)}"` : ""}${extraAttrs}>`,
     `<div class="tx">`,
     `<div class="t"><a class="internal" href="./${esc(meta.id)}">${esc(displayTitle(meta))}</a></div>`,
     quote ? `<div class="q">${esc(quote)}</div>` : "",
@@ -107,8 +115,12 @@ function card(episode, cats, hasCover) {
     .join("");
 }
 
-/** 左栏:主题导航(设计稿是主题名 + 条数)。条数只数真会渲染的集。 */
-function leftRail(episodes, catsOf, vocabulary) {
+/**
+ * 左栏:主题导航(设计稿是主题名 + 条数)。条数只数真会渲染的集。
+ * 首页与大类页共用(设计稿 .shell / .shell.two 都带左栏)。
+ * @param active 当前所在大类;首页传 null → 高亮「全部」
+ */
+export function leftRail(episodes, catsOf, vocabulary, active = null) {
   const n = {};
   for (const c of vocabulary) n[c] = 0;
   for (const ep of episodes) for (const c of catsOf(ep)) if (c in n) n[c]++;
@@ -116,12 +128,12 @@ function leftRail(episodes, catsOf, vocabulary) {
     .sort(byCountThenName)
     .map(
       ([c, k]) =>
-        `<a class="cl internal" href="./tags/${encodeURIComponent(c)}"><span>${esc(c)}</span><i>${k}</i></a>`,
+        `<a class="cl${c === active ? " on" : ""} internal" href="${active ? "." : "./tags"}/${encodeURIComponent(c)}"><span>${esc(c)}</span><i>${k}</i></a>`,
     )
     .join("\n    ");
   return `<div class="pd-left">
     <div class="sh">全部主题</div>
-    <a class="cl on" href="./"><span>全部</span><i>${episodes.length}</i></a>
+    <a class="cl${active ? "" : " on"}" href="${active ? ".." : "."}/"><span>全部</span><i>${episodes.length}</i></a>
     ${rows}
     <div class="about"><b>关于本站</b>每周把几集英文播客变成能读的中文精华,每句都能回到原话。</div>
   </div>`;
@@ -220,7 +232,7 @@ export function renderList(episodes, opts = {}) {
     : categoriesOf;
   const vocabulary = taxonomyCategories();
   // 默认以磁盘为准;测试可注入
-  const hasCover = opts.hasCover ?? ((id) => existsSync(join(ROOT, "data/episodes", id, "cover.jpg")));
+  const hasCover = opts.hasCover ?? coverOnDisk;
 
   if (!episodes.length) {
     return `${fm}
@@ -275,7 +287,14 @@ ${scriptBlock()}
 `;
 }
 
-const scriptBlock = () => `<script>
+/**
+ * ⚠️ 内联脚本里**一个空行都不能有**:Markdown 的原样 HTML 块遇空行即结束,
+ * 之后 4 空格缩进的行会被当成缩进代码块 → <script> 里的 JS 不再是脚本内容,
+ * 整段静默失效(大类页实测踩中,GLM 20260726-024[1] 的机制)。这里主动焊死。
+ */
+const squashBlankLines = (s) => s.replace(/\n\s*\n/g, "\n");
+
+const scriptBlock = () => squashBlankLines(`<script>
 (function(){
   // 把 Quartz 侧栏里的搜索/深浅色/阅读模式搬进顶栏,再由 custom.scss 藏掉空壳侧栏。
   // 搬节点而不是重写一套:这三个组件的行为(搜索索引、主题记忆)全在 Quartz 自己手里,
@@ -327,7 +346,7 @@ const scriptBlock = () => `<script>
   document.addEventListener('nav', init);
   init();
 })();
-</script>`;
+</script>`);
 
 // ── CLI:node scripts/build-list.mjs [--out <path>] ──(默认写 site/content/index.md)──
 const isMain = (() => {

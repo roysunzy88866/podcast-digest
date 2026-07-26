@@ -378,3 +378,11 @@ describe("C13a · 浮层被点关后,再点输入框要能把结果调回来", (
     expect((md.match(/function forward\(\)/g) || []).length).toBe(1);
   });
 });
+
+describe("C13a · 首页内联脚本也不许含空行(同一个 Markdown 陷阱)", () => {
+  it("★★★ 首页脚本区零空行(现在是侥幸没有,加测试焊死)", () => {
+    const md = renderList([ep()], opts);
+    const script = md.slice(md.indexOf("<script>"));
+    expect(script).not.toMatch(/\n\s*\n/);
+  });
+});

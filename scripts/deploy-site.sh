@@ -38,6 +38,7 @@ if ls ../samples/entities/*.md >/dev/null 2>&1; then
   mkdir -p content/entities && cp ../samples/entities/*.md content/entities/
 fi
 node ../scripts/build-list.mjs
+node ../scripts/build-tag-pages.mjs   # C13b 大类页(三轴筛选)
 node ./quartz/bootstrap-cli.mjs build
 # C13a 硬断言 [standard-change: 用户 2026-07-26 明文授权]:首页卡片流真进产物。
 # 原为「Bases 卡片真渲染」(插件 --latest 浮动、类名漂移会静默毁首页;GLM 20260724-014[2])——
