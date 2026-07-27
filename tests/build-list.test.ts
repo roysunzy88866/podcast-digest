@@ -67,9 +67,12 @@ describe("C13a 场景1 · 卡片承载判断所需的信息", () => {
     expect(md).not.toContain("bases-");
   });
 
+  // [standard-change: 用户 2026-07-27 明文「把今天的设计稿写成代码」] 标题链接现在还带
+  // target=_blank / data-router-ignore(C13f「点一条内容开新标签页」)→ 断言放宽到「有 internal
+  // 且 href 对」,不再钉死属性顺序;新标签页那几个属性由 C13f 自己的用例守。
   it("★ 标题上卡,且是能点进集页的站内链接(Quartz SPA 认 internal)", () => {
     expect(card).toContain("Netflix 产品负责人谈 AI 时代");
-    expect(card).toMatch(/<a class="[^"]*internal[^"]*" href="\.\/2026-07-19-x-netflix"/);
+    expect(card).toMatch(/<a class="[^"]*internal[^"]*"[^>]*href="\.\/2026-07-19-x-netflix"/);
   });
 
   it("★ 一句金句原话上卡(取 digest.quotes[0].zh)", () => {
@@ -128,17 +131,23 @@ describe("C13a 场景2 · 金句与嘉宾的呈现规格", () => {
     expect(card).not.toContain("Lenny's Podcast");
   });
 
-  it("★★ 标题锁 2 行、金句锁 2 行(同宽下等高的实现前提;设计稿 L182/L183)", () => {
-    expect((scss.match(/-webkit-line-clamp:\s*2/g) || []).length).toBeGreaterThanOrEqual(2);
-    expect(scss).toMatch(/min-height:\s*2\.9em/); // 标题 2 行
-    expect(scss).toMatch(/min-height:\s*3\.32em/); // 金句 2 行
+  // [standard-change: 用户 2026-07-27 设计稿第十批 #1/#2] 原口径是「标题/金句各锁死 2 行」
+  // (靠 min-height 撑出等高)。用户实际看到 1 行的稿子下面白空一截,明说「空隙应该是自适应的」
+  // → 新口径 = 按实际行数长、只在超上限时截断(标题 ≤2、金句 ≤3),等高改由 .card 的
+  // min-height 保证(缩略图那侧不塌)。等高断言移交 C13f 的用例。
+  it("★★ 标题 ≤2 行、金句 ≤3 行,不再靠锁死高度撑等高(设计稿第十批 #1/#2)", () => {
+    expect((scss.match(/-webkit-line-clamp:\s*2/g) || []).length).toBeGreaterThanOrEqual(1);
+    expect((scss.match(/-webkit-line-clamp:\s*3/g) || []).length).toBeGreaterThanOrEqual(1);
+    expect(scss).toMatch(/\.card \{[\s\S]*?min-height:\s*calc\(105px \+ 80px\)/);
   });
 
-  it("★★ 卡片关键尺寸照设计稿抄,没被我改数(140×105 图 / gap 48 / padding 40)", () => {
+  // [standard-change: 用户 2026-07-27 设计稿第十一批 #1] padding 由 `40px 0` 变 `40px 20px`
+  // (hover 别贴脸,左右各留呼吸再用负 margin 抵回)→ 上下 40 不变,断言改看上下值。
+  it("★★ 卡片关键尺寸照设计稿抄,没被我改数(140×105 图 / gap 48 / 上下 padding 40)", () => {
     expect(scss).toMatch(/width:\s*140px/);
     expect(scss).toMatch(/height:\s*105px/);
     expect(scss).toMatch(/gap:\s*48px/);
-    expect(scss).toMatch(/padding:\s*40px 0/);
+    expect(scss).toMatch(/\.card \{[\s\S]*?padding:\s*40px 20px/);
   });
 
   it("★ 大类色不写内联 hex(暗色主题下才不塌:颜色走 custom.scss 的 --c-* 变量)", () => {
@@ -271,14 +280,17 @@ describe("C13a · 封面以「文件真在」为准,不信 meta 的声明", () =
 describe("C13a · Quartz 骨架摘干净(首页独占版面,但不连坐搜索/深浅色)", () => {
   const md = renderList([ep()], opts);
 
-  it("★★ 顶栏留了 .pd-acts 空槽,脚本把搜索/深浅色/阅读模式搬进来(🔒 #9/#2 不许降级)", () => {
+  // [standard-change: 用户 2026-07-27 设计稿第九批 #3] 深浅色从顶栏挪进左栏 →
+  // 顶栏槽只剩搜索与阅读模式,深浅色搬进 .pd-themesw。**搬节点不重写**这条没变(🔒 #9/#2)。
+  it("★★ 顶栏留了 .pd-acts 空槽,脚本把搜索/阅读模式搬进来(🔒 #9/#2 不许降级)", () => {
     expect(md).toContain('<div class="pd-acts"></div>');
-    expect(md).toContain("'.search','.darkmode','.readermode'");
-    expect(md).toMatch(/acts\.appendChild\(el\)/);
+    expect(md).toMatch(/\['\.search','\.readermode'\]/);
+    expect(md).toContain("grab('.darkmode', sw)");
+    expect(md).toMatch(/host\.appendChild\(el\)/);
   });
 
   it("★★ 搬运是幂等的(SPA 每次 nav 都会重跑,不能把节点搬丢或搬重)", () => {
-    expect(md).toMatch(/el\.parentElement!==acts/);
+    expect(md).toMatch(/el\.parentElement!==host/);
     expect(md).toContain("document.addEventListener('nav', init)");
   });
 
@@ -384,5 +396,240 @@ describe("C13a · 首页内联脚本也不许含空行(同一个 Markdown 陷阱
     const md = renderList([ep()], opts);
     const script = md.slice(md.indexOf("<script>"));
     expect(script).not.toMatch(/\n\s*\n/);
+  });
+});
+
+// ══════════════════════════════════════════════════════════════════════════
+// C13f · PC 端第九–十三批批注落地(2026-07-27)
+// Gherkin:docs/user-stories.md「C13f」13 个场景。设计稿真相源 = 设计稿/style.css
+// 第九–十三批段落。二次确认豁免见 drift #36(用户明示「一直执行」)。
+// ══════════════════════════════════════════════════════════════════════════
+
+describe("C13f · 顶栏与两侧栏对齐,且只剩一条必要的线", () => {
+  const md = renderList([ep()], opts);
+
+  it("★★ 顶栏与三栏共用同一套宽度变量(不再各写各的 max-width,否则对不齐)", () => {
+    // 变量必须挂 :root —— 写在 .pd 里会把详情页 body 上那套窄值覆盖掉(实测差 198px)
+    expect(scss).toMatch(/:root \{\s*--pd-shellw:\s*1180px;\s*--pd-railw:\s*290px;/);
+    // 顶栏内容宽 = shell 宽,左右内边距归零 → 两者边缘同一条竖线
+    expect(scss).toMatch(/\.pd-topin \{[\s\S]*?max-width:\s*var\(--pd-shellw\)/);
+    expect(scss).toMatch(/\.pd-topin \{[\s\S]*?padding:\s*12px 0/);
+  });
+
+  it("★★ 顶栏底下没有通栏分割线(第十一批 #3:顶上三条线太密)", () => {
+    expect(scss).toMatch(/\.pd-top \{[\s\S]*?border-bottom:\s*0/);
+  });
+
+  it("★★ 站名前面有 logo 位,缺图不裂(onerror 摘掉 img → 退回引号标记)", () => {
+    expect(md).toContain('<span class="mk">');
+    expect(md).toContain('src="/logos/site.png"');
+    // 兜底不走行内 onerror(SPA 换页会冲掉那一轮结果),走共用脚本、每次 nav 重跑
+    expect(md).toContain("querySelectorAll('.pd .lg img, .pd .mk img')");
+    expect(md).toContain("im.complete && im.naturalWidth===0");
+    expect(scss).toMatch(/\.mk:has\(img\):before \{\s*content:\s*none/); // 有图就撤掉兜底引号
+  });
+
+  it("★★ 站名是衬线字(与正文黑体拉开层级,第十一批 #2)", () => {
+    const b = scss.slice(scss.indexOf(".pd-top .b {"));
+    expect(b.slice(0, 400)).toMatch(/Songti SC|serif/);
+  });
+});
+
+describe("C13f · 搜索是长条框且跟右栏对齐(外观改,搜索本身不降级)", () => {
+  it("★★ 长条框宽度 = 右栏内容宽(--pd-railw 减去右栏左内边距 24px)", () => {
+    expect(scss).toMatch(/\.pd-acts \.search-button \{[\s\S]*?width:\s*calc\(var\(--pd-railw\) - var\(--pd-railpad\)\)/);
+  });
+
+  it("★★★ 不许自建搜索:仍然是搬 Quartz 的 .search 节点(🔒 #9 + C13a 定的手法)", () => {
+    const md = renderList([ep()], opts);
+    expect(md).toContain("'.search'");
+    expect(md).not.toContain("search-index.json"); // 原型那套自建索引不许混进来
+  });
+});
+
+describe("C13f · 中栏拉宽,两侧栏往两边推(第九批 #1)", () => {
+  it("★★ 桌面 210 / 680 / 290,整体 1180", () => {
+    expect(scss).toMatch(/\.pd-shell \{[\s\S]*?grid-template-columns:\s*210px minmax\(0, 680px\) 290px/);
+    expect(scss).toMatch(/\.pd-shell \{[\s\S]*?max-width:\s*var\(--pd-shellw\)/);
+  });
+
+  it("★★ 窄电脑(1024–1279)172 / 556 / 240,整体 968 —— 968 < 1024,不会顶出横向滚动", () => {
+    expect(scss).toMatch(/@media \(max-width: 1279px\) \{[\s\S]*?grid-template-columns:\s*172px minmax\(0, 556px\) 240px/);
+    expect(scss).toMatch(/@media \(max-width: 1279px\) \{\s*:root \{ --pd-shellw: 968px/);
+  });
+});
+
+describe("C13f · 日期分组标题说人话(今天 / 昨天 / 日期)", () => {
+  const md = renderList([ep()], opts);
+
+  it("★★ 构建期仍写死日期原文(它是可复现产物),今天/昨天在读者浏览器里换", () => {
+    expect(md).toContain('<div class="dateh">2026-07-19</div>');
+    expect(md).toContain("'今天'");
+    expect(md).toContain("'昨天'");
+  });
+
+  it("★★★ 只认整日期,不许把「2026-07-1」这种前缀也换掉(比较用完整字符串)", () => {
+    expect(md).toMatch(/querySelectorAll\('\.pd \.dateh'\)/);
+    expect(md).toMatch(/textContent\.trim\(\)/);
+    expect(md).toContain("if(map[t])"); // 整串命中才换,不做 startsWith
+  });
+});
+
+describe("C13f · 卡片文字按实际行数长(第十批 #1/#2)", () => {
+  it("★★★ 标题与金句都不再锁死最小高度(1 行的稿子下面不许留空一截)", () => {
+    const t = scss.slice(scss.indexOf(".card .t {"), scss.indexOf(".card .t a"));
+    const q = scss.slice(scss.indexOf(".card .q {"), scss.indexOf(".card .q:before"));
+    expect(t).not.toMatch(/min-height/);
+    expect(q).not.toMatch(/min-height/);
+  });
+
+  it("★★ 标题 ≤2 行、金句 ≤3 行,超出才截断", () => {
+    const t = scss.slice(scss.indexOf(".card .t {"), scss.indexOf(".card .t a"));
+    const q = scss.slice(scss.indexOf(".card .q {"), scss.indexOf(".card .q:before"));
+    expect(t).toMatch(/-webkit-line-clamp:\s*2/);
+    expect(q).toMatch(/-webkit-line-clamp:\s*3/);
+  });
+
+  it("★★ 卡片自己仍有最小高度(缩略图那侧不塌)", () => {
+    expect(scss).toMatch(/\.card \{[\s\S]*?min-height:\s*calc\(105px \+ 80px\)/);
+  });
+});
+
+describe("C13f · hover 不贴脸(第十一批 #1)", () => {
+  it("★★★ 左右各 20px 呼吸,用负 margin 抵回去 → 版面位置一个像素不动", () => {
+    const c = scss.slice(scss.indexOf(".card {"), scss.indexOf(".grid > .card:last-child"));
+    expect(c).toMatch(/padding:\s*40px 20px/);
+    expect(c).toMatch(/margin:\s*0 -20px/);
+  });
+
+  it("★★ hover 换成柔和底色,不再是压在文字边上的描边+投影", () => {
+    const h = scss.slice(scss.indexOf(".card:hover {"), scss.indexOf(".card:hover .t"));
+    expect(h).toMatch(/background:\s*var\(--B1\)/);
+    expect(h).not.toMatch(/box-shadow:\s*0 2px 10px/);
+  });
+
+  it("★★★ 窄屏收到 12px —— 手机端 .pd-mid 左右内边距只有 16px,-20px 会顶出屏幕", () => {
+    expect(scss).toMatch(/@media \(max-width: 1023px\) \{[\s\S]*?\.card \{[\s\S]*?margin:\s*0 -12px/);
+  });
+});
+
+describe("C13f · 署名行里公司的份量略高于人名(第十二批 #2)", () => {
+  it("★★ 人名常规字重中灰、公司职位更深更重(原来正好反着)", () => {
+    const w = scss.slice(scss.indexOf(".card .who {"), scss.indexOf(".card .tags {"));
+    expect(w).toMatch(/color:\s*var\(--B6\)/);
+    expect(w).toMatch(/\.role \{[\s\S]*?color:\s*var\(--B7\)/);
+    expect(w).toMatch(/\.role \{[\s\S]*?font-weight:\s*500/);
+  });
+});
+
+describe("C13f · 右栏按公司是带 logo 的卡片(第十批 #4)", () => {
+  const withCo = ep({
+    entities: { entities: [{ type: "company", file: "Anthropic", name: "Anthropic" }] },
+  });
+  // 「≥3 集」是上线口径 → 造 3 集同公司才会出现在按公司里
+  const three = [0, 1, 2].map((i) =>
+    ep({
+      meta: { ...withCo.meta, id: `2026-07-1${i}-x`, date: `2026-07-1${i}` },
+      entities: withCo.entities,
+    }),
+  );
+  const md = renderList(three, {
+    categoriesBySlug: Object.fromEntries(three.map((e) => [e.meta.id, ["组织与领导力"]])),
+    hasCover: () => true,
+  });
+
+  it("★★ 每一条是卡片:logo 位 + 公司名 + 集数", () => {
+    expect(md).toMatch(/<a class="cc[^"]*"[^>]*>/);
+    expect(md).toContain('class="lg"');
+    expect(md).toContain('class="nm"');
+    expect(md).toContain('class="ct"');
+  });
+
+  it("★★★ 有 logo 用图、没有退回首字母,不出裂图(用户要手动喂图,缺是常态)", () => {
+    expect(md).toContain('src="/logos/anthropic.png"');
+    expect(md).toContain('data-n="A"'); // 首字母底板一直画着,图失败就摘掉 <img> 露出它
+    expect(md).toContain("im.addEventListener('error', kill, {once:true})");
+    expect(md).not.toContain('loading="lazy"'); // 28px 的小图懒加载只会拖慢兜底出现
+    expect(scss).toMatch(/\.cc \.lg:before \{\s*content:\s*attr\(data-n\)/);
+  });
+
+  it("★★ 右栏不再有「随便看看」这一块(第十批 #5)", () => {
+    expect(md).not.toContain("随便看看");
+    expect(md).not.toContain("随便看一集");
+  });
+});
+
+describe("C13f · 右栏跟着页面一起滚,左栏仍吸顶(第十批 #3)", () => {
+  it("★★ 右栏取消吸顶,连带取消「最高一屏 + 内部滚动」(那是为吸顶服务的)", () => {
+    // .pd-right 出现三次(padding / 行为 / 手机隐藏),要看的是「行为」那一块
+    expect(scss).toMatch(/\.pd-right \{\s*position:\s*static;\s*max-height:\s*none;\s*overflow-y:\s*visible/);
+  });
+
+  it("★★ 左栏仍是 sticky(上一轮批注定的,本片不动)", () => {
+    expect(scss).toMatch(/\.pd-left \{[\s\S]*?position:\s*sticky/);
+  });
+});
+
+describe("C13f · 深浅色开关从顶栏挪进左栏(第九批 #3)", () => {
+  const md = renderList([ep()], opts);
+
+  it("★★★ 深浅色搬进左栏、坐在「关于本站」上面;搜索/阅读模式仍留顶栏", () => {
+    const left = md.slice(md.indexOf('class="pd-left"'), md.indexOf('class="pd-mid"'));
+    expect(left.indexOf('class="pd-themesw"')).toBeGreaterThan(-1);
+    expect(left.indexOf('class="pd-themesw"')).toBeLessThan(left.indexOf('class="about"'));
+    expect(md).toContain("grab('.darkmode', sw)");
+    expect(md).toMatch(/\['\.search','\.readermode'\]/);
+    // 搬节点不重写:🔒 #2 亮暗双模式的行为在 Quartz 手里
+    expect(md).not.toMatch(/localStorage\.setItem\('theme'/);
+  });
+
+  it("★★ 搬运幂等(SPA 每次 nav 都重跑,不能搬丢或搬重)", () => {
+    expect(md).toMatch(/parentElement!==/);
+  });
+
+  it("★★ 左栏那一行有文字标签「深色模式」,不是光秃秃一个图标", () => {
+    expect(scss).toMatch(/\.pd-themesw/);
+  });
+});
+
+describe("C13f · 点一条内容开新标签页", () => {
+  const md = renderList([ep()], opts);
+
+  it("★★★ 单集链接带 target=_blank + data-router-ignore —— 只写 target 会被 Quartz SPA 拦下", () => {
+    // spa.inline.ts 的 target=_blank 判定只看事件目标本身,点到 <a> 里的子元素就漏;
+    // data-router-ignore 查的是 closest('a').dataset,任何子元素点下去都可靠。
+    const card = cardOf(md, "2026-07-19-x-netflix");
+    expect(card).toMatch(/<a[^>]*target="_blank"[^>]*>/);
+    expect(card).toMatch(/data-router-ignore/);
+    expect(card).toMatch(/rel="noopener"/);
+  });
+
+  it("★★ 左右栏的主题 / 公司 / 播客导航不加,仍在当前窗口跳", () => {
+    const left = md.slice(md.indexOf('class="pd-left"'), md.indexOf('class="pd-mid"'));
+    expect(left).not.toContain("_blank");
+  });
+});
+
+describe("C13f · 搜索框必须贴顶栏最右(否则跟右栏对不齐)", () => {
+  it("★★★ 用 order 把 .search 排到 .pd-acts 最后 —— 阅读模式图标在它后面会把它左推 28px", () => {
+    expect(scss).toMatch(/\.pd-acts \.search \{[^}]*order:\s*2/);
+    expect(scss).toMatch(/\.pd-acts \.search \{[^}]*margin-left:\s*auto/);
+  });
+});
+
+describe("C13f · 站名 logo 不许被 flex 算成宽度 0", () => {
+  it("★★★ .mk:has(img) img 的高度写死像素,不用 100%(百分比会绕成循环,实测宽度塌成 0)", () => {
+    const r = scss.slice(scss.indexOf(".mk:has(img) img"));
+    expect(r.slice(0, 200)).toMatch(/height:\s*28px/);
+    expect(r.slice(0, 200)).not.toMatch(/height:\s*100%/);
+  });
+});
+
+describe("C13f · 深色模式那一行:图标与文字不许重叠", () => {
+  it("★★★ 不用 flex 排 —— Quartz 的两个图标是绝对定位的,flex 排不到,文字会压在图标上", () => {
+    const r = scss.slice(scss.indexOf(".pd-themesw .darkmode {"));
+    expect(r.slice(0, 420)).toMatch(/position:\s*relative/);
+    expect(r.slice(0, 420)).not.toMatch(/display:\s*flex/);
+    expect(r.slice(0, 420)).toMatch(/padding:[^;]*40px/); // 左边给图标让位
   });
 });

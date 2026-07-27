@@ -1,5 +1,18 @@
 @use "./variables.scss" as *;
 
+/* ══ C13f:版面宽度的唯一出处 ══
+   顶栏(.pd-topin)与栏栅格共用同一套值,顶栏里的东西才能跟栏对齐。
+   ⚠️ 必须挂在 :root —— 写在 .pd 里的话,详情页在 body 上设的那套窄值会被 .pd 就地
+   覆盖回首页那套(实测顶栏 1180 / 正文 982,差 198px)。详情页的覆盖见文末 body:has(.pd-play)。 */
+:root {
+  --pd-shellw: 1180px;
+  --pd-railw: 290px;
+  --pd-railpad: 24px;   /* 右栏内容相对栏左边缘的缩进;顶栏搜索框按它算宽度才能对齐 */
+}
+@media (max-width: 1279px) {
+  :root { --pd-shellw: 968px; --pd-railw: 240px; }
+}
+
 /* ══════════════════════════════════════════════════════════════════════
    C13a 骨架换血 · 首页照原型设计稿移植(2026-07-26 用户 🔒 拍板)
    设计稿 = `需求共创/原型/style.css`(577 行)+ `需求共创/原型/index.html`。
@@ -136,26 +149,66 @@ body[data-slug^="tags/"] {
   a.internal { color: inherit; text-decoration: none !important; background: none; }
 
   /* ── 顶栏(第八批 #1:不吸顶,跟着页面走)── */
+  /* C13f #顶栏:第十一批 #3「顶上三条线太密」→ 砍掉最重的那条通栏分割线。
+     顶栏本来就不吸顶(第八批 #1),靠留白分隔;留下的「最新」下划线与日期线各有职责。 */
   .pd-top {
-    border-bottom: 1px solid var(--B3);
+    border-bottom: 0;
     background: var(--B0);
     position: static;
   }
+  /* C13f #第九批 #1/#2:顶栏内容与三栏共用同一套宽度 → 顶栏里的东西才能跟栏对齐。
+     左右内边距归零(宽度变量已是内容宽),窄屏另有 16px 的规则兜住。 */
   .pd-topin {
-    max-width: 1200px;
+    max-width: var(--pd-shellw);
     margin: 0 auto;
     display: flex;
     align-items: center;
-    padding: 12px 24px;
+    padding: 12px 0;
   }
+  /* C13f #第十一批 #2:站名换衬线 —— 全站正文是黑体,站名换宋体立刻拉开层级。
+     不用额外字体文件:macOS/iOS 走 Songti SC、Windows 走宋体,都自带。 */
   .pd-top .b {
-    font-family: var(--puhui);
-    letter-spacing: 0.2px;
-    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-family: "Songti SC", "Source Han Serif SC", "Noto Serif CJK SC", STSong, SimSun, Georgia, serif;
+    letter-spacing: 2px;
+    font-size: 20px;
     font-weight: 600;
     color: var(--B8);
     white-space: nowrap;
   }
+  /* 站名前的 logo 位。放了 assets/logos/site.png 就显示图(横版字标按高度等比缩放);
+     **没有文件时退回红底白引号**,不裂图 —— 引号是本站母题(每句都能回到原话)。 */
+  .mk {
+    position: relative;
+    flex: 0 0 auto;
+    width: 26px;
+    height: 26px;
+    border-radius: 7px;
+    background: var(--pd-accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  .mk:before {
+    content: "\201D";
+    font-family: Georgia, "Songti SC", serif;
+    font-size: 22px;
+    line-height: 1;
+    color: #fff;
+    transform: translateY(3px);
+  }
+  .mk img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+  /* 图真加载出来了 → 兜底引号退场(不然透明底 PNG 会透出来叠在一起);
+     容器也让位:去掉红底圆角裁切,按高度等比缩放、宽度自适应(SOLO 是横版字标)。 */
+  .mk:has(img):before { content: none; }
+  .mk:has(img) { width: auto; height: 28px; background: none; border-radius: 0; overflow: visible; }
+  /* ⚠️ 高度必须写死像素、不能用 100%:.mk 是 width:auto 的 flex 容器,
+     图用百分比高度时「容器宽←内容宽←图高←容器高」绕成一圈,Chrome 直接判宽度 0
+     (实测 logo 整个不显示)。写死 28px 后按原始比例算出宽度。 */
+  .mk:has(img) img { position: static; flex: 0 0 auto; width: auto; height: 28px; object-fit: contain; }
   /* 顶栏当前项:层级纠偏后是 1px 浅线,不是 2px 暖红(设计稿 L527) */
   .pd-nav {
     display: flex;
@@ -200,30 +253,46 @@ body[data-slug^="tags/"] {
     padding: 0;
     flex: 0 0 auto;
   }
+  /* C13f #第九批 #2:搜索从小图标变长条框,右对齐,左边缘 = 右栏「按公司」那条竖线
+     (宽度 = 右栏列宽 − 右栏左内边距 24px)。
+     ⚠️ 只改外观与位置:点开的仍是 Quartz 自己的搜索浮层(🔒 #9 中文索引不许降级、
+     C13a 定的「搬节点不重写一套」)。设计稿里那个就地下拉是原型专属,不移植。 */
+  /* 搜索框必须贴着顶栏最右边(左边缘才会落在右栏那条竖线上)。
+     阅读模式那个图标是后搬进来的兄弟节点 —— 用 order 把搜索排到最后,
+     这样不管节点是按什么顺序搬进来的都对得齐(实测不加会左移 28px = 图标 20 + 间距 8)。 */
+  .pd-acts .search { order: 2; margin-left: auto; }
   .pd-acts .search-button {
+    width: calc(var(--pd-railw) - var(--pd-railpad));
+    height: 34px;
+    justify-content: flex-start;
+    gap: 7px;
     background: var(--B1);
     border: 1px solid var(--B3);
     border-radius: 8px;
-    padding: 5px 12px;
+    padding: 0 10px;
     font-size: 13px;
-    color: var(--B6);
+    color: var(--B5);
   }
-  .pd-acts .search-button:hover { border-color: var(--pd-accent); color: var(--pd-accent); }
+  .pd-acts .search-button:hover { border-color: var(--B4); background: var(--B0); }
+  .pd-acts .search-button p { margin: 0; }
   .pd-acts svg { color: var(--B6); }
   .pd-acts svg:hover { color: var(--B8); }
 
-  /* ── 三栏(🔒 #13):200 / 588 / 282,居中 1200 ── */
+  /* ── 三栏(🔒 #13)── C13f 第九批 #1:两侧栏往两边推,中栏 588 → 680。
+     max-width 与三列之和取齐(210+680+290=1180)→ shell 的左右边缘 = 顶栏边缘,
+     顶栏里的东西(站名 / 搜索框)才能跟栏对上。窄电脑档 172+556+240=968 < 1024,
+     不会顶出横向滚动条。 */
   .pd-shell {
     display: grid;
-    grid-template-columns: 200px minmax(0, 588px) 282px;
+    grid-template-columns: 210px minmax(0, 680px) 290px;
     justify-content: center;
     gap: 0;
-    max-width: 1200px;
+    max-width: var(--pd-shellw);
     margin: 0 auto;
     min-height: 80vh;
   }
   /* 大类页没有右栏(设计稿 .shell.two:左导航 + 加宽的中栏) */
-  .pd-shell.two { grid-template-columns: 200px minmax(0, 870px); }
+  .pd-shell.two { grid-template-columns: 210px minmax(0, 970px); }
 
   /* ── 大类页页头 + 三轴筛选 + 排序行(设计稿 L148-159 / L385-399)── */
   .hero {
@@ -306,9 +375,8 @@ body[data-slug^="tags/"] {
   .pd-right { padding: 24px 0 24px 24px; }
   .pd-mid { padding: 24px 32px 60px; min-width: 0; }
 
-  /* 用户批注 #1/#2:左右两栏固定,不随中栏滚动 */
-  .pd-left,
-  .pd-right {
+  /* 用户批注 #1/#2:左栏固定,不随中栏滚动 */
+  .pd-left {
     position: sticky;
     top: 8px;
     align-self: start;
@@ -316,8 +384,15 @@ body[data-slug^="tags/"] {
     overflow-y: auto;
     scrollbar-width: thin;
   }
-  .pd-left::-webkit-scrollbar,
-  .pd-right::-webkit-scrollbar { width: 0; }
+  .pd-left::-webkit-scrollbar { width: 0; }
+  /* C13f 第十批 #3:右栏改成跟页面一起滚(用户明选)。
+     「最高一屏 + 内部滚动」是为吸顶服务的,不吸顶了就该整栏自然长 → 一并撤掉。 */
+  .pd-right {
+    position: static;
+    max-height: none;
+    overflow-y: visible;
+  }
+
 
   .sh {
     font-family: var(--puhui);
@@ -360,6 +435,53 @@ body[data-slug^="tags/"] {
   .rr span:last-child { color: var(--B5); font-size: 11.5px; }
   .rr:hover { color: var(--pd-accent); }
   .rr.more2 span:first-child { color: var(--B5); font-size: 12px; }
+  /* C13f 第十批 #4:「按公司」一条 = 一张卡(logo 位 / 公司名 / 集数)。
+     logo 是用户手喂的 assets/logos/<公司名小写>.png → **缺是常态**:底板永远先画首字母,
+     图加载失败就把 <img> 摘掉、露出底板(build-list 的 onerror),绝不留裂图。 */
+  .cc {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 10px;
+    margin-bottom: 6px;
+    border: 1px solid var(--B2);
+    border-radius: 9px;
+    background: var(--B0);
+  }
+  .cc:hover { border-color: var(--B3); background: var(--B1); }
+  .cc .lg {
+    position: relative;
+    flex: 0 0 auto;
+    width: 28px;
+    height: 28px;
+    border-radius: 7px;
+    background: var(--B1);
+    border: 1px solid var(--B2);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .cc .lg:before {
+    content: attr(data-n);
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--B5);
+    line-height: 1;
+  }
+  .cc .lg img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; background: #fff; }
+  .cc .nm {
+    flex: 1;
+    min-width: 0;
+    font-size: 13.5px;
+    color: var(--B7);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .cc:hover .nm { color: var(--pd-accent); }
+  .cc .ct { flex: 0 0 auto; font-size: 11.5px; color: var(--B5); }
+  .blk .rr.more2 { padding-top: 8px; }
 
   /* ── 日期分组(🔒 #11)── */
   .dateh {
@@ -378,19 +500,23 @@ body[data-slug^="tags/"] {
 
   /* ── 卡片 ── */
   .grid { display: grid; grid-template-columns: 1fr; gap: 0; align-items: stretch; }
+  /* C13f 第十一批 #1:hover 别贴脸 —— 原来左右内边距是 0,hover 那圈描边+投影正好压在
+     文字边上。左右各留 20px 呼吸,再用等量负 margin 抵回去 → **版面位置一个像素不动**。 */
   .card {
     display: flex;
     gap: 48px;
-    padding: 40px 0;
+    padding: 40px 20px;
+    margin: 0 -20px;
     border-bottom: 1px solid var(--B2);
     align-items: stretch;
     background: none;
-    border-radius: 0;
+    border-radius: 12px;
     min-height: calc(105px + 80px);
     overflow: hidden;
+    transition: background 0.15s;
   }
   .grid > .card:last-child { border-bottom: none; }
-  .card:hover { border-color: #dcd8d3; box-shadow: 0 2px 10px #0000000a; }
+  .card:hover { background: var(--B1); border-bottom-color: var(--B2); }
   .card:hover .t { color: var(--pd-accent); }
   .card .tx { flex: 1; min-width: 0; display: flex; flex-direction: column; align-self: stretch; }
   .card .t {
@@ -405,8 +531,9 @@ body[data-slug^="tags/"] {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
+    /* C13f 第十批 #1:按实际行数长,只在超过上限时截断。
+       原来这里锁死 2 行的高度,1 行的稿子下面白空一截,看着像被旁边挤掉一块。 */
     -webkit-line-clamp: 2;
-    min-height: 2.9em;
   }
   .card .t a { color: inherit; }
   /* 金句:斜体 + 引号由样式生成(设计稿 L359-363);内容里不写标点 */
@@ -421,21 +548,25 @@ body[data-slug^="tags/"] {
     display: -webkit-box;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    -webkit-line-clamp: 2;
-    min-height: 3.32em;
+    -webkit-line-clamp: 3;
     overflow-wrap: anywhere;
   }
   .card .q:before { content: "\201C"; }
   .card .q:after { content: "\201D"; }
+  /* C13f 第十二批 #2:公司/职位的视觉重心略高于人名(原来是人名深、职位浅,正好反着) */
   .card .who {
     font-size: 12.5px;
-    color: var(--B7);
+    color: var(--B6);
+    font-weight: 400;
     margin-top: 12px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
-  .card .who .role { color: var(--B5); }
+  .card .who .role {
+    color: var(--B7);
+    font-weight: 500;
+  }
   .card .tags {
     margin-top: auto;
     padding-top: 12px;
@@ -493,7 +624,9 @@ body[data-slug^="tags/"] {
 
   /* ── 响应式:与少数派断点对齐(1280 / 1024)── */
   @media (max-width: 1279px) {
-    .pd-shell { grid-template-columns: 164px minmax(0, 520px) 224px; max-width: 960px; }
+    /* C13f 第九批 #1 的窄电脑档:172+556+240 = 968 < 1024,不会顶出横向滚动条。 */
+    .pd-shell { grid-template-columns: 172px minmax(0, 556px) 240px; }
+    .pd-shell.two { grid-template-columns: 172px minmax(0, 796px); }
   }
   @media (max-width: 1023px) {
     .pd-shell,
@@ -510,7 +643,9 @@ body[data-slug^="tags/"] {
     .pd-nav { display: none; }
     .pd-mid { padding: 0 16px 44px; }
     .pd-topin { padding: 12px 16px; }
-    .card { gap: 16px; padding: 32px 0; min-height: calc(81px + 64px); }
+    /* C13f:hover 呼吸在窄屏收到 12px —— .pd-mid 左右内边距只有 16px,
+       照桌面的 -20px 会把卡片顶出屏幕(设计稿实测同一个坑)。 */
+    .card { gap: 16px; padding: 32px 12px; margin: 0 -12px; min-height: calc(81px + 64px); }
     .th { flex: 0 0 108px; width: 108px; height: 81px; }
     .card .t { font-size: 15.5px; }
     .card .q { font-size: 13.5px; -webkit-line-clamp: 2; min-height: 3.2em; }
@@ -595,6 +730,41 @@ body[data-slug^="tags/"] {
   }
 }
 
+/* ══ C13f 第九批 #3:深浅色开关那一行 ══
+   ⚠️ 必须写在顶层、不能塞进 .pd —— 首页的槽在 .pd 里,详情页的槽在 Quartz 的
+   .right.sidebar 里(不在 .pd 下)。写在 .pd 里的话详情页只剩一个光图标、没有文字。 */
+/* C13f 第九批 #3:深浅色开关从顶栏挪进左栏,坐在「关于本站」上面。
+   槽由 build-list 出,真开关是搬进来的 Quartz .darkmode(🔒 #2 行为不自己复刻);
+   这里把它从一个方块图标铺成一整行,并在图标后补上「深色模式」四个字。 */
+.pd-themesw { margin-top: 20px; }
+.pd-themesw:empty { display: none; }
+/* ⚠️ Quartz 的 .darkmode 里两个图标是**绝对定位**的(亮/暗各一张,靠 CSS 切换显隐)——
+   所以这里不能用 flex 排版:flex 排不到绝对定位的孩子,文字会直接压在图标上(实测重叠)。
+   做法:按钮本身相对定位、左内边距给图标让位,文字用 :after 接在后面。 */
+.pd-themesw .darkmode {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 8px 12px 8px 40px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  color: var(--B6);
+  cursor: pointer;
+}
+.pd-themesw .darkmode:hover { background: var(--B1); color: var(--pd-accent); }
+.pd-themesw .darkmode:after { content: "深色模式"; }
+.pd-themesw .darkmode svg {
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+}
+.pd-themesw + .about { margin-top: 14px; }
+
 /* 大类色:哪个大类用哪个变量(亮暗两套值都在上面的 :root 里)。
    变量名不能带空格,所以「AI 安全」对应 --c-AI安全。 */
 .pd .chip[data-cat="智能体"]        { color: var(--c-智能体);        border-color: var(--c-智能体); }
@@ -660,6 +830,11 @@ body:has(.pd-play) {
      ⚠️ **必须锁在桌面档**:这条原来没有断点,375 手机上右栏照旧占死 282px,正文被挤成 37px
      一行一个字(Gherkin「手机端不塌」实测逮到)。窄屏交回 Quartz 自己的响应式(单列 + 侧栏顺排),
      手机版右栏内容的正式形态归 C13b(吸顶折叠目录)。 */
+  /* C13f 第九批 #1:顶栏与两栏共用宽度 → 顶栏里的东西才能跟栏对齐。
+     详情页两栏(700+282=982)比首页窄,所以这里另给一套值。 */
+  --pd-shellw: 1006px;
+  --pd-railw: 282px;
+  --pd-railpad: 32px;   /* Quartz 右侧栏自带 32px 左内边距(首页自家右栏是 24) */
   @media (min-width: 1024px) {
     #quartz-body {
       grid-template-columns: minmax(0, 700px) 282px;
@@ -668,8 +843,15 @@ body:has(.pd-play) {
         "grid-center grid-sidebar-right"
         "grid-footer grid-sidebar-right";
       justify-content: center;
-      max-width: 1000px;
+      /* C13f 第十二批 #3:正文左边缘要跟顶栏 logo 同一条竖线。
+         真正让它们对不上的是**这块栅格根本没居中**(margin 是 0,整块贴着屏幕左边),
+         而顶栏是 margin:0 auto 居中的 → 两者错开半个屏幕的余量。
+         修法只有两条:栅格居中 + max-width 与「两列 + 列间距」之和取齐(700+24+282=1006)。
+         ⚠️ 不要去动 .center 的内边距:Quartz base 给它的 padding 本来就是 0,
+         加 padding 只会让盒子(content-box)超出栅格列、压到右栏那一列上,行宽一点没变。 */
+      max-width: 1006px;
       column-gap: 24px;
+      margin: 0 auto;
     }
   }
   .left.sidebar { display: none; }

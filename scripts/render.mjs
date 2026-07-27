@@ -137,7 +137,7 @@ export function renderTldr(digest) {
 export function renderTopBar(meta) {
   return (
     `<div class="pd"><header class="pd-top"><div class="pd-topin">` +
-    `<a class="b" href="/">跨国深谈</a>` +
+    `<a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a>` +
     `<nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav>` +
     `<a class="pd-back" href="/">← 返回</a>` +
     `<a class="pd-mtitle" href="/">←<span>${displayTitle(meta)}</span></a>` +
@@ -152,11 +152,12 @@ export function renderTopBar(meta) {
  * 内容:日期 · 播客 · 时长 · 大类。大类链到大类页,其余是纯文本。
  * 缺字段就整段略过,不留孤立的分隔点(与卡片降级同一口径)。
  */
-export function renderEpisodeMeta(meta, entities = null) {
+export function renderEpisodeMeta(meta) {
+  // C13f 第十二批 #4/#5:大类链接从 meta 行拿掉(用户在设计稿上标了两次「去掉这个信息」)。
+  // ⚠️ 连带后果已向用户交底:详情页从此没有「本集属于哪个大类」的入口(右栏「这一集涉及」
+  // 是人物/公司/概念,不是大类)。用户明选,如需回来再走共识。
   const dur = meta.duration_sec ? mmss(meta.duration_sec) : null;
-  const cats = episodeCategories(meta, entities).filter((c) => c !== "未分类");
-  const catLinks = cats.map((c) => `<a class="mcat" href="./tags/${encodeURIComponent(c)}">${c}</a>`).join(" · ");
-  const parts = [displayDate(meta), meta.podcast, dur, catLinks || null].filter(Boolean);
+  const parts = [displayDate(meta), meta.podcast, dur].filter(Boolean);
   return parts.length ? `<div class="pd-mt">${parts.join(" · ")}</div>` : "";
 }
 
@@ -190,12 +191,22 @@ export function renderSidebarScript() {
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
+  // C13f 第九批 #3:深浅色不再待在顶栏 —— 首页搬进左栏,集页没有左栏,搬到右栏末尾。
+  // 仍是**搬节点不重写**(🔒 #2 亮暗双模式的行为在 Quartz 手里),搬前比 parentElement 保幂等。
   function adopt(){
-    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
-    ['.search','.darkmode','.readermode'].forEach(function(sel){
+    var acts=document.querySelector('.pd-top .pd-acts');
+    function grab(sel,host){
+      if(!host) return;
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
-      if(el && el.parentElement!==acts) acts.appendChild(el);
-    });
+      if(el && el.parentElement!==host) host.appendChild(el);
+    }
+    ['.search','.readermode'].forEach(function(sel){ grab(sel,acts); });
+    var side=document.querySelector('.right.sidebar');
+    if(side){
+      var slot=side.querySelector('.pd-themesw');
+      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
+      grab('.darkmode', slot);
+    }
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;
@@ -208,7 +219,28 @@ export function renderSidebarScript() {
     var qb=document.getElementById('quartz-body'); if(!qb||!qb.parentElement) return;
     qb.parentElement.insertBefore(bar, qb);
   }
-  function all(){ topbar(); move(); adopt(); graph(); }
+  // C13f:相关单集区(.pd-ex / .pd-exit)里的单集链接也在新标签页开,与首页卡片同口径。
+  // 它们是 markdown 双链、由 Quartz 渲染成 <a>,只能渲染完再打标记。
+  // ⚠️ 这段注释会原样进页面 —— 别在这里写那个区块的中文标题,
+  //    render-related 有一条守卫在断言「不传 related 时整页不出现那四个字」。
+  // data-router-ignore 是关键:Quartz SPA 判 _blank 只看事件目标本身,点到子元素会漏。
+  function newtab(){
+    document.querySelectorAll('.pd-ex a, .pd-exit a').forEach(function(a){
+      if(a.target==='_blank') return;
+      if(a.host && a.host!==location.host) return;   // 站外链接不归这条口径管
+      a.target='_blank'; a.rel='noopener'; a.dataset.routerIgnore='';
+    });
+  }
+  // 站名 logo 缺文件时摘掉 <img>,露出底下的引号标记(与首页同一条口径)
+  function logos(){
+    document.querySelectorAll('.pd .mk img').forEach(function(im){
+      if(im.__lg) return; im.__lg=1;
+      var kill=function(){ if(im.parentElement) im.remove(); };
+      if(im.complete && im.naturalWidth===0){ kill(); return; }
+      im.addEventListener('error', kill, {once:true});
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
   document.addEventListener('nav', all);
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', all); else all();
 })();
@@ -563,7 +595,7 @@ ${renderTopBar(meta)}
 
 ${renderByline(meta)}
 
-${renderEpisodeMeta(meta, entities)}
+${renderEpisodeMeta(meta)}
 
 ${renderAudioPlayer(meta)}
 

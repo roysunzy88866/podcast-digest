@@ -316,16 +316,20 @@ describe("C13d-1 · 单集页右栏改造 + ADR 0016 全局图谱入口摘除", 
   });
 });
 
-describe("C13d-1 · 集页 meta 行(设计稿 .mt:日期 · 播客 · 时长 · 大类)", () => {
-  it("★★ 四样齐,大类可点进大类页", () => {
-    const out = renderEpisodeMeta(
-      { id: "2026-07-19-x", date: "2026-07-19", podcast: "Lenny's Podcast", duration_sec: 4325 } as any,
-      { categories: ["组织与领导力"] } as any,
-    );
+// [standard-change: 用户 2026-07-27 在设计稿上两次标「去掉这个信息」]
+// 原口径「日期 · 播客 · 时长 · 大类」里的**大类**已按 C13f 第十二批 #4/#5 拿掉,
+// meta 行只剩前三样。大类断言随之退役,改由 C13f 的用例反向守住「不许再出现」。
+describe("C13d-1 · 集页 meta 行(设计稿 .mt;C13f 后:日期 · 播客 · 时长)", () => {
+  it("★★ 三样齐", () => {
+    const out = renderEpisodeMeta({
+      id: "2026-07-19-x",
+      date: "2026-07-19",
+      podcast: "Lenny's Podcast",
+      duration_sec: 4325,
+    } as any);
     expect(out).toContain("2026-07-19");
     expect(out).toContain("Lenny's Podcast");
     expect(out).toContain("72:05");
-    expect(out).toMatch(/<a class="mcat" href="\.\/tags\/[^"]+">组织与领导力<\/a>/);
   });
 
   it("★★ 缺字段不留孤立分隔点(与卡片降级同口径)", () => {
@@ -736,5 +740,107 @@ describe("C13d-3 · 播放条做成设计稿那条,而且真能播", () => {
   it("★ 设计稿的圆形按钮与进度条样式在", () => {
     expect(scss).toMatch(/\.pd-play \.pb \{[\s\S]*?border-radius: 50%/);
     expect(scss).toMatch(/\.pd-play \.bar \{/);
+  });
+});
+
+// ══════════════════════════════════════════════════════════════════════════
+// C13f · 单集页第十二批批注落地(2026-07-27)。Gherkin:user-stories「C13f」。
+// ══════════════════════════════════════════════════════════════════════════
+
+describe("C13f · 单集页正文左边缘对齐顶栏 logo(第十二批 #3)", () => {
+  const scss = readFileSync(new URL("../assets/styles/custom.scss", import.meta.url), "utf8");
+
+  // 真病根不是内边距,是这块栅格压根没居中(margin:0),而顶栏是居中的。
+  // 修法 = 栅格居中 + max-width 与「两列 + 列间距」之和取齐;**不许去动 .center 的内边距**
+  // (Quartz base 给的就是 0,加了只会让盒子超出栅格列压到右栏,行宽一点没变)。
+  it("★★★ 靠栅格居中对齐,不靠给正文列加内边距", () => {
+    const d = scss.slice(scss.indexOf("body:has(.pd-play) {"));
+    expect(d.slice(0, 1600)).toMatch(/max-width:\s*1006px/);
+    expect(d.slice(0, 1600)).toMatch(/margin:\s*0 auto/);
+    expect(d.slice(0, 1600)).not.toMatch(/\.center \{[^}]*padding/);
+  });
+
+  it("★★ 顶栏与正文栏共用同一套宽度(详情页两栏比首页窄,顶栏得跟着收)", () => {
+    expect(scss).toMatch(/body:has\(\.pd-play\)[\s\S]*?--pd-shellw:\s*1006px/);
+    expect(scss).toMatch(/body:has\(\.pd-play\)[\s\S]*?--pd-railw:\s*282px/);
+  });
+});
+
+describe("C13f · 单集页 meta 只剩三段(第十二批 #4/#5:去掉分类)", () => {
+  it("★★★ meta 行不再有大类链接(用户明说「去掉这个信息」)", () => {
+    const out = renderEpisodeMeta(
+      { id: "x", date: "2026-01-01", podcast: "Lenny's Podcast", duration_sec: 600 } as any,
+      { categories: ["组织与领导力"] } as any,
+    );
+    expect(out).not.toContain("mcat");
+    expect(out).not.toContain("组织与领导力");
+    expect(out).toContain("Lenny's Podcast");
+  });
+
+  it("★★ 缺字段仍整段略过,不留孤立的分隔点(降级口径没变)", () => {
+    const out = renderEpisodeMeta({ id: "x", date: "2026-01-01" } as any, null);
+    expect(out).not.toMatch(/·\s*·/);
+    expect(out).not.toMatch(/·\s*<\/div>/);
+    expect(renderEpisodeMeta({ id: "" } as any, null)).toBe("");
+  });
+});
+
+describe("C13f · 单集页顶栏与首页同款(logo 位 + 深浅色进右栏)", () => {
+  const bar = renderTopBar({ id: "x", title_zh: "标题" } as any);
+
+  it("★★ 站名前有 logo 位,缺图不裂(与首页同一份标记)", () => {
+    expect(bar).toContain('<span class="mk">');
+    expect(bar).toContain('src="/logos/site.png"');
+    expect(renderSidebarScript()).toContain("querySelectorAll('.pd .mk img')");
+  });
+
+  it("★★★ 深浅色搬到右栏末尾,顶栏只剩搜索与阅读模式(第九批 #3)", () => {
+    const js = renderSidebarScript();
+    expect(js).toMatch(/\['\.search','\.readermode'\]/);
+    expect(js).toContain("grab('.darkmode'");
+    expect(js).toMatch(/right\.sidebar/);
+  });
+
+  it("★★ 搬运幂等(SPA 每次 nav 都重跑)", () => {
+    expect(renderSidebarScript()).toMatch(/parentElement!==host/);
+  });
+});
+
+describe("C13f ·「接着看」的单集链接也在新标签页开", () => {
+  const js = renderSidebarScript();
+
+  it("★★★ 同时打 target=_blank 与 data-router-ignore(只写前者会被 Quartz SPA 拦下)", () => {
+    expect(js).toContain("a.target='_blank'");
+    expect(js).toContain("a.dataset.routerIgnore=''");
+    expect(js).toMatch(/\.pd-ex a, \.pd-exit a/);
+  });
+
+  it("★★ 幂等:SPA 每次 nav 重跑不会重复处理", () => {
+    expect(js).toContain("if(a.target==='_blank') return");
+  });
+});
+
+describe("C13f · 详情页栅格必须居中(否则正文永远对不上顶栏 logo)", () => {
+  const scss = readFileSync(new URL("../assets/styles/custom.scss", import.meta.url), "utf8");
+  it("★★★ #quartz-body 有 margin: 0 auto(原来是 0,整块贴着屏幕左边)", () => {
+    const d = scss.slice(scss.indexOf("body:has(.pd-play) {"));  // 注释里也提到过这个选择器,要找真正的规则块
+    expect(d.slice(0, 1600)).toMatch(/max-width:\s*1006px;[\s\S]{0,120}margin:\s*0 auto/);
+  });
+});
+
+describe("C13f · 深色模式那一行在详情页也要有文字", () => {
+  const scss = readFileSync(new URL("../assets/styles/custom.scss", import.meta.url), "utf8");
+  it("★★★ .pd-themesw 的样式写在顶层,不能塞进 .pd —— 详情页的槽在 Quartz 右栏里,不在 .pd 下", () => {
+    // 顶层规则顶格写,嵌在 .pd 里的会带缩进 —— 用缩进判断嵌套,比数字符偏移可靠
+    const line = scss.split("\n").find((l) => l.includes(".pd-themesw .darkmode {"));
+    expect(line).toBeDefined();
+    expect(line!.startsWith(".pd-themesw")).toBe(true);
+    expect(scss).toMatch(/^\.pd-themesw \.darkmode:after \{ content: "深色模式"; \}$/m);
+  });
+});
+
+describe("C13f · 新标签页只管站内链接", () => {
+  it("★★ 站外链接不被强行改成新标签页(现在那两块里没有站外链,但别留下将来的坑)", () => {
+    expect(renderSidebarScript()).toContain("a.host!==location.host");
   });
 });

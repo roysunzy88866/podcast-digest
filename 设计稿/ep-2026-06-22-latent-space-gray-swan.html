@@ -1,10 +1,9 @@
 <!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏</title><link rel="stylesheet" href="style.css?v=41"><script src="search.js" defer></script><script src="m-detail.js?v=7" defer></script></head><body>
+<title>让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏</title><link rel="stylesheet" href="style.css?v=45"><script src="search.js?v=4" defer></script><script src="m-detail.js?v=7" defer></script></head><body>
 <header class="top"><div class="topin">
-<a class="b" href="index.html">跨国深谈</a>
+<a class="b" href="index.html"><span class="mk"><img src="logos/site.png" alt="" onerror="this.remove()"></span>跨国深谈</a>
 <nav class="mainnav"><a href="index.html">最新</a><a href="must-read.html">最热</a></nav>
-<a class="mtitle" href="index.html">←<span>返回</span></a><div class="acts"><button class="ico deskonly" onclick="openSearch()" title="搜索"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="9" r="5.5"/><path d="M13.2 13.2 17 17"/></svg></button><button class="ico deskonly" title="深浅色"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="6.5"/><path d="M10 3.5v13a6.5 6.5 0 0 0 0-13z" fill="currentColor" stroke="none"/></svg></button>
-<button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div>
+<a class="mtitle" href="index.html">←<span>返回</span></a><div class="acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button><div class="tsearch deskonly"><svg viewBox="0 0 20 20" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="9" r="5.5"/><path d="M13.2 13.2 17 17"/></svg><input id="tq" placeholder="搜标题 / 金句 / 正文 / 人名"></div></div>
 </div></header>
 <div class="mmenu" id="mm">
   <div class="mmhead"><span class="b">跨国深谈</span><button class="ico" onclick="document.getElementById('mm').classList.remove('open')">✕</button></div>
@@ -22,7 +21,7 @@
 <a class="back" href="index.html">← 返回</a>
 <h1 class="pt">让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏</h1>
 <div class="byl"><a class="wl" href="person-zico-kolter.html">Zico Kolter</a></div>
-<div class="mt">Latent Space · 2026-06-22 · <a class="mcat" href="cat-ai.html">AI 安全</a> · <a class="mcat" href="cat-4.html">智能体</a></div>
+<div class="mt">Latent Space · 2026-06-22</div>
 <div class="play"><span class="pb">▶</span><span><span class="tt">听中文精华</span><span class="s">66 分钟 · AI 合成朗读</span></span><span class="bar"></span><span class="s">00:00</span></div>
 <div class="hook"><div class="z">如果你在每个人都在使用的智能体中发现漏洞,像 Codex 和 Cloud Code 这样的东西,你现在实际上基本上就可以拥有一种新的漏洞利用,一类新的漏洞利用。</div><div class="a">— Zico Kolter <button class="ts" data-t="03:37"></button></div></div>
 <div class="tldr"><b>一句话</b>CMU学者创办Gray Swan,通过社区与自动化红队测试找出AI漏洞,并用专用模型Signal拦截提示注入,守护企业AI部署。</div>
@@ -56,7 +55,7 @@
 <div class="exit"><div class="ex"><b>顺着「AI 安全」挖下去</b><a href="ep-2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge.html">Sriram Krishnan：Kimi K3 将改写 AI 行业版图</a><a href="ep-2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c.html">AI 悬崖边？数据中心次级债与 SpaceX 缩水</a><a href="ep-2026-singju-openclaw-80apps.html">OpenClaw创始人：为何80%的应用将消失</a></div>
 <div class="ex"><b>换个口味</b><a href="ep-2026-07-19-lennys-netflix-cpto-on-ai-and-the-future.html">Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失</a><a href="ep-2026-07-12-lennys-how-tech-workers-actually-feel-about.html">科技圈情绪调查：一半人狂喜，一半人煎熬</a><a href="ep-2026-07-09-pg-pm-guide-ai-design.html">用 AI 武装技术型 PM：Codex 工作流全解析</a></div></div>
 </div><div class="right"><div class="blk"><div class="sh">本集目录</div><div class="toc"><a href="#s0" class=on>为什么 AI 需要一种全新的安全思维</a><a href="#s1">AI 与人类的博弈:红队测试</a><a href="#s2">企业如何构建安全防线</a><a href="#s3">智能体将推动安全与科学的自动化爆发</a><a href="#s4">本集带走</a></div></div>
-<div class="blk"><div class="sh">这一集涉及</div><div class="rr" style="display:block"><span><b class="ek">人物</b>Zico Kolter · Matt Fredrikson</span></div><div class="rr" style="display:block"><span><b class="ek">公司</b>Gray Swan · Carnegie Mellon · Snowflake · Anthropic · Discord</span></div><div class="rr" style="display:block"><span><b class="ek">概念</b>智能体 (agent) · 红队测试 (red teaming) · 提示词注入 (prompt injection) · 越狱 (jailbreak) · 护栏 (guardrails)</span></div></div></div></div>
+<div class="blk"><div class="sh">这一集涉及</div><div class="rr" style="display:block"><span><b class="ek">人物</b>Zico Kolter · Matt Fredrikson</span></div><div class="rr" style="display:block"><span><b class="ek">公司</b>Gray Swan · Carnegie Mellon · Snowflake · Anthropic · Discord</span></div><div class="rr" style="display:block"><span><b class="ek">概念</b>智能体 (agent) · 红队测试 (red teaming) · 提示词注入 (prompt injection) · 越狱 (jailbreak) · 护栏 (guardrails)</span></div></div><button class="themesw" title="深浅色"><svg viewBox="0 0 20 20" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="10" cy="10" r="6.5"/><path d="M10 3.5v13a6.5 6.5 0 0 0 0-13z" fill="currentColor" stroke="none"/></svg><span>深色模式</span></button></div></div>
 <script>
 function openSearch(){const k=document.getElementById('sk');k.style.display='flex';
   loadIdx().then(()=>{const i=document.getElementById('sq');i.focus();i.oninput=drawS;});}
@@ -124,14 +123,14 @@ document.querySelectorAll('.shist b').forEach(b=>b.onclick=()=>{const i=document
 
 document.querySelectorAll('[data-go]').forEach(el=>{
  el.style.cursor='pointer';
- el.addEventListener('click',ev=>{ if(ev.target.closest('a')) return; location.href=el.dataset.go; });
+ el.addEventListener('click',ev=>{ if(ev.target.closest('a')) return;
+   const a=document.createElement('a'); a.href=el.dataset.go; a.target='_blank'; a.rel='noopener'; a.click(); });
 });
 document.querySelectorAll('.ts').forEach(b=>b.onclick=()=>{
  let n=b.nextElementSibling;
  if(n&&n.classList.contains('orig')){n.remove();return}
  const d=document.createElement('div');d.className='orig';
- d.innerHTML='<b>英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'')+'</b><br>'+(b.dataset.en||'“…original English transcript segment…”')+
- '<br><span style="font-size:11px;color:#b0a3a1">↑ 就地展开,不跳走。数据来自 transcript.en.json</span>';
+ d.innerHTML='<b>英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'')+'</b><br>'+(b.dataset.en||'“…original English transcript segment…”');
  b.after(d);
 });
 </script><script src="comment.js?v=4"></script><script>(function(){function s(){var t=document.querySelector('.top');

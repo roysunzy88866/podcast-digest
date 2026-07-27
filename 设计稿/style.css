@@ -29,9 +29,9 @@ body{margin:0;background:var(--B0);color:var(--B8);font-family:var(--font);font-
 a{color:inherit;text-decoration:none}
 .banner{background:#fff6f5;border-bottom:1px solid #f0dbd9;color:#8a5450;font-size:12.5px;padding:8px 20px;text-align:center}
 .banner b{color:#b8443c}
-/* 头部:整条通栏,内容对齐 1200 容器(与正文左边缘齐) */
+/* 头部:整条通栏,内容对齐 shell 容器(与左右两栏同一条竖线,第九批#2)*/
 .top{border-bottom:1px solid var(--B3);background:var(--B0);position:sticky;top:0;z-index:30}
-.topin{max-width:1200px;margin:0 auto;display:flex;align-items:center;padding:12px 24px}
+.topin{max-width:var(--shellw,1180px);margin:0 auto;display:flex;align-items:center;padding:12px 0}
 .mainnav{display:flex;align-items:center;margin-left:40px}
 .mainnav a{font-size:15px;color:var(--B7);padding:0 16px}      /* 少数派菜单项 padding:16px */
 .mainnav a:hover{color:var(--accent)}
@@ -63,12 +63,14 @@ mark{background:#fdeceb;color:var(--accent);padding:0 1px;border-radius:2px}
 .top nav a{font-size:14px;color:#5c5c5c;margin-right:4px}
 .top nav a:hover{color:#b8443c}
 .sr{margin-left:auto;border:1px solid var(--B3);background:var(--B1);border-radius:5px;padding:7px 13px;font-size:13px;color:var(--B6);width:320px}
-.shell{display:grid;grid-template-columns:200px minmax(0,588px) 282px;justify-content:center;gap:0;max-width:1200px;margin:0 auto;min-height:80vh}
-@media (max-width:1279px){.shell{grid-template-columns:164px minmax(0,520px) 224px;max-width:960px}}
-.shell.two{grid-template-columns:200px minmax(0,870px);max-width:1200px}
-@media (max-width:1279px){.shell.two{grid-template-columns:164px minmax(0,796px);max-width:960px}}
-.shell.det{grid-template-columns:minmax(0,700px) 282px;justify-content:center;max-width:1000px}
-@media (max-width:1279px){.shell.det{grid-template-columns:minmax(0,640px) 224px;max-width:900px}}
+/* 第九批#1:左右两栏往两侧推,中栏 588→680(窄屏 520→556);max-width 与列宽之和取齐,
+   这样 shell 的左右边缘 = 顶栏 .topin 的左右边缘,顶栏里的东西才能跟两栏对齐。 */
+.shell{display:grid;grid-template-columns:210px minmax(0,680px) 290px;justify-content:center;gap:0;max-width:1180px;margin:0 auto;min-height:80vh}
+@media (max-width:1279px){.shell{grid-template-columns:172px minmax(0,556px) 240px;max-width:968px}}
+.shell.two{grid-template-columns:210px minmax(0,970px);max-width:1180px}
+@media (max-width:1279px){.shell.two{grid-template-columns:172px minmax(0,796px);max-width:968px}}
+.shell.det{grid-template-columns:minmax(0,700px) 282px;justify-content:center;max-width:982px}
+@media (max-width:1279px){.shell.det{grid-template-columns:minmax(0,640px) 224px;max-width:864px}}
 .left{padding:24px 14px 24px 0}
 .right{padding:24px 0 24px 24px}
 .mid{padding:24px 32px 60px;min-width:0}
@@ -575,3 +577,129 @@ h1.pt{margin-top:4px}
        → 中心裁。这类图裁到脸反而最差(巨大播放键 + 切碎的英文)。
    参数 1.55× / 焦点 50% 48% 为用户四选一拍板。 */
 .th.fr img.face{transform:scale(1.55);transform-origin:50% 48%}
+
+
+/* ══ 用户批注第九批(2026-07-27)══ */
+
+/* #1 宽度变量:顶栏(.topin)与两栏(.shell)共用同一套宽度,顶栏里的东西才能跟栏对齐。
+   --railw = 右栏列宽,顶栏搜索框按它减去右栏 padding-left(24px)算宽度。 */
+:root{--shellw:1180px;--railw:290px}
+@media (max-width:1279px){:root{--shellw:968px;--railw:240px}}
+body:has(.shell.det){--shellw:982px;--railw:282px}          /* 详情页两栏更窄,顶栏跟着收 */
+@media (max-width:1279px){body:has(.shell.det){--shellw:864px;--railw:224px}}
+
+/* #2 搜索:顶栏的放大镜图标 → 长条输入框,右对齐,左边缘 = 右栏「按公司」那条竖线 */
+.tsearch{position:relative;display:flex;align-items:center;gap:7px;margin-left:auto;
+         width:calc(var(--railw) - 24px);height:34px;padding:0 10px;
+         border:1px solid var(--B3);border-radius:8px;background:var(--B1);color:var(--B5)}
+.tsearch:focus-within{background:var(--B0);border-color:var(--B4)}
+.tsearch svg{flex:0 0 auto;display:block}
+.tsearch input{flex:1;min-width:0;border:0;outline:0;background:none;
+               font-family:var(--font);font-size:13px;line-height:1;color:var(--B8)}
+.tsearch input::placeholder{color:var(--B5)}
+/* 结果就地下拉(不再弹全屏遮罩),挂在输入框右下 */
+.tdrop{display:none;position:absolute;top:calc(100% + 8px);right:0;width:400px;z-index:50;
+       background:var(--B0);border:1px solid var(--B3);border-radius:10px;
+       box-shadow:0 14px 44px #00000026;padding:4px;max-height:62vh;overflow:auto}
+.tdrop.open{display:block}
+.tdrop .sg{font-size:11px;color:var(--B5);padding:10px 14px 4px;letter-spacing:.5px}
+.tdrop .si{display:block;padding:9px 14px;border-radius:8px}
+.tdrop .si:hover{background:var(--B1)}
+.tdrop .si .a{font-size:14.5px;color:var(--B8);line-height:1.5}
+.tdrop .si .b{font-size:12px;color:var(--B6);margin-top:3px;
+               overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.tdrop .more{display:block;padding:11px 14px;font-size:13px;color:var(--accent);
+             border-top:1px solid var(--B2);margin-top:6px}
+
+/* #3 深浅色切换:从顶栏挪进侧栏,坐在「关于本站」上面 */
+.themesw{display:flex;align-items:center;gap:8px;width:100%;margin-top:20px;padding:8px 12px;
+         border:0;border-radius:8px;background:none;cursor:pointer;text-align:left;
+         font-family:var(--font);font-size:14px;color:var(--B6)}
+.themesw:hover{background:var(--B1);color:var(--accent)}
+.themesw svg{flex:0 0 auto;display:block}
+.left .about,.right .themesw{margin-top:14px}   /* 上面多了这一行,原来的 24px 间距收一点 */
+.right .themesw{padding-left:0;padding-right:0}
+/* 手机端:顶栏搜索框与侧栏模式切换都不出现(手机有自己的搜索入口 .mhs / 全屏菜单)。
+   .deskonly 写在前面,单类选择器同权重会被后面的 .tsearch 盖掉,所以这里显式补一条。 */
+@media (max-width:1023px){.tsearch,.themesw{display:none}}
+
+
+/* ══ 用户批注第十批(2026-07-27)══ */
+
+/* #1/#2 卡片文字块高度自适应 —— 原来标题锁死 2 行(min-height:2.9em)、金句锁死 2 行
+   (3.32em),1 行的稿子下面就白空一截,看着像被旁边的白挤掉一块。
+   改成:按实际行数长,超出上限才截断(标题 ≤2 行、金句 ≤3 行,末尾自动出「…」)。
+   卡片本身仍有 105+80px 的下限,保证缩略图那侧不塌。 */
+.card .t,.card .q{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;min-height:0}
+.card .t{-webkit-line-clamp:2}
+.card .q{-webkit-line-clamp:3}
+
+/* #4 右栏「按公司」改卡片 + 公司 logo。
+   logo 放 `logos/<公司名小写>.png`(见 logos/README.md),没有文件时自动退回首字母底板,
+   不会出现裂图。28×28 圆角方块 = favicon 那个量级,一行一张卡,不跟名字抢地方。 */
+.cc{display:flex;align-items:center;gap:10px;padding:8px 10px;margin-bottom:6px;
+    border:1px solid var(--B2);border-radius:9px;background:var(--B0)}
+.cc:hover{border-color:var(--B3);background:var(--B1)}
+.cc .lg{position:relative;flex:0 0 auto;width:28px;height:28px;border-radius:7px;
+        background:var(--B1);border:1px solid var(--B2);overflow:hidden;
+        display:flex;align-items:center;justify-content:center}
+.cc .lg:before{content:attr(data-n);font-size:13px;font-weight:600;color:var(--B5);line-height:1}
+.cc .lg img{position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#fff}
+.cc .nm{flex:1;min-width:0;font-size:13.5px;color:var(--B7);
+        overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.cc:hover .nm{color:var(--accent)}
+.cc .ct{flex:0 0 auto;font-size:11.5px;color:var(--B5)}
+.blk .rr.more2{padding-top:8px}
+
+/* #3 右栏不再吸顶,跟着页面一起滚(用户 2026-07-27 明选)。
+   连带把「最高一屏 + 内部滚动」一起撤掉 —— 那是为吸顶服务的,不吸顶了就该整栏自然长。
+   ⚠️ 左栏仍是吸顶的(上一轮批注定的),两栏行为现在不一致,待用户确认是否也放开。 */
+.shell .right{position:static;max-height:none;overflow-y:visible}
+
+
+/* ══ 用户批注第十一批(2026-07-27)══ */
+
+/* #1 卡片 hover 贴脸 —— 原来 .card 左右 padding 是 0,hover 那圈描边/投影
+   正好压在文字边上,像要碰到字。改成:左右各留 20px 呼吸(用负 margin 抵回去,
+   版面位置一个像素不动),hover 由「细描边+投影」换成一块柔和底色。 */
+.card{padding:40px 20px;margin:0 -20px;border-radius:12px;transition:background .15s}
+.card:hover{background:var(--B1);box-shadow:none;border-bottom-color:var(--B2)}
+
+/* #2 站名:前面加 logo 位 + 换一套跟正文拉开距离的字。
+   logo 放 logos/site.png(方图最好,≥48px);没有文件时退回下面这个引号标记,
+   不会裂图 —— 引号是本站的母题(每句都能回到原话)。 */
+.top .b{display:flex;align-items:center;gap:9px}
+.mk{position:relative;flex:0 0 auto;width:26px;height:26px;border-radius:7px;
+    background:var(--accent);display:flex;align-items:center;justify-content:center;overflow:hidden}
+.mk:before{content:"\201D";font-family:Georgia,"Songti SC",serif;font-size:22px;line-height:1;
+           color:#fff;transform:translateY(3px)}
+.mk img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+/* 站名用宋体 —— 全站正文是黑体,站名换衬线立刻拉开层级(不用额外字体文件,
+   macOS/iOS 走 Songti SC、Windows 走宋体,都自带)。想换别的字体给我字体文件。 */
+.top .b{font-family:"Songti SC","Source Han Serif SC","Noto Serif CJK SC",STSong,SimSun,Georgia,serif;
+        font-size:20px;font-weight:600;letter-spacing:2px}
+
+/* #3 顶上三条线太密(通栏分割线 / 「最新」下划线 / 日期线)——
+   砍掉最重的那条:顶栏通栏分割线。顶栏已经不吸顶了,靠留白分隔就够;
+   留下的两条各有职责(当前位置、日期分组),都是 1px 浅灰。 */
+.top{border-bottom:0}
+/* 窄屏 .mid 的左右 padding 只有 15/16px,-20px 会顶出屏幕 → 收到 -12px */
+@media (max-width:1023px){.card{padding-left:12px;padding-right:12px;margin-left:-12px;margin-right:-12px}}
+/* 真喂了 logo 图之后,底下那个引号退场 —— 不然透明底 PNG 会透出来叠在一起 */
+.mk:has(img):before{content:none}
+/* 真 logo 是横版字标(SOLO),不是方形图标 —— 有图时容器让位:
+   去掉红底/圆角/裁切,按高度等比缩放,宽度自适应 */
+.mk:has(img){width:auto;height:28px;background:none;border-radius:0;overflow:visible}
+.mk:has(img) img{position:static;width:auto;height:100%;object-fit:contain}
+
+
+/* ══ 用户批注第十二批(2026-07-27)══ */
+
+/* #2 署名行:公司/头衔的视觉重心略高于人名 —— 原来反着来(人名 B7 深、头衔 B5 浅) */
+.card .who,.list .who{color:var(--B6);font-weight:400}
+.card .who .role,.list .who .role{color:var(--B7);font-weight:500}
+
+/* #3 详情页正文左边缘要跟顶栏 logo 对齐 —— 原来 .mid 有 32px 左内边距,
+   把正文整体推离 logo 32px。左内边距归零、右边补回去,阅读行宽一个像素没变。 */
+@media (min-width:1024px){.shell.det .mid{padding-left:0;padding-right:64px}}
+

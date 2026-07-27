@@ -56,6 +56,18 @@ export const esc = (s) =>
 const byCountThenName = (a, b) => b[1] - a[1] || String(a[0]).localeCompare(String(b[0]), "zh");
 
 /**
+ * C13f ·「点一条内容开新标签页」(用户 2026-07-27 明选)。
+ * ⚠️ 只写 `target="_blank"` 不够:Quartz 的 SPA 路由(spa.inline.ts getOpts)判 _blank 时
+ * 读的是**事件目标本身**的属性 —— 点在 <a> 里的子元素(如卡片标题里的文本节点被包过一层)
+ * 就漏判,链接会被路由接管、在当前页换掉。`data-router-ignore` 查的是 `closest('a').dataset`,
+ * 无论点到哪个子元素都可靠 → 两个一起写才真在新标签页开。
+ */
+const NEWTAB = ` target="_blank" rel="noopener" data-router-ignore`;
+
+/** 公司 logo 的文件名(用户手动往 assets/logos/ 里喂图,见 assets/logos/README.md) */
+export const logoSlug = (name) => String(name).trim().toLowerCase().replace(/\s+/g, "-");
+
+/**
  * 嘉宾行(C13a 场景3 降级):
  *   人名+职位 → 「人名 · 职位」;只有一个 → 只显示它,不留孤立的「·」;都没有 → 整行不渲染。
  */
@@ -103,7 +115,7 @@ export function card(episode, cats, hasCover, extraAttrs = "") {
   return [
     `<div class="card" data-slug="${esc(meta.id)}"${primary ? ` data-cat="${esc(primary)}"` : ""}${extraAttrs}>`,
     `<div class="tx">`,
-    `<div class="t"><a class="internal" href="./${esc(meta.id)}">${esc(displayTitle(meta))}</a></div>`,
+    `<div class="t"><a class="internal"${NEWTAB} href="./${esc(meta.id)}">${esc(displayTitle(meta))}</a></div>`,
     quote ? `<div class="q">${esc(quote)}</div>` : "",
     whoRow(meta),
     chips,
@@ -131,10 +143,14 @@ export function leftRail(episodes, catsOf, vocabulary, active = null) {
         `<a class="cl${c === active ? " on" : ""} internal" href="${active ? "." : "./tags"}/${encodeURIComponent(c)}"><span>${esc(c)}</span><i>${k}</i></a>`,
     )
     .join("\n    ");
+  // C13f #3:深浅色开关从顶栏挪进左栏,坐在「关于本站」上面。这里只留空槽 ——
+  // 真开关是 Quartz 的 .darkmode 节点,由 scriptBlock 搬进来(🔒 #2 亮暗双模式的行为
+  // 在 Quartz 手里,复刻一份必然走样,同 🔒 #9 搜索那条的手法)。
   return `<div class="pd-left">
     <div class="sh">全部主题</div>
     <a class="cl${active ? "" : " on"}" href="${active ? ".." : "."}/"><span>全部</span><i>${episodes.length}</i></a>
     ${rows}
+    <div class="pd-themesw"></div>
     <div class="about"><b>关于本站</b>每周把几集英文播客变成能读的中文精华,每句都能回到原话。</div>
   </div>`;
 }
@@ -156,9 +172,18 @@ function rightRail(episodes) {
     }
   }
   const bigCo = Object.entries(companies).filter(([, k]) => k >= 3).sort(byCountThenName);
+  // C13f #4:一条 = 一张卡(logo 位 / 公司名 / 集数)。
+  // logo 用户手动喂进 assets/logos/<公司名小写>.png(部署时拷进 public/logos)——
+  // **缺是常态**,所以底板永远先画首字母,图加载失败就把 <img> 摘掉、露出底板,不留裂图。
   const coRows = bigCo
     .slice(0, 8)
-    .map(([c, k]) => `<a class="rr internal" href="./entities/${encodeURIComponent(c)}"><span>${esc(c)}</span><span>${k} 集</span></a>`)
+    .map(
+      ([c, k]) =>
+        `<a class="cc internal" href="./entities/${encodeURIComponent(c)}">` +
+        `<span class="lg" data-n="${esc(String(c).trim().slice(0, 1).toUpperCase())}">` +
+        `<img src="/logos/${esc(logoSlug(c))}.png" alt=""></span>` +
+        `<span class="nm">${esc(c)}</span><span class="ct">${k} 集</span></a>`,
+    )
     .join("\n      ");
 
   const pods = {};
@@ -171,10 +196,7 @@ function rightRail(episodes) {
     .map(([p, k]) => `<a class="rr" href="./tags/${encodeURIComponent(p)}"><span>${esc(p)}</span><span>${k} 集</span></a>`)
     .join("\n      ");
 
-  // 「随便看一集」:构建期确定性挑一集(不能用随机数,否则每次构建 diff 都变)
-  const ids = episodes.map((e) => e.meta.id).sort();
-  const pick = ids[Math.floor(ids.length / 2)];
-
+  // C13f #5:「随便看看」整块删掉(用户 2026-07-27 明说「删掉这个功能」)。
   return `<div class="pd-right">
     ${bigCo.length ? `<div class="blk">
       <div class="sh">按公司</div>
@@ -185,10 +207,6 @@ function rightRail(episodes) {
       <div class="sh">按播客</div>
       ${podRows}
     </div>
-    ${pick ? `<div class="blk">
-      <div class="sh">随便看看</div>
-      <a class="rr internal" href="./${esc(pick)}"><span>随便看一集</span><span></span></a>
-    </div>` : ""}
   </div>`;
 }
 
@@ -213,7 +231,7 @@ function mobileHome(episodes, catsOf, vocabulary) {
 /** 顶栏。「最热」= 必读页,归 C13c 才生成 → 本片先出不可点的占位,不留死链。
  *  右侧 .pd-acts 是空槽,由脚本把 Quartz 的搜索/深浅色/阅读模式搬进来(见 scriptBlock)。 */
 const topBar = () => `<header class="pd-top"><div class="pd-topin">
-    <a class="b" href="./">跨国深谈</a>
+    <a class="b" href="./"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a>
     <nav class="pd-nav"><a class="cur" href="./">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav>
     <div class="pd-acts"></div>
   </div></header>`;
@@ -299,11 +317,29 @@ const scriptBlock = () => squashBlankLines(`<script>
   // 把 Quartz 侧栏里的搜索/深浅色/阅读模式搬进顶栏,再由 custom.scss 藏掉空壳侧栏。
   // 搬节点而不是重写一套:这三个组件的行为(搜索索引、主题记忆)全在 Quartz 自己手里,
   // 复刻一份必然走样。🔒 #9 搜索不许降级 / 🔒 #2 亮暗双模式必须留。
+  // C13f #3:深浅色不再待在顶栏,搬进左栏「关于本站」上面那个空槽;搜索与阅读模式仍在顶栏。
+  // 找节点仍是「先侧栏、再全站」,搬之前比 parentElement 保证幂等(SPA 每次 nav 都会重跑)。
   function adopt(){
-    var acts=document.querySelector('.pd .pd-acts'); if(!acts) return;
-    ['.search','.darkmode','.readermode'].forEach(function(sel){
+    var acts=document.querySelector('.pd .pd-acts');
+    var sw=document.querySelector('.pd .pd-themesw');
+    function grab(sel,host){
+      if(!host) return;
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
-      if(el && el.parentElement!==acts) acts.appendChild(el);
+      if(el && el.parentElement!==host) host.appendChild(el);
+    }
+    ['.search','.readermode'].forEach(function(sel){ grab(sel,acts); });
+    grab('.darkmode', sw);
+  }
+  // C13f #1:日期组标说人话。构建期只能写死日期原文(产物要可复现),
+  // 「今天/昨天」是**读者的**今天 → 只能在浏览器里换。整串相等才换,不做前缀匹配。
+  function dateh(){
+    var p=function(n){ return String(n).padStart(2,'0'); };
+    var k=function(d){ return d.getFullYear()+'-'+p(d.getMonth()+1)+'-'+p(d.getDate()); };
+    var now=new Date(), y=new Date(); y.setDate(y.getDate()-1);
+    var map={}; map[k(now)]='今天'; map[k(y)]='昨天';
+    document.querySelectorAll('.pd .dateh').forEach(function(el){
+      var t=el.textContent.trim();
+      if(map[t]) el.textContent=map[t];
     });
   }
   // 手机端摊开的搜索框(🔒 #9)。检索不自己实现:把键入转发给 Quartz 的搜索 ——
@@ -329,8 +365,21 @@ const scriptBlock = () => squashBlankLines(`<script>
     box.addEventListener('focus', forward);
     box.addEventListener('click', forward);
   }
+  // logo 是用户手喂的,**缺是常态** → 图取不到就把 <img> 摘掉,露出底下画好的兜底
+  // (公司卡是首字母,站名是引号标记)。不用行内 onerror:Quartz 是 SPA,整页 innerHTML
+  // 换过之后行内处理器那一轮的结果会被冲掉;这里每次 nav 重跑,还能补上「已经失败过」的那些。
+  function logos(){
+    document.querySelectorAll('.pd .lg img, .pd .mk img').forEach(function(im){
+      if(im.__lg) return; im.__lg=1;
+      var kill=function(){ if(im.parentElement) im.remove(); };
+      if(im.complete && im.naturalWidth===0){ kill(); return; }
+      im.addEventListener('error', kill, {once:true});
+    });
+  }
   function init(){
     adopt();
+    dateh();
+    logos();
     wireSearch();
     var root=document.querySelector('.pd'); if(!root||root.__epInit) return; root.__epInit=1;
     // 已读压暗(客户端 localStorage;键沿用 pd-read,老已读史不丢)

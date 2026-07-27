@@ -17,13 +17,13 @@ tags:
   - 组织与领导力
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/">跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷</span></a><div class="pd-acts"></div></div></header></div>
 
 # Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷
 
 <div class="pd-byl"><b>Matt MacInnis</b> · Rippling CPO</div>
 
-<div class="pd-mt">2025-12-28 · Lenny's Podcast · 96:13 · <a class="mcat" href="./tags/%E7%BB%84%E7%BB%87%E4%B8%8E%E9%A2%86%E5%AF%BC%E5%8A%9B">组织与领导力</a></div>
+<div class="pd-mt">2025-12-28 · Lenny's Podcast · 96:13</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-12-28-lennys-10-contrarian-leadership-truths.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
@@ -203,12 +203,22 @@ Matt 曾创办一家公司长达九年,却以黯然收场。他深刻体会到,�
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
+  // C13f 第九批 #3:深浅色不再待在顶栏 —— 首页搬进左栏,集页没有左栏,搬到右栏末尾。
+  // 仍是**搬节点不重写**(🔒 #2 亮暗双模式的行为在 Quartz 手里),搬前比 parentElement 保幂等。
   function adopt(){
-    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
-    ['.search','.darkmode','.readermode'].forEach(function(sel){
+    var acts=document.querySelector('.pd-top .pd-acts');
+    function grab(sel,host){
+      if(!host) return;
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
-      if(el && el.parentElement!==acts) acts.appendChild(el);
-    });
+      if(el && el.parentElement!==host) host.appendChild(el);
+    }
+    ['.search','.readermode'].forEach(function(sel){ grab(sel,acts); });
+    var side=document.querySelector('.right.sidebar');
+    if(side){
+      var slot=side.querySelector('.pd-themesw');
+      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
+      grab('.darkmode', slot);
+    }
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;
@@ -221,7 +231,28 @@ Matt 曾创办一家公司长达九年,却以黯然收场。他深刻体会到,�
     var qb=document.getElementById('quartz-body'); if(!qb||!qb.parentElement) return;
     qb.parentElement.insertBefore(bar, qb);
   }
-  function all(){ topbar(); move(); adopt(); graph(); }
+  // C13f:相关单集区(.pd-ex / .pd-exit)里的单集链接也在新标签页开,与首页卡片同口径。
+  // 它们是 markdown 双链、由 Quartz 渲染成 <a>,只能渲染完再打标记。
+  // ⚠️ 这段注释会原样进页面 —— 别在这里写那个区块的中文标题,
+  //    render-related 有一条守卫在断言「不传 related 时整页不出现那四个字」。
+  // data-router-ignore 是关键:Quartz SPA 判 _blank 只看事件目标本身,点到子元素会漏。
+  function newtab(){
+    document.querySelectorAll('.pd-ex a, .pd-exit a').forEach(function(a){
+      if(a.target==='_blank') return;
+      if(a.host && a.host!==location.host) return;   // 站外链接不归这条口径管
+      a.target='_blank'; a.rel='noopener'; a.dataset.routerIgnore='';
+    });
+  }
+  // 站名 logo 缺文件时摘掉 <img>,露出底下的引号标记(与首页同一条口径)
+  function logos(){
+    document.querySelectorAll('.pd .mk img').forEach(function(im){
+      if(im.__lg) return; im.__lg=1;
+      var kill=function(){ if(im.parentElement) im.remove(); };
+      if(im.complete && im.naturalWidth===0){ kill(); return; }
+      im.addEventListener('error', kill, {once:true});
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
   document.addEventListener('nav', all);
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', all); else all();
 })();

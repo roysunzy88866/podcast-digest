@@ -18,6 +18,16 @@
         "exec python3 '设计稿/serve.py' ${PORT:-8123}"
       ],
       "port": 8123
+    },
+    {
+      "name": "quartz-static",
+      "runtimeExecutable": "bash",
+      "runtimeArgs": [
+        "-c",
+        "cd \"/Users/Admin/Documents/Projects/X视频/site/public\" && exec python3 -m http.server \"${PORT:-8099}\""
+      ],
+      "port": 8099,
+      "autoPort": true
     }
   ]
 }
