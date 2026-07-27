@@ -18,6 +18,8 @@ tags:
   - 产品方法
 ---
 
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/">跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Adam Mosseri：AI 时代的团队重组与产品品味</span></a><div class="pd-acts"></div></div></header></div>
+
 # Adam Mosseri：AI 时代的团队重组与产品品味
 
 <div class="pd-mt">2026-07-09 · Lenny's Podcast · 68:26 · <a class="mcat" href="./tags/%E7%BB%84%E7%BB%87%E4%B8%8E%E9%A2%86%E5%AF%BC%E5%8A%9B">组织与领导力</a> · <a class="mcat" href="./tags/%E4%BA%A7%E5%93%81%E6%96%B9%E6%B3%95">产品方法</a></div>
@@ -37,9 +39,7 @@ tags:
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for)
 
-## 一句话 TLDR
-
-Instagram 负责人 Adam Mosseri 聊 AI 如何重塑团队、品味与推荐算法。
+<div class="pd-tldr"><b>一句话</b>Instagram 负责人 Adam Mosseri 聊 AI 如何重塑团队、品味与推荐算法。</div>
 
 本集嘉宾是 Instagram 负责人 [[Adam Mosseri|Adam Mosseri]]。他设计了早期的 Facebook 动态消息流，并在八年前接手 Instagram。在这场对谈中，他从大公司高管的视角，详细拆解了生成式 AI 正如何重塑大型产品团队的结构、技能边界以及人的核心竞争力；随后话锋一转，回归到 Instagram 平台本身，探讨了推荐算法的真正机制、AI 内容对创作者生态的冲击，以及作为平台「出气筒」的公共沟通哲学。全文大致分两条主线：前半部分谈「工具变了，团队和人才怎么变」；后半部分谈「内容生态变了，平台和产品怎么应对」。
 
@@ -133,7 +133,7 @@ Adam 宁愿每隔几年经历一次这样的反噬，也要坚持进化，也不
 2. **「品味」与「战略」成为终极护城河**：把东西造出来的门槛已被无限拉低。机械的数据分析与代码编写可以被外包给 AI，但定义「到底该造什么」的主观品味、以及制定有争议且反共识的战略，是人脑的核心价值所在。
 3. **算法并不具备语义理解，但正在改变**：不要高估推荐系统对你的了解。现有的嵌入模型只是一堆无法阅读的高维数字。但大语言模型正在赋予这些向量可解释性，让用户拥有了直接微调自己算法地图的能力。
 
-## 金句(中英对照 · 过机器闸门三联校验)
+<div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
 
 > 我实际上非常看好设计师，因为他们往往有品味，我认为这是更难想象被自动化掉的事情  
 > *i'm actually pretty long on design or designers because they tend to have taste and i think that is something that is much more difficult to imagine being automated away*  
@@ -171,26 +171,27 @@ Adam 宁愿每隔几年经历一次这样的反噬，也要坚持进化，也不
 > *i would much rather have backlashes like that every couple years but continue to evolve and continue to stay relevant than the alternative which would have been like we didn't have video we didn't have dms we didn't have stories we didn't have ranking*  
 > —— Adam Mosseri · [58:31] ^q9
 
-## 相关单集
+<div class="pd-sec">接着看</div>
 
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同公司:anthropic · 同概念:vibe coding
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同公司:anthropic · 同概念:品味 (taste)
-- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同公司:anthropic
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]] —— 同公司:anthropic
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」》]] —— 同公司:anthropic
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同公司:anthropic
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同公司:anthropic
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] —— 同概念:vibe coding
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]] —— 同公司:anthropic
-- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]] —— 同公司:anthropic
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]] —— 同公司:anthropic
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同公司:anthropic
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同公司:anthropic
-- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] —— 同公司:anthropic
-- [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同公司:anthropic
-- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]] —— 同公司:anthropic
-- [[2026-07-13-pg-the-complete-claude-stack-for-pms|《PM 如何用 Claude 把生产力提升 10 倍：全栈实战》]] —— 同概念:vibe coding
-- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]] —— 同公司:anthropic
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「组织与领导力」挖下去**
+
+- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」]] —— 同公司:anthropic
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构]] —— 同公司:anthropic
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2025-12-07-lennys-surge-ai-edwin-chen|Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理]] —— 同公司:anthropic · 同概念:vibe coding
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性]] —— 同公司:anthropic · 同概念:品味 (taste)
+- [[2026-03-01-lennys-the-design-process-is-dead|The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)]] —— 同公司:anthropic
+
+</div>
+</div>
 
 *本集关键词:产品团队重组 · AI 时代的人才与品味 · 推荐算法 · 创作者生态 · 平台公共沟通*
 
@@ -214,8 +215,22 @@ Adam 宁愿每隔几年经历一次这样的反噬，也要坚持进化，也不
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
-  document.addEventListener('nav', move);
-  move();
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
+    ['.search','.darkmode','.readermode'].forEach(function(sel){
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==acts) acts.appendChild(el);
+    });
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function all(){ move(); adopt(); graph(); }
+  document.addEventListener('nav', all);
+  all();
 })();
 </script>
 

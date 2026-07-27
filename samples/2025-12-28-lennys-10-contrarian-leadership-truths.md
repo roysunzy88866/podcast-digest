@@ -17,6 +17,8 @@ tags:
   - 组织与领导力
 ---
 
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/">跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷</span></a><div class="pd-acts"></div></div></header></div>
+
 # Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷
 
 <div class="pd-mt">2025-12-28 · Lenny's Podcast · 96:13 · <a class="mcat" href="./tags/%E7%BB%84%E7%BB%87%E4%B8%8E%E9%A2%86%E5%AF%BC%E5%8A%9B">组织与领导力</a></div>
@@ -36,9 +38,7 @@ tags:
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/10-contrarian-leadership-truths)
 
-## 一句话 TLDR
-
-Rippling CPO 谈如何用极度紧绷的状态对抗组织熵增,以及何时该放弃并退出创业。
+<div class="pd-tldr"><b>一句话</b>Rippling CPO 谈如何用极度紧绷的状态对抗组织熵增,以及何时该放弃并退出创业。</div>
 
 [[Matt MacInnis|Matt MacInnis]] 是 [[Rippling|Rippling]] 的首席产品官(CPO),在此之前他长期担任公司的首席运营官(COO)。他在苹果工作了七年,也曾自己创办过公司。Rippling 是一家估值超过 160 亿美元的企业软件公司。本集访谈围绕着一个核心主张展开:**非凡的成果必然要求非凡的努力,组织必须时刻保持高强度的紧绷状态**。文章脉络分为三个部分:第一部分讲为什么领导者要刻意制造紧绷感;第二部分是他跨界接手产品团队后,总结出的高阶管理与产品框架;第三部分则探讨一个反直觉的建议——创业有时应该果断放弃,以及他对 AI 时代企业软件终局的判断。
 
@@ -94,7 +94,7 @@ Matt 曾创办一家公司长达九年,却以黯然收场。他深刻体会到,�
 2. **引入流程的唯一目的是降低系统的波动性,但代价是抑制创新**。优秀的领导者必须审慎地判断:在哪些环节你需要极度的稳定(低波动),在哪些环节你需要为创新留出超额回报的空间。
 3. **没有产品市场契合度时,果断放弃比盲目坚持更重要**。不要被风险投资家的叙事绑架,市场是否需要你的产品是命运既定的事实,营销无法凭空创造出需求。
 
-## 金句(中英对照 · 过机器闸门三联校验)
+<div class="pd-sec">全部金句 <span>15 条(中英对照,已过机器闸门)</span></div>
 
 > 对我来说,我们要感觉公司里的每一个项目都是故意人手不足的,这一点真的很重要。  
 > *It is really important to me that we feel that we've deliberately understaffed every project at the company.*  
@@ -156,36 +156,28 @@ Matt 曾创办一家公司长达九年,却以黯然收场。他深刻体会到,�
 > *The only antidote to entropy, the only antidote to decay in a system is energy.*  
 > —— Matt MacInnis · [63:17] ^q15
 
-## 相关单集
+<div class="pd-sec">接着看</div>
 
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别只想推销：产品负责人如何真正影响高管决策》]] —— 同嘉宾:Lenny · 同概念:产品市场契合度 (product market fit)
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] —— 同嘉宾:Lenny · 同概念:产品市场契合度 (product market fit)
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同嘉宾:Lenny · 同公司:Notion
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同嘉宾:Lenny · 同公司:Apple
-- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]] —— 同嘉宾:Lenny
-- [[2025-11-20-lennys-slack-founder-stewart-butterfield|《把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学》]] —— 同嘉宾:Lenny
-- [[2025-11-23-lennys-a-guide-to-difficult-conversations|《别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课》]] —— 同嘉宾:Lenny
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] —— 同嘉宾:Lenny
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同嘉宾:Lenny
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验》]] —— 同嘉宾:Lenny
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同嘉宾:Lenny
-- [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] —— 同嘉宾:Lenny
-- [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|《育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”》]] —— 同嘉宾:Lenny
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代》]] —— 同嘉宾:Lenny
-- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同嘉宾:Lenny
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] —— 同嘉宾:Lenny
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同嘉宾:Lenny
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]] —— 同嘉宾:Lenny
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评》]] —— 同嘉宾:Lenny
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同嘉宾:Lenny
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要》]] —— 同嘉宾:Lenny
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」》]] —— 同嘉宾:Lenny
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] —— 同嘉宾:Lenny
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同嘉宾:Lenny
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]] —— 同嘉宾:Lenny
-- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]] —— 同嘉宾:Lenny
-- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失》]] —— 同嘉宾:Lenny
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]] —— 同嘉宾:Lenny
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「组织与领导力」挖下去**
+
+- [[2025-11-23-lennys-a-guide-to-difficult-conversations|别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课]] —— 同嘉宾:Lenny
+- [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”]] —— 同嘉宾:Lenny
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代]] —— 同嘉宾:Lenny
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|别只想推销：产品负责人如何真正影响高管决策]] —— 同嘉宾:Lenny · 同概念:产品市场契合度 (product market fit)
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」]] —— 同嘉宾:Lenny · 同概念:产品市场契合度 (product market fit)
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性]] —— 同嘉宾:Lenny · 同公司:Notion
+
+</div>
+</div>
 
 *本集关键词:企业管理 · 组织设计 · 产品市场契合度 · AI 时代的企业软件 · 创业心法*
 
@@ -209,8 +201,22 @@ Matt 曾创办一家公司长达九年,却以黯然收场。他深刻体会到,�
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
-  document.addEventListener('nav', move);
-  move();
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
+    ['.search','.darkmode','.readermode'].forEach(function(sel){
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==acts) acts.appendChild(el);
+    });
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function all(){ move(); adopt(); graph(); }
+  document.addEventListener('nav', all);
+  all();
 })();
 </script>
 

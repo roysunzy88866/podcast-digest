@@ -16,6 +16,8 @@ tags:
   - 智能体
 ---
 
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/">跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>赋予AI智能体计算机——Daytona创始人Ivan Burazin</span></a><div class="pd-acts"></div></div></header></div>
+
 # 赋予AI智能体计算机——Daytona创始人Ivan Burazin
 
 <div class="pd-mt">2026-05-21 · Latent Space · 70:18 · <a class="mcat" href="./tags/%E6%99%BA%E8%83%BD%E4%BD%93">智能体</a></div>
@@ -33,9 +35,7 @@ tags:
 >
 > **来源**:[Latent Space](https://www.latent.space/p/daytona)
 
-## 一句话 TLDR
-
-Daytona 为智能体打造毫秒级启动的裸金属沙箱,迎击 RL 训练与后台智能体的算力新挑战。
+<div class="pd-tldr"><b>一句话</b>Daytona 为智能体打造毫秒级启动的裸金属沙箱,迎击 RL 训练与后台智能体的算力新挑战。</div>
 
 本期对话围绕**[[智能体|智能体]](agent,指能自主执行任务的 AI 程序)**的底层计算基础设施展开。主持人和嘉宾 [[Ivan Burazin|Ivan Burazin]]([[Daytona|Daytona]] CEO)是多年老友。Ivan 曾创办过浏览器端开发环境 Code Anywhere,后来又做过名为 Shift 的技术大会。如今他带着对底层基础设施的深刻理解,创立了 Daytona,并在去年做出了一个历史性的转型。整场对话不仅盘点了「智能体到底需要什么样的计算机」,还深入探讨了算力市场的爆发现状、Windows/Mac [[沙箱|沙箱]]的实战痛点,以及下一代基础设施的演进方向 <button class="pd-ts" data-t="00:04" data-who="Ivan Burazin" data-en="Okay, we're in the studio with Ivan Bourazin, CEO of Daytona. Welcome. Thanks for having me, man." aria-label="回原文"></button>。
 
@@ -98,7 +98,7 @@ Ivan 认为,智能体就像人类一样,需要不同配置的计算机来完成�
 
 最后是对整个市场的预判。Semi Analysis(一家知名半导体分析机构)的 Dylan Patel 在他们的会议上指出,GPU 短缺之后,内存和 CPU 很快将成为下一个算力瓶颈 <button class="pd-ts" data-t="46:25" data-who="Ivan Burazin" data-en="And so how because that market is essentially quote unquote infinite, you will get to the point and Dylan Patel was at the conference talking about from Semi Analysis that talks usually about GPUs," aria-label="回原文"></button>。Ivan 认为,在这个增速疯狂的市场里,**预先囤积 CPU 将成为未来占领市场的关键战术**。最终,将会诞生一个专门为智能体构建的超级云,它包含沙箱、网络搜索和专为 AI 设计的数据库——这就是 Daytona 想要成为的那个存在 <button class="pd-ts" data-t="69:38" data-who="Ivan Burazin" data-en="So there will be a cloud built out specifically for agents. And so that cloud will have sandboxes and it will have web search and it'll have databases like SQLite or Neon or whatever," aria-label="回原文"></button>。
 
-## 金句(中英对照 · 过机器闸门三联校验)
+<div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
 
 > 但如果你想一次启动 50,000 个,我们现在大约需要 75 秒。  
 > *But if you want to spin up 50,000 at once, we are now at about 75 seconds.*  
@@ -120,31 +120,28 @@ Ivan 认为,智能体就像人类一样,需要不同配置的计算机来完成�
 > *The entire infrastructure market is growing 40% plus or minus month over month.*  
 > —— Ivan Burazin · [67:14] ^q5
 
-## 相关单集
+<div class="pd-sec">接着看</div>
 
-- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
-- [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
-- [[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]] —— 同公司:Neon · 同概念:智能体 (agent)
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] —— 同概念:智能体 (agent)
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验》]] —— 同概念:智能体 (agent)
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同概念:智能体 (agent)
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] —— 同概念:智能体 (agent)
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同概念:智能体 (agent)
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同概念:智能体 (agent)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] —— 同概念:智能体 (agent)
-- [[2026-06-03-latent-space-satya-2026|《Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP》]] —— 同概念:智能体 (agent)
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同概念:智能体 (agent)
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] —— 同概念:智能体 (agent)
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同概念:智能体 (agent)
-- [[2026-06-24-pg-company-os-jz|《AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战》]] —— 同概念:智能体 (agent)
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] —— 同概念:智能体 (agent)
-- [[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]] —— 同概念:智能体 (agent)
-- [[2026-07-13-pg-the-complete-claude-stack-for-pms|《PM 如何用 Claude 把生产力提升 10 倍：全栈实战》]] —— 同概念:智能体 (agent)
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:智能体 (agent)
-- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]] —— 同概念:智能体 (agent)
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同概念:智能体 (agent)
-- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]] —— 同公司:Cognition
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]] —— 同概念:计算机使用 (computer use)
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「智能体」挖下去**
+
+- [[2026-06-22-latent-space-gray-swan|让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
+- [[2026-07-08-latent-space-modal|从避战大模型到押注智能体：Modal 的推理基础设施进化史]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
+- [[2026-06-24-latent-space-databricks|Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图]] —— 同公司:Neon · 同概念:智能体 (agent)
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织]] —— 同概念:智能体 (agent)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同概念:智能体 (agent)
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同概念:智能体 (agent)
+
+</div>
+</div>
 
 *本集关键词:智能体基础设施 · 计算沙箱 · 突发负载 · RPA与计算机使用 · 开源策略*
 
@@ -168,8 +165,22 @@ Ivan 认为,智能体就像人类一样,需要不同配置的计算机来完成�
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
-  document.addEventListener('nav', move);
-  move();
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
+    ['.search','.darkmode','.readermode'].forEach(function(sel){
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==acts) acts.appendChild(el);
+    });
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function all(){ move(); adopt(); graph(); }
+  document.addEventListener('nav', all);
+  all();
 })();
 </script>
 

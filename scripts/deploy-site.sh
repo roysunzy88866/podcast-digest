@@ -15,8 +15,12 @@ set -e
 #    修:已提交的干净集(如 Netflix)音频不在仓、rebuildAll 未必重跑 → 部署前统一补,避免 cp 找不到音频。
 for d in data/episodes/*/; do
   [ -d "$d" ] || continue   # 空 glob 保护(与下方 cp 循环一致)
-  if [ -f "${d}digest.json" ] && [ ! -f "${d}audio.mp3" ]; then
-    echo "补音频:$d"; node scripts/tts.mjs "$d" || echo "::warning::音频合成失败 $d"
+  # ⚠️ 不要在这里判「audio.mp3 在不在」。tts.mjs 自己会比对**音频对应文本的指纹**:
+  #    没变就跳过(幂等、不重复计费),变了就重念。加了「文件在就跳过」反而会挡住它 ——
+  #    自从部署加了音频缓存(旧音频会被取回来),那样会让改过内容的集挂着**旧文本念的音频**,
+  #    而这条部署通道不跑 gate-all,没人拦得住。
+  if [ -f "${d}digest.json" ]; then
+    node scripts/tts.mjs "$d" || echo "::warning::音频合成失败 $d"
   fi
 done
 # 1) bootstrap Quartz v5(钉 commit)+ baseUrl 设 talk.solomind.cc

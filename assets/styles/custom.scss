@@ -139,7 +139,12 @@ body[data-slug^="tags/"] {
   .pd-top {
     border-bottom: 1px solid var(--B3);
     background: var(--B0);
-    position: static;
+    position: relative;
+    /* full-bleed:集页的顶栏长在 article 里(它是渲染出来的 markdown 的一部分),
+       不挣脱就只有中栏那 694px 宽(1440 视口实测)。首页的 .pd 本来就占满,这条对它无影响。 */
+    left: 50%;
+    width: 100vw;
+    margin-left: -50vw;
   }
   .pd-topin {
     max-width: 1200px;
@@ -681,10 +686,12 @@ body:has(.pd-play) {
   .note-properties-header,
   .note-properties-separator { display: none; }
 
+  /* C13d-2:Quartz 自带的「反向链接」块 —— 设计稿右栏没有它,列的集还跟「接着看」重复(实测 178px) */
+  .right.sidebar .backlinks { display: none; }
+
   /* 右栏各块的小标题:设计稿 .sh(12px/700/浅灰/字距 .6) */
   .right.sidebar {
     .toc-header h3,
-    .backlinks h3,
     .graph h3 {
       font-family: var(--puhui);
       font-size: 12px;
@@ -727,8 +734,6 @@ body:has(.pd-play) {
     .pd-rel .callout-content strong { color: var(--B7); font-weight: 500; }
     .pd-rel .callout-content a { color: var(--pd-accent); }
 
-    .backlinks a { font-size: 13.5px; line-height: 1.8; color: var(--B7); }
-    .backlinks a:hover { color: var(--pd-accent); }
   }
 }
 
@@ -836,4 +841,100 @@ body:has(.pd-play) article blockquote:has(> p[id^="q"]) em {
     bottom: -6px;
   }
   .pd-orig { font-size: 13px; padding: 10px 12px; }
+}
+
+/* ── C13d-2 单集页补完(设计稿 .tldr / .sec / .exit / .mtitle)──
+   数值照抄 需求共创/原型/style.css,不自己发明。 */
+
+/* 一句话摘要:灰底框 + 红色小标签(设计稿 .tldr) */
+.pd-tldr {
+  background: #f7f6f3;
+  border-radius: 6px;
+  padding: 13px 17px;
+  margin: 0 0 30px;
+  font-size: 14.5px;
+  color: #3a3a3a;
+  line-height: 1.8;
+}
+.pd-tldr b {
+  display: block;
+  margin-bottom: 3px;
+  font-size: 11.5px;
+  color: #b8443c;
+  letter-spacing: 1px;
+}
+
+/* 分区小标签(设计稿 .sec):12px 灰色字距标签 + 一句灰色说明 */
+.pd-sec {
+  display: flex;
+  align-items: baseline;
+  gap: 9px;
+  margin: 36px 0 14px;
+  font-family: var(--puhui);
+  font-size: 13px;
+  font-weight: 700;
+  color: #6a6a6a;
+  letter-spacing: 0.4px;
+}
+.pd-sec span { font-size: 11.5px; font-weight: 400; color: var(--B5); }
+
+/* 接着看:两栏卡片(设计稿 .exit / .ex) */
+.pd-exit {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-top: 16px;
+}
+.pd-ex {
+  border: 1px solid var(--B3);
+  border-radius: 6px;
+  padding: 15px 17px;
+  background: var(--pd-card, #fff);
+}
+/* 卡片标题走 markdown 的 **粗体** → <strong>(不用 <b>:markdown 出不了 b) */
+.pd-ex p:first-child strong {
+  display: block;
+  margin-bottom: 8px;
+  font-size: 11.5px;
+  color: #b8443c;
+  letter-spacing: 0.4px;
+  font-weight: 700;
+}
+.pd-ex ul { margin: 0; padding: 0; list-style: none; }
+.pd-ex li { padding: 5px 0; font-size: 14px; line-height: 1.5; }
+.pd-ex li a { font-weight: 500; }
+.pd-ex li a:hover { color: var(--pd-accent); }
+@media (max-width: 1023px) { .pd-exit { grid-template-columns: 1fr; } }
+
+/* 关系图谱搬到正文底部(ADR 0016:留一跳邻域,但不占右栏) */
+.pd-graph { margin-top: 36px; }
+.pd-graph .graph h3 {
+  font-family: var(--puhui);
+  font-size: 13px;
+  font-weight: 700;
+  color: #6a6a6a;
+  letter-spacing: 0.4px;
+  margin: 0 0 14px;
+}
+
+/* 集页顶栏的「← 返回」与手机版「← 本集标题」(设计稿 .back / .mtitle) */
+.pd-back { margin-left: 28px; font-size: 13.5px; color: var(--B6); white-space: nowrap; }
+.pd-back:hover { color: var(--pd-accent); }
+.pd-mtitle { display: none; }
+@media (max-width: 1023px) {
+  .pd-top .b { display: none; }   /* 站名让位给「← 标题」 */
+  .pd-back { display: none; }
+  .pd-mtitle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+    font-family: var(--puhui);
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--B8);
+    letter-spacing: 0.2px;
+  }
+  .pd-mtitle span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .pd-mtitle:hover { color: var(--pd-accent); }
 }

@@ -372,3 +372,17 @@ describe("planEpisodeAudio · 纯规划(strip+chunk+hash 一次到位)", () => {
     expect(plan.voice).toBe(DEFAULT_VOICE);
   });
 });
+
+describe("部署脚本不许自己判「音频在不在」(会挡住 tts 的陈旧检测)", () => {
+  const sh = readFileSync(new URL("../scripts/deploy-site.sh", import.meta.url), "utf8");
+
+  it("★★★ 补音频那步不带 `! -f audio.mp3` 判断 —— 加了缓存后它会让改过的集挂旧音频", () => {
+    expect(sh).not.toMatch(/!\s*-f\s*"\$\{d\}audio\.mp3"/);
+    expect(sh).toMatch(/if \[ -f "\$\{d\}digest\.json" \]; then/);
+  });
+
+  it("★★ tts 的幂等靠指纹而非文件存在(改了内容必须重念)", () => {
+    const tts = readFileSync(new URL("../scripts/tts.mjs", import.meta.url), "utf8");
+    expect(tts).toContain("prev.source_sha256 === plan.hash");
+  });
+});

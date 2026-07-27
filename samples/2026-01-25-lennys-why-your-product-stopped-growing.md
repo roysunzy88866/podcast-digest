@@ -16,6 +16,8 @@ tags:
   - 增长与销售
 ---
 
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/">跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>增长停滞怎么办？Jason Cohen 的四步诊断法</span></a><div class="pd-acts"></div></div></header></div>
+
 # 增长停滞怎么办？Jason Cohen 的四步诊断法
 
 <div class="pd-mt">2026-01-25 · Lenny's Podcast · 106:00 · <a class="mcat" href="./tags/%E5%A2%9E%E9%95%BF%E4%B8%8E%E9%94%80%E5%94%AE">增长与销售</a></div>
@@ -33,9 +35,7 @@ tags:
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/why-your-product-stopped-growing)
 
-## 一句话 TLDR
-
-从流失率、定价、净收入留存到渠道饱和度，按序排查增长瓶颈。
+<div class="pd-tldr"><b>一句话</b>从流失率、定价、净收入留存到渠道饱和度，按序排查增长瓶颈。</div>
 
 很多产品团队都经历过这样的痛苦：产品好不容易有起色，开始增长，然后突然就停滞了。[[Jason Cohen|Jason Cohen]] 是一位四次创业者，曾创办两家独角兽公司，过去近 20 年里一直在博客上深度分享产品与商业心得。本集他系统地分享了一套非常实用的「增长停滞诊断框架」。
 
@@ -110,7 +110,7 @@ Jason 提醒，关键是要分清「是你需要增长，还是你的自我意�
 3. **警惕漂亮的 NRR 掩盖流失**：跌 20% 需要涨 25% 才能回本。如果老客户在快速流失，剩下的人再怎么升级套餐也救不回全局。
 4. **渠道终将衰退，逼自己破局**：不要指望永远靠同一个广告渠道吃饭。渠道饱和时，试试换一个全新的获客模式（比如发展代理分销商），或者干脆开发新产品。
 
-## 金句(中英对照 · 过机器闸门三联校验)
+<div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
 
 > 你的价格太低了，因为你只是猜的，而且你从未改变过它们。  
 > *Your prices are way too low because you just guessed and you haven't changed them.*  
@@ -132,10 +132,18 @@ Jason 提醒，关键是要分清「是你需要增长，还是你的自我意�
 > *how this company was able to charge eight times as much for the same product just by talking about it differently.*  
 > —— Jason Cohen · [42:21] ^q5
 
-## 相关单集
+<div class="pd-sec">接着看</div>
 
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] —— 同概念:SaaS
-- [[2026-06-03-latent-space-satya-2026|《Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP》]] —— 同概念:SaaS
+<div class="pd-exit">
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切]] —— 同概念:SaaS
+- [[2026-06-03-latent-space-satya-2026|Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP]] —— 同概念:SaaS
+
+</div>
+</div>
 
 *本集关键词:SaaS 增长 · 客户流失 · 定价策略 · 净收入留存 · 营销渠道*
 
@@ -159,8 +167,22 @@ Jason 提醒，关键是要分清「是你需要增长，还是你的自我意�
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
-  document.addEventListener('nav', move);
-  move();
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
+    ['.search','.darkmode','.readermode'].forEach(function(sel){
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==acts) acts.appendChild(el);
+    });
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function all(){ move(); adopt(); graph(); }
+  document.addEventListener('nav', all);
+  all();
 })();
 </script>
 

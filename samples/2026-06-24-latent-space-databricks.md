@@ -16,6 +16,8 @@ tags:
   - 智能体
 ---
 
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/">跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图</span></a><div class="pd-acts"></div></div></header></div>
+
 # Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图
 
 <div class="pd-mt">2026-06-24 · Latent Space · 68:43 · <a class="mcat" href="./tags/%E6%99%BA%E8%83%BD%E4%BD%93">智能体</a></div>
@@ -33,9 +35,7 @@ tags:
 >
 > **来源**:[Latent Space](https://www.latent.space/p/databricks)
 
-## 一句话 TLDR
-
-两位创始人详解智能体平台 Omnigen、打通交易与分析的 LTAP，以及从零重写的数据库引擎。
+<div class="pd-tldr"><b>一句话</b>两位创始人详解智能体平台 Omnigen、打通交易与分析的 LTAP，以及从零重写的数据库引擎。</div>
 
 [[Databricks|Databricks]] 是大数据领域的一家头部公司，本次 Data AI Summit 有 3 万人亲自到场。这期访谈的两位嘉宾是 Databricks 的联合创始人 [[Reynold Xin|Reynold Xin]] 与 [[Matei Zaharia|Matei Zaharia]]（同时也是知名计算框架 [[Spark|Spark]] 的作者）。本集聊了他们最近发布的两大核心动作：第一个是关于[[智能体|智能体]]怎么管——如何为 AI 编程智能体打造一个开源的托管与安全底座（平台名为 [[Omnigen|Omnigen]]）；第二个是关于数据怎么连——如何消灭繁琐的数据管道，把交易型数据库和分析型数据库在存储层统一起来（这个技术叫 [[LTAP|LTAP]]）。全文沿着这两条主线展开，最后还聊到了他们从零重写数据库引擎的野心，以及和竞争对手 [[Snowflake|Snowflake]] 的路线之别。
 
@@ -85,7 +85,7 @@ Reynold Xin 给出了两个关键判断：一是「拥抱开放」，二是「�
 2. **数据层合并比查询层合并更现实**：HTAP（试图用一个引擎干所有事）妥协太多，而 LTAP 直接统一存储层、允许分析引擎零延迟直读交易数据，才是真正能消灭数据管道的解法。
 3. **大公司的创新靠「直接试」**：避免「第二系统综合征」的最佳方式，是用真实数据和机器学习模型来指导系统架构重写，用跑通的原型去终结无休止的会议辩论。
 
-## 金句(中英对照 · 过机器闸门三联校验)
+<div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
 
 > 我让一个智能体去调试某个东西,它花了 500 美元,因为它决定读取大量日志文件并消耗大量 token。  
 > *I asked an agent to debug something and it spent $500 because it decided to read a lot of log files and burn a lot of tokens.*  
@@ -123,29 +123,28 @@ Reynold Xin 给出了两个关键判断：一是「拥抱开放」，二是「�
 > *Vector database should have never been a separate category.*  
 > —— Reynold Xin · [51:18] ^q9
 
-## 相关单集
+<div class="pd-sec">接着看</div>
 
-- [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同公司:Neon · 同概念:智能体 (agent)
-- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] —— 同公司:Snowflake · 同概念:智能体 (agent)
-- [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同概念:智能体 (agent)、Kubernetes
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] —— 同概念:智能体 (agent)
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验》]] —— 同概念:智能体 (agent)
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同概念:智能体 (agent)
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] —— 同概念:智能体 (agent)
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同概念:智能体 (agent)
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同概念:智能体 (agent)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] —— 同概念:智能体 (agent)
-- [[2026-06-03-latent-space-satya-2026|《Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP》]] —— 同概念:智能体 (agent)
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同概念:智能体 (agent)
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] —— 同概念:智能体 (agent)
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同概念:智能体 (agent)
-- [[2026-06-24-pg-company-os-jz|《AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战》]] —— 同概念:智能体 (agent)
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] —— 同概念:智能体 (agent)
-- [[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]] —— 同概念:智能体 (agent)
-- [[2026-07-13-pg-the-complete-claude-stack-for-pms|《PM 如何用 Claude 把生产力提升 10 倍：全栈实战》]] —— 同概念:智能体 (agent)
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:智能体 (agent)
-- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]] —— 同概念:智能体 (agent)
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同概念:智能体 (agent)
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「智能体」挖下去**
+
+- [[2026-05-21-latent-space-daytona|赋予AI智能体计算机——Daytona创始人Ivan Burazin]] —— 同公司:Neon · 同概念:智能体 (agent)
+- [[2026-06-22-latent-space-gray-swan|让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏]] —— 同公司:Snowflake · 同概念:智能体 (agent)
+- [[2026-07-08-latent-space-modal|从避战大模型到押注智能体：Modal 的推理基础设施进化史]] —— 同概念:智能体 (agent)、Kubernetes
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织]] —— 同概念:智能体 (agent)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同概念:智能体 (agent)
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同概念:智能体 (agent)
+
+</div>
+</div>
 
 *本集关键词:智能体管理 · 开源托管底座 · LTAP与存储统一 · 数据库引擎重写 · AI与数据战略*
 
@@ -169,8 +168,22 @@ Reynold Xin 给出了两个关键判断：一是「拥抱开放」，二是「�
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
-  document.addEventListener('nav', move);
-  move();
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
+    ['.search','.darkmode','.readermode'].forEach(function(sel){
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==acts) acts.appendChild(el);
+    });
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function all(){ move(); adopt(); graph(); }
+  document.addEventListener('nav', all);
+  all();
 })();
 </script>
 

@@ -17,6 +17,8 @@ tags:
   - 产品方法
 ---
 
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/">跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)</span></a><div class="pd-acts"></div></div></header></div>
+
 # The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)
 
 <div class="pd-mt">2026-03-01 · Lenny's Podcast · 77:22 · <a class="mcat" href="./tags/%E4%BA%A7%E5%93%81%E6%96%B9%E6%B3%95">产品方法</a></div>
@@ -36,9 +38,7 @@ tags:
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/the-design-process-is-dead)
 
-## 一句话 TLDR
-
-Claude设计负责人Jenny Wen分享AI时代设计流程剧变:旧流程已死,设计师从画图者转向愿景领航员与代码实现者。
+<div class="pd-tldr"><b>一句话</b>Claude设计负责人Jenny Wen分享AI时代设计流程剧变:旧流程已死,设计师从画图者转向愿景领航员与代码实现者。</div>
 
 今天的嘉宾是 [[Jenny Wen|Jenny Wen]],她曾是 [[Claude|Claude]] 的设计负责人,现在领导 [[Claude Cowork|Claude Cowork]] 的设计。在加入 [[Anthropic|Anthropic]] 之前,她是 [[Figma|Figma]] 的设计总监,领导了 FigJam 和 Slides 背后的设计团队,也曾在 Dropbox、Square 和 Shopify 担任设计师。本集的核心问题是:当 AI 让工程师能独自构建大量功能时,设计师的角色和工作流程会发生怎样的剧变?接下来我们将围绕六个话题展开:旧流程为何失效、新型设计工作长什么样、在 AI 实验室做设计是什么体验、人的价值还剩什么、管理者该往哪走,以及未来要招什么样的设计师。
 
@@ -108,7 +108,7 @@ Jenny 描述了一个非常特别的日常状态:她每天会花相当一部分�
 2. **AI 没有剥夺人的判断责任**:即便 AI 能写出所有代码、甚至提出方案,但面对多方分歧时,最终拍板决定「到底做不做、怎么做」并为此担责的,依然是人。
 3. **管理者必须重新下场**:纯粹的人员管理正在失去价值。只有退回一线、亲自体验工具剧变的管理者,才能真正理解并引领当下极度变化的团队。
 
-## 金句(中英对照 · 过机器闸门三联校验)
+<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
 
 > 我认为它在 AI 时代之前就已经在消亡了,但既然现在工程师可以离开并启动他们的七个 Claude,我认为作为设计师,我们真的必须放弃那个流程。  
 > *I think it was sort of dying before the age of AI, but given now that engineers can go off and spin off their seven Claudes, I think as designers, we really have to let go of that process.*  
@@ -138,46 +138,28 @@ Jenny 描述了一个非常特别的日常状态:她每天会花相当一部分�
 > *But when I think about leaders and managers that I respect the most, I actually think some of their best traits is that they choose low leverage tasks that they take on themselves, and that actually ends up being actually a very high leverage thing, because it's them who's doing it.*  
 > —— Jenny Wen · [55:41] ^q7
 
-## 相关单集
+<div class="pd-sec">接着看</div>
 
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:IC
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]] —— 同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:Claude
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同嘉宾:Lenny · 同公司:Claude Code、Anthropic
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别只想推销：产品负责人如何真正影响高管决策》]] —— 同嘉宾:Lenny · 同公司:Slack · 同概念:智能体 (agents)
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同嘉宾:Lenny · 同公司:Figma、Anthropic
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同嘉宾:Lenny · 同公司:Claude Code
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要》]] —— 同嘉宾:Lenny · 同概念:智能体 (agents)
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」》]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] —— 同嘉宾:Lenny · 同公司:Claude Code
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2026-07-13-pg-the-complete-claude-stack-for-pms|《PM 如何用 Claude 把生产力提升 10 倍：全栈实战》]] —— 同公司:Claude Code · 同概念:Claude
-- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失》]] —— 同嘉宾:Lenny · 同概念:智能体 (agents)
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude
-- [[2025-11-20-lennys-slack-founder-stewart-butterfield|《把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学》]] —— 同嘉宾:Lenny · 同公司:Slack
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评》]] —— 同嘉宾:Lenny · 同概念:心理安全感 (psychological safety)
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] —— 同嘉宾:Lenny · 同概念:Claude
-- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]] —— 同嘉宾:Lenny
-- [[2025-11-23-lennys-a-guide-to-difficult-conversations|《别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课》]] —— 同嘉宾:Lenny
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] —— 同嘉宾:Lenny
-- [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷》]] —— 同嘉宾:Lenny
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验》]] —— 同嘉宾:Lenny
-- [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] —— 同嘉宾:Lenny
-- [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|《育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”》]] —— 同嘉宾:Lenny
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代》]] —— 同嘉宾:Lenny
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] —— 同嘉宾:Lenny
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] —— 同公司:Claude Code
-- [[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]] —— 同公司:Figma
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同公司:Claude Code
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]] —— 同公司:Anthropic
-- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]] —— 同公司:Anthropic
-- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] —— 同公司:Anthropic · 同概念:Claude
-- [[2026-06-24-pg-company-os-jz|《AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战》]] —— 同公司:Slack
-- [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同公司:Anthropic
-- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]] —— 同公司:Anthropic
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「产品方法」挖下去**
+
+- [[2026-07-26-lennys-anthropics-first-technical-pm-on|evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经]] —— 同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:Claude
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性]] —— 同嘉宾:Lenny · 同公司:Figma、Anthropic
+- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要]] —— 同嘉宾:Lenny · 同概念:智能体 (agents)
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构]] —— 同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:IC
+- [[2025-12-07-lennys-surge-ai-edwin-chen|Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同嘉宾:Lenny · 同公司:Claude Code、Anthropic
+
+</div>
+</div>
 
 *本集关键词:设计流程演变 · AI 工作流 · 设计师角色 · 管理层退回一线 · 招聘原型*
 
@@ -201,8 +183,22 @@ Jenny 描述了一个非常特别的日常状态:她每天会花相当一部分�
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
-  document.addEventListener('nav', move);
-  move();
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
+    ['.search','.darkmode','.readermode'].forEach(function(sel){
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==acts) acts.appendChild(el);
+    });
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function all(){ move(); adopt(); graph(); }
+  document.addEventListener('nav', all);
+  all();
 })();
 </script>
 

@@ -18,6 +18,8 @@ tags:
   - 产品方法
 ---
 
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/">跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴</span></a><div class="pd-acts"></div></div></header></div>
+
 # AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴
 
 <div class="pd-mt">2026-04-19 · Lenny's Podcast · 95:08 · <a class="mcat" href="./tags/%E8%81%8C%E4%B8%9A%E4%B8%8E%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF">职业与个人成长</a> · <a class="mcat" href="./tags/%E4%BA%A7%E5%93%81%E6%96%B9%E6%B3%95">产品方法</a></div>
@@ -37,9 +39,7 @@ tags:
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble)
 
-## 一句话 TLDR
-
-前 Meta、Google 高管 Nikhyl Singhal 断言：PM 行业正在大洗牌，未来两年唯有成为拥抱 AI 的「构建者」才能生存。
+<div class="pd-tldr"><b>一句话</b>前 Meta、Google 高管 Nikhyl Singhal 断言：PM 行业正在大洗牌，未来两年唯有成为拥抱 AI 的「构建者」才能生存。</div>
 
 主持人 [[Lenny|Lenny]] 邀请到前 Meta 和 Google 的长期高管、四次创业者 [[Nikhyl Singhal|Nikhyl Singhal]]。Nikhyl 运营着由顶尖产品负责人组成的 [[Skip|Skip]] 社区，长期与行业一线保持密切交流。本期他们直击 AI 时代[[产品经理|产品经理]]（PM）正在经历的剧烈动荡。全文将围绕三个核心展开：**行业正在发生什么巨变、为什么自我重塑如此艰难、以及个体如何找到出路。**
 
@@ -88,7 +88,7 @@ Nikhyl 提出了几条硬核建议：
 2. **别被大厂品牌拖累**：过去十年的金子招牌正在失效。如果你的工作方式不现代、没用 AI 工具，你在顶级公司的履历反而会让你显得脱节。保持现代化比过往背景更重要。
 3. **从恐惧跨向快乐**：重塑自我的关键是先找到用 AI 做出一个具体小工具的乐趣。一旦体验到那种「点灯泡」般的满足感，你就会着迷，并自然而然地腾出时间去成为真正的「构建者」。
 
-## 金句(中英对照 · 过机器闸门三联校验)
+<div class="pd-sec">全部金句 <span>8 条(中英对照,已过机器闸门)</span></div>
 
 > 总的来说，这个职能已经变得极其专注于没有权力的责任。  
 > *Generally, the function had become extremely focused on responsibility without authority.*  
@@ -122,37 +122,28 @@ Nikhyl 提出了几条硬核建议：
 > *Genius is 1% inspiration, 99% perspiration.*  
 > —— Nikhyl Singhal · [89:28] ^q8
 
-## 相关单集
+<div class="pd-sec">接着看</div>
 
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]] —— 同公司:Anthropic、Google、Tesla
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同公司:Codex · 同概念:智能体 (agent)
-- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同公司:Anthropic、Claude
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] —— 同公司:Tesla · 同概念:智能体 (agent)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] —— 同公司:Codex · 同概念:智能体 (agent)
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同公司:Anthropic · 同概念:智能体 (agent)
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同公司:Anthropic · 同概念:智能体 (agent)
-- [[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]] —— 同公司:Codex · 同概念:智能体 (agent)
-- [[2026-07-13-pg-the-complete-claude-stack-for-pms|《PM 如何用 Claude 把生产力提升 10 倍：全栈实战》]] —— 同公司:Claude · 同概念:智能体 (agent)
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同公司:Codex · 同概念:智能体 (agent)
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]] —— 同公司:Anthropic、Claude
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] —— 同概念:智能体 (agent)
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同公司:Anthropic
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验》]] —— 同概念:智能体 (agent)
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同概念:智能体 (agent)
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]] —— 同公司:Anthropic
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同概念:智能体 (agent)
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」》]] —— 同公司:Anthropic
-- [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同概念:智能体 (agent)
-- [[2026-06-03-latent-space-satya-2026|《Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP》]] —— 同概念:智能体 (agent)
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] —— 同概念:智能体 (agent)
-- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] —— 同概念:智能体 (agent)
-- [[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]] —— 同概念:智能体 (agent)
-- [[2026-06-24-pg-company-os-jz|《AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战》]] —— 同概念:智能体 (agent)
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] —— 同概念:智能体 (agent)
-- [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同概念:智能体 (agent)
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]] —— 同公司:Anthropic
-- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]] —— 同概念:智能体 (agent)
-- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]] —— 同公司:Anthropic
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「职业与个人成长」挖下去**
+
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同公司:Codex · 同概念:智能体 (agent)
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切]] —— 同公司:Codex · 同概念:智能体 (agent)
+- [[2026-07-09-pg-pm-guide-ai-design|用 AI 武装技术型 PM：Codex 工作流全解析]] —— 同公司:Codex · 同概念:智能体 (agent)
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 悬崖边？数据中心次级债与 SpaceX 缩水]] —— 同公司:Anthropic、Google、Tesla
+- [[2026-03-01-lennys-the-design-process-is-dead|The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)]] —— 同公司:Anthropic、Claude
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同公司:Tesla · 同概念:智能体 (agent)
+
+</div>
+</div>
 
 *本集关键词:产品经理 · 构建者 · AI 时代职场 · 职业重塑 · 信息搬运工*
 
@@ -176,8 +167,22 @@ Nikhyl 提出了几条硬核建议：
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
-  document.addEventListener('nav', move);
-  move();
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
+    ['.search','.darkmode','.readermode'].forEach(function(sel){
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==acts) acts.appendChild(el);
+    });
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function all(){ move(); adopt(); graph(); }
+  document.addEventListener('nav', all);
+  all();
 })();
 </script>
 

@@ -17,6 +17,8 @@ tags:
   - 增长与销售
 ---
 
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/">跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师</span></a><div class="pd-acts"></div></div></header></div>
+
 # Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师
 
 <div class="pd-mt">2026-04-05 · Lenny's Podcast · 112:46 · <a class="mcat" href="./tags/%E5%A2%9E%E9%95%BF%E4%B8%8E%E9%94%80%E5%94%AE">增长与销售</a></div>
@@ -36,9 +38,7 @@ tags:
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/anthropics-1b-to-19b-growth-run)
 
-## 一句话 TLDR
-
-在增长快到「线性图都不酷了」的 Anthropic，增长团队用 AI 自动跑实验、让工程师当 mini-PM，还坚持把安全和品牌置于短期指标之上。
+<div class="pd-tldr"><b>一句话</b>在增长快到「线性图都不酷了」的 Anthropic，增长团队用 AI 自动跑实验、让工程师当 mini-PM，还坚持把安全和品牌置于短期指标之上。</div>
 
 [[Amol Avasare|Amol Avasare]] 是 [[Anthropic|Anthropic]] 的增长负责人。这家公司正处于人类商业史上罕见的增长轨道——14 个月内，年经常性收入（ARR，一种衡量订阅业务规模的指标）从 10 亿冲到 190 亿，过去几年一直保持每年 10 倍的增速 <button class="pd-ts" data-t="03:52" data-who="Amol Avasare" data-en="So you guys were at a billion ARR at the start of 2025, then hit something like 4 billion mid 2025, then 9 billion ARR at the end of 2025. And the last number I've seen is you guys are at 19 billion ARR, which just to put a couple pieces of context here, one is that's from $1 to $19 billion in 14 months." aria-label="回原文"></button>。作为对比，Atlassian、Palantir、Snowflake 这些成立了 15 到 20 年的成熟科技公司，ARR 也就在 40 亿到 60 亿之间，而 Anthropic 每几个月就能新增这么多 <button class="pd-ts" data-t="01:48" data-who="Lenny" data-en="By the time this episode comes out, their revenue will be even higher. To put this scale in perspective, companies like Atlassian, and Palantir, and Snowflake, which have been around for 15 to 20 years, each do something like 4.5 to 6 billion in ARR." aria-label="回原文"></button>。
 
@@ -79,7 +79,7 @@ Amol 自己加入 Anthropic 的经历就很反常规：当时他是 Claude 的�
 2. **摩擦不是坏事**：在模型能力日新月异、用户认知跟不上的 AI 产品里，适当地增加「正确的摩擦」（多问几个问题、多做几步引导），反而能帮用户理解产品价值，从而大幅提升激活和留存。
 3. **用你的工具替代初级白领**：通过把数据面板、财务报销、甚至内部利益冲突监测接入 AI 助手，并模拟上级视角给自己做每周复盘，你完全可以组建一个不知疲倦的「数字分身团队」。
 
-## 金句(中英对照 · 过机器闸门三联校验)
+<div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
 
 > 你需要明白，你过去 50%、60%、70% 的运作方式，直接把它们抛在脑后吧。  
 > *You need to understand that 50%, 60%, 70% of how you operate in the past, just throw it out the door.*  
@@ -101,28 +101,19 @@ Amol 自己加入 Anthropic 的经历就很反常规：当时他是 Claude 的�
 > *And I think in growth, I think it's really important that you just need to be okay leaving money on the table.*  
 > —— Amol Avasare · [76:23] ^q5
 
-## 相关单集
+<div class="pd-sec">接着看</div>
 
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」》]] —— 同公司:Anthropic · 同概念:公益公司 (public benefit corporation)
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同公司:Anthropic、OpenAI
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]] —— 同公司:Anthropic · 同概念:PRD
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同公司:Anthropic
-- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同公司:Anthropic
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同公司:Anthropic
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]] —— 同公司:Anthropic
-- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]] —— 同公司:Anthropic
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同公司:Anthropic、Cursor、Lovable
-- [[2025-11-20-lennys-slack-founder-stewart-butterfield|《把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学》]] —— 同公司:Slack
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别只想推销：产品负责人如何真正影响高管决策》]] —— 同公司:Slack
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同公司:Anthropic
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同公司:Anthropic
-- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] —— 同公司:Anthropic
-- [[2026-06-24-pg-company-os-jz|《AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战》]] —— 同公司:Slack
-- [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同公司:Anthropic
-- [[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]] —— 同公司:Cursor
-- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]] —— 同公司:Anthropic
-- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]] —— 同公司:Anthropic
+<div class="pd-exit">
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」]] —— 同公司:Anthropic · 同概念:公益公司 (public benefit corporation)
+- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 悬崖边？数据中心次级债与 SpaceX 缩水]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同公司:Anthropic、OpenAI
+
+</div>
+</div>
 
 *本集关键词:AI 增长 · 产品管理 · 自动化 · AI 安全 · 企业文化*
 
@@ -146,8 +137,22 @@ Amol 自己加入 Anthropic 的经历就很反常规：当时他是 Claude 的�
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
-  document.addEventListener('nav', move);
-  move();
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
+    ['.search','.darkmode','.readermode'].forEach(function(sel){
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==acts) acts.appendChild(el);
+    });
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function all(){ move(); adopt(); graph(); }
+  document.addEventListener('nav', all);
+  all();
 })();
 </script>
 

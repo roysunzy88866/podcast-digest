@@ -17,6 +17,8 @@ tags:
   - 创业与行业
 ---
 
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/">跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble</span></a><div class="pd-acts"></div></div></header></div>
+
 # AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble
 
 <div class="pd-mt">2025-11-16 · Lenny's Podcast · 79:30 · <a class="mcat" href="./tags/%E5%88%9B%E4%B8%9A%E4%B8%8E%E8%A1%8C%E4%B8%9A">创业与行业</a></div>
@@ -36,9 +38,7 @@ tags:
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/the-godmother-of-ai)
 
-## 一句话 TLDR
-
-从 ImageNet 催生深度学习,到 World Labs 用空间智能解锁 3D 世界模型。
+<div class="pd-tldr"><b>一句话</b>从 ImageNet 催生深度学习,到 World Labs 用空间智能解锁 3D 世界模型。</div>
 
 当大多数人谈论 AI 时,脑海里浮现的往往是 [[ChatGPT|ChatGPT]] 和聊天机器人。但 [[Dr. Fei-Fei Li|Dr. Fei-Fei Li]](李飞飞博士)——被许多人称为「AI 教母」,曾在 Google Cloud 担任首席 AI 科学家、主导斯坦福[[人工智能|人工智能]]实验室(SAIL)、联合创立斯坦福以人为中心的人工智能研究所(HAI)——看到的远不止于此。在本集访谈中,她带我们回顾了 AI 如何从一项几乎没人愿意碰的「脏词」变成今天的世界级浪潮,并第一次详细阐述了她为什么要押注「[[空间智能|空间智能]]」(spatial intelligence),以及她新公司 [[World Labs|World Labs]] 刚刚发布的、世界上第一个可生成 3D 世界的大模型 [[Marble|Marble]]。全文脉络很清晰:前半段是「我们怎么走到今天」,后半段是「接下来该去哪里」——中间的桥梁,就是「[[世界模型|世界模型]]」这个关键拼图。
 
@@ -143,7 +143,7 @@ World Labs 成立至今大约 18 个月,团队目前约 30 人。李飞飞坦言
 2. **光靠语言不够,空间智能是下一块拼图**:语言模型很强大,但人类理解世界靠的是超越语言的物理直觉和空间推理。世界模型不是生成 2D 视频,而是生成能让人或机器人走进去、互动并推理的 3D/4D 结构。
 3. **机器人不是大语言模型的简单翻版**:机器人是物理系统,面临的不仅是算法问题,更是数据获取(缺乏 3D 动作数据)和硬件供应链的挑战。从自动驾驶的历史看,这条落地之路依然漫长。
 
-## 金句(中英对照 · 过机器闸门三联校验)
+<div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
 
 > 我觉得 AGI 更多是一个营销术语,而不是科学术语,作为科学家而非技术专家来说。  
 > *I feel AGI is more a marketing term than a scientific term as a scientist than technologist.*  
@@ -165,17 +165,28 @@ World Labs 成立至今大约 18 个月,团队目前约 30 人。李飞飞坦言
 > *I think actually the more I work in AI, the more I respect humans.*  
 > —— Dr. Fei-Fei Li · [47:57] ^q5
 
-## 相关单集
+<div class="pd-sec">接着看</div>
 
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] —— 同公司:ChatGPT、Waymo
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同公司:ChatGPT
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代》]] —— 同公司:ChatGPT、NVIDIA
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同公司:ChatGPT
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同概念:主观能动性 (agency)
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同公司:ChatGPT
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同公司:ChatGPT
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]] —— 同公司:Google
-- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]] —— 同公司:NVIDIA
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「创业与行业」挖下去**
+
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同公司:ChatGPT、Waymo
+- [[2025-12-07-lennys-surge-ai-edwin-chen|Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理]] —— 同公司:ChatGPT
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代]] —— 同公司:ChatGPT、NVIDIA
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得]] —— 同公司:ChatGPT
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性]] —— 同概念:主观能动性 (agency)
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同公司:ChatGPT
+
+</div>
+</div>
 
 *本集关键词:AI 历史 · 空间智能 · 世界模型 · 具身智能 · 3D 生成模型*
 
@@ -199,8 +210,22 @@ World Labs 成立至今大约 18 个月,团队目前约 30 人。李飞飞坦言
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
-  document.addEventListener('nav', move);
-  move();
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
+    ['.search','.darkmode','.readermode'].forEach(function(sel){
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==acts) acts.appendChild(el);
+    });
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function all(){ move(); adopt(); graph(); }
+  document.addEventListener('nav', all);
+  all();
 })();
 </script>
 

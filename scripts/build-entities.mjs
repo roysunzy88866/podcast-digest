@@ -13,7 +13,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, realpa
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { norm } from "./gate.mjs";
-import { blockId } from "./render.mjs";
+import { blockId, episodeCategories } from "./render.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const TYPE_CN = { person: "人物", company: "公司", concept: "概念" };
@@ -161,7 +161,8 @@ export function relatedEpisodes(targetEpId, episodes, { minShared = 1 } = {}) {
     const score = items.length; // 合格共享数(已排除 primary-in-neither 噪音)
     const strongScore = items.filter((x) => x.strong).length; // 两集都主讨论的数
     if (score >= minShared) {
-      out.push({ epId: ep.meta.id, epTitle: ep.meta.title_zh ?? ep.meta.title_en ?? ep.meta.id, epDate: ep.meta.date, shared, score, strongScore });
+      // epCats = 那一集的大类,供集页「接着看」分成「顺着本类挖下去 / 换个口味」两栏(C13d-2)
+      out.push({ epId: ep.meta.id, epTitle: ep.meta.title_zh ?? ep.meta.title_en ?? ep.meta.id, epDate: ep.meta.date, epCats: episodeCategories(ep.meta, ep.entities), shared, score, strongScore });
     }
   }
   // 排名:强共享多的排前(审计:强主题应主导)→ 合格共享多 → 日期升序 → id 稳定

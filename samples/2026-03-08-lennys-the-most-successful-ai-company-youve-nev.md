@@ -17,6 +17,8 @@ tags:
   - 创业与行业
 ---
 
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/">跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成</span></a><div class="pd-acts"></div></div></header></div>
+
 # 1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成
 
 <div class="pd-mt">2026-03-08 · Lenny's Podcast · 84:21 · <a class="mcat" href="./tags/%E5%88%9B%E4%B8%9A%E4%B8%8E%E8%A1%8C%E4%B8%9A">创业与行业</a></div>
@@ -36,9 +38,7 @@ tags:
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/the-most-successful-ai-company-youve-never-heard-of)
 
-## 一句话 TLDR
-
-Applied Intuition CEO Qasar Younis 谈物理 AI、对抗焦虑与务实创业。
+<div class="pd-tldr"><b>一句话</b>Applied Intuition CEO Qasar Younis 谈物理 AI、对抗焦虑与务实创业。</div>
 
 [[Qasar Younis|Qasar Younis]] 是 [[Applied Intuition|Applied Intuition]] 的联合创始人兼 CEO。他近期发了人生第一条推文，引来 Marc Andreessen 转发并称其为「没人知道的最好的 AI CEO」<button class="pd-ts" data-t="00:02" data-who="Lenny" data-en="You decided to join Twitter recently, put out your first tweet. Marc Andreessen quote tweeted it and said, &quot;This is the best AI CEO nobody knows.&quot; Our best work is done alone and quietly." aria-label="回原文"></button>。这家估值达 150 亿美元的公司做的事情很具体：给汽车、拖拉机、飞机、潜艇、采矿钻机等大型车辆与机器加上 AI（即所谓「[[物理 AI|物理 AI]]」）。全球前 20 大汽车制造商中有 18 家是他们的客户，合作领域还涵盖最大的建筑、采矿、运输公司以及国防部<button class="pd-ts" data-t="01:29" data-who="Lenny" data-en="This is the most important under the radar AI company and CEO that I've ever come across. It's a $15 billion company that has been growing quietly over the last decade." aria-label="回原文"></button>。Qasar 本人在巴基斯坦的农场出生，在底特律长大，早期职业生涯在 GM 和 Bosch 做工程师，后来还当过 [[YCombinator|YCombinator]] 的 COO<button class="pd-ts" data-t="01:53" data-who="Lenny" data-en="They're basically Waymo or Tesla, but without the hardware. Qasar himself was born on a farm in Pakistan, grew up in Detroit, started his career as an engineer at GM, and then at Bosch." aria-label="回原文"></button>。在本集访谈中，他与主持人 [[Lenny|Lenny]] 沿着一条主线展开：面对 AI 带来的社会巨变与大众焦虑，我们该如何理性看待？他的核心主张是，去了解它、使用它，而不是因恐惧而踩下刹车。接下来是具体的论述推演。
 
@@ -94,7 +94,7 @@ Applied Intuition 一直非常低调，直到最近才「出道」发声。Qasar
 2. **真实的 AI 价值在物理世界**：下一个五到十年，AI 最大的影响不只在软件和代码，而是切实地发生在农业、采矿、建筑和自动驾驶等领域，通过给现有的庞大机器注入智能，填补那些危险或没人愿意干的劳动力缺口。
 3. **最好的工作是独自安静地完成的**：创业者要保持「激进实用主义」，把时间花在客户和产品打磨上。通过广泛阅读和积累多元化的生活经验来培养品味，不要在聚光灯下迷失了公司的基本盘。
 
-## 金句(中英对照 · 过机器闸门三联校验)
+<div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
 
 > 如果你在家对 AI 感到非常焦虑，你能做的最好的事情就是花时间去理解，你很快就会看到它的局限性。  
 > *If you at home are very anxious about AI, the best thing that you can do is spend time to understand and you will quickly see the limitations.*  
@@ -132,33 +132,28 @@ Applied Intuition 一直非常低调，直到最近才「出道」发声。Qasar
 > *technical mastery is mastering the complex, and I think computers do that really well, and creativity is mastering the simple.*  
 > —— Qasar Younis · [77:42] ^q9
 
-## 相关单集
+<div class="pd-sec">接着看</div>
 
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同公司:OpenAI · 同概念:智能体 (agent)、ChatGPT
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]] —— 同公司:Tesla、Google、OpenAI
-- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]] —— 同公司:Waymo · 同概念:ChatGPT
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同公司:Waymo · 同概念:ChatGPT
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同公司:Lovable · 同概念:智能体 (agent)
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同概念:智能体 (agent)、ChatGPT
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:智能体 (agent)、ChatGPT
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] —— 同概念:智能体 (agent)
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验》]] —— 同概念:智能体 (agent)
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同概念:智能体 (agent)
-- [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同概念:智能体 (agent)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] —— 同概念:智能体 (agent)
-- [[2026-06-03-latent-space-satya-2026|《Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP》]] —— 同概念:智能体 (agent)
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] —— 同概念:智能体 (agent)
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同概念:智能体 (agent)
-- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] —— 同概念:智能体 (agent)
-- [[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]] —— 同概念:智能体 (agent)
-- [[2026-06-24-pg-company-os-jz|《AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战》]] —— 同概念:智能体 (agent)
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] —— 同概念:智能体 (agent)
-- [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同概念:智能体 (agent)
-- [[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]] —— 同概念:智能体 (agent)
-- [[2026-07-13-pg-the-complete-claude-stack-for-pms|《PM 如何用 Claude 把生产力提升 10 倍：全栈实战》]] —— 同概念:智能体 (agent)
-- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]] —— 同概念:智能体 (agent)
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同公司:Tesla · 同概念:智能体 (agent)
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代》]] —— 同概念:ChatGPT
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「创业与行业」挖下去**
+
+- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 悬崖边？数据中心次级债与 SpaceX 缩水]] —— 同公司:Tesla、Google、OpenAI
+- [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble]] —— 同公司:Waymo · 同概念:ChatGPT
+- [[2025-12-07-lennys-surge-ai-edwin-chen|Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理]] —— 同公司:Waymo · 同概念:ChatGPT
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同公司:OpenAI · 同概念:智能体 (agent)、ChatGPT
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同公司:Lovable · 同概念:智能体 (agent)
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得]] —— 同概念:智能体 (agent)、ChatGPT
+
+</div>
+</div>
 
 *本集关键词:物理 AI · 自动驾驶 · 创业哲学 · 中美科技竞争 · AI 大众焦虑*
 
@@ -182,8 +177,22 @@ Applied Intuition 一直非常低调，直到最近才「出道」发声。Qasar
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
-  document.addEventListener('nav', move);
-  move();
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
+    ['.search','.darkmode','.readermode'].forEach(function(sel){
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==acts) acts.appendChild(el);
+    });
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function all(){ move(); adopt(); graph(); }
+  document.addEventListener('nav', all);
+  all();
 })();
 </script>
 

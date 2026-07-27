@@ -17,6 +17,8 @@ tags:
   - AI 安全
 ---
 
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/">跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争</span></a><div class="pd-acts"></div></div></header></div>
+
 # 为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争
 
 <div class="pd-mt">2026-07-26 · The a16z Show · 32:25 · <a class="mcat" href="./tags/%E5%88%9B%E4%B8%9A%E4%B8%8E%E8%A1%8C%E4%B8%9A">创业与行业</a> · <a class="mcat" href="./tags/AI%20%E5%AE%89%E5%85%A8">AI 安全</a></div>
@@ -34,9 +36,7 @@ tags:
 >
 > **概念**:[[开源]] · [[开放权重]] · [[专有模型]] · [[蒸馏]] · [[垄断]]
 
-## 一句话 TLDR
-
-Ben Horowitz指出开源对AI安全、国家安全和初创生态至关重要,目前市场渗透率极低,禁开源是在搬起石头砸自己的脚。
+<div class="pd-tldr"><b>一句话</b>Ben Horowitz指出开源对AI安全、国家安全和初创生态至关重要,目前市场渗透率极低,禁开源是在搬起石头砸自己的脚。</div>
 
 近期科技界因为一份公开信炸开了锅。[[NVIDIA|NVIDIA]]发布了一封名为《[[开放权重|开放权重]]与美国 AI 领导力》的公开信,由包括 [[Andreessen Horowitz|Andreessen Horowitz]] 在内的许多公司签署。 Andreessen Horowitz 的联合创始人 [[Ben Horowitz|Ben Horowitz]] 在节目中明确表态:这可能是当前围绕 AI 最重要的一项政策议题。这期访谈中,Ben 逐一拆解了这场围绕[[开源|开源]]的博弈——从政策角力到国家安全,再到 AI [[垄断|垄断]]的真正威胁。整场对话可以顺着一条主线来读:开源为什么重要、谁在试图封杀它,以及为什么在这个渗透率极低的市场里,开源不应当被视为威胁。
 
@@ -84,7 +84,7 @@ Ben 完全同意这一观点。他指出,从法律上讲 AI 模型的输出不�
 2. **巨头垄断才是最大的国家安全风险**:与其担忧外国开源模型留有后门,不如警惕单一 AI 巨头做大后无视政府监管、任意绞杀初创生态的垄断霸权。
 3. **3% 渗透率下的非零和博弈**:当前市场看似格局已定,但 AI 的实际渗透率极低,整体需求仍在爆炸性增长。开源与闭源、平价与昂贵模型在当下并非你死我活的竞争,而是分别切中不同应用场景与增量市场的共生关系。
 
-## 金句(中英对照 · 过机器闸门三联校验)
+<div class="pd-sec">全部金句 <span>10 条(中英对照,已过机器闸门)</span></div>
 
 > 对世界来说最安全的事情是,没有一个统治一切的 AI。  
 > *The safest thing for the world is that there's not one AI to rule them all.*  
@@ -126,29 +126,28 @@ Ben 完全同意这一观点。他指出,从法律上讲 AI 模型的输出不�
 > *Every time there's a new technology, we get a new kind of art form in music, and I think that's going to happen here.*  
 > —— Ben Horowitz · [29:17] ^q10
 
-## 相关单集
+<div class="pd-sec">接着看</div>
 
-- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]] —— 同嘉宾:Sofia Puccini · 同公司:Hugging Face、Anthropic · 同概念:蒸馏 (distillation)
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]] —— 同公司:Anthropic、OpenAI、SpaceX · 同概念:蒸馏 (distillation)
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同公司:Anthropic、OpenAI
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同公司:Anthropic
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代》]] —— 同公司:NVIDIA
-- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同公司:Anthropic
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]] —— 同公司:Anthropic
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」》]] —— 同公司:Anthropic
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同公司:Anthropic
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]] —— 同公司:Anthropic
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]] —— 同公司:Anthropic
-- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] —— 同公司:Anthropic · 同概念:护栏 (guardrails)
-- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]] —— 同公司:NVIDIA
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同公司:Anthropic
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同公司:Anthropic
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同公司:Anthropic
-- [[2026-06-03-latent-space-satya-2026|《Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP》]] —— 同公司:Microsoft
-- [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同公司:Anthropic
-- [[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]] —— 同概念:护栏 (guardrails)
-- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]] —— 同公司:Anthropic
-- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失》]] —— 同概念:护栏 (guardrails)
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「创业与行业」挖下去**
+
+- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|Sriram Krishnan：Kimi K3 将改写 AI 行业版图]] —— 同嘉宾:Sofia Puccini · 同公司:Hugging Face、Anthropic · 同概念:蒸馏 (distillation)
+- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 悬崖边？数据中心次级债与 SpaceX 缩水]] —— 同公司:Anthropic、OpenAI、SpaceX · 同概念:蒸馏 (distillation)
+- [[2025-12-07-lennys-surge-ai-edwin-chen|Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理]] —— 同公司:Anthropic
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同公司:Anthropic、OpenAI
+- [[2026-03-01-lennys-the-design-process-is-dead|The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)]] —— 同公司:Anthropic
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师]] —— 同公司:Anthropic
+
+</div>
+</div>
 
 *本集关键词:开源 AI · 开放权重 · 反垄断 · 国家安全 · 蒸馏*
 
@@ -172,8 +171,22 @@ Ben 完全同意这一观点。他指出,从法律上讲 AI 模型的输出不�
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
-  document.addEventListener('nav', move);
-  move();
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
+    ['.search','.darkmode','.readermode'].forEach(function(sel){
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==acts) acts.appendChild(el);
+    });
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function all(){ move(); adopt(); graph(); }
+  document.addEventListener('nav', all);
+  all();
 })();
 </script>
 

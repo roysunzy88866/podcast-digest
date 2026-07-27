@@ -16,6 +16,8 @@ import {
   renderHook,
   renderOrigRefs,
   renderOrigScript,
+  renderTopBar,
+  renderRelatedEpisodes,
 } from "../scripts/render.mjs";
 
 const META = {
@@ -302,10 +304,10 @@ describe("C13d-1 · 单集页右栏改造 + ADR 0016 全局图谱入口摘除", 
     expect(scss).toMatch(/body:has\(\.pd-play\)[\s\S]*?\.left\.sidebar \{ display: none/);
   });
 
-  it("★ 不另建右栏:复用 Quartz 自带的 toc/backlinks(它们自带滚动高亮与反链)", () => {
+  it("★ 不另建右栏:复用 Quartz 自带的 toc(它自带滚动高亮)", () => {
+    // C13d-2 起 backlinks 不再留在右栏(设计稿没有它、内容与「接着看」重复)→ 这里只守 toc
     expect(scss).toMatch(/\.toc-content a/);
     expect(scss).toMatch(/\.toc-content a\.in-view/);
-    expect(scss).toMatch(/\.backlinks a/);
   });
 });
 
@@ -349,7 +351,7 @@ describe("C13d-1 · 关联框搬进右栏「这一集涉及」", () => {
   it("★★ 靠 callout 标题「关联」定位,且搬过去就不再搬(幂等)", () => {
     expect(js).toContain("indexOf('关联')===0");
     expect(js).toContain("if(box.closest('.right.sidebar')) return;");
-    expect(js).toContain("document.addEventListener('nav', move)");
+    expect(js).toContain("document.addEventListener('nav', all)"); // C13d-2:搬关联框/搬按钮/搬图谱一起重跑
   });
 
   it("★ 右栏里它被压成清淡列表(去掉 callout 的框与图标)", () => {
@@ -516,5 +518,101 @@ describe("C13d-1 · 回原文 ↩ 小圆点(设计稿 .ts / .orig)", () => {
     expect(md).toContain('data-t="03:53"');
     expect(md).toContain("pd-orig");
     expect(md).not.toContain("[03:53 Elizabeth Stone]");
+  });
+});
+
+// ── C13d-2 单集页移植·补完(设计稿 ep-*.html 逐件比对补齐的 5 件)──
+describe("C13d-2 · 顶栏 / TLDR 框 / 小节标签 / 接着看两栏 / 图谱挪底", () => {
+  const scss = readFileSync(new URL("../assets/styles/custom.scss", import.meta.url), "utf8");
+  const M = { id: "ep1", title_zh: "本集标题", podcast: "P", date: "2026-07-08", duration_sec: 600, source_url: "http://x" };
+  const D = { tldr: "一句话摘要在此。", digest_md: "正文。", quotes: [{ zh: "金句。", en: "Q.", speaker: "某人", timestamp: "01:00" }] };
+
+  it("★★★ 顶栏回来:站名 + 最新/最热 + 返回 + 搬按钮的空槽", () => {
+    const t = renderTopBar(M as any);
+    expect(t).toContain("跨国深谈");
+    expect(t).toContain("最新");
+    expect(t).toContain("最热");
+    expect(t).toContain("返回");
+    expect(t).toContain('class="pd-acts"'); // 搜索/深浅色由脚本搬进来,不重写一套(🔒 #9/#2)
+  });
+
+  it("★★ 手机端顶栏合并成「← 本集标题」(站名与导航让位)", () => {
+    const t = renderTopBar(M as any);
+    expect(t).toContain("本集标题");                       // 标题进了顶栏,供手机显示
+    expect(scss).toMatch(/\.pd-mtitle[\s\S]*?display: none/); // 桌面藏
+    expect(scss).toMatch(/@media \(max-width: 1023px\) \{[\s\S]*?\.pd-mtitle \{\s*display: flex/);
+  });
+
+  it("★★★ TLDR 是灰底框不是大标题", () => {
+    const md = renderEpisode(M as any, D as any, null);
+    expect(md).toContain('<div class="pd-tldr"><b>一句话</b>一句话摘要在此。</div>');
+    expect(md).not.toContain("一句话 TLDR"); // 那个大标题不许再出现
+    expect(scss).toMatch(/\.pd-tldr \{[\s\S]*?background/);
+    expect(scss).toMatch(/\.pd-tldr b \{/);
+  });
+
+  it("★★★ 金句/接着看用灰色小标签,不用 h2(也就不会挤进右栏目录)", () => {
+    const md = renderEpisode(M as any, D as any, null, [
+      { epId: "ep2", epTitle: "另一集", epDate: "2026-06-01", score: 1, strongScore: 1,
+        shared: { guests: [], companies: [], concepts: [{ id: "a", name: "智能体", file: "智能体", strong: true }] } },
+    ] as any);
+    expect(md).toContain('<div class="pd-sec">全部金句 <span>1 条(中英对照,已过机器闸门)</span></div>');
+    expect(md).toContain('<div class="pd-sec">接着看</div>');
+    expect(md).not.toContain("## 金句");
+    expect(md).not.toContain("## 相关单集");
+    expect(scss).toMatch(/\.pd-sec \{/);
+  });
+
+  it("★★★ 「接着看」是两栏卡片:顺着主大类挖下去 / 换个口味", () => {
+    const rel = [
+      { epId: "same1", epTitle: "同类一", epCats: ["组织与领导力"], score: 2, strongScore: 2, shared: { guests: [], companies: [], concepts: [{ id: "a", name: "智能体", file: "智能体", strong: true }] } },
+      { epId: "diff1", epTitle: "异类一", epCats: ["智能体"], score: 1, strongScore: 0, shared: { guests: [{ id: "s", name: "swyx", file: "swyx", strong: false }], companies: [], concepts: [] } },
+    ];
+    const out = renderRelatedEpisodes(rel as any, ["组织与领导力"]);
+    expect(out).toContain('<div class="pd-exit">');
+    expect(out).toContain("顺着「组织与领导力」挖下去");
+    expect(out).toContain("换个口味");
+    expect(out).toContain("[[same1|同类一]]");
+    expect(out).toContain("[[diff1|异类一]]");
+    // US-7 P0 锁定:关联原因必须具体到实体名(设计稿卡片没画,但那是锁定验收条,不许悄悄丢)
+    expect(out).toContain("同概念:智能体");
+    expect(out).toContain("同嘉宾:swyx");
+  });
+
+  it("★★ 每栏最多 3 条;某栏空则整栏不渲染;都空则整块不出现", () => {
+    const mk = (i: number) => ({ epId: `e${i}`, epTitle: `集${i}`, epCats: ["组织与领导力"], score: 1, strongScore: 1,
+      shared: { guests: [], companies: [], concepts: [{ id: "a", name: "智能体", file: "智能体", strong: true }] } });
+    const five = renderRelatedEpisodes([1, 2, 3, 4, 5].map(mk) as any, ["组织与领导力"]);
+    expect((five.match(/\[\[e\d\|/g) || []).length).toBe(3); // 只出 3 条
+    expect(five).not.toContain("换个口味");                   // 没有异类 → 那一栏整栏不渲染
+    expect(renderRelatedEpisodes([] as any, ["组织与领导力"])).toBe("");
+    expect(renderRelatedEpisodes(null as any, ["组织与领导力"])).toBe("");
+  });
+
+  it("★★★ 顶栏通栏,不被挤在正文那一列里(实测原来只有 694px,视口 1440)", () => {
+    // 集页顶栏在 article 里(它是渲染出来的 markdown 的一部分)→ 必须 full-bleed 挣脱中栏宽度
+    expect(scss).toMatch(/\.pd-top \{[\s\S]*?width: 100vw[\s\S]*?margin-left: -50vw/);
+  });
+
+  it("★★★ 右栏只剩目录 + 这一集涉及:Quartz 自带的「反向链接」块藏掉", () => {
+    // 实测:它 178px 高,列的集跟「接着看」重复 —— 设计稿右栏没有这一块
+    expect(scss).toMatch(/body:has\(\.pd-play\)[\s\S]*?\.right\.sidebar \.backlinks \{ display: none/);
+  });
+
+  it("★★★ 关系图谱挪到正文底部(ADR 0016:留一跳邻域,但不占右栏)", () => {
+    const js = renderSidebarScript();
+    expect(js).not.toMatch(/\n\s*\n/);
+    expect(js).toContain("graph");
+    expect(js).toContain("article"); // 搬进正文,不是删掉
+    expect(scss).toMatch(/\.pd-graph/);
+  });
+
+  it("★★ 顶栏真挂在集页上,且搜索/深浅色是搬节点不是重写", () => {
+    const md = renderEpisode(M as any, D as any, null);
+    expect(md).toContain('class="pd-top"');
+    const js = renderSidebarScript();
+    expect(js).toContain(".pd-acts");
+    expect(js).toContain("appendChild"); // 搬,不 innerHTML
+    expect(js).not.toMatch(/innerHTML\s*=/);
   });
 });

@@ -18,6 +18,8 @@ tags:
   - AI 编程
 ---
 
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/">跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PM 如何用 Claude 把生产力提升 10 倍：全栈实战</span></a><div class="pd-acts"></div></div></header></div>
+
 # PM 如何用 Claude 把生产力提升 10 倍：全栈实战
 
 <div class="pd-mt">2026-07-13 · Product Growth Podcast · 93:20 · <a class="mcat" href="./tags/%E6%99%BA%E8%83%BD%E4%BD%93">智能体</a> · <a class="mcat" href="./tags/AI%20%E7%BC%96%E7%A8%8B">AI 编程</a></div>
@@ -37,9 +39,7 @@ tags:
 >
 > **来源**:[Product Growth Podcast](https://www.news.aakashg.com/p/the-complete-claude-stack-for-pms)
 
-## 一句话 TLDR
-
-从模型选型到构建个人幕僚长智能体,用 Claude 全栈打造 PM 生产力引擎。
+<div class="pd-tldr"><b>一句话</b>从模型选型到构建个人幕僚长智能体,用 Claude 全栈打造 PM 生产力引擎。</div>
 
 产品经理(PM) Jyothi 曾在内部黑客马拉松中击败了 30 个工程团队夺冠,她的武器是 [[Claude|Claude]] 和「[[对抗性智能体|对抗性智能体]]」(adversarial agents)。本集她从零开始,手把手教不熟悉技术的读者如何利用整个 Claude 生态系统将日常生产力提升 10 倍。全文将按 Claude 的五层架构展开:前两层讲怎么选对工具,中间两层讲怎么通过定时任务和私有[[知识库|知识库]]把繁杂工作自动化,最后一层讲怎么用 Claude 代码构建自我纠错的[[智能体|智能体]],并在结尾谈谈这一切将如何重塑 PM 这个职业本身 <button class="pd-ts" data-t="00:04" data-who="Jyothi Nookula" data-en="understanding which surface to reach for which use case becomes one of the core pm skills that will help you become 10x more effective on LinkedIn and it caught my eye." aria-label="回原文"></button>。
 
@@ -103,7 +103,7 @@ Jyothi 给转型者的建议是:别只做一锤子买卖的项目,要把平时�
 2. **AI 不只是聊天机器人,装上「大脑」才能懂人情世故**:利用 MCP 把本地文档、会议纪要变成私有知识库,AI 就能从「只会写总结的机器」变成提醒你「这个同事很敏感,发邮件前先知会他」的私人战略顾问。
 3. **别盲信 AI 的第一版输出**:未来的核心竞争力是「品味」。代码谁都能让 AI 写,但能否敏锐发现问题、给 AI 设定严格的护栏、甚至构建一个对抗智能体去自我纠错,才是区分普通 PM 和 AI Builder 的关键。
 
-## 金句(中英对照 · 过机器闸门三联校验)
+<div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
 
 > 我认为这是大多数 PM 投入不足的一层,正是这一层让 Claude 从一个通用的聊天机器人变成真正了解你的上下文。  
 > *the layer that i think most pms under invest in it's this layer that makes claude go from being a generic chatbot to actually knowing your context*  
@@ -129,33 +129,28 @@ Jyothi 给转型者的建议是:别只做一锤子买卖的项目,要把平时�
 > *this is where you're not just building an agent you're actually building another evaluator to go break this agent in different ways*  
 > —— Jyothi Nookula · [91:25] ^q6
 
-## 相关单集
+<div class="pd-sec">接着看</div>
 
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]] —— 同公司:Claude · 同概念:Claude Code、技能 (skills)、MCP
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:Claude Code、MCP、智能体 (agent)
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] —— 同概念:Claude Code、智能体 (agent)、vibe coding
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同概念:Claude Code、智能体 (agent)
-- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同公司:Claude · 同概念:Claude Code
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同概念:Claude Code、智能体 (agent)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] —— 同概念:Claude Code、智能体 (agent)
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同概念:Claude Code、智能体 (agent)
-- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] —— 同公司:Claude · 同概念:智能体 (agent)、红队测试 (red teaming)
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] —— 同公司:Claude · 同概念:智能体 (agent)
-- [[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]] —— 同概念:智能体 (agent)、MCP
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] —— 同概念:智能体 (agent)
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验》]] —— 同概念:智能体 (agent)
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] —— 同概念:智能体 (agent)
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同概念:智能体 (agent)
-- [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同概念:智能体 (agent)
-- [[2026-06-03-latent-space-satya-2026|《Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP》]] —— 同概念:智能体 (agent)
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同概念:智能体 (agent)
-- [[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]] —— 同概念:智能体 (agent)
-- [[2026-06-24-pg-company-os-jz|《AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战》]] —— 同概念:智能体 (agent)
-- [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同概念:智能体 (agent)
-- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]] —— 同概念:智能体 (agent)
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同公司:Claude · 同概念:智能体 (agent)
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同公司:Claude
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]] —— 同概念:vibe coding
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「智能体」挖下去**
+
+- [[2026-singju-openclaw-80apps|OpenClaw创始人：为何80%的应用将消失]] —— 同概念:Claude Code、MCP、智能体 (agent)
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得]] —— 同概念:Claude Code、智能体 (agent)
+- [[2026-06-22-latent-space-gray-swan|让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏]] —— 同公司:Claude · 同概念:智能体 (agent)、红队测试 (red teaming)
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-07-26-lennys-anthropics-first-technical-pm-on|evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经]] —— 同公司:Claude · 同概念:Claude Code、技能 (skills)、MCP
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品]] —— 同概念:Claude Code、智能体 (agent)、vibe coding
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同概念:Claude Code、智能体 (agent)
+
+</div>
+</div>
 
 *本集关键词:AI 基础设施 · 智能体 · 产品经理 · 工作流自动化 · 红队测试*
 
@@ -179,8 +174,22 @@ Jyothi 给转型者的建议是:别只做一锤子买卖的项目,要把平时�
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
-  document.addEventListener('nav', move);
-  move();
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
+    ['.search','.darkmode','.readermode'].forEach(function(sel){
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==acts) acts.appendChild(el);
+    });
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function all(){ move(); adopt(); graph(); }
+  document.addEventListener('nav', all);
+  all();
 })();
 </script>
 

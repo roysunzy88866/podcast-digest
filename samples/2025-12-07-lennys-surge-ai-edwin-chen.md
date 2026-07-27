@@ -17,6 +17,8 @@ tags:
   - 创业与行业
 ---
 
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/">跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理</span></a><div class="pd-acts"></div></div></header></div>
+
 # Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理
 
 <div class="pd-mt">2025-12-07 · Lenny's Podcast · 70:27 · <a class="mcat" href="./tags/%E5%88%9B%E4%B8%9A%E4%B8%8E%E8%A1%8C%E4%B8%9A">创业与行业</a></div>
@@ -36,9 +38,7 @@ tags:
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/surge-ai-edwin-chen)
 
-## 一句话 TLDR
-
-自力更生年入十亿的数据公司创始人,谈高质量数据与 AI 走偏的方向。
+<div class="pd-tldr"><b>一句话</b>自力更生年入十亿的数据公司创始人,谈高质量数据与 AI 走偏的方向。</div>
 
 [[Edwin Chen|Edwin Chen]] 是数据公司 [[Surge AI|Surge AI]] 的创始人。这家公司不到 100 人、未拿过一分钱 VC 融资,去年收入超过 10 亿美元。他们的核心业务是为前沿 AI 实验室(做最先进大模型的公司)提供高质量的训练和评估数据。这集对话分两条主线:一条是 Edwin 对 AI 行业「走偏」的强烈警示——他认为当下对排行榜的追逐正在让模型变差;另一条是他截然相反的创业理念——不融资、不转型、不炒作,只埋头做最好的产品。以下是这条思路的展开。
 
@@ -112,7 +112,7 @@ Edwin 在最后把这些思考拔高到一个哲学层面:做数据训练和评�
 3. **公司的价值观会塑造模型的「性格」**。随着技术成熟,不同公司训练出的模型将因为各自的取舍(是奉承用户还是节省用户时间)而呈现出根本性的差异。
 4. **强化学习环境(RL 环境)是下一个前沿**。它用复杂、长期、多步骤的模拟现实世界来训练模型,能暴露出模型在端到端任务上的灾难性弱点,这是走向更智能模型的必经之路。
 
-## 金句(中英对照 · 过机器闸门三联校验)
+<div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
 
 > 他们认为你可以只是把人力扔向问题并获得好的数据,但这完全是错的。  
 > *They think you could just throw bodies at a problem and get good data and that's completely wrong.*  
@@ -150,31 +150,28 @@ Edwin 在最后把这些思考拔高到一个哲学层面:做数据训练和评�
 > *I think one of the things that's going to happen in the next few years is that the models are actually going to become increasingly differentiated because of the personalities and behaviors that the different labs have and the kind of objective functions that they are optimizing their models for.*  
 > —— Edwin Chen · [48:20] ^q9
 
-## 相关单集
+<div class="pd-sec">接着看</div>
 
-- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同公司:Anthropic、Claude
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] —— 同公司:ChatGPT、Waymo
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同公司:Anthropic、ChatGPT
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]] —— 同公司:Anthropic · 同概念:vibe coding
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]] —— 同公司:Anthropic · 同概念:AGI
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]] —— 同公司:Anthropic、Claude
-- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]] —— 同公司:ChatGPT
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]] —— 同公司:Anthropic
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」》]] —— 同公司:Anthropic
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同公司:Anthropic
-- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]] —— 同公司:Anthropic
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同公司:Anthropic
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代》]] —— 同公司:ChatGPT
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同公司:ChatGPT
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同公司:Anthropic
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同公司:Anthropic
-- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] —— 同公司:Anthropic
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] —— 同概念:vibe coding
-- [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同公司:Anthropic
-- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]] —— 同公司:Anthropic
-- [[2026-07-13-pg-the-complete-claude-stack-for-pms|《PM 如何用 Claude 把生产力提升 10 倍：全栈实战》]] —— 同公司:Claude
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同公司:ChatGPT
-- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]] —— 同公司:Anthropic
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「创业与行业」挖下去**
+
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同公司:ChatGPT、Waymo
+- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 悬崖边？数据中心次级债与 SpaceX 缩水]] —— 同公司:Anthropic · 同概念:AGI
+- [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble]] —— 同公司:ChatGPT
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-03-01-lennys-the-design-process-is-dead|The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)]] —— 同公司:Anthropic、Claude
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同公司:Anthropic、ChatGPT
+- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|Adam Mosseri：AI 时代的团队重组与产品品味]] —— 同公司:Anthropic · 同概念:vibe coding
+
+</div>
+</div>
 
 *本集关键词:AI 数据质量 · 基准测试批判 · 强化学习环境 · 反共识创业哲学 · 模型性格分化*
 
@@ -198,8 +195,22 @@ Edwin 在最后把这些思考拔高到一个哲学层面:做数据训练和评�
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
-  document.addEventListener('nav', move);
-  move();
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
+    ['.search','.darkmode','.readermode'].forEach(function(sel){
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==acts) acts.appendChild(el);
+    });
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function all(){ move(); adopt(); graph(); }
+  document.addEventListener('nav', all);
+  all();
 })();
 </script>
 

@@ -17,6 +17,8 @@ tags:
   - 职业与个人成长
 ---
 
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/">跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>科技圈情绪调查：一半人狂喜，一半人煎熬</span></a><div class="pd-acts"></div></div></header></div>
+
 # 科技圈情绪调查：一半人狂喜，一半人煎熬
 
 <div class="pd-mt">2026-07-12 · Lenny's Podcast · 96:26 · <a class="mcat" href="./tags/%E8%81%8C%E4%B8%9A%E4%B8%8E%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF">职业与个人成长</a></div>
@@ -36,9 +38,7 @@ tags:
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about)
 
-## 一句话 TLDR
-
-6000人调查揭示科技圈因AI一分为二，倦怠激增、乐观骤降，但经理和小公司是破局关键。
+<div class="pd-tldr"><b>一句话</b>6000人调查揭示科技圈因AI一分为二，倦怠激增、乐观骤降，但经理和小公司是破局关键。</div>
 
 [[Lenny|Lenny]] 邀请了他的老前同事、资深研究员 [[Noam Segal|Noam Segal]]。他们两人合作进行了一项科技从业者情绪调查（这是连续第二年进行），收集了约 6000 名横跨产品、工程、设计等各个科技岗位从业者的反馈。这一集，他们详细拆解了这份报告的核心结论。全篇围绕一个核心主线展开：**AI 正在以前所未有的规模分化科技从业者——从整体感受到职业信心，一半人如鱼得水，另一半人则在煎熬；而在这场巨变中，「经理」和「工作方式的选择」成了决定你幸不幸福的关键杠杆。**
 
@@ -118,7 +118,7 @@ Noam 提醒，在当前这个 AI 疯狂挤压员工、「[[大扁平化|大扁�
 3. **大公司光环褪色，经理决定你的生死**：公司越大幸福感越低；相反，创始人和小公司员工最快乐。此外，一位好经理能极大提升你的工作体验并抵御倦怠，但遗憾的是，科技圈只有四分之一的经理被认为是高效的。
 4. **别贪多，深钻少数任务**：对个人而言，破局的解药不是用 AI 去做所有事（那只会让你沦为疲惫的通才），而是选定特定领域深钻；同时务必主动管理和反抗那种不可持续的工作期望挤压。
 
-## 金句(中英对照 · 过机器闸门三联校验)
+<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
 
 > 而每次你把这种负担推卸给你最喜欢的 AI 模型时，你都在降低那个基线，而你的思考和判断正在旁观。  
 > *And every time you offload that to your favorite AI model, you are lowering that baseline and your thinking and your judgment is watching.*  
@@ -148,40 +148,28 @@ Noam 提醒，在当前这个 AI 疯狂挤压员工、「[[大扁平化|大扁�
 > *We're in the second inning of a massive shift. No one knows how it will end, but all you can do is keep taking at bats.*  
 > —— Noam Segal · [80:11] ^q7
 
-## 相关单集
+<div class="pd-sec">接着看</div>
 
-- [[2025-11-23-lennys-a-guide-to-difficult-conversations|《别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课》]] —— 同嘉宾:Lenny · 同概念:职业倦怠 (burnout)
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评》]] —— 同嘉宾:Lenny · 同公司:Airbnb、Ramp
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」》]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]] —— 同嘉宾:Lenny
-- [[2025-11-20-lennys-slack-founder-stewart-butterfield|《把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学》]] —— 同嘉宾:Lenny
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] —— 同嘉宾:Lenny
-- [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷》]] —— 同嘉宾:Lenny
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验》]] —— 同嘉宾:Lenny
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同嘉宾:Lenny
-- [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] —— 同嘉宾:Lenny
-- [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|《育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”》]] —— 同嘉宾:Lenny
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代》]] —— 同嘉宾:Lenny
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] —— 同嘉宾:Lenny
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别只想推销：产品负责人如何真正影响高管决策》]] —— 同嘉宾:Lenny
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同嘉宾:Lenny
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同嘉宾:Lenny
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要》]] —— 同嘉宾:Lenny
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同嘉宾:Lenny
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] —— 同嘉宾:Lenny
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] —— 同嘉宾:Lenny
-- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失》]] —— 同嘉宾:Lenny
-- [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同公司:Cognition
-- [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同公司:Cognition
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]] —— 同公司:Anthropic
-- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]] —— 同公司:Anthropic
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「职业与个人成长」挖下去**
+
+- [[2026-07-26-lennys-anthropics-first-technical-pm-on|evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经]] —— 同嘉宾:Lenny · 同公司:Anthropic
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同嘉宾:Lenny
+- [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”]] —— 同嘉宾:Lenny
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2025-11-23-lennys-a-guide-to-difficult-conversations|别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课]] —— 同嘉宾:Lenny · 同概念:职业倦怠 (burnout)
+- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评]] —— 同嘉宾:Lenny · 同公司:Airbnb、Ramp
+- [[2025-12-07-lennys-surge-ai-edwin-chen|Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理]] —— 同嘉宾:Lenny · 同公司:Anthropic
+
+</div>
+</div>
 
 *本集关键词:科技从业者情绪 · 倦怠 · 认知衰退 · 职业分化 · 幸福感杠杆*
 
@@ -205,8 +193,22 @@ Noam 提醒，在当前这个 AI 疯狂挤压员工、「[[大扁平化|大扁�
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
-  document.addEventListener('nav', move);
-  move();
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
+    ['.search','.darkmode','.readermode'].forEach(function(sel){
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==acts) acts.appendChild(el);
+    });
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function all(){ move(); adopt(); graph(); }
+  document.addEventListener('nav', all);
+  all();
 })();
 </script>
 

@@ -20,13 +20,14 @@ const REL_CONCEPT = [
 describe("renderRelatedEpisodes · 关联区③(US-7)", () => {
   it("★ 列相关集 + 注明关联原因(同概念)+ 可点跳", () => {
     const md = renderRelatedEpisodes(REL_CONCEPT);
-    expect(md).toContain("## 相关单集");
-    expect(md).toContain("[[ep2|《另一集》]]"); // 点跳链接指向相关集
-    expect(md).toContain("同概念:智能体、沙箱"); // 关联原因具体到实体名
+    // C13d-2:大标题「## 相关单集」改成设计稿的分区小标签「接着看」+ 两栏卡片,US-7 的原因照旧要写
+    expect(md).toContain('<div class="pd-sec">接着看</div>');
+    expect(md).toContain("[[ep2|另一集]]"); // 点跳链接指向相关集
+    expect(md).toContain("同概念:智能体、沙箱"); // 关联原因具体到实体名(US-7 P0,不许被设计稿吃掉)
   });
 
   it("★ 无相关集 → 空串,不留空框(Scenario 1a·变异守卫)", () => {
-    // 若谁把空判断去掉、渲染出「## 相关单集」空框,本条挂
+    // 若谁把空判断去掉、渲染出「接着看」空框,本条挂
     expect(renderRelatedEpisodes([])).toBe("");
     expect(renderRelatedEpisodes(null)).toBe("");
     expect(renderRelatedEpisodes(undefined)).toBe("");
@@ -50,14 +51,14 @@ describe("renderRelatedEpisodes · 关联区③(US-7)", () => {
 describe("renderEpisode · 集页底部接入相关单集", () => {
   it("★ 传 related → 集页含「相关单集」区,且在金句之后(US-7:详情页底部)", () => {
     const md = renderEpisode(META, DIGEST, null, REL_CONCEPT);
-    expect(md).toContain("## 相关单集");
-    expect(md).toContain("[[ep2|《另一集》]]");
-    expect(md.indexOf("## 相关单集")).toBeGreaterThan(md.indexOf("## 金句"));
+    expect(md).toContain('<div class="pd-sec">接着看</div>');
+    expect(md).toContain("[[ep2|另一集]]");
+    expect(md.indexOf("接着看")).toBeGreaterThan(md.indexOf("全部金句"));
   });
 
   it("★ 不传 related(默认 null)→ 无相关单集区(向后兼容,现有 C1-C3 集页产物不变)", () => {
     const md = renderEpisode(META, DIGEST, null);
-    expect(md).not.toContain("## 相关单集");
+    expect(md).not.toContain("接着看");
   });
 });
 
@@ -72,7 +73,7 @@ describe("renderAudioPlayer · 详情页播放器(US-5)", () => {
   it("★ renderEpisode 含播放器,在关联区之后、TLDR 之前", () => {
     const md = renderEpisode(META, DIGEST);
     expect(md).toContain("<audio");
-    expect(md.indexOf("<audio")).toBeLessThan(md.indexOf("一句话 TLDR"));
+    expect(md.indexOf("<audio")).toBeLessThan(md.indexOf("pd-tldr")); // C13d-2:TLDR 由大标题改成灰底框
   });
 });
 

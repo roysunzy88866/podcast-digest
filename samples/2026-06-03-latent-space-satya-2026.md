@@ -18,6 +18,8 @@ tags:
   - 智能体
 ---
 
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/">跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP</span></a><div class="pd-acts"></div></div></header></div>
+
 # Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP
 
 <div class="pd-mt">2026-06-03 · Latent Space · 38:50 · <a class="mcat" href="./tags/%E5%88%9B%E4%B8%9A%E4%B8%8E%E8%A1%8C%E4%B8%9A">创业与行业</a> · <a class="mcat" href="./tags/%E6%99%BA%E8%83%BD%E4%BD%93">智能体</a></div>
@@ -37,9 +39,7 @@ tags:
 >
 > **来源**:[Latent Space](https://www.latent.space/p/satya-2026)
 
-## 一句话 TLDR
-
-微软 CEO 畅谈 AI 时代的平台生态战略:从模型血统到智能体重塑企业价值。
+<div class="pd-tldr"><b>一句话</b>微软 CEO 畅谈 AI 时代的平台生态战略:从模型血统到智能体重塑企业价值。</div>
 
 微软 CEO [[Satya Nadella|Satya Nadella]] 做客 No Priors 与 Lanespace 的联动特别集。Nadella 曾在微软经历过四次重大的计算平台变迁。在本集开头,他抛出了对当下 AI 浪潮最核心的判断:不要把 AI 仅仅看作一个单一的大模型,而应将其视为一个完整的**生态系统**。整场访谈沿着一条主线展开——在[[智能体|智能体]]崛起的背景下,平台、企业软件以及人的工作方式将发生怎样的重构。本文将顺着这条主线,带你梳理他提出的四个关键预测:前两个关于平台逻辑的重塑,后两个关于企业工作与人的价值。
 
@@ -81,7 +81,7 @@ Nadella 提到一组震撼的数字:微软在过去 15 个月里建成的 Azure(
 2. **SaaS 不会死,但会被拆解**:底层数据模型依然稳固,但传统应用的「围墙花园」将被打通。未来的软件价值,在于用智能体把数据与业务逻辑重组。
 3. **「轨迹」是新的资产**:当智能体深度参与业务,沉淀下来的工作流轨迹将能训练出极具威力的「公司老手智能体」,这些资产理应被记入资产负债表。
 
-## 金句(中英对照 · 过机器闸门三联校验)
+<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
 
 > 拥有私有评估可能是最大的知识产权。  
 > *Having private evals may be the biggest IP.*  
@@ -111,31 +111,28 @@ Nadella 提到一组震撼的数字:微软在过去 15 个月里建成的 Azure(
 > *In fact, what I use to serve an inbox or a mailbox cannot be used to serve an agent.*  
 > —— Satya Nadella · [19:45] ^q7
 
-## 相关单集
+<div class="pd-sec">接着看</div>
 
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同公司:GitHub · 同概念:智能体 (agent)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] —— 同概念:SaaS、智能体 (agent)
-- [[2026-06-24-pg-company-os-jz|《AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战》]] —— 同公司:GitHub · 同概念:智能体 (agent)
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同公司:Microsoft · 同概念:智能体 (agent)
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] —— 同概念:智能体 (agent)
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验》]] —— 同概念:智能体 (agent)
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同概念:智能体 (agent)
-- [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] —— 同概念:SaaS
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] —— 同概念:智能体 (agent)
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同概念:智能体 (agent)
-- [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同概念:智能体 (agent)
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同概念:智能体 (agent)
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] —— 同概念:智能体 (agent)
-- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] —— 同概念:智能体 (agent)
-- [[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]] —— 同概念:智能体 (agent)
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] —— 同概念:智能体 (agent)
-- [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同概念:智能体 (agent)
-- [[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]] —— 同概念:智能体 (agent)
-- [[2026-07-13-pg-the-complete-claude-stack-for-pms|《PM 如何用 Claude 把生产力提升 10 倍：全栈实战》]] —— 同概念:智能体 (agent)
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:智能体 (agent)
-- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]] —— 同概念:智能体 (agent)
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同概念:智能体 (agent)
-- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]] —— 同公司:Microsoft
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「创业与行业」挖下去**
+
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同概念:智能体 (agent)
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」]] —— 同概念:智能体 (agent)
+- [[2026-singju-openclaw-80apps|OpenClaw创始人：为何80%的应用将消失]] —— 同概念:智能体 (agent)
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性]] —— 同公司:GitHub · 同概念:智能体 (agent)
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切]] —— 同概念:SaaS、智能体 (agent)
+- [[2026-06-24-pg-company-os-jz|AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战]] —— 同公司:GitHub · 同概念:智能体 (agent)
+
+</div>
+</div>
 
 *本集关键词:生态系统 · 私有评估 · 智能体 · SaaS 拆解 · 数据中心*
 
@@ -159,8 +156,22 @@ Nadella 提到一组震撼的数字:微软在过去 15 个月里建成的 Azure(
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
-  document.addEventListener('nav', move);
-  move();
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
+    ['.search','.darkmode','.readermode'].forEach(function(sel){
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==acts) acts.appendChild(el);
+    });
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function all(){ move(); adopt(); graph(); }
+  document.addEventListener('nav', all);
+  all();
 })();
 </script>
 

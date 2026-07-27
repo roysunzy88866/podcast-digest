@@ -18,6 +18,8 @@ tags:
   - 产品方法
 ---
 
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/">跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品</span></a><div class="pd-acts"></div></div></header></div>
+
 # Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品
 
 <div class="pd-mt">2026-06-29 · Lenny's Podcast · 51:49 · <a class="mcat" href="./tags/AI%20%E7%BC%96%E7%A8%8B">AI 编程</a> · <a class="mcat" href="./tags/%E4%BA%A7%E5%93%81%E6%96%B9%E6%B3%95">产品方法</a></div>
@@ -37,9 +39,7 @@ tags:
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/no-figma-no-jira-no-docs-how-gusto)
 
-## 一句话 TLDR
-
-大公司 CTO 用无文档、无会议、无 PM 的极简流程带 5 人团队开发新 AI 产品。
+<div class="pd-tldr"><b>一句话</b>大公司 CTO 用无文档、无会议、无 PM 的极简流程带 5 人团队开发新 AI 产品。</div>
 
 本集嘉宾是 [[Eddie Kim|Eddie Kim]],[[Gusto|Gusto]] 的 CTO 兼联合创始人。他在这家公司带领着上千人的研发团队,但他这次来分享的,是一个完全跳出常规管理框架的故事:他如何凭着一次航班延误时的直觉编程(指完全凭借人的直觉和感觉引导 AI 写代码,而不做细致规划),带着 4 个工程师和 1 个设计师,在短短 10 周内从零打造出了一条全新的 AI 产品线。整个对话将围绕这条主线展开:先看这套反常规的工作法(无文档、无会议、[[永久 Zoom|永久 Zoom]]),再听他们砍掉了哪些繁文缛节,接着剖析背后的极简技术栈,最后探讨这种模式对大团队和领导者的启发。
 
@@ -92,7 +92,7 @@ Claire 补充道,这是对所有高管的硬技能大考:在这个时代,如果�
 2. **拥抱非工程人员的代码**:给非技术人员(如设计师)提供耐心审查其代码的工程文化,能释放出惊人的生产力,他们的产出效率甚至可能超过大部分职业工程师。
 3. **高管必须下场:沉浸式下场**。领导者不能只拿 AI 写 Demo,必须去亲自维护生产级代码。只有亲历从原型到上线的全部痛苦,才能制定出贴合现实的 AI 产品策略。
 
-## 金句(中英对照 · 过机器闸门三联校验)
+<div class="pd-sec">全部金句 <span>8 条(中英对照,已过机器闸门)</span></div>
 
 > 我们把一切都归零了。我们没有会议,没有技术规格,没有 Figma。我们没有用来追踪故事或工作的 Jira 看板。我们没有站会,没有回顾会。  
 > *just zeroed everything out we had no meetings we had no tech specs we had no figmas. we had no JIRA board where we track stories or tracked work. We had no stand-ups, no retros.*  
@@ -126,34 +126,28 @@ Claire 补充道,这是对所有高管的硬技能大考:在这个时代,如果�
 > *And that's actually a very interesting model where maybe docs exist, but they're for the agents, not for the humans.*  
 > —— Claire Vo · [44:15] ^q8
 
-## 相关单集
+<div class="pd-sec">接着看</div>
 
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同概念:Claude Code、智能体 (agent)、OpenClaw
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] —— 同概念:Claude Code、智能体 (agent)、OpenClaw
-- [[2026-07-13-pg-the-complete-claude-stack-for-pms|《PM 如何用 Claude 把生产力提升 10 倍：全栈实战》]] —— 同概念:Claude Code、智能体 (agent)、vibe coding
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:Claude Code、智能体 (agent)、OpenClaw
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同概念:Claude Code、智能体 (agent)
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同概念:Claude Code、智能体 (agent)
-- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] —— 同概念:智能体 (agent)、OpenClaw
-- [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同公司:DX · 同概念:智能体 (agent)
-- [[2025-11-23-lennys-a-guide-to-difficult-conversations|《别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课》]] —— 同概念:Co-Founder
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] —— 同概念:智能体 (agent)
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验》]] —— 同概念:智能体 (agent)
-- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同概念:Claude Code
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] —— 同概念:智能体 (agent)
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同概念:智能体 (agent)
-- [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同概念:智能体 (agent)
-- [[2026-06-03-latent-space-satya-2026|《Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP》]] —— 同概念:智能体 (agent)
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同概念:智能体 (agent)
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] —— 同概念:智能体 (agent)
-- [[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]] —— 同概念:智能体 (agent)
-- [[2026-06-24-pg-company-os-jz|《AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战》]] —— 同概念:智能体 (agent)
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]] —— 同概念:vibe coding
-- [[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]] —— 同概念:智能体 (agent)
-- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]] —— 同概念:智能体 (agent)
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]] —— 同概念:Claude Code
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同概念:vibe coding
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同概念:智能体 (agent)
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「AI 编程」挖下去**
+
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切]] —— 同概念:Claude Code、智能体 (agent)、OpenClaw
+- [[2026-07-13-pg-the-complete-claude-stack-for-pms|PM 如何用 Claude 把生产力提升 10 倍：全栈实战]] —— 同概念:Claude Code、智能体 (agent)、vibe coding
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同概念:Claude Code、智能体 (agent)
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得]] —— 同概念:Claude Code、智能体 (agent)、OpenClaw
+- [[2026-singju-openclaw-80apps|OpenClaw创始人：为何80%的应用将消失]] —— 同概念:Claude Code、智能体 (agent)、OpenClaw
+- [[2026-06-22-latent-space-gray-swan|让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏]] —— 同概念:智能体 (agent)、OpenClaw
+
+</div>
+</div>
 
 *本集关键词:AI 产品开发 · 直觉编程 · 极简技术栈 · 高管下场 · 无文档工作法*
 
@@ -177,8 +171,22 @@ Claire 补充道,这是对所有高管的硬技能大考:在这个时代,如果�
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
-  document.addEventListener('nav', move);
-  move();
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
+    ['.search','.darkmode','.readermode'].forEach(function(sel){
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==acts) acts.appendChild(el);
+    });
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function all(){ move(); adopt(); graph(); }
+  document.addEventListener('nav', all);
+  all();
 })();
 </script>
 

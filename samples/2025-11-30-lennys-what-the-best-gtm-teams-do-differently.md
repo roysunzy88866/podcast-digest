@@ -17,6 +17,8 @@ tags:
   - 增长与销售
 ---
 
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/">跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织</span></a><div class="pd-acts"></div></div></header></div>
+
 # 把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织
 
 <div class="pd-mt">2025-11-30 · Lenny's Podcast · 85:38 · <a class="mcat" href="./tags/%E5%A2%9E%E9%95%BF%E4%B8%8E%E9%94%80%E5%94%AE">增长与销售</a></div>
@@ -36,9 +38,7 @@ tags:
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/what-the-best-gtm-teams-do-differently)
 
-## 一句话 TLDR
-
-前 Stripe、现 Vercel 的 COO 分享如何用 AI 智能体重构销售流程，并将 GTM 视为产品来打造卓越体验。
+<div class="pd-tldr"><b>一句话</b>前 Stripe、现 Vercel 的 COO 分享如何用 AI 智能体重构销售流程，并将 GTM 视为产品来打造卓越体验。</div>
 
 当产品间的技术差异逐渐缩小时，一家公司该如何脱颖而出？本期嘉宾 Jean Grosser 曾在 [[Stripe|Stripe]] 担任首席商务官并从零搭建销售团队，目前担任 [[Vercel|Vercel]] 的首席运营官（COO）。在这一集里，她深入拆解了什么是世界级的 Go-to-Market（简称 GTM，即产品推向市场的全过程，涵盖营销、销售、技术支持等所有接触客户或产生收入的环节）。整场对话沿着一条非常清晰的主线展开：从 GTM 职能在 AI 时代的演变，到如何用[[智能体|智能体]]重构销售流程，再到像打造产品一样打磨客户的[[购买体验|购买体验]]，最后分享了团队搭建、[[市场细分|市场细分]]、[[PLG|PLG]] 边界与定价的实操心法。
 
@@ -80,7 +80,7 @@ tags:
 2. **卖产品不如卖「降低风险」的体验**：企业客户本质上更倾向于规避风险而非追求上行空间（约 80% 的购买动机是避免痛苦或降低风险）。通过白板协作、提供专业对标数据等方式建立信任，比单纯推销功能更有效。
 3. **市场细分和定价是动态的**：成功的 GTM 不能只靠公司规模划分市场，需结合数据回归找出流量、商业模式等关键驱动属性。同时，要敢于像调整产品一样去解绑和调整定价策略，确保增长路径不被 PLG 的天花板卡死。
 
-## 金句(中英对照 · 过机器闸门三联校验)
+<div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
 
 > 80% 的客户购买是为了避免痛苦或降低风险，而不是增加上行空间，  
 > *80% of customers buy to avoid pain or reduce risk as opposed to increase upside,*  
@@ -106,48 +106,28 @@ tags:
 > *yeses are great, noes are great, maybes will kill you.*  
 > —— Jeanne DeWitt Grosser · [85:15] ^q6
 
-## 相关单集
+<div class="pd-sec">接着看</div>
 
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验》]] —— 同嘉宾:Lenny · 同公司:Vercel · 同概念:go-to-market、智能体 (agent)
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] —— 同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
-- [[2025-11-23-lennys-a-guide-to-difficult-conversations|《别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课》]] —— 同嘉宾:Lenny · 同公司:Stripe
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
-- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]] —— 同嘉宾:Lenny
-- [[2025-11-20-lennys-slack-founder-stewart-butterfield|《把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学》]] —— 同嘉宾:Lenny
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] —— 同嘉宾:Lenny
-- [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷》]] —— 同嘉宾:Lenny
-- [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] —— 同嘉宾:Lenny
-- [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|《育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”》]] —— 同嘉宾:Lenny
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代》]] —— 同嘉宾:Lenny
-- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同嘉宾:Lenny
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别只想推销：产品负责人如何真正影响高管决策》]] —— 同嘉宾:Lenny
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]] —— 同嘉宾:Lenny
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评》]] —— 同嘉宾:Lenny
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要》]] —— 同嘉宾:Lenny
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」》]] —— 同嘉宾:Lenny
-- [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] —— 同概念:智能体 (agent)
-- [[2026-06-03-latent-space-satya-2026|《Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP》]] —— 同概念:智能体 (agent)
-- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] —— 同概念:智能体 (agent)
-- [[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]] —— 同概念:智能体 (agent)
-- [[2026-06-24-pg-company-os-jz|《AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战》]] —— 同概念:智能体 (agent)
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] —— 同概念:智能体 (agent)
-- [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] —— 同概念:智能体 (agent)
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]] —— 同嘉宾:Lenny
-- [[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]] —— 同概念:智能体 (agent)
-- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]] —— 同嘉宾:Lenny
-- [[2026-07-13-pg-the-complete-claude-stack-for-pms|《PM 如何用 Claude 把生产力提升 10 倍：全栈实战》]] —— 同概念:智能体 (agent)
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:智能体 (agent)
-- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失》]] —— 同嘉宾:Lenny
-- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]] —— 同概念:智能体 (agent)
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]] —— 同嘉宾:Lenny
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]] —— 同公司:OpenAI
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「增长与销售」挖下去**
+
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验]] —— 同嘉宾:Lenny · 同公司:Vercel · 同概念:go-to-market、智能体 (agent)
+- [[2026-01-25-lennys-why-your-product-stopped-growing|增长停滞怎么办？Jason Cohen 的四步诊断法]] —— 同嘉宾:Lenny
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师]] —— 同嘉宾:Lenny
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
+
+</div>
+</div>
 
 *本集关键词:Go-to-Market · 智能体自动化 · 市场细分 · SaaS商业策略 · 销售组织变革*
 
@@ -171,8 +151,22 @@ tags:
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
-  document.addEventListener('nav', move);
-  move();
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
+    ['.search','.darkmode','.readermode'].forEach(function(sel){
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==acts) acts.appendChild(el);
+    });
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function all(){ move(); adopt(); graph(); }
+  document.addEventListener('nav', all);
+  all();
 })();
 </script>
 

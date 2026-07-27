@@ -18,6 +18,8 @@ tags:
   - 职业与个人成长
 ---
 
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/">跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”</span></a><div class="pd-acts"></div></div></header></div>
+
 # 育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”
 
 <div class="pd-mt">2026-02-01 · Lenny's Podcast · 91:52 · <a class="mcat" href="./tags/%E7%BB%84%E7%BB%87%E4%B8%8E%E9%A2%86%E5%AF%BC%E5%8A%9B">组织与领导力</a> · <a class="mcat" href="./tags/%E8%81%8C%E4%B8%9A%E4%B8%8E%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF">职业与个人成长</a></div>
@@ -37,9 +39,7 @@ tags:
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/dr-becky-on-the-surprising-overlap)
 
-## 一句话 TLDR
-
-临床心理学家 Dr. Becky 将育儿原则迁移到职场，教你如何修复关系、设定界限并建立长期韧性。
+<div class="pd-tldr"><b>一句话</b>临床心理学家 Dr. Becky 将育儿原则迁移到职场，教你如何修复关系、设定界限并建立长期韧性。</div>
 
 本期嘉宾是临床心理学家、作家，也是知名育儿平台 [[Good Inside|Good Inside]] 的创始人 [[Dr. Becky Kennedy|Dr. Becky Kennedy]]。你可能会问：一个主打科技与商业的播客，为什么要请育儿专家？主持人 [[Lenny|Lenny]] 坦言，因为我们在职场中遇到的许多成年人，其行为表现往往更像婴儿而不是成年人——比如因为必须分享资源而生气、总是需要成为关注中心、或者需要别人为他们解决问题 <button class="pd-ts" data-t="01:18" data-who="Lenny" data-en="Why would I have a parenting expert on this podcast? Because if you think about it, many of the people that we work with in the workplace act a lot more like babies than adults." aria-label="回原文"></button>。Dr. Becky 指出，无论是家庭、婚姻还是职场，本质都是一个个「系统」。一旦你掌握了理解人类行为的核心原则，任何好的原则都可以应用到任何系统中 <button class="pd-ts" data-t="06:21" data-who="Dr. Becky Kennedy" data-en="But the workplace is another system, a marriage is a system, sibling relationships are a system, extended family over the holidays, that's a system. And once you start to think through a lens of understanding how we operate in the system, any good principle can then be applied to any system." aria-label="回原文"></button>。本期对话将围绕几个核心原则展开：从如何[[修复|修复]]关系、建立[[连接|连接]]，到如何设定坚定的[[界限|界限]]，最后探讨如何真正建立一个人或一个团队的长期[[韧性|韧性]]。
 
@@ -84,7 +84,7 @@ tags:
 2. **界限不是要求**：真正的界限不需要对方做任何事。不要说「以后开会请准时」（这是请求），而是决定你将采取的行动，比如设定无容忍机制，并且把对方随之而来的愤怒抗议视为界限生效的成功信号。
 3. **韧性优于幸福**：无论是育儿还是带团队，为了追求表面舒服而回避困难对话，只会让关系的地基变得脆弱。相信对方能搞定难题，往往比替他解决更能培养他的长期能力。
 
-## 金句(中英对照 · 过机器闸门三联校验)
+<div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
 
 > 我认为修复是我们拥有的头号关系策略。  
 > *I think repair is kind of the number one relationship strategy we have.*  
@@ -144,8 +144,22 @@ tags:
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
-  document.addEventListener('nav', move);
-  move();
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
+    ['.search','.darkmode','.readermode'].forEach(function(sel){
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==acts) acts.appendChild(el);
+    });
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function all(){ move(); adopt(); graph(); }
+  document.addEventListener('nav', all);
+  all();
 })();
 </script>
 

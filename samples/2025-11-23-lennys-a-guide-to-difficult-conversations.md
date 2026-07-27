@@ -16,6 +16,8 @@ tags:
   - 组织与领导力
 ---
 
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/">跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课</span></a><div class="pd-acts"></div></div></header></div>
+
 # 别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课
 
 <div class="pd-mt">2025-11-23 · Lenny's Podcast · 105:15 · <a class="mcat" href="./tags/%E7%BB%84%E7%BB%87%E4%B8%8E%E9%A2%86%E5%AF%BC%E5%8A%9B">组织与领导力</a></div>
@@ -33,9 +35,7 @@ tags:
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/a-guide-to-difficult-conversations)
 
-## 一句话 TLDR
-
-高管教练拆解从“大包大揽”到“赋能团队”的领导力转变：辅导、优势设计与沟通框架。
+<div class="pd-tldr"><b>一句话</b>高管教练拆解从“大包大揽”到“赋能团队”的领导力转变：辅导、优势设计与沟通框架。</div>
 
 本集嘉宾是高管教练 [[Rachel Lockett|Rachel Lockett]]，她曾在 Pinterest 和 Stripe 担任长期人力资源领导者，专门与科技公司的 CEO、创始人和领导者合作。这集访谈没有停留在空谈理念，而是高度聚焦实操。他们探讨了领导者最常陷入的“凡事要有答案”的误区，并完整拆解了几个极度实用的核心框架：如何用[[辅导|辅导]]替代直接给答案、如何围绕自身天赋重塑工作以对抗[[职业倦怠|职业倦怠]]、如何处理[[联合创始人|联合创始人]]冲突，以及如何用一套公式搞定艰难对话。全文脉络分为五个部分：前两个部分关于“领导者如何带人”，中间两个部分关于“如何向内探索自己与处理关系”，最后一部分关于“公司如何对齐目标”。
 
@@ -100,7 +100,7 @@ Rachel 的目标是帮助领导者设计自己的生活，争取把 80% 的时�
 2. **围绕天赋设计工作，而非苦熬**：不要指望老板来发掘你的天赋。连续两周每天记录赋予你能量和消耗你能量的事，主动调整工作重心，争取把 80% 的时间花在真正让你发光的“天才领域”里。
 3. **冲突的目标是理解，不是赢**：在艰难对话中，放弃证明对方是错的的执念。用非暴力沟通（观察事实 - 表达感受 - 提出需要 - 做出请求）保持在自我边界内陈述问题，是激发同理心、化解僵局的最有效工具。
 
-## 金句(中英对照 · 过机器闸门三联校验)
+<div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
 
 > 但伟大的领导者知道，当你试图一直提供建议并给出答案时，你实际上并没有装备你的团队去解决难题。  
 > *But great leaders know that when you try to advise and have the answer all the time, you're not actually equipping your team to go solve the hard problems.*  
@@ -138,11 +138,19 @@ Rachel 的目标是帮助领导者设计自己的生活，争取把 80% 的时�
 > *But I want to encourage listeners to think of themselves as leaders who bring humans together to self-actualize, and that they have to actively overcome the default state, which is blind, grind, and loneliness.*  
 > —— Rachel Lockett · [101:22] ^q9
 
-## 相关单集
+<div class="pd-sec">接着看</div>
 
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] —— 同概念:联合创始人 (co-founder)
-- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]] —— 同概念:职业倦怠 (burnout)
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] —— 同公司:Stripe
+<div class="pd-exit">
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品]] —— 同概念:联合创始人 (co-founder)
+- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|科技圈情绪调查：一半人狂喜，一半人煎熬]] —— 同概念:职业倦怠 (burnout)
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织]] —— 同公司:Stripe
+
+</div>
+</div>
 
 *本集关键词:高管教练 · 领导力 · 沟通框架 · 冲突处理 · 组织运营*
 
@@ -166,8 +174,22 @@ Rachel 的目标是帮助领导者设计自己的生活，争取把 80% 的时�
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
-  document.addEventListener('nav', move);
-  move();
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
+    ['.search','.darkmode','.readermode'].forEach(function(sel){
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==acts) acts.appendChild(el);
+    });
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function all(){ move(); adopt(); graph(); }
+  document.addEventListener('nav', all);
+  all();
 })();
 </script>
 

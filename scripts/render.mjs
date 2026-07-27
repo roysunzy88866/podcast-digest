@@ -93,16 +93,57 @@ export function renderRelations(entities, meta) {
  * related = build-entities.relatedEpisodes() 的结果(每条含 shared:{guests,companies,concepts})。
  * 空/无 → 返回 ""(整段不渲染,Scenario 1a:不留空框)。
  */
-export function renderRelatedEpisodes(related) {
+export function renderRelatedEpisodes(related, cats = []) {
   if (!related || !related.length) return "";
   const DIM = { guests: "同嘉宾", companies: "同公司", concepts: "同概念" };
-  const lines = related.map((r) => {
+  // US-7 P0 锁定「关联原因具体到实体名」(C6 Scenario 1/1b)。设计稿那两张卡只画了标题,
+  // 但那是锁定验收条,不许悄悄丢 —— 收成标题下面一行小灰字。
+  const line = (r) => {
     const reasons = ["guests", "companies", "concepts"]
       .filter((k) => r.shared?.[k]?.length)
       .map((k) => `${DIM[k]}:${r.shared[k].map((x) => x.name).join("、")}`);
-    return `- [[${r.epId}|《${r.epTitle}》]] —— ${reasons.join(" · ")}`;
-  });
-  return `## 相关单集\n\n${lines.join("\n")}`;
+    return `- [[${r.epId}|${r.epTitle}]] —— ${reasons.join(" · ")}`;
+  };
+  const main = (cats ?? []).filter((c) => c && c !== "未分类")[0] ?? null;
+  const same = main ? related.filter((r) => (r.epCats ?? []).includes(main)) : [];
+  const sameIds = new Set(same.map((r) => r.epId));
+  const other = related.filter((r) => !sameIds.has(r.epId));
+  // ⚠️ `<div>` 单独成行 + 空行:CommonMark 里空行会结束 HTML 块,后面的 markdown 照常处理 ——
+  //    [[双链]] 必须交给 markdown 渲染(包进原样 HTML 里就失效了,关联框踩过这个坑)。
+  const card = (title, items) =>
+    items.length ? `<div class="pd-ex">\n\n**${title}**\n\n${items.slice(0, 3).map(line).join("\n")}\n\n</div>` : "";
+  const cards = [card(main ? `顺着「${main}」挖下去` : "顺着这条线挖下去", same), card("换个口味", other)].filter(Boolean);
+  if (!cards.length) return "";
+  return `${secLabel("接着看")}\n\n<div class="pd-exit">\n${cards.join("\n")}\n</div>`;
+}
+
+/** 分区小标签(设计稿 .sec:12px 灰色字距标签 + 一句灰色说明)。用 div 不用 h2 —— h2 会挤进右栏目录、还带锚点链图标。 */
+export function secLabel(title, note = null) {
+  return `<div class="pd-sec">${title}${note ? ` <span>${note}</span>` : ""}</div>`;
+}
+
+/** 一句话摘要(设计稿 .tldr:灰底圆角框 + 红色小标签「一句话」),不再是「## 一句话 TLDR」大标题 */
+export function renderTldr(digest) {
+  const t = String(digest?.tldr ?? "").trim();
+  return t ? `<div class="pd-tldr"><b>一句话</b>${t}</div>` : "";
+}
+
+/**
+ * 集页顶栏(设计稿 header.top)。外面那层 `.pd` 是为了直接吃首页那套顶栏样式,不再抄一份。
+ * `.pd-acts` 是空槽 —— 搜索/深浅色由脚本把 Quartz 自己的组件**搬**进来(🔒 #9 搜索不许降级 /
+ * 🔒 #2 亮暗双模式必须留);复刻一份必然走样。分享/收藏归 C13b,本片不放。
+ * 手机上站名与导航让位,只留「← 本集标题」一行(设计稿 .mtitle)。
+ */
+export function renderTopBar(meta) {
+  return (
+    `<div class="pd"><header class="pd-top"><div class="pd-topin">` +
+    `<a class="b" href="/">跨国深谈</a>` +
+    `<nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav>` +
+    `<a class="pd-back" href="/">← 返回</a>` +
+    `<a class="pd-mtitle" href="/">←<span>${displayTitle(meta)}</span></a>` +
+    `<div class="pd-acts"></div>` +
+    `</div></header></div>`
+  );
 }
 
 /** C4 · 详情页音频播放器(US-5)。音频缺失/加载失败 → 浏览器原生降级为不可用态,不卡死页面(Scenario 2a)。 */
@@ -149,8 +190,22 @@ export function renderSidebarScript() {
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
-  document.addEventListener('nav', move);
-  move();
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
+    ['.search','.darkmode','.readermode'].forEach(function(sel){
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==acts) acts.appendChild(el);
+    });
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function all(){ move(); adopt(); graph(); }
+  document.addEventListener('nav', all);
+  all();
 })();
 </script>`.replace(/\n\s*\n/g, "\n");
 }
@@ -373,7 +428,7 @@ function renderFrontmatter(meta, digest, entities) {
 export function renderEpisode(meta, digest, entities = null, related = null, transcript = null) {
   const dur = mmss(meta.duration_sec);
   const fm = renderFrontmatter(meta, digest, entities);
-  const relatedSection = renderRelatedEpisodes(related); // C6 关联区③(空则 "")
+  const relatedSection = renderRelatedEpisodes(related, episodeCategories(meta, entities)); // C6 关联区③(空则 "")
 
   // 顶部:有 entities → 关联区(按角色分行);否则 C2 info callout(host=null 时不打印主持)
   const guestsLine = (meta.guests || [])
@@ -414,6 +469,8 @@ export function renderEpisode(meta, digest, entities = null, related = null, tra
   const keywordsLine = keywords.length ? `\n*本集关键词:${keywords.join(" · ")}*\n` : "";
 
   const body = `
+${renderTopBar(meta)}
+
 # ${displayTitle(meta)}
 
 ${renderEpisodeMeta(meta, entities)}
@@ -424,13 +481,11 @@ ${renderHook(digest, meta)}
 
 ${top}
 
-## 一句话 TLDR
-
-${digest.tldr}
+${renderTldr(digest)}
 
 ${bodyMd.trim()}
 
-## 金句(中英对照 · 过机器闸门三联校验)
+${secLabel("全部金句", `${(digest.quotes || []).length} 条(中英对照,已过机器闸门)`)}
 
 ${quoteBlocks}${relatedSection ? `\n\n${relatedSection}` : ""}
 ${keywordsLine}

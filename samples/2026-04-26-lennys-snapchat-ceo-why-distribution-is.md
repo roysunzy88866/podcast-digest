@@ -18,6 +18,8 @@ tags:
   - 创业与行业
 ---
 
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/">跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要</span></a><div class="pd-acts"></div></div></header></div>
+
 # Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要
 
 <div class="pd-mt">2026-04-26 · Lenny's Podcast · 70:22 · <a class="mcat" href="./tags/%E4%BA%A7%E5%93%81%E6%96%B9%E6%B3%95">产品方法</a> · <a class="mcat" href="./tags/%E5%88%9B%E4%B8%9A%E4%B8%8E%E8%A1%8C%E4%B8%9A">创业与行业</a></div>
@@ -37,9 +39,7 @@ tags:
 >
 > **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is)
 
-## 一句话 TLDR
-
-Snap CEO 谈软件不是护城河、硬件为何重要,以及如何用扁平设计团队持续创新。
+<div class="pd-tldr"><b>一句话</b>Snap CEO 谈软件不是护城河、硬件为何重要,以及如何用扁平设计团队持续创新。</div>
 
 [[Evan Spiegel|Evan Spiegel]] 是 [[Snap|Snap]] 的 CEO 和联合创始人,旗下 [[Snapchat|Snapchat]] 在 15 年前发布,如今拥有超过十亿月活跃用户,每年产生超过 60 亿美元的收入。在本期访谈中,他和主持人探讨了一个无数人关心的问题:为什么做一个能持久活下去的消费者社交产品这么难?随后,两人围绕这个核心发散开去,聊到了 Snap 的[[护城河|护城河]]策略、为什么[[硬件|硬件]]如此关键、设计团队如何持续产出创新、以及 AI 会怎么改变工作流。如果你想知道一个成功存活 15 年的社交产品背后是怎么思考和运作的,这篇导读带你顺着 Evan 的思路走一遍。全文大概可以分成四条线:为什么软件不是护城河、硬件与 AR 眼镜的逻辑、设计团队的工作方式、以及 AI 时代的组织与人性。
 
@@ -116,7 +116,7 @@ Snap 一直以「发明机器」著称,产出了大量被行业效仿的创意�
 2. **要听用户,但别照做**:倾听不是为了照单全收,而是为了深度共情。找到用户心底未被言说的压力和渴望(如对永久公开的焦虑),才能做出超出预期的创新(如 Stories)。
 3. **人性决定技术的命运**:不要盲目相信新技术会自动被全盘接受。面对 AI,业界将面临巨大的社会阻力。只有把人性放在首位,让计算回归以人为本(比如把人从屏幕前解放出来的 AR 眼镜),才能赢得真正的采纳。
 
-## 金句(中英对照 · 过机器闸门三联校验)
+<div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
 
 > 15 年前，我们基本上认识到软件不是护城河，这是今天每个人都在随着 AI 发现的事情。  
 > *15 years ago, we essentially learned that software is not a moat, which is something that everyone is discovering today with AI.*  
@@ -142,14 +142,27 @@ Snap 一直以「发明机器」著称,产出了大量被行业效仿的创意�
 > *you have two ears and one mouth. Use them in that proportion.*  
 > —— Evan Spiegel · [68:23] ^q6
 
-## 相关单集
+<div class="pd-sec">接着看</div>
 
-- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] —— 同概念:智能体 (agents)
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别只想推销：产品负责人如何真正影响高管决策》]] —— 同概念:智能体 (agents)
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] —— 同概念:分发 (distribution)
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] —— 同概念:护城河 (moat)
-- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|《Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失》]] —— 同概念:智能体 (agents)
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评》]] —— 同概念:网络效应 (network effects)
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「产品方法」挖下去**
+
+- [[2026-03-01-lennys-the-design-process-is-dead|The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)]] —— 同概念:智能体 (agents)
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」]] —— 同概念:分发 (distribution)
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|别只想推销：产品负责人如何真正影响高管决策]] —— 同概念:智能体 (agents)
+- [[2026-singju-openclaw-80apps|OpenClaw创始人：为何80%的应用将消失]] —— 同概念:护城河 (moat)
+- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失]] —— 同概念:智能体 (agents)
+
+</div>
+</div>
 
 *本集关键词:社交产品 · 护城河 · 硬件 · 设计文化 · AI 工作流*
 
@@ -173,8 +186,22 @@ Snap 一直以「发明机器」著称,产出了大量被行业效仿的创意�
     if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
     else side.appendChild(wrap);
   }
-  document.addEventListener('nav', move);
-  move();
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts'); if(!acts) return;
+    ['.search','.darkmode','.readermode'].forEach(function(sel){
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==acts) acts.appendChild(el);
+    });
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function all(){ move(); adopt(); graph(); }
+  document.addEventListener('nav', all);
+  all();
 })();
 </script>
 
