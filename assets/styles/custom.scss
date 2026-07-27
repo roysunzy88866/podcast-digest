@@ -935,3 +935,71 @@ body:has(.pd-play) article blockquote:has(> p[id^="q"]) em {
   /* 标题已并进顶栏,正文里不再重复一遍(设计稿 style.css L425 的同一条规矩) */
   body:has(.pd-play) article h1 { display: none; }
 }
+
+/* ── C13d-3 补两块(设计稿 .byl / .play)──
+   数值照抄 需求共创/原型/style.css L113-117 与 .byl。 */
+
+/* 嘉宾署名行:标题之下、meta 行之上。空了整行收起(渲染端已保证不输出空壳,这条是双保险) */
+.pd-byl {
+  font-size: 14.5px;
+  color: #3d3d3d;
+  margin: 10px 0 0;
+}
+.pd-byl b { font-weight: 600; }
+.pd-byl:empty { display: none; }
+@media (max-width: 1023px) { .pd-byl { font-size: 13px; } }
+
+/* 播放条:外观照设计稿,行为接真 audio(renderPlayerScript) */
+.pd-play {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  border: 1px solid #ecdedc;
+  background: #fdf9f9;
+  border-radius: 7px;
+  padding: 11px 16px;
+  margin: 18px 0 24px;
+}
+.pd-play .pb {
+  flex: 0 0 34px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 0;
+  background: var(--pd-accent);
+  color: #fff;
+  font-size: 13px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pd-play .pb:hover { filter: brightness(1.08); }
+.pd-play .tt { display: flex; flex-direction: column; min-width: 0; }
+.pd-play .t1 { font-size: 14px; font-weight: 600; color: var(--B8); }
+.pd-play .t2 { font-size: 12px; color: #9a8f8e; margin-top: 1px; white-space: nowrap; }
+.pd-play .bar {
+  flex: 1;
+  height: 3px;
+  min-width: 40px;
+  background: #ecdedc;
+  border-radius: 2px;
+  margin: 0 8px;
+  cursor: pointer;
+  touch-action: none;   /* 手机上拖进度条不要被页面滚动抢走 */
+}
+.pd-play .bar > i { display: block; width: 0; height: 100%; background: var(--pd-accent); border-radius: 2px; }
+.pd-play .tm { font-size: 12px; color: #9a8f8e; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.pd-play audio { display: none; }
+/* 音频加载失败:整条降级成一句能读的说明,不是一条点了没反应的假条 */
+.pd-play-dead {
+  display: block;
+  color: #9a8f8e;
+  font-size: 13.5px;
+}
+:root[saved-theme="dark"] {
+  .pd-play { background: #241d1c; border-color: #4a3634; }
+  .pd-play .bar { background: #4a3634; }
+  .pd-byl { color: var(--B7); }
+}

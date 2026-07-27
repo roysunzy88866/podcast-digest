@@ -21,9 +21,11 @@ tags:
 
 # 1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成
 
+<div class="pd-byl"><b>Qasar Younis</b> · Applied Intuition CEO</div>
+
 <div class="pd-mt">2026-03-08 · Lenny's Podcast · 84:21 · <a class="mcat" href="./tags/%E5%88%9B%E4%B8%9A%E4%B8%8E%E8%A1%8C%E4%B8%9A">创业与行业</a></div>
 
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-03-08-lennys-the-most-successful-ai-company-youve-nev.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+<div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-03-08-lennys-the-most-successful-ai-company-youve-nev.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 <div class="pd-hook"><div class="z">如果你在家对 AI 感到非常焦虑，你能做的最好的事情就是花时间去理解，你很快就会看到它的局限性。</div><div class="a">Qasar Younis · 00:59</div></div>
 
@@ -223,6 +225,60 @@ Applied Intuition 一直非常低调，直到最近才「出道」发声。Qasar
   }
   document.addEventListener('nav', bind);
   bind();
+})();
+</script>
+
+<script>
+(function(){
+  function fmt(s){
+    if(!isFinite(s)||s<0) s=0;
+    var m=Math.floor(s/60), x=Math.floor(s%60);
+    return (m<10?'0':'')+m+':'+(x<10?'0':'')+x;
+  }
+  function wire(box){
+    if(box.dataset.wired) return; box.dataset.wired='1';
+    var a=box.querySelector('audio'), pb=box.querySelector('.pb'),
+        bar=box.querySelector('.bar'), fill=box.querySelector('.bar > i'),
+        tm=box.querySelector('.tm'), t2=box.querySelector('.t2');
+    if(!a||!pb||!bar||!fill||!tm) return;
+    var total=0;
+    function paint(){
+      var cur=a.currentTime||0;
+      fill.style.width=(total?(cur/total*100):0)+'%';
+      tm.textContent=fmt(cur)+(total?' / '+fmt(total):'');
+    }
+    a.addEventListener('loadedmetadata',function(){
+      total=a.duration||0;
+      if(total&&t2) t2.textContent=Math.round(total/60)+' 分钟 · AI 合成朗读';
+      paint();
+    });
+    a.addEventListener('timeupdate',paint);
+    a.addEventListener('play',function(){ pb.textContent='❚❚'; pb.setAttribute('aria-label','暂停'); });
+    a.addEventListener('pause',function(){ pb.textContent='▶'; pb.setAttribute('aria-label','播放'); });
+    a.addEventListener('ended',function(){ pb.textContent='▶'; });
+    pb.addEventListener('click',function(){ if(a.paused) a.play(); else a.pause(); });
+    function seek(ev){
+      if(!total) return;
+      if(ev.clientX==null) return;
+      var r=bar.getBoundingClientRect();
+      var x=Math.min(Math.max(ev.clientX-r.left,0),r.width);
+      a.currentTime=(x/r.width)*total;
+      paint();
+    }
+    bar.addEventListener('pointerdown',function(ev){
+      seek(ev);
+      function mv(e){ seek(e); }
+      function up(){ document.removeEventListener('pointermove',mv); document.removeEventListener('pointerup',up); }
+      document.addEventListener('pointermove',mv); document.addEventListener('pointerup',up);
+    });
+    a.addEventListener('error',function(){
+      box.classList.add('pd-play-dead');
+      box.textContent='本集中文精华音频还没生成好,稍后再来听。';
+    });
+  }
+  function all(){ document.querySelectorAll('.pd-play').forEach(wire); }
+  document.addEventListener('nav', all);
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', all); else all();
 })();
 </script>
 

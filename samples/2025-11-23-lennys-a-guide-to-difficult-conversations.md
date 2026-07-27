@@ -20,9 +20,11 @@ tags:
 
 # 别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课
 
+<div class="pd-byl"><b>Rachel Lockett</b> · 高管教练</div>
+
 <div class="pd-mt">2025-11-23 · Lenny's Podcast · 105:15 · <a class="mcat" href="./tags/%E7%BB%84%E7%BB%87%E4%B8%8E%E9%A2%86%E5%AF%BC%E5%8A%9B">组织与领导力</a></div>
 
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2025-11-23-lennys-a-guide-to-difficult-conversations.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+<div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-11-23-lennys-a-guide-to-difficult-conversations.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 <div class="pd-hook"><div class="z">但伟大的领导者知道，当你试图一直提供建议并给出答案时，你实际上并没有装备你的团队去解决难题。</div><div class="a">Rachel Lockett · 10:12</div></div>
 
@@ -220,6 +222,60 @@ Rachel 的目标是帮助领导者设计自己的生活，争取把 80% 的时�
   }
   document.addEventListener('nav', bind);
   bind();
+})();
+</script>
+
+<script>
+(function(){
+  function fmt(s){
+    if(!isFinite(s)||s<0) s=0;
+    var m=Math.floor(s/60), x=Math.floor(s%60);
+    return (m<10?'0':'')+m+':'+(x<10?'0':'')+x;
+  }
+  function wire(box){
+    if(box.dataset.wired) return; box.dataset.wired='1';
+    var a=box.querySelector('audio'), pb=box.querySelector('.pb'),
+        bar=box.querySelector('.bar'), fill=box.querySelector('.bar > i'),
+        tm=box.querySelector('.tm'), t2=box.querySelector('.t2');
+    if(!a||!pb||!bar||!fill||!tm) return;
+    var total=0;
+    function paint(){
+      var cur=a.currentTime||0;
+      fill.style.width=(total?(cur/total*100):0)+'%';
+      tm.textContent=fmt(cur)+(total?' / '+fmt(total):'');
+    }
+    a.addEventListener('loadedmetadata',function(){
+      total=a.duration||0;
+      if(total&&t2) t2.textContent=Math.round(total/60)+' 分钟 · AI 合成朗读';
+      paint();
+    });
+    a.addEventListener('timeupdate',paint);
+    a.addEventListener('play',function(){ pb.textContent='❚❚'; pb.setAttribute('aria-label','暂停'); });
+    a.addEventListener('pause',function(){ pb.textContent='▶'; pb.setAttribute('aria-label','播放'); });
+    a.addEventListener('ended',function(){ pb.textContent='▶'; });
+    pb.addEventListener('click',function(){ if(a.paused) a.play(); else a.pause(); });
+    function seek(ev){
+      if(!total) return;
+      if(ev.clientX==null) return;
+      var r=bar.getBoundingClientRect();
+      var x=Math.min(Math.max(ev.clientX-r.left,0),r.width);
+      a.currentTime=(x/r.width)*total;
+      paint();
+    }
+    bar.addEventListener('pointerdown',function(ev){
+      seek(ev);
+      function mv(e){ seek(e); }
+      function up(){ document.removeEventListener('pointermove',mv); document.removeEventListener('pointerup',up); }
+      document.addEventListener('pointermove',mv); document.addEventListener('pointerup',up);
+    });
+    a.addEventListener('error',function(){
+      box.classList.add('pd-play-dead');
+      box.textContent='本集中文精华音频还没生成好,稍后再来听。';
+    });
+  }
+  function all(){ document.querySelectorAll('.pd-play').forEach(wire); }
+  document.addEventListener('nav', all);
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', all); else all();
 })();
 </script>
 

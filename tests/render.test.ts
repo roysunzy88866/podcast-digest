@@ -18,6 +18,8 @@ import {
   renderOrigScript,
   renderTopBar,
   renderRelatedEpisodes,
+  renderByline,
+  renderPlayerScript,
 } from "../scripts/render.mjs";
 
 const META = {
@@ -256,10 +258,13 @@ describe("C13d-1 · 播放条紧随标题(ADR 0015,用户 2026-07-26 明文确�
     expect(out).not.toMatch(/^##\s/m);
   });
 
-  it("★★ 是一条撑满宽的播放条,且音频还能真播(保留原生 controls)", () => {
+  it("★★ 是一条撑满宽的播放条,且音频还能真播", () => {
+    // C13d-3(用户 2026-07-27 拍板):外观换成设计稿那条定制条,原生 controls 去掉,
+    // 但底下仍是真 <audio>,播停拖时间由 renderPlayerScript 接线(另有专门一组测试)。
     const out = renderAudioPlayer(meta);
     expect(out).toMatch(/class="pd-play"/);
-    expect(out).toContain("<audio controls");
+    expect(out).toContain("<audio");
+    expect(out).not.toContain("<audio controls");
     expect(out).toContain('src="/audio/2026-07-19-x.mp3"');
   });
 
@@ -635,5 +640,101 @@ describe("C13d-2 · 顶栏 / TLDR 框 / 小节标签 / 接着看两栏 / 图谱�
     expect(js).toContain(".pd-acts");
     expect(js).toContain("appendChild"); // 搬,不 innerHTML
     expect(js).not.toMatch(/innerHTML\s*=/);
+  });
+});
+
+// ── C13d-3 补两块:嘉宾署名行 + 真能播的定制播放条 ──
+describe("C13d-3 · 嘉宾署名行(设计稿 .byl)", () => {
+  const scss = readFileSync(new URL("../assets/styles/custom.scss", import.meta.url), "utf8");
+  const base = { id: "ep1", title_zh: "T", podcast: "P", date: "2026-07-14", duration_sec: 600 };
+
+  it("★★★ 有人名有职位 → 「嘉宾名 · 职位」", () => {
+    expect(renderByline({ ...base, guest_name: "Peter Steinberger", guest_title: "OpenClaw创始人" } as any))
+      .toBe('<div class="pd-byl"><b>Peter Steinberger</b> · OpenClaw创始人</div>');
+  });
+
+  it("★★★ 只有人名 → 只显示人名,不留孤立的「·」", () => {
+    const out = renderByline({ ...base, guest_name: "Peter Steinberger" } as any);
+    expect(out).toContain("Peter Steinberger");
+    expect(out).not.toContain("·");
+  });
+
+  it("★★★ 两个字段都没有 → 整行不渲染(不留空白)", () => {
+    expect(renderByline(base as any)).toBe("");
+    expect(renderByline({ ...base, guest_name: "", guest_title: "" } as any)).toBe("");
+  });
+
+  it("★★★ 位置:在标题之下、meta 行之上", () => {
+    const md = renderEpisode(
+      { ...base, guest_name: "某人", guest_title: "某公司 CEO" } as any,
+      { tldr: "T。", digest_md: "正文。", quotes: [] } as any,
+      null,
+    );
+    // ⚠️ 针要写全:顶栏里的 `pd-mtitle` 含子串 "pd-mt",松着写会命中顶栏、误判顺序
+    expect(md.indexOf('class="pd-byl"')).toBeGreaterThan(md.indexOf("# T"));
+    expect(md.indexOf('class="pd-byl"')).toBeLessThan(md.indexOf('class="pd-mt"'));
+  });
+
+  it("★★★ 人名/职位要转义,不许把 HTML 直接注进页面(GLM 20260727-004[1])", () => {
+    const out = renderByline({ ...base, guest_name: '<img src=x onerror=alert(1)>', guest_title: 'A & B' } as any);
+    expect(out).not.toContain("<img");
+    expect(out).toContain("&lt;img");
+    expect(out).toContain("A &amp; B");
+  });
+
+  it("★ 样式在(设计稿 .byl:14.5px,空了自动收起)", () => {
+    expect(scss).toMatch(/\.pd-byl \{/);
+  });
+});
+
+describe("C13d-3 · 播放条做成设计稿那条,而且真能播", () => {
+  const scss = readFileSync(new URL("../assets/styles/custom.scss", import.meta.url), "utf8");
+  const out = renderAudioPlayer({ id: "ep1" } as any);
+
+  it("★★★ 设计稿那四件:圆形 ▶ / 听中文精华 / AI 合成朗读 / 进度条 + 时间", () => {
+    expect(out).toContain('class="pb"');
+    expect(out).toContain("听中文精华");
+    expect(out).toContain("AI 合成朗读");
+    expect(out).toContain('class="bar"');
+    expect(out).toContain('class="tm"');
+  });
+
+  it("★★★ 底下接的是真 audio,不是假条", () => {
+    expect(out).toContain("<audio");
+    expect(out).toContain('src="/audio/ep1.mp3"');
+    expect(out).toContain("不支持音频"); // 浏览器不支持时的降级文案
+  });
+
+  it("★★★ 播/停/拖动/时间 四件行为都接了线", () => {
+    const js = renderPlayerScript();
+    expect(js).not.toMatch(/\n\s*\n/);        // 有空行 Markdown 会吃掉脚本
+    expect(js).toContain(".play()");           // 播
+    expect(js).toContain(".pause()");          // 停
+    expect(js).toContain("currentTime");       // 拖动真跳转
+    expect(js).toContain("timeupdate");        // 时间数字跟着走
+    expect(js).toContain("loadedmetadata");    // 总时长 = 音频真实时长,不是源播客时长
+  });
+
+  it("★★★ 音频加载失败 → 降级成一句能读的说明,不是点了没反应的假条", () => {
+    const js = renderPlayerScript();
+    expect(js).toContain("clientX==null"); // 取不到坐标就别 seek(GLM 20260727-004[3]:兜 0 会跳回开头)
+    expect(js).toContain("'error'");
+    expect(js).toContain("pd-play-dead");
+    expect(scss).toMatch(/\.pd-play-dead/);
+  });
+
+  it("★★ 集页真挂上了播放条脚本", () => {
+    const md = renderEpisode(
+      { id: "x", title_zh: "T", date: "2026-01-01", podcast: "P" } as any,
+      { tldr: "T。", digest_md: "正文。", quotes: [] } as any,
+      null,
+    );
+    expect(md).toContain('class="pd-play"');
+    expect(md).toContain("timeupdate");
+  });
+
+  it("★ 设计稿的圆形按钮与进度条样式在", () => {
+    expect(scss).toMatch(/\.pd-play \.pb \{[\s\S]*?border-radius: 50%/);
+    expect(scss).toMatch(/\.pd-play \.bar \{/);
   });
 });

@@ -66,7 +66,9 @@ describe("renderAudioPlayer · 详情页播放器(US-5)", () => {
   it("★ 渲染 HTML5 audio 指向本集音频 + 缺失降级文案(Scenario 2a)", () => {
     const md = renderAudioPlayer({ id: "ep1" });
     expect(md).toContain("<audio");
-    expect(md).toContain("controls");
+    // C13d-3(用户 2026-07-27 拍板):原生 controls 换成设计稿那条定制条,播停拖由脚本接线。
+    // 这里守住的仍是 US-5 的本意:真 audio + 指向本集音频 + 有降级话术。
+    expect(md).toContain('class="pd-play"');
     expect(md).toContain('src="/audio/ep1.mp3"');
     expect(md).toContain("不支持音频"); // 加载失败/缺失时浏览器显示降级文案,不卡死页面
   });

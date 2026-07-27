@@ -22,9 +22,11 @@ tags:
 
 # 用 AI 武装技术型 PM：Codex 工作流全解析
 
+<div class="pd-byl"><b>Meng To</b> · 设计师</div>
+
 <div class="pd-mt">2026-07-09 · Product Growth Podcast · 74:34 · <a class="mcat" href="./tags/AI%20%E7%BC%96%E7%A8%8B">AI 编程</a> · <a class="mcat" href="./tags/%E8%81%8C%E4%B8%9A%E4%B8%8E%E4%B8%AA%E4%BA%BA%E6%88%90%E9%95%BF">职业与个人成长</a></div>
 
-<div class="pd-play"><audio controls preload="metadata" src="/audio/2026-07-09-pg-pm-guide-ai-design.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+<div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-09-pg-pm-guide-ai-design.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
 <div class="pd-hook"><div class="z">因为有了 AI，你不再需要害怕创办公司了，因为 AI 可以为你处理所有的文书工作，为你处理所有的会计工作，所有那些无聊的事情。</div><div class="a">Meng To · 68:39</div></div>
 
@@ -208,6 +210,60 @@ Meng To 展示了他的真实工作区，并强调一个核心理念：**一切�
   }
   document.addEventListener('nav', bind);
   bind();
+})();
+</script>
+
+<script>
+(function(){
+  function fmt(s){
+    if(!isFinite(s)||s<0) s=0;
+    var m=Math.floor(s/60), x=Math.floor(s%60);
+    return (m<10?'0':'')+m+':'+(x<10?'0':'')+x;
+  }
+  function wire(box){
+    if(box.dataset.wired) return; box.dataset.wired='1';
+    var a=box.querySelector('audio'), pb=box.querySelector('.pb'),
+        bar=box.querySelector('.bar'), fill=box.querySelector('.bar > i'),
+        tm=box.querySelector('.tm'), t2=box.querySelector('.t2');
+    if(!a||!pb||!bar||!fill||!tm) return;
+    var total=0;
+    function paint(){
+      var cur=a.currentTime||0;
+      fill.style.width=(total?(cur/total*100):0)+'%';
+      tm.textContent=fmt(cur)+(total?' / '+fmt(total):'');
+    }
+    a.addEventListener('loadedmetadata',function(){
+      total=a.duration||0;
+      if(total&&t2) t2.textContent=Math.round(total/60)+' 分钟 · AI 合成朗读';
+      paint();
+    });
+    a.addEventListener('timeupdate',paint);
+    a.addEventListener('play',function(){ pb.textContent='❚❚'; pb.setAttribute('aria-label','暂停'); });
+    a.addEventListener('pause',function(){ pb.textContent='▶'; pb.setAttribute('aria-label','播放'); });
+    a.addEventListener('ended',function(){ pb.textContent='▶'; });
+    pb.addEventListener('click',function(){ if(a.paused) a.play(); else a.pause(); });
+    function seek(ev){
+      if(!total) return;
+      if(ev.clientX==null) return;
+      var r=bar.getBoundingClientRect();
+      var x=Math.min(Math.max(ev.clientX-r.left,0),r.width);
+      a.currentTime=(x/r.width)*total;
+      paint();
+    }
+    bar.addEventListener('pointerdown',function(ev){
+      seek(ev);
+      function mv(e){ seek(e); }
+      function up(){ document.removeEventListener('pointermove',mv); document.removeEventListener('pointerup',up); }
+      document.addEventListener('pointermove',mv); document.addEventListener('pointerup',up);
+    });
+    a.addEventListener('error',function(){
+      box.classList.add('pd-play-dead');
+      box.textContent='本集中文精华音频还没生成好,稍后再来听。';
+    });
+  }
+  function all(){ document.querySelectorAll('.pd-play').forEach(wire); }
+  document.addEventListener('nav', all);
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', all); else all();
 })();
 </script>
 

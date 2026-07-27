@@ -310,11 +310,94 @@ export function renderOrigScript() {
 </script>`.replace(/\n\s*\n/g, "\n");
 }
 
+/**
+ * C13d-3 · 嘉宾署名行(设计稿 .byl)。用户 2026-07-27 拍板:放「嘉宾名 · 职位」。
+ * 数据来自 C12 入库的 guest_name / guest_title(人名 98% / 职位 93%)——所以降级是常态:
+ * 只有人名就只印人名(**不留孤立的「·」**),两个都没有整行不渲染(设计稿 .byl:empty 同口径)。
+ */
+export function renderByline(meta) {
+  const parts = [meta?.guest_name, meta?.guest_title].map((x) => String(x ?? "").trim()).filter(Boolean);
+  if (!parts.length) return "";
+  const [name, title] = parts.length === 2 ? parts : [parts[0], null];
+  // 转义:人名/职位是 GLM 从转写稿抽的,理论上能带进 HTML(GLM 20260727-004[1] 提的注入面)。
+  // ⚠️ 同类问题在 h1 标题 / meta 行等处也存在(既有写法),已登记 tech-debt,不在本片顺手改。
+  return `<div class="pd-byl"><b>${attrEscape(name)}</b>${title ? ` · ${attrEscape(title)}` : ""}</div>`;
+}
+
 export function renderAudioPlayer(meta) {
-  // C13d-1(ADR 0015,用户 2026-07-26 明文确认):播放条**紧贴标题**、撑满宽,不再套
-  // 「## 🎧 本集中文精华音频」这个小节标题 —— 设计稿 .play 就是标题正下方一条 bar。
-  // 保留原生 <audio controls>:真要能播,不能做成设计稿里那种假进度条。
-  return `<div class="pd-play"><audio controls preload="metadata" src="/audio/${meta.id}.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>`;
+  // C13d-1(ADR 0015,用户 2026-07-26 明文确认):播放条**紧贴标题**、撑满宽。
+  // C13d-3(用户 2026-07-27 拍板):外观照设计稿 .play(圆形 ▶ / 听中文精华 / N 分钟 · AI 合成朗读 /
+  // 进度条 / 时间),但**底下接真 audio** —— 播停拖时间全接线(renderPlayerScript),不做假条。
+  // 时长不在这里写死:源播客时长 ≠ 中文精华音频时长,总时长由 loadedmetadata 从音频真身取。
+  return (
+    `<div class="pd-play">` +
+    `<button class="pb" type="button" aria-label="播放">▶</button>` +
+    `<span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span>` +
+    `<span class="bar"><i></i></span>` +
+    `<span class="tm">00:00</span>` +
+    `<audio preload="metadata" src="/audio/${meta.id}.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio>` +
+    `</div>`
+  );
+}
+
+/**
+ * 播放条行为:播 / 停 / 拖动跳转 / 时间跟着走 / 加载失败降级。
+ * ⚠️ 同一条规矩:脚本内一个空行都不能有(Markdown 原样 HTML 块遇空行即结束)。
+ */
+export function renderPlayerScript() {
+  return `<script>
+(function(){
+  function fmt(s){
+    if(!isFinite(s)||s<0) s=0;
+    var m=Math.floor(s/60), x=Math.floor(s%60);
+    return (m<10?'0':'')+m+':'+(x<10?'0':'')+x;
+  }
+  function wire(box){
+    if(box.dataset.wired) return; box.dataset.wired='1';
+    var a=box.querySelector('audio'), pb=box.querySelector('.pb'),
+        bar=box.querySelector('.bar'), fill=box.querySelector('.bar > i'),
+        tm=box.querySelector('.tm'), t2=box.querySelector('.t2');
+    if(!a||!pb||!bar||!fill||!tm) return;
+    var total=0;
+    function paint(){
+      var cur=a.currentTime||0;
+      fill.style.width=(total?(cur/total*100):0)+'%';
+      tm.textContent=fmt(cur)+(total?' / '+fmt(total):'');
+    }
+    a.addEventListener('loadedmetadata',function(){
+      total=a.duration||0;
+      if(total&&t2) t2.textContent=Math.round(total/60)+' 分钟 · AI 合成朗读';
+      paint();
+    });
+    a.addEventListener('timeupdate',paint);
+    a.addEventListener('play',function(){ pb.textContent='❚❚'; pb.setAttribute('aria-label','暂停'); });
+    a.addEventListener('pause',function(){ pb.textContent='▶'; pb.setAttribute('aria-label','播放'); });
+    a.addEventListener('ended',function(){ pb.textContent='▶'; });
+    pb.addEventListener('click',function(){ if(a.paused) a.play(); else a.pause(); });
+    function seek(ev){
+      if(!total) return;
+      if(ev.clientX==null) return;
+      var r=bar.getBoundingClientRect();
+      var x=Math.min(Math.max(ev.clientX-r.left,0),r.width);
+      a.currentTime=(x/r.width)*total;
+      paint();
+    }
+    bar.addEventListener('pointerdown',function(ev){
+      seek(ev);
+      function mv(e){ seek(e); }
+      function up(){ document.removeEventListener('pointermove',mv); document.removeEventListener('pointerup',up); }
+      document.addEventListener('pointermove',mv); document.addEventListener('pointerup',up);
+    });
+    a.addEventListener('error',function(){
+      box.classList.add('pd-play-dead');
+      box.textContent='本集中文精华音频还没生成好,稍后再来听。';
+    });
+  }
+  function all(){ document.querySelectorAll('.pd-play').forEach(wire); }
+  document.addEventListener('nav', all);
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', all); else all();
+})();
+</script>`.replace(/\n\s*\n/g, "\n");
 }
 
 // 不补链的行:【背景】块 / 引用续行(AI 补充,非本集实体讨论)/ 标题行(链进标题会毁锚点、Quartz 渲染差)
@@ -478,6 +561,8 @@ ${renderTopBar(meta)}
 
 # ${displayTitle(meta)}
 
+${renderByline(meta)}
+
 ${renderEpisodeMeta(meta, entities)}
 
 ${renderAudioPlayer(meta)}
@@ -497,6 +582,8 @@ ${keywordsLine}
 ${renderSidebarScript()}
 
 ${renderOrigScript()}
+
+${renderPlayerScript()}
 
 ---
 
