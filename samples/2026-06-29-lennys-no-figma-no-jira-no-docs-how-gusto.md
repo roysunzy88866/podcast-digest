@@ -184,9 +184,14 @@ Claire 补充道,这是对所有高管的硬技能大考:在这个时代,如果�
     var box=document.createElement('div'); box.className='pd-graph';
     box.appendChild(g); art.appendChild(box);
   }
-  function all(){ move(); adopt(); graph(); }
+  function topbar(){
+    var bar=document.querySelector('article .pd'); if(!bar) return;
+    var qb=document.getElementById('quartz-body'); if(!qb||!qb.parentElement) return;
+    qb.parentElement.insertBefore(bar, qb);
+  }
+  function all(){ topbar(); move(); adopt(); graph(); }
   document.addEventListener('nav', all);
-  all();
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', all); else all();
 })();
 </script>
 

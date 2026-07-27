@@ -139,12 +139,7 @@ body[data-slug^="tags/"] {
   .pd-top {
     border-bottom: 1px solid var(--B3);
     background: var(--B0);
-    position: relative;
-    /* full-bleed:集页的顶栏长在 article 里(它是渲染出来的 markdown 的一部分),
-       不挣脱就只有中栏那 694px 宽(1440 视口实测)。首页的 .pd 本来就占满,这条对它无影响。 */
-    left: 50%;
-    width: 100vw;
-    margin-left: -50vw;
+    position: static;
   }
   .pd-topin {
     max-width: 1200px;
@@ -937,4 +932,6 @@ body:has(.pd-play) article blockquote:has(> p[id^="q"]) em {
   }
   .pd-mtitle span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .pd-mtitle:hover { color: var(--pd-accent); }
+  /* 标题已并进顶栏,正文里不再重复一遍(设计稿 style.css L425 的同一条规矩) */
+  body:has(.pd-play) article h1 { display: none; }
 }

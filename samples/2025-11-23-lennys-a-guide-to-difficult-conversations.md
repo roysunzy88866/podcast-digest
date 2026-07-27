@@ -187,9 +187,14 @@ Rachel 的目标是帮助领导者设计自己的生活，争取把 80% 的时�
     var box=document.createElement('div'); box.className='pd-graph';
     box.appendChild(g); art.appendChild(box);
   }
-  function all(){ move(); adopt(); graph(); }
+  function topbar(){
+    var bar=document.querySelector('article .pd'); if(!bar) return;
+    var qb=document.getElementById('quartz-body'); if(!qb||!qb.parentElement) return;
+    qb.parentElement.insertBefore(bar, qb);
+  }
+  function all(){ topbar(); move(); adopt(); graph(); }
   document.addEventListener('nav', all);
-  all();
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', all); else all();
 })();
 </script>
 

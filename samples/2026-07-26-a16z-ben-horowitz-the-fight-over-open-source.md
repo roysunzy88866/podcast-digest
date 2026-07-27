@@ -184,9 +184,14 @@ Ben 完全同意这一观点。他指出,从法律上讲 AI 模型的输出不�
     var box=document.createElement('div'); box.className='pd-graph';
     box.appendChild(g); art.appendChild(box);
   }
-  function all(){ move(); adopt(); graph(); }
+  function topbar(){
+    var bar=document.querySelector('article .pd'); if(!bar) return;
+    var qb=document.getElementById('quartz-body'); if(!qb||!qb.parentElement) return;
+    qb.parentElement.insertBefore(bar, qb);
+  }
+  function all(){ topbar(); move(); adopt(); graph(); }
   document.addEventListener('nav', all);
-  all();
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', all); else all();
 })();
 </script>
 

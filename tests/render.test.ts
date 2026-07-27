@@ -589,14 +589,35 @@ describe("C13d-2 · 顶栏 / TLDR 框 / 小节标签 / 接着看两栏 / 图谱�
     expect(renderRelatedEpisodes(null as any, ["组织与领导力"])).toBe("");
   });
 
+  it("★★ 手机上标题不出现两遍(顶栏已经是「← 标题」,正文大标题就该让位)", () => {
+    // 设计稿自己的规矩:「标题已并进顶栏,正文里不再重复一遍」(原型 style.css L425 注释)
+    // ⚠️ 不能写 `article > h1`:Quartz 在中间夹了 .markdown-preview-view,直接子选择器命不中(实测)
+    expect(scss).toMatch(/@media \(max-width: 1023px\) \{[\s\S]*?article h1 \{ display: none/);
+  });
+
   it("★★★ 顶栏通栏,不被挤在正文那一列里(实测原来只有 694px,视口 1440)", () => {
-    // 集页顶栏在 article 里(它是渲染出来的 markdown 的一部分)→ 必须 full-bleed 挣脱中栏宽度
-    expect(scss).toMatch(/\.pd-top \{[\s\S]*?width: 100vw[\s\S]*?margin-left: -50vw/);
+    // 集页顶栏长在 article 里(它是渲染出来的 markdown 的一部分)。
+    // full-bleed(left:50%/-50vw)在这里**不成立** —— 中栏不在视口正中(700+282 里的左栏),
+    // 实测顶栏左缘跑到 -373px、站名被推到 -229px 屏幕外。改成搬节点:挂到框架栅格外面。
+    const js = renderSidebarScript();
+    expect(js).toContain("article .pd");        // 从正文里揪出顶栏
+    // GLM 20260727-003[2] 提对了:光 toContain("insertBefore(bar") 太松,注释里也能糊弄过去。
+    // 收紧成整条语句(收件人 + 两个操作数都得对)。
+    expect(js).toContain("qb.parentElement.insertBefore(bar, qb);");
+    expect(scss).not.toMatch(/\.pd-top \{[\s\S]*?margin-left: -50vw/);
   });
 
   it("★★★ 右栏只剩目录 + 这一集涉及:Quartz 自带的「反向链接」块藏掉", () => {
     // 实测:它 178px 高,列的集跟「接着看」重复 —— 设计稿右栏没有这一块
     expect(scss).toMatch(/body:has\(\.pd-play\)[\s\S]*?\.right\.sidebar \.backlinks \{ display: none/);
+  });
+
+  it("★★★ 搬节点必须等 DOM 齐了再跑(脚本在正文里,执行时右栏还没进 DOM)", () => {
+    // 浏览器实测逮到:直接打开页面时 .right.sidebar 还不存在 → 搬关联框/搬图谱全落空,
+    // 只有 SPA 的 nav 事件补跑才对。不能把正确性押在「nav 一定会补一脚」上。
+    const js = renderSidebarScript();
+    expect(js).toContain("readyState");
+    expect(js).toContain("DOMContentLoaded");
   });
 
   it("★★★ 关系图谱挪到正文底部(ADR 0016:留一跳邻域,但不占右栏)", () => {

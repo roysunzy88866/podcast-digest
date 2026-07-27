@@ -175,9 +175,14 @@ Meng To 展示了他的真实工作区，并强调一个核心理念：**一切�
     var box=document.createElement('div'); box.className='pd-graph';
     box.appendChild(g); art.appendChild(box);
   }
-  function all(){ move(); adopt(); graph(); }
+  function topbar(){
+    var bar=document.querySelector('article .pd'); if(!bar) return;
+    var qb=document.getElementById('quartz-body'); if(!qb||!qb.parentElement) return;
+    qb.parentElement.insertBefore(bar, qb);
+  }
+  function all(){ topbar(); move(); adopt(); graph(); }
   document.addEventListener('nav', all);
-  all();
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', all); else all();
 })();
 </script>
 
