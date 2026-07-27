@@ -376,9 +376,14 @@ describe("planEpisodeAudio · 纯规划(strip+chunk+hash 一次到位)", () => {
 describe("部署脚本不许自己判「音频在不在」(会挡住 tts 的陈旧检测)", () => {
   const sh = readFileSync(new URL("../scripts/deploy-site.sh", import.meta.url), "utf8");
 
-  it("★★★ 补音频那步不带 `! -f audio.mp3` 判断 —— 加了缓存后它会让改过的集挂旧音频", () => {
-    expect(sh).not.toMatch(/!\s*-f\s*"\$\{d\}audio\.mp3"/);
-    expect(sh).toMatch(/if \[ -f "\$\{d\}digest\.json" \]; then/);
+  it("★★★ 补音频那步不带任何「音频文件在不在」的判断 —— 加了缓存后它会让改过的集挂旧音频", () => {
+    // GLM 20260727-002[2] 提醒:原来只挡 `! -f`,换成 -e/-s 或 [[ ]] 就能绕过。
+    // 实测那次改 -e 确实变红了,但红的是下面那条对格式敏感的正向断言(误打误撞),
+    // 不是这条防回归的断言。所以放宽成「任何取反的文件测试 + audio.mp3」都拦。
+    expect(sh).not.toMatch(/!\s*-[a-zA-Z]\s+"?\$\{d\}audio\.mp3/);
+    // 正向断言只确认那一步还在(用宽松匹配,别让改个空格就红)
+    expect(sh).toMatch(/-f\s+"\$\{d\}digest\.json"/);
+    expect(sh).toMatch(/node scripts\/tts\.mjs "\$d"/);
   });
 
   it("★★ tts 的幂等靠指纹而非文件存在(改了内容必须重念)", () => {
