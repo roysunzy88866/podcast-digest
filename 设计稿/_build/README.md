@@ -35,12 +35,12 @@
 ```bash
 python3 build_proto.py && python3 build_proto2.py && python3 build_search.py
 ```
-脚本里的 `R` 指向仓库根;`P` 指向 `需求共创/原型`。
+脚本里的 `R` 指向仓库根;`P` 指向 `设计稿`。
 
 ## 本地预览
 `.claude/launch.json` 里有 `ui-proto`(端口 8123)。
 ⚠️ **项目路径含中文会让 `python3 -m http.server --directory` 静默失效** —— 服务目录用 `/tmp/uiproto`,
-改完要 `rm -rf /tmp/uiproto && cp -R 需求共创/原型 /tmp/uiproto` 同步。
+改完要 `rm -rf /tmp/uiproto && cp -R 设计稿 /tmp/uiproto` 同步。
 
 ## 已知取巧
 - 字体 `AlibabaPuHuiTi-subset.woff2` 是从 `assets/fonts/` 拷来的副本(为让原型可独立打开),与仓库那份是同一个文件。

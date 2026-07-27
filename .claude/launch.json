@@ -15,10 +15,9 @@
       "runtimeExecutable": "bash",
       "runtimeArgs": [
         "-lc",
-        "cd / && exec python3 -m http.server ${PORT:-8123} --directory /tmp/uiproto"
+        "exec python3 '设计稿/serve.py' ${PORT:-8123}"
       ],
-      "port": 8123,
-      "autoPort": true
+      "port": 8123
     }
   ]
 }

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // C13b · 大类页生成:8 个大类各一页,带三轴筛选 + 排序 → site/content/tags/<大类>.md
 //
-// 设计稿 = `需求共创/原型/cat-*.html` + `需求共创/原型/filter.js`。
+// 设计稿 = `设计稿/cat-*.html` + `设计稿/filter.js`。
 // **筛选逻辑照搬 filter.js**(它已经把三轴单选/跨轴取交集/条数重算/排序稳定都写对了),
 // 本文件只负责把真数据摆成它要的形状。样式在 assets/styles/custom.scss。
 //

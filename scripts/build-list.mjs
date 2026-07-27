@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 // C13a · 首页生成:照原型设计稿出真页面 → content/index.md。
 //
-// 设计稿 = `需求共创/原型/index.html` + `需求共创/原型/style.css`(577 行)。
+// 设计稿 = `设计稿/index.html` + `设计稿/style.css`(577 行)。
 // 结构照抄设计稿:顶栏(站名+最新/最热)→ 三栏 shell(左主题 / 中日期流 / 右自动区)。
 // 样式全部在 assets/styles/custom.scss(项目铁律:唯一视觉定制入口),本文件只出结构。
 //

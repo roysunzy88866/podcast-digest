@@ -11,7 +11,7 @@ import { readFileSync } from "node:fs";
 import { renderList, taxonomyCategories } from "../scripts/build-list.mjs";
 
 // 样式按项目铁律全在 custom.scss(唯一视觉定制入口)→ 视觉规格的断言查那个文件,
-// 结构的断言查 renderList 的输出。设计稿 = 需求共创/原型/style.css。
+// 结构的断言查 renderList 的输出。设计稿 = 设计稿/style.css。
 const scss = readFileSync(new URL("../assets/styles/custom.scss", import.meta.url), "utf8");
 
 /** 造一集。renderList 真读这些字段,所以测试数据必须长得像真 meta/digest。 */

@@ -9,13 +9,16 @@
 用法:python3 serve.py [端口] [目录]
 """
 import io
+import os
 import json
 import sys
 import threading
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 
 PORT = int(sys.argv[1]) if len(sys.argv) > 1 else 8123
-ROOT = sys.argv[2] if len(sys.argv) > 2 else '/tmp/uiproto'
+# 默认就服务**本文件所在的设计稿目录**(2026-07-27 设计稿独立成档后改)。
+# 以前默认 /tmp/uiproto 那份拷贝 —— 拷贝会陈旧,人在旧稿上标注、我读新稿,对不上。
+ROOT = sys.argv[2] if len(sys.argv) > 2 else os.path.dirname(os.path.abspath(__file__))
 COMMENTS = '/tmp/uiproto-comments.jsonl'
 ROUTES = ('/_comment', '/_comments')
 WLOCK = threading.Lock()          # ThreadingHTTPServer 会并发;批注文件是 Claude 的读取源,不能写花

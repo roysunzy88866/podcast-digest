@@ -5,7 +5,7 @@
 # 图源是流水线入库的 data/episodes/<id>/cover.jpg(640px,由 scripts/cover.mjs 从集页 og:image 抓取)。
 # 这里只把它们缩到 280px(给 140px 卡片做 2 倍图),约 1.1MB —— 所以不占仓库体积,现取现生成。
 #
-# 用法:bash 需求共创/原型/make-covers.sh      (在仓库任意位置跑都行)
+# 用法:bash 设计稿/make-covers.sh      (在仓库任意位置跑都行)
 set -uo pipefail
 HERE=$(cd "$(dirname "$0")" && pwd)
 ROOT=$(cd "$HERE/../.." && pwd)

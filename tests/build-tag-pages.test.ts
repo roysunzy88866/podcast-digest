@@ -1,6 +1,6 @@
 // C13b · 大类页三轴筛选。真业务测试,只调被测函数。
 // 行为真相 = docs/user-stories.md C13b 前三个场景(已二次确认);
-// 设计稿 = 需求共创/原型/cat-*.html + filter.js(筛选逻辑照搬,数值不自己发明)。
+// 设计稿 = 设计稿/cat-*.html + filter.js(筛选逻辑照搬,数值不自己发明)。
 import { describe, it, expect } from "vitest";
 import { readFileSync } from "node:fs";
 import { renderTagPage } from "../scripts/build-tag-pages.mjs";
