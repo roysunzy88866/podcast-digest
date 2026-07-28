@@ -952,6 +952,23 @@ body:has(.pd-play) {
 .pd-hook .a { font-size: 12.5px; color: var(--B5); margin-top: 8px; }
 @media (max-width: 1023px) { .pd-hook .z { font-size: 17px; } }
 
+/* ── C13g 集页正文排版(设计稿 .mid p / .mid h2)──
+   C13d 那几刀移的是版式结构,正文字号行距一直吃 Quartz 默认(16px / 1.6)→ 比设计稿挤一档。
+   颜色**故意不写**:交给主题的 --darkgray(C13g 已改成设计稿的 #252525 / 深色 #cfcdcb),
+   写死浅色的 #252525 深色模式下会瞎。
+   ⚠️ `:not(blockquote p)` 不能省 —— 金句块(下面那条)自己是 17px/1.7,
+   `article p` 会直接命中它里面的 p、把 17px 压成 16.5px。【背景】引用块同理。 */
+body:has(.pd-play) article p:not(blockquote p) {
+  font-size: 16.5px;
+  line-height: 1.95;
+}
+/* 设计稿 .mid h2:全站正文黑体,小节标题走普惠体(与卡片标题同一套) */
+body:has(.pd-play) article h2 {
+  font-family: var(--puhui);
+  font-size: 20px;
+  line-height: 1.45;
+}
+
 /* ── 金句区(设计稿 .qr)──
    ⚠️ **只改外观,不动结构**:金句那三行必须留在一个 blockquote 里,^块ID 才能覆盖整条
    (实体页的金句墙靠块嵌入拉它;2026-07-18 审计实测过拆开会只剩署名行)。

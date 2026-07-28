@@ -7,7 +7,8 @@
 //   ② pageTitle → 跨国深谈(🔒 设计稿拍板 #1;原为「英文播客中文精华」——那是说明书不是名字)
 //   ③ bases-page 插件 → 关掉(原为「默认视图=cards」;C13a 移植后首页不出 base 代码块)
 // C11 视觉改版(2026-07-25 用户拍板,需求共创/视觉调研-播客UI.md §七 · 方向 A 少数派风):
-//   ④ 主题色 = 暖红亮暗双套(secondary=红;中性走少数派暖调)
+//   ④ 主题色 = 设计稿 token 亮暗双套(C13g:与 custom.scss 的 --B0..--B8 / --pd-accent 同源,
+//      站上只留一套配色;原 7-25「暖红」那套已撤,见 docs/user-stories.md C13g)
 //   ⑤ 默认浅色:Head 注入种子脚本(首访无记忆→light;用户切换仍记忆)
 //   ⑥ 注入 custom.scss(普惠体标题/卡片色带/金句风格)+ 自托管普惠体子集字体
 //
@@ -71,16 +72,16 @@ patch(
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#fff23688"`,
   `      lightMode:
-        light: "#faf8f6"
-        lightgray: "#ece7e2"
-        gray: "#8c857f"
-        darkgray: "#33302e"
-        dark: "#232222"
-        secondary: "#e0392b"
-        tertiary: "#b32c21"
-        highlight: rgba(224, 57, 43, 0.10)
+        light: "#fff"
+        lightgray: "#e4e4e5"
+        gray: "#acaeb3"
+        darkgray: "#252525"
+        dark: "#000"
+        secondary: "#b8443c"
+        tertiary: "#96362f"
+        highlight: rgba(184, 68, 60, 0.10)
         textHighlight: "#fff2a8aa"`,
-  "亮色主题(暖红)",
+  "亮色主题(设计稿 token)",
 );
 patch(
   `      darkMode:
@@ -94,16 +95,16 @@ patch(
         highlight: rgba(143, 159, 169, 0.15)
         textHighlight: "#b3aa0288"`,
   `      darkMode:
-        light: "#1a1917"
-        lightgray: "#322e2a"
-        gray: "#8f877e"
-        darkgray: "#d7d2cb"
-        dark: "#ece7e1"
-        secondary: "#ff6455"
-        tertiary: "#ff8478"
-        highlight: rgba(255, 100, 85, 0.14)
+        light: "#1c1b1a"
+        lightgray: "#3a3837"
+        gray: "#77757a"
+        darkgray: "#cfcdcb"
+        dark: "#f2f0ef"
+        secondary: "#e0776a"
+        tertiary: "#eb9184"
+        highlight: rgba(224, 119, 106, 0.14)
         textHighlight: "#b3aa0288"`,
-  "深色主题(暖红)",
+  "深色主题(设计稿 token · 反推那套)",
 );
 
 writeFileSync(cfgPath, cfg);
