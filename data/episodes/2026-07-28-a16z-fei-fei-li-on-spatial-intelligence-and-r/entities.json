@@ -1,0 +1,984 @@
+{
+  "episode_id": "2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r",
+  "podcast": "The a16z Show",
+  "date": "2026-07-28",
+  "tags": [
+    "空间智能",
+    "机器人",
+    "仿真",
+    "世界模型",
+    "数据瓶颈"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "fei-fei-li",
+      "type": "person",
+      "role": "host",
+      "name": "Fei-Fei Li",
+      "file": "Fei-Fei Li",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            77.352,
+            85.216
+          ],
+          "quote": "Following World Lab's acquisition of Cinex, Martin Cassaro sits down with Fei-Fei Li and Yunzhu Li to unpack the vision behind the deal.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "martin-cassaro",
+      "type": "person",
+      "role": "cohost",
+      "name": "Martin Cassaro",
+      "file": "Martin Cassaro",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            77.352,
+            85.216
+          ],
+          "quote": "Following World Lab's acquisition of Cinex, Martin Cassaro sits down with Fei-Fei Li and Yunzhu Li to unpack the vision behind the deal.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "yunzhu-li",
+      "type": "person",
+      "role": "cohost",
+      "name": "Yunzhu Li",
+      "file": "Yunzhu Li",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            77.352,
+            85.216
+          ],
+          "quote": "Following World Lab's acquisition of Cinex, Martin Cassaro sits down with Fei-Fei Li and Yunzhu Li to unpack the vision behind the deal.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "world-labs",
+      "type": "company",
+      "role": "company",
+      "name": "World Labs",
+      "file": "World Labs",
+      "primary": true,
+      "how_described": "本集说它是一家前沿模型初创公司，致力于构建大型世界模型以实现空间智能，并收购了 Cynics 以补齐机器人的仿真能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 20,
+          "t": [
+            102.413,
+            108.706
+          ],
+          "quote": "So Fei-Fei, for the listeners that may not have the background, maybe you can give an overview of what World Labs does.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 40,
+          "t": [
+            229.849,
+            239.312
+          ],
+          "quote": "So by joining force with inviting Cynics and Cynics team to World Labs is part of our long-term vision and mission.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            498.837,
+            510.263
+          ],
+          "quote": "So when we started talking more seriously, I recognized that a couple of things that Cynics has from a talent point of view is extremely complementary to world labs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 118,
+          "t": [
+            571.425,
+            583.637
+          ],
+          "quote": "So I think what they don't have, obviously, is on the generative model side, as well as the computer vision 3D reconstruction side, we're also very strong at World Labs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            598.05,
+            606.598
+          ],
+          "quote": "Having been in your situation, which is deciding when to sell a company, it would be great to hear from you on how you think about joining World Labs and kind of the fit there and why you made the decision to do it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 129,
+          "t": [
+            641.18,
+            647.823
+          ],
+          "quote": "And what World Labs right now has been doing involves a lot of profound capabilities around sparse reconstruction.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 131,
+          "t": [
+            649.404,
+            659.813
+          ],
+          "quote": "So we see a lot of opportunities of leveraging Marble and other capabilities as World Labs in order to do very efficient reconstructions and modeling of the environment.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 132,
+          "t": [
+            659.893,
+            663.996
+          ],
+          "quote": "So can we expect a foundation model for robotics from World Labs?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            665.357,
+            668.42
+          ],
+          "quote": "World Labs is building a foundation model, as you know, Martin.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1779.677,
+            1780.717
+          ],
+          "quote": "like world labs?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2360.18,
+            2366.742
+          ],
+          "quote": "I would be very happy that Cinex team and World Labs team will have",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2399.127,
+            2409.832
+          ],
+          "quote": "How early, let's say someone listening to this is running a robotics company, at what stage should they engage with World Labs?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2471.88,
+            2477.763
+          ],
+          "quote": "So together with World Labs, we'll be able to develop reliable solutions for those scenarios.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2494.27,
+            2498.312
+          ],
+          "quote": "Is it ever too late or too early to call World Labs if you're a robotics company?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 483,
+          "t": [
+            2504.675,
+            2510.278
+          ],
+          "quote": "If you're listening to this and you're anywhere close to a robotics project or robotics company, please track World Labs.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2518.122,
+            2519.603
+          ],
+          "quote": "If you're doing robotics, call World Labs.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cynics",
+      "type": "company",
+      "role": "company",
+      "name": "Cynics",
+      "file": "Cynics",
+      "primary": true,
+      "how_described": "本集说它是一家做机器人的初创公司，被 World Labs 收购；它开发了现实到仿真的流水线，以解决机器人训练极度缺乏数据的关键瓶颈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            6.859,
+            11.584
+          ],
+          "quote": "At Cynics, we are developing what we call a real-to-sim-to-real pipeline.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 40,
+          "t": [
+            229.849,
+            239.312
+          ],
+          "quote": "So by joining force with inviting Cynics and Cynics team to World Labs is part of our long-term vision and mission.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 43,
+          "t": [
+            242.633,
+            244.694
+          ],
+          "quote": "So Yunxiu, you're the co-founder of Cynics.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 44,
+          "t": [
+            244.714,
+            248.755
+          ],
+          "quote": "So maybe provide everyone with a quick overview of your background and what Cynics does.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 46,
+          "t": [
+            251.161,
+            256.404
+          ],
+          "quote": "So I'm currently co-founder of Cynics and also assistant professor at Columbia University.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 56,
+          "t": [
+            278.575,
+            284.077
+          ],
+          "quote": "So for Cynics, the unique opportunity we see is that there has been a lot of bottlenecks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 58,
+          "t": [
+            292.539,
+            297.821
+          ],
+          "quote": "So at Cynics, we are developing what we call a real-to-sim-to-real pipeline.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 104,
+          "t": [
+            498.837,
+            510.263
+          ],
+          "quote": "So when we started talking more seriously, I recognized that a couple of things that Cynics has from a talent point of view is extremely complementary to world labs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            620.409,
+            627.153
+          ],
+          "quote": "So in any sense, at Cynics, what we've been doing is real to seem to real, is to do dense reconstruction of the environment.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 181,
+          "t": [
+            930.953,
+            940.817
+          ],
+          "quote": "One thing I really like about Cynics, Martin, especially continuing your question, there's a lot of robotics companies building models and all that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 182,
+          "t": [
+            940.897,
+            950.92
+          ],
+          "quote": "One thing I truly like about Cynics is Rindu and his co-founders have such an incredibly pragmatic approach to robotics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1080.204,
+            1096.867
+          ],
+          "quote": "So basically, with Cynics and together with WordLabs, we're trying to investigate what is the level of fidelity we need to model the massive, massive worlds besides the robots, such that we'll be able to transfer the robotic systems training the simulated environment and digital worlds back into the real scenarios.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1611.798,
+            1619.78
+          ],
+          "quote": "Even before Cynics and we are talking, our inbound customers for Marble were already seeing this kind of demands.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1942.904,
+            1944.485
+          ],
+          "quote": "But the challenge for cynics is...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "spatial-intelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "空间智能 (spatial intelligence)",
+      "file": "空间智能",
+      "primary": true,
+      "how_described": "本集说它是 AI 的下一个前沿，指机器生成、理解、推理并与物理或虚拟空间交互的能力，也是 World Labs 聚焦的核心愿景。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.792,
+            6.238
+          ],
+          "quote": "we are building the next frontier of AI, which is what we call spatial intelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            85.876,
+            96.761
+          ],
+          "quote": "They discuss spatial intelligence, world models, simulation, and why solving robotics will require a new generation of AI built for three-dimensional reasoning, not just language.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            117.425,
+            122.886
+          ],
+          "quote": "We are building the next frontier of AI, which is what we call spatial intelligence.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 24,
+          "t": [
+            123.686,
+            130.108
+          ],
+          "quote": "And spatial intelligence is about creating AI that has the ability to...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 26,
+          "t": [
+            139.05,
+            144.772
+          ],
+          "quote": "And of course, a means to an end towards spatial intelligence is building large world models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            224.487,
+            229.789
+          ],
+          "quote": "application as well as use case of spatial intelligence and world modeling.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "large-world-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "大型世界模型 (large world models)",
+      "file": "大型世界模型",
+      "primary": true,
+      "how_described": "本集说它是通往空间智能的关键手段，World Labs 正是主要聚焦于构建这种模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            139.05,
+            144.772
+          ],
+          "quote": "And of course, a means to an end towards spatial intelligence is building large world models.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "simulation",
+      "type": "concept",
+      "role": "concept",
+      "name": "仿真 (simulation)",
+      "file": "仿真",
+      "primary": true,
+      "how_described": "本集反复强调它是解决机器人瓶颈的钥匙，因为它能提供现实世界数据所没有的「反事实推理」能力，并极大提升训练与评估的可靠性和效率。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            27.016,
+            34.578
+          ],
+          "quote": "There's a very important role simulation plays that real-world data doesn't play, which is counterfactual reasoning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 18,
+          "t": [
+            85.876,
+            96.761
+          ],
+          "quote": "They discuss spatial intelligence, world models, simulation, and why solving robotics will require a new generation of AI built for three-dimensional reasoning, not just language.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            322.596,
+            333.103
+          ],
+          "quote": "In Cinex, we put together a very, very strong and best teams around robotics, robot learning, and also simulation and rendering, trying to build this real-to-sim to real stack to solve some of the key bottlenecks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 95,
+          "t": [
+            466.007,
+            474.489
+          ],
+          "quote": "The other two are Changxi Zheng, another Columbia professor who has been a world-class technologist in simulation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            550.888,
+            557.553
+          ],
+          "quote": "Then on the Changxi side is just incredible simulation capability, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            557.573,
+            563.378
+          ],
+          "quote": "He's such a senior researcher and technologist in simulation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 155,
+          "t": [
+            772.75,
+            779.292
+          ],
+          "quote": "And, like, you know, that's the predominant method where this is, you know, 3D and simulation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 168,
+          "t": [
+            851.769,
+            874.174
+          ],
+          "quote": "going from this more simulation-driven models into robot policy models, which are going to do the execution in the real environment, collecting new data, the data will come back in, where the model doesn't necessarily have to be physics-only or learning-only, but somewhere in the middle, which be able to capture the essential structure of the problem, but at the same time, be able to scale and become better and better as you accumulate more data.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1054.627,
+            1058.47
+          ],
+          "quote": "for them to actually work and be able to transfer from simulation to the real environment.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1070.4,
+            1074.543
+          ],
+          "quote": "You need to have a simulation that captures the essential structure of the problem.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1102.308,
+            1110.212
+          ],
+          "quote": "simulation will always eventually deviate from the physical world and real world data collection is absolutely critical.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1110.252,
+            1118.057
+          ],
+          "quote": "And so maybe talk a little bit about like the viability of this approach where simulation is a cornerstone as opposed to some other approach.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1121.921,
+            1129.33
+          ],
+          "quote": "So if you think about the simulation, simulation is essentially trying to predict how the environment is going to change when you apply the actions.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1182.913,
+            1194.656
+          ],
+          "quote": "I want to add to this and be slightly philosophical here is there isn't a binary choice between simulation or no simulation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1202.477,
+            1204.798
+          ],
+          "quote": "We do a lot of simulation in our head.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1206.779,
+            1223.067
+          ],
+          "quote": "There's a very important role simulation plays that real world data doesn't play, which is counterfactual reasoning, is that you play out events that hasn't happened or cannot happen, or you don't have enough data to make it happen in real world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1237.694,
+            1249.98
+          ],
+          "quote": "I'm sure in the planning of every game, there is simulation, whether it's digital or on the whiteboard or whatever, that simulation, the role simulation plays is counterfactual reasoning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1264.151,
+            1269.877
+          ],
+          "quote": "Weibo has officially said they use billions of hours of simulation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1271.142,
+            1276.826
+          ],
+          "quote": "And actually, Waymo is more simulation-heavy than just real-world data-heavy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1285.952,
+            1290.335
+          ],
+          "quote": "So clearly, simulation plays a huge role in robotic learning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1292.476,
+            1298.7
+          ],
+          "quote": "So if you put things more specific, simulation can provide two levels of benefits.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1315.81,
+            1334.647
+          ],
+          "quote": "how you can learn of how is that is robust so with simulation you can do systematic randomizations and control and variations of lighting frictions geometries object types and also all different kind of physical parameters to making sure you have sufficient coverage of the state space so this is what can give the robotic systems reliability",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1364.036,
+            1372.961
+          ],
+          "quote": "But in simulation, you can do systematic speed up of the robot's behaviors to train the robots such that it considers all the dynamics, changes of the environment.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1377.903,
+            1385.027
+          ],
+          "quote": "So both for the reliability and efficiency, there are some kind of very unique values where simulation can provide.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 297,
+          "t": [
+            1517.444,
+            1525.912
+          ],
+          "quote": "If a checkpoint is working better in the simulation, it's also highly likely to also work better in the real environment, as we have also been discussed in the blog post.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1584.225,
+            1586.907
+          ],
+          "quote": "But in simulation, everything can be controllable.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2267.547,
+            2277.494
+          ],
+          "quote": "We definitely will, we already on the simulation side, as well as the potential base model, action condition model side, we already are starting to talk.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2413.994,
+            2427.76
+          ],
+          "quote": "So right now, for our customers, because we are building this kind of real-to-thing-to-real pipelines, where the simulation is essentially the words we're going to provide the training and evaluation grounds, some customers, they need only the real-to-thing part.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "counterfactual-reasoning",
+      "type": "concept",
+      "role": "concept",
+      "name": "反事实推理 (counterfactual reasoning)",
+      "file": "反事实推理",
+      "primary": true,
+      "how_described": "本集说这是仿真的独特作用，即推演那些在现实中尚未发生、不可能发生或缺乏足够现实数据的事件，让机器人学会应对突发情况。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            27.016,
+            34.578
+          ],
+          "quote": "There's a very important role simulation plays that real-world data doesn't play, which is counterfactual reasoning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1206.779,
+            1223.067
+          ],
+          "quote": "There's a very important role simulation plays that real world data doesn't play, which is counterfactual reasoning, is that you play out events that hasn't happened or cannot happen, or you don't have enough data to make it happen in real world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1237.694,
+            1249.98
+          ],
+          "quote": "I'm sure in the planning of every game, there is simulation, whether it's digital or on the whiteboard or whatever, that simulation, the role simulation plays is counterfactual reasoning.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "real-to-sim-to-real-pipeline",
+      "type": "concept",
+      "role": "concept",
+      "name": "现实到仿真再到现实 (real-to-sim-to-real pipeline)",
+      "file": "现实到仿真再到现实",
+      "primary": true,
+      "how_described": "本集说这是 Cynics 正在开发的流水线，旨在把真实环境高保真地映射到数字世界中，从而用数字世界生成的数据来替代真实环境中的训练与评估。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            6.859,
+            11.584
+          ],
+          "quote": "At Cynics, we are developing what we call a real-to-sim-to-real pipeline.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 58,
+          "t": [
+            292.539,
+            297.821
+          ],
+          "quote": "So at Cynics, we are developing what we call a real-to-sim-to-real pipeline.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "marble",
+      "type": "concept",
+      "role": "concept",
+      "name": "Marble",
+      "file": "Marble",
+      "primary": true,
+      "how_described": "本集说它是 World Labs 去年冬天发布的第一版生成式基础模型代号，能够将图像或文本转化为几何上一致的三维世界。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            351.875,
+            361.522
+          ],
+          "quote": "When we released the first version of our generative model called Marble last winter, around November, December, Cinex just signed up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            378.913,
+            381.476
+          ],
+          "quote": "Maybe, Feifei, just quickly describe what Marble is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 77,
+          "t": [
+            381.736,
+            387.278
+          ],
+          "quote": "Yeah, Marble is the code name for the base model that WorldLab has been training and iterating on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 78,
+          "t": [
+            387.558,
+            394.04
+          ],
+          "quote": "The fundamental capability right now of Marble that is publicly released is to take a prompt.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            649.404,
+            659.813
+          ],
+          "quote": "So we see a lot of opportunities of leveraging Marble and other capabilities as World Labs in order to do very efficient reconstructions and modeling of the environment.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 161,
+          "t": [
+            800.649,
+            807.615
+          ],
+          "quote": "So that is where I actually see there's very, very strong synergies with Marble, because what we are building is a consistent world.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 163,
+          "t": [
+            814.104,
+            822.837
+          ],
+          "quote": "And Marble, the generated words from Marble, is also provide an infrastructure, a component of that entire words that we believe is necessary for the robot learner.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1611.798,
+            1619.78
+          ],
+          "quote": "Even before Cynics and we are talking, our inbound customers for Marble were already seeing this kind of demands.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "teleoperation",
+      "type": "concept",
+      "role": "concept",
+      "name": "远程操作 (teleoperation)",
+      "file": "远程操作",
+      "primary": false,
+      "how_described": "本集提到它是现在业界常用的训练数据收集方式（即人类用摇杆遥控机器人），但这种收集数据的速度甚至比人类亲自去做还要慢。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 255,
+          "t": [
+            1337.789,
+            1339.889
+          ],
+          "quote": "So right now, many people are doing teleoperation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1340.609,
+            1351.452
+          ],
+          "quote": "And if you look at many of the teleoperation devices, imagining all the actual skeletons you are using, you are actually collecting the data at a speed that is actually slower than humans actually doing the task.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "waymo",
+      "type": "company",
+      "role": "company",
+      "name": "Waymo",
+      "file": "Waymo",
+      "primary": false,
+      "how_described": "本集举例提到这家自动驾驶公司，指出他们其实比依赖现实世界数据更重度地依赖仿真来训练自动驾驶技术。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 243,
+          "t": [
+            1271.142,
+            1276.826
+          ],
+          "quote": "And actually, Waymo is more simulation-heavy than just real-world data-heavy.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "a16z",
+      "type": "company",
+      "role": "company",
+      "name": "A16Z",
+      "file": "A16Z",
+      "primary": false,
+      "how_described": "本集片头片尾提及的播客出品方。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 492,
+          "t": [
+            2524.568,
+            2527.451
+          ],
+          "quote": "Thanks for listening to this episode of the A16Z podcast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 495,
+          "t": [
+            2539.383,
+            2545.068
+          ],
+          "quote": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2549.94,
+            2562.784
+          ],
+          "quote": "As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z fund.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2563.665,
+            2568.346
+          ],
+          "quote": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2568.867,
+            2575.489
+          ],
+          "quote": "For more details, including a link to our investments, please see a16z.com forward slash disclosures.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

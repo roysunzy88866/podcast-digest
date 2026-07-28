@@ -1,0 +1,165 @@
+{
+  "title_zh": "删掉 80% 系统提示词：Claude Code 作者的新模型构建法",
+  "tldr": "Claude Code 作者分享如何跟上加速的模型：删提示词、给硬任务、让模型自我验证。",
+  "digest_md": "Boris 是 Anthropic 的工程师，也是编程工具 Claude Code 的核心创作者。在本集访谈中，他带着刚发布的 Opus 5 模型，分享了一套与过去截然不同的 AI 产品构建理念。核心主线很明确：随着模型能力的飞速进化，过去靠堆砌系统提示词、过度指定细节的做法已经失效了。要释放模型的真正潜力，我们需要学会做减法、敢于下达模糊的高难度指令，并利用成千上万个智能体来完成任务。全文将围绕「为什么要清空过去的设置、如何激发模型潜能、怎样调度智能体大军」这三个层次展开。\n\n## 模型变了，旧的保护伞得扔掉\n\n说到新模型能做什么，最先被打破的常识就是对系统提示词（也就是预设给模型的背景规则和指令）的依赖。Boris 指出，他们在 Opus 5 上删除了 Claude Code 中超过 80% 的系统提示词 [03:53]。原因在于，过去模型不够聪明，需要大量的提示词去纠正它本该懂、却不懂的行为；而 Opus 5 非常智能，那些繁杂的纠偏指令反而碍事。有趣的是，如果在「简单模式」下删光所有提示词，模型的原始智力表现甚至更高 [05:27]。\n\n之所以能这么做，是因为新模型获得了两项关键突破。首先是它的持久运行能力：配合自动模式，Opus 5 可以连续执行几天、几周甚至几个月，不需要人盯着，自己就会为了完成任务而死磕 [01:39]。其次，是一个令人惊讶的安全突破——它几乎不再受提示词注入（prompt injection，指外部在数据中夹带恶意指令，诱导模型干坏事）的影响了 [01:54]。这得益于长达三年的对齐研究，加上能监测模型内部「神经元」是否被恶意激活的分类器，哪怕面对安全专家的红队测试，也无人能成功注入恶意指令 [03:21]。\n\n## 别挡道：如何释放模型的真实潜力\n\n既然模型变聪明了，产品设计的逻辑也得跟着变。说完了为什么要给模型「松绑」，接下来是他具体是怎么做的。Boris 提出了一个叫「产品悬垂」（product overhang，或译产品过剩）的概念：模型其实早就具备了某些惊人的能力，但现有的产品却像绊脚石一样挡在中间，没让它发挥出来 [11:23]。最初的 Claude Code 就是为打破这种束缚而生的——当市面上的编程工具还只敢做单行代码补全时，他们选择直接给模型终端控制权，让它一口气写出整个文件 [13:32]。\n\n如今，模型身上还有大量未被发掘的「悬垂」。怎么把它们释放出来？关键在于转变下达任务的方式。Boris 发现，很多老工程师常犯的错误是「过度微操」，给出极其死板的步骤指令 [24:31]。正确的做法是反其道而行之：给模型一个比你认为它能力上限稍微难一点的任务，描述清楚边界和验收标准，然后就放手让它去发挥 [15:12]。\n\n他举了一个震撼的例子：开源 JavaScript 运行时 Bun 原本是用 Zig 语言写的，手动管理内存很容易出 bug。团队没有让模型慢慢修补，而是直接让它把整个底层代码从 Zig 语言重写成 Rust 语言 [16:46]。利用动态工作流（dynamic workflows，一种能编排海量智能体的功能），模型连续跑了 11 天，彻底重写了代码库，这在过去哪怕是最顶尖的工程师也需要花一年以上的时间 [18:01]。现在，这套自动重写的代码已经直接用在生产环境里了。\n\n## 新时代的核心技能：让模型验证自己\n\n任务变难了，工具变强了，人到底该掌握什么技能？这正是接下来要探讨的焦点。Boris 强调，不管是提示词工程还是上下文工程，这些头衔都会逐渐淡化。现在唯一最关键的技能，是**为模型创造验证自身工作的方法** [20:51]。\n\n只要模型能自己判断对错，它就不会卡死，能一直跑下去。为了验证模型能不能把网页端的应用重写为原生应用，Boris 给模型下达的指令极其简单：把应用改写成 Swift 语言，然后自己在虚拟机里运行原版应用，截图，并逐个像素地去和新生成的版本做对比，比对完之前绝对不许停 [22:04]。就靠着这么一个简单的验证闭环，这个重写任务已经自动运行了两周，模型甚至自己在 Slack 里建了个频道，每隔几分钟发一次进度截图 [23:10]。\n\n当模型具备了自我验证的能力，就不再需要那些花哨的复杂调度工具了。\n\n## 让上千个智能体自己维护代码库\n\n当你掌握了下达高难度任务和构建验证闭环的方法后，就触及到了这套玩法的终极形态：大规模智能体编排。说完了单体任务怎么跑，我们来看看群体智能能干什么。\n\nBoris 揭示了 Claude Code 背后的「智能体代数」：通过动态工作流，或者设置定时任务（Loop/Routine），Claude 可以并行或串行地指挥成百上千个智能体 [25:44]。最疯狂的是，Anthropic 现在直接用这套机制来**维护 Claude Code 自己的代码库**。每天都有几十个例程在全平台自动运行：有的专门找并删除没用的死代码；有的把已经全量发布的实验性功能直接上线；有的自动补齐缺乏覆盖的测试代码，甚至删掉以前模型写的废测试 [28:52]。还有一个叫「抽象警察」的例程，每天在代码库里巡视，找出那些本质上功能相同、却被前人重复写了多遍的代码，并把它们强行合并 [29:37]。\n\n这相当于每天有几百个智能体在干着原本需要几十个工程师才能干完的脏活累活。而人类工程师，终于被解放出来，只去做真正有意思的事——设计新产品、和用户聊天。\n\n## 经验主义者的胜利\n\n工具变了，人的心态也得跟着重塑。这也是 Boris 在全集中反复强调的底层心法：忘掉你在课堂上学到的陈旧计算机理论，忘掉你在旧模型上积累的失败经验 [32:04]。在这个模型加速进化的时代，没有放之四海而皆准的「万能指令」，唯一的出路就是做个纯粹的经验主义者：去跑、去试、去观察模型在哪里卡壳，然后再针对性地修补它。最好的使用者，往往是那些最善于放下过去的成见、对模型新能力保持开放心态的人。\n\n> 【背景】转写稿中多次将产品名 Claude Code 听写成 Cloud Code / Clockwood / Clockwork 等，也出现了 plot / quad / quad tag 等明显发音误差。为保证中文读者顺畅理解，导读正文已将这些语音识别误差还原为其真实指代。\n\n## 本集带走\n\n1. **做减法是新的加法**：模型越来越聪明，系统提示词和陈旧的补全工具反而成了阻碍。定期清空提示词，只在模型反复跌倒的地方补上一句，才能发挥新模型的最大智力。\n2. **最难的任务往往只需要最简单的指令**：只要你能为模型设定一条清晰的「自我验证」闭环（比如逐像素对比截图），就敢给它下达跨语言重写底层代码这种难度的任务，它能自动连跑数天甚至数周。\n3. **让智能体大军干脏活**：通过动态工作流和定时任务，你可以每天调度成千上万个智能体去自动清理死代码、合并冗余逻辑，把人类工程师彻底从代码维护中解放出来。",
+  "quotes": [
+    {
+      "en": "So yeah, we deleted 80% of the system prompt.",
+      "zh": "是的，我们删除了 80% 的系统提示词。",
+      "timestamp": "04:51",
+      "speaker": "Boris Cherny"
+    },
+    {
+      "en": "What's interesting is that the model is actually a little bit more intelligent without these prompts.",
+      "zh": "有趣的是，在没有这些提示词的情况下，模型实际上要更智能一点。",
+      "timestamp": "05:27",
+      "speaker": "Boris Cherny"
+    },
+    {
+      "en": "I think that nowadays, with modern models, there is so much product overhang that I'm not seeing startups capture.",
+      "zh": "我认为，如今在现在模型的情况下，有太多的产品过剩，我没有看到初创公司去捕获。",
+      "timestamp": "13:56",
+      "speaker": "Boris Cherny"
+    },
+    {
+      "en": "And the verification, I think, is probably the single most important thing that people do not get right, largely.",
+      "zh": "我认为验证可能是人们普遍做不对的最重要的一件事。",
+      "timestamp": "20:51",
+      "speaker": "Boris Cherny"
+    },
+    {
+      "en": "This is actually a new form of test time compute.",
+      "zh": "这实际上是一种新形式的测试时计算。",
+      "timestamp": "27:18",
+      "speaker": "Boris Cherny"
+    },
+    {
+      "en": "it's not a theoretical science, it's become an empirical science.",
+      "zh": "它不是一门理论科学，它变成了一门经验科学。",
+      "timestamp": "32:25",
+      "speaker": "Boris Cherny"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "It can go for days, weeks, months at a time.",
+      "zh": "它可以一次运行几天、几周、几个月。",
+      "timestamp": "01:39",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And this really affects kind of harness design and agent design and product design.",
+      "zh": "这实际上影响了挽具设计、智能体设计和产品设计。",
+      "timestamp": "02:15",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And we've hired security researchers, we've done red teaming, we've done competitions, no one can demonstrate it.",
+      "zh": "我们聘请了安全研究员，我们进行了红队测试，我们举办了比赛，没人能演示它。",
+      "timestamp": "03:21",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "So yeah, we deleted 80% of the system prompt.",
+      "zh": "是的，我们删除了 80% 的系统提示词。",
+      "timestamp": "04:51",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "What's interesting is that the model is actually a little bit more intelligent without these prompts.",
+      "zh": "有趣的是，在没有这些提示词的情况下，模型实际上要更智能一点。",
+      "timestamp": "05:27",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "If you look at actually the code that's in the Cloud Code harness today, almost all of it is about safety and permissions and static analysis.",
+      "zh": "如果你查看今天实际上在 Cloud Code 挽具中的代码，几乎所有的代码都是关于安全性、权限和静态分析。",
+      "timestamp": "06:46",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "The way to think about it is almost like a living creature, like something more organic.",
+      "zh": "思考它的方式几乎就像一个生物，像某种更有机的东西。",
+      "timestamp": "09:21",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And the idea is the model is able to do all sorts of things with today's models, not a future model, but today's model, that we have not yet realized.",
+      "zh": "这个想法是模型能够用今天的模型做各种各样的事情，不是未来的模型，而是今天的模型，那些我们还没有实现的事情。",
+      "timestamp": "11:26",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "I think that nowadays, with modern models, there is so much product overhang that I'm not seeing startups capture.",
+      "zh": "我认为，如今在现在模型的情况下，有太多的产品过剩，我没有看到初创公司去捕获。",
+      "timestamp": "13:56",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And it rewrote the entire code base.",
+      "zh": "它重写了整个代码库。",
+      "timestamp": "18:04",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And the verification, I think, is probably the single most important thing that people do not get right, largely.",
+      "zh": "我认为验证可能是人们普遍做不对的最重要的一件事。",
+      "timestamp": "20:51",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "I want you to run the Electron app in the Mac virtual machine, screenshot it, and then look pixel by pixel, compare it to the Swift version.",
+      "zh": "我想让你在 Mac 虚拟机中运行 Electron 应用程序，截屏，然后逐像素查看，将其与 Swift 版本进行比较。",
+      "timestamp": "22:04",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "So what it did is it created a Slack channel internally and it started just posting screenshots every few minutes of its progress.",
+      "zh": "所以它做的是在内部创建了一个 Slack 频道，并且每隔几分钟就开始发布它进度的截图。",
+      "timestamp": "23:13",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "So when I look at engineers that have been coding for a long time, for years or for decades, this is a really, really common failure mode, is trying to over-specify.",
+      "zh": "所以当我看到那些编写代码很长时间的工程师，几年或几十年，这是一个非常非常常见的失败模式，就是试图过度指定。",
+      "timestamp": "24:31",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "The best cloud users are able to spawn tasks that are really providing you a lot of leverage, like thousands of agents.",
+      "zh": "最优秀的 Cloud 用户能够衍生出真正为你提供很大杠杆的任务，比如数千个智能体。",
+      "timestamp": "25:30",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "This is actually a new form of test time compute.",
+      "zh": "这实际上是一种新形式的测试时计算。",
+      "timestamp": "27:18",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "It's doing the work of dozens or hundreds of engineers.",
+      "zh": "它在做几十或几百名工程师的工作。",
+      "timestamp": "30:21",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "This means that engineers can just do the thing they actually want to do, which is ship new products and talk to users and do stuff that's actually fun.",
+      "zh": "这意味着工程师可以做他们真正想做的事情，即发布新产品并与用户交谈，做真正有趣的事情。",
+      "timestamp": "30:28",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "it's not a theoretical science, it's become an empirical science.",
+      "zh": "它不是一门理论科学，它变成了一门经验科学。",
+      "timestamp": "32:22",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "I think people that are really good at this, that are really good at kind of forgetting their priors, letting go of, you know, this like maybe idea that didn't work before and just being open to trying it again.",
+      "zh": "我认为那些真的很擅长这个的人，那些真的很擅长忘记他们先验知识的人，放手，你知道，像以前可能行不通的想法，并且对再次尝试持开放态度。",
+      "timestamp": "32:29",
+      "speaker": "Unknown"
+    }
+  ]
+}
