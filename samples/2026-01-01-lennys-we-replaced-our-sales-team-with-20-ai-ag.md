@@ -212,12 +212,16 @@ SaaStr 采购部署的第一个突破，其实始于「客服支持」。Jason �
       if(el && el.parentElement!==host) host.appendChild(el);
     }
     ['.search','.readermode'].forEach(function(sel){ grab(sel,acts); });
-    var side=document.querySelector('.right.sidebar');
+    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
+    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
+    var side=document.querySelector('.right.sidebar'), slot=null;
     if(side){
-      var slot=side.querySelector('.pd-themesw');
+      slot=side.querySelector('.pd-themesw');
       if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
-      grab('.darkmode', slot);
+      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
+      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
     }
+    grab('.darkmode', slot || acts);
   }
   function graph(){
     var art=document.querySelector('article'); if(!art) return;
@@ -253,6 +257,8 @@ SaaStr 采购部署的第一个突破，其实始于「客服支持」。Jason �
   }
   function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
   document.addEventListener('nav', all);
+  // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
+  var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', all); else all();
 })();
 </script>

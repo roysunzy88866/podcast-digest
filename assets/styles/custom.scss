@@ -208,7 +208,20 @@ body[data-slug^="tags/"] {
   /* ⚠️ 高度必须写死像素、不能用 100%:.mk 是 width:auto 的 flex 容器,
      图用百分比高度时「容器宽←内容宽←图高←容器高」绕成一圈,Chrome 直接判宽度 0
      (实测 logo 整个不显示)。写死 28px 后按原始比例算出宽度。 */
-  .mk:has(img) img { position: static; flex: 0 0 auto; width: auto; height: 28px; object-fit: contain; }
+  /* ⚠️ 两条都不能少:
+     ① 高度写死像素、不用 100% —— .mk 是 width:auto 的 flex 容器,百分比高度会绕成
+        「容器宽←内容宽←图高←容器高」的循环,Chrome 直接判宽度 0。
+     ② content-visibility 必须显式改回 visible —— Quartz base 给所有 img 设了
+        `content-visibility:auto`,在「只给高度、宽度 auto」时它同样把内在宽度算成 0。
+        两条各自都能让 logo 整个不显示,而且是时隐时现(取决于布局时机),排查极难。 */
+  .mk:has(img) img {
+    position: static;
+    flex: 0 0 auto;
+    width: auto;
+    height: 28px;
+    object-fit: contain;
+    content-visibility: visible;
+  }
   /* 顶栏当前项:层级纠偏后是 1px 浅线,不是 2px 暖红(设计稿 L527) */
   .pd-nav {
     display: flex;
@@ -469,7 +482,7 @@ body[data-slug^="tags/"] {
     color: var(--B5);
     line-height: 1;
   }
-  .cc .lg img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; background: #fff; }
+  .cc .lg img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; background: var(--B0); }
   .cc .nm {
     flex: 1;
     min-width: 0;

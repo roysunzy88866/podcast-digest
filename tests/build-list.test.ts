@@ -285,7 +285,7 @@ describe("C13a · Quartz 骨架摘干净(首页独占版面,但不连坐搜索/�
   it("★★ 顶栏留了 .pd-acts 空槽,脚本把搜索/阅读模式搬进来(🔒 #9/#2 不许降级)", () => {
     expect(md).toContain('<div class="pd-acts"></div>');
     expect(md).toMatch(/\['\.search','\.readermode'\]/);
-    expect(md).toContain("grab('.darkmode', sw)");
+    expect(md).toContain("grab('.darkmode', sw || acts)");
     expect(md).toMatch(/host\.appendChild\(el\)/);
   });
 
@@ -577,7 +577,7 @@ describe("C13f · 深浅色开关从顶栏挪进左栏(第九批 #3)", () => {
     const left = md.slice(md.indexOf('class="pd-left"'), md.indexOf('class="pd-mid"'));
     expect(left.indexOf('class="pd-themesw"')).toBeGreaterThan(-1);
     expect(left.indexOf('class="pd-themesw"')).toBeLessThan(left.indexOf('class="about"'));
-    expect(md).toContain("grab('.darkmode', sw)");
+    expect(md).toContain("grab('.darkmode', sw || acts)");
     expect(md).toMatch(/\['\.search','\.readermode'\]/);
     // 搬节点不重写:🔒 #2 亮暗双模式的行为在 Quartz 手里
     expect(md).not.toMatch(/localStorage\.setItem\('theme'/);
@@ -631,5 +631,38 @@ describe("C13f · 深色模式那一行:图标与文字不许重叠", () => {
     expect(r.slice(0, 420)).toMatch(/position:\s*relative/);
     expect(r.slice(0, 420)).not.toMatch(/display:\s*flex/);
     expect(r.slice(0, 420)).toMatch(/padding:[^;]*40px/); // 左边给图标让位
+  });
+});
+
+describe("C13f · 深浅色开关任何屏宽都得有入口(🔒 #2 回归防护)", () => {
+  const md = renderList([ep()], opts);
+
+  it("★★★ 左栏在窄屏是整块 display:none —— 槽看不见时必须退回顶栏,不能连开关一起消失", () => {
+    // 判可见性要看槽的父容器 —— 槽自己是空的、被 :empty 藏着,量自己永远是 0
+    expect(md).toContain("shown(slots[i].parentElement)");
+    expect(md).not.toContain("slots[i].offsetParent");
+    expect(md).toContain("grab('.darkmode', sw || acts)");
+    // 兜底目标必须是顶栏那个槽(它在窄屏是显示的)
+    expect(scss).not.toMatch(/@media \(max-width: 1023px\)[\s\S]*?\.pd-acts \{[^}]*display:\s*none/);
+  });
+
+  it("★★ 跨断点缩放要把开关搬到当前看得见的位置(SPA 只在 nav 重跑,resize 不会)", () => {
+    expect(md).toMatch(/addEventListener\('resize'/);
+    expect(md).toContain("setTimeout(adopt, 150)");
+  });
+});
+
+describe("C13f · 站名 logo 不许被 Quartz 的 content-visibility 算成宽度 0", () => {
+  it("★★★ Quartz base 给所有 img 设了 content-visibility:auto,这里必须显式改回 visible", () => {
+    const r = scss.slice(scss.indexOf(".mk:has(img) img {"));
+    expect(r.slice(0, 500)).toMatch(/content-visibility:\s*visible/);
+  });
+});
+
+describe("C13f · 公司 logo 底衬不许硬编码白(暗色下会是白方块)", () => {
+  it("★★ .cc .lg img 的底色走变量,不写死 #fff", () => {
+    const r = scss.slice(scss.indexOf(".cc .lg img"));
+    expect(r.slice(0, 200)).toMatch(/background:\s*var\(--B0\)/);
+    expect(r.slice(0, 200)).not.toMatch(/background:\s*#fff/);
   });
 });

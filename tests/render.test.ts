@@ -844,3 +844,14 @@ describe("C13f · 新标签页只管站内链接", () => {
     expect(renderSidebarScript()).toContain("a.host!==location.host");
   });
 });
+
+describe("C13f · 详情页深浅色也要有窄屏兜底(🔒 #2 回归防护)", () => {
+  const js = renderSidebarScript();
+  it("★★★ 右栏槽看不见时退回顶栏,不能连开关一起消失", () => {
+    expect(js).toContain("side.offsetWidth || side.offsetHeight");
+    expect(js).toContain("grab('.darkmode', slot || acts)");
+  });
+  it("★★ 跨断点缩放要重搬", () => {
+    expect(js).toMatch(/addEventListener\('resize'/);
+  });
+});

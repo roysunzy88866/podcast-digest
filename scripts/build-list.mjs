@@ -321,14 +321,24 @@ const scriptBlock = () => squashBlankLines(`<script>
   // 找节点仍是「先侧栏、再全站」,搬之前比 parentElement 保证幂等(SPA 每次 nav 都会重跑)。
   function adopt(){
     var acts=document.querySelector('.pd .pd-acts');
-    var sw=document.querySelector('.pd .pd-themesw');
     function grab(sel,host){
       if(!host) return;
-      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel)
+             || document.querySelector(sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
     ['.search','.readermode'].forEach(function(sel){ grab(sel,acts); });
-    grab('.darkmode', sw);
+    // 深浅色进左栏 —— 但**左栏在窄屏是整块 display:none 的**,槽跟着一起没了。
+    // 所以只在槽真的看得见时才搬进去,看不见就退回顶栏(= 本片之前的位置)。
+    // 🔒 #2 亮暗双模式任何屏宽都必须有入口,不许因为版面改动而消失。
+    // ⚠️ 判「看不看得见」要看**槽的父容器**,不能看槽自己:槽一开始是空的,
+    // .pd-themesw:empty 那条 display:none 让它自己永远量出 0 → 一判就是「看不见」,
+    // 于是桌面端也会错误地退回顶栏(自己给自己下的套,实测逮到)。
+    function shown(el){ return !!(el && (el.offsetWidth || el.offsetHeight || el.getClientRects().length)); }
+    var slots=[].slice.call(document.querySelectorAll('.pd .pd-themesw'));
+    var sw=null;
+    for(var i=0;i<slots.length;i++){ if(shown(slots[i].parentElement)){ sw=slots[i]; break; } }
+    grab('.darkmode', sw || acts);
   }
   // C13f #1:日期组标说人话。构建期只能写死日期原文(产物要可复现),
   // 「今天/昨天」是**读者的**今天 → 只能在浏览器里换。整串相等才换,不做前缀匹配。
@@ -393,6 +403,8 @@ const scriptBlock = () => squashBlankLines(`<script>
   }
   // Quartz 是 SPA:内联脚本换页后不重跑 → 挂 nav 事件(每次导航含首载都会触发)
   document.addEventListener('nav', init);
+  // 跨断点缩放:左栏出现/消失后,深浅色开关要搬到当前看得见的那个位置去
+  var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });
   init();
 })();
 </script>`);
