@@ -1,0 +1,23 @@
+{
+  "id": "2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s",
+  "audio_mp3": "https://anchor.fm/s/8c1524bc/podcast/play/123433442/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-28%2F428769142-44100-2-5c82673dfc0a.mp3",
+  "duration_sec": 2336.463,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 429,
+  "asr": true,
+  "title_en": "Sam Altman: \"Never a Better Time to Do a Startup\"",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-07-28",
+  "cover_official_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/23401959/23401959-1785248913238-a281dc89acc89.jpg",
+  "speaker_map": {
+    "SPEAKER_01": "Sam Altman"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Sam Altman",
+  "cohosts": [],
+  "title_zh": "Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展",
+  "guest_name": "Sam Altman",
+  "guest_title": "OpenAI 的联合创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

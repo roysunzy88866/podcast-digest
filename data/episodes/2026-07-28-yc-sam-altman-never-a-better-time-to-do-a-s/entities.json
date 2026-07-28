@@ -1,0 +1,1125 @@
+{
+  "episode_id": "2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-07-28",
+  "tags": [
+    "初创公司",
+    "黄金时代",
+    "AI 安全",
+    "权力集中",
+    "智能体"
+  ],
+  "categories": [
+    "创业与行业",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "sam-altman",
+      "type": "person",
+      "role": "host",
+      "name": "Sam Altman",
+      "file": "Sam Altman",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 415,
+          "t": [
+            2277.234,
+            2281.996
+          ],
+          "quote": "like a message in a bottle to that Sam Altman, what would you say to him right now?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2334.335,
+            2335.901
+          ],
+          "quote": "Sam Altman, thank you so much.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "startups",
+      "type": "concept",
+      "role": "concept",
+      "name": "初创公司 (startups)",
+      "file": "初创公司",
+      "primary": true,
+      "how_described": "本集把它说成：技术格局变动快、成本下降时最容易获胜、能防止经济停滞的力量；在 AI 时代对于确保技术力量不被少数巨头垄断、在整个经济中广泛分发至关重要。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            13.87,
+            17.613
+          ],
+          "quote": "Yeah, I mean, startups are a lot bigger now than they've ever been.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            52.552,
+            62.223
+          ],
+          "quote": "I think if it were possible to get as far from this moment as I can imagine, it was, you know, startups are not cool at all.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 24,
+          "t": [
+            119.107,
+            123.29
+          ],
+          "quote": "I think Paul Graham is probably the most important force in startups of the last few decades.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            150.455,
+            153.937
+          ],
+          "quote": "And he had convinced like each of us that our startups were about to like take over the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            161.482,
+            180.481
+          ],
+          "quote": "ability to sort of like create optimism and momentum and belief out of nothing was like a real pg special and in the early days when yc seemed like a terrible idea and startups seemed like a bad idea and certainly startups that were like young technical founders with no business people seemed like a terrible idea pg just sort of like willed it into existence",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 48,
+          "t": [
+            287.138,
+            287.778
+          ],
+          "quote": "I love startups.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            288.118,
+            292.94
+          ],
+          "quote": "I think not everyone, they're not like for everyone, but I think startups are the coolest thing in all of business.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 50,
+          "t": [
+            293,
+            299.662
+          ],
+          "quote": "I think startups are really like the main thing that keeps the economy from becoming stagnant.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            301.102,
+            307.224
+          ],
+          "quote": "I think companies do just like drift towards suckiness and startups will continue to be important forever.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 52,
+          "t": [
+            307.284,
+            315.847
+          ],
+          "quote": "In fact, if we are right that AI is going to be such a big change, startups will be much more important to making sure that the power of this technology gets",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 54,
+          "t": [
+            322.569,
+            330.27
+          ],
+          "quote": "So I think startups are this like unbelievably cool, fun, extremely painful and difficult, but wonderful thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            345.8,
+            346.68
+          ],
+          "quote": "There's lots of startups.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            355.963,
+            371.368
+          ],
+          "quote": "And so starting with PG and then all of us, we have to make YC successful, but I think we really have to fight for why startups are important and why people should consider startups and help put relatively more power in the hands of founders and encourage...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 67,
+          "t": [
+            396.931,
+            406.262
+          ],
+          "quote": "push for more startups and encourage people to think about startups and figure out what we could do to help founders and help make startups and the startup ecosystem as good as possible.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            441.219,
+            448.624
+          ],
+          "quote": "I think like ambitious startups are always awesome and hard tech startups are appealing to a lot of people, but they're hard or they've been hard.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            465.402,
+            478.766
+          ],
+          "quote": "So I think we will see a golden age of startups where people are like, you know what, I'm going to do things that would have been completely impossible for a startup to even like dream at a year ago in sort of like the YC timeframe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            510.858,
+            514.2
+          ],
+          "quote": "Because there's going to be like, you know, startups are over and there's like no economic value.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            527.163,
+            532.448
+          ],
+          "quote": "I would bet that the average startups created today will be like, I bet there's some future trillionaires sitting in this room.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            533.008,
+            538.213
+          ],
+          "quote": "And I would bet that the startups created today will be much more valuable, much more impactful than startups of the past.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 100,
+          "t": [
+            590.489,
+            594.471
+          ],
+          "quote": "Well, as a general observation first, I think startups tend to win when...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            607.742,
+            614.026
+          ],
+          "quote": "So if you look at when there had been like the great clusters of startups in the past, you know, there was the internet,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 106,
+          "t": [
+            630.648,
+            636.13
+          ],
+          "quote": "But the great startups tend to cluster when the ecosystem shifts and incumbents lose a lot of their advantage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 170,
+          "t": [
+            980.635,
+            987.782
+          ],
+          "quote": "The question, I don't know if this is still what feels like the limiter on more startups, but five or 10 years ago, what felt like...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            988.44,
+            994.886
+          ],
+          "quote": "was limiting the number of good startups YC could fund is figuring out how to solve the co-founder matching problem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1343.477,
+            1354.925
+          ],
+          "quote": "And when I like reflected on the years of like Twitter trolls that said mean things about YC and startups while I was running YC, I was like, I bet there were like a lot of days where they really felt like they got me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1703.552,
+            1705.593
+          ],
+          "quote": "I think startups have a very important role to play here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1713.597,
+            1722.321
+          ],
+          "quote": "And I think startups, because of the things we talked about earlier, will be naturally very well suited to make sure that this is widely distributed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1724.282,
+            1727.383
+          ],
+          "quote": "But we want to enable as many startups, as many companies, as many people as possible.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": true,
+      "how_described": "本集把它说成：OpenAI 一开始决心奉献一生去创造的目标，十年前被业界主流视为错误且会引发 AI 寒冬，如今被视为商业与社会史上最重要的事。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            21.256,
+            27.762
+          ],
+          "quote": "I mean, they're bigger than they've ever been because of the vision that you had for AGI, which is nigh.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            712.61,
+            722.459
+          ],
+          "quote": "I mean, kind of a crazy idea that you and a ragtag crew decided we're going to dedicate our lives to this creation of AGI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 123,
+          "t": [
+            739.162,
+            753.529
+          ],
+          "quote": "It's even hard for me to remember this without finding notes from the time 10 years ago when everyone was like, not only are they wrong about saying they think it might be possible to build AGI, but they're single-handedly going to cause another AI winter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 152,
+          "t": [
+            887.695,
+            895.22
+          ],
+          "quote": "Maybe the first one was even that AGI was possible to be built and finding other people who believed that thing.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            903.403,
+            910.587
+          ],
+          "quote": "Yeah, we used to joke that only 50 people in the world believed that AGI was possible, but it was okay because 45 of them worked at OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1442.521,
+            1445.522
+          ],
+          "quote": "Well, let's get back to the impending AGI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1934.284,
+            1939.527
+          ],
+          "quote": "Like we wanted to build AGI, but the first steps were super unclear.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成：极大降低创业门槛的工具——过去初创公司三个月的工作量，现在用「编程智能体(coding agent)」七分钟就能做完；也让四人团队自动化一整家初创公司成为可能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            182.787,
+            192.954
+          ],
+          "quote": "But it also takes someone who actually, I mean, you're sort of famously par excellence, an agentic person, like even before we thought about agents, period.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 72,
+          "t": [
+            432.642,
+            439.085
+          ],
+          "quote": "I would argue on the back of how much easier it is to use agents and the cost coming down.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            449.945,
+            464.795
+          ],
+          "quote": "But what you can do now to go take on a really ambitious project, like in the same way that you can make the startup that took us three months of nonstop work in 17 seconds with three months of work and a lot of agents, you can do unbelievable things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            667.577,
+            675.74
+          ],
+          "quote": "using AI the last few years, who are like, I can kind of automate an entire startup of agents and four of us, four people, and all this compute.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集提到它是一种用于隔离程序的安全机制，近期发生了一起 AI 系统突破沙箱入侵其他公司的安全事件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 277,
+          "t": [
+            1505.213,
+            1526.126
+          ],
+          "quote": "blow it and say this is like a real loss of control incident and this is the this is the thing but if you had asked most people when we started 10 years ago like where on the spectrum of nothing to super intelligence do you have like an AI system breaking out of its sandbox and hacking into some other company and kind of you know",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "alignment-failure",
+      "type": "concept",
+      "role": "concept",
+      "name": "对齐失败 (alignment failure)",
+      "file": "对齐失败",
+      "primary": true,
+      "how_described": "本集把它说成：近期 AI 突破沙箱入侵事件背后的核心原因之一（模型行为与人类意图不一致），也是对失控事故并非纯理论的严厉提醒。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 282,
+          "t": [
+            1547.289,
+            1548.69
+          ],
+          "quote": "So I think it's an alignment failure.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集把它说成：全球对其需求将在未来许多年里每年增长 10 倍，对高质量、低价格智能的需求实际上是无限的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 354,
+          "t": [
+            1989.213,
+            2008.012
+          ],
+          "quote": "some new data points yeah what do you think is going to happen to inference i really like rune's tweet about this like you either uh you're either you either die a model company or live long enough to sell inference which is a very funny rune tweet i think what he meant with that tweet is uh",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 355,
+          "t": [
+            2009.402,
+            2015.247
+          ],
+          "quote": "if you end up falling off of the model frontier, you can at least sell the inference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 356,
+          "t": [
+            2015.587,
+            2017.428
+          ],
+          "quote": "Not even the inference, the training compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 358,
+          "t": [
+            2026.815,
+            2037.103
+          ],
+          "quote": "But separately, I would guess that worldwide demand for inference kind of subjectively grows 10x a year for the next many years.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "concentration-of-power",
+      "type": "concept",
+      "role": "concept",
+      "name": "权力集中 (concentration of power)",
+      "file": "权力集中",
+      "primary": true,
+      "how_described": "本集把它说成：在 AI 时代极具灾难性的隐患，将导致某一家公司或个人拥有比全人类加起来还大的权力；而对抗它的最好方式就是去创办一家成功的初创公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 293,
+          "t": [
+            1628.912,
+            1633.513
+          ],
+          "quote": "Like, you know, there's a lot to be worried about in terms of concentration of power.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1634.6,
+            1642.442
+          ],
+          "quote": "I think concentration of power has basically been bad in every moment of human history, to varying degrees, of course.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1755.123,
+            1760.104
+          ],
+          "quote": "And they might look at AI safety or concentration of power and say, well, I can't really do it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1769.566,
+            1773.647
+          ],
+          "quote": "I mean, you can help on the concentration of power issue simply by starting a successful startup.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2200.574,
+            2204.238
+          ],
+          "quote": "We will have avoided like a crazy concentration of power or an economic collapse.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agency",
+      "type": "concept",
+      "role": "concept",
+      "name": "主观能动性 (agency)",
+      "file": "主观能动性",
+      "primary": true,
+      "how_described": "本集把它说成：创始人最该具备的特质，并在未来终局时强调，每年人类都必须拥有更多自由和主观能动性，以避免沦为豢养人类的完美监控社会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 45,
+          "t": [
+            271.459,
+            283.445
+          ],
+          "quote": "Did you have anything, like, did anything jump out at you from that time around, you know, taking this raw energy of someone really, really smart and maybe a little undirected and then driving them more towards agency?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            678.481,
+            682.522
+          ],
+          "quote": "I clearly like taste and agency and...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2183.078,
+            2197.684
+          ],
+          "quote": "I kind of think if every year people have more freedom and agency to spend more of their time doing the stuff they want to do, and they feel like the quality of life and the quality of their time is going up year after year,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2229.896,
+            2230.856
+          ],
+          "quote": "You will have no agency.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2255.428,
+            2258.569
+          ],
+          "quote": "So if we say every year, freedom and agency has got to go up.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集把它说成：由非营利研究实验室起步，在长时间被误解为白痴的时光里稳步发展；近期发生过模型失控的安全事件，同时也是首家瞄准通用人工智能的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 116,
+          "t": [
+            704.923,
+            712.59
+          ],
+          "quote": "I guess I want to get into the beginning of OpenAI and that it actually started as YC Research looking at this idea.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            789.718,
+            793.541
+          ],
+          "quote": "For years at OpenAI, it felt like we knew the biggest secret in the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 155,
+          "t": [
+            903.403,
+            910.587
+          ],
+          "quote": "Yeah, we used to joke that only 50 people in the world believed that AGI was possible, but it was okay because 45 of them worked at OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 186,
+          "t": [
+            1055.854,
+            1062.837
+          ],
+          "quote": "Like the people that I started OpenAI with, I met like many, many years in some cases.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 187,
+          "t": [
+            1063.635,
+            1065.597
+          ],
+          "quote": "before starting OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1131.423,
+            1137.005
+          ],
+          "quote": "my co-founder at OpenAI, because I was a very early investor in Stripe when I was like 22 or something.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1532.264,
+            1540.647
+          ],
+          "quote": "Now the goalposts have moved and it's easy to say, well, you know, here's how this happened and here are the mistakes that OpenAI made.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1571.078,
+            1577.72
+          ],
+          "quote": "I think we will learn, we the whole field, we OpenAI will learn a lot from this one and be able to address it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1616.948,
+            1628.812
+          ],
+          "quote": "I mean, I really like how you've been thinking about both concentration, but also thinking of OpenAI as a utility, which is actually a really important message because not everyone out there is saying that message.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 336,
+          "t": [
+            1888.319,
+            1893.903
+          ],
+          "quote": "It sounds like it would take a similar shape to creating OpenAI in that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 378,
+          "t": [
+            2117.067,
+            2123.228
+          ],
+          "quote": "Six and a half years ago, the world token leader was an OpenAI employee using about 100,000 tokens a month.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 383,
+          "t": [
+            2139.892,
+            2143.513
+          ],
+          "quote": "And the token leader at OpenAI uses something in the hundreds of billions.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "yc",
+      "type": "company",
+      "role": "company",
+      "name": "YC",
+      "file": "YC",
+      "primary": true,
+      "how_described": "本集把它说成：推动初创公司黄金时代与行业生态的核心孵化器，倡导真诚与互助精神，并与硅谷庞大的人脉复利网络紧密相关。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            74.638,
+            83.806
+          ],
+          "quote": "three months to build at the time that each company built over the whole YC startup could now be done in like seven minutes by a coding agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            161.482,
+            180.481
+          ],
+          "quote": "ability to sort of like create optimism and momentum and belief out of nothing was like a real pg special and in the early days when yc seemed like a terrible idea and startups seemed like a bad idea and certainly startups that were like young technical founders with no business people seemed like a terrible idea pg just sort of like willed it into existence",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            257.193,
+            269.738
+          ],
+          "quote": "I guess later you came on to become president of YC and you sort of brought exactly the same energy to a great many YC founders over the years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            331.071,
+            341.953
+          ],
+          "quote": "And I think a big part of the job of running YC is you are kind of the like unofficial flag bearer for the startup movement.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            348.261,
+            355.463
+          ],
+          "quote": "You obviously don't need to do YC, but it has always been a huge help to companies and a very powerful force.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            355.963,
+            371.368
+          ],
+          "quote": "And so starting with PG and then all of us, we have to make YC successful, but I think we really have to fight for why startups are important and why people should consider startups and help put relatively more power in the hands of founders and encourage...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            374.37,
+            383.218
+          ],
+          "quote": "I think thinking back to the early days of YC, it was like very little leverage in being a founder relative to an investor.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            391.665,
+            395.528
+          ],
+          "quote": "So mostly what I tried to do at YC was just...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            415.713,
+            421.496
+          ],
+          "quote": "I mean, I think you were one of the people who really brought hard tech to YC in a really grand way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            422.016,
+            428.159
+          ],
+          "quote": "And then one of the things we're seeing at YC now is that number was maybe 5% or 10% for many years.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            465.402,
+            478.766
+          ],
+          "quote": "So I think we will see a golden age of startups where people are like, you know what, I'm going to do things that would have been completely impossible for a startup to even like dream at a year ago in sort of like the YC timeframe.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            552.401,
+            561.004
+          ],
+          "quote": "I would, you know, come every YC batch and I'll be interested to see how the kind of like level of anxiety versus ambition was trending.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            704.923,
+            712.59
+          ],
+          "quote": "I guess I want to get into the beginning of OpenAI and that it actually started as YC Research looking at this idea.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            933.812,
+            935.453
+          ],
+          "quote": "That's also what YC was like in the early days.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            955.952,
+            959.495
+          ],
+          "quote": "Maybe that's one of the explanations for why we like co-founders at YC so much.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            988.44,
+            994.886
+          ],
+          "quote": "was limiting the number of good startups YC could fund is figuring out how to solve the co-founder matching problem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 173,
+          "t": [
+            999.63,
+            1006.496
+          ],
+          "quote": "It used to be very heretical that YC told people they had to move to San Francisco.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 182,
+          "t": [
+            1036.845,
+            1041.747
+          ],
+          "quote": "I think the premium on doing YC is bigger now than it's like ever been before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1042.468,
+            1046.569
+          ],
+          "quote": "The distance between like YC and second place is expanded.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 215,
+          "t": [
+            1197.961,
+            1204.705
+          ],
+          "quote": "Like, I mean, one of the things that we really love at YC, for instance, is earnestness and also words matter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1215.592,
+            1216.953
+          ],
+          "quote": "They say that about YC specifically?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1252.242,
+            1258.643
+          ],
+          "quote": "One of the many annoying things about running YC is you just have to deal with these haters on Twitter all of the fucking time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1271.203,
+            1284.626
+          ],
+          "quote": "And the thing that I realized eventually, and take from this whatever you want, is it is very hard to run YC or run a startup or create an actual thing of value in the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1343.477,
+            1354.925
+          ],
+          "quote": "And when I like reflected on the years of like Twitter trolls that said mean things about YC and startups while I was running YC, I was like, I bet there were like a lot of days where they really felt like they got me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1383.468,
+            1401.705
+          ],
+          "quote": "know it helped like there are people in this room who are going to be lifelong friends and they're going to do that for one another and then sort of these magical connections happen like you know this already is the most rarefied set of people and then when you join yc it's like even more rarefied and then there's just a set of people out there who",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1425.595,
+            1429.557
+          ],
+          "quote": "I think this is a huge part of what has made YC work in the broader startup ecosystem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 359,
+          "t": [
+            2037.687,
+            2042.548
+          ],
+          "quote": "I mean, it might be, I don't know, by our accounts internal to YC, it might be 90,000X.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2271.296,
+            2272.677
+          ],
+          "quote": "You're coming to YC.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "hugging face",
+      "file": "hugging face",
+      "primary": true,
+      "how_described": "本集把它说成：近期沙箱逃逸安全事件的涉事开源社区，提醒了失控事故并非纯理论，AI 安全阶段已经动真格。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 267,
+          "t": [
+            1448.807,
+            1454.089
+          ],
+          "quote": "I guess you had, I mean, we've all had an eventful week with the hugging face.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1730.107,
+            1744.93
+          ],
+          "quote": "you know, be fairly quite reserved about not imposing our worldview about what we think people should or shouldn't do with AI or even what we think the good ideas are while still making sure that we can ensure enough of a safety bar that stuff like the hugging face incident is not happening.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集提到：OpenAI 在成立几年后才想出要做这个面向用户付费的产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 346,
+          "t": [
+            1953.135,
+            1957.558
+          ],
+          "quote": "Like this was, you know, it was years till we came up with the idea of ChatGPT, the API.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "api",
+      "type": "concept",
+      "role": "concept",
+      "name": "API",
+      "file": "API",
+      "primary": false,
+      "how_described": "本集提到：它是 OpenAI 成立几年后想出来的商业模式，允许人们接入并付费使用其模型能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 346,
+          "t": [
+            1953.135,
+            1957.558
+          ],
+          "quote": "Like this was, you know, it was years till we came up with the idea of ChatGPT, the API.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "本集提到：Sam Altman 曾在 22 岁时作为早期投资人帮助过这家支付公司，并因此在多年后结识了日后共创 OpenAI 的 Greg Brockman。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 203,
+          "t": [
+            1131.423,
+            1137.005
+          ],
+          "quote": "my co-founder at OpenAI, because I was a very early investor in Stripe when I was like 22 or something.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 206,
+          "t": [
+            1146.767,
+            1153.669
+          ],
+          "quote": "Will you like drive down to Palo Alto tonight and have dinner with this guy to convince him he should like drop out of school and join Stripe, which is Greg Brockman.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
