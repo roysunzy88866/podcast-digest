@@ -19,7 +19,12 @@ const ep = (id: string, over: any = {}) => ({
     cover_image: null,
   },
   digest: { quotes: [{ zh: `金句-${id}` }] },
-  entities: { entities: (over.ents ?? []).map((e: string) => ({ id: e, type: "concept", name: e })) },
+  entities: {
+    entities: [
+      ...(over.ents ?? []).map((e: string) => ({ id: e, type: "concept", name: e })),
+      ...(over.cos ?? []).map((c: string) => ({ id: c.toLowerCase(), type: "company", name: c, file: c })),
+    ],
+  },
 });
 
 describe("C13c 口径 A:判官全票率", () => {
@@ -119,8 +124,9 @@ describe("C13c 页面:照设计稿 must-read.html 出", () => {
     expect(html).toContain('<div class="tx">');
   });
 
-  it("★ 左栏与首页同源(pd-shell two + 主题导航)", () => {
-    expect(html).toContain('class="pd-shell two"');
+  it("★ 左栏与首页同源(三栏 shell + 主题导航;C13i 起与设计稿同构,不再是 two)", () => {
+    expect(html).toContain('class="pd-shell"');
+    expect(html).not.toContain('class="pd-shell two"');
   });
 
   it("★ 顶栏在,且「最热」带选中态(设计稿 must-read.html 顶栏 cur 在最热上)", () => {
@@ -155,5 +161,25 @@ describe("C13c 样式:must-read 纳入 .pd 独占作用域 + mrh/mrtop 进 scss"
   it("★ .pd-mrh / .pd-mrtop 数值照抄设计稿(17px 组标 / 26px 页题)", () => {
     expect(scss).toMatch(/\.pd-mrh b\s*\{[^}]*font-size:\s*17px/);
     expect(scss).toMatch(/\.pd-mrtop h1[^{]*\{[^}]*font-size:\s*26px/);
+  });
+});
+
+describe("C13i · 大类页/必读页与设计稿同构:顶栏 + 三栏(设计稿 cat-*.html / must-read.html 都是 class=shell)", () => {
+  // rightRail 的「按公司」只收 type=company 且 ≥3 集的 —— fixture 让 Anthropic 出现 9 集
+  const eps = Array.from({ length: 9 }, (_, i) => ep(`e${i}`, { podcast: `P${i % 5}`, ents: ["ai"], cos: ["Anthropic"] }));
+
+  it("★ 必读页是三栏 shell(带右栏「按公司」),不再是 two", () => {
+    const html = renderMustread(eps as any, { aOf: () => 0.5, cOf: () => 1, hasCover: () => false });
+    expect(html).not.toContain('class="pd-shell two"');
+    expect(html).toContain('class="pd-shell"');
+    expect(html).toContain("按公司");
+  });
+
+  it("★ 大类页有顶栏 + 右栏,且顶栏「最新/最热」都不带选中态(当前在大类页)", async () => {
+    const { renderTagPage } = await import("../scripts/build-tag-pages.mjs");
+    const html = renderTagPage("智能体", eps as any, { allEpisodes: eps as any, categoriesOf: () => ["智能体"], hasCover: () => false });
+    expect(html).toContain('class="pd-top"');
+    expect(html).toContain("按公司");
+    expect(html).not.toMatch(/pd-nav"><a class="cur"/);
   });
 });

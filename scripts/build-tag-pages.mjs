@@ -18,7 +18,7 @@ import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadAllEpisodes } from "./build-entities.mjs";
 import { displayTitle } from "./render.mjs";
-import { card, categoriesOf, taxonomyCategories, esc, coverOnDisk, leftRail } from "./build-list.mjs";
+import { card, categoriesOf, taxonomyCategories, esc, coverOnDisk, leftRail, topBar, rightRail, scriptBlock } from "./build-list.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -62,14 +62,17 @@ export function renderTagPage(cat, episodes, opts = {}) {
   if (!episodes.length) {
     return `${fm}
 <div class="pd">
-  <div class="pd-shell two">
+  ${topBar("cat")}
+  <div class="pd-shell">
   ${rail}
   <div class="pd-mid">
     <div class="hero"><h1><span class="dot" data-cat="${esc(cat)}"></span>${esc(cat)}</h1></div>
     <div class="ep-empty-site">这个主题还没有集。</div>
   </div>
+  ${rightRail(opts.allEpisodes ?? episodes)}
   </div>
 </div>
+${scriptBlock()}
 `;
   }
 
@@ -99,7 +102,8 @@ export function renderTagPage(cat, episodes, opts = {}) {
 
   return `${fm}
 <div class="pd">
-  <div class="pd-shell two">
+  ${topBar("cat")}
+  <div class="pd-shell">
   ${rail}
   <div class="pd-mid">
     <div class="hero"><h1><span class="dot" data-cat="${esc(cat)}"></span>${esc(cat)} <span class="cnt">${episodes.length} 集</span></h1></div>
@@ -115,9 +119,11 @@ export function renderTagPage(cat, episodes, opts = {}) {
 ${rows}
     </div>
   </div>
+  ${rightRail(opts.allEpisodes ?? episodes)}
   </div>
 </div>
 ${filterScript()}
+${scriptBlock()}
 `;
 }
 

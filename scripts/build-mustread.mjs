@@ -9,7 +9,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from "node:fs";
 import { join, dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 import { loadAllEpisodes } from "./build-entities.mjs";
-import { card, leftRail, categoriesOf, taxonomyCategories, topBar, scriptBlock } from "./build-list.mjs";
+import { card, leftRail, categoriesOf, taxonomyCategories, topBar, rightRail, scriptBlock } from "./build-list.mjs";
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -79,7 +79,7 @@ title: "必读"
 
 <div class="pd">
   ${topBar("mustread")}
-  <div class="pd-shell two">
+  <div class="pd-shell">
   ${rail}
   <div class="pd-mid">
     <div class="pd-mrtop">
@@ -91,6 +91,7 @@ title: "必读"
     <div class="pd-mrh"><b>读完还有地方可去</b><span>枢纽度最高 —— 挂着最多「全站至少 3 集都在讲」的话题</span></div>
     ${grid(c)}
   </div>
+  ${rightRail(episodes)}
   </div>
 </div>
 ${scriptBlock()}

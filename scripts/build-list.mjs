@@ -159,7 +159,7 @@ export function leftRail(episodes, catsOf, vocabulary, active = null) {
  * 右栏:全部由机器算(设计稿撤回了「人工手挑」)——
  * 按公司(实体里 type=company 的出现集数,≥3 集)/ 按播客(meta.podcast)/ 随便看看。
  */
-function rightRail(episodes) {
+export function rightRail(episodes) {
   const companies = {};
   for (const ep of episodes) {
     const seen = new Set();
