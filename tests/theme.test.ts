@@ -108,4 +108,19 @@ describe("C13g · 集页正文照设计稿排", () => {
     expect(h2Rule).toMatch(/line-height:\s*1\.45/);
     expect(h2Rule).toMatch(/font-family:\s*var\(--puhui\)/);
   });
+
+  // 设计稿 .qr .z 是 17px × 1.7 = 28.9px。行高必须打在 blockquote **里面的 p** 上 ——
+  // 打在 blockquote 自己身上没用,Quartz 的 `p{line-height:1.6rem}` 直接命中 p、把 1.7 盖成 25.6px
+  // (2026-07-28 线上实测抓到的旧差)。
+  it("★ 金句行距 1.7 要打在 p 上,不是只打在 blockquote 上", () => {
+    expect(scss).toMatch(/blockquote:has\(> p\[id\^="q"\]\)\s*>\s*p\s*\{[^}]*line-height:\s*1\.7/);
+  });
+
+  // 设计稿正文没画链接(20 段 0 个 <a>),真站正文满是实体双链(🔒 产品要求)——
+  // 收敛口径(用户 2026-07-29「挂着的做了」):去掉 Quartz 的淡红底色块,只留 accent 字色。
+  it("★ 正文双链去底色块(不再是一块块红底),且作用域锁在集页", () => {
+    // 前缀 body:has(.pd-play) 必须钉住(GLM 20260729-001[1]):丢了它,这条会漫到
+    // 首页/大类页/实体页的一切 a.internal 上,那些页面的底色语汇各有各的主。
+    expect(scss).toMatch(/body:has\(\.pd-play\) article a\.internal\s*\{[^}]*background:\s*none/);
+  });
 });

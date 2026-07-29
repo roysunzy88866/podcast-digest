@@ -952,6 +952,14 @@ body:has(.pd-play) {
 .pd-hook .a { font-size: 12.5px; color: var(--B5); margin-top: 8px; }
 @media (max-width: 1023px) { .pd-hook .z { font-size: 17px; } }
 
+/* C13g 收尾:正文双链去底色块(用户 2026-07-29 拍)。设计稿正文没画链接(0 个 <a>),
+   双链是 🔒 产品要求、设计稿管不着它长相 → 收敛成只留 accent 字色,去掉 Quartz 的
+   淡红底块(a.internal 自带 background:var(--highlight))。只动 background:
+   颜色/字重仍走 Quartz 的 a 规则;.pd 顶栏里的链接自有 color:inherit 规则,不受影响。 */
+body:has(.pd-play) article a.internal {
+  background: none;
+}
+
 /* ── C13g 集页正文排版(设计稿 .mid p / .mid h2)──
    C13d 那几刀移的是版式结构,正文字号行距一直吃 Quartz 默认(16px / 1.6)→ 比设计稿挤一档。
    颜色**故意不写**:交给主题的 --darkgray(C13g 已改成设计稿的 #252525 / 深色 #cfcdcb),
@@ -983,6 +991,11 @@ body:has(.pd-play) article blockquote:has(> p[id^="q"]) {
   line-height: 1.7;
   font-weight: 500;
   color: var(--B8);
+}
+/* C13g 收尾:行高必须打在 p 上 —— 打在 blockquote 上会被 Quartz 的 `p{line-height:1.6rem}`
+   盖掉(线上实测 25.6px,设计稿 .qr .z 是 17×1.7=28.9px)。 */
+body:has(.pd-play) article blockquote:has(> p[id^="q"]) > p {
+  line-height: 1.7;
 }
 body:has(.pd-play) article blockquote:has(> p[id^="q"]) em {
   display: inline-block;
