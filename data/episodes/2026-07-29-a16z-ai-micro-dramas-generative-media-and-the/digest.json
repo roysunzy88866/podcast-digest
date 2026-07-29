@@ -1,129 +1,141 @@
 {
-  "title_zh": "A16Z 对话:AI 微剧爆发与生成式媒体的新机会",
-  "tldr": "Justine Moore 解读 AI 微剧为何爆发,以及生成式媒体和消费级智能体的创业机会。",
-  "digest_md": "Justine Moore 是 A16Z 的投资人,长期追踪生成式媒体。在本集访谈中,她和主持人一起梳理了当下生成式媒体的现状:从早期的图像玩具,到如今能承载完整故事线的内容生态。整场对话围绕四条线展开——AI 微剧的爆发逻辑、内容创作中「人 + AI」的新常态、生成式媒体的创业机会,以及消费级智能体的潜力。\n\n### 生成式媒体的转折:从技术新奇感到真正能讲故事\n\nJustine 回忆,自己在 ChatGPT 出现前几个月,随着第一批 Stable Diffusion 模型(一类能根据文字生成图像的 AI 模型)发布就入局了。她亲历了技术的演进:从不怎么样的图像,到两秒的短视频,再到如今能生成连贯的 15 秒视频。在她看来,当下的核心转折点是:模型质量终于好到了「能做出承载完整故事线的内容」,而不只是让人觉得「哇,AI 能做出看起来很真的东西」的技术噱头 [03:22 主持人]。\n\n### AI 微剧为什么火:当肥皂剧遇上短视频\n\n顺着「什么样的内容最适合当下的 AI」这个话题,两人深入聊到了目前增长最猛的品类:AI 微剧。\n\nJustine 给出了一个很精准的定位:微剧就是「肥皂剧的 TikTok 化版本」 [05:10 Justine Moore]。它们通常是竖屏短视频,内容极具戏剧性甚至耸人听闻,但真正抓住观众的是悬念和剧情的推进,而不是好莱坞级别的精良制作。这个品类最早在 China 爆发,如今 China 的微短剧市场规模已经超过了国内票房 [05:40 Justine Moore]。去年起,像 Real Short 和 Drama Box 这样的微剧应用在美国 App Store 的增长和变现能力也名列前茅。\n\n为什么 AI 和微剧是天作之合?Justine 分析,微剧通常人物有限、场景固定,靠的是剧情张力——这恰好绕开了当下 AI 在复杂调度上的短板,同时极大地放大了 AI 降低制作成本的优势。两人还聊到一部讲述 Anthropic 的 Dario 爱情的微剧,虽然故事听起来荒诞,但吸引了几百万观看量,叙事极其抓人 [12:17 主持人]。\n\n### 谁在创作,什么是好内容:技术与叙事的错位\n\n内容形态变了,谁来制作就成了下一个自然的话题。Justine 提出了一个非常锐利的观察:AI 视频早期的采用者,大多是技术发烧友,而不是天生的叙事高手。他们做出了新颖的东西,但未必是引人入胜的故事 [08:01 Justine Moore]。如今,真正懂讲故事的专业创意人士开始入局。这意味着,我们将迎来一波真正吸引人的好故事,而观众甚至可能根本意识不到、也不在乎这是 AI 做的 [09:11 Justine Moore]。\n\n### 标签与门槛:创作者还要不要声明「这是 AI 做的」\n\n聊到内容质量的参差,主持人抛出了一个很多人关心的问题:随着生成内容泛滥,平台是否应该要求创作者标注「这是 AI 生成的」?两人顺着这个议题展开了交锋。\n\nJustine 的态度很明确:她认为标签很难落地。因为绝大多数未来的内容都将是「人类与模型合作」的产物。她举了游戏平台的例子:当要求给 AI 内容打标签时,有开发者反问「我写代码时用了自动补全模型,这游戏也得标成 AI 生成的吗?」 [25:28 Justine Moore]。在她看来,与其纠结是否标注,不如关注内容本身是否对读者有意义;她个人阅读简报时,只要信息准确、有见地,就不在乎是否有 AI 参与 [27:36 Justine Moore]。\n\n两人还聊到日常写作中如何使用模型。Justine 分享了自己的工作流:她会把大纲同时喂给 Claude 和 GPT,看看它们给出的不同角度,拼凑后再自己重写大部分,最终产出大概 60%-70% 由自己撰写 [30:20 Justine Moore]。她们还会让不同的 AI 模型给每期简报的设计打分,把它当成一个「陪练伙伴」来提升内容质量 [30:45 主持人]。\n\n> 【背景】对话中提到的 Claude 和 GPT 是目前主流的通用大语言模型;Gemini 是 Google 的大模型;它们常被创作者用作写作、分析和工作流的辅助工具。\n\n### 创业机会:别卷底层模型,去深耕垂直工作流\n\n从内容创作的实操话题,两人的视线转向了更宏观的创业格局:如果今天要在这个领域开公司,机会到底在哪?\n\nJustine 认为,如今从头训练基础模型去和 OpenAI 等巨头硬刚,门槛已经极高。因此,真正的大机会在「应用和工作流层」。过去,这类应用只是简单的「文本框输入 + 生成结果」,同质化严重;而现在,创业者需要想清楚:如何比任何人都更好地服务一个特定人群,深入他们的工作流,提供除了「更便宜」之外必须留下来的理由 [35:19 Justine Moore]。\n\n她特别看好几个未被充分挖掘的市场:一是不那么懂技术的普通消费者群体;二是微剧这种需要特定角色、配音和节奏把控的内容类型;三是建筑、设计、广告等刚起步用 AI 的垂直行业 [36:31 Justine Moore]。\n\n### 下一波浪潮:给普通人的消费级智能体\n\n访谈最后,话题落在了对个人创作者最具颠覆性的趋势上:AI 智能体(能自主感知环境、拆解任务并调用工具完成目标的 AI 系统)。\n\nJustine 指出,智能体对个人创作者和小团队的意义,远大于对大公司——因为他们没有行政团队,时间被琐事严重挤压。她分享了自己在投资的一款产品 Town 上的体验:它接入邮件和日历后,会主动观察你的习惯,建议由它来代办某些重复性工作(比如自动处理收据、安排会议等) [40:03 Justine Moore]。\n\n> 【背景】对话中还提及了 Poke 和 Ollie,这类产品试图将 AI 助手融入家庭管理;以及 OpenClaw 和 Hermes 等面向极客的开源项目。Justine 认为这些极客玩具的体验终将被封装好,变成普通人发个短信就能调用的日常助手。\n\n在聊到值得敬佩的创始人时,Justine 特别点名了 Eleven Labs 的两位创始人 Matty 和 Pietro。她钦佩他们在研究、产品和推向市场的三线并进能力:从早期为冷门有声书配音,到如今企业级语音智能体爆发,他们抓住了每一波浪潮,据报道年经常性收入已跨过 5 亿美元 [48:34 主持人]。\n\n## 本集带走\n\n1. **微剧是 AI 内容的完美载体**:靠戏剧悬念而非精良制作取胜的短剧形式,恰好放大了 AI 降本增效的优势。当专业创意人入局,我们将看到大量「你根本看不出是 AI 做的」高质量故事。\n2. **纠结「是否标注 AI」是个伪命题**:未来的内容绝大多数是人机协作的产物,与其在标签上滑斜坡,不如看内容本身对受众是否产生真实价值。\n3. **创业别卷底层,去深耕工作流**:真正的空白市场在那些不懂技术的大众消费者、特定内容品类的深度需求,以及传统垂直行业中。\n4. **智能体是个人创作者的终极杠杆**:当行政、外联、财务等琐事都能交给主动请缨的 AI 智能体时,小团队的产能将迎来阶跃式提升。",
+  "title_zh": "当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点",
+  "tldr": "随着模型质量跨越叙事门槛,生成式媒体正从新奇玩具变成大众娱乐和创作的主流工具。",
+  "digest_md": "这期节目来自 A16Z 播客的 feed drop,嘉宾是 A16Z 的 Justine Moore。她长期追踪生成式媒体,本期和主持人主要聊了三件事:为什么 AI 微剧正在全球爆发、AI 会如何重塑创作者经济与内容消费,以及在这个生态里创业的最大机会和难点在哪。\n\n脉络上,我们会沿着「内容形态变化 → 消费者态度变化 → 创作者工作流变化 → 创业机会在哪」这条主线展开,看 AI 如何一点一点改写媒体的生产和消费逻辑。\n\n## 拐点已至:从「新奇玩具」到「能承载故事」\n\nJustine 回忆,自己关注生成式媒体已经几年了。在 ChatGPT 出来前几个月,Stable Diffusion(一种能根据文字生成图像的 AI 模型)刚发布时,她就开始入局了。当时人们还在做 AI 头像生成器这类小工具。从那时到现在,技术进步惊人:从一开始不太好的图像,到两秒的短视频,现在已经能生成完整的、连贯的 15 秒视频 [03:22 Justine Moore]。\n\n她对当前状态的判断是:模型质量终于跨过了一个关键门槛——不再只是「哇,AI 能做出看起来几乎真实的东西」这种新奇展示,而是能做出真正令人想看下去、**能承载故事线**的内容了 [03:38 Justine Moore]。当模型本身足够好,接下来的重心开始向产品层转移——怎么给那些「不是全职写提示词」的普通用户,造出好用的界面和工作流,让他们也能驾驭这些模型 [04:36 Justine Moore]。\n\n## 为什么是「微剧」率先爆发\n\n工具成熟了,最先跑出来的爆款内容形态是「微剧」。\n\n> 【背景】微剧(Microdrama)是一种竖屏、单集很短、情节极具戏剧性和悬念的剧集形式,常被称为「肥皂剧的 TikTok 化版本」。代表性的分发应用有 ReelShort、DramaBox 等。\n\nJustine 解释,这种形式最早在中国爆火,现在中国的微剧市场规模已经比国内电影票房还大 [05:40 Justine Moore]。去年在美国,这类应用也是增长最快、变现能力最强的产品之一。\n\n为什么微剧特别适合 AI 来做?她点出了关键:微剧的演员阵容和布景相对有限,它的核心竞争力在于故事线、悬念和那种「接下来会发生什么」的抓人感 [06:33 Justine Moore]。它不需要好莱坞级别的实地拍摄。所以,当很多人发现,今天 AI 模型的能力刚好能覆盖这种「重叙事、轻制作」的需求时,微剧就成了 AI 视频最完美的着陆点 [06:45 Justine Moore]。\n\n但现在的微剧质量参差不齐。顺着「内容怎么才能做得更好」这个话题,Justine 指出了当前的一个根本性转变:AI 视频的早期采用者往往是技术发烧友,他们未必懂怎么讲故事,做出来的东西新奇但未必引人入胜 [08:01 Justine Moore]。而现在,真正受过专业训练、懂得塑造叙事的创作者开始进场,甚至大型工作室也看到了机会。这意味着,我们将迎来一波真正因为「故事好」而非「因为是 AI 做的」而吸引人的内容爆发 [08:54 Justine Moore]。她甚至判断,未来会有很多内容,观众甚至不知道也不在乎它是 AI 生成的 [09:11 Justine Moore]。\n\n## 工具民主化:一人即工作室\n\n当讲故事不再受限于高昂的拍摄成本,创作者的机会被极大地放大了。\n\n主持人观察到,有些个人或极小团队做出来的 AI 微剧,能在几周内拿到上亿观看量 [12:09 主持人];像 Psyop Anime、Gossip Goblin 这样的创作者,在粉丝增长和内容产出频率上都有惊人的数字 [12:51 Justine Moore]。最关键的是,当你看这些内容——无论是动漫还是逼真的真人风格——在 AI 出现前,一个人或小团队是绝对做不出来的,那需要巨额预算和几个月时间。而现在,他们的周转时间只要几小时或几天 [13:27 Justine Moore]。\n\n聊到这里,主持人和 Justine 分享了各自试用 AI 创作工具的体验。主持人自己花了不到 500 美元、几个小时试着做了一部关于品牌起源故事的微剧,发现设计美学已经很棒,只是在镜头光线等细节上还有滞后 [16:04 主持人]。Justine 也分享了自己的实用工作流:她不再面对空白页发愁,而是先列大纲,丢给不同的模型看它们提出什么角度,再把各自写得好的部分拼起来自己重写,最终的文字通常是六七成自己写、三四成 AI 写 [30:20 Justine Moore]。她还会让不同的模型给自己的草稿打分,把它们当成一个非常有用的「陪练伙伴」 [31:30 Justine Moore]。\n\n## 「AI 标签」之争:大众消费者到底在乎吗\n\n既然 AI 生成的内容越来越好,也越来越普遍,我们会不会进入一个分不清什么是 AI 生成的阶段?创作者需要主动披露吗?\n\n主持人提到一组数据:全球顶级的简报作者中,大约 20% 的人其 80% 的内容是 AI 生成的 [26:51 主持人]。对此,Justine 提出了一个略带争议的观点:**大众消费者其实并不在乎内容是不是 AI 做的** [17:40 Justine Moore]。起初,关注技术进展的人(比如 X 或 Reddit 上的用户)会因为是 AI 而去看;但大众只关心内容本身好不好看。只要质量过关,AI 制作能达到实拍的 90% 到 95% 的水准,且更便宜、更快,它就会成为默认的生产方式 [18:13 Justine Moore]。\n\n关于强制贴「AI 生成」标签的想法,Justine 觉得这是一条滑坡:如果开发者在写代码时用了自动补全,这算不算 AI 生成?未来绝大多数内容都会是「人与模型协作」的产物,去强行界定和标注意义不大 [25:47 Justine Moore]。\n\n顺带一提,她特别区分了「AI 垃圾内容」这个概念。她认为,为了博眼球、触发大脑原始反应而让人停不下来的低质内容,在 AI 出现前就大量存在 [22:34 Justine Moore]。关键不在于它是不是 AI 生成的,而在于它本身的叙事质量和对你大脑的影响。至于创作者该怎么定位自己,是追逐短期流量做「快餐内容」,还是花时间做有深度的「常青内容」,取决于你想成为什么样的创作者 [24:13 Justine Moore]。\n\n## 创业去哪儿:模型层太贵,真正的蓝海在别处\n\n工具变了,人也变了,那对想在这个领域创业的创始人来说,机会在哪?\n\nJustine 直言,从零开始训练一个能和 OpenAI 等巨头竞争的基础模型,已经变得极其昂贵,模型层的创业门槛比过去高了很多 [33:50 Justine Moore]。所以,现在很多人转向应用层或工作流层竞争。但只靠「提供更便宜的模型调用」或「更快的推理」已经不够了,创始人必须想清楚:怎么深入特定用户的工作流,提供别人替代不了的粘性 [35:33 Justine Moore]。\n\n那些未开发的大机会在哪里?她指了三个方向:一是**非技术专业人群**。比起善变的技术发烧客,那些不那么懂技术、一旦用顺手就不爱换工具的普通创作者,是更庞大的基本盘 [36:31 Justine Moore]。二是**消费端的社交与分享层**,目前大家还是把内容分享到传统的社交平台上,缺乏专门为生成式内容打造的「游乐场」 [36:51 Justine Moore]。三是**垂直行业**,比如营销广告、建筑、设计等行业才刚刚开始采用 AI [37:32 Justine Moore]。\n\n顺着「帮创作者省时间」的思路,两人都看好 AI 智能体。对于个体创作者和小企业来说,他们最大的痛点是被大量行政杂务(联系嘉宾、查收据、审合同)占据了时间。智能体如果能接管这些后勤工作,对个体创作者来说是巨大的效率飞跃 [39:23 Justine Moore]。Justine 特别提到一个她自己一直在用的产品 Town:它会连接你的邮箱和日历,分析你的习惯后,主动提出「以后收到这种介绍信,我帮你自动感谢介绍人并安排会议好不好?」 [40:34 Justine Moore]。\n\n在节目最后,当被问到最欣赏哪家公司时,Justine 给了 ElevenLabs(一家 AI 语音生成公司)极高的评价。她看着他们从一群做长尾音频用例(比如给小语种有声书配音)的小团队,一步步共同推进研究、产品和商业化,扩展到企业级语音智能体,年化营收突破了 5 亿美元 [48:34 主持人]。这也是她眼中,在这个生成式媒体大潮中,精准执行、抓住机会的典范。\n\n## 本集带走\n\n1. **微剧是 AI 视频的最佳试验田**:它重叙事、轻制作,恰好匹配了当前 AI 模型的强项与短板。当专业讲故事的人开始进场,内容质量将迎来真正的爆发。\n2. **大众消费者不在乎「是不是 AI」**:只要内容本身抓人、质量达标,生产工具是什么并不重要。强行给 AI 内容贴标签在实操上极其困难,因为未来的内容几乎都是「人+AI」的协作产物。\n3. **创业的蓝海在应用与工作流层**:与其在昂贵的模型层硬刚巨头,不如去服务非技术的普通创作者、深挖垂直行业的工作流,或为个体创作者解决那些耗费大量时间的行政杂务。",
   "quotes": [
     {
-      "en": "now the micro drama market in China is larger than their domestic box office.",
-      "zh": "现在中国的微短剧市场比他们的国内票房还要大。",
-      "timestamp": "05:40",
-      "speaker": "Justine Moore"
-    },
-    {
-      "en": "the mass market consumer does not care that it was made with AI",
-      "zh": "大众市场消费者并不在乎它是用 AI 制作的",
+      "en": "The mass market consumer does not care that it was made with AI and isn't going to watch it for that reason.",
+      "zh": "大众市场消费者并不关心它是用 AI 制作的,也不会因为这个原因去看它。",
       "timestamp": "17:58",
       "speaker": "Justine Moore"
     },
     {
-      "en": "It's 90, 95% of the quality of filming, but it's so much cheaper and faster and easier.",
-      "zh": "它达到了 90%、95% 的拍摄质量,但它更便宜、更快、更容易。",
-      "timestamp": "00:17",
+      "en": "It sort of just unlocks all of this crazy, weird, interesting ideas that people have in their imagination that they could never make before.",
+      "zh": "这简直解锁了人们想象中所有那些疯狂的、怪异的、有趣的想法,以前他们是无法制作出来的。",
+      "timestamp": "00:53",
+      "speaker": "Justine Moore"
+    },
+    {
+      "en": "When you watch the content, it's immediately clear that one person or small teams could have never created this before AI.",
+      "zh": "当你观看这些内容时,立刻就能清楚看到,在 AI 之前,一个人或小团队是绝不可能创作出这个的。",
+      "timestamp": "13:07",
+      "speaker": "Justine Moore"
+    },
+    {
+      "en": "Now the microdrama market in China is larger than their domestic box office.",
+      "zh": "现在中国的微短剧市场比它们的国内票房还要大。",
+      "timestamp": "05:40",
+      "speaker": "Justine Moore"
+    },
+    {
+      "en": "I think my instinct is like the vast, vast majority of content will end up being partially AI produced or AI edited in the future.",
+      "zh": "我的直觉是,绝大多数内容最终将在未来被部分 AI 生成或 AI 编辑。",
+      "timestamp": "26:05",
+      "speaker": "Justine Moore"
+    },
+    {
+      "en": "The slop concept is very interesting to me because I think it came out around AI, but my take at least has been there's a ton of human produced slop.",
+      "zh": "slop(低质内容)的概念对我来说非常有趣,因为我认为它是随着 AI 出现的,但我的看法一直是,有大量人类生产的 slop。",
+      "timestamp": "22:21",
+      "speaker": "Justine Moore"
+    },
+    {
+      "en": "I think there's a lot of opportunity in consumer that's honestly untapped, like sort of the social layer of generating and sharing stuff is still almost entirely done on the existing incumbent platforms",
+      "zh": "我认为消费领域有很多机会实际上是未开发的,就像生成和分享内容的社会层面几乎仍然完全是在现有的巨头平台上完成的",
+      "timestamp": "36:51",
       "speaker": "Justine Moore"
     }
   ],
   "quotes_candidates": [
     {
-      "en": "I describe micro dramas as almost like the TikTokified version of soap operas.",
-      "zh": "我将微剧描述为几乎像是肥皂剧的 TikTok 化版本。",
-      "timestamp": "05:10",
-      "speaker": "Justine Moore"
-    },
-    {
-      "en": "now the micro drama market in China is larger than their domestic box office.",
-      "zh": "现在中国的微短剧市场比他们的国内票房还要大。",
-      "timestamp": "05:40",
-      "speaker": "Justine Moore"
-    },
-    {
-      "en": "many of the people who were early adopters of AI video were not inherently amazing storytellers.",
-      "zh": "许多 AI 视频的早期采用者并不是天生的优秀讲故事者。",
-      "timestamp": "08:01",
-      "speaker": "Justine Moore"
-    },
-    {
-      "en": "we might be at this point already, but there's going to be a lot of microdrama content that you don't even know is AI.",
-      "zh": "我们可能已经到了这一步了,但会有很多微短剧内容你甚至不知道是 AI。",
-      "timestamp": "09:11",
-      "speaker": "Justine Moore"
-    },
-    {
-      "en": "Amazon and Netflix have already both announced programs for fully AI generated animations.",
-      "zh": "亚马逊和 Netflix 都已经宣布了完全 AI 生成动画的项目。",
-      "timestamp": "10:14",
-      "speaker": "Justine Moore"
-    },
-    {
-      "en": "And I think folks would be surprised by how many TV shows and movies today already have some element of AI being used",
-      "zh": "我认为人们会惊讶于今天有多少电视节目和电影已经使用了某种 AI 元素",
-      "timestamp": "10:01",
-      "speaker": "Justine Moore"
-    },
-    {
-      "en": "it just makes a ton of sense for the producers of the micro dramas to be using AI",
-      "zh": "对于微剧的制作者来说,使用 AI 非常合理",
-      "timestamp": "18:43",
-      "speaker": "Justine Moore"
-    },
-    {
-      "en": "the vast, vast majority of content will end up being partially AI produced or AI edited in the future.",
-      "zh": "绝大多数内容最终将在未来是部分由 AI 生产或由 AI 编辑的。",
-      "timestamp": "26:05",
-      "speaker": "Justine Moore"
-    },
-    {
-      "en": "the mass market consumer does not care that it was made with AI",
-      "zh": "大众市场消费者并不在乎它是用 AI 制作的",
+      "en": "The mass market consumer does not care that it was made with AI and isn't going to watch it for that reason.",
+      "zh": "大众市场消费者并不关心它是用 AI 制作的,也不会因为这个原因去看它。",
       "timestamp": "17:58",
       "speaker": "Justine Moore"
     },
     {
+      "en": "It sort of just unlocks all of this crazy, weird, interesting ideas that people have in their imagination that they could never make before.",
+      "zh": "这简直解锁了人们想象中所有那些疯狂的、怪异的、有趣的想法,以前他们是无法制作出来的。",
+      "timestamp": "21:24",
+      "speaker": "Justine Moore"
+    },
+    {
+      "en": "When you watch the content, it's immediately clear that one person or small teams could have never created this before AI.",
+      "zh": "当你观看这些内容时,立刻就能清楚看到,在 AI 之前,一个人或小团队是绝不可能创作出这个的。",
+      "timestamp": "13:06",
+      "speaker": "Justine Moore"
+    },
+    {
+      "en": "I think folks would be surprised by how many TV shows and movies today already have some element of AI being used and how many of the big studios are considering fully generative content.",
+      "zh": "我想人们会惊讶于今天有多少电视剧和电影已经使用了某种 AI 元素,以及有多少大工作室正在考虑完全生成式的内容。",
+      "timestamp": "10:01",
+      "speaker": "Justine Moore"
+    },
+    {
+      "en": "Many of the people who were early adopters of AI video were not inherently amazing storytellers.",
+      "zh": "许多 AI 视频的早期采用者本身并不是令人惊叹的讲故事的人。",
+      "timestamp": "08:01",
+      "speaker": "Justine Moore"
+    },
+    {
+      "en": "Now the microdrama market in China is larger than their domestic box office.",
+      "zh": "现在中国的微短剧市场比它们的国内票房还要大。",
+      "timestamp": "05:40",
+      "speaker": "Justine Moore"
+    },
+    {
+      "en": "I think my instinct is like the vast, vast majority of content will end up being partially AI produced or AI edited in the future.",
+      "zh": "我的直觉是,绝大多数内容最终将在未来被部分 AI 生成或 AI 编辑。",
+      "timestamp": "26:05",
+      "speaker": "Justine Moore"
+    },
+    {
       "en": "Agents are going to be particularly powerful for individual creators and small businesses just because they're so much more constrained time-wise and resource-wise.",
-      "zh": "智能体对于个人创作者和小型企业来说将特别强大,因为他们在时间和资源方面的限制要多得多。",
+      "zh": "智能体对于个体创作者和小企业来说将特别强大,只是因为他们在时间和资源方面受到的约束要大得多。",
       "timestamp": "39:27",
       "speaker": "Justine Moore"
     },
     {
-      "en": "the big studios are afraid of like PR risk around things like that, but are absolutely exploring very similar things.",
-      "zh": "大型制片厂害怕的是这类事情带来的公关风险,但他们绝对在探索非常类似的事情。",
-      "timestamp": "10:21",
+      "en": "The slop concept is very interesting to me because I think it came out around AI, but my take at least has been there's a ton of human produced slop.",
+      "zh": "slop(低质内容)的概念对我来说非常有趣,因为我认为它是随着 AI 出现的,但我的看法一直是,有大量人类生产的 slop。",
+      "timestamp": "22:25",
       "speaker": "Justine Moore"
     },
     {
-      "en": "It's 90, 95% of the quality of filming, but it's so much cheaper and faster and easier.",
-      "zh": "它达到了 90%、95% 的拍摄质量,但它更便宜、更快、更容易。",
-      "timestamp": "18:13",
+      "en": "We might be at this point already, but there's going to be a lot of microdrama content that you don't even know is AI.",
+      "zh": "我们可能已经到了这一步,但会有很多微短剧内容你甚至不知道是 AI。",
+      "timestamp": "09:11",
       "speaker": "Justine Moore"
     },
     {
-      "en": "for $100,000, you can make so many more episodes than you could make before.",
-      "zh": "用 10 万美元,你可以制作比以前多得多的剧集。",
-      "timestamp": "18:43",
+      "en": "There are so many incredible creators out there who you can sell to, but also figuring out where the opportunities are because things are changing all the time is the hardest part, right?",
+      "zh": "有这么多令人难以置信的创作者你可以卖给,但同时也弄清楚机会在哪里,因为事物一直在变化,这是最难的部分,对吧?",
+      "timestamp": "35:55",
+      "speaker": "主持人"
+    },
+    {
+      "en": "I think there's a lot of opportunity in consumer that's honestly untapped, like sort of the social layer of generating and sharing stuff is still almost entirely done on the existing incumbent platforms",
+      "zh": "我认为消费领域有很多机会实际上是未开发的,就像生成和分享内容的社会层面几乎仍然完全是在现有的巨头平台上完成的",
+      "timestamp": "36:51",
       "speaker": "Justine Moore"
     },
     {
-      "en": "I think in terms of what creators should do, it really depends on like what sort of creator you want to be.",
-      "zh": "我认为就创作者应该做什么而言,这实际上取决于你想成为什么样的创作者。",
-      "timestamp": "23:31",
-      "speaker": "Justine Moore"
-    },
-    {
-      "en": "figuring out who you want to serve and how you're going to be differentiated, largely because it's gotten pretty expensive to train foundation models",
-      "zh": "弄清楚你想服务谁以及你将如何差异化,很大程度上因为训练基础模型已经变得相当昂贵",
-      "timestamp": "33:50",
-      "speaker": "Justine Moore"
-    },
-    {
-      "en": "I think there's a massive market of other people that are largely untapped, who are less technically sophisticated",
-      "zh": "我认为还有一大群其他人基本上是未被开发的巨大市场,他们技术不太精通",
+      "en": "There's a massive market of other people that are largely untapped, who are less technically sophisticated, who don't know every single tool out there.",
+      "zh": "有一个巨大的其他人群市场在很大程度上未被开发,他们的技术水平不那么高,不知道外面的每一个工具。",
       "timestamp": "36:31",
       "speaker": "Justine Moore"
     },
     {
-      "en": "you sort of have to find like an initial wedge where you can get an attention and initial user base.",
-      "zh": "你必须找到某种初步的切入点,在那里你可以获得关注和初步的用户群。",
-      "timestamp": "46:45",
+      "en": "We're just so early, like we don't even have kind of friendly, accessible product experiences, let alone like good brands or like great marketing for a lot of these AI products.",
+      "zh": "我们只是太早了,就像我们甚至没有那种友好的、可获得的产品体验,更不用说好的品牌或很棒的营销对于很多这些 AI 产品。",
+      "timestamp": "45:48",
       "speaker": "Justine Moore"
+    },
+    {
+      "en": "If you look at the top newsletters globally on all platforms, something like 20% of the top newsletter writers...",
+      "zh": "如果你看所有平台上全球的顶级简报,大约 20% 的顶级简报作者……",
+      "timestamp": "26:51",
+      "speaker": "主持人"
     }
   ]
 }

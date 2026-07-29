@@ -4,13 +4,12 @@
   "date": "2026-07-29",
   "tags": [
     "生成式媒体",
-    "AI 微剧",
+    "微剧",
+    "创作者经济",
     "智能体",
-    "内容创作",
-    "创业机会"
+    "消费者科技"
   ],
   "categories": [
-    "智能体",
     "创业与行业"
   ],
   "entities": [
@@ -41,7 +40,7 @@
       "name": "生成式媒体 (generative media)",
       "file": "生成式媒体",
       "primary": true,
-      "how_described": "本集将其描述为目前正经历不可思议的转折点,模型质量终于足够好,能承载完整连贯的故事线,而不再仅仅是技术新奇感。",
+      "how_described": "本集把它说成：一个正处于拐点的生态系统，模型质量终于足够好，能承载真正引人入胜的故事线，并正在向创造好用界面和工作流的产品层成熟",
       "source": "glm",
       "evidence": [
         {
@@ -77,7 +76,7 @@
             175.908,
             188.272
           ],
-          "quote": "Yeah, I would say I've been following the generative media space for a couple years, actually really got into it a couple months before ChatGPT came out when the first stable diffusion models came out.",
+          "quote": "Yeah, I would say I've been following the generative media space for a couple of years, actually really got into it a couple of months before ChatGPT came out when the first stable diffusion models came out.",
           "speaker": "SPEAKER_00"
         },
         {
@@ -104,7 +103,7 @@
             2004.79,
             2017.455
           ],
-          "quote": "we have a lot of founders who listen to the show and I think a useful question would be to talk around what are the hardest parts of building a generative media type of company from a startup point of view?",
+          "quote": "We have a lot of founders who listen to the show and I think a useful question would be to talk around what are the hardest parts of building a generative media type of company from a startup point of view?",
           "speaker": "SPEAKER_02"
         },
         {
@@ -117,7 +116,7 @@
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 346,
+          "seg": 347,
           "t": [
             2149.021,
             2154.384
@@ -146,464 +145,101 @@
       ]
     },
     {
-      "id": "microdramas",
+      "id": "microdrama",
       "type": "concept",
       "role": "concept",
-      "name": "微剧 (microdramas)",
+      "name": "微剧 (microdrama)",
       "file": "微剧",
       "primary": true,
-      "how_described": "本集把它说成是「肥皂剧的 TikTok 化版本」:极具戏剧性的竖屏短视频。由于其人物有限、场景固定,靠剧情悬念取胜,被嘉宾认为是完美契合当下 AI 降本增效优势的内容形态。",
+      "how_described": "本集把它说成：肥皂剧的 TikTok 化版本（竖屏、极具戏剧性和悬念），最先在中国爆发，是当前 AI 视频最完美的着陆点（因其重叙事、轻制作）",
       "source": "glm",
       "evidence": [
         {
-          "seg": 16,
+          "seg": 52,
           "t": [
-            89.614,
-            105.239
+            340.498,
+            345.481
           ],
-          "quote": "In this feed drop from New Economies, A16Z's Justine Moore joins the show to discuss the rise of AI-native entertainment, why AI microdramas are exploding in popularity, and how generative media is lowering the barriers to storytelling for creators around the world.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 77,
-          "t": [
-            470.355,
-            476.723
-          ],
-          "quote": "Where do you think this actually will go next in order for AI and microdramas actually to stay around?",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 108,
-          "t": [
-            659.802,
-            668.766
-          ],
-          "quote": "Microdramas are a great example of that, where I think in the US, they're really taking off with AI now, making them much cheaper and easier to produce.",
+          "quote": "Now the microdrama market in China is larger than their domestic box office.",
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 132,
+          "seg": 88,
           "t": [
-            815.679,
-            818.702
+            534.021,
+            549.946
           ],
-          "quote": "We've actually had a go at creating our own AI microdramas.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 171,
-          "t": [
-            1001.993,
-            1006.996
-          ],
-          "quote": "I think also it's fun to think about different iterations of microdramas like that.",
+          "quote": "And so we have people who know how to tell a narrative seeing the opportunity in the microdrama space, which to me means we're going to get an explosion of actually really gripping stories, like super interesting content beyond the AI element of it.",
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 172,
+          "seg": 90,
           "t": [
-            1007.157,
-            1015.923
+            551.767,
+            557.25
           ],
-          "quote": "Like I think historically when people think microdramas, they think like soap operas or just kind of, you know, crazy, suspenseful, pure romance.",
+          "quote": "We might be at this point already, but there's going to be a lot of microdrama content that you don't even know is AI.",
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 179,
+          "seg": 158,
           "t": [
-            1046.222,
-            1052.707
+            943.701,
+            952.568
           ],
-          "quote": "How do you see the adoption of these AI microdramas actually sticking around?",
+          "quote": "How cool would it be to have an AI microdrama series called The Origins or The Tech Origins or something around how all of these incredible companies got created.",
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 360,
+          "seg": 164,
           "t": [
-            2279.605,
-            2284.767
+            976.852,
+            981.698
           ],
-          "quote": "I almost feel, is there going to be like a Roblox equivalent for AI microdramas maybe?",
+          "quote": "Every maybe AI microdrama needs some of like romantic story to it.",
           "speaker": "SPEAKER_02"
         }
       ]
     },
     {
-      "id": "agents",
+      "id": "agent",
       "type": "concept",
       "role": "concept",
-      "name": "智能体 (agents)",
+      "name": "智能体 (agent)",
       "file": "智能体",
       "primary": true,
-      "how_described": "本集把 AI 智能体看作个人创作者和小团队的「终极杠杆」:由于缺乏人手和时间,智能体能接管处理邮件、发票等行政后勤琐事,带来产能的阶跃式提升。",
+      "how_described": "本集把它说成：能为个体创作者和小企业解决行政杂务（如联系嘉宾、查收据）的强大工具，帮助他们把更多时间花在核心创作上",
       "source": "glm",
       "evidence": [
         {
-          "seg": 17,
+          "seg": 409,
           "t": [
-            105.999,
-            112.961
+            2599.319,
+            2607.427
           ],
-          "quote": "They also explore AI agents, consumer startups, and the next wave of opportunities at the intersection of AI and media.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 373,
-          "t": [
-            2367.217,
-            2377.122
-          ],
-          "quote": "Agents are going to be particularly powerful for individual creators and small businesses just because they're so much more constrained time-wise and resource-wise.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 375,
-          "t": [
-            2391.964,
-            2397.204
-          ],
-          "quote": "Have you tried any cool personal AI agents that you're really excited about?",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 406,
-          "t": [
-            2559.775,
-            2566.758
-          ],
-          "quote": "And we're just like, I think we see similar things for like texting, being able to text AI agents, for example.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 421,
-          "t": [
-            2682.266,
-            2693.815
-          ],
-          "quote": "Like what a lot of these agents are doing is they're writing some sort of code or some sort of ongoing workflow for people and running it for you, which is something that the vast majority of people, like me included, cannot do well on their own.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 427,
-          "t": [
-            2722.746,
-            2729.091
-          ],
-          "quote": "So for me, it would probably be either something in generative media or consumer agents.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 450,
-          "t": [
-            2865.567,
-            2885.234
-          ],
-          "quote": "largely consumers and prosumers, but now is a lot of traditional enterprises and expanding across categories, like starting largely in the creative ecosystem media, which is still a really big space for them, but then also exploring like where are the other places voice is used and as voice agents became more popular.",
+          "quote": "And I think we saw the first wave of a lot of that kind of stuff with like OpenClaw, honestly, and the Hermes agent where really technical people were...",
           "speaker": "SPEAKER_00"
         }
       ]
     },
     {
-      "id": "stable-diffusion",
+      "id": "creator-economy",
       "type": "concept",
       "role": "concept",
-      "name": "Stable Diffusion",
-      "file": "Stable Diffusion",
+      "name": "创作者经济 (creator economy)",
+      "file": "创作者经济",
       "primary": true,
-      "how_described": "本集提到它是嘉宾在 ChatGPT 发布前几个月最早关注的对象(一类能根据文字生成图像的 AI 模型),开启了生成式媒体的早期探索。",
+      "how_described": "本集把它说成：正在被 AI 重塑的领域。在 AI 民主化工具的加持下，个人或极小团队的工作室能在几天内创作出过去需要巨额预算的叙事内容",
       "source": "glm",
       "evidence": [
         {
-          "seg": 30,
+          "seg": 25,
           "t": [
-            175.908,
-            188.272
+            149.755,
+            156.277
           ],
-          "quote": "Yeah, I would say I've been following the generative media space for a couple years, actually really got into it a couple months before ChatGPT came out when the first stable diffusion models came out.",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "foundation-models",
-      "type": "concept",
-      "role": "concept",
-      "name": "基础模型 (foundation models)",
-      "file": "基础模型",
-      "primary": true,
-      "how_described": "本集指出,如今从头训练与巨头竞争的基础模型门槛极高,创业者的大机会已经转移到了如何深耕特定人群的「应用和工作流层」。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 329,
-          "t": [
-            2030.319,
-            2047.867
-          ],
-          "quote": "So I think to me, the hardest thing right now has been figuring out who you want to serve and how you're going to be differentiated, largely because it's gotten pretty expensive to train foundation models that compete with folks like OpenAI and...",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "chatgpt",
-      "type": "concept",
-      "role": "concept",
-      "name": "ChatGPT",
-      "file": "ChatGPT",
-      "primary": false,
-      "how_described": "本集将其作为生成式媒体发展历程中的一个关键时间节点被提及(嘉宾是在它发布前几个月入局的)。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 30,
-          "t": [
-            175.908,
-            188.272
-          ],
-          "quote": "Yeah, I would say I've been following the generative media space for a couple years, actually really got into it a couple months before ChatGPT came out when the first stable diffusion models came out.",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "claude",
-      "type": "concept",
-      "role": "concept",
-      "name": "Claude",
-      "file": "Claude",
-      "primary": false,
-      "how_described": "本集提到它常被用作日常写作和内容生成的辅助工具(例如嘉宾会把写作大纲同时喂给它和 GPT 看不同角度,也会用来给简报打分)。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 266,
-          "t": [
-            1666.359,
-            1673.581
-          ],
-          "quote": "purely Claude generations that are like not really in their voice and like don't make a ton of sense get called out for that, like as they should.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 267,
-          "t": [
-            1674.001,
-            1691.707
-          ],
-          "quote": "But I think there are some people who, you know, I've even been surprised by it, find a lot of meaning and really resonate with certain things, certain AI outputs that people get by, you know, going back and forth with Claude or GPT or whatever model about a certain question and then publishing it.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 283,
-          "t": [
-            1768.552,
-            1788.545
-          ],
-          "quote": "I mean, I think the thing that I don't like to play the devil's advocate is, I don't know if they still do this, but for a while, both Claude and GPT had this terrible habit of being incredibly long winded and in like a way that like no human would be when explaining something.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 288,
-          "t": [
-            1808.982,
-            1811.044
-          ],
-          "quote": "I'll give it to both Claude and GPT.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 299,
-          "t": [
-            1852.546,
-            1858.189
-          ],
-          "quote": "So if Claude is saying 6.5, Gemini is saying 9, and Chaduti is saying 8.59.",
+          "quote": "We've had this explosion new term, new media, which is kind of just replacing the creator economy.",
           "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
-      "id": "gpt",
-      "type": "concept",
-      "role": "concept",
-      "name": "GPT",
-      "file": "GPT",
-      "primary": false,
-      "how_described": "本集提到它常被用作日常写作和内容生成的辅助工具(例如嘉宾会把写作大纲同时喂给它和 Claude)。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 267,
-          "t": [
-            1674.001,
-            1691.707
-          ],
-          "quote": "But I think there are some people who, you know, I've even been surprised by it, find a lot of meaning and really resonate with certain things, certain AI outputs that people get by, you know, going back and forth with Claude or GPT or whatever model about a certain question and then publishing it.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 283,
-          "t": [
-            1768.552,
-            1788.545
-          ],
-          "quote": "I mean, I think the thing that I don't like to play the devil's advocate is, I don't know if they still do this, but for a while, both Claude and GPT had this terrible habit of being incredibly long winded and in like a way that like no human would be when explaining something.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 288,
-          "t": [
-            1808.982,
-            1811.044
-          ],
-          "quote": "I'll give it to both Claude and GPT.",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "gemini",
-      "type": "concept",
-      "role": "concept",
-      "name": "Gemini",
-      "file": "Gemini",
-      "primary": false,
-      "how_described": "本集提到它是被用来对简报内容进行质量打分评估的 AI 模型之一。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 299,
-          "t": [
-            1852.546,
-            1858.189
-          ],
-          "quote": "So if Claude is saying 6.5, Gemini is saying 9, and Chaduti is saying 8.59.",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
-      "id": "drama-box",
-      "type": "company",
-      "role": "company",
-      "name": "Drama Box",
-      "file": "Drama Box",
-      "primary": false,
-      "how_described": "本集把它说成是目前在美国 App Store 上增长最猛、变现能力极强的微剧应用之一。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 50,
-          "t": [
-            328.574,
-            335.216
-          ],
-          "quote": "They play both on places like TikTok, but also on apps like Real Short or Drama Box.",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "real-short",
-      "type": "company",
-      "role": "company",
-      "name": "Real Short",
-      "file": "Real Short",
-      "primary": false,
-      "how_described": "本集把它说成是目前在美国 App Store 上增长最猛、变现能力极强的微剧应用之一。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 50,
-          "t": [
-            328.574,
-            335.216
-          ],
-          "quote": "They play both on places like TikTok, but also on apps like Real Short or Drama Box.",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "anthropic",
-      "type": "company",
-      "role": "company",
-      "name": "Anthropic",
-      "file": "Anthropic",
-      "primary": false,
-      "how_described": "本集中作为热门 AI 微剧的故事背景出现(讲述其高管 Dario 的一段跨国爱情故事微剧),并被提及是模型赛道的主要玩家之一。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 66,
-          "t": [
-            420.591,
-            427.033
-          ],
-          "quote": "I don't know if you saw this one around Dario from Anthropic falls in love with this girl from China.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 120,
-          "t": [
-            737.14,
-            745.304
-          ],
-          "quote": "You had this AI microchip I mentioned around, Dario from Anthropic pulling it up with this, you know, girl from China.",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
-      "id": "openai",
-      "type": "company",
-      "role": "company",
-      "name": "OpenAI",
-      "file": "OpenAI",
-      "primary": false,
-      "how_described": "本集将其描述为在底层模型领域极具竞争壁垒、让新创业者极难硬刚的巨头公司。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 324,
-          "t": [
-            1988.595,
-            2003.468
-          ],
-          "quote": "It's helpful for me to use both all of the early stage products, but then also know sort of what the incumbents, which at this point are like the OpenAI and the Anthropix and the Googles are doing and releasing so I can know how the product experiences actually compare.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 329,
-          "t": [
-            2030.319,
-            2047.867
-          ],
-          "quote": "So I think to me, the hardest thing right now has been figuring out who you want to serve and how you're going to be differentiated, largely because it's gotten pretty expensive to train foundation models that compete with folks like OpenAI and...",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "eleven-labs",
-      "type": "company",
-      "role": "company",
-      "name": "Eleven Labs",
-      "file": "Eleven Labs",
-      "primary": true,
-      "how_described": "本集特别点名敬佩的公司:嘉宾赞赏其研究、产品和推向市场的三线并进能力,从早期为冷门有声书配音,到如今拓展到企业级语音智能体,据报道年经常性收入已跨过 5 亿美元。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 441,
-          "t": [
-            2794.672,
-            2802.055
-          ],
-          "quote": "I think the Eleven Labs founders, I will give a shout out to just because we did the Series A and a bunch around since.",
-          "speaker": "SPEAKER_00"
         }
       ]
     },
@@ -614,11 +250,11 @@
       "name": "Town",
       "file": "Town",
       "primary": true,
-      "how_described": "本集把它说成是一款接通邮件与日历的消费级智能体产品:它能主动观察用户习惯并请缨代办重复性行政工作(如自动处理收据、安排会议等)。",
+      "how_described": "本集把它说成：连接用户邮箱和日历的智能体产品，能主动学习用户习惯并提出自动执行任务的建议（如自动处理介绍信和收据）",
       "source": "glm",
       "evidence": [
         {
-          "seg": 378,
+          "seg": 379,
           "t": [
             2403.786,
             2405.568
@@ -627,7 +263,7 @@
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 383,
+          "seg": 384,
           "t": [
             2427.465,
             2434.69
@@ -636,7 +272,7 @@
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 385,
+          "seg": 386,
           "t": [
             2441.415,
             2453.844
@@ -645,7 +281,7 @@
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 403,
+          "seg": 404,
           "t": [
             2554.432,
             2556.593
@@ -662,7 +298,7 @@
       "name": "A16Z",
       "file": "A16Z",
       "primary": false,
-      "how_described": "本期访谈节目由 A16Z 出品,嘉宾 Justine Moore 是该机构专注于追踪生成式媒体的投资人。",
+      "how_described": "本集提到：嘉宾 Justine Moore 所在的风险投资机构，也是本期播客的主办方（参与了 Town 和 ElevenLabs 等公司的投资）",
       "source": "glm",
       "evidence": [
         {
@@ -675,187 +311,43 @@
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 478,
+          "seg": 477,
           "t": [
             2998.64,
             3001.481
           ],
-          "quote": "Thanks for listening to this episode of the A16Z Podcast.",
+          "quote": "Thanks for listening to this episode of the A16Z podcast.",
           "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 481,
-          "t": [
-            3013.425,
-            3019.107
-          ],
-          "quote": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 484,
-          "t": [
-            3030.02,
-            3037.564
-          ],
-          "quote": "This podcast has been produced by a third party and may include paid promotional advertisements, other company references, and individuals unaffiliated with A16Z.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 485,
-          "t": [
-            3037.944,
-            3044.988
-          ],
-          "quote": "Such advertisements, companies, and individuals are not endorsed by AH Capital Management LLC, A16Z, or any of its affiliates.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 486,
-          "t": [
-            3045.449,
-            3051.152
-          ],
-          "quote": "Information is from sources deemed reliable on the date of publication, but A16Z does not guarantee its accuracy.",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "substack",
-      "type": "company",
-      "role": "company",
-      "name": "Substack",
-      "file": "Substack",
-      "primary": false,
-      "how_described": "本集将其作为讨论内容创作与 AI 参与度的重要平台背景(有数据显示顶级简报中高达 80% 的内容为 AI 生成),同时也是 A16Z 播客官方发布渠道之一。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 241,
-          "t": [
-            1484.383,
-            1493.326
-          ],
-          "quote": "And perhaps for a lot of these social platforms, the likes of Substack, maybe it's the larger platforms, maybe some new ones which come into play.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 481,
-          "t": [
-            3013.425,
-            3019.107
-          ],
-          "quote": "Follow us on X at A16Z and subscribe to our Substack at a16z.substack.com.",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "steam",
-      "type": "company",
-      "role": "company",
-      "name": "Steam",
-      "file": "Steam",
-      "primary": false,
-      "how_described": "本集以它作为游戏平台的典型案例:曾要求开发者给 AI 制作的游戏打标签,结果引发了「仅用 AI 补全代码算不算 AI 游戏」的界限争论。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 244,
-          "t": [
-            1512.826,
-            1524.271
-          ],
-          "quote": "Like I remember when people asked this question, I saw a Reddit post like a year and a half ago where like Steam or one of the game marketplaces was requiring...",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 248,
-          "t": [
-            1541.325,
-            1547.171
-          ],
-          "quote": "And I think Steam's intention was like, oh, if it's AI generated assets or images or music or whatever.",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "tiktok",
-      "type": "company",
-      "role": "company",
-      "name": "TikTok",
-      "file": "TikTok",
-      "primary": false,
-      "how_described": "本集将其作为传播微剧及短视频内容的重要平台被提及。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 50,
-          "t": [
-            328.574,
-            335.216
-          ],
-          "quote": "They play both on places like TikTok, but also on apps like Real Short or Drama Box.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 400,
-          "t": [
-            2530.017,
-            2539.743
-          ],
-          "quote": "I think you can see early signs though, just like, you know, you can see early signs of like an indie songwriter, you know, rising up in TikTok and then eventually they become a big star.",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "youtube",
-      "type": "company",
-      "role": "company",
-      "name": "YouTube",
-      "file": "YouTube",
-      "primary": false,
-      "how_described": "本集提到它是 AI 原生工作室和个人创作者发布内容、增加受众并变现的主要视频平台。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 124,
-          "t": [
-            754.301,
-            770.495
-          ],
-          "quote": "I mean, on, you know, X, on Instagram, on YouTube, you see a lot of folks who have either started kind of full new AI native studios or who are just individuals, you know, running a brand and scaling their own content, creating narrative stories.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 224,
-          "t": [
-            1362.978,
-            1374.987
-          ],
-          "quote": "Like, I think you could argue that a ton of the, like, clickbait YouTube, like, insane slime challenge, whatever, shorts that people were posting far before AI are, like, human swap.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 233,
-          "t": [
-            1428.975,
-            1431.176
-          ],
-          "quote": "You see this with traditional YouTube creators.",
-          "speaker": "SPEAKER_00"
         },
         {
           "seg": 480,
           "t": [
-            3009.284,
-            3012.845
+            3013.425,
+            3019.107
           ],
-          "quote": "For more episodes, go to YouTube, Apple Podcasts, and Spotify.",
+          "quote": "Follow us on X and A16Z and subscribe to our Substack at a16z.substack.com.",
           "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "stable-diffusion",
+      "type": "company",
+      "role": "company",
+      "name": "Stable Diffusion",
+      "file": "Stable Diffusion",
+      "primary": false,
+      "how_described": "本集提到：ChatGPT 发布前几个月出来的图像 AI 模型，当时引发了第一波 AI 头像生成等小工具",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 30,
+          "t": [
+            175.908,
+            188.272
+          ],
+          "quote": "Yeah, I would say I've been following the generative media space for a couple of years, actually really got into it a couple of months before ChatGPT came out when the first stable diffusion models came out.",
+          "speaker": "SPEAKER_00"
         }
       ]
     },
@@ -866,7 +358,7 @@
       "name": "Netflix",
       "file": "Netflix",
       "primary": false,
-      "how_described": "本集指出它已经宣布了完全由 AI 生成的动画项目,大制片厂正在探索此类生成式内容。",
+      "how_described": "本集提到：宣布了完全由 AI 生成动画项目的大型工作室之一，但它不会被 AI 微剧直接取代",
       "source": "glm",
       "evidence": [
         {
@@ -905,7 +397,7 @@
       "name": "Amazon",
       "file": "Amazon",
       "primary": false,
-      "how_described": "本集提到该公司的影业部分已经宣布了完全由 AI 生成的动画项目。",
+      "how_described": "本集提到：宣布了完全由 AI 生成动画项目的大型工作室之一",
       "source": "glm",
       "evidence": [
         {
@@ -929,17 +421,86 @@
       ]
     },
     {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到：生成式媒体领域的现有巨头，现在从头训练基础模型去和它竞争已经变得极其昂贵",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 324,
+          "t": [
+            1988.595,
+            2003.468
+          ],
+          "quote": "It's helpful for me to use both all of the early stage products, but then also know sort of what the incumbents, which at this point are like the OpenAI and the Anthropix and the Googles are doing and releasing so I can know how the product experiences actually compare.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 329,
+          "t": [
+            2030.319,
+            2047.867
+          ],
+          "quote": "So I think to me, the hardest thing right now has been figuring out who you want to serve and how you're going to be differentiated, largely because it's gotten pretty expensive to train foundation models that compete with folks like OpenAI and...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到：作为现有巨头之一被提及（嘉宾还聊到了一部关于 Anthropic CEO Dario 的 AI 微剧）",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            420.591,
+            427.033
+          ],
+          "quote": "I don't know if you saw this one around Dario from Anthropic falls in love with this girl from China.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 121,
+          "t": [
+            737.14,
+            745.304
+          ],
+          "quote": "You had this AI microchip I mentioned around, Dario from Anthropic pulling it up with this, you know, girl from China.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 330,
+          "t": [
+            2048.647,
+            2052.45
+          ],
+          "quote": "And Google, not as much Anthropic because they do sort of less on the media side.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
       "id": "google",
       "type": "company",
       "role": "company",
       "name": "Google",
       "file": "Google",
       "primary": false,
-      "how_described": "本集将其作为训练底层模型、与 OpenAI 竞争的大型科技公司之一被提及。",
+      "how_described": "本集提到：大型科技公司及模型竞争者，嘉宾举例 Google 发布 VO3 Fast 来降低模型成本",
       "source": "glm",
       "evidence": [
         {
-          "seg": 201,
+          "seg": 202,
           "t": [
             1221.107,
             1224.008
@@ -953,53 +514,24 @@
             2048.647,
             2052.45
           ],
-          "quote": "And Google, not as much Anthropix, they do sort of less on the media side.",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "poke",
-      "type": "company",
-      "role": "company",
-      "name": "Poke",
-      "file": "Poke",
-      "primary": false,
-      "how_described": "本集把它说成是一款试图将 AI 助手融入家庭管理的智能体产品(用户可通过发短信与其互动)。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 408,
-          "t": [
-            2586.648,
-            2598.799
-          ],
-          "quote": "You know, you get some important email you missed and you can text your AI assistant or it can text you with products like Poke or Ollie, which is doing this for more kind of family and household management.",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "ollie",
-      "type": "company",
-      "role": "company",
-      "name": "Ollie",
-      "file": "Ollie",
-      "primary": false,
-      "how_described": "本集把它说成是一款专注于家庭与家务管理的消费级智能体助手产品。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 408,
-          "t": [
-            2586.648,
-            2598.799
-          ],
-          "quote": "You know, you get some important email you missed and you can text your AI assistant or it can text you with products like Poke or Ollie, which is doing this for more kind of family and household management.",
+          "quote": "And Google, not as much Anthropic because they do sort of less on the media side.",
           "speaker": "SPEAKER_00"
         }
       ]
     }
   ],
-  "rejected": []
+  "rejected": [
+    {
+      "name": "ElevenLabs",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "ReelShort",
+      "reason": "专名「ReelShort」未在真相源出现,且不在别名表(疑编造)"
+    },
+    {
+      "name": "DramaBox",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
 }

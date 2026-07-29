@@ -3,7 +3,7 @@
   "audio_mp3": "https://pscrb.fm/rss/p/traffic.megaphone.fm/CPUAI4789823358.mp3",
   "duration_sec": 2919.98,
   "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
-  "transcript_segments": 493,
+  "transcript_segments": 506,
   "asr": true,
   "title_en": "Building the Automated AGI Lab: Core Automation's Jerry Tworek and Rohan Anil",
   "podcast": "Training Data",
@@ -22,7 +22,7 @@
   "cohosts": [
     "Jerry Tworek"
   ],
-  "title_zh": "硅谷新贵 Core Automation:我们为什么必须要取代 Transformer",
+  "title_zh": "Transformer 见顶了吗？OpenAI 与 Google 前核心创立 Core Automation 寻找下一代架构",
   "guest_name": "Jerry Tworek",
   "guest_title": "Core Automation 创始人",
   "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=spliced"

@@ -3,15 +3,15 @@
   "podcast": "Training Data",
   "date": "2026-07-29",
   "tags": [
-    "Transformer 替代架构",
-    "计算深度",
-    "预训练与强化学习",
-    "内核生成",
-    "自动化实验室"
+    "AI 架构",
+    "Transformer 替代品",
+    "强化学习",
+    "自动化实验室",
+    "底层算子优化"
   ],
   "categories": [
-    "智能体",
-    "创业与行业"
+    "创业与行业",
+    "智能体"
   ],
   "entities": [
     {
@@ -55,13 +55,304 @@
       "evidence": []
     },
     {
+      "id": "core-automation",
+      "type": "company",
+      "role": "company",
+      "name": "Core Automation",
+      "file": "Core Automation",
+      "primary": true,
+      "how_described": "本集说它是旧金山目前最热门的新实验室之一，由前 OpenAI 和 Gemini 核心成员创立，使命是打造全世界最自动化的实验室，以探索能够持续学习、替代 Transformer 的新架构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            63.11,
+            68.134
+          ],
+          "quote": "The two of you are the founders of Core Automation, one of the hottest neolabs in San Francisco right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 10,
+          "t": [
+            68.735,
+            74.5
+          ],
+          "quote": "And before starting Core Automation, you led some of the most important research projects of the AI era.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            266.611,
+            273.639
+          ],
+          "quote": "Why is core automation is name and its concept is we want to be automating tasks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 356,
+          "t": [
+            2064.427,
+            2072.151
+          ],
+          "quote": "So it seems like one of the core premises for core automation is, you know, you're starting at the lab at a time when, I know Sam's been talking about the AI scientists.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 366,
+          "t": [
+            2103.039,
+            2114.026
+          ],
+          "quote": "To start with, I think the version of automation by Core Automation is about giving each human maximum level of agency in some way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2713.811,
+            2720.677
+          ],
+          "quote": "Core automation is a lab created to build models that continuously learn from deployment.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2872.885,
+            2877.706
+          ],
+          "quote": "They get better at doing the work of core automation scientists each day.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集说它作为当前最大、最成功的头部实验室之一，正陷入激烈的市场竞争中，如果现有的 Transformer 架构依然能赚钱，就很难投入巨大精力去探索一两年后才能见效的替代架构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            75.08,
+            76.842
+          ],
+          "quote": "Jerry, you were VP at OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            332.866,
+            345.552
+          ],
+          "quote": "Whenever we were starting the research and progress on scaling up reinforcement learning at OpenAI, I basically believed that scaling up reinforcement learning is a necessary stepping stone on a path to AGI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 61,
+          "t": [
+            346.572,
+            352.793
+          ],
+          "quote": "since I started working at OpenAI and I was always reinforcement learning maximalist.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 106,
+          "t": [
+            568.183,
+            584.876
+          ],
+          "quote": "Because my understanding from the chief seats is that, you know, OpenAI had been trying to scale up reinforcement learning for a long time, and it wasn't until the Transformer came about that it seemed like there was an even kind of scalable prior on the world upon which to even scale RL.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            671.333,
+            680.035
+          ],
+          "quote": "I think a lot of reasons why people didn't scale things before was because researchers before OpenAI had a lot of reluctance to scaling.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 119,
+          "t": [
+            690.698,
+            698.439
+          ],
+          "quote": "And it was a bit of a contrarian bet by OpenAI at that moment to try to say, hey, we don't care about better and better algorithms.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1290.907,
+            1300.476
+          ],
+          "quote": "The question worth asking often and thinking about Transformer, what would happen if OpenAI and Anthropic stopped training new models and we got the Transformer we have today and say, this is it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 370,
+          "t": [
+            2152.002,
+            2161.91
+          ],
+          "quote": "In some way, it is what I've been working for many years, both doing coding research and working on various versions of AI scientists inside of OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 385,
+          "t": [
+            2281.796,
+            2291.605
+          ],
+          "quote": "OpenAI says the system that can outperform all humans in economically valuable work, but it goes to my previous statement, what if OpenAI stops training models?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集提到 Rohan 曾在此及旗下的 Google Brain、Gemini 从事过大量基础 AI 研究与预训练；并讨论了内部面对优化和算力花费时的思维方式与组织决策。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            83.406,
+            94.794
+          ],
+          "quote": "And Rohan, you were one of two of the four pre-training leads at Gemini, and before that led a lot of the fundamental AI research at Google Brain and were the fix-it guy across Google in the anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            906.588,
+            912.813
+          ],
+          "quote": "I mean, internally at Google, there was definitely like Gnome and a few others were definitely interested in scaling language models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1046.253,
+            1048.214
+          ],
+          "quote": "Absolutely did not have that belief at Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1119.113,
+            1122.456
+          ],
+          "quote": "I come from the Google mindset where we had to like serve billions of people.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1690.487,
+            1705.77
+          ],
+          "quote": "In terms of optimization, my story is I started optimization at Google for logistic regression back in 2016, got nerd sniped by it, worked on some solvers for what we used to call Sybil, which was the large-scale linear solver.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1706.37,
+            1711.313
+          ],
+          "quote": "that was used at Google before neural network took off and then replaced this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2546.618,
+            2551.42
+          ],
+          "quote": "If you were at a place like Google, you cannot spend 10x amount of compute and get a 2x win.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2572.432,
+            2581.174
+          ],
+          "quote": "There's only like two humans at Google who could write it, Rasmus and Peter Hawkins, because it was deep XLA LLO code that you have to write to make this work.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集在讨论 Transformer 是否见顶时提到，假设像 OpenAI 和 Anthropic 这样的大厂今天停止训练新模型，现有的静态模型随着现实世界新事件的出现，会变得越来越没用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            83.406,
+            94.794
+          ],
+          "quote": "And Rohan, you were one of two of the four pre-training leads at Gemini, and before that led a lot of the fundamental AI research at Google Brain and were the fix-it guy across Google in the anthropic.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1290.907,
+            1300.476
+          ],
+          "quote": "The question worth asking often and thinking about Transformer, what would happen if OpenAI and Anthropic stopped training new models and we got the Transformer we have today and say, this is it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2625.267,
+            2627.689
+          ],
+          "quote": "I also was using TPUs at Anthropic.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
       "id": "transformer",
       "type": "concept",
       "role": "concept",
       "name": "Transformer",
       "file": "Transformer",
       "primary": true,
-      "how_described": "本集核心被批判的对象：嘉宾认为它的架构已见顶，原因是缺乏持续学习能力（停止训练即过时），且计算深度太差（只能靠思维链一次吐一个 token 打补丁，在推理阶段效率极低）。",
+      "how_described": "本集说它的天花板（见顶）在于无法持续学习：在实验室用静态数据训练，一旦部署到动态现实世界很快就会贬值；同时其计算深度极差，采用一次生成一个 token 的方式极其低效。",
       "source": "glm",
       "evidence": [
         {
@@ -101,7 +392,7 @@
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 109,
+          "seg": 105,
           "t": [
             564.88,
             567.963
@@ -110,7 +401,7 @@
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 110,
+          "seg": 106,
           "t": [
             568.183,
             584.876
@@ -119,7 +410,7 @@
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 117,
+          "seg": 113,
           "t": [
             644.045,
             650.15
@@ -128,7 +419,7 @@
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 139,
+          "seg": 136,
           "t": [
             808.78,
             827
@@ -137,7 +428,7 @@
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 140,
+          "seg": 137,
           "t": [
             827.52,
             837.347
@@ -146,7 +437,7 @@
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 147,
+          "seg": 144,
           "t": [
             864.702,
             867.485
@@ -155,7 +446,7 @@
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 148,
+          "seg": 145,
           "t": [
             867.545,
             870.348
@@ -164,7 +455,7 @@
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 160,
+          "seg": 157,
           "t": [
             923.103,
             926.586
@@ -173,7 +464,7 @@
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 165,
+          "seg": 162,
           "t": [
             949.434,
             959.3
@@ -182,16 +473,16 @@
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 172,
+          "seg": 169,
           "t": [
             981.534,
-            987.679
+            985.978
           ],
-          "quote": "There is problems with the transformer in terms of how do we spend the computation for the longest time.",
+          "quote": "There is problems with the transformer in terms of how do we spend the computation.",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 175,
+          "seg": 173,
           "t": [
             1007.877,
             1022.816
@@ -200,7 +491,7 @@
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 188,
+          "seg": 190,
           "t": [
             1091.675,
             1106.403
@@ -209,7 +500,7 @@
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 217,
+          "seg": 219,
           "t": [
             1232.696,
             1235.137
@@ -218,7 +509,7 @@
           "speaker": "SPEAKER_03"
         },
         {
-          "seg": 222,
+          "seg": 224,
           "t": [
             1255.864,
             1261.751
@@ -227,7 +518,7 @@
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 223,
+          "seg": 225,
           "t": [
             1262.291,
             1274.477
@@ -236,16 +527,16 @@
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 227,
+          "seg": 229,
           "t": [
             1290.907,
             1300.476
           ],
-          "quote": "The question worth asking often, I'm thinking about Transformer, what would happen if OpenA and Anthropic stopped training new models and we got the Transformer we have today and say, this is it.",
+          "quote": "The question worth asking often and thinking about Transformer, what would happen if OpenAI and Anthropic stopped training new models and we got the Transformer we have today and say, this is it.",
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 237,
+          "seg": 239,
           "t": [
             1365.486,
             1374.933
@@ -254,7 +545,7 @@
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 427,
+          "seg": 438,
           "t": [
             2584.515,
             2592.557
@@ -263,7 +554,7 @@
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 464,
+          "seg": 473,
           "t": [
             2733.227,
             2739.508
@@ -280,7 +571,7 @@
       "name": "强化学习 (reinforcement learning)",
       "file": "强化学习",
       "primary": true,
-      "how_described": "本集将强化学习描述为一种掌握得很好的算法，但指出它与预训练是完全不同的优化问题（方差更高、需做推演），两者端到端结合是实现算力效率数量级提升的关键；同时强调强化学习并非「从经验中学习」的唯一途径。",
+      "how_described": "本集说它并不是从经验中学习的终点；人类大脑学习方式更多元，未来一定会有比 RL 更高效的新算法，且将其与预训练结合进行端到端优化是提升算力效率的关键。",
       "source": "glm",
       "evidence": [
         {
@@ -329,7 +620,7 @@
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 110,
+          "seg": 106,
           "t": [
             568.183,
             584.876
@@ -338,7 +629,7 @@
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 130,
+          "seg": 127,
           "t": [
             743.98,
             753.528
@@ -347,7 +638,7 @@
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 131,
+          "seg": 128,
           "t": [
             753.828,
             758.85
@@ -356,7 +647,7 @@
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 245,
+          "seg": 247,
           "t": [
             1412.565,
             1419.327
@@ -365,7 +656,7 @@
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 249,
+          "seg": 252,
           "t": [
             1457.286,
             1462.51
@@ -374,7 +665,7 @@
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 250,
+          "seg": 253,
           "t": [
             1462.87,
             1471.575
@@ -383,16 +674,16 @@
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 253,
+          "seg": 256,
           "t": [
             1480.507,
             1488.058
           ],
-          "quote": "And what I think is interesting and what I think is still perplexing to people that reinforcement learning is not really the only way to...",
+          "quote": "And what I think is interesting and what I think is still perplexing to people, that reinforcement learning is not really the only way to...",
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 254,
+          "seg": 257,
           "t": [
             1488.478,
             1516.534
@@ -401,16 +692,16 @@
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 257,
+          "seg": 264,
           "t": [
             1543.269,
             1548.592
           ],
-          "quote": "But if I play football, for example, it looks very, very closely to reinforcement learning.",
+          "quote": "But if I play football, for example, it looks very, very close to reinforcement learning.",
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 265,
+          "seg": 272,
           "t": [
             1582.043,
             1589.224
@@ -427,7 +718,7 @@
       "name": "预训练 (pre-training)",
       "file": "预训练",
       "primary": true,
-      "how_described": "被描述为大规模压缩互联网数据的过程（行为克隆），它能将全人类知识蒸馏进模型，但无法捕捉现实世界不断变化的分布；它必须与强化学习结合做端到端的统一优化，才能提升算力效率。",
+      "how_described": "本集说它本质上是对互联网静态数据的行为克隆和压缩，新架构必须把它和强化学习结合起来进行端到端优化，才能带来算力效率数量级的提升。",
       "source": "glm",
       "evidence": [
         {
@@ -436,7 +727,7 @@
             83.406,
             94.794
           ],
-          "quote": "And Rohan, you were one of two of the four pre-training leads at Gemini, and before that led a lot of the fundamental AI research at Google Brain and were the fix-it guy across Google and then at Anthropic.",
+          "quote": "And Rohan, you were one of two of the four pre-training leads at Gemini, and before that led a lot of the fundamental AI research at Google Brain and were the fix-it guy across Google in the anthropic.",
           "speaker": "SPEAKER_00"
         },
         {
@@ -449,7 +740,7 @@
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 163,
+          "seg": 160,
           "t": [
             935.029,
             939.79
@@ -458,7 +749,7 @@
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 165,
+          "seg": 162,
           "t": [
             949.434,
             959.3
@@ -467,7 +758,7 @@
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 182,
+          "seg": 180,
           "t": [
             1048.274,
             1051.136
@@ -476,7 +767,7 @@
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 221,
+          "seg": 223,
           "t": [
             1248.956,
             1255.283
@@ -485,25 +776,25 @@
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 246,
+          "seg": 248,
           "t": [
             1419.407,
-            1436.552
+            1436.532
           ],
-          "quote": "So in some way, age of experience, I think always has been there and people have been criticizing a bit pre-training because pre-training very clearly is the other way of looking at the models, which is like we have static data, that data is mostly...",
+          "quote": "So in some way, age of experience, I think always has been there and people have been criticizing a bit pre-training because pre-training very clearly is the other way of looking at the models, which is like we have static data, that data is mostly static.",
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 247,
+          "seg": 250,
           "t": [
-            1436.932,
+            1437.993,
             1448.62
           ],
-          "quote": "generated by others, although I have this personal view that pre-training today is largely distilling other models, older models into the new model, because most of the tokens in the internet are coming from AI.",
+          "quote": "Although I have this personal view that pre-training today is largely distilling other models, older models into the new model, because most of the tokens in the internet are coming from AI.",
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 248,
+          "seg": 251,
           "t": [
             1448.9,
             1456.926
@@ -512,7 +803,7 @@
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 270,
+          "seg": 277,
           "t": [
             1616.851,
             1620.777
@@ -521,7 +812,7 @@
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 276,
+          "seg": 283,
           "t": [
             1678.32,
             1680.962
@@ -530,7 +821,7 @@
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 334,
+          "seg": 343,
           "t": [
             1977.932,
             1987.218
@@ -539,7 +830,7 @@
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 339,
+          "seg": 348,
           "t": [
             2007.372,
             2017.76
@@ -550,82 +841,13 @@
       ]
     },
     {
-      "id": "computational-depth",
-      "type": "concept",
-      "role": "concept",
-      "name": "计算深度 (computational depth)",
-      "file": "计算深度",
-      "primary": true,
-      "how_described": "本集给出的 Transformer 核心病灶：模型本质很「浅」（最多约一百层），只能靠增加思维链序列长度（一次生成一个 token）来强行增加计算深度，导致推理效率极低。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 175,
-          "t": [
-            1007.877,
-            1022.816
-          ],
-          "quote": "so then you can ask like what's wrong with the transformer well it's if the computational depth is poor you how do we increase computational depth and just posting that question opens up like 20 new directions on how we can modify the mechanism to incorporate it",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 199,
-          "t": [
-            1152.2,
-            1156.887
-          ],
-          "quote": "One of the things I heard you say was the problem with transformers is the computational depth is poor.",
-          "speaker": "SPEAKER_03"
-        },
-        {
-          "seg": 207,
-          "t": [
-            1186.12,
-            1195.122
-          ],
-          "quote": "Chain of thought reasoning and RL to do chain of thought by model itself is one way to increase computational depth because every token you add, you add like one more pathway.",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "coding-agent",
-      "type": "concept",
-      "role": "concept",
-      "name": "编码智能体 (coding agent)",
-      "file": "编码智能体",
-      "primary": true,
-      "how_described": "本集提到当前所有实验室都在扎堆做同样的编码智能体，而嘉宾认为人机混合协同的编码智能体当下极其成功，能极大加快研究员的迭代速度；但它们目前仍需人类参与，无法独立自主完成工作。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 142,
-          "t": [
-            844.593,
-            846.974
-          ],
-          "quote": "And everyone is trying the same coding agent.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 144,
-          "t": [
-            848.515,
-            853.259
-          ],
-          "quote": "last week's releases, everyone is trying to release a coding agent right now.",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
       "id": "test-time",
       "type": "concept",
       "role": "concept",
       "name": "测试时学习 (test time)",
       "file": "测试时学习",
       "primary": true,
-      "how_described": "嘉宾认为取代 Transformer 的核心目标，是让模型能在部署阶段（测试时）直接基于用户的真实分布进行持续学习与深层适应，而不是等实验室重新训练。",
+      "how_described": "本集说需要能够在模型部署后、与用户交互的过程中持续学习，而不是必须打回实验室重新训练；现有的 Transformer 无法在测试时进行持续学习是根本瓶颈。",
       "source": "glm",
       "evidence": [
         {
@@ -647,7 +869,7 @@
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 387,
+          "seg": 398,
           "t": [
             2357.84,
             2371.852
@@ -656,156 +878,90 @@
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 481,
+          "seg": 491,
           "t": [
             2852.241,
-            2877.626
+            2858.482
           ],
-          "quote": "so i think what we are what we are looking for is systems that learn at test time and if we see meaningful long-term adaptability of our systems and like we are we're joking but it's it's a it's a real we want to be evaluating our systems of our everyday work they get better at doing the work of core automation scientists each day",
+          "quote": "So I think what we are looking for is systems that learn at test time.",
           "speaker": "SPEAKER_02"
         }
       ]
     },
     {
-      "id": "chain-of-thought",
+      "id": "kernel",
       "type": "concept",
       "role": "concept",
-      "name": "思维链 (chain of thought)",
-      "file": "思维链",
-      "primary": false,
-      "how_described": "被描述为一种为了弥补架构计算深度不足而采取的「打补丁」变通做法，让模型自己生成长推论来增加计算路径，但这在推理阶段非常低效。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 164,
-          "t": [
-            940.211,
-            947.053
-          ],
-          "quote": "And I would like to find architectures that spend computation much better than current chain of thought token generation.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 207,
-          "t": [
-            1186.12,
-            1195.122
-          ],
-          "quote": "Chain of thought reasoning and RL to do chain of thought by model itself is one way to increase computational depth because every token you add, you add like one more pathway.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 317,
-          "t": [
-            1897.188,
-            1905.913
-          ],
-          "quote": "Because you don't get much feedback and you're spending a lot more compute because you have to decode all this long chain of thought to get this one bit of information into the network.",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "speculative-decoding",
-      "type": "concept",
-      "role": "concept",
-      "name": "投机解码 (speculative decoding)",
-      "file": "投机解码",
-      "primary": false,
-      "how_described": "被描述为行业应对「模型一次只能吐一个 token」导致推理低效的治标不治本的「创可贴」方案（让小模型先猜、大模型来验）。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 169,
-          "t": [
-            968.685,
-            973.929
-          ],
-          "quote": "So most of the solutions have been finding to do better ways of speculative decoding.",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "kernels",
-      "type": "concept",
-      "role": "concept",
-      "name": "内核 (kernels)",
-      "file": "内核",
+      "name": "算子 (kernel)",
+      "file": "算子",
       "primary": true,
-      "how_described": "指让算法在底层硬件（如 B200 节点）上高效运行的代码；本集强调它是新架构探索路上的一大拦路虎，自动化内核生成是 Core Automation 重建深度学习堆栈的核心任务。",
+      "how_described": "本集指出底层算子的编写是实现极致算力效率的巨大瓶颈，全球懂行的人凤毛麟角；训练出能自动写出极速算子的模型，是寻找新架构能力的核心验证内循环。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 185,
+          "seg": 405,
           "t": [
-            1052.517,
-            1072.889
+            2398.576,
+            2408.764
           ],
-          "quote": "right and then so that inner belief and second is you need your architecture to run efficiently on hardware a theoretically optimal architecture is not useful to anyone it is something when it comes into practice so you need the research inception to getting it productionized and getting kernels and everything written the end-to-end loop",
+          "quote": "So then that's directly like we can do many things now, but the thing that is going to be difficult and we want to automate away is kernel generation.",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 414,
+          "seg": 409,
           "t": [
-            2527.088,
-            2527.808
+            2437.158,
+            2445.249
           ],
-          "quote": "Why kernels?",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 419,
-          "t": [
-            2543.936,
-            2546.137
-          ],
-          "quote": "Kernels was a bottleneck because you have to run it well.",
+          "quote": "But like an example of this is our QR kernel competition that we hosted with GPU mode.",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 424,
+          "seg": 416,
           "t": [
-            2563.347,
-            2571.992
+            2485.288,
+            2489.291
           ],
-          "quote": "So kernels ended up being a bottleneck there because most of the operations were novel that we haven't gotten a lot of people to look at it.",
+          "quote": "So these models today are nowhere close to getting that 60x faster kernel.",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 445,
-          "t": [
-            2654.522,
-            2658.043
-          ],
-          "quote": "So much of the state space to explore isn't even possible if you're not writing kernels.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 446,
+          "seg": 456,
           "t": [
             2658.143,
-            2658.483
-          ],
-          "quote": "Kernels.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 447,
-          "t": [
-            2658.583,
             2665.066
           ],
-          "quote": "And you need to be assisted in writing kernels or solve that kernel to have the highest performance.",
+          "quote": "Kernels, and you need to be assisted in writing kernels or solve that kernel to have the highest performance.",
           "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "continual-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "持续学习 (continual learning)",
+      "file": "持续学习",
+      "primary": true,
+      "how_described": "本集说 Transformer 完全无法进行持续学习，无法跟随现实世界的动态变化吸收新经验，这正是促使寻找新替代架构的核心动因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 470,
+          "t": [
+            2721.118,
+            2727.303
+          ],
+          "quote": "We believe, as I mentioned, that transformers are incapable of continual learning.",
+          "speaker": "SPEAKER_02"
         },
         {
-          "seg": 467,
+          "seg": 471,
           "t": [
-            2760.873,
-            2770.557
+            2727.323,
+            2730.186
           ],
-          "quote": "That's what we want to do and all the work we are doing on kernels, on large-scale training, on trying new architectural ideas is exploring that space.",
+          "quote": "There's no way how to put continual learning on transformers.",
           "speaker": "SPEAKER_02"
         }
       ]
@@ -816,8 +972,8 @@
       "role": "concept",
       "name": "AGI",
       "file": "AGI",
-      "primary": false,
-      "how_described": "嘉宾给出了自己独家的 AGI 检验标准：不是在经济工作上超越人类，而是能够在没有任何人类参与循环的情况下自我改进、自我变强的模型。",
+      "primary": true,
+      "how_described": "本集将其重新定义为：一个能够在没有任何人类参与循环的情况下，完全靠自己与现实世界交互来不断自我改进和学习的模型。",
       "source": "glm",
       "evidence": [
         {
@@ -839,7 +995,7 @@
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 375,
+          "seg": 383,
           "t": [
             2274.031,
             2276.092
@@ -848,7 +1004,7 @@
           "speaker": "SPEAKER_03"
         },
         {
-          "seg": 376,
+          "seg": 384,
           "t": [
             2277.152,
             2281.736
@@ -857,342 +1013,171 @@
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 380,
+          "seg": 388,
           "t": [
-            2300.853,
-            2322.75
+            2301.273,
+            2309.84
           ],
-          "quote": "um for me agi is a model that can improve itself without human uh in the loop in any in any way that's that that's i think i think the moment where we can meaningfully talk about about agi because that is in some way it is a sub definition of the previous one because improving ai more actually a job that humans can do it is economically valuable work",
+          "quote": "For me, AGI is a model that can improve itself without human in the loop in any way.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 389,
+          "t": [
+            2309.86,
+            2321.209
+          ],
+          "quote": "That's I think the moment where we can meaningfully talk about AGI because that is in some way, it is a sub-definition of the previous one because improving AI model is actually a job that humans can do.",
           "speaker": "SPEAKER_02"
         }
       ]
     },
     {
-      "id": "core-automation",
-      "type": "company",
-      "role": "company",
-      "name": "Core Automation",
-      "file": "Core Automation",
+      "id": "computational-depth",
+      "type": "concept",
+      "role": "concept",
+      "name": "计算深度 (computational depth)",
+      "file": "计算深度",
       "primary": true,
-      "how_described": "本集嘉宾在旧金山创立的新实验室，核心路线是构建「最自动化实验室」，通过重建完整的深度学习堆栈、自动化内核生成，将预训练与强化学习端到端结合，以此探索并取代 Transformer 架构。",
+      "how_described": "本集说当前 Transformer 最大的软肋在于计算深度极差，网络非常浅（最多一百层），只能靠增加生成 token 的序列长度（思维链）来弥补，这极其低效。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 9,
+          "seg": 173,
           "t": [
-            63.11,
-            68.134
+            1007.877,
+            1022.816
           ],
-          "quote": "The two of you are the founders of Core Automation, one of the hottest neolabs in San Francisco right now.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 10,
-          "t": [
-            68.735,
-            74.5
-          ],
-          "quote": "And before starting Core Automation, you led some of the most important research projects of the AI era.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 45,
-          "t": [
-            266.611,
-            273.639
-          ],
-          "quote": "Why is core automation is name and its concept is we want to be automating tasks.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 128,
-          "t": [
-            717.404,
-            728.727
-          ],
-          "quote": "And part of the core automation's mission and our belief is that a lot of architectural research happened at too small scale for too long time.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 347,
-          "t": [
-            2064.427,
-            2072.151
-          ],
-          "quote": "So it seems like one of the core premises for core automation is, you know, you're starting at the lab at a time when, I know Sam's been talking about the AI scientists.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 357,
-          "t": [
-            2103.039,
-            2114.026
-          ],
-          "quote": "To start with, I think the version of automation by Core Automation is about giving each human maximum level of agency in some way.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 460,
-          "t": [
-            2713.811,
-            2720.677
-          ],
-          "quote": "Core automation is a lab created to build models that continuously learn from deployment.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 481,
-          "t": [
-            2852.241,
-            2877.626
-          ],
-          "quote": "so i think what we are what we are looking for is systems that learn at test time and if we see meaningful long-term adaptability of our systems and like we are we're joking but it's it's a it's a real we want to be evaluating our systems of our everyday work they get better at doing the work of core automation scientists each day",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
-      "id": "openai",
-      "type": "company",
-      "role": "company",
-      "name": "OpenAI",
-      "file": "OpenAI",
-      "primary": false,
-      "how_described": "嘉宾 Jerry 曾在此担任副总裁并领导草莓与推理团队；本集提到它在扩展强化学习时发现基准分数飙升但现实任务仍未解决，并指出它目前受困于市场竞争的发布周期。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 11,
-          "t": [
-            75.08,
-            76.842
-          ],
-          "quote": "Jerry, you were VP at OpenAI.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 60,
-          "t": [
-            332.866,
-            345.552
-          ],
-          "quote": "Whenever we were starting the research and progress on scaling up reinforcement learning at OpenAI, I basically believed that scaling up reinforcement learning is a necessary stepping stone on a path to AGI.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 61,
-          "t": [
-            346.572,
-            352.793
-          ],
-          "quote": "since I started working at OpenAI and I was always reinforcement learning maximalist.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 110,
-          "t": [
-            568.183,
-            584.876
-          ],
-          "quote": "Because my understanding from the chief seats is that, you know, OpenAI had been trying to scale up reinforcement learning for a long time, and it wasn't until the Transformer came about that it seemed like there was an even kind of scalable prior on the world upon which to even scale RL.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 119,
-          "t": [
-            671.333,
-            680.035
-          ],
-          "quote": "I think a lot of reasons why people didn't scale things before was because researchers before OpenAI had a lot of reluctance to scaling.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 123,
-          "t": [
-            690.698,
-            698.439
-          ],
-          "quote": "And it was a bit of a contrarian bet by OpenAI at that moment to try to say, hey, we don't care about better and better algorithms.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 361,
-          "t": [
-            2152.002,
-            2161.91
-          ],
-          "quote": "In some way, it is what I've been working for many years, both doing coding research and working on various versions of AI scientists inside of OpenAI.",
-          "speaker": "SPEAKER_02"
-        },
-        {
-          "seg": 377,
-          "t": [
-            2281.796,
-            2291.605
-          ],
-          "quote": "OpenAI says the system that can outperform all humans in economically valuable work, but it goes to my previous statement, what if OpenAI stops training models?",
-          "speaker": "SPEAKER_02"
-        }
-      ]
-    },
-    {
-      "id": "google",
-      "type": "company",
-      "role": "company",
-      "name": "Google",
-      "file": "Google",
-      "primary": false,
-      "how_described": "嘉宾 Rohan 曾在此（及 Google Brain）进行大量基础研究；本集提到在 Google 这种地方受限于算力经济性，难以花十倍算力去换取两倍的新架构收益。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 13,
-          "t": [
-            83.406,
-            94.794
-          ],
-          "quote": "And Rohan, you were one of two of the four pre-training leads at Gemini, and before that led a lot of the fundamental AI research at Google Brain and were the fix-it guy across Google and then at Anthropic.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 157,
-          "t": [
-            906.588,
-            912.813
-          ],
-          "quote": "I mean, internally at Google, there was definitely like Noam and a few others were definitely interested in scaling language models.",
+          "quote": "so then you can ask like what's wrong with the transformer well it's if the computational depth is poor you how do we increase computational depth and just posting that question opens up like 20 new directions on how we can modify the mechanism to incorporate it",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 181,
+          "seg": 201,
           "t": [
-            1046.253,
-            1048.214
+            1152.2,
+            1156.887
           ],
-          "quote": "Absolutely did not have that belief at Google.",
-          "speaker": "SPEAKER_01"
+          "quote": "One of the things I heard you say was the problem with transformers is the computational depth is poor.",
+          "speaker": "SPEAKER_03"
         },
         {
-          "seg": 192,
+          "seg": 209,
           "t": [
-            1119.113,
-            1122.456
+            1186.12,
+            1195.122
           ],
-          "quote": "I come from the Google mindset where we had to like serve billions of people.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 280,
-          "t": [
-            1690.487,
-            1705.77
-          ],
-          "quote": "In terms of optimization, my story is I started optimization at Google for logistic regression back in 2016, got nerd sniped by it, worked on some solvers for what we used to call Sybil, which was the large-scale linear solver.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 281,
-          "t": [
-            1706.37,
-            1711.313
-          ],
-          "quote": "that was used at Google before neural network took off and then replaced this.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 420,
-          "t": [
-            2546.618,
-            2551.42
-          ],
-          "quote": "If you were at a place like Google, you cannot spend 10x amount of compute and get a 2x win.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 425,
-          "t": [
-            2572.432,
-            2581.174
-          ],
-          "quote": "There's only like two humans at Google who could write it, Rasmus and Peter Hawkins, because it was deep XLA, LLO code that you have to write to make this work.",
+          "quote": "Chain of thought reasoning and RL to do chain of thought by model itself is one way to increase computational depth because every token you add, you add like one more pathway.",
           "speaker": "SPEAKER_01"
         }
       ]
     },
     {
-      "id": "gemini",
-      "type": "company",
-      "role": "company",
-      "name": "Gemini",
-      "file": "Gemini",
-      "primary": false,
-      "how_described": "嘉宾 Rohan 曾担任该模型的预训练负责人之一，本集在介绍其背景及工作经历（包括使用 Shampoo 优化器训练 Gemini 1.5 Flash）时提及。",
+      "id": "chain-of-thought",
+      "type": "concept",
+      "role": "concept",
+      "name": "思维链 (chain of thought)",
+      "file": "思维链",
+      "primary": true,
+      "how_described": "本集说这是一种通过增加生成序列长度来换取更强推理能力的方式，但从推理角度看极其低效，消耗巨量算力却只能塞进极少的反馈信息。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 13,
+          "seg": 161,
           "t": [
-            83.406,
-            94.794
+            940.211,
+            947.053
           ],
-          "quote": "And Rohan, you were one of two of the four pre-training leads at Gemini, and before that led a lot of the fundamental AI research at Google Brain and were the fix-it guy across Google and then at Anthropic.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 302,
-          "t": [
-            1816.257,
-            1818.519
-          ],
-          "quote": "I think we used it for Gemini 1.5 Flash.",
+          "quote": "And I would like to find architectures that spend computation much better than current chain of thought token generation.",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 411,
+          "seg": 209,
           "t": [
-            2506.564,
-            2512.749
+            1186.12,
+            1195.122
           ],
-          "quote": "And if you give this problem to entropic models, open AI models, Gemini, it just wouldn't solve it.",
+          "quote": "Chain of thought reasoning and RL to do chain of thought by model itself is one way to increase computational depth because every token you add, you add like one more pathway.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1897.188,
+            1905.913
+          ],
+          "quote": "Because you don't get much feedback and you're spending a lot more compute because you have to decode all this long chain of thought to get this one bit of information into the network.",
           "speaker": "SPEAKER_01"
         }
       ]
     },
     {
-      "id": "anthropic",
-      "type": "company",
-      "role": "company",
-      "name": "Anthropic",
-      "file": "Anthropic",
-      "primary": false,
-      "how_described": "嘉宾 Rohan 曾在此工作；本集在探讨 Transformer 停止训练就会迅速贬值、以及现有模型无法解决底层内核优化问题时，作为行业头部实验室被提及。",
+      "id": "coding-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agent)",
+      "file": "编码智能体",
+      "primary": true,
+      "how_described": "本集提到它是各大非头部实验室正亦步亦趋、一窝蜂追逐的发布热点；同时指出借助高度发达的编码智能体，能极大赋能研究员，是建设最自动化实验室的基础。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 13,
+          "seg": 139,
           "t": [
-            83.406,
-            94.794
+            844.593,
+            846.974
           ],
-          "quote": "And Rohan, you were one of two of the four pre-training leads at Gemini, and before that led a lot of the fundamental AI research at Google Brain and were the fix-it guy across Google and then at Anthropic.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 227,
-          "t": [
-            1290.907,
-            1300.476
-          ],
-          "quote": "The question worth asking often, I'm thinking about Transformer, what would happen if OpenA and Anthropic stopped training new models and we got the Transformer we have today and say, this is it.",
+          "quote": "And everyone is trying the same coding agent.",
           "speaker": "SPEAKER_02"
         },
         {
-          "seg": 437,
+          "seg": 141,
           "t": [
-            2625.267,
-            2627.689
+            848.515,
+            853.259
           ],
-          "quote": "I also was using TPUs at Anthropic.",
+          "quote": "last week's releases, everyone is trying to release a coding agent right now.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "moe",
+      "type": "concept",
+      "role": "concept",
+      "name": "MOE",
+      "file": "MOE",
+      "primary": false,
+      "how_described": "本集在回顾过去六年给模型疯狂加参数的历史时提到，行业花了大约两三年时间，才真正把稀疏模型（MoE）等架构的效率打磨到现在的水平。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            190.98,
+            204.63
+          ],
+          "quote": "It is this moment to revisit the train we've been riding for the last six years of trying to add more and more parameters to essentially two of the same operations, which is MOE and attention.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "autoregressive-decoding",
+      "type": "concept",
+      "role": "concept",
+      "name": "自回归解码 (autoregressive decoding)",
+      "file": "自回归解码",
+      "primary": false,
+      "how_described": "本集说当前模型每次只生成一个 token 的做法极其低效，而业界流行的投机解码只是治标不治本的权宜之计。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 168,
+          "t": [
+            979.512,
+            980.633
+          ],
+          "quote": "So autoregressive decoding.",
           "speaker": "SPEAKER_01"
         }
       ]
