@@ -316,3 +316,54 @@ describe("sourceMetaFields · 新集 meta 补齐(C5.1 Scenario 3:title_en/podcas
     for (const s of SOURCES) expect(typeof s.name).toBe("string");
   });
 });
+
+// ══ C14 · 半成品自动补活(纯逻辑层;fs 扫描在编排器,这里守选集/计数/换算规则)══
+import { selectRevive, noteReviveFail, clearRevive, sourceForId, reviveItemFromMeta, REVIVE_CAP } from "../scripts/run-pipeline.mjs";
+
+describe("C14 selectRevive:谁有补活资格", () => {
+  const base = { published: new Set(["done-ep"]), skippedIds: new Set(["bad-ep"]), failCounts: {} };
+
+  it("★ 有 digest 无集页 → 入选;已发布 → 不选;隔离账本里的 → 绝不选", () => {
+    const r = selectRevive(["stray-ep", "done-ep", "bad-ep"], base);
+    expect(r.revive).toEqual(["stray-ep"]);
+  });
+
+  it("★ 连败满 3 次 → 停手进 parked,不再入选", () => {
+    const r = selectRevive(["stray-ep"], { ...base, failCounts: { "stray-ep": REVIVE_CAP } });
+    expect(r.revive).toEqual([]);
+    expect(r.parked).toEqual(["stray-ep"]);
+  });
+
+  it("★ 败 2 次还有资格(上限是 3 不是 2)", () => {
+    const r = selectRevive(["stray-ep"], { ...base, failCounts: { "stray-ep": REVIVE_CAP - 1 } });
+    expect(r.revive).toEqual(["stray-ep"]);
+  });
+});
+
+describe("C14 计数:败++、成功清零", () => {
+  it("★ noteReviveFail 累加并落进 state;clearRevive 清干净", () => {
+    const state: any = { cutoffs: {}, skipped: [] };
+    expect(noteReviveFail(state, "ep")).toBe(1);
+    expect(noteReviveFail(state, "ep")).toBe(2);
+    expect(state.revive.ep).toBe(2);
+    clearRevive(state, "ep");
+    expect(state.revive?.ep).toBeUndefined();
+  });
+});
+
+describe("C14 sourceForId / reviveItemFromMeta:从存量重建处理入参", () => {
+  it("★ id 里的源段落能对回 SOURCES(yc/pg/lennys);对不上返回 null 不猜", () => {
+    expect(sourceForId("2026-07-27-yc-jensen-huang-the-mindset")?.key).toBe("yc");
+    expect(sourceForId("2026-07-28-pg-how-to-build-your-first-eval")?.key).toBe("pg");
+    expect(sourceForId("2026-07-26-lennys-anthropics-first")?.key).toBe("lennys");
+    expect(sourceForId("2026-07-01-nosuch-source-ep")).toBeNull();
+  });
+
+  it("★ 伪 item 从 meta 逐字段来,不编造(date → pubDateISO 保持同一天)", () => {
+    const it_ = reviveItemFromMeta({ title_en: "T", date: "2026-07-27", duration_sec: 1930 });
+    expect(it_.title).toBe("T");
+    expect(it_.pubDateISO.slice(0, 10)).toBe("2026-07-27");
+    expect(it_.durationSec).toBe(1930);
+    expect(it_.link).toBe("");
+  });
+});

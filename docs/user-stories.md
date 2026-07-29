@@ -1478,3 +1478,50 @@ Scenario: 四视图与死链
 3. ⬜ `.bases-*` 与 base 代码块清零(grep 为证)。
 4. ⬜ glm-check --kind code 对抗审计 + 账本裁决。
 5. ⬜ 三道门全过(ADR 确认 / 闸门绿 / 版权复述)才允许 C13e。
+
+## C14 · 半成品自动补活(2026-07-29 用户拍板;起因 = Jensen Huang / Boris Cherny 两集掉进补活死区)
+
+> **病根(实证)**:backfill 把「有 digest.json」一律当已完成跳过(`completedIds()` 只看 digest 在不在);
+> refresh 只翻「有集页」的已发布集(drift #33 防误升格);cron 只向前看(cutoff 已越过)。
+> 三条链对「有 digest 无集页」的半成品**互相让位,谁都不管** —— 网络抖动掉队的集永远躺着,
+> 已付费的翻译/浓缩产物白放。老账:03-12 / 04-23 / 05-31 / 06-28 / 07-13-solo 五集同坑。
+> **修法**:cron 每轮末尾扫「有 digest 无集页」的目录重走后半链;翻译/浓缩/转写全走既有缓存
+> (translate 只补缺段 / condense 无 FORCE 吃缓存 / 转写稿显式复用),不重烧钱。
+> **刹车(用户 2026-07-29 点名「会不会一直重复」)**:账本记每集补活连败次数,连败 3 次停手待人工。
+
+```gherkin
+Feature: 掉队半成品自动补活,且不无限重试(C14)(US-4, US-11)
+
+Scenario: 掉队的集会被自动捡回来
+  Given 某集在 data/episodes 里有 digest.json 但 samples/ 下没有它的集页
+  When 下一班 cron 跑到补活环节
+  Then 它的后半链被重走(实体抽取 → 闸门 → 出稿 → 配音)
+  And 已有的转写稿/翻译/浓缩产物被复用,不重新付费
+
+Scenario: 闸门一分不降
+  When 补活的集走验证
+  Then 它过的是与新集完全相同的防失真闸门
+  And 闸门不过照样隔离进 data/skipped,不因"补活"放水
+
+Scenario: 隔离区的不碰
+  Given 某集在 data/skipped(防失真拦下)或在账本 skipped 名单里
+  Then 补活环节绝不把它捡回来
+
+Scenario: 不拖垮正常班次
+  Given 补活某集时再次转瞬失败(如网络抖动)
+  Then 该集原样留在半成品态,本轮其余工作(新集处理/部署)不受影响
+
+Scenario: 有痕迹
+  Then 每轮补活的成功/失败/停手在 run 日志里响亮报数,不静默
+
+Scenario: 同一集连败 3 次后停手
+  Given 某集补活已连续失败 3 次(账本有计数)
+  Then 之后的班次不再自动碰它,日志响亮点名"连败停手,需人工"
+  And 人工清掉计数后它恢复补活资格
+  And 任意一次补活成功即清零计数
+```
+
+### DoD(C14)
+1. ⬜ 每条 Gherkin 实测演示(人话 + 数字)。
+2. ⬜ 云端真跑一轮:Jensen Huang / Boris Cherny 两集被真实捞回(或被闸门有理有据地隔离)。
+3. ⬜ glm-check --kind code 对抗审计 + 账本裁决。

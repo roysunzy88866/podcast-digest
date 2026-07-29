@@ -267,6 +267,50 @@ function runOk(cmd, args) {
   return spawnSync(cmd, args, { cwd: ROOT, stdio: "inherit" }).status === 0;
 }
 
+// ══ C14 · 半成品自动补活 ══
+// 病根(实证):completedIds 只看「有 digest」→ backfill 跳过;refresh 只翻「有集页」→ 也不碰;
+// cron 只向前看(cutoff 已越过)。三条链对「有 digest 无集页」的掉队集互相让位,谁都不管。
+// 修法:每轮末尾扫这类目录重走后半链(缓存全复用,不重烧钱);连败 REVIVE_CAP 次停手待人工。
+
+export const REVIVE_CAP = 3;
+
+/** 补活选集(纯逻辑):有 digest 无集页、不在隔离账本、连败没满上限。 */
+export function selectRevive(ids, { published, skippedIds, failCounts }) {
+  const eligible = ids.filter((id) => !published.has(id) && !skippedIds.has(id));
+  return {
+    revive: eligible.filter((id) => (failCounts[id] ?? 0) < REVIVE_CAP),
+    parked: eligible.filter((id) => (failCounts[id] ?? 0) >= REVIVE_CAP),
+  };
+}
+
+/** 补活失败记账(成功用 clearRevive 清零;计数落 state 持久化,跨班次生效)。 */
+export function noteReviveFail(state, id) {
+  state.revive = state.revive ?? {};
+  state.revive[id] = (state.revive[id] ?? 0) + 1;
+  return state.revive[id];
+}
+
+export function clearRevive(state, id) {
+  if (state.revive) delete state.revive[id];
+}
+
+/** id 第 11 位起的源段落 ↔ SOURCES.key(id = YYYY-MM-DD-<key>-<slug>)。对不上返回 null 不猜。 */
+export function sourceForId(id) {
+  const rest = String(id).slice(11); // 跳过 "YYYY-MM-DD-"
+  return SOURCES.find((s) => rest === s.key || rest.startsWith(`${s.key}-`)) ?? null;
+}
+
+/** 从存量 meta 重建 processEpisode 的入参 item(逐字段来,不编造;转写稿已在,取源会被跳过)。 */
+export function reviveItemFromMeta(meta) {
+  return {
+    title: meta.title_en ?? meta.id ?? "",
+    link: "",
+    enclosureUrl: null,
+    durationSec: meta.duration_sec ?? 0,
+    pubDateISO: meta.date ? `${meta.date}T00:00:00.000Z` : "",
+  };
+}
+
 /**
  * 单个新集的 per-集链(取源→推说话人→翻译→浓缩→判官→规整→抽实体→出稿→配音),末尾**逐集验证**。
  * 产出步骤 fail-fast(抛=转瞬失败,留半成品下次重试);验证(gate 金句三联 + gate-facts 导读事实)fail=失真 → 返回 {ok:false} 交 main 隔离。
@@ -285,6 +329,9 @@ function processEpisode(item, id, source) {
       if (!item.enclosureUrl) throw new Error(`集 ${id} 无 enclosure 直链,whisperX 路线走不了(fail-closed)`);
       run("node", ["scripts/fetch-source-whisperx.mjs", dir, "--transcribe", "--audio-url", item.enclosureUrl, "--duration", String(item.durationSec || 0)]);
     }
+  } else if (existsSync(join(ROOT, dir, "transcript.en.json"))) {
+    // C14:官方稿源同享「半成品重试复用转写稿」(补活的存量集没有 item.link,取源本也没必要重跑)
+    console.log("   复用已有转写稿(半成品重试,跳过取源)");
   } else {
     const fs = spawnSync("node", ["scripts/fetch-source.mjs", item.link, id], { cwd: ROOT, stdio: "inherit" });
     if (fs.status !== 0) {
@@ -411,6 +458,13 @@ async function main() {
     totalSkipped += r.skipped;
   }
 
+  // C14:补活掉队半成品(有 digest 无集页)。放在正常班次之后:新集优先,补活失败不拖垮当轮。
+  {
+    const r = revivePass(state, { onlyKey, dryRun: flags.has("--dry-run") });
+    totalClean += r.clean;
+    totalSkipped += r.skipped;
+  }
+
   if (totalClean > 0) {
     rebuildAll();
     console.log("\n▶ gate-all(全闸门,全过才允许发布)");
@@ -419,6 +473,73 @@ async function main() {
   } else {
     console.log("\n✅ 无干净可发的新集(全被隔离/无新集)。不部署,线上保持上一版。");
   }
+}
+
+/**
+ * C14 补活一轮:扫「有 digest 无集页」的掉队集,重走后半链。闸门与新集完全同一道;
+ * 失真照隔离,转瞬失败记连败账(REVIVE_CAP 次停手待人工)。返回 {clean, skipped} 计数。
+ */
+function revivePass(state, { onlyKey, dryRun }) {
+  // 已发布的过滤交给 selectRevive 本人(GLM 20260729-003[3]:在这儿预过滤会把防线架空成死代码)
+  const ids = completedIds();
+  const scoped = onlyKey ? ids.filter((id) => sourceForId(id)?.key === onlyKey) : ids;
+  const { revive, parked } = selectRevive(scoped, {
+    published: new Set(ids.filter((id) => existsSync(join(ROOT, "samples", `${id}.md`)))),
+    skippedIds: new Set((state.skipped ?? []).map((s) => s.id)),
+    failCounts: state.revive ?? {},
+  });
+  parked.forEach((id) => console.error(`🅿️ 补活停手(连败 ${state.revive?.[id]} 次,需人工;清 state.revive 恢复资格):${id}`));
+  if (!revive.length) {
+    if (!parked.length) console.log("\n✅ 补活:无掉队半成品。");
+    return { clean: 0, skipped: 0 };
+  }
+  console.log(`\n══ 补活:${revive.length} 个掉队半成品(有 digest 无集页):`);
+  revive.forEach((id) => console.log(`   - ${id}(已败 ${state.revive?.[id] ?? 0} 次)`));
+  if (dryRun) {
+    console.log("（--dry-run:仅列出,不真跑)");
+    return { clean: 0, skipped: 0 };
+  }
+
+  let clean = 0;
+  let skipped = 0;
+  for (const id of revive) {
+    const source = sourceForId(id);
+    if (!source) {
+      console.error(`   ⚠️ ${id} 对不上任何已配置源(不猜,跳过;需人工看)`);
+      continue;
+    }
+    const item = reviveItemFromMeta(JSON.parse(readFileSync(join(EPISODES_DIR, id, "meta.json"), "utf8")));
+    let res;
+    try {
+      res = processEpisode(item, id, source);
+    } catch (e) {
+      const n = noteReviveFail(state, id);
+      writeState(state); // 即刻落盘:后续崩了也不丢连败账(同 appendSkip 口径)
+      console.error(`   ⚠️ ${id} 补活又转瞬失败(第 ${n}/${REVIVE_CAP} 次):${e.message}`);
+      skipped += 1;
+      continue;
+    }
+    if (res.ok) {
+      clearRevive(state, id);
+      writeState(state);
+      clean += 1;
+      console.log(`   ✅ ${id} 补活成功(连败账已清零)`);
+    } else {
+      // 失真被拦 → 与正常班次同一套隔离(挪 skipped + 账本),补活不放水也不特殊
+      mkdirSync(SKIPPED_DIR, { recursive: true });
+      const to = join(SKIPPED_DIR, id);
+      if (existsSync(to)) rmSync(to, { recursive: true, force: true });
+      renameSync(join(EPISODES_DIR, id), to);
+      writeFileSync(join(to, "skip-reason.txt"), `${res.reason}\n${item.title}\n(补活重验被拦)\n`);
+      clearRevive(state, id);
+      appendSkip(state, { id, reason: `补活重验被拦:${res.reason}`, title: item.title, pubDate: item.pubDateISO });
+      writeState(state);
+      skipped += 1;
+      console.log(`   ⛔ ${id} 补活重验被拦,隔离:${res.reason}`);
+    }
+  }
+  console.log(`🔔 补活收账:成功 ${clean} / 失败或隔离 ${skipped} / 停手 ${parked.length}`);
+  return { clean, skipped };
 }
 
 /** 单源一轮:取 feed→选新集→逐集处理→按源推进 cutoff。返回 {clean, skipped} 计数。 */
