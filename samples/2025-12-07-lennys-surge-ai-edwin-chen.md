@@ -159,7 +159,7 @@ Edwin 在最后把这些思考拔高到一个哲学层面:做数据训练和评�
 
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同公司:ChatGPT、Waymo
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 悬崖边？数据中心次级债与 SpaceX 缩水]] —— 同公司:Anthropic · 同概念:AGI
-- [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble]] —— 同公司:ChatGPT
+- [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|Transformer 见顶了吗？OpenAI 与 Google 前核心创立 Core Automation 寻找下一代架构]] —— 同公司:Anthropic · 同概念:AGI
 
 </div>
 <div class="pd-ex">

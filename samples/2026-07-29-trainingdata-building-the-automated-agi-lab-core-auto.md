@@ -18,7 +18,7 @@ tags:
   - 智能体
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Transformer 见顶了吗？OpenAI 与 Google 前核心创立 Core Automation 寻找下一代架构</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Transformer 见顶了吗？OpenAI 与 Google 前核心创立 Core Automation 寻找下一代架构</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # Transformer 见顶了吗？OpenAI 与 Google 前核心创立 Core Automation 寻找下一代架构
 
@@ -31,15 +31,11 @@ tags:
 <div class="pd-hook"><div class="z">替换 Transformer 的第一步，是深刻地感激它们能带我们走多远。</div><div class="a">Sonja · 01:50</div></div>
 
 > [!info] 关联
-> **嘉宾**:[[Rohan Anil]]
+> **人物** [[Rohan Anil]] · [[Sonja]] · [[Jerry Tworek]]
 >
-> **主持**:[[Sonja]]
+> **公司** [[Core Automation]] · [[OpenAI]] · [[Google]] · [[Anthropic]]
 >
-> **联合主持**:[[Jerry Tworek]]
->
-> **涉及公司**:[[Core Automation]] · [[OpenAI]] · [[Google]] · [[Anthropic]]
->
-> **概念**:[[Transformer]] · [[强化学习]] · [[预训练]] · [[测试时学习]] · [[算子]] · [[持续学习]] · [[AGI]] · [[计算深度]] · [[思维链]] · [[编码智能体]]
+> **概念** [[Transformer]] · [[强化学习]] · [[预训练]] · [[测试时学习]] · [[算子]] · [[持续学习]] · [[AGI]] · [[计算深度]] · [[思维链]] · [[编码智能体]]
 
 <div class="pd-tldr"><b>一句话</b>前 OpenAI VP Jerry 与前 Gemini 预训练负责人 Rohan 创办 Core Automation，直言 Transformer 架构已见顶，致力于打造能在真实世界中持续学习的新架构。</div>
 
@@ -102,37 +98,60 @@ Rohan 分享了他们和 GPU mode 社区一起举办的“QR kernel 竞赛”。
 
 <div class="pd-sec">全部金句 <span>8 条(中英对照,已过机器闸门)</span></div>
 
-> 替换 Transformer 的第一步，是深刻地感激它们能带我们走多远。  
+> <span class="qz">替换 Transformer 的第一步，是深刻地感激它们能带我们走多远。</span>  
 > *The first step to replacing Transformers is appreciating deeply how far they were able to carry us.*  
-> —— Sonja · [01:50] ^q1
+> <span class="qm">—— Sonja · [01:50]</span> ^q1
 
-> 我认为问题在于，模型是在实验室里训练的，却部署在现实世界中。  
+> <span class="qz">我认为问题在于，模型是在实验室里训练的，却部署在现实世界中。</span>  
 > *What I think is the issue is that the models are being trained in the lab and are being deployed in the real world.*  
-> —— Jerry Tworek · [05:11] ^q2
+> <span class="qm">—— Jerry Tworek · [05:11]</span> ^q2
 
-> 我们可能正在花费比以往任何时候都多的算力在从经验中学习上，但强化学习并不是从经验中学习的终点。  
+> <span class="qz">我们可能正在花费比以往任何时候都多的算力在从经验中学习上，但强化学习并不是从经验中学习的终点。</span>  
 > *we probably are spending the most compute than ever on learning from experience, but reinforcement learning is not the end of learning from experience.*  
-> —— Jerry Tworek · [00:30] ^q3
+> <span class="qm">—— Jerry Tworek · [00:30]</span> ^q3
 
-> 如果 Transformer 是有利可图的，如果你可以花费更多的精力和资源来扩大 Transformer 以在下一个季度获胜，那么很难把大量的注意力和大量的精力投入到可能在一两年内更好或可能重新定义该领域的事情上。  
+> <span class="qz">如果 Transformer 是有利可图的，如果你可以花费更多的精力和资源来扩大 Transformer 以在下一个季度获胜，那么很难把大量的注意力和大量的精力投入到可能在一两年内更好或可能重新定义该领域的事情上。</span>  
 > *If Transformer is profitable and if you can spend more efforts and more resources scaling Transformer to win in the next quarter, it's very hard to put at least a lot of attention and a lot of energy to work on something that will maybe better or maybe will redefine the field in a year or two.*  
-> —— Jerry Tworek · [13:28] ^q4
+> <span class="qm">—— Jerry Tworek · [13:28]</span> ^q4
 
-> 因为你得不到多少反馈，而且你花费了更多的计算，因为你必须解码这整条长思维链才能将这一点点信息输入到网络中。  
+> <span class="qz">因为你得不到多少反馈，而且你花费了更多的计算，因为你必须解码这整条长思维链才能将这一点点信息输入到网络中。</span>  
 > *Because you don't get much feedback and you're spending a lot more compute because you have to decode all this long chain of thought to get this one bit of information into the network.*  
-> —— SPEAKER_01 · [31:37] ^q5
+> <span class="qm">—— SPEAKER_01 · [31:37]</span> ^q5
 
-> 对我来说，AGI 是一个可以在没有任何人在循环中的情况下自我改进的模型。  
+> <span class="qz">对我来说，AGI 是一个可以在没有任何人在循环中的情况下自我改进的模型。</span>  
 > *For me, AGI is a model that can improve itself without human in the loop in any way.*  
-> —— Jerry Tworek · [38:21] ^q6
+> <span class="qm">—— Jerry Tworek · [38:21]</span> ^q6
 
-> 但是，到目前为止，用模型把人类从循环中移除实际上出了名地、出了名地困难。  
+> <span class="qz">但是，到目前为止，用模型把人类从循环中移除实际上出了名地、出了名地困难。</span>  
 > *But removing humans from loops with models has been actually notoriously, notoriously difficult so far.*  
-> —— Jerry Tworek · [38:45] ^q7
+> <span class="qm">—— Jerry Tworek · [38:45]</span> ^q7
 
-> 但这需要高水平品味的人类，就像世界上大概只有三个人，并且在四周内花费大约 10 万美元在这些编码智能体上，才能得到一个速度快 60 倍的解决方案。  
+> <span class="qz">但这需要高水平品味的人类，就像世界上大概只有三个人，并且在四周内花费大约 10 万美元在这些编码智能体上，才能得到一个速度快 60 倍的解决方案。</span>  
 > *But it requires the high-taste human, like there's maybe three people in the world, and spend about $100,000 on these coding agents over a span of four weeks to get to a solution that's 60x faster.*  
-> —— SPEAKER_01 · [41:10] ^q8
+> <span class="qm">—— SPEAKER_01 · [41:10]</span> ^q8
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「创业与行业」挖下去**
+
+- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 悬崖边？数据中心次级债与 SpaceX 缩水]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
+- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展]] —— 同公司:OpenAI · 同概念:AGI
+- [[2025-12-07-lennys-surge-ai-edwin-chen|Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理]] —— 同公司:Anthropic · 同概念:AGI
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同公司:Anthropic、OpenAI
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
+- [[2026-07-26-lennys-anthropics-first-technical-pm-on|evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经]] —— 同公司:Anthropic、OpenAI
+
+</div>
+</div>
 
 *本集关键词:AI 架构 · Transformer 替代品 · 强化学习 · 自动化实验室 · 底层算子优化*
 
@@ -143,6 +162,7 @@ Rohan 分享了他们和 GPU mode 社区一起举办的“QR kernel 竞赛”。
     var box=null;
     var all=document.querySelectorAll('article blockquote[data-callout]');
     for(var i=0;i<all.length;i++){
+      if(all[i].closest('.mrel')) continue;   // C13d:页尾手机克隆块不许被当成正文关联框搬走(实测被搬空过)
       var t=all[i].querySelector('.callout-title-inner');
       if(t&&t.textContent.trim().indexOf('关联')===0){ box=all[i]; break; }
     }
@@ -209,7 +229,129 @@ Rohan 分享了他们和 GPU mode 社区一起举办的“QR kernel 竞赛”。
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  // C13d:mtoc 的 document/window 级监听只绑一次;回调每次现查当前 .mtoc(SPA 换页旧节点自然失联,不泄漏)
+  function mtocScroll(){
+    var bar=document.querySelector('.mtoc'); if(!bar||!bar.__items) return;
+    var items=bar.__items, panel=bar.querySelector('.mtm'), label=bar.querySelector('.mtl'), prog=bar.querySelector('.mtbar');
+    var off=bar.offsetHeight+24, idx=-1;
+    for(var i=0;i<items.length;i++){
+      if(items[i].el.getBoundingClientRect().top<=off) idx=i; else break;
+    }
+    if(window.scrollY>=document.body.scrollHeight-window.innerHeight-2) idx=items.length-1;
+    if(idx!==bar.__cur){
+      bar.__cur=idx;
+      label.textContent=idx<0?'':items[idx].label;
+      bar.classList.toggle('at', idx>=0);
+      panel.querySelectorAll('a').forEach(function(a,i){ a.classList.toggle('on', i===idx); });
+    }
+    var max=document.body.scrollHeight-window.innerHeight;
+    prog.style.width=(max>0?Math.min(100,Math.max(0,window.scrollY/max*100)):0)+'%';
+  }
+  if(!window.__pdMtocEvts){ window.__pdMtocEvts=1;
+    var mtocTick=false;
+    window.addEventListener('scroll', function(){
+      if(!mtocTick){ mtocTick=true; requestAnimationFrame(function(){ mtocScroll(); mtocTick=false; }); }
+    }, {passive:true});
+    document.addEventListener('click', function(e){
+      var bar=document.querySelector('.mtoc.open');
+      if(bar && !e.target.closest('.mtoc')){ bar.classList.remove('open'); var t=bar.querySelector('.mtt'); if(t) t.setAttribute('aria-expanded','false'); }
+    });
+  }
+  // C13d 手机端(移植 设计稿/m-detail.js;真站差异:顶栏不吸顶 → 吸顶条 top:0、跳转偏移只算条高;
+  // 无人物页 → 去掉 chip 形态分支;小节 = article 里带 id 的 h2,与桌面右栏目录同源)
+  function mtoc(){
+    var art=document.querySelector('article'); if(!art) return;
+    if(art.querySelector('.mtoc')) return;               // SPA nav 后 DOM 是新的;同页重跑不重复建
+    // 小节收集照设计稿口径:标题(真站是 h3 正文小节 + h2 收尾节)+ 组标 .pd-sec(金句区与相关区的组标;
+    // ⚠️ 本注释会原样进页面,守卫测试断言「无相关集时页面不出现那个区块的中文标题」——别在这里写它),
+    // 无 id 就发一个,再按文档序排 —— 设计稿当年也是 h2 + .sec 混收
+    var items=[];
+    [].forEach.call(art.querySelectorAll('h2[id], h3[id]'), function(h){
+      items.push({el:h,label:h.textContent.trim()});
+    });
+    [].forEach.call(art.querySelectorAll('.pd-sec'), function(sec,i){
+      if(!sec.id) sec.id='pdsec'+i;
+      var t=(sec.firstChild && sec.firstChild.nodeType===3 ? sec.firstChild.textContent : sec.textContent).trim();
+      items.push({el:sec,label:t});
+    });
+    if(items.length<2) return;
+    items.sort(function(a,b){ return a.el.compareDocumentPosition(b.el) & 4 ? -1 : 1; });
+    // 不用 innerHTML(守卫测试拦它防「搬节点」被偷换成重写)—— 这里全是自造新壳,逐个 createElement
+    function el(tag,cls,txt){ var e=document.createElement(tag); if(cls)e.className=cls; if(txt)e.textContent=txt; return e; }
+    var bar=el('div','mtoc');
+    var toggle=el('button','mtt'); toggle.type='button'; toggle.setAttribute('aria-expanded','false');
+    var mtk=el('span','mtk','目录'), label=el('span','mtl'), caret=el('i','','⌄');
+    toggle.appendChild(mtk); toggle.appendChild(label); toggle.appendChild(caret);
+    var panel=el('div','mtm'), prog=el('span','mtbar');
+    bar.appendChild(toggle); bar.appendChild(panel); bar.appendChild(prog);
+    items.forEach(function(it,i){
+      var a=document.createElement('a'); a.href='#'+it.el.id; a.dataset.i=i; a.textContent=it.label;
+      panel.appendChild(a);
+    });
+    // 就地插在第一节之前 → 滚到这里才吸顶(第一屏留给标题/播放条/钩子)
+    items[0].el.parentElement.insertBefore(bar, items[0].el);
+    bar.__items=items; bar.__cur=-1;   // 状态挂节点上:单例监听每次现查当前条,旧节点随 SPA 换页自然失联
+    toggle.addEventListener('click', function(){
+      var open=bar.classList.toggle('open'); toggle.setAttribute('aria-expanded', open?'true':'false');
+    });   // toggle/panel 的监听挂在自家节点上,随节点销毁,不泄漏
+    panel.addEventListener('click', function(e){
+      var a=e.target.closest('a'); if(!a) return;
+      e.preventDefault();
+      var it=items[+a.dataset.i];
+      window.scrollTo({top:it.el.getBoundingClientRect().top+window.scrollY-bar.offsetHeight-8, behavior:'smooth'});
+      bar.classList.remove('open'); toggle.setAttribute('aria-expanded','false');
+    });
+    mtocScroll();
+    // 页尾「这一集涉及」:克隆右栏里的关联框**本体**(同源不漂移;目录已被吸顶条取代不克隆)。
+    // 不克隆 .pd-rel 外壳 —— 实测撞过一次空壳(壳先建、框后搬,克隆到只有标题的半成品);
+    // 直接选框本身 + 「必须真有链接」守卫,拿不到内容宁可不出块。
+    var box=document.querySelector('.right.sidebar .pd-rel blockquote[data-callout]');
+    if(box && box.querySelector('a') && !art.querySelector('.mrel')){
+      var wrap=el('div','mrel');
+      wrap.appendChild(el('h3','','这一集涉及'));
+      wrap.appendChild(box.cloneNode(true));
+      art.appendChild(wrap);
+    }
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

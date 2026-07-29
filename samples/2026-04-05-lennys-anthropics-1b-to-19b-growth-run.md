@@ -110,7 +110,7 @@ Amol 自己加入 Anthropic 的经历就很反常规：当时他是 Claude 的�
 
 - [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」]] —— 同公司:Anthropic · 同概念:公益公司 (public benefit corporation)
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 悬崖边？数据中心次级债与 SpaceX 缩水]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同公司:Anthropic、OpenAI
+- [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|Transformer 见顶了吗？OpenAI 与 Google 前核心创立 Core Automation 寻找下一代架构]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
 
 </div>
 </div>

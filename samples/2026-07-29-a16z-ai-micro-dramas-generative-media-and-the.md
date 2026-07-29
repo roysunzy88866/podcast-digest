@@ -15,7 +15,7 @@ tags:
   - 创业与行业
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # 当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点
 
@@ -28,11 +28,11 @@ tags:
 <div class="pd-hook"><div class="z">大众市场消费者并不关心它是用 AI 制作的,也不会因为这个原因去看它。</div><div class="a">Justine Moore · 17:58</div></div>
 
 > [!info] 关联
-> **主持**:[[Justine Moore]]
+> **人物** [[Justine Moore]]
 >
-> **涉及公司**:[[Town]]
+> **公司** [[Town]]
 >
-> **概念**:[[生成式媒体]] · [[微剧]] · [[智能体]] · [[创作者经济]]
+> **概念** [[生成式媒体]] · [[微剧]] · [[智能体]] · [[创作者经济]]
 
 <div class="pd-tldr"><b>一句话</b>随着模型质量跨越叙事门槛,生成式媒体正从新奇玩具变成大众娱乐和创作的主流工具。</div>
 
@@ -96,33 +96,56 @@ Justine 直言,从零开始训练一个能和 OpenAI 等巨头竞争的基础模
 
 <div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
 
-> 大众市场消费者并不关心它是用 AI 制作的,也不会因为这个原因去看它。  
+> <span class="qz">大众市场消费者并不关心它是用 AI 制作的,也不会因为这个原因去看它。</span>  
 > *The mass market consumer does not care that it was made with AI and isn't going to watch it for that reason.*  
-> —— Justine Moore · [17:58] ^q1
+> <span class="qm">—— Justine Moore · [17:58]</span> ^q1
 
-> 这简直解锁了人们想象中所有那些疯狂的、怪异的、有趣的想法,以前他们是无法制作出来的。  
+> <span class="qz">这简直解锁了人们想象中所有那些疯狂的、怪异的、有趣的想法,以前他们是无法制作出来的。</span>  
 > *It sort of just unlocks all of this crazy, weird, interesting ideas that people have in their imagination that they could never make before.*  
-> —— Justine Moore · [00:53] ^q2
+> <span class="qm">—— Justine Moore · [00:53]</span> ^q2
 
-> 当你观看这些内容时,立刻就能清楚看到,在 AI 之前,一个人或小团队是绝不可能创作出这个的。  
+> <span class="qz">当你观看这些内容时,立刻就能清楚看到,在 AI 之前,一个人或小团队是绝不可能创作出这个的。</span>  
 > *When you watch the content, it's immediately clear that one person or small teams could have never created this before AI.*  
-> —— Justine Moore · [13:07] ^q3
+> <span class="qm">—— Justine Moore · [13:07]</span> ^q3
 
-> 现在中国的微短剧市场比它们的国内票房还要大。  
+> <span class="qz">现在中国的微短剧市场比它们的国内票房还要大。</span>  
 > *Now the microdrama market in China is larger than their domestic box office.*  
-> —— Justine Moore · [05:40] ^q4
+> <span class="qm">—— Justine Moore · [05:40]</span> ^q4
 
-> 我的直觉是,绝大多数内容最终将在未来被部分 AI 生成或 AI 编辑。  
+> <span class="qz">我的直觉是,绝大多数内容最终将在未来被部分 AI 生成或 AI 编辑。</span>  
 > *I think my instinct is like the vast, vast majority of content will end up being partially AI produced or AI edited in the future.*  
-> —— Justine Moore · [26:05] ^q5
+> <span class="qm">—— Justine Moore · [26:05]</span> ^q5
 
-> slop(低质内容)的概念对我来说非常有趣,因为我认为它是随着 AI 出现的,但我的看法一直是,有大量人类生产的 slop。  
+> <span class="qz">slop(低质内容)的概念对我来说非常有趣,因为我认为它是随着 AI 出现的,但我的看法一直是,有大量人类生产的 slop。</span>  
 > *The slop concept is very interesting to me because I think it came out around AI, but my take at least has been there's a ton of human produced slop.*  
-> —— Justine Moore · [22:21] ^q6
+> <span class="qm">—— Justine Moore · [22:21]</span> ^q6
 
-> 我认为消费领域有很多机会实际上是未开发的,就像生成和分享内容的社会层面几乎仍然完全是在现有的巨头平台上完成的  
+> <span class="qz">我认为消费领域有很多机会实际上是未开发的,就像生成和分享内容的社会层面几乎仍然完全是在现有的巨头平台上完成的</span>  
 > *I think there's a lot of opportunity in consumer that's honestly untapped, like sort of the social layer of generating and sharing stuff is still almost entirely done on the existing incumbent platforms*  
-> —— Justine Moore · [36:51] ^q7
+> <span class="qm">—— Justine Moore · [36:51]</span> ^q7
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「创业与行业」挖下去**
+
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同概念:智能体 (agent)
+- [[2026-06-03-latent-space-satya-2026|Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP]] —— 同概念:智能体 (agent)
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」]] —— 同概念:智能体 (agent)
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构]] —— 同公司:Anthropic · 同概念:智能体 (agent)
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织]] —— 同概念:智能体 (agent)
+
+</div>
+</div>
 
 *本集关键词:生成式媒体 · 微剧 · 创作者经济 · 智能体 · 消费者科技*
 
@@ -133,6 +156,7 @@ Justine 直言,从零开始训练一个能和 OpenAI 等巨头竞争的基础模
     var box=null;
     var all=document.querySelectorAll('article blockquote[data-callout]');
     for(var i=0;i<all.length;i++){
+      if(all[i].closest('.mrel')) continue;   // C13d:页尾手机克隆块不许被当成正文关联框搬走(实测被搬空过)
       var t=all[i].querySelector('.callout-title-inner');
       if(t&&t.textContent.trim().indexOf('关联')===0){ box=all[i]; break; }
     }
@@ -199,7 +223,129 @@ Justine 直言,从零开始训练一个能和 OpenAI 等巨头竞争的基础模
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  // C13d:mtoc 的 document/window 级监听只绑一次;回调每次现查当前 .mtoc(SPA 换页旧节点自然失联,不泄漏)
+  function mtocScroll(){
+    var bar=document.querySelector('.mtoc'); if(!bar||!bar.__items) return;
+    var items=bar.__items, panel=bar.querySelector('.mtm'), label=bar.querySelector('.mtl'), prog=bar.querySelector('.mtbar');
+    var off=bar.offsetHeight+24, idx=-1;
+    for(var i=0;i<items.length;i++){
+      if(items[i].el.getBoundingClientRect().top<=off) idx=i; else break;
+    }
+    if(window.scrollY>=document.body.scrollHeight-window.innerHeight-2) idx=items.length-1;
+    if(idx!==bar.__cur){
+      bar.__cur=idx;
+      label.textContent=idx<0?'':items[idx].label;
+      bar.classList.toggle('at', idx>=0);
+      panel.querySelectorAll('a').forEach(function(a,i){ a.classList.toggle('on', i===idx); });
+    }
+    var max=document.body.scrollHeight-window.innerHeight;
+    prog.style.width=(max>0?Math.min(100,Math.max(0,window.scrollY/max*100)):0)+'%';
+  }
+  if(!window.__pdMtocEvts){ window.__pdMtocEvts=1;
+    var mtocTick=false;
+    window.addEventListener('scroll', function(){
+      if(!mtocTick){ mtocTick=true; requestAnimationFrame(function(){ mtocScroll(); mtocTick=false; }); }
+    }, {passive:true});
+    document.addEventListener('click', function(e){
+      var bar=document.querySelector('.mtoc.open');
+      if(bar && !e.target.closest('.mtoc')){ bar.classList.remove('open'); var t=bar.querySelector('.mtt'); if(t) t.setAttribute('aria-expanded','false'); }
+    });
+  }
+  // C13d 手机端(移植 设计稿/m-detail.js;真站差异:顶栏不吸顶 → 吸顶条 top:0、跳转偏移只算条高;
+  // 无人物页 → 去掉 chip 形态分支;小节 = article 里带 id 的 h2,与桌面右栏目录同源)
+  function mtoc(){
+    var art=document.querySelector('article'); if(!art) return;
+    if(art.querySelector('.mtoc')) return;               // SPA nav 后 DOM 是新的;同页重跑不重复建
+    // 小节收集照设计稿口径:标题(真站是 h3 正文小节 + h2 收尾节)+ 组标 .pd-sec(金句区与相关区的组标;
+    // ⚠️ 本注释会原样进页面,守卫测试断言「无相关集时页面不出现那个区块的中文标题」——别在这里写它),
+    // 无 id 就发一个,再按文档序排 —— 设计稿当年也是 h2 + .sec 混收
+    var items=[];
+    [].forEach.call(art.querySelectorAll('h2[id], h3[id]'), function(h){
+      items.push({el:h,label:h.textContent.trim()});
+    });
+    [].forEach.call(art.querySelectorAll('.pd-sec'), function(sec,i){
+      if(!sec.id) sec.id='pdsec'+i;
+      var t=(sec.firstChild && sec.firstChild.nodeType===3 ? sec.firstChild.textContent : sec.textContent).trim();
+      items.push({el:sec,label:t});
+    });
+    if(items.length<2) return;
+    items.sort(function(a,b){ return a.el.compareDocumentPosition(b.el) & 4 ? -1 : 1; });
+    // 不用 innerHTML(守卫测试拦它防「搬节点」被偷换成重写)—— 这里全是自造新壳,逐个 createElement
+    function el(tag,cls,txt){ var e=document.createElement(tag); if(cls)e.className=cls; if(txt)e.textContent=txt; return e; }
+    var bar=el('div','mtoc');
+    var toggle=el('button','mtt'); toggle.type='button'; toggle.setAttribute('aria-expanded','false');
+    var mtk=el('span','mtk','目录'), label=el('span','mtl'), caret=el('i','','⌄');
+    toggle.appendChild(mtk); toggle.appendChild(label); toggle.appendChild(caret);
+    var panel=el('div','mtm'), prog=el('span','mtbar');
+    bar.appendChild(toggle); bar.appendChild(panel); bar.appendChild(prog);
+    items.forEach(function(it,i){
+      var a=document.createElement('a'); a.href='#'+it.el.id; a.dataset.i=i; a.textContent=it.label;
+      panel.appendChild(a);
+    });
+    // 就地插在第一节之前 → 滚到这里才吸顶(第一屏留给标题/播放条/钩子)
+    items[0].el.parentElement.insertBefore(bar, items[0].el);
+    bar.__items=items; bar.__cur=-1;   // 状态挂节点上:单例监听每次现查当前条,旧节点随 SPA 换页自然失联
+    toggle.addEventListener('click', function(){
+      var open=bar.classList.toggle('open'); toggle.setAttribute('aria-expanded', open?'true':'false');
+    });   // toggle/panel 的监听挂在自家节点上,随节点销毁,不泄漏
+    panel.addEventListener('click', function(e){
+      var a=e.target.closest('a'); if(!a) return;
+      e.preventDefault();
+      var it=items[+a.dataset.i];
+      window.scrollTo({top:it.el.getBoundingClientRect().top+window.scrollY-bar.offsetHeight-8, behavior:'smooth'});
+      bar.classList.remove('open'); toggle.setAttribute('aria-expanded','false');
+    });
+    mtocScroll();
+    // 页尾「这一集涉及」:克隆右栏里的关联框**本体**(同源不漂移;目录已被吸顶条取代不克隆)。
+    // 不克隆 .pd-rel 外壳 —— 实测撞过一次空壳(壳先建、框后搬,克隆到只有标题的半成品);
+    // 直接选框本身 + 「必须真有链接」守卫,拿不到内容宁可不出块。
+    var box=document.querySelector('.right.sidebar .pd-rel blockquote[data-callout]');
+    if(box && box.querySelector('a') && !art.querySelector('.mrel')){
+      var wrap=el('div','mrel');
+      wrap.appendChild(el('h3','','这一集涉及'));
+      wrap.appendChild(box.cloneNode(true));
+      art.appendChild(wrap);
+    }
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });
