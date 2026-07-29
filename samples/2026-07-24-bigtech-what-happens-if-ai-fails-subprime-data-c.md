@@ -104,9 +104,9 @@ Ranjan 作为亲历过 2008 年金融危机的交易员,认为这个类比在逻
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展]] —— 同公司:OpenAI · 同概念:AGI
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争]] —— 同公司:Anthropic、OpenAI、SpaceX · 同概念:蒸馏 (distillation)
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同公司:Tesla、Google、OpenAI
-- [[2025-12-07-lennys-surge-ai-edwin-chen|Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理]] —— 同公司:Anthropic · 同概念:AGI
 
 </div>
 <div class="pd-ex">

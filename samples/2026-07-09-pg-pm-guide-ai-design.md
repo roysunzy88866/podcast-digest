@@ -137,7 +137,7 @@ Meng To 展示了他的真实工作区，并强调一个核心理念：**一切�
 
 - [[2026-06-22-latent-space-gray-swan|让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏]] —— 同概念:护栏 (guardrails)、智能体 (agent)、codex
 - [[2026-singju-openclaw-80apps|OpenClaw创始人：为何80%的应用将消失]] —— 同概念:codex、智能体 (agent)、mcp
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性]] —— 同公司:figma · 同概念:智能体 (agent)
+- [[2026-07-28-pg-how-to-build-your-first-eval|评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估]] —— 同嘉宾:Akash · 同概念:智能体 (agent)、codex
 
 </div>
 </div>

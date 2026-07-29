@@ -135,7 +135,7 @@ Zevi 在 Cursor 里构建了一套基于「[[斜杠命令|斜杠命令]]」（�
 
 - [[2026-singju-openclaw-80apps|OpenClaw创始人：为何80%的应用将消失]] —— 同概念:Claude Code、Codex、智能体 (agent)
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得]] —— 同概念:Claude Code、智能体 (agent)
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验]] —— 同公司:Replit · 同概念:智能体 (agent)
+- [[2026-07-28-pg-how-to-build-your-first-eval|评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估]] —— 同概念:智能体 (agent)、Claude Code、Codex
 
 </div>
 </div>

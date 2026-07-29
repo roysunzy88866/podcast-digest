@@ -174,9 +174,9 @@ World Labs 成立至今大约 18 个月,团队目前约 30 人。李飞飞坦言
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|为什么机器人的未来在仿真：World Labs 收购 Cynics 背后的逻辑]] —— 同公司:World Labs · 同概念:Marble、空间智能 (spatial intelligence)
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同公司:ChatGPT、Waymo
 - [[2025-12-07-lennys-surge-ai-edwin-chen|Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理]] —— 同公司:ChatGPT
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代]] —— 同公司:ChatGPT、NVIDIA
 
 </div>
 <div class="pd-ex">

@@ -132,8 +132,8 @@ Signal(C-Y-G-N-A-L,取自天鹅 swan 的谐音)是一个专用过滤模型,它�
 **顺着「AI 安全」挖下去**
 
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|Sriram Krishnan：Kimi K3 将改写 AI 行业版图]] —— 同概念:智能体 (agent)
+- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展]] —— 同概念:沙箱 (sandbox)
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争]] —— 同公司:Anthropic · 同概念:护栏 (guardrails)
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 悬崖边？数据中心次级债与 SpaceX 缩水]] —— 同公司:Anthropic
 
 </div>
 <div class="pd-ex">

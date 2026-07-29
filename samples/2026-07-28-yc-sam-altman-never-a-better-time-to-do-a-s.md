@@ -6,9 +6,10 @@ source_url: undefined
 duration: "38:56"
 type: episode
 cover: "#64748b"
+image: "/covers/2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s.jpg"
 description: 从 YC 到 OpenAI，Sam Altman 剖析 AI 时代的创业时机、愿景坚守与权力分配。
 host: "[[Sam Altman]]"
-companies: ["[[OpenAI]]", "[[YC]]", "[[hugging face]]"]
+companies: ["[[OpenAI]]", "[[YC]]", "[[Hugging Face]]"]
 concepts: ["[[初创公司]]", "[[AGI]]", "[[智能体]]", "[[沙箱]]", "[[对齐失败]]", "[[推理]]", "[[权力集中]]", "[[主观能动性]]"]
 category: 创业与行业
 tags:
@@ -31,7 +32,7 @@ tags:
 > [!info] 关联
 > **主持**:[[Sam Altman]]
 >
-> **涉及公司**:[[OpenAI]] · [[YC]] · [[hugging face]]
+> **涉及公司**:[[OpenAI]] · [[YC]] · [[Hugging Face]]
 >
 > **概念**:[[初创公司]] · [[AGI]] · [[智能体]] · [[沙箱]] · [[对齐失败]] · [[推理]] · [[权力集中]] · [[主观能动性]]
 
@@ -152,6 +153,29 @@ tags:
 > 我对 10 年后的一个反乌托邦感到特别紧张的是我们对 AI 安全过度反应。  
 > *One dystopia that I'm particularly nervous about 10 years from now is we overreact to AI safety.*  
 > —— Sam Altman · [36:57] ^q15
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「创业与行业」挖下去**
+
+- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 悬崖边？数据中心次级债与 SpaceX 缩水]] —— 同公司:OpenAI · 同概念:AGI
+- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|Sriram Krishnan：Kimi K3 将改写 AI 行业版图]] —— 同公司:hugging face、OpenAI
+- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争]] —— 同公司:hugging face、OpenAI
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-07-08-latent-space-modal|从避战大模型到押注智能体：Modal 的推理基础设施进化史]] —— 同公司:OpenAI · 同概念:推理 (inference)、沙箱 (sandbox)
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性]] —— 同公司:OpenAI · 同概念:主观能动性 (agency)
+- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失]] —— 同概念:智能体 (agents)、主观能动性 (agency)
+
+</div>
+</div>
 
 *本集关键词:初创公司 · 黄金时代 · AI 安全 · 权力集中 · 智能体*
 

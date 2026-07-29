@@ -102,6 +102,19 @@ Fei-Fei 进一步指出了人形机器人的悖论：人形是为了在非结构
 > *If you're thinking about where does the robustness come from? Robustness comes from a sufficient coverage of the scenarios that robots might encounter.*  
 > —— Yunzhu Li · [30:46] ^q4
 
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「创业与行业」挖下去**
+
+- [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble]] —— 同公司:World Labs · 同概念:Marble、空间智能 (spatial intelligence)
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同公司:Waymo
+
+</div>
+</div>
+
 *本集关键词:空间智能 · 机器人 · 仿真 · 世界模型 · 数据瓶颈*
 
 <script>

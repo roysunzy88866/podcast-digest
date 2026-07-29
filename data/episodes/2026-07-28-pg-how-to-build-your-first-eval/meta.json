@@ -1,0 +1,35 @@
+{
+  "id": "2026-07-28-pg-how-to-build-your-first-eval",
+  "source_url": "https://www.news.aakashg.com/p/how-to-build-your-first-eval",
+  "substack_post_id": 208581072,
+  "audio_mp3": "https://api.substack.com/api/v1/audio/upload/e6514c86-f96f-45cd-9fdd-4110c845127a/src",
+  "duration_sec": 3407.6606666666667,
+  "transcript_source": "Substack 官方 aligned transcription.json(说话人标注+逐词时间戳);由 scripts/fetch-source.mjs 取",
+  "transcript_segments": 1029,
+  "cover_official_url": "https://substackcdn.com/image/youtube/w_728,c_limit/ztN6bE_FuQQ",
+  "title_en": "How to Build Frontier-Lab Quality Evals with Daniel McKinnon, ex-PM at Meta, Google",
+  "podcast": "Product Growth Podcast",
+  "date": "2026-07-28",
+  "speaker_map": {
+    "SPEAKER_01": "Daniel McKinnon",
+    "SPEAKER_02": "Akash"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Daniel McKinnon",
+  "cohosts": [
+    "Akash"
+  ],
+  "title_zh": "评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估",
+  "guest_name": "Daniel McKinnon",
+  "guest_title": "前 Meta/Google PM",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://substackcdn.com/image/youtube/w_728,c_limit/ztN6bE_FuQQ",
+    "origin_px": "728x410",
+    "aspect": 1.776,
+    "fetched_at": "2026-07-29T05:31:26.060Z"
+  }
+}

@@ -119,9 +119,9 @@ Modal 最初并不是一家 GPU 推理公司。Akshat 回忆，Erik 最早的出
 
 **换个口味**
 
+- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展]] —— 同公司:OpenAI · 同概念:推理 (inference)、沙箱 (sandbox)
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构]] —— 同公司:Anthropic · 同概念:智能体 (agent)
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品]] —— 同概念:智能体 (agent)、DX
 
 </div>
 </div>

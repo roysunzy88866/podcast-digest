@@ -1,0 +1,1175 @@
+{
+  "episode_id": "2026-07-28-pg-how-to-build-your-first-eval",
+  "podcast": "Product Growth Podcast",
+  "date": "2026-07-28",
+  "tags": [
+    "评估",
+    "AI 产品管理",
+    "智能体",
+    "基因组学",
+    "离线评估"
+  ],
+  "categories": [
+    "产品方法",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "daniel-mckinnon",
+      "type": "person",
+      "role": "host",
+      "name": "Daniel McKinnon",
+      "file": "Daniel McKinnon",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            13.01,
+            15.013
+          ],
+          "quote": "Meet Daniel McKinnon, former PM.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "akash",
+      "type": "person",
+      "role": "cohost",
+      "name": "Akash",
+      "file": "Akash",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 535,
+          "t": [
+            1834.746,
+            1837.387
+          ],
+          "quote": "If you lead a team, check out ariso.ai slash akash.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 570,
+          "t": [
+            1939.641,
+            1944.073
+          ],
+          "quote": "Start measuring your AI's performance with Agent Analytics at pendo.io slash akash.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "eval",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (eval)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "本集把它说成:在 Gen AI 时代取代产品需求文档(PRD)的最佳方式,本质是一套预先准备好的提示词、答案以及打分方法,用来定义产品行为的边界,离线衡量产品是否会满足用户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            161.695,
+            162.826
+          ],
+          "quote": "And that's what an eval is.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 56,
+          "t": [
+            179.583,
+            182.975
+          ],
+          "quote": "let's ship it into prod and see if they actually like it with an online eval.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 58,
+          "t": [
+            186.467,
+            190.048
+          ],
+          "quote": "of Gen AI era is, is it performing well on an offline eval?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            197.032,
+            200.844
+          ],
+          "quote": "but it's better to find that out early with an offline eval versus just shipping it",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 64,
+          "t": [
+            205.136,
+            209.06699999999998
+          ],
+          "quote": "what's an offline eval versus just shipping to broad and looking at them?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 73,
+          "t": [
+            235.93,
+            238.071
+          ],
+          "quote": "An offline eval would be a prompt set,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            272.053,
+            276.496
+          ],
+          "quote": "that performance on that offline eval set will reflect the satisfaction of the user",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            276.536,
+            277.59155555555554
+          ],
+          "quote": "in the online eval.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 92,
+          "t": [
+            298.463,
+            302.704
+          ],
+          "quote": "And this has been now two years in that an eval is the best way",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            378.856,
+            382.877
+          ],
+          "quote": "HumanEval is ironically an automated eval of Python.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            476.402,
+            479.7353333333333
+          ],
+          "quote": "it's really a mechanical process to actually write the eval.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            494.068,
+            498.73466666666667
+          ],
+          "quote": "Can be less, can be more, but this is a typical size of an eval in the Gen AI world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 151,
+          "t": [
+            507.986,
+            510.6526666666667
+          ],
+          "quote": "If you create a very easy eval that scores 100%,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            513.869,
+            516.6467777777779
+          ],
+          "quote": "And if you create a very hard eval that scores 0%,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 252,
+          "t": [
+            850.2,
+            855.383
+          ],
+          "quote": "A typical good eval will have something like 25%, 50% success rate.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            937.958,
+            940.459
+          ],
+          "quote": "an actual agentic eval in real time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 282,
+          "t": [
+            944.321,
+            948.523
+          ],
+          "quote": "It is unrealistic in 45 minutes to come up with a brand new eval.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1081.227,
+            1085.251
+          ],
+          "quote": "You will unlikely be successful in creating an eval for some topic",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1183.935,
+            1186.6572222222221
+          ],
+          "quote": "So we're going to have our agentic genetics eval,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1206.257,
+            1208.798
+          ],
+          "quote": "this is a somewhat niche eval,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1224.743,
+            1229.009
+          ],
+          "quote": "So this is the actual variant that's going to exist in our eval.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1248.657,
+            1252.0320000000002
+          ],
+          "quote": "Like if you're trying to come up with an eval for Python coding,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1387.286,
+            1392.668
+          ],
+          "quote": " And we're actually asking AI to help us create the eval for AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 575,
+          "t": [
+            1959.77,
+            1965.454
+          ],
+          "quote": "Because if it's just totally saturated, then what's the point of even having eval?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 795,
+          "t": [
+            2686.105,
+            2687.377
+          ],
+          "quote": "And then you have your eval.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 836,
+          "t": [
+            2814.025,
+            2817.687
+          ],
+          "quote": " So yeah, with that, that's how you write an agentic eval.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 842,
+          "t": [
+            2832.153,
+            2836.7459999999996
+          ],
+          "quote": "You're not giving us an eval template like we might have given people a PRD template before.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 892,
+          "t": [
+            2976.149,
+            2979.151
+          ],
+          "quote": "And then that would really be the basis for your eval.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "prd",
+      "type": "concept",
+      "role": "concept",
+      "name": "PRD",
+      "file": "PRD",
+      "primary": true,
+      "how_described": "本集把它说成:过去产品经理用来传达产品诉求的文档,详细规定产品各种情况下的运作方式和用户价值,但在 Gen AI 时代因为产品能做的事太多、难以用文字描述,其核心职能被评估取代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            108.53,
+            111.014
+          ],
+          "quote": "Do evils replace the PRD?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 36,
+          "t": [
+            112.824,
+            117.926
+          ],
+          "quote": "so I think it was like a little bit spicy in saying it replaces the PRD because",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 842,
+          "t": [
+            2832.153,
+            2836.7459999999996
+          ],
+          "quote": "You're not giving us an eval template like we might have given people a PRD template before.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 879,
+          "t": [
+            2930.99,
+            2934.871
+          ],
+          "quote": "You can't just write down a PRD and say they want beautiful kitchens.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:取代了过去的问答任务,需要执行许多步骤的长周期任务执行者,这些步骤可能涉及思考(推理)或调用搜索等工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 183,
+          "t": [
+            611.866,
+            614.4215555555555
+          ],
+          "quote": "An agent, a research tool, a trends dashboard.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1171.411,
+            1178.411
+          ],
+          "quote": " So I'm going to make sure that my agent can actually get this before I go forward.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 448,
+          "t": [
+            1552.903,
+            1554.863
+          ],
+          "quote": "And we'll say, use our agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 450,
+          "t": [
+            1557.284,
+            1559.205
+          ],
+          "quote": "And I'm using Codex as our agent,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 458,
+          "t": [
+            1578.644,
+            1580.765
+          ],
+          "quote": "All right, so the agent finished here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 464,
+          "t": [
+            1594.971,
+            1598.713
+          ],
+          "quote": "So we're going to see if our agent is able to do it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 498,
+          "t": [
+            1711.768,
+            1716.77
+          ],
+          "quote": "you can see what's already happened with our first agent is after one minute",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 569,
+          "t": [
+            1936.039,
+            1939.5910000000001
+          ],
+          "quote": "Pendo Agent Analytics is the only solution built to do this for product teams.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 570,
+          "t": [
+            1939.641,
+            1944.073
+          ],
+          "quote": "Start measuring your AI's performance with Agent Analytics at pendo.io slash akash.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2024.091,
+            2027.9470000000001
+          ],
+          "quote": "an agent should be able to search the internet and find every publication",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "工具框架 (harness)",
+      "file": "工具框架",
+      "primary": true,
+      "how_described": "本集把它说成:包裹在核心前沿模型外围的代码框架,赋予模型调用工具和推理的能力,使其能够执行多步任务。如果没有极强的 harness,目前模型解决不了困难问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            190.149,
+            193.79
+          ],
+          "quote": "And if not, you either need to change the model, change the harness, or change the product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1112.043,
+            1114.9874444444442
+          ],
+          "quote": "I'm usually talking about the model plus the harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 452,
+          "t": [
+            1560.885,
+            1565.327
+          ],
+          "quote": "Klein, OpenCode, ClaudeCode, your custom harness, any way you could.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 595,
+          "t": [
+            2039.572,
+            2043.544
+          ],
+          "quote": "that are called like harness engineering companies or vertical AI companies",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 785,
+          "t": [
+            2657.393,
+            2660.776
+          ],
+          "quote": "no model on the planet gets this without like a very, very strong harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 786,
+          "t": [
+            2660.816,
+            2662.578
+          ],
+          "quote": "Again, I'm working on that very strong harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 806,
+          "t": [
+            2717.707,
+            2721.798
+          ],
+          "quote": "Fix the model or fix the harness and make sure that it can get these in the future",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "whole-genome-sequencing",
+      "type": "concept",
+      "role": "concept",
+      "name": "全基因组测序 (whole genome sequencing)",
+      "file": "全基因组测序",
+      "primary": true,
+      "how_described": "本集把它说成:目前新生儿重症监护病房(NICU)中针对病患婴儿的诊断绝对金标准;但解读其结果极其耗费人力,严重限制了这项救命技术的普及。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 291,
+          "t": [
+            974.603,
+            981.603
+          ],
+          "quote": "is that whole genome sequencing has Become the absolute gold standard in diagnostics",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 973,
+          "t": [
+            3187.763,
+            3192.871
+          ],
+          "quote": "much easier to get whole genome sequencing into every single NICU in",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "offline-eval",
+      "type": "concept",
+      "role": "concept",
+      "name": "离线评估 (offline eval)",
+      "file": "离线评估",
+      "primary": true,
+      "how_described": "本集把它说成:在产品开发期间离线运行的预先准备好的测试题,作为真实用户流量的代理,是衡量 Gen AI 产品是否可能满足用户的最好方法,能在开发早期发现不可行性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            186.467,
+            190.048
+          ],
+          "quote": "of Gen AI era is, is it performing well on an offline eval?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 61,
+          "t": [
+            197.032,
+            200.844
+          ],
+          "quote": "but it's better to find that out early with an offline eval versus just shipping it",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 64,
+          "t": [
+            205.136,
+            209.06699999999998
+          ],
+          "quote": "what's an offline eval versus just shipping to broad and looking at them?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 73,
+          "t": [
+            235.93,
+            238.071
+          ],
+          "quote": "An offline eval would be a prompt set,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            272.053,
+            276.496
+          ],
+          "quote": "that performance on that offline eval set will reflect the satisfaction of the user",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "goldilocks",
+      "type": "concept",
+      "role": "concept",
+      "name": "金发姑娘 (Goldilocks)",
+      "file": "金发姑娘",
+      "primary": true,
+      "how_described": "本集把它说成:编写评估时寻找难度的诀窍,即提示词不能太难也不能太简单,目标是让模型得分在 25% 到 50% 左右,留出优化余地。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 249,
+          "t": [
+            844.276,
+            845.707
+          ],
+          "quote": "I call this Goldilocks style.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1096.22,
+            1100.421
+          ],
+          "quote": " So Again, we want to find this like Goldilocks set of prompts.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gamoff-labs",
+      "type": "company",
+      "role": "company",
+      "name": "Gamoff Labs",
+      "file": "Gamoff Labs",
+      "primary": true,
+      "how_described": "本集把它说成:嘉宾创办的初创公司,旨在利用 AI 增强人类解读基因组的能力,让全基因组测序更容易进入全世界的每一个新生儿重症监护病房(NICU)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 970,
+          "t": [
+            3178.83,
+            3181.33
+          ],
+          "quote": "So I've started a company called Gamoff Labs.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集把它说成:嘉宾在终端演示中使用的智能体工具,用于修改基因组文件,并在评估测试中于简单任务上快速锁定了正确的囊性纤维化突变区域。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 379,
+          "t": [
+            1309.501,
+            1313.767
+          ],
+          "quote": "a terminal window I have open here and I'm using Codex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 427,
+          "t": [
+            1486.832,
+            1488.7830000000001
+          ],
+          "quote": " This is what Codex is doing right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 439,
+          "t": [
+            1519.37,
+            1523.572
+          ],
+          "quote": "So basically what's going to happen is that codex is going to add,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 450,
+          "t": [
+            1557.284,
+            1559.205
+          ],
+          "quote": "And I'm using Codex as our agent,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 505,
+          "t": [
+            1735.969,
+            1739.052
+          ],
+          "quote": " Especially not with a powerful system like Codex.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 599,
+          "t": [
+            2057.281,
+            2064.244
+          ],
+          "quote": "Okay, so Codex with GPT 5.3 says, okay, this, if you recall, this is the deletion that we added.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": false,
+      "how_described": "本集把它说成:在讨论智能体编码时代新范式时顺带提及的工具之一,代表了两年前到现在的任务复杂度巨变。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            342.401,
+            346.283
+          ],
+          "quote": "But this is before Claude code and agentic coding and all",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mmlu",
+      "type": "concept",
+      "role": "concept",
+      "name": "MMLU",
+      "file": "MMLU",
+      "primary": false,
+      "how_described": "本集把它说成:过去大模型时代标准的纯问答基准测试,但现在已经完全饱和,不再是衡量模型前沿能力的有效指标。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            374.835,
+            378.616
+          ],
+          "quote": "MMLU, HellaSwag, Arc, Winograd, HumanEval.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 117,
+          "t": [
+            387.743,
+            390.267
+          ],
+          "quote": "So I dropped one example here from MMLU.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 736,
+          "t": [
+            2515.179,
+            2520.101
+          ],
+          "quote": "If you remember, MMLU, this used to be like the canonical benchmark for LLMs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 758,
+          "t": [
+            2579.035,
+            2583.578
+          ],
+          "quote": "But the answers to MMLU might be inside the model weights,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "llm-judge",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM 裁判 (LLM judge)",
+      "file": "LLM 裁判",
+      "primary": false,
+      "how_described": "本集把它说成:用另一个模型来给当前模型的输出打分的自动化评估方法,例如用于图像生成领域,是构建复杂评估打分系统的基础。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 891,
+          "t": [
+            2970.985,
+            2976.089
+          ],
+          "quote": "You'd understand, oh, this is how I build an LLM judge that generates images of this type.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "pinterest",
+      "type": "company",
+      "role": "company",
+      "name": "Pinterest",
+      "file": "Pinterest",
+      "primary": false,
+      "how_described": "本集把它说成:嘉宾举例时提到的公司,假设你作为 PM 在此构建更好的图像生成功能,你需要从第零天开始用具体的例子定义成功。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 15,
+          "t": [
+            48.015,
+            51.497
+          ],
+          "quote": "You work at Pinterest and you want to have a better image generation",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 872,
+          "t": [
+            2910.767,
+            2914.529
+          ],
+          "quote": "You work at Pinterest and you want to have a better image generation",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 876,
+          "t": [
+            2925.369,
+            2927.757888888889
+          ],
+          "quote": "What is unique about those Pinterest users?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集把它说成:一种更具攻击性、由创始人绝对控制的产品主导文化,与工程主导、共识驱动的 Google 形成鲜明对比。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            30.191,
+            34.635444444444445
+          ],
+          "quote": " What really is the difference between product management at Meta versus Google?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 9,
+          "t": [
+            33.726,
+            36.998000000000005
+          ],
+          "quote": " Meta is like a much, much more aggressive culture in many ways.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 11,
+          "t": [
+            39.81,
+            42.36555555555556
+          ],
+          "quote": "whereas Meta is more of a product-led company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 903,
+          "t": [
+            3005.725,
+            3007.086
+          ],
+          "quote": "at Meta versus Google.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 907,
+          "t": [
+            3012.348,
+            3016.076
+          ],
+          "quote": "What really is the difference between product management at Meta versus Google?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 921,
+          "t": [
+            3055.409,
+            3061.29
+          ],
+          "quote": "like my key takeaways for what Google versus Meta was like is Meta is like a much,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 956,
+          "t": [
+            3143.274,
+            3145.825
+          ],
+          "quote": "whereas Meta is more of a product led company.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集把它说成:一家更由工程主导、产品管理职能相对较弱、决策更多由共识驱动的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            30.191,
+            34.635444444444445
+          ],
+          "quote": " What really is the difference between product management at Meta versus Google?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 10,
+          "t": [
+            37.048,
+            39.760000000000005
+          ],
+          "quote": "Google is considered to be more of an engineering-led company,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            358.369,
+            362.991
+          ],
+          "quote": "I don't know if everyone remembers when Google's stock tanked because this was going",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 178,
+          "t": [
+            592.596,
+            595.4670000000001
+          ],
+          "quote": "you know, Google did a generative search experience.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 190,
+          "t": [
+            628.754,
+            630.575
+          ],
+          "quote": "structured results from Google,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 191,
+          "t": [
+            630.796,
+            634.458
+          ],
+          "quote": "YouTube, Bing, Google News, Google Scholar, and more.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 194,
+          "t": [
+            642.002,
+            644.464
+          ],
+          "quote": "Take the Google Scholar API as one example.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 726,
+          "t": [
+            2474.623,
+            2479.746
+          ],
+          "quote": "So if you'll remember, Gemini Ultra, oh wow, did Google actually bury it?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 728,
+          "t": [
+            2483.163,
+            2489.145
+          ],
+          "quote": "So you'll remember way back in 2023 when people thought Google was kind of out of the AI race.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 730,
+          "t": [
+            2492.626,
+            2499.228
+          ],
+          "quote": "Google released Gemini Ultra, which I believe was a 660B dense model, which was crazy back then.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 743,
+          "t": [
+            2537.86,
+            2539.5119999999997
+          ],
+          "quote": "And Google wanted to be the best.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 903,
+          "t": [
+            3005.725,
+            3007.086
+          ],
+          "quote": "at Meta versus Google.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 907,
+          "t": [
+            3012.348,
+            3016.076
+          ],
+          "quote": "What really is the difference between product management at Meta versus Google?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 910,
+          "t": [
+            3021.072,
+            3023.627555555556
+          ],
+          "quote": "at Google three and a half years ago, I think.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 912,
+          "t": [
+            3025.577,
+            3028.42
+          ],
+          "quote": "When I was at Google, Google was a dead company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 921,
+          "t": [
+            3055.409,
+            3061.29
+          ],
+          "quote": "like my key takeaways for what Google versus Meta was like is Meta is like a much,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 939,
+          "t": [
+            3098.299,
+            3100.272
+          ],
+          "quote": "If you want to read about that story, Google it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 951,
+          "t": [
+            3132.309,
+            3134.53
+          ],
+          "quote": "Because, you know, Google is much more consensus driven.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 952,
+          "t": [
+            3134.55,
+            3137.772
+          ],
+          "quote": "I think Google has much weaker product management function.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 955,
+          "t": [
+            3140.453,
+            3143.2239999999997
+          ],
+          "quote": "Google is considered to be more of an engineering led company,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 999,
+          "t": [
+            3290.115,
+            3294.778
+          ],
+          "quote": "at least in my audience, you want to become that AIPM at Met or Google.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1002,
+          "t": [
+            3302.023,
+            3305.365
+          ],
+          "quote": "This is where I've seen those AIPMs at Met and Google go,",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

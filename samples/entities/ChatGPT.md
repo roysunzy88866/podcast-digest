@@ -9,7 +9,7 @@ aliases: ["chat gpt", "ChatGPD"]
 # ChatGPT
 
 > [!info] 公司 · 又名 chat gpt / ChatGPD
-> 出现在 7 集 · 金句 1 条 · 关联 10 个
+> 出现在 8 集 · 金句 1 条 · 关联 10 个
 
 ## 集里怎么说它
 
@@ -18,6 +18,7 @@ aliases: ["chat gpt", "ChatGPD"]
 - **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]]**(06:08起):本集将其描述为一种给出相当通用答案的通用 AI 聊天产品,并强调未来专门针对个人的 AI 教练会比通用 ChatGPT 强大得多。
 - **[[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]]**(02:06起):本集把它说成:传统的托管型 AI 工具;嘉宾将 OpenClaw 与之对比,强调用 OpenClaw 就像“自己组装电脑”,学到的东西远超按按按钮就用 ChatGPT,体验也更有趣。
 - **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]]**(70:36起):本集提到消费者会花钱试用它，但发现每月支付 20 美元后，得到的只是一个类似“Siri 1.0”的体验，从而对它失去耐心。
+- **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展》]]**(32:33起):本集提到：OpenAI 在成立几年后才想出要做这个面向用户付费的产品。
 - **[[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]]**(01:05起):集里作为对比对象被提及，强调由于在云端运行它只能做有限的事（比如做不到控制嘉宾床的温度），且各家（如 ChatGPT）都有自己的数据孤岛，无法被别的公司提取记忆。
 
 ## 金句
@@ -32,8 +33,9 @@ aliases: ["chat gpt", "ChatGPD"]
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] — 作为概念
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] — 作为概念(提及)
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] — 作为概念(提及)
+- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展》]] — 作为概念(提及)
 - [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] — 作为被讨论公司(提及)
 
 ## 关联实体
 
-[[Lenny]] · [[智能体]] · [[Waymo]] · [[NVIDIA]] · [[Anthropic]] · [[OpenAI]] · [[OpenClaw]] · [[Google]] · [[Claude Code]] · [[主观能动性]]
+[[Lenny]] · [[智能体]] · [[Waymo]] · [[OpenAI]] · [[主观能动性]] · [[NVIDIA]] · [[Anthropic]] · [[OpenClaw]] · [[Google]] · [[AGI]]

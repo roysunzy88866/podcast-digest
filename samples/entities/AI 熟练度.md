@@ -8,7 +8,7 @@ unlisted: true
 # AI 熟练度 (AI fluency)
 
 > [!info] 概念
-> 出现在 1 集 · 金句 44 条 · 关联 10 个
+> 出现在 1 集 · 金句 50 条 · 关联 10 个
 
 ## 集里怎么说它
 
@@ -103,6 +103,18 @@ unlisted: true
 ![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q6]]
 
 ![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q9]]
+
+![[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r#^q3]]
+
+![[2026-07-28-pg-how-to-build-your-first-eval#^q1]]
+
+![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q9]]
+
+![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q10]]
+
+![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q11]]
+
+![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q15]]
 
 ## 出现在这些集
 

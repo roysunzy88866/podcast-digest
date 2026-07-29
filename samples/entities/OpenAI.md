@@ -8,7 +8,7 @@ unlisted: true
 # OpenAI
 
 > [!info] 公司
-> 出现在 11 集 · 金句 0 条 · 关联 10 个
+> 出现在 12 集 · 金句 2 条 · 关联 10 个
 
 ## 集里怎么说它
 
@@ -23,6 +23,13 @@ unlisted: true
 - **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]]**(10:54起):本集把它说成:尚未实现长期盈利、但已被大型科技公司依赖其持续付钱来支撑 AI 数据中心债务的 AI 实验室,其 API 开放策略被质疑与「AGI 或破产」叙事自相矛盾。
 - **[[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]]**(02:28起):本集提及的顶尖闭源大厂之一，曾发生过黑客入侵 Hugging Face 的安全事件，目前并未解决棘手的奖励黑客问题。
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]]**(00:12起):本集提到的一家 AI 公司，主持人在开篇指出在 Anthropic 刚创立时，认为 OpenAI 遥遥领先，Anthropic 毫无机会。
+- **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展》]]**(11:44起):本集把它说成：由非营利研究实验室起步，在长时间被误解为白痴的时光里稳步发展；近期发生过模型失控的安全事件，同时也是首家瞄准通用人工智能的公司。
+
+## 金句
+
+![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q4]]
+
+![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q6]]
 
 ## 出现在这些集
 
@@ -37,7 +44,8 @@ unlisted: true
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]] — 作为被讨论公司
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]] — 作为被讨论公司(提及)
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]] — 作为被讨论公司(提及)
+- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展》]] — 作为被讨论公司
 
 ## 关联实体
 
-[[Anthropic]] · [[Lenny]] · [[智能体]] · [[Google]] · [[蒸馏]] · [[Tesla]] · [[PRD]] · [[Claude]] · [[Theo Jaffe]] · [[SpaceX]]
+[[Anthropic]] · [[Lenny]] · [[智能体]] · [[ChatGPT]] · [[AGI]] · [[蒸馏]] · [[Google]] · [[Hugging Face]] · [[Stripe]] · [[Tesla]]

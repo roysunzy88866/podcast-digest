@@ -148,8 +148,8 @@ Laurel 提出了一个「[[船长|船长]]」模式：每个项目任命一位�
 **顺着「产品方法」挖下去**
 
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性]] —— 同公司:GitHub · 同概念:智能体 (agent)
+- [[2026-07-28-pg-how-to-build-your-first-eval|评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估]] —— 同嘉宾:Akash · 同概念:智能体 (agent)
 - [[2025-11-20-lennys-slack-founder-stewart-butterfield|把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学]] —— 同公司:Slack
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同概念:智能体 (agent)
 
 </div>
 <div class="pd-ex">

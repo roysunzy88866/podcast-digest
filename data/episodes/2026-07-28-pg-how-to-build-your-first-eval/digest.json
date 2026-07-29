@@ -1,0 +1,111 @@
+{
+  "title_zh": "评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估",
+  "tldr": "前 Meta/Google PM 深入演示如何从零构建智能体评估，通过临床基因组学案例揭示垂直 AI 产品的核心难点。",
+  "digest_md": "两年前，前 Meta 和 Google 产品经理 Daniel McKinnon 写了一篇广为流传的文章，抛出一个辛辣观点：**评估将取代产品需求文档（PRD）**。两年过去，核心论点依然成立，但因为模型从简单的问答变成了执行多步任务的智能体（能够自主调用工具、推理并采取行动的 AI 系统），评估的写法已经天翻地覆。本集 Daniel 以他自己正在创业的临床基因组学领域为例，在播客中近乎实时地演示了一遍：从头构建一个真正的智能体评估，到底分几步，以及为什么这件事「看起来简单，实则极具欺骗性」。\n\n### 为什么评估能取代 PRD？\n\n回到最初的论点，Daniel 解释说，说评估「取代」PRD 有点辛辣，因为产品战略和特定客户依然不可或缺，那可能只需要一两句话交代清楚 [02:04 Daniel McKinnon]。但过去 PRD 文档中最庞大的部分——详细规定产品在各种具体情况下应该如何运作、用户能从中获取什么价值——在 Gen AI 时代被彻底颠覆了。\n\n原因在于，现在的 AI 产品能做的事情太多了，很难再用文字描述清楚它的行为边界。传达产品诉求最好的方式变成了**具体的例子**，而这正是评估的本质 [02:37 Daniel McKinnon]。评估就像是给模型出的一套「冷知识测验题」，它定义了产品需要做好的事情轮廓。如果模型在这些测验上表现良好，用户大概率会喜欢；如果不行，你就要改模型、改工具（harness，指包裹在模型外围、赋予其调用工具和推理能力的代码框架）或改产品。比起直接上线让真实用户承受糟糕的体验，通过离线评估能极早地发现你想做的事到底在今天的技术下可不可行 [03:13 Daniel McKinnon]。\n\n但仅仅理解这个理念还不够。要真正掌握评估，必须理解过去两年模型任务范式的剧变。\n\n### 旧范式：饱和的问答基准\n\n两年前，AI 的核心范式是问答（QA），人们甚至认为生成式 AI 将直接取代搜索 [05:52 Daniel McKinnon]。当时的评估非常简单直白。以 OpenAI 当年报告 GPT-4 表现时引用的基准为例，像 MMLU、HumanEval 这些，全都是纯问答：你有一套预先准备好的问题和一个标准答案，用评分机打分就行 [06:14 Daniel McKinnon]。如果你要做一个食谱网站生成冰淇淋配方的功能，你的离线评估就是准备 100 个关于冰淇淋的提示词，并设定好怎么打分 [03:55 Daniel McKinnon]。\n\n关键技巧在于寻找**「金发姑娘」级别**的难度——不能太难也不能太简单。如果评估得分为 100%，工程团队没有优化空间；如果得分为 0%，你甚至不知道这技术今天能不能实现。留出余地，让得分大约在 50% 左右是最典型的 [08:23 Daniel McKinnon]。\n\n> 【背景】模型在问答类任务上已经完全饱和了。今天我们不再指望模型只能回答高中物理题，而是期待它们在国际奥林匹克数学竞赛中拿金牌。\n\n所以，如果你看看今天各大实验室（如 Anthropic 报告 Opus 4.8 进展时）使用的基准，你会发现完全不同：智能体编码（agentic coding，让 AI 像程序员一样写代码）、智能体终端操作、跨学科推理、智能体计算机使用等 [13:05 Daniel McKinnon]。模型的任务不再是从用户那里拿一个提示词返回一个答案，而是接下一个需要许多步骤的任务，中间可能涉及推理（思考）、工具调用（如搜索）或更高级的操作。\n\n这意味着编写评估的全新范式：你不再思考「问答」，而是在思考「长周期的任务」。这对评分提出了巨大挑战。\n\n### 演示开始：临床基因组学难题\n\n为了展示这个新范式，Daniel 用他自己的创业公司正在解决的问题进行了现场演示：衡量和提高模型在临床基因组学方面的能力 [15:59 Daniel McKinnon]。他选择的测试模型包括 Codex（使用 GPT 5.3）、Haiku 以及 GPT 5.5。\n\n这个领域的背景是：全基因组测序已经成为新生儿重症监护病房（NICU）中针对病患婴儿的诊断绝对金标准。不幸的是，解读这份测序结果非常耗费人力，这严重限制了这项救命技术的普及 [16:14 Daniel McKinnon]。\n\n要给基因组解读做评估，你首先必须深刻理解问题，这也正是为什么各大 AI 实验室在疯抢投资银行家、会计师和律师——垂直领域的专业背景是创建评估的绝对前提 [17:48 Daniel McKinnon]。\n\nDaniel 首先确立了一个**简单的下限**。他选择了病因非常明确的单基因遗传病——囊性纤维化。他直接用 Codex 让 AI 在代表人类基因组的文本文件中，特定位置（7 号染色体）加上一个特定的基因缺失（变异） [21:49 Daniel McKinnon]。然后，他把修改后的基因组文件连同囊性纤维化的症状描述喂给不同的智能体，看它们能否找出遗传原因。结果，GPT 5.3 在一分钟内就锁定了 CFTR 突变区域 [28:36 Daniel McKinnon]。下限确立了：这个任务至少是可能的。但出人意料的是，较弱的 Haiku 模型在这个看似简单的任务上失败了，它产生了幻觉，谎报了缺失 [35:04 Daniel McKinnon]。\n\n确认了下限后，必须确立**困难的上限**，否则任务完全饱和，做评估就失去了意义。\n\n### 探寻上限：二基因遗传病与采样\n\n为了测试难度的天花板，Daniel 挑战了一项去年才发表在论文里的前沿难题：由两个不同基因上的杂合变异共同导致的先天性心脏病（二基因遗传病） [33:09 Daniel McKinnon]。\n\n他把论文里的真实患者数据（包含两个特定的基因变异）导入基因组文件，然后让三个智能体去寻找遗传学原因。结果：GPT 5.3 的回答完全跑偏，找了一堆不相关的变异；Haiku 依然离谱 [43:46 Daniel McKinnon]。这证明，如果没有极强的外部工具支撑，目前没有模型能搞定这种级别的难题。通过这一步，上限被清晰确立了。\n\n> 【背景】转写稿中将「digenic」（双基因）误写为 diagenic / diagenic pairs，文中已直接修正为正确拼写。\n\n这里引出了一个关于**采样（sampling）**的技术细节：同一个提示词在模型里跑多次有意义吗？Daniel 解释说，采样在以前很重要。比如 2023 年 Google 发布 Gemini Ultra 时，在 MMLU 基准测试上用了 32 次采样，相比之下 GPT-4 只用了 5 次，这被视作一种提高准确率的取巧手段 [42:30 Daniel McKinnon]。但在今天基于他个人的经验，由于模型能力增强，多次采样产生不同答案的效应已经不那么明显了 [43:14 Daniel McKinnon]。有趣的是，在这个难题上，当 GPT 5.5 重新跑了一次后，它这次居然正确地锁定了那对致病基因——它成功搜到了那篇特定的论文并提取了结果 [45:54 Daniel McKinnon]。\n\n一旦确立了下限和上限，剩下的就像二分搜索一样，在简单、中等、困难之间不断填充提示词，最终你会得到一个电子表格，完全基于领域专业知识来驱动评估 [44:30 Daniel McKinnon]。\n\n### PM 的新基本功：用例子思考\n\n明白了这套流程，我们就能回答那个最核心的问题：如果你是一个从来没做过 AI 功能的 PM，应该从哪里入手？\n\nDaniel 的建议是：从第零天开始思考，成功是什么样子的？你不能只写一份 PRD 说「用户想要漂亮的厨房图片」，你必须明确定义什么是漂亮——不是用文字，而是用**例子**，以及一套打分的方法 [48:50 Daniel McKinnon]。如果你在 Pinterest 要做图像生成，你得先弄懂怎么构建一个图像领域的 LLM 裁判（LLM judge，用另一个模型来给当前模型的输出打分），以此作为评估的基础。\n\n这背后的残酷现实是：评估看似简单，本质上是提示词、回复和打分方法的组合，但它极度依赖专业直觉。所以如果你没有做过，最好找个懂行的人帮你 [47:55 Daniel McKinnon]。\n\n在访谈的最后，我们顺带探讨了 Daniel 曾在 Meta 和 Google 的工作经历。简而言之：Meta 是一种更具攻击性、由创始人绝对控制的产品主导文化；而 Google 更多是由共识驱动、由工程主导的文化 [50:55 Daniel McKinnon]。这种高强度的 AI PM 经历，也自然引向了 Daniel 自己的下一步。\n\n### 走向创业：Gamoff Labs\n\n正是基于对评估和智能体 harness 的深刻理解，Daniel 创办了 Gamoff Labs。公司的核心目标是让全基因组测序更容易进入全世界的每一个 NICU，无论是阿肯色州的乡村还是印度、中国的乡村 [53:04 Daniel McKinnon]。这不仅仅是一个技术挑战，更是想用 AI 增强人类解读基因组的能力，从而拯救那些原本无法获得这项救命技术的新生儿。\n\n## 本集带走\n\n1. **评估取代 PRD 的本质**：在 AI 产品什么都能做的情况下，文字描述失效了。传达产品诉求唯一可靠的方式，是用一组具体的「问题+答案+打分标准」（即离线评估）来定义产品行为的边界。\n2. **范式转移**：从做问答（QA）评估，转向做长周期的智能体任务评估。这要求你不仅要准备提示词，还要考虑模型调用工具的完整链路，并且用自动化手段对极长、极复杂的输出进行打分。\n3. **寻找金发姑娘区间**：好的评估必须包含从简单到困难的任务分布，目标是找到模型得分在 25%-50% 的区间，留出优化余地；并明确找出当前模型的上限在哪里，以此决定产品该加什么护栏。\n4. **垂直专业知识 > 工具模板**：写评估最大的门槛不是找什么现成的模板或软件，而是对该领域（如基因组学、法律、财务）的深度理解，这也是为什么实验室在疯抢垂直领域的专家。\n5. **以具体例子定义成功**：如果你是新手 PM，做 AI 功能的第一天就该思考怎么用具体的例子（而非抽象的文字）去描述成功，并想办法把这转化为可以跑分的数据集。",
+  "quotes": [
+    {
+      "en": "But if you look at all the headlines in Gen AI right now, it's not QA, it's agents.",
+      "zh": "但如果你看看现在生成式人工智能的所有头条新闻，它不是质量保证，它是智能体。",
+      "timestamp": "09:55",
+      "speaker": "Daniel McKinnon"
+    },
+    {
+      "en": "All this means is what the core model task is, is no longer to get a prompt from a user and come back with an answer, But it is actually to get a task from a user that requires many, many steps.",
+      "zh": "所有这一切意味着核心模型任务是什么，不再是从用户那里获取一个提示词并返回一个答案，但实际上是从用户那里获取一个需要许多、许多步骤的任务。",
+      "timestamp": "13:20",
+      "speaker": "Daniel McKinnon"
+    },
+    {
+      "en": "you have to explicitly define what a beautiful kitchen is and Not in words, in examples.",
+      "zh": "但你必须明确定义什么是漂亮的厨房，而且不是用文字，是用例子。",
+      "timestamp": "48:55",
+      "speaker": "Daniel McKinnon"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "And the best way to actually communicate what the product should do is through examples.",
+      "zh": "而实际上传达产品应该做什么的最好方式是通过例子。",
+      "timestamp": "02:37",
+      "speaker": "Daniel McKinnon"
+    },
+    {
+      "en": "It's better to find that out early with an offline eval versus just shipping it to prod and getting frustrated users.",
+      "zh": "最好尽早通过离线评估发现这一点，而不是直接发布到生产环境并导致用户沮丧。",
+      "timestamp": "03:17",
+      "speaker": "Daniel McKinnon"
+    },
+    {
+      "en": "But if you look at all the headlines in Gen AI right now, it's not QA, it's agents.",
+      "zh": "但如果你看看现在生成式人工智能的所有头条新闻，它不是质量保证，它是智能体。",
+      "timestamp": "09:55",
+      "speaker": "Daniel McKinnon"
+    },
+    {
+      "en": "All this means is what the core model task is, is no longer to get a prompt from a user and come back with an answer, But it is actually to get a task from a user that requires many, many steps.",
+      "zh": "所有这一切意味着核心模型任务是什么，不再是从用户那里获取一个提示词并返回一个答案，但实际上是从用户那里获取一个需要许多、许多步骤的任务。",
+      "timestamp": "13:20",
+      "speaker": "Daniel McKinnon"
+    },
+    {
+      "en": "This is why people like Anthropic and OpenAI are hiring Investment bankers, accountants, lawyers, you see job ads for all these vertical specific teams, you must deeply understand the problem.",
+      "zh": "这就是为什么像 Anthropic 和 OpenAI 这样的公司正在招聘投资银行家、会计师、律师，你会看到所有这些垂直特定团队的招聘广告，你必须深入理解这个问题。",
+      "timestamp": "17:48",
+      "speaker": "Daniel McKinnon"
+    },
+    {
+      "en": "If you create a very easy eval that scores 100%, there's no way for your engineering team to optimize on that.",
+      "zh": "如果你创建一个非常简单的评估，得分 100%，你的工程团队就没有办法对其进行优化。",
+      "timestamp": "08:27",
+      "speaker": "Daniel McKinnon"
+    },
+    {
+      "en": "We're actually asking AI to help us create the eval for AI.",
+      "zh": "我们实际上是要求 AI 帮助我们为 AI 创建评估。",
+      "timestamp": "23:07",
+      "speaker": "Daniel McKinnon"
+    },
+    {
+      "en": "But you have to explicitly define what a beautiful kitchen is and Not in words, in examples.",
+      "zh": "但你必须明确定义什么是漂亮的厨房，而且不是用文字，是用例子。",
+      "timestamp": "48:55",
+      "speaker": "Daniel McKinnon"
+    },
+    {
+      "en": "It is literally just prompts, responses, and ways of scoring whether response is correct.",
+      "zh": "它实际上只是提示词、回复，以及判断回复是否正确的方法。",
+      "timestamp": "47:36",
+      "speaker": "Daniel McKinnon"
+    },
+    {
+      "en": "Meta is like a much, much more aggressive culture in many ways.",
+      "zh": "Meta 在很多方面是一种更具攻击性的文化。",
+      "timestamp": "33:33",
+      "speaker": "Daniel McKinnon"
+    },
+    {
+      "en": "Google is considered to be more of an engineering led company, whereas Meta is more of a product led company.",
+      "zh": "Google 被认为更多的是一家工程主导的公司，而 Meta 更多的是一家产品主导的公司。",
+      "timestamp": "52:20",
+      "speaker": "Daniel McKinnon"
+    },
+    {
+      "en": "The core problem I want to solve is to make it much, much easier to get whole genome sequencing into every single NICU in the entire world.",
+      "zh": "我想解决的核心问题是让全基因组测序变得更容易进入全世界每一个 NICU。",
+      "timestamp": "53:04",
+      "speaker": "Daniel McKinnon"
+    },
+    {
+      "en": "And then you just kind of go through and it's almost like a binary search process.",
+      "zh": "然后你只需经历这个过程，这几乎就像是一个二分搜索过程。",
+      "timestamp": "44:25",
+      "speaker": "Daniel McKinnon"
+    },
+    {
+      "en": "I would actually try to find somebody who has, who can help you through this. This is deceptively simple.",
+      "zh": "我实际上会试着找一个做过的人，他可以帮助你度过这一关。这具有欺骗性的简单。",
+      "timestamp": "47:55",
+      "speaker": "Daniel McKinnon"
+    }
+  ]
+}

@@ -1,0 +1,8234 @@
+[
+ {
+  "seg": 0,
+  "start": 0.071,
+  "end": 3.716,
+  "speaker": "Daniel McKinnon",
+  "en": "The Metas and the Googles and all the other large companies have",
+  "zh": "Metas、Googles 和所有其他大公司现在都"
+ },
+ {
+  "seg": 1,
+  "start": 3.756,
+  "end": 6.661,
+  "speaker": "Daniel McKinnon",
+  "en": "to reinvent themselves right now in the age of AI.",
+  "zh": "在人工智能时代重塑自己。"
+ },
+ {
+  "seg": 2,
+  "start": 6.821,
+  "end": 9.514999999999999,
+  "speaker": "Daniel McKinnon",
+  "en": "Every single PM is going to start building AI features.",
+  "zh": "每一个产品经理（PM）都要开始构建 AI 功能。"
+ },
+ {
+  "seg": 3,
+  "start": 9.565,
+  "end": 12.75,
+  "speaker": "Daniel McKinnon",
+  "en": "You cannot exist as a PM without understanding this.",
+  "zh": "如果不理解这一点，你就无法作为 PM 存在。"
+ },
+ {
+  "seg": 4,
+  "start": 13.01,
+  "end": 15.013,
+  "speaker": "Akash",
+  "en": "Meet Daniel McKinnon, former PM.",
+  "zh": "认识一下 Daniel McKinnon，前产品经理。"
+ },
+ {
+  "seg": 5,
+  "start": 20.8695,
+  "end": 23.843,
+  "speaker": "Daniel McKinnon",
+  "en": "PMs right now from a career perspective are in a really tough situation.",
+  "zh": "现在的 PM 从职业角度来看处于非常艰难的境地。"
+ },
+ {
+  "seg": 6,
+  "start": 23.863,
+  "end": 25.606,
+  "speaker": "Daniel McKinnon",
+  "en": "The average PM is an orchestrator,",
+  "zh": "普通的 PM 是一个协调者，"
+ },
+ {
+  "seg": 7,
+  "start": 25.626,
+  "end": 30.031,
+  "speaker": "Daniel McKinnon",
+  "en": "a motivator, and an analyst, but a lot of this is easy to do with AI.",
+  "zh": "一个激励者，和一个分析师，但这其中很多工作用 AI 很容易做到。"
+ },
+ {
+  "seg": 8,
+  "start": 30.191,
+  "end": 34.635444444444445,
+  "speaker": "Akash",
+  "en": "What really is the difference between product management at Meta versus Google?",
+  "zh": "Meta 和 Google 之间的产品管理到底有什么区别？"
+ },
+ {
+  "seg": 9,
+  "start": 33.726,
+  "end": 36.998000000000005,
+  "speaker": "Daniel McKinnon",
+  "en": "Meta is like a much, much more aggressive culture in many ways.",
+  "zh": "Meta 在很多方面是一种更具攻击性的文化。"
+ },
+ {
+  "seg": 10,
+  "start": 37.048,
+  "end": 39.760000000000005,
+  "speaker": "Daniel McKinnon",
+  "en": "Google is considered to be more of an engineering-led company,",
+  "zh": "Google 被认为是一家更由工程主导的公司，"
+ },
+ {
+  "seg": 11,
+  "start": 39.81,
+  "end": 42.36555555555556,
+  "speaker": "Daniel McKinnon",
+  "en": "whereas Meta is more of a product-led company.",
+  "zh": "而 Meta 是一家更由产品主导的公司。"
+ },
+ {
+  "seg": 12,
+  "start": 42.451,
+  "end": 44.012,
+  "speaker": "Daniel McKinnon",
+  "en": "If you're a PM who's never worked",
+  "zh": "如果你是一个从未"
+ },
+ {
+  "seg": 13,
+  "start": 44.092,
+  "end": 45.373,
+  "speaker": "Akash",
+  "en": "on an AI feature before,",
+  "zh": "做过 AI 功能的 PM，"
+ },
+ {
+  "seg": 14,
+  "start": 45.513,
+  "end": 47.965,
+  "speaker": "Akash",
+  "en": "when would you be going through this evals process?",
+  "zh": "你什么时候会经历这个评估流程？"
+ },
+ {
+  "seg": 15,
+  "start": 48.015,
+  "end": 51.497,
+  "speaker": "Daniel McKinnon",
+  "en": "You work at Pinterest and you want to have a better image generation",
+  "zh": "你在 Pinterest 工作，你想要有一个更好的图像生成，"
+ },
+ {
+  "seg": 16,
+  "start": 51.517,
+  "end": 53.949000000000005,
+  "speaker": "Daniel McKinnon",
+  "en": "that doesn't look like slop that actually pleases users.",
+  "zh": "它看起来不像垃圾，实际上能取悦用户。"
+ },
+ {
+  "seg": 17,
+  "start": 53.999,
+  "end": 58.121,
+  "speaker": "Akash",
+  "en": "You need to think about from day zero, what does success look like?",
+  "zh": "你需要从第一天开始考虑，成功是什么样的？"
+ },
+ {
+  "seg": 18,
+  "start": 58.401,
+  "end": 60.893,
+  "speaker": "Akash",
+  "en": "If it's the best way to measure it, we've got to learn it.",
+  "zh": "如果它是衡量它的最佳方式，我们就得学会它。"
+ },
+ {
+  "seg": 19,
+  "start": 60.943,
+  "end": 61.833000000000006,
+  "speaker": "Akash",
+  "en": "Where should we start?",
+  "zh": "我们应该从哪里开始？"
+ },
+ {
+  "seg": 20,
+  "start": 61.883,
+  "end": 62.93855555555556,
+  "speaker": "Daniel McKinnon",
+  "en": "Let me walk through",
+  "zh": "让我梳理一下"
+ },
+ {
+  "seg": 21,
+  "start": 66.896,
+  "end": 68.587,
+  "speaker": "Akash",
+  "en": "Before we get into today's show,",
+  "zh": "在进入今天的节目之前，"
+ },
+ {
+  "seg": 22,
+  "start": 68.637,
+  "end": 71.93,
+  "speaker": "Akash",
+  "en": "please take a second to check that you're subscribed on YouTube and following",
+  "zh": "请花一秒钟检查一下你是否在 YouTube 上订阅了，并在 Apple 和 Spotify 播客上关注了。"
+ },
+ {
+  "seg": 23,
+  "start": 71.98,
+  "end": 73.821,
+  "speaker": "Akash",
+  "en": "on Apple and Spotify podcasts.",
+  "zh": "如果你想获得我最喜欢的所有 AI 工具，"
+ },
+ {
+  "seg": 24,
+  "start": 74.141,
+  "end": 77.383,
+  "speaker": "Akash",
+  "en": "If you want access to all of my favorite AI tools,",
+  "zh": "我已经让他们给你整整一年他们的付费计划。"
+ },
+ {
+  "seg": 25,
+  "start": 77.663,
+  "end": 82.047,
+  "speaker": "Akash",
+  "en": "I've gotten them to give you an entire year of their paid plans.",
+  "zh": "查看 bundle.akashg.com 以获取整整一年的 Bolt.new，"
+ },
+ {
+  "seg": 26,
+  "start": 82.247,
+  "end": 86.81,
+  "speaker": "Akash",
+  "en": "Check out bundle.akashg.com for an entire year of Bolt.new,",
+  "zh": "Airtable、Speechify、Descript、Magic Patterns、Linear、Dovetail、Arise 和 Mobbin。"
+ },
+ {
+  "seg": 27,
+  "start": 86.99,
+  "end": 92.274,
+  "speaker": "Akash",
+  "en": "Airtable, Speechify, Descript, Magic Patterns, Linear, Dovetail, Arise, and Mobbin.",
+  "zh": "现在进入今天的节目。"
+ },
+ {
+  "seg": 28,
+  "start": 92.454,
+  "end": 94.195,
+  "speaker": "Akash",
+  "en": "And now into today's show.",
+  "zh": "欢迎收听播客。"
+ },
+ {
+  "seg": 29,
+  "start": 98.337,
+  "end": 99.669,
+  "speaker": "Akash",
+  "en": "Welcome to the podcast.",
+  "zh": "耶，非常感谢你的邀请，聊聊这些事情会很有趣。"
+ },
+ {
+  "seg": 30,
+  "start": 99.719,
+  "end": 103.294,
+  "speaker": "Daniel McKinnon",
+  "en": "Yeah, thanks so much for having me and it'll be fun to talk about this stuff.",
+  "zh": "所以我想从你的文章开始。"
+ },
+ {
+  "seg": 31,
+  "start": 103.344,
+  "end": 105.45511111111111,
+  "speaker": "Akash",
+  "en": "So I want to start with your article.",
+  "zh": "你有一个挑衅性的声明和一个有趣的梗图。"
+ },
+ {
+  "seg": 32,
+  "start": 105.186,
+  "end": 108.29711111111112,
+  "speaker": "Akash",
+  "en": "You had this provocative claim and this funny meme here.",
+  "zh": "评估会取代 PRD 吗？"
+ },
+ {
+  "seg": 33,
+  "start": 108.53,
+  "end": 111.014,
+  "speaker": "Akash",
+  "en": "Do evils replace the PRD?",
+  "zh": "评估的角色是什么？"
+ },
+ {
+  "seg": 34,
+  "start": 111.054,
+  "end": 112.44288888888889,
+  "speaker": "Akash",
+  "en": "What is the role of evil?",
+  "zh": "耶，"
+ },
+ {
+  "seg": 35,
+  "start": 112.644,
+  "end": 112.804,
+  "speaker": "Daniel McKinnon",
+  "en": "Yeah,",
+  "zh": "所以我觉得这话说得有点火辣，说它取代了 PRD，因为"
+ },
+ {
+  "seg": 36,
+  "start": 112.824,
+  "end": 117.926,
+  "speaker": "Daniel McKinnon",
+  "en": "so I think it was like a little bit spicy in saying it replaces the PRD because",
+  "zh": "如果没有产品战略或特定的客户，你的产品就什么都不是。"
+ },
+ {
+  "seg": 37,
+  "start": 118.207,
+  "end": 123.769,
+  "speaker": "Daniel McKinnon",
+  "en": "without a product strategy or a particular customer, like your product is nothing.",
+  "zh": "但同样，这只是一段话甚至一句话，取决于产品是什么。"
+ },
+ {
+  "seg": 38,
+  "start": 124.369,
+  "end": 129.372,
+  "speaker": "Daniel McKinnon",
+  "en": "But again, that's a paragraph or even a sentence, depending on what the product is.",
+  "zh": "我职业生涯中见过的大多数 PRD 的大部分"
+ },
+ {
+  "seg": 39,
+  "start": 129.532,
+  "end": 134.435,
+  "speaker": "Daniel McKinnon",
+  "en": "The majority of most PRDs that I've seen in my career Have spent most of",
+  "zh": "文档都在谈论细节，"
+ },
+ {
+  "seg": 40,
+  "start": 134.475,
+  "end": 136.637,
+  "speaker": "Daniel McKinnon",
+  "en": "the document talking about specifics,",
+  "zh": "它将如何工作，"
+ },
+ {
+  "seg": 41,
+  "start": 136.777,
+  "end": 137.777,
+  "speaker": "Daniel McKinnon",
+  "en": "how it will work,",
+  "zh": "它在特定情况下会如何表现，"
+ },
+ {
+  "seg": 42,
+  "start": 137.939,
+  "end": 140.171,
+  "speaker": "Daniel McKinnon",
+  "en": "how it will behave in certain situations,",
+  "zh": "用户可以期望从中获得什么价值。"
+ },
+ {
+  "seg": 43,
+  "start": 140.221,
+  "end": 142.83211111111112,
+  "speaker": "Daniel McKinnon",
+  "en": "how the user can expect to get value from that.",
+  "zh": "但在这种 Gen AI 世界里，情况真的被颠倒了"
+ },
+ {
+  "seg": 44,
+  "start": 142.884,
+  "end": 146.227,
+  "speaker": "Daniel McKinnon",
+  "en": "But that gets really turned on its head in this kind of Gen AI world",
+  "zh": "这些产品真的需要做所有事情，"
+ },
+ {
+  "seg": 45,
+  "start": 146.267,
+  "end": 149.23999999999998,
+  "speaker": "Daniel McKinnon",
+  "en": "where these products really need to do like Everything,",
+  "zh": "或者至少比以前的产品多做多得多的事情。"
+ },
+ {
+  "seg": 46,
+  "start": 149.29,
+  "end": 152.23444444444445,
+  "speaker": "Daniel McKinnon",
+  "en": "or at least a lot more things than previous products.",
+  "zh": "而且这很难描述。"
+ },
+ {
+  "seg": 47,
+  "start": 152.451,
+  "end": 154.451,
+  "speaker": "Daniel McKinnon",
+  "en": "And it's very hard to describe that.",
+  "zh": "说，哦，这东西什么都能做。"
+ },
+ {
+  "seg": 48,
+  "start": 154.792,
+  "end": 157.063,
+  "speaker": "Daniel McKinnon",
+  "en": "Say, oh, this thing just does everything.",
+  "zh": "实际上传达产品应该做什么的最好方式是通过例子。"
+ },
+ {
+  "seg": 49,
+  "start": 157.113,
+  "end": 161.64499999999998,
+  "speaker": "Daniel McKinnon",
+  "en": "And the best way to actually communicate what the product should do is through examples.",
+  "zh": "而实际上传达产品应该做什么的最好方式是通过例子。"
+ },
+ {
+  "seg": 50,
+  "start": 161.695,
+  "end": 162.826,
+  "speaker": "Daniel McKinnon",
+  "en": "And that's what an eval is.",
+  "zh": "而这就是评估（eval）的含义。"
+ },
+ {
+  "seg": 51,
+  "start": 162.876,
+  "end": 165.877,
+  "speaker": "Daniel McKinnon",
+  "en": "It's really just like a trivia question for the model.",
+  "zh": "它实际上就像是给模型的一个冷知识问题。"
+ },
+ {
+  "seg": 52,
+  "start": 165.917,
+  "end": 170.32899999999998,
+  "speaker": "Daniel McKinnon",
+  "en": "And it's saying, this is like the shape of the things the model needs to do well.",
+  "zh": "它的意思是，这就像是模型需要做好的事情的大致轮廓。"
+ },
+ {
+  "seg": 53,
+  "start": 170.379,
+  "end": 174.461,
+  "speaker": "Daniel McKinnon",
+  "en": "And if the model does it well, it means it's getting these answers.",
+  "zh": "如果模型做得好，就意味着它能得到这些答案。"
+ },
+ {
+  "seg": 54,
+  "start": 174.641,
+  "end": 177.91199999999998,
+  "speaker": "Daniel McKinnon",
+  "en": "And if it gets these answers, the users will probably like it.",
+  "zh": "如果它得到了这些答案，用户可能会喜欢它。"
+ },
+ {
+  "seg": 55,
+  "start": 177.962,
+  "end": 179.563,
+  "speaker": "Daniel McKinnon",
+  "en": "And if the users probably like it,",
+  "zh": "如果用户可能会喜欢它，"
+ },
+ {
+  "seg": 56,
+  "start": 179.583,
+  "end": 182.975,
+  "speaker": "Daniel McKinnon",
+  "en": "let's ship it into prod and see if they actually like it with an online eval.",
+  "zh": "让我们把它发布到生产环境（prod）看看他们是否真的喜欢它，通过在线评估（online eval）。"
+ },
+ {
+  "seg": 57,
+  "start": 183.025,
+  "end": 186.447,
+  "speaker": "Daniel McKinnon",
+  "en": "But the key way to communicate how a product should work in this kind",
+  "zh": "但是，在这种 Gen AI 时代，传达产品应该如何工作的关键方式"
+ },
+ {
+  "seg": 58,
+  "start": 186.467,
+  "end": 190.048,
+  "speaker": "Daniel McKinnon",
+  "en": "of Gen AI era is, is it performing well on an offline eval?",
+  "zh": "是，它在离线评估（offline eval）上表现良好吗？"
+ },
+ {
+  "seg": 59,
+  "start": 190.149,
+  "end": 193.79,
+  "speaker": "Daniel McKinnon",
+  "en": "And if not, you either need to change the model, change the harness, or change the product.",
+  "zh": "如果没有，你要么需要更改模型，要么更改测试工具，要么更改产品。"
+ },
+ {
+  "seg": 60,
+  "start": 193.83,
+  "end": 196.982,
+  "speaker": "Daniel McKinnon",
+  "en": "It's possible that what you want to do is not possible with the models today,",
+  "zh": "你想做的事情可能是今天的模型无法实现的，"
+ },
+ {
+  "seg": 61,
+  "start": 197.032,
+  "end": 200.844,
+  "speaker": "Daniel McKinnon",
+  "en": "but it's better to find that out early with an offline eval versus just shipping it",
+  "zh": "但最好尽早通过离线评估（offline eval）发现这一点，而不是直接发布"
+ },
+ {
+  "seg": 62,
+  "start": 200.894,
+  "end": 202.825,
+  "speaker": "Daniel McKinnon",
+  "en": "to prod and getting frustrated users.",
+  "zh": "到生产环境（prod）并导致用户沮丧。"
+ },
+ {
+  "seg": 63,
+  "start": 202.875,
+  "end": 205.08599999999998,
+  "speaker": "Akash",
+  "en": "And for people who don't quite understand that nuance,",
+  "zh": "对于那些不太理解这种细微差别的人，"
+ },
+ {
+  "seg": 64,
+  "start": 205.136,
+  "end": 209.06699999999998,
+  "speaker": "Akash",
+  "en": "what's an offline eval versus just shipping to broad and looking at them?",
+  "zh": "什么是离线评估（offline eval），与直接广泛发布并观察他们有什么区别？"
+ },
+ {
+  "seg": 65,
+  "start": 209.117,
+  "end": 211.258,
+  "speaker": "Daniel McKinnon",
+  "en": "Yeah, this is a really, really important nuance.",
+  "zh": "是的，这真的是一个非常、非常重要的细微差别。"
+ },
+ {
+  "seg": 66,
+  "start": 211.298,
+  "end": 213.32899999999998,
+  "speaker": "Daniel McKinnon",
+  "en": "And I touched on it in this blog post.",
+  "zh": "我在这篇博文中提到了这一点。"
+ },
+ {
+  "seg": 67,
+  "start": 213.379,
+  "end": 219.681,
+  "speaker": "Daniel McKinnon",
+  "en": "But when we usually talk about evals in this AI world, it's something that's run offline.",
+  "zh": "但是当我们通常在这个 AI 领域谈论评估时，它是离线运行的东西。"
+ },
+ {
+  "seg": 68,
+  "start": 220.142,
+  "end": 224.053,
+  "speaker": "Daniel McKinnon",
+  "en": "There's like a little bit of gray areas in terms of our environments and stuff.",
+  "zh": "关于我们的环境之类的，有一点灰色地带。"
+ },
+ {
+  "seg": 69,
+  "start": 224.103,
+  "end": 228.71411111111112,
+  "speaker": "Daniel McKinnon",
+  "en": "Think about it as like a pre-baked set of trivia questions that you ask the model.",
+  "zh": "把它想象成一套预先准备好的、用来询问模型的冷知识问题。"
+ },
+ {
+  "seg": 70,
+  "start": 228.966,
+  "end": 229.896,
+  "speaker": "Daniel McKinnon",
+  "en": "So for example,",
+  "zh": "例如，"
+ },
+ {
+  "seg": 71,
+  "start": 229.946,
+  "end": 233.668,
+  "speaker": "Daniel McKinnon",
+  "en": "let's say you have a recipes website and you want to tell users how",
+  "zh": "假设你有一个食谱网站，你想告诉用户如何"
+ },
+ {
+  "seg": 72,
+  "start": 233.688,
+  "end": 235.88,
+  "speaker": "Daniel McKinnon",
+  "en": "to make their favorite kinds of ice cream.",
+  "zh": "制作他们最喜欢的冰淇淋。"
+ },
+ {
+  "seg": 73,
+  "start": 235.93,
+  "end": 238.071,
+  "speaker": "Daniel McKinnon",
+  "en": "An offline eval would be a prompt set,",
+  "zh": "离线评估（offline eval）将是一个提示集（prompt set），"
+ },
+ {
+  "seg": 74,
+  "start": 238.231,
+  "end": 242.313,
+  "speaker": "Daniel McKinnon",
+  "en": "say 100 prompts of different ice creams that users might like.",
+  "zh": "比如说 100 个用户可能喜欢的不同冰淇淋的提示（prompts）。"
+ },
+ {
+  "seg": 75,
+  "start": 242.913,
+  "end": 248.496,
+  "speaker": "Daniel McKinnon",
+  "en": "And the answer key would be a correct answer or a plausibly correct answer with",
+  "zh": "答案键将是一个正确答案或一个看似正确的答案，并带有"
+ },
+ {
+  "seg": 76,
+  "start": 248.556,
+  "end": 250.38933333333335,
+  "speaker": "Daniel McKinnon",
+  "en": "a way to score whether it's good.",
+  "zh": "一种评分方法来判断它是否好。"
+ },
+ {
+  "seg": 77,
+  "start": 251.74,
+  "end": 254.992,
+  "speaker": "Daniel McKinnon",
+  "en": "That's run offline during the development of your product.",
+  "zh": "这是在产品开发期间离线运行的。"
+ },
+ {
+  "seg": 78,
+  "start": 255.042,
+  "end": 258.725,
+  "speaker": "Daniel McKinnon",
+  "en": "And you use that as a proxy for real user traffic.",
+  "zh": "你用它作为真实用户流量的代理。"
+ },
+ {
+  "seg": 79,
+  "start": 259.145,
+  "end": 261.426,
+  "speaker": "Daniel McKinnon",
+  "en": "Once you do well on your offline evals,",
+  "zh": "一旦你在离线评估（offline evals）上表现出色，"
+ },
+ {
+  "seg": 80,
+  "start": 261.767,
+  "end": 264.038,
+  "speaker": "Daniel McKinnon",
+  "en": "you can ship that product online and you have a website",
+  "zh": "你就可以将该产品在线发布，你拥有一个网站"
+ },
+ {
+  "seg": 81,
+  "start": 264.088,
+  "end": 266.588,
+  "speaker": "Daniel McKinnon",
+  "en": "and it lets users generate ice cream recipes.",
+  "zh": "它让用户生成冰淇淋食谱。"
+ },
+ {
+  "seg": 82,
+  "start": 266.93,
+  "end": 270.993,
+  "speaker": "Daniel McKinnon",
+  "en": "And you think because you are a good PM and you really thought deeply about what",
+  "zh": "你认为因为你是一个优秀的 PM，并且你深入思考了"
+ },
+ {
+  "seg": 83,
+  "start": 271.033,
+  "end": 272.003,
+  "speaker": "Daniel McKinnon",
+  "en": "the customer wanted,",
+  "zh": "客户想要什么，"
+ },
+ {
+  "seg": 84,
+  "start": 272.053,
+  "end": 276.496,
+  "speaker": "Daniel McKinnon",
+  "en": "that performance on that offline eval set will reflect the satisfaction of the user",
+  "zh": "那个离线评估集（offline eval set）上的表现将反映用户的满意度"
+ },
+ {
+  "seg": 85,
+  "start": 276.536,
+  "end": 277.59155555555554,
+  "speaker": "Daniel McKinnon",
+  "en": "in the online eval.",
+  "zh": "在在线评估（online eval）中。"
+ },
+ {
+  "seg": 86,
+  "start": 278.297,
+  "end": 281.5747777777778,
+  "speaker": "Daniel McKinnon",
+  "en": "This obviously doesn't always happen, but that's the idea.",
+  "zh": "显然这并不总是发生，但这就是这个想法。"
+ },
+ {
+  "seg": 87,
+  "start": 281.658,
+  "end": 288.12,
+  "speaker": "Daniel McKinnon",
+  "en": "And it's the best way to measure whether a Gen AI product is likely to satisfy users.",
+  "zh": "这是衡量 Gen AI 产品是否可能让用户满意的最好方法。"
+ },
+ {
+  "seg": 88,
+  "start": 288.62,
+  "end": 291.051,
+  "speaker": "Akash",
+  "en": "If it's the best way to measure it, we've got to learn it.",
+  "zh": "如果这是衡量它的最好方法，我们必须学会它。"
+ },
+ {
+  "seg": 89,
+  "start": 291.101,
+  "end": 292.151,
+  "speaker": "Akash",
+  "en": "Where should we start?",
+  "zh": "我们应该从哪里开始？"
+ },
+ {
+  "seg": 90,
+  "start": 292.201,
+  "end": 295.6454444444445,
+  "speaker": "Daniel McKinnon",
+  "en": "Let me walk through what's changed since I wrote that article.",
+  "zh": "让我回顾一下自从我写那篇文章以来发生了什么变化。"
+ },
+ {
+  "seg": 91,
+  "start": 295.842,
+  "end": 297.963,
+  "speaker": "Daniel McKinnon",
+  "en": "So the key thesis has remained true.",
+  "zh": "所以核心论点仍然是真实的。"
+ },
+ {
+  "seg": 92,
+  "start": 298.463,
+  "end": 302.704,
+  "speaker": "Daniel McKinnon",
+  "en": "And this has been now two years in that an eval is the best way",
+  "zh": "这已经是两年了，即评估是传达"
+ },
+ {
+  "seg": 93,
+  "start": 302.784,
+  "end": 308.406,
+  "speaker": "Daniel McKinnon",
+  "en": "to communicate what your product should be doing and to Explain to",
+  "zh": "产品应该做什么以及向从事制作产品的工程团队解释"
+ },
+ {
+  "seg": 94,
+  "start": 308.446,
+  "end": 312.8904444444445,
+  "speaker": "Daniel McKinnon",
+  "en": "the engineering team working on making the product work what success looks like.",
+  "zh": "成功是什么样子的最佳方式。"
+ },
+ {
+  "seg": 95,
+  "start": 313.148,
+  "end": 314.128,
+  "speaker": "Daniel McKinnon",
+  "en": "This can be very,",
+  "zh": "这可能非常， [[96] 非常具有挑战性，在这个 AI 领域，当这些产品做这么多不同的事情时，"
+ },
+ {
+  "seg": 96,
+  "start": 314.148,
+  "end": 319.07,
+  "speaker": "Daniel McKinnon",
+  "en": "very challenging in an AI world when these products do so many different things",
+  "zh": "在 AI 世界中，当这些产品做这么多不同的事情时，是非常具有挑战性的"
+ },
+ {
+  "seg": 97,
+  "start": 319.23,
+  "end": 322.002,
+  "speaker": "Daniel McKinnon",
+  "en": "that it's hard to necessarily understand what good is.",
+  "zh": "以至于很难理解什么是好的。"
+ },
+ {
+  "seg": 98,
+  "start": 322.052,
+  "end": 323.703,
+  "speaker": "Daniel McKinnon",
+  "en": "But things have gotten a lot more complex.",
+  "zh": "但事情已经变得更加复杂了。"
+ },
+ {
+  "seg": 99,
+  "start": 323.753,
+  "end": 327.054,
+  "speaker": "Daniel McKinnon",
+  "en": "So back in the day, evals were really simple.",
+  "zh": "所以在过去，评估非常简单。"
+ },
+ {
+  "seg": 100,
+  "start": 327.634,
+  "end": 330.634,
+  "speaker": "Daniel McKinnon",
+  "en": "My blog post basically just covers these simple evals.",
+  "zh": "我的博客文章基本上只是涵盖了这些简单的评估。"
+ },
+ {
+  "seg": 101,
+  "start": 330.956,
+  "end": 333.117,
+  "speaker": "Daniel McKinnon",
+  "en": "They were question and answer.",
+  "zh": "它们是问答。"
+ },
+ {
+  "seg": 102,
+  "start": 334.077,
+  "end": 339.94,
+  "speaker": "Daniel McKinnon",
+  "en": "And this seems crazy to think back two years about what these models looked like",
+  "zh": "回想两年前这些模型是什么样子"
+ },
+ {
+  "seg": 103,
+  "start": 340.44,
+  "end": 342.2733333333333,
+  "speaker": "Daniel McKinnon",
+  "en": "and what the use cases were like.",
+  "zh": "以及用例是什么样子，这看起来很疯狂。"
+ },
+ {
+  "seg": 104,
+  "start": 342.401,
+  "end": 346.283,
+  "speaker": "Daniel McKinnon",
+  "en": "But this is before Claude code and agentic coding and all",
+  "zh": "但这是在 Claude code 和 agentic coding 以及所有"
+ },
+ {
+  "seg": 105,
+  "start": 346.323,
+  "end": 350.2118888888889,
+  "speaker": "Daniel McKinnon",
+  "en": "of these crazy business applications that are getting built right now,",
+  "zh": "当前正在构建的疯狂商业应用之前，"
+ },
+ {
+  "seg": 106,
+  "start": 350.506,
+  "end": 352.387,
+  "speaker": "Daniel McKinnon",
+  "en": "Claude co-work and the like.",
+  "zh": "Claude co-work 之类的东西。"
+ },
+ {
+  "seg": 107,
+  "start": 352.607,
+  "end": 358.329,
+  "speaker": "Daniel McKinnon",
+  "en": "Really the core thesis two years ago was that Gen.ai was essentially a search replacement.",
+  "zh": "两年前真正的核心论点是 Gen.ai 本质上是搜索的替代品。"
+ },
+ {
+  "seg": 108,
+  "start": 358.369,
+  "end": 362.991,
+  "speaker": "Daniel McKinnon",
+  "en": "I don't know if everyone remembers when Google's stock tanked because this was going",
+  "zh": "我不知道大家是否还记得 Google 股价暴跌的时候，因为这将是"
+ },
+ {
+  "seg": 109,
+  "start": 363.031,
+  "end": 364.341,
+  "speaker": "Daniel McKinnon",
+  "en": "to be the replacement for search.",
+  "zh": "搜索的替代品。"
+ },
+ {
+  "seg": 110,
+  "start": 364.391,
+  "end": 367.842,
+  "speaker": "Daniel McKinnon",
+  "en": "And fundamentally, these were like question and answer products.",
+  "zh": "从根本上说，这些就像是问答产品。"
+ },
+ {
+  "seg": 111,
+  "start": 367.892,
+  "end": 372.154,
+  "speaker": "Daniel McKinnon",
+  "en": "So what I have right now is the benchmarks that OpenAI reported on GPT-4.",
+  "zh": "所以我现在拥有的就是 OpenAI 在 GPT-4 上报告的基准测试。"
+ },
+ {
+  "seg": 112,
+  "start": 372.614,
+  "end": 374.72511111111106,
+  "speaker": "Daniel McKinnon",
+  "en": "And you might remember a lot of these.",
+  "zh": "你可能记得很多。"
+ },
+ {
+  "seg": 113,
+  "start": 374.835,
+  "end": 378.616,
+  "speaker": "Daniel McKinnon",
+  "en": "MMLU, HellaSwag, Arc, Winograd, HumanEval.",
+  "zh": "MMLU, HellaSwag, Arc, Winograd, HumanEval。"
+ },
+ {
+  "seg": 114,
+  "start": 378.856,
+  "end": 382.877,
+  "speaker": "Daniel McKinnon",
+  "en": "HumanEval is ironically an automated eval of Python.",
+  "zh": "HumanEval 具有讽刺意味的是对 Python 的自动评估。"
+ },
+ {
+  "seg": 115,
+  "start": 383.658,
+  "end": 384.658,
+  "speaker": "Daniel McKinnon",
+  "en": "Drop.",
+  "zh": "Drop。"
+ },
+ {
+  "seg": 116,
+  "start": 385.62,
+  "end": 387.693,
+  "speaker": "Daniel McKinnon",
+  "en": "These are all just question and answers.",
+  "zh": "这些都只是问答。"
+ },
+ {
+  "seg": 117,
+  "start": 387.743,
+  "end": 390.267,
+  "speaker": "Daniel McKinnon",
+  "en": "So I dropped one example here from MMLU.",
+  "zh": "所以我在这里从 MMLU 放了一个例子。"
+ },
+ {
+  "seg": 118,
+  "start": 390.708,
+  "end": 393.582,
+  "speaker": "Daniel McKinnon",
+  "en": "If you know the actual brightness of an object and its apparent brightness",
+  "zh": "如果你知道一个物体的实际亮度和它从"
+ },
+ {
+  "seg": 119,
+  "start": 393.632,
+  "end": 394.443,
+  "speaker": "Daniel McKinnon",
+  "en": "from your location,",
+  "zh": "你所在位置的视亮度，"
+ },
+ {
+  "seg": 120,
+  "start": 394.493,
+  "end": 395.515,
+  "speaker": "Daniel McKinnon",
+  "en": "then with no information,",
+  "zh": "那么在没有信息的情况下，"
+ },
+ {
+  "seg": 121,
+  "start": 395.555,
+  "end": 400.542,
+  "speaker": "Daniel McKinnon",
+  "en": "you can estimate A, speed relative to U, B, composition, C, size, D, distance.",
+  "zh": "你可以估计 A，相对于 U 的速度，B，成分，C，大小，D，距离。"
+ },
+ {
+  "seg": 122,
+  "start": 401.102,
+  "end": 404.976,
+  "speaker": "Daniel McKinnon",
+  "en": "And if you want to go ahead and look at some of these just for like historical fun,",
+  "zh": "如果你想继续看看其中的一些，只是为了历史乐趣，"
+ },
+ {
+  "seg": 123,
+  "start": 405.026,
+  "end": 406.517,
+  "speaker": "Daniel McKinnon",
+  "en": "they're all on Hugging Face.",
+  "zh": "它们都在 Hugging Face 上。"
+ },
+ {
+  "seg": 124,
+  "start": 406.567,
+  "end": 408.208,
+  "speaker": "Daniel McKinnon",
+  "en": "So this was actually a very,",
+  "zh": "所以这实际上是一个非常，"
+ },
+ {
+  "seg": 125,
+  "start": 408.268,
+  "end": 411.171,
+  "speaker": "Daniel McKinnon",
+  "en": "very straightforward thing to do is you had to think about the types",
+  "zh": "非常直接的事情，就是你必须考虑类型"
+ },
+ {
+  "seg": 126,
+  "start": 411.211,
+  "end": 415.294,
+  "speaker": "Daniel McKinnon",
+  "en": "of questions users would ask and the types of answers they would expect and how",
+  "zh": "用户会问的问题和他们期望的答案类型以及如何"
+ },
+ {
+  "seg": 127,
+  "start": 415.334,
+  "end": 416.334,
+  "speaker": "Daniel McKinnon",
+  "en": "to score that.",
+  "zh": "对此评分。"
+ },
+ {
+  "seg": 128,
+  "start": 416.475,
+  "end": 420.568,
+  "speaker": "Daniel McKinnon",
+  "en": "So the key thing was just matching the questions to the domain of interest",
+  "zh": "所以关键只是将问题与感兴趣的领域匹配"
+ },
+ {
+  "seg": 129,
+  "start": 420.618,
+  "end": 422.039,
+  "speaker": "Daniel McKinnon",
+  "en": "and scoring the answers.",
+  "zh": "并对答案进行评分。"
+ },
+ {
+  "seg": 130,
+  "start": 422.54,
+  "end": 428.925,
+  "speaker": "Daniel McKinnon",
+  "en": "So if we go back into my post here, we can see a little bit how I said to do this and",
+  "zh": "所以如果我们回到我的文章这里，我们可以稍微看到我是怎么说这样做的并且"
+ },
+ {
+  "seg": 131,
+  "start": 430.936,
+  "end": 435.623,
+  "speaker": "Daniel McKinnon",
+  "en": "First thing is just figure out your problem and it doesn't need to be perfect.",
+  "zh": "第一件事只是弄清楚你的问题，它不需要是完美的。"
+ },
+ {
+  "seg": 132,
+  "start": 436.004,
+  "end": 439.629,
+  "speaker": "Daniel McKinnon",
+  "en": "What is a set of problems that your users might ask about?",
+  "zh": "你的用户可能会询问的一组问题是什么？"
+ },
+ {
+  "seg": 133,
+  "start": 439.729,
+  "end": 444.917,
+  "speaker": "Daniel McKinnon",
+  "en": "So the example I used was, for example, generating recipes for videos.",
+  "zh": "所以我用的例子是，例如，为视频生成食谱。"
+ },
+ {
+  "seg": 134,
+  "start": 445.177,
+  "end": 449.9547777777778,
+  "speaker": "Daniel McKinnon",
+  "en": "I have food on my mind because I randomly came up with the ice cream example earlier.",
+  "zh": "我脑子里想着食物，因为我之前随机举了冰淇淋的例子。"
+ },
+ {
+  "seg": 135,
+  "start": 450.144,
+  "end": 455.612,
+  "speaker": "Daniel McKinnon",
+  "en": "And new problem is I have a video on my social media site and I want to be able",
+  "zh": "新问题是我在我的社交媒体网站上有一个视频，我希望能够"
+ },
+ {
+  "seg": 136,
+  "start": 455.632,
+  "end": 459.757,
+  "speaker": "Daniel McKinnon",
+  "en": "to generate a recipe that somebody can use to make that thing as they're walking",
+  "zh": "生成一个食谱，某人可以用来制作那个东西，当他们观看"
+ },
+ {
+  "seg": 137,
+  "start": 459.777,
+  "end": 460.428,
+  "speaker": "Daniel McKinnon",
+  "en": "the video.",
+  "zh": "视频时。"
+ },
+ {
+  "seg": 138,
+  "start": 460.478,
+  "end": 462.99199999999996,
+  "speaker": "Daniel McKinnon",
+  "en": "And you say, okay, this is really well-defined.",
+  "zh": "你说，好吧，这定义得很好。"
+ },
+ {
+  "seg": 139,
+  "start": 463.042,
+  "end": 465.816,
+  "speaker": "Daniel McKinnon",
+  "en": "And now you have to measure how do you know if it's good?",
+  "zh": "现在你必须衡量你怎么知道它好不好？"
+ },
+ {
+  "seg": 140,
+  "start": 465.866,
+  "end": 467.97711111111107,
+  "speaker": "Daniel McKinnon",
+  "en": "You know, it might be formatted right.",
+  "zh": "你知道，它可能格式正确。"
+ },
+ {
+  "seg": 141,
+  "start": 468.07,
+  "end": 470.283,
+  "speaker": "Daniel McKinnon",
+  "en": "It might have all the ingredients listed.",
+  "zh": "它可能列出了所有成分。"
+ },
+ {
+  "seg": 142,
+  "start": 470.333,
+  "end": 472.466,
+  "speaker": "Daniel McKinnon",
+  "en": "It might be written in the right style.",
+  "zh": "它可能以正确的风格书写。"
+ },
+ {
+  "seg": 143,
+  "start": 472.516,
+  "end": 476.362,
+  "speaker": "Daniel McKinnon",
+  "en": "And then you select all of these components and figure Once you have that,",
+  "zh": "然后你选择所有这些组件并弄清楚 一旦你有了那个，"
+ },
+ {
+  "seg": 144,
+  "start": 476.402,
+  "end": 479.7353333333333,
+  "speaker": "Daniel McKinnon",
+  "en": "it's really a mechanical process to actually write the eval.",
+  "zh": "实际上编写评估是一个机械的过程。"
+ },
+ {
+  "seg": 145,
+  "start": 490.322,
+  "end": 493.9331111111111,
+  "speaker": "Daniel McKinnon",
+  "en": "Come up with probably 100 prompts that are in this distribution.",
+  "zh": "想出大约 100 个在这个分布中的提示词。"
+ },
+ {
+  "seg": 146,
+  "start": 494.068,
+  "end": 498.73466666666667,
+  "speaker": "Daniel McKinnon",
+  "en": "Can be less, can be more, but this is a typical size of an eval in the Gen AI world.",
+  "zh": "可以更少，可以更多，但这是 Gen AI 世界中评估的典型规模。"
+ },
+ {
+  "seg": 147,
+  "start": 498.875,
+  "end": 502.67,
+  "speaker": "Daniel McKinnon",
+  "en": "And just send it through the model and figure out what is a hard prompt,",
+  "zh": "只需通过模型发送它并弄清楚什么是困难的提示词，"
+ },
+ {
+  "seg": 148,
+  "start": 502.72,
+  "end": 503.832,
+  "speaker": "Daniel McKinnon",
+  "en": "what is an easy prompt,",
+  "zh": "什么是简单的提示词，"
+ },
+ {
+  "seg": 149,
+  "start": 503.882,
+  "end": 507.165,
+  "speaker": "Daniel McKinnon",
+  "en": "and have something that scores maybe Maybe like 50% because you have to have room",
+  "zh": "并且有一些可能得分的 也许像 50%，因为你必须有空间"
+ },
+ {
+  "seg": 150,
+  "start": 507.205,
+  "end": 507.936,
+  "speaker": "Daniel McKinnon",
+  "en": "to run.",
+  "zh": "来运行。"
+ },
+ {
+  "seg": 151,
+  "start": 507.986,
+  "end": 510.6526666666667,
+  "speaker": "Daniel McKinnon",
+  "en": "If you create a very easy eval that scores 100%,",
+  "zh": "如果你创建一个非常简单的评估，得分 100%，"
+ },
+ {
+  "seg": 152,
+  "start": 510.807,
+  "end": 513.8190000000001,
+  "speaker": "Daniel McKinnon",
+  "en": "there's no way for your engineering team to optimize on that.",
+  "zh": "你的工程团队就没有办法对其进行优化。"
+ },
+ {
+  "seg": 153,
+  "start": 513.869,
+  "end": 516.6467777777779,
+  "speaker": "Daniel McKinnon",
+  "en": "And if you create a very hard eval that scores 0%,",
+  "zh": "如果你创建一个非常难的评估，得分 0%，"
+ },
+ {
+  "seg": 154,
+  "start": 516.771,
+  "end": 520.9430000000001,
+  "speaker": "Daniel McKinnon",
+  "en": "you also don't even know if this is kind of possible with today's technologies.",
+  "zh": "你甚至也不知道这是否在当今技术下是可能的。"
+ },
+ {
+  "seg": 155,
+  "start": 520.993,
+  "end": 522.264,
+  "speaker": "Daniel McKinnon",
+  "en": "And that's pretty much it.",
+  "zh": "基本上就是这样。"
+ },
+ {
+  "seg": 156,
+  "start": 522.314,
+  "end": 525.2028888888889,
+  "speaker": "Daniel McKinnon",
+  "en": "And once you have this, you can give it to the team.",
+  "zh": "一旦你有了这个，你就可以把它交给团队。"
+ },
+ {
+  "seg": 157,
+  "start": 525.356,
+  "end": 526.777,
+  "speaker": "Daniel McKinnon",
+  "en": "They can improve on it.",
+  "zh": "他们可以对其进行改进。"
+ },
+ {
+  "seg": 158,
+  "start": 527.097,
+  "end": 528.818,
+  "speaker": "Daniel McKinnon",
+  "en": "You can ship it out to users.",
+  "zh": "你可以把它发布给用户。"
+ },
+ {
+  "seg": 159,
+  "start": 529.018,
+  "end": 530.679,
+  "speaker": "Daniel McKinnon",
+  "en": "If you achieve a score high enough,",
+  "zh": "如果你获得的分数足够高，"
+ },
+ {
+  "seg": 160,
+  "start": 530.699,
+  "end": 534.181,
+  "speaker": "Daniel McKinnon",
+  "en": "you can see if you're actually online Performance matches what you expect",
+  "zh": "你可以看看你的实际线上性能"
+ },
+ {
+  "seg": 161,
+  "start": 534.301,
+  "end": 535.301,
+  "speaker": "Daniel McKinnon",
+  "en": "to do offline.",
+  "zh": "是否符合你的离线预期。"
+ },
+ {
+  "seg": 162,
+  "start": 535.582,
+  "end": 540.6375555555555,
+  "speaker": "Daniel McKinnon",
+  "en": "And then this blog has a bunch of examples of like, you know, some kind of other nice tips.",
+  "zh": "然后这篇博客有一堆例子，你知道，像一些其他不错的技巧。"
+ },
+ {
+  "seg": 163,
+  "start": 542.033,
+  "end": 544.654,
+  "speaker": "Daniel McKinnon",
+  "en": "Why is this not that relevant today?",
+  "zh": "为什么这在今天不那么相关了？"
+ },
+ {
+  "seg": 164,
+  "start": 544.814,
+  "end": 546.384,
+  "speaker": "Daniel McKinnon",
+  "en": "Or why does it need to change today?",
+  "zh": "或者为什么它今天需要改变？"
+ },
+ {
+  "seg": 165,
+  "start": 546.434,
+  "end": 550.416,
+  "speaker": "Daniel McKinnon",
+  "en": "The real answer is that models have generally saturated QA.",
+  "zh": "真正的答案是模型普遍已经饱和了质量保证（QA）。"
+ },
+ {
+  "seg": 166,
+  "start": 550.516,
+  "end": 552.336,
+  "speaker": "Daniel McKinnon",
+  "en": "This isn't 100% true,",
+  "zh": "这不是 100% 正确的，"
+ },
+ {
+  "seg": 167,
+  "start": 552.896,
+  "end": 555.517,
+  "speaker": "Daniel McKinnon",
+  "en": "but when we think of a good model right now,",
+  "zh": "但是当我们现在想到一个好的模型时，"
+ },
+ {
+  "seg": 168,
+  "start": 556.097,
+  "end": 557.958,
+  "speaker": "Daniel McKinnon",
+  "en": "we don't think of one that can answer",
+  "zh": "我们不会想到一个能够回答"
+ },
+ {
+  "seg": 169,
+  "start": 557.978,
+  "end": 561.099,
+  "speaker": "Daniel McKinnon",
+  "en": "a relatively challenging high school physics question,",
+  "zh": "相当具有挑战性的高中物理问题的模型，"
+ },
+ {
+  "seg": 170,
+  "start": 561.619,
+  "end": 563.98,
+  "speaker": "Daniel McKinnon",
+  "en": "like the example I gave above.",
+  "zh": "就像我上面给出的例子那样。"
+ },
+ {
+  "seg": 171,
+  "start": 564.785,
+  "end": 570.534,
+  "speaker": "Daniel McKinnon",
+  "en": "We think of models that are like winning gold medals at International Math Olympiads.",
+  "zh": "我们想到的是像在国际奥林匹克数学竞赛中赢得金牌的模型。"
+ },
+ {
+  "seg": 172,
+  "start": 570.554,
+  "end": 575.301,
+  "speaker": "Daniel McKinnon",
+  "en": "Like there's almost no question that any human beyond some super,",
+  "zh": "几乎没有任何问题，除了某些超级、"
+ },
+ {
+  "seg": 173,
+  "start": 575.341,
+  "end": 580.108,
+  "speaker": "Daniel McKinnon",
+  "en": "super specialist can ask the model to do and it not have a good answer back.",
+  "zh": "超级专家之外的人类可以问模型而它没有一个好的回答。"
+ },
+ {
+  "seg": 174,
+  "start": 580.769,
+  "end": 583.7134444444445,
+  "speaker": "Daniel McKinnon",
+  "en": "And also, QA is not the most useful application now.",
+  "zh": "而且，质量保证（QA）现在不是最有用的应用程序。"
+ },
+ {
+  "seg": 175,
+  "start": 583.791,
+  "end": 587.093,
+  "speaker": "Daniel McKinnon",
+  "en": "I mean, I think we all remember this narrative that ChatGPT was going to be",
+  "zh": "我是说，我想我们都记得这种说法，ChatGPT 将成为"
+ },
+ {
+  "seg": 176,
+  "start": 587.113,
+  "end": 590.625,
+  "speaker": "Daniel McKinnon",
+  "en": "the next great consumer app and they were going to get all these users and it's QA",
+  "zh": "下一个伟大的消费者应用程序，他们将获得所有这些用户，它是质量保证（QA）"
+ },
+ {
+  "seg": 177,
+  "start": 590.675,
+  "end": 592.546,
+  "speaker": "Daniel McKinnon",
+  "en": "and you're answering all these problems and,",
+  "zh": "你在回答所有这些问题，"
+ },
+ {
+  "seg": 178,
+  "start": 592.596,
+  "end": 595.4670000000001,
+  "speaker": "Daniel McKinnon",
+  "en": "you know, Google did a generative search experience.",
+  "zh": "你知道，Google 做了一个生成式搜索体验。"
+ },
+ {
+  "seg": 179,
+  "start": 595.517,
+  "end": 601.421,
+  "speaker": "Daniel McKinnon",
+  "en": "But if you look at all the headlines in Gen AI right now, it's not QA, it's agents.",
+  "zh": "但如果你看看现在生成式人工智能（Gen AI）的所有头条新闻，它不是质量保证（QA），它是智能体（agents）。"
+ },
+ {
+  "seg": 180,
+  "start": 602.081,
+  "end": 605.253,
+  "speaker": "Daniel McKinnon",
+  "en": "And this is actually reflected with how the labs communicate progress.",
+  "zh": "这实际上反映在实验室如何传达进展上。"
+ },
+ {
+  "seg": 181,
+  "start": 605.303,
+  "end": 607.374,
+  "speaker": "Akash",
+  "en": "Here's a quick word from our sponsors.",
+  "zh": "这是我们赞助商的简短插播。"
+ },
+ {
+  "seg": 182,
+  "start": 607.424,
+  "end": 611.816,
+  "speaker": "Akash",
+  "en": "If you're building anything that uses live data from the web, eventually you hit the same wall.",
+  "zh": "如果你正在构建任何使用来自网络的实时数据的东西，你最终会碰到同一堵墙。"
+ },
+ {
+  "seg": 183,
+  "start": 611.866,
+  "end": 614.4215555555555,
+  "speaker": "Akash",
+  "en": "An agent, a research tool, a trends dashboard.",
+  "zh": "一个智能体，一个研究工具，一个趋势仪表板。"
+ },
+ {
+  "seg": 184,
+  "start": 614.547,
+  "end": 616.008,
+  "speaker": "Akash",
+  "en": "They all need fresh data.",
+  "zh": "它们都需要新鲜数据。"
+ },
+ {
+  "seg": 185,
+  "start": 616.188,
+  "end": 618.0790000000001,
+  "speaker": "Akash",
+  "en": "Scraping that data is the worst part.",
+  "zh": "抓取这些数据是最糟糕的部分。"
+ },
+ {
+  "seg": 186,
+  "start": 618.129,
+  "end": 621.651,
+  "speaker": "Akash",
+  "en": "Captchas, proxy, layouts that change every week.",
+  "zh": "验证码（Captchas），代理（proxy），每周都在变化的布局。"
+ },
+ {
+  "seg": 187,
+  "start": 621.871,
+  "end": 624.182,
+  "speaker": "Akash",
+  "en": "It's a whole side project you didn't sign up for.",
+  "zh": "这是一个你未曾报名参与的副业项目。"
+ },
+ {
+  "seg": 188,
+  "start": 624.232,
+  "end": 626.013,
+  "speaker": "Akash",
+  "en": "That's where SERP API comes in.",
+  "zh": "这就是 SERP API 出场的地方。"
+ },
+ {
+  "seg": 189,
+  "start": 626.713,
+  "end": 628.414,
+  "speaker": "Akash",
+  "en": "SERP API gives you clean,",
+  "zh": "SERP API 为你提供来自"
+ },
+ {
+  "seg": 190,
+  "start": 628.754,
+  "end": 630.575,
+  "speaker": "Akash",
+  "en": "structured results from Google,",
+  "zh": "Google、"
+ },
+ {
+  "seg": 191,
+  "start": 630.796,
+  "end": 634.458,
+  "speaker": "Akash",
+  "en": "YouTube, Bing, Google News, Google Scholar, and more.",
+  "zh": "YouTube、Bing、Google News、Google Scholar 等的干净的、"
+ },
+ {
+  "seg": 192,
+  "start": 634.838,
+  "end": 637.7,
+  "speaker": "Akash",
+  "en": "One API call, one clean JSON response.",
+  "zh": "结构化的结果。"
+ },
+ {
+  "seg": 193,
+  "start": 637.98,
+  "end": 641.822,
+  "speaker": "Akash",
+  "en": "They handle the captchas, proxies, and layout changes for you.",
+  "zh": "一次 API 调用，一个干净的 JSON 响应。"
+ },
+ {
+  "seg": 194,
+  "start": 642.002,
+  "end": 644.464,
+  "speaker": "Akash",
+  "en": "Take the Google Scholar API as one example.",
+  "zh": "他们为你处理验证码、代理和布局变化。"
+ },
+ {
+  "seg": 195,
+  "start": 644.704,
+  "end": 648.8760000000001,
+  "speaker": "Akash",
+  "en": "Say you're building a research assistant or pulling sources for a literature review.",
+  "zh": "以 Google Scholar API 为例。"
+ },
+ {
+  "seg": 196,
+  "start": 648.926,
+  "end": 649.957,
+  "speaker": "Akash",
+  "en": "You hit one endpoint.",
+  "zh": "假设你正在构建一个研究助手或为文献综述提取来源。"
+ },
+ {
+  "seg": 197,
+  "start": 650.007,
+  "end": 652.088,
+  "speaker": "Akash",
+  "en": "You get peer-reviewed articles back.",
+  "zh": "你访问一个端点。"
+ },
+ {
+  "seg": 198,
+  "start": 652.448,
+  "end": 657.957,
+  "speaker": "Akash",
+  "en": "With full text or metadata, titles, links, publications, citation info, all of it.",
+  "zh": "你会得到经过同行评审的文章返回。"
+ },
+ {
+  "seg": 199,
+  "start": 658.297,
+  "end": 660.3,
+  "speaker": "Akash",
+  "en": "Across publishers and formats.",
+  "zh": "包含全文或元数据、标题、链接、出版物、引用信息，所有这些。跨越出版商和格式。"
+ },
+ {
+  "seg": 200,
+  "start": 660.701,
+  "end": 664.797,
+  "speaker": "Akash",
+  "en": "No scraping a dozen publisher sites and gluing the data together yourself.",
+  "zh": "不抓取十几个发布商网站并把数据粘在一起。"
+ },
+ {
+  "seg": 201,
+  "start": 664.847,
+  "end": 668.291,
+  "speaker": "Akash",
+  "en": "The same idea extends across the rest of Are you looking",
+  "zh": "同样的理念延伸到…… 你是否正在寻找"
+ },
+ {
+  "seg": 202,
+  "start": 668.311,
+  "end": 670.212,
+  "speaker": "Akash",
+  "en": "to up your AI product management chops?",
+  "zh": "提升 AI 产品管理技能？"
+ },
+ {
+  "seg": 203,
+  "start": 670.232,
+  "end": 674.5653333333333,
+  "speaker": "Akash",
+  "en": "I highly recommend the AI product management certification by product faculty.",
+  "zh": "我强烈推荐 product faculty 的 AI 产品管理认证。"
+ },
+ {
+  "seg": 204,
+  "start": 694.065,
+  "end": 699.093,
+  "speaker": "Akash",
+  "en": "It has a 4.7 with 1,249 reviews on Maven for a reason.",
+  "zh": "它在 Maven 上有 4.7 分和 1,249 条评论是有原因的。"
+ },
+ {
+  "seg": 205,
+  "start": 699.113,
+  "end": 702.357,
+  "speaker": "Akash",
+  "en": "I myself took the course back in 2024 and it was awesome.",
+  "zh": "我自己在 2024 年参加了这门课程，它非常棒。"
+ },
+ {
+  "seg": 206,
+  "start": 702.538,
+  "end": 704.07,
+  "speaker": "Akash",
+  "en": "Since then, they have upgraded it.",
+  "zh": "从那时起，他们升级了它。"
+ },
+ {
+  "seg": 207,
+  "start": 704.12,
+  "end": 708.306,
+  "speaker": "Akash",
+  "en": "So now you get to learn from product leaders at OpenAI and Anthropic.",
+  "zh": "所以现在你可以向 OpenAI 和 Anthropic 的产品负责人学习。"
+ },
+ {
+  "seg": 208,
+  "start": 708.366,
+  "end": 712.866,
+  "speaker": "Akash",
+  "en": "On top of that, Paul Hearn, author of the Product Compass, leads the Build Labs.",
+  "zh": "此外，《Product Compass》的作者 Paul Hearn 主持 Build Labs。"
+ },
+ {
+  "seg": 209,
+  "start": 713.053,
+  "end": 718.4,
+  "speaker": "Akash",
+  "en": "So you will go from theoretical knowledge about AIPM to a very practical course.",
+  "zh": "所以你将从关于 AIPM 的理论知识转向非常实用的课程。"
+ },
+ {
+  "seg": 210,
+  "start": 718.621,
+  "end": 721.735,
+  "speaker": "Akash",
+  "en": "It's going to help you identify AI leverage opportunities.",
+  "zh": "它将帮助你识别 AI 杠杆机会。"
+ },
+ {
+  "seg": 211,
+  "start": 721.785,
+  "end": 724.6790000000001,
+  "speaker": "Akash",
+  "en": "It's going to help you design trustworthy AI experience.",
+  "zh": "它将帮助你设计可信赖的 AI 体验。"
+ },
+ {
+  "seg": 212,
+  "start": 724.729,
+  "end": 729.062,
+  "speaker": "Akash",
+  "en": "It's going to help you systematically optimize outputs for accuracy and relevance,",
+  "zh": "它将帮助你系统地优化输出的准确性和相关性，"
+ },
+ {
+  "seg": 213,
+  "start": 729.112,
+  "end": 731.093,
+  "speaker": "Akash",
+  "en": "build rigorous evaluation suites,",
+  "zh": "构建严格的评估套件，"
+ },
+ {
+  "seg": 214,
+  "start": 731.414,
+  "end": 733.996,
+  "speaker": "Akash",
+  "en": "architect AI agentic systems that work,",
+  "zh": "架构能运行的 AI 智能体系统，"
+ },
+ {
+  "seg": 215,
+  "start": 734.056,
+  "end": 736.758,
+  "speaker": "Akash",
+  "en": "and select the perfect LLM for your use case.",
+  "zh": "并为你的用例选择完美的 LLM。"
+ },
+ {
+  "seg": 216,
+  "start": 737.098,
+  "end": 741.221,
+  "speaker": "Akash",
+  "en": "It's normally $2,500, but you get a discount when you use my link.",
+  "zh": "通常是 2,500 美元，但使用我的链接可以获得折扣。"
+ },
+ {
+  "seg": 217,
+  "start": 741.281,
+  "end": 744.644,
+  "speaker": "Akash",
+  "en": "The next cohort starts June 22nd and goes to August 9th,",
+  "zh": "下一期 cohort 从 6 月 22 日开始，到 8 月 9 日结束，"
+ },
+ {
+  "seg": 218,
+  "start": 744.744,
+  "end": 747.216,
+  "speaker": "Akash",
+  "en": "so do check it out with my link in the description.",
+  "zh": "所以请务必通过描述中的链接查看。"
+ },
+ {
+  "seg": 219,
+  "start": 747.266,
+  "end": 749.6980000000001,
+  "speaker": "Akash",
+  "en": "They have been one of my longest sponsors for a reason.",
+  "zh": "他们成为我最长的赞助商之一是有原因的。"
+ },
+ {
+  "seg": 220,
+  "start": 749.748,
+  "end": 753.1450000000001,
+  "speaker": "Akash",
+  "en": "I trust this product and I think you should consider the cohort.",
+  "zh": "我信任这个产品，我认为你应该考虑这个 cohort。"
+ },
+ {
+  "seg": 221,
+  "start": 753.195,
+  "end": 755.539,
+  "speaker": "Daniel McKinnon",
+  "en": "So back here two years ago,",
+  "zh": "所以回到这里两年前，"
+ },
+ {
+  "seg": 222,
+  "start": 755.76,
+  "end": 759.245,
+  "speaker": "Daniel McKinnon",
+  "en": "if you look at how OpenAI communicated progress,",
+  "zh": "如果你看看 OpenAI 是如何沟通进展的，"
+ },
+ {
+  "seg": 223,
+  "start": 759.746,
+  "end": 761.85,
+  "speaker": "Daniel McKinnon",
+  "en": "it was these five evals,",
+  "zh": "那是这五个 evals，"
+ },
+ {
+  "seg": 224,
+  "start": 761.87,
+  "end": 762.892,
+  "speaker": "Daniel McKinnon",
+  "en": "I guess six evals,",
+  "zh": "我想是六个 evals，"
+ },
+ {
+  "seg": 225,
+  "start": 763.863,
+  "end": 768.648,
+  "speaker": "Daniel McKinnon",
+  "en": "If we fast forward to look at how Anthropic communicated progress for Opus 4.8,",
+  "zh": "如果我们快进看看 Anthropic 是如何为 Opus 4.8 沟通进展的，"
+ },
+ {
+  "seg": 226,
+  "start": 768.748,
+  "end": 772.131,
+  "speaker": "Daniel McKinnon",
+  "en": "you can see they're using entirely different benchmarks.",
+  "zh": "你会看到他们使用了完全不同的基准测试。"
+ },
+ {
+  "seg": 227,
+  "start": 772.311,
+  "end": 774.193,
+  "speaker": "Daniel McKinnon",
+  "en": "You don't see any continuity.",
+  "zh": "你看不到任何连续性。"
+ },
+ {
+  "seg": 228,
+  "start": 774.714,
+  "end": 777.396,
+  "speaker": "Daniel McKinnon",
+  "en": "It's partially because those evals are saturated",
+  "zh": "部分原因是那些 evals 已经饱和"
+ },
+ {
+  "seg": 229,
+  "start": 777.556,
+  "end": 781.08,
+  "speaker": "Daniel McKinnon",
+  "en": "and Opus 4.8 would score effectively 100% on all of them,",
+  "zh": "Opus 4.8 在所有这些 evals 上都会有效地得到 100% 的分数，"
+ },
+ {
+  "seg": 230,
+  "start": 781.68,
+  "end": 784.791111111111,
+  "speaker": "Daniel McKinnon",
+  "en": "but it's partially because the task is really different.",
+  "zh": "但部分原因是任务确实不同。"
+ },
+ {
+  "seg": 231,
+  "start": 785.023,
+  "end": 787.0785555555556,
+  "speaker": "Daniel McKinnon",
+  "en": "You'll notice we have agentic coding,",
+  "zh": "你会注意到我们有 agentic coding，"
+ },
+ {
+  "seg": 232,
+  "start": 787.146,
+  "end": 788.567,
+  "speaker": "Daniel McKinnon",
+  "en": "agentic terminal coding,",
+  "zh": "agentic terminal coding，"
+ },
+ {
+  "seg": 233,
+  "start": 789.669,
+  "end": 790.769,
+  "speaker": "Daniel McKinnon",
+  "en": "Multidisciplinary reasoning,",
+  "zh": "跨学科推理，"
+ },
+ {
+  "seg": 234,
+  "start": 791.05,
+  "end": 793.202,
+  "speaker": "Daniel McKinnon",
+  "en": "this is actually some agentic reasoning,",
+  "zh": "这实际上是一些 agentic reasoning，"
+ },
+ {
+  "seg": 235,
+  "start": 793.252,
+  "end": 794.934,
+  "speaker": "Daniel McKinnon",
+  "en": "agentic computer use,",
+  "zh": "agentic computer use，"
+ },
+ {
+  "seg": 236,
+  "start": 795.214,
+  "end": 795.735,
+  "speaker": "Daniel McKinnon",
+  "en": "knowledge work,",
+  "zh": "知识工作，"
+ },
+ {
+  "seg": 237,
+  "start": 795.755,
+  "end": 799.899,
+  "speaker": "Daniel McKinnon",
+  "en": "this is actually agentic knowledge work and agentic financial analysis.",
+  "zh": "这实际上是 agentic knowledge work 和 agentic financial analysis。"
+ },
+ {
+  "seg": 238,
+  "start": 800.059,
+  "end": 802.662,
+  "speaker": "Daniel McKinnon",
+  "en": "All this means is what the core model task is,",
+  "zh": "所有这一切意味着核心模型任务是什么，"
+ },
+ {
+  "seg": 239,
+  "start": 803.202,
+  "end": 808.128,
+  "speaker": "Daniel McKinnon",
+  "en": "is no longer to get a prompt from a user and come back with an answer,",
+  "zh": "不再是从用户那里获取一个 prompt 并返回一个答案，"
+ },
+ {
+  "seg": 240,
+  "start": 808.628,
+  "end": 815.178,
+  "speaker": "Daniel McKinnon",
+  "en": "But it is actually to get a task from a user that requires many, many steps.",
+  "zh": "但实际上是从用户那里获取一个需要许多、许多步骤的任务。"
+ },
+ {
+  "seg": 241,
+  "start": 815.719,
+  "end": 819.995,
+  "speaker": "Daniel McKinnon",
+  "en": "Some of these steps might involve just thinking, which is called reasoning in this world.",
+  "zh": "其中一些步骤可能只涉及思考，在这个世界里称为推理。"
+ },
+ {
+  "seg": 242,
+  "start": 820.045,
+  "end": 823.4338888888889,
+  "speaker": "Daniel McKinnon",
+  "en": "Some of it might involve tool calling, something like search.",
+  "zh": "其中一些可能涉及工具调用，比如搜索之类的东西。"
+ },
+ {
+  "seg": 243,
+  "start": 823.49,
+  "end": 827.606,
+  "speaker": "Daniel McKinnon",
+  "en": "Some of it might involve more advanced tool calling, like something we'll go over today.",
+  "zh": "其中一些可能涉及更高级的工具调用，比如我们今天要讲的东西。"
+ },
+ {
+  "seg": 244,
+  "start": 827.656,
+  "end": 830.47,
+  "speaker": "Daniel McKinnon",
+  "en": "And this is a totally new paradigm of writing evals",
+  "zh": "这是一个编写 evals 的全新范式"
+ },
+ {
+  "seg": 245,
+  "start": 830.52,
+  "end": 833.695,
+  "speaker": "Daniel McKinnon",
+  "en": "because you're no longer thinking about QA, you're thinking about tasks.",
+  "zh": "因为你不再考虑 QA，你在考虑任务。"
+ },
+ {
+  "seg": 246,
+  "start": 833.745,
+  "end": 836.95,
+  "speaker": "Daniel McKinnon",
+  "en": "Fortunately for us, the framework is largely the same.",
+  "zh": "对我们来说幸运的是，框架基本上是相同的。"
+ },
+ {
+  "seg": 247,
+  "start": 837.07,
+  "end": 841.024,
+  "speaker": "Daniel McKinnon",
+  "en": "We still have to define the problem, We still have to be good PMs and know what we're solving.",
+  "zh": "我们仍然必须定义问题，我们仍然必须做优秀的 PM 并且知道我们在解决什么。"
+ },
+ {
+  "seg": 248,
+  "start": 841.074,
+  "end": 843.916,
+  "speaker": "Daniel McKinnon",
+  "en": "We still have to collect representative prompts.",
+  "zh": "我们仍然必须收集有代表性的 prompts。"
+ },
+ {
+  "seg": 249,
+  "start": 844.276,
+  "end": 845.707,
+  "speaker": "Daniel McKinnon",
+  "en": "I call this Goldilocks style.",
+  "zh": "我称之为金发姑娘风格。"
+ },
+ {
+  "seg": 250,
+  "start": 845.757,
+  "end": 848.609,
+  "speaker": "Daniel McKinnon",
+  "en": "Again, they can't be too hard and it can't be too easy.",
+  "zh": "同样，它们不能太难，也不能太容易。"
+ },
+ {
+  "seg": 251,
+  "start": 848.659,
+  "end": 850.1500000000001,
+  "speaker": "Daniel McKinnon",
+  "en": "There has to be some room to run.",
+  "zh": "必须有一些运行的空间。"
+ },
+ {
+  "seg": 252,
+  "start": 850.2,
+  "end": 855.383,
+  "speaker": "Daniel McKinnon",
+  "en": "A typical good eval will have something like 25%, 50% success rate.",
+  "zh": "一个典型的好的评测会有像 25%、50% 的成功率。"
+ },
+ {
+  "seg": 253,
+  "start": 855.783,
+  "end": 860.1360000000001,
+  "speaker": "Daniel McKinnon",
+  "en": "And then over months that will go to 100% and then you'll have to throw it away",
+  "zh": "然后在几个月内这会变成 100%，然后你就必须把它扔掉"
+ },
+ {
+  "seg": 254,
+  "start": 860.186,
+  "end": 862.186,
+  "speaker": "Daniel McKinnon",
+  "en": "and create a new one that is harder.",
+  "zh": "并创建一个新的更难的评测。"
+ },
+ {
+  "seg": 255,
+  "start": 862.347,
+  "end": 865.1247777777778,
+  "speaker": "Daniel McKinnon",
+  "en": "And then you also have to figure out how to score.",
+  "zh": "然后你还必须弄清楚如何评分。"
+ },
+ {
+  "seg": 256,
+  "start": 865.285,
+  "end": 872.285,
+  "speaker": "Daniel McKinnon",
+  "en": "One thing that's changed is QA is relatively easy to score with humans worst case scenario.",
+  "zh": "改变的一件事是，在最坏的情况下 QA 用人类来评分相对容易。"
+ },
+ {
+  "seg": 257,
+  "start": 873.147,
+  "end": 874.268,
+  "speaker": "Daniel McKinnon",
+  "en": "There's exceptions to this.",
+  "zh": "这也有例外。"
+ },
+ {
+  "seg": 258,
+  "start": 874.308,
+  "end": 874.648,
+  "speaker": "Daniel McKinnon",
+  "en": "Of course,",
+  "zh": "当然，"
+ },
+ {
+  "seg": 259,
+  "start": 874.688,
+  "end": 877.989,
+  "speaker": "Daniel McKinnon",
+  "en": "the reason these models are so bad at things like creative writing is",
+  "zh": "这些模型在创意写作之类的事情上如此糟糕的原因是"
+ },
+ {
+  "seg": 260,
+  "start": 878.029,
+  "end": 880.979,
+  "speaker": "Daniel McKinnon",
+  "en": "because it's hard to score and there's different preferences",
+  "zh": "因为很难评分，而且有不同的偏好"
+ },
+ {
+  "seg": 261,
+  "start": 881.029,
+  "end": 885.211,
+  "speaker": "Daniel McKinnon",
+  "en": "and different users like different things and why they're so good at math",
+  "zh": "不同的用户喜欢不同的东西，以及为什么它们在数学方面如此出色"
+ },
+ {
+  "seg": 262,
+  "start": 885.251,
+  "end": 889.9176666666666,
+  "speaker": "Daniel McKinnon",
+  "en": "and coding is there is like some right answer and this is much easier to hill climb.",
+  "zh": "和编码是因为就像有一个正确的答案，这更容易进行局部优化。"
+ },
+ {
+  "seg": 263,
+  "start": 891.415,
+  "end": 892.596,
+  "speaker": "Daniel McKinnon",
+  "en": "For, to some extent,",
+  "zh": "对于，在某种程度上，"
+ },
+ {
+  "seg": 264,
+  "start": 893.254,
+  "end": 894.357,
+  "speaker": "Daniel McKinnon",
+  "en": "QA-style questions,",
+  "zh": "问答风格的问题，"
+ },
+ {
+  "seg": 265,
+  "start": 894.397,
+  "end": 897.36,
+  "speaker": "Daniel McKinnon",
+  "en": "you can ask human raters to review worst-case scenario if you can't find",
+  "zh": "你可以要求人类评分员审查最坏的情况，如果你找不到"
+ },
+ {
+  "seg": 266,
+  "start": 897.4,
+  "end": 898.7888888888889,
+  "speaker": "Daniel McKinnon",
+  "en": "a better way to score it.",
+  "zh": "更好的评分方法。"
+ },
+ {
+  "seg": 267,
+  "start": 898.861,
+  "end": 900.182,
+  "speaker": "Daniel McKinnon",
+  "en": "With agentic work,",
+  "zh": "对于智能体工作，"
+ },
+ {
+  "seg": 268,
+  "start": 900.202,
+  "end": 904.075,
+  "speaker": "Daniel McKinnon",
+  "en": "it's much more challenging because the time horizon tends to be very long,",
+  "zh": "这要困难得多，因为时间跨度通常很长，"
+ },
+ {
+  "seg": 269,
+  "start": 904.125,
+  "end": 908.809,
+  "speaker": "Daniel McKinnon",
+  "en": "and the final output is a collection of many, many, many steps that it took.",
+  "zh": "最终输出是它采取的许多、许多、许多步骤的集合。"
+ },
+ {
+  "seg": 270,
+  "start": 909.289,
+  "end": 911.791,
+  "speaker": "Daniel McKinnon",
+  "en": "Some steps could be correct and lead to the wrong outcome.",
+  "zh": "有些步骤可能是正确的，但导致了错误的结果。"
+ },
+ {
+  "seg": 271,
+  "start": 911.811,
+  "end": 913.152,
+  "speaker": "Daniel McKinnon",
+  "en": "Some steps could not be correct.",
+  "zh": "有些步骤可能是不正确的。"
+ },
+ {
+  "seg": 272,
+  "start": 913.192,
+  "end": 915.895,
+  "speaker": "Daniel McKinnon",
+  "en": "And it's just from a labor perspective and a...",
+  "zh": "而且这只是从劳动力的角度和一种..."
+ },
+ {
+  "seg": 273,
+  "start": 917.034,
+  "end": 918.907,
+  "speaker": "Daniel McKinnon",
+  "en": "Like defining success perspective,",
+  "zh": "就像定义成功的角度，"
+ },
+ {
+  "seg": 274,
+  "start": 918.957,
+  "end": 919.548,
+  "speaker": "Daniel McKinnon",
+  "en": "it's much,",
+  "zh": "获得可以自动评分的东西要"
+ },
+ {
+  "seg": 275,
+  "start": 919.598,
+  "end": 923.405,
+  "speaker": "Daniel McKinnon",
+  "en": "much more important to get something that can be automatically scored to make more",
+  "zh": "重要得多，以做更多"
+ },
+ {
+  "seg": 276,
+  "start": 923.425,
+  "end": 926.44,
+  "speaker": "Daniel McKinnon",
+  "en": "of these rollouts and understand how you can do more experiments.",
+  "zh": "这些部署并了解你可以做更多实验。"
+ },
+ {
+  "seg": 277,
+  "start": 926.49,
+  "end": 930.7122222222222,
+  "speaker": "Daniel McKinnon",
+  "en": "But again, it's largely the same and the tasks are much longer time horizon.",
+  "zh": "但同样，这很大程度上是一样的，而且任务的时间跨度要长得多。"
+ },
+ {
+  "seg": 278,
+  "start": 931.715,
+  "end": 937.478,
+  "speaker": "Daniel McKinnon",
+  "en": "The goal of this podcast is to walk the audience through creating",
+  "zh": "这个播客的目标是引导观众实时创建"
+ },
+ {
+  "seg": 279,
+  "start": 937.958,
+  "end": 940.459,
+  "speaker": "Daniel McKinnon",
+  "en": "an actual agentic eval in real time.",
+  "zh": "一个实际的智能体评测。"
+ },
+ {
+  "seg": 280,
+  "start": 941.039,
+  "end": 942.1700000000001,
+  "speaker": "Daniel McKinnon",
+  "en": "I want to caveat this.",
+  "zh": "我想对此做一个说明。"
+ },
+ {
+  "seg": 281,
+  "start": 942.22,
+  "end": 943.9422222222222,
+  "speaker": "Daniel McKinnon",
+  "en": "This is a little bit pre-baked.",
+  "zh": "这有点预先准备好的。"
+ },
+ {
+  "seg": 282,
+  "start": 944.321,
+  "end": 948.523,
+  "speaker": "Daniel McKinnon",
+  "en": "It is unrealistic in 45 minutes to come up with a brand new eval.",
+  "zh": "在 45 分钟内想出一个全新的评测是不现实的。"
+ },
+ {
+  "seg": 283,
+  "start": 948.943,
+  "end": 952.6096666666666,
+  "speaker": "Daniel McKinnon",
+  "en": "This is kind of like a week's or month's problem of deep thinking,",
+  "zh": "这有点像一周或一个月的深度思考问题，"
+ },
+ {
+  "seg": 284,
+  "start": 952.965,
+  "end": 957.5761111111111,
+  "speaker": "Daniel McKinnon",
+  "en": "but we're going to kind of pretend and we'll go through some of the steps together.",
+  "zh": "但我们要假装一下，我们将一起完成一些步骤。"
+ },
+ {
+  "seg": 285,
+  "start": 958.087,
+  "end": 959.087,
+  "speaker": "Daniel McKinnon",
+  "en": "First problem.",
+  "zh": "第一个问题。"
+ },
+ {
+  "seg": 286,
+  "start": 959.428,
+  "end": 963.928,
+  "speaker": "Daniel McKinnon",
+  "en": "I want to measure and improve the model's ability to help with clinical genomics.",
+  "zh": "我想衡量和提高模型帮助临床基因组学的能力。"
+ },
+ {
+  "seg": 287,
+  "start": 963.993,
+  "end": 966.495,
+  "speaker": "Daniel McKinnon",
+  "en": "This is a problem that I care deeply about.",
+  "zh": "这是一个我非常关心的问题。"
+ },
+ {
+  "seg": 288,
+  "start": 966.836,
+  "end": 971.11,
+  "speaker": "Daniel McKinnon",
+  "en": "It's one that I think can improve the world and it's something that I've launched",
+  "zh": "这是一个我认为可以改善世界的问题，也是我已经启动"
+ },
+ {
+  "seg": 289,
+  "start": 971.16,
+  "end": 972.4377777777778,
+  "speaker": "Daniel McKinnon",
+  "en": "a new startup to solve.",
+  "zh": "一家新创业公司来解决的问题。"
+ },
+ {
+  "seg": 290,
+  "start": 973.062,
+  "end": 974.183,
+  "speaker": "Daniel McKinnon",
+  "en": "And the problem is,",
+  "zh": "问题是，"
+ },
+ {
+  "seg": 291,
+  "start": 974.603,
+  "end": 981.603,
+  "speaker": "Daniel McKinnon",
+  "en": "is that whole genome sequencing has Become the absolute gold standard in diagnostics",
+  "zh": "全基因组测序已成为 NICU 环境中诊断的绝对金标准，"
+ },
+ {
+  "seg": 292,
+  "start": 983.434,
+  "end": 985.857,
+  "speaker": "Daniel McKinnon",
+  "en": "in NICU settings, so for sick babies.",
+  "zh": "也就是对于生病的新生儿。"
+ },
+ {
+  "seg": 293,
+  "start": 986.759,
+  "end": 992.927,
+  "speaker": "Daniel McKinnon",
+  "en": "Unfortunately, interpreting the results of a whole genome sequence is very labor intensive.",
+  "zh": "不幸的是，解读全基因组测序的结果是非常费力的。"
+ },
+ {
+  "seg": 294,
+  "start": 993.528,
+  "end": 997.31,
+  "speaker": "Daniel McKinnon",
+  "en": "And it limits access to this life-saving technology.",
+  "zh": "这限制了获得这种救命技术的机会。"
+ },
+ {
+  "seg": 295,
+  "start": 997.89,
+  "end": 1003.232,
+  "speaker": "Daniel McKinnon",
+  "en": "So I wanted to see if I could distill some of this human expertise into a model",
+  "zh": "所以我想看看我是否能将一些人类专业知识提炼到模型中"
+ },
+ {
+  "seg": 296,
+  "start": 1003.552,
+  "end": 1007.514,
+  "speaker": "Daniel McKinnon",
+  "en": "to help broaden the accessibility of this technology.",
+  "zh": "以帮助扩大这项技术的可及性。"
+ },
+ {
+  "seg": 297,
+  "start": 1007.794,
+  "end": 1013.136,
+  "speaker": "Daniel McKinnon",
+  "en": "So first thing is like before, We have to deeply understand the problem.",
+  "zh": "所以第一件事就像以前一样，我们必须深刻理解这个问题。"
+ },
+ {
+  "seg": 298,
+  "start": 1013.876,
+  "end": 1019.017,
+  "speaker": "Daniel McKinnon",
+  "en": "And I'm not going over these flow sheets, but this is just kind of how complex this is.",
+  "zh": "我不会详细讲解这些流程图，但这只是说明这有多复杂。"
+ },
+ {
+  "seg": 299,
+  "start": 1019.597,
+  "end": 1022.978,
+  "speaker": "Daniel McKinnon",
+  "en": "Generally, you start with the raw reads off the sequencer.",
+  "zh": "通常，你从测序仪的原始读数开始。"
+ },
+ {
+  "seg": 300,
+  "start": 1023.438,
+  "end": 1030.4,
+  "speaker": "Daniel McKinnon",
+  "en": "You do a lot of processing work to identify how the particular patient differs from",
+  "zh": "你做了大量的处理工作来识别该特定患者如何不同于"
+ },
+ {
+  "seg": 301,
+  "start": 1030.42,
+  "end": 1032.821,
+  "speaker": "Daniel McKinnon",
+  "en": "the reference human genome.",
+  "zh": "参考人类基因组。"
+ },
+ {
+  "seg": 302,
+  "start": 1033.541,
+  "end": 1040.183,
+  "speaker": "Daniel McKinnon",
+  "en": "And then you do another set of work to determine whether those changes to the genome matter.",
+  "zh": "然后你要做另一组工作来确定这些基因组的变化是否重要。"
+ },
+ {
+  "seg": 303,
+  "start": 1040.843,
+  "end": 1041.843,
+  "speaker": "Daniel McKinnon",
+  "en": "For example,",
+  "zh": "例如,"
+ },
+ {
+  "seg": 304,
+  "start": 1042.386,
+  "end": 1043.798,
+  "speaker": "Daniel McKinnon",
+  "en": "if my genome were sequenced,",
+  "zh": "如果我的基因组被测序,"
+ },
+ {
+  "seg": 305,
+  "start": 1043.848,
+  "end": 1047.713,
+  "speaker": "Daniel McKinnon",
+  "en": "I would get about a billion reads that are 150 base pairs long.",
+  "zh": "我会得到大约 10 亿个长度为 150 个碱基对的 reads。"
+ },
+ {
+  "seg": 306,
+  "start": 1047.813,
+  "end": 1050.090777777778,
+  "speaker": "Daniel McKinnon",
+  "en": "They would come out in a giant text file,",
+  "zh": "它们会输出在一个巨大的文本文件中,"
+ },
+ {
+  "seg": 307,
+  "start": 1050.357,
+  "end": 1056.246,
+  "speaker": "Daniel McKinnon",
+  "en": "and I would need to transform that into a diagnosis that says that this gene may",
+  "zh": "我需要将其转化为一个诊断,说明该基因可能"
+ },
+ {
+  "seg": 308,
+  "start": 1056.306,
+  "end": 1057.237,
+  "speaker": "Daniel McKinnon",
+  "en": "or may not be responsible.",
+  "zh": "负责,也可能不负责。 [[309] ]所以我不会在这里花太多时间,因为我们要去"
+ },
+ {
+  "seg": 309,
+  "start": 1057.287,
+  "end": 1064.287,
+  "speaker": "Daniel McKinnon",
+  "en": "So I'm not going to spend too much time on this here because we're going to go",
+  "zh": "所以我不打算在这里花太多时间，因为我们要去"
+ },
+ {
+  "seg": 310,
+  "start": 1064.333,
+  "end": 1068.227,
+  "speaker": "Daniel McKinnon",
+  "en": "over some real examples, but you really need to deeply understand the problem.",
+  "zh": "看一些真实的例子,但你真的需要深入理解这个问题。"
+ },
+ {
+  "seg": 311,
+  "start": 1068.277,
+  "end": 1074.482,
+  "speaker": "Daniel McKinnon",
+  "en": "This is why people like Anthropic and OpenAI are hiring Investment bankers,",
+  "zh": "这就是为什么像 Anthropic 和 OpenAI 这样的公司正在招聘投资银行家,"
+ },
+ {
+  "seg": 312,
+  "start": 1074.542,
+  "end": 1075.2530000000002,
+  "speaker": "Daniel McKinnon",
+  "en": "accountants,",
+  "zh": "会计师,"
+ },
+ {
+  "seg": 313,
+  "start": 1075.303,
+  "end": 1075.823,
+  "speaker": "Daniel McKinnon",
+  "en": "lawyers,",
+  "zh": "律师,"
+ },
+ {
+  "seg": 314,
+  "start": 1075.843,
+  "end": 1078.906,
+  "speaker": "Daniel McKinnon",
+  "en": "you see job ads for all these vertical specific teams,",
+  "zh": "你会看到所有这些垂直特定团队的招聘广告,"
+ },
+ {
+  "seg": 315,
+  "start": 1079.306,
+  "end": 1081.207,
+  "speaker": "Daniel McKinnon",
+  "en": "you must deeply understand the problem.",
+  "zh": "你必须深入理解这个问题。"
+ },
+ {
+  "seg": 316,
+  "start": 1081.227,
+  "end": 1085.251,
+  "speaker": "Daniel McKinnon",
+  "en": "You will unlikely be successful in creating an eval for some topic",
+  "zh": "如果你没有某个主题的背景知识,或者没有真正自学过它,"
+ },
+ {
+  "seg": 317,
+  "start": 1085.351,
+  "end": 1089.224,
+  "speaker": "Daniel McKinnon",
+  "en": "if you don't have some background in it or haven't really educated yourself on it.",
+  "zh": "你就不太可能成功为该主题创建一个评估。"
+ },
+ {
+  "seg": 318,
+  "start": 1089.274,
+  "end": 1091.075,
+  "speaker": "Daniel McKinnon",
+  "en": "So then let's say we've understood the problem.",
+  "zh": "那么假设我们已经理解了这个问题。"
+ },
+ {
+  "seg": 319,
+  "start": 1091.095,
+  "end": 1094.568,
+  "speaker": "Daniel McKinnon",
+  "en": "I think I understand this problem pretty well and by the end of this podcast you will too.",
+  "zh": "我想我很理解这个问题,在这个播客结束时你们也会。"
+ },
+ {
+  "seg": 320,
+  "start": 1094.618,
+  "end": 1095.9513333333332,
+  "speaker": "Daniel McKinnon",
+  "en": "Let's go to the prompts.",
+  "zh": "让我们来看一下提示词。"
+ },
+ {
+  "seg": 321,
+  "start": 1096.22,
+  "end": 1100.421,
+  "speaker": "Daniel McKinnon",
+  "en": "So Again, we want to find this like Goldilocks set of prompts.",
+  "zh": "同样,我们想要找到这个像金发姑娘(刚刚好)一样的提示词集合。"
+ },
+ {
+  "seg": 322,
+  "start": 1100.921,
+  "end": 1105.202,
+  "speaker": "Daniel McKinnon",
+  "en": "So the first thing I like to do is just start with something easy.",
+  "zh": "我喜欢做的第一件事就是从简单的事情开始。"
+ },
+ {
+  "seg": 323,
+  "start": 1105.882,
+  "end": 1109.783,
+  "speaker": "Daniel McKinnon",
+  "en": "So you want to make sure the model can actually do this.",
+  "zh": "所以你想确保模型实际上能做到这一点。"
+ },
+ {
+  "seg": 324,
+  "start": 1109.903,
+  "end": 1111.993,
+  "speaker": "Daniel McKinnon",
+  "en": "And when I say the model for agentic stuff,",
+  "zh": "当我说用于智能体相关内容的模型时,"
+ },
+ {
+  "seg": 325,
+  "start": 1112.043,
+  "end": 1114.9874444444442,
+  "speaker": "Daniel McKinnon",
+  "en": "I'm usually talking about the model plus the harness.",
+  "zh": "我通常指的是模型加上框架。"
+ },
+ {
+  "seg": 326,
+  "start": 1115.144,
+  "end": 1117.3662222222222,
+  "speaker": "Daniel McKinnon",
+  "en": "So I'll use those words interchangeably,",
+  "zh": "我会互换使用这些词,"
+ },
+ {
+  "seg": 327,
+  "start": 1117.504,
+  "end": 1122.325,
+  "speaker": "Daniel McKinnon",
+  "en": "but this is a frontier model harnessed in a way that it can use these tools",
+  "zh": "但这是一个前沿模型,经过某种方式地框架化,使其可以使用这些工具"
+ },
+ {
+  "seg": 328,
+  "start": 1122.385,
+  "end": 1125.9360000000001,
+  "speaker": "Daniel McKinnon",
+  "en": "and it can do this reasoning and it could come back with a solution.",
+  "zh": "并且它可以进行这种推理,并能带回一个解决方案。"
+ },
+ {
+  "seg": 329,
+  "start": 1125.986,
+  "end": 1129.087,
+  "speaker": "Daniel McKinnon",
+  "en": "So for this problem of genome interpretation,",
+  "zh": "所以对于基因组解读这个问题, [[330] ]我选择了可能的遗传疾病中最简单的一种之一"
+ },
+ {
+  "seg": 330,
+  "start": 1129.347,
+  "end": 1134.229,
+  "speaker": "Daniel McKinnon",
+  "en": "I picked like one of the easiest genetic diseases possible",
+  "zh": "我挑了可能是最容易的遗传病之一"
+ },
+ {
+  "seg": 331,
+  "start": 1134.389,
+  "end": 1135.779,
+  "speaker": "Daniel McKinnon",
+  "en": "and this is cystic fibrosis.",
+  "zh": "那就是囊性纤维化。"
+ },
+ {
+  "seg": 332,
+  "start": 1135.829,
+  "end": 1139.74,
+  "speaker": "Daniel McKinnon",
+  "en": "This was something that we have known the genetic cause for quite some time",
+  "zh": "这是一种我们已经知道遗传原因相当长一段时间的东西"
+ },
+ {
+  "seg": 333,
+  "start": 1139.79,
+  "end": 1143.572,
+  "speaker": "Daniel McKinnon",
+  "en": "and there are like canonical genes that cause cystic fibrosis.",
+  "zh": "并且有一些导致囊性纤维化的规范基因。"
+ },
+ {
+  "seg": 334,
+  "start": 1143.972,
+  "end": 1147.213,
+  "speaker": "Daniel McKinnon",
+  "en": "So to save you the effort of me Googling for this,",
+  "zh": "为了省去我为此谷歌搜索的力气,"
+ },
+ {
+  "seg": 335,
+  "start": 1147.433,
+  "end": 1151.433,
+  "speaker": "Daniel McKinnon",
+  "en": "I just had the link right here and let's just go ahead and look at this.",
+  "zh": "我就把链接放在这里了,我们直接来看看这个。"
+ },
+ {
+  "seg": 336,
+  "start": 1151.534,
+  "end": 1158.534,
+  "speaker": "Daniel McKinnon",
+  "en": "So what we see here is The canonical cystic fibrosis mutation in ClinVar,",
+  "zh": "所以我们在这里看到的是 ClinVar 中规范的囊性纤维化突变,"
+ },
+ {
+  "seg": 337,
+  "start": 1161.061,
+  "end": 1164.925,
+  "speaker": "Daniel McKinnon",
+  "en": "which is an NIH database for a lot of genetic disease.",
+  "zh": "ClinVar 是一个包含许多遗传疾病的 NIH 数据库。"
+ },
+ {
+  "seg": 338,
+  "start": 1165.225,
+  "end": 1168.5583333333332,
+  "speaker": "Daniel McKinnon",
+  "en": "And what we see here is it's got four stars and three stars.",
+  "zh": "我们在这里看到的是它有四颗星和三颗星。"
+ },
+ {
+  "seg": 339,
+  "start": 1168.628,
+  "end": 1170.628,
+  "speaker": "Daniel McKinnon",
+  "en": "This really should be four and four.",
+  "zh": "这真的应该是四颗和四颗。"
+ },
+ {
+  "seg": 340,
+  "start": 1171.411,
+  "end": 1178.411,
+  "speaker": "Daniel McKinnon",
+  "en": "So I'm going to make sure that my agent can actually get this before I go forward.",
+  "zh": "所以在我继续之前,我要确保我的智能体实际上能做到这一点。"
+ },
+ {
+  "seg": 341,
+  "start": 1180.514,
+  "end": 1183.715,
+  "speaker": "Daniel McKinnon",
+  "en": "And so this is like the easy thing to start.",
+  "zh": "所以这是开始时的简单事情。"
+ },
+ {
+  "seg": 342,
+  "start": 1183.935,
+  "end": 1186.6572222222221,
+  "speaker": "Daniel McKinnon",
+  "en": "So we're going to have our agentic genetics eval,",
+  "zh": "所以我们要进行我们的智能体遗传学评估,"
+ },
+ {
+  "seg": 343,
+  "start": 1187.056,
+  "end": 1191.957,
+  "speaker": "Daniel McKinnon",
+  "en": "and we're going to say gene, and we're going to say CFTR2.",
+  "zh": "我们要说基因,我们要说 CFTR2。"
+ },
+ {
+  "seg": 344,
+  "start": 1192.217,
+  "end": 1194.738,
+  "speaker": "Daniel McKinnon",
+  "en": "This is the, again, canonical gene.",
+  "zh": "这又是那个规范基因。"
+ },
+ {
+  "seg": 345,
+  "start": 1195.438,
+  "end": 1196.999,
+  "speaker": "Daniel McKinnon",
+  "en": "And then we'll say variant.",
+  "zh": "然后我们会说变异体。"
+ },
+ {
+  "seg": 346,
+  "start": 1198.555,
+  "end": 1203.336,
+  "speaker": "Daniel McKinnon",
+  "en": "And what a variant is, is how a particular gene is mutated.",
+  "zh": "所谓变异体,就是指特定基因是如何发生突变的。"
+ },
+ {
+  "seg": 347,
+  "start": 1203.837,
+  "end": 1204.837,
+  "speaker": "Daniel McKinnon",
+  "en": "So right here,",
+  "zh": "所以在这里,"
+ },
+ {
+  "seg": 348,
+  "start": 1205.137,
+  "end": 1206.237,
+  "speaker": "Daniel McKinnon",
+  "en": "this is, again,",
+  "zh": "这又是,"
+ },
+ {
+  "seg": 349,
+  "start": 1206.257,
+  "end": 1208.798,
+  "speaker": "Daniel McKinnon",
+  "en": "this is a somewhat niche eval,",
+  "zh": "这是一个有点小众的评估,"
+ },
+ {
+  "seg": 350,
+  "start": 1209.218,
+  "end": 1213.659,
+  "speaker": "Daniel McKinnon",
+  "en": "but what this is saying is that on this particular transcript of CFTR,",
+  "zh": "但这里说的是，在这个 CFTR 的特定转录本上，"
+ },
+ {
+  "seg": 351,
+  "start": 1214.3,
+  "end": 1218.321,
+  "speaker": "Daniel McKinnon",
+  "en": "at this position, there is one base deleted.",
+  "zh": "在这个位置，有一个碱基被删除了。"
+ },
+ {
+  "seg": 352,
+  "start": 1218.761,
+  "end": 1220.8165555555556,
+  "speaker": "Daniel McKinnon",
+  "en": "And what that results in is the 508th",
+  "zh": "结果是导致第 508 个"
+ },
+ {
+  "seg": 353,
+  "start": 1222.9,
+  "end": 1224.462,
+  "speaker": "Daniel McKinnon",
+  "en": "Phenylalanine deleted.",
+  "zh": "苯丙氨酸被删除。"
+ },
+ {
+  "seg": 354,
+  "start": 1224.743,
+  "end": 1229.009,
+  "speaker": "Daniel McKinnon",
+  "en": "So this is the actual variant that's going to exist in our eval.",
+  "zh": "所以这是将存在于我们评估中的实际变异。"
+ },
+ {
+  "seg": 355,
+  "start": 1229.37,
+  "end": 1230.0610000000001,
+  "speaker": "Daniel McKinnon",
+  "en": "Sounds good.",
+  "zh": "听起来不错。"
+ },
+ {
+  "seg": 356,
+  "start": 1230.111,
+  "end": 1230.391,
+  "speaker": "Daniel McKinnon",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 357,
+  "start": 1230.411,
+  "end": 1235.198,
+  "speaker": "Daniel McKinnon",
+  "en": "So what we see is that this is the exact variant that we care about.",
+  "zh": "所以我们看到的是这是我们关心的确切变异。"
+ },
+ {
+  "seg": 358,
+  "start": 1235.258,
+  "end": 1238.403,
+  "speaker": "Daniel McKinnon",
+  "en": "And what you'll notice is this is like very complex and new So this kind",
+  "zh": "你会注意到这非常复杂且新颖，所以这种"
+ },
+ {
+  "seg": 359,
+  "start": 1238.443,
+  "end": 1243.39,
+  "speaker": "Daniel McKinnon",
+  "en": "of comes back to the absolute first point I was making is you really need to know",
+  "zh": "回到了我最开始提出的观点，就是你真的需要了解"
+ },
+ {
+  "seg": 360,
+  "start": 1243.43,
+  "end": 1245.633,
+  "speaker": "Daniel McKinnon",
+  "en": "the space to do these evals.",
+  "zh": "这个领域才能做这些评估。"
+ },
+ {
+  "seg": 361,
+  "start": 1245.833,
+  "end": 1248.577,
+  "speaker": "Daniel McKinnon",
+  "en": "A lot of the evals are kind of like picked up.",
+  "zh": "很多评估都是那种"
+ },
+ {
+  "seg": 362,
+  "start": 1248.657,
+  "end": 1252.0320000000002,
+  "speaker": "Daniel McKinnon",
+  "en": "Like if you're trying to come up with an eval for Python coding,",
+  "zh": "就像如果你试图为 Python 编写出一个评估，"
+ },
+ {
+  "seg": 363,
+  "start": 1252.082,
+  "end": 1253.943,
+  "speaker": "Daniel McKinnon",
+  "en": "like many of these are pretty good now.",
+  "zh": "其中很多现在都相当不错了。"
+ },
+ {
+  "seg": 364,
+  "start": 1254.223,
+  "end": 1256.694,
+  "speaker": "Daniel McKinnon",
+  "en": "And for any of you who have used these models,",
+  "zh": "对于任何使用过这些模型的人来说，"
+ },
+ {
+  "seg": 365,
+  "start": 1256.744,
+  "end": 1261.1328888888888,
+  "speaker": "Daniel McKinnon",
+  "en": "saying Python coding is a solved problem is a little bit of a strong statement,",
+  "zh": "说 Python 编写是一个已解决的问题有点过于绝对了，"
+ },
+ {
+  "seg": 366,
+  "start": 1261.286,
+  "end": 1265.267,
+  "speaker": "Daniel McKinnon",
+  "en": "but it is a very, very well understood and well characterized problem.",
+  "zh": "但这是一个非常非常容易被理解且特征明确的问题。"
+ },
+ {
+  "seg": 367,
+  "start": 1265.327,
+  "end": 1270.549,
+  "speaker": "Daniel McKinnon",
+  "en": "So we will go to this and we're going to say, okay, so this is the thing we want to know.",
+  "zh": "所以我们要来这里，我们要说，好的，这是我们想要知道的。"
+ },
+ {
+  "seg": 368,
+  "start": 1271.089,
+  "end": 1272.811222222222,
+  "speaker": "Daniel McKinnon",
+  "en": "And I should add a column here.",
+  "zh": "我应该在这里加一列。"
+ },
+ {
+  "seg": 369,
+  "start": 1273.39,
+  "end": 1276.031,
+  "speaker": "Daniel McKinnon",
+  "en": "And this is the phenotype is cystic fibrosis.",
+  "zh": "这是表型是囊性纤维化。"
+ },
+ {
+  "seg": 370,
+  "start": 1276.811,
+  "end": 1282.772,
+  "speaker": "Daniel McKinnon",
+  "en": "So what you see here is I'm starting to build a table of question and answer.",
+  "zh": "所以你在这里看到的是我开始建立一个问答表格。"
+ },
+ {
+  "seg": 371,
+  "start": 1283.232,
+  "end": 1289.154,
+  "speaker": "Daniel McKinnon",
+  "en": "So the question is I have this phenotype of cystic fibrosis, which is a lung disease.",
+  "zh": "问题是我有这个囊性纤维化表型，这是一种肺部疾病。"
+ },
+ {
+  "seg": 372,
+  "start": 1289.254,
+  "end": 1291.804,
+  "speaker": "Daniel McKinnon",
+  "en": "And, you know, we'll describe exactly what happens there.",
+  "zh": "而且，你知道，我们会确切描述那里发生了什么。"
+ },
+ {
+  "seg": 373,
+  "start": 1291.854,
+  "end": 1294.185,
+  "speaker": "Daniel McKinnon",
+  "en": "And then we have the genome of this patient.",
+  "zh": "然后我们有这位患者的基因组。"
+ },
+ {
+  "seg": 374,
+  "start": 1294.235,
+  "end": 1296.7050000000002,
+  "speaker": "Daniel McKinnon",
+  "en": "And then we have the answer, which is this variant.",
+  "zh": "然后我们有答案，就是这个变异。"
+ },
+ {
+  "seg": 375,
+  "start": 1296.755,
+  "end": 1299.006,
+  "speaker": "Daniel McKinnon",
+  "en": "So let's walk through like how we would do that.",
+  "zh": "所以让我们来看看我们会怎么做。"
+ },
+ {
+  "seg": 376,
+  "start": 1299.056,
+  "end": 1301.496,
+  "speaker": "Daniel McKinnon",
+  "en": "And when you're constructing these evals,",
+  "zh": "当你在构建这些评估时，"
+ },
+ {
+  "seg": 377,
+  "start": 1301.956,
+  "end": 1306.067111111111,
+  "speaker": "Daniel McKinnon",
+  "en": "you're going to really, really, really use Gen AI a lot to construct them.",
+  "zh": "你真的会非常频繁地使用生成式 AI 来构建它们。"
+ },
+ {
+  "seg": 378,
+  "start": 1306.617,
+  "end": 1309.481,
+  "speaker": "Daniel McKinnon",
+  "en": "What I'm going to do is now I'm going to go over to",
+  "zh": "我要做的是现在我要去"
+ },
+ {
+  "seg": 379,
+  "start": 1309.501,
+  "end": 1313.767,
+  "speaker": "Daniel McKinnon",
+  "en": "a terminal window I have open here and I'm using Codex.",
+  "zh": "我这里打开的一个终端窗口，我正在使用 Codex。"
+ },
+ {
+  "seg": 380,
+  "start": 1314.067,
+  "end": 1315.81,
+  "speaker": "Daniel McKinnon",
+  "en": "Any of the tools will work.",
+  "zh": "任何工具都可以工作。"
+ },
+ {
+  "seg": 381,
+  "start": 1316.31,
+  "end": 1321.738,
+  "speaker": "Daniel McKinnon",
+  "en": "I have it on 5.3 Spark low because I want it to be fast for this demonstration.",
+  "zh": "我把它设置在 5.3 Spark low，因为我希望演示快一点。"
+ },
+ {
+  "seg": 382,
+  "start": 1322.338,
+  "end": 1326.501,
+  "speaker": "Daniel McKinnon",
+  "en": "But, you know, you can use any model, anything you like.",
+  "zh": "但是，你知道，你可以使用任何模型，任何你喜欢的。"
+ },
+ {
+  "seg": 383,
+  "start": 1326.821,
+  "end": 1328.7930000000001,
+  "speaker": "Daniel McKinnon",
+  "en": "And for this task, this will be fine.",
+  "zh": "对于这个任务，这会没问题。"
+ },
+ {
+  "seg": 384,
+  "start": 1328.843,
+  "end": 1330.164,
+  "speaker": "Daniel McKinnon",
+  "en": "So what I have here,",
+  "zh": "所以我在这里有什么，"
+ },
+ {
+  "seg": 385,
+  "start": 1330.784,
+  "end": 1334.187,
+  "speaker": "Daniel McKinnon",
+  "en": "and I pre-baked some of these just to kind of make it go faster,",
+  "zh": "我预先准备了一些只是为了让它快点进行，"
+ },
+ {
+  "seg": 386,
+  "start": 1334.227,
+  "end": 1336.098,
+  "speaker": "Daniel McKinnon",
+  "en": "but I want to walk through any step anyway,",
+  "zh": "但我想无论如何过一遍任何步骤，"
+ },
+ {
+  "seg": 387,
+  "start": 1336.148,
+  "end": 1342.343,
+  "speaker": "Daniel McKinnon",
+  "en": "is I have actually two files here that are representing my genome.",
+  "zh": "我实际上这里有两个文件代表我的基因组。"
+ },
+ {
+  "seg": 388,
+  "start": 1342.763,
+  "end": 1348.505,
+  "speaker": "Daniel McKinnon",
+  "en": "And what I want to do is create a synthetic version of this genome",
+  "zh": "我想要做的是创建这个基因组的一个合成版本"
+ },
+ {
+  "seg": 389,
+  "start": 1348.886,
+  "end": 1353.707,
+  "speaker": "Daniel McKinnon",
+  "en": "that has these variants that have the question and answer through this agentic flow",
+  "zh": "它有这些变异，有通过这个智能体流程的问答"
+ },
+ {
+  "seg": 390,
+  "start": 1354.127,
+  "end": 1355.728,
+  "speaker": "Daniel McKinnon",
+  "en": "that I want to get at.",
+  "zh": "我想得到的。"
+ },
+ {
+  "seg": 391,
+  "start": 1356.328,
+  "end": 1359.209,
+  "speaker": "Daniel McKinnon",
+  "en": "So what I'm going to do is I'm going to say,",
+  "zh": "所以我要做的是我要说，"
+ },
+ {
+  "seg": 392,
+  "start": 1359.509,
+  "end": 1364.614,
+  "speaker": "Daniel McKinnon",
+  "en": "please add And then this is going to be this variant two.",
+  "zh": "请添加 然后这将是这个变异 2。"
+ },
+ {
+  "seg": 393,
+  "start": 1365.254,
+  "end": 1366.894,
+  "speaker": "Daniel McKinnon",
+  "en": "And this is a small variant.",
+  "zh": "这是一个小变异。"
+ },
+ {
+  "seg": 394,
+  "start": 1366.914,
+  "end": 1373.016,
+  "speaker": "Daniel McKinnon",
+  "en": "So it's going to come through here and create a new file in a new folder.",
+  "zh": "所以它会通过这里并在一个新文件夹里创建一个新文件。"
+ },
+ {
+  "seg": 395,
+  "start": 1373.036,
+  "end": 1380.036,
+  "speaker": "Daniel McKinnon",
+  "en": "And we're going to call this dancflive.vcf.gz.",
+  "zh": "我们要叫它 dancflive.vcf.gz。"
+ },
+ {
+  "seg": 396,
+  "start": 1380.517,
+  "end": 1383.378,
+  "speaker": "Daniel McKinnon",
+  "en": "And we're going to have this be",
+  "zh": "我们将让它成为"
+ },
+ {
+  "seg": 397,
+  "start": 1387.286,
+  "end": 1392.668,
+  "speaker": "Daniel McKinnon",
+  "en": "And we're actually asking AI to help us create the eval for AI.",
+  "zh": "我们实际上是要求 AI 帮助我们为 AI 创建评估。"
+ },
+ {
+  "seg": 398,
+  "start": 1393.308,
+  "end": 1394.7524444444443,
+  "speaker": "Daniel McKinnon",
+  "en": "So we're going to do this.",
+  "zh": "所以我们要做这个。"
+ },
+ {
+  "seg": 399,
+  "start": 1395.129,
+  "end": 1402.129,
+  "speaker": "Daniel McKinnon",
+  "en": "And what the model is going to do is a variance file is literally just a text file.",
+  "zh": "模型要做的是变异文件实际上就是一个文本文件。"
+ },
+ {
+  "seg": 400,
+  "start": 1403.472,
+  "end": 1407.413,
+  "speaker": "Daniel McKinnon",
+  "en": "Actually, we can see what it looks like here, just for fun.",
+  "zh": "其实我们可以在这里看看它长什么样，纯粹为了好玩。"
+ },
+ {
+  "seg": 401,
+  "start": 1408.033,
+  "end": 1409.354,
+  "speaker": "Daniel McKinnon",
+  "en": "So while this is running,",
+  "zh": "趁着它在运行，"
+ },
+ {
+  "seg": 402,
+  "start": 1409.374,
+  "end": 1412.866,
+  "speaker": "Daniel McKinnon",
+  "en": "let's just take a look just so we know what these variant files look like.",
+  "zh": "我们就看一眼，这样我们就知道这些变体文件长什么样。"
+ },
+ {
+  "seg": 403,
+  "start": 1412.916,
+  "end": 1414.756,
+  "speaker": "Daniel McKinnon",
+  "en": "And this is fine.",
+  "zh": "这就可以了。"
+ },
+ {
+  "seg": 404,
+  "start": 1414.776,
+  "end": 1416.287,
+  "speaker": "Daniel McKinnon",
+  "en": "We don't need to show all of it.",
+  "zh": "我们不需要展示全部。"
+ },
+ {
+  "seg": 405,
+  "start": 1416.337,
+  "end": 1420.859,
+  "speaker": "Daniel McKinnon",
+  "en": "But what we basically see here is a chromosome.",
+  "zh": "但我们在这里基本看到的是一条染色体。"
+ },
+ {
+  "seg": 406,
+  "start": 1421.18,
+  "end": 1425.522,
+  "speaker": "Daniel McKinnon",
+  "en": "So you might remember from things like 23andMe, we have 23 chromosomes.",
+  "zh": "你可能还记得像 23andMe 这样的东西，我们有 23 条染色体。"
+ },
+ {
+  "seg": 407,
+  "start": 1425.542,
+  "end": 1426.082,
+  "speaker": "Daniel McKinnon",
+  "en": "So this is one.",
+  "zh": "这是其中一条。"
+ },
+ {
+  "seg": 408,
+  "start": 1426.102,
+  "end": 1427.152,
+  "speaker": "Daniel McKinnon",
+  "en": "This is the biggest one.",
+  "zh": "这是最大的那条。"
+ },
+ {
+  "seg": 409,
+  "start": 1427.202,
+  "end": 1428.413,
+  "speaker": "Daniel McKinnon",
+  "en": "And this is a position.",
+  "zh": "这是一个位置。"
+ },
+ {
+  "seg": 410,
+  "start": 1428.463,
+  "end": 1430.604,
+  "speaker": "Daniel McKinnon",
+  "en": "So your chromosomes have different number of bases.",
+  "zh": "你的染色体有不同数量的碱基。"
+ },
+ {
+  "seg": 411,
+  "start": 1430.644,
+  "end": 1434.0884444444443,
+  "speaker": "Daniel McKinnon",
+  "en": "You might remember we have like 3 billion bases in our genome.",
+  "zh": "你可能记得我们的基因组中有大约 30 亿个碱基。"
+ },
+ {
+  "seg": 412,
+  "start": 1434.526,
+  "end": 1435.9704444444444,
+  "speaker": "Daniel McKinnon",
+  "en": "And then these are swaps.",
+  "zh": "这些是交换。"
+ },
+ {
+  "seg": 413,
+  "start": 1436.386,
+  "end": 1442.188,
+  "speaker": "Daniel McKinnon",
+  "en": "So what we see is in this position, a reference human has C, and I have a CA here.",
+  "zh": "所以我们看到在这个位置，一个参考人类是 C，而我这里有一个 CA。"
+ },
+ {
+  "seg": 414,
+  "start": 1442.688,
+  "end": 1448.729,
+  "speaker": "Daniel McKinnon",
+  "en": "So that means that during something I inherited from my parents or maybe something",
+  "zh": "这意味着在我从父母那里继承来的某些东西中，或者也许是"
+ },
+ {
+  "seg": 415,
+  "start": 1448.749,
+  "end": 1452.27,
+  "speaker": "Daniel McKinnon",
+  "en": "that emerged during my development, I got a base swap here.",
+  "zh": "在我发育过程中出现的某些东西里，我在这里发生了一次碱基交换。"
+ },
+ {
+  "seg": 416,
+  "start": 1452.63,
+  "end": 1455.5810000000001,
+  "speaker": "Daniel McKinnon",
+  "en": "And then there's a bunch of metrics around quality, how real it is.",
+  "zh": "然后有一堆关于质量、它是真的程度的指标。"
+ },
+ {
+  "seg": 417,
+  "start": 1455.631,
+  "end": 1457.831,
+  "speaker": "Daniel McKinnon",
+  "en": "You might remember you have two copies of each gene,",
+  "zh": "你可能记得你有两份每个基因的拷贝，"
+ },
+ {
+  "seg": 418,
+  "start": 1457.871,
+  "end": 1461.772,
+  "speaker": "Daniel McKinnon",
+  "en": "so this is actually heterozygous, meaning only one copy is impacted.",
+  "zh": "所以这实际上是杂合的，意味着只有一份拷贝受影响。"
+ },
+ {
+  "seg": 419,
+  "start": 1463.032,
+  "end": 1467.3097777777778,
+  "speaker": "Daniel McKinnon",
+  "en": "You know, really, it's just a text file of all the letters in your alphabet.",
+  "zh": "真的，它只是一个包含你字母表中所有字母的文本文件。"
+ },
+ {
+  "seg": 420,
+  "start": 1467.656,
+  "end": 1470.939,
+  "speaker": "Daniel McKinnon",
+  "en": "And what I'm saying is I want to add, okay,",
+  "zh": "我想说的是我想添加，好的，"
+ },
+ {
+  "seg": 421,
+  "start": 1470.959,
+  "end": 1471.8500000000001,
+  "speaker": "Daniel McKinnon",
+  "en": "this is still running,",
+  "zh": "这还在运行，"
+ },
+ {
+  "seg": 422,
+  "start": 1471.9,
+  "end": 1474.202,
+  "speaker": "Daniel McKinnon",
+  "en": "and if this is still running in a while,",
+  "zh": "如果过一会儿这还在运行，"
+ },
+ {
+  "seg": 423,
+  "start": 1474.222,
+  "end": 1475.674,
+  "speaker": "Daniel McKinnon",
+  "en": "I'll just use the pre-baked one,",
+  "zh": "我就直接用那个预先准备好的，"
+ },
+ {
+  "seg": 424,
+  "start": 1475.724,
+  "end": 1482.724,
+  "speaker": "Daniel McKinnon",
+  "en": "is I just want to add this particular variant into my genome to see",
+  "zh": "我只是想把这种特定的变体添加到我的基因组中，看看"
+ },
+ {
+  "seg": 425,
+  "start": 1483.03,
+  "end": 1484.712,
+  "speaker": "Daniel McKinnon",
+  "en": "if our system can catch it.",
+  "zh": "我们的系统是否能捕捉到它。"
+ },
+ {
+  "seg": 426,
+  "start": 1485.633,
+  "end": 1486.633,
+  "speaker": "Daniel McKinnon",
+  "en": "And...",
+  "zh": "然后..."
+ },
+ {
+  "seg": 427,
+  "start": 1486.832,
+  "end": 1488.7830000000001,
+  "speaker": "Daniel McKinnon",
+  "en": "This is what Codex is doing right now.",
+  "zh": "这就是 Codex 现在正在做的事情。"
+ },
+ {
+  "seg": 428,
+  "start": 1488.833,
+  "end": 1493.610777777778,
+  "speaker": "Daniel McKinnon",
+  "en": "And I actually don't know why this is taking so long because this is like a one-liner.",
+  "zh": "我实际上不知道为什么这花了这么长时间，因为这就像一个单行代码。"
+ },
+ {
+  "seg": 429,
+  "start": 1495.057,
+  "end": 1496.268,
+  "speaker": "Akash",
+  "en": "Line the line, I think.",
+  "zh": "逐行，我想。"
+ },
+ {
+  "seg": 430,
+  "start": 1496.318,
+  "end": 1497.528,
+  "speaker": "Daniel McKinnon",
+  "en": "Yeah, yeah, right, right.",
+  "zh": "对，对，对，对。"
+ },
+ {
+  "seg": 431,
+  "start": 1497.578,
+  "end": 1501.521,
+  "speaker": "Daniel McKinnon",
+  "en": "I guess I probably, I didn't want to make this demo too pre-baked.",
+  "zh": "我猜我可能，我不想让这个演示太像预先准备好的。"
+ },
+ {
+  "seg": 432,
+  "start": 1501.601,
+  "end": 1502.301,
+  "speaker": "Daniel McKinnon",
+  "en": "I thought about it.",
+  "zh": "我想过这件事。"
+ },
+ {
+  "seg": 433,
+  "start": 1502.341,
+  "end": 1507.224,
+  "speaker": "Daniel McKinnon",
+  "en": "Should I just have a Python program that just does all this for you?",
+  "zh": "我应该只写一个 Python 程序来为你做所有这些吗？"
+ },
+ {
+  "seg": 434,
+  "start": 1507.264,
+  "end": 1507.854,
+  "speaker": "Daniel McKinnon",
+  "en": "But then I'm like,",
+  "zh": "但后来我想，"
+ },
+ {
+  "seg": 435,
+  "start": 1507.904,
+  "end": 1511.1760000000002,
+  "speaker": "Daniel McKinnon",
+  "en": "that would not help the users at all because when they're constructing their own,",
+  "zh": "那对用户一点帮助都没有，因为当他们构建自己的时候，"
+ },
+ {
+  "seg": 436,
+  "start": 1511.226,
+  "end": 1512.077,
+  "speaker": "Daniel McKinnon",
+  "en": "they wouldn't know how to do it.",
+  "zh": "他们会不知道怎么做。"
+ },
+ {
+  "seg": 437,
+  "start": 1512.127,
+  "end": 1514.2936666666667,
+  "speaker": "Daniel McKinnon",
+  "en": "So just believe me that this will work.",
+  "zh": "所以请相信我这会奏效。"
+ },
+ {
+  "seg": 438,
+  "start": 1514.468,
+  "end": 1518.31,
+  "speaker": "Daniel McKinnon",
+  "en": "And for the sake of time, we'll go to the pre-baked ones.",
+  "zh": "为了时间的缘故，我们就用预先准备好的那些。"
+ },
+ {
+  "seg": 439,
+  "start": 1519.37,
+  "end": 1523.572,
+  "speaker": "Daniel McKinnon",
+  "en": "So basically what's going to happen is that codex is going to add,",
+  "zh": "所以基本上将要发生的是 codex 将要添加，"
+ },
+ {
+  "seg": 440,
+  "start": 1523.752,
+  "end": 1526.053,
+  "speaker": "Daniel McKinnon",
+  "en": "this is in chromosome, where is it?",
+  "zh": "这是在染色体里，它在哪儿？"
+ },
+ {
+  "seg": 441,
+  "start": 1526.093,
+  "end": 1527.2630000000001,
+  "speaker": "Daniel McKinnon",
+  "en": "I'm actually not sure.",
+  "zh": "我实际上不确定。"
+ },
+ {
+  "seg": 442,
+  "start": 1527.313,
+  "end": 1532.045,
+  "speaker": "Daniel McKinnon",
+  "en": "But in whatever chromosome this cystic fibrosis gene is in, it's just going to add one row.",
+  "zh": "但无论这个囊性纤维化基因在哪个染色体里，它将只添加一行。"
+ },
+ {
+  "seg": 443,
+  "start": 1532.095,
+  "end": 1534.346,
+  "speaker": "Daniel McKinnon",
+  "en": "And it's going to say, we're going to have a deletion.",
+  "zh": "它会说，我们将会有一个缺失。"
+ },
+ {
+  "seg": 444,
+  "start": 1534.396,
+  "end": 1539.818,
+  "speaker": "Daniel McKinnon",
+  "en": "So instead of having like CA here, It'll just have a C. So like here's a deletion.",
+  "zh": "所以不是在这里有一个 CA，它将只有一个 C。所以像这里有一个缺失。"
+ },
+ {
+  "seg": 445,
+  "start": 1539.938,
+  "end": 1541.8824444444444,
+  "speaker": "Daniel McKinnon",
+  "en": "You'll notice that we've lost an A.",
+  "zh": "你会注意到我们失去了一个 A。"
+ },
+ {
+  "seg": 446,
+  "start": 1542.259,
+  "end": 1548.621,
+  "speaker": "Daniel McKinnon",
+  "en": "We went from TA to T. And then it's going to have a fake cystic fibrosis patient.",
+  "zh": "我们从 TA 变成了 T。然后它将有一个假的囊性纤维化患者。"
+ },
+ {
+  "seg": 447,
+  "start": 1548.881,
+  "end": 1552.362,
+  "speaker": "Daniel McKinnon",
+  "en": "So now let's just check to see how this works.",
+  "zh": "现在让我们检查一下这如何运作。"
+ },
+ {
+  "seg": 448,
+  "start": 1552.903,
+  "end": 1554.863,
+  "speaker": "Daniel McKinnon",
+  "en": "And we'll say, use our agent.",
+  "zh": "我们就说，使用我们的智能体。"
+ },
+ {
+  "seg": 449,
+  "start": 1555.083,
+  "end": 1557.244,
+  "speaker": "Daniel McKinnon",
+  "en": "And again, these are all agentic evals.",
+  "zh": "再次提醒，这些都是 agentic evals。"
+ },
+ {
+  "seg": 450,
+  "start": 1557.284,
+  "end": 1559.205,
+  "speaker": "Daniel McKinnon",
+  "en": "And I'm using Codex as our agent,",
+  "zh": "而且我正在使用 Codex 作为我们的智能体，"
+ },
+ {
+  "seg": 451,
+  "start": 1559.565,
+  "end": 1560.835,
+  "speaker": "Daniel McKinnon",
+  "en": "but you could use anything,",
+  "zh": "但你可以使用任何东西，"
+ },
+ {
+  "seg": 452,
+  "start": 1560.885,
+  "end": 1565.327,
+  "speaker": "Daniel McKinnon",
+  "en": "Klein, OpenCode, ClaudeCode, your custom harness, any way you could.",
+  "zh": "Klein、OpenCode、ClaudeCode、你的自定义线束，任何你能用的方式。"
+ },
+ {
+  "seg": 453,
+  "start": 1565.818,
+  "end": 1568.059,
+  "speaker": "Daniel McKinnon",
+  "en": "To get these agents to actually operate.",
+  "zh": "为了让这些智能体实际运行。"
+ },
+ {
+  "seg": 454,
+  "start": 1568.099,
+  "end": 1573.382,
+  "speaker": "Daniel McKinnon",
+  "en": "And in fact, even ChatGPT and Claude, actually in the web UI, they use agents right now.",
+  "zh": "事实上，甚至 ChatGPT 和 Claude，实际上在 Web UI 中，它们现在就使用智能体。"
+ },
+ {
+  "seg": 455,
+  "start": 1573.462,
+  "end": 1575.503,
+  "speaker": "Daniel McKinnon",
+  "en": "They're not just model in, model out.",
+  "zh": "它们不仅仅是模型输入，模型输出。"
+ },
+ {
+  "seg": 456,
+  "start": 1575.543,
+  "end": 1578.154111111111,
+  "speaker": "Daniel McKinnon",
+  "en": "They're model in, reasoning, tools, everything.",
+  "zh": "它们是模型输入，推理，工具，一切。"
+ },
+ {
+  "seg": 457,
+  "start": 1578.224,
+  "end": 1578.604,
+  "speaker": "Daniel McKinnon",
+  "en": "Okay, cool.",
+  "zh": "好的，很酷。"
+ },
+ {
+  "seg": 458,
+  "start": 1578.644,
+  "end": 1580.765,
+  "speaker": "Daniel McKinnon",
+  "en": "All right, so the agent finished here.",
+  "zh": "好的，所以智能体在这里完成了。"
+ },
+ {
+  "seg": 459,
+  "start": 1580.866,
+  "end": 1583.167,
+  "speaker": "Daniel McKinnon",
+  "en": "So we see we added this in a record.",
+  "zh": "所以我们看到我们添加了这个到一个记录中。"
+ },
+ {
+  "seg": 460,
+  "start": 1583.407,
+  "end": 1584.387,
+  "speaker": "Daniel McKinnon",
+  "en": "Okay, and we see here it is.",
+  "zh": "好的，我们在这里看到它了。"
+ },
+ {
+  "seg": 461,
+  "start": 1584.407,
+  "end": 1585.7958888888888,
+  "speaker": "Daniel McKinnon",
+  "en": "It's in chromosome seven.",
+  "zh": "它在 7 号染色体上。"
+ },
+ {
+  "seg": 462,
+  "start": 1586.208,
+  "end": 1587.909,
+  "speaker": "Daniel McKinnon",
+  "en": "And you'll notice this is deletion.",
+  "zh": "你会注意到这是一个缺失。"
+ },
+ {
+  "seg": 463,
+  "start": 1587.929,
+  "end": 1594.351,
+  "speaker": "Daniel McKinnon",
+  "en": "It says TCTT and instead it's a T. And so this means that this is like the canonical CF.",
+  "zh": "它写着 TCTT 但实际上是一个 T。所以这意味着这就像典型的 CF。"
+ },
+ {
+  "seg": 464,
+  "start": 1594.971,
+  "end": 1598.713,
+  "speaker": "Daniel McKinnon",
+  "en": "So we're going to see if our agent is able to do it.",
+  "zh": "所以我们要看看我们的智能体是否能够做到。"
+ },
+ {
+  "seg": 465,
+  "start": 1598.793,
+  "end": 1600.864,
+  "speaker": "Daniel McKinnon",
+  "en": "And we're actually going to try a few different agents",
+  "zh": "实际上我们要尝试几个不同的智能体"
+ },
+ {
+  "seg": 466,
+  "start": 1600.914,
+  "end": 1604.025111111111,
+  "speaker": "Daniel McKinnon",
+  "en": "because one thing I mentioned is you want to score like,",
+  "zh": "因为我提到的一件事是你想要得分为，"
+ },
+ {
+  "seg": 467,
+  "start": 1604.115,
+  "end": 1606.676,
+  "speaker": "Daniel McKinnon",
+  "en": "you know, 25 to 50% on these evals.",
+  "zh": "你知道，在这些评估上达到 25% 到 50%。"
+ },
+ {
+  "seg": 468,
+  "start": 1606.816,
+  "end": 1611.558,
+  "speaker": "Daniel McKinnon",
+  "en": "You have to think about what tool are you using the,",
+  "zh": "你必须考虑你在使用什么工具，"
+ },
+ {
+  "seg": 469,
+  "start": 1611.838,
+  "end": 1612.838,
+  "speaker": "Daniel McKinnon",
+  "en": "you know,",
+  "zh": "你知道，"
+ },
+ {
+  "seg": 470,
+  "start": 1612.972,
+  "end": 1617.475,
+  "speaker": "Daniel McKinnon",
+  "en": "Mythos 5 for some biodefense thing, then it's got to be really, really hard.",
+  "zh": "Mythos 5 用于某些生物防御用途，那它必须非常非常难。"
+ },
+ {
+  "seg": 471,
+  "start": 1617.875,
+  "end": 1621.797,
+  "speaker": "Daniel McKinnon",
+  "en": "Or maybe this is something that for infrastructure reasons or cost reasons,",
+  "zh": "或者也许这出于基础设施原因或成本原因，"
+ },
+ {
+  "seg": 472,
+  "start": 1621.817,
+  "end": 1623.098,
+  "speaker": "Daniel McKinnon",
+  "en": "you need to use a very small model.",
+  "zh": "你需要使用一个非常小的模型。"
+ },
+ {
+  "seg": 473,
+  "start": 1623.118,
+  "end": 1625.429,
+  "speaker": "Daniel McKinnon",
+  "en": "You need to use haiku or something like that.",
+  "zh": "你需要使用 haiku 或类似的东西。"
+ },
+ {
+  "seg": 474,
+  "start": 1625.479,
+  "end": 1629.872,
+  "speaker": "Daniel McKinnon",
+  "en": "So we're actually going to try these simultaneously on a few agents and see what happens.",
+  "zh": "所以我们实际上要在几个智能体上同时尝试这些，看看会发生什么。"
+ },
+ {
+  "seg": 475,
+  "start": 1629.922,
+  "end": 1634.325,
+  "speaker": "Daniel McKinnon",
+  "en": "So we're going to say inside, what was this file we had?",
+  "zh": "所以我们要在里面说，我们要的这个文件是什么？"
+ },
+ {
+  "seg": 476,
+  "start": 1635.385,
+  "end": 1636.316,
+  "speaker": "Daniel McKinnon",
+  "en": "DanCFLive.",
+  "zh": "DanCFLive。"
+ },
+ {
+  "seg": 477,
+  "start": 1636.366,
+  "end": 1637.787,
+  "speaker": "Daniel McKinnon",
+  "en": "Again, this is the one that we just made.",
+  "zh": "再次，这是我们刚刚制作的那个。"
+ },
+ {
+  "seg": 478,
+  "start": 1637.807,
+  "end": 1638.807,
+  "speaker": "SPEAKER_00",
+  "en": "Hmm.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 479,
+  "start": 1642.832,
+  "end": 1647.7,
+  "speaker": "Daniel McKinnon",
+  "en": "We have the genome of a patient suffering from,",
+  "zh": "我们有一个患有"
+ },
+ {
+  "seg": 480,
+  "start": 1648.381,
+  "end": 1653.068,
+  "speaker": "Daniel McKinnon",
+  "en": "and let's just very quickly copy and paste some cystic fibrosis symptoms.",
+  "zh": "病人的基因组，让我们只是非常快速地复制粘贴一些囊性纤维化症状。"
+ },
+ {
+  "seg": 481,
+  "start": 1655.752,
+  "end": 1656.752,
+  "speaker": "Daniel McKinnon",
+  "en": "This one.",
+  "zh": "这个。"
+ },
+ {
+  "seg": 482,
+  "start": 1657.82,
+  "end": 1662.281,
+  "speaker": "Daniel McKinnon",
+  "en": "We suspect cystic fibrosis.",
+  "zh": "我们怀疑囊性纤维化。"
+ },
+ {
+  "seg": 483,
+  "start": 1662.901,
+  "end": 1665.782,
+  "speaker": "Daniel McKinnon",
+  "en": "Please find a genetic cause.",
+  "zh": "请找到遗传原因。"
+ },
+ {
+  "seg": 484,
+  "start": 1666.782,
+  "end": 1668.302,
+  "speaker": "Daniel McKinnon",
+  "en": "And then we are going to,",
+  "zh": "然后我们要，"
+ },
+ {
+  "seg": 485,
+  "start": 1668.862,
+  "end": 1672.433,
+  "speaker": "Daniel McKinnon",
+  "en": "we're actually going to copy this prompt so we can use it across multiple agents.",
+  "zh": "实际上我们要复制这个提示词以便我们可以在多个智能体中使用它。"
+ },
+ {
+  "seg": 486,
+  "start": 1672.483,
+  "end": 1676.844,
+  "speaker": "Daniel McKinnon",
+  "en": "So now we're going and we're checking GPT 3.5 codec sparklow.",
+  "zh": "所以现在我们要去并且我们正在检查 GPT 3.5 codec sparklow。"
+ },
+ {
+  "seg": 487,
+  "start": 1677.704,
+  "end": 1679.605,
+  "speaker": "Daniel McKinnon",
+  "en": "We have a few other tabs open.",
+  "zh": "我们还有几个其他标签页打开。"
+ },
+ {
+  "seg": 488,
+  "start": 1679.645,
+  "end": 1681.533888888889,
+  "speaker": "Daniel McKinnon",
+  "en": "So I mentioned, you know, maybe...",
+  "zh": "所以我提到，你知道的，也许……"
+ },
+ {
+  "seg": 489,
+  "start": 1682.332,
+  "end": 1685.794,
+  "speaker": "Daniel McKinnon",
+  "en": "We want to actually see if Haiku can do this.",
+  "zh": "我们想看看 Haiku 是否能做到这一点。"
+ },
+ {
+  "seg": 490,
+  "start": 1686.494,
+  "end": 1688.656,
+  "speaker": "Daniel McKinnon",
+  "en": "So we'll just upload this.",
+  "zh": "所以我们就上传这个。"
+ },
+ {
+  "seg": 491,
+  "start": 1689.276,
+  "end": 1691.957,
+  "speaker": "Daniel McKinnon",
+  "en": "And again, we're going to the CF Live.",
+  "zh": "再次，我们要去 CF Live。"
+ },
+ {
+  "seg": 492,
+  "start": 1692.798,
+  "end": 1699.522,
+  "speaker": "Daniel McKinnon",
+  "en": "And let's also try CatGPT 5.5 extra high.",
+  "zh": "并且让我们也试试 CatGPT 5.5 extra high。"
+ },
+ {
+  "seg": 493,
+  "start": 1699.642,
+  "end": 1701.873,
+  "speaker": "Daniel McKinnon",
+  "en": "And I'm not going to use Pro because it will take too long.",
+  "zh": "我不会使用 Pro 因为它会花太长时间。"
+ },
+ {
+  "seg": 494,
+  "start": 1701.923,
+  "end": 1703.634,
+  "speaker": "Daniel McKinnon",
+  "en": "And this is also a relatively easy task.",
+  "zh": "而且这也是一个相对容易的任务。"
+ },
+ {
+  "seg": 495,
+  "start": 1703.684,
+  "end": 1705.8506666666667,
+  "speaker": "Daniel McKinnon",
+  "en": "I suspect all the agents will get them.",
+  "zh": "我怀疑所有智能体都会搞定它们。"
+ },
+ {
+  "seg": 496,
+  "start": 1706.246,
+  "end": 1707.116,
+  "speaker": "Daniel McKinnon",
+  "en": "Okay, great.",
+  "zh": "好的，很棒。"
+ },
+ {
+  "seg": 497,
+  "start": 1707.166,
+  "end": 1711.468,
+  "speaker": "Daniel McKinnon",
+  "en": "So we are cooking with And we are cooking with,",
+  "zh": "所以我们正在用 所以我们正在用，"
+ },
+ {
+  "seg": 498,
+  "start": 1711.768,
+  "end": 1716.77,
+  "speaker": "Daniel McKinnon",
+  "en": "you can see what's already happened with our first agent is after one minute",
+  "zh": "你可以看到我们的第一个智能体已经发生的事情是一分钟的"
+ },
+ {
+  "seg": 499,
+  "start": 1716.81,
+  "end": 1717.74,
+  "speaker": "Daniel McKinnon",
+  "en": "of thinking,",
+  "zh": "思考之后，"
+ },
+ {
+  "seg": 500,
+  "start": 1717.79,
+  "end": 1723.112,
+  "speaker": "Daniel McKinnon",
+  "en": "you've actually find the CFTR mutation pattern consistent with this deletion, right?",
+  "zh": "你实际上发现了 CFTR 突变模式与这个缺失一致，对吧？"
+ },
+ {
+  "seg": 501,
+  "start": 1723.132,
+  "end": 1726.573,
+  "speaker": "Daniel McKinnon",
+  "en": "This is the canonical cystic fibrosis gene.",
+  "zh": "这是标准的囊性纤维化基因。"
+ },
+ {
+  "seg": 502,
+  "start": 1726.593,
+  "end": 1727.883,
+  "speaker": "Daniel McKinnon",
+  "en": "So what this is telling us,",
+  "zh": "所以这告诉我们，"
+ },
+ {
+  "seg": 503,
+  "start": 1727.933,
+  "end": 1729.2663333333333,
+  "speaker": "Daniel McKinnon",
+  "en": "going back to our steps,",
+  "zh": "回到我们的步骤，"
+ },
+ {
+  "seg": 504,
+  "start": 1729.514,
+  "end": 1734.896,
+  "speaker": "Daniel McKinnon",
+  "en": "is this task is not too hard for these agents, at least in the easy case.",
+  "zh": "就是这个任务对这些智能体来说不太难，至少在简单案例中是这样。"
+ },
+ {
+  "seg": 505,
+  "start": 1735.969,
+  "end": 1739.052,
+  "speaker": "Daniel McKinnon",
+  "en": "Especially not with a powerful system like Codex.",
+  "zh": "尤其是有了 Codex 这样强大的系统。"
+ },
+ {
+  "seg": 506,
+  "start": 1739.092,
+  "end": 1740.2630000000001,
+  "speaker": "Daniel McKinnon",
+  "en": "We'll see if Haiku gets it.",
+  "zh": "我们会看看 Haiku 能不能做到。"
+ },
+ {
+  "seg": 507,
+  "start": 1740.313,
+  "end": 1742.155,
+  "speaker": "Daniel McKinnon",
+  "en": "I suspect Haiku will also get it.",
+  "zh": "我怀疑 Haiku 也能做到。"
+ },
+ {
+  "seg": 508,
+  "start": 1742.495,
+  "end": 1747.48,
+  "speaker": "Daniel McKinnon",
+  "en": "But you can see Haiku even itself knows the CFTR region is important.",
+  "zh": "但你可以看到 Haiku 甚至自己知道 CFTR 区域很重要。"
+ },
+ {
+  "seg": 509,
+  "start": 1748.12,
+  "end": 1751.824,
+  "speaker": "Daniel McKinnon",
+  "en": "So while that's cooking, let's go back to our next step.",
+  "zh": "所以当这个在运行时，让我们回到下一步。"
+ },
+ {
+  "seg": 510,
+  "start": 1752.905,
+  "end": 1756.338,
+  "speaker": "Daniel McKinnon",
+  "en": "So again, we start with something easy just to make sure it's possible.",
+  "zh": "所以再次，我们从一些简单的事情开始，只是为了确保它是可能的。"
+ },
+ {
+  "seg": 511,
+  "start": 1756.388,
+  "end": 1761.733,
+  "speaker": "Daniel McKinnon",
+  "en": "I knew that this was possible, but if you just told a layman and say, hey, could...",
+  "zh": "我知道这是可能的，但如果你只是告诉一个外行并说，嘿，能不能……"
+ },
+ {
+  "seg": 512,
+  "start": 1762.417,
+  "end": 1763.547,
+  "speaker": "Daniel McKinnon",
+  "en": "Quick thought experiment for you.",
+  "zh": "给你做一个快速的思想实验。"
+ },
+ {
+  "seg": 513,
+  "start": 1763.597,
+  "end": 1766.798,
+  "speaker": "Daniel McKinnon",
+  "en": "Is there anything in this video you should be trying on your own?",
+  "zh": "这个视频中有什么东西是你应该自己尝试的吗？"
+ },
+ {
+  "seg": 514,
+  "start": 1766.818,
+  "end": 1771.48,
+  "speaker": "Daniel McKinnon",
+  "en": "If there is, try it, take a screenshot, post it on LinkedIn or X, and tag me.",
+  "zh": "如果有，试一试，截个屏，发到 LinkedIn 或 X 上，并标记我。"
+ },
+ {
+  "seg": 515,
+  "start": 1771.5,
+  "end": 1772.76,
+  "speaker": "Daniel McKinnon",
+  "en": "I'd love to see what you're learning.",
+  "zh": "我很想看到你在学什么。"
+ },
+ {
+  "seg": 516,
+  "start": 1772.78,
+  "end": 1777.168888888889,
+  "speaker": "Daniel McKinnon",
+  "en": "Now a quick word from our sponsors before we get into the back half of the pod.",
+  "zh": "在进入播客的后半部分之前，我们的赞助商带来了简短的一句话。"
+ },
+ {
+  "seg": 517,
+  "start": 1791.045,
+  "end": 1793.759,
+  "speaker": "Akash",
+  "en": "If you've worked at any company bigger than 30 people, you know this one.",
+  "zh": "如果你在任何超过 30 人的公司工作过，你就知道这一条。"
+ },
+ {
+  "seg": 518,
+  "start": 1793.809,
+  "end": 1795.171,
+  "speaker": "Akash",
+  "en": "The CEO sets strategy.",
+  "zh": "CEO 制定战略。"
+ },
+ {
+  "seg": 519,
+  "start": 1795.331,
+  "end": 1797.474,
+  "speaker": "Akash",
+  "en": "By the time it reaches the people actually doing the work,",
+  "zh": "当它到达实际做工作的人那里时，"
+ },
+ {
+  "seg": 520,
+  "start": 1797.515,
+  "end": 1800.068,
+  "speaker": "Akash",
+  "en": "it goes through three or four layers of translation.",
+  "zh": "它经过了三层或四层的翻译。"
+ },
+ {
+  "seg": 521,
+  "start": 1800.118,
+  "end": 1803.5130000000001,
+  "speaker": "Akash",
+  "en": "Half of it gets lost and nobody finds out until the quarter is over.",
+  "zh": "其中一半丢失了，直到季度结束才有人发现。"
+ },
+ {
+  "seg": 522,
+  "start": 1803.563,
+  "end": 1805.7296666666668,
+  "speaker": "Akash",
+  "en": "That's the problem Mariso is built for.",
+  "zh": "这就是 Mariso 被构建用来解决的问题。"
+ },
+ {
+  "seg": 523,
+  "start": 1806.027,
+  "end": 1808.609,
+  "speaker": "Akash",
+  "en": "AI operating partner for every manager and team.",
+  "zh": "每个经理和团队的 AI 运营合作伙伴。"
+ },
+ {
+  "seg": 524,
+  "start": 1808.629,
+  "end": 1810.701,
+  "speaker": "Akash",
+  "en": "It connects to where work actually happens,",
+  "zh": "它连接到工作实际发生的地方，"
+ },
+ {
+  "seg": 525,
+  "start": 1810.751,
+  "end": 1811.501,
+  "speaker": "Akash",
+  "en": "the meetings,",
+  "zh": "会议，"
+ },
+ {
+  "seg": 526,
+  "start": 1811.551,
+  "end": 1812.442,
+  "speaker": "Akash",
+  "en": "the messages,",
+  "zh": "消息，"
+ },
+ {
+  "seg": 527,
+  "start": 1812.492,
+  "end": 1813.143,
+  "speaker": "Akash",
+  "en": "the docs,",
+  "zh": "文档，"
+ },
+ {
+  "seg": 528,
+  "start": 1813.193,
+  "end": 1817.386,
+  "speaker": "Akash",
+  "en": "and it turns all that fragmented activity into a clear picture of execution.",
+  "zh": "它将所有这些碎片化的活动转化为清晰的执行图景。"
+ },
+ {
+  "seg": 529,
+  "start": 1817.436,
+  "end": 1822.26,
+  "speaker": "Akash",
+  "en": "Managers get real coaching grounded in their team's actual work, not generic advice.",
+  "zh": "经理们获得基于团队实际工作的真正指导，而不是通用建议。"
+ },
+ {
+  "seg": 530,
+  "start": 1822.46,
+  "end": 1826.093,
+  "speaker": "Akash",
+  "en": "Teams stay aligned with strategy as it changes, not as it was last quarter.",
+  "zh": "团队与战略的变化保持一致，而不是上个季度的战略。"
+ },
+ {
+  "seg": 531,
+  "start": 1826.143,
+  "end": 1829.0874444444444,
+  "speaker": "Akash",
+  "en": "And leaders see where execution is drifting in weeks.",
+  "zh": "领导者在几周内就能看到执行在哪里出现偏差。"
+ },
+ {
+  "seg": 532,
+  "start": 1829.345,
+  "end": 1830.615,
+  "speaker": "Akash",
+  "en": "Not in the postmortem.",
+  "zh": "而不是在事后复盘时。"
+ },
+ {
+  "seg": 533,
+  "start": 1830.665,
+  "end": 1832.4360000000001,
+  "speaker": "Akash",
+  "en": "One shared memory for the whole org.",
+  "zh": "整个组织的一个共享记忆。"
+ },
+ {
+  "seg": 534,
+  "start": 1832.486,
+  "end": 1834.6960000000001,
+  "speaker": "Akash",
+  "en": "Everyone finally working from the same picture.",
+  "zh": "每个人终于基于同一张图景工作。"
+ },
+ {
+  "seg": 535,
+  "start": 1834.746,
+  "end": 1837.387,
+  "speaker": "Akash",
+  "en": "If you lead a team, check out ariso.ai slash akash.",
+  "zh": "如果你领导一个团队，请查看 ariso.ai slash akash。"
+ },
+ {
+  "seg": 536,
+  "start": 1837.427,
+  "end": 1841.628,
+  "speaker": "Akash",
+  "en": "That's A-R-I-S-O dot A-I slash A-A-K-A-S-H.",
+  "zh": "那是 A-R-I-S-O 点 A-I 斜杠 A-A-K-A-S-H。"
+ },
+ {
+  "seg": 537,
+  "start": 1841.648,
+  "end": 1845.9813333333332,
+  "speaker": "Akash",
+  "en": "I want to take a second to talk to you about the fourth cohort of LAN PM job.",
+  "zh": "我想花点时间跟你谈谈 LAN PM 工作的第四批学员。"
+ },
+ {
+  "seg": 538,
+  "start": 1845.529,
+  "end": 1851.17,
+  "speaker": "Akash",
+  "en": "I trained 30 students in cohort one, 50 students in cohort two, and 75 students in cohort three.",
+  "zh": "我在第一批训练了 30 名学生，第二批 50 名，第三批 75 名。"
+ },
+ {
+  "seg": 539,
+  "start": 1851.33,
+  "end": 1854.711,
+  "speaker": "Akash",
+  "en": "And I am bringing back a program for cohort four.",
+  "zh": "我正在为第四批带回这个项目。"
+ },
+ {
+  "seg": 540,
+  "start": 1854.731,
+  "end": 1857.531,
+  "speaker": "Akash",
+  "en": "It starts in August and it lasts Three months where you're going",
+  "zh": "它在八月开始，持续三个月，你将"
+ },
+ {
+  "seg": 541,
+  "start": 1857.551,
+  "end": 1858.9398888888888,
+  "speaker": "Akash",
+  "en": "to have intense sessions,",
+  "zh": "进行高强度会议，"
+ },
+ {
+  "seg": 542,
+  "start": 1859.092,
+  "end": 1861.993,
+  "speaker": "Akash",
+  "en": "a Monday morning session where I go over your resume,",
+  "zh": "一个周一上午的会议，我会过一遍你的简历，"
+ },
+ {
+  "seg": 543,
+  "start": 1862.013,
+  "end": 1863.564,
+  "speaker": "Akash",
+  "en": "behavioral interviews, LinkedIn.",
+  "zh": "行为面试，LinkedIn。"
+ },
+ {
+  "seg": 544,
+  "start": 1863.614,
+  "end": 1868.535,
+  "speaker": "Akash",
+  "en": "On top of that, Bart Jaworski is going to be teaching you the PM fundamentals in 2026,",
+  "zh": "除此之外，Bart Jaworski 将在 2026 年教你 PM 基础知识，"
+ },
+ {
+  "seg": 545,
+  "start": 1868.715,
+  "end": 1870.116,
+  "speaker": "Akash",
+  "en": "how to write AI PRDs,",
+  "zh": "如何撰写 AI PRD，"
+ },
+ {
+  "seg": 546,
+  "start": 1870.156,
+  "end": 1872.107,
+  "speaker": "Akash",
+  "en": "how to AI prototype with cloud code,",
+  "zh": "如何使用云代码制作 AI 原型，"
+ },
+ {
+  "seg": 547,
+  "start": 1872.157,
+  "end": 1875.748,
+  "speaker": "Akash",
+  "en": "all of the key skills you need to freshen up your knowledge for this market.",
+  "zh": "你需要为这个市场更新知识的所有关键技能。"
+ },
+ {
+  "seg": 548,
+  "start": 1875.798,
+  "end": 1879.089,
+  "speaker": "Akash",
+  "en": "And Ankit Vermani is going to be teaching you AI product management.",
+  "zh": "Ankit Vermani 将教你 AI 产品管理。"
+ },
+ {
+  "seg": 549,
+  "start": 1879.139,
+  "end": 1881.6,
+  "speaker": "Akash",
+  "en": "He is an AI product manager at Uber,",
+  "zh": "他是 Uber 的 AI 产品经理，"
+ },
+ {
+  "seg": 550,
+  "start": 1881.76,
+  "end": 1884.5710000000001,
+  "speaker": "Akash",
+  "en": "and he is going to teach you how to build AI features",
+  "zh": "他将教你如何构建真正成功运行的 AI 功能。"
+ },
+ {
+  "seg": 551,
+  "start": 1884.621,
+  "end": 1886.421,
+  "speaker": "Akash",
+  "en": "that actually work successfully.",
+  "zh": "那些实际上成功运作的。"
+ },
+ {
+  "seg": 552,
+  "start": 1886.582,
+  "end": 1887.252,
+  "speaker": "Akash",
+  "en": "On top of that,",
+  "zh": "除此之外，"
+ },
+ {
+  "seg": 553,
+  "start": 1887.302,
+  "end": 1890.813,
+  "speaker": "Akash",
+  "en": "Prasad Reddy is going to be doing one-on-ones with you for market reviews,",
+  "zh": "Prasad Reddy 将与你进行一对一的市场评估，"
+ },
+ {
+  "seg": 554,
+  "start": 1890.863,
+  "end": 1892.934,
+  "speaker": "Akash",
+  "en": "LinkedIn review, candidate market fit review.",
+  "zh": "LinkedIn 评估，候选人市场匹配度评估。"
+ },
+ {
+  "seg": 555,
+  "start": 1892.984,
+  "end": 1894.224,
+  "speaker": "Akash",
+  "en": "So it is a full package.",
+  "zh": "所以这是一个完整的套餐。"
+ },
+ {
+  "seg": 556,
+  "start": 1894.244,
+  "end": 1897.085,
+  "speaker": "Akash",
+  "en": "It is three courses in one for one low fee.",
+  "zh": "这是三合一课程，只需一次低廉的费用。"
+ },
+ {
+  "seg": 557,
+  "start": 1897.545,
+  "end": 1899.846,
+  "speaker": "Akash",
+  "en": "So join at landpmjob.com.",
+  "zh": "所以请在 landpmjob.com 加入。"
+ },
+ {
+  "seg": 558,
+  "start": 1900.351,
+  "end": 1902.213,
+  "speaker": "Akash",
+  "en": "Today's podcast is brought to you by Pendo,",
+  "zh": "今天的播客由 Pendo 赞助，"
+ },
+ {
+  "seg": 559,
+  "start": 1902.233,
+  "end": 1904.9460000000001,
+  "speaker": "Akash",
+  "en": "the leading software experience management platform.",
+  "zh": "它是领先的软件体验管理平台。"
+ },
+ {
+  "seg": 560,
+  "start": 1904.996,
+  "end": 1908.059,
+  "speaker": "Akash",
+  "en": "McKinsey found that 78% of companies are using Gen AI,",
+  "zh": "McKinsey 发现 78% 的公司正在使用 Gen AI，"
+ },
+ {
+  "seg": 561,
+  "start": 1908.159,
+  "end": 1911.523,
+  "speaker": "Akash",
+  "en": "but just as many have reported no bottom line improvements.",
+  "zh": "但同样多的公司报告说没有底线收益。"
+ },
+ {
+  "seg": 562,
+  "start": 1911.964,
+  "end": 1914.837,
+  "speaker": "Akash",
+  "en": "So how do you know if your AI agents are actually working?",
+  "zh": "那么你如何知道你的 AI 智能体是否真的有效？"
+ },
+ {
+  "seg": 563,
+  "start": 1914.887,
+  "end": 1916.539,
+  "speaker": "Akash",
+  "en": "Are they giving users the wrong answers,",
+  "zh": "它们是否在给用户错误的答案，"
+ },
+ {
+  "seg": 564,
+  "start": 1916.589,
+  "end": 1919.862,
+  "speaker": "Akash",
+  "en": "creating more work instead of less, improving retention, or hurting it?",
+  "zh": "是在增加工作而不是减少工作，是在提高留存率还是在损害它？"
+ },
+ {
+  "seg": 565,
+  "start": 1919.912,
+  "end": 1923.444,
+  "speaker": "Akash",
+  "en": "When your software data and AI data are disconnected, you can't answer these questions.",
+  "zh": "当你的软件数据和 AI 数据断开时，你无法回答这些问题。"
+ },
+ {
+  "seg": 566,
+  "start": 1923.494,
+  "end": 1926.8828888888888,
+  "speaker": "Akash",
+  "en": "But when you bring all your usage data together in one place,",
+  "zh": "但当你把所有的使用数据集中到一个地方时，"
+ },
+ {
+  "seg": 567,
+  "start": 1927.055,
+  "end": 1930.657,
+  "speaker": "Akash",
+  "en": "you can see what users do before, during, and after they use AI.",
+  "zh": "你可以看到用户在使用 AI 之前、期间和之后做了什么。"
+ },
+ {
+  "seg": 568,
+  "start": 1931.277,
+  "end": 1935.989,
+  "speaker": "Akash",
+  "en": "Showing you when agents work, how they help you grow, and when to prioritize on your roadmap.",
+  "zh": "向你展示智能体何时起作用，它们如何帮助你成长，以及何时在你的路线图上优先考虑。"
+ },
+ {
+  "seg": 569,
+  "start": 1936.039,
+  "end": 1939.5910000000001,
+  "speaker": "Akash",
+  "en": "Pendo Agent Analytics is the only solution built to do this for product teams.",
+  "zh": "Pendo Agent Analytics 是唯一为产品团队构建此功能的解决方案。"
+ },
+ {
+  "seg": 570,
+  "start": 1939.641,
+  "end": 1944.073,
+  "speaker": "Akash",
+  "en": "Start measuring your AI's performance with Agent Analytics at pendo.io slash akash.",
+  "zh": "开始使用 Agent Analytics 在 pendo.io/akash 测量你的 AI 性能。"
+ },
+ {
+  "seg": 571,
+  "start": 1944.123,
+  "end": 1947.465,
+  "speaker": "Akash",
+  "en": "That's p-e-n-d-o dot i-o slash a-a-k-a-s-h.",
+  "zh": "也就是 p-e-n-d-o 点 i-o 斜杠 a-a-k-a-s-h。"
+ },
+ {
+  "seg": 572,
+  "start": 1949.502,
+  "end": 1953.865,
+  "speaker": "Daniel McKinnon",
+  "en": "But then if you know that the easy thing works and we already have early evidence",
+  "zh": "但是如果你知道简单的方法有效，而且我们已经有了早期证据"
+ },
+ {
+  "seg": 573,
+  "start": 1953.905,
+  "end": 1957.1272222222221,
+  "speaker": "Daniel McKinnon",
+  "en": "that easy things works, you have to establish the ceiling.",
+  "zh": "证明简单的事情有效，你必须确立上限。"
+ },
+ {
+  "seg": 574,
+  "start": 1957.548,
+  "end": 1959.69,
+  "speaker": "Daniel McKinnon",
+  "en": "Is the hard thing working?",
+  "zh": "困难的方法有效吗？"
+ },
+ {
+  "seg": 575,
+  "start": 1959.77,
+  "end": 1965.454,
+  "speaker": "Daniel McKinnon",
+  "en": "Because if it's just totally saturated, then what's the point of even having eval?",
+  "zh": "因为如果它已经完全饱和了，那么做评估还有什么意义呢？"
+ },
+ {
+  "seg": 576,
+  "start": 1965.494,
+  "end": 1967.976,
+  "speaker": "Daniel McKinnon",
+  "en": "This task is already solved.",
+  "zh": "这个任务已经解决了。"
+ },
+ {
+  "seg": 577,
+  "start": 1968.396,
+  "end": 1972.539,
+  "speaker": "Daniel McKinnon",
+  "en": "So I'm going to show off something that's pretty hard to do today.",
+  "zh": "所以我要展示一些如今很难做到的事情。"
+ },
+ {
+  "seg": 578,
+  "start": 1974.422,
+  "end": 1981.422,
+  "speaker": "Daniel McKinnon",
+  "en": "What we have here is a recent paper, so this is from last year, and I will make this bigger.",
+  "zh": "我们这里有一篇最近的论文，所以这是去年的，我会把它放大。"
+ },
+ {
+  "seg": 579,
+  "start": 1983.89,
+  "end": 1988.914,
+  "speaker": "Daniel McKinnon",
+  "en": "The authors here are deciphering the digenic architecture of congenital heart disease.",
+  "zh": "这里的作者正在破译先天性心脏病的二基因架构。"
+ },
+ {
+  "seg": 580,
+  "start": 1989.634,
+  "end": 1990.575,
+  "speaker": "Daniel McKinnon",
+  "en": "So what does this mean?",
+  "zh": "这是什么意思？"
+ },
+ {
+  "seg": 581,
+  "start": 1990.595,
+  "end": 1994.798,
+  "speaker": "Daniel McKinnon",
+  "en": "This means congenital heart disease is if you're a baby and you're born",
+  "zh": "先天性心脏病是指如果你是一个婴儿，你出生"
+ },
+ {
+  "seg": 582,
+  "start": 1994.858,
+  "end": 1999.062,
+  "speaker": "Daniel McKinnon",
+  "en": "with problems with your heart, and digenic means it involves two genes.",
+  "zh": "时心脏就有问题，而二基因意味着它涉及两个基因。"
+ },
+ {
+  "seg": 583,
+  "start": 1999.94,
+  "end": 2006.94,
+  "speaker": "Daniel McKinnon",
+  "en": "So single gene, single variant genetic diseases are actually sometimes a solved problem.",
+  "zh": "所以单基因、单变异的遗传病实际上有时是一个已解决的问题。"
+ },
+ {
+  "seg": 584,
+  "start": 2007.723,
+  "end": 2012.315,
+  "speaker": "Daniel McKinnon",
+  "en": "Like with cystic fibrosis, not all cases, but many cases like this one are totally understand.",
+  "zh": "像囊性纤维化，不是所有病例，但像这样的许多病例是完全理解的。"
+ },
+ {
+  "seg": 585,
+  "start": 2012.365,
+  "end": 2017.787,
+  "speaker": "Daniel McKinnon",
+  "en": "Digenic genetic diseases are like a very, very new thing that people are studying.",
+  "zh": "二基因遗传病就像人们正在研究的一个非常、非常新的事物。"
+ },
+ {
+  "seg": 586,
+  "start": 2018.387,
+  "end": 2020.648,
+  "speaker": "Daniel McKinnon",
+  "en": "So this is like a very hard task to do.",
+  "zh": "所以这是一项非常困难的任务。"
+ },
+ {
+  "seg": 587,
+  "start": 2020.728,
+  "end": 2022.616888888889,
+  "speaker": "Daniel McKinnon",
+  "en": "And even though this is published,",
+  "zh": "尽管这已经发表，"
+ },
+ {
+  "seg": 588,
+  "start": 2022.729,
+  "end": 2023.729,
+  "speaker": "Daniel McKinnon",
+  "en": "And in theory,",
+  "zh": "而且理论上，"
+ },
+ {
+  "seg": 589,
+  "start": 2024.091,
+  "end": 2027.9470000000001,
+  "speaker": "Daniel McKinnon",
+  "en": "an agent should be able to search the internet and find every publication",
+  "zh": "智能体应该能够搜索互联网并找到每一份出版物"
+ },
+ {
+  "seg": 590,
+  "start": 2027.997,
+  "end": 2030.861,
+  "speaker": "Daniel McKinnon",
+  "en": "and deeply understand all of this.",
+  "zh": "并深入理解所有这一切。"
+ },
+ {
+  "seg": 591,
+  "start": 2031.042,
+  "end": 2033.165,
+  "speaker": "Daniel McKinnon",
+  "en": "It's actually not that simple.",
+  "zh": "实际上并没有那么简单。"
+ },
+ {
+  "seg": 592,
+  "start": 2033.365,
+  "end": 2036.6000000000001,
+  "speaker": "Daniel McKinnon",
+  "en": "They're not perfect and they actually need a lot of guidance,",
+  "zh": "它们并不完美，实际上它们需要大量的指导，"
+ },
+ {
+  "seg": 593,
+  "start": 2036.65,
+  "end": 2038.742,
+  "speaker": "Daniel McKinnon",
+  "en": "which is why there A lot of these companies,",
+  "zh": "这就是为什么有这么多这些公司，"
+ },
+ {
+  "seg": 594,
+  "start": 2038.792,
+  "end": 2039.532,
+  "speaker": "Daniel McKinnon",
+  "en": "including my own,",
+  "zh": "包括我自己的，"
+ },
+ {
+  "seg": 595,
+  "start": 2039.572,
+  "end": 2043.544,
+  "speaker": "Daniel McKinnon",
+  "en": "that are called like harness engineering companies or vertical AI companies",
+  "zh": "被称为工程开发公司或垂直 AI 公司"
+ },
+ {
+  "seg": 596,
+  "start": 2043.594,
+  "end": 2048.677,
+  "speaker": "Daniel McKinnon",
+  "en": "or agentic AI companies because you need some specialized capability to be able",
+  "zh": "或智能体 AI 公司，因为你需要一些专门的能力才能"
+ },
+ {
+  "seg": 597,
+  "start": 2048.757,
+  "end": 2052.298,
+  "speaker": "Daniel McKinnon",
+  "en": "to have the LLMs do stuff like this.",
+  "zh": "让 LLM 做这样的事情。"
+ },
+ {
+  "seg": 598,
+  "start": 2052.719,
+  "end": 2057.041,
+  "speaker": "Daniel McKinnon",
+  "en": "So let's briefly return to our agents and let's just make sure they got it.",
+  "zh": "所以让我们简要地回到我们的智能体，让我们确定它们搞懂了。"
+ },
+ {
+  "seg": 599,
+  "start": 2057.281,
+  "end": 2064.244,
+  "speaker": "Daniel McKinnon",
+  "en": "Okay, so Codex with GPT 5.3 says, okay, this, if you recall, this is the deletion that we added.",
+  "zh": "好的，使用 GPT 5.3 的 Codex 说，好的，这，如果你回想一下，这是我们添加的删除。"
+ },
+ {
+  "seg": 600,
+  "start": 2064.605,
+  "end": 2065.865,
+  "speaker": "Daniel McKinnon",
+  "en": "Boom, I gave it the phenotype.",
+  "zh": "轰，我给它表型了。"
+ },
+ {
+  "seg": 601,
+  "start": 2065.905,
+  "end": 2066.686,
+  "speaker": "Daniel McKinnon",
+  "en": "I gave it the genome.",
+  "zh": "我给它基因组了。"
+ },
+ {
+  "seg": 602,
+  "start": 2066.706,
+  "end": 2067.656,
+  "speaker": "Daniel McKinnon",
+  "en": "This is correct.",
+  "zh": "这是正确的。"
+ },
+ {
+  "seg": 603,
+  "start": 2067.706,
+  "end": 2069.457,
+  "speaker": "Daniel McKinnon",
+  "en": "So how would we mark this correct?",
+  "zh": "那么我们要如何将其标记为正确？"
+ },
+ {
+  "seg": 604,
+  "start": 2069.507,
+  "end": 2071.919,
+  "speaker": "Daniel McKinnon",
+  "en": "We would actually probably have another LLM.",
+  "zh": "我们实际上可能会用另一个 LLM。"
+ },
+ {
+  "seg": 605,
+  "start": 2071.969,
+  "end": 2074.22,
+  "speaker": "Daniel McKinnon",
+  "en": "I'm not going to do this right now for the sake of time.",
+  "zh": "为了省时间我现在不会做这个。"
+ },
+ {
+  "seg": 606,
+  "start": 2074.27,
+  "end": 2076.512,
+  "speaker": "Daniel McKinnon",
+  "en": "Just compare my scorecard.",
+  "zh": "只是比较我的记分卡。"
+ },
+ {
+  "seg": 607,
+  "start": 2076.732,
+  "end": 2081.775,
+  "speaker": "Daniel McKinnon",
+  "en": "This is the correct answer with the response the model is giving right here.",
+  "zh": "这是正确答案，与模型在这里给出的响应相匹配。"
+ },
+ {
+  "seg": 608,
+  "start": 2082.475,
+  "end": 2086.077,
+  "speaker": "Daniel McKinnon",
+  "en": "And then we can check haiku and even haiku.",
+  "zh": "然后我们可以检查 haiku 甚至 haiku。"
+ },
+ {
+  "seg": 609,
+  "start": 2086.898,
+  "end": 2088.7313333333336,
+  "speaker": "Daniel McKinnon",
+  "en": "Oh, wait, did haiku not get this?",
+  "zh": "噢，等等，haiku 没有做对这个吗？"
+ },
+ {
+  "seg": 610,
+  "start": 2088.839,
+  "end": 2091.02,
+  "speaker": "Daniel McKinnon",
+  "en": "Okay, so this is interesting.",
+  "zh": "好的，所以这很有趣。"
+ },
+ {
+  "seg": 611,
+  "start": 2091.08,
+  "end": 2092.1355555555556,
+  "speaker": "Daniel McKinnon",
+  "en": "This is actually...",
+  "zh": "这实际上是……"
+ },
+ {
+  "seg": 612,
+  "start": 2093.071,
+  "end": 2095.454,
+  "speaker": "Daniel McKinnon",
+  "en": "It's harder than I would have thought.",
+  "zh": "这比我想象的要难。"
+ },
+ {
+  "seg": 613,
+  "start": 2095.674,
+  "end": 2099.799,
+  "speaker": "Daniel McKinnon",
+  "en": "I would have expected Haiku to get this because this problem is so easy.",
+  "zh": "我原以为 Haiku 能做对这个，因为这个问题太简单了。"
+ },
+ {
+  "seg": 614,
+  "start": 2100.42,
+  "end": 2104.665,
+  "speaker": "Daniel McKinnon",
+  "en": "But you'll notice what Haiku says is there's 48 variants spanning the gene.",
+  "zh": "但你会注意到 Haiku 说的是有 48 个变异跨越该基因。"
+ },
+ {
+  "seg": 615,
+  "start": 2104.686,
+  "end": 2106.238,
+  "speaker": "Daniel McKinnon",
+  "en": "So it's looking at the gene,",
+  "zh": "所以它正在看这个基因，"
+ },
+ {
+  "seg": 616,
+  "start": 2106.288,
+  "end": 2111.674,
+  "speaker": "Daniel McKinnon",
+  "en": "but it fails to actually find the particular, oh, this is so interesting.",
+  "zh": "但它实际上未能找到特定的，噢，这太有趣了。"
+ },
+ {
+  "seg": 617,
+  "start": 2112.635,
+  "end": 2114.9469999999997,
+  "speaker": "Daniel McKinnon",
+  "en": "Hallucinates a hemizygous large deletion.",
+  "zh": "幻觉出了一个半合子大片段缺失。"
+ },
+ {
+  "seg": 618,
+  "start": 2114.997,
+  "end": 2119.361,
+  "speaker": "Daniel McKinnon",
+  "en": "So coming back to this, coming back to our point is start with something easy.",
+  "zh": "所以回到这个，回到我们的点是，从简单的事情开始。"
+ },
+ {
+  "seg": 619,
+  "start": 2119.541,
+  "end": 2121.6119999999996,
+  "speaker": "Daniel McKinnon",
+  "en": "I thought I started with something easy here.",
+  "zh": "我以为我在这里是从简单的事情开始的。"
+ },
+ {
+  "seg": 620,
+  "start": 2121.662,
+  "end": 2124.264,
+  "speaker": "Daniel McKinnon",
+  "en": "It's a good thing I did this because if I were benchmarking high Q,",
+  "zh": "我做了这件事是件好事，因为如果我是在基准测试 high Q，"
+ },
+ {
+  "seg": 621,
+  "start": 2124.284,
+  "end": 2127.1569999999997,
+  "speaker": "Daniel McKinnon",
+  "en": "this is too hard and I'd have to make it even easier.",
+  "zh": "这太难了，我得让它更简单。"
+ },
+ {
+  "seg": 622,
+  "start": 2127.207,
+  "end": 2131.0958888888886,
+  "speaker": "Daniel McKinnon",
+  "en": "And the things I could do to make it even easier would be potentially,",
+  "zh": "为了让它更简单我能做的事可能是，"
+ },
+ {
+  "seg": 623,
+  "start": 2131.19,
+  "end": 2131.5,
+  "speaker": "Daniel McKinnon",
+  "en": "you know,",
+  "zh": "你知道，"
+ },
+ {
+  "seg": 624,
+  "start": 2131.55,
+  "end": 2133.992,
+  "speaker": "Daniel McKinnon",
+  "en": "limit the region of the genome of interest,",
+  "zh": "限制感兴趣的基因组区域，"
+ },
+ {
+  "seg": 625,
+  "start": 2134.012,
+  "end": 2134.9429999999998,
+  "speaker": "Daniel McKinnon",
+  "en": "give it more hints,",
+  "zh": "给它更多提示，"
+ },
+ {
+  "seg": 626,
+  "start": 2134.993,
+  "end": 2138.958,
+  "speaker": "Daniel McKinnon",
+  "en": "maybe Provide access to more external information more easily,",
+  "zh": "也许更容易地提供访问更多外部信息，"
+ },
+ {
+  "seg": 627,
+  "start": 2138.978,
+  "end": 2141.652,
+  "speaker": "Daniel McKinnon",
+  "en": "but we can see that Haiku even fails this easy task.",
+  "zh": "但我们可以看到 Haiku 甚至在这个简单的任务上失败了。"
+ },
+ {
+  "seg": 628,
+  "start": 2141.702,
+  "end": 2144.767,
+  "speaker": "Daniel McKinnon",
+  "en": "And I would be absolutely shocked if 5.5 did.",
+  "zh": "如果 5.5 做到了，我会绝对震惊。"
+ },
+ {
+  "seg": 629,
+  "start": 2145.047,
+  "end": 2146.047,
+  "speaker": "Daniel McKinnon",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 630,
+  "start": 2146.529,
+  "end": 2150.395,
+  "speaker": "Daniel McKinnon",
+  "en": "It's not finished yet, but you can already see that it found the correct answer.",
+  "zh": "它还没完成，但你已经可以看到它找到了正确答案。"
+ },
+ {
+  "seg": 631,
+  "start": 2150.435,
+  "end": 2156.042,
+  "speaker": "Daniel McKinnon",
+  "en": "So if we were to score this, we could easily have an LLM say, okay, haiku, this is not correct.",
+  "zh": "所以如果我们给这个打分，我们可以轻易地让一个 LLM 说，好的，haiku，这是不正确的。"
+ },
+ {
+  "seg": 632,
+  "start": 2156.082,
+  "end": 2158.394,
+  "speaker": "Daniel McKinnon",
+  "en": "This does not match what I have in this table.",
+  "zh": "这与我在这个表里的东西不匹配。"
+ },
+ {
+  "seg": 633,
+  "start": 2158.444,
+  "end": 2159.444,
+  "speaker": "Daniel McKinnon",
+  "en": "This is correct.",
+  "zh": "这是正确的。"
+ },
+ {
+  "seg": 634,
+  "start": 2159.986,
+  "end": 2161.708,
+  "speaker": "Daniel McKinnon",
+  "en": "And this is correct.",
+  "zh": "而这是正确的。"
+ },
+ {
+  "seg": 635,
+  "start": 2161.948,
+  "end": 2163.19,
+  "speaker": "Daniel McKinnon",
+  "en": "So that's kind of,",
+  "zh": "所以这有点像，"
+ },
+ {
+  "seg": 636,
+  "start": 2163.79,
+  "end": 2170.79,
+  "speaker": "Daniel McKinnon",
+  "en": "and then in our spreadsheet, we would just say, you know, haiku, bad, others, good.",
+  "zh": "然后在我们的电子表格里，我们会说，你知道，haiku，坏，其他的，好。"
+ },
+ {
+  "seg": 637,
+  "start": 2171.895,
+  "end": 2177.859,
+  "speaker": "Daniel McKinnon",
+  "en": "But now let's move on to something where we want to understand the hard cases.",
+  "zh": "但现在让我们继续到一个我们要了解困难案例的地方。"
+ },
+ {
+  "seg": 638,
+  "start": 2178.48,
+  "end": 2179.3909999999996,
+  "speaker": "Daniel McKinnon",
+  "en": "And again,",
+  "zh": "而且，"
+ },
+ {
+  "seg": 639,
+  "start": 2179.441,
+  "end": 2182.6076666666663,
+  "speaker": "Daniel McKinnon",
+  "en": "I unexpectedly actually picked out a hard case for haiku,",
+  "zh": "我意外地实际上为 haiku 挑出了一个困难案例，"
+ },
+ {
+  "seg": 640,
+  "start": 2183.043,
+  "end": 2186.486,
+  "speaker": "Daniel McKinnon",
+  "en": "but this paper is quite challenging.",
+  "zh": "但这篇论文是相当具有挑战性的。"
+ },
+ {
+  "seg": 641,
+  "start": 2187.126,
+  "end": 2190.903777777778,
+  "speaker": "Daniel McKinnon",
+  "en": "And I believe it is unlikely that any of the models will solve this.",
+  "zh": "我相信不太可能有任何模型能解决这个问题。"
+ },
+ {
+  "seg": 642,
+  "start": 2191.309,
+  "end": 2195.192,
+  "speaker": "Daniel McKinnon",
+  "en": "So in the supplementary information of this paper is a table,",
+  "zh": "所以在这篇论文的补充信息里是一张表，"
+ },
+ {
+  "seg": 643,
+  "start": 2196.193,
+  "end": 2197.8041111111115,
+  "speaker": "Daniel McKinnon",
+  "en": "and it is a list of patients,",
+  "zh": "那是一份患者列表，"
+ },
+ {
+  "seg": 644,
+  "start": 2198.114,
+  "end": 2201.577,
+  "speaker": "Daniel McKinnon",
+  "en": "and a proband is a medical This is a clinical term for",
+  "zh": "而 proband 是一个医学 这是一个临床术语，指"
+ },
+ {
+  "seg": 645,
+  "start": 2201.597,
+  "end": 2203.2636666666667,
+  "speaker": "Daniel McKinnon",
+  "en": "the patient you're evaluating,",
+  "zh": "你正在评估的患者，"
+ },
+ {
+  "seg": 646,
+  "start": 2203.52,
+  "end": 2207.205,
+  "speaker": "Daniel McKinnon",
+  "en": "and it has diagenic causes for congenital heart disease.",
+  "zh": "并且它有先天性心脏病的双基因成因。"
+ },
+ {
+  "seg": 647,
+  "start": 2207.726,
+  "end": 2212.433,
+  "speaker": "Daniel McKinnon",
+  "en": "So this particular patient has ACACB,",
+  "zh": "所以这个特定患者有 ACACB，"
+ },
+ {
+  "seg": 648,
+  "start": 2212.453,
+  "end": 2213.765,
+  "speaker": "Daniel McKinnon",
+  "en": "I have no idea what this is,",
+  "zh": "我不知道这是什么，"
+ },
+ {
+  "seg": 649,
+  "start": 2213.815,
+  "end": 2214.7259999999997,
+  "speaker": "Daniel McKinnon",
+  "en": "some gene,",
+  "zh": "某个基因，"
+ },
+ {
+  "seg": 650,
+  "start": 2214.776,
+  "end": 2221.776,
+  "speaker": "Daniel McKinnon",
+  "en": "it's HET, This is one copy of this variant and myocd, which is also one copy.",
+  "zh": "它是 HET，这是该变异的一个拷贝，以及 myocd，这也是一个拷贝。"
+ },
+ {
+  "seg": 651,
+  "start": 2222.502,
+  "end": 2227.285,
+  "speaker": "Daniel McKinnon",
+  "en": "And these researchers discovered that the combination of these two diseases leads",
+  "zh": "这些研究人员发现这两种疾病的组合会导致"
+ },
+ {
+  "seg": 652,
+  "start": 2227.346,
+  "end": 2228.877,
+  "speaker": "Daniel McKinnon",
+  "en": "to congenital heart disease.",
+  "zh": "先天性心脏病。"
+ },
+ {
+  "seg": 653,
+  "start": 2228.927,
+  "end": 2231.5381111111114,
+  "speaker": "Daniel McKinnon",
+  "en": "So let's see if the models can figure this out.",
+  "zh": "让我们看看模型是否能弄明白这一点。"
+ },
+ {
+  "seg": 654,
+  "start": 2231.608,
+  "end": 2234.93,
+  "speaker": "Daniel McKinnon",
+  "en": "So what we'll do again is we'll go to our table and our phenotype.",
+  "zh": "我们要做的还是回到我们的表格和表型。"
+ },
+ {
+  "seg": 655,
+  "start": 2234.95,
+  "end": 2238.693,
+  "speaker": "Akash",
+  "en": "Is it two diseases or is it two abnormalities in their DNA?",
+  "zh": "是两种疾病还是它们 DNA 中的两种异常？"
+ },
+ {
+  "seg": 656,
+  "start": 2239.13,
+  "end": 2240.051,
+  "speaker": "Daniel McKinnon",
+  "en": "Yeah, that's a great question.",
+  "zh": "是的，这是个很好的问题。"
+ },
+ {
+  "seg": 657,
+  "start": 2240.071,
+  "end": 2240.901,
+  "speaker": "Daniel McKinnon",
+  "en": "It's one disease.",
+  "zh": "是一种疾病。"
+ },
+ {
+  "seg": 658,
+  "start": 2240.951,
+  "end": 2242.2819999999997,
+  "speaker": "Daniel McKinnon",
+  "en": "It's a congenital heart disease.",
+  "zh": "是先天性心脏病。"
+ },
+ {
+  "seg": 659,
+  "start": 2242.332,
+  "end": 2245.4986666666664,
+  "speaker": "Daniel McKinnon",
+  "en": "And I don't know exactly which one it is from this paper.",
+  "zh": "我不确切知道这篇论文里是哪一种。"
+ },
+ {
+  "seg": 660,
+  "start": 2246.115,
+  "end": 2246.756,
+  "speaker": "Daniel McKinnon",
+  "en": "And, you know,",
+  "zh": "而且，你知道，"
+ },
+ {
+  "seg": 661,
+  "start": 2246.776,
+  "end": 2249.6479999999997,
+  "speaker": "Daniel McKinnon",
+  "en": "we could read the paper and figure out exactly what the phenotype is,",
+  "zh": "我们可以阅读这篇论文并弄清楚确切的表型是什么，"
+ },
+ {
+  "seg": 662,
+  "start": 2249.698,
+  "end": 2251.698,
+  "speaker": "Daniel McKinnon",
+  "en": "but it's some defect with the heart.",
+  "zh": "但它是心脏的某种缺陷。"
+ },
+ {
+  "seg": 663,
+  "start": 2251.98,
+  "end": 2256.943,
+  "speaker": "Daniel McKinnon",
+  "en": "And what's unusual about this and why this is hard is it's two heterozygous variants",
+  "zh": "这件事的不寻常之处以及困难在于，它是两个杂合变异"
+ },
+ {
+  "seg": 664,
+  "start": 2257.104,
+  "end": 2260.3817777777776,
+  "speaker": "Daniel McKinnon",
+  "en": "on two different genes that is causing this single disease.",
+  "zh": "在两个不同的基因上导致了这种单一的疾病。"
+ },
+ {
+  "seg": 665,
+  "start": 2260.886,
+  "end": 2262.007,
+  "speaker": "Daniel McKinnon",
+  "en": "So it's complicated.",
+  "zh": "所以它很复杂。"
+ },
+ {
+  "seg": 666,
+  "start": 2262.027,
+  "end": 2265.229,
+  "speaker": "Daniel McKinnon",
+  "en": "So Our phenotype here is congenital heart disease.",
+  "zh": "所以我们这里的表型是先天性心脏病。"
+ },
+ {
+  "seg": 667,
+  "start": 2265.849,
+  "end": 2268.0156666666667,
+  "speaker": "Daniel McKinnon",
+  "en": "And our gene here, we have two of them.",
+  "zh": "我们这里的基因，我们有两个。"
+ },
+ {
+  "seg": 668,
+  "start": 2268.51,
+  "end": 2270.01,
+  "speaker": "Daniel McKinnon",
+  "en": "One is this guy.",
+  "zh": "一个是这家伙。"
+ },
+ {
+  "seg": 669,
+  "start": 2270.671,
+  "end": 2271.671,
+  "speaker": "Daniel McKinnon",
+  "en": "And oops.",
+  "zh": "哎呀。"
+ },
+ {
+  "seg": 670,
+  "start": 2272.331,
+  "end": 2275.032,
+  "speaker": "Daniel McKinnon",
+  "en": "And the second one is this guy.",
+  "zh": "第二个是这家伙。"
+ },
+ {
+  "seg": 671,
+  "start": 2275.452,
+  "end": 2280.034,
+  "speaker": "Daniel McKinnon",
+  "en": "And then the variants are these guys.",
+  "zh": "然后变异是这些家伙。"
+ },
+ {
+  "seg": 672,
+  "start": 2280.414,
+  "end": 2281.1639999999998,
+  "speaker": "Daniel McKinnon",
+  "en": "And this is,",
+  "zh": "这是，"
+ },
+ {
+  "seg": 673,
+  "start": 2281.214,
+  "end": 2283.4249999999997,
+  "speaker": "Daniel McKinnon",
+  "en": "you'll notice the notation is a little bit different,",
+  "zh": "你会注意到符号有点不同，"
+ },
+ {
+  "seg": 674,
+  "start": 2283.475,
+  "end": 2287.265,
+  "speaker": "Daniel McKinnon",
+  "en": "but this is something that you'll just have to deal with in these evals is like,",
+  "zh": "但在这些评估中你只需要处理这些，就像，"
+ },
+ {
+  "seg": 675,
+  "start": 2287.315,
+  "end": 2287.705,
+  "speaker": "Daniel McKinnon",
+  "en": "You know,",
+  "zh": "你知道，"
+ },
+ {
+  "seg": 676,
+  "start": 2287.755,
+  "end": 2288.815,
+  "speaker": "Daniel McKinnon",
+  "en": "no matter what you're doing,",
+  "zh": "无论你在做什么，"
+ },
+ {
+  "seg": 677,
+  "start": 2288.856,
+  "end": 2290.876,
+  "speaker": "Daniel McKinnon",
+  "en": "because these tend to be in very technical,",
+  "zh": "因为这些往往涉及非常技术的、 [[678]** 专业的领域，在这一点上，"
+ },
+ {
+  "seg": 678,
+  "start": 2290.916,
+  "end": 2292.4869999999996,
+  "speaker": "Daniel McKinnon",
+  "en": "specialized domains at this point,",
+  "zh": "此时此刻是专业领域，"
+ },
+ {
+  "seg": 679,
+  "start": 2292.537,
+  "end": 2296.3703333333333,
+  "speaker": "Daniel McKinnon",
+  "en": "you know, no one wants evals for boring stuff like ice cream flavors.",
+  "zh": "你知道，没有人想要为像冰淇淋口味这样无聊的东西做评估。"
+ },
+ {
+  "seg": 680,
+  "start": 2296.758,
+  "end": 2300.4089999999997,
+  "speaker": "Daniel McKinnon",
+  "en": "You just have to get comfortable with all these different mutations.",
+  "zh": "你只需要对所有这些不同的突变感到适应。"
+ },
+ {
+  "seg": 681,
+  "start": 2300.459,
+  "end": 2302.96,
+  "speaker": "Daniel McKinnon",
+  "en": "And now let's go and let's try this again.",
+  "zh": "现在让我们去再次尝试一下。"
+ },
+ {
+  "seg": 682,
+  "start": 2303.42,
+  "end": 2310.42,
+  "speaker": "Daniel McKinnon",
+  "en": "So what I would do is I would say something like, please add these to den.d variant.d.",
+  "zh": "所以我会做的是，我会说类似这样的话，请把这些添加到 den.d variant.d。"
+ },
+ {
+  "seg": 683,
+  "start": 2316.458,
+  "end": 2317.368,
+  "speaker": "Daniel McKinnon",
+  "en": "VCF.",
+  "zh": "VCF。"
+ },
+ {
+  "seg": 684,
+  "start": 2317.418,
+  "end": 2321.959,
+  "speaker": "Daniel McKinnon",
+  "en": "But I'm actually not going to do this because you already saw how this worked",
+  "zh": "但我实际上不会这样做，因为你已经看到了它是如何工作的"
+ },
+ {
+  "seg": 685,
+  "start": 2322.219,
+  "end": 2324.18,
+  "speaker": "Daniel McKinnon",
+  "en": "and basically how the VCF file was structured.",
+  "zh": "以及基本上 VCF 文件是如何构建的。"
+ },
+ {
+  "seg": 686,
+  "start": 2324.2,
+  "end": 2325.7555555555555,
+  "speaker": "Daniel McKinnon",
+  "en": "It would add these two rows.",
+  "zh": "它会添加这两行。"
+ },
+ {
+  "seg": 687,
+  "start": 2326.06,
+  "end": 2327.8309999999997,
+  "speaker": "Daniel McKinnon",
+  "en": "And for the sake of time, I've already done it.",
+  "zh": "为了节省时间，我已经做完了。"
+ },
+ {
+  "seg": 688,
+  "start": 2327.881,
+  "end": 2333.382,
+  "speaker": "Daniel McKinnon",
+  "en": "But then let's go and let's check and see, oh, how do we do on this use case?",
+  "zh": "但让我们去检查一下，噢，我们在这个用例上做得如何？"
+ },
+ {
+  "seg": 689,
+  "start": 2333.902,
+  "end": 2336.743,
+  "speaker": "Daniel McKinnon",
+  "en": "So in this case, I've already pre-baked it.",
+  "zh": "所以在这个案例中，我已经预先做好了。"
+ },
+ {
+  "seg": 690,
+  "start": 2337.303,
+  "end": 2342.024,
+  "speaker": "Daniel McKinnon",
+  "en": "And I'm going to say this is danchd.",
+  "zh": "我要说这是 danchd。"
+ },
+ {
+  "seg": 691,
+  "start": 2343.304,
+  "end": 2345.585,
+  "speaker": "Daniel McKinnon",
+  "en": "And I'll say this contains the...",
+  "zh": "我会说这包含了..."
+ },
+ {
+  "seg": 692,
+  "start": 2346.945,
+  "end": 2353.945,
+  "speaker": "Daniel McKinnon",
+  "en": "Genome of a patient with congenital heart disease, please identify the genetic cause.",
+  "zh": "患有先天性心脏病的患者的基因组，请确定遗传原因。"
+ },
+ {
+  "seg": 693,
+  "start": 2357.45,
+  "end": 2358.45,
+  "speaker": "Akash",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 694,
+  "start": 2358.79,
+  "end": 2363.793,
+  "speaker": "Daniel McKinnon",
+  "en": "And while we're going to have this one running,",
+  "zh": "当我们让这一个运行的时候，"
+ },
+ {
+  "seg": 695,
+  "start": 2363.813,
+  "end": 2367.3685555555558,
+  "speaker": "Daniel McKinnon",
+  "en": "we're going to try our other two agents just to see how they do.",
+  "zh": "我们将尝试我们的另外两个智能体，看看它们表现如何。"
+ },
+ {
+  "seg": 696,
+  "start": 2369.095,
+  "end": 2373.777,
+  "speaker": "Daniel McKinnon",
+  "en": "We can almost guarantee that haiku...",
+  "zh": "我们几乎可以保证 haiku..."
+ },
+ {
+  "seg": 697,
+  "start": 2374.385,
+  "end": 2377.728,
+  "speaker": "Daniel McKinnon",
+  "en": "We'll not get this because it didn't get the much, much easier task.",
+  "zh": "我们不会得到这个，因为它没有完成那个简单得多的任务。"
+ },
+ {
+  "seg": 698,
+  "start": 2377.768,
+  "end": 2383.092,
+  "speaker": "Daniel McKinnon",
+  "en": "But for the sake of completion, completeness, we'll do this as well.",
+  "zh": "但为了完整性，为了完整，我们也会做这个。"
+ },
+ {
+  "seg": 699,
+  "start": 2384.853,
+  "end": 2390.477,
+  "speaker": "Daniel McKinnon",
+  "en": "And then we'll do this with GPT 5.5 extra high as well.",
+  "zh": "然后我们还要用 GPT 5.5 extra high 来做这个。"
+ },
+ {
+  "seg": 700,
+  "start": 2391.458,
+  "end": 2395.6246666666666,
+  "speaker": "Akash",
+  "en": "And again, we would do probably like some non-deterministic nature, right?",
+  "zh": "同样，我们可能会做一些非确定性的事情，对吧？"
+ },
+ {
+  "seg": 701,
+  "start": 2395.201,
+  "end": 2398.663,
+  "speaker": "Akash",
+  "en": "Like, do you need to like test the same model a couple of times to just see",
+  "zh": "比如，你需要像测试同一个模型几次来看看"
+ },
+ {
+  "seg": 702,
+  "start": 2398.703,
+  "end": 2401.065,
+  "speaker": "Akash",
+  "en": "if like maybe two out of three times it gets it right?",
+  "zh": "是否也许三次中有两次它做对了？"
+ },
+ {
+  "seg": 703,
+  "start": 2401.085,
+  "end": 2402.4738888888887,
+  "speaker": "Akash",
+  "en": "Or is that not important?",
+  "zh": "还是说这不重要？"
+ },
+ {
+  "seg": 704,
+  "start": 2402.852,
+  "end": 2404.343,
+  "speaker": "Daniel McKinnon",
+  "en": "Yeah, that's a really good point.",
+  "zh": "是的，这确实是一个很好的观点。"
+ },
+ {
+  "seg": 705,
+  "start": 2404.393,
+  "end": 2406.474,
+  "speaker": "Daniel McKinnon",
+  "en": "So this is a question about sampling.",
+  "zh": "所以这是一个关于采样的问题。"
+ },
+ {
+  "seg": 706,
+  "start": 2407.494,
+  "end": 2410.115,
+  "speaker": "Daniel McKinnon",
+  "en": "So sampling is actually really important.",
+  "zh": "所以采样实际上真的很重要。"
+ },
+ {
+  "seg": 707,
+  "start": 2410.355,
+  "end": 2415.158,
+  "speaker": "Daniel McKinnon",
+  "en": "And you might remember like all of this old research",
+  "zh": "你可能还记得像所有这些旧的研究"
+ },
+ {
+  "seg": 708,
+  "start": 2415.658,
+  "end": 2419.223,
+  "speaker": "Daniel McKinnon",
+  "en": "where You would basically sample for good traces.",
+  "zh": "你基本上要为了良好的轨迹进行采样。"
+ },
+ {
+  "seg": 709,
+  "start": 2419.243,
+  "end": 2422.425,
+  "speaker": "Daniel McKinnon",
+  "en": "And this is kind of what like RL environments do is you do a rollout,",
+  "zh": "这有点像 RL 环境所做的是你做一个 rollout，"
+ },
+ {
+  "seg": 710,
+  "start": 2422.445,
+  "end": 2423.105,
+  "speaker": "Daniel McKinnon",
+  "en": "you do a rollout,",
+  "zh": "你做一个 rollout，"
+ },
+ {
+  "seg": 711,
+  "start": 2423.125,
+  "end": 2423.926,
+  "speaker": "Daniel McKinnon",
+  "en": "you do a rollout,",
+  "zh": "你做一个 rollout，"
+ },
+ {
+  "seg": 712,
+  "start": 2423.966,
+  "end": 2427.3979999999997,
+  "speaker": "Daniel McKinnon",
+  "en": "and then you get the correct answer and boom, you give it a good reward for that.",
+  "zh": "然后你得到正确答案，然后砰，你给它一个好的奖励。"
+ },
+ {
+  "seg": 713,
+  "start": 2427.448,
+  "end": 2434.153,
+  "speaker": "Daniel McKinnon",
+  "en": "And the key thesis here is inside the weights of the model, the right answer might live there.",
+  "zh": "这里的关键论点是，在模型的权重内部，正确的答案可能存在于那里。"
+ },
+ {
+  "seg": 714,
+  "start": 2435.149,
+  "end": 2437.9267777777777,
+  "speaker": "Daniel McKinnon",
+  "en": "It just might not get the right answer each time.",
+  "zh": "只是它可能每次都得不到正确答案。"
+ },
+ {
+  "seg": 715,
+  "start": 2438.354,
+  "end": 2442.941,
+  "speaker": "Daniel McKinnon",
+  "en": "So when you're doing these evals, you do want to try multiple times.",
+  "zh": "所以当你做这些评估时，你确实想尝试多次。"
+ },
+ {
+  "seg": 716,
+  "start": 2443.562,
+  "end": 2444.924,
+  "speaker": "Daniel McKinnon",
+  "en": "In this particular case,",
+  "zh": "在这种特定情况下，"
+ },
+ {
+  "seg": 717,
+  "start": 2444.944,
+  "end": 2448.944,
+  "speaker": "Daniel McKinnon",
+  "en": "I actually know from having done it that sampling has very little effect",
+  "zh": "我实际上从做这件事的经验知道，采样几乎没有影响"
+ },
+ {
+  "seg": 718,
+  "start": 2449.03,
+  "end": 2454.973,
+  "speaker": "Daniel McKinnon",
+  "en": "and it's essentially determining I've seen slightly the same model get to",
+  "zh": "而且它本质上判定我看到稍微相同的模型通过稍微不同的方法"
+ },
+ {
+  "seg": 719,
+  "start": 2455.034,
+  "end": 2458.0895555555558,
+  "speaker": "Daniel McKinnon",
+  "en": "the same conclusion with slightly different approaches.",
+  "zh": "得到相同的结论。"
+ },
+ {
+  "seg": 720,
+  "start": 2458.335,
+  "end": 2459.2459999999996,
+  "speaker": "Daniel McKinnon",
+  "en": "But in general,",
+  "zh": "但总的来说，"
+ },
+ {
+  "seg": 721,
+  "start": 2459.296,
+  "end": 2459.926,
+  "speaker": "Daniel McKinnon",
+  "en": "sampling,",
+  "zh": "采样，"
+ },
+ {
+  "seg": 722,
+  "start": 2459.976,
+  "end": 2461.097,
+  "speaker": "Daniel McKinnon",
+  "en": "in my experience,",
+  "zh": "以我的经验，"
+ },
+ {
+  "seg": 723,
+  "start": 2461.777,
+  "end": 2465.9436666666666,
+  "speaker": "Daniel McKinnon",
+  "en": "is less important than it used to be, where sampling used to be a big deal.",
+  "zh": "没有以前那么重要了，以前采样是一件大事。"
+ },
+ {
+  "seg": 724,
+  "start": 2466.239,
+  "end": 2469.821,
+  "speaker": "Daniel McKinnon",
+  "en": "Like if you look at, let's just look at, this is a funny story.",
+  "zh": "比如你看，我们就看看，这是一个有趣的故事。"
+ },
+ {
+  "seg": 725,
+  "start": 2470.521,
+  "end": 2473.343,
+  "speaker": "Daniel McKinnon",
+  "en": "Let's look at Gemini Ultra scorecard.",
+  "zh": "我们来看看 Gemini Ultra 的记分卡。"
+ },
+ {
+  "seg": 726,
+  "start": 2474.623,
+  "end": 2479.746,
+  "speaker": "Daniel McKinnon",
+  "en": "So if you'll remember, Gemini Ultra, oh wow, did Google actually bury it?",
+  "zh": "如果你记得，Gemini Ultra，噢哇，Google 真的把它埋藏了吗？"
+ },
+ {
+  "seg": 727,
+  "start": 2481.382,
+  "end": 2482.703,
+  "speaker": "Daniel McKinnon",
+  "en": "Okay, here it is.",
+  "zh": "好的，在这里。"
+ },
+ {
+  "seg": 728,
+  "start": 2483.163,
+  "end": 2489.145,
+  "speaker": "Daniel McKinnon",
+  "en": "So you'll remember way back in 2023 when people thought Google was kind of out of the AI race.",
+  "zh": "你会记得早在 2023 年当时人们认为 Google 有点退出 AI 竞赛了。"
+ },
+ {
+  "seg": 729,
+  "start": 2489.165,
+  "end": 2492.576,
+  "speaker": "Daniel McKinnon",
+  "en": "I actually worked on this model, so I know this story very well.",
+  "zh": "我实际上在这个模型上工作过，所以我很清楚这个故事。"
+ },
+ {
+  "seg": 730,
+  "start": 2492.626,
+  "end": 2499.228,
+  "speaker": "Daniel McKinnon",
+  "en": "Google released Gemini Ultra, which I believe was a 660B dense model, which was crazy back then.",
+  "zh": "Google 发布了 Gemini Ultra，我相信这是一个 660B 的密集模型，这在当时很疯狂。"
+ },
+ {
+  "seg": 731,
+  "start": 2499.268,
+  "end": 2502.545777777778,
+  "speaker": "Daniel McKinnon",
+  "en": "That was like one of the largest dense models ever trained.",
+  "zh": "这就像是曾经训练过的最大的密集模型之一。"
+ },
+ {
+  "seg": 732,
+  "start": 2502.813,
+  "end": 2505.935,
+  "speaker": "Daniel McKinnon",
+  "en": "And they released this scorecard.",
+  "zh": "然后他们发布这个记分卡。"
+ },
+ {
+  "seg": 733,
+  "start": 2506.815,
+  "end": 2510.357,
+  "speaker": "Daniel McKinnon",
+  "en": "And what you see is this.",
+  "zh": "你看到的是这个。"
+ },
+ {
+  "seg": 734,
+  "start": 2510.477,
+  "end": 2512.0325555555555,
+  "speaker": "Daniel McKinnon",
+  "en": "This was very controversial.",
+  "zh": "这非常有争议。"
+ },
+ {
+  "seg": 735,
+  "start": 2512.117,
+  "end": 2515.005888888889,
+  "speaker": "Daniel McKinnon",
+  "en": "And this comes back to your question about sampling.",
+  "zh": "这回到你关于采样的问题。"
+ },
+ {
+  "seg": 736,
+  "start": 2515.179,
+  "end": 2520.101,
+  "speaker": "Daniel McKinnon",
+  "en": "If you remember, MMLU, this used to be like the canonical benchmark for LLMs.",
+  "zh": "如果你记得，MMLU，这曾经像是 LLM 的标准基准。"
+ },
+ {
+  "seg": 737,
+  "start": 2520.261,
+  "end": 2524.261,
+  "speaker": "Daniel McKinnon",
+  "en": "And let's just go back to look at what a question is to remind you is...",
+  "zh": "我们就回头看看什么是问题来提醒你是……"
+ },
+ {
+  "seg": 738,
+  "start": 2524.66,
+  "end": 2525.982,
+  "speaker": "Daniel McKinnon",
+  "en": "Just simple question and answer.",
+  "zh": "只是简单的问题和回答。"
+ },
+ {
+  "seg": 739,
+  "start": 2526.002,
+  "end": 2527.845,
+  "speaker": "Daniel McKinnon",
+  "en": "If you know the actual brightness of an object,",
+  "zh": "如果你知道一个物体的实际亮度，"
+ },
+ {
+  "seg": 740,
+  "start": 2527.865,
+  "end": 2529.437,
+  "speaker": "Daniel McKinnon",
+  "en": "it's apparent brightness from location",
+  "zh": "它的视亮度从位置"
+ },
+ {
+  "seg": 741,
+  "start": 2529.487,
+  "end": 2532.872,
+  "speaker": "Daniel McKinnon",
+  "en": "with no other information you can estimate this, okay?",
+  "zh": "在没有其他信息的情况下你可以估计这个，好吗？"
+ },
+ {
+  "seg": 742,
+  "start": 2533.133,
+  "end": 2537.81,
+  "speaker": "Daniel McKinnon",
+  "en": "Models used to be bad at this, which is hilarious because this seems so distant right now.",
+  "zh": "模型曾经在这方面很烂，这很好笑因为这现在看起来很遥远。"
+ },
+ {
+  "seg": 743,
+  "start": 2537.86,
+  "end": 2539.5119999999997,
+  "speaker": "Daniel McKinnon",
+  "en": "And Google wanted to be the best.",
+  "zh": "而 Google 想要成为最好的。"
+ },
+ {
+  "seg": 744,
+  "start": 2539.562,
+  "end": 2541.262,
+  "speaker": "Daniel McKinnon",
+  "en": "And GPT-4 was the best at this point.",
+  "zh": "而 GPT-4 是那时最好的。"
+ },
+ {
+  "seg": 745,
+  "start": 2541.282,
+  "end": 2545.383,
+  "speaker": "Daniel McKinnon",
+  "en": "It got 86.4% on MLMU and it was on five shots,",
+  "zh": "它在 MLMU 上得到了 86.4% 而且是在五样本上，"
+ },
+ {
+  "seg": 746,
+  "start": 2545.843,
+  "end": 2549.684,
+  "speaker": "Daniel McKinnon",
+  "en": "meaning it had five samples and it picked the best one.",
+  "zh": "意味着它有五个样本然后它选了最好的一个。"
+ },
+ {
+  "seg": 747,
+  "start": 2550.104,
+  "end": 2553.2749999999996,
+  "speaker": "Daniel McKinnon",
+  "en": "And that's why you see five shot, three shot, three shot, 10 shot.",
+  "zh": "这就是为什么你看到五样本，三样本，三样本，十样本。"
+ },
+ {
+  "seg": 748,
+  "start": 2553.325,
+  "end": 2555.146,
+  "speaker": "Daniel McKinnon",
+  "en": "It really is like kind of like a way",
+  "zh": "这真的有点像一种"
+ },
+ {
+  "seg": 749,
+  "start": 2555.166,
+  "end": 2559.627,
+  "speaker": "Daniel McKinnon",
+  "en": "of cheating is like how many times can you sample from this model?",
+  "zh": "作弊的方式就是你从这个模型采样多少次？"
+ },
+ {
+  "seg": 750,
+  "start": 2559.927,
+  "end": 2563.968,
+  "speaker": "Daniel McKinnon",
+  "en": "And what you see is that Gemini Ultra actually had 32 shots.",
+  "zh": "你会看到 Gemini Ultra 实际上有 32 次采样。"
+ },
+ {
+  "seg": 751,
+  "start": 2564.068,
+  "end": 2565.7902222222224,
+  "speaker": "Daniel McKinnon",
+  "en": "So they got more shots on goal.",
+  "zh": "所以他们有了更多的射门机会。"
+ },
+ {
+  "seg": 752,
+  "start": 2566.008,
+  "end": 2566.388,
+  "speaker": "Daniel McKinnon",
+  "en": "And actually,",
+  "zh": "而实际上，"
+ },
+ {
+  "seg": 753,
+  "start": 2566.408,
+  "end": 2567.308,
+  "speaker": "Daniel McKinnon",
+  "en": "now that I'm remembering this,",
+  "zh": "既然我现在记起来了，"
+ },
+ {
+  "seg": 754,
+  "start": 2567.329,
+  "end": 2569.329,
+  "speaker": "Daniel McKinnon",
+  "en": "this actually might be pre-examples,",
+  "zh": "这实际上可能是预示例，"
+ },
+ {
+  "seg": 755,
+  "start": 2570.089,
+  "end": 2573.512,
+  "speaker": "Daniel McKinnon",
+  "en": "If this is actually not the number of examples in the context window and just",
+  "zh": "如果这实际上不是上下文窗口中示例的数量，"
+ },
+ {
+  "seg": 756,
+  "start": 2573.552,
+  "end": 2575.829777777778,
+  "speaker": "Daniel McKinnon",
+  "en": "the shots or the number of times sampled,",
+  "zh": "而只是采样次数或采样次数，"
+ },
+ {
+  "seg": 757,
+  "start": 2576.794,
+  "end": 2578.9849999999997,
+  "speaker": "Daniel McKinnon",
+  "en": "it doesn't really matter for the sake of this argument.",
+  "zh": "为了这个论点的目的，这并不重要。"
+ },
+ {
+  "seg": 758,
+  "start": 2579.035,
+  "end": 2583.578,
+  "speaker": "Daniel McKinnon",
+  "en": "But the answers to MMLU might be inside the model weights,",
+  "zh": "但是 MMLU 的答案可能在模型权重里，"
+ },
+ {
+  "seg": 759,
+  "start": 2583.638,
+  "end": 2587.941,
+  "speaker": "Daniel McKinnon",
+  "en": "but it might just be not enriched enough in terms of the probabilities.",
+  "zh": "但可能在概率方面不够丰富。"
+ },
+ {
+  "seg": 760,
+  "start": 2588.421,
+  "end": 2593.884,
+  "speaker": "Daniel McKinnon",
+  "en": "So by sampling more times, you actually get a higher chance of getting the correct answer.",
+  "zh": "所以通过采样更多次，你实际上有更高的机会得到正确答案。"
+ },
+ {
+  "seg": 761,
+  "start": 2594.225,
+  "end": 2596.627,
+  "speaker": "Daniel McKinnon",
+  "en": "So this used to be a really big thing back in the day.",
+  "zh": "这在过去是一件大事。"
+ },
+ {
+  "seg": 762,
+  "start": 2596.947,
+  "end": 2598.408,
+  "speaker": "Daniel McKinnon",
+  "en": "Today, I don't think this is a big thing.",
+  "zh": "今天，我不认为这是一件大事。"
+ },
+ {
+  "seg": 763,
+  "start": 2598.448,
+  "end": 2599.929,
+  "speaker": "Daniel McKinnon",
+  "en": "The labs don't really publish anymore.",
+  "zh": "各个实验室不再发布了。"
+ },
+ {
+  "seg": 764,
+  "start": 2599.969,
+  "end": 2601.5809999999997,
+  "speaker": "Daniel McKinnon",
+  "en": "I don't think there's a lot known about this.",
+  "zh": "我认为关于这一点知之甚少。"
+ },
+ {
+  "seg": 765,
+  "start": 2601.631,
+  "end": 2602.812,
+  "speaker": "Daniel McKinnon",
+  "en": "In my personal experience,",
+  "zh": "根据我的个人经验，"
+ },
+ {
+  "seg": 766,
+  "start": 2602.832,
+  "end": 2605.774,
+  "speaker": "Daniel McKinnon",
+  "en": "I've not found that running the same prompt through",
+  "zh": "我没有发现将相同的提示词多次"
+ },
+ {
+  "seg": 767,
+  "start": 2605.794,
+  "end": 2608.1059999999998,
+  "speaker": "Daniel McKinnon",
+  "en": "the model multiple times generates different answers.",
+  "zh": "传入模型会产生不同的答案。"
+ },
+ {
+  "seg": 768,
+  "start": 2608.156,
+  "end": 2608.416,
+  "speaker": "Daniel McKinnon",
+  "en": "In fact,",
+  "zh": "事实上，"
+ },
+ {
+  "seg": 769,
+  "start": 2608.456,
+  "end": 2610.448,
+  "speaker": "Daniel McKinnon",
+  "en": "I don't know if I've ever seen that for this task,",
+  "zh": "我不知道我是否在这个任务中见过这种情况，"
+ },
+ {
+  "seg": 770,
+  "start": 2610.498,
+  "end": 2613.991,
+  "speaker": "Daniel McKinnon",
+  "en": "but it's a really, really good thing to do and you should test for your use case.",
+  "zh": "但这是一件非常非常好的事情，你应该针对你的用例进行测试。"
+ },
+ {
+  "seg": 771,
+  "start": 2614.041,
+  "end": 2618.124,
+  "speaker": "Daniel McKinnon",
+  "en": "Little side conversation while we look at the answers.",
+  "zh": "在我们看答案的时候进行一个小小的副对话。"
+ },
+ {
+  "seg": 772,
+  "start": 2618.405,
+  "end": 2620.182777777778,
+  "speaker": "Daniel McKinnon",
+  "en": "And we've got all these cooking.",
+  "zh": "我们所有这些都在运行中。"
+ },
+ {
+  "seg": 773,
+  "start": 2620.346,
+  "end": 2621.568222222222,
+  "speaker": "Daniel McKinnon",
+  "en": "These are all cooking.",
+  "zh": "这些都在运行中。"
+ },
+ {
+  "seg": 774,
+  "start": 2621.867,
+  "end": 2625.33,
+  "speaker": "Daniel McKinnon",
+  "en": "And we can see that 5.3 Spark finished first.",
+  "zh": "我们可以看到 5.3 Spark 最先完成。"
+ },
+ {
+  "seg": 775,
+  "start": 2625.531,
+  "end": 2626.7819999999997,
+  "speaker": "Daniel McKinnon",
+  "en": "This is actually why we did it.",
+  "zh": "这实际上就是我们这样做的原因。"
+ },
+ {
+  "seg": 776,
+  "start": 2626.832,
+  "end": 2629.474,
+  "speaker": "Daniel McKinnon",
+  "en": "And what you'll notice is it's totally wrong.",
+  "zh": "你会注意到它是完全错误的。"
+ },
+ {
+  "seg": 777,
+  "start": 2630.035,
+  "end": 2634.479,
+  "speaker": "Daniel McKinnon",
+  "en": "They found multiple variants, tbx1, myhsys, jag1.",
+  "zh": "他们发现了多个变异体，tbx1，myhsys，jag1。"
+ },
+ {
+  "seg": 778,
+  "start": 2634.779,
+  "end": 2637.702,
+  "speaker": "Daniel McKinnon",
+  "en": "You'll notice these aren't even genes of interest for us.",
+  "zh": "你会注意到这些甚至不是我们要感兴趣的基因。"
+ },
+ {
+  "seg": 779,
+  "start": 2637.742,
+  "end": 2639.844,
+  "speaker": "Daniel McKinnon",
+  "en": "These variants aren't even relevant.",
+  "zh": "这些变异体甚至不相关。"
+ },
+ {
+  "seg": 780,
+  "start": 2640.384,
+  "end": 2643.007,
+  "speaker": "Daniel McKinnon",
+  "en": "No high confidence variants.",
+  "zh": "没有高置信度的变异体。"
+ },
+ {
+  "seg": 781,
+  "start": 2643.807,
+  "end": 2646.807,
+  "speaker": "Daniel McKinnon",
+  "en": "So what we've done here is we've done the second step.",
+  "zh": "所以我们在这里做的是第二步。"
+ },
+ {
+  "seg": 782,
+  "start": 2647.723,
+  "end": 2650.276,
+  "speaker": "Daniel McKinnon",
+  "en": "In our process is we've established the floor.",
+  "zh": "在我们的流程中，我们已经确立了基准。"
+ },
+ {
+  "seg": 783,
+  "start": 2650.326,
+  "end": 2653.018,
+  "speaker": "Daniel McKinnon",
+  "en": "We found something easy, that cystic fibrosis gene.",
+  "zh": "我们发现了一些简单的东西，那个囊性纤维化基因。"
+ },
+ {
+  "seg": 784,
+  "start": 2653.068,
+  "end": 2657.333,
+  "speaker": "Daniel McKinnon",
+  "en": "Now we found the ceiling is this model didn't get it and plot twist,",
+  "zh": "现在我们发现上限是这个模型没有搞定，而且剧情反转，"
+ },
+ {
+  "seg": 785,
+  "start": 2657.393,
+  "end": 2660.776,
+  "speaker": "Daniel McKinnon",
+  "en": "no model on the planet gets this without like a very, very strong harness.",
+  "zh": "地球上没有模型能在没有非常、非常强的护栏的情况下搞定这个。"
+ },
+ {
+  "seg": 786,
+  "start": 2660.816,
+  "end": 2662.578,
+  "speaker": "Daniel McKinnon",
+  "en": "Again, I'm working on that very strong harness.",
+  "zh": "再次重申，我正在开发那个非常强的护栏。"
+ },
+ {
+  "seg": 787,
+  "start": 2662.598,
+  "end": 2665.631,
+  "speaker": "Daniel McKinnon",
+  "en": "So, you know, we can make systems get this, but this is hard.",
+  "zh": "所以，你知道，我们可以让系统搞定这个，但这很难。"
+ },
+ {
+  "seg": 788,
+  "start": 2665.681,
+  "end": 2670.2365555555557,
+  "speaker": "Daniel McKinnon",
+  "en": "And then you just kind of go through and it's almost like a binary search process.",
+  "zh": "然后你只需经历这个过程，这几乎就像是一个二分搜索过程。"
+ },
+ {
+  "seg": 789,
+  "start": 2670.546,
+  "end": 2676.555,
+  "speaker": "Daniel McKinnon",
+  "en": "Process where you say easy, medium, hard, and then just assemble a list of prompts.",
+  "zh": "你说简单、中等、困难，然后只是组装一个提示词列表的过程。"
+ },
+ {
+  "seg": 790,
+  "start": 2676.795,
+  "end": 2677.016,
+  "speaker": "Daniel McKinnon",
+  "en": "You know,",
+  "zh": "你知道，"
+ },
+ {
+  "seg": 791,
+  "start": 2677.056,
+  "end": 2678.9448888888887,
+  "speaker": "Daniel McKinnon",
+  "en": "you might have a hundred of these,",
+  "zh": "你可能有一百个这样的，"
+ },
+ {
+  "seg": 792,
+  "start": 2679.019,
+  "end": 2680.451,
+  "speaker": "Daniel McKinnon",
+  "en": "which again would be phenotype gene,",
+  "zh": "这又是表型基因，"
+ },
+ {
+  "seg": 793,
+  "start": 2680.501,
+  "end": 2684.9454444444445,
+  "speaker": "Daniel McKinnon",
+  "en": "phenotype gene, phenotype gene, and then you understand how the models do on it.",
+  "zh": "表型基因，表型基因，然后你理解模型在这方面表现如何。"
+ },
+ {
+  "seg": 794,
+  "start": 2685.244,
+  "end": 2686.055,
+  "speaker": "Daniel McKinnon",
+  "en": "And then you're done.",
+  "zh": "然后你就完成了。"
+ },
+ {
+  "seg": 795,
+  "start": 2686.105,
+  "end": 2687.377,
+  "speaker": "Daniel McKinnon",
+  "en": "And then you have your eval.",
+  "zh": "然后你就有了你的评估。"
+ },
+ {
+  "seg": 796,
+  "start": 2687.427,
+  "end": 2692.053,
+  "speaker": "Daniel McKinnon",
+  "en": "And then you understand what is good enough to actually ship product.",
+  "zh": "然后你理解什么足够好才能实际发布产品。"
+ },
+ {
+  "seg": 797,
+  "start": 2692.473,
+  "end": 2696.195222222222,
+  "speaker": "Daniel McKinnon",
+  "en": "So if you're scoring 50%, is that good enough to ship your product?",
+  "zh": "所以如果你的得分是 50%，这足够好发布你的产品吗？"
+ },
+ {
+  "seg": 798,
+  "start": 2696.318,
+  "end": 2697.3089999999997,
+  "speaker": "Daniel McKinnon",
+  "en": "Probably not.",
+  "zh": "可能不。"
+ },
+ {
+  "seg": 799,
+  "start": 2697.359,
+  "end": 2700.703,
+  "speaker": "Daniel McKinnon",
+  "en": "So then you look at which phenotypes am I better at?",
+  "zh": "然后你看我在哪些表型上表现更好？"
+ },
+ {
+  "seg": 800,
+  "start": 2700.904,
+  "end": 2705.243,
+  "speaker": "Daniel McKinnon",
+  "en": "Maybe you put guardrails on the product to make sure that Only will answer the types",
+  "zh": "也许你在产品上设置护栏以确保 Only 回答这些类型"
+ },
+ {
+  "seg": 801,
+  "start": 2705.283,
+  "end": 2708.084,
+  "speaker": "Daniel McKinnon",
+  "en": "of questions that it can get 80% on or something like that.",
+  "zh": "的问题，即它能达到 80% 准确率或类似水平的问题。"
+ },
+ {
+  "seg": 802,
+  "start": 2708.104,
+  "end": 2709.225,
+  "speaker": "Daniel McKinnon",
+  "en": "That's a product decision.",
+  "zh": "那是一个产品决策。"
+ },
+ {
+  "seg": 803,
+  "start": 2709.245,
+  "end": 2711.856111111111,
+  "speaker": "Daniel McKinnon",
+  "en": "That's a product manager's decision to do that.",
+  "zh": "那是产品经理做出的决策。"
+ },
+ {
+  "seg": 804,
+  "start": 2712.025,
+  "end": 2715.426,
+  "speaker": "Daniel McKinnon",
+  "en": "And then you also hand all the hard ones to the research team and you say,",
+  "zh": "然后你还要把所有难题交给研究团队，你说，"
+ },
+ {
+  "seg": 805,
+  "start": 2715.466,
+  "end": 2717.287,
+  "speaker": "Daniel McKinnon",
+  "en": "hey, guys, you didn't get this.",
+  "zh": "嘿，伙计们，这个没做对。"
+ },
+ {
+  "seg": 806,
+  "start": 2717.707,
+  "end": 2721.798,
+  "speaker": "Daniel McKinnon",
+  "en": "Fix the model or fix the harness and make sure that it can get these in the future",
+  "zh": "修复模型或修复工具，确保它将来能处理这些"
+ },
+ {
+  "seg": 807,
+  "start": 2721.848,
+  "end": 2724.5146666666665,
+  "speaker": "Daniel McKinnon",
+  "en": "so I can ship a product with these capabilities.",
+  "zh": "这样我就能发布具备这些能力的产品。"
+ },
+ {
+  "seg": 808,
+  "start": 2725.91,
+  "end": 2729.015,
+  "speaker": "Daniel McKinnon",
+  "en": "Not shockingly, haiku is totally off base.",
+  "zh": "并不令人惊讶的是，haiku 完全离谱。"
+ },
+ {
+  "seg": 809,
+  "start": 2729.676,
+  "end": 2733.822,
+  "speaker": "Daniel McKinnon",
+  "en": "Clearly, haiku is not good at all at this task.",
+  "zh": "显然，haiku 根本不擅长这项任务。"
+ },
+ {
+  "seg": 810,
+  "start": 2734.002,
+  "end": 2735.765,
+  "speaker": "Daniel McKinnon",
+  "en": "So that's surprising.",
+  "zh": "所以这很令人意外。"
+ },
+ {
+  "seg": 811,
+  "start": 2735.925,
+  "end": 2736.446,
+  "speaker": "Daniel McKinnon",
+  "en": "It's the first one.",
+  "zh": "这是第一个。"
+ },
+ {
+  "seg": 812,
+  "start": 2736.466,
+  "end": 2736.906,
+  "speaker": "Daniel McKinnon",
+  "en": "Not surprising.",
+  "zh": "并不令人意外。"
+ },
+ {
+  "seg": 813,
+  "start": 2736.927,
+  "end": 2737.467,
+  "speaker": "Daniel McKinnon",
+  "en": "It's this one.",
+  "zh": "是这个。"
+ },
+ {
+  "seg": 814,
+  "start": 2737.487,
+  "end": 2739.01,
+  "speaker": "Daniel McKinnon",
+  "en": "And we, again...",
+  "zh": "我们，再次……"
+ },
+ {
+  "seg": 815,
+  "start": 2740.472,
+  "end": 2743.249777777778,
+  "speaker": "Daniel McKinnon",
+  "en": "We have, oh my God, okay, this is so interesting.",
+  "zh": "我们有，天哪，好吧，这太有意思了。"
+ },
+ {
+  "seg": 816,
+  "start": 2743.336,
+  "end": 2748.804,
+  "speaker": "Daniel McKinnon",
+  "en": "Okay, so this is actually a good example of something that came out and sampled",
+  "zh": "好的，这实际上是一个很好的例子，关于某个结果生成出来并"
+ },
+ {
+  "seg": 817,
+  "start": 2748.844,
+  "end": 2750.727,
+  "speaker": "Daniel McKinnon",
+  "en": "a second time and worked because I actually tried this.",
+  "zh": "重新采样后成功了，因为我实际上试过这个。"
+ },
+ {
+  "seg": 818,
+  "start": 2750.747,
+  "end": 2752.339,
+  "speaker": "Daniel McKinnon",
+  "en": "We were just talking about sampling,",
+  "zh": "我们刚才在谈论采样，"
+ },
+ {
+  "seg": 819,
+  "start": 2752.389,
+  "end": 2753.931,
+  "speaker": "Daniel McKinnon",
+  "en": "but we can see right now",
+  "zh": "但我们现在可以看到"
+ },
+ {
+  "seg": 820,
+  "start": 2754.492,
+  "end": 2761.492,
+  "speaker": "Daniel McKinnon",
+  "en": "that GPT 5.5 extra high this time actually did identify this diagenic pairs",
+  "zh": "GPT 5.5 extra high 这次实际上确实识别出了这组致病基因对"
+ },
+ {
+  "seg": 821,
+  "start": 2762.72,
+  "end": 2765.202,
+  "speaker": "Daniel McKinnon",
+  "en": "and it did almost certainly find the paper.",
+  "zh": "并且几乎肯定找到了那篇论文。"
+ },
+ {
+  "seg": 822,
+  "start": 2765.442,
+  "end": 2768.825,
+  "speaker": "Daniel McKinnon",
+  "en": "Yeah, so it did find the paper with all these diagenic pairs.",
+  "zh": "是的，所以它确实找到了那篇包含所有这些致病基因对的论文。"
+ },
+ {
+  "seg": 823,
+  "start": 2768.845,
+  "end": 2772.4379999999996,
+  "speaker": "Daniel McKinnon",
+  "en": "So this is actually a very interesting reasoning trace where it was able",
+  "zh": "所以这实际上是一个非常有趣的推理轨迹，它能够"
+ },
+ {
+  "seg": 824,
+  "start": 2772.488,
+  "end": 2779.488,
+  "speaker": "Daniel McKinnon",
+  "en": "to turn this congenital heart defect Phenotype into a search for",
+  "zh": "将这种先天性心脏缺陷表型转化为搜索"
+ },
+ {
+  "seg": 825,
+  "start": 2779.827,
+  "end": 2783.751,
+  "speaker": "Daniel McKinnon",
+  "en": "a very specific paper and then pull out the results from this paper.",
+  "zh": "一篇非常具体的论文，然后从这篇论文中提取结果。"
+ },
+ {
+  "seg": 826,
+  "start": 2784.071,
+  "end": 2790.476,
+  "speaker": "Daniel McKinnon",
+  "en": "So actually, this is quite impressive from GPT 5.5, but this is correct.",
+  "zh": "所以实际上，这对于 GPT 5.5 来说相当令人印象深刻，但这确实是正确的。"
+ },
+ {
+  "seg": 827,
+  "start": 2790.876,
+  "end": 2791.917,
+  "speaker": "Daniel McKinnon",
+  "en": "So in this case,",
+  "zh": "所以在这种情况下，"
+ },
+ {
+  "seg": 828,
+  "start": 2791.957,
+  "end": 2795.14,
+  "speaker": "Daniel McKinnon",
+  "en": "I would have to find an even harder one if I were benchmarking this model",
+  "zh": "如果我要对这个模型进行基准测试，我不得不找一个更难的"
+ },
+ {
+  "seg": 829,
+  "start": 2795.16,
+  "end": 2796.16,
+  "speaker": "Daniel McKinnon",
+  "en": "in particular.",
+  "zh": "特定的。"
+ },
+ {
+  "seg": 830,
+  "start": 2796.281,
+  "end": 2798.383,
+  "speaker": "Daniel McKinnon",
+  "en": "But this is basically...",
+  "zh": "但这基本上是……"
+ },
+ {
+  "seg": 831,
+  "start": 2799.043,
+  "end": 2800.966,
+  "speaker": "Daniel McKinnon",
+  "en": "The key set of steps,",
+  "zh": "关键的一组步骤，"
+ },
+ {
+  "seg": 832,
+  "start": 2801.046,
+  "end": 2802.869,
+  "speaker": "Daniel McKinnon",
+  "en": "and I don't think we have time to do a bunch more,",
+  "zh": "而且我不认为我们有时间做更多，"
+ },
+ {
+  "seg": 833,
+  "start": 2802.909,
+  "end": 2806.765,
+  "speaker": "Daniel McKinnon",
+  "en": "but it's basically running through all the different types of scenarios and",
+  "zh": "但这基本上是遍历所有不同类型的场景并"
+ },
+ {
+  "seg": 834,
+  "start": 2806.815,
+  "end": 2810.66,
+  "speaker": "Daniel McKinnon",
+  "en": "then coming up with prompts that will challenge the model,",
+  "zh": "然后提出一些挑战模型的提示词，"
+ },
+ {
+  "seg": 835,
+  "start": 2811.081,
+  "end": 2813.485,
+  "speaker": "Daniel McKinnon",
+  "en": "but not totally stump the model.",
+  "zh": "但不会彻底难住模型。"
+ },
+ {
+  "seg": 836,
+  "start": 2814.025,
+  "end": 2817.687,
+  "speaker": "Daniel McKinnon",
+  "en": "So yeah, with that, that's how you write an agentic eval.",
+  "zh": "所以是的，以此，这就是你编写智能体评估的方法。"
+ },
+ {
+  "seg": 837,
+  "start": 2817.707,
+  "end": 2820.328,
+  "speaker": "Daniel McKinnon",
+  "en": "And here's two lines in our new one.",
+  "zh": "这是我们新评估中的两行。"
+ },
+ {
+  "seg": 838,
+  "start": 2820.688,
+  "end": 2821.078,
+  "speaker": "Daniel McKinnon",
+  "en": "Wow.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 839,
+  "start": 2821.128,
+  "end": 2823.029,
+  "speaker": "Akash",
+  "en": "So it's just a spreadsheet.",
+  "zh": "所以它只是一个电子表格。"
+ },
+ {
+  "seg": 840,
+  "start": 2823.169,
+  "end": 2827.431,
+  "speaker": "Akash",
+  "en": "And the key thing here is the domain subject matter expertise.",
+  "zh": "这里的关键是领域专业知识。"
+ },
+ {
+  "seg": 841,
+  "start": 2828.152,
+  "end": 2832.133,
+  "speaker": "Akash",
+  "en": "It's not like how it's written or anything like that.",
+  "zh": "它不像它是如何写出来的或类似的东西。"
+ },
+ {
+  "seg": 842,
+  "start": 2832.153,
+  "end": 2836.7459999999996,
+  "speaker": "Akash",
+  "en": "You're not giving us an eval template like we might have given people a PRD template before.",
+  "zh": "你没有给我们一个评估模板，就像我们以前可能给过人们 PRD 模板那样。"
+ },
+ {
+  "seg": 843,
+  "start": 2836.796,
+  "end": 2839.9519999999998,
+  "speaker": "Akash",
+  "en": "It's really the subject matter expertise that's driving all of this.",
+  "zh": "确实是专业知识在驱动这一切。"
+ },
+ {
+  "seg": 844,
+  "start": 2840.002,
+  "end": 2840.932,
+  "speaker": "Daniel McKinnon",
+  "en": "Yeah, exactly.",
+  "zh": "是的，没错。"
+ },
+ {
+  "seg": 845,
+  "start": 2840.982,
+  "end": 2844.423,
+  "speaker": "Daniel McKinnon",
+  "en": "There are a lot of companies over the last,",
+  "zh": "在过去，"
+ },
+ {
+  "seg": 846,
+  "start": 2844.723,
+  "end": 2848.764,
+  "speaker": "Daniel McKinnon",
+  "en": "you know, N years who have tried to build better tools for evals.",
+  "zh": "你知道，N 年里，有很多公司试图建立更好的评估工具。"
+ },
+ {
+  "seg": 847,
+  "start": 2848.884,
+  "end": 2851.885,
+  "speaker": "Daniel McKinnon",
+  "en": "And I'm not saying that tools for evals don't need to exist.",
+  "zh": "我并不是说评估工具不需要存在。"
+ },
+ {
+  "seg": 848,
+  "start": 2851.905,
+  "end": 2853.793888888889,
+  "speaker": "Daniel McKinnon",
+  "en": "There's plenty of ways to improve.",
+  "zh": "有很多改进的方法。"
+ },
+ {
+  "seg": 849,
+  "start": 2853.886,
+  "end": 2855.9759999999997,
+  "speaker": "Daniel McKinnon",
+  "en": "But when you're creating evals like this,",
+  "zh": "但当你像这样创建评估时，"
+ },
+ {
+  "seg": 850,
+  "start": 2856.026,
+  "end": 2857.867,
+  "speaker": "Daniel McKinnon",
+  "en": "it is literally just prompts,",
+  "zh": "它实际上只是提示词,"
+ },
+ {
+  "seg": 851,
+  "start": 2858.587,
+  "end": 2862.788,
+  "speaker": "Daniel McKinnon",
+  "en": "responses, and ways of scoring whether response is correct.",
+  "zh": "响应,以及判断响应是否正确的方法。"
+ },
+ {
+  "seg": 852,
+  "start": 2863.067,
+  "end": 2863.997,
+  "speaker": "Akash",
+  "en": "Fascinating.",
+  "zh": "太迷人了。"
+ },
+ {
+  "seg": 853,
+  "start": 2864.047,
+  "end": 2866.038,
+  "speaker": "Akash",
+  "en": "So just to bring it all back full circle,",
+  "zh": "所以只是为了把它完整地带回到原点,"
+ },
+ {
+  "seg": 854,
+  "start": 2866.088,
+  "end": 2869.0989999999997,
+  "speaker": "Akash",
+  "en": "if you're a PM who's never worked on an AI feature before,",
+  "zh": "如果你是一个从未做过 AI 功能的 PM,"
+ },
+ {
+  "seg": 855,
+  "start": 2869.149,
+  "end": 2872.51,
+  "speaker": "Akash",
+  "en": "when would you be going through this evals process and when wouldn't you",
+  "zh": "什么时候你会经历这个 evals 流程,什么时候不会"
+ },
+ {
+  "seg": 856,
+  "start": 2872.55,
+  "end": 2873.821,
+  "speaker": "Akash",
+  "en": "and how would you be using it?",
+  "zh": "以及你会如何使用它?"
+ },
+ {
+  "seg": 857,
+  "start": 2873.871,
+  "end": 2875.611,
+  "speaker": "Daniel McKinnon",
+  "en": "Yeah, that's a good question.",
+  "zh": "是的,这是个好问题。"
+ },
+ {
+  "seg": 858,
+  "start": 2875.911,
+  "end": 2879.633,
+  "speaker": "Daniel McKinnon",
+  "en": "So if you've never worked on an AI feature before,",
+  "zh": "所以如果你从未做过 AI 功能,"
+ },
+ {
+  "seg": 859,
+  "start": 2879.953,
+  "end": 2883.8239999999996,
+  "speaker": "Daniel McKinnon",
+  "en": "I would actually try to find somebody who has, who can help you through this.",
+  "zh": "我实际上会试着找一个做过的人,他可以帮助你度过这一关。"
+ },
+ {
+  "seg": 860,
+  "start": 2883.874,
+  "end": 2885.374,
+  "speaker": "Daniel McKinnon",
+  "en": "This is deceptively simple.",
+  "zh": "这具有欺骗性的简单。"
+ },
+ {
+  "seg": 861,
+  "start": 2885.475,
+  "end": 2888.697222222222,
+  "speaker": "Daniel McKinnon",
+  "en": "I made this really simple because we had 45 minutes today.",
+  "zh": "我把它做得非常简单,因为我们今天只有 45 分钟。"
+ },
+ {
+  "seg": 862,
+  "start": 2889.036,
+  "end": 2891.757,
+  "speaker": "Daniel McKinnon",
+  "en": "But And I don't know why it's so complex.",
+  "zh": "但 我不知道为什么它如此复杂。"
+ },
+ {
+  "seg": 863,
+  "start": 2891.897,
+  "end": 2892.338,
+  "speaker": "Daniel McKinnon",
+  "en": "Honestly,",
+  "zh": "老实说,"
+ },
+ {
+  "seg": 864,
+  "start": 2892.378,
+  "end": 2892.898,
+  "speaker": "Daniel McKinnon",
+  "en": "I had many,",
+  "zh": "我有过很多"
+ },
+ {
+  "seg": 865,
+  "start": 2892.938,
+  "end": 2895.199,
+  "speaker": "Daniel McKinnon",
+  "en": "many conversations with people about how to build evals,",
+  "zh": "关于如何构建 evals 的对话,"
+ },
+ {
+  "seg": 866,
+  "start": 2895.219,
+  "end": 2899.361,
+  "speaker": "Daniel McKinnon",
+  "en": "but there's just something kind of like taste-based or nuanced about how",
+  "zh": "但是关于如何"
+ },
+ {
+  "seg": 867,
+  "start": 2899.401,
+  "end": 2900.232,
+  "speaker": "Daniel McKinnon",
+  "en": "to build them.",
+  "zh": "构建 evals,有一些基于品味或微妙之处的东西。"
+ },
+ {
+  "seg": 868,
+  "start": 2900.282,
+  "end": 2903.5939999999996,
+  "speaker": "Daniel McKinnon",
+  "en": "And, you know, it is what it is, but find somebody who can help you.",
+  "zh": "而且,你知道,就是这样,找个人来帮你。"
+ },
+ {
+  "seg": 869,
+  "start": 2903.644,
+  "end": 2906.305,
+  "speaker": "Daniel McKinnon",
+  "en": "But I would say you start from the beginning.",
+  "zh": "但我想说你应该从头开始。"
+ },
+ {
+  "seg": 870,
+  "start": 2906.325,
+  "end": 2908.746,
+  "speaker": "Daniel McKinnon",
+  "en": "It's like, you are building an AI feature.",
+  "zh": "就像,你正在构建一个 AI 功能。"
+ },
+ {
+  "seg": 871,
+  "start": 2909.107,
+  "end": 2910.7169999999996,
+  "speaker": "Daniel McKinnon",
+  "en": "Like, I don't know, I'm just making it up.",
+  "zh": "比如,我不知道,我只是现编的。"
+ },
+ {
+  "seg": 872,
+  "start": 2910.767,
+  "end": 2914.529,
+  "speaker": "Daniel McKinnon",
+  "en": "You work at Pinterest and you want to have a better image generation",
+  "zh": "你在 Pinterest 工作,你想要有一个更好的图像生成"
+ },
+ {
+  "seg": 873,
+  "start": 2914.549,
+  "end": 2917.1409999999996,
+  "speaker": "Daniel McKinnon",
+  "en": "that doesn't look like slop that actually pleases users.",
+  "zh": "它看起来不像垃圾,实际上能取悦用户。"
+ },
+ {
+  "seg": 874,
+  "start": 2917.191,
+  "end": 2919.4687777777776,
+  "speaker": "Daniel McKinnon",
+  "en": "So it's like an image generation feature.",
+  "zh": "所以这就像是一个图像生成功能。"
+ },
+ {
+  "seg": 875,
+  "start": 2919.847,
+  "end": 2924.788,
+  "speaker": "Daniel McKinnon",
+  "en": "You need to think about from day zero, what does success look like?",
+  "zh": "你需要从第零天开始思考,成功是什么样子的?"
+ },
+ {
+  "seg": 876,
+  "start": 2925.369,
+  "end": 2927.757888888889,
+  "speaker": "Daniel McKinnon",
+  "en": "What is unique about those Pinterest users?",
+  "zh": "那些 Pinterest 用户有什么独特之处?"
+ },
+ {
+  "seg": 877,
+  "start": 2928.069,
+  "end": 2929.4578888888886,
+  "speaker": "Daniel McKinnon",
+  "en": "What do they want to see?",
+  "zh": "他们想看到什么?"
+ },
+ {
+  "seg": 878,
+  "start": 2929.61,
+  "end": 2930.9399999999996,
+  "speaker": "Daniel McKinnon",
+  "en": "And you need to translate that.",
+  "zh": "你需要把它转化过来。"
+ },
+ {
+  "seg": 879,
+  "start": 2930.99,
+  "end": 2934.871,
+  "speaker": "Daniel McKinnon",
+  "en": "You can't just write down a PRD and say they want beautiful kitchens.",
+  "zh": "你不能只是写下一份 PRD 然后说他们想要漂亮的厨房。"
+ },
+ {
+  "seg": 880,
+  "start": 2935.371,
+  "end": 2940.3154444444444,
+  "speaker": "Daniel McKinnon",
+  "en": "You have to explicitly define what a beautiful kitchen is and Not in words, in examples.",
+  "zh": "你必须明确定义什么是漂亮的厨房,而且不是用文字,是用例子。"
+ },
+ {
+  "seg": 881,
+  "start": 2940.532,
+  "end": 2942.420888888889,
+  "speaker": "Daniel McKinnon",
+  "en": "And a way to score those examples.",
+  "zh": "以及一种给这些例子打分的方法。"
+ },
+ {
+  "seg": 882,
+  "start": 2942.633,
+  "end": 2947.577444444444,
+  "speaker": "Daniel McKinnon",
+  "en": "And I am not in the image generation space, so I don't exactly know what that looks like.",
+  "zh": "而且我不在图像生成领域,所以我不完全知道那是什么样子的。"
+ },
+ {
+  "seg": 883,
+  "start": 2947.714,
+  "end": 2948.734,
+  "speaker": "Daniel McKinnon",
+  "en": "But there are many, many,",
+  "zh": "但是有很多很多"
+ },
+ {
+  "seg": 884,
+  "start": 2948.774,
+  "end": 2953.135,
+  "speaker": "Daniel McKinnon",
+  "en": "many examples like this where you need to understand what the user wants",
+  "zh": "很多这样的例子,你需要了解用户想要什么"
+ },
+ {
+  "seg": 885,
+  "start": 2953.235,
+  "end": 2957.526,
+  "speaker": "Daniel McKinnon",
+  "en": "and translate that into prompts and responses and a way to score those responses.",
+  "zh": "并将其转化为提示词和响应以及给这些响应打分的方法。"
+ },
+ {
+  "seg": 886,
+  "start": 2957.576,
+  "end": 2960.988,
+  "speaker": "Daniel McKinnon",
+  "en": "And that is the first thing you should do when you're starting to build a new AI feature.",
+  "zh": "这是你在开始构建新 AI 功能时应该做的第一件事。"
+ },
+ {
+  "seg": 887,
+  "start": 2961.038,
+  "end": 2961.418,
+  "speaker": "Akash",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 888,
+  "start": 2961.438,
+  "end": 2965.215777777778,
+  "speaker": "Akash",
+  "en": "So just like you have ramped up your expertise in the genomic space,",
+  "zh": "所以就像你在基因组领域提升了你的专业知识一样,"
+ },
+ {
+  "seg": 889,
+  "start": 2965.441,
+  "end": 2966.582,
+  "speaker": "Akash",
+  "en": "if you were tackling that problem,",
+  "zh": "如果你在解决这个问题,"
+ },
+ {
+  "seg": 890,
+  "start": 2966.602,
+  "end": 2970.965,
+  "speaker": "Akash",
+  "en": "you'd go learn, you'd go talk to people who have built image and evals.",
+  "zh": "你会去学习,你会去和构建过图像和 evals 的人交谈。"
+ },
+ {
+  "seg": 891,
+  "start": 2970.985,
+  "end": 2976.089,
+  "speaker": "Akash",
+  "en": "You'd understand, oh, this is how I build an LLM judge that generates images of this type.",
+  "zh": "你会明白,哦,这就是我构建一个生成此类图像的 LLM judge 的方法。"
+ },
+ {
+  "seg": 892,
+  "start": 2976.149,
+  "end": 2979.151,
+  "speaker": "Akash",
+  "en": "And then that would really be the basis for your eval.",
+  "zh": "然后那真的会成为你 eval 的基础。"
+ },
+ {
+  "seg": 893,
+  "start": 2979.331,
+  "end": 2980.082,
+  "speaker": "Daniel McKinnon",
+  "en": "Yep, that's correct.",
+  "zh": "是的,没错。"
+ },
+ {
+  "seg": 894,
+  "start": 2980.132,
+  "end": 2980.452,
+  "speaker": "Akash",
+  "en": "Okay.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 895,
+  "start": 2980.492,
+  "end": 2980.772,
+  "speaker": "Akash",
+  "en": "Wow.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 896,
+  "start": 2980.812,
+  "end": 2982.914,
+  "speaker": "Akash",
+  "en": "There's so much, so many layers.",
+  "zh": "有太多了,有太多层次了。"
+ },
+ {
+  "seg": 897,
+  "start": 2982.974,
+  "end": 2985.395,
+  "speaker": "Akash",
+  "en": "I've done like five or six episodes on evals,",
+  "zh": "我做过大约五六个关于 evals 的节目,"
+ },
+ {
+  "seg": 898,
+  "start": 2985.415,
+  "end": 2987.657,
+  "speaker": "Akash",
+  "en": "but I think this was one of the most tactical",
+  "zh": "但我认为这是最战术性的之一"
+ },
+ {
+  "seg": 899,
+  "start": 2987.697,
+  "end": 2991.019,
+  "speaker": "Akash",
+  "en": "that really helped me understand How things change.",
+  "zh": "真正帮助我理解了事情是如何变化的。"
+ },
+ {
+  "seg": 900,
+  "start": 2991.039,
+  "end": 2995.7909999999997,
+  "speaker": "Akash",
+  "en": "And I think that's a function of your experience, which I wanted to talk about for a little bit.",
+  "zh": "我认为这是你经验的功劳，我想稍微聊聊这一点。"
+ },
+ {
+  "seg": 901,
+  "start": 2995.841,
+  "end": 2999.122,
+  "speaker": "Akash",
+  "en": "So your evals piece crossed my radar.",
+  "zh": "所以你的评估那篇文章引起了我的注意。"
+ },
+ {
+  "seg": 902,
+  "start": 2999.223,
+  "end": 3005.585,
+  "speaker": "Akash",
+  "en": "I think another really interesting piece you wrote about was product management",
+  "zh": "我认为你写的另一篇非常有趣的文章是关于产品管理的"
+ },
+ {
+  "seg": 903,
+  "start": 3005.725,
+  "end": 3007.086,
+  "speaker": "Akash",
+  "en": "at Meta versus Google.",
+  "zh": "在 Meta 对比 Google。"
+ },
+ {
+  "seg": 904,
+  "start": 3007.126,
+  "end": 3008.247,
+  "speaker": "Akash",
+  "en": "You've worked on Gemini.",
+  "zh": "你参与过 Gemini 的工作。"
+ },
+ {
+  "seg": 905,
+  "start": 3008.267,
+  "end": 3009.307,
+  "speaker": "Akash",
+  "en": "You've worked on Llama.",
+  "zh": "你参与过 Llama 的工作。"
+ },
+ {
+  "seg": 906,
+  "start": 3009.327,
+  "end": 3011.508,
+  "speaker": "Akash",
+  "en": "You've seen both of these cultures.",
+  "zh": "你见识过这两种文化。"
+ },
+ {
+  "seg": 907,
+  "start": 3012.348,
+  "end": 3016.076,
+  "speaker": "Akash",
+  "en": "What really is the difference between product management at Meta versus Google?",
+  "zh": "Meta 和 Google 的产品管理到底有什么区别？"
+ },
+ {
+  "seg": 908,
+  "start": 3016.126,
+  "end": 3016.326,
+  "speaker": "Daniel McKinnon",
+  "en": "Yeah,",
+  "zh": "是的，"
+ },
+ {
+  "seg": 909,
+  "start": 3016.346,
+  "end": 3020.991,
+  "speaker": "Daniel McKinnon",
+  "en": "so I would caveat that and say I wrote this like two and a half years ago and I was",
+  "zh": "所以我想加个说明，那篇文章是我大概两年半前写的，而且我想我"
+ },
+ {
+  "seg": 910,
+  "start": 3021.072,
+  "end": 3023.627555555556,
+  "speaker": "Daniel McKinnon",
+  "en": "at Google three and a half years ago, I think.",
+  "zh": "大概三年半前就离开 Google 了。"
+ },
+ {
+  "seg": 911,
+  "start": 3023.895,
+  "end": 3025.236,
+  "speaker": "Daniel McKinnon",
+  "en": "So a lot has changed.",
+  "zh": "所以情况变了很多。"
+ },
+ {
+  "seg": 912,
+  "start": 3025.577,
+  "end": 3028.42,
+  "speaker": "Daniel McKinnon",
+  "en": "When I was at Google, Google was a dead company.",
+  "zh": "当我在 Google 时，Google 是一家死气沉沉的公司。"
+ },
+ {
+  "seg": 913,
+  "start": 3028.46,
+  "end": 3032.5155555555557,
+  "speaker": "Daniel McKinnon",
+  "en": "I think the stock fell to like $80 and I think it's 300 or 400 right now.",
+  "zh": "我想股价跌到了大概 80 美元，而现在我觉得是 300 或 400 美元。"
+ },
+ {
+  "seg": 914,
+  "start": 3033.565,
+  "end": 3036.3399999999997,
+  "speaker": "Daniel McKinnon",
+  "en": "And they've really changed how they think about things.",
+  "zh": "他们确实改变了思考问题的方式。"
+ },
+ {
+  "seg": 915,
+  "start": 3036.39,
+  "end": 3037.531,
+  "speaker": "Daniel McKinnon",
+  "en": "I am a boomerang, that is.",
+  "zh": "我是回旋镖员工，也就是说。"
+ },
+ {
+  "seg": 916,
+  "start": 3037.571,
+  "end": 3040.696,
+  "speaker": "Daniel McKinnon",
+  "en": "I think I spent seven years there in total.",
+  "zh": "我想我在那里总共待了七年。"
+ },
+ {
+  "seg": 917,
+  "start": 3041.117,
+  "end": 3041.828,
+  "speaker": "Daniel McKinnon",
+  "en": "And, you know,",
+  "zh": "而且，你知道，"
+ },
+ {
+  "seg": 918,
+  "start": 3041.878,
+  "end": 3046.004,
+  "speaker": "Daniel McKinnon",
+  "en": "I saw everything from Cambridge Analytica lows to highs",
+  "zh": "我见识过从 Cambridge Analytica 的低谷到"
+ },
+ {
+  "seg": 919,
+  "start": 3046.084,
+  "end": 3053.084,
+  "speaker": "Daniel McKinnon",
+  "en": "of like Lama 3 really wowing people So I saw a very large spectrum.",
+  "zh": "像 Llama 3 真正让人惊叹的高峰 所以我见识了非常广阔的光谱。"
+ },
+ {
+  "seg": 920,
+  "start": 3054.188,
+  "end": 3055.3546666666666,
+  "speaker": "Daniel McKinnon",
+  "en": "And what I would say,",
+  "zh": "而我想说的是，"
+ },
+ {
+  "seg": 921,
+  "start": 3055.409,
+  "end": 3061.29,
+  "speaker": "Daniel McKinnon",
+  "en": "like my key takeaways for what Google versus Meta was like is Meta is like a much,",
+  "zh": "我对 Google 对比 Meta 的主要收获是 Meta 是一种在很多方面"
+ },
+ {
+  "seg": 922,
+  "start": 3061.33,
+  "end": 3063.911,
+  "speaker": "Daniel McKinnon",
+  "en": "much more aggressive culture in many ways.",
+  "zh": "更加激进的文化。"
+ },
+ {
+  "seg": 923,
+  "start": 3064.211,
+  "end": 3067.552,
+  "speaker": "Daniel McKinnon",
+  "en": "I think that it comes from like the founder leadership",
+  "zh": "我认为这源于创始人领导"
+ },
+ {
+  "seg": 924,
+  "start": 3067.712,
+  "end": 3069.3219999999997,
+  "speaker": "Daniel McKinnon",
+  "en": "of Mark Zuckerberg is thinking,",
+  "zh": "Mark Zuckerberg 的思维方式，"
+ },
+ {
+  "seg": 925,
+  "start": 3069.372,
+  "end": 3071.312,
+  "speaker": "Daniel McKinnon",
+  "en": "He is the last man standing, well,",
+  "zh": "他是最后站立的人，嗯，"
+ },
+ {
+  "seg": 926,
+  "start": 3071.332,
+  "end": 3072.373,
+  "speaker": "Daniel McKinnon",
+  "en": "I guess besides Elon,",
+  "zh": "我想除了 Elon 之外，"
+ },
+ {
+  "seg": 927,
+  "start": 3072.413,
+  "end": 3075.353,
+  "speaker": "Daniel McKinnon",
+  "en": "but he is the last man standing who's got like,",
+  "zh": "但他是最后站立的人，拥有像，"
+ },
+ {
+  "seg": 928,
+  "start": 3075.473,
+  "end": 3075.653,
+  "speaker": "Daniel McKinnon",
+  "en": "you know,",
+  "zh": "你知道，"
+ },
+ {
+  "seg": 929,
+  "start": 3075.673,
+  "end": 3079.2839999999997,
+  "speaker": "Daniel McKinnon",
+  "en": "the founder leading a fan company who has utter and absolute control,",
+  "zh": "创始人领导一家热门公司并拥有完全和绝对控制权，"
+ },
+ {
+  "seg": 930,
+  "start": 3079.334,
+  "end": 3080.8039999999996,
+  "speaker": "Daniel McKinnon",
+  "en": "who's going to do what he wants.",
+  "zh": "做他自己想做的事。"
+ },
+ {
+  "seg": 931,
+  "start": 3080.854,
+  "end": 3084.8849999999998,
+  "speaker": "Daniel McKinnon",
+  "en": "And sometimes it's really empowering because he says, this is super important to me.",
+  "zh": "有时候这真的很让人振奋，因为他说，这对我来说超级重要。"
+ },
+ {
+  "seg": 932,
+  "start": 3084.935,
+  "end": 3088.165,
+  "speaker": "Daniel McKinnon",
+  "en": "You have all the resources in the world and you should go do it.",
+  "zh": "你们拥有世界上所有的资源，应该去把它做成。"
+ },
+ {
+  "seg": 933,
+  "start": 3088.215,
+  "end": 3090.486,
+  "speaker": "Daniel McKinnon",
+  "en": "And sometimes it's like not what you want.",
+  "zh": "有时候这又不是你想要的。"
+ },
+ {
+  "seg": 934,
+  "start": 3090.536,
+  "end": 3092.313777777778,
+  "speaker": "Daniel McKinnon",
+  "en": "For example, I worked on Lama 4.",
+  "zh": "例如，我做过 Llama 4。"
+ },
+ {
+  "seg": 935,
+  "start": 3092.376,
+  "end": 3093.4871111111115,
+  "speaker": "Daniel McKinnon",
+  "en": "Lama 4 had problems.",
+  "zh": "Llama 4 有问题。"
+ },
+ {
+  "seg": 936,
+  "start": 3093.616,
+  "end": 3096.247,
+  "speaker": "Daniel McKinnon",
+  "en": "I think the main problem was actually how it was evaluated.",
+  "zh": "我认为主要问题实际上是如何评估它的。"
+ },
+ {
+  "seg": 937,
+  "start": 3096.297,
+  "end": 3096.747,
+  "speaker": "Daniel McKinnon",
+  "en": "Huh.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 938,
+  "start": 3096.797,
+  "end": 3098.249,
+  "speaker": "Daniel McKinnon",
+  "en": "Funny, those emails are important.",
+  "zh": "有意思，那些邮件很重要。"
+ },
+ {
+  "seg": 939,
+  "start": 3098.299,
+  "end": 3100.272,
+  "speaker": "Daniel McKinnon",
+  "en": "If you want to read about that story, Google it.",
+  "zh": "如果你想了解那个故事，去 Google 一下。"
+ },
+ {
+  "seg": 940,
+  "start": 3100.322,
+  "end": 3101.834,
+  "speaker": "Daniel McKinnon",
+  "en": "I had nothing to do with that.",
+  "zh": "我跟那件事一点关系都没有。"
+ },
+ {
+  "seg": 941,
+  "start": 3101.884,
+  "end": 3103.807,
+  "speaker": "Daniel McKinnon",
+  "en": "And I loved working on Lama 4.",
+  "zh": "而且我喜欢做 Llama 4。"
+ },
+ {
+  "seg": 942,
+  "start": 3103.907,
+  "end": 3105.389,
+  "speaker": "Daniel McKinnon",
+  "en": "And Mark just said, you guys all suck.",
+  "zh": "Mark 只是说，你们这群人都很烂。"
+ },
+ {
+  "seg": 943,
+  "start": 3105.409,
+  "end": 3106.781,
+  "speaker": "Daniel McKinnon",
+  "en": "You need to go find new jobs.",
+  "zh": "你们得去找新工作了。"
+ },
+ {
+  "seg": 944,
+  "start": 3106.831,
+  "end": 3111.418,
+  "speaker": "Daniel McKinnon",
+  "en": "So basically, the whole Lama 4 team is gone because of, you know, Mark's...",
+  "zh": "所以基本上，整个 Llama 4 团队都没了，因为，你知道，Mark 的……"
+ },
+ {
+  "seg": 945,
+  "start": 3112.138,
+  "end": 3114.88,
+  "speaker": "Daniel McKinnon",
+  "en": "So I think that, you know, that cuts both ways.",
+  "zh": "所以我认为，你知道，这有利也有弊。"
+ },
+ {
+  "seg": 946,
+  "start": 3115.34,
+  "end": 3120.443,
+  "speaker": "Daniel McKinnon",
+  "en": "I'd say my overall preference is for like a very like high conviction founder led company.",
+  "zh": "我说我整体偏好是喜欢那种非常由高信念创始人领导的公司。"
+ },
+ {
+  "seg": 947,
+  "start": 3120.663,
+  "end": 3123.684,
+  "speaker": "Daniel McKinnon",
+  "en": "I actually have like incredible respect for Mark.",
+  "zh": "我其实对 Mark 有难以置信的敬意。"
+ },
+ {
+  "seg": 948,
+  "start": 3123.704,
+  "end": 3128.587,
+  "speaker": "Daniel McKinnon",
+  "en": "I've only met him a couple of times and every time has been just like,",
+  "zh": "我只见过他几次，每次都只是像，"
+ },
+ {
+  "seg": 949,
+  "start": 3128.607,
+  "end": 3130.178,
+  "speaker": "Daniel McKinnon",
+  "en": "wow, this is like a really smart guy.",
+  "zh": "哇，这真的是一个非常聪明的人。"
+ },
+ {
+  "seg": 950,
+  "start": 3130.228,
+  "end": 3132.259,
+  "speaker": "Daniel McKinnon",
+  "en": "But it creates a lot of problems too, right?",
+  "zh": "但这也制造了很多问题，对吧？"
+ },
+ {
+  "seg": 951,
+  "start": 3132.309,
+  "end": 3134.53,
+  "speaker": "Daniel McKinnon",
+  "en": "Because, you know, Google is much more consensus driven.",
+  "zh": "因为，你知道，谷歌更多的是共识驱动。"
+ },
+ {
+  "seg": 952,
+  "start": 3134.55,
+  "end": 3137.772,
+  "speaker": "Daniel McKinnon",
+  "en": "I think Google has much weaker product management function.",
+  "zh": "我认为谷歌的产品管理职能要弱得多。"
+ },
+ {
+  "seg": 953,
+  "start": 3137.812,
+  "end": 3139.6453333333334,
+  "speaker": "Daniel McKinnon",
+  "en": "At least it did when I was there.",
+  "zh": "至少我在那里的时候是这样。"
+ },
+ {
+  "seg": 954,
+  "start": 3140.253,
+  "end": 3140.433,
+  "speaker": "Daniel McKinnon",
+  "en": "You know,",
+  "zh": "你知道，"
+ },
+ {
+  "seg": 955,
+  "start": 3140.453,
+  "end": 3143.2239999999997,
+  "speaker": "Daniel McKinnon",
+  "en": "Google is considered to be more of an engineering led company,",
+  "zh": "谷歌被认为更多的是一家工程主导的公司，"
+ },
+ {
+  "seg": 956,
+  "start": 3143.274,
+  "end": 3145.825,
+  "speaker": "Daniel McKinnon",
+  "en": "whereas Meta is more of a product led company.",
+  "zh": "而 Meta 更多的是一家产品主导的公司。"
+ },
+ {
+  "seg": 957,
+  "start": 3145.875,
+  "end": 3148.375,
+  "speaker": "Daniel McKinnon",
+  "en": "At least that historically has been the case.",
+  "zh": "至少历史上情况一直如此。"
+ },
+ {
+  "seg": 958,
+  "start": 3148.436,
+  "end": 3152.337,
+  "speaker": "Daniel McKinnon",
+  "en": "And it was a really great experience working at both places.",
+  "zh": "在这两个地方工作真的很棒的体验。"
+ },
+ {
+  "seg": 959,
+  "start": 3152.377,
+  "end": 3153.948,
+  "speaker": "Daniel McKinnon",
+  "en": "I think I learned a lot from both places.",
+  "zh": "我从这两个地方学到了很多。"
+ },
+ {
+  "seg": 960,
+  "start": 3153.998,
+  "end": 3156.275777777778,
+  "speaker": "Daniel McKinnon",
+  "en": "I left both places with a lot of friends.",
+  "zh": "离开这两个地方时我也交了很多朋友。"
+ },
+ {
+  "seg": 961,
+  "start": 3156.339,
+  "end": 3161.42,
+  "speaker": "Daniel McKinnon",
+  "en": "And yeah, if you want to read like kind of this blog post actually pretty viral.",
+  "zh": "是的，如果你想读一下那篇博客文章，实际上它传播得很广。"
+ },
+ {
+  "seg": 962,
+  "start": 3161.44,
+  "end": 3165.852,
+  "speaker": "Daniel McKinnon",
+  "en": "If you want to read like kind of an interesting snapshot of what it was like in,",
+  "zh": "如果你想读一下关于这两个地方在比如说"
+ },
+ {
+  "seg": 963,
+  "start": 3165.902,
+  "end": 3169.1659999999997,
+  "speaker": "Daniel McKinnon",
+  "en": "say, 2023 between both of the places, you know, give it a read.",
+  "zh": "2023 年时的一个有趣快照，你知道，读一下吧。"
+ },
+ {
+  "seg": 964,
+  "start": 3169.216,
+  "end": 3170.9489999999996,
+  "speaker": "Akash",
+  "en": "Highly recommend it to everybody.",
+  "zh": "强烈推荐大家阅读。"
+ },
+ {
+  "seg": 965,
+  "start": 3170.999,
+  "end": 3173.913,
+  "speaker": "Akash",
+  "en": "As you guys can see, I'm itching to ask many more questions.",
+  "zh": "如你们所见，我迫不及待想问更多问题。"
+ },
+ {
+  "seg": 966,
+  "start": 3173.963,
+  "end": 3175.796,
+  "speaker": "Akash",
+  "en": "So Daniel, we're going to need to have you back.",
+  "zh": "所以 Daniel，我们需要请你回来。"
+ },
+ {
+  "seg": 967,
+  "start": 3175.846,
+  "end": 3177.859,
+  "speaker": "Akash",
+  "en": "Before you go, tell us a little bit about your startup.",
+  "zh": "在你走之前，跟我们多讲讲你的创业公司。"
+ },
+ {
+  "seg": 968,
+  "start": 3177.909,
+  "end": 3178.229,
+  "speaker": "Daniel McKinnon",
+  "en": "Oh, cool.",
+  "zh": "哦，酷。"
+ },
+ {
+  "seg": 969,
+  "start": 3178.269,
+  "end": 3178.81,
+  "speaker": "Daniel McKinnon",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 970,
+  "start": 3178.83,
+  "end": 3181.33,
+  "speaker": "Daniel McKinnon",
+  "en": "So I've started a company called Gamoff Labs.",
+  "zh": "所以我创办了一家叫 Gamoff Labs 的公司。"
+ },
+ {
+  "seg": 971,
+  "start": 3181.534,
+  "end": 3184.138,
+  "speaker": "Daniel McKinnon",
+  "en": "And as I hinted at during these evaluations,",
+  "zh": "正如我在这些评估中暗示的那样，"
+ },
+ {
+  "seg": 972,
+  "start": 3184.438,
+  "end": 3187.683,
+  "speaker": "Daniel McKinnon",
+  "en": "The core problem I want to solve is to make it much,",
+  "zh": "我想解决的核心问题是让全基因组测序"
+ },
+ {
+  "seg": 973,
+  "start": 3187.763,
+  "end": 3192.871,
+  "speaker": "Daniel McKinnon",
+  "en": "much easier to get whole genome sequencing into every single NICU in",
+  "zh": "变得更容易进入世界上每一个"
+ },
+ {
+  "seg": 974,
+  "start": 3192.891,
+  "end": 3193.891,
+  "speaker": "Daniel McKinnon",
+  "en": "the entire world.",
+  "zh": "NICU。"
+ },
+ {
+  "seg": 975,
+  "start": 3199.16,
+  "end": 3201.2155555555555,
+  "speaker": "Daniel McKinnon",
+  "en": "And I want to see them in, you know,",
+  "zh": "我想看到它们在，你知道，"
+ },
+ {
+  "seg": 976,
+  "start": 3219.806,
+  "end": 3220.806,
+  "speaker": "Daniel McKinnon",
+  "en": "Rural Arkansas,",
+  "zh": "阿肯色州的乡村，"
+ },
+ {
+  "seg": 977,
+  "start": 3220.868,
+  "end": 3221.868,
+  "speaker": "Daniel McKinnon",
+  "en": "rural India,",
+  "zh": "印度的乡村，"
+ },
+ {
+  "seg": 978,
+  "start": 3222.31,
+  "end": 3223.0009999999997,
+  "speaker": "Daniel McKinnon",
+  "en": "rural China,",
+  "zh": "中国的乡村，"
+ },
+ {
+  "seg": 979,
+  "start": 3223.051,
+  "end": 3227.287,
+  "speaker": "Daniel McKinnon",
+  "en": "all the places where this kind of life-saving technology is not being harnessed.",
+  "zh": "所有这种救命技术没有被利用的地方。"
+ },
+ {
+  "seg": 980,
+  "start": 3227.337,
+  "end": 3231.704,
+  "speaker": "Daniel McKinnon",
+  "en": "And my key thesis is that a lot of the human work involved",
+  "zh": "我的核心论点是，很多涉及"
+ },
+ {
+  "seg": 981,
+  "start": 3231.824,
+  "end": 3234.598,
+  "speaker": "Daniel McKinnon",
+  "en": "in interpreting these genomes could be augmented by AI.",
+  "zh": "解读这些基因组的人类工作可以由 AI 增强。"
+ },
+ {
+  "seg": 982,
+  "start": 3234.648,
+  "end": 3235.909,
+  "speaker": "Daniel McKinnon",
+  "en": "Again, this is small scale.",
+  "zh": "再次强调，这是小规模。"
+ },
+ {
+  "seg": 983,
+  "start": 3235.929,
+  "end": 3236.83,
+  "speaker": "Daniel McKinnon",
+  "en": "We started this five weeks ago.",
+  "zh": "我们五周前开始了这个。"
+ },
+ {
+  "seg": 984,
+  "start": 3236.85,
+  "end": 3241.2388888888886,
+  "speaker": "Daniel McKinnon",
+  "en": "So, you know, but one person is really crazy to have that impact on their life.",
+  "zh": "所以，你知道，一个人有这种对生活的影响真的很疯狂。"
+ },
+ {
+  "seg": 985,
+  "start": 3255.63,
+  "end": 3258.775,
+  "speaker": "Daniel McKinnon",
+  "en": "And yeah, like it's a deeply, deeply mission driven thing.",
+  "zh": "是的，像这是一件非常、非常使命驱动的事情。"
+ },
+ {
+  "seg": 986,
+  "start": 3258.795,
+  "end": 3259.496,
+  "speaker": "Daniel McKinnon",
+  "en": "I think it's very,",
+  "zh": "我认为这在技术上非常、"
+ },
+ {
+  "seg": 987,
+  "start": 3259.536,
+  "end": 3261.779,
+  "speaker": "Daniel McKinnon",
+  "en": "very interesting technically because it's all about building",
+  "zh": "非常有趣，因为它是关于构建"
+ },
+ {
+  "seg": 988,
+  "start": 3261.819,
+  "end": 3263.319,
+  "speaker": "Daniel McKinnon",
+  "en": "the best agentic harnesses.",
+  "zh": "最好的智能体 装置。"
+ },
+ {
+  "seg": 989,
+  "start": 3263.562,
+  "end": 3266.784222222222,
+  "speaker": "Daniel McKinnon",
+  "en": "It's all about understanding how AI can help with biology.",
+  "zh": "这完全是关于理解 AI 如何帮助生物学。"
+ },
+ {
+  "seg": 990,
+  "start": 3267.348,
+  "end": 3269.811,
+  "speaker": "Daniel McKinnon",
+  "en": "And if you're interested in joining me on this journey,",
+  "zh": "如果你有兴趣加入我的这段旅程，"
+ },
+ {
+  "seg": 991,
+  "start": 3269.831,
+  "end": 3272.513,
+  "speaker": "Daniel McKinnon",
+  "en": "we are hiring We're a very small team,",
+  "zh": "我们正在招人。我们是一个非常小的团队，"
+ },
+ {
+  "seg": 992,
+  "start": 3273.434,
+  "end": 3274.7639999999997,
+  "speaker": "Daniel McKinnon",
+  "en": "raised our pre-seed round,",
+  "zh": "完成了我们的 pre-seed 轮融资，"
+ },
+ {
+  "seg": 993,
+  "start": 3274.814,
+  "end": 3278.556,
+  "speaker": "Daniel McKinnon",
+  "en": "and are basically planning on building the operating system for rare disease",
+  "zh": "并且基本上正计划为罕见疾病"
+ },
+ {
+  "seg": 994,
+  "start": 3278.596,
+  "end": 3279.7626666666665,
+  "speaker": "Daniel McKinnon",
+  "en": "and genomic medicine.",
+  "zh": "和基因组医学构建操作系统。"
+ },
+ {
+  "seg": 995,
+  "start": 3279.977,
+  "end": 3283.229,
+  "speaker": "Daniel McKinnon",
+  "en": "And I couldn't be more excited to wake up to work on this every morning.",
+  "zh": "每天早上醒来为此工作，我不能再更兴奋了。"
+ },
+ {
+  "seg": 996,
+  "start": 3283.279,
+  "end": 3287.161,
+  "speaker": "Daniel McKinnon",
+  "en": "And I would love it if you would reach out if you're interested.",
+  "zh": "如果你有兴趣，我很希望你能联系我。"
+ },
+ {
+  "seg": 997,
+  "start": 3287.553,
+  "end": 3288.364,
+  "speaker": "Akash",
+  "en": "Wow.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 998,
+  "start": 3288.414,
+  "end": 3289.969555555556,
+  "speaker": "Akash",
+  "en": "So a lot of you guys I know,",
+  "zh": "所以你们很多人我知道，"
+ },
+ {
+  "seg": 999,
+  "start": 3290.115,
+  "end": 3294.778,
+  "speaker": "Akash",
+  "en": "at least in my audience, you want to become that AIPM at Met or Google.",
+  "zh": "至少在我的听众中，你想成为 Met 或谷歌的那位 AIPM。"
+ },
+ {
+  "seg": 1000,
+  "start": 3295.458,
+  "end": 3297.7,
+  "speaker": "Akash",
+  "en": "This is often the next step after that.",
+  "zh": "这通常就是那之后的下一步。"
+ },
+ {
+  "seg": 1001,
+  "start": 3297.86,
+  "end": 3301.622,
+  "speaker": "Akash",
+  "en": "So, you know, we always say the grass is greener at some point.",
+  "zh": "所以，你知道，我们总是说在某个时候别处的草更绿。"
+ },
+ {
+  "seg": 1002,
+  "start": 3302.023,
+  "end": 3305.365,
+  "speaker": "Akash",
+  "en": "This is where I've seen those AIPMs at Met and Google go,",
+  "zh": "这就是我在 Met 和 Google 的那些 AIPMs 的去向，"
+ },
+ {
+  "seg": 1003,
+  "start": 3305.405,
+  "end": 3307.566,
+  "speaker": "Akash",
+  "en": "just like Daniel, into starting their own companies.",
+  "zh": "就像 Daniel 一样，去创办他们自己的公司。"
+ },
+ {
+  "seg": 1004,
+  "start": 3307.586,
+  "end": 3310.448,
+  "speaker": "Akash",
+  "en": "And that's actually the cool thing is it helps prepare you for that.",
+  "zh": "而这实际上很酷的一点是，它有助于为你做准备。"
+ },
+ {
+  "seg": 1005,
+  "start": 3310.488,
+  "end": 3316.13,
+  "speaker": "Akash",
+  "en": "You can see how his own Evals and deep AI knowledge has now applied to his startup.",
+  "zh": "你可以看到他自己的 Evals 和深厚的 AI 知识现在如何应用到他的初创公司中。"
+ },
+ {
+  "seg": 1006,
+  "start": 3316.29,
+  "end": 3319.381,
+  "speaker": "Akash",
+  "en": "Daniel, thank you so, so much for lending your expertise today.",
+  "zh": "Daniel，非常感谢你今天贡献你的专业知识。"
+ },
+ {
+  "seg": 1007,
+  "start": 3319.431,
+  "end": 3319.631,
+  "speaker": "Daniel McKinnon",
+  "en": "Yeah,",
+  "zh": "是的，"
+ },
+ {
+  "seg": 1008,
+  "start": 3319.651,
+  "end": 3325.452,
+  "speaker": "Daniel McKinnon",
+  "en": "I want to leave with just one parting thought is the Metas and the Googles and all",
+  "zh": "我想留给你们最后一个想法是，Metas 和 Googles 以及所有"
+ },
+ {
+  "seg": 1009,
+  "start": 3325.512,
+  "end": 3330.614,
+  "speaker": "Daniel McKinnon",
+  "en": "the other large companies have to reinvent themselves right now in the age of AI.",
+  "zh": "其他大公司现在都必须在 AI 时代重塑自己。"
+ },
+ {
+  "seg": 1010,
+  "start": 3330.894,
+  "end": 3332.444,
+  "speaker": "Daniel McKinnon",
+  "en": "If you're inside these companies,",
+  "zh": "如果你在这些公司内部，"
+ },
+ {
+  "seg": 1011,
+  "start": 3332.494,
+  "end": 3333.714,
+  "speaker": "Daniel McKinnon",
+  "en": "it is very,",
+  "zh": "看到这个经典是非常有趣的"
+ },
+ {
+  "seg": 1012,
+  "start": 3333.734,
+  "end": 3338.436,
+  "speaker": "Daniel McKinnon",
+  "en": "very interesting to see how this classic I hope you learned as much",
+  "zh": "非常有趣的，我希望你学到了"
+ },
+ {
+  "seg": 1013,
+  "start": 3338.476,
+  "end": 3340.377,
+  "speaker": "Daniel McKinnon",
+  "en": "from today's episode as I did.",
+  "zh": "从今天的节目中和我一样多。"
+ },
+ {
+  "seg": 1014,
+  "start": 3340.637,
+  "end": 3342.948,
+  "speaker": "Daniel McKinnon",
+  "en": "If you can do one thing that's totally free that would help the show,",
+  "zh": "如果你能做一件完全免费的事情来帮助这个节目，"
+ },
+ {
+  "seg": 1015,
+  "start": 3342.998,
+  "end": 3345.499,
+  "speaker": "Daniel McKinnon",
+  "en": "it would be to check that you're following on Apple and Spotify podcasts,",
+  "zh": "那就是检查你是否关注了 Apple 和 Spotify 播客，"
+ },
+ {
+  "seg": 1016,
+  "start": 3345.519,
+  "end": 3346.179,
+  "speaker": "Daniel McKinnon",
+  "en": "check that you've left",
+  "zh": "检查你是否留下"
+ },
+ {
+  "seg": 1017,
+  "start": 3346.199,
+  "end": 3347.02,
+  "speaker": "Akash",
+  "en": "ratings and reviews",
+  "zh": "了评分和评论"
+ },
+ {
+  "seg": 1018,
+  "start": 3362.808,
+  "end": 3364.801,
+  "speaker": "Akash",
+  "en": "Check that you're subscribed on YouTube,",
+  "zh": "检查你是否订阅了 YouTube，"
+ },
+ {
+  "seg": 1019,
+  "start": 3364.851,
+  "end": 3368.9469999999997,
+  "speaker": "Akash",
+  "en": "leave a like and a comment on this video, and then share it with your friends.",
+  "zh": "在这个视频上点赞和评论，然后分享给你的朋友。"
+ },
+ {
+  "seg": 1020,
+  "start": 3368.997,
+  "end": 3371.6636666666664,
+  "speaker": "Akash",
+  "en": "We're trying to make better and better podcasts.",
+  "zh": "我们正在努力制作越来越好的播客。"
+ },
+ {
+  "seg": 1021,
+  "start": 3371.841,
+  "end": 3375.116,
+  "speaker": "Akash",
+  "en": "After two years, we think we've gotten something pretty good going.",
+  "zh": "两年后，我们认为我们已经搞得相当不错了。"
+ },
+ {
+  "seg": 1022,
+  "start": 3375.166,
+  "end": 3378.21,
+  "speaker": "Akash",
+  "en": "So let us know what we can do to make And finally, don't forget my offer for the bundle.",
+  "zh": "所以让我们知道我们可以做什么来制作最后，别忘了我的打包优惠。"
+ },
+ {
+  "seg": 1023,
+  "start": 3378.23,
+  "end": 3379.732,
+  "speaker": "Akash",
+  "en": "You get an entire year of my paid newsletter.",
+  "zh": "你可以获得一整年的付费时事通讯。"
+ },
+ {
+  "seg": 1024,
+  "start": 3379.753,
+  "end": 3382.4752222222223,
+  "speaker": "Akash",
+  "en": "Plus my favorite AI tools, Bolt Up New, Airtable,",
+  "zh": "加上我最喜欢的 AI 工具，Bolt Up New、Airtable、"
+ },
+ {
+  "seg": 1025,
+  "start": 3391.79,
+  "end": 3396.171,
+  "speaker": "Akash",
+  "en": "Speechify, Descript, Magic Patterns, Linear, Dovetail, Arise, and Mobbin.",
+  "zh": "Speechify、Descript、Magic Patterns、Linear、Dovetail、Arise 和 Mobbin。"
+ },
+ {
+  "seg": 1026,
+  "start": 3396.271,
+  "end": 3400.713,
+  "speaker": "Akash",
+  "en": "That's $27,000 worth of value for just $150.",
+  "zh": "这是价值 27,000 美元的东西，只需 150 美元。"
+ },
+ {
+  "seg": 1027,
+  "start": 3400.913,
+  "end": 3404.814,
+  "speaker": "Akash",
+  "en": "So check that out at bundle.akashgu.com if it interests you.",
+  "zh": "所以如果感兴趣的话，可以去 bundle.akashgu.com 看看。"
+ },
+ {
+  "seg": 1028,
+  "start": 3404.994,
+  "end": 3407.6606666666667,
+  "speaker": "SPEAKER_00",
+  "en": "And I can't wait to share our next episode soon.",
+  "zh": "我迫不及待想很快分享我们的下一期节目。"
+ }
+]

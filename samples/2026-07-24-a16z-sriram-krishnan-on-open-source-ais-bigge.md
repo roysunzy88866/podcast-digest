@@ -121,8 +121,8 @@ Sriram 对这种纯理论的探讨持谨慎态度。他指出，学术界对于�
 **顺着「AI 安全」挖下去**
 
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争]] —— 同嘉宾:Sofia Puccini · 同公司:Hugging Face、Anthropic · 同概念:蒸馏 (distillation)
+- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展]] —— 同公司:Hugging Face、OpenAI
 - [[2026-06-22-latent-space-gray-swan|让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏]] —— 同概念:智能体 (agent)
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 悬崖边？数据中心次级债与 SpaceX 缩水]] —— 同公司:Anthropic、OpenAI · 同概念:蒸馏 (distillation)
 
 </div>
 <div class="pd-ex">
