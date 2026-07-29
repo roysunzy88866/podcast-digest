@@ -18,7 +18,7 @@ tags:
   - 智能体
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # 评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估
 
@@ -31,15 +31,13 @@ tags:
 <div class="pd-hook"><div class="z">但如果你看看现在生成式人工智能的所有头条新闻，它不是质量保证，它是智能体。</div><div class="a">Daniel McKinnon · 09:55</div></div>
 
 > [!info] 关联
-> **主持**:[[Daniel McKinnon]]
+> **人物** [[Daniel McKinnon]] · [[Akash]]
 >
-> **联合主持**:[[Akash]]
+> **公司** [[Gamoff Labs]]
 >
-> **涉及公司**:[[Gamoff Labs]]
+> **概念** [[评估]] · [[PRD]] · [[智能体]] · [[测试框架]] · [[全基因组测序]] · [[离线评估]] · [[金发姑娘]]
 >
-> **概念**:[[评估]] · [[PRD]] · [[智能体]] · [[测试框架]] · [[全基因组测序]] · [[离线评估]] · [[金发姑娘]]
->
-> **来源**:[Product Growth Podcast](https://www.news.aakashg.com/p/how-to-build-your-first-eval)
+> **来源** [Product Growth Podcast](https://www.news.aakashg.com/p/how-to-build-your-first-eval)
 
 <div class="pd-tldr"><b>一句话</b>前 Meta/Google PM 深入演示如何从零构建智能体评估，通过临床基因组学案例揭示垂直 AI 产品的核心难点。</div>
 
@@ -113,17 +111,17 @@ Daniel 的建议是：从第零天开始思考，成功是什么样子的？你�
 
 <div class="pd-sec">全部金句 <span>3 条(中英对照,已过机器闸门)</span></div>
 
-> 但如果你看看现在生成式人工智能的所有头条新闻，它不是质量保证，它是智能体。  
+> <span class="qz">但如果你看看现在生成式人工智能的所有头条新闻，它不是质量保证，它是智能体。</span>  
 > *But if you look at all the headlines in Gen AI right now, it's not QA, it's agents.*  
-> —— Daniel McKinnon · [09:55] ^q1
+> <span class="qm">—— Daniel McKinnon · [09:55]</span> ^q1
 
-> 所有这一切意味着核心模型任务是什么，不再是从用户那里获取一个提示词并返回一个答案，但实际上是从用户那里获取一个需要许多、许多步骤的任务。  
+> <span class="qz">所有这一切意味着核心模型任务是什么，不再是从用户那里获取一个提示词并返回一个答案，但实际上是从用户那里获取一个需要许多、许多步骤的任务。</span>  
 > *All this means is what the core model task is, is no longer to get a prompt from a user and come back with an answer, But it is actually to get a task from a user that requires many, many steps.*  
-> —— Daniel McKinnon · [13:20] ^q2
+> <span class="qm">—— Daniel McKinnon · [13:20]</span> ^q2
 
-> 但你必须明确定义什么是漂亮的厨房，而且不是用文字，是用例子。  
+> <span class="qz">但你必须明确定义什么是漂亮的厨房，而且不是用文字，是用例子。</span>  
 > *you have to explicitly define what a beautiful kitchen is and Not in words, in examples.*  
-> —— Daniel McKinnon · [48:55] ^q3
+> <span class="qm">—— Daniel McKinnon · [48:55]</span> ^q3
 
 <div class="pd-sec">接着看</div>
 
@@ -223,7 +221,45 @@ Daniel 的建议是：从第零天开始思考，成功是什么样子的？你�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

@@ -124,3 +124,41 @@ describe("C13g · 集页正文照设计稿排", () => {
     expect(scss).toMatch(/body:has\(\.pd-play\) article a\.internal\s*\{[^}]*background:\s*none/);
   });
 });
+
+describe("C13h · 设计稿全量对齐(2026-07-29 用户「一次性改完」;出处=设计稿 style.css)", () => {
+  it("★ 详情页 h1:29px/1.35/普惠体(此前吃 Quartz headerFont)", () => {
+    const r = scss.match(/body:has\(\.pd-play\) article h1\s*\{([^}]*)\}/)?.[1] ?? "";
+    expect(r).toMatch(/font-size:\s*29px/);
+    expect(r).toMatch(/line-height:\s*1\.35/);
+    expect(r).toMatch(/font-family:\s*var\(--puhui\)/);
+  });
+
+  it("★ 金句 .qz:斜体 + CSS 引号;.qm 署名 11.5px;且不锁死在集页作用域(实体页块嵌入要跟着)", () => {
+    expect(scss).toMatch(/^\.qz \{/m);
+    expect(scss).toMatch(/\.qz\s*\{[^}]*font-style:\s*italic/);
+    expect(scss).toMatch(/\.qz:before\s*\{\s*content:\s*"\\201C"/);
+    expect(scss).toMatch(/\.qm\s*\{[^}]*font-size:\s*11\.5px/);
+  });
+
+  it("★ 【背景】引用块照设计稿(米白底 2px 浅边),金句块被 :not 让出去", () => {
+    const r = scss.match(/article blockquote:not\(\[data-callout\]\):not\(:has\(\.qz\)\)\s*\{([^}]*)\}/)?.[1] ?? "";
+    expect(r).toMatch(/background:\s*#f8f7f4/);
+    expect(r).toMatch(/border-left:\s*2px solid #e0ddd8/);
+    expect(r).toMatch(/font-size:\s*15px/);
+  });
+
+  it("★ ↩ 圆点 hover 有工具提示(data-t + data-who · 点开英文原话)", () => {
+    expect(scss).toMatch(/\.pd-ts:hover:after\s*\{[^}]*attr\(data-t\)/);
+  });
+
+  it("★ 分享/收藏:.ico 三态(hover 底/按下缩/收藏实心)+ toast", () => {
+    expect(scss).toMatch(/\.pd \.ico\[data-act="fav"\]\.on \.if\s*\{\s*display:\s*block/);
+    expect(scss).toMatch(/\.toast\.in\s*\{[^}]*opacity:\s*1/);
+  });
+
+  it("★ 涉及行标签是灰药丸、名字是素文字链接(不再一片红底 chip)", () => {
+    // 规则活在 .right.sidebar 嵌套块里(C13d-2 的原位)—— 别再另加低优先级的平行规则,压不过它
+    expect(scss).toMatch(/\.pd-rel \.callout-content strong\s*\{[^}]*border-radius:\s*4px/);
+    expect(scss).toMatch(/\.pd-rel \.callout-content a \{ color: var\(--B6\); background: none/);
+  });
+});

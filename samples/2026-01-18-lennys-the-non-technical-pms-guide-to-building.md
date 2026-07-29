@@ -18,7 +18,7 @@ tags:
   - 职业与个人成长
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # 非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」
 
@@ -31,15 +31,13 @@ tags:
 <div class="pd-hook"><div class="z">如果人们离开时觉得你多么了不起，你就失败了。如果人们离开后打开他们的电脑并开始构建，你就成功了。</div><div class="a">Zevi Arnovitz · 07:17</div></div>
 
 > [!info] 关联
-> **主持**:[[Lenny]]
+> **人物** [[Lenny]] · [[Zevi Arnovitz]]
 >
-> **联合主持**:[[Zevi Arnovitz]]
+> **公司** [[Cursor]] · [[Bolt]] · [[Lovable]] · [[Linear]]
 >
-> **涉及公司**:[[Cursor]] · [[Bolt]] · [[Lovable]] · [[Linear]]
+> **概念** [[Claude Code]] · [[Composer]] · [[Codex]] · [[智能体]] · [[斜杠命令]] · [[同行评审]]
 >
-> **概念**:[[Claude Code]] · [[Composer]] · [[Codex]] · [[智能体]] · [[斜杠命令]] · [[同行评审]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/the-non-technical-pms-guide-to-building-with-cursor)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/the-non-technical-pms-guide-to-building-with-cursor)
 
 <div class="pd-tldr"><b>一句话</b>完全不懂代码的 PM 分享如何用 AI 搭建赚钱产品并保持代码质量。</div>
 
@@ -89,33 +87,33 @@ Zevi 在 Cursor 里构建了一套基于「[[斜杠命令|斜杠命令]]」（�
 
 <div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
 
-> 如果人们离开时觉得你多么了不起，你就失败了。如果人们离开后打开他们的电脑并开始构建，你就成功了。  
+> <span class="qz">如果人们离开时觉得你多么了不起，你就失败了。如果人们离开后打开他们的电脑并开始构建，你就成功了。</span>  
 > *If people walk away thinking how amazing you are, you failed. And if people walk away and open their computer and start building, you've succeeded.*  
-> —— Zevi Arnovitz · [07:17] ^q1
+> <span class="qm">—— Zevi Arnovitz · [07:17]</span> ^q1
 
-> 是的，我认为这就是单纯的 vibe coding 和顺其自然与真正构建严肃应用之间的巨大区别。  
+> <span class="qz">是的，我认为这就是单纯的 vibe coding 和顺其自然与真正构建严肃应用之间的巨大区别。</span>  
 > *Yeah, and I think this is the big difference between just vibe coding and going along with the vibes and really building serious apps.*  
-> —— Zevi Arnovitz · [28:18] ^q2
+> <span class="qm">—— Zevi Arnovitz · [28:18]</span> ^q2
 
-> 我正在构建，我正在把 StudyMate 从希伯来语完全本地化到英语，我在两天内完成了，这可能需要一个开发团队几周的时间。  
+> <span class="qz">我正在构建，我正在把 StudyMate 从希伯来语完全本地化到英语，我在两天内完成了，这可能需要一个开发团队几周的时间。</span>  
 > *I was building, I was fully localizing StudyMate from Hebrew to English, which I did in two days, which would probably take a dev team weeks.*  
-> —— Zevi Arnovitz · [35:17] ^q3
+> <span class="qm">—— Zevi Arnovitz · [35:17]</span> ^q3
 
-> 回到你的提示词，去理解哪些不够好，对其进行迭代，然后看看 AI 的响应如何变好，我认为这可能是最重要的事情之一，也是区分那些还可以使用 AI 的人和真正知道如何使用 AI 的人的因素之一。  
+> <span class="qz">回到你的提示词，去理解哪些不够好，对其进行迭代，然后看看 AI 的响应如何变好，我认为这可能是最重要的事情之一，也是区分那些还可以使用 AI 的人和真正知道如何使用 AI 的人的因素之一。</span>  
 > *Going back to your prompts, understanding what was not good enough, iterating on them and then seeing how AI's responses get better, I think that's probably one of the most important things and one of the things that divides between people who are okay with using AI and the people who actually know how to use it.*  
-> —— Zevi Arnovitz · [47:20] ^q4
+> <span class="qm">—— Zevi Arnovitz · [47:20]</span> ^q4
 
-> 取代你的是那些比你更擅长使用 AI 的人。  
+> <span class="qz">取代你的是那些比你更擅长使用 AI 的人。</span>  
 > *It's you'll be replaced by someone who's better at using AI than you.*  
-> —— Lenny · [62:43] ^q5
+> <span class="qm">—— Lenny · [62:43]</span> ^q5
 
-> 是的，我认为头衔将会崩塌，责任将会崩塌，每个人都将只是在构建。  
+> <span class="qz">是的，我认为头衔将会崩塌，责任将会崩塌，每个人都将只是在构建。</span>  
 > *Yeah, I think titles are going to collapse and responsibilities are going to collapse and everyone's just going to be building.*  
-> —— Zevi Arnovitz · [52:45] ^q6
+> <span class="qm">—— Zevi Arnovitz · [52:45]</span> ^q6
 
-> 我认为许多 PM 有一个误解，认为工作总是拥有正确的答案并成为房间里最聪明的人。  
+> <span class="qz">我认为许多 PM 有一个误解，认为工作总是拥有正确的答案并成为房间里最聪明的人。</span>  
 > *I think that there's a misconception with a lot of PMs that the job is always having the right answers and being the smartest person in the room.*  
-> —— Zevi Arnovitz · [55:08] ^q7
+> <span class="qm">—— Zevi Arnovitz · [55:08]</span> ^q7
 
 <div class="pd-sec">接着看</div>
 
@@ -215,7 +213,45 @@ Zevi 在 Cursor 里构建了一套基于「[[斜杠命令|斜杠命令]]」（�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

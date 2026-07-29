@@ -16,7 +16,7 @@ tags:
   - 创业与行业
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>为什么机器人的未来在仿真：World Labs 收购 Cynics 背后的逻辑</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>为什么机器人的未来在仿真：World Labs 收购 Cynics 背后的逻辑</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # 为什么机器人的未来在仿真：World Labs 收购 Cynics 背后的逻辑
 
@@ -29,13 +29,11 @@ tags:
 <div class="pd-hook"><div class="z">仿真扮演了一个非常重要的角色，这是现实世界的数据所没有的，那就是反事实推理，就是你在推演那些尚未发生或不可能发生的事件，或者你在现实世界中没有足够的数据让它发生。</div><div class="a">Fei-Fei Li · 20:06</div></div>
 
 > [!info] 关联
-> **主持**:[[Fei-Fei Li]]
+> **人物** [[Fei-Fei Li]] · [[Martin Cassaro]] · [[Yunzhu Li]]
 >
-> **联合主持**:[[Martin Cassaro]] · [[Yunzhu Li]]
+> **公司** [[World Labs]] · [[Cynics]]
 >
-> **涉及公司**:[[World Labs]] · [[Cynics]]
->
-> **概念**:[[空间智能]] · [[大型世界模型]] · [[仿真]] · [[反事实推理]] · [[现实到仿真再到现实]] · [[Marble]]
+> **概念** [[空间智能]] · [[大型世界模型]] · [[仿真]] · [[反事实推理]] · [[现实到仿真再到现实]] · [[Marble]]
 
 <div class="pd-tldr"><b>一句话</b>World Labs 收购 Cynics，用仿真和数据补齐机器人最难的数据缺口。</div>
 
@@ -86,21 +84,21 @@ Fei-Fei 进一步指出了人形机器人的悖论：人形是为了在非结构
 
 <div class="pd-sec">全部金句 <span>4 条(中英对照,已过机器闸门)</span></div>
 
-> 仿真扮演了一个非常重要的角色，这是现实世界的数据所没有的，那就是反事实推理，就是你在推演那些尚未发生或不可能发生的事件，或者你在现实世界中没有足够的数据让它发生。  
+> <span class="qz">仿真扮演了一个非常重要的角色，这是现实世界的数据所没有的，那就是反事实推理，就是你在推演那些尚未发生或不可能发生的事件，或者你在现实世界中没有足够的数据让它发生。</span>  
 > *There's a very important role simulation plays that real world data doesn't play, which is counterfactual reasoning, is that you play out events that hasn't happened or cannot happen, or you don't have enough data to make it happen in real world.*  
-> —— Fei-Fei Li · [20:06] ^q1
+> <span class="qm">—— Fei-Fei Li · [20:06]</span> ^q1
 
-> 这种非结构化环境和通用化身体实际上是最难解决的问题。  
+> <span class="qz">这种非结构化环境和通用化身体实际上是最难解决的问题。</span>  
 > *This unstructured environment and a generalized body is actually the hardest problem to solve.*  
-> —— Fei-Fei Li · [32:03] ^q2
+> <span class="qm">—— Fei-Fei Li · [32:03]</span> ^q2
 
-> 当今 AI 中最难的事情是拥有正确的适度乐观。  
+> <span class="qz">当今 AI 中最难的事情是拥有正确的适度乐观。</span>  
 > *The hardest thing in today's AI is to have the right measured optimism.*  
-> —— Fei-Fei Li · [34:34] ^q3
+> <span class="qm">—— Fei-Fei Li · [34:34]</span> ^q3
 
-> 如果你在思考鲁棒性来自哪里？鲁棒性来自于机器人可能遇到的场景的充分覆盖。  
+> <span class="qz">如果你在思考鲁棒性来自哪里？鲁棒性来自于机器人可能遇到的场景的充分覆盖。</span>  
 > *If you're thinking about where does the robustness come from? Robustness comes from a sufficient coverage of the scenarios that robots might encounter.*  
-> —— Yunzhu Li · [30:46] ^q4
+> <span class="qm">—— Yunzhu Li · [30:46]</span> ^q4
 
 <div class="pd-sec">接着看</div>
 
@@ -190,7 +188,45 @@ Fei-Fei 进一步指出了人形机器人的悖论：人形是为了在非结构
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

@@ -16,7 +16,7 @@ tags:
   - 智能体
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图
 
@@ -29,13 +29,13 @@ tags:
 <div class="pd-hook"><div class="z">我让一个智能体去调试某个东西,它花了 500 美元,因为它决定读取大量日志文件并消耗大量 token。</div><div class="a">Matei Zaharia · 21:04</div></div>
 
 > [!info] 关联
-> **嘉宾**:[[Matei Zaharia]] · [[Reynold Xin]]
+> **人物** [[Matei Zaharia]] · [[Reynold Xin]]
 >
-> **涉及公司**:[[Databricks]] · [[Snowflake]] · [[MosaicML]] · [[Neon]]
+> **公司** [[Databricks]] · [[Snowflake]] · [[MosaicML]] · [[Neon]]
 >
-> **概念**:[[Omnigen]] · [[LTAP]] · [[HTAP]] · [[Dream Engine]] · [[智能体]] · [[云沙箱]] · [[上下文策略]] · [[CDC]] · [[第二系统综合征]] · [[Spark]]
+> **概念** [[Omnigen]] · [[LTAP]] · [[HTAP]] · [[Dream Engine]] · [[智能体]] · [[云沙箱]] · [[上下文策略]] · [[CDC]] · [[第二系统综合征]] · [[Spark]]
 >
-> **来源**:[Latent Space](https://www.latent.space/p/databricks)
+> **来源** [Latent Space](https://www.latent.space/p/databricks)
 
 <div class="pd-tldr"><b>一句话</b>两位创始人详解智能体平台 Omnigen、打通交易与分析的 LTAP，以及从零重写的数据库引擎。</div>
 
@@ -89,41 +89,41 @@ Reynold Xin 给出了两个关键判断：一是「拥抱开放」，二是「�
 
 <div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
 
-> 我让一个智能体去调试某个东西,它花了 500 美元,因为它决定读取大量日志文件并消耗大量 token。  
+> <span class="qz">我让一个智能体去调试某个东西,它花了 500 美元,因为它决定读取大量日志文件并消耗大量 token。</span>  
 > *I asked an agent to debug something and it spent $500 because it decided to read a lot of log files and burn a lot of tokens.*  
-> —— Matei Zaharia · [21:04] ^q1
+> <span class="qm">—— Matei Zaharia · [21:04]</span> ^q1
 
-> 想象一下我们的东西不是开放的。我们有某种智能体托管的东西,但它不是开放的。然后有一个开放的。从长远来看哪一个会赢?  
+> <span class="qz">想象一下我们的东西不是开放的。我们有某种智能体托管的东西,但它不是开放的。然后有一个开放的。从长远来看哪一个会赢?</span>  
 > *Imagine our thing wasn't open. We had some kind of agent hosting thing, but it's not open. And then there is an open one. Which one is going to win in the long run?*  
-> —— Matei Zaharia · [10:56] ^q2
+> <span class="qm">—— Matei Zaharia · [10:56]</span> ^q2
 
-> CDC 是最无聊的之一,但也是驱动现代社会的最基础的操作之一。  
+> <span class="qz">CDC 是最无聊的之一,但也是驱动现代社会的最基础的操作之一。</span>  
 > *CDC is one of the most boring, but one of the most fundamental operations powering modern society.*  
-> —— Reynold Xin · [30:30] ^q3
+> <span class="qm">—— Reynold Xin · [30:30]</span> ^q3
 
-> 说它应该被称为持续数据损坏,因为你可能会在你的 LTP 数据库上更改你的模式,然后 CDC 管道无法处理模式变更。  
+> <span class="qz">说它应该被称为持续数据损坏,因为你可能会在你的 LTP 数据库上更改你的模式,然后 CDC 管道无法处理模式变更。</span>  
 > *It should be called continuous data corruption because you might change your schema on your LTP database and then the CDC pipeline fails to handle the schema change.*  
-> —— Reynold Xin · [30:40] ^q4
+> <span class="qm">—— Reynold Xin · [30:40]</span> ^q4
 
-> 经过十年那样有机的演化,它就变成了一大堆像屎一样的代码。  
+> <span class="qz">经过十年那样有机的演化,它就变成了一大堆像屎一样的代码。</span>  
 > *after 10 years of organic evolution that way, it becomes a gigantic pile of shit.*  
-> —— Reynold Xin · [44:26] ^q5
+> <span class="qm">—— Reynold Xin · [44:26]</span> ^q5
 
-> 我们认为你可以通过统一存储来获得你需要的 99%。  
+> <span class="qz">我们认为你可以通过统一存储来获得你需要的 99%。</span>  
 > *We think you can get 99% of what you need by unifying the storage.*  
-> —— Reynold Xin · [32:05] ^q6
+> <span class="qm">—— Reynold Xin · [32:05]</span> ^q6
 
-> 但开放数据格式已经赢了。  
+> <span class="qz">但开放数据格式已经赢了。</span>  
 > *But the open data format have won.*  
-> —— Reynold Xin · [56:17] ^q7
+> <span class="qm">—— Reynold Xin · [56:17]</span> ^q7
 
-> 它可能比那些前沿模型便宜大约 100 倍,而且仍然更好。  
+> <span class="qz">它可能比那些前沿模型便宜大约 100 倍,而且仍然更好。</span>  
 > *it's probably like 100x cheaper than those frontier models and still better.*  
-> —— Matei Zaharia · [60:52] ^q8
+> <span class="qm">—— Matei Zaharia · [60:52]</span> ^q8
 
-> 向量数据库本不应该是一个单独的类别。  
+> <span class="qz">向量数据库本不应该是一个单独的类别。</span>  
 > *Vector database should have never been a separate category.*  
-> —— Reynold Xin · [51:18] ^q9
+> <span class="qm">—— Reynold Xin · [51:18]</span> ^q9
 
 <div class="pd-sec">接着看</div>
 
@@ -223,7 +223,45 @@ Reynold Xin 给出了两个关键判断：一是「拥抱开放」，二是「�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

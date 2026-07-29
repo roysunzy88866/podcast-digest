@@ -17,7 +17,7 @@ tags:
   - 创业与行业
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理
 
@@ -30,15 +30,13 @@ tags:
 <div class="pd-hook"><div class="z">他们认为你可以只是把人力扔向问题并获得好的数据,但这完全是错的。</div><div class="a">Edwin Chen · 09:51</div></div>
 
 > [!info] 关联
-> **主持**:[[Lenny]]
+> **人物** [[Lenny]] · [[Edwin Chen]]
 >
-> **联合主持**:[[Edwin Chen]]
+> **公司** [[Surge AI]] · [[Anthropic]] · [[ChatGPT]] · [[LLM Arena]]
 >
-> **涉及公司**:[[Surge AI]] · [[Anthropic]] · [[ChatGPT]] · [[LLM Arena]]
+> **概念** [[基准测试]] · [[后训练]] · [[强化学习环境]] · [[目标函数]] · [[数据质量]]
 >
-> **概念**:[[基准测试]] · [[后训练]] · [[强化学习环境]] · [[目标函数]] · [[数据质量]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/surge-ai-edwin-chen)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/surge-ai-edwin-chen)
 
 <div class="pd-tldr"><b>一句话</b>自力更生年入十亿的数据公司创始人,谈高质量数据与 AI 走偏的方向。</div>
 
@@ -116,41 +114,41 @@ Edwin 在最后把这些思考拔高到一个哲学层面:做数据训练和评�
 
 <div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
 
-> 他们认为你可以只是把人力扔向问题并获得好的数据,但这完全是错的。  
+> <span class="qz">他们认为你可以只是把人力扔向问题并获得好的数据,但这完全是错的。</span>  
 > *They think you could just throw bodies at a problem and get good data and that's completely wrong.*  
-> —— Edwin Chen · [09:51] ^q1
+> <span class="qm">—— Edwin Chen · [09:51]</span> ^q1
 
-> 是的,所以我根本不信任这些基准测试。  
+> <span class="qz">是的,所以我根本不信任这些基准测试。</span>  
 > *Yeah, so I don't trust the benchmarks at all.*  
-> —— Edwin Chen · [18:00] ^q2
+> <span class="qm">—— Edwin Chen · [18:00]</span> ^q2
 
-> 这些模型能获得国际数学奥林匹克竞赛金牌,但它们在解析 PDF 时仍然有困难,这有点疯狂。  
+> <span class="qz">这些模型能获得国际数学奥林匹克竞赛金牌,但它们在解析 PDF 时仍然有困难,这有点疯狂。</span>  
 > *It's kind of crazy that these models can win IMO gold medals, but they still have trouble parsing PDFs.*  
-> —— Edwin Chen · [18:49] ^q3
+> <span class="qm">—— Edwin Chen · [18:49]</span> ^q3
 
-> 我们基本上是在教导我们的模型去追逐多巴胺而不是真理。  
+> <span class="qz">我们基本上是在教导我们的模型去追逐多巴胺而不是真理。</span>  
 > *We're basically teaching our models to chase dopamine instead of truth.*  
-> —— Edwin Chen · [23:25] ^q4
+> <span class="qm">—— Edwin Chen · [23:25]</span> ^q4
 
-> 我在年底获得晋升的唯一途径就是攀登这个排行榜,尽管我知道攀登它可能会让我的模型变差,而且准确性  
+> <span class="qz">我在年底获得晋升的唯一途径就是攀登这个排行榜,尽管我知道攀登它可能会让我的模型变差,而且准确性</span>  
 > *The only way I'm going to get promoted at the end of the year is if I climb this leaderboard, even though I know that climbing it is probably going to make my model worse and accuracy*  
-> —— Edwin Chen · [24:49] ^q5
+> <span class="qm">—— Edwin Chen · [24:49]</span> ^q5
 
-> 如果你一直在转型,你就没有承担任何风险。  
+> <span class="qz">如果你一直在转型,你就没有承担任何风险。</span>  
 > *If you're constantly pivoting, you're not taking any risks.*  
-> —— Edwin Chen · [30:09] ^q6
+> <span class="qm">—— Edwin Chen · [30:09]</span> ^q6
 
-> 构建某种重要的、将改变世界的东西的唯一途径是,如果你找到一个你相信的大主意,并对其他所有事情说不。  
+> <span class="qz">构建某种重要的、将改变世界的东西的唯一途径是,如果你找到一个你相信的大主意,并对其他所有事情说不。</span>  
 > *The only way you build something that matters that's going to change the world is if you find a big idea you believe in and you say no to everything else.*  
-> —— Edwin Chen · [30:24] ^q7
+> <span class="qm">—— Edwin Chen · [30:24]</span> ^q7
 
-> 我绝对认为 vibe coding 被过度炒作。  
+> <span class="qz">我绝对认为 vibe coding 被过度炒作。</span>  
 > *I definitely think that vibe coding is over-hyped.*  
-> —— Edwin Chen · [51:56] ^q8
+> <span class="qm">—— Edwin Chen · [51:56]</span> ^q8
 
-> 我认为未来几年会发生的事情之一是,模型实际上将变得越来越差异化,因为不同实验室拥有的个性和行为,以及他们优化模型的目标函数类型。  
+> <span class="qz">我认为未来几年会发生的事情之一是,模型实际上将变得越来越差异化,因为不同实验室拥有的个性和行为,以及他们优化模型的目标函数类型。</span>  
 > *I think one of the things that's going to happen in the next few years is that the models are actually going to become increasingly differentiated because of the personalities and behaviors that the different labs have and the kind of objective functions that they are optimizing their models for.*  
-> —— Edwin Chen · [48:20] ^q9
+> <span class="qm">—— Edwin Chen · [48:20]</span> ^q9
 
 <div class="pd-sec">接着看</div>
 
@@ -250,7 +248,45 @@ Edwin 在最后把这些思考拔高到一个哲学层面:做数据训练和评�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

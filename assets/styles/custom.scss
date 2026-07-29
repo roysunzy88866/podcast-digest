@@ -922,8 +922,19 @@ body:has(.pd-play) {
     }
     .pd-rel .callout-title { display: none; }
     .pd-rel .callout-content p { font-size: 13px; line-height: 1.85; color: var(--B6); margin: 0 0 8px; }
-    .pd-rel .callout-content strong { color: var(--B7); font-weight: 500; }
-    .pd-rel .callout-content a { color: var(--pd-accent); }
+    /* C13h 设计稿 .ek/.rr:标签 = 灰药丸,名字 = 素文字,hover 才见红 */
+    .pd-rel .callout-content strong {
+      display: inline-block;
+      font-weight: 400;
+      font-size: 11px;
+      color: var(--B5);
+      background: var(--B1);
+      border-radius: 4px;
+      padding: 1px 6px;
+      margin-right: 7px;
+    }
+    .pd-rel .callout-content a { color: var(--B6); background: none; font-weight: 400; }
+    .pd-rel .callout-content a:hover { color: var(--pd-accent); }
 
   }
 }
@@ -977,6 +988,141 @@ body:has(.pd-play) article h2 {
   font-size: 20px;
   line-height: 1.45;
 }
+
+/* ══ C13h · 设计稿全量对齐(2026-07-29 用户「一次性改完」;逐项出处 = 设计稿 style.css/ep-*.html)══ */
+
+/* 详情页大标题:设计稿 h1.pt = 29px/1.35/普惠体/0.2px(此前吃 Quartz headerFont,中文回落系统黑体) */
+body:has(.pd-play) article h1 {
+  font-family: var(--puhui);
+  font-size: 29px;
+  line-height: 1.35;
+  letter-spacing: 0.2px;
+  margin: 4px 0 10px;
+}
+
+/* 金句区中文句(设计稿 .qr .z):斜体普惠体 + CSS 引号;.qz 是 render 打的样式挂点,文字逐字没动。
+   不限定 .pd-play 作用域:实体页金句墙靠块嵌入拉同一块,样式要跟着走。 */
+.qz {
+  font-family: var(--puhui);
+  font-style: italic;
+  font-synthesis-style: auto;
+  letter-spacing: 0.2px;
+}
+.qz:before { content: "\201C"; }
+.qz:after { content: "\201D"; }
+/* 署名行(设计稿 .qr .m):11.5px 浅灰,比正文退一档 */
+.qm {
+  display: inline-block;
+  font-size: 11.5px;
+  color: var(--B5);
+  margin-top: 6px;
+}
+
+/* 正文【背景】引用块(设计稿 blockquote):米白底 + 2px 浅边,不是 Quartz 的红边裸样式。
+   :not(:has(> .qz)) 把金句块让出去 —— 它有自己的一套(17px/无底)。 */
+body:has(.pd-play) article blockquote:not([data-callout]):not(:has(.qz)) {
+  margin: 0 0 17px;
+  padding: 11px 16px;
+  background: #f8f7f4;
+  border-left: 2px solid #e0ddd8;
+  font-size: 15px;
+  color: #4a4a4a;
+}
+:root[saved-theme="dark"] body:has(.pd-play) article blockquote:not([data-callout]):not(:has(.qz)) {
+  background: #262423;
+  border-left-color: #4e4c4b;
+  color: var(--B7);
+}
+
+/* 钩子:设计稿最终 margin 是 0 0 26px(上方不留额外空) */
+.pd-hook { margin-top: 0; }
+
+/* ↩ 圆点 hover:设计稿 .ts:hover(:after 工具提示 + 圆点变深) */
+.pd-ts { position: relative; }
+.pd-ts:hover { background: #e8d5d3; }
+:root[saved-theme="dark"] .pd-ts:hover { background: #4a3a38; }
+.pd-ts:hover:after {
+  content: attr(data-t) " " attr(data-who) " · 点开英文原话";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 22px;
+  white-space: nowrap;
+  background: var(--B8);
+  color: var(--B0);
+  font-size: 11px;
+  padding: 4px 8px;
+  border-radius: 5px;
+  z-index: 9;
+}
+
+/* 播放条文案(设计稿 .play .tt/.s) */
+.pd-play .tt { display: block; font-size: 14px; font-weight: 600; }
+.pd-play .s { font-size: 12px; color: #9a8f8e; }
+:root[saved-theme="dark"] .pd-play .s { color: var(--B6); }
+
+/* 接着看(设计稿 .ex a / .ex b) */
+.pd-ex a { display: block; font-size: 14px; padding: 5px 0; line-height: 1.5; }
+.pd-ex a:hover { color: var(--pd-accent); }
+.pd-ex b { display: block; font-size: 11.5px; color: var(--pd-accent); margin-bottom: 8px; letter-spacing: 0.4px; }
+
+/* 目录当前项(设计稿 .toc a.on;Quartz 的滚动高亮类是 .in-view) */
+.right.sidebar .toc a.in-view { color: var(--pd-accent); border-left-color: var(--pd-accent); font-weight: 600; }
+
+/* 顶栏 nav(设计稿 .top nav a):#5c5c5c,hover 见红 */
+.pd .pd-nav a { font-size: 14px; color: #5c5c5c; }
+:root[saved-theme="dark"] .pd .pd-nav a { color: var(--B6); }
+.pd .pd-nav a:hover { color: var(--pd-accent); }
+
+/* 左栏「关于本站」(设计稿 .about):#8a8a8a / 加重字 #333 */
+.pd .about { color: #8a8a8a; }
+.pd .about b { color: #333; }
+:root[saved-theme="dark"] .pd .about { color: var(--B6); }
+:root[saved-theme="dark"] .pd .about b { color: var(--B7); }
+
+/* 搜索命中高亮(设计稿 mark) */
+mark { background: #fdeceb; color: var(--pd-accent); padding: 0 1px; border-radius: 2px; }
+:root[saved-theme="dark"] mark { background: #3d2a28; }
+
+/* 分享/收藏(设计稿 .ico + actions.js;.if 实心态只在 .on 时亮) */
+.pd .ico {
+  width: 32px;
+  height: 32px;
+  border: 0;
+  background: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: var(--B7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pd .ico:hover { background: var(--B1); }
+.pd .ico svg { display: block; }
+.pd .ico[data-act]:active { transform: scale(0.92); }
+.pd .ico[data-act="fav"] .if { display: none; }
+.pd .ico[data-act="fav"].on { color: var(--pd-accent); }
+.pd .ico[data-act="fav"].on .if { display: block; }
+.pd .ico[data-act="fav"].on .io { display: none; }
+
+/* toast 轻提示(设计稿 .toast) */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 26px;
+  transform: translate(-50%, 12px);
+  z-index: 99999;
+  background: #1e1e1e;
+  color: #fff;
+  font-size: 13.5px;
+  padding: 10px 16px;
+  border-radius: 20px;
+  opacity: 0;
+  transition: opacity 0.2s, transform 0.2s;
+  pointer-events: none;
+  white-space: nowrap;
+}
+.toast.in { opacity: 1; transform: translate(-50%, 0); }
 
 /* ── C13c 必读页(设计稿 must-read.html:.mrtop/.mrh/.grid 照抄,加 pd- 前缀)── */
 .pd .pd-mrtop { padding: 24px 0 4px; border-bottom: 1px solid var(--B2); }

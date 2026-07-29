@@ -16,7 +16,7 @@ tags:
   - 增长与销售
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>增长停滞怎么办？Jason Cohen 的四步诊断法</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>增长停滞怎么办？Jason Cohen 的四步诊断法</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # 增长停滞怎么办？Jason Cohen 的四步诊断法
 
@@ -29,13 +29,11 @@ tags:
 <div class="pd-hook"><div class="z">你的价格太低了，因为你只是猜的，而且你从未改变过它们。</div><div class="a">Jason Cohen · 36:10</div></div>
 
 > [!info] 关联
-> **主持**:[[Lenny]]
+> **人物** [[Lenny]] · [[Jason Cohen]]
 >
-> **联合主持**:[[Jason Cohen]]
+> **概念** [[客户流失率]] · [[定价]] · [[NRR]] · [[渠道饱和]] · [[入职引导]] · [[定位]] · [[大象曲线]] · [[SaaS]] · [[营销漏斗]]
 >
-> **概念**:[[客户流失率]] · [[定价]] · [[NRR]] · [[渠道饱和]] · [[入职引导]] · [[定位]] · [[大象曲线]] · [[SaaS]] · [[营销漏斗]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/why-your-product-stopped-growing)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/why-your-product-stopped-growing)
 
 <div class="pd-tldr"><b>一句话</b>从流失率、定价、净收入留存到渠道饱和度，按序排查增长瓶颈。</div>
 
@@ -114,25 +112,25 @@ Jason 提醒，关键是要分清「是你需要增长，还是你的自我意�
 
 <div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
 
-> 你的价格太低了，因为你只是猜的，而且你从未改变过它们。  
+> <span class="qz">你的价格太低了，因为你只是猜的，而且你从未改变过它们。</span>  
 > *Your prices are way too low because you just guessed and you haven't changed them.*  
-> —— Jason Cohen · [36:10] ^q1
+> <span class="qm">—— Jason Cohen · [36:10]</span> ^q1
 
-> 你的价格太低了，因为你只是瞎猜的，而且你没有改变过它们。  
+> <span class="qz">你的价格太低了，因为你只是瞎猜的，而且你没有改变过它们。</span>  
 > *Your prices are way too low because you just guessed and you haven't changed them.*  
-> —— Jason Cohen · [36:10] ^q2
+> <span class="qm">—— Jason Cohen · [36:10]</span> ^q2
 
-> 质量实际上是唯一重要的事情，而一致性并不重要。  
+> <span class="qz">质量实际上是唯一重要的事情，而一致性并不重要。</span>  
 > *quality is actually the only thing that matters and the consistency doesn't matter.*  
-> —— Lenny · [07:48] ^q3
+> <span class="qm">—— Lenny · [07:48]</span> ^q3
 
-> 所以像这样的公司永远不会有超过 2,000 个客户。  
+> <span class="qz">所以像这样的公司永远不会有超过 2,000 个客户。</span>  
 > *So a company like that will never have more than 2,000 customers.*  
-> —— Jason Cohen · [16:49] ^q4
+> <span class="qm">—— Jason Cohen · [16:49]</span> ^q4
 
-> 这家公司如何能够通过用不同的方式谈论同一个产品而收取八倍的价格。  
+> <span class="qz">这家公司如何能够通过用不同的方式谈论同一个产品而收取八倍的价格。</span>  
 > *how this company was able to charge eight times as much for the same product just by talking about it differently.*  
-> —— Jason Cohen · [42:21] ^q5
+> <span class="qm">—— Jason Cohen · [42:21]</span> ^q5
 
 <div class="pd-sec">接着看</div>
 
@@ -222,7 +220,45 @@ Jason 提醒，关键是要分清「是你需要增长，还是你的自我意�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

@@ -17,7 +17,7 @@ tags:
   - 增长与销售
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # 把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织
 
@@ -30,15 +30,13 @@ tags:
 <div class="pd-hook"><div class="z">80% 的客户购买是为了避免痛苦或降低风险，而不是增加上行空间，</div><div class="a">Jeanne DeWitt Grosser · 00:27</div></div>
 
 > [!info] 关联
-> **主持**:[[Jeanne DeWitt Grosser]]
+> **人物** [[Jeanne DeWitt Grosser]] · [[Lenny]]
 >
-> **联合主持**:[[Lenny]]
+> **公司** [[Vercel]] · [[Stripe]] · [[Gong]]
 >
-> **涉及公司**:[[Vercel]] · [[Stripe]] · [[Gong]]
+> **概念** [[go-to-market]] · [[智能体]] · [[GTM 工程师]] · [[市场细分]] · [[PLG]] · [[购买体验]]
 >
-> **概念**:[[go-to-market]] · [[智能体]] · [[GTM 工程师]] · [[市场细分]] · [[PLG]] · [[购买体验]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/what-the-best-gtm-teams-do-differently)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/what-the-best-gtm-teams-do-differently)
 
 <div class="pd-tldr"><b>一句话</b>前 Stripe、现 Vercel 的 COO 分享如何用 AI 智能体重构销售流程，并将 GTM 视为产品来打造卓越体验。</div>
 
@@ -84,29 +82,29 @@ tags:
 
 <div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
 
-> 80% 的客户购买是为了避免痛苦或降低风险，而不是增加上行空间，  
+> <span class="qz">80% 的客户购买是为了避免痛苦或降低风险，而不是增加上行空间，</span>  
 > *80% of customers buy to avoid pain or reduce risk as opposed to increase upside,*  
-> —— Jeanne DeWitt Grosser · [00:27] ^q1
+> <span class="qm">—— Jeanne DeWitt Grosser · [00:27]</span> ^q1
 
-> 如果你是我组织里的客户主管，我把你放在我们公司的 10 名工程师面前，他们应该花 10 分钟才能弄清楚你不是产品经理。  
+> <span class="qz">如果你是我组织里的客户主管，我把你放在我们公司的 10 名工程师面前，他们应该花 10 分钟才能弄清楚你不是产品经理。</span>  
 > *if you are an account executive in my org and I put you in front of 10 engineers at our company, it should take them 10 minutes to figure out you aren't a product manager.*  
-> —— Jeanne DeWitt Grosser · [01:26] ^q2
+> <span class="qm">—— Jeanne DeWitt Grosser · [01:26]</span> ^q2
 
-> 我认为在拓客方面，AI 可以取代相当大一部分，因为普通的 SDR 一开始也没有做特别复杂的研究。  
+> <span class="qz">我认为在拓客方面，AI 可以取代相当大一部分，因为普通的 SDR 一开始也没有做特别复杂的研究。</span>  
 > *I think on prospecting, it can replace a fair amount because the average SDR wasn't doing overly sophisticated research in the first place.*  
-> —— Jeanne DeWitt Grosser · [22:32] ^q3
+> <span class="qm">—— Jeanne DeWitt Grosser · [22:32]</span> ^q3
 
-> 实际上，你输的原因是你从未真正联系到经济决策人。  
+> <span class="qz">实际上，你输的原因是你从未真正联系到经济决策人。</span>  
 > *actually, you lost because you never really got in touch with the economic buyer.*  
-> —— Jeanne DeWitt Grosser · [35:53] ^q4
+> <span class="qm">—— Jeanne DeWitt Grosser · [35:53]</span> ^q4
 
-> 我们最终可能会在时机成熟时使用更好的集成智能体平台。或者我们可能会发现 CIO 越来越从软件的采购者变成软件的构建者  
+> <span class="qz">我们最终可能会在时机成熟时使用更好的集成智能体平台。或者我们可能会发现 CIO 越来越从软件的采购者变成软件的构建者</span>  
 > *we may ultimately end up on, you know, better integrated agent platforms in the fullness of time. Or we may find that the CIO increasingly goes from a procurer of software to a builder of software*  
-> —— Jeanne DeWitt Grosser · [42:38] ^q5
+> <span class="qm">—— Jeanne DeWitt Grosser · [42:38]</span> ^q5
 
-> “是”很棒，“不”很棒，“也许”会毁了你。  
+> <span class="qz">“是”很棒，“不”很棒，“也许”会毁了你。</span>  
 > *yeses are great, noes are great, maybes will kill you.*  
-> —— Jeanne DeWitt Grosser · [85:15] ^q6
+> <span class="qm">—— Jeanne DeWitt Grosser · [85:15]</span> ^q6
 
 <div class="pd-sec">接着看</div>
 
@@ -206,7 +204,45 @@ tags:
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

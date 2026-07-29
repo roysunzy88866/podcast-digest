@@ -18,7 +18,7 @@ tags:
   - AI 编程
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战
 
@@ -31,15 +31,13 @@ tags:
 <div class="pd-hook"><div class="z">我认为这是公司最挣扎的事情，也就是你有这些人，他们是这 1% 的 AI 用户。他们在修补他们的工作流程，他们高度 AI 化，然后你有你知道组织中其余 90% 到 99% 的人不确定该什么时候使用什么。</div><div class="a">Jiaona Zhang · 05:38</div></div>
 
 > [!info] 关联
-> **主持**:[[Jiaona Zhang]]
+> **人物** [[Jiaona Zhang]] · [[Akash]]
 >
-> **联合主持**:[[Akash]]
+> **公司** [[Laurel]] · [[GitHub]] · [[Slack]] · [[Dust]] · [[Devon]]
 >
-> **涉及公司**:[[Laurel]] · [[GitHub]] · [[Slack]] · [[Dust]] · [[Devon]]
+> **概念** [[智能体]] · [[剧本]] · [[技能]] · [[本体]] · [[船长]]
 >
-> **概念**:[[智能体]] · [[剧本]] · [[技能]] · [[本体]] · [[船长]]
->
-> **来源**:[Product Growth Podcast](https://www.news.aakashg.com/p/company-os-jz)
+> **来源** [Product Growth Podcast](https://www.news.aakashg.com/p/company-os-jz)
 
 <div class="pd-tldr"><b>一句话</b>Laurel CPO 分享如何用 AI 技能库构建公司操作系统，让非工程师也能端到端交付产品功能。</div>
 
@@ -112,33 +110,33 @@ Laurel 提出了一个「[[船长|船长]]」模式：每个项目任命一位�
 
 <div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
 
-> 我认为这是公司最挣扎的事情，也就是你有这些人，他们是这 1% 的 AI 用户。他们在修补他们的工作流程，他们高度 AI 化，然后你有你知道组织中其余 90% 到 99% 的人不确定该什么时候使用什么。  
+> <span class="qz">我认为这是公司最挣扎的事情，也就是你有这些人，他们是这 1% 的 AI 用户。他们在修补他们的工作流程，他们高度 AI 化，然后你有你知道组织中其余 90% 到 99% 的人不确定该什么时候使用什么。</span>  
 > *I think that's the biggest thing that companies struggle with, which is you got these people who are these 1% AI users. they're tinkering with their workflows they're highly AI pilled and then you have the you know 90 to 99 percent of the rest of the organization who isn't sure what to use when*  
-> —— Jiaona Zhang · [05:38] ^q1
+> <span class="qm">—— Jiaona Zhang · [05:38]</span> ^q1
 
-> 如果每个人都在朝不同的方向奔跑，即使你跑得非常快，你也不会真的到达任何地方。  
+> <span class="qz">如果每个人都在朝不同的方向奔跑，即使你跑得非常快，你也不会真的到达任何地方。</span>  
 > *if everyone's running in different directions, even if you're running incredibly fast, you're not really going to get anywhere.*  
-> —— Jiaona Zhang · [40:08] ^q2
+> <span class="qm">—— Jiaona Zhang · [40:08]</span> ^q2
 
-> 我想是的，是的，我的意思是，我曾经手下有几百人，而今天我有 5 个 PM 和 4 个设计师，并且没有真正的理由去增加人数，因为就像当你增加更多人，你就增加了更多协调成本  
+> <span class="qz">我想是的，是的，我的意思是，我曾经手下有几百人，而今天我有 5 个 PM 和 4 个设计师，并且没有真正的理由去增加人数，因为就像当你增加更多人，你就增加了更多协调成本</span>  
 > *I think so yeah I mean I've had hundreds of people and today I have five PMs and four designers and there isn't a real reason to grow that because again like when you add more people you add more coordination costs*  
-> —— Jiaona Zhang · [57:25] ^q3
+> <span class="qm">—— Jiaona Zhang · [57:25]</span> ^q3
 
-> 我认为这是因为 1 个 PM 可以做比以往任何时候多得多的事情，但没有那么多有这种技能的人，有那种判断力的人，是 AI 化的人，无畏地经历所有这些环节的人  
+> <span class="qz">我认为这是因为 1 个 PM 可以做比以往任何时候多得多的事情，但没有那么多有这种技能的人，有那种判断力的人，是 AI 化的人，无畏地经历所有这些环节的人</span>  
 > *I think it's because 1PM can do so much more than ever before, but there aren't that many of them who are that skilled, that have that judgment, who are AI-pilled, who fearlessly are going through all of these pieces*  
-> —— Jiaona Zhang · [61:32] ^q4
+> <span class="qm">—— Jiaona Zhang · [61:32]</span> ^q4
 
-> 我们在这里正在处理的空状态，最难做对的部分绝对不是工程，最难做对的部分甚至不是设计，而是内容  
+> <span class="qz">我们在这里正在处理的空状态，最难做对的部分绝对不是工程，最难做对的部分甚至不是设计，而是内容</span>  
 > *The empty state that we're working on here it's the hardest part to get right is definitely not the engineering the hardest part to get right is not even the design it's the content*  
-> —— Jiaona Zhang · [34:39] ^q5
+> <span class="qm">—— Jiaona Zhang · [34:39]</span> ^q5
 
-> 所以我认为这真的在于寻找我称之为编排者的人，那些在思维上有大局观但在执行上落实到细节的人。  
+> <span class="qz">所以我认为这真的在于寻找我称之为编排者的人，那些在思维上有大局观但在执行上落实到细节的人。</span>  
 > *So I think it's really finding who I call the orchestrators, the people who are big picture in terms of their thinking but down to the detail in terms of their execution.*  
-> —— Jiaona Zhang · [62:19] ^q6
+> <span class="qm">—— Jiaona Zhang · [62:19]</span> ^q6
 
-> 很多时候当你说这是每个人的责任时，那就是没有任何人的责任，所以我们在 Laurel 所做的是我们实际上有一个 AI 运营团队  
+> <span class="qz">很多时候当你说这是每个人的责任时，那就是没有任何人的责任，所以我们在 Laurel 所做的是我们实际上有一个 AI 运营团队</span>  
 > *a lot of times when you say it's everyone's responsibility it's no one's responsibility and so what we have at Laurel is we actually have an AI operations team*  
-> —— Jiaona Zhang · [50:07] ^q7
+> <span class="qm">—— Jiaona Zhang · [50:07]</span> ^q7
 
 <div class="pd-sec">接着看</div>
 
@@ -238,7 +236,45 @@ Laurel 提出了一个「[[船长|船长]]」模式：每个项目任命一位�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

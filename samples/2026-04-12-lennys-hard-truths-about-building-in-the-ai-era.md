@@ -18,7 +18,7 @@ tags:
   - 创业与行业
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评
 
@@ -31,15 +31,13 @@ tags:
 <div class="pd-hook"><div class="z">你建立的团队就是你建立的公司。</div><div class="a">Keith Rabois · 05:52</div></div>
 
 > [!info] 关联
-> **主持**:[[Keith Rabois]]
+> **人物** [[Keith Rabois]] · [[Lenny]]
 >
-> **联合主持**:[[Lenny]]
+> **公司** [[PayPal]] · [[Square]] · [[Faire]] · [[Ramp]] · [[Airbnb]]
 >
-> **涉及公司**:[[PayPal]] · [[Square]] · [[Faire]] · [[Ramp]] · [[Airbnb]]
+> **概念** [[桶和弹药]] · [[人才密度]] · [[PM]] · [[商业头脑]] · [[客户反馈]] · [[心理安全感]]
 >
-> **概念**:[[桶和弹药]] · [[人才密度]] · [[PM]] · [[商业头脑]] · [[客户反馈]] · [[心理安全感]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era)
 
 <div class="pd-tldr"><b>一句话</b>从 PayPal 黑帮到顶级 VC，Keith Rabois 讲透了如何识别顶尖人才、如何在 AI 时代重构团队。</div>
 
@@ -101,45 +99,45 @@ Keith 自认是一个「创始人驱动型」的投资者：只要判断这个�
 
 <div class="pd-sec">全部金句 <span>10 条(中英对照,已过机器闸门)</span></div>
 
-> 你建立的团队就是你建立的公司。  
+> <span class="qz">你建立的团队就是你建立的公司。</span>  
 > *The team you build is the company you build.*  
-> —— Keith Rabois · [05:52] ^q1
+> <span class="qm">—— Keith Rabois · [05:52]</span> ^q1
 
-> 我认为你必须建立在未被发现的才华之上。  
+> <span class="qz">我认为你必须建立在未被发现的才华之上。</span>  
 > *I think you have to build a company on undiscovered talent.*  
-> —— Keith Rabois · [25:08] ^q2
+> <span class="qm">—— Keith Rabois · [25:08]</span> ^q2
 
-> CEO 的唯一角色就是抵消那种自满。  
+> <span class="qz">CEO 的唯一角色就是抵消那种自满。</span>  
 > *The single role for the CEO is offsetting that complacency.*  
-> —— Keith Rabois · [28:45] ^q3
+> <span class="qm">—— Keith Rabois · [28:45]</span> ^q3
 
-> 当人们在滑行（摸鱼）时，世界上最好的人的士气确实会下降。  
+> <span class="qz">当人们在滑行（摸鱼）时，世界上最好的人的士气确实会下降。</span>  
 > *And the morale actually does go down for the best people in the world when people are skating.*  
-> —— Keith Rabois · [32:30] ^q4
+> <span class="qm">—— Keith Rabois · [32:30]</span> ^q4
 
-> 我注意到在一些最好的组织里，token 的第一大消耗者是 CMO  
+> <span class="qz">我注意到在一些最好的组织里，token 的第一大消耗者是 CMO</span>  
 > *What I've noticed in some of the best organizations is the number one consumer of tokens is the CMO*  
-> —— Keith Rabois · [33:15] ^q5
+> <span class="qm">—— Keith Rabois · [33:15]</span> ^q5
 
-> 他让我相信，PM 这个概念在未来基本上讲不通。  
+> <span class="qz">他让我相信，PM 这个概念在未来基本上讲不通。</span>  
 > *he convinced me that the idea of a PM makes no sense basically in the future.*  
-> —— Keith Rabois · [35:34] ^q6
+> <span class="qm">—— Keith Rabois · [35:34]</span> ^q6
 
-> 基础模型的能力或像 Lovable 这样的公司的能力正以如此快的速度提升，以至于制定一个为期一年的路线图毫无意义。  
+> <span class="qz">基础模型的能力或像 Lovable 这样的公司的能力正以如此快的速度提升，以至于制定一个为期一年的路线图毫无意义。</span>  
 > *the capabilities of foundation models or companies like Lovable and things like that are just so improving such a rapid rate that it makes no sense to have a year-long roadmap.*  
-> —— Keith Rabois · [35:56] ^q7
+> <span class="qm">—— Keith Rabois · [35:56]</span> ^q7
 
-> 在管理一个 20 人团队的同时，他个人提交的代码量和他作为独立贡献者时一样多，因为工具太棒了，而且他已成为使用 AI 的领军先驱。  
+> <span class="qz">在管理一个 20 人团队的同时，他个人提交的代码量和他作为独立贡献者时一样多，因为工具太棒了，而且他已成为使用 AI 的领军先驱。</span>  
 > *he personally ships as much code as he used to as an individual contributor while he's managing a team of 20 because the tools are so great and he's become a leading pioneer in the usage of AI.*  
-> —— Keith Rabois · [40:35] ^q8
+> <span class="qm">—— Keith Rabois · [40:35]</span> ^q8
 
-> 99% 的时间他们会告诉你除了真实原因之外的每一个原因。  
+> <span class="qz">99% 的时间他们会告诉你除了真实原因之外的每一个原因。</span>  
 > *99% of the time they will tell you every reason except the real reason.*  
-> —— Keith Rabois · [53:02] ^q9
+> <span class="qm">—— Keith Rabois · [53:02]</span> ^q9
 
-> 高性能机器没有心理安全感。  
+> <span class="qz">高性能机器没有心理安全感。</span>  
 > *High performance machines don't have psychological safety.*  
-> —— Keith Rabois · [74:41] ^q10
+> <span class="qm">—— Keith Rabois · [74:41]</span> ^q10
 
 <div class="pd-sec">接着看</div>
 
@@ -239,7 +237,45 @@ Keith 自认是一个「创始人驱动型」的投资者：只要判断这个�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

@@ -17,7 +17,7 @@ tags:
   - 组织与领导力
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷
 
@@ -30,15 +30,13 @@ tags:
 <div class="pd-hook"><div class="z">对我来说,我们要感觉公司里的每一个项目都是故意人手不足的,这一点真的很重要。</div><div class="a">Matt MacInnis · 00:00</div></div>
 
 > [!info] 关联
-> **主持**:[[Matt MacInnis]]
+> **人物** [[Matt MacInnis]] · [[Lenny]] · [[Amar]]
 >
-> **联合主持**:[[Lenny]] · [[Amar]]
+> **公司** [[Rippling]]
 >
-> **涉及公司**:[[Rippling]]
+> **概念** [[刻意人手不足]] · [[Alpha 与 Beta]] · [[产品市场契合度]] · [[熵]] · [[幂律分布]] · [[单点解决方案]]
 >
-> **概念**:[[刻意人手不足]] · [[Alpha 与 Beta]] · [[产品市场契合度]] · [[熵]] · [[幂律分布]] · [[单点解决方案]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/10-contrarian-leadership-truths)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/10-contrarian-leadership-truths)
 
 <div class="pd-tldr"><b>一句话</b>Rippling CPO 谈如何用极度紧绷的状态对抗组织熵增,以及何时该放弃并退出创业。</div>
 
@@ -98,65 +96,65 @@ Matt 曾创办一家公司长达九年,却以黯然收场。他深刻体会到,�
 
 <div class="pd-sec">全部金句 <span>15 条(中英对照,已过机器闸门)</span></div>
 
-> 对我来说,我们要感觉公司里的每一个项目都是故意人手不足的,这一点真的很重要。  
+> <span class="qz">对我来说,我们要感觉公司里的每一个项目都是故意人手不足的,这一点真的很重要。</span>  
 > *It is really important to me that we feel that we've deliberately understaffed every project at the company.*  
-> —— Matt MacInnis · [00:00] ^q1
+> <span class="qm">—— Matt MacInnis · [00:00]</span> ^q1
 
-> 团队总是会为了局部的舒适度而优化,而不是为了公司的结果。  
+> <span class="qz">团队总是会为了局部的舒适度而优化,而不是为了公司的结果。</span>  
 > *Teams will always optimize for local comfort over company outcomes.*  
-> —— Matt MacInnis · [00:56] ^q2
+> <span class="qm">—— Matt MacInnis · [00:56]</span> ^q2
 
-> 创始人 CEO 之外的每一圈管理层,其强度都有可能出现一个数量级的下降。  
+> <span class="qz">创始人 CEO 之外的每一圈管理层,其强度都有可能出现一个数量级的下降。</span>  
 > *Every next concentric circle of management beyond the founder CEO has the potential to be an order of magnitude drop off in intensity.*  
-> —— Matt MacInnis · [01:07] ^q3
+> <span class="qm">—— Matt MacInnis · [01:07]</span> ^q3
 
-> 如果他们在工作中发现自己处于舒适区,那他们肯定是在犯错误。  
+> <span class="qz">如果他们在工作中发现自己处于舒适区,那他们肯定是在犯错误。</span>  
 > *If they ever find themselves in the comfort zone at work, they are definitely making a mistake.*  
-> —— Matt MacInnis · [06:01] ^q4
+> <span class="qm">—— Matt MacInnis · [06:01]</span> ^q4
 
-> 如果你在场上留下了任何东西,如果你某种程度上为你的竞争对手留了一条裂缝,他们有 100% 的几率会去填满那条裂缝。  
+> <span class="qz">如果你在场上留下了任何东西,如果你某种程度上为你的竞争对手留了一条裂缝,他们有 100% 的几率会去填满那条裂缝。</span>  
 > *If you leave anything on the field, if you sort of leave a crack for your competitor, 100% chance they're going to go fill that crack.*  
-> —— Matt MacInnis · [09:33] ^q5
+> <span class="qm">—— Matt MacInnis · [09:33]</span> ^q5
 
-> 所以很清楚,人员不足比人员过剩要小恶得多。  
+> <span class="qz">所以很清楚,人员不足比人员过剩要小恶得多。</span>  
 > *And so it's very clear that under-staffing is less evil than over-staffing.*  
-> —— Matt MacInnis · [12:04] ^q6
+> <span class="qm">—— Matt MacInnis · [12:04]</span> ^q6
 
-> 你并没有真正从你的错误中学习,你从你的成功中学习。  
+> <span class="qz">你并没有真正从你的错误中学习,你从你的成功中学习。</span>  
 > *You don't really learn from your mistakes, you learn from your successes.*  
-> —— Matt MacInnis · [14:27] ^q7
+> <span class="qm">—— Matt MacInnis · [14:27]</span> ^q7
 
-> 商业中的流程存在的唯一目的就是降低 beta。  
+> <span class="qz">商业中的流程存在的唯一目的就是降低 beta。</span>  
 > *Processes in a business exist for the sole purpose of lowering beta.*  
-> —— Matt MacInnis · [28:03] ^q8
+> <span class="qm">—— Matt MacInnis · [28:03]</span> ^q8
 
-> 流程的缺点是它会抑制 alpha。  
+> <span class="qz">流程的缺点是它会抑制 alpha。</span>  
 > *The downside of a process is that it suppresses alpha.*  
-> —— Matt MacInnis · [28:15] ^q9
+> <span class="qm">—— Matt MacInnis · [28:15]</span> ^q9
 
-> 如果你讨厌产品经理,你只是还没与一位优秀的产品经理合作过。  
+> <span class="qz">如果你讨厌产品经理,你只是还没与一位优秀的产品经理合作过。</span>  
 > *If you hate product managers, you just haven't worked with a great product manager.*  
-> —— Lenny · [41:55] ^q10
+> <span class="qm">—— Lenny · [41:55]</span> ^q10
 
-> 我们在硅谷谈论永不放弃,但这完全是绝对的风险投资狗屁废话。  
+> <span class="qz">我们在硅谷谈论永不放弃,但这完全是绝对的风险投资狗屁废话。</span>  
 > *We talk in Silicon Valley about never quit, but that is complete absolute venture capital bullshit.*  
-> —— Matt MacInnis · [44:29] ^q11
+> <span class="qm">—— Matt MacInnis · [44:29]</span> ^q11
 
-> 你应该他妈的放弃。你应该重置时钟,你应该重置股权结构表,因为相信我,当产品市场契合度到来时,它是疯狂的且令人兴奋的,你应该去追求它。  
+> <span class="qz">你应该他妈的放弃。你应该重置时钟,你应该重置股权结构表,因为相信我,当产品市场契合度到来时,它是疯狂的且令人兴奋的,你应该去追求它。</span>  
 > *You should fucking quit. You should reset the clock, you should reset the cap table because trust me, product market fit when it arrives is insane and it's exciting and you should pursue it.*  
-> —— Matt MacInnis · [46:11] ^q12
+> <span class="qm">—— Matt MacInnis · [46:11]</span> ^q12
 
-> 不要向别人征求建议,要向别人征求相关经验。  
+> <span class="qz">不要向别人征求建议,要向别人征求相关经验。</span>  
 > *Don't ask people for advice, ask people for relevant experience.*  
-> —— Matt MacInnis · [50:24] ^q13
+> <span class="qm">—— Matt MacInnis · [50:24]</span> ^q13
 
-> 不要发布产品后发现缺乏成功,然后试图通过营销来度过难关,因为受体结合很可能不存在。  
+> <span class="qz">不要发布产品后发现缺乏成功,然后试图通过营销来度过难关,因为受体结合很可能不存在。</span>  
 > *Do not ship the product, find a lack of success, and then try to market your way through that, because the binding receptors likely don't exist*  
-> —— Matt MacInnis · [53:52] ^q14
+> <span class="qm">—— Matt MacInnis · [53:52]</span> ^q14
 
-> 对抗熵的唯一解药,对抗系统中衰变的唯一解药就是能量。  
+> <span class="qz">对抗熵的唯一解药,对抗系统中衰变的唯一解药就是能量。</span>  
 > *The only antidote to entropy, the only antidote to decay in a system is energy.*  
-> —— Matt MacInnis · [63:17] ^q15
+> <span class="qm">—— Matt MacInnis · [63:17]</span> ^q15
 
 <div class="pd-sec">接着看</div>
 
@@ -256,7 +254,45 @@ Matt 曾创办一家公司长达九年,却以黯然收场。他深刻体会到,�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

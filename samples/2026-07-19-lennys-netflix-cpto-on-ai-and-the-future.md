@@ -18,7 +18,7 @@ tags:
   - 职业与个人成长
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失
 
@@ -31,15 +31,13 @@ tags:
 <div class="pd-hook"><div class="z">所以,可能是一个智能体编写了代码,或者我帮助进行了分析,而这并不是我的背景,但这并不意味着人们不需要对他们所创造的东西带来的责任负责。</div><div class="a">Elizabeth Stone · 06:02</div></div>
 
 > [!info] 关联
-> **主持**:[[Lenny]]
+> **人物** [[Lenny]] · [[Elizabeth Stone]]
 >
-> **联合主持**:[[Elizabeth Stone]]
+> **公司** [[Netflix]] · [[InterPositive]]
 >
-> **涉及公司**:[[Netflix]] · [[InterPositive]]
+> **概念** [[GenAI]] · [[智能体]] · [[系统思维]] · [[动荡阶段]] · [[留任测试]] · [[卓越即操作系统]] · [[铺设路径]] · [[人才密度]] · [[无责复盘]] · [[AI 熟练度]] · [[真相来源数据]] · [[护栏]]
 >
-> **概念**:[[GenAI]] · [[智能体]] · [[系统思维]] · [[动荡阶段]] · [[留任测试]] · [[卓越即操作系统]] · [[铺设路径]] · [[人才密度]] · [[无责复盘]] · [[AI 熟练度]] · [[真相来源数据]] · [[护栏]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/netflix-cpto-on-ai-and-the-future)
 
 <div class="pd-tldr"><b>一句话</b>Elizabeth Stone 分享 AI 如何重塑 Netflix 的团队角色、招聘标准与企业文化——专长不会消失,系统思维与对模糊性的包容成为刚需。</div>
 
@@ -107,25 +105,25 @@ Netflix 也提醒大家,它在 AI 和机器学习(ML)上的积累不是从 GenAI
 
 <div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
 
-> 所以,可能是一个智能体编写了代码,或者我帮助进行了分析,而这并不是我的背景,但这并不意味着人们不需要对他们所创造的东西带来的责任负责。  
+> <span class="qz">所以,可能是一个智能体编写了代码,或者我帮助进行了分析,而这并不是我的背景,但这并不意味着人们不需要对他们所创造的东西带来的责任负责。</span>  
 > *So, it can be that an agent wrote the code or I helped to do an analysis when that's not really my background, but it doesn't make people not have the responsibility that comes with what they've created.*  
-> —— Elizabeth Stone · [06:02] ^q1
+> <span class="qm">—— Elizabeth Stone · [06:02]</span> ^q1
 
-> 但我认为如果说设计和深刻的设计专业知识及思维因此而被挤出,那将是一个错误,仅仅是因为我们可以更快地编写代码,我们可以更快地进行数据分析。  
+> <span class="qz">但我认为如果说设计和深刻的设计专业知识及思维因此而被挤出,那将是一个错误,仅仅是因为我们可以更快地编写代码,我们可以更快地进行数据分析。</span>  
 > *But I think it would be a mistake to say design and deep design expertise and thinking gets squeezed out, just because we can write code faster, we can do data analysis faster.*  
-> —— Elizabeth Stone · [21:32] ^q2
+> <span class="qm">—— Elizabeth Stone · [21:32]</span> ^q2
 
-> 非常狭窄、深度的专业化日子对我来说感觉更加受限了。  
+> <span class="qz">非常狭窄、深度的专业化日子对我来说感觉更加受限了。</span>  
 > *The days of very narrow, deep specialization feel more limited to me.*  
-> —— Elizabeth Stone · [22:28] ^q3
+> <span class="qm">—— Elizabeth Stone · [22:28]</span> ^q3
 
-> 它是对抗许多大公司会做的事情,并且经常在那种不适中感到舒适。  
+> <span class="qz">它是对抗许多大公司会做的事情,并且经常在那种不适中感到舒适。</span>  
 > *It's a resistance to do the thing that a lot of bigger companies would do and to feel comfortable in that discomfort very often.*  
-> —— Elizabeth Stone · [45:22] ^q4
+> <span class="qm">—— Elizabeth Stone · [45:22]</span> ^q4
 
-> 嗯,人才密度是不可妥协的。  
+> <span class="qz">嗯,人才密度是不可妥协的。</span>  
 > *Well, the talent density is the non-negotiable.*  
-> —— Elizabeth Stone · [41:51] ^q5
+> <span class="qm">—— Elizabeth Stone · [41:51]</span> ^q5
 
 <div class="pd-sec">接着看</div>
 
@@ -223,7 +221,45 @@ Netflix 也提醒大家,它在 AI 和机器学习(ML)上的积累不是从 GenAI
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

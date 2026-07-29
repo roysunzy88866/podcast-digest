@@ -17,7 +17,7 @@ tags:
   - 创业与行业
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble
 
@@ -30,15 +30,13 @@ tags:
 <div class="pd-hook"><div class="z">我觉得 AGI 更多是一个营销术语,而不是科学术语,作为科学家而非技术专家来说。</div><div class="a">Dr. Fei-Fei Li · 25:47</div></div>
 
 > [!info] 关联
-> **主持**:[[Lenny]]
+> **人物** [[Lenny]] · [[Dr. Fei-Fei Li]]
 >
-> **联合主持**:[[Dr. Fei-Fei Li]]
+> **公司** [[World Labs]] · [[ChatGPT]]
 >
-> **涉及公司**:[[World Labs]] · [[ChatGPT]]
+> **概念** [[Marble]] · [[ImageNet]] · [[空间智能]] · [[世界模型]] · [[具身智能]] · [[苦涩的教训]] · [[神经网络]] · [[机器学习]] · [[人工智能]] · [[GPU]]
 >
-> **概念**:[[Marble]] · [[ImageNet]] · [[空间智能]] · [[世界模型]] · [[具身智能]] · [[苦涩的教训]] · [[神经网络]] · [[机器学习]] · [[人工智能]] · [[GPU]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/the-godmother-of-ai)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/the-godmother-of-ai)
 
 <div class="pd-tldr"><b>一句话</b>从 ImageNet 催生深度学习,到 World Labs 用空间智能解锁 3D 世界模型。</div>
 
@@ -147,25 +145,25 @@ World Labs 成立至今大约 18 个月,团队目前约 30 人。李飞飞坦言
 
 <div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
 
-> 我觉得 AGI 更多是一个营销术语,而不是科学术语,作为科学家而非技术专家来说。  
+> <span class="qz">我觉得 AGI 更多是一个营销术语,而不是科学术语,作为科学家而非技术专家来说。</span>  
 > *I feel AGI is more a marketing term than a scientific term as a scientist than technologist.*  
-> —— Dr. Fei-Fei Li · [25:47] ^q1
+> <span class="qm">—— Dr. Fei-Fei Li · [25:47]</span> ^q1
 
-> AI 没有任何人工的成分。它的灵感来自人。它是由人创造的,最重要的是,它影响人。  
+> <span class="qz">AI 没有任何人工的成分。它的灵感来自人。它是由人创造的,最重要的是,它影响人。</span>  
 > *There's nothing artificial about AI. It's inspired by people. It's created by people, and most importantly, it impacts people.*  
-> —— Lenny · [07:50] ^q2
+> <span class="qm">—— Lenny · [07:50]</span> ^q2
 
-> 我是一个在智力上非常无畏的人,我必须说当我雇佣年轻人时,我会寻找这一点,因为我认为如果一个人想要做出改变,这是一个非常重要的品质,那就是当你想要做出改变时,你必须接受你正在创造新事物或正在潜入新事物。  
+> <span class="qz">我是一个在智力上非常无畏的人,我必须说当我雇佣年轻人时,我会寻找这一点,因为我认为如果一个人想要做出改变,这是一个非常重要的品质,那就是当你想要做出改变时,你必须接受你正在创造新事物或正在潜入新事物。</span>  
 > *I'm an intellectually very fearless person, and I have to say when I hire young people, I look for that because I think that's a very important quality if one wants to make a difference, is that when you want to make a difference, you have to accept that you're creating something new or you're diving into something new.*  
-> —— Dr. Fei-Fei Li · [66:05] ^q3
+> <span class="qm">—— Dr. Fei-Fei Li · [66:05]</span> ^q3
 
-> 它是由一家虚拟制作公司制作的。我们与索尼合作,他们使用 Marble 场景来拍摄那些视频。所以我们与那些技术艺术家和导演合作,他们当时说,这将我们的制作时间缩短了 40 倍。  
+> <span class="qz">它是由一家虚拟制作公司制作的。我们与索尼合作,他们使用 Marble 场景来拍摄那些视频。所以我们与那些技术艺术家和导演合作,他们当时说,这将我们的制作时间缩短了 40 倍。</span>  
 > *It was produced by a virtual production company. We collaborated with Sony and they use Marble scenes to shoot those videos. So we were collaborating with those technical artists and directors, and they were saying, this has cut our production time by 40X.*  
-> —— Dr. Fei-Fei Li · [52:59] ^q4
+> <span class="qm">—— Dr. Fei-Fei Li · [52:59]</span> ^q4
 
-> 我认为实际上我在 AI 领域工作得越多,我就越尊重人类。  
+> <span class="qz">我认为实际上我在 AI 领域工作得越多,我就越尊重人类。</span>  
 > *I think actually the more I work in AI, the more I respect humans.*  
-> —— Dr. Fei-Fei Li · [47:57] ^q5
+> <span class="qm">—— Dr. Fei-Fei Li · [47:57]</span> ^q5
 
 <div class="pd-sec">接着看</div>
 
@@ -265,7 +263,45 @@ World Labs 成立至今大约 18 个月,团队目前约 30 人。李飞飞坦言
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

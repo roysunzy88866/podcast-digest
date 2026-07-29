@@ -18,7 +18,7 @@ tags:
   - 创业与行业
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # 对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代
 
@@ -31,15 +31,13 @@ tags:
 <div class="pd-hook"><div class="z">大多数人在大公司里认为的是大公司不进行实验。事实上并非如此。大公司经常进行实验。大公司不做的是当一个实验成功时,他们不会全力以赴并加倍下注。</div><div class="a">Jeetu Patel · 11:10</div></div>
 
 > [!info] 关联
-> **主持**:[[Jeetu Patel]]
+> **人物** [[Jeetu Patel]] · [[Lenny]]
 >
-> **联合主持**:[[Lenny]]
+> **公司** [[Cisco]] · [[NVIDIA]]
 >
-> **涉及公司**:[[Cisco]] · [[NVIDIA]]
+> **概念** [[AI 优先]] · [[能力过剩]] · [[超级趋势]] · [[炒作周期]] · [[丢包]] · [[松散耦合]]
 >
-> **概念**:[[AI 优先]] · [[能力过剩]] · [[超级趋势]] · [[炒作周期]] · [[丢包]] · [[松散耦合]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/ai-is-critical-for-humanitys-survival)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/ai-is-critical-for-humanitys-survival)
 
 <div class="pd-tldr"><b>一句话</b>Cisco 产品一号位亲述:大企业如何从顶层决心转型 AI、放下自我,以及平台与时机为何决定个人成败。</div>
 
@@ -112,65 +110,65 @@ Jeetu 能有今天的视野,还因为他坚信一个关于个人成长的核心�
 
 <div class="pd-sec">全部金句 <span>15 条(中英对照,已过机器闸门)</span></div>
 
-> 大多数人在大公司里认为的是大公司不进行实验。事实上并非如此。大公司经常进行实验。大公司不做的是当一个实验成功时,他们不会全力以赴并加倍下注。  
+> <span class="qz">大多数人在大公司里认为的是大公司不进行实验。事实上并非如此。大公司经常进行实验。大公司不做的是当一个实验成功时,他们不会全力以赴并加倍下注。</span>  
 > *Most people think in large companies is large companies don't experiment. That is in fact not true. Large companies experiment a lot. What large companies don't do is when an experiment works, they don't go all in and double down.*  
-> —— Jeetu Patel · [11:10] ^q1
+> <span class="qm">—— Jeetu Patel · [11:10]</span> ^q1
 
-> 但反过来是必然的,如果你不选择 AI,如果你在你的任何工作职能中不灵活,那么你的工作在长远来看可能不会那么相关。  
+> <span class="qz">但反过来是必然的,如果你不选择 AI,如果你在你的任何工作职能中不灵活,那么你的工作在长远来看可能不会那么相关。</span>  
 > *But the reverse was guaranteed to be the case, that if you didn't choose AI, if you weren't going to be dexterous in whatever job function you're doing, then your job is probably not going to be that relevant over here in the long run.*  
-> —— Jeetu Patel · [11:56] ^q2
+> <span class="qm">—— Jeetu Patel · [11:56]</span> ^q2
 
-> 我们绝不能成为一家拥有 251 次收购和数千种不同产品的控股公司,我们必须成为一家平台公司。  
+> <span class="qz">我们绝不能成为一家拥有 251 次收购和数千种不同产品的控股公司,我们必须成为一家平台公司。</span>  
 > *We have to become not a holding company of 251 acquisitions and thousands of different products, we have to become a platform company.*  
-> —— Jeetu Patel · [13:32] ^q3
+> <span class="qm">—— Jeetu Patel · [13:32]</span> ^q3
 
-> 如果这些 GPU 没有联网在一起,你就没有 AI,因为过去你可以在单个 GPU 上训练一个模型,但后来发生的事情是模型变得太大,无法放在单个 GPU 上。  
+> <span class="qz">如果这些 GPU 没有联网在一起,你就没有 AI,因为过去你可以在单个 GPU 上训练一个模型,但后来发生的事情是模型变得太大,无法放在单个 GPU 上。</span>  
 > *If these GPUs aren't networked together, you don't have AI, because it used to be that you could train a model on a single GPU, but then what happened was the model got too big to be put on a single GPU.*  
-> —— Jeetu Patel · [17:41] ^q4
+> <span class="qm">—— Jeetu Patel · [17:41]</span> ^q4
 
-> 这需要一套非常复杂的技术,我们要构建这些技术,以确保你可以有两个相距 800 公里的数据中心,但是,它们运行起来完全同步。  
+> <span class="qz">这需要一套非常复杂的技术,我们要构建这些技术,以确保你可以有两个相距 800 公里的数据中心,但是,它们运行起来完全同步。</span>  
 > *That requires a very sophisticated set of technologies that we build to make sure that you could have two data centers, 800 kilometers apart, but boy, they run completely in sync with each other.*  
-> —— Jeetu Patel · [18:40] ^q5
+> <span class="qm">—— Jeetu Patel · [18:40]</span> ^q5
 
-> 当情况不再如此时,我们担心 AI 夺走我们的工作,我认为人类的生存取决于成功的 AI。  
+> <span class="qz">当情况不再如此时,我们担心 AI 夺走我们的工作,我认为人类的生存取决于成功的 AI。</span>  
 > *When that's not the case, we worry about AI taking our jobs, I think that survival of humanity depends on a successful AI.*  
-> —— Jeetu Patel · [07:48] ^q6
+> <span class="qm">—— Jeetu Patel · [07:48]</span> ^q6
 
-> 我学到的关于基础设施的一点是,你并不总是能得到荣耀,但你总是会得到指责。  
+> <span class="qz">我学到的关于基础设施的一点是,你并不总是能得到荣耀,但你总是会得到指责。</span>  
 > *And the thing that I learned about infrastructure is, you don't always get the glory, but you always get the blame.*  
-> —— Jeetu Patel · [53:31] ^q7
+> <span class="qm">—— Jeetu Patel · [53:31]</span> ^q7
 
-> 因为如果在你和实际在一线工作的人之间隔着 3、4、5、6、7 层,你不想做的就是玩传话游戏,并假设人们只会层层传递  
+> <span class="qz">因为如果在你和实际在一线工作的人之间隔着 3、4、5、6、7 层,你不想做的就是玩传话游戏,并假设人们只会层层传递</span>  
 > *Because if you have 3, 4, 5, 6, 7 layers between you and the person who's actually doing the job in the front line, what you don't want to do is play the telephone game and assume that people will just cascade it*  
-> —— Jeetu Patel · [44:43] ^q8
+> <span class="qm">—— Jeetu Patel · [44:43]</span> ^q8
 
-> 因为当基础设施不工作时,人会死。有人没法做透析,有人没法做手术,我们需要确保我们正在与基础设施工作正常的人合作。  
+> <span class="qz">因为当基础设施不工作时,人会死。有人没法做透析,有人没法做手术,我们需要确保我们正在与基础设施工作正常的人合作。</span>  
 > *Because when the infrastructure doesn't work, people die. Someone doesn't get dialysis, someone doesn't get a surgery done, and we need to make sure that we're working with someone with the infrastructure is working.*  
-> —— Jeetu Patel · [54:47] ^q9
+> <span class="qm">—— Jeetu Patel · [54:47]</span> ^q9
 
-> 如果你不在乎谁得到功劳,你在生活中会走得远得多。  
+> <span class="qz">如果你不在乎谁得到功劳,你在生活中会走得远得多。</span>  
 > *If you don't care about who gets the credit, you just go a lot farther in life.*  
-> —— Jeetu Patel · [38:27] ^q10
+> <span class="qm">—— Jeetu Patel · [38:27]</span> ^q10
 
-> 因为即使是那个里里外外了解我的母亲都不知道我有多爱她,那么如果你在商业世界中不明确表达,那些人就没有机会知道你的感觉。  
+> <span class="qz">因为即使是那个里里外外了解我的母亲都不知道我有多爱她,那么如果你在商业世界中不明确表达,那些人就没有机会知道你的感觉。</span>  
 > *Because even my mother that knows me inside and out didn't know how much I loved her, that there's no chance that people in the business world are going to know how you feel if you're not explicit with them.*  
-> —— Jeetu Patel · [61:19] ^q11
+> <span class="qm">—— Jeetu Patel · [61:19]</span> ^q11
 
-> 我说,「这家伙比高管团队的每个人都聪明,可能跟我们要有的每个销售人员一样聪明,但他一天赚 10 美元,而我们都在享受这美好的生活,这是因为我们有平台可以使用,而他没有。」  
+> <span class="qz">我说,「这家伙比高管团队的每个人都聪明,可能跟我们要有的每个销售人员一样聪明,但他一天赚 10 美元,而我们都在享受这美好的生活,这是因为我们有平台可以使用,而他没有。」</span>  
 > *I'm like, "This guy is smarter than every person on the executive team and probably just as smart as every salesperson we have, but he's making $10 a day and all of us are enjoying this amazing life, and it's because we have access to a platform and he doesn't."*  
-> —— Jeetu Patel · [67:12] ^q12
+> <span class="qm">—— Jeetu Patel · [67:12]</span> ^q12
 
-> 它是最重要的。它是你控制得最少的东西。有很多公司在错误的时候建立了惊人的产品、惊人的服务,在正确的市场却没有赢,对吧?  
+> <span class="qz">它是最重要的。它是你控制得最少的东西。有很多公司在错误的时候建立了惊人的产品、惊人的服务,在正确的市场却没有赢,对吧?</span>  
 > *It's the most important. It's the thing that you control the least. And there's a lot of companies that have built amazing products, amazing services at the wrong time, in the right market and not won, right?*  
-> —— Jeetu Patel · [71:09] ^q13
+> <span class="qm">—— Jeetu Patel · [71:09]</span> ^q13
 
-> 不,如果你有一个伟大的市场和普通的团队,市场会把你拉上来。如果你有一个糟糕的市场和一个伟大的团队,市场会把你拖下去。市场总是赢家。  
+> <span class="qz">不,如果你有一个伟大的市场和普通的团队,市场会把你拉上来。如果你有一个糟糕的市场和一个伟大的团队,市场会把你拖下去。市场总是赢家。</span>  
 > *If you have a great market mediocre team, the market pulls you up. If you have a shitty market and a great team, the market drags you down. The market always wins.*  
-> —— Jeetu Patel · [72:37] ^q14
+> <span class="qm">—— Jeetu Patel · [72:37]</span> ^q14
 
-> 当你觉得你需要有个博士学位才能理解某人在说什么时,它大概率不会是一个超级趋势,因为根据定义,超级趋势是它将影响世界上很大一部分人口。  
+> <span class="qz">当你觉得你需要有个博士学位才能理解某人在说什么时,它大概率不会是一个超级趋势,因为根据定义,超级趋势是它将影响世界上很大一部分人口。</span>  
 > *When you feel like you need a PhD to understand what someone's saying, chances are it ain't going to be a megatrend, because by definition, a megatrend is it's going to impact a large population of the world.*  
-> —— Jeetu Patel · [75:25] ^q15
+> <span class="qm">—— Jeetu Patel · [75:25]</span> ^q15
 
 <div class="pd-sec">接着看</div>
 
@@ -270,7 +268,45 @@ Jeetu 能有今天的视野,还因为他坚信一个关于个人成长的核心�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

@@ -18,7 +18,7 @@ tags:
   - 智能体
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # 1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验
 
@@ -31,15 +31,13 @@ tags:
 <div class="pd-hook"><div class="z">我真的无法每年付给一个初级 SDR 15 万美元结果他们却辞职。</div><div class="a">Jason Lemkin · 08:18</div></div>
 
 > [!info] 关联
-> **主持**:[[Lenny]]
+> **人物** [[Lenny]] · [[Jason Lemkin]]
 >
-> **联合主持**:[[Jason Lemkin]]
+> **公司** [[SaaStr]] · [[Replit]] · [[Vercel]] · [[Salesforce]] · [[Artisan]] · [[Qualified]] · [[Delphi]]
 >
-> **涉及公司**:[[SaaStr]] · [[Replit]] · [[Vercel]] · [[Salesforce]] · [[Artisan]] · [[Qualified]] · [[Delphi]]
+> **概念** [[智能体]] · [[编排]] · [[go-to-market]] · [[前置部署工程师]] · [[剧本]] · [[AI 泡沫]] · [[CRM]]
 >
-> **概念**:[[智能体]] · [[编排]] · [[go-to-market]] · [[前置部署工程师]] · [[剧本]] · [[AI 泡沫]] · [[CRM]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/we-replaced-our-sales-team-with-20-ai-agents)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/we-replaced-our-sales-team-with-20-ai-agents)
 
 <div class="pd-tldr"><b>一句话</b>SaaStr 创始人用 20 个智能体替代约 10 人销售团队，详解 AI 落地 GTM 的实战经验。</div>
 
@@ -119,45 +117,45 @@ SaaStr 采购部署的第一个突破，其实始于「客服支持」。Jason �
 
 <div class="pd-sec">全部金句 <span>10 条(中英对照,已过机器闸门)</span></div>
 
-> 我真的无法每年付给一个初级 SDR 15 万美元结果他们却辞职。  
+> <span class="qz">我真的无法每年付给一个初级 SDR 15 万美元结果他们却辞职。</span>  
 > *I just can't pay a junior SDR $150,000 a year to quit.*  
-> —— Jason Lemkin · [08:18] ^q1
+> <span class="qm">—— Jason Lemkin · [08:18]</span> ^q1
 
-> 基于邮件节奏的 SDR 明年将被 AI 取代 90%。  
+> <span class="qz">基于邮件节奏的 SDR 明年将被 AI 取代 90%。</span>  
 > *The email-based cadence SDR will be 90% displaced by AI next year.*  
-> —— Jason Lemkin · [19:49] ^q2
+> <span class="qm">—— Jason Lemkin · [19:49]</span> ^q2
 
-> AI 正在取代人们今天不想做的工作，并且它正在挤出中游和平庸的人。  
+> <span class="qz">AI 正在取代人们今天不想做的工作，并且它正在挤出中游和平庸的人。</span>  
 > *AI is replacing the jobs people don't want to do today, and it is displacing the mid-pack and the mediocre.*  
-> —— Jason Lemkin · [13:50] ^q3
+> <span class="qm">—— Jason Lemkin · [13:50]</span> ^q3
 
-> 如果 Lenny 很棒，而另一个供应商更好但不会帮你，那就别做。  
+> <span class="qz">如果 Lenny 很棒，而另一个供应商更好但不会帮你，那就别做。</span>  
 > *if Lenny rocks and the other vendor is better and won't help you, don't do it.*  
-> —— Jason Lemkin · [36:14] ^q4
+> <span class="qm">—— Jason Lemkin · [36:14]</span> ^q4
 
-> 做编排者或首席 AI 人员对于懒人来说不是一份好工作，因为智能体从不睡觉。  
+> <span class="qz">做编排者或首席 AI 人员对于懒人来说不是一份好工作，因为智能体从不睡觉。</span>  
 > *Being the orchestrator or the chief AI person is not a good job for lazy people because the agents never sleep.*  
-> —— Jason Lemkin · [40:55] ^q5
+> <span class="qm">—— Jason Lemkin · [40:55]</span> ^q5
 
-> 业务流程变更归根结底，这么多创始人搞错了这一点，99% 的销售人员，他们不在乎业务流程变更。  
+> <span class="qz">业务流程变更归根结底，这么多创始人搞错了这一点，99% 的销售人员，他们不在乎业务流程变更。</span>  
 > *Business process change at the end of the day, and so many founders get this wrong, and 99% of sales folks, they don't care about business process change.*  
-> —— Jason Lemkin · [41:23] ^q6
+> <span class="qm">—— Jason Lemkin · [41:23]</span> ^q6
 
-> 拿你销售团队里最好的人，你拥有的最好的营销人员，拿他们的邮件文案并把它用作你的 AI 的模板。  
+> <span class="qz">拿你销售团队里最好的人，你拥有的最好的营销人员，拿他们的邮件文案并把它用作你的 AI 的模板。</span>  
 > *Take your best person on your sales team, your best marketer you have, take their email copy and use that as the template for your AI.*  
-> —— Jason Lemkin · [42:40] ^q7
+> <span class="qm">—— Jason Lemkin · [42:40]</span> ^q7
 
-> 对于 AI GTM 来说「足够好」的门槛，并没有我们想象的那么高。  
+> <span class="qz">对于 AI GTM 来说「足够好」的门槛，并没有我们想象的那么高。</span>  
 > *the bar for good enough for AI GTM, it's not as high as we think.*  
-> —— Jason Lemkin · [47:16] ^q8
+> <span class="qm">—— Jason Lemkin · [47:16]</span> ^q8
 
-> 我认为今天，在 100 分里，你有 95 分必须从内部提拔某人。  
+> <span class="qz">我认为今天，在 100 分里，你有 95 分必须从内部提拔某人。</span>  
 > *I think today, 95% of 100, you've got to promote someone internally.*  
-> —— Jason Lemkin · [54:20] ^q9
+> <span class="qm">—— Jason Lemkin · [54:20]</span> ^q9
 
-> 总的来说，我们将需要比以往更多的销售和 go-to-market 专业人士，因为赢家增长得太快了，即使他们效率更高，他们也比以往更需要人类。  
+> <span class="qz">总的来说，我们将需要比以往更多的销售和 go-to-market 专业人士，因为赢家增长得太快了，即使他们效率更高，他们也比以往更需要人类。</span>  
 > *Net net, we're going to need more sales and go-to-market professionals than ever because the winners are growing so quickly that even if they're more efficient, they will need more human beings than ever.*  
-> —— Jason Lemkin · [76:29] ^q10
+> <span class="qm">—— Jason Lemkin · [76:29]</span> ^q10
 
 <div class="pd-sec">接着看</div>
 
@@ -255,7 +253,45 @@ SaaStr 采购部署的第一个突破，其实始于「客服支持」。Jason �
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

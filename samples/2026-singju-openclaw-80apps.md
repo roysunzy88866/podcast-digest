@@ -16,7 +16,7 @@ tags:
   - 创业与行业
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenClaw创始人：为何80%的应用将消失</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenClaw创始人：为何80%的应用将消失</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # OpenClaw创始人：为何80%的应用将消失
 
@@ -29,13 +29,13 @@ tags:
 <div class="pd-hook"><div class="z">看起来每个人都在追逐某种集中的上帝智能。而在过去十天左右涌现出来的似乎是群体智能和社区智能。</div><div class="a">Raphael Schaad</div></div>
 
 > [!info] 关联
-> **嘉宾**:[[Raphael Schaad]] · [[Peter Steinberger]]
+> **人物** [[Raphael Schaad]] · [[Peter Steinberger]]
 >
-> **涉及公司**:[[Codex]] · [[Claude Code]]
+> **公司** [[Codex]] · [[Claude Code]]
 >
-> **概念**:[[OpenClaw]] · [[智能体]] · [[mcp]] · [[提示注入]] · [[CLI]] · [[护城河]]
+> **概念** [[OpenClaw]] · [[智能体]] · [[mcp]] · [[提示注入]] · [[CLI]] · [[护城河]]
 >
-> **来源**:[SingjuPost 转录](https://singjupost.com/openclaw-creator-why-80-of-apps-will-disappear-transcript/)
+> **来源** [SingjuPost 转录](https://singjupost.com/openclaw-creator-why-80-of-apps-will-disappear-transcript/)
 
 <div class="pd-tldr"><b>一句话</b>OpenClaw 作者谈运行在本地的个人 AI 智能体如何吞掉多数 App、用 CLI 取代 MCP,以及他作为独立开发者的构建哲学。</div>
 
@@ -115,29 +115,29 @@ Peter 觉得这极其迷人,于是和自己的智能体一起创建了 SOL MD,�
 
 <div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
 
-> 看起来每个人都在追逐某种集中的上帝智能。而在过去十天左右涌现出来的似乎是群体智能和社区智能。  
+> <span class="qz">看起来每个人都在追逐某种集中的上帝智能。而在过去十天左右涌现出来的似乎是群体智能和社区智能。</span>  
 > *It seems like everyone was chasing sort of the centralized God intelligence. And what has sort of emerged over the past 10 days or so is sort of the swarm intelligence and the community intelligence.*  
-> —— Raphael Schaad · 来自原文 ^q1
+> <span class="qm">—— Raphael Schaad · 来自原文</span> ^q1
 
-> 即使它是通用智能,如果它实际上也是专用智能呢?  
+> <span class="qz">即使它是通用智能,如果它实际上也是专用智能呢?</span>  
 > *Even though it’s generalized intelligence, what if it actually is also specialized intelligence?*  
-> —— Peter Steinberger · 来自原文 ^q2
+> <span class="qm">—— Peter Steinberger · 来自原文</span> ^q2
 
-> 所以公司试图把你绑定到他们的数据孤岛。  
+> <span class="qz">所以公司试图把你绑定到他们的数据孤岛。</span>  
 > *So the companies try to bind you to their data silo.*  
-> —— Peter Steinberger · 来自原文 ^q3
+> <span class="qm">—— Peter Steinberger · 来自原文</span> ^q3
 
-> 不,只需要 CLI。机器人真的擅长 Unix。你可以想要多少就有多少,它就能工作。  
+> <span class="qz">不,只需要 CLI。机器人真的擅长 Unix。你可以想要多少就有多少,它就能工作。</span>  
 > *No, just have CLIs. The bot really is good at Unix. You can have as many as you want and it just works.*  
-> —— Peter Steinberger · 来自原文 ^q4
+> <span class="qm">—— Peter Steinberger · 来自原文</span> ^q4
 
-> 没有理智的人类会尝试手动调用 MCP。  
+> <span class="qz">没有理智的人类会尝试手动调用 MCP。</span>  
 > *No sane human tries to call MCP manually.*  
-> —— Peter Steinberger · 来自原文 ^q5
+> <span class="qm">—— Peter Steinberger · 来自原文</span> ^q5
 
-> 必须是一个来自离硅谷很远的某个小国家的独行侠带给我们这一切。  
+> <span class="qz">必须是一个来自离硅谷很远的某个小国家的独行侠带给我们这一切。</span>  
 > *it had to be a loner from some tiny country far away from Silicon Valley to bring all of this upon us.*  
-> —— Raphael Schaad · 来自原文 ^q6
+> <span class="qm">—— Raphael Schaad · 来自原文</span> ^q6
 
 <div class="pd-sec">接着看</div>
 
@@ -237,7 +237,45 @@ Peter 觉得这极其迷人,于是和自己的智能体一起创建了 SOL MD,�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

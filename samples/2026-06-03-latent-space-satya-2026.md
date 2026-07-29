@@ -18,7 +18,7 @@ tags:
   - 智能体
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP
 
@@ -31,15 +31,13 @@ tags:
 <div class="pd-hook"><div class="z">拥有私有评估可能是最大的知识产权。</div><div class="a">Satya Nadella · 11:47</div></div>
 
 > [!info] 关联
-> **主持**:[[Saragawa]]
+> **人物** [[Saragawa]] · [[Satya Nadella]]
 >
-> **联合主持**:[[Satya Nadella]]
+> **公司** [[Microsoft]] · [[Azure]] · [[GitHub]] · [[Microsoft 365]]
 >
-> **涉及公司**:[[Microsoft]] · [[Azure]] · [[GitHub]] · [[Microsoft 365]]
+> **概念** [[MAI]] · [[私有评估]] · [[测试框架]] · [[轨迹]] · [[智能体]] · [[SaaS]] · [[数据中心]]
 >
-> **概念**:[[MAI]] · [[私有评估]] · [[测试框架]] · [[轨迹]] · [[智能体]] · [[SaaS]] · [[数据中心]]
->
-> **来源**:[Latent Space](https://www.latent.space/p/satya-2026)
+> **来源** [Latent Space](https://www.latent.space/p/satya-2026)
 
 <div class="pd-tldr"><b>一句话</b>微软 CEO 畅谈 AI 时代的平台生态战略:从模型血统到智能体重塑企业价值。</div>
 
@@ -85,33 +83,33 @@ Nadella 提到一组震撼的数字:微软在过去 15 个月里建成的 Azure(
 
 <div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
 
-> 拥有私有评估可能是最大的知识产权。  
+> <span class="qz">拥有私有评估可能是最大的知识产权。</span>  
 > *Having private evals may be the biggest IP.*  
-> —— Satya Nadella · [11:47] ^q1
+> <span class="qm">—— Satya Nadella · [11:47]</span> ^q1
 
-> 我可以直接来让大家就在一个模型的祭坛前顶礼膜拜。但那不是开发者大会。  
+> <span class="qz">我可以直接来让大家就在一个模型的祭坛前顶礼膜拜。但那不是开发者大会。</span>  
 > *I can just come and have you all just worship at the altar of one model. But that's not a developer conference.*  
-> —— Satya Nadella · [14:08] ^q2
+> <span class="qm">—— Satya Nadella · [14:08]</span> ^q2
 
-> 如果自己构建和维护某样东西的边际成本更高,你就应该总是去获取它。  
+> <span class="qz">如果自己构建和维护某样东西的边际成本更高,你就应该总是去获取它。</span>  
 > *you should always acquire something if the marginal cost of building and maintaining something on your own is higher.*  
-> —— Satya Nadella · [22:46] ^q3
+> <span class="qm">—— Satya Nadella · [22:46]</span> ^q3
 
-> 你看到我谈到了我们如何在过去15个月里建成了比我们前15年建成的更多的Azure容量。  
+> <span class="qz">你看到我谈到了我们如何在过去15个月里建成了比我们前15年建成的更多的Azure容量。</span>  
 > *You saw that I talked about how we built in the last 15 months more Azure capacity than we built in the first 15 years.*  
-> —— Satya Nadella · [29:58] ^q4
+> <span class="qm">—— Satya Nadella · [29:58]</span> ^q4
 
-> 如果有人来找我们说,四十亿人早上起床后会开始打字,我的模型会是,我们需要四十亿打字员,但我们不是在做打字。我们是在做知识工作。  
+> <span class="qz">如果有人来找我们说,四十亿人早上起床后会开始打字,我的模型会是,我们需要四十亿打字员,但我们不是在做打字。我们是在做知识工作。</span>  
 > *if somebody had come to us and said, four billion people are going to get up in the morning and start typing, my model would have been, we need four billion typists, but We're not doing typing. We're doing knowledge work.*  
-> —— Satya Nadella · [31:12] ^q5
+> <span class="qm">—— Satya Nadella · [31:12]</span> ^q5
 
-> 我认为世界将会非常怀疑那些说“相信我们,我们搞定了,未来将会是辉煌的”的科技和科技公司。我们必须交付切实的好处。  
+> <span class="qz">我认为世界将会非常怀疑那些说“相信我们,我们搞定了,未来将会是辉煌的”的科技和科技公司。我们必须交付切实的好处。</span>  
 > *I think the world is going to be very skeptical of tech and tech companies that say, trust us, we've got it, the future is going to be glorious. We have to deliver tangible benefits.*  
-> —— Satya Nadella · [36:15] ^q6
+> <span class="qm">—— Satya Nadella · [36:15]</span> ^q6
 
-> 事实上,我用来服务收件箱或邮箱的东西不能用来服务智能体。  
+> <span class="qz">事实上,我用来服务收件箱或邮箱的东西不能用来服务智能体。</span>  
 > *In fact, what I use to serve an inbox or a mailbox cannot be used to serve an agent.*  
-> —— Satya Nadella · [19:45] ^q7
+> <span class="qm">—— Satya Nadella · [19:45]</span> ^q7
 
 <div class="pd-sec">接着看</div>
 
@@ -211,7 +209,45 @@ Nadella 提到一组震撼的数字:微软在过去 15 个月里建成的 Azure(
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

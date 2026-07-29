@@ -16,7 +16,7 @@ tags:
   - 智能体
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>赋予AI智能体计算机——Daytona创始人Ivan Burazin</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>赋予AI智能体计算机——Daytona创始人Ivan Burazin</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # 赋予AI智能体计算机——Daytona创始人Ivan Burazin
 
@@ -29,13 +29,13 @@ tags:
 <div class="pd-hook"><div class="z">但如果你想一次启动 50,000 个,我们现在大约需要 75 秒。</div><div class="a">Ivan Burazin · 16:36</div></div>
 
 > [!info] 关联
-> **嘉宾**:[[Ivan Burazin]]
+> **人物** [[Ivan Burazin]]
 >
-> **涉及公司**:[[Daytona]]
+> **公司** [[Daytona]]
 >
-> **概念**:[[智能体]] · [[沙箱]] · [[突发负载]] · [[裸金属]] · [[计算机使用]] · [[托管型 Kubernetes]]
+> **概念** [[智能体]] · [[沙箱]] · [[突发负载]] · [[裸金属]] · [[计算机使用]] · [[托管型 Kubernetes]]
 >
-> **来源**:[Latent Space](https://www.latent.space/p/daytona)
+> **来源** [Latent Space](https://www.latent.space/p/daytona)
 
 <div class="pd-tldr"><b>一句话</b>Daytona 为智能体打造毫秒级启动的裸金属沙箱,迎击 RL 训练与后台智能体的算力新挑战。</div>
 
@@ -102,25 +102,25 @@ Ivan 认为,智能体就像人类一样,需要不同配置的计算机来完成�
 
 <div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
 
-> 但如果你想一次启动 50,000 个,我们现在大约需要 75 秒。  
+> <span class="qz">但如果你想一次启动 50,000 个,我们现在大约需要 75 秒。</span>  
 > *But if you want to spin up 50,000 at once, we are now at about 75 seconds.*  
-> —— Ivan Burazin · [16:36] ^q1
+> <span class="qm">—— Ivan Burazin · [16:36]</span> ^q1
 
-> 我们以前从未有过这种不可预测的工作负载,无论是在人类计算机还是人类  
+> <span class="qz">我们以前从未有过这种不可预测的工作负载,无论是在人类计算机还是人类</span>  
 > *unpredictable workloads that we've never had before in human computer or human*  
-> —— Ivan Burazin · [23:29] ^q2
+> <span class="qm">—— Ivan Burazin · [23:29]</span> ^q2
 
-> PC 市场大约等于云市场。  
+> <span class="qz">PC 市场大约等于云市场。</span>  
 > *The PC market is about equal to the cloud market.*  
-> —— Ivan Burazin · [45:42] ^q3
+> <span class="qm">—— Ivan Burazin · [45:42]</span> ^q3
 
-> 市场正在给那些转售 token 的 SaaS 供应商增加溢价。  
+> <span class="qz">市场正在给那些转售 token 的 SaaS 供应商增加溢价。</span>  
 > *the market is adding premium to SaaS vendors that are reselling tokens.*  
-> —— Ivan Burazin · [61:44] ^q4
+> <span class="qm">—— Ivan Burazin · [61:44]</span> ^q4
 
-> 整个基础设施市场每个月以 40% 左右的速度增长。  
+> <span class="qz">整个基础设施市场每个月以 40% 左右的速度增长。</span>  
 > *The entire infrastructure market is growing 40% plus or minus month over month.*  
-> —— Ivan Burazin · [67:14] ^q5
+> <span class="qm">—— Ivan Burazin · [67:14]</span> ^q5
 
 <div class="pd-sec">接着看</div>
 
@@ -220,7 +220,45 @@ Ivan 认为,智能体就像人类一样,需要不同配置的计算机来完成�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

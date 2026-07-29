@@ -18,7 +18,7 @@ tags:
   - 职业与个人成长
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>用 AI 武装技术型 PM：Codex 工作流全解析</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>用 AI 武装技术型 PM：Codex 工作流全解析</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # 用 AI 武装技术型 PM：Codex 工作流全解析
 
@@ -31,15 +31,13 @@ tags:
 <div class="pd-hook"><div class="z">因为有了 AI，你不再需要害怕创办公司了，因为 AI 可以为你处理所有的文书工作，为你处理所有的会计工作，所有那些无聊的事情。</div><div class="a">Meng To · 68:39</div></div>
 
 > [!info] 关联
-> **主持**:[[Meng To]]
+> **人物** [[Meng To]] · [[Akash]]
 >
-> **联合主持**:[[Akash]]
+> **公司** [[Cursor]] · [[obsidian]] · [[hey gen]] · [[Figma]]
 >
-> **涉及公司**:[[Cursor]] · [[obsidian]] · [[hey gen]] · [[Figma]]
+> **概念** [[Codex]] · [[智能体]] · [[上下文]] · [[护栏]] · [[playwright]] · [[计划模式]] · [[数字分身]]
 >
-> **概念**:[[Codex]] · [[智能体]] · [[上下文]] · [[护栏]] · [[playwright]] · [[计划模式]] · [[数字分身]]
->
-> **来源**:[Product Growth Podcast](https://www.news.aakashg.com/p/pm-guide-ai-design)
+> **来源** [Product Growth Podcast](https://www.news.aakashg.com/p/pm-guide-ai-design)
 
 <div class="pd-tldr"><b>一句话</b>设计师 Meng To 展示如何用 Codex 搭建插件与技能生态，转型为掌控智能体舰队的超级个体。</div>
 
@@ -99,25 +97,25 @@ Meng To 展示了他的真实工作区，并强调一个核心理念：**一切�
 
 <div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
 
-> 因为有了 AI，你不再需要害怕创办公司了，因为 AI 可以为你处理所有的文书工作，为你处理所有的会计工作，所有那些无聊的事情。  
+> <span class="qz">因为有了 AI，你不再需要害怕创办公司了，因为 AI 可以为你处理所有的文书工作，为你处理所有的会计工作，所有那些无聊的事情。</span>  
 > *because ai you don't need to be scared of starting a company anymore because ai can take care of all the paperwork for you all the accounting for you all the the boring stuff*  
-> —— Meng To · [68:39] ^q1
+> <span class="qm">—— Meng To · [68:39]</span> ^q1
 
-> 你最清楚，因为就像任何商业规则一样，你必须成为那个最了解这个主题的人，否则你就没有任何筹码。  
+> <span class="qz">你最清楚，因为就像任何商业规则一样，你必须成为那个最了解这个主题的人，否则你就没有任何筹码。</span>  
 > *you know best because like any business rule is that you have to be the one who knows this topic the best otherwise you don't have any leverage*  
-> —— Meng To · [69:26] ^q2
+> <span class="qm">—— Meng To · [69:26]</span> ^q2
 
-> 然后让 AI 成为你的放大器、扩音器，这样你就可以快速做出这些微观决策，并且你可以部署一支智能体舰队。  
+> <span class="qz">然后让 AI 成为你的放大器、扩音器，这样你就可以快速做出这些微观决策，并且你可以部署一支智能体舰队。</span>  
 > *then let ai be your amplifier magnifier so that you can quickly make these micro decisions and you can deploy a fleet of agents*  
-> —— Meng To · [69:51] ^q3
+> <span class="qm">—— Meng To · [69:51]</span> ^q3
 
-> 你不必再那样做了，你有一支智能体大军。  
+> <span class="qz">你不必再那样做了，你有一支智能体大军。</span>  
 > *you don't have to do that anymore you have an army of agents*  
-> —— Meng To · [46:54] ^q4
+> <span class="qm">—— Meng To · [46:54]</span> ^q4
 
-> 最终你会被解雇，因为 AI 会在某个时间点取代所有人，或者我们将找到新的工作方式。  
+> <span class="qz">最终你会被解雇，因为 AI 会在某个时间点取代所有人，或者我们将找到新的工作方式。</span>  
 > *eventually you will get fired because ai will replace everyone at some point or we will find new ways to do our job*  
-> —— Meng To · [00:00] ^q5
+> <span class="qm">—— Meng To · [00:00]</span> ^q5
 
 <div class="pd-sec">接着看</div>
 
@@ -217,7 +215,45 @@ Meng To 展示了他的真实工作区，并强调一个核心理念：**一切�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

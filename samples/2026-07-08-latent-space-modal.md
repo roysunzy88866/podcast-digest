@@ -18,7 +18,7 @@ tags:
   - 智能体
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>从避战大模型到押注智能体：Modal 的推理基础设施进化史</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>从避战大模型到押注智能体：Modal 的推理基础设施进化史</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # 从避战大模型到押注智能体：Modal 的推理基础设施进化史
 
@@ -31,17 +31,13 @@ tags:
 <div class="pd-hook"><div class="z">我们在 2023 年 5 月就构建了沙箱，在任何人甚至知道这将成为一件事之前。</div><div class="a">Akshat Bubna · 09:19</div></div>
 
 > [!info] 关联
-> **嘉宾**:[[Akshat Bubna]]
+> **人物** [[Akshat Bubna]] · [[swyx]] · [[Vibhu]]
 >
-> **主持**:[[swyx]]
+> **公司** [[Modal]] · [[Kubernetes]]
 >
-> **联合主持**:[[Vibhu]]
+> **概念** [[智能体]] · [[AX]] · [[DX]] · [[沙箱]] · [[推理]] · [[弹性推理]] · [[投机解码]] · [[DeFlash]] · [[Auto Endpoints]] · [[装饰器]]
 >
-> **涉及公司**:[[Modal]] · [[Kubernetes]]
->
-> **概念**:[[智能体]] · [[AX]] · [[DX]] · [[沙箱]] · [[推理]] · [[弹性推理]] · [[投机解码]] · [[DeFlash]] · [[Auto Endpoints]] · [[装饰器]]
->
-> **来源**:[Latent Space](https://www.latent.space/p/modal2026)
+> **来源** [Latent Space](https://www.latent.space/p/modal2026)
 
 <div class="pd-tldr"><b>一句话</b>Modal CTO 剖析从开发者体验转向智能体体验的推理云进化路径。</div>
 
@@ -83,25 +79,25 @@ Modal 最初并不是一家 GPU 推理公司。Akshat 回忆，Erik 最早的出
 
 <div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
 
-> 我们在 2023 年 5 月就构建了沙箱，在任何人甚至知道这将成为一件事之前。  
+> <span class="qz">我们在 2023 年 5 月就构建了沙箱，在任何人甚至知道这将成为一件事之前。</span>  
 > *we built sandboxes in May of 2023 before anyone was even knew this was going to be a thing.*  
-> —— Akshat Bubna · [09:19] ^q1
+> <span class="qm">—— Akshat Bubna · [09:19]</span> ^q1
 
-> 这就是为什么你要让一个智能体去阅读数百个 Kubernetes 文件并编写甚至没有类型的 YAML，而它基本上可以在一个装饰器中做几个更改  
+> <span class="qz">这就是为什么你要让一个智能体去阅读数百个 Kubernetes 文件并编写甚至没有类型的 YAML，而它基本上可以在一个装饰器中做几个更改</span>  
 > *which is why would you have an agent read through hundreds of Kubernetes files and write YAML that's not even typed when it can basically make a couple of changes in a decorator*  
-> —— Akshat Bubna · [05:05] ^q2
+> <span class="qm">—— Akshat Bubna · [05:05]</span> ^q2
 
-> 当你在做 rollouts 的时候，你有时需要十万个沙箱。  
+> <span class="qz">当你在做 rollouts 的时候，你有时需要十万个沙箱。</span>  
 > *When you're doing rollouts, you sometimes need 100,000 sandboxes.*  
-> —— Akshat Bubna · [14:31] ^q3
+> <span class="qm">—— Akshat Bubna · [14:31]</span> ^q3
 
-> 改进内核只给你几个百分点的提升，而增加接受长度实际上是 2 到 4 倍的乘法性减少  
+> <span class="qz">改进内核只给你几个百分点的提升，而增加接受长度实际上是 2 到 4 倍的乘法性减少</span>  
 > *improving kernel only give you like few percentage points improvement and increasing except lengths literally is multiplicative decrease in two to four x*  
-> —— Akshat Bubna · [17:38] ^q4
+> <span class="qm">—— Akshat Bubna · [17:38]</span> ^q4
 
-> 这是我们一直有所回避的一件事，就是为模型提供 API  
+> <span class="qz">这是我们一直有所回避的一件事，就是为模型提供 API</span>  
 > *This is one thing we've kind of stayed away from is providing an API for models*  
-> —— Akshat Bubna · [48:34] ^q5
+> <span class="qm">—— Akshat Bubna · [48:34]</span> ^q5
 
 <div class="pd-sec">接着看</div>
 
@@ -201,7 +197,45 @@ Modal 最初并不是一家 GPU 推理公司。Akshat 回忆，Erik 最早的出
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

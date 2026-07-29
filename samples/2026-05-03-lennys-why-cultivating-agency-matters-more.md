@@ -17,7 +17,7 @@ tags:
   - 产品方法
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # 对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性
 
@@ -30,15 +30,13 @@ tags:
 <div class="pd-hook"><div class="z">重要的是能动性，我不认为能动性在世界上分布得很均匀。</div><div class="a">Max Schoening · 11:20</div></div>
 
 > [!info] 关联
-> **主持**:[[Max Schoening]]
+> **人物** [[Max Schoening]] · [[Lenny]]
 >
-> **联合主持**:[[Lenny]]
+> **公司** [[Notion]] · [[GitHub]] · [[Heroku]] · [[Figma]]
 >
-> **涉及公司**:[[Notion]] · [[GitHub]] · [[Heroku]] · [[Figma]]
+> **概念** [[主观能动性]] · [[可塑软件]] · [[智能体]] · [[品味]] · [[SaaS 末日]] · [[智能体循环]] · [[微小核心]] · [[知识工作]]
 >
-> **概念**:[[主观能动性]] · [[可塑软件]] · [[智能体]] · [[品味]] · [[SaaS 末日]] · [[智能体循环]] · [[微小核心]] · [[知识工作]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/why-cultivating-agency-matters-more)
 
 <div class="pd-tldr"><b>一句话</b>前 GitHub 设计主管、现 Notion 产品负责人 Max Schoening 谈 AI 如何重塑产品构建、角色边界与可塑软件。</div>
 
@@ -97,41 +95,41 @@ Max 观察到，现在的硅谷充斥着并不真正热爱计算机的人。很�
 
 <div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
 
-> 重要的是能动性，我不认为能动性在世界上分布得很均匀。  
+> <span class="qz">重要的是能动性，我不认为能动性在世界上分布得很均匀。</span>  
 > *The thing that matters is agency, and I don't think agency is very evenly distributed in the world.*  
-> —— Max Schoening · [11:20] ^q1
+> <span class="qm">—— Max Schoening · [11:20]</span> ^q1
 
-> 可塑软件的理念是，软件更贴近使用者的利益，而不是制造它的公司的利益，也许这就是我的框架。  
+> <span class="qz">可塑软件的理念是，软件更贴近使用者的利益，而不是制造它的公司的利益，也许这就是我的框架。</span>  
 > *Malleable software is the idea that software works closer to the interest of the people that use it than the interest of the corporation that makes it, maybe that's how I'd frame it.*  
-> —— Max Schoening · [18:16] ^q2
+> <span class="qm">—— Max Schoening · [18:16]</span> ^q2
 
-> 我认为在某种程度上 SaaS 末日被大大夸大了。  
+> <span class="qz">我认为在某种程度上 SaaS 末日被大大夸大了。</span>  
 > *I think to some degree the SaaS apocalypse is greatly exaggerated.*  
-> —— Max Schoening · [26:51] ^q3
+> <span class="qm">—— Max Schoening · [26:51]</span> ^q3
 
-> 我认为每个项目的前 10% 现在是免费的。  
+> <span class="qz">我认为每个项目的前 10% 现在是免费的。</span>  
 > *I think the first 10% of every project are now free.*  
-> —— Max Schoening · [28:47] ^q4
+> <span class="qm">—— Max Schoening · [28:47]</span> ^q4
 
-> 最大的陷阱之一是如果你陷入这个循环：如果我再给产品添加一样东西，它最终就会变得很棒。  
+> <span class="qz">最大的陷阱之一是如果你陷入这个循环：如果我再给产品添加一样东西，它最终就会变得很棒。</span>  
 > *One of the biggest pitfalls is if you get into the loop of, if I just add one more thing to the product, it'll be finally great.*  
-> —— Max Schoening · [61:16] ^q5
+> <span class="qm">—— Max Schoening · [61:16]</span> ^q5
 
-> 如果我真正看看那些真正伟大的产品，它们都有一个非常小的核心，那是极其出色的。  
+> <span class="qz">如果我真正看看那些真正伟大的产品，它们都有一个非常小的核心，那是极其出色的。</span>  
 > *If I really look at the truly great products, they all have one tiny core that is so exceptionally good.*  
-> —— Max Schoening · [61:24] ^q6
+> <span class="qm">—— Max Schoening · [61:24]</span> ^q6
 
-> 品味实际上意味着你能够在脑海中运行一台虚拟机，给定一个想法，你可以预测某个特定群体是否会喜欢它。  
+> <span class="qz">品味实际上意味着你能够在脑海中运行一台虚拟机，给定一个想法，你可以预测某个特定群体是否会喜欢它。</span>  
 > *Taste actually means you're able to run a virtual machine in your head where given an idea, you can predict for a certain in group whether they're going to like it or not.*  
-> —— Max Schoening · [00:40] ^q7
+> <span class="qm">—— Max Schoening · [00:40]</span> ^q7
 
-> 我的观点是我们已经有了全民基本收入，它叫作知识工作。  
+> <span class="qz">我的观点是我们已经有了全民基本收入，它叫作知识工作。</span>  
 > *My take is that we already have universal basic income. It's called knowledge work.*  
-> —— Max Schoening · [68:01] ^q8
+> <span class="qm">—— Max Schoening · [68:01]</span> ^q8
 
-> 有一天你醒来，你会意识到这个世界是由并不比你聪明的人组成的。  
+> <span class="qz">有一天你醒来，你会意识到这个世界是由并不比你聪明的人组成的。</span>  
 > *One day you wake up and you realize the world is made up by people no smarter than you.*  
-> —— Max Schoening · [16:31] ^q9
+> <span class="qm">—— Max Schoening · [16:31]</span> ^q9
 
 <div class="pd-sec">接着看</div>
 
@@ -231,7 +229,45 @@ Max 观察到，现在的硅谷充斥着并不真正热爱计算机的人。很�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

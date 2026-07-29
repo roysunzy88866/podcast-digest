@@ -18,7 +18,7 @@ tags:
   - 组织与领导力
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # 《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」
 
@@ -31,15 +31,13 @@ tags:
 <div class="pd-hook"><div class="z">摧毁它们的东西不是竞争。</div><div class="a">Eric Ries · 00:01</div></div>
 
 > [!info] 关联
-> **主持**:[[Eric Ries]]
+> **人物** [[Eric Ries]] · [[Lenny]]
 >
-> **联合主持**:[[Lenny]]
+> **公司** [[Cloudflare]] · [[Novo Nordisk]] · [[Anthropic]] · [[Vectura]] · [[Groupon]]
 >
-> **涉及公司**:[[Cloudflare]] · [[Novo Nordisk]] · [[Anthropic]] · [[Vectura]] · [[Groupon]]
+> **概念** [[Incorruptible]] · [[结构完整性]] · [[公益公司]] · [[金融重力]] · [[长期利益信托]] · [[文化银行]] · [[精神控股公司]] · [[使命守护者]] · [[无形领袖]] · [[股东至上]] · [[使命驱动]] · [[创始人优先股]] · [[难就是易]]
 >
-> **概念**:[[Incorruptible]] · [[结构完整性]] · [[公益公司]] · [[金融重力]] · [[长期利益信托]] · [[文化银行]] · [[精神控股公司]] · [[使命守护者]] · [[无形领袖]] · [[股东至上]] · [[使命驱动]] · [[创始人优先股]] · [[难就是易]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/how-to-build-a-company-that-withstands)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/how-to-build-a-company-that-withstands)
 
 <div class="pd-tldr"><b>一句话</b>创始人如何用法律结构和使命驱动，保护公司免受短期利润的侵蚀。</div>
 
@@ -101,49 +99,49 @@ Eric 指出，Anthropic 拒绝发布危险模型、甚至据说拒绝了一份�
 
 <div class="pd-sec">全部金句 <span>11 条(中英对照,已过机器闸门)</span></div>
 
-> 摧毁它们的东西不是竞争。  
+> <span class="qz">摧毁它们的东西不是竞争。</span>  
 > *The thing that destroyed them was not competition.*  
-> —— Eric Ries · [00:01] ^q1
+> <span class="qm">—— Eric Ries · [00:01]</span> ^q1
 
-> 如果你搞不定这个，那么你关于公司做出的其他决定都没有长期意义，因为你不会是做决定的那个人。  
+> <span class="qz">如果你搞不定这个，那么你关于公司做出的其他决定都没有长期意义，因为你不会是做决定的那个人。</span>  
 > *If you don't get this right, no other decision you make about your company will matter for the long term because you're not going to be the one making it.*  
-> —— Eric Ries · [12:12] ^q2
+> <span class="qm">—— Eric Ries · [12:12]</span> ^q2
 
-> 在太晚之前，总是太早。  
+> <span class="qz">在太晚之前，总是太早。</span>  
 > *It is always too early until it's too late.*  
-> —— Eric Ries · [16:30] ^q3
+> <span class="qm">—— Eric Ries · [16:30]</span> ^q3
 
-> 成功不会保护你，因为成功正是让你成为靶子的原因。  
+> <span class="qz">成功不会保护你，因为成功正是让你成为靶子的原因。</span>  
 > *Success will not protect you because success is what makes you a target.*  
-> —— Eric Ries · [18:44] ^q4
+> <span class="qm">—— Eric Ries · [18:44]</span> ^q4
 
-> 他们的干预最终创造了超过 5000 亿美元的股东价值。  
+> <span class="qz">他们的干预最终创造了超过 5000 亿美元的股东价值。</span>  
 > *Their intervention ultimately created more than $500 billion of shareholder value.*  
-> —— Eric Ries · [25:05] ^q5
+> <span class="qm">—— Eric Ries · [25:05]</span> ^q5
 
-> 可信度是所有商业中最被低估的资产。  
+> <span class="qz">可信度是所有商业中最被低估的资产。</span>  
 > *Trustworthiness is the most underrated asset in all of business.*  
-> —— Eric Ries · [36:10] ^q6
+> <span class="qm">—— Eric Ries · [36:10]</span> ^q6
 
-> 如果你真的对使命驱动很认真，你必须向我表明，除非实现使命，否则你就无法盈利。  
+> <span class="qz">如果你真的对使命驱动很认真，你必须向我表明，除非实现使命，否则你就无法盈利。</span>  
 > *If you're serious about being mission driven, you have to show me that you cannot profit except by achieving the mission.*  
-> —— Eric Ries · [49:27] ^q7
+> <span class="qm">—— Eric Ries · [49:27]</span> ^q7
 
-> 只做存款，绝不做取款。  
+> <span class="qz">只做存款，绝不做取款。</span>  
 > *Only make deposits, never make withdrawals.*  
-> —— Eric Ries · [71:45] ^q8
+> <span class="qm">—— Eric Ries · [71:45]</span> ^q8
 
-> 问题在于，如果一家公司随时可能被斩首，你就再也无法信任它了。  
+> <span class="qz">问题在于，如果一家公司随时可能被斩首，你就再也无法信任它了。</span>  
 > *The problem is if a company can be decapitated at any time, you can no longer trust it.*  
-> —— Eric Ries · [83:04] ^q9
+> <span class="qm">—— Eric Ries · [83:04]</span> ^q9
 
-> 公司、组织是地球上最古老的人工智能形式。  
+> <span class="qz">公司、组织是地球上最古老的人工智能形式。</span>  
 > *Corporations, organizations are the oldest form of artificial intelligence on the planet.*  
-> —— Eric Ries · [91:22] ^q10
+> <span class="qm">—— Eric Ries · [91:22]</span> ^q10
 
-> 你在谜题中放入的蚂蚁越多，解决速度越快。但是你增加的人类越多，情况越糟，除非这些人类非常仔细地对齐。  
+> <span class="qz">你在谜题中放入的蚂蚁越多，解决速度越快。但是你增加的人类越多，情况越糟，除非这些人类非常仔细地对齐。</span>  
 > *The more ants you put in the puzzle, the faster the solution. But the more humans you add, the worse, unless the humans are very carefully aligned.*  
-> —— Eric Ries · [93:14] ^q11
+> <span class="qm">—— Eric Ries · [93:14]</span> ^q11
 
 <div class="pd-sec">接着看</div>
 
@@ -243,7 +241,45 @@ Eric 指出，Anthropic 拒绝发布危险模型、甚至据说拒绝了一份�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

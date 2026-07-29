@@ -18,7 +18,7 @@ tags:
   - 职业与个人成长
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经
 
@@ -31,15 +31,13 @@ tags:
 <div class="pd-hook"><div class="z">所以我们确实会写一些产品文档和 PRD,但我们在团队中其实有句说法,评估就是新的 PRD。</div><div class="a">Dianne Penn · 41:36</div></div>
 
 > [!info] 关联
-> **主持**:[[Dianne Penn]]
+> **人物** [[Dianne Penn]] · [[Lenny]]
 >
-> **联合主持**:[[Lenny]]
+> **公司** [[Anthropic]]
 >
-> **涉及公司**:[[Anthropic]]
+> **概念** [[Claude]] · [[Claude Code]] · [[评估]] · [[涌现能力]] · [[金门大桥版 Claude]] · [[前沿模型]] · [[技能]] · [[PRD]] · [[智能体]] · [[Labs]]
 >
-> **概念**:[[Claude]] · [[Claude Code]] · [[评估]] · [[涌现能力]] · [[金门大桥版 Claude]] · [[前沿模型]] · [[技能]] · [[PRD]] · [[智能体]] · [[Labs]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/anthropics-first-technical-pm-on)
 
 <div class="pd-tldr"><b>一句话</b>从 Claude 2 到 Fable,她详述了模型开发、产品迭代、实验室运作和 PM 新职能。</div>
 
@@ -96,17 +94,17 @@ Diane 认为,随着 AI 越来越聪明,人类来之不易的判断力依然是�
 
 <div class="pd-sec">全部金句 <span>3 条(中英对照,已过机器闸门)</span></div>
 
-> 所以我们确实会写一些产品文档和 PRD,但我们在团队中其实有句说法,评估就是新的 PRD。  
+> <span class="qz">所以我们确实会写一些产品文档和 PRD,但我们在团队中其实有句说法,评估就是新的 PRD。</span>  
 > *So we do write some product documents and PRDs, but we actually have a saying on the team of evals are the new PRDs.*  
-> —— Dianne Penn · [41:36] ^q1
+> <span class="qm">—— Dianne Penn · [41:36]</span> ^q1
 
-> 但是的,我认为 Anthropic 的秘方是其文化、人们工作方式的自下而上的本质,以及这种公开实验。  
+> <span class="qz">但是的,我认为 Anthropic 的秘方是其文化、人们工作方式的自下而上的本质,以及这种公开实验。</span>  
 > *I think the secret sauce of Anthropic is the culture and the bottoms of nature of how people work and this experimenting in public.*  
-> —— Dianne Penn · [57:32] ^q2
+> <span class="qm">—— Dianne Penn · [57:32]</span> ^q2
 
-> 我们在团队里经常说的一件事是,你需要前沿产品才能拥有前沿模型,并让人们感受到前沿模型的魔力。  
+> <span class="qz">我们在团队里经常说的一件事是,你需要前沿产品才能拥有前沿模型,并让人们感受到前沿模型的魔力。</span>  
 > *One thing we say a lot on the team is you need frontier products in order to have frontier models and for people to feel the magic of frontier models.*  
-> —— Dianne Penn · [12:57] ^q3
+> <span class="qm">—— Dianne Penn · [12:57]</span> ^q3
 
 <div class="pd-sec">接着看</div>
 
@@ -206,7 +204,45 @@ Diane 认为,随着 AI 越来越聪明,人类来之不易的判断力依然是�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

@@ -16,7 +16,7 @@ tags:
   - 组织与领导力
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # 别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课
 
@@ -29,13 +29,11 @@ tags:
 <div class="pd-hook"><div class="z">但伟大的领导者知道，当你试图一直提供建议并给出答案时，你实际上并没有装备你的团队去解决难题。</div><div class="a">Rachel Lockett · 10:12</div></div>
 
 > [!info] 关联
-> **主持**:[[Lenny]]
+> **人物** [[Lenny]] · [[Rachel Lockett]]
 >
-> **联合主持**:[[Rachel Lockett]]
+> **概念** [[辅导]] · [[GROW 模型]] · [[积极倾听]] · [[非暴力沟通]] · [[职业倦怠]] · [[联合创始人]] · [[一页纸计划]]
 >
-> **概念**:[[辅导]] · [[GROW 模型]] · [[积极倾听]] · [[非暴力沟通]] · [[职业倦怠]] · [[联合创始人]] · [[一页纸计划]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/a-guide-to-difficult-conversations)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/a-guide-to-difficult-conversations)
 
 <div class="pd-tldr"><b>一句话</b>高管教练拆解从“大包大揽”到“赋能团队”的领导力转变：辅导、优势设计与沟通框架。</div>
 
@@ -104,41 +102,41 @@ Rachel 的目标是帮助领导者设计自己的生活，争取把 80% 的时�
 
 <div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
 
-> 但伟大的领导者知道，当你试图一直提供建议并给出答案时，你实际上并没有装备你的团队去解决难题。  
+> <span class="qz">但伟大的领导者知道，当你试图一直提供建议并给出答案时，你实际上并没有装备你的团队去解决难题。</span>  
 > *But great leaders know that when you try to advise and have the answer all the time, you're not actually equipping your team to go solve the hard problems.*  
-> —— Rachel Lockett · [10:12] ^q1
+> <span class="qm">—— Rachel Lockett · [10:12]</span> ^q1
 
-> 但是，当你领导一家快速扩张的公司时，你很快就会比你周围的人拥有更少的背景信息。  
+> <span class="qz">但是，当你领导一家快速扩张的公司时，你很快就会比你周围的人拥有更少的背景信息。</span>  
 > *But when you're leading a quickly-scaling company, you quickly have less context than the people you're around.*  
-> —— Rachel Lockett · [09:41] ^q2
+> <span class="qm">—— Rachel Lockett · [09:41]</span> ^q2
 
-> 有一句台词，“大多数人并不是在倾听。他们只是在等待轮到自己说话。”  
+> <span class="qz">有一句台词，“大多数人并不是在倾听。他们只是在等待轮到自己说话。”</span>  
 > *There's a quote, "Most people aren't listening. They're just waiting for their turn to talk."*  
-> —— Rachel Lockett · [13:44] ^q3
+> <span class="qm">—— Rachel Lockett · [13:44]</span> ^q3
 
-> 我认为通常困难对话的出现是因为你产生了某种情绪，而你的某种需求没有得到满足。  
+> <span class="qz">我认为通常困难对话的出现是因为你产生了某种情绪，而你的某种需求没有得到满足。</span>  
 > *I think typically a difficult conversation arises because some feelings are coming up for you, and you have a need that's not being met.*  
-> —— Rachel Lockett · [85:03] ^q4
+> <span class="qm">—— Rachel Lockett · [85:03]</span> ^q4
 
-> 不，你经理的工作是帮助你在你受聘从事的工作中表现出色。你的工作则是规划你的职业生涯。  
+> <span class="qz">不，你经理的工作是帮助你在你受聘从事的工作中表现出色。你的工作则是规划你的职业生涯。</span>  
 > *No, your manager's job is to help you perform in the job you were hired to do. It's your job to navigate your career.*  
-> —— Rachel Lockett · [57:30] ^q5
+> <span class="qm">—— Rachel Lockett · [57:30]</span> ^q5
 
-> 事实上，我知道你可能知道这个统计数据，65% 的创业公司因为联合创始人冲突而失败，联合创始人在试图为他们业务建立未来的时刻，但也试图建立他们自己的生计。  
+> <span class="qz">事实上，我知道你可能知道这个统计数据，65% 的创业公司因为联合创始人冲突而失败，联合创始人在试图为他们业务建立未来的时刻，但也试图建立他们自己的生计。</span>  
 > *In fact, I know you probably know this stat, 65% of startups fail because of co-founder conflict, and co-founders are in a moment where they're trying to build the future for their business, but also trying to build their own livelihood.*  
-> —— Rachel Lockett · [61:50] ^q6
+> <span class="qm">—— Rachel Lockett · [61:50]</span> ^q6
 
-> 这几乎就像在婚姻中你去见夫妻治疗师，但你不会告诉你所有的朋友你无法忍受你的伴侣，但这让你彻夜难眠。  
+> <span class="qz">这几乎就像在婚姻中你去见夫妻治疗师，但你不会告诉你所有的朋友你无法忍受你的伴侣，但这让你彻夜难眠。</span>  
 > *It's almost like in a marriage you go see a couples' therapist, but you don't tell all your friends that you can't stand your partner, but it keeps you up at night.*  
-> —— Rachel Lockett · [61:35] ^q7
+> <span class="qm">—— Rachel Lockett · [61:35]</span> ^q7
 
-> 所以没有模型，无论是 NVC 还是其他，可以修复一个带着僵化和充满责备而来的人。  
+> <span class="qz">所以没有模型，无论是 NVC 还是其他，可以修复一个带着僵化和充满责备而来的人。</span>  
 > *So no model, NVC or otherwise, can fix a person who's coming in rigid and full of blame.*  
-> —— Rachel Lockett · [83:26] ^q8
+> <span class="qm">—— Rachel Lockett · [83:26]</span> ^q8
 
-> 但我想鼓励听众将自己视为了领导者，把人们聚集在一起实现自我实现，并且他们必须主动克服默认状态，那就是盲目、苦干和孤独。  
+> <span class="qz">但我想鼓励听众将自己视为了领导者，把人们聚集在一起实现自我实现，并且他们必须主动克服默认状态，那就是盲目、苦干和孤独。</span>  
 > *But I want to encourage listeners to think of themselves as leaders who bring humans together to self-actualize, and that they have to actively overcome the default state, which is blind, grind, and loneliness.*  
-> —— Rachel Lockett · [101:22] ^q9
+> <span class="qm">—— Rachel Lockett · [101:22]</span> ^q9
 
 <div class="pd-sec">接着看</div>
 
@@ -229,7 +227,45 @@ Rachel 的目标是帮助领导者设计自己的生活，争取把 80% 的时�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

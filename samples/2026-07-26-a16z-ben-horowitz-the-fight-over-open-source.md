@@ -17,7 +17,7 @@ tags:
   - AI 安全
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # 为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争
 
@@ -30,13 +30,11 @@ tags:
 <div class="pd-hook"><div class="z">对世界来说最安全的事情是,没有一个统治一切的 AI。</div><div class="a">Ben Horowitz · 00:12</div></div>
 
 > [!info] 关联
-> **主持**:[[Theo Jaffe]]
+> **人物** [[Theo Jaffe]] · [[Ben Horowitz]] · [[Sofia Puccini]]
 >
-> **联合主持**:[[Ben Horowitz]] · [[Sofia Puccini]]
+> **公司** [[NVIDIA]] · [[Andreessen Horowitz]] · [[Anthropic]] · [[Hugging Face]] · [[DeepSeq]] · [[Thinking Machines]] · [[Mistral]]
 >
-> **涉及公司**:[[NVIDIA]] · [[Andreessen Horowitz]] · [[Anthropic]] · [[Hugging Face]] · [[DeepSeq]] · [[Thinking Machines]] · [[Mistral]]
->
-> **概念**:[[开源]] · [[开放权重]] · [[专有模型]] · [[蒸馏]] · [[垄断]]
+> **概念** [[开源]] · [[开放权重]] · [[专有模型]] · [[蒸馏]] · [[垄断]]
 
 <div class="pd-tldr"><b>一句话</b>Ben Horowitz指出开源对AI安全、国家安全和初创生态至关重要,目前市场渗透率极低,禁开源是在搬起石头砸自己的脚。</div>
 
@@ -88,45 +86,45 @@ Ben 完全同意这一观点。他指出,从法律上讲 AI 模型的输出不�
 
 <div class="pd-sec">全部金句 <span>10 条(中英对照,已过机器闸门)</span></div>
 
-> 对世界来说最安全的事情是,没有一个统治一切的 AI。  
+> <span class="qz">对世界来说最安全的事情是,没有一个统治一切的 AI。</span>  
 > *The safest thing for the world is that there's not one AI to rule them all.*  
-> —— Ben Horowitz · [00:12] ^q1
+> <span class="qm">—— Ben Horowitz · [00:12]</span> ^q1
 
-> 这可能是围绕 AI 的最重要的单一政策问题,也是当前正在发生的事情。  
+> <span class="qz">这可能是围绕 AI 的最重要的单一政策问题,也是当前正在发生的事情。</span>  
 > *it's probably the single most important policy issue around AI that's kind of currently going on.*  
-> —— Ben Horowitz · [01:44] ^q2
+> <span class="qm">—— Ben Horowitz · [01:44]</span> ^q2
 
-> 这种战斗是在,几乎是一种伪装在安全外衣下的反竞争立场,是我们应该做的事情。  
+> <span class="qz">这种战斗是在,几乎是一种伪装在安全外衣下的反竞争立场,是我们应该做的事情。</span>  
 > *the kind of battle is between kind of almost an anti-competitive stance guised in a kind of safety cloak is kind of what we ought to be doing.*  
-> —— Ben Horowitz · [01:54] ^q3
+> <span class="qm">—— Ben Horowitz · [01:54]</span> ^q3
 
-> 如果没有开源,学术界就完全出局了,无法参与 AI 游戏。  
+> <span class="qz">如果没有开源,学术界就完全出局了,无法参与 AI 游戏。</span>  
 > *Academia is completely out of the AI game if there's no open source.*  
-> —— Ben Horowitz · [02:22] ^q4
+> <span class="qm">—— Ben Horowitz · [02:22]</span> ^q4
 
-> 而 Hugging Face 能够阻止它的唯一方法,因为专有模型有阻止它们执行安全任务的护栏,是使用开源模型。  
+> <span class="qz">而 Hugging Face 能够阻止它的唯一方法,因为专有模型有阻止它们执行安全任务的护栏,是使用开源模型。</span>  
 > *And the only way Hugging Face was able to prevent it, because the proprietary models had guardrails which prevented them from doing security tasks, was to use an open source model.*  
-> —— Ben Horowitz · [02:38] ^q5
+> <span class="qm">—— Ben Horowitz · [02:38]</span> ^q5
 
-> 对世界来说最安全的事情是,没有一个统治所有 AI 的 AI,而是每个人都有 AI。  
+> <span class="qz">对世界来说最安全的事情是,没有一个统治所有 AI 的 AI,而是每个人都有 AI。</span>  
 > *the safest thing for the world is that there's not one AI to rule them all, that there's kind of AI for everybody.*  
-> —— Ben Horowitz · [05:24] ^q6
+> <span class="qm">—— Ben Horowitz · [05:24]</span> ^q6
 
-> 所以有点像他们有点快进了,我会说,微软昔日的剧本,就像,跳过了平台这一代,直接进入了垄断这一代。  
+> <span class="qz">所以有点像他们有点快进了,我会说,微软昔日的剧本,就像,跳过了平台这一代,直接进入了垄断这一代。</span>  
 > *they've kind of fast-forwarded, I would say, the Microsoft playbook from the old days to, like, skipping the platform generation and just going straight to the monopoly generation.*  
-> —— Ben Horowitz · [15:02] ^q7
+> <span class="qm">—— Ben Horowitz · [15:02]</span> ^q7
 
-> Anthropic 刚刚花了 15 亿美元来偷走所有人的书,顺便说一下,包括我的。  
+> <span class="qz">Anthropic 刚刚花了 15 亿美元来偷走所有人的书,顺便说一下,包括我的。</span>  
 > *Anthropic just paid $1.5 billion for stealing everybody's books, including mine, by the way.*  
-> —— Ben Horowitz · [11:13] ^q8
+> <span class="qm">—— Ben Horowitz · [11:13]</span> ^q8
 
-> 感觉我们处于市场中一个稳定的平衡状态,但事实是 AI 市场可能被渗透了不到 3%。  
+> <span class="qz">感觉我们处于市场中一个稳定的平衡状态,但事实是 AI 市场可能被渗透了不到 3%。</span>  
 > *it feels like we're at a stable equilibrium in the market, but the truth is the AI market is probably less than 3% penetrated.*  
-> —— Ben Horowitz · [00:30] ^q9
+> <span class="qm">—— Ben Horowitz · [00:30]</span> ^q9
 
-> 每次出现一项新技术,我们就会在音乐中得到一种新的艺术形式,我认为这也会在这里发生。  
+> <span class="qz">每次出现一项新技术,我们就会在音乐中得到一种新的艺术形式,我认为这也会在这里发生。</span>  
 > *Every time there's a new technology, we get a new kind of art form in music, and I think that's going to happen here.*  
-> —— Ben Horowitz · [29:17] ^q10
+> <span class="qm">—— Ben Horowitz · [29:17]</span> ^q10
 
 <div class="pd-sec">接着看</div>
 
@@ -226,7 +224,45 @@ Ben 完全同意这一观点。他指出,从法律上讲 AI 模型的输出不�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

@@ -17,7 +17,7 @@ tags:
   - AI 安全
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展
 
@@ -30,11 +30,11 @@ tags:
 <div class="pd-hook"><div class="z">我认为现在初创公司可能做的事情的区别，一家初创公司可以承担的事情的区别，你知道吗，我认为你可以感到难过然后说，噢伙计，就像一个 Codex prompt 就是一整个初创公司。</div><div class="a">Sam Altman · 01:29</div></div>
 
 > [!info] 关联
-> **主持**:[[Sam Altman]]
+> **人物** [[Sam Altman]]
 >
-> **涉及公司**:[[OpenAI]] · [[YC]] · [[Hugging Face]]
+> **公司** [[OpenAI]] · [[YC]] · [[Hugging Face]]
 >
-> **概念**:[[初创公司]] · [[AGI]] · [[智能体]] · [[沙箱]] · [[对齐失败]] · [[推理]] · [[权力集中]] · [[主观能动性]]
+> **概念** [[初创公司]] · [[AGI]] · [[智能体]] · [[沙箱]] · [[对齐失败]] · [[推理]] · [[权力集中]] · [[主观能动性]]
 
 <div class="pd-tldr"><b>一句话</b>从 YC 到 OpenAI，Sam Altman 剖析 AI 时代的创业时机、愿景坚守与权力分配。</div>
 
@@ -94,65 +94,65 @@ tags:
 
 <div class="pd-sec">全部金句 <span>15 条(中英对照,已过机器闸门)</span></div>
 
-> 我认为现在初创公司可能做的事情的区别，一家初创公司可以承担的事情的区别，你知道吗，我认为你可以感到难过然后说，噢伙计，就像一个 Codex prompt 就是一整个初创公司。  
+> <span class="qz">我认为现在初创公司可能做的事情的区别，一家初创公司可以承担的事情的区别，你知道吗，我认为你可以感到难过然后说，噢伙计，就像一个 Codex prompt 就是一整个初创公司。</span>  
 > *And I think the difference in what's possible for a startup now, what a startup can take on, you know, I think you could either be sad and be like, oh man, like a Codex prompt is a whole startup.*  
-> —— Sam Altman · [01:29] ^q1
+> <span class="qm">—— Sam Altman · [01:29]</span> ^q1
 
-> 所以我认为我们将看到初创公司的黄金时代，人们会像，你知道吗，我要做那些一年前在 YC 的时间框架内初创公司甚至做梦都不敢想的事情。  
+> <span class="qz">所以我认为我们将看到初创公司的黄金时代，人们会像，你知道吗，我要做那些一年前在 YC 的时间框架内初创公司甚至做梦都不敢想的事情。</span>  
 > *So I think we will see a golden age of startups where people are like, you know what, I'm going to do things that would have been completely impossible for a startup to even like dream at a year ago in sort of like the YC timeframe.*  
-> —— Sam Altman · [07:45] ^q2
+> <span class="qm">—— Sam Altman · [07:45]</span> ^q2
 
-> 但我敢打赌，这通常会反对多年的经验，而偏向于对这些工具有很多流利度的人。  
+> <span class="qz">但我敢打赌，这通常会反对多年的经验，而偏向于对这些工具有很多流利度的人。</span>  
 > *But I would bet that this generally will cut against many years of experience in favor of people who have a lot of fluency with the tools.*  
-> —— Sam Altman · [11:34] ^q3
+> <span class="qm">—— Sam Altman · [11:34]</span> ^q3
 
-> 在 OpenAI 的几年里，感觉就像我们知道了世界上最大的秘密。  
+> <span class="qz">在 OpenAI 的几年里，感觉就像我们知道了世界上最大的秘密。</span>  
 > *For years at OpenAI, it felt like we knew the biggest secret in the world.*  
-> —— Sam Altman · [13:09] ^q4
+> <span class="qm">—— Sam Altman · [13:09]</span> ^q4
 
-> 世界不明白如何直觉指数级。  
+> <span class="qz">世界不明白如何直觉指数级。</span>  
 > *The world does not understand how to intuit exponentials.*  
-> —— Sam Altman · [14:25] ^q5
+> <span class="qm">—— Sam Altman · [14:25]</span> ^q5
 
-> 是的，我们过去常开玩笑说，世界上只有 50 个人相信 AGI 是可能的，但这没关系，因为其中有 45 个人在 OpenAI 工作。  
+> <span class="qz">是的，我们过去常开玩笑说，世界上只有 50 个人相信 AGI 是可能的，但这没关系，因为其中有 45 个人在 OpenAI 工作。</span>  
 > *Yeah, we used to joke that only 50 people in the world believed that AGI was possible, but it was okay because 45 of them worked at OpenAI.*  
-> —— Sam Altman · [15:03] ^q6
+> <span class="qm">—— Sam Altman · [15:03]</span> ^q6
 
-> 所以，你知道，这种我们要做的事情是实况角色扮演的想法对我来说就像是一种深深的冒犯。  
+> <span class="qz">所以，你知道，这种我们要做的事情是实况角色扮演的想法对我来说就像是一种深深的冒犯。</span>  
 > *So, you know, this idea that what we're trying to do is a live action role play is like kind of deeply offensive to me.*  
-> —— SPEAKER_00 · [20:05] ^q7
+> <span class="qm">—— SPEAKER_00 · [20:05]</span> ^q7
 
-> 它会毒害你的灵魂。这是一件道德败坏的事情。  
+> <span class="qz">它会毒害你的灵魂。这是一件道德败坏的事情。</span>  
 > *poison your soul. It is a morally bankrupt thing to do.*  
-> —— Sam Altman · [21:42] ^q8
+> <span class="qm">—— Sam Altman · [21:42]</span> ^q8
 
-> 我完全可以想象 AI 导致我们有史以来最大的权力分配的世界。  
+> <span class="qz">我完全可以想象 AI 导致我们有史以来最大的权力分配的世界。</span>  
 > *I can totally imagine worlds where AI leads to the greatest distribution of power we've ever seen.*  
-> —— Sam Altman · [27:44] ^q9
+> <span class="qm">—— Sam Altman · [27:44]</span> ^q9
 
-> 我也可以想象 AI 将权力集中到我们从未见过的程度的世界。  
+> <span class="qz">我也可以想象 AI 将权力集中到我们从未见过的程度的世界。</span>  
 > *And I can also imagine worlds where AI concentrates power to a degree we have never seen.*  
-> —— Sam Altman · [27:50] ^q10
+> <span class="qm">—— Sam Altman · [27:50]</span> ^q10
 
-> 我认为我们任何人都不应该希望被锁定在某一个人工智能、某一个人或某一家公司的道德世界观中。  
+> <span class="qz">我认为我们任何人都不应该希望被锁定在某一个人工智能、某一个人或某一家公司的道德世界观中。</span>  
 > *I don't think any of us should want to be locked into one AI's or one person's or one company's moral worldview.*  
-> —— Sam Altman · [28:15] ^q11
+> <span class="qm">—— Sam Altman · [28:15]</span> ^q11
 
-> 我觉得这感觉就像接下来的六个月可能相当于过去两年的模型进展，大概是这样。  
+> <span class="qz">我觉得这感觉就像接下来的六个月可能相当于过去两年的模型进展，大概是这样。</span>  
 > *I think it will feel like the next six months is like maybe equivalent to the last two years of model progress, something like that.*  
-> —— Sam Altman · [30:51] ^q12
+> <span class="qm">—— Sam Altman · [30:51]</span> ^q12
 
-> 但另外，我猜测全世界对推理的需求在主观上会在未来许多年里每年增长 10 倍。  
+> <span class="qz">但另外，我猜测全世界对推理的需求在主观上会在未来许多年里每年增长 10 倍。</span>  
 > *But separately, I would guess that worldwide demand for inference kind of subjectively grows 10x a year for the next many years.*  
-> —— Sam Altman · [33:46] ^q13
+> <span class="qm">—— Sam Altman · [33:46]</span> ^q13
 
-> 我从未见过任何像这样的商品，但在我看来，对足够高质量智能且价格足够低的需求实际上是无限的。  
+> <span class="qz">我从未见过任何像这样的商品，但在我看来，对足够高质量智能且价格足够低的需求实际上是无限的。</span>  
 > *I've never seen any commodity quite like this one, but it seems to me like the demand for sufficiently high-quality intelligence at a sufficiently low price is effectively uncapped.*  
-> —— Sam Altman · [34:26] ^q14
+> <span class="qm">—— Sam Altman · [34:26]</span> ^q14
 
-> 我对 10 年后的一个反乌托邦感到特别紧张的是我们对 AI 安全过度反应。  
+> <span class="qz">我对 10 年后的一个反乌托邦感到特别紧张的是我们对 AI 安全过度反应。</span>  
 > *One dystopia that I'm particularly nervous about 10 years from now is we overreact to AI safety.*  
-> —— Sam Altman · [36:57] ^q15
+> <span class="qm">—— Sam Altman · [36:57]</span> ^q15
 
 <div class="pd-sec">接着看</div>
 
@@ -252,7 +252,45 @@ tags:
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

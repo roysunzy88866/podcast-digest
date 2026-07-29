@@ -18,7 +18,7 @@ tags:
   - 产品方法
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Adam Mosseri：AI 时代的团队重组与产品品味</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Adam Mosseri：AI 时代的团队重组与产品品味</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # Adam Mosseri：AI 时代的团队重组与产品品味
 
@@ -31,15 +31,13 @@ tags:
 <div class="pd-hook"><div class="z">我实际上非常看好设计师，因为他们往往有品味，我认为这是更难想象被自动化掉的事情</div><div class="a">Adam Mosseri · 08:38</div></div>
 
 > [!info] 关联
-> **主持**:[[Lenny]]
+> **人物** [[Lenny]] · [[Adam Mosseri]]
 >
-> **联合主持**:[[Adam Mosseri]]
+> **公司** [[instagram]] · [[TikTok]] · [[Anthropic]]
 >
-> **涉及公司**:[[instagram]] · [[TikTok]] · [[Anthropic]]
+> **概念** [[reels]] · [[pods]] · [[产品人员]] · [[news feed]] · [[嵌入模型]] · [[探索性排名]] · [[合成内容]] · [[时间线]] · [[大型语言模型]] · [[vibe coding]] · [[品味]]
 >
-> **概念**:[[reels]] · [[pods]] · [[产品人员]] · [[news feed]] · [[嵌入模型]] · [[探索性排名]] · [[合成内容]] · [[时间线]] · [[大型语言模型]] · [[vibe coding]] · [[品味]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for)
 
 <div class="pd-tldr"><b>一句话</b>Instagram 负责人 Adam Mosseri 聊 AI 如何重塑团队、品味与推荐算法。</div>
 
@@ -137,41 +135,41 @@ Adam 宁愿每隔几年经历一次这样的反噬，也要坚持进化，也不
 
 <div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
 
-> 我实际上非常看好设计师，因为他们往往有品味，我认为这是更难想象被自动化掉的事情  
+> <span class="qz">我实际上非常看好设计师，因为他们往往有品味，我认为这是更难想象被自动化掉的事情</span>  
 > *i'm actually pretty long on design or designers because they tend to have taste and i think that is something that is much more difficult to imagine being automated away*  
-> —— Adam Mosseri · [08:38] ^q1
+> <span class="qm">—— Adam Mosseri · [08:38]</span> ^q1
 
-> 如果战略不能是最好的或惊人的，它必须是具有争议的，一个理性的人应该能够不同意它，因为否则你可能只是试图在原始执行上竞争  
+> <span class="qz">如果战略不能是最好的或惊人的，它必须是具有争议的，一个理性的人应该能够不同意它，因为否则你可能只是试图在原始执行上竞争</span>  
 > *if strategy can't be like be the best or be amazing it has to be controversial that you have to be a reasonable person should be able to disagree with it because otherwise you're probably just trying to compete on raw execution*  
-> —— Adam Mosseri · [25:29] ^q2
+> <span class="qm">—— Adam Mosseri · [25:29]</span> ^q2
 
-> 在一个合成内容丰富的世界里，实际上我认为人们会更多而不是更少地寻求创造力、真实性和人  
+> <span class="qz">在一个合成内容丰富的世界里，实际上我认为人们会更多而不是更少地寻求创造力、真实性和人</span>  
 > *in a world where there's an abundance of synthetic content i actually think people are going to seek out creativity and authenticity and people more not less*  
-> —— Adam Mosseri · [42:39] ^q3
+> <span class="qm">—— Adam Mosseri · [42:39]</span> ^q3
 
-> 我认为品味非常重要，所以在一个更容易构建事物的世界里，更重要的是确保你的时间花在弄清楚你首先应该构建什么上  
+> <span class="qz">我认为品味非常重要，所以在一个更容易构建事物的世界里，更重要的是确保你的时间花在弄清楚你首先应该构建什么上</span>  
 > *i think taste matters a ton uh so in a world where it's easier to build things it's more important to make sure that your time is spent figuring out what you should be building in the first place*  
-> —— Adam Mosseri · [08:14] ^q4
+> <span class="qm">—— Adam Mosseri · [08:14]</span> ^q4
 
-> 我认为人们假设算法对每个人的兴趣和偏好有更详细的语义理解，但实际并没有那么多  
+> <span class="qz">我认为人们假设算法对每个人的兴趣和偏好有更详细的语义理解，但实际并没有那么多</span>  
 > *i think people assume that there's a much more detailed semantic understanding of everybody's interests and preferences in the algorithm than there is*  
-> —— Adam Mosseri · [34:41] ^q5
+> <span class="qm">—— Adam Mosseri · [34:41]</span> ^q5
 
-> 我不认为我们应该根据制造它的工具来评判内容，我认为我们应该根据内容、观点、内容背后的人来评判它  
+> <span class="qz">我不认为我们应该根据制造它的工具来评判内容，我认为我们应该根据内容、观点、内容背后的人来评判它</span>  
 > *i don't think we should judge content based on the tool that made it um i think we should judge it based on the content the point of view the person behind the content*  
-> —— Adam Mosseri · [44:20] ^q6
+> <span class="qm">—— Adam Mosseri · [44:20]</span> ^q6
 
-> 如果你做一个纯粹的按时间顺序的信息流，每个人的激励就是尽可能多地发布内容，因为一旦你发布，它总是会位于每个关注你的人的信息流的顶部  
+> <span class="qz">如果你做一个纯粹的按时间顺序的信息流，每个人的激励就是尽可能多地发布内容，因为一旦你发布，它总是会位于每个关注你的人的信息流的顶部</span>  
 > *if you do a pure chronological feed the incentive for everybody is to just post as much as possible because it will always be at the top of everyone who follows you's feed as soon as you post*  
-> —— Adam Mosseri · [38:56] ^q7
+> <span class="qm">—— Adam Mosseri · [38:56]</span> ^q7
 
-> 你不能你不能你不能向三十亿人发布某样东西而不先测试它，但你不能在我们的规模上测试某样东西而不期望人们去报道它  
+> <span class="qz">你不能你不能你不能向三十亿人发布某样东西而不先测试它，但你不能在我们的规模上测试某样东西而不期望人们去报道它</span>  
 > *you can't you can't you can't launch something to three billion people and not test it first but you can't test something at our scale and not expect people to cover it*  
-> —— Adam Mosseri · [59:28] ^q8
+> <span class="qm">—— Adam Mosseri · [59:28]</span> ^q8
 
-> 我宁愿每隔几年遇到像那样的抵制，但继续进化并保持相关性，也不愿要替代方案，那就像是我们没有视频，我们没有私信，我们没有 Stories，我们没有排名  
+> <span class="qz">我宁愿每隔几年遇到像那样的抵制，但继续进化并保持相关性，也不愿要替代方案，那就像是我们没有视频，我们没有私信，我们没有 Stories，我们没有排名</span>  
 > *i would much rather have backlashes like that every couple years but continue to evolve and continue to stay relevant than the alternative which would have been like we didn't have video we didn't have dms we didn't have stories we didn't have ranking*  
-> —— Adam Mosseri · [58:31] ^q9
+> <span class="qm">—— Adam Mosseri · [58:31]</span> ^q9
 
 <div class="pd-sec">接着看</div>
 
@@ -270,7 +268,45 @@ Adam 宁愿每隔几年经历一次这样的反噬，也要坚持进化，也不
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

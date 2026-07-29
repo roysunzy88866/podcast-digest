@@ -18,7 +18,7 @@ tags:
   - 创业与行业
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」
 
@@ -31,15 +31,13 @@ tags:
 <div class="pd-hook"><div class="z">你的直觉 95% 的时候是对的，而你的想法 75% 的时候是错的，或者充其量只有 25% 的时候是对的。</div><div class="a">Mark Pincus · 04:45</div></div>
 
 > [!info] 关联
-> **主持**:[[Mark Pincus]]
+> **人物** [[Mark Pincus]] · [[Lenny]]
 >
-> **联合主持**:[[Lenny]]
+> **公司** [[Zynga]]
 >
-> **涉及公司**:[[Zynga]]
+> **概念** [[已验证、更好、全新]] · [[产品市场契合度]] · [[留存率]] · [[分发]] · [[智能体]] · [[社交网络]] · [[微管理]]
 >
-> **概念**:[[已验证、更好、全新]] · [[产品市场契合度]] · [[留存率]] · [[分发]] · [[智能体]] · [[社交网络]] · [[微管理]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/the-common-pattern-behind-successful)
 
 <div class="pd-tldr"><b>一句话</b>Zynga 创始人分享消费产品的核心方法论「Proven, Better, New」：大胆借鉴被验证的模式，克制野心从小处起步，并果断放弃平庸的 B+ 想法。</div>
 
@@ -97,73 +95,73 @@ Mark 指出，回顾互联网历史，真正伟大的社交网络其实都在提
 
 <div class="pd-sec">全部金句 <span>17 条(中英对照,已过机器闸门)</span></div>
 
-> 你的直觉 95% 的时候是对的，而你的想法 75% 的时候是错的，或者充其量只有 25% 的时候是对的。  
+> <span class="qz">你的直觉 95% 的时候是对的，而你的想法 75% 的时候是错的，或者充其量只有 25% 的时候是对的。</span>  
 > *Your instincts are right 95% of the time, your ideas are wrong 75% or at best right 25% of the time.*  
-> —— Mark Pincus · [04:45] ^q1
+> <span class="qm">—— Mark Pincus · [04:45]</span> ^q1
 
-> 如果你真的有雄心壮志，就烧掉你的简历。  
+> <span class="qz">如果你真的有雄心壮志，就烧掉你的简历。</span>  
 > *If you're truly ambitious, burn your resume.*  
-> —— Mark Pincus · [16:18] ^q2
+> <span class="qm">—— Mark Pincus · [16:18]</span> ^q2
 
-> 如果你根据消费者的眼光而非同行的眼光来定义你的抱负，你不是试图赢得奖项和同行的尊重，你是试图赢得印第安纳州护士的心和思想，就像 Farmville 一样，你会以不同的方式定义创新，而且你不会担心是否……  
+> <span class="qz">如果你根据消费者的眼光而非同行的眼光来定义你的抱负，你不是试图赢得奖项和同行的尊重，你是试图赢得印第安纳州护士的心和思想，就像 Farmville 一样，你会以不同的方式定义创新，而且你不会担心是否……</span>  
 > *If you define your ambition in the eyes of your consumer, not your peers, you're not trying to win awards and respect from your peers, you're trying to win the hearts and minds of nurses in Indiana, like for Farmville, you're going to define innovation differently and you're not going to worry about whether...*  
-> —— Mark Pincus · [16:22] ^q3
+> <span class="qm">—— Mark Pincus · [16:22]</span> ^q3
 
-> 如果我们一开始太雄心勃勃，对我们要构建的产品愿景太远大，那我们很可能会错过产品市场契合度，因为我们不会从一个足够微小、足够谦逊的地方开始  
+> <span class="qz">如果我们一开始太雄心勃勃，对我们要构建的产品愿景太远大，那我们很可能会错过产品市场契合度，因为我们不会从一个足够微小、足够谦逊的地方开始</span>  
 > *If we're too ambitious at the outset and too ambitious and visionary about the product we want to build, then we will probably miss product market fit because we won't start at a small enough, humble enough place*  
-> —— Mark Pincus · [24:28] ^q4
+> <span class="qm">—— Mark Pincus · [24:28]</span> ^q4
 
-> 但我想说我的雄心降到了 1000 英尺的高度，而不是 10 万英尺。那是成功的关键。  
+> <span class="qz">但我想说我的雄心降到了 1000 英尺的高度，而不是 10 万英尺。那是成功的关键。</span>  
 > *But I'd say my ambition came down to a 1000 ft altitude, not a 100,000 ft. And that was the key to that being successful.*  
-> —— Mark Pincus · [27:24] ^q5
+> <span class="qm">—— Mark Pincus · [27:24]</span> ^q5
 
-> 悖论在于，你越有雄心，你就应该越谦逊，你应该愿意从更小的地方开始。  
+> <span class="qz">悖论在于，你越有雄心，你就应该越谦逊，你应该愿意从更小的地方开始。</span>  
 > *The paradox is the more ambitious you are that the more humble you should be in the smaller place you should be willing to start.*  
-> —— Mark Pincus · [28:16] ^q6
+> <span class="qm">—— Mark Pincus · [28:16]</span> ^q6
 
-> 我认为太多的创始人和团队继续抱着希望，认为下一个版本会带来奇迹。  
+> <span class="qz">我认为太多的创始人和团队继续抱着希望，认为下一个版本会带来奇迹。</span>  
 > *I think that too many founders and teams keep going with the hope that this next release is going to do something magical.*  
-> —— Mark Pincus · [34:21] ^q7
+> <span class="qm">—— Mark Pincus · [34:21]</span> ^q7
 
-> 如果你在问你的产品是否是 A，那它就不是 A，而你充满了希望。  
+> <span class="qz">如果你在问你的产品是否是 A，那它就不是 A，而你充满了希望。</span>  
 > *If you're asking whether or not your product is an A, it's not an A and you're full of hope.*  
-> —— Mark Pincus · [58:09] ^q8
+> <span class="qm">—— Mark Pincus · [58:09]</span> ^q8
 
-> 当你拥有了瓶中闪电，当你拥有真正的信号时，一切都行得通。  
+> <span class="qz">当你拥有了瓶中闪电，当你拥有真正的信号时，一切都行得通。</span>  
 > *When you have lightning in a bottle, when you have true signal, everything works.*  
-> —— Mark Pincus · [58:32] ^q9
+> <span class="qm">—— Mark Pincus · [58:32]</span> ^q9
 
-> 所以在知道它是对的之前先把它构建错。  
+> <span class="qz">所以在知道它是对的之前先把它构建错。</span>  
 > *So build it wrong before you know it's right.*  
-> —— Mark Pincus · [36:33] ^q10
+> <span class="qm">—— Mark Pincus · [36:33]</span> ^q10
 
-> 我认为 AI 更多被用来在三个月内构建一个想法，而不是一天内构建 100 个想法。  
+> <span class="qz">我认为 AI 更多被用来在三个月内构建一个想法，而不是一天内构建 100 个想法。</span>  
 > *I think AI is being used more to build one idea in three months than a hundred ideas in a day.*  
-> —— Mark Pincus · [36:17] ^q11
+> <span class="qm">—— Mark Pincus · [36:17]</span> ^q11
 
-> 我相信我们对社交有着超越潜在需求的需求，我们正在线上进行社交。我们在 Snapchat、Instagram 和 TikTok 上，但我认为它失去了肾上腺素。  
+> <span class="qz">我相信我们对社交有着超越潜在需求的需求，我们正在线上进行社交。我们在 Snapchat、Instagram 和 TikTok 上，但我认为它失去了肾上腺素。</span>  
 > *I believe that we have beyond a latent demand for social, we are being social online. We are on Snapchat and Instagram and TikTok, but I believe it's lost the adrenaline.*  
-> —— Mark Pincus · [52:06] ^q12
+> <span class="qm">—— Mark Pincus · [52:06]</span> ^q12
 
-> 如今我们都挂在 Claude 上，挂在 GPT 上，但没有鸡尾酒会。  
+> <span class="qz">如今我们都挂在 Claude 上，挂在 GPT 上，但没有鸡尾酒会。</span>  
 > *Today we're all hanging out on our Claude on our GPT, but there's no cocktail party.*  
-> —— Mark Pincus · [56:32] ^q13
+> <span class="qm">—— Mark Pincus · [56:32]</span> ^q13
 
-> 我对你听众的挑战是，弄清楚如何让它变得喧闹，弄清楚如何让那个鸡尾酒会变得社交化并具有社交生产力，你很可能会在那里找到金矿。  
+> <span class="qz">我对你听众的挑战是，弄清楚如何让它变得喧闹，弄清楚如何让那个鸡尾酒会变得社交化并具有社交生产力，你很可能会在那里找到金矿。</span>  
 > *My challenge to your listeners is figure out how to make it rowdy, figure out how to make that cocktail party social and socially productive and you will probably find gold there.*  
-> —— Mark Pincus · [56:52] ^q14
+> <span class="qm">—— Mark Pincus · [56:52]</span> ^q14
 
-> 如果你只是建造这个产品并希望它们会来，希望它能病毒式传播或口碑传播，那是希望策略，而不是信念策略。  
+> <span class="qz">如果你只是建造这个产品并希望它们会来，希望它能病毒式传播或口碑传播，那是希望策略，而不是信念策略。</span>  
 > *If you're just building this product and hoping they will come, hoping it'll spread virally or word of mouth, that's hope strategy, not a belief strategy.*  
-> —— Mark Pincus · [65:45] ^q15
+> <span class="qm">—— Mark Pincus · [65:45]</span> ^q15
 
-> 即使你没有很好地经营这艘船或工厂，我宁愿你选择了正确的产品、正确的战略，而不是你非凡的执行力，或者鼓舞人心或管理。  
+> <span class="qz">即使你没有很好地经营这艘船或工厂，我宁愿你选择了正确的产品、正确的战略，而不是你非凡的执行力，或者鼓舞人心或管理。</span>  
 > *Even if you don't operate the ship or the factory that well, I'd rather that you picked the right product, the right strategy than your phenomenal execution, or inspiring people or managing.*  
-> —— Mark Pincus · [85:26] ^q16
+> <span class="qm">—— Mark Pincus · [85:26]</span> ^q16
 
-> 因为在正确的水域里比拥有一艘正确的船更重要，而在干涸的湖床上的一艘好船哪儿也去不了。  
+> <span class="qz">因为在正确的水域里比拥有一艘正确的船更重要，而在干涸的湖床上的一艘好船哪儿也去不了。</span>  
 > *Because being in the right body of water matters more than the right boat, and a great boat in a dead lake bed isn't going anywhere.*  
-> —— Mark Pincus · [85:43] ^q17
+> <span class="qm">—— Mark Pincus · [85:43]</span> ^q17
 
 <div class="pd-sec">接着看</div>
 
@@ -263,7 +261,45 @@ Mark 指出，回顾互联网历史，真正伟大的社交网络其实都在提
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

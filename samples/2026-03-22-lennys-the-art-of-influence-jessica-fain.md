@@ -17,7 +17,7 @@ tags:
   - 职业与个人成长
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>别只想推销：产品负责人如何真正影响高管决策</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>别只想推销：产品负责人如何真正影响高管决策</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # 别只想推销：产品负责人如何真正影响高管决策
 
@@ -30,15 +30,13 @@ tags:
 <div class="pd-hook"><div class="z">而来参加那个产品评审的产品经理，或者是试图做推介的领导者，心里想的是，“为了这次会议我已经准备了两周、三周，也许自从我们上次说话以来已经六周了，”但走进那个会议的高管从那以后就没想过你。</div><div class="a">Jessica Fain · 08:01</div></div>
 
 > [!info] 关联
-> **主持**:[[Jessica Fain]]
+> **人物** [[Jessica Fain]] · [[Lenny]]
 >
-> **联合主持**:[[Lenny]]
+> **公司** [[Webflow]] · [[Slack]]
 >
-> **涉及公司**:[[Webflow]] · [[Slack]]
+> **概念** [[智能体]] · [[产品市场契合度]]
 >
-> **概念**:[[智能体]] · [[产品市场契合度]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/the-art-of-influence-jessica-fain)
 
 <div class="pd-tldr"><b>一句话</b>产品负责人掌握影响力的核心，是理解高管的处境与目标，用同理心引导他们为好想法买账。</div>
 
@@ -89,33 +87,33 @@ Jessica 提供了一个极具实操性的战术短语。当高管说出一句与
 
 <div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
 
-> 而来参加那个产品评审的产品经理，或者是试图做推介的领导者，心里想的是，“为了这次会议我已经准备了两周、三周，也许自从我们上次说话以来已经六周了，”但走进那个会议的高管从那以后就没想过你。  
+> <span class="qz">而来参加那个产品评审的产品经理，或者是试图做推介的领导者，心里想的是，“为了这次会议我已经准备了两周、三周，也许自从我们上次说话以来已经六周了，”但走进那个会议的高管从那以后就没想过你。</span>  
 > *And the product manager coming to that product review, or the leader who's trying to make a pitch, thinks, "I've been prepping for this meeting for two weeks, three weeks, maybe six weeks since we last spoke," but the executive coming into that session hasn't thought about you since.*  
-> —— Jessica Fain · [08:01] ^q1
+> <span class="qm">—— Jessica Fain · [08:01]</span> ^q1
 
-> 我总是告诉我管理的人的另一件事是，如果领导者不认同你的想法，那是你的错。  
+> <span class="qz">我总是告诉我管理的人的另一件事是，如果领导者不认同你的想法，那是你的错。</span>  
 > *The other thing I always tell people I managed is, it's your fault if the leaders didn't buy into your idea.*  
-> —— Lenny · [10:23] ^q2
+> <span class="qm">—— Lenny · [10:23]</span> ^q2
 
-> 政治是为了自己的利益操纵结果和他人。影响力是增加你的好想法存活下来的几率。  
+> <span class="qz">政治是为了自己的利益操纵结果和他人。影响力是增加你的好想法存活下来的几率。</span>  
 > *Politics is manipulating outcomes and people for your own gain. Influence is about increasing the odds that your good ideas survive.*  
-> —— Jessica Fain · [13:29] ^q3
+> <span class="qm">—— Jessica Fain · [13:29]</span> ^q3
 
-> 我认为你可以做的最灾难性的事情之一就是带着仅仅寻求计划批准的目的去参加会议。  
+> <span class="qz">我认为你可以做的最灾难性的事情之一就是带着仅仅寻求计划批准的目的去参加会议。</span>  
 > *I think one of the most disastrous things you can do is going into a meeting just looking for approval for your plan.*  
-> —— Jessica Fain · [11:48] ^q4
+> <span class="qm">—— Jessica Fain · [11:48]</span> ^q4
 
-> 我发现的是人们没有上钩。最优秀的人会。  
+> <span class="qz">我发现的是人们没有上钩。最优秀的人会。</span>  
 > *what I find is that people don't take the bait. And the best people do.*  
-> —— Jessica Fain · [38:38] ^q5
+> <span class="qm">—— Jessica Fain · [38:38]</span> ^q5
 
-> 我认为建立信任你能做的最重要的事情之一就是砍掉东西，降低优先级。  
+> <span class="qz">我认为建立信任你能做的最重要的事情之一就是砍掉东西，降低优先级。</span>  
 > *I think one of the biggest things you can do to build trust is kill things, deprioritize things.*  
-> —— Jessica Fain · [60:53] ^q6
+> <span class="qm">—— Jessica Fain · [60:53]</span> ^q6
 
-> 利益相关者管理的行為，学习的行為，是 10 倍效能的技能。  
+> <span class="qz">利益相关者管理的行為，学习的行為，是 10 倍效能的技能。</span>  
 > *The act of stakeholder management, the act of learning is the 10X skill.*  
-> —— Jessica Fain · [72:03] ^q7
+> <span class="qm">—— Jessica Fain · [72:03]</span> ^q7
 
 <div class="pd-sec">接着看</div>
 
@@ -215,7 +213,45 @@ Jessica 提供了一个极具实操性的战术短语。当高管说出一句与
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

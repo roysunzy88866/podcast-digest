@@ -17,7 +17,7 @@ tags:
   - 职业与个人成长
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>科技圈情绪调查：一半人狂喜，一半人煎熬</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>科技圈情绪调查：一半人狂喜，一半人煎熬</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # 科技圈情绪调查：一半人狂喜，一半人煎熬
 
@@ -30,15 +30,13 @@ tags:
 <div class="pd-hook"><div class="z">而每次你把这种负担推卸给你最喜欢的 AI 模型时，你都在降低那个基线，而你的思考和判断正在旁观。</div><div class="a">Noam Segal · 52:15</div></div>
 
 > [!info] 关联
-> **主持**:[[Noam Segal]]
+> **人物** [[Noam Segal]] · [[Lenny]]
 >
-> **联合主持**:[[Lenny]]
+> **公司** [[Cognition]]
 >
-> **涉及公司**:[[Cognition]]
+> **概念** [[职业倦怠]] · [[认知衰退]] · [[同薪挤压]] · [[NPS]] · [[技能萎缩]] · [[经理有效性]] · [[大扁平化]] · [[冒名顶替综合征]]
 >
-> **概念**:[[职业倦怠]] · [[认知衰退]] · [[同薪挤压]] · [[NPS]] · [[技能萎缩]] · [[经理有效性]] · [[大扁平化]] · [[冒名顶替综合征]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about)
 
 <div class="pd-tldr"><b>一句话</b>6000人调查揭示科技圈因AI一分为二，倦怠激增、乐观骤降，但经理和小公司是破局关键。</div>
 
@@ -122,33 +120,33 @@ Noam 提醒，在当前这个 AI 疯狂挤压员工、「[[大扁平化|大扁�
 
 <div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
 
-> 而每次你把这种负担推卸给你最喜欢的 AI 模型时，你都在降低那个基线，而你的思考和判断正在旁观。  
+> <span class="qz">而每次你把这种负担推卸给你最喜欢的 AI 模型时，你都在降低那个基线，而你的思考和判断正在旁观。</span>  
 > *And every time you offload that to your favorite AI model, you are lowering that baseline and your thinking and your judgment is watching.*  
-> —— Noam Segal · [52:15] ^q1
+> <span class="qm">—— Noam Segal · [52:15]</span> ^q1
 
-> 科技是躁狂的。一半人与现实脱节，死死抱住流行趋势，投入到过度宣传中。另一半人则被这一半人弄得精疲力竭。  
+> <span class="qz">科技是躁狂的。一半人与现实脱节，死死抱住流行趋势，投入到过度宣传中。另一半人则被这一半人弄得精疲力竭。</span>  
 > *Tech is manic. Half out of touch, clinging to the bandwagon, pouring into the over hype. The other half are exhausted by the first half.*  
-> —— Noam Segal · [80:40] ^q2
+> <span class="qm">—— Noam Segal · [80:40]</span> ^q2
 
-> 生产力的提升是真实的，但工作的质量以及生产它的人的敏锐度正在受到打击。  
+> <span class="qz">生产力的提升是真实的，但工作的质量以及生产它的人的敏锐度正在受到打击。</span>  
 > *The productivity gains are real, but the quality of the work and the sharpness of the person producing it are taking a hit.*  
-> —— Lenny · [52:31] ^q3
+> <span class="qm">—— Lenny · [52:31]</span> ^q3
 
-> AI 解锁的速度直接被投入到期望之中。每一项成就都成为新的基准，而那些被期望达到这一基准的人正几乎没有喘息的空间。  
+> <span class="qz">AI 解锁的速度直接被投入到期望之中。每一项成就都成为新的基准，而那些被期望达到这一基准的人正几乎没有喘息的空间。</span>  
 > *The speed AI unlocked got plowed straight back into expectations. Every game becomes the new baseline and the people expected to hit it are running out of room to breathe.*  
-> —— Lenny · [55:30] ^q4
+> <span class="qm">—— Lenny · [55:30]</span> ^q4
 
-> 人们感觉到 AI 正在以一种不可持续的方式提高门槛。  
+> <span class="qz">人们感觉到 AI 正在以一种不可持续的方式提高门槛。</span>  
 > *People are feeling how AI is raising bars in ways that aren't sustainable.*  
-> —— Noam Segal · [89:28] ^q5
+> <span class="qm">—— Noam Segal · [89:28]</span> ^q5
 
-> 我怀疑它会消失。它今天是最糟糕的。它只会变得更好。  
+> <span class="qz">我怀疑它会消失。它今天是最糟糕的。它只会变得更好。</span>  
 > *I doubt it's going away. It's the worst it's ever going to be today. It's only getting better.*  
-> —— Noam Segal · [93:15] ^q6
+> <span class="qm">—— Noam Segal · [93:15]</span> ^q6
 
-> 我们正处于一场大规模变革的第二局。没有人知道它将如何结束，但你所能做的就是继续挥棒击球。  
+> <span class="qz">我们正处于一场大规模变革的第二局。没有人知道它将如何结束，但你所能做的就是继续挥棒击球。</span>  
 > *We're in the second inning of a massive shift. No one knows how it will end, but all you can do is keep taking at bats.*  
-> —— Noam Segal · [80:11] ^q7
+> <span class="qm">—— Noam Segal · [80:11]</span> ^q7
 
 <div class="pd-sec">接着看</div>
 
@@ -248,7 +246,45 @@ Noam 提醒，在当前这个 AI 疯狂挤压员工、「[[大扁平化|大扁�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

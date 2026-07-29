@@ -17,7 +17,7 @@ tags:
   - 智能体
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # 让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏
 
@@ -30,13 +30,13 @@ tags:
 <div class="pd-hook"><div class="z">如果你在每个人都在使用的智能体中发现漏洞,像 Codex 和 Cloud Code 这样的东西,你现在实际上基本上就可以拥有一种新的漏洞利用,一类新的漏洞利用。</div><div class="a">Zico Kolter · 03:37</div></div>
 
 > [!info] 关联
-> **嘉宾**:[[Zico Kolter]] · [[Matt Fredrikson]]
+> **人物** [[Zico Kolter]] · [[Matt Fredrikson]]
 >
-> **涉及公司**:[[Gray Swan]]
+> **公司** [[Gray Swan]]
 >
-> **概念**:[[智能体]] · [[红队测试]] · [[提示词注入]] · [[越狱]] · [[护栏]] · [[沙箱]] · [[可解释性]] · [[致命三角]] · [[arena]] · [[Shade]] · [[Signal]] · [[OpenClaw]]
+> **概念** [[智能体]] · [[红队测试]] · [[提示词注入]] · [[越狱]] · [[护栏]] · [[沙箱]] · [[可解释性]] · [[致命三角]] · [[arena]] · [[Shade]] · [[Signal]] · [[OpenClaw]]
 >
-> **来源**:[Latent Space](https://www.latent.space/p/gray-swan)
+> **来源** [Latent Space](https://www.latent.space/p/gray-swan)
 
 <div class="pd-tldr"><b>一句话</b>CMU学者创办Gray Swan,通过社区与自动化红队测试找出AI漏洞,并用专用模型Signal拦截提示注入,守护企业AI部署。</div>
 
@@ -96,33 +96,33 @@ Signal(C-Y-G-N-A-L,取自天鹅 swan 的谐音)是一个专用过滤模型,它�
 
 <div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
 
-> 如果你在每个人都在使用的智能体中发现漏洞,像 Codex 和 Cloud Code 这样的东西,你现在实际上基本上就可以拥有一种新的漏洞利用,一类新的漏洞利用。  
+> <span class="qz">如果你在每个人都在使用的智能体中发现漏洞,像 Codex 和 Cloud Code 这样的东西,你现在实际上基本上就可以拥有一种新的漏洞利用,一类新的漏洞利用。</span>  
 > *if you find vulnerabilities in the agents that everyone uses, right, things like Codex and Cloud Code, you can actually start to now essentially have a new exploit, a new class of exploit.*  
-> —— Zico Kolter · [03:37] ^q1
+> <span class="qm">—— Zico Kolter · [03:37]</span> ^q1
 
-> 前沿模型在自动化红队测试方面极其糟糕,因为它们内置了大量的保障措施。  
+> <span class="qz">前沿模型在自动化红队测试方面极其糟糕,因为它们内置了大量的保障措施。</span>  
 > *frontier models are extremely bad at automated red teaming because they have a lot of safeguards built into them.*  
-> —— Zico Kolter · [10:01] ^q2
+> <span class="qm">—— Zico Kolter · [10:01]</span> ^q2
 
-> 它是某种外星智能,它是……截然不同。  
+> <span class="qz">它是某种外星智能,它是……截然不同。</span>  
 > *It's some alien intelligence that is... Vastly different.*  
-> —— Zico Kolter · [14:27] ^q3
+> <span class="qm">—— Zico Kolter · [14:27]</span> ^q3
 
-> 人类在所有模型中排名第四,这很搞笑。  
+> <span class="qz">人类在所有模型中排名第四,这很搞笑。</span>  
 > *It's hilarious that humans are ranked number four of all the models.*  
-> —— Zico Kolter · [21:06] ^q4
+> <span class="qm">—— Zico Kolter · [21:06]</span> ^q4
 
-> 如果你把一个模型做得越来越大,它本质上不一定变得更擅长抵抗越狱。  
+> <span class="qz">如果你把一个模型做得越来越大,它本质上不一定变得更擅长抵抗越狱。</span>  
 > *you make a model bigger and bigger, it does not necessarily get better inherently at resisting jailbreaks.*  
-> —— Zico Kolter · [27:11] ^q5
+> <span class="qm">—— Zico Kolter · [27:11]</span> ^q5
 
-> 摄取不可信的数据,访问私有信息,以及拥有将其泄露出去的能力,这些才是真正共同构成风险的事情。  
+> <span class="qz">摄取不可信的数据,访问私有信息,以及拥有将其泄露出去的能力,这些才是真正共同构成风险的事情。</span>  
 > *ingesting untrusted data, having access to private information, and having the ability to exfiltrate it, those are the things that together really form a risk.*  
-> —— Zico Kolter · [35:35] ^q6
+> <span class="qm">—— Zico Kolter · [35:35]</span> ^q6
 
-> 你可以让你的智能体编写安全的代码。你不必编写安全的代码。  
+> <span class="qz">你可以让你的智能体编写安全的代码。你不必编写安全的代码。</span>  
 > *you can have your agent write secure code. You don't have to write secure code.*  
-> —— Zico Kolter · [44:43] ^q7
+> <span class="qm">—— Zico Kolter · [44:43]</span> ^q7
 
 <div class="pd-sec">接着看</div>
 
@@ -222,7 +222,45 @@ Signal(C-Y-G-N-A-L,取自天鹅 swan 的谐音)是一个专用过滤模型,它�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

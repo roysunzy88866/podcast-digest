@@ -97,10 +97,18 @@ describe("renderRelations · 关联区按角色分行,链到实体页", () => {
     expect(md).toContain("[[Modal]]");
     expect(md).toContain("[[智能体]]"); // 链的是 file 名,不是显示名
   });
-  it("★ 角色分行、可辨(嘉宾/主持/公司/概念各有标签)", () => {
-    expect(md).toMatch(/嘉宾/);
-    expect(md).toMatch(/主持/);
-    expect(md).toMatch(/概念/);
+  // C13h(2026-07-29 用户「照设计稿一次性改完」):设计稿 ep-*.html 的「这一集涉及」只有三行
+  // 人物/公司/概念(嘉宾+主持+联合主持并进人物行,按 file 去重,嘉宾在前)。
+  it("★ 三行制:人物/公司/概念;旧的 嘉宾/主持 标签不再出现", () => {
+    expect(md).toMatch(/\*\*人物\*\*/);
+    expect(md).toMatch(/\*\*概念\*\*/);
+    expect(md).not.toMatch(/\*\*嘉宾\*\*/);
+    expect(md).not.toMatch(/\*\*主持\*\*/);
+  });
+  it("★ 人物行嘉宾在前、主持在后,且同人不重复", () => {
+    const row = md.split("\n").find((l: string) => l.includes("**人物**"))!;
+    expect(row.indexOf("Akshat Bubna")).toBeLessThan(row.indexOf("swyx"));
+    expect((row.match(/Akshat Bubna/g) || []).length).toBe(1);
   });
   it("★ 链的是 file 不是 name(实体页文件名=沙箱,不是「沙箱 (sandbox)」)", () => {
     expect(md).toContain("[[沙箱]]");

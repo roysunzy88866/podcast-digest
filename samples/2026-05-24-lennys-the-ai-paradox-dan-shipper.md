@@ -18,7 +18,7 @@ tags:
   - AI 编程
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切
 
@@ -31,15 +31,13 @@ tags:
 <div class="pd-hook"><div class="z">我认为 SaaS 末日论是愚蠢的。</div><div class="a">Dan Shipper · 01:17</div></div>
 
 > [!info] 关联
-> **主持**:[[Lenny]]
+> **人物** [[Lenny]] · [[Dan Shipper]]
 >
-> **联合主持**:[[Dan Shipper]]
+> **公司** [[Codex]] · [[Claude Code]] · [[Cowork]] · [[OpenClaw]]
 >
-> **涉及公司**:[[Codex]] · [[Claude Code]] · [[Cowork]] · [[OpenClaw]]
+> **概念** [[智能体]] · [[SaaS]] · [[前置部署工程师]] · [[PM]] · [[CLI]] · [[高级工程师基准测试]]
 >
-> **概念**:[[智能体]] · [[SaaS]] · [[前置部署工程师]] · [[PM]] · [[CLI]] · [[高级工程师基准测试]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/the-ai-paradox-dan-shipper)
 
 <div class="pd-tldr"><b>一句话</b>Every CEO 预测工作将分化为超级智能体与本机 AI 两条主线，SaaS 不会消亡，PM 与设计师将迎来黄金时代。</div>
 
@@ -101,45 +99,45 @@ Dan 用自己的「[[高级工程师基准测试|高级工程师基准测试]]�
 
 <div class="pd-sec">全部金句 <span>10 条(中英对照,已过机器闸门)</span></div>
 
-> 我认为 SaaS 末日论是愚蠢的。  
+> <span class="qz">我认为 SaaS 末日论是愚蠢的。</span>  
 > *I think the SaaSpocalypse is dumb.*  
-> —— Dan Shipper · [01:17] ^q1
+> <span class="qm">—— Dan Shipper · [01:17]</span> ^q1
 
-> 我现在会买入 SaaS 股票。  
+> <span class="qz">我现在会买入 SaaS 股票。</span>  
 > *I would buy SaaS stocks right now.*  
-> —— Dan Shipper · [37:09] ^q2
+> <span class="qm">—— Dan Shipper · [37:09]</span> ^q2
 
-> 智能体所做的是增加 SaaS 的用户数量，而不是摆脱它。  
+> <span class="qz">智能体所做的是增加 SaaS 的用户数量，而不是摆脱它。</span>  
 > *What agents do is increase the number of users of SaaS, not get rid of it.*  
-> —— Dan Shipper · [38:20] ^q3
+> <span class="qm">—— Dan Shipper · [38:20]</span> ^q3
 
-> 自动化是个谎言，从某种意义上说，每次你自动化某样东西时，为了确保自动化运行良好，你需要一个人在上面确保它运行良好。  
+> <span class="qz">自动化是个谎言，从某种意义上说，每次你自动化某样东西时，为了确保自动化运行良好，你需要一个人在上面确保它运行良好。</span>  
 > *Automation is a lie, in the sense that every time you automate something, in order to make sure the automation is working well you need a human on top of it making sure that it's working well.*  
-> —— Dan Shipper · [39:15] ^q4
+> <span class="qm">—— Dan Shipper · [39:15]</span> ^q4
 
-> 我同时极其 AI 信奉（pilled）且非常看好人类。  
+> <span class="qz">我同时极其 AI 信奉（pilled）且非常看好人类。</span>  
 > *I'm simultaneously extremely AI pilled and very bullish on humans.*  
-> —— Dan Shipper · [00:24] ^q5
+> <span class="qm">—— Dan Shipper · [00:24]</span> ^q5
 
-> 模型总体上做的是让昨天的人类能力变得廉价。  
+> <span class="qz">模型总体上做的是让昨天的人类能力变得廉价。</span>  
 > *What models do in general is they make yesterday's human competence cheap.*  
-> —— Dan Shipper · [73:51] ^q6
+> <span class="qm">—— Dan Shipper · [73:51]</span> ^q6
 
-> 我们速通了 CLI 时代。  
+> <span class="qz">我们速通了 CLI 时代。</span>  
 > *We speed ran the CLI era.*  
-> —— Dan Shipper · [31:26] ^q7
+> <span class="qm">—— Dan Shipper · [31:26]</span> ^q7
 
-> 它在持续期间很不错，但我认为 CLI 已经过时了。  
+> <span class="qz">它在持续期间很不错，但我认为 CLI 已经过时了。</span>  
 > *It was nice while it lasted, but I think CLIs are over.*  
-> —— Dan Shipper · [01:28] ^q8
+> <span class="qm">—— Dan Shipper · [01:28]</span> ^q8
 
-> 你的公司的发展程度只能达到你的 CEO 在 AI 方面的发展程度，而且这是你不能委托的事情。  
+> <span class="qz">你的公司的发展程度只能达到你的 CEO 在 AI 方面的发展程度，而且这是你不能委托的事情。</span>  
 > *Your company's only going to go as far as your CEO goes in AI and it's not something you can delegate.*  
-> —— Dan Shipper · [59:28] ^q9
+> <span class="qm">—— Dan Shipper · [59:28]</span> ^q9
 
-> 我认为 AI 的前沿是 AI 遇到真实的人做事情的地方  
+> <span class="qz">我认为 AI 的前沿是 AI 遇到真实的人做事情的地方</span>  
 > *I think the edge of AI is wherever AI meets a real human doing something*  
-> —— Dan Shipper · [78:48] ^q10
+> <span class="qm">—— Dan Shipper · [78:48]</span> ^q10
 
 <div class="pd-sec">接着看</div>
 
@@ -239,7 +237,45 @@ Dan 用自己的「[[高级工程师基准测试|高级工程师基准测试]]�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

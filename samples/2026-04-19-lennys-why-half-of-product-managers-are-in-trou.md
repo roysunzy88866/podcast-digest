@@ -18,7 +18,7 @@ tags:
   - 产品方法
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴
 
@@ -31,15 +31,13 @@ tags:
 <div class="pd-hook"><div class="z">总的来说，这个职能已经变得极其专注于没有权力的责任。</div><div class="a">Nikhyl Singhal · 04:47</div></div>
 
 > [!info] 关联
-> **主持**:[[Lenny]]
+> **人物** [[Lenny]] · [[Nikhyl Singhal]]
 >
-> **联合主持**:[[Nikhyl Singhal]]
+> **公司** [[Skip]]
 >
-> **涉及公司**:[[Skip]]
+> **概念** [[产品经理]] · [[构建者]] · [[信息搬运工]] · [[判断力]] · [[幕僚长应用]]
 >
-> **概念**:[[产品经理]] · [[构建者]] · [[信息搬运工]] · [[判断力]] · [[幕僚长应用]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble)
 
 <div class="pd-tldr"><b>一句话</b>前 Meta、Google 高管 Nikhyl Singhal 断言：PM 行业正在大洗牌，未来两年唯有成为拥抱 AI 的「构建者」才能生存。</div>
 
@@ -92,37 +90,37 @@ Nikhyl 提出了几条硬核建议：
 
 <div class="pd-sec">全部金句 <span>8 条(中英对照,已过机器闸门)</span></div>
 
-> 总的来说，这个职能已经变得极其专注于没有权力的责任。  
+> <span class="qz">总的来说，这个职能已经变得极其专注于没有权力的责任。</span>  
 > *Generally, the function had become extremely focused on responsibility without authority.*  
-> —— Nikhyl Singhal · [04:47] ^q1
+> <span class="qm">—— Nikhyl Singhal · [04:47]</span> ^q1
 
-> 但你可能会看到一家公司裁掉 30,000 人，然后招聘 8,000 人，但他们要招聘的这 8,000 人将全部是 AI 优先的。  
+> <span class="qz">但你可能会看到一家公司裁掉 30,000 人，然后招聘 8,000 人，但他们要招聘的这 8,000 人将全部是 AI 优先的。</span>  
 > *But you might see a company shed 30,000 and hire 8,000, but the 8,000 people they're going to hire are going to all be AI first.*  
-> —— Nikhyl Singhal · [22:34] ^q2
+> <span class="qm">—— Nikhyl Singhal · [22:34]</span> ^q2
 
-> 我认为，与以往相比，产品将面临 10 倍到 100 倍更多的变化，因为现在测试某事的成本、变更的成本将大大降低。  
+> <span class="qz">我认为，与以往相比，产品将面临 10 倍到 100 倍更多的变化，因为现在测试某事的成本、变更的成本将大大降低。</span>  
 > *I think that there will be 10 to a hundred times more changes that will be presented to products than ever before, because now the cost of testing something, the cost of changing is going to be much, much lower.*  
-> —— Nikhyl Singhal · [15:29] ^q3
+> <span class="qm">—— Nikhyl Singhal · [15:29]</span> ^q3
 
-> 信息搬运工基本上将变成恐龙。  
+> <span class="qz">信息搬运工基本上将变成恐龙。</span>  
 > *The information mover is essentially going to become a dinosaur.*  
-> —— Nikhyl Singhal · [25:29] ^q4
+> <span class="qm">—— Nikhyl Singhal · [25:29]</span> ^q4
 
-> 我认为我们看到的最令人惊讶的转变之一是，你的品牌并不如你在交付产品方面的现代化程度重要。  
+> <span class="qz">我认为我们看到的最令人惊讶的转变之一是，你的品牌并不如你在交付产品方面的现代化程度重要。</span>  
 > *I think that one of the most surprising shifts we're seeing is your brands don't matter as much as how modern you are in your ability to deliver product.*  
-> —— Nikhyl Singhal · [37:17] ^q5
+> <span class="qm">—— Nikhyl Singhal · [37:17]</span> ^q5
 
-> 我做过的最令人惊讶的观察是，那些过去最擅长工作的人，那些掌握了旧游戏规则的人，发现最难度过这个重塑阶段。  
+> <span class="qz">我做过的最令人惊讶的观察是，那些过去最擅长工作的人，那些掌握了旧游戏规则的人，发现最难度过这个重塑阶段。</span>  
 > *And the most surprising observation I made is that the ones that were the best at working in the past, the ones that mastered the old game, find it the hardest to go through this reinvention stage.*  
-> —— Nikhyl Singhal · [45:40] ^q6
+> <span class="qm">—— Nikhyl Singhal · [45:40]</span> ^q6
 
-> 他说，我爸爸的定义仍然是我最喜欢的，即工程师是一个让自己从所做的每件事中过时的人。  
+> <span class="qz">他说，我爸爸的定义仍然是我最喜欢的，即工程师是一个让自己从所做的每件事中过时的人。</span>  
 > *And my dad's definition is still my favorite, which is an engineer is someone who obsoletes themselves from everything they do.*  
-> —— Nikhyl Singhal · [61:25] ^q7
+> <span class="qm">—— Nikhyl Singhal · [61:25]</span> ^q7
 
-> 天才是 1% 的灵感，99% 的汗水。  
+> <span class="qz">天才是 1% 的灵感，99% 的汗水。</span>  
 > *Genius is 1% inspiration, 99% perspiration.*  
-> —— Nikhyl Singhal · [89:28] ^q8
+> <span class="qm">—— Nikhyl Singhal · [89:28]</span> ^q8
 
 <div class="pd-sec">接着看</div>
 
@@ -222,7 +220,45 @@ Nikhyl 提出了几条硬核建议：
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

@@ -18,7 +18,7 @@ tags:
   - 产品方法
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品
 
@@ -31,15 +31,13 @@ tags:
 <div class="pd-hook"><div class="z">我们把一切都归零了。我们没有会议,没有技术规格,没有 Figma。我们没有用来追踪故事或工作的 Jira 看板。我们没有站会,没有回顾会。</div><div class="a">Eddie Kim · 10:08</div></div>
 
 > [!info] 关联
-> **主持**:[[Claire Vo]]
+> **人物** [[Claire Vo]] · [[Eddie Kim]]
 >
-> **联合主持**:[[Eddie Kim]]
+> **公司** [[Gusto]]
 >
-> **涉及公司**:[[Gusto]]
+> **概念** [[联合创始人]] · [[vibe coding]] · [[永久 Zoom]] · [[智能体]] · [[垃圾桶法]] · [[Cloudflare Worker]] · [[Vercel AI SDK]] · [[Claude Code]]
 >
-> **概念**:[[联合创始人]] · [[vibe coding]] · [[永久 Zoom]] · [[智能体]] · [[垃圾桶法]] · [[Cloudflare Worker]] · [[Vercel AI SDK]] · [[Claude Code]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/no-figma-no-jira-no-docs-how-gusto)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/no-figma-no-jira-no-docs-how-gusto)
 
 <div class="pd-tldr"><b>一句话</b>大公司 CTO 用无文档、无会议、无 PM 的极简流程带 5 人团队开发新 AI 产品。</div>
 
@@ -96,37 +94,37 @@ Claire 补充道,这是对所有高管的硬技能大考:在这个时代,如果�
 
 <div class="pd-sec">全部金句 <span>8 条(中英对照,已过机器闸门)</span></div>
 
-> 我们把一切都归零了。我们没有会议,没有技术规格,没有 Figma。我们没有用来追踪故事或工作的 Jira 看板。我们没有站会,没有回顾会。  
+> <span class="qz">我们把一切都归零了。我们没有会议,没有技术规格,没有 Figma。我们没有用来追踪故事或工作的 Jira 看板。我们没有站会,没有回顾会。</span>  
 > *just zeroed everything out we had no meetings we had no tech specs we had no figmas. we had no JIRA board where we track stories or tracked work. We had no stand-ups, no retros.*  
-> —— Eddie Kim · [10:08] ^q1
+> <span class="qm">—— Eddie Kim · [10:08]</span> ^q1
 
-> 我认为你必须去这些团队并说,我们希望你们以这种方式工作,你们不做任何文档,不做 Figma,不做技术规格。  
+> <span class="qz">我认为你必须去这些团队并说,我们希望你们以这种方式工作,你们不做任何文档,不做 Figma,不做技术规格。</span>  
 > *I think you actually have to go to these teams and say, we want you to work in this way, where you don't do any docs, no figmas, no tech specs.*  
-> —— Eddie Kim · [41:53] ^q2
+> <span class="qm">—— Eddie Kim · [41:53]</span> ^q2
 
-> 如果你真的写了文档或做了 Figma,你会受到警告,因为我们明确不希望你们做那个  
+> <span class="qz">如果你真的写了文档或做了 Figma,你会受到警告,因为我们明确不希望你们做那个</span>  
 > *if you actually produce a doc or figma like you will get a slap on the wrist because we explicitly don't want you to do that*  
-> —— Eddie Kim · [42:15] ^q3
+> <span class="qm">—— Eddie Kim · [42:15]</span> ^q3
 
-> 我认为如果你现在没有把所有时间都用来使用 AI 产品,就很难构建出优秀的 AI 产品。  
+> <span class="qz">我认为如果你现在没有把所有时间都用来使用 AI 产品,就很难构建出优秀的 AI 产品。</span>  
 > *I think it's very hard to build great AI products if you are not spending all your time using AI products right now.*  
-> —— Claire Vo · [47:24] ^q4
+> <span class="qm">—— Claire Vo · [47:24]</span> ^q4
 
-> 即便这样,对于一家拥有上千名研发人员的公司来说,这也不是一笔大投资。我认为,只要有两三个这样的项目,就能有意义地改变企业的轨迹。  
+> <span class="qz">即便这样,对于一家拥有上千名研发人员的公司来说,这也不是一笔大投资。我认为,只要有两三个这样的项目,就能有意义地改变企业的轨迹。</span>  
 > *even that's not a big investment across a company of a thousand in R&D. You're going to have like two or three of those, I think, meaningfully change the trajectory of the business.*  
-> —— Eddie Kim · [36:17] ^q5
+> <span class="qm">—— Eddie Kim · [36:17]</span> ^q5
 
-> 平均而言,你们工程团队的 PR 是否比非工程团队的 PR 得到更快的审查?全面的人们都说是的,当然是。这是一个反模式,你需要优先审查这些非工程的 PR,就像你审查工程 PR 一样高  
+> <span class="qz">平均而言,你们工程团队的 PR 是否比非工程团队的 PR 得到更快的审查?全面的人们都说是的,当然是。这是一个反模式,你需要优先审查这些非工程的 PR,就像你审查工程 PR 一样高</span>  
 > *on average is your engineering teams PRS getting faster review than their non-engineering teams PRS and like across the board people are like yeah of course they are like that is an anti-pattern you need to prioritize reviewing these non-engineering PRS just as high as you do your engineering ones*  
-> —— Claire Vo · [25:24] ^q6
+> <span class="qm">—— Claire Vo · [25:24]</span> ^q6
 
-> 你不要碰 agent 代码的输出。你只能碰输入。你只能重新提示。你不能重写代码。  
+> <span class="qz">你不要碰 agent 代码的输出。你只能碰输入。你只能重新提示。你不能重写代码。</span>  
 > *you don't touch the outputs of agent code. You only get to touch the inputs. You only get to reprompt. You don't get to rewrite the code.*  
-> —— Claire Vo · [42:56] ^q7
+> <span class="qm">—— Claire Vo · [42:56]</span> ^q7
 
-> 这其实是一个很有趣的模型,也许文档是存在的,但它们是给智能体的,不是给人类的。  
+> <span class="qz">这其实是一个很有趣的模型,也许文档是存在的,但它们是给智能体的,不是给人类的。</span>  
 > *And that's actually a very interesting model where maybe docs exist, but they're for the agents, not for the humans.*  
-> —— Claire Vo · [44:15] ^q8
+> <span class="qm">—— Claire Vo · [44:15]</span> ^q8
 
 <div class="pd-sec">接着看</div>
 
@@ -226,7 +224,45 @@ Claire 补充道,这是对所有高管的硬技能大考:在这个时代,如果�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

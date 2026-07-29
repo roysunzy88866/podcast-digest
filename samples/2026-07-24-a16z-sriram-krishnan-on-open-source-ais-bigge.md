@@ -18,7 +18,7 @@ tags:
   - 创业与行业
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Sriram Krishnan：Kimi K3 将改写 AI 行业版图</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Sriram Krishnan：Kimi K3 将改写 AI 行业版图</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # Sriram Krishnan：Kimi K3 将改写 AI 行业版图
 
@@ -31,13 +31,11 @@ tags:
 <div class="pd-hook"><div class="z">如果你提供有价值的产品，资本主义会负责处理其余的一切。</div><div class="a">Sriram Krishnan · 00:27</div></div>
 
 > [!info] 关联
-> **主持**:[[Theo Jaffe]]
+> **人物** [[Theo Jaffe]] · [[Sriram Krishnan]] · [[Sofia Puccini]]
 >
-> **联合主持**:[[Sriram Krishnan]] · [[Sofia Puccini]]
+> **公司** [[Hugging Face]]
 >
-> **涉及公司**:[[Hugging Face]]
->
-> **概念**:[[开源权重]] · [[前沿实验室]] · [[蒸馏]] · [[智能体]] · [[Kimi K3]]
+> **概念** [[开源权重]] · [[前沿实验室]] · [[蒸馏]] · [[智能体]] · [[Kimi K3]]
 
 <div class="pd-tldr"><b>一句话</b>白宫前 AI 政策顾问解读 Kimi K3 等开源模型带来的定价、安全与政策冲击。</div>
 
@@ -89,29 +87,29 @@ Sriram 对这种纯理论的探讨持谨慎态度。他指出，学术界对于�
 
 <div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
 
-> 如果你提供有价值的产品，资本主义会负责处理其余的一切。  
+> <span class="qz">如果你提供有价值的产品，资本主义会负责处理其余的一切。</span>  
 > *If you're providing a product of value, capitalism will take care of all the rest.*  
-> —— Sriram Krishnan · [00:27] ^q1
+> <span class="qm">—— Sriram Krishnan · [00:27]</span> ^q1
 
-> 第一，我认为领先的开源权重模型或开源模型，你知道，不是美国的，这并不好，对吧？  
+> <span class="qz">第一，我认为领先的开源权重模型或开源模型，你知道，不是美国的，这并不好，对吧？</span>  
 > *Number one, I don't think it is great that the leading open weight models or open source models, you know, are not American, right?*  
-> —— Sriram Krishnan · [09:30] ^q2
+> <span class="qm">—— Sriram Krishnan · [09:30]</span> ^q2
 
-> 我对此的信念是，开源权重模型本质上是安全的，因为当你从 Hugging Face 下载一个模型时，这意味着你有全世界的人能够拆解它、检查它、微调它、修改它、以你绝对无法在封闭模型上做到的方式查看它。  
+> <span class="qz">我对此的信念是，开源权重模型本质上是安全的，因为当你从 Hugging Face 下载一个模型时，这意味着你有全世界的人能够拆解它、检查它、微调它、修改它、以你绝对无法在封闭模型上做到的方式查看它。</span>  
 > *what I believe with that is that open-weight models are inherently secure because when you download a model of Hugging Face, it means you have the entire world being able to take it apart, inspect it, fine-tune it, modify it, look at it in ways that you absolutely cannot if they are closed.*  
-> —— Sriram Krishnan · [10:34] ^q3
+> <span class="qm">—— Sriram Krishnan · [10:34]</span> ^q3
 
-> 我认为今天糟糕的情况是，来自其他国家的一些模型可以脱离美国模型进行训练。  
+> <span class="qz">我认为今天糟糕的情况是，来自其他国家的一些模型可以脱离美国模型进行训练。</span>  
 > *I think the situation which is bad today is that some of these models from other countries can train off American models.*  
-> —— Sriram Krishnan · [14:35] ^q4
+> <span class="qm">—— Sriram Krishnan · [14:35]</span> ^q4
 
-> 如果你看今天任何美国开源模型，它们都在使用中国模型作为老师或在某种程度上作为微调过程的一部分。  
+> <span class="qz">如果你看今天任何美国开源模型，它们都在使用中国模型作为老师或在某种程度上作为微调过程的一部分。</span>  
 > *if you look at any American open source model today, they are using Chinese models as a teacher or in a way as a part of the fine tuning process.*  
-> —— Sriram Krishnan · [15:26] ^q5
+> <span class="qm">—— Sriram Krishnan · [15:26]</span> ^q5
 
-> 如果你提供一个有价值的产品，资本主义会找到一种方法让供应链为你工作。  
+> <span class="qz">如果你提供一个有价值的产品，资本主义会找到一种方法让供应链为你工作。</span>  
 > *if you're providing a product of value, capitalism will find a way to make the supply chain work for you.*  
-> —— Sriram Krishnan · [19:24] ^q6
+> <span class="qm">—— Sriram Krishnan · [19:24]</span> ^q6
 
 <div class="pd-sec">接着看</div>
 
@@ -211,7 +209,45 @@ Sriram 对这种纯理论的探讨持谨慎态度。他指出，学术界对于�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

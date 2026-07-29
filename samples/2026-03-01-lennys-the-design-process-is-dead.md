@@ -17,7 +17,7 @@ tags:
   - 产品方法
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)
 
@@ -30,15 +30,13 @@ tags:
 <div class="pd-hook"><div class="z">我认为它在 AI 时代之前就已经在消亡了,但既然现在工程师可以离开并启动他们的七个 Claude,我认为作为设计师,我们真的必须放弃那个流程。</div><div class="a">Jenny Wen · 05:52</div></div>
 
 > [!info] 关联
-> **主持**:[[Jenny Wen]]
+> **人物** [[Jenny Wen]] · [[Lenny]]
 >
-> **联合主持**:[[Lenny]]
+> **公司** [[Anthropic]] · [[Claude Cowork]] · [[Claude Code]] · [[Figma]]
 >
-> **涉及公司**:[[Anthropic]] · [[Claude Cowork]] · [[Claude Code]] · [[Figma]]
+> **概念** [[Claude]] · [[智能体]] · [[设计流程]] · [[中期管理]] · [[IC]] · [[研究预览版]] · [[聊天界面]] · [[不可读性框架]]
 >
-> **概念**:[[Claude]] · [[智能体]] · [[设计流程]] · [[中期管理]] · [[IC]] · [[研究预览版]] · [[聊天界面]] · [[不可读性框架]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/the-design-process-is-dead)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/the-design-process-is-dead)
 
 <div class="pd-tldr"><b>一句话</b>Claude设计负责人Jenny Wen分享AI时代设计流程剧变:旧流程已死,设计师从画图者转向愿景领航员与代码实现者。</div>
 
@@ -112,33 +110,33 @@ Jenny 描述了一个非常特别的日常状态:她每天会花相当一部分�
 
 <div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
 
-> 我认为它在 AI 时代之前就已经在消亡了,但既然现在工程师可以离开并启动他们的七个 Claude,我认为作为设计师,我们真的必须放弃那个流程。  
+> <span class="qz">我认为它在 AI 时代之前就已经在消亡了,但既然现在工程师可以离开并启动他们的七个 Claude,我认为作为设计师,我们真的必须放弃那个流程。</span>  
 > *I think it was sort of dying before the age of AI, but given now that engineers can go off and spin off their seven Claudes, I think as designers, we really have to let go of that process.*  
-> —— Jenny Wen · [05:52] ^q1
+> <span class="qm">—— Jenny Wen · [05:52]</span> ^q1
 
-> 归根结底,必须有人决定实际要构建什么以及什么真正重要。  
+> <span class="qz">归根结底,必须有人决定实际要构建什么以及什么真正重要。</span>  
 > *At the end of the day, someone has to decide what is actually going to get built and what actually matters.*  
-> —— Jenny Wen · [28:52] ^q2
+> <span class="qm">—— Jenny Wen · [28:52]</span> ^q2
 
-> 或者鉴于 AI 展示给我们的东西,仍然需要有人对决定负责。  
+> <span class="qz">或者鉴于 AI 展示给我们的东西,仍然需要有人对决定负责。</span>  
 > *Or given what the AI is presenting us, someone still needs to be accountable for the decision.*  
-> —— Jenny Wen · [30:51] ^q3
+> <span class="qm">—— Jenny Wen · [30:51]</span> ^q3
 
-> 我认为这里可能会发生的是,这些 UI 中的大多数将越来越多地由模型生成,而不是我们要为每个实例手工编码。  
+> <span class="qz">我认为这里可能会发生的是,这些 UI 中的大多数将越来越多地由模型生成,而不是我们要为每个实例手工编码。</span>  
 > *I think that what will probably happen here, is that a lot of those UIs will be generated more and more often by the models, as opposed to something that we're hand coding each instance.*  
-> —— Jenny Wen · [33:22] ^q4
+> <span class="qm">—— Jenny Wen · [33:22]</span> ^q4
 
-> 如果创始人和想法都是超级可读的,那么这个想法可能不那么新颖,已经有人像那样要去实施它或做它了,而你实际上没有发现什么新东西。  
+> <span class="qz">如果创始人和想法都是超级可读的,那么这个想法可能不那么新颖,已经有人像那样要去实施它或做它了,而你实际上没有发现什么新东西。</span>  
 > *if both the founder and idea is super legible, the idea is probably not that novel, and somebody's already like, they're already going to implement it or do it and you're actually not finding something new.*  
-> —— Jenny Wen · [62:37] ^q5
+> <span class="qm">—— Jenny Wen · [62:37]</span> ^q5
 
-> 我认为这个人现在真的很有趣,因为我认为大多数公司只是招聘高级人才,那些以前做过事情的人,非常有经验的人,但考虑到角色的变化程度以及我们要做的事情的变化程度,我认为拥有一个几乎是白纸一张的人,是一个非常快速的学习者,并且非常渴望学习新战术和类似的东西,并且脑海中没有所有这些既定的流程和仪式,这是非常有价值的。  
+> <span class="qz">我认为这个人现在真的很有趣,因为我认为大多数公司只是招聘高级人才,那些以前做过事情的人,非常有经验的人,但考虑到角色的变化程度以及我们要做的事情的变化程度,我认为拥有一个几乎是白纸一张的人,是一个非常快速的学习者,并且非常渴望学习新战术和类似的东西,并且脑海中没有所有这些既定的流程和仪式,这是非常有价值的。</span>  
 > *And I think this person is really interesting right now because I think most companies are just hiring senior talent, folks that have done things before, are super experienced, but given how much the roles are changing and what we're expected to do is changing, I think having somebody who almost has a blank slate, and is just a really quick learner and is really eager to learn new tactics and stuff like that, and doesn't have all these baked in processes and rituals in their mind, that's super valuable.*  
-> —— Jenny Wen · [48:49] ^q6
+> <span class="qm">—— Jenny Wen · [48:49]</span> ^q6
 
-> 但当我想到我最尊敬的领导者和经理时,我实际上认为他们最好的特质之一是他们选择自己承担的低杠杆任务,而这最终实际上是一件非常高杠杆的事情,因为是他们在做。  
+> <span class="qz">但当我想到我最尊敬的领导者和经理时,我实际上认为他们最好的特质之一是他们选择自己承担的低杠杆任务,而这最终实际上是一件非常高杠杆的事情,因为是他们在做。</span>  
 > *But when I think about leaders and managers that I respect the most, I actually think some of their best traits is that they choose low leverage tasks that they take on themselves, and that actually ends up being actually a very high leverage thing, because it's them who's doing it.*  
-> —— Jenny Wen · [55:41] ^q7
+> <span class="qm">—— Jenny Wen · [55:41]</span> ^q7
 
 <div class="pd-sec">接着看</div>
 
@@ -238,7 +236,45 @@ Jenny 描述了一个非常特别的日常状态:她每天会花相当一部分�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

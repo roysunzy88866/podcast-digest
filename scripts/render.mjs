@@ -79,12 +79,13 @@ export function renderRelations(entities, meta) {
   const g = groupByRole(entities);
   const link = (x) => `[[${x.file}]]`;
   const rows = [];
-  if (g.guests.length) rows.push(`> **嘉宾**:${g.guests.map(link).join(" · ")}`);
-  if (g.host.length) rows.push(`> **主持**:${g.host.map(link).join(" · ")}`);
-  if (g.cohosts.length) rows.push(`> **联合主持**:${g.cohosts.map(link).join(" · ")}`);
-  if (g.companies.length) rows.push(`> **涉及公司**:${g.companies.map(link).join(" · ")}`);
-  if (g.concepts.length) rows.push(`> **概念**:${g.concepts.map(link).join(" · ")}`);
-  if (meta?.source_url) rows.push(`> **来源**:[${meta.podcast}](${meta.source_url})`);
+  // C13h 照设计稿 ep-*.html「这一集涉及」:三行 人物/公司/概念,标签是灰药丸(样式在 custom.scss
+  // 的 .pd-rel strong),不带冒号。嘉宾在前(读者更关心)、主持/联合主持并进人物行,按 file 去重。
+  const people = [...new Map([...g.guests, ...g.host, ...g.cohosts].map((x) => [x.file, x])).values()];
+  if (people.length) rows.push(`> **人物** ${people.map(link).join(" · ")}`);
+  if (g.companies.length) rows.push(`> **公司** ${g.companies.map(link).join(" · ")}`);
+  if (g.concepts.length) rows.push(`> **概念** ${g.concepts.map(link).join(" · ")}`);
+  if (meta?.source_url) rows.push(`> **来源** [${meta.podcast}](${meta.source_url})`);
   return `> [!info] 关联\n${rows.join("\n>\n")}`;
 }
 
@@ -141,7 +142,10 @@ export function renderTopBar(meta) {
     `<nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav>` +
     `<a class="pd-back" href="/">← 返回</a>` +
     `<a class="pd-mtitle" href="/">←<span>${displayTitle(meta)}</span></a>` +
-    `<div class="pd-acts"></div>` +
+    `<div class="pd-acts">` +
+    `<button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button>` +
+    `<button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button>` +
+    `</div>` +
     `</div></header></div>`
   );
 }
@@ -244,7 +248,45 @@ export function renderSidebarScript() {
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });
@@ -580,8 +622,10 @@ export function renderEpisode(meta, digest, entities = null, related = null, tra
       // (独立审计 2026-07-18 实测逮到:实体页金句墙只剩「—— 某人 [时间]」没正文;且闸门/测试都放过了)。
       // P1 风格 fixture 已实证:无空 `>` 分隔 + 行尾两空格 → 嵌入含正文且保留视觉换行。
       // 无时间戳源(第三方稿,如 SingjuPost):署名标「来自原文」而非占位时间戳(标准变更·用户授权)
+      // C13h 设计稿 .qr:中文句 = 斜体普惠体带 CSS 引号(.qz),署名行 = 11.5px 浅灰(.qm)。
+      // span 只是样式挂点,金句文字逐字不动(硬闸「引语逐字命中转写稿」对的是 digest,不受影响)。
       (q, i) =>
-        `> ${String(q.zh).trim()}  \n> *${String(q.en).trim()}*  \n> —— ${String(q.speaker)} · ${meta.no_timestamps ? "来自原文" : `[${String(q.timestamp)}]`} ^${blockId(i)}`,
+        `> <span class="qz">${String(q.zh).trim()}</span>  \n> *${String(q.en).trim()}*  \n> <span class="qm">—— ${String(q.speaker)} · ${meta.no_timestamps ? "来自原文" : `[${String(q.timestamp)}]`}</span> ^${blockId(i)}`,
     )
     .join("\n\n");
 

@@ -18,7 +18,7 @@ tags:
   - 职业与个人成长
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # 育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”
 
@@ -31,15 +31,13 @@ tags:
 <div class="pd-hook"><div class="z">我认为修复是我们拥有的头号关系策略。</div><div class="a">Dr. Becky Kennedy · 08:58</div></div>
 
 > [!info] 关联
-> **主持**:[[Lenny]]
+> **人物** [[Lenny]] · [[Dr. Becky Kennedy]]
 >
-> **联合主持**:[[Dr. Becky Kennedy]]
+> **公司** [[Good Inside]]
 >
-> **涉及公司**:[[Good Inside]]
+> **概念** [[修复]] · [[连接]] · [[界限]] · [[韧性]] · [[最宽容解读]] · [[稳健的领导者]] · [[安全依恋]]
 >
-> **概念**:[[修复]] · [[连接]] · [[界限]] · [[韧性]] · [[最宽容解读]] · [[稳健的领导者]] · [[安全依恋]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/dr-becky-on-the-surprising-overlap)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/dr-becky-on-the-surprising-overlap)
 
 <div class="pd-tldr"><b>一句话</b>临床心理学家 Dr. Becky 将育儿原则迁移到职场，教你如何修复关系、设定界限并建立长期韧性。</div>
 
@@ -88,41 +86,41 @@ tags:
 
 <div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
 
-> 我认为修复是我们拥有的头号关系策略。  
+> <span class="qz">我认为修复是我们拥有的头号关系策略。</span>  
 > *I think repair is kind of the number one relationship strategy we have.*  
-> —— Dr. Becky Kennedy · [08:58] ^q1
+> <span class="qm">—— Dr. Becky Kennedy · [08:58]</span> ^q1
 
-> 安全依恋仅仅是由，我们都会搞砸，但安全依恋中有一个成年人愿意修复？  
+> <span class="qz">安全依恋仅仅是由，我们都会搞砸，但安全依恋中有一个成年人愿意修复？</span>  
 > *Secure attachment is just defined by, we're all going to mess up, but secure attachment has an adult who's willing to repair?*  
-> —— Dr. Becky Kennedy · [10:06] ^q2
+> <span class="qm">—— Dr. Becky Kennedy · [10:06]</span> ^q2
 
-> 我们感觉到的是人们的意图，而不仅仅是他们的干预。  
+> <span class="qz">我们感觉到的是人们的意图，而不仅仅是他们的干预。</span>  
 > *We feel people's intention, not just their intervention.*  
-> —— Dr. Becky Kennedy · [13:47] ^q3
+> <span class="qm">—— Dr. Becky Kennedy · [13:47]</span> ^q3
 
-> “内心是好的”这一理念本质上要求我们将行为和身份区分开来。  
+> <span class="qz">“内心是好的”这一理念本质上要求我们将行为和身份区分开来。</span>  
 > *The idea of being good inside inherently requires us to separate behavior and identity.*  
-> —— Dr. Becky Kennedy · [18:30] ^q4
+> <span class="qm">—— Dr. Becky Kennedy · [18:30]</span> ^q4
 
-> 进行一次无成效对话的最快方式，就是忽略某人内心是善良的这一事实。  
+> <span class="qz">进行一次无成效对话的最快方式，就是忽略某人内心是善良的这一事实。</span>  
 > *The quickest way to have an unproductive conversation is to lose sight of the fact that someone's good inside.*  
-> —— Dr. Becky Kennedy · [19:47] ^q5
+> <span class="qm">—— Dr. Becky Kennedy · [19:47]</span> ^q5
 
-> 当你感到好奇时，你天生就无法做出评判。当你对某事做出评判时，你天生就对它没有好奇心。  
+> <span class="qz">当你感到好奇时，你天生就无法做出评判。当你对某事做出评判时，你天生就对它没有好奇心。</span>  
 > *You inherently cannot be judgmental when you're curious. And when you're judgmental about something, you're inherently not curious about it.*  
-> —— Dr. Becky Kennedy · [26:12] ^q6
+> <span class="qm">—— Dr. Becky Kennedy · [26:12]</span> ^q6
 
-> 任何年龄的不良行为基本上都可以归结为感觉压倒了技能。  
+> <span class="qz">任何年龄的不良行为基本上都可以归结为感觉压倒了技能。</span>  
 > *Bad behavior at any age can basically be reduced to feelings that overpower skills.*  
-> —— Dr. Becky Kennedy · [29:12] ^q7
+> <span class="qm">—— Dr. Becky Kennedy · [29:12]</span> ^q7
 
-> 界限是你告诉别人你会做什么，它要求对方什么都不做。  
+> <span class="qz">界限是你告诉别人你会做什么，它要求对方什么都不做。</span>  
 > *Boundaries are what you tell someone else you will do, and it requires the other person to do nothing.*  
-> —— Dr. Becky Kennedy · [42:27] ^q8
+> <span class="qm">—— Dr. Becky Kennedy · [42:27]</span> ^q8
 
-> 这感觉很难，是因为它本来就难，而不是因为我做错了什么。  
+> <span class="qz">这感觉很难，是因为它本来就难，而不是因为我做错了什么。</span>  
 > *This feels hard because it is hard, not because I'm doing something wrong.*  
-> —— Dr. Becky Kennedy · [88:52] ^q9
+> <span class="qm">—— Dr. Becky Kennedy · [88:52]</span> ^q9
 
 *本集关键词:职场心理 · 亲子教育 · 领导力 · 人际沟通 · 韧性*
 
@@ -199,7 +197,45 @@ tags:
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

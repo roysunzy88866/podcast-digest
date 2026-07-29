@@ -17,7 +17,7 @@ tags:
   - 智能体
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得
 
@@ -30,15 +30,13 @@ tags:
 <div class="pd-hook"><div class="z">我认为人们在 OpenClaw 上跌跌撞撞的部分原因是，他们读到 OpenClaw 正在经营我的业务，他们以为可以把任何任务扔给单个智能体并获得出色的结果。</div><div class="a">Claire Vo · 40:59</div></div>
 
 > [!info] 关联
-> **主持**:[[Lenny]]
+> **人物** [[Lenny]] · [[Claire Vo]]
 >
-> **联合主持**:[[Claire Vo]]
+> **公司** [[ChatPRD]]
 >
-> **涉及公司**:[[ChatPRD]]
+> **概念** [[OpenClaw]] · [[智能体]] · [[上下文过载]] · [[提示词注入]] · [[系统提示词]] · [[浏览器使用]] · [[Mac mini]] · [[身份]] · [[Claude Code]]
 >
-> **概念**:[[OpenClaw]] · [[智能体]] · [[上下文过载]] · [[提示词注入]] · [[系统提示词]] · [[浏览器使用]] · [[Mac mini]] · [[身份]] · [[Claude Code]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/how-openclaw-changed-my-life-claire-vo)
 
 <div class="pd-tldr"><b>一句话</b>从最早期把日历删光的怀疑者，到给九个智能体各配角色的重度玩家，Claire Vo 完整复盘 OpenClaw 的安装、避坑与日常用法。</div>
 
@@ -100,33 +98,33 @@ Claire 的智能体团队里，每个成员都有清晰的岗位画像。Sam 是
 
 <div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
 
-> 我认为人们在 OpenClaw 上跌跌撞撞的部分原因是，他们读到 OpenClaw 正在经营我的业务，他们以为可以把任何任务扔给单个智能体并获得出色的结果。  
+> <span class="qz">我认为人们在 OpenClaw 上跌跌撞撞的部分原因是，他们读到 OpenClaw 正在经营我的业务，他们以为可以把任何任务扔给单个智能体并获得出色的结果。</span>  
 > *Part of I think where people stumble with OpenClaw is they read about OpenClaw is running my business, and they think they can throw any task at a single agent and get great results.*  
-> —— Claire Vo · [40:59] ^q1
+> <span class="qm">—— Claire Vo · [40:59]</span> ^q1
 
-> 我们将不得不重新思考什么是网络的界面，以变得更对智能体友好，因为我认为我们快进几年，网站的第一大用户将会是人们的智能体。  
+> <span class="qz">我们将不得不重新思考什么是网络的界面，以变得更对智能体友好，因为我认为我们快进几年，网站的第一大用户将会是人们的智能体。</span>  
 > *we're going to have to rethink what is the interface of the web to be more agent friendly because I think we skip ahead a couple years and the number one user of websites are going to be people's agents.*  
-> —— Claire Vo · [64:53] ^q2
+> <span class="qm">—— Claire Vo · [64:53]</span> ^q2
 
-> LLM 的最高带宽 API 就是和它聊天。  
+> <span class="qz">LLM 的最高带宽 API 就是和它聊天。</span>  
 > *the highest bandwidth API for an LLM is just chatting to it.*  
-> —— Claire Vo · [80:47] ^q3
+> <span class="qm">—— Claire Vo · [80:47]</span> ^q3
 
-> 只是把这种管理者的心态带入你如何使用这些东西，如何界定他们的范围，如何让他们入职，如何在技术上让他们入职，如何培训他们，如何给他们更多信任，我说把这些技能带进来，再次强调，不是因为我们拟人化 AI 智能体，而是我认为这就是我在这些工具上如此成功的原因是因为我有 20 年以上的管理经验。  
+> <span class="qz">只是把这种管理者的心态带入你如何使用这些东西，如何界定他们的范围，如何让他们入职，如何在技术上让他们入职，如何培训他们，如何给他们更多信任，我说把这些技能带进来，再次强调，不是因为我们拟人化 AI 智能体，而是我认为这就是我在这些工具上如此成功的原因是因为我有 20 年以上的管理经验。</span>  
 > *just bringing this manager's mindset to how you use these things, how you scope their roles, how you onboard them, how you onboard them technically, how you train them, how you give them more trust, I say bring those skills into it, again, not because we're going to personify the AI agents, but because I think that is why I have been so successful with these tools is because I have 20 years plus of management experience.*  
-> —— Claire Vo · [86:10] ^q4
+> <span class="qm">—— Claire Vo · [86:10]</span> ^q4
 
-> 我正在经历这个，自从 ChatGPT 出现以来我还没有过这种时刻，就是这将改变一切。  
+> <span class="qz">我正在经历这个，自从 ChatGPT 出现以来我还没有过这种时刻，就是这将改变一切。</span>  
 > *I'm having this, which I have not had since ChatGPT came out, which is this is going to change everything.*  
-> —— Claire Vo · [90:41] ^q5
+> <span class="qm">—— Claire Vo · [90:41]</span> ^q5
 
-> 大多数和你一起工作的人不会出现在你的葬礼上。  
+> <span class="qz">大多数和你一起工作的人不会出现在你的葬礼上。</span>  
 > *most people you work with won't be at your funeral.*  
-> —— Claire Vo · [101:17] ^q6
+> <span class="qm">—— Claire Vo · [101:17]</span> ^q6
 
-> 唯一会记得你工作到很晚的人是你的孩子。  
+> <span class="qz">唯一会记得你工作到很晚的人是你的孩子。</span>  
 > *The only people that will remember that you stayed late at work are your kids.*  
-> —— Lenny · [102:32] ^q7
+> <span class="qm">—— Lenny · [102:32]</span> ^q7
 
 <div class="pd-sec">接着看</div>
 
@@ -226,7 +224,45 @@ Claire 的智能体团队里，每个成员都有清晰的岗位画像。Sam 是
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

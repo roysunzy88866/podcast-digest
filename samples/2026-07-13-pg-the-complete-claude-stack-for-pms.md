@@ -18,7 +18,7 @@ tags:
   - AI 编程
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PM 如何用 Claude 把生产力提升 10 倍：全栈实战</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PM 如何用 Claude 把生产力提升 10 倍：全栈实战</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # PM 如何用 Claude 把生产力提升 10 倍：全栈实战
 
@@ -31,15 +31,13 @@ tags:
 <div class="pd-hook"><div class="z">我认为这是大多数 PM 投入不足的一层,正是这一层让 Claude 从一个通用的聊天机器人变成真正了解你的上下文。</div><div class="a">Jyothi Nookula · 06:05</div></div>
 
 > [!info] 关联
-> **主持**:[[Aakash Gupta]]
+> **人物** [[Aakash Gupta]] · [[Jyothi Nookula]]
 >
-> **联合主持**:[[Jyothi Nookula]]
+> **公司** [[Claude]]
 >
-> **涉及公司**:[[Claude]]
+> **概念** [[Claude Code]] · [[智能体]] · [[对抗性智能体]] · [[mcp]] · [[知识库]] · [[技能]]
 >
-> **概念**:[[Claude Code]] · [[智能体]] · [[对抗性智能体]] · [[mcp]] · [[知识库]] · [[技能]]
->
-> **来源**:[Product Growth Podcast](https://www.news.aakashg.com/p/the-complete-claude-stack-for-pms)
+> **来源** [Product Growth Podcast](https://www.news.aakashg.com/p/the-complete-claude-stack-for-pms)
 
 <div class="pd-tldr"><b>一句话</b>从模型选型到构建个人幕僚长智能体,用 Claude 全栈打造 PM 生产力引擎。</div>
 
@@ -107,29 +105,29 @@ Jyothi 给转型者的建议是:别只做一锤子买卖的项目,要把平时�
 
 <div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
 
-> 我认为这是大多数 PM 投入不足的一层,正是这一层让 Claude 从一个通用的聊天机器人变成真正了解你的上下文。  
+> <span class="qz">我认为这是大多数 PM 投入不足的一层,正是这一层让 Claude 从一个通用的聊天机器人变成真正了解你的上下文。</span>  
 > *the layer that i think most pms under invest in it's this layer that makes claude go from being a generic chatbot to actually knowing your context*  
-> —— Jyothi Nookula · [06:05] ^q1
+> <span class="qm">—— Jyothi Nookula · [06:05]</span> ^q1
 
-> 现在构建变得容易了,品味才是我们需要培养的重要东西。  
+> <span class="qz">现在构建变得容易了,品味才是我们需要培养的重要东西。</span>  
 > *building is easy now taste is what is important for us to develop*  
-> —— Jyothi Nookula · [79:57] ^q2
+> <span class="qm">—— Jyothi Nookula · [79:57]</span> ^q2
 
-> 以前一个产品经理配八个工程师,现在变成了两个产品经理配一个工程师,所以角色也在迅速合并。  
+> <span class="qz">以前一个产品经理配八个工程师,现在变成了两个产品经理配一个工程师,所以角色也在迅速合并。</span>  
 > *previously if you see one product manager works with eight engineers now it's like two product managers one engineer so the roles are also like collapsing quickly*  
-> —— Jyothi Nookula · [73:53] ^q3
+> <span class="qm">—— Jyothi Nookula · [73:53]</span> ^q3
 
-> 我是不是把 AI 告诉我的第一件事就当作『这很棒』然后直接收尾,还是我在审视这些事情并说『好吧这很好,但是这种边缘情况怎么办』  
+> <span class="qz">我是不是把 AI 告诉我的第一件事就当作『这很棒』然后直接收尾,还是我在审视这些事情并说『好吧这很好,但是这种边缘情况怎么办』</span>  
 > *am I just taking the first thing that the AI tells me as like this is great and wrapping it up or am I looking through things to say okay this is good but what about this edge case*  
-> —— Jyothi Nookula · [76:59] ^q4
+> <span class="qm">—— Jyothi Nookula · [76:59]</span> ^q4
 
-> 不要把它们当成项目来做,要把它们当成产品。去你所在的领域发现问题,找那些足够棘手、让你想去构建解决方案的问题,去构建解决方案,然后看看还有谁想要这样的东西,让他们来用你的产品。  
+> <span class="qz">不要把它们当成项目来做,要把它们当成产品。去你所在的领域发现问题,找那些足够棘手、让你想去构建解决方案的问题,去构建解决方案,然后看看还有谁想要这样的东西,让他们来用你的产品。</span>  
 > *don't build them as projects treat them as products like find problems in your area find problems that are finicky enough for you to want to go build a solution go build solution and see who else wants something like this have them come and use your product*  
-> —— Jyothi Nookula · [81:18] ^q5
+> <span class="qm">—— Jyothi Nookula · [81:18]</span> ^q5
 
-> 这就是你不仅仅是在构建一个智能体,你实际上是在构建另一个评估器,用不同的方式去攻破这个智能体。  
+> <span class="qz">这就是你不仅仅是在构建一个智能体,你实际上是在构建另一个评估器,用不同的方式去攻破这个智能体。</span>  
 > *this is where you're not just building an agent you're actually building another evaluator to go break this agent in different ways*  
-> —— Jyothi Nookula · [91:25] ^q6
+> <span class="qm">—— Jyothi Nookula · [91:25]</span> ^q6
 
 <div class="pd-sec">接着看</div>
 
@@ -229,7 +227,45 @@ Jyothi 给转型者的建议是:别只做一锤子买卖的项目,要把平时�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

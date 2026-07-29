@@ -18,7 +18,7 @@ tags:
   - 创业与行业
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学</span></a><div class="pd-acts"></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
 # 把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学
 
@@ -31,15 +31,13 @@ tags:
 <div class="pd-hook"><div class="z">我觉得我们现在拥有的东西就是一大坨狗屎。</div><div class="a">Stewart Butterfield · 00:08</div></div>
 
 > [!info] 关联
-> **主持**:[[Stewart Butterfield]]
+> **人物** [[Stewart Butterfield]] · [[Lenny]]
 >
-> **联合主持**:[[Lenny]]
+> **公司** [[Slack]] · [[Glitch]]
 >
-> **涉及公司**:[[Slack]] · [[Glitch]]
+> **概念** [[效用曲线]] · [[摩擦力]] · [[超逼真的类工作活动]] · [[帕金森定律]] · [[所有者的错觉]] · [[我们不卖马鞍]] · [[转型]]
 >
-> **概念**:[[效用曲线]] · [[摩擦力]] · [[超逼真的类工作活动]] · [[帕金森定律]] · [[所有者的错觉]] · [[我们不卖马鞍]] · [[转型]]
->
-> **来源**:[Lenny's Podcast](https://www.lennysnewsletter.com/p/slack-founder-stewart-butterfield)
+> **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/slack-founder-stewart-butterfield)
 
 <div class="pd-tldr"><b>一句话</b>Slack 创始人谈效用曲线、匠心、别让用户思考、伪工作与创造市场的哲学。</div>
 
@@ -107,33 +105,33 @@ Stewart 讲了 Slack 内部的一个真实案例。团队曾针对消息串的�
 
 <div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
 
-> 我觉得我们现在拥有的东西就是一大坨狗屎。  
+> <span class="qz">我觉得我们现在拥有的东西就是一大坨狗屎。</span>  
 > *I feel like what we have right now is just a giant piece of shit.*  
-> —— Stewart Butterfield · [00:08] ^q1
+> <span class="qm">—— Stewart Butterfield · [00:08]</span> ^q1
 
-> 然后有一个神奇的阈值，它产生巨大的价值，但继续投资并没有真正的回报。  
+> <span class="qz">然后有一个神奇的阈值，它产生巨大的价值，但继续投资并没有真正的回报。</span>  
 > *And then there's some magic threshold where it produces an enormous amount of value and then continued investment doesn't really pay off.*  
-> —— Stewart Butterfield · [07:38] ^q2
+> <span class="qm">—— Stewart Butterfield · [07:38]</span> ^q2
 
-> 如果你的软件阻止我并要求我做出决定，而我真的不理解它，你会让我觉得自己很蠢。  
+> <span class="qz">如果你的软件阻止我并要求我做出决定，而我真的不理解它，你会让我觉得自己很蠢。</span>  
 > *If your software stops me and asks me to make a decision and I don't really understand it, you make me feel stupid.*  
-> —— Stewart Butterfield · [00:58] ^q3
+> <span class="qm">—— Stewart Butterfield · [00:58]</span> ^q3
 
-> 如果你看不到几乎无限的改进机会，那么你不应该设计该产品，或者你不应该负责公司，或者你几乎不应该做任何事。  
+> <span class="qz">如果你看不到几乎无限的改进机会，那么你不应该设计该产品，或者你不应该负责公司，或者你几乎不应该做任何事。</span>  
 > *If you can't see almost limitless opportunities to improve, then you shouldn't be designing the product, or you shouldn't be in charge of the company, or you shouldn't almost nothing.*  
-> —— Stewart Butterfield · [47:30] ^q4
+> <span class="qm">—— Stewart Butterfield · [47:30]</span> ^q4
 
-> 如果你对正在谈论的事情一无所知，那么一切都是简单的。  
+> <span class="qz">如果你对正在谈论的事情一无所知，那么一切都是简单的。</span>  
 > *Everything is simple if you have no idea what you're talking about.*  
-> —— Stewart Butterfield · [57:37] ^q5
+> <span class="qm">—— Stewart Butterfield · [57:37]</span> ^q5
 
-> 我说你必须对此保持冷酷理性的原因是因为这真他妈令人感到羞辱。  
+> <span class="qz">我说你必须对此保持冷酷理性的原因是因为这真他妈令人感到羞辱。</span>  
 > *And the reason I say you have to be coldly rational about it is because it's fucking humiliating.*  
-> —— Stewart Butterfield · [75:54] ^q6
+> <span class="qm">—— Stewart Butterfield · [75:54]</span> ^q6
 
-> 但是当我们达到那个规模时，对于停机的三分之一天，100 倍的退款是 800 万美元或类似的东西。  
+> <span class="qz">但是当我们达到那个规模时，对于停机的三分之一天，100 倍的退款是 800 万美元或类似的东西。</span>  
 > *But by the time we got that scale, 100 times the money back for the third of a day that we were down was $8 million or something like that.*  
-> —— Stewart Butterfield · [84:03] ^q7
+> <span class="qm">—— Stewart Butterfield · [84:03]</span> ^q7
 
 <div class="pd-sec">接着看</div>
 
@@ -233,7 +231,45 @@ Stewart 讲了 Slack 内部的一个真实案例。团队曾针对消息串的�
       im.addEventListener('error', kill, {once:true});
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });
