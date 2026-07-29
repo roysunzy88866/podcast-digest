@@ -1299,7 +1299,10 @@ body:has(.pd-play) article blockquote:has(> p[id^="q"]) em {
 .pd-back:hover { color: var(--pd-accent); }
 .pd-mtitle { display: none; }
 @media (max-width: 1023px) {
-  .pd-top .b { display: none; }   /* 站名让位给「← 标题」 */
+  /* C13d 修回归:这条原来写 .pd-top .b,被 C13f 站名规则(.pd .pd-top .b{display:flex})压死 →
+     手机上站名和标题挤一行。且设计稿口径是**只在有「← 标题」的二级页**让位
+     (.topin:has(.mtitle) .b{display:none}),首页/必读页手机上站名要留。 */
+  .pd .pd-topin:has(.pd-mtitle) .b { display: none; }
   .pd-back { display: none; }
   .pd-mtitle {
     display: flex;
@@ -1316,6 +1319,65 @@ body:has(.pd-play) article blockquote:has(> p[id^="q"]) em {
   .pd-mtitle:hover { color: var(--pd-accent); }
   /* 标题已并进顶栏,正文里不再重复一遍(设计稿 style.css L425 的同一条规矩) */
   body:has(.pd-play) article h1 { display: none; }
+}
+
+
+/* ══ C13d · 手机端(设计稿 style.css 1023 块 + m-detail.js 配套样式,照抄)══ */
+@media (max-width: 1023px) {
+  /* 大类页:手机隐藏三轴筛选与排序行(设计稿明写;竖屏摆不下且误触率高) */
+  .pd .frow,
+  .pd .sortbar { display: none; }
+
+  /* ── 吸顶折叠目录(单集页;渲染端脚本生成 .mtoc)── */
+  .mtoc {
+    display: block;
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: var(--B0);
+    margin: 26px -16px 6px;
+    padding: 0 16px;
+    border-top: 1px solid var(--B2);
+    border-bottom: 1px solid var(--B2);
+  }
+  .mtt {
+    font: inherit;
+    font-family: var(--puhui);
+    width: 100%;
+    height: 44px;
+    background: none;
+    border: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    text-align: left;
+    color: var(--B8);
+  }
+  .mtk { font-size: 14px; font-weight: 600; flex: 0 0 auto; }
+  .mtl { font-size: 13px; color: var(--B6); flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: 400; }
+  .mtoc.at .mtk { color: var(--B6); font-weight: 400; font-size: 13px; }
+  .mtoc.at .mtk:after { content: "·"; margin-left: 8px; }
+  .mtoc.at .mtl { color: var(--B8); font-weight: 600; font-size: 14px; font-family: var(--puhui); }
+  .mtt i { font-style: normal; font-size: 15px; color: var(--B5); flex: 0 0 auto; transition: transform 0.18s; }
+  .mtoc.open .mtt i { transform: rotate(180deg); }
+  .mtm { display: none; padding: 2px 0 12px; max-height: 56vh; overflow-y: auto; border-top: 1px solid var(--B2); }
+  .mtoc.open { box-shadow: 0 12px 24px #00000012; }
+  .mtoc.open .mtm { display: block; }
+  .mtm a { display: block; font-size: 15px; line-height: 1.5; padding: 11px 0 11px 12px; color: var(--B7); border-left: 2px solid var(--B3); }
+  .mtm a.on { color: var(--pd-accent); border-left-color: var(--pd-accent); font-weight: 600; }
+  /* 阅读进度:9600px 的长页在手机上必须给进度感 */
+  .mtbar { position: absolute; left: 0; bottom: -1px; height: 2px; background: var(--pd-accent); width: 0; transition: width 0.1s linear; }
+
+  /* 页尾「这一集涉及」(桌面右栏在手机是 display:none,克隆到页尾同源不漂移) */
+  .mrel { display: block; margin-top: 34px; padding-top: 18px; border-top: 1px solid var(--B2); }
+  .mrel h3 { font-size: 12px; font-weight: 700; color: #a09a94; letter-spacing: 0.6px; margin: 0 0 10px; }
+}
+/* 桌面上这三样不存在(设计稿同口径) */
+@media (min-width: 1024px) {
+  .mtoc,
+  .mrel { display: none; }
 }
 
 /* ── C13d-3 补两块(设计稿 .byl / .play)──

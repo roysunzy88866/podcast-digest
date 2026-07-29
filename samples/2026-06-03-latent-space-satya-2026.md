@@ -143,6 +143,7 @@ Nadella 提到一组震撼的数字:微软在过去 15 个月里建成的 Azure(
     var box=null;
     var all=document.querySelectorAll('article blockquote[data-callout]');
     for(var i=0;i<all.length;i++){
+      if(all[i].closest('.mrel')) continue;   // C13d:页尾手机克隆块不许被当成正文关联框搬走(实测被搬空过)
       var t=all[i].querySelector('.callout-title-inner');
       if(t&&t.textContent.trim().indexOf('关联')===0){ box=all[i]; break; }
     }
@@ -247,7 +248,91 @@ Nadella 提到一组震撼的数字:微软在过去 15 个月里建成的 Azure(
       }
     });
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); }
+  // C13d:mtoc 的 document/window 级监听只绑一次;回调每次现查当前 .mtoc(SPA 换页旧节点自然失联,不泄漏)
+  function mtocScroll(){
+    var bar=document.querySelector('.mtoc'); if(!bar||!bar.__items) return;
+    var items=bar.__items, panel=bar.querySelector('.mtm'), label=bar.querySelector('.mtl'), prog=bar.querySelector('.mtbar');
+    var off=bar.offsetHeight+24, idx=-1;
+    for(var i=0;i<items.length;i++){
+      if(items[i].el.getBoundingClientRect().top<=off) idx=i; else break;
+    }
+    if(window.scrollY>=document.body.scrollHeight-window.innerHeight-2) idx=items.length-1;
+    if(idx!==bar.__cur){
+      bar.__cur=idx;
+      label.textContent=idx<0?'':items[idx].label;
+      bar.classList.toggle('at', idx>=0);
+      panel.querySelectorAll('a').forEach(function(a,i){ a.classList.toggle('on', i===idx); });
+    }
+    var max=document.body.scrollHeight-window.innerHeight;
+    prog.style.width=(max>0?Math.min(100,Math.max(0,window.scrollY/max*100)):0)+'%';
+  }
+  if(!window.__pdMtocEvts){ window.__pdMtocEvts=1;
+    var mtocTick=false;
+    window.addEventListener('scroll', function(){
+      if(!mtocTick){ mtocTick=true; requestAnimationFrame(function(){ mtocScroll(); mtocTick=false; }); }
+    }, {passive:true});
+    document.addEventListener('click', function(e){
+      var bar=document.querySelector('.mtoc.open');
+      if(bar && !e.target.closest('.mtoc')){ bar.classList.remove('open'); var t=bar.querySelector('.mtt'); if(t) t.setAttribute('aria-expanded','false'); }
+    });
+  }
+  // C13d 手机端(移植 设计稿/m-detail.js;真站差异:顶栏不吸顶 → 吸顶条 top:0、跳转偏移只算条高;
+  // 无人物页 → 去掉 chip 形态分支;小节 = article 里带 id 的 h2,与桌面右栏目录同源)
+  function mtoc(){
+    var art=document.querySelector('article'); if(!art) return;
+    if(art.querySelector('.mtoc')) return;               // SPA nav 后 DOM 是新的;同页重跑不重复建
+    // 小节收集照设计稿口径:标题(真站是 h3 正文小节 + h2 收尾节)+ 组标 .pd-sec(金句区与相关区的组标;
+    // ⚠️ 本注释会原样进页面,守卫测试断言「无相关集时页面不出现那个区块的中文标题」——别在这里写它),
+    // 无 id 就发一个,再按文档序排 —— 设计稿当年也是 h2 + .sec 混收
+    var items=[];
+    [].forEach.call(art.querySelectorAll('h2[id], h3[id]'), function(h){
+      items.push({el:h,label:h.textContent.trim()});
+    });
+    [].forEach.call(art.querySelectorAll('.pd-sec'), function(sec,i){
+      if(!sec.id) sec.id='pdsec'+i;
+      var t=(sec.firstChild && sec.firstChild.nodeType===3 ? sec.firstChild.textContent : sec.textContent).trim();
+      items.push({el:sec,label:t});
+    });
+    if(items.length<2) return;
+    items.sort(function(a,b){ return a.el.compareDocumentPosition(b.el) & 4 ? -1 : 1; });
+    // 不用 innerHTML(守卫测试拦它防「搬节点」被偷换成重写)—— 这里全是自造新壳,逐个 createElement
+    function el(tag,cls,txt){ var e=document.createElement(tag); if(cls)e.className=cls; if(txt)e.textContent=txt; return e; }
+    var bar=el('div','mtoc');
+    var toggle=el('button','mtt'); toggle.type='button'; toggle.setAttribute('aria-expanded','false');
+    var mtk=el('span','mtk','目录'), label=el('span','mtl'), caret=el('i','','⌄');
+    toggle.appendChild(mtk); toggle.appendChild(label); toggle.appendChild(caret);
+    var panel=el('div','mtm'), prog=el('span','mtbar');
+    bar.appendChild(toggle); bar.appendChild(panel); bar.appendChild(prog);
+    items.forEach(function(it,i){
+      var a=document.createElement('a'); a.href='#'+it.el.id; a.dataset.i=i; a.textContent=it.label;
+      panel.appendChild(a);
+    });
+    // 就地插在第一节之前 → 滚到这里才吸顶(第一屏留给标题/播放条/钩子)
+    items[0].el.parentElement.insertBefore(bar, items[0].el);
+    bar.__items=items; bar.__cur=-1;   // 状态挂节点上:单例监听每次现查当前条,旧节点随 SPA 换页自然失联
+    toggle.addEventListener('click', function(){
+      var open=bar.classList.toggle('open'); toggle.setAttribute('aria-expanded', open?'true':'false');
+    });   // toggle/panel 的监听挂在自家节点上,随节点销毁,不泄漏
+    panel.addEventListener('click', function(e){
+      var a=e.target.closest('a'); if(!a) return;
+      e.preventDefault();
+      var it=items[+a.dataset.i];
+      window.scrollTo({top:it.el.getBoundingClientRect().top+window.scrollY-bar.offsetHeight-8, behavior:'smooth'});
+      bar.classList.remove('open'); toggle.setAttribute('aria-expanded','false');
+    });
+    mtocScroll();
+    // 页尾「这一集涉及」:克隆右栏里的关联框**本体**(同源不漂移;目录已被吸顶条取代不克隆)。
+    // 不克隆 .pd-rel 外壳 —— 实测撞过一次空壳(壳先建、框后搬,克隆到只有标题的半成品);
+    // 直接选框本身 + 「必须真有链接」守卫,拿不到内容宁可不出块。
+    var box=document.querySelector('.right.sidebar .pd-rel blockquote[data-callout]');
+    if(box && box.querySelector('a') && !art.querySelector('.mrel')){
+      var wrap=el('div','mrel');
+      wrap.appendChild(el('h3','','这一集涉及'));
+      wrap.appendChild(box.cloneNode(true));
+      art.appendChild(wrap);
+    }
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });

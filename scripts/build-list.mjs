@@ -211,7 +211,7 @@ export function rightRail(episodes) {
 }
 
 /** 手机端摊开区(🔒 #9 搜索与主题不降级;层级纠偏:排序弱于分类) */
-function mobileHome(episodes, catsOf, vocabulary) {
+export function mobileHome(episodes, catsOf, vocabulary, active = "new") {
   const n = {};
   for (const c of vocabulary) n[c] = 0;
   for (const ep of episodes) for (const c of catsOf(ep)) if (c in n) n[c]++;
@@ -223,7 +223,7 @@ function mobileHome(episodes, catsOf, vocabulary) {
   // 检索本身转发给 Quartz 的搜索(复用它的中文索引,见 scriptBlock 的 wireSearch)。
   return `<div class="pd-mhome">
     <div class="mhs"><input class="mhq" type="search" autocomplete="off" placeholder="搜标题 / 金句 / 正文 / 人名" aria-label="搜索标题、金句、正文、人名"></div>
-    <div class="mhv"><span class="on">最新</span><a class="internal" href="./must-read">最热</a></div>
+    <div class="mhv">${active === "new" ? `<span class="on">最新</span><a class="internal" href="./must-read">最热</a>` : `<a class="internal" href="./">最新</a><span class="on">最热</span>`}</div>
     <div class="mhc"><a class="internal" href="./">全部<i>${episodes.length}</i></a>${chips}</div>
   </div>`;
 }
@@ -231,9 +231,10 @@ function mobileHome(episodes, catsOf, vocabulary) {
 /** 顶栏。「最热」= 必读页(C13c,build-mustread.mjs 每次构建自算)。
  *  active 决定哪个 nav 高亮(设计稿 must-read.html 顶栏是 最热 带 cur);
  *  右侧 .pd-acts 是空槽,由脚本把 Quartz 的搜索/深浅色/阅读模式搬进来(见 scriptBlock)。 */
-export const topBar = (active = "home") => `<header class="pd-top"><div class="pd-topin">
+export const topBar = (active = "home", mtitle = "") => `<header class="pd-top"><div class="pd-topin">
     <a class="b" href="./"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a>
     <nav class="pd-nav"><a${active === "home" ? ' class="cur"' : ' class="internal"'} href="./">最新</a><a${active === "mustread" ? ' class="cur internal"' : ' class="internal"'} href="./must-read">最热</a></nav>
+    ${mtitle ? `<a class="pd-mtitle internal" href="./">←<span>${esc(mtitle)}</span></a>` : ""}
     <div class="pd-acts"></div>
   </div></header>`;
 

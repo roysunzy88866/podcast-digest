@@ -62,7 +62,7 @@ export function renderTagPage(cat, episodes, opts = {}) {
   if (!episodes.length) {
     return `${fm}
 <div class="pd">
-  ${topBar("cat")}
+  ${topBar("cat", cat)}
   <div class="pd-shell">
   ${rail}
   <div class="pd-mid">
@@ -102,7 +102,7 @@ ${scriptBlock()}
 
   return `${fm}
 <div class="pd">
-  ${topBar("cat")}
+  ${topBar("cat", cat)}
   <div class="pd-shell">
   ${rail}
   <div class="pd-mid">

@@ -162,3 +162,19 @@ describe("C13h · 设计稿全量对齐(2026-07-29 用户「一次性改完」;�
     expect(scss).toMatch(/\.pd-rel \.callout-content a \{ color: var\(--B6\); background: none/);
   });
 });
+
+describe("C13d · 手机端(设计稿 1023 块 + m-detail 移植)", () => {
+  it("★ 站名只在有「← 标题」的二级页让位(首页/必读页手机上站名要留),且优先级压得过 C13f 站名规则", () => {
+    expect(scss).toMatch(/\.pd \.pd-topin:has\(\.pd-mtitle\) \.b\s*\{\s*display:\s*none/);
+    expect(scss).not.toMatch(/^\s*\.pd-top \.b \{ display: none/m);
+  });
+  it("★ 大类页手机隐藏三轴筛选与排序行", () => {
+    expect(scss).toMatch(/\.pd \.frow,\s*\.pd \.sortbar \{ display: none; \}/);
+  });
+  it("★ 吸顶目录三件套:mtoc 吸顶 / 当前节收起态 / 进度线;桌面不出现", () => {
+    expect(scss).toMatch(/\.mtoc\s*\{[^}]*position:\s*sticky/);
+    expect(scss).toMatch(/\.mtoc\.at \.mtl\s*\{[^}]*font-weight:\s*600/);
+    expect(scss).toMatch(/\.mtbar\s*\{[^}]*height:\s*2px/);
+    expect(scss).toMatch(/@media \(min-width: 1024px\) \{\s*\.mtoc,\s*\.mrel \{ display: none; \}/);
+  });
+});
