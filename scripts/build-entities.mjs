@@ -13,7 +13,7 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, realpa
 import { resolve, dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 import { norm } from "./gate.mjs";
-import { blockId, episodeCategories } from "./render.mjs";
+import { blockId, episodeCategories, renderSiteTopBar, renderSidebarScript } from "./render.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const TYPE_CN = { person: "人物", company: "公司", concept: "概念" };
@@ -51,6 +51,7 @@ export function aggregate(episodes, aliasById = new Map()) {
         epId: meta.id,
         epTitle: meta.title_zh ?? meta.title_en ?? meta.id, // C5.1 fallback 链
         epDate: meta.date,
+        epPodcast: meta.podcast ?? "",
         role: e.role,
         primary: !!e.primary,
         how_described: e.how_described ?? "",
@@ -177,6 +178,10 @@ export function relatedEpisodes(targetEpId, episodes, { minShared = 1 } = {}) {
 }
 
 /** 一个实体 → 一页 markdown。pageById: id→{file,name} 供关联区链名。 */
+/** HTML 属性/文本转义(实体页 phero 是原样 HTML) */
+const escAttr = (x) =>
+  String(x ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+
 export function renderEntityPage(agg, quotes, relatedIds, pageById, aliasById = new Map()) {
   const alias = aliasById.get(agg.id);
   const aliasNames = alias ? (alias.forms ?? []).filter((f) => f !== agg.name && f !== agg.file) : [];
@@ -195,7 +200,6 @@ export function renderEntityPage(agg, quotes, relatedIds, pageById, aliasById = 
   ].join("\n");
 
   const nEp = new Set(agg.appearances.map((a) => a.epId)).size;
-  const header = `> [!info] ${TYPE_CN[agg.type] ?? agg.type}${aliasNames.length ? ` · 又名 ${aliasNames.join(" / ")}` : ""}\n> 出现在 ${nEp} 集 · 金句 ${quotes.length} 条 · 关联 ${relatedIds.length} 个`;
 
   // 集里怎么说它(#7):只列有 how_described 的集;没有则整栏不显示
   const described = agg.appearances.filter((a) => a.how_described);
@@ -205,25 +209,54 @@ export function renderEntityPage(agg, quotes, relatedIds, pageById, aliasById = 
         .join("\n")}`
     : "";
 
-  // 金句墙:块嵌入(P1 验过,自带「回原集」);空则不显示(4b)
-  const quoteSection = quotes.length
-    ? `## 金句\n\n${quotes.map((x) => `![[${x.epId}#^${x.block}]]`).join("\n\n")}`
-    : "";
+  // 金句墙:块嵌入(P1 验过,自带「回原集」);空则整节不显示(4b)
+  const quoteBody = quotes.map((x) => `![[${x.epId}#^${x.block}]]`).join("\n\n");
 
   // 出现在这些集:每集 + 角色
-  const epSection = `## 出现在这些集\n\n${agg.appearances
+  const epBody = agg.appearances
     .map((a) => `- [[${a.epId}|《${a.epTitle}》]] — 作为${roleCn(a.role)}${a.primary ? "" : "(提及)"}`)
-    .join("\n")}`;
+    .join("\n");
 
-  // 关联实体:有页的,链 file 名
-  const relSection = relatedIds.length
-    ? `## 关联实体\n\n${relatedIds.map((id) => `[[${pageById.get(id)?.file ?? id}]]`).join(" · ")}`
-    : "";
+  // 关联实体:有页的,链 file 名(外观由 CSS 做成设计稿的药丸,结构仍是双链)
+  const relBody = relatedIds.map((id) => `[[${pageById.get(id)?.file ?? id}]]`).join(" · ");
 
-  const body = [`# ${agg.name}`, header, descSection, quoteSection, epSection, relSection]
+  // ── C13j 照设计稿 person-*.html ──
+  // ⚠️ 只有**不含双链/块嵌入**的部分才写成原样 HTML(phero 头部)。金句墙 ![[..]]、集列表 [[..]]、
+  //    关联 [[..]] 必须留在 markdown 里 —— 用 HTML 包住它们,Quartz 就不再解析,双链与块嵌入当场失效
+  //    (集页「关联框」踩过这个坑,那边最后只能渲染完再搬节点)。这里的做法是:结构留 markdown,外观交 CSS。
+  const roleLabel = (() => {
+    if (agg.type !== "person") return TYPE_CN[agg.type] ?? agg.type;
+    const first = agg.appearances.find((a) => a.primary) ?? agg.appearances[0];
+    const r = roleCn(first?.role);
+    return [first?.epPodcast, r].filter(Boolean).join(" ");
+  })();
+  // 按**码点**切,不按 UTF-16 单元 —— slice(0,2) 会把 emoji/生僻字的代理对劈成乱码
+  const initials = [...String(agg.name).trim()].slice(0, 2).join("").toUpperCase();
+  const phero =
+    `<div class="pd-phero">` +
+    `<div class="av" data-cat="${escAttr(agg.file)}">${escAttr(initials)}</div>` +
+    `<div class="pi">` +
+    `<h1 class="pt">${escAttr(agg.name)}</h1>` +
+    `<div class="byl">${escAttr(roleLabel)}${aliasNames.length ? ` · 又名 ${escAttr(aliasNames.join(" / "))}` : ""}</div>` +
+    `<div class="nums">本站收录 <b>${nEp}</b> 集 · <b>${quotes.length}</b> 条金句 · 关联 <b>${relatedIds.length}</b> 个</div>` +
+    `</div></div>`;
+
+  // 小节标题照设计稿编号 + 一句说明。人物页用「他说过的话」,公司/概念页说不通 → 用中性词。
+  const isPerson = agg.type === "person";
+  const secQuotes = isPerson ? "① 他说过的话" : "① 提到它的金句";
+  const body = [
+    renderSiteTopBar(agg.name),
+    phero,
+    descSection,
+    quotes.length ? `## ${secQuotes}\n\n*${quotes.length} 条,均已过机器闸门*\n\n${quoteBody}` : "",
+    `## ② 出现在这些集\n\n*${nEp} 集*\n\n${epBody}`,
+    relatedIds.length ? `## ${isPerson ? "③ 他谈到的" : "③ 关联"}\n\n*点进去有真内容 —— 本页主要出口*\n\n${relBody}` : "",
+    renderSidebarScript(),
+  ]
     .filter(Boolean)
     .join("\n\n");
   return `${fm}\n\n${body}\n`;
+
 }
 
 /**

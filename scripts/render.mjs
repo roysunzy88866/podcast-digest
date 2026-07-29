@@ -135,6 +135,32 @@ export function renderTldr(digest) {
  * 🔒 #2 亮暗双模式必须留);复刻一份必然走样。分享/收藏归 C13b,本片不放。
  * 手机上站名与导航让位,只留「← 本集标题」一行(设计稿 .mtitle)。
  */
+/** HTML 文本转义(顶栏标题走它;render 的其它地方原本没有,这里就近定义) */
+const escHtml = (x) =>
+  String(x ?? "")
+    .replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;").replace(/'/g, "&#39;");
+
+/**
+ * 通用站点顶栏(集页与实体页共用)。放在 render.mjs 是为了避开循环依赖:
+ * build-list → build-entities → render,所以 build-entities 只能从 render 这边拿。
+ * @param mtitle 手机端「← 标题」的文字(二级页都要);空则不出这一节
+ */
+export function renderSiteTopBar(mtitle = "") {
+  return (
+    `<div class="pd"><header class="pd-top"><div class="pd-topin">` +
+    `<a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a>` +
+    `<nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav>` +
+    `<a class="pd-back" href="/">← 返回</a>` +
+    (mtitle ? `<a class="pd-mtitle" href="/">←<span>${escHtml(mtitle)}</span></a>` : "") +
+    `<div class="pd-acts">` +
+    `<button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button>` +
+    `<button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button>` +
+    `</div>` +
+    `</div></header></div>`
+  );
+}
+
 export function renderTopBar(meta) {
   return (
     `<div class="pd"><header class="pd-top"><div class="pd-topin">` +

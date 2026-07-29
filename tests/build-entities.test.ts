@@ -132,26 +132,54 @@ describe("renderEntityPage · 一套模板三种实体 + 4a/4b 边界", () => {
 
   it("★ agent 页:头部数字 + 集里怎么说它(两集)+ 金句墙嵌入 + 出现在这些集 + 关联", () => {
     const p = page("agent");
-    expect(p).toContain("出现在 2 集");
+    expect(p).toContain("本站收录 <b>2</b> 集"); // C13j:数字进 phero 头部(设计稿 .nums)
     expect(p).toContain("《Modal 集》");
     expect(p).toContain("《Databricks 集》");
     expect(p).toContain("![[ep1#^q1]]"); // 金句块嵌入(P1 验过)
     expect(p).toMatch(/## 集里怎么说它/);
-    expect(p).toMatch(/## 出现在这些集/);
-    expect(p).toMatch(/## 关联实体/);
+    expect(p).toMatch(/## ② 出现在这些集/);
+    expect(p).toMatch(/## ③ 关联/); // 概念页用中性词;人物页是「③ 他谈到的」
+  });
+
+  // C13j(设计稿 person-*.html)
+  it("★ 人物页头部照设计稿:头像首字母 + 姓名 + 「播客 角色」+ 收录数字", () => {
+    const p = page("akshat-bubna");
+    expect(p).toMatch(/<div class="pd-phero">/);
+    expect(p).toMatch(/<div class="av"[^>]*>AK<\/div>/);
+    expect(p).toMatch(/<div class="byl">[^<]*嘉宾/);
+    expect(p).toMatch(/## ① 他说过的话/);
+    expect(p).toMatch(/## ③ 他谈到的/);
+  });
+
+  it("★★ 双链与块嵌入必须留在 markdown 里(用 HTML 包住 Quartz 就不解析,集页关联框踩过)", () => {
+    const p = page("akshat-bubna");
+    // 金句墙、集列表、关联三处都不许被包进原样 HTML 标签
+    for (const frag of ["![[ep1#^q1]]", "[[ep1|《Modal 集》]]"]) {
+      const i = p.indexOf(frag);
+      expect(i, `${frag} 应该在页面里`).toBeGreaterThan(-1);
+      const line = p.slice(p.lastIndexOf("\n", i) + 1, p.indexOf("\n", i));
+      expect(line).not.toMatch(/^</); // 该行不是 HTML 块
+    }
+  });
+
+  it("★ 顶栏与搬运脚本在(实体页也是站内二级页,搜索/深浅色不降级)", () => {
+    const p = page("akshat-bubna");
+    expect(p).toContain('class="pd-top"');
+    expect(p).toContain("pd-acts");
+    expect(p).toContain("adopt");
   });
   it("★ 概念页 frontmatter 带 aliases(裁决 #10 双语可搜)", () => {
     expect(page("agent")).toMatch(/aliases:.*agent/);
   });
   it("★ 4a 单集实体(modal)不破版:出现在 1 集,正常显示", () => {
     const p = page("modal");
-    expect(p).toContain("出现在 1 集");
+    expect(p).toContain("本站收录 <b>1</b> 集");
     expect(p).toContain("《Modal 集》");
   });
   it("★ 4b 某区块无内容则隐藏:databricks 无匹配金句 → 无「## 金句」空框", () => {
     // databricks 的金句:概念/公司页收「提到它的」;fixture 里没有金句 en 含 databricks
     const p = page("databricks");
-    expect(p).not.toMatch(/## 金句/);
+    expect(p).not.toMatch(/## ① /);
   });
   it("★ kubernetes 页:集2 那次标『提及』(角色透明)", () => {
     const p = page("kubernetes");

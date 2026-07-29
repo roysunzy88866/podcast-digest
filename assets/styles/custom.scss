@@ -1322,6 +1322,117 @@ body:has(.pd-play) article blockquote:has(> p[id^="q"]) em {
 }
 
 
+
+/* ══ C13j · 实体页(设计稿 person-*.html)══
+   结构留在 markdown(双链/块嵌入必须由 Quartz 解析),外观全靠这里。 */
+body[data-slug^="entities/"] {
+  /* 框架页头会把标题再显示一遍(phero 里已有);面包屑也不在设计里 */
+  .page-header { display: none; }
+
+  /* Quartz 默认左栏(站名 + Explorer 整站文件树)不在设计里 —— 与首页/大类页同一条口径。
+     右栏留着:目录是设计稿人物页也有的;反向链接是框架自带,设计没有且与「② 出现在这些集」重复。 */
+  .left.sidebar { display: none; }
+  .right.sidebar .backlinks { display: none; }
+  /* 藏掉左栏后栅格得重新居中,否则正文贴着屏幕左边(集页同一条修法:
+     栅格居中 + max-width 与「两列 + 列间距」之和取齐)。设计稿人物页 mid 680 / right 290。 */
+  @media (min-width: 1024px) {
+    & > #quartz-body,
+    #quartz-body {
+      grid-template-columns: minmax(0, 680px) 290px;
+      justify-content: center;
+      max-width: 994px;
+      column-gap: 24px;
+      margin: 0 auto;
+    }
+  }
+
+  /* 金句块嵌入自带的「指向原始笔记的链接」:金句正文里已经有「—— 某人 · [时间]」出处,
+     再挂一行框架文案是重复(设计稿 .qr 只有三行)。隐掉文字,块本身照旧可点。 */
+  .transclude-src { display: none; }
+
+  /* ① 头部:头像圆 + 姓名 + 角色行 + 收录数字(设计稿 .phero/.av/.byl/.nums) */
+  .pd-phero {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 8px 0 22px;
+    border-bottom: 1px solid var(--B2);
+    margin-bottom: 6px;
+  }
+  .pd-phero .av {
+    flex: 0 0 74px;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    background: var(--pd-accent);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--puhui);
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+  }
+  .pd-phero .pi { min-width: 0; }
+  .pd-phero h1.pt {
+    font-family: var(--puhui);
+    font-size: 27px;
+    line-height: 1.35;
+    margin: 0 0 2px;
+  }
+  .pd-phero .byl { font-size: 14px; color: var(--B6); }
+  .pd-phero .nums { font-size: 12.5px; color: var(--B6); margin-top: 10px; }
+  .pd-phero .nums b { color: var(--B8); font-size: 15px; font-weight: 600; }
+
+  /* 小节标题:与集页同一套(普惠体 20px);紧跟的一行斜体是说明,收成小灰字(设计稿 .sec span) */
+  article h2 {
+    font-family: var(--puhui);
+    font-size: 20px;
+    line-height: 1.45;
+    margin: 34px 0 4px;
+  }
+  article h2 + p em {
+    font-style: normal;
+    font-size: 11.5px;
+    color: var(--B5);
+    letter-spacing: 0.3px;
+  }
+  article h2 + p { margin: 0 0 14px; }
+
+  /* ③ 关联:markdown 的「[[a]] · [[b]]」→ 药丸(设计稿 .chips/.chp)。
+     分隔的「·」用不着了,但它是纯文本删不掉 —— 调成极浅,不抢视线。 */
+  /* 只命中「标题 → 说明段 → chips 段」这一处结构(实体页各节形状:
+     ① h2+说明+blockquote / ② h2+说明+ul / ③ h2+说明+p ← 只有它是第二个 p)。
+     ⚠️ 别用 `h2 ~ p`:那会扫到 h2 之后的所有兄弟段落(GLM 20260730-002[3])。 */
+  article h2 + p + p > a.internal {
+    display: inline-block;
+    background: none;
+    border: 1px solid var(--B3);
+    border-radius: 13px;
+    padding: 3px 11px;
+    margin: 0 2px 7px 0;
+    font-size: 12.5px;
+    color: var(--B7);
+  }
+  article h2 + p + p > a.internal:hover { border-color: var(--pd-accent); color: var(--pd-accent); }
+
+  /* ② 出现在这些集:列表收成一行行,去掉项目符号 */
+  article ul { list-style: none; padding-left: 0; }
+  article ul li {
+    padding: 11px 0;
+    border-bottom: 1px solid var(--B2);
+    font-size: 14.5px;
+    line-height: 1.6;
+  }
+  article ul li a.internal { background: none; font-weight: 500; }
+}
+@media (max-width: 1023px) {
+  body[data-slug^="entities/"] .pd-phero { gap: 14px; padding-bottom: 18px; }
+  body[data-slug^="entities/"] .pd-phero .av { flex-basis: 58px; width: 58px; height: 58px; font-size: 20px; }
+  body[data-slug^="entities/"] .pd-phero h1.pt { font-size: 22px; }
+}
+
 /* ══ C13d · 手机端(设计稿 style.css 1023 块 + m-detail.js 配套样式,照抄)══ */
 @media (max-width: 1023px) {
   /* 大类页:手机隐藏三轴筛选与排序行(设计稿明写;竖屏摆不下且误触率高) */
