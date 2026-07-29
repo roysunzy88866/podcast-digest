@@ -450,17 +450,17 @@ async function main() {
     return;
   }
 
-  let totalClean = 0;
-  let totalSkipped = 0;
-  for (const source of sources) {
-    const r = await processSource(source, state, { backfillN, dryRun: flags.has("--dry-run") });
-    totalClean += r.clean;
-    totalSkipped += r.skipped;
-  }
+  const dryRun = flags.has("--dry-run");
+  const sourceRun = await runAllSources(sources, (source) =>
+    processSource(source, state, { backfillN, dryRun }),
+  );
+  let totalClean = sourceRun.clean;
+  let totalSkipped = sourceRun.skipped;
 
-  // C14:补活掉队半成品(有 digest 无集页)。放在正常班次之后:新集优先,补活失败不拖垮当轮。
+  // C14:补活掉队半成品(有 digest 无集页)。放在正常班次之后:新集优先。
+  // **无论上面的源成没成都要跑** —— 它是安全网,不能被自己要防的故障挡在门外(run 30446551961 血账)。
   {
-    const r = revivePass(state, { onlyKey, dryRun: flags.has("--dry-run") });
+    const r = revivePass(state, { onlyKey, dryRun });
     totalClean += r.clean;
     totalSkipped += r.skipped;
   }
@@ -473,6 +473,40 @@ async function main() {
   } else {
     console.log("\n✅ 无干净可发的新集(全被隔离/无新集)。不部署,线上保持上一版。");
   }
+
+  // 源失败在这里才致命:让 run 红(GitHub 自动发告警邮件),但发布与账本已各就各位、补活已跑过
+  if (sourceRun.errors.length) {
+    const names = sourceRun.errors.map((e) => `${e.key}(${e.message})`).join("; ");
+    throw new Error(`${sourceRun.errors.length} 个源本轮失败:${names}`);
+  }
+}
+
+/**
+ * C14 修(2026-07-29 实账 run 30446551961):逐源跑,**单源抛错不打断其余源、也不打断补活**,
+ * 错误收集起来在收尾处响亮报出并让整轮非零退出。
+ * 病根:补活是安全网,却被「新集处理必须成功」绑架 —— 而网络抖动(GLM fetch failed)
+ * 正是产生掉队集的原因本身,等于让故障把自己的解药关在门外。
+ * @param runOne 注入的单源处理函数(生产传 processSource 的包装)
+ */
+export async function runAllSources(sources, runOne) {
+  let clean = 0;
+  let skipped = 0;
+  const errors = [];
+  for (const source of sources) {
+    try {
+      const r = await runOne(source);
+      clean += r.clean;
+      skipped += r.skipped;
+    } catch (e) {
+      // 响亮但不致命:本源这轮作废,其余源与补活照常。
+      // ⚠️ 不写 e.message —— 抛的不是 Error 时(库里 throw 字符串/null)会打出「失败:undefined」,
+      // 那正好把这段代码存在的意义(让失败看得见)抹掉(GLM 20260730-001[1] 实证)。
+      const why = String(e?.message ?? e);
+      console.error(`::error::源 ${source.key} 本轮失败(其余源与补活继续):${why}`);
+      errors.push({ key: source.key, message: why });
+    }
+  }
+  return { clean, skipped, errors };
 }
 
 /**

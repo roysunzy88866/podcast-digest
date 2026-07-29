@@ -367,3 +367,48 @@ describe("C14 sourceForId / reviveItemFromMeta:从存量重建处理入参", () 
     expect(it_.link).toBe("");
   });
 });
+
+// ══ C14 修:补活不许被「新集处理成功」绑架 ══
+// 2026-07-29 实账(run 30446551961):跑新集时撞 GLM `fetch failed` → 编排器整体退出 →
+// **补活环节根本没轮到**。而网络抖动正是产生掉队集的原因本身 —— 安全网被它要防的故障关在门外。
+import { runAllSources } from "../scripts/run-pipeline.mjs";
+
+describe("C14 runAllSources:单源失败不吞掉其它源与补活,但整轮仍响亮失败", () => {
+  const okSrc = { key: "ok" };
+  const badSrc = { key: "bad" };
+
+  it("★ 一个源抛错 → 其余源照跑,错误被收集(不冒泡打断)", async () => {
+    const ran: string[] = [];
+    const r = await runAllSources([badSrc, okSrc], async (s) => {
+      ran.push(s.key);
+      if (s.key === "bad") throw new Error("fetch failed");
+      return { clean: 2, skipped: 1 };
+    });
+    expect(ran).toEqual(["bad", "ok"]);
+    expect(r.clean).toBe(2);
+    expect(r.skipped).toBe(1);
+    expect(r.errors.map((e: any) => e.key)).toEqual(["bad"]);
+  });
+
+  it("★ 全成功时 errors 为空(不误报)", async () => {
+    const r = await runAllSources([okSrc], async () => ({ clean: 1, skipped: 0 }));
+    expect(r.errors).toEqual([]);
+  });
+
+  it("★ 错误对象带得动源名与原因(日志要点得出名字,不是笼统一句失败)", async () => {
+    const r = await runAllSources([badSrc], async () => {
+      throw new Error("GLM 抽实体连试 4 次");
+    });
+    expect(r.errors[0].key).toBe("bad");
+    expect(String(r.errors[0].message)).toContain("GLM");
+  });
+});
+
+describe("C14 runAllSources:失败原因永远看得见(GLM 20260730-001[1] 坐实项)", () => {
+  it("★ 抛的不是 Error(字符串/null)也要有可读原因,不许打出 undefined", async () => {
+    const r1 = await runAllSources([{ key: "a" }], async () => { throw "GLM down"; });
+    expect(r1.errors[0].message).toBe("GLM down");
+    const r2 = await runAllSources([{ key: "b" }], async () => { throw null; });
+    expect(r2.errors[0].message).toBe("null");
+  });
+});
