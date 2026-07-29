@@ -33,7 +33,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[Cursor]] · [[Lovable]] · [[Slack]] · [[智能体编码]] · [[能力过剩]] · [[冷启动]]
+[[Lenny]] · [[Anthropic]] · [[OpenAI]] · [[Meta]] · [[Google]] · [[Cursor]] · [[Lovable]] · [[Slack]] · [[智能体编码]] · [[能力过剩]]
 
 <script>
 (function(){

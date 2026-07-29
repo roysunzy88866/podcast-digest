@@ -187,8 +187,8 @@ Jeetu 能有今天的视野,还因为他坚信一个关于个人成长的核心�
 **换个口味**
 
 - [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble]] —— 同嘉宾:Lenny · 同公司:NVIDIA · 同概念:ChatGPT
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当代码不再是瓶颈,品味和策展成为产品团队的稀缺力]] —— 同嘉宾:Lenny · 同概念:ChatGPT、主观能动性 (agency)
 - [[2025-12-07-lennys-surge-ai-edwin-chen|Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理]] —— 同嘉宾:Lenny · 同概念:ChatGPT
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同嘉宾:Lenny · 同概念:ChatGPT
 
 </div>
 </div>

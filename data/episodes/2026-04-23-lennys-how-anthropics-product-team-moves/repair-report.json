@@ -2,52 +2,66 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "00:20",
-      "speaker": "Cat Wu",
+      "timestamp": "18:19",
+      "speaker": "Kat Wu",
       "trimmed": false,
-      "tsWas": "00:20",
-      "spkWas": "Cat Wu"
+      "tsWas": "50:50",
+      "spkWas": "Kat Wu"
     },
     {
       "i": 2,
-      "timestamp": "00:50",
-      "speaker": "Cat Wu",
+      "timestamp": "00:20",
+      "speaker": "Kat Wu",
       "trimmed": false,
-      "tsWas": "00:50",
-      "spkWas": "Cat Wu"
+      "tsWas": "00:20",
+      "spkWas": "Kat Wu"
     },
     {
       "i": 3,
-      "timestamp": "64:54",
-      "speaker": "Cat Wu",
+      "timestamp": "70:06",
+      "speaker": "Kat Wu",
       "trimmed": false,
-      "tsWas": "64:54",
-      "spkWas": "Cat Wu"
+      "tsWas": "70:04",
+      "spkWas": "Kat Wu"
     },
     {
       "i": 4,
-      "timestamp": "70:06",
-      "speaker": "Cat Wu",
+      "timestamp": "51:35",
+      "speaker": "Kat Wu",
       "trimmed": false,
-      "tsWas": "70:10",
-      "spkWas": "Cat Wu"
+      "tsWas": "51:35",
+      "spkWas": "Kat Wu"
     },
     {
       "i": 5,
-      "timestamp": "74:38",
-      "speaker": "Cat Wu",
-      "trimmed": false,
-      "tsWas": "74:42",
-      "spkWas": "Cat Wu"
+      "timestamp": "74:51",
+      "speaker": "Kat Wu",
+      "trimmed": true,
+      "tsWas": "74:50",
+      "spkWas": "Kat Wu"
     },
     {
-      "i": 6,
+      "i": 7,
       "timestamp": "31:47",
-      "speaker": "Cat Wu",
+      "speaker": "Kat Wu",
       "trimmed": false,
       "tsWas": "31:44",
-      "spkWas": "Cat Wu"
+      "spkWas": "Kat Wu"
+    },
+    {
+      "i": 8,
+      "timestamp": "21:43",
+      "speaker": "Kat Wu",
+      "trimmed": false,
+      "tsWas": "21:43",
+      "spkWas": "Kat Wu"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 6,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "There is just not much value in a 95% there automation."
+    }
+  ]
 }

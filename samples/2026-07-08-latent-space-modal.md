@@ -108,7 +108,7 @@ Modal 最初并不是一家 GPU 推理公司。Akshat 回忆，Erik 最早的出
 
 - [[2026-05-21-latent-space-daytona|赋予AI智能体计算机——Daytona创始人Ivan Burazin]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
 - [[2026-06-22-latent-space-gray-swan|让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
-- [[2026-06-24-latent-space-databricks|Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图]] —— 同公司:Kubernetes · 同概念:智能体 (agent)
+- [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|Cloud Code 创始人 Boris：删掉 80% 系统提示，把模型当生物养]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
 
 </div>
 <div class="pd-ex">
@@ -117,7 +117,7 @@ Modal 最初并不是一家 GPU 推理公司。Akshat 回忆，Erik 最早的出
 
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展]] —— 同公司:OpenAI · 同概念:推理 (inference)、沙箱 (sandbox)
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构]] —— 同公司:Anthropic · 同概念:智能体 (agent)
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南]] —— 同公司:Anthropic · 同概念:智能体 (agent)
 
 </div>
 </div>

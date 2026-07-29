@@ -23,7 +23,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Fiona Fung]] · [[Anthropic]] · [[Claude Code]] · [[Co-Work]] · [[智能体]] · [[验证]] · [[测试驱动开发]] · [[潜在需求]] · [[结对编程]]
+[[Lenny]] · [[Fiona Fung]] · [[Anthropic]] · [[Claude Code]] · [[Co-work]] · [[智能体]] · [[验证]] · [[测试驱动开发]] · [[潜在需求]] · [[结对编程]]
 
 <script>
 (function(){

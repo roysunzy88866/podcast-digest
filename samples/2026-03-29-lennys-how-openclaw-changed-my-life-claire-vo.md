@@ -134,8 +134,8 @@ Claire 的智能体团队里，每个成员都有清晰的岗位画像。Sam 是
 **顺着「智能体」挖下去**
 
 - [[2026-06-22-latent-space-gray-swan|让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏]] —— 同概念:OpenClaw、提示词注入 (prompt injection)、智能体 (agent)
+- [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型]] —— 同概念:智能体 (agent)、浏览器使用 (browser use)、系统提示词 (soul)
 - [[2026-singju-openclaw-80apps|OpenClaw创始人：为何80%的应用将消失]] —— 同概念:Claude Code、OpenClaw、智能体 (agent)
-- [[2026-07-13-pg-the-complete-claude-stack-for-pms|PM 如何用 Claude 把生产力提升 10 倍：全栈实战]] —— 同概念:Claude Code、智能体 (agent)
 
 </div>
 <div class="pd-ex">

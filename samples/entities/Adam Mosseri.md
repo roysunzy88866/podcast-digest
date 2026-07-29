@@ -41,7 +41,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[instagram]] · [[TikTok]] · [[Anthropic]] · [[reels]] · [[pods]] · [[产品人员]] · [[news feed]] · [[嵌入模型]] · [[探索性排名]]
+[[Lenny]] · [[instagram]] · [[TikTok]] · [[Anthropic]] · [[open ai]] · [[reels]] · [[pods]] · [[产品人员]] · [[news feed]] · [[嵌入模型]]
 
 <script>
 (function(){

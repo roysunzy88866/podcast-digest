@@ -140,9 +140,9 @@ Signal(C-Y-G-N-A-L,取自天鹅 swan 的谐音)是一个专用过滤模型,它�
 
 **换个口味**
 
+- [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|Cloud Code 创始人 Boris：删掉 80% 系统提示，把模型当生物养]] —— 同概念:提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)、Cloud Code
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得]] —— 同概念:OpenClaw、提示词注入 (prompt injection)、智能体 (agent)
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切]] —— 同概念:OpenClaw、智能体 (agent)、Codex
-- [[2026-07-09-pg-pm-guide-ai-design|用 AI 武装技术型 PM：Codex 工作流全解析]] —— 同概念:护栏 (guardrails)、智能体 (agent)、Codex
 
 </div>
 </div>

@@ -7,19 +7,23 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PRD</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="PRD">PR</div><div class="pi"><h1 class="pt">PRD</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="PRD">PR</div><div class="pi"><h1 class="pt">PRD</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]]**(51:24起):本集提到传统的 PRD 在快节奏的 AI 时代已显得过时，Amol 的团队交付的内容中有 60% 到 80% 连 PRD 都没有，大家更倾向于直接在 Slack 沟通或做原型。
+- **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当代码不再是瓶颈,品味和策展成为产品团队的稀缺力》]]**(06:46起):本集探讨了过去为了预先降低实现风险而大量使用产品需求文档(PRD),但嘉宾指出现在对某些观点表达而言文档可能仍是正确的媒介选择,不能盲目宣称 PRD 已死。
+- **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型》]]**(00:56起):本集评测模型能力的四大高频场景之一,主持人发现 Tara 模型在编写简洁、切中要害的商务 PRD 文档上表现最为出色。
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]]**(41:00起):本集将其描述为传统的产品需求文档，虽然在明确痛点的开发中被评估（evals）替代，但在需要对齐大量利益相关者或探索极其模糊的新领域时依然具有不可替代的价值。
 - **[[2026-07-28-pg-how-to-build-your-first-eval|《评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估》]]**(01:48起):本集把它说成:过去产品经理用来传达产品诉求的文档,详细规定产品各种情况下的运作方式和用户价值,但在 Gen AI 时代因为产品能做的事太多、难以用文字描述,其核心职能被评估取代。
 
 ## ② 出现在这些集
 
-*3 集*
+*5 集*
 
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]] — 作为概念(提及)
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当代码不再是瓶颈,品味和策展成为产品团队的稀缺力》]] — 作为概念(提及)
+- [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型》]] — 作为概念(提及)
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]] — 作为概念
 - [[2026-07-28-pg-how-to-build-your-first-eval|《评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估》]] — 作为概念
 
@@ -27,7 +31,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Claude Code]] · [[Anthropic]] · [[OpenAI]] · [[Google]] · [[Amol Avasare]] · [[Dianne Penn]] · [[Daniel McKinnon]] · [[Cursor]] · [[Claude]]
+[[Lenny]] · [[Codex]] · [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Meta]] · [[原型]] · [[Claude Code]] · [[Google]] · [[计算机使用]]
 
 <script>
 (function(){

@@ -114,17 +114,17 @@ Diane 认为,随着 AI 越来越聪明,人类来之不易的判断力依然是�
 **顺着「产品方法」挖下去**
 
 - [[2026-03-01-lennys-the-design-process-is-dead|The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude、Claude Code
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude Code、评估 (evals)
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同嘉宾:Lenny · 同公司:Anthropic、OpenAI
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|Adam Mosseri：AI 时代的团队重组与产品品味]] —— 同嘉宾:Lenny · 同公司:Anthropic
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
+- [[2026-05-31-lennys-a-rational-conversation-on-where|Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱]] —— 同嘉宾:Lenny · 同公司:Anthropic、OpenAI · 同概念:Claude Code
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|PM 如何用 Claude 把生产力提升 10 倍：全栈实战]] —— 同概念:Claude、Claude Code、技能 (skills)、MCP
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude Code
-- [[2025-12-07-lennys-surge-ai-edwin-chen|Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude
 
 </div>
 </div>

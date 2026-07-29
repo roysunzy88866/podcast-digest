@@ -103,8 +103,8 @@ Ranjan 作为亲历过 2008 年金融危机的交易员,认为这个类比在逻
 **顺着「创业与行业」挖下去**
 
 - [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|Transformer 见顶了吗？OpenAI 与 Google 前核心创立 Core Automation 寻找下一代架构]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
+- [[2026-05-31-lennys-a-rational-conversation-on-where|Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展]] —— 同公司:OpenAI · 同概念:AGI
-- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争]] —— 同公司:Anthropic、OpenAI、SpaceX · 同概念:蒸馏 (distillation)
 
 </div>
 <div class="pd-ex">

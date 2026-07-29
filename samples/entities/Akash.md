@@ -21,7 +21,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Codex]] · [[Jiaona Zhang]] · [[Meng To]] · [[Daniel McKinnon]] · [[Laurel]] · [[Cursor]] · [[评估]] · [[GitHub]] · [[obsidian]]
+[[智能体]] · [[Codex]] · [[Meta]] · [[Jiaona Zhang]] · [[Meng To]] · [[Daniel McKinnon]] · [[Laurel]] · [[Cursor]] · [[评估]] · [[GitHub]]
 
 <script>
 (function(){

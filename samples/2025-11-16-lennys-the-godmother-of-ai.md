@@ -181,9 +181,9 @@ World Labs 成立至今大约 18 个月,团队目前约 30 人。李飞飞坦言
 
 **换个口味**
 
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当代码不再是瓶颈,品味和策展成为产品团队的稀缺力]] —— 同公司:ChatGPT · 同概念:主观能动性 (agency)
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得]] —— 同公司:ChatGPT
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性]] —— 同概念:主观能动性 (agency)
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同公司:ChatGPT
 
 </div>
 </div>

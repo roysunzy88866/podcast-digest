@@ -138,9 +138,9 @@ Nikhyl 提出了几条硬核建议：
 
 **换个口味**
 
+- [[2026-05-31-lennys-a-rational-conversation-on-where|Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱]] —— 同公司:Anthropic、Google、Meta
+- [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型]] —— 同公司:Anthropic、Codex · 同概念:智能体 (agent)
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 悬崖边？数据中心次级债与 SpaceX 缩水]] —— 同公司:Anthropic、Google、Tesla
-- [[2026-03-01-lennys-the-design-process-is-dead|The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)]] —— 同公司:Anthropic、Claude
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同公司:Tesla · 同概念:智能体 (agent)
 
 </div>
 </div>

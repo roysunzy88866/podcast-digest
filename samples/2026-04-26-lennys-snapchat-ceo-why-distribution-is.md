@@ -158,8 +158,8 @@ Snap 一直以「发明机器」著称,产出了大量被行业效仿的创意�
 **换个口味**
 
 - [[2026-03-22-lennys-the-art-of-influence-jessica-fain|别只想推销：产品负责人如何真正影响高管决策]] —— 同概念:智能体 (agents)
+- [[2026-05-31-lennys-a-rational-conversation-on-where|Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱]] —— 同概念:分发 (distribution)
 - [[2026-singju-openclaw-80apps|OpenClaw创始人：为何80%的应用将消失]] —— 同概念:护城河 (moat)
-- [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失]] —— 同概念:智能体 (agents)
 
 </div>
 </div>

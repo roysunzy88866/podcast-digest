@@ -29,7 +29,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Codex]] · [[智能体]] · [[Claude Code]] · [[Lovable]] · [[Anthropic]] · [[Zevi Arnovitz]] · [[Amol Avasare]] · [[Dan Shipper]] · [[Meng To]]
+[[Lenny]] · [[Codex]] · [[智能体]] · [[Meta]] · [[Claude Code]] · [[Lovable]] · [[Anthropic]] · [[Zevi Arnovitz]] · [[Amol Avasare]] · [[Dan Shipper]]
 
 <script>
 (function(){

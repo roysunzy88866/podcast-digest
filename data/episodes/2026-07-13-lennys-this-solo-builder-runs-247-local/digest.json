@@ -1,95 +1,104 @@
 {
-  "tldr": "主持人用自建基准盲测发现 GPT 5.6 Soul 在设计、写作和实用度上全面超越 Fable 5，成为其新宠。",
-  "digest_md": "上周，主持人 Alex Finn 经历了没有顶级 AI 模型可用的「绝望」一周。本周，她带着 OpenAI 发布的最新旗舰模型回归，并宣布了她的新心头好：GPT 5.6 Soul。这期节目并非简单的跑分罗列，而是一场围绕「真实业务实用度」展开的深度实测对比，核心在于：GPT 5.6 Soul 与 Anthropic 的 Fable 5 相比，谁才是真正能干活的好帮手？\n\nOpenAI 本次发布了三个版本的模型 [01:16 Alex Finn]：Soul 是下一代前沿大模型（最强大脑）；Terra 是用于高效日常工作的平衡款；Luna 则类似 mini 或 nano 模型，主打便宜、适合高吞吐量任务。定价上，Soul 每百万输入 tokens 为 5 美元、输出为 30 美元，比录制时 Fable 的 10 美元/50 美元要便宜不少 [02:16 Alex Finn]。她推测，Soul 的实惠定价可能会给 Anthropic 带来压力，迫使他们把 Fable 重新放回订阅服务中 [03:09 Alex Finn]。在官方跑分上，Soul 在 terminal bench 2.1 的 ultra 模式下表现最高 [03:33 Alex Finn]。\n\n但官方跑分仅供参考，为了找出「最该一直使用的模型」，她跑了一套自建的「How I AI」基准测试 [00:48 Alex Finn]。这套测试包含生成 PRD（产品需求文档）、画线框图、做高保真原型、多步调试代码，以及最重要的「像人类一样说话」。测试采用双轨打分：70% 看她自己的盲测品味打分，30% 看作为裁判的 LLM（GPT 5.5）的评判 [07:31 Alex Finn]。\n\n结果非常明确：她最爱 GPT 5.6 Soul，尤其是它在高保真前端原型和应用构建上的表现 [09:05 Alex Finn]。**核心主线：Soul 代表「实际有效」，而 Fable 陷入「理论上的过度智能」。**\n\n### 1. 设计：告别「AI 味」，Soul 有个性且功能性强\nSoul 在设计上拿下了极高的品味分。主持人极度反感千篇一律的「AI 味设计（slop，指 AI 生成的毫无美感、套路化的废料）」，比如 Claude 那标志性的米色背景配焦橙色斜体衬线字体 [10:50 Alex Finn]。在为码头调度应用做操作面板（dashboard）时，Soul 跳出了常见的暗色模式，给出了中性色彩、视觉层次极佳的布局，且所有该有点击交互的地方全都能用 [13:48 Alex Finn]。相比之下，Fable 虽然也能用，但颜色缺乏语义、留白处理不当，显得平庸 [14:32 Alex Finn]。在习惯追踪应用中，Soul 甚至展现了「观点」，设计的页面带有一点独特的小巧思，让人眼前一亮 [15:38 Alex Finn]。\n\n> 【背景】主持人提到 Soul 特别偏爱「森林绿」的设计，她猜测这是 OpenAI 在系统提示词（决定模型行为风格的底层指令）里写死的美学风格 [17:22 Alex Finn]。\n\n### 2. 写作：如正常人般沟通 vs. 极度迂腐\n主持人对 Fable 的沟通能力抱怨连连。她形容 Fable 说话像个「第一天来到地球、从没见过人类的工程师」，输出极度技术化且迂腐（pedantic），让人难以理解 [08:33 Alex Finn]。而 Soul 的写作直截了当，非常「人类」。\n在让模型从零重构 PRD 工具时，Fable 会陷入死胡同；而 Soul 用清晰的表格列出了现状分析和执行建议，文档读起来顺畅得多 [22:37 Alex Finn]。Fable 还会死磕自己设定的死板框架，甚至把原型工具里的代码循环写得太死，导致除了 GPT 5.5 模型外，其他模型（如 Sonnet）根本跑不起来 [29:51 Alex Finn]。直到她把任务交给 Codex 和 GPT 5.6 Soul，让它「别再迂腐」，它才一把跳出了原有的思维定势，迅速修好了问题 [30:35 Alex Finn]。\n\n> 【背景】Codex 和 Open Claw 是编程工具/智能体平台，Linear 和 GitHub 是软件开发团队常用的项目管理与代码托管工具 [23:20 Alex Finn]。\n\n### 3. 令人惊艳的「一次性」原型能力\nSoul 展现了极强的「从零到一」构建应用的能力。主持人给它提了个很生活化的需求：给孩子们做一个完全游戏化的作业追踪系统 [24:00 Alex Finn]。Soul 一次性生成的应用令人惊叹：它不仅设计了夏季任务，还做了专注模式（带计时器）、赚 XP（经验值）、解锁 Beat Bot 等虚拟同伴和光环 [25:36 Alex Finn]。应用甚至包含了一个功能完备的家长后台（Parent HQ），能开关任务、调整积分和奖励 [26:53 Alex Finn]。Soul 认真听取了关于孩子喜好的设定（大孩子受篮球激励，小孩子受 Minecraft 激励），并将其融入了奖励机制 [27:19 Alex Finn]。\n\n### 4. 实用锦囊：视频剪辑与浏览器控制\n除了写代码，GPT 5.6 在两个具体用例上表现「凶猛」：\n其一是**视频剪辑**。把长演讲录音扔进去，简单提要求（要横向、竖屏剪辑、节奏更紧凑），它就能精准切出 5 个适合发社交媒体的短视频，省去了大量人工翻看素材的麻烦 [32:33 Alex Finn]。\n其二是**浏览器使用**。结合 Codex，GPT 5.6 在控制浏览器操作上堪称「猛兽」 [33:40 Alex Finn]。主持人让它登录 LinkedIn，按照她的高标准（只要一流公司高管）去处理好友请求。结果模型「狂飙」完毕，一口气处理了约 500 条消息，不仅精准回复了该回的人，还自动向夸赞播客的听众表达了感谢 [34:29 Alex Finn]。\n\n> 【背景】主持人提到的「@chrome」或「@computer」指的是在智能体工具中，通过特定指令让 AI 直接接管并操作真实的网页浏览器或电脑桌面 [34:56 Alex Finn]。\n\n### 总冠军归属\nGPT 5.6 Soul 无疑是本期的大赢家。但这并不意味着 Fable 一无是处：在不用和它直接对话的情况下，Fable 依然是顶级的 AI 写手，特别擅长编写复杂的 Web 应用，能扛起硬核技术重活 [35:24 Alex Finn]。\n各有所长：\n- **GPT 5.6 Soul**：前端原型设计、实用代码编写、视频剪辑、浏览器控制、日常沟通。\n- **GPT 5.6 Terra**：干净、直接的 PRD 和商业写作 [09:38 Alex Finn]。\n- **Sonnet 5**：在 Open Claw 智能体里语音最不尴尬、像个真人；LLM 裁判还认为它找代码 Bug 最完整准确 [09:55 Alex Finn]。",
+  "title_zh": "GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型",
+  "tldr": "深度实测 GPT 5.6 Soul：不仅设计品味碾压 Fable，更是浏览器操控和多步原型构建的实用利器。",
+  "digest_md": "播客主持人 Alex Finn 在失去模型访问权限的一周里倍感煎熬，但这正是因为她遇到了真正的「心头好」——OpenAI 的 GPT 5.6 系列模型 [00:36 Alex Finn]。本集聚焦于这个新发布的模型家族，特别是其中的大杯版「Soul」与 Anthropic 的 Fable 之间的正面交锋。Alex 会先用一套自建的评测基准告诉你 GPT 5.6 Soul 在设计品味上如何胜出，接着深入实际工作场景对比两者的协作能力，最后分享三个 Soul 表现极其亮眼的杀手级用例。\n\n## 评测标准：拒绝「氛围感」，用 70/30 法则量化品味\n\n说完了核心看点，接下来是她具体是怎么测的。Alex 对那种凭直觉的「氛围感测试」感到厌倦，因此她建立了一套名为「How i ai」的评测基准 [04:22 Alex Finn]。这套基准会考察模型在编写 PRD（产品需求文档）、开发设计原型、调试代码以及像人类一样对话这四个高频场景的表现 [04:33 Alex Finn]。\n\n在评判结果时，她没有完全依赖机器，而是采用了 70% 个人品味与 30% 机器评分（使用 GPT 5.5 作为最严厉的裁判）的加权法则 [07:11 Alex Finn]。在这种强调实际视觉与交互体验的规则下，GPT 5.6 Soul 以极高的「设计品味」脱颖而出——它的品味得分远超其他模型，在盲测中经常产出 Alex 最喜欢的结果 [07:38 Alex Finn]。\n\n## 设计对决：Soul 的独特性与实用主义 vs Fable 的套路化\n\n评测方法理清了，那具体到产品原型设计上，两者表现如何呢？在构建复杂的仪表盘或应用原型时，Alex 发现 Soul 的设计不仅更独特，而且真正具备可用性。它不会像其他模型那样默认产出千篇一律的「暗色模式、等宽字体」布局，而是能给出干净的中性色彩布局和良好的视觉层级，且所有交互功能都能真正运转 [13:53 Alex Finn]。\n\n相比之下，Fable 虽然能产出可用的线框图，但往往设计缺乏独特性，颜色分配缺乏逻辑，阅读起来也更困难 [14:32 Alex Finn]。\n\n> 【背景】在这类 AI 辅助的开发中，大家常吐槽模型会生成一种名为「slop（垃圾话/套路货）」的内容——比如千篇一律的渐变色、毫无必要的破折号（em dash）或是廉价感满满的 emoji。Alex 对此深恶痛绝。\n\nAlex 特别指出，Soul 会有意识地避免落入这种俗套，虽然它有着极其偏爱「森林绿」的固执偏好（这可能被写在了它的系统提示词里），但它总能带着鲜明的「设计观点」去生成网页，给用户提供灵感 [16:09 Alex Finn]。\n\n## 协作鸿沟：「理论聪明」的 Fable 与「实际有效」的 Soul\n\n设计上的差异只是表象，工具变了，当真正让模型去干活时，人的感受成了决定性因素。Alex 对 Fable 最大的不满在于它的沟通方式：极其技术化、极其迂腐，就像一个从未见过人类的工程师在进行晦涩难懂的表达 [20:14 Alex Finn]。\n\n这种沟通上的挫败感，折射出两者更深层的差异。Alex 总结道：Fable 是「理论上极其聪明」，而 Soul 是「实际上极其有效」 [21:26 Alex Finn]。\n\n这种差异在处理复杂代码架构时尤为致命。在构建一个产品原型工具时，Fable 顽固地执行了一套高度僵化的架构，导致只能运行特定的 GPT 5.5 模型，其他所有开源模型都无法运行。Alex 坚持认为这不是模型的问题，要求调整，但 Fable 固执己见 [29:57 Alex Finn]。\n\n而当她切换到 Soul 并指示它「别再这么死板」时，Soul 能够跳出自己原先设下的思维局限，一次性就调整了架构并让所有模型顺利跑通 [30:35 Alex Finn]。这种愿意重新评估自身局限、适当放宽确定性约束以「把事情办成」的实用主义，让 Soul 成为产品研发过程中的得力助手。\n\n## 杀手级用例：视频剪辑与浏览器自动化\n\n除了常规的代码和原型开发，Soul 的能力边界在两个具体的实用场景中被彻底激发。第一个是视频剪辑。Alex 需要将一段冗长的演讲录像剪辑成适合社交媒体发布的短视频，她只需将文件拖入，提出「横竖屏、节奏更紧凑」等需求，Soul 就迅速帮她生成了多段精彩的短视频片段，极大地节省了人工寻找素材和剪辑的枯燥时间 [32:30 Alex Finn]。\n\n最令 Alex 感到震撼的，是 Soul 在结合 Codex（一种编程工具）进行浏览器操控时的表现。通过 `@chrome` 指令让模型接管已登录的网页，Soul 化身为不知疲倦的助理。Alex 让它去清理积压的 500 条 LinkedIn 消息，设定了极高的筛选标准，Soul 准确地回复了重要消息、向关注者表达了感谢，甚至还能用来测试网页应用和填写繁琐的表单 [34:09 Alex Finn]。一旦习惯了这种级别的自动化，再回退到旧模型时，Alex 直呼「我的生活变糟了」 [34:56 Alex Finn]。\n\n## 本集带走\n\n1. **实用主义胜过死板的精确**：在构建产品时，Fable 那种追求极致精确和僵化架构的思路往往会作茧自缚；而 Soul 懂得适当放宽约束，跳出固有思维，从而真正解决阻碍交付的复杂技术难题。\n2. **GPT 5.6 Soul 拥有碾压级的「设计品味」**：它不再产出千篇一律的套路化设计，而是带有鲜明的个人观点与审美偏好，输出的原型具备极高的可用性与视觉启发性。\n3. **浏览器自动化是终极杀手锏**：结合 `@chrome` 或 `@browser` 等指令，模型能够直接接管网页端的高价值重复性劳动（如处理消息、筛选信息、填写表单），这是目前最具革命性的效率提升方式。",
   "quotes": [
     {
-      "en": "gpt56 but guess what babes it is back and i am here to walk you through gpt56 soul gpt56 luna gpt56 tara",
-      "zh": "gpt56 但猜猜看宝贝们它回来了，我在这里带你体验 gpt56 soul、gpt56 luna、gpt56 tara",
-      "timestamp": "00:13",
-      "speaker": "Alex Finn"
-    },
-    {
-      "en": "soul is a lot more affordable than fable so it's five dollars per million input tokens thirty dollars per million output tokens",
-      "zh": "soul 比 fable 便宜得多，每百万输入 tokens 5 美元，每百万输出 tokens 30 美元",
-      "timestamp": "02:16",
-      "speaker": "Alex Finn"
-    },
-    {
-      "en": "i suspect this might put pressure on anthropic to put fable back into the cloud subscription",
-      "zh": "我怀疑这可能会给 anthropic 施压，将 fable 放回云订阅",
-      "timestamp": "03:14",
-      "speaker": "Alex Finn"
-    },
-    {
-      "en": "it is the brand new state-of-the-art model from open ai it is the highest performing when using the ultra mode on terminal bench 2.1",
-      "zh": "它是来自 open ai 的全新最先进的模型，当使用 ultra 模式时它在 terminal bench 2.1 上表现最高",
-      "timestamp": "03:29",
-      "speaker": "Alex Finn"
-    },
-    {
-      "en": "and i just have to say i really like gpt56 hole i know i spoiled at the beginning",
-      "zh": "我只想说我真的很喜欢 gpt56 开头我知道我在开始时就剧透了",
-      "timestamp": "08:01",
+      "en": "i've decided it's going to be a 70 claire vo 30 the machines split on evaluating these models",
+      "zh": "我已经决定，这将是一个 70% 个人品味、30% 机器的分配比例来评估这些模型。",
+      "timestamp": "07:27",
       "speaker": "Alex Finn"
     },
     {
       "en": "i hate talking to fable 5 because it talks to me like an engineer that has never met a human before it's like its first day on earth",
-      "zh": "我讨厌和 fable 5 说话，因为它跟我说话就像一个以前从未见过人类的工程师，这就像是它在地球上的第一天",
-      "timestamp": "08:27",
-      "speaker": "Alex Finn"
-    },
-    {
-      "en": "claude's design aesthetic tends to um this sort of like editorial design if you know if you've seen it you know it it's like that beige background that orange burnt orange color the italic serif fonts",
-      "zh": "claude 的设计美学倾向于……这种像编辑设计一样的东西，如果你知道，如果你见过它你就知道它，它就像那种米色背景，那种橙色焦橙色，那种斜体衬线字体",
-      "timestamp": "10:43",
-      "speaker": "Alex Finn"
-    },
-    {
-      "en": "i hate slop we all hate slop it's the worst it's the worst part of ai",
-      "zh": "我讨厌 slop，我们都讨厌 slop，这是最糟糕的，这是 AI 最糟糕的部分",
-      "timestamp": "13:02",
+      "zh": "我讨厌和 Fable 5 交谈，因为它和我说话就像一个从未见过人类的工程师，就像它在地球上的第一天。",
+      "timestamp": "08:29",
       "speaker": "Alex Finn"
     },
     {
       "en": "fable is theoretically hyper intelligent and soul is practically effective",
-      "zh": "fable 是理论上超级智能，而 soul 是实际有效",
+      "zh": "Fable 理论上超级智能，而 Soul 实际上有效。",
+      "timestamp": "21:23",
+      "speaker": "Alex Finn"
+    },
+    {
+      "en": "only gpt 5.5 would run like i could not get any other model to run",
+      "zh": "只有 GPT 5.5 能运行，我无法让任何其他模型运行。",
+      "timestamp": "29:59",
+      "speaker": "Alex Finn"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "i have been very very very sad the last week because for the last week i have not had access to my true favorite top of the line model gpt56",
+      "zh": "我过去这一周一直非常非常非常难过，因为过去这一周我一直没能使用我真正最喜欢的顶级模型 gpt56。",
+      "timestamp": "00:00",
+      "speaker": "Alex Finn"
+    },
+    {
+      "en": "soul which is the next generation frontier model the brainiest of the brainiest",
+      "zh": "Soul 是下一代前沿模型，是最聪明的中最聪明的。",
+      "timestamp": "01:24",
+      "speaker": "Alex Finn"
+    },
+    {
+      "en": "soul is a lot more affordable than fable so it's five dollars per million input tokens thirty dollars per million output tokens",
+      "zh": "Soul 比 Fable 便宜得多，每百万输入令牌五美元，每百万输出令牌三十美元。",
+      "timestamp": "02:16",
+      "speaker": "Alex Finn"
+    },
+    {
+      "en": "i've decided it's going to be a 70 claire vo 30 the machines split on evaluating these models",
+      "zh": "我已经决定，这将是一个 70% 个人品味、30% 机器的分配比例来评估这些模型。",
+      "timestamp": "07:27",
+      "speaker": "Alex Finn"
+    },
+    {
+      "en": "i hate talking to fable 5 because it talks to me like an engineer that has never met a human before it's like its first day on earth",
+      "zh": "我讨厌和 Fable 5 交谈，因为它和我说话就像一个从未见过人类的工程师，就像它在地球上的第一天。",
+      "timestamp": "08:27",
+      "speaker": "Alex Finn"
+    },
+    {
+      "en": "i just really preferred five six soul three out of five times five six four out of five times",
+      "zh": "我真的更偏好 Five Six Soul，五次里有三次，Five Six 四次。",
+      "timestamp": "10:31",
+      "speaker": "Alex Finn"
+    },
+    {
+      "en": "fable is theoretically hyper intelligent and soul is practically effective",
+      "zh": "Fable 理论上超级智能，而 Soul 实际上有效。",
       "timestamp": "21:21",
       "speaker": "Alex Finn"
     },
     {
       "en": "when i want to ship stuff to customers i need practical get the job done understand the end user goal understand the end user and like willing to loosen constraints appropriately to get things done",
-      "zh": "当我想把东西交付给客户时，我需要实用的、能把工作做完、理解终端用户目标、理解终端用户并且愿意适当地放松约束以完成任务的",
-      "timestamp": "21:45",
+      "zh": "当我想为客户交付东西时，我需要实用的、能把工作做完的、理解最终用户目标的、理解最终用户的，并且愿意适当放松约束以完成工作。",
+      "timestamp": "21:49",
       "speaker": "Alex Finn"
     },
     {
-      "en": "i'm taking an open claw generated prd dropping it into codex and gpt56 soul and generating something",
-      "zh": "我正在拿一个 open claw 生成的 prd 把它扔进 codex 和 gpt56 soul 并生成一些东西",
-      "timestamp": "24:30",
-      "speaker": "Alex Finn"
-    },
-    {
-      "en": "only gpt 5.5 would run like i could not get any other model to run and i ran eval after eval after eval open weight sonnet opus all of these could not get anything but gpt 5.5 to run",
-      "zh": "只有 GPT 5.5 会运行，我不能让任何其他模型运行，我跑了评估又跑评估又跑评估，开源权重 Sonnet Opus 所有这些都不能让除了 GPT 5.5 以外的任何东西运行",
+      "en": "only gpt 5.5 would run like i could not get any other model to run",
+      "zh": "只有 GPT 5.5 能运行，我无法让任何其他模型运行。",
       "timestamp": "29:58",
       "speaker": "Alex Finn"
     },
     {
-      "en": "it went through and burned through probably 500 messages it replied to people that i needed to reply to and said thank you to people who said nice things about the podcast",
-      "zh": "它处理完可能消耗了 500 条消息，它回复了那些我需要回复的人，并向那些说了关于播客的好听话的人说了谢谢",
+      "en": "and once i've told gbt 5.6 and codex like stop being pedantic i ended up getting these really useful and helpful wiki pages",
+      "zh": "一旦我告诉 GBT 5.6 和 Codex 停止变得迂腐，我最终得到了这些真正有用和有帮助的 Wiki 页面。",
+      "timestamp": "31:26",
+      "speaker": "Alex Finn"
+    },
+    {
+      "en": "it went through and burned through probably 500 messages",
+      "zh": "它执行并处理了大概 500 条消息。",
       "timestamp": "34:29",
       "speaker": "Alex Finn"
     },
     {
       "en": "browser use and five six and when i got rolled back to five five my life was worse",
-      "zh": "浏览器的使用以及 5.6，当我回滚到 5.5 时我的生活变得更糟了",
+      "zh": "浏览器使用和 5.6 版，当我被回滚到 5.5 版时我的生活变糟了。",
       "timestamp": "34:51",
-      "speaker": "Alex Finn"
-    },
-    {
-      "en": "i'm gonna have to take a break",
-      "zh": "我将不得不休息一下",
-      "timestamp": "31:57",
       "speaker": "Alex Finn"
     }
   ]

@@ -145,9 +145,9 @@ Jenny 描述了一个非常特别的日常状态:她每天会花相当一部分�
 
 **顺着「产品方法」挖下去**
 
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南]] —— 同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:研究预览版 (research preview)
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经]] —— 同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:Claude
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性]] —— 同嘉宾:Lenny · 同公司:Figma、Anthropic
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要]] —— 同嘉宾:Lenny · 同概念:智能体 (agents)
 
 </div>
 <div class="pd-ex">
@@ -155,8 +155,8 @@ Jenny 描述了一个非常特别的日常状态:她每天会花相当一部分�
 **换个口味**
 
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构]] —— 同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:IC
+- [[2026-05-31-lennys-a-rational-conversation-on-where|Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱]] —— 同嘉宾:Lenny · 同公司:Anthropic、Claude Code
 - [[2025-12-07-lennys-surge-ai-edwin-chen|Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同嘉宾:Lenny · 同公司:Claude Code、Anthropic
 
 </div>
 </div>

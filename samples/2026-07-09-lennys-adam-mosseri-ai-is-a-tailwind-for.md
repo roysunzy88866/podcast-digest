@@ -188,7 +188,7 @@ Adam 宁愿每隔几年经历一次这样的反噬，也要坚持进化，也不
 
 - [[2025-12-07-lennys-surge-ai-edwin-chen|Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理]] —— 同公司:anthropic · 同概念:vibe coding
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性]] —— 同公司:anthropic · 同概念:品味 (taste)
-- [[2026-03-01-lennys-the-design-process-is-dead|The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)]] —— 同公司:anthropic
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当代码不再是瓶颈,品味和策展成为产品团队的稀缺力]] —— 同概念:品味 (taste)、vibe coding
 
 </div>
 </div>

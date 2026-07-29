@@ -1,0 +1,854 @@
+{
+  "episode_id": "2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-07-28",
+  "tags": [
+    "智能体编程",
+    "模型能力挖掘",
+    "任务编排",
+    "AI 安全",
+    "实证心态"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "boris-cherny",
+      "type": "person",
+      "role": "host",
+      "name": "Boris Cherny",
+      "file": "Boris Cherny",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "cloud-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Cloud Code",
+      "file": "Cloud Code",
+      "primary": true,
+      "how_described": "本集把它说成:给 Claude 完整终端权限的智能体编程工具。主持人/嘉宾透露,随 Opus 5 发布,他们删除了其中 80% 的系统提示,让模型直接自主运行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            7.608,
+            13.833
+          ],
+          "quote": "All right, Boris, we're so excited to have you here, the creator of Cloud Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            233.73,
+            239.594
+          ],
+          "quote": "You actually deleted over 80% of the system prompt from Cloud Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            240.855,
+            248.96
+          ],
+          "quote": "I think something that a lot of people might not realize is Cloud Code as a product and as a harness is just always changing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            299.428,
+            305.192
+          ],
+          "quote": "So when you run Cloud Code, you can just do like dash dash system prompt and set whatever system prompt you want if you want to experiment with it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            406.308,
+            413.457
+          ],
+          "quote": "If you look at actually the code that's in the Cloud Code harness today, almost all of it is about safety and permissions and static analysis.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            438.15,
+            444.092
+          ],
+          "quote": "Yeah, and for people that aren't building agentic products but you're using Cloud Code, every six months, delete your CloudMD.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 154,
+          "t": [
+            749.227,
+            751.489
+          ],
+          "quote": "One example of this was the original cloud code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 180,
+          "t": [
+            861.126,
+            871.989
+          ],
+          "quote": "Basically, all of you could create the next Cloud Code if you figure out how to unhobble the models because that's effectively the birth story of Cloud Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            921.112,
+            929.718
+          ],
+          "quote": "I think a really common mistake that I see is people are using Cloud Code, they're using Cloud, and they just give it way overly specific instructions.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 206,
+          "t": [
+            984.383,
+            989.664
+          ],
+          "quote": "So one example of this is Cloud Code is built on the Bunn JavaScript runtime.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1548.373,
+            1552.195
+          ],
+          "quote": "To use dynamic workflows, it's a fairly new feature in Cloud Code.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "opus-5",
+      "type": "concept",
+      "role": "concept",
+      "name": "Opus 5",
+      "file": "Opus 5",
+      "primary": true,
+      "how_described": "本集把它说成:Anthropic 刚刚发布的新一代大模型。它把 ARC AGI 3 的成绩做到了 30%,不需要外部脚手架就能自主连续运行数周或数月,且结合多层分类器克服了提示词注入问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            21.078,
+            26.122
+          ],
+          "quote": "Fresh off the press, you guys just shipped Opus 5 yesterday.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            49.354,
+            54.216
+          ],
+          "quote": "What can Opus 5 do now that it couldn't versus the previous version?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            94.861,
+            99.662
+          ],
+          "quote": "And especially when you combine Opus 5 with Auto Mode, it's just incredible.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            162.824,
+            165.225
+          ],
+          "quote": "But Opus 5 just hits like a new frontier on this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 43,
+          "t": [
+            215.085,
+            221.692
+          ],
+          "quote": "So if anyone in this room prompt injects CLAW Opus 5, you'll get a special prize for Boris, maybe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            276.453,
+            280.676
+          ],
+          "quote": "And so one thing about Opus 5 is it's just really intelligent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 56,
+          "t": [
+            289.602,
+            290.902
+          ],
+          "quote": "Now Opus 5 just does it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 89,
+          "t": [
+            450.607,
+            462.142
+          ],
+          "quote": "And actually for Opus 5, this is something we really do recommend is just try deleting all of these things because the model might really just not need all those instructions that you needed for past models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 90,
+          "t": [
+            462.676,
+            474.279
+          ],
+          "quote": "Let's talk a bit about how then you build this new prompt when there's a new model release, like for everyone in the room, everyone will want to try Opus 5 and they're gonna press delete on their system prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1051.321,
+            1053.242
+          ],
+          "quote": "And so I think Opus 5 could do it as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1148.84,
+            1157.206
+          ],
+          "quote": "So something that's actually been really popular internally that's been kind of viral within Anthropic the last couple weeks is someone figured out that you can give Opus 5 OpenCV.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 444,
+          "t": [
+            1881.703,
+            1885.725
+          ],
+          "quote": "Like Opus 5 was a big leap in vision and computer use, but it's still not perfect.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:可以通过动态工作流和云端例程,成百上千个并行或串行执行的模型实例。它们每天承担繁重代码维护工作,相当于几十上百名工程师的产出。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            135.85,
+            140.413
+          ],
+          "quote": "And this really affects kind of harness design and agent design and product design.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            787.729,
+            790.81
+          ],
+          "quote": "So you can talk to the agent, but it wasn't write access.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1572.054,
+            1573.675
+          ],
+          "quote": "And it doesn't just do one agent.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "prompt-injection",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词注入 (prompt injection)",
+      "file": "提示词注入",
+      "primary": true,
+      "how_described": "本集把它说成:指恶意指令藏在文本中诱导模型执行危险操作。结合三年的对齐研究、流量分类器与 Auto Mode 分类器,Opus 5 已经克服了这一长期困扰行业的致命三重奏问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 34,
+          "t": [
+            165.765,
+            180.272
+          ],
+          "quote": "So essentially if you combine a well-aligned model, so this is like essentially three years of research into alignment, with a prompt injection classifier, which we run for all traffic, and what this is doing is it's based on Chrysola's mechanistic interpretability work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 35,
+          "t": [
+            180.819,
+            186.906
+          ],
+          "quote": "where it's literally, we're looking at neurons in the model's brain that light up when prompt injection happens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            199.049,
+            201.291
+          ],
+          "quote": "we just cannot demonstrate prompt injection anymore.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 44,
+          "t": [
+            223.364,
+            230.288
+          ],
+          "quote": "Now talking about a prompt injection, the other side of the coin is now the system prompt.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "system-prompt",
+      "type": "concept",
+      "role": "concept",
+      "name": "系统提示 (system prompt)",
+      "file": "系统提示",
+      "primary": true,
+      "how_described": "本集把它说成:过去为了纠正模型缺陷而堆砌的指令。因为 Opus 5 本身已足够聪明,他们通过消融方法删掉了 Claude Code 中超过 80% 的系统提示,发现没有这些束缚反而让模型更聪明。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            223.364,
+            230.288
+          ],
+          "quote": "Now talking about a prompt injection, the other side of the coin is now the system prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 46,
+          "t": [
+            233.73,
+            239.594
+          ],
+          "quote": "You actually deleted over 80% of the system prompt from Cloud Code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            253.455,
+            263.424
+          ],
+          "quote": "Every time that a new model comes out, we delete a bunch of the system prompt, change a bunch of the system prompt, we change the set of tools all the time, we change the prompts for the tools all the time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            281.416,
+            288.421
+          ],
+          "quote": "And a lot of the stuff in the system prompt was correcting for these behaviors that the model should have known, but it didn't.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 57,
+          "t": [
+            291.963,
+            294.725
+          ],
+          "quote": "So yeah, we deleted 80% of the system prompt.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            299.428,
+            305.192
+          ],
+          "quote": "So when you run Cloud Code, you can just do like dash dash system prompt and set whatever system prompt you want if you want to experiment with it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            384.072,
+            391.094
+          ],
+          "quote": "And so what this means is you delete the entire system prompt, and then you bring it back line by line to figure out what is the impact of each individual line.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 90,
+          "t": [
+            462.676,
+            474.279
+          ],
+          "quote": "Let's talk a bit about how then you build this new prompt when there's a new model release, like for everyone in the room, everyone will want to try Opus 5 and they're gonna press delete on their system prompt.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            474.459,
+            478.26
+          ],
+          "quote": "How do they go about rebuilding the system prompt?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            603.829,
+            611.496
+          ],
+          "quote": "So code and system prompt, if you want to build at the bleeding edge and have the most capability for models, you've got to delete those.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "product-overhang",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品冗余 (product overhang)",
+      "file": "产品冗余",
+      "primary": true,
+      "how_described": "本集把它说成:模型在今天就已经具备了超乎想象的能力,但往往没有合适的产品让它发挥出来,甚至现有的产品/死板指令反而成了阻碍(束缚),错失了大量商业价值与机会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            683.012,
+            685.653
+          ],
+          "quote": "And it's called product overhang.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 152,
+          "t": [
+            742.242,
+            746.445
+          ],
+          "quote": "And then not eliciting the correct behavior from the model, we call this product overhang.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 175,
+          "t": [
+            830,
+            831.42
+          ],
+          "quote": "That was the product overhang of the time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 177,
+          "t": [
+            836.242,
+            843.364
+          ],
+          "quote": "I think that nowadays, with modern models, there is so much product overhang that I'm not seeing startups capture.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 187,
+          "t": [
+            905.361,
+            908.203
+          ],
+          "quote": "Cloud and fixing this product overhang?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1120.573,
+            1122.936
+          ],
+          "quote": "I would give a second example of product overhang.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dynamic-workflows",
+      "type": "concept",
+      "role": "concept",
+      "name": "动态工作流 (dynamic workflows)",
+      "file": "动态工作流",
+      "primary": true,
+      "how_described": "本集把它说成:Claude Code 中一项较新的功能,只需说一句使用工作流,它就会在 Bun 运行时的沙箱内启动虚拟机,让模型像代数一样编排成百上千个智能体按顺序或并行工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 232,
+          "t": [
+            1073.973,
+            1081.136
+          ],
+          "quote": "And a dynamic workflows are a feature in quad code that essentially let you orchestrate dozens, hundreds, thousands of agents to do work productively.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1544.772,
+            1547.693
+          ],
+          "quote": "The easiest way is dynamic workflows.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1548.373,
+            1552.195
+          ],
+          "quote": "To use dynamic workflows, it's a fairly new feature in Cloud Code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1663.476,
+            1668.72
+          ],
+          "quote": "And now dynamic workflows are essentially a new way to orchestrate test time compute.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "test-time-compute",
+      "type": "concept",
+      "role": "concept",
+      "name": "测试时计算 (test time compute)",
+      "file": "测试时计算",
+      "primary": true,
+      "how_described": "本集把它说成:指模型在生成最终答案前用于思考和推理的计算资源。动态工作流本质上被视作一种全新的测试时计算形式,通过编排大量智能体来完成极其困难的任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 387,
+          "t": [
+            1638.941,
+            1641.663
+          ],
+          "quote": "This is actually a new form of test time compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1655.189,
+            1657.771
+          ],
+          "quote": "And then recently we also added test time compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1663.476,
+            1668.72
+          ],
+          "quote": "And now dynamic workflows are essentially a new way to orchestrate test time compute.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1669.32,
+            1675.045
+          ],
+          "quote": "And it's a new way to kind of really, really ramp up the amount of test time compute that you use to do a really hard task.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "ablation",
+      "type": "concept",
+      "role": "concept",
+      "name": "消融 (ablation)",
+      "file": "消融",
+      "primary": true,
+      "how_described": "本集把它说成:研究中逐个删减组件以测试其影响的方法。他们通过删掉整个系统提示然后逐行加回来测试每一行的影响,发现没有那些过期的提示模型反而更聪明。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            322.124,
+            327.165
+          ],
+          "quote": "And we actually use this as a sort of ablation to figure out, is the prompt useful?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 74,
+          "t": [
+            379.111,
+            383.532
+          ],
+          "quote": "So every time there's a new model, we try, in research, we call this ablation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            392.094,
+            399.116
+          ],
+          "quote": "It's sort of like an eval, and you can kind of evaluate it, and ablation essentially, it's an eval, but you delete things to figure out the impact.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "routines",
+      "type": "concept",
+      "role": "concept",
+      "name": "例程 (routines)",
+      "file": "例程",
+      "primary": true,
+      "how_described": "本集把它说成:运行在云端、即使合上笔记本也会持续执行的重复性任务。Anthropic 每天运行 20 到 30 个这样的例程(如清理死代码、抽象警察)来维护 Claude Code 自己的代码库。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 395,
+          "t": [
+            1682.946,
+            1685.69
+          ],
+          "quote": "A second way to do it is loops and routines.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1701.844,
+            1707.087
+          ],
+          "quote": "For loops and routines, it's one task that is repetitive that doesn't share context, but it might share memory.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1718.819,
+            1726.301
+          ],
+          "quote": "And the way we do this is we have a Slack channel where we just had Cloud start a bunch of different routines to maintain its own code base.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 426,
+          "t": [
+            1802.329,
+            1805.609
+          ],
+          "quote": "And so now we have every day, maybe 20 or 30 of these routines.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "empirical",
+      "type": "concept",
+      "role": "concept",
+      "name": "实证心态 (empirical)",
+      "file": "实证心态",
+      "primary": true,
+      "how_described": "本集把它说成:在 AI 编码时代区分顶尖构建者的关键心态。要忘掉过去的计算机科学理论与对旧模型的固有认知,像对待活生生的同事那样,尝试给模型太难的任务并观察它在哪里卡壳。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            575.599,
+            579.643
+          ],
+          "quote": "And I think it's just very much like an empirical and kind of scientific thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            643.422,
+            645.043
+          ],
+          "quote": "And again, it's about being empirical.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 455,
+          "t": [
+            1924.011,
+            1925.993
+          ],
+          "quote": "And it's really about being empirical.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 459,
+          "t": [
+            1942.761,
+            1948.363
+          ],
+          "quote": "So it's just like very much become, it's not a theoretical science, it's become an empirical science.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "verification",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证 (verification)",
+      "file": "验证",
+      "primary": true,
+      "how_described": "本集把它说成:放手让模型做长周期任务时单一最重要的环节。需要让模型有能力沿途验证自身的工作输出,比如通过在虚拟机里运行旧版截图对比,这样它就不会卡住并持续运行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 283,
+          "t": [
+            1251.351,
+            1256.633
+          ],
+          "quote": "And the verification, I think, is probably the single most important thing that people do not get right, largely.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 442,
+          "t": [
+            1875.739,
+            1879.781
+          ],
+          "quote": "There's really kind of in the weeds UI verification, like something is off by pixel or something.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bunn",
+      "type": "concept",
+      "role": "concept",
+      "name": "Bunn",
+      "file": "Bunn",
+      "primary": true,
+      "how_described": "本集把它说成:Claude Code 所基于的开源 JavaScript 运行时。它原本是用 Zig 编写的,后来团队让 Claude 利用动态工作流在 11 天内将其整个超 10 万行代码库从 Zig 重写为了 Rust。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 206,
+          "t": [
+            984.383,
+            989.664
+          ],
+          "quote": "So one example of this is Cloud Code is built on the Bunn JavaScript runtime.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 210,
+          "t": [
+            995.206,
+            996.246
+          ],
+          "quote": "Bunn was written in Zig.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1058.443,
+            1060.964
+          ],
+          "quote": "The nice thing about Bunn is it's very, very well tested.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1060.984,
+            1062.145
+          ],
+          "quote": "There's a big test suite in Bunn.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集把它说成:用于让 Claude Code 启动虚拟机并编排大量智能体的安全隔离执行环境(以 Bun 运行时作为沙箱)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 371,
+          "t": [
+            1563.979,
+            1565.68
+          ],
+          "quote": "We use Bun as a sandbox.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 385,
+          "t": [
+            1623.487,
+            1632.996
+          ],
+          "quote": "And Cloud has different tools in order to orchestrate these agents inside of the sandbox to use tokens efficiently to do really, really complex work.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

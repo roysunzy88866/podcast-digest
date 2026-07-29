@@ -171,17 +171,17 @@ Mark 指出，回顾互联网历史，真正伟大的社交网络其实都在提
 **顺着「产品方法」挖下去**
 
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
 - [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要]] —— 同嘉宾:Lenny · 同概念:消费者分发 (distribution)
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
+- [[2026-05-31-lennys-a-rational-conversation-on-where|Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱]] —— 同嘉宾:Lenny · 同公司:OpenAI · 同概念:消费者分发 (distribution)
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当代码不再是瓶颈,品味和策展成为产品团队的稀缺力]] —— 同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
-- [[2025-12-28-lennys-10-contrarian-leadership-truths|Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷]] —— 同嘉宾:Lenny · 同概念:产品市场契合度 (product market fit)
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
 
 </div>
 </div>

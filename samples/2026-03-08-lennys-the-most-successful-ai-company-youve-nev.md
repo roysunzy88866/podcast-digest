@@ -148,9 +148,9 @@ Applied Intuition 一直非常低调，直到最近才「出道」发声。Qasar
 
 **换个口味**
 
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当代码不再是瓶颈,品味和策展成为产品团队的稀缺力]] —— 同公司:OpenAI · 同概念:ChatGPT、智能体 (agent)
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同公司:OpenAI · 同概念:智能体 (agent)、ChatGPT
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同公司:Lovable · 同概念:智能体 (agent)
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得]] —— 同概念:智能体 (agent)、ChatGPT
 
 </div>
 </div>

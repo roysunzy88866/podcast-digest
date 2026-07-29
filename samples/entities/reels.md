@@ -23,7 +23,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Adam Mosseri]] · [[instagram]] · [[TikTok]] · [[Anthropic]] · [[pods]] · [[产品人员]] · [[news feed]] · [[嵌入模型]] · [[探索性排名]]
+[[Lenny]] · [[Adam Mosseri]] · [[instagram]] · [[TikTok]] · [[Anthropic]] · [[open ai]] · [[pods]] · [[产品人员]] · [[news feed]] · [[嵌入模型]]
 
 <script>
 (function(){

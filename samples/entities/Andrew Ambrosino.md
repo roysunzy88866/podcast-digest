@@ -1,29 +1,43 @@
 ---
-title: Co-Work
-entity_type: 概念
+title: Andrew Ambrosino
+entity_type: 人物
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Co-Work</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Andrew Ambrosino</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Co-Work">CO</div><div class="pi"><h1 class="pt">Co-Work</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Andrew Ambrosino">AN</div><div class="pi"><h1 class="pt">Andrew Ambrosino</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
-## 集里怎么说它
+## ① 他说过的话
 
-- **[[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]]**(08:59起):Fiona 团队构建的日常知识工作智能体；本集中提到它能高效处理开发票、报销等繁杂事务，甚至被小企业主用于找菜单和竞品分析。
+*7 条,均已过机器闸门*
+
+![[2026-06-28-lennys-openai-codex-lead-on-the-new-shape#^q1]]
+
+![[2026-06-28-lennys-openai-codex-lead-on-the-new-shape#^q2]]
+
+![[2026-06-28-lennys-openai-codex-lead-on-the-new-shape#^q3]]
+
+![[2026-06-28-lennys-openai-codex-lead-on-the-new-shape#^q4]]
+
+![[2026-06-28-lennys-openai-codex-lead-on-the-new-shape#^q5]]
+
+![[2026-06-28-lennys-openai-codex-lead-on-the-new-shape#^q6]]
+
+![[2026-06-28-lennys-openai-codex-lead-on-the-new-shape#^q7]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] — 作为概念
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当代码不再是瓶颈,品味和策展成为产品团队的稀缺力》]] — 作为主持
 
-## ③ 关联
+## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Fiona Fung]] · [[Anthropic]] · [[Claude Code]] · [[智能体]] · [[验证]] · [[测试驱动开发]] · [[潜在需求]] · [[结对编程]] · [[Visual Studio]]
+[[Lenny]] · [[Codex]] · [[OpenAI]] · [[ChatGPT]] · [[Linear]] · [[智能体]] · [[品味]] · [[原型]] · [[主观能动性]] · [[策展]]
 
 <script>
 (function(){

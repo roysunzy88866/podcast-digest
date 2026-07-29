@@ -157,7 +157,7 @@ Peter 觉得这极其迷人,于是和自己的智能体一起创建了 SOL MD,�
 
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切]] —— 同公司:Claude Code、Codex · 同概念:CLI、OpenClaw、智能体 (agent)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同公司:Claude Code、Codex · 同概念:智能体 (agent)
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品]] —— 同公司:Claude Code · 同概念:智能体 (agent)、OpenClaw
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当代码不再是瓶颈,品味和策展成为产品团队的稀缺力]] —— 同公司:Codex、ChatGPT · 同概念:智能体 (agent)
 
 </div>
 </div>

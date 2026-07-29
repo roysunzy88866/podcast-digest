@@ -6,6 +6,7 @@ source_url: undefined
 duration: "48:39"
 type: episode
 cover: "#64748b"
+image: "/covers/2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto.jpg"
 description: 前 OpenAI VP Jerry 与前 Gemini 预训练负责人 Rohan 创办 Core Automation，直言 Transformer 架构已见顶，致力于打造能在真实世界中持续学习的新架构。
 host: "[[Sonja]]"
 guests: ["[[Rohan Anil]]"]
@@ -138,8 +139,8 @@ Rohan 分享了他们和 GPU mode 社区一起举办的“QR kernel 竞赛”。
 **顺着「创业与行业」挖下去**
 
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 悬崖边？数据中心次级债与 SpaceX 缩水]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
+- [[2026-05-31-lennys-a-rational-conversation-on-where|Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展]] —— 同公司:OpenAI · 同概念:AGI
-- [[2025-12-07-lennys-surge-ai-edwin-chen|Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理]] —— 同公司:Anthropic · 同概念:AGI
 
 </div>
 <div class="pd-ex">

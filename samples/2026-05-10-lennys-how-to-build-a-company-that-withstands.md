@@ -151,8 +151,8 @@ Eric 指出，Anthropic 拒绝发布危险模型、甚至据说拒绝了一份�
 **顺着「创业与行业」挖下去**
 
 - [[2025-12-07-lennys-surge-ai-edwin-chen|Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理]] —— 同嘉宾:Lenny · 同公司:Anthropic
+- [[2026-05-31-lennys-a-rational-conversation-on-where|Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱]] —— 同嘉宾:Lenny · 同公司:Anthropic
 - [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble]] —— 同嘉宾:Lenny
-- [[2025-11-20-lennys-slack-founder-stewart-butterfield|把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学]] —— 同嘉宾:Lenny
 
 </div>
 <div class="pd-ex">
@@ -161,7 +161,7 @@ Eric 指出，Anthropic 拒绝发布危险模型、甚至据说拒绝了一份�
 
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:公益公司 (Public Benefit Corporation)
 - [[2026-03-01-lennys-the-design-process-is-dead|The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同嘉宾:Lenny · 同公司:Anthropic
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南]] —— 同嘉宾:Lenny · 同公司:Anthropic
 
 </div>
 </div>

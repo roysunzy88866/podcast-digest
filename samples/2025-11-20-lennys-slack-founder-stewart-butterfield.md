@@ -141,8 +141,8 @@ Stewart 讲了 Slack 内部的一个真实案例。团队曾针对消息串的�
 **顺着「产品方法」挖下去**
 
 - [[2026-03-01-lennys-the-design-process-is-dead|The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)]] —— 同嘉宾:Lenny · 同公司:Slack
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南]] —— 同嘉宾:Lenny · 同公司:Slack
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴]] —— 同嘉宾:Lenny
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要]] —— 同嘉宾:Lenny
 
 </div>
 <div class="pd-ex">

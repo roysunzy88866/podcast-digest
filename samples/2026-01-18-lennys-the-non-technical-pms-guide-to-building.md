@@ -123,8 +123,8 @@ Zevi 在 Cursor 里构建了一套基于「[[斜杠命令|斜杠命令]]」（�
 **顺着「AI 编程」挖下去**
 
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切]] —— 同公司:Cursor · 同概念:Claude Code、Codex、智能体 (agent)
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当代码不再是瓶颈,品味和策展成为产品团队的稀缺力]] —— 同公司:Linear · 同概念:Codex、智能体 (agent)
 - [[2026-07-09-pg-pm-guide-ai-design|用 AI 武装技术型 PM：Codex 工作流全解析]] —— 同公司:Cursor · 同概念:Codex、智能体 (agent)
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构]] —— 同公司:Anthropic · 同概念:Claude Code、智能体 (agent)
 
 </div>
 <div class="pd-ex">
@@ -132,8 +132,8 @@ Zevi 在 Cursor 里构建了一套基于「[[斜杠命令|斜杠命令]]」（�
 **换个口味**
 
 - [[2026-singju-openclaw-80apps|OpenClaw创始人：为何80%的应用将消失]] —— 同概念:Claude Code、Codex、智能体 (agent)
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南]] —— 同公司:Anthropic · 同概念:Claude Code、智能体 (agent)
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得]] —— 同概念:Claude Code、智能体 (agent)
-- [[2026-07-28-pg-how-to-build-your-first-eval|评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估]] —— 同概念:智能体 (agent)、Claude Code、Codex
 
 </div>
 </div>
