@@ -126,6 +126,7 @@ jobs:
             node scripts/build-pages.mjs
             node scripts/build-list.mjs
             node scripts/build-tag-pages.mjs
+            node scripts/build-mustread.mjs
             node scripts/build-feed.mjs --out feed.xml
             node scripts/gate-all.mjs
           elif [ "$BACKFILL" -gt 0 ]; then

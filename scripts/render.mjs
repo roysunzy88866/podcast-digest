@@ -138,7 +138,7 @@ export function renderTopBar(meta) {
   return (
     `<div class="pd"><header class="pd-top"><div class="pd-topin">` +
     `<a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a>` +
-    `<nav class="pd-nav"><a href="/">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav>` +
+    `<nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav>` +
     `<a class="pd-back" href="/">← 返回</a>` +
     `<a class="pd-mtitle" href="/">←<span>${displayTitle(meta)}</span></a>` +
     `<div class="pd-acts"></div>` +

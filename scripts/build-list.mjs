@@ -223,16 +223,17 @@ function mobileHome(episodes, catsOf, vocabulary) {
   // 检索本身转发给 Quartz 的搜索(复用它的中文索引,见 scriptBlock 的 wireSearch)。
   return `<div class="pd-mhome">
     <div class="mhs"><input class="mhq" type="search" autocomplete="off" placeholder="搜标题 / 金句 / 正文 / 人名" aria-label="搜索标题、金句、正文、人名"></div>
-    <div class="mhv"><span class="on">最新</span><span class="soon">最热</span></div>
+    <div class="mhv"><span class="on">最新</span><a class="internal" href="./must-read">最热</a></div>
     <div class="mhc"><a class="internal" href="./">全部<i>${episodes.length}</i></a>${chips}</div>
   </div>`;
 }
 
-/** 顶栏。「最热」= 必读页,归 C13c 才生成 → 本片先出不可点的占位,不留死链。
+/** 顶栏。「最热」= 必读页(C13c,build-mustread.mjs 每次构建自算)。
+ *  active 决定哪个 nav 高亮(设计稿 must-read.html 顶栏是 最热 带 cur);
  *  右侧 .pd-acts 是空槽,由脚本把 Quartz 的搜索/深浅色/阅读模式搬进来(见 scriptBlock)。 */
-const topBar = () => `<header class="pd-top"><div class="pd-topin">
+export const topBar = (active = "home") => `<header class="pd-top"><div class="pd-topin">
     <a class="b" href="./"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a>
-    <nav class="pd-nav"><a class="cur" href="./">最新</a><span class="soon" title="必读页归 C13c">最热</span></nav>
+    <nav class="pd-nav"><a${active === "home" ? ' class="cur"' : ' class="internal"'} href="./">最新</a><a${active === "mustread" ? ' class="cur internal"' : ' class="internal"'} href="./must-read">最热</a></nav>
     <div class="pd-acts"></div>
   </div></header>`;
 
@@ -312,7 +313,7 @@ ${scriptBlock()}
  */
 const squashBlankLines = (s) => s.replace(/\n\s*\n/g, "\n");
 
-const scriptBlock = () => squashBlankLines(`<script>
+export const scriptBlock = () => squashBlankLines(`<script>
 (function(){
   // 把 Quartz 侧栏里的搜索/深浅色/阅读模式搬进顶栏,再由 custom.scss 藏掉空壳侧栏。
   // 搬节点而不是重写一套:这三个组件的行为(搜索索引、主题记忆)全在 Quartz 自己手里,

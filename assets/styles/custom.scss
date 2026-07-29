@@ -109,6 +109,7 @@ body[data-slug^="tags/"] {
 }
 
 body[data-slug="index"],
+body[data-slug="must-read"],
 body[data-slug^="tags/"] {
   /* Quartz 的 #quartz-body 是「左栏 / 中 / 右栏」三列具名栅格(quartz/styles/variables.scss
      $desktopGrid)。首页要自己的三栏,所以把框架栅格压成单列、两侧栏整块藏掉。
@@ -976,6 +977,16 @@ body:has(.pd-play) article h2 {
   font-size: 20px;
   line-height: 1.45;
 }
+
+/* ── C13c 必读页(设计稿 must-read.html:.mrtop/.mrh/.grid 照抄,加 pd- 前缀)── */
+.pd .pd-mrtop { padding: 24px 0 4px; border-bottom: 1px solid var(--B2); }
+.pd .pd-mrtop h1.pt { font-family: var(--puhui); font-size: 26px; margin: 0 0 8px; }
+.pd .pd-mrtop p { font-size: 13.5px; color: var(--B6); line-height: 1.9; margin: 0 0 18px; max-width: 540px; }
+.pd .pd-mrh { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin: 30px 0 -8px; padding-bottom: 10px; }
+.pd .pd-mrh b { font-family: var(--puhui); font-size: 17px; font-weight: 600; letter-spacing: 0.2px; }
+.pd .pd-mrh span { font-size: 11.5px; color: var(--B5); line-height: 1.6; }
+.pd .grid { display: grid; grid-template-columns: 1fr; gap: 0; align-items: stretch; }
+.pd .grid > .card:last-child { border-bottom: none; }
 
 /* ── 金句区(设计稿 .qr)──
    ⚠️ **只改外观,不动结构**:金句那三行必须留在一个 blockquote 里,^块ID 才能覆盖整条
