@@ -20,6 +20,7 @@ import {
   buildEntities,
   validateExtract,
   parseGlossaryPins,
+  extractWithRetry,
 } from "../scripts/extract-entities.mjs";
 
 // ── fixture:2 说话人、逐词时间戳(镜像真数据结构)──
@@ -376,6 +377,86 @@ describe("validateExtract · 结构校验(重试循环要用)", () => {
     expect(validateExtract({ ...ok, entities: [{ name_zh: "Modal" }] }).length).toBeGreaterThan(0);
     expect(validateExtract({ tags: ["a", "b", "c"] }).length).toBeGreaterThan(0);
     expect(validateExtract(null).length).toBeGreaterThan(0);
+  });
+});
+
+describe("extractWithRetry · 重试回喂校验错误原话(C12 nudge 先例平移,2026-07-30)", () => {
+  // 病根(Jensen 集实证):重试每次发一模一样的 prompt,低温度下四次同答案 = 确定性死循环。
+  // 修法:照 extract-guest 的 nudge——重试时把 validateExtract 的 errs 原话附到输入末尾;
+  // 系统提示词/正文/校验口径一字不改(不是放水,是给模型改错的机会)。
+  const OK_OUT = {
+    tags: ["a", "b", "c"],
+    categories: ["智能体"],
+    entities: [{ name_zh: "Modal", name_en: "Modal", type: "company", role: "company", primary: true, how_described: "x" }],
+  };
+  const BAD_TAGS = { ...OK_OUT, tags: ["a", "b"] }; // validateExtract → 「tags 必须 3-5 个」(Jensen 死因原话)
+  const SYS = "SYS-PROMPT";
+  const INPUT = "INPUT-RAW";
+  const silent = { log: () => {}, warn: () => {} };
+
+  it("★ (a) 第一次调用无 nudge:system 与输入都与裸串逐字一致", async () => {
+    const calls: { sys: string; input: string }[] = [];
+    const ask = async (sys: string, input: string) => (calls.push({ sys, input }), JSON.stringify(OK_OUT));
+    await extractWithRetry({ sys: SYS, input: INPUT, ask, ...silent });
+    expect(calls.length).toBe(1);
+    expect(calls[0].sys).toBe(SYS);
+    expect(calls[0].input).toBe(INPUT); // 逐字一致,不带任何 nudge
+  });
+
+  it("★ (b) 重试时输入 = 裸正文 + nudge,nudge 含上一次 errs 原话;SYS 一字不改", async () => {
+    const calls: { sys: string; input: string }[] = [];
+    let n = 0;
+    const ask = async (sys: string, input: string) => (calls.push({ sys, input }), JSON.stringify(n++ === 0 ? BAD_TAGS : OK_OUT));
+    const out = await extractWithRetry({ sys: SYS, input: INPUT, ask, ...silent });
+    expect(calls.length).toBe(2);
+    expect(calls[1].sys).toBe(SYS); // 系统提示词一字不改
+    expect(calls[1].input.startsWith(INPUT)).toBe(true); // 正文原样在前,nudge 只附在末尾
+    expect(calls[1].input).toContain("tags 必须 3-5 个"); // 机器闸门打回原因**原话**
+    expect(calls[1].input).toContain("机器闸门打回"); // C12 款式
+    expect(out).toEqual(OK_OUT); // 回喂后救回来了
+  });
+
+  it("非合法 JSON 也回喂原话(C12 同款:提醒只输出那一个 JSON 对象)", async () => {
+    const calls: string[] = [];
+    let n = 0;
+    const ask = async (_s: string, input: string) => (calls.push(input), n++ === 0 ? "我不是 JSON" : JSON.stringify(OK_OUT));
+    await extractWithRetry({ sys: SYS, input: INPUT, ask, ...silent });
+    expect(calls[1]).toContain("非合法 JSON");
+  });
+
+  it("★ (c) 首次即合格:只调一次、saveGood 收到原始 raw、saveBad 不被碰(链路与现在逐字一致)", async () => {
+    const raw = JSON.stringify(OK_OUT);
+    let good: string | null = null;
+    let badCalls = 0;
+    const out = await extractWithRetry({
+      sys: SYS,
+      input: INPUT,
+      ask: async () => raw,
+      saveGood: (r: string) => (good = r),
+      saveBad: () => badCalls++,
+      ...silent,
+    });
+    expect(out).toEqual(OK_OUT);
+    expect(good).toBe(raw); // 好输出原样进缓存
+    expect(badCalls).toBe(0); // 不产生任何坏档,也没有 nudge 掺进链路
+  });
+
+  it("★ 连试 4 次(MAX_RETRY=3 现有次数不变)仍不合格 → 返回 null(main 据此 exit 1),坏输出每次都存档", async () => {
+    let asks = 0;
+    let bads = 0;
+    let goods = 0;
+    const out = await extractWithRetry({
+      sys: SYS,
+      input: INPUT,
+      ask: async () => (asks++, JSON.stringify(BAD_TAGS)),
+      saveGood: () => goods++,
+      saveBad: () => bads++,
+      ...silent,
+    });
+    expect(out).toBe(null); // 试满仍不合格 → 半成品态由 main 维持(exit 1)
+    expect(asks).toBe(4); // 1 + 3 重试,现有次数不变
+    expect(bads).toBe(4); // 坏输出照旧存 .entities-raw.bad.txt
+    expect(goods).toBe(0);
   });
 });
 
