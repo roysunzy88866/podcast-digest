@@ -52,4 +52,5 @@ GitHub Actions cron(非 Workers,ADR 0012/drift #21)定时轮询播客 RSS(源清
 | 界面长什么样(唯一设计真相)| **设计稿/**(先读 `设计稿/README.md`)|
 | 切片目录 + 状态 | docs/story-map.md |
 | 老问题裁决过没 | docs/drift-log.md |
+| 一次来好几件事,怎么分流派活 | **`.claude/agents/调度员.md`**(碰撞面实证 + 三条线 + 四道串行闸)|
 | 技术负债 | docs/tech-debt.md |
