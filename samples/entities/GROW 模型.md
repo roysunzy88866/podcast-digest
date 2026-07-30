@@ -11,7 +11,7 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2025-11-23-lennys-a-guide-to-difficult-conversations|《别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课》]]**(19:17起):本集将其描述为构建辅导提问的四个强力问题类别，代表目标、当前现实、选项和前进的道路。
+- **[[2025-11-23-lennys-a-guide-to-difficult-conversations|《别再当「答案机器」：高管教练Rachel Lockett的领导力实操课》]]**(19:17起):本集将其描述为构建辅导提问的四个强力问题类别，代表目标、当前现实、选项和前进的道路。
 
 ## ① 提到它的金句
 
@@ -23,7 +23,7 @@ unlisted: true
 
 *1 集*
 
-- [[2025-11-23-lennys-a-guide-to-difficult-conversations|《别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课》]] — 作为概念
+- [[2025-11-23-lennys-a-guide-to-difficult-conversations|《别再当「答案机器」：高管教练Rachel Lockett的领导力实操课》]] — 作为概念
 
 ## ③ 关联
 

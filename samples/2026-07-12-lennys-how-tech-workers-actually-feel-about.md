@@ -122,14 +122,14 @@ tags:
 
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]] —— 同嘉宾:Lenny · 同公司:Anthropic
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同嘉宾:Lenny
-- [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”]] —— 同嘉宾:Lenny
+- [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|把同事当幼儿带:育儿专家的职场领导力课]] —— 同嘉宾:Lenny
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2025-11-23-lennys-a-guide-to-difficult-conversations|别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课]] —— 同嘉宾:Lenny · 同概念:职业倦怠 (burnout)
+- [[2025-11-23-lennys-a-guide-to-difficult-conversations|别再当「答案机器」：高管教练Rachel Lockett的领导力实操课]] —— 同嘉宾:Lenny · 同概念:职业倦怠 (burnout)
 - [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|Keith Rabois：别招大厂高管，别做客户调研]] —— 同嘉宾:Lenny · 同公司:Airbnb、Ramp
 - [[2025-12-07-lennys-surge-ai-edwin-chen|10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来]] —— 同嘉宾:Lenny · 同公司:Anthropic
 

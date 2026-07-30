@@ -7,14 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Codex</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">概念</div><div class="nums">本站收录 <b>9</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">概念</div><div class="nums">本站收录 <b>9</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]]**(00:41起):本集说它是 ChatGPT(GPT)针对 Claude Code 的竞品。嘉宾把它拟人化为公司里最好的「独狼」程序员,沟通差但解决最棘手 Bug 能力极强,常被用来给 Claude 写的代码做交叉同行评审。
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(17:47起):本集提到作为最高级推理能力相当先进的 AI 编码工具，被嘉宾用于日常构建中。
 - **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(01:05起):OpenAI 推出的桌面应用，被 Dan 当作日常主力工作环境，其内置浏览器可让智能体看着用户工作；Dan 认为它抓住了未来工作的范式，甚至超过了 Anthropic 的产品。
-- **[[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]]**(03:42起):本集提到它是大家通用的编码智能体之一,如果在它里面找到漏洞,就拥有了一类全新的、可广泛利用的攻击方式。
+- **[[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]]**(03:42起):本集提到它是大家通用的编码智能体之一,如果在它里面找到漏洞,就拥有了一类全新的、可广泛利用的攻击方式。
 - **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当代码不再是瓶颈,品味和策展成为产品团队的稀缺力》]]**(00:00起):本集说它是 OpenAI 的桌面应用，自一月以来使用量增长了 6 倍，拥有超过 500 万周活用户；正从开发者工具转变为人们做非产品工作(如文件整理、数据分析)的首选应用，并正与 ChatGPT 能力融合。
 - **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(00:44起):本集把它说成:加了类固醇的 ChatGPT，不仅是写代码的工具，更是启动项目、管理上下文、生成幻灯片/网站/移动应用的超级中枢。
 - **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]]**(19:22起):本集说它是一个编程工具,主持人结合它与 Soul 模型配合使用,完成了从零到一构建原型应用、以及通过 `@chrome` 指令接管网页实现浏览器自动化等工作。
@@ -23,9 +23,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*4 条,均已过机器闸门*
-
-![[2026-06-22-latent-space-gray-swan#^q1]]
+*3 条,均已过机器闸门*
 
 ![[2026-06-28-lennys-openai-codex-lead-on-the-new-shape#^q1]]
 
@@ -40,7 +38,7 @@ unlisted: true
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为概念
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为被讨论公司(提及)
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为被讨论公司
-- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] — 作为概念(提及)
+- [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为概念(提及)
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当代码不再是瓶颈,品味和策展成为产品团队的稀缺力》]] — 作为被讨论公司
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为概念
 - [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]] — 作为概念

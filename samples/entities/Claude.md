@@ -15,7 +15,7 @@ unlisted: true
 - **[[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]]**(00:52起):本集把它说成：AI 模型与产品的核心。工程师用它快速写代码、交付功能；设计师用它探索视觉方案和长线任务。嘉宾指出其非确定性使得传统高保真模型图失效，只有底层模型真正跑起来才能发现问题。
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(17:32起):本集提到作为构建工具时大量使用的 AI 产品，比如用 Claude Code 进行 vibe coding、写智能体淘汰自己或修复糟糕软件。
 - **[[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新》]]**(01:12起):本集指出如今人们独自泡在各自的 Claude 界面中，这里安静且孤独，失去了曾经社交网络那种能带来意外惊喜的「鸡尾酒会」氛围。
-- **[[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]]**(42:26起):本集提到它在为我们编写代码,并强调了当它擅长编写安全代码时的潜力。
+- **[[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]]**(42:26起):本集提到它在为我们编写代码,并强调了当它擅长编写安全代码时的潜力。
 - **[[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]]**(01:49起):本集的核心主角。嘉宾完整分享了 Claude 的五层架构栈（模型、界面、知识库、集成、智能体与编排），教你如何利用整个 Claude 生态系统将日常生产力提升 10 倍。
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(00:00起):本集将其描述为 Anthropic 旗下的核心 AI 模型，不仅具备编码、工具调用和智能体能力，还能充当陪练主动反驳用户想法，从而帮助人类得出更好的结论。
 
@@ -47,7 +47,7 @@ unlisted: true
 - [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为概念
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为被讨论公司(提及)
 - [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新》]] — 作为被讨论公司(提及)
-- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] — 作为概念(提及)
+- [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为概念(提及)
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]] — 作为被讨论公司
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为概念
 

@@ -11,7 +11,7 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《Lenny 挨老婆采访:致幻剂、跑步机和五万分之一》]]**(05:53起):本集把它说成:Lenny 待了七年的前公司(做软件工程师和产品经理),他在 Medium 写的第一篇关于此经历的文章被 Brian Chesky 分享给了全公司;他还提到自己曾参与创立的初创公司 Localmind 被卖给了 Airbnb
+- **[[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石》]]**(05:53起):本集把它说成:Lenny 待了七年的前公司(做软件工程师和产品经理),他在 Medium 写的第一篇关于此经历的文章被 Brian Chesky 分享给了全公司;他还提到自己曾参与创立的初创公司 Localmind 被卖给了 Airbnb
 - **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]]**(01:18起):本集提到创始人 Brian Chesky 最初向 Keith 顺推销时，用 Craigslist 上的真实数据验证了市场需求；同时，Brian Chesky 无论公司多成功都始终「把油门踩到底」、极度渴望前进。
 - **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(72:04起):本集引用了其 CEO 提出的「追求十一星级体验」的类比，说明 AI 时代人类需不断拉高产品体验的上限。
 - **[[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]]**(01:17起):本集提到主持人和嘉宾 Noam 在十年前曾在这里共事多年，当时 Noam 是他团队里的研究员。
@@ -20,7 +20,7 @@ unlisted: true
 
 *4 集*
 
-- [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《Lenny 挨老婆采访:致幻剂、跑步机和五万分之一》]] — 作为被讨论公司
+- [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石》]] — 作为被讨论公司
 - [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]] — 作为被讨论公司
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为被讨论公司(提及)
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]] — 作为被讨论公司(提及)

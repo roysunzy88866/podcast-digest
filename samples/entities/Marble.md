@@ -12,14 +12,14 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]]**(02:49起):本集说它是建立在 World Labs 前沿模型上的应用,世界上第一个能通过提示词生成可走进、可探索的真正 3D 世界的应用,目前已被用于电影虚拟制作等领域。
-- **[[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《World Labs 收购机器人公司：教 AI 理解物理世界》]]**(05:51起):本集说它是 World Labs 去年冬天发布的第一版生成式基础模型代号，能够将图像或文本转化为几何上一致的三维世界。
+- **[[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理》]]**(05:51起):本集说它是 World Labs 去年冬天发布的第一版生成式基础模型代号，能够将图像或文本转化为几何上一致的三维世界。
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为概念
-- [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《World Labs 收购机器人公司：教 AI 理解物理世界》]] — 作为概念
+- [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理》]] — 作为概念
 
 ## ③ 关联
 

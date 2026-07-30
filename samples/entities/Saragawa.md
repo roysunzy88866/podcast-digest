@@ -13,7 +13,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-06-03-latent-space-satya-2026|《Satya Nadella：别在一个模型上顶礼膜拜，这才是 AI 时代真正的平台逻辑》]] — 作为主持
+- [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为主持
 
 ## ③ 他谈到的
 

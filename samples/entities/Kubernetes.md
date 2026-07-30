@@ -12,7 +12,7 @@ aliases: ["K8s", "k8s"]
 
 ## 集里怎么说它
 
-- **[[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]]**(12:08起):本集提及的一款容器管理系统。开源项目 Omnigen 周六发布后，周一就收到大量合并请求，其中就有开源社区贡献者快速为其添加了在 Kubernetes 上运行的支持。
+- **[[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]]**(12:08起):本集提及的一款容器管理系统。开源项目 Omnigen 周六发布后，周一就收到大量合并请求，其中就有开源社区贡献者快速为其添加了在 Kubernetes 上运行的支持。
 - **[[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]]**(00:55起):本集把它作为反面对照：说它是为缓慢扩展的 Web 服务器设计的，难以适应 AI 时代频繁突发的算力需求，且配置文件（YAML）庞大复杂，对人类和智能体都不友好。
 - **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]]**(40:03起):本集在列举推动现代移动云和 AI 行业爆发的开源平台基础底座时提到了它。
 
@@ -26,7 +26,7 @@ aliases: ["K8s", "k8s"]
 
 *3 集*
 
-- [[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]] — 作为概念(提及)
+- [[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]] — 作为概念(提及)
 - [[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]] — 作为被讨论公司
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]] — 作为概念(提及)
 

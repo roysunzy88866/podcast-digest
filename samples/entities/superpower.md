@@ -11,7 +11,7 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《超音速客机卷土重来：Boom 如何用软件思维重塑硬件制造》]]**(18:06起):本集把它说成：Boom 将自研超音速引擎改造为地面天然气发电涡轮机提前出售的业务；它能在飞机造出前产生测试数据、经验并为庞大的研发提供资金。
+- **[[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《让超音速飞行重返天空:Boom 用小团队重写硬件制造》]]**(18:06起):本集把它说成：Boom 将自研超音速引擎改造为地面天然气发电涡轮机提前出售的业务；它能在飞机造出前产生测试数据、经验并为庞大的研发提供资金。
 
 ## ① 提到它的金句
 
@@ -23,7 +23,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《超音速客机卷土重来：Boom 如何用软件思维重塑硬件制造》]] — 作为概念
+- [[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《让超音速飞行重返天空:Boom 用小团队重写硬件制造》]] — 作为概念
 
 ## ③ 关联
 

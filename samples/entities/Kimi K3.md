@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]]**(01:47起):本集被视为打破前沿实验室垄断的标志性开源模型。嘉宾称它逼近 SOTA，给了生态真正的选择权，甚至因为有更少的“安全拒绝”，被用来做那些前沿闭源模型受限的网络安全工作。
+- **[[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]]**(01:47起):本集被视为打破前沿实验室垄断的标志性开源模型。嘉宾称它逼近 SOTA，给了生态真正的选择权，甚至因为有更少的“安全拒绝”，被用来做那些前沿闭源模型受限的网络安全工作。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]] — 作为概念
+- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]] — 作为概念
 
 ## ③ 关联
 

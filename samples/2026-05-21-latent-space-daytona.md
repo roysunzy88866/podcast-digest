@@ -102,7 +102,7 @@ Windows 沙箱的生意大有可为,但要做 Mac 沙箱却极其反人类。Iva
 
 **顺着「智能体」挖下去**
 
-- [[2026-06-22-latent-space-gray-swan|让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
+- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
 - [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|别再微管理 Claude:Claude Code 造物主的智能体实战心法]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
 
@@ -112,7 +112,7 @@ Windows 沙箱的生意大有可为,但要做 Mac 沙箱却极其反人类。Iva
 **换个口味**
 
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当代码不再是瓶颈,品味和策展成为产品团队的稀缺力]] —— 同概念:智能体 (agent)、计算机使用 (computer use)
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织]] —— 同概念:智能体 (agent)
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]] —— 同概念:智能体 (agent)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同概念:智能体 (agent)
 
 </div>

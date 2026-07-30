@@ -110,7 +110,7 @@ tags:
 
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失]] —— 同嘉宾:Lenny · 同概念:智能体 (agents)、护栏 (guardrails)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同嘉宾:Lenny
-- [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”]] —— 同嘉宾:Lenny
+- [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|把同事当幼儿带:育儿专家的职场领导力课]] —— 同嘉宾:Lenny
 
 </div>
 <div class="pd-ex">

@@ -120,7 +120,7 @@ tags:
 **换个口味**
 
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]] —— 同嘉宾:Lenny · 同公司:OpenAI · 同概念:主观能动性 (agency)、品味 (taste)、智能体 (agent)
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同嘉宾:Lenny · 同公司:ChatGPT、OpenAI · 同概念:智能体 (agent)
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]] —— 同嘉宾:Lenny · 同公司:ChatGPT、OpenAI · 同概念:智能体 (agent)
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同嘉宾:Lenny · 同公司:OpenAI、ChatGPT · 同概念:智能体 (agent)
 
 </div>

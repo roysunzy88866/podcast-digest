@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]]**(02:06起):一种新兴的技术销售角色，负责将顶尖销售的工作流转化为智能体。本集中提到 Vercel 最初的 GTM 工程师由懂技术的销售工程师转岗而来，用 25-30% 的时间在六周内搭建出入站线索智能体。
+- **[[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]]**(02:06起):一种新兴的技术销售角色，负责将顶尖销售的工作流转化为智能体。本集中提到 Vercel 最初的 GTM 工程师由懂技术的销售工程师转岗而来，用 25-30% 的时间在六周内搭建出入站线索智能体。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] — 作为概念
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]] — 作为概念
 
 ## ③ 关联
 

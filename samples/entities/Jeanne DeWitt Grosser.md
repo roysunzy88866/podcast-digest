@@ -29,7 +29,7 @@ unlisted: true
 
 *1 集*
 
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] — 作为主持
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]] — 作为主持
 
 ## ③ 他谈到的
 

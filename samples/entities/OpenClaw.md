@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]]**(00:00起):本集把它说成:可以装在自己机器上、像私人助理一样连续运行任务的开源智能体框架;Claire 称它为自 ChatGPT 以来最令人兴奋的 AI 体验,虽然配置麻烦但实用价值极高。
 - **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(12:01起):开源的智能体框架，Every 公司曾试用但发现维护成本极高，Dan 发现需要时刻盯着的「个人智能体」走不通，最终转向了公司级的单一智能体模式。
-- **[[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]]**(45:55起):本集把它说成:攻击面非常大的通用智能体/计算机使用环境。由于它会直接作为用户去操作,Gray Swan 专门为它开发了大量的刹车和护栏。
+- **[[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]]**(45:55起):本集把它说成:攻击面非常大的通用智能体/计算机使用环境。由于它会直接作为用户去操作,Gray Swan 专门为它开发了大量的刹车和护栏。
 - **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]]**(31:56起):本集提到的一款需要自行购买硬件(如 Mac mini)并本地部署的开源个人智能体，嘉宾受其切身体验启发，决定把 Co-Founder 做成全云端运行并把短信作为第一交互入口。
 - **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(00:00起):本集的核心开源项目，是一个直接跑在用户自己电脑上的个人 AI 智能体。稿中说它之所以起飞，是因为它在本地运行就能控制一切（如床温、烤箱），并且能全盘访问机器数据来给人惊喜；它能把用户记忆变成本地的一堆 markdown 文件，从而打破大公司的数据孤岛。
 
@@ -31,7 +31,7 @@ unlisted: true
 
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]] — 作为概念
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为被讨论公司
-- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] — 作为概念
+- [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为概念
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]] — 作为概念(提及)
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为概念
 

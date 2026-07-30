@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《超音速客机卷土重来：Boom 如何用软件思维重塑硬件制造》]]**(06:29起):本集把它说成：由 50 人小团队打造的超音速验证机，用于试错；它成为历史上第一架独立开发并在政府军方之外制造、成功突破音障的超音速喷气机。
+- **[[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《让超音速飞行重返天空:Boom 用小团队重写硬件制造》]]**(06:29起):本集把它说成：由 50 人小团队打造的超音速验证机，用于试错；它成为历史上第一架独立开发并在政府军方之外制造、成功突破音障的超音速喷气机。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《超音速客机卷土重来：Boom 如何用软件思维重塑硬件制造》]] — 作为概念
+- [[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《让超音速飞行重返天空:Boom 用小团队重写硬件制造》]] — 作为概念
 
 ## ③ 关联
 

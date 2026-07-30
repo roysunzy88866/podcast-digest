@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]]**(45:11起):本集提到嘉宾 Qasar Younis 曾担任其 COO,在此期间近距离观察了大量初创公司的发展势头与成败原因。
+- **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]]**(45:11起):本集提到嘉宾 Qasar Younis 曾担任其 COO,在此期间近距离观察了大量初创公司的发展势头与成败原因。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] — 作为被讨论公司
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为被讨论公司
 
 ## ③ 关联
 

@@ -11,19 +11,19 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《超音速客机卷土重来：Boom 如何用软件思维重塑硬件制造》]]**(01:27起):本集把它说成：致力于让民用超音速飞行重返天空的公司；通过验证「马赫切断」技术推动了美国超音速飞行合法化，并用软件开发思维制造飞机。
+- **[[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《让超音速飞行重返天空:Boom 用小团队重写硬件制造》]]**(01:27起):本集把它说成：致力于让民用超音速飞行重返天空的公司；通过验证「马赫切断」技术推动了美国超音速飞行合法化，并用软件开发思维制造飞机。
 
 ## ① 提到它的金句
 
 *1 条,均已过机器闸门*
 
-![[2026-03-08-lennys-the-most-successful-ai-company-youve-nev#^q2]]
+![[2026-03-08-lennys-the-most-successful-ai-company-youve-nev#^q1]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《超音速客机卷土重来：Boom 如何用软件思维重塑硬件制造》]] — 作为被讨论公司
+- [[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《让超音速飞行重返天空:Boom 用小团队重写硬件制造》]] — 作为被讨论公司
 
 ## ③ 关联
 

@@ -99,7 +99,7 @@ tags:
 **顺着「组织与领导力」挖下去**
 
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失]] —— 同嘉宾:Lenny · 同概念:护栏 (guardrails)
-- [[2025-11-23-lennys-a-guide-to-difficult-conversations|别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课]] —— 同嘉宾:Lenny
+- [[2025-11-23-lennys-a-guide-to-difficult-conversations|别再当「答案机器」：高管教练Rachel Lockett的领导力实操课]] —— 同嘉宾:Lenny
 - [[2025-12-28-lennys-10-contrarian-leadership-truths|故意让人手不足:Rippling 首席产品官的非常规管理心法]] —— 同嘉宾:Lenny
 
 </div>

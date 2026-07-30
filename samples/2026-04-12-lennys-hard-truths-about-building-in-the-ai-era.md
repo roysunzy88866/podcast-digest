@@ -126,9 +126,9 @@ Keith 深信有史以来最伟大的 CEO 有一个最大的共同点：无情地
 
 **顺着「组织与领导力」挖下去**
 
-- [[2025-11-23-lennys-a-guide-to-difficult-conversations|别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课]] —— 同嘉宾:Lenny
+- [[2025-11-23-lennys-a-guide-to-difficult-conversations|别再当「答案机器」：高管教练Rachel Lockett的领导力实操课]] —— 同嘉宾:Lenny
 - [[2025-12-28-lennys-10-contrarian-leadership-truths|故意让人手不足:Rippling 首席产品官的非常规管理心法]] —— 同嘉宾:Lenny
-- [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”]] —— 同嘉宾:Lenny
+- [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|把同事当幼儿带:育儿专家的职场领导力课]] —— 同嘉宾:Lenny
 
 </div>
 <div class="pd-ex">

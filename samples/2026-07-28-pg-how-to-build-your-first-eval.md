@@ -140,7 +140,7 @@ Daniel 的建议是：从第零天开始思考，成功是什么样子的？你�
 **换个口味**
 
 - [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]] —— 同嘉宾:Akash · 同公司:Codex · 同概念:智能体 (agent)
-- [[2026-06-03-latent-space-satya-2026|Satya Nadella：别在一个模型上顶礼膜拜，这才是 AI 时代真正的平台逻辑]] —— 同概念:工具框架 (harness)、智能体 (agent)
+- [[2026-06-03-latent-space-satya-2026|Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河]] —— 同概念:工具框架 (harness)、智能体 (agent)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同公司:Claude Code、Codex · 同概念:智能体 (agent)
 
 </div>

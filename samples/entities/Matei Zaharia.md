@@ -18,13 +18,13 @@ aliases: ["Matei", "Mattia"]
 
 ![[2026-06-24-latent-space-databricks#^q2]]
 
-![[2026-06-24-latent-space-databricks#^q8]]
+![[2026-06-24-latent-space-databricks#^q6]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]] — 作为嘉宾
+- [[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]] — 作为嘉宾
 
 ## ③ 他谈到的
 

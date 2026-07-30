@@ -11,15 +11,15 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]]**(00:27起):本集提到它是 Gray Swan 的投资者之一,嘉宾当时正在参加其峰会。
-- **[[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]]**(52:44起):本集中被作为竞争对手提及。起步时走专有封闭路线，试图锁定高价值数据做极速查询；相比 Databricks 从数据上游做大规模式处理起步，Snowflake 当初认为管理好高价值数据即可。
+- **[[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]]**(00:27起):本集提到它是 Gray Swan 的投资者之一,嘉宾当时正在参加其峰会。
+- **[[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]]**(52:44起):本集中被作为竞争对手提及。起步时走专有封闭路线，试图锁定高价值数据做极速查询；相比 Databricks 从数据上游做大规模式处理起步，Snowflake 当初认为管理好高价值数据即可。
 
 ## ② 出现在这些集
 
 *2 集*
 
-- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] — 作为被讨论公司(提及)
-- [[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]] — 作为被讨论公司
+- [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为被讨论公司(提及)
+- [[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]] — 作为被讨论公司
 
 ## ③ 关联
 

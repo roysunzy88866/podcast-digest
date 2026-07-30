@@ -1,12 +1,12 @@
 ---
-title: World Labs 收购机器人公司：教 AI 理解物理世界
+title: "李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理"
 podcast: The a16z Show
 date: 2026-07-28
 source_url: undefined
 duration: "42:55"
 type: episode
 cover: "#64748b"
-description: 李飞飞谈为何用三维世界模型而非视频训练机器人，用数字世界解决数据瓶颈。
+description: "李飞飞的 World Labs 收购机器人公司 Cynic,要用空间智能和仿真给机器人造一个数字世界来练兵。"
 host: "[[Fei-Fei Li]]"
 cohosts: ["[[Martin Cassaro]]", "[[Yunzhu Li]]"]
 companies: ["[[World Labs]]", "[[Cynics]]"]
@@ -16,9 +16,9 @@ tags:
   - 创业与行业
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>World Labs 收购机器人公司：教 AI 理解物理世界</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# World Labs 收购机器人公司：教 AI 理解物理世界
+# 李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理
 
 <div class="pd-byl"><b>Fei-Fei Li</b> · World Labs 创始人</div>
 
@@ -26,7 +26,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我们正在构建 AI 的下一个前沿领域，我们称之为空间智能。</div><div class="a">Fei-Fei Li · 01:57</div></div>
+<div class="pd-hook"><div class="z">下一个前沿领域是教会 AI 理解物理世界并在其中行动。</div><div class="a">SPEAKER_00 · 01:12</div></div>
 
 > [!info] 关联
 > **人物** [[Fei-Fei Li]] · [[Martin Cassaro]] · [[Yunzhu Li]]
@@ -35,37 +35,55 @@ tags:
 >
 > **概念** [[空间智能]] · [[大型世界模型]] · [[仿真]] · [[反事实推理]] · [[现实到仿真再到现实]] · [[Marble]]
 
-<div class="pd-tldr"><b>一句话</b>李飞飞谈为何用三维世界模型而非视频训练机器人，用数字世界解决数据瓶颈。</div>
+<div class="pd-tldr"><b>一句话</b>李飞飞的 World Labs 收购机器人公司 Cynic,要用空间智能和仿真给机器人造一个数字世界来练兵。</div>
 
-训练一个机器人，居然比训练那些做语言问答的 AI 难得多——因为互联网上有海量的文字，却没有现成的物理动作数据。面对这个死结，李飞飞创立的 [[World Labs|World Labs]] 给出的答案是：不要只在现实里收集数据，去构建一个几何上一致的三维数字世界。机器人在这个世界里训练、评估，再把经验平移到现实里。这正是她最近收购机器人公司 [[Cynics|Cynics]] 的原因。
+训练一个机器人,为什么不能像训练语言模型那样疯狂喂数据?因为互联网上有无穷无尽的文本,却没有无穷无尽的物理世界交互数据。现实里让机器人试错一个任务,比人亲手去做还要慢。这一集里,[[World Labs|World Labs]] 的李飞飞和被收购的 Cynic 创始人 Yunzhu 讲了他们怎么用「[[空间智能|空间智能]]」和「数字[[仿真|仿真]]」来破解这个死结。
 
-在这一集 A16Z 播客的对谈里，主持人与李飞飞、Cynics 联合创始人李昀竺一起，拆解了这笔收购背后的技术逻辑。你会听到三块内容：首先，为什么主流的纯视频模型没法教机器人干活，而必须构建一个空间和几何一致的「世界模型」；其次，机器人为什么必须用「数字[[仿真|仿真]]」来训练，它能解决哪些现实世界里根本做不到的事；最后，两位嘉宾给出了一个冷峻的现实判断——别指望人形机器人很快进你家扫地，机器人的落地会比想象中克制得多，但当下正是做基础设施的最好时机。
+在这集 A16Z 播客里,主持人 Martin 和两位嘉宾聊了几个核心问题:World Labs 为什么要收购一家做机器人的公司;他们怎么用「仿真」(在数字世界里建一个有物理规律的环境,让机器人在里面练)来替代昂贵危险的现实试错;为什么他们认为现在很多人形机器人的预测太激进了;以及如果机器人的能效真要追上人脑的 30 瓦,还要走多远的路。最后他们还说了,如果你在做机器人,什么时候该去找 World Labs。
 
-说完了整体的脉络，接下来先看第一块：这笔收购本身，以及 World Labs 到底在造什么。World Labs 做的是前沿模型实验室，核心目标是打造「[[空间智能|空间智能]]」。这指的是让 AI 能够生成、理解、推理并与三维空间互动的能力，而通往这个目标的核心载体是[[大型世界模型|大型世界模型]]。去年冬天，他们发布了第一版名为 [[Marble|Marble]] 的基础模型，它能接收图片或文字，将其转化为在几何上一致的三维世界 <button class="pd-ts" data-t="01:57" data-who="李飞飞" data-en="I think we should just recognize it's a frontier model lab. We are building the next frontier of AI, which is what we call spatial intelligence. And spatial intelligence is about creating AI that has the ability to..." aria-label="回原文"></button>。有意思的是，Cynics 一开始根本不是被收购方，而是 Marble 的一个客户。李飞飞发现老同事在用自家的模型，双方接触后才意识到彼此极度互补，这才促成了联手 <button class="pd-ts" data-t="05:35" data-who="李飞飞" data-en="It's amazing that you two work together. Yeah, and there is a funny story here because you would think because we work together, he was my amazing postdoc, we've been talking about this Cinex and WorldLab integration for a long time." aria-label="回原文"></button>。Cynics 解决的是机器人领域最致命的痛点：缺数据。语言模型能靠互联网吃下海量文本，但机器人学习在训练和评估时都极度缺乏数据 <button class="pd-ts" data-t="06:59" data-who="李昀竺" data-en="Really what Cynic's team is doing is trying to solve this extremely difficult problem in robotics, which is the lack of data. The lack of data in training, the lack of data in evaluation, this is very, very different from language models where data is abundant on the internet." aria-label="回原文"></button>。为了让机器人进步，必须释放「缩放定律」（Scaling Law，即模型越大、数据越多，能力越强）的力量，但物理世界的数据从哪来？Cynics 的方法叫「从真实到仿真再到真实」。他们把真实的物理环境映射到数字世界里，保证数字世界里发生的事和现实高度一致。这样就能用数字世界大规模生成的数据，去替代现实世界里昂贵且危险的测试 <button class="pd-ts" data-t="04:52" data-who="李昀竺" data-en="Right now, we see faced by the developments of general-purpose robots, especially around training and also around evaluations. So at Cynics, we are developing what we call a real-to-sim-to-real pipeline." aria-label="回原文"></button>。
+说完了这集大概在讲什么,先得搞清楚一个前提:World Labs 是什么,为什么要买一家机器人公司。李飞飞开门见山地定位:World Labs 是一家做前沿模型的公司,他们押注的下一个方向叫「空间智能」(让 AI 能生成、理解、推理并与三维空间交互的能力)。她强调,他们一直相信「我们生活的世界可以是多维度的世界」,人可以在物理空间里行动,也可以在虚拟空间(比如游戏、视觉特效、设计)里创造。而机器人,正是在物理空间行动中最让人兴奋、也最重要的应用场景。所以收购 Cynic,对他们来说是走向物理世界的自然延伸。
 
-工具变了，接下来看技术路线怎么选。现在有很多机器人公司在用纯视频模型来训练机器人，李昀竺和李飞飞认为这条主流路线有一个硬伤：缺乏一致性。机器人在学习时，需要理解空间、时间、不同视角以及交互上的一致性 <button class="pd-ts" data-t="13:14" data-who="李昀竺" data-en="So in order to create words with Robot Candler, the words, as I mentioned, need to capture the essential structure of the problem. And one of the very important and necessary requirements for those words will be consistency." aria-label="回原文"></button>。纯视频模型常常会出问题，比如机器人试着向前推一个物体，在视频模型的预测画面里，那个物体可能就凭空消失了。这种不一致会让机器人完全抓瞎，学不到正确的动作信号 <button class="pd-ts" data-t="13:43" data-who="李昀竺" data-en="And Marble, the generated words from Marble, is also provide an infrastructure, a component of that entire words that we believe is necessary for the robot learner." aria-label="回原文"></button>。相比之下，Marble 生成的三维世界能提供稳固的基础设施，保证几何上的连贯。在机器人的基础模型设计上，它本质上必须是个多模态模型，也就是能同时处理文本、图像、深度等各种信息。更重要的是，它必须把「动作」当成核心模态。如果模型把动作当输入，它就是在做仿真，预测环境怎么变；如果模型把动作当输出，它就是在做策略控制，决定下一步怎么走 <button class="pd-ts" data-t="11:46" data-who="李昀竺" data-en="So for example, for the foundation models, it essentially needs to be a multimodal model. So it has to take into account frame text, image, depth, and different kind of modalities." aria-label="回原文"></button>。
+那 Cynic 到底是做什么的,为什么对 World Labs 这么关键?这就得说回机器学习里最让人头疼的瓶颈——数据。Yunzhu 介绍说,语言模型有整个互联网的文本可以吃,但机器人没有这种待遇。现实里采集一次机器人操作的数据,速度比人类亲手干一遍还要慢;而机器人的任务又极其多样,受物理定律约束。为了解开这个死结,Cynic 的做法是建一条「现实到模拟再到现实」的流水线:先把真实环境高保真地映射到数字世界,确保数字世界里发生的事在现实里也会发生。这样一来,就可以用数字世界里批量、快速生成的数据,去替代现实里昂贵又危险的试错。
 
-说完了为什么必须用三维世界模型，紧接着的一个问题是：为什么不直接在现实里训练，非要绕道数字仿真？李飞飞从哲学层面给出了解释：在仿真或不仿真之间，从来不是二选一。人类在做决定前，脑子里也会不断做模拟。现实世界的数据有一个天然的缺陷——它无法支撑「[[反事实推理|反事实推理]]」。也就是去推演那些还没发生、不可能发生，或者现实里根本凑不够数据的事件。你在脑子里推演，恰恰是在学习如何应对它。这在机器人领域至关重要，因为现实世界的数据永远不够用 <button class="pd-ts" data-t="19:42" data-who="李飞飞" data-en="So this kind of transition and also this kind of data flow is really enabling factors of both getting the best of both physics and the geometry and consistency, as well as all the power and magics from the data and compute." aria-label="回原文"></button>。李昀竺则更务实地指出了仿真能提供的两大核心价值：可靠性和效率。为了达到可靠性，你需要让机器人遇到足够多的场景。在数字仿真里，你可以系统性地随机改变光照、摩擦力、几何形状和物体类型，确保覆盖所有可能的情况 <button class="pd-ts" data-t="21:43" data-who="李昀竺" data-en="The first one is reliability, and the second one is efficiency. So for reliability, if you're thinking about a robotic system working reliably in the real environment, you need data to provide systematic coverage of all the state space and the variations that robots might encounter." aria-label="回原文"></button>。此外，现在很多人用远程操作设备手工控制机器人来收集数据，这个速度比人类自己动手还慢。但在仿真器里，你可以系统性地加速机器人的行为动态，训练它以远超人类的速度完成任务 <button class="pd-ts" data-t="22:17" data-who="李昀竺" data-en="And second is about efficiency. So right now, many people are doing teleoperation. And if you look at many of the teleoperation devices, imagining all the actual skeletons you are using, you are actually collecting the data at a speed that is actually slower than humans actually doing the task." aria-label="回原文"></button>。如今，哪怕只是在真实环境里评估一个模型的好坏，迭代速度都比语言模型慢了好几个数量级 <button class="pd-ts" data-t="24:23" data-who="李昀竺" data-en="And you really think about also the robotic evaluations right now people are doing in the real environments. The iteration speeds is multiple orders of magnitude slower than iterations of those language models." aria-label="回原文"></button>。客户需要数字世界来做安全、快速且可扩展的评估。
+技术路线聊完了,接下来就要直面行业内最流行的另一种解法:既然缺数据,直接用视频生成模型(像教 AI 看视频那样学物理规律)不行吗?Yunzhu 的回答直指视频模型的软肋——一致性。他说,他们要构建的数字世界,必须在空间上、时间上、不同视角下都保持一致。他举了个特别生动的例子:想象一个机器人在往前推一个物体,如果是在现有的视频预测模型里,那个被推的物体很可能会莫名其妙地消失。这样的「幻觉」没法给机器人提供正确的学习信号。他们要做的仿真,能保证物体被推了就会按规律移动。
 
-聊清楚了技术路径，最后一个话题关于商业落地：这个数字基础设施到底卖给谁，以及人形机器人离我们还有多远？World Labs 和 Cynics 做的不是机器人硬件，而是一个跟「身体无关」的数字基础设施。客户可以是单臂、双臂机器人，也可以是带轮子的操作器。他们把客户的机器人放进建好的数字世界里训练，或者做后训练 <button class="pd-ts" data-t="28:05" data-who="李昀竺" data-en="And this infrastructure is naturally model-agnostic and embodiment-agnostic. So I just want to be very clear, just because this is actually a very subtle, for you it's obvious, but it's a very subtle point, which is..." aria-label="回原文"></button>。在落地的节奏上，李昀竺指出了一个清晰的规律：机器人的应用一直是从完全结构化的环境，走向半结构化环境，最后才进入非结构化环境 <button class="pd-ts" data-t="29:42" data-who="李昀竺" data-en="So that's a very good question. So if you look at, for example, all the progressions of robotic applications in the real environments, it has always followed the trend from going from fully structured environments into semi-structured environments and then into unstructured environments." aria-label="回原文"></button>。完全结构化是汽车制造流水线，早就自动化了；半结构化是仓库、饭店；而非结构化就是你的家。人形机器人模仿人类的身体，但进化让人类有了万能但不专精的身体，专门为了在非结构化环境生存。所以人形机器人要解决的，恰恰是最难的商业问题。他认为当下更现实的做法，是在半结构化环境里用更专精的形态落地 <button class="pd-ts" data-t="29:42" data-who="李昀竺" data-en="So that's a very good question. So if you look at, for example, all the progressions of robotic applications in the real environments, it has always followed the trend from going from fully structured environments into semi-structured environments and then into unstructured environments." aria-label="回原文"></button>。主持人抛出了一个犀利问题：人类大脑运转只要三十瓦特，我们离造出拥有人类能效的机器人还有多远？李昀竺直言这还需要很长时间。现实里的机器人始终是一个复杂的系统工程，从软件、硬件到手指的摩擦系数都要严丝合缝。虽然技术前沿的推进比他预期的快，但要达到人类级别的效率和能力，还需要漫长的迭代 <button class="pd-ts" data-t="33:25" data-who="李昀竺" data-en="Is this like five years or this is like never? I think it's going to take a very long time. So if you're really thinking about robots in real environments, in the end, it will always be a system." aria-label="回原文"></button>。李飞飞也认同，当今 AI 领域最难的事，就是保持一种「适度乐观」。虽然语言模型可能在某些狭窄任务（比如写代码）上的效能在逼近人类，但机器人在能效和可靠性上还差得很远 <button class="pd-ts" data-t="34:34" data-who="李飞飞" data-en="But to achieve, for example, human-level efficiency and capabilities, it will take longer. Martin, the hardest thing in today's AI is to have the right measured optimism." aria-label="回原文"></button>。但他们并不着急把团队彻底揉碎重组，而是会循序渐进地整合，并正张开双臂迎接任何阶段的机器人公司来合作 <button class="pd-ts" data-t="37:07" data-who="李飞飞" data-en="This is a great question. I think at this point, you know, Yunzhu, Changxi, Sunny, Justin, Ben, and I have been talking about this. At this point, we are going to take it thoughtfully." aria-label="回原文"></button>。
+说完了为什么要坚持做仿真,那仿真的哲学到底是什么?它和现实世界数据冲突吗?李飞飞在这里抛出了全集最有信息量的一段洞见。她说,仿真和真实数据不是二选一,人类智能本身就在做大量的仿真——大脑在推演那些没发生、不可能发生、或者现实里数据不够的事件,这叫「[[反事实推理|反事实推理]]」(counterfactual reasoning)。她举了个直观的例子:世界杯的每一场比赛,教练团队都会做沙盘推演或数字仿真,这就是在反事实推理。这是真实数据永远无法替代的功能。她还提到一个实证:自动驾驶公司 Waymo 比起依赖真实路测,其实更重度依赖仿真,而且汽车已经是目前最简单的机器人了 <button class="pd-ts" data-t="21:11" data-who="Fei-Fei Li" data-en="Weibo has officially said they use billions of hours of simulation. And actually, Waymo is more simulation-heavy than just real-world data-heavy. So these are real examples." aria-label="回原文"></button>。
+
+有了仿真的底座,接下来要看它怎么具体帮到工业界里的机器人公司。Yunzhu 把仿真提供的价值拆成了两个词:可靠性和效率。讲可靠性时,他说仿真可以让你系统性地去改变光照、摩擦力、几何形状、物体类型这些参数,确保机器人在各种极端情况下的状态空间都被覆盖到。讲到效率时,他提到了一个很反直觉的痛点:现在很多机器人公司在做「遥操作」(人戴着设备远程操控机器人来采集数据),这个采集速度比人亲手干活还要慢。但客户要的是比人更快的速度。在现实里你没法简单地把机器人开快,因为重力不会变;但在仿真里,你可以系统性地对机器人行为进行加速,同时让它兼顾环境的动力学变化,这就给了客户效率上的突破 <button class="pd-ts" data-t="22:37" data-who="Yunzhu" data-en="They want faster than human speeds. So for the robot to move faster, it's not as simple as just drive the robot faster because the gravity doesn't change. But in simulation, you can do systematic speed up of the robot's behaviors to train the robots such that it considers all the dynamics, changes of the environment." aria-label="回原文"></button>。
+
+仿真在训练和评估上这么厉害,那它适合解决所有机器人的问题吗?话题到这里自然就转到了机器人形态的争论上。李飞飞直说,现在外界对「人形机器人」的很多预测有点太激进了。她按环境的「结构化程度」理了一条线:工厂里的汽车生产线是完全结构化(自动化了几十年);亚马逊仓库、酒店后厨算半结构化(你能控制一部分环境);而真正非结构化的环境,就是你和我这样的普通人家里。人形机器人的形态是为了适应非结构化环境才进化出来的——为了在哪儿都能活下去,所以什么都能干一点,但什么都不一定最好。但从商业和技术的务实角度看,最难的恰恰就是这种通用和非结构化。所以她的判断是:先把力气花在半结构化环境上,这才是可持续的现实路径 <button class="pd-ts" data-t="31:09" data-who="Fei-Fei Li" data-en="It's just we want to take a more sustainable and more realistic approach towards it. I think your point here is that humanoids mimics human body, and evolution has optimized human body for unstructured environment." aria-label="回原文"></button>。
+
+从现实路径的克制说开去,主持人最后抛出了一个扎心的问题:我们离造出拥有「人类能效」的机器人还有多远?人脑运行只要 30 瓦,而现在的 AI 连生成一张图都远没这么高效,更别提在物理世界里干体力活了。Yunzhu 坦言,这需要很长时间,因为机器人最终是个系统工程,从硬件、软件、大脑到手指的摩擦系数都得严丝合缝。李飞飞在旁边补了一句很有分量的总结:「当今 AI 中最难的事情,是拥有正确的适度乐观。」 <button class="pd-ts" data-t="34:34" data-who="Fei-Fei Li" data-en="But to achieve, for example, human-level efficiency and capabilities, it will take longer. Martin, the hardest thing in today's AI is to have the right measured optimism." aria-label="回原文"></button> 我们会看到很多进步,但要在物理世界里达到人类的能效,路还很长。
 
 ## 本集带走
 
-最后收个尾，这一集值得带走的主要是三层意思。第一，别用纯视频模型去教机器人干活，因为它在空间和时间上缺乏一致性，物体推着推着可能就凭空消失了；你得构建一个几何连贯的三维世界模型，把「动作」作为核心，这样才能真正让机器人学会怎么跟物理世界交互。第二，仿真不是现实数据的退而求其次，而是必经之路，它解决了现实世界凑不够数据的痛点；通过系统性改变光照和摩擦力等参数，并在虚拟世界里加速时间，它赋予了机器人可靠性和远超人类的效率，同时还支持了现实数据做不到的「反事实推理」。第三，别被那些满地跑的人形机器人忽悠了，进你家扫地还得等很久；从结构化工厂到半结构化的仓库，再到非结构化的家庭，机器人的落地会非常克制，当下的正确做法是做一个跟硬件无关的基础设施，先在那些最实际、离赚钱最近的半结构化场景里把跑通。
+最后收个尾,这一集值得带走的是这么几层意思。第一,李飞飞做空间智能的野心,不只是生成好看的 3D 场景,而是要为 AI 搭建一个能去物理世界行动的底座,收购 Cynic 正是为此补上了机器人这块拼图。第二,机器人的死穴是缺数据,光靠看视频模型学不通,因为物理世界需要绝对的一致性;真正的解法是用高保真的数字仿真来跑反事实推理,像 Waymo 那样用海量虚拟试错来替代既慢又贵的现实测试。第三,他们特别务实,不被「人形机器人进万家」的泡沫带着走,而是盯着仓库、电子组装这些半结构化环境,先帮客户立刻把脏活累活自动化掉。第四,也是最让人清醒的一点:当今 AI 最缺的是「适度乐观」,技术的进步比想象中快,但要在耗能和能效上真的追上只有 30 瓦的人脑并在现实中干活,我们还得耐心等上很久。如果你在做接近部署的机器人项目,他们现在就敞开大门等你打电话。
 
-<div class="pd-sec">全部金句 <span>3 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
 
-> <span class="qz">我们正在构建 AI 的下一个前沿领域，我们称之为空间智能。</span>  
-> *We are building the next frontier of AI, which is what we call spatial intelligence.*  
-> <span class="qm">—— Fei-Fei Li · [01:57]</span> ^q1
+> <span class="qz">下一个前沿领域是教会 AI 理解物理世界并在其中行动。</span>  
+> *The next frontier is teaching AI to understand and act within the physical world.*  
+> <span class="qm">—— SPEAKER_00 · [01:12]</span> ^q1
 
-> <span class="qz">仿真扮演了一个非常重要的角色，这是现实世界的数据所没有的，那就是反事实推理，就是你在推演那些尚未发生或不可能发生的事件，或者你在现实世界中没有足够的数据让它发生。</span>  
+> <span class="qz">仿真扮演了一个非常重要的角色,这是现实世界的数据所没有的,那就是反事实推理,就是你在推演那些尚未发生或不可能发生的事件,或者你在现实世界中没有足够的数据让它发生。</span>  
 > *There's a very important role simulation plays that real world data doesn't play, which is counterfactual reasoning, is that you play out events that hasn't happened or cannot happen, or you don't have enough data to make it happen in real world.*  
 > <span class="qm">—— Fei-Fei Li · [20:06]</span> ^q2
 
+> <span class="qz">事实上,Waymo 比重视现实世界数据更重视仿真。</span>  
+> *And actually, Waymo is more simulation-heavy than just real-world data-heavy.*  
+> <span class="qm">—— Fei-Fei Li · [21:11]</span> ^q3
+
 > <span class="qz">这种非结构化环境和通用化身体实际上是最难解决的问题。</span>  
 > *This unstructured environment and a generalized body is actually the hardest problem to solve.*  
-> <span class="qm">—— Fei-Fei Li · [32:03]</span> ^q3
+> <span class="qm">—— Fei-Fei Li · [32:03]</span> ^q4
+
+> <span class="qz">Martin,当今 AI 中最难的事情是拥有正确的适度乐观。</span>  
+> *Martin, the hardest thing in today's AI is to have the right measured optimism.*  
+> <span class="qm">—— Fei-Fei Li · [34:34]</span> ^q5
+
+> <span class="qz">所以我们会整合,但我们不急于像混合沙拉碗一样混合团队。</span>  
+> *So we will be integrating, but we're not rushing to blend the team as like a full salad bowl.*  
+> <span class="qm">—— Fei-Fei Li · [38:02]</span> ^q6
 
 <div class="pd-sec">接着看</div>
 
@@ -75,7 +93,7 @@ tags:
 **顺着「创业与行业」挖下去**
 
 - [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能]] —— 同公司:World Labs · 同概念:Marble、空间智能 (spatial intelligence)
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同公司:Waymo
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]] —— 同公司:Waymo
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式]] —— 同公司:Waymo
 
 </div>

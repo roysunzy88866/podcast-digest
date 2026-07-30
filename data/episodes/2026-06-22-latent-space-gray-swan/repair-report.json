@@ -1,27 +1,19 @@
 {
   "kept": [
     {
-      "i": 1,
-      "timestamp": "03:37",
-      "speaker": "Zico Kolter",
-      "trimmed": false,
-      "tsWas": "03:42",
-      "spkWas": "Zico Kolter"
-    },
-    {
       "i": 2,
-      "timestamp": "10:01",
+      "timestamp": "09:59",
       "speaker": "Zico Kolter",
       "trimmed": false,
-      "tsWas": "10:03",
+      "tsWas": "09:59",
       "spkWas": "Zico Kolter"
     },
     {
       "i": 3,
-      "timestamp": "14:27",
+      "timestamp": "11:47",
       "speaker": "Zico Kolter",
       "trimmed": false,
-      "tsWas": "14:30",
+      "tsWas": "11:47",
       "spkWas": "Zico Kolter"
     },
     {
@@ -34,34 +26,18 @@
     },
     {
       "i": 5,
-      "timestamp": "27:11",
-      "speaker": "Zico Kolter",
-      "trimmed": true,
-      "tsWas": "27:13",
-      "spkWas": "Zico Kolter"
-    },
-    {
-      "i": 6,
-      "timestamp": "35:35",
+      "timestamp": "27:32",
       "speaker": "Zico Kolter",
       "trimmed": false,
-      "tsWas": "35:31",
-      "spkWas": "Zico Kolter"
-    },
-    {
-      "i": 8,
-      "timestamp": "44:43",
-      "speaker": "Zico Kolter",
-      "trimmed": false,
-      "tsWas": "44:43",
+      "tsWas": "27:32",
       "spkWas": "Zico Kolter"
     }
   ],
   "dropped": [
     {
-      "i": 7,
-      "reason": "逐字命中不了(裁剪后仍无)",
-      "en": "I think that we're at this cusp where we can actually Start to automate this process and in automating it, make it more of a science."
+      "i": 1,
+      "reason": "命中片段跨说话人(占比0.80/连续他人6词,疑拼接)",
+      "en": "we're still able to find ways to interact prompt inject or jailbreak or just generally get get their models to do things that that they wouldn't want to."
     }
   ]
 }

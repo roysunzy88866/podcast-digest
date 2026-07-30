@@ -1,5 +1,5 @@
 ---
-title: 育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”
+title: "把同事当幼儿带:育儿专家的职场领导力课"
 podcast: "Lenny's Podcast"
 date: 2026-02-01
 source_url: https://www.lennysnewsletter.com/p/dr-becky-on-the-surprising-overlap
@@ -7,7 +7,7 @@ duration: "91:52"
 type: episode
 cover: "#6366f1"
 image: "/covers/2026-02-01-lennys-dr-becky-on-the-surprising-overlap.jpg"
-description: 临床心理学家 Dr. Becky 将育儿原则迁移到职场，教你如何修复关系、设定界限并建立长期韧性。
+description: "临床心理学家 Dr. Becky 将育儿原则搬到职场,讲透修复、界限与坚定领导力。"
 host: "[[Lenny]]"
 cohosts: ["[[Dr. Becky Kennedy]]"]
 companies: ["[[Good Inside]]"]
@@ -18,9 +18,9 @@ tags:
   - 职业与个人成长
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>把同事当幼儿带:育儿专家的职场领导力课</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# 育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”
+# 把同事当幼儿带:育儿专家的职场领导力课
 
 <div class="pd-byl"><b>Dr. Becky Kennedy</b> · Good Inside 创始人</div>
 
@@ -39,52 +39,95 @@ tags:
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/dr-becky-on-the-surprising-overlap)
 
-<div class="pd-tldr"><b>一句话</b>临床心理学家 Dr. Becky 将育儿原则迁移到职场，教你如何修复关系、设定界限并建立长期韧性。</div>
+<div class="pd-tldr"><b>一句话</b>临床心理学家 Dr. Becky 将育儿原则搬到职场,讲透修复、界限与坚定领导力。</div>
 
-本期嘉宾是临床心理学家、作家，也是知名育儿平台 [[Good Inside|Good Inside]] 的创始人 [[Dr. Becky Kennedy|Dr. Becky Kennedy]]。你可能会问：一个主打科技与商业的播客，为什么要请育儿专家？主持人 [[Lenny|Lenny]] 坦言，因为我们在职场中遇到的许多成年人，其行为表现往往更像婴儿而不是成年人——比如因为必须分享资源而生气、总是需要成为关注中心、或者需要别人为他们解决问题 <button class="pd-ts" data-t="01:18" data-who="Lenny" data-en="Why would I have a parenting expert on this podcast? Because if you think about it, many of the people that we work with in the workplace act a lot more like babies than adults." aria-label="回原文"></button>。Dr. Becky 指出，无论是家庭、婚姻还是职场，本质都是一个个「系统」。一旦你掌握了理解人类行为的核心原则，任何好的原则都可以应用到任何系统中 <button class="pd-ts" data-t="06:21" data-who="Dr. Becky Kennedy" data-en="But the workplace is another system, a marriage is a system, sibling relationships are a system, extended family over the holidays, that's a system. And once you start to think through a lens of understanding how we operate in the system, any good principle can then be applied to any system." aria-label="回原文"></button>。本期对话将围绕几个核心原则展开：从如何[[修复|修复]]关系、建立[[连接|连接]]，到如何设定坚定的[[界限|界限]]，最后探讨如何真正建立一个人或一个团队的长期[[韧性|韧性]]。
+成年人闹情绪、争夺资源、需要人替他收拾烂摊子——你的同事可能和你两岁的孩子没什么两样。说这话的是 [[Lenny|Lenny]],他请来了临床心理学家、育儿平台 [[Good Inside|Good Inside]] 的创始人 Dr. Becky,专门聊聊怎么用带娃的方法带团队。
 
-## 「修复」是头号关系策略：完美令人毛骨悚然
-理解了家庭与职场同构的逻辑，我们来看看日常合作中最常受损的信任该怎么补救。Dr. Becky 认为，「修复」（repair，指在某个我们感到不自豪的时刻之后，回到对方身边，为自己的那部分责任承担后果）是我们拥有的头号关系策略 <button class="pd-ts" data-t="08:58" data-who="Dr. Becky Kennedy" data-en="Yeah. I think repair is kind of the number one relationship strategy we have. And the thing that keeps us from repairing, which really is the idea of going back to a person after a moment we didn't feel proud of, taking responsibility for our part, maybe acknowledging the impact it had on them and talking about what you would do differently the next time, is actually this very false idea that there's a goal to be perfect." aria-label="回原文"></button>。阻碍我们去修复的，往往是「我们必须保持完美」的虚假目标。但在她的公司里，大家有一句口头禅：「完美是令人毛骨悚然的」（Perfect is creepy）。因为只有非人类才能完美，人类境况的本质就是我们总想做好，却会一次又一次搞砸 <button class="pd-ts" data-t="09:35" data-who="Dr. Becky Kennedy" data-en="Only non-humans can ever be perfect. And what defines kind of the human condition is that we want to do well and we mess up over and over again. And one of the things I remember learning in clinical psych grad school was that the thing that really differentiated secure attachment, which is the nature of a relationship you really want to have with your kid is the presence of repair." aria-label="回原文"></button>。
-她回忆在临床心理学研究生院时，教授提到真正区分高质量关系（[[安全依恋|安全依恋]]）的，不是父母一直做对，而是关系中是否存在「修复」——哪怕大家都会搞砸，但只要有一个成年人愿意去修复就好 <button class="pd-ts" data-t="09:56" data-who="Dr. Becky Kennedy" data-en="And one of the things I remember learning in clinical psych grad school was that the thing that really differentiated secure attachment, which is the nature of a relationship you really want to have with your kid is the presence of repair." aria-label="回原文"></button>。这在职场上同样适用：无论你是开会时用严厉语气打断了下属，还是因为自己压力大而发火，主动说一句「抱歉我打断了你，我会努力改正」，是重新建立信任和连接的最好方式 <button class="pd-ts" data-t="10:32" data-who="Dr. Becky Kennedy" data-en="That wasn't your fault and I'm working on staying calmer even when I'm upset.&quot; Or we say to someone, I don't know, on our team, &quot;Hey, earlier in the meeting, I totally cut you off." aria-label="回原文"></button>。
+在这一集里,Dr. Becky 把家庭、职场都视作"系统"。只要是关于人和人的关系,底层逻辑是相通的。她讲了几个核心方法:首先是"[[修复|修复]]",搞砸了怎么补救;然后是"内心是好的"这个假设,怎么把人的行为和身份拆开看;接着是[[界限|界限]]的正确画法,以及怎么做一个"坚定的领导者"。最后落到一个大方向上:要培养"[[韧性|韧性]]",别总是追求"快乐"。
 
-## 先连接再纠正：不带议程的 30 秒
-说完了怎么补救搞砸的关系，接下来要讲的是怎么让对方愿意听你说话。Dr. Becky 提出「在纠正之前先连接」。为了说明这一点，她举了一个生动的例子：想象你忙了一天刚坐下想看会儿书，你伴侣突然说「我们现在必须报税」，你下意识抗拒。如果对方指责你「不听话」，你只会更抗拒；但如果对方说「我知道你刚坐下，我们今晚得把税做完，能一起搞定吗？」你配合的概率就会飙升 <button class="pd-ts" data-t="11:19" data-who="Dr. Becky Kennedy" data-en="Talk a bit about this concept of connecting before correcting. Yeah. Well, I'll use kind of... let's take it out of parenting and work because I think it really shows the importance of connecting in all of our lives." aria-label="回原文"></button>。
-这就是连接的力量：它是在两个人之间搭起一座桥，让对方愿意走入你的优先事项中。连接的起点是一种「不带议程的心态」 <button class="pd-ts" data-t="14:28" data-who="Dr. Becky Kennedy" data-en="Okay? Is trying to get into a kind of without an agenda mindset, even if it's for 30 seconds with someone. Being present with someone without an agenda is increasingly hard to do, but that is what connection is about." aria-label="回原文"></button>。很多时候我们在工作中假模假样地寒暄，其实心里数着秒等对方说完，好赶紧布置任务——这种充满交易感的「连接」只会让人感觉虚伪。真正的连接，是哪怕只花 30 秒，不带任何目的地去看见对方、认可对方。
+## 企业里的成年人,其实就是伪装的婴儿
 
-## 「内心是好的」：把行为和身份解绑
-工具和心态都准备好了，面对表现不佳的人时，我们还需要一个底层认知框架。Good Inside 的核心原则是：无论行为如何，人的「内心是好的」。这在职场中意味着什么？是不是意味着纵容员工不交文档？当然不是。Dr. Becky 强调，这个原则本质上要求我们「把行为和身份区分开来」 <button class="pd-ts" data-t="18:27" data-who="Dr. Becky Kennedy" data-en="No. And I think that's actually the other thing that's core to Good Inside is the idea of being good inside inherently requires us to separate behavior and identity." aria-label="回原文"></button>。
-人际交往中最困难的时刻，多半是因为我们把别人的行为和他们的身份混为一谈了。比如同事经常迟到，我们容易推断「这人真懒」，进而指责对方的品行。但这会立刻激起对方的防御机制——因为没有人愿意承认自己是个「坏人」，一旦觉得身份受威胁，就没法再谈行为了 <button class="pd-ts" data-t="19:33" data-who="Dr. Becky Kennedy" data-en="Because we think someone else, instead of talking about our behavior, is talking about our identity. And then we can't even talk about our behavior anymore and being late because we feel like they're accusing us of being a bad person or being lazy or not caring about the other people in the meeting." aria-label="回原文"></button>。
-> 【背景】这类似于教练训练运动员的逻辑：不是把球员一棍子打死，而是先承认「你是个好球员」，只是今天投丢了上篮，然后一起去体育馆加练找出原因。
+顺着这个"成年人=婴儿"的话题,Dr. Becky 给出了她的理论依据。她说,其实无论是一岁、五岁、45 岁还是 85 岁的人,底层需求都是一样的 <button class="pd-ts" data-t="00:04" data-who="Dr. Becky Kennedy" data-en="Most adults in the corporate environment are really just babies in disguise. All humans need the same things, whether we're one or five or 45 or 85. When you look at bad behavior, the actual problem is someone doesn't have the skill they need to manage something happening internally." aria-label="回原文"></button>。当需求得不到满足时,不管是小孩还是大人,表达方式往往都很糟糕。所以,当你看到职场上的不良行为时,真正的问题不是"这个人不行",而是这个人缺乏管理自己内心情绪的技能 <button class="pd-ts" data-t="00:08" data-who="Dr. Becky Kennedy" data-en="All humans need the same things, whether we're one or five or 45 or 85. When you look at bad behavior, the actual problem is someone doesn't have the skill they need to manage something happening internally." aria-label="回原文"></button>。
 
-因此，开启艰难对话的最有效方式是先申明立场：「我们在同一个团队，你是个聪明的好人。大家都知道要准时开会，但你最近一直迟到，这让我觉得有什么事情正在发生，我想和你一起找到根本原因。」 <button class="pd-ts" data-t="20:04" data-who="Dr. Becky Kennedy" data-en="I would start by saying, &quot;First of all, I want to say we're on the same team.&quot; If that's the only thing people take from this, that is the most amazing way to have a more productive conversation with anyone." aria-label="回原文"></button>。
+这构成了她整个方法论的底色:不要被行为本身激怒,去看到行为背后的技能缺失。顺着这个逻辑,自然就引出了她最看重的第一个核心概念——修复。
 
-## 最宽容解读（MGI）：用好奇代替评判
-有了「人是好的」这个前提，面对具体的刺头行为时，我们需要一个实操工具。Dr. Becky 坦言自己极度缺乏耐心，任何理论如果没法落地成具体行动，她都受不了 <button class="pd-ts" data-t="22:17" data-who="Dr. Becky Kennedy" data-en="Talk about that and how that might relate to work. Yeah. I've realized I have an allergy to ideas that don't have action." aria-label="回原文"></button>。于是她创造了「[[最宽容解读|最宽容解读]]」（MGI, Most Generous Interpretation）。
-人很容易对别人的行为做出「最不宽容的解读」，比如看到孩子不听话，第一反应是觉得他是个反社会狂 <button class="pd-ts" data-t="23:30" data-who="Dr. Becky Kennedy" data-en="I think we all do that naturally, at least I do. Like, I see my kid not listening and laughing if I'm trying to discipline. And my first thought is, I think my kid's a sociopath." aria-label="回原文"></button>。但这往往源于当事人缺乏某种技能或安全感。如果你换成最宽容的解读——比如「他是在争取掌控感」——你不仅能重新喜欢上对方，还能想出完全不同的干预手段 <button class="pd-ts" data-t="24:33" data-who="Dr. Becky Kennedy" data-en="And when I started using an MGI, a couple things happened. I realized I liked my kid again. And I think we don't talk about that enough as parents, that that's the thing that keeps us up at night." aria-label="回原文"></button>。在职场也一样：开会时有人总是纠缠于自己的观点不放。最不宽容的解读是「这人真爱出风头」；而最宽容的解读可能是「他之前是不是没被倾听过？」基于此，你才能私下和他展开有建设性的对话，而不是任由整个团队陷入对他的抱怨 <button class="pd-ts" data-t="24:56" data-who="Dr. Becky Kennedy" data-en="I think the same thing is true at work. Someone, I don't know, is belaboring their point in a meeting, when everyone else has gone on. And maybe the least generous interpretation, maybe is what I was reacting to in your initial question is, oh, they're being a baby or everyone just is vain." aria-label="回原文"></button>。本质上，好奇和评判是对立的：当你保持好奇时，你就无法做出评判 <button class="pd-ts" data-t="26:12" data-who="Dr. Becky Kennedy" data-en="Those are two things also that I think are in opposition. You inherently cannot be judgmental when you're curious. And when you're judgmental about something, you're inherently not curious about it." aria-label="回原文"></button>。
+## 完美是很诡异的,搞砸了才需要"修复"
 
-## 稳健的领导者：共情但不被吞没
-学会了解读人心，最后我们来看看领导者自己该保持什么样的状态。Dr. Becky 用了一个绝妙的飞行隐喻来解释什么是「[[稳健的领导者|稳健的领导者]]」。想象飞机遇到强烈颠簸，乘客惊慌尖叫。机长有三种广播方式：
-第一种是斥责型：「你们慌什么？别叫了，搞得大家都很糟！」——这在职场就像领导对抱怨的员工说「别抱怨了」，只会让人觉得领导没意识到危险，甚至因情绪失控而让人更没安全感 <button class="pd-ts" data-t="37:01" data-who="Dr. Becky Kennedy" data-en="The third one's going to be the sturdy one, the first two, not as much. So the first one is some version of, What are you freaking out about? Stop screaming." aria-label="回原文"></button>。
-第二种是交出权力型：「听到你们尖叫我也很焦虑，谁想来开飞机？」——这就像领导者为了迎合员工，把本该自己做的决策变成寻求全员共识，这会让员工感到极度恐惧 <button class="pd-ts" data-t="37:48" data-who="Dr. Becky Kennedy" data-en="The second version is also not sturdy. And I think we've a little bit, at least in parenting, over corrected to this, which is a pilot saying like, I hear you screaming." aria-label="回原文"></button>。
-第三种才是稳健型：「我听到你们的尖叫，这确实很颠簸。但我知道我在做什么，这种湍流吓不到我。我要回去开飞机了，洛杉矶见。」——即便颠簸依旧，乘客也会松一口气 <button class="pd-ts" data-t="38:47" data-who="Dr. Becky Kennedy" data-en="Now, to me is the third announcement that I want to hear, when it's really turbulent, is something like this. I hear everyone screaming back there, that makes sense." aria-label="回原文"></button>。
-稳健领导者的核心特质在于两点：他能把别人的情感体验视为真实的，但他自己不会被这些情绪压倒。这就好比你告诉孩子关掉电视，孩子哭闹时，你共情他的难过，但绝不退让规则 <button class="pd-ts" data-t="39:35" data-who="Dr. Becky Kennedy" data-en="I can see someone else's experience as real for them, but I can still hold onto my experience and so I'm not overwhelmed by someone else. So to a kid, it might be saying, look, let's say TV time is over, and my kid does not [inaudible 00:39:42] in my house, when I say TV time is over, I'm turning off the TV." aria-label="回原文"></button>。
+在讲怎么管人之前,得先讲搞砸了怎么办。Dr. Becky 认为,"修复(repair,指在一次表现不佳的互动后,重新回去承担责任、重建[[连接|连接]])"是人际关系的头号策略 <button class="pd-ts" data-t="08:58" data-who="Dr. Becky Kennedy" data-en="Yeah. I think repair is kind of the number one relationship strategy we have. And the thing that keeps us from repairing, which really is the idea of going back to a person after a moment we didn't feel proud of, taking responsibility for our part, maybe acknowledging the impact it had on them and talking about what you would do differently the next time, is actually this very false idea that there's a goal to be perfect." aria-label="回原文"></button>。阻碍我们去修复的,是那种要求完美的虚假执念。她甚至有一句口头禅:"完美是很诡异的" <button class="pd-ts" data-t="09:23" data-who="Dr. Becky Kennedy" data-en="And the thing that keeps us from repairing, which really is the idea of going back to a person after a moment we didn't feel proud of, taking responsibility for our part, maybe acknowledging the impact it had on them and talking about what you would do differently the next time, is actually this very false idea that there's a goal to be perfect." aria-label="回原文"></button>。
 
-## 正确设定界限：只说你将做什么
-既然领导者要坚定，那到底该怎么「坚定」？Dr. Becky 给出了一个能立刻上手测试的界限定义：界限是你告诉别人「你将做什么」，且完全不需要对方做任何事 <button class="pd-ts" data-t="42:27" data-who="Dr. Becky Kennedy" data-en="So, my definition of boundaries, I do like because it's immediately usable and testable. Boundaries are what you tell someone else you will do, and it requires the other person to do nothing." aria-label="回原文"></button>。
-很多时候我们以为在设定界限，其实只是在提要求。比如对孩子说「在电梯里别按所有按钮」——这是要求，成功与否取决于孩子。真正的界限是：「我要站在你和按钮中间，不让你按」 <button class="pd-ts" data-t="43:56" data-who="Dr. Becky Kennedy" data-en="No. A boundary, would be saying, when we go into the elevator, I'm going to stand between you and the button, sweetie, because I'm not going to let you press the buttons, because other people are waiting." aria-label="回原文"></button>。
-> 【背景】注意，如果你设定了一个真正的界限，尤其是新界限，对方（无论是孩子还是同事）很可能会发脾气抗议。不要把这当成你做错了的信号，相反，要告诉自己「一切都在按计划进行」 <button class="pd-ts" data-t="49:26" data-who="Dr. Becky Kennedy" data-en="You're almost oddly sickly grateful for a sign that you set a boundary. And you're like, &quot;Oh, this is actually...&quot; I always say to myself, &quot;This is going according to plan.&quot;" aria-label="回原文"></button>。
+她回忆在心理学研究生院时学到:衡量一段关系(比如亲子、上下级)是否是"[[安全依恋|安全依恋]]"的,从来不是双方从不犯错,而是搞砸之后有没有人愿意去修复 <button class="pd-ts" data-t="10:06" data-who="Dr. Becky Kennedy" data-en="Oh, so secure attachment isn't defined by getting it right all the time? Secure attachment is just defined by, we're all going to mess up, but secure attachment has an adult who's willing to repair?&quot;" aria-label="回原文"></button>。不管是你对孩子吼了一顿,还是在会议上用恶劣的语气打断了下属,事后能坦诚说一句"我之前态度不好,因为我自己压力很大,但这不该怪你",就是重建信任最快的方式 <button class="pd-ts" data-t="10:32" data-who="Dr. Becky Kennedy" data-en="That wasn't your fault and I'm working on staying calmer even when I'm upset.&quot; Or we say to someone, I don't know, on our team, &quot;Hey, earlier in the meeting, I totally cut you off." aria-label="回原文"></button>。
 
-## 韧性优于幸福：我相信你，也相信你的潜力
-前六个原则都指向最后一个终极目标：培养一个有韧性的人，而非追求表面幸福。Good Inside 的整个育儿理念可以浓缩为四个字：「韧性优于幸福」 <button class="pd-ts" data-t="57:30" data-who="Dr. Becky Kennedy" data-en="Talk about just that kind of lesson and how that might translate. One of the chapters in my book and something that guides our whole parenting philosophy is just codified as resilience over happiness." aria-label="回原文"></button>。
-如果在孩子早年，你以「让他快乐」为唯一导向，替他扫清一切不适，这在成年后反而最容易催生焦虑和脆弱。因为真正的幸福来源于我们能够管理最广泛范围的困难情绪（如失望、嫉妒） <button class="pd-ts" data-t="59:00" data-who="Dr. Becky Kennedy" data-en="And so happiness actually comes in adulthood from our ability to manage the widest range of difficult situations. That's what resilience is. It's our ability to handle the widest range of experiences." aria-label="回原文"></button>。这一原则在职场上同样适用：如果你作为管理者，在员工入职前几个月只追求一团和气，从不给建设性批评，等到了第六个月你突然指出问题，员工会觉得天塌了，因为你们之前关系的「地基」太脆弱了 <button class="pd-ts" data-t="61:46" data-who="Dr. Becky Kennedy" data-en="But if you think about it as a building, your first number of months with someone is, you're building the foundation for the whole building, which is the relationship you're going to have." aria-label="回原文"></button>。
-面对陷入挣扎的人，Dr. Becky 给出了一个极具实操性的公式：**「我相信你，我也相信你（的潜力）」** <button class="pd-ts" data-t="62:41" data-who="Dr. Becky Kennedy" data-en="So I think we should ask ourselves, &quot;Well, what am I doing in the nature of my conversations with people that help me build toward that? I'll make it really concrete, because I think so much of dealing with anxiety and struggle, not all of it, but I like a good formula, is this combination of, &quot;I believe you and I believe in you.&quot;" aria-label="回原文"></button>。想象对方掉进了一个小坑里，你需要做的是把一只脚伸进坑里，共情他的困境（我相信你确实很难受）；但你的另一只脚必须稳稳踩在坑外，拉他出来，看到比他当下更有能力的自己（我相信你能搞定这个难题，绝不把项目从你手里夺走） <button class="pd-ts" data-t="66:42" data-who="Dr. Becky Kennedy" data-en="So what do you need as a relational species? You need someone you trust to have one foot in the hole with you. You do." aria-label="回原文"></button>。
+修复成功的前提,是你得先把对方当成一个"完整的人"去连接,这就引出了她的另一个核心动作——"纠正前先连接"。
+
+## 想让人听话,你得先"进到他的世界里"
+
+说完了修复的重要性,来看看具体怎么实操。Dr. Becky 提出"纠正前先连接(connecting before correcting,指在要求别人改变行为前,先建立情感共鸣)" <button class="pd-ts" data-t="11:05" data-who="Lenny" data-en="And when trust and connection are reestablished, then whether it's your kid or someone at work, they cooperate better, you don't get into conversations that are kind of run on conversations that are really an act of defensiveness and you can just get a lot more done." aria-label="回原文"></button>。她举了个生动的例子:如果你刚在沙发上躺下,你丈夫突然走过来说"立刻起来跟我一起报税",你肯定不想动;但如果他说"我知道你刚坐下,但咱们今晚必须把税务弄完,咱们一起搞定好吗",你配合的概率就会飙升 <button class="pd-ts" data-t="11:45" data-who="Dr. Becky Kennedy" data-en="And let's say my husband comes out and just says, &quot;Becky, we have to do our taxes.&quot; And you're watching the scene and you see me say, &quot;Whoa, I just sat down to read a book.&quot;" aria-label="回原文"></button>。
+
+连接的本质,就是你走到对方的世界里,搭一座桥,对方才愿意走回你的世界去干活 <button class="pd-ts" data-t="12:43" data-who="Dr. Becky Kennedy" data-en="Because he sees me in my reality as a full human being, not just as an object in his world to get something done. He kind of joins my world where I'm embedded in my own priorities and by doing that forms a bridge, that's what connection is." aria-label="回原文"></button>。但这件事极难,因为对很多职场高效人士来说,效率和建立关系是天然对立的。倾听别人时心里默念"快点说重点",是效率驱动的本能 <button class="pd-ts" data-t="16:46" data-who="Dr. Becky Kennedy" data-en="And a lot of us who can be very efficient and get things done, we can have a little morality about it. We listen to someone's story, we're like, &quot;Come on, get to the point.&quot;" aria-label="回原文"></button>。真正的连接,要求你放下议程,哪怕是 30 秒不带目的地看着对方 <button class="pd-ts" data-t="14:36" data-who="Dr. Becky Kennedy" data-en="Is trying to get into a kind of without an agenda mindset, even if it's for 30 seconds with someone. Being present with someone without an agenda is increasingly hard to do, but that is what connection is about." aria-label="回原文"></button>。
+
+建立连接很难,但更难的是在对方表现糟糕时,依然能稳住心态,这就需要用到一个强力视角。
+
+## "内心是好的":把行为和身份拆开看
+
+连接之所以容易断裂,是因为当别人做错事时,我们习惯性的反应是给人贴标签。这就引出了 Dr. Becky 最核心的理念:"内心是好的"。她说,要做到这一点,必须把"行为"和"身份"严格分开 <button class="pd-ts" data-t="18:27" data-who="Dr. Becky Kennedy" data-en="No. And I think that's actually the other thing that's core to Good Inside is the idea of being good inside inherently requires us to separate behavior and identity." aria-label="回原文"></button>。
+
+> 【背景】"Good Inside"(内心是好的)是 Dr. Becky 的书名、公司名和方法论核心。它主张人的本性是向善的,不良行为不代表这个人本质不好。
+
+比如有个员工总迟到。最习惯的推断是"这人真懒"(把行为等同于身份)。但"内心是好的"视角会说:"这是一个迟到了的好人" <button class="pd-ts" data-t="18:56" data-who="Dr. Becky Kennedy" data-en="Right? Seeing that person as good inside starts with this sentence, &quot;This is a good person who is late.&quot; Right?" aria-label="回原文"></button>。一旦你觉得别人在攻击你的身份(比如觉得老板在暗示你是个坏人),你就会开启防御机制,连讨论行为本身(迟到)都做不到了 <button class="pd-ts" data-t="19:27" data-who="Dr. Becky Kennedy" data-en="Because we all know what it's like to feel defensive. Do you know why we're defensive? Because we think someone else, instead of talking about our behavior, is talking about our identity." aria-label="回原文"></button>。
+
+为了把"内心是好的"从一个口号变成可操作的工具,她又往前推了一步,提出了一个思维工具。
+
+## 最宽容的解读(MGI):用好奇代替评判
+
+理念说完了,具体遇到事情脑子里该怎么转过来?Dr. Becky 给出的实操工具叫"最宽容的解读"(MGI,Most Generous Interpretation,指在遇到令你不快的行为时,刻意为对方找一个最善意、最合理的动机)<button class="pd-ts" data-t="22:09" data-who="Lenny" data-en="Yeah. This connects to something else that you teach, which is the MGI, the most generous interpretation. Talk about that and how that might relate to work." aria-label="回原文"></button>。她说自己对纯理论过敏,必须得有行动抓手 <button class="pd-ts" data-t="22:17" data-who="Dr. Becky Kennedy" data-en="Talk about that and how that might relate to work. Yeah. I've realized I have an allergy to ideas that don't have action." aria-label="回原文"></button>。
+
+比如在开会时,有个人没完没了地重复自己的观点,所有人都烦他。"最不宽容的解读"是:这人就是个爱出风头的混蛋。而"最宽容的解读"可能是:他觉得自己之前没被真正听见 <button class="pd-ts" data-t="25:13" data-who="Dr. Becky Kennedy" data-en="My most generous interpretation, I don't know, could be a variety of things. Did they not feel heard the first time? Still doesn't make them going on forever, acceptable." aria-label="回原文"></button>。基于这个解读,你私下找他聊,确认了他的不安,就能解开这个恶性循环。Dr. Becky 强调,好奇心和评判是不能共存的——当你对一个人好奇时,你天然就无法评判他 <button class="pd-ts" data-t="26:08" data-who="Dr. Becky Kennedy" data-en="And I mean, that's exactly it. Those are two things also that I think are in opposition. You inherently cannot be judgmental when you're curious." aria-label="回原文"></button>。
+
+但光有心态还不够,真遇到刺头或失控的场面,领导者必须敢于做那个拍板的人。
+
+## 想当好领导,你得像飞机机长一样"坚定"
+
+工具和心态都有了,领导者的底色应该是什么样的?Dr. Becky 用了一个词来形容最理想的领导状态:"坚定"。
+
+她用坐飞机遇到强气流打了个绝妙的比方。飞机颠簸,乘客尖叫。此时机长有三种广播方式。第一种是不耐烦:"叫什么叫?别把小事化大!"(这让你觉得机长压根没意识到危险,更慌了);第二种是过度退让:"大家叫我也很慌,谁想来帮我开会儿飞机?"(这直接让人绝望)<button class="pd-ts" data-t="37:48" data-who="Dr. Becky Kennedy" data-en="The second version is also not sturdy. And I think we've a little bit, at least in parenting, over corrected to this, which is a pilot saying like, I hear you screaming." aria-label="回原文"></button>。
+
+而第三种"坚定"的机长会这么广播:"我知道大家很害怕,这确实很颠簸。但我知道我在做什么,这气流吓不倒我。我现在要回去继续开飞机了,咱们洛杉矶见。" <button class="pd-ts" data-t="38:47" data-who="Dr. Becky Kennedy" data-en="Now, to me is the third announcement that I want to hear, when it's really turbulent, is something like this. I hear everyone screaming back there, that makes sense." aria-label="回原文"></button> 这就是坚定的领导者:你能看到并承认别人的情绪是真实的,但你绝不被别人的情绪吞没,你能稳住自己的阵脚 <button class="pd-ts" data-t="39:17" data-who="Dr. Becky Kennedy" data-en="Now, even if the turbulence is the same, all of a sudden I feel this deep breath, because my worry is contained. This sturdy leader is able to see my emotional experience as real for me and not be overwhelmed by it themself." aria-label="回原文"></button>。
+
+在这个基础上,她开始拆解"坚定"在实际管理中最关键的一个动作——划定界限。
+
+## 划清界限:别让两岁孩子决定全家人的行程
+
+学会了坚定,接下来就是怎么落地去设规矩。Dr. Becky 对"界限"下了一个极为精准的定义:界限是你告诉对方"你会做什么",并且完全不需要对方做任何事 <button class="pd-ts" data-t="42:27" data-who="Dr. Becky Kennedy" data-en="So, my definition of boundaries, I do like because it's immediately usable and testable. Boundaries are what you tell someone else you will do, and it requires the other person to do nothing." aria-label="回原文"></button>。
+
+很多人搞不清这点,把"要求"当成了"界限"。比如对孩子说"如果你再按电梯按钮,今晚就没甜点吃",这是要求,你把权力交给了孩子,还得指望他配合 <button class="pd-ts" data-t="44:33" data-who="Dr. Becky Kennedy" data-en="And in this example, I think one of the places we get into trouble as a parent, is we say, Don't press the buttons. If you press the buttons, no dessert tonight, or whatever, we threaten." aria-label="回原文"></button>。真正的界限是:"进电梯时,我会站到你和按钮中间,我不让你按,因为别人在等" <button class="pd-ts" data-t="43:56" data-who="Dr. Becky Kennedy" data-en="No. A boundary, would be saying, when we go into the elevator, I'm going to stand between you and the button, sweetie, because I'm not going to let you press the buttons, because other people are waiting." aria-label="回原文"></button>。
+
+再比如孩子死活不上车。"界限"不是求他走,而是告诉他:"看来你现在很难走过去。我要转个身深呼吸。等我转回来如果你还在原地,不管你哭不哭,我都会把你抱进车里" <button class="pd-ts" data-t="47:25" data-who="Dr. Becky Kennedy" data-en="I'm going to turn around, I'm going to take a deep breath. And if by the time I turn around, you're still here, I'm going to pick you up. I'm going to carry you to the car." aria-label="回原文"></button>。当你设下真界限时,孩子大概率会撒泼打滚,但这恰恰说明你成功设限了,你得在心里暗自庆幸:"一切都在计划之中" <button class="pd-ts" data-t="49:26" data-who="Dr. Becky Kennedy" data-en="You're almost oddly sickly grateful for a sign that you set a boundary. And you're like, &quot;Oh, this is actually...&quot; I always say to myself, &quot;This is going according to plan.&quot;" aria-label="回原文"></button>。领导者也是一样,有些时候你必须基于自己掌握的独家信息做决定,不能一味求共识。
+
+界限守住了,人可能还是会情绪崩溃。面对崩溃的人,领导者该说什么?她给了一个万能公式。
+
+## 应对焦虑的万能公式:我相信你 + 我相信你能行
+
+工具、界限都有了,但如果下属真的被任务压垮了怎么办?Dr. Becky 给出了一个极其好用的公式。面对焦虑的人,你的话要包含两层意思:"我相信你"和"我相信你能行" <button class="pd-ts" data-t="62:54" data-who="Dr. Becky Kennedy" data-en="I'll make it really concrete, because I think so much of dealing with anxiety and struggle, not all of it, but I like a good formula, is this combination of, &quot;I believe you and I believe in you.&quot;" aria-label="回原文"></button>。
+
+她打了个比方:当人陷入困境时,就像掉进了一个没光的小洞里。作为领导者,你需要一只脚迈进洞里陪他(我相信你,我看到你的痛苦,这很合理),另一只脚牢牢踩在外面(我相信你能行,我知道你能搞定)<button class="pd-ts" data-t="66:45" data-who="Dr. Becky Kennedy" data-en="You need someone you trust to have one foot in the hole with you. You do. That's the I believe you part." aria-label="回原文"></button>。如果你只说"加油你能行",那是没有共情;如果你跟着一起哭天抢地,那是把两个人都拽进了洞底。
+
+具体的说法是:"我相信你,这个项目确实很难,换我我也会紧张。但我没把项目从你手里拿走,是因为我知道你能搞定,而且当你完成时,你会为自己感到骄傲。我不会夺走这种骄傲" <button class="pd-ts" data-t="63:51" data-who="Dr. Becky Kennedy" data-en="And the way you're going to feel at the end, you're going to feel so proud of yourself. And I don't want to take away the project from you, because I kind of think I'm taking away that feeling." aria-label="回原文"></button>。
+
+不抢下属的活儿让他自己搞定,这不仅是个沟通技巧,背后其实藏着更深的组织文化导向,这也是全集最后落点的大原则。
+
+## 韧性优于快乐:别把公司办成安乐窝
+
+讲完了具体的沟通技巧,最后来看看大方向。Dr. Becky 把 Good Inside 整个育儿哲学概括为四个字:"韧性优于快乐" <button class="pd-ts" data-t="57:38" data-who="Dr. Becky Kennedy" data-en="One of the chapters in my book and something that guides our whole parenting philosophy is just codified as resilience over happiness. And I don't know if you hear this, Lenny, but I used to hear this all the time and I couldn't let myself let this small talk moment go." aria-label="回原文"></button>。
+
+很多人(不管是父母还是老板)总是想让孩子或下属"开心",一有冲突就立刻摆平,一有困难就立刻帮其逃避。但在她看来,从小只追求快乐,是长大后制造焦虑和脆弱的最快方式 <button class="pd-ts" data-t="58:11" data-who="Dr. Becky Kennedy" data-en="But I think if we zoom out, especially in childhood that I think I can make a parallel to work, too, optimizing for happiness in childhood is the quickest way to build anxiety and fragility in adulthood." aria-label="回原文"></button>。因为真正的成年人的快乐,恰恰来自于"我能搞定各种烂摊子"的能力。
+
+她举了 Kim Scott 的彻底坦诚里的例子:老板因为怕伤感情,九个月都不给下属纠错反馈,最后只能直接开除,下属反而更受打击 <button class="pd-ts" data-t="60:42" data-who="Lenny" data-en="You're better off. I think it was Kim Scott from Radical Candor had this great story where she had someone she was working with, he was doing a bad job. She didn't want to upset him." aria-label="回原文"></button>。为了短期安逸而回避困难对话,是在给团队的地基掺沙子。所以,要敢于让别人经历不适,你是在帮他长出应对世界的能力。
 
 ## 本集带走
-1. **把行为和身份分开**：面对他人的不良行为，不要急于给对方贴上「懒」或「坏」的道德标签。开启对话前先假设「这是一个聪明的好人」，然后探讨为什么行为没达到预期。
-2. **界限不是要求**：真正的界限不需要对方做任何事。不要说「以后开会请准时」（这是请求），而是决定你将采取的行动，比如设定无容忍机制，并且把对方随之而来的愤怒抗议视为界限生效的成功信号。
-3. **韧性优于幸福**：无论是育儿还是带团队，为了追求表面舒服而回避困难对话，只会让关系的地基变得脆弱。相信对方能搞定难题，往往比替他解决更能培养他的长期能力。
 
-<div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
+最后收个尾,这一集值得带走的是一套能把职场和育儿打通的底层心法。第一,把人当成完整的个体看待。无论多大岁数,人的底层需求都一样,搞砸了别怕,主动去"修复",因为在一段关系里,有没有修复才决定了它安不安全。第二,改变别人前先建立连接,当别人犯错时,用"最宽容的解读"去把行为和身份分开,用好奇心代替评判。第三,做一个"坚定"的领导者,懂得设下真正不需要对方做什么的"界限",能在动荡中稳住阵脚而不被情绪吞没。最后,永远记得"韧性优于快乐",遇上难搞的事,用"我相信你"加上"我相信你能行"的组合拳去支持别人,克制住帮他扫清一切障碍的本能,因为搞定困难的经历本身,就是一个人最珍贵的资产。
+
+<div class="pd-sec">全部金句 <span>12 条(中英对照,已过机器闸门)</span></div>
 
 > <span class="qz">我认为修复是我们拥有的头号关系策略。</span>  
 > *I think repair is kind of the number one relationship strategy we have.*  
@@ -94,9 +137,9 @@ tags:
 > *Secure attachment is just defined by, we're all going to mess up, but secure attachment has an adult who's willing to repair?*  
 > <span class="qm">—— Dr. Becky Kennedy · [10:06]</span> ^q2
 
-> <span class="qz">我们感觉到的是人们的意图，而不仅仅是他们的干预。</span>  
-> *We feel people's intention, not just their intervention.*  
-> <span class="qm">—— Dr. Becky Kennedy · [13:47]</span> ^q3
+> <span class="qz">没有任何东西能像修复那样重新建立信任和连接。</span>  
+> *There's just nothing to reestablish trust and connection like repair.*  
+> <span class="qm">—— Dr. Becky Kennedy · [10:47]</span> ^q3
 
 > <span class="qz">“内心是好的”这一理念本质上要求我们将行为和身份区分开来。</span>  
 > *The idea of being good inside inherently requires us to separate behavior and identity.*  
@@ -106,21 +149,33 @@ tags:
 > *The quickest way to have an unproductive conversation is to lose sight of the fact that someone's good inside.*  
 > <span class="qm">—— Dr. Becky Kennedy · [19:47]</span> ^q5
 
-> <span class="qz">当你感到好奇时，你天生就无法做出评判。当你对某事做出评判时，你天生就对它没有好奇心。</span>  
-> *You inherently cannot be judgmental when you're curious. And when you're judgmental about something, you're inherently not curious about it.*  
-> <span class="qm">—— Dr. Becky Kennedy · [26:12]</span> ^q6
-
-> <span class="qz">任何年龄的不良行为基本上都可以归结为感觉压倒了技能。</span>  
-> *Bad behavior at any age can basically be reduced to feelings that overpower skills.*  
-> <span class="qm">—— Dr. Becky Kennedy · [29:12]</span> ^q7
+> <span class="qz">当你通过感觉压倒技能的视角来看待不良行为时，你开始像一个教练那样思考。</span>  
+> *When you look at bad behavior through the lens of feelings that overpower skills, you start to think like a coach.*  
+> <span class="qm">—— Dr. Becky Kennedy · [30:01]</span> ^q6
 
 > <span class="qz">界限是你告诉别人你会做什么，它要求对方什么都不做。</span>  
 > *Boundaries are what you tell someone else you will do, and it requires the other person to do nothing.*  
-> <span class="qm">—— Dr. Becky Kennedy · [42:27]</span> ^q8
+> <span class="qm">—— Dr. Becky Kennedy · [42:27]</span> ^q7
 
-> <span class="qz">这感觉很难，是因为它本来就难，而不是因为我做错了什么。</span>  
+> <span class="qz">当你感到好奇时，你天生就无法做出评判。</span>  
+> *You inherently cannot be judgmental when you're curious.*  
+> <span class="qm">—— Dr. Becky Kennedy · [26:12]</span> ^q8
+
+> <span class="qz">如果你不紧张，我反而会紧张。</span>  
+> *I'd be nervous if you weren't nervous.*  
+> <span class="qm">—— Dr. Becky Kennedy · [63:21]</span> ^q9
+
+> <span class="qz">在童年时期优化快乐是在成年期建立焦虑和脆弱的最快方式。</span>  
+> *Optimizing for happiness in childhood is the quickest way to build anxiety and fragility in adulthood.*  
+> <span class="qm">—— Dr. Becky Kennedy · [58:05]</span> ^q10
+
+> <span class="qz">这感觉很难,是因为它本来就难,而不是因为我做错了什么。</span>  
 > *This feels hard because it is hard, not because I'm doing something wrong.*  
-> <span class="qm">—— Dr. Becky Kennedy · [88:52]</span> ^q9
+> <span class="qm">—— Dr. Becky Kennedy · [88:52]</span> ^q11
+
+> <span class="qz">我们的孩子只能学会容忍我们在他们身上容忍的感觉。</span>  
+> *Our kids can only learn to tolerate the feelings we tolerate in them.*  
+> <span class="qm">—— Dr. Becky Kennedy · [59:35]</span> ^q12
 
 *本集关键词:职场心理 · 亲子教育 · 领导力 · 人际沟通 · 韧性*
 

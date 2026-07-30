@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]]**(00:19起):嘉宾过往主导的知名分布式计算框架，强调库的可组合性与生态开放。Databricks 此次开源智能体底座 Omnigen 正是沿袭了当年 Spark 开源带动网络效应、众人贡献连接器的哲学。
+- **[[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]]**(00:19起):嘉宾过往主导的知名分布式计算框架，强调库的可组合性与生态开放。Databricks 此次开源智能体底座 Omnigen 正是沿袭了当年 Spark 开源带动网络效应、众人贡献连接器的哲学。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]] — 作为概念
+- [[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]] — 作为概念
 
 ## ③ 关联
 

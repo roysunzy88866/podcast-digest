@@ -12,7 +12,7 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]]**(02:01起):本集在介绍嘉宾履历及讨论 AI 早期进展时提及,说她曾是首席 AI 科学家,并曾在那里与 Jeff Dean、Geoff Hinton 等人共事。
-- **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]]**(48:26起):本集提到它曾是硅谷的顶级掠食者,坐拥地球上最好的工程师和大量现金流,但由于自身企业文化的惯性,却无法在社交媒体战争中打赢崛起的 Facebook。
+- **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]]**(48:26起):本集提到它曾是硅谷的顶级掠食者,坐拥地球上最好的工程师和大量现金流,但由于自身企业文化的惯性,却无法在社交媒体战争中打赢崛起的 Facebook。
 - **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]]**(00:19起):本集提到作为对比，指出 Anthropic 历史上在资金和分发渠道上不及 Meta 或 Google。
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(01:22起):本集提到嘉宾曾任高管的公司，并且讨论了其过去曾需要多少人来维持运营的间接费用问题。
 - **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(03:53起):本集将其描述为利用分发优势强推 Gemini 的巨头，并指出对普通人来说很难分清 Gemini 和 Claude 的区别。
@@ -26,7 +26,7 @@ unlisted: true
 *9 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司(提及)
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] — 作为被讨论公司(提及)
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为被讨论公司(提及)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为被讨论公司(提及)
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为被讨论公司(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司

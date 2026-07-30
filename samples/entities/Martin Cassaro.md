@@ -13,7 +13,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《World Labs 收购机器人公司：教 AI 理解物理世界》]] — 作为联合主持
+- [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理》]] — 作为联合主持
 
 ## ③ 他谈到的
 

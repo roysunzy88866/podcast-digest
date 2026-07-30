@@ -11,7 +11,7 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]]**(01:49起):本集将其作为自动驾驶的一种主流路线代表,特点是传感器少、不需要高保真地图、成本更低,并在电动车上受制于盈利要求而面临艰难的商业环境。
+- **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]]**(01:49起):本集将其作为自动驾驶的一种主流路线代表,特点是传感器少、不需要高保真地图、成本更低,并在电动车上受制于盈利要求而面临艰难的商业环境。
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(85:10起):本集闪电轮中讨论的汽车公司，嘉宾非常推崇其最新版本的自动驾驶功能，并建议其采用推荐赠送模式以促成病毒式增长。
 - **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]]**(00:06起):本集探讨了其与 SpaceX 合并是否具有可行性，主持人认为两者本质上都是对埃隆·马斯克的押注，合并几乎不可避免。
 - **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]]**(37:59起):本集提到它在自动驾驶领域与 NVIDIA 合作，称以前 NVIDIA 在它们的车里，现在主要在它们的数据中心。
@@ -27,7 +27,7 @@ unlisted: true
 
 *5 集*
 
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] — 作为被讨论公司
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为被讨论公司
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为被讨论公司(提及)
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为被讨论公司
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]] — 作为被讨论公司

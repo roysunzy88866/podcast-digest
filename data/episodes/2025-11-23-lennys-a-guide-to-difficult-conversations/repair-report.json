@@ -18,7 +18,7 @@
     },
     {
       "i": 3,
-      "timestamp": "13:44",
+      "timestamp": "13:45",
       "speaker": "Rachel Lockett",
       "trimmed": false,
       "tsWas": "13:44",
@@ -26,52 +26,58 @@
     },
     {
       "i": 4,
-      "timestamp": "57:19",
+      "timestamp": "73:17",
       "speaker": "Rachel Lockett",
       "trimmed": false,
-      "tsWas": "57:19",
+      "tsWas": "53:00",
       "spkWas": "Rachel Lockett"
     },
     {
       "i": 5,
-      "timestamp": "65:27",
+      "timestamp": "00:32",
       "speaker": "Rachel Lockett",
       "trimmed": false,
-      "tsWas": "65:14",
+      "tsWas": "32:33",
       "spkWas": "Rachel Lockett"
     },
     {
       "i": 6,
-      "timestamp": "NaN:NaN",
+      "timestamp": "44:25",
       "speaker": "Rachel Lockett",
       "trimmed": false,
-      "tsWas": "61:50",
+      "tsWas": "44:25",
       "spkWas": "Rachel Lockett"
     },
     {
       "i": 7,
-      "timestamp": "73:17",
+      "timestamp": "01:12",
       "speaker": "Rachel Lockett",
-      "trimmed": false,
-      "tsWas": "73:17",
+      "trimmed": true,
+      "tsWas": "12:12",
       "spkWas": "Rachel Lockett"
     },
     {
-      "i": 8,
-      "timestamp": "84:24",
+      "i": 9,
+      "timestamp": "86:46",
       "speaker": "Lenny",
       "trimmed": false,
-      "tsWas": "84:24",
-      "spkWas": "Lenny"
+      "tsWas": "86:46",
+      "spkWas": "Rachel Lockett"
     },
     {
-      "i": 9,
+      "i": 10,
       "timestamp": "101:22",
       "speaker": "Rachel Lockett",
-      "trimmed": true,
+      "trimmed": false,
       "tsWas": "101:22",
       "spkWas": "Rachel Lockett"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 8,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "So the only difference is a marriage is rooted in sexual attraction and love, and that's not the case always in the co-founder dynamic. But there should be some element of love for your co-founder."
+    }
+  ]
 }

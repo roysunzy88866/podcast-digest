@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《超音速客机卷土重来：Boom 如何用软件思维重塑硬件制造》]]**(15:12起):本集把它说成：Boom 用于设计引擎叶片的工具，只需几个工程师就能实时更改叶片设计，并确切看到它在结构和气动上的表现，把过去几十名工程师耗时数月的过程缩短到实时。
+- **[[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《让超音速飞行重返天空:Boom 用小团队重写硬件制造》]]**(15:12起):本集把它说成：Boom 用于设计引擎叶片的工具，只需几个工程师就能实时更改叶片设计，并确切看到它在结构和气动上的表现，把过去几十名工程师耗时数月的过程缩短到实时。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《超音速客机卷土重来：Boom 如何用软件思维重塑硬件制造》]] — 作为概念
+- [[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《让超音速飞行重返天空:Boom 用小团队重写硬件制造》]] — 作为概念
 
 ## ③ 关联
 

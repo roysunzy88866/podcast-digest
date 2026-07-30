@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《Lenny 挨老婆采访:致幻剂、跑步机和五万分之一》]]**(07:29起):本集把它说成:Lenny 早期在网上写文章的地方,他在这里写的第一篇关于 Airbnb 经历的文章被推荐并四处传播,这让他觉得自己可能有东西可以分享
+- **[[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石》]]**(07:29起):本集把它说成:Lenny 早期在网上写文章的地方,他在这里写的第一篇关于 Airbnb 经历的文章被推荐并四处传播,这让他觉得自己可能有东西可以分享
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《Lenny 挨老婆采访:致幻剂、跑步机和五万分之一》]] — 作为被讨论公司
+- [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石》]] — 作为被讨论公司
 
 ## ③ 关联
 

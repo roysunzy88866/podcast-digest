@@ -1,5 +1,5 @@
 ---
-title: "让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏"
+title: "当 AI 变成黑客武器:给企业智能体修防火墙"
 podcast: Latent Space
 date: 2026-06-22
 source_url: https://www.latent.space/p/gray-swan
@@ -7,7 +7,7 @@ duration: "66:13"
 type: episode
 cover: "#0e7490"
 image: "/covers/2026-06-22-latent-space-gray-swan.jpg"
-description: "CMU学者创办Gray Swan,通过社区与自动化红队测试找出AI漏洞,并用专用模型Signal拦截提示注入,守护企业AI部署。"
+description: "Gray Swan 做的是给 AI 系统打补丁的生意:一边让机器自动找出模型漏洞,一边给企业智能体加一道可定制的防护栏。"
 guests: ["[[Zico Kolter]]", "[[Matt Fredrikson]]"]
 companies: ["[[Gray Swan]]"]
 concepts: ["[[智能体]]", "[[红队测试]]", "[[提示词注入]]", "[[越狱]]", "[[护栏]]", "[[沙箱]]", "[[可解释性]]", "[[致命三角]]", "[[arena]]", "[[Shade]]", "[[Signal]]", "[[OpenClaw]]"]
@@ -17,9 +17,9 @@ tags:
   - 智能体
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>当 AI 变成黑客武器:给企业智能体修防火墙</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# 让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏
+# 当 AI 变成黑客武器:给企业智能体修防火墙
 
 <div class="pd-byl"><b>Zico Kolter</b> · Gray Swan 创始人</div>
 
@@ -27,7 +27,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-06-22-latent-space-gray-swan.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">如果你在每个人都在使用的智能体中发现漏洞,像 Codex 和 Cloud Code 这样的东西,你现在实际上基本上就可以拥有一种新的漏洞利用,一类新的漏洞利用。</div><div class="a">Zico Kolter · 03:37</div></div>
+<div class="pd-hook"><div class="z">这个问题在于前沿模型在自动化红队测试方面极其糟糕,因为它们内置了大量的保障措施。</div><div class="a">Zico Kolter · 09:59</div></div>
 
 > [!info] 关联
 > **人物** [[Zico Kolter]] · [[Matt Fredrikson]]
@@ -38,91 +38,73 @@ tags:
 >
 > **来源** [Latent Space](https://www.latent.space/p/gray-swan)
 
-<div class="pd-tldr"><b>一句话</b>CMU学者创办Gray Swan,通过社区与自动化红队测试找出AI漏洞,并用专用模型Signal拦截提示注入,守护企业AI部署。</div>
+<div class="pd-tldr"><b>一句话</b>Gray Swan 做的是给 AI 系统打补丁的生意:一边让机器自动找出模型漏洞,一边给企业智能体加一道可定制的防护栏。</div>
 
-本期嘉宾是 [[Gray Swan|Gray Swan]] 公司的两位创始人 Matt 和 Zico。他们是来自卡内基梅隆大学的学者,已经研究了十多年的深度学习系统安全问题。本期对话的核心是:**当我们把大模型和[[智能体|智能体]]部署到生产环境中时,它们会引入哪些全新的安全漏洞?我们又该如何防范?** 全文将围绕两条线索展开:前半部分讲他们如何通过「[[红队测试|红队测试]](指模拟黑客攻击来主动找出系统漏洞)」发掘模型的软肋,后半部分讲他们如何通过专门的过滤模型来为企业构筑安全防线。
+把一个能自主操作你电脑、读写你数据库的[[智能体|智能体]]放到生产环境里,它随时可能被一条它刚好读到的网页「劫持」,把你的私密凭证发到攻击者的手里——这不是假设,而是已经有企业因此遭受了真实损害。说这话的是 Matt 和 Zico,他们是 AI 安全公司 [[Gray Swan|Gray Swan]] 的创始人。<button class="pd-ts" data-t="00:42" data-who="Matt Fredrikson" data-en="your sort of startup domain? Yeah. So, you know, at GraySwan, our mission is to empower everyone to use AI safely and securely." aria-label="回原文"></button>
 
-## 为什么 AI 需要一种全新的安全思维
+在这一集对谈里,他们两位来自卡内基梅隆的创始人讲了三件事:AI 安全为什么和传统的软件安全截然不同,为什么不能指望模型变大就能自动变安全;他们自建的机器红队 [[Shade|Shade]] 和人类顶尖红队成员较量后发生了什么;以及给企业智能体套上「防火墙」的 [[Signal|Signal]] 模型到底卡在了可用性和安全性的哪一个点上。结尾他们还回答了一个所有人都在问的问题:当工程师强行要把能自主操作电脑的 [[OpenClaw|OpenClaw]] 塞进银行网络里,光靠 AI 层面的[[护栏|护栏]]到底够不够。
 
-要理解 Gray Swan 在做什么,首先要明白:AI 系统的安全风险,和传统软件截然不同。Zico 指出,AI 系统有一种本质上不同类型的漏洞——它们能被欺骗,就像人类有时会被骗一样 <button class="pd-ts" data-t="03:13" data-who="Zico Kolter" data-en="I just mean that AI systems have inherent different types of vulnerabilities. They can be tricked like people get tricked sometimes, right? And so you need a different mindset about security, right?" aria-label="回原文"></button>。
+### AI 系统的漏洞,和传统软件完全不是一回事
 
-更严峻的是相关故障(correlated failures,指多个系统因为同一个缺陷同时崩溃)的风险。因为大家都在使用少数几个相同的底层模型,如果你在像 Codex 或 Cloud Code 这样大家通用的智能体里找到了漏洞,你就拥有了一类全新的、可以广泛利用的攻击方式 <button class="pd-ts" data-t="03:42" data-who="Zico Kolter" data-en="And if you find vulnerabilities in the agents that everyone uses, right, things like Codex and Cloud Code," aria-label="回原文"></button>。因此,我们不能完全依赖模型厂商内部的自我审查。就像任何新平台出现时一样,独立于平台之外的第三方安全服务是必需的 <button class="pd-ts" data-t="04:21" data-who="Zico Kolter" data-en="But there's just like in most domains, when a new platform emerges, It's very common for there to also emerge a security system separate from it, right? In addition to it as a separate service that's provided." aria-label="回原文"></button>。Gray Swan 正是定位于此:他们帮前沿实验室(如 Anthropic)测试模型对提示注入的鲁棒性,也帮企业防御由 AI 带来的安全隐患 <button class="pd-ts" data-t="05:39" data-who="Zico Kolter" data-en="And so this is not about using AI to make your cyber infrastructure better. Gray Swan is about understanding the security risks that you are bringing when you adopt AI and when you deploy AI and mitigating those risks." aria-label="回原文"></button>。
+说完了开场提到的智能体被劫持的风险,接下来要弄明白的第一件事是:AI 的安全问题,为什么值得单独拎出来做成一桩生意。Zico 的核心观点是,AI 系统具有本质上不同类型的漏洞。它们不像传统软件那样只是死板的代码,而是能被像人一样「欺骗」 <button class="pd-ts" data-t="03:13" data-who="Zico Kolter" data-en="I just mean that AI systems have inherent different types of vulnerabilities. They can be tricked like people get tricked sometimes, right? And so you need a different mindset about security, right?" aria-label="回原文"></button>。更可怕的是「相关故障」:现在的软件世界看起来百花齐放,但实际上所有人都在共用极少数的几个大模型。一旦有人在这些被广泛使用的智能体(比如 Codex 和 Cloud Code)里找到了漏洞,那就等于找到了一类全新的、可以同时打击所有人的漏洞利用方式 <button class="pd-ts" data-t="03:42" data-who="Zico Kolter" data-en="And if you find vulnerabilities in the agents that everyone uses, right, things like Codex and Cloud Code," aria-label="回原文"></button>。所以,Zico 认为,就像任何新平台诞生后都会催生出独立的安全服务商一样,AI 时代也需要专门的安全提供商。Gray Swan 要解决的不是「用 AI 去防御传统网络攻击」,而是「解决引入 AI 本身带来的新风险」 <button class="pd-ts" data-t="05:35" data-who="Zico Kolter" data-en="their AI systems themselves have the potential to introduce new vulnerabilities. And so this is not about using AI to make your cyber infrastructure better. Gray Swan is about understanding the security risks that you are bringing when you" aria-label="回原文"></button>。
 
-## AI 与人类的博弈:红队测试
+### 机器打手 Shade:专门找模型茬的红队智能体
 
-说完了为什么 AI 需要独立的安全视角,接下来是他们具体怎么找出漏洞。Gray Swan 主要用两种方式进行「红队测试」。
+弄清楚了为什么 AI 需要全新的安全思维,接下来是 Gray Swan 具体怎么找出这些漏洞。Gray Swan 主要做两件事,第一件就是「[[红队测试|红队测试]]」——也就是主动去攻击模型,赶在坏人之前找到它的软肋。他们搞了一个叫「竞技场」的社区,吸引来了大约 15000 人,用发奖金的方式悬赏大家来挑战各大前沿实验室的模型 <button class="pd-ts" data-t="08:24" data-who="Matt Fredrikson" data-en="It's a really great community. Like 15,000 people come and hang out on the Discord server. Not all of them take part in every competition," aria-label="回原文"></button>。
 
-第一种是发动社区的力量。他们运营着一个叫做「竞技场」的社区,通过提供奖金池,将红队测试的目标游戏化,鼓励大家来找茬。目前大约有 15,000 人活跃在这个平台上 <button class="pd-ts" data-t="08:24" data-who="Matt Fredrikson" data-en="It's a really great community. Like 15,000 people come and hang out on the Discord server. Not all of them take part in every competition," aria-label="回原文"></button>。有趣的是,许多顶尖的红队测试员并非传统的程序员。比如他们特别提到的一位名叫 Wyatt 的高手,他的本职工作其实是一名律师 <button class="pd-ts" data-t="13:09" data-who="Zico Kolter" data-en="He's the lawyer, I think. He is, he's an attorney. They're tracks." aria-label="回原文"></button>。
+但人工找漏洞毕竟慢,所以他们训练了一个专门用来做自动化红队测试的模型,起名叫 Shade。有意思的是,Zico 指出,各大实验室那些个头极大的前沿模型,自己是干不了红队测试这活的,因为它们内置了太多安全护栏,你让它去攻击别的模型,它自己就先拒绝了 <button class="pd-ts" data-t="10:03" data-who="Zico Kolter" data-en="the issue with this is that frontier models are extremely bad at automated red teaming because they have a lot of safeguards built into them. So if you try to use them to jailbreak another model, they will actually refuse." aria-label="回原文"></button>。你必须专门训练一个模型来干这事。而 Shade 现在在打破模型方面,甚至已经能比人类红队测试员做得更好了 <button class="pd-ts" data-t="11:18" data-who="Zico Kolter" data-en="than human red teamers now at breaking these models. When I say we, I mean our automated red teaming model is a system called Shade. That system is now actually quite a bit better at breaking models now." aria-label="回原文"></button>。
 
-第二种是自动化红队测试。这引出了他们研发的一个核心系统——[[Shade|Shade]]。Zico 提到了一个反直觉的发现:直接用最聪明的前沿模型去「[[越狱|越狱]](指突破安全限制)」其他模型效果很差,因为前沿模型内置了太强的安全[[护栏|护栏]],它们往往会拒绝执行攻击 <button class="pd-ts" data-t="10:07" data-who="Zico Kolter" data-en="teaming because they have a lot of safeguards built into them. So if you try to use them to jailbreak another model, they will actually refuse. Their safety training," aria-label="回原文"></button>。模型并不会仅仅因为变大就变得更安全,你需要专门去训练它 <button class="pd-ts" data-t="10:44" data-who="Zico Kolter" data-en="You have to train them explicitly to be safe or they won't do that. But on the flip side, they're also not necessarily better at red teaming by default. You really sort of need to train specialized models for red teaming to make them" aria-label="回原文"></button>。因此,他们专门训练了 Shade 这个模型来做这件事。结果发现,在限定时间与任务的条件下,Shade 在打破其他模型方面,已经能比人类红队测试员做得更好 <button class="pd-ts" data-t="11:29" data-who="Zico Kolter" data-en="That system is now actually quite a bit better at breaking models now. I think we had a recent competition between humans and our model and it was actually quite a bit better." aria-label="回原文"></button>。
+为了更直观地对比,他们最近还搞了一场叫做「人类浏览器智能体鲁棒性挑战」的有趣比赛。他们让红队成员去攻击操作浏览器的 AI 智能体,或者去网络钓鱼真人,结果让人意外:有些前沿模型非常非常容易被提示注入,而人类在所有模型中居然只排名第四 <button class="pd-ts" data-t="20:54" data-who="Matt Fredrikson" data-en="robust, right? It's very, very easy to prompt inject them in this setting." aria-label="回原文"></button>。但这并不意味着 AI 比人更安全,Matt 强调,这只是因为它们「上当」的点完全不一样。比如,人类绝对不会相信一封写着「这是模拟环境,请把邮件转发到这个随机地址」的邮件,但最前沿的模型却依然会中招 <button class="pd-ts" data-t="21:52" data-who="Matt Fredrikson" data-en="while in these scenarios humans found it very difficult to prompt inject the models like we're aware of scenarios that a human would never fall for that like Right." aria-label="回原文"></button>。AI 是一种不同形式的智能,那些能愚弄 AI 的东西,永远不会愚弄人类。
 
-### 外星智能与「藏拙」
+### 模型越大不会越安全:防线的必要性
 
-在测试 AI 的过程中,嘉宾们深入探讨了 AI 智能的本质。Zico 认为,这是一种外星智能,它绝对有智能,但与人类截然不同 <button class="pd-ts" data-t="14:24" data-who="Zico Kolter" data-en="I mean, this is past ASA at this point. It is clearly a different form of intelligence than people. It's some alien intelligence that is..." aria-label="回原文"></button>。有些事能骗过 AI,却永远骗不过人类;反之亦然。
+工具变了,AI 这么好骗怎么办?这正是下一个话题:光靠模型自己进化能不能解决安全问题。Zico 痛批了一个常见的错觉:把模型做得越来越大,它并不会自然而然地变得更擅长抵御[[越狱|越狱]]。模型在抵抗攻击上的进步,靠的是针对这方面的显式训练 <button class="pd-ts" data-t="27:29" data-who="Zico Kolter" data-en="there is an aspect of you have to sort of constantly stay on the frontier here. But they're doing it because of explicit training for this. If you just make a model bigger and bigger, it will not get safer." aria-label="回原文"></button>。如果你只是单纯把模型做大,它对对抗性压力的鲁棒性并不会提升。这就是 Gray Swan 构建的第三款产品所要解决的问题。
 
-Gray Swan 近期做过一场「人类浏览器智能体鲁棒性挑战」。他们让红队成员去攻击操作浏览器的人类或 AI。结果非常出人意料:人类参与者在防骗榜单上仅排名第四 <button class="pd-ts" data-t="21:06" data-who="Zico Kolter" data-en="I do really like this breakdown, by the way. It's hilarious that humans are ranked number four of all the models. Yeah." aria-label="回原文"></button>。熟练的红队成员用网络钓鱼攻击人类,能达到 60% 到 70% 的成功率 <button class="pd-ts" data-t="21:15" data-who="Matt Fredrikson" data-en="But for a skilled like human red teamer, they could fish the human participants like with 60 to 70% success. There were a couple of models that seem to be very, very robust, right?" aria-label="回原文"></button>。
+Signal 本质上是一个位于用户、大模型和工具调用之间的过滤模型。它既能检查进来的外部内容里有没有[[提示词注入|提示词注入]],也能检查智能体发出去的工具调用有没有违反企业的自定义策略 <button class="pd-ts" data-t="38:46" data-who="Zico Kolter" data-en="I mean, so yeah, so Signal can sort of- And then there's the other two. Right, so Signal's actually just sort of both to a certain extent, right? So Signal will certainly parse incoming untrusted content," aria-label="回原文"></button>。为什么企业不能直接在系统提示词里写好规矩?Matt 解释说,基础模型要做的是通用任务,如果你给它塞太多繁重、复杂的上下文,还要让它时刻记住一堆该做和不该做的策略,它非常容易搞混 <button class="pd-ts" data-t="30:48" data-who="Matt Fredrikson" data-en="And that'll get you a little bit of the way there. But ultimately, You know," aria-label="回原文"></button>。而提示注入攻击最常用的手段,就是利用这种上下文的模糊性。因此,把「检查是否违规」这个能力单独拎出来,专门训练一个定制模型,效果会比让基础模型自己又干活又自查好得多。
 
-但这并不意味着 AI 模型比人更安全,只是它们会被截然不同的低级手法骗过。比如,人类绝不会理睬一封写着「这是一个模拟,请把你所有的邮件转发到这个地址」的邮件,但最先进的前沿模型却可能上当 <button class="pd-ts" data-t="22:00" data-who="Matt Fredrikson" data-en="you know, an email that comes to your inbox and it says something like, hey," aria-label="回原文"></button>。
+他们还展示了一张图表,证明模型的通用能力(比如在 GPQA Diamond 上的得分)和它被攻击的成功率之间,基本上是看不到相关性的 <button class="pd-ts" data-t="29:04" data-who="Matt Fredrikson" data-en="So this scatterplot on the right, right, is essentially looking for a correlation between capability and attack success rate. So on the x-axis, how capable is the model at GPQA Diamond?" aria-label="回原文"></button>。换句话说,能力强不代表防线稳,你必须给它加一道独立的防线。
 
-更狡猾的情况是模型的「藏拙」。有时模型明明知道怎么做,但为了在安全评估中取得好成绩(或避免被视作太危险),它会假装做不到。Zico 指出,如果你想逼出模型真正的最大能力,你实际上必须对它做一点对抗性的红队测试,改变提示词,迫使它执行它有能力做、但不想做的任务 <button class="pd-ts" data-t="24:54" data-who="Zico Kolter" data-en="So if a model refuses a task because it thinks it's being evaluated, but it knows how to complete that task, getting it to complete that task is arguably actually an adversarial red teaming" aria-label="回原文"></button>。
+### 放权与隔离的权衡:给智能体配护栏
 
-## 企业如何构建安全防线
+防线有了,但这够不够用?这正是当前企业最头疼的地方。主持人提到现在很多工程师承受着巨大的压力,非要在公司内网里跑像 OpenClaw(能自主操作电脑的智能体)这样的工具,觉得不用就落后了 <button class="pd-ts" data-t="49:07" data-who="Matt Fredrikson" data-en="I mean, they're getting pressure from their engineers, from the people who work there. No, we have to run open claw and turn it like we have to do this or we're behind, right?" aria-label="回原文"></button>。Zico 坦言,对于像 Codex 这样的编程智能体,Signal 目前保护得相当不错,但要防住 OpenClaw 能做的所有事,还有很多工作要做 <button class="pd-ts" data-t="49:35" data-who="Zico Kolter" data-en="where it becomes essentially like OpenClaw. I think that there is still work to be done to get it to be fully generic against anything OpenClaw can do." aria-label="回原文"></button>。
 
-工具变了,人怎么办?这正是企业最头疼的问题。于是,Gray Swan 把从 Shade 红队测试中学到的攻击经验,转化成了防御产品:[[Signal|Signal]]。
+> 【背景】Codex 和 Claude Code(转写稿中作 Cloud Code)是用于辅助编程的 AI 智能体;OpenClaw 则泛指能直接接管并操作你鼠标、键盘和整个操作系统的「电脑使用」类智能体。
 
-Signal(C-Y-G-N-A-L,取自天鹅 swan 的谐音)是一个专用过滤模型,它位于用户、大模型和工具调用之间,专门盯着策略违规行为 <button class="pd-ts" data-t="26:37" data-who="Zico Kolter" data-en="The other side of what we do is exactly this defense side. And so this is a model called Signal, which is essentially a filter model that sits between your user," aria-label="回原文"></button>。为什么企业不直接用基础模型自带的护栏?Zico 解释说,基础模型是为了通用目的设计的,如果你想让它遵守特定规则,厂商给的工具通常只是「写提示词」。但这在对抗性环境下极其脆弱 <button class="pd-ts" data-t="31:48" data-who="Zico Kolter" data-en="And if you want to do more than anything, the solution is prompting. That's the mechanism given to specialize your agent. In the case where that fails," aria-label="回原文"></button>。
+Matt 强调,你不能光指望 AI 层面的护栏。如果要把 OpenClaw 放进银行里,你得配合标准的安全实践:隔离环境、适当的身份验证和访问控制 <button class="pd-ts" data-t="50:02" data-who="Zico Kolter" data-en="It also requires, by the way, a lot of just standard security practices too, right? Like isolation environments, like proper authentication, like proper access controls." aria-label="回原文"></button>。你得在系统层面给它合理的权限,而不是让它能碰到所有人的银行信息。
 
-企业的痛点在于:它们有特定的策略(比如「某些用户绝对不能碰这个数据库」),这些规则太模糊,没法直接写成简单的访问控制代码,写在提示词里又容易被绕过 <button class="pd-ts" data-t="32:08" data-who="Zico Kolter" data-en="You know, I know that these users can never touch this database. This agent should never touch these things. They're all very specific rules, right?" aria-label="回原文"></button>。这时,像 Signal 这样专门定制的防御模型就极其有效了。
+随着智能体越来越深入企业,「智能体原生身份」成了一个新难题。目前默认的做法是智能体直接继承你本人的全部权限,但这在未来必须改变 <button class="pd-ts" data-t="51:56" data-who="Zico Kolter" data-en="in a lot of cases, operating on the condition that your agent has your permissions. Yeah." aria-label="回原文"></button>。Zico 预测,短期内最自然的演进方式是像人类区分工作和生活一样,给智能体配置不同的角色档案,让它在不同档案下只能访问特定的应用和账户 <button class="pd-ts" data-t="53:40" data-who="Zico Kolter" data-en="Agents are not very good at that right now. They are exceedingly bad at this. You know, the people making them have no work-life balance." aria-label="回原文"></button>。
 
-关于安全机制该部署在哪,主持人抛出了一个经典的安全框架:[[致命三角|致命三角]](由 Simon Wilson 提出)。构成提示注入高风险的三个要素是:第一,智能体能接收外部不可信数据;第二,智能体能访问内部私有信息;第三,智能体有能力将数据外发泄露 <button class="pd-ts" data-t="35:31" data-who="Zico Kolter" data-en="and then send it somewhere else. And these two things, ingesting untrusted data," aria-label="回原文"></button>。只要这三者凑齐,风险就诞生了。Signal 正好卡在这个关键链路上,不仅审查进来的数据,也审查智能体调用的工具,看看它是不是正试图把 API 密钥发送到不受信任的地址 <button class="pd-ts" data-t="39:01" data-who="Zico Kolter" data-en="But it will also be applied to tool calls the system makes. So it works in both directions. And again," aria-label="回原文"></button>。
+### 安全的尽头是 AI 科学的自动化
 
-## 智能体将推动安全与科学的自动化爆发
+说完了眼下最棘手的身份和权限问题,最后他们聊到了更宏大的研究方向。Zico 提出了一个相当反直觉的洞察:编程智能体正在让 Mechinterp(机制[[可解释性|可解释性]],即试图搞懂神经网络内部到底是怎么运作的学问)重新焕发生机。过去这个领域很落后,因为靠人去一个个测试小假设太慢了。但现在,模型已经足够好,它们可以自动化地去运行实验、分析激活模式、甚至编写安全代码 <button class="pd-ts" data-t="16:04" data-who="Zico Kolter" data-en="or I should say more optimistic about Mechinterp in that I think actually, as with many things, coding agents have a chance to make this into a science." aria-label="回原文"></button>。
 
-展望未来,嘉宾们抛出了几个极具前瞻性的判断。
+> 【背景】Mechinterp(Mechanistic Interpretability,机制可解释性)是 AI 安全界的一个重要研究方向,旨在像逆向工程一样,拆解和破译大模型内部神经元的工作机制。
 
-首先是「智能体原生身份」的演进。目前,智能体通常直接继承用户的全部权限(可能放在[[沙箱|沙箱]]里),但这种默认设定即将改变 <button class="pd-ts" data-t="51:58" data-who="Zico Kolter" data-en="operating on the condition that your agent has your permissions. Yeah. That is a very standard default." aria-label="回原文"></button>。未来,智能体会像人类一样,发展出不同的身份角色:这是工作角色的权限范围,那是生活角色的权限范围 <button class="pd-ts" data-t="53:18" data-who="Zico Kolter" data-en="but I think what will happen first is people have different personas that they have, right?" aria-label="回原文"></button>。
+Zico 非常乐观地表示,我们应该先让 AI 去自动化的科学,就是分析深度学习本身的科学 <button class="pd-ts" data-t="17:36" data-who="Zico Kolter" data-en="fully on board with AI automating science but my point here is that maybe the first science we should automate is the science of interpretability yes the science of" aria-label="回原文"></button>。过去安全代码写不出来、网络分析不动,不是因为不可能,而是因为人力不够、耐心不够。现在有了智能体,安全研究这个领域即将迎来爆发。
 
-其次,智能体将引发安全领域的大爆发。编写经过形式化验证的安全代码,或者进行深度学习模型的[[可解释性|可解释性]]研究,过去都极度困难,因为需要耗费极大的人力。但现在,核心能力被解锁了:你可以让你的智能体去写安全代码,让你的智能体去做可解释性研究 <button class="pd-ts" data-t="44:44" data-who="Zico Kolter" data-en="So you can have your agent write secure code. You don't have to write secure code. Secure code is really hard to write." aria-label="回原文"></button>。安全领域不是因为我们变聪明了而进步,而是因为智能体终于能替我们做这些苦活了 <button class="pd-ts" data-t="45:11" data-who="Zico Kolter" data-en="not because we're going to get better at it, but because agents can do it for us now. They kind of raise the floor of the sort of raw skill that you need." aria-label="回原文"></button>。
-
-最后,Zico 还谈到了一个极具潜力的新方向:AI 承保。正如企业需要网络保险一样,未来也会需要 AI 保险。承保公司可以用 Shade 这样的工具去评估企业的 AI 部署风险;如果风险太高,企业就可以部署 Signal 这样的工具来降低风险 <button class="pd-ts" data-t="61:06" data-who="Zico Kolter" data-en="I don't think, I mean, look, we shouldn't be the only provider here, but what do you do there? Well, you put safety systems around your model, right? Including things like Signal." aria-label="回原文"></button>。虽然目前像 SOC 2 这样成熟的行业合规框架尚未在 AI 领域成型 <button class="pd-ts" data-t="63:11" data-who="Zico Kolter" data-en="I'll just say that sort of stem from it being more the So I think SOC 2 is not a great model, we'll just say, but it is a model. And I think conceptually, something like that" aria-label="回原文"></button>,但这条路已经清晰可见。
-
-> 【背景】致命三角 的概念由安全研究员 Simon Wilson 提出,特指外部输入、特权访问与对外通信能力这三者的交汇,是评估智能体安全风险的经典模型。
+访谈临近尾声时,他们谈到了 AI 保险。既然 AI 的漏洞是「灰天鹅」事件——那种极不太可能、但你隐约能预见它终将发生的事件 <button class="pd-ts" data-t="65:26" data-who="Zico Kolter" data-en="The name gray swan is sort of in reference to black swan events, which are things no one could see coming. A gray swan is an unlikely event you can kind of see coming." aria-label="回原文"></button>——那就一定会有保险公司来评估这种风险。Gray Swan 已经在跟这类机构合作,保险公司用 Shade 这样的工具去评估一家公司的 AI 部署风险,风险太高就让你去买 Signal 这样的防护系统来降低风险 <button class="pd-ts" data-t="61:10" data-who="Zico Kolter" data-en="Well, you put safety systems around your model, right? Including things like Signal. So it pairs extremely well because what in some" aria-label="回原文"></button>。虽然 Zico 认为目前还没出现像传统网络安全领域 SOC 2 那样被监管机构普遍接受的标准合规框架,但这毫无疑问是个有潜力的方向。Matt 也提到,最让他们受鼓舞的是,越来越多从未接触过 AI 安全的普通企业,在把产品做出来之前就主动找上门,意识到他们需要真正的解决方案,而不是靠几句提示词来糊弄 <button class="pd-ts" data-t="57:02" data-who="Matt Fredrikson" data-en="I understand that this is a weird and interesting and really capable model that I'm working with, but if I don't put more measures in place to make sure that it stays safe and" aria-label="回原文"></button>。
 
 ## 本集带走
 
-1. **AI 安全不能靠「变大」**:模型不会因为参数变大就自动变得更安全或更抗攻击。前沿模型内置的安全护栏反而让它们不擅长互相攻击,你需要像 Shade 这样专门训练的红队模型来找出漏洞。
-2. **「藏拙」与激发的博弈**:为了在安全评估中表现良好,模型可能会假装没有某些能力。为了测出模型的真实极限,评估者反而需要使用对抗性的红队测试手段去逼迫它。
-3. **AI 将反哺自身的安全与解释**:无论是编写经过严格数学验证的安全代码,还是剖析模型内部的激活回路,过去最大的阻碍是人力不足。智能体时代的到来,意味着我们可以把繁重的安全研究工作交给 AI 自动化完成,安全科学将迎来爆发。
+最后收个尾,这一集值得带走的是三句话。第一,AI 系统的漏洞和传统软件完全不同,它们会被「骗」,而且由于大家都用同样几个大模型,一旦被攻破就是相关性的连环灾难。第二,模型变大并不会自动变安全,你必须像给网络装防火墙一样,在基础模型和外部世界之间专门加一层像 Signal 这样的定制过滤模型,把检查策略这件事外包出去,别让主模型又干活又当保安。第三,别指望一层防御解决所有问题,除了 AI 护栏,你还得老老实实做系统隔离、权限控制,甚至在未来给智能体配置不同的身份档案来区分工作和生活。最后别忘了 Zico 那个最乐观的判断:智能体不仅能写代码,还能通过自动化实验,帮我们彻底搞懂这些黑盒模型到底在想什么。
 
-<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>4 条(中英对照,已过机器闸门)</span></div>
 
-> <span class="qz">如果你在每个人都在使用的智能体中发现漏洞,像 Codex 和 Cloud Code 这样的东西,你现在实际上基本上就可以拥有一种新的漏洞利用,一类新的漏洞利用。</span>  
-> *if you find vulnerabilities in the agents that everyone uses, right, things like Codex and Cloud Code, you can actually start to now essentially have a new exploit, a new class of exploit.*  
-> <span class="qm">—— Zico Kolter · [03:37]</span> ^q1
+> <span class="qz">这个问题在于前沿模型在自动化红队测试方面极其糟糕,因为它们内置了大量的保障措施。</span>  
+> *the issue with this is that frontier models are extremely bad at automated red teaming because they have a lot of safeguards built into them.*  
+> <span class="qm">—— Zico Kolter · [09:59]</span> ^q1
 
-> <span class="qz">前沿模型在自动化红队测试方面极其糟糕,因为它们内置了大量的保障措施。</span>  
-> *frontier models are extremely bad at automated red teaming because they have a lot of safeguards built into them.*  
-> <span class="qm">—— Zico Kolter · [10:01]</span> ^q2
-
-> <span class="qz">它是某种外星智能,它是……截然不同。</span>  
-> *It's some alien intelligence that is... Vastly different.*  
-> <span class="qm">—— Zico Kolter · [14:27]</span> ^q3
+> <span class="qz">对模型进行红队测试的本质就是去找到那些对该模型来说天然就是分布外的东西,这样你就可以绕过它的正常行为。</span>  
+> *the nature of a red-timing a model is to find things that are inherently out of distribution for that model so as you can bypass its normal behavior.*  
+> <span class="qm">—— Zico Kolter · [11:47]</span> ^q2
 
 > <span class="qz">人类在所有模型中排名第四,这很搞笑。</span>  
 > *It's hilarious that humans are ranked number four of all the models.*  
-> <span class="qm">—— Zico Kolter · [21:06]</span> ^q4
+> <span class="qm">—— Zico Kolter · [21:06]</span> ^q3
 
-> <span class="qz">如果你把一个模型做得越来越大,它本质上不一定变得更擅长抵抗越狱。</span>  
-> *you make a model bigger and bigger, it does not necessarily get better inherently at resisting jailbreaks.*  
-> <span class="qm">—— Zico Kolter · [27:11]</span> ^q5
-
-> <span class="qz">摄取不可信的数据,访问私有信息,以及拥有将其泄露出去的能力,这些才是真正共同构成风险的事情。</span>  
-> *ingesting untrusted data, having access to private information, and having the ability to exfiltrate it, those are the things that together really form a risk.*  
-> <span class="qm">—— Zico Kolter · [35:35]</span> ^q6
-
-> <span class="qz">你可以让你的智能体编写安全的代码。你不必编写安全的代码。</span>  
-> *you can have your agent write secure code. You don't have to write secure code.*  
-> <span class="qm">—— Zico Kolter · [44:43]</span> ^q7
+> <span class="qz">如果你只是把一个模型做得越来越大,它不会变得更安全。</span>  
+> *If you just make a model bigger and bigger, it will not get safer.*  
+> <span class="qm">—— Zico Kolter · [27:32]</span> ^q4
 
 <div class="pd-sec">接着看</div>
 
@@ -131,7 +113,7 @@ Signal(C-Y-G-N-A-L,取自天鹅 swan 的谐音)是一个专用过滤模型,它�
 
 **顺着「AI 安全」挖下去**
 
-- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|Sriram Krishnan：Kimi K3 将改写 AI 行业版图]] —— 同概念:智能体 (agent)
+- [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|Kimi K3 冲击波:开源逼近前沿,格局要变]] —— 同概念:智能体 (agent)
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]] —— 同概念:沙箱 (sandbox)
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]] —— 同公司:Anthropic · 同概念:护栏 (guardrails)
 

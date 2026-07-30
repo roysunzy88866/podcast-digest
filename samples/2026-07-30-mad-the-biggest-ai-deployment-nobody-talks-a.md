@@ -95,7 +95,7 @@ tags:
 **顺着「智能体」挖下去**
 
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式]] —— 同公司:Tesla、Waymo · 同概念:智能体 (agents)、物理 AI (physical AI)
-- [[2026-06-22-latent-space-gray-swan|让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏]] —— 同概念:护栏 (guardrails)
+- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]] —— 同概念:护栏 (guardrails)
 
 </div>
 <div class="pd-ex">
@@ -103,7 +103,7 @@ tags:
 **换个口味**
 
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失]] —— 同概念:护栏 (guardrails)、智能体 (agents)
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同公司:Tesla、Waymo · 同概念:物理 AI (physical AI)
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]] —— 同公司:Tesla、Waymo · 同概念:物理 AI (physical AI)
 - [[2026-03-22-lennys-the-art-of-influence-jessica-fain|Jessica Fain:如何影响高管——把高管当用户来研究]] —— 同概念:智能体 (agents)、护栏 (guardrails)
 
 </div>

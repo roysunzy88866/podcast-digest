@@ -13,7 +13,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] — 作为嘉宾
+- [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为嘉宾
 
 ## ③ 他谈到的
 

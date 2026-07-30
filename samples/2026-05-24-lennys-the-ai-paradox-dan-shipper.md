@@ -137,7 +137,7 @@ Dan 先从工作界面的分化讲起。未来每个人的工作会集中在两�
 
 - [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]] —— 同公司:Claude Code、Codex、OpenClaw · 同概念:CLI、智能体 (agent)
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]] —— 同公司:Claude Code、OpenClaw · 同概念:智能体 (agent)
-- [[2026-06-22-latent-space-gray-swan|让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏]] —— 同公司:OpenClaw、Codex · 同概念:智能体 (agent)
+- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]] —— 同公司:OpenClaw、Codex · 同概念:智能体 (agent)
 
 </div>
 </div>

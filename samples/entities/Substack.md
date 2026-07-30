@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《Lenny 挨老婆采访:致幻剂、跑步机和五万分之一》]]**(08:38起):本集把它说成:Lenny 决定搬过去并每周更新简报的平台,他提到作为 Substack 作家的长期生活模式能持续多久没有答案,且在遭遇诈骗团伙 API 攻击时他与 Substack 合作紧急填补漏洞
+- **[[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石》]]**(08:38起):本集把它说成:Lenny 决定搬过去并每周更新简报的平台,他提到作为 Substack 作家的长期生活模式能持续多久没有答案,且在遭遇诈骗团伙 API 攻击时他与 Substack 合作紧急填补漏洞
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《Lenny 挨老婆采访:致幻剂、跑步机和五万分之一》]] — 作为被讨论公司
+- [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石》]] — 作为被讨论公司
 
 ## ③ 关联
 

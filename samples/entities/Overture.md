@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《超音速客机卷土重来：Boom 如何用软件思维重塑硬件制造》]]**(16:54起):本集把它说成：Boom 正在从 XB-1 验证机放大规模，为大众建造的商用超音速客机，为此他们正在建设一座超级工厂。
+- **[[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《让超音速飞行重返天空:Boom 用小团队重写硬件制造》]]**(16:54起):本集把它说成：Boom 正在从 XB-1 验证机放大规模，为大众建造的商用超音速客机，为此他们正在建设一座超级工厂。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《超音速客机卷土重来：Boom 如何用软件思维重塑硬件制造》]] — 作为概念
+- [[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban|《让超音速飞行重返天空:Boom 用小团队重写硬件制造》]] — 作为概念
 
 ## ③ 关联
 

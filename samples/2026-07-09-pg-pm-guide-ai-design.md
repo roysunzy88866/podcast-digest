@@ -97,7 +97,7 @@ tags:
 
 **换个口味**
 
-- [[2026-06-22-latent-space-gray-swan|让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏]] —— 同概念:护栏 (guardrails)、智能体 (agent)、codex
+- [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]] —— 同概念:护栏 (guardrails)、智能体 (agent)、codex
 - [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]] —— 同概念:codex、智能体 (agent)、mcp
 - [[2026-07-28-pg-how-to-build-your-first-eval|评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估]] —— 同嘉宾:Akash · 同概念:智能体 (agent)、codex
 

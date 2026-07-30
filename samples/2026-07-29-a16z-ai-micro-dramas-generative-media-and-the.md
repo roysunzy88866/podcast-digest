@@ -131,8 +131,8 @@ Justine 直言,从零开始训练一个能和 OpenAI 等巨头竞争的基础模
 
 **顺着「创业与行业」挖下去**
 
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同概念:智能体 (agent)
-- [[2026-06-03-latent-space-satya-2026|Satya Nadella：别在一个模型上顶礼膜拜，这才是 AI 时代真正的平台逻辑]] —— 同概念:智能体 (agent)
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]] —— 同概念:智能体 (agent)
+- [[2026-06-03-latent-space-satya-2026|Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河]] —— 同概念:智能体 (agent)
 - [[2026-06-14-lennys-the-common-pattern-behind-successful|Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新]] —— 同概念:智能体 (agent)
 
 </div>

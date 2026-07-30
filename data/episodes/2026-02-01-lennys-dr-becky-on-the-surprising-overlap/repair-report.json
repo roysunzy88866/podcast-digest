@@ -1,7 +1,7 @@
 {
   "kept": [
     {
-      "i": 1,
+      "i": 2,
       "timestamp": "08:58",
       "speaker": "Dr. Becky Kennedy",
       "trimmed": false,
@@ -18,10 +18,10 @@
     },
     {
       "i": 4,
-      "timestamp": "13:47",
+      "timestamp": "10:47",
       "speaker": "Dr. Becky Kennedy",
       "trimmed": false,
-      "tsWas": "13:43",
+      "tsWas": "10:47",
       "spkWas": "Dr. Becky Kennedy"
     },
     {
@@ -42,22 +42,14 @@
     },
     {
       "i": 7,
-      "timestamp": "26:12",
+      "timestamp": "30:01",
       "speaker": "Dr. Becky Kennedy",
       "trimmed": false,
-      "tsWas": "26:12",
+      "tsWas": "30:01",
       "spkWas": "Dr. Becky Kennedy"
     },
     {
       "i": 8,
-      "timestamp": "29:12",
-      "speaker": "Dr. Becky Kennedy",
-      "trimmed": false,
-      "tsWas": "29:12",
-      "spkWas": "Dr. Becky Kennedy"
-    },
-    {
-      "i": 9,
       "timestamp": "42:27",
       "speaker": "Dr. Becky Kennedy",
       "trimmed": false,
@@ -65,17 +57,49 @@
       "spkWas": "Dr. Becky Kennedy"
     },
     {
+      "i": 9,
+      "timestamp": "26:12",
+      "speaker": "Dr. Becky Kennedy",
+      "trimmed": false,
+      "tsWas": "26:12",
+      "spkWas": "Dr. Becky Kennedy"
+    },
+    {
       "i": 10,
+      "timestamp": "63:21",
+      "speaker": "Dr. Becky Kennedy",
+      "trimmed": false,
+      "tsWas": "63:21",
+      "spkWas": "Dr. Becky Kennedy"
+    },
+    {
+      "i": 11,
+      "timestamp": "58:05",
+      "speaker": "Dr. Becky Kennedy",
+      "trimmed": false,
+      "tsWas": "58:11",
+      "spkWas": "Dr. Becky Kennedy"
+    },
+    {
+      "i": 12,
       "timestamp": "88:52",
       "speaker": "Dr. Becky Kennedy",
       "trimmed": false,
       "tsWas": "88:52",
       "spkWas": "Dr. Becky Kennedy"
+    },
+    {
+      "i": 13,
+      "timestamp": "59:35",
+      "speaker": "Dr. Becky Kennedy",
+      "trimmed": false,
+      "tsWas": "59:34",
+      "spkWas": "Dr. Becky Kennedy"
     }
   ],
   "dropped": [
     {
-      "i": 2,
+      "i": 1,
       "reason": "逐字命中不了(裁剪后仍无)",
       "en": "Perfect is creepy."
     }

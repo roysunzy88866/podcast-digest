@@ -139,7 +139,7 @@ tags:
 
 **换个口味**
 
-- [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|Lenny 挨老婆采访:致幻剂、跑步机和五万分之一]] —— 同概念:产品经理 (product manager)
+- [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石]] —— 同概念:产品经理 (product manager)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]] —— 同公司:Anthropic、Google、Meta
 - [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力]] —— 同公司:Anthropic、Codex · 同概念:智能体 (agent)
 
