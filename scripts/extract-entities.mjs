@@ -286,6 +286,28 @@ function extractJson(text) {
   try { return JSON.parse(t.slice(a, b + 1)); } catch { return null; }
 }
 
+/**
+ * 重试循环(2026-07-30 修):重试时把上一次 validateExtract 打回的原因**原话**附到输入末尾(nudge)。
+ * 病根(Jensen 集实证):此前每次重发一模一样的 prompt,低温度下四次同答案 = 确定性死循环。
+ * 照 extract-guest.mjs 的 nudge 先例平移;系统提示词/正文/校验口径/次数一字不动——
+ * 不是放水,是给模型改错的机会。第 1 次 nudge=""(input+"" 与裸 input 逐字一致)。
+ * ask 可注入(测试喂假 GLM,同 tts 的 spawnImpl 纪律);试满仍不合格 → 返回 null,exit 1 仍在 main。
+ */
+export async function extractWithRetry({ sys, input, ask, maxRetry = 3, label = "", saveGood, saveBad, log = console.log, warn = console.error }) {
+  let glmOut = null, nudge = "";
+  for (let attempt = 0; attempt <= maxRetry && !glmOut; attempt++) {
+    log(`抽实体:GLM-5.2 整读 ${label}… (第 ${attempt + 1} 次)`);
+    const raw = await ask(sys, input + nudge);
+    const cand = extractJson(raw);
+    const errs = cand ? validateExtract(cand) : ["非合法 JSON"];
+    if (errs.length === 0) { glmOut = cand; saveGood?.(raw); break; }
+    saveBad?.(raw);
+    nudge = `\n\n【上一次你的输出被机器闸门打回,原因:${errs.join(";")}。请照规则修正后重出:规则一条不放宽,只输出修正后的那一个 JSON 对象。】`;
+    warn(`  第 ${attempt + 1} 次不合格(${errs.join(" / ")})${attempt < maxRetry ? ",重试" : ""}`);
+  }
+  return glmOut;
+}
+
 async function main() {
   const DIR = process.argv[2] || "data/episodes/2026-07-08-latent-space-modal";
   const dir = resolve(ROOT, DIR);
@@ -322,14 +344,16 @@ async function main() {
   }
 
   const MAX_RETRY = 3;
-  for (let attempt = 0; attempt <= MAX_RETRY && !glmOut; attempt++) {
-    console.log(`抽实体:GLM-5.2 整读 ${translation.length} 段… (第 ${attempt + 1} 次)`);
-    const raw = await glmAsk(SYS, INPUT);
-    const cand = extractJson(raw);
-    const errs = cand ? validateExtract(cand) : ["非合法 JSON"];
-    if (errs.length === 0) { glmOut = cand; writeFileSync(cacheFile, raw); break; }
-    writeFileSync(badCacheFile, raw);
-    console.error(`  第 ${attempt + 1} 次不合格(${errs.join(" / ")})${attempt < MAX_RETRY ? ",重试" : ""}`);
+  if (!glmOut) {
+    glmOut = await extractWithRetry({
+      sys: SYS,
+      input: INPUT,
+      ask: glmAsk,
+      maxRetry: MAX_RETRY,
+      label: `${translation.length} 段`,
+      saveGood: (raw) => writeFileSync(cacheFile, raw),
+      saveBad: (raw) => writeFileSync(badCacheFile, raw),
+    });
   }
   if (!glmOut) {
     console.error(`❌ 抽实体连试 ${MAX_RETRY + 1} 次仍不合格。坏输出存 .entities-raw.bad.txt。entities.json 未改动。`);
