@@ -740,11 +740,6 @@ export function renderEpisode(meta, digest, entities = null, related = null, tra
     )
     .join("\n\n");
 
-  const archiveNote =
-    meta.archive_location === "cloud"
-      ? "英文原稿/全译云端存档、本页不展示(可事后核对)。"
-      : "英文原稿/全译存档于项目仓库、本页不展示(可事后核对);上云后迁 R2(C7)。";
-
   // C10:自由细标签降级为页底关键词(纯文本,不带 #,不进图谱/首页/标签页)
   const keywords = (entities?.tags ?? (Array.isArray(digest.tags) ? digest.tags : [])).filter(Boolean);
   const keywordsLine = keywords.length ? `\n*本集关键词:${keywords.join(" · ")}*\n` : "";
@@ -777,10 +772,6 @@ ${renderSidebarScript()}
 ${renderOrigScript()}
 
 ${renderPlayerScript()}
-
----
-
-*中文精华由 GLM-5.2 从官方转写稿全译→浓缩产出,金句经机器闸门(逐字命中转写稿+时间戳区间+说话人)三联校验。${archiveNote}*
 `;
   return fm + "\n" + body;
 }
