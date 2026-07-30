@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Waymo</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Waymo">WA</div><div class="pi"><h1 class="pt">Waymo</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Waymo">WA</div><div class="pi"><h1 class="pt">Waymo</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,23 +15,27 @@ unlisted: true
 - **[[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]]**(65:35起):本集闪电战环节中被嘉宾大赞的自动驾驶产品,称其乘坐体验神奇,配得上外界的炒作,感觉像生活在未来。
 - **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]]**(01:49起):本集说它代表了自动驾驶的另一种方案,依赖大量传感器、算力和高保真地图,在地理受限的区域功能表现更好。
 - **[[2026-04-23-lennys-how-anthropics-product-team-moves|《Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南》]]**(78:01起):本集闪电战环节提到。嘉宾称自己是死忠用户，每天上下班乘坐两次；不仅觉得等车时没有社交压力，还能在车上毫无顾忌地打工作电话，这每天帮她省出了 30 分钟。
+- **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《黄仁勋:NVIDIA 起步选错了技术,但学习比技术更重要》]]**(37:53起):本集提到其自动驾驶汽车里面使用了来自 NVIDIA 的芯片。
 - **[[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《为什么机器人的未来在仿真：World Labs 收购 Cynics 背后的逻辑》]]**(21:11起):本集举例提到这家自动驾驶公司，指出他们其实比依赖现实世界数据更重度地依赖仿真来训练自动驾驶技术。
+- **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《对话 Samsara CEO:AI 进入物理世界,用 25 万亿数据点改造传统工业》]]**(01:55起):本集提到:在路上可能会看到 Waymo 的自动驾驶出租车,作为物理 AI 应用的例子。
 
 ## ② 出现在这些集
 
-*5 集*
+*7 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]] — 作为被讨论公司(提及)
 - [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] — 作为被讨论公司(提及)
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] — 作为被讨论公司
 - [[2026-04-23-lennys-how-anthropics-product-team-moves|《Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南》]] — 作为被讨论公司(提及)
+- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《黄仁勋:NVIDIA 起步选错了技术,但学习比技术更重要》]] — 作为被讨论公司
 - [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《为什么机器人的未来在仿真：World Labs 收购 Cynics 背后的逻辑》]] — 作为被讨论公司(提及)
+- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《对话 Samsara CEO:AI 进入物理世界,用 25 万亿数据点改造传统工业》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[ChatGPT]] · [[World Labs]] · [[Anthropic]] · [[智能体]] · [[Marble]] · [[空间智能]] · [[Google]] · [[Dr. Fei-Fei Li]] · [[Edwin Chen]]
+[[Lenny]] · [[ChatGPT]] · [[物理 AI]] · [[Tesla]] · [[World Labs]] · [[Anthropic]] · [[智能体]] · [[智能体]] · [[Marble]] · [[空间智能]]
 
 <script>
 (function(){

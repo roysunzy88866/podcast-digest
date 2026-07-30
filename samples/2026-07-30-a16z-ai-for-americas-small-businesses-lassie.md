@@ -1,0 +1,441 @@
+---
+title: Lassie 的 AI 智能体：让牙科诊所行政自动化，开启小企业大市场
+podcast: The a16z Show
+date: 2026-07-30
+source_url: undefined
+duration: "58:50"
+type: episode
+cover: "#64748b"
+description: 当软件不再仅仅存储信息，而是直接完成工作时，整个劳动市场将被重新定义。
+host: "[[Olivia Moore]]"
+cohosts: ["[[Frederick Rankin]]", "[[Alex Rampell]]", "[[Stein Pella]]"]
+companies: ["[[Lassie]]"]
+concepts: ["[[智能体]]", "[[回路中的人类]]", "[[现有巨头]]"]
+category: 智能体
+tags:
+  - 智能体
+  - 创业与行业
+---
+
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Lassie 的 AI 智能体：让牙科诊所行政自动化，开启小企业大市场</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+
+# Lassie 的 AI 智能体：让牙科诊所行政自动化，开启小企业大市场
+
+<div class="pd-byl"><b>Stein Pella</b> · Lassie 联合创始人</div>
+
+<div class="pd-mt">2026-07-30 · The a16z Show · 58:50</div>
+
+<div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-30-a16z-ai-for-americas-small-businesses-lassie.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
+
+<div class="pd-hook"><div class="z">AI 在硅谷被过度炒作，但在爱荷华州却炒作不足。</div><div class="a">Alex Rampell · 00:00</div></div>
+
+> [!info] 关联
+> **人物** [[Olivia Moore]] · [[Frederick Rankin]] · [[Alex Rampell]] · [[Stein Pella]]
+>
+> **公司** [[Lassie]]
+>
+> **概念** [[智能体]] · [[回路中的人类]] · [[现有巨头]]
+
+<div class="pd-tldr"><b>一句话</b>当软件不再仅仅存储信息，而是直接完成工作时，整个劳动市场将被重新定义。</div>
+
+本集由 a16z 的两位合伙人 [[Alex Rampell|Alex Rampell]] 和 [[Olivia Moore|Olivia Moore]] 主持，对话嘉宾是 [[Lassie|Lassie]] 的两位联合创始人 Stein 和 Frederick。Lassie 是一家为医疗诊所（目前主攻牙科）构建[[智能体|智能体]]（agent，能自主执行任务的 AI 系统）的初创公司，核心目标是用 AI 自动化繁琐的行政工作（如保险计费、患者收款）。从科技巨头的增长部门到亲手给牙医处理纸质账单，两位创始人发现了一个被忽视的巨大市场。整场对话将沿着一条清晰的主线展开：**当软件从「存储信息」进化到「直接做劳动」，不仅小企业的命运将被改写，整个软件行业的商业逻辑和市场天花板也会发生质变。**
+
+## 发现痛点：Yelp 第一名医为何每月苦干 200 小时文书？
+
+Lassie 的起点极具戏剧性。Stein 曾在 Robinhood 从事推荐增长工作，来到硅谷寻找创业机会。他的牙医 Kwan 医生知道他在「找难题解决」，便把他带到诊所后厨——Stein 惊讶地发现，这位 Yelp 上排名第一的顶级牙医，居然每个月要花 200 个小时亲手处理保险索赔和付款等文书工作 <button class="pd-ts" data-t="02:40" data-who="Stein" data-en="And he walked me to the back and I never forgot what I saw there. A small business owner that is the number one rated doctor on Yelp, spending 200 hours a month on paperwork and busy work." aria-label="回原文"></button>。Stein 起初以为这只是个案，但在走访了多地的诊所后，他意识到这是一个普遍且严重的痛点：有成千上万的小型企业完全依赖手工处理这些繁杂事务 <button class="pd-ts" data-t="03:57" data-who="Stein" data-en="I'm like, wait, you're doing this all by hand? So then we figured out, wait, there are like hundreds of thousands of these small businesses that literally do this all by hand." aria-label="回原文"></button>。
+
+为了搞清楚问题，Stein 和 Frederick 甚至亲自下场。他们坐在诊所里，亲自处理账单、核对保险付款、操作各类遗留系统。直到今天，Lassie 仍有数千名实际的诊所员工为他们提供反馈，帮助优化那些智能体目前无法处理的边缘案例 <button class="pd-ts" data-t="21:23" data-who="Stein" data-en="But it's fine if it does in this case for the first agent 98% of the work and then there's a sliver left. And the interesting thing that we have thousands of staffers that are basically giving us input on how to make that appeal that the agent currently cannot do." aria-label="回原文"></button>。
+
+## 核心洞察：软件从「文件柜」变成了「打工人」
+
+明白了 Lassie 在解决什么痛点，接下来是 Alex Rampell 在本集中抛出的核心论断：软件的本质发生了根本改变。
+
+Alex 认为，回顾软件的起源，无论是当年做航空预订系统的 Sabre，还是后来做人力资源的 PeopleSoft、做会计的 QuickBooks，第一代企业软件做的其实都是同一件事：把现实中的文件柜变成数据库，也就是「数字化存储信息」<button class="pd-ts" data-t="07:32" data-who="Alex" data-en="Curious how you think about that when you look at companies and maybe how it played into like the thesis around LASI. Yeah, well, so I've given this whole presentation on the origin of software was basically take a filing cabinet and put it into a database and kind of pick the time equals zero moment for that with this company, the Sabre Systems, because airlines would just keep reservations in filing cabinets." aria-label="回原文"></button>。
+
+但问题在于，信息虽然存在了电脑里，活儿还得人自己干。Alex 一针见血地指出：世界并没有因为这种软件而变得更高效。1950 年和 2000 年，同等规模公司的人力资源部门人数并没有减少，只不过是用 IT 部门和 CISO（首席信息安全官）替代了原来看守实体文件柜的人，变成了「用软件守卫文件」<button class="pd-ts" data-t="08:34" data-who="Alex" data-en="So I would actually argue that the world didn't get that much more efficient with software. Because all that software did was, like, take HR, like, did PeopleSoft and then Workday make HR departments more efficient?" aria-label="回原文"></button>。
+
+而今天的 AI 终于改变了这一点。软件不再只是给你看逾期发票的「哑存储」，它能直接打电话去催收。Alex 指出，执行这些具体动作的劳动量级，比信息的存储量级要大得多 <button class="pd-ts" data-t="09:39" data-who="Alex" data-en="That's what the filing cabinet should be doing, not just giving you the information. So it just turns out that the work is orders of magnitude bigger than the storage of information that the work is done on." aria-label="回原文"></button>。
+
+> 【背景】这里 Alex 提到了金融科技对软件市场的放大效应。他以餐厅软件 Toast 为例：1985 年没有餐厅软件公司，因为餐厅不愿为单纯的管理软件花大钱。但如果你把支付处理捆绑进软件，按流水抽成，软件的商业价值就暴增了。Alex 认为，这种金融捆绑效应，与「AI 软件直接替代人类劳动」相比，完全相形见绌——因为你能直接按工作量向客户收费，而这往往比雇人更便宜 <button class="pd-ts" data-t="10:32" data-who="Alex" data-en="And if you think about fintech, fintech massively expanded the size of many non-financial markets because now you could bundle in financial products with non-financial products." aria-label="回原文"></button>。
+
+有趣的是，对于很多小企业来说，这甚至不是「更便宜」的问题，而是「根本找不到人」。Alex 讲了一位退休牙医 Ronald Sloop 的故事：Sloop 医生因为招不到也留不住能处理账目的关键员工，宁愿提前卖掉诊所退休 <button class="pd-ts" data-t="12:13" data-who="Alex" data-en="So my first dentist, hopefully he's listening to this podcast. His name is Ronald Sloop. It was my parents' like first friend when they moved to Florida." aria-label="回原文"></button>。很多市场失灵就发生在供需平衡点之外，所有人都想雇个行政助理，但成本太高而不可行 <button class="pd-ts" data-t="13:12" data-who="Alex" data-en="In many cases, you can't find somebody. This is the part that people don't realize, or you can't find somebody, but there's like a, imagine that there is something that every human on earth would pay a dollar for, but the cost of manufacturing that thing is $100." aria-label="回原文"></button>。
+
+## 建立护城河：不放手的 98% 自动化
+
+既然 AI 直接做劳动是巨大的机会，初创公司该怎么切？
+
+对于中小企业， Frederick 指出了一个关键现实：你可以做一个工具，但诊所里根本没有人有时间坐在那里去学习并使用它 <button class="pd-ts" data-t="18:03" data-who="Frederick" data-en="I think another part, we already kind of talked about it, but I think a huge difference between SMBs in general and enterprises is that in SMBs, there's nobody to use the tools." aria-label="回原文"></button>。因此 Lassie 从第一天起就坚持：不要让「人」留在处理流程的回路中（human in the loop）。Stein 和 Frederick 最初的策略是自己成为「[[回路中的人类|回路中的人类]]」，亲自接管所有手工劳动，然后一点点把自动化补齐，直到把系统打磨到可以放心交还给诊所运行 <button class="pd-ts" data-t="18:21" data-who="Frederick" data-en="Needs to go into the tool. We, from the very beginning, we focused on, you know, initially we were actually the humans in the loop. So we kind of took over all of the work and we were like, you know, we'll just do this work for you." aria-label="回原文"></button>。
+
+这种执念在技术上极其困难。因为一旦你要全盘接管一份工作（比如对账所有保险付款），系统就不能只是个建议工具，它必须 100% 倾向于正确性并自主运行。Lassie 的第一个智能体目前已能实现 98% 的工作自动化，剩下的 2% 依然能为诊所省下大量时间 <button class="pd-ts" data-t="21:18" data-who="Stein" data-en="So I think that's how we approach like this, like built as well that we didn't want a human in the loop because we want software that scales and can be implemented quick." aria-label="回原文"></button>。
+
+Lassie 的另一个护城河是深度整合。他们必须搞清楚不同诊所系统之间的读写集成，构建出统一的数据模型，然后在其上构建自主运行的智能体。这种历经数年的数据缝补工作，使得其他竞争者极难快速复制 <button class="pd-ts" data-t="28:12" data-who="Stein" data-en="do the actual labor and talk to all these like systems and you need to build an ontology to make sure that everybody in this whole ecosystem is on the same page about an insurance claim and the patient payment because all these different systems have like a slightly different definition of that which makes it also then harder to build because there is no incumbent" aria-label="回原文"></button>。
+
+> 【背景】本集嘉宾多次使用了「Dr. Sloop」（斯鲁普医生）这个虚构称呼来指代现实中典型的小型牙科诊所老板，作为讲解业务逻辑的案例人物。
+
+## 从巨头阴影下逃生的 AI 初创
+
+说到护城河，这也是 Alex 提出的经典「分销与创新」博弈论：一家初创公司能否成功，取决于它能否在巨头（incumbent，指现有占据市场主导地位的大公司）推出创新之前，抢先获得客户分销渠道 <button class="pd-ts" data-t="25:49" data-who="Alex" data-en="So I kind of think the same rules apply. You know, the battle between every startup and incumbent comes down to whether the startup gets the distribution before the incumbent gets the innovation." aria-label="回原文"></button>。
+
+在传统软件领域，如果你做一个依附于 Workday 的插件，Workday 随时可以凭借庞大的客户群抄袭你。但 Alex 认为，AI 时代有一个让初创公司极其兴奋的特点：在许多细分行业里，压根就不存在软件巨头可以抄袭你 <button class="pd-ts" data-t="26:05" data-who="Alex" data-en="But the other is that there are a lot of categories where there never was an incumbent software company because the only job to be done was like actual human labor." aria-label="回原文"></button>。牙科诊所就是典型，这里的「[[现有巨头|现有巨头]]」不是一家科技公司，而是一位名叫 Betty、两周前刚刚辞职的疲惫前台员工 <button class="pd-ts" data-t="27:23" data-who="Stein" data-en="Yeah, and we see exactly that is that there isn't an incumbent that kind of like does this job or can do this job like quickly. Well, the incumbent was named Betty and she quit two weeks ago." aria-label="回原文"></button>。
+
+> 【背景】Alex 在讨论巨头复制初创公司的威胁时，提到了大公司往往因为招聘标准低且流程臃肿而动作迟缓。但他指出，AI 正在拉平这种差距，大公司可以利用 AI 让平庸的工程师写出不错的代码，这意味着巨头模仿你的速度会变得更快 <button class="pd-ts" data-t="24:51" data-who="Alex" data-en="There are lots of different reasons. But the ones that, one of the reasons is they hire very bad engineers and they have lots of process. But now, AI kind of makes a bad engineer into, like, a pretty good engineer." aria-label="回原文"></button>。
+
+## 攻克最后一公里：把 AI 卖给爱荷华州
+
+产品做好了，怎么交付给分散在全美各地的 16 万家牙科诊所？Stein 指出，光是美国牙科市场，每年在找不到人的行政岗位上就要耗费约 20 万美元，这是一个高达 10 亿美元经常性收入的市场 <button class="pd-ts" data-t="34:15" data-who="Stein" data-en="But step one is to Alexa's point, like there are 160,000 dental practices in the US alone, $200,000 in labor that Dr. Sloop and others can't find. So like serving that market first, you're looking at a $1 billion in recurring revenue as a market." aria-label="回原文"></button>。
+
+但他认为，向小企业销售 AI 与在硅谷做企业级软件截然不同。你不能指望在高级餐厅吃顿牛排就签下千万美元的大单 <button class="pd-ts" data-t="56:01" data-who="Stein" data-en="Yeah, this is a very different playbook than where currently I think the cutting edge is. It's like you have these models good enough and apply them in enterprises and you do like a few steak dinners and then you sign a contract and then you have like 10 million in ARR booked, right?" aria-label="回原文"></button>。这些小企业主不在社交网络上，也不可能让他们去应用商店自学复杂配置。
+
+Lassie 的解法是用消费级互联网产品的思路来做企业软件。他们打造了一个类似 Stripe 那样的结账流程或 Reppling 那样的入职流程的极简自助体验：诊所老板只需像在消费者应用中那样绑定银行账户、链接现有的诊所管理系统和记录系统，底层引擎就会自动完成所有的配置与对接 [31:46]。这种近乎无摩擦的交付，是打通「最后一公里」的关键。
+
+## 未来的难题：大模型不懂「潜规则」
+
+既然智能体已经能跑通，还有什么技术瓶颈？Frederick 提出了一个反直觉的发现：如今的推理模型虽然在海量数据上训练，体型庞大，但它们其实完全不懂现实中具体业务的工作流程 <button class="pd-ts" data-t="46:29" data-who="Frederick" data-en="You know, what do you need and where are we on that curve if you had to estimate? I think one thing that's interesting is that the models are trained on so much data and they're so large and yet they actually don't really know how to do any of this work." aria-label="回原文"></button>。
+
+医疗计费里包含了大量只存在于资深员工脑子里的经验法则（即 SOP，标准作业程序），这些知识在互联网上根本搜不到。模型们并不具备这些「行业潜规则」的编码。Lassie 目前的优势恰恰在于他们通过多年实地操作，积累了大量诊所的历史 ERP（企业资源计划系统）数据，借此才反推出这些隐秘的工作流 <button class="pd-ts" data-t="47:14" data-who="Frederick" data-en="Yeah. I think we have a big advantage there because we have all of this historical data out of their ERPs that we can look at and kind of infer some of these workflows from." aria-label="回原文"></button>。
+
+另一个有趣的隐忧是当「争论的边际成本降为零」时的商业博弈。Alex 指出，保险公司的盈利模式往往依赖于故意拖延或拒赔 <button class="pd-ts" data-t="49:05" data-who="Alex" data-en="And maybe one kind of final question between technical and non-technical is I've been thinking about this a lot, how the world changes when the marginal cost of arguing goes to zero, right?" aria-label="回原文"></button>。如果未来每个人都有了一个不知疲倦且几乎免费的智能体，去和保险公司的智能体无限期争论理赔金额，这种商业动态将会如何演变，将是一个引人深思的新课题。
+
+## 本集带走
+
+1. **软件的本质从「存储」变为「劳动」**：过去几十年的软件（如 PeopleSoft、QuickBooks）只是把纸质文件柜搬进数据库，人类依然要亲自执行操作；而 AI 时代的软件能直接执行动作（如打电话催收），劳动市场比信息存储市场大好几个数量级。
+2. **小企业是 AI 的巨大蓝海，因为「没有巨头」**：在牙科等无数小企业垂直领域，根本没有占据主导的软件巨头。你的竞争对手不是微软，而是那些没空学新工具、甚至已经辞职的行政前台。
+3. **做中小企业 AI 必须做到「无人值守」**：仅仅提供工具是不够的，系统必须高度自动化（如 Lassie 达到 98%），并配以消费级的自助上手流程，把一切数据对接的摩擦都封装在底层。
+
+<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
+
+> <span class="qz">AI 在硅谷被过度炒作，但在爱荷华州却炒作不足。</span>  
+> *AI is overhyped in Silicon Valley but underhyped in Iowa.*  
+> <span class="qm">—— Alex Rampell · [00:00]</span> ^q1
+
+> <span class="qz">一个小企业主，他是 Yelp 上排名第一的医生，每个月花 200 小时在文书工作和忙碌的工作上。</span>  
+> *A small business owner that is the number one rated doctor on Yelp, spending 200 hours a month on paperwork and busy work.*  
+> <span class="qm">—— Stein Pella · [02:40]</span> ^q2
+
+> <span class="qz">所以结果表明，工作的量级比工作所基于的信息存储要大得多。</span>  
+> *So it just turns out that the work is orders of magnitude bigger than the storage of information that the work is done on.*  
+> <span class="qm">—— Alex Rampell · [09:39]</span> ^q3
+
+> <span class="qz">每一家初创公司和现有巨头之间的战斗归结为初创公司是否在现有巨头获得创新之前获得了分销。</span>  
+> *The battle between every startup and incumbent comes down to whether the startup gets the distribution before the incumbent gets the innovation.*  
+> <span class="qm">—— Alex Rampell · [25:49]</span> ^q4
+
+> <span class="qz">但另一个是，有很多类别从未有过现有软件巨头公司，因为唯一要完成的工作就像是实际的人力劳动。</span>  
+> *But the other is that there are a lot of categories where there never was an incumbent software company because the only job to be done was like actual human labor.*  
+> <span class="qm">—— Alex Rampell · [26:01]</span> ^q5
+
+> <span class="qz">这并不是说，哦，AI 将要抢走工作。在许多情况下，你找不到任何人。</span>  
+> *It's not like, oh, AI is going to take the jobs. In many cases, you can't find someone.*  
+> <span class="qm">—— Alex Rampell · [00:54]</span> ^q6
+
+> <span class="qz">这些模型在如此多的数据上训练，它们如此巨大，然而它们实际上真的不知道如何做其中的任何一项工作。</span>  
+> *The models are trained on so much data and they're so large and yet they actually don't really know how to do any of this work.*  
+> <span class="qm">—— Frederick Rankin · [00:19]</span> ^q7
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「智能体」挖下去**
+
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验]] —— 同概念:智能体 (agent)
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得]] —— 同概念:智能体 (agent)
+- [[2026-05-21-latent-space-daytona|赋予AI智能体计算机——Daytona创始人Ivan Burazin]] —— 同概念:智能体 (agent)
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织]] —— 同公司:Stripe · 同概念:智能体 (agent)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同概念:智能体 (agent)
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同概念:智能体 (agent)
+
+</div>
+</div>
+
+*本集关键词:AI 智能体 · 自动化行政工作 · 中小企业市场 · 垂直 SaaS · 创业护城河*
+
+<script>
+(function(){
+  function move(){
+    var side=document.querySelector('.right.sidebar'); if(!side) return;
+    var box=null;
+    var all=document.querySelectorAll('article blockquote[data-callout]');
+    for(var i=0;i<all.length;i++){
+      if(all[i].closest('.mrel')) continue;   // C13d:页尾手机克隆块不许被当成正文关联框搬走(实测被搬空过)
+      var t=all[i].querySelector('.callout-title-inner');
+      if(t&&t.textContent.trim().indexOf('关联')===0){ box=all[i]; break; }
+    }
+    if(!box) return;
+    if(box.closest('.right.sidebar')) return;
+    var wrap=document.createElement('div');
+    wrap.className='pd-rel';
+    var h=document.createElement('h3'); h.textContent='这一集涉及';
+    wrap.appendChild(h); wrap.appendChild(box);
+    var toc=side.querySelector('.toc');
+    if(toc&&toc.parentElement) toc.parentElement.insertBefore(wrap, toc.nextSibling);
+    else side.appendChild(wrap);
+  }
+  // C13f 第九批 #3:深浅色不再待在顶栏 —— 首页搬进左栏,集页没有左栏,搬到右栏末尾。
+  // 仍是**搬节点不重写**(🔒 #2 亮暗双模式的行为在 Quartz 手里),搬前比 parentElement 保幂等。
+  function adopt(){
+    var acts=document.querySelector('.pd-top .pd-acts');
+    function grab(sel,host){
+      if(!host) return;
+      var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
+      if(el && el.parentElement!==host) host.appendChild(el);
+    }
+    ['.search','.readermode'].forEach(function(sel){ grab(sel,acts); });
+    // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
+    // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
+    var side=document.querySelector('.right.sidebar'), slot=null;
+    if(side){
+      slot=side.querySelector('.pd-themesw');
+      if(!slot){ slot=document.createElement('div'); slot.className='pd-themesw'; side.appendChild(slot); }
+      // 同上:槽是空的(:empty → display:none),要判**右栏**看不看得见
+      if(!(side.offsetWidth || side.offsetHeight || side.getClientRects().length)) slot=null;
+    }
+    grab('.darkmode', slot || acts);
+  }
+  function graph(){
+    var art=document.querySelector('article'); if(!art) return;
+    var g=document.querySelector('.right.sidebar .graph'); if(!g) return;
+    var box=document.createElement('div'); box.className='pd-graph';
+    box.appendChild(g); art.appendChild(box);
+  }
+  function topbar(){
+    var bar=document.querySelector('article .pd'); if(!bar) return;
+    var qb=document.getElementById('quartz-body'); if(!qb||!qb.parentElement) return;
+    qb.parentElement.insertBefore(bar, qb);
+  }
+  // C13f:相关单集区(.pd-ex / .pd-exit)里的单集链接也在新标签页开,与首页卡片同口径。
+  // 它们是 markdown 双链、由 Quartz 渲染成 <a>,只能渲染完再打标记。
+  // ⚠️ 这段注释会原样进页面 —— 别在这里写那个区块的中文标题,
+  //    render-related 有一条守卫在断言「不传 related 时整页不出现那四个字」。
+  // data-router-ignore 是关键:Quartz SPA 判 _blank 只看事件目标本身,点到子元素会漏。
+  function newtab(){
+    document.querySelectorAll('.pd-ex a, .pd-exit a').forEach(function(a){
+      if(a.target==='_blank') return;
+      if(a.host && a.host!==location.host) return;   // 站外链接不归这条口径管
+      a.target='_blank'; a.rel='noopener'; a.dataset.routerIgnore='';
+    });
+  }
+  // 站名 logo 缺文件时摘掉 <img>,露出底下的引号标记(与首页同一条口径)
+  function logos(){
+    document.querySelectorAll('.pd .mk img').forEach(function(im){
+      if(im.__lg) return; im.__lg=1;
+      var kill=function(){ if(im.parentElement) im.remove(); };
+      if(im.complete && im.naturalWidth===0){ kill(); return; }
+      im.addEventListener('error', kill, {once:true});
+    });
+  }
+  // C13h 分享/收藏(移植 设计稿/actions.js):分享=系统面板,失败(非用户取消)退回复制;
+  // 收藏=localStorage(键 pd-favs,按路径),再点取消;toast 轻提示。SPA:委托绑定一次,每次 nav 恢复实心态。
+  function toast(msg){
+    var t=document.createElement('div'); t.className='toast'; t.textContent=msg;
+    document.body.appendChild(t);
+    requestAnimationFrame(function(){ t.classList.add('in'); });
+    setTimeout(function(){ t.classList.remove('in'); setTimeout(function(){ t.remove(); },250); },1600);
+  }
+  function favs(){ try{ return JSON.parse(localStorage.getItem('pd-favs')||'{}'); }catch(e){ return {}; } }
+  function favSync(){
+    var b=document.querySelector('.ico[data-act="fav"]'); if(!b) return;
+    b.classList.toggle('on', !!favs()[location.pathname]);
+  }
+  function doCopy(){
+    if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
+    navigator.clipboard.writeText(location.href).then(
+      function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  if(!window.__pdActs){ window.__pdActs=1;
+    document.addEventListener('click', function(ev){
+      var b=ev.target.closest && ev.target.closest('.ico[data-act]'); if(!b) return;
+      if(b.dataset.act==='share'){
+        var h1=document.querySelector('article h1');
+        var title=h1?h1.textContent.trim():document.title;
+        if(navigator.share){
+          navigator.share({title:title,url:location.href}).catch(function(e){
+            if(!e || e.name!=='AbortError') doCopy();   // 用户自己取消→不打扰;真调不通→退回复制
+          });
+        } else doCopy();
+      } else if(b.dataset.act==='fav'){
+        var o=favs(); var k=location.pathname;
+        if(o[k]) delete o[k]; else o[k]=1;
+        localStorage.setItem('pd-favs', JSON.stringify(o));
+        b.classList.toggle('on', !!o[k]);
+        toast(o[k] ? ('已收藏 · 共 '+Object.keys(o).length+' 集') : '已取消收藏');
+      }
+    });
+  }
+  // C13d:mtoc 的 document/window 级监听只绑一次;回调每次现查当前 .mtoc(SPA 换页旧节点自然失联,不泄漏)
+  function mtocScroll(){
+    var bar=document.querySelector('.mtoc'); if(!bar||!bar.__items) return;
+    var items=bar.__items, panel=bar.querySelector('.mtm'), label=bar.querySelector('.mtl'), prog=bar.querySelector('.mtbar');
+    var off=bar.offsetHeight+24, idx=-1;
+    for(var i=0;i<items.length;i++){
+      if(items[i].el.getBoundingClientRect().top<=off) idx=i; else break;
+    }
+    if(window.scrollY>=document.body.scrollHeight-window.innerHeight-2) idx=items.length-1;
+    if(idx!==bar.__cur){
+      bar.__cur=idx;
+      label.textContent=idx<0?'':items[idx].label;
+      bar.classList.toggle('at', idx>=0);
+      panel.querySelectorAll('a').forEach(function(a,i){ a.classList.toggle('on', i===idx); });
+    }
+    var max=document.body.scrollHeight-window.innerHeight;
+    prog.style.width=(max>0?Math.min(100,Math.max(0,window.scrollY/max*100)):0)+'%';
+  }
+  if(!window.__pdMtocEvts){ window.__pdMtocEvts=1;
+    var mtocTick=false;
+    window.addEventListener('scroll', function(){
+      if(!mtocTick){ mtocTick=true; requestAnimationFrame(function(){ mtocScroll(); mtocTick=false; }); }
+    }, {passive:true});
+    document.addEventListener('click', function(e){
+      var bar=document.querySelector('.mtoc.open');
+      if(bar && !e.target.closest('.mtoc')){ bar.classList.remove('open'); var t=bar.querySelector('.mtt'); if(t) t.setAttribute('aria-expanded','false'); }
+    });
+  }
+  // C13d 手机端(移植 设计稿/m-detail.js;真站差异:顶栏不吸顶 → 吸顶条 top:0、跳转偏移只算条高;
+  // 无人物页 → 去掉 chip 形态分支;小节 = article 里带 id 的 h2,与桌面右栏目录同源)
+  function mtoc(){
+    var art=document.querySelector('article'); if(!art) return;
+    if(art.querySelector('.mtoc')) return;               // SPA nav 后 DOM 是新的;同页重跑不重复建
+    // 小节收集照设计稿口径:标题(真站是 h3 正文小节 + h2 收尾节)+ 组标 .pd-sec(金句区与相关区的组标;
+    // ⚠️ 本注释会原样进页面,守卫测试断言「无相关集时页面不出现那个区块的中文标题」——别在这里写它),
+    // 无 id 就发一个,再按文档序排 —— 设计稿当年也是 h2 + .sec 混收
+    var items=[];
+    [].forEach.call(art.querySelectorAll('h2[id], h3[id]'), function(h){
+      items.push({el:h,label:h.textContent.trim()});
+    });
+    [].forEach.call(art.querySelectorAll('.pd-sec'), function(sec,i){
+      if(!sec.id) sec.id='pdsec'+i;
+      var t=(sec.firstChild && sec.firstChild.nodeType===3 ? sec.firstChild.textContent : sec.textContent).trim();
+      items.push({el:sec,label:t});
+    });
+    if(items.length<2) return;
+    items.sort(function(a,b){ return a.el.compareDocumentPosition(b.el) & 4 ? -1 : 1; });
+    // 不用 innerHTML(守卫测试拦它防「搬节点」被偷换成重写)—— 这里全是自造新壳,逐个 createElement
+    function el(tag,cls,txt){ var e=document.createElement(tag); if(cls)e.className=cls; if(txt)e.textContent=txt; return e; }
+    var bar=el('div','mtoc');
+    var toggle=el('button','mtt'); toggle.type='button'; toggle.setAttribute('aria-expanded','false');
+    var mtk=el('span','mtk','目录'), label=el('span','mtl'), caret=el('i','','⌄');
+    toggle.appendChild(mtk); toggle.appendChild(label); toggle.appendChild(caret);
+    var panel=el('div','mtm'), prog=el('span','mtbar');
+    bar.appendChild(toggle); bar.appendChild(panel); bar.appendChild(prog);
+    items.forEach(function(it,i){
+      var a=document.createElement('a'); a.href='#'+it.el.id; a.dataset.i=i; a.textContent=it.label;
+      panel.appendChild(a);
+    });
+    // 就地插在第一节之前 → 滚到这里才吸顶(第一屏留给标题/播放条/钩子)
+    items[0].el.parentElement.insertBefore(bar, items[0].el);
+    bar.__items=items; bar.__cur=-1;   // 状态挂节点上:单例监听每次现查当前条,旧节点随 SPA 换页自然失联
+    toggle.addEventListener('click', function(){
+      var open=bar.classList.toggle('open'); toggle.setAttribute('aria-expanded', open?'true':'false');
+    });   // toggle/panel 的监听挂在自家节点上,随节点销毁,不泄漏
+    panel.addEventListener('click', function(e){
+      var a=e.target.closest('a'); if(!a) return;
+      e.preventDefault();
+      var it=items[+a.dataset.i];
+      window.scrollTo({top:it.el.getBoundingClientRect().top+window.scrollY-bar.offsetHeight-8, behavior:'smooth'});
+      bar.classList.remove('open'); toggle.setAttribute('aria-expanded','false');
+    });
+    mtocScroll();
+    // 页尾「这一集涉及」:克隆右栏里的关联框**本体**(同源不漂移;目录已被吸顶条取代不克隆)。
+    // 不克隆 .pd-rel 外壳 —— 实测撞过一次空壳(壳先建、框后搬,克隆到只有标题的半成品);
+    // 直接选框本身 + 「必须真有链接」守卫,拿不到内容宁可不出块。
+    var box=document.querySelector('.right.sidebar .pd-rel blockquote[data-callout]');
+    if(box && box.querySelector('a') && !art.querySelector('.mrel')){
+      var wrap=el('div','mrel');
+      wrap.appendChild(el('h3','','这一集涉及'));
+      wrap.appendChild(box.cloneNode(true));
+      art.appendChild(wrap);
+    }
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); }
+  document.addEventListener('nav', all);
+  // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
+  var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', all); else all();
+})();
+</script>
+
+<script>
+(function(){
+  function bind(){
+    document.querySelectorAll('button.pd-ts').forEach(function(b){
+      if(b.dataset.bound) return;
+      b.dataset.bound='1';
+      b.addEventListener('click',function(){
+        var n=b.nextElementSibling;
+        if(n&&n.classList.contains('pd-orig')){ n.remove(); return; }
+        var d=document.createElement('div');
+        d.className='pd-orig';
+        var h=document.createElement('b');
+        h.textContent='英文原话 '+(b.dataset.t||'')+(b.dataset.who?' · '+b.dataset.who:'');
+        d.appendChild(h);
+        d.appendChild(document.createElement('br'));
+        d.appendChild(document.createTextNode(b.dataset.en||''));
+        b.after(d);
+      });
+    });
+  }
+  document.addEventListener('nav', bind);
+  bind();
+})();
+</script>
+
+<script>
+(function(){
+  function fmt(s){
+    if(!isFinite(s)||s<0) s=0;
+    var m=Math.floor(s/60), x=Math.floor(s%60);
+    return (m<10?'0':'')+m+':'+(x<10?'0':'')+x;
+  }
+  function wire(box){
+    if(box.dataset.wired) return; box.dataset.wired='1';
+    var a=box.querySelector('audio'), pb=box.querySelector('.pb'),
+        bar=box.querySelector('.bar'), fill=box.querySelector('.bar > i'),
+        tm=box.querySelector('.tm'), t2=box.querySelector('.t2');
+    if(!a||!pb||!bar||!fill||!tm) return;
+    var total=0;
+    function paint(){
+      var cur=a.currentTime||0;
+      fill.style.width=(total?(cur/total*100):0)+'%';
+      tm.textContent=fmt(cur)+(total?' / '+fmt(total):'');
+    }
+    a.addEventListener('loadedmetadata',function(){
+      total=a.duration||0;
+      if(total&&t2) t2.textContent=Math.round(total/60)+' 分钟 · AI 合成朗读';
+      paint();
+    });
+    a.addEventListener('timeupdate',paint);
+    a.addEventListener('play',function(){ pb.textContent='❚❚'; pb.setAttribute('aria-label','暂停'); });
+    a.addEventListener('pause',function(){ pb.textContent='▶'; pb.setAttribute('aria-label','播放'); });
+    a.addEventListener('ended',function(){ pb.textContent='▶'; });
+    pb.addEventListener('click',function(){ if(a.paused) a.play(); else a.pause(); });
+    function seek(ev){
+      if(!total) return;
+      if(ev.clientX==null) return;
+      var r=bar.getBoundingClientRect();
+      var x=Math.min(Math.max(ev.clientX-r.left,0),r.width);
+      a.currentTime=(x/r.width)*total;
+      paint();
+    }
+    bar.addEventListener('pointerdown',function(ev){
+      seek(ev);
+      function mv(e){ seek(e); }
+      function up(){ document.removeEventListener('pointermove',mv); document.removeEventListener('pointerup',up); }
+      document.addEventListener('pointermove',mv); document.addEventListener('pointerup',up);
+    });
+    a.addEventListener('error',function(){
+      box.classList.add('pd-play-dead');
+      box.textContent='本集中文精华音频还没生成好,稍后再来听。';
+    });
+  }
+  function all(){ document.querySelectorAll('.pd-play').forEach(wire); }
+  document.addEventListener('nav', all);
+  if(document.readyState==='loading') document.addEventListener('DOMContentLoaded', all); else all();
+})();
+</script>

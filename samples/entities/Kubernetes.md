@@ -8,12 +8,13 @@ aliases: ["K8s", "k8s"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Kubernetes</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Kubernetes">KU</div><div class="pi"><h1 class="pt">Kubernetes</h1><div class="byl">概念 · 又名 K8s / k8s</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Kubernetes">KU</div><div class="pi"><h1 class="pt">Kubernetes</h1><div class="byl">概念 · 又名 K8s / k8s</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]]**(12:08起):本集提及的一款容器管理系统。开源项目 Omnigen 周六发布后，周一就收到大量合并请求，其中就有开源社区贡献者快速为其添加了在 Kubernetes 上运行的支持。
 - **[[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]]**(00:55起):本集把它作为反面对照：说它是为缓慢扩展的 Web 服务器设计的，难以适应 AI 时代频繁突发的算力需求，且配置文件（YAML）庞大复杂，对人类和智能体都不友好。
+- **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《黄仁勋:NVIDIA 起步选错了技术,但学习比技术更重要》]]**(40:03起):本集在列举推动现代移动云和 AI 行业爆发的开源平台基础底座时提到了它。
 
 ## ① 提到它的金句
 
@@ -23,16 +24,17 @@ aliases: ["K8s", "k8s"]
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-06-24-latent-space-databricks|《Databricks 的智能体平台与数据库「圣杯」：Reynold Xin 与 Matei Zaharia 的技术蓝图》]] — 作为概念(提及)
 - [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] — 作为被讨论公司
+- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《黄仁勋:NVIDIA 起步选错了技术,但学习比技术更重要》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Matei Zaharia]] · [[swyx]] · [[Reynold Xin]] · [[Akshat Bubna]] · [[Databricks]] · [[Vibhu]] · [[Snowflake]] · [[Modal]] · [[MosaicML]]
+[[智能体]] · [[Matei Zaharia]] · [[swyx]] · [[Jensen Huang]] · [[Reynold Xin]] · [[Akshat Bubna]] · [[Jerry]] · [[Databricks]] · [[Vibhu]] · [[NVIDIA]]
 
 <script>
 (function(){

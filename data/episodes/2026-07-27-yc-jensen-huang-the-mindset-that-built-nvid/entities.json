@@ -1,0 +1,842 @@
+{
+  "episode_id": "2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-07-27",
+  "tags": [
+    "加速计算",
+    "智能体",
+    "物理 AI",
+    "系统思维",
+    "开源模型"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "jensen-huang",
+      "type": "person",
+      "role": "host",
+      "name": "Jensen Huang",
+      "file": "Jensen Huang",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            14.783,
+            20.265
+          ],
+          "quote": "Please join me in welcoming to the stage the founder and CEO of NVIDIA, Jensen Huang.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "jerry",
+      "type": "person",
+      "role": "cohost",
+      "name": "Jerry",
+      "file": "Jerry",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            21.286,
+            34.83
+          ],
+          "quote": "Hey, Jerry.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集主角，被描述为从教科书自学起步、以加速计算为核心视角穿越技术周期的 AI 芯片巨头，其物理 AI 业务已接近 100 亿美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            14.783,
+            20.265
+          ],
+          "quote": "Please join me in welcoming to the stage the founder and CEO of NVIDIA, Jensen Huang.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            69.16,
+            78.725
+          ],
+          "quote": "Well, for the students who only know NVIDIA as a company at the center of AI, what part of the early NVIDIA story do they most need to understand?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            250.553,
+            255.654
+          ],
+          "quote": "Everybody would have thought that NVIDIA started out as world leaders in 3D graphics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 50,
+          "t": [
+            280.287,
+            290.014
+          ],
+          "quote": "And so since then, NVIDIA has been inventing all kinds of technology since, all kinds of technology we've never really done before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 56,
+          "t": [
+            314.435,
+            319.319
+          ],
+          "quote": "has expertise in a domain that you and NVIDIA have an expertise in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            583.33,
+            586.372
+          ],
+          "quote": "When NVIDIA went public, our valuation was $300 million.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            847.457,
+            853.459
+          ],
+          "quote": "Because if the Fortune 500 did that, the Fortune 500 will probably look a lot more like Nvidia than not.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1428.042,
+            1430.923
+          ],
+          "quote": "Is that part of the thrust behind NVIDIA being so involved?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1518.271,
+            1521.814
+          ],
+          "quote": "And then, of course, the second thing is I want to use agents ourselves to make NVIDIA go faster.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1522.395,
+            1531.223
+          ],
+          "quote": "And so we have Boris in the back, and we've got cloud code autonomously running in sandboxes all over NVIDIA, and that's really fantastic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1674.737,
+            1678.438
+          ],
+          "quote": "I feel like there's this pattern that I'm starting to see around NVIDIA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1724.592,
+            1729.953
+          ],
+          "quote": "And we contacted Peter and we said, hey, you know, all of NVIDIA's engineers are your engineers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2045.133,
+            2051.797
+          ],
+          "quote": "Another really exciting thing that NVIDIA is all the way out on the edge on is actually physical robots.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2273.73,
+            2278.172
+          ],
+          "quote": "And so inside Waymo are chips from NVIDIA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 526,
+          "t": [
+            2672.766,
+            2679.252
+          ],
+          "quote": "I could tell you exactly how I felt when NVIDIA first founded and the three of us started.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 579,
+          "t": [
+            2897.559,
+            2903.544
+          ],
+          "quote": "And the rest of everything, if you stick with it long enough, NVIDIA happens.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sega",
+      "type": "company",
+      "role": "company",
+      "name": "Sega",
+      "file": "Sega",
+      "primary": true,
+      "how_described": "本集说它是 NVIDIA 早期的游戏机合作方；在 NVIDIA 承认技术路线错误时，世嘉的 CEO 依然支付了 500 万美元，让 NVIDIA 撑过了倒闭危机。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            449.893,
+            455.976
+          ],
+          "quote": "And you were sort of honoring Sega, was it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            458.95,
+            464.415
+          ],
+          "quote": "The project that led us to realize the algorithm we chose was wrong was a partnership with Sega.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            464.835,
+            475.043
+          ],
+          "quote": "Sega had contracted us to build the game console after Saturn that turned out to have been Dreamcast.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "waymo",
+      "type": "company",
+      "role": "company",
+      "name": "Waymo",
+      "file": "Waymo",
+      "primary": true,
+      "how_described": "本集提到其自动驾驶汽车里面使用了来自 NVIDIA 的芯片。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 447,
+          "t": [
+            2273.73,
+            2278.172
+          ],
+          "quote": "And so inside Waymo are chips from NVIDIA.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tesla",
+      "type": "company",
+      "role": "company",
+      "name": "Tesla",
+      "file": "Tesla",
+      "primary": true,
+      "how_described": "本集提到它在自动驾驶领域与 NVIDIA 合作，称以前 NVIDIA 在它们的车里，现在主要在它们的数据中心。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 448,
+          "t": [
+            2279.232,
+            2281.193
+          ],
+          "quote": "At Tesla, we were in the car.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mercedes",
+      "type": "company",
+      "role": "company",
+      "name": "Mercedes",
+      "file": "Mercedes",
+      "primary": true,
+      "how_described": "本集提到与 NVIDIA 在自动驾驶领域合作，NVIDIA 既在它们的数据中心也在车里，并且提供软件栈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 450,
+          "t": [
+            2284.073,
+            2287.155
+          ],
+          "quote": "Mercedes, we're in the data center, we're in the car, we're the software stack.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "accelerated-computing",
+      "type": "concept",
+      "role": "concept",
+      "name": "加速计算 (accelerated computing)",
+      "file": "加速计算",
+      "primary": true,
+      "how_described": "本集说它是 NVIDIA 最核心的理念：通过加速器增强 CPU，解决原本太难的复杂算法问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            412.572,
+            416.114
+          ],
+          "quote": "In our case, we realized that accelerated computing was gonna be important.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 77,
+          "t": [
+            416.814,
+            420.076
+          ],
+          "quote": "And accelerated computing turns out to be very important.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说它是「新的软件」；认为目前它最需要的单一最大突破是「细粒度的控制/可控制性」，并指出底层编码工作将被它自动化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 260,
+          "t": [
+            1295.163,
+            1303.305
+          ],
+          "quote": "One of the things, speaking of agents, the fact of the matter is we kind of have course-level recursive self-improvement already.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1350.223,
+            1364.485
+          ],
+          "quote": "And so the fact that we can condition, the fact that we can control the agents, all the way down to eventually, when it comes up with a plan, I change one word in a plan file, and that one word makes a delta difference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1380.104,
+            1384.686
+          ],
+          "quote": "I think that that level of control and that level of collaboration with agents will be game changing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1385.366,
+            1391.629
+          ],
+          "quote": "We don't need the agents to be 100% accurate, 100% high quality in order for us to use it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1399.186,
+            1405.95
+          ],
+          "quote": "And so I think controllability is probably the single biggest breakthrough that we need for agents at every single level.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1430.943,
+            1436.265
+          ],
+          "quote": "First of all, I need to understand agents because agents is the new software.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1441.908,
+            1464.137
+          ],
+          "quote": "And the more intimate we are about the nature of agents and how it's different than chatbots, which is how different than maybe inference in the very beginning, however we think about these processing layers, the more intimate we are about the nature of the processing, the better we could design systems.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1518.271,
+            1521.814
+          ],
+          "quote": "And then, of course, the second thing is I want to use agents ourselves to make NVIDIA go faster.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1652.093,
+            1661.695
+          ],
+          "quote": "that obviously a large language model needs memory, it needs prior knowledge, it needs tools, it needs ways to network with other agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 404,
+          "t": [
+            2040.81,
+            2044.573
+          ],
+          "quote": "So we've been talking a lot about software and agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2604.297,
+            2614.325
+          ],
+          "quote": "and the better you are at systems thinking so that you could orchestrate millions of agents solving problems autonomously, the better off you are.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 560,
+          "t": [
+            2849.712,
+            2852.993
+          ],
+          "quote": "You know, I've got a whole bunch of AI agents helping me anyways.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "physical-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "物理 AI (physical AI)",
+      "file": "物理 AI",
+      "primary": true,
+      "how_described": "本集把它描述为 AI 的下一个前沿，指能让机器人或自动驾驶汽车理解物理定律、因果关系和摩擦张力的 AI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 421,
+          "t": [
+            2137.943,
+            2143.345
+          ],
+          "quote": "And so it started us down the journey of creating what we call physical AI now, and everybody calls it physical AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 422,
+          "t": [
+            2143.365,
+            2147.327
+          ],
+          "quote": "And physical AI, we started working on world foundation model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 443,
+          "t": [
+            2245.138,
+            2248.983
+          ],
+          "quote": "Where does physical AI show up first in a way that's really economically real?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 457,
+          "t": [
+            2318.648,
+            2325.651
+          ],
+          "quote": "Our robotics business, autonomous vehicle business, basically physical AI business, is probably almost like $10 billion.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "systems-thinking",
+      "type": "concept",
+      "role": "concept",
+      "name": "系统思维 (systems thinking)",
+      "file": "系统思维",
+      "primary": true,
+      "how_described": "本集说它是未来最有用的技能：要求人能抽象地思考系统的输入输出、信息流速率及处理器内存约束，从而编排数百万个智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 237,
+          "t": [
+            1197.244,
+            1213.714
+          ],
+          "quote": "And in fact, just in listening to you talk about technology and your use of it, one of the most important things is systems understanding, systems awareness, system design, system organization, but systems thinking.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2510.915,
+            2521.12
+          ],
+          "quote": "But the hard problems, the hard sciences, physics, chemistry, biology, computer science, computer engineering, systems thinking,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2604.297,
+            2614.325
+          ],
+          "quote": "and the better you are at systems thinking so that you could orchestrate millions of agents solving problems autonomously, the better off you are.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2614.365,
+            2617.068
+          ],
+          "quote": "So that's why systems thinking is going to be so important.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "universal-function-approximator",
+      "type": "concept",
+      "role": "concept",
+      "name": "通用函数近似器 (universal function approximator)",
+      "file": "通用函数近似器",
+      "primary": true,
+      "how_described": "本集说深度学习本质上就是这个数学模型；NVIDIA 在 15 年前意识到它能逼近任何函数，意味着整个计算和软件工业栈将被重新发明。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 140,
+          "t": [
+            706.858,
+            709.119
+          ],
+          "quote": "We just learned the universal function approximator.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 141,
+          "t": [
+            710.472,
+            713.513
+          ],
+          "quote": "We just discovered the universal function approximator.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 147,
+          "t": [
+            732.811,
+            741.518
+          ],
+          "quote": "The day that we realized we have a universal function approximator, the question then is, what does that do to the computing stack?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sandboxes",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandboxes)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集提到它用于智能体安全环境，例如 NVIDIA 让代码自主在遍布全公司的沙箱里运行，并以此为基础为开源 AI 框架提供安全工具包。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 294,
+          "t": [
+            1498.455,
+            1500.456
+          ],
+          "quote": "How do you deal with sandboxes?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1522.395,
+            1531.223
+          ],
+          "quote": "And so we have Boris in the back, and we've got cloud code autonomously running in sandboxes all over NVIDIA, and that's really fantastic.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "deep-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "深度学习 (deep learning)",
+      "file": "深度学习",
+      "primary": true,
+      "how_described": "本集将它视为 NVIDIA 致力加速的算法领域之一；在 AlexNet 出现时，NVIDIA 看出它是一种重新发明软件工作流的全新方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            359.476,
+            363.279
+          ],
+          "quote": "And so all kinds of different algorithms, of course, deep learning is one of the major ones.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 132,
+          "t": [
+            667.455,
+            670.397
+          ],
+          "quote": "When AlexNet came along, the algorithm was deep learning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            687.23,
+            702.716
+          ],
+          "quote": "And the breakthrough for us was realizing that AlexNet was not AlexNet, that AlexNet was an approach with deep learning that allows you to learn any function.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "self-driving-cars",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动驾驶汽车 (self-driving cars)",
+      "file": "自动驾驶汽车",
+      "primary": true,
+      "how_described": "本集说它是机器人技术中第一个同时具备大市场和标准化技术飞轮的应用领域，也是 NVIDIA 的下一个 100 亿美元业务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 152,
+          "t": [
+            751.345,
+            755.569
+          ],
+          "quote": "Almost right away, we started working on robotics, self-driving cars, because...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2262.867,
+            2273.39
+          ],
+          "quote": "relatively standardized technology so that we could scale and get the flywheel going and has real economic value was self-driving cars.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集鼓励大家都去使用它，并借用它指代机器人领域即将迎来的标志性启蒙时刻。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 340,
+          "t": [
+            1759.988,
+            1763.59
+          ],
+          "quote": "Everybody should use ChatGPT and Cloud, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2155.909,
+            2162.131
+          ],
+          "quote": "I would say the ChatGPT moment of robots happened a couple of years ago already.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2162.451,
+            2169.112
+          ],
+          "quote": "And the reason for that is, remember when ChatGPT first came out, it didn't do anything productive.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "linux",
+      "type": "concept",
+      "role": "concept",
+      "name": "Linux",
+      "file": "Linux",
+      "primary": false,
+      "how_described": "本集将某个开源大模型时刻比作 Linux 时刻，并强调如果没有 Linux 等开源平台，就不会有现代的 AI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 329,
+          "t": [
+            1714.45,
+            1720.271
+          ],
+          "quote": "And in a lot of ways, OpenClaw to me was very Linux moment to me.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2403.347,
+            2413.655
+          ],
+          "quote": "if not for open, if not for Linux, if not for Kubernetes, if not for all of these, you know, platforms, if not for TensorFlow or more important, PyTorch, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "kubernetes",
+      "type": "concept",
+      "role": "concept",
+      "name": "Kubernetes",
+      "file": "Kubernetes",
+      "primary": false,
+      "how_described": "本集在列举推动现代移动云和 AI 行业爆发的开源平台基础底座时提到了它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 477,
+          "t": [
+            2403.347,
+            2413.655
+          ],
+          "quote": "if not for open, if not for Linux, if not for Kubernetes, if not for all of these, you know, platforms, if not for TensorFlow or more important, PyTorch, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "pytorch",
+      "type": "concept",
+      "role": "concept",
+      "name": "PyTorch",
+      "file": "PyTorch",
+      "primary": false,
+      "how_described": "本集将它描述为极其重要的开源框架，指出如果没有它，就不会有现代 AI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 477,
+          "t": [
+            2403.347,
+            2413.655
+          ],
+          "quote": "if not for open, if not for Linux, if not for Kubernetes, if not for all of these, you know, platforms, if not for TensorFlow or more important, PyTorch, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": false,
+      "how_described": "本集提到可以用强化学习对四处行走的机器人进行微调，并将其建立在物理学基础上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 430,
+          "t": [
+            2176.527,
+            2185.834
+          ],
+          "quote": "A couple of years ago, robots walking around that we could do reinforcement learning, fine-tune it for and ground it in physics, really happened a couple of years ago.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2221.884,
+            2232.149
+          ],
+          "quote": "has something to do with reinforcement learning, grounding it on physics, grounding it on all the electromechanical systems that robots require.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

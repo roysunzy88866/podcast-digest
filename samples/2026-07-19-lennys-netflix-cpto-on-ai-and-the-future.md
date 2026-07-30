@@ -139,9 +139,9 @@ Netflix 也提醒大家,它在 AI 和机器学习(ML)上的积累不是从 GenAI
 
 **换个口味**
 
+- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|黄仁勋:NVIDIA 起步选错了技术,但学习比技术更重要]] —— 同概念:智能体 (agents)、系统思维 (systems thinking)
+- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|对话 Samsara CEO:AI 进入物理世界,用 25 万亿数据点改造传统工业]] —— 同概念:护栏 (guardrails)、智能体 (agents)
 - [[2026-03-22-lennys-the-art-of-influence-jessica-fain|别只想推销：产品负责人如何真正影响高管决策]] —— 同概念:智能体 (agents)、护栏 (guardrails)
-- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展]] —— 同概念:智能体 (agents)、主观能动性 (agency)
-- [[2026-03-01-lennys-the-design-process-is-dead|The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)]] —— 同概念:智能体 (agents)
 
 </div>
 </div>

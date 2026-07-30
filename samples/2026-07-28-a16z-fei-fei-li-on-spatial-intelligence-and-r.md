@@ -109,6 +109,7 @@ Fei-Fei 进一步指出了人形机器人的悖论：人形是为了在非结构
 
 - [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble]] —— 同公司:World Labs · 同概念:Marble、空间智能 (spatial intelligence)
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同公司:Waymo
+- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|黄仁勋:NVIDIA 起步选错了技术,但学习比技术更重要]] —— 同公司:Waymo
 
 </div>
 </div>

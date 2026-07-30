@@ -139,9 +139,9 @@ Applied Intuition 一直非常低调，直到最近才「出道」发声。Qasar
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|黄仁勋:NVIDIA 起步选错了技术,但学习比技术更重要]] —— 同公司:Tesla、Waymo · 同概念:物理 AI (physical AI)、ChatGPT
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 悬崖边？数据中心次级债与 SpaceX 缩水]] —— 同公司:Tesla、Google、OpenAI
-- [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble]] —— 同公司:Waymo · 同概念:ChatGPT
-- [[2025-12-07-lennys-surge-ai-edwin-chen|Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理]] —— 同公司:Waymo · 同概念:ChatGPT
+- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|对话 Samsara CEO:AI 进入物理世界,用 25 万亿数据点改造传统工业]] —— 同公司:Tesla、Waymo · 同概念:物理 AI (physical AI)
 
 </div>
 <div class="pd-ex">

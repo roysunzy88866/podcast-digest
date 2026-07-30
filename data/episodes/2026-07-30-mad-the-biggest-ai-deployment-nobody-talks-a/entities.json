@@ -1,0 +1,808 @@
+{
+  "episode_id": "2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a",
+  "podcast": "The MAD Podcast",
+  "date": "2026-07-30",
+  "tags": [
+    "物理 AI",
+    "智能体",
+    "传统行业数字化",
+    "数据护城河",
+    "自动化卡车"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "matt-turk",
+      "type": "person",
+      "role": "host",
+      "name": "Matt Turk",
+      "file": "Matt Turk",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            31.542,
+            32.203
+          ],
+          "quote": "Hi, I'm Matt Turk.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 856,
+          "t": [
+            3610.821,
+            3611.863
+          ],
+          "quote": "Hi, it's Matt Turk again.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sanjit-biswas",
+      "type": "person",
+      "role": "cohost",
+      "name": "Sanjit Biswas",
+      "file": "Sanjit Biswas",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            33.724,
+            42.89
+          ],
+          "quote": "My guest today is Sanjit Biswas, co-founder and CEO of Samsara, the $20 billion company running what might be the largest AI deployment in the physical world.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "samsara",
+      "type": "company",
+      "role": "company",
+      "name": "Samsara",
+      "file": "Samsara",
+      "primary": true,
+      "how_described": "本集把它说成:一家服务于实体运营领域、市值约 200 亿美元的公司,每年处理 25 万亿个数据点,其系统每天在全美 99% 的道路上行驶,运营着可能是现实世界中最大规模的 AI 部署。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            5.736,
+            11.782
+          ],
+          "quote": "The Samsara system, in a given day, we're driving 99% of the US roads, usually multiple times a day.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 11,
+          "t": [
+            33.724,
+            42.89
+          ],
+          "quote": "My guest today is Sanjit Biswas, co-founder and CEO of Samsara, the $20 billion company running what might be the largest AI deployment in the physical world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 101,
+          "t": [
+            432.226,
+            442.072
+          ],
+          "quote": "So you alluded to some of this, but for contextual awareness early in this conversation, maybe give us a 60 second on what Samsara does.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            443.413,
+            447.435
+          ],
+          "quote": "So Samsara is a technology company serving the world of physical operations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            822.106,
+            833.575
+          ],
+          "quote": "And when you started Samsara, as opposed to what you did in Meraki, that was a brand new area where, as far as I could tell from what I read, you guys didn't have a prior background in that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 223,
+          "t": [
+            925.335,
+            927.417
+          ],
+          "quote": "With Samsara, it's a different customer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1035.634,
+            1042.905
+          ],
+          "quote": "So this connects to the millions of Samsara gateways, tens of millions of phones and handsets that can act as kind of a relay point for us.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1247.675,
+            1255.441
+          ],
+          "quote": "And then we have the network, which is essentially, think about the millions of vehicles on the road, all the people running the Samsara stack.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 420,
+          "t": [
+            1684.495,
+            1689.84
+          ],
+          "quote": "Is it the data layer that you feel protects Samsara?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 441,
+          "t": [
+            1790.862,
+            1797.53
+          ],
+          "quote": "The Samsara system, in a given day, we're driving 99% of the US roads, usually multiple times a day.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 555,
+          "t": [
+            2242.67,
+            2244.07
+          ],
+          "quote": "We called it the Samsara Assistant.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 762,
+          "t": [
+            3203.251,
+            3210.313
+          ],
+          "quote": "I guess, where would automated trucks and humanoids on construction site fit in the overall picture at Samsara?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "physical-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "物理 AI (physical AI)",
+      "file": "物理 AI",
+      "primary": true,
+      "how_described": "本集把它说成:AI 在物理世界(如建筑工地、电网、交通等)的应用;因为缺乏现成的数字比特数据且涉及硬件部署,比数字世界的 AI 挑战大得多。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            49.615,
+            60.082
+          ],
+          "quote": "We talked about physical AI, agents for truckers and frontline workers, humanoids, autonomous trucks, and why the AI boom is really an infrastructure construction project.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            76.795,
+            85.846
+          ],
+          "quote": "All right, Sanjay, on this podcast, we've talked a lot about AI models and software agents, but we have spoken a little less about physical AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            95.498,
+            97.279
+          ],
+          "quote": "So maybe let's start with physical AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            105.346,
+            108.008
+          ],
+          "quote": "So from your perspective, what is physical AI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            112.106,
+            115.648
+          ],
+          "quote": "I would say physical AI is really the application of AI to the physical world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            128.758,
+            133.684
+          ],
+          "quote": "The interesting challenge, I think, with physical AI is that it's not digitized, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 724,
+          "t": [
+            3037.7,
+            3042.343
+          ],
+          "quote": "All right, so you sit at the very forefront of all of this in physical AI.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集把它说成:预设的工作流护栏,必须与智能体推理结合,以防智能体陷入死循环或钻牛角尖,让它保持在正轨上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 594,
+          "t": [
+            2460.783,
+            2465.405
+          ],
+          "quote": "And that is in some lightweight sense, like the workflow, it's also the guardrails.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 597,
+          "t": [
+            2476.03,
+            2485.594
+          ],
+          "quote": "So it's some combination of operational context, which comes through workflow and guardrails with also this now kind of new agentic reasoning ability.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "generative-ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "生成式 AI (generative AI)",
+      "file": "生成式 AI",
+      "primary": true,
+      "how_described": "本集把它说成:能对视频进行推理(如判断司机急刹车是为了躲避狗),甚至能生成 AI 虚拟教练视频来对司机进行周末安全辅导。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 489,
+          "t": [
+            1974.845,
+            1977.749
+          ],
+          "quote": "other forms of more modern generative AI?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2032.98,
+            2039.103
+          ],
+          "quote": "What has generative AI fundamentally changed for you guys?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:能在更长的时间跨度内自主规划并执行任务(如自动查阅手册处理保修),而不像 LLM 那样只能简单回答问题的 AI。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 13,
+          "t": [
+            49.615,
+            60.082
+          ],
+          "quote": "We talked about physical AI, agents for truckers and frontline workers, humanoids, autonomous trucks, and why the AI boom is really an infrastructure construction project.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            76.795,
+            85.846
+          ],
+          "quote": "All right, Sanjay, on this podcast, we've talked a lot about AI models and software agents, but we have spoken a little less about physical AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 547,
+          "t": [
+            2210.791,
+            2212.212
+          ],
+          "quote": "All right, let's talk about Agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 549,
+          "t": [
+            2225.343,
+            2227.505
+          ],
+          "quote": "And you launched Agents Studio.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2263.852,
+            2269.073
+          ],
+          "quote": "The breakthrough that, of course, happened last year is these agents can operate over much longer time horizons.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 586,
+          "t": [
+            2413.195,
+            2421.117
+          ],
+          "quote": "I'm always fascinated for people that build real agents that work in the real world, just like you guys do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 607,
+          "t": [
+            2527.283,
+            2531.104
+          ],
+          "quote": "What do you think agents are not able to do just yet?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "data-network-effect",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据网络效应 (data network effect)",
+      "file": "数据网络效应",
+      "primary": true,
+      "how_described": "本集把它说成:不同客户间的数据可以共享价值,例如通过覆盖全美道路的车辆收集到坑洼位置数据,帮助城市决定修补路段的优先级。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 437,
+          "t": [
+            1762.918,
+            1769.103
+          ],
+          "quote": "Do you have a concept of data network effect or data flywheel across customers?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 458,
+          "t": [
+            1847.539,
+            1850.26
+          ],
+          "quote": "So that is another sort of data network effect that we get.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agents-studio",
+      "type": "concept",
+      "role": "concept",
+      "name": "Agents Studio",
+      "file": "Agents Studio",
+      "primary": true,
+      "how_described": "本集把它说成:Samsara 最近在 Beyond 大会上发布的智能体产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 549,
+          "t": [
+            2225.343,
+            2227.505
+          ],
+          "quote": "And you launched Agents Studio.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-dash-cams",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 行车记录仪 (AI dash cams)",
+      "file": "AI 行车记录仪",
+      "primary": true,
+      "how_described": "本集把它说成:不仅记录高清视频,还通过向内对准司机的摄像头,借助边缘 AI 检测疲劳或看手机等危险行为并发出音频警报,成为司机与 AI 交流的界面。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 333,
+          "t": [
+            1336.627,
+            1338.928
+          ],
+          "quote": "And then you have AI dash cams.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "asset-tag",
+      "type": "concept",
+      "role": "concept",
+      "name": "资产标签 (asset tag)",
+      "file": "资产标签",
+      "primary": true,
+      "how_described": "本集把它说成:带有加速度计和工业级蓝牙的坚固传感器,可用卡车碾过而继续运行,甚至还有类似贴纸的 45 天一次性追踪标签版本。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 242,
+          "t": [
+            1000.568,
+            1002.389
+          ],
+          "quote": "This is what we call an asset tag.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "vehicle-gateway",
+      "type": "concept",
+      "role": "concept",
+      "name": "车辆网关 (vehicle gateway)",
+      "file": "车辆网关",
+      "primary": true,
+      "how_described": "本集把它说成:插在卡车上的黑匣子,通过诊断端口读取发动机的各种信号,比如油耗、故障码、甚至司机的脚是在油门还是刹车上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 321,
+          "t": [
+            1276.627,
+            1286.031
+          ],
+          "quote": "Yeah, unfortunately, I don't have all the hardware that we make on my desk, but the vehicle gateway, think of it as a black box that goes on a truck or a piece of construction equipment or basically any kind of moving asset.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "automated-trucks",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动化卡车 (automated trucks)",
+      "file": "自动化卡车",
+      "primary": true,
+      "how_described": "本集把它说成:由于涉及 HVAC 技工去不同社区干活、定制化水泥搅拌车等非标场景,普及速度比 Robotaxi 慢得多,可能需要 10 到 20 年才能完全渗透。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 762,
+          "t": [
+            3203.251,
+            3210.313
+          ],
+          "quote": "I guess, where would automated trucks and humanoids on construction site fit in the overall picture at Samsara?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "robotaxi",
+      "type": "concept",
+      "role": "concept",
+      "name": "自动驾驶出租车 (robotaxi)",
+      "file": "自动驾驶出租车",
+      "primary": true,
+      "how_described": "本集把它说成:普及速度会比自动化卡车快得多,因为城市内的交通场景高度相似。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            115.848,
+            120.732
+          ],
+          "quote": "So if you think about the infrastructure of our planet, it's way more than just the roads where you might see a Waymo robotaxi.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "meraki",
+      "type": "company",
+      "role": "company",
+      "name": "Meraki",
+      "file": "Meraki",
+      "primary": false,
+      "how_described": "本集提到:嘉宾在创办 Samsara 之前,基于在 MIT 的 Wi-Fi 网络研究项目创立的前一家公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 157,
+          "t": [
+            696.053,
+            699.917
+          ],
+          "quote": "Stanford to MIT to Mercky, Meraki.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 171,
+          "t": [
+            742.389,
+            751.478
+          ],
+          "quote": "But the first company, Meraki, came out of that project, which was we thought it was tremendously cool, this idea that Wi-Fi could connect so many people, just incredibly useful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 176,
+          "t": [
+            767.496,
+            768.457
+          ],
+          "quote": "So that was Meraki.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 193,
+          "t": [
+            813.356,
+            816.197
+          ],
+          "quote": "And Meraki ended up kind of just growing and growing and growing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            822.106,
+            833.575
+          ],
+          "quote": "And when you started Samsara, as opposed to what you did in Meraki, that was a brand new area where, as far as I could tell from what I read, you guys didn't have a prior background in that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            870.145,
+            874.708
+          ],
+          "quote": "And similar to Meraki, we weren't intending to start this company right out of Cisco.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 222,
+          "t": [
+            918.528,
+            924.494
+          ],
+          "quote": "we probably would have overweighted our prior experience and said, hey, this is how it's done or this is how we did it at Meraki.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "reddit",
+      "type": "company",
+      "role": "company",
+      "name": "Reddit",
+      "file": "Reddit",
+      "primary": false,
+      "how_described": "本集提到:嘉宾强调物理世界的数据是互联网上抓取不到的,比如你无法爬取 Reddit 去发现某个特定建筑工地今天发生了什么(以此说明 Samsara 数据的独特性)。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            2.373,
+            5.676
+          ],
+          "quote": "Like you can't crawl Reddit and find out about what happened on a construction site.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 428,
+          "t": [
+            1715.871,
+            1719.172
+          ],
+          "quote": "Like you can't crawl Reddit and find out about what happened on a construction site.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "waymo",
+      "type": "company",
+      "role": "company",
+      "name": "Waymo",
+      "file": "Waymo",
+      "primary": false,
+      "how_described": "本集提到:在路上可能会看到 Waymo 的自动驾驶出租车,作为物理 AI 应用的例子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 26,
+          "t": [
+            115.848,
+            120.732
+          ],
+          "quote": "So if you think about the infrastructure of our planet, it's way more than just the roads where you might see a Waymo robotaxi.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "home-depot",
+      "type": "company",
+      "role": "company",
+      "name": "Home Depot",
+      "file": "Home Depot",
+      "primary": false,
+      "how_described": "本集提到:Samsara 的客户,经常遭遇虚假的碰瓷索赔,引入这套带视频证据的系统后,车险理赔数量下降了 65%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 664,
+          "t": [
+            2814.277,
+            2816.958
+          ],
+          "quote": "Because, for example, if you are the Home Depot, you're",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 667,
+          "t": [
+            2819.799,
+            2826.282
+          ],
+          "quote": "Lots of claims, auto claims are placed against you because they'll say, hey, a Home Depot truck backed into my car on this highway, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 716,
+          "t": [
+            2991.807,
+            2998.569
+          ],
+          "quote": "If you have that conversation early in a transparent way, it tends to be quite constructive because I mentioned Home Depot earlier.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "chicago",
+      "type": "company",
+      "role": "company",
+      "name": "Chicago",
+      "file": "Chicago",
+      "primary": false,
+      "how_described": "本集提到:利用 Samsara 收集到的数据,判断冬季后哪些路段破损最严重,决定按什么优先级去修补坑洼。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 449,
+          "t": [
+            1818.446,
+            1825.51
+          ],
+          "quote": "So like this city of Chicago, for example, they want to know which potholes happen after the winter weather season.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tesla",
+      "type": "company",
+      "role": "company",
+      "name": "Tesla",
+      "file": "Tesla",
+      "primary": false,
+      "how_described": "本集提到:作为涉足物理 AI 领域的公司代表被顺带提及。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            289.175,
+            293.779
+          ],
+          "quote": "I mean, obviously, there's Tesla, there's human noise being built.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "本集提到:由于数据中心大爆发引发电网新建和全美电工严重短缺,Meta 正在推出计划,培训更多人成为电工。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 840,
+          "t": [
+            3550.467,
+            3557.45
+          ],
+          "quote": "So you see companies like Meta doing initiatives to reskill people, train them on how to become a good electrician.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cerebros",
+      "type": "company",
+      "role": "company",
+      "name": "Cerebros",
+      "file": "Cerebros",
+      "primary": false,
+      "how_described": "本集提到:一家晶圆级芯片公司,其运行的推理模型在速度上实现了非线性跳跃,解锁了原本太贵或太慢的新用例。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 647,
+          "t": [
+            2718.026,
+            2726.572
+          ],
+          "quote": "And not to promote the podcast on the podcast, but by the time we release this, the prior episode will be precisely an episode with Andrew Feldman of Cerebros.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "edge AI",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

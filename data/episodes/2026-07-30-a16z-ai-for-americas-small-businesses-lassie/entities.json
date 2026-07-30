@@ -1,0 +1,1038 @@
+{
+  "episode_id": "2026-07-30-a16z-ai-for-americas-small-businesses-lassie",
+  "podcast": "The a16z Show",
+  "date": "2026-07-30",
+  "tags": [
+    "AI 智能体",
+    "自动化行政工作",
+    "中小企业市场",
+    "垂直 SaaS",
+    "创业护城河"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "olivia-moore",
+      "type": "person",
+      "role": "host",
+      "name": "Olivia Moore",
+      "file": "Olivia Moore",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            83.731,
+            97.214
+          ],
+          "quote": "In this episode, Alex Rampell and Olivia Moore speak with Lassie co-founders Stein Pella and Frederick Rankin about building AI agents that automate administrative work for healthcare practices, from insurance billing to patient payments.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "frederick-rankin",
+      "type": "person",
+      "role": "cohost",
+      "name": "Frederick Rankin",
+      "file": "Frederick Rankin",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            83.731,
+            97.214
+          ],
+          "quote": "In this episode, Alex Rampell and Olivia Moore speak with Lassie co-founders Stein Pella and Frederick Rankin about building AI agents that automate administrative work for healthcare practices, from insurance billing to patient payments.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "alex-rampell",
+      "type": "person",
+      "role": "cohost",
+      "name": "Alex Rampell",
+      "file": "Alex Rampell",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            83.731,
+            97.214
+          ],
+          "quote": "In this episode, Alex Rampell and Olivia Moore speak with Lassie co-founders Stein Pella and Frederick Rankin about building AI agents that automate administrative work for healthcare practices, from insurance billing to patient payments.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "stein-pella",
+      "type": "person",
+      "role": "cohost",
+      "name": "Stein Pella",
+      "file": "Stein Pella",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 21,
+          "t": [
+            83.731,
+            97.214
+          ],
+          "quote": "In this episode, Alex Rampell and Olivia Moore speak with Lassie co-founders Stein Pella and Frederick Rankin about building AI agents that automate administrative work for healthcare practices, from insurance billing to patient payments.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "lassie",
+      "type": "company",
+      "role": "company",
+      "name": "Lassie",
+      "file": "Lassie",
+      "primary": true,
+      "how_described": "本集的主角公司：一家为医疗诊所（目前主攻牙科）构建智能体的初创公司，核心是用 AI 自动化保险计费和患者收款等繁琐的行政劳动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            46.302,
+            54.004
+          ],
+          "quote": "There was a great quote from Dr. Kwan about you guys, which is that Lassie isn't replacing humans, but like freeing them from wearing so many hats.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            62.326,
+            68.268
+          ],
+          "quote": "Is there a world where Lassie for dentists makes Lassie for physical therapists better?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            83.731,
+            97.214
+          ],
+          "quote": "In this episode, Alex Rampell and Olivia Moore speak with Lassie co-founders Stein Pella and Frederick Rankin about building AI agents that automate administrative work for healthcare practices, from insurance billing to patient payments.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            250.086,
+            259.692
+          ],
+          "quote": "The Lassie story is so unique to me because you both spent months, if not years, before kind of fully releasing the product, like literally in the office of the customers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            717.622,
+            721.503
+          ],
+          "quote": "The best and funnest story of the Lassie introduction.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1025.693,
+            1034.078
+          ],
+          "quote": "There was a great quote from Dr. Kwan about you guys, which is that Lassie isn't replacing humans, but like freeing them from wearing so many hats.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 331,
+          "t": [
+            1310.258,
+            1322.103
+          ],
+          "quote": "From an implementation and onboarding perspective, you guys integrate with existing practice management systems for the most part versus kind of making them switch a bunch of software to adopt Lassie.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 440,
+          "t": [
+            1815.763,
+            1820.406
+          ],
+          "quote": "It would be amazing if it's just, like, download the Lassie app from the App Store and then you're all done.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 444,
+          "t": [
+            1832.813,
+            1838.177
+          ],
+          "quote": "Like, how do you solve that last mile distribution problem for Lassie?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2001.732,
+            2005.713
+          ],
+          "quote": "Then there's all these other types of health care practices that could use Lassie.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2014.236,
+            2020.818
+          ],
+          "quote": "Is there, you think, a world where Lassie for dentists makes Lassie for physical therapists better?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 637,
+          "t": [
+            2762.21,
+            2772.618
+          ],
+          "quote": "So I'm just kind of curious, like from a technical lens, what are the things where you would say, okay, and it's not a Lassie-specific question, it's just kind of more the technology and what it enables writ large.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 655,
+          "t": [
+            2865.332,
+            2874.563
+          ],
+          "quote": "Yeah, this is less specific to Lassie, but I'm personally kind of excited about smaller models that learn faster and can learn on less data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 744,
+          "t": [
+            3339.752,
+            3349.963
+          ],
+          "quote": "So obviously there are a lot of dental practices that want or even desperately need products like Lassie, but they are distributed and they're all over the country and there are a lot of them to reach.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 768,
+          "t": [
+            3455.615,
+            3458.056
+          ],
+          "quote": "We are very, very excited for the future of Lassie.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 769,
+          "t": [
+            3458.976,
+            3468.241
+          ],
+          "quote": "Anyone who's listening who might be interested in working with the Lassie team to build something generational here, check it out at lassie.ai.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集将其定义为能自主执行劳动（如处理保险索赔、核对付款、甚至与保险公司争论）的自主系统，区别于需要人留在回路中操作的传统软件工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 9,
+          "t": [
+            35.349,
+            40.655
+          ],
+          "quote": "We come by and we say, hey, we actually have built this agent that can provide you already with tens of hours of labor.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 108,
+          "t": [
+            397.964,
+            400.925
+          ],
+          "quote": "You know, this is true if you're a human in the office or if you're an agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 250,
+          "t": [
+            929.779,
+            943.178
+          ],
+          "quote": "So we come by and we say, hey, we actually have built this agent that can provide you already with tens of hours of labor and ask your friends or the people in your study club, like if this is real and then, or they Google it and they see that this is real.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 254,
+          "t": [
+            957.9,
+            963.801
+          ],
+          "quote": "So like we are already charging five figures for kind of like this first agent that only does 30 hours of labor a month.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 262,
+          "t": [
+            995.792,
+            997.172
+          ],
+          "quote": "So we needed to build an agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1278.012,
+            1282.696
+          ],
+          "quote": "But it's fine if it does in this case for the first agent 98% of the work and then there's a sliver left.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1283.096,
+            1289.761
+          ],
+          "quote": "And the interesting thing that we have thousands of staffers that are basically giving us input on how to make that appeal that the agent currently cannot do.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 461,
+          "t": [
+            1881.643,
+            1889.645
+          ],
+          "quote": "a lot of the work went into not only building this agent, but also how do you set people up on that agent such that almost all the friction is gone.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 471,
+          "t": [
+            1926.499,
+            1933.963
+          ],
+          "quote": "There's like one or two pieces left, but I think we're like months out until you basically like have an agent that you can almost like set up like self-serve.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2038.217,
+            2050.261
+          ],
+          "quote": "we want to build an agent for the business that then will interface with the personal agent of a consumer, highly likely, that then will interface with an agent at the insurance company or other parties that the business needs to interface and interact with.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 687,
+          "t": [
+            3053.77,
+            3059.613
+          ],
+          "quote": "Um, and in this case, kind of like our agent, like has like all the, like, uh, documentation.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 751,
+          "t": [
+            3380.517,
+            3384.4
+          ],
+          "quote": "Uh, so it's a super interesting problem to solve because we've built this agent that's really good.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "human-in-the-loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "回路中的人类 (human in the loop)",
+      "file": "回路中的人类",
+      "primary": true,
+      "how_described": "本集讨论中小企业使用工具的痛点时多次提及，指出小企业里根本没有人有时间坐在这套流程里当「回路中的人类」去操作工具，因此必须构建完全自主运行的系统。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 260,
+          "t": [
+            989.329,
+            994.291
+          ],
+          "quote": "There is a human in the loop that ultimately the software engineers decide what's get deployed.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1010.655,
+            1020.997
+          ],
+          "quote": "So that was like technically like hard to do, which also makes this super interesting from a technology perspective, because you all of a sudden need to build autonomous systems that run on its own and don't have a human in the loop.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1269.01,
+            1276.852
+          ],
+          "quote": "So I think that's how we approach like this, like built as well that we didn't want a human in the loop because we want software that scales and can be implemented quick.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 476,
+          "t": [
+            1955.796,
+            1963.961
+          ],
+          "quote": "But like in order to set up an account for a user without a human in the loop, which is what Robinhood pioneered, because back in days there was JalSwap and then, hello, I want to open an account.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "incumbent",
+      "type": "concept",
+      "role": "concept",
+      "name": "现有巨头 (incumbent)",
+      "file": "现有巨头",
+      "primary": true,
+      "how_described": "本集讨论初创公司的护城河与分销博弈时提及，指出在牙科等许多垂直领域，根本没有占据主导地位的软件「现有巨头」，你的竞争对手是疲惫的前台员工或人力劳动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            30.524,
+            35.269
+          ],
+          "quote": "The battle between every startup and incumbent comes down to whether the startup gets the distribution before the incumbent gets the innovation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1322.503,
+            1327.845
+          ],
+          "quote": "And Alex, you have written and talked a lot about kind of startups getting distribution before an incumbent can innovate.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1452.188,
+            1453.429
+          ],
+          "quote": "Like, there is no incumbent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1475.364,
+            1478.045
+          ],
+          "quote": "And that's where it's like, you know, battle between startup and incumbent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1478.065,
+            1482.127
+          ],
+          "quote": "It's like the incumbent might win there because their ability to add things.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1509.991,
+            1514.554
+          ],
+          "quote": "Like, who is the giant ass incumbent of dental software?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 389,
+          "t": [
+            1549.431,
+            1554.434
+          ],
+          "quote": "You know, the battle between every startup and incumbent comes down to whether the startup gets the distribution before the incumbent gets the innovation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1554.934,
+            1559.596
+          ],
+          "quote": "But with many changes, one change is the incumbent can get the innovation much more quickly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 392,
+          "t": [
+            1561.057,
+            1571.789
+          ],
+          "quote": "But the other is that there are a lot of categories where there never was an incumbent software company because the only job to be done was like actual human labor.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1580.658,
+            1585.5
+          ],
+          "quote": "Like who does, like there are a lot of industries that just don't have an incumbent software solution.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 397,
+          "t": [
+            1585.98,
+            1592.502
+          ],
+          "quote": "For the industries that do have an incumbent software solution, yeah, the risk is very high that they will start releasing AI features.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1636.337,
+            1644.14
+          ],
+          "quote": "Yeah, and we see exactly that is that there isn't an incumbent that kind of like does this job or can do this job like quickly.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 413,
+          "t": [
+            1644.4,
+            1647.221
+          ],
+          "quote": "Well, the incumbent was named Betty and she quit two weeks ago.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 414,
+          "t": [
+            1647.522,
+            1648.622
+          ],
+          "quote": "That's the incumbent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 417,
+          "t": [
+            1651.783,
+            1652.484
+          ],
+          "quote": "That's the incumbent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 425,
+          "t": [
+            1682.706,
+            1698.773
+          ],
+          "quote": "do the actual labor and talk to all these like systems and you need to build an ontology to make sure that everybody in this whole ecosystem is on the same page about an insurance claim and the patient payment because all these different systems have like a slightly different definition of that which makes it also then harder to build because there is no incumbent",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "robinhood",
+      "type": "company",
+      "role": "company",
+      "name": "Robinhood",
+      "file": "Robinhood",
+      "primary": false,
+      "how_described": "本集提到创始人 Stein 曾在此从事推荐增长工作，并指出他们借鉴了其无需人工干预的自助账户设置与无摩擦上手流程来做企业软件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            127.696,
+            133.702
+          ],
+          "quote": "What did he tell you that made you decide to quit your tech job at Robinhood and go process payments for him by hand?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 32,
+          "t": [
+            137.406,
+            141.17
+          ],
+          "quote": "Like I was at Robinhood at the time and I came to this country to start a company.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 80,
+          "t": [
+            267.93,
+            271.655
+          ],
+          "quote": "It's like, hello, I work at Robinhood on growth on the referral program.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1294.244,
+            1295.205
+          ],
+          "quote": "I worked at Robinhood.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 455,
+          "t": [
+            1859.387,
+            1863.55
+          ],
+          "quote": "Because at Robinhood or Superhuman, you get the time window 48 hours.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 474,
+          "t": [
+            1952.534,
+            1953.935
+          ],
+          "quote": "I think I'm very impressed by Robinhood.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 476,
+          "t": [
+            1955.796,
+            1963.961
+          ],
+          "quote": "But like in order to set up an account for a user without a human in the loop, which is what Robinhood pioneered, because back in days there was JalSwap and then, hello, I want to open an account.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 478,
+          "t": [
+            1967.023,
+            1973.267
+          ],
+          "quote": "But one of the many things that Robinhood pioneered is that you can almost self-serve your way onto an account and KYC is getting done.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2137.315,
+            2146.079
+          ],
+          "quote": "But I think again, similar to SuperU and Robinhood, we worked at like laser focus on getting one thing really, really right and then scale it like from there.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2154.337,
+            2162.166
+          ],
+          "quote": "You both have been part of scaling many important companies in the past, Robinhood and Coinbase and Superhuman, among others.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "superhuman",
+      "type": "company",
+      "role": "company",
+      "name": "Superhuman",
+      "file": "Superhuman",
+      "primary": false,
+      "how_described": "本集提到创始人 Frederick 曾在此负责产品，他们借鉴了其极为严格地专注于正确的 ICP（理想客户画像）和快速达到核心产品价值的经验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            273.378,
+            275.762
+          ],
+          "quote": "And by the way, Frederick worked at Superhuman on product.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1292.063,
+            1293.624
+          ],
+          "quote": "Like Frederick worked at Superhuman.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 455,
+          "t": [
+            1859.387,
+            1863.55
+          ],
+          "quote": "Because at Robinhood or Superhuman, you get the time window 48 hours.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2154.337,
+            2162.166
+          ],
+          "quote": "You both have been part of scaling many important companies in the past, Robinhood and Coinbase and Superhuman, among others.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 523,
+          "t": [
+            2180.402,
+            2184.724
+          ],
+          "quote": "There's a bunch of stuff that we're applying now that I learned at Superhuman.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "本集多次作为对比案例提及，一是将其无摩擦的极简自助结账流程作为交付最后一公里的标杆；二是讨论拥有客户分销渠道的重要性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 349,
+          "t": [
+            1414.201,
+            1420.905
+          ],
+          "quote": "I mean, I like the vast, and this is why like maybe four years into trial pay, I realized what I should build is this thing called Stripe.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1421.025,
+            1423.547
+          ],
+          "quote": "And this was not like revisionist history because Stripe had five people.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 466,
+          "t": [
+            1906.288,
+            1912.912
+          ],
+          "quote": "go to almost like a Stripe-like checkout or a Reppling-like onboarding, like Flow, where they hook up the bank account of the practice in the product.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2085.757,
+            2090.9
+          ],
+          "quote": "And the onboarding needs to be as simple as onboarding on Coinbase or Stripe.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "toast",
+      "type": "company",
+      "role": "company",
+      "name": "Toast",
+      "file": "Toast",
+      "primary": false,
+      "how_described": "本集将其作为金融科技放大软件市场规模的经典案例，指出它通过将支付处理捆绑进餐厅软件按流水抽成，极大提升了软件的商业价值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 157,
+          "t": [
+            632.687,
+            635.407
+          ],
+          "quote": "And what I mean by that is, like, my favorite example of this is Toast.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 161,
+          "t": [
+            639.048,
+            641.769
+          ],
+          "quote": "Toast could have existed in 1985.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 229,
+          "t": [
+            862.271,
+            863.533
+          ],
+          "quote": "Why Toast can exist.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 230,
+          "t": [
+            863.633,
+            864.774
+          ],
+          "quote": "Why Toast can exist.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "peoplesoft",
+      "type": "company",
+      "role": "company",
+      "name": "PeopleSoft",
+      "file": "PeopleSoft",
+      "primary": false,
+      "how_described": "本集将其作为第一代企业软件的代表，指出这类软件做的只是把现实中的人力资源文件柜变成数据库，世界并没有因为这种软件而变得更高效。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            477.304,
+            481.084
+          ],
+          "quote": "So like there were HR filing cabinets and that became something like PeopleSoft.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 130,
+          "t": [
+            514.228,
+            522.07
+          ],
+          "quote": "Because all that software did was, like, take HR, like, did PeopleSoft and then Workday make HR departments more efficient?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "quickbooks",
+      "type": "company",
+      "role": "company",
+      "name": "QuickBooks",
+      "file": "QuickBooks",
+      "primary": false,
+      "how_described": "本集将其作为传统会计软件的代表，指出过去的软件只是让你能查到逾期发票（哑存储），但依然得靠人亲自去打电话催收。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 124,
+          "t": [
+            486.525,
+            490.666
+          ],
+          "quote": "There are accounting filing cabinets and that became QuickBooks and that became NetSuite.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 143,
+          "t": [
+            568.293,
+            572.714
+          ],
+          "quote": "Imagine I'm a dentist, and I see I have all these overdue invoices, and I can look up in QuickBooks.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "workday",
+      "type": "company",
+      "role": "company",
+      "name": "Workday",
+      "file": "Workday",
+      "primary": false,
+      "how_described": "本集提到它是最大的 HR 信息系统（巨头），指出如果你做一个依附于它的背景调查插件，它随时可以凭借庞大的客户群抄袭你。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            514.228,
+            522.07
+          ],
+          "quote": "Because all that software did was, like, take HR, like, did PeopleSoft and then Workday make HR departments more efficient?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1457.733,
+            1466.18
+          ],
+          "quote": "I'm going to do background checks for new employees as part of onboarding, and I'm going to integrate with Workday, Workday being the biggest HR information system.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1467.881,
+            1475.324
+          ],
+          "quote": "However, it's such a great idea that it's a very obviously great idea that this thing called Workday might copy and they own all the customers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1515.735,
+            1519.137
+          ],
+          "quote": "But it's not the same thing as it's like, ooh, here's Workday.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 410,
+          "t": [
+            1616.243,
+            1625.329
+          ],
+          "quote": "So like, if you're doing, you know, Workday, but AI, if you're doing, you know, NetSuite, but AI, it's like, you know, the AI, the pure play AI thing is software at its core.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "sabre-systems",
+      "type": "company",
+      "role": "company",
+      "name": "Sabre Systems",
+      "file": "Sabre Systems",
+      "primary": false,
+      "how_described": "本集提到它是 IBM 和美国航空的联合项目，作为软件起源的「时间零点」，指出当时的软件只是把航空公司的纸质预订文件柜放进数据库。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 118,
+          "t": [
+            452.118,
+            468.681
+          ],
+          "quote": "Yeah, well, so I've given this whole presentation on the origin of software was basically take a filing cabinet and put it into a database and kind of pick the time equals zero moment for that with this company, the Sabre Systems, because airlines would just keep reservations in filing cabinets.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 119,
+          "t": [
+            469.242,
+            472.263
+          ],
+          "quote": "Sabre Systems was a joint project between IBM and American Airlines.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "cigna",
+      "type": "company",
+      "role": "company",
+      "name": "Cigna",
+      "file": "Cigna",
+      "primary": false,
+      "how_described": "本集提到的一家健康保险公司，指出其为了故意拖延而只寄纸质支票的商业动态，以及它需要维持网络内好医生满意度的博弈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 667,
+          "t": [
+            2949.444,
+            2956.712
+          ],
+          "quote": "So I was thinking about this because Cigna, who I have for my health insurance, will only send paper checks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 683,
+          "t": [
+            3030.061,
+            3037.124
+          ],
+          "quote": "There is just a document at Cigna that specifies if you give me this X-ray, you give me this narrative, then we will cover that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 693,
+          "t": [
+            3080.903,
+            3089.275
+          ],
+          "quote": "It took me a while to understand this, but Cigna also has an incentive to have good doctors in network that are happy with them.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 724,
+          "t": [
+            3250.989,
+            3257.653
+          ],
+          "quote": "Dr. Sloop needs to also then spend 50 hours figuring out with Cigna and Delta and all the other insurance companies, how do I flip the switch?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "ERP",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "SOP",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}
