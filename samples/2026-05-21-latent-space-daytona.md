@@ -1,5 +1,5 @@
 ---
-title: 赋予AI智能体计算机——Daytona创始人Ivan Burazin
+title: "Daytona:为智能体造一台像笔记本一样的计算机"
 podcast: Latent Space
 date: 2026-05-21
 source_url: https://www.latent.space/p/daytona
@@ -7,7 +7,7 @@ duration: "70:18"
 type: episode
 cover: "#0e7490"
 image: "/covers/2026-05-21-latent-space-daytona.jpg"
-description: "Daytona 为智能体打造毫秒级启动的裸金属沙箱,迎击 RL 训练与后台智能体的算力新挑战。"
+description: "把智能体当「人」看:它要的不是虚拟机,而是能随时合盖、瞬间唤醒、按需动态扩容的「可组合计算机」。"
 guests: ["[[Ivan Burazin]]"]
 companies: ["[[Daytona]]"]
 concepts: ["[[智能体]]", "[[沙箱]]", "[[突发负载]]", "[[裸金属]]", "[[计算机使用]]", "[[托管型 Kubernetes]]"]
@@ -16,9 +16,9 @@ tags:
   - 智能体
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>赋予AI智能体计算机——Daytona创始人Ivan Burazin</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Daytona:为智能体造一台像笔记本一样的计算机</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# 赋予AI智能体计算机——Daytona创始人Ivan Burazin
+# Daytona:为智能体造一台像笔记本一样的计算机
 
 <div class="pd-byl"><b>Ivan Burazin</b> · Daytona CEO</div>
 
@@ -26,7 +26,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-05-21-latent-space-daytona.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">但如果你想一次启动 50,000 个,我们现在大约需要 75 秒。</div><div class="a">Ivan Burazin · 16:36</div></div>
+<div class="pd-hook"><div class="z">Daytona 今天本质上是面向智能体的可组合计算机。</div><div class="a">Ivan Burazin · 05:30</div></div>
 
 > [!info] 关联
 > **人物** [[Ivan Burazin]]
@@ -37,90 +37,63 @@ tags:
 >
 > **来源** [Latent Space](https://www.latent.space/p/daytona)
 
-<div class="pd-tldr"><b>一句话</b>Daytona 为智能体打造毫秒级启动的裸金属沙箱,迎击 RL 训练与后台智能体的算力新挑战。</div>
+<div class="pd-tldr"><b>一句话</b>把智能体当「人」看:它要的不是虚拟机,而是能随时合盖、瞬间唤醒、按需动态扩容的「可组合计算机」。</div>
 
-本期对话围绕**[[智能体|智能体]](agent,指能自主执行任务的 AI 程序)**的底层计算基础设施展开。主持人和嘉宾 [[Ivan Burazin|Ivan Burazin]]([[Daytona|Daytona]] CEO)是多年老友。Ivan 曾创办过浏览器端开发环境 Code Anywhere,后来又做过名为 Shift 的技术大会。如今他带着对底层基础设施的深刻理解,创立了 Daytona,并在去年做出了一个历史性的转型。整场对话不仅盘点了「智能体到底需要什么样的计算机」,还深入探讨了算力市场的爆发现状、Windows/Mac [[沙箱|沙箱]]的实战痛点,以及下一代基础设施的演进方向 <button class="pd-ts" data-t="00:04" data-who="Ivan Burazin" data-en="Okay, we're in the studio with Ivan Bourazin, CEO of Daytona. Welcome. Thanks for having me, man." aria-label="回原文"></button>。
+一台能像合上笔记本盖子那样随时暂停、之后再原样打开,毫秒级启动,甚至还能瞬间弹出 5 万台的计算机——这不是未来的概念,这是 [[Daytona|Daytona]] 现在给[[智能体|智能体]]提供的基础设施,而且他们在去年一月才刚做转向,现在已经拿下了单日近百万次启动的巨量客户。说这话的人是 Ivan,Daytona 的 CEO,他跟联合创始人十几年来一直在折腾开发环境这件事。
 
-## 从「为人服务的开发环境」到「为智能体服务的沙箱」
+这一集对话里,他讲了几件事:为什么智能体要干活,就非得配一台随开随关的「专属计算机」,而不能简单用传统的虚拟机凑合;他那「快得像 2008 年的旧办法」的[[裸金属|裸金属]]架构是怎么做到毫秒级启动的;新兴的强化学习工作负载给计算提供商出了哪些前所未有的尖峰难题;以及为什么在 Windows 甚至 macOS 上让智能体去操作传统软件,可能是下一个十万亿级的「上帝应用」。
 
-故事要从 2024 年底说起。当时 Ivan 从主持人那里获得了 Devin(一款知名的 AI 软件工程师)的访问权限,同时 OpenDevin(现已更名为 OpenHands 的开源项目)也刚刚出现。Ivan 敏锐地察觉到 AI 智能体可能是一个巨大的趋势,于是尝试把公司原本「为人类工程师自动化开发环境」的工具结合 OpenDevin,作为一个 SaaS(软件即服务)推出去 <button class="pd-ts" data-t="07:09" data-who="Ivan Burazin" data-en="Basically, we did a demo with, I think we discussed this as well. Devin was not public. You actually gave me access to Devin at that time." aria-label="回原文"></button>。
+要理解 Daytona 为什么坚持做底层,得先看他们做这次转向的起点。Ivan 回忆,2024 年底他们本来只是想把开发环境自动化叠在一个叫 OpenDevin 的开源智能体上做成服务。结果没什么人来用,倒是一堆做智能体的开发者跑来问:你这套东西能不能直接给我的智能体当计算[[沙箱|沙箱]](一种隔离的代码执行环境)?他们赶紧拿原来的基础设施去对接 20、30 个潜在客户,结果所有人都说:这东西用不了,它老崩。问题到底出在哪?他们发现,大多数人当时以为「人用的基础架构,智能体拿来就能用」,觉得反正有 EC2、有虚拟机,有什么不一样。但智能体的使用逻辑根本不是这样:它要随时能暂停、回来接着干,它还极度渴求速度。而传统方案中,硬盘不是沙箱自带的、机器随时可能被抢占清空。找准了「智能体也需要像人一样有台能合盖休眠的电脑」这个痛点,他们的 CTO 带着十几年前重写调度器的经验,干脆从第一性原理出发,直奔裸金属。
 
-结果出乎意料:没什么人注册使用这个 SaaS。然而,大量正在开发智能体的团队却主动找上门来,问他们:「我的智能体需要一个计算沙箱(一种安全隔离的代码执行环境)运行时,你们能做吗?」Ivan 意识到,这是一个全新的市场 <button class="pd-ts" data-t="07:39" data-who="Ivan Burazin" data-en="Not very many people signed up and used it, but a lot of people reached out that were building agents and they're like, hey," aria-label="回原文"></button>。
+为什么裸金属反而成了最快的路?Ivan 揭示了这里的门道。大多数云服务商是在虚拟机上面再套一层安全隔离来跑沙箱,而 Daytona 是直接把沙箱跑在裸金属机器上,并且用自己写的调度器。关键的秘诀在于快照(特定时间点的系统状态存档)和模板都预加载在裸金属机器的本地 NVMe 硬盘上。你要启动沙箱时,系统直接把你定向到那个本地硬盘,然后「啪」地一下开机。因为绕过了网络读取的延迟,启动速度就快得不可思议。
 
-起初,Daytona 拿原本给人类准备的底层设施去给智能体用,但遭到了 20 到 30 个试用客户的一致拒绝。大家普遍觉得「这不就是 EC2 或者虚拟机吗,为什么不一样?」这迫使 Ivan 疯狂补习 AI 行业知识。在一个跨年夜,他凭借直觉编程出了第一版专门面向智能体的沙箱最小可行产品 <button class="pd-ts" data-t="10:30" data-who="Ivan Burazin" data-en="And everyone said, we need, we want access. There was no logging, just an API key because it was just a beta or an alpha. And they said, oh, we want access." aria-label="回原文"></button>。
+直接用数字说话最有说服力。Ivan 给出了他们关注的三项硬指标:一是启动单个沙箱的耗时,算上网络往返只要 60 毫秒;二是并发启动能力,一次拉起 5 万个沙箱只需 75 秒,而业内有些方案要花 30 分钟;三是持续运行上限,他们最大的客户目前每天要跑大约 85 万次,甚至还有人提出了五十万并发的需求 <button class="pd-ts" data-t="16:27" data-who="Ivan Burazin" data-en="And so one is like time to spin up one. And so our time to spin up one is 60 milliseconds with network agency. So requests, spin up, reply, the whole thing, 60 milliseconds." aria-label="回原文"></button>。他坦言,基准测试只是入场的桌前筹码,真正解决大问题的是工程架构。
 
-> 【背景】转写稿中嘉宾将「凭借直觉编码」说成了 vibe coded,这是科技圈流行词,指高度依赖 AI 辅助、凭感觉快速生成代码的开发方式。
+不过,基准测试可不管你怎么应付那些古怪的流量。那这么极端的性能,到底在扛什么样的活?Ivan 把目前的工作负载分成两大类,这正好能解释前面提到的市场奇观。一类是后台智能体(比如像 Cognition、Harvey 这种长跑的编程或业务智能体),它们的使用节奏跟人类上班族一样是「日出而作」的,中午达峰、午夜回落;另一类则是用于 RL(强化学习,通过奖励信号训练模型的方法)和评测的任务,这类任务一跑就是全力拉满,然后骤停,用量的图形呈现出很极端的方形尖峰。因为不同地区的工作时间不同,这种差异其实也折射到了用户分布上:Ivan 发现他们的用户数按城市排,第一名竟然是新加坡,东京也名列前茅,这在过去的科技周期里是很少见的 <button class="pd-ts" data-t="19:26" data-who="Ivan Burazin" data-en="I talked to you about this, our number one city by user is Singapore. Oh, wow." aria-label="回原文"></button>。更要命的是,这种午夜发任务、睡醒看结果的研究员节奏,让负载更加无法预测。
 
-当团队带着重写的新版本重新联系客户时,原本约定 15 分钟的通话全部延长到了 25 到 30 分钟,每一个客户都在追问:「我的 API key 呢?在哪里?」这个瞬间,Ivan 确信他们真正踩中了市场的痛点 <button class="pd-ts" data-t="10:21" data-who="Ivan Burazin" data-en="and we set up these calls and we gave it to, we just sent it to everyone. And all the calls went long, every single one. They were 15 minute calls and they all went to like 25, 30 minutes or whatnot." aria-label="回原文"></button>。
+面对不可预测的极端尖峰,这就是计算提供商最头疼的新难题了。Daytona 目前的平均利用率只有 15%,但峰值会冲到 90%。如果客户全都突然爆发,怎么兜得住?Ivan 解释说,要么超额配置硬件硬扛,要么搞即时计算——流量溢出时赶紧去别的云厂商那开通机器。但这招一慢就会出事:做 RL 训练时,最贵的是 GPU,你绝不能让 GPU 停在那等 CPU 启动。所以大家都在想办法,像 Cloudflare 那样靠地理调度来错峰填谷,或者干脆自己囤硬件。Ivan 还专门办了场大会,发现做智能体基础建设的同行们(比如做数据库的 Neon)全在为这破天荒的尖峰负载发愁。
 
-## 智能体需要的「可组合计算机」
+顺带一提,如果你好奇智能体为什么这么费底层资源, Ivan 打了个很直观的比方。为什么现在连数据库、CI(持续集成)这些原本跟 AI 八竿子打不着的环节都开始缺资源了?Ivan 说,你想啊,现在全球有 80 亿人,假设未来平均每个人手头有 2 个智能体在帮着干活,那每一次任务都需要一个专属的计算环境。人手一台电脑的市场规模,已经跟整个云计算市场差不多了;智能体遍地跑的时候,CPU 甚至连网络带宽都会成为扼杀增长的瓶颈 <button class="pd-ts" data-t="46:33" data-who="Ivan Burazin" data-en="was also talking about how CPUs will now be a bottleneck because it will be the constraint. You won't be able to grow or we won't be able to have enough of these because there" aria-label="回原文"></button>。
 
-Daytona 如今给自己的定位是「面向智能体的可组合计算机」。为什么不用「沙箱」这个词?因为「沙箱」容易让人误解为仅仅是个临时测试环境 <button class="pd-ts" data-t="05:29" data-who="Ivan Burazin" data-en="and output. Whereas what Daytona is today is essentially composable computers for agents. It is, the market calls them sandboxes, which can be misleading." aria-label="回原文"></button>。
+但想要让智能体遍地跑,光给它们提供 Linux 环境是远远不够的,这也是 Ivan 目前最看重的押注:computer use(让智能体像人一样操作电脑图形界面)。Ivan 的洞察是:很多传统的知识工作依然锁死在 Windows 上的老软件里,没人会给这些破烂老系统重写 API。他算了一笔账:如果智能体能像 RPA(机器人流程自动化)那样,替代掉 40% 的这部分知识工作,那就是一个每年十万亿美元的市场 <button class="pd-ts" data-t="34:12" data-who="Ivan Burazin" data-en="And so if you take 40% of that, you get to essentially like $10 trillion a year. That's your time. So that's the time of the models, right?" aria-label="回原文"></button>。他自己就深有体会:为了做个董事会报告,因为各种财务系统不开放 API,他只能给智能体分配一台带界面操作的虚拟计算机,让它自己去各个网站登录、导出数据。连最前沿的初创公司都要靠操作界面才能搞定数据整合,何况高盛这种老牌大行。
 
-Ivan 认为,智能体就像人类一样,需要不同配置的计算机来完成不同任务。就像他的妻子是建筑师,需要一台带 3D 显卡的 Windows 电脑来做渲染;智能体在执行各类任务时,也需要动态调整 CPU、内存或挂载 GPU 的能力。更重要的是,智能体不希望自己的「电脑」在工作还没完成时被关闭,它们需要能像人类合上笔记本盖子一样暂停,再打开时恢复原状(即有状态的快照机制)<button class="pd-ts" data-t="12:41" data-who="Ivan Burazin" data-en="And the other thing is they're not meant to last forever. So most of them are preemptible like they can there's a time that they can live. And so our thought was when we're going into this is agents will be like humans in" aria-label="回原文"></button>。
+Windows 沙箱的生意大有可为,但要做 Mac 沙箱却极其反人类。Ivan 吐槽了 macOS 的授权限制:每台机器最多跑两个虚拟机,而且授权后必须绑定 24 小时,这意味着没法按秒计费。更致命的是它的安全机制不允许内存快照跨机器迁移,这直接锁死了负载均衡的可能性。他甚至开玩笑说,得有人出用「直觉编程」搞一套全新的操作系统出来,才能彻底解决这个困境。
 
-> 【背景】为了满足智能体对速度和持久状态的苛刻要求,Daytona 选择了直接运行在裸金属(未安装虚拟化层的纯物理服务器)上,而不是像大多数提供商那样套用虚拟机或 firecracker(一种轻量级虚拟化技术),从而获得了极快的数据读写速度和极低的网络延迟 <button class="pd-ts" data-t="13:54" data-who="Ivan Burazin" data-en="super fast and you see this on benchmarks is we essentially, we run on bare metal. We have our own scheduler." aria-label="回原文"></button>。
+聊到商业层面,开源是绕不开的话题,但 Ivan 的视角很务实。虽然 Daytona 采用了 AGPL 3.0(一种带传染性保护的开源协议)来防止白嫖,但他发现,现在 AI 市场的拉力实在太猛了。过去小公司想进大企业的供应商名单,走采购安全审计要花几个月,最后还可能被嫌弃;现在巨头们因为急需,反而主动推动流程,5 天就能过关 <button class="pd-ts" data-t="51:33" data-who="Ivan Burazin" data-en="Whereas today we've had these large companies push us, like they would push us through. Like usually when you would go through procurement to become a vendor of large" aria-label="回原文"></button>。开源更多是成了方便智能体读取代码上下文的工具,而真正驱动增长的,是企业客户不惜血本消耗资源的 B2B 模式。
 
-## 两种截然不同的算力负载
+但并非所有打着 AI 旗号的生意都逻辑通顺。Ivan 对当下的 AI 创业生态抛出了一个非常犀利的观点:那些靠转卖大模型 token 来堆高收入的 SaaS 公司,根本配不上传统 SaaS 的估值倍数。逻辑很简单,传统 SaaS 利润率极高且有很强的客户粘性,而中间商赚差价的模式,利润率要糟糕得多。他个人的诉求很明确:与其给我套层壳的封闭智能体,不如直接把数据 API 开放出来,我自己有智能体来处理 <button class="pd-ts" data-t="61:51" data-who="Ivan Burazin" data-en="Yes. And I think that's incorrect. Why?" aria-label="回原文"></button>。
 
-随着业务爆发(主持人提到 Daytona 报告了惊人的 74% 环比增长),Daytona 发现客户的工作负载分化成了截然不同的两类 <button class="pd-ts" data-t="06:21" data-who="Ivan Burazin" data-en="The market is exploding, right? Like you have been reporting 74% month-to-month growth and it also, it's just been going for a while." aria-label="回原文"></button>:
+这种对底层逻辑的极致追求,背后是 Ivan 刻入骨髓的极客奋斗文化。Daytona 的 25 人团队里,有 13 个是跟了他七年的老战友。公司最大的卖点甚至不是技术多牛,而是「疯狂的响应速度」——客户有难题,五分钟内上 Slack 语音碰头。他自己在两地奔波、缺席家庭时光,他坦言创业「本就该是痛苦的,一切有价值的事都会痛」。
 
-1. **后台智能体或长时间运行智能体**:例如 Cognition、Lovable 或 Harvey。它们的使用模式与人类类似,呈现「跟随太阳」的规律:中午负载最高,午夜最低,周末下降。这属于正常的波动。
-2. **RL 与评估**:主要用于强化学习训练或模型评估。这类负载的使用模式呈现「方块状」——一旦启动,就直接跑到 100% 满载,然后突然停止。而且研究员们往往在午夜睡前启动任务,这与正常的日间波动截然不同 <button class="pd-ts" data-t="18:33" data-who="Ivan Burazin" data-en="So we basically split it up into two types of workloads in Daytona. One is what we call background agents or long running agents. And" aria-label="回原文"></button>。
+## 本集带走
 
-这种极其突发的尖峰式负载给计算提供商带来了前所未有的挑战。Daytona 的平均利用率只有 15%,但峰值会瞬间冲到 90%。通过举办 Compute Conference(计算大会),Ivan 发现整个 AI 基础设施圈——从 Neon 的 Nikita 到 Parallel 的 Parag——都在被这种不可预测的尖峰负载折磨 <button class="pd-ts" data-t="21:33" data-who="Ivan Burazin" data-en="Yeah, absolutely. So do you want to lock them into commits? Yeah, we do." aria-label="回原文"></button>。
+最后收个尾,这一集值得带走的核心,是理解智能体时代基础设施的剧变。第一,给智能体配算力,不能拿给人用的虚拟机凑合,它要的是能随时暂停、毫秒级唤醒、还能动态扩容的「可组合计算机」,这是 Daytona 从第一性原理重新造轮子的起点。第二,突破性能瓶颈往往要靠回归底层,他们抛弃了层层叠加的虚拟化,直接上裸金属加自研调度器,把模板预加载到本地硬盘,这才有了并发拉起五万个沙箱只需 75 秒的极限速度。第三,智能体的爆发带来了前所未有的方形尖峰工作负载,传统云靠时间差调配流量的打法开始失灵,未来谁能提前锁住 CPU 产能,谁就握住了主动权。第四,真正的十万亿级大市场,藏在让智能体去操控那些没有 API 的 Windows 老软件里,与其等公司重构系统,不如直接给智能体一台带界面的电脑让它自己点。最后,在这个狂飙突进的增量市场里,不要被「转卖 token 凑收入」的 SaaS 幻象给骗了,真正的价值依然在于谁能成为专门为智能体服务、具备全套新原语的那个全新的云。
 
-## 竞争策略:速度与易用性
+<div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
 
-在基准测试中,Daytona 的表现相当亮眼。启动单个沙箱算上网络延迟仅需 60 毫秒;如果同时并发启动 50,000 个沙箱,大约需要 75 秒(其他公开数据显示竞品可能需要长达 30 分钟)<button class="pd-ts" data-t="16:36" data-who="Ivan Burazin" data-en="That is one. But if you want to spin up 50,000 at once, we are now at about 75 seconds. So it takes about 75 seconds" aria-label="回原文"></button>。
+> <span class="qz">Daytona 今天本质上是面向智能体的可组合计算机。</span>  
+> *today is essentially composable computers for agents.*  
+> <span class="qm">—— Ivan Burazin · [05:30]</span> ^q1
 
-但 Ivan 坦言,速度和基准测试只是入场券。在 RL 训练等场景中,他们真正打败的是[[托管型 Kubernetes|托管型 Kubernetes]](如 EKS 或 GKS)。Kubernetes 的交互接口太复杂,而 Daytona 提供了类似 Twilio 或 Stripe(两者均以开发者体验极佳著称)的简单 API 和 SDK。并且,Daytona 沙箱允许动态调整大小,几乎不会发生内存溢出,甚至支持在 Docker 容器里再嵌套运行 K3S(一种轻量级 Kubernetes),这解锁了大量在其他提供商上无法完成的复杂工作负载 <button class="pd-ts" data-t="28:04" data-who="Ivan Burazin" data-en="or should I say, let's take a step back. What we are competing against in that environment is essentially managed Kubernetes. So EKS, GKS, whatever." aria-label="回原文"></button>。
+> <span class="qz">所以如果你取其中的 40%,你基本上就能达到每年大约 10 万亿美元。</span>  
+> *So if you take 40% of that, you get to essentially like $10 trillion a year.*  
+> <span class="qm">—— Ivan Burazin · [34:07]</span> ^q2
 
-## 押注「计算机使用」
+> <span class="qz">市场正在给那些转售 token 的 SaaS 供应商增加溢价。是的。我认为那是不正确的。</span>  
+> *The market is adding premium to SaaS vendors that are reselling tokens. Yes. And I think that's incorrect.*  
+> <span class="qm">—— Ivan Burazin · [61:44]</span> ^q3
 
-本期最重磅的信息之一是 Daytona 秘密押注了 computer use([[计算机使用|计算机使用]])。这源于一个庞大的市场痛点:全球约有一亿知识工作者,其薪水总额高达十万亿美金。其中很大一部分工作被锁死在 Windows 的传统应用程序里,没人愿意重写这些老旧系统 <button class="pd-ts" data-t="33:09" data-who="Ivan Burazin" data-en="But if we look at knowledge work in general, there's about 100 million knowledge workers in the US, about a billion in the world," aria-label="回原文"></button>。
-
-> 【背景】转写稿中嘉宾多次提及 RPA(机器人流程自动化)和 OOM(Out Of Memory,内存耗尽)。RPA 指用软件模拟人类操作老旧系统;OOM 指程序因内存不足而崩溃。
-
-主持人分享了自己用 Mac mini 虚拟沙箱做董事会报告的经历:即使接入了各种现代化的数据库,系统依然提示「缺失数据」。最后只能让智能体去模拟人类操作,登录网站、点击导出数据,才能真正端到端完成任务 <button class="pd-ts" data-t="35:40" data-who="Ivan Burazin" data-en="But if you want to lock it, like my own setup was basically the following. So I was doing a board deck recently, last month, whatever. And I'm like, okay, let's just let's just do automation." aria-label="回原文"></button>。
-
-目前,想在云上启动一个 Windows 沙箱需要 3 到 5 分钟。Daytona 将其缩短到了秒级,并支持快照和分叉。相比之下,macOS 沙箱则面临苹果公司严格的授权限制:每台物理机只能运行两个虚拟机,且每 24 小时只能授权给一个不同用户。这意味着如果按秒收费,机器就会闲置一整天。Ivan 直言苹果公司此举是在自断财路 <button class="pd-ts" data-t="33:36" data-who="Ivan Burazin" data-en="So in the U.S. it's about 25 trillion. And most of them, most of that work is actually still locked into legacy apps inside of Windows," aria-label="回原文"></button>。
-
-## 开源策略与组织文化
-
-作为一家开源公司,Daytona 的新沙箱产品采用了 AGPL 3 许可证。这是一种巧妙的「防云白嫖」策略:它允许企业自由使用,但如果你想用它构建竞争产品,就必须同样开源你的代码。虽然纯粹的「开源信徒」认为这不够彻底,但 Ivan 发现,开源代码反而促进了客户对云产品的消费——因为开发者可以直接把仓库扔给智能体,让 AI 获得最完整的上下文来理解 Daytona 是怎么运作的 <button class="pd-ts" data-t="48:38" data-who="Ivan Burazin" data-en="So in the new sandbox product, we did add an AGPL three, which is," aria-label="回原文"></button>。
-
-在公司运营上,Ivan 是个彻头彻尾的拼命三郎。在 25 人的团队中,约有 13 人是与他合作超过 7 年的老战友。这种基于极高信任度的文化,造就了令人难以置信的客户响应速度。当客户在 Slack 上求助时,Daytona 的团队真的能在 5 分钟内拉起一个语音 Huddle(临时语音会议)解决问题。这种极致的响应速度成了他们赢得客户的关键差异化因素 <button class="pd-ts" data-t="57:28" data-who="Ivan Burazin" data-en="The thing that's unique about I don't know unique about us, but I would say unique about any successful serial founder is that you're able to" aria-label="回原文"></button>。
-
-## 看见未来:被重塑的 Git 与 CI
-
-在访谈末尾,Ivan 分享了几个极其前瞻的洞察。首先是 Git 和 GitHub 的危机。目前大量客户正在构建编程智能体(如 Devin 的竞品),他们发现传统的 Git 流程太慢了,因为 Git 设计的初衷是给人类使用的「内循环之后」的产物。为了追求速度,甚至有客户把整个代码库塞进沙箱,定期全部打包成一个 JSON 文件传到 S3 上,自己搞了一套极其原始但飞快的版本控制 <button class="pd-ts" data-t="52:49" data-who="Ivan Burazin" data-en="What we saw from our customers was that they were all trying to figure out how to do versioning. Everyone is doing it in different ways. There were some really weird ways where people were doing that." aria-label="回原文"></button>。
-
-其次是 CI(持续集成)的崩溃。随着智能体每天创建海量的代码提交,CI 系统已经变成了所有人的瓶颈。一家公司每天产生一千个提交,全在 CI 队列里排队等待。Daytona 的技术完全有能力替代传统的 CI Runner 机器 <button class="pd-ts" data-t="54:34" data-who="Ivan Burazin" data-en="Everyone's creating a bunch of PRs, like everyone. And then all that has to go through CI. And then that's the bottleneck." aria-label="回原文"></button>。
-
-最后是对整个市场的预判。Semi Analysis(一家知名半导体分析机构)的 Dylan Patel 在他们的会议上指出,GPU 短缺之后,内存和 CPU 很快将成为下一个算力瓶颈 <button class="pd-ts" data-t="46:25" data-who="Ivan Burazin" data-en="And so how because that market is essentially quote unquote infinite, you will get to the point and Dylan Patel was at the conference talking about from Semi Analysis that talks usually about GPUs," aria-label="回原文"></button>。Ivan 认为,在这个增速疯狂的市场里,**预先囤积 CPU 将成为未来占领市场的关键战术**。最终,将会诞生一个专门为智能体构建的超级云,它包含沙箱、网络搜索和专为 AI 设计的数据库——这就是 Daytona 想要成为的那个存在 <button class="pd-ts" data-t="69:38" data-who="Ivan Burazin" data-en="So there will be a cloud built out specifically for agents. And so that cloud will have sandboxes and it will have web search and it'll have databases like SQLite or Neon or whatever," aria-label="回原文"></button>。
-
-<div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
-
-> <span class="qz">但如果你想一次启动 50,000 个,我们现在大约需要 75 秒。</span>  
-> *But if you want to spin up 50,000 at once, we are now at about 75 seconds.*  
-> <span class="qm">—— Ivan Burazin · [16:36]</span> ^q1
-
-> <span class="qz">我们以前从未有过这种不可预测的工作负载,无论是在人类计算机还是人类</span>  
-> *unpredictable workloads that we've never had before in human computer or human*  
-> <span class="qm">—— Ivan Burazin · [23:29]</span> ^q2
-
-> <span class="qz">PC 市场大约等于云市场。</span>  
-> *The PC market is about equal to the cloud market.*  
-> <span class="qm">—— Ivan Burazin · [45:42]</span> ^q3
-
-> <span class="qz">市场正在给那些转售 token 的 SaaS 供应商增加溢价。</span>  
-> *the market is adding premium to SaaS vendors that are reselling tokens.*  
-> <span class="qm">—— Ivan Burazin · [61:44]</span> ^q4
+> <span class="qz">很难让我们的沙箱发生 OOM 或内存溢出。因为我们可以动态地实时调整大小,这在几乎任何其他东西上都是不可能的。</span>  
+> *it's very hard to OOM or out of memory our sandboxes. because we can dynamically on the fly resize, which is like impossible on almost any other thing.*  
+> <span class="qm">—— Ivan Burazin · [28:56]</span> ^q4
 
 > <span class="qz">整个基础设施市场每个月以 40% 左右的速度增长。</span>  
 > *The entire infrastructure market is growing 40% plus or minus month over month.*  
 > <span class="qm">—— Ivan Burazin · [67:14]</span> ^q5
+
+> <span class="qz">从 CPU 的角度,就像是有很高的概率,实际上事先拥有 CPU 将会是一种走向市场的策略。</span>  
+> *From a CPU perspective, it is like there is a high probability that actually owning the CPUs beforehand will be a a go to market tactic.*  
+> <span class="qm">—— Ivan Burazin · [67:37]</span> ^q6
 
 <div class="pd-sec">接着看</div>
 
@@ -130,8 +103,8 @@ Ivan 认为,智能体就像人类一样,需要不同配置的计算机来完成�
 **顺着「智能体」挖下去**
 
 - [[2026-06-22-latent-space-gray-swan|让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
-- [[2026-07-08-latent-space-modal|从避战大模型到押注智能体：Modal 的推理基础设施进化史]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
-- [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|Cloud Code 创始人 Boris：删掉 80% 系统提示，把模型当生物养]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
+- [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
+- [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|别再微管理 Claude:Claude Code 造物主的智能体实战心法]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
 
 </div>
 <div class="pd-ex">
@@ -140,7 +113,7 @@ Ivan 认为,智能体就像人类一样,需要不同配置的计算机来完成�
 
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当代码不再是瓶颈,品味和策展成为产品团队的稀缺力]] —— 同概念:智能体 (agent)、计算机使用 (computer use)
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织]] —— 同概念:智能体 (agent)
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同概念:智能体 (agent)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同概念:智能体 (agent)
 
 </div>
 </div>

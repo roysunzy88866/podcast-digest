@@ -1,0 +1,44 @@
+```json
+{
+  "title_zh": "李飞飞:为什么空间智能是世界模型的关键",
+  "tldr": "AI 教母李飞飞回顾从 AI 寒冬到大模型时代,详解她为何押注空间智能并推出 Marble。",
+  "digest_md": "2016 年,硅谷有些科技公司还在刻意回避使用「AI」这个词,生怕沾上骗子的嫌疑;不到十年,全世界每家公司都恨不得把自己叫成 AI 公司。促成这个大反转的人里,李飞飞是最关键的一位——她造出的 ImageNet 数据集,在 AI 最冷的冬天点了一把火,直接烧出了今天的深度学习时代。这一集 YC 的对谈里,她讲了三件事:AI 到底走过了怎样的历史,为什么「语言模型」之外我们还需要「世界模型」,以及她刚发布的 3D 世界生成产品 Marble 到底能做什么。结尾她还回答了一个最扎心的问题:如果 AI 真那么强,普通人还有什么角色。
+
+聊到 AI 的未来,李飞飞的态度很明确:她是个乐观主义者,但绝不是乌托邦主义者 [06:32 Dr. Fei-Fei Li]。她相信技术对人类净收益是正的——几千年来人类一直在造工具、建文明,AI 只是这条长河的延续。但她反复强调,每一项技术都是双刃剑,搞不搞砸全看人自己。这就要回到她那段最出圈的话:「AI 没有任何人工之处,它的灵感来自人,由人创造,最重要的是,它影响人」[07:47 Dr. Fei-Fei Li]。她对毕业生的忠告很简单:无论你站在 AI 开发、部署还是应用的哪个环节,都要像个负责任的成年人一样行事,因为你做的事会影响你的社区、社会和下一代 [09:09 Dr. Fei-Fei Li]。
+
+说完了价值观,接下来是她亲历的 AI 简史。李飞飞 2000 年在加州理工学院读博时进入 AI 领域,当时正撞上所谓的「AI 寒冬」——公众不关注、资金少,但她看到了一个被所有人忽视的关键:数据 [14:26 Dr. Fei-Fei Li]。她和学生推测,动物和人类的学习本质上是个大数据过程,既然机器要学,总得给它足够多的例子。于是从 2006、2007 年起,他们启动了 ImageNet 项目:从互联网上整理了 1500 万张图像,建了个涵盖 2.2 万个物体概念的分类库,然后开源给全世界,还办了一年一度的挑战赛 [18:07 Dr. Fei-Fei Li]。真正的转折发生在 2012 年:Geoff Hinton 带领的多伦多团队拿了 ImageNet 的数据,用两张 NVIDIA 的游戏 GPU,训练出第一个真正能识别物体的神经网络 [19:12 Dr. Fei-Fei Li]。大数据、神经网络、GPU——这三样东西的组合,就是后来所有现代 AI(包括 ChatGPT)的黄金配方 [19:32 Dr. Fei-Fei Li]。
+
+从历史回到当下,下一个话题是 AGI 到底还有多远。李飞飞的判断很直接:她觉得 AGI 更像是个营销词,而不是科学词 [25:47 Dr. Fei-Fei Li]。作为科学家,她的「北极星」始终是图灵最初那个问题——机器能不能像人一样思考;从这个角度看,「AI」和「AGI」根本没本质区别,我们在对话能力上做得不错,但远没征服全部目标。更关键的是,光靠堆数据、堆 GPU、放大现有模型架构是不够的,我们需要更多创新 [27:01 Dr. Fei-Fei Li]。她举了个例子:让模型看一段办公室视频数椅子,小学生都会的事,AI 做不到;更别提像牛顿那样从天体运动中推导出物理定律——那种创造力、抽象和外推能力,今天的 AI 完全不具备 [27:29 Dr. Fei-Fei Li]。连情感认知(比如学生找老师谈心那种对话)也是今天 AI 给不了的 [28:25 Dr. Fei-Fei Li]。
+
+既然语言这条路不够,接下来就是她现在最押注的方向:世界模型和空间智能。李飞飞来自视觉智能的世界,她一直在想,人靠空间感知和世界理解能做太多超越语言的事——比如火灾现场,急救员组织救人、灭火,靠的是对物理世界自发的态势感知,不是靠说话 [32:36 Dr. Fei-Fei Li]。她意识到,连接视觉智能、机器人(具身 AI)和语言的关键,是「空间智能」——理解 3D 世界的能力 [33:25 Dr. Fei-Fei Li]。这就是她在 2024 年 TED 演讲讲的主题,也是她创立 World Labs(公司名里就带「World」)的理由 [34:31 Dr. Fei-Fei Li]。理解世界模型最简单的方式:你给它一句话或一张图,它就能生成一个你可以走进去、四处走动、拿起东西、做推理的 3D 世界 [34:57 Dr. Fei-Fei Li];如果使用这个世界的是个机器人,它应该能据此规划路径、帮忙收拾厨房。
+
+世界模型听起来很美,但为什么机器人领域很难照搬「苦涩的教训」(bitter lesson,指简单模型加海量数据总能赢)?这正是 Ben Horowitz 建议主持人问的问题。李飞飞的回答是:机器人第一获取数据太难,语言模型有天然的「词到词」完美对齐,但机器人的训练数据缺的是「3D 世界中的动作」[43:47 Dr. Fei-Fei Li],光靠网络视频远远不够,还得补遥操作数据和合成数据。第二,机器人是物理系统,比语言模型更接近自动驾驶汽车——从 2005 年斯坦福赢下自动驾驶挑战赛到今天 Waymo 上旧金山街头,花了 20 年还没完 [46:00 Dr. Fei-Fei Li]。而且自动驾驶只是在 2D 平面上跑、目标是「别碰任何东西」的金属盒子;机器人是在 3D 世界里跑、目标偏偏是「要去碰东西」的实体,难度完全不在一个量级 [46:32 Dr. Fei-Fei Li]。
+
+> 【背景】Richard Sutton 提出的「苦涩的教训」核心观点是:在 AI 历史上,靠算力和简单算法处理海量数据的方法,最终总是胜过依赖人工设计的复杂方法。李飞飞认为这对自己并不「苦涩」,因为她造 ImageNet 就是相信大数据的作用 [41:57 Dr. Fei-Fei Li]。
+
+理论讲透了,接下来看产品。World Labs 花了一年多做出世界第一个能生成真正 3D 世界的生成模型,产品就叫 Marble [49:15 Dr. Fei-Fei Li]。你给它一句话或图,它就生成一个能导航进去的 3D 世界。已经在落地的用例:电影虚拟制作(和索尼合作,把制作时间砍了 40 倍)[53:59 Dr. Fei-Fei Li];游戏开发(导出网格做 VR 游戏)[54:20 Dr. Fei-Fei Li];机器人仿真训练数据 [54:51 Dr. Fei-Fei Li];甚至有心理学团队拿它做研究,给病人呈现不同沉浸式场景看大脑反应 [55:43 Dr. Fei-Fei Li]。李飞飞特别强调 Marble 和普通视频生成(如 Veo 3)的区别:视频是被动的、一次性的;空间智能是主动的——你能进去走、能交互、能导出 [57:46 Dr. Fei-Fei Li]。她的团队现在约 30 人,主要是研究人员和工程师,加大量 GPU [61:48 Dr. Fei-Fei Li]。李飞飞坦言,这 18 个月的创业让她最意外的是 AI 竞争的激烈程度,无论在模型、技术还是抢人才上 [64:19 Dr. Fei-Fei Li]。
+
+从创业回到人生选择,这也是她一路走来的底层逻辑。李飞飞形容自己「在智识上非常无畏」,她招年轻人也最看重这一点:要做出改变,就得接受你正在创造没人做过的新东西 [66:05 Dr. Fei-Fei Li]。当年她宁可放弃普林斯顿快到手的终身教职,也要去斯坦福重算 tenure 时钟,因为那边的人和硅谷的生态让她愿意冒险 [67:09 Dr. Fei-Fei Li]。她对年轻人才的建议是:选工作时别对每个微小维度都过度算计,最该问的是「你的激情在哪」「你信不信这个使命、这个团队」[69:27 Dr. Fei-Fei Li]。除了 World Labs,她还在斯坦福参与「以人为中心 AI 研究所」(HAI)——2018 年她意识到 AI 是文明级技术,硅谷却不和华盛顿、布鲁塞尔对话,于是和同事一起建了这个横跨八个学院的跨学科机构,做研究、做政策、做国会训练营 [70:53 Dr. Fei-Fei Li]。
+
+最后收个尾,这一集值得带走的是三件事。第一,AI 的突破从来不是单点爆发,而是几代人、好几条线汇流的结果——图灵 1940 年代提出问题,1956 年达特茅斯研讨会命名这个领域,2000 年代机器学习登场,而李飞飞看到了所有人忽视的「数据」,用 1500 万张图的 ImageNet 点燃了后来的深度学习时代。第二,语言模型很强,但远远不够;真正的下一关是空间智能——AI 得能理解 3D 世界,能像人一样在里面行动、推理、创造,这也是她做 World Labs 和 Marble 的理由。第三,也是最打动人的一点:无论你是艺术家、护士、农民还是即将退休的人,AI 都不该剥夺你的尊严和能动性,你在这个技术面前是有角色、有发言权的——因为说到底,AI 里没有任何「人工」之外的东西,它的未来取决于人自己。",
+  "quotes": [
+    {"en": "I'm not a utopian, so it's not like I think AI will have no impact on jobs or people.", "zh": "我不是一个乌托邦主义者,所以并不是我认为 AI 对工作或人没有影响。", "timestamp": "06:32", "speaker": "Dr. Fei-Fei Li"},
+    {"en": "There's nothing artificial about AI.", "zh": "AI 没有任何人工的成分。", "timestamp": "07:47", "speaker": "Dr. Fei-Fei Li"},
+    {"en": "It's inspired by people.", "zh": "它的灵感来自人。", "timestamp": "07:51", "speaker": "Dr. Fei-Fei Li"},
+    {"en": "It's created by people, and most importantly, it impacts people.", "zh": "它是由人创造的,最重要的是,它影响人。", "timestamp": "07:52", "speaker": "Dr. Fei-Fei Li"},
+    {"en": "I think every technology is a double-edged sword, and if we're not doing the right thing as a species, as a society, as communities, as individuals, we can screw this up as well.", "zh": "我认为每一种技术都是一把双刃剑,如果我们作为一个物种、一个社会、社区、个人不做正确的事情,我们也可能搞砸它。", "timestamp": "07:29", "speaker": "Dr. Fei-Fei Li"},
+    {"en": "In the middle of 2015, middle of 2016, some tech companies avoid using the word AI because they were not sure if AI was a dirty word.", "zh": "在 2015 年中期,2016 年中期,一些科技公司避免使用 AI 这个词,因为它们不确定 AI 是否是一个贬义词。", "timestamp": "00:07", "speaker": "Unknown"},
+    {"en": "2017-ish was the beginning of companies calling themselves AI companies.", "zh": "2017 年左右是公司自称 AI 公司的开始。", "timestamp": "00:17", "speaker": "Unknown"},
+    {"en": "That combination of the trio technology, big data, neural network, and GPU was kind of the golden recipe for modern AI.", "zh": "这种三重技术的结合,大数据、神经网络和 GPU,有点像是现代 AI 的黄金配方。", "timestamp": "19:32", "speaker": "Dr. Fei-Fei Li"},
+    {"en": "I feel AGI is more a marketing term than a scientific term as a scientist than technologist.", "zh": "我觉得 AGI 更多是一个营销术语,而不是科学术语,作为科学家而非技术专家来说。", "timestamp": "25:47", "speaker": "Dr. Fei-Fei Li"},
+    {"en": "There's not a single deeply scientific discipline in human history that has arrived at a place that says we're done, we're done innovating and AI is one of the, if not the youngest discipline in human civilization in terms of science and technology, we're still scratching the surface.", "zh": "人类历史上没有哪一个深刻的科学学科到达了一个说我们完成了、我们不再创新的境地,而人工智能是——如果说不是人类文明中——最年轻的学科之一,就科学和技术而言,我们还在挠皮毛。", "timestamp": "27:01", "speaker": "Dr. Fei-Fei Li"},
+    {"en": "Today's AI cannot do that.", "zh": "今天的人工智能做不到那个。", "timestamp": "29:46", "speaker": "Dr. Fei-Fei Li"},
+    {"en": "A simple way to understand a world model is that this model can allow anyone to create any worlds in their mind's eye by prompting whether it's an image or a sentence.", "zh": "理解世界模型的一个简单方法是,这个模型可以让任何人通过提示词,无论是图像还是句子,在他们脑海中的眼中创造任何世界。", "timestamp": "34:57", "speaker": "Dr. Fei-Fei Li"},
+    {"en": "Spatial intelligence to me is the ability to create, reason, interact, make sense of deeply spatial world, whether it's 2D or 3D or 4D, including dynamics and all that.", "zh": "对我来说,空间智能是创造、推理、交互、理解深层空间世界的能力,无论是 2D、3D 还是 4D,包括动力学和所有这一切。", "timestamp": "59:14", "speaker": "Dr. Fei-Fei Li"},
+    {"en": "Robot is 3D things running in 3D world, and the goal is to touch things.", "zh": "机器人是在 3D 世界中运行的 3D 事物,目标是接触东西。", "timestamp": "46:32", "speaker": "Dr. Fei-Fei Li"},
+    {"en": "The more I work in AI, the more I respect humans.", "zh": "实际上我在 AI 领域工作得越多,我就越尊重人类。", "timestamp": "48:03", "speaker": "Dr. Fei-Fei Li"},
+    {"en": "No technology should take away human dignity and the human dignity and agency should be at the heart of the development, the deployment, as well as the governance of every technology.", "zh": "没有任何技术应该夺走人类尊严,人类尊严和主观能动性应该处于每项技术的开发、部署和治理的核心。", "timestamp": "76:07", "speaker": "Dr. Fei-Fei Li"},
+    {"en": "I'm an intellectually very fearless person", "zh": "我是一个在智识上非常无畏的人", "timestamp": "66:05", "speaker": "Dr. Fei-Fei Li"}
+  ]
+}
+```

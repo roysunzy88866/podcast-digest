@@ -1,15 +1,15 @@
 {
   "kept": [
     {
-      "i": 1,
-      "timestamp": "00:05",
-      "speaker": "Matt MacInnis",
+      "i": 2,
+      "timestamp": "13:00",
+      "speaker": "Lenny",
       "trimmed": false,
-      "tsWas": "11:37",
-      "spkWas": "Matt MacInnis"
+      "tsWas": "12:58",
+      "spkWas": "Lenny"
     },
     {
-      "i": 2,
+      "i": 3,
       "timestamp": "14:27",
       "speaker": "Matt MacInnis",
       "trimmed": false,
@@ -17,15 +17,31 @@
       "spkWas": "Matt MacInnis"
     },
     {
-      "i": 3,
-      "timestamp": "43:07",
+      "i": 4,
+      "timestamp": "22:26",
       "speaker": "Matt MacInnis",
       "trimmed": false,
-      "tsWas": "42:59",
+      "tsWas": "22:26",
       "spkWas": "Matt MacInnis"
     },
     {
-      "i": 4,
+      "i": 5,
+      "timestamp": "28:03",
+      "speaker": "Matt MacInnis",
+      "trimmed": false,
+      "tsWas": "28:08",
+      "spkWas": "Matt MacInnis"
+    },
+    {
+      "i": 6,
+      "timestamp": "41:55",
+      "speaker": "Lenny",
+      "trimmed": false,
+      "tsWas": "41:55",
+      "spkWas": "Matt MacInnis"
+    },
+    {
+      "i": 7,
       "timestamp": "44:29",
       "speaker": "Matt MacInnis",
       "trimmed": false,
@@ -33,7 +49,7 @@
       "spkWas": "Matt MacInnis"
     },
     {
-      "i": 5,
+      "i": 8,
       "timestamp": "45:56",
       "speaker": "Matt MacInnis",
       "trimmed": false,
@@ -41,23 +57,23 @@
       "spkWas": "Matt MacInnis"
     },
     {
-      "i": 6,
-      "timestamp": "28:03",
+      "i": 9,
+      "timestamp": "50:24",
       "speaker": "Matt MacInnis",
       "trimmed": false,
-      "tsWas": "27:55",
+      "tsWas": "50:22",
       "spkWas": "Matt MacInnis"
     },
     {
-      "i": 7,
-      "timestamp": "28:15",
+      "i": 10,
+      "timestamp": "77:23",
       "speaker": "Matt MacInnis",
       "trimmed": false,
-      "tsWas": "28:15",
+      "tsWas": "77:22",
       "spkWas": "Matt MacInnis"
     },
     {
-      "i": 8,
+      "i": 11,
       "timestamp": "78:36",
       "speaker": "Matt MacInnis",
       "trimmed": false,
@@ -65,45 +81,51 @@
       "spkWas": "Matt MacInnis"
     },
     {
-      "i": 9,
-      "timestamp": "80:46",
+      "i": 12,
+      "timestamp": "80:45",
       "speaker": "Matt MacInnis",
-      "trimmed": true,
+      "trimmed": false,
       "tsWas": "80:45",
       "spkWas": "Matt MacInnis"
     },
     {
-      "i": 10,
-      "timestamp": "71:49",
-      "speaker": "Matt MacInnis",
-      "trimmed": false,
-      "tsWas": "71:41",
-      "spkWas": "Matt MacInnis"
-    },
-    {
-      "i": 11,
+      "i": 13,
       "timestamp": "66:33",
       "speaker": "Matt MacInnis",
       "trimmed": false,
-      "tsWas": "66:26",
+      "tsWas": "66:30",
       "spkWas": "Matt MacInnis"
     },
     {
-      "i": 12,
-      "timestamp": "57:05",
+      "i": 14,
+      "timestamp": "00:41",
       "speaker": "Matt MacInnis",
       "trimmed": false,
-      "tsWas": "57:03",
+      "tsWas": "00:41",
       "spkWas": "Matt MacInnis"
     },
     {
-      "i": 13,
-      "timestamp": "63:17",
+      "i": 15,
+      "timestamp": "87:47",
       "speaker": "Matt MacInnis",
       "trimmed": false,
-      "tsWas": "63:17",
+      "tsWas": "87:47",
+      "spkWas": "Matt MacInnis"
+    },
+    {
+      "i": 16,
+      "timestamp": "43:07",
+      "speaker": "Matt MacInnis",
+      "trimmed": false,
+      "tsWas": "42:59",
       "spkWas": "Matt MacInnis"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 1,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "If you overstaff, you get politics, you get people working, I think most importantly on things that are further down the priority list than necessary."
+    }
+  ]
 }

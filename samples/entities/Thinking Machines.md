@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]]**(09:14起):本集说它是一家在构建开源模型方面做得很好、取得很大进展的美国公司（a16z 投资组合公司之一）。
+- **[[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]]**(09:14起):本集说它是一家在构建开源模型方面做得很好、取得很大进展的美国公司（a16z 投资组合公司之一）。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]] — 作为被讨论公司
+- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为被讨论公司
 
 ## ③ 关联
 

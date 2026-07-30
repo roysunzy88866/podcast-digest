@@ -31,7 +31,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-06-24-pg-company-os-jz|《AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战》]] — 作为主持
+- [[2026-06-24-pg-company-os-jz|《Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能》]] — 作为主持
 
 ## ③ 他谈到的
 

@@ -13,7 +13,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《黄仁勋:NVIDIA 起步选错了技术,但学习比技术更重要》]] — 作为联合主持
+- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]] — 作为联合主持
 
 ## ③ 他谈到的
 

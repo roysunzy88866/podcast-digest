@@ -1,5 +1,5 @@
 ---
-title: Transformer 见顶了吗？OpenAI 与 Google 前核心创立 Core Automation 寻找下一代架构
+title: "Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构"
 podcast: Training Data
 date: 2026-07-29
 source_url: undefined
@@ -7,7 +7,7 @@ duration: "48:39"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto.jpg"
-description: 前 OpenAI VP Jerry 与前 Gemini 预训练负责人 Rohan 创办 Core Automation，直言 Transformer 架构已见顶，致力于打造能在真实世界中持续学习的新架构。
+description: "前 OpenAI 与 Google Brain 核心主将指出 Transformer 无法持续学习,正在探寻下一代新架构。"
 host: "[[Sonja]]"
 guests: ["[[Rohan Anil]]"]
 cohosts: ["[[Jerry Tworek]]"]
@@ -19,9 +19,9 @@ tags:
   - 智能体
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Transformer 见顶了吗？OpenAI 与 Google 前核心创立 Core Automation 寻找下一代架构</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# Transformer 见顶了吗？OpenAI 与 Google 前核心创立 Core Automation 寻找下一代架构
+# Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构
 
 <div class="pd-byl"><b>Jerry Tworek</b> · Core Automation 创始人</div>
 
@@ -29,7 +29,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">替换 Transformer 的第一步，是深刻地感激它们能带我们走多远。</div><div class="a">Sonja · 01:50</div></div>
+<div class="pd-hook"><div class="z">如果 Transformer 是有利可图的,如果你可以花费更多的努力和资源来扩大 Transformer 以在下一个季度获胜,那么很难把大量的注意力和精力投入到可能在一两年内更好或重新定义该领域的事情上。</div><div class="a">Jerry Tworek · 13:28</div></div>
 
 > [!info] 关联
 > **人物** [[Rohan Anil]] · [[Sonja]] · [[Jerry Tworek]]
@@ -38,98 +38,93 @@ tags:
 >
 > **概念** [[Transformer]] · [[强化学习]] · [[预训练]] · [[测试时学习]] · [[算子]] · [[持续学习]] · [[AGI]] · [[计算深度]] · [[思维链]] · [[编码智能体]]
 
-<div class="pd-tldr"><b>一句话</b>前 OpenAI VP Jerry 与前 Gemini 预训练负责人 Rohan 创办 Core Automation，直言 Transformer 架构已见顶，致力于打造能在真实世界中持续学习的新架构。</div>
+<div class="pd-tldr"><b>一句话</b>前 OpenAI 与 Google Brain 核心主将指出 Transformer 无法持续学习,正在探寻下一代新架构。</div>
 
-近期的旧金山 AI 圈，一家名为 [[Core Automation|Core Automation]] 的新实验室引起了不小的关注。它的两位创始人 Jerry 和 Rohan 来头不小：Jerry 曾任 [[OpenAI|OpenAI]] 副总裁，领导过负责推理的 Strawberry 等团队；Rohan 则曾是 Gemini 的[[预训练|预训练]]负责人之一，并在 [[Google|Google]] Brain 从事过大量基础 AI 研究。在这场访谈中，两位大佬抛出了一个极具争议的核心观点：**[[Transformer|Transformer]] 架构已经见顶，我们需要寻找替代品**。整篇访谈的主线非常清晰：先论证 Transformer 为什么会触及天花板，接着解释新架构需要解决什么核心问题（[[测试时学习|测试时学习]]与算力效率），最后分享他们打算如何通过建立“最自动化实验室”来跑通这条全新赛道。
+[[Transformer|Transformer]] 已经把人类几乎所有的静态知识都压缩进了模型里,但如果明天 [[OpenAI|OpenAI]] 和 [[Anthropic|Anthropic]] 停止训练新模型,今天这些强大的模型会随着时间流逝变得越来越没用——这就是 Transformer 的天花板。说这话的人是 Jerry,他曾是 OpenAI 负责[[强化学习|强化学习]](一种让模型在环境里不断试错拿奖励的训练方法)和推理团队的核心人物,如今创办了 [[Core Automation|Core Automation]] 实验室,要寻找能替代 Transformer 的下一代架构。
 
-### 1. 为什么说 Transformer 已经“见顶”？
+这一集里,他和联合创始人 Rohan(前 Gemini [[预训练|预训练]]负责人)一起,聊了三件事:为什么坚信 Transformer 在架构层面已经走到尽头,根本没法[[持续学习|持续学习]];为什么把预训练和强化学习拼在一起、端到端地优化,才是大幅提升计算效率的破局点;以及为什么他们选择离开资源最顶尖的大厂去创业,试图用极高的自动化水平去建造一个能每天疯狂试错的实验室。
 
-访谈的起点，是 Jerry 最近在网上发布的一条被视为“Transformer 悼词”的火爆观点：“取代 Transformer 的第一步，是深刻感激它能带我们走多远。” <button class="pd-ts" data-t="01:50" data-who="Sonja" data-en="You tweeted a very spicy take recently. The first step to replacing Transformers is appreciating deeply how far they were able to carry us. Is that a eulogy for the Transformer?" aria-label="回原文"></button> 这并非一句简单的噱头，而是基于他对行业现状的深度思考。
+## 为什么「大就是好」的扩展主义走到了头
 
-要理解这个判断，首先要理解什么是见顶。在 Jerry 看来，人类目前已经掌握了两种大规模算法：预训练（pre-training，在实验室里压缩海量互联网知识）和大规模[[强化学习|强化学习]]（RL，让模型通过自我摸索完成任务）。过去六年，整个 AI 行业都在给 Transformer 这趟列车疯狂加参数。但 Jerry 发现了一个致命的脱节：**模型在实验室里训练，却在现实世界中部署，这是当前 AI 面临的根本张力** <button class="pd-ts" data-t="05:11" data-who="Rohan" data-en="It comes back from the previous implication. What I think is the issue is that the models are being trained in the lab and are being deployed in the real world. That is the fundamental tension that is there." aria-label="回原文"></button>。
+聊起要寻找 Transformer 替代品的初衷,Jerry 先抛出了他个人的思想转变。他自认一直是个「强化学习最大主义者」,在 OpenAI 时坚信只要把强化学习的规模扩上去,[[AGI|AGI]](能在所有具经济价值的工作上超越人类的系统)就水到渠成。如果 2024 年有人问他 AGI 何时实现,他会斩钉截铁地说是 2025 年。他确实身处扩展强化学习的中心,眼看着模型跑分一路飙升。但残酷的现实是:他们并没有因此解决现实世界的真实任务 <button class="pd-ts" data-t="05:53" data-who="Sonja" data-en="since I started working at OpenAI and I was always reinforcement learning maximalist. I was always believed this is what we need to focus on. This is what we need to do." aria-label="回原文"></button>。
 
-他曾是坚定的“强化学习最大主义者”。曾经笃信只要把 RL 的规模扩展到极致，[[AGI|AGI]]（通用人工智能）就会在 2025 年降临。然而，即使基准测试分数一路狂飙，模型依然无法在真实世界里自主完成所有任务 <button class="pd-ts" data-t="06:11" data-who="Rohan" data-en="And I had this internal belief that the moment we start scaling up RL, we'll solve everything. We'll be able to solve all the problems. And we eventually started scaling up RL." aria-label="回原文"></button>。原因在于，实验室里的评估任务和训练任务往往是同一枚硬币的两面，而真实世界的任务分布要混乱、模糊得多。
+症结在哪?模型在实验室里拿高分,是因为评估它们用的基准和训练它们的数据本质上是同一枚硬币的两面 <button class="pd-ts" data-t="07:01" data-who="Sonja" data-en="distinction as all the benchmarks that we are evaluating our models, they were essentially the same thing as we were training the models on. Like all the evals and training tasks are the same size of the coin, but the real world distribution and real world task is much messier, much murkier, much more different." aria-label="回原文"></button>。可现实世界的数据分布要混乱、模糊得多。目前 AI 主要靠两种方式在用的时候临时学习:一是上下文学习(模型根据你当前输入的提示词来理解上下文,不改动自身参数),但它容量有限,往往用个 20 分钟就得清理重置;二是持续微调(用新数据不断调整模型参数),但这会引发灾难性遗忘(新知识覆盖旧知识导致彻底忘事的老大难问题)<button class="pd-ts" data-t="07:51" data-who="Sonja" data-en="Why are transformers not learning anywhere? There are essentially two types of learning that we could be doing at test time. We could be doing in-context learning, essentially, of transformers, which doesn't have fundamental problems of catastrophic forgetting." aria-label="回原文"></button>。Transformer 根本做不到在真实部署中边用边学,一旦世界变了样,有了新事件或新工具,它的价值就会受损 <button class="pd-ts" data-t="22:18" data-who="Sonja" data-en="If there are new events in the world, if those events have new relationships between them, if there are new types of tasks, if there are new code bases, new tools to use." aria-label="回原文"></button>。
 
-> **【背景】什么是“见顶”？**
-> 这里指的不是 Transformer 立刻就没用了，而是说它作为“全人类知识的压缩器”已经接近极限。如果我们假设 OpenAI 和 Anthropic 今天停止训练新模型，把现有的终极模型发布出来。随着世界发生新事件、出现新代码库和新工具，这个静态的模型会变得越来越没用 <button class="pd-ts" data-t="21:26" data-who="Rohan" data-en="And this could be gigantic model train with a lot of compute on all the data in the world. And then if we ever stop training that model, what would happen? The question worth asking often and thinking about Transformer, what would happen if OpenAI and Anthropic stopped training new models and we got the Transformer we have today and say, this is it." aria-label="回原文"></button>。Transformer 的价值高度依赖于训练数据，一旦现实中出现了训练时没见过的东西，它就会受损。
+大厂之所以不愿放手去试新架构,正是因为它们深陷商业竞争的泥潭。如果继续砸钱扩展 Transformer 就能保住下个季度的市场份额,就没心思去研究可能要花一两年才见效的颠覆性架构了 <button class="pd-ts" data-t="13:28" data-who="Sonja" data-en="Market is right now in a very specific place where the biggest and the most successful labs by coincidence or by fate are probably in the most competitive market fight ever right now, which makes them not very keen on trying different paths, trying alternatives." aria-label="回原文"></button>。
 
-既然当前的路径走不通，问题出在哪？两位创始人一致认为：**瓶颈在于架构本身**。你需要一种能在“测试时”（即模型部署后在和用户交互的过程中）[[持续学习|持续学习]]的模型，而不是必须打回实验室重新训练的模型 <button class="pd-ts" data-t="07:32" data-who="Rohan" data-en="Yet we are still not covering the entirety of the real world distribution. From that, my conclusion is we need to have models that learn at test time. We need to have models that learn with users, on their data, on their real-world tasks, on their real-world distribution." aria-label="回原文"></button>。
+## 比大模型更紧要的:让计算花得值
 
-### 2. 新架构的使命：解决算力效率与“经验学习”
+架构是大问题,但这不意味着新架构只需在图纸上画得漂亮。Rohan 接过话头,把目光拉回到了更为硬核的算力效率上。他在 [[Google|Google]] 深耕优化算法多年,他看待架构的视角非常务实:架构本质上是我们「花钱买算力」的一种方式,而当下的 Transformer 在推理(模型训练好后,接收用户提问并给出回答的过程)时实在太烧钱了 <button class="pd-ts" data-t="15:23" data-who="Rohan" data-en="At least the way I think about architecture is how do we spend computation? And transformer is one way, very efficient way to spend computation. But now that I look at the industry, a lot of our computation is inference time and spending it on tokens." aria-label="回原文"></button>。
 
-既然 Transformer 的疲态在于无法持续学习，那寻找替代方案应该从哪里下手？Rohan 从硬件和算力的角度切入了这个话题。他认为，Transformer 目前最大的软肋在于**[[计算深度|计算深度]]（Computational depth）极差** <button class="pd-ts" data-t="19:17" data-who="Sonja" data-en="One of the things I heard you say was the problem with transformers is the computational depth is poor. If that's the crux of the issue, tell us, what does that mean?" aria-label="回原文"></button>。
+现在业界的主流做法是[[思维链|思维链]]和自回归解码(模型像写字一样从左到右一次只能吐出一个 token,靠不断生成新字词来延长思考时间以换取准确率)。Rohan 指出,这种「为了增加[[计算深度|计算深度]](网络处理信息的层数或逻辑深度)只能靠不断往后加字」的做法,是对算力的巨大浪费。大家为了补救,搞出了投机解码(让小模型先猜后面的词,大模型再来验证,从而加速生成)等「打补丁」的方案,其实都是治标不治本 <button class="pd-ts" data-t="15:35" data-who="Rohan" data-en="Let me ask this question. If I want to optimize for a better architecture, I want to look at both pre-training and RL together. And I would like to find architectures that spend computation much better than current chain of thought token generation." aria-label="回原文"></button>。
 
-深度学习之所以叫“深度”，是因为我们期望它有非常深层的表示。但现在的 Transformer 其实非常“浅”，最多只有大概一百层 <button class="pd-ts" data-t="19:24" data-who="Rohan" data-en="How do you fix it? I can give you like one insight, like most transformers that we train are quite shallow. That's at most like a hundred layers deep." aria-label="回原文"></button>。为了弥补这种浅薄带来的能力不足，人们引入了“[[思维链|思维链]]”（让模型一次输出一个 token，通过增加序列长度来换取更强的推理能力）和推理时扩展。但 Rohan 指出，这种每次只生成一个 token（即自回归解码，Autoregressive decoding）的方式，从推理的角度看是极其低效的。现在业界流行的“投机解码（让小模型先猜、大模型来验，加速推理）”不过是一种治标不治本的权宜之计 <button class="pd-ts" data-t="16:08" data-who="Rohan" data-en="This is quite inefficient from like inference perspective, you're doing one token at a time. So most of the solutions have been finding to do better ways of speculative decoding." aria-label="回原文"></button>。
+在 Rohan 看来,真正能带来数量级提升的,是把预训练和强化学习这两个原本割裂的过程,端到端结合起来重新设计训练算法。他研究过优化器,比如曾用于 Gemini 1.5 Flash 的 Shampoo 算法,虽然比常规做法有两倍的效率提升,但依然没有榨干训练数据里的信息。此外,哪怕是极小众的探索(比如去掉神经网络里极常用的残差连接去学更深层的网络),也必须依赖更强大的优化器才能成立。优化算法和架构设计是一枚硬币的两面 <button class="pd-ts" data-t="29:52" data-who="Rohan" data-en="What has happened is that a lot of the work that we've done in architecture is to make these networks train. And in some sense, it's like two sides of this coin and optimization and architecture go together." aria-label="回原文"></button>。
 
-那如何才能实现数量级上的算力效率提升？Rohan 给出的答案是：**必须将预训练和强化学习结合起来，进行端到端的优化** <button class="pd-ts" data-t="28:01" data-who="Rohan" data-en="We have to combine pre-training and RL together. And that's like where one order of magnitude improvement would come from. And that's like a training procedure." aria-label="回原文"></button>。
+但面对「AI 能否逼近人类生物学习效率」的提问,Rohan 给出了否定的答案。人类的大脑能自己长出模拟电路并高效纠错,几经历练便能深刻掌握知识。而目前的 AI 硬件基于数字电路,靠极高的并行算力暴力吞吐信息,显得极其笨拙。除非硬件发生彻底的颠覆,否则别想赶上生物学习的效率 <button class="pd-ts" data-t="32:01" data-who="Rohan" data-en="Do you think we'll ever approach or surpass biological learning efficiency? I do not think so, because I think we would need to change. Maybe that was a strong statement." aria-label="回原文"></button>。
 
-他分享了自己在 Google 的经历。在优化模型时，大家过去往往只盯着预训练阶段的“困惑度”（一种衡量语言模型预测能力的指标）。但如果你辛辛苦苦降低了一点困惑度，把模型交给 Jerry 去做强化学习，他可能会瞬间摧毁你所有的困惑度指标。这就说明，孤立地看待训练的各个环节是错的。
+## 自动化实验室与被卡住的内核生成
 
-此外，目前强化学习消耗了巨量的算力，却得不到多少有效反馈。模型必须解出一整条长长的思维链，才能把那一点点信息塞进网络里，这在 Rohan 看来是极大的浪费。因此，他们要寻找的新架构，必须能从根本上改变算力的花费方式。
+既然大厂既不敢赌新架构,又受困于短期的发布周期压力,这两位大牛的选择就是出走创业。Jerry 强调,Core Automation 想做的自动化实验室,并不是要把人类踢出局,而是要赋予研究员最大的主观能动性(让个人拥有更大的掌控感和行动力去完成高价值工作)<button class="pd-ts" data-t="35:03" data-who="Sonja" data-en="Yeah, lab in the world. To start with, I think the version of automation by Core Automation is about giving each human maximum level of agency in some way. We're not trying to really get humans out of the loop, which is like one version to automate, but it is about give humans ability to do the most with their amount of time." aria-label="回原文"></button>。就像人类从走路换成骑车,再到开车,同样的时间能跑出大得多的探索半径。如果一个人加上现在的编程智能体每天能做一个深度学习实验,未来或许能一天做一百个。
 
-在这个过程中，Rohan 还提到了“从经验中学习”的本质。Jerry 指出，我们现在把大量的算力花在强化学习上，但强化学习（依赖大量并行试错来对比结果）只是人类学习方式的一种。人类大脑的学习机制其实更加多元——比如学踢球时确实像强化学习；但在学数学时，更像是在脑海里深度思考艰深概念，直到豁然开朗 <button class="pd-ts" data-t="00:00" data-who="Rohan" data-en="If I play football, for example, it looks very, very closely to reinforcement learning. I kick a ball a lot of times and every time I adjust it a little bit and I see if it roughly matches what I wanted and there's some self-reinforcement head money." aria-label="回原文"></button>。因此，未来一定会出现比强化学习更高效的新算法，来处理这些真实世界的经验。
+不过,要实现这种疯狂的实验节奏,他们撞上了一堵硬墙:内核生成。内核是直接与 GPU 硬件打交道的底层代码,想让任何新颖的 AI 架构真正跑出速度,就得写出极度优化的内核。他们曾和 GPU mode 联合举办过一场关于 QR 分解(一种基础的矩阵线性代数运算,常用于优化算法)的内核竞赛 <button class="pd-ts" data-t="40:37" data-who="Rohan" data-en="And in some sense, like current coding agents plus humans can go a long way. But like an example of this is our QR kernel competition that we hosted with GPU mode." aria-label="回原文"></button>。
 
-### 3. 为什么大实验室做不到？
+结果既惊艳又令人沮丧:常规求解器只能提供基础性能;一个懂行的顶尖工程师配上搜索循环,能写出快 7 倍的代码;而如果世界上极其稀有的顶尖高手(全球大概只有三人)连续四周、花十万美元指挥[[编码智能体|编码智能体]]去搜,能写出快 60 倍的内核 <button class="pd-ts" data-t="41:10" data-who="Rohan" data-en="And then a human plus some search loop can get you something like 7x. But it requires the high-taste human, like there's maybe three people in the world, and spend about $100,000 on these coding agents over a span of four weeks to get to a solution that's 60x faster." aria-label="回原文"></button>。但如果直接把这个问题丢给当下最强的商业模型,它们根本束手无策。Rohan 曾在 Google 推动过一种名为 n-gram 内存的技术,意图用额外的内存替代部分 Transformer 参数,最终却因为没人在底层写出相应的硬件加速内核,这个极具潜力的架构探索只能无奈搁置 <button class="pd-ts" data-t="43:12" data-who="Rohan" data-en="The other idea I had with one of my coworkers at that time was like replacing some of the parameters in a transformer with extra memory. And we called it n-grammar n-gram memory." aria-label="回原文"></button>。这也是为什么他们必须啃下内核生成这块硬骨头。
 
-说到这里，可能很多人会有疑问：既然方向这么清晰，为什么财大气粗的大实验室（如 OpenAI、Google）不做这件事？
+## 怎么定义成功:全队去度假,模型自己搞研究
 
-两位创始人的回答非常直白：**时机与竞争的囚徒**。现在那些最大、最成功的实验室，正陷入史上最激烈的市场竞争中 <button class="pd-ts" data-t="13:08" data-who="Rohan" data-en="Market is right now in a very specific place where the biggest and the most successful labs by coincidence or by fate are probably in the most competitive market fight ever right now, which makes them not very keen on trying different paths, trying alternatives." aria-label="回原文"></button>。如果现成的 Transformer 架构依然能赚钱，只要堆算力就能在下个季度赢过对手，实验室就很难把巨大的精力投入到可能要一两年后才能重新定义领域的“替代架构”上 <button class="pd-ts" data-t="13:32" data-who="Rohan" data-en="If Transformer is profitable and if you can spend more efforts and more resources scaling Transformer to win in the next quarter, it's very hard to put at least a lot of attention and a lot of energy to work on something that will maybe better or maybe will redefine the field in a year or two." aria-label="回原文"></button>。而那些非头部的实验室，又在拼命亦步亦趋地模仿头部玩家的做法——比如上周所有人都在一窝蜂地发布[[编码智能体|编码智能体]]（coding agent）<button class="pd-ts" data-t="14:08" data-who="Rohan" data-en="If you look at the... last week's releases, everyone is trying to release a coding agent right now. And I think we need different paths and different approaches here." aria-label="回原文"></button>。
+那么,到底什么才算找到了替代 Transformer 的全新架构?Jerry 给出了一个极有意思的判断标准:测试时的持续学习。在他看来,那个神奇的图表拐点往往姗姗来迟。一个深度学习系统极为复杂,往往需要接连做对五件事,模型才能跑通见效 <button class="pd-ts" data-t="46:52" data-who="Sonja" data-en="But at least it is my experience with research always has been that plot is already quite late in a journey where most of the time you already know what you want and already know what you are up to." aria-label="回原文"></button>。
 
-> **【背景】什么是“编码智能体”？**
-> 指的是能够自动帮人类写代码、甚至自主完成部分开发任务的人工智能程序，是当前各大 AI 实验室竞相追逐的落地热点。
-
-不仅如此，新架构的落地还需要极高的工程门槛。理论上最优的架构如果无法在硬件上高效运行，那就是废纸一张。Rohan 举例说，过去行业花了大约两三年时间，才真正把稀疏模型（MoE，混合专家模型）等架构的效率打磨到现在的水平。因此，想要做出颠覆性的架构，你需要一个能从算法研究、到硬件 kernel（底层计算核心）编写、再到端到端测试完全整合的团队，而目前只有极少数地方能做到这一点 <button class="pd-ts" data-t="17:52" data-who="Rohan" data-en="So you need the research inception to getting it productionized and getting kernels and everything written, the end-to-end loop. And there's only a few places right now which have integrated teams doing that." aria-label="回原文"></button>。这正是 Core Automation 试图填补的生态位。
-
-### 4. 如何寻找新架构？打造“最自动化实验室”
-
-说完了为什么要做，最后是他俩打算“怎么做”。既然要快速试错探索浩瀚的架构空间，Core Automation 给自己的定位是：**打造全世界最自动化的实验室** <button class="pd-ts" data-t="35:00" data-who="Sonja / Rohan" data-en="Most automated lab. Automated. Yeah, lab in the world." aria-label="回原文"></button>。
-
-在他们的语境里，自动化并不意味着要把人类踢出局，而是赋予人类最大的“主观能动性（Agency）”。就像人类从步行、骑自行车到开汽车，或者从手工种一小块地到开机器耕作大片农场，他们希望借助高度发达的编码智能体，让单个研究员的迭代速度快上无数倍 <button class="pd-ts" data-t="35:03" data-who="Rohan" data-en="Yeah, lab in the world. To start with, I think the version of automation by Core Automation is about giving each human maximum level of agency in some way. We're not trying to really get humans out of the loop, which is like one version to automate, but it is about give humans ability to do the most with their amount of time." aria-label="回原文"></button>。Jerry 甚至设想，如果未来一个研究员一天能做 10 个甚至 100 个完整的深度学习实验，那他们自然能更快地搜罗到有效的架构 <button class="pd-ts" data-t="37:18" data-who="Rohan" data-en="And there isn't really any fundamental laws of physics reason why not. And maybe one day we get to 10 of those a day. Maybe one day we get to 100 of those a day." aria-label="回原文"></button>。
-
-这里他们特别提到了一个巨大的瓶颈：**底层 kernel 的编写**。如果你想实现极致的效率，你必须为新架构编写能在特定硬件（如 GPU）上高效运行的底层代码。但这种技术门槛极高，全懂的人凤毛麟角。
-
-Rohan 分享了他们和 GPU mode 社区一起举办的“QR kernel 竞赛”。这是一个关于线性代数中 QR 分解的底层[[算子|算子]]竞赛。他们发现，如果用现成的求解器，能得到基础的效率；一个高水平的人类配合 AI 搜索，能做到快 7 倍；但如果想让速度快 60 倍，则需要世界上极其罕见的顶尖高手，花费四周时间、砸下十万美元的 AI 算力才能写出来 <button class="pd-ts" data-t="41:05" data-who="Rohan" data-en="If you use co-solver for the shapes that we care about, you get some efficiency. And then a human plus some search loop can get you something like 7x. But it requires the high-taste human, like there's maybe three people in the world, and spend about $100,000 on these coding agents over a span of four weeks to get to a solution that's 60x faster." aria-label="回原文"></button>。今天的 AI 模型完全无法独立解决这种问题。因此，训练出能自动写出这种极速 kernel 的模型，是 Core Automation 当前的核心任务之一，这也是他们验证新架构能力的“内循环” <button class="pd-ts" data-t="41:55" data-who="Rohan" data-en="Our models are not even close to solving this problem. So for us, it's like something that we've talked about, something that we are getting close to as sort of like getting to that point because that's our inner loop to having more efficient architectures." aria-label="回原文"></button>。
-
-当主持人问及，什么时候他们才算真正找到了新架构？Jerry 给出了一个非常极客的回答：**系统展现出长期适应性**。当有一天，实验室里的系统每天都在持续变好，哪怕整个团队都去度假了，回来一看模型依然靠着和现实世界的交互，把自己的工作做得越来越好，那就说明他们真正成功了 <button class="pd-ts" data-t="47:38" data-who="Rohan" data-en="So I think what we are looking for is systems that learn at test time. And if we see meaningful, long-term adaptability of our systems, and we're joking, but it's real." aria-label="回原文"></button>。Jerry 甚至开玩笑说，他们会不断延长假期的时间，直到实现“永久度假”。
+他们想要的终极成功画面是:当实验室的系统每天都在 Core Automation 科学家们的真实工作中被使用,它会变得越来越懂行。Jerry 开了个意味深长的玩笑:等哪天我们整个团队放假去休假一整周,回来发现实验室里的模型竟然自己产出了更好的研究成果,那就说明成了。如果真到了那一步,他们大概会把假期再延长两倍、四倍,直到「永久度假」<button class="pd-ts" data-t="47:52" data-who="Sonja" data-en="We want to be evaluating our systems of our everyday work. They get better at doing the work of core automation scientists each day. Yeah, we like go on a vacation as a team and see if the lab produces something better for the week." aria-label="回原文"></button>。
 
 ## 本集带走
-1. **Transformer 的天花板在于无法持续学习**：当前的模型在实验室用静态数据训练，一旦部署到动态的现实世界，很快就会因为缺乏新知识而贬值。我们需要能在“测试时”持续从用户真实交互中学习的新机制。
-2. **算力效率的突破口在于端到端优化**：把预训练和强化学习割裂开来优化是低效的。此外，当前依赖生成长文本（如思维链）来换取推理深度的做法极其浪费算力，新架构必须从根本上解决计算深度不足的问题。
-3. **创新受阻于大厂短期的竞争周期**：巨头们深陷“下个季度发布模型”的商战泥潭，不敢投入资源做可能一两年才见效的底层架构替代方案，这给 Core Automation 这种原生时代的实验室留下了从底层系统（如内核开发）颠覆局面的巨大机会。
 
-<div class="pd-sec">全部金句 <span>8 条(中英对照,已过机器闸门)</span></div>
+最后收个尾,这一集值得带走的是三句话。第一,Transformer 的瓶颈是结构性的,它把人类现有的静态知识压缩得很好,但一旦世界变了、训练停了,它无法在真实部署中边用边学,这是它见顶的根本原因。第二,想大幅提升计算效率,别再给「一次只吐一个词」的推理方式打补丁了,必须把预训练和强化学习结合起来端到端去优化,让算力花得更值。第三,要实现疯狂的实验迭代速度去寻找新架构,就得啃下硬骨头——用智能体攻克底层内核生成的难关,让模型自己学会为新颖的架构写出能在硬件上极速运行的代码。等哪天研究员能放心去放长假,模型还能在实验室里自己搞出新研究成果,那真正的下一代架构就算成了。
 
-> <span class="qz">替换 Transformer 的第一步，是深刻地感激它们能带我们走多远。</span>  
-> *The first step to replacing Transformers is appreciating deeply how far they were able to carry us.*  
-> <span class="qm">—— Sonja · [01:50]</span> ^q1
+<div class="pd-sec">全部金句 <span>11 条(中英对照,已过机器闸门)</span></div>
 
-> <span class="qz">我认为问题在于，模型是在实验室里训练的，却部署在现实世界中。</span>  
-> *What I think is the issue is that the models are being trained in the lab and are being deployed in the real world.*  
-> <span class="qm">—— Jerry Tworek · [05:11]</span> ^q2
-
-> <span class="qz">我们可能正在花费比以往任何时候都多的算力在从经验中学习上，但强化学习并不是从经验中学习的终点。</span>  
-> *we probably are spending the most compute than ever on learning from experience, but reinforcement learning is not the end of learning from experience.*  
-> <span class="qm">—— Jerry Tworek · [00:30]</span> ^q3
-
-> <span class="qz">如果 Transformer 是有利可图的，如果你可以花费更多的精力和资源来扩大 Transformer 以在下一个季度获胜，那么很难把大量的注意力和大量的精力投入到可能在一两年内更好或可能重新定义该领域的事情上。</span>  
+> <span class="qz">如果 Transformer 是有利可图的,如果你可以花费更多的努力和资源来扩大 Transformer 以在下一个季度获胜,那么很难把大量的注意力和精力投入到可能在一两年内更好或重新定义该领域的事情上。</span>  
 > *If Transformer is profitable and if you can spend more efforts and more resources scaling Transformer to win in the next quarter, it's very hard to put at least a lot of attention and a lot of energy to work on something that will maybe better or maybe will redefine the field in a year or two.*  
-> <span class="qm">—— Jerry Tworek · [13:28]</span> ^q4
+> <span class="qm">—— Jerry Tworek · [13:28]</span> ^q1
 
-> <span class="qz">因为你得不到多少反馈，而且你花费了更多的计算，因为你必须解码这整条长思维链才能将这一点点信息输入到网络中。</span>  
-> *Because you don't get much feedback and you're spending a lot more compute because you have to decode all this long chain of thought to get this one bit of information into the network.*  
-> <span class="qm">—— SPEAKER_01 · [31:37]</span> ^q5
+> <span class="qz">我们可能比以往任何时候都在从经验学习上花费最多的算力,但强化学习并不是从经验学习的终点。</span>  
+> *We probably are spending the most compute than ever on learning from experience, but reinforcement learning is not the end of learning from experience.*  
+> <span class="qm">—— Jerry Tworek · [26:22]</span> ^q2
 
-> <span class="qz">对我来说，AGI 是一个可以在没有任何人在循环中的情况下自我改进的模型。</span>  
+> <span class="qz">目前的机制相当糟糕,如果你把它留给世界,我恐怕我们会花更长的时间才能替换 Transformer。</span>  
+> *The current mechanisms are quite poor and it will if if you leave it to the world I am afraid that it will take us like a much longer time horizon before we replace the transformer*  
+> <span class="qm">—— SPEAKER_01 · [18:15]</span> ^q3
+
+> <span class="qz">就像 Jerry 说的,现在有公司在竞争发布周期,因为 tokens 不具粘性。</span>  
+> *It's like, as Jerry said, there are companies now competing for release cycles because tokens are not sticky.*  
+> <span class="qm">—— SPEAKER_01 · [34:05]</span> ^q4
+
+> <span class="qz">我认为核心自动化所设想的自动化版本,在某种程度上是赋予每个人最大水平的主观能动性。</span>  
+> *I think the version of automation by Core Automation is about giving each human maximum level of agency in some way.*  
+> <span class="qm">—— Jerry Tworek · [35:03]</span> ^q5
+
+> <span class="qz">对我来说,AGI 是一个可以在没有任何人在循环中的情况下自我改进的模型。</span>  
 > *For me, AGI is a model that can improve itself without human in the loop in any way.*  
 > <span class="qm">—— Jerry Tworek · [38:21]</span> ^q6
 
-> <span class="qz">但是，到目前为止，用模型把人类从循环中移除实际上出了名地、出了名地困难。</span>  
-> *But removing humans from loops with models has been actually notoriously, notoriously difficult so far.*  
-> <span class="qm">—— Jerry Tworek · [38:45]</span> ^q7
+> <span class="qz">人类与大语言模型的混合模式现在真的非常成功。但是没有人类的大语言模型,就不怎么行,根本不行。</span>  
+> *The human-LLM hybrid is really, really successful right now. But LLMs without humans, not so much, not at all.*  
+> <span class="qm">—— Jerry Tworek · [39:00]</span> ^q7
 
-> <span class="qz">但这需要高水平品味的人类，就像世界上大概只有三个人，并且在四周内花费大约 10 万美元在这些编码智能体上，才能得到一个速度快 60 倍的解决方案。</span>  
+> <span class="qz">但这需要高水平品味的人类,就像世界上大概只有三个人,并且在四周内花费大约十万美元在这些编码智能体上,才能得到一个速度快 60 倍的解决方案。</span>  
 > *But it requires the high-taste human, like there's maybe three people in the world, and spend about $100,000 on these coding agents over a span of four weeks to get to a solution that's 60x faster.*  
 > <span class="qm">—— SPEAKER_01 · [41:10]</span> ^q8
+
+> <span class="qz">正如我提到的,我们相信 Transformer 无法进行持续学习。没有办法在 Transformer 上进行持续学习。</span>  
+> *We believe, as I mentioned, that transformers are incapable of continual learning. There's no way how to put continual learning on transformers.*  
+> <span class="qm">—— Jerry Tworek · [45:21]</span> ^q9
+
+> <span class="qz">而我在 2024 年和 2025 年初看到的是,当前的路径无法让我们到达那里。</span>  
+> *And what I have seen there in 2024 and in early 2025 is that the current path doesn't get us there.*  
+> <span class="qm">—— Jerry Tworek · [39:09]</span> ^q10
+
+> <span class="qz">理论上最优的架构对任何人都没有用。</span>  
+> *A theoretically optimal architecture is not useful to anyone.*  
+> <span class="qm">—— SPEAKER_01 · [17:40]</span> ^q11
 
 <div class="pd-sec">接着看</div>
 
@@ -138,18 +133,18 @@ Rohan 分享了他们和 GPU mode 社区一起举办的“QR kernel 竞赛”。
 
 **顺着「创业与行业」挖下去**
 
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 悬崖边？数据中心次级债与 SpaceX 缩水]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
-- [[2026-05-31-lennys-a-rational-conversation-on-where|Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
-- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展]] —— 同公司:OpenAI · 同概念:AGI
+- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
+- [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
+- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]] —— 同公司:OpenAI · 同概念:AGI
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同公司:Anthropic、OpenAI
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经]] —— 同公司:Anthropic、OpenAI
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同公司:Anthropic、OpenAI
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
+- [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]] —— 同公司:Anthropic、OpenAI
 
 </div>
 </div>

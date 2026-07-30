@@ -2,6 +2,14 @@
   "kept": [
     {
       "i": 1,
+      "timestamp": "03:24",
+      "speaker": "Alex",
+      "trimmed": false,
+      "tsWas": "03:15",
+      "spkWas": "Alex"
+    },
+    {
+      "i": 2,
       "timestamp": "09:15",
       "speaker": "Alex",
       "trimmed": false,
@@ -9,15 +17,47 @@
       "spkWas": "Alex"
     },
     {
-      "i": 2,
-      "timestamp": "23:31",
+      "i": 3,
+      "timestamp": "08:02",
+      "speaker": "Ranjan Roy",
+      "trimmed": false,
+      "tsWas": "08:02",
+      "spkWas": "Ranjan"
+    },
+    {
+      "i": 4,
+      "timestamp": "13:33",
+      "speaker": "Ranjan Roy",
+      "trimmed": false,
+      "tsWas": "13:33",
+      "spkWas": "Ranjan"
+    },
+    {
+      "i": 5,
+      "timestamp": "15:48",
       "speaker": "Alex",
       "trimmed": false,
-      "tsWas": "23:31",
+      "tsWas": "15:48",
       "spkWas": "Alex"
     },
     {
-      "i": 3,
+      "i": 6,
+      "timestamp": "23:31",
+      "speaker": "Alex",
+      "trimmed": false,
+      "tsWas": "23:43",
+      "spkWas": "Alex"
+    },
+    {
+      "i": 7,
+      "timestamp": "32:31",
+      "speaker": "Alex",
+      "trimmed": false,
+      "tsWas": "32:31",
+      "spkWas": "Alex"
+    },
+    {
+      "i": 8,
       "timestamp": "35:38",
       "speaker": "Alex",
       "trimmed": false,
@@ -25,12 +65,12 @@
       "spkWas": "Alex"
     },
     {
-      "i": 4,
-      "timestamp": "40:09",
-      "speaker": "Alex",
+      "i": 9,
+      "timestamp": "62:23",
+      "speaker": "Ranjan Roy",
       "trimmed": false,
-      "tsWas": "40:07",
-      "spkWas": "Alex"
+      "tsWas": "62:23",
+      "spkWas": "Ranjan"
     }
   ],
   "dropped": []

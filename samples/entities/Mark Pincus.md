@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Mark Pincus</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Mark Pincus">MA</div><div class="pi"><h1 class="pt">Mark Pincus</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Mark Pincus">MA</div><div class="pi"><h1 class="pt">Mark Pincus</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>13</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*17 条,均已过机器闸门*
+*13 条,均已过机器闸门*
 
 ![[2026-06-14-lennys-the-common-pattern-behind-successful#^q1]]
 
@@ -39,19 +39,11 @@ unlisted: true
 
 ![[2026-06-14-lennys-the-common-pattern-behind-successful#^q13]]
 
-![[2026-06-14-lennys-the-common-pattern-behind-successful#^q14]]
-
-![[2026-06-14-lennys-the-common-pattern-behind-successful#^q15]]
-
-![[2026-06-14-lennys-the-common-pattern-behind-successful#^q16]]
-
-![[2026-06-14-lennys-the-common-pattern-behind-successful#^q17]]
-
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」》]] — 作为主持
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新》]] — 作为主持
 
 ## ③ 他谈到的
 

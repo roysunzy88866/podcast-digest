@@ -13,13 +13,13 @@ unlisted: true
 
 *1 条,均已过机器闸门*
 
-![[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter#^q4]]
+![[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter#^q2]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《妻子反向采访 Lenny:百万订阅背后的真实人生》]] — 作为联合主持
+- [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《Lenny 挨老婆采访:致幻剂、跑步机和五万分之一》]] — 作为联合主持
 
 ## ③ 他谈到的
 

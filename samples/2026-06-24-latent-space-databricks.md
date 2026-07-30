@@ -132,9 +132,9 @@ Reynold Xin 给出了两个关键判断：一是「拥抱开放」，二是「�
 
 **顺着「智能体」挖下去**
 
-- [[2026-05-21-latent-space-daytona|赋予AI智能体计算机——Daytona创始人Ivan Burazin]] —— 同公司:Neon · 同概念:智能体 (agent)
+- [[2026-05-21-latent-space-daytona|Daytona:为智能体造一台像笔记本一样的计算机]] —— 同公司:Neon · 同概念:智能体 (agent)
 - [[2026-06-22-latent-space-gray-swan|让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏]] —— 同公司:Snowflake · 同概念:智能体 (agent)
-- [[2026-07-08-latent-space-modal|从避战大模型到押注智能体：Modal 的推理基础设施进化史]] —— 同概念:智能体 (agent)、Kubernetes
+- [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]] —— 同概念:智能体 (agent)、Kubernetes
 
 </div>
 <div class="pd-ex">
@@ -142,7 +142,7 @@ Reynold Xin 给出了两个关键判断：一是「拥抱开放」，二是「�
 **换个口味**
 
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织]] —— 同概念:智能体 (agent)
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同概念:智能体 (agent)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同概念:智能体 (agent)
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同概念:智能体 (agent)
 
 </div>

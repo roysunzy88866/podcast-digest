@@ -13,7 +13,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《对话 Samsara CEO:AI 进入物理世界,用 25 万亿数据点改造传统工业》]] — 作为主持
+- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]] — 作为主持
 
 ## ③ 他谈到的
 

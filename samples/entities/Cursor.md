@@ -7,23 +7,31 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cursor</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cursor">CU</div><div class="pi"><h1 class="pt">Cursor</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]]**(00:19起):本集说它是一款深受开发者欢迎的 AI 代码编辑器。嘉宾用它配合 Claude Code 进行全流程开发,强调相比 Lovable 等工具,它把 AI 塞进代码系统并赋予完整工具,把架构决策权交还给用户。
-- **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]]**(07:17起):本集作为产品核心价值由 AI 支撑的公司范例被提及，说明这类 AI-first（AI优先）的企业应该将更多精力投入到大的赌注上。
-- **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]]**(08:12起):被讨论的竞品，Dan 认为其云端实现很先进，但明确选择了专门为程序员服务的赛道，这可能会限制它在通用知识工作领域的扩展。
-- **[[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]]**(03:01起):本集把它说成:一款带有 AI 智能体的代码编辑器，嘉宾曾是其重度用户，但在 OpenAI 推出 Codex 后改变了工作流思维。
+- **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]]**(00:19起):本集说它是一款深受开发者欢迎的 AI 代码编辑器。嘉宾用它配合 Claude Code 进行全流程开发,强调相比 Lovable 等工具,它把 AI 塞进代码系统并赋予完整工具,把架构决策权交还给用户。
+- **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]]**(07:17起):本集作为产品核心价值由 AI 支撑的公司范例被提及，说明这类 AI-first（AI优先）的企业应该将更多精力投入到大的赌注上。
+- **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(08:12起):被讨论的竞品，Dan 认为其云端实现很先进，但明确选择了专门为程序员服务的赛道，这可能会限制它在通用知识工作领域的扩展。
+- **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(03:01起):本集把它说成:一款带有 AI 智能体的代码编辑器，嘉宾曾是其重度用户，但在 OpenAI 推出 Codex 后改变了工作流思维。
+
+## ① 提到它的金句
+
+*2 条,均已过机器闸门*
+
+![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q2]]
+
+![[2026-07-09-pg-pm-guide-ai-design#^q3]]
 
 ## ② 出现在这些集
 
 *4 集*
 
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] — 作为被讨论公司
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]] — 作为被讨论公司(提及)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] — 作为被讨论公司(提及)
-- [[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]] — 作为被讨论公司
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为被讨论公司
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为被讨论公司(提及)
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为被讨论公司(提及)
+- [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为被讨论公司
 
 ## ③ 关联
 

@@ -2,118 +2,54 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "11:10",
-      "speaker": "Jeetu Patel",
-      "trimmed": false,
-      "tsWas": "11:10",
-      "spkWas": "Jeetu Patel"
-    },
-    {
-      "i": 2,
-      "timestamp": "11:56",
-      "speaker": "Jeetu Patel",
-      "trimmed": false,
-      "tsWas": "11:56",
-      "spkWas": "Jeetu Patel"
-    },
-    {
-      "i": 3,
-      "timestamp": "13:32",
-      "speaker": "Jeetu Patel",
-      "trimmed": false,
-      "tsWas": "13:30",
-      "spkWas": "Jeetu Patel"
-    },
-    {
-      "i": 4,
-      "timestamp": "17:41",
-      "speaker": "Jeetu Patel",
-      "trimmed": false,
-      "tsWas": "17:41",
-      "spkWas": "Jeetu Patel"
-    },
-    {
-      "i": 5,
-      "timestamp": "18:40",
-      "speaker": "Jeetu Patel",
-      "trimmed": false,
-      "tsWas": "18:40",
-      "spkWas": "Jeetu Patel"
-    },
-    {
-      "i": 6,
-      "timestamp": "07:48",
+      "timestamp": "07:52",
       "speaker": "Jeetu Patel",
       "trimmed": false,
       "tsWas": "07:48",
       "spkWas": "Jeetu Patel"
     },
     {
-      "i": 7,
-      "timestamp": "53:31",
+      "i": 2,
+      "timestamp": "11:17",
+      "speaker": "Jeetu Patel",
+      "trimmed": false,
+      "tsWas": "11:17",
+      "spkWas": "Jeetu Patel"
+    },
+    {
+      "i": 3,
+      "timestamp": "53:32",
       "speaker": "Jeetu Patel",
       "trimmed": false,
       "tsWas": "53:31",
       "spkWas": "Jeetu Patel"
     },
     {
-      "i": 8,
-      "timestamp": "44:43",
-      "speaker": "Jeetu Patel",
-      "trimmed": false,
-      "tsWas": "44:43",
-      "spkWas": "Jeetu Patel"
-    },
-    {
-      "i": 9,
+      "i": 4,
       "timestamp": "54:47",
       "speaker": "Jeetu Patel",
       "trimmed": false,
-      "tsWas": "54:46",
+      "tsWas": "54:53",
       "spkWas": "Jeetu Patel"
     },
     {
-      "i": 10,
-      "timestamp": "38:27",
+      "i": 5,
+      "timestamp": "32:49",
       "speaker": "Jeetu Patel",
       "trimmed": false,
-      "tsWas": "38:32",
+      "tsWas": "32:48",
       "spkWas": "Jeetu Patel"
     },
     {
-      "i": 11,
-      "timestamp": "61:19",
+      "i": 7,
+      "timestamp": "71:08",
       "speaker": "Jeetu Patel",
       "trimmed": false,
-      "tsWas": "61:19",
+      "tsWas": "71:08",
       "spkWas": "Jeetu Patel"
     },
     {
-      "i": 12,
-      "timestamp": "67:12",
-      "speaker": "Jeetu Patel",
-      "trimmed": false,
-      "tsWas": "67:12",
-      "spkWas": "Jeetu Patel"
-    },
-    {
-      "i": 13,
-      "timestamp": "71:09",
-      "speaker": "Jeetu Patel",
-      "trimmed": false,
-      "tsWas": "71:09",
-      "spkWas": "Jeetu Patel"
-    },
-    {
-      "i": 14,
-      "timestamp": "72:37",
-      "speaker": "Jeetu Patel",
-      "trimmed": false,
-      "tsWas": "72:37",
-      "spkWas": "Jeetu Patel"
-    },
-    {
-      "i": 15,
+      "i": 8,
       "timestamp": "75:25",
       "speaker": "Jeetu Patel",
       "trimmed": false,
@@ -121,5 +57,11 @@
       "spkWas": "Jeetu Patel"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 6,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "Stamina trumps intellect."
+    }
+  ]
 }

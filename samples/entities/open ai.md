@@ -11,15 +11,15 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]]**(04:39起):本集仅在口播赞助商和嘉宾引言中顺带提及，未作为主要话题深入讨论。
-- **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型》]]**(01:16起):本集说它是 GPT 5.6 系列模型(Soul, Tara, Luna)的发布者,这些模型被内置于其订阅服务中提供测试使用。
+- **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]]**(04:39起):本集仅在口播赞助商和嘉宾引言中顺带提及，未作为主要话题深入讨论。
+- **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]]**(01:16起):本集说它是 GPT 5.6 系列模型(Soul, Tara, Luna)的发布者,这些模型被内置于其订阅服务中提供测试使用。
 
 ## ② 出现在这些集
 
 *2 集*
 
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]] — 作为被讨论公司(提及)
-- [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型》]] — 作为被讨论公司
+- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]] — 作为被讨论公司(提及)
+- [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]] — 作为被讨论公司
 
 ## ③ 关联
 

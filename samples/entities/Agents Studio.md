@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《对话 Samsara CEO:AI 进入物理世界,用 25 万亿数据点改造传统工业》]]**(37:05起):本集把它说成:Samsara 最近在 Beyond 大会上发布的智能体产品。
+- **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]]**(37:05起):本集把它说成:Samsara 最近在 Beyond 大会上发布的智能体产品。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《对话 Samsara CEO:AI 进入物理世界,用 25 万亿数据点改造传统工业》]] — 作为概念
+- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]] — 作为概念
 
 ## ③ 关联
 

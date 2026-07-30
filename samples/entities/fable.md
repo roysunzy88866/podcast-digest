@@ -11,21 +11,21 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型》]]**(00:28起):本集说它是 Anthropic 的模型,作为 Soul 的主要对比对象。它被描述为「理论上极其聪明」但沟通极其技术化、晦涩、迂腐,像「没见过人类的工程师」,且常陷入僵化的架构死胡同。
+- **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]]**(00:28起):本集说它是 Anthropic 的模型,作为 Soul 的主要对比对象。它被描述为「理论上极其聪明」但沟通极其技术化、晦涩、迂腐,像「没见过人类的工程师」,且常陷入僵化的架构死胡同。
 
 ## ① 提到它的金句
 
 *2 条,均已过机器闸门*
 
-![[2026-07-13-lennys-this-solo-builder-runs-247-local#^q2]]
+![[2026-07-13-lennys-this-solo-builder-runs-247-local#^q1]]
 
-![[2026-07-13-lennys-this-solo-builder-runs-247-local#^q3]]
+![[2026-07-13-lennys-this-solo-builder-runs-247-local#^q2]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型》]] — 作为概念
+- [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]] — 作为概念
 
 ## ③ 关联
 

@@ -2,10 +2,10 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "18:19",
+      "timestamp": "00:50",
       "speaker": "Kat Wu",
       "trimmed": false,
-      "tsWas": "50:50",
+      "tsWas": "00:47",
       "spkWas": "Kat Wu"
     },
     {
@@ -13,11 +13,11 @@
       "timestamp": "00:20",
       "speaker": "Kat Wu",
       "trimmed": false,
-      "tsWas": "00:20",
+      "tsWas": "05:35",
       "spkWas": "Kat Wu"
     },
     {
-      "i": 3,
+      "i": 4,
       "timestamp": "70:06",
       "speaker": "Kat Wu",
       "trimmed": false,
@@ -25,19 +25,11 @@
       "spkWas": "Kat Wu"
     },
     {
-      "i": 4,
-      "timestamp": "51:35",
+      "i": 5,
+      "timestamp": "74:38",
       "speaker": "Kat Wu",
       "trimmed": false,
-      "tsWas": "51:35",
-      "spkWas": "Kat Wu"
-    },
-    {
-      "i": 5,
-      "timestamp": "74:51",
-      "speaker": "Kat Wu",
-      "trimmed": true,
-      "tsWas": "74:50",
+      "tsWas": "74:37",
       "spkWas": "Kat Wu"
     },
     {
@@ -47,21 +39,18 @@
       "trimmed": false,
       "tsWas": "31:44",
       "spkWas": "Kat Wu"
-    },
-    {
-      "i": 8,
-      "timestamp": "21:43",
-      "speaker": "Kat Wu",
-      "trimmed": false,
-      "tsWas": "21:43",
-      "spkWas": "Kat Wu"
     }
   ],
   "dropped": [
     {
+      "i": 3,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "It's pretty important to build products that don't necessarily work yet so that you know, what is missing for this product to work?"
+    },
+    {
       "i": 6,
       "reason": "逐字命中不了(裁剪后仍无)",
-      "en": "There is just not much value in a 95% there automation."
+      "en": "I think jobs are fake."
     }
   ]
 }

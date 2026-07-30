@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评》]]**(01:25起):本集说它是「PayPal 黑手党」的大本营，Peter Thiel 和 Max Levchin 在此调动了极高的人才密度，不仅让它成功，还孕育了后续一连串伟大公司。
+- **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]]**(01:25起):本集说它是「PayPal 黑手党」的大本营，Peter Thiel 和 Max Levchin 在此调动了极高的人才密度，不仅让它成功，还孕育了后续一连串伟大公司。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评》]] — 作为被讨论公司
+- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]] — 作为被讨论公司
 
 ## ③ 关联
 

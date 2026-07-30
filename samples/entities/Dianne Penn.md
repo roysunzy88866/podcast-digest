@@ -7,23 +7,25 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Dianne Penn</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Dianne Penn">DI</div><div class="pi"><h1 class="pt">Dianne Penn</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Dianne Penn">DI</div><div class="pi"><h1 class="pt">Dianne Penn</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*3 条,均已过机器闸门*
+*4 条,均已过机器闸门*
 
 ![[2026-07-26-lennys-anthropics-first-technical-pm-on#^q1]]
 
 ![[2026-07-26-lennys-anthropics-first-technical-pm-on#^q2]]
 
-![[2026-07-26-lennys-anthropics-first-technical-pm-on#^q3]]
+![[2026-07-26-lennys-anthropics-first-technical-pm-on#^q4]]
+
+![[2026-07-26-lennys-anthropics-first-technical-pm-on#^q5]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]] — 作为主持
+- [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为主持
 
 ## ③ 他谈到的
 

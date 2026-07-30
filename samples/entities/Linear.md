@@ -11,14 +11,14 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]]**(01:47起):本集把它当作项目跟踪管理工具,是嘉宾标准开发流的第一步:用斜杠命令让 AI 读取代码库并自动在里面生成一个带有 TLDR、当前状态和预期结果的标准工单。
+- **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]]**(01:47起):本集把它当作项目跟踪管理工具,是嘉宾标准开发流的第一步:用斜杠命令让 AI 读取代码库并自动在里面生成一个带有 TLDR、当前状态和预期结果的标准工单。
 - **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当代码不再是瓶颈,品味和策展成为产品团队的稀缺力》]]**(10:51起):本集将其作为极佳设计和品味的标杆,指出去年市面上的新网站全是对 Linear 网站的拙劣模仿;嘉宾也自称它是他在自家产品之前最喜欢的软件产品。
 
 ## ② 出现在这些集
 
 *2 集*
 
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] — 作为被讨论公司
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为被讨论公司
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当代码不再是瓶颈,品味和策展成为产品团队的稀缺力》]] — 作为被讨论公司
 
 ## ③ 关联

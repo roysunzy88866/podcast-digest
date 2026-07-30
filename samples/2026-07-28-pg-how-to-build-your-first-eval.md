@@ -130,18 +130,18 @@ Daniel 的建议是：从第零天开始思考，成功是什么样子的？你�
 
 **顺着「产品方法」挖下去**
 
-- [[2026-06-24-pg-company-os-jz|AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战]] —— 同嘉宾:Akash · 同概念:智能体 (agent)
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南]] —— 同公司:Claude Code · 同概念:智能体 (agent)
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品]] —— 同公司:Claude Code · 同概念:智能体 (agent)
+- [[2026-06-24-pg-company-os-jz|Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能]] —— 同嘉宾:Akash · 同概念:智能体 (agent)
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]] —— 同公司:Claude Code · 同概念:智能体 (agent)
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder]] —— 同公司:Claude Code · 同概念:智能体 (agent)
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-07-09-pg-pm-guide-ai-design|用 AI 武装技术型 PM：Codex 工作流全解析]] —— 同嘉宾:Akash · 同公司:Codex · 同概念:智能体 (agent)
-- [[2026-06-03-latent-space-satya-2026|Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP]] —— 同概念:工具框架 (harness)、智能体 (agent)
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同公司:Claude Code、Codex · 同概念:智能体 (agent)
+- [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]] —— 同嘉宾:Akash · 同公司:Codex · 同概念:智能体 (agent)
+- [[2026-06-03-latent-space-satya-2026|Satya Nadella：别在一个模型上顶礼膜拜，这才是 AI 时代真正的平台逻辑]] —— 同概念:工具框架 (harness)、智能体 (agent)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同公司:Claude Code、Codex · 同概念:智能体 (agent)
 
 </div>
 </div>

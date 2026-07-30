@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]]**(29:02起):本集把它说成:独立于母公司的小型法律实体,被用来为数据中心筹集债务、购买 Nvidia GPU 并隐藏风险,将数千亿美元的表外债务切碎散布到整个经济中。
+- **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]]**(29:02起):本集把它说成:独立于母公司的小型法律实体,被用来为数据中心筹集债务、购买 Nvidia GPU 并隐藏风险,将数千亿美元的表外债务切碎散布到整个经济中。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]] — 作为概念
+- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为概念
 
 ## ③ 关联
 

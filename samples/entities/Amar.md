@@ -13,7 +13,7 @@ unlisted: true
 
 *1 集*
 
-- [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷》]] — 作为联合主持
+- [[2025-12-28-lennys-10-contrarian-leadership-truths|《故意让人手不足:Rippling 首席产品官的非常规管理心法》]] — 作为联合主持
 
 ## ③ 他谈到的
 

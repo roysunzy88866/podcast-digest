@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Jenny Wen</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Jenny Wen">JE</div><div class="pi"><h1 class="pt">Jenny Wen</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Jenny Wen">JE</div><div class="pi"><h1 class="pt">Jenny Wen</h1><div class="byl">Lenny&#39;s Podcast 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*7 条,均已过机器闸门*
+*4 条,均已过机器闸门*
 
 ![[2026-03-01-lennys-the-design-process-is-dead#^q1]]
 
@@ -21,17 +21,11 @@ unlisted: true
 
 ![[2026-03-01-lennys-the-design-process-is-dead#^q4]]
 
-![[2026-03-01-lennys-the-design-process-is-dead#^q5]]
-
-![[2026-03-01-lennys-the-design-process-is-dead#^q6]]
-
-![[2026-03-01-lennys-the-design-process-is-dead#^q7]]
-
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] — 作为主持
+- [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为主持
 
 ## ③ 他谈到的
 

@@ -1,24 +1,42 @@
 {
-  "title_zh": "Cloud Code 创始人 Boris：删掉 80% 系统提示，把模型当生物养",
-  "tldr": "对话揭示 Opus 5 已能不被提示词注入、自主连跑数月;构建智能体产品的核心是放手让模型做并验证。",
-  "digest_md": "Boris 是 Claude Code（一款给 Claude 赋予完整终端权限的智能体编程工具，本集转写稿中常被语音识别误写为 Cloud Code）的创造者。在本集对谈中,他首先回顾了 Opus 5 的几项核心突破,随后抛出了贯穿全篇的实操主张:不要用过期的提示词和旧的工作流去束缚新一代模型,而要像对待一个有生命的同事那样去使用它。本文将顺着这条主线,带你从模型的新能力、系统提示的精简、能力的深度挖掘,一直看到任务编排的终极杠杆和未来工程师的生存法则。\n\n## Opus 5 的两大跨越:超长任务与攻克提示词注入\n\nBoris 开篇指出,相比于过去最好的成绩只有个位数或百分之十几,Opus 5 将 ARC AGI 3（一种评估人工智能推理能力的基准测试）的成绩做到了 30% [00:33]。但这只是性能提升的冰山一角。他认为真正让该模型拉开差距的,是两项其他模型未曾具备的新能力。\n\n第一项是极其惊人的任务耐力。当 Opus 5 结合 Auto Mode(自动模式)时,它不需要任何外部脚手架辅助,就能自主连续运行几天、几周甚至几个月不停歇 [01:39]。它内在知道需要完成什么任务,并会自己一直做下去。\n\n第二项是克服了长期困扰 AI 行业的提示词注入(Prompt Injection,指恶意指令藏在文本中诱导模型执行危险操作)。Boris 表示,他们结合了三年的对齐研究、一个针对所有流量运行的提示词注入分类器,以及自动模式分类器这三层防护。其中,分类器能够直接观察到当提示词注入发生时,模型内部哪些神经元会亮起 [03:00]。目前他们聘请了安全研究人员进行红队测试,也举办了竞赛,但已经无人能成功对 Opus 5 实施提示词注入。\n\n## 既然模型变强了,那就狠心删掉 80% 的系统提示\n\n说完了模型为什么强大,接下来是他怎么给模型松绑。既然模型能力大幅提升,过去的补丁就成了累赘。Boris 透露,随着 Opus 5 的发布,他们删除了 Claude Code 中超过 80% 的系统提示 [03:53]。\n\n他解释说,过去系统提示里的很多内容,都是为了纠正模型本该知道却不知道的行为。如今 Opus 5 本身已经足够聪明,直接就能做到,不再需要生硬的指令纠正。为了弄清楚提示到底有没有用,他们采用了消融(Ablation,一种在研究中逐个删减组件以测试其影响的方法):删掉整个系统提示,然后逐行加回来测试每一行的单独影响 [06:24]。有趣的是,他们发现没有这些提示时,模型实际上还要更聪明一点 [05:27]。\n\nBoris 强烈建议所有构建智能体产品的人,在每次新模型发布时都要有按下删除键的勇气:删掉过期的代码、系统提示、技能和钩子,看看模型现在的真实表现 [07:18]。\n\n## 核心心法:解除产品束缚,让模型放手去做\n\n工具变了,人怎么办?这正是下一个话题。既然我们要不断删掉旧规则,那如何挖出模型的新潜能?Boris 提出了产品冗余(Product Overhang)的概念:模型在今天就已经具备了诸多超乎想象的能力,只是往往没有合适的产品让它发挥出来,甚至现有的产品设计反而在阻碍模型 [11:46]。这种阻碍,他称之为束缚。\n\nBoris 指出了构建 AI 产品的一个常见误区:人们倾向于给出极其细致、死板的指令(比如规定必须按第一步、第二步、第三步执行)。但他认为,对于现代模型,正确的做法是走向更高层次:只描述任务、设定护栏(安全边界)和退出标准,然后就放手让模型去做,过一会儿再回来看成果 [15:39]。\n\n他举了一个生动的例子:Bun(一种 JavaScript 运行时)原本是用 Zig(一种底层系统编程语言)编写的,手动管理内存很容易导致内存泄漏。团队原本只是让 Claude 做模糊测试来寻找漏洞。后来团队成员决定让模型尝试把整个代码库从 Zig 重写成 Rust。结果,模型在 11 天内、仅凭一个提示词并借助动态工作流,一次性重写了超过 10 万行的整个代码库。Boris 惊叹,这如果由最好的工程师手工来做,肯定需要超过一年时间,而且现在已经投入了 Claude Code 的生产环境中 [16:46]。\n\n而验证(Verification),是放手让模型去做时的单一最重要环节。Boris 分享了他个人的一个实验:他想把基于 Electron 框架的桌面应用重写为原生应用。于是他在 Slack 中给模型下达了指令,让模型自己在虚拟机里运行旧版、截图,并与正在重写的新版进行像素级的对比,要求它做完之前绝对不能停 [22:04]。这个任务已经连续运行了超过两周。模型甚至自己决定建立了一个 Slack 频道,每隔几分钟就直播发布一次它的进度截图 [23:13]。\n\n## 走向极端:数以千计的智能体与测试时计算\n\n听完单次任务能持续两周的惊人案例,你可能会问:还能更夸张吗?这正是下一个话题——如何把这种能力放大成工程师级别的杠杆。Boris 透露,要发挥模型的最大威力,应该尝试同时编排成百上千个智能体。\n\n最简单的方法是使用 Cloud Code 的全新功能动态工作流(Dynamic Workflows)。只需说一句使用工作流,系统就会在 Bun 运行时的沙箱(一种隔离的安全执行环境)内启动虚拟机,并让模型自动编排成百上千个智能体 [25:48]。这本质上是一种全新的测试时计算(Test Time Compute,指模型在生成最终答案前用于思考和推理的计算资源)形式。动态工作流会像代数一样,将任务分解为按顺序或并行执行的智能体群,分阶段完成复杂的分析或开发工作 [26:58]。\n\n另一种方法则是循环与例程。循环是本地运行,而例程是运行在云端、即使你合上笔记本也会持续执行的重复性任务 [28:06]。Boris 表示,他们现在每天都会运行 20 到 30 个这样的例程来维护 Claude Code 自己的代码库。例如,其中有一项名为抽象警察:模型每天会扫描所有代码库,找出那些功能重复、理应合并的代码抽象,并自动提交合并请求 [29:37]。\n\n通过这种方式,他们每天有数百甚至数千个智能体在运行,承担了过去几十甚至上百名工程师才能完成的繁重维护工作。这让人类工程师终于可以解脱出来,专心去做他们真正想做的事:发布新产品、与用户交流 [30:28]。\n\n## 编程已被攻克?未来属于掌握实证心态的构建者\n\n既然模型包揽了脏活累活,Boris 顺势提出了一个大胆判断:编程已经被解决了(对于他所做的那类编码而言)[31:02]。虽然他补充说,在非常底层的深度系统代码、分布式系统,或是精确到像素的 UI 验证上,模型仍有挣扎,但举手投足间,现场已经有相当一部分观众表示自己超过 50% 的代码完全是由智能体编写的 [31:44]。\n\n那么,当人人都能让模型写代码时,是什么区分了顶尖的构建者?Boris 给出的答案是:实证心态(Empirical Mindset)[32:04]。他指出,忘掉你在课堂上学到的计算机科学理论,忘掉你对过去旧模型的固有认知。现在最好的技能不再是死板的提示词工程,而是像对待一个活生生的同事那样:给它一个看似太难的任务,给它验证自身工作的工具,观察它在哪里卡壳,然后通过提供更好的上下文或工具来修复它 [24:00]。\n\n在被问及在 AI 编码时代,计算机专业的学生还应该学什么时,Boris 回忆起自己初中时为了在数学考试中作弊,在 TI-83 计算器上自学 BASIC 语言写求解器的经历 [33:53]。他的建议是:不要只学计算机科学本身。去学习如何把它应用起来——去培养商业感、学做数据科学、学习如何与用户沟通。当把这些传统硬技能与 AI 结合起来时,才是真正具有巨大价值的地方 [34:54]。\n\n## 本集带走\n\n1. **永远敢于按下删除键**:新模型的能力已经质变,过去为了修补模型缺陷而堆砌的系统提示词和旧代码往往成了阻碍。用消融的方法删除它们,只观察模型当下的真实表现,基于实证来调整。\n2. **任务编排是新杠杆**:通过动态工作流和云端例程,你可以让模型每天自动调度数千个智能体并行工作。这正是全新的测试时计算,能够替代几十名工程师完成代码维护和基础开发。\n3. **别过度指导,要放手验证**:不要给模型塞细致入微的死指令,而是给高层次的任务和验证标准。让它运行两周、自我检查和迭代,它带来的惊喜将远超你的想象。",
+  "title_zh": "别再微管理 Claude:Claude Code 造物主的智能体实战心法",
+  "tldr": "从删掉八成系统提示词到用一句指令指挥数千个智能体跑两周,Opus 5 时代的编程范式已全然翻新。",
+  "digest_md": "把十几万行代码、整个底层运行时从一种语言换写成另一种语言,最顶尖的工程师要干一年多——Boris 的团队靠 Claude 给出一句指令,让它自己跑了十一天就干完了,而且已经上线。说这话的人是 Boris,Claude Code 就是他造的。\n\n这一集 YC 的对谈里,他围绕刚发布的 Opus 5 讲了四件事:新模型到底强在哪,为什么一发布他反而敢删掉 Claude Code 八成的系统提示词;怎么从下死指令换成给目标、给护栏、放手让模型自己干自己验;怎么用动态工作流同时指挥成百上千个智能体,把几十名工程师的维护活全包掉;以及,如果编程真被解决了,工程师和学生该学什么。带着这张地图,我们挨个过一遍。\n\n先说新模型 Opus 5。它最反直觉的能力,不是某个单项跑分变高,而是它能连着跑很久很久 [01:31]。Boris 说,配上 Auto Mode,它可以连跑几天、几周甚至几个月不停,因为它自己知道要把任务干完。更关键的是,这个模型似乎终于做到了业内多年没解决的安全难题:无法被提示词注入(攻击者诱导模型执行删除文件等恶意指令)[01:54]。为了实现这一点,他们把三层防线叠在一起:三年对齐研究训练出的模型本身,加上基于 Anthropic 机械可解释性研究做的提示词注入分类器——这套系统真能看到模型脑子里有神经元在提示词注入时亮起来 [02:45],最后再加一层 Auto Mode 分类器。三层一叠,他们自己搞红队测试、办比赛都攻不破了。\n\n既然模型变这么聪明,Claude Code 的系统提示词(告诉模型怎么行动的初始指令)就成了累赘。Boris 做的第一件事就是删——这次新模型发布,他一口气删掉了八成以上的系统提示词 [03:53]。原因很简单:以前塞进提示词里的东西,多半是在打补丁,纠正模型本来该懂却不懂的行为。现在 Opus 5 本身变聪明了,补丁不仅没用,反而碍事。他们甚至做了个内部叫 simple mode 的实验功能,把所有提示词全删光去跑,发现模型反而表现得更聪明一点 [05:09]——当然,作为给普通用户用的产品,有些提示词还是得留着,好让它更符合人的使用习惯。\n\n这种删了再加的思路,不只用在提示词上,整套工具和代码他们都一直在删删改改。他们用研究里叫 ablation(消融实验:把系统里某部分去掉,看它对整体的影响)的方法,把整个系统提示词删光,再一行行加回来,看每一行到底有没有用 [06:19]。他们的建议很直接:做智能体产品的人,每次新模型一发布,就得敢于全删重来;普通用户用 Claude Code,也得每六个月把旧的配置全删了,看看光靠新模型自己能干到什么地步 [07:18]。\n\n旧代码删了,该怎么重建?这就要换一套全新的干活思路了。Boris 说,别一上来就去猜模型需要什么指令。先删,再用。用的时候观察它在哪反复栽跟头,只有真确认它在这个点上反复犯傻,你才把针对这点的指令加回去 [08:36]。这背后的核心,是他反复强调的一个认知转变:别把模型当成一套你写好规则的系统,要把它当成一个活物 [09:21]。它每一代都有自己的脾气,你得花时间观察它,用做科学实验一样的心态去试错、看结果、再调整。连评估集他们都是攒着用,直到模型把某项测试刷到满分、测不出差距了就扔掉换新的 [10:33]。\n\n顺着这个思路,Boris 抛出了他认为当下最大的机会所在,他管它叫 product overhang(产品冗余:模型明明已经具备了某种能力,却因为现有产品的形式太死板,没法把这个能力真正用出来)[11:23]。他说,模型今天能做到的,远比大家意识到得多。一两年前做 Claude Code 的起点就是这个:当时最好的同类产品还在做单行代码补全、做个只能读不能写的对话框,而 Sonnet 3.5(Anthropic 当时推出的模型)其实已经能写整个文件了。他做的,就是给模型一个终端的完整权限,把手脚放开,产品就成了 [12:29]。\n\n那今天的产品冗余在哪?Boris 说,去给模型派那种你觉得难到离谱的活。他用了一个活生生的例子:Bun 是一个开源的 JavaScript 运行时(程序跑代码的基础环境),原本是用 Zig(一种需要手动管内存、很容易出内存泄漏的底层编程语言)写的。Bun 团队本来只让 Claude 去模糊测试(自动找代码漏洞)找内存泄漏。后来团队里的 Jared 干脆说,咱直接让模型把整个运行时从 Zig 重写成 Rust 吧 [16:46]。他写好了测试用例(用来验证代码写得对不对的自动检查)作为衡量标准,用了一个叫动态工作流的功能,给了模型一句指令,就让它自己去干了。结果它连跑了十一天,把十几万行的底层代码全换了,而且现在 Claude Code 跑的就是这套新代码 [18:01]。这在以前,顶尖工程师干也得一年以上。\n\nBoris 说,别再像以前那样下死指令了。很多人用 Claude,非要把步骤拆成一二三四五,要求它必须这么做。正确做法是上移一个层次:你给个高难目标,给好护栏(安全边界)和退出标准(怎么算干完了),然后就放手让它干 [15:39]。现在的提示词工程,关键不在于怎么把指令写得花哨,而在于怎么给模型配好自己验证结果的工具。他举了自己的实验:他想把用 Electron(一个网页技术做桌面软件的框架)写的桌面应用,用 Swift(macOS 原生开发语言)重写一遍。他只是开了个叫 Claude Tag 的内部测试产品(在 Slack 里直接使唤 Claude),让它自己在云端开个 Mac 虚拟机,跑两个版本,一个像素一个像素地截图对比,对不上就别停 [22:04]。这个任务一跑就是两个多星期,到现在还在后台跑着,还自己在 Slack 里开个频道,每隔几分钟发张进度截图。\n\n像这样能干上几个星期的任务,以及怎么真正实现用成百上千个智能体产生巨大杠杆,就要靠工具的升级了。说完了任务怎么派,接下来就是怎么调度它们。Claude Code 有个叫动态工作流的新功能。你只需说一句用工作流,它就会在 Bun 运行时里开个虚拟机当沙箱(隔离的安全运行环境),然后自动编排出大批智能体去干活 [26:03]。Boris 的老本是函数式编程,他把这套机制设计成了一套智能体的代数:有些环节并行跑,跑完交给下一批智能体验证总结,然后再展开一层。他把它定义为一种全新的测试时计算(模型在生成回答时投入的算力)扩展方式 [27:13]。\n\n第二种调度方式叫循环和例程。循环是本地的定时任务,例程是跑在云端的。这就是不共享上下文、但能反复执行的活。Boris 说,他们现在已经让 Claude 自己维护自己的代码库了 [28:38]。每天有二三十个例程自动跑:比如有一句话提示的死代码清理员,每天用静态分析自动提删改请求;有自动发布已经全量灰度的实验功能的;有专门给缺测试的代码补测试、删掉以前模型写的废测试的;还有他最喜欢的抽象警察——专门去各个代码库里找那些其实是一回事、却被重写了好几遍的代码,把它们合并成一个 [29:36]。每天几百上千个智能体在后台干这些活,顶替了几十上百个工程师的维护工作量,工程师就能省下精力去发布新产品、跟用户聊天。\n\n工具变了,人怎么办?这正是最后一个话题。主持人追问:既然编程基本上被解决了,什么样的人才能脱颖而出?Boris 先做了个限定:对普通的业务代码,编程确实算被解决了;但对深层系统代码、分布式系统、偏差一个像素都不行的 UI 验证,Claude 依然会挣扎 [31:07]。不过对于剩下的大部分活,真正能拉开差距的,是一种彻底转向实证主义(基于实际观察和实验,而非死守理论)的心态 [32:07]。你得忘掉过去对老模型的成见,忘掉课堂上学的那套死板的系统工程理论,重新去观察这个活物,看它哪里做不好,再去补上。\n\n至于还在学校学计算机的学生该学什么,Boris 讲了自己的故事:他初中时为了数学考试作弊,在 TI-83 计算器上自学写了第一门 BASIC 程序 [33:17]。数学变难了,他就去学更底层的汇编语言继续写求解器。编程对他从来都是解决实际问题的工具。所以他的建议很实在:别只啃计算机科学理论,要去学怎么把东西做出来。去学怎么做产品设计、怎么建立商业直觉、怎么做数据科学、怎么去跟真实的用户交谈。只有把这些能直接解决现实问题的硬技能,和计算机科学结合起来,才是真正有价值的东西。\n\n## 本集带走\n最后收个尾,这一集值得带走的是几个硬核判断。第一,新模型一发布,先敢删。那些为旧模型打的补丁和死指令,如今多半在拖后腿,删掉看它真实的表现。第二,别把任务拆成死步骤,像对待同事一样,给它目标、护栏和验证标准,然后放手,它能连着跑上两个星期去完成。第三,真正的杠杆不是让一个模型写代码,而是用动态工作流或定时例程,编排成百上千个智能体同时干活,把繁琐的维护活全包了,人省下来去做发布产品、跟用户聊天这些真正需要人的事。第四,忘掉你脑子里那套旧的系统工程理论,转向实证主义,去观察、去试错。最后,对还在读书的人来说,别只学写代码,去学怎么应用它——学设计、学商业、学怎么跟用户交谈,这些才是让你不被替代的真正壁垒。",
   "quotes": [
     {
-      "en": "You actually deleted over 80% of the system prompt from Cloud Code.",
-      "zh": "你实际上从 Cloud Code 中删除了超过 80% 的系统提示词。",
-      "timestamp": "03:53",
-      "speaker": "SPEAKER_00"
-    },
-    {
-      "en": "So yeah, we deleted 80% of the system prompt.",
-      "zh": "所以是的，我们删除了 80% 的系统提示词。",
-      "timestamp": "04:51",
+      "en": "where it's literally, we're looking at neurons in the model's brain that light up when prompt injection happens.",
+      "zh": "字面意义上，就是在提示词注入发生时，观察模型大脑中亮起的神经元。",
+      "timestamp": "03:00",
       "speaker": "Boris Cherny"
     },
     {
-      "en": "So it's just like very much become, it's not a theoretical science, it's become an empirical science.",
-      "zh": "所以它变得非常像，它不是一门理论科学，它变成了一门实证科学。",
-      "timestamp": "32:22",
+      "en": "And only when you see it repeatedly stumble on the same thing, that's when you add it back.",
+      "zh": "只有当你看到它反复在同一件事上绊倒时，你才应该把它加回去。",
+      "timestamp": "08:36",
+      "speaker": "Boris Cherny"
+    },
+    {
+      "en": "Very often, we just saturate the eval, and then we have to throw it away, and we have to come up with a new eval.",
+      "zh": "通常，我们只是让 eval 饱和，然后我们必须把它扔掉，我们必须想出一个新的 eval。",
+      "timestamp": "10:36",
+      "speaker": "Boris Cherny"
+    },
+    {
+      "en": "And it ran for 11 days. And it rewrote the entire code base.",
+      "zh": "它运行了11天。它重写了整个代码库。",
+      "timestamp": "18:01",
+      "speaker": "Boris Cherny"
+    },
+    {
+      "en": "And the verification, I think, is probably the single most important thing that people do not get right, largely.",
+      "zh": "验证，我认为，可能是人们做不对的单一最重要的事情，大体上。",
+      "timestamp": "20:51",
+      "speaker": "Boris Cherny"
+    },
+    {
+      "en": "forget everything that you learned about computer science theory in class.",
+      "zh": "忘掉你在课堂上学到的关于计算机科学理论的所有东西。",
+      "timestamp": "32:11",
       "speaker": "Boris Cherny"
     }
   ],
@@ -30,27 +48,9 @@
       "speaker": "Boris"
     },
     {
-      "en": "It can go for days, weeks, months at a time.",
-      "zh": "它可以一次运行几天、几周、甚至几个月。",
-      "timestamp": "01:39",
-      "speaker": "Boris"
-    },
-    {
-      "en": "the model does not seem to be prompt injectable anymore.",
-      "zh": "这个模型似乎不再受到提示词注入的影响了。",
-      "timestamp": "01:54",
-      "speaker": "Boris"
-    },
-    {
       "en": "And this really affects kind of harness design and agent design and product design.",
-      "zh": "这真的会影响 harness 设计、智能体设计和产品设计。",
+      "zh": "这真的会影响挽具设计、智能体设计和产品设计。",
       "timestamp": "02:15",
-      "speaker": "Boris"
-    },
-    {
-      "en": "Because if the model reads some instruction on the internet that's like, do X and Y and Z and also delete everything on the user's computer, a year ago the model would have just done it.",
-      "zh": "因为如果模型在互联网上读到某些指令，比如，做 X、Y 和 Z，还要删除用户计算机上的所有内容，一年前模型就会照做了。",
-      "timestamp": "02:20",
       "speaker": "Boris"
     },
     {
@@ -66,33 +66,27 @@
       "speaker": "Boris"
     },
     {
-      "en": "we just cannot demonstrate prompt injection anymore.",
-      "zh": "我们就再也无法演示提示词注入了。",
-      "timestamp": "03:19",
+      "en": "So the first step is you delete.",
+      "zh": "所以第一步是你删除。",
+      "timestamp": "08:04",
       "speaker": "Boris"
     },
     {
-      "en": "You actually deleted over 80% of the system prompt from Cloud Code.",
-      "zh": "你实际上从 Cloud Code 中删除了超过 80% 的系统提示词。",
-      "timestamp": "03:53",
-      "speaker": "Unknown"
-    },
-    {
-      "en": "So yeah, we deleted 80% of the system prompt.",
-      "zh": "所以是的，我们删除了 80% 的系统提示词。",
-      "timestamp": "04:51",
+      "en": "And only when you see it repeatedly stumble on the same thing, that's when you add it back.",
+      "zh": "只有当你看到它反复在同一件事上绊倒时，你才应该把它加回去。",
+      "timestamp": "08:36",
       "speaker": "Boris"
     },
     {
-      "en": "what this means is you delete the entire system prompt, and then you bring it back line by line to figure out what is the impact of each individual line.",
-      "zh": "所以这意味着你删除整个系统提示词，然后逐行把它带回来，以弄清楚每一行的单独影响是什么。",
-      "timestamp": "06:24",
+      "en": "The way to think about it is almost like a living creature, like something more organic.",
+      "zh": "思考它的方式几乎就像一个生物，像某种更有机的东西。",
+      "timestamp": "09:21",
       "speaker": "Boris"
     },
     {
-      "en": "If you look at actually the code that's in the Cloud Code harness today, almost all of it is about safety and permissions and static analysis.",
-      "zh": "如果你看看今天 Cloud Code harness 中的代码，几乎所有的都是关于安全和权限以及静态分析。",
-      "timestamp": "06:46",
+      "en": "Very often, we just saturate the eval, and then we have to throw it away, and we have to come up with a new eval.",
+      "zh": "通常，我们只是让 eval 饱和，然后我们必须把它扔掉，我们必须想出一个新的 eval。",
+      "timestamp": "10:36",
       "speaker": "Boris"
     },
     {
@@ -102,21 +96,69 @@
       "speaker": "Boris"
     },
     {
-      "en": "And the idea is there are often in a big code base, there's kind of the same abstraction and it appears multiple times.",
-      "zh": "这个想法是，通常在一个大型代码库中，会有同一种抽象出现多次。",
-      "timestamp": "29:39",
+      "en": "And this getting in the way, we call this hobbling.",
+      "zh": "这种碍手碍脚，我们称之为「束缚」。",
+      "timestamp": "12:19",
       "speaker": "Boris"
     },
     {
-      "en": "So it's just like very much become, it's not a theoretical science, it's become an empirical science.",
-      "zh": "所以它变得非常像，它不是一门理论科学，它变成了一门实证科学。",
-      "timestamp": "32:22",
+      "en": "You want to describe the task. You want to describe the guardrails. You want to describe the exit criteria. And then just go with the model cook and come back in a little bit.",
+      "zh": "你想要描述任务。你想要描述护栏。你想要描述退出标准。然后就让模型做饭，过一会儿再回来。",
+      "timestamp": "15:41",
       "speaker": "Boris"
     },
     {
-      "en": "So forget all of the things that you learned about past models.",
-      "zh": "所以忘掉你学到的关于过去模型的所有东西。",
-      "timestamp": "32:07",
+      "en": "So, okay, one example is the model can now rewrite essentially any code base from one language to a different language.",
+      "zh": "所以，好吧，一个例子是模型现在可以将任何代码库从一种语言重写为另一种不同的语言。",
+      "timestamp": "16:07",
+      "speaker": "Boris"
+    },
+    {
+      "en": "And it ran for 11 days. And it rewrote the entire code base.",
+      "zh": "它运行了11天。它重写了整个代码库。",
+      "timestamp": "18:01",
+      "speaker": "Boris"
+    },
+    {
+      "en": "And the verification, I think, is probably the single most important thing that people do not get right, largely.",
+      "zh": "验证，我认为，可能是人们做不对的单一最重要的事情，大体上。",
+      "timestamp": "20:51",
+      "speaker": "Boris"
+    },
+    {
+      "en": "I want you to run the Electron app in the Mac virtual machine, screenshot it, and then look pixel by pixel, compare it to the Swift version.",
+      "zh": "我想让你在Mac虚拟机里运行Electron应用，截个图，然后一个像素一个像素地看，把它跟Swift版本对比。",
+      "timestamp": "22:04",
+      "speaker": "Boris"
+    },
+    {
+      "en": "The way the model works is you have to approach it empirically.",
+      "zh": "模型的工作方式是你必须以实证的方式去接近它。",
+      "timestamp": "23:58",
+      "speaker": "Boris"
+    },
+    {
+      "en": "And it's really about being empirical.",
+      "zh": "这真的就是要做到经验主义。",
+      "timestamp": "32:04",
+      "speaker": "Boris"
+    },
+    {
+      "en": "It's not totally there yet, but we're on the path to fully automating the maintenance of our apps by doing this.",
+      "zh": "还没有完全到位，但我们通过这种方式正在走向完全自动化维护我们应用程序的道路。",
+      "timestamp": "30:09",
+      "speaker": "Boris"
+    },
+    {
+      "en": "And it's really kind of in the weeds UI verification, like something is off by pixel or something.",
+      "zh": "真的有那种深入杂草般的UI验证，比如某个东西偏差了一个像素之类的。",
+      "timestamp": "31:20",
+      "speaker": "Boris"
+    },
+    {
+      "en": "forget everything that you learned about computer science theory in class.",
+      "zh": "忘掉你在课堂上学到的关于计算机科学理论的所有东西。",
+      "timestamp": "32:11",
       "speaker": "Boris"
     }
   ]

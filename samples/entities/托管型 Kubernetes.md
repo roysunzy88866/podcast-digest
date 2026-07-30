@@ -11,19 +11,19 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]]**(28:04起):本集将其视为在强化学习训练等场景中 Daytona 真正打败的竞争对手(如 EKS 或 GKS)。嘉宾指出 Kubernetes 的交互接口太复杂,而 Daytona 提供了类似 Twilio 或 Stripe 般体验极佳的简单 API。
+- **[[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]]**(28:04起):本集将其视为在强化学习训练等场景中 Daytona 真正打败的竞争对手(如 EKS 或 GKS)。嘉宾指出 Kubernetes 的交互接口太复杂,而 Daytona 提供了类似 Twilio 或 Stripe 般体验极佳的简单 API。
 
 ## ① 提到它的金句
 
 *1 条,均已过机器闸门*
 
-![[2026-07-08-latent-space-modal#^q2]]
+![[2026-07-08-latent-space-modal#^q1]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] — 作为概念
+- [[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]] — 作为概念
 
 ## ③ 关联
 

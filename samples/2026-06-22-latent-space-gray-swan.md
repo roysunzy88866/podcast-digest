@@ -132,17 +132,17 @@ Signal(C-Y-G-N-A-L,取自天鹅 swan 的谐音)是一个专用过滤模型,它�
 **顺着「AI 安全」挖下去**
 
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|Sriram Krishnan：Kimi K3 将改写 AI 行业版图]] —— 同概念:智能体 (agent)
-- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展]] —— 同概念:沙箱 (sandbox)
-- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争]] —— 同公司:Anthropic · 同概念:护栏 (guardrails)
+- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]] —— 同概念:沙箱 (sandbox)
+- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]] —— 同公司:Anthropic · 同概念:护栏 (guardrails)
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|Cloud Code 创始人 Boris：删掉 80% 系统提示，把模型当生物养]] —— 同概念:提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)、Cloud Code
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得]] —— 同概念:OpenClaw、提示词注入 (prompt injection)、智能体 (agent)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切]] —— 同概念:OpenClaw、智能体 (agent)、Codex
+- [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|别再微管理 Claude:Claude Code 造物主的智能体实战心法]] —— 同概念:提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)、Cloud Code
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]] —— 同概念:OpenClaw、提示词注入 (prompt injection)、智能体 (agent)
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同概念:OpenClaw、智能体 (agent)、Codex
 
 </div>
 </div>

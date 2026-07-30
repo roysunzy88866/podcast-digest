@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]]**(01:26起):Fiona 在 Meta 时创立并主导的团队；本集中作为案例出现，用于讲述如何因地制宜地调整数据指标（如考量「强力卖家」）。
+- **[[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]]**(01:26起):Fiona 在 Meta 时创立并主导的团队；本集中作为案例出现，用于讲述如何因地制宜地调整数据指标（如考量「强力卖家」）。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] — 作为被讨论公司
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]] — 作为被讨论公司
 
 ## ③ 关联
 

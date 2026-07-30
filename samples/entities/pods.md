@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]]**(03:14起):本集把它说成是 Instagram 今年采用的迷你小队架构：通常 4-6 名偏通才的工程师加一个产品人员，以更小核心团队替代过去十几人的庞大配置，决策更快。
+- **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]]**(03:14起):本集把它说成是 Instagram 今年采用的迷你小队架构：通常 4-6 名偏通才的工程师加一个产品人员，以更小核心团队替代过去十几人的庞大配置，决策更快。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]] — 作为概念
+- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]] — 作为概念
 
 ## ③ 关联
 

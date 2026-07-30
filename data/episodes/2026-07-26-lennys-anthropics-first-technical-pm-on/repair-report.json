@@ -2,7 +2,7 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "41:36",
+      "timestamp": "41:41",
       "speaker": "Dianne Penn",
       "trimmed": false,
       "tsWas": "41:36",
@@ -10,20 +10,42 @@
     },
     {
       "i": 2,
-      "timestamp": "57:32",
+      "timestamp": "12:59",
       "speaker": "Dianne Penn",
-      "trimmed": true,
-      "tsWas": "57:30",
+      "trimmed": false,
+      "tsWas": "12:49",
       "spkWas": "Dianne Penn"
     },
     {
       "i": 3,
-      "timestamp": "12:57",
+      "timestamp": "20:11",
+      "speaker": "Lenny",
+      "trimmed": false,
+      "tsWas": "20:09",
+      "spkWas": "Lenny"
+    },
+    {
+      "i": 4,
+      "timestamp": "65:55",
       "speaker": "Dianne Penn",
       "trimmed": false,
-      "tsWas": "12:57",
+      "tsWas": "65:55",
+      "spkWas": "Dianne Penn"
+    },
+    {
+      "i": 5,
+      "timestamp": "05:42",
+      "speaker": "Dianne Penn",
+      "trimmed": false,
+      "tsWas": "05:41",
       "spkWas": "Dianne Penn"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 6,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "And so you have to sweat the tokens as much as you sweat the pixels."
+    }
+  ]
 }

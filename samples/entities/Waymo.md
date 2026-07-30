@@ -11,25 +11,25 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]]**(46:00起):本集把它作为自动驾驶的例子提及,指出尽管 DARPA 自动驾驶挑战赛已经是 20 年前的事了,但今天的 Waymo 还没有完全普及,借此说明机器人物理落地的漫长。
-- **[[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]]**(65:35起):本集闪电战环节中被嘉宾大赞的自动驾驶产品,称其乘坐体验神奇,配得上外界的炒作,感觉像生活在未来。
+- **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]]**(46:00起):本集把它作为自动驾驶的例子提及,指出尽管 DARPA 自动驾驶挑战赛已经是 20 年前的事了,但今天的 Waymo 还没有完全普及,借此说明机器人物理落地的漫长。
+- **[[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]]**(65:35起):本集闪电战环节中被嘉宾大赞的自动驾驶产品,称其乘坐体验神奇,配得上外界的炒作,感觉像生活在未来。
 - **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]]**(01:49起):本集说它代表了自动驾驶的另一种方案,依赖大量传感器、算力和高保真地图,在地理受限的区域功能表现更好。
-- **[[2026-04-23-lennys-how-anthropics-product-team-moves|《Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南》]]**(78:01起):本集闪电战环节提到。嘉宾称自己是死忠用户，每天上下班乘坐两次；不仅觉得等车时没有社交压力，还能在车上毫无顾忌地打工作电话，这每天帮她省出了 30 分钟。
-- **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《黄仁勋:NVIDIA 起步选错了技术,但学习比技术更重要》]]**(37:53起):本集提到其自动驾驶汽车里面使用了来自 NVIDIA 的芯片。
-- **[[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《为什么机器人的未来在仿真：World Labs 收购 Cynics 背后的逻辑》]]**(21:11起):本集举例提到这家自动驾驶公司，指出他们其实比依赖现实世界数据更重度地依赖仿真来训练自动驾驶技术。
-- **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《对话 Samsara CEO:AI 进入物理世界,用 25 万亿数据点改造传统工业》]]**(01:55起):本集提到:在路上可能会看到 Waymo 的自动驾驶出租车,作为物理 AI 应用的例子。
+- **[[2026-04-23-lennys-how-anthropics-product-team-moves|《Claude Code 产品负责人:AI 时代 PM 的生存法则》]]**(78:01起):本集闪电战环节提到。嘉宾称自己是死忠用户，每天上下班乘坐两次；不仅觉得等车时没有社交压力，还能在车上毫无顾忌地打工作电话，这每天帮她省出了 30 分钟。
+- **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]]**(37:53起):本集提到其自动驾驶汽车里面使用了来自 NVIDIA 的芯片。
+- **[[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《World Labs 收购机器人公司：教 AI 理解物理世界》]]**(21:11起):本集举例提到这家自动驾驶公司，指出他们其实比依赖现实世界数据更重度地依赖仿真来训练自动驾驶技术。
+- **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]]**(01:55起):本集提到:在路上可能会看到 Waymo 的自动驾驶出租车,作为物理 AI 应用的例子。
 
 ## ② 出现在这些集
 
 *7 集*
 
-- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]] — 作为被讨论公司(提及)
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] — 作为被讨论公司(提及)
+- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司(提及)
+- [[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]] — 作为被讨论公司(提及)
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] — 作为被讨论公司
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|《Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南》]] — 作为被讨论公司(提及)
-- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《黄仁勋:NVIDIA 起步选错了技术,但学习比技术更重要》]] — 作为被讨论公司
-- [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《为什么机器人的未来在仿真：World Labs 收购 Cynics 背后的逻辑》]] — 作为被讨论公司(提及)
-- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《对话 Samsara CEO:AI 进入物理世界,用 25 万亿数据点改造传统工业》]] — 作为被讨论公司(提及)
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|《Claude Code 产品负责人:AI 时代 PM 的生存法则》]] — 作为被讨论公司(提及)
+- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]] — 作为被讨论公司
+- [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《World Labs 收购机器人公司：教 AI 理解物理世界》]] — 作为被讨论公司(提及)
+- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

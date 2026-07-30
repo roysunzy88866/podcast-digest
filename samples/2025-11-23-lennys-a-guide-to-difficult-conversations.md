@@ -145,8 +145,8 @@ Rachel 的目标是帮助领导者设计自己的生活，争取把 80% 的时�
 
 **换个口味**
 
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品]] —— 同概念:联合创始人 (co-founder)
-- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|科技圈情绪调查：一半人狂喜，一半人煎熬]] —— 同概念:职业倦怠 (burnout)
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder]] —— 同概念:联合创始人 (co-founder)
+- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|AI 时代的科技人情绪实录：一半狂欢，一半崩塌]] —— 同概念:职业倦怠 (burnout)
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织]] —— 同公司:Stripe
 
 </div>

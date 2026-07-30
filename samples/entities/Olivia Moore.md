@@ -13,7 +13,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《Lassie 的 AI 智能体：让牙科诊所行政自动化，开启小企业大市场》]] — 作为主持
+- [[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢饭碗，是找不到人:Lassie 如何替全美牙医干掉行政活》]] — 作为主持
 
 ## ③ 他谈到的
 

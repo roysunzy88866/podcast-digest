@@ -1,146 +1,152 @@
 {
-  "title_zh": "当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构",
-  "tldr": "Fiona Fung分享在代码量暴涨8倍后,如何用异步智能体、验证机制与新管理者制度重塑工程团队。",
-  "digest_md": "本集嘉宾是 Fiona Fung,她领导 Anthropic 的 Claude Code 和 Co-Work 团队。在加入 Anthropic 之前,她曾在微软工作多年,后转战 Facebook(现 Meta)领导了 Facebook Marketplace 团队,并在 Instagram 负责过包含五百多人的庞大工程组织。作为拥有二十五年经验的资深工程师,她亲历了软件工程从光盘时代到云时代的历次变迁。在这集访谈中,Fiona 分享了当生成式 AI 让代码产量激增、编码不再是瓶颈时,软件团队在验证、协作、角色边界乃至新人培养上面临的全面冲击。全文将沿着四个维度展开:编码生产力暴涨后的验证新命题、团队角色的模糊与新工作流、面对 AI 的两种心态与落差危机,以及团队规模化的文化与制度挑战。\n\n## 当吞吐量不再是瓶颈:验证成为新战场\nFiona 回忆了软件工程历史上的几次大转折:从早期在 IBM 用 Vim 和终端做调试,到加入微软后第一次用上带调试器的 IDE(集成开发环境,即集成了代码编写、运行和调试功能的软件);从软件必须刻成光盘上架的「硬截止日期」时代,到可以随时在线发版的云时代。每一次工具演进,都在重新分配工程师的时间。而眼下的 AI 变革尤为剧烈:她指出,过去工程时间是最宝贵的资源,但现在编码本身已经不再是瓶颈。最近一条推文展示的数据显示,Anthropic 的工程师平均每个季度的代码量达到了 2025 年时的八倍 [03:28 Lenny]。随之而来的核心变化是:不仅工程师在提交代码,设计师、产品经理(Co-Work 团队的所有人)都在提交代码,而且吞吐量极高。这种量级的变化,把团队的重心从「写代码」推向了「验证」[08:59 Fiona Fung]。\n\n## 用 Claude 当管理耳目,用「坏与悲」抓质量\n既然编码不再是瓶颈,工具变了,团队的工作方式怎么跟上?Fiona 介绍了几项她作为管理者的新做法。她把一个 Claude Code 远程会话注册到了团队的所有代码仓库中,这个实例还能访问所有 Slack 频道和指标数据。这样,她每个月可以用共享屏幕的方式,带着团队用 Claude Code 一起复盘:上个月的重点是什么?发布了哪些产品?反馈如何?有没有引发什么 Bug?她强调,通过 Claude 的全局视角,团队可以更容易地从大量数据和事件中提炼出下个季度的投资主题 [10:10 Fiona Fung]。\n\n顺着「如何在高产出下维持质量」这个问题,Fiona 提到了两项更具体的做法。第一是利用自动化测试框架进行代码审查。她指出,Claude 在你给它提供一个「好代码长什么样」的框架时非常出色。团队的做法是把规格说明签入代码仓库并保持与代码同步更新,让 Claude 验证提交的代码是否符合预期。她将这视为测试驱动开发(即先写测试用例再写功能代码,TDD)的演进 [15:25 Fiona Fung]。第二是她在团队中推行的「坏与悲」体验分类法。「坏」指的是非常严重的、不可恢复的错误(比如 CLI 崩溃导致用户丢失工作);「悲」则是指那些可恢复但让人不舒服的痛点(比如界面闪烁)。她给每个团队高度自主权,让他们根据各自的服务定义自己的「坏」与「悲」,这样就能在性能、可靠性等原始指标之外,提供一个衡量用户体验的高层框架 [45:25 Fiona Fung]。更有趣的是,团队甚至做了一个追踪脏话的仪表盘,用来监测用户在反馈渠道里的挫败感 [47:50 Fiona Fung]。\n\n## 角色大融合与异步智能体工作流\n说完了怎么管质量,接下来是人的问题。在 AI 工具的加持下,团队的角色边界正在迅速模糊。Fiona 现在在招聘时最看重两类人:一类是有产品直觉的「创意构建者」,一类是能处理核心难题的「深层系统专家」[17:09 Lenny]。产品经理也不再受限于工程资源的带宽,遇到想做的功能可以直接卷起袖子自己动手;而非移动端出身的工程师,也能在 Claude 的辅助下顺利给功能加上安卓端的适配 [18:54 Fiona Fung]。代码相关职位的界限都在模糊,工程师变得越来越有产品思维,而所有人都在变成构建者 [62:21 Fiona Fung]。\n\n工作方式也在向更高的抽象层演进。Fiona 提到,团队正转向更多的异步工作风格。过去她需要同步地手写各种提示词(Prompt,即给 AI 模型下指令的文本),现在她可以设定一个例行程序,让它在每天早上特定时间自动运行。这个程序不仅能汇总反馈,甚至能代表她启动其他的智能体去处理潜在的 Bug 并生成 PR(拉取请求,即提交代码修改的机制)供她醒来后审查 [36:24 Fiona Fung]。这种模式虽然极大地提升了产能,但也带来了新的烦恼:上下文切换的认知负荷太重了。当你同时开着二十个智能体时,要追踪它们各自在干什么、随时切换语境去审查,成了一个尚未解决的难题 [71:13 Fiona Fung]。\n\n## 面对技术狂飙:成长心态与弥合鸿沟\n工具和人都在变,不同人的处境也因此拉开差距。当主持人问及为什么有的人在 AI 时代如鱼得水、有的人却充满挫败感时,Fiona 认为关键在于成长型思维。她坦言,放弃那些过去让你成功的旧习惯会很可怕,但对于任何让你感到恐惧的事情,最好的应对方式就是主动拥抱它,并问自己「什么是我的控制范围内的事?」[21:11 Fiona Fung]。\n\n这种主动出击的心态,也延伸到了她弥合 AI 鸿沟的努力中。Fiona 非常关心小企业主群体,因为她曾亲眼看到自己的奶奶移民加拿大时,因为语言不通而陷入孤立,最终在一家小纱线店里找到了社区归属感。她发现 Co-Work 可以极其有效地帮小企业主处理他们最讨厌的开票和报销工作。更有趣的是,一位开餐厅的朋友把 Co-Work 接入了自己杂乱的文件夹,让它帮忙找菜单,甚至做竞品分析。基于这些反馈,团队推出了打包小企业插件的 Co-Work 版本 [27:18 Fiona Fung]。她的呼吁非常具体:如果你身边有对 AI 感到恐惧或无从下手的朋友或社区商户,请主动向他们展示 AI 是如何改善了你的生活,因为知识就是力量,如果不主动分享,这道鸿沟只会越来越大 [30:04 Fiona Fung]。\n\n## 守住团队文化与未来的未知数\n角色模糊了,节奏变快了,这正是下一个话题:团队怎么管?Fiona 分享了几项独特的管理实践。首先是要求所有新加入的管理者先以个人贡献者的身份工作一段时间,亲自动手写代码、用产品,然后再承担起带人的责任。她自己哪怕在管理五百人的组织时,也坚持亲自使用产品(即内部试用)。她最近还用 Claude 重新找回了写生产级代码的自信 [49:55 Fiona Fung]。\n\n其次,随着大家都埋头和各自的智能体协作,团队里出现了一种「孤独感」。为此,她发起了结对编程午餐和黑客松,让大家能在并肩工作时观察到彼此使用工具的奇招 [56:38 Fiona Fung]。在规划方面,她彻底抛弃了半年期的路线图,改为「准时制」的月度规划,每周只做快速对齐 [84:37 Fiona Fung]。被问及最让她夜不能寐的难题时,她坦言不是具体的产品挑战,而是如何在飞速扩张中维持那种开放、互助的团队文化 [78:04 Fiona Fung]。\n\n> 【背景】TDD(Test-Driven Development)即测试驱动开发,是一种先编写自动化测试用例,再编写能通过测试的功能代码的软件开发方法论。\n\n> 【背景】Co-Work 是 Anthropic 推出的面向日常知识工作的智能体产品,能够处理文件、填报表格等任务;Claude Code 则专注于编程辅助。\n\n## 本集带走\n1. **编码已非瓶颈,验证才是重心**:当全员都在用 AI 大幅提速时,质量保证的重心应从人工审查转向提供自动化测试框架和体验监控(如「坏与悲」分类法),让模型自行验证。\n2. **角色边界正在消融**:在 AI 辅助下,产品经理可以直接写代码,工程师能跨界做移动端适配。未来的关键人才是兼具产品直觉的「创意构建者」与掌握核心难题的「深层系统专家」。\n3. **管理动作必须升级**:管理者要善用智能体获取全局洞察并转向异步工作流;同时,要在团队扩张和技术狂飙中,通过坚持使用产品、缩短规划周期以及创造人际连接来守住团队文化。",
+  "title_zh": "代码量暴涨8倍后，工程管理怎么办？",
+  "tldr": "Fiona Fung 分享在 AI 时代如何带领 Claude Code 团队重塑工程文化、调试流程与评估体系。",
+  "digest_md": "Anthropic 的工程师现在平均每季度产出的代码量，是 2025 年时的八倍。过去，软件必须刻进光盘、赶上硬性截止日期才能发行；如今，编码本身不再是瓶颈，真正稀缺的是时间、验证能力与雄心。负责 Claude Code 和 Co-work 团队的 Fiona Fung 在这集访谈里，讲了她是如何重塑工程评估标准、重塑调试流程、重塑招人标准，以及在角色边界全面模糊的时代如何维系团队文化的。\n\nFiona 是一位有 25 年经验的资深工程领导者。在加入 Anthropic 之前，她曾在微软主导 TypeScript 和 Visual Studio（一种集成开发环境）的开发，随后在 Facebook 创立了 Facebook Marketplace 团队，并在 Instagram 和 Meta 主管过超过 500 人的组织。这一集 YC 的对谈里，她讲了五件事：为什么传统的代码行数和 PR 数已经失效，管理者该如何用新的例行程序（定时自动运行的智能体任务）来跟进团队工作；怎么把人员管理从“下指令”转变成“给目标、给护栏”；在角色边界全面模糊的时代如何招人和评估；在全员异步、人手一群智能体的新常态下，怎么避免工作变成一种孤独的体验；以及管理者最该担心的不是代码会不会出 bug，而是飞速扩张中怎么保住团队的文化。\n\n说完了这集的开场背景，接下来先看 Fiona 眼里最根本的转变：既然写代码不再是瓶颈，到底什么才是新瓶颈？Fiona 指出，当不仅工程师、连设计师和产品经理都在提交代码，且整体吞吐量飙升时，最大的挑战变成了“验证”。以前工程时间极其宝贵，还要赶着把软件印进光盘发行，所以大家做大量事前规划；现在 Claude Code 和 Co-work 把编码瓶颈打破后，重心转移到了“如何验证这 8 倍的代码真的高质量” [08:59 Fiona Fung]。为了跟上这种暴涨的产出，她专门在自己所有的代码仓库里挂了一个常驻的 Claude Code 远程会话。这个实例不仅能读取所有代码，还接入了团队的各种 Slack 频道和指标仪表盘。每个月她会共享屏幕，跟团队一起让 Claude 回顾这段时间发布了哪些产品、引发了哪些事故，从中提炼出共性。她还有一句名言：“犯新的错误没关系，只要别犯同样的旧错，就说明你在快速前进” [11:26 Fiona Fung]。\n\n管理者对庞杂数据的跟进方式变了，那面对每天无数的具体反馈和审查，怎么保证质量不掉线？这就引出了她最大的工作流转变。Fiona 提到，就在一两个月前他们推出了 Routines（例行程序）功能，这彻底改变了她的日常仪式 [13:06 Fiona Fung]。以前她得每天早起、喝着咖啡人工去刷各个渠道的用户反馈；现在她只需设定一个 Routine，让智能体每天定时跑一遍，自动分析反馈里的主题，甚至直接把修复的 PR（代码合并请求）生成好等她醒来审查 [37:02 Fiona Fung]。她强调，这其实是测试驱动开发（TDD）的进化版：以前你得逼着自己先写测试再写代码，就像先吃讨厌的西兰花；现在你只需给出一份“什么是好”的规格说明，Claude 就能自动据此做代码审查 [15:52 Fiona Fung]。为了监控那些难以量化的糟糕体验，她甚至搞了一个“脏话仪表盘”，专门追踪用户因为极度沮丧而爆粗口的频率 [48:18 Fiona Fung]。\n\n工具变了，人和组织架构该怎么跟着变？这正是下一个话题。Fiona 在招聘时，如今专门寻找两类人：一类是具有产品直觉的创意构建者，另一类是专门解决硬核技术难题的深度系统专家 [17:09 Lenny]。不仅如此，她还要求团队里的每个管理者，上任的第一步必须是先做回 IC（独立贡献者） [49:48 Lenny]。Fiona 自己在 Meta 管过 500 人的大组织，但刚加入 Anthropic 时，她也是从写代码的 IC 做起的 [53:04 Fiona Fung]。她认为，如果管理者不亲手用自己团队造的工具，就会彻底失去对产品质感的最直观触感。不管仪表盘多漂亮，如果没有“狗粮”（内部试用）的切身体验，你提出的反馈只会让人觉得脱离实际 [64:06 Fiona Fung]。有意思的是，这种工作模式的转变也带来了副作用：大家都埋头跟自己的智能体干活，工作变得极其孤独。为了对抗这种疏离感，她发起了“结对编程午餐”，让大家能互相偷师别人是怎么用 Claude Code 的 [56:49 Fiona Fung]。\n\n团队角色变了，那更宏观的评估体系和规划体系是不是也失灵了？Fiona 觉得，单纯去量代码行数或是纠结 Token 最大化，本质上都是在把“动静”误当成“进步” [41:29 Fiona Fung]。她更关心的，是输出到底有没有转化为最终的业务结果。她举了早期做 Facebook Marketplace 时的例子：最初按区域扩张时，他们死盯“卖家数量”这个门槛，结果发现某个地区卖家不多，但少数几个强力卖家就完美满足了当地人的需求，逼着他们反过来去修正原先设死的指标 [43:06 Fiona Fung]。这种怀疑既有框架的态度也延伸到了团队管理上：她彻底废除了半年期的路线图规划，改成了极其轻量级的 JIT（准时制）月度规划，最多每周大家碰一次头，确认一下本月优先级有没有变 [84:41 Fiona Fung]。因为变化实在太快，任何重流程都会迅速沦为拖累团队的“税”。\n\n说完了内部流程的重构，最后回到一个更基础的问题：在这个旧规则飞速失效的世界里，到底是什么支撑着团队不散架？Fiona 坦言，真正让她夜里睡不着的不是什么高深的技术难题，而是团队文化的维系 [78:09 Fiona Fung]。在 OpenAI、Anthropic 这些公司疯狂扩张、前所未有地招人的当下，她最看重的是一种“单团队”心态——谁快撞线了，必须回头看有没有队友需要搭把手。为了做到这点，她极其反感管理者粉饰太平。她的噩梦就是那种嘴上说着“一切都好”、实则像“房间着火了还在喝咖啡的狗”一样死扛的经理 [82:09 Fiona Fung]。面对这个让很多人恐惧 AI 的时代，Fiona 的解法很实在：与其害怕，不如问自己“哪怕只做一件事，什么是你能控制的”。她自己就是靠这个信条，在互联网泡沫破裂、学费无着的至暗时刻，靠周末去银行当柜员蹚出了一条路。\n\n## 本集带走\n\n最后收个尾，这一集值得带走的是几条实操性极强的管理心得。第一，既然代码量在飙升，管理者与其死盯代码行数或 PR 数，不如把重心彻底转到验证上，把规格说明和验收标准喂给智能体，让它们去挡掉平庸的错误，甚至把日常的反馈巡检都交给定时运行的例行程序。第二，在角色边界全面模糊的时代，真正的护城河不是招只会写代码的人，而是招那种“创意构建者”和“深度系统专家”，并且逼着所有管理者必须亲手写代码、试用自家产品，别脱离一线的泥土味。第三，旧时代那种长达半年、充满仪式感的重规划已经失效了，拥抱轻量级的准时制月度规划，甚至不妨大胆砍掉那些让团队痛苦但又不再产出价值的流程。最后，不管智能体多强悍，真正决定团队上限的依然是文化，是那种允许你坦诚说出“这事搞砸了”的心理安全感，以及在狂飙突进中依然愿意伸手拉队友一把的本能。",
   "quotes": [
     {
-      "en": "for anything that you know that there is a fear my advice is kind of lean in and ask okay is there some what can I do about it what is within my control",
-      "zh": "对于任何你知道存在恐惧的事情,我的建议是拥抱它并问自己,好吧,有什么我能做的吗,什么在我的控制范围内。",
-      "timestamp": "21:28",
+      "en": "it's okay to like I have this saying make new mistakes like it's okay to make mistakes just make new ones so that we're always learning because if you aim to make zero mistakes like that probably means you're not you know moving fast enough or being a little bit too cautious",
+      "zh": "没关系，我有这样一句话：犯新的错误。犯错没关系，只要犯新的错，这样我们就能不断学习。因为如果你追求零错误，那大概意味着你行动不够快，或者有点太谨慎了。",
+      "timestamp": "11:28",
       "speaker": "Fiona Fung"
     },
     {
       "en": "Customers will use your product in ways that you did not intend for good or for bad.",
-      "zh": "客户会以你没有意图的方式使用你的产品,无论好坏。",
+      "zh": "客户会以你没有意图的方式使用你的产品，无论好坏。",
       "timestamp": "34:28",
       "speaker": "Fiona Fung"
     },
     {
-      "en": "don't first take motion for progress",
-      "zh": "不要首先把动静误认为是进步。",
+      "en": "don't first take motion for progress because if you're measuring like you know like tool user usage then you're you're measuring the action but is it really making whatever the end outcome of yours",
+      "zh": "不要首先把动静误认为是进步，因为如果你在衡量比如工具用户使用情况，那么你衡量的是行动，但它真的实现了你的最终结果吗？",
       "timestamp": "41:29",
       "speaker": "Fiona Fung"
     },
     {
-      "en": "I started this hey let's have a concept of what's bad versus what's sad and bad is like a very bad irrecoverable error and sad is something that's kind of like a pain point recoverable",
-      "zh": "我开始引入这个概念,让我们区分什么是坏的与什么是悲的,坏是非常糟糕的不可恢复的错误,悲是某种痛点但可恢复。",
-      "timestamp": "45:26",
-      "speaker": "Fiona Fung"
-    },
-    {
-      "en": "after a while we felt it could start being a lonely experience because we all started just working with our agents so much.",
-      "zh": "过了一段时间,我们感觉这可能开始变成一种孤独的体验,因为我们都开始如此频繁地与我们的智能体一起工作了。",
-      "timestamp": "56:38",
+      "en": "And then in life you know probably in a world where you can be anything be kind",
+      "zh": "然后在生活中，你知道，在一个你可以成为任何事物的世界里，可能最好是保持友善。",
+      "timestamp": "93:06",
       "speaker": "Fiona Fung"
     }
   ],
   "quotes_candidates": [
     {
-      "en": "Coding is no longer the bottleneck.",
-      "zh": "编写代码不再是瓶颈。",
-      "timestamp": "05:05",
-      "speaker": "Lenny"
-    },
-    {
-      "en": "and so not only engineers, we also have designers, PMs, everybody on the clock code team checks in code.",
-      "zh": "不仅是工程师,我们还有设计师、产品经理,clock code 团队上的每个人都提交代码。",
-      "timestamp": "09:12",
+      "en": "And so not like, you know, you showed up, you showed the tweet and that graphic. So but now it's all about like, where has that shift happened? Like now not only engineers, we also have designers, PMs, everybody on the clock code team checks in code.",
+      "zh": "所以不像，你知道，你展示了那条推文和那张图。但现在一切都关于，那个转变发生在哪里？就像现在不仅是工程师，我们也有设计师、PM，clock code 团队上的每个人都提交代码。",
+      "timestamp": "09:04",
       "speaker": "Fiona Fung"
     },
     {
-      "en": "cloud is very good when you give it a framework to validate against those frameworks",
-      "zh": "当你给它一个框架来验证时,Claude 非常好。",
-      "timestamp": "15:20",
+      "en": "I'll share my cloud code. I'll share my screen and we do a cloud code session. And it's just about, hey, what were the focus areas? Like what were some of the products that got shipped? How did it do?",
+      "zh": "我会共享我的 cloud code。我会共享我的屏幕，然后我们要进行一次 cloud code 会话。这基本上就是关于，嘿，当时的重点领域是什么？比如说，有哪些产品发布了？它们表现如何？",
+      "timestamp": "10:37",
       "speaker": "Fiona Fung"
     },
     {
-      "en": "it's left at the ceiling of what anyone is able to do",
-      "zh": "它已经触及了任何人能力的上限。",
-      "timestamp": "06:06",
-      "speaker": "Fiona Fung"
-    },
-    {
-      "en": "I actually have a cloud code remote session that I enlist in all of our repos.",
-      "zh": "我实际上有一个云端代码远程会话,我把它注册到了我们所有的代码仓库中。",
-      "timestamp": "10:10",
-      "speaker": "Fiona Fung"
-    },
-    {
-      "en": "I have this saying make new mistakes like it's okay to make mistakes just make new ones so that we're always learning",
-      "zh": "我有这样一种说法,犯新的错误,犯错是可以的,只要犯新的错,这样我们就能不断学习。",
+      "en": "it's okay to like I have this saying make new mistakes like it's okay to make mistakes just make new ones so that we're always learning because if you aim to make zero mistakes like that probably means you're not you know moving fast enough or being a little bit too cautious",
+      "zh": "没关系，我有这样一句话：犯新的错误。犯错没关系，只要犯新的错，这样我们就能不断学习。因为如果你追求零错误，那大概意味着你行动不够快，或者有点太谨慎了。",
       "timestamp": "11:26",
       "speaker": "Fiona Fung"
     },
     {
-      "en": "the two profiles that you now look for when you're hiring are creative builders with product sense and deep systems experts for the hard parts.",
-      "zh": "你现在在雇佣时寻找的两个特征是具有产品感的创意构建者和针对困难部分的深层系统专家。",
+      "en": "I think maybe a month or two ago we launched routines and that's also completely changed like now I just have a routine that automates all this for me",
+      "zh": "我想大概一两个月前我们推出了 routines，那也完全改变了，现在我只是有一个例行程序为我自动完成所有这些。",
+      "timestamp": "13:06",
+      "speaker": "Fiona Fung"
+    },
+    {
+      "en": "But that's what I found works really well of any time you have a statement of what good looks like. Get that into the repo and then code review can make sure it's still matching what you set up to do.",
+      "zh": "但那就是我发现任何时候当你有一个关于好的样子的声明时，真正有效的方法。把那个放到仓库里，然后代码审查可以确保它仍然匹配你设定要做的事情。",
+      "timestamp": "15:42",
+      "speaker": "Fiona Fung"
+    },
+    {
+      "en": "So the two profiles that you now look for when you're hiring are creative builders with product sense and deep systems experts for the hard parts.",
+      "zh": "所以你现在在雇佣时寻找的两个特征是具有产品感的创意构建者和针对困难部分的深层系统专家。",
       "timestamp": "17:09",
       "speaker": "Lenny"
     },
     {
-      "en": "for anything that you know that there is a fear my advice is kind of lean in and ask okay is there some what can I do about it what is within my control",
-      "zh": "对于任何你知道存在恐惧的事情,我的建议是拥抱它并问自己,好吧,有什么我能做的吗,什么在我的控制范围内。",
-      "timestamp": "21:27",
+      "en": "it's left at the ceiling of what and anyone is able to do",
+      "zh": "这就像它触及了任何能做的人的天花板。",
+      "timestamp": "19:33",
       "speaker": "Fiona Fung"
     },
     {
-      "en": "do something what would you do if you're not afraid and do something scary once in a while because that's also usually how we grow",
-      "zh": "做点什么,如果你不害怕你会做什么,并且偶尔做点可怕的事情,因为那通常也是我们成长的方式。",
-      "timestamp": "24:54",
+      "en": "because sometimes the frustration comes from fear and feeling like but everything is outside of my control and so it's happening to me",
+      "zh": "因为有时候挫败感来自恐惧，感觉好像一切都是在我的控制之外，所以它正在发生在我身上。",
+      "timestamp": "21:37",
       "speaker": "Fiona Fung"
     },
     {
       "en": "Customers will use your product in ways that you did not intend for good or for bad.",
-      "zh": "客户会以你没有意图的方式使用你的产品,无论好坏。",
+      "zh": "客户会以你没有意图的方式使用你的产品，无论好坏。",
       "timestamp": "34:28",
       "speaker": "Fiona Fung"
     },
     {
-      "en": "I would say we're shifting more towards async like asynchronous and so to your point the fleets of agent like that that's why routines are so interesting",
-      "zh": "我想说我们正在转向更多的异步,所以回到你的观点,智能体舰队就是这样,这就是为什么例行程序如此有趣。",
-      "timestamp": "35:37",
+      "en": "And having a hypothesis for hey like because actually when you see people jumping through hoops to make something work can you actually make that an even like a smoother and better experience",
+      "zh": "并且有一个假设，嘿，因为实际上当你看到人们为了让事情工作而跳过火圈时，你能不能实际上让它变成一个更平滑、更好的体验？",
+      "timestamp": "34:57",
       "speaker": "Fiona Fung"
     },
     {
-      "en": "I think we'll move more towards that kind of asynchronous style of working",
-      "zh": "我认为我们将更多地转向那种异步的工作风格。",
-      "timestamp": "37:15",
-      "speaker": "Fiona Fung"
-    },
-    {
-      "en": "don't first take motion for progress",
-      "zh": "不要首先把动静误认为是进步。",
+      "en": "don't first take motion for progress because if you're measuring like you know like tool user usage then you're you're measuring the action but is it really making whatever the end outcome of yours",
+      "zh": "不要首先把动静误认为是进步，因为如果你在衡量比如工具用户使用情况，那么你衡量的是行动，但它真的实现了你的最终结果吗？",
       "timestamp": "41:29",
       "speaker": "Fiona Fung"
     },
     {
-      "en": "even the metrics themselves might need to be adjusted.",
-      "zh": "甚至指标本身可能也需要调整。",
-      "timestamp": "43:58",
+      "en": "so knowing that bad is like a really bad, irrecoverable error, we enable each team a further surface areas or it could be services that, you know, they lead.",
+      "zh": "所以知道 bad 是一个非常糟糕的、不可恢复的错误，我们让每个团队能够进一步负责领域，或者它可能是那些他们主导的服务。",
+      "timestamp": "46:24",
       "speaker": "Fiona Fung"
     },
     {
-      "en": "I started this hey let's have a concept of what's bad versus what's sad and bad is like a very bad irrecoverable error and sad is something that's kind of like a pain point recoverable",
-      "zh": "我开始引入这个概念,让我们区分什么是坏的与什么是悲的,坏是非常糟糕的不可恢复的错误,悲是某种痛点但可恢复。",
-      "timestamp": "45:25",
+      "en": "that was last September because we were all we were all seeing some frustrations and yeah that was an engineer on the team of hey we should maybe track swear words I'm like oh that's a great idea",
+      "zh": "那是去年九月，因为我们都在看到一些挫败感，是的那是团队的一位工程师，嘿我们也许应该追踪脏话，我说噢，那是个好主意。",
+      "timestamp": "47:50",
       "speaker": "Fiona Fung"
     },
     {
-      "en": "after a while we felt it could start being a lonely experience because we all started just working with our agents so much.",
-      "zh": "过了一段时间,我们感觉这可能开始变成一种孤独的体验,因为我们都开始如此频繁地与我们的智能体一起工作了。",
+      "en": "give yourself that maker time to actually tap deep into the code and learn the code base and I or or the product like whatever it is",
+      "zh": "给自己那段创作时间真正深入代码并学习代码库，或者产品，无论是什么。",
+      "timestamp": "51:06",
+      "speaker": "Fiona Fung"
+    },
+    {
+      "en": "I think folks feel the leaders then remain like really engaged and not too distanced.",
+      "zh": "我认为人们感觉领导者那时仍然保持真正参与，而不是太疏远。",
+      "timestamp": "66:55",
+      "speaker": "Fiona Fung"
+    },
+    {
+      "en": "we felt it could start being a lonely experience because we all started just working with our agents so much.",
+      "zh": "我们感觉这可能开始变成一种孤独的体验，因为我们都开始如此频繁地与我们的智能体一起工作了。",
       "timestamp": "56:38",
       "speaker": "Fiona Fung"
     },
     {
-      "en": "explicit permission to kill processes that no longer serve us",
-      "zh": "明确的许可去终止那些不再服务于我们的流程。",
-      "timestamp": "83:15",
+      "en": "I call it JIT planning now like just in time planning",
+      "zh": "我现在称之为 JIT 规划，就像准时制规划。",
+      "timestamp": "84:37",
       "speaker": "Fiona Fung"
     },
     {
-      "en": "I call it JIT planning now like just in time planning",
-      "zh": "我现在称之为 JIT 规划,就像准时制规划。",
-      "timestamp": "84:37",
+      "en": "like my my my speaking of what keeps me up at night my nightmare is especially if someone's in a manager position and and I'm like hey how are things going everything's fine I'm like oh my gosh",
+      "zh": "就像我的，说到那些让我夜不能寐的事情，我的噩梦特别是如果有人身处管理职位，然后我说嘿进展如何，一切都很好，我就想天啊。",
+      "timestamp": "82:01",
+      "speaker": "Fiona Fung"
+    },
+    {
+      "en": "one other thing that's really big on Claude code and co-work team culture is explicit permission to kill processes that no longer serve us",
+      "zh": "在 Claude code 和 co-work 团队文化中真正重要的一件事是，明确的许可去终止那些不再服务于我们的流程。",
+      "timestamp": "83:10",
+      "speaker": "Fiona Fung"
+    },
+    {
+      "en": "And then in life you know probably in a world where you can be anything be kind",
+      "zh": "然后在生活中，你知道，在一个你可以成为任何事物的世界里，可能最好是保持友善。",
+      "timestamp": "93:06",
       "speaker": "Fiona Fung"
     }
   ]

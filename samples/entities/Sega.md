@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《黄仁勋:NVIDIA 起步选错了技术,但学习比技术更重要》]]**(07:29起):本集说它是 NVIDIA 早期的游戏机合作方；在 NVIDIA 承认技术路线错误时，世嘉的 CEO 依然支付了 500 万美元，让 NVIDIA 撑过了倒闭危机。
+- **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]]**(07:29起):本集说它是 NVIDIA 早期的游戏机合作方；在 NVIDIA 承认技术路线错误时，世嘉的 CEO 依然支付了 500 万美元，让 NVIDIA 撑过了倒闭危机。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《黄仁勋:NVIDIA 起步选错了技术,但学习比技术更重要》]] — 作为被讨论公司
+- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]] — 作为被讨论公司
 
 ## ③ 关联
 

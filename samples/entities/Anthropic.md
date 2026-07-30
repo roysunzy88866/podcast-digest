@@ -7,69 +7,71 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>22</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>22</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]]**(16:42起):本集称赞其做事极有原则（principled）,在模型行为上取舍明确;其模型 Claude 在编码和写作上长期领先,被归因为数据与品味的胜利。
-- **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]]**(10:35起):本集提到它是知名 AI 公司,也是大语言模型 Claude 的开发商,并提到嘉宾用其创建的 MCP 技术来赋予 AI 使用工具的能力。
-- **[[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]]**(10:08起):本集把它说成：处于 AI 风暴中心的 AI 实验室，嘉宾在此领导设计工作，内部 Slack 充满行业洞见，研究和原型开发节奏极快。
-- **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]]**(00:03起):本集主要讨论的公司，Amol Avasare 担任其增长负责人。讨论了其历史上的惊人增长轨迹（14个月内ARR从10亿增长到190亿）、极度克制的价值观、在编码领域的深耕，以及极度透明的内部文化。
-- **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]]**(08:55起):本集提到主持人聊天的一家 AI 公司，其增长负责人分享了产品经理因工程师速度加快而被挤压的观点。
-- **[[2026-04-23-lennys-how-anthropics-product-team-moves|《Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南》]]**(00:15起):本集主要讨论的公司，嘉宾 Kat Wu 在此负责产品。本集提到它从落后走向巨大成功（ARR 迅速增长），秘诀是极其统一的使命（带来安全的 AGI）和极度专注，且团队保持着令人惊叹的极速产品发布节奏。
-- **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]]**(05:26起):本集提到的一家头部 AI 实验室，指出其虽起步晚于 OpenAI 且初期资金较少，但目前极具竞争力。
-- **[[2026-05-10-lennys-how-to-build-a-company-that-withstands|《《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」》]]**(00:07起):本集把它说成:从创立第一天起就注册为公益公司（PBC），并设立了长期利益信托（LTBT），凭借这套结构保护成功顶住压力拒绝危险合同，从而实现更低推理成本和更快产品迭代。
-- **[[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱》]]**(04:32起):本集将其与 OpenAI 并列为最前沿的 AI 模型公司，指出其同样在增加人手并投资大型咨询公司。
-- **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]]**(06:46起):本集提到它的 CEO 曾宣称 90% 到 100% 的代码都由 AI 编写，但 Claude 源代码泄露后，真正的架构师一看主循环代码全吐了，因为代码分层极其糟糕、脆弱且无法维护。
-- **[[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]]**(00:00起):Fiona Fung 当前所在的公司，其工程师平均每个季度的代码量是 2025 年时的八倍。
+- **[[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]]**(16:42起):本集称赞其做事极有原则（principled）,在模型行为上取舍明确;其模型 Claude 在编码和写作上长期领先,被归因为数据与品味的胜利。
+- **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]]**(10:35起):本集提到它是知名 AI 公司,也是大语言模型 Claude 的开发商,并提到嘉宾用其创建的 MCP 技术来赋予 AI 使用工具的能力。
+- **[[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]]**(10:08起):本集把它说成：处于 AI 风暴中心的 AI 实验室，嘉宾在此领导设计工作，内部 Slack 充满行业洞见，研究和原型开发节奏极快。
+- **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]]**(00:03起):本集主要讨论的公司，Amol Avasare 担任其增长负责人。讨论了其历史上的惊人增长轨迹（14个月内ARR从10亿增长到190亿）、极度克制的价值观、在编码领域的深耕，以及极度透明的内部文化。
+- **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(08:55起):本集提到主持人聊天的一家 AI 公司，其增长负责人分享了产品经理因工程师速度加快而被挤压的观点。
+- **[[2026-04-23-lennys-how-anthropics-product-team-moves|《Claude Code 产品负责人:AI 时代 PM 的生存法则》]]**(00:15起):本集主要讨论的公司，嘉宾 Kat Wu 在此负责产品。本集提到它从落后走向巨大成功（ARR 迅速增长），秘诀是极其统一的使命（带来安全的 AGI）和极度专注，且团队保持着令人惊叹的极速产品发布节奏。
+- **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]]**(05:26起):本集提到的一家头部 AI 实验室，指出其虽起步晚于 OpenAI 且初期资金较少，但目前极具竞争力。
+- **[[2026-05-10-lennys-how-to-build-a-company-that-withstands|《为什么好公司会变坏：Eric Ries 的防腐架构学》]]**(00:07起):本集把它说成:从创立第一天起就注册为公益公司（PBC），并设立了长期利益信托（LTBT），凭借这套结构保护成功顶住压力拒绝危险合同，从而实现更低推理成本和更快产品迭代。
+- **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(04:32起):本集将其与 OpenAI 并列为最前沿的 AI 模型公司，指出其同样在增加人手并投资大型咨询公司。
+- **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]]**(06:46起):本集提到它的 CEO 曾宣称 90% 到 100% 的代码都由 AI 编写，但 Claude 源代码泄露后，真正的架构师一看主循环代码全吐了，因为代码分层极其糟糕、脆弱且无法维护。
+- **[[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]]**(00:00起):Fiona Fung 当前所在的公司，其工程师平均每个季度的代码量是 2025 年时的八倍。
 - **[[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]]**(06:43起):本集提到 Gray Swan 帮他们测试模型(如 Mythos)对间接提示注入的鲁棒性,他们也具有内部安全审查的强烈意愿。
-- **[[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]]**(44:19起):本集提到它作为大模型厂商之一，推出了自家的「托管智能体」，被主持人拿来质问会不会侵入 Modal 的地盘。
-- **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]]**(04:39起):本集提到该公司的 Mythos 模型具有敢于唱反调的「混蛋」脾气，在制定反共识战略的来回拉扯中非常有帮助；此外还顺带提及其增长负责人在 Twitter 上因定价实验翻车。
-- **[[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]]**(05:00起):本集在提到哪些顶级 AI 公司使用 WorkOS 时列出了它，并提及最近领导其 Claude 产品设计的设计师 Jenny Wen。
-- **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型》]]**(02:56起):本集提到它是 Fable 模型的开发商,在订阅中限制了 Fable 的使用,主持人猜测 OpenAI 的定价可能会对其产生压力。
+- **[[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]]**(44:19起):本集提到它作为大模型厂商之一，推出了自家的「托管智能体」，被主持人拿来质问会不会侵入 Modal 的地盘。
+- **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]]**(04:39起):本集提到该公司的 Mythos 模型具有敢于唱反调的「混蛋」脾气，在制定反共识战略的来回拉扯中非常有帮助；此外还顺带提及其增长负责人在 Twitter 上因定价实验翻车。
+- **[[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]]**(05:00起):本集在提到哪些顶级 AI 公司使用 WorkOS 时列出了它，并提及最近领导其 Claude 产品设计的设计师 Jenny Wen。
+- **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]]**(02:56起):本集提到它是 Fable 模型的开发商,在订阅中限制了 Fable 的使用,主持人猜测 OpenAI 的定价可能会对其产生压力。
 - **[[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]]**(05:46起):本集作为前沿实验室的代表，被提及已延长其顶级模型的可用期限以应对开源模型的逼近；同时其围绕 Claude 的产品工具套件被视为构建护城河的关键。
-- **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]]**(10:54起):本集把它说成:与 OpenAI 并列的「双重故障点」,两者必须保持指数级收入增长才能撑起万亿规模的 AI 数据中心表外债务链条。
-- **[[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]]**(04:45起):本集将其作为闭源垄断巨头的典型反复点名：被指投入大量资金推动禁止开源；既当裁判又当运动员下场抢夺应用层生意；甚至公然无视政府与国家安全，宣称「我们说了算」。
-- **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]]**(00:00起):本集讨论的 AI 公司，拥有 Claude 系列模型，嘉宾在其中担任 AI 研究和实验室团队的产品负责人，讲述了公司早期摸索与押注编码能力的发展历程。
+- **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]]**(10:54起):本集把它说成:与 OpenAI 并列的「双重故障点」,两者必须保持指数级收入增长才能撑起万亿规模的 AI 数据中心表外债务链条。
+- **[[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]]**(04:45起):本集将其作为闭源垄断巨头的典型反复点名：被指投入大量资金推动禁止开源；既当裁判又当运动员下场抢夺应用层生意；甚至公然无视政府与国家安全，宣称「我们说了算」。
+- **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(00:00起):本集讨论的 AI 公司，拥有 Claude 系列模型，嘉宾在其中担任 AI 研究和实验室团队的产品负责人，讲述了公司早期摸索与押注编码能力的发展历程。
 - **[[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the|《当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点》]]**(07:00起):本集提到：作为现有巨头之一被提及（嘉宾还聊到了一部关于 Anthropic CEO Dario 的 AI 微剧）
-- **[[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 见顶了吗？OpenAI 与 Google 前核心创立 Core Automation 寻找下一代架构》]]**(01:23起):本集在讨论 Transformer 是否见顶时提到，假设像 OpenAI 和 Anthropic 这样的大厂今天停止训练新模型，现有的静态模型随着现实世界新事件的出现，会变得越来越没用。
+- **[[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]]**(01:23起):本集在讨论 Transformer 是否见顶时提到，假设像 OpenAI 和 Anthropic 这样的大厂今天停止训练新模型，现有的静态模型随着现实世界新事件的出现，会变得越来越没用。
 
 ## ① 提到它的金句
 
-*3 条,均已过机器闸门*
+*4 条,均已过机器闸门*
 
-![[2026-04-23-lennys-how-anthropics-product-team-moves#^q6]]
+![[2026-03-01-lennys-the-design-process-is-dead#^q4]]
 
-![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q8]]
+![[2026-04-23-lennys-how-anthropics-product-team-moves#^q5]]
 
-![[2026-07-26-lennys-anthropics-first-technical-pm-on#^q2]]
+![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q5]]
+
+![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q7]]
 
 ## ② 出现在这些集
 
 *22 集*
 
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] — 作为被讨论公司
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] — 作为被讨论公司(提及)
-- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] — 作为被讨论公司
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]] — 作为被讨论公司
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] — 作为被讨论公司(提及)
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|《Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南》]] — 作为被讨论公司
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] — 作为被讨论公司(提及)
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」》]] — 作为被讨论公司
-- [[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱》]] — 作为被讨论公司
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] — 作为被讨论公司
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] — 作为被讨论公司
+- [[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]] — 作为被讨论公司
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为被讨论公司(提及)
+- [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为被讨论公司
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为被讨论公司
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为被讨论公司(提及)
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|《Claude Code 产品负责人:AI 时代 PM 的生存法则》]] — 作为被讨论公司
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]] — 作为被讨论公司(提及)
+- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《为什么好公司会变坏：Eric Ries 的防腐架构学》]] — 作为被讨论公司
+- [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]] — 作为被讨论公司
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]] — 作为被讨论公司
 - [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] — 作为被讨论公司(提及)
-- [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] — 作为被讨论公司(提及)
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]] — 作为被讨论公司
-- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]] — 作为被讨论公司(提及)
-- [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型》]] — 作为被讨论公司
+- [[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]] — 作为被讨论公司(提及)
+- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]] — 作为被讨论公司
+- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]] — 作为被讨论公司(提及)
+- [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]] — 作为被讨论公司
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Sriram Krishnan：Kimi K3 将改写 AI 行业版图》]] — 作为被讨论公司(提及)
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]] — 作为被讨论公司
-- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]] — 作为被讨论公司
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]] — 作为被讨论公司
+- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为被讨论公司
+- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为被讨论公司
+- [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为被讨论公司
 - [[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the|《当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点》]] — 作为被讨论公司(提及)
-- [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 见顶了吗？OpenAI 与 Google 前核心创立 Core Automation 寻找下一代架构》]] — 作为被讨论公司
+- [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]] — 作为被讨论公司
 
 ## ③ 关联
 

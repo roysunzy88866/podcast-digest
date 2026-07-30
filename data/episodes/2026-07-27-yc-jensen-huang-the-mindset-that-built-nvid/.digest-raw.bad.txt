@@ -1,0 +1,113 @@
+```json
+{
+  "title_zh": "黄仁勋:既然要造自己开的赛车,就把车调到你最顺手的样子",
+  "tldr": "黄仁勋回顾创办至今的关键抉择,谈加速计算的底层逻辑、智能体的未来,以及创始人该怎么活到明天。",
+  "digest_md": "一家公司在 1999 年上市时估值 3 亿美元,今天值一万多亿——而它起步时选的核心技术,是完全错的。说这话的是黄仁勋,NVIDIA 的创始人。他说,创办公司时他们坚信能重新发明 3D 图形,结果干了两年发现那条算法路线根本走不通,身边已经有三四十家公司在做同样的事。最后他们是靠买几本教科书回去啃,从零学起,才走到了今天 [01:19]。
+
+这是 YC 创业课上的一场对谈。黄仁勋讲了五件事:公司起步时怎么选错技术又怎么活下来;为什么"加速计算"这个判断比任何一块芯片都重要;CEO 该怎么深入技术细节、又该按自己的性格去造公司这台车;智能体和物理 AI 已经走到了哪一步、下一个百亿美元业务在哪;最后,在今天这个时点,年轻人和创业者最该学什么、带上什么心态出发。
+
+回到那个起步选错技术的故事。NVIDIA 原本指望设计一套系统、把每台个人电脑变成游戏机。但到了 1995 年,他们发现整套算法从根上就有缺陷 [02:47]。当时让黄仁勋彻底清醒的,是跟世嘉(一家游戏公司)那笔救命的合同。世嘉签约让他们做土星主机之后的下一代游戏机,金额一千多万美元,结果他飞到日本,当面告诉对方的 CEO:这条路走不通,你们最好另请高明——但自己手里这家小公司仍然需要这笔钱 [08:06]。对方答应了。那五百万美元让 NVIDIA 撑到了找到正确方向的时间 [09:30]。黄仁勋从中悟出的道理是:你不投资公司,你投资的是人。后来 NVIDIA 把这件事做成了:他们是世界领先的计算机图形公司,大部分重大突破是靠从教科书自学起步的 [03:56]。
+
+说完了起步怎么活下来,接下来是他一开始为什么押对大方向。黄仁勋说,NVIDIA 唯一从一开始就看对的大判断,是加速计算——也就是用专门的芯片来增强 CPU(通用处理器),解决单靠 CPU 算不动的问题 [05:43]。这个判断让他们把眼光放到了"算法"而不是"造芯片"上。分子动力学、图像处理、逆向物理,深度学习,都是加速计算能啃的硬骨头 [05:55]。大概 15 年前看到 AlexNet(让深度学习一举成名的图像分类模型)时,别人看到的是一个惊艳的演示,他看到的却是一种全新做法:这本质是一个通用函数近似器(一种能通过数据学会逼近任意规律的方法),它能吃进几乎所有函数然后学会它 [11:27]。既然软件能这么干,那从处理器、中间件、应用到算法这一整条工业栈——他称之为"五层蛋糕"——全都可以重做一遍 [12:54]。
+
+工具变了,人怎么办?这正是下一个话题:当 CEO 该怎么钻进技术细节、又该怎么按自己的性子来造公司。黄仁勋说自己的心态永远从好奇心出发——他自己有一堆问题,会去找最前沿的论文读、找一线科学家直接聊 [14:20]。他把 CEO 比作 F1 赛车手:你是在造一辆自己要开去比赛的车,应该把车调到最适合你的样子,别管什么传统管理学说怎么做 [17:32]。有人问他,你不用那套常规管理方法,等你哪天不在了公司怎么办?他回答说:等哪天我死在工位上,他们自然会给下一任 CEO 把车重新调过 [17:59]。他给创业者的核心建议是,不要因为成为 CEO 就改变自己的个性和做事方式。把组织调整到让自己最能发挥,才是创始人该干的事 [18:48]。
+
+调好了车,接下来要看前方的路况。他判断,未来最有用的技能是系统思维——也就是能把一个复杂问题拆成输入、输出、约束、瓶颈,然后编排一整套资源去解它的能力 [19:57]。原因是:大多数底层活儿以后都会被智能体(能自己规划和执行任务的 AI 系统)自动干掉 [20:17]。他拿芯片设计打比方:以前设计师得手工合成晶体管和门电路,现在这些底层活都是自动合成的,设计师实际上都成了系统设计师 [20:23]。软件也一样,大多数编程活儿以后都会由智能体完成,所以人的价值会挪到更上面的抽象层:想清楚到底要解什么问题、约束在哪、信息怎么流。至于跟智能体怎么协作,黄仁勋说现在最缺的是细粒度的控制——不用让它一上来就百分百对,80% 也行,剩下的人来帮它,关键是你改它计划里的一个词、一个参数,它就能精准响应,重新生成其余部分 [22:30]。这种把人机协作做到细粒度的能力,才是他眼里"每个层面上对智能体最需要的单一最大突破" [23:19]。他也顺带回应了主持人关于"人们应该控制自己的个人 AGI"的提法:每个人、每家公司都应该有能力建自己的 AI。大家当然该多去用那些现成的云端产品,但如果需要建特定领域的自有 AI,现在开源生态(他点名了 Hermes、OpenClaw、Langchain 等)已经让它变得相当容易 [29:01]。
+
+从软件智能体再往下走一步,就是物理世界里的机器人。黄仁勋说,真正让他确认机器人拐点已至的时刻,是看到生成式 AI 能凭空生成视频——实验室在人们看到第一批外部生成的视频之前几年,就已经在用神经网络生成的画面跑模拟器了 [34:42]。既然能让 AI 生成手指动、手拿杯子的画面,凭什么不能让真机器人照着这么做?由此他判断机器人关节控制已经不远 [35:13]。但这背后还差一块:机器人得理解物理定律——摩擦、张力、因果——于是 NVIDIA 开始做"物理 AI"和能理解世界运行规律的世界基础模型 [35:37]。他相信机器人的 ChatGPT 时刻几年前就到了,就像 ChatGPT 刚发布时没能干任何正经活,却打开了所有人的想象力 [35:55]。现在的关键是三件事:现实到模拟、基于物理的模拟器、模拟到现实。他们的 Isaac Sim、Cosmos 就是在补这一环 [36:50]。具体落到哪先爆发?他的答案是自动驾驶。自动驾驶是机器人里市场最大、技术最标准化、经济价值最实在的领域,Waymo、特斯拉、Mercedes 里面都有他们的芯片或软件栈 [37:53]。他还提到,他们把自研的自动驾驶栈 Alpamayo 开源了——因为农业、快递、仓库等场景的自主导航需求太碎、单块市场都不够大,不如把底座做出来让全行业一起用 [38:10]。这块业务的体量已经很大了:他估算 NVIDIA 的机器人加自动驾驶业务大概接近 100 亿美元,而未来会变成他们的下一个百亿美元级业务,虽然要花上不到十年 [38:38]。
+
+聊完了技术路线,最后收尾聊的是年轻人最该学什么、该带什么心态出发。黄仁勋说得很直接:那些简单的活儿,比如坐在电脑前一行行写代码,肯定会被自动化掉 [41:22]。就像他那一代人当年不得不学长除法,如今早就被计算器取代了。但物理、化学、生物、计算机科学这些硬科学,以及那些交叉领域的难题,永远不会消失——AI 只是个工具,帮人变得更有雄心、更不耐烦去啃这些大问题 [41:50]。具体来说,越是在系统思维上强、越能编排成百上千万个智能体自主解题的人,未来越占便宜 [43:24]。不过他也劝大家别脱离基本功:照常去上学,留在学校 [43:43]。最后主持人问他:如果能给十八到二十二岁的自己发一封电报,你会写什么?黄仁勋的回答是:他记得刚创办 NVIDIA 时有多害怕——有太多东西不懂、太多东西要学,连怎么融资、怎么回答投资人问题都不知道,只能去书店买一本五百页厚的《如何创办公司》,后来觉得等读完公司早倒闭了就没读 [45:06]。但他从中悟出的道理是:那些"我不懂"的事,其实根本不重要 [45:44]。当下是人类历史上最该创业的时点——整个行业重置,计算机这个人类最重要的技术被彻底重做了 [45:51]。他给在场所有人的最后一句建议是:遇到新东西别先想象它有多难、把自己吓成焦虑;要在脑子里告诉自己"反正我有一大堆 AI 智能体帮我,这能有多难呢",然后立刻动手去干。要知道它一定会比想象中难得多,但别让痛苦一次全涌过来,先熬过今天就好 [47:06]。他说,如果你相信一件事就放手去做,别让恐惧和焦虑拦住你,告诉自己"我要靠学习找到出路"。最伟大的超能力,就是学习本身;最重要的品质,就是韧性 [48:34]。",
+  "quotes": [
+    {
+      "en": "The thing that most people don't believe is that the choice of our technology that we started the company with was absolutely wrong.",
+      "zh": "大多数人不相信的是,我们创办公司时选择的技术绝对是错误的。",
+      "timestamp": "01:19",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "So long as you're able to confront the reality, so long as you are able to learn, the technology itself actually doesn't matter.",
+      "zh": "只要你能够面对现实,只要你能够学习,技术本身其实并不重要。",
+      "timestamp": "04:30",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "What makes great companies is a unique perspective about the world that you deeply believe in.",
+      "zh": "成就伟大公司的是你对世界的一种独特视角,并且你深信不疑。",
+      "timestamp": "06:17",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "You don't invest in companies, you invest in people.",
+      "zh": "你不投资公司,你投资的是人。",
+      "timestamp": "09:13",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "The breakthrough for us was realizing that AlexNet was not AlexNet, that AlexNet was an approach with deep learning that allows you to learn any function.",
+      "zh": "对我们的突破是意识到 AlexNet 不是 AlexNet,AlexNet 是一种深度学习的方法,允许你学习任何函数。",
+      "timestamp": "11:27",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "The agent's getting smarter and smarter every time.",
+      "zh": "智能体每次都变得越来越聪明。",
+      "timestamp": "22:05",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "I think controllability is probably the single biggest breakthrough that we need for agents at every single level.",
+      "zh": "我认为可控制性可能是我们在每个层面上对智能体最需要的单一最大突破。",
+      "timestamp": "23:19",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "The narrative about AI destroying jobs is exactly backwards.",
+      "zh": "关于 AI 毁灭工作的叙事恰恰是本末倒置的。",
+      "timestamp": "32:00",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "The moment that I saw generating video, that was a great moment for me.",
+      "zh": "我看到生成视频的那一刻,对我来说是一个伟大的时刻。",
+      "timestamp": "34:22",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "It'll take longer than a couple, two, three years. It'll take less than 10.",
+      "zh": "它将耗时超过两三年,但不到 10 年。",
+      "timestamp": "38:52",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "You should adapt the car to you.",
+      "zh": "你应该根据你自己的情况来调整这辆车。",
+      "timestamp": "17:42",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "When I die on the job someday, you know, I told them they'll just have to reshape the company for the next CEO.",
+      "zh": "当有一天我死在工作岗位上时,我告诉他们,他们只需要为下一位 CEO 重新塑造公司。",
+      "timestamp": "17:59",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "The better you are at systems thinking so that you could orchestrate millions of agents solving problems autonomously, the better off you are.",
+      "zh": "你在系统思维方面越强,能够编排数百万个智能体自主解决问题,你就越好。",
+      "timestamp": "43:24",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "learning is the single greatest superpower.",
+      "zh": "学习是唯一最伟大的超能力。",
+      "timestamp": "47:46",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "resilience is probably the single most important thing.",
+      "zh": "韧性可能是唯一最重要的东西。",
+      "timestamp": "48:34",
+      "speaker": "Jensen Huang"
+    }
+  ]
+}
+```

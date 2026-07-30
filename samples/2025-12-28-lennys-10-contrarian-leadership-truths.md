@@ -1,5 +1,5 @@
 ---
-title: "Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷"
+title: "故意让人手不足:Rippling 首席产品官的非常规管理心法"
 podcast: "Lenny's Podcast"
 date: 2025-12-28
 source_url: https://www.lennysnewsletter.com/p/10-contrarian-leadership-truths
@@ -7,7 +7,7 @@ duration: "96:13"
 type: episode
 cover: "#6366f1"
 image: "/covers/2025-12-28-lennys-10-contrarian-leadership-truths.jpg"
-description: "Rippling CPO 谈如何用极度紧绷的状态对抗组织熵增,以及何时该放弃并退出创业。"
+description: 前 COO 转任 CPO 的 Matt MacInnis 谈极度高压文化、放弃没前途的创业、以及用金融视角管团队。
 host: "[[Matt MacInnis]]"
 cohosts: ["[[Lenny]]", "[[Amar]]"]
 companies: ["[[Rippling]]"]
@@ -17,9 +17,9 @@ tags:
   - 组织与领导力
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>故意让人手不足:Rippling 首席产品官的非常规管理心法</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷
+# 故意让人手不足:Rippling 首席产品官的非常规管理心法
 
 <div class="pd-byl"><b>Matt MacInnis</b> · Rippling CPO</div>
 
@@ -27,7 +27,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-12-28-lennys-10-contrarian-leadership-truths.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">对我来说,我们要感觉公司里的每一个项目都是故意人手不足的,这一点真的很重要。</div><div class="a">Matt MacInnis · 00:00</div></div>
+<div class="pd-hook"><div class="z">好的团队会累，而这就是伟大的团队痛扁好团队的时候。</div><div class="a">Lenny · 13:00</div></div>
 
 > [!info] 关联
 > **人物** [[Matt MacInnis]] · [[Lenny]] · [[Amar]]
@@ -38,123 +38,95 @@ tags:
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/10-contrarian-leadership-truths)
 
-<div class="pd-tldr"><b>一句话</b>Rippling CPO 谈如何用极度紧绷的状态对抗组织熵增,以及何时该放弃并退出创业。</div>
+<div class="pd-tldr"><b>一句话</b>前 COO 转任 CPO 的 Matt MacInnis 谈极度高压文化、放弃没前途的创业、以及用金融视角管团队。</div>
 
-[[Matt MacInnis|Matt MacInnis]] 是 [[Rippling|Rippling]] 的首席产品官(CPO),在此之前他长期担任公司的首席运营官(COO)。他在苹果工作了七年,也曾自己创办过公司。Rippling 是一家估值超过 160 亿美元的企业软件公司。本集访谈围绕着一个核心主张展开:**非凡的成果必然要求非凡的努力,组织必须时刻保持高强度的紧绷状态**。文章脉络分为三个部分:第一部分讲为什么领导者要刻意制造紧绷感;第二部分是他跨界接手产品团队后,总结出的高阶管理与产品框架;第三部分则探讨一个反直觉的建议——创业有时应该果断放弃,以及他对 AI 时代企业软件终局的判断。
+硅谷天天喊「永不放弃」,但这套叙事其实是风险投资人为了保护自己投进去的钱编出来的。说这话的人是 [[Matt MacInnis|Matt MacInnis]],他曾经在一家创业公司死磕了九年、转型三次都没找到产品市场契合,后来加入 [[Rippling|Rippling]],一路做到首席运营官(COO),最近一年又转任首席产品官(CPO)——在估值超过 160 亿美元、拥有五千多名员工的公司里,他管的就是怎么把产品做对、把人管好。<button class="pd-ts" data-t="01:33" data-who="Lenny" data-en="We talk in Silicon Valley about never quit, but that is complete absolute venture capital. Today, my guest is Matt MacInnis, Chief Product Officer and formerly longtime Chief Operating Officer at Rippling." aria-label="回原文"></button>
 
-## 刻意人手不足:让发动机始终在红线运转
+这一集 [[Lenny|Lenny]] 的播客访谈里,Matt 讲了五件事:为什么公司里的每个项目都必须「故意人手不足」,以及为什么高强度、令人精疲力竭的工作状态是成就非凡成果的必要条件;他自己怎么从看着研发团队起火、到亲自跳进去收拾烂摊子,还用了一套借自金融圈的「高 alpha 低 beta」(高超额回报、低波动)框架来管理人和流程;为什么硅谷的「永不放弃」是有害的洗脑,以及他在什么时候劝你直接放弃重来;最后他还分享了对 AI 时代软件行业的判断,以及怎么把公司强度一代代传下去而不衰减。
 
-Matt 访谈开篇就抛出了一个贯穿全局的框架:**非凡的成果需要非凡的努力**(extraordinary results require extraordinary efforts)。他强调,如果你在工作中发现自己处于舒适区,那肯定是搞砸了。这种紧绷不是通过某件宏大事件体现的,而是体现在每一个周五晚上突发的 Bug 和一千个 Jira 工单里 <button class="pd-ts" data-t="07:05" data-who="Matt MacInnis" data-en="So on Friday night, when you get hit with an escalation on Friday night, when you get sort of hit with a bunch of new bugs from someone in the engineering team that you've got a triage, those are the moments where great players and great teams are separated from good players and good teams." aria-label="回原文"></button>。
+先说他最核心的一条管理原则:非凡的成果需要非凡的努力。这不是一句打鸡血的口号,而是他认为大家在硅谷常常忘记的物理规律。如果你想在结果上处于前 1%,过程就必定是非常不舒服的。他甚至直白地说,如果你在工作中发现自己处于舒适区,你肯定在某个地方搞砸了。这不是说非凡的努力一定能保证非凡的结果,但它是必要条件 <button class="pd-ts" data-t="05:40" data-who="Matt MacInnis" data-en="You have to apply the same frameworks and concepts to get people to achieve goals together. But one thing that is absolutely universal that I think we, honestly, I think we forget it in Silicon Valley or a lot of people don't sort of internalize it, is that if you want to accomplish something truly extraordinary, if you want to be in the 99th percentile in terms of outcomes, it's going to be really difficult." aria-label="回原文"></button>。
 
-这背后的逻辑是一种防患于未然的危机感。Matt 在苹果公司工作时,曾经历过被称作“死亡行军”的阶段:一旦你发布了 iPhone 的一个版本,就会立即被扔进构建下一个版本的坑里,没有任何休息 <button class="pd-ts" data-t="09:07" data-who="Matt MacInnis" data-en="I spent seven years at Apple and learned under Steve Jobs when he was the CEO, learned what we called the death march, which is what we did to the engineers. It was like as soon as you shipped one version of the iPhone, you were just immediately thrown into the pit of building the next one and there was no break." aria-label="回原文"></button>。他认为在竞争激烈且有价值的市场中,如果你在场上留下了任何东西,或者为竞争对手留下了一条裂缝,他们 100% 会去填满那条裂缝 <button class="pd-ts" data-t="09:33" data-who="Matt MacInnis" data-en="In a competitive market, and if the market is valuable, it's competitive, no question. If you leave anything on the field, if you sort of leave a crack for your competitor, 100% chance they're going to go fill that crack." aria-label="回原文"></button>。因此,组织不能有任何松懈,必须时刻保持警惕。
+这条理念在实际操作中怎么落地?他的做法是故意让每个项目人手不足。高管永远不知道一个项目到底该派多少人,既然拿不准,宁可少派也不要多派。因为一旦人浮于事,政治斗争就开始了,团队会去捣鼓优先级很低的事情,产生大量没用的冗余代码。他觉得这不仅浪费,还拖慢速度,是彻头彻尾的毒药。他的原话是:好团队会累,而伟大的团队就是趁好团队累的时候去痛扁他们的 <button class="pd-ts" data-t="12:53" data-who="Lenny" data-en="Yeah. There's a line along the lines of extraordinary efforts I want to make sure I read because I think this is really good. This may be a way to summarize what you're saying, that good teams get tired and that's when great teams kick the good team's asses." aria-label="回原文"></button>。反过来说,真给团队空间去摸鱼了,士气反而会低落,人会分心,觉得没意思 <button class="pd-ts" data-t="10:12" data-who="Matt MacInnis" data-en="Also, very counterintuitively, and maybe the more optimistic perspective here is when you do give your team space to just twiddle their thumbs, bad things start to happen." aria-label="回原文"></button>。
 
-有趣的是,他认为让团队保持忙碌本身就是激发士气的方法。反直觉的是,当你确实给你的团队空间去无所事事时,坏事就开始发生,人们会分心,士气实际上会低落 <button class="pd-ts" data-t="10:24" data-who="Matt MacInnis" data-en="Also, very counterintuitively, and maybe the more optimistic perspective here is when you do give your team space to just twiddle their thumbs, bad things start to happen." aria-label="回原文"></button>。
+说完了为什么必须保持人手短缺和高强度,接下来看这套理念怎么落到具体的产品团队管理上。Matt 当了很长一段时间的 COO,在一年前才接手产品职能。背后的原因其实很无奈:过去两年里,公司在工程和产品的负责人招聘上接连踩坑。作为 COO,他以前总是隔岸观火,远远看着研发团队冒烟,提一堆外部视角的批评意见。有一天 CEO Parker(也是 Rippling 的 CEO)叹气说自己又要重新招人,Matt 看不下去了,说这戏演完了,我自己去干 <button class="pd-ts" data-t="19:29" data-who="Matt MacInnis" data-en="And I remember Parker sort of slumped down in his seat and said, &quot;Oh, I have to run another search.&quot; And I said, &quot;No, the gig's up. I'm going to go do it.&quot;" aria-label="回原文"></button>。
 
-基于这种理念,Rippling 在人员配置上有一个硬性原则:**刻意让每个项目人手不足**(deliberately understaffed)<button class="pd-ts" data-t="00:00" data-who="Matt MacInnis" data-en="It is really important to me that we feel that we've deliberately understaffed every project at the company. If you overstaff, you get politics, you get people working on things that are further down the priority list than necessary." aria-label="回原文"></button>。为什么宁可人手不足也不能人员过剩?Matt 解释说,如果人手过剩,就会产生政治斗争。更严重的是,员工会去处理那些优先级本不必要那么低的事情。比如你有一个包含 20 件事的优先级列表,你知道必须做前五件,但因为人员过剩,下面的 10 件事也会被处理——这会产生大量垃圾代码和浪费 <button class="pd-ts" data-t="11:37" data-who="Matt MacInnis" data-en="When you staff a project, is it better to overstaff or is it better to under-staff knowing that you can't get it right? Well, it's better to under-staff. If you overstaff, you get everything that you just said." aria-label="回原文"></button>。
+跳进去之后他才发觉自己以前有多幼稚。他原本站在门外,总觉得团队连「采用率」(衡量用户多常使用产品的指标)都没好好测,太不靠谱。结果一进锅炉房(他形容亲赴一线),发现团队连最基础的测试覆盖率和产品质量标准都没有 <button class="pd-ts" data-t="21:40" data-who="Matt MacInnis" data-en="Product teams have a hierarchy of needs, and we like to point at the failures to meet elements of that hierarchy higher up the triangle and sort of impugn the failure of that organization for not, as an example, measuring adoption metrics very carefully and not closely tracking those metrics as a means by which to drive execution." aria-label="回原文"></button>。他悟出一个教训:当高管的要是坐在混乱之外自以为知道答案,那是不可饶恕的大罪。你必须进去,从底层开始研究系统。为了降低这类混乱,他发明了所谓的「PQL」(产品质量清单),要求产品出厂前必须过一遍这道检查——这个缩写还能故意读成「pickle(泡菜)」,在内部用跳舞的泡菜表情包传播,好让新员工记住这是公司特有的规矩 <button class="pd-ts" data-t="29:00" data-who="Matt MacInnis" data-en="So examples of this are let's say our product quality list, which we lovingly at Rippling call the PQL. Why PQL? Yeah, so it's actually a really important thing." aria-label="回原文"></button>。就在前一阵,有个产品因为工程师忘了关掉一个临时的「功能开关」(用来控制功能开启或关闭的代码机制),导致安装后直接白屏。他的反应不是单纯指责,而是马上回去给 PQL 加了一条新规:发布产品时最多只能有一个总开关 <button class="pd-ts" data-t="31:53" data-who="Matt MacInnis" data-en="What we missed was there was a fucking feature flag, a fucking feature flag. And I'm not allowed to say feature flag without fucking in front of it because feature flags are the bane of my existence and the worst things in the world that constantly cause problems." aria-label="回原文"></button>。
 
-## 从外部看像“垃圾火灾”,直到你跳进锅炉房
+工具和规矩变了,人怎么选?这正是他引入「高 alpha 低 beta」框架的地方。Alpha 指的是相对于指数的超额回报,而 beta 就是波动性 <button class="pd-ts" data-t="25:48" data-who="Matt MacInnis" data-en="I'll give you another framework that I like to use. In the financial world, there's this concept of alpha. Alpha is outperformance relative to the index." aria-label="回原文"></button>。Matt 把这套金融概念借来评价员工和流程:团队里总得有一两个像丹尼斯·罗德曼那种难搞但上限极高的「高 alpha」员工;而像薪酬产品这种核心业务,他追求的是「低 beta」,绝不能出任何差错,所以必须上严苛的流程。流程存在的唯一目的就是降低系统产出的波动性,它的副作用是会压制创造力。管理者的智慧就在于,在需要稳定的地方狠加流程,在需要爆发的地方尽量留白 <button class="pd-ts" data-t="28:08" data-who="Matt MacInnis" data-en="And here's a fundamental principle of design in an organization, which is that processes, processes in a business exist for the sole purpose of lowering beta. Processes are for decreasing volatility in the output of the system." aria-label="回原文"></button>。面试招人时他也有一套,给所有级别的产品经理发同一道难得离谱的考题,不在乎对方做不做得完,只看他们能看透几个角落、面对新信息防不防御,借此一刀切地筛人 <button class="pd-ts" data-t="37:03" data-who="Matt MacInnis" data-en="Before we move on to a different topic. When I first started working in the product organization, I was introduced to an interview framework or an interview tactic that I hadn't really used much at all, I think in my career, which is that every product person at every seniority level is given the same case study." aria-label="回原文"></button>。
 
-说完了保持高强度的重要性,接下来是他跨界收拾残局的真实经历。
+工具、流程和人都齐了,但这套高压系统能不能撑得住?这引出了他最反直觉的一个观点:早该放弃了就赶紧放弃。他自己创办的上家公司 Inkling 挣扎了九年、转型了三次都没真正起势,但他那会儿一直被硅谷「永不言弃」的叙事绑架。他现在把话挑明了:硅谷的这套说法根本不是为创业者好,而是为了风险投资人(VC)。因为 VC 投了钱就拿不回来了,他们唯一的指望就是忽悠你不顾一切地坚持下去 <button class="pd-ts" data-t="44:29" data-who="Matt MacInnis" data-en="But when I get the investor updates for the guys who've been at it for like three, four years and I read the updates from them that I sent to my investors in 2011 and 2012, I'm kind of heartbroken." aria-label="回原文"></button>。虽然 Slack 和 Airbnb 这种疯狂转型后大成的例子是有的,但太罕见了。他给了个实在的参照:如果你创业到了第四、第五年,也转型了一两次,但业务还没有显而易见的爆炸性增长,那就该重置时钟、重置股权结构表,直接放弃重来。这种退出反而让人解脱。
 
-Matt 曾长期担任 COO,近期才转任 CPO。在担任 COO 期间,他有一个绰号叫“MacInnis 的受伤小鸟”——公司里任何处于混乱或危险中的职能,他都会去仔细关注,使其恢复秩序 <button class="pd-ts" data-t="17:35" data-who="Matt MacInnis" data-en="They will fix the thing. And I do appreciate the terms that people have used at Rippling for me, talking about MacInnis's injured birds, where at any given moment some function is in disarray or in jeopardy and I go and focus very carefully on that function to get it back in order batting 800 maybe, like not always wild success, but I did that everywhere except R&amp;D." aria-label="回原文"></button>。但他唯独没有碰过研发部门。从外部看,他发现研发部门“局部优化但全局不连贯”,甚至像一个冒着烟的“垃圾火灾”。但当时他只能提出一些外部批评 <button class="pd-ts" data-t="18:23" data-who="Matt MacInnis" data-en="I would think about helping out with components of the sales organization like our channel team, or I spent time building out the recruiting function a few times when it needed to be sort of rethought in response to our growth, but it never R&amp;D." aria-label="回原文"></button>。
+什么时候该放弃说清楚了,但他怎么判断一家公司一定能成?这背后的底层逻辑是他对「幂律」(极少数的人或事占据绝大部分回报的分布规律)、复利和「[[熵|熵]]」(系统自发走向混乱的趋势)的理解。你做一件事如果只做到了八成,回报其实几乎没动,只有突破那个拐点,回报才会呈指数级飙升 <button class="pd-ts" data-t="61:57" data-who="Matt MacInnis" data-en="People tend to think that the world plays on a more linear relationship where the X and Y axis are sort of Y equals X, but that is absolutely not the case, and the implications are profound." aria-label="回原文"></button>。但另一方面,你写的每一行代码、做的每一个决定都在增加系统的熵,团队出于人的天性,总会不知不觉为了局部舒适度去优化,而不是为了公司目标。这就是为什么高管的工作是每一天、每一分钟都在拼死对抗这种熵的侵蚀 <button class="pd-ts" data-t="64:28" data-who="Matt MacInnis" data-en="Not because they get together and think, &quot;We should do that,&quot; although unions do do that unequivocally, deliberately, but even in a collection of product managers or engineers, what's going to happen over time is entropy is going to creep in and people are going to optimize for local comfort." aria-label="回原文"></button>。商业里最纯粹的野心和能量来自创始人,但管理层每往外扩一圈,强度就有可能掉一个数量级。高管绝对不能去当那个「让员工免受 CEO 高压」的缓冲垫,而是要把这种强度如实地传递下去 <button class="pd-ts" data-t="65:19" data-who="Matt MacInnis" data-en="You have to do this. One of the messages that I delivered recently at our big executive big... Like our top 75 manager offsite that we do roughly every 18 months, was a reminder that if the purest form of ambition and the purest and most intense source of energy in the business is the founder CEO, that every next concentric circle of management beyond the founder CEO has the potential to be an order of magnitude drop off in intensity, and that is dangerous because if you go to two layers and it's two orders of magnitude drop off and signal and intensity, that is a very dysfunctional organization." aria-label="回原文"></button>。
 
-后来,因为工程和产品的高管招聘接连出现失误,他决定亲自接管产品部门。他深刻体会到:身为高管坐在混乱之外并自以为知道答案,是不可饶恕的错误。你必须下到锅炉房里,从底层研究系统 <button class="pd-ts" data-t="22:34" data-who="Matt MacInnis" data-en="There is just no excuse as an executive for sitting outside of the mess and thinking you know the answers. It's a cardinal sin as an executive to do that. You need to go and see." aria-label="回原文"></button>。
+强度传递说了,这跟眼下这波 AI 浪潮有什么关系?他对当前 AI 创业的判断非常冷峻。在他看来,[[单点解决方案|单点解决方案]](只解决某一个具体问题的软件)在 AI 时代会陷入死局,因为它们缺乏足够的数据让 AI 去做关联分析。那些最大的 HCM(人力资本管理)软件公司,还得靠传输平面文件的方式跟别的薪酬系统对接,这在 AI 时代根本没法看 <button class="pd-ts" data-t="79:06" data-who="Matt MacInnis" data-en="And when you integrate to a third party system, even the best ones are still sort of drinking their data through a straw, which is a real problem. I mean, the biggest HCM software company you can think of integrates to the other biggest payroll software company you can think of through flat files via SFTP." aria-label="回原文"></button>。如果你没有掌握底层数据,只是夹在中间做一层 AI 软件,两头都会被大厂压榨,单体经济效益会被压垮。他断言目前市面上 80% 到 90% 的独立 AI 业务都会被淘汰 <button class="pd-ts" data-t="80:45" data-who="Matt MacInnis" data-en="So I look at the landscape of AI companies that I've seen and I think you have to have a really durable, interesting insight that gives you a shot at viable unit economics to be an interesting business." aria-label="回原文"></button>。真正能赚钱的,要么是卖基础「铲子」的(像 OpenAI 或 Google),要么是手里握着「矿山」、掌握了海量第一方业务数据的(像 Rippling)。
 
-## 降低波动性(Beta),而不是扼杀超额回报(Alpha)
-
-跳进锅炉房后该怎么管理?Matt 借用金融概念提出了一个组织设计框架。他使用金融世界里的概念:alpha 代表相对于指数的超额表现,beta 代表波动性。应用到人身上,**高 alpha 的人非常有价值,低 beta 的人(稳定可靠)也很有价值** <button class="pd-ts" data-t="25:56" data-who="Matt MacInnis" data-en="Alpha is outperformance relative to the index. So that's why you have seekingalpha.com as a very popular website. What they mean by that is you're looking to buy something, some combination of assets that will outperform, let's say the S&amp;P 500, if that's your benchmark." aria-label="回原文"></button>。比如丹尼斯·罗德曼是个疯子(极高 alpha),但每个球队都有空间容纳一个这样难搞但潜力巨大的员工。
-
-> 【背景】丹尼斯·罗德曼(Dennis Rodman)是美国职业篮球联赛的著名球员,以出色的篮板能力和张扬、不羁的个性著称。
-
-Matt 在这里提出了一个关键的管理原则:组织中的流程,其存在的唯一目的就是降低 beta(减少系统产出的波动性);但流程的缺点是它会抑制 alpha(压制创新和超额回报)<button class="pd-ts" data-t="28:08" data-who="Matt MacInnis" data-en="And here's a fundamental principle of design in an organization, which is that processes, processes in a business exist for the sole purpose of lowering beta. Processes are for decreasing volatility in the output of the system." aria-label="回原文"></button>。例如,对于一款成熟的薪资产品,Rippling 极度渴望它是低 beta 的,不容许任何不可预测性,因此愿意接受更多僵化的流程 <button class="pd-ts" data-t="27:44" data-who="Matt MacInnis" data-en="When you have a more mature product or if you have somebody in the product operations group or whatever, you probably want a more low beta environment where it's like it cranks it out, it does it very reliably." aria-label="回原文"></button>。
-
-为了在两者间取得平衡,他创造了一个名为 PQL(产品质量清单)的机制。PQL 是一份轻量级的出厂检查清单,用以规定产品发布时应达到的基本标准(如测试覆盖率)。Matt 强调,如果你想创造能留在人们脑中的文化,就必须创造一个实体意义的载体并填满你的含义。PQL 虽然听起来有些滑稽,但正是为了成为 Rippling 独有的模因而设计的 <button class="pd-ts" data-t="30:01" data-who="Matt MacInnis" data-en="And if they just fumble around with the word strategy again, I'm like, &quot;Okay, you actually haven't thought this through.&quot; So with the PQL, with the product quality list, it's like I could come up with some generic term for this, but I really want a new joiner at the company to understand that this is an idiosyncratic thing to Rippling." aria-label="回原文"></button>。
-
-顺带一提,他对“功能开关”(feature flag)深恶痛绝,认为工程师临时放进去然后忘记关掉,就像盖房子时留下的垫片一样危险,是系统出错和制造混乱的根源 <button class="pd-ts" data-t="31:48" data-who="Matt MacInnis" data-en="And I'm like, &quot;Well, what did we miss?&quot; What we missed was there was a fucking feature flag, a fucking feature flag. And I'm not allowed to say feature flag without fucking in front of it because feature flags are the bane of my existence and the worst things in the world that constantly cause problems." aria-label="回原文"></button>。
-
-## 别问别人要建议,问他们相关的经验
-
-工具与方法讲完了,如果方向错了怎么办?这正是下一个话题:该不该放弃。
-
-Matt 曾创办一家公司长达九年,却以黯然收场。他深刻体会到,没有真正达到过[[产品市场契合度|产品市场契合度]]。虽然硅谷文化常谈论永不放弃,但他直言不讳地说这完全是为了风险投资家的利益:VC 永远拿不回钱,所以他们只会激励你不顾一切地继续尝试 <button class="pd-ts" data-t="44:29" data-who="Matt MacInnis" data-en="But when I get the investor updates for the guys who've been at it for like three, four years and I read the updates from them that I sent to my investors in 2011 and 2012, I'm kind of heartbroken." aria-label="回原文"></button>。
-
-对于何时该放弃,他给出的实用建议是:**不要向别人征求建议,而要向别人征求相关经验**。如果你问别人要建议,他们总是会给出建议;但如果你问他们的相关经验,他们很少能提供 <button class="pd-ts" data-t="50:31" data-who="Matt MacInnis" data-en="I think Rippling, had it been started today, would not be what it is five years from now today, and so I think timing is a lot and it's very hard to control for, but when you get the timing right and the market is real and the product works, product market fit, like I said earlier, it's super clear, and so if I were to pick a number out of a hat just from my lived experience, I think it's very important, one aside, don't ask people for advice, ask people for relevant experience." aria-label="回原文"></button>。基于他四次创业的相关经验,他认为如果已经转型了一两次却依然没有起色,大概到了第四年就该放弃了,这没有任何可耻的 <button class="pd-ts" data-t="51:00" data-who="Matt MacInnis" data-en="So ask people for relevant experience, and I try to do this with my own entrepreneurs when I work with them, it's like, let me offer you whatever relevant experience I have, and my relevant experience on this topic of when to quit is like, I think we could have called it after the second or third pivot, which was somewhere around year four." aria-label="回原文"></button>。
-
-对于为何要在适当时机退出,他用药物发现打了一个绝佳的比方:你不能通过营销来说服人体产生药物受体。你要么找到了契合的受体(市场需求),要么没有,命运早已决定。不要发布了产品发现缺乏成功后,再试图通过营销来度过难关 <button class="pd-ts" data-t="53:14" data-who="Matt MacInnis" data-en="Then you take a different mindset. You have to view your startup as running an experiment in the universe to see what you get in return for that, and this analogy of drug discovery and binding receptors is like nobody at Genentech thinks they can market their way to better performance inside your body." aria-label="回原文"></button>。
-
-> 【背景】Notion 是一款极其流行的笔记与生产力软件。Matt 提到他是 Notion 的早期投资者之一。Notion 在艰难的市场中成功开辟了利基市场,但他认为这种极度的坚持是一种“叙事违规”,普通人无法复制。
-
-## 单点 SaaS 在 AI 时代的困境
-
-既然方向比死磕更重要,这就引出了他对行业趋势的判断。Matt 认为,在当前的 AI 时代,[[单点解决方案|单点解决方案]]处境艰难。AI 需要大量数据的上下文才能发挥作用,而单点 SaaS 没有足够的数据,必须依赖第三方系统(就像通过吸管喝水一样困难)<button class="pd-ts" data-t="78:34" data-who="Matt MacInnis" data-en="So this is a period of bundling. So here's the problem; point solutions don't have enough data in the age of AI to be useful. You got to be able to provide the AI with a lot of context about a lot of data so it can do things." aria-label="回原文"></button>。Rippling 之所以有优势,是因为他们拥有单一的业务数据图和一致的数据湖。他将公司定位为拥有数据“矿山”的人,那些既没有底层模型(铲子)又没有数据(矿山)的中间层 AI 软件,将被上下游的议价权压垮 <button class="pd-ts" data-t="80:00" data-who="Matt MacInnis" data-en="And if you own the mine, like Rippling, with the data, you can make money. If you're somewhere in the middle, building AI software that then tries to use the shovels from the shovel provider, but then also needs to rent out the mine, or get the ore out of somebody else's mind and start refining it, you're in a very difficult place from an economic standpoint." aria-label="回原文"></button>。
+那么,在这种高强度的厮杀中,工作变成了纯粹的精神内耗吗?Matt 在结尾给了一个很浪漫的解药。他说,虽然要拼尽全力,但也得记住:2025 年的硅谷,就像是文艺复兴时期的佛罗伦萨。这是人类历史上绝无仅有的创造力大爆发时期。能在这样的时代参与商业竞技场本身,就是一种不可思议的幸运 <button class="pd-ts" data-t="87:47" data-who="Matt MacInnis" data-en="Because Silicon Valley in 2025 is Florence and the Renaissance. It's crazy. The amount of creativity and insane invention and progress that's happening for our species right now in this place is absolutely unparalleled in all human history." aria-label="回原文"></button>。所以去尽情拼杀吧,但永远别忘了这只是一场游戏,输了赢了都带不进坟墓。
 
 ## 本集带走
 
-1. **非凡的结果需要非凡的努力,你必须让组织的发动机始终在红线运转**。一旦你放松或留下裂缝,更饥渴的竞争对手就会进来填满它。因此,刻意让项目人手不足,是防止内部政治斗争和无效产出的有效手段。
-2. **引入流程的唯一目的是降低系统的波动性,但代价是抑制创新**。优秀的领导者必须审慎地判断:在哪些环节你需要极度的稳定(低波动),在哪些环节你需要为创新留出超额回报的空间。
-3. **没有产品市场契合度时,果断放弃比盲目坚持更重要**。不要被风险投资家的叙事绑架,市场是否需要你的产品是命运既定的事实,营销无法凭空创造出需求。
+最后收个尾,这一集值得带走的是五句话。第一,非凡的成果必定需要非凡的努力,如果你觉得工作很舒服,那你肯定搞砸了;为了保持这种战斗力,宁可让项目人手不足,也不要冗余。第二,用金融里的 alpha 和 beta 概念去看你的团队和流程:该稳定的地方用死规矩压住波动,该创新的地方留出余地。第三,硅谷「永不放弃」那套说辞是 VC 为了自保编出来的,如果你的公司折腾了四五年还没起色,赶紧清零重来。第四,任何系统都会自发走向混乱,团队总会为了局部舒服去偷懒,高管的唯一职责就是每天每分钟拼死把这种衰退对抗下去,别当缓冲垫。第五,别被单点 SaaS 蒙蔽了双眼,在 AI 时代,手里没有第一方数据,就只能被两头压榨;去尽情厮杀吧,但也别忘了能生在这个时代本身就是最大的奖励。
 
 <div class="pd-sec">全部金句 <span>15 条(中英对照,已过机器闸门)</span></div>
 
-> <span class="qz">对我来说,我们要感觉公司里的每一个项目都是故意人手不足的,这一点真的很重要。</span>  
-> *It is really important to me that we feel that we've deliberately understaffed every project at the company.*  
-> <span class="qm">—— Matt MacInnis · [00:00]</span> ^q1
+> <span class="qz">好的团队会累，而这就是伟大的团队痛扁好团队的时候。</span>  
+> *Good teams get tired and that's when great teams kick the good team's asses.*  
+> <span class="qm">—— Lenny · [13:00]</span> ^q1
 
-> <span class="qz">团队总是会为了局部的舒适度而优化,而不是为了公司的结果。</span>  
-> *Teams will always optimize for local comfort over company outcomes.*  
-> <span class="qm">—— Matt MacInnis · [00:56]</span> ^q2
-
-> <span class="qz">创始人 CEO 之外的每一圈管理层,其强度都有可能出现一个数量级的下降。</span>  
-> *Every next concentric circle of management beyond the founder CEO has the potential to be an order of magnitude drop off in intensity.*  
-> <span class="qm">—— Matt MacInnis · [01:07]</span> ^q3
-
-> <span class="qz">如果他们在工作中发现自己处于舒适区,那他们肯定是在犯错误。</span>  
-> *If they ever find themselves in the comfort zone at work, they are definitely making a mistake.*  
-> <span class="qm">—— Matt MacInnis · [06:01]</span> ^q4
-
-> <span class="qz">如果你在场上留下了任何东西,如果你某种程度上为你的竞争对手留了一条裂缝,他们有 100% 的几率会去填满那条裂缝。</span>  
-> *If you leave anything on the field, if you sort of leave a crack for your competitor, 100% chance they're going to go fill that crack.*  
-> <span class="qm">—— Matt MacInnis · [09:33]</span> ^q5
-
-> <span class="qz">所以很清楚,人员不足比人员过剩要小恶得多。</span>  
-> *And so it's very clear that under-staffing is less evil than over-staffing.*  
-> <span class="qm">—— Matt MacInnis · [12:04]</span> ^q6
-
-> <span class="qz">你并没有真正从你的错误中学习,你从你的成功中学习。</span>  
+> <span class="qz">你并没有真正从你的错误中学习，你从你的成功中学习。</span>  
 > *You don't really learn from your mistakes, you learn from your successes.*  
-> <span class="qm">—— Matt MacInnis · [14:27]</span> ^q7
+> <span class="qm">—— Matt MacInnis · [14:27]</span> ^q2
 
-> <span class="qz">商业中的流程存在的唯一目的就是降低 beta。</span>  
+> <span class="qz">身为高管坐在混乱之外并自以为知道答案，是没有任何借口的。</span>  
+> *There is just no excuse as an executive for sitting outside of the mess and thinking you know the answers.*  
+> <span class="qm">—— Matt MacInnis · [22:26]</span> ^q3
+
+> <span class="qz">商业中流程存在的唯一目的就是降低贝塔（波动性）。</span>  
 > *Processes in a business exist for the sole purpose of lowering beta.*  
-> <span class="qm">—— Matt MacInnis · [28:03]</span> ^q8
+> <span class="qm">—— Matt MacInnis · [28:03]</span> ^q4
 
-> <span class="qz">流程的缺点是它会抑制 alpha。</span>  
-> *The downside of a process is that it suppresses alpha.*  
-> <span class="qm">—— Matt MacInnis · [28:15]</span> ^q9
-
-> <span class="qz">如果你讨厌产品经理,你只是还没与一位优秀的产品经理合作过。</span>  
+> <span class="qz">如果你讨厌产品经理，你只是还没与一位优秀的产品经理合作过。</span>  
 > *If you hate product managers, you just haven't worked with a great product manager.*  
-> <span class="qm">—— Lenny · [41:55]</span> ^q10
+> <span class="qm">—— Lenny · [41:55]</span> ^q5
 
-> <span class="qz">我们在硅谷谈论永不放弃,但这完全是绝对的风险投资狗屁废话。</span>  
+> <span class="qz">我们在硅谷谈论永不放弃，但这完全是绝对的风险投资狗屁废话。</span>  
 > *We talk in Silicon Valley about never quit, but that is complete absolute venture capital bullshit.*  
-> <span class="qm">—— Matt MacInnis · [44:29]</span> ^q11
+> <span class="qm">—— Matt MacInnis · [44:29]</span> ^q6
 
-> <span class="qz">你应该他妈的放弃。你应该重置时钟,你应该重置股权结构表,因为相信我,当产品市场契合度到来时,它是疯狂的且令人兴奋的,你应该去追求它。</span>  
-> *You should fucking quit. You should reset the clock, you should reset the cap table because trust me, product market fit when it arrives is insane and it's exciting and you should pursue it.*  
-> <span class="qm">—— Matt MacInnis · [46:11]</span> ^q12
+> <span class="qz">硅谷那种“奋斗至死”的心态不是亲创业者的，它是亲风险投资人的。</span>  
+> *The Silicon Valley try until you die mindset is not pro-entrepreneur, it's pro-venture capitalist.*  
+> <span class="qm">—— Matt MacInnis · [45:56]</span> ^q7
 
-> <span class="qz">不要向别人征求建议,要向别人征求相关经验。</span>  
+> <span class="qz">不要向别人征求建议，要向别人征求相关经验。</span>  
 > *Don't ask people for advice, ask people for relevant experience.*  
-> <span class="qm">—— Matt MacInnis · [50:24]</span> ^q13
+> <span class="qm">—— Matt MacInnis · [50:24]</span> ^q8
 
-> <span class="qz">不要发布产品后发现缺乏成功,然后试图通过营销来度过难关,因为受体结合很可能不存在。</span>  
-> *Do not ship the product, find a lack of success, and then try to market your way through that, because the binding receptors likely don't exist*  
-> <span class="qm">—— Matt MacInnis · [53:52]</span> ^q14
+> <span class="qz">现在有数以万计的公司在使用 Rippling 运营。我们还不到市场的 1%。</span>  
+> *There are tens of thousands of companies that now run on Rippling. We're less than 1% of the market.*  
+> <span class="qm">—— Matt MacInnis · [77:23]</span> ^q9
 
-> <span class="qz">对抗熵的唯一解药,对抗系统中衰变的唯一解药就是能量。</span>  
-> *The only antidote to entropy, the only antidote to decay in a system is energy.*  
-> <span class="qm">—— Matt MacInnis · [63:17]</span> ^q15
+> <span class="qz">在 AI 时代，单点解决方案没有足够的数据来发挥作用。</span>  
+> *Point solutions don't have enough data in the age of AI to be useful.*  
+> <span class="qm">—— Matt MacInnis · [78:36]</span> ^q10
+
+> <span class="qz">这将会扼杀我现在看到的 80% 或 90% 作为独立 AI 业务的东西。</span>  
+> *That is going to kill off 80 or 90% of the stuff that I see right now as standalone AI businesses.*  
+> <span class="qm">—— Matt MacInnis · [80:45]</span> ^q11
+
+> <span class="qz">你的工作是以尽可能高的水平保持那种强度，并让缓冲发生在别处。</span>  
+> *Your job is to preserve that intensity at its highest possible level and let the buffering happen somewhere else.*  
+> <span class="qm">—— Matt MacInnis · [66:33]</span> ^q12
+
+> <span class="qz">从根本上说，你能做的最自私的事情就是扣留对别人的反馈。</span>  
+> *Fundamentally, the most selfish thing you can do is withhold feedback from someone.*  
+> <span class="qm">—— Matt MacInnis · [00:41]</span> ^q13
+
+> <span class="qz">因为 2025 年的硅谷就是佛罗伦萨和文艺复兴。</span>  
+> *Because Silicon Valley in 2025 is Florence and the Renaissance.*  
+> <span class="qm">—— Matt MacInnis · [87:47]</span> ^q14
+
+> <span class="qz">产品市场契合度是这样一种东西，你见到它时绝对知道它是，所以如果你绝对不知道它，你就没有它。</span>  
+> *Product market fit is a sort of thing where you absolutely know it when you see it, and therefore if you don't absolutely know it, you don't have it.*  
+> <span class="qm">—— Matt MacInnis · [43:07]</span> ^q15
 
 <div class="pd-sec">接着看</div>
 
@@ -165,16 +137,16 @@ Matt 曾创办一家公司长达九年,却以黯然收场。他深刻体会到,�
 
 - [[2025-11-23-lennys-a-guide-to-difficult-conversations|别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课]] —— 同嘉宾:Lenny
 - [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”]] —— 同嘉宾:Lenny
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代]] —— 同嘉宾:Lenny
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言]] —— 同嘉宾:Lenny
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|别只想推销：产品负责人如何真正影响高管决策]] —— 同嘉宾:Lenny · 同概念:产品市场契合度 (product market fit)
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」]] —— 同嘉宾:Lenny · 同概念:产品市场契合度 (product market fit)
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性]] —— 同嘉宾:Lenny · 同公司:Notion
+- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|Jessica Fain:如何影响高管——把高管当用户来研究]] —— 同嘉宾:Lenny · 同概念:产品市场契合度 (product market fit)
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新]] —— 同嘉宾:Lenny · 同概念:产品市场契合度 (product market fit)
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]] —— 同嘉宾:Lenny · 同公司:Notion
 
 </div>
 </div>

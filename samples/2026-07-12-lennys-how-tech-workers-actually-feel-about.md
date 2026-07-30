@@ -1,5 +1,5 @@
 ---
-title: 科技圈情绪调查：一半人狂喜，一半人煎熬
+title: AI 时代的科技人情绪实录：一半狂欢，一半崩塌
 podcast: "Lenny's Podcast"
 date: 2026-07-12
 source_url: https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about
@@ -7,7 +7,7 @@ duration: "96:26"
 type: episode
 cover: "#6366f1"
 image: "/covers/2026-07-12-lennys-how-tech-workers-actually-feel-about.jpg"
-description: 6000人调查揭示科技圈因AI一分为二，倦怠激增、乐观骤降，但经理和小公司是破局关键。
+description: 六千份问卷揭示科技圈被 AI 劈成两半：倦怠激增，大家都劝新人别入行。
 host: "[[Noam Segal]]"
 cohosts: ["[[Lenny]]"]
 companies: ["[[Cognition]]"]
@@ -17,9 +17,9 @@ tags:
   - 职业与个人成长
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>科技圈情绪调查：一半人狂喜，一半人煎熬</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 时代的科技人情绪实录：一半狂欢，一半崩塌</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# 科技圈情绪调查：一半人狂喜，一半人煎熬
+# AI 时代的科技人情绪实录：一半狂欢，一半崩塌
 
 <div class="pd-byl"><b>Noam Segal</b> · 资深研究员</div>
 
@@ -27,7 +27,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-12-lennys-how-tech-workers-actually-feel-about.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">而每次你把这种负担推卸给你最喜欢的 AI 模型时，你都在降低那个基线，而你的思考和判断正在旁观。</div><div class="a">Noam Segal · 52:15</div></div>
+<div class="pd-hook"><div class="z">我实际上首先要指出的是，只有 3% 的人报告说 AI 没有改变他们的身份。</div><div class="a">Noam Segal · 08:52</div></div>
 
 > [!info] 关联
 > **人物** [[Noam Segal]] · [[Lenny]]
@@ -38,115 +38,80 @@ tags:
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/how-tech-workers-actually-feel-about)
 
-<div class="pd-tldr"><b>一句话</b>6000人调查揭示科技圈因AI一分为二，倦怠激增、乐观骤降，但经理和小公司是破局关键。</div>
+<div class="pd-tldr"><b>一句话</b>六千份问卷揭示科技圈被 AI 劈成两半：倦怠激增，大家都劝新人别入行。</div>
 
-[[Lenny|Lenny]] 邀请了他的老前同事、资深研究员 [[Noam Segal|Noam Segal]]。他们两人合作进行了一项科技从业者情绪调查（这是连续第二年进行），收集了约 6000 名横跨产品、工程、设计等各个科技岗位从业者的反馈。这一集，他们详细拆解了这份报告的核心结论。全篇围绕一个核心主线展开：**AI 正在以前所未有的规模分化科技从业者——从整体感受到职业信心，一半人如鱼得水，另一半人则在煎熬；而在这场巨变中，「经理」和「工作方式的选择」成了决定你幸不幸福的关键杠杆。**
+科技行业有一半人觉得自己正值职业巅峰、能力被 AI 成倍放大；另一半人则觉得未来不明朗、脚下的地面在晃。而无论是哪一半，所有人都默契地对新人摆手：「这水浑，别蹚。」这不是夸张——在一份约 6000 人的科技从业者调查里，连最快乐无忧的创始人，都不太推荐别人去当创始人 <button class="pd-ts" data-t="08:14" data-who="Noam Segal" data-en="And the other half feel like the future is unclear, they feel destabilized, they feel diminished, other negative emotions around that. It's a very interesting picture that really cuts the tech workforce in half, and that's what we'll see in a second." aria-label="回原文"></button>。说这话的人是 [[Noam Segal|Noam Segal]]，一位资深研究负责人，这是他做出来的数据。
 
-## AI 把科技圈整齐地切成两半
+这一集播客里，他和曾共事十年的老同事 [[Lenny|Lenny]] 一起，对着他们第二次年度「科技情绪调查」的图表聊了整整一集。你会听到这集聊了五块硬核内容：AI 是怎么把科技打工人劈成四种类型的；为什么倦怠率一年暴涨十个百分点、大家却还在拼命享受工作；为什么所有人都对自己当下的工作满意，却极度看衰行业的未来；为什么在 AI 带来的所有恐惧里，「被 AI 取代」只排在倒数第二，真正的恐惧是什么；最后，他们给出了对普通员工和公司领导者的生存建议。听懂了这份情绪地图，你就能明白为什么现在的科技圈如此疯狂。
 
-要说这份调查最核心、最震撼的发现，就是当前科技劳动力的极度分化。Noam 指出，AI 对人们工作感受的影响是「异常巨大的（outsized）」，其影响力远超你的具体职位、所在公司或职级。这种分化精确到了 50 对 50 的程度 <button class="pd-ts" data-t="07:48" data-who="Noam Segal" data-en="And what you're going to see is that AI has an outlier level, outsize impact, on how people feel about their work more so than any other characteristic of their job, whether it's their role, the company they work for, the company size, their level, et cetera." aria-label="回原文"></button>。
+先说这份调查里最让人震撼的核心发现：AI 带来的冲击，把科技从业者一刀切成了两半，这个效应大到盖过了你所在的职级、公司规模甚至你直属领导的影响 <button class="pd-ts" data-t="07:48" data-who="Noam Segal" data-en="And what you're going to see is that AI has an outlier level, outsize impact, on how people feel about their work more so than any other characteristic of their job, whether it's their role, the company they work for, the company size, their level, et cetera." aria-label="回原文"></button>。3% 的人觉得 AI 没改变自己，剩下的人分成了几派。一半（50%）的人觉得被「增强」了，感觉自己无所不能；另一半则陷入了泥潭，其中 27% 的人觉得角色正在被重新定义但完全看不懂局势，14% 的人觉得脚下的大地在摇晃（极度不稳定），还有 5% 的人觉得 AI 把属于自己的东西彻底夺走了（被削弱）<button class="pd-ts" data-t="09:05" data-who="Noam Segal" data-en="That's first of all. But then to your point, the most prominent thing here is that 50% of people in tech are feeling amplified. They feel like they can do more." aria-label="回原文"></button>。> 【背景】衡量这种心理冲击大小用的是统计学里的效应量，它比看「统计显著性」更能反映事物在实际中的影响规模。要知道，去年调查中影响最大的因素是「你的直属领导」和「创始人的幸福感」，而今年 AI 对人心理的影响效应，大约是那两者的三倍 <button class="pd-ts" data-t="12:33" data-who="Noam Segal" data-en="Founders, these people who are currently founders and in their journey of running a startup, are incredibly happy, probably because they have lots of agency and autonomy, relatively to the typical employee." aria-label="回原文"></button>。
 
-只有 3% 的人认为 AI 没有改变他们对自我职业身份的看法。在剩下的人中，一半（50%）感到自己被「增强（amplified）」了——他们觉得现在能做更多、更好的事，充满活力。而另一半人则陷入了三种负面或迷茫的状态：27% 的人觉得自己的角色正在被重新定义，但他们完全看不懂未来；14% 的人感到「不稳定（destabilized）」，觉得脚下的地在抖，极度焦虑；还有 5% 的人感到被「削弱（diminished）」，觉得 AI 抢走了属于他们的东西，并且可能永远要不回来了 <button class="pd-ts" data-t="08:52" data-who="Noam Segal" data-en="So we're looking at this slide with the question that you and I both decided to answer the survey, which is how has AI shifted your professional identity, if at all?" aria-label="回原文"></button>。
+这种心理撕裂，被 Noam 细化成了科技圈的「四种打工人原型」<button class="pd-ts" data-t="15:02" data-who="Noam Segal" data-en="So we're seeing these four tech workers, and the way we got to this is later on in the survey, we asked people about how they're feeling, and to report specific emotions." aria-label="回原文"></button>。第一种是「充满活力的科技人」，占 41%，他们觉得现在像个游乐园，什么都能试，自己拥有了前所未有的超能力。第二种叫「矛盾的中间派」，占 35%，这是最纠结的一群人：他们一方面觉得现在造东西好玩到了极点，另一方面又觉得职业生涯充满了前所未有的不确定性，生怕自己亲手造出来的东西明天就终结了自己的饭碗。第三种是「迷失方向的人」，有受访者留下了一句精准的吐槽：「我们就像处在工业革命边缘的农民，完全看不清前面的路」<button class="pd-ts" data-t="16:44" data-who="Noam Segal" data-en="The third archetype are the disoriented people, the people who feel like their role keeps shifting. There's a quote that we saw from one of the respondents, &quot;We're like farmers on the cusp of the industrial revolution and we just don't see a clear path to what's happening.&quot;" aria-label="回原文"></button>。最后 12% 的人则是「愤世嫉俗者」，他们感到压力巨大，一边被公司逼着用 AI，一边眼睁睁看着同行丢饭碗，觉得这项技术极其讨厌。
 
-根据这些数据，Noam 将科技从业者划分为四种原型。第一类是「充满活力的人」（41%），感觉像在科技游乐场里，拥有了前所未有的超能力。第二类是「矛盾的中间派」（35%），他们一边享受着作为构建者的极致乐趣，一边又感受着职业生涯中前所未有的不确定性。第三类是「迷失方向的人」，一位受访者将他们比作「处于工业革命边缘的农民」。最后一类是 12% 的「愤世嫉俗者」，他们觉得被逼着使用 AI，充满了抵触情绪 <button class="pd-ts" data-t="15:30" data-who="Noam Segal" data-en="So, the first archetype we found is the energized tech worker, and that's 41% of our samples. These are the people who were saying that products has become fun again." aria-label="回原文"></button>。
+说完了这四种类型，我们来看看这些情绪在整体数据上堆出了怎样反直觉的矛盾。播客开头提到一个坏消息：显著的[[职业倦怠|职业倦怠]]比例从上一年的 44.7% 暴涨到了 54.7%，同时对职业未来的乐观情绪则从 54.8% 跌到了 48.7% <button class="pd-ts" data-t="20:30" data-who="Noam Segal" data-en="And yet, that's not what we're seeing. When it comes to significant burnout, burnout that's higher than moderate, we've gone up from 44.7% in 2025 to 54.7% in 2026." aria-label="回原文"></button>。奇怪的是，大家明明那么累，对工作的「享受度」却出奇地高。Noam 解释说，这是因为现在的工具能让人突破原本的岗位设定——比如一个产品经理终于能亲自把脑子里的设计做出来，一个运营能像工程师一样去构建系统，大家都在造以前根本造不出来的东西，自然乐在其中 <button class="pd-ts" data-t="23:18" data-who="Noam Segal" data-en="I think what we heard about enjoyment more than anything else, which does give me hope is, it's a couple of things I think. First of all, people are able to bring out certain aspects of their identity and of their passions that they weren't able to before." aria-label="回原文"></button>。Lenny 很喜欢的一个词能精准概括这种状态：微笑着的疲惫——你在这场 AI 派对里嗨得停不下来，因为根本没有关机键，但你的身体和精神其实已经被残酷的节奏掏空了 <button class="pd-ts" data-t="57:55" data-who="Noam Segal" data-en="He talks about smiling exhaustion. And I just love that term because I think it captures this ambivalence. The old type of emotion, the old type of burnout was just completely grim." aria-label="回原文"></button>。
 
-> 【背景】用统计学术语来说，AI 对人们工作身份认同的影响，其效应量（用 Cohen's d 衡量）是衡量实际影响力大小的指标。Noam 指出，AI 带来的影响效应，大约是「经理好坏」或「创始人幸福感」等其他因素的 3 倍之大 <button class="pd-ts" data-t="11:45" data-who="Noam Segal" data-en="A better way to look at things is using an effect size measure, like Cohen's d in this case. And what effect size tells you is, practically, how much does this thing matter?" aria-label="回原文"></button>。
+这种对未来极度悲观、对当下却高度享受的矛盾，直接导致了一个非常真实的结果：没人愿意推荐别人入行 <button class="pd-ts" data-t="29:23" data-who="Noam Segal" data-en="Let's get to the next takeaway around people's sense of their own career, and whether they recommend it. This is a wild one for me because at least within the research community, I am known as the net promoter score hater." aria-label="回原文"></button>。在这项调研里，哪怕是目前科技圈里最如鱼得水、主观能动性最大的创始人群体，也不推荐别人去创业；至于销售、产品经理（PM）、工程师，全都在劝退新人。最惨的是设计师和研究员，他们是最不推荐别人入行的群体 <button class="pd-ts" data-t="32:10" data-who="Noam Segal" data-en="Neither would people in sales or go-to market, PMs, operations, engineering. And the worst of all, designers and researchers, my community are the least likely to recommend their role to other people coming into tech." aria-label="回原文"></button>。Lenny 特别强调，这不代表这些职业要消失了，这只是大家当下的情绪投射。这种矛盾是怎么产生的？Noam 用了一个比喻：AI 就像是一把不断向上攀升的梯子，身处高层的人觉得稳当，但身处底层的人，正眼睁睁看着自己脚下的横档被一根根抽走 <button class="pd-ts" data-t="37:12" data-who="Noam Segal" data-en="And they are the makers of Devin. And I recall that when he described the product, he talked about this ladder that the product progressed on. It went from a high school CS student to a college intern to a junior engineer, and at this point probably a senior or a staff level engineer." aria-label="回原文"></button>。调查还抛出了一个反直觉的真相：大家都怕被 AI 抢饭碗，但在「最害怕什么」的榜单里，因 AI 失去工作只排在倒数第二 <button class="pd-ts" data-t="53:45" data-who="Noam Segal" data-en="What are you afraid of in tech? Losing my job to AI is actually second to last on that list. And instead what we saw rise up to the top is the expectation to do more for the same pay." aria-label="回原文"></button>。真正排第一的恐惧是——「期望你拿同样的钱干更多的活」，以及紧随其后的「这种工作节奏和技术迭代速度已经不可持续了」。
 
-## 速度变快了，但倦怠激增、大脑腐烂
+既然工作节奏这么折磨人，那究竟谁是当前科技圈里的赢家？调查显示，这已经是连续第二年，创始人以及在小型初创公司工作的人占据了幸福感的高地 <button class="pd-ts" data-t="66:34" data-who="Noam Segal" data-en="Who's doing best? So the happiest people in tech, this is something that did not change between last year's survey and this year's. It's still founders and people who are working in smaller companies." aria-label="回原文"></button>。他们最乐观（71% 乐观），最享受工作，倦怠感最低。而随着公司规模的变大，员工的倦怠感和对裁员的担忧几乎是呈一条直线线性上升的 <button class="pd-ts" data-t="70:18" data-who="Noam Segal" data-en="And if we look just at burnout specifically, then you can see very clearly here that burnout climbs in very significant ways in between working for a small 1 to 10 person startup and working for a 5,000 or 10,000 person enterprise company." aria-label="回原文"></button>。但真正能把你从地狱拉回天堂的杠杆，其实是你的直属经理。拥有一个极其高效的经理，能让你的工作享受度高出约 65%，倦怠感大幅降低 <button class="pd-ts" data-t="73:19" data-who="Noam Segal" data-en="And this is a massive, massive effect that we're seeing. So if you have an extremely effective manager, for example, you're reporting around 65% higher job enjoyment and dramatically lower burnout." aria-label="回原文"></button>。然而现实很骨感：只有约 25% 的人觉得自己的经理高效。在当下这个讲究组织扁平化、一个人带着一堆直接下属的时代，经理本身也处于崩溃边缘。更别提大公司还会拿着无限的资金到处挖人，经理成了高压锅，身处设计和数据等高压部门的经理更是把负面情绪传递给了下属 <button class="pd-ts" data-t="78:23" data-who="Lenny" data-en="Because probably nothing will have more impact on your wellbeing than who that person ends up being. And to build on how difficult things are for companies right now, the level of poaching and offers thrown out at the best people, just imagine how sucky it is to find a great manager, train people to become awesome managers, and then they get-" aria-label="回原文"></button>。
 
-既然 AI 让一半的人如鱼得水，那大家整体上是不是更开心了？事实恰恰相反。说完了个体的分化，接下来看看整个行业的宏观情绪：**倦怠感在激增，乐观情绪在下降。**
-
-数据显示，中重度倦怠的比例从去年的 44.7% 飙升至今年的 54.7%；而对职业生涯的乐观情绪则从 54.8% 跌至 48.7% <button class="pd-ts" data-t="20:30" data-who="Noam Segal" data-en="And yet, that's not what we're seeing. When it comes to significant burnout, burnout that's higher than moderate, we've gone up from 44.7% in 2025 to 54.7% in 2026." aria-label="回原文"></button>。为什么工具变强了，人却更累了？
-
-表面上看，97.2% 的人认为 AI 让他们工作变得更好了，近一半人觉得效率「极大地提升」了 <button class="pd-ts" data-t="46:03" data-who="Noam Segal" data-en="Unequivocally, the answer was yes. You can see here that 97.2% of people are saying that AI is making them better at their job, and close to 50% of people are saying that AI is making them very much or extremely better at their job." aria-label="回原文"></button>。但深入探究后发现，所谓的「更好」并不代表工作「质量」更高。人们反馈的真实情况是两方面的负面代价：第一，**「做得更多，但没做得更好」**——AI 降低了下限，让大家能疯狂产出成堆的原型和文档，但质量并未提升 <button class="pd-ts" data-t="47:04" data-who="Noam Segal" data-en="What we heard from people were two concerning things. The first is that I can do more faster, but not better. So again, AI has lowered the floor of what's possible and enabled people to put out a lot more work than they ever have before, whatever that work is, whether it's PRs, PRDs, research projects, prototypes, but the output isn't of higher quality." aria-label="回原文"></button>。
-
-第二，也是更可怕的代价，是**「[[认知衰退|认知衰退]]（cognitive rot）」**。人们看到 AI 的产出就直接全盘接受，放弃了独立思考和判断。正如受访者的原话：「我的大脑正在腐烂。我的工作感觉变差了」<button class="pd-ts" data-t="47:48" data-who="Noam Segal" data-en="And perhaps the even more concerning effect, which we heard about, the deeper cost of all of this is the cost of using AI on thinking and judgment. People essentially told us, &quot;My brain is rotting." aria-label="回原文"></button>。Lenny 提到，这就像是「[[技能萎缩|技能萎缩]]（skill atrophy）」，因为有了捷径，人们本能地不再去刻意练习和深度思考。Noam 补充了一个深刻的洞见：每次你自己（而不是 AI）克服困难解决问题，都会提升你的自信心基线；而每次你把思考推给 AI，你都在降低这个基线 <button class="pd-ts" data-t="51:39" data-who="Noam Segal" data-en="I think people miss feeling smart sometimes. I think I thought once upon a time about myself that I'm smart. And then you encounter these models, most recently a Fable 5 that just came out for the second time and you don't feel that smart anymore and you sort of lose the sense of self-efficacy that you used to have." aria-label="回原文"></button>。
-
-## 怕的不是失业，是「同薪干更多」的挤压
-
-既然大家这么累，那科技人内心最深的恐惧到底是什么？你可能以为是「被 AI 取代」。但工具改变了竞争方式，接下来这个问题直接触及了人们最深层的焦虑。
-
-当被问及「你在害怕什么」时，「因 AI 失去工作」其实排在倒数第二位。真正占据榜首的恐惧，是「以同样的薪水被期望做更多的事」<button class="pd-ts" data-t="53:34" data-who="Noam Segal" data-en="And so it would make sense that if we had a question and one of the options to respond to that question were, I'm worried about losing my job to AI, that it would rank fairly high." aria-label="回原文"></button>。
-
-这种对过度劳累的恐惧，伴随着对「节奏不可持续」的担忧。这里的节奏既指每天需要产出的极高工作速度，也指技术本身疯狂迭代、逼着你不停学习的节奏。这形成了一个恶性循环的螺旋，让你感觉无法完成任何真正有意义的事情。Noam 用了一句精准的话来总结：「AI 解锁的速度，直接被转化为了对人的期望。每一项成就都成了新的及格线，而那些被期望达到它的人，已经没有喘息的空间了」<button class="pd-ts" data-t="55:30" data-who="Lenny" data-en="I love reading your summaries of what you learned, so I'll just read this. The speed AI unlocked got plowed straight back into expectations. Every game becomes the new baseline and the people expected to hit it are running out of room to breathe." aria-label="回原文"></button>。
-
-## 无人推荐亲友入行，研究员和设计师最绝望
-
-这种被挤压的疲惫和对未来的迷茫，催生出了一个极其反直觉的调查结果。累归累，大家总体上还是觉得自己当下的角色挺有趣的。但当被问及对后辈的建议时，结果令人震惊。
-
-Noam 借用了净推荐值（[[NPS|NPS]]，一种衡量是否愿向亲友推荐某事物的指标，区间为 -100 到 +100）来做统计。结果发现，**目前没有任何一个科技岗位的人愿意推荐别人入行，连目前科技圈最幸福的群体——创始人也不例外** <button class="pd-ts" data-t="30:35" data-who="Noam Segal" data-en="And the answer was shocking. Absolutely shocking. So let me show you the data around this, and let me preface this with a quick explanation on NPS because it's not so easy to understand." aria-label="回原文"></button>。最不愿意推荐别人入行的是设计师和研究员，相对最不排斥的是销售和产品经理（PM）<button class="pd-ts" data-t="32:10" data-who="Noam Segal" data-en="Neither would people in sales or go-to market, PMs, operations, engineering. And the worst of all, designers and researchers, my community are the least likely to recommend their role to other people coming into tech." aria-label="回原文"></button>。Lenny 观察到一个有趣的趋势解释了这种现象——如今流传着一个「不要成为永久底层阶级」的说法。像 PM 等角色的人心里在想：「好吧，我入行了，但这扇门正在关闭，别再进来了」<button class="pd-ts" data-t="35:13" data-who="Lenny" data-en="There's lots of confusion, and it's just not worth it anymore. There's this interesting also trend, there's this whole meme of don't become part of the permanent underclass." aria-label="回原文"></button>。
-
-Noam 用了 [[Cognition|Cognition]]（开发 AI 程序员 Devin 的公司）CEO 描述过的「阶梯」比喻来解释这种现象：我们都在看着 AI 攀爬能力的阶梯，它在不断抽走我们脚下的横档。你在阶梯上爬得越高、资历越老，你感到越安全；但越在底部，那些初级岗位的横档正在快速消失，所以自然没人推荐新人来踩这根随时会掉的横档 <button class="pd-ts" data-t="36:46" data-who="Noam Segal" data-en="Yeah. I like to use certain metaphors or examples from other areas in my life to explain these things, so I believe you spoke in the past to Scott Wu, the Co-Founder and CEO of Cognition." aria-label="回原文"></button>。
-
-> 【背景】Cognition 是一家 AI 公司，以其开发的 AI 软件工程师 Devin 闻名，Devin 展示了从初级到高级工程师能力的进化路径。转写稿中主持人和嘉宾探讨了这种进化对人类职业阶梯的冲击。
-
-但值得庆幸的是，大家情绪虽然矛盾，但并没有彻底绝望。人们用各种复杂的词汇描述当前的科技圈，呈现出一片混乱但充满机会的图景。一位资深 PM 精准地总结道：「科技圈现在是躁狂的。一半人脱离现实，死死抱住潮流的战车，疯狂涌入过度炒作中；而另一半人，则被前一半人弄得精疲力竭」<button class="pd-ts" data-t="80:37" data-who="Lenny" data-en="So many good quotes. Another one I see here, which was a good one, &quot;Tech is manic. Half out of touch, clinging to the bandwagon, pouring into the over hype." aria-label="回原文"></button>。
-
-## 决定你幸福的，是经理和公司规模
-
-面对这种冰火两重天、情绪极度撕裂的局面，普通人该如何破局？调查数据指出了两个非常清晰、甚至是连续两年被证实的决定性因素。
-
-首先，也是影响力最大的因素：**你的经理**。调查反复证明，你经理的有效性，决定了你的生死。数据显示，如果你有一位极其有效的经理，你的工作享受度会高出约 65%，倦怠感会大幅降低 <button class="pd-ts" data-t="73:19" data-who="Noam Segal" data-en="And this is a massive, massive effect that we're seeing. So if you have an extremely effective manager, for example, you're reporting around 65% higher job enjoyment and dramatically lower burnout." aria-label="回原文"></button>。但悲剧在于供给不足——只有大约 25% 的人认为自己的经理是高效的，36% 的人认为经理低效 <button class="pd-ts" data-t="73:38" data-who="Noam Segal" data-en="The problem is, is the supply. Only about 25% of the sample rates their manager as highly effective. And 36% of the sample rated their managers as ineffective." aria-label="回原文"></button>。
-
-Noam 提醒，在当前这个 AI 疯狂挤压员工、「[[大扁平化|大扁平化]]」时代让经理拥有更多直系下属的背景下，经理几乎决定了你被过度压榨的程度，他们是保护你的盾牌。不幸的是，因为设计和数据岗位本身情绪最消极，这些领域的经理也最受拖累，往往不自觉地把负面能量传递给了下属 <button class="pd-ts" data-t="76:27" data-who="Noam Segal" data-en="So interesting. That's a thing you can do. Obviously, easier said than done, but that's the biggest lever of things you can change." aria-label="回原文"></button>。
-
-其次，是**创始人和小公司光环**。调查显示，创始人群体在各项幸福感指标上遥遥领先：71% 感到乐观，对工作最满意，倦怠和裁员担忧最低 <button class="pd-ts" data-t="67:56" data-who="Noam Segal" data-en="It's very clear that founders are top of nearly every measure. They're 71% optimistic. They're enjoying their jobs the most." aria-label="回原文"></button>。（当然，这存在幸存者偏差，因为调查对象都是公司还活着的创始人。）同样，公司规模也呈现出极其线性的规律：公司越大，员工越容易倦怠、越担心裁员、越不推荐别人入行；公司越小（哪怕只有 1 到 10 人），员工的幸福感就越高 <button class="pd-ts" data-t="69:32" data-who="Lenny" data-en="Yeah. And then company size as well. Again, optimism goes down." aria-label="回原文"></button>。数据显示，在 1-10 人的初创公司工作，和在 5000-10000 人的大企业工作，倦怠程度有着天壤之别。
-
-## 面对巨变，我们该怎么办？
-
-既然工具已经改变了竞争环境，人该怎么办？基于上述数据，Noam 给员工和领导者分别开出了具体的「行动处方」。
-
-**如果你是普通员工（特别是独立贡献者 IC）：**
-1. **别当全能通才，深钻特定任务**：不要被「现在必须用 AI 做所有事」的叙事洗脑，那些试图什么都做的人最容易严重倦怠 <button class="pd-ts" data-t="85:20" data-who="Noam Segal" data-en="What does this tell us we should be doing if we could do anything to move ourselves basically into a happier place? So starting with, if you're an employee, especially if you're on IC working at a company, one thing we saw people who feel amplified and energized reporting is that they actually went deep on specific tasks and specific jobs to be done rather than trying to be the generalist who does everything." aria-label="回原文"></button>。
-2. **警惕并反抗「[[同薪挤压|同薪挤压]]」**：意识到你的工作范围正在无补偿地扩大。去做那个倦怠测试，拿着结果去跟经理重新界定你的工作范围。
-3. **死磕与经理的关系**：你的经理比任何事都重要。学会向上管理，投资这段关系。
-4. **考虑去小公司或创业**：数据证明，小公司的幸福感和健康度明显更高。
-5. **寻找导师**：如果你觉得脚下的职业阶梯在消失，去寻找愿意投资培养你的团队和导师。
-
-**如果你是团队或公司领导：**
-1. **砸钱投资经理培训**：在面临 AI 实验室疯狂挖人的当下，改善经理质量是你提升留存率最大的杠杆。
-2. **管理期望的「挤压」**：不要让 AI 抬高底线到了不可持续的地步，找出合理的期望值。
-3. **别让底层阶梯烂掉**：给初级人员上升的通道，因为他们往往也是最懂 AI 的原生代。
-4. **关注设计和研究等负面情绪重灾区的员工**，意识到 AI 在托举一部分人的同时，正在让另一部分人根基动摇。
-
-> 【背景】调查中还发现一个有趣的「AI 内疚感」现象。早期职业生涯的年轻人觉得使用 AI 像「作弊」。这种内疚感会随着资历增长而下降。Noam 提醒，这其实是冒名顶替综合征（觉得自己的成功不属于自己）在 AI 时代的变体，大家完全没必要为此内疚，AI 只会越来越强，尽情拥抱它就好 <button class="pd-ts" data-t="92:04" data-who="Noam Segal" data-en="But other than that, is there anything else that you want to share? There's one interesting phenomenon that I wanted to mention. We're starting to see this AI guilt, and in particular, amongst people who are early in their career in the sense that people who are early in their career feel like leveraging this technology is a little bit like cheating in a sense." aria-label="回原文"></button>。
+面对这种狂躁的局面，普通人该怎么破局？两位老搭档在最后给出了具体操作建议。首先，别去信什么「人人都要当全栈通才」的鬼话，调查发现那些什么都想试、想把 AI 用在所有事上的人最容易重度倦怠，你得挑几个最让你兴奋的具体任务深扎下去 <button class="pd-ts" data-t="85:20" data-who="Noam Segal" data-en="What does this tell us we should be doing if we could do anything to move ourselves basically into a happier place? So starting with, if you're an employee, especially if you're on IC working at a company, one thing we saw people who feel amplified and energized reporting is that they actually went deep on specific tasks and specific jobs to be done rather than trying to be the generalist who does everything." aria-label="回原文"></button>。其次，警惕「工作范围被无限扩大但薪水没变」的挤压，去做做报告里提供的倦怠测试，认清自己的底线后主动找经理重新划定工作范围。既然经理如此重要，就一定要投资与经理的关系，学会向上管理。如果在现在的公司实在看不到希望，也许可以考虑去小公司或者自己创业，又或者，如果你是新人，赶快去找一个愿意手把手带你的导师 <button class="pd-ts" data-t="87:01" data-who="Lenny" data-en="Things you can do based on this result. One is just if you're an employee, I think you have five pieces of advice. If you're a company, you have five-ish pieces of advice." aria-label="回原文"></button>。另外，Noam 还敏锐地捕捉到了一个新现象叫「AI 内疚感」——尤其是职业生涯早期的产品营销和数据分析师，他们觉得用 AI 像是在作弊，担心成功不属于自己。他劝大家别内耗：模型今天是最差的，以后只会更好，用就是了 <button class="pd-ts" data-t="92:08" data-who="Noam Segal" data-en="There's one interesting phenomenon that I wanted to mention. We're starting to see this AI guilt, and in particular, amongst people who are early in their career in the sense that people who are early in their career feel like leveraging this technology is a little bit like cheating in a sense." aria-label="回原文"></button>。最后，如果你是公司高管，听劝：在这个 AI 实验室到处拿钱挖人的档口，花在培训经理上的钱，绝对是你保住团队留任率花得最值的一笔投资。
 
 ## 本集带走
+最后收个尾，这一集值得带走的是这几句话。第一，AI 已经把科技圈劈成了两半，别以为大家都跟你感同身受，那些你觉得不可理喻的同事，可能只是陷入了「迷失」或者「被削弱」的另一半里。第二，现在的局面是「微笑着的疲惫」，大家都在享受造物的快感，但倦怠率因为期望值的无脑拔高而飙升，因 AI 失业其实排在恐惧榜倒数第二，人们最怕的是拿一样的钱被逼着干更多。第三，现在没人推荐新人入行，连最爽的创始人都在劝退，因为技术这把梯子正在抽走底层的横档。第四，想活得好一点，要么去小公司，要么死死抱住你那个高效的好经理，因为经理的优劣对你的身心健康有着一锤定音的影响。第五，对于普通人，别试图当包揽一切的全才，挑准一件事深扎，主动跟经理谈工作量，去找一个愿意带你的导师；对于公司高管，把钱砸在经理培训上，保住你的管理层，这才是抵御挖角和崩盘的终极杠杆。
 
-1. **AI 正在把科技圈整齐劈成两半**：一半人感觉能力被放大、充满活力；另一半人则陷入迷茫、不稳定或被削弱的负面情绪中。且 AI 对职场人身份认同的冲击影响量，远超你换公司或换岗位。
-2. **「同薪做更多事」的过度挤压才是最大的恐惧**：科技人最怕的不是被 AI 取代，而是无休止的速度要求带来的倦怠。同时，对 AI 产出的全盘接受，正在导致人类自身的「认知衰退」和技能萎缩。
-3. **大公司光环褪色，经理决定你的生死**：公司越大幸福感越低；相反，创始人和小公司员工最快乐。此外，一位好经理能极大提升你的工作体验并抵御倦怠，但遗憾的是，科技圈只有四分之一的经理被认为是高效的。
-4. **别贪多，深钻少数任务**：对个人而言，破局的解药不是用 AI 去做所有事（那只会让你沦为疲惫的通才），而是选定特定领域深钻；同时务必主动管理和反抗那种不可持续的工作期望挤压。
+<div class="pd-sec">全部金句 <span>13 条(中英对照,已过机器闸门)</span></div>
 
-<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
+> <span class="qz">我实际上首先要指出的是，只有 3% 的人报告说 AI 没有改变他们的身份。</span>  
+> *And I'll actually call out, first of all, that only 3% of people reported that AI hasn't shifted their identity.*  
+> <span class="qm">—— Noam Segal · [08:52]</span> ^q1
 
-> <span class="qz">而每次你把这种负担推卸给你最喜欢的 AI 模型时，你都在降低那个基线，而你的思考和判断正在旁观。</span>  
-> *And every time you offload that to your favorite AI model, you are lowering that baseline and your thinking and your judgment is watching.*  
-> <span class="qm">—— Noam Segal · [52:15]</span> ^q1
+> <span class="qz">我们就像处于工业革命边缘的农民，我们只是没有看到一条通往正在发生的事情的清晰路径。</span>  
+> *We're like farmers on the cusp of the industrial revolution and we just don't see a clear path to what's happening.*  
+> <span class="qm">—— Noam Segal · [16:47]</span> ^q2
 
-> <span class="qz">科技是躁狂的。一半人与现实脱节，死死抱住流行趋势，投入到过度宣传中。另一半人则被这一半人弄得精疲力竭。</span>  
-> *Tech is manic. Half out of touch, clinging to the bandwagon, pouring into the over hype. The other half are exhausted by the first half.*  
-> <span class="qm">—— Noam Segal · [80:40]</span> ^q2
+> <span class="qz">我被迫使用 AI 否则就会失去我的工作。</span>  
+> *I've been forced to use AI or lose my job.*  
+> <span class="qm">—— Noam Segal · [17:22]</span> ^q3
+
+> <span class="qz">在显著的职业倦怠方面，即高于中等程度的倦怠，我们已经从 2025 年的 44.7% 上升到 2026 年的 54.7%。</span>  
+> *When it comes to significant burnout, burnout that's higher than moderate, we've gone up from 44.7% in 2025 to 54.7% in 2026.*  
+> <span class="qm">—— Noam Segal · [20:30]</span> ^q4
+
+> <span class="qz">我有点在这个池子里游泳。水还可以，但你不应该进入这些科技水域，它们不适合你。</span>  
+> *I'm kind of swimming in this pool. The water's kind of okay, but you shouldn't come into these tech waters, they ain't for you.*  
+> <span class="qm">—— Noam Segal · [32:23]</span> ^q5
+
+> <span class="qz">我想说我们都在看着这项技术攀登这个阶梯的横档并前进，我们感觉技术正在把我们脚下的横档抽走。</span>  
+> *I would say that we are all watching this technology climb the rungs of this ladder and advance, and we feel like the technology is pulling those rungs from under us.*  
+> <span class="qm">—— Noam Segal · [37:32]</span> ^q6
+
+> <span class="qz">人们基本上告诉我们，「我的大脑正在腐烂。我的工作感觉更糟糕了。」</span>  
+> *People essentially told us, "My brain is rotting. My work feels worse."*  
+> <span class="qm">—— Noam Segal · [47:48]</span> ^q7
 
 > <span class="qz">生产力的提升是真实的，但工作的质量以及生产它的人的敏锐度正在受到打击。</span>  
 > *The productivity gains are real, but the quality of the work and the sharpness of the person producing it are taking a hit.*  
-> <span class="qm">—— Lenny · [52:31]</span> ^q3
+> <span class="qm">—— Lenny · [52:31]</span> ^q8
 
-> <span class="qz">AI 解锁的速度直接被投入到期望之中。每一项成就都成为新的基准，而那些被期望达到这一基准的人正几乎没有喘息的空间。</span>  
-> *The speed AI unlocked got plowed straight back into expectations. Every game becomes the new baseline and the people expected to hit it are running out of room to breathe.*  
-> <span class="qm">—— Lenny · [55:30]</span> ^q4
+> <span class="qz">关于这要说的第二点是，每次你，是你，不是 AI，解决了一个问题并克服了一个障碍，它都会提高你的自我效能感、自信心、自我信念的基线。</span>  
+> *Every time you, you, not the AI, solve a problem and get over a barrier, it increases, it raises your baseline of self-efficacy, of self-confidence, of self-belief.*  
+> <span class="qm">—— Noam Segal · [52:01]</span> ^q9
 
-> <span class="qz">人们感觉到 AI 正在以一种不可持续的方式提高门槛。</span>  
-> *People are feeling how AI is raising bars in ways that aren't sustainable.*  
-> <span class="qm">—— Noam Segal · [89:28]</span> ^q5
+> <span class="qz">“因 AI 而失去工作”实际上在榜单上倒数第二。</span>  
+> *Losing my job to AI is actually second to last on that list.*  
+> <span class="qm">—— Noam Segal · [53:45]</span> ^q10
 
-> <span class="qz">我怀疑它会消失。它今天是最糟糕的。它只会变得更好。</span>  
-> *I doubt it's going away. It's the worst it's ever going to be today. It's only getting better.*  
-> <span class="qm">—— Noam Segal · [93:15]</span> ^q6
+> <span class="qz">相反，我们看到升至榜首的是“以同样的薪水做更多工作”的期望。</span>  
+> *And instead what we saw rise up to the top is the expectation to do more for the same pay.*  
+> <span class="qm">—— Noam Segal · [53:51]</span> ^q11
 
-> <span class="qz">我们正处于一场大规模变革的第二局。没有人知道它将如何结束，但你所能做的就是继续挥棒击球。</span>  
+> <span class="qz">我们正处于一场巨大变革的第二局。没有人知道它将如何结束，但你所能做的就是继续挥棒击球。</span>  
 > *We're in the second inning of a massive shift. No one knows how it will end, but all you can do is keep taking at bats.*  
-> <span class="qm">—— Noam Segal · [80:11]</span> ^q7
+> <span class="qm">—— Noam Segal · [80:11]</span> ^q12
+
+> <span class="qz">我们开始看到这种 AI 内疚感，特别是在那些职业生涯早期的人中，意思是那些职业生涯早期的人觉得利用这项技术有点像作弊。</span>  
+> *We're starting to see this AI guilt, and in particular, amongst people who are early in their career in the sense that people who are early in their career feel like leveraging this technology is a little bit like cheating in a sense.*  
+> <span class="qm">—— Noam Segal · [92:08]</span> ^q13
 
 <div class="pd-sec">接着看</div>
 
@@ -155,8 +120,8 @@ Noam 提醒，在当前这个 AI 疯狂挤压员工、「[[大扁平化|大扁�
 
 **顺着「职业与个人成长」挖下去**
 
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经]] —— 同嘉宾:Lenny · 同公司:Anthropic
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同嘉宾:Lenny
+- [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]] —— 同嘉宾:Lenny · 同公司:Anthropic
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同嘉宾:Lenny
 - [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”]] —— 同嘉宾:Lenny
 
 </div>
@@ -165,8 +130,8 @@ Noam 提醒，在当前这个 AI 疯狂挤压员工、「[[大扁平化|大扁�
 **换个口味**
 
 - [[2025-11-23-lennys-a-guide-to-difficult-conversations|别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课]] —— 同嘉宾:Lenny · 同概念:职业倦怠 (burnout)
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评]] —— 同嘉宾:Lenny · 同公司:Airbnb、Ramp
-- [[2025-12-07-lennys-surge-ai-edwin-chen|Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理]] —— 同嘉宾:Lenny · 同公司:Anthropic
+- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|Keith Rabois：别招大厂高管，别做客户调研]] —— 同嘉宾:Lenny · 同公司:Airbnb、Ramp
+- [[2025-12-07-lennys-surge-ai-edwin-chen|10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来]] —— 同嘉宾:Lenny · 同公司:Anthropic
 
 </div>
 </div>

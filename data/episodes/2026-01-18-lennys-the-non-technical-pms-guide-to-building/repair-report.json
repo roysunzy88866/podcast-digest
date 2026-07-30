@@ -2,14 +2,6 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "07:17",
-      "speaker": "Zevi Arnovitz",
-      "trimmed": false,
-      "tsWas": "07:16",
-      "spkWas": "Zevi Arnovitz"
-    },
-    {
-      "i": 2,
       "timestamp": "11:31",
       "speaker": "Zevi Arnovitz",
       "trimmed": false,
@@ -17,27 +9,27 @@
       "spkWas": "Zevi Arnovitz"
     },
     {
+      "i": 2,
+      "timestamp": "12:47",
+      "speaker": "Zevi Arnovitz",
+      "trimmed": false,
+      "tsWas": "12:44",
+      "spkWas": "Zevi Arnovitz"
+    },
+    {
       "i": 3,
       "timestamp": "28:18",
       "speaker": "Zevi Arnovitz",
-      "trimmed": false,
-      "tsWas": "28:18",
+      "trimmed": true,
+      "tsWas": "28:26",
       "spkWas": "Zevi Arnovitz"
     },
     {
       "i": 4,
-      "timestamp": "43:07",
+      "timestamp": "46:31",
       "speaker": "Zevi Arnovitz",
       "trimmed": false,
-      "tsWas": "43:07",
-      "spkWas": "Zevi Arnovitz"
-    },
-    {
-      "i": 5,
-      "timestamp": "43:20",
-      "speaker": "Zevi Arnovitz",
-      "trimmed": false,
-      "tsWas": "43:17",
+      "tsWas": "46:31",
       "spkWas": "Zevi Arnovitz"
     },
     {
@@ -50,36 +42,26 @@
     },
     {
       "i": 7,
-      "timestamp": "55:53",
+      "timestamp": "64:34",
       "speaker": "Zevi Arnovitz",
       "trimmed": false,
-      "tsWas": "55:53",
+      "tsWas": "64:42",
       "spkWas": "Zevi Arnovitz"
     },
     {
       "i": 8,
-      "timestamp": "56:58",
-      "speaker": "Zevi Arnovitz",
-      "trimmed": false,
-      "tsWas": "56:58",
-      "spkWas": "Zevi Arnovitz"
-    },
-    {
-      "i": 9,
       "timestamp": "00:54",
       "speaker": "Lenny",
       "trimmed": false,
       "tsWas": "00:54",
-      "spkWas": "Zevi Arnovitz"
-    },
-    {
-      "i": 10,
-      "timestamp": "00:59",
-      "speaker": "Zevi Arnovitz",
-      "trimmed": false,
-      "tsWas": "00:59",
-      "spkWas": "Zevi Arnovitz"
+      "spkWas": "Unknown"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 5,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "I think there's a misconception with a lot of PMs that the job is always having the right answers and being the smartest person in the room."
+    }
+  ]
 }

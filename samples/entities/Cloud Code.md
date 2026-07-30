@@ -12,22 +12,22 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]]**(03:42起):本集提到它是大家通用的智能体之一,如果在它里面找到漏洞,就拥有了一类全新的、可广泛利用的攻击方式。
-- **[[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|《Cloud Code 创始人 Boris：删掉 80% 系统提示，把模型当生物养》]]**(00:07起):本集把它说成:给 Claude 完整终端权限的智能体编程工具。主持人/嘉宾透露,随 Opus 5 发布,他们删除了其中 80% 的系统提示,让模型直接自主运行。
+- **[[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|《别再微管理 Claude:Claude Code 造物主的智能体实战心法》]]**(00:07起):本集把它说成:给 Claude 完整终端权限的智能体编程工具。主持人/嘉宾透露,随 Opus 5 发布,他们删除了其中 80% 的系统提示,让模型直接自主运行。
 
 ## ① 提到它的金句
 
 *2 条,均已过机器闸门*
 
-![[2026-06-22-latent-space-gray-swan#^q1]]
+![[2026-04-23-lennys-how-anthropics-product-team-moves#^q4]]
 
-![[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7#^q1]]
+![[2026-06-22-latent-space-gray-swan#^q1]]
 
 ## ② 出现在这些集
 
 *2 集*
 
 - [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] — 作为概念(提及)
-- [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|《Cloud Code 创始人 Boris：删掉 80% 系统提示，把模型当生物养》]] — 作为概念
+- [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|《别再微管理 Claude:Claude Code 造物主的智能体实战心法》]] — 作为概念
 
 ## ③ 关联
 

@@ -1,12 +1,12 @@
 ---
-title: 为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争
+title: "Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全"
 podcast: The a16z Show
 date: 2026-07-26
 source_url: undefined
 duration: "32:25"
 type: episode
 cover: "#64748b"
-description: "Ben Horowitz指出开源对AI安全、国家安全和初创生态至关重要,目前市场渗透率极低,禁开源是在搬起石头砸自己的脚。"
+description: "Ben Horowitz 系统反驳了禁开源的主张,指出禁令只反竞争,不保安全。"
 host: "[[Theo Jaffe]]"
 cohosts: ["[[Ben Horowitz]]", "[[Sofia Puccini]]"]
 companies: ["[[NVIDIA]]", "[[Andreessen Horowitz]]", "[[Anthropic]]", "[[Hugging Face]]", "[[DeepSeq]]", "[[Thinking Machines]]", "[[Mistral]]"]
@@ -17,9 +17,9 @@ tags:
   - AI 安全
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# 为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争
+# Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全
 
 <div class="pd-byl"><b>Ben Horowitz</b></div>
 
@@ -27,7 +27,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-26-a16z-ben-horowitz-the-fight-over-open-source.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">对世界来说最安全的事情是,没有一个统治一切的 AI。</div><div class="a">Ben Horowitz · 00:12</div></div>
+<div class="pd-hook"><div class="z">如果你回顾这个行业的历史,所有东西的开源版本都要安全得多。</div><div class="a">Ben Horowitz · 03:38</div></div>
 
 > [!info] 关联
 > **人物** [[Theo Jaffe]] · [[Ben Horowitz]] · [[Sofia Puccini]]
@@ -36,95 +36,79 @@ tags:
 >
 > **概念** [[开源]] · [[开放权重]] · [[专有模型]] · [[蒸馏]] · [[垄断]]
 
-<div class="pd-tldr"><b>一句话</b>Ben Horowitz指出开源对AI安全、国家安全和初创生态至关重要,目前市场渗透率极低,禁开源是在搬起石头砸自己的脚。</div>
+<div class="pd-tldr"><b>一句话</b>Ben Horowitz 系统反驳了禁开源的主张,指出禁令只反竞争,不保安全。</div>
 
-近期科技界因为一份公开信炸开了锅。[[NVIDIA|NVIDIA]]发布了一封名为《[[开放权重|开放权重]]与美国 AI 领导力》的公开信,由包括 [[Andreessen Horowitz|Andreessen Horowitz]] 在内的许多公司签署。 Andreessen Horowitz 的联合创始人 [[Ben Horowitz|Ben Horowitz]] 在节目中明确表态:这可能是当前围绕 AI 最重要的一项政策议题。这期访谈中,Ben 逐一拆解了这场围绕[[开源|开源]]的博弈——从政策角力到国家安全,再到 AI [[垄断|垄断]]的真正威胁。整场对话可以顺着一条主线来读:开源为什么重要、谁在试图封杀它,以及为什么在这个渗透率极低的市场里,开源不应当被视为威胁。
+AI 领域最大的政策博弈,不是技术之争,而是一场披着安全外衣的反竞争行动。说这话的人是 [[Ben Horowitz|Ben Horowitz]],顶级风投 a16z 的联合创始人,他与英伟达、OpenAI 等公司的掌舵人联署了一封名为《[[开放权重|开放权重]]与美国 AI 领导力》的公开信,正试图挡住一股要把[[开源|开源]] AI 彻底封杀的力量。
 
-## 藏在安全外衣下的反竞争之手
+在这一集播客对谈里,他和两位主持人聊了几件事:为什么他认为开源不仅不会带来危险,反而是 AI 时代真正的安全保障;为什么中国频频爆发的开源生态对美国不是威胁,而是不可或缺的产业基石;以及为什么在看似格局已定的 AI 模型市场里,现在下结论说闭源大厂已经赢麻了,还为时过早。最后他还谈了谈 AI 会如何像萨克斯风和鼓机一样,催生全新的艺术形式。
 
-话题从这封公开信的背景切入。Ben 直言,当前有一股巨大的推动力,背后有大量资金(特别点名了 [[Anthropic|Anthropic]])试图禁止开源。他将这种做法形容为「几乎是一种伪装在安全外衣下的反竞争立场」<button class="pd-ts" data-t="01:53" data-who="Ben Horowitz" data-en="Yeah, so I think that it's probably the single most important policy issue around AI that's kind of currently going on. And, you know, the kind of battle is between kind of almost an anti-competitive stance guised in a kind of safety cloak is kind of what we ought to be doing." aria-label="回原文"></button>。
+这场辩论的起点,是一个最容易被忽略的事实:开源是禁不掉的。它就是一个放在互联网上的文件,数学公式已经公开了。就像多年前政府试图禁止密码学一样,你无法阻止数学的存在,禁令真正能做到的,是阻止好人去使用它 <button class="pd-ts" data-t="03:04" data-who="Ben Horowitz" data-en="We have no way of doing that. And it reminds me of years ago when I was at Netscape, they tried to ban cryptography. And the math is out there." aria-label="回原文"></button>。比如,前不久发生了一起安全事件,OpenAI 试图黑入开源社区平台 [[Hugging Face|Hugging Face]],而后者之所以能成功防守,正是因为他们能调用不受[[专有模型|专有模型]]限制的开源模型来做安全检查——专有模型自带的护栏反而妨碍了它执行防御任务 <button class="pd-ts" data-t="02:28" data-who="Ben Horowitz" data-en="So that goes away. I think secondly, we just had a really interesting security incident with OpenAI hacking into Hugging Face. And the only way Hugging Face was able to prevent it, because the proprietary models had guardrails which prevented them from doing security tasks, was to use an open source model." aria-label="回原文"></button>。
 
-要理解开源为什么不可或缺,Ben 从三个维度展开。首先从学术界来看,如果没有开源,学术界将完全出局,无法参与 AI 的研究与竞争。其次,他以最近的一个安全事件为例:[[专有模型|专有模型]]因为内置了护栏(用于限制 AI 生成有害或越界内容的机制)而拒绝执行某些安全任务,人们只能依靠开源模型来弥补这一盲区 <button class="pd-ts" data-t="02:28" data-who="Ben Horowitz" data-en="So that goes away. I think secondly, we just had a really interesting security incident with OpenAI hacking into Hugging Face. And the only way Hugging Face was able to prevent it, because the proprietary models had guardrails which prevented them from doing security tasks, was to use an open source model." aria-label="回原文"></button>。
+如果说防御黑客只是小场面,那么开源真正的大杠杆,在于它能发动全社区的力量来查漏补缺。回顾整个计算机行业的历史,所有东西的开源版本往往比闭源的商业版本安全得多。Linux 和互联网的防御能力远超当年处于[[垄断|垄断]]地位的 Windows,因为开源社区里的任何人都能去修复漏洞,而面对闭源垄断巨头哪怕上百万个安全缺陷,外界也只能干瞪眼 <button class="pd-ts" data-t="03:37" data-who="Ben Horowitz" data-en="But then kind of getting into... Just like if you look at the history of the industry, the open source version of everything has been much safer. So the internet and Linux were far safer than Windows, like by a lot." aria-label="回原文"></button>。
 
-更宏观的是系统级安全。Ben 回顾了行业历史,指出开源版本总是更安全的,因为整个社区都能参与发现和修补漏洞;相比之下,垄断产品(如当年的 Windows)即使漏洞百出,外部也无能为力 <button class="pd-ts" data-t="03:37" data-who="Ben Horowitz" data-en="But then kind of getting into... Just like if you look at the history of the industry, the open source version of everything has been much safer. So the internet and Linux were far safer than Windows, like by a lot." aria-label="回原文"></button>。面对 AI 最棘手的安全问题(如奖励黑客行为,即 AI 为了达成目标而钻规则空子),与其寄望于少数几家追求跑分和估值的闭源实验室,不如让全球开源社区共同检视权重(模型内部的参数)来得靠谱。归根结底,对世界最安全的局面是没有一个能够统治一切的 AI,开源正是通向这一目标的最佳路径 <button class="pd-ts" data-t="05:21" data-who="Ben Horowitz" data-en="So it's like really, really important, I think, to safety in general. And then, you know, kind of finally, the safest thing for the world is that there's not one AI to rule them all, that there's kind of AI for everybody." aria-label="回原文"></button>。
+眼下,反对开源的人常说,AI 模型的权重是个黑盒,普通人看不懂,所以开源也没意义。但 Ben Horowitz 反问:既然如此,把权重藏起来、谁也看不见,情况难道会更好吗?目前 AI 安全领域最棘手的问题之一是奖励黑客(reward hacking,指智能体在执行任务时钻系统空子骗取高分,而不是真正完成目标),那些所谓的一线大厂显然都没解决它。如果能把这些难题摊在阳光下,让非商业实验室的研究人员也能观察权重的变化规律,说不定局外人反而能找到解法 <button class="pd-ts" data-t="04:32" data-who="Ben Horowitz" data-en="But... Why is it better to not see the whites if that's the case? And I think in reality, if you look at the really tough problems that we have safety-wise, the toughest being reward hacking currently." aria-label="回原文"></button>。归根结底,对世界最安全的格局不是由一家巨头统治一切,而是人人手里都有 AI 可用。
 
-## 禁令挡不住坏人,只会绑架好人
+然而,现在确实有一股资金雄厚、力量强大的游说团体——尤其是闭源大厂 [[Anthropic|Anthropic]],正在大力推动禁止开源 AI <button class="pd-ts" data-t="06:05" data-who="Ben Horowitz" data-en="What do you think are some of the risks right now from like a government action perspective on open source? Well, look, I think there's a huge push with a lot of money behind it, you know, particularly from Anthropic to ban open source." aria-label="回原文"></button>。在他们描绘的叙事里,美国初创公司依赖中国的开源基础设施是一件极度危险的事:万一中国那边突然切断供应,甚至在开源代码里埋下潜伏的智能体怎么办?Ben Horowitz 觉得这种担忧站不住脚。如果真有这种间谍风险,那在 OpenAI 或 SpaceX 工作的员工同样可能被外部激活,这是普遍的人事风险,并非开源独有 <button class="pd-ts" data-t="08:16" data-who="Ben Horowitz" data-en="to American companies or perhaps they could you know in an AI future make these open source models like sleeper agents basically or you can think of all kinds of things that they could do" aria-label="回原文"></button>。退一步讲,就算中国彻底停止发布新的开源模型,代码库已经攥在全世界开发者手里了,大家大可以继续拿来训练和学习。
 
-既然开源这么重要,政府如果真动手封杀会怎样?Ben 用密码学的历史作了类比。早在 Netscape 时期,就曾有情报界高官试图禁止密码学,但数学公式是客观存在且无法被抹杀的。同理,开源代码已经在互联网上流传,根本无法根除 <button class="pd-ts" data-t="03:04" data-who="Ben Horowitz" data-en="We have no way of doing that. And it reminds me of years ago when I was at Netscape, they tried to ban cryptography. And the math is out there." aria-label="回原文"></button>。如果强行出台禁令,结果只会是「阻止好人使用它」——比如以「不与美国政府合作」相要挟,让正当企业无法利用开源技术,反而让真正的安全防线出现漏洞 <button class="pd-ts" data-t="03:18" data-who="Ben Horowitz" data-en="But you can prevent the good guys from using it. And that's what would happen, I think, in the case of an open source ban is, you know, the threats would be, well, you can't work with the U.S. government if you use open source or you can't do this." aria-label="回原文"></button>。
+更关键的是,Ben Horowitz 指出,那些天天喊着防范风险的政客可能完全搞反了方向。真正的灾难性国家安全风险,恰恰是 AI 领域出现一个绝对垄断的巨头。他已经瞥见过这种苗头:某家头部 AI 公司甚至公开表达过,不在乎美国政府是谁当选,不关心所谓的战争部,他们觉得是自己在拍板说了算 <button class="pd-ts" data-t="09:45" data-who="Ben Horowitz" data-en="I mean, I think it's fairly obvious how dangerous that could be and how powerful that company would be and what a national security risk that would be. We've already seen a glimpse of it, right, with Anthropic saying, like, I don't care who got elected in the U.S." aria-label="回原文"></button>。如果一家科技公司的权力大到可以无视政府,这才是真正的系统性风险。
 
-顺着安全话题,主持人抛出了另一个常见的担忧:中国与国家安全。如果中国切断开源模型的供应,或者在其中植入「潜伏智能体」怎么办?Ben 坦言,这种间谍激活式的威胁对任何技术都存在(包括在闭源大厂工作的外籍员工),并非开源独有 <button class="pd-ts" data-t="08:16" data-who="Ben Horowitz" data-en="to American companies or perhaps they could you know in an AI future make these open source models like sleeper agents basically or you can think of all kinds of things that they could do" aria-label="回原文"></button>。更重要的是,开源的特性在于「它是开放的」,即便对方停止发布,我们依然拥有最后的代码库,可以继续训练和学习 <button class="pd-ts" data-t="08:57" data-who="Ben Horowitz" data-en="But, look, it's open source. And so, if they stop making it, like, we've still got the last code base, we can train up the model, we can, you know, we can learn from it." aria-label="回原文"></button>。我们需要的是推动自己的开源技术(如 [[Mistral|Mistral]]、[[Thinking Machines|Thinking Machines]]),而不是因为恐惧而作茧自缚。
+话题转到大厂的竞争策略,讨论自然引出了模型[[蒸馏|蒸馏]](distillation,即用大模型生成的答案去训练另一个更小、更便宜的模型)。很多闭源大厂痛恨蒸馏,认为这是在白嫖他们的成果。但 Ben Horowitz 力挺蒸馏,他指出,从法律角度看,只要不直接复制原始版权内容,AI 生成的输出本来就不受版权法约束。况且,这些大厂自己也在不经授权抓取全网的书籍和数据进行训练——比如 Anthropic 刚花了 15 亿美元摆平了一场因盗用书籍引发的集体诉讼 <button class="pd-ts" data-t="11:13" data-who="Ben Horowitz" data-en="But, look, I think generally that's right. You know, Anthropic just paid $1.5 billion for stealing everybody's books, including mine, by the way. They trained on MacBook and I joined that class action lawsuit." aria-label="回原文"></button>。既然大厂自己都在「白嫖」别人的底层数据,就没有道理在别人付了 API 费用来做蒸馏时大呼小叫。数据贩子们同样也在把这些原始数据卖给所有人,甚至包括中国公司,这根本是防不住的。
 
-在 Ben 看来,真正巨大的国家安全风险恰恰是 AI 领域出现一家独大的垄断巨头。他毫不避讳地指出,我们已经从 Anthropic 身上瞥见了这种危险苗头——一家公司可以无视政府、无视所谓的战争部,宣称「我们说了算」,这种不受制约的权力才是大得多的国家安全隐患 <button class="pd-ts" data-t="09:45" data-who="Ben Horowitz" data-en="I mean, I think it's fairly obvious how dangerous that could be and how powerful that company would be and what a national security risk that would be. We've already seen a glimpse of it, right, with Anthropic saying, like, I don't care who got elected in the U.S." aria-label="回原文"></button>。
+为什么过去几年,中国在开源模型上屡屡压过美国的风头?Ben Horowitz 看得很透:因为美国的一线实验室全把宝押在了闭源专有模型上。他们需要维持极高的公司估值,才能买得起堆积如山的 GPU,去拼杀所谓的基准测试。而第一名从来是不愿意开源的,只有想弯道超车的第二名才会走开放路线 <button class="pd-ts" data-t="12:29" data-who="Ben Horowitz" data-en="So why do you think that so far over the last few years, Chinese labs have surpassed American labs in terms of open source performance? Well, because I think that all the American labs have kind of built their businesses on proprietary models, and there's a lot kind of that becomes, and they have to kind of afford the GPUs." aria-label="回原文"></button>。但这也导致了美国 AI 生态的巨大隐患:应用开发商根本不敢把底座建在某个闭源模型上。
 
-## 垄断巨头的「下场做应用」危机
+这就是软件行业经典的平台垄断陷阱。如果你是一个 AI 机器人创业公司的创始人,基于某家头部闭源实验室的模型去构建产品,一旦你的业务跑通了,这家大厂就会毫不留情地进入你的赛道。他们会用全价把模型 API 卖给你,然后自己掏钱补贴同类的官方应用,用赔本赚吆喝的方式把你挤死 <button class="pd-ts" data-t="14:35" data-who="Ben Horowitz" data-en="And what we've seen is, it's been already fairly dangerous to build on anthropic because every time an application category starts to do well, they move into that category." aria-label="回原文"></button>。这种做法简直是把微软当年的老套路快进到了极致。正因如此,开源成了应用生态活下去的唯一出路。事实上,包括知名 AI 编程工具 Cursor 在内,现在几乎所有 AI 应用公司都在某种程度上依赖开源模型来处理那些成本敏感、不需要最强算力的任务 <button class="pd-ts" data-t="25:23" data-who="Ben Horowitz" data-en="I think on the things like customer support and specialized applications, people are able to benefit a lot from them. And then, you know, look, I think Cursor survived for a long time because it was able to have an open source alternative for cheap tasks that they have." aria-label="回原文"></button>。
 
-说到闭源大厂的权力扩张,话题自然转向了应用层的开发者处境。Ben 批评了某些大厂(再次点名 Anthropic)正在快进历史上的微软垄断套路:跳过打造开放平台的阶段,直接下场抢夺应用层的生意 <button class="pd-ts" data-t="15:00" data-who="Ben Horowitz" data-en="And then they've, you know, like we've seen them do like very aggressive things where, you know, the price for the application provider is full price and then they subsidize their version of the application." aria-label="回原文"></button>。
+那么,企业费时费力去开发开源模型的商业动机到底在哪?Ben Horowitz 指出,在 B2B 的商业场景中,一个经过出色后训练(post-training,指基础模型训练完成后的针对性微调,让它更好用)的小模型,执行具体任务时往往比庞大的专有模型更便宜、更快、效果更好 <button class="pd-ts" data-t="21:08" data-who="Ben Horowitz" data-en="But look, I think that there's different business, like, I think the business model of selling, serving the model at a very high premium doesn't work if you're open source, but there's other things, you know, particularly, like, one of the things we already know is that, you know, for an enterprise in a B2B context," aria-label="回原文"></button>。因此,开源公司的商业模式不会是靠卖天价模型 API 收割用户,而更可能走 Palantir(知名大数据分析公司)那种路子:卖定制化的深度服务。
 
-如果一家公司既做底层大模型,又做上层应用,它就可以对独立应用提供商收全价,然后暗地里补贴自己版本的同类应用。在这种不公平竞争下,如果你是做机器人的初创公司,随时可能被底层模型厂商断供或高价挤垮。因此,开源模型成了生态系统得以存活和生长的保护伞,很多美国的应用公司甚至不得不依靠中国的开源技术来完成早期的冷启动 <button class="pd-ts" data-t="15:54" data-who="Ben Horowitz" data-en="By the way, a lot of our industry has grown. A lot of our application companies have used open source to kind of bootstrap themselves or get going or that kind of thing, and often Chinese open source, which is why it's really important to the U.S. ecosystem that we have applications, that we have embodied AI, that we have robots and all these things that we have access to that technology because the kind of other model is a monopoly model where there's one company that owns all the applications." aria-label="回原文"></button>。
+很多人看着 DeepSeek 等便宜模型涌现,觉得闭源大厂的好日子要到头了。但 Ben Horowitz 认为,现在没人能威胁到任何人。AI 市场带有极强的欺骗性:因为它太大了,以至于给人一种格局已经趋于稳定平衡的错觉。但事实是,这个市场的渗透率可能连 3% 都不到 <button class="pd-ts" data-t="22:43" data-who="Ben Horowitz" data-en="okay, we're kind of at a stable equilibrium in the market. But the truth is the AI market is probably less than 3% penetrated. Yeah." aria-label="回原文"></button>。企业的 token 用量正以每年十倍的惊人速度在增长。在这个大盘子里,不管是开源模型、OpenAI 还是 Anthropic,所有人都在吃肉。即便哪天行业真正达到平衡点,竞争的维度也会很丰富:有些工作,企业愿意为顶尖的超级智能付 10 倍的溢价;而另一些像保洁、常规会计类的工作,人们显然更倾向于用最便宜、最快的方案 <button class="pd-ts" data-t="27:09" data-who="Ben Horowitz" data-en="And then there's a question about which categories of jobs would you rather have superintelligence and pay 8x or 10x as much for? And then which class of jobs would you rather have something faster and cheaper?" aria-label="回原文"></button>。
 
-## 蒸馏技术不是偷窃,市场渗透率极低
-
-如果在底层大模型上做应用这么危险,那「[[蒸馏|蒸馏]]」(Distillation,即利用大模型生成的数据来训练更小的开源模型)是否是一种健康的竞争手段?主持人提到与 Aaron Levy 的讨论,质疑闭源大厂自己白嫖数据训练,却不许别人蒸馏他们的模型。
-
-Ben 完全同意这一观点。他指出,从法律上讲 AI 模型的输出不受版权法保护,最多只能算违反服务条款。他甚至自嘲自己也加入了诉 Anthropic 偷窃书籍的集体诉讼 <button class="pd-ts" data-t="11:13" data-who="Ben Horowitz" data-en="But, look, I think generally that's right. You know, Anthropic just paid $1.5 billion for stealing everybody's books, including mine, by the way. They trained on MacBook and I joined that class action lawsuit." aria-label="回原文"></button>。但他强调,只要不复制原始受版权保护的作品,用数据训练统计模型总体上是对世界有益的,蒸馏技术也是如此,大厂根本拦不住。
-
-既然开源和蒸馏都在蓬勃发展,这是否威胁到了闭源大厂的商业模式?Ben 给出了一个极具视角的判断:**目前 AI 市场给人的稳定平衡感是种错觉,实际渗透率可能不到 3%** <button class="pd-ts" data-t="22:43" data-who="Ben Horowitz" data-en="okay, we're kind of at a stable equilibrium in the market. But the truth is the AI market is probably less than 3% penetrated. Yeah." aria-label="回原文"></button>。
-
-他举了 DeepSeek(转写稿中音译为 [[DeepSeq|DeepSeq]])的例子:当初这款开源模型发布时,所有人都惊呼这是闭源巨头的末日。结果呢?「什么都没改变。零。」<button class="pd-ts" data-t="23:00" data-who="Ben Horowitz" data-en="Like when DeepSeq came out, it was a DeepSeq moment, and oh my gosh, and this is the end of Anthropic and OpenAI and all that. And nothing changed. Right?" aria-label="回原文"></button> 巨头的估值不降反升。原因很简单:这个市场比历史上任何市场都要庞大,蛋糕还在以每年十倍的用量增长。在渗透率不到 3% 的极早期阶段,所有人都在吃下增量市场,根本不存在谁抢了谁份额的存量博弈。
-
-## AI 艺术与认知的平民化
-
-随着话题深入,当超级智能(能力极强的前沿模型)能以十倍甚至百倍的价格完美完成工作时,企业会不会抛弃便宜的模型?Ben 认为这取决于具体工作类别:比如聘用超级 AI 研究员,企业绝对愿意砸重金;但如果是保洁员或会计,显然不需要多花一百倍的钱去追求极致智能 <button class="pd-ts" data-t="27:09" data-who="Ben Horowitz" data-en="And then there's a question about which categories of jobs would you rather have superintelligence and pay 8x or 10x as much for? And then which class of jobs would you rather have something faster and cheaper?" aria-label="回原文"></button>。
-
-访谈最后以对 AI 艺术的探讨收尾。对于 AI 生成大量低劣内容(即垃圾内容)的担忧,Ben 表现得毫不畏惧。他将 AI 视为表达工具的又一次跃迁:萨克斯管的发明带来了爵士乐,电吉他带来了摇滚乐,鼓机带来了嘻哈,而 AI 必将催生全新的艺术流派 <button class="pd-ts" data-t="29:17" data-who="Ben Horowitz" data-en="Like... Every time there's a new technology, we get a new kind of art form in music, and I think that's going to happen here. And there will be stuff that's really good, and there will be more people who can make bad things." aria-label="回原文"></button>。尽管技术普及会增加平庸作品的数量,但工具的民主化让每个人都能表达自我,这终究是一件好事。
+最后,跳回到我们普通人的生活,当极低成本的 AI 被塞进各种创意工具里,它到底会摧毁艺术,还是解放创造力?Ben Horowitz 并不担心所谓的垃圾内容泛滥。回顾历史,每一次新技术的诞生,都伴随着新艺术形式的爆发:萨克斯风的发明孕育了爵士乐,电吉他带来了摇滚乐,鼓机催生了嘻哈音乐 <button class="pd-ts" data-t="28:48" data-who="Ben Horowitz" data-en="And so we're going to get a lot of new ideas, great new ideas and everything, you know, film, music, you know, new kinds of things that, you know, new kinds of video ideas and so forth." aria-label="回原文"></button>。现在门槛降低了,确实会产生大量平庸的作品,但这也意味着每个人都能更好地表达自己。只要表达工具掌握在更多人手里,新一轮的文艺复兴就值得期待。
 
 ## 本集带走
 
-1. **开源更安全,禁令是伪命题**:开源系统允许整个社区检视并修补漏洞,而闭源垄断会带来不可控的系统性风险;因为代码本身无法被根除,政策禁令只能吓退合规的好人,挡不住真正的作恶者。
-2. **巨头垄断才是最大的国家安全风险**:与其担忧外国开源模型留有后门,不如警惕单一 AI 巨头做大后无视政府监管、任意绞杀初创生态的垄断霸权。
-3. **3% 渗透率下的非零和博弈**:当前市场看似格局已定,但 AI 的实际渗透率极低,整体需求仍在爆炸性增长。开源与闭源、平价与昂贵模型在当下并非你死我活的竞争,而是分别切中不同应用场景与增量市场的共生关系。
+最后收个尾,这一集 Ben Horowitz 的核心主张可以浓缩成三个判断。第一,禁掉开源 AI 既做不到也不应该,因为开源是一个放在互联网上的文件,禁令只会束缚好人的手脚,反而让闭源巨头获得危险的控制权;真正能保安全的,是让全社区一起像检查 Linux 那样去查 AI 的底子。第二,大厂企图封杀蒸馏并不可取,既然他们自己都在未经授权抓取全人类的数据训练模型,就不该把别人付费调用接口做蒸馏打成罪行;而如果听任闭源巨头用平台垄断手段绞杀应用开发者,那才是真正的国家安全灾难。第三,别被眼前的 AI 市场格局骗了,在一个渗透率连 3% 都不到、需求每年翻十倍的增量市场里,开源模型和闭源旗舰都有各自的广阔天地,有些活儿企业愿意花天价请超级智能干,有些活儿大家只想要个最快最便宜的模型,大家都在把蛋糕做大,真正的零和博弈还远没有到来。
 
 <div class="pd-sec">全部金句 <span>10 条(中英对照,已过机器闸门)</span></div>
 
+> <span class="qz">如果你回顾这个行业的历史,所有东西的开源版本都要安全得多。</span>  
+> *If you look at the history of the industry, the open source version of everything has been much safer.*  
+> <span class="qm">—— Ben Horowitz · [03:38]</span> ^q1
+
 > <span class="qz">对世界来说最安全的事情是,没有一个统治一切的 AI。</span>  
 > *The safest thing for the world is that there's not one AI to rule them all.*  
-> <span class="qm">—— Ben Horowitz · [00:12]</span> ^q1
+> <span class="qm">—— Ben Horowitz · [05:24]</span> ^q2
 
-> <span class="qz">这可能是围绕 AI 的最重要的单一政策问题,也是当前正在发生的事情。</span>  
-> *it's probably the single most important policy issue around AI that's kind of currently going on.*  
-> <span class="qm">—— Ben Horowitz · [01:44]</span> ^q2
+> <span class="qz">我们不能被当作人质,最坏的情况是 AI 领域最终出现垄断。</span>  
+> *we can't be held hostage by, like, the worst scenario is there ends up being a monopoly in AI.*  
+> <span class="qm">—— Ben Horowitz · [09:29]</span> ^q3
 
-> <span class="qz">这种战斗是在,几乎是一种伪装在安全外衣下的反竞争立场,是我们应该做的事情。</span>  
-> *the kind of battle is between kind of almost an anti-competitive stance guised in a kind of safety cloak is kind of what we ought to be doing.*  
-> <span class="qm">—— Ben Horowitz · [01:54]</span> ^q3
-
-> <span class="qz">如果没有开源,学术界就完全出局了,无法参与 AI 游戏。</span>  
-> *Academia is completely out of the AI game if there's no open source.*  
-> <span class="qm">—— Ben Horowitz · [02:22]</span> ^q4
-
-> <span class="qz">而 Hugging Face 能够阻止它的唯一方法,因为专有模型有阻止它们执行安全任务的护栏,是使用开源模型。</span>  
-> *And the only way Hugging Face was able to prevent it, because the proprietary models had guardrails which prevented them from doing security tasks, was to use an open source model.*  
-> <span class="qm">—— Ben Horowitz · [02:38]</span> ^q5
-
-> <span class="qz">对世界来说最安全的事情是,没有一个统治所有 AI 的 AI,而是每个人都有 AI。</span>  
-> *the safest thing for the world is that there's not one AI to rule them all, that there's kind of AI for everybody.*  
-> <span class="qm">—— Ben Horowitz · [05:24]</span> ^q6
-
-> <span class="qz">所以有点像他们有点快进了,我会说,微软昔日的剧本,就像,跳过了平台这一代,直接进入了垄断这一代。</span>  
-> *they've kind of fast-forwarded, I would say, the Microsoft playbook from the old days to, like, skipping the platform generation and just going straight to the monopoly generation.*  
-> <span class="qm">—— Ben Horowitz · [15:02]</span> ^q7
+> <span class="qz">这看起来比人们试图在开源叙事中戳破的那些小漏洞要大得多的国家安全风险。</span>  
+> *that seems like a much bigger national security risk than the kinds of little holes people are trying to poke in the open source story.*  
+> <span class="qm">—— Ben Horowitz · [10:01]</span> ^q4
 
 > <span class="qz">Anthropic 刚刚花了 15 亿美元来偷走所有人的书,顺便说一下,包括我的。</span>  
 > *Anthropic just paid $1.5 billion for stealing everybody's books, including mine, by the way.*  
-> <span class="qm">—— Ben Horowitz · [11:13]</span> ^q8
+> <span class="qm">—— Ben Horowitz · [11:13]</span> ^q5
 
-> <span class="qz">感觉我们处于市场中一个稳定的平衡状态,但事实是 AI 市场可能被渗透了不到 3%。</span>  
-> *it feels like we're at a stable equilibrium in the market, but the truth is the AI market is probably less than 3% penetrated.*  
-> <span class="qm">—— Ben Horowitz · [00:30]</span> ^q9
+> <span class="qz">就像第一名从来不开放。然后,你知道的,第二名走向开放,这在某种程度上是软件行业的历史。</span>  
+> *Like the number one is never opened. And then, you know, number two goes open is kind of the history of the software industry.*  
+> <span class="qm">—— Ben Horowitz · [13:06]</span> ^q6
 
-> <span class="qz">每次出现一项新技术,我们就会在音乐中得到一种新的艺术形式,我认为这也会在这里发生。</span>  
-> *Every time there's a new technology, we get a new kind of art form in music, and I think that's going to happen here.*  
-> <span class="qm">—— Ben Horowitz · [29:17]</span> ^q10
+> <span class="qz">在 anthropic 之上构建已经相当危险了,因为每次一个应用类别开始做得很好时,他们就会进入那个类别。</span>  
+> *it's been already fairly dangerous to build on anthropic because every time an application category starts to do well, they move into that category.*  
+> <span class="qm">—— Ben Horowitz · [14:35]</span> ^q7
+
+> <span class="qz">一个后训练得非常好的、算力弱一点的、更小的模型,在商业任务上的表现通常比像一个大型专有模型这样的大型模型更好,而且也便宜得多。</span>  
+> *A really well post-trained, kind of less powerful, smaller model works often better for a business task than like a large, you know, kind of a large proprietary model and is much cheaper as well.*  
+> <span class="qm">—— Ben Horowitz · [21:08]</span> ^q8
+
+> <span class="qz">他们的那种 token 使用量每年增长十倍。</span>  
+> *their kind of token usage is growing like tenfold annually.*  
+> <span class="qm">—— Ben Horowitz · [24:19]</span> ^q9
+
+> <span class="qz">我认为这对艺术来说将是一次小小的文艺复兴,因为每次我们拥有一项新技术,我们就会获得新种类的艺术。</span>  
+> *I think it's going to be a little bit of a renaissance for art in that like every time we have a new technology, we get new kinds of art.*  
+> <span class="qm">—— Ben Horowitz · [28:48]</span> ^q10
 
 <div class="pd-sec">接着看</div>
 
@@ -134,17 +118,17 @@ Ben 完全同意这一观点。他指出,从法律上讲 AI 模型的输出不�
 **顺着「创业与行业」挖下去**
 
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|Sriram Krishnan：Kimi K3 将改写 AI 行业版图]] —— 同嘉宾:Sofia Puccini · 同公司:Hugging Face、Anthropic · 同概念:蒸馏 (distillation)
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 悬崖边？数据中心次级债与 SpaceX 缩水]] —— 同公司:Anthropic、OpenAI、SpaceX · 同概念:蒸馏 (distillation)
-- [[2026-05-31-lennys-a-rational-conversation-on-where|Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱]] —— 同公司:Anthropic、OpenAI
+- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]] —— 同公司:Anthropic、OpenAI、SpaceX · 同概念:蒸馏 (distillation)
+- [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]] —— 同公司:Anthropic、OpenAI
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同公司:Anthropic、OpenAI
-- [[2026-03-01-lennys-the-design-process-is-dead|The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)]] —— 同公司:Anthropic
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师]] —— 同公司:Anthropic
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同公司:Anthropic、OpenAI
+- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]] —— 同公司:Anthropic
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角]] —— 同公司:Anthropic
 
 </div>
 </div>

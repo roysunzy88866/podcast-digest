@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要》]]**(09:01起):本集提及的 Snap 早期拍照眼镜，2014 年左右首发，初衷是把相机从口袋里拿出来、让人更方便地在真实世界里拍照。
+- **[[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪》]]**(09:01起):本集提及的 Snap 早期拍照眼镜，2014 年左右首发，初衷是把相机从口袋里拿出来、让人更方便地在真实世界里拍照。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要》]] — 作为被讨论公司
+- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪》]] — 作为被讨论公司
 
 ## ③ 关联
 

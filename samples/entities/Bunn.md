@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|《Cloud Code 创始人 Boris：删掉 80% 系统提示，把模型当生物养》]]**(16:24起):本集把它说成:Claude Code 所基于的开源 JavaScript 运行时。它原本是用 Zig 编写的,后来团队让 Claude 利用动态工作流在 11 天内将其整个超 10 万行代码库从 Zig 重写为了 Rust。
+- **[[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|《别再微管理 Claude:Claude Code 造物主的智能体实战心法》]]**(16:24起):本集把它说成:Claude Code 所基于的开源 JavaScript 运行时。它原本是用 Zig 编写的,后来团队让 Claude 利用动态工作流在 11 天内将其整个超 10 万行代码库从 Zig 重写为了 Rust。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|《Cloud Code 创始人 Boris：删掉 80% 系统提示，把模型当生物养》]] — 作为概念
+- [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|《别再微管理 Claude:Claude Code 造物主的智能体实战心法》]] — 作为概念
 
 ## ③ 关联
 

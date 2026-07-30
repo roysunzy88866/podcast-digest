@@ -1,5 +1,5 @@
 ---
-title: "妻子反向采访 Lenny:百万订阅背后的真实人生"
+title: "Lenny 挨老婆采访:致幻剂、跑步机和五万分之一"
 podcast: "Lenny's Podcast"
 date: 2026-03-12
 source_url: https://www.lennysnewsletter.com/p/how-i-built-a-1m-subscriber-newsletter
@@ -7,7 +7,7 @@ duration: "66:51"
 type: episode
 cover: "#6366f1"
 image: "/covers/2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter.jpg"
-description: "Lenny 和妻子对谈,聊起写简报的契机、独自创业的孤独与高压,以及高产背后的反复迭代。"
+description: "Lenny 反被妻子拷问,坦白成名前最隐秘时刻,复盘孤独与恐惧。"
 host: "[[Lenny Rachitsky]]"
 cohosts: ["[[Michelle Rial]]"]
 companies: ["[[Substack]]", "[[Airbnb]]", "[[Medium]]"]
@@ -17,9 +17,9 @@ tags:
   - 增长与销售
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>妻子反向采访 Lenny:百万订阅背后的真实人生</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Lenny 挨老婆采访:致幻剂、跑步机和五万分之一</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# 妻子反向采访 Lenny:百万订阅背后的真实人生
+# Lenny 挨老婆采访:致幻剂、跑步机和五万分之一
 
 <div class="pd-byl"><b>Lenny Rachitsky</b></div>
 
@@ -27,7 +27,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">然后 COVID 来了,Airbnb 完蛋了。</div><div class="a">Lenny Rachitsky · 09:36</div></div>
+<div class="pd-hook"><div class="z">这种生活的一个挑战是,你可以通过做人们希望你做的事情,或者通过追随看似很大的机会,为自己创造一份你讨厌的工作,然后你就就像,“我讨厌这个。”</div><div class="a">Lenny Rachitsky · 39:13</div></div>
 
 > [!info] 关联
 > **人物** [[Lenny Rachitsky]] · [[Michelle Rial]]
@@ -38,71 +38,43 @@ tags:
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/how-i-built-a-1m-subscriber-newsletter)
 
-<div class="pd-tldr"><b>一句话</b>Lenny 和妻子对谈,聊起写简报的契机、独自创业的孤独与高压,以及高产背后的反复迭代。</div>
+<div class="pd-tldr"><b>一句话</b>Lenny 反被妻子拷问,坦白成名前最隐秘时刻,复盘孤独与恐惧。</div>
 
-[[Lenny Rachitsky|Lenny Rachitsky]] 是科技圈极具影响力的[[播客|播客]]主持人和[[简报|简报]]作者。但这期节目里,他坐到了被采访的位置,采访人是他的妻子 [[Michelle Rial|Michelle Rial]]——在这期播客发布当天正好是她的生日,她还即将出版童书《Charts for Babies》。两人角色互换,聊的不是行业趋势,而是 Lenny 如何走到今天:他在创办简报前的迷茫、持续产出的巨大压力,以及他面对的最可怕的个人时刻。全文围绕两个主线展开:一是 Lenny 意外走上内容创作之路的关键时刻与当下的挣扎;二是这对夫妻在各自创作生活中的真实体感——如何想点子、如何应对孤独和压力,以及为什么反复打磨是出好东西的唯一路径。
+在致幻剂作用下枯坐三小时,脑子里只回荡一句话「我有智慧要分享」——这是 Lenny 决心开始在网上写作的起点。这不是他的常规一期:在这集里,采访者是他做图表的作家妻子 Michelle,她把麦克风反转过来,拷问这个靠通讯和[[播客|播客]]吸引了 120 万订阅的男人 <button class="pd-ts" data-t="04:49" data-who="Lenny Rachitsky" data-en="Okay, babe. Yeah. Yeah, so you started your newsletter 2019 and it now has over a million subscribers." aria-label="回原文"></button>。两人是人生伴侣也是创作同谋,这场对谈杂糅了创作心法、私房往事与不少荒诞片段。
 
-## 并不顺理成章的起点
+从乌克兰来到美国的 Lenny 原本叫 Leonid,父母入籍时索性把名字改成了 Lenny <button class="pd-ts" data-t="27:55" data-who="Lenny Rachitsky" data-en="Everyone called me Lenny. And so when we became citizens, you could change your name. And so my parents just changed it to Lenny, so it's my real name." aria-label="回原文"></button>。他在 [[Airbnb|Airbnb]] 待了七年,最初的职业蓝图是继续创业或做大公司[[产品经理|产品经理]],「在网上写作赚钱」根本不在计划内 <button class="pd-ts" data-t="06:03" data-who="Lenny Rachitsky" data-en="Do you think you would've gotten a different job, stayed there? When I left my job, I was at Airbnb for seven years. I had plan A, start a company again." aria-label="回原文"></button>。转折是一系列「跟随牵引力」的瞬间:他在网上分享 Airbnb 经验的文章被推荐、被首席执行官分享;一位做 VC 的朋友劝他「既然你享受、读者又喜欢,就加倍投入试试」<button class="pd-ts" data-t="08:19" data-who="Lenny Rachitsky" data-en="I should be focusing on the startup.&quot; He's just like, &quot;You seem to be enjoying it. People seem to be liking it.&quot;" aria-label="回原文"></button>。每周更新九个月后,「[[林迪效应|林迪效应]](Lindy effect,指事物已存在多久,未来就大概率还能存续多久)」给了他底气,他设下[[付费墙|付费墙]],居然真赚到了钱 <button class="pd-ts" data-t="09:03" data-who="Lenny Rachitsky" data-en="I just remember this moment nine months in where I was like, &quot;Huh, I've been doing this every week for nine months, which means I could probably do this for nine more months.&quot;" aria-label="回原文"></button>。
 
-在 2019 年开始写简报之前,Lenny 在 [[Airbnb|Airbnb]] 待了七年,做过软件工程师和[[产品经理|产品经理]]。离开公司时,他的计划 A 是再次创业,计划 B 是去初创公司做第一个产品经理,计划 C 是去大公司做产品经理,计划 D 是做顾问。完全没有「写简报做成一项事业」这个选项 <button class="pd-ts" data-t="06:03" data-who="Lenny Rachitsky" data-en="Do you think you would've gotten a different job, stayed there? When I left my job, I was at Airbnb for seven years. I had plan A, start a company again." aria-label="回原文"></button>。
+但内容的机器一旦开动,就很难停下。Lenny 形容自己像被《夺宝奇兵》里的巨石一路狂追:昨天刚发完一篇,立刻就得想下一篇发什么 <button class="pd-ts" data-t="11:50" data-who="Lenny Rachitsky" data-en="It's a part of it. The visual I always have is the Indiana Jones boulder is chasing me constantly. Because you put out something, like I have a post come out... What's today?" aria-label="回原文"></button>。他坦言这种「每周必须交活」的跑步机生活不好受,但又想不出还有什么事能比这更让他满足 <button class="pd-ts" data-t="11:16" data-who="Lenny Rachitsky" data-en="I can't imagine doing anything else that I enjoy more. But having to write a post or put out a post every single week and a podcast episode every week, it's like this treadmill that you're on." aria-label="回原文"></button>。他还分享了一个从未公开过的早年场景:在约书亚树国家公园的单身汉旅行中,他在致幻剂作用下枯坐三小时,经历着深呼吸与「坐佛」的幻象,反复确认「我有智慧要分享」,这给了他把事做下去的原始底气 <button class="pd-ts" data-t="14:18" data-who="Lenny Rachitsky" data-en="Okay, you asked about going back to the moments that led me to this life. I went on a bachelor party trip with some friends. This isn't where you think it's going." aria-label="回原文"></button>。
 
-当时他一边探索创业点子,一边在 [[Medium|Medium]] 上写点东西。第一篇文章写的是他在 Airbnb 的经历,被 Brian Chesky 分享给了全公司 <button class="pd-ts" data-t="07:43" data-who="Lenny Rachitsky" data-en="A few moments along that journey. One was the first thing I wrote on the... This is the first thing I wrote on the internet, did very well. It was this post on what I learned at Airbnb." aria-label="回原文"></button>。这让他第一次觉得,也许自己真有东西可以分享。但他太太当时并不看好,直言「你在网上写作赚不到钱」 <button class="pd-ts" data-t="06:42" data-who="Michelle Rial" data-en="You can't make money on the internet writing. You should be doing this thing that you're good at, startups and building and tech and stuff like that.&quot; I'm just like, &quot;I don't know." aria-label="回原文"></button>。
+说完了自我赋权的灵光时刻,接下来是另一面的自我调适——Lenny 其实比看上去更焦虑。他偶尔会莫名头痛,猜测那是隐秘的压力;但他估计自己依然比常人淡定,并把这份从容归结于约 70% 的天生基因,以及 30% 的后天干预 <button class="pd-ts" data-t="13:25" data-who="Lenny Rachitsky" data-en="I think there's a bit of I'm probably more stressed than it looks like and that I even feel, but I think I'm probably less stressed than the average person. I think part of it is genetics, and then part of it is I work on it." aria-label="回原文"></button>。这种后天调适之一,是宾夕法尼亚大学一门关于幸福的在线课程:它教他,人的情绪总会从极高或极低回归基线,真正有效的做法是把这条「[[幸福基线|幸福基线]]」整体抬高,比如刻意保持乐观、拒绝让大脑滑入「完了」的灾难化漩涡 <button class="pd-ts" data-t="16:00" data-who="Lenny Rachitsky" data-en="Yeah, that was actually pretty transformative. I took this online course at University of Pennsylvania about the psychology of happiness, and it was basically all the science of what makes you happier and how to be happier." aria-label="回原文"></button>。
 
-转机来自几个时刻的累积。做 VC 的朋友 Lee Jacobs 听说他还在纠结要不要继续写,给了他一个很朴素的判断:你享受这件事,读者也喜欢,这种交集很罕见,不如加倍投入试试 <button class="pd-ts" data-t="08:07" data-who="Lenny Rachitsky" data-en="People seem to like it. Then I had a conversation with a friend, Lee Jacobs, who's a VC now, because I was telling him, &quot;I don't know why I'm doing this. Why am I writing?" aria-label="回原文"></button>。另一个关键时刻发生在写简报的第九个月——他发现自己竟然坚持每周更新了九个月,按他的说法是「[[林迪效应|林迪效应]](Lindy effect,指一件事已经存在多久,大概率还能继续存在多久)」起了作用,让他相信自己至少还能再写一年 <button class="pd-ts" data-t="08:53" data-who="Lenny Rachitsky" data-en="And so I did that every week for nine months. I just remember this moment nine months in where I was like, &quot;Huh, I've been doing this every week for nine months, which means I could probably do this for nine more months.&quot;" aria-label="回原文"></button>。于是他加上了[[付费墙|付费墙]],结果第一个月就赚到了像样的收入 <button class="pd-ts" data-t="09:49" data-who="Lenny Rachitsky" data-en="Let me try.&quot; That's when I started the paywall, and it worked. That's like the other moment I think I launched the paywall and it worked." aria-label="回原文"></button>。
+调适心态的方法,与应对孤独的方式,共同构成了这种独立生活的暗面。随着业务越做越大,Lenny 开始觉得「独自一人在家」没那么酷了,他开始怀念能和同事在同一个问题上切磋的办公室氛围 <button class="pd-ts" data-t="38:13" data-who="Lenny Rachitsky" data-en="Do you feel like you miss office culture? People ask me that over the years and I've always like, &quot;No, it's amazing. I don't need that." aria-label="回原文"></button>。但他极其克制地拒绝招募全职员工,生怕一不小心,就为自己亲手造出一台庞大复杂、最终令自己生厌的机器 <button class="pd-ts" data-t="39:02" data-who="Lenny Rachitsky" data-en="I have an awesome team and we jam on stuff, but it's not like... I think I do miss having someone next to me that I'm just working with on the same thing. But I also am trying very hard to never have full-time employees." aria-label="回原文"></button>。
 
-还有一个他从未公开分享过的时刻:在刚开始简报时,他跟朋友去 Joshua Tree(约书亚树)旅行,期间在某种致幻物质的作用下,坐在一块岩石上整整三个小时,脑子里反复出现一个画面和一句话——「我有智慧可以分享」 <button class="pd-ts" data-t="14:22" data-who="Lenny Rachitsky" data-en="I went on a bachelor party trip with some friends. This isn't where you think it's going. I hope not." aria-label="回原文"></button>。这段经历给了他开始写作的信心。
+把孤独咽下去,还得面对外部世界的危机与恐惧。一年前,他推出了一款包含多款热门 AI 编程工具一年免费使用权的订阅福利;结果优惠太诱人,招来了主要盘踞在中国的诈骗团伙 <button class="pd-ts" data-t="41:19" data-who="Lenny Rachitsky" data-en="There's too many. I had a launch about a year ago, it's about a year actually where I launched... You get a free year of Cursor and Lovable and Bolt and Replit and v0." aria-label="回原文"></button>。这些坏人在接口里疯狂钻空子,逼得他的工程师 Este 整整一周没睡,到处填堵漏洞。Lenny 彻夜难眠,生怕品牌信任度因此彻底崩塌 <button class="pd-ts" data-t="42:01" data-who="Lenny Rachitsky" data-en="They just found all these little exploits in our API that we built. It was such a nightmare because we're just waking up to like every night. It was hard to sleep." aria-label="回原文"></button>。人生另一场极致恐惧发生在他们的孩子出生时:紧急剖腹产中,本该向下走的麻醉药却上行,导致产妇心脏骤停 <button class="pd-ts" data-t="45:02" data-who="Lenny Rachitsky" data-en="And so instead of going down, it went up your body and so it was stopping your heart and lungs. They had to intubate you and do an emergency intubation and get the baby out." aria-label="回原文"></button>。穿着无菌服在手术室外干等的 Lenny,听着病房里的警报声,只能靠「一切都会好的」这种积极的自我暗示强撑 <button class="pd-ts" data-t="44:35" data-who="Lenny Rachitsky" data-en="You're awake during it in real life. I just remember pacing down the hall, coming back to the lessons I've learned, just like, &quot;It's going to be okay. It's going to be okay.&quot;" aria-label="回原文"></button>。
 
-## 巨石在身后追:持续产出的压力
+> 【背景】主持人提到这种极其凶险的并发症发生率仅五万分之一,属于极小概率事件。
 
-走上网红创作者这条路,Lenny 几乎在所有方面都喜欢这份工作,但他有一个很形象的比喻:这就像《夺宝奇兵》里被巨石追赶——你刚发完这周的帖子,马上要面对下周的内容空缺,永无止境 <button class="pd-ts" data-t="11:50" data-who="Lenny Rachitsky" data-en="It's a part of it. The visual I always have is the Indiana Jones boulder is chasing me constantly. Because you put out something, like I have a post come out... What's today?" aria-label="回原文"></button>。他觉得从长远来看,[[Substack|Substack]] 作家加播客主持人的生活模式到底能持续多久,他没有答案 <button class="pd-ts" data-t="12:24" data-who="Lenny Rachitsky" data-en="I think about where does this all go. I don't think there's an answer to Substack writer podcast life long term. What do you do?" aria-label="回原文"></button>。
+说完了丈夫怎么硬扛危机,接下来看妻子怎么做创作。Michelle 的创意图表常在网上被抹去署名盗用。她自陈创意全部源自「真在过日子」以及冥想中学会的细致观察;一旦过度埋头工作、停止体验生活,灵感就会彻底枯竭 <button class="pd-ts" data-t="24:14" data-who="Michelle Rial" data-en="Where do your ideas come from, Michelle? The ideas come from just living life and noticing a lot of things, and then also observing a lot. I know that I've been really prolific when I've been meditating, and in meditation you learn to observe your own thinking." aria-label="回原文"></button>。她的最佳创作状态极度依赖生理节律:一杯单份浓缩拿铁,加上一个两小时的倒计时截止线,她便觉得自己像台机器般高效 <button class="pd-ts" data-t="49:10" data-who="Michelle Rial" data-en="But if there's a point right before that. Single shot latte. Single shot is what I get." aria-label="回原文"></button>。咖啡一旦喝多,她就会陷入发散与惊恐。
 
-尽管妻子觉得他平时看起来不像压力很大的人,Lenny 承认自己实际承受的压力比表现出来的要多,比如偶尔会莫名头痛 <button class="pd-ts" data-t="13:07" data-who="Lenny Rachitsky" data-en="And/or are you just stressed and you don't show it? I think there is an element of I'm more stressed than I come across as and even recognize with myself. I get these headaches sometimes." aria-label="回原文"></button>。但他总体上可能比一般人压力小,他估计这大概 70% 靠基因——天生有种「会没事的」心态 <button class="pd-ts" data-t="13:41" data-who="Lenny Rachitsky" data-en="But I think honestly it's probably like 70% genetics. I'm just like, &quot;Eh, it'll be all right. It'll be all right.&quot;" aria-label="回原文"></button>;另一部分靠后天调整。他曾上过 University of Pennsylvania(宾夕法尼亚大学)关于幸福心理学的在线课程,最大的收获是「[[幸福基线|幸福基线]]」的概念:好事坏事只会让幸福感暂时波动,人最终都会回到自己的基线水平,所以关键是主动提高这个基线,比如有意识地保持乐观思考 <button class="pd-ts" data-t="16:11" data-who="Lenny Rachitsky" data-en="I took this online course at University of Pennsylvania about the psychology of happiness, and it was basically all the science of what makes you happier and how to be happier." aria-label="回原文"></button>。
-
-说到具体的压力事件,他提到了两件事。生意上,大约一年前他推出了一个非常丰厚的订阅福利——捆绑了 Cursor、Lovable、Bolt、Replit 和 v0 等产品的免费一年使用权 <button class="pd-ts" data-t="41:19" data-who="Lenny Rachitsky" data-en="There's too many. I had a launch about a year ago, it's about a year actually where I launched... You get a free year of Cursor and Lovable and Bolt and Replit and v0." aria-label="回原文"></button>。结果这个优惠太诱人,引来了大量诈骗团伙(主要来自中国)疯狂攻击系统的 API 寻找漏洞,他不得不跟 Stripe 和 Substack 合作紧急填补漏洞,工程师一连几天没睡,这是非常可怕的一段经历 <button class="pd-ts" data-t="41:39" data-who="Lenny Rachitsky" data-en="People came for it, bad people. I just had so many fraudsters, mostly in China it turned out. Just like all these fraud rings in China trying to find ways to steal all these free goodies." aria-label="回原文"></button>。
-
-个人生活上,他经历过人生中最恐惧的时刻:儿子出生时,妻子原本是剖腹产,但麻醉药(硬膜外麻醉)没有按预期向下扩散,反而向上走,导致她的心脏和肺部停止运作。医生不得不进行紧急插管并将婴儿取出。Lenny 当时穿着无菌服在手术室外的走廊里干等了十分钟,不知道里面发生了什么,只能在心里反复安慰自己「会没事的,他们知道在做什么」 <button class="pd-ts" data-t="43:36" data-who="Lenny Rachitsky" data-en="Yeah, so what happened is you had to do a cesarean, and so the idea is they bring you into the operating room, they do the anesthetic, the epidural or whatever it's called, and then they let the husband and the partner in." aria-label="回原文"></button>。麻醉师后来告诉他们,这是一种五万分之一概率的极其罕见且危险的最坏情况 <button class="pd-ts" data-t="46:01" data-who="Lenny Rachitsky" data-en="The anesthesiologist said it was a one in 50,000 chance, and it's the worst scenario that is very rare and very dangerous. And so it was extremely scary. Luckily he did a great job and everyone's like, &quot;He killed it.&quot;" aria-label="回原文"></button>。
-
-## 走到台前后:被认出、脸盲与孤独感
-
-随着播客的流行,Lenny 在湾区经常被路人认出来。他非常享受这种互动,觉得大家总是很友好、充满赞美,从未遇到过糟糕的搭讪经历,所以鼓励大家如果想打招呼就大胆上前 <button class="pd-ts" data-t="29:33" data-who="Lenny Rachitsky" data-en="Yeah, my face was tiny in some Twitter profile, but once I started the podcast, people just... Yeah, it was very weird the first time it started happening, and then now it happens quite a lot." aria-label="回原文"></button>。不过他也有个苦恼:他自认有一定程度的「脸盲」,非常不擅长记住人脸和名字 <button class="pd-ts" data-t="40:01" data-who="Lenny Rachitsky" data-en="I know if I know them. Yeah, this is a big problem for me. It's like another brain disorder, where I just don't remember people's names." aria-label="回原文"></button>。有时老熟人上前打招呼,他内心其实在尴尬地搜索「这人是谁」,所以如果有人跟他打招呼而他没有立刻反应过来,希望大家能谅解。
-
-名气带来了连接,但也加深了一种新型的孤独感。他过去一直以为自己是个不需要办公室、一个人在家工作就完美的人 <button class="pd-ts" data-t="38:16" data-who="Lenny Rachitsky" data-en="People ask me that over the years and I've always like, &quot;No, it's amazing. I don't need that. I just do my own thing and I don't need people around.&quot;" aria-label="回原文"></button>。但最近他开始怀念那种「和同事一起为同一件事努力」的氛围。他有团队可以交流,有妻子在家,但依然觉得整天独自坐在家里写作,有点像在打「一个人的保龄球」 <button class="pd-ts" data-t="38:53" data-who="Lenny Rachitsky" data-en="Yeah, so it would be fun. I have an awesome team and we jam on stuff, but it's not like... I think I do miss having someone next to me that I'm just working with on the same thing." aria-label="回原文"></button>。
-
-> 【背景】Lenny 说的「保龄球」很可能是在暗指《独自打保龄球》这本书,该书探讨了美国社区组织和社交资本的衰退,常用来比喻现代人日益加剧的个体化与社交孤立。
-
-即便如此,他极其抗拒招募全职员工来组建大团队。他深知这种生活方式的一个陷阱:如果你不加克制,很容易顺着别人希望你做的事或者看似巨大的机会,为自己「创造」出一份你最终会无比讨厌的工作。他努力保持事物的极简,只对真正想做的事做承诺 <button class="pd-ts" data-t="39:06" data-who="Lenny Rachitsky" data-en="But I also am trying very hard to never have full-time employees. I'm trying to keep things really simple because it's so easy to build this thing into this whole thing that's complicated that I'm like, &quot;What have I done?&quot;" aria-label="回原文"></button>。
-
-## 两人的共通点:靠真实经历与反复打磨
-
-随着对话展开,Michelle 也分享了她的创作方法,这恰好与 Lenny 的工作流形成了呼应。Michelle 的图表之所以容易在社交媒体上病毒式传播,她认为关键在于简单、易消化,并能唤起真实的情感 <button class="pd-ts" data-t="22:14" data-who="Michelle Rial" data-en="Yeah, which is interesting as well. Also, people's attention spans. Sometimes what I like to make is things that are really simple and quick and show you something you haven't thought of before and I think that if it's really easy to digest." aria-label="回原文"></button>。她的点子不是凭空想出来的,而是必须「去真实地生活」——观察生活、过度思考、然后把那些让人产生共鸣或觉得荒谬的瞬间用图表的形式可视化出来 <button class="pd-ts" data-t="24:14" data-who="Michelle Rial" data-en="Where do your ideas come from, Michelle? The ideas come from just living life and noticing a lot of things, and then also observing a lot. I know that I've been really prolific when I've been meditating, and in meditation you learn to observe your own thinking." aria-label="回原文"></button>。
-
-两人的创作都强烈依赖「真实经历」。Michelle 指出,她曾试图在没有孩子的时候写一本童书,但写出来的东西并不好 <button class="pd-ts" data-t="60:45" data-who="Michelle Rial" data-en="And now it feels more natural. And so I had a children's book that I tried to write before I had kids. For me that one wasn't as good, and so I feel like I gained a little bit of just how to talk to a child." aria-label="回原文"></button>。只有在亲身体验了初为人母的兵荒马乱,并在陪伴儿子成长的过程中,她才真正找到了创作的节奏和与孩子对话的方式。Lenny 深以为然,他认为自己简报成功的核心也在于此:绝大多数最好的建议,都来自真正在做这件事的从业者,而不是脱离一线的空谈 <button class="pd-ts" data-t="61:39" data-who="Lenny Rachitsky" data-en="It just makes me think about something I think has been key to my newsletter success is it is based on real life doing the thing. At this point, most of my posts are guest posts where somebody sharing the best thing they've learned in their career, like the one thing they want to share, which I love." aria-label="回原文"></button>。
-
-最后,两人都揭示了高质量内容背后不那么光鲜的真相——极其枯燥、耗时的反复打磨。Michelle 做一张图表,通常至少要[[迭代|迭代]]五次 <button class="pd-ts" data-t="63:04" data-who="Michelle Rial" data-en="What's the median? At least five. Okay." aria-label="回原文"></button>;而 Lenny 写一篇简报,在交给编辑和文字编辑之前,他自己通常要先反反复复通读、修改、增删大概五十次 <button class="pd-ts" data-t="63:18" data-who="Lenny Rachitsky" data-en="Well, what do you mean by- When I write a newsletter post, I go through it probably, let's say, 50 times making it better. I start, there's something that's the beginnings, and then read through it and add to it." aria-label="回原文"></button>。
+这种生理节律的洞察,也自然衔接到两人共通的创作哲学。Michelle 画一张图表大概要[[迭代|迭代]]五次,但 Lenny 写一篇通讯要反复打磨大约五十遍 <button class="pd-ts" data-t="63:18" data-who="Lenny Rachitsky" data-en="Well, what do you mean by- When I write a newsletter post, I go through it probably, let's say, 50 times making it better. I start, there's something that's the beginnings, and then read through it and add to it." aria-label="回原文"></button>。极致的迭代与生活经验的萃取,是两人的最大共识。夫妻俩也都笃信,最好的建议一定来自「正在真刀真枪干活的人」,而非脱离现场的清谈客 <button class="pd-ts" data-t="61:39" data-who="Lenny Rachitsky" data-en="It just makes me think about something I think has been key to my newsletter success is it is based on real life doing the thing. At this point, most of my posts are guest posts where somebody sharing the best thing they've learned in their career, like the one thing they want to share, which I love." aria-label="回原文"></button>。这种对「一手经验」的执着,也正是 Michelle 即将出版的童书《Charts for Babies》的底色——有了孩子、读了大量绘本后,她才真正找到了该怎么和孩子说话、创作出好作品的语感 <button class="pd-ts" data-t="60:43" data-who="Michelle Rial" data-en="I was like, &quot;I don't know what to say to you.&quot; And now it feels more natural. And so I had a children's book that I tried to write before I had kids." aria-label="回原文"></button>。
 
 ## 本集带走
 
-- **顺藤摸瓜式的职业路径往往最出人意料**:Lenny 并没有一开始就规划好要做百万订阅的创作者。他的路径是:在主业的夹缝中尝试 → 收到正反馈 → 朋友点拨 → 自己发现能坚持 → 引入付费验证市场 → 最终 All-in。如果一件事你既擅长又享受,且市场也认可,这就是最该加倍投入的信号。
-- **要警惕「为自己创造一份讨厌的工作」**:即使单干也要克制扩张的欲望。当机会和外部需求变多时,盲目接招只会让你陷入自己亲手打造的牢笼。保持生活与业务的简单,是对抗这种异化的有效手段。
-- **最高质量的内容来自一线经历与疯狂迭代**:最好的内容绝不是在真空里空想出来的。它来自你真实经历过、过度思考过的生活切片,再经过几十次甚至上百次枯燥的打磨、简化与重写,才能以最轻盈的形式击中读者。
+最后收个尾,这一集最值得带走的是三层体悟。第一,面对未知与恐惧,你可以学着给自己打底——无论是抬高幸福基线、拒绝灾难化想象,还是在手术室外死死抓住「会没事的」这一根稻草,乐观本身就是一种可习得的生存工具。第二,创作者的真正常态,不是被缪斯女神反复眷顾,而是在「灵感」与「跑步机般的交付压力」之间反复被挤压;想活下来,既得对用户流失或诈骗团伙这样的外部危机随时出击,也得像 Lenny 那样,克制地不为自己造一台最终会失控的复杂机器。第三,好的内容产品从不诞生于云端的高谈阔论,它必须扎根于真实的、甚至是伴随着痛苦与狂喜的第一手经验——有了生活、有了体验,再辅以几十上百次不厌其烦的枯燥迭代,这才是任何创作得以立足的唯一捷径。
 
-<div class="pd-sec">全部金句 <span>4 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>3 条(中英对照,已过机器闸门)</span></div>
 
-> <span class="qz">然后 COVID 来了,Airbnb 完蛋了。</span>  
-> *And then COVID hit, and Airbnb was over.*  
-> <span class="qm">—— Lenny Rachitsky · [09:36]</span> ^q1
-
-> <span class="qz">但我也非常努力地不想拥有全职员工。</span>  
-> *But I also am trying very hard to never have full-time employees.*  
-> <span class="qm">—— Lenny Rachitsky · [39:02]</span> ^q2
-
-> <span class="qz">这种生活的一个挑战是,你可以通过做人们希望你做的事情,或者通过追随看似很大的机会,为自己创造一份你讨厌的工作,然后你就觉得,“我讨厌这个。”</span>  
+> <span class="qz">这种生活的一个挑战是,你可以通过做人们希望你做的事情,或者通过追随看似很大的机会,为自己创造一份你讨厌的工作,然后你就就像,“我讨厌这个。”</span>  
 > *One of the challenges with this life is you can create a job for yourself that you hate by doing things that people want you to do or by following opportunities that feel big and then you're like, "I hate this."*  
-> <span class="qm">—— Lenny Rachitsky · [39:13]</span> ^q3
+> <span class="qm">—— Lenny Rachitsky · [39:13]</span> ^q1
 
 > <span class="qz">但我注意到如果我在工作上过于专注,我就停止过生活,然后我就停止有想法。</span>  
 > *But I've noticed if I focus too much on my work, I stop living life and then I stop having ideas.*  
-> <span class="qm">—— Michelle Rial · [24:49]</span> ^q4
+> <span class="qm">—— Michelle Rial · [24:49]</span> ^q2
+
+> <span class="qz">他一周没睡,阻止并填补所有这些漏洞,因为外面有很多聪明、狡猾的坏人。</span>  
+> *He didn't sleep for a week stopping, filling all these holes because there's a lot of smart, clever, bad guys out there.*  
+> <span class="qm">—— Lenny Rachitsky · [42:12]</span> ^q3
 
 <div class="pd-sec">接着看</div>
 
@@ -118,9 +90,9 @@ tags:
 
 **换个口味**
 
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评]] —— 同公司:Airbnb
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴]] —— 同概念:产品经理 (product manager)
-- [[2026-07-09-pg-pm-guide-ai-design|用 AI 武装技术型 PM：Codex 工作流全解析]] —— 同公司:Airbnb
+- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|Keith Rabois：别招大厂高管，别做客户调研]] —— 同公司:Airbnb
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|AI 时代产品经理的生存指南]] —— 同概念:产品经理 (product manager)
+- [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]] —— 同公司:Airbnb
 
 </div>
 </div>

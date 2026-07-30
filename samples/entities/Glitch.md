@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2025-11-20-lennys-slack-founder-stewart-butterfield|《把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学》]]**(73:57起):本集提到 Stewart 放弃的一款游戏，他在判定预期价值降到谷底后转向做了 Slack，转型极其痛苦和羞辱。
+- **[[2025-11-20-lennys-slack-founder-stewart-butterfield|《Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱》]]**(73:57起):本集提到 Stewart 放弃的一款游戏，他在判定预期价值降到谷底后转向做了 Slack，转型极其痛苦和羞辱。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2025-11-20-lennys-slack-founder-stewart-butterfield|《把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学》]] — 作为被讨论公司
+- [[2025-11-20-lennys-slack-founder-stewart-butterfield|《Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱》]] — 作为被讨论公司
 
 ## ③ 关联
 

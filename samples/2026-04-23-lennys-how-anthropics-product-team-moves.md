@@ -1,5 +1,5 @@
 ---
-title: Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南
+title: "Claude Code 产品负责人:AI 时代 PM 的生存法则"
 podcast: "Lenny's Podcast"
 date: 2026-04-23
 source_url: https://www.lennysnewsletter.com/p/how-anthropics-product-team-moves
@@ -7,7 +7,7 @@ duration: "85:12"
 type: episode
 cover: "#6366f1"
 image: "/covers/2026-04-23-lennys-how-anthropics-product-team-moves.jpg"
-description: Claude Code与Co-work的产品负责人分享AI时代的PM新法则：极致追求产品品味与行动速度。
+description: Anthropic 的 Kat Wu 谈 AI 如何重塑 PM 角色、产品迭代速度与工作流自动化。
 host: "[[Lenny]]"
 cohosts: ["[[Kat Wu]]"]
 companies: ["[[Anthropic]]"]
@@ -17,9 +17,9 @@ tags:
   - 产品方法
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude Code 产品负责人:AI 时代 PM 的生存法则</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南
+# Claude Code 产品负责人:AI 时代 PM 的生存法则
 
 <div class="pd-byl"><b>Cat Wu</b> · Anthropic 产品负责人</div>
 
@@ -27,7 +27,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-04-23-lennys-how-anthropics-product-team-moves.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">随着编写代码的成本大幅降低，变得更具有价值的是决定写什么。</div><div class="a">Kat Wu · 18:19</div></div>
+<div class="pd-hook"><div class="z">随着编写代码的成本变低得多,变得更有价值的是决定写什么。</div><div class="a">Kat Wu · 00:50</div></div>
 
 > [!info] 关联
 > **人物** [[Lenny]] · [[Kat Wu]]
@@ -38,82 +38,46 @@ tags:
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/how-anthropics-product-team-moves)
 
-<div class="pd-tldr"><b>一句话</b>Claude Code与Co-work的产品负责人分享AI时代的PM新法则：极致追求产品品味与行动速度。</div>
+<div class="pd-tldr"><b>一句话</b>Anthropic 的 Kat Wu 谈 AI 如何重塑 PM 角色、产品迭代速度与工作流自动化。</div>
 
-[[Kat Wu|Kat Wu]] 是 [[Anthropic|Anthropic]] 的产品经理，负责 [[Claude Code|Claude Code]]（一款让大模型在终端里写代码的[[智能体|智能体]]工具）和 [[Co-work|Co-work]]（处理非代码任务的工作助手）等产品。她每天与最前沿的大模型打交道，团队保持着令人难以置信的产品迭代节奏。这一集她聊的是身处 AI 变革最前沿的真实工作状态：当模型能力每天都在跃升、代码变得越来越便宜的当下，产品经理（PM）该怎么做产品？团队该怎么配合？普通人又该如何利用 AI 工具获得真正的杠杆？全文脉络分为三块：第一块讲 AI 时代的产品方法论与 PM 价值，第二块深入 Anthropic 内部的工作流与工具用法，第三块探讨新模型对产品架构的颠覆以及给普通人的建议。
+为今天的模型做产品,最难的不是幻想未来全能的 AI 有多强,而是想尽办法把当下模型的最大能力挤出来——说这话的人是 [[Kat Wu|Kat Wu]],她在 [[Anthropic|Anthropic]] 负责 [[Claude Code|Claude Code]] 和 Co-Work 两大产品 <button class="pd-ts" data-t="00:08" data-who="Kat Wu" data-en="It's very easy to build the product for the super AGI strong model. The hard thing is figuring out for the current model, how do you elicit the maximum capability?" aria-label="回原文"></button>。她观察到,很多产品经理还在用六年前的慢节奏做计划,而她们团队从六个月的发布周期硬生生压缩到了一个月,甚至一天 <button class="pd-ts" data-t="05:35" data-who="Kat Wu" data-en="quickly the model capabilities are improving, the timelines for a lot of our product features have gone down from six months to one month and sometimes to one week or even one day." aria-label="回原文"></button>。
 
-## 极速迭代下的 PM：重点不再是路线图，而是产品品味
+这一集播客里,Kat 和主持人 [[Lenny|Lenny]] 聊了三件事:AI 原生时代产品经理到底该干什么、怎么用最快的节奏发布产品并避开踩坑;Anthropic 内部怎么用 Claude Code 和 Co-Work(分别处理写代码和非代码任务)来提效,比如让[[智能体|智能体]]用公司设计系统一晚上自动生成 20 页幻灯片;以及当模型每次升级都变得更聪明时,产品经理为什么反而要不断删掉以前给模型打的补丁。最后她还回答了一个很多人关心的问题:在角色界限越来越模糊的未来,人到底靠什么价值生存。
 
-在 AI 出现之前，技术演进相对缓慢，PM 可以按照 6 到 12 个月的跨度去规划路线图。但现在，大模型加速了工程开发，模型能力也在狂飙。Kat 指出，她们很多产品功能的开发周期已经从 6 个月压缩到了 1 个月，甚至 1 周或 1 天 <button class="pd-ts" data-t="05:44" data-who="Kat Wu" data-en="one month and sometimes to one week or even one day. And with that, we actually need to make sure that products ship quite quickly. And what that means is as a PM, there should be less emphasis on" aria-label="回原文"></button>。面对这种极速，PM 的核心工作不再是大费周章地去和其他团队对齐跨季度的路线图，而是想方设法缩短「从一个想法到真正交付给用户」的时间。
+说完了 AI 时代 PM 的整体定位,接下来看看 Kat 具体怎么定义这个角色的变化。Kat 认为,AI 之前的技术演进慢,你可以按 6 到 12 个月的跨度做规划,因为那时写代码很贵,PM 的核心工作是跟各个合作团队反复对齐时间表 <button class="pd-ts" data-t="05:03" data-who="Kat Wu" data-en="takes to be successful these days. I think before AI, technology shifts were a lot slower. So you could plan on the six to 12 month time horizons." aria-label="回原文"></button>。但 AI 把工程效率成倍放大后,产品功能的时间线被压缩到了一个月甚至一天,这意味着 PM 的重心必须从「对齐跨季度路线图」转向「怎么最快把点子塞进用户手里」<button class="pd-ts" data-t="05:44" data-who="Kat Wu" data-en="one month and sometimes to one week or even one day. And with that, we actually need to make sure that products ship quite quickly. And what that means is as a PM, there should be less emphasis on" aria-label="回原文"></button>。她强调,现在最稀缺的能力是[[产品品味|产品品味]](判断到底该做什么、怎么做才好),因为当写代码变便宜了,真正值钱的是决定写什么 <button class="pd-ts" data-t="00:47" data-who="Kat Wu" data-en="What do you think are the emerging skills PMs need to develop? It comes back to product taste. As code becomes much cheaper to write," aria-label="回原文"></button>。
 
-她认为，当下做得最好的 PM，是那些能帮团队设定极其明确目标的人。因为大模型太通用了，这反而带来了巨大的模糊性。优秀的 PM 必须能清晰地指出：我们的核心用户是谁？要解决什么问题？为了降低发布阻力，她们的团队几乎所有的功能都会以 [[研究预览版|Research Preview]]（研究预览版）的形式发布，明确告诉用户这是个早期尝试，从而大幅降低团队的心理负担与发布承诺 <button class="pd-ts" data-t="07:50" data-who="Kat Wu" data-en="repeatable process for getting these features shipped. So for Cloud Code, what we do is we actually ship almost all of our features in Research Preview." aria-label="回原文"></button>。
+工具变了,人怎么办?这正是 Kat 在团队内部实践里解答的问题。要跑得快,她给了三招:第一是设定极清晰的目标,因为 LLM(大语言模型)太通用,PM 必须明确画死关键用户是谁、要解决什么问题;第二是建立可复制的发布流程,Claude Code 几乎所有功能都以 [[研究预览版|Research Preview]](研究预览版)的形式抛出,明确告诉用户这是早期概念,降低团队的发布心理负担;第三是帮团队搭好跨职能协作的框架,比如工程师在内部群里说一句「功能准备好了」,营销和文档团队第二天就能把配套物料全部跟进到位 <button class="pd-ts" data-t="07:00" data-who="Kat Wu" data-en="I think the first thing is to set clear goals. Because LLMs are so general, that actually creates a lot of ambiguity in who we're building for," aria-label="回原文"></button>。流程虽然精简,但她坚持要保证整个团队对「什么最重要」有共识,让大家不必凡事等 PM 拍板 <button class="pd-ts" data-t="09:14" data-who="Kat Wu" data-en="So there's two things that we do. One is we have very rigorous metrics and we do metrics readouts with the entire team every week. The goal of this is to make sure that everyone deeply understands all the facets of" aria-label="回原文"></button>。她特别指出,在这种节奏下,招人必须偏向那些有极好产品品味的工程师——她自己当过多年工程师,团队里的 PM 和设计师几乎都能写代码,这样才能把沟通成本降到最低 <button class="pd-ts" data-t="16:38" data-who="Kat Wu" data-en="their work. On our team, we're pretty focused on hiring engineers with great product taste. This way we can reduce the amount of overhead for shipping any product." aria-label="回原文"></button>。
 
-随着代码编写成本骤降，工程师和 PM 的边界正在模糊。Kat 观察到，现在所有角色都在融合：PM 写代码，工程师做产品决策。她极其看重「[[产品品味|产品品味]]（product taste）」——当编写代码变得更便宜时，真正宝贵的是决定「该写什么、该构建什么」 <button class="pd-ts" data-t="18:19" data-who="Kat Wu" data-en="I still think it comes back to product taste. Like as code becomes much cheaper to write, The thing that becomes more valuable is deciding what to write." aria-label="回原文"></button>。她的团队因此倾向于招聘具有极好产品品味、能端到端闭环解决问题的工程师。
+角色融合了,产品迭代更快了,这背后还得益于一个反直觉的操作:模型越聪明,越要删代码。Kat 透露了一个很多人没意识到的规律:每次发布新模型,他们的首要任务就是通读整个[[系统提示词|系统提示词]](system prompt),把之前为了「扶着」旧模型走而加上的各种补丁和脚手架删掉 <button class="pd-ts" data-t="63:09" data-who="Kat Wu" data-en="Yeah, we can remove a lot of prompting interventions every time the model gets smarter. And we actually do this every time we launch a model. We read through the entire system prompt and we reflect on," aria-label="回原文"></button>。最经典的例子是待办事项列表功能——早期的模型总是改到一半就忘了剩下的调用点,所以团队专门给它加了强制性的待办列表工具来兜底 <button class="pd-ts" data-t="61:19" data-who="Kat Wu" data-en="it's not naturally doing itself. So the classic example for this is the to-do list. When we first launched quad code," aria-label="回原文"></button>。但到了 Opus 4 等后来的模型,根本不需要提醒,它自己就会把活干完,这些辅助功能自然就退化甚至可以直接移除了 <button class="pd-ts" data-t="62:02" data-who="Kat Wu" data-en="Claude was actually able to fix all these 20 call sites. But then with Opus 4 and later models, we realized that we didn't need to force it to use this to-do list, it would naturally use it itself." aria-label="回原文"></button>。此外,新模型升级不仅意味着做减法,更会解锁以往做不到的产品,比如他们一直想做可靠的代码审查功能,直到最新的模型才能同时跑多个智能体遍历整个代码库 <button class="pd-ts" data-t="63:34" data-who="Kat Wu" data-en="accuracy wasn't high enough for us to want to launch them. And so one example of this is code review. we tried to build a code review product a few times and we've launched like simple" aria-label="回原文"></button>。
 
-## 内部视角：Anthropic 的护城河、危机处理与工具流
+弄懂了怎么给模型做加减法,我们再来看看 Kat 团队内部是怎么真刀真枪用这些工具提效的。Kat 把产品线分得很清楚:产出是代码的,用 Claude Code(终端里跑最全的功能、桌面版方便做前端实时预览、移动版适合随时随地派任务);产出不是代码的(比如清空收件箱、做幻灯片),就用 Co-Work <button class="pd-ts" data-t="35:33" data-who="Kat Wu" data-en="All these tasks produce outputs that are non-code and co-work is best positioned for that. So the way that I split the products in my mind is if I'm building something where" aria-label="回原文"></button>。Kat 分享了一个自己用 Co-Work 的真实案例:她要为即将到来的 Code with Claude 大会准备演讲,睡前把所有相关资料(产品营销草稿、内部演示链接)连上 Co-Work,让它自己去翻 Slack 历史和 Twitter 发布记录,第二天醒来就得到了一份 20 页、完全套用公司设计系统排版的精美幻灯片草稿 <button class="pd-ts" data-t="37:19" data-who="Kat Wu" data-en="can use as demos? And so I have my Google Drive connected. I have Slack connected." aria-label="回原文"></button>。她还提到一个销售同事的做法:用 Claude Code 搭了个[[自动化|自动化]]网页应用,直接读取 CRM 里的客户背景(比如是不是需要特定合规标准),几秒钟就能自动生成定制化的销售演示文稿,替代了过去人工拼凑二三十分钟的苦活 <button class="pd-ts" data-t="43:12" data-who="Kat Wu" data-en="What are things you've built other people built that are really popular and useful? One of the sales folks on Cloud Code, he realized he was making these like repetitive decks over and over and over again." aria-label="回原文"></button>。
 
-外界对 Anthropic 的极速发布节奏惊叹不已，甚至猜测他们是不是用了什么未公开的神秘大模型 Mythos。Kat 坦言，内部确实在使用强大的模型，但真正支撑这种节奏的是极简的流程和对团队的充分赋能，致力于扫除阻碍发布的每一个障碍 <button class="pd-ts" data-t="11:25" data-who="Kat Wu" data-en="I think a lot of it is the process and the expectation on the team. So we're very low on process. We want to remove every single barrier to shipping things." aria-label="回原文"></button>。
-
-这种快节奏也不可避免地带来了一些插曲。比如 Claude Code 的源代码曾发生泄露。Kat 解释说，这是一次人为操作失误：当时有人正和 Claude 一起写一个关于包发布的更新 PR，虽然经过了人工审查，但错误还是发生了。她强调这是一个流程问题，团队已经加固了相关防范措施 <button class="pd-ts" data-t="12:19" data-who="Kat Wu" data-en="So we immediately looked into this when we saw it. We realized that this was the result of human error. There was a human working with Claude to write a PR." aria-label="回原文"></button>。此外，针对近期限制第三方产品（如开源客户端）使用 Claude 订阅的争议，Kat 做出了直接回应：第三方产品的使用模式与第一方产品不同，为了优先保障核心产品与 API，他们必须做出这种艰难的资源取舍 <button class="pd-ts" data-t="13:36" data-who="Kat Wu" data-en="which have different usage patterns than our first party ones. We spent a bunch of time trying to figure out what is the most seamless transition that we can offer." aria-label="回原文"></button>。
-
-> 【背景】Mythos 是播客主持人在节目中提及的一个 Anthropic 内部极其强大、但仍处于预览阶段、尚未对外公开的模型。Kat 在对话中确认了内部确实在使用它。
-
-在被问及 Anthropic 为何能从落后走向巨大成功时，Kat 给出了两个关键因素：第一是极其统一的使命（为全人类带来安全的 AGI）。这让不同团队在遇到资源冲突时，能迅速判断「什么对公司和对使命最重要」，甚至心甘情愿地为了全局牺牲自己负责的产品线指标 <button class="pd-ts" data-t="29:29" data-who="Kat Wu" data-en="kind of come from behind and do this well? The two most important things are one, This unifying mission." aria-label="回原文"></button>。第二是极度专注。为了这种专注，她们甚至牺牲了产品矩阵的一致性——有时内部会同时推出功能重叠的产品，只为了通过外部用户来测试哪种形态更受欢迎。
-
-在具体的工作流上，Kat 分享了她区分工具的清晰逻辑：如果输出的是代码，她会用 Claude Code 的命令行界面（CLI）或桌面版；如果是做前端，她会用桌面版以便实时预览页面；如果在移动端随手派发任务，就用手机版；如果输出不是代码（比如做幻灯片、写文档、清理收件箱），那就用 Co-work <button class="pd-ts" data-t="35:33" data-who="Kat Wu" data-en="All these tasks produce outputs that are non-code and co-work is best positioned for that. So the way that I split the products in my mind is if I'm building something where" aria-label="回原文"></button>。
-
-她讲了一个生动的案例：为了准备即将举办的「Code with Claude」大会演讲，她把产品营销人员起草的大纲连同自己不喜欢的旧版幻灯片，一股脑儿喂给了 Co-work。她让它自己去浏览内部的 Slack 频道和 Twitter，找出团队内部的成功案例，最后合成了一份 20 页的演示文稿。整个生成过程花了一个小时，产出的草稿不仅质量不错，连设计排版都完全符合公司规范，Kat 只需稍加修改即可使用 <button class="pd-ts" data-t="36:45" data-who="Kat Wu" data-en="and this substantially improves the quality of the result. The kinds of things I use it for are, like last night," aria-label="回原文"></button>。
-
-## 模型进化论：会吃掉你的外壳，也会解锁新功能
-
-身处模型迭代的暴风眼，Kat 发现，每当更聪明的新模型发布时，她们做的很大一部分工作竟然是「删功能」。很多时候，为了弥补早期模型的不足，产品团队会硬生生地加上一些辅助工具（她称之为 crutch，拐杖）。比如早期的 Claude Code 在执行大规模重构时常常半途而废，团队于是给它加上了一个「待办事项列表」工具来强制它完成。但到了 Opus 4 等更新、更聪明的模型，不再需要强制，它们自己就会自然地使用列表并完成所有调用点的更改 <button class="pd-ts" data-t="61:03" data-who="Kat Wu" data-en="we have to redo this product that we launched a few months ago. A lot of the changes that we make with a new model is removing features that are no longer needed." aria-label="回原文"></button>。
-
-> 【背景】Opus 是 Anthropic 旗下 Claude 系列模型之一，通常代表当时最强、最重的模型能力。
-
-所以每次升级模型，团队都会重新审查[[系统提示词|系统提示词]]（prompt），看看哪些强行干预的提醒可以被删掉。但更重要的是，新模型能解锁过去做不到的新功能。Kat 一直梦想着 Claude 能成为一个可靠的代码审查员，直到用上最新的 Opus 4.5 等模型后，她们终于可以运行多个代码审查智能体同时遍历整个代码库，准确抓取真实问题，让工程团队在合并代码前高度依赖它 <button class="pd-ts" data-t="63:34" data-who="Kat Wu" data-en="accuracy wasn't high enough for us to want to launch them. And so one example of this is code review. we tried to build a code review product a few times and we've launched like simple" aria-label="回原文"></button>。她极具洞见地指出：开发那些在当下还无法完美运行的产品极其重要，这样等新模型发布时，你就可以直接把它插进已有的原型里。
-
-在被问及人类大脑在 AI 时代的持久价值时，Kat 认为人类依然掌握着模型所缺乏的常识与隐性情商（EQ）。模型并不清楚所有的利益相关者是谁、关系如何，也不懂最佳的沟通时机，这些都是人类目前不可替代的护城河 <button class="pd-ts" data-t="21:43" data-who="Kat Wu" data-en="for at least the next few months? I think humans still provide a level of common sense that the models don't. And there's like a thousand moving pieces to any product launch." aria-label="回原文"></button>。
-
-## 给普通人的建议：别做半吊子的自动化
-
-面对听众对未来职业的焦虑，Kat 给出了非常落地的建议：利用 AI 获取杠杆。把那些你反复要做的枯燥活儿交给 AI 去「[[自动化|自动化]]」。但她特别强调了一点：千万不要在做到 90% 到 95% 的准确率时就半途而废。一个不能 100% 可靠运行的自动化，根本算不上真正的自动化，你依然无法信任它。即便最后那 5% 很花时间，也必须投入精力去教导模型、完善细节，直到你能完全依赖它 <button class="pd-ts" data-t="69:49" data-who="Kat Wu" data-en="I would also push listeners towards focusing on bringing your automations from, okay, this is a cool concept to like," aria-label="回原文"></button>。
-
-最后，Kat 极力劝诫大家：不要为了玩 AI 而去构建用一次就丢的原型，要去构建那些你每天都会真实使用、能真正帮你省时间、省精力的应用。这才是 AI 真正的用武之地 <button class="pd-ts" data-t="72:08" data-who="Kat Wu" data-en="get to our very exciting lightning round? I see a lot of people playing around with AI and building like prototype apps and tinkering with building workflows." aria-label="回原文"></button>。
+内部提效的故事讲完了,那作为外部从业者,到底该怎么在这个被 AI 倒逼的世界里真正获得杠杆?Kat 的建议非常务实:别只拿 AI 搞些好玩的 demo,去做你每天真正在用、能替你省大把时间的工具 <button class="pd-ts" data-t="72:08" data-who="Kat Wu" data-en="get to our very exciting lightning round? I see a lot of people playing around with AI and building like prototype apps and tinkering with building workflows." aria-label="回原文"></button>。更重要的是,别把自动化做到 90% 或 95% 就半途而废——做不到 100% 可靠的自动化,就称不上真正的自动化,你必须投入精力去调教模型,让它完全符合你的习惯,最后才能真正放手 <button class="pd-ts" data-t="69:45" data-who="Kat Wu" data-en="Basically, it's like solve a problem for yourself is kind of the core advice there. Exactly. I would also push listeners towards focusing on bringing your automations from," aria-label="回原文"></button>。
 
 ## 本集带走
-1. **代码越便宜，产品品味越值钱**。当大模型把编写代码的成本降到极低时，决定「该写什么代码、什么是正确的用户体验」就成为了最稀缺的核心能力，这也是 AI 时代 PM 的立身之本。
-2. **产品的复杂度，是留给当前模型的；面向未来的最好准备，就是删减冗余的外壳**。随着大模型越来越聪明，它会吃掉你给它的辅助工具，因此你的产品架构必须随着模型升级而不断做减法。
-3. **半吊子的自动化毫无价值**。如果你想让 AI 真正帮你处理工作，就必须投入死磕的精力，把自动化的准确率从 95% 逼近到 100%，只有 100% 可靠，你才能真正把事情交出去，腾出精力去做更有创造性的事。
+最后收个尾,这一集值得带走的是三句话。第一,AI 时代的 PM 别再死磕长周期路线图了,最核心的任务是把产品从点子到用户手里的时间缩到最短,你的价值在于能拍板决定到底做什么——也就是产品品味。第二,面对强大的新模型,第一反应应该是做减法,删掉那些为了弥补旧模型短板而硬加的补丁,同时大胆去试那些以前精度不够做不了的梦,新模型随时可能帮你补上最后的短板。第三,真正的杠杆不是玩几个花哨的 demo,而是把你工作里那些最枯燥的重复活儿(做幻灯片、分类邮件)交给智能体,死磕到 100% 可靠,然后把省下来的精力投入到真正有创造力的事情上。
 
-<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
 
-> <span class="qz">随着编写代码的成本大幅降低，变得更具有价值的是决定写什么。</span>  
+> <span class="qz">随着编写代码的成本变低得多,变得更有价值的是决定写什么。</span>  
 > *As code becomes much cheaper to write, the thing that becomes more valuable is deciding what to write.*  
-> <span class="qm">—— Kat Wu · [18:19]</span> ^q1
+> <span class="qm">—— Kat Wu · [00:50]</span> ^q1
 
-> <span class="qz">我们很多产品功能的时间线已经从六个月缩短到了一个月，有时甚至缩短到了一天。</span>  
-> *The timelines for a lot of our product features have gone down from six months to one month and sometimes to even one day.*  
+> <span class="qz">我们许多产品功能的时间线已经从六个月降到了一个月,有时甚至到了一天。</span>  
+> *the timelines for a lot of our product features have gone down from six months to one month and sometimes to even one day.*  
 > <span class="qm">—— Kat Wu · [00:20]</span> ^q2
 
-> <span class="qz">如果一个自动化不能在 100% 的时间里都有效，它就不是一个真正的自动化。</span>  
-> *If an automation doesn't work 100% of the time, it's not really an automation.*  
+> <span class="qz">如果一个自动化不能 100% 的时间工作,它就不是一个真正的自动化。</span>  
+> *if an automation doesn't work 100% of the time, it's not really an automation.*  
 > <span class="qm">—— Kat Wu · [70:06]</span> ^q3
 
-> <span class="qz">我认为最难的技能是能够定义一个月后产品应该是什么样子。</span>  
-> *I think the hardest skill is being able to define what the product should look like a month from now.*  
-> <span class="qm">—— Kat Wu · [51:35]</span> ^q4
+> <span class="qz">我认为巨大的转变在于,2024 年一代的产品是基于聊天的,而云端代码这一代的产品是基于行动的。</span>  
+> *I think the big shift is that the 2024 generation of products were chat-based and the cloud code generation of products is action-based*  
+> <span class="qm">—— Kat Wu · [74:38]</span> ^q4
 
-> <span class="qz">人们最大的顿悟时刻，是当 Claude 能够直接代表你去做事情的时候。</span>  
-> *big aha moment people have is when Claude can just like do things on your behalf.*  
-> <span class="qm">—— Kat Wu · [74:51]</span> ^q5
-
-> <span class="qz">如果 Claude Code 失败了，但 Anthropic 成功了，我会非常高兴。</span>  
-> *If Claude Code failed, but Anthropic succeeded, I would be extremely happy.*  
-> <span class="qm">—— Kat Wu · [31:47]</span> ^q6
-
-> <span class="qz">我认为人类依然能提供模型所不具备的一定程度的常识。</span>  
-> *I think humans still provide a level of common sense that the models don't.*  
-> <span class="qm">—— Kat Wu · [21:43]</span> ^q7
+> <span class="qz">如果 Claude Code 失败了,但 Anthropic 成功了,我会非常高兴。</span>  
+> *if Claude Code failed, but Anthropic succeeded, I would be extremely happy.*  
+> <span class="qm">—— Kat Wu · [31:47]</span> ^q5
 
 <div class="pd-sec">接着看</div>
 
@@ -122,18 +86,18 @@ tags:
 
 **顺着「产品方法」挖下去**
 
-- [[2026-03-01-lennys-the-design-process-is-dead|The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)]] —— 同公司:Anthropic · 同概念:Claude Code、Research Preview
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经]] —— 同公司:Anthropic · 同概念:Claude Code、评估 (evals)
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同公司:Anthropic · 同概念:智能体 (agent)
+- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]] —— 同公司:Anthropic · 同概念:Claude Code、Research Preview
+- [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]] —— 同公司:Anthropic · 同概念:Claude Code、评估 (evals)
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同公司:Anthropic · 同概念:智能体 (agent)
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构]] —— 同公司:Anthropic · 同概念:Claude Code、Co-work、智能体 (agent)
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同公司:Anthropic · 同概念:Claude Code、智能体 (agent)
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得]] —— 同概念:Claude Code、智能体 (agent)
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]] —— 同公司:Anthropic · 同概念:Claude Code、Co-work、智能体 (agent)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同公司:Anthropic · 同概念:Claude Code、智能体 (agent)
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]] —— 同概念:Claude Code、智能体 (agent)
 
 </div>
 </div>

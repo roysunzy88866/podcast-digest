@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验》]]**(37:20起):本集指出，哪怕只有 300 个付费客户，CRM 里也可能躺着几万个曾访问过网站但无人跟进的线索。只要线索多到人类销售懒得全部去碰，就可以从 AI 中受益。
+- **[[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]]**(37:20起):本集指出，哪怕只有 300 个付费客户，CRM 里也可能躺着几万个曾访问过网站但无人跟进的线索。只要线索多到人类销售懒得全部去碰，就可以从 AI 中受益。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验》]] — 作为概念
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]] — 作为概念
 
 ## ③ 关联
 

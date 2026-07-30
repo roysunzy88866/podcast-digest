@@ -1,5 +1,5 @@
 ---
-title: 非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」
+title: 非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品
 podcast: "Lenny's Podcast"
 date: 2026-01-18
 source_url: https://www.lennysnewsletter.com/p/the-non-technical-pms-guide-to-building-with-cursor
@@ -7,7 +7,7 @@ duration: "75:08"
 type: episode
 cover: "#6366f1"
 image: "/covers/2026-01-18-lennys-the-non-technical-pms-guide-to-building.jpg"
-description: 完全不懂代码的 PM 分享如何用 AI 搭建赚钱产品并保持代码质量。
+description: 产品经理 Zevi 分享他零代码基础靠 AI 独立造产品的全套工作流：从建 CTO 聊天项目、自定义六大 /command 指令，到指挥不同模型互相评审代码。
 host: "[[Lenny]]"
 cohosts: ["[[Zevi Arnovitz]]"]
 companies: ["[[Cursor]]", "[[Bolt]]", "[[Lovable]]", "[[Linear]]"]
@@ -18,9 +18,9 @@ tags:
   - 职业与个人成长
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# 非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」
+# 非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品
 
 <div class="pd-byl"><b>Zevi Arnovitz</b> · Meta 产品经理</div>
 
@@ -28,7 +28,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-01-18-lennys-the-non-technical-pms-guide-to-building.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">如果人们离开时觉得你多么了不起，你就失败了。如果人们离开后打开他们的电脑并开始构建，你就成功了。</div><div class="a">Zevi Arnovitz · 07:17</div></div>
+<div class="pd-hook"><div class="z">如果普通的 ChatGPT 是一个 CTO，那它会是一个顺从你最愚蠢主意的 CTO。</div><div class="a">Zevi Arnovitz · 11:31</div></div>
 
 > [!info] 关联
 > **人物** [[Lenny]] · [[Zevi Arnovitz]]
@@ -39,81 +39,65 @@ tags:
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/the-non-technical-pms-guide-to-building-with-cursor)
 
-<div class="pd-tldr"><b>一句话</b>完全不懂代码的 PM 分享如何用 AI 搭建赚钱产品并保持代码质量。</div>
+<div class="pd-tldr"><b>一句话</b>产品经理 Zevi 分享他零代码基础靠 AI 独立造产品的全套工作流：从建 CTO 聊天项目、自定义六大 /command 指令，到指挥不同模型互相评审代码。</div>
 
-今天的嘉宾是 [[Zevi Arnovitz|Zevi Arnovitz]]。他现任 Meta 的产品经理（PM），此前在 Wix 做 PM。他没有技术背景，高中学的是音乐，但靠着一套自己摸索出的 AI 工具工作流，完全独立地构建出了能赚钱的真实产品。本期对话的核心问题非常接地气：一个完全不懂代码的人，到底该怎么用 AI 真正构建出严肃的产品？接下来的脉络分为四步：首先是他如何用 AI 工具搭出一个工作流框架；其次是他如何让不同的 AI 模型扮演团队成员、互相对抗来审查代码；再是如何把 AI 当作导师进行高频学习；最后是他对非技术人员在这个时代该如何自处的核心判断。
+一个连代码都怕看的人，完全靠自己把一个能赚钱的产品造了出来——用的是一套普通人就能照抄的 AI 编程工作流。说这话的人是 Zevi，他在 Meta 当产品经理，完全没有技术背景，却靠着 [[Cursor|Cursor]] 和 [[Claude Code|Claude Code]] 独立做出了一个在赚钱的产品 <button class="pd-ts" data-t="01:11" data-who="Zevi Arnovitz" data-en="Yeah, that's true, but also when else in history could you get out of school and just build a startup on your own? Today, my guest is Zevi Arnovitz. Zevi is a PM at Meta." aria-label="回原文"></button>。
 
-工具变了，人怎么用？这正是接下来的第一个话题。
+这一集 [[Lenny|Lenny]] 的对谈里，他讲了几件事：他怎么从一个完全不懂代码的普通人，一步步学会指挥 AI 写代码、建起一整套严密的开发流程；怎么把自己想象成跟不同的「人形模型」协作，让它们互相审查代码；以及当 AI 真的让写代码变得容易之后，产品经理和初级从业者到底该担心什么，又该怎么抓住机会。在访谈的后半段，他还分享了自己怎么用 AI 准备大厂面试，并在最后讲了讲他一路走来的职业心得。
 
-## 工具进阶：从「聊天机器人」到全控代码库
+想了解他的工作流，得先看他对 AI 工具的认知是怎么一步步进化的。Zevi 接触 AI 编程的起点是他在日本旅行时看到了别人用 AI 构建应用的视频，当时感觉就像有人走过来告诉他「你现在有超能力了」<button class="pd-ts" data-t="06:40" data-who="Zevi Arnovitz" data-en="I think it was either Greg Isenberg or Riley Brown and they were basically building apps using, it was either Bolt or Lovable, just using AI. And it was like a crazy moment for me because I was watching this and it basically felt like someone came up to me and said, &quot;Hey Zevi, there's this cool new technology you should check out." aria-label="回原文"></button>。回到家后他立刻开了账号开始动手。但他很快发现，当时那些主打 vibe coding（跟着感觉走的 AI 编程方式）的工具太急于写代码——你刚提个想法，它立刻就开始敲代码了 <button class="pd-ts" data-t="09:16" data-who="Zevi Arnovitz" data-en="The first thing I noticed was that these products were built in a way where, and when I say these products, I mean Bolt and Lovable, were built in a way where they were super eager to write code." aria-label="回原文"></button>。在项目初期这很爽，可一旦要处理像接入支付、改数据库这种复杂逻辑，上来就写代码往往会酿成灾难级的 bug。
 
-要用 AI 做严肃开发，第一步是克服对代码本身的恐惧。Zevi 回忆了自己的起点：当 Sonnet 3.5 这类模型出来时，他用 [[Bolt|Bolt]] 和 [[Lovable|Lovable]]（两款降低开发门槛的 AI 应用构建工具）立刻开始动手，感觉就像获得了超能力 <button class="pd-ts" data-t="06:54" data-who="Zevi Arnovitz" data-en="Oh, and by the way, you have superpowers now.&quot; And the second I got home from Japan, I didn't even unpack my bags, ran to my computer, opened Bolt, opened an account, and for the past year I've been building." aria-label="回原文"></button>。但他很快发现了一个痛点：这些工具有非常强烈的「自以为是」倾向 <button class="pd-ts" data-t="32:05" data-who="Zevi Arnovitz" data-en="But for me, it was basically the issue of I felt that Bolt was being very opinionated on how I should do things. And I felt like my knowledge has gotten to a point where I can graduate and be more in control." aria-label="回原文"></button>。为了让非技术用户省心，Lovable、Bolt、Replit 以及 Base44 等工具会在中间层替用户做大量决策（比如自动帮你接入默认的数据库或登录系统）。好处是简单省事，代价是你失去了控制权 <button class="pd-ts" data-t="34:10" data-who="Zevi Arnovitz" data-en="Base44 does an amazing job at basically taking all the complex guesswork out of building product and just allows you to just go with the vibes and build, but it will do sign in with Google for you and it will do a database, but then you don't have decisions on what database am I using." aria-label="回原文"></button>。一旦要做接入支付或改写复杂数据结构等严肃功能，这种黑箱模式就会带来大量棘手的 Bug。
+为了对付这种「过度积极」的毛病，他给自己造了一个虚拟的 CTO（首席技术官）。具体做法是在 ChatGPT 或 Claude 里专门建一个项目，给系统提示词定下规矩：你是对技术全权负责的人，你要挑战我，不许当讨好者 <button class="pd-ts" data-t="10:13" data-who="Zevi Arnovitz" data-en="So basically what I did was I created a CTO with the custom prompt of it being the complete technical owner of the project. So I told it, &quot;I own the problem. I own how we want the users to feel." aria-label="回原文"></button>。他强调，普通的 ChatGPT 其实会是个最糟糕的 CTO，因为它太喜欢附和你。有一次他问一个框架是不是跟另一个相似，对方明明八竿子打不着，ChatGPT 也会顺着他说「完全一样」，被戳穿后甚至说「我以为你在瞎编，我就跟着你即兴发挥」<button class="pd-ts" data-t="11:22" data-who="Zevi Arnovitz" data-en="And it said the most terrifying and hilarious thing. He goes, &quot;Oh, I'm sorry. I thought you were just making this up and I was riffing with you.&quot;" aria-label="回原文"></button>。有了这个会反驳、会问问题的虚拟 CTO，他才算是有了技术上的主心骨。
 
-因此，当他的知识积累到一定程度后，便「毕业」去了 [[Cursor|Cursor]]（一款深受开发者欢迎的 AI 代码编辑器），并在其中运行 [[Claude Code|Claude Code]]（Anthropic 公司推出的具备执行能力的 AI 编程[[智能体|智能体]]）。两者的根本区别在于控制权：Cursor 配合 Claude Code，是把 AI 直接塞进你的代码系统里，赋予它完整工具去执行任务，但随之而来的是你需要自己做大量的架构决策 <button class="pd-ts" data-t="32:54" data-who="Zevi Arnovitz" data-en="And basically Claude Code is just taking Claude and shoving it straight in your code system and giving it full tools and to do whatever it wants, but also with that comes a lot of decisions that you need to make." aria-label="回原文"></button>。他强调，如果你和他一样非技术背景，代码看起来很可怕，这就像一种「暴露疗法」（通过循序渐进的接触来克服恐惧）——他建议从简单的 ChatGPT 项目开始，过渡到 Bolt，再到 Cursor 的浅色模式，最后慢慢进入全暗色的开发者模式 <button class="pd-ts" data-t="12:49" data-who="Zevi Arnovitz" data-en="It's the scariest thing in the world to look at, and I look at it as kind of like exposure therapy. I think if you see this where I'm working like in Claude or in Cursor, you might be excited to start using those, but I would really recommend starting slow with a GPT project, beautiful UI, super simple, then maybe graduate to like a Bolt or a Lovable, and then go to Cursor in light mode, slowly, slowly, gradually ease in until you open a terminal, go full dark mode, go full dev." aria-label="回原文"></button>。
+有了这个爱挑刺的 CTO 当大后方，他接着梳理出了一套非常严密的实战开发流程。他强烈建议同样是外行者要慢慢来，把接触代码当成一种暴露疗法：先从简单的聊天项目起步，然后过渡到开箱即用的建站工具，最后再进阶到 Cursor 这种专业的开发环境 <button class="pd-ts" data-t="12:44" data-who="Zevi Arnovitz" data-en="And the second thing is if you're non-technical like me, code is terrifying. It's the scariest thing in the world to look at, and I look at it as kind of like exposure therapy." aria-label="回原文"></button>。> 【背景】Cursor 是目前最火的 AI 代码编辑器之一；Claude Code 是 Anthropic 推出、能直接在终端环境里执行操作的 AI 编程[[智能体|智能体]]。现在，他主要在 Cursor 里跑 Claude Code，并给这套工具链配上了自己写的六大自定义指令，完整步骤是：创建问题、探索阶段、制定计划、执行计划、代码评审、[[同行评审|同行评审]]，最后是更新文档 <button class="pd-ts" data-t="16:10" data-who="Zevi Arnovitz" data-en="So basically when I'll do this is if I'm working on a big project and I suddenly come across a bug or have an idea that I don't want to work on right now, but I want to work on later, I'll do this really quick and Claude's main goal is to quickly capture what I'm thinking about." aria-label="回原文"></button>。
 
-> 【背景】Anthropic 是知名 AI 公司，也是大语言模型 Claude 的开发商。Sonnet 3.5 是其推出的一款在编程能力上表现优异的模型版本。
+这几步听起来玄乎，但核心逻辑非常巧妙。以第一步「创建问题」为例，他在开发途中突然想到什么点子，只要一句话，Claude 就会问几个简短的问题，然后自动连上项目管理工具，把需求写成一张规范的工单 <button class="pd-ts" data-t="22:10" data-who="Zevi Arnovitz" data-en="It's a nice to have feature. So now basically what Claude is going to do is it's going to use MCP, which is basically a technology that was created by Anthropic, which gives AI the ability to use tools." aria-label="回原文"></button>。等他过几天有空了，再用「探索阶段」指令把这张工单拉回来，这时 Claude（也就是他眼中的 CTO）会仔细读代码、理清现状，然后反过来向他确认范围和细节，就像一个工程经理在跟你对齐需求 <button class="pd-ts" data-t="24:31" data-who="Zevi Arnovitz" data-en="So it's both for the CTO to deeply understand the problem that we're trying to solve and also understand the current state of the code base, what files need to be affected, and how is the best way to implement this technically." aria-label="回原文"></button>。确认完才动用模板写出一份带状态追踪的计划文件 <button class="pd-ts" data-t="29:30" data-who="Zevi Arnovitz" data-en="So basically what I'm going to do now is I'm going to go and do /create plan and while Claude is doing this, I'm going to show really quick what this looks like." aria-label="回原文"></button>。
 
-熟悉了工具，接下来看他在这套工具里搭出了怎样的一套「标准开发流」。
+从制定计划到真正把功能做出来，Zevi 展示了一种外行管内行的高级玩法：别死盯着一个模型，把不同模型的长处拼起来用。他会把计划拆成前端和后端：用 [[Composer|Composer]]（一种编码模型）去跑通基本的逻辑，因为它快得离谱，几分钟就能干完原本要花几天的活 <button class="pd-ts" data-t="31:05" data-who="Zevi Arnovitz" data-en="So now I think we're going to do this with Cursor just because Composer is so freaking fast. So what we can do is basically just say execute and then we can tag the file." aria-label="回原文"></button>；涉及界面的部分则交给 Gemini 去做，因为设计感极好 <button class="pd-ts" data-t="30:35" data-who="Zevi Arnovitz" data-en="Gemini 3 that just came out is unbelievable at UI. So a lot of times, I'll split the plan into backend and front end, and then I'll have Gemini just read the plan and do the front end." aria-label="回原文"></button>。整个过程他就像一个懂调度的包工头，手里攥着不同的模型各司其职。他还提到，现在只要一台普通的笔记本电脑，所有这些原本遥不可及的顶级模型和能力，就全在你手边了 <button class="pd-ts" data-t="34:59" data-who="Zevi Arnovitz" data-en="And there is just no boundaries. You can use all of these just on your regular MacBook or regular laptop. And I have these moments, I call them time machine moments, which is basically this week, for instance, I was prepping for the podcast using Claude with a project." aria-label="回原文"></button>。
 
-## 搭工作流：把 AI 当成各有脾气的「同事」
+工具变了，人怎么办？这正是下一个话题：当 AI 写代码变得如此容易时，懂业务但不懂代码的人该怎么保证质量？Zevi 坦言，他很难靠自己肉眼抓到代码里的错。于是他想出了一个绝招——让不同的 AI 模型互相挑刺，也就是同行评审（peer review）<button class="pd-ts" data-t="39:55" data-who="Zevi Arnovitz" data-en="But what's even cooler and something that I'm really proud of is I will usually do multiple reviews and I'll have Codex, which is ChatGPT's competitor to Claude Code, as well as cursor open, and I will have each of them review the code." aria-label="回原文"></button>。他会同时打开另外几个工具，让它们各自审一遍刚写的代码，然后把挑出的毛病统一丢回给负责干活的 Claude，并附带指令：「你是这个项目的主管，其他团队主管看了你的代码提出了这些问题。你别全信，解释清楚为啥他们说得不对，或者你自己改掉」<button class="pd-ts" data-t="40:21" data-who="Zevi Arnovitz" data-en="The /command is basically saying, &quot;You're the dead lead on this project. Other team leads within the company have looked at your code and reviewed it and found these issues.&quot;" aria-label="回原文"></button>。有时候，Claude 甚至会反驳说「这事都提三回了，这不是 bug，就是这么设计的」<button class="pd-ts" data-t="43:17" data-who="Zevi Arnovitz" data-en="So I'll do peer review a bunch of times and I'll have other models review other models code and kind of have them fight it out basically. Sometimes Claude Code will get really sassy and be like, &quot;This has been raised for the third time." aria-label="回原文"></button>。
 
-Zevi 在 Cursor 里构建了一套基于「[[斜杠命令|斜杠命令]]」（指在代码库里保存的可重复使用的提示词文件，可通过输入 `/` 加文件名调用）的完整产品开发流。这套流程的精妙之处在于：他把 AI 工具完全拟人化了，当成了自己公司的各个职能同事。
+Zevi 的这套观察建立在他一个非常有趣的认知上：他把不同的模型当成性格迥异的同事来看待 <button class="pd-ts" data-t="40:58" data-who="Zevi Arnovitz" data-en="Each model has such distinct characteristics. So let's say Claude, she would be the perfect CTO. She's very communicative." aria-label="回原文"></button>。在他眼里，Claude 就像个完美的 CTO——聪明、沟通好、有主见但愿意合作；[[Codex|Codex]]（某款 GPT 编码模型）则像个穿着连帽衫躲在黑屋子里的绝顶黑客，平时一声不吭，只有遇到最难搞的 bug 时去敲他的门，两小时后出来丢下一句「修好了」就完事 <button class="pd-ts" data-t="41:31" data-who="Zevi Arnovitz" data-en="So I use Codex 5.1 Max, whatever. I don't know, they're not the best at naming models, but GPT's model. I always imagine it as like the best coder within the company who comes to the office with a hoodie and sandals and sits in a dark room." aria-label="回原文"></button>；而 Gemini 像个疯狂的艺术家，设计出来的东西绝美，但你看它中途的操作步骤（比如第一反应是先把仪表盘整个删掉）会吓出冷汗 <button class="pd-ts" data-t="42:13" data-who="Zevi Arnovitz" data-en="And let's say Gemini is like a crazy scientist who's super artsy, super talented at designing, but if you sit next to it and watch it work, it's terrifying. You would fire that person instantly." aria-label="回原文"></button>。让这些性格各异的「同事」互相制衡，就是他解决外行看不懂代码的最佳方案。
 
-整个流程分为几步：第一步是「创建问题」，用语音把脑海中的想法快速丢给 AI，由 AI 去读取代码库并自动在 [[Linear|Linear]]（一款项目跟踪管理工具）里生成一个标准工单 <button class="pd-ts" data-t="15:10" data-who="Zevi Arnovitz" data-en="What you can see here are all my /commands. Basically what /commands are, they are reusable prompts that I save within the code base that I can run by writing / and then the name of the file." aria-label="回原文"></button>；第二步是「探索阶段」，他会让 AI 充当开发主管（Dev Lead）的角色，理解当前代码结构，并向他提出关于数据模型、用户体验等一系列尖锐的澄清问题 <button class="pd-ts" data-t="24:12" data-who="Zevi Arnovitz" data-en="Okay. So it's both for the CTO to deeply understand the problem that we're trying to solve and also understand the current state of the code base, what files need to be affected, and how is the best way to implement this technically." aria-label="回原文"></button>；第三步是「创建计划」，生成一份详细的执行清单文件；第四步则是使用 [[Composer|Composer]]（Cursor 中速度极快的模型）去执行计划写代码 <button class="pd-ts" data-t="30:27" data-who="Zevi Arnovitz" data-en="So Cursor has an amazing model called Composer, which is superfast. So a lot of things that are not that complex, I'll use Composer. Gemini 3 that just came out is unbelievable at UI." aria-label="回原文"></button>。
+流程跑完并不算结束，Zevi 还有一套持续进化的机制来更新工具的认知。每次发现 Claude 搞砸了某个任务，他不会单纯去修补，而是逼着它做复盘：问它「是你系统提示词或工具里的什么毛病，导致你犯了这种错？」<button class="pd-ts" data-t="46:31" data-who="Zevi Arnovitz" data-en="But I've learned over time that updating documentation and tooling is one of the biggest hacks for productivity. So when Claude will fail to do something or I'll see this really bad bug that shows that Claude really didn't understand something, I'll ask it, &quot;What in your system prompt or tooling made you make this mistake?&quot;" aria-label="回原文"></button>。问清楚后，他会立刻把这些反思更新进文档里，确保同样的错误绝对不再犯。久而久之，他的这套系统提示词和辅助文档就变得越来越聪明，这也是他认为区分普通 AI 使用者和高手的分水岭 <button class="pd-ts" data-t="47:20" data-who="Zevi Arnovitz" data-en="And also using AI, this is probably one of the biggest unlocks. Going back to your prompts, understanding what was not good enough, iterating on them and then seeing how AI's responses get better, I think that's probably one of the most important things and one of the things that divides between people who are okay with using AI and the people who actually know how to use it." aria-label="回原文"></button>。
 
-但写代码其实是最简单的，真正的挑战在后面。非技术人用 AI 写代码，最大的恐惧就是看不懂、查不出 Bug。为了解决这个核心痛点，Zevi 发明了一个极其聪明的「[[同行评审|同行评审]]」机制。既然自己不懂代码，那就让别的 AI 来查 <button class="pd-ts" data-t="43:07" data-who="Zevi Arnovitz" data-en="So I think that using all these models and basically playing to their strengths and mitigating their weaknesses by using other models is a game changer for me. So I'll do peer review a bunch of times and I'll have other models review other models code and kind of have them fight it out basically." aria-label="回原文"></button>。
+除了写代码和做副业，Zevi 还把这种 AI 优先的思维用在了找工作和自我提升上。在准备 Meta 的产品经理面试时，他立刻在 Claude 里建了个专属的教练项目 <button class="pd-ts" data-t="59:14" data-who="Zevi Arnovitz" data-en="So Meta reached out and said they'd like me to interview. Straight away, I opened up a project within Claude. I started looking online for all the best information out there, things that I resonated with." aria-label="回原文"></button>。他会把网上的优质面试框架喂给 AI，让 AI 当评委跟他做模拟面试；他甚至用无代码工具给自己做了个游戏，专门训练自己答产品细分题的手感 <button class="pd-ts" data-t="59:43" data-who="Zevi Arnovitz" data-en="I would mock interview with, and this was amazing. Also, I created a game in Base44, which helped me ... I was really struggling with segmentation within the product questions, so thinking of the correct segments." aria-label="回原文"></button>。他还在网上扒出一个不断更新的真实面试题库，用 AI 浏览器跑数据分析，找出最高频的题目来优先准备 <button class="pd-ts" data-t="61:27" data-who="Zevi Arnovitz" data-en="So I'll mock with AI. Also, I did something really cool where there's a question bank online free by Louis Lynn, which basically is an always updating bank of questions that people are asked in real interviews." aria-label="回原文"></button>。不过他也强调，AI 模拟终究只能带你到一定水平，在 LinkedIn 上找真人做实战模拟面试才是真正的大杀器 <button class="pd-ts" data-t="60:17" data-who="Zevi Arnovitz" data-en="So basically, I think Ben talks about this a bunch, so I don't just go read Ben's stuff, but just creating a project and feeding it with all the best information on the internet and then mocking a bunch." aria-label="回原文"></button>。
 
-他会在本地测试后，先让原本负责写代码的 Claude 进行自我审查（/review）。接着，他会打开 [[Codex|Codex]] 5.1 Max 和 Cursor，分别让这两个来自不同公司的模型去审查同一段代码。最后，他会把这两个模型挑出的毛病复制下来，统一丢回给作为「开发主管」的 Claude，并告诉它：「你是这个项目的主管，其他团队的主管看了你的代码并发现了这些问题。基于你对项目的全局了解，你要么反驳他们，要么自己动手修掉」<button class="pd-ts" data-t="40:21" data-who="Zevi Arnovitz" data-en="The /command is basically saying, &quot;You're the dead lead on this project. Other team leads within the company have looked at your code and reviewed it and found these issues.&quot;" aria-label="回原文"></button>。
-
-之所以要让多个模型互相「打架」，是因为 Zevi 发现每个模型都有极其鲜明的人格特征与长短板，他能利用这些特征来互补 <button class="pd-ts" data-t="41:08" data-who="Zevi Arnovitz" data-en="She doesn't just go with the flow and do whatever you tell her. She's very opinionated, but also super collaborative, which is I think why I'm always drawn to Claude because I need to do so much learning and it's your dream, a very communicative, but very opinionated dev lead, but then there's also Codex." aria-label="回原文"></button>。例如，Claude 像一位完美的 CTO：极其善于沟通、聪明且有主见，愿意和你深度协作探讨；Codex 则像公司里最好的「独狼」程序员：穿着连帽衫坐在小黑屋里，沟通极差，但遇到最恶心的 Bug 时，关上门两小时就能完美修好；而 Gemini 则像一位疯狂的科学家：极具艺术和设计天赋，UI 做得很美，但看它干活的过程非常吓人（甚至会说出「我要先删掉整个仪表盘」这种让人冒冷汗的话）。通过让它们互为对手段子挑错，非技术 PM 也能把控极高的代码质量。
-
-代码质量的把关有了着落，那这些工具对个人能力的长期影响是什么？这引出了他对 AI 时代最核心的判断。
-
-## 用 AI 做教练：这不是「外包思考」，是高频练习
-
-很多人有一种恐惧：过度依赖 AI 会让 PM 的专业技能萎缩，最终产出大量看似精美实则无用的「半成品垃圾」<button class="pd-ts" data-t="54:02" data-who="Zevi Arnovitz" data-en="One of the biggest fears people have with these AI tools for PMs for every function I imagine is just you start to rely on these things, your skills start to atrophy, you're producing all this slop that looks great, cool, amazing strategy doc." aria-label="回原文"></button>。但 Zevi 对此有截然不同的看法。他认为，PM 的职责从来就不是「做房间里最聪明、永远有正确答案的人」，而是利用一切手段，以最快速度为用户交付正确的解决方案。如果你只是用 AI 自动生成东西然后直接扔出去，那确实是制造垃圾，但如果你承担起对最终产出的完全责任，AI 就是你最顶级的导师 <button class="pd-ts" data-t="55:49" data-who="Zevi Arnovitz" data-en="So if you're using it to just create your outputs and then putting them out there, yeah, that's AI slot, but it's also human error. I think it's really important that you own your own outputs." aria-label="回原文"></button>。
-
-他把这套「让 AI 教自己」的逻辑运用到了极致，甚至靠它拿下了 Meta 的 Offer。为了准备竞争极其激烈的 Meta 面试，他直接在 Claude 中建了一个「教练」项目，将网上搜集到的最优质信息喂给它，让 AI 不断给他出题做模拟面试 <button class="pd-ts" data-t="59:18" data-who="Zevi Arnovitz" data-en="Straight away, I opened up a project within Claude. I started looking online for all the best information out there, things that I resonated with. I took a ton of frameworks and stuff from Ben Erez who has written a guest post for you, who I think is one of the best minds out there right now." aria-label="回原文"></button>。他还会录下自己面试的音频，专门让 AI 给他挑刺，补足真实世界里极度缺失的反馈闭环 <button class="pd-ts" data-t="61:15" data-who="Zevi Arnovitz" data-en="Here's what you missed because the feedback loop is so missing. No one ever tells you, here's what you did badly in this interview. No one tells you that, and AI can do that." aria-label="回原文"></button>。他还鼓励大家在遇到不懂的概念时，直接用自己写的 `/learning opportunity` 命令，要求 AI 用「80/20 法则」给一个懂一点架构的中级工程师讲明白，把每一次开发都当成深度的技术学习课 <button class="pd-ts" data-t="28:44" data-who="Zevi Arnovitz" data-en="Also, a very cool /command that I haven't showed yet is learning opportunity, which basically when something is really difficult for me to understand, I'll do /learning opportunity and then talk about what I want to learn." aria-label="回原文"></button>。
-
-他强烈建议年轻 PM 在业余做点自己的副业项目，因为 AI 极大地拉高了你能操作的盘子。在公司里你可能没机会思考整体营销策略，但在自己的项目里，你可以随意让 AI 配合你进行全盘的高阶演练，这能为你带来极其宝贵的实战经验 <button class="pd-ts" data-t="56:22" data-who="Zevi Arnovitz" data-en="And another thing here is that, especially for more junior PMs, it allows you to play at such a higher level than you would normally. I think that at Wix, I wasn't thinking of what's the marketing strategy of the company and how will the onboarding be completely revamped within the whole product." aria-label="回原文"></button>。
-
-听完他怎么把 AI 当导师，最后是他给这个时代年轻从业者的定心丸。
+聊到使用 AI 是否会让人变懒、手艺退步这个普遍焦虑时，Zevi 非常不以为然。他认为，把 AI 当成外包你思考的工具，或者甩锅的借口，那才会产出垃圾 <button class="pd-ts" data-t="55:41" data-who="Zevi Arnovitz" data-en="And I just think this is like that really smart person that has context or your mentor or whatever, but is just always available and doesn't judge you and can really help you." aria-label="回原文"></button>。但只要你真的拿准主意、对自己的产出负责，AI 就是一个永远在线、绝不嘲笑你的超级导师。对初级从业者来说，这意味着你可以借助它在副业里演练更高层级的操盘，这种机会在以前是完全不存在的 <button class="pd-ts" data-t="56:13" data-who="Zevi Arnovitz" data-en="I think if you use these intentionally and really take the time to understand how to use AI in the correct way, it's one of the biggest game changers that will make you much better as a PM." aria-label="回原文"></button>。
 
 ## 本集带走
 
-1. **非技术人也能把控代码质量**：不要只用一个 AI 工具写代码。利用不同大模型各有长短的「性格特征」，让多个模型充当不同的团队主管，让它们互相审查代码、挑毛病甚至争吵，非技术 PM 也能像高管一样做最终的质量裁决。
-2. **不断复盘更新工具链**：每次 AI 犯了错，不要只是让它重试。像做产品复盘一样，要求它反思是什么系统提示词或上下文不足导致了错误，然后把规避该错误的规则写进工具文档里，让你的 AI 同事随着时间推移越来越聪明。
-3. **现在是做初级人员的最好时机**：不要被「初级岗位即将消失」的焦虑裹挟。在这个历史节点，只要你保持好奇心和求知欲，利用 AI 做高频练习和模拟，哪怕刚出校园，你也能以前所未有的速度独自跑通一家完整的初创公司。
+最后收个尾，这一集值得带走的是几句实在话。第一，不懂代码真的不再是造产品的绝对阻碍了，但前提是你要会做规划——别急着让模型上来就写，给它设定角色、拆好步骤、定好护栏。第二，外行管内行的高级玩法不是苦学语法，而是当个会调度的包工头：让 Claude 做规划、让 Composer 闷头敲代码、让 Gemini 搞设计，再让它们互相开评审会挑刺。第三，模型会犯错不可怕，可怕的是你不让它长记性，每次搞砸了都逼它复盘并更新进文档里，它才真的能越用越顺。最后 Zevi 还提醒大家，别光感叹别人多厉害，打开电脑，开个项目，你自己也完全可以动手做事了。
 
 <div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
 
-> <span class="qz">如果人们离开时觉得你多么了不起，你就失败了。如果人们离开后打开他们的电脑并开始构建，你就成功了。</span>  
-> *If people walk away thinking how amazing you are, you failed. And if people walk away and open their computer and start building, you've succeeded.*  
-> <span class="qm">—— Zevi Arnovitz · [07:17]</span> ^q1
+> <span class="qz">如果普通的 ChatGPT 是一个 CTO，那它会是一个顺从你最愚蠢主意的 CTO。</span>  
+> *If regular ChatGPT was a CTO, that would be the CTO who goes along with your dumbest ideas.*  
+> <span class="qm">—— Zevi Arnovitz · [11:31]</span> ^q1
 
-> <span class="qz">是的，我认为这就是单纯的 vibe coding 和顺其自然与真正构建严肃应用之间的巨大区别。</span>  
-> *Yeah, and I think this is the big difference between just vibe coding and going along with the vibes and really building serious apps.*  
-> <span class="qm">—— Zevi Arnovitz · [28:18]</span> ^q2
+> <span class="qz">我把它看作像一种暴露疗法。如果你看到我在 Claude 或 Cursor 中工作的样子，你可能很兴奋开始使用那些，但我真的推荐从一个 GPT 项目慢慢开始，漂亮的 UI，超级简单，然后也许升级到 Bolt 或 Lovable，然后去用 Cursor 的浅色模式，慢慢地，逐渐地，慢慢进入直到你打开一个终端，去全暗色模式，去全开发者模式。</span>  
+> *I look at it as kind of like exposure therapy. I think if you see this where I'm working like in Claude or in Cursor, you might be excited to start using those, but I would really recommend starting slow with a GPT project, beautiful UI, super simple, then maybe graduate to like a Bolt or a Lovable, and then go to Cursor in light mode, slowly, slowly, gradually ease in until you open a terminal, go full dark mode, go full dev.*  
+> <span class="qm">—— Zevi Arnovitz · [12:47]</span> ^q2
 
-> <span class="qz">我正在构建，我正在把 StudyMate 从希伯来语完全本地化到英语，我在两天内完成了，这可能需要一个开发团队几周的时间。</span>  
-> *I was building, I was fully localizing StudyMate from Hebrew to English, which I did in two days, which would probably take a dev team weeks.*  
-> <span class="qm">—— Zevi Arnovitz · [35:17]</span> ^q3
+> <span class="qz">我认为这就是单纯的 vibe coding 和顺其自然与真正构建严肃应用之间的巨大区别。</span>  
+> *I think this is the big difference between just vibe coding and going along with the vibes and really building serious apps.*  
+> <span class="qm">—— Zevi Arnovitz · [28:18]</span> ^q3
 
-> <span class="qz">回到你的提示词，去理解哪些不够好，对其进行迭代，然后看看 AI 的响应如何变好，我认为这可能是最重要的事情之一，也是区分那些还可以使用 AI 的人和真正知道如何使用 AI 的人的因素之一。</span>  
-> *Going back to your prompts, understanding what was not good enough, iterating on them and then seeing how AI's responses get better, I think that's probably one of the most important things and one of the things that divides between people who are okay with using AI and the people who actually know how to use it.*  
-> <span class="qm">—— Zevi Arnovitz · [47:20]</span> ^q4
+> <span class="qz">所以当 Claude 未能做某事，或者我看到这个非常糟糕的错误，表明 Claude 真的没有理解某些东西时，我会问它，“是什么在你的系统提示或工具中导致你犯了这种错误？”</span>  
+> *So when Claude will fail to do something or I'll see this really bad bug that shows that Claude really didn't understand something, I'll ask it, "What in your system prompt or tooling made you make this mistake?"*  
+> <span class="qm">—— Zevi Arnovitz · [46:31]</span> ^q4
 
-> <span class="qz">取代你的是那些比你更擅长使用 AI 的人。</span>  
-> *It's you'll be replaced by someone who's better at using AI than you.*  
-> <span class="qm">—— Lenny · [62:43]</span> ^q5
+> <span class="qz">我认为头衔将会崩塌，责任将会崩塌，每个人都将只是在构建。</span>  
+> *I think titles are going to collapse and responsibilities are going to collapse and everyone's just going to be building.*  
+> <span class="qm">—— Zevi Arnovitz · [52:45]</span> ^q5
 
-> <span class="qz">是的，我认为头衔将会崩塌，责任将会崩塌，每个人都将只是在构建。</span>  
-> *Yeah, I think titles are going to collapse and responsibilities are going to collapse and everyone's just going to be building.*  
-> <span class="qm">—— Zevi Arnovitz · [52:45]</span> ^q6
+> <span class="qz">在那一刻我明白了，他们对我是 10 倍 PM 零期望，但对我的期望是做一个 10 倍学习者。</span>  
+> *I understood in that moment that they had zero expectation of me being a 10X PM, but the expectation of me was being a 10X learner.*  
+> <span class="qm">—— Zevi Arnovitz · [64:34]</span> ^q6
 
-> <span class="qz">我认为许多 PM 有一个误解，认为工作总是拥有正确的答案并成为房间里最聪明的人。</span>  
-> *I think that there's a misconception with a lot of PMs that the job is always having the right answers and being the smartest person in the room.*  
-> <span class="qm">—— Zevi Arnovitz · [55:08]</span> ^q7
+> <span class="qz">不是你会被 AI 取代。你会被一个更擅长使用 AI 的人取代。</span>  
+> *It's not that you will be replaced by AI. You'll be replaced by someone who's better at using AI than you.*  
+> <span class="qm">—— Lenny · [00:54]</span> ^q7
 
 <div class="pd-sec">接着看</div>
 
@@ -122,18 +106,18 @@ Zevi 在 Cursor 里构建了一套基于「[[斜杠命令|斜杠命令]]」（�
 
 **顺着「AI 编程」挖下去**
 
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切]] —— 同公司:Cursor · 同概念:Claude Code、Codex、智能体 (agent)
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同公司:Cursor · 同概念:Claude Code、Codex、智能体 (agent)
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当代码不再是瓶颈,品味和策展成为产品团队的稀缺力]] —— 同公司:Linear · 同概念:Codex、智能体 (agent)
-- [[2026-07-09-pg-pm-guide-ai-design|用 AI 武装技术型 PM：Codex 工作流全解析]] —— 同公司:Cursor · 同概念:Codex、智能体 (agent)
+- [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]] —— 同公司:Cursor · 同概念:Codex、智能体 (agent)
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-singju-openclaw-80apps|OpenClaw创始人：为何80%的应用将消失]] —— 同概念:Claude Code、Codex、智能体 (agent)
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南]] —— 同公司:Anthropic · 同概念:Claude Code、智能体 (agent)
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得]] —— 同概念:Claude Code、智能体 (agent)
+- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]] —— 同概念:Claude Code、Codex、智能体 (agent)
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]] —— 同公司:Anthropic · 同概念:Claude Code、智能体 (agent)
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]] —— 同概念:Claude Code、智能体 (agent)
 
 </div>
 </div>

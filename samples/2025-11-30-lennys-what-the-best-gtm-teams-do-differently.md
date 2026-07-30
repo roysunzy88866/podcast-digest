@@ -113,18 +113,18 @@ tags:
 
 **顺着「增长与销售」挖下去**
 
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验]] —— 同嘉宾:Lenny · 同公司:Vercel · 同概念:go-to-market、智能体 (agent)
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]] —— 同嘉宾:Lenny · 同公司:Vercel · 同概念:go-to-market、智能体 (agent)
 - [[2026-01-25-lennys-why-your-product-stopped-growing|增长停滞怎么办？Jason Cohen 的四步诊断法]] —— 同嘉宾:Lenny
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师]] —— 同嘉宾:Lenny
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角]] —— 同嘉宾:Lenny
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当代码不再是瓶颈,品味和策展成为产品团队的稀缺力]] —— 同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
 
 </div>
 </div>

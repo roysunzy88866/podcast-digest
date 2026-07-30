@@ -13,7 +13,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 见顶了吗？OpenAI 与 Google 前核心创立 Core Automation 寻找下一代架构》]] — 作为嘉宾
+- [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]] — 作为嘉宾
 
 ## ③ 他谈到的
 

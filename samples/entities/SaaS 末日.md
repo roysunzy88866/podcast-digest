@@ -11,25 +11,25 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]]**(24:01起):嘉宾认为这种说法被严重夸大了。虽然花哨的软件形式会过时，但「即服务」提供的维护和专业知识价值并不会消失，没人想维护一整套复杂的软件栈。
+- **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]]**(24:01起):嘉宾认为这种说法被严重夸大了。虽然花哨的软件形式会过时，但「即服务」提供的维护和专业知识价值并不会消失，没人想维护一整套复杂的软件栈。
 
 ## ① 提到它的金句
 
 *4 条,均已过机器闸门*
 
-![[2026-05-03-lennys-why-cultivating-agency-matters-more#^q3]]
+![[2026-05-03-lennys-why-cultivating-agency-matters-more#^q9]]
 
-![[2026-05-21-latent-space-daytona#^q4]]
+![[2026-05-21-latent-space-daytona#^q3]]
 
 ![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q2]]
 
-![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q3]]
+![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q8]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] — 作为概念
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]] — 作为概念
 
 ## ③ 关联
 

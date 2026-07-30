@@ -1,5 +1,5 @@
 ---
-title: Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评
+title: Keith Rabois：别招大厂高管，别做客户调研
 podcast: "Lenny's Podcast"
 date: 2026-04-12
 source_url: https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era
@@ -7,7 +7,7 @@ duration: "82:37"
 type: episode
 cover: "#6366f1"
 image: "/covers/2026-04-12-lennys-hard-truths-about-building-in-the-ai-era.jpg"
-description: 从 PayPal 黑帮到顶级 VC，Keith Rabois 讲透了如何识别顶尖人才、如何在 AI 时代重构团队。
+description: Keith Rabois 谈如何识别「桶」式人才、反直觉的管理与招聘哲学，以及 AI 如何把产品经理变成 CEO。
 host: "[[Keith Rabois]]"
 cohosts: ["[[Lenny]]"]
 companies: ["[[PayPal]]", "[[Square]]", "[[Faire]]", "[[Ramp]]", "[[Airbnb]]"]
@@ -18,9 +18,9 @@ tags:
   - 创业与行业
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Keith Rabois：别招大厂高管，别做客户调研</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评
+# Keith Rabois：别招大厂高管，别做客户调研
 
 <div class="pd-byl"><b>Keith Rabois</b> · Khosla Ventures 董事总经理</div>
 
@@ -28,7 +28,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-04-12-lennys-hard-truths-about-building-in-the-ai-era.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">你建立的团队就是你建立的公司。</div><div class="a">Keith Rabois · 05:52</div></div>
+<div class="pd-hook"><div class="z">如果你雇佣了更多的人，而没有增加我所谓的能从构想到成功推动的「burials」，你实际上只是在同一个计划背后堆积人员。</div><div class="a">Keith Rabois · 16:44</div></div>
 
 > [!info] 关联
 > **人物** [[Keith Rabois]] · [[Lenny]]
@@ -39,105 +39,85 @@ tags:
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/hard-truths-about-building-in-the-ai-era)
 
-<div class="pd-tldr"><b>一句话</b>从 PayPal 黑帮到顶级 VC，Keith Rabois 讲透了如何识别顶尖人才、如何在 AI 时代重构团队。</div>
+<div class="pd-tldr"><b>一句话</b>Keith Rabois 谈如何识别「桶」式人才、反直觉的管理与招聘哲学，以及 AI 如何把产品经理变成 CEO。</div>
 
-[[Keith Rabois|Keith Rabois]] 是 [[PayPal|PayPal]] 黑手党（PayPal 早期核心团队）成员，曾在 [[Square|Square]] 任首席运营官，现在是 Khosla Ventures 的董事总经理。他早期投资了 Stripe、[[Airbnb|Airbnb]]、YouTube、DoorDash、[[Ramp|Ramp]] 等公司，以毒辣的识人眼光著称 <button class="pd-ts" data-t="01:18" data-who="Lenny" data-en="Keith's resume, both as an operator and investor is absurd. He was an early investor in Stripe, Palantir, Airbnb, YouTube, DoorDash, Ramp, and dozens of other companies." aria-label="回原文"></button>。本集他集中分享了关于招人、用人、判断 AI 时代组织变局的心法——核心可以拆成三块：怎么找到并吸引顶尖人才，为什么你根本不该做客户访谈，以及 AI 会怎样彻底重塑软件团队。
+一家公司里能独立把一件事从头做到尾的人，通常只有 2 到 15 个。你招再多人，只要这批人的数量不增加，公司产出的东西就不会变多——多出来的只是协作成本。说这话的人是 [[Keith Rabois|Keith Rabois]]，他是 [[PayPal|PayPal]] 黑手党的早期成员，投过 Stripe、[[Airbnb|Airbnb]]、DoorDash、YouTube，现在在 Khosla Ventures 做投资。
 
-## 人才密度与「桶和弹药」理论
-Keith 的第一性原理来自老搭档 Vinod Khosla 的一句话：「你建立的团队就是你建立的公司」<button class="pd-ts" data-t="05:46" data-who="Keith Rabois" data-en="Well, let's start with first principles. The most important lesson I learned when I was working at Square from my board was Vinod Khosla was on my board, and he said, &quot;The team you build is the company you build.&quot;" aria-label="回原文"></button>。他回顾在 PayPal 的经历指出，Peter Thiel 和 Max Levchin 调动了极高的[[人才密度|人才密度]]，这是 PayPal 成功并孕育出后续一连串伟大公司的根本原因 <button class="pd-ts" data-t="06:27" data-who="Keith Rabois" data-en="Why were there subsequent generations of successful, interesting companies for 25 years now? It's because Peter Thiel and Max Levchin marshaled an incredible density of talent." aria-label="回原文"></button>。
+在这集播客里，他从自己的经历出发，讲了四件事：怎么在组织内部识别并挖走真正有才华的人，为什么大多数公司招人的方法在错失好苗子；为什么他极其反感做客户调研，甚至禁止同事去和客户交谈；在 AI 快速发展的当下，产品、工程和设计这三个角色的未来会怎么变；以及作为投资人，他怎么靠极其早期的「执行速度」来判断一家初创公司能不能成。最后他还分享了自己最反直觉的一条管理原则：应该公开批评员工，而不是私下谈。
 
-顺着团队这个话题，他展开了自己最核心的框架——**[[桶和弹药|桶和弹药]]（barrels and ammunition）**。很多公司融到钱后疯狂招人，结果 CEO 发现烧钱剧增、产出却没变 <button class="pd-ts" data-t="16:00" data-who="Keith Rabois" data-en="And then the CEO, almost without accession, gets frustrated because they've hired a lot of people. The burn rate has increased a lot and they don't feel like more is getting accomplished per unit of time, per day, per week, per month, per quarter, and they get frustrated." aria-label="回原文"></button>。Keith 指出，根本原因在于：任何公司里，能够**独立把一件事从零推到完成**的人（即「桶」）极其稀缺 <button class="pd-ts" data-t="16:22" data-who="Keith Rabois" data-en="And why, why, why, why? After years of sitting through these conversations at dinner with other CEOs or COOs, I realized that the fundamental driver of this is that the number of people that can independently drive an initiative from beginning, from inception to success is very limited within any company." aria-label="回原文"></button>。哪怕是被誉为人才圣地的 PayPal，被收购时大约只有 12 到 17 个桶 <button class="pd-ts" data-t="17:13" data-who="Keith Rabois" data-en="Of those people, depending on how strict you really want to be. And this is considered one of the best talent rich networks of all time in technology, there's between 12 to 17 barrels in the organization." aria-label="回原文"></button>。
+说完了 Keith 是谁、这集聊什么，我们先从他最出名的用人框架讲起。
 
-如果不增加「桶」的数量，只是不断招人，那你只是在往同一批项目里堆「弹药」，徒增协作和沟通的成本 <button class="pd-ts" data-t="16:55" data-who="Keith Rabois" data-en="And if you hire more people without expanding the number of what I call burials that can drive from inception to success, all you're doing is stacking people behind the same initiatives." aria-label="回原文"></button>。Keith 面试高管时必问的一个问题是：「如果你是这家公司的 CEO，你会做哪些不同的决策？」以此考察对方有没有推动价值创造的战略头脑 <button class="pd-ts" data-t="13:20" data-who="Keith Rabois" data-en="Any other questions you find really helpful in extracting the right information? When I interview candidates for senior people in leadership positions, I always ask them, look at whatever company they're at and say, &quot;If you were CEO, what would you have done differently?&quot;" aria-label="回原文"></button>。
+## 招聘的本质：寻找「桶」和「弹药」
 
-> 【背景】背景调查中的「问对问题」极其关键：Keith 提到电商平台 Faire 的创始人 Max Rhodes，很多 VC 做 reference 时问的是「他是个好员工吗？」，结果因为他在大公司显得不合群而错过了投资；如果问「他有潜力成为世界级创业者吗？」，答案则是肯定的 <button class="pd-ts" data-t="12:33" data-who="Keith Rabois" data-en="I've been a longtime investor from the seed round of a company called Faire, founded by two of my colleagues at Square, Max Rhodes and Jeff Colvison worked for me at Square and then the two other co-founders also worked at Square." aria-label="回原文"></button>。
+很多初创公司融到 A 轮、B 轮后会疯狂招人，但 CEO 很快会发现：烧的钱多了，大家每天每周每月看着却没干出更多事。Keith 说，他在听过无数 CEO 抱怨后意识到，这背后的根本原因是：任何公司里，能独立推动一个项目从构想到成功的人（他称之为「桶」，barrels）是非常稀缺的 <button class="pd-ts" data-t="16:44" data-who="Keith Rabois" data-en="After years of sitting through these conversations at dinner with other CEOs or COOs, I realized that the fundamental driver of this is that the number of people that can independently drive an initiative from beginning, from inception to success is very limited within any company." aria-label="回原文"></button>。如果不增加「桶」的数量，只顾着招人，你只是在同一个项目后面堆人，白白增加了协作和协调的成本。
 
-既然「桶」如此稀缺，发现了怎么吸引他们？公司策略变了，人怎么办？这正是下一个话题。
+被收购时，被誉为科技史最强人才网络之一的 PayPal 大约有 254 人，但 Keith 估计其中只有 12 到 17 个真正的「桶」<button class="pd-ts" data-t="17:13" data-who="Keith Rabois" data-en="Of those people, depending on how strict you really want to be. And this is considered one of the best talent rich networks of all time in technology, there's between 12 to 17 barrels in the organization." aria-label="回原文"></button>。他甚至问过一家相当大的公司的高管，对方说全公司只有两个桶。那么，怎么判断一个人是不是桶？Keith 的标准是：你指一座山头，他能不管不顾、想尽办法动员资源和人手，最终把公司带过那座山 <button class="pd-ts" data-t="19:02" data-who="Keith Rabois" data-en="Can they take an idea and make it happen? Basically, we're going up that, there's a hill over there, that's the hill. Get us over that hill." aria-label="回原文"></button>。简单说，就是具备极度主观能动性、能实现「发射后不管」的人。
 
-## 吸引顶尖人才：不要去抢大家都知道的明星
-面对大厂的高薪抢夺，初创公司真正的出路是**去发掘「未被发现的才华」** <button class="pd-ts" data-t="25:06" data-who="Keith Rabois" data-en="So I think that can be extremely helpful. My more important arc in this is I think you have to build a company on undiscovered talent. I don't think you really want to compete for the people that everybody else wants." aria-label="回原文"></button>。Keith 借用体育界的「工资帽（薪资上限）」打比方：初创公司的薪资上限可能只有竞争对手的十分之一，所以必须换一种打法 <button class="pd-ts" data-t="26:03" data-who="Keith Rabois" data-en="Well, they're also not maybe the people you want, so there's adverse election, but it's like a salary cap. Most sports these days have salary caps. And when you're a startup, not only do you have a salary cap, you probably have one 10th the salary cap of the people you're competing with." aria-label="回原文"></button>。
+那么，怎么才能抢到这样的人才？Keith 的建议并不是去市场上去抢那些所有人都想要的人。他主张去寻找「未被发现的才华」 <button class="pd-ts" data-t="25:06" data-who="Keith Rabois" data-en="So I think that can be extremely helpful. My more important arc in this is I think you have to build a company on undiscovered talent. I don't think you really want to compete for the people that everybody else wants." aria-label="回原文"></button>。初创公司的资金往往只有竞争对手的十分之一，就像在工资帽的限制下打球，必须用更少的资源撬动更大的成功 <button class="pd-ts" data-t="26:06" data-who="Keith Rabois" data-en="Most sports these days have salary caps. And when you're a startup, not only do you have a salary cap, you probably have one 10th the salary cap of the people you're competing with." aria-label="回原文"></button>。怎么找？去寻找那些会被大公司的「同质化黑盒招聘机器」漏掉的人。有时候年轻人反而有优势，因为他们职业生涯的数据点少，黑盒机器没法像处理三十多岁的人那样轻易给他们打分归类 <button class="pd-ts" data-t="27:07" data-who="Keith Rabois" data-en="So sometimes it's just lack of information. Sometimes it's controversial to say this, but one of the reasons why the net impact of my higher undiscovered talent is you wind up skewing younger." aria-label="回原文"></button>。
 
-他的洞察是：大公司的招聘系统是一个同质化的黑盒。年轻人因为履历数据点少，往往会被这个黑盒错判；而如果你能搞清楚为什么大厂会漏掉某个人，你就能挖到宝 <button class="pd-ts" data-t="26:34" data-who="Keith Rabois" data-en="I think it's basically isolating why other people aren't going to process them correctly. Most recruiting at large organizations becomes a homogenous function. And so if you understand why this person is going to get thrown into this black box thing and not get processed accurately, it's pretty easy." aria-label="回原文"></button>。
+## 别去和客户交谈
 
-具体到怎么吸引他们？关键是让对方意识到：他特有的能力，刚好是这家公司当前最大的瓶颈。Keith 当年离开 Google 加入 Square，就是因为投资人跟他说：「全世界懂金融服务又懂创业的人只有三个，你是其中之一」<button class="pd-ts" data-t="24:22" data-who="Keith Rabois" data-en="And then the investors in Square called me up and they said, &quot;Hey, we've been looking for almost a year now for someone who knows something about financial services yet is still an entrepreneurial.&quot;" aria-label="回原文"></button>。
+说完了怎么组建团队，接下来是 Keith 最惹人争议的一个观点：除非你做的是硬核的企业级生意，否则绝对不要去和客户交谈。
 
-搭建好了团队，接下来该怎么管？Keith 抛出了两个极为反直觉的管理主张。
+Keith 坦言自己讨厌和客户交谈，甚至拒绝让同事去 <button class="pd-ts" data-t="52:17" data-who="Keith Rabois" data-en="So one that I think people still just would disagree with is that your advice is for, unless you're building an enterprise company, you don't actually want to be talking to customers." aria-label="回原文"></button>。为什么？因为消费决策往往是潜意识的，而当你有意识地去回答别人关于潜意识的提问时，给出的往往是误导信息。他举例说，如果你问一个开着保时捷或兰博基尼的人为什么买这辆车，99% 的时间里，他们会告诉你除了真实原因以外的所有理由 <button class="pd-ts" data-t="53:02" data-who="Keith Rabois" data-en="The proverbial example I like to use, but it's instructive is ask anybody who drives a super fancy car like a Porsche or a Lamborghini, why they bought the car." aria-label="回原文"></button>。
 
-## 反直觉的管理术：顺境施压与公开批评
-Keith 信奉「无情地施压」。他认为，公司越成功，组织就越容易自满，而 CEO 唯一的角色就是抵消这种自满 <button class="pd-ts" data-t="28:41" data-who="Keith Rabois" data-en="People eventually get comfortable, complacent. The more success you have, the more complacent the organization tends to get, and the single role for the CEO is offsetting that complacency." aria-label="回原文"></button>。所以顺境时反而要极度挑剔，逆境时则要做个温和的拉拉队长 <button class="pd-ts" data-t="29:36" data-who="Keith Rabois" data-en="So for example, now what I do is mostly a VC, mostly a board member, mostly a consigliere to a founder. Maybe what's less intuitive, and you may picked up on this in your research and interviews of people who know me, when a company's struggling, I'm actually usually very non-critical and more like a coach and supporter." aria-label="回原文"></button>。
+把东西放在客户面前做测试，并不是真实世界的代理人。在现实里，你得在客户去健身、带孩子、乘地铁的繁杂日常中抓住他们的注意力 <button class="pd-ts" data-t="45:00" data-who="Keith Rabois" data-en="I mean, when people are pitching me as an investor, it's one of the things I'm dialing into immediately is how the hell is this going to cut through the clutter?" aria-label="回原文"></button>。如果是做企业级生意，你能找到真正的决策者，去聊是有价值的；但如果是做面向消费者或小企业的产品，听[[客户反馈|客户反馈]]往往是一场灾难。当团队里的人信誓旦旦地说「我和八个客户聊过」并以此高谈阔论时，这些先入为主的偏见就会被锁在每个人的脑子里，把产品带偏方向 <button class="pd-ts" data-t="55:03" data-who="Keith Rabois" data-en="And then people will say, &quot;Yeah, I've sat in so many meetings,&quot; and this would infuriate me, but where people will be like, &quot;I talked to eight customers, blah, blah, blah, blah, blah, and I know that this isn't statistically represented,&quot; but then they pontificate for an hour." aria-label="回原文"></button>。
 
-这种管理哲学延伸到他对「[[心理安全感|心理安全感]]」的态度——他完全不信这一套。
+他的解法是：相信你自己的直觉和洞察。你可以去压力测试业务逻辑，比如去问餐厅愿不愿意贴个配送牌，或者算一算每小时的配送密度能不能盈亏平衡 <button class="pd-ts" data-t="56:15" data-who="Keith Rabois" data-en="So for example, let's go to DoorDash. I don't think customers told us that, &quot;We want a button on our phone to click to deliver food,&quot; but you could talk to restaurants and say, &quot;Hey, would you put this placard here so that people walking into your store know in the future that they can get delivered?&quot;" aria-label="回原文"></button>，但不要指望从客户嘴里直接问出「我该造什么」。
 
-> 【背景】心理安全感指团队成员相信自己不会因为犯错或发言而受到惩罚。但 Keith 认为，高性能机器不需要心理安全感，它们的目标只有赢 <button class="pd-ts" data-t="74:41" data-who="Keith Rabois" data-en="No, no, I don't believe in that at all. High performance machines don't have psychological safety. They're about winning." aria-label="回原文"></button>。他主张**在公开场合批评人**：因为这样能让全团队知道问题正在被解决，还能让别人主动来帮忙，而不是让全公司陷入私下猜测的恐慌 <button class="pd-ts" data-t="73:00" data-who="Keith Rabois" data-en="And one of the most important tenents is criticize people in public. And when you decompose the logic of it's so obviously true, but almost no one does this and very few people talk about it even if they do it." aria-label="回原文"></button>。
+## 产品的未来：人人都得是 CEO
 
-聊完了怎么建立和管理一支铁军， Keith 接着谈了一个让很多产品经理和工程师都会心头一紧的议题：AI 时代，这些岗位会怎样演变？
+聊完了不该听的客户，工具变了，人怎么办？这正是接下来的话题：当 AI 能轻易写代码和做设计时，公司里的产品经理、工程师、设计师会变成什么样？
 
-## AI 时代：PM 角色将消亡，懂商业的工程师成大赢家
-Keith 认为，AI 将彻底改变软件团队的构成。传统 [[PM|PM]]（产品经理）做的那些制定年度路线图的工作将毫无意义，因为技术迭代的速度让一年期的计划显得荒谬 <button class="pd-ts" data-t="35:39" data-who="Keith Rabois" data-en="And he convinced me that the idea of a PM makes no sense basically in the future. If you think about decomposing the logic is what does PM usually do? They take these inputs from customers, they create this sequential roadmap that's well organized over the next year, blah, blah, blah, blah, blah." aria-label="回原文"></button>。他甚至观察到，在一些顶级公司里，消耗 AI token 最多的不是工程师，而是 CMO（首席营销官），因为他们好奇心最强，直接用 AI 做营销数据分析和落地页 <button class="pd-ts" data-t="33:15" data-who="Keith Rabois" data-en="Well, I do think AI is going to radically reorient lots of people's careers, maybe including mine. So I think that's actually true. And I think the way to thrive in a rapidly emerging technology world is to be intellectually curious. So for example, I'm a business person historically. I did actually code when I was really young, but basically professionally, just a business person. What I've noticed in some of the best organizations is the number one consumer of tokens is the CMO-" aria-label="回原文"></button>。
+Keith 被 Peter Fenn 的观点说服：传统的产品经理在未来是没有意义的 <button class="pd-ts" data-t="35:33" data-who="Keith" data-en="Well, I saw this podcast or I listened to this podcast that Peter Fenn did. And he convinced me that the idea of a PM makes no sense basically in the future. If you think about decomposing the logic is what does PM usually do?" aria-label="回原文"></button>。过去产品经理的拿手好戏是收集客户输入，制定一张安排得井井有条的一年期路线图。但在基础模型能力快速进化的今天，几个月前还做不到的事，很快就变得很容易了，一年期的路线图彻底失效。
 
-这就引出了一个关键的职位演化判断：**随着 AI 把写代码和画设计的门槛抹平，最难的部分变成了「决定做什么」**。未来的工程师或设计师，核心技能不再只是执行，而是更像 CEO——懂[[商业头脑|商业头脑]]，知道什么能为公司创造价值 <button class="pd-ts" data-t="37:40" data-who="Lenny &amp; Keith" data-en="I agree with that. I actually think whether you talk about someone who used to be a PM or someone who used to be a designer or called an engineer, the skill is more like being a CEO now, which is what are we building and why?" aria-label="回原文"></button>。Keith 指出，那些既有工程能力又有商业直觉的人，会成为终极赢家，因为 AI 让他们一个人就能抵过去一整支团队 <button class="pd-ts" data-t="40:13" data-who="Lenny &amp; Keith" data-en="I think that's the ultimate unicorn is an engineer that is also very business-minded. It's going to put a premium. I think this is what ..." aria-label="回原文"></button>。
+现在的关键是能随时在跑动中改变路线图：有人需要敏锐地注意到「这周有些事变得可行了」，然后下周就立刻利用它为客户创造新价值。在这个新的现实里，传统的中间层（比如只做传达和规划的产品经理）失去了意义。真正的核心能力变成了像 CEO 一样思考：我们在构建什么？以及为什么？
 
-谈到「决定做什么」，Keith 还有一个与产品圈主流认知背道而驰的观点。
+这不仅是产品经理的进化方向，也是工程师和设计师的进化方向。因为工具越来越强大，实际把东西做出来的难度越来越低，真正的艺术在于知道该构建什么。Keith 观察到，[[Ramp|Ramp]] 的工程总监在管理 20 人团队的同时，自己写的代码量和当年做个人贡献者时一样多——因为他把 AI 当成了自己的第二支团队在指挥 <button class="pd-ts" data-t="40:30" data-who="Keith Rabois" data-en="Another example is a good friend of mine is director of engineering at Ramp. He ships as much code personally. So he has a team of about 20 people." aria-label="回原文"></button>。这种具备极强商业直觉、懂业务、还能用 AI 放大杠杆的工程师，将会享受极高的溢价。此外，设计和工程也正在融合，比如 Shopify 两年前就不让产品经理拿静态的 PowerPoint 演示文稿去做产品演示了，高管们只看能跑的 Demo <button class="pd-ts" data-t="43:19" data-who="Keith Rabois" data-en="So at Shopify, the way they develop, they've been doing this for over two years now. So this may seem normal, but they have not let PMs provide PowerPoint or keynote presentations on product for two years." aria-label="回原文"></button>。
 
-## 为什么不该跟客户交谈？
-Keith 极度反感做客户访谈，甚至禁止同事去跟客户聊天 <button class="pd-ts" data-t="52:18" data-who="Keith Rabois" data-en="Yeah, I hate talking to customers. I refuse to allow colleagues about and talk to customers. You can talk with the famous stuff and the Steve Jobs, the horses and the faster horses and all this stuff." aria-label="回原文"></button>。
+## 逆向判断与公开批评
 
-他的逻辑是：消费者购买东西往往是潜意识的决定，当你试图用有意识的提问去拆解潜意识时，得到的往往是误导性的答案 <button class="pd-ts" data-t="52:32" data-who="Keith Rabois" data-en="But I think it's more important is it's often directionally wrong. Customers don't know what they want and they're very bad because it's a subconscious decision, especially for consumers." aria-label="回原文"></button>。他举了个极端例子：去问一个开兰博基尼的人为什么买这辆车，他 99% 不会告诉你真实原因 <button class="pd-ts" data-t="53:02" data-who="Keith Rabois" data-en="The proverbial example I like to use, but it's instructive is ask anybody who drives a super fancy car like a Porsche or a Lamborghini, why they bought the car." aria-label="回原文"></button>。
+说完了角色的变化，最后回到 Keith 的管理与投资哲学。在这集里，他抛出了几个极为反直觉的判断，最典型的就是关于如何给团队施压和给反馈。
 
-这跟规模有关。如果是做有着明确拍板人的硬核企业级产品，跟客户聊是有价值的 <button class="pd-ts" data-t="53:17" data-who="Keith Rabois" data-en="Now, a hardcore enterprise, customer development does work because there is a decision maker. And the decision maker is mostly making utilitarian decision. And yes, there's political forces within the organization and you may or may not be able to tap into those, but fundamentally, extracting that information is valuable, but a consumer, SMB, micro-emergent product, unmitigated disaster." aria-label="回原文"></button>。但如果你的目标受众是数以亿计的普通消费者，靠找几个人做调研就是纯纯的灾难，这只会把团队往错误的方向上引 <button class="pd-ts" data-t="53:36" data-who="Lenny &amp; Keith" data-en="And yes, there's political forces within the organization and you may or may not be able to tap into those, but fundamentally, extracting that information is valuable, but a consumer, SMB, micro-emergent product, unmitigated disaster." aria-label="回原文"></button>。Keith 建议的解法是：相信你自己的洞察，去验证逻辑，而不是依赖充满噪声的反馈。
+Keith 深信有史以来最伟大的 CEO 有一个最大的共同点：无情地施加力量 <button class="pd-ts" data-t="28:32" data-who="Keith Rabois" data-en="So a friend of mine who's a CEO once asked Mike Moore, it's like, &quot;What's the most common denominator of the best CEOs ever?&quot; And he said, &quot;It's the relentless application of force.&quot;" aria-label="回原文"></button>。人一旦取得成功就会变得自满，而 CEO 的唯一角色就是抵消这种自满。你做得越好，CEO 就越该狠命推着你往前走。有意思的是，他的施压时机很特别：当公司陷入困境时，他反而像个教练一样提供支持，绝不乱挑刺，因为创始人自己已经很清楚自己在挣扎；但当公司蓬勃发展、全员自满时，他反而会变得极度挑剔，去揪出那些最终会成为隐患的问题 <button class="pd-ts" data-t="29:49" data-who="Keith Rabois" data-en="Maybe what's less intuitive, and you may picked up on this in your research and interviews of people who know me, when a company's struggling, I'm actually usually very non-critical and more like a coach and supporter." aria-label="回原文"></button>。因为真正顶尖的人才就像顶尖的运动员，赢了比赛时反而最能听得进反馈去打磨细节，真要让他们闲下来喘口气，士气反而会下降 <button class="pd-ts" data-t="31:53" data-who="Keith Rabois" data-en="It's not that exciting.&quot; Yeah. Brian and I are usually in sync a lot." aria-label="回原文"></button>。
 
-最后，作为一名顶级 VC，Keith 还分享了他在早期投资时最看重的信号。
+在具体的反馈方式上，Keith 和很多推崇[[心理安全感|心理安全感]]的管理者完全相反——他主张公开批评。他的逻辑是：如果你只是私下把负面反馈给到个人，你只是在优化一个局部，而不是整个系统 <button class="pd-ts" data-t="73:09" data-who="Keith Rabois" data-en="And when you decompose the logic of it's so obviously true, but almost no one does this and very few people talk about it even if they do it. So if you think about it, when you give people feedback negative individually, you're optimizing for the atomic unit, not the system." aria-label="回原文"></button>。公开批评能让所有同事知道有个问题正在被解决，消除大家暗中的猜忌；同时也让其他人有机会伸出援手，把「你有缺陷，自己去改」变成一次团队协作。他直言不讳地说，高性能机器不需要心理安全感，它们唯一的目的就是赢 <button class="pd-ts" data-t="74:41" data-who="Keith Rabois" data-en="No, no, I don't believe in that at all. High performance machines don't have psychological safety. They're about winning." aria-label="回原文"></button>。
 
-## 投资信号：速度与内部培养
-Keith 自认是一个「创始人驱动型」的投资者：只要判断这个人有改变行业的非零概率，其他条件都不重要 <button class="pd-ts" data-t="65:25" data-who="Keith Rabois" data-en="I'm a founder-driven investor. So the only thing I really care about is, does this founder have a non-zero chance of changing an industry or the world? And if they do for a seed or series A investment, I'm in, period." aria-label="回原文"></button>。但他也提到，从公司运营层面看，那些最成功的公司有三个共同特征：第一是**极快的执行节奏**（比如第一次董事会提出的问题，第二次董事会前就已经上线了解决方案）<button class="pd-ts" data-t="67:00" data-who="Keith Rabois" data-en="There's a tempo, an operating tempo that a successful company develops that develops very early in a company's trajectory and is incredibly impressive. I remember when Roelof Botha was on my board at Square." aria-label="回原文"></button>；第二是**不断提升的人才密度**；第三是**拒绝外聘高管，只从内部提拔**，以此形成无可撼动的竞争优势 <button class="pd-ts" data-t="69:34" data-who="Keith Rabois" data-en="So that's another signal. The third thing that I've noticed though is I think they have a different hiring philosophy ultimately, and maybe there's exceptions to this, but most of the companies I work with that are thriving have basically skipped hiring senior people, senior experienced people, mostly internally group talent." aria-label="回原文"></button>。
+这种哲学也延伸到了他的投资上。他判断早期公司的核心信号就是「执行速度」：在这次董事会上提出的问题，下次开会前就已经发布了解决方案并测了效果 <button class="pd-ts" data-t="67:31" data-who="Keith Rabois" data-en="And he's like, &quot;At board meeting X, you guys identify an opportunity or problem. And by the next board meeting, you've shipped solutions, addressed it, featured just constantly, consistently.&quot;" aria-label="回原文"></button>。比如 Ramp 当时发卡，行业里通常要 9 到 12 个月，他们 3 个月就干到了临门一脚，这让 Keith 在产品还没正式发布前就决定抢投他们的 A 轮 <button class="pd-ts" data-t="69:06" data-who="Keith Rabois" data-en="Best case, nine. Ramp was on the precipice in three months. And I was like, &quot;Oh my God, I've just never seen that velocity.&quot;" aria-label="回原文"></button>。而那些最优秀的公司，往往会把内部培养人才变成一种战略——不去外招资深高管，而是通过幕僚长等角色用一两年的耳濡目染，把年轻有野心的人训练成资深的成功领导者 <button class="pd-ts" data-t="71:30" data-who="Keith Rabois" data-en="I mean, I've watched people use even chief of staff roles to groom talent. The one company board meeting I was at this week that is phenomenal on any metric. And the last two, his CMO, who's fantastic, is performing miraculously, was his last chief of staff and his new head of product probably is his current chief of staff." aria-label="回原文"></button>。
 
 ## 本集带走
-1. **警惕堆人头的幻觉**：公司的真实并行产出力，取决于你有多少个「桶」（能独立把事做成的人）。只增加「弹药」（普通执行者）而不增加「桶」，只会徒增管理摩擦。
-2. **顺境施压，逆境宽容**：组织越成功越容易自满。你做得越好，CEO 越应该狠推细节；同时，不要过度复盘失败，以免扼杀了团队敢于冒大险的勇气。
-3. **面向 AI 时代的自我定位**：纯执行层的中间件角色（如传统 PM）会消亡。在人人都能靠 AI 瞬间产出代码和设计的时代，只有具备「商业头脑」、知道该做什么的人才能创造不可替代的价值。
-4. **摒弃客户访谈的执念**：对于偏消费者的产品，用户往往无法表达潜意识的真实需求。与其依赖几十个人的「伪数据」，不如依靠创始人自身的直觉和商业逻辑推演。
 
-<div class="pd-sec">全部金句 <span>10 条(中英对照,已过机器闸门)</span></div>
+最后收个尾，这一集值得带走的是这几句话。第一，不要只顾着招人，公司能并行推进多少件重要的事，取决于你有多少个「桶」——也就是那种你指一座山头，他能想尽一切办法带你越过去的人，招再多「弹药」也无法替代「桶」的作用。第二，招人要去寻找未被大厂黑盒机器发现的才华，尤其是那些资历数据点不多但极具主观能动性的年轻人。第三，如果是做面向消费者的产品，别去和客户交谈，潜意识的选择问不出真话，你要相信自己的洞察，去压力测试业务逻辑，而不是依赖几个人的伪反馈。第四，在 AI 时代，传统的产品经理角色会消亡，取而代之的是那种懂商业、像 CEO 一样思考、能随时应对变化的人，而最吃香的是具备[[商业头脑|商业头脑]]、能把 AI 当第二团队指挥的工程师。第五，想要打造高性能团队就不要迷信心理安全感，当公司一帆风顺、大家开始自满时，反而要狠命地公开挑刺，因为高性能机器的唯一目标就是赢。
 
-> <span class="qz">你建立的团队就是你建立的公司。</span>  
-> *The team you build is the company you build.*  
-> <span class="qm">—— Keith Rabois · [05:52]</span> ^q1
+<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
 
-> <span class="qz">我认为你必须建立在未被发现的才华之上。</span>  
-> *I think you have to build a company on undiscovered talent.*  
-> <span class="qm">—— Keith Rabois · [25:08]</span> ^q2
+> <span class="qz">如果你雇佣了更多的人，而没有增加我所谓的能从构想到成功推动的「burials」，你实际上只是在同一个计划背后堆积人员。</span>  
+> *If you hire more people without expanding the number of what I call burials that can drive from inception to success, all you're doing is stacking people behind the same initiatives.*  
+> <span class="qm">—— Keith Rabois · [16:44]</span> ^q1
+
+> <span class="qz">当你是一家初创公司时，你不仅有工资帽，你的工资帽可能只有你竞争对手的十分之一。</span>  
+> *When you're a startup, not only do you have a salary cap, you probably have one 10th the salary cap of the people you're competing with.*  
+> <span class="qm">—— Keith Rabois · [26:06]</span> ^q2
 
 > <span class="qz">CEO 的唯一角色就是抵消那种自满。</span>  
 > *The single role for the CEO is offsetting that complacency.*  
 > <span class="qm">—— Keith Rabois · [28:45]</span> ^q3
 
-> <span class="qz">当人们在滑行（摸鱼）时，世界上最好的人的士气确实会下降。</span>  
-> *And the morale actually does go down for the best people in the world when people are skating.*  
-> <span class="qm">—— Keith Rabois · [32:30]</span> ^q4
+> <span class="qz">但当公司蓬勃发展时，挑剔和孤立那些最终会成为问题的东西真的很重要，即使公司里的每个人都非常快乐，甚至有点自满。</span>  
+> *But when the company's thriving, it's really important to be critical and isolating things that will eventually be problems while everybody in the company's really happy and borderline complacent.*  
+> <span class="qm">—— Keith Rabois · [29:59]</span> ^q4
 
-> <span class="qz">我注意到在一些最好的组织里，token 的第一大消耗者是 CMO</span>  
-> *What I've noticed in some of the best organizations is the number one consumer of tokens is the CMO*  
-> <span class="qm">—— Keith Rabois · [33:15]</span> ^q5
-
-> <span class="qz">他让我相信，PM 这个概念在未来基本上讲不通。</span>  
-> *he convinced me that the idea of a PM makes no sense basically in the future.*  
-> <span class="qm">—— Keith Rabois · [35:34]</span> ^q6
-
-> <span class="qz">基础模型的能力或像 Lovable 这样的公司的能力正以如此快的速度提升，以至于制定一个为期一年的路线图毫无意义。</span>  
-> *the capabilities of foundation models or companies like Lovable and things like that are just so improving such a rapid rate that it makes no sense to have a year-long roadmap.*  
-> <span class="qm">—— Keith Rabois · [35:56]</span> ^q7
-
-> <span class="qz">在管理一个 20 人团队的同时，他个人提交的代码量和他作为独立贡献者时一样多，因为工具太棒了，而且他已成为使用 AI 的领军先驱。</span>  
-> *he personally ships as much code as he used to as an individual contributor while he's managing a team of 20 because the tools are so great and he's become a leading pioneer in the usage of AI.*  
-> <span class="qm">—— Keith Rabois · [40:35]</span> ^q8
+> <span class="qz">他让我相信，PM（产品经理）这个概念在未来基本上讲不通。</span>  
+> *And he convinced me that the idea of a PM makes no sense basically in the future.*  
+> <span class="qm">—— Keith Rabois · [35:33]</span> ^q5
 
 > <span class="qz">99% 的时间他们会告诉你除了真实原因之外的每一个原因。</span>  
 > *99% of the time they will tell you every reason except the real reason.*  
-> <span class="qm">—— Keith Rabois · [53:02]</span> ^q9
+> <span class="qm">—— Keith Rabois · [53:02]</span> ^q6
 
-> <span class="qz">高性能机器没有心理安全感。</span>  
-> *High performance machines don't have psychological safety.*  
-> <span class="qm">—— Keith Rabois · [74:41]</span> ^q10
+> <span class="qz">高性能机器没有心理安全感。它们是为了赢。</span>  
+> *High performance machines don't have psychological safety. They're about winning.*  
+> <span class="qm">—— Keith Rabois · [74:41]</span> ^q7
 
 <div class="pd-sec">接着看</div>
 
@@ -147,7 +127,7 @@ Keith 自认是一个「创始人驱动型」的投资者：只要判断这个�
 **顺着「组织与领导力」挖下去**
 
 - [[2025-11-23-lennys-a-guide-to-difficult-conversations|别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课]] —— 同嘉宾:Lenny
-- [[2025-12-28-lennys-10-contrarian-leadership-truths|Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷]] —— 同嘉宾:Lenny
+- [[2025-12-28-lennys-10-contrarian-leadership-truths|故意让人手不足:Rippling 首席产品官的非常规管理心法]] —— 同嘉宾:Lenny
 - [[2026-02-01-lennys-dr-becky-on-the-surprising-overlap|育儿专家 Dr. Becky 谈职场领导力：怎么管“大号婴儿”]] —— 同嘉宾:Lenny
 
 </div>
@@ -155,9 +135,9 @@ Keith 自认是一个「创始人驱动型」的投资者：只要判断这个�
 
 **换个口味**
 
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切]] —— 同嘉宾:Lenny · 同公司:Ramp · 同概念:PM
-- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|科技圈情绪调查：一半人狂喜，一半人煎熬]] —— 同嘉宾:Lenny · 同公司:Airbnb、Ramp
-- [[2026-03-01-lennys-the-design-process-is-dead|The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)]] —— 同嘉宾:Lenny · 同概念:心理安全感 (psychological safety)
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同嘉宾:Lenny · 同公司:Ramp · 同概念:PM
+- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|AI 时代的科技人情绪实录：一半狂欢，一半崩塌]] —— 同嘉宾:Lenny · 同公司:Airbnb、Ramp
+- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]] —— 同嘉宾:Lenny · 同概念:心理安全感 (psychological safety)
 
 </div>
 </div>

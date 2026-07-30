@@ -1,5 +1,5 @@
 ---
-title: "Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要"
+title: Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪
 podcast: "Lenny's Podcast"
 date: 2026-04-26
 source_url: https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is
@@ -7,7 +7,7 @@ duration: "70:22"
 type: episode
 cover: "#6366f1"
 image: "/covers/2026-04-26-lennys-snapchat-ceo-why-distribution-is.jpg"
-description: "Snap CEO 谈软件不是护城河、硬件为何重要,以及如何用扁平设计团队持续创新。"
+description: Snap 创始人 Evan Spiegel 罕见访谈，谈为什么软件不是护城河、做眼镜的逻辑，以及 AI 如何改变创新组织。
 host: "[[Lenny]]"
 cohosts: ["[[Evan Spiegel]]"]
 companies: ["[[Snap]]", "[[Snapchat]]", "[[Spectacles]]", "[[Specs]]", "[[Glean]]"]
@@ -18,9 +18,9 @@ tags:
   - 创业与行业
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要
+# Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪
 
 <div class="pd-byl"><b>Evan Spiegel</b> · Snap CEO</div>
 
@@ -28,7 +28,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-04-26-lennys-snapchat-ceo-why-distribution-is.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">15 年前，我们基本上认识到软件不是护城河，这是今天每个人都在随着 AI 发现的事情。</div><div class="a">Evan Spiegel · 10:24</div></div>
+<div class="pd-hook"><div class="z">我认为人们没有花足够的时间去思考分发并弄清楚分发。</div><div class="a">Evan Spiegel · 04:43</div></div>
 
 > [!info] 关联
 > **人物** [[Lenny]] · [[Evan Spiegel]]
@@ -39,108 +39,61 @@ tags:
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/snapchat-ceo-why-distribution-is)
 
-<div class="pd-tldr"><b>一句话</b>Snap CEO 谈软件不是护城河、硬件为何重要,以及如何用扁平设计团队持续创新。</div>
+<div class="pd-tldr"><b>一句话</b>Snap 创始人 Evan Spiegel 罕见访谈，谈为什么软件不是护城河、做眼镜的逻辑，以及 AI 如何改变创新组织。</div>
 
-[[Evan Spiegel|Evan Spiegel]] 是 [[Snap|Snap]] 的 CEO 和联合创始人,旗下 [[Snapchat|Snapchat]] 在 15 年前发布,如今拥有超过十亿月活跃用户,每年产生超过 60 亿美元的收入。在本期访谈中,他和主持人探讨了一个无数人关心的问题:为什么做一个能持久活下去的消费者社交产品这么难?随后,两人围绕这个核心发散开去,聊到了 Snap 的[[护城河|护城河]]策略、为什么[[硬件|硬件]]如此关键、设计团队如何持续产出创新、以及 AI 会怎么改变工作流。如果你想知道一个成功存活 15 年的社交产品背后是怎么思考和运作的,这篇导读带你顺着 Evan 的思路走一遍。全文大概可以分成四条线:为什么软件不是护城河、硬件与 AR 眼镜的逻辑、设计团队的工作方式、以及 AI 时代的组织与人性。
+15 年前 [[Snap|Snap]] 明白了一件事：软件根本不是[[护城河|护城河]]——你的每一个功能都会被竞争对手轻轻松松原样抄走。说这话的人是 [[Evan Spiegel|Evan Spiegel]]，Snap 的 CEO 和联合创始人，他在这 15 年里源源不断发明了 Stories、AR 眼镜、滑动导航、变脸滤镜，然后眼睁睁看着全行业把这些功能抄了个遍 <button class="pd-ts" data-t="10:17" data-who="Evan Spiegel" data-en="So I think it certainly beats the alternative, but it does mean that we have to be really thoughtful about our strategy. And so I think one of the things, it's been an interesting time for me to reflect a lot on our strategy over the last 15 years, because 15 years ago, we essentially learned that software is not a moat, which is something that everyone is discovering today with AI." aria-label="回原文"></button>。
 
-## 为什么做社交产品这么难:分发才是真问题
-访谈一开始,主持人抛出了一个残酷的事实:在 Snapchat 发布后的 15 年里,基本上没有新的社交应用能做起来并留下来(人们能想到的 TikTok 更像媒体平台,Threads 则靠的是已有的[[分发|分发]]优势)。既然人人都想做社交产品,为什么几乎全军覆没?
+在这一集播客对谈里，他讲了几件事：为什么在 AI 时代，新公司想做出头比过去更难；既然软件拦不住抄袭，他押注 AR 眼镜到底图什么；Snap 背后那个只有 9 到 12 人的设计团队凭什么能源源不断产出创新；以及为什么他规定所有要发布的东西必须经过设计团队这个「瓶颈」的审批。他还聊到 AI 在 Snap 内部怎么落地——从自动代码审查、摇一摇报 Bug，到用[[智能体|智能体]]跑通整个上市流程；最后他抛出一个判断：科技行业大大低估了「人」的阻力，AI 带来的社会反弹可能比所有人预期的都要猛烈。
 
-Evan 的回答很直接:**现在的团队花了太多时间在「产品」上,却严重忽视了「分发」**<button class="pd-ts" data-t="04:43" data-who="Evan Spiegel" data-en="Have I built something that's really going to resonate with customers that they're really going to want to use all the time? And I think people don't spend nearly enough time thinking about distribution and figuring out distribution." aria-label="回原文"></button>。回溯 Snapchat 诞生的年代,智能手机和应用商店刚刚兴起,人们有强烈的意愿尝试新 App,那是一个天然容易获取移动分发的红利期。而今天,用户的下载意愿早已不同。他举了两个最近的反例:TikTok 是用钱烧出来的分发(花数十亿补贴视频的供需两端),Threads 则是借了 Meta 庞大的存量分发。
+在展开他的做法之前，得先弄明白一个前提：连好软件为什么都活不下来。主持人问了个很扎心的问题，[[Snapchat|Snapchat]] 上线后的 15 年里，除了 TikTok 这种媒体平台、或者靠着 Instagram 输血的 Threads，基本上没有诞生并留存下来任何新的社交产品。Evan 给出的答案很直接：因为大家都在死磕产品好不好，却没花足够的时间搞「[[分发|分发]]」——也就是怎么把东西送到用户手里 <button class="pd-ts" data-t="03:21" data-who="Evan Spiegel" data-en="What do you think people don't get? Well, I think it's really interesting in terms of the examples that you just shared of TikTok and threads, because you just shared two examples of people who figured out distribution." aria-label="回原文"></button>。在他看来，TikTok 靠烧几十亿美元同时补贴创作者和观众买来了起飞的流量，Threads 靠的是 Meta 那现成的庞大分发网络。而在应用商店红利期消退的今天，初创公司想打赢现有的巨头、抢到注意力变得极其困难。
 
-Snapchat 当年能脱颖而出,除了赶上移动时代,Evan 认为关键在于他们想明白了一件事:传统观念认为社交网络的价值在于[[网络效应|网络效应]](人越多越有价值),所以无法打败最大的网络。但 Snapchat 发现,真正重要的不是连接用户的所有朋友,而是只连接他们最在乎的少数人(最好的朋友、伴侣)<button class="pd-ts" data-t="05:28" data-who="Evan Spiegel" data-en="And what Snapchat figured out that was, I think, different was that despite the fact that there were much bigger networks that connected more people, what really mattered was connecting you to the right people." aria-label="回原文"></button>。这种以亲密关系为核心的切入方式,成了他们早期的增长引擎。
+搞清楚了软件活下来的难度，接下来要聊的是护城河。Evan 亲口承认，尽管 Snap 拿了一大堆专利保护想法，但在软件领域，竞争对手想迭代、想照抄实在太容易了。他悟出的对策是：光有[[网络效应|网络效应]]不够，必须去构建那些极其难以复制的、庞大的生态系统或[[硬件|硬件]]壁垒 <button class="pd-ts" data-t="12:12" data-who="Evan Spiegel" data-en="I think network effects are certainly an important piece of the puzzle for sure, but I don't think they're enough when it comes to these sorts of software cloning." aria-label="回原文"></button>。这也是为什么 Snap 坚持砸钱做 AR 眼镜这种出了名难啃的硬件。
 
-顺着分发的逻辑,主持人进一步推断:随着 AI 能帮人写代码、做测试甚至出谋划策,「做产品」的门槛正在降低,而「分发」将成为 AI 帮不上忙的新护城河。Evan 认同这个判断,并指出新平台(比如眼镜)的出现,会是下一轮价值和新分发渠道的诞生地<button class="pd-ts" data-t="06:39" data-who="Evan Spiegel" data-en="No, I think that's absolutely the case. And the only thing I would say is the most exciting times in technology are when there are new platforms that get created." aria-label="回原文"></button>。
+顺着软件的脆弱性往下讲，他为什么要死磕硬件？Evan 说，他从小就爱玩计算机，甚至中学就自己组装电脑，但他越长大越发现，无论是电脑还是手机，这些屏幕正在把人和人隔离开来——把人从操场上拽走、塞进机房里，让 15 岁的孩子即便和朋友坐在同一张桌子上，也在各自低头看手机 <button class="pd-ts" data-t="13:28" data-who="Evan Spiegel" data-en="I fell in love with graphic design and would spend every lunch period in the computer lab. And I think one of the things that I noticed about computers and I think today with mobile phones is that in many ways they isolate us from one another." aria-label="回原文"></button>。所以他要造一台「把人带到户外、让人能腾出双手去互动」的新型计算机。在 Snap 刚开始搞[[增强现实|增强现实]]时，他发现人们在巴掌大的手机屏幕上用大拇指戳来戳去，就像透过钥匙孔看世界；而这台计划今年发布、名为 [[Specs|Specs]] 的新 AR 眼镜，要把数字内容直接锚定在你的真实视野里，而不是像某些抬头显示眼镜那样，把通知小屏幕贴在你脸上——Evan 甚至吐槽，当你偷瞄那种边角屏幕时，视线看起来就像是在盯着朋友的裤裆 <button class="pd-ts" data-t="17:35" data-who="Evan Spiegel" data-en="I think what is going to be really important with specs is showing people all of the incredible new ways they can hang out and connect together with their friends wearing specs, but I don't think it'll be disruptive or notification based or something like that." aria-label="回原文"></button>。
 
-## 被抄袭了 15 年怎么办:软件不是护城河
-说到 Snapchat 的创新史,主持人列出了一串被全行业模仿的功能:Stories、AR 眼镜、滑动导航、长按拍视频、换脸滤镜……甚至连刚突破 2500 万订阅、年营收破 10 亿美元的 Snapchat Plus,名字和订阅模式也被竞争对手照搬了。
+软硬件的创新怎么持续发生？这直接关系到 Snap 那个能一直产出新玩意的极小团队。Evan 推荐了一本叫《Loon Shots》的书，核心观点是：公司一大就需要层级和严谨运营，但这会让员工变得厌恶风险；而最适合创新的，是非常扁平、能快速试错的团队。真正成功的公司，是领导者能让这两种截然不同的组织架构和谐对话 <button class="pd-ts" data-t="19:46" data-who="Evan Spiegel" data-en="There's a lot of flexibility in terms of the ability to try new things and fail quickly and put up crazy ideas. And what he basically finds is that the companies that are very successful actually have both types of organizations inside their company and that the leaders of the organization are the ones who are responsible for creating a healthy functioning relationship between the two types of organizations." aria-label="回原文"></button>。所以在 Snap，一边是支撑近十亿用户必须极度严谨的工程团队，另一边是一个只有 9 到 12 人、头衔全一样、极其扁平的设计团队。他在斯坦福学过产品设计（极其强调同理心和原型迭代），又在艺术学校被严苛的作品评审虐过，于是他把这两者糅在一起：这个设计团队追求的是极致的工作速度，每周带着几百个新想法来找他看，没有任何过滤门槛。因为他们的信条是：想要撞上一个好主意，你就必须先搞出一大堆主意 <button class="pd-ts" data-t="24:58" data-who="Evan Spiegel" data-en="And so for me, as I thought about the parts of my education that I really liked, it was this combination of really developing empathy with people and the types of products that they want in their lives, but at the same time, having this really high velocity work ethic where you're not just like thinking all the time about new products, you're actually making stuff every week, all the time, and then you're talking about it as a team because that critique process is where so much of the learning sort of happens." aria-label="回原文"></button>。
 
-面对「如何看待被不断抄袭」的提问,Evan 的态度很坦然:「这总比做出别人不想抄的东西要好」<button class="pd-ts" data-t="09:55" data-who="Evan Spiegel" data-en="You guys come up with something awesome, someone rips it off, benefits hugely from it, and you just have to keep doing that again and again. It's certainly better than making stuff that people don't want to copy." aria-label="回原文"></button>。但他话锋一转,点出了 Snap 在 15 年前就领悟的一个残酷现实:**软件不是护城河**<button class="pd-ts" data-t="10:17" data-who="Evan Spiegel" data-en="So I think it certainly beats the alternative, but it does mean that we have to be really thoughtful about our strategy. And so I think one of the things, it's been an interesting time for me to reflect a lot on our strategy over the last 15 years, because 15 years ago, we essentially learned that software is not a moat, which is something that everyone is discovering today with AI." aria-label="回原文"></button>。
+说到这儿，你可能会好奇这种打法是怎么具体落地成爆款功能的。Evan 拿发明 Stories（故事）举例：当时用户拼命喊「给我一个全选发送按钮」，好让他们每天给所有人狂发照片；但同时他们又在抱怨社交媒体上的永久记录让人倍感压力。Snap 并没有按用户说的去做一个全选按钮，而是反推出了 Stories——可以一次性分享给所有朋友、24 小时后自动消失、没有点赞和评论（去除了公开的评判压力），最关键的是它按正常时间顺序排列，而不是当时全网通用的倒序 <button class="pd-ts" data-t="26:22" data-who="Evan Spiegel" data-en="Well, let's use stories as an example, right? So back then, we were hearing from customers all the time, &quot;I want to send all button. I want to send an all button.&quot;" aria-label="回原文"></button>。还有那个让 Snapchat 早期迅速火爆的截图检测功能也是如此：当时苹果根本没有提供截图 API，Bobby 和他想了个极客般的奇招——当手指按住屏幕看照片时，如果发生截图，系统就会报告手指离开了屏幕，借此一秒钟就能识别出截图并通知发送者 <button class="pd-ts" data-t="29:55" data-who="Evan Spiegel" data-en="I don't get it.&quot; And one of the things we invented that at the time, we figured out a way, we realized that if you were pressing and holding to open a snap and left your finger on the screen and you took a screenshot, it would basically trigger an event on the phone essentially that made ..." aria-label="回原文"></button>。倾听用户的痛点，但绝不盲从用户给的方案。
 
-既然软件功能太容易被克隆(即便有专利也防不住迭代式的微调),Snap 很早就开始思考:怎么建立真正难复制的业务壁垒?他们的答案有两个:
+工具和形势变了，人怎么办？这正是下一个话题。在这个 AI 让产品经理、设计师、工程师陷入「三方僵局」、各自都觉得以后不需要别人的关头，Evan 坚持一个看似反直觉的做法：设计在公司里必须充当「瓶颈」。所有要发布的东西，不管是谁想出来的，必须经过设计团队批准。他承认这确实会惹恼人，甚至拖慢发布速度，但这是为了保证应用拥有连贯一致的客户体验，而不是东拼西凑 <button class="pd-ts" data-t="36:29" data-who="Evan Spiegel" data-en="I haven't felt that yet, and I'm curious if that's what will begin to happen. Well, I think for us, design actually has always operated as a bottleneck at the company, which is incredibly important." aria-label="回原文"></button>。更绝的是，他们直到公司有 200 名员工时才招了第一个产品经理。Evan 说他不是认为不需要 PM，而是认为早期「设计师应该去做那些 PM 的工作」<button class="pd-ts" data-t="32:34" data-who="Evan Spiegel" data-en="And so I think in the early days, my view was not that we don't need PMs, my view is that designers should do that work. So that's essentially what we would say to our designers, which was like, &quot;Hey, if you need PM support, why don't you just do it yourself?" aria-label="回原文"></button>。不过现在公司大了，要应对法律、信任与安全、数据科学等各种复杂要求，产品经理在拉通各方上发挥着不可替代的协调作用。
 
-1. **做生态与平台**:无论是构建创作者与用户的联系,还是搭建 AR 开发平台(开发者已制作数百万个滤镜),一个运转起来的生态是极其难被抄袭的<button class="pd-ts" data-t="10:44" data-who="Evan Spiegel" data-en="But 15 years ago, because all the software features that we could create were so easily cloned by our competitors, we started to think about how to build a more durable business, how to build a business that had bigger and more effective modes." aria-label="回原文"></button>。
-2. **押注硬件**:这是 Snap 最反直觉、也最常被外界质疑的一步棋。
+说完了人的协作，接下来是 AI 如何重塑他自己的管理。Evan 用 [[Glean|Glean]] 接入了公司内部所有的仪表盘和文档，给自己搭了一个个人智能体。每周各业务线负责人会给他发上周总结和下周重点，这个智能体就会把重点和全公司的数据交叉印证，帮这个庞大的扁平组织随时揪出需要他关注的热点 <button class="pd-ts" data-t="61:35" data-who="Evan Spiegel" data-en="Well, one of the things that I really love about AI, at Snap, I've got access to all of our dashboards and documents and data. And so we have Glean that integrates all this data for me." aria-label="回原文"></button>。在具体业务上，Snap 把整个工作流彻底交给智能体串联：输入一个产品创意，智能体能去写规格说明书、识别需要拉哪些人审批、从法律和信任安全的角度做风险分析，甚至把博客等上市物料全部生成出来——一次性跑通，用他的话说「太疯狂了」<button class="pd-ts" data-t="63:02" data-who="Evan Spiegel" data-en="I think one of the things that we're thinking a lot about is just taking the entire workflow and enabling it with an agent. So for example, taking a product idea and with our go to-market agent, taking that product idea, writing the spec, identifying the relevant folks who need to be involved in sign-offs and understanding it, actually helping to do the risk analysis on the product from a legal, trust and safety perspective, writing the go to-market materials like the blog, et cetera." aria-label="回原文"></button>。而在代码层面，他们已经有了能揪出近一万个 Bug 的自动审查工具；甚至在内测版应用里，只要摇一摇报问题，智能体就能立刻调试出哪儿错了，并马上建议甚至实施修复方案 <button class="pd-ts" data-t="47:02" data-who="Evan Spiegel" data-en="We've, I think automatically detected like close to 10,000 bugs at this point probably. We have a system at Snap where on the internal version of the app, you can shake to report your problem and agents now debug exactly what happened, what went wrong and can actually suggest a fix." aria-label="回原文"></button>。
 
-> 【背景】主持人提到,Snap 曾推出过拍照无人机和名为 Spectacles 的眼镜,即将发布的新一代 AR 眼镜名为 Specs。Evan 确认 Specs 将于今年发布。
-
-## 为什么非做硬件不可:把人从屏幕里拔出来
-既然社交平台和硬件是公认最难的两种生意,Snap 为什么要两头下注?
-
-Evan 从个人经历讲起:他从小迷恋计算机,初中就自己组装电脑。但他逐渐意识到一个深刻的代价:计算机和手机正把人从现实社交中隔离出去。他观察到 15 岁的儿子和朋友们聚会时,大家明明坐在一起却各自低头看手机<button class="pd-ts" data-t="13:45" data-who="Evan Spiegel" data-en="They took me off the playground at recess and put me into the computer lab. Or if I look at our 15-year-old today and his friends, sometimes when they're hanging out, they're all looking down at their phones, even though they're all together." aria-label="回原文"></button>。当人们平均每天要盯屏幕七八个小时,「像小妖精一样佝偻着身子」,这种计算的收益已经伴随着巨大的身心代价。
-
-所以,Snap 做硬件的核心动机,是造出一种能把人带回现实世界、带回朋友身边的新型计算机。在手机上做 AR 只能通过钥匙孔般的小屏幕用拇指交互,而 AR 眼镜能把数字内容直接锚定在真实世界中,让双手解放出来<button class="pd-ts" data-t="14:17" data-who="Evan Spiegel" data-en="We were innovating, building lenses and augmented reality, but ultimately we saw that people were using AR on these tiny little phone screens that required you to use your thumbs to interact." aria-label="回原文"></button>。
-
-在聊到是否会担心戴眼镜导致人更沉迷、时刻被通知打扰时,Evan 给出了一个很明确的产品哲学判断:他非常不看好那种把小屏幕贴在脸上的「抬头显示眼镜」。因为当你为了看角落的通知而移开视线时,实际上是在盯着交谈对象的裤裆。他认为这种基于通知的交互对用户毫无价值,真正的 AR 应该是用来和朋友共享全新互动方式的,而不是新的打扰源<button class="pd-ts" data-t="16:33" data-who="Evan Spiegel" data-en="Just is there a solution to that other than just like social norms? I do think social norms will play a big role, but I also think one of the things people experience with AR, specs, unlike these heads up display glasses, they don't just put an annoying little screen that's stuck to your face on the glasses." aria-label="回原文"></button>。
-
-## 怎么让团队持续创新:快慢双模与每周评审
-Snap 一直以「发明机器」著称,产出了大量被行业效仿的创意。Evan 推荐了《Loon Shots》一书,并以此解释了 Snap 的创新组织逻辑。
-
-大规模交付产品需要庞大、层级分明的严谨组织;但这种结构天然让人趋于保守、怕担风险。健康的创新则需要扁平、灵活的团队。Evan 指出,最成功的公司是同时拥有这两种组织,而领导者的核心职责就是调和两者的紧张关系(小团队嫌大组织官僚,大组织嫌小团队不务实)<button class="pd-ts" data-t="20:02" data-who="Evan Spiegel" data-en="And what he basically finds is that the companies that are very successful actually have both types of organizations inside their company and that the leaders of the organization are the ones who are responsible for creating a healthy functioning relationship between the two types of organizations." aria-label="回原文"></button>。
-
-在 Snap,这种双模体现为:一边是保障近十亿用户可靠运转的庞大工程体系,另一边则是只有 9 到 12 人、完全扁平、没有花哨头衔的设计团队。Evan 强调,这两个团队之间的对话就是创新发生的地方<button class="pd-ts" data-t="21:17" data-who="Evan Spiegel" data-en="It sort of oscillates between like nine and 12 people design team that is constantly innovating and creating new things. And I think the beauty of what I love about Snap is that the dialogue between those two teams is where a lot of that innovation happens because a lot of our engineers working to serve our customers or working on reliability have a bunch of great ideas and so do our designers." aria-label="回原文"></button>。
-
-这个设计团队的特殊之处在于其极高的工作节奏:每周产出几百个新点子,每周全员一起评审。Evan 的理念深受斯坦福产品设计专业(强调同理心)和艺术学校(强调高强度的产出与残酷的批评)的双重影响。他坚信速度是关键:「如果你想要一个好主意,你必须先有很多主意」<button class="pd-ts" data-t="24:58" data-who="Evan Spiegel" data-en="And so for me, as I thought about the parts of my education that I really liked, it was this combination of really developing empathy with people and the types of products that they want in their lives, but at the same time, having this really high velocity work ethic where you're not just like thinking all the time about new products, you're actually making stuff every week, all the time, and then you're talking about it as a team because that critique process is where so much of the learning sort of happens." aria-label="回原文"></button>。
-
-这种工作方式也造就了 Snap 最著名的产品决策之一:**公司有 200 名员工时才招了第一个产品经理(PM)**。
-
-这并不是因为不需要 PM,而是 Evan 坚持让设计师来承担产品方向的职责。他反感传统科技公司里设计师沦为 PM 画图工具的现象。他希望设计师像他当年与联合创始人 Bobby(计算机背景)那样,与工程师深度对话、主导创新<button class="pd-ts" data-t="31:34" data-who="Evan Spiegel" data-en="A lot of people listening to this are PMs and so I'm just curious how you feel. A lot of my view of product management was actually driven by my view of designers and the role that designers should play." aria-label="回原文"></button>。当然,随着公司规模扩大,涉及数据科学、信任与安全、法律合规等方方面面,PM 在跨职能协调中又变得不可或缺。
-
-## 产品哲学:不照做,而是共情
-聊到怎么听取用户反馈时,Evan 分享了一个教科书级的案例:Stories 功能是怎么诞生的。
-
-当时用户一直嚷嚷着要一个「群发按钮」,好把照片一口气发给所有人。如果照做,这只是一个效率工具。但 Evan 团队在深度访谈中发现:用户其实对传统社交媒体充满压力——内容永久留存、全是点赞和评判,逼得人只敢发完美瞬间<button class="pd-ts" data-t="26:39" data-who="Evan Spiegel" data-en="If you just give me a send all button, then I can blast snaps to everybody all day long and that'd be really great. And at the same time, we were talking to people about their use of social media and they're like, &quot;Oh gosh, social media, I feel all this pressure." aria-label="回原文"></button>。
-
-于是,Snap 没有做群发按钮,而是做出了 Stories:它允许你方便地分享给所有朋友(满足需求),但没有公开点赞和评论(消除评判压力),24 小时后消失(让大家每天重新开始),且按时间顺序排列(符合人类讲故事的自然习惯)<button class="pd-ts" data-t="27:36" data-who="Evan Spiegel" data-en="So everything was sort of just played in reverse in the feed, which was really strange to folks. So we listened to all of that and heard all of that, but then we came up with something totally new and different, which were stories that were responsive to the feedback." aria-label="回原文"></button>。
-
-另一个体现天才工程与用户心理结合的早期创新是截图通知:当时苹果没有开放截图检测接口,Bobby 和 Evan 发现如果用户长按看图时截图,手指离开屏幕会触发触摸事件,借此就能反推截图行为并通知发送者。这一个小机制给了用户安全感,极大推动了早期传播<button class="pd-ts" data-t="29:55" data-who="Evan Spiegel" data-en="I don't get it.&quot; And one of the things we invented that at the time, we figured out a way, we realized that if you were pressing and holding to open a snap and left your finger on the screen and you took a screenshot, it would basically trigger an event on the phone essentially that made ..." aria-label="回原文"></button>。
-
-## AI 在 Snap:不只是写代码,而是重塑工作流
-随着 AI 能写代码、做测试,主持人问到了科技圈现在最纠结的三方僵局:PM、设计师、工程师到底谁才是核心?Evan 认为这种僵局是功能失调。但他高兴地看到,在 AI 工具的加持下,Snap 的很多设计师已经开始自己提交代码了。这对曾经被父母质问「画画有什么用」的设计师们来说,是一次证明自己的机会。
-
-但 AI 让大家都能写代码,也带来了挑战:如何保证近十亿用户规模下的软件质量?Evan 提到了他们的几道防线:自动代码审查(据说已自动检测出近 10,000 个 bug)、内部 App 摇一摇报错后由[[智能体|智能体]]自动调试并建议修复方案<button class="pd-ts" data-t="46:53" data-who="Evan Spiegel" data-en="So I think what we've really tried to do is also develop AI tools and guardrails to make it easier for more people to participate and submit code, but also reduce the likelihood that we're going to have some sort of bug." aria-label="回原文"></button>。
-
-更宏观的是,Snap 正在用 AI 重新梳理整个公司的运作方式。他们的做法是:列出为社区和广告商要完成的所有核心任务(Jobs to be Done,即用户使用产品要完成的具体任务)。一旦定义清楚,就可以围绕这些任务构建跨职能团队并配以智能体。比如一个产品想法传入他们的「上市智能体」,智能体就能自动写规格、拉相关人员审批、做法律和信任风险分析,甚至写发布博客<button class="pd-ts" data-t="63:02" data-who="Evan Spiegel" data-en="I think one of the things that we're thinking a lot about is just taking the entire workflow and enabling it with an agent. So for example, taking a product idea and with our go to-market agent, taking that product idea, writing the spec, identifying the relevant folks who need to be involved in sign-offs and understanding it, actually helping to do the risk analysis on the product from a legal, trust and safety perspective, writing the go to-market materials like the blog, et cetera." aria-label="回原文"></button>。
-
-这种高效的工作流,甚至延伸到了 Evan 自己身上。他用 [[Glean|Glean]](一款企业内部数据搜索整合工具)接入了公司所有仪表盘和文档,自己搭了一个智能体助理。这个助理每天帮他梳理全公司动态,精准定位需要他关注的重点。Evan 觉得,AI 让他得以实现一直想要的扁平、高速的领导架构<button class="pd-ts" data-t="61:40" data-who="Evan Spiegel" data-en="And so we have Glean that integrates all this data for me. And I've built just an agent that will go and comb through everything that's happening in the company and let me know what's up, what I need to focus on, what I need to catch." aria-label="回原文"></button>。
-
-## 给创始人的反思:CEO 就是首席解释官
-回首做 Snap 的 15 年,Evan 说最难预料的,是创始人这份工作性质发生的剧变:从早期既做设计又回客服邮件,变成了如今重在发展人才、塑造文化、应对疫情或 AI 这种级别的巨变。
-
-他认为自己成长最多的一块是沟通能力。他回忆起早年偶遇美国前总统克林顿,克林顿告诉他:总统其实就是「首席解释官」(explainer in chief),职责是向大众解释世界、公司和他们的角色<button class="pd-ts" data-t="50:46" data-who="Evan Spiegel" data-en="One of the big focus areas for me was learning how to communicate more effectively, both to our team, but also here on a podcast or with the world, I mean, so much of the job is about becoming a great communicator." aria-label="回原文"></button>。Evan 曾极度抗拒做全员大会和 Q&A,只想发邮件了事。后来在董事会的硬性要求下,他才不得不逼自己上台,学着享受与团队公开对话的乐趣。
-
-在访谈尾声,主持人问及如何描述 Snap 当前的处境。Evan 用了「中间的孩子」这个比喻:规模远大于 Pinterest 或 Reddit,却被 Meta 和 Google 这种巨头掩盖了光芒<button class="pd-ts" data-t="56:30" data-who="Evan Spiegel" data-en="Yeah. I think one of the things that's so funny about our service is that while we're very, very large in terms of the scale of our audience, in terms of the scale of our business, we're much larger than a Pinterest or Reddit, for example, we're also way smaller than Meta and Google." aria-label="回原文"></button>。他称今年为 Snap 的「严峻考验时刻」(crucible moment):公司即将发布 [[Specs|Specs]],但在重金投入未来计算平台的同时,目前还没实现净利。今年必须证明 Snapchat 是一个稳健且盈利的生意,这是为下一章铺路的必要地基<button class="pd-ts" data-t="55:04" data-who="Evan Spiegel" data-en="It's almost at a billion monthly active users. It's about to launch specs after 12 years of investment in this future computing platform, but at the same time, it's still not net income profitable, for example, because we've been investing so heavily in the future and making the choice to do that." aria-label="回原文"></button>。
+工具说完了，最后收个尾，谈谈他对行业大势的判断。被问到有什么「反共识」的观点时，Evan 给出了一个略带冷峻的看法：身处科技圈，大家都在狂热谈技术，但他认为「人性」远比技术发展重要得多——因为是人决定了技术到底会被怎样采用。他觉得科技领袖们过于天真，以为大家会闭着眼拥抱新科技；而事实是，伴随 AI 而来的剧烈变化，即将在社会层面遭遇巨大的反弹 <button class="pd-ts" data-t="64:35" data-who="Evan Spiegel" data-en="And I think maybe my contrarian point of view or my contrarian angle is humanity is far more important than the technological developments, largely because humanity dictates how technology is adopted." aria-label="回原文"></button>。这也是为什么他反复强调，整个行业必须把人性放在首位，去确保工具是在推进人性的目标，这恰好也是他眼中 Snapchat 用趣味去展现 AI 玩乐一面、以及研发 Specs 把人拉回户外的真正意义。
 
 ## 本集带走
-1. **软件不是护城河**:在 AI 时代产品功能极易被复制,真正的壁垒在于构建难以照搬的生态平台,以及押注别人不愿碰的硬件壁垒。
-2. **要听用户,但别照做**:倾听不是为了照单全收,而是为了深度共情。找到用户心底未被言说的压力和渴望(如对永久公开的焦虑),才能做出超出预期的创新(如 Stories)。
-3. **人性决定技术的命运**:不要盲目相信新技术会自动被全盘接受。面对 AI,业界将面临巨大的社会阻力。只有把人性放在首位,让计算回归以人为本(比如把人从屏幕前解放出来的 AR 眼镜),才能赢得真正的采纳。
 
-<div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
+最后收个尾，这一集值得带走的是几句话。第一，在今天想做持久的社交产品，分发远比产品本身难得多——TikTok 靠烧钱、Threads 靠巨头既有的网络，留给新人的空间已经极度逼仄。第二，软件不是护城河，真正难抄的是生态系统和硬件，这是 Snap 死磕 AR 眼镜 Specs 的底牌，也是为了让计算设备不再把人隔离、而是把人重新拉回户外的执念。第三，想要源源不断的创新，就让一个 9 到 12 人的扁平设计团队，以每周几百个想法的速度去试错，去倾听用户的痛点但绝不盲从用户的方案，并且勇敢地让设计充当全公司的瓶颈以保证体验一致。第四，别陷入「AI 时代谁取代谁」的争吵，AI 的真正杠杆在于让个人拥有副驾驶的同时，把跨职能的完整工作流（从写规格、风险分析到上市物料）交给一整个智能体去跑通。第五，当所有人都沉浸在技术狂热里时，千万别低估人性带来的阻力，把人放在首位，是科技行业接下来最该补的一课。
 
-> <span class="qz">15 年前，我们基本上认识到软件不是护城河，这是今天每个人都在随着 AI 发现的事情。</span>  
+<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
+
+> <span class="qz">我认为人们没有花足够的时间去思考分发并弄清楚分发。</span>  
+> *And I think people don't spend nearly enough time thinking about distribution and figuring out distribution.*  
+> <span class="qm">—— Evan Spiegel · [04:43]</span> ^q1
+
+> <span class="qz">15 年前，我们基本上认识到软件不是护城河，这是今天每个人都在通过 AI 发现的事情。</span>  
 > *15 years ago, we essentially learned that software is not a moat, which is something that everyone is discovering today with AI.*  
-> <span class="qm">—— Evan Spiegel · [10:24]</span> ^q1
+> <span class="qm">—— Evan Spiegel · [10:24]</span> ^q2
 
-> <span class="qz">复制软件功能很容易。复制或重现完整的生态系统或平台是非常困难的。</span>  
-> *So it's very easy to copy software features. It's very hard to copy or to replicate a full ecosystem or a platform.*  
-> <span class="qm">—— Evan Spiegel · [10:58]</span> ^q2
+> <span class="qz">复制软件功能很容易。复制或复制完整的生态系统或平台是非常困难的。</span>  
+> *It's very easy to copy software features. It's very hard to copy or to replicate a full ecosystem or a platform.*  
+> <span class="qm">—— Evan Spiegel · [10:58]</span> ^q3
 
-> <span class="qz">我们的许多设计师现在正在发布代码，这是非同寻常的。</span>  
-> *a lot of our designers are now shipping code, which is extraordinary.*  
-> <span class="qm">—— Evan Spiegel · [35:38]</span> ^q3
+> <span class="qz">所以我认为在早期，我的观点不是我们不需要 PM，我的观点是设计师应该做那项工作。</span>  
+> *I think in the early days, my view was not that we don't need PMs, my view is that designers should do that work.*  
+> <span class="qm">—— Evan Spiegel · [32:29]</span> ^q4
 
-> <span class="qz">我记得在公司早期我有机会见到克林顿总统，他说，「做总统很有趣，其实就是要做首席解释官，你的工作实际上就是向人们解释事情，帮助他们理解世界、公司以及他们在其中的角色。」</span>  
-> *I remember I had the opportunity to meet President Clinton at one point in the early days of the company and he was like, "It's very interesting, being president is really being explainer in chief and your job is actually to just explain stuff to people and help them make sense of the world and the company and their role in it."*  
-> <span class="qm">—— Evan Spiegel · [50:46]</span> ^q4
+> <span class="qz">我认为对我们来说，设计实际上在公司里一直充当着瓶颈，这非常重要。事情必须经过设计批准才能发布，这是有意的。</span>  
+> *I think for us, design actually has always operated as a bottleneck at the company, which is incredibly important. It's intentional that things need to be approved by design to ship.*  
+> <span class="qm">—— Evan Spiegel · [36:29]</span> ^q5
 
-> <span class="qz">人性远比技术发展更重要，很大程度上因为人性决定了技术如何被采用。</span>  
-> *humanity is far more important than the technological developments, largely because humanity dictates how technology is adopted.*  
-> <span class="qm">—— Evan Spiegel · [64:25]</span> ^q5
+> <span class="qz">我认为技术领导人们认为人们只会盲目地采用发布的新技术。我认为我们将进入一个时期，对于即将随着 AI 到来的许多变化，社会上将会有巨大的阻力。</span>  
+> *I think technology leaders think that folks will just blindly adopt new technology as it comes out. And I think we're going to enter a period of time where there's going to be a huge amount of societal pushback on a lot of the changes that are coming with AI.*  
+> <span class="qm">—— Evan Spiegel · [64:47]</span> ^q6
 
-> <span class="qz">你有两只耳朵和一张嘴。按那个比例使用它们。</span>  
-> *you have two ears and one mouth. Use them in that proportion.*  
-> <span class="qm">—— Evan Spiegel · [68:23]</span> ^q6
+> <span class="qz">如果你想要一个好主意，你必须有很多主意。</span>  
+> *If you want to have a good idea, you have to have lots of ideas.*  
+> <span class="qm">—— Evan Spiegel · [25:05]</span> ^q7
 
 <div class="pd-sec">接着看</div>
 
@@ -149,17 +102,17 @@ Snap 一直以「发明机器」著称,产出了大量被行业效仿的创意�
 
 **顺着「产品方法」挖下去**
 
-- [[2026-03-01-lennys-the-design-process-is-dead|The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)]] —— 同概念:智能体 (agents)
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」]] —— 同概念:分发 (distribution)
+- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]] —— 同概念:智能体 (agents)
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新]] —— 同概念:分发 (distribution)
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|别只想推销：产品负责人如何真正影响高管决策]] —— 同概念:智能体 (agents)
-- [[2026-05-31-lennys-a-rational-conversation-on-where|Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱]] —— 同概念:分发 (distribution)
-- [[2026-singju-openclaw-80apps|OpenClaw创始人：为何80%的应用将消失]] —— 同概念:护城河 (moat)
+- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|Jessica Fain:如何影响高管——把高管当用户来研究]] —— 同概念:智能体 (agents)
+- [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]] —— 同概念:分发 (distribution)
+- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]] —— 同概念:护城河 (moat)
 
 </div>
 </div>

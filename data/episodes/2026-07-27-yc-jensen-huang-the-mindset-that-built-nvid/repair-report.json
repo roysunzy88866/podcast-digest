@@ -6,96 +6,94 @@
       "speaker": "Jensen Huang",
       "trimmed": false,
       "tsWas": "01:19",
-      "spkWas": "黄仁勋"
+      "spkWas": "Jensen Huang"
     },
     {
       "i": 2,
-      "timestamp": "04:31",
-      "speaker": "Jensen Huang",
-      "trimmed": false,
-      "tsWas": "04:30",
-      "spkWas": "黄仁勋"
-    },
-    {
-      "i": 3,
-      "timestamp": "04:53",
-      "speaker": "Jensen Huang",
-      "trimmed": false,
-      "tsWas": "04:53",
-      "spkWas": "黄仁勋"
-    },
-    {
-      "i": 4,
-      "timestamp": "06:05",
-      "speaker": "Jensen Huang",
-      "trimmed": false,
-      "tsWas": "06:17",
-      "spkWas": "黄仁勋"
-    },
-    {
-      "i": 5,
       "timestamp": "06:19",
       "speaker": "Jensen Huang",
       "trimmed": false,
       "tsWas": "06:17",
-      "spkWas": "黄仁勋"
+      "spkWas": "Jensen Huang"
     },
     {
-      "i": 6,
+      "i": 3,
+      "timestamp": "07:00",
+      "speaker": "Jensen Huang",
+      "trimmed": false,
+      "tsWas": "07:00",
+      "spkWas": "Jensen Huang"
+    },
+    {
+      "i": 4,
+      "timestamp": "04:53",
+      "speaker": "Jensen Huang",
+      "trimmed": false,
+      "tsWas": "04:53",
+      "spkWas": "Jensen Huang"
+    },
+    {
+      "i": 5,
       "timestamp": "11:28",
       "speaker": "Jensen Huang",
       "trimmed": false,
       "tsWas": "11:27",
-      "spkWas": "黄仁勋"
+      "spkWas": "Jensen Huang"
     },
     {
       "i": 7,
-      "timestamp": "23:19",
+      "timestamp": "18:00",
       "speaker": "Jensen Huang",
       "trimmed": false,
-      "tsWas": "23:19",
-      "spkWas": "黄仁勋"
+      "tsWas": "17:59",
+      "spkWas": "Jensen Huang"
     },
     {
       "i": 8,
-      "timestamp": "23:50",
+      "timestamp": "20:17",
       "speaker": "Jensen Huang",
       "trimmed": false,
-      "tsWas": "23:50",
-      "spkWas": "黄仁勋"
+      "tsWas": "20:17",
+      "spkWas": "Jensen Huang"
     },
     {
       "i": 9,
+      "timestamp": "23:20",
+      "speaker": "Jensen Huang",
+      "trimmed": false,
+      "tsWas": "23:19",
+      "spkWas": "Jensen Huang"
+    },
+    {
+      "i": 10,
       "timestamp": "31:55",
       "speaker": "Jensen Huang",
       "trimmed": false,
       "tsWas": "31:55",
-      "spkWas": "黄仁勋"
+      "spkWas": "Jensen Huang"
     },
     {
-      "i": 10,
+      "i": 11,
       "timestamp": "32:37",
       "speaker": "Jensen Huang",
       "trimmed": false,
       "tsWas": "32:37",
-      "spkWas": "黄仁勋"
-    },
-    {
-      "i": 11,
-      "timestamp": "35:06",
-      "speaker": "Jensen Huang",
-      "trimmed": false,
-      "tsWas": "34:57",
-      "spkWas": "黄仁勋"
+      "spkWas": "Jensen Huang"
     },
     {
       "i": 12,
-      "timestamp": "38:56",
+      "timestamp": "35:03",
       "speaker": "Jensen Huang",
       "trimmed": false,
-      "tsWas": "38:56",
-      "spkWas": "黄仁勋"
+      "tsWas": "34:57",
+      "spkWas": "Jensen Huang"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 6,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "You're building a car that you are going to race. You should adapt the car to you."
+    }
+  ]
 }

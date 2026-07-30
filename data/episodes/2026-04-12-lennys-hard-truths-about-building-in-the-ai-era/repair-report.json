@@ -2,18 +2,18 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "05:52",
+      "timestamp": "16:44",
       "speaker": "Keith Rabois",
       "trimmed": false,
-      "tsWas": "05:46",
+      "tsWas": "16:44",
       "spkWas": "Keith Rabois"
     },
     {
       "i": 2,
-      "timestamp": "25:08",
+      "timestamp": "26:06",
       "speaker": "Keith Rabois",
       "trimmed": false,
-      "tsWas": "25:06",
+      "tsWas": "26:06",
       "spkWas": "Keith Rabois"
     },
     {
@@ -26,23 +26,15 @@
     },
     {
       "i": 4,
-      "timestamp": "32:30",
+      "timestamp": "29:59",
       "speaker": "Keith Rabois",
       "trimmed": false,
-      "tsWas": "32:30",
+      "tsWas": "29:59",
       "spkWas": "Keith Rabois"
     },
     {
       "i": 5,
-      "timestamp": "33:15",
-      "speaker": "Keith Rabois",
-      "trimmed": false,
-      "tsWas": "33:33",
-      "spkWas": "Keith Rabois"
-    },
-    {
-      "i": 6,
-      "timestamp": "35:34",
+      "timestamp": "35:33",
       "speaker": "Keith Rabois",
       "trimmed": false,
       "tsWas": "35:33",
@@ -50,22 +42,6 @@
     },
     {
       "i": 7,
-      "timestamp": "35:56",
-      "speaker": "Keith Rabois",
-      "trimmed": false,
-      "tsWas": "35:55",
-      "spkWas": "Keith Rabois"
-    },
-    {
-      "i": 8,
-      "timestamp": "40:35",
-      "speaker": "Keith Rabois",
-      "trimmed": false,
-      "tsWas": "40:35",
-      "spkWas": "Lenny"
-    },
-    {
-      "i": 9,
       "timestamp": "53:02",
       "speaker": "Keith Rabois",
       "trimmed": false,
@@ -73,7 +49,7 @@
       "spkWas": "Keith Rabois"
     },
     {
-      "i": 10,
+      "i": 8,
       "timestamp": "74:41",
       "speaker": "Keith Rabois",
       "trimmed": false,
@@ -81,5 +57,11 @@
       "spkWas": "Keith Rabois"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 6,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "I hate talking to customers."
+    }
+  ]
 }

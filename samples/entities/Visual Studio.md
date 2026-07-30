@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]]**(01:20起):Fiona 在微软时曾深耕 11 年的 IDE 产品；她提到通过用它构建其自身，确立了自己对「内部试用」和使用自身产品的热爱。
+- **[[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]]**(01:20起):Fiona 在微软时曾深耕 11 年的 IDE 产品；她提到通过用它构建其自身，确立了自己对「内部试用」和使用自身产品的热爱。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] — 作为概念
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]] — 作为概念
 
 ## ③ 关联
 

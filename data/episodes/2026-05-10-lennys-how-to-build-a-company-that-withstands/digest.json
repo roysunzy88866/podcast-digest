@@ -1,36 +1,48 @@
 {
-  "title_zh": "《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」",
-  "tldr": "创始人如何用法律结构和使命驱动，保护公司免受短期利润的侵蚀。",
-  "digest_md": "15 年前写出《精益创业》（The Lean Startup）的 Eric Ries 带着新书《Incorruptible》回归。《精益创业》讲的是怎么建立一家成功的公司，而这本书讲的是——当你建起来之后，**怎么保护它不被「金融重力」毁掉**。这期对话里，Eric 用 Cloudflare、Novo Nordisk、Anthropic、Vectura 等一连串真实的案例，揭示了为什么那么多好公司最终走向平庸甚至邪恶，并提出了一条核心解法：把使命写进法律结构里。全文分四部分：先讲「公司为什么会被毁掉」，再说「保护它需要什么原则」，接着看「具体怎么做」，最后聊「Anthropic 为什么能顶住压力」。\n\n## 公司不是被对手打败的，是被自己的成功毁的\n\n翻开这本书的第一个问题：一家公司做得好好的，为什么突然就不行了？Eric 说，他看过太多这样的故事。摧毁这些公司的往往不是竞争对手做出了更好的产品，而是它们自己的成功变成了负债——因为金鹅越金贵，杀鹅取卵的诱惑就越大 [08:25 Eric Ries]。\n\n> 【背景】Eric 讲了一个私人故事：朋友在一家餐厅吃了一口菜，立刻掏出手机查，因为他「能尝出这家餐厅被私募股权收购了」——食材成本被压缩，品质下降。类似地，主持人提到网友抱怨他们一直买的 Vital Farms 鸡蛋变差了，后来发现它被大资本收购。\n\nEric 把这种力量称为「没有人控制、但每个人都服从的力量」[06:39 Eric Ries]。它把组织拖向平庸。具体表现是什么？是创始人被踢出局，是产品偷工减料，是公司沦为纯粹的榨取利润的工具。Eric 强调：这不是个人道德问题，而是结构问题。大多数创始人甚至没有读过自己公司的章程，而那份标准章程里写着「公司可从事任何合法行为或活动」，在今天的「股东至上」（shareholder primacy，一种认为公司唯一目的是为股东赚钱的观念）语境下，这就意味着公司有义务为了最高出价出卖自己 [57:32 Eric Ries]。\n\nEric 给出了一个触目惊心的数据：根据哈佛法学院的研究，采用标准最佳实践的 VC（风险投资）支持的公司里，上市三年后只有 20% 的创始人还是 CEO [12:22 Eric Ries]。如果你觉得自己是例外，那很可能只是因为还没轮到你。\n\n## 保护公司要趁早，而且「难做的事反而更省事」\n\n既然公司随时可能被资本「洗劫」，那该怎么办？Eric 提出了一个听起来很反直觉的领导原则：**「难就是易」（Harder is easier）**。\n\n大多数人觉得生意已经够难了，为什么还要自找麻烦？但 Eric 反问：有没有一种可能，正是因为别人不信任你，生意才这么难？[34:57 Eric Ries] 如果你愿意在前端投入，致力于质量、设计、道德，你会得到意想不到的回报，因为**信任是商业中最被低估的资产** [36:10 Eric Ries]。\n\n他举了 Cloudflare 的例子。这家公司起初根本没有使命宣言。但当民主示威者的网站遭到国家级黑客攻击、硅谷大公司都不敢帮忙时，是这家小初创公司站出来免费提供防护 [38:12 Eric Ries]。后来，一位初级工程师问 CEO Matthew Prince：既然我们的使命是「让互联网更美好」，为什么我们不把收费的 SSL 加密（网页加密技术）免费开放？[39:25 Eric Ries] Matthew 没有像普通高管那样把这人打发走，而是说了三个字：「搞清楚它」（Figure it out）[41:01 Eric Ries]。他们为了免费提供加密，硬是重写了底层代码，虽然短期收入下降，但长期赢得了海量信任，这成了他们今天价值数百亿美元公司的基石。\n\n> 【背景】作为对比，Eric 讲了 Groupon 的故事。这家曾靠「每天一封邮件」极速增长的公司，为了季度财报，不断有人提议多发邮件，最终演变成每天发八封，毁掉了用户体验和公司价值 [43:22 Eric Ries]。\n\n既然「难就是易」，那什么时候开始建立这种保护？Eric 的答案是：**现在**。他套用了那句老话：种一棵树最好的时间是 40 年前，其次是现在 [16:24 Eric Ries]。他警告，创始人常常被律师、投资人一路安抚：「等找到产品市场契合度（Product-Market Fit，产品满足市场需求的那个点）再说」「等上市再说」，结果到了 IPO（首次公开募股）前夕，才发现「以前太早，现在太晚」[18:27 Eric Ries]。成功不会保护你，成功只会让你成为靶子 [18:44 Eric Ries]。\n\n## 核心方法论：Ethos + Integrity（精神 + 正直）\n\n理解了紧迫性，具体要怎么做？Eric 给出的蓝图公式是：**Ethos（精神）加上 Integrity（结构完整性）**。\n\n**第一步是确立精神（Ethos）。** 这不是写一句漂亮的使命宣言贴在墙上。Eric 反复强调：使命宣言不是使命本身，就像地图不是疆域 [37:08 Eric Ries]。真正的使命是公司这个「活着的超级生物」的涌现属性。他提出了「使命驱动」（Mission drive）的概念：如果你声称是使命驱动，那就必须证明，**除非实现使命，否则你无法盈利** [49:27 Eric Ries]。他批评 Google 的「不作恶」（Don't be evil）最终沦为口号——Google 按时提交季度财报的概率是 100%，但避免过失杀人的概率只有 90%-95%，原因很简单：前者有庞大的机制保证，后者没有 [53:22 Eric Ries]。\n\n**第二步是建立结构完整性（Integrity）。** 组织的软弱会导致无法兑现承诺。如果你阻止不了内部背叛，使命就是空谈。这里最容易、最基础的一步是：**成为一家公益公司（Public Benefit Corporation, PBC）**。\n\n> 【背景】PBC（公益公司）是一种公司治理结构。传统的「任何合法行为」章程意味着公司必须为股东利益最大化服务（即使牺牲社会利益）；而注册为 PBC，可以在公司章程里明确写入特定的公共使命，并在面临恶意收购或短期套利压力时，作为法律武器拒绝违背使命的要求。\n\nEric 强调，注册 PBC 只需要一份两页纸的法律文件，毫无坏处，没有权衡 [64:27 Eric Ries]。如果你是员工，面试时只要问一句「我们在章程里写了使命吗？」就能逼着管理层去思考这件事 [62:31 Eric Ries]。\n\n此外，他提出了**「文化银行」**的概念：每次你为了价值观做出牺牲，就是在存款；每次为了私利走捷径，就是在取款。规则是：**只存款，不取款** [71:49 Eric Ries]。\n\n## 案例深挖：Anthropic 为什么能顶住 2 亿美元诱惑\n\n到了 AI 时代，这套理念变得前所未有地重要。Eric 讲述了他亲身参与的 Anthropic 的故事。\n\n在 ChatGPT 引爆 AI 热潮之前，Dario 还只是个首次创业的技术创始人，并不被顶级风投看好。但因为他们笃信「AI 安全」，一位投资人介绍他们来找 Eric。Eric 给他们讲了那套「如果你不搞定结构，就会被资本毁掉」的恐怖故事 [74:10 Eric Ries]。于是，Anthropic 从第一天起就注册为 PBC，并在 C 轮融资时正式设立了**长期利益信托（Long-Term Benefit Trust, LTBT）**。\n\n> 【背景】这是一种双层结构：外部由一群不持有公司股权的 AI 安全专家担任受托人，他们有权任命和监督营利性公司的部分董事。因为没有经济利益，他们能在公司面临危险诱惑时行使否决权。这不同于 Mark Zuckerberg 在 Meta 的「双重股权」绝对创始人控制，它是一种更制度化、更持久的保护机制 [76:13 Eric Ries]。\n\nEric 指出，Anthropic 拒绝发布危险模型、甚至据说拒绝了一份价值 2 亿美元的合同 [75:53 Eric Ries]。如果换了标准结构，投资人早就为了利润把 CEO 踢出局了。正因为有了结构保护，Anthropic 才能真正做到「对齐」（Alignment），这也是他们吸引顶尖人才、实现更低推理成本（inference cost，运行 AI 模型的计算开销）和更快产品迭代速度的深层原因。\n\n最后，Eric 提到了管理学先驱 Mary Parker Follett 提出的**「无形领袖」**概念 [95:41 Eric Ries]。真正的领导力，是当管理者不在场时，那个指引成千上万个微小决策的「共同目标」。正如他所说，组织是地球上最古老的人工智能形式，只有当使命内化到每个人的骨髓里，公司才能真正不可摧毁。\n\n## 本集带走\n\n1. **成功是诱饵，不是护盾**：采用标准公司章程的创始人，上市三年后留在 CEO 位子上的只有 20%。你的公司越成功，越容易成为资本猎杀的目标，不要等「以后」再做保护，因为永远「太早」，直到「太晚」。\n2. **「难就是易」**：愿意为了质量、道德、使命承担短期成本，最终会转化为「信任」这个最被低估的资产。Cloudflare 的免费 SSL 和 Groupon 的八封邮件，是两个截然相反的典型。\n3. **最小阻力路径**：立刻注册为公益公司（PBC），把使命写进章程；建立「文化银行」只存不取；确保公司不受单一资本控制，而是由「使命」控制。只有结构完整，承诺才有分量。",
+  "title_zh": "为什么好公司会变坏：Eric Ries 的防腐架构学",
+  "tldr": "用治理结构和文化机制保护公司不被金融逻辑掏空。",
+  "digest_md": "一家公司刚上市五个月,创始 CEO 就被董事会赶走——不是因为商业模式变了,而是因为公司章程里写死了他必须为股东追求最高回报,一旦股价波动,他毫无法律屏障 [12:22 Eric Ries]。说这话的人是 Eric Ries,15 年前写了《精益创业》,如今带着新书 Incorruptible 回来,专门聊一件事:怎么保护你亲手建起来的公司,不被「金融重力」拖垮。\n\n这一集里他和 Lenny 聊了三件事:第一,为什么那些被我们当成「商业规律」的东西——股东至上、按 ROI 排优先级——其实是近 40 年才有的新发明,而且它们正在系统性地毁掉好公司;第二,一批「公司治理叛逆者」用了上百年验证出一套替代结构(从 1920 年丹麦的胰岛素公司到今天的 Anthropic),能让公司长期抵抗被掏空的诱惑;第三,创始人下周就能做的几件具体小事——改成公益公司(PBC,一种必须在章程里写明公共使命的公司法律形态)、和联合创始人做一次「对抗性提示」测试、引入「董事誓言」。结尾他还把这一切和 AI 对齐(让 AI 行为符合人类意图)连起来:如果连自己的组织都「对齐」不了,凭什么相信你能对齐 AI。\n\n## 不是贪婪,是结构:一门被遗忘的工程学\n\n很多人觉得公司变坏是「人性贪婪」,Eric 说这种解释就像有人问「桥为什么塌了」,你回答「因为重力」——技术上没错,但毫无用处。真正的工程学问题是:为什么有的桥不塌?你用什么材料(比喻公司治理结构)能防腐蚀?他用「金融重力」来形容那股把所有公司往下拖的力量:公司越成功(他原话叫「金鹅越金贵」),各方就越有动机把它杀掉分肉——私募股权进来削成本、激进投资者逼短期利润、董事会为下一季财报换掉创始人 [08:25 Eric Ries]。这不是道德问题,是结构问题:你公司注册时用的那份标准章程,默认股东利益高于一切。\n\nEric 讲了一个让人脊背发凉的例子:一家叫 Vectura 的英国医药公司,专门做哮喘吸入器。真正的 Philip Morris(菲利普·莫里斯烟草公司)跑来收购他们,出价每股 165 便士,比另一家私募的 155 便士高一点点。公众愤怒,英国胸科学会求他们别卖——但董事会说「我们有信托责任(法律上要求管理者必须为受益人利益行事)接受最高出价」,于是卖了 [31:10 Eric Ries]。三年内,Philip Morris 计提了 9 亿美元减值,把公司拆解出售,Vectura 这个名字消失了 [32:08 Eric Ries]。Eric 的关键判断是:董事会的双手被「股东利益最大化」这条默认规则绑死了,哪怕所有人都知道这是在毁掉一家好公司。\n\n## 「股东至上」其实很年轻:你的祖父母不这么想\n\n很多人觉得「公司为股东赚钱天经地义」。Eric 提醒:这套股东至上理论(认为公司唯一合法目的就是为股东创造最大财务回报)只有 40 年历史。在 19 世纪,你要开公司得向州立法机构证明这东西对公众有益——比如「两地之间修条运河对公众有利」;你要是敢把一家铁路公司改成「纯粹为最大化股东价值」,法院会直接废除你的公司章程,这叫「公司死刑」(因越权导致公司注册资格被吊销)[59:35 Eric Ries]。亚当·斯密、你的曾祖父母,都觉得公司该服务于一个「有益目的」(法律术语,指公司章程里写明的具体公益或商业使命)。只有过去 40 年,我们才把「为股东赚钱」当成了自然法。\n\n## 「难即易」:Cloudflare 怎么把 SSL 免费送出去\n\n说完结构性腐败,这一节聊操作层:在日常经营里怎么挡住诱惑。Eric 用 Cloudflare 的故事来讲他叫「难即易」(做艰难决定反而让后续更省力)的原则。\n\nCloudflare 早期根本没有使命声明——几个哈佛商学院出来的创始人特别烦「咨询废话」,觉得「做个防火墙放云端,有什么好谈使命的」[36:36 Eric Ries]。但他们的实际行为已经形成了使命:有一批争取民主的示威者网站被国家级黑客攻击,硅谷大公司(包括 Google)都不敢帮忙,Cloudflare 这家小公司站出来免费保护——「我们愿意承受国家级黑客的愤怒,因为这是正确的事,没有任何回报」[38:12 Eric Ries]。几年后,一位工程师吃饭时说:「我觉得这是我们工作过的第一个地方,我们在努力让互联网变得更好。」这句话后来从员工嘴里反复冒出来,成了自下而上的使命,创始人最后才正式采纳。\n\n高潮来了:又一位初级工程师跑去问 CEO Matthew Prince——「我们的使命不是让互联网更好吗?那为什么 SSL 加密(让网站数据在传输中不被窃取的技术)还要收费?更美好的互联网难道不该是加密的吗?」[39:44 Eric Ries] 这是 Cloudflare 当时最赚钱的产品、收入头号驱动,一个初级工程师要 CEO 把它免费送出去。Matthew 的反应是三个字:「搞清楚怎么做。」[41:02 Eric Ries] Eric 称之为「figure it out(搞清楚)」原则——最好的领导者遇到「坚持原则 vs. 省事赚钱」的困境,会陶醉于这种困难,因为它是一次教全公司「我们到底信什么」的机会。\n\n团队手写了汇编语言、跟证书机构谈下复杂合作,硬把成本压下来,免费开放了 SSL。短期高级产品转化率确实下降,但他们咬牙坚持。长期结果是漏斗顶端流量涨了一个数量级,信任沉淀成了今天 700 亿美元市值的底座 [42:17 Eric Ries]。\n\n## 对照组:Groupon 为什么被邮件频率毁掉\n\n为了让对比更刺眼,Eric 讲了 Groupon 的反面故事。这家公司靠「每天给你发一封优惠邮件」上市,创始人 Andrew Mason 跟 Eric 讲:员工开始来磨他——「老板,我们做成这一季,要不要试试每天两封?」他说不。人家拿「我们是不是该做个实验」「数据怎么说」「ROI 算过吗」一遍遍磨他,他最终同意做实验。两封确实赚更多,他没法说不。然后变成三封、四封、八封 [43:43 Eric Ries]。邮件频率是「先锋问题」——它暴露了一个组织根本没有能力捍卫「对客户做对的事」,因为 ROI 框架永远站在「多发一封」那一边。公司就这么被吃干抹净了。\n\n## 使命不是声明:它得让你「没法靠背叛赚钱」\n\n回到「怎么做」。Eric 反复强调:写一份漂亮的使命声明毫无价值,关键是他叫「使命驱动」的审计——你得设计一套机制,让公司里任何人都无法通过背叛使命来获利。他举了 Google 的例子:曾经有句著名的「Don't be evil(不作恶)」,如今从网站撤下、员工手册里也删了,还因违反这条两次被起诉并和解 [52:48 Eric Ries]。他问一位待了 13 年的前 Google 人:「Google 按时提交季度财报的概率是多少?」对方说 100%。他又问:「Google 意外害死一个人并掩盖的概率是多少?」对方说 90%、95% [53:17 Eric Ries]。荒诞对比出来了:为什么季度财报是铁定的?因为公司花大价钱建了一整套机制确保它发生。「不作恶」呢?只是一句口号,没有任何配套机制。Eric 的判据很干脆:如果有人告诉你他对某事很认真,那你问他「机制在哪?承诺在哪?」——拿不出来,不管初衷多好,他都在对你撒谎 [54:46 Eric Ries]。\n\n## 最低限度的事:公益公司(PBC)和「董事誓言」\n\n这一节讲创始人具体能做什么。Eric 说最简单的一件,是改成公益公司(PBC,一种在章程里必须写明公共使命的公司法律形态)。区别在于:普通公司章程里写的「任何合法行为或目的」,在今天的股东至上法律框架下被解读成「为股东最大化回报」;PBC 则让你明确写下「这家公司通过创造安全负责的 AI 系统来促进人类繁荣」之类的具体使命 [60:48 Eric Ries]。好处非常具体:哪天有人告你违背对股东的信托责任,你可以拿出章程说「投资者早就同意我们做这件事」。Anthropic 从第一天就是 PBC,还把「长期利益信托」(一组由不持股权的 AI 安全专家任命的董事,负责监督公司是否偏离安全使命)写进了章程 [74:59 Eric Ries]。Eric 强调:这没有任何权衡,「真的没有任何权衡」,唯一的「成本」就是会有投资者或律师浪费时间劝你别做 [64:27 Eric Ries]。\n\n第二件他推荐的具体做法叫「董事誓言」:要求所有董事(公司最高决策层)在入董事会前签一份希波克拉底式誓言(像医生「首先不伤害」那样的职业承诺),写进章程作为前置条件 [86:52 Eric Ries]。他补充说:今天董事的决策后果比护士重得多,我们却对护士的要求比董事高,这说不通。Eric 还提到自己参与创办了一家叫 Virgil 的律师事务所,不按小时收费,专门帮创业者处理这类治理问题 [88:43 Eric Ries]。\n\n## 「文化银行」:只存款,不取款\n\n最后一块拼图是组织文化。Eric 引用 Devoted Health 创始人 Todd Park 从星巴克 Howard Schultz 那里学来的「文化银行」规则:每次公司为了捍卫价值观付出代价,就是往文化银行里「存款」;每次做贪婪自利的事就是「取款」。规则简单粗暴——「只存款,绝不取款」[71:49 Eric Ries]。他讲了个 H-E-B 超市的故事:德州冰暴停电、销售点系统崩了,经理直接让顾客把杂货拿回家,不收钱——这不是经理临场发挥,而是 H-E-B 系统训练的结果:做对的事就是在文化银行存款 [71:14 Eric Ries]。背后的逻辑:信任是商业里最被低估的资产,它必须通过一次次「宁可吃亏也要做对」的累积才能沉淀下来。\n\n他还提到一个常被忽视的洞察:使命一致的公司像个人处于「心流」状态——不用开会、不用扯皮、没人拿 ROI 电子表格来磨你。他引述已故管理学者 Clayton Christensen 的话:「100% 做正确的事比 98% 容易」——因为一旦到了 98%,你就得为剩下那 2% 开无数的会 [70:00 Eric Ries]。Claude Code 团队那期里,产品负责人 Kat 也说过类似的话:他们能每周发布大量功能,核心原因就是「使命高度一致」,决定做不做某件事几乎不耗时间 [68:30 Eric Ries]。\n\n## 使命守护者:OpenAI 和 Anthropic 的不同选择\n\nEric 把前面所有结构统称为「精神控股公司」(他自创的统称,涵盖非营利基金会、目的信托、员工持股信托等各种「持有公司灵魂」的法律实体)。它的核心功能是提供一个「使命守护者」——某个不持股的人或实体,专门负责确保公司不偏离使命 [76:29 Eric Ries]。\n\n他用 OpenAI 和 Anthropic 的对比来讲这一点。Anthropic 创始人 Dario 离开 OpenAI 创业时,还是个首次创业者、不是顶级风投追捧的明星公司、ChatGPT 还没出现——但他们是 AI 安全使命的「真正信徒」,通过投资人介绍来找 Eric 这位「另类治理想法的古怪收藏家」请教 [73:50 Eric Ries]。Eric 给了很少的建议,但他们真把方案写进了章程:从一开始就是 PBC,并在章程里写明有权设立长期利益信托。两年后 C 轮融资时才真正落地,但法律权利和意图从公司创立第一天就在文件里了 [74:48 Eric Ries]。结果是:Anthropic 今天的董事会里有董事,由外部一组不持 Anthropic 股权的 AI 安全专家任命并对其负责——这些人没有经济激励,只有「看着这事被做对」的激励 [75:02 Eric Ries]。\n\n这给了 Anthropic 一种罕见的勇气:他们曾拒绝一份 2 亿美元的合同、承受了世界上最大军队和政府的愤怒——不是因为宣传好,而是因为投资者没法临时把 Dario 赶下台 [76:02 Eric Ries]。Eric 的判断很明确:这种结构比「创始人控制」(创始人通过双重股权等机制独揽控制权)更稳定。创始人控制下的人往往「非常痛苦,基本每天在社交媒体上当众精神崩溃,因为你成了阿特拉斯,连耸肩都不行」[78:47 Eric Ries]。\n\n## 为什么这和 AI 对齐是同一件事\n\n最后 Eric 把整集拉到一个更高的层面。他说公司/组织是地球上最古老的人工智能——一种「涌现智能」(大量简单个体协作后产生出超越个体能力的智能,就像一千只蚂蚁能解开一只蚂蚁解不开的谜题)[91:31 Eric Ries]。而 Conway 定律(软件架构会镜像制造它的组织结构)告诉我们:人类价值观从上到下流进软件,组织里的对齐问题会原封不动地变成 AI 系统的对齐问题 [90:54 Eric Ries]。所以「谁来对齐对齐者」(AI 界头号未解难题)的答案,得先从组织治理开始找:你得先想清楚要 AI 对齐到什么人类价值观,否则技术再强也是白搭。\n\n他最后留了一个彩蛋——一位被遗忘的先驱 Mary Parker Follett。这位 1920 年就写下「权力与共而不是权力凌驾」「领导者的标志是创造更多领导者」的女学者,提出了一个比任何当代管理概念都锋利的词:「隐形领导者」[95:46 Eric Ries]。她说:工厂真正的领导者不是老板,而是那个被灌输进每个人心中的「共同目标」——因为老板不可能每次都在场,真正决定公司命运的是成千上万个没人盯着时做出的微小决策。Eric 用一句话收尾:你作为领导者的承诺,只有在没人盯着的时候还在被兑现,才算数。\n\n> 【背景】Philip Morris(菲利普·莫里斯)是全球最大的烟草公司之一,旗下拥有万宝路等品牌,在公众认知中常被视为「反面典型公司」;文中 Vectura 案例里,他们收购一家健康医药公司的行为引发广泛争议。BlackRock 是全球最大的资产管理公司之一,常因收购品牌后追求利润被提及。这两家公司的背景,都是 Eric 在书中用作「金融重力吞噬好公司」的现实标本。\n\n## 本集带走\n\n最后收个尾,这一集值得带走的是三句话。第一,「股东至上」不是商业规律,它只是过去 40 年才冒出来的一种理论,而且它正在系统性毁掉好公司——你的祖父母、你的曾祖父母都不这么想,19 世纪的法院会把这种操作判成犯罪。第二,有解,而且解法有上百年验证:1920 年丹麦那家胰岛素公司如今变成了 Novo Nordisk(世界最大药企之一),Cloudflare 靠免费送 SSL 成了 700 亿美元公司,Anthropic 靠长期利益信托扛住了 2 亿美元的合同——共同点是他们都用了某种「精神控股公司」结构,让使命本身拥有主权。第三,作为创始人,你下周就能做的三件具体事:注册成公益公司、跟联合创始人做一次「能不能靠背叛使命赚钱」的对抗性提示测试、让所有董事签一份「首先不伤害」的誓言。Eric 反复强调:这一步没有任何权衡、没有任何权衡、没有任何权衡——你唯一会失去的,是那种「随时可能被一份标准章程绑住双手、眼睁睁看着公司被拆分出售」的命运。",
   "quotes": [
     {
-      "en": "The thing that destroyed them was not competition.",
-      "zh": "摧毁它们的东西不是竞争。",
-      "timestamp": "00:01",
+      "en": "Their very success became a liability because the more golden the goose, the greater the temptation to butcher.",
+      "zh": "它们的成功本身变成了负债,因为金鹅越金贵,杀鹅的诱惑就越大。",
+      "timestamp": "08:25",
       "speaker": "Eric Ries"
     },
     {
       "en": "If you don't get this right, no other decision you make about your company will matter for the long term because you're not going to be the one making it.",
-      "zh": "如果你搞不定这个，那么你关于公司做出的其他决定都没有长期意义，因为你不会是做决定的那个人。",
+      "zh": "如果你搞不定这个,那么你关于公司做出的其他决定都没有长期意义,因为你不会是做决定的那个人。",
       "timestamp": "12:12",
       "speaker": "Eric Ries"
     },
     {
+      "en": "According to Harvard Law School, among venture-backed companies that have the standard best practices set up that you got from your lawyer, only 20% of founders are still the CEO three years after going public.",
+      "zh": "根据哈佛法学院,在有风险投资支持且采用了从律师那里获得的标准最佳实践的公司中,只有 20% 的创始人在上市三年后仍是 CEO。",
+      "timestamp": "12:22",
+      "speaker": "Eric Ries"
+    },
+    {
       "en": "It is always too early until it's too late.",
-      "zh": "在太晚之前，总是太早。",
+      "zh": "在太晚之前,总是太早。",
       "timestamp": "16:30",
       "speaker": "Eric Ries"
     },
     {
       "en": "Success will not protect you because success is what makes you a target.",
-      "zh": "成功不会保护你，因为成功正是让你成为靶子的原因。",
+      "zh": "成功不会保护你,因为成功正是让你成为靶子的原因。",
       "timestamp": "18:44",
       "speaker": "Eric Ries"
     },
     {
-      "en": "Their intervention ultimately created more than $500 billion of shareholder value.",
-      "zh": "他们的干预最终创造了超过 5000 亿美元的股东价值。",
-      "timestamp": "25:05",
+      "en": "They are six times more likely to live to year 50 compared to their conventional counterparts.",
+      "zh": "与它们的传统同行相比,它们存活到 50 年的可能性要高出六倍。",
+      "timestamp": "26:05",
+      "speaker": "Eric Ries"
+    },
+    {
+      "en": "Philip Morris spent £1.1 billion to buy Vectura. Within three years, they had taken a $900 million write down and disposed of the company for peace parts, it doesn't exist anymore.",
+      "zh": "Philip Morris 花费了 11 亿英镑收购 Vectura。在三年内,他们计提了 9 亿美元的减值,并将公司拆解出售,它不再存在了。",
+      "timestamp": "32:02",
       "speaker": "Eric Ries"
     },
     {
@@ -40,65 +52,101 @@
       "speaker": "Eric Ries"
     },
     {
-      "en": "If you're serious about being mission driven, you have to show me that you cannot profit except by achieving the mission.",
-      "zh": "如果你真的对使命驱动很认真，你必须向我表明，除非实现使命，否则你就无法盈利。",
-      "timestamp": "49:27",
+      "en": "Mission is an emergent property of the living superorganism of the thing we're birthing.",
+      "zh": "使命是我们正在孕育的这个生命超级有机体的涌现属性。",
+      "timestamp": "37:13",
+      "speaker": "Eric Ries"
+    },
+    {
+      "en": "The top of funnel increased by an order of magnitude. In fact, to this day, people still talk about how Cloudflare is like the reason you take for granted we have an encrypted internet.",
+      "zh": "漏斗顶端增加了一个数量级。事实上,直到今天,人们还在谈论 Cloudflare 就像是我们理所当然拥有加密互联网的原因。",
+      "timestamp": "42:17",
       "speaker": "Eric Ries"
     },
     {
       "en": "Only make deposits, never make withdrawals.",
-      "zh": "只做存款，绝不做取款。",
+      "zh": "只做存款,绝不做取款。",
       "timestamp": "71:45",
       "speaker": "Eric Ries"
     },
     {
+      "en": "It's easier to do the right thing 100% of the time than 98% of the time.",
+      "zh": "100% 的时间做正确的事情比 98% 的时间做更容易。",
+      "timestamp": "70:02",
+      "speaker": "Eric Ries"
+    },
+    {
       "en": "The problem is if a company can be decapitated at any time, you can no longer trust it.",
-      "zh": "问题在于，如果一家公司随时可能被斩首，你就再也无法信任它了。",
+      "zh": "问题在于,如果一家公司随时可能被斩首,你就再也无法信任它了。",
       "timestamp": "83:04",
       "speaker": "Eric Ries"
     },
     {
-      "en": "Corporations, organizations are the oldest form of artificial intelligence on the planet.",
-      "zh": "公司、组织是地球上最古老的人工智能形式。",
-      "timestamp": "91:22",
-      "speaker": "Eric Ries"
-    },
-    {
-      "en": "The more ants you put in the puzzle, the faster the solution. But the more humans you add, the worse, unless the humans are very carefully aligned.",
-      "zh": "你在谜题中放入的蚂蚁越多，解决速度越快。但是你增加的人类越多，情况越糟，除非这些人类非常仔细地对齐。",
-      "timestamp": "93:14",
+      "en": "And the common purpose rather than Mr. Rowntree himself is their invisible leader.",
+      "zh": "而这个共同目标,而不是 Rowntree 先生本人,是他们的隐形领导者。",
+      "timestamp": "96:23",
       "speaker": "Eric Ries"
     }
   ],
   "quotes_candidates": [
     {
-      "en": "The thing that destroyed them was not competition.",
-      "zh": "摧毁它们的东西不是竞争。",
-      "timestamp": "00:01",
+      "en": "Their very success became a liability because the more golden the goose, the greater the temptation to butcher.",
+      "zh": "它们的成功本身变成了负债,因为金鹅越金贵,杀鹅的诱惑就越大。",
+      "timestamp": "08:25",
       "speaker": "Eric Ries"
     },
     {
       "en": "If you don't get this right, no other decision you make about your company will matter for the long term because you're not going to be the one making it.",
-      "zh": "如果你搞不定这个，那么你关于公司做出的其他决定都没有长期意义，因为你不会是做决定的那个人。",
+      "zh": "如果你搞不定这个,那么你关于公司做出的其他决定都没有长期意义,因为你不会是做决定的那个人。",
       "timestamp": "12:12",
       "speaker": "Eric Ries"
     },
     {
+      "en": "According to Harvard Law School, among venture-backed companies that have the standard best practices set up that you got from your lawyer, only 20% of founders are still the CEO three years after going public.",
+      "zh": "根据哈佛法学院,在有风险投资支持且采用了从律师那里获得的标准最佳实践的公司中,只有 20% 的创始人在上市三年后仍是 CEO。",
+      "timestamp": "12:22",
+      "speaker": "Eric Ries"
+    },
+    {
       "en": "It is always too early until it's too late.",
-      "zh": "在太晚之前，总是太早。",
+      "zh": "在太晚之前,总是太早。",
       "timestamp": "16:30",
       "speaker": "Eric Ries"
     },
     {
       "en": "Success will not protect you because success is what makes you a target.",
-      "zh": "成功不会保护你，因为成功正是让你成为靶子的原因。",
+      "zh": "成功不会保护你,因为成功正是让你成为靶子的原因。",
       "timestamp": "18:44",
       "speaker": "Eric Ries"
     },
     {
-      "en": "Their intervention ultimately created more than $500 billion of shareholder value.",
-      "zh": "他们的干预最终创造了超过 5000 亿美元的股东价值。",
-      "timestamp": "25:05",
+      "en": "This structure has endured and protected the ethos of scientific integrity of Novo Nordisk for more than a hundred years.",
+      "zh": "这种结构已经经受住考验并保护了 Novo Nordisk 的科学诚信精神一百多年。",
+      "timestamp": "23:59",
+      "speaker": "Eric Ries"
+    },
+    {
+      "en": "They are six times more likely to live to year 50 compared to their conventional counterparts.",
+      "zh": "与它们的传统同行相比,它们存活到 50 年的可能性要高出六倍。",
+      "timestamp": "26:05",
+      "speaker": "Eric Ries"
+    },
+    {
+      "en": "Vectura was a UK company, a spin out from the University of Bath. They made inhaler therapeutics like for asthma and COPD, you've seen inhalers.",
+      "zh": "Vectura 是一家英国公司,是从巴斯大学分拆出来的。他们制造吸入器疗法,比如用于哮喘和慢性阻塞性肺病(COPD),你见过吸入器。",
+      "timestamp": "30:10",
+      "speaker": "Eric Ries"
+    },
+    {
+      "en": "Philip Morris spent £1.1 billion to buy Vectura. Within three years, they had taken a $900 million write down and disposed of the company for peace parts, it doesn't exist anymore.",
+      "zh": "Philip Morris 花费了 11 亿英镑收购 Vectura。在三年内,他们计提了 9 亿美元的减值,并将公司拆解出售,它不再存在了。",
+      "timestamp": "32:02",
+      "speaker": "Eric Ries"
+    },
+    {
+      "en": "Companies where their employees trust them, spend way less time on employee communications. They have much better alignment.",
+      "zh": "员工信任他们的公司,在员工沟通上花费的时间要少得多。他们有更好的协同。",
+      "timestamp": "35:13",
       "speaker": "Eric Ries"
     },
     {
@@ -108,57 +156,57 @@
       "speaker": "Eric Ries"
     },
     {
-      "en": "If you're serious about being mission driven, you have to show me that you cannot profit except by achieving the mission.",
-      "zh": "如果你真的对使命驱动很认真，你必须向我表明，除非实现使命，否则你就无法盈利。",
-      "timestamp": "49:27",
+      "en": "Mission is an emergent property of the living superorganism of the thing we're birthing.",
+      "zh": "使命是我们正在孕育的这个生命超级有机体的涌现属性。",
+      "timestamp": "37:13",
       "speaker": "Eric Ries"
     },
     {
-      "en": "Google reports its quarterly report on time because there is a massive, unbelievably expensive apparatus to make sure it happens every time. And don't be evil was just a slogan.",
-      "zh": "Google 按时发布季度报告是因为有一个庞大的、难以置信的昂贵机制来确保它每次都发生。而『不作恶』只是一个口号。",
-      "timestamp": "54:16",
+      "en": "And he uttered the three keywords, he said, \"Let's figure it out.\"",
+      "zh": "他说了三个关键词,他说,“让我们搞清楚它。”",
+      "timestamp": "40:58",
+      "speaker": "Eric Ries"
+    },
+    {
+      "en": "The top of funnel increased by an order of magnitude. In fact, to this day, people still talk about how Cloudflare is like the reason you take for granted we have an encrypted internet.",
+      "zh": "漏斗顶端增加了一个数量级。事实上,直到今天,人们还在谈论 Cloudflare 就像是我们理所当然拥有加密互联网的原因。",
+      "timestamp": "42:17",
+      "speaker": "Eric Ries"
+    },
+    {
+      "en": "Google very famously has lower inference costs than their competitors. They have faster product velocity than their competitors.",
+      "zh": "Anthropic 非常出名地拥有比竞争对手更低的推理成本。他们拥有比竞争对手更快的产品迭代速度。",
+      "timestamp": "67:21",
+      "speaker": "Eric Ries"
+    },
+    {
+      "en": "Here they turn down a $200 million contract and bore the wrath of the world's largest army and government.",
+      "zh": "在这里他们拒绝了……一份 2 亿美元的合同,并承受了世界上最大的军队和政府的愤怒。",
+      "timestamp": "75:53",
       "speaker": "Eric Ries"
     },
     {
       "en": "Only make deposits, never make withdrawals.",
-      "zh": "只做存款，绝不做取款。",
+      "zh": "只做存款,绝不做取款。",
       "timestamp": "71:49",
       "speaker": "Eric Ries"
     },
     {
+      "en": "It's easier to do the right thing 100% of the time than 98% of the time.",
+      "zh": "100% 的时间做正确的事情比 98% 的时间做更容易。",
+      "timestamp": "70:00",
+      "speaker": "Eric Ries"
+    },
+    {
       "en": "The problem is if a company can be decapitated at any time, you can no longer trust it.",
-      "zh": "问题在于，如果一家公司随时可能被斩首，你就再也无法信任它了。",
+      "zh": "问题在于,如果一家公司随时可能被斩首,你就再也无法信任它了。",
       "timestamp": "83:04",
       "speaker": "Eric Ries"
     },
     {
-      "en": "Corporations, organizations are the oldest form of artificial intelligence on the planet.",
-      "zh": "公司、组织是地球上最古老的人工智能形式。",
-      "timestamp": "91:20",
-      "speaker": "Eric Ries"
-    },
-    {
-      "en": "The common purpose rather than Mr. Rowntree himself is their invisible leader.",
-      "zh": "这个共同目标，而不是 Rowntree 先生本人，是他们的隐形领导者。",
+      "en": "And the common purpose rather than Mr. Rowntree himself is their invisible leader.",
+      "zh": "而这个共同目标,而不是 Rowntree 先生本人,是他们的隐形领导者。",
       "timestamp": "96:23",
-      "speaker": "Eric Ries"
-    },
-    {
-      "en": "The more ants you put in the puzzle, the faster the solution. But the more humans you add, the worse, unless the humans are very carefully aligned.",
-      "zh": "你在谜题中放入的蚂蚁越多，解决速度越快。但是你增加的人类越多，情况越糟，除非这些人类非常仔细地对齐。",
-      "timestamp": "93:14",
-      "speaker": "Eric Ries"
-    },
-    {
-      "en": "What we want to create are what I call mission controlled companies.",
-      "zh": "我们想要创造的是我所谓的使命控制公司。",
-      "timestamp": "89:22",
-      "speaker": "Eric Ries"
-    },
-    {
-      "en": "Who aligns the aligners?",
-      "zh": "谁来对齐对齐者？",
-      "timestamp": "90:27",
       "speaker": "Eric Ries"
     }
   ]

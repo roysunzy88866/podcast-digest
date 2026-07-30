@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]]**(01:21起):嘉宾曾在此领导设计团队。讨论了其成功的微小核心：通过 Git Push Heroku master 这行单行命令实现极速部署，但也因企业锁定策略输给了 Kubernetes。
+- **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]]**(01:21起):嘉宾曾在此领导设计团队。讨论了其成功的微小核心：通过 Git Push Heroku master 这行单行命令实现极速部署，但也因企业锁定策略输给了 Kubernetes。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] — 作为被讨论公司
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]] — 作为被讨论公司
 
 ## ③ 关联
 

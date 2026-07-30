@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《为什么机器人的未来在仿真：World Labs 收购 Cynics 背后的逻辑》]]**(00:06起):本集说它是一家做机器人的初创公司，被 World Labs 收购；它开发了现实到仿真的流水线，以解决机器人训练极度缺乏数据的关键瓶颈。
+- **[[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《World Labs 收购机器人公司：教 AI 理解物理世界》]]**(00:06起):本集说它是一家做机器人的初创公司，被 World Labs 收购；它开发了现实到仿真的流水线，以解决机器人训练极度缺乏数据的关键瓶颈。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《为什么机器人的未来在仿真：World Labs 收购 Cynics 背后的逻辑》]] — 作为被讨论公司
+- [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《World Labs 收购机器人公司：教 AI 理解物理世界》]] — 作为被讨论公司
 
 ## ③ 关联
 

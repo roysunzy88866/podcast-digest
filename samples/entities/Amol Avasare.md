@@ -27,7 +27,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]] — 作为联合主持
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为联合主持
 
 ## ③ 他谈到的
 

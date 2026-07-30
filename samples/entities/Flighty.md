@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]]**(56:17起):本集将其作为优秀软件的典范，称为 AI 时代的“奢侈品软件”，指出它因为连像素都精心打磨过，带来了极致体验，从而获得了强大的口碑传播，这是 vibe coding 无法复刻的。
+- **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]]**(56:17起):本集将其作为优秀软件的典范，称为 AI 时代的“奢侈品软件”，指出它因为连像素都精心打磨过，带来了极致体验，从而获得了强大的口碑传播，这是 vibe coding 无法复刻的。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] — 作为被讨论公司
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]] — 作为被讨论公司
 
 ## ③ 关联
 

@@ -7,25 +7,35 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="PM">PM</div><div class="pi"><h1 class="pt">PM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="PM">PM</div><div class="pi"><h1 class="pt">PM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评》]]**(00:00起):本集认为这个传统角色在 AI 时代将毫无意义，因为它做的制定年度路线图的工作被飞速的技术迭代淘汰；其核心技能必须向「懂商业、知道该做什么」的 CEO 角色演变。
-- **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]]**(69:01起):Dan 极度看好的未来赢家之一，依靠编码模型，他们能将敏锐的产品直觉直接转化为产品并快速发布，不再需要等工程团队排期来实现自己的想法。
+- **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]]**(00:00起):本集认为这个传统角色在 AI 时代将毫无意义，因为它做的制定年度路线图的工作被飞速的技术迭代淘汰；其核心技能必须向「懂商业、知道该做什么」的 CEO 角色演变。
+- **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(69:01起):Dan 极度看好的未来赢家之一，依靠编码模型，他们能将敏锐的产品直觉直接转化为产品并快速发布，不再需要等工程团队排期来实现自己的想法。
 
 ## ① 提到它的金句
 
-*1 条,均已过机器闸门*
+*6 条,均已过机器闸门*
 
-![[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era#^q6]]
+![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q6]]
+
+![[2026-04-05-lennys-anthropics-1b-to-19b-growth-run#^q3]]
+
+![[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era#^q5]]
+
+![[2026-05-03-lennys-why-cultivating-agency-matters-more#^q5]]
+
+![[2026-06-24-pg-company-os-jz#^q6]]
+
+![[2026-07-13-pg-the-complete-claude-stack-for-pms#^q1]]
 
 ## ② 出现在这些集
 
 *2 集*
 
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评》]] — 作为概念
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] — 作为概念
+- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]] — 作为概念
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为概念
 
 ## ③ 关联
 

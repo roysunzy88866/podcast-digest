@@ -12,38 +12,38 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## 集里怎么说它
 
-- **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]]**(09:42起):本集说它的发布是大众真正感知到 AI 力量的公众时刻(大约三年前),指出其底层技术本质上依然是大数据、神经网络和 GPU 这“黄金配方”的放大版。
-- **[[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]]**(21:17起):本集以它的「谄媚（sycophancy）」为例,说明 AI 为了参与度不断告诉用户「你是天才」,是行业被错误目标函数带偏的典型。
+- **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]]**(09:42起):本集说它的发布是大众真正感知到 AI 力量的公众时刻(大约三年前),指出其底层技术本质上依然是大数据、神经网络和 GPU 这“黄金配方”的放大版。
+- **[[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]]**(21:17起):本集以它的「谄媚（sycophancy）」为例,说明 AI 为了参与度不断告诉用户「你是天才」,是行业被错误目标函数带偏的典型。
 - **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]]**(06:08起):本集将其描述为一种给出相当通用答案的通用 AI 聊天产品,并强调未来专门针对个人的 AI 教练会比通用 ChatGPT 强大得多。
-- **[[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]]**(02:06起):本集把它说成:传统的托管型 AI 工具;嘉宾将 OpenClaw 与之对比,强调用 OpenClaw 就像“自己组装电脑”,学到的东西远超按按按钮就用 ChatGPT,体验也更有趣。
-- **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]]**(70:36起):本集提到消费者会花钱试用它，但发现每月支付 20 美元后，得到的只是一个类似“Siri 1.0”的体验，从而对它失去耐心。
+- **[[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]]**(02:06起):本集把它说成:传统的托管型 AI 工具;嘉宾将 OpenClaw 与之对比,强调用 OpenClaw 就像“自己组装电脑”,学到的东西远超按按按钮就用 ChatGPT,体验也更有趣。
+- **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]]**(70:36起):本集提到消费者会花钱试用它，但发现每月支付 20 美元后，得到的只是一个类似“Siri 1.0”的体验，从而对它失去耐心。
 - **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当代码不再是瓶颈,品味和策展成为产品团队的稀缺力》]]**(36:09起):本集说 Codex 的经验与能力正在与 ChatGPT 结合,它们未来将融合为一个通用知识工作的主基地大本营。
-- **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《黄仁勋:NVIDIA 起步选错了技术,但学习比技术更重要》]]**(29:19起):本集鼓励大家都去使用它，并借用它指代机器人领域即将迎来的标志性启蒙时刻。
-- **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展》]]**(32:33起):本集提到：OpenAI 在成立几年后才想出要做这个面向用户付费的产品。
-- **[[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]]**(01:05起):集里作为对比对象被提及，强调由于在云端运行它只能做有限的事（比如做不到控制嘉宾床的温度），且各家（如 ChatGPT）都有自己的数据孤岛，无法被别的公司提取记忆。
+- **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]]**(29:19起):本集鼓励大家都去使用它，并借用它指代机器人领域即将迎来的标志性启蒙时刻。
+- **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]]**(32:33起):本集提到：OpenAI 在成立几年后才想出要做这个面向用户付费的产品。
+- **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(01:05起):集里作为对比对象被提及，强调由于在云端运行它只能做有限的事（比如做不到控制嘉宾床的温度），且各家（如 ChatGPT）都有自己的数据孤岛，无法被别的公司提取记忆。
 
 ## ① 提到它的金句
 
 *2 条,均已过机器闸门*
 
-![[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo#^q5]]
+![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q1]]
 
-![[2026-05-31-lennys-a-rational-conversation-on-where#^q2]]
+![[2026-07-09-pg-pm-guide-ai-design#^q1]]
 
 ## ② 出现在这些集
 
 *10 集*
 
-- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble》]] — 作为被讨论公司
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] — 作为被讨论公司
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代》]] — 作为概念(提及)
+- [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司
+- [[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]] — 作为被讨论公司
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言》]] — 作为概念(提及)
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] — 作为概念
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] — 作为概念(提及)
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] — 作为概念(提及)
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]] — 作为概念(提及)
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]] — 作为概念(提及)
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当代码不再是瓶颈,品味和策展成为产品团队的稀缺力》]] — 作为被讨论公司
-- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《黄仁勋:NVIDIA 起步选错了技术,但学习比技术更重要》]] — 作为概念(提及)
-- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展》]] — 作为概念(提及)
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] — 作为被讨论公司(提及)
+- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]] — 作为概念(提及)
+- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]] — 作为概念(提及)
+- [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

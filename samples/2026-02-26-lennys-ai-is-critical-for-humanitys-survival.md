@@ -1,5 +1,5 @@
 ---
-title: "对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代"
+title: 管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言
 podcast: "Lenny's Podcast"
 date: 2026-02-26
 source_url: https://www.lennysnewsletter.com/p/ai-is-critical-for-humanitys-survival
@@ -7,7 +7,7 @@ duration: "87:20"
 type: episode
 cover: "#6366f1"
 image: "/covers/2026-02-26-lennys-ai-is-critical-for-humanitys-survival.jpg"
-description: "Cisco 产品一号位亲述:大企业如何从顶层决心转型 AI、放下自我,以及平台与时机为何决定个人成败。"
+description: Cisco CPO Jeetu Patel 谈企业 AI 转型、管理 3 万人、不吝言辞，以及成功六要素。
 host: "[[Jeetu Patel]]"
 cohosts: ["[[Lenny]]"]
 companies: ["[[Cisco]]", "[[NVIDIA]]"]
@@ -18,9 +18,9 @@ tags:
   - 创业与行业
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# 对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代
+# 管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言
 
 <div class="pd-byl"><b>Jeetu Patel</b> · Cisco CPO</div>
 
@@ -28,7 +28,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-02-26-lennys-ai-is-critical-for-humanitys-survival.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">大多数人在大公司里认为的是大公司不进行实验。事实上并非如此。大公司经常进行实验。大公司不做的是当一个实验成功时,他们不会全力以赴并加倍下注。</div><div class="a">Jeetu Patel · 11:10</div></div>
+<div class="pd-hook"><div class="z">我认为人类的生存取决于成功的 AI。</div><div class="a">Jeetu Patel · 07:52</div></div>
 
 > [!info] 关联
 > **人物** [[Jeetu Patel]] · [[Lenny]]
@@ -39,136 +39,57 @@ tags:
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/ai-is-critical-for-humanitys-survival)
 
-<div class="pd-tldr"><b>一句话</b>Cisco 产品一号位亲述:大企业如何从顶层决心转型 AI、放下自我,以及平台与时机为何决定个人成败。</div>
+<div class="pd-tldr"><b>一句话</b>Cisco CPO Jeetu Patel 谈企业 AI 转型、管理 3 万人、不吝言辞，以及成功六要素。</div>
 
-[[Jeetu Patel|Jeetu Patel]] 是 [[Cisco|Cisco]]（思科）的首席产品官（CPO）兼总裁,管理着公司内部约 3 万名员工 <button class="pd-ts" data-t="09:13" data-who="Jeetu Patel" data-en="How many employees do you guys have? You said 45,000. We have 90,000 employees, 43,000 watch the stream." aria-label="回原文"></button>。但 Cisco 在大众印象里往往只是个做路由器和 WebEx 的老牌企业。事实上,他们不仅暗自完成了内部文化的 AI 转型,更是全球 AI 基础设施建设中最核心的玩家之一 <button class="pd-ts" data-t="15:54" data-who="Lenny" data-en="You're a major player in this. I don't think people realize this, people listening to this podcast. Give us just a quick glimpse into how Cisco fits into this massive build-out and just what does Cisco these days?" aria-label="回原文"></button>。本集他从刚举办完的一场 AI 峰会切入,聊了 AI 为什么是不可错失的大趋势、大型企业如何从顶层推进转型、他关于领导力与「讲故事」的内部秘辛,最后还给了一个判断成事的六要素框架——全篇干货,以下分为四个板块展开。
+管理着 9 万人大厂里的 3 万名员工，他直言：如果没有 AI，自己根本接不下这份工作。说这话的人是 [[Jeetu Patel|Jeetu Patel]]，[[Cisco|Cisco]] 的首席产品官。作为一个没有网络硬件背景的「应用层人」，他在三个月内靠着 AI 工具完成了对庞杂业务领域的恶补，拿下了这个职位 <button class="pd-ts" data-t="80:47" data-who="Jeetu Patel" data-en="It's changed my life in the way that I learn in some ridiculous ways. So I actually feel like when I got this new job to run all product for Cisco, there's zero chance I would've been able to do it if AI wasn't there." aria-label="回原文"></button>。
 
-## 能力过剩与人口危机:为什么 AI 是刚需
+在 [[Lenny|Lenny]] 的播客访谈中，Jeetu 分享了他如何从外部空降并主导这家老牌巨头的 AI 转型。你会听到四块内容：首先是他如何用铁腕手段把 Cisco 改造成一家 [[AI 优先|AI 优先]]的公司；其次，作为 AI 基础设施的核心建设者，Cisco 到底在解决什么关乎人类未来的问题；接着是他从多位传奇 CEO 身上学到的、反直觉的大规模团队管理与沟通心法；最后，是他留给所有职场人关于平台选择、毅力和表达爱的建议。结尾他还送出了一套关于如何建立伟大公司的「六字真言」框架。
 
-Jeetu 刚在几天前主持了一场长达 12 小时的 AI 峰会,请到了各路顶尖科技领袖。从这场信息量极大的对话中,他带回了三个核心洞察 <button class="pd-ts" data-t="05:56" data-who="Jeetu Patel" data-en="What was the takeaway from it? I'd say a few things. One is the capabilities overhang is real." aria-label="回原文"></button>。
+说完了这集的地图，先从他眼中当下 AI 行业最大的悖论开始。Jeetu 刚刚操办了一场长达 12 小时、汇聚了 Sam Altman、Marc Andreessen 等顶尖大佬的 AI 峰会 <button class="pd-ts" data-t="05:13" data-who="Jeetu Patel" data-en="You interviewed a lot of these people on stage, and so while it's fresh in your mind, I want to ask you, after doing this summit, after hearing from these folks, what's something that you've changed your mind about, or what's just like an insight that has been lodged in your head ever since doing the summit?" aria-label="回原文"></button>。峰会后他最强烈的感受是一个悖论：一方面科研突飞猛进，另一方面企业却在苦苦挣扎于如何采用 AI，也就是他所说的「[[能力过剩|能力过剩]]（技术跑得太快，而实际采用严重滞后）是真实的」<button class="pd-ts" data-t="05:57" data-who="Jeetu Patel" data-en="I'd say a few things. One is the capabilities overhang is real. I think there's more functionality, on one end there's kind of this paradox of progress." aria-label="回原文"></button>。更宏大的背景是，全球出生率正在下降，人口结构向老龄化倾斜。他认为，「人类的生存取决于成功的 AI」——如果未来没有足够多的年轻人去照顾 60% 的老年人口，社会将面临巨大的痛苦，而 AI 恰逢其时地出现，填补了劳动力缺口 <button class="pd-ts" data-t="07:48" data-who="Jeetu Patel" data-en="And historically in society, that's actually always been the case, but we might be at a point where that might not be the case. And when that's not the case, we worry about AI taking our jobs, I think that survival of humanity depends on a successful AI." aria-label="回原文"></button>。
 
-第一是「[[能力过剩|能力过剩]]」(capabilities overhang,指技术供给远超当下的实际应用能力)。一边是科技界用科学解决着惊人的难题,另一边是企业们在 AI 落地上挣扎,两者之间形成了鲜明对比 <button class="pd-ts" data-t="06:05" data-who="Jeetu Patel" data-en="I think there's more functionality, on one end there's kind of this paradox of progress. On one end we are solving all these amazing problems with science, on the other end you talk to the enterprise, they're like, &quot;We're struggling with adoption.&quot;" aria-label="回原文"></button>。第二点是,虽然写代码已经在 AI 上获得了巨大成功,Cisco 甚至在未来两周内就会推出一款 100% 由 AI 编写的产品,但要把 AI 推广到企业的其他业务环节,却远没有这么容易,需要对企业运转有非常精细的理解 <button class="pd-ts" data-t="06:47" data-who="Jeetu Patel" data-en="The second area is, I'd say that it's harder when you go beyond some of the more obvious use cases. For example, coding is a very, very good use case that you're starting to get a lot of success in." aria-label="回原文"></button>。
+顺着他「让 AI 真正落地」的担忧，来看他自己在 Cisco 是怎么做的。要把一家拥有 9 万员工的传统巨头变成一家「AI 前瞻」的公司，极其困难。Jeetu 的第一招，是明确划清界限：什么不容置疑，什么可以讨论 <button class="pd-ts" data-t="10:43" data-who="Jeetu Patel" data-en="Now, what are the two or three things that have happened that have really helped us out? One was, being very clear on what is up for debate and what is not up for debate." aria-label="回原文"></button>。大公司往往存在「暗中否决（一件事只要问的人够多，总会有人说不对）」的内耗，于是他决定在 AI 战略上放弃对冲、自上而下地「全力以赴」<button class="pd-ts" data-t="10:50" data-who="Jeetu Patel" data-en="One was, being very clear on what is up for debate and what is not up for debate. Because what can end up happening is you can always have a pocket veto in a large company where if you ask enough number of people, people say no." aria-label="回原文"></button>。他向员工交了底：不会因为 AI 裁员，但如果谁拒绝灵活使用 AI，他的岗位迟早保不住 <button class="pd-ts" data-t="11:56" data-who="Jeetu Patel" data-en="That means that if they feel like for some reason AI is going to take their job or AI is going to be negative for them, we had to reassure them that that was not the case." aria-label="回原文"></button>。第二招，是打破人人都想占山为王的「总经理」思维，从一家松散的控股公司转型为一家紧耦合的平台公司 <button class="pd-ts" data-t="13:30" data-who="Jeetu Patel" data-en="And if you're a 40 billion business in product revenues, 45 billion whatever we were at the time, and then all of a sudden your goal is that you're going to just run a bunch of $40 million businesses and break it up into a series of 40 million businesses, that's actually not a good thing for the company." aria-label="回原文"></button>。第三招，则是彻底走向开放生态，即便面对竞争对手，只要客户选了，也坦然合作 <button class="pd-ts" data-t="14:40" data-who="Jeetu Patel" data-en="This was a very deliberate decision, which was, we cannot operate in a walled garden. We have to make sure that we operate in an open ecosystem, which means we have to be completely comfortable with having a competitor that we're going to partner with." aria-label="回原文"></button>。
 
-第三个洞察最让人深思:AI 的到来几乎恰逢其时。世界正在经历人口结构的转变,出生率下降,未来需要被照顾的老年人会比能去照顾人的年轻人多得多。如果在某个节点,你有 60% 的人口处于缺乏足够人手照料的境地,那将造成巨大的人类痛苦。因此他认为,与其担心 AI 夺走工作,不如说人类的生存恰恰依赖于 AI 的成功 <button class="pd-ts" data-t="07:48" data-who="Jeetu Patel" data-en="And historically in society, that's actually always been the case, but we might be at a point where that might not be the case. And when that's not the case, we worry about AI taking our jobs, I think that survival of humanity depends on a successful AI." aria-label="回原文"></button>。
+工具和战略聊完了，到底 Cisco 如今在 AI 大潮中扮演什么角色？很多人不知道，Cisco 是这场全球 AI 军备竞赛里的「修路工」。Jeetu 解释了一个常识：哪怕有了 [[NVIDIA|NVIDIA]] 或 AMD 造的 GPU，如果它们不联网就等于零 <button class="pd-ts" data-t="18:16" data-who="Jeetu Patel" data-en="And that connected together is the operative word. That's what we end up doing is NVIDIA makes the GPUs and we connect those GPUs together. AMD makes the GPUs, we connect them together." aria-label="回原文"></button>。从单机算力，到机架，再到相距数百公里的数据中心，要把这些分散的 GPU 连成一个完全同步、零延迟的巨型集群，需要极高难度的网络技术。这就是 Cisco 的核心价值 <button class="pd-ts" data-t="18:40" data-who="Jeetu Patel" data-en="Every GPU is in sync with each other when you're doing a training run. And that requires a very sophisticated set of technologies that we build to make sure that you could have two data centers, 800 kilometers apart, but boy, they run completely in sync with each other." aria-label="回原文"></button>。他聊起今早拜访的一家医疗机构，对方告诉他：「当基础设施不工作时，人会死」——病人没法做透析、没法做手术 <button class="pd-ts" data-t="54:46" data-who="Jeetu Patel" data-en="I asked them, &quot;Why are you doubling down with us?&quot; And they're like, &quot;Because when the infrastructure doesn't work, people die. Someone doesn't get dialysis, someone doesn't get a surgery done, and we need to make sure that we're working with someone with the infrastructure is working.&quot;" aria-label="回原文"></button>。这让他深刻体悟到做基础设施的心酸与伟大：你很少能收获荣耀，但出了事永远得背锅 <button class="pd-ts" data-t="53:31" data-who="Jeetu Patel" data-en="Infrastructure is a different game. And the thing that I learned about infrastructure is, you don't always get the glory, but you always get the blame. Perfect." aria-label="回原文"></button>。
 
-说完了 AI 为什么是一场不可缺席的浪潮,接下来是他所在的公司如何从顶层下定决心,在这场浪潮中完成自我改造。
+话说到这里，自然引出了在这样一个容错率极低的庞大体系里，他作为 3 万人团队 leader 的管理心法。当被问及接管如此庞大团队最深刻的教训时，Jeetu 分享了一个反直觉的沟通规矩：绝不在大公司里玩「传话游戏（信息经手的人越多，损耗和失真越严重）」。一位前董事曾严厉警告他：无论公司多大，绝不要把「讲公司故事」的权力交给别人 <button class="pd-ts" data-t="44:13" data-who="Jeetu Patel" data-en="And when I got this job, he pulled me aside, said, &quot;Jeetu, I'm going to tell you something. I'm going to give you some advice, and take it or leave it, but I think it's going to be important for you to keep it in mind.&quot;" aria-label="回原文"></button>。领导者必须越过层层架构，像直连网线一样，亲自把毫无损耗的故事和战略意图讲给一线听 <button class="pd-ts" data-t="47:30" data-who="Jeetu Patel" data-en="We have this concept in networking called packet loss. When you actually send packets over a wire and you have a loss of packet, then actually there's loss of data." aria-label="回原文"></button>。此外，他强烈反对管理书里常说的「公开表扬、私下批评」。他认为那是客套，恰恰相反，只有在私下花时间建立起绝对信任，才能在公开场合自在地辩论和直接指出问题，不用摆姿态，直接解决问题 <button class="pd-ts" data-t="50:27" data-who="Jeetu Patel" data-en="I fundamentally disagree with that notion. I think what you have to do is establish enough trust among the team so that you are comfortable critiquing and debating in public." aria-label="回原文"></button>。他跟 Cisco 的 CEO Chuck Robbins，以及前 Box 的 CEO Aaron Levie 都保持着这种极深的信任。他反复强调一个道理：毅力胜过才智，在职场长跑中，持久力和永不放弃的决心远比先天的聪明重要 <button class="pd-ts" data-t="32:48" data-who="Jeetu Patel" data-en="The biggest area I've learned from him is, you never give up. And persistence beats intellect, and stamina beats intellect any day of the week, twice on Sunday. And that guy is as smart as they come, but that's not the biggest reason he's successful." aria-label="回原文"></button>。
 
-## 不对冲的押注:大企业转身的三步走
+管理哲学讲完了，他把目光投向了每一个具体的个人。当一个来自印度孟买、早年时薪仅 2.25 美元洗盘子的穷小子 <button class="pd-ts" data-t="83:33" data-who="Jeetu Patel" data-en="So when you were younger, you worked at Sizzler Steakhouse making $4 an hour is what I read. 2.25, not four. It was below minimum wage 2.25, but we got tips." aria-label="回原文"></button>，最终走上硅谷权力巅峰，他悟出了什么？首先是平台决定命运。他曾在泰姬陵遇到一位会 14 种语言的导游，他意识到自己能坐在这里，很大程度上是因为自己有幸站到了「美国、科技行业和好导师」这个能带来复利的平台上 <button class="pd-ts" data-t="67:12" data-who="Jeetu Patel" data-en="And I'm thinking to myself, I was a box at the time. I'm like, &quot;This guy is smarter than every person on the executive team and probably just as smart as every salesperson we have, but he's making $10 a day and all of us are enjoying this amazing life, and it's because we have access to a platform and he doesn't.&quot;" aria-label="回原文"></button>。其次是选对战场，越难的问题越能吸引顶级人才，赢面反而更大 <button class="pd-ts" data-t="64:00" data-who="Jeetu Patel" data-en="What would your advice be to someone in that place right now? The platform that you choose and the quality of problems that you pick to solve actually determine a lot of the path of success for you." aria-label="回原文"></button>。最后，也是最触动人心的一点：别吝啬你的表达。他回忆起母亲临终前病床上对他说「我竟不知道你这么爱我」，让他彻底明白：你不说，哪怕是最亲的人也不知道你的心意 <button class="pd-ts" data-t="61:10" data-who="Jeetu Patel" data-en="Because she didn't know how I was thinking. And that kind of notion of people don't know what's going on in your mind is so important that my biggest lesson from that was, &quot;Don't be stingy with words.&quot;" aria-label="回原文"></button>。别假设别人知道你感激他，去真实地表达爱、表达感激，绝不作假，这才是拓展人生朋友圈的终极法则。
 
-很多公司都在试图适应这个新世界,但像 Cisco 这种拥有 9 万名员工的巨头想要转身尤其困难。Jeetu 认为,创新其实不分公司大小,它首先是一个坚定的「选择」<button class="pd-ts" data-t="09:40" data-who="Jeetu Patel" data-en="What are two or three things that you've done that you think have been most impactful and effective in helping Cisco lean into AI, not be scared of it, and actually embrace the future?" aria-label="回原文"></button>。为了帮助 Cisco 拥抱 AI,他们主要做了三件事。
-
-第一件事,是极其明确地划定「什么不容讨论」(what is not up for debate),也就是下定战略决心。大公司其实做很多实验,但常常在一个实验成功后还继续对冲(hedge,指为了防范风险而两头下注、不全力以赴)。Jeetu 坦言,他们没有在 AI 上对冲,而是自上而下宣布全公司成为 AI-first([[AI 优先|AI 优先]])的公司。他明确告诉员工:如果你们不灵活掌握 AI,长远来看工作就不保 <button class="pd-ts" data-t="11:25" data-who="Jeetu Patel" data-en="They try to keep hedging. We didn't hedge on AI. We said we were going to go all in." aria-label="回原文"></button>。
-
-第二件事是重新定义内部的「成功标准」,打破孤岛。以前员工都想升任总经理(GM),拥有自己的销售、产品和工程团队,仿佛经营一个独立王国。结果一家几百亿美元收入的公司被拆成了无数个 4000 万美元的小封地。为了改变这点,他们决定从一家有着多次收购记录的控股公司,变成一家「平台公司」——产品之间[[松散耦合|松散耦合]](loosely coupled,系统间依赖少、各自独立),但紧密集成(tightly integrated),一旦组合使用就能产生奇效 <button class="pd-ts" data-t="13:30" data-who="Jeetu Patel" data-en="And if you're a 40 billion business in product revenues, 45 billion whatever we were at the time, and then all of a sudden your goal is that you're going to just run a bunch of $40 million businesses and break it up into a series of 40 million businesses, that's actually not a good thing for the company." aria-label="回原文"></button>。
-
-第三件事则是彻底转变心态,打破围墙花园,坦然与竞争对手合作(因为客户可能同时选择了两家公司,只有帮客户成功,自己才能分到红利)<button class="pd-ts" data-t="14:33" data-who="Jeetu Patel" data-en="And we did this about five, five and a half years ago when I first joined. This was a very deliberate decision, which was, we cannot operate in a walled garden. We have to make sure that we operate in an open ecosystem, which means we have to be completely comfortable with having a competitor that we're going to partner with." aria-label="回原文"></button>。
-
-你可能好奇,作为一家做传统网络起家的公司,Cisco 到底在 AI 时代卖什么?答案藏在 GPU 的运作原理里。
-
-## 闷声发大财:揭秘 Cisco 在 AI 基础设施里的位置
-
-简单来说,Cisco 是 AI 时代的关键基础设施公司 <button class="pd-ts" data-t="16:03" data-who="Jeetu Patel" data-en="Give us just a quick glimpse into how Cisco fits into this massive build-out and just what does Cisco these days? Cisco is a critical infrastructure company for the AI era." aria-label="回原文"></button>。Jeetu 指出,目前限制 AI 发展的瓶颈有三个:基础设施(算力、网络带宽和电力)、信任赤字(模型不可预测的幻觉难以被企业信任),以及数据鸿沟(互联网公开数据快用完了)。
-
-要理解 Cisco 的角色,要看懂 GPU 的发展。以前一个模型能放在单个 GPU 上训练;后来模型变大,需要一台装着 8 个 GPU 的服务器;再后来变成一整个机架、甚至一整个相连的集群。[[NVIDIA|NVIDIA]] 和 AMD 制造 GPU,而 Cisco 做的,就是把这些 GPU「连在一起」<button class="pd-ts" data-t="18:16" data-who="Jeetu Patel" data-en="And that connected together is the operative word. That's what we end up doing is NVIDIA makes the GPUs and we connect those GPUs together. AMD makes the GPUs, we connect them together." aria-label="回原文"></button>。如今的 AI 训练,要求可能相隔 800 公里的数据中心像同一个集群一样完全同步运作。Cisco 提供的正是连接这些节点的网络、光学技术和安全系统 <button class="pd-ts" data-t="18:40" data-who="Jeetu Patel" data-en="Every GPU is in sync with each other when you're doing a training run. And that requires a very sophisticated set of technologies that we build to make sure that you could have two data centers, 800 kilometers apart, but boy, they run completely in sync with each other." aria-label="回原文"></button>。
-
-身处巨额投资的核心,Jeetu 觉得人们低估了 AI 的潜力。很多人把 AI 视为生产力工具,但这只是「冰山一角的 0.0001%」。真正的改变是,未来将产生人类知识库中不存在的原创洞见。他还分享了团队使用 OpenAI 编程工具 Codex 时的顿悟时刻:一位前 OpenAI 工程师告诉他们,别把这当成「工具」,要当成新加入的「队友」,你的思维框架和用法就会彻底改变 <button class="pd-ts" data-t="22:12" data-who="Jeetu Patel" data-en="And then there was this light bulb that runoffs. In fact, there was a former deployed engineer from OpenAI that told us about this, which is, &quot;Hey, stop trying to think of this as a tool." aria-label="回原文"></button>。
-
-工具变了,人怎么办?这正是接下来关于领导力的话题。作为管理 3 万人的高管,Jeetu 恰好有一套独特的人员管理与成长哲学。
-
-## 管理学反常识:公开批评、拒绝传话与放下自我
-
-在这个板块,Jeetu 分享了几条颠覆传统管理学认知的实战经验。
-
-**第一是「公开批评,私下安抚」。** 所有的管理书都会教你「公开表扬,私下批评」,但 Jeetu 根本不同意 <button class="pd-ts" data-t="50:23" data-who="Jeetu Patel" data-en="Praise in public and criticize in private. I fundamentally disagree with that notion. I think what you have to do is establish enough trust among the team so that you are comfortable critiquing and debating in public." aria-label="回原文"></button>。他认为,必须在团队内建立足够的信任,让大家敢于在公开场合辩论和批评。与其在公开场合给敷衍的表扬(仪表盘全绿但业务只增长 1.5%),不如在公开场合直接、尊重地指出问题所在;然后在私下不吝言辞地表达对他们的支持 <button class="pd-ts" data-t="51:21" data-who="Jeetu Patel" data-en="And so what I tend to do is use the exact opposite approach. I tend to be very, very direct in public, be respectful, but be direct in public. This is not working." aria-label="回原文"></button>。
-
-**第二是作为一号位绝不能假手于人去「讲故事」。** 他初到 Cisco 时,一位董事会成员 Wes Bush 给了他改变认知的建议:不要把讲述公司的故事当成营销,而要当成最基础的工作。在一棵有着七八层汇报线的大公司树里,如果你交代给下属、让他们层层传递,就像玩「传话游戏」(telephone game),信息一定会被加料或损耗。因此,核心的愿景和故事,领导者必须亲自去一线讲,确保没有「[[丢包|丢包]]」(packet loss,网络术语,这里比喻信息在传递中流失)<button class="pd-ts" data-t="43:51" data-who="Jeetu Patel" data-en="What I found over the years, not just at Cisco, but even when I ... Because I ran a small startup in Chicago for 17 years before I moved over to the Valley, what I found in the large companies is, the communication framework and the lossiness of communication, the telephone game, so to say, has a profoundly negative effect if you're not intentional about it and if you're not careful of it." aria-label="回原文"></button>。
-
-**第三是学会为「生态系统」做嫁衣。** Jeetu 过去做的是直接面向用户的应用层,到了基础设施层他才领悟到:做基础设施,「你未必总是得到荣耀,但你总是要背锅」<button class="pd-ts" data-t="53:31" data-who="Jeetu Patel" data-en="Infrastructure is a different game. And the thing that I learned about infrastructure is, you don't always get the glory, but you always get the blame. Perfect." aria-label="回原文"></button>。他早上刚拜访的一家医疗客户告诉他:「我们必须跟你加深合作,因为当基础设施不工作时,人会死——有人没法做透析,有人没法做手术。」领导者必须放下自我,不再关注「我多厉害」,而是关注客户用你的基础设施达成了什么结果。
-
-这种不抢功的特质,正是他从 Cisco 现任 CEO Chuck Robbins 身上学到的最大一课:如果不计较功劳归谁,你的人生能走得远得多 <button class="pd-ts" data-t="38:32" data-who="Jeetu Patel" data-en="What I've learned in life is, if you don't care about who gets the credit, you just go a lot farther in life.&quot; And it's so profound in so many ways that he's just way too confident to let anything." aria-label="回原文"></button>。
-
-Jeetu 能有今天的视野,还因为他坚信一个关于个人成长的核心判断。这引出了他给普通人的建议,以及本集最后的压轴框架。
-
-## 平台决定命运:给普通人的建议与六要素框架
-
-对于硅谷以外、资源匮乏的年轻人,Jeetu 给出了两点建议。
-
-首先是「选对平台」。他分享了一个带女儿去参观泰姬陵时的故事:当时的导游会说 14 种语言,而且为了尊重游客还在每年学新语言。Jeetu 震撼地发现,这人比他自己公司的整个高管团队都聪明,但每天只赚 10 美元,差别仅仅在于他们有没有接入一个放大能力的「平台」(如美国、科技行业和好的导师)<button class="pd-ts" data-t="67:01" data-who="Jeetu Patel" data-en="I'm like, &quot;Oh, why is that?&quot; And he goes, &quot;Well, I just want to honor the people that come here and not be presumptuous that they will speak in the language that I know.&quot;" aria-label="回原文"></button>。其次,他指出大多数人选容易的问题去解,这其实大错特错;应该选最难的问题,因为只有足够重要的问题,才能吸引来最好的团队 <button class="pd-ts" data-t="64:09" data-who="Jeetu Patel" data-en="The platform that you choose and the quality of problems that you pick to solve actually determine a lot of the path of success for you. And typically harder problems have a higher likelihood of success." aria-label="回原文"></button>。
-
-> 【背景】Jeetu 在此提及的「最难的问题吸引最好的团队」与硅谷投资者 Paul Graham 的「Schlep Blindness」理论(指人们习惯性逃避真正痛苦但有价值的大难题)有异曲同工之妙。
-
-在本集最后,他抛出了自己评价公司能否赢的六要素框架,并按重要性从高到低排列:1. **时机**(Timing,最重要但最不可控,比如史蒂夫·乔布斯曾为了先做 iPhone 而搁置 iPad);2. **市场**(Market,烂市场会拖垮好团队);3. **团队**(Team,必须有互补的人);4. **产品**(Product,卖平庸的产品甚至是不道德的);5. **品牌**(Brand,失去信任很难挽回);6. **分销**(Distribution,做出来了客户也不会自己来)。六个要素缺一不可 <button class="pd-ts" data-t="70:46" data-who="Jeetu Patel" data-en="There's a six part framework that I have, which is in descending order of importance, and on how to build great companies. This is- Amazing." aria-label="回原文"></button>。
-
-在这个框架之上,他给出了一个辨别真趋势的绝佳启发式:如果你需要拿个博士学位才能听懂这东西能为大众做什么,它大概率只是「[[炒作周期|炒作周期]]」(Hype cycle),而不是不可阻挡的大趋势(megatrend)。AI 就属于后者——你去问 ChatGPT 一个问题,立刻就能得到答案,这毫无理解门槛 <button class="pd-ts" data-t="75:25" data-who="Jeetu Patel" data-en="The easiest way for me to tell is, the way it's described, is it easy to understand what this could do in its ultimate form for most people, or do you need to have a PhD to understand what someone's saying?" aria-label="回原文"></button>。
+访谈的尾声，Jeetu 还抛出了一套他认为打造伟大公司不可或缺的六要素框架。他按重要程度降序排列：时机、市场、团队、产品、品牌、分销。其中最不可控也最致命的是时机——如果时机不对，再好的产品和团队也得死 <button class="pd-ts" data-t="71:08" data-who="Jeetu Patel" data-en="But they're stack ranked in descending order of importance, but you have to have all six. Number one is timing. It's the most important." aria-label="回原文"></button>。他借此还给出了判断趋势的经验法则：如果一项技术你非得拿个博士学位才能听懂它在干嘛，那它大概率只是[[炒作周期|炒作周期]]；真正的[[超级趋势|超级趋势]]（如 AI），一定是一听就懂的 <button class="pd-ts" data-t="75:25" data-who="Jeetu Patel" data-en="The easiest way for me to tell is, the way it's described, is it easy to understand what this could do in its ultimate form for most people, or do you need to have a PhD to understand what someone's saying?" aria-label="回原文"></button>。
 
 ## 本集带走
 
-1. **大公司做创新缺的不是点子,是「不对冲的决心」**:实验成功后敢不敢自上而下地押注,是巨头转身的关键。
-2. **领导者别当「传话筒」**:在大型组织里,最核心的战略故事必须由一号位亲自讲给一线听,以防信息在层级中出现「丢包」。
-3. **别选容易的问题**:挑那些难到能吸引顶尖人才的大问题,并选对一个能给你提供跳板的平台,这是普通人逆袭的最佳策略。
-4. **放下自我**:干基础设施(或任何底层赋能的活),必须习惯别人拿你的工作去邀功,只要客户成功,红利自然会流向你。
+最后收个尾，这一集值得带走的是三层极具操作性的智慧。第一层是关于企业 AI 转型，大公司真正的病不是不做实验，而是实验有效后不敢 All in；想转型先得自上而下统一思想，打破内部的山头主义，并且把手里的死故事越过中层直接讲给一线听。第二层是关于战略与趋势判断，做产品得问自己有没有「参与许可」、能不能把规模优势转化为分发渠道，而判断风口的简单方法是：如果一个东西要拿博士学位才能听懂，它大概率只是瞎炒作，别去费劲对抗超级趋势。第三层是关于人生经营，毅力和持久力远比聪明重要；平台的选择往往比单纯的努力更决定上限；最关键的是，去寻找那些让你真正渴望的难题，并且对身边的人绝对不要吝啬你的言语，把你的爱、感激和信任真实地说出来。
 
-<div class="pd-sec">全部金句 <span>15 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
 
-> <span class="qz">大多数人在大公司里认为的是大公司不进行实验。事实上并非如此。大公司经常进行实验。大公司不做的是当一个实验成功时,他们不会全力以赴并加倍下注。</span>  
-> *Most people think in large companies is large companies don't experiment. That is in fact not true. Large companies experiment a lot. What large companies don't do is when an experiment works, they don't go all in and double down.*  
-> <span class="qm">—— Jeetu Patel · [11:10]</span> ^q1
+> <span class="qz">我认为人类的生存取决于成功的 AI。</span>  
+> *I think that survival of humanity depends on a successful AI.*  
+> <span class="qm">—— Jeetu Patel · [07:52]</span> ^q1
 
-> <span class="qz">但反过来是必然的,如果你不选择 AI,如果你在你的任何工作职能中不灵活,那么你的工作在长远来看可能不会那么相关。</span>  
-> *But the reverse was guaranteed to be the case, that if you didn't choose AI, if you weren't going to be dexterous in whatever job function you're doing, then your job is probably not going to be that relevant over here in the long run.*  
-> <span class="qm">—— Jeetu Patel · [11:56]</span> ^q2
+> <span class="qz">大公司不做的是当一个实验成功时，他们不会全力以赴并加倍下注。</span>  
+> *What large companies don't do is when an experiment works, they don't go all in and double down.*  
+> <span class="qm">—— Jeetu Patel · [11:17]</span> ^q2
 
-> <span class="qz">我们绝不能成为一家拥有 251 次收购和数千种不同产品的控股公司,我们必须成为一家平台公司。</span>  
-> *We have to become not a holding company of 251 acquisitions and thousands of different products, we have to become a platform company.*  
-> <span class="qm">—— Jeetu Patel · [13:32]</span> ^q3
+> <span class="qz">我学到的关于基础设施的一点是，你并不总是能得到荣耀，但你总是会得到指责。</span>  
+> *the thing that I learned about infrastructure is, you don't always get the glory, but you always get the blame.*  
+> <span class="qm">—— Jeetu Patel · [53:32]</span> ^q3
 
-> <span class="qz">如果这些 GPU 没有联网在一起,你就没有 AI,因为过去你可以在单个 GPU 上训练一个模型,但后来发生的事情是模型变得太大,无法放在单个 GPU 上。</span>  
-> *If these GPUs aren't networked together, you don't have AI, because it used to be that you could train a model on a single GPU, but then what happened was the model got too big to be put on a single GPU.*  
-> <span class="qm">—— Jeetu Patel · [17:41]</span> ^q4
+> <span class="qz">因为当基础设施不工作时，人会死。</span>  
+> *Because when the infrastructure doesn't work, people die.*  
+> <span class="qm">—— Jeetu Patel · [54:47]</span> ^q4
 
-> <span class="qz">这需要一套非常复杂的技术,我们要构建这些技术,以确保你可以有两个相距 800 公里的数据中心,但是,它们运行起来完全同步。</span>  
-> *That requires a very sophisticated set of technologies that we build to make sure that you could have two data centers, 800 kilometers apart, but boy, they run completely in sync with each other.*  
-> <span class="qm">—— Jeetu Patel · [18:40]</span> ^q5
+> <span class="qz">毅力战胜智力，耐力战胜智力，一周中的任何一天，周日加倍。</span>  
+> *persistence beats intellect, and stamina beats intellect any day of the week, twice on Sunday.*  
+> <span class="qm">—— Jeetu Patel · [32:49]</span> ^q5
 
-> <span class="qz">当情况不再如此时,我们担心 AI 夺走我们的工作,我认为人类的生存取决于成功的 AI。</span>  
-> *When that's not the case, we worry about AI taking our jobs, I think that survival of humanity depends on a successful AI.*  
-> <span class="qm">—— Jeetu Patel · [07:48]</span> ^q6
+> <span class="qz">第一是时机。它是最重要的。它是你控制得最少的东西。</span>  
+> *Number one is timing. It's the most important. It's the thing that you control the least.*  
+> <span class="qm">—— Jeetu Patel · [71:08]</span> ^q6
 
-> <span class="qz">我学到的关于基础设施的一点是,你并不总是能得到荣耀,但你总是会得到指责。</span>  
-> *And the thing that I learned about infrastructure is, you don't always get the glory, but you always get the blame.*  
-> <span class="qm">—— Jeetu Patel · [53:31]</span> ^q7
-
-> <span class="qz">因为如果在你和实际在一线工作的人之间隔着 3、4、5、6、7 层,你不想做的就是玩传话游戏,并假设人们只会层层传递</span>  
-> *Because if you have 3, 4, 5, 6, 7 layers between you and the person who's actually doing the job in the front line, what you don't want to do is play the telephone game and assume that people will just cascade it*  
-> <span class="qm">—— Jeetu Patel · [44:43]</span> ^q8
-
-> <span class="qz">因为当基础设施不工作时,人会死。有人没法做透析,有人没法做手术,我们需要确保我们正在与基础设施工作正常的人合作。</span>  
-> *Because when the infrastructure doesn't work, people die. Someone doesn't get dialysis, someone doesn't get a surgery done, and we need to make sure that we're working with someone with the infrastructure is working.*  
-> <span class="qm">—— Jeetu Patel · [54:47]</span> ^q9
-
-> <span class="qz">如果你不在乎谁得到功劳,你在生活中会走得远得多。</span>  
-> *If you don't care about who gets the credit, you just go a lot farther in life.*  
-> <span class="qm">—— Jeetu Patel · [38:27]</span> ^q10
-
-> <span class="qz">因为即使是那个里里外外了解我的母亲都不知道我有多爱她,那么如果你在商业世界中不明确表达,那些人就没有机会知道你的感觉。</span>  
-> *Because even my mother that knows me inside and out didn't know how much I loved her, that there's no chance that people in the business world are going to know how you feel if you're not explicit with them.*  
-> <span class="qm">—— Jeetu Patel · [61:19]</span> ^q11
-
-> <span class="qz">我说,「这家伙比高管团队的每个人都聪明,可能跟我们要有的每个销售人员一样聪明,但他一天赚 10 美元,而我们都在享受这美好的生活,这是因为我们有平台可以使用,而他没有。」</span>  
-> *I'm like, "This guy is smarter than every person on the executive team and probably just as smart as every salesperson we have, but he's making $10 a day and all of us are enjoying this amazing life, and it's because we have access to a platform and he doesn't."*  
-> <span class="qm">—— Jeetu Patel · [67:12]</span> ^q12
-
-> <span class="qz">它是最重要的。它是你控制得最少的东西。有很多公司在错误的时候建立了惊人的产品、惊人的服务,在正确的市场却没有赢,对吧?</span>  
-> *It's the most important. It's the thing that you control the least. And there's a lot of companies that have built amazing products, amazing services at the wrong time, in the right market and not won, right?*  
-> <span class="qm">—— Jeetu Patel · [71:09]</span> ^q13
-
-> <span class="qz">不,如果你有一个伟大的市场和普通的团队,市场会把你拉上来。如果你有一个糟糕的市场和一个伟大的团队,市场会把你拖下去。市场总是赢家。</span>  
-> *If you have a great market mediocre team, the market pulls you up. If you have a shitty market and a great team, the market drags you down. The market always wins.*  
-> <span class="qm">—— Jeetu Patel · [72:37]</span> ^q14
-
-> <span class="qz">当你觉得你需要有个博士学位才能理解某人在说什么时,它大概率不会是一个超级趋势,因为根据定义,超级趋势是它将影响世界上很大一部分人口。</span>  
+> <span class="qz">当你觉得你需要有个博士学位才能理解某人在说什么时，它大概率不会是一个超级趋势，因为根据定义，超级趋势是它将影响世界上很大一部分人口。</span>  
 > *When you feel like you need a PhD to understand what someone's saying, chances are it ain't going to be a megatrend, because by definition, a megatrend is it's going to impact a large population of the world.*  
-> <span class="qm">—— Jeetu Patel · [75:25]</span> ^q15
+> <span class="qm">—— Jeetu Patel · [75:25]</span> ^q7
 
 <div class="pd-sec">接着看</div>
 
@@ -179,16 +100,16 @@ Jeetu 能有今天的视野,还因为他坚信一个关于个人成长的核心�
 
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失]] —— 同嘉宾:Lenny · 同概念:护栏 (guardrails)
 - [[2025-11-23-lennys-a-guide-to-difficult-conversations|别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课]] —— 同嘉宾:Lenny
-- [[2025-12-28-lennys-10-contrarian-leadership-truths|Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷]] —— 同嘉宾:Lenny
+- [[2025-12-28-lennys-10-contrarian-leadership-truths|故意让人手不足:Rippling 首席产品官的非常规管理心法]] —— 同嘉宾:Lenny
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能,与首个 3D 世界模型 Marble]] —— 同嘉宾:Lenny · 同公司:NVIDIA · 同概念:ChatGPT
+- [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能]] —— 同嘉宾:Lenny · 同公司:NVIDIA · 同概念:ChatGPT
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当代码不再是瓶颈,品味和策展成为产品团队的稀缺力]] —— 同嘉宾:Lenny · 同概念:ChatGPT、主观能动性 (agency)
-- [[2025-12-07-lennys-surge-ai-edwin-chen|Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理]] —— 同嘉宾:Lenny · 同概念:ChatGPT
+- [[2025-12-07-lennys-surge-ai-edwin-chen|10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来]] —— 同嘉宾:Lenny · 同概念:ChatGPT
 
 </div>
 </div>

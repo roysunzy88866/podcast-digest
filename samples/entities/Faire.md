@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评》]]**(12:18起):本集说它是一家电商平台，创始人 Max Rhodes 在做背景调查时因为 VC 问错了问题差点被错过；它还因极快的执行节奏（两次董事会之间就上线解决方案）吸引了 Keith 投资。
+- **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]]**(12:18起):本集说它是一家电商平台，创始人 Max Rhodes 在做背景调查时因为 VC 问错了问题差点被错过；它还因极快的执行节奏（两次董事会之间就上线解决方案）吸引了 Keith 投资。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评》]] — 作为被讨论公司
+- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]] — 作为被讨论公司
 
 ## ③ 关联
 

@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《对话 Samsara CEO:AI 进入物理世界,用 25 万亿数据点改造传统工业》]]**(00:05起):本集把它说成:一家服务于实体运营领域、市值约 200 亿美元的公司,每年处理 25 万亿个数据点,其系统每天在全美 99% 的道路上行驶,运营着可能是现实世界中最大规模的 AI 部署。
+- **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]]**(00:05起):本集把它说成:一家服务于实体运营领域、市值约 200 亿美元的公司,每年处理 25 万亿个数据点,其系统每天在全美 99% 的道路上行驶,运营着可能是现实世界中最大规模的 AI 部署。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《对话 Samsara CEO:AI 进入物理世界,用 25 万亿数据点改造传统工业》]] — 作为被讨论公司
+- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]] — 作为被讨论公司
 
 ## ③ 关联
 

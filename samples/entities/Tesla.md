@@ -12,26 +12,26 @@ unlisted: true
 ## 集里怎么说它
 
 - **[[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]]**(01:49起):本集将其作为自动驾驶的一种主流路线代表,特点是传感器少、不需要高保真地图、成本更低,并在电动车上受制于盈利要求而面临艰难的商业环境。
-- **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]]**(85:10起):本集闪电轮中讨论的汽车公司，嘉宾非常推崇其最新版本的自动驾驶功能，并建议其采用推荐赠送模式以促成病毒式增长。
-- **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]]**(00:06起):本集探讨了其与 SpaceX 合并是否具有可行性，主持人认为两者本质上都是对埃隆·马斯克的押注，合并几乎不可避免。
-- **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《黄仁勋:NVIDIA 起步选错了技术,但学习比技术更重要》]]**(37:59起):本集提到它在自动驾驶领域与 NVIDIA 合作，称以前 NVIDIA 在它们的车里，现在主要在它们的数据中心。
-- **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《对话 Samsara CEO:AI 进入物理世界,用 25 万亿数据点改造传统工业》]]**(04:49起):本集提到:作为涉足物理 AI 领域的公司代表被顺带提及。
+- **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(85:10起):本集闪电轮中讨论的汽车公司，嘉宾非常推崇其最新版本的自动驾驶功能，并建议其采用推荐赠送模式以促成病毒式增长。
+- **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]]**(00:06起):本集探讨了其与 SpaceX 合并是否具有可行性，主持人认为两者本质上都是对埃隆·马斯克的押注，合并几乎不可避免。
+- **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]]**(37:59起):本集提到它在自动驾驶领域与 NVIDIA 合作，称以前 NVIDIA 在它们的车里，现在主要在它们的数据中心。
+- **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]]**(04:49起):本集提到:作为涉足物理 AI 领域的公司代表被顺带提及。
 
 ## ① 提到它的金句
 
 *1 条,均已过机器闸门*
 
-![[2026-05-31-lennys-a-rational-conversation-on-where#^q1]]
+![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q9]]
 
 ## ② 出现在这些集
 
 *5 集*
 
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成》]] — 作为被讨论公司
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] — 作为被讨论公司(提及)
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]] — 作为被讨论公司
-- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《黄仁勋:NVIDIA 起步选错了技术,但学习比技术更重要》]] — 作为被讨论公司
-- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《对话 Samsara CEO:AI 进入物理世界,用 25 万亿数据点改造传统工业》]] — 作为被讨论公司(提及)
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为被讨论公司(提及)
+- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为被讨论公司
+- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]] — 作为被讨论公司
+- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

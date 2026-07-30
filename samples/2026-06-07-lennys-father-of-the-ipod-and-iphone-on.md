@@ -1,5 +1,5 @@
 ---
-title: iPod之父Tony Fadell：反直觉的产品课
+title: iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品
 podcast: "Lenny's Podcast"
 date: 2026-06-07
 source_url: https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on
@@ -7,7 +7,7 @@ duration: "95:05"
 type: episode
 cover: "#6366f1"
 image: "/covers/2026-06-07-lennys-father-of-the-ipod-and-iphone-on.jpg"
-description: iPod与Nest之父Tony Fadell谈伟大产品背后的直觉、取舍与反共识勇气。
+description: iPod缔造者Tony Fadell谈创新方法论：做1.0版产品要靠少数人的品味，不要被AI带偏认知。
 host: "[[Tony Fadell]]"
 cohosts: ["[[Lenny]]"]
 companies: ["[[Nest]]", "[[OpenAI]]", "[[Anthropic]]", "[[General Magic]]", "[[Apple]]", "[[Flighty]]"]
@@ -17,9 +17,9 @@ tags:
   - 产品方法
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>iPod之父Tony Fadell：反直觉的产品课</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# iPod之父Tony Fadell：反直觉的产品课
+# iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品
 
 <div class="pd-byl"><b>Tony Fadell</b> · iPod与Nest之父</div>
 
@@ -27,7 +27,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-06-07-lennys-father-of-the-ipod-and-iphone-on.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">因为如果你一路尝试做数据驱动的决策，你要么不是在做差异化的产品，因为你在从其他东西获取数据，要么你只是在得到废话数据，对吧。</div><div class="a">Tony Fadell · 09:23</div></div>
+<div class="pd-hook"><div class="z">如果你大部分的决策都将是基于意见的决策，对于一个 1.0 版本来说，你必须有一两个或非常非常少的一组人，他们负责做出基于意见的决策，并且实际上能让你从白板到一个实际的 1.0 规格。</div><div class="a">Tony Fadell · 08:58</div></div>
 
 > [!info] 关联
 > **人物** [[Tony Fadell]] · [[Lenny]]
@@ -38,100 +38,63 @@ tags:
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/father-of-the-ipod-and-iphone-on)
 
-<div class="pd-tldr"><b>一句话</b>iPod与Nest之父Tony Fadell谈伟大产品背后的直觉、取舍与反共识勇气。</div>
+<div class="pd-tldr"><b>一句话</b>iPod缔造者Tony Fadell谈创新方法论：做1.0版产品要靠少数人的品味，不要被AI带偏认知。</div>
 
-本期嘉宾是 [[Tony Fadell|Tony Fadell]]，他主导设计了 [[iPod|iPod]] 和 [[iPhone|iPhone]]，后来又创办了 [[Nest|Nest]]（后被 Google 收购），还参与过传奇的 [[General Magic|General Magic]] 团队 <button class="pd-ts" data-t="01:19" data-who="Tony Fadell" data-en="And so when you saw him come on stage, it was just because he had done it a hundred thousand times. Today, my guest is Tony Fadell. Tony doesn't know this, but ever since I started this podcast, he's been near the top of my wishlist of people that I've dreamed to have on this podcast." aria-label="回原文"></button>。他最近的身份是深科技初创公司的投资者与顾问 <button class="pd-ts" data-t="01:55" data-who="Tony Fadell" data-en="He also wrote one of the most important and valuable and inspiring books for builders called Build. Tony is currently an active investor and advisor to deep-tech startups with his team at the Build Collective." aria-label="回原文"></button>。在这场对话里，他不仅复盘了苹果当年面临的关键抉择，还分享了一套关于「如何发现痛点、如何做反直觉决策、如何做营销」的硬核产品方法论。全文分为六个部分：先讲做开创性产品为何要靠「直觉决策」而非数据；再说好产品总要熬过「三代定律」；接着分析为什么营销不是补丁而是产品的灵魂；随后聊聊在 AI 时代，「快软件」与「精品软件」的分野；最后展望 AI 硬件的终局形态，并谈及产品经理的伦理底线。
+当年在苹果内部，要不要给 [[iPhone|iPhone]] 加上物理键盘引发了最激烈的争论，最终是史蒂夫·乔布斯用一句“不听我的就滚出这个房间”拍死了反对意见。但这背后真正支撑决定的，是连续几个月的软硬协同测试和数据比对。说这话的人是 [[Tony Fadell|Tony Fadell]]，[[iPod|iPod]] 和 iPhone 的缔造者，他这辈子干的就是从无到有造出世上原本没有的 1.0 版产品。
 
-## 1.0 版本无路标：为何开创性产品要靠「直觉」而非数据？
-做没人见过的全新事物时，最难的莫过于决策。Tony 认为，当你在做一个新品类或新设备的 1.0 版本时，可以用来做数据驱动决策的参考案例极少 <button class="pd-ts" data-t="08:42" data-who="Tony Fadell" data-en="Talk about just the importance of somebody being very direct in what it takes to build great products. When you're doing a 1.0 of anything, when you're doing... if you're doing anything that matters, and it's a 1.0, and it's a new category, or it's a new device the world hasn't seen before, you have very few analogs that you can use to make data-driven decisions." aria-label="回原文"></button>。如果非要硬找数据，你要么是在抄别人的产品，要么只能得到一堆废话数据 <button class="pd-ts" data-t="09:23" data-who="Tony Fadell" data-en="Because if you try to do data-driven decisions all the way along, you're either not doing a differentiated product because you're taking data from another thing, or you're just getting just bullshit data, right." aria-label="回原文"></button>。
+在这一集与 [[Lenny|Lenny]] 的对谈里，Tony 把几十年的造物心法拆解得明明白白。你会听到四块极其抓人的内容：首先是为什么造全新的革命性产品时，绝不能迷信数据，而必须依赖“少数人的品味”甚至微管理（深入关键细节做决策）；其次，他抛出了一个极反直觉的观点——当 AI 让写代码变得如此轻易时，真正能脱颖而出的反而是像奢侈手工品一样深思熟虑的产品；此外，他还分享了一个硬核的产品筛选公式：真正的痛点加刚好成熟的新技术；最后，他聊聊了被 Google 收购后沦为“孤儿”的 [[Nest|Nest]]，以及他眼中下一代 AI 硬件的真正形态。
 
-因此，做创新产品必须依赖「基于观点的决策」。这意味着你需要一个极小的核心团队，由他们充当「品味制造者」，来拍板产品的走向 <button class="pd-ts" data-t="09:35" data-who="Tony Fadell" data-en="Because if you try to do data-driven decisions all the way along, you're either not doing a differentiated product because you're taking data from another thing, or you're just getting just bullshit data, right." aria-label="回原文"></button>。iPhone 诞生之初最大的内部争议就是键盘：当时只有 1% 到 2% 的手机用户拥有 BlackBerry，如果只盯住这群人，就会错失另外 98% 的潜在大众市场 <button class="pd-ts" data-t="03:21" data-who="Tony Fadell" data-en="There was one way of looking at the BlackBerry, which was that is the market we want to go after or we want to win. And then there's the other side, the flip side of that argument, which is only 1% or 2% of mobile phone users at the time had a BlackBerry, knew what a BlackBerry was." aria-label="回原文"></button>。
+既然说到了造新品绝不能迷信数据，这就引出了 Tony 关于“产品决策”最核心的方法论。做任何 1.0 版本的新东西时，世界上根本没有可参照的类比对象。如果你非要等数据来支撑决策，你要么只是在复制别人，要么只能得到一堆毫无意义的废话。所以这时候，团队里必须有极少数的“品味制造者”站出来做主观决策 <button class="pd-ts" data-t="09:35" data-who="Tony Fadell" data-en="Because if you try to do data-driven decisions all the way along, you're either not doing a differentiated product because you're taking data from another thing, or you're just getting just bullshit data, right." aria-label="回原文"></button>。这其实就是一个“仁慈的独裁”，你告诉团队：我们要往这走，这可能有风险，但这是我们认准的方向 <button class="pd-ts" data-t="09:51" data-who="Tony Fadell" data-en="We are the person or the team who is going to make those opinion-based decisions. Of course, some people aren't going to like it, and it's going to be like, &quot;I'm sorry, this is a benevolent dictatorship." aria-label="回原文"></button>。很多人把微管理当成贬义词，但在 Tony 看来，这是打造伟大产品的必需品 <button class="pd-ts" data-t="14:25" data-who="Tony Fadell" data-en="There's only a few key things, mostly for the customer or maybe some certain things from manufacturing or cost or something where it needs to really be very clear or a long-term vision." aria-label="回原文"></button>。微管理不是让你去规定别人怎么干活，而是你要死磕那些极其关键的系统级细节。比如 iPhone 的虚拟键盘，他必须同时盯着硬件误差、软件算法过滤和屏幕图形刷新，一层层去抠，因为这中间的变量太多了，必须要有一个总指挥来让所有齿轮严丝合缝。一旦数据给不出唯一答案，领导者的直觉就必须拍板，这也是乔布斯当年力排众议砍掉物理键盘的底气。
 
-当年苹果的团队在乒乓球桌般大的设备上测试多点触控，经过几个月的软硬件联调，终于证明虚拟键盘的输入速度和准确率「虽不如物理键盘，但已经足够好」<button class="pd-ts" data-t="04:44" data-who="Tony Fadell" data-en="It hadn't been scaled down, so it wasn't like something in a consumptive form where you could really do user test with it. And so we set out a set of tests like, &quot;Okay, how fast can I type this text?" aria-label="回原文"></button>。即便如此，团队内部依然僵持不下。最终，乔布斯用独裁结束了争论：「如果你不打算上船，就滚出这个房间」<button class="pd-ts" data-t="05:48" data-who="Tony Fadell" data-en="Yes. And then other people came to that conclusion, but at the same time, there were other people who were adamant that the hardware keyboard has to be there, and they were unrelenting." aria-label="回原文"></button>。这就是典型的数据不清晰时，领导者必须站出来承担风险，用主观判断推进项目。Tony 强调，这不是随心所欲的瞎拍板，而是建立在大量原型测试和专家讨论之上的「有依据的直觉」<button class="pd-ts" data-t="13:09" data-who="Tony Fadell" data-en="So what I'm hearing here is just the power, especially in a consumer product, of a singular vision of a singular leader that drives it, that is... basically relies on their instinct and their taste and their experience." aria-label="回原文"></button>。
+这套主观决策的方法论如果能套上一个公式，其实就变成了 Tony 寻找创业点子的法则。他始终遵循一个两步走的路径：找到长期的痛点，加上刚好成熟的新技术 <button class="pd-ts" data-t="22:31" data-who="Tony Fadell" data-en="So the first thing is I start from pain. Some people start from other directions. I always start from pain." aria-label="回原文"></button>。比如 Nest 智能恒温器，痛点就是当时人们既要忍受极难用的界面，又要为供暖制冷支付高昂的能源账单。而刚好，他们可以用早期的 AI 技术让设备学习主人的生活规律 <button class="pd-ts" data-t="23:21" data-who="Tony Fadell" data-en="And so I always kind of start with, &quot;Okay, where's our current pain, and are there new technologies to solve that pain?&quot; And like in the thermostat case, Nest, was we could use AI to learn so it can learn when you're there, when you're away, what temperatures you're like, so you don't have to program it, so you can save energy." aria-label="回原文"></button>。这就是新技术带来的革命性解法。但别以为有一个好点子就够了，Tony 在书里反复强调“三代定律”：做产品、修产品、修生意 <button class="pd-ts" data-t="31:06" data-who="Tony Fadell" data-en="Three generations. I've learned, you make the product, you fix the product, then you fix the business. I've never seen anyone get it all right the first time." aria-label="回原文"></button>。第一代 iPod 只卖给了不到 1% 的 Mac 死忠粉；第二代接入了 Windows 才开始起量；直到第三代，他们才真正把利润率、销量和功能全都理顺 <button class="pd-ts" data-t="31:41" data-who="Tony Fadell" data-en="The second iPhone and second iPod, okay, we started getting a little bit better numbers, but we got more or less the features dialed. Third one was like, okay, Windows, we got the margins, we're getting up the volume, we got all the right [inaudible 00:31:48]." aria-label="回原文"></button>。哪怕是乔布斯当年极力反对让 iPod 支持 Windows，Tony 和团队也只能私下里搞“[[臭鼬工厂|臭鼬工厂]]”偷偷研发，因为如果不兼容 Windows，iPod 就永远只是个卖不出去的昂贵玩具 <button class="pd-ts" data-t="29:01" data-who="Tony Fadell" data-en="And that was a real opinion-based decision. The team that I was running, we were really clear that we had to have Windows connectivity out of the gate, or not out of the gate, but just after the first iPod shipped." aria-label="回原文"></button>。
 
-> 【背景】这种对极少数细节的死磕，Tony 称之为「微管理」。他认为产品领导者不应什么都管，但必须微管理那些关乎客户体验、成本底线的「关键决策」与数据获取，就像指挥家统筹一支管弦乐队 <button class="pd-ts" data-t="14:00" data-who="Tony Fadell" data-en="You have to really understand the blend of which things really matter, which things don't. When I was early on my career, I thought everything mattered, and I drove everybody nuts, drove myself nuts, the people hated..." aria-label="回原文"></button>。
+搞懂了如何立项和迭代，紧接着就是产品推向市场时最容易踩的坑：以为酒香不怕巷子深。Tony 堪称最痴迷营销的顶尖技术大牛，他甚至觉得很多工程师出身的创业者根本不懂什么是讲故事 <button class="pd-ts" data-t="01:03" data-who="Tony Fadell" data-en="Too many times when we're technology-led, we talk about the what. We don't talk about the why. The why is with storytelling." aria-label="回原文"></button>。做产品的人总以为，只要做出了完美的产品就能赢，但消费者根本不知道你的存在。你必须把产品放进他们的生活情境里去，用你的营销、网站和广告告诉他们：我懂你的痛处 <button class="pd-ts" data-t="35:48" data-who="Tony Fadell" data-en="And so you have to bring it home to them and meet them where they are. And so your marketing, your website, your Instagram ads, your whatever, your owned and earned and owned media that you do, you really need to put your product in their context and make the visuals and make the words and everything sing to them." aria-label="回原文"></button>。而讲故事的核心，在于不断重复和打磨。乔布斯在做 iPhone 的两年半里，每天都在向不同的人演练这部手机的故事，改了成千上万遍，所以他在发布会上的那种从容和感染力，根本不是天赋，而是肌肉记忆 <button class="pd-ts" data-t="61:36" data-who="Tony Fadell" data-en="Now might put nice words around it, nice creative and everything, but it's telling the truth. And so when I watched Steve prepare for, and like I said, when we did the two and a half years with the iPhone, he was honing the story of the iPhone every day." aria-label="回原文"></button>。反观现在的 AI 界，Tony 觉得 [[OpenAI|OpenAI]] 就像最早的 Netscape，做出了一个酷炫的技术演示让大众狂欢，但大家狂欢完却发现“我每天到底拿它干嘛？”他警告说，如果你不把营销想清楚，光靠炫技，最终就会被懂得讲产品的竞争对手反超 <button class="pd-ts" data-t="43:01" data-who="Tony Fadell" data-en="And the thing is, I think we're starting to see that, the cracks of it might be more than cracks now, with OpenAI. What is it? It's like, oh, it's your answer machine, whatever you're like, &quot;Well, what does it do for me?" aria-label="回原文"></button>。
 
-## 从 Mac 专属到拯救苹果：好产品总要熬过「三代」
-说完了开创性产品为何要靠领导者拍板，接下来是熬过漫长打磨期的问题。Tony 总结了一条铁律：一切伟大的产品和生意都需要经历「三代」才能成功 <button class="pd-ts" data-t="31:02" data-who="Tony Fadell" data-en="And that's in my book, it's called, I think it's three generations. Everything needs three generations. Yes, Bill, there it is." aria-label="回原文"></button>。他将其拆解为：做产品，修产品，做生意。
+工具变了，人怎么办？这正是接下来要聊的话题。当 AI 让写代码变得如此容易时，Tony 却看到了巨大的危机。他拿泄露的 Claude 源代码举例，真正的软件架构师看完直犯恶心，因为那是一个没有分层的、极其脆弱的主循环 <button class="pd-ts" data-t="51:26" data-who="Tony Fadell" data-en="And then if you looked at the code, anybody who looked at the code who's a real software architect and engineer threw up, they were like, &quot;It made what?&quot; They're like, &quot;This stuff is brittle.&quot;" aria-label="回原文"></button>。如果放任 AI [[智能体|智能体]]生成代码，而不去架构它，你得到的就是 H&M 那样的“快时尚软件” <button class="pd-ts" data-t="54:30" data-who="Tony Fadell" data-en="To me, sure, you can write code, but there's going to be the difference between... It's like the difference between H&amp;M and a luxury brand. You could go get certain things that look like that and copies that, but it doesn't last more than one washing or one season, and it's this, and you throw it away, and it's cheap and blah, blah, blah." aria-label="回原文"></button>。短期看确实快，但里面堆满了难以维护的[[技术债务|技术债务]]，撑不了几代产品。正因为东西太容易造了，满地都是廉价的复选框应用，未来真正能胜出的，反而是像 [[Flighty|Flighty]] 航班应用那种经过精心打磨的“奢侈品软件” <button class="pd-ts" data-t="56:29" data-who="Tony Fadell" data-en="Like you could do version two of Flighty, maybe vibe coded because you say, look at Flighty. But the original Flighty, to me, that's luxury software, right? It was understood, how the pixels are done." aria-label="回原文"></button>。所以，即便是 AI 时代，产品经理依然不会消亡。产品经理要把营销、销售、工程等各个维度的视角缝合在一起，这种架构能力是 AI 给不了的 <button class="pd-ts" data-t="49:50" data-who="Tony Fadell" data-en="So when you sit between all of these things, maybe those roles shift or change, especially depending on what it is you're building and that kind of thing. But you have to interpret what's going on between all of them and stitch them all together to make this thing sing." aria-label="回原文"></button>。
 
-以 iPod 为例，第一代产品其实非常局限。当时乔布斯坚持 iPod 只能连接 Mac，想以此拉动 Mac 的销量 <button class="pd-ts" data-t="29:11" data-who="Tony Fadell" data-en="The team that I was running, we were really clear that we had to have Windows connectivity out of the gate, or not out of the gate, but just after the first iPod shipped." aria-label="回原文"></button>。但这导致它只吸引不到 1% 市场份额的 Mac 极客 <button class="pd-ts" data-t="28:20" data-who="Tony Fadell" data-en="But iPod, the first generation was only successful with the Mac Geeks. And the Mac Geeks were less than 1% of the market. And then the second generation was also that way." aria-label="回原文"></button>。Tony 的团队很清楚：「如果不支持 Windows，iPod 就不是卖 349 美元，而是 3000 美元——因为你必须先买一台 Mac」<button class="pd-ts" data-t="33:18" data-who="Tony Fadell" data-en="And that became the big part of the business. Yeah. The mantra was, &quot;Steve, if we don't have Windows connectivity, the iPod doesn't cost $349." aria-label="回原文"></button>。
-
-后来，团队背着乔布斯搞了秘密的「[[臭鼬工厂|臭鼬工厂]]」项目，偷偷开发 Windows 连接功能。直到第三代 iPod 加上 Windows 支持以及 iTunes 音乐商店，它才真正大获成功 <button class="pd-ts" data-t="28:46" data-who="Tony Fadell" data-en="And it wasn't until the third generation where we made it work on Windows. And we had the iTunes music store. Did it actually start to take off?" aria-label="回原文"></button>。
-
-这种先斩后奏的「臭鼬工厂」模式在苹果并不少见。Tony 说自己后来在给 iPhone 和 iPad 加手写笔时也干了同样的事，因为他知道未来会有表单填写和企业端的需求 <button class="pd-ts" data-t="30:15" data-who="Tony Fadell" data-en="But then when we added the stylus, which was another skunk works project, all of a sudden it came out and it was like, &quot;Well, we had to have stylus.&quot; And now it's a big feature of the product." aria-label="回原文"></button>。他坚信：只有当你停止尝试时，那才叫失败；如果你一直迭代，那叫学习 <button class="pd-ts" data-t="32:40" data-who="Tony Fadell" data-en="I believe in the same thing. You got to fail a few times until you find your way, but you only fail if you stop. If you keep iterating and keep going, well then that's not failure." aria-label="回原文"></button>。不管是 iPod、iPhone 还是 Nest 恒温器，最初几代都没赚到什么钱，只有熬过了「修产品」的阶段，才能走到「赚利润」的第三阶段 <button class="pd-ts" data-t="31:20" data-who="Tony Fadell" data-en="You would like to, but you get close. But make the product, fix the product after you get customer feedback and then make the business, which means make the margins." aria-label="回原文"></button>。
-
-## 超越技术：营销是构建产品的起点，而非补丁
-既然产品打磨如此艰难，为何很多好东西最后还是死了？这就引出了 Tony 最核心的洞见之一：营销不是事后补救的补丁，而必须在一开始就融入产品的定义中。
-
-Tony 指出，太多技术人有一个迷思：只要做出完美的产品，自然就会赢。但事实是，客户只能通过营销和销售的「镜头」来理解你的产品 <button class="pd-ts" data-t="45:55" data-who="Tony Fadell" data-en="I think that's a really important takeaway for people, just how obsessed you are with that piece of building that I think a lot of builders don't think about at all." aria-label="回原文"></button>。如果你在写新闻稿时发现列出了五六个功能，那对客户来说就是一堆天书——你必须精简到三四个关键特性 <button class="pd-ts" data-t="46:07" data-who="Tony Fadell" data-en="And the customer only sees what they see through the lens of marketing and sales. And so you have to be in their shoes and you go, &quot;Okay, when I do the press release, I can only have three or four key features.&quot;" aria-label="回原文"></button>。这种「先写新闻稿」的做法其实并不叫「[[逆向工作|逆向工作]]」，因为做电影、写剧本本来就是这么搞的，只有沉浸在技术里的人才会觉得这叫倒着来 <button class="pd-ts" data-t="45:08" data-who="Tony Fadell" data-en="See, the thing saying working backwards, would a movie be created that way? Is it called working backwards when you say, &quot;I'm going to make a script, and I'm making the treatment, and I'm going to really know what it is." aria-label="回原文"></button>。
-
-他甚至拿 [[OpenAI|OpenAI]] 举了个反面例子：这家公司最初只是个做技术演示的 Netscape（网景），大家觉得不错，但用几天后就开始疑惑「我到底拿它干嘛？」，如今他们不得不仓促补课，组建产品与营销团队，结果被 [[Anthropic|Anthropic]] 追赶 <button class="pd-ts" data-t="43:01" data-who="Tony Fadell" data-en="And the thing is, I think we're starting to see that, the cracks of it might be more than cracks now, with OpenAI. What is it? It's like, oh, it's your answer machine, whatever you're like, &quot;Well, what does it do for me?" aria-label="回原文"></button>。
-
-Tony 还分享了一个有趣的「深夜信息型广告」技巧：这些夸张的广告先展示旧擦菜板如何让你的手指流血，再展示新产品的奇妙。好的营销同样需要先植入「怀疑的种子」，激起用户对现状的不满，然后再给出完美的解决方案，只不过你要用「诚实的真相」去讲述它 <button class="pd-ts" data-t="64:04" data-who="Tony Fadell" data-en="We all have seen infomercials, right? Those ones that drag on for a half an hour, an hour at late night TV on some random, on every channel now, right, and they just sit there and they tell you the story from all the different directions." aria-label="回原文"></button>。
-
-## AI 时代的「快软件」与「奢侈品软件」
-既然讲故事和做产品是一体的，那在如今 AI 时代，这些法则还适用吗？这正是下一个话题：工具变了，对产品构建者的要求反而更高了。
-
-今天很多人觉得「在 AI 时代，只要写个 prompt，东西就吐出来了」，Tony 认为这极度危险 <button class="pd-ts" data-t="49:58" data-who="Tony Fadell" data-en="But you have to interpret what's going on between all of them and stitch them all together to make this thing sing. And what we're saying is, &quot;Oh, I can just, today in the AI world, I can just make a prompt and all of a sudden it gets spit out.&quot;" aria-label="回原文"></button>。他拿 Claude 源代码泄露事件举例：当时 Anthropic 的 CEO 说 90% 到 100% 的代码都是 AI 写的，结果真正的工程师一看主循环代码，全吐了——因为它分层糟糕、极其脆弱、且无法维护 <button class="pd-ts" data-t="50:52" data-who="Tony Fadell" data-en="And everybody's like, &quot;Oh my God, it leaked.&quot; And at the time, and maybe they changed it, maybe they didn't, but at the time Dario was saying, &quot; 90 to 100% of all our codes written by Claude, and we just monitor it and watch it.&quot;" aria-label="回原文"></button>。
-
-Tony 警告说，如果不进行正确的架构设计，直接让[[智能体|智能体]]生成代码，你得到的就是庞大的[[技术债务|技术债务]] <button class="pd-ts" data-t="52:54" data-who="Tony Fadell" data-en="And if you don't have those different mixture of experts around the code structuring it so that subsequent generations can get better and better and it just kind of devolves into this mass of things you don't know, you're getting short-term gain for very, very long-term laws." aria-label="回原文"></button>。他把这种做法比作 H&M 的快时尚，便宜、是一次性的「快软件」<button class="pd-ts" data-t="54:30" data-who="Tony Fadell" data-en="To me, sure, you can write code, but there's going to be the difference between... It's like the difference between H&amp;M and a luxury brand. You could go get certain things that look like that and copies that, but it doesn't last more than one washing or one season, and it's this, and you throw it away, and it's cheap and blah, blah, blah." aria-label="回原文"></button>。但如果你要建立一家真正的公司，软件就不能是消耗品 <button class="pd-ts" data-t="54:56" data-who="Tony Fadell" data-en="So like it's called fast fashion. We got fast software. But software, if you're going to build a real company, can't be throwaway." aria-label="回原文"></button>。
-
-正因为在 AI 加持下写代码变得太容易，大家都在拼命加功能，产品思维反而变得空前重要。像航班应用 [[Flighty|Flighty]] 这种连像素都精心打磨过的应用，就是 AI 时代的「奢侈品软件」<button class="pd-ts" data-t="56:37" data-who="Tony Fadell" data-en="But the original Flighty, to me, that's luxury software, right? It was understood, how the pixels are done. So you got to remember, is it version one or is it version two, three, four?" aria-label="回原文"></button>。因为你只有把东西做到了极致，用户才会去口碑传播，这才是不可替代的价值 <button class="pd-ts" data-t="57:31" data-who="Tony Fadell" data-en="So insane?&quot; And then you get the word of mouth and things take off because there has been that level of care and craft to it. And yeah, maybe a lot of the sub-functions of Flighty could be built and whatever from Claude Code or whatever, but the whole thing and the architecture and everything, I don't think so." aria-label="回原文"></button>。
-
-> 【背景】Tony 还谈到了他目前的投资偏好。如今纯软件 SaaS 容易被 AI 轻易复制，所以资金重新涌入必须结合原子（硬件）的「全栈」公司。他在多年前投资了做零售盘货机器人的 Simbe Robotics，以及 AI 回收分类公司 Greyparrot，这些当年不被看好的深科技公司，如今因为能解决实在痛点而迎来了爆发 <button class="pd-ts" data-t="77:20" data-who="Tony Fadell" data-en="I've been doing this AI plus hardware thing now, not just at Nest, but in many of the startup companies that we funded at Build. And so company like Simbe Robotics, it's Simbe Robotics." aria-label="回原文"></button>。
-
-## AI 硬件的终局：为什么我们仍然需要一块屏幕？
-讨论完 AI 软件产品，一个自然的问题是：AI 时代的硬件该长什么样？很多人试图消灭屏幕，但 Tony 给出了不同的判断。
-
-他直言，除非未来有脑机接口（BCI）或视网膜激光投影技术，否则人类依然需要屏幕来看地图和可视化信息 <button class="pd-ts" data-t="66:25" data-who="Tony Fadell" data-en="There's the what it could look like long-term and there's what it could look like soon. And so a lot of people are like, okay, there's the long-term thing and when we can trust the models, and when they have memory, and when they do this stuff, then we're still going to need a display because, sorry people, unless we're plugging it into our brain like a BCI brain computer or there's some laser thing going into our retina, we're going to need a display." aria-label="回原文"></button>。Humane 那种在手掌上做小投影的设备路线，在他看来是「不同，但并没有更好」<button class="pd-ts" data-t="72:11" data-who="Tony Fadell" data-en="What? It's different, not better. So funny." aria-label="回原文"></button>。
-
-不过，现有的手机交互模式必须被颠覆。现在的设备是「触摸滑动」优先，键盘次之，语音排最后 <button class="pd-ts" data-t="67:24" data-who="Tony Fadell" data-en="Because you might not be tapping, and swiping, and all that stuff. So I am of the opinion that long term, if you look at how a device is layered today, and this is many, many devices, and iPhone specifically started this, which was tapping and swiping, right?" aria-label="回原文"></button>。Tony 认为在 AI 时代，这个顺序必须彻底反转：语音必须成为第一交互入口，其次才是键盘和触摸。之所以过去大家不爱在车里或手机上用语音，是因为 AI 的智力和记忆力不够。当模型变得可信、有记忆时，纯语音助手的形态才会真正成立 <button class="pd-ts" data-t="68:01" data-who="Tony Fadell" data-en="We need to flip it. We need to absolutely flip it and we have to say, and this is what I always wanted to do with Nest, which is I want to remove displays and we need to have voice as the number one primary feature and you build around voice." aria-label="回原文"></button>。
-
-但他也泼了盆冷水：建立社会信任极其漫长。就像人们付了钱买特斯拉的完全自动驾驶，15 年后仍在等待一样。消费者会试用每月 20 美元的 ChatGPT，但发现它还只是个「Siri 1.0」时，就会失去耐心 <button class="pd-ts" data-t="71:02" data-who="Tony Fadell" data-en="&quot;I paid for it, but it's really not all that yet.&quot; And it's like full self-driving. I paid for full self-driving, it's 15 years later, I'm still waiting for full self-driving." aria-label="回原文"></button>。
-
-## 别向机器「认知投降」
-最后，Tony 将话题升华到了产品经理的伦理与责任。他认为，设计产品时必须有坚定的道德原则，绝不能为了数据去故意让用户上瘾 <button class="pd-ts" data-t="86:21" data-who="Tony Fadell" data-en="But I think that you really need to be well grounded and have real principles when you're designing something, and don't let those things go astray, just like you wouldn't go astray with a bad user interface or something like that." aria-label="回原文"></button>。他强烈抨击了大公司推出 AI 色情聊天机器人的做法，认为这是把人类珍贵的情感联系降维成了产品，正在撕裂社会的结构 <button class="pd-ts" data-t="89:19" data-who="Tony Fadell" data-en="I'm for individual rights and for everyone to be a thing, but when major companies are doing this in the guise of certain kinds of behaviors they're trying to achieve, when we're selling... We're turning personal connection into a product with AI chatbots and making them really devolve social interaction to the point where I'm going to have a perfect interaction with this thing because the world is so messy, it's like we're losing humanity with that, and we're just for gain." aria-label="回原文"></button>。
-
-他把当前的数字产品比作没有营养标签的垃圾食品，呼吁苹果和谷歌等平台公司承担起责任，提供更好的数字消费工具 <button class="pd-ts" data-t="90:26" data-who="Tony Fadell" data-en="And so the way I think about it is we have lots of junk food, and we have an obese nation or obese world because of all the junk food, and it takes us to regulate our consumption to do that and get healthy tools." aria-label="回原文"></button>。
+既然谈到了产品的长期价值，最后就不得不提一个被大厂毁掉的极品，以及未来 AI 硬件的终局。曾经惊艳世界的 Nest Protect 烟雾报警器（在发出刺耳警报前会先人声预警“我要变大音量了”）如今却被 Google 停产，沦为不被疼爱的“孤儿” <button class="pd-ts" data-t="17:04" data-who="Tony Fadell" data-en="Why do you think that's happening? Because it was an orphan. It's just not a big enough business within Google [inaudible 00:17:08]-" aria-label="回原文"></button>。Tony 痛心疾首地说，如果 Nest 活到今天，配合遍布家里的传感器，它完全会成为下一代 AI 家庭助手的核心中枢 <button class="pd-ts" data-t="19:13" data-who="Tony Fadell" data-en="It would have been one of... I think some of the centerpieces of what you could do because AI needs context, AI needs a lot of context, and in a home, you want to make everything very seamless." aria-label="回原文"></button>。至于 AI 时代的下一代 iPhone 到底长什么样？Tony 的判断极其清醒：绝不是一个别在胸前的小投影仪，只要人还需要看地图，屏幕就绝不会消失 <button class="pd-ts" data-t="71:39" data-who="Tony Fadell" data-en="How are you going to look at a map if you want to look at a map? You're going to listen, like put on the voice stuff in your car and never look at the map on your car and say, &quot;Oh, turn left in 200 feet." aria-label="回原文"></button>。真正的颠覆不在于消灭屏幕，而在于把交互层级彻底翻转——把语音变成第一交互，手指点击退居二线 <button class="pd-ts" data-t="68:01" data-who="Tony Fadell" data-en="We need to flip it. We need to absolutely flip it and we have to say, and this is what I always wanted to do with Nest, which is I want to remove displays and we need to have voice as the number one primary feature and you build around voice." aria-label="回原文"></button>。但这需要漫长的时间，因为建立人类对 AI 的社会信任本身就是个慢活，就像等了 15 年还没真正兑现的“完全自动驾驶”一样 <button class="pd-ts" data-t="71:02" data-who="Tony Fadell" data-en="&quot;I paid for it, but it's really not all that yet.&quot; And it's like full self-driving. I paid for full self-driving, it's 15 years later, I'm still waiting for full self-driving." aria-label="回原文"></button>。
 
 ## 本集带走
-1. **数据在 1.0 版本里是失效的**：做没人见过的全新产品，你必须依赖少数人的「有依据的直觉」做决策。寻找痛点并结合新技术去重新定义领域，是好产品的起点。
-2. **好生意都需要熬过三代**：不要指望第一代产品就大获成功。第一代做产品，第二代修产品，第三代赚利润。面对明确的趋势，团队甚至需要用「臭鼬工厂」去推翻领导者的固执。
-3. **别在 AI 时代「认知投降」**：工具越强大（如 AI 写代码），「奢侈品级」的产品思维和品味就越稀缺。我们可以使用机器，但绝不能放弃人类对架构、安全、故事讲述和道德底线的把控权。
 
-<div class="pd-sec">全部金句 <span>8 条(中英对照,已过机器闸门)</span></div>
+最后收个尾，这一集值得带走的是这几句话。第一，做真正颠覆的 1.0 版产品，别指望用数据来偷懒。数据只能给你渐进的改良，真正的革命只能靠少数有品味的人做主观决策，甚至去“微管理”那些生死攸关的细节，这叫仁慈的独裁。第二，寻找好创意有一个朴素的公式：长久的痛点加上刚好成熟的新技术，用新技术去重做旧体验。而且做好熬三代的准备，第一代做产品，第二代修产品，第三代才轮到修生意。第三，最容易被技术人忽略的是讲故事。好产品绝不等于好营销，你必须把自己塞进用户的鞋子里，把技术翻译成他们听得懂的故事，就像乔布斯每天一遍遍演练 iPhone 的发布会说辞一样。第四，别被 vibe coding（氛围编程）冲昏头脑，AI 写出的代码如果不加架构约束，就是一堆充满技术债务的快时尚垃圾；正因为造东西变容易了，那些深思熟虑的“奢侈品软件”反而更具护城河。第五，对下一代 AI 硬件别抱有不切实际的幻想，语音交互确实会反客为主，但只要人类还需要看地图，屏幕就会永远存在。正如 Tony 在结尾强调的：我们可以使用机器，但绝不要在认知上向机器投降，去造点真正有灵魂的好东西吧。
+
+<div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
+
+> <span class="qz">如果你大部分的决策都将是基于意见的决策，对于一个 1.0 版本来说，你必须有一两个或非常非常少的一组人，他们负责做出基于意见的决策，并且实际上能让你从白板到一个实际的 1.0 规格。</span>  
+> *And so if most of your decisions are going to be opinion-based decisions for a 1.0, you have to have one or two or a very, very small set of people who are charged with making the opinion-based decisions and can actually get you from point A to... from a white paper or a white... bank sheet of white paper or whiteboard to an actual 1.0 spec.*  
+> <span class="qm">—— Tony Fadell · [08:58]</span> ^q1
 
 > <span class="qz">因为如果你一路尝试做数据驱动的决策，你要么不是在做差异化的产品，因为你在从其他东西获取数据，要么你只是在得到废话数据，对吧。</span>  
 > *Because if you try to do data-driven decisions all the way along, you're either not doing a differentiated product because you're taking data from another thing, or you're just getting just bullshit data, right.*  
-> <span class="qm">—— Tony Fadell · [09:23]</span> ^q1
+> <span class="qm">—— Tony Fadell · [09:23]</span> ^q2
 
-> <span class="qz">信条是，“Steve，如果我们没有 Windows 连接性，iPod 就不是卖 349 美元。</span>  
-> *The mantra was, "Steve, if we don't have Windows connectivity, the iPod doesn't cost $349.*  
-> <span class="qm">—— Tony Fadell · [33:18]</span> ^q2
+> <span class="qz">我学到了，你制造产品，你修复产品，然后你修复业务。</span>  
+> *I've learned, you make the product, you fix the product, then you fix the business.*  
+> <span class="qm">—— Tony Fadell · [31:06]</span> ^q3
+
+> <span class="qz">你得失败几次才能找到你的路，但只有当你停止时才算失败。</span>  
+> *You got to fail a few times until you find your way, but you only fail if you stop.*  
+> <span class="qm">—— Tony Fadell · [32:40]</span> ^q4
 
 > <span class="qz">你正在一个非常脆弱的基础上构建。</span>  
 > *You're building on a really crusty foundation.*  
-> <span class="qm">—— Tony Fadell · [53:37]</span> ^q3
+> <span class="qm">—— Tony Fadell · [53:37]</span> ^q5
 
-> <span class="qz">你正在获得短期的收益，却是为了非常、非常长期的代价。</span>  
-> *You're getting short-term gain for very, very long-term laws.*  
-> <span class="qm">—— Tony Fadell · [52:51]</span> ^q4
+> <span class="qz">但软件，如果你要建立一家真正的公司，不能是一次性的。</span>  
+> *But software, if you're going to build a real company, can't be throwaway.*  
+> <span class="qm">—— Tony Fadell · [54:58]</span> ^q6
 
-> <span class="qz">然后如果你看了代码，任何看过代码的真正的软件架构师和工程师都呕吐了，他们就像，「它造了什么？」</span>  
-> *And then if you looked at the code, anybody who looked at the code who's a real software architect and engineer threw up, they were like, "It made what?"*  
-> <span class="qm">—— Tony Fadell · [51:12]</span> ^q5
-
-> <span class="qz">技术是为客户服务的，而不是我们要把技术硬塞给客户。</span>  
-> *The technology's in service of the customer, not we're going to jam the technology down the customer's throat.*  
-> <span class="qm">—— Tony Fadell · [46:45]</span> ^q6
-
-> <span class="qz">我们可以使用机器，但不要在认知上投降。</span>  
-> *We can use the machines, but don't cognitively surrender.*  
-> <span class="qm">—— Tony Fadell · [94:20]</span> ^q7
+> <span class="qz">因为很多时候，当我们由技术驱动时，我们谈论是什么。我们不谈论为什么。</span>  
+> *And because too many times when we're technology led, we talk about the what. We don't talk about the why.*  
+> <span class="qm">—— Tony Fadell · [62:42]</span> ^q7
 
 > <span class="qz">因为它太容易构建了，所以脱颖而出的东西是那些真正经过深思熟虑的东西。</span>  
 > *Because it's so easy to build, the things that stand out are the things that are really well thought through.*  
 > <span class="qm">—— Lenny · [00:05]</span> ^q8
+
+> <span class="qz">我们可以使用机器，但不要在认知上投降。</span>  
+> *We can use the machines, but don't cognitively surrender.*  
+> <span class="qm">—— Tony Fadell · [00:02]</span> ^q9
 
 <div class="pd-sec">接着看</div>
 
@@ -140,18 +103,18 @@ Tony 警告说，如果不进行正确的架构设计，直接让[[智能体|智
 
 **顺着「产品方法」挖下去**
 
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:智能体 (agent)
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性]] —— 同嘉宾:Lenny · 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」]] —— 同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:智能体 (agent)
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]] —— 同嘉宾:Lenny · 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新]] —— 同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-05-31-lennys-a-rational-conversation-on-where|Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱]] —— 同嘉宾:Lenny · 同公司:Anthropic、OpenAI、Apple
+- [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]] —— 同嘉宾:Lenny · 同公司:Anthropic、OpenAI、Apple
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当代码不再是瓶颈,品味和策展成为产品团队的稀缺力]] —— 同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)、ChatGPT
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:智能体 (agent)
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:智能体 (agent)
 
 </div>
 </div>

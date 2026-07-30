@@ -2,22 +2,30 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "10:08",
-      "speaker": "Eddie Kim",
-      "trimmed": true,
-      "tsWas": "10:04",
-      "spkWas": "Eddie Kim"
+      "timestamp": "00:57",
+      "speaker": "Claire Vo",
+      "trimmed": false,
+      "tsWas": "59:50",
+      "spkWas": "Claire Vo"
     },
     {
       "i": 2,
-      "timestamp": "41:53",
+      "timestamp": "26:06",
       "speaker": "Eddie Kim",
       "trimmed": false,
-      "tsWas": "41:53",
+      "tsWas": "26:05",
       "spkWas": "Eddie Kim"
     },
     {
-      "i": 3,
+      "i": 4,
+      "timestamp": "44:19",
+      "speaker": "Claire Vo",
+      "trimmed": false,
+      "tsWas": "44:20",
+      "spkWas": "Claire Vo"
+    },
+    {
+      "i": 5,
       "timestamp": "42:15",
       "speaker": "Eddie Kim",
       "trimmed": false,
@@ -25,51 +33,27 @@
       "spkWas": "Eddie Kim"
     },
     {
-      "i": 5,
-      "timestamp": "47:24",
+      "i": 6,
+      "timestamp": "47:03",
       "speaker": "Claire Vo",
       "trimmed": false,
-      "tsWas": "47:24",
+      "tsWas": "47:06",
       "spkWas": "Claire Vo"
-    },
-    {
-      "i": 6,
-      "timestamp": "36:17",
-      "speaker": "Eddie Kim",
-      "trimmed": false,
-      "tsWas": "36:17",
-      "spkWas": "Eddie Kim"
     },
     {
       "i": 7,
-      "timestamp": "25:24",
-      "speaker": "Claire Vo",
+      "timestamp": "36:14",
+      "speaker": "Eddie Kim",
       "trimmed": false,
-      "tsWas": "25:24",
-      "spkWas": "Claire Vo"
-    },
-    {
-      "i": 8,
-      "timestamp": "42:56",
-      "speaker": "Claire Vo",
-      "trimmed": false,
-      "tsWas": "42:58",
-      "spkWas": "Claire Vo"
-    },
-    {
-      "i": 9,
-      "timestamp": "44:15",
-      "speaker": "Claire Vo",
-      "trimmed": false,
-      "tsWas": "44:15",
-      "spkWas": "Claire Vo"
+      "tsWas": "36:14",
+      "spkWas": "Eddie Kim"
     }
   ],
   "dropped": [
     {
-      "i": 4,
-      "reason": "逐字命中不了(裁剪后仍无)",
-      "en": "it is time for the hard skill to show up again, not leadership, inspiration, alignment."
+      "i": 3,
+      "reason": "命中片段跨说话人(占比0.57/连续他人6词,疑拼接)",
+      "en": "I think docs are absolutely dead you know what people don't know this"
     }
   ]
 }

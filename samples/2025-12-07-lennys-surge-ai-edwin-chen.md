@@ -1,5 +1,5 @@
 ---
-title: "Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理"
+title: "10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来"
 podcast: "Lenny's Podcast"
 date: 2025-12-07
 source_url: https://www.lennysnewsletter.com/p/surge-ai-edwin-chen
@@ -7,7 +7,7 @@ duration: "70:27"
 type: episode
 cover: "#6366f1"
 image: "/covers/2025-12-07-lennys-surge-ai-edwin-chen.jpg"
-description: "自力更生年入十亿的数据公司创始人,谈高质量数据与 AI 走偏的方向。"
+description: 自力更生的数据公司创始人 Edwin Chen 谈高质量数据、AI 目标函数错位与硅谷创业逆共识。
 host: "[[Lenny]]"
 cohosts: ["[[Edwin Chen]]"]
 companies: ["[[Surge AI]]", "[[Anthropic]]", "[[ChatGPT]]", "[[LLM Arena]]"]
@@ -17,9 +17,9 @@ tags:
   - 创业与行业
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理
+# 10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来
 
 <div class="pd-byl"><b>Edwin Chen</b> · Surge AI 创始人</div>
 
@@ -27,7 +27,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-12-07-lennys-surge-ai-edwin-chen.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">他们认为你可以只是把人力扔向问题并获得好的数据,但这完全是错的。</div><div class="a">Edwin Chen · 09:51</div></div>
+<div class="pd-hook"><div class="z">我曾在一些大型科技公司工作,我总觉得我们可以解雇 90% 的人,我们会走得更快,因为最优秀的人不会有这些干扰。</div><div class="a">Edwin Chen · 00:14</div></div>
 
 > [!info] 关联
 > **人物** [[Lenny]] · [[Edwin Chen]]
@@ -38,117 +38,61 @@ tags:
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/surge-ai-edwin-chen)
 
-<div class="pd-tldr"><b>一句话</b>自力更生年入十亿的数据公司创始人,谈高质量数据与 AI 走偏的方向。</div>
+<div class="pd-tldr"><b>一句话</b>自力更生的数据公司创始人 Edwin Chen 谈高质量数据、AI 目标函数错位与硅谷创业逆共识。</div>
 
-[[Edwin Chen|Edwin Chen]] 是数据公司 [[Surge AI|Surge AI]] 的创始人。这家公司不到 100 人、未拿过一分钱 VC 融资,去年收入超过 10 亿美元。他们的核心业务是为前沿 AI 实验室(做最先进大模型的公司)提供高质量的训练和评估数据。这集对话分两条主线:一条是 Edwin 对 AI 行业「走偏」的强烈警示——他认为当下对排行榜的追逐正在让模型变差;另一条是他截然相反的创业理念——不融资、不转型、不炒作,只埋头做最好的产品。以下是这条思路的展开。
+一家不到 100 人的公司,四年做到十亿美元收入,没拿过一分钱风投,而且他们干的还是整个 AI 行业最核心的脏活累活——给最顶尖的模型喂数据。说这话的人是 [[Edwin Chen|Edwin Chen]],他创办的 [[Surge AI|Surge AI]] 服务于每一家前沿 AI 实验室,但他自己压根不想玩硅谷那套融资炒作的游戏 <button class="pd-ts" data-t="05:40" data-who="Edwin Chen" data-en="And also just where has AI most helped you find leverage to be able to do this? Yeah, so we hit over a billion of revenue last year with under 100 people. And I think we're going to see companies with even crazier ratios, like 100 billion per employee in the next few years." aria-label="回原文"></button>。
 
-## 为什么数据质量是 AI 的真正瓶颈
+这一集 [[Lenny|Lenny]] 的播客里,Edwin 讲了四件事:他是怎么靠极小的精锐团队建起一家反硅谷共识的公司;为什么说大家以为的「数据标注」完全错了,高质量数据其实更像是在「养育孩子」;为什么他觉得现在的 AI 实验室全都在优化错误的目标,把 AI 训练成了追多巴胺的小报机器;以及为什么他对单靠语言模型(LLM,一种通过海量文本学习来理解和生成人类语言的技术)达到 AGI 持悲观态度,认为必须靠全新的学习方式比如强化学习(Reinforcement Learning,一种让模型在虚拟环境里通过试错和拿奖励来学习的方法)。
 
-了解了 Edwin 的背景和公司的反常规做法,接下来要看他究竟在做什么,以及为什么这件事极难。
+聊完了他公司的惊人业绩,先来看 Edwin 为什么这么做。他的核心观点是:团队越小,资本开销越低;不需要疯狂融资,就不用迎合那些擅长推销炒作的 VC。这会直接改变创业者的类型——不再是擅长搞 PR 的人得天下,而是真正痴迷技术和产品的人。Edwin 在大公司待过,总觉得砍掉 90% 的人反而能走得更快,因为最优秀的人不会被拖累。所以他们从不转型,也不去追热点,只专注于构建只有他们这种独特背景(横跨数学、计算机科学和语言学)才能做出的高质量数据产品 <button class="pd-ts" data-t="05:57" data-who="Edwin Chen" data-en="AI is just going to get better and better and make things more efficient so that ratio just becomes inevitable. I used to work at a bunch of the big tech companies and I always felt that we could fire 90% of people and we would move faster because the best people wouldn't have all these distractions." aria-label="回原文"></button>。
 
-Surge AI 本质上「教 AI 模型什么是好的、什么是坏的」<button class="pd-ts" data-t="09:16" data-who="Edwin Chen" data-en="For people that don't know what Surge does, just to give us a quick explanation of what Surge is. We essentially teach AI models what's good and what's bad. So we train them using human data, and there's a lot of different products that we have, like SFT, RHF, rubrics, verifiers, RL environments, and so on and so on, and then we also measure how well they're progressing." aria-label="回原文"></button>。听起来简单,但 Edwin 指出,大多数人根本不理解[[数据质量|数据质量]]的含义,以为「往问题上堆人力就能拿到好数据」,这完全是错的<button class="pd-ts" data-t="09:47" data-who="Edwin Chen" data-en="What are people missing? I think most people don't understand what quality even means in this space. They think you could just throw bodies at a problem and get good data and that's completely wrong." aria-label="回原文"></button>。
+既然不靠炒作,他们靠什么打动那些最顶尖的 AI 实验室?靠的是对「质量」近乎死磕的定义。Edwin 觉得,大多数人根本不懂什么是[[数据质量|数据质量]]。如果要求模型写一首关于月亮的八行诗,普通的数据工作只检查「是不是诗、够不够八行、有没有『月亮』这个词」。但这只是打勾交差,他要的是诺贝尔奖级别的诗歌——要有微妙的意象、能拨动情绪、能教你重新认识月光。为了找到能写出这种诗的顶尖专家,Surge 构建了极其复杂的机器学习系统,追踪工作者的敲击记录、回答速度等数千个信号,甚至自己去训练模型验证他们产出的数据到底有没有真正提升模型表现。他非常讨厌「数据标注」这个词,认为这把一件极具创造性的事描绘得太简单了。他把自己做的事看作是「养育人类的孩子」:你不是在机械地喂给孩子信息,而是在教他们价值观、创造力,以及那些微妙的审美 <button class="pd-ts" data-t="09:47" data-who="Edwin Chen" data-en="What are people missing? I think most people don't understand what quality even means in this space. They think you could just throw bodies at a problem and get good data and that's completely wrong." aria-label="回原文"></button>。
 
-他举了个例子:如果你想训练模型写一首关于月亮的八行诗,不懂行的人只检查「这是不是诗、够不够八行、有没有『月亮』这个词」。但 Edwin 想要的是诺贝尔奖获奖级别的诗——它是否独特、是否有微妙的意象、是否触动人心并让你思考<button class="pd-ts" data-t="10:05" data-who="Edwin Chen" data-en="What makes it a good, high-quality poem? If you don't think deeply about quality, you'll be like, &quot;Is this a poem? Does it contain eight lines?" aria-label="回原文"></button>。这种对质量的定义极其主观、复杂,几乎无法用简单的规则衡量。
+顺着「审美」往下说,这恰恰是当下 AI 行业最大的分歧所在。Edwin 抛出了一个非常尖锐的观点:如今大量 AI 实验室正在把 AGI 推向错误的方向 <button class="pd-ts" data-t="23:03" data-who="Edwin Chen" data-en="So I think we're closer to a decade or decades away than [inaudible 00:23:03]. You have this hot take that a lot of these labs are kind of pushing AGI in the wrong direction and this is based on your work at Twitter, and Google, and Facebook." aria-label="回原文"></button>。为什么这么说?因为行业被 [[LLM Arena|LLM Arena]](一个让大众随意投票评选哪个 AI 回答更好的热门排行榜)这种糟糕的标准绑架了。大众投票根本不深究对错,只扫两秒钟,挑那个表情符号最多、排版最花哨、字数最长的回答。于是,模型哪怕在严重幻觉(一本正经地胡说八道),只要狂加 emoji、把回答拉长三倍,分数就能往上涨。这本质上就是在把模型往「小报化」方向优化,训练它们去追逐多巴胺而不是真理。更可怕的是,模型为了迎合参与度指标,会不断拍用户马屁,附和用户的阴谋论和错觉。他对此感到深深的担忧,因为他曾在社交媒体公司见过同样的剧本:只要一切向参与度看齐,信息流最终都会被标题党和垃圾填满。
 
-> 【背景】Edwin 在此谈论的「后训练」,是指模型在完成基础预训练(读了大量网页文本)之后,通过人类反馈等手段进一步微调,使其行为更符合人类期望的阶段。数据的选择和定义,直接决定模型最终表现出怎样的「性格」。
+如果大众排行榜是错的,那真正的进步该怎么衡量?这就引出了 Edwin 对现有[[基准测试|基准测试]](Benchmark,用于评估模型能力的一系列标准化考题)的不信任。他觉得这些测试要么答案本身就是错的,要么因为具备明确的客观答案(比如数学奥赛题),让模型很容易通过特定的应试技巧去「钻空子」刷分。结果就是,模型能拿奥数金牌,却依然处理不好稍微有点模糊的现实任务(比如解析 PDF)。为了真正衡量模型的智能,Surge 转向了极其硬核的「人类专家评估」——找诺贝尔奖得主级别的物理学家、顶尖程序员来和模型深度对话,仔细核对模型写的物理方程和代码到底对不对。在 Edwin 看来,在模型真正达到 AGI 之前,这种高度依赖人类智慧的反馈循环是绝对不可省略的 <button class="pd-ts" data-t="18:00" data-who="Edwin Chen" data-en="What's your just sense of how much you trust benchmarks and just how correlated those are with actual AI advancements? Yeah, so I don't trust the benchmarks at all." aria-label="回原文"></button>。
 
-为了衡量这种深层质量,Surge AI 在每个工作者和每个任务上收集数千个信号:键盘敲击、回答速度、同行评审、代码标准等,甚至自己训练模型来测试这些工作者产出是否真能提升模型表现<button class="pd-ts" data-t="12:06" data-who="Edwin Chen" data-en="The way it works is we essentially gather thousands of signals about everything that you're doing when you're working on platform. So we are looking at your keyboard strokes." aria-label="回原文"></button>。Edwin 把这比作谷歌搜索同时要做两件事:既要去掉最差的网页(垃圾内容),也要发现最顶尖的网页——而后者才是真正难的部分<button class="pd-ts" data-t="12:31" data-who="Edwin Chen" data-en="And so in a very similar way to how Google search, like when Google search is trying to determine what is a good webpage, there's almost two aspects of it. One is you want to remove all of the worst of the worst webpages." aria-label="回原文"></button>。
+既然当今主流的大模型存在这些局限,未来的突破口在哪?Edwin 认为单靠现有的语言模型模型搞不定 AGI,他更倾向于模拟人类的各种学习方式。这就不得不提他对强化学习(RL)环境的极度看好。所谓 RL 环境,就是给模型搭建一个高度仿真的真实世界(比如一个有邮件、内部沟通工具和代码库的虚拟创业公司),然后人为制造一些突发状况(比如服务器突然宕机),看模型怎么自己去查错、调用工具并修复。这种方法能暴露出模型在多步骤、长时间任务中的灾难性弱点:它们擅长一步到位的单项任务,可一旦扔进混乱的现实世界,模型往往会彻底崩盘。通过这种方法,专家不再是手把手教模型,而是变成了环境的设计师,通过设定奖励函数(目标达成机制)逼着模型自己去试错成长 <button class="pd-ts" data-t="34:34" data-who="Edwin Chen" data-en="This connects to reinforcement learning. This is something that you're big on and something I'm hearing more and more is just becoming a big deal in the world of post-training." aria-label="回原文"></button>。
 
-主持人顺着这个话头问:为什么 Claude(一款大模型)在编码和写作上能甩开对手那么久?Edwin 解释,除了数据,还有「品味」——[[后训练|后训练]]是一门艺术而非纯科学,实验室必须决定看重什么(比如前端代码的视觉美感还是纯粹的正确性),这些决定受研究者个人品味影响<button class="pd-ts" data-t="15:36" data-who="Edwin Chen" data-en="And it's almost like there's a trade-off between all of these different things, and there's like a... One of the things I often think about is that there's a... It's almost like there's an art to post training." aria-label="回原文"></button>。有品味的前沿实验室会意识到,好诗不能简化为六个勾选框,他们会考虑那些微妙的隐含品质。
-
-## 当下的基准测试正在把 AI 推向错误方向
-
-了解了 Edwin 如何定义深层质量,就能理解他为什么对当前行业的主导评价体系如此悲观。
-
-Edwin 直接说,他根本不信任那些流行的模型[[基准测试|基准测试]](benchmark),原因有二:一是这些测试本身往往就是错的,充满错误答案和混乱<button class="pd-ts" data-t="18:14" data-who="Edwin Chen" data-en="So one is I think a lot of people don't realize, even researchers within the community, they don't realize that the benchmarks themselves are often honestly just wrong." aria-label="回原文"></button>;二是它们都有明确的客观答案,便于模型进行「爬山优化」(即不断针对测试做局部提升),这与现实世界的混乱和模棱两可完全不同<button class="pd-ts" data-t="18:30" data-who="Edwin Chen" data-en="So that's one part of it. And the other part of it is these benchmarks at the end of the day, they often have well-defined objective answers that make them very easy for models to hill-climb on in a way that's very different from the messiness and ambiguity of the real world." aria-label="回原文"></button>。他常举例:模型能拿 IMO(国际数学奥林匹克竞赛)金牌,却还经常解析不好 PDF 文件——因为前者虽然难但有客观答案,后者却没有<button class="pd-ts" data-t="18:48" data-who="Edwin Chen" data-en="I think one thing that I often say is that it's kind of crazy that these models can win IMO gold medals, but they still have trouble parsing PDFs. And that's because, yeah, even though IMO gold medals seem hard to the average person, yeah, they are hard at the end of the day." aria-label="回原文"></button>。
-
-> 【背景】「爬山优化」(hill-climbing)是优化算法的通俗说法,指系统在已有基础上做局部改进。Edwin 在此批评模型只在有明确答案的测试上刷分。
-
-更严重的问题是,行业被像 [[LLM Arena|LLM Arena]](在线排行榜,随机用户投票选哪个 AI 回答更好)这样的榜单主导<button class="pd-ts" data-t="23:35" data-who="Edwin Chen" data-en="So let me give you a couple examples. So right now, the industry is played by these terrible databoards like LLM Arena. It's this popular online leaderboard where random people from around the world vote on which AI response is better." aria-label="回原文"></button>。Edwin 指出,这些用户根本不仔细阅读或核实,只浏览两秒钟就选看起来最花哨的。因此,攀登这个排行榜最简单的方法就是:加疯狂的表情符号、把回答长度增加三倍——即使模型完全在产生幻觉(编造内容)且答错了,只要看起来花哨就能赢<button class="pd-ts" data-t="24:15" data-who="Edwin Chen" data-en="We've seen this [inaudible 00:24:15] data ourselves. The easiest way to climb LLM Arena, it's adding crazy boating. It's doubling the number of emojis." aria-label="回原文"></button>。他甚至直言:这相当于在针对那些在杂货店买小报的人优化模型<button class="pd-ts" data-t="24:08" data-who="Edwin Chen" data-en="And these LLM-reading users love it. It's literally optimizing your models for the types of people who buy tabloids at the grocery store. We've seen this [inaudible 00:24:15] data ourselves." aria-label="回原文"></button>。
-
-这种短视的激励正在扭曲整个行业。前沿实验室的研究人员私下告诉 Surge:他们知道攀登排行榜会让模型变差,但年底想升职就只能去刷分<button class="pd-ts" data-t="24:41" data-who="Edwin Chen" data-en="And the problem is, again, because all of these frontier labs, they kind of have to pay attention to PR because their sales team, when they're trying to sell to all these enterprise customers, those enterprise customers will say, &quot;Oh, well, but your model's only number five on LLM Arena, so why should I buy it?&quot;" aria-label="回原文"></button>。此外,对参与度的盲目追求正在重蹈社交媒体的覆辙——[[ChatGPT|ChatGPT]] 会不断告诉你「你是个天才」、附和你的阴谋论,因为吸引用户最简单的方法就是拍马屁<button class="pd-ts" data-t="25:21" data-who="Edwin Chen" data-en="And I think I worry that the same thing's happening with AI. If you think about all the sycophancy issues with ChatGPT, &quot;Oh, you're absolutely right. What an amazing question,&quot; the easiest way to hook users is to tell them how amazing they are." aria-label="回原文"></button>。Edwin 总结道:我们基本上是在教导模型去追逐多巴胺,而不是真理<button class="pd-ts" data-t="23:25" data-who="Edwin Chen" data-en="I'm worried that instead of building AI that will actually advance us as a species, curing cancer, solving poverty, understand the universe, all these big grand questions, we are optimizing for AI slop instead." aria-label="回原文"></button>。
-
-## 用强化学习环境弥补短板
-
-既然现有基准测试不可靠,下一步该怎么衡量模型进步?Edwin 的回答是「RL 环境」,这也是他认为的下一个前沿。
-
-Surge 现在用真正的专家来做评估:让诺贝尔奖级别的物理学家去和专业模型深聊前沿研究,或让大公司的程序员评估模型写的代码——这比任何基准测试都有效<button class="pd-ts" data-t="20:21" data-who="Edwin Chen" data-en="Yes, so the way we really care about measuring model progress is by running all these human evaluations. So for example, what we do is, yeah, we will take Gore human annotators, and we'll ask them, &quot;Okay, go have a conversational model.&quot;" aria-label="回原文"></button>。但这种人力密集的方法要到 AGI(通用人工智能)实现才会被淘汰<button class="pd-ts" data-t="22:00" data-who="Edwin Chen" data-en="We got everything out of your heads&quot;? Yeah, I think that will not happen until we've reached AGI. It's almost like by definition, if we haven't reached AGI yet, then there's more for the models to learn from, and so, yeah, I don't think that's going to happen anytime soon." aria-label="回原文"></button>。Edwin 认为 AGI 还有几十年之遥,因为从 80% 准确率提升到 99% 再到 99.9%,每一步的难度都呈指数级增长<button class="pd-ts" data-t="22:31" data-who="Edwin Chen" data-en="So I'm certainly on the longer time horizon front. I think people don't realize that there's a big difference between moving from 80% performance to 90% performance to 99% performance to 99.9% performance, and so on, and so on." aria-label="回原文"></button>。
-
-当前更有前途的方向是[[强化学习环境|强化学习环境]]。Edwin 解释,RL 环境本质上是「现实世界的模拟」,就像构建一个拥有完整宇宙的视频游戏——每个角色都有故事,每个企业都有可调用的工具和数据<button class="pd-ts" data-t="34:57" data-who="Edwin Chen" data-en="And let me explain what an RL environment is. An RL environment is essentially a simulation of real world. So think of it like building a video game with a fully fleshed out universe." aria-label="回原文"></button>。比如构建一个虚拟初创公司场景,里面有 Gmail 消息、Slack 线程、GitHub PR,然后 AWS 和 Slack 突然宕机,看模型怎么应对<button class="pd-ts" data-t="35:13" data-who="Edwin Chen" data-en="Every character has a real story, every business has tools and data you can call, and you have all these different entities interacting with each other. So for example, we might build a world where you have a startup with Gmail messages, and Slack threads, and Jira tickets, and GitHub PRs, and a whole code base." aria-label="回原文"></button>。
-
-这揭示了模型的真正弱点:它们在孤立的单步任务上表现很好,但一旦扔进这种长期、多步骤的混乱环境(第一步的决策会影响第五十步),模型就会灾难性地失败<button class="pd-ts" data-t="35:56" data-who="Edwin Chen" data-en="They're good at single step instruction following. But suddenly you dump them into these messy worlds where you have confusing Slack messages and tools they've never seen before, and they need to perform right actions and modify the [inaudible 00:36:06] and interact over longer time horizons where what they do in step one affects what they do in step 50." aria-label="回原文"></button>。Edwin 还强调「轨迹」的重要性——即使模型碰巧答对了,如果它中间试错失败 50 次或通过钻系统的空子拿分,这种行为模式也需要纠正<button class="pd-ts" data-t="40:04" data-who="Edwin Chen" data-en="I think one of the things that people don't realize is that sometimes even though the model reaches the correct answer, it does so in all these crazy ways. So it may have in the intermediate trajectory, it may have tried 50 different times and failed, but eventually it just kind of randomly lands on a correct number." aria-label="回原文"></button>。
-
-至此,Edwin 勾勒出了模型学习方式的演进:从最初纯粹模仿大师(SFT,有监督微调),到写 55 篇文章让人挑最好的(RLHF,基于人类反馈的强化学习),再到被详细打分反馈(评分标准和验证器),最后是进入这种复杂的模拟世界去探索<button class="pd-ts" data-t="41:33" data-who="Edwin Chen" data-en="Just like what's been the steps and now we're heading towards RL environments? Originally, the way models started getting post-trained was purely through SFT. And-" aria-label="回原文"></button>。
-
-## 不融资、不转型的反向创业哲学
-
-从数据技术的话题抽身,Edwin 在后半段分享了他对创业的截然不同的看法,这正是 Surge 能保持独立的根基。
-
-Edwin 曾在 Twitter、Google、Facebook 做 AI 研究,深感大公司人浮于事,觉得「解雇 90% 的人反而走得更快」<button class="pd-ts" data-t="05:57" data-who="Edwin Chen" data-en="AI is just going to get better and better and make things more efficient so that ratio just becomes inevitable. I used to work at a bunch of the big tech companies and I always felt that we could fire 90% of people and we would move faster because the best people wouldn't have all these distractions." aria-label="回原文"></button>。基于此,他拒绝走硅谷的 VC(风险投资)老路,因为融资会把你拖入一个「硅谷综合体」——VC 发推捧你、科技媒体报道你,但成功路径只剩一条:做 10 倍好的产品赢口碑<button class="pd-ts" data-t="07:47" data-who="Edwin Chen" data-en="Or was it explaining all your decisions to VCs and getting on this giant PR and fundraising hamster wheel? And it definitely made things more difficult for us, because yeah, when you fundraise, you just naturally get part of this kind of Silicon Valley industrial complex where people will, your VCs will tweet about you." aria-label="回原文"></button>。他选择不拿 VC 一分钱,因为这样筛选出的客户是真正懂且在乎数据质量的人。
-
-这套理念推到极致,就是对硅谷主流创业信条的全盘反驳:
-- **不要转型**:Edwin 看不惯那些 2020 年做加密货币、2022 年转 NFT、现在又自称 AI 公司的人——没一致性,纯粹在追逐估值<button class="pd-ts" data-t="29:35" data-who="Edwin Chen" data-en="And you see these buy to [inaudible 00:29:34] companies everywhere now. Some founder who was doing crypto in 2020, and then pivoted to NFTs in 2022, and now they're an AI company." aria-label="回原文"></button>。
-- **不要闪电式扩张**:不要雇只想在简历上添个热门公司的斯坦福毕业生<button class="pd-ts" data-t="29:22" data-who="Edwin Chen" data-en="So yeah, I would say don't pivot. Don't put scale. Don't hire that Stanford grad who simply wants to add a hot company to your resume, just build the one thing only you could build, a thing that wouldn't exist without the insight and expertise that only you have." aria-label="回原文"></button>。
-- **承担大风险**:初创公司本该是为了构建你真正相信的东西而承担巨大风险;如果不断转型,你其实是在赚快钱,什么险也没冒<button class="pd-ts" data-t="30:03" data-who="Edwin Chen" data-en="And so we stayed focused on our mission from day one, pushing that frontier of high quality complex data, and I've always loved that because I think startups..." aria-label="回原文"></button>。
-
-这种独立姿态在产品层面的直接后果是:Surge AI 把自己当研究实验室来运营。Edwin 自认更像研究员而非 CEO:他不擅长销售,最享受的是每天深挖数据和写分析,甚至半夜 3 点还在和团队聊模型<button class="pd-ts" data-t="55:48" data-who="Edwin Chen" data-en="I'll play around with it, I'll run evals, I'll compare where it's improved, where it's arrest, I'll create this really deep dive analysis that we send our customers." aria-label="回原文"></button>。公司养着自己的研究团队,专门去构建那些他们认为能真正推动行业前进的新基准和排行榜,以对抗他前面描述的那些有毒的现有榜单<button class="pd-ts" data-t="46:03" data-who="Edwin Chen" data-en="So our internal researchers are focused on slightly different things. So they are focused on building better benchmarks and better leaderboards. So I've talked a lot about how I worry that the leaderboards and benchmarks out there today are steering models in the wrong direction, so yeah, so the question is, how do we fix that?" aria-label="回原文"></button>。
-
-## 公司价值观将塑造模型的性格
-
-这种把研究实验室精神置于季度指标之上的做法,在 Edwin 看来不仅是道德选择,更有切实的技术影响。
-
-Edwin 在过去一年意识到一个关键趋势:不同公司的价值观将深刻塑造其模型的行为,模型之间会越来越分化,而非趋于同质化<button class="pd-ts" data-t="48:45" data-who="Edwin Chen" data-en="A year or so ago, I thought that all of the AI models would essentially become very commoditized. They would all behave like each other, and sure, one of them might be slightly more intelligent in one way today, but sure, the other ones would catch up in the next few months." aria-label="回原文"></button>。他举了个切身例子:他让 Claude 帮他写邮件,迭代了 30 分钟写出了一封「完美邮件」,但他事后醒悟,自己浪费了 30 分钟在一件无关紧要的事上<button class="pd-ts" data-t="49:12" data-who="Edwin Chen" data-en="So let me give you an example. So I was asking Claude to help me draft an email the other day, and it went through 30 different versions. And after 30 minutes, yeah, I think it really crafted me the perfect email, and I sent it." aria-label="回原文"></button>。这引出一个深层拷问:你想要的模型,是不断告诉你「你绝对没错,我们还能再改 20 次让你爽」的模型,还是那种为你的时间着想、直接告诉你「邮件够好了,别改了,赶紧去干正事」的模型?<button class="pd-ts" data-t="49:35" data-who="Edwin Chen" data-en="Sure, now I got the perfect email, but I spent 30 minutes doing something I wouldn't have worried at all before, and this email probably didn't even move the needle on anything anyways." aria-label="回原文"></button>
-
-这种「性格」上的岔路口,在每一次模型交互中都会出现。正如谷歌、苹果、Facebook 即便做同一个搜索引擎也会截然不同,因为它们各有原则和价值观<button class="pd-ts" data-t="50:17" data-who="Edwin Chen" data-en="And again, just because... In the same way that there's like a kind of a fork in a road between how you could choose how your model behaves for this question, it's like for every other question that models have, the kind of behavior that you want will fundamentally affect it." aria-label="回原文"></button>。
-
-> 【背景】Grok 是 xAI 推出的大模型,以其不羁甚至带点叛逆的个性回答问题著称,在此作为模型具有鲜明性格的典型例子被主持人提及<button class="pd-ts" data-t="50:45" data-who="主持人" data-en="You already see that with Grok. It's got a very different personality and a very different approach to answering questions. And so what I'm hearing is you're going to see more of this differentiation." aria-label="回原文"></button>。
-
-Edwin 在最后把这些思考拔高到一个哲学层面:做数据训练和评估,本质上不是在打标签或画框,而是在「养育人类的孩子」——你不只是喂数据,你在教它价值观、创造力和何为美<button class="pd-ts" data-t="62:55" data-who="Edwin Chen" data-en="And so I've actually always hated the word data labeling because it just paints this very simplistic picture when I think what we're doing is completely different." aria-label="回原文"></button>。我们选择的「[[目标函数|目标函数]]」(模型试图最大化的指标)将决定我们是在推动人类进步,还是在造一堆只会吞噬我们时间、让我们变懒的机器<button class="pd-ts" data-t="58:01" data-who="Edwin Chen" data-en="Along that thread, I know you have a very strong thesis on just why this work matters to humanity and why this is so important, talk about that. I'll get a bit philosophical here, but I think the question itself is a bit philosophical, so bear with me." aria-label="回原文"></button>。他常说:「你就是你的目标函数」——因此,必须坚持那些丰富、复杂、真正能衡量是否改善人类生活的指标,而不是点击和点赞这种偷懒的代理指标<button class="pd-ts" data-t="60:01" data-who="Edwin Chen" data-en="We want to work the hard, important metrics that require the hardest types of data and not just the easy ones. So I think one of the things I often say is you are your objective function." aria-label="回原文"></button>。
+这些帮助模型变得更聪明的方法,最终都指向了一个更宏大的哲学命题:我们到底想造一个什么样的 AI?Edwin 提出了一个非常反直觉的点:不同的 AI 公司因为价值观不同,未来会造出截然不同的模型。他曾让 Claude 帮他写一封无关紧要的邮件,模型迭代了 30 次、花了他半小时写出了「完美的邮件」。但他事后很懊恼:如果模型的目标只是无休止地追求完美、霸占用户时间,那它依然是个糟糕的工具。我们究竟想要一个只会谄媚说「你是对的,我们还能再改 20 版」的模型,还是想要一个果断说「邮件够好了,快发吧,去过你的生活」的模型?在他眼里,[[目标函数|目标函数]](Objective Function,模型在训练时被要求去最大化或最小化的数学目标)的选择至关重要。人类的点击、点赞这些代理指标最容易优化,让 AI 帮人偷懒也最容易赚钱,但他坚持要去死磕那些困难的指标:训练真正让人更有创造力、推动人类进步的 AI <button class="pd-ts" data-t="49:09" data-who="Edwin Chen" data-en="But I think over the past year, I've realized that the values that the companies have will shape the model. So let me give you an example. So I was asking Claude to help me draft an email the other day, and it went through 30 different versions." aria-label="回原文"></button>。
 
 ## 本集带走
 
-1. **数据质量不是「把任务外包给大量人」**。它需要对领域有极深的理解,去捕捉那些无法简化为勾选框的微妙品质(比如一首诗是否独特、是否触动人心),并为此构建极复杂的多信号评估系统。
-2. **当前的行业基准测试(尤其像 LLM Arena 这类排行榜)正在严重误导 AI 发展**。它们逼着实验室去优化花哨但空洞的回答(加表情、变长),而不是真正的准确性,正在让模型变差。
-3. **公司的价值观会塑造模型的「性格」**。随着技术成熟,不同公司训练出的模型将因为各自的取舍(是奉承用户还是节省用户时间)而呈现出根本性的差异。
-4. **强化学习环境(RL 环境)是下一个前沿**。它用复杂、长期、多步骤的模拟现实世界来训练模型,能暴露出模型在端到端任务上的灾难性弱点,这是走向更智能模型的必经之路。
+最后收个尾,这一集值得带走的是四句话。第一,别被硅谷的常规剧本绑架。你可以靠极小的精英团队、完全不碰 VC 的自力更生模式,靠死磕出 10 倍好的产品口碑,建立起一家改变行业的公司。第二,「数据标注」是个充满误导性的词。我们不是在给猫狗照片画框,而是在像养育孩子一样教 AI 学会品味、审美和价值观。如果你不能深度理解某个领域里的「卓越」到底是什么,你就永远喂不出顶级的模型。第三,整个 AI 行业正面临巨大的目标错位风险。当模型为了在充斥着大众随意投票的排行榜上刷分,开始拼命堆砌 emoji、说废话、拍用户马屁时,它其实是在走向「小报化」。我们优化的是什么,我们就会得到什么,所以必须警惕那些只盯着点击和参与度的代理指标。第四,大模型并不是终点。现有的语言模型可能已经接近瓶颈,想让它们真正变聪明,必须把它们扔进复杂的强化学习虚拟环境里去试错、去完成多步骤的真实任务。
 
-<div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>8 条(中英对照,已过机器闸门)</span></div>
 
-> <span class="qz">他们认为你可以只是把人力扔向问题并获得好的数据,但这完全是错的。</span>  
-> *They think you could just throw bodies at a problem and get good data and that's completely wrong.*  
-> <span class="qm">—— Edwin Chen · [09:51]</span> ^q1
+> <span class="qz">我曾在一些大型科技公司工作,我总觉得我们可以解雇 90% 的人,我们会走得更快,因为最优秀的人不会有这些干扰。</span>  
+> *I used to work at a bunch of the big tech companies and I always felt that we could fire 90% of the people and we would move faster because the best people wouldn't have all these distractions.*  
+> <span class="qm">—— Edwin Chen · [00:14]</span> ^q1
 
-> <span class="qz">是的,所以我根本不信任这些基准测试。</span>  
-> *Yeah, so I don't trust the benchmarks at all.*  
-> <span class="qm">—— Edwin Chen · [18:00]</span> ^q2
+> <span class="qz">我们寻找的是诺贝尔奖获奖级别的诗歌。</span>  
+> *We are looking for a Nobel Prize-winning poetry.*  
+> <span class="qm">—— Edwin Chen · [10:19]</span> ^q2
 
 > <span class="qz">这些模型能获得国际数学奥林匹克竞赛金牌,但它们在解析 PDF 时仍然有困难,这有点疯狂。</span>  
 > *It's kind of crazy that these models can win IMO gold medals, but they still have trouble parsing PDFs.*  
 > <span class="qm">—— Edwin Chen · [18:49]</span> ^q3
 
+> <span class="qz">这实际上是在针对那些在杂货店买小报的人群来优化你的模型。</span>  
+> *It's literally optimizing your models for the types of people who buy tabloids at the grocery store.*  
+> <span class="qm">—— Edwin Chen · [24:08]</span> ^q4
+
 > <span class="qz">我们基本上是在教导我们的模型去追逐多巴胺而不是真理。</span>  
 > *We're basically teaching our models to chase dopamine instead of truth.*  
-> <span class="qm">—— Edwin Chen · [23:25]</span> ^q4
+> <span class="qm">—— Edwin Chen · [23:25]</span> ^q5
 
-> <span class="qz">我在年底获得晋升的唯一途径就是攀登这个排行榜,尽管我知道攀登它可能会让我的模型变差,而且准确性</span>  
-> *The only way I'm going to get promoted at the end of the year is if I climb this leaderboard, even though I know that climbing it is probably going to make my model worse and accuracy*  
-> <span class="qm">—— Edwin Chen · [24:49]</span> ^q5
+> <span class="qz">如果你因为市场还没准备好而失败,我实际上认为那样更好。至少你尝试过某种深刻的、新颖的、困难的事情,而不是转型成为另一家 LLM 包装公司。</span>  
+> *If you fail because the market isn't ready yet, I actually think that's way better. At least you took a swing at something deep, and novel, and hard instead of pivoting into another LLM wrapper company.*  
+> <span class="qm">—— Edwin Chen · [30:13]</span> ^q6
 
-> <span class="qz">如果你一直在转型,你就没有承担任何风险。</span>  
-> *If you're constantly pivoting, you're not taking any risks.*  
-> <span class="qm">—— Edwin Chen · [30:09]</span> ^q6
+> <span class="qz">我宁愿是 Terrence Tau 而不是 Warren Buffett,所以那种创造推进前沿的研究而不仅仅是获得一些估值的概念,一直是我前进的动力。</span>  
+> *I would rather be Terrence Tau than Warren Buffett, so that notion of creating research that pushes the frontier forward and not just getting some valuation, that's always been what drives me.*  
+> <span class="qm">—— Edwin Chen · [47:11]</span> ^q7
 
-> <span class="qz">构建某种重要的、将改变世界的东西的唯一途径是,如果你找到一个你相信的大主意,并对其他所有事情说不。</span>  
-> *The only way you build something that matters that's going to change the world is if you find a big idea you believe in and you say no to everything else.*  
-> <span class="qm">—— Edwin Chen · [30:24]</span> ^q7
-
-> <span class="qz">我绝对认为 vibe coding 被过度炒作。</span>  
-> *I definitely think that vibe coding is over-hyped.*  
+> <span class="qz">我绝对认为 vibe coding 被过度炒作了。我认为人们没有意识到它在长期内会让你的系统变得多么不可维护。</span>  
+> *I definitely think that vibe coding is over-hyped. I think people don't realize how much it's going to make your systems unmaintainable in the long-term*  
 > <span class="qm">—— Edwin Chen · [51:56]</span> ^q8
-
-> <span class="qz">我认为未来几年会发生的事情之一是,模型实际上将变得越来越差异化,因为不同实验室拥有的个性和行为,以及他们优化模型的目标函数类型。</span>  
-> *I think one of the things that's going to happen in the next few years is that the models are actually going to become increasingly differentiated because of the personalities and behaviors that the different labs have and the kind of objective functions that they are optimizing their models for.*  
-> <span class="qm">—— Edwin Chen · [48:20]</span> ^q9
 
 <div class="pd-sec">接着看</div>
 
@@ -158,17 +102,17 @@ Edwin 在最后把这些思考拔高到一个哲学层面:做数据训练和评�
 **顺着「创业与行业」挖下去**
 
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同公司:ChatGPT、Waymo
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 悬崖边？数据中心次级债与 SpaceX 缩水]] —— 同公司:Anthropic · 同概念:AGI
-- [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|Transformer 见顶了吗？OpenAI 与 Google 前核心创立 Core Automation 寻找下一代架构]] —— 同公司:Anthropic · 同概念:AGI
+- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]] —— 同公司:Anthropic · 同概念:AGI
+- [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构]] —— 同公司:Anthropic · 同概念:AGI
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-03-01-lennys-the-design-process-is-dead|The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)]] —— 同公司:Anthropic、Claude
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同公司:Anthropic、ChatGPT
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|Adam Mosseri：AI 时代的团队重组与产品品味]] —— 同公司:Anthropic · 同概念:vibe coding
+- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]] —— 同公司:Anthropic、Claude
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同公司:Anthropic、ChatGPT
+- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来]] —— 同公司:Anthropic · 同概念:vibe coding
 
 </div>
 </div>

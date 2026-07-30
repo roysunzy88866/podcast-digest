@@ -2,76 +2,50 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "27:23",
+      "timestamp": "00:00",
       "speaker": "Benedict Evans",
       "trimmed": false,
-      "tsWas": "27:23",
-      "spkWas": "Benedict Evans"
-    },
-    {
-      "i": 2,
-      "timestamp": "00:23",
-      "speaker": "Benedict Evans",
-      "trimmed": false,
-      "tsWas": "21:11",
+      "tsWas": "00:00",
       "spkWas": "Benedict Evans"
     },
     {
       "i": 3,
-      "timestamp": "18:17",
+      "timestamp": "26:50",
       "speaker": "Benedict Evans",
       "trimmed": false,
-      "tsWas": "18:16",
+      "tsWas": "26:46",
       "spkWas": "Benedict Evans"
     },
     {
       "i": 4,
-      "timestamp": "34:11",
+      "timestamp": "40:10",
       "speaker": "Benedict Evans",
       "trimmed": false,
-      "tsWas": "34:11",
+      "tsWas": "40:07",
       "spkWas": "Benedict Evans"
     },
     {
       "i": 5,
-      "timestamp": "38:42",
+      "timestamp": "33:00",
       "speaker": "Benedict Evans",
       "trimmed": false,
-      "tsWas": "38:42",
+      "tsWas": "33:00",
       "spkWas": "Benedict Evans"
     },
     {
       "i": 6,
-      "timestamp": "44:24",
-      "speaker": "Benedict Evans",
-      "trimmed": true,
-      "tsWas": "44:26",
-      "spkWas": "Benedict Evans"
-    },
-    {
-      "i": 7,
-      "timestamp": "67:02",
+      "timestamp": "31:54",
       "speaker": "Benedict Evans",
       "trimmed": false,
-      "tsWas": "67:02",
-      "spkWas": "Benedict Evans"
-    },
-    {
-      "i": 8,
-      "timestamp": "63:35",
-      "speaker": "Benedict Evans",
-      "trimmed": false,
-      "tsWas": "63:35",
-      "spkWas": "Benedict Evans"
-    },
-    {
-      "i": 9,
-      "timestamp": "68:02",
-      "speaker": "Benedict Evans",
-      "trimmed": false,
-      "tsWas": "68:02",
+      "tsWas": "31:47",
       "spkWas": "Benedict Evans"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 2,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "The enterprise sales cycle is shorter than the venture backed funding cycle. Longer rather. It takes you longer to get an enterprise deal than it takes you to go between raps."
+    }
+  ]
 }

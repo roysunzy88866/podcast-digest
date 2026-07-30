@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]]**(30:21起):本集说它是 Cursor 中速度极快的模型。嘉宾在执行计划阶段用它,因为它快得离谱并让人保持心流,构建完整功能只需要几分钟。
+- **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]]**(30:21起):本集说它是 Cursor 中速度极快的模型。嘉宾在执行计划阶段用它,因为它快得离谱并让人保持心流,构建完整功能只需要几分钟。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] — 作为概念
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为概念
 
 ## ③ 关联
 

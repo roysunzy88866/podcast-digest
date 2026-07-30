@@ -7,26 +7,30 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AGI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AGI">AG</div><div class="pi"><h1 class="pt">AGI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AGI">AG</div><div class="pi"><h1 class="pt">AGI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]]**(01:14起):本集讨论数据评估需求的时间线时提及;嘉宾认为当前行业正将 AGI 推向错误方向,并持保守态度,认为距离实现还有几十年。
-- **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]]**(16:14起):本集以略带玩笑的口吻提及，表示即使未来实现了 AGI，想要让六个人在一个房间里达成一致仍然是不可能的。
-- **[[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱》]]**(26:03起):本集说这个概念正在被不断重新定义（比如指能做一定比例经济价值工作的机器），并指出我们其实无法预测它是否会达到人类智能水平。
-- **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]]**(09:26起):本集把它说成:一种要么赢者通吃要么全盘皆输的终极叙事(AGI 或破产),但嘉宾指出随着模型路径多元化,如今除了 OpenAI 和 Anthropic 几乎没人再信这套。
-- **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展》]]**(00:21起):本集把它说成：OpenAI 一开始决心奉献一生去创造的目标，十年前被业界主流视为错误且会引发 AI 寒冬，如今被视为商业与社会史上最重要的事。
-- **[[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 见顶了吗？OpenAI 与 Google 前核心创立 Core Automation 寻找下一代架构》]]**(05:32起):本集将其重新定义为：一个能够在没有任何人类参与循环的情况下，完全靠自己与现实世界交互来不断自我改进和学习的模型。
+- **[[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]]**(01:14起):本集讨论数据评估需求的时间线时提及;嘉宾认为当前行业正将 AGI 推向错误方向,并持保守态度,认为距离实现还有几十年。
+- **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]]**(16:14起):本集以略带玩笑的口吻提及，表示即使未来实现了 AGI，想要让六个人在一个房间里达成一致仍然是不可能的。
+- **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(26:03起):本集说这个概念正在被不断重新定义（比如指能做一定比例经济价值工作的机器），并指出我们其实无法预测它是否会达到人类智能水平。
+- **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]]**(09:26起):本集把它说成:一种要么赢者通吃要么全盘皆输的终极叙事(AGI 或破产),但嘉宾指出随着模型路径多元化,如今除了 OpenAI 和 Anthropic 几乎没人再信这套。
+- **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]]**(00:21起):本集把它说成：OpenAI 一开始决心奉献一生去创造的目标，十年前被业界主流视为错误且会引发 AI 寒冬，如今被视为商业与社会史上最重要的事。
+- **[[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]]**(05:32起):本集将其重新定义为：一个能够在没有任何人类参与循环的情况下，完全靠自己与现实世界交互来不断自我改进和学习的模型。
 
 ## ① 提到它的金句
 
-*4 条,均已过机器闸门*
+*6 条,均已过机器闸门*
 
-![[2025-11-16-lennys-the-godmother-of-ai#^q1]]
+![[2025-11-16-lennys-the-godmother-of-ai#^q2]]
 
-![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q2]]
+![[2026-04-05-lennys-anthropics-1b-to-19b-growth-run#^q4]]
 
-![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q6]]
+![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q5]]
+
+![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q6]]
+
+![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q8]]
 
 ![[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto#^q6]]
 
@@ -34,12 +38,12 @@ unlisted: true
 
 *6 集*
 
-- [[2025-12-07-lennys-surge-ai-edwin-chen|《Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理》]] — 作为概念(提及)
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]] — 作为概念(提及)
-- [[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱》]] — 作为概念(提及)
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 悬崖边？数据中心次级债与 SpaceX 缩水》]] — 作为概念
-- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展》]] — 作为概念
-- [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 见顶了吗？OpenAI 与 Google 前核心创立 Core Automation 寻找下一代架构》]] — 作为概念
+- [[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]] — 作为概念(提及)
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为概念(提及)
+- [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为概念(提及)
+- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为概念
+- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]] — 作为概念
+- [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]] — 作为概念
 
 ## ③ 关联
 

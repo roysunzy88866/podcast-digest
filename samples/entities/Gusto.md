@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]]**(00:35起):本集嘉宾所在的、拥有上千名研发人员的科技公司，主营薪资发放和人力资源服务，内部孵化出了全新的 AI 助手产品线。
+- **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]]**(00:35起):本集嘉宾所在的、拥有上千名研发人员的科技公司，主营薪资发放和人力资源服务，内部孵化出了全新的 AI 助手产品线。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] — 作为被讨论公司
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]] — 作为被讨论公司
 
 ## ③ 关联
 

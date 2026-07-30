@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]]**(00:09起):本集提到的一套帮助快速搭建 AI 应用的工具包，团队的技术栈除了 Cloudflare Worker 外仅使用了它，不再需要任何第三方的记忆或规划框架。
+- **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]]**(00:09起):本集提到的一套帮助快速搭建 AI 应用的工具包，团队的技术栈除了 Cloudflare Worker 外仅使用了它，不再需要任何第三方的记忆或规划框架。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] — 作为概念
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]] — 作为概念
 
 ## ③ 关联
 

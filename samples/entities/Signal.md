@@ -17,7 +17,7 @@ unlisted: true
 
 *1 条,均已过机器闸门*
 
-![[2026-06-14-lennys-the-common-pattern-behind-successful#^q9]]
+![[2026-06-14-lennys-the-common-pattern-behind-successful#^q10]]
 
 ## ② 出现在这些集
 

@@ -7,19 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Notion</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Notion">NO</div><div class="pi"><h1 class="pt">Notion</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Notion">NO</div><div class="pi"><h1 class="pt">Notion</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷》]]**(54:13起):本集提到嘉宾是它的早期投资者。它被描绘为一家在由巨头主导的艰难生产力市场中，靠着创始人极度坚持这种'叙事违规'（极罕见）才开辟出利基市场的公司。
-- **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]]**(00:19起):本集重点讨论的公司，嘉宾的产品团队所在地。本集将其描述为一个拥有庞大用户基础、可作为连接工作空间，并为 Notion AI 智能体提供完美上下文环境的平台。
+- **[[2025-12-28-lennys-10-contrarian-leadership-truths|《故意让人手不足:Rippling 首席产品官的非常规管理心法》]]**(54:13起):本集提到嘉宾是它的早期投资者。它被描绘为一家在由巨头主导的艰难生产力市场中，靠着创始人极度坚持这种'叙事违规'（极罕见）才开辟出利基市场的公司。
+- **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]]**(00:19起):本集重点讨论的公司，嘉宾的产品团队所在地。本集将其描述为一个拥有庞大用户基础、可作为连接工作空间，并为 Notion AI 智能体提供完美上下文环境的平台。
+
+## ① 提到它的金句
+
+*2 条,均已过机器闸门*
+
+![[2025-12-07-lennys-surge-ai-edwin-chen#^q7]]
+
+![[2026-05-03-lennys-why-cultivating-agency-matters-more#^q12]]
 
 ## ② 出现在这些集
 
 *2 集*
 
-- [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷》]] — 作为被讨论公司(提及)
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] — 作为被讨论公司
+- [[2025-12-28-lennys-10-contrarian-leadership-truths|《故意让人手不足:Rippling 首席产品官的非常规管理心法》]] — 作为被讨论公司(提及)
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]] — 作为被讨论公司
 
 ## ③ 关联
 

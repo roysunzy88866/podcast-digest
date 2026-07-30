@@ -139,9 +139,9 @@ Applied Intuition 一直非常低调，直到最近才「出道」发声。Qasar
 
 **顺着「创业与行业」挖下去**
 
-- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|黄仁勋:NVIDIA 起步选错了技术,但学习比技术更重要]] —— 同公司:Tesla、Waymo · 同概念:物理 AI (physical AI)、ChatGPT
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 悬崖边？数据中心次级债与 SpaceX 缩水]] —— 同公司:Tesla、Google、OpenAI
-- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|对话 Samsara CEO:AI 进入物理世界,用 25 万亿数据点改造传统工业]] —— 同公司:Tesla、Waymo · 同概念:物理 AI (physical AI)
+- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式]] —— 同公司:Tesla、Waymo · 同概念:物理 AI (physical AI)、ChatGPT
+- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]] —— 同公司:Tesla、Google、OpenAI
+- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆]] —— 同公司:Tesla、Waymo · 同概念:物理 AI (physical AI)
 
 </div>
 <div class="pd-ex">
@@ -149,8 +149,8 @@ Applied Intuition 一直非常低调，直到最近才「出道」发声。Qasar
 **换个口味**
 
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当代码不再是瓶颈,品味和策展成为产品团队的稀缺力]] —— 同公司:OpenAI · 同概念:ChatGPT、智能体 (agent)
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同公司:OpenAI · 同概念:智能体 (agent)、ChatGPT
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同公司:Lovable · 同概念:智能体 (agent)
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同公司:OpenAI · 同概念:智能体 (agent)、ChatGPT
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同公司:Lovable · 同概念:智能体 (agent)
 
 </div>
 </div>

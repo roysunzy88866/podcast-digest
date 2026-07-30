@@ -1,5 +1,5 @@
 ---
-title: "当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构"
+title: 代码量暴涨8倍后，工程管理怎么办？
 podcast: "Lenny's Podcast"
 date: 2026-06-21
 source_url: https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering
@@ -7,7 +7,7 @@ duration: "98:42"
 type: episode
 cover: "#6366f1"
 image: "/covers/2026-06-21-lennys-building-the-most-ai-pilled-engineering.jpg"
-description: "Fiona Fung分享在代码量暴涨8倍后,如何用异步智能体、验证机制与新管理者制度重塑工程团队。"
+description: Fiona Fung 分享在 AI 时代如何带领 Claude Code 团队重塑工程文化、调试流程与评估体系。
 host: "[[Lenny]]"
 cohosts: ["[[Fiona Fung]]"]
 companies: ["[[Anthropic]]", "[[Facebook Marketplace]]"]
@@ -18,9 +18,9 @@ tags:
   - AI 编程
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>代码量暴涨8倍后，工程管理怎么办？</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# 当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构
+# 代码量暴涨8倍后，工程管理怎么办？
 
 <div class="pd-byl"><b>Fiona Fung</b> · Anthropic工程负责人</div>
 
@@ -28,7 +28,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-06-21-lennys-building-the-most-ai-pilled-engineering.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">对于任何你知道存在恐惧的事情,我的建议是拥抱它并问自己,好吧,有什么我能做的吗,什么在我的控制范围内。</div><div class="a">Fiona Fung · 21:28</div></div>
+<div class="pd-hook"><div class="z">没关系，我有这样一句话：犯新的错误。犯错没关系，只要犯新的错，这样我们就能不断学习。因为如果你追求零错误，那大概意味着你行动不够快，或者有点太谨慎了。</div><div class="a">Fiona Fung · 11:28</div></div>
 
 > [!info] 关联
 > **人物** [[Lenny]] · [[Fiona Fung]]
@@ -39,63 +39,43 @@ tags:
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/building-the-most-ai-pilled-engineering)
 
-<div class="pd-tldr"><b>一句话</b>Fiona Fung分享在代码量暴涨8倍后,如何用异步智能体、验证机制与新管理者制度重塑工程团队。</div>
+<div class="pd-tldr"><b>一句话</b>Fiona Fung 分享在 AI 时代如何带领 Claude Code 团队重塑工程文化、调试流程与评估体系。</div>
 
-本集嘉宾是 [[Fiona Fung|Fiona Fung]],她领导 [[Anthropic|Anthropic]] 的 [[Claude Code|Claude Code]] 和 [[Co-work|Co-Work]] 团队。在加入 Anthropic 之前,她曾在微软工作多年,后转战 Facebook(现 Meta)领导了 [[Facebook Marketplace|Facebook Marketplace]] 团队,并在 Instagram 负责过包含五百多人的庞大工程组织。作为拥有二十五年经验的资深工程师,她亲历了软件工程从光盘时代到云时代的历次变迁。在这集访谈中,Fiona 分享了当生成式 AI 让代码产量激增、编码不再是瓶颈时,软件团队在[[验证|验证]]、协作、角色边界乃至新人培养上面临的全面冲击。全文将沿着四个维度展开:编码生产力暴涨后的验证新命题、团队角色的模糊与新工作流、面对 AI 的两种心态与落差危机,以及团队规模化的文化与制度挑战。
+[[Anthropic|Anthropic]] 的工程师现在平均每季度产出的代码量，是 2025 年时的八倍。过去，软件必须刻进光盘、赶上硬性截止日期才能发行；如今，编码本身不再是瓶颈，真正稀缺的是时间、[[验证|验证]]能力与雄心。负责 [[Claude Code|Claude Code]] 和 Co-work 团队的 [[Fiona Fung|Fiona Fung]] 在这集访谈里，讲了她是如何重塑工程评估标准、重塑调试流程、重塑招人标准，以及在角色边界全面模糊的时代如何维系团队文化的。
 
-## 当吞吐量不再是瓶颈:验证成为新战场
-Fiona 回忆了软件工程历史上的几次大转折:从早期在 IBM 用 Vim 和终端做调试,到加入微软后第一次用上带调试器的 IDE(集成开发环境,即集成了代码编写、运行和调试功能的软件);从软件必须刻成光盘上架的「硬截止日期」时代,到可以随时在线发版的云时代。每一次工具演进,都在重新分配工程师的时间。而眼下的 AI 变革尤为剧烈:她指出,过去工程时间是最宝贵的资源,但现在编码本身已经不再是瓶颈。最近一条推文展示的数据显示,Anthropic 的工程师平均每个季度的代码量达到了 2025 年时的八倍 <button class="pd-ts" data-t="03:28" data-who="Lenny" data-en="Along these lines, there's just this tweet that you guys put out yesterday where you showed, here's the tweet," aria-label="回原文"></button>。随之而来的核心变化是:不仅工程师在提交代码,设计师、产品经理(Co-Work 团队的所有人)都在提交代码,而且吞吐量极高。这种量级的变化,把团队的重心从「写代码」推向了「验证」<button class="pd-ts" data-t="08:59" data-who="Fiona Fung" data-en="you know, like we're seeing with with Cloud Code and Co-Work is coding is no longer the bottleneck." aria-label="回原文"></button>。
+Fiona 是一位有 25 年经验的资深工程领导者。在加入 Anthropic 之前，她曾在微软主导 TypeScript 和 [[Visual Studio|Visual Studio]]（一种集成开发环境）的开发，随后在 Facebook 创立了 [[Facebook Marketplace|Facebook Marketplace]] 团队，并在 Instagram 和 Meta 主管过超过 500 人的组织。这一集 YC 的对谈里，她讲了五件事：为什么传统的代码行数和 PR 数已经失效，管理者该如何用新的例行程序（定时自动运行的[[智能体|智能体]]任务）来跟进团队工作；怎么把人员管理从“下指令”转变成“给目标、给护栏”；在角色边界全面模糊的时代如何招人和评估；在全员异步、人手一群智能体的新常态下，怎么避免工作变成一种孤独的体验；以及管理者最该担心的不是代码会不会出 bug，而是飞速扩张中怎么保住团队的文化。
 
-## 用 Claude 当管理耳目,用「坏与悲」抓质量
-既然编码不再是瓶颈,工具变了,团队的工作方式怎么跟上?Fiona 介绍了几项她作为管理者的新做法。她把一个 Claude Code 远程会话注册到了团队的所有代码仓库中,这个实例还能访问所有 Slack 频道和指标数据。这样,她每个月可以用共享屏幕的方式,带着团队用 Claude Code 一起复盘:上个月的重点是什么?发布了哪些产品?反馈如何?有没有引发什么 Bug?她强调,通过 Claude 的全局视角,团队可以更容易地从大量数据和事件中提炼出下个季度的投资主题 <button class="pd-ts" data-t="10:10" data-who="Fiona Fung" data-en="Like everybody starts being a builder, I would say. The other shift that I've recently done is I actually have a cloud code remote session that I enlist in all of our repos." aria-label="回原文"></button>。
+说完了这集的开场背景，接下来先看 Fiona 眼里最根本的转变：既然写代码不再是瓶颈，到底什么才是新瓶颈？Fiona 指出，当不仅工程师、连设计师和产品经理都在提交代码，且整体吞吐量飙升时，最大的挑战变成了“验证”。以前工程时间极其宝贵，还要赶着把软件印进光盘发行，所以大家做大量事前规划；现在 Claude Code 和 Co-work 把编码瓶颈打破后，重心转移到了“如何验证这 8 倍的代码真的高质量” <button class="pd-ts" data-t="08:59" data-who="Fiona Fung" data-en="you know, like we're seeing with with Cloud Code and Co-Work is coding is no longer the bottleneck." aria-label="回原文"></button>。为了跟上这种暴涨的产出，她专门在自己所有的代码仓库里挂了一个常驻的 Claude Code 远程会话。这个实例不仅能读取所有代码，还接入了团队的各种 Slack 频道和指标仪表盘。每个月她会共享屏幕，跟团队一起让 Claude 回顾这段时间发布了哪些产品、引发了哪些事故，从中提炼出共性。她还有一句名言：“犯新的错误没关系，只要别犯同样的旧错，就说明你在快速前进” <button class="pd-ts" data-t="11:26" data-who="Fiona Fung" data-en="did it do in market or hey did we have you know like did we cause some bugs and it's okay to like I have this saying make new mistakes like it's okay to make mistakes just make new ones so that we're" aria-label="回原文"></button>。
 
-顺着「如何在高产出下维持质量」这个问题,Fiona 提到了两项更具体的做法。第一是利用自动化测试框架进行代码审查。她指出,Claude 在你给它提供一个「好代码长什么样」的框架时非常出色。团队的做法是把规格说明签入代码仓库并保持与代码同步更新,让 Claude 验证提交的代码是否符合预期。她将这视为[[测试驱动开发|测试驱动开发]](即先写测试用例再写功能代码,TDD)的演进 <button class="pd-ts" data-t="15:25" data-who="Fiona Fung" data-en="frameworks So I had mentioned recently we just updated content design to have a skill in it. And this is why I think if you have specs," aria-label="回原文"></button>。第二是她在团队中推行的「坏与悲」体验分类法。「坏」指的是非常严重的、不可恢复的错误(比如 CLI 崩溃导致用户丢失工作);「悲」则是指那些可恢复但让人不舒服的痛点(比如界面闪烁)。她给每个团队高度自主权,让他们根据各自的服务定义自己的「坏」与「悲」,这样就能在性能、可靠性等原始指标之外,提供一个衡量用户体验的高层框架 <button class="pd-ts" data-t="45:25" data-who="Fiona Fung" data-en="that's been one thing that we've been paying a lot of attention to like so like you know I started this hey let's have a concept of what's bad versus what's sad and" aria-label="回原文"></button>。更有趣的是,团队甚至做了一个追踪脏话的仪表盘,用来监测用户在反馈渠道里的挫败感 <button class="pd-ts" data-t="47:50" data-who="Fiona Fung" data-en="I forget what it's called. yes actually I remember yeah that was last September because we were all we were all seeing some frustrations and yeah that was an engineer on the team of hey we" aria-label="回原文"></button>。
+管理者对庞杂数据的跟进方式变了，那面对每天无数的具体反馈和审查，怎么保证质量不掉线？这就引出了她最大的工作流转变。Fiona 提到，就在一两个月前他们推出了 Routines（例行程序）功能，这彻底改变了她的日常仪式 <button class="pd-ts" data-t="13:06" data-who="Fiona Fung" data-en="see some gaps like that just used to be something I would do every morning and yeah I think maybe a month or two ago we launched routines and that's also completely" aria-label="回原文"></button>。以前她得每天早起、喝着咖啡人工去刷各个渠道的用户反馈；现在她只需设定一个 Routine，让智能体每天定时跑一遍，自动分析反馈里的主题，甚至直接把修复的 PR（代码合并请求）生成好等她醒来审查 <button class="pd-ts" data-t="37:02" data-who="Fiona Fung" data-en="kick off and then I wake up and I end up having PRs that I could review versus before which is still I can have different agents and then it's still I'm still thinking about okay now" aria-label="回原文"></button>。她强调，这其实是[[测试驱动开发|测试驱动开发]]（TDD）的进化版：以前你得逼着自己先写测试再写代码，就像先吃讨厌的西兰花；现在你只需给出一份“什么是好”的规格说明，Claude 就能自动据此做代码审查 <button class="pd-ts" data-t="15:52" data-who="Fiona Fung" data-en="Get that into the repo and then code review can make sure it's still matching what you set up to do. Basically, it's like the evolution of test-driven development." aria-label="回原文"></button>。为了监控那些难以量化的糟糕体验，她甚至搞了一个“脏话仪表盘”，专门追踪用户因为极度沮丧而爆粗口的频率 <button class="pd-ts" data-t="48:18" data-who="Fiona Fung" data-en="experience and less frustrating. But yeah, the swear word dashboard is a fun one. This episode is brought to you by Mercury." aria-label="回原文"></button>。
 
-## 角色大融合与异步智能体工作流
-说完了怎么管质量,接下来是人的问题。在 AI 工具的加持下,团队的角色边界正在迅速模糊。Fiona 现在在招聘时最看重两类人:一类是有产品直觉的「创意构建者」,一类是能处理核心难题的「深层系统专家」<button class="pd-ts" data-t="17:09" data-who="Lenny" data-en="And so I'll read what you said there and I want to hear more here. So the two profiles that you now look for when you're hiring are creative builders with product sense and deep systems experts for the hard parts." aria-label="回原文"></button>。产品经理也不再受限于工程资源的带宽,遇到想做的功能可以直接卷起袖子自己动手;而非移动端出身的工程师,也能在 Claude 的辅助下顺利给功能加上安卓端的适配 <button class="pd-ts" data-t="18:54" data-who="Fiona Fung" data-en="now it's about how ambitious can you be like everything is now possible in theory now it's about how ambitious and how big can you think versus just like okay it's" aria-label="回原文"></button>。代码相关职位的界限都在模糊,工程师变得越来越有产品思维,而所有人都在变成构建者 <button class="pd-ts" data-t="62:21" data-who="Fiona Fung" data-en="Oh, interesting. Well, definitely, I think most commits are clawed assisted. And so that was a shift." aria-label="回原文"></button>。
+工具变了，人和组织架构该怎么跟着变？这正是下一个话题。Fiona 在招聘时，如今专门寻找两类人：一类是具有产品直觉的创意构建者，另一类是专门解决硬核技术难题的深度系统专家 <button class="pd-ts" data-t="17:09" data-who="Lenny" data-en="And so I'll read what you said there and I want to hear more here. So the two profiles that you now look for when you're hiring are creative builders with product sense and deep systems experts for the hard parts." aria-label="回原文"></button>。不仅如此，她还要求团队里的每个管理者，上任的第一步必须是先做回 [[IC|IC]]（独立贡献者） <button class="pd-ts" data-t="49:48" data-who="Lenny" data-en="to how teams operate and I think is something that has worked really well for you. One is making every manager start as an IC and then just every manager has to continue being an IC part time," aria-label="回原文"></button>。Fiona 自己在 Meta 管过 500 人的大组织，但刚加入 Anthropic 时，她也是从写代码的 IC 做起的 <button class="pd-ts" data-t="53:04" data-who="Fiona Fung" data-en="I started out, like it was for a very short amount of time, but actually this was my journey between Microsoft and Meta." aria-label="回原文"></button>。她认为，如果管理者不亲手用自己团队造的工具，就会彻底失去对产品质感的最直观触感。不管仪表盘多漂亮，如果没有“狗粮”（[[内部试用|内部试用]]）的切身体验，你提出的反馈只会让人觉得脱离实际 <button class="pd-ts" data-t="64:06" data-who="Fiona Fung" data-en="your teams and and and reports I love it um yeah I think it's it's really and and this has worked for me um it's just been a really good way for me to keep a pulse on you know anytime you build" aria-label="回原文"></button>。有意思的是，这种工作模式的转变也带来了副作用：大家都埋头跟自己的智能体干活，工作变得极其孤独。为了对抗这种疏离感，她发起了“[[结对编程|结对编程]]午餐”，让大家能互相偷师别人是怎么用 Claude Code 的 <button class="pd-ts" data-t="56:49" data-who="Fiona Fung" data-en="So recently we started maybe like a pairwise programming lunch. Because what we also learned was on Cloud Code, everybody uses Cloud Code and Co-Work. Everybody uses the flow so differently." aria-label="回原文"></button>。
 
-工作方式也在向更高的抽象层演进。Fiona 提到,团队正转向更多的异步工作风格。过去她需要同步地手写各种提示词(Prompt,即给 AI 模型下指令的文本),现在她可以设定一个例行程序,让它在每天早上特定时间自动运行。这个程序不仅能汇总反馈,甚至能代表她启动其他的[[智能体|智能体]]去处理潜在的 Bug 并生成 PR(拉取请求,即提交代码修改的机制)供她醒来后审查 <button class="pd-ts" data-t="36:24" data-who="Fiona Fung" data-en="actually looks like ah yeah so uh routines is like how you can like so if you remember I was trying about my what I used to do is always like you know wake up with my morning cup of coffee and hey look at through this slack channel for me but" aria-label="回原文"></button>。这种模式虽然极大地提升了产能,但也带来了新的烦恼:上下文切换的认知负荷太重了。当你同时开着二十个智能体时,要追踪它们各自在干什么、随时切换语境去审查,成了一个尚未解决的难题 <button class="pd-ts" data-t="71:13" data-who="Fiona Fung" data-en="know I think because with routines and everything being more async I think there is starting to be a high load on our context switching because I even remember I" aria-label="回原文"></button>。
+团队角色变了，那更宏观的评估体系和规划体系是不是也失灵了？Fiona 觉得，单纯去量代码行数或是纠结 Token 最大化，本质上都是在把“动静”误当成“进步” <button class="pd-ts" data-t="41:29" data-who="Fiona Fung" data-en="to to do like all of this you know there was another saying I really like don't first take motion for progress because if you're measuring like you know like tool" aria-label="回原文"></button>。她更关心的，是输出到底有没有转化为最终的业务结果。她举了早期做 Facebook Marketplace 时的例子：最初按区域扩张时，他们死盯“卖家数量”这个门槛，结果发现某个地区卖家不多，但少数几个强力卖家就完美满足了当地人的需求，逼着他们反过来去修正原先设死的指标 <button class="pd-ts" data-t="43:06" data-who="Fiona Fung" data-en="thing we would keep an eye on is kind of like number of sellers and I remembered after launching to our first region I'm like how in this area the number of sellers" aria-label="回原文"></button>。这种怀疑既有框架的态度也延伸到了团队管理上：她彻底废除了半年期的路线图规划，改成了极其轻量级的 JIT（[[准时制|准时制]]）月度规划，最多每周大家碰一次头，确认一下本月优先级有没有变 <button class="pd-ts" data-t="84:41" data-who="Fiona Fung" data-en="yeah I call it JIT planning now like just in time planning so it is like around like because yeah I think six months was too long so now for sure some projects will take more than a month but we try to do like a month planning like really" aria-label="回原文"></button>。因为变化实在太快，任何重流程都会迅速沦为拖累团队的“税”。
 
-## 面对技术狂飙:成长心态与弥合鸿沟
-工具和人都在变,不同人的处境也因此拉开差距。当主持人问及为什么有的人在 AI 时代如鱼得水、有的人却充满挫败感时,Fiona 认为关键在于成长型思维。她坦言,放弃那些过去让你成功的旧习惯会很可怕,但对于任何让你感到恐惧的事情,最好的应对方式就是主动拥抱它,并问自己「什么是我的控制范围内的事?」<button class="pd-ts" data-t="21:11" data-who="Fiona Fung" data-en="And so my advice there is, at least this is how just in life, because we all have," aria-label="回原文"></button>。
-
-这种主动出击的心态,也延伸到了她弥合 AI 鸿沟的努力中。Fiona 非常关心小企业主群体,因为她曾亲眼看到自己的奶奶移民加拿大时,因为语言不通而陷入孤立,最终在一家小纱线店里找到了社区归属感。她发现 Co-Work 可以极其有效地帮小企业主处理他们最讨厌的开票和报销工作。更有趣的是,一位开餐厅的朋友把 Co-Work 接入了自己杂乱的文件夹,让它帮忙找菜单,甚至做竞品分析。基于这些反馈,团队推出了打包小企业插件的 Co-Work 版本 <button class="pd-ts" data-t="27:18" data-who="Fiona Fung" data-en="that was owned by a lady that also spoke Cantonese and so that became every week we would go to this yarn shop this summer my grandma found her knitting circle and" aria-label="回原文"></button>。她的呼吁非常具体:如果你身边有对 AI 感到恐惧或无从下手的朋友或社区商户,请主动向他们展示 AI 是如何改善了你的生活,因为知识就是力量,如果不主动分享,这道鸿沟只会越来越大 <button class="pd-ts" data-t="30:04" data-who="Fiona Fung" data-en="talking is it just talking about this sharing examples what do you think what's like a way to make a dent in this in this problem for all of us especially to your" aria-label="回原文"></button>。
-
-## 守住团队文化与未来的未知数
-角色模糊了,节奏变快了,这正是下一个话题:团队怎么管?Fiona 分享了几项独特的管理实践。首先是要求所有新加入的管理者先以个人贡献者的身份工作一段时间,亲自动手写代码、用产品,然后再承担起带人的责任。她自己哪怕在管理五百人的组织时,也坚持亲自使用产品(即[[内部试用|内部试用]])。她最近还用 Claude 重新找回了写生产级代码的自信 <button class="pd-ts" data-t="49:55" data-who="Fiona Fung" data-en="continue being an IC part time, kind of this player coach approach. Talk about that, why that's so important in today's world." aria-label="回原文"></button>。
-
-其次,随着大家都埋头和各自的智能体协作,团队里出现了一种「孤独感」。为此,她发起了[[结对编程|结对编程]]午餐和黑客松,让大家能在并肩工作时观察到彼此使用工具的奇招 <button class="pd-ts" data-t="56:38" data-who="Fiona Fung" data-en="But the other thing that we found interesting on the Cloud Code team is after a while we felt it could start being a lonely experience because we all started just" aria-label="回原文"></button>。在规划方面,她彻底抛弃了半年期的路线图,改为「[[准时制|准时制]]」的月度规划,每周只做快速对齐 <button class="pd-ts" data-t="84:37" data-who="Fiona Fung" data-en="roadmap what's kind of like the simple way to explain where you're at with that yeah I call it JIT planning now like just in time planning so it is like around like because yeah I think six months was too long so now for sure some projects" aria-label="回原文"></button>。被问及最让她夜不能寐的难题时,她坦言不是具体的产品挑战,而是如何在飞速扩张中维持那种开放、互助的团队文化 <button class="pd-ts" data-t="78:04" data-who="Fiona Fung" data-en="question you may have already answered this with what you just said but what keeps you up at night you know the thing that keeps me up at night probably um is how we" aria-label="回原文"></button>。
-
-> 【背景】TDD(Test-Driven Development)即测试驱动开发,是一种先编写自动化测试用例,再编写能通过测试的功能代码的软件开发方法论。
-
-> 【背景】Co-Work 是 Anthropic 推出的面向日常知识工作的智能体产品,能够处理文件、填报表格等任务;Claude Code 则专注于编程辅助。
+说完了内部流程的重构，最后回到一个更基础的问题：在这个旧规则飞速失效的世界里，到底是什么支撑着团队不散架？Fiona 坦言，真正让她夜里睡不着的不是什么高深的技术难题，而是团队文化的维系 <button class="pd-ts" data-t="78:09" data-who="Fiona Fung" data-en="you up at night you know the thing that keeps me up at night probably um is how we so you know we talked about kind of like cloud code and co-work team culture that's and the team culture is really important" aria-label="回原文"></button>。在 OpenAI、Anthropic 这些公司疯狂扩张、前所未有地招人的当下，她最看重的是一种“单团队”心态——谁快撞线了，必须回头看有没有队友需要搭把手。为了做到这点，她极其反感管理者粉饰太平。她的噩梦就是那种嘴上说着“一切都好”、实则像“房间着火了还在喝咖啡的狗”一样死扛的经理 <button class="pd-ts" data-t="82:09" data-who="Fiona Fung" data-en="everything's fine I'm like oh my gosh I'm not doing fine I know this thing's like like it's that that whole like you know how there was this meme of the dog drinking" aria-label="回原文"></button>。面对这个让很多人恐惧 AI 的时代，Fiona 的解法很实在：与其害怕，不如问自己“哪怕只做一件事，什么是你能控制的”。她自己就是靠这个信条，在互联网泡沫破裂、学费无着的至暗时刻，靠周末去银行当柜员蹚出了一条路。
 
 ## 本集带走
-1. **编码已非瓶颈,验证才是重心**:当全员都在用 AI 大幅提速时,质量保证的重心应从人工审查转向提供自动化测试框架和体验监控(如「坏与悲」分类法),让模型自行验证。
-2. **角色边界正在消融**:在 AI 辅助下,产品经理可以直接写代码,工程师能跨界做移动端适配。未来的关键人才是兼具产品直觉的「创意构建者」与掌握核心难题的「深层系统专家」。
-3. **管理动作必须升级**:管理者要善用智能体获取全局洞察并转向异步工作流;同时,要在团队扩张和技术狂飙中,通过坚持使用产品、缩短规划周期以及创造人际连接来守住团队文化。
 
-<div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
+最后收个尾，这一集值得带走的是几条实操性极强的管理心得。第一，既然代码量在飙升，管理者与其死盯代码行数或 PR 数，不如把重心彻底转到验证上，把规格说明和验收标准喂给智能体，让它们去挡掉平庸的错误，甚至把日常的反馈巡检都交给定时运行的例行程序。第二，在角色边界全面模糊的时代，真正的护城河不是招只会写代码的人，而是招那种“创意构建者”和“深度系统专家”，并且逼着所有管理者必须亲手写代码、试用自家产品，别脱离一线的泥土味。第三，旧时代那种长达半年、充满仪式感的重规划已经失效了，拥抱轻量级的准时制月度规划，甚至不妨大胆砍掉那些让团队痛苦但又不再产出价值的流程。最后，不管智能体多强悍，真正决定团队上限的依然是文化，是那种允许你坦诚说出“这事搞砸了”的心理安全感，以及在狂飙突进中依然愿意伸手拉队友一把的本能。
 
-> <span class="qz">对于任何你知道存在恐惧的事情,我的建议是拥抱它并问自己,好吧,有什么我能做的吗,什么在我的控制范围内。</span>  
-> *for anything that you know that there is a fear my advice is kind of lean in and ask okay is there some what can I do about it what is within my control*  
-> <span class="qm">—— Fiona Fung · [21:28]</span> ^q1
+<div class="pd-sec">全部金句 <span>4 条(中英对照,已过机器闸门)</span></div>
 
-> <span class="qz">客户会以你没有意图的方式使用你的产品,无论好坏。</span>  
+> <span class="qz">没关系，我有这样一句话：犯新的错误。犯错没关系，只要犯新的错，这样我们就能不断学习。因为如果你追求零错误，那大概意味着你行动不够快，或者有点太谨慎了。</span>  
+> *it's okay to like I have this saying make new mistakes like it's okay to make mistakes just make new ones so that we're always learning because if you aim to make zero mistakes like that probably means you're not you know moving fast enough or being a little bit too cautious*  
+> <span class="qm">—— Fiona Fung · [11:28]</span> ^q1
+
+> <span class="qz">客户会以你没有意图的方式使用你的产品，无论好坏。</span>  
 > *Customers will use your product in ways that you did not intend for good or for bad.*  
 > <span class="qm">—— Fiona Fung · [34:28]</span> ^q2
 
-> <span class="qz">不要首先把动静误认为是进步。</span>  
-> *don't first take motion for progress*  
+> <span class="qz">不要首先把动静误认为是进步，因为如果你在衡量比如工具用户使用情况，那么你衡量的是行动，但它真的实现了你的最终结果吗？</span>  
+> *don't first take motion for progress because if you're measuring like you know like tool user usage then you're you're measuring the action but is it really making whatever the end outcome of yours*  
 > <span class="qm">—— Fiona Fung · [41:29]</span> ^q3
 
-> <span class="qz">我开始引入这个概念,让我们区分什么是坏的与什么是悲的,坏是非常糟糕的不可恢复的错误,悲是某种痛点但可恢复。</span>  
-> *I started this hey let's have a concept of what's bad versus what's sad and bad is like a very bad irrecoverable error and sad is something that's kind of like a pain point recoverable*  
-> <span class="qm">—— Fiona Fung · [45:26]</span> ^q4
-
-> <span class="qz">过了一段时间,我们感觉这可能开始变成一种孤独的体验,因为我们都开始如此频繁地与我们的智能体一起工作了。</span>  
-> *after a while we felt it could start being a lonely experience because we all started just working with our agents so much.*  
-> <span class="qm">—— Fiona Fung · [56:38]</span> ^q5
+> <span class="qz">然后在生活中，你知道，在一个你可以成为任何事物的世界里，可能最好是保持友善。</span>  
+> *And then in life you know probably in a world where you can be anything be kind*  
+> <span class="qm">—— Fiona Fung · [93:06]</span> ^q4
 
 <div class="pd-sec">接着看</div>
 
@@ -104,17 +84,17 @@ Fiona 回忆了软件工程历史上的几次大转折:从早期在 IBM 用 Vim 
 
 **顺着「组织与领导力」挖下去**
 
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」]] —— 同公司:Anthropic
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|Adam Mosseri：AI 时代的团队重组与产品品味]] —— 同公司:Anthropic
+- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|为什么好公司会变坏：Eric Ries 的防腐架构学]] —— 同公司:Anthropic
+- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来]] —— 同公司:Anthropic
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南]] —— 同公司:Anthropic · 同概念:Claude Code、Co-Work、智能体 (agent)
-- [[2026-03-01-lennys-the-design-process-is-dead|The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)]] —— 同公司:Anthropic · 同概念:Claude Code、IC
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同公司:Anthropic · 同概念:Claude Code、智能体 (agent)
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]] —— 同公司:Anthropic · 同概念:Claude Code、Co-Work、智能体 (agent)
+- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]] —— 同公司:Anthropic · 同概念:Claude Code、IC
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同公司:Anthropic · 同概念:Claude Code、智能体 (agent)
 
 </div>
 </div>

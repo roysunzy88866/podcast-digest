@@ -1,1 +1,147 @@
-{"title_zh":"Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师","tldr":"在增长快到「线性图都不酷了」的 Anthropic，增长团队用 AI 自动跑实验、让工程师当 mini-PM，还坚持把安全和品牌置于短期指标之上。","digest_md":"Amol Avasare 是 Anthropic 的增长负责人。这家公司正处于人类商业史上罕见的增长轨道——14 个月内，年经常性收入（ARR，一种衡量订阅业务规模的指标）从 10 亿冲到 190 亿，过去几年一直保持每年 10 倍的增速 [03:52 Amol Avasare]。作为对比，Atlassian、Palantir、Snowflake 这些成立了 15 到 20 年的成熟科技公司，ARR 也就在 40 亿到 60 亿之间，而 Anthropic 每几个月就能新增这么多 [01:48 Lenny]。\n\nAmol 自己加入 Anthropic 的经历就很反常规：当时他是 Claude 的重度用户，觉得这么好的产品「显然没有增长团队」，于是找到首席产品官 Mike Krieger 的个人邮箱，发了一封冷邮件（即主动联系陌生潜在客户或雇主的邮件），直说他觉得公司非常需要一个增长团队。Mike 不仅回了信，还让 Amol 成了他唯一通过冷邮件招进来的 PM [04:33 Amol Avasare]。本集对话沿着 Amol 的视角展开，主要聊了三件事：一是 AI 时代增长团队的做法变了、人的角色变了；二是他用 Cowork 等 AI 工具把工作流「魔法化」的真实操作；三是 Anthropic 为什么敢为安全和价值观放弃短期收入，以及 Amol 个人从重度脑损伤中重生的人生哲学。\n\n## 增长的烦恼：70% 的时间在「救火」\n\n虽然在一家拥有顶尖模型的公司做增长听起来很轻松，但 Amol 直言这是他一生中最难的工作。他大约 70% 的时间花在处理「成功灾难」（success disasters，指业务增长太快导致系统或流程崩溃）上 [12:24 Amol Avasare]。\n\n这背后的核心原因是行业普遍面临的「能力过剩」（capability overhang，指模型能力提升太快，远超产品端能消化的速度）[15:42 Amol Avasare]。比如新模型 Opus 4.5 解锁了一大堆新能力，增长团队刚费尽心思测试出引导用户使用新功能的好方法，下一个模型可能又出来了，让之前积累的经验瞬间过时 [16:49 Amol Avasare]。面对这种高速变化，Amol 分享了一个反直觉的增长心法：在 AI 产品中，用户往往不知道怎么用模型，所以「正确的摩擦」（让人多走一步的流程设计）反而能提升转化和留存。与其简单粗暴地让用户秒进产品，不如多问几句他们的兴趣和身份，借此把对的功能推荐给他们 [21:13 Amol Avasare]。\n\n## 重新配置精力：多下大注，把 PM 的活交给工程师\n\n既然产品价值呈指数级增长，增长团队的工作方式也必须重构。普通公司可能会把 60%-70% 的精力放在各种中小优化上；但在 Anthropic，他们反其道而行之，把 50% 到 70% 的精力投入到「大赌注」里 [26:36 Amol Avasare]。因为他们确信，AI 产品的价值在两年后将是今天的成百上千倍，如果只盯着眼前的微小转化率，反而会错过新涌现的巨大市场（比如智能体编码 agentic coding）[28:09 Amol Avasare]。Amol 强调，只要你的产品核心价值由 AI 支撑（比如 Lovable、Cursor），你就该这么干 [31:38 Amol Avasare]。\n\n工作重心变了，团队的职能边界也在重塑。Amol 发现，得益于 Claude Code 等工具，工程师的效率提升了 2 到 3 倍，原本 5 个工程师的活现在等效于 15 到 20 个工程师。这导致传统的「5 个工程师配 1 个 PM」的比例严重失衡，PM 和设计师被「挤压」得喘不过气 [43:28 Amol Avasare]。\n\n为了破局，Anthropic 的增长团队立下规矩：如果项目工作量在「两周工程时间」以内，默认由工程师来当 mini-PM，全权负责去搞定法务、安全等跨职能沟通；只有需要两周以上的大项目，PM 才作为主负责人介入 [45:48 Amol Avasare]。因此，那些具备「产品思维」的工程师成了奇货可居的独角兽 [46:37 Amol Avasare]。而在日常文档上，Amol 极度反感传统的 PRD（产品需求文档），团队交付的内容中有 60% 到 80% 连 PRD 都没有，大家直接在 Slack 里沟通几句或做个原型就开干 [52:01 Amol Avasare]。\n\n## 用 AI 跑增长实验：一个住在未来的工作流\n\n聊到自动化，Amol 分享了一个让人直呼「你们简直住在未来」的项目。增长平台团队推动了一个名为 CASH（Claude 加速可持续超高速增长）的倡议，核心是把整个增长实验的生命周期——从识别机会、构建功能、测试把关到上线后分析数据——全部交给 Claude 自动化评估和迭代 [34:34 Amol Avasare]。\n\n目前这还处于早期，主要做一些文案修改和微小的 UI 调整。Amol 坦言，Claude 当前的实验胜率相当于一个有两三年经验的初级 PM，还比不过高级 PM [36:36 Amol Avasare]。但按照模型进化的速度，这很快会改变。唯一短期难以被 AI 替代的，是跨部门的人际协同对齐（cross-functional stakeholder management）[37:12 Amol Avasare]。Amol 的设计负责人 Joel 曾开玩笑说：「等我们有了 AGI（通用人工智能），想让六个人在房间里达成一致仍然是不可能的。」[38:04 Amol Avasare]\n\n除了跑实验，Amol 还把大量繁琐的日常管理交给了 Cowork（一种带有桌面应用和 Chrome 扩展的 AI 助手）。他现在用 Cowork 每天早上自动看 20 到 25 张数据图表并总结异动；自动帮他去 Benepass 和 Brex 处理报销；更巧妙的是，他把 Cowork 接入 Slack MCP（一种让外部应用读取 Slack 数据的接口），让它每周扫视工作群，主动提醒他哪些部门之间存在目标不一致的风险，甚至以他经理 Ami Vora 的口吻，基于她公开的文章和内部发言，每周给他提供管理反馈 [60:02 Amol Avasare] [63:01 Amol Avasare]。\n\n## 把「不赚钱」当壁垒：安全与极度透明\n\n在如此激进的增长中，Amol 指出 Anthropic 的底色是「极度克制」。成立之初，他们在资金和分发渠道上都远不及 Meta、Google，也没有 OpenAI 的先发优势，甚至曾因安全顾虑压住了自家的聊天机器人没发，直到被 ChatGPT 抢了先机 [70:11 Amol Avasare]。公司采取了「通过约束获得自由」的原则，极度聚焦于 B2B 和编码场景——不仅因为这是大市场，更因为做好编码能反哺加速 AI 研究 [71:38 Amol Avasare]。\n\n作为增长负责人，Amol 面对有争议的增长实验时有一套准则：有些测试哪怕能带来巨大收益，但只要触碰了 AI 安全的底线，就绝对不跑 [74:49 Amol Avasare]。他坚信，增长团队最常犯的错误就是「试图榨干每一分钱」。他要求团队「乐于把钱留在桌上」，即为了保护品牌和用户体验，坦然接受短期指标上的损失 [76:12 Amol Avasare]。\n\n这种价值观深深植根于公司结构。> 【背景】Anthropic 成立时特意采用了公益公司（PBC）结构，在法律层面允许公司不把「最大化股东价值」作为唯一目的。Amol 还分享了公司内部极度透明的文化：每个人（包括 CEO Dario）都有类似内部 Twitter 的 notebook 频道，普通员工可以直接进去公开反驳 CEO，这种高人才密度加高信任度的文化，构成了他们真正的护城河 [86:10 Amol Avasare]。有意思的是，这些沉淀在频道里的思想交锋，也成了内部 AI 智能体理解公司行事风格的绝佳语料 [89:46 Amol Avasare]。\n\n## 本集带走\n1. **AI 时代的团队结构会倒转**：由于 AI 对工程效率的放大远超设计和产品，PM 的最佳用法不是亲自写代码做原型，而是当「教练」，指导那些有产品思维的工程师去当 mini-PM；前提是给项目划定明确的责任边界（如两周法则）。\n2. **摩擦不是坏事**：在模型能力日新月异、用户认知跟不上的 AI 产品里，适当地增加「正确的摩擦」（多问几个问题、多做几步引导），反而能帮用户理解产品价值，从而大幅提升激活和留存。\n3. **用你的工具替代初级白领**：通过把数据面板、财务报销、甚至内部利益冲突监测接入 AI 助手，并模拟上级视角给自己做每周复盘，你完全可以组建一个不知疲倦的「数字分身团队」。","quotes":[{"en":"You need to understand that 50%, 60%, 70% of how you operate in the past, just throw it out the door.","zh":"你需要明白，你过去 50%、60%、70% 的运作方式，直接把它们抛在脑后吧。","timestamp":"00:37","speaker":"Amol Avasare"},{"en":"The product value that we will deliver in two years time is probably like 1000X, what it is today.","zh":"我们两年后将交付的产品价值可能是今天的 1000 倍。","timestamp":"01:08","speaker":"Amol Avasare"},{"en":"I'm averse to PRDs. I think I just hate documentation.","zh":"我反感 PRD。我想我只是讨厌文档。","timestamp":"52:01","speaker":"Amol Avasare"},{"en":"we had ultimately chosen not to launch it for safety reasons. I think the team didn't want to kick off effectively like an AI global arms race.","zh":"我们最终选择了不推出它，出于安全原因。我认为团队不想有效地引发一场 AI 全球军备竞赛。","timestamp":"70:15","speaker":"Amol Avasare"},{"en":"And I think in growth, I think it's really important that you just need to be okay leaving money on the table.","zh":"我认为在增长中，我认为非常重要的是你需要愿意把钱留在桌上。","timestamp":"76:23","speaker":"Amol Avasare"}],"quotes_candidates":[{"en":"You need to understand that 50%, 60%, 70% of how you operate in the past, just throw it out the door.","zh":"你需要明白，你过去 50%、60%、70% 的运作方式，直接把它们抛在脑后吧。","timestamp":"00:37","speaker":"Amol Avasare"},{"en":"I would say that roughly 70% of what I spend my time on is what we internally refer to as success disasters.","zh":"我想说我大约 70% 的时间花在我们内部称为成功灾难的事情上。","timestamp":"12:24","speaker":"Amol Avasare"},{"en":"And that is where things have gone so well that other things are breaking now.","zh":"这就是事情进展得太好以至于其他东西现在坏了。","timestamp":"12:24","speaker":"Amol Avasare"},{"en":"I think one learning, seeing this time and time again across companies, actually the right friction helps and adding more friction usually works if you do it the right way.","zh":"我认为一个学习是，在公司之间一次又一次地看到这一点，实际上正确的摩擦是有帮助的，如果你以正确的方式做，增加更多摩擦通常是有效的。","timestamp":"17:33","speaker":"Amol Avasare"},{"en":"But you want to get rid of annoying friction that doesn't add value.","zh":"但你想摆脱那些不增加价值的烦人的摩擦。","timestamp":"21:23","speaker":"Amol Avasare"},{"en":"The funniest thing is something that I've noticed internally is linear charts are just not cool.","zh":"最有趣的是我在内部注意到的一件事，就是线性图表就是不酷。","timestamp":"10:26","speaker":"Amol Avasare"},{"en":"The product value that we will deliver in two years time is probably like 1000X, what it is today.","zh":"我们两年后将交付的产品价值可能是今天的 1000 倍。","timestamp":"01:08","speaker":"Amol Avasare"},{"en":"So our growth platform team is driving this effort called CASH, which is Claude accelerate sustainable hypergrowth.","zh":"我们的增长平台团队正在推动这项名为 CASH 的努力，也就是 Claude 加速可持续超高速增长。","timestamp":"00:53","speaker":"Amol Avasare"},{"en":"And it ultimately prints money where I'd say that the win rate is like, I would expect a senior PM to do better.","zh":"它最终印钞票，我会说胜率就像，我会期望一个高级 PM 做得更好。","timestamp":"36:36","speaker":"Amol Avasare"},{"en":"I would say this is a junior PM, two, three years in.","zh":"我会说这是一个初级 PM，两三年的经验。","timestamp":"36:43","speaker":"Amol Avasare"},{"en":"The one I didn't mention there, Lenny, is cross-functional stakeholder management.","zh":"我在那里没有提到的那一个，Lenny，是跨职能利益相关者管理。","timestamp":"37:12","speaker":"Amol Avasare"},{"en":"So if a project is two weeks of engineering time or less, then the engineer is on the hook to effectively be the PM for that.","zh":"所以，我们的框架是，如果一个项目需要两周的工程时间或更少，那么工程师就要有效地充当该项目的 PM。","timestamp":"45:48","speaker":"Amol Avasare"},{"en":"I'm averse to PRDs. I think I just hate documentation.","zh":"我反感 PRD。我想我只是讨厌文档。","timestamp":"52:01","speaker":"Amol Avasare"},{"en":"So we had ultimately chosen not to launch it for safety reasons. I think the team didn't want to kick off effectively like an AI global arms race.","zh":"我们最终选择了不推出它，出于安全原因。我认为团队不想有效地引发一场 AI 全球军备竞赛。","timestamp":"70:15","speaker":"Amol Avasare"},{"en":"And I think in growth, I think it's really important that you just need to be okay leaving money on the table.","zh":"我认为在增长中，我认为非常重要的是你需要愿意把钱留在桌上。","timestamp":"76:23","speaker":"Amol Avasare"},{"en":"And we have a number of people who've worked at, call it the best companies you know in the world, very senior people.","zh":"我们有很多人曾在，可以说是世界上最好的公司工作过，非常高管级别的人。","timestamp":"71:21","speaker":"Amol Avasare"},{"en":"And basically I spent nine months. I was off work for nine months.","zh":"基本上我花了九个月的时间。我离职休养了九个月。","timestamp":"100:38","speaker":"Amol Avasare"}]}
+{
+  "title_zh": "一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角",
+  "tldr": "在一年十倍的增长速度下,如何做增长、用人、并用 AI 去自动化增长本身。",
+  "digest_md": "一家公司增长快到内部连正常的线性图表都嫌「不酷」,全员只看对数线性坐标——这就是 Anthropic,它一年涨了十倍。能跟上这种速度的增长负责人叫 Amol,他的开局不是投简历、不是找内推,而是给首席产品官发了一封没人教的冷邮件 [04:51 Amol Avasare]。\n\n在这一集访谈里,他讲述了在这个正处于人类历史上最陡峭增长轨道的公司里,增长团队到底在干什么。你会听到四块内容:为什么在指数级增长的公司里,他反而不爱做微小优化;一个叫 CASH 的系统正怎样一步步把增长实验自动化,目前的水平相当于一个有两三年经验的初级 PM;当 AI 让工程师产出翻倍时,为什么 PM 和设计师反而被严重挤压,以及他怎么重新分派工作;最后他分享了一段从创伤性脑损伤中恢复的私人经历,以及他怎么在一个高压环境里保持清醒。\n\n从他的日常开始讲起。Amol 说他在 Anthropic 的工作,是这辈子干过最难的差事 [11:33 Amol Avasare]。增长团队的架子跟普通公司没什么两样,也是横向的「增长平台」和「变现」团队,加上纵向按受众划分的 B2B、Claude Code、知识工作者、API 等小组,总共大概 40 人,里面包含工程师、设计师、PM 和数据分析师 [25:22 Amol Avasare]。真正不一样的是时间分配。他说自己大概 70% 的时间在处理「成功灾难」——也就是因为产品太火、增长太快,到处起火,只能在各种十万火急的事情之间跳来跳去救火 [13:12 Amol Avasare]。剩下的 30% 才是主动的常规增长工作,比如决定给哪个新产品注入资源、规划长期定价策略。\n\n正因为资源全被救火占了,他得重新分配赌注。一般的增长团队可能会把百分之六七十的时间花在把握度高、见效快的中小优化上。但在 Anthropic,这套被倒过来了。原因在于他们坚信的指数级思维:模型能力在指数级上升,未来的产品价值会爆炸——他估计两年后的产品价值是今天的一千倍 [29:36 Amol Avasare]。如果增长团队的目的是匹配这种产品价值的释放,去抠 30% 的漏斗转化率意义就不大了,不如把精力投到那种能接住巨大价值的大动作上,比如直接去造一个能支撑无数用例的 Chrome 扩展 [30:44 Amol Avasare]。\n\n说到这里,重点来了:如果增长团队这么忙,能不能干脆用模型去把增长本身给自动化了?这正是 Anthropic 内部正在做的事。他们管这个项目叫 CASH,全称是 Claude 加速可持续超高速增长,由 Alexey Komissarouk(在 Reforge 教增长工程的人)牵头 [34:16 Amol Avasare]。逻辑是拆解发布的四个环节:基于数据识别机会、构建功能、测试把关、上线后分析复盘。然后让 Claude 像人一样在各个环节打分、进步。Amol 透露,几个月前在 Opus 4.5 之前,模型还做不到;现在配合 Opus 4.6,这套系统已经能自动跑文案修改和小 UI 调整的实验,不需要人审批就能上线。他说目前的胜率大概相当于一个有两三年经验的初级 PM,虽然还不如资深 PM,但「它最终印钞票」——因为它不需要睡觉 [36:36 Amol Avasare]。唯一还没被替代的是跨职能对齐——那种要拉着一堆人开会对齐的工作。他转述了设计负责人 Joel 的玩笑话:就算真有了 AGI,让六个人坐进一个房间达成一致依然是不可能的 [38:04 Amol Avasare]。\n\n工作流变了,组织里的人怎么办?这直接改变了工程、PM 和设计这三个角色的动态。Amol 观察到,当前阶段工程师从 Claude Code(Anthropic 的命令行编程工具)这类工具上获得的杠杆最大,产出能被放大两到三倍 [43:34 Amol Avasare]。这反而让原本配比的 PM 和设计师被严重挤压——相当于原来配给五个工程师的人手,现在得去应付十五到二十个工程师的产出。怎么办?他的解法是大量招募具有产品思维的工程师,让他们充当迷你 PM。规矩很简单:如果一个项目预估在两周的工程量以内,就直接由工程师顶上去,自己去搞定跨部门、法务和安全;只有超过两周的复杂项目,PM 才全面介入 [45:48 Amol Avasare]。他甚至反感写标准的产品需求文档(PRD),大概七八成的发布物根本没有文档,小改动在 Slack 上几句话就敲定,遇到大项目才拉个 30 分钟的对齐会 [54:06 Amol Avasare]。\n\n除了造工具,Amol 自己也是个极重度用户,他展现了 AI 怎么深度介入人的日常判断。他用 Cowork(带 Chrome 扩展的 AI 助手)每天帮他扫二三十张图表,只把异常推送到他面前。他甚至每周让 Claude 去翻 Slack 里自己和全团队的对话,帮自己提前揪出跨部门的不一致。他甚至会拿自己经理——Ami Vora——的公开文章和内部讨论喂给模型,让模型扮演经理,每周给自己做一次辅导复盘 [63:17 Amol Avasare]。虽然结果时好时坏,但他觉得这就像在跟一个偶尔喝醉的教练共事,有时会蹦出让你「哇」一下的洞察。\n\n焦点之外的取舍,才是 Anthropic 能追上来的底层原因。很多人不知道,Anthropic 曾有先于 ChatGPT 发布的聊天机器人,但为了安全选择了不发布 [70:11 Amol Avasare]。在很长一段时间里,他们没有 OpenAI 的先发优势,也没有大厂的资金和分发渠道,资金最少、最不起眼。Amol 把这归功于公司的极度聚焦,这种聚焦既是主动的战略选择(早在 2021 年的内部备忘录里就写明了要专注于编码,因为好模型能加速研究,研究又能反哺模型),也是资源匮乏逼出来的必然 [67:24 Amol Avasare]。他把这种哲学叫做「通过约束获得自由」——没有别的路可选,反而让路变得非常清晰 [69:26 Amol Avasare]。这种基因也直接影响了增长团队的边界:他们明确地愿意为了保护安全、品牌和用户体验,牺牲掉一部分商业指标,把「赚钱别赚尽」当成了增长团队的核心原则 [76:31 Amol Avasare]。\n\n> 【背景】ARR 指年度经常性收入(Annual Recurring Revenue),是衡量订阅制业务规模的核心指标;对数线性是图表呈现方式,在数学上对应指数级增长,一条直线斜率代表固定倍数的持续放大。\n\n采访到最后,Lenny 问出了大家都会想的问题:在这种高压、极速、还充满 AI 焦虑的赛道里,一个人怎么扛得住?Amol 的回答把他带回了个人经历。在加入 Anthropic 之前,他经历过一次创业失败——投了三年的心理健康项目关门,他不得不挨个给投资人打电话道歉 [95:52 Amol Avasare]。但那还不是最难的时刻。2022 年初,因为一次泰拳训练事故,他被重重踢中头部,造成了创伤性脑损伤。前两三个月他看不了屏幕、听不了 20 秒音乐,否则就会呕吐,连发短信都得靠妻子代劳,整整九个月没法工作。入职 Mercury(一家金融科技公司)才一个月,他又因为被行李砸到头而二次受伤,再度停工 [101:49 Amol Avasare]。直到今天,他说自己还没百分百康复。但这段经历逼他养成了极其严格的节律:不碰酒精和咖啡因、雷打不动地休息、每年去做一次冥想静修。他反复提到一个从冥想里学来的感悟:「真正的自由,是学会在得不到想要的东西时依然知足」——这种定力,正是他能在 Anthropic 这种疯狂数字里保持理智的底盘 [106:28 Amol Avasare]。\n\n## 本集带走\n最后收个尾,这一集值得带走的是几句话。第一,如果你做的是 AI 作为核心价值的产品,别再去精雕细琢那 30% 的增长优化了,因为未来的产品价值是今天的成百上千倍,你得把精力放在能接住巨大价值的「大动作」上,才不会见树不见林。第二,AI 自动化已经在吞噬增长工作流了——从识别机会、写代码、测质量到复盘,目前水平约等于初级 PM,且每一周都在变强;人在不久的将来,核心价值只剩下最难的对齐和跨部门扯皮。第三,在工程师产出被 AI 放大数倍后,传统的 PM 和设计人力反而被严重挤压,解法不是让人去死磕写代码,而是招募有产品思维的工程师,给足授权,让他们在两周以内的项目里自己当 PM。第四,增长不是榨干每一分钱,有时候为了品牌、安全和体验,你得心安理得地把钱留在桌面上,这才是长期的竞争壁垒。第五,约束本身就是自由,资源最匮乏的时候做出的最聚焦选择,往往能跑出最陡的增长曲线。最后,在这个被 AI 推着往前冲的疯狂时代,能在最疯的数字里不丢掉理智,靠的是先把自己的身体和心智底座给稳住——得不到想要的也能知足,才能在一切都不确定的时候,依然做出清醒的选择。",
+  "quotes": [
+    {
+      "en": "You need to understand that 50%, 60%, 70% of how you operate in the past, just throw it out the door.",
+      "zh": "你需要明白,你过去 50%、60%、70% 的运作方式,直接把它们抛在脑后吧。",
+      "timestamp": "00:37",
+      "speaker": "Amol Avasare"
+    },
+    {
+      "en": "The product value that we will deliver in two years time is probably like 1000X, what it is today.",
+      "zh": "我们两年后将交付的产品价值可能是今天的 1000 倍。",
+      "timestamp": "01:08",
+      "speaker": "Amol Avasare"
+    },
+    {
+      "en": "If a project is two weeks of engineering time or less, then the engineer is on the hook to effectively be the PM for that.",
+      "zh": "如果一个项目需要两周的工程时间或更少,那么工程师就要有效地充当该项目的 PM。",
+      "timestamp": "45:37",
+      "speaker": "Amol Avasare"
+    },
+    {
+      "en": "We will have AGI and it will still be impossible to get six people in a room to get to align.",
+      "zh": "我们将会有 AGI,而且让六个人在房间里达成一致仍然是不可能的。",
+      "timestamp": "38:05",
+      "speaker": "Amol Avasare"
+    },
+    {
+      "en": "one of the, I think, most effective ways I use Claude, or one of the most interesting ways I use Claude, which I see a number of people doing internally is to help you identify misalignment.",
+      "zh": "我认为,我使用 Claude 最有效的方式之一,或者我使用 Claude 最有趣的方式之一,我看到内部很多人都在做,是帮你识别不一致。",
+      "timestamp": "56:05",
+      "speaker": "Amol Avasare"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "Historically, we were very much the smallest, least well-funded player in this space.",
+      "zh": "从历史上看,我们曾是这个领域里最小、资金最不充裕的参与者。",
+      "timestamp": "14:19",
+      "speaker": "Amol Avasare"
+    },
+    {
+      "en": "It's the hardest job I've had in my life to come into Anthropic.",
+      "zh": "进入 Anthropic 是我一生中最艰难的工作。",
+      "timestamp": "34:37",
+      "speaker": "Amol Avasare"
+    },
+    {
+      "en": "You need to understand that 50%, 60%, 70% of how you operate in the past, just throw it out the door.",
+      "zh": "你需要明白,你过去 50%、60%、70% 的运作方式,直接把它们抛在脑后吧。",
+      "timestamp": "37:41",
+      "speaker": "Amol Avasare"
+    },
+    {
+      "en": "I think that roughly 70% of what I spend my time on is what we internally refer to as success disasters.",
+      "zh": "我想说我大约 70% 的时间花在我们内部称为成功灾难的事情上。",
+      "timestamp": "12:13",
+      "speaker": "Amol Avasare"
+    },
+    {
+      "en": "The funniest thing is I've noticed internally, linear charts are just not cool.",
+      "zh": "我在内部注意到最有趣的是,线性图表一点都不酷。",
+      "timestamp": "14:14",
+      "speaker": "Amol Avasare"
+    },
+    {
+      "en": "The product value that we will deliver in two years time is probably like 1000X, what it is today.",
+      "zh": "我们两年后将交付的产品价值可能是今天的 1000 倍。",
+      "timestamp": "08:08",
+      "speaker": "Amol Avasare"
+    },
+    {
+      "en": "And it's called CASH, which is Claude Accelerates Sustainable Hypergrowth.",
+      "zh": "它叫 CASH,也就是 Claude 加速可持续超高速增长。",
+      "timestamp": "34:34",
+      "speaker": "Amol Avasare"
+    },
+    {
+      "en": "I would say this is the win rate that I would expect from a junior PM, but it's not quite at the senior PM level.",
+      "zh": "我会说这是我会期望从一个初级 PM 得到的胜率,但它还不到高级 PM 的水平。",
+      "timestamp": "36:47",
+      "speaker": "Amol Avasare"
+    },
+    {
+      "en": "It ultimately prints money where I'd say that the win rate is like, I would expect a senior PM to do better.",
+      "zh": "它最终印钞票,我会说胜率就像,我会期望一个高级 PM 做得更好。",
+      "timestamp": "36:36",
+      "speaker": "Amol Avasare"
+    },
+    {
+      "en": "I think before Opus 4.5, it wasn't really possible.",
+      "zh": "我认为在 Opus 4.5 之前,这真的不可能。",
+      "timestamp": "34:59",
+      "speaker": "Amol Avasare"
+    },
+    {
+      "en": "If a project is two weeks of engineering time or less, then the engineer is on the hook to effectively be the PM for that.",
+      "zh": "如果一个项目需要两周的工程时间或更少,那么工程师就要有效地充当该项目的 PM。",
+      "timestamp": "45:48",
+      "speaker": "Amol Avasare"
+    },
+    {
+      "en": "We will have AGI and it will still be impossible to get six people in a room to get to align.",
+      "zh": "我们将会有 AGI,而且让六个人在房间里达成一致仍然是不可能的。",
+      "timestamp": "38:04",
+      "speaker": "Amol Avasare"
+    },
+    {
+      "en": "Even though the headcount and the org structure hasn't changed, you're now just dealing with a situation of maybe 15 to 20 engineers in the old world, one and a half to two PMs, and maybe one and a half to two designers.",
+      "zh": "所以即使人头和组织结构没有改变,你现在只是在处理旧世界大概 15 到 20 个工程师的情况,1.5 到 2 个 PM,也许 1.5 到 2 个设计师。",
+      "timestamp": "43:57",
+      "speaker": "Amol Avasare"
+    },
+    {
+      "en": "I think that that's something that Dario has seen very clearly for a number of years.",
+      "zh": "我认为这是 Dario 清楚地看到了好几年的事情。",
+      "timestamp": "68:46",
+      "speaker": "Amol Avasare"
+    },
+    {
+      "en": "I think that's something that I found really, really helpful.",
+      "zh": "这是,我认为我发现真的、真的很有帮助的东西。",
+      "timestamp": "56:17",
+      "speaker": "Amol Avasare"
+    },
+    {
+      "en": "And I think in growth, I think it's really important that you just need to be okay leaving money on the table.",
+      "zh": "我认为在增长中,我认为非常重要的是你需要愿意把钱留在桌上。",
+      "timestamp": "76:23",
+      "speaker": "Amol Avasare"
+    },
+    {
+      "en": "one of the, I think, most effective ways I use Claude, or one of the most interesting ways I use Claude, which I see a number of people doing internally is to help you identify misalignment.",
+      "zh": "我认为,我使用 Claude 最有效的方式之一,或者我使用 Claude 最有趣的方式之一,我看到内部很多人都在做,是帮你识别不一致。",
+      "timestamp": "56:01",
+      "speaker": "Amol Avasare"
+    },
+    {
+      "en": "A lot of the same habits, I don't drink alcohol, I don't drink caffeine, I have to do a bunch of these things for my physical health.",
+      "zh": "很多同样的习惯,我不喝酒,不喝咖啡,为了身体健康我必须做这一堆事情。",
+      "timestamp": "103:01",
+      "speaker": "Amol Avasare"
+    }
+  ]
+}

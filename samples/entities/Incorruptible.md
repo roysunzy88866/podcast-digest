@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-05-10-lennys-how-to-build-a-company-that-withstands|《《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」》]]**(00:43起):本集把它说成:Eric Ries 15 年后写的新书，讨论如何保护你所建立的公司，防止它被「金融重力」毁掉，让好公司不至于变坏，伟大的公司继续保持伟大。
+- **[[2026-05-10-lennys-how-to-build-a-company-that-withstands|《为什么好公司会变坏：Eric Ries 的防腐架构学》]]**(00:43起):本集把它说成:Eric Ries 15 年后写的新书，讨论如何保护你所建立的公司，防止它被「金融重力」毁掉，让好公司不至于变坏，伟大的公司继续保持伟大。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」》]] — 作为概念
+- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《为什么好公司会变坏：Eric Ries 的防腐架构学》]] — 作为概念
 
 ## ③ 关联
 

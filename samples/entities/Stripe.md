@@ -13,9 +13,9 @@ unlisted: true
 
 - **[[2025-11-23-lennys-a-guide-to-difficult-conversations|《别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课》]]**(01:34起):嘉宾曾长期担任该公司的HR领导者，并在此期间为技术高管设计了旨在避免倦怠、留住顶尖人才的项目。
 - **[[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]]**(01:40起):本集嘉宾曾担任首席商务官的公司。节目中大量引用了她在此公司从零搭建销售团队、实行按消费计费、运用市场细分及建立白板会议购买体验的经验。
-- **[[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《妻子反向采访 Lenny:百万订阅背后的真实人生》]]**(02:34起):本集把它说成:Lenny 遭遇欺诈团伙攻击时合作以关闭其寻找 API 漏洞攻击的公司之一
-- **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展》]]**(18:51起):本集提到：Sam Altman 曾在 22 岁时作为早期投资人帮助过这家支付公司，并因此在多年后结识了日后共创 OpenAI 的 Greg Brockman。
-- **[[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《Lassie 的 AI 智能体：让牙科诊所行政自动化，开启小企业大市场》]]**(23:34起):本集多次作为对比案例提及，一是将其无摩擦的极简自助结账流程作为交付最后一公里的标杆；二是讨论拥有客户分销渠道的重要性。
+- **[[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《Lenny 挨老婆采访:致幻剂、跑步机和五万分之一》]]**(02:34起):本集把它说成:Lenny 遭遇欺诈团伙攻击时合作以关闭其寻找 API 漏洞攻击的公司之一
+- **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]]**(18:51起):本集提到：Sam Altman 曾在 22 岁时作为早期投资人帮助过这家支付公司，并因此在多年后结识了日后共创 OpenAI 的 Greg Brockman。
+- **[[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢饭碗，是找不到人:Lassie 如何替全美牙医干掉行政活》]]**(23:34起):本集多次作为对比案例提及，一是将其无摩擦的极简自助结账流程作为交付最后一公里的标杆；二是讨论拥有客户分销渠道的重要性。
 
 ## ② 出现在这些集
 
@@ -23,9 +23,9 @@ unlisted: true
 
 - [[2025-11-23-lennys-a-guide-to-difficult-conversations|《别再充当团队的“答案机”：高管教练 Rachel Lockett 的领导力实战课》]] — 作为被讨论公司(提及)
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织》]] — 作为被讨论公司
-- [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《妻子反向采访 Lenny:百万订阅背后的真实人生》]] — 作为被讨论公司(提及)
-- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展》]] — 作为被讨论公司(提及)
-- [[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《Lassie 的 AI 智能体：让牙科诊所行政自动化，开启小企业大市场》]] — 作为被讨论公司(提及)
+- [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《Lenny 挨老婆采访:致幻剂、跑步机和五万分之一》]] — 作为被讨论公司(提及)
+- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]] — 作为被讨论公司(提及)
+- [[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢饭碗，是找不到人:Lassie 如何替全美牙医干掉行政活》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

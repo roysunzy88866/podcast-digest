@@ -7,17 +7,23 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Rippling</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Rippling">RI</div><div class="pi"><h1 class="pt">Rippling</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Rippling">RI</div><div class="pi"><h1 class="pt">Rippling</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷》]]**(00:15起):本集讨论的估值超过 160 亿美元的企业软件公司，嘉宾长期担任其 COO 并近期转任 CPO。本集将其视为拥有单一业务数据图和一致数据湖的平台，认为在 AI 时代，拥有数据'矿山'的它在竞争中极具优势。
+- **[[2025-12-28-lennys-10-contrarian-leadership-truths|《故意让人手不足:Rippling 首席产品官的非常规管理心法》]]**(00:15起):本集讨论的估值超过 160 亿美元的企业软件公司，嘉宾长期担任其 COO 并近期转任 CPO。本集将其视为拥有单一业务数据图和一致数据湖的平台，认为在 AI 时代，拥有数据'矿山'的它在竞争中极具优势。
+
+## ① 提到它的金句
+
+*1 条,均已过机器闸门*
+
+![[2025-12-28-lennys-10-contrarian-leadership-truths#^q9]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷》]] — 作为被讨论公司
+- [[2025-12-28-lennys-10-contrarian-leadership-truths|《故意让人手不足:Rippling 首席产品官的非常规管理心法》]] — 作为被讨论公司
 
 ## ③ 关联
 

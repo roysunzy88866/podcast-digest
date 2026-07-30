@@ -1,0 +1,123 @@
+```json
+{
+  "title_zh": "删除八成系统提示词:Claude Code 造物主的 Opus 5 新玩法",
+  "tldr": "Boris 讲透了 Opus 5 带来的编程范式转变:删掉补丁、给目标放手、用数千智能体编排自动化。",
+  "digest_md": "Opus 5 刚发布一天,他干了一件反直觉的事——把 Claude Code 里八成的系统提示词直接删了。说这话的人是 Boris,Claude Code 就是他的作品。\n\n这一集里,他讲了三件事:Opus 5 到底强在哪、为什么模型越强反而越要删系统提示词;怎么从「下死指令」换成「给目标给护栏、放手让模型自己干自己验」;以及怎么同时指挥成百上千个智能体,把几十名工程师的日常维护活全包掉。结尾他还回答了一个扎心的问题:如果编程真的被解决了,工程师和学生该学什么。\n\n## Opus 5 到底强在哪\n\n先说新模型本身。Opus 5 有一个能力 Boris 认为没有其他模型做到过:它可以长时间运行不停。「结合 Opus 5 和 Auto Mode,它可以连续跑几天、几周、几个月,就是不停。」你不需要给它复杂的脚手架、不需要反复催,它知道任务没做完就不会停 [01:31]。\n\n另一个让 Boris 觉得「疯狂」的突破是抗提示词注入。提示词注入指的是恶意指令藏在网上内容里,骗模型执行危险操作(比如删光用户电脑)。他解释,这是通过三层防护实现的:三年对齐研究训练出的良好模型本身;基于 Chrysola 机械可解释性工作做的分类器,它能在提示词注入发生时直接观察模型内部亮起的神经元;再加上 Auto Mode 分类器 [02:45]。三层叠加后,他们请了安全研究员、做了红队测试、办了比赛,都没人能成功注入 [03:21]。\n\n## 新模型一出,先敢删\n\n说完了模型强在哪,接下来看产品要跟着怎么变。答案正是 Boris 那句反直觉的话:删系统提示词。\n\n很多人没意识到,Claude Code 这个产品和它底层的 harness(驱动模型的外层代码框架)一直在变。新模型一发布,他们就会删掉一堆系统提示词、改一堆工具。原因很简单:「每个模型都非常不同。你三个月前为某个模型做的事,可能对下一个完全不适用。」 [04:24] 系统提示词里那些原本用来纠正笨模型坏毛病的话,Opus 5 根本不需要,因为它「直接就知道该怎么做」 [04:51]。\n\n在研究里这叫消融(ablation):删掉整个系统提示词,再一行行加回来,看每行的实际影响 [06:19]。团队还藏了个未公开功能(设环境变量),开了能把提示词全删光。结果发现,没有提示词的模型反而更聪明一点——只是作为商品用时,留一点提示词能让产品更好用 [05:22]。\n\nBoris 强调,这套「敢删」的逻辑对所有用 AI 做产品的人都成立:每六个月,删一次你的设定,看模型真实表现 [07:18]。\n\n## 碰到新模型,怎么重建提示词\n\n知道要删之后,怎么往回加?Boris 的办法非常实证(基于实际观察而非理论)。第一步是删,第二步是用,别瞎猜模型需要什么指令。要看它在你的真实代码库里哪里做得好、哪里绊倒。只有当它反复栽在同一个坑上,你才把对应的指令加回去 [08:36]。因为模型每次跑都会读这条指令,加之前必须确认它真有必要。\n\n他用「生物」打比方解释这代工程的变化:传统软件工程讲究前期设计、大套单元测试,重构是大工程要花几个月甚至几年。但模型更像活物,每代脾气不一样,你得花时间摸清它再调框架 [09:21]。主持人问那评估集(evals)总能保留吧?Boris 也很务实:留到上限为止。模型进步太快,经常直接把某项评估刷满,那就得扔掉重新设计新评估 [10:36]。\n\n## 砍掉脚手架:产品冗余在哪\n\n摸清怎么调教后,Boris 抛出了一个更深的洞察——产品冗余。模型其实早就能做很多事,只是没有合适产品把能力引出来;更糟的是,产品常常反而挡路,这叫 hobbling(束缚) [12:19]。\n\nClaude Code 最早就是为解开这个束缚生的。当时主流产品还在做单行补全或只读聊天,而他认为模型明明能写整个文件、整个功能。于是他去掉脚手架,给模型最简单的框架和完整权限,让它放开写 [13:32]。Boris 认为今天依然有巨量产品冗余没被创业公司抓到 [14:04]。\n\n## 把难任务扔给模型,给个验证法\n\n怎么抓这些机会?Boris 说第一招是给模型比你以为的更难的任务。他常看到人们用 Claude Code 时指令细到死,规定好步骤一、二、三、四,这对现代模型是错的 [15:36]。正确做法是上点层次:给任务、给护栏(模型不能越界的边界)、给退出标准(什么时候算做完),然后走开让它干 [15:41]。\n\n讲个极端例子。Claude Code 跑在 Bun(一个开源 JavaScript 运行时)上,Bun 是用 Zig(一种需手动管内存的底层语言)写的。Bun 团队原本让 Claude 做模糊测试(fuzzing,即自动喂入大量随机数据以触发漏洞),找一个漏一个。某天团队工程师 Jared 干脆让模型把整套运行时代码从 Zig 重写成 Rust。这是一句指令配动态工作流(后面会讲)扔下去的,跑了 11 天,重写了整个 10 万多行的代码库,现在已上线生产 [16:29]。这活儿「就算最好的工程师也要一年以上」 [18:24]。\n\n第二招是放手实验,别只盯着商业用处。比如他们发现 Opus 5 能用 OpenCV 画画——画动物、画风景,而他们从没训练过它画画 [19:24]。这纯属内部玩出来的发现。\n\n## 验证是单一最重要的事\n\n但别以为扔任务就万事大吉,Boris 说验证是人们最容易搞砸的环节。他要验证一个想法:Claude 的桌面应用是用 Electron 做的,他想看看原生写会怎样。于是他在 Claude Code(跑在 Slack 里的产品)里开了个会话,第一句问有没有 macOS 虚拟机可用,没有就自己挂一个。第二句给个空代码库,让它把 Electron 版用 Swift 重写一遍——指令是:在虚拟机里跑原版、截图,跟 Swift 新版逐像素对比,没干完别停 [21:55]。\n\n就这么个简单指令,跑了两个多星期还在跑。它还自己开了 Slack 频道,每隔几分钟发进度截图直播 [23:10]。Boris 说不只这一个例子,观众里有人让模型跑两周任务的人寥寥无几,但他觉得现在模型就能做到,只要你会放手。\n\n被问怎么成为顶尖 1% 用户,Boris 的话很直白:别听那些网红的,没有奇怪小技巧。诀窍就是实证——给难任务、给验证工具、看它卡哪、解决卡点,缺上下文就给 MCP(模型上下文协议,让模型调外部工具的接口) [23:39]。他最常见的老手翻车原因就是过度指定,非要模型按自己老办法做事 [24:42]。模型已经像同事一样聪明,得学会这么对它。\n\n## 编排成百上千个智能体\n\nBoris 指出,真正的高手在用的是杠杆:同时跑数千个智能体。最简单的法子还是动态工作流。你只要说「用个 workflow」,Claude Code 就会拿 Bun 运行时做沙箱(隔离程序的运行环境),在里面起一堆智能体来协作 [25:44]。它不只铺十个并行,而是能分阶段:先一批做初稿,第二批总结验证,再第三批发散,用「智能体代数」按序或并行编排 [26:36]。他将其称为一种新的测试时计算形式 [27:18]。\n\n测试时计算(test time compute)可以理解为模型生成 token(基本处理单元)用的算力;动态工作流就是放大这算力去啃硬骨头。第二种手段是循环和例程:循环是本地跑的定时任务,例程跑在云端,你合上电脑它照样转。这让 Claude Code 现在能自我维护。他们在 Slack 频道里给 CLI、iOS、安卓、桌面应用都配了几十条例程,每天自动跑 [28:33]。\n\n举几个好玩又实在的:一条指令让它每天查全代码库找死代码并提删改请求;把该全量发布的实验自动发掉;给缺测试的地方补测试、删掉没用的旧测试;Boris 最喜欢「抽象警察」——找出代码库里散落各处、本该统一的重复抽象,每天合并几十个 [28:56]。这是每天几百到几千智能体的活,顶几十上百个工程师的日常维护量,省下的人力就可以去做发新产品、跟用户聊这些真正有意思的事 [30:28]。\n\n## 当编程被解决后\n\n工具变了,人怎么办?这正是最后的话题。Boris 很克制地澄清:编程只对他做的那类编码算解决了。底层深度系统代码、分布式系统、精细到像素级的 UI 验证,Opus 5 在视觉和计算机使用上跨了一大步但仍不完美 [31:02]。现场举手显示,代码 100% 由智能体写的人不少,过半的更多——确实在往解决的路上走 [31:34]。\n\n他用一句话概括顶尖使用者的心法:做到实证主义。忘掉过去对模型的认知、忘掉课堂上的 CS 理论,盯着模型本身、试个任务、看它卡哪、据实调整 [31:54]。最值钱的能力就是肯放下旧经验、对老法子重开尝试。\n\n> 【背景】转写稿多处将产品名 Claude 识别为 Cloud/quad/clock/clockwork、将 Bun(开源运行时)识别为 Bunn、将 Sonnet 识别为 SANA/Fable 前后混用,本篇已还原正确写法,不影响原意。\n\n## 本集带走\n\n最后收个尾,这一集值得带走的是三句话。第一,新模型一出,先敢删——那些为旧模型打的补丁,如今多半在拖后腿;删掉、跑起来、看它真实表现,只有反复栽跟头的坑才值得加回指令。第二,别再把任务拆成死步骤,给它目标、护栏和验证标准,然后放手——它有能力把 10 万行代码换个语言重写,跑两个星期不停,只要你不微观管。第三,真正的杠杆不是让一个模型写代码,而是用动态工作流和定时例程编排成百上千个智能体,每天自动干掉几十个工程师的维护活,人省下来去做发布产品、跟用户聊天这些真正需要人的事。",
+  "quotes": [
+    {
+      "en": "It can go for days, weeks, months at a time. It just won't stop.",
+      "zh": "它可以一次运行几天、几周、甚至几个月。它就是不会停。",
+      "timestamp": "01:39",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "But nowadays, Opus does not.",
+      "zh": "但现在,Opus 不会了。",
+      "timestamp": "02:32",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "we just cannot demonstrate prompt injection anymore.",
+      "zh": "我们就再也无法演示提示词注入了。",
+      "timestamp": "03:19",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "So yeah, we deleted 80% of the system prompt.",
+      "zh": "所以是的,我们删除了 80% 的系统提示。",
+      "timestamp": "04:51",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "The way to think about it is almost like a living creature, like something more organic.",
+      "zh": "思考它的方式几乎就像一个生物,像某种更有机的东西。",
+      "timestamp": "09:21",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Very often, we just saturate the eval, and then we have to throw it away, and we have to come up with a new eval.",
+      "zh": "通常,我们只是让 eval 饱和,然后我们必须把它扔掉,我们必须想出一个新的 eval。",
+      "timestamp": "10:36",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Because the model is capable of doing something, and everything was just kind of getting in the way.",
+      "zh": "模型有能力做某事,而一切都只是在阻碍它。",
+      "timestamp": "13:51",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "you should give the model slightly harder tasks than what you think you can do.",
+      "zh": "你应该给模型比你认为你能做的稍微难一点的任务。",
+      "timestamp": "15:12",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "You want to describe the guardrails. You want to describe the exit criteria.",
+      "zh": "你想要描述护栏。你想要描述退出标准。",
+      "timestamp": "15:42",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "It ran for 11 days.",
+      "zh": "它运行了 11 天。",
+      "timestamp": "18:01",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "This is in production now.",
+      "zh": "这现在已经投入生产了。",
+      "timestamp": "18:34",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And the verification, I think, is probably the single most important thing that people do not get right, largely.",
+      "zh": "验证,我认为,可能是人们做不对的单一最重要的事情,大体上。",
+      "timestamp": "20:51",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "It's been a little over two weeks.",
+      "zh": "已经运行了两个多星期了。",
+      "timestamp": "22:26",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "There's nothing like that.",
+      "zh": "没有那样的东西。",
+      "timestamp": "23:56",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And we let Cloud start a lot of agents and orchestrate them.",
+      "zh": "我们让 Cloud 启动大量智能体并编排它们。",
+      "timestamp": "26:08",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "This is actually a new form of test time compute.",
+      "zh": "这实际上是一种新的测试时计算形式。",
+      "timestamp": "27:18",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "we're on the path to fully automating the maintenance of our apps by doing this.",
+      "zh": "还没有完全到位,但我们通过这种方式正在走向完全自动化维护我们应用程序的道路。",
+      "timestamp": "30:09",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And this is, again, hundreds of agents running every day, sometimes thousands of agents every day.",
+      "zh": "而且,这同样是每天运行数百个智能体,有时每天数千个智能体。",
+      "timestamp": "30:17",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "it's not a theoretical science, it's become an empirical science.",
+      "zh": "它不是一门理论科学,它变成了一门经验科学。",
+      "timestamp": "32:22",
+      "speaker": "Unknown"
+    }
+  ]
+}
+```

@@ -11,23 +11,23 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]]**(01:26起):本集把它说成：仍在使用的设计工具。在平行探索 8 到 10 种不同的排版和视觉方案时，它依然是最快、最有效的，因为直接用代码探索过于线性。
-- **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]]**(03:17起):本集探讨了 AI 时代其使用趋势的变化，并以其为例说明伟大产品的微小核心：实时协作与非协作间的无缝切换。
-- **[[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]]**(14:05起):本集把它说成:传统的设计工具，新一代基于 AI 的工作流正逐渐摆脱对它的依赖，但它也能通过 MCP 或 computer use 被 AI 调用来重建设计。
+- **[[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]]**(01:26起):本集把它说成：仍在使用的设计工具。在平行探索 8 到 10 种不同的排版和视觉方案时，它依然是最快、最有效的，因为直接用代码探索过于线性。
+- **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]]**(03:17起):本集探讨了 AI 时代其使用趋势的变化，并以其为例说明伟大产品的微小核心：实时协作与非协作间的无缝切换。
+- **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(14:05起):本集把它说成:传统的设计工具，新一代基于 AI 的工作流正逐渐摆脱对它的依赖，但它也能通过 MCP 或 computer use 被 AI 调用来重建设计。
 
 ## ① 提到它的金句
 
 *1 条,均已过机器闸门*
 
-![[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#^q3]]
+![[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#^q4]]
 
 ## ② 出现在这些集
 
 *3 集*
 
-- [[2026-03-01-lennys-the-design-process-is-dead|《The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)》]] — 作为被讨论公司
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性》]] — 作为被讨论公司
-- [[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]] — 作为被讨论公司
+- [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为被讨论公司
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]] — 作为被讨论公司
+- [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为被讨论公司
 
 ## ③ 关联
 

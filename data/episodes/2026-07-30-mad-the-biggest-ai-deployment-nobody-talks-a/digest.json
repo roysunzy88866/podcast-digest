@@ -1,1 +1,147 @@
-{"title_zh":"对话 Samsara CEO:AI 进入物理世界,用 25 万亿数据点改造传统工业","tldr":"从司机疲劳预警到自动处理保修,Samsara 用传感器和 AI 给传统实体运营装上眼睛、大脑与手臂。","digest_md":"如果你关注 AI,大概率看过 AI 帮人写代码、做客服。但 Samsara 的联合创始人兼 CEO Sanjit Biswas 在这集访谈中要讲的是另一个世界:物理 AI——也就是把 AI 应用到那些必须在现实物理环境中运转的行业,比如卡车运输、建筑工地、电网等等。Samsara 是一家市值约 200 亿美元、年经常性收入超过 20 亿美元的公司,每年处理约 25 万亿个数据点,其系统每天都在覆盖美国 99% 的道路。嘉宾把物理 AI 的核心挑战、Samsara 的产品架构(从硬件层到 AI 智能体层)、以及他对人机混合与自动化卡车的前瞻判断娓娓道来。\n\n## 物理 AI 的挑战:不在数字比特里,而在泥泞的现场\n\n为什么 AI 浪潮是从聊天机器人和代码开始,而不是从建筑工地开始?Sanjit 认为,这是因为数字世界天然拥有大量现成的、可供模型训练的比特数据;而物理世界要混乱得多 [05:20 Sanjit Biswas]。\n\n物理世界的数字化没有低垂的果实。它不仅要面对不可靠的网络环境,还要把硬件设备真正安装、部署到前线,并说服数以百万计的一线工人把新技术融入日常工作 [05:34 Sanjit Biswas]。虽然门槛极高,但传统行业占据了全球 GDP 的 40% 到 50% [05:53 Sanjit Biswas]。更重要的是,这是一个极不宽容的环境,系统失灵的后果可能是真实的物理伤亡,因此「风险」既是最大的挑战,也是最大的机会 [07:08 Sanjit Biswas]。\n\n说完了物理 AI 为什么难做,接下来我们看看 Samsara 具体是怎么靠软硬件结合来做这件事的。\n\n## 硬件层:像「眼睛」和「耳朵」一样的传感器\n\nSanjit 把 Samsara 的系统分为硬件、软件/AI 和智能体(action)三个层级 [16:07 Matt Turk]。在硬件层,他们制造了种类繁多的传感器去采集物理数据。\n\n首先是资产标签(Asset Tag),它带有加速度计和工业级蓝牙,十分坚固,「你可以用卡车从它上面碾过去,它会继续运行」,电池能用好几年 [17:03 Sanjit Biswas]。他们最近甚至推出了一款类似贴纸的一次性追踪标签,能持续约 45 天,刚好够单次物流使用 [19:52 Sanjit Biswas]。\n\n其次是车辆网关(Vehicle Gateway)。它就像一个插在卡车上的黑匣子,通过诊断端口读取发动机的各种信号,比如油耗、故障码、甚至司机的脚是在油门还是刹车上 [21:32 Sanjit Biswas]。\n\n最后是核心的 AI 行车记录仪(AI Dash Cam)。它不仅能录下向外的高清视频,还向内对准司机。借助在边缘端(即设备本地)运行的 AI 模型,它可以实时检测司机的疲劳或看手机等危险行为,并用音频警报进行干预。Sanjit 指出,这其实是一种负强化,能帮助司机打破看手机等坏习惯 [23:13 Sanjit Biswas]。\n\n## 从边缘到云端:数据的闭环与护城河\n\n硬件采集完数据,接下来是怎么把它们组织起来,变成 AI 能消化的信号。\n\nSamsara 的架构是「边缘+云端」混合。低延迟、关乎实时安全的计算(如防碰撞预警)放在边缘设备上做;大量的数据存储、分析则放在超大规模云数据中心 [25:11 Sanjit Biswas]。在云端,他们使用了大量的生成式 AI 和 VLM(视觉语言模型,能同时理解画面和文字含义的模型)。比如,过去如果司机猛踩刹车,人工抽查可能会想当然认为是司机分心;但现在模型可以看懂整段视频,判断出司机其实是为了躲避突然窜出的狗,从而给司机发送「干得漂亮」的正面反馈 [34:49 Sanjit Biswas]。\n\n当主持人问到:在 AI 模型日趋同质化的未来,Samsara 的护城河究竟在哪里?Sanjit 的答案是:物理世界独有的运营数据 [28:27 Sanjit Biswas]。\n\n他强调,互联网上能抓取到的数据根本无法覆盖现实中具体的建筑工地或某条道路的突发状况。更关键的是,Samsara 形成了强大的数据网络效应(不同客户间的数据可以共享价值):比如他们的系统每天都在全美 99% 的道路上行驶,能收集到所有的坑洼位置。芝加哥市就利用这些数据,判断冬季后哪些路段破损最严重,应该按什么优先级去修补 [30:18 Sanjit Biswas]。\n\n了解了底层数据与架构,接下来看 Samsara 是如何迈出「替人干活」这一步的。\n\n## 智能体的落地:从安全的「低垂果实」做起\n\n在最近的大会上,Samsara 发布了 Agents Studio。如果说此前的 LLM(大语言模型)助理只是个能用几句话回答「哪辆车需要维修」的问答机器人,那智能体的突破在于它能在更长的时间跨度内自主规划并执行任务 [37:40 Sanjit Biswas]。\n\n但 Sanjit 坦言,在物理世界引入智能体必须非常谨慎。因此他们挑选的最初落地场景,是那些「就算搞错也不会死人」的低风险、非核心操作领域。他举了一个非常有代表性的例子:保修智能体(Warranty Agent)。\n\n当卡车的故障码一出现,智能体会自动去查阅厚重的服务手册,核对企业与汽车制造商谈定的专属保修协议,判定这个故障在当前车龄下是否在保修范围,接着自动开列工单,并排查其他车是否有类似隐患 [38:05 Sanjit Biswas]。Sanjit 表示,这是一项过去需要耗费人工一两小时的繁琐流程,现在被压缩到了不到一分钟,而且「现实中大部分保修索赔根本没人有时间去弄」 [39:17 Sanjit Biswas]。\n\n他强调,纯粹的智能体推理与预设的工作流护栏必须结合。没有护栏,智能体很容易陷入死循环或走神 [41:16 Sanjit Biswas]。\n\n既然 AI 已经开始逐步接管繁琐的后勤任务,下一个问题是:它会怎么看待和评价在前线干活的人?\n\n## AI 与一线工人:对抗「老大哥」隐喻的透明度法则\n\n当 AI 行车记录仪时刻紧盯着司机,会不会变成可怕的「老大哥」?Sanjit 认为,应对这个社会性焦虑的核心在于透明度和价值对齐 [50:25 Sanjit Biswas]。\n\n首先,摄像头是公开可见的,绝非偷偷录音。其次,这套系统对司机最大的价值是「洗清嫌疑」。像家得宝这样的大车队,经常遭遇虚假的碰瓷索赔。有了高清视频证据,司机终于能自证清白。Sanjit 指出,司机 90% 的时间都在做好事却无人知晓,系统提供的正面反馈打破了单向监控的对立感 [47:43 Sanjit Biswas]。引入系统后,家得宝的车险理赔数量下降了 65% [49:58 Sanjit Biswas]。\n\n主持人追问:无论如何,AI 正在成为人类工作质量的判官。Sanjit 回应称,最终的落脚点还是回归到「安全」,即确保每个人都能像来上班时一样平平安安地回家 [48:24 Sanjit Biswas]。\n\n聊完了眼下司机与 AI 的协作,我们不妨抬头看看,当彻底没有人的自动化机器涌入物理世界,未来会怎样?\n\n## 未来判断:机器人的分工与自动化卡车的现实\n\n展望未来五到十年,Sanjit 认为我们会看到更多机器人涌入物理世界,但这是一种「混合模式」。他预测,在未来五年内,建筑工地或道路铺设中那些高度重复的工作(例如在第三班次即深夜到清晨去平整场地),完全可以交给机器人去做 [52:08 Sanjit Biswas]。而人类依然不可或缺,因为现场充满了不可预知的突发状况,需要人类的经验来判断「我在等建材的时候还能先干点什么别的」。\n\n关于万众瞩目的自动驾驶卡车,他显得比外界炒作的要冷静得多。他认为,Robotaxi(自动驾驶出租车)的普及会快得多,因为城市内的交通场景高度相似;但卡车运输的难点在于它不仅是点对点的长途干线运输,更多是混乱的长尾场景——比如 HVAC 技工、电工去不同社区干活,或者定制化的水泥搅拌车。这些设备的特殊性和非标场景,意味着自动驾驶卡车可能需要 10 到 20 年才能完全渗透扩散 [56:05 Sanjit Biswas]。\n\n回到宏观现实,数据中心和 AI 的狂飙突进,反而倒逼了传统基建的爆发。Sanjit 分享了他上周在一家大型能源公用事业公司听到的震撼数据:过去 125 年建成的电网容量,将在未来 5 年内翻两番(其中 90% 的增量需求来自数据中心) [57:40 Sanjit Biswas]。这种历史级的基建缺口,引发了全美电工等技能工人的严重短缺。连 Meta 都在推出计划,培训更多人成为电工 [59:10 Sanjit Biswas]。\n\n## 本集带走\n\n1. **物理 AI 没有捷径**:它必须仰仗艰脏累的硬件部署和实地变更管理,你无法在网上爬取到某条特定泥路今天下雨后的真实数据;但这恰恰构成了拥有庞大实体车队的公司的数据护城河。\n2. **智能体落地要分先后**:Samsara 把智能体首先应用在了「非致命」的后勤与流程上(如保修审批),在智能体推理与预设规则之间建立平衡,而非让 AI 裸奔。\n3. **AI 热潮的真实底色是传统基建**:AI 需要算力,算力需要电网,电网需要电工。未来五年要新建超越过去百年总和的电网容量,这意味着「重操旧业」(如成为电工、卡车司机)正迎来新一轮的时代红利。","quotes":[{"en":"We believe we helped prevent about 380,000 car crashes, road accidents in the last year.","zh":"我们相信我们在去年帮助防止了约 38 万起车祸、道路事故。","timestamp":"00:25","speaker":"Sanjit Biswas"},{"en":"You can drive over it with the truck, and it'll continue to operate.","zh":"你可以用卡车从它上面碾过去,它会继续运行。","timestamp":"17:03","speaker":"Sanjit Biswas"},{"en":"They saw like a 65 percent reduction in their claims, like auto claims.","zh":"他们的理赔减少了大约 65%,比如车险理赔。","timestamp":"49:58","speaker":"Sanjit Biswas"}],"quotes_candidates":[{"en":"The interesting challenge, I think, with physical AI is that it's not digitized, right?","zh":"我认为物理 AI 有趣的挑战在于它没有被数字化,对吧?","timestamp":"02:08","speaker":"Sanjit Biswas"},{"en":"These are not the tokens you're going to find online.","zh":"这些不是你能在网上找到的 token。","timestamp":"00:00","speaker":"Sanjit Biswas"},{"en":"Like you can't crawl Reddit and find out about what happened on a construction site.","zh":"就像你无法爬取 Reddit 并找出建筑工地上发生了什么。","timestamp":"00:02","speaker":"Sanjit Biswas"},{"en":"The Samsara system, in a given day, we're driving 99% of the US roads, usually multiple times a day.","zh":"Samsara 系统,在给定的一天,我们要行驶美国 99% 的道路,通常一天多次。","timestamp":"00:05","speaker":"Sanjit Biswas"},{"en":"They said, over the last 125 years, we've built a certain amount of grid capacity.","zh":"他们说,在过去的 125 年里,我们建造了一定量的电网容量。","timestamp":"00:17","speaker":"Sanjit Biswas"},{"en":"In the next five years, we're gonna triple that.","zh":"在接下来的五年里,我们要将其翻两番。","timestamp":"00:21","speaker":"Sanjit Biswas"},{"en":"We believe we helped prevent about 380,000 car crashes, road accidents in the last year.","zh":"我们相信我们在去年帮助防止了约 38 万起车祸、道路事故。","timestamp":"00:25","speaker":"Sanjit Biswas"},{"en":"You can drive over it with the truck, and it'll continue to operate.","zh":"你可以用卡车从它上面碾过去,它会继续运行。","timestamp":"17:03","speaker":"Sanjit Biswas"},{"en":"we're able to use a few different model families.","zh":"我们能够使用几个不同的模型家族。","timestamp":"35:10","speaker":"Sanjit Biswas"},{"en":"it can basically crack the service manual, look at your specific OEM negotiated warranty agreements, and then correlate the two and say, yes, this specific issue, given the age or the number of miles that have been driven on this vehicle, is actually covered under warranty.","zh":"当它看到一个故障代码时,它基本上可以查阅服务手册,查看您特定的 OEM 协商的保修协议,然后关联两者并说,是的,鉴于车龄或行驶里程数,这个特定问题实际上在保修范围内。","timestamp":"38:05","speaker":"Sanjit Biswas"},{"en":"That is a, you know, like what would have been like an hour or two of human labor that we've been able to automate down to like under a minute.","zh":"这是一个,你知道,大约一两个小时的人力劳动,我们已经能够自动化到不到一分钟。","timestamp":"38:29","speaker":"Sanjit Biswas"},{"en":"So when you kind of are transparent about what the system's doing and what it's not doing, and then how the data is used, that is like how you get the buy-in and you earn the trust of that entire organization.","zh":"所以当你对系统在做什么、不在做什么,以及数据如何使用表现得透明时,这就是你获得认可并在整个组织中赢得信任的方式。","timestamp":"50:25","speaker":"Sanjit Biswas"},{"en":"They saw like a 65 percent reduction in their claims, like auto claims.","zh":"他们的理赔减少了大约 65%,比如车险理赔。","timestamp":"49:58","speaker":"Sanjit Biswas"},{"en":"So for that reason, we think the adoption might be a bit slower, but it's not like a no, it's just, it might take 10, 20 years.","zh":"所以出于这个原因,我们认为采用速度可能会慢一些,但这并不是说不行,只是,这可能需要 10 年、20 年的时间。","timestamp":"56:05","speaker":"Sanjit Biswas"},{"en":"now we're also seeing the driver side of that camera.","zh":"现在我们也在看到那台摄像头的司机一侧。","timestamp":"22:49","speaker":"Sanjit Biswas"},{"en":"They're looking for your habits of like, do you check your mirrors?","zh":"他们是在看你的习惯,比如,你检查后视镜吗?","timestamp":"44:05","speaker":"Sanjit Biswas"},{"en":"So something that we talked about at our Beyond Conference last month was this idea of a driver ride along.","zh":"我们上个月在 Beyond 会议上谈到的一个想法是司机跟车这个概念。","timestamp":"43:46","speaker":"Sanjit Biswas"},{"en":"So if you think about the infrastructure of our planet, it's way more than just the roads where you might see a Waymo robotaxi.","zh":"所以如果你想想我们星球的基础设施,它远不止是你可能会看到 Waymo Robotaxi 的那些道路。","timestamp":"01:55","speaker":"Sanjit Biswas"},{"en":"I think agent reasoning was a huge unlock.","zh":"我认为 agent reasoning 是一个巨大的解锁。","timestamp":"40:51","speaker":"Sanjit Biswas"},{"en":"So I think our customers have it's very clear they're busier than they've ever been before.","zh":"所以我认为我们的客户,很明显,他们比以前任何时候都要忙。","timestamp":"57:14","speaker":"Sanjit Biswas"}]}
+{
+  "title_zh": "物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆",
+  "tldr": "Samsara CEO 讲述如何用硬件加智能体,把交通、工地等物理运营数字化并自动执行。",
+  "digest_md": "过去 125 年里建起来的电网容量,接下来五年要翻三倍,而且其中九成的需求增量来自数据中心——说这话的人是 Sanjit Biswas,他的公司 Samsara(一家年营收超 20 亿美元、年增速约 30% 的上市公司)每天用数百万辆车跑遍美国 99% 的道路,可能是目前现实世界中规模最大的 AI 部署。\n\n这一集 Matt Turk 的播客对谈里,他围绕「物理 AI」(把 AI 应用到交通、建筑、工厂等物理世界)讲了这么几块:为什么这波 AI 潮流先从数字世界开始,物理世界的难点和机会在哪;Samsara 从传感器到云端再到智能体的完整产品架构是怎么搭起来的;他们怎么处理 AI 监控与司机隐私的张力;以及他对自动驾驶卡车、人形机器人和技术工人短缺的判断。你可以带着这张地图往下读。\n\n聊完那组翻三倍的数字,先要回答的问题是:既然 AI 在数字世界已经那么成功,为什么迟迟没有铺到物理世界?Sanjit 的判断是,这完全合理:数字世界有几十年的数据沉淀,训练 AI 需要的数万亿个 token(语言模型处理文本的基本单位)唾手可得;物理世界则既混乱又涉及硬件,设备得在恶劣环境里扛得住、通过不靠谱的网络传数据、还要让数百万一线工人真正用起来 [05:04 Sanjit Biswas]。门槛高,但回报也大——这些行业占了全球 GDP 的 40% 到 50% [05:53 Sanjit Biswas]。\n\n更关键的是,物理世界错了代价极高。建筑工地里到处是多吨位的土方设备,能见度又低,操作员和现场人员都在承担真实风险 [06:44 Sanjit Biswas]。所以 Sanjit 他们的出发点是:风险本身不是拦路虎,而是机会——能不能用数据让它不那么危险?他给了一组直观的数字:光去年,他们的系统帮助避免了约 38 万起车祸 [09:15 Sanjit Biswas],手段包括检测司机是否疲劳、是否在看手机,甚至提醒那大约 10% 不系安全带的美国司机系上安全带 [10:40 Sanjit Biswas]。\n\n说完了「为什么做」,接下来是他具体怎么做。主持人把 Samsara 的架构拆成了三层:传感器是耳朵和眼睛(硬件层),AI 是大脑,智能体(agentic layer,能自主规划并执行任务的 AI 层)是手臂。Sanjit 基本认同,但补了一句:每一层都有「连接组织」 [16:28 Sanjit Biswas]。\n\n硬件层里,他在镜头前举了两个例子。一个是资产标签(asset tag),贴在建筑设备上,里面有加速度计和工业级蓝牙,用电池能撑三年,「你用卡车从它上面碾过去,它会继续运行」 [17:02 Sanjit Biswas]。另一个是刚发布的一次性追踪贴纸,像贴纸一样薄,能持续约 45 天,够走完一趟单向运输,里面不用锂电池,用完即弃 [19:52 Sanjit Biswas]。这些标签怎么联网?他的答案是「社区效应」:数百万辆跑着 Samsara 系统的车和数千万部手机,会互相中继信号——就像 Apple AirTag 的消费端逻辑,但做成了工业级 [20:55 Sanjit Biswas]。\n\n数据进来后要清洗、组织,才能喂给 AI;否则「给 AI 提供非常嘈杂的数据,信噪比就低了」 [17:44 Sanjit Biswas]。这里他用了一个很生动的例子说明智能体层怎么「动手」:如果纽约下雨了,系统可以自动要求当地整个车队增加跟车距离,天晴再调回来;这种事以前需要人工盯几千辆车的设置,根本不现实,现在 AI 能大规模、一致地完成 [18:15 Sanjit Biswas]。\n\n硬件和 AI 之外,另一个绕不开的技术选择是:推理(运行 AI 模型得出结果)该放在边缘(设备端)还是云端?Samsara 的做法是,实时、低延迟的检测放在边缘:他们从云端把模型权重下发到设备,以每秒多帧的速度运行 [31:44 Sanjit Biswas]。原因很实际:客户常在荒无人烟的地方作业,网络信号差;而且只有事情刚发生就立刻反馈,司机才更有可能改变行为 [32:02 Sanjit Biswas]。\n\n> 【背景】Sanjit 在 42:21 和 44:36 提到「Fable 5」「GPT-SOL」「Gemma 4」等模型名,均属语音识别对 Llama 5、GPT-o1、Gemma 2 等模型的误写。按规则,正文中不专门标注纠正,金句英文侧照转写稿原样保留。此处提示一次,帮读者对齐。\n\n生成式 AI 的到来,让原本必须人工的环节被大规模替代。Sanjit 举例:司机猛踩刹车,想当然的判断是他分心了;但如果看视频片段,可能发现他其实是在躲避一头鹿——这就从批评变成了表扬 [34:25 Sanjit Biswas]。这类原本要靠海外低成本人工审核员逐条看的工作,现在用视频大模型(VLM)在云端就能更高吞吐地完成 [34:06 Sanjit Biswas]。更进一步,他们还能用生成式 AI 生成教练视频,化身可以是那家公司真实的安全副总裁,用来给司机做每周辅导——因为「大多数客户受限于能进行的人际互动数量」 [35:25 Sanjit Biswas]。\n\n工具变了,人怎么办?这正是下一个话题。主持人追问:装个时刻盯着司机的摄像头,不就是「老大哥在看着你」吗?Sanjit 的回答很反直觉:行车记录仪最主要、最大的用途,其实是帮司机洗脱嫌疑。比如家得宝这种知名品牌,常被碰瓷说卡车撞了人;有了高清视频证据,谁对谁错一目了然。他强调,司机 90% 的时间都在好好开车却没人看见,这套系统反而是在放大正向行为 [46:47 Sanjit Biswas]。关键在于透明:摄像头不是隐藏式的,要一开始就跟一线讲清楚它做什么、不做什么、数据怎么用——这是赢得整个组织信任的方式 [49:36 Sanjit Biswas]。\n\n最后,把视角拉远。Sanjit 对自动驾驶卡车的判断比 Robotaxi 谨慎得多:Robotaxi 区域化、场景相似,会更快普及;但路上跑的大多数商用车其实是 HVAC 技术员、水管工、建筑队这些「极其混乱的长尾」 [55:31 Sanjit Biswas],水泥搅拌车、垃圾车这些特种设备的高度定制化,注定了自动驾驶向这些边缘渗透的扩散曲线会更长,「可能需要 10 年、20 年」 [56:05 Sanjit Biswas]。\n\n而回到那组翻三倍的电网数字:这背后是一个更紧迫的现实——数据中心热潮直接卡在了技术工人短缺上。「现在就是没有足够多的电工」 [59:07 Sanjit Biswas],连 Meta 都在做项目重新培训电工。所以当人们开玩笑说「律师该去当水管工」时,Sanjit 提醒:这活儿又脏又难得多;但不可否认,这些技工行业需求巨大,而且随着 AI 帮他们减轻准备材料和判断的脑力负担,他们的工作本身也在变得更现代化 [59:39 Sanjit Biswas]。\n\n## 本集带走\n\n最后收个尾,这一集值得带走的是三层认知。第一,物理 AI 是一片跟数字 AI 完全不同的战场:这里没有现成的海量文本可训练,设备要在恶劣环境里扛住,错误代价极高,但正因为苦,它锁住了全球 GDP 四到五成的价值,谁把数据采上来、洗干净、喂给模型,谁就拿到了别人抢不走的护城河——毕竟建筑工地上发生了什么,你没法从网上爬到。第二,真正的杠杆不是单点自动化,而是硬件、云端和智能体拼成闭环:从能被卡车碾过的资产标签,到边缘实时提醒司机,再到云端自动调全城的跟车距离,最后由智能体把保修索赔这种原本一两个小时的人工活压到一分钟以内。第三,在物理世界部署 AI,最难的不是算法,而是信任:司机接受时刻盯着自己的摄像头,不是因为监控,而是因为这套系统 90% 的时间在帮他们证明「我做对了」,把正向行为放大,用透明换一线的买单。",
+  "quotes": [
+    {
+      "en": "we believe we helped prevent about 380,000 car crashes, road accidents in the last year.",
+      "zh": "我们相信我们在去年帮助防止了约 38 万起车祸、道路事故。",
+      "timestamp": "09:15",
+      "speaker": "Sanjit Biswas"
+    },
+    {
+      "en": "the majority use case is actually exoneration.",
+      "zh": "主要的用例实际上是开脱罪责。",
+      "timestamp": "46:47",
+      "speaker": "Sanjit Biswas"
+    },
+    {
+      "en": "Drivers love that because I have to say 90% of the time they're doing a great job and nobody's seeing it.",
+      "zh": "司机们喜欢这样,因为我不得不说 90% 的时间他们做得很好,却没有人看到。",
+      "timestamp": "47:37",
+      "speaker": "Sanjit Biswas"
+    },
+    {
+      "en": "They saw like a 65 percent reduction in their claims, like auto claims.",
+      "zh": "他们的理赔减少了大约 65%,比如车险理赔。",
+      "timestamp": "49:58",
+      "speaker": "Sanjit Biswas"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "These are not the tokens you're going to find online.",
+      "zh": "这些不是你能在网上找到的 token。",
+      "timestamp": "28:33",
+      "speaker": "Sanjit Biswas"
+    },
+    {
+      "en": "you can't crawl Reddit and find out about what happened on a construction site.",
+      "zh": "你无法爬取 Reddit 并找出建筑工地上发生了什么。",
+      "timestamp": "28:35",
+      "speaker": "Sanjit Biswas"
+    },
+    {
+      "en": "The physical world is much messier and there's also a hardware component to it.",
+      "zh": "物理世界要混乱得多,而且它还有硬件组件。",
+      "timestamp": "05:20",
+      "speaker": "Sanjit Biswas"
+    },
+    {
+      "en": "All these industries, they make up about 40, 50% of world GDP.",
+      "zh": "所有这些行业,它们占世界 GDP 的大约 40、50%。",
+      "timestamp": "05:53",
+      "speaker": "Sanjit Biswas"
+    },
+    {
+      "en": "we believe we helped prevent about 380,000 car crashes, road accidents in the last year.",
+      "zh": "我们相信我们在去年帮助防止了约 38 万起车祸、道路事故。",
+      "timestamp": "09:15",
+      "speaker": "Sanjit Biswas"
+    },
+    {
+      "en": "And then the third, since we talked about asset trackers early, you have these millions of vehicles driving around.",
+      "zh": "然后也许是第三点,既然我们早些时候谈到了资产追踪器,你有这些数百万辆车辆在四处行驶。",
+      "timestamp": "30:50",
+      "speaker": "Sanjit Biswas"
+    },
+    {
+      "en": "the warranty claims just are unfulfilled, right?",
+      "zh": "大多数保修索赔根本没有得到履行,对吧?",
+      "timestamp": "39:17",
+      "speaker": "Sanjit Biswas"
+    },
+    {
+      "en": "That is a, you know, like what would have been like an hour or two of human labor that we've been able to automate down to like under a minute.",
+      "zh": "这是一个,你知道,大约一两个小时的人力劳动,我们已经能够自动化到不到一分钟。",
+      "timestamp": "38:29",
+      "speaker": "Sanjit Biswas"
+    },
+    {
+      "en": "I think agent reasoning was a huge unlock.",
+      "zh": "我认为 agent reasoning 是一个巨大的解锁。",
+      "timestamp": "40:51",
+      "speaker": "Sanjit Biswas"
+    },
+    {
+      "en": "you do need to outline what is it that I want the agent to do, right?",
+      "zh": "但你确实需要概述我希望 agent 做什么,对吧?",
+      "timestamp": "40:58",
+      "speaker": "Sanjit Biswas"
+    },
+    {
+      "en": "And that is in some lightweight sense, like the workflow, it's also the guardrails.",
+      "zh": "这在某种轻度意义上,就像工作流,它也是护栏。",
+      "timestamp": "41:00",
+      "speaker": "Sanjit Biswas"
+    },
+    {
+      "en": "I don't think either really works well in sort of isolation.",
+      "zh": "我认为两者都不太能在孤立中很好地工作。",
+      "timestamp": "41:25",
+      "speaker": "Sanjit Biswas"
+    },
+    {
+      "en": "the majority use case is actually exoneration.",
+      "zh": "主要的用例实际上是开脱罪责。",
+      "timestamp": "46:49",
+      "speaker": "Sanjit Biswas"
+    },
+    {
+      "en": "Drivers love that because I have to say 90% of the time they're doing a great job and nobody's seeing it.",
+      "zh": "司机们喜欢这样,因为我不得不说 90% 的时间他们做得很好,却没有人看到。",
+      "timestamp": "47:43",
+      "speaker": "Sanjit Biswas"
+    },
+    {
+      "en": "so when you kind of are transparent about what the system's doing and what it's not doing, and then how the data is used, that is like how you get the buy-in and you earn the trust of that entire organization.",
+      "zh": "所以当你对系统在做什么、不在做什么,以及数据如何使用表现得透明时,这就是你获得认可并在整个组织中赢得信任的方式。",
+      "timestamp": "50:25",
+      "speaker": "Sanjit Biswas"
+    },
+    {
+      "en": "They said, you know, over the last 125 years, we built a certain amount of grid capacity in megawatts or gigawatts, really.",
+      "zh": "他们说,你知道,在过去的 125 年里,我们建造了一定数量的电网容量,以兆瓦或吉瓦计,实际上是。",
+      "timestamp": "57:32",
+      "speaker": "Sanjit Biswas"
+    },
+    {
+      "en": "In the next five years, we're going to triple that.",
+      "zh": "在未来五年里,我们将把这个增加两倍。",
+      "timestamp": "57:40",
+      "speaker": "Sanjit Biswas"
+    },
+    {
+      "en": "so for that reason, we think the adoption might be a bit slower, but it's not like a no, it's just, it might take 10, 20 years.",
+      "zh": "所以出于这个原因,我们认为采用速度可能会慢一些,但这并不是说不行,只是,这可能需要 10 年、20 年的时间。",
+      "timestamp": "56:05",
+      "speaker": "Sanjit Biswas"
+    },
+    {
+      "en": "They saw like a 65 percent reduction in their claims, like auto claims.",
+      "zh": "他们的理赔减少了大约 65%,比如车险理赔。",
+      "timestamp": "49:58",
+      "speaker": "Sanjit Biswas"
+    }
+  ]
+}

@@ -11,15 +11,15 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]]**(00:41起):本集说它是 ChatGPT(GPT)针对 Claude Code 的竞品。嘉宾把它拟人化为公司里最好的「独狼」程序员,沟通差但解决最棘手 Bug 能力极强,常被用来给 Claude 写的代码做交叉同行评审。
-- **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]]**(17:47起):本集提到作为最高级推理能力相当先进的 AI 编码工具，被嘉宾用于日常构建中。
-- **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]]**(01:05起):OpenAI 推出的桌面应用，被 Dan 当作日常主力工作环境，其内置浏览器可让智能体看着用户工作；Dan 认为它抓住了未来工作的范式，甚至超过了 Anthropic 的产品。
+- **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]]**(00:41起):本集说它是 ChatGPT(GPT)针对 Claude Code 的竞品。嘉宾把它拟人化为公司里最好的「独狼」程序员,沟通差但解决最棘手 Bug 能力极强,常被用来给 Claude 写的代码做交叉同行评审。
+- **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(17:47起):本集提到作为最高级推理能力相当先进的 AI 编码工具，被嘉宾用于日常构建中。
+- **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(01:05起):OpenAI 推出的桌面应用，被 Dan 当作日常主力工作环境，其内置浏览器可让智能体看着用户工作；Dan 认为它抓住了未来工作的范式，甚至超过了 Anthropic 的产品。
 - **[[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]]**(03:42起):本集提到它是大家通用的编码智能体之一,如果在它里面找到漏洞,就拥有了一类全新的、可广泛利用的攻击方式。
 - **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当代码不再是瓶颈,品味和策展成为产品团队的稀缺力》]]**(00:00起):本集说它是 OpenAI 的桌面应用，自一月以来使用量增长了 6 倍，拥有超过 500 万周活用户；正从开发者工具转变为人们做非产品工作(如文件整理、数据分析)的首选应用，并正与 ChatGPT 能力融合。
-- **[[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]]**(00:44起):本集把它说成:加了类固醇的 ChatGPT，不仅是写代码的工具，更是启动项目、管理上下文、生成幻灯片/网站/移动应用的超级中枢。
-- **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型》]]**(19:22起):本集说它是一个编程工具,主持人结合它与 Soul 模型配合使用,完成了从零到一构建原型应用、以及通过 `@chrome` 指令接管网页实现浏览器自动化等工作。
+- **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(00:44起):本集把它说成:加了类固醇的 ChatGPT，不仅是写代码的工具，更是启动项目、管理上下文、生成幻灯片/网站/移动应用的超级中枢。
+- **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]]**(19:22起):本集说它是一个编程工具,主持人结合它与 Soul 模型配合使用,完成了从零到一构建原型应用、以及通过 `@chrome` 指令接管网页实现浏览器自动化等工作。
 - **[[2026-07-28-pg-how-to-build-your-first-eval|《评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估》]]**(21:49起):本集把它说成:嘉宾在终端演示中使用的智能体工具,用于修改基因组文件,并在评估测试中于简单任务上快速锁定了正确的囊性纤维化突变区域。
-- **[[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]]**(04:45起):本集讨论的 OpenAI 推出的命令行编码智能体，被嘉宾极力偏爱。集里说它“在决定更改什么之前浏览了更多的文件”，虽然非常慢，但嘉宾会同时开 10 个来用，并用它生成了 OpenClaw 的模板。
+- **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(04:45起):本集讨论的 OpenAI 推出的命令行编码智能体，被嘉宾极力偏爱。集里说它“在决定更改什么之前浏览了更多的文件”，虽然非常慢，但嘉宾会同时开 10 个来用，并用它生成了 OpenClaw 的模板。
 
 ## ① 提到它的金句
 
@@ -31,21 +31,21 @@ unlisted: true
 
 ![[2026-06-28-lennys-openai-codex-lead-on-the-new-shape#^q7]]
 
-![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q1]]
+![[2026-07-09-pg-pm-guide-ai-design#^q1]]
 
 ## ② 出现在这些集
 
 *9 集*
 
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] — 作为概念
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] — 作为被讨论公司(提及)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] — 作为被讨论公司
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为概念
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为被讨论公司(提及)
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为被讨论公司
 - [[2026-06-22-latent-space-gray-swan|《让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏》]] — 作为概念(提及)
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当代码不再是瓶颈,品味和策展成为产品团队的稀缺力》]] — 作为被讨论公司
-- [[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]] — 作为概念
-- [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型》]] — 作为概念
+- [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为概念
+- [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]] — 作为概念
 - [[2026-07-28-pg-how-to-build-your-first-eval|《评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估》]] — 作为被讨论公司(提及)
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] — 作为被讨论公司
+- [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为被讨论公司
 
 ## ③ 关联
 

@@ -1,12 +1,12 @@
 ---
-title: Lassie 的 AI 智能体：让牙科诊所行政自动化，开启小企业大市场
+title: "AI 不抢饭碗，是找不到人:Lassie 如何替全美牙医干掉行政活"
 podcast: The a16z Show
 date: 2026-07-30
 source_url: undefined
 duration: "58:50"
 type: episode
 cover: "#64748b"
-description: 当软件不再仅仅存储信息，而是直接完成工作时，整个劳动市场将被重新定义。
+description: "Lassie 给全美数十万家小诊所自主跑保险理赔和收款,证明 AI 时代的软件不再只是「存数据」的工具,而是直接「干人的活」。"
 host: "[[Olivia Moore]]"
 cohosts: ["[[Frederick Rankin]]", "[[Alex Rampell]]", "[[Stein Pella]]"]
 companies: ["[[Lassie]]"]
@@ -17,9 +17,9 @@ tags:
   - 创业与行业
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Lassie 的 AI 智能体：让牙科诊所行政自动化，开启小企业大市场</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 不抢饭碗，是找不到人:Lassie 如何替全美牙医干掉行政活</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# Lassie 的 AI 智能体：让牙科诊所行政自动化，开启小企业大市场
+# AI 不抢饭碗，是找不到人:Lassie 如何替全美牙医干掉行政活
 
 <div class="pd-byl"><b>Stein Pella</b> · Lassie 联合创始人</div>
 
@@ -27,7 +27,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-30-a16z-ai-for-americas-small-businesses-lassie.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">AI 在硅谷被过度炒作，但在爱荷华州却炒作不足。</div><div class="a">Alex Rampell · 00:00</div></div>
+<div class="pd-hook"><div class="z">我有点认为,AI 在硅谷被过度炒作,但在爱荷华被低估了。</div><div class="a">Alex Rampell · 30:25</div></div>
 
 > [!info] 关联
 > **人物** [[Olivia Moore]] · [[Frederick Rankin]] · [[Alex Rampell]] · [[Stein Pella]]
@@ -36,101 +36,53 @@ tags:
 >
 > **概念** [[智能体]] · [[回路中的人类]] · [[现有巨头]]
 
-<div class="pd-tldr"><b>一句话</b>当软件不再仅仅存储信息，而是直接完成工作时，整个劳动市场将被重新定义。</div>
+<div class="pd-tldr"><b>一句话</b>Lassie 给全美数十万家小诊所自主跑保险理赔和收款,证明 AI 时代的软件不再只是「存数据」的工具,而是直接「干人的活」。</div>
 
-本集由 a16z 的两位合伙人 [[Alex Rampell|Alex Rampell]] 和 [[Olivia Moore|Olivia Moore]] 主持，对话嘉宾是 [[Lassie|Lassie]] 的两位联合创始人 Stein 和 Frederick。Lassie 是一家为医疗诊所（目前主攻牙科）构建[[智能体|智能体]]（agent，能自主执行任务的 AI 系统）的初创公司，核心目标是用 AI 自动化繁琐的行政工作（如保险计费、患者收款）。从科技巨头的增长部门到亲手给牙医处理纸质账单，两位创始人发现了一个被忽视的巨大市场。整场对话将沿着一条清晰的主线展开：**当软件从「存储信息」进化到「直接做劳动」，不仅小企业的命运将被改写，整个软件行业的商业逻辑和市场天花板也会发生质变。**
+Yelp 上排名第一的牙医,每个月竟然要花 200 个小时处理文书——亲手提交保险索赔、核对账目、寄送账单。拥有哈佛学位的医生本人,得在诊所守到半夜干这些活,甚至有人因为实在找不到帮手,干脆把诊所卖掉退休了。说这话的人是 Stein,[[Lassie|Lassie]] 的联合创始人,他造的 AI [[智能体|智能体]]正在把这些行政杂活全接管过来。
 
-## 发现痛点：Yelp 第一名医为何每月苦干 200 小时文书？
+在这一集 a16z 的对谈里,Stein、联合创始人 Frederick 和投资人 Alex 聊了三件事:Lassie 的智能体(能自己干活、不需要人盯着的 AI 程序)为什么能做到 98% 的自动化率,让牙医只需插上电源它就自己开工;为什么过去几十年软件其实没让世界变得多高效,而 AI 彻底改变了这个逻辑——让软件从「存信息」变成了「干人的活」;以及一家科技公司怎么去敲开全美几十万家非技术、没时间、还活在纸质支票时代的小诊所的大门。
 
-Lassie 的起点极具戏剧性。Stein 曾在 Robinhood 从事推荐增长工作，来到硅谷寻找创业机会。他的牙医 Kwan 医生知道他在「找难题解决」，便把他带到诊所后厨——Stein 惊讶地发现，这位 Yelp 上排名第一的顶级牙医，居然每个月要花 200 个小时亲手处理保险索赔和付款等文书工作 <button class="pd-ts" data-t="02:40" data-who="Stein" data-en="And he walked me to the back and I never forgot what I saw there. A small business owner that is the number one rated doctor on Yelp, spending 200 hours a month on paperwork and busy work." aria-label="回原文"></button>。Stein 起初以为这只是个案，但在走访了多地的诊所后，他意识到这是一个普遍且严重的痛点：有成千上万的小型企业完全依赖手工处理这些繁杂事务 <button class="pd-ts" data-t="03:57" data-who="Stein" data-en="I'm like, wait, you're doing this all by hand? So then we figured out, wait, there are like hundreds of thousands of these small businesses that literally do this all by hand." aria-label="回原文"></button>。
+## 软件的过去与现在:从「文件柜」到「干活的人」
 
-为了搞清楚问题，Stein 和 Frederick 甚至亲自下场。他们坐在诊所里，亲自处理账单、核对保险付款、操作各类遗留系统。直到今天，Lassie 仍有数千名实际的诊所员工为他们提供反馈，帮助优化那些智能体目前无法处理的边缘案例 <button class="pd-ts" data-t="21:23" data-who="Stein" data-en="But it's fine if it does in this case for the first agent 98% of the work and then there's a sliver left. And the interesting thing that we have thousands of staffers that are basically giving us input on how to make that appeal that the agent currently cannot do." aria-label="回原文"></button>。
+要理解 Lassie 在做什么,得先看 Alex 对软件史的一个判断。他梳理了软件的起源:几十年前的软件,本质上就是把纸质文件柜搬进数据库,通过绿屏计算机来查询 <button class="pd-ts" data-t="07:32" data-who="Alex" data-en="Curious how you think about that when you look at companies and maybe how it played into like the thesis around LASI. Yeah, well, so I've given this whole presentation on the origin of software was basically take a filing cabinet and put it into a database and kind of pick the time equals zero moment for that with this company, the Sabre Systems, because airlines would just keep reservations in filing cabinets." aria-label="回原文"></button>。航空公司把订座记录从文件柜搬进 Sabre 系统,人力资源从文件柜变成了 PeopleSoft,会计账本变成了 QuickBooks。但 Alex 指出,世界其实并没有因此变得多高效——1950 年和 2000 年,同等规模公司的人力资源部人数差不多,只是看文件柜的保安,换成了守 IT 系统的安全官 <button class="pd-ts" data-t="08:34" data-who="Alex" data-en="So I would actually argue that the world didn't get that much more efficient with software. Because all that software did was, like, take HR, like, did PeopleSoft and then Workday make HR departments more efficient?" aria-label="回原文"></button>。
 
-## 核心洞察：软件从「文件柜」变成了「打工人」
+软件只是存信息,人还是得干活。Alex 认为,现在 AI 的出现改变了这一切:软件不再只是「笨存储」,而是能真正去编辑文件柜、执行变更——做背景调查、处理入职、催收账单 <button class="pd-ts" data-t="09:06" data-who="Alex" data-en="I'm somewhat exaggerating for effect here. But what you can now do with software is it can edit the filing cabinet, right? It's no longer just the dumb storage." aria-label="回原文"></button>。Stein 补充了一个非常具体的市场图景:仅美国就有大约 16 万家牙科诊所,每家每年平均花 20 万美元在行政成本上 <button class="pd-ts" data-t="14:33" data-who="Stein" data-en="And we also see that. So, like, there are about, like, 160,000 dental practices in the U.S. alone. And, like, they spend roughly $200,000 a year on, like, administrative costs." aria-label="回原文"></button>。更重要的是,他们不是不愿意花钱,而是根本找不到人。这个「找不到人」的困境,成了 Lassie 切入市场的核心契机。
 
-明白了 Lassie 在解决什么痛点，接下来是 Alex Rampell 在本集中抛出的核心论断：软件的本质发生了根本改变。
+## 自己先当「人肉智能体」
 
-Alex 认为，回顾软件的起源，无论是当年做航空预订系统的 Sabre，还是后来做人力资源的 PeopleSoft、做会计的 QuickBooks，第一代企业软件做的其实都是同一件事：把现实中的文件柜变成数据库，也就是「数字化存储信息」<button class="pd-ts" data-t="07:32" data-who="Alex" data-en="Curious how you think about that when you look at companies and maybe how it played into like the thesis around LASI. Yeah, well, so I've given this whole presentation on the origin of software was basically take a filing cabinet and put it into a database and kind of pick the time equals zero moment for that with this company, the Sabre Systems, because airlines would just keep reservations in filing cabinets." aria-label="回原文"></button>。
+听完了软件为什么必须从「存数据」进化到「干活」,接下来的问题是:怎么造出能真正干活的智能体?Lassie 的起点出人意料地原始:2020 年刚起步时,大模型的推理能力(模型一步步逻辑推导、做判断的能力)还很弱,Frederick 说,他们干脆自己坐进牙医的办公室,亲手处理那些保险索赔和账单 <button class="pd-ts" data-t="17:48" data-who="Frederick" data-en="What was it like getting the product to, I think you guys are at 98% automation, like walk us through kind of that journey. Yeah, I think a big part of it was us actually spending the time in offices doing the work ourselves." aria-label="回原文"></button>。他们先当「人肉智能体」,在做的过程中一点点把上下文(智能体干活所需的背景信息)和工具搭建起来,等后来大模型能力跟上,他们直接把智能层的「大脑」换掉,产品就跟着变聪明了 <button class="pd-ts" data-t="06:54" data-who="Frederick" data-en="Like the most basic kind of automation didn't require that much reasoning. But then as the models got really good, we had this kind of huge tailwind because we had all this context already built, all the tools already built, and we could kind of, as the models got better, just replace our intelligence and the product would just get smarter over time." aria-label="回原文"></button>。
 
-但问题在于，信息虽然存在了电脑里，活儿还得人自己干。Alex 一针见血地指出：世界并没有因为这种软件而变得更高效。1950 年和 2000 年，同等规模公司的人力资源部门人数并没有减少，只不过是用 IT 部门和 CISO（首席信息安全官）替代了原来看守实体文件柜的人，变成了「用软件守卫文件」<button class="pd-ts" data-t="08:34" data-who="Alex" data-en="So I would actually argue that the world didn't get that much more efficient with software. Because all that software did was, like, take HR, like, did PeopleSoft and then Workday make HR departments more efficient?" aria-label="回原文"></button>。
+这种「先亲自干,再自动化自己」的路径,让他们学到了一件关键的事:你不能给中小企业一个需要他们去操作的工具。因为那里根本没有多余的人去用这个工具 <button class="pd-ts" data-t="18:02" data-who="Frederick" data-en="I don't think we could have built a product that works as well as it does if we didn't know how to do the job. I think another part, we already kind of talked about it, but I think a huge difference between SMBs in general and enterprises is that in SMBs, there's nobody to use the tools." aria-label="回原文"></button>。中小企业需要的是一个能插上电就自己跑的系统。Stein 打了个比方:在他们推出产品前,几千名诊所工作人员给他们反馈,告诉他们智能体处理不了的边缘情况该怎么解决 <button class="pd-ts" data-t="21:23" data-who="Stein" data-en="But it's fine if it does in this case for the first agent 98% of the work and then there's a sliver left. And the interesting thing that we have thousands of staffers that are basically giving us input on how to make that appeal that the agent currently cannot do." aria-label="回原文"></button>。现在他们的第一个智能体能处理 98% 的行政活,剩下 2% 交给人,虽然不是 100%,但已经从每周更新 200 个账本的噩梦,变成了只需处理几条的轻松日子 <button class="pd-ts" data-t="20:18" data-who="Stein" data-en="It's fine for like a business owner if there is a tiny sliver left of claims that need to be touched every week, right? So the way to see this, because they live in a nightmare world where you have to update 200 ledgers a week." aria-label="回原文"></button>。他们甚至已经敢对这个每月只干 30 小时活的智能体,收五位数(上万美元级别)的年费 <button class="pd-ts" data-t="15:57" data-who="Stein" data-en="And then indeed like on the, why that's an interesting business because this is indeed, it comes out of the P&amp;L on the labor budget. So like we are already charging five figures for kind of like this first agent that only does 30 hours of labor a month." aria-label="回原文"></button>。
 
-而今天的 AI 终于改变了这一点。软件不再只是给你看逾期发票的「哑存储」，它能直接打电话去催收。Alex 指出，执行这些具体动作的劳动量级，比信息的存储量级要大得多 <button class="pd-ts" data-t="09:39" data-who="Alex" data-en="That's what the filing cabinet should be doing, not just giving you the information. So it just turns out that the work is orders of magnitude bigger than the storage of information that the work is done on." aria-label="回原文"></button>。
+## AI 时代的护城河与最后冲刺
 
-> 【背景】这里 Alex 提到了金融科技对软件市场的放大效应。他以餐厅软件 Toast 为例：1985 年没有餐厅软件公司，因为餐厅不愿为单纯的管理软件花大钱。但如果你把支付处理捆绑进软件，按流水抽成，软件的商业价值就暴增了。Alex 认为，这种金融捆绑效应，与「AI 软件直接替代人类劳动」相比，完全相形见绌——因为你能直接按工作量向客户收费，而这往往比雇人更便宜 <button class="pd-ts" data-t="10:32" data-who="Alex" data-en="And if you think about fintech, fintech massively expanded the size of many non-financial markets because now you could bundle in financial products with non-financial products." aria-label="回原文"></button>。
+说完了产品怎么造,接下来的问题是:在一个谁都能用 AI 的时代,凭什么你能赢?Alex 抛出了一个经典的「初创公司 vs 巨头」框架:胜负取决于初创公司能否在巨头醒过来搞创新之前,抢占分发渠道(触达并服务客户的网络)<button class="pd-ts" data-t="24:49" data-who="Alex" data-en="Because you can have, like, why are big companies not good at replicating small companies? There are lots of different reasons. But the ones that, one of the reasons is they hire very bad engineers and they have lots of process." aria-label="回原文"></button>。好消息是,在牙科诊所这种垂直领域,根本没有所谓的软件巨头。Stein 接话:他们真正的竞争对手是名叫 Betty(诊所前台)的人,而 Betty两周前就辞职了;或者是那些在海外、质量很差的账单外包代理 <button class="pd-ts" data-t="27:16" data-who="Stein" data-en="And the pure play software thing, it's like they're smoking crack or not showing up to work if they're not working on implementing AI features, because that's what their customers are demanding of them." aria-label="回原文"></button>。
 
-有趣的是，对于很多小企业来说，这甚至不是「更便宜」的问题，而是「根本找不到人」。Alex 讲了一位退休牙医 Ronald Sloop 的故事：Sloop 医生因为招不到也留不住能处理账目的关键员工，宁愿提前卖掉诊所退休 <button class="pd-ts" data-t="12:13" data-who="Alex" data-en="So my first dentist, hopefully he's listening to this podcast. His name is Ronald Sloop. It was my parents' like first friend when they moved to Florida." aria-label="回原文"></button>。很多市场失灵就发生在供需平衡点之外，所有人都想雇个行政助理，但成本太高而不可行 <button class="pd-ts" data-t="13:12" data-who="Alex" data-en="In many cases, you can't find somebody. This is the part that people don't realize, or you can't find somebody, but there's like a, imagine that there is something that every human on earth would pay a dollar for, but the cost of manufacturing that thing is $100." aria-label="回原文"></button>。
+但 Lassie 的护城河(让对手难以复制的优势)不止于此。Stein 解释,他们花了几年时间做的脏活累活——把几十个不同诊所系统、保险门户网站的读写接口(让软件间能互相交换数据的通道)接通,搭一个所有系统通用的数据模型,再在上面建能自主跑的智能体 <button class="pd-ts" data-t="28:19" data-who="Stein" data-en="do the actual labor and talk to all these like systems and you need to build an ontology to make sure that everybody in this whole ecosystem is on the same page about an insurance claim and the patient payment because all these different systems have like a slightly different definition of that which makes it also then harder to build because there is no incumbent" aria-label="回原文"></button>。这种繁琐的集成工作,恰恰是极难复制的壁垒。而他们还面临一个更棘手的「最后一公里」问题:怎么让爱荷华州、不懂技术、每天忙到晚上7点还没干完活、还要给急诊病人回电话的牙医,用上这个产品?Stein 说,他们借鉴了 Robinhood 和 Superhuman 这类消费级产品的经验,把上手流程做到几乎像在 App 商店下载应用一样简单,医生自己插上银行账户、连上保险系统就能跑 <button class="pd-ts" data-t="31:30" data-who="Stein" data-en="a lot of the work went into not only building this agent, but also how do you set people up on that agent such that almost all the friction is gone. And that was like a lot of work." aria-label="回原文"></button>。
 
-## 建立护城河：不放手的 98% 自动化
+## 被低估的市场与未竟的挑战
 
-既然 AI 直接做劳动是巨大的机会，初创公司该怎么切？
+工具和渠道都有了,人怎么办?这正是他们要回答的下一个问题。Stein 对 AI 的落地有一个很锐利的观察:AI 在硅谷被过度炒作,但在爱荷华州却被严重低估了 <button class="pd-ts" data-t="30:25" data-who="Stein" data-en="But, like, there's a lot of, like, these systems and processes are very manual. And I kind of think, like, AI is overhyped in Silicon Valley but underhyped in Iowa." aria-label="回原文"></button>。那些真正在痛苦中、快要辞职的小企业主,根本没时间听硅谷的 AI 叙事,他们需要的是能立刻减负的东西。Stein 认为,释放出来的劳动力不是抢饭碗,而是创造了增量——现在美国的牙科需求是供给的两倍,如果智能体能帮医生省下时间,他们就能看更多病人,甚至可能让美国多出几十万能获得良好牙科护理的人 <button class="pd-ts" data-t="43:16" data-who="Stein" data-en="I think our current take on that is that... This assumes there is a cap on kind of like demand. And if you just look at the dental practice, but the same applies to try to find a good plumber." aria-label="回原文"></button>。
 
-对于中小企业， Frederick 指出了一个关键现实：你可以做一个工具，但诊所里根本没有人有时间坐在那里去学习并使用它 <button class="pd-ts" data-t="18:03" data-who="Frederick" data-en="I think another part, we already kind of talked about it, but I think a huge difference between SMBs in general and enterprises is that in SMBs, there's nobody to use the tools." aria-label="回原文"></button>。因此 Lassie 从第一天起就坚持：不要让「人」留在处理流程的回路中（human in the loop）。Stein 和 Frederick 最初的策略是自己成为「[[回路中的人类|回路中的人类]]」，亲自接管所有手工劳动，然后一点点把自动化补齐，直到把系统打磨到可以放心交还给诊所运行 <button class="pd-ts" data-t="18:21" data-who="Frederick" data-en="Needs to go into the tool. We, from the very beginning, we focused on, you know, initially we were actually the humans in the loop. So we kind of took over all of the work and we were like, you know, we'll just do this work for you." aria-label="回原文"></button>。
-
-这种执念在技术上极其困难。因为一旦你要全盘接管一份工作（比如对账所有保险付款），系统就不能只是个建议工具，它必须 100% 倾向于正确性并自主运行。Lassie 的第一个智能体目前已能实现 98% 的工作自动化，剩下的 2% 依然能为诊所省下大量时间 <button class="pd-ts" data-t="21:18" data-who="Stein" data-en="So I think that's how we approach like this, like built as well that we didn't want a human in the loop because we want software that scales and can be implemented quick." aria-label="回原文"></button>。
-
-Lassie 的另一个护城河是深度整合。他们必须搞清楚不同诊所系统之间的读写集成，构建出统一的数据模型，然后在其上构建自主运行的智能体。这种历经数年的数据缝补工作，使得其他竞争者极难快速复制 <button class="pd-ts" data-t="28:12" data-who="Stein" data-en="do the actual labor and talk to all these like systems and you need to build an ontology to make sure that everybody in this whole ecosystem is on the same page about an insurance claim and the patient payment because all these different systems have like a slightly different definition of that which makes it also then harder to build because there is no incumbent" aria-label="回原文"></button>。
-
-> 【背景】本集嘉宾多次使用了「Dr. Sloop」（斯鲁普医生）这个虚构称呼来指代现实中典型的小型牙科诊所老板，作为讲解业务逻辑的案例人物。
-
-## 从巨头阴影下逃生的 AI 初创
-
-说到护城河，这也是 Alex 提出的经典「分销与创新」博弈论：一家初创公司能否成功，取决于它能否在巨头（incumbent，指现有占据市场主导地位的大公司）推出创新之前，抢先获得客户分销渠道 <button class="pd-ts" data-t="25:49" data-who="Alex" data-en="So I kind of think the same rules apply. You know, the battle between every startup and incumbent comes down to whether the startup gets the distribution before the incumbent gets the innovation." aria-label="回原文"></button>。
-
-在传统软件领域，如果你做一个依附于 Workday 的插件，Workday 随时可以凭借庞大的客户群抄袭你。但 Alex 认为，AI 时代有一个让初创公司极其兴奋的特点：在许多细分行业里，压根就不存在软件巨头可以抄袭你 <button class="pd-ts" data-t="26:05" data-who="Alex" data-en="But the other is that there are a lot of categories where there never was an incumbent software company because the only job to be done was like actual human labor." aria-label="回原文"></button>。牙科诊所就是典型，这里的「[[现有巨头|现有巨头]]」不是一家科技公司，而是一位名叫 Betty、两周前刚刚辞职的疲惫前台员工 <button class="pd-ts" data-t="27:23" data-who="Stein" data-en="Yeah, and we see exactly that is that there isn't an incumbent that kind of like does this job or can do this job like quickly. Well, the incumbent was named Betty and she quit two weeks ago." aria-label="回原文"></button>。
-
-> 【背景】Alex 在讨论巨头复制初创公司的威胁时，提到了大公司往往因为招聘标准低且流程臃肿而动作迟缓。但他指出，AI 正在拉平这种差距，大公司可以利用 AI 让平庸的工程师写出不错的代码，这意味着巨头模仿你的速度会变得更快 <button class="pd-ts" data-t="24:51" data-who="Alex" data-en="There are lots of different reasons. But the ones that, one of the reasons is they hire very bad engineers and they have lots of process. But now, AI kind of makes a bad engineer into, like, a pretty good engineer." aria-label="回原文"></button>。
-
-## 攻克最后一公里：把 AI 卖给爱荷华州
-
-产品做好了，怎么交付给分散在全美各地的 16 万家牙科诊所？Stein 指出，光是美国牙科市场，每年在找不到人的行政岗位上就要耗费约 20 万美元，这是一个高达 10 亿美元经常性收入的市场 <button class="pd-ts" data-t="34:15" data-who="Stein" data-en="But step one is to Alexa's point, like there are 160,000 dental practices in the US alone, $200,000 in labor that Dr. Sloop and others can't find. So like serving that market first, you're looking at a $1 billion in recurring revenue as a market." aria-label="回原文"></button>。
-
-但他认为，向小企业销售 AI 与在硅谷做企业级软件截然不同。你不能指望在高级餐厅吃顿牛排就签下千万美元的大单 <button class="pd-ts" data-t="56:01" data-who="Stein" data-en="Yeah, this is a very different playbook than where currently I think the cutting edge is. It's like you have these models good enough and apply them in enterprises and you do like a few steak dinners and then you sign a contract and then you have like 10 million in ARR booked, right?" aria-label="回原文"></button>。这些小企业主不在社交网络上，也不可能让他们去应用商店自学复杂配置。
-
-Lassie 的解法是用消费级互联网产品的思路来做企业软件。他们打造了一个类似 Stripe 那样的结账流程或 Reppling 那样的入职流程的极简自助体验：诊所老板只需像在消费者应用中那样绑定银行账户、链接现有的诊所管理系统和记录系统，底层引擎就会自动完成所有的配置与对接 [31:46]。这种近乎无摩擦的交付，是打通「最后一公里」的关键。
-
-## 未来的难题：大模型不懂「潜规则」
-
-既然智能体已经能跑通，还有什么技术瓶颈？Frederick 提出了一个反直觉的发现：如今的推理模型虽然在海量数据上训练，体型庞大，但它们其实完全不懂现实中具体业务的工作流程 <button class="pd-ts" data-t="46:29" data-who="Frederick" data-en="You know, what do you need and where are we on that curve if you had to estimate? I think one thing that's interesting is that the models are trained on so much data and they're so large and yet they actually don't really know how to do any of this work." aria-label="回原文"></button>。
-
-医疗计费里包含了大量只存在于资深员工脑子里的经验法则（即 SOP，标准作业程序），这些知识在互联网上根本搜不到。模型们并不具备这些「行业潜规则」的编码。Lassie 目前的优势恰恰在于他们通过多年实地操作，积累了大量诊所的历史 ERP（企业资源计划系统）数据，借此才反推出这些隐秘的工作流 <button class="pd-ts" data-t="47:14" data-who="Frederick" data-en="Yeah. I think we have a big advantage there because we have all of this historical data out of their ERPs that we can look at and kind of infer some of these workflows from." aria-label="回原文"></button>。
-
-另一个有趣的隐忧是当「争论的边际成本降为零」时的商业博弈。Alex 指出，保险公司的盈利模式往往依赖于故意拖延或拒赔 <button class="pd-ts" data-t="49:05" data-who="Alex" data-en="And maybe one kind of final question between technical and non-technical is I've been thinking about this a lot, how the world changes when the marginal cost of arguing goes to zero, right?" aria-label="回原文"></button>。如果未来每个人都有了一个不知疲倦且几乎免费的智能体，去和保险公司的智能体无限期争论理赔金额，这种商业动态将会如何演变，将是一个引人深思的新课题。
+但把 AI 带进现实世界并不容易。Stein 分享了一个令人惊讶的事实:由于联邦政府强制要求转为直接存款等监管拐点,全美仍有 70% 的小诊所通过纸质支票收款 <button class="pd-ts" data-t="53:34" data-who="Stein" data-en="And we are also writing that like till when. So you will see that like a lot of these small businesses, I think the stats are 70% are still paid on paper. And it's going through this massive like digitization revolution right now because federal inflection point that's regulatory." aria-label="回原文"></button>。他曾在关医生的诊所里,亲手拆开一堆信封,把 10 万美元支票存进银行,再逐张核对分项发票 <button class="pd-ts" data-t="52:34" data-who="Stein" data-en="So, like, they get $100,000 in checks, like, deposited on their desk. And I did this, right? So, for Dr. Kwan, I literally knock, knock, knock, open the door, I sit on my barstool, and there's the mailman in this case that gives me a stack." aria-label="回原文"></button>。这意味着 AI 智能体不仅要会推理,还得帮这些诊所完成从纸质到数字化的基础转换。技术上的挑战同样存在。Frederick 指出,现在的模型虽然在海量数据上训练过,但它们其实并不知道怎么干这些具体的行政活,所有的工作流程都没有被编码进模型里,得靠 Lassie 自己去推断和教给模型 <button class="pd-ts" data-t="46:29" data-who="Frederick" data-en="You know, what do you need and where are we on that curve if you had to estimate? I think one thing that's interesting is that the models are trained on so much data and they're so large and yet they actually don't really know how to do any of this work." aria-label="回原文"></button>。未来,他更期待能快速学习、用更少数据的小模型,让智能体的能力真正散布到每一个角落 <button class="pd-ts" data-t="47:45" data-who="Frederick" data-en="But it turns out that they don't know all the intricacies of most of these workflows. Yeah, this is less specific to Lassie, but I'm personally kind of excited about smaller models that learn faster and can learn on less data." aria-label="回原文"></button>。
 
 ## 本集带走
 
-1. **软件的本质从「存储」变为「劳动」**：过去几十年的软件（如 PeopleSoft、QuickBooks）只是把纸质文件柜搬进数据库，人类依然要亲自执行操作；而 AI 时代的软件能直接执行动作（如打电话催收），劳动市场比信息存储市场大好几个数量级。
-2. **小企业是 AI 的巨大蓝海，因为「没有巨头」**：在牙科等无数小企业垂直领域，根本没有占据主导的软件巨头。你的竞争对手不是微软，而是那些没空学新工具、甚至已经辞职的行政前台。
-3. **做中小企业 AI 必须做到「无人值守」**：仅仅提供工具是不够的，系统必须高度自动化（如 Lassie 达到 98%），并配以消费级的自助上手流程，把一切数据对接的摩擦都封装在底层。
+最后收个尾,这一集值得带走的是三句话。第一,别再把软件当成存数据的文件柜了,在 AI 时代,软件的衡量标准不再是功能多不多,而是它能替人干掉多少小时的活,在这个标准下,AI 不是抢工作,而是在填补那些根本招不到人的空缺。第二,要造真正能自主干活的智能体,别指望坐在办公室里写代码,你得先亲自去诊所里坐上几个月,亲手把那些活干一遍,把所有工具和上下文搭好,等模型变聪明直接换大脑,你才能理解什么是真正的工作流。第三,把前沿科技带到非技术的普通行业,最难的不是技术本身,而是那最后一步:怎么把所有系统接通、怎么把纸质流程数字化、怎么让忙到半夜的医生像下个 App 一样简单地用上它——谁把这最后一步的脏活累活干完了,谁就拿到了真实的护城河。
 
-<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>3 条(中英对照,已过机器闸门)</span></div>
 
-> <span class="qz">AI 在硅谷被过度炒作，但在爱荷华州却炒作不足。</span>  
-> *AI is overhyped in Silicon Valley but underhyped in Iowa.*  
-> <span class="qm">—— Alex Rampell · [00:00]</span> ^q1
+> <span class="qz">我有点认为,AI 在硅谷被过度炒作,但在爱荷华被低估了。</span>  
+> *And I kind of think, like, AI is overhyped in Silicon Valley but underhyped in Iowa.*  
+> <span class="qm">—— Alex Rampell · [30:25]</span> ^q1
 
-> <span class="qz">一个小企业主，他是 Yelp 上排名第一的医生，每个月花 200 小时在文书工作和忙碌的工作上。</span>  
-> *A small business owner that is the number one rated doctor on Yelp, spending 200 hours a month on paperwork and busy work.*  
-> <span class="qm">—— Stein Pella · [02:40]</span> ^q2
-
-> <span class="qz">所以结果表明，工作的量级比工作所基于的信息存储要大得多。</span>  
-> *So it just turns out that the work is orders of magnitude bigger than the storage of information that the work is done on.*  
-> <span class="qm">—— Alex Rampell · [09:39]</span> ^q3
-
-> <span class="qz">每一家初创公司和现有巨头之间的战斗归结为初创公司是否在现有巨头获得创新之前获得了分销。</span>  
+> <span class="qz">每家初创公司和现有巨头之间的战斗归结为初创公司是否在现有巨头获得创新之前获得了分销。</span>  
 > *The battle between every startup and incumbent comes down to whether the startup gets the distribution before the incumbent gets the innovation.*  
-> <span class="qm">—— Alex Rampell · [25:49]</span> ^q4
+> <span class="qm">—— Alex Rampell · [25:49]</span> ^q2
 
-> <span class="qz">但另一个是，有很多类别从未有过现有软件巨头公司，因为唯一要完成的工作就像是实际的人力劳动。</span>  
-> *But the other is that there are a lot of categories where there never was an incumbent software company because the only job to be done was like actual human labor.*  
-> <span class="qm">—— Alex Rampell · [26:01]</span> ^q5
-
-> <span class="qz">这并不是说，哦，AI 将要抢走工作。在许多情况下，你找不到任何人。</span>  
-> *It's not like, oh, AI is going to take the jobs. In many cases, you can't find someone.*  
-> <span class="qm">—— Alex Rampell · [00:54]</span> ^q6
-
-> <span class="qz">这些模型在如此多的数据上训练，它们如此巨大，然而它们实际上真的不知道如何做其中的任何一项工作。</span>  
-> *The models are trained on so much data and they're so large and yet they actually don't really know how to do any of this work.*  
-> <span class="qm">—— Frederick Rankin · [00:19]</span> ^q7
+> <span class="qz">所以我实际上会争辩说,世界并没有因为软件而变得更有效率。</span>  
+> *So I would actually argue that the world didn't get that much more efficient with software.*  
+> <span class="qm">—— Alex Rampell · [08:28]</span> ^q3
 
 <div class="pd-sec">接着看</div>
 
@@ -139,9 +91,9 @@ Lassie 的解法是用消费级互联网产品的思路来做企业软件。他�
 
 **顺着「智能体」挖下去**
 
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验]] —— 同概念:智能体 (agent)
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得]] —— 同概念:智能体 (agent)
-- [[2026-05-21-latent-space-daytona|赋予AI智能体计算机——Daytona创始人Ivan Burazin]] —— 同概念:智能体 (agent)
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]] —— 同概念:智能体 (agent)
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]] —— 同概念:智能体 (agent)
+- [[2026-05-21-latent-space-daytona|Daytona:为智能体造一台像笔记本一样的计算机]] —— 同概念:智能体 (agent)
 
 </div>
 <div class="pd-ex">
@@ -149,7 +101,7 @@ Lassie 的解法是用消费级互联网产品的思路来做企业软件。他�
 **换个口味**
 
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|把 Go-to-Market 当产品做：Vercel COO 谈用 AI 重构销售组织]] —— 同公司:Stripe · 同概念:智能体 (agent)
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同概念:智能体 (agent)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同概念:智能体 (agent)
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同概念:智能体 (agent)
 
 </div>

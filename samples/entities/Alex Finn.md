@@ -25,7 +25,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型》]] — 作为主持
+- [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]] — 作为主持
 
 ## ③ 他谈到的
 

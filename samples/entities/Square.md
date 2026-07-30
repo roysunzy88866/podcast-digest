@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评》]]**(01:31起):本集说它是 Keith 曾担任首席运营官的公司，Jack Dorsey 当时用 iPad 运营公司；Keith 在此学到了「团队即公司」的理念，并在此验证了他的招聘与管理心法。
+- **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]]**(01:31起):本集说它是 Keith 曾担任首席运营官的公司，Jack Dorsey 当时用 iPad 运营公司；Keith 在此学到了「团队即公司」的理念，并在此验证了他的招聘与管理心法。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评》]] — 作为被讨论公司
+- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]] — 作为被讨论公司
 
 ## ③ 关联
 

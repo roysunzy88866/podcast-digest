@@ -1,5 +1,5 @@
 ---
-title: 把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学
+title: Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱
 podcast: "Lenny's Podcast"
 date: 2025-11-20
 source_url: https://www.lennysnewsletter.com/p/slack-founder-stewart-butterfield
@@ -7,7 +7,7 @@ duration: "90:31"
 type: episode
 cover: "#6366f1"
 image: "/covers/2025-11-20-lennys-slack-founder-stewart-butterfield.jpg"
-description: Slack 创始人谈效用曲线、匠心、别让用户思考、伪工作与创造市场的哲学。
+description: 从效用曲线到「超写实工作状活动」，剖析好产品的标准与公司膨胀的顽疾。
 host: "[[Stewart Butterfield]]"
 cohosts: ["[[Lenny]]"]
 companies: ["[[Slack]]", "[[Glitch]]"]
@@ -18,9 +18,9 @@ tags:
   - 创业与行业
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# 把自家产品骂成「一坨狗屎」：Stewart Butterfield 的产品哲学
+# Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱
 
 <div class="pd-byl"><b>Stewart Butterfield</b> · Slack 创始人</div>
 
@@ -28,7 +28,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-11-20-lennys-slack-founder-stewart-butterfield.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我觉得我们现在拥有的东西就是一大坨狗屎。</div><div class="a">Stewart Butterfield · 00:08</div></div>
+<div class="pd-hook"><div class="z">我觉得我们现在拥有的东西就是一大坨屎。</div><div class="a">Stewart Butterfield · 00:08</div></div>
 
 > [!info] 关联
 > **人物** [[Stewart Butterfield]] · [[Lenny]]
@@ -39,99 +39,73 @@ tags:
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/slack-founder-stewart-butterfield)
 
-<div class="pd-tldr"><b>一句话</b>Slack 创始人谈效用曲线、匠心、别让用户思考、伪工作与创造市场的哲学。</div>
+<div class="pd-tldr"><b>一句话</b>从效用曲线到「超写实工作状活动」，剖析好产品的标准与公司膨胀的顽疾。</div>
 
-[[Stewart Butterfield|Stewart Butterfield]] 是 Flickr 和 [[Slack|Slack]] 的创始人，他将 Slack 卖给 Salesforce，创下了当时科技史上最大的收购案之一。在本集中，他与主持人深入探讨了产品哲学与领导力。本文将顺着他的思路，拆解出五个核心模块：如何判断一个功能值不值得做、如何对待产品中的[[摩擦力|摩擦力]]、如何对抗组织中的「伪工作」、如何面对商业[[转型|转型]]的阵痛，以及如何真正为客户创造价值。
+「我觉得我们现在拥有的东西就是一大坨屎，太糟糕了，我们把它提供给公众，应该感到羞耻。」这话不是说给失败者的，而是说给 [[Slack|Slack]] 创始人自己听的——那是 Slack 正式发布的同一年，公司已经广受好评。说这话的人是 [[Stewart Butterfield|Stewart Butterfield]]，他创办的 Flickr 和 Slack 是互联网史上最成功的大[[转型|转型]]产物，也是被竞相研究的「品味型」产品标杆 <button class="pd-ts" data-t="00:08" data-who="Stewart Butterfield" data-en="I was interviewed by MIT Technology Review and asked if we were working to improve Slack. I said, &quot;I feel like what we have right now is just a giant piece of shit." aria-label="回原文"></button>。
 
-## 效用曲线：判断功能价值的一把尺子
-说完了 Stewart Butterfield 是谁，我们来看他做产品的第一个核心心法。在与他共事过的人当中，反复被提及的一个概念叫做「[[效用曲线|效用曲线]]」。Stewart 解释说，这其实就是一条大家很熟悉的 S 型曲线：横轴是成本或投入，纵轴是价值或便利性。它的特点是：你在最初投入的一点点努力，往往产生不了什么价值；但跨过一个神奇的分水岭后，产品会产生巨大的价值；过了这个点，再继续疯狂投入，回报就开始递减了。
+这一集是 [[Lenny|Lenny]] 的播客访谈，他请来了极少露面的 Stewart。整场对话围绕三个层面展开：好产品的标准到底是什么——他用「[[效用曲线|效用曲线]]」和「别让我思考」两条线索把这个问题拆透；公司和产品为什么会不可阻挡地走向臃肿——从[[帕金森定律|帕金森定律]]到他自己发明的词「超写实工作状活动」，讲清了组织里那些虚假的忙碌是怎么产生的；以及当创始人需要放弃时该怎么决断——他复盘了两次从游戏项目转型的冷酷账本，以及背后「囚徒困境」式的慷慨哲学。
 
-他用做一把锤子打比方：如果锤子一敲手柄就断，那它完全是垃圾；稍微做坚固一点，还是没用。只有当它达到了足够结实的基本质量门槛，它才是一把好锤子，而到了这个级别，再去死磕也意义不大了 <button class="pd-ts" data-t="07:45" data-who="Stewart Butterfield" data-en="And then there's some magic threshold where it produces an enormous amount of value and then continued investment doesn't really pay off. The most basic example I can think of is let's say you're making a hammer, and on that bottom axis, it's now quality, and if the hammer has a handle that breaks with any impact, then is totally useless." aria-label="回原文"></button>。
+先说他对产品的第一个核心判断，叫效用曲线（一种描述投入与产出关系的 S 型曲线）。Stewart 解释，这条曲线在底部是平的——你给锤子做个手柄，一砸就断，完全没用；再加固一点，还是垃圾。继续投入，突然跨过一个阈值，它变成了好锤子。过了这个点，你再加多少投入，它还是一把锤子，价值不会明显增加 <button class="pd-ts" data-t="07:45" data-who="Stewart Butterfield" data-en="And then there's some magic threshold where it produces an enormous amount of value and then continued investment doesn't really pay off. The most basic example I can think of is let's say you're making a hammer, and on that bottom axis, it's now quality, and if the hammer has a handle that breaks with any impact, then is totally useless." aria-label="回原文"></button>。在软件里也一样：建个用户表、写个密码排序功能，这些动作本身没创造任何价值，只有当它们组合成一个让人「不能没有」的体验时，价值才跃升。所以他团队讨论功能时，不问「做不做」，而问「我们到底在这条曲线的哪个位置」——是还在底部白费力气，还是已经逼近了那个质变阈值 <button class="pd-ts" data-t="08:46" data-who="Stewart Butterfield" data-en="And we had pointed diminishing returns and it just doesn't matter. I think in many cases, people will add a feature, it's not good enough and so people don't use it or appreciate it, but now you've added some complexity to the app and then people give up or take it back or they try something in testing and they don't get the results they want, and so they decide that this a thing is worth doing." aria-label="回原文"></button>。
 
-这给做软件的人什么启示呢？Stewart 指出，大家通常把功能看成非黑即白的二进制选择（要么有，要么没有）。但真正该问的问题是：**我们到底处在这条曲线的哪个位置？** 是还在最初那个平缓无用的阶段？还是已经跨过了陡峭的价值爆发期？如果是前者，人们不用你的功能是因为它还不够好，这时候你需要加大投入跨过门槛 <button class="pd-ts" data-t="08:46" data-who="Stewart Butterfield" data-en="And we had pointed diminishing returns and it just doesn't matter. I think in many cases, people will add a feature, it's not good enough and so people don't use it or appreciate it, but now you've added some complexity to the app and then people give up or take it back or they try something in testing and they don't get the results they want, and so they decide that this a thing is worth doing." aria-label="回原文"></button>。
+这条曲线的基准线还会移动。Stewart 引用贝佐斯的词「神圣的不满」：用户一旦熟悉了某个体验，标准就永远回不去了 <button class="pd-ts" data-t="10:13" data-who="Stewart Butterfield" data-en="Is that the framework? Yeah, and I think then you layer on another concept like the, Bezos used the term divine discontent. The line actually moves because once people are familiar with a piece of software or the way a feature is implemented or something like that, their standards go up, and so there's this competition." aria-label="回原文"></button>。为了说明什么是「在乎体验」，他讲了个温哥华下雨天被伞戳的故事，同事从中提炼出 Slack 的内部价值观「倾斜你的雨伞」：别人没做到的同理心，就是你拉开差距的机会 <button class="pd-ts" data-t="17:39" data-who="Stewart Butterfield" data-en="We noticed how few people would move their umbrella out of the way. And of course, the other person, their umbrella, the pokey bits are exactly at eye level for people walking towards them." aria-label="回原文"></button>。这种同理心落在产品细节上，就变成了 Slack 的一系列经典设计：移动端首发时，别人都在让用户在手机上输密码，他们做了输入邮箱发链接自动登录的「魔法链接」；看到新用户因为没收到每条消息的通知而抱怨，他们硬着头皮把全量通知设为默认，等用户收到 10 条消息后再引导切换 <button class="pd-ts" data-t="22:50" data-who="Stewart Butterfield" data-en="We reluctantly decided that we had to send notifications for every single message as the default for new accounts. But once you had, I don't remember what the threshold would happen, I think it's once you had received 10 messages, we would pop up this little thing that says, &quot;Hey, you have our default settings for notifications." aria-label="回原文"></button>；看到 @everyone 被滥用成公地悲剧，他们做了只「吵闹公鸡」弹窗，明确告诉你这条消息会打扰 8 个时区的 147 个人——人们一旦知道代价，自己就不发了 <button class="pd-ts" data-t="24:22" data-who="Stewart Butterfield" data-en="So we came up with what was called the shouty rooster, and internally we said, &quot;Don't be a cock.&quot; But we didn't obviously say that publicly when you @everyone, a little rooster would pop up and it would have you sound waves coming out of its mouth and being really obnoxious and say, &quot;Hey, this is going to cause a notification for 147 people in eight different time zones." aria-label="回原文"></button>。
 
-## 匠心与细节：用「倾斜你的雨伞」创造竞争优势
-理解了效用曲线怎么用，接下来的问题是：跨过门槛之后，还需要打磨那些微小的细节吗？Stewart 认为，注重品味和匠心，能为你创造真正的竞争优势。
+说完了这些具体设计，接下来是他最反直觉的一个产品主张——很多团队奉为圭臬的「减少摩擦」，其实往往是错的。
 
-关于品味能否后天培养，Stewart 认为绝对可以，就像厨师可以通过训练变得更优秀，尽管有些人天生有优势一样 <button class="pd-ts" data-t="16:06" data-who="Stewart Butterfield" data-en="So one is can you learn to develop it? I think so because the word literally comes from experiencing food and putting stuff in your mouth. And can people become better chefs with training?" aria-label="回原文"></button>。更关键的是，由于大多数人或公司既没有好品味，也不愿意在这方面投资，只要你愿意拥抱它，就能获得巨大的领先优势 <button class="pd-ts" data-t="16:29" data-who="Stewart Butterfield" data-en="But you can definitely practice and you can definitely get better. The second thing I'd say is you can create a real advantage for yourself, for your product, for your company by leaning into it because most people don't have good taste and don't invest." aria-label="回原文"></button>。
+Stewart 说，行业里喊了十年「减少摩擦、减少点击」，但这套逻辑只适用于用户的意图和目标都极其明确的场景，比如去抢泰勒·斯威夫特的演唱会门票——网站再卡你也会死等，这时候减少摩擦确实有用 <button class="pd-ts" data-t="29:36" data-who="Stewart Butterfield" data-en="And so the problem there is comprehension, and this will come up an enormous amount. So now imagine you want to get tickets to the Taylor Swift concert in San Francisco and you go to the Ticketmaster website." aria-label="回原文"></button>。但对于绝大多数产品，尤其是新用户刚接触时，真正的挑战不是摩擦，而是「理解」：用户根本不知道这东西是什么，也不确定自己为什么要用它。这时候你把注册表单做得再短也没用，因为他压根不知道注册完要干嘛 <button class="pd-ts" data-t="32:22" data-who="Stewart Butterfield" data-en="So they were coming in at 0.1% over these critical thresholds. What was the challenge? It wasn't friction, because it's not like they were aiming for something and they knew what they were aiming for and they were just trying to get themselves to that point." aria-label="回原文"></button>。他甚至翻出手机里的时钟应用：里面有个「睡眠」开关，但点进去只有一句不合语法的提示，完全不知道开了会发生什么。他猜 90% 以上的人选择直接关掉，一个本来有价值的功能就这么被「不理解」挡住了 <button class="pd-ts" data-t="35:57" data-who="Stewart Butterfield" data-en="If you don't, it's ungrammatical and incomprehensible and why would you ever do it? And I got to guess, it's been like this for years, 90 plus percent and maybe 98% of people just do what I do, which is that you just create, &quot;I want the alarm on and I'm going to set the time for it.&quot;" aria-label="回原文"></button>。他的结论是：产品设计的 70%、80% 其实都在解决理解问题，真正的口诀是那句老书名——「别让我思考」<button class="pd-ts" data-t="36:56" data-who="Stewart Butterfield" data-en="And the reason I don't use most software where there was an actual choice point or the reason I don't use most features where there was a choice point for me is because I didn't understand what they were going to do and I don't give a shit." aria-label="回原文"></button>。思考是有生理成本的，会消耗葡萄糖，更糟的是情感成本：你的软件拦住用户让他做一个看不懂的决定，他会觉得自己很蠢，并且永远把这个糟糕的感觉和你的产品绑在一起 <button class="pd-ts" data-t="37:36" data-who="Stewart Butterfield" data-en="There's ATP created in the mitochondria and your neurons and a bunch of stuff is happening and people do get decision fatigue and there is cognitive cost of all these things." aria-label="回原文"></button>。所以与其追求表面上的「少点几下」，不如把每一步都做到「不用想」，哪怕要点八次，只要每次都 trivially easy（微不足道地简单），也比让用户在充满压力的两个选项间纠结强 <button class="pd-ts" data-t="43:07" data-who="Stewart Butterfield" data-en="And then if it takes them eight clicks or taps to do something, but every single one is trivially easy, that's great. If you reduce that to two clicks or taps, but every part of it is this fraught decision where I'm opening all of the menus and trying to figure out which thing is the right thing, and the more, comparing three things to each other is this difficult four things, it's kind of geometrically more expensive to compare 15 different options all to the other to see if this is the one that you might want." aria-label="回原文"></button>。
 
-为了说明 Slack 是如何在细节上下功夫的，他分享了一个著名的「雨伞」隐喻。在温哥华狭窄的下雨街道上，他注意到很多撑伞的人根本不顾及对面行人的视线，伞骨尖正好戳在别人的眼睛高度。只有大约三分之一的人会主动把伞倾斜让路 <button class="pd-ts" data-t="18:00" data-who="Stewart Butterfield" data-en="It became a game like we were guessing is this person going to tilt their umbrella out of the way so we can pass or not? And something like one-third of the people would do it." aria-label="回原文"></button>。对于这种冷漠，Stewart 和同事得出了一个产品哲学：别人对你缺乏同理心、做不到基本的礼貌和体贴，**这就是你可以抓住的、用来创造关键优势的机会** <button class="pd-ts" data-t="19:08" data-who="Stewart Butterfield" data-en="And so we would say it's not like tilting your umbrella is our opportunity. That's not a great rephrase of your margin is my opportunity, but your failure to really be consider it exercise this courtesy and really be empathic about other people's experience is an advantage that you can create a critical advantage." aria-label="回原文"></button>。
+工具和产品这么讲究，那公司变大之后呢？这正是 Stewart 火力最猛的下一个话题。
 
-> 【背景】Jeff Bezos 有一句名言叫「你的利润就是我的机会」。Stewart 在这里是对这句话的改写：别人在体贴和用户体验上偷懒，就是 Slack 拔高标准的发力点。这种理念在 Slack 内部深入人心，公司甚至把「倾斜你的雨伞」印在了周边商品上。
+他的诊断工具是帕金森定律（工作会膨胀以填满所有可用时间）<button class="pd-ts" data-t="54:31" data-who="Stewart Butterfield" data-en="I know kind of along those lines, you're a big believer in something called Parkinson's Law. Yeah. So the original of that is, I think it's 1956." aria-label="回原文"></button>。他讲了一个 Slack 里的真实案例：讨论串功能发布前，他明确要求不要在回复框里预填 @ 上一个发言者——没人想在句首莫名圈人。六个月后这功能又偷偷回来了，团队还拿出了详尽的 A/B 测试数据：有预填时，讨论串平均长度从 2.14 条变成了 2.17 条 <button class="pd-ts" data-t="60:47" data-who="Stewart Butterfield" data-en="And I went through this and it was, if I recall correctly, it wasn't even P-95 certainty on this analysis. But it was something like when we do this, threads are 2.17 messages long, versus 2.14 messages long on average for when we don't do it." aria-label="回原文"></button>。Stewart 的反应是：先不论更长好不好，这点差异根本抵消不了做这套分析的成本。你要加功能开关、发新版本、做埋点、建数据库表、写查询、做图表、开会讨论——这背后是十几个人、至少数千人时的投入，去博一个几乎不存在的收益，这是稳赔的买卖 <button class="pd-ts" data-t="62:01" data-who="Stewart Butterfield" data-en="And it's like thousands of person hours at a minimum, because any feature change at that scale of organization, it's involving like a dozen people. Engineering, QA, analytics teams, project managers, user research and stuff like that." aria-label="回原文"></button>。顺着这个洞察，他提出了整集最有命名感的概念——超写实工作状活动 <button class="pd-ts" data-t="66:11" data-who="Stewart Butterfield" data-en="And so people are like calling meetings with their colleagues to preview the deck that they're going to show in the big meeting to get feedback on whether they should improve some of the slides." aria-label="回原文"></button>。说的是：创业初期，大家都有明确的、确定有价值的事做（建表、写登录）；公司一大，那些显而易见的好事做完了，但你又雇了一堆人，每个人又都想雇更多人，待做工作的供给和需求就失衡了 <button class="pd-ts" data-t="64:32" data-who="Stewart Butterfield" data-en="And the relationship between the supply of work to do and the demand for doing work just starts to change. More and more people get hired. Every product manager wants to hire a junior product manager." aria-label="回原文"></button>。于是大家开始「预演要在大会上放的幻灯片」「开会讨论要不要改幻灯片」——这在表面上看和真正的工作一模一样：坐在会议室里，看着投影，认真讨论。但这其实是虚假的工作。他认为这不是因为员工蠢或坏，而是因为人天然需要被认可、需要展示战绩 <button class="pd-ts" data-t="65:47" data-who="Stewart Butterfield" data-en="Again, very important, not because they're stupid, not because they're evil. But because they're like, I'm a product marketer and I want to be recognized for my work." aria-label="回原文"></button>。破局的唯一办法是领导者的责任：必须明确地排优先级、前期就拒绝不靠谱的事，确保团队手里始终有「已知有价值的工作」可做 <button class="pd-ts" data-t="67:00" data-who="Stewart Butterfield" data-en="And people will just perform enormous amounts of hyper-realistic work-like activities, and have no idea that that's what they're doing. And the result of that, I guess, is that if you are a leader, if you're manager, director, an executive, you're the CEO, it's on you to ensure that there is sufficient supply of known valuable work to do." aria-label="回原文"></button>。
 
-正是这些微小的便利，让 Slack 建立了深厚的情感连接，促成了自下而上的口碑传播和病毒式增长 <button class="pd-ts" data-t="19:31" data-who="Stewart Butterfield" data-en="I think that there's many reasons why Slack was successful at the moment. It was successful and we think we had a bunch of really wonderful tailwinds and all of that stuff, but it wouldn't have grown the way it did without those little conveniences which caused people to form an emotional connection because a lot of our growth came from startup A uses Slack, and then someone leaves startup A for startup B, and startup B doesn't use Slack yet." aria-label="回原文"></button>。Stewart 还举了几个具体的例子：比如放弃手机端输密码，改用只需输入邮箱的「魔法链接」登录；比如在默认通知策略上做巧妙的引导，既照顾新用户的心理预期，又避免他们被消息轰炸。
+说完了内部的组织病，接下来是外部的战略选择：怎么向市场和团队解释你到底在卖什么。
 
-## 「减少摩擦力」是个伪命题：真正要做的是「别让我思考」
-说完了为什么要注重打磨和体验，我们来看看一个常常被误解的概念：摩擦力。很多产品经理的口头禅是「减少摩擦」、「减少点击次数」，但这在 Stewart 看来不仅大错特错，而且忽略了问题的本质。
+这个话题从他那份著名的备忘录「我们这里不卖马鞍」讲起。那其实是 Slack 发布前、公司只有八到十个人时的一份内部备忘录，目的是尽早对齐团队的认知 <button class="pd-ts" data-t="69:01" data-who="Stewart Butterfield" data-en="Why was it necessary? Well, it really was an internal memo and there's a bit of a digression. One of the crappy things about Slack is if all your corporate communication is on email, depending on exactly how it works and what system you use, you probably walk away with an archive of everything you said at Company X. If it's Slack, once you're turned off, you lose access to all that history." aria-label="回原文"></button>。核心思想是：你不仅是在造产品，你也是在创造市场。光说「我做了个马鞍」没用，你得卖「骑马的体验」，让人自己意识到需要马鞍 <button class="pd-ts" data-t="72:06" data-who="Stewart Butterfield" data-en="The reason I wanted to touch on it is I think still people continue to not listen to this advice and continue to over-invest in more features, more products, things like that." aria-label="回原文"></button>。这和卖哈利摩托车卖的是「自由与开阔的马路」是同一个道理。他还顺手抛了个金句式的概念叫「[[所有者的错觉|所有者的错觉]]」：餐厅老板自己肯定也上过别人家烂透了的餐厅网站（放段慢吞吞的音乐、电话号码是一张没法复制的图片），但他自己一做网站，就忘了普通人只是想要个地址和营业时间 <button class="pd-ts" data-t="86:40" data-who="Stewart Butterfield" data-en="I'm going to add just one last little tidbit because I forgot about this earlier on and I think it helps tie things together, and it's called the owner's delusion." aria-label="回原文"></button>。这种错觉正是产品变烂的根源——你以为别人会像你一样在乎你的东西，其实他们脑子里想的是孩子在学校惹的麻烦。
 
-他拿买泰勒·斯威夫特的演唱会门票举例。当你去抢票时，你的意图是 100% 明确且强烈的，哪怕 Ticketmaster 的网站很慢、支付页面报错，你都会死磕到底把票买下来 <button class="pd-ts" data-t="30:03" data-who="Stewart Butterfield" data-en="They're Taylor Swift tickets for this date at this venue. And so in that scenario, it doesn't really matter if Ticketmaster's website is slow, it doesn't really matter if the payments page errors out, you're going to persist and get through it." aria-label="回原文"></button>。但对于绝大多数产品（比如当时的 Slack），人们只是道听途说后顺路点进来看看，意图处于勉强超过行动门槛的绝对最低值 <button class="pd-ts" data-t="31:46" data-who="Stewart Butterfield" data-en="But now, okay, people coming to Slack.com, some friend had mentioned Slack and talked their ear off at some point months ago, and then they saw a news article and then they saw someone's tweet and then they saw an ad on about the website they were visiting and they finally said, &quot;Okay, I'm going to go to this website.&quot;" aria-label="回原文"></button>。这时候，你面临的真正挑战不是如何帮他们减少点击，而是**理解力**——他们根本不知道这个东西是干嘛的，也不知道下一步该怎么做。
+聊完战略，最后是他作为「转型之王」对要不要放弃的判断。Flickr 前身是游戏，Slack 前身也是游戏 [[Glitch|Glitch]]。他说转型这事儿你得冷酷地理性算账：当还有 900 万美元、团队也还喜欢做时，他选择关掉 Glitch，是因为他已经穷尽了所有让这款游戏商业成功的现实主意 <button class="pd-ts" data-t="74:29" data-who="Stewart Butterfield" data-en="I think Slack had an enormous advantage in the fact that we are working on this for several years without actually explicitly working on it and only doing the minimum number of features that were absolutely guaranteed to be successful in the sense that it was so irritating that we couldn't stand it anymore or such an obvious improvement that we couldn't help but take advantage of it." aria-label="回原文"></button>。人们默认的建议总是「坚持」，但那往往只是因为承认失败太丢人了——你要面对投资人的质疑、早期员工的失业、用户的失望，痛苦到让人宁愿让它自然耗尽 <button class="pd-ts" data-t="76:21" data-who="Stewart Butterfield" data-en="You have to go to the press and you have to make all these promises and you have users and you've committed things to the users and you've convinced them to give up their time for this thing." aria-label="回原文"></button>。他的办法是拉开情感距离，做理性的期望值判断。
 
-如果产品的 UI、视觉层次和交互指引无法清晰地传达这些信息，用户就会退缩。Stewart 认为产品设计的绝大头（可能有 70% 到 80%）都应该花在这个「帮助用户理解」的步骤上 <button class="pd-ts" data-t="33:40" data-who="Stewart Butterfield" data-en="And this was a lifelong battle because the remove friction orientation is so deep in people. Again, it really makes a difference in those cases where people do have an intent and they do know what they're trying to do is a poor approach when the challenge is really comprehension, and I think the secret is most, 70%, 80% or whatever of a product design is in that comprehension step because people, if they do ever open the preferences tab and look at all the options, rarely have an idea." aria-label="回原文"></button>。
-
-他极其推崇「别让我思考」这条法则（出自同名经典书）。这不仅仅是因为做决定会消耗大脑的葡萄糖（神经元确实会产生代谢代价），更是出于情感上的考量：**如果你的软件拦住我，非要让我做一个我不理解的决定，你会让我觉得自己很蠢** <button class="pd-ts" data-t="36:56" data-who="Stewart Butterfield" data-en="And the reason I don't use most software where there was an actual choice point or the reason I don't use most features where there was a choice point for me is because I didn't understand what they were going to do and I don't give a shit." aria-label="回原文"></button>。这也是为什么年长者在面对不熟悉的软件时，总是会产生挫败感。
-
-「减少点击次数」也是同样的逻辑。Stewart 回忆起曾观察过一个十来岁的女孩在登机口排队时使用 Snapchat，她每秒能点击 4 到 7 次，整个过程极其丝滑流畅 <button class="pd-ts" data-t="44:11" data-who="Stewart Butterfield" data-en="And I was watching her use Snapchat and it was insane. She was tapping at least four times a second, sometimes six or seven times a second. It was like dismissing stories and doing stuff." aria-label="回原文"></button>。如果此时 Snapchat 的产品经理为了「让她少点几下」而重新设计流程，反而会毁了这种流畅的体验。关键不在于点了几次，而在于**每一步是不是都不用动脑子**。
-
-## 伪工作与组织膨胀：警惕「已知有价值工作」的枯竭
-工具和摩擦力的问题解决了，组织内部的人怎么办？这正是下一个话题：大型组织为什么总是显得效率低下？Stewart 在这里提出了一个极其深刻的洞察：**「[[超逼真的类工作活动|超逼真的类工作活动]]」**。
-
-这要从一个朴素的规律说起。在任何一个创业公司最开始的阶段，大家每天上班都有大把「已知的有价值工作」等着去做——你知道这事该怎么做，也确信做完一定有价值（比如开个公司银行账户、建个用户数据库） <button class="pd-ts" data-t="63:50" data-who="Stewart Butterfield" data-en="And the problem with almost every organization at the very beginning, you have an enormous amount of work that you know what to do, and you know that it's going to be valuable." aria-label="回原文"></button>。但随着公司变大，越来越多人被招进来。Stewart 引用了[[帕金森定律|帕金森定律]]：**工作会自动膨胀，直到填满所有可用的时间**。更重要的是，绝大多数被招进来的人，出于合理的职业发展诉求（管的人越多、地位越高），都会倾向于继续招人 <button class="pd-ts" data-t="56:36" data-who="Stewart Butterfield" data-en="There's certain types of engineers that are an exception to this. But the overwhelming majority of people you hire want to hire more people who report to them. And it's not because they're evil, and it's not because they're stupid." aria-label="回原文"></button>。
-
-当简单有价值的事情被做完后，「待做工作的供给」就不够分了。这时候，人们就会开始发明各种看似在工作、实则毫无意义的事情，这就是「超逼真的类工作活动」 <button class="pd-ts" data-t="66:11" data-who="Stewart Butterfield" data-en="And so people are like calling meetings with their colleagues to preview the deck that they're going to show in the big meeting to get feedback on whether they should improve some of the slides." aria-label="回原文"></button>。
-
-Stewart 讲了 Slack 内部的一个真实案例。团队曾针对消息串的输入框是否要自动 @ 上一个发言人，进行了复杂的 A/B 测试和数据验证。结果显示，有自动 @ 功能时，消息串平均长度是 2.17 条；没有时是 2.14 条 <button class="pd-ts" data-t="60:55" data-who="Stewart Butterfield" data-en="But it was something like when we do this, threads are 2.17 messages long, versus 2.14 messages long on average for when we don't do it. And so first of all, why is a longer thread better?" aria-label="回原文"></button>。这么微乎其微的差异，不仅不一定是好事，还牵扯了工程、QA、数据分析等十几个人的精力，投入了成千上万的人时。为了一个注定亏本的微小改动，大家表演了一场极其逼真的「工作」。
-
-那么，为什么大家会深陷其中而不自知？Stewart 指出，这并非因为人们愚蠢或邪恶，而是因为作为领导者，你没有为他们提供足够清晰的优先级和真正有价值的工作方向 <button class="pd-ts" data-t="68:16" data-who="Stewart Butterfield" data-en="It's the VP of whatever's fault. It's the CX, whatever, it's the C... Ultimately, it's the leader of the organization that has the responsibility to make sure that there is sufficient known-valuable work to do." aria-label="回原文"></button>。
-
-## 「我们不卖马鞍」：不仅要造产品，还要造市场
-说完了内部管理和伪工作，最后来看看产品推向市场时的逻辑。Stewart 有一篇著名的备忘录叫《[[我们不卖马鞍|我们不卖马鞍]]》，核心观点是：仅仅打造出一款伟大的产品是不够的。
-
-这篇备忘录最初是 Slack 发布前，他在只有 8 个人的小团队里发布的内部信 <button class="pd-ts" data-t="69:45" data-who="Stewart Butterfield" data-en="Maybe at most 10, but I think it was eight people. It was before Slack launched even. Yeah, it was before Slack launched." aria-label="回原文"></button>。他强调，如果你的产品与市面上的替代品有任何重大的差异，你其实不仅仅是在创造产品，**你还在创造市场**。你必须花同样多的精力去向客户沟通：这东西能为他们解决什么问题，能带来什么结果 <button class="pd-ts" data-t="70:28" data-who="Stewart Butterfield" data-en="Yeah. And again, comparing it to beer or cars, beer goes back to pre-civilization. Cars were obviously [inaudible 01:10:38], but at some point you had to convince people why they would want a car instead of a horse." aria-label="回原文"></button>。
-
-你不能只是向别人炫耀你造了一个多好的马鞍，你要向他们推销骑马这种令人难以置信的体验，他们自然就会去买马鞍 <button class="pd-ts" data-t="72:06" data-who="Lenny" data-en="The reason I wanted to touch on it is I think still people continue to not listen to this advice and continue to over-invest in more features, more products, things like that." aria-label="回原文"></button>。这正是营销的经典逻辑：卖哈雷摩托车卖的不是引擎，而是自由和开阔的道路。
-
-当被问及公司转型的建议时，Stewart 坦言，默认的建议永远是「坚持」。但当真的需要考虑转型时，你必须极其冷酷和理性，要判断自己是否已经穷尽了所有现实的好主意 <button class="pd-ts" data-t="73:43" data-who="Stewart Butterfield" data-en="what sort of advice do you find most helps them? Yeah, I mean, I think it's partly an intuition because obviously the decision is about, &quot;Have you exhausted the possibilities?&quot;" aria-label="回原文"></button>。他在放弃游戏 [[Glitch|Glitch]] 转向做 Slack 时，就是判定自己的预期价值已经降到了谷底 <button class="pd-ts" data-t="75:54" data-who="Stewart Butterfield" data-en="My expected value here has diminished to the point where this alternative looks more attractive. And the reason I say you have to be coldly rational about it is because it's fucking humiliating." aria-label="回原文"></button>。
-
-尽管如此，转型依然是极其痛苦和羞辱的。因为你必须面对被你说服的投资人、员工、用户和媒体，承认自己错了 <button class="pd-ts" data-t="76:21" data-who="Stewart Butterfield" data-en="You have to go to the press and you have to make all these promises and you have users and you've committed things to the users and you've convinced them to give up their time for this thing." aria-label="回原文"></button>。为了安抚员工，Stewart 有着一套极具「慷慨」底色的行事哲学。他曾在公司全员大会上，让所有人把一句话当成口号齐声重复：「从长远来看，衡量我们成功的标准，将是我们为客户创造的价值量」 <button class="pd-ts" data-t="00:34" data-who="Stewart Butterfield" data-en="At more than one company all hands, I made everyone in the company repeat this as a chant. In the long run, the measure of our success will be the amount of value that we create for customers, and you can put effort into demonstrating that you have created this value and stuff like that, but there's no substitute for actually having created it." aria-label="回原文"></button>。
-
-这种创造真实价值的哲学，甚至体现在一些看似吃亏的政策上。比如 Slack 曾承诺：只要有宕机，就赔偿 100 倍的停机时长费用。随着公司上市规模变大，一次重大宕机直接让他们自动返还了 800 万美元的额度 <button class="pd-ts" data-t="84:03" data-who="Stewart Butterfield" data-en="I don't remember how long it was, but it was many hours. But by the time we got that scale, 100 times the money back for the third of a day that we were down was $8 million or something like that." aria-label="回原文"></button>。但 Stewart 认为，这种做法不仅符合商业伦理，也有助于建立与客户及员工之间长期的合作信任。
-
-最后，Stewart 分享了一个叫做「**[[所有者的错觉|所有者的错觉]]**」的概念：产品创造者常常自视甚高，以为用户会像看戏的观众一样全神贯注于你的杰作 <button class="pd-ts" data-t="88:01" data-who="Stewart Butterfield" data-en="So why does it end up like this and what should we call this? And whoever replied to the tweet, she said, &quot;We should call it the owner's delusion,&quot; and I was like, &quot;Oh my God." aria-label="回原文"></button>。但其实，用户只是一个今天迟到了、急着上厕所、满脑子生活琐事的普通人。如果你不深吸一口气，假装自己是个普通的真实人类去审视产品，那你的设计注定会让人摸不着头脑。
+在这个理性外壳之下，Stewart 又展现了一种强烈的慷慨，这构成了对话的收尾。他会在员工圣诞节缺钱时塞 500 美元现金，会在裁员时流泪并花大量时间帮人找下家，还会制定对客户极其有利的公平计费政策 <button class="pd-ts" data-t="79:10" data-who="Stewart Butterfield" data-en="So one person shared that he needed a little money before Christmas and he said, &quot;Stewart literally walked me out of the building, went to the cash machine, handed me $500, told me to go home to my family.&quot;" aria-label="回原文"></button>。他解释这不只是天性，也有博弈论的考量：他在用行动宣告「在这个囚徒困境里，我先选择合作」，从而带动大家长期合作 <button class="pd-ts" data-t="81:05" data-who="Stewart Butterfield" data-en="I think a lot of it is just the way I am as a person and I had wonderful parents who raised me right, but I think there is a little bit of a lesson there and I'm just going to assume people's familiarity with the prisoner's dilemma." aria-label="回原文"></button>。他还让全公司几百人一起喊一句话作为口号，这成了整集最点题的收束：「从长远来看，衡量我们成功的标准，将是我们为客户创造的价值量。」<button class="pd-ts" data-t="85:20" data-who="Stewart Butterfield" data-en="What was that mantra again that you had the company chant? I think this is a really nice way to end it. It was, &quot;In the long run, the measure of our success will be the amount of value we create for customers.&quot;" aria-label="回原文"></button>
 
 ## 本集带走
-1. **用效用曲线评估功能**：不要只把功能看成有或没有。判断它是处于价值爆发期前的平缓阶段，还是已经过了边际递减的拐点，以此来决定是加大投入还是果断放弃。
-2. **别执着于「减少摩擦」，要追求「别让我思考」**：对于意图不明确的新用户，设计的核心挑战是帮助他们理解产品能做什么、下一步该怎么做，而不是单纯减少点击次数。每让用户多动一次脑子，都在消耗他们的认知成本和情绪好感。
-3. **警惕组织里的「超逼真类工作」**：随着公司变大，真正有价值的工作会被稀释。管理者有责任为团队划清优先级，避免大家把成千上万的人时浪费在无意义的流程、A/B 测试和汇报表演上。
 
-<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
+最后收个尾，这一集值得带走的是三条主线。第一条是关于产品标准：别只盯着「减少摩擦」「少点几下」，真正的目标是「别让我思考」——如果用户看不懂，再顺滑的流程也是白搭；用效用曲线判断该在哪里投入，并且要记住基准线一直在移动。第二条是关于组织陷阱：警惕那些表面像工作、实际不创造价值的「超写实工作状活动」，以及为了证明自己存在而做的过度分析，这是领导者必须主动排雷的责任。第三条是关于商业哲学：真正的慷慨既是伦理选择，也是博弈策略——先把价值创造出来，其他的自然会来。
 
-> <span class="qz">我觉得我们现在拥有的东西就是一大坨狗屎。</span>  
+<div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
+
+> <span class="qz">我觉得我们现在拥有的东西就是一大坨屎。</span>  
 > *I feel like what we have right now is just a giant piece of shit.*  
 > <span class="qm">—— Stewart Butterfield · [00:08]</span> ^q1
 
-> <span class="qz">然后有一个神奇的阈值，它产生巨大的价值，但继续投资并没有真正的回报。</span>  
-> *And then there's some magic threshold where it produces an enormous amount of value and then continued investment doesn't really pay off.*  
-> <span class="qm">—— Stewart Butterfield · [07:38]</span> ^q2
+> <span class="qz">如果你看不到几乎无限的改进机会，那么你不应该设计这款产品。</span>  
+> *If you can't see almost limitless opportunities to improve, then you shouldn't be designing the product.*  
+> <span class="qm">—— Stewart Butterfield · [00:17]</span> ^q2
 
 > <span class="qz">如果你的软件阻止我并要求我做出决定，而我真的不理解它，你会让我觉得自己很蠢。</span>  
 > *If your software stops me and asks me to make a decision and I don't really understand it, you make me feel stupid.*  
 > <span class="qm">—— Stewart Butterfield · [00:58]</span> ^q3
 
-> <span class="qz">如果你看不到几乎无限的改进机会，那么你不应该设计该产品，或者你不应该负责公司，或者你几乎不应该做任何事。</span>  
-> *If you can't see almost limitless opportunities to improve, then you shouldn't be designing the product, or you shouldn't be in charge of the company, or you shouldn't almost nothing.*  
-> <span class="qm">—— Stewart Butterfield · [47:30]</span> ^q4
-
 > <span class="qz">如果你对正在谈论的事情一无所知，那么一切都是简单的。</span>  
 > *Everything is simple if you have no idea what you're talking about.*  
-> <span class="qm">—— Stewart Butterfield · [57:37]</span> ^q5
+> <span class="qm">—— Stewart Butterfield · [57:37]</span> ^q4
+
+> <span class="qz">工作会膨胀以填满可用于完成它的所有时间。</span>  
+> *Work expands to fill the time available for its completion.*  
+> <span class="qm">—— Stewart Butterfield · [54:43]</span> ^q5
+
+> <span class="qz">世界作为激情项目的博物馆。</span>  
+> *The world as a museum of passion projects.*  
+> <span class="qm">—— Stewart Butterfield · [51:57]</span> ^q6
+
+> <span class="qz">你不仅仅是在创造产品。你正在创造市场。</span>  
+> *you're not just creating the product. You're creating the market.*  
+> <span class="qm">—— Stewart Butterfield · [71:52]</span> ^q7
 
 > <span class="qz">我说你必须对此保持冷酷理性的原因是因为这真他妈令人感到羞辱。</span>  
 > *And the reason I say you have to be coldly rational about it is because it's fucking humiliating.*  
-> <span class="qm">—— Stewart Butterfield · [75:54]</span> ^q6
+> <span class="qm">—— Stewart Butterfield · [01:29]</span> ^q8
 
-> <span class="qz">但是当我们达到那个规模时，对于停机的三分之一天，100 倍的退款是 800 万美元或类似的东西。</span>  
-> *But by the time we got that scale, 100 times the money back for the third of a day that we were down was $8 million or something like that.*  
-> <span class="qm">—— Stewart Butterfield · [84:03]</span> ^q7
+> <span class="qz">因为对他来说，每一个错误都是他可以收集的宝石，他实际上可以成为一个优秀的滑雪者。</span>  
+> *Because to him, every one of those was a gem that he could collect, and he could actually become a good skier.*  
+> <span class="qm">—— Stewart Butterfield · [48:23]</span> ^q9
 
 <div class="pd-sec">接着看</div>
 
@@ -140,18 +114,18 @@ Stewart 讲了 Slack 内部的一个真实案例。团队曾针对消息串的�
 
 **顺着「产品方法」挖下去**
 
-- [[2026-03-01-lennys-the-design-process-is-dead|The design process is dead. Here’s what’s replacing it. | Jenny Wen (head of design at Claude)]] —— 同嘉宾:Lenny · 同公司:Slack
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南]] —— 同嘉宾:Lenny · 同公司:Slack
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴]] —— 同嘉宾:Lenny
+- [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]] —— 同嘉宾:Lenny · 同公司:Slack
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]] —— 同嘉宾:Lenny · 同公司:Slack
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|AI 时代产品经理的生存指南]] —— 同嘉宾:Lenny
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|别只想推销：产品负责人如何真正影响高管决策]] —— 同嘉宾:Lenny · 同公司:Slack
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验]] —— 同嘉宾:Lenny · 同公司:Salesforce
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得]] —— 同嘉宾:Lenny · 同公司:Slack
+- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|Jessica Fain:如何影响高管——把高管当用户来研究]] —— 同嘉宾:Lenny · 同公司:Slack
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]] —— 同嘉宾:Lenny · 同公司:Salesforce
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]] —— 同嘉宾:Lenny · 同公司:Slack
 
 </div>
 </div>

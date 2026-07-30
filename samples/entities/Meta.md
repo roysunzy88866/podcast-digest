@@ -11,25 +11,25 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]]**(01:13起):本集提到它是嘉宾目前担任产品经理(PM)的公司,嘉宾分享了自己在 Claude 中建「教练」项目、大量模拟面试从而拿下 Meta Offer 的经历。
-- **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]]**(00:19起):本集提到作为 Anthropic 竞争对手时用作对比，指出 Anthropic 历史上在资金和分发渠道上不及 Meta 或 Google。
-- **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]]**(01:22起):本集提到嘉宾曾任高管的公司，也作为过去庞大但可能面临工作方式陈旧的典型大厂品牌被提及。
-- **[[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱》]]**(42:14起):本集说它的模型在业内被看扁，但靠着在所有产品上铺满入口，其 AI 使用率竟然能紧跟 ChatGPT 和 Gemini。
-- **[[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]]**(65:41起):本集把它说成:近期裁掉了许多 PM 的大公司之一，释放出非技术型 PM 正被淘汰的市场信号。
+- **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]]**(01:13起):本集提到它是嘉宾目前担任产品经理(PM)的公司,嘉宾分享了自己在 Claude 中建「教练」项目、大量模拟面试从而拿下 Meta Offer 的经历。
+- **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]]**(00:19起):本集提到作为 Anthropic 竞争对手时用作对比，指出 Anthropic 历史上在资金和分发渠道上不及 Meta 或 Google。
+- **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(01:22起):本集提到嘉宾曾任高管的公司，也作为过去庞大但可能面临工作方式陈旧的典型大厂品牌被提及。
+- **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(42:14起):本集说它的模型在业内被看扁，但靠着在所有产品上铺满入口，其 AI 使用率竟然能紧跟 ChatGPT 和 Gemini。
+- **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(65:41起):本集把它说成:近期裁掉了许多 PM 的大公司之一，释放出非技术型 PM 正被淘汰的市场信号。
 - **[[2026-07-28-pg-how-to-build-your-first-eval|《评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估》]]**(00:30起):本集把它说成:一种更具攻击性、由创始人绝对控制的产品主导文化,与工程主导、共识驱动的 Google 形成鲜明对比。
-- **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《对话 Samsara CEO:AI 进入物理世界,用 25 万亿数据点改造传统工业》]]**(59:10起):本集提到:由于数据中心大爆发引发电网新建和全美电工严重短缺,Meta 正在推出计划,培训更多人成为电工。
+- **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]]**(59:10起):本集提到:由于数据中心大爆发引发电网新建和全美电工严重短缺,Meta 正在推出计划,培训更多人成为电工。
 
 ## ② 出现在这些集
 
 *7 集*
 
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」》]] — 作为被讨论公司(提及)
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]] — 作为被讨论公司(提及)
-- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴》]] — 作为被讨论公司(提及)
-- [[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱》]] — 作为被讨论公司
-- [[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]] — 作为被讨论公司(提及)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为被讨论公司(提及)
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为被讨论公司(提及)
+- [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为被讨论公司(提及)
+- [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司
+- [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为被讨论公司(提及)
 - [[2026-07-28-pg-how-to-build-your-first-eval|《评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估》]] — 作为被讨论公司(提及)
-- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《对话 Samsara CEO:AI 进入物理世界,用 25 万亿数据点改造传统工业》]] — 作为被讨论公司(提及)
+- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

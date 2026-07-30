@@ -1,5 +1,5 @@
 ---
-title: "Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP"
+title: Satya Nadella：别在一个模型上顶礼膜拜，这才是 AI 时代真正的平台逻辑
 podcast: Latent Space
 date: 2026-06-03
 source_url: https://www.latent.space/p/satya-2026
@@ -7,7 +7,7 @@ duration: "38:50"
 type: episode
 cover: "#0e7490"
 image: "/covers/2026-06-03-latent-space-satya-2026.jpg"
-description: "微软 CEO 畅谈 AI 时代的平台生态战略:从模型血统到智能体重塑企业价值。"
+description: 微软 CEO 详解 AI 平台战略：每家企业都能借由私有评估、测试框架与智能体，打造属于自己的前沿智能。
 host: "[[Saragawa]]"
 cohosts: ["[[Satya Nadella]]"]
 companies: ["[[Microsoft]]", "[[Azure]]", "[[GitHub]]", "[[Microsoft 365]]"]
@@ -18,9 +18,9 @@ tags:
   - 智能体
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Satya Nadella：别在一个模型上顶礼膜拜，这才是 AI 时代真正的平台逻辑</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP
+# Satya Nadella：别在一个模型上顶礼膜拜，这才是 AI 时代真正的平台逻辑
 
 <div class="pd-byl"><b>Satya Nadella</b> · 微软 CEO</div>
 
@@ -39,77 +39,49 @@ tags:
 >
 > **来源** [Latent Space](https://www.latent.space/p/satya-2026)
 
-<div class="pd-tldr"><b>一句话</b>微软 CEO 畅谈 AI 时代的平台生态战略:从模型血统到智能体重塑企业价值。</div>
+<div class="pd-tldr"><b>一句话</b>微软 CEO 详解 AI 平台战略：每家企业都能借由私有评估、测试框架与智能体，打造属于自己的前沿智能。</div>
 
-微软 CEO [[Satya Nadella|Satya Nadella]] 做客 No Priors 与 Lanespace 的联动特别集。Nadella 曾在微软经历过四次重大的计算平台变迁。在本集开头,他抛出了对当下 AI 浪潮最核心的判断:不要把 AI 仅仅看作一个单一的大模型,而应将其视为一个完整的**生态系统**。整场访谈沿着一条主线展开——在[[智能体|智能体]]崛起的背景下,平台、企业软件以及人的工作方式将发生怎样的重构。本文将顺着这条主线,带你梳理他提出的四个关键预测:前两个关于平台逻辑的重塑,后两个关于企业工作与人的价值。
+一家科技巨头如果只让你围着它一个模型顶礼膜拜，那就根本不配开一场开发者大会——说这话的，是微软 CEO [[Satya Nadella|Satya Nadella]]。
 
-## 模型本身不够,「环境+工具+上下文」才是真平台
+在这一集 No Priors 与 Lanespace 的联动专访里，刚结束了整整三个小时主题演讲的 Satya，坐下来聊了聊他眼下的核心战略：这不是发布某一个单一的 AI 模型或平台，而是要打造一个完整的生态系统。接下来的谈话会围绕几条主线展开：首先是微软怎么造模型，以及为什么他坚信企业手里掌握的「[[私有评估|私有评估]]」才是未来最核心的资产；其次是这套系统里的关键组件「[[测试框架|测试框架]]」是怎么运作的；最后话题会延伸到 [[SaaS|SaaS]] 软件的未来、工程角色的演变，以及建[[数据中心|数据中心]]到底给普通人带来了什么。结尾他还留了一个有意思的预测：最大的创业机会，可能在重新发明大学这件事上。
 
-Nadella 首先用微软新推出的 [[MAI|MAI]] 模型(大模型系列)来解释什么是「干净的血统」。他指出,现在很多开放权重的模型(模型参数公开可下载)往往只在某个公开基准测试上刷分很高,但在真实业务场景里并不好用。原因在于训练数据混杂。因此,微软特别强调从预训练阶段就严格把控数据质量,把无用的信息「消融」掉。
+一上来，Satya 就给今天的大会定了性。他这辈子在微软经历了四次重大的平台变迁，深知一个道理：真正成功的平台，它的核心能力是去创造平台之外的、更广泛的价值，而不是把价值死死锁在自己手里 <button class="pd-ts" data-t="01:30" data-who="Satya Nadella" data-en="I've fallen. into that camp where a platform is defined by fundamentally its ability to create more value about the platform versus what's captured in the platform." aria-label="回原文"></button>。所以，不管是 AI 原生公司还是传统企业，现在的关键不是你能不能用别人的 AI，而是你有没有一套自己的「配方」，能在这个技术栈上造出属于你自己的 AI。顺着这个思路，他谈到了微软自己发布的那套 [[MAI|MAI]] 模型。他说，现在很多开放权重模型（指把模型参数公开供下载使用的模型）在公开的基准测试上分数很高，但一到实际应用里就拉胯，问题就出在数据不够干净。所以微软的做法是从预训练开始，死磕一条清晰的「血统」（即数据来源和训练过程干净透明）<button class="pd-ts" data-t="02:41" data-who="Satya Nadella" data-en="right? Starting with pre-training, with very good data quality, doing all the applications, making sure because in some sense it's becoming even harder to build a clean lineage model." aria-label="回原文"></button>。
 
-但更重要的判断是:模型再好,也只是个通才。企业真正需要的是专才。怎么实现?Nadella 给出的配方不是单纯调用模型,而是围绕模型搭建一套系统:首先建立一套围绕模型的「爬山脚手架」(hill climbing scaffold,指通过不断试错逐步逼近最优解的工具流);然后收集业务运行的真实「[[轨迹|轨迹]]」(traces,指智能体或模型在完成任务时产生的一系列操作记录);最关键的,是建立**[[私有评估|私有评估]]**(private evals,企业自己定制的、不公开的测试题库)。他认为,公开测试集都已经「被刷爆」了,失去了衡量价值的作用 <button class="pd-ts" data-t="03:56" data-who="Satya Nadella" data-en="Most importantly, you'll have private evals because we know all the evals out there are good, interesting," aria-label="回原文"></button>。
+有了干净的模型，接下来才是重头戏。Satya 说他们发现了一件很有意思的事：哪怕你拿的是一个很小的 5B 推理模型，只要你围绕它搭一套「爬山脚手架」（一种引导模型逐步优化、寻找更高性能峰值的机制），再用一个超大模型比如 GPT-55 先去跑一遍、收集一堆高质量的执行[[轨迹|轨迹]]，接着让小模型去学，这个小模型在真实任务上的表现甚至能取得更高的成绩 <button class="pd-ts" data-t="04:37" data-who="Satya Nadella" data-en="Then you collected a bunch of traces, and then you took a 5B reasoning model and achieved higher. So that is another aspect of what it means to appear, operate at the Frontier." aria-label="回原文"></button>。这就引出了他认为当下每家公司最该重视的护城河——私有评估。
 
-顺着这个逻辑,他抛出了本集一个极具颠覆性的观点:在 AI 时代,每家公司最大的**知识产权**(IP)不再是代码或专利,而是**私有评估**。他的测试标准很直接:如果你手里有一套私有的评估标准,今天用模型 A,明天能不能无缝切换到模型 B 并继续提升效果?如果能,你才真正掌握主动权;如果不能,你就被某一家模型厂绑架了 <button class="pd-ts" data-t="12:18" data-who="Satya Nadella" data-en="If you can't, you're not in control. And that's where even the harness decision becomes super important, right? So therefore," aria-label="回原文"></button>。为了保证这种灵活性,微软提供了一套开放的「[[测试框架|测试框架]]」(harness,指用来运行、调用和管理多个模型与工具的中间件层),让客户可以随意接入任何模型。他拿微软的安全产品举例:因为带有多模型调度能力,它在上线初就发现了传统单模型工具漏掉的漏洞——这就是开放平台的存在性证明 <button class="pd-ts" data-t="10:04" data-who="Satya Nadella" data-en="together you get evals and what we are proving out is and the best example of that is what we did with em dash right because when it launched it found bugs or vulnerabilities that were not found by mythos" aria-label="回原文"></button>。
+Satya 抛出了一个很有分量的判断：「每家公司拥有的私有评估，可能是最大的知识产权」<button class="pd-ts" data-t="11:47" data-who="Satya Nadella" data-en="So that's why I would say every company Having private evals may be the biggest IP. I think about it." aria-label="回原文"></button>。他解释说，现在市面上那些公开的测试题，基本上都已经被刷爆了，失去了参考价值。真正能衡量你业务好坏的，是你自己关起门来定的那套评估标准。他还给了一个很直接的测试方法：如果你现在用的是模型 A，你能不能顺畅地换上模型 B 并让整体效果继续往上走？如果能，主动权就在你手里；如果不能，你就是被绑架了 <button class="pd-ts" data-t="12:06" data-who="Satya Nadella" data-en="So in other words, another asset test is you have an eval that's private. You're using model A. Can you switch it to model B and climb up?" aria-label="回原文"></button>。
 
-## 工作流被拆解重组,企业软件到了重新发牌的时候
+怎么才能不被绑架？这就要说到接下来他重点强调的「测试框架」了。Satya 说，这两年他们踩过最大的坑之一，就是发现准备「上下文层」（即喂给 AI 的背景知识和数据）极其耗费心力。所以，你真正需要的是一个多模型、带工具调用权限的测试框架，让 AI 能在里面高效地调配资源、执行计划。他还拿微软自家的安全产品举了个例子，说它一启动就找出了以前老系统没发现的漏洞——这就是把框架、工具和模型放在一起联合调优的「存在性证明」<button class="pd-ts" data-t="10:04" data-who="Satya Nadella" data-en="together you get evals and what we are proving out is and the best example of that is what we did with em dash right because when it launched it found bugs or vulnerabilities that were not found by mythos" aria-label="回原文"></button>。他甚至在后台聊天时提到，公司的核心资产以前是人类从业年限，现在正在变成这套把[[智能体|智能体]]应用到业务的评估经验。
 
-既然模型和工具的使用方式变了,企业软件([[SaaS|SaaS]])自然也得跟着变。主持人抛出了业界热议的「软件终结论」:既然 AI 能一键生成应用,传统 SaaS 还有存在价值吗?Nadella 的回答是:底层价值还在,但打包方式必须重做。
+既然聊到了智能体和未来的工作模式，顺理成章地就触及了那个老生常谈的话题：SaaS 软件是不是要终结了？Satya 的态度是「要重新拆解再重组」<button class="pd-ts" data-t="18:04" data-who="Satya Nadella" data-en="So I think the challenge of the SaaS business model is we packaged one way. We now have to learn how to unbundle these things and rebundle in new ways and discover new business models," aria-label="回原文"></button>。他觉得过去 20 年 SaaS 的模式——建个数据库、写点业务逻辑、再套层皮——该被颠覆了，但底层那些积累的数据模型（比如总账、仪表盘背后的语义模型）依然非常有价值。真正变化的是交互方式。他举了个很生动的例子：现在你可以在 [[GitHub|GitHub]] 上对着一个代码库说，「我上周参加了一堆关于这个库的设计会议，你把会议记录抓取过来，给我列个改代码的计划」。以前谁敢想用 M365 干这个？所以，在智能体时代，价值创造的机会翻了 10 倍 <button class="pd-ts" data-t="19:29" data-who="Satya Nadella" data-en="Previously, you could never have thought of using M365 for something like that. So the value creation opportunity now in the agent world is, in fact, 10x more." aria-label="回原文"></button>。至于怎么收费，他看得很透：不管是最初为了预算好批的「按人头订阅」，还是现在呼声很高的「按结果付费」，最终都不会是一家通吃。他还笑着爆料，很多客户嘴上说喜欢按结果分成，等真看到收益了又心疼得不行，转头要求改回按使用量计费 <button class="pd-ts" data-t="20:57" data-who="Satya Nadella" data-en="But remember, most people love outcomes until they have an outcome. Because once you have an outcome, it's like giving away royalty, right? I've talked to customers who love outcome-based pricing," aria-label="回原文"></button>。
 
-他拆解了传统 SaaS 的构成:把业务流程抽象成数据模型,写一堆业务逻辑,再套上一个界面,这套玩法统治了过去 20 年 <button class="pd-ts" data-t="17:04" data-who="Satya Nadella" data-en="20 years, that was it. And that was it. So interestingly enough, now you get to relitigate that vertical stacking." aria-label="回原文"></button>。他明确指出,底层的「数据模型」(比如总账)是非常稳健的,不需要重新发明;但问题在于,以前这些数据被锁死在一个个应用孤岛里。
+谈完了软件形态的改变，下一个自然的话题就是人的饭碗了。有人猜测未来只剩四种工程师：管智能体的、前线部署的、搞安全的和做大基础设施的。Satya 觉得这说法有点绝对，但趋势是对的。比如微软旗下的 LinkedIn 就搞了个「全栈构建者」的角色，把设计、产品和前端揉在了一起 <button class="pd-ts" data-t="26:48" data-who="Satya Nadella" data-en="So they went and said, hey, let's bring People from design and product management, front-end engineering," aria-label="回原文"></button>。但他最看好的是「通才」的崛起。写代码不再是程序员的专属，哪怕是他这样一个自称「无能的 CEO」，现在也能直接靠 GitHub Copilot 去摸老代码、学新东西。他觉得，以前你只能造个表格，现在同样门槛你却能造个应用，通才的杠杆被无限放大了 <button class="pd-ts" data-t="27:54" data-who="Satya Nadella" data-en="Because the leverage of a generalist is where we are going to see the maximum returns, right? When you said, hey, are you coding? I'm now a generalist." aria-label="回原文"></button>。
 
-为了说明怎么打破孤岛,他举了微软 M365 里的 WorkIQ(企业工作数据底层)为例。以前,公司的邮件、文档、会议记录分别存放在不同的应用里;现在,这些数据被彻底打通,变成了一个可以被智能体查询的庞大数据库 <button class="pd-ts" data-t="18:48" data-who="Satya Nadella" data-en="The same thing is now happening with M365 because with WorkIQ, We have exposed what was perhaps the most important database in a company that never got used as a database because it was only captive to our apps." aria-label="回原文"></button>。他分享了一个极具画面的亲身经历:他让 [[GitHub|GitHub]](代码托管平台)里的智能体去读取他上周参加的一堆设计会议记录,智能体竟能自动汇总并给出具体的代码修改建议。这在以前是不可想象的。这也意味着,智能体对 M365 后端数据的调用量,甚至将远远超过人类终端用户的日常点击量。
+光有个人层面的提效还不够，这套工具甚至能倒逼大企业重组工作。Satya 讲了个真实的内部案例：过去 15 个月，负责 [[Azure|Azure]]（微软云）网络建设的团队，搞出的基建规模超过了过去 15 年的总和。面对疯涨的需求，团队没有去要人头编制，而是说「我们需要算力配额」，因为他们重新定义了自己的工作——不再是亲自去修被挖断的光纤，而是造了一个叫 Miles 的智能体系统去管理那 500 多个光纤运营商，把体力活变成了「元工作」<button class="pd-ts" data-t="30:57" data-who="Satya Nadella" data-en="And so they were saying, look, we don't need a headcount. We need tokens in order to be able to manage our operation. That reconceptualization of what their work is, right?" aria-label="回原文"></button>。
 
-## 新的资产负债表:智能体将要记录在账上
+说完了云端的建设，两位主持人顺势把话题拉回到了非常现实的数据中心建设上。Satya 毫不避讳地指出，这么狂热的建设，如果只是科技公司自己在狂欢，是得不到社区许可的。他坚信，如果消耗了巨量能源，却不能为当地带来真金白银的就业、税收，以及更稳定、更便宜的能源和水资源，那这事就长久不了 <button class="pd-ts" data-t="33:46" data-who="Satya Nadella" data-en="But at the end of the day, if we can really be the producer, I've always felt like in human history," aria-label="回原文"></button>。他甚至一反常态地直言，现在大家对科技公司已经听腻了「相信我们，未来很美好」的空话，必须得拿看得见摸得着的好处说话。这也是他对 AI 社会影响力的最大反思：科技行业不能干等着，必须在接下来的 12 到 18 个月内，让大家真切地感受到医疗改善、创业增收这些实在的好处。
 
-工具和平台变了,人的价值怎么算?这正是访谈接下来切入的深水区。
+> 【背景】Satya 在谈话中多次提及微软的 AI 战略，包括 Mustafa（微软 AI 部门负责人）和 Jensen（NVIDIA CEO 黄仁勋）。他自嘲当年微软搞了 DX（DirectX 图形接口），结果让 Jensen 在上面搭了 CUDA，自己「吃了大亏」，借此强调平台必须让生态伙伴赚到钱。
 
-Nadella 提出了一个非常超前的管理学观点:当一家公司里,一批人和一批智能体配合工作,它们之间产生的交互「轨迹」(数据沉淀),将成为企业最核心的资产。这些轨迹可以拿去训练专属于这家公司的「公司老手智能体」。他甚至断言,当这种智能体沉淀了足够的公司专有知识后,它实际上应该被计入公司的**资产负债表** <button class="pd-ts" data-t="15:33" data-who="Satya Nadella" data-en="which is when a company says it should in fact go on to the balance sheet, is how I think about it. There may be like human capital was never possible to go put on a balance sheet" aria-label="回原文"></button>。因为过去,人类的隐性知识无法被量化记录;而现在,智能体把这些工作流程完整捕捉了下来。
-
-顺着「人机如何配合」这个话题,主持人问到了工程团队的分工。Nadella 非常认同「通才将迎来最大杠杆」的判断。以 LinkedIn(职场社交平台)为例,他们内部设立了「全栈构建者」的角色,把懂设计、懂产品、懂前端的人揉在一起,打破了原有的职能壁垒 <button class="pd-ts" data-t="26:38" data-who="Satya Nadella" data-en="But what you said is what there are some very at scale things. At LinkedIn, they did structurally change and it basically built up a new discipline called full" aria-label="回原文"></button>。但他也强调,在构建底层基础设施(比如支撑模型不断学习的系统)时,依然极度需要分布式系统的顶尖专家。
-
-那么,当智能体开始大批量接管日常工作,人类的出路在哪?Nadella 的判断反直觉却充满乐观:他拿微软 [[Azure|Azure]] 云的物理网络运营团队举例。面对庞大的光纤铺设和维修需求,这个团队没有申请增加人手,而是要了更多的 token,自己搭建了一个名叫 Miles 的智能体系统,让它去自动调度 500 多个光纤运营商 <button class="pd-ts" data-t="30:47" data-who="Satya Nadella" data-en="So they built this agentic system. They even have a character for it. It's called Miles and it has all this stuff." aria-label="回原文"></button>。这意味着,工作被「元化」(meta)了——人类的最新工作,变成了「构建管理系统去干活的智能体」。他甚至抛出了一个绝佳的类比:就像 80 年代没人会想到全球会有四十亿打字员,因为我们做的不是打字,而是知识工作;今天面对 AI,我们也应该跳出「替换人」的线性思维。
-
-## 技术狂飙背后的账本:基建与社区必须双赢
-
-聊完工作方式的颠覆,最后一个话题落在了更宏大的物理世界约束上:[[数据中心|数据中心]]的大举扩张。
-
-Nadella 提到一组震撼的数字:微软在过去 15 个月里建成的 Azure(微软云)算力容量,超过了过去前 15 年的总和 <button class="pd-ts" data-t="30:04" data-who="Satya Nadella" data-en="You saw that I talked about how we built in the last 15 months more Azure capacity than we built in the first 15 years. That's crazy." aria-label="回原文"></button>。但他极其清醒地指出,这种规模的基建如果无法让当地社区感受到切实好处,整个行业就会失去「社会运营许可」。他算了一笔账:数据中心必须带来真实的就业、改善的电网和更低的能源价格,这是必须用真金白银兑现的承诺 <button class="pd-ts" data-t="32:55" data-who="Satya Nadella" data-en="In fact, if anything, it's bringing down prices because long-term there's going to be a better grid," aria-label="回原文"></button>。他还把这种务实精神延伸到了教育领域,指出在获取信息的方式巨变后,传统的教学法和学历认证体系需要被彻底重构。
+访谈的最后，话题落在了教育上。主持人好奇为什么 AI 在医疗领域大放异彩，在教育上却反响平平。Satya 觉得，底层的概念学习依然不可或缺——你不能光指望 AI 帮你修好训练过程，还是得自己弄懂 softmax（一种数学函数）到底是怎么回事 <button class="pd-ts" data-t="37:48" data-who="Satya Nadella" data-en="Because you still need people to learn. Like it was an interesting AI class that they were making sure people were learning how to apply softmax appropriately versus saying," aria-label="回原文"></button>。他大胆猜测，借着这波 AI 的力量，也许下一个伟大的创业成功故事，不是做出什么新软件，而是有人创办了一所全新的大学，用全新的教学法，让人真正学有所得，并找到高价值的经济机会 <button class="pd-ts" data-t="38:25" data-who="Satya Nadella" data-en="So I think interestingly enough, Maybe the next big startup and success story could be someone who builds a new university or a new pedagogy even of how to get someone to go through a curriculum" aria-label="回原文"></button>。
 
 ## 本集带走
 
-1. **企业最大的护城河是「私有评估」**:在公开基准测试已刷满水的时代,能用来驱动模型专属进化且不泄露轨迹的私有数据,才是核心 IP。
-2. **SaaS 不会死,但会被拆解**:底层数据模型依然稳固,但传统应用的「围墙花园」将被打通。未来的软件价值,在于用智能体把数据与业务逻辑重组。
-3. **「轨迹」是新的资产**:当智能体深度参与业务,沉淀下来的工作流轨迹将能训练出极具威力的「公司老手智能体」,这些资产理应被记入资产负债表。
+最后收个尾，这一集值得带走的是几个扎实的判断。第一，别去刷那些公开的评测榜了，一家公司手里掌握的「私有评估」、也就是那套只有你自己能衡量业务好坏的题库，才是智能体时代最大的知识产权，也是你随时能更换底层大模型、不被任何一家巨头绑架的底气所在。第二，软件没有终结，但 SaaS 被彻底拆解和重组是必然的；底层稳固的数据逻辑依然值钱，但当交互界面被智能体重塑后，价值创造的机会是过去的十倍，只不过连怎么收钱这件事，都变成了订阅、按量、分成各显神通的灵活游戏。第三，不管大模型多强，真正的杠杆永远在能把设计、产品和代码一把抓的「通才」手里；就连微软自己修光纤的工程队都明白了，与其增加人手，不如要点算力配额，把脏活累活丢给智能体，自己抽身去做更高阶的系统设计。而要让这一切不被社会抵制，科技巨头们必须赶在所有人失去耐心之前，把更好的医疗、更便宜的服务、实打实的就业，变成普通人明天就能摸到的东西。
 
-<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>3 条(中英对照,已过机器闸门)</span></div>
 
 > <span class="qz">拥有私有评估可能是最大的知识产权。</span>  
-> *Having private evals may be the biggest IP.*  
+> *having private evals may be the biggest IP.*  
 > <span class="qm">—— Satya Nadella · [11:47]</span> ^q1
 
-> <span class="qz">我可以直接来让大家就在一个模型的祭坛前顶礼膜拜。但那不是开发者大会。</span>  
-> *I can just come and have you all just worship at the altar of one model. But that's not a developer conference.*  
-> <span class="qm">—— Satya Nadella · [14:08]</span> ^q2
+> <span class="qz">拥有私有评估可能是最大的知识产权。</span>  
+> *having private evals may be the biggest IP.*  
+> <span class="qm">—— Satya Nadella · [11:47]</span> ^q2
 
-> <span class="qz">如果自己构建和维护某样东西的边际成本更高,你就应该总是去获取它。</span>  
-> *you should always acquire something if the marginal cost of building and maintaining something on your own is higher.*  
-> <span class="qm">—— Satya Nadella · [22:46]</span> ^q3
-
-> <span class="qz">你看到我谈到了我们如何在过去15个月里建成了比我们前15年建成的更多的Azure容量。</span>  
-> *You saw that I talked about how we built in the last 15 months more Azure capacity than we built in the first 15 years.*  
-> <span class="qm">—— Satya Nadella · [29:58]</span> ^q4
-
-> <span class="qz">如果有人来找我们说,四十亿人早上起床后会开始打字,我的模型会是,我们需要四十亿打字员,但我们不是在做打字。我们是在做知识工作。</span>  
-> *if somebody had come to us and said, four billion people are going to get up in the morning and start typing, my model would have been, we need four billion typists, but We're not doing typing. We're doing knowledge work.*  
-> <span class="qm">—— Satya Nadella · [31:12]</span> ^q5
-
-> <span class="qz">我认为世界将会非常怀疑那些说“相信我们,我们搞定了,未来将会是辉煌的”的科技和科技公司。我们必须交付切实的好处。</span>  
-> *I think the world is going to be very skeptical of tech and tech companies that say, trust us, we've got it, the future is going to be glorious. We have to deliver tangible benefits.*  
-> <span class="qm">—— Satya Nadella · [36:15]</span> ^q6
-
-> <span class="qz">事实上,我用来服务收件箱或邮箱的东西不能用来服务智能体。</span>  
-> *In fact, what I use to serve an inbox or a mailbox cannot be used to serve an agent.*  
-> <span class="qm">—— Satya Nadella · [19:45]</span> ^q7
+> <span class="qz">我认为世界将会非常怀疑那些说“相信我们，我们搞定了，未来将会是辉煌的”的科技和科技公司。</span>  
+> *I think the world is going to be very skeptical of tech and tech companies that say, trust us, we've got it, the future is going to be glorious.*  
+> <span class="qm">—— Satya Nadella · [36:15]</span> ^q3
 
 <div class="pd-sec">接着看</div>
 
@@ -119,17 +91,17 @@ Nadella 提到一组震撼的数字:微软在过去 15 个月里建成的 Azure(
 **顺着「创业与行业」挖下去**
 
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|1500 亿美元的隐形 AI 公司创始人：恐惧源于无知，最好的工作是独自安静地完成]] —— 同概念:智能体 (agent)
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|Zynga 创始人 Mark Pincus：想做出伟大产品，先学会「合法地抄袭」]] —— 同概念:智能体 (agent)
-- [[2026-singju-openclaw-80apps|OpenClaw创始人：为何80%的应用将消失]] —— 同概念:智能体 (agent)
+- [[2026-06-14-lennys-the-common-pattern-behind-successful|Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新]] —— 同概念:智能体 (agent)
+- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]] —— 同概念:智能体 (agent)
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性]] —— 同公司:GitHub · 同概念:智能体 (agent)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切]] —— 同概念:SaaS、智能体 (agent)
-- [[2026-06-24-pg-company-os-jz|AI 时代的产品团队：Laurel CPO 的公司操作系统与「超级个体」实战]] —— 同公司:GitHub · 同概念:智能体 (agent)
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]] —— 同公司:GitHub · 同概念:智能体 (agent)
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同概念:SaaS、智能体 (agent)
+- [[2026-06-24-pg-company-os-jz|Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能]] —— 同公司:GitHub · 同概念:智能体 (agent)
 
 </div>
 </div>

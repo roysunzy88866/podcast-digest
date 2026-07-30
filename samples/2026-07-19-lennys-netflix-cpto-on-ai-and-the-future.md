@@ -132,16 +132,16 @@ Netflix 也提醒大家,它在 AI 和机器学习(ML)上的积累不是从 GenAI
 
 **顺着「组织与领导力」挖下去**
 
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|对话 Cisco CPO Jeetu Patel:大公司如何不掉队 AI 时代]] —— 同概念:护栏 (guardrails)
+- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言]] —— 同概念:护栏 (guardrails)
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|黄仁勋:NVIDIA 起步选错了技术,但学习比技术更重要]] —— 同概念:智能体 (agents)、系统思维 (systems thinking)
-- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|对话 Samsara CEO:AI 进入物理世界,用 25 万亿数据点改造传统工业]] —— 同概念:护栏 (guardrails)、智能体 (agents)
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|别只想推销：产品负责人如何真正影响高管决策]] —— 同概念:智能体 (agents)、护栏 (guardrails)
+- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式]] —— 同概念:智能体 (agents)、系统思维 (systems thinking)
+- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆]] —— 同概念:护栏 (guardrails)、智能体 (agents)
+- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|Jessica Fain:如何影响高管——把高管当用户来研究]] —— 同概念:智能体 (agents)、护栏 (guardrails)
 
 </div>
 </div>

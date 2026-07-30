@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《Lassie 的 AI 智能体：让牙科诊所行政自动化，开启小企业大市场》]]**(00:46起):本集的主角公司：一家为医疗诊所（目前主攻牙科）构建智能体的初创公司，核心是用 AI 自动化保险计费和患者收款等繁琐的行政劳动。
+- **[[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢饭碗，是找不到人:Lassie 如何替全美牙医干掉行政活》]]**(00:46起):本集的主角公司：一家为医疗诊所（目前主攻牙科）构建智能体的初创公司，核心是用 AI 自动化保险计费和患者收款等繁琐的行政劳动。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《Lassie 的 AI 智能体：让牙科诊所行政自动化，开启小企业大市场》]] — 作为被讨论公司
+- [[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢饭碗，是找不到人:Lassie 如何替全美牙医干掉行政活》]] — 作为被讨论公司
 
 ## ③ 关联
 

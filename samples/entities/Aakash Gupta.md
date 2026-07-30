@@ -13,7 +13,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-07-13-pg-the-complete-claude-stack-for-pms|《PM 如何用 Claude 把生产力提升 10 倍：全栈实战》]] — 作为主持
+- [[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]] — 作为主持
 
 ## ③ 他谈到的
 

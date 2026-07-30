@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]]**(01:06起):本集回顾了其诞生之初的最大争议——取消物理键盘，指出为了拿下 98% 的大众市场，团队经过数月软硬件联调，用极小团队证明了虚拟键盘虽不如物理键盘但“已经足够好”，最终靠领导者的“有依据的直觉”拍板。
+- **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]]**(01:06起):本集回顾了其诞生之初的最大争议——取消物理键盘，指出为了拿下 98% 的大众市场，团队经过数月软硬件联调，用极小团队证明了虚拟键盘虽不如物理键盘但“已经足够好”，最终靠领导者的“有依据的直觉”拍板。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] — 作为概念
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]] — 作为概念
 
 ## ③ 关联
 

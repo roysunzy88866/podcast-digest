@@ -7,29 +7,23 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Airbnb</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Airbnb">AI</div><div class="pi"><h1 class="pt">Airbnb</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Airbnb">AI</div><div class="pi"><h1 class="pt">Airbnb</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《妻子反向采访 Lenny:百万订阅背后的真实人生》]]**(05:53起):本集把它说成:Lenny 待了七年的前公司(做软件工程师和产品经理),他在 Medium 写的第一篇关于此经历的文章被 Brian Chesky 分享给了全公司;他还提到自己曾参与创立的初创公司 Localmind 被卖给了 Airbnb
-- **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评》]]**(01:18起):本集提到创始人 Brian Chesky 最初向 Keith 顺推销时，用 Craigslist 上的真实数据验证了市场需求；同时，Brian Chesky 无论公司多成功都始终「把油门踩到底」、极度渴望前进。
-- **[[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]]**(72:04起):本集引用了其 CEO 提出的「追求十一星级体验」的类比，说明 AI 时代人类需不断拉高产品体验的上限。
-- **[[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]]**(01:17起):本集提到主持人和嘉宾 Noam 在十年前曾在这里共事多年，当时 Noam 是他团队里的研究员。
-
-## ① 提到它的金句
-
-*1 条,均已过机器闸门*
-
-![[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter#^q1]]
+- **[[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《Lenny 挨老婆采访:致幻剂、跑步机和五万分之一》]]**(05:53起):本集把它说成:Lenny 待了七年的前公司(做软件工程师和产品经理),他在 Medium 写的第一篇关于此经历的文章被 Brian Chesky 分享给了全公司;他还提到自己曾参与创立的初创公司 Localmind 被卖给了 Airbnb
+- **[[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]]**(01:18起):本集提到创始人 Brian Chesky 最初向 Keith 顺推销时，用 Craigslist 上的真实数据验证了市场需求；同时，Brian Chesky 无论公司多成功都始终「把油门踩到底」、极度渴望前进。
+- **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(72:04起):本集引用了其 CEO 提出的「追求十一星级体验」的类比，说明 AI 时代人类需不断拉高产品体验的上限。
+- **[[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]]**(01:17起):本集提到主持人和嘉宾 Noam 在十年前曾在这里共事多年，当时 Noam 是他团队里的研究员。
 
 ## ② 出现在这些集
 
 *4 集*
 
-- [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《妻子反向采访 Lenny:百万订阅背后的真实人生》]] — 作为被讨论公司
-- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois 的用人铁律：别招熟手、别做客户访谈、公开批评》]] — 作为被讨论公司
-- [[2026-07-09-pg-pm-guide-ai-design|《用 AI 武装技术型 PM：Codex 工作流全解析》]] — 作为被讨论公司(提及)
-- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《科技圈情绪调查：一半人狂喜，一半人煎熬》]] — 作为被讨论公司(提及)
+- [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《Lenny 挨老婆采访:致幻剂、跑步机和五万分之一》]] — 作为被讨论公司
+- [[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era|《Keith Rabois：别招大厂高管，别做客户调研》]] — 作为被讨论公司
+- [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为被讨论公司(提及)
+- [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

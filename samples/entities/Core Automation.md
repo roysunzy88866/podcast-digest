@@ -7,17 +7,23 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Core Automation</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Core Automation">CO</div><div class="pi"><h1 class="pt">Core Automation</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Core Automation">CO</div><div class="pi"><h1 class="pt">Core Automation</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 见顶了吗？OpenAI 与 Google 前核心创立 Core Automation 寻找下一代架构》]]**(01:03起):本集说它是旧金山目前最热门的新实验室之一，由前 OpenAI 和 Gemini 核心成员创立，使命是打造全世界最自动化的实验室，以探索能够持续学习、替代 Transformer 的新架构。
+- **[[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]]**(01:03起):本集说它是旧金山目前最热门的新实验室之一，由前 OpenAI 和 Gemini 核心成员创立，使命是打造全世界最自动化的实验室，以探索能够持续学习、替代 Transformer 的新架构。
+
+## ① 提到它的金句
+
+*1 条,均已过机器闸门*
+
+![[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto#^q5]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 见顶了吗？OpenAI 与 Google 前核心创立 Core Automation 寻找下一代架构》]] — 作为被讨论公司
+- [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]] — 作为被讨论公司
 
 ## ③ 关联
 

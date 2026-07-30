@@ -13,7 +13,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-07-08-latent-space-modal|《从避战大模型到押注智能体：Modal 的推理基础设施进化史》]] — 作为主持
+- [[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]] — 作为主持
 
 ## ③ 他谈到的
 

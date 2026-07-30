@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱》]]**(35:29起):本集用它的商业模式作类比，说明未来的 AI 生态应该更像云服务（用户不在乎底层跑在什么上面），而不是靠系统垄断通吃。
+- **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(35:29起):本集用它的商业模式作类比，说明未来的 AI 生态应该更像云服务（用户不在乎底层跑在什么上面），而不是靠系统垄断通吃。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱》]] — 作为被讨论公司
+- [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司
 
 ## ③ 关联
 

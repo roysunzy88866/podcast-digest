@@ -2,46 +2,14 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "00:12",
+      "timestamp": "03:38",
       "speaker": "Ben Horowitz",
       "trimmed": false,
-      "tsWas": "00:12",
+      "tsWas": "03:37",
       "spkWas": "Ben Horowitz"
     },
     {
       "i": 2,
-      "timestamp": "01:44",
-      "speaker": "Ben Horowitz",
-      "trimmed": false,
-      "tsWas": "01:43",
-      "spkWas": "Ben Horowitz"
-    },
-    {
-      "i": 3,
-      "timestamp": "01:54",
-      "speaker": "Ben Horowitz",
-      "trimmed": false,
-      "tsWas": "01:53",
-      "spkWas": "Ben Horowitz"
-    },
-    {
-      "i": 4,
-      "timestamp": "02:22",
-      "speaker": "Ben Horowitz",
-      "trimmed": false,
-      "tsWas": "02:22",
-      "spkWas": "Ben Horowitz"
-    },
-    {
-      "i": 5,
-      "timestamp": "02:38",
-      "speaker": "Ben Horowitz",
-      "trimmed": false,
-      "tsWas": "02:38",
-      "spkWas": "Ben Horowitz"
-    },
-    {
-      "i": 6,
       "timestamp": "05:24",
       "speaker": "Ben Horowitz",
       "trimmed": false,
@@ -49,15 +17,23 @@
       "spkWas": "Ben Horowitz"
     },
     {
-      "i": 7,
-      "timestamp": "15:02",
+      "i": 3,
+      "timestamp": "09:29",
       "speaker": "Ben Horowitz",
       "trimmed": false,
-      "tsWas": "15:00",
+      "tsWas": "09:29",
       "spkWas": "Ben Horowitz"
     },
     {
-      "i": 8,
+      "i": 4,
+      "timestamp": "10:01",
+      "speaker": "Ben Horowitz",
+      "trimmed": false,
+      "tsWas": "10:00",
+      "spkWas": "Ben Horowitz"
+    },
+    {
+      "i": 5,
       "timestamp": "11:13",
       "speaker": "Ben Horowitz",
       "trimmed": false,
@@ -65,21 +41,51 @@
       "spkWas": "Ben Horowitz"
     },
     {
-      "i": 9,
-      "timestamp": "00:30",
+      "i": 6,
+      "timestamp": "13:06",
       "speaker": "Ben Horowitz",
       "trimmed": false,
-      "tsWas": "22:38",
+      "tsWas": "13:06",
+      "spkWas": "Ben Horowitz"
+    },
+    {
+      "i": 7,
+      "timestamp": "14:35",
+      "speaker": "Ben Horowitz",
+      "trimmed": false,
+      "tsWas": "14:35",
+      "spkWas": "Ben Horowitz"
+    },
+    {
+      "i": 8,
+      "timestamp": "21:08",
+      "speaker": "Ben Horowitz",
+      "trimmed": false,
+      "tsWas": "21:08",
       "spkWas": "Ben Horowitz"
     },
     {
       "i": 10,
-      "timestamp": "29:17",
+      "timestamp": "24:19",
       "speaker": "Ben Horowitz",
       "trimmed": false,
-      "tsWas": "29:17",
+      "tsWas": "24:19",
+      "spkWas": "Ben Horowitz"
+    },
+    {
+      "i": 11,
+      "timestamp": "28:48",
+      "speaker": "Ben Horowitz",
+      "trimmed": false,
+      "tsWas": "28:48",
       "spkWas": "Ben Horowitz"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 9,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "it feels like we're kind of at a stable equilibrium in the market. But the truth is the AI market is probably less than 3% penetrated."
+    }
+  ]
 }

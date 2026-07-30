@@ -11,20 +11,20 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]]**(51:24起):本集提到传统的 PRD 在快节奏的 AI 时代已显得过时，Amol 的团队交付的内容中有 60% 到 80% 连 PRD 都没有，大家更倾向于直接在 Slack 沟通或做原型。
+- **[[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]]**(51:24起):本集提到传统的 PRD 在快节奏的 AI 时代已显得过时，Amol 的团队交付的内容中有 60% 到 80% 连 PRD 都没有，大家更倾向于直接在 Slack 沟通或做原型。
 - **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当代码不再是瓶颈,品味和策展成为产品团队的稀缺力》]]**(06:46起):本集探讨了过去为了预先降低实现风险而大量使用产品需求文档(PRD),但嘉宾指出现在对某些观点表达而言文档可能仍是正确的媒介选择,不能盲目宣称 PRD 已死。
-- **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型》]]**(00:56起):本集评测模型能力的四大高频场景之一,主持人发现 Tara 模型在编写简洁、切中要害的商务 PRD 文档上表现最为出色。
-- **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]]**(41:00起):本集将其描述为传统的产品需求文档，虽然在明确痛点的开发中被评估（evals）替代，但在需要对齐大量利益相关者或探索极其模糊的新领域时依然具有不可替代的价值。
+- **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]]**(00:56起):本集评测模型能力的四大高频场景之一,主持人发现 Tara 模型在编写简洁、切中要害的商务 PRD 文档上表现最为出色。
+- **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(41:00起):本集将其描述为传统的产品需求文档，虽然在明确痛点的开发中被评估（evals）替代，但在需要对齐大量利益相关者或探索极其模糊的新领域时依然具有不可替代的价值。
 - **[[2026-07-28-pg-how-to-build-your-first-eval|《评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估》]]**(01:48起):本集把它说成:过去产品经理用来传达产品诉求的文档,详细规定产品各种情况下的运作方式和用户价值,但在 Gen AI 时代因为产品能做的事太多、难以用文字描述,其核心职能被评估取代。
 
 ## ② 出现在这些集
 
 *5 集*
 
-- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《Anthropic 增长负责人：用 Claude 自动化增长实验，把 PM 的活交给工程师》]] — 作为概念(提及)
+- [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为概念(提及)
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当代码不再是瓶颈,品味和策展成为产品团队的稀缺力》]] — 作为概念(提及)
-- [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型》]] — 作为概念(提及)
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|《evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经》]] — 作为概念
+- [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]] — 作为概念(提及)
+- [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为概念
 - [[2026-07-28-pg-how-to-build-your-first-eval|《评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估》]] — 作为概念
 
 ## ③ 关联

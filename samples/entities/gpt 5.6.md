@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型》]]**(01:16起):本集讨论的 OpenAI 新发布的前沿模型系列,包含 Soul、Tara、Luna 三个版本,主持人对它失去访问权限的一周里感到绝望。
+- **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]]**(01:16起):本集讨论的 OpenAI 新发布的前沿模型系列,包含 Soul、Tara、Luna 三个版本,主持人对它失去访问权限的一周里感到绝望。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型》]] — 作为概念
+- [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]] — 作为概念
 
 ## ③ 关联
 

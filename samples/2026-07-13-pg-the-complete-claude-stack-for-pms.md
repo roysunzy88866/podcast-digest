@@ -1,5 +1,5 @@
 ---
-title: PM 如何用 Claude 把生产力提升 10 倍：全栈实战
+title: 产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长
 podcast: Product Growth Podcast
 date: 2026-07-13
 source_url: https://www.news.aakashg.com/p/the-complete-claude-stack-for-pms
@@ -7,7 +7,7 @@ duration: "93:20"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-07-13-pg-the-complete-claude-stack-for-pms.jpg"
-description: "从模型选型到构建个人幕僚长智能体,用 Claude 全栈打造 PM 生产力引擎。"
+description: 拆解 Claude 全家桶五层架构，手把手教你搭建全天候私人幕僚长与自我进化的对抗智能体。
 host: "[[Aakash Gupta]]"
 cohosts: ["[[Jyothi Nookula]]"]
 companies: ["[[Claude]]"]
@@ -18,9 +18,9 @@ tags:
   - AI 编程
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>PM 如何用 Claude 把生产力提升 10 倍：全栈实战</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# PM 如何用 Claude 把生产力提升 10 倍：全栈实战
+# 产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长
 
 <div class="pd-byl"><b>Jyothi Nookula</b> · 产品经理</div>
 
@@ -28,7 +28,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-13-pg-the-complete-claude-stack-for-pms.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我认为这是大多数 PM 投入不足的一层,正是这一层让 Claude 从一个通用的聊天机器人变成真正了解你的上下文。</div><div class="a">Jyothi Nookula · 06:05</div></div>
+<div class="pd-hook"><div class="z">理解针对哪个用例选择哪个界面,成为了一项核心的 PM 技能,这将帮助你变得效率提升 10 倍</div><div class="a">Jyothi Nookula · 05:39</div></div>
 
 > [!info] 关联
 > **人物** [[Aakash Gupta]] · [[Jyothi Nookula]]
@@ -39,95 +39,63 @@ tags:
 >
 > **来源** [Product Growth Podcast](https://www.news.aakashg.com/p/the-complete-claude-stack-for-pms)
 
-<div class="pd-tldr"><b>一句话</b>从模型选型到构建个人幕僚长智能体,用 Claude 全栈打造 PM 生产力引擎。</div>
+<div class="pd-tldr"><b>一句话</b>拆解 Claude 全家桶五层架构，手把手教你搭建全天候私人幕僚长与自我进化的对抗智能体。</div>
 
-产品经理(PM) Jyothi 曾在内部黑客马拉松中击败了 30 个工程团队夺冠,她的武器是 [[Claude|Claude]] 和「[[对抗性智能体|对抗性智能体]]」(adversarial agents)。本集她从零开始,手把手教不熟悉技术的读者如何利用整个 Claude 生态系统将日常生产力提升 10 倍。全文将按 Claude 的五层架构展开:前两层讲怎么选对工具,中间两层讲怎么通过定时任务和私有[[知识库|知识库]]把繁杂工作自动化,最后一层讲怎么用 Claude 代码构建自我纠错的[[智能体|智能体]],并在结尾谈谈这一切将如何重塑 PM 这个职业本身 <button class="pd-ts" data-t="00:04" data-who="Jyothi Nookula" data-en="understanding which surface to reach for which use case becomes one of the core pm skills that will help you become 10x more effective on LinkedIn and it caught my eye." aria-label="回原文"></button>。
+一个人单枪匹马击败 30 个工程团队拿下内部黑客松,靠的不是写代码更猛,而是搭了一个让 AI 自己攻击自己、循环打补丁的评估系统。说这话的人是 Jyothi,她曾是 Amazon、Meta、Netflix 的资深产品经理 <button class="pd-ts" data-t="72:51" data-who="Aakash Gupta" data-en="where do they see this and what's their use case to think about these options you've been a senior product manager at amazon a lead product manager at meta director of product at netflix now you're" aria-label="回原文"></button>。在这集对谈里,她端出了自己一整套基于 [[Claude|Claude]] 生态的实战打法:从怎么挑模型,到怎么用桌面端跑自动化,再到怎么在 VS Code 里给你自己搭一个懂人际政治的私人「幕僚长」,最后甚至现场从头敲出了一个靠对抗[[智能体|智能体]]自我进化的评估器。
 
-> 【背景】Claude 是 Anthropic 公司推出的 AI 大模型。本集反复提到 plot code / clod,均为语音转写时对「Claude Code」(Anthropic 的终端/IDE 编程工具)或「Claude」的误听,为符合读者认知,导读正文直接使用正确名称 Claude / Claude Code。
+这一集 [[Aakash Gupta|Aakash Gupta]] 主持,主要聊了五件事:第一,Claude 的模型选型逻辑;第二,不同客户端(桌面端、网页端、Chrome 插件)该在什么场景下用;第三,如何用定时任务(Co-work)和[[技能|技能]]把繁琐的每日站会、简报自动化;第四,怎么把会议记录喂给 Claude,沉淀出一个完全懂你的本地[[知识库|知识库]];第五,什么是受 GAN(生成式对抗网络)启发的对抗智能体,以及「AI builder」这个新角色的面试和生存指南。
 
-## 第一、二层:选对模型与交互界面
+先把底盘打好:模型和客户端该怎么选?Jyothi 把 Claude 生态画成了一张五层架构图 <button class="pd-ts" data-t="04:30" data-who="Jyothi Nookula" data-en="that people can get to this level at the end of the episode great we'll tackle it today so we'll start with understanding the clod stack first and then getting into some of the basics like how do you use co-work and" aria-label="回原文"></button>。最底层是模型:Haiku 是速度机器,适合做大批量但不需要深度的分类打标;Sonnet 是她的主力,90% 的日常活(比如写 PRD、做竞品分析)都用它,因为性价比最好;Opus 专门留给高风险、高复杂度的推理任务,比如做长周期的二阶、三阶影响推演。但她也提醒,Opus 比较容易钻进某个局部最优的牛角尖,一旦卡住,你得干脆关掉聊天窗口重开 <button class="pd-ts" data-t="08:53" data-who="Jyothi Nookula" data-en="reasoning capabilities but i've also noticed from my day-to-day working with opus that it also tends to get into this um hallucinated stuck mode a little bit quickly" aria-label="回原文"></button>。在模型之上,依次是访问模型的「表面」(比如浏览器、桌面应用、插件),存储你公司上下文的「知识库」层,以及连接 Jira、Slack 等外部工具的「集成层」([[mcp|MCP]] 服务器)。
 
-很多人以为 AI 就是一个聊天框,但要用好 Claude,得先懂它的底层结构。栈的最底层是模型,Claude 目前主要有三个模型:Haiku(速度快、成本低,适合大批量简单分类任务)、Sonnet(性价比最高,Jyothi 日常 90% 的工作都用它,比如起草 PRD 或做竞品分析),以及 Opus(擅长复杂推理和长线规划)。但 Opus 有时容易陷入「幻觉卡死模式」,在一个局部思路上原地打转,这时就得关掉重开,或者退回用 Sonnet <button class="pd-ts" data-t="07:14" data-who="Jyothi Nookula" data-en="about layers one and two in order to make the most out of the top layers yeah so let's get into the models now haiku is your speed machine it's the fastest cost efficient and it's really great for tasks where you need volume" aria-label="回原文"></button>。
+理解了基础架构,接下来看看具体的工具用法。桌面端是绝对的生产力枢纽。Jyothi 最核心的操作是在 Claude 桌面应用里搞「定时任务」<button class="pd-ts" data-t="15:22" data-who="Jyothi Nookula" data-en="in chat and asking it some questions i use co-work for automations and i'll show you a few today that i use like i have a morning i have my jira connected so i get my stand-up brief so every day it kicks off" aria-label="回原文"></button>。她设置了一个「幕僚长」指令,规定每天早上九点,让它自动去抓取 Google 日历、Gmail、Jira 里的信息,赶在早会前给她生成一份不超过 400 字、只要事实不打鸡血的简报。更重要的是,你可以把它当成一个内部的自动化中心:你不用像以前那样一个框一个框地去画逻辑图,直接用大白话告诉它你要什么,它会自己去调用各种连接器(比如 Atlassian、Canva、Figma、Notion 等)干活,而且不用担心中间哪一步断了导致整个流程崩溃 <button class="pd-ts" data-t="17:02" data-who="Jyothi Nookula" data-en="and click on the plus right now you can see i have connected to atlassian robo gmail calendar and drive but there's plenty other connectors that you can connect to like canva figma notion wherever your data lives you can connect to it all" aria-label="回原文"></button>。网页端拿来当谷歌搜索用;Chrome 插件则特别适合做竞品调研和用户测试——你可以让插件去操控浏览器,像真实用户一样去点击、浏览,看看你的产品在哪里容易让人困惑 <button class="pd-ts" data-t="13:00" data-who="Jyothi Nookula" data-en="and it'll use browser use and it will open up a browser it will do the analysis it will click through things and say here is what you need to know on how your ad should be against competitors" aria-label="回原文"></button>。
 
-模型之上是第二层——交互界面。界面不仅指浏览器里的 cloud.ai,还包括桌面应用、手机端、Chrome 插件以及集成在 VS Code 里的 [[Claude Code|Claude Code]] 扩展。理解针对哪个场景该用哪个界面,是一项能让你效率提升 10 倍的核心 PM [[技能|技能]] <button class="pd-ts" data-t="00:04" data-who="Jyothi Nookula" data-en="understanding which surface to reach for which use case becomes one of the core pm skills that will help you become 10x more effective on LinkedIn and it caught my eye." aria-label="回原文"></button>。例如,网页版无法直接碰你电脑里的本地文件;而桌面应用可以接入你的本地系统,随时跑一些自动化任务;Chrome 插件则可以用来做竞品调研,甚至模拟真实用户去点击你的产品网页,做基础的用户体验测试 <button class="pd-ts" data-t="12:35" data-who="Jyothi Nookula" data-en="that way i also use claude for chrome plugins especially it's very helpful if you want to do computer use so for example when i'm launching an ad and i want" aria-label="回原文"></button>。
+工具的日常用法理顺了,但怎么把你的专业知识也变成 Claude 的直觉?这需要一套进阶玩法。Jyothi 引入了「技能」的概念 <button class="pd-ts" data-t="26:14" data-who="Jyothi Nookula" data-en="the next thing you had mentioned this section were skills what do we need to know about skills what skills should we have how do we create them yes so if you go to customize again and you can see skills this is" aria-label="回原文"></button>。技能不是一整坨塞进去的指令,而是一种「渐进式披露」的机制。它最开始只加载 50 个字的简介到模型内存里,等 Claude 根据你的问题判断确实需要这个技能时,才会加载剩余的细节。这样哪怕你有几十个技能,也不会瞬间撑爆模型的上下文窗口。不过她特别强调了一个研究结论:AI 生成的技能文件,效果不如人写的 <button class="pd-ts" data-t="30:48" data-who="Jyothi Nookula" data-en="the skill file too but it's also shown research has shown that AI generated skill file is less effective than human written skill files so that doesn't mean you don't use AI there what the way I interpret this is put" aria-label="回原文"></button>。所以你可以用 Claude 帮你打底稿,但必须手动往里塞你自己的领域知识。比如做客户访谈总结时,她会明确要求:必须引用原话(以此减少幻觉),要把行为观察和口头偏好分开 <button class="pd-ts" data-t="27:12" data-who="Jyothi Nookula" data-en="so it has step by step like inventory the inputs extract observations with citations now that's important i'm not asking to just extract observations i wanted to cite so that it hallucinates less use" aria-label="回原文"></button>。
 
-界面与底层模型的分工明确了,接下来就是怎么让它们真正替你干活。而这,正是通过自动化和「技能」来实现的。
+技能管的是标准化任务,但那些散落在各个会议里的隐性知识该怎么沉淀?这正是本集的重头戏:打造你自己的「幕僚长」。Jyothi 在 VS Code 里用 [[Claude Code|Claude Code]] 从零搭了个本地知识库 <button class="pd-ts" data-t="34:52" data-who="Jyothi Nookula" data-en="the knowledge base for what you're working on and so i wanted to build a chief of staff that understands and is grounded in the knowledge base that i have and so i went to cloud code and i said let me spin this up so i'm going" aria-label="回原文"></button>。你把每天的会议记录(比如用 Granola 录的)、战略文档、PRD 统统丢进去,它会自动提取关键信息,按人员档案、会议主题分类存成 Markdown 文件。为了避免大公司里极度敏感的人际数据外泄,她特意把这个知识库放在本地电脑的文件系统里,而不是丢到公有云上 <button class="pd-ts" data-t="45:45" data-who="Jyothi Nookula" data-en="in obsidian at that point but i'm using local i'm showing it on my local file system because it has a few interesting things when you're working at a company you don't want" aria-label="回原文"></button>。为了让桌面端的 Claude 能随时读取它,她还给知识库加了一个 MCP 服务器(一种让 AI 读取外部数据的接口)。结果就是:明天要见某位经理,直接问 Claude,它会翻出知识库,告诉你这个人是个「先说不」的人,建议你别铺垫太长,直接说重点 <button class="pd-ts" data-t="47:38" data-who="Jyothi Nookula" data-en="hey i'm going to meet my manager one-on-one tomorrow what should i know and it will go and dig up all the context in the knowledge base and say here are all the things you need to know because it has my to-do there it knows the style" aria-label="回原文"></button>。甚至它还会主动提醒你:某次会议里那个人擅长你欠缺的领域,建议你把他发展成盟友 <button class="pd-ts" data-t="39:02" data-who="Jyothi Nookula" data-en="through my chief of staff reviewed it and then it said you know what you should make this person your ally because this person is good at x which you're trying to like get into" aria-label="回原文"></button>。
 
-## 第三层:用定时任务与技能把繁杂工作外包
+软件层面的操作学会了,第五层的设计工具也顺带提一下。Claude 还有一个叫 Claude Design 的工具,现在还处于研究预览阶段 <button class="pd-ts" data-t="62:33" data-who="Jyothi Nookula" data-en="in your cloud.ai yet you have to go through plot dot oh there we go and so you can see it's in research preview now you can as pms we do a lot" aria-label="回原文"></button>。它的杀手锏是可以导入你的 Figma 文件或品牌色,然后你只需丢一篇文章进去,它就能自动生成符合品牌规范的幻灯片轮播图。还可以直接在图上画圈留指令,比如「把这个图层改成橙色」,它就会直接执行 <button class="pd-ts" data-t="65:03" data-who="Jyothi Nookula" data-en="to show you now it's built this now let's say i want to mark it up i want to tell claude to change something so maybe say i wanted to tell uh make layers" aria-label="回原文"></button>。对 PM 来说,CEO 开会前一小时丢个大纲进去,瞬间就能拿到一份像是花了几个小时做的专业演示文稿 <button class="pd-ts" data-t="66:35" data-who="Jyothi Nookula" data-en="in my brand guide and so it just doesn't even look any different so it was funny I had a meeting with my CEO and one hour before I have my content I pushed it" aria-label="回原文"></button>。
 
-说完了底层模型和界面,我们进入第三层:知识库与自动化。这部分是大多数 PM 投入不足的地方。Jyothi 主要通过桌面应用里的 co-work(协作自动化功能区)来安排定时任务 <button class="pd-ts" data-t="06:09" data-who="Jyothi Nookula" data-en="custom instructions now this is the layer that i think most pms under invest in it's this layer that makes claude go from being a generic chatbot to actually knowing your context" aria-label="回原文"></button>。她搭建了四个核心自动化任务:每日早晨简报、每日站会简报、每日结束总结,以及「幕僚长」任务。
+软件和设计套路都摸熟了,我们回到开头那个问题:她到底是怎么赢下黑客松的?秘密就在于「对抗智能体」<button class="pd-ts" data-t="03:15" data-who="Jyothi Nookula" data-en="so i looked into the blog post and they had this concept of adversarial agents where you build an agent and then you set up configurations in another agent telling it what matters most" aria-label="回原文"></button>。这个思路借鉴了 GAN(生成式对抗网络,即用一个 AI 生成假图,用另一个 AI 鉴别真伪,互相博弈变强)。她在 Claude Code 里搭了两个角色:一个是负责干活的「生成器智能体」,另一个是专门挑刺的「对抗评估器」。她现场演示了一遍:对抗评估器会生成各种刁钻的边缘案例和「红队测试」(模拟黑客攻击)去围攻生成器的系统提示词。如果生成器没抗住,评估器就把反馈打回去,逼着生成器自己改写提示词,直到平均分达到标准才算过关 <button class="pd-ts" data-t="90:40" data-who="Jyothi Nookula" data-en="an example of how it iterated perfect okay so it's come up it's done a few iterations so you see in first iteration it was it scored an 8.52 but the agent caved" aria-label="回原文"></button>。她认为,现在「构建」这事儿已经没门槛了,真正的护城河是这种人类独有的「品味」:你知道该让对抗智能体去测试哪些最核心的业务标准 <button class="pd-ts" data-t="79:44" data-who="Jyothi Nookula" data-en="for what what are my configuration parameters and that's where domain knowledge becomes very important where you've got to say what is important or this what about these edge cases what" aria-label="回原文"></button>。
 
-以早晨简报为例,她把 Claude 接入 Google Calendar、Gmail、Google Drive 和 Jira 等系统。每天早上 9 点,Claude 自动拉取今天的日历事件、需要关注的 Jira 任务和邮件,并严格按照她设定的「400 字以内、只给事实不打鸡血、绝不捏造截止日期」的规则生成一份简报 <button class="pd-ts" data-t="16:29" data-who="Jyothi Nookula" data-en="of staff and i'll walk you through each one um right now so every day at 9 a.m this runs for me where i can say and i'll show you a few as well right now" aria-label="回原文"></button>。这就像雇佣了一个全天候的幕僚长,它替代了过去人们需要用 Make 等传统自动化工具一个个连线、拼框的复杂操作,现在只需用自然语言下达指令即可 <button class="pd-ts" data-t="22:08" data-who="Jyothi Nookula" data-en="and now you can just build it in claude yes and one thing it's different from all of those other ones is you would have to like paint box by box think about how the interaction works connect each of those" aria-label="回原文"></button>。
-
-除了定时任务,「技能(Skills)」是第三层的另一大杀器。Jyothi 展示了一个用于「综合分析客户访谈」的技能文件。技能本质上是一套带步骤的指南剧本,告诉 Claude 遇到这类任务该怎么做。
-
-> 【背景】传统 AI 工具调用时,会把所有工具的说明全塞进上下文窗口,极其消耗记忆。Skill 技术采用了「渐进式披露(progressive disclosure)」机制:一开始只往上下文里塞 50 个词的简短描述。当模型在思考时,如果发现这个技能对当前问题有用,才会把完整指令加载进内存。
-
-这意味着技能不会轻易塞爆上下文窗口。Jyothi 强调,虽然可以用 AI 帮你写技能文件,但人工注入自己的领域知识(比如你想用什么模板输出)至关重要,因为研究表明 AI 自动生成的技能文件效果往往不如人工写的 <button class="pd-ts" data-t="30:42" data-who="Jyothi Nookula" data-en="of handle what's in the skill file so a lot of times we do use claude to write the skill file too but it's also shown research has shown that AI generated skill file is less effective than human written skill files so" aria-label="回原文"></button>。
-
-当自动化任务和技能都搭建好后,工具算是用明白了。但如果想让 AI 真正懂你的公司、懂你身边的人,还得往下走一步——给它建一个「大脑」。
-
-## 知识库与 MCP:给 AI 装上专属大脑
-
-工具能跑了,可它依然不认识你的同事,也不懂公司的政治格局。这正是建立私有知识库(KB)要解决的问题。为了打造一个真正懂她的「幕僚长」,Jyothi 用 Claude Code 写了一个架构,把日常摄入的文档(如战略图、PRD、会议记录)提取成结构化数据存入本地文件夹 <button class="pd-ts" data-t="34:29" data-who="Jyothi Nookula" data-en="to do context in this skill so here's the thing so until now what you have done is you've connected it to sources it can go read all of those sources and go and do the task for you but it doesn't learn" aria-label="回原文"></button>。
-
-这个知识库里不仅有会议摘要,还自动维护着人物档案:记录每个同事的沟通风格、决策方式,以及他们与 Jyothi 的关系是「强力盟友」还是「摩擦点」<button class="pd-ts" data-t="41:29" data-who="Jyothi Nookula" data-en="and my vertical what are the action items and some raw notes and for people profile again extract these metadata how they operate the communication style making behavior what works or doesn't work what they care" aria-label="回原文"></button>。以前开完会,她把会议记录一扔,幕僚长不仅会自动总结,还会给出战略提醒:「这个人擅长 X,你应该让他做你的盟友」,甚至会警告「这件事极其敏感,你在通知某个人之前,必须先知会另外几个人」<button class="pd-ts" data-t="39:02" data-who="Jyothi Nookula" data-en="through my chief of staff reviewed it and then it said you know what you should make this person your ally because this person is good at x which you're trying to like get into" aria-label="回原文"></button>。这种深刻的组织理解,让 AI 真正变成了私人高参。
-
-> 【背景】MCP(Model Context Protocol,模型上下文协议)是让外部数据源或工具与 AI 大模型安全通信的开放标准。
-
-为了随时随地调用这个存放在本地的知识库,Jyothi 把它部署成了一个本地 [[mcp|MCP]] 服务器。这样做的好处是数据极其隐私(离开公司时直接带走电脑即可),同时你在桌面端开个聊天窗口,就能直接问它:「我明天要见经理,该注意什么?」AI 会从知识库里翻出经理的风格(比如「他是个习惯先说不的人,别铺垫,直接切入正题」)给你建议 <button class="pd-ts" data-t="47:33" data-who="Jyothi Nookula" data-en="so i um i don't even go look into the .md files i just ask desktop um claude saying hey i'm going to meet my manager one-on-one tomorrow what should i know and it will go and dig up all the context in the knowledge base and say here are all" aria-label="回原文"></button>。
-
-有了自动化的工作流,又给 AI 装上了懂人情的「大脑」,基础设施已经彻底搭好。接下来的终极问题是:能不能让 AI 自己去测试、去迭代,甚至自己攻击自己?
-
-## 第五层:用 Claude Code 打造自我进化的对抗智能体
-
-一切铺垫就绪,我们终于来到了本集开篇的那个悬念:Jyothi 是怎么赢下黑客马拉松的?答案是用 Claude Code 构建了一个对抗性智能体评估器。
-
-这套系统借鉴了 GAN(生成式对抗网络)的思想。简单来说,你先写一个执行任务的「生成器智能体」(比如一个客服机器人),然后再写一个「对抗智能体」(红队测试员)。对抗智能体的唯一任务,就是想尽办法去攻击、诱导、破坏生成器智能体。如果生成器没顶住,它的系统提示词就会被自动打回重写,直到它能扛住所有对抗攻击为止 <button class="pd-ts" data-t="78:07" data-who="Jyothi Nookula" data-en="for example got it so how are adversarial agents looking so let's see it's built and here's the gan inspired architecture uh let's go and see you can see it's built" aria-label="回原文"></button>。
-
-现场演示中,Jyothi 设置了及格线(平均分大于 8 分,最多迭代 5 次)。在测试一个较弱的支持机器人时,第一轮它得了 8.52 分,但在面对「格式冲突攻击」时屈服了,没通过测试。系统自动打回,改进提示词后,在第三次迭代中拿到了 9.08 分,成功过关 <button class="pd-ts" data-t="90:45" data-who="Jyothi Nookula" data-en="okay so it's come up it's done a few iterations so you see in first iteration it was it scored an 8.52 but the agent caved on some format conflict attacks so it didn't pass it went back to" aria-label="回原文"></button>。这种自动化的红队测试循环,正是她夺冠的秘密武器。
-
-工具越来越强大,未来 PM 这个岗位本身会怎样?这正是最后一个话题。
-
-## PM 的未来:成为会构建的「AI Builder」
-
-工具变了,对人的要求也变了。Jyothi 观察到,行业里正在出现一种名为「AI Builder」或「技术团队成员」的新角色,工程师、PM、设计师的界限正在合并。以前 1 个 PM 配 8 个工程师,以后可能是 2 个 PM 配 1 个工程师。PM 自己就能拉着 Claude Code 去处理用户反馈、写代码、提 PR <button class="pd-ts" data-t="73:23" data-who="Jyothi Nookula" data-en="and developer line begin in 2026 different companies are trying it in different ways now there's this new role coming up called ai builder or you can see it as a member of technical staff" aria-label="回原文"></button>。
-
-在最近的求职面试中,Jyothi 发现面试流程变了。除了传统的「产品直觉」和「行为面试」,现在多了一轮「AI 基础」和一轮「实战写代码」。面试官会让你打开 IDE,现场用 Claude 把一个想法写出来。他们不仅看你写得快不快,更看你在面对 AI 时,是全盘盲信第一版结果,还是会仔细审视边界情况,像牧羊犬一样把 AI 引导到正确的方向上 <button class="pd-ts" data-t="76:36" data-who="Jyothi Nookula" data-en="you also have an ai round as well now where you're asked to code your idea so like in product sense whatever idea i would have come up" aria-label="回原文"></button>。
-
-Jyothi 给转型者的建议是:别只做一锤子买卖的项目,要把平时用 vibe coding(纯凭直觉用自然语言让 AI 写代码)做出来的小玩意儿当成真正的产品去做,找真实用户来用,收集反馈不断迭代。现在的核心壁垒不再是「会不会写代码」,而是你有没有「品味」去发现问题,并判断什么是好产品 <button class="pd-ts" data-t="80:00" data-who="Jyothi Nookula" data-en="and building is easy now taste is what is important for us to develop what should that was real feedback iterate on something okay there are a couple of options for now i'm saying just iterate on" aria-label="回原文"></button>。
+懂得搭建自动进化系统的人,在职场上正变成一种全新的物种。Jyothi 提到,像 Anthropic 和 OpenAI 都在推行一个叫「AI builder」(或 technical staff)的新角色,工程师、设计师、PM 的边界正在消融 <button class="pd-ts" data-t="73:23" data-who="Jyothi Nookula" data-en="and developer line begin in 2026 different companies are trying it in different ways now there's this new role coming up called ai builder or you can see it as a member of technical staff" aria-label="回原文"></button>。以前一个 PM 配 8 个工程师,现在变成了 2 个 PM 配 1 个工程师。在最近的高级 PM 面试中,除了传统的产品直觉环节,还多加了「AI 环」:面试官会直接丢个 Cursor(一种 AI 编程工具)给你,让你当场把脑子里的产品原型 vibe coding(凭直觉手搓代码)出来 <button class="pd-ts" data-t="76:30" data-who="Jyothi Nookula" data-en="so you have product sense, product analytics, behavioral interview but you also have an ai round as well now where you're asked to code your idea so like" aria-label="回原文"></button>。他们考的不是你代码写得好不好,而是看你拿到 AI 吐出的第一版答案时,会不会去挑刺边缘情况,还是傻乎乎全盘接受 <button class="pd-ts" data-t="77:06" data-who="Jyothi Nookula" data-en="am I just taking the first thing that the AI tells me as like this is great and wrapping it up or am I looking through things to say okay this is good but what about this edge case this works well but what" aria-label="回原文"></button>。所以她的终极建议是:别光做练手项目了,把你身边真实的痛点做成产品丢出去,拿到真实用户的骂声,这才是新时代产品人最硬的敲门砖 <button class="pd-ts" data-t="81:17" data-who="Jyothi Nookula" data-en="the basics um vibe coding is building right there's no shortcut to it just build um and i always say this don't build them as projects treat them as products like find problems in your area find problems that are" aria-label="回原文"></button>。
 
 ## 本集带走
 
-1. **模型与界面要分层对待**:Opus 擅长深度推理但容易卡在死胡同里,日常 90% 的活儿用 Sonnet 性价比最高;同理,需要碰本地文件的自动化任务别用网页版,交给桌面应用或 Claude Code 扩展。
-2. **AI 不只是聊天机器人,装上「大脑」才能懂人情世故**:利用 MCP 把本地文档、会议纪要变成私有知识库,AI 就能从「只会写总结的机器」变成提醒你「这个同事很敏感,发邮件前先知会他」的私人战略顾问。
-3. **别盲信 AI 的第一版输出**:未来的核心竞争力是「品味」。代码谁都能让 AI 写,但能否敏锐发现问题、给 AI 设定严格的护栏、甚至构建一个对抗智能体去自我纠错,才是区分普通 PM 和 AI Builder 的关键。
+最后收个尾,这一集值得带走的是三个实操思路。第一,Claude 全家桶不是单纯的聊天框,你得把它当成一套五层系统来运营:挑对主力模型(大概率是 Sonnet),在桌面端用大白话设定好每日自动化简报任务,把琐事全甩给它。第二,真正懂你的 AI,需要你亲手喂出来的本地知识库:用 Claude Code 搭个只有你能访问的本地库,把每天的会议纪要和文档死磕进去,它会帮你画清办公室的人际图谱,甚至在你发飙前提醒你先搞定哪个利益相关方。第三,想做出好产品,别只会盲信 AI 给的第一版答案,搭一个「对抗智能体」去疯狂攻击它,逼着它改提示词,在自我攻防里把边缘场景全扫平——这恰恰是 2026 年新物种「AI builder」面试时最看重的能力。
 
-<div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>8 条(中英对照,已过机器闸门)</span></div>
 
-> <span class="qz">我认为这是大多数 PM 投入不足的一层,正是这一层让 Claude 从一个通用的聊天机器人变成真正了解你的上下文。</span>  
-> *the layer that i think most pms under invest in it's this layer that makes claude go from being a generic chatbot to actually knowing your context*  
-> <span class="qm">—— Jyothi Nookula · [06:05]</span> ^q1
+> <span class="qz">理解针对哪个用例选择哪个界面,成为了一项核心的 PM 技能,这将帮助你变得效率提升 10 倍</span>  
+> *understanding which surface to reach for which use case becomes one of the core pm skills that will help you become 10x more effective*  
+> <span class="qm">—— Jyothi Nookula · [05:39]</span> ^q1
 
-> <span class="qz">现在构建变得容易了,品味才是我们需要培养的重要东西。</span>  
-> *building is easy now taste is what is important for us to develop*  
-> <span class="qm">—— Jyothi Nookula · [79:57]</span> ^q2
+> <span class="qz">这是我认为大多数 PM 投入不足的层,正是这一层让 Claude 从一个通用的聊天机器人变成真正了解你的上下文</span>  
+> *this is the layer that i think most pms under invest in it's this layer that makes claude go from being a generic chatbot to actually knowing your context*  
+> <span class="qm">—— Jyothi Nookula · [06:05]</span> ^q2
 
-> <span class="qz">以前一个产品经理配八个工程师,现在变成了两个产品经理配一个工程师,所以角色也在迅速合并。</span>  
-> *previously if you see one product manager works with eight engineers now it's like two product managers one engineer so the roles are also like collapsing quickly*  
-> <span class="qm">—— Jyothi Nookula · [73:53]</span> ^q3
+> <span class="qz">研究表明,AI 生成的技能文件不如人工编写的技能文件有效</span>  
+> *research has shown that AI generated skill file is less effective than human written skill files*  
+> <span class="qm">—— Jyothi Nookula · [30:46]</span> ^q3
 
-> <span class="qz">我是不是把 AI 告诉我的第一件事就当作『这很棒』然后直接收尾,还是我在审视这些事情并说『好吧这很好,但是这种边缘情况怎么办』</span>  
-> *am I just taking the first thing that the AI tells me as like this is great and wrapping it up or am I looking through things to say okay this is good but what about this edge case*  
-> <span class="qm">—— Jyothi Nookula · [76:59]</span> ^q4
+> <span class="qz">它说这个人是一个以「不」开头的人,所以你应该直接切入正题,而不是围绕它做大量的前言铺垫</span>  
+> *it said this person is a no first person and so you should just get to it versus preambling a lot around it*  
+> <span class="qm">—— Jyothi Nookula · [47:49]</span> ^q4
 
-> <span class="qz">不要把它们当成项目来做,要把它们当成产品。去你所在的领域发现问题,找那些足够棘手、让你想去构建解决方案的问题,去构建解决方案,然后看看还有谁想要这样的东西,让他们来用你的产品。</span>  
-> *don't build them as projects treat them as products like find problems in your area find problems that are finicky enough for you to want to go build a solution go build solution and see who else wants something like this have them come and use your product*  
-> <span class="qm">—— Jyothi Nookula · [81:18]</span> ^q5
+> <span class="qz">构建现在变得容易了,品味才是我们要开发的重要东西</span>  
+> *and building is easy now taste is what is important for us to develop*  
+> <span class="qm">—— Jyothi Nookula · [79:57]</span> ^q5
 
-> <span class="qz">这就是你不仅仅是在构建一个智能体,你实际上是在构建另一个评估器,用不同的方式去攻破这个智能体。</span>  
-> *this is where you're not just building an agent you're actually building another evaluator to go break this agent in different ways*  
+> <span class="qz">这就是你不仅仅是在构建一个智能体,你实际上是在构建另一个评估器以不同的方式去攻破这个智能体,这对你来说很重要</span>  
+> *this is where you're not just building an agent you're actually building another evaluator to go break this agent in different ways that's important for you to know about*  
 > <span class="qm">—— Jyothi Nookula · [91:25]</span> ^q6
+
+> <span class="qz">我是不是把 AI 告诉我的第一件事就当作「这很棒」并且把它收尾,还是我在审视这些事情说好吧这很好,但是这种边缘情况怎么办</span>  
+> *am I just taking the first thing that the AI tells me as like this is great and wrapping it up or am I looking through things to say okay this is good but what about this edge case*  
+> <span class="qm">—— Jyothi Nookula · [76:59]</span> ^q7
+
+> <span class="qz">不要把它们当作项目来对待,要把它们当作产品</span>  
+> *don't build them as projects treat them as products*  
+> <span class="qm">—— Jyothi Nookula · [81:18]</span> ^q8
 
 <div class="pd-sec">接着看</div>
 
@@ -136,8 +104,8 @@ Jyothi 给转型者的建议是:别只做一锤子买卖的项目,要把平时�
 
 **顺着「智能体」挖下去**
 
-- [[2026-singju-openclaw-80apps|OpenClaw创始人：为何80%的应用将消失]] —— 同概念:Claude Code、MCP、智能体 (agent)
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得]] —— 同概念:Claude Code、智能体 (agent)
+- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]] —— 同概念:Claude Code、MCP、智能体 (agent)
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]] —— 同概念:Claude Code、智能体 (agent)
 - [[2026-06-22-latent-space-gray-swan|让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏]] —— 同公司:Claude · 同概念:智能体 (agent)、红队测试 (red teaming)
 
 </div>
@@ -145,9 +113,9 @@ Jyothi 给转型者的建议是:别只做一锤子买卖的项目,要把平时�
 
 **换个口味**
 
-- [[2026-07-26-lennys-anthropics-first-technical-pm-on|evals 是新的 PRD:Anthropic 产品负责人 Diane Penn 谈 AI 时代的产品经]] —— 同公司:Claude · 同概念:Claude Code、技能 (skills)、MCP
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品]] —— 同概念:Claude Code、智能体 (agent)、vibe coding
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同概念:Claude Code、智能体 (agent)
+- [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]] —— 同公司:Claude · 同概念:Claude Code、技能 (skills)、MCP
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder]] —— 同概念:Claude Code、智能体 (agent)、vibe coding
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同概念:Claude Code、智能体 (agent)
 
 </div>
 </div>

@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷》]]**(27:12起):本集借用金融概念提出的管理框架：高 alpha 的人（能带来超额回报）和低 beta 的人（稳定可靠）都很有价值。组织中的流程存在的唯一目的就是降低 beta（减少产出波动），但代价是会抑制 alpha（压制创新）。
+- **[[2025-12-28-lennys-10-contrarian-leadership-truths|《故意让人手不足:Rippling 首席产品官的非常规管理心法》]]**(27:12起):本集借用金融概念提出的管理框架：高 alpha 的人（能带来超额回报）和低 beta 的人（稳定可靠）都很有价值。组织中的流程存在的唯一目的就是降低 beta（减少产出波动），但代价是会抑制 alpha（压制创新）。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2025-12-28-lennys-10-contrarian-leadership-truths|《Rippling高管Matt MacInnis:成就伟业,你必须时刻保持极度紧绷》]] — 作为概念
+- [[2025-12-28-lennys-10-contrarian-leadership-truths|《故意让人手不足:Rippling 首席产品官的非常规管理心法》]] — 作为概念
 
 ## ③ 关联
 

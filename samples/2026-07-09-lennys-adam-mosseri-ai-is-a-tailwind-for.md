@@ -1,5 +1,5 @@
 ---
-title: Adam Mosseri：AI 时代的团队重组与产品品味
+title: Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来
 podcast: "Lenny's Podcast"
 date: 2026-07-09
 source_url: https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for
@@ -7,7 +7,7 @@ duration: "68:26"
 type: episode
 cover: "#6366f1"
 image: "/covers/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for.jpg"
-description: Instagram 负责人 Adam Mosseri 聊 AI 如何重塑团队、品味与推荐算法。
+description: "Instagram 负责人详解 AI 如何重塑产品团队、改变工程师角色,以及如何看待 AI 内容与人类创造力。"
 host: "[[Lenny]]"
 cohosts: ["[[Adam Mosseri]]"]
 companies: ["[[instagram]]", "[[TikTok]]", "[[Anthropic]]"]
@@ -18,9 +18,9 @@ tags:
   - 产品方法
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Adam Mosseri：AI 时代的团队重组与产品品味</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# Adam Mosseri：AI 时代的团队重组与产品品味
+# Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来
 
 <div class="pd-byl"><b>Adam Mosseri</b> · Instagram 负责人</div>
 
@@ -28,7 +28,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我实际上非常看好设计师，因为他们往往有品味，我认为这是更难想象被自动化掉的事情</div><div class="a">Adam Mosseri · 08:38</div></div>
+<div class="pd-hook"><div class="z">不,我认为在一个更容易构建事物的世界里,品味非常重要,确保你的时间花在首先弄清楚你应该构建什么上变得更加重要。</div><div class="a">Adam Mosseri · 00:00</div></div>
 
 > [!info] 关联
 > **人物** [[Lenny]] · [[Adam Mosseri]]
@@ -39,137 +39,101 @@ tags:
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/adam-mosseri-ai-is-a-tailwind-for)
 
-<div class="pd-tldr"><b>一句话</b>Instagram 负责人 Adam Mosseri 聊 AI 如何重塑团队、品味与推荐算法。</div>
+<div class="pd-tldr"><b>一句话</b>Instagram 负责人详解 AI 如何重塑产品团队、改变工程师角色,以及如何看待 AI 内容与人类创造力。</div>
 
-本集嘉宾是 Instagram 负责人 [[Adam Mosseri|Adam Mosseri]]。他设计了早期的 Facebook 动态消息流，并在八年前接手 Instagram。在这场对谈中，他从大公司高管的视角，详细拆解了生成式 AI 正如何重塑大型产品团队的结构、技能边界以及人的核心竞争力；随后话锋一转，回归到 Instagram 平台本身，探讨了推荐算法的真正机制、AI 内容对创作者生态的冲击，以及作为平台「出气筒」的公共沟通哲学。全文大致分两条主线：前半部分谈「工具变了，团队和人才怎么变」；后半部分谈「内容生态变了，平台和产品怎么应对」。
+当 AI 把写代码变得像呼吸一样容易时,公司里最该焦虑的不是写代码的人,而是那些不知道该让 AI 去写什么的人。说这话的是 [[Adam Mosseri|Adam Mosseri]],掌管着一个每月被全球三十亿人使用的社交平台 Instagram <button class="pd-ts" data-t="01:16" data-who="Lenny" data-en="so today my guest is adam masseri head of instagram over three billion people use instagram monthly that's one" aria-label="回原文"></button>。
 
-## AI 时代的团队重组：通才崛起与品味的胜利
+这一集 [[Lenny|Lenny]] 的播客访谈里,Adam 聊了五件事:团队结构正在经历怎样的剧变,工程师和设计师的角色怎么重新洗牌;当 AI 能写大部分代码时,人类的大脑最该花在什么地方;Instagram 算法究竟「懂不懂」你,[[合成内容|合成内容]](由 AI 生成的音视频)的崛起对平台是福是祸;以及在各种争议漩涡里,他作为一个掌舵人怎么权衡、怎么熬过来。最后他还聊到了怎么跟自己 10 岁的儿子一起用 AI 做游戏。
 
-谈完了背景，我们来看看工具的剧变是如何重塑 Meta 内部的团队结构的。Adam 首先拆解了 Instagram 今年的团队组织大换血。过去很长一段时间里，像他们这样的大公司里，标准的产品团队配置通常是：两三个 Android 工程师、两三个 iOS 工程师、两三个后端工程师，外加一个通才、一个 PM（产品经理）、一个设计师、一个数据科学家，甚至还有一个用研人员——加起来差不多十几个人。这种庞大且细分的配置，本质上是为了保证每个写代码的人都有懂这块代码库的同事来审查 <button class="pd-ts" data-t="02:33" data-who="Adam Mosseri" data-en="in how teams operate slash should operate versus say a couple years ago it's changed a lot this year so for the longest time at a big company like ours the canonical team was something like two or three android engineers two" aria-label="回原文"></button>。
+先说团队结构正在经历的那场剧变。以前大公司里的标准团队配置,是按「写代码的人必须有个懂这套代码库的人来审查」这个逻辑设计的——光是安卓工程师、iOS 工程师、服务器工程师加起来,再加上项目经理(PM)、设计师、数据科学家等,怎么也得凑足一打人 <button class="pd-ts" data-t="02:33" data-who="Adam Mosseri" data-en="in how teams operate slash should operate versus say a couple years ago it's changed a lot this year so for the longest time at a big company like ours the canonical team was something like two or three android engineers two" aria-label="回原文"></button>。Adam 说,今年(2026 年)开始,Instagram 把这种十几人的大组,换成了所谓的 Pods(迷你团队)——通常只有四到六个更偏通才的工程师,加上一个叫「[[产品人员|产品人员]](Product Staff)」的角色 <button class="pd-ts" data-t="03:14" data-who="Adam Mosseri" data-en="that are more specialized you know i think it's very different at a startup but this year it's changing we've adopted what we call pods which are just mini teams where it's call it four to six engineers who are" aria-label="回原文"></button>。这个产品人员其实就是传统 PM 的进化版:借助内部提供的最新 AI 工具,一个人就能包揽一部分原本需要数据科学家做的工作(比如跑个转化漏斗看用户在哪一步流失),甚至做一些设计和调研的活儿 <button class="pd-ts" data-t="06:14" data-who="Adam Mosseri" data-en="of those things i mean what's clearly happening is all the functions are starting to bleed into each other and the whole industry is wrestling with what that means you know" aria-label="回原文"></button>。那些高度专精的岗位并没有消失,只是变成了「按需调用」的精锐——比如遇到定价策略需要深挖时,再请一位资深数据科学家入局。这么一改,需要协调的人少了,团队往往跑得更快,「委员会式设计」带来的折中也少了 <button class="pd-ts" data-t="04:13" data-who="Adam Mosseri" data-en="a very big shift that's just happening to us this year but they just by virtue of having less people to coordinate they can often move faster and make um better decisions a little bit less designed by committee so we talk" aria-label="回原文"></button>。
 
-但今年，这套体系被打破了。Adam 透露，他们开始全面采用被称为 Pods（迷你小队）的架构。新团队通常只有四到六名更偏向通才的工程师，外加一个名为 product staff（[[产品人员|产品人员]]）的角色 <button class="pd-ts" data-t="03:14" data-who="Adam Mosseri" data-en="that are more specialized you know i think it's very different at a startup but this year it's changing we've adopted what we call pods which are just mini teams where it's call it four to six engineers who are" aria-label="回原文"></button>。
+职能边界一旦被 AI 打通,谁上谁下就成了最现实的问题。顺着刚才团队结构的剧变往下看,设计师这个群体的焦虑最显眼。但 Adam 反而非常看好设计师的前景,理由是:在一个东西越造越容易的世界里,「[[品味|品味]]」(知道该造什么、怎么判断好坏)变得前所未有地重要,而设计师恰好是最懂品味的人 <button class="pd-ts" data-t="07:53" data-who="Adam Mosseri" data-en="from end to end and people deep expertise in a very specific domain the tasting matters a lot i really agree with that boris used to work at instagram um oh that's right yeah he was a senior ic at instagram for a" aria-label="回原文"></button>。他甚至预言,以后最强的一批「产品人员」会是从设计师和数据科学家转岗而来的通才——他们以前就在跨界施加影响,现在边界模糊了,正好可以名正言顺地跳进来 <button class="pd-ts" data-t="10:14" data-who="Adam Mosseri" data-en="on product strategy even on the business on the go-to-market and so i actually think some of our strongest product staff are going to be converts from design and from data science who are just looking to expand their reach" aria-label="回原文"></button>。
 
-> 【背景】这里的 product staff 可以理解为传统产品经理（PM）的进化版。在 AI 工具的辅助下，这个人不仅能做 PM 的活儿，还能顺手干一部分设计师、数据科学家和研究员的工作。
+这种职能的融合对人的要求也变了。Adam 在面试时最看重的三样底线始终没变:有内驱力、学得快、有自我认知(这样你才能听得进反馈,知道自己行在哪不行在哪) <button class="pd-ts" data-t="14:19" data-who="Adam Mosseri" data-en="i mean there are some things that are the same right so for the longest time almost no matter what the function i always look for three things do you have sort of grit like you know you're kind" aria-label="回原文"></button>。但面向接下来的五到十年,他又加了两条更看重的特质:保持好奇心,以及敢于把自己推出去试错。他打了个很妙的比方:就像学外语,你能不能快速变好,很大程度上取决于你愿不愿意「听起来像个白痴」——敢开口、敢被纠正、不觉得丢脸 <button class="pd-ts" data-t="15:26" data-who="Adam Mosseri" data-en="to try things it's almost i don't know do you speak another language uh russian yeah yeah so when you learn another language i think one of the most important things one" aria-label="回原文"></button>。面对层出不穷的 AI 新工具,如果你怕犯错不敢试,那就真的麻烦了。Adam 自己就是个活生生的例子:他本是设计师出身,进了 Facebook 后也有十年没正经写过代码,顶多算个平庸的工程师。但现在靠 AI 辅助,他终于又能负责任地写代码了 <button class="pd-ts" data-t="18:11" data-who="Adam Mosseri" data-en="and then all of a sudden they can like you know i it's for me it's kind of funny because when i get hired at facebook we all the designers had to be able to program that was like our i had i went through" aria-label="回原文"></button>。
 
-团队变小了，专才自然就变少了。以前那种配置完整的数据科学家或设计师岗位，现在可能直接没有。为什么？因为 AI 极大地降低了跨职能工作的门槛。Adam 举了个例子：以前要做一个「用户流失漏斗分析」（查看用户在创建视频的哪一步流失了），需要数据科学家花大量时间去定制化拉取数据；现在有了内部 AI 工具，产品人员自己点点就能自动生成 <button class="pd-ts" data-t="06:40" data-who="Adam Mosseri" data-en="you know so some of the tools that we're building internally to understand for instance a traditional data science question would be a waterfall so if you wanted to look at people creating reels you would look at all the steps and" aria-label="回原文"></button>。当基础的数据拉取和代码编写被机器接管，专才的价值就开始往两极分化：要么往深度走，解决极度复杂的定价策略或前沿体验设计问题；要么往广度走，成为横跨多领域的超级通才。
+说完了人怎么变,接下来的问题是:人的脑子到底该用来干嘛?主持人抛出一个很多人都在问的问题——随着软件开发生命周期被 AI 一口口吞掉,人脑在哪里继续最有价值?Adam 给出的答案是:判断力,特别是围绕战略的判断力 <button class="pd-ts" data-t="24:06" data-who="Adam Mosseri" data-en="that product development lifecycle taste like we talked about um judgment particularly around strategy right like you're you're not you might get feedback from an ai on a strategy but you're not asking an ai" aria-label="回原文"></button>。未来你可能会让 AI 帮你出谋划策,但不太可能让它凭空给你定个战略。Adam 的原话是,愿景是对你想达到的产品状态的描述,而战略则是实现愿景的一条「有态度的路径」——好的战略必须有点争议性,理性的人应该能反驳它;如果连战略都是四平八稳的大白话,那你大概率只是在拼体力执行 <button class="pd-ts" data-t="25:18" data-who="Adam Mosseri" data-en="about building something but deciding what you build in the first place um but i think of i think of vision as an articulation of the world or the or the state of the product you want to get to and i think of strategy as" aria-label="回原文"></button>。
 
-在这种重塑中，设计师这个群体的命运让 [[Lenny|Lenny]] 感到好奇，因为当前很多科技公司的设计岗位招聘几乎停滞。但 Adam 却反直觉地表示：他极度看好设计师的前景。原因在于，当「把东西做出来」变得越来越容易，甚至不同 AI 工具产出的代码都自带特定的「塑料感」时（他能一眼看出某段代码是用 Codex 还是 Cloud 写的 <button class="pd-ts" data-t="09:05" data-who="Adam Mosseri" data-en="as it is so easy to build and all the work that ai produces is so like you can tell this was clod design i know what you did here this is codex well they all have their vibe right like you know your vibe code your apps we call" aria-label="回原文"></button>），真正的稀缺资源变成了「[[品味|品味]]」 <button class="pd-ts" data-t="07:53" data-who="Adam Mosseri" data-en="from end to end and people deep expertise in a very specific domain the tasting matters a lot i really agree with that boris used to work at instagram um oh that's right yeah he was a senior ic at instagram for a" aria-label="回原文"></button>。
+这里有个反直觉的提醒:别以为把一堆市场数据喂给 AI,它就能吐出一个好战略。Adam 亲自试过,发现除非你非常强势地引导它,否则它给出的东西往往平庸可预测,全是竞争对手早料到你会出的牌 <button class="pd-ts" data-t="26:15" data-who="Adam Mosseri" data-en="me figure out how to win you think ai knowing all that would be really good at this i think it could be i have found it's not unless you steer it pretty aggressively" aria-label="回原文"></button>。真正的战略需要掂量的东西太多:技术现状、团队人员、什么能吸引顶尖人才、竞争与合规环境,甚至品牌存在的理由。你得把这些约束条件想透,通过不断的来回对话引导 AI 去思考。顺便提一句,Adam 很欣赏那种敢于跟人「顶嘴」、不盲从讨好的 AI 模型,因为他要的是真正的智能碰撞,而不是一个只会说「您说得对」的马屁精 <button class="pd-ts" data-t="27:42" data-who="Adam Mosseri" data-en="on how willing they are to be pushed back so i i recommend picking one that likes pushing back yeah mythos has gotten really good at being like i can't do this let's let's move" aria-label="回原文"></button>。
 
-> 【背景】品味在这里指的是对产品策略、商业走向甚至交互视觉的综合审美与判断力。
+工具变了,Instagram 的产品逻辑变没变?既然聊到了人该怎么用 AI,那作为全球最大社交平台之一的 Instagram,自己又是怎么对付算法和铺天盖地的 AI 内容的?这就要说到 Adam 揭示的一个关于算法的最大误解:很多人以为,系统对你有着极度细致的语义理解,知道你喜欢冲浪、懂你的偏好。但真相是,过去十几年推动推荐系统进步的核心技术——大型[[嵌入模型|嵌入模型]](把内容转化为机器能算的数学向量)——产生的其实是人类根本看不懂的产物,它只是一堆跟冲浪相关的「巨大的数字」,并不「理解」冲浪是什么 <button class="pd-ts" data-t="34:36" data-who="Adam Mosseri" data-en="about human behavior that people may not realize one of the most common misconceptions is actually in the opposite direction i think people assume that there's" aria-label="回原文"></button>。所谓「它懂你」,其实是种错觉:它只是发现你点赞过一批照片,而另一群人也点赞了这些照片且还喜欢别的,就猜你可能也喜欢那些别的 <button class="pd-ts" data-t="37:45" data-who="Adam Mosseri" data-en="we don't really know as much about you as you think we're just like oh like you liked these photos this these people also like those same photos and they like these other photos" aria-label="回原文"></button>。
 
-在 AI 能轻易填补机械技能鸿沟的世界里，设计师不再需要死磕代码实现，而是可以把精力集中在「决定到底该造什么」上。Adam 甚至自己就是最好的例子：作为一个十多年没怎么写过代码的设计师，他现在借助 AI 又能负责任地写代码了，哪怕他自己只是个平庸的工程师 <button class="pd-ts" data-t="18:14" data-who="Adam Mosseri" data-en="it's for me it's kind of funny because when i get hired at facebook we all the designers had to be able to program that was like our i had i went through a technical loop we gave up on that because it was too hard to hire people um" aria-label="回原文"></button>。
+但这正在改变。随着大语言模型(LLM)的加入,机器终于能尝试把那些晦涩的数字向量,翻译成人类能懂的英语标签。Instagram 最近就在推一个叫「你的算法」的功能:它用语言模型去描述你的兴趣图谱(比如发现你沉迷于「深度手冲咖啡」),让你能直观地看到系统给你画了啥像,甚至允许你主动增删、调整这些兴趣 <button class="pd-ts" data-t="35:58" data-who="Adam Mosseri" data-en="are at least proximate to if not mean directly right so this is like the thing i've been really i posted about this this week this thing called your algorithm basically the idea is we take" aria-label="回原文"></button>。这背后的逻辑是:在一个推荐内容逐渐接管社交媒体的世界里,必须把一部分掌控权还给用户。
 
-既然团队和技能边界都在大变，那人才选拔的标准自然也得跟着变。这就引出了 Adam 对未来核心竞争力的判断。
+还有一个绕不开的争议:纯按时间排序的信息流到底好不好?很多人喊着要「只看关注的人、按时间排序」,Adam 承认这很难办。因为如果真这么干,鼓励的机制就是疯狂发帖——谁发得勤、发得多,谁就永远趴在别人屏幕顶端。结果就是,你的信息流会被《纽约时报》这种每天能炮制几十条的专业机构和大公司彻底淹没,你好朋友的内容反而永远挤不进去 <button class="pd-ts" data-t="38:50" data-who="Adam Mosseri" data-en="with the chronological feed so one is and some of this is the tension between an individual's interests and what works when you scale it up right so if you do a pure chronological feed the incentive for everybody is to just post" aria-label="回原文"></button>。测试表明,一旦真改成按时间排序,不仅整体使用量下降,用户的整体满意度也会随着被无感内容轰炸而持续走低 <button class="pd-ts" data-t="40:24" data-who="Adam Mosseri" data-en="the right balance i want to give people agency over the experience but i think it needs to be in a way that creates a system that makes sense not just for us as a business which matters i'm not pretending that's not an issue but also" aria-label="回原文"></button>。
 
-## 工具狂飙之下：人的核心竞争力是什么
+面对 AI 生成的合成内容大爆发,平台会被淹没吗?顺着内容分发的逻辑往下看,现在最紧迫的问题显然是 AI 生成内容。Adam 判断,这对 Instagram 来说利大于弊——它是顺风,但也是个挑战 <button class="pd-ts" data-t="41:15" data-who="Adam Mosseri" data-en="for instagram versus other platforms do you think this helps or hurts you guys i think it's going to be a tailwind but i think it's going to be a challenge it's and not just because it's more content obviously we're" aria-label="回原文"></button>。原因在于,在一个充斥着海量合成内容的世界里,人们反而会更渴望、而不是更排斥真实的创造力和活生生的人。
 
-说完了团队组织结构的演变，我们自然要问：在这个阶段，什么样的人能脱颖而出？
+Adam 澄清了一个关键立场:平台不应该用「是不是 AI 做的」来给内容贴好坏标签。他个人非常喜欢一些纯 AI 创作者的作品(他特别举了用芭比娃娃唱歌、具有强烈独特审美的 AI 视频账号为例 <button class="pd-ts" data-t="45:11" data-who="Adam Mosseri" data-en="these ai videos yeah what is she called plastic plastic dream sequence is that what it is um i think check it out check the name yeah classic g uh um classic dream sequence i have it on my" aria-label="回原文"></button>)。Instagram 的做法是:不封杀 AI 内容,但要把选择权交给用户——不仅要让你知道某条内容是不是 AI 生成的,还要让你知道发帖的账号到底靠不靠谱(比如这个账号建了几天、改过几次资料) <button class="pd-ts" data-t="44:31" data-who="Adam Mosseri" data-en="the person behind the content like i don't i don't think we should filter out ai content i think we should let you know if content is ai content or not i think we should let you know more about" aria-label="回原文"></button>。检测 AI 内容技术上越来越难,所以将来甚至可能反过来:专门给「相机实拍」的非 AI 内容打上认证标签 <button class="pd-ts" data-t="47:08" data-who="Adam Mosseri" data-en="or it's definitely not or definitely is i actually think we might be more practical to label camera captured content like basically non-ai content as opposed to labeling ai content long term for a couple reasons but then at" aria-label="回原文"></button>。
 
-Adam 给出的招聘底线依然没变：有自驱力、学习快、且有自知之明 <button class="pd-ts" data-t="14:17" data-who="Adam Mosseri" data-en="and maybe less important to you i mean there are some things that are the same right so for the longest time almost no matter what the function i always look" aria-label="回原文"></button>。但他特别强调，在未来 5 到 10 年，有两个特质的溢价会越来越高：**保持好奇心和敢于把自己推出去（试错）**。
+作为一个常年身处争议中心的老兵,Adam 怎么看待变革与阵痛?产品要改、算法要变,自然就伴随着巨大的争议。Adam 坦言自己成了 Instagram 所有争议的「门面」(Face)。这始于他早年负责 Facebook 动态消息(News Feed)时——当时他认为,争议总会发生,与其躲着不如主动参与,于是开始跑到记者扎堆的 Twitter 上去迎战批评,结果把自己活成了关注列表里「最黑暗的地方」<button class="pd-ts" data-t="52:38" data-who="Adam Mosseri" data-en="and get in there like where does that come from it started on newsfeed so i used to run newsfeed at facebook and i my take was that the debate was going to happen with or without us so we might as well participate" aria-label="回原文"></button>。
 
-他打了个绝妙的比方：就像学外语，能不能学好的最强预测指标，其实是你愿不愿意在刚开始时「像个白痴一样开口说」 <button class="pd-ts" data-t="15:30" data-who="Adam Mosseri" data-en="yeah so when you learn another language i think one of the most important things one of the best predictors this is my guess i don't have any research on this about you know are you gonna get good at speaking is are you willing to sound like" aria-label="回原文"></button>。在 AI 时代也是如此，工具的迭代速度太快了，没人能完全看懂全局。面对各种新模型和新范式，如果你害怕犯错、不敢去碰，就会陷入大麻烦；相反，那些乐于折腾、不怕出丑的人，才能跑通新工具的边界。
+这种变革必然伴随试错和挨骂。他提到一次著名的「全网抗议」:其实只是个只推给极小部分用户的早期测试,却跟平台力推 Reels 和推荐内容的动作撞车,加上一些大创作者抱怨流量下降,被媒体一渲染引发了连锁反应。Adam 毫不讳言自己「推得太猛了」,但他宁可每隔几年挨一次骂也要持续进化,也不愿守着一个没视频、没排名系统的僵尸产品 <button class="pd-ts" data-t="56:50" data-who="Adam Mosseri" data-en="of what helped you decide okay let's change course so actually that one got that one three or four things got conflated we had to redesign a feed that went to the video viewer that was a test to four percent of users on ios it was" aria-label="回原文"></button>。
 
-那除了折腾工具，人脑应该把算力集中在哪？主持人与嘉宾在这里碰撞出了一个关键判断：**人脑的价值正在从「执行」向「愿景与战略」上移**。
+Adam 也分享了自己处理漫天仇恨的方法:换位思考。当年 25 岁的他作为设计师操刀了 Facebook 信息流改版,上线迎来的第一条评论就是充满侮辱性的恶毒谩骂。他后来想通了:这就好比你每天在桌前花大把时间整理照片、写信,突然有天有人跑来一声不吭把你桌子全翻新了,你不火大才怪——数十亿人的「桌子」被你改了,有点情绪太正常了 <button class="pd-ts" data-t="54:56" data-who="Adam Mosseri" data-en="at you every time you say something that people disagree with you try to put it in perspective right you know like so it started with i did the redesign of newsfeed" aria-label="回原文"></button>。
 
-Lenny 提出一个普遍的误解：既然 AI 掌握了所有的市场数据、竞品信息和增长指标，它应该极其擅长做战略规划吧？Adam 猛烈反驳了这一点。他认为，如果你只是慵懒地把问题抛给 AI，它只会给你一个极其平庸、四平八稳的策略，而这恰恰是竞争对手也能猜到的 <button class="pd-ts" data-t="26:19" data-who="Adam Mosseri" data-en="i think it could be i have found it's not unless you steer it pretty aggressively and i don't mean towards an answer i mean based on the constraints it turns out" aria-label="回原文"></button>。
-
-真正的好战略必须是「有争议的」。制定战略需要通盘考虑技术现状、团队人才的隐性动机、竞争对手的动态，甚至品牌存在的理由。你需要极其强硬地把这些复杂的约束条件喂给 AI，并选择一个敢于跟你唱反调的模型（比如 Anthropic 的 Mythos，Adam 很欣赏它的「混蛋」脾气，而不是一味迎合讨好），在来回拉扯中逼近真相 <button class="pd-ts" data-t="27:37" data-who="Adam Mosseri" data-en="to be critical different models have very different vibes though on how willing they are to be pushed back so i i recommend picking one that likes pushing back" aria-label="回原文"></button>。这种在高度模糊中对「战略路径」的主观把控，正是人脑不可替代的护城河。
-
-讨论完了宏观的人才和组织演变，Adam 把视角拉回了 Instagram 这个产品的地基：算法。
-
-## 撕开算法的面纱：其实它没那么懂你
-
-聊完了人的战略，我们来看看机器的算计。作为设计了 Facebook 核心排名算法的人，Adam 在这里抖出了一个大大的包袱：**大多数人严重高估了算法对他们兴趣的「语义理解」** <button class="pd-ts" data-t="34:36" data-who="Adam Mosseri" data-en="about human behavior that people may not realize one of the most common misconceptions is actually in the opposite direction i think people assume that there's" aria-label="回原文"></button>。
-
-你可能会以为，算法像个人一样，在后台用标签记录着「Lenny 喜欢冲浪、喜欢咖啡」。但事实并非如此。过去五到十年推动推荐系统飞跃的，是那些庞大的[[嵌入模型|嵌入模型]]。这些模型底层算出来的，是一堆人类根本看不懂的巨大数字向量 <button class="pd-ts" data-t="35:01" data-who="Adam Mosseri" data-en="you know these large embedding models and these other techniques that basically produce artifacts that cannot be read by people they're not legible they're like giant vectors it's like sure i can show" aria-label="回原文"></button>。
-
-> 【背景】向量可以理解为把内容映射到多维空间里的一个坐标点。算法并不知道你「喜欢咖啡」，它只是通过数学计算发现，你经常互动的内容节点，在多维空间里恰好跟代表咖啡的节点靠得很近。
-
-但这套机制正在被大语言模型改变。Adam 兴奋地分享了一个名为「你的算法」的新功能。因为现在的语言模型能够「读懂」那些原本无法解释的向量空间了，相当于它能在地图上查看一片区域并总结：「哦，这片区域代表深度手冲咖啡的鄙视链」 <button class="pd-ts" data-t="35:59" data-who="Adam Mosseri" data-en="the thing i've been really i posted about this this week this thing called your algorithm basically the idea is we take a look at all of the stuff that you've interacted with and then you know we all of" aria-label="回原文"></button>。
-
-这就赋予了用户前所未有的能动性。你可以直接看到算法认为你感兴趣的主题，并且可以手动添加或删除这些主题。虽然目前还没法做到「我想少看点高中同学的孩子」这么精细的指令控制，但把对内容的控制权交还给用户，是他们的明确方向 <button class="pd-ts" data-t="36:52" data-who="Adam Mosseri" data-en="and so you know so what what we what we what we do now is we let you you know quote unquote see your algorithm you can see what topics we think you're interested in um" aria-label="回原文"></button>。
-
-顺着用户控制权的话题，Lenny 抛出了社交媒体上永恒的争议：为什么不能直接出一个按时间排序的纯[[时间线|时间线]]？
-
-Adam 毫不留情地指出了其中的系统设计悖论。如果社交平台完全默认按时间排序，就会产生极其糟糕的激励机制：为了抢占曝光，专业媒体（比如纽约时报一天能发 50 条）就会疯狂刷屏，而你好朋友一周才发一次的动态会被彻底淹没 <button class="pd-ts" data-t="38:45" data-who="Adam Mosseri" data-en="the job i get it right um there's but there are a couple issues with the algorithm with the chronological feed so one is and some of this is the tension between an individual's interests and what works when you scale it up right so" aria-label="回原文"></button>。Adam 强调，设计一个系统就像设计一座城市，你必须预判在特定的机制下，人们会被激励出什么行为。当他们真的做过默认时间线的测试后，结果不仅是整体使用量下降，连用户自己的满意度也会随着时间推移大幅走低 <button class="pd-ts" data-t="40:31" data-who="Adam Mosseri" data-en="for us as a business which matters i'm not pretending that's not an issue but also for the overall community because we've done chronological by default and where you can make it default and you see not only does usage go down" aria-label="回原文"></button>。在产品设计中，永远没有完美的解决方案，只有权衡。
-
-既然用户连看什么内容都需要这种深层权衡，那当 AI 彻底接管内容生产时，平台又该怎么办？
-
-## 迎击 AI 内容海啸：保护真实与创作者
-
-说完了推荐系统的底层逻辑，我们来看看一个所有人都无法回避的浪潮：AI 生成内容。
-
-面对 AI 内容大爆发，Adam 的判断极其清晰：这将对整个行业构成挑战，但对 Instagram 来说，这是一股顺风 <button class="pd-ts" data-t="41:20" data-who="Adam Mosseri" data-en="or hurts you guys i think it's going to be a tailwind but i think it's going to be a challenge it's and not just because it's more content obviously we're an attention business driven business we're" aria-label="回原文"></button>。原因在于，当世界充斥着廉价、海量的[[合成内容|合成内容]]时，人们对真实性和独特创造力的渴求会不降反升。
-
-这背后的战略逻辑是：权力的天平正在从机构向个人转移。Adam 在此明确重申了平台的态度——Instagram 不会过滤掉 AI 内容，而是会透明地标明它是不是 AI 生成的 <button class="pd-ts" data-t="44:34" data-who="Adam Mosseri" data-en="like i don't i don't think we should filter out ai content i think we should let you know if content is ai content or not i think we should let you know more about" aria-label="回原文"></button>。
-
-不过，这里的透明度面临着严峻的技术挑战。Adam 诚实地承认，随着模型越来越强大，平台检测某段内容是否为 AI 生成的「探测能力」可能会失效。因此，更务实的长期策略或许是反过来：去标记那些「由相机真实捕获」的内容 <button class="pd-ts" data-t="47:14" data-who="Adam Mosseri" data-en="to label camera captured content like basically non-ai content as opposed to labeling ai content long term for a couple reasons but then at the account level i think it also matters there is definitely an a new spam vector" aria-label="回原文"></button>。
-
-虽然他要拥抱 AI 内容，但他极其看重将真实的创作者与恶意刷屏的虚假账号区分开来。他提及了一个正在利用 AI 制造垃圾邮件的新向量：伪装成 AI 和尚卖假补剂的诈骗账号。Instagram 必须重拳出击这些利用虚假人设牟利的行为。
-
-但是，如果纵观整个行业，Adam 坦言，[[TikTok|TikTok]] 在算法推荐领域有一项让他非常眼红的核心能力：基于探索的排名 <button class="pd-ts" data-t="48:23" data-who="Adam Mosseri" data-en="that we are finally catching up with but i've been always very impressed with is tick tock and their recommenders ability to break small talent um in the world of" aria-label="回原文"></button>。
-
-推荐系统通常有两种工作逻辑。一种是基于「利用」：利用已知数据，不断给你推你大概率喜欢的流行内容。另一种是「探索」：给你推你可能根本不知道自己会喜欢的小众内容。Adam 解释说，向用户推送流行内容很容易拉动数据，但真正考验算法实力、且能帮助小众创作者破圈的，是探索能力。TikTok 在这方面做得极其出色，但 Adam 自信地表示，Instagram 在过去几年疯狂追赶，目前在他们任期内首次看到了反超的曙光 <button class="pd-ts" data-t="49:46" data-who="Adam Mosseri" data-en="and bite dance i think we're catching up um there's actually a couple of those areas where we i think by the best we can tell we're ahead of them there's a couple" aria-label="回原文"></button>。
-
-探讨完产品战略与算法攻防，我们把目光转向这位掌门人本身。身为拥有三十亿月活的平台负责人，Adam 常常身处舆论风暴的中心，他是如何在这种高压下做决策与自处的？
-
-## 做争议的门面：如何驾驭反噬与试错
-
-讨论完了产品策略，最后不得不提 Adam 作为平台「门面」的生存哲学。很多人好奇，是谁推着他去面对那些汹涌的仇恨与谩骂？Adam 回忆，这一切始于他当年负责 Facebook 的 News Feed <button class="pd-ts" data-t="52:38" data-who="Adam Mosseri" data-en="and get in there like where does that come from it started on newsfeed so i used to run newsfeed at facebook and i my take was that the debate was going to happen with or without us so we might as well participate" aria-label="回原文"></button>。他当时坚信，平台的争议辩论「无论有没有官方参与都会发生」，所以不如主动去 Twitter（当时记者聚集地）迎战。
-
-这种直面争议的习惯，让他形成了对「公愤」极其理性的共情。他回忆起 2009 年自己主导 News Feed 改版时，发出的第一条评论就是针对他本人的恐同和反犹谩骂 <button class="pd-ts" data-t="55:13" data-who="Adam Mosseri" data-en="an ic designer front you know entry-level designer and the first comment that came in was something pretty derogatory i think it was like it was like homophobic and anti-semitic it was just like literally we're all sitting there we launched this" aria-label="回原文"></button>。当时 25 岁的他备受打击，但他随即换了个视角：如果你每天花四五十分钟在这张数字办公桌前整理照片、与朋友交流，某天早上我一声不吭地把你的桌子全重新布置了，你当然会气得发疯，而且这完全合理 <button class="pd-ts" data-t="55:52" data-who="Adam Mosseri" data-en="about it and i came i came to this idea that if you spent 30 40 50 minutes a day at a at your desk and you organize your photos there and you brought letters" aria-label="回原文"></button>。这种设身处地，让他学会了与反噬共处。
-
-但这种颠覆式的试错，在当下的语境下面临着极其严峻的新挑战。Adam 复盘了那次引发全球抗议的「全屏视频流测试」。他澄清了一个被外界混淆的事实：当时他们只是对 iOS 上 4% 的用户进行了一项早期测试，但在大 V 批评和媒体放大下，形成了一股乘数效应般的声讨巨浪 <button class="pd-ts" data-t="56:52" data-who="Adam Mosseri" data-en="of what helped you decide okay let's change course so actually that one got that one three or four things got conflated we had to redesign a feed that went to the video viewer that was a test to four percent of users on ios it was" aria-label="回原文"></button>。
-
-他得到的惨痛教训是：在拥有三十亿用户的体量下，**你甚至不能在不考虑公关策略的情况下，去偷偷做一个早期的技术测试** <button class="pd-ts" data-t="59:28" data-who="Adam Mosseri" data-en="because you can't you can't you can't launch something to three billion people and not test it first but you can't test something at our scale" aria-label="回原文"></button>。一旦被外界发现，你必须准备好向公众解释。虽然这极大地让开发周期变得复杂，但这是保持进化的代价。
-
-Adam 宁愿每隔几年经历一次这样的反噬，也要坚持进化，也不愿守着一个没有视频、没有私信、没有 Stories 的老旧产品苟延残喘。这种精神也延续到了他近期的一个有趣实验——面对家里的三个孩子（10 岁、8 岁、6 岁），他有着一套堪称硬核的屏幕时间管理哲学。
-
-孩子们必须通过做作业来赚取周末的 iPad 使用时间，且下载什么 App 必须经过他的审批 <button class="pd-ts" data-t="63:27" data-who="Adam Mosseri" data-en="the product as head of instagram how do you think about screen time with your kids the key thing for me is boundaries um it's also about education and being and having conversations with them but my kids are too young" aria-label="回原文"></button>。但在这些严格的边界之外，他正在积极带 10 岁的大儿子玩 [[vibe coding|vibe coding]]（氛围编程，指通过自然语言指挥 AI 写代码）。他惊叹于只用三根手指打字的孩子，竟然能靠 AI 做出一款有着 19 个关卡和商店系统的 8 位风格超级马里奥游戏 <button class="pd-ts" data-t="65:14" data-who="Adam Mosseri" data-en="of at a disadvantage so that's a balance i think you need both so with with my eldest we started um vibe coding recently together um he's just loves video games so i was like all right let's make a video game and" aria-label="回原文"></button>。他不希望孩子被 AI 剥夺批判性思维，但也极度恐惧孩子如果不掌握这门工具，会在未来处于劣势。
+回到现实生活,这位掌管全球最大社交平台的家长怎么管孩子看屏幕?作为 Instagram 的负责人,Adam 被问及他如何管理三个年幼孩子的屏幕时间。他的原则是「设边界、重引导」:iPad 时间必须靠做作业赚,装什么 App 必须经他审批;坐飞机那种特殊场景则是纯粹为了生存的例外 <button class="pd-ts" data-t="63:27" data-who="Adam Mosseri" data-en="the product as head of instagram how do you think about screen time with your kids the key thing for me is boundaries um it's also about education and being and having conversations with them but my kids are too young" aria-label="回原文"></button>。但更关键的是他怎么引导大儿子:他很支持学校禁手机,也认同完全让 AI 代劳会损害孩子批判性思维的担忧。所以,他选择陪 10 岁的儿子一起做 [[vibe coding|vibe coding]](凭借自然语言和直觉用 AI 写代码),用 AI 工具真刀真枪地做了一个有 19 关、各种主题和商店系统的平台跳跃游戏。他并不是为了让孩子成码农,而是让他学会在这个时代「造东西」,而不是单纯地「玩游戏」<button class="pd-ts" data-t="65:14" data-who="Adam Mosseri" data-en="of at a disadvantage so that's a balance i think you need both so with with my eldest we started um vibe coding recently together um he's just loves video games so i was like all right let's make a video game and" aria-label="回原文"></button>。
 
 ## 本集带走
 
-1. **产品团队的通才化与小队化**：在 AI 工具的赋能下，大公司十几人的细分团队正在被 6 人左右的 Pods 取代。「产品人员」取代了传统 PM，能够横跨设计、数据与工程职能。专才会向极高阶进化，而跨界的超级通才将成为主力。
-2. **「品味」与「战略」成为终极护城河**：把东西造出来的门槛已被无限拉低。机械的数据分析与代码编写可以被外包给 AI，但定义「到底该造什么」的主观品味、以及制定有争议且反共识的战略，是人脑的核心价值所在。
-3. **算法并不具备语义理解，但正在改变**：不要高估推荐系统对你的了解。现有的嵌入模型只是一堆无法阅读的高维数字。但大语言模型正在赋予这些向量可解释性，让用户拥有了直接微调自己算法地图的能力。
+最后收个尾,这一集值得带走的是五句话。第一,在东西越造越容易的时代,品味比手艺更值钱,最懂该造什么的人,会比只会埋头造的人更抢手。第二,好战略必须是有态度的,你可以用 AI 辅助打磨战略,但绝不能把权衡利弊的思考外包给它,否则你得到的只会是一张平庸的牌。第三,大众对算法的理解是个美丽的误会,系统并不懂你的喜怒哀乐,它只是一堆在多维空间里算距离的数字,但现在语言模型终于开始帮它说人话了。第四,在合成内容泛滥的未来,人们会更拼命地寻找真实的人和独特的创意,所以平台要把重点放在赋能个体创作者上,而不是去封杀某个工具。第五,面对所有的争议与变革,别假装事情很简单,几乎所有的选择都带着代价,但与其守着旧规矩挨夸奖,不如推着自己往前走、挨点骂,这才是一个掌舵人该干的事。
 
-<div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>14 条(中英对照,已过机器闸门)</span></div>
 
-> <span class="qz">我实际上非常看好设计师，因为他们往往有品味，我认为这是更难想象被自动化掉的事情</span>  
-> *i'm actually pretty long on design or designers because they tend to have taste and i think that is something that is much more difficult to imagine being automated away*  
-> <span class="qm">—— Adam Mosseri · [08:38]</span> ^q1
+> <span class="qz">不,我认为在一个更容易构建事物的世界里,品味非常重要,确保你的时间花在首先弄清楚你应该构建什么上变得更加重要。</span>  
+> *no i think taste matters a ton in a world where it's easier to build things it's more important to make sure that your time is spent figuring out what you should be building in the first place*  
+> <span class="qm">—— Adam Mosseri · [00:00]</span> ^q1
 
-> <span class="qz">如果战略不能是最好的或惊人的，它必须是具有争议的，一个理性的人应该能够不同意它，因为否则你可能只是试图在原始执行上竞争</span>  
-> *if strategy can't be like be the best or be amazing it has to be controversial that you have to be a reasonable person should be able to disagree with it because otherwise you're probably just trying to compete on raw execution*  
-> <span class="qm">—— Adam Mosseri · [25:29]</span> ^q2
+> <span class="qz">最常见的误解其实恰恰相反,我认为人们假设算法对每个人的兴趣和偏好有着比实际更详细的语义理解。</span>  
+> *one of the most common misconceptions is actually in the opposite direction i think people assume that there's a much more detailed semantic understanding of everybody's interests and preferences in the algorithm than there is*  
+> <span class="qm">—— Adam Mosseri · [34:38]</span> ^q2
 
-> <span class="qz">在一个合成内容丰富的世界里，实际上我认为人们会更多而不是更少地寻求创造力、真实性和人</span>  
-> *in a world where there's an abundance of synthetic content i actually think people are going to seek out creativity and authenticity and people more not less*  
-> <span class="qm">—— Adam Mosseri · [42:39]</span> ^q3
+> <span class="qz">我认为这将是一个顺风,但我认为在一个充斥着合成内容的世界中,这将是一个挑战,我实际上认为人们会去寻找创造力和真实性。</span>  
+> *i think it's going to be a tailwind but i think it's going to be a challenge in a world where there's an abundance of synthetic content i actually think people are going to seek out creativity and authenticity*  
+> <span class="qm">—— Adam Mosseri · [00:45]</span> ^q3
 
-> <span class="qz">我认为品味非常重要，所以在一个更容易构建事物的世界里，更重要的是确保你的时间花在弄清楚你首先应该构建什么上</span>  
-> *i think taste matters a ton uh so in a world where it's easier to build things it's more important to make sure that your time is spent figuring out what you should be building in the first place*  
-> <span class="qm">—— Adam Mosseri · [08:14]</span> ^q4
+> <span class="qz">我得出了这个想法,如果你每天花30、40、50分钟在你的办公桌前,在那里整理照片,给朋友写信,在那里阅读,然后我走来重新布置了你的桌子,我没有告诉你,没有警告你,甚至没有解释为什么,你会很生气,而且这是合理的。</span>  
+> *i came i came to this idea that if you spent 30 40 50 minutes a day at a at your desk and you organize your photos there and you brought letters to your friends there and you read there and then i just came and i rearranged your desk and i didn't tell you i didn't warn you i didn't even explain why like you would be pissed and that would be reasonable*  
+> <span class="qm">—— Adam Mosseri · [55:52]</span> ^q4
 
-> <span class="qz">我认为人们假设算法对每个人的兴趣和偏好有更详细的语义理解，但实际并没有那么多</span>  
-> *i think people assume that there's a much more detailed semantic understanding of everybody's interests and preferences in the algorithm than there is*  
-> <span class="qm">—— Adam Mosseri · [34:41]</span> ^q5
+> <span class="qz">我认为那些能充分利用它的人,是那些对AI擅长什么和不擅长什么有清醒认识的人,并且对它将来会擅长什么和不擅长什么有一种本能或嗅觉。</span>  
+> *the people who i think are gonna make the most of it are the ones who are clear-eyed about what ai is good at and what it's not good at and also have an instinct or a nose for what it will be good at and not good at*  
+> <span class="qm">—— Adam Mosseri · [19:21]</span> ^q5
 
-> <span class="qz">我不认为我们应该根据制造它的工具来评判内容，我认为我们应该根据内容、观点、内容背后的人来评判它</span>  
-> *i don't think we should judge content based on the tool that made it um i think we should judge it based on the content the point of view the person behind the content*  
-> <span class="qm">—— Adam Mosseri · [44:20]</span> ^q6
+> <span class="qz">当你学习另一种语言时,我认为最重要的事情之一,也是关于你会不会擅长口语的最好预测指标之一,这是我的猜测,我没有任何研究支持,就是你是否愿意听起来像个白痴,你是否愿意直接开口说,被纠正也不觉得被冒犯,然后变得越来越好。</span>  
+> *when you learn another language i think one of the most important things one of the best predictors this is my guess i don't have any research on this about you know are you gonna get good at speaking is are you willing to sound like an idiot are you willing just to say it and be corrected and not be offended and then just get better and better*  
+> <span class="qm">—— Adam Mosseri · [15:27]</span> ^q6
 
-> <span class="qz">如果你做一个纯粹的按时间顺序的信息流，每个人的激励就是尽可能多地发布内容，因为一旦你发布，它总是会位于每个关注你的人的信息流的顶部</span>  
+> <span class="qz">如果你只是懒惰地向AI索要一个策略,你不会得到正确的东西,你会得到一些非常可预测的、竞争对手都会预期你会去做的事情。</span>  
+> *if you ask an ai just for a strategy lazily you're not going to get something right you're going to get something pretty predictable that pop up with the competition would expect you to do*  
+> <span class="qm">—— Adam Mosseri · [26:58]</span> ^q7
+
+> <span class="qz">我不认为我们应该过滤掉AI内容,我认为我们应该让你知道内容是否是AI内容,我认为我们应该让你更多地了解发布任何内容的人。</span>  
+> *i don't think we should filter out ai content i think we should let you know if content is ai content or not i think we should let you know more about the person who posted anything*  
+> <span class="qm">—— Adam Mosseri · [44:32]</span> ^q8
+
+> <span class="qz">你能做的最好的事情就是执行一个没有市场契合度的想法,只是为了决定这个想法首先是否是个好主意。</span>  
+> *the best thing you can do is execute an idea that doesn't have market fit well just to decide whether or not the idea was a good idea in the first place*  
+> <span class="qm">—— Adam Mosseri · [61:25]</span> ^q9
+
+> <span class="qz">如果你做一个纯按时间顺序的信息流,每个人的激励就是尽可能多地发布,因为只要你一发,它就会始终位于每个关注你的人的信息流顶部。</span>  
 > *if you do a pure chronological feed the incentive for everybody is to just post as much as possible because it will always be at the top of everyone who follows you's feed as soon as you post*  
-> <span class="qm">—— Adam Mosseri · [38:56]</span> ^q7
+> <span class="qm">—— Adam Mosseri · [38:56]</span> ^q10
 
-> <span class="qz">你不能你不能你不能向三十亿人发布某样东西而不先测试它，但你不能在我们的规模上测试某样东西而不期望人们去报道它</span>  
-> *you can't you can't you can't launch something to three billion people and not test it first but you can't test something at our scale and not expect people to cover it*  
-> <span class="qm">—— Adam Mosseri · [59:28]</span> ^q8
+> <span class="qz">在一个充斥着合成内容的世界里,我实际上认为人们会更多而不是更少地寻求创造力、真实性和人。</span>  
+> *in a world where there's an abundance of synthetic content i actually think people are going to seek out creativity and authenticity and people more not less*  
+> <span class="qm">—— Adam Mosseri · [42:39]</span> ^q11
 
-> <span class="qz">我宁愿每隔几年遇到像那样的抵制，但继续进化并保持相关性，也不愿要替代方案，那就像是我们没有视频，我们没有私信，我们没有 Stories，我们没有排名</span>  
+> <span class="qz">一个拥有强烈信任和融洽关系的领导团队几乎能解决任何问题,而一个没有信任或融洽关系的领导团队,任何事情都可能成为问题。</span>  
+> *a leadership team with strong trust and rapport can work through most anything a leadership team without trust or rapport like anything can become an issue*  
+> <span class="qm">—— Adam Mosseri · [33:26]</span> ^q12
+
+> <span class="qz">我宁愿每隔几年遇到那样的抵制,但继续进化并保持相关性,也不愿选择另一种方案,那就是我们没有视频,没有私信,没有快拍,没有排名。</span>  
 > *i would much rather have backlashes like that every couple years but continue to evolve and continue to stay relevant than the alternative which would have been like we didn't have video we didn't have dms we didn't have stories we didn't have ranking*  
-> <span class="qm">—— Adam Mosseri · [58:31]</span> ^q9
+> <span class="qm">—— Adam Mosseri · [58:31]</span> ^q13
+
+> <span class="qz">我们并不像你认为的那样了解你,我们只是像哦,你点赞了这些照片,这些其他人也点赞了同样的照片,而且他们喜欢这些其他照片,所以你可能也会喜欢那些其他照片。</span>  
+> *we don't really know as much about you as you think we're just like oh like you liked these photos this these people also like those same photos and they like these other photos so you might like those other photos*  
+> <span class="qm">—— Adam Mosseri · [37:43]</span> ^q14
 
 <div class="pd-sec">接着看</div>
 
@@ -178,16 +142,16 @@ Adam 宁愿每隔几年经历一次这样的反噬，也要坚持进化，也不
 
 **顺着「组织与领导力」挖下去**
 
-- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|《精益创业》作者 Eric Ries 新作导读：好公司为什么会「变坏」]] —— 同公司:anthropic
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构]] —— 同公司:anthropic
+- [[2026-05-10-lennys-how-to-build-a-company-that-withstands|为什么好公司会变坏：Eric Ries 的防腐架构学]] —— 同公司:anthropic
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]] —— 同公司:anthropic
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2025-12-07-lennys-surge-ai-edwin-chen|Surge AI 创始人 Edwin Chen:我们教模型追逐多巴胺,而非真理]] —— 同公司:anthropic · 同概念:vibe coding
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|对话 Notion 产品负责人 Max:AI 时代的产品方法论与人的主观能动性]] —— 同公司:anthropic · 同概念:品味 (taste)
+- [[2025-12-07-lennys-surge-ai-edwin-chen|10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来]] —— 同公司:anthropic · 同概念:vibe coding
+- [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]] —— 同公司:anthropic · 同概念:品味 (taste)
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当代码不再是瓶颈,品味和策展成为产品团队的稀缺力]] —— 同概念:品味 (taste)、vibe coding
 
 </div>

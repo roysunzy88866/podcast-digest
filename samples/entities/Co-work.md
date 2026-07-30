@@ -11,15 +11,15 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-04-23-lennys-how-anthropics-product-team-moves|《Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南》]]**(00:56起):Anthropic 内部处理非代码任务（如清空收件箱、制作幻灯片、写文档）的工作助手。嘉宾将营销大纲和旧版幻灯片喂给它，它通过连接 Slack、Gmail 等数据源，花一小时自动合成了一份 20 页且符合公司设计规范的演示文稿。
-- **[[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]]**(08:59起):Fiona 团队构建的日常知识工作智能体；本集中提到它能高效处理开发票、报销等繁杂事务，甚至被小企业主用于找菜单和竞品分析。
+- **[[2026-04-23-lennys-how-anthropics-product-team-moves|《Claude Code 产品负责人:AI 时代 PM 的生存法则》]]**(00:56起):Anthropic 内部处理非代码任务（如清空收件箱、制作幻灯片、写文档）的工作助手。嘉宾将营销大纲和旧版幻灯片喂给它，它通过连接 Slack、Gmail 等数据源，花一小时自动合成了一份 20 页且符合公司设计规范的演示文稿。
+- **[[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]]**(08:59起):Fiona 团队构建的日常知识工作智能体；本集中提到它能高效处理开发票、报销等繁杂事务，甚至被小企业主用于找菜单和竞品分析。
 
 ## ② 出现在这些集
 
 *2 集*
 
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|《Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南》]] — 作为概念
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] — 作为概念
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|《Claude Code 产品负责人:AI 时代 PM 的生存法则》]] — 作为概念
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]] — 作为概念
 
 ## ③ 关联
 

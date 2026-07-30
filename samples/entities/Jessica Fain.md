@@ -15,7 +15,7 @@ unlisted: true
 
 ![[2026-03-22-lennys-the-art-of-influence-jessica-fain#^q1]]
 
-![[2026-03-22-lennys-the-art-of-influence-jessica-fain#^q3]]
+![[2026-03-22-lennys-the-art-of-influence-jessica-fain#^q2]]
 
 ![[2026-03-22-lennys-the-art-of-influence-jessica-fain#^q4]]
 
@@ -29,7 +29,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《别只想推销：产品负责人如何真正影响高管决策》]] — 作为主持
+- [[2026-03-22-lennys-the-art-of-influence-jessica-fain|《Jessica Fain:如何影响高管——把高管当用户来研究》]] — 作为主持
 
 ## ③ 他谈到的
 

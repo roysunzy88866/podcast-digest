@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]]**(01:44起):本集将其作为经典的失败案例：指出他们“在 iPhone 出现的 15 年前就制造了它”，但因为只是在做“真的很酷但没人需要的东西”，只谈技术而不考虑客户痛点，最终导致失败。
+- **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]]**(01:44起):本集将其作为经典的失败案例：指出他们“在 iPhone 出现的 15 年前就制造了它”，但因为只是在做“真的很酷但没人需要的东西”，只谈技术而不考虑客户痛点，最终导致失败。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：反直觉的产品课》]] — 作为被讨论公司
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]] — 作为被讨论公司
 
 ## ③ 关联
 

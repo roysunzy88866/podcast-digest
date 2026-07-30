@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]]**(01:29起):本集提到它是 Facebook 的核心动态消息流，是嘉宾当年设计并主导的项目，也是他学会直面平台公共争议反噬的起点。
+- **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]]**(01:29起):本集提到它是 Facebook 的核心动态消息流，是嘉宾当年设计并主导的项目，也是他学会直面平台公共争议反噬的起点。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri：AI 时代的团队重组与产品品味》]] — 作为概念
+- [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]] — 作为概念
 
 ## ③ 关联
 

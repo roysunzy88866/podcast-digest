@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claire Vo</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claire Vo">CL</div><div class="pi"><h1 class="pt">Claire Vo</h1><div class="byl">Lenny&#39;s Podcast 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>10</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claire Vo">CL</div><div class="pi"><h1 class="pt">Claire Vo</h1><div class="byl">Lenny&#39;s Podcast 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*10 条,均已过机器闸门*
+*8 条,均已过机器闸门*
 
 ![[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo#^q1]]
 
@@ -23,22 +23,18 @@ unlisted: true
 
 ![[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo#^q5]]
 
-![[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo#^q6]]
+![[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#^q1]]
 
-![[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#^q4]]
+![[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#^q3]]
 
-![[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#^q6]]
-
-![[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#^q7]]
-
-![[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#^q8]]
+![[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#^q5]]
 
 ## ② 出现在这些集
 
 *2 集*
 
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] — 作为联合主持
-- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《Gusto CTO 的极简实验:5 人 10 周凭感觉编程造出 AI 产品》]] — 作为主持
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]] — 作为联合主持
+- [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]] — 作为主持
 
 ## ③ 他谈到的
 

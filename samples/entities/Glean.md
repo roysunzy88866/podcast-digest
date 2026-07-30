@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要》]]**(61:35起):一款企业内部数据搜索整合工具。本集说 Evan 用它接入了 Snap 所有的仪表盘和文档,并在此基础上自己搭了一个智能体助理,每天梳理全公司动态、定位需要他关注的热点。
+- **[[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪》]]**(61:35起):一款企业内部数据搜索整合工具。本集说 Evan 用它接入了 Snap 所有的仪表盘和文档,并在此基础上自己搭了一个智能体助理,每天梳理全公司动态、定位需要他关注的热点。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap 创始人 Evan Spiegel:做硬件、搞创新、用 AI,为什么人性比技术更重要》]] — 作为被讨论公司
+- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|《Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪》]] — 作为被讨论公司
 
 ## ③ 关联
 

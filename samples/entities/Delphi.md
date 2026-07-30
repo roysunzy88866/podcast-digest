@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验》]]**(07:13起):本集说它是一款制作数字人克隆的工具，Jason 用它做了「Digital Jason」来回答知识问题，后来演变成处理客服支持并独自成交了 7 万美元赞助。
+- **[[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]]**(07:13起):本集说它是一款制作数字人克隆的工具，Jason 用它做了「Digital Jason」来回答知识问题，后来演变成处理客服支持并独自成交了 7 万美元赞助。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《1.2 个人 + 20 个 AI 智能体：SaaStr 的极简销售实验》]] — 作为被讨论公司
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]] — 作为被讨论公司
 
 ## ③ 关联
 

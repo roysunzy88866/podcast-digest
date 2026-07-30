@@ -7,23 +7,25 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Transformer</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Transformer">TR</div><div class="pi"><h1 class="pt">Transformer</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Transformer">TR</div><div class="pi"><h1 class="pt">Transformer</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 见顶了吗？OpenAI 与 Google 前核心创立 Core Automation 寻找下一代架构》]]**(01:55起):本集说它的天花板（见顶）在于无法持续学习：在实验室用静态数据训练，一旦部署到动态现实世界很快就会贬值；同时其计算深度极差，采用一次生成一个 token 的方式极其低效。
+- **[[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]]**(01:55起):本集说它的天花板（见顶）在于无法持续学习：在实验室用静态数据训练，一旦部署到动态现实世界很快就会贬值；同时其计算深度极差，采用一次生成一个 token 的方式极其低效。
 
 ## ① 提到它的金句
 
-*1 条,均已过机器闸门*
+*2 条,均已过机器闸门*
 
-![[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto#^q4]]
+![[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto#^q1]]
+
+![[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto#^q3]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 见顶了吗？OpenAI 与 Google 前核心创立 Core Automation 寻找下一代架构》]] — 作为概念
+- [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]] — 作为概念
 
 ## ③ 关联
 

@@ -1,1 +1,123 @@
-{"title_zh":"从避战大模型到押注智能体：Modal 的推理基础设施进化史","tldr":"Modal CTO 剖析从开发者体验转向智能体体验的推理云进化路径。","digest_md":"Akshat 是 Modal 的 CTO，他和 CEO Erik、另一位联创 Vibhu 一起，把 Modal 打造成了 AI 时代一个独特的推理与智能体运行平台。本集的对话从 Modal 为什么在 ChatGPT 爆火前一年就加入了 GPU 聊起，一路延伸到他们如何在投机解码、容器网络、智能体体验（AX）等关键技术点上做判断。全文可以分为三个部分：第一部分讲 Modal 的产品哲学和差异化护城河；第二部分拆解推理层的技术硬功夫；第三部分讨论智能体时代的基础设施新需求。\n\n## 从装饰器到智能体体验\n\nModal 最初并不是一家 GPU 推理公司。Akshat 回忆，Erik 最早的出发点是想做一个更好的运行时（runtime，程序运行的环境），解决工作流编排产品太难用的问题 [00:48 Akshat Bubna]。而难用的根源在于必须部署在 Kubernetes（一种管理容器的系统）上，但 Kubernetes 的设计更偏向缓慢扩展的 Web 服务器，无法适应 AI 时代频繁突发（bursty，指流量短时间内剧烈飙升）的计算需求 [02:50 Akshat Bubna]。\n\n为了解决配置复杂的问题，Modal 推出了核心的 DSL（领域特定语言）层：开发者只需在代码上加上装饰器（decorator，一种包裹函数的特殊语法），就能定义硬件需求和扩展方式，基础设施需求与业务代码完美协同部署 [03:30 swyx]。这让 Modal 引以为傲的开发者体验（DX）脱颖而出。\n\n工具变了，人怎么办？这正是 Modal 团队思考的下一个问题。随着 Claude Code、Codex 等智能体开始自动编写工具代码，开发者逐渐不再直接看代码。Modal 敏锐地把 SDK 团队的目标，从优化开发者体验（DX）转向了优化「智能体体验」（AX） [04:54 Akshat Bubna]。背后的逻辑很直接：为什么要让一个智能体去阅读数百个 Kubernetes 文件、编写甚至没有类型的 YAML，而它其实只需在装饰器里做几个更改，就能获得一个自我配置的运行时 [05:05 Akshat Bubna]？虽然人类不再逐行读代码，但「可观测性」变得前所未有的重要——仪表盘和 CLI 成了人类监督智能体行为的关键 [05:46 Akshat Bubna]。\n\n## 推理的硬功夫：快照与投机解码\n\n解决了人机交互的体验问题，接下来是 Modal 在推理引擎内部做的硬核技术优化。Akshat 强调，Modal 最大的用例是弹性推理（elastic inference，根据流量自动伸缩算力的推理服务）。为了满足音频公司 Suno、视频公司 Runway 等客户波动极大的流量，Modal 把自动扩展做到了极致。\n\n为了让频繁启动的模型更快响应，Modal 引入了 GPU 快照（snapshotting，保存运行状态以便瞬间恢复）技术。它可以提取 torch 编译好的模型状态并保存，下一次调用时就能跳过漫长的加载过程，启动速度快得多 [13:51 Akshat Bubna]。对于强化学习（RL）中需要频繁生成环境的场景，甚至有时瞬间需要十万个沙箱，这种极速扩缩容的能力至关重要 [14:31 Akshat Bubna]。\n\n除了扩缩容，提升大模型本身的推理速度也是重头戏。Akshat 介绍了他们的开源项目 DeFlash——一种基于块的投机解码（speculative decoding，让小模型先猜、大模型来验，从而加速推理）推测器 [16:06 Akshat Bubna]。传统的投机解码让小模型每次猜一个词（token），而 DeFlash 让它一次预测一整个块。\n\n这块有一个反直觉的技术洞见：很多人花精力改进底层计算内核，但那通常只能带来几个百分点的速度提升；而通过增加推测器的「接受长度」（accept length，大模型认可小模型猜测的词数），能带来 2 到 4 倍的乘法级性能提升，且完全不影响生成质量 [17:37 Akshat Bubna]。为了让所有人都能用上这项前沿技术，Modal 推出了 Auto Endpoints（自动化端点服务）。用户无需改代码，通过 UI 就能创建一个集成了所有优化的端点，如果想深度微调，随时可以「弹出」黑盒，拿回代码控制权 [18:38 Akshat Bubna]。\n\n## 智能体时代的底层拼图：网络与超级云\n\n软件和推理算法说完了，物理硬件与网络怎么组织？这正是 Modal 另一个不寻常的战略选择。他们不建自己的数据中心，而是构建了一个跨越 17 个云提供商的「超级云」（supercloud）容量池 [24:14 Akshat Bubna]。由于底层集成了大量可靠性不一的新云厂商（neocloud），Modal 在上面自建了一层可靠性兜底：如果某块 GPU 掉线，用户的工作负载完全不受影响 [25:15 Akshat Bubna]。\n\n随着智能体工作负载变重，单纯的计算已经不够，Modal 发现智能体对容器网络提出了意想不到的需求。最典型的是，智能体经常需要对出站网络进行精细控制，比如在沙箱里跑一个「中间人代理」（man-in-the-middle proxy）来拦截日志，或控制对外域名进行凭据注入 [27:23 Akshat Bubna]。\n\n为了支持跨节点的多容器任务，Modal 的沙箱升级成了类似 Pod 的结构，支持「Sidecar」（边车，与主容器共生的辅助容器）模式 [27:06 Akshat Bubna]。有趣的是，Modal 偶然建立的一个基于 IPv6 的私有 Overlay（覆盖）网络，原本只是为了给分布式训练做密钥交换用的，结果也被客户用来实现跨多节点沙箱通信等其他需求 [28:09 Akshat Bubna]。这印证了 Modal 的产品哲学：构建底层原语，让用户自己去探索极限。\n\n主持人 swyx 提出了一个很有代表性的疑问：随着 Anthropic、OpenAI 等大模型厂商纷纷推出自家的「托管智能体」，会不会侵入 Modal 的地盘 [44:12 swyx]？Akshat 的判断是，大厂的托管产品适合起步，但当代码走向生产级，企业必然需要专门的沙箱提供商来控制网络隔离、文件持久化和快照恢复 [45:08 Akshat Bubna]。这条「专注底层」的战略，让 Modal 能够心无旁骛地吃下 AI 爆发带来的基础设施红利。\n\n## 本集带走\n\n1. **智能体体验（AX）正在接棒开发者体验（DX）**：基础设施的设计目标，正从「让工程师写代码爽」转向「让智能体能无摩擦地自我配置、自我运行」，装饰器比复杂的 YAML 更适合智能体理解。\n2. **投机解码是性价比极高的推理加速手段**：相比于死磕底层内核，优化「接受长度」能带来 2-4 倍的整体加速，且零质量损耗，Modal 开源的 DeFlash 证明了这一点。\n3. **无数据中心的「超级云」模式跑通了**：不建机房、只做软件抽象层，通过兜底 17 家云厂商的底层不可靠性，反而换来了极致的弹性和硬件议价权。","quotes":[{"en":"we built sandboxes in May of 2023 before anyone was even knew this was going to be a thing.","zh":"我们在 2023 年 5 月就构建了沙箱，在任何人甚至知道这将成为一件事之前。","timestamp":"09:19","speaker":"Akshat Bubna"},{"en":"which is why would you have an agent read through hundreds of Kubernetes files and write YAML that's not even typed when it can basically make a couple of changes in a decorator","zh":"这就是为什么你要让一个智能体去阅读数百个 Kubernetes 文件并编写甚至没有类型的 YAML，而它基本上可以在一个装饰器中做几个更改","timestamp":"05:05","speaker":"Akshat Bubna"},{"en":"When you're doing rollouts, you sometimes need 100,000 sandboxes.","zh":"当你在做 rollouts 的时候，你有时需要十万个沙箱。","timestamp":"14:31","speaker":"Akshat Bubna"},{"en":"improving kernel only give you like few percentage points improvement and increasing except lengths literally is multiplicative decrease in two to four x","zh":"改进内核只给你几个百分点的提升，而增加接受长度实际上是 2 到 4 倍的乘法性减少","timestamp":"17:38","speaker":"Akshat Bubna"},{"en":"This is one thing we've kind of stayed away from is providing an API for models","zh":"这是我们一直有所回避的一件事，就是为模型提供 API","timestamp":"48:34","speaker":"Akshat Bubna"}],"quotes_candidates":[{"en":"Back then, Eric was already thinking about building a new kind of runtime.","zh":"那时，Eric 已经在考虑构建一种新的运行时。","timestamp":"00:44","speaker":"Akshat Bubna"},{"en":"so we built sandboxes in May of 2023 before anyone was even knew this was going to be a thing.","zh":"我们在 2023 年 5 月就构建了沙箱，在任何人甚至知道这将成为一件事之前。","timestamp":"09:19","speaker":"Akshat Bubna"},{"en":"which is why would you have an agent read through hundreds of Kubernetes files and write YAML that's not even typed when it can basically make a couple of changes in a decorator","zh":"这就是为什么你要让一个智能体去阅读数百个 Kubernetes 文件并编写甚至没有类型的 YAML，而它基本上可以在一个装饰器中做几个更改","timestamp":"05:05","speaker":"Akshat Bubna"},{"en":"our biggest use case actually is elastic inference.","zh":"我们最大的用例实际上是弹性推理。","timestamp":"12:20","speaker":"Akshat Bubna"},{"en":"we've incorporated GPU. snapshotting to the product so we can actually uh take the gpu state like your torch compiler model snapshot it and next call starts way faster","zh":"我们已将 GPU 快照功能整合到产品中，因此我们实际上可以获取 GPU 状态，比如你的 torch 编译器模型，对其做快照，然后下一次调用启动会快得多","timestamp":"13:47","speaker":"Akshat Bubna"},{"en":"When you're doing rollouts, you sometimes need 100,000 sandboxes.","zh":"当你在做 rollouts 的时候，你有时需要十万个沙箱。","timestamp":"14:31","speaker":"Akshat Bubna"},{"en":"improving kernel only give you like few percentage points improvement and increasing except lengths literally is multiplicative decrease in two to four x","zh":"改进内核只给你几个百分点的提升，而增加接受长度实际上是 2 到 4 倍的乘法性减少","timestamp":"17:37","speaker":"Akshat Bubna"},{"en":"we've built this capacity pool that spans 17 cloud providers.","zh":"我们建立了这个跨越 17 个云提供商的容量池。","timestamp":"24:14","speaker":"Akshat Bubna"},{"en":"What we can invest a lot of time in is actually building our own reliability layer on top.","zh":"我们能投入大量时间的事情实际上是在上面构建我们自己的可靠性层。","timestamp":"25:15","speaker":"Akshat Bubna"},{"en":"they might want to run a man-in-the-middle proxy for maybe logging stuff for RL or...","zh":"他们可能想运行一个中间人代理，也许用于为 RL 记录日志，或者……","timestamp":"27:23","speaker":"Akshat Bubna"},{"en":"We actually built it because we needed it as primitive for our distributed training product.","zh":"我们构建它实际上是因为我们需要它作为我们分布式训练产品的基础组件。","timestamp":"28:20","speaker":"Akshat Bubna"},{"en":"The thing that we've built Multano training for is we see a lot of smaller-scale post-training.","zh":"我们构建多节点训练的原因是我们看到了很多较小规模的后训练。","timestamp":"33:04","speaker":"Akshat Bubna"},{"en":"This is one thing we've kind of stayed away from is providing an API for models","zh":"这是我们一直有所回避的一件事，就是为模型提供 API","timestamp":"48:34","speaker":"Akshat Bubna"},{"en":"We actually are we're very bullish and modal on the CI market as well because there's more agents coding agents they're going to run a lot more CI","zh":"实际上我们在 Modal 对 CI 市场也非常看好，因为有更多的智能体，编码智能体，它们会运行多得多的 CI","timestamp":"52:10","speaker":"Akshat Bubna"},{"en":"It's just like build-time sandboxes versus runtime sandboxes, and actually it turned out runtime was better.","zh":"它就像是构建时沙箱对比运行时沙箱，而事实上运行时更好。","timestamp":"54:07","speaker":"Akshat Bubna"},{"en":"But then when you get to... building something more production grade like your company that's like ramp that's building their own ramp also runs their accounting agent on us so their external facing agent you need a lot more control over your compute primitive","zh":"但然后当你开始构建更生产级的东西时，比如你的公司，就像 ramp 构建他们自己的 ramp 也在我们这里运行他们的会计智能体，所以他们面向外部的智能体，你需要对你的计算原语有更多的控制","timestamp":"44:36","speaker":"Akshat Bubna"}]}
+{
+  "title_zh": "不只做推理：Modal 如何跨界多节点训练与智能体云",
+  "tldr": "Modal 从无服务器运行时切入，靠 GPU 快照、投机解码和 17 云容量池，在 AI 推理与智能体时代找到了独特的底层定位。",
+  "digest_md": "一个云平台不建自己的数据中心，而是横跨 17 家云厂商拼出一个容量池，甚至能在上面跑多节点训练——这在 AI 算力焦虑时代听起来有点反直觉。说这话的人是 Akshat，Modal 的 CTO，他们最近刚完成 C 轮融资。[00:04 swyx]\n\n这一集里，他和两位主持人聊了三件事：Modal 最初为什么要造一个不用写 YAML（一种配置文件）的运行时，以及这个老思路为什么在今天的智能体时代反而更吃香；他们是怎么把 GPU 快照（一种保存运行状态的技术）、投机解码（让小模型先猜、大模型来验，加速推理）和跨云容量调度做到极致的；以及当语言模型越来越强，这个基础设施平台为什么不担心被抢饭碗，反而要把仪表盘全搬进命令行去迎合智能体。\n\n说起 Modal 的起点，其实跟大模型毫无关系。Akshat 回忆，他和 CEO Erik 是通过一位投资者认识的。当时 Erik 在琢磨一个很基础的问题：为什么工作流编排产品这么难用？答案是它们都得跑在 Kubernetes（一种管理容器的系统）上，而 Kubernetes 是为缓慢扩展的 Web 服务器设计的。[00:55 Akshat Bubna] 他们看到的大量工作负载却不是这样：计算量大、需要频繁地突发扩缩。所以他们最初想造的是一种更好的运行时，可以跑数据处理和任务队列。他们在 ChatGPT 出来前一年就给产品加了 GPU，但当时只是觉得这是个加法，没料到后来的爆发。[02:13 Akshat Bubna]\n\n有意思的是，Modal 早期的一个核心设计——把基础设施配置全塞进代码装饰器里，不写 YAML——在今天的智能体时代迎来了第二春。主持人 swyx 指出，现在的负面论点是人都不看代码了。Akshat 对此有个很直接的反驳：为什么你要让一个智能体去读几百个 Kubernetes 文件，去写没有类型检查的 YAML，而它本来只需在装饰器里改几行就能看到一个自我配置的运行时实时生效？[05:05 Akshat Bubna] 他们内部甚至把 SDK 团队的职责从「开发者体验」（DX）改成了「智能体体验」（AX）。不过他也强调，代码可以不看，但「可观测性」（系统内部的监控仪表盘）现在比以往更重要，因为人还得去解释系统在干什么、做判断。[05:46 Akshat Bubna] 为此，他们把很多功能推到了命令行界面（CLI）里，让智能体能自己查问题。\n\n正因为这种面向计算的底层设计，Modal 现在最大的用例是「弹性推理」。Akshat 解释，他们最早避开大语言模型，服务的是做音频的 Suno、做视频的 Runway，以及机器人和计算生物公司。这些公司自己训模型，但他们的流量模式极度不可预测，有时是昼夜波动的，有时赶上产品发布流量直接飙升。[12:50 Akshat Bubna] 它们往往在多地部署多种模型，这让跨区域的自动扩展变得极难。为了应对这种突发性，Modal 引入了 GPU 快照技术：它可以把 GPU 上的状态（比如编译好的模型）直接冻结，下一次调用时跳过漫长的启动过程。[13:51 Akshat Bubna] 主持人 Vibhu 指出，像 Cursor Composer 这样的应用，每隔几小时就要在模型上跑强化学习，这种动辄在几千个 GPU 上频繁增减的任务，正是 Modal 擅长的。[11:50 Vibhu]\n\n在推理加速这条硬核路线上，Modal 最近重点推的是开源的 DeFlash——一个基于块的推测器。Akshat 用大白话科普了投机解码：传统是大模型一步步生成词，投机解码是让一个小模型（草稿模型）在大模型前面先预测一批词，大模型负责验证。只要小模型猜得准，大模型就能批量验证，算力利用更高效。这里有个反直觉的洞见：大家常谈优化底层内核，但内核改进往往只有几个百分点的提升；而想办法增加「接受长度」（小模型猜对被采纳的长度），能带来 2 到 4 倍的乘法级提速，且质量完全不降，因为大模型永远不会接受错的词。[17:37 Akshat Bubna] 在此基础上，他们推出了 Auto Endpoints：一个开箱即用、内置全部优化的端点产品，但代码全透明给你，随时可以弹出改写，而不是黑盒。[18:38 Akshat Bubna]\n\n随着算力需求暴涨，Modal 怎么搞 GPU 成了焦点。Akshat 透露他们没有自己的数据中心，而是横跨 17 家云提供商搭建了一个超级云的容量池。[24:14 Akshat Bubna] 这样做是因为各种新云（neocloud）的可靠性参差不齐，Modal 在上面加了一层自己的可靠性层，一旦某块 GPU 掉线，用户工作负载不受影响。[25:15 Akshat Bubna] 这背后的算力规划极其复杂，涉及一年期和三年期预留比例、不同 GPU 类型的互换性等，甚至被 swyx 类比为航空业对冲燃料成本。[39:00 swyx] 这种控制力还带来了一个批量层：如果客户不在乎延迟，只要在 24 小时内出结果，就能拿到便宜得多的算力。[39:34 Akshat Bubna]\n\n有了这套基础设施，Modal 自然延伸到了多节点训练和网络层。他们不支持跨数据中心的大规模预训练，但非常适合中等规模的后训练（post-training，即训练好基础模型后的微调阶段）。[33:04 Akshat Bubna] 网络方面，他们提供了 IPv6 的 overlay 网络（一种虚拟覆盖网络）、eBPF（一种内核级网络过滤技术）控制，甚至能跑 RDMA（一种绕过传统网络协议实现极低延迟的传输技术），达到每秒 3 万亿比特的内部传输速度。[32:36 Akshat Bubna] 让人意外的是，这套原本为内部分布式训练准备的网络原语，被用户自己翻文档翻出来，用在了强化学习上。[28:56 Akshat Bubna]\n\n网络搞定后，沙箱（sandbox，一种隔离的代码运行环境）的玩法也升级了。除了能做快照快速恢复，沙箱现在支持 sidecar（一种伴随主容器运行的辅助容器），能运行中间人代理来记录日志或控制外部网络。[27:06 Akshat Bubna] swyx 评价说，Modal 不小心造出了让智能体自由表达的基础组件——涉及更多文件系统和 CPU。Akshat 坚持在沙箱层面要有硬护栏（guardrails，指死的安全边界），防止数据外泄，对纯靠大模型来中介权限持怀疑态度。[43:12 Akshat Bubna] 这也是为什么像 Ramp 这种做内部会计智能体的公司，在转向生产级部署时，会需要 Modal 这种专门的沙箱提供商来精细控制持久化文件和网络，而不是停留在 Anthropic 的托管智能体层面。[44:45 Akshat Bubna]\n\n值得一提的是，Modal 一直刻意回避做模型 API 服务。Akshat 认为提供模型 API 最终会沦为服务业余爱好者市场，粘性太低，他们想做的是服务那些有自定义架构、需要在代码层面深度调整的产品级公司。[48:34 Akshat Bubna] 他们也看到 AI 正在重塑更多领域：比如智能体操作视频剪辑工具（像 ffmpeg）、计算生物学和机器人部署。为此，Modal 的 SDK 已经从纯 Python 扩展到了 Go 和 TypeScript——因为很多玩智能体的人其实不做底层机器学习，更习惯用 TypeScript 写逻辑。[55:04 Akshat Bubna]\n\n## 本集带走\n\n最后收个尾，这一集值得带走的是这么几条。第一，好基础设施的判断标准变了：以前是为开发者省事，现在是为智能体省事——但核心诉求是一样的，即把繁杂的配置变成代码里几个直观的装饰器。第二，在 AI 时代，规模化和弹性的极端需求被放大了，谁能横跨几十家云厂商搭出高可靠容量池，同时用快照技术抹平冷启动延迟，谁就握住了算力调度的命门。第三，不要迷信黑盒，无论前端封装得多好，底层的训练逻辑、推理代码和网络控制力依然需要全透明、可随时介入；专注底层硬核的优化（比如投机解码的乘法级提速），往往比单纯做模型封装更有壁垒。",
+  "quotes": [
+    {
+      "en": "Why would you have an agent read through hundreds of Kubernetes files and write YAML that's not even typed when it can basically make a couple of changes in a decorator and it gets this sort of self-provisioning runtime of being able to see its changes live in action.",
+      "zh": "为什么你要让一个智能体去阅读数百个 Kubernetes 文件并编写甚至没有类型的 YAML，而它基本上可以在一个装饰器中做几个更改，然后获得这种能够自我配置的运行时，实时看到它的更改在运行中生效。",
+      "timestamp": "05:06",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "Improving kernel only give you like few percentage points improvement and increasing except lengths literally is multiplicative decrease in two to four x",
+      "zh": "改进内核只给你几个百分点的提升，而增加接受长度实际上是 2 到 4 倍的乘法性减少。",
+      "timestamp": "17:38",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "we built sandboxes in May of 2023 before anyone was even knew this was going to be a thing.",
+      "zh": "我们在 2023 年 5 月构建了沙箱，在任何人甚至知道这将成为一件事之前。",
+      "timestamp": "09:19",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "This is one thing we've kind of stayed away from is providing an API for models",
+      "zh": "这是我们一直有所回避的一件事，就是为模型提供 API。",
+      "timestamp": "48:34",
+      "speaker": "Akshat Bubna"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "Why would you have an agent read through hundreds of Kubernetes files and write YAML that's not even typed when it can basically make a couple of changes in a decorator and it gets this sort of self-provisioning runtime of being able to see its changes live in action.",
+      "zh": "为什么你要让一个智能体去阅读数百个 Kubernetes 文件并编写甚至没有类型的 YAML，而它基本上可以在一个装饰器中做几个更改，然后获得这种能够自我配置的运行时，实时看到它的更改在运行中生效。",
+      "timestamp": "05:05",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "Improving kernel only give you like few percentage points improvement and increasing except lengths literally is multiplicative decrease in two to four x",
+      "zh": "改进内核只给你几个百分点的提升，而增加接受长度实际上是 2 到 4 倍的乘法性减少。",
+      "timestamp": "17:37",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "we built sandboxes in May of 2023 before anyone was even knew this was going to be a thing.",
+      "zh": "我们在 2023 年 5 月构建了沙箱，在任何人甚至知道这将成为一件事之前。",
+      "timestamp": "09:19",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "This is one thing we've kind of stayed away from is providing an API for models",
+      "zh": "这是我们一直有所回避的一件事，就是为模型提供 API。",
+      "timestamp": "48:34",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "we've built this capacity pool that spans 17 cloud providers.",
+      "zh": "我们建立了这个跨越 17 个云提供商的容量池。",
+      "timestamp": "24:14",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "if you subtract out the autoscaling, it's controlling things like tail latency and making sure every request is delivered at least once and whatnot.",
+      "zh": "即使你把自动伸缩排除掉，它还包括控制诸如尾延迟这样的事情，并确保每个请求至少被交付一次等等。",
+      "timestamp": "21:50",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "running production grade inference is a hard and fair problem.",
+      "zh": "运行生产级推理是一个困难且合理的问题。",
+      "timestamp": "21:43",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "we don't have our own data centers.",
+      "zh": "我们没有自己的数据中心。",
+      "timestamp": "24:25",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "this was literally not even in our docs page people somehow found it and they're using it",
+      "zh": "这简直甚至不在我们的文档页面上，人们不知怎么地发现了它，而且他们在使用它。",
+      "timestamp": "29:07",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "the thing that we've built Multano training for is we see a lot of smaller-scale post-training.",
+      "zh": "我们构建 Multano 训练的原因是我们看到了很多较小规模的后训练。",
+      "timestamp": "33:04",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "you always need hard guardrails when you want",
+      "zh": "当你需要时，你总是需要硬护栏。",
+      "timestamp": "43:47",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "Kubernetes is hard to manage.",
+      "zh": "Kubernetes 很难管理。",
+      "timestamp": "00:57",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "they actually find the model is way faster used for agents versus operating on a different substrate.",
+      "zh": "他们实际上发现用于智能体的 model 比操作在一个不同的底层上要快得多。",
+      "timestamp": "05:27",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "one thing we actually still see is really important is observability.",
+      "zh": "我们实际看到仍然非常重要的一件事是可观测性。",
+      "timestamp": "05:46",
+      "speaker": "Akshat Bubna"
+    },
+    {
+      "en": "you have true scaling to zero.",
+      "zh": "你拥有真正的扩展至零。",
+      "timestamp": "21:09",
+      "speaker": "Akshat Bubna"
+    }
+  ]
+}

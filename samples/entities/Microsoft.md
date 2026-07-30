@@ -7,29 +7,23 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Microsoft</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Microsoft">MI</div><div class="pi"><h1 class="pt">Microsoft</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Microsoft">MI</div><div class="pi"><h1 class="pt">Microsoft</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱》]]**(35:16起):本集举例说明历史：当年微软靠 Windows 的分发优势打败了网景浏览器，并探讨模型是否会像 Windows 一样在堆栈中拥有垄断杠杆。
-- **[[2026-06-03-latent-space-satya-2026|《Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP》]]**(00:28起):本集将其描述为正经历第四次平台变迁的科技巨头，并提出应将 AI 视为生态系统而非单一模型，同时正以惊人速度扩建 Azure 算力。
-- **[[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]]**(01:20起):Fiona 职业生涯早期工作了 11 年的公司；她在那里首次接触带调试器的 IDE，经历了从光盘硬截止日期到云端在线发版的转变。
-- **[[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]]**(15:00起):本集作为历史类比提及，批评 Anthropic 等闭源大厂「快进」了微软昔日的 playbook，跳过开放平台直接进入垄断收割阶段。
-
-## ① 提到它的金句
-
-*1 条,均已过机器闸门*
-
-![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q7]]
+- **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(35:16起):本集举例说明历史：当年微软靠 Windows 的分发优势打败了网景浏览器，并探讨模型是否会像 Windows 一样在堆栈中拥有垄断杠杆。
+- **[[2026-06-03-latent-space-satya-2026|《Satya Nadella：别在一个模型上顶礼膜拜，这才是 AI 时代真正的平台逻辑》]]**(00:28起):本集将其描述为正经历第四次平台变迁的科技巨头，并提出应将 AI 视为生态系统而非单一模型，同时正以惊人速度扩建 Azure 算力。
+- **[[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]]**(01:20起):Fiona 职业生涯早期工作了 11 年的公司；她在那里首次接触带调试器的 IDE，经历了从光盘硬截止日期到云端在线发版的转变。
+- **[[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]]**(15:00起):本集作为历史类比提及，批评 Anthropic 等闭源大厂「快进」了微软昔日的 playbook，跳过开放平台直接进入垄断收割阶段。
 
 ## ② 出现在这些集
 
 *4 集*
 
-- [[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱》]] — 作为被讨论公司(提及)
-- [[2026-06-03-latent-space-satya-2026|《Satya Nadella 谈 AI 时代平台逻辑:私有评估是最大 IP》]] — 作为被讨论公司
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《当代码量暴涨8倍:Anthropic工程负责人谈AI时代的团队重构》]] — 作为被讨论公司(提及)
-- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]] — 作为被讨论公司(提及)
+- [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司(提及)
+- [[2026-06-03-latent-space-satya-2026|《Satya Nadella：别在一个模型上顶礼膜拜，这才是 AI 时代真正的平台逻辑》]] — 作为被讨论公司
+- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]] — 作为被讨论公司(提及)
+- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 

@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]]**(17:18起):本集把它说成:运行 OpenClaw 智能体的理想硬件底座;Claire 买了三台把它当作智能体团队日常运转的生产力服务器,不需要配显示器(可屏幕共享)就能跑。
+- **[[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]]**(17:18起):本集把它说成:运行 OpenClaw 智能体的理想硬件底座;Claire 买了三台把它当作智能体团队日常运转的生产力服务器,不需要配显示器(可屏幕共享)就能跑。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得》]] — 作为概念
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]] — 作为概念
 
 ## ③ 关联
 

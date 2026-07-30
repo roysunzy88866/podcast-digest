@@ -1,5 +1,5 @@
 ---
-title: GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型
+title: GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力
 podcast: "Lenny's Podcast"
 date: 2026-07-13
 source_url: https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local
@@ -7,7 +7,7 @@ duration: "36:38"
 type: episode
 cover: "#6366f1"
 image: "/covers/2026-07-13-lennys-this-solo-builder-runs-247-local.jpg"
-description: 深度实测 GPT 5.6 Soul：不仅设计品味碾压 Fable，更是浏览器操控和多步原型构建的实用利器。
+description: 博主讲清 GPT 5.6 Soul 三大实战优势，对比 Fable 的迂腐与不可沟通，并分享杀手级用例。
 host: "[[Alex Finn]]"
 companies: ["[[Anthropic]]", "[[open ai]]"]
 concepts: ["[[系统提示词]]", "[[gpt 5.6]]", "[[fable]]", "[[Codex]]", "[[智能体]]", "[[提示词]]", "[[原型]]", "[[浏览器使用]]"]
@@ -17,9 +17,9 @@ tags:
   - AI 编程
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型
+# GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力
 
 
 
@@ -27,7 +27,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-13-lennys-this-solo-builder-runs-247-local.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我已经决定，这将是一个 70% 个人品味、30% 机器的分配比例来评估这些模型。</div><div class="a">Alex Finn · 07:27</div></div>
+<div class="pd-hook"><div class="z">Fable 在理论上是超级智能的，而 Soul 在实践中是行之有效的。</div><div class="a">Alex Finn · 21:23</div></div>
 
 > [!info] 关联
 > **人物** [[Alex Finn]]
@@ -38,65 +38,43 @@ tags:
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local)
 
-<div class="pd-tldr"><b>一句话</b>深度实测 GPT 5.6 Soul：不仅设计品味碾压 Fable，更是浏览器操控和多步原型构建的实用利器。</div>
+<div class="pd-tldr"><b>一句话</b>博主讲清 GPT 5.6 Soul 三大实战优势，对比 Fable 的迂腐与不可沟通，并分享杀手级用例。</div>
 
-播客主持人 [[Alex Finn|Alex Finn]] 在失去模型访问权限的一周里倍感煎熬，但这正是因为她遇到了真正的「心头好」——OpenAI 的 GPT 5.6 系列模型 <button class="pd-ts" data-t="00:36" data-who="Alex Finn" data-en="than all of them or not i have been testing this model for a couple weeks there was a few days there where we didn't have access and i found myself desperate" aria-label="回原文"></button>。本集聚焦于这个新发布的模型家族，特别是其中的大杯版「Soul」与 Anthropic 的 Fable 之间的正面交锋。Alex 会先用一套自建的评测基准告诉你 GPT 5.6 Soul 在设计品味上如何胜出，接着深入实际工作场景对比两者的协作能力，最后分享三个 Soul 表现极其亮眼的杀手级用例。
+如果有个模型，干起活来既聪明又像个通人情的老手，能替你把枯燥的事全包了，你大概也会因为停用它而感到抓狂。说这话的是 [[Alex Finn|Alex Finn]]，在她自建的评测体系里，OpenAI 新发布的 GPT 5.6 Soul 击败了包括 Fable 在内的一众顶尖模型。<button class="pd-ts" data-t="00:13" data-who="Alex Finn" data-en="the last week i have not had access to my true favorite top of the line model gpt56 but guess what babes it is back and i am here to walk you through gpt56 soul gpt56 luna gpt56 tara i'm gonna tell you what are these models" aria-label="回原文"></button>
 
-## 评测标准：拒绝「氛围感」，用 70/30 法则量化品味
+这一集里，她以「想了解但不熟」的视角，梳理了几个核心问题：OpenAI 新发的三个模型怎么分工，Soul 在她极其严格的「品味盲测」里凭什么赢了 Fable，以及在真实工作流中，把死板的 Fable 换成 Soul 会产生怎样惊人的效率解锁。最后她还展示了 Soul 几个最让人眼前一亮的实战杀手锏。
 
-说完了核心看点，接下来是她具体是怎么测的。Alex 对那种凭直觉的「氛围感测试」感到厌倦，因此她建立了一套名为「How i ai」的评测基准 <button class="pd-ts" data-t="04:22" data-who="Alex Finn" data-en="if you missed my episode on fable i got kind of bored of the vibey vibe check and i built a extremely scientific how i ai benchmark now this how i ai benchmark tests basically a couple things it tests the ability" aria-label="回原文"></button>。这套基准会考察模型在编写 PRD（产品需求文档）、开发设计[[原型|原型]]、调试代码以及像人类一样对话这四个高频场景的表现 <button class="pd-ts" data-t="04:33" data-who="Alex Finn" data-en="now this how i ai benchmark tests basically a couple things it tests the ability to generate good prds it tests the ability for it to wireframe against a couple different app ideas develop fully designed robust designed prototypes debug" aria-label="回原文"></button>。
+说完了这集要聊的主线，先来看看 OpenAI 这一批新模型的基本盘。新发布的 GPT 5.6 系列分成三档 <button class="pd-ts" data-t="01:16" data-who="Alex Finn" data-en="into too much depth about the models and the benchmarks i'll just give you the hits first open ai is releasing three new versions of their gpt 5.6 model sol which is the next generation frontier model the brainiest of the brainiest" aria-label="回原文"></button>：Soul 是最聪明的前沿大模型，Tara 走均衡实用路线适合写文档，Luna 则像 Mini 版主打便宜量足。在这一集的评测里，主角是顶配的 Soul，以及用来做横向对比的 Anthropic 的 Fable。从定价上看，Soul 的 API 调用价格比 Fable 便宜了一半左右，而且 Soul 更倾向于被大方地塞进用户的订阅额度里，这让它在性价比上占据了绝对优势 <button class="pd-ts" data-t="02:16" data-who="Alex Finn" data-en="that i'm doing every day okay quick note on pricing soul is a lot more affordable than fable so it's five dollars per million input tokens thirty dollars per million output" aria-label="回原文"></button>。但价格不是重点，真正让 Alex 倾心的是它的实战表现。
 
-在评判结果时，她没有完全依赖机器，而是采用了 70% 个人品味与 30% 机器评分（使用 GPT 5.5 作为最严厉的裁判）的加权法则 <button class="pd-ts" data-t="07:11" data-who="Alex Finn" data-en="the claire weighted index says now this is my show this is my podcast and so i sort of strike the balance between what the llm judge said about the performance of" aria-label="回原文"></button>。在这种强调实际视觉与交互体验的规则下，GPT 5.6 Soul 以极高的「设计品味」脱颖而出——它的品味得分远超其他模型，在盲测中经常产出 Alex 最喜欢的结果 <button class="pd-ts" data-t="07:38" data-who="Alex Finn" data-en="30 the machines split on evaluating these models and so if you look at that 70 30 split your girl loves five six soul she just does it had the highest taste score by a significant amount so i just thought it output" aria-label="回原文"></button>。
+了解了基本盘，接下来的问题是：怎么才算一个好模型？为了不凭感觉瞎吹，Alex 搭建了一套名为「How i AI」的评测基准，逼着这几个顶尖大模型硬碰硬地做题 <button class="pd-ts" data-t="04:22" data-who="Alex Finn" data-en="if you missed my episode on fable i got kind of bored of the vibey vibe check and i built a extremely scientific how i ai benchmark now this how i ai benchmark tests basically a couple things it tests the ability" aria-label="回原文"></button>。测试范围覆盖了从写 PRD（产品需求文档）、做前端[[原型|原型]]、排查代码 Bug，到像真人一样跟用户闲聊拉扯。为了公平，她不仅找来了 GPT 5.5 作为冷酷无情的机器裁判，还加入了 70% 权重的「个人盲测」——也就是她自己反复审阅几十个生成结果，靠人类的品味来打分。结果很直白：在出彩的网页设计和直白的商务文档上，Soul 拿下了最高分，而干净的 Tara 适合写精炼的 PRD，Anthropic 的 Sonnet 5 在排查 Bug 上表现最严谨 <button class="pd-ts" data-t="08:44" data-who="Alex Finn" data-en="and i would say had some good outcomes there um and then tara luna did fine work sonnet 5 at the bottom really haven't figured out how to get this one working although there's" aria-label="回原文"></button>。
 
-## 设计对决：Soul 的独特性与实用主义 vs Fable 的套路化
+这套冷酷基准跑下来，Soul 与 Fable 的气质差异彻底暴露了。Soul 是个能干活、审美在线的实干家。在做那种密密麻麻的后台操作仪表盘时，Fable 给出的设计虽然可用，但排版死板，颜色也没有语义逻辑 <button class="pd-ts" data-t="14:30" data-who="Alex Finn" data-en="that made a big difference on how i'm evaluating things now let's look at the fable design again it's pretty good it's actually a lot harder to read though and" aria-label="回原文"></button>。反观 Soul，一上来就用中性色搭出了清爽的视觉层次，而且可点击、可分配，你要的功能全都能跑通。Alex 甚至通过翻看模型底层的系统[[提示词|提示词]]，发现 Soul 有个特别有意思的偏好——它被写入了一种叫做「森林绿」的审美设定 <button class="pd-ts" data-t="17:22" data-who="Alex Finn" data-en="because they love me it loves a forest green it loves a forest green in fact i think this forest green is like" aria-label="回原文"></button>。虽然偶尔显得有些刻意，但这种带点主见、拒绝千篇一律的设计感，正是她给 Soul 打高分的原因。
 
-评测方法理清了，那具体到产品原型设计上，两者表现如何呢？在构建复杂的仪表盘或应用原型时，Alex 发现 Soul 的设计不仅更独特，而且真正具备可用性。它不会像其他模型那样默认产出千篇一律的「暗色模式、等宽字体」布局，而是能给出干净的中性色彩布局和良好的视觉层级，且所有交互功能都能真正运转 <button class="pd-ts" data-t="13:53" data-who="Alex Finn" data-en="the other ones really just looked like this dark mode mono space kind of layout as you can see here soul actually has like a really clean kind of like neutral color layout with great visual hierarchy semantic color" aria-label="回原文"></button>。
+工具的审美差异讲完了，那跟它「共事」是什么感觉呢？这正是下一个让人抓狂的话题：Fable 简直是个不会说话的极客，而 Soul 才像个真正的同事 <button class="pd-ts" data-t="19:36" data-who="Alex Finn" data-en="and in particular a lot better than fable number one it writes like a normal person i cannot cope i love fable your brainy i as i showed the eval show you do a pretty good job i cannot talk" aria-label="回原文"></button>。Alex 吐槽，Fable 虽然能干复杂的苦力活，但它输出的文字极度迂腐、晦涩，满嘴机器语言，让人根本没法看懂它在纠结什么。更要命的是它的死板。Alex 曾让它搭一个把外部数据吞进来做分析的产品大脑，Fable 非要钻牛角尖，死死卡在一个「必须能精确验证」的循环里出不来，非要求系统生成的每一句人类语言都能被代码严格复现 <button class="pd-ts" data-t="30:56" data-who="Alex Finn" data-en="an unlock very similar to my insights generating engine fable really wanted to like score and lint this effort and wanted to like be able to deterministically figure out if generating prose could be like reproducible" aria-label="回原文"></button>。这种理论上的绝对严谨，在真实的产品开发里根本行不通。而 Soul 就圆滑得多，当 Alex 让它别再钻牛角尖时，它能迅速绕过自己给自己设下的死规矩，立刻把杂乱的数据理顺，输出一套真正有用的知识页面 <button class="pd-ts" data-t="31:48" data-who="Alex Finn" data-en="unlocked but five six was very willing to reconsider its own kind of limitations and build something i'm going to do two more quick use cases where i think gpt five six is really good i will get you out" aria-label="回原文"></button>。用她的话说，Fable 是理论上的天才，而 Soul 是能真正把事情办成的地头蛇 <button class="pd-ts" data-t="21:17" data-who="Alex Finn" data-en="and what i really feel like the difference if you would take away like one highlight um difference between fable and soul is like fable is theoretically" aria-label="回原文"></button>。
 
-相比之下，Fable 虽然能产出可用的线框图，但往往设计缺乏独特性，颜色分配缺乏逻辑，阅读起来也更困难 <button class="pd-ts" data-t="14:32" data-who="Alex Finn" data-en="the fable design again it's pretty good it's actually a lot harder to read though and the design i would say is not as unique" aria-label="回原文"></button>。
-
-> 【背景】在这类 AI 辅助的开发中，大家常吐槽模型会生成一种名为「slop（垃圾话/套路货）」的内容——比如千篇一律的渐变色、毫无必要的破折号（em dash）或是廉价感满满的 emoji。Alex 对此深恶痛绝。
-
-Alex 特别指出，Soul 会有意识地避免落入这种俗套，虽然它有着极其偏爱「森林绿」的固执偏好（这可能被写在了它的系统[[提示词|提示词]]里），但它总能带着鲜明的「设计观点」去生成网页，给用户提供灵感 <button class="pd-ts" data-t="16:09" data-who="Alex Finn" data-en="of the same as the doc scheduler it just does the job of this is a incident triage site it just does the job a lot better than i would say the fable 5 did fable 5 is fine it's just not that unique and again" aria-label="回原文"></button>。
-
-## 协作鸿沟：「理论聪明」的 Fable 与「实际有效」的 Soul
-
-设计上的差异只是表象，工具变了，当真正让模型去干活时，人的感受成了决定性因素。Alex 对 Fable 最大的不满在于它的沟通方式：极其技术化、极其迂腐，就像一个从未见过人类的工程师在进行晦涩难懂的表达 <button class="pd-ts" data-t="20:14" data-who="Alex Finn" data-en="about it is incredibly inscrutable writing and that makes it very hard to collaborate with your model and so what i would say is my experience using fable has been it is like incredibly" aria-label="回原文"></button>。
-
-这种沟通上的挫败感，折射出两者更深层的差异。Alex 总结道：Fable 是「理论上极其聪明」，而 Soul 是「实际上极其有效」 <button class="pd-ts" data-t="21:26" data-who="Alex Finn" data-en="and soul is like fable is theoretically hyper intelligent and soul is practically effective and so like i've been executive long time i've been a manager" aria-label="回原文"></button>。
-
-这种差异在处理复杂代码架构时尤为致命。在构建一个产品原型工具时，Fable 顽固地执行了一套高度僵化的架构，导致只能运行特定的 GPT 5.5 模型，其他所有开源模型都无法运行。Alex 坚持认为这不是模型的问题，要求调整，但 Fable 固执己见 <button class="pd-ts" data-t="29:57" data-who="Alex Finn" data-en="so my example is it like had this very hardened tool calling loop in my prototyping tool and only gpt 5.5 would run like i could not get any other model to run" aria-label="回原文"></button>。
-
-而当她切换到 Soul 并指示它「别再这么死板」时，Soul 能够跳出自己原先设下的思维局限，一次性就调整了架构并让所有模型顺利跑通 <button class="pd-ts" data-t="30:35" data-who="Alex Finn" data-en="to work this is ridiculous just do what you think is correct it it fixed it and it got it actually working now did it get it working perfectly no do i think this is a great design no i'm trying to figure out what the problem is but" aria-label="回原文"></button>。这种愿意重新评估自身局限、适当放宽确定性约束以「把事情办成」的实用主义，让 Soul 成为产品研发过程中的得力助手。
-
-## 杀手级用例：视频剪辑与浏览器自动化
-
-除了常规的代码和原型开发，Soul 的能力边界在两个具体的实用场景中被彻底激发。第一个是视频剪辑。Alex 需要将一段冗长的演讲录像剪辑成适合社交媒体发布的短视频，她只需将文件拖入，提出「横竖屏、节奏更紧凑」等需求，Soul 就迅速帮她生成了多段精彩的短视频片段，极大地节省了人工寻找素材和剪辑的枯燥时间 <button class="pd-ts" data-t="32:30" data-who="Alex Finn" data-en="the cursor team thank you very much and i really wanted to make it a hype video so all you have to do is literally drag the file in here and i said can you cut this video into five clips for social" aria-label="回原文"></button>。
-
-最令 Alex 感到震撼的，是 Soul 在结合 Codex（一种编程工具）进行浏览器操控时的表现。通过 `@chrome` 指令让模型接管已登录的网页，Soul 化身为不知疲倦的助理。Alex 让它去清理积压的 500 条 LinkedIn 消息，设定了极高的筛选标准，Soul 准确地回复了重要消息、向关注者表达了感谢，甚至还能用来测试网页应用和填写繁琐的表单 <button class="pd-ts" data-t="34:09" data-who="Alex Finn" data-en="and like i'm sorry linkedin i know i'm not supposed to do this but i opened up linkedin and i said can you use chrome to reply to messages that are very high value to chat prd or the how i a podcast keep" aria-label="回原文"></button>。一旦习惯了这种级别的自动化，再回退到旧模型时，Alex 直呼「我的生活变糟了」 <button class="pd-ts" data-t="34:56" data-who="Alex Finn" data-en="browser use and five six and when i got rolled back to five five my life was worse so please please please learn to use at chrome at browser and at computer and just let let codex rip and let gpt56 rip" aria-label="回原文"></button>。
+既然 Soul 这么好用，那除了写代码，它还能干什么？这正是接下来最让人兴奋的部分。第一个隐藏用法是剪辑视频 <button class="pd-ts" data-t="32:02" data-who="Alex Finn" data-en="two use cases that i think are amazing first one is video editing video editing i have to do a lot of social clipping and it's really tedious to go through and clip videos" aria-label="回原文"></button>。Alex 最近需要把一段长演讲剪成适合发社交媒体的短视频。她直接把视频文件丢给 Soul，要求切成五段、加快节奏。Soul 一键给出了非常出彩、紧凑的片段，省下了大量人工扒素材的时间。但最能体现它强悍实力的，是操作浏览器 <button class="pd-ts" data-t="33:40" data-who="Alex Finn" data-en="finally the last and best use case of of five six and i cannot believe i waited to the end to show this is it is a beast beast when it comes to browser use i am deeply obsessed with letting codex plus gpt five six and chrome" aria-label="回原文"></button>。Alex 直接让 Soul 接管了浏览器登录页，给它下指令：「帮我把那些有价值的 LinkedIn 私信处理了，只通过高管的好友请求，不用管那些随便发的连接」。结果，Soul 像个不知疲倦的业务员，一口气处理了约 500 条消息，完美筛选并执行了任务。这种甩出一句模糊目标、然后彻底放手让模型自己干自己验的体验，彻底改变了她的工作方式。
 
 ## 本集带走
 
-1. **实用主义胜过死板的精确**：在构建产品时，Fable 那种追求极致精确和僵化架构的思路往往会作茧自缚；而 Soul 懂得适当放宽约束，跳出固有思维，从而真正解决阻碍交付的复杂技术难题。
-2. **GPT 5.6 Soul 拥有碾压级的「设计品味」**：它不再产出千篇一律的套路化设计，而是带有鲜明的个人观点与审美偏好，输出的原型具备极高的可用性与视觉启发性。
-3. **浏览器自动化是终极杀手锏**：结合 `@chrome` 或 `@browser` 等指令，模型能够直接接管网页端的高价值重复性劳动（如处理消息、筛选信息、填写表单），这是目前最具革命性的效率提升方式。
+最后收个尾，这一集值得带走的是三句话。第一，模型不是越大越死板越好，Soul 击败 Fable 的核心，在于它敢于放弃对「绝对严谨」的执念，做一个听懂人话、懂得适当妥协、能真正交付结果的实干派。第二，评价一个模型不能光看跑分，Alex 那套七分靠人类审美、三分靠机器裁判的盲测法告诉我们，真正决定产品成败的，是它能否给出有主见的设计和能跑通的功能。第三，大模型真正的杠杆效应，在于主动放开手——把视频剪辑、筛选 500 条消息这些枯燥活儿，连同一个模糊的目标直接丢给它，让它自己在浏览器里折腾，这远比手把手下指令要高效得多。
 
 <div class="pd-sec">全部金句 <span>4 条(中英对照,已过机器闸门)</span></div>
 
-> <span class="qz">我已经决定，这将是一个 70% 个人品味、30% 机器的分配比例来评估这些模型。</span>  
-> *i've decided it's going to be a 70 claire vo 30 the machines split on evaluating these models*  
-> <span class="qm">—— Alex Finn · [07:27]</span> ^q1
-
-> <span class="qz">我讨厌和 Fable 5 交谈，因为它和我说话就像一个从未见过人类的工程师，就像它在地球上的第一天。</span>  
-> *i hate talking to fable 5 because it talks to me like an engineer that has never met a human before it's like its first day on earth*  
-> <span class="qm">—— Alex Finn · [08:29]</span> ^q2
-
-> <span class="qz">Fable 理论上超级智能，而 Soul 实际上有效。</span>  
+> <span class="qz">Fable 在理论上是超级智能的，而 Soul 在实践中是行之有效的。</span>  
 > *fable is theoretically hyper intelligent and soul is practically effective*  
-> <span class="qm">—— Alex Finn · [21:23]</span> ^q3
+> <span class="qm">—— Alex Finn · [21:23]</span> ^q1
 
-> <span class="qz">只有 GPT 5.5 能运行，我无法让任何其他模型运行。</span>  
-> *only gpt 5.5 would run like i could not get any other model to run*  
-> <span class="qm">—— Alex Finn · [29:59]</span> ^q4
+> <span class="qz">Fable 非常像一种为智能体服务、由智能体组成的沟通机制，我几乎听不懂它在说什么。</span>  
+> *fable is very much like a for agents by agents communication mechanism i can barely make out what it's talking about*  
+> <span class="qm">—— Alex Finn · [20:01]</span> ^q2
+
+> <span class="qz">精确的精准度既没有帮助也不可能。</span>  
+> *exact precision is neither helpful nor possible*  
+> <span class="qm">—— Alex Finn · [28:28]</span> ^q3
+
+> <span class="qz">我当高管很久了，我当经理很久了，我真的很难与理论上聪明但什么都做不了的同事一起工作。</span>  
+> *i've been executive long time i've been a manager a long time like i really struggle working with theoretically intelligent colleagues who can't get anything done*  
+> <span class="qm">—— Alex Finn · [21:32]</span> ^q4
 
 <div class="pd-sec">接着看</div>
 
@@ -105,8 +83,8 @@ Alex 特别指出，Soul 会有意识地避免落入这种俗套，虽然它有�
 
 **顺着「智能体」挖下去**
 
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|OpenClaw 深度玩法：三任 CPO 的九个智能体实战心得]] —— 同概念:soul、智能体 (agent)、浏览器使用 (browser use)
-- [[2026-singju-openclaw-80apps|OpenClaw创始人：为何80%的应用将消失]] —— 同概念:codex、智能体 (agent)
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]] —— 同概念:soul、智能体 (agent)、浏览器使用 (browser use)
+- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]] —— 同概念:codex、智能体 (agent)
 - [[2026-06-22-latent-space-gray-swan|让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏]] —— 同公司:anthropic · 同概念:智能体 (agent)、codex
 
 </div>
@@ -115,8 +93,8 @@ Alex 特别指出，Soul 会有意识地避免落入这种俗套，虽然它有�
 **换个口味**
 
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当代码不再是瓶颈,品味和策展成为产品团队的稀缺力]] —— 同概念:codex、原型 (prototype)、智能体 (agent)
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同公司:anthropic · 同概念:codex、智能体 (agent)
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同公司:anthropic · 同概念:智能体 (agent)、提示词 (prompt)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同公司:anthropic · 同概念:codex、智能体 (agent)
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同公司:anthropic · 同概念:智能体 (agent)、提示词 (prompt)
 
 </div>
 </div>

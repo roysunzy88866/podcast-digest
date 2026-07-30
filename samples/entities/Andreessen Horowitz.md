@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]]**(01:01起):本集嘉宾 Ben Horowitz 联合创立的风险投资公司，签署了上述公开信，并在节目中反对以安全为名禁止开源 AI 的反竞争行为。
+- **[[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]]**(01:01起):本集嘉宾 Ben Horowitz 联合创立的风险投资公司，签署了上述公开信，并在节目中反对以安全为名禁止开源 AI 的反竞争行为。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《为什么开源是AI安全与创新的底线：Ben Horowitz谈开放权重之争》]] — 作为被讨论公司
+- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为被讨论公司
 
 ## ③ 关联
 

@@ -1,6 +1,14 @@
 {
   "kept": [
     {
+      "i": 1,
+      "timestamp": "04:43",
+      "speaker": "Evan Spiegel",
+      "trimmed": false,
+      "tsWas": "04:43",
+      "spkWas": "Evan Spiegel"
+    },
+    {
       "i": 2,
       "timestamp": "10:24",
       "speaker": "Evan Spiegel",
@@ -18,42 +26,42 @@
     },
     {
       "i": 4,
-      "timestamp": "35:38",
+      "timestamp": "32:29",
       "speaker": "Evan Spiegel",
-      "trimmed": false,
-      "tsWas": "35:37",
+      "trimmed": true,
+      "tsWas": "32:34",
       "spkWas": "Evan Spiegel"
     },
     {
       "i": 5,
-      "timestamp": "50:46",
+      "timestamp": "36:29",
       "speaker": "Evan Spiegel",
       "trimmed": false,
-      "tsWas": "50:46",
+      "tsWas": "36:29",
       "spkWas": "Evan Spiegel"
     },
     {
       "i": 6,
-      "timestamp": "64:25",
+      "timestamp": "64:47",
       "speaker": "Evan Spiegel",
       "trimmed": false,
-      "tsWas": "64:21",
+      "tsWas": "01:03",
       "spkWas": "Evan Spiegel"
     },
     {
       "i": 7,
-      "timestamp": "68:23",
+      "timestamp": "25:05",
       "speaker": "Evan Spiegel",
       "trimmed": false,
-      "tsWas": "68:23",
+      "tsWas": "24:58",
       "spkWas": "Evan Spiegel"
     }
   ],
   "dropped": [
     {
-      "i": 1,
+      "i": 8,
       "reason": "逐字命中不了(裁剪后仍无)",
-      "en": "I think distribution is where it ends up being, what ends up being the new moat and the new biggest challenge because AI is not going to really help you there."
+      "en": "I think humanity is far more important because humanity dictates how technology is adopted."
     }
   ]
 }

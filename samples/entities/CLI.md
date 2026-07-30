@@ -7,25 +7,19 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>CLI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="CLI">CL</div><div class="pi"><h1 class="pt">CLI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="CLI">CL</div><div class="pi"><h1 class="pt">CLI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]]**(01:24起):Dan 断言人们「速通了 CLI 时代」，当真正的图形界面（GUI）与智能体结合时，人类会意识到图形界面远比枯燥的代码行更好用。
-- **[[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]]**(02:35起):Unix 命令行工具的统称。嘉宾认为它正是取代 MCP 的未来，因为机器人“真的很擅长 Unix”，可以即插即用即调多少个都行，而不像 MCP 那样复杂还需要重启配置。
-
-## ① 提到它的金句
-
-*1 条,均已过机器闸门*
-
-![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q7]]
+- **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(01:24起):Dan 断言人们「速通了 CLI 时代」，当真正的图形界面（GUI）与智能体结合时，人类会意识到图形界面远比枯燥的代码行更好用。
+- **[[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]]**(02:35起):Unix 命令行工具的统称。嘉宾认为它正是取代 MCP 的未来，因为机器人“真的很擅长 Unix”，可以即插即用即调多少个都行，而不像 MCP 那样复杂还需要重启配置。
 
 ## ② 出现在这些集
 
 *2 集*
 
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] — 作为概念
-- [[2026-singju-openclaw-80apps|《OpenClaw创始人：为何80%的应用将消失》]] — 作为概念
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为概念
+- [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为概念
 
 ## ③ 关联
 

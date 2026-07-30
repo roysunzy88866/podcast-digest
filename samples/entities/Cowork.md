@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]]**(01:05起):Anthropic 基于 Claude Code 概念构建的更好封装的产品，Dan 预测它和 Codex 一样，将成为承载人们大部分日常工作的本地操作系统。
+- **[[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]]**(01:05起):Anthropic 基于 Claude Code 概念构建的更好封装的产品，Dan 预测它和 Codex 一样，将成为承载人们大部分日常工作的本地操作系统。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切》]] — 作为被讨论公司
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|《SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测》]] — 作为被讨论公司
 
 ## ③ 关联
 

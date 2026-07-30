@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱》]]**(44:57起):本集说 Google 正利用分发优势强推它，并提到普通人根本分不清它和 Claude 的区别，未来可能会驱动 iOS 上的 Apple 智能体。
+- **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(44:57起):本集说 Google 正利用分发优势强推它，并提到普通人根本分不清它和 Claude 的区别，未来可能会驱动 iOS 上的 Apple 智能体。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-05-31-lennys-a-rational-conversation-on-where|《Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱》]] — 作为概念
+- [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为概念
 
 ## ③ 关联
 

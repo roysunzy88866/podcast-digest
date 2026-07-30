@@ -7,43 +7,33 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>生成式 AI (generative AI)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="生成式 AI">生成</div><div class="pi"><h1 class="pt">生成式 AI (generative AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>61</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="生成式 AI">生成</div><div class="pi"><h1 class="pt">生成式 AI (generative AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>52</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《对话 Samsara CEO:AI 进入物理世界,用 25 万亿数据点改造传统工业》]]**(32:54起):本集把它说成:能对视频进行推理(如判断司机急刹车是为了躲避狗),甚至能生成 AI 虚拟教练视频来对司机进行周末安全辅导。
+- **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]]**(32:54起):本集把它说成:能对视频进行推理(如判断司机急刹车是为了躲避狗),甚至能生成 AI 虚拟教练视频来对司机进行周末安全辅导。
 
 ## ① 提到它的金句
 
-*61 条,均已过机器闸门*
+*52 条,均已过机器闸门*
 
-![[2025-11-16-lennys-the-godmother-of-ai#^q2]]
+![[2025-11-16-lennys-the-godmother-of-ai#^q1]]
 
-![[2025-11-16-lennys-the-godmother-of-ai#^q5]]
+![[2025-11-16-lennys-the-godmother-of-ai#^q3]]
+
+![[2025-12-28-lennys-10-contrarian-leadership-truths#^q10]]
+
+![[2025-12-28-lennys-10-contrarian-leadership-truths#^q11]]
+
+![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q1]]
 
 ![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q2]]
 
-![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q3]]
+![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q7]]
 
-![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q5]]
+![[2026-01-25-lennys-why-your-product-stopped-growing#^q4]]
 
-![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q7]]
-
-![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q8]]
-
-![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q4]]
-
-![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q5]]
-
-![[2026-02-26-lennys-ai-is-critical-for-humanitys-survival#^q2]]
-
-![[2026-02-26-lennys-ai-is-critical-for-humanitys-survival#^q4]]
-
-![[2026-02-26-lennys-ai-is-critical-for-humanitys-survival#^q6]]
-
-![[2026-03-01-lennys-the-design-process-is-dead#^q1]]
-
-![[2026-03-01-lennys-the-design-process-is-dead#^q3]]
+![[2026-02-26-lennys-ai-is-critical-for-humanitys-survival#^q1]]
 
 ![[2026-03-08-lennys-the-most-successful-ai-company-youve-nev#^q1]]
 
@@ -51,79 +41,73 @@ unlisted: true
 
 ![[2026-03-08-lennys-the-most-successful-ai-company-youve-nev#^q5]]
 
-![[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo#^q4]]
+![[2026-04-19-lennys-why-half-of-product-managers-are-in-trou#^q4]]
 
-![[2026-04-05-lennys-anthropics-1b-to-19b-growth-run#^q4]]
+![[2026-04-26-lennys-snapchat-ceo-why-distribution-is#^q2]]
 
-![[2026-04-12-lennys-hard-truths-about-building-in-the-ai-era#^q8]]
+![[2026-04-26-lennys-snapchat-ceo-why-distribution-is#^q6]]
 
-![[2026-04-19-lennys-why-half-of-product-managers-are-in-trou#^q2]]
-
-![[2026-04-26-lennys-snapchat-ceo-why-distribution-is#^q1]]
+![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q3]]
 
 ![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q5]]
 
-![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q9]]
+![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q6]]
 
-![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q10]]
+![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q7]]
 
 ![[2026-05-31-lennys-a-rational-conversation-on-where#^q1]]
 
-![[2026-05-31-lennys-a-rational-conversation-on-where#^q3]]
+![[2026-06-14-lennys-the-common-pattern-behind-successful#^q6]]
 
-![[2026-05-31-lennys-a-rational-conversation-on-where#^q9]]
+![[2026-06-24-pg-company-os-jz#^q2]]
 
-![[2026-06-14-lennys-the-common-pattern-behind-successful#^q11]]
+![[2026-06-24-pg-company-os-jz#^q6]]
 
-![[2026-06-24-pg-company-os-jz#^q1]]
+![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q5]]
 
-![[2026-06-24-pg-company-os-jz#^q4]]
+![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q7]]
 
-![[2026-06-24-pg-company-os-jz#^q7]]
+![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q8]]
 
-![[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto#^q4]]
+![[2026-07-09-pg-pm-guide-ai-design#^q2]]
 
-![[2026-07-09-pg-pm-guide-ai-design#^q1]]
-
-![[2026-07-09-pg-pm-guide-ai-design#^q3]]
-
-![[2026-07-09-pg-pm-guide-ai-design#^q5]]
+![[2026-07-09-pg-pm-guide-ai-design#^q4]]
 
 ![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q1]]
 
-![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q4]]
+![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q3]]
 
-![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q5]]
+![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q9]]
 
-![[2026-07-13-pg-the-complete-claude-stack-for-pms#^q4]]
+![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q10]]
 
-![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q3]]
+![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q13]]
 
-![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q4]]
+![[2026-07-13-pg-the-complete-claude-stack-for-pms#^q3]]
 
-![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q1]]
+![[2026-07-13-pg-the-complete-claude-stack-for-pms#^q7]]
+
+![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q1]]
+
+![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q7]]
+
+![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q8]]
 
 ![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q2]]
 
-![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q4]]
-
-![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q6]]
-
-![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q9]]
+![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q3]]
 
 ![[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid#^q9]]
 
 ![[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid#^q10]]
 
-![[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r#^q3]]
+![[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r#^q1]]
 
 ![[2026-07-28-pg-how-to-build-your-first-eval#^q1]]
 
-![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q9]]
+![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q12]]
 
-![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q10]]
-
-![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q11]]
+![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q13]]
 
 ![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q15]]
 
@@ -137,13 +121,11 @@ unlisted: true
 
 ![[2026-07-30-a16z-ai-for-americas-small-businesses-lassie#^q1]]
 
-![[2026-07-30-a16z-ai-for-americas-small-businesses-lassie#^q6]]
-
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《对话 Samsara CEO:AI 进入物理世界,用 25 万亿数据点改造传统工业》]] — 作为概念
+- [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]] — 作为概念
 
 ## ③ 关联
 

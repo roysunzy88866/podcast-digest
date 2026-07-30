@@ -13,7 +13,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《为什么机器人的未来在仿真：World Labs 收购 Cynics 背后的逻辑》]] — 作为联合主持
+- [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《World Labs 收购机器人公司：教 AI 理解物理世界》]] — 作为联合主持
 
 ## ③ 他谈到的
 

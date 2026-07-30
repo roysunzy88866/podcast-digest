@@ -1,5 +1,5 @@
 ---
-title: 从避战大模型到押注智能体：Modal 的推理基础设施进化史
+title: 不只做推理：Modal 如何跨界多节点训练与智能体云
 podcast: Latent Space
 date: 2026-07-08
 source_url: https://www.latent.space/p/modal2026
@@ -7,7 +7,7 @@ duration: "57:42"
 type: episode
 cover: "#0e7490"
 image: "/covers/2026-07-08-latent-space-modal.jpg"
-description: Modal CTO 剖析从开发者体验转向智能体体验的推理云进化路径。
+description: Modal 从无服务器运行时切入，靠 GPU 快照、投机解码和 17 云容量池，在 AI 推理与智能体时代找到了独特的底层定位。
 host: "[[swyx]]"
 guests: ["[[Akshat Bubna]]"]
 cohosts: ["[[Vibhu]]"]
@@ -18,9 +18,9 @@ tags:
   - 智能体
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>从避战大模型到押注智能体：Modal 的推理基础设施进化史</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>不只做推理：Modal 如何跨界多节点训练与智能体云</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# 从避战大模型到押注智能体：Modal 的推理基础设施进化史
+# 不只做推理：Modal 如何跨界多节点训练与智能体云
 
 <div class="pd-byl"><b>Akshat Bubna</b> · Modal CTO</div>
 
@@ -28,7 +28,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-08-latent-space-modal.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我们在 2023 年 5 月就构建了沙箱，在任何人甚至知道这将成为一件事之前。</div><div class="a">Akshat Bubna · 09:19</div></div>
+<div class="pd-hook"><div class="z">为什么你要让一个智能体去阅读数百个 Kubernetes 文件并编写甚至没有类型的 YAML，而它基本上可以在一个装饰器中做几个更改，然后获得这种能够自我配置的运行时，实时看到它的更改在运行中生效。</div><div class="a">Akshat Bubna · 05:06</div></div>
 
 > [!info] 关联
 > **人物** [[Akshat Bubna]] · [[swyx]] · [[Vibhu]]
@@ -39,65 +39,49 @@ tags:
 >
 > **来源** [Latent Space](https://www.latent.space/p/modal2026)
 
-<div class="pd-tldr"><b>一句话</b>Modal CTO 剖析从开发者体验转向智能体体验的推理云进化路径。</div>
+<div class="pd-tldr"><b>一句话</b>Modal 从无服务器运行时切入，靠 GPU 快照、投机解码和 17 云容量池，在 AI 推理与智能体时代找到了独特的底层定位。</div>
 
-Akshat 是 [[Modal|Modal]] 的 CTO，他和 CEO Erik、另一位联创 [[Vibhu|Vibhu]] 一起，把 Modal 打造成了 AI 时代一个独特的[[推理|推理]]与[[智能体|智能体]]运行平台。本集的对话从 Modal 为什么在 ChatGPT 爆火前一年就加入了 GPU 聊起，一路延伸到他们如何在[[投机解码|投机解码]]、容器网络、智能体体验（[[AX|AX]]）等关键技术点上做判断。全文可以分为三个部分：第一部分讲 Modal 的产品哲学和差异化护城河；第二部分拆解推理层的技术硬功夫；第三部分讨论智能体时代的基础设施新需求。
+一个云平台不建自己的数据中心，而是横跨 17 家云厂商拼出一个容量池，甚至能在上面跑多节点训练——这在 AI 算力焦虑时代听起来有点反直觉。说这话的人是 Akshat，[[Modal|Modal]] 的 CTO，他们最近刚完成 C 轮融资。<button class="pd-ts" data-t="00:04" data-who="swyx" data-en="We're here with Akshat of Modo, CTO of Modo, together with Vibu. Congrats on your 3C. Thank you." aria-label="回原文"></button>
 
-## 从装饰器到智能体体验
+这一集里，他和两位主持人聊了三件事：Modal 最初为什么要造一个不用写 YAML（一种配置文件）的运行时，以及这个老思路为什么在今天的[[智能体|智能体]]时代反而更吃香；他们是怎么把 GPU 快照（一种保存运行状态的技术）、[[投机解码|投机解码]]（让小模型先猜、大模型来验，加速[[推理|推理]]）和跨云容量调度做到极致的；以及当语言模型越来越强，这个基础设施平台为什么不担心被抢饭碗，反而要把仪表盘全搬进命令行去迎合智能体。
 
-Modal 最初并不是一家 GPU 推理公司。Akshat 回忆，Erik 最早的出发点是想做一个更好的运行时（runtime，程序运行的环境），解决工作流编排产品太难用的问题 <button class="pd-ts" data-t="00:48" data-who="Akshat Bubna" data-en="Back then, Eric was already thinking about building a new kind of runtime. And he got there thinking through why are workflow orchestration products so hard to use?" aria-label="回原文"></button>。而难用的根源在于必须部署在 [[Kubernetes|Kubernetes]]（一种管理容器的系统）上，但 Kubernetes 的设计更偏向缓慢扩展的 Web 服务器，无法适应 AI 时代频繁突发（bursty，指流量短时间内剧烈飙升）的计算需求 <button class="pd-ts" data-t="02:50" data-who="Akshat Bubna" data-en="for it but compute heavy like they need one like need a lot more resources you need to burst up and down a lot versus like Kubernetes design for like slow scaling" aria-label="回原文"></button>。
+说起 Modal 的起点，其实跟大模型毫无关系。Akshat 回忆，他和 CEO Erik 是通过一位投资者认识的。当时 Erik 在琢磨一个很基础的问题：为什么工作流编排产品这么难用？答案是它们都得跑在 [[Kubernetes|Kubernetes]]（一种管理容器的系统）上，而 Kubernetes 是为缓慢扩展的 Web 服务器设计的。<button class="pd-ts" data-t="00:55" data-who="Akshat Bubna" data-en="And he got there thinking through why are workflow orchestration products so hard to use? It's because you have to run them on Kubernetes. Kubernetes is hard to manage." aria-label="回原文"></button> 他们看到的大量工作负载却不是这样：计算量大、需要频繁地突发扩缩。所以他们最初想造的是一种更好的运行时，可以跑数据处理和任务队列。他们在 ChatGPT 出来前一年就给产品加了 GPU，但当时只是觉得这是个加法，没料到后来的爆发。<button class="pd-ts" data-t="02:13" data-who="Akshat Bubna" data-en="back then it was more classical inference like computer vision stuff and running xd boost and whatnot but we added gpus to the product a year before chat gpt came out nice we just didn't think it would be that big of" aria-label="回原文"></button>
 
-为了解决配置复杂的问题，Modal 推出了核心的 DSL（领域特定语言）层：开发者只需在代码上加上[[装饰器|装饰器]]（decorator，一种包裹函数的特殊语法），就能定义硬件需求和扩展方式，基础设施需求与业务代码完美协同部署 <button class="pd-ts" data-t="03:30" data-who="swyx" data-en="the landing page yeah we really like uh the term and so we stole it because you had the insight that everything can just be in decorators next co-located with the code right was that a big part of the original story or is this" aria-label="回原文"></button>。这让 Modal 引以为傲的开发者体验（[[DX|DX]]）脱颖而出。
+有意思的是，Modal 早期的一个核心设计——把基础设施配置全塞进代码[[装饰器|装饰器]]里，不写 YAML——在今天的智能体时代迎来了第二春。主持人 [[swyx|swyx]] 指出，现在的负面论点是人都不看代码了。Akshat 对此有个很直接的反驳：为什么你要让一个智能体去读几百个 Kubernetes 文件，去写没有类型检查的 YAML，而它本来只需在装饰器里改几行就能看到一个自我配置的运行时实时生效？<button class="pd-ts" data-t="05:05" data-who="Akshat Bubna" data-en="And we think that the same benefits that apply for DX also actually apply for AX, which is why would you have an agent read through hundreds of Kubernetes files and write YAML that's not even typed when it can basically make a couple of changes" aria-label="回原文"></button> 他们内部甚至把 SDK 团队的职责从「开发者体验」（[[DX|DX]]）改成了「智能体体验」（[[AX|AX]]）。不过他也强调，代码可以不看，但「可观测性」（系统内部的监控仪表盘）现在比以往更重要，因为人还得去解释系统在干什么、做判断。<button class="pd-ts" data-t="05:46" data-who="Akshat Bubna" data-en="Yeah, I mean, people aren't looking at code. One thing we actually still see is really important is observability. How good is your dashboard?" aria-label="回原文"></button> 为此，他们把很多功能推到了命令行界面（CLI）里，让智能体能自己查问题。
 
-工具变了，人怎么办？这正是 Modal 团队思考的下一个问题。随着 Claude Code、Codex 等智能体开始自动编写工具代码，开发者逐渐不再直接看代码。Modal 敏锐地把 SDK 团队的目标，从优化开发者体验（DX）转向了优化「智能体体验」（AX） <button class="pd-ts" data-t="04:54" data-who="Akshat Bubna" data-en="if i'm doing this myself right We've actually changed our SDK team to think about agent experience sort of developer experience." aria-label="回原文"></button>。背后的逻辑很直接：为什么要让一个智能体去阅读数百个 Kubernetes 文件、编写甚至没有类型的 YAML，而它其实只需在装饰器里做几个更改，就能获得一个自我配置的运行时 <button class="pd-ts" data-t="05:05" data-who="Akshat Bubna" data-en="And we think that the same benefits that apply for DX also actually apply for AX, which is why would you have an agent read through hundreds of Kubernetes files and write YAML that's not even typed when it can basically make a couple of changes" aria-label="回原文"></button>？虽然人类不再逐行读代码，但「可观测性」变得前所未有的重要——仪表盘和 CLI 成了人类监督智能体行为的关键 <button class="pd-ts" data-t="05:46" data-who="Akshat Bubna" data-en="Yeah, I mean, people aren't looking at code. One thing we actually still see is really important is observability. How good is your dashboard?" aria-label="回原文"></button>。
+正因为这种面向计算的底层设计，Modal 现在最大的用例是「[[弹性推理|弹性推理]]」。Akshat 解释，他们最早避开大语言模型，服务的是做音频的 Suno、做视频的 Runway，以及机器人和计算生物公司。这些公司自己训模型，但他们的流量模式极度不可预测，有时是昼夜波动的，有时赶上产品发布流量直接飙升。<button class="pd-ts" data-t="12:50" data-who="Akshat Bubna" data-en="as your traffic pattern changes and we saw all of them actually like have a very unpredictable traffic pattern. It's like diurnal." aria-label="回原文"></button> 它们往往在多地部署多种模型，这让跨区域的自动扩展变得极难。为了应对这种突发性，Modal 引入了 GPU 快照技术：它可以把 GPU 上的状态（比如编译好的模型）直接冻结，下一次调用时跳过漫长的启动过程。<button class="pd-ts" data-t="13:51" data-who="Akshat Bubna" data-en="And we've gone deeper into it on the tech side, but we've incorporated GPU. snapshotting to the product so we can actually uh take the gpu state like your torch compiler model" aria-label="回原文"></button> 主持人 [[Vibhu|Vibhu]] 指出，像 Cursor Composer 这样的应用，每隔几小时就要在模型上跑强化学习，这种动辄在几千个 GPU 上频繁增减的任务，正是 Modal 擅长的。<button class="pd-ts" data-t="11:50" data-who="Vibhu" data-en="to fifteen hundred gpus very quickly in in a given region as same shape from okay so you look at say cursor composer right they had a will do rl on a model every couple hours you guys have a whole version of rl inference gym" aria-label="回原文"></button>
 
-## 推理的硬功夫：快照与投机解码
+在推理加速这条硬核路线上，Modal 最近重点推的是开源的 [[DeFlash|DeFlash]]——一个基于块的推测器。Akshat 用大白话科普了投机解码：传统是大模型一步步生成词，投机解码是让一个小模型（草稿模型）在大模型前面先预测一批词，大模型负责验证。只要小模型猜得准，大模型就能批量验证，算力利用更高效。这里有个反直觉的洞见：大家常谈优化底层内核，但内核改进往往只有几个百分点的提升；而想办法增加「接受长度」（小模型猜对被采纳的长度），能带来 2 到 4 倍的乘法级提速，且质量完全不降，因为大模型永远不会接受错的词。<button class="pd-ts" data-t="17:37" data-who="Akshat Bubna" data-en="we made these kernels faster whatnot but improving kernel only give you like few percentage points improvement and increasing except lengths literally is multiplicative decrease" aria-label="回原文"></button> 在此基础上，他们推出了 [[Auto Endpoints|Auto Endpoints]]：一个开箱即用、内置全部优化的端点产品，但代码全透明给你，随时可以弹出改写，而不是黑盒。<button class="pd-ts" data-t="18:38" data-who="Akshat Bubna" data-en="And our vision for, this is why we launched auto endpoints is we want to make frontier level performance available to everyone and so uh we mentioned this announcement we kind of teased it" aria-label="回原文"></button>
 
-解决了人机交互的体验问题，接下来是 Modal 在推理引擎内部做的硬核技术优化。Akshat 强调，Modal 最大的用例是[[弹性推理|弹性推理]]（elastic inference，根据流量自动伸缩算力的推理服务）。为了满足音频公司 Suno、视频公司 Runway 等客户波动极大的流量，Modal 把自动扩展做到了极致。
+随着算力需求暴涨，Modal 怎么搞 GPU 成了焦点。Akshat 透露他们没有自己的数据中心，而是横跨 17 家云提供商搭建了一个超级云的容量池。<button class="pd-ts" data-t="24:14" data-who="Akshat Bubna" data-en="we see is something appealing about modal, which is we've built this capacity pool that spans 17 cloud providers. So we're very good at running on various kinds of cloud capacity across the world." aria-label="回原文"></button> 这样做是因为各种新云（neocloud）的可靠性参差不齐，Modal 在上面加了一层自己的可靠性层，一旦某块 GPU 掉线，用户工作负载不受影响。<button class="pd-ts" data-t="25:15" data-who="Akshat Bubna" data-en="and that's why it's something we've What we can invest a lot of time in is actually building our own reliability layer on top. So if the GPU falls off the bus or something happens, user workloads are not affected." aria-label="回原文"></button> 这背后的算力规划极其复杂，涉及一年期和三年期预留比例、不同 GPU 类型的互换性等，甚至被 swyx 类比为航空业对冲燃料成本。<button class="pd-ts" data-t="39:00" data-who="swyx" data-en="about like you know we cannot be first to like these kinds of problems yeah and what other industries have had this and i was like airlines with with fuel and like they have to hedge their fuel and like i think for a long time southwest" aria-label="回原文"></button> 这种控制力还带来了一个批量层：如果客户不在乎延迟，只要在 24 小时内出结果，就能拿到便宜得多的算力。<button class="pd-ts" data-t="39:34" data-who="Akshat Bubna" data-en="over time is how you can unlock more value for customers like one of the things we're building now is like a way for customers to get if they don't care about latency like get much cheaper pricing and they'll get results back" aria-label="回原文"></button>
 
-为了让频繁启动的模型更快响应，Modal 引入了 GPU 快照（snapshotting，保存运行状态以便瞬间恢复）技术。它可以提取 torch 编译好的模型状态并保存，下一次调用时就能跳过漫长的加载过程，启动速度快得多 <button class="pd-ts" data-t="13:51" data-who="Akshat Bubna" data-en="And we've gone deeper into it on the tech side, but we've incorporated GPU. snapshotting to the product so we can actually uh take the gpu state like your torch compiler model" aria-label="回原文"></button>。对于强化学习（RL）中需要频繁生成环境的场景，甚至有时瞬间需要十万个[[沙箱|沙箱]]，这种极速扩缩容的能力至关重要 <button class="pd-ts" data-t="14:31" data-who="Akshat Bubna" data-en="like for our old stuff your rollouts are bursting as you When you're doing rollouts, you sometimes need 100,000 sandboxes. i'm curious if you've seen early sparks" aria-label="回原文"></button>。
+有了这套基础设施，Modal 自然延伸到了多节点训练和网络层。他们不支持跨数据中心的大规模预训练，但非常适合中等规模的后训练（post-training，即训练好基础模型后的微调阶段）。<button class="pd-ts" data-t="33:04" data-who="Akshat Bubna" data-en="Yeah, and we're not going for, obviously, large-scale pre-training runs. The thing that we've built Multano training for is we see a lot of smaller-scale post-training." aria-label="回原文"></button> 网络方面，他们提供了 IPv6 的 overlay 网络（一种虚拟覆盖网络）、eBPF（一种内核级网络过滤技术）控制，甚至能跑 RDMA（一种绕过传统网络协议实现极低延迟的传输技术），达到每秒 3 万亿比特的内部传输速度。<button class="pd-ts" data-t="32:36" data-who="Akshat Bubna" data-en="And we have, I think, like three terabit per second internal networking," aria-label="回原文"></button> 让人意外的是，这套原本为内部分布式训练准备的网络原语，被用户自己翻文档翻出来，用在了强化学习上。<button class="pd-ts" data-t="28:56" data-who="Akshat Bubna" data-en="that but then we've seen that people are using it for other reasons and i'm kind of intrigued to see yeah what would people do with it build primitives" aria-label="回原文"></button>
 
-除了扩缩容，提升大模型本身的推理速度也是重头戏。Akshat 介绍了他们的开源项目 [[DeFlash|DeFlash]]——一种基于块的投机解码（speculative decoding，让小模型先猜、大模型来验，从而加速推理）推测器 <button class="pd-ts" data-t="16:06" data-who="Akshat Bubna" data-en="of this and we've actually been open sourcing a lot of our work in terms of recently we shared our work on dflash which is a block based speculator and we've open sourced all of it so you can get" aria-label="回原文"></button>。传统的投机解码让小模型每次猜一个词（token），而 DeFlash 让它一次预测一整个块。
+网络搞定后，[[沙箱|沙箱]]（sandbox，一种隔离的代码运行环境）的玩法也升级了。除了能做快照快速恢复，沙箱现在支持 sidecar（一种伴随主容器运行的辅助容器），能运行中间人代理来记录日志或控制外部网络。<button class="pd-ts" data-t="27:06" data-who="Akshat Bubna" data-en="if you want to talk to compose, our sandboxes now support this thing called sidecarves. A sandbox is actually a pod of containers, and you can run multiple containers in the sandbox." aria-label="回原文"></button> swyx 评价说，Modal 不小心造出了让智能体自由表达的基础组件——涉及更多文件系统和 CPU。Akshat 坚持在沙箱层面要有硬护栏（guardrails，指死的安全边界），防止数据外泄，对纯靠大模型来中介权限持怀疑态度。<button class="pd-ts" data-t="43:12" data-who="Akshat Bubna" data-en="yeah i mean i'm i'm skeptical of lm media permission for stuff that is at the sandbox level because you do want hard boundaries yeah otherwise obviously someone can exfiltrate" aria-label="回原文"></button> 这也是为什么像 Ramp 这种做内部会计智能体的公司，在转向生产级部署时，会需要 Modal 这种专门的沙箱提供商来精细控制持久化文件和网络，而不是停留在 Anthropic 的托管智能体层面。<button class="pd-ts" data-t="44:45" data-who="Akshat Bubna" data-en="building something more production grade like your company that's like ramp that's building their own ramp also runs their accounting agent on us so their external facing agent you need a lot more control" aria-label="回原文"></button>
 
-这块有一个反直觉的技术洞见：很多人花精力改进底层计算内核，但那通常只能带来几个百分点的速度提升；而通过增加推测器的「接受长度」（accept length，大模型认可小模型猜测的词数），能带来 2 到 4 倍的乘法级性能提升，且完全不影响生成质量 <button class="pd-ts" data-t="17:37" data-who="Akshat Bubna" data-en="we made these kernels faster whatnot but improving kernel only give you like few percentage points improvement and increasing except lengths literally is multiplicative decrease" aria-label="回原文"></button>。为了让所有人都能用上这项前沿技术，Modal 推出了 [[Auto Endpoints|Auto Endpoints]]（自动化端点服务）。用户无需改代码，通过 UI 就能创建一个集成了所有优化的端点，如果想深度微调，随时可以「弹出」黑盒，拿回代码控制权 <button class="pd-ts" data-t="18:38" data-who="Akshat Bubna" data-en="And our vision for, this is why we launched auto endpoints is we want to make frontier level performance available to everyone and so uh we mentioned this announcement we kind of teased it" aria-label="回原文"></button>。
-
-## 智能体时代的底层拼图：网络与超级云
-
-软件和推理算法说完了，物理硬件与网络怎么组织？这正是 Modal 另一个不寻常的战略选择。他们不建自己的数据中心，而是构建了一个跨越 17 个云提供商的「超级云」（supercloud）容量池 <button class="pd-ts" data-t="24:14" data-who="Akshat Bubna" data-en="we see is something appealing about modal, which is we've built this capacity pool that spans 17 cloud providers. So we're very good at running on various kinds of cloud capacity across the world." aria-label="回原文"></button>。由于底层集成了大量可靠性不一的新云厂商（neocloud），Modal 在上面自建了一层可靠性兜底：如果某块 GPU 掉线，用户的工作负载完全不受影响 <button class="pd-ts" data-t="25:15" data-who="Akshat Bubna" data-en="and that's why it's something we've What we can invest a lot of time in is actually building our own reliability layer on top. So if the GPU falls off the bus or something happens, user workloads are not affected." aria-label="回原文"></button>。
-
-随着智能体工作负载变重，单纯的计算已经不够，Modal 发现智能体对容器网络提出了意想不到的需求。最典型的是，智能体经常需要对出站网络进行精细控制，比如在沙箱里跑一个「中间人代理」（man-in-the-middle proxy）来拦截日志，或控制对外域名进行凭据注入 <button class="pd-ts" data-t="27:23" data-who="Akshat Bubna" data-en="people want a lot of control over outbound networking from a sandbox. They might want to run a man-in-the-middle proxy for maybe logging stuff for RL or... controlling how egress can happen to a domain injecting credentials and yeah" aria-label="回原文"></button>。
-
-为了支持跨节点的多容器任务，Modal 的沙箱升级成了类似 Pod 的结构，支持「Sidecar」（边车，与主容器共生的辅助容器）模式 <button class="pd-ts" data-t="27:06" data-who="Akshat Bubna" data-en="if you want to talk to compose, our sandboxes now support this thing called sidecarves. A sandbox is actually a pod of containers, and you can run multiple containers in the sandbox." aria-label="回原文"></button>。有趣的是，Modal 偶然建立的一个基于 IPv6 的私有 Overlay（覆盖）网络，原本只是为了给分布式训练做密钥交换用的，结果也被客户用来实现跨多节点沙箱通信等其他需求 <button class="pd-ts" data-t="28:09" data-who="Akshat Bubna" data-en="So you can add like a htp aught layer above it. But we have this thing called i6pn, which we haven't talked about," aria-label="回原文"></button>。这印证了 Modal 的产品哲学：构建底层原语，让用户自己去探索极限。
-
-主持人 [[swyx|swyx]] 提出了一个很有代表性的疑问：随着 Anthropic、OpenAI 等大模型厂商纷纷推出自家的「托管智能体」，会不会侵入 Modal 的地盘 <button class="pd-ts" data-t="44:12" data-who="swyx" data-en="of moto managed agents everyone has one gemini open ai claude uh very useful for you but also like it is their way of starting to edge into your space yeah uh what's going on" aria-label="回原文"></button>？Akshat 的判断是，大厂的托管产品适合起步，但当代码走向生产级，企业必然需要专门的沙箱提供商来控制网络隔离、文件持久化和快照恢复 <button class="pd-ts" data-t="45:08" data-who="Akshat Bubna" data-en="the networking maybe on gpus when you get to that point you kind of want a specialized sandbox provider that gives you those things and that's the role that we are trying to play yeah we don't really have an opinion on the harness" aria-label="回原文"></button>。这条「专注底层」的战略，让 Modal 能够心无旁骛地吃下 AI 爆发带来的基础设施红利。
+值得一提的是，Modal 一直刻意回避做模型 API 服务。Akshat 认为提供模型 API 最终会沦为服务业余爱好者市场，粘性太低，他们想做的是服务那些有自定义架构、需要在代码层面深度调整的产品级公司。<button class="pd-ts" data-t="48:34" data-who="Akshat Bubna" data-en="What's your postmortem on what happened? This is one thing we've kind of stayed away from is providing an API for models because I think providing model APIs is some of it ends up serving like" aria-label="回原文"></button> 他们也看到 AI 正在重塑更多领域：比如智能体操作视频剪辑工具（像 ffmpeg）、计算生物学和机器人部署。为此，Modal 的 SDK 已经从纯 Python 扩展到了 Go 和 TypeScript——因为很多玩智能体的人其实不做底层机器学习，更习惯用 TypeScript 写逻辑。<button class="pd-ts" data-t="55:04" data-who="Akshat Bubna" data-en="People are still very Python. And the interesting thing with the agent stuff is people use their TypeScript SDK a lot more because they're not actually doing anything that needs ML." aria-label="回原文"></button>
 
 ## 本集带走
 
-1. **智能体体验（AX）正在接棒开发者体验（DX）**：基础设施的设计目标，正从「让工程师写代码爽」转向「让智能体能无摩擦地自我配置、自我运行」，装饰器比复杂的 YAML 更适合智能体理解。
-2. **投机解码是性价比极高的推理加速手段**：相比于死磕底层内核，优化「接受长度」能带来 2-4 倍的整体加速，且零质量损耗，Modal 开源的 DeFlash 证明了这一点。
-3. **无数据中心的「超级云」模式跑通了**：不建机房、只做软件抽象层，通过兜底 17 家云厂商的底层不可靠性，反而换来了极致的弹性和硬件议价权。
+最后收个尾，这一集值得带走的是这么几条。第一，好基础设施的判断标准变了：以前是为开发者省事，现在是为智能体省事——但核心诉求是一样的，即把繁杂的配置变成代码里几个直观的装饰器。第二，在 AI 时代，规模化和弹性的极端需求被放大了，谁能横跨几十家云厂商搭出高可靠容量池，同时用快照技术抹平冷启动延迟，谁就握住了算力调度的命门。第三，不要迷信黑盒，无论前端封装得多好，底层的训练逻辑、推理代码和网络控制力依然需要全透明、可随时介入；专注底层硬核的优化（比如投机解码的乘法级提速），往往比单纯做模型封装更有壁垒。
 
-<div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>4 条(中英对照,已过机器闸门)</span></div>
 
-> <span class="qz">我们在 2023 年 5 月就构建了沙箱，在任何人甚至知道这将成为一件事之前。</span>  
+> <span class="qz">为什么你要让一个智能体去阅读数百个 Kubernetes 文件并编写甚至没有类型的 YAML，而它基本上可以在一个装饰器中做几个更改，然后获得这种能够自我配置的运行时，实时看到它的更改在运行中生效。</span>  
+> *Why would you have an agent read through hundreds of Kubernetes files and write YAML that's not even typed when it can basically make a couple of changes in a decorator and it gets this sort of self-provisioning runtime of being able to see its changes live in action.*  
+> <span class="qm">—— Akshat Bubna · [05:06]</span> ^q1
+
+> <span class="qz">改进内核只给你几个百分点的提升，而增加接受长度实际上是 2 到 4 倍的乘法性减少。</span>  
+> *Improving kernel only give you like few percentage points improvement and increasing except lengths literally is multiplicative decrease in two to four x*  
+> <span class="qm">—— Akshat Bubna · [17:38]</span> ^q2
+
+> <span class="qz">我们在 2023 年 5 月构建了沙箱，在任何人甚至知道这将成为一件事之前。</span>  
 > *we built sandboxes in May of 2023 before anyone was even knew this was going to be a thing.*  
-> <span class="qm">—— Akshat Bubna · [09:19]</span> ^q1
+> <span class="qm">—— Akshat Bubna · [09:19]</span> ^q3
 
-> <span class="qz">这就是为什么你要让一个智能体去阅读数百个 Kubernetes 文件并编写甚至没有类型的 YAML，而它基本上可以在一个装饰器中做几个更改</span>  
-> *which is why would you have an agent read through hundreds of Kubernetes files and write YAML that's not even typed when it can basically make a couple of changes in a decorator*  
-> <span class="qm">—— Akshat Bubna · [05:05]</span> ^q2
-
-> <span class="qz">当你在做 rollouts 的时候，你有时需要十万个沙箱。</span>  
-> *When you're doing rollouts, you sometimes need 100,000 sandboxes.*  
-> <span class="qm">—— Akshat Bubna · [14:31]</span> ^q3
-
-> <span class="qz">改进内核只给你几个百分点的提升，而增加接受长度实际上是 2 到 4 倍的乘法性减少</span>  
-> *improving kernel only give you like few percentage points improvement and increasing except lengths literally is multiplicative decrease in two to four x*  
-> <span class="qm">—— Akshat Bubna · [17:38]</span> ^q4
-
-> <span class="qz">这是我们一直有所回避的一件事，就是为模型提供 API</span>  
+> <span class="qz">这是我们一直有所回避的一件事，就是为模型提供 API。</span>  
 > *This is one thing we've kind of stayed away from is providing an API for models*  
-> <span class="qm">—— Akshat Bubna · [48:34]</span> ^q5
+> <span class="qm">—— Akshat Bubna · [48:34]</span> ^q4
 
 <div class="pd-sec">接着看</div>
 
@@ -106,18 +90,18 @@ Modal 最初并不是一家 GPU 推理公司。Akshat 回忆，Erik 最早的出
 
 **顺着「智能体」挖下去**
 
-- [[2026-05-21-latent-space-daytona|赋予AI智能体计算机——Daytona创始人Ivan Burazin]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
+- [[2026-05-21-latent-space-daytona|Daytona:为智能体造一台像笔记本一样的计算机]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
 - [[2026-06-22-latent-space-gray-swan|让 AI 智能体不「越界」:Gray Swan 的红队测试与安全护栏]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
-- [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|Cloud Code 创始人 Boris：删掉 80% 系统提示，把模型当生物养]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
+- [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|别再微管理 Claude:Claude Code 造物主的智能体实战心法]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展]] —— 同公司:OpenAI · 同概念:推理 (inference)、沙箱 (sandbox)
-- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：反直觉的产品课]] —— 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Anthropic产品负责人Kat Wu：在AGI边缘做产品的PM生存指南]] —— 同公司:Anthropic · 同概念:智能体 (agent)
+- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]] —— 同公司:OpenAI · 同概念:推理 (inference)、沙箱 (sandbox)
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]] —— 同公司:Anthropic · 同概念:智能体 (agent)
 
 </div>
 </div>

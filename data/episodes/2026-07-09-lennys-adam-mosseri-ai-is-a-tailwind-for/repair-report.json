@@ -1,23 +1,87 @@
 {
   "kept": [
     {
-      "i": 2,
-      "timestamp": "08:38",
+      "i": 1,
+      "timestamp": "00:00",
       "speaker": "Adam Mosseri",
       "trimmed": false,
-      "tsWas": "37:08",
+      "tsWas": "00:00",
       "spkWas": "Adam Mosseri"
     },
     {
-      "i": 3,
-      "timestamp": "25:29",
+      "i": 2,
+      "timestamp": "34:38",
       "speaker": "Adam Mosseri",
       "trimmed": false,
-      "tsWas": "25:33",
+      "tsWas": "34:36",
       "spkWas": "Adam Mosseri"
     },
     {
       "i": 4,
+      "timestamp": "00:45",
+      "speaker": "Adam Mosseri",
+      "trimmed": false,
+      "tsWas": "41:15",
+      "spkWas": "Adam Mosseri"
+    },
+    {
+      "i": 5,
+      "timestamp": "55:52",
+      "speaker": "Adam Mosseri",
+      "trimmed": false,
+      "tsWas": "55:52",
+      "spkWas": "Adam Mosseri"
+    },
+    {
+      "i": 7,
+      "timestamp": "19:21",
+      "speaker": "Adam Mosseri",
+      "trimmed": false,
+      "tsWas": "19:17",
+      "spkWas": "Adam Mosseri"
+    },
+    {
+      "i": 8,
+      "timestamp": "15:27",
+      "speaker": "Adam Mosseri",
+      "trimmed": false,
+      "tsWas": "15:26",
+      "spkWas": "Adam Mosseri"
+    },
+    {
+      "i": 9,
+      "timestamp": "26:58",
+      "speaker": "Adam Mosseri",
+      "trimmed": false,
+      "tsWas": "27:00",
+      "spkWas": "Adam Mosseri"
+    },
+    {
+      "i": 10,
+      "timestamp": "44:32",
+      "speaker": "Adam Mosseri",
+      "trimmed": false,
+      "tsWas": "44:31",
+      "spkWas": "Adam Mosseri"
+    },
+    {
+      "i": 11,
+      "timestamp": "61:25",
+      "speaker": "Adam Mosseri",
+      "trimmed": false,
+      "tsWas": "61:25",
+      "spkWas": "Adam Mosseri"
+    },
+    {
+      "i": 12,
+      "timestamp": "38:56",
+      "speaker": "Adam Mosseri",
+      "trimmed": false,
+      "tsWas": "38:56",
+      "spkWas": "Adam Mosseri"
+    },
+    {
+      "i": 13,
       "timestamp": "42:39",
       "speaker": "Adam Mosseri",
       "trimmed": false,
@@ -25,69 +89,40 @@
       "spkWas": "Adam Mosseri"
     },
     {
-      "i": 5,
-      "timestamp": "08:14",
+      "i": 14,
+      "timestamp": "33:26",
       "speaker": "Adam Mosseri",
       "trimmed": false,
-      "tsWas": "08:12",
+      "tsWas": "33:27",
       "spkWas": "Adam Mosseri"
     },
     {
-      "i": 7,
-      "timestamp": "34:41",
-      "speaker": "Adam Mosseri",
-      "trimmed": false,
-      "tsWas": "34:40",
-      "spkWas": "Adam Mosseri"
-    },
-    {
-      "i": 8,
-      "timestamp": "44:20",
-      "speaker": "Adam Mosseri",
-      "trimmed": false,
-      "tsWas": "44:18",
-      "spkWas": "Adam Mosseri"
-    },
-    {
-      "i": 9,
-      "timestamp": "38:56",
-      "speaker": "Adam Mosseri",
-      "trimmed": false,
-      "tsWas": "39:02",
-      "spkWas": "Adam Mosseri"
-    },
-    {
-      "i": 11,
-      "timestamp": "59:28",
-      "speaker": "Adam Mosseri",
-      "trimmed": false,
-      "tsWas": "59:28",
-      "spkWas": "Adam Mosseri"
-    },
-    {
-      "i": 12,
+      "i": 15,
       "timestamp": "58:31",
       "speaker": "Adam Mosseri",
       "trimmed": false,
       "tsWas": "58:29",
       "spkWas": "Adam Mosseri"
+    },
+    {
+      "i": 16,
+      "timestamp": "37:43",
+      "speaker": "Adam Mosseri",
+      "trimmed": false,
+      "tsWas": "37:40",
+      "spkWas": "Adam Mosseri"
     }
   ],
   "dropped": [
     {
-      "i": 1,
-      "reason": "命中片段跨说话人(占比0.80/连续他人6词,疑拼接)",
-      "en": "i don't think we should filter out ai content i think we should let you know if content is ai content or not that's hard by the way"
+      "i": 3,
+      "reason": "逐字命中不了(裁剪后仍无)",
+      "en": "i think strategy as an opinionated path to achieve that vision if strategy can't be like be the best or be amazing it has to be controversial that you have to be a reasonable person should be able to disagree with it because otherwise you're probably just trying to compete on raw execution"
     },
     {
       "i": 6,
       "reason": "逐字命中不了(裁剪后仍无)",
-      "en": "i think if you ask an ai just for a strategy lazily you're not going to get something right you're going to get something pretty predictable that the competition would expect you to do"
-    },
-    {
-      "i": 10,
-      "reason": "命中片段跨说话人(占比0.92/连续他人2词,疑拼接)",
-      "en": "it is much easier to move engagement by showing people stuff that you know they'll probably like because lots of people like it it's much harder to go and figure out how to essentially test content"
+      "en": "i think some of the best product leaders yes have ideas it's hard to be a great curator if you don't have some of your own ideas but are that embrace the reality that they can't come up with everything themselves"
     }
   ]
 }

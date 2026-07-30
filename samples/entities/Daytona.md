@@ -11,13 +11,13 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]]**(00:04起):本集将其描述为提供「面向智能体的可组合计算机(composable computers for agents)」的公司。它直接运行在裸金属(bare metal)上以提供极快的速度,支持动态调整大小和有状态快照。目前正秘密押注 computer use(计算机使用),以争夺 Windows/macOS 等老旧系统自动化的庞大市场。
+- **[[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]]**(00:04起):本集将其描述为提供「面向智能体的可组合计算机(composable computers for agents)」的公司。它直接运行在裸金属(bare metal)上以提供极快的速度,支持动态调整大小和有状态快照。目前正秘密押注 computer use(计算机使用),以争夺 Windows/macOS 等老旧系统自动化的庞大市场。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-05-21-latent-space-daytona|《赋予AI智能体计算机——Daytona创始人Ivan Burazin》]] — 作为被讨论公司
+- [[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]] — 作为被讨论公司
 
 ## ③ 关联
 

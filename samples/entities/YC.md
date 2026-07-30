@@ -11,19 +11,19 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展》]]**(01:14起):本集把它说成：推动初创公司黄金时代与行业生态的核心孵化器，倡导真诚与互助精神，并与硅谷庞大的人脉复利网络紧密相关。
+- **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]]**(01:14起):本集把它说成：推动初创公司黄金时代与行业生态的核心孵化器，倡导真诚与互助精神，并与硅谷庞大的人脉复利网络紧密相关。
 
 ## ① 提到它的金句
 
 *1 条,均已过机器闸门*
 
-![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q2]]
+![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q1]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业：未来 6 个月将抵过去两年的模型进展》]] — 作为被讨论公司
+- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]] — 作为被讨论公司
 
 ## ③ 关联
 

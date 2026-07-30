@@ -1,5 +1,5 @@
 ---
-title: AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴
+title: AI 时代产品经理的生存指南
 podcast: "Lenny's Podcast"
 date: 2026-04-19
 source_url: https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble
@@ -7,7 +7,7 @@ duration: "95:08"
 type: episode
 cover: "#6366f1"
 image: "/covers/2026-04-19-lennys-why-half-of-product-managers-are-in-trou.jpg"
-description: 前 Meta、Google 高管 Nikhyl Singhal 断言：PM 行业正在大洗牌，未来两年唯有成为拥抱 AI 的「构建者」才能生存。
+description: 产品经理的黄金时代和洗牌期同时到来：要么成为构建者，要么离开科技行业。
 host: "[[Lenny]]"
 cohosts: ["[[Nikhyl Singhal]]"]
 companies: ["[[Skip]]"]
@@ -18,9 +18,9 @@ tags:
   - 产品方法
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 时代产品经理的生存指南</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# AI 时代产品经理生存指南：一半人将被迫转行，一半人迎来复兴
+# AI 时代产品经理的生存指南
 
 <div class="pd-byl"><b>Nikhyl Singhal</b> · 前 Meta、Google 高管</div>
 
@@ -39,88 +39,89 @@ tags:
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/why-half-of-product-managers-are-in-trouble)
 
-<div class="pd-tldr"><b>一句话</b>前 Meta、Google 高管 Nikhyl Singhal 断言：PM 行业正在大洗牌，未来两年唯有成为拥抱 AI 的「构建者」才能生存。</div>
+<div class="pd-tldr"><b>一句话</b>产品经理的黄金时代和洗牌期同时到来：要么成为构建者，要么离开科技行业。</div>
 
-主持人 [[Lenny|Lenny]] 邀请到前 Meta 和 Google 的长期高管、四次创业者 [[Nikhyl Singhal|Nikhyl Singhal]]。Nikhyl 运营着由顶尖产品负责人组成的 [[Skip|Skip]] 社区，长期与行业一线保持密切交流。本期他们直击 AI 时代[[产品经理|产品经理]]（PM）正在经历的剧烈动荡。全文将围绕三个核心展开：**行业正在发生什么巨变、为什么自我重塑如此艰难、以及个体如何找到出路。**
+一家公司未来可能会裁掉 3 万人，再招 8 千人，而这 8 千人全都是「AI 优先」的——说这话的人是 [[Nikhyl Singhal|Nikhyl Singhal]]，他运营着一个由 125 位产品负责人组成的社区。他警告：科技行业正同时经历一场彻底的复兴和一场残酷的洗牌。
 
-## 「构建者」的复兴与「信息搬运工」的末日
+在这一集 [[Lenny|Lenny]] 的播客对谈里，他们聊了三件事：[[产品经理|产品经理]]这个角色正在发生什么剧变，为什么未来几年会是一场非建构者的生存噩梦，以及那些过得风生水起的人，到底是怎么跨越心理门槛、用 AI 把自己从机械工作中淘汰掉的。最后他还回答了一个让人焦虑的问题：如果你就是不热爱亲手写代码、做东西，到底该怎么办。
 
-回到两三年前的零利率（ZIRP，指当时投资者提供近乎零利息的免费资金）时代末期，PM 群体普遍面临着一种极大的工作压力：你的日常往往是「无权力地承担责任」<button class="pd-ts" data-t="04:47" data-who="Lenny" data-en="Let me frame the way that my team is presenting the information to my boss so that that person can frame it to their boss's boss. Generally, the function had become extremely focused on responsibility without authority." aria-label="回原文"></button>。也就是说，你主要负责把信息从一处搬到另一处——比如把团队的汇报包装好，再层层传递给你的上级 <button class="pd-ts" data-t="04:33" data-who="Nikhyl Singhal" data-en="What I mean by that is their day was largely a day of moving information from one to another. Let me frame the way that my team is presenting the information to my boss so that that person can frame it to their boss's boss." aria-label="回原文"></button>。
+## 产品经理的「文艺复兴」与集体疲惫
 
-如今，这种旧模式正在全面崩溃，行业迎来了彻底的复兴 <button class="pd-ts" data-t="05:50" data-who="Nikhyl Singhal" data-en="There's much more of a direct connection to their ideas and their ability to test and connect their product instincts to their customers. In many ways, this is a complete renaissance for the product industry." aria-label="回原文"></button>。最根本的变化是：**AI 正在接管那些你不喜欢的机械性工作** <button class="pd-ts" data-t="14:57" data-who="Nikhyl Singhal" data-en="Product leaders will increasingly get paid and be asked to drive judgment, and then be the tip of the sphere on trying to essentially obsolete everything else through software, through AI, through agents." aria-label="回原文"></button>。随着变更和测试的成本大幅降低，产品将面临 10 倍甚至 100 倍的变化频率 <button class="pd-ts" data-t="15:29" data-who="Nikhyl Singhal" data-en="Some companies are doing it now, some companies will do it, but within two years I think most of these companies will obsolete all the mechanical parts of building product." aria-label="回原文"></button>。这要求 PM 的工作重心必须转向纯粹的「[[判断力|判断力]]」——评估某个变更究竟是好事还是坏事，以及如何在保障品牌和可维护性的前提下，构建可持续的产品 <button class="pd-ts" data-t="15:57" data-who="Nikhyl Singhal" data-en="Just to make sure we understand, when you say judgment, what should people be thinking of when you talk about judgment? I think that it's evaluating whether the thing that we're changing is a good or bad thing." aria-label="回原文"></button>。
+回到三四年前，科技圈还处在一个特殊阶段——Nikhyl 称之为 ZIRP 时代，也就是投资者几乎零利息把钱推给公司的时期。那时候产品经理的日子表面光鲜：薪水高，行业规模庞大，历史上的产品经理和 CPO（首席产品官）数量达到顶峰。但 Nikhyl 指出，很多人内心并不快乐 <button class="pd-ts" data-t="04:25" data-who="Nikhyl" data-en="But if you really talk to product leaders that were in that mode maybe three years ago, they weren't very happy. What I mean by that is their day was largely a day of moving information from one to another." aria-label="回原文"></button>。因为那时产品经理的工作已经异化成纯粹的「[[信息搬运工|信息搬运工]]」——你把团队的信息包装一下，拿去给老板看，老板再包装给他的老板。整个职能变成了一种「有责无权」的状态，Nikhyl 说这是职场压力最大的来源 <button class="pd-ts" data-t="04:56" data-who="Nikhyl" data-en="Generally, the function had become extremely focused on responsibility without authority. That is the greatest form of workplace stress. Now, we don't talk about that." aria-label="回原文"></button>。
 
-> 【背景】ZIRP 时代：Zero Interest Rate Policy（零利率政策）时期的简称。在那时候，科技公司极易获取大量廉价资金，因此普遍过度招聘，行业极其庞大。
+今天，情况发生了反转。产品经理又开始能亲手构建东西了，不必再苦苦依赖一大堆人才能产生影响。他们可以直接把自己的产品直觉和客户连接起来，测试想法变得直接。Nikhyl 称这是产品行业的彻底复兴（renaissance）。对他社区里那些最强的建构者来说，薪酬创了历史新高，拿到的 offer 比以往任何时候都多，下一份工作可能是当创始人、当 CEO，或者跨界去做其他职能的高管 <button class="pd-ts" data-t="05:50" data-who="Nikhyl" data-en="There's much more of a direct connection to their ideas and their ability to test and connect their product instincts to their customers. In many ways, this is a complete renaissance for the product industry." aria-label="回原文"></button>。
 
-行业的洗牌已经开始。Nikhyl 预测，未来 12 到 24 个月内，公司将出现大规模裁员随后又大规模重新招聘的现象 <button class="pd-ts" data-t="22:21" data-who="Nikhyl Singhal" data-en="This AI thing requires a totally different skillset.&quot; The combination is going to mean, this year I predict in the next 12 to 24 months, we're going to see massive shedding of staffs and then massive rehiring." aria-label="回原文"></button>。比如一家公司可能裁掉 30,000 人，再重新雇佣 8,000 人，而新招的这些人将全部是「AI 优先」的 <button class="pd-ts" data-t="22:34" data-who="Nikhyl Singhal" data-en="The combination is going to mean, this year I predict in the next 12 to 24 months, we're going to see massive shedding of staffs and then massive rehiring. But you might see a company shed 30,000 and hire 8,000, but the 8,000 people they're going to hire are going to all be AI first." aria-label="回原文"></button>。非[[构建者|构建者]]（约占行业一半的「[[信息搬运工|信息搬运工]]」）将面临淘汰，而「构建者」则会迎来职业生涯中最美好的时光 <button class="pd-ts" data-t="50:57" data-who="Nikhyl Singhal" data-en="And there wasn't like you go to become a business school, you get a business school degree and all of a sudden you're a product manager, you would have to work." aria-label="回原文"></button>。标志性的一点是：过去备受推崇的大厂履历品牌，正在失效——面试官现在只关心你当前是否掌握最前沿的工具和现代工作方式 <button class="pd-ts" data-t="37:10" data-who="Nikhyl Singhal" data-en="And we don't talk about it as an industry, but it's absolutely true. And then the last thing I would just say, and maybe this goes into some of the advice as well, is I think that one of the most surprising shifts we're seeing is your brands don't matter as much as how modern you are in your ability to deliver product." aria-label="回原文"></button>。
+但这份复兴带着沉重的代价，最大的问题就是前所未有的疲惫。以前你摸清了怎么干活，能安稳十年；现在你三个月不跟上，别人就会说「这事我们三个月前就不这么干了」 <button class="pd-ts" data-t="07:03" data-who="Nikhyl" data-en="Now, if you don't stay up in the next three months, they'll be like, &quot;Oh, you're doing that thing? We stopped doing that three months ago. We don't do that anymore." aria-label="回原文"></button>。整个行业没有任何东西是一成不变的，每个人都处于警觉状态 <button class="pd-ts" data-t="00:09" data-who="Nikhyl" data-en="Nothing's constant. Everyone's in a state of alert. If you talk to product leaders three years ago, their day was largely moving information." aria-label="回原文"></button>。尤其是三十多岁的中层力量，刚好处于精力和经验最好的事业黄金期，但同时也面临身体开始出小毛病、父母老去需要照顾、孩子还小等生活重压。工作还要把剩下的时间全吞噬，而且规则一直在变，这代人承受的压力是历史级别的 <button class="pd-ts" data-t="08:31" data-who="Nikhyl" data-en="Then, oh, by the way, your work, which will take whatever time you have, but it also changes all the time. That generation is insanely stressed historically. Now, we're like, &quot;Hey, stay up." aria-label="回原文"></button>。
 
-## 为什么自我重塑这么难？因为旧规则失效了
+## 未来两三年：大裁员、大重构、「坏软件」终结
 
-既然行业趋势如此明显，为什么很多人依然无动于衷？说完了外部环境的变化，Nikhyl 深入剖析了阻碍人们改变的内在心理机制。
+说完了当下的疲惫与机遇，接下来是 Nikhyl 对未来一两年的预测，这也是全集最扎心的部分。他在旧金山每个月和那 125 位产品负责人聚会，发现 12 个月前大家还在讨论怎么排期，现在已经全员在聊怎么用智能体、怎么写软件把自己的日常工作淘汰掉。整个行业的工作语言彻底变了 <button class="pd-ts" data-t="14:00" data-who="Nikhyl" data-en="How all of you are essentially spending all your time just focusing on judgment and you're spending all your time taking anything that can be obsoleted and writing software around it.&quot;" aria-label="回原文"></button>。
 
-首先是「权力岁月」中的时间极度匮乏。处于 30 多岁的中层人员，正处于精力和经验的最巅峰期，但也恰好面临成家立业、父母老去、自身健康衰退等多重压力 <button class="pd-ts" data-t="07:32" data-who="Nikhyl Singhal" data-en="That's mind-boggling, but depending on your perspective, you might be on one side or the other. I think that particularly a lot of the mid-career people, people that are like, let's call it in their 30s, life plays this cruel trick on you where you end up having your best, most energetic years of your career, your power years of career, because you finally have figured out what you're doing." aria-label="回原文"></button>。在每天面对工作、家庭和生活的「失望算法」中，他们已经耗尽了精力，实在难以再挤出时间去拥抱重塑 <button class="pd-ts" data-t="43:53" data-who="Nikhyl Singhal" data-en="I want to go back to the world where I can just keep doing things.&quot; So I think this block is actually at the heart of the matter today, and it's a skill reinvention, and it requires time, but time is so hard to find in your power years for the reasons we mentioned with so many..." aria-label="回原文"></button>。
+在公司层面，他预测未来 12 到 24 个月会发生大规模裁员，随后是大规模重新招聘 <button class="pd-ts" data-t="22:21" data-who="Nikhyl" data-en="This AI thing requires a totally different skillset.&quot; The combination is going to mean, this year I predict in the next 12 to 24 months, we're going to see massive shedding of staffs and then massive rehiring." aria-label="回原文"></button>。你可能会看到一家公司裁掉 3 万人，然后招 8 千人，但这新招的 8 千人全部要是「AI 优先」的，因为旧的人员结构无法满足新目标 <button class="pd-ts" data-t="22:34" data-who="Nikhyl" data-en="The combination is going to mean, this year I predict in the next 12 to 24 months, we're going to see massive shedding of staffs and then massive rehiring. But you might see a company shed 30,000 and hire 8,000, but the 8,000 people they're going to hire are going to all be AI first." aria-label="回原文"></button>。过去很多上市公司在过去五年里人员翻倍，但产出并没有翻倍。Nikhyl 提到，十几年前在 Google 时他们私下就讨论过：维持核心业务运转到底需要多少人？他发现真正需要的可能只占员工总数的 9% 左右 <button class="pd-ts" data-t="21:50" data-who="Nikhyl" data-en="The answer's probably closer to 9%. Probably you need 500 people to keep the lights on and to build that business. You don't need 25,000, 30,000, 40,000 people." aria-label="回原文"></button>。现在公司终于开始清算这笔账了。
 
-其次是一个反直觉的现象——**过去越成功的人，现在越难改变** <button class="pd-ts" data-t="45:40" data-who="Nikhyl Singhal" data-en="It's like, I'm never in flow because I got to keep doing this over and over and over again. And the most surprising observation I made is that the ones that were the best at working in the past, the ones that mastered the old game, find it the hardest to go through this reinvention stage." aria-label="回原文"></button>。Nikhyl 称之为「阴影超能力」现象：你在旧系统中钻研得越深，你就越不容易察觉到新系统的到来，因为旧方法对你来说「依然奏效」<button class="pd-ts" data-t="45:58" data-who="Nikhyl Singhal" data-en="It's this sort of shadow superpower thing that I talk about. The better you are at mastering one system, the less likely you are to sort of recognize the new one because your entire world is like, this is working to me." aria-label="回原文"></button>。
+与此同时，产品要经历的变化速度会是过去的 10 倍到 100 倍，因为测试和改动的成本大大降低了 <button class="pd-ts" data-t="15:29" data-who="Nikhyl" data-en="Some companies are doing it now, some companies will do it, but within two years I think most of these companies will obsolete all the mechanical parts of building product." aria-label="回原文"></button>。当变化这么快时，产品经理最核心的能力就变成了「[[判断力|判断力]]」——评估一个改动到底是好是坏，评估该用哪种方案，怎么兼顾品牌、系统的可维护性 <button class="pd-ts" data-t="16:25" data-who="Nikhyl" data-en="When customers are asking for things, when you're trying to think through how do you build something that's sustainable, differentiated, that's judgment. Evaluating whether it's successfully met that criteria and whether it's worth building and worth releasing, it's almost like the system skill that's existed from the beginning of the internet." aria-label="回原文"></button>。Nikhyl 甚至半开玩笑地立下愿望：未来两年内，世界上将不再有「坏软件」 <button class="pd-ts" data-t="16:52" data-who="Nikhyl" data-en="They're going to happen more frequently. As an aside, because of all these changes, I think that in two years, I think there won't be any more bad software. This is maybe more of a wish and a dream than a prediction, but I think that if you count in the week, in your given week, how much bad software you come back with." aria-label="回原文"></button>。很多糟糕的软件之所以糟糕，是因为它们由不真正关心产品的公司、找最便宜的工程师顺手做的。现在任何人都能用上最顶级的工程师——只要用英语跟工具说一声就行。
 
-> 【背景】权力岁月（Power years）：嘉宾用来指代 30 多岁人群处于职业生涯最精力充沛、最具影响力的巅峰阶段，但同时也往往伴随着生活和家庭压力最集中的时期。
+## 阵痛与倒退：谁会被甩下车
 
-## 跨越恐惧的门槛：找到构建的乐趣
+工具变了，人怎么办？这正是下一个话题。这场大重构有两个阴影。第一是行业的多样性会倒退。Nikhyl 坦言，因为 AI 浪潮高度集中在湾区，公司招的人少了，往往会倾向于招那些和自己很像的人，导致年龄、性别、种族背景的多样性都在受损 <button class="pd-ts" data-t="36:17" data-who="Nikhyl" data-en="But I think that because the AI wave is so heavily coming from the Bay Area, and because companies are hiring fewer folks, they're hiring people that look and act like themselves." aria-label="回原文"></button>。一个更隐秘的痛点是：很多女性恰恰在事业黄金期生育，她们在客观上很难像别人那样把无数个夜晚和周末都砸进高强度的工具钻研里，这进一步加剧了不平等 <button class="pd-ts" data-t="37:06" data-who="Nikhyl" data-en="And so that's an impact. And we don't talk about it as an industry, but it's absolutely true. And then the last thing I would just say, and maybe this goes into some of the advice as well, is I think that one of the most surprising shifts we're seeing is your brands don't matter as much as how modern you are in your ability to deliver product." aria-label="回原文"></button>。
 
-心理障碍如此顽固，个体究竟该如何破局？嘉宾给出的核心建议是：**你要在心里先跨越那道门槛，找到构建带来的「初次乐趣」**。
+第二个阴影是：过去最成功的人，现在可能最难转身。Nikhyl 称之为「阴影超能力」现象：你越是精通旧的运作系统，你越难去识别新系统，因为你的整个世界观都在告诉你「老办法对我很管用啊」 <button class="pd-ts" data-t="45:54" data-who="Nikhyl" data-en="And the most surprising observation I made is that the ones that were the best at working in the past, the ones that mastered the old game, find it the hardest to go through this reinvention stage." aria-label="回原文"></button>。这类人不仅要面对工作的变化，还要面对心理上的崩塌——他曾经遵从社会契约（好好读书、努力工作、当上经理、拿到高薪），现在却被告知必须从零开始。
 
-这种快乐通常发生在一个非常个人的瞬间：你用 AI 工具随手做了一个追踪收件箱的「幕僚长」应用，或是做了一个管理家里灯光的小工具 <button class="pd-ts" data-t="55:23" data-who="Nikhyl Singhal" data-en="It's going to be like, &quot;Oh, I was doing it a certain way, and then all of a sudden I built this thing.&quot; And oftentimes it's like, &quot;My partner and I use this app that I built,&quot; or, &quot;I built a chief of staff app to keep track of my inbox,&quot; or, &quot;I now manage the lights in my house using this thing.&quot;" aria-label="回原文"></button>。当你熬了一整夜，发现「以前必须亲力亲为的事，现在我的智能体能帮我做了」，你就会彻底着迷 <button class="pd-ts" data-t="56:09" data-who="Nikhyl Singhal" data-en="Even my wife has a story about how she has this business that she's thinking through and she went from using the AIs to do the business plan, to actually do test market." aria-label="回原文"></button>。这种快乐是职业倦怠最大的解药 <button class="pd-ts" data-t="56:22" data-who="Nikhyl Singhal" data-en="And at that moment is when they cross the threshold between fear to joy and joy is the biggest anecdote to burnout and it creates opportunity. Because the moment you have joy, the moment it doesn't feel like work." aria-label="回原文"></button>。
+他估计，产品行业里大概有一半人其实是不热爱构建东西的，他们当初入行只是因为觉得这是个赚钱的好工作，享受的是传递信息和做团队建设的感觉。Nikhyl 对这批人的判断极其冷酷：如果你不爱构建东西，你就有麻烦了 <button class="pd-ts" data-t="30:18" data-who="Nikhyl" data-en="But if you don't love building stuff, you're in trouble. And I mentioned about half the people are in that camp. So we're going to have that challenge where they're going to have to find, perhaps leave the tech industry." aria-label="回原文"></button>，你很可能不得不离开科技行业。
 
-为了达到这种状态，你需要具备「工程师思维」，也就是永远想办法**让自己在日常琐事中过时（淘汰自己）** <button class="pd-ts" data-t="61:25" data-who="Nikhyl Singhal" data-en="And of course, this was before tech in that case. And he's like, &quot;And my dad's definition is still my favorite, which is an engineer is someone who obsoletes themselves from everything they do." aria-label="回原文"></button>。比如自己写智能体去自动匹配社区里的人脉，或者自动回复用户提问。最关键的是，你不需要是一个硬核程序员，甚至不需要懂代码，只要你对「好东西应该长什么样」有主见就足够了 <button class="pd-ts" data-t="63:12" data-who="Nikhyl Singhal" data-en="You don't even need to be an engineer. You just have to be opinionated on what you want to see. And know what you want." aria-label="回原文"></button>。
+## 出路：找到快乐的瞬间，把自己「淘汰」掉
 
-## 现代化重构：内化、提速与放下自我
+那到底怎么跨越这道心理门槛？Nikhyl 给出的第一条也是最核心的建议是：用上工具，找到那个让你感到快乐的瞬间 <button class="pd-ts" data-t="55:01" data-who="Nikhyl" data-en="So what I'm suggesting is how do you then transition mentally and then physically into a moment of going from this moment of fear and being on the sidelines to being in the game?" aria-label="回原文"></button>。
 
-找到了乐趣只是第一步，要在未来两年真正站稳脚跟，Lenny 和 Nikhyl 探讨了具体的落地策略。你需要立刻开始自我重构，而不仅仅是等待被重塑。
+他观察到，几乎每个成功转型的人都有一个高度个人化的故事：也许是自己做了一个小应用帮伴侣打理生意，也许是写了一个小程序帮自己管理家里的智能灯，甚至只是半夜不睡觉跟 AI 聊天把一个小东西做出来。做完那一刻，灯泡亮了，齿轮转了，一种纯粹的创造快感会击中你。Nikhyl 说，从恐惧跨越到快乐之后，这种快乐就是职业倦怠最好的解药，因为它让人感觉「这不像是在工作」 <button class="pd-ts" data-t="56:27" data-who="Nikhyl" data-en="And at that moment is when they cross the threshold between fear to joy and joy is the biggest anecdote to burnout and it creates opportunity. Because the moment you have joy, the moment it doesn't feel like work." aria-label="回原文"></button>。人的能量其实远比想象的大，只是过去被那种单调乏味的「伪产品工作」耗干了 <button class="pd-ts" data-t="57:05" data-who="Nikhyl" data-en="They're just so exhausted by the monotony of what was defined as product management. And so that is the number one piece of advice is, have you found joy? Now there's a class of person who's like, &quot;None of this is joyful." aria-label="回原文"></button>。
 
-Nikhyl 提出了几条硬核建议：
-1. **必须找到提高节奏的能力**：未来两年需要你像刚入职或刚进入一段新关系时那样，展现出最强的主观能动性，全力以赴 <button class="pd-ts" data-t="66:06" data-who="Nikhyl Singhal" data-en="Again, reduce the less joyful parts of my job is a good starting point. I think that you have to find ability to increase pace. The next two years requires a lot of fire in the belly, a lot of agency that I know everyone talks about." aria-label="回原文"></button>。
-2. **放下你的自我**：不要再执着于「我过去是某个级别的领导，我就必须继续担任同级职位」<button class="pd-ts" data-t="67:08" data-who="Nikhyl Singhal" data-en="I think the other thing you have to do is you have to swallow your ego. I don't want a single person saying, &quot;Hey, I was a X, Y, Z leader. I would only consider roles at that same level.&quot;" aria-label="回原文"></button>。你要为了掌握新工具，甚至愿意接受看起来更小、更基础的工作，以确保自己正在穿越那条现代化的隧道 <button class="pd-ts" data-t="67:40" data-who="Nikhyl Singhal" data-en="You have to have an egoless perspective of how to stay current. And you would be not only willing, but actually look for ways to even take something smaller in order to make sure that you're kind of going through the tunnel correctly." aria-label="回原文"></button>。
-3. **保持长期思维**：不要只盯着眼前的机会，而是要设想「跨过这一步」之后的新世界 <button class="pd-ts" data-t="68:26" data-who="Nikhyl Singhal" data-en="My property is called the skip, of the community and everything. They all kind of come down to this word called the skip. And I chose that word because the best career advice is always not thinking about the next move, but the move after." aria-label="回原文"></button>。
+他自己的实践就完美诠释了什么叫「工程师思维」。他曾经问过一位顶尖工程师：什么是好工程师？对方说，最好的工程师就是「让自己从做的每一件事里淘汰出局」的人 <button class="pd-ts" data-t="61:25" data-who="Nikhyl" data-en="And of course, this was before tech in that case. And he's like, &quot;And my dad's definition is still my favorite, which is an engineer is someone who obsoletes themselves from everything they do." aria-label="回原文"></button>。Nikhyl 现在把这个原则用到了极致——只要是他日常工作里需要重复做的事情，他就想办法用 AI 淘汰掉自己。他给 100 多人的社区成员写了一个自动匹配互相认识的智能体，取代了过去他自己拍脑袋做社交推荐的工作 <button class="pd-ts" data-t="60:08" data-who="Nikhyl" data-en="I write an agent that goes in and actually does matching. I write an agent to figure out, &quot;Hey, what are all the jobs that my head of products are hiring? How do we make sure that we make those available, but then build a mailing list of folks who I think when they're interested in work can get matched up automatically.&quot;" aria-label="回原文"></button>；他写了一个能自动把社区里空缺职位和感兴趣的成员匹配起来的系统 <button class="pd-ts" data-t="60:13" data-who="Nikhyl" data-en="I write an agent to figure out, &quot;Hey, what are all the jobs that my head of products are hiring? How do we make sure that we make those available, but then build a mailing list of folks who I think when they're interested in work can get matched up automatically.&quot;" aria-label="回原文"></button>。他强调，写这种工具甚至不需要你懂工程，你只需要知道自己想要什么结果，并且对「好的标准」有主见就行 <button class="pd-ts" data-t="63:16" data-who="Nikhyl" data-en="You just have to be opinionated on what you want to see. And know what you want. Yeah, know what good looks like." aria-label="回原文"></button>。解决你自己在日常生活和工作中遇到的真实问题，就是最好的切入点。
 
-好消息是，未来 5 年，PM 这个角色并不会消失，反而会像蒲公英的种子一样扩散到各行各业 <button class="pd-ts" data-t="70:37" data-who="Nikhyl Singhal" data-en="We need to get to future.&quot; So I'm really bullish that product leaders are going to be like those dandelion, whatever you call it, seeds when you blow it and they just go everywhere." aria-label="回原文"></button>。无论是营销、销售，还是被私募股权收购的传统暖通空调公司，都需要懂技术、有判断力的 PM 来担任变革的推动者。同时，传统的跨职能对齐（alignment）工作不会消失，但由于 AI 消除了信息流转中的添油加醋，内部博弈的戏剧化成分将大幅减少，PM 终于可以基于真实的「基本事实」去辩论和做决定了 <button class="pd-ts" data-t="73:34" data-who="Nikhyl Singhal" data-en="And I think that if you dissect what alignment looks like, a lot of alignment was getting people the right information, the ground-level truth. That problem is dramatically better." aria-label="回原文"></button>。
+> 【背景】对话中提到了 ZIRP 时代，即 Zero Interest Rate Policy（零利率政策）时期，指前几年风险投资资金极其充裕、科技公司疯狂扩张的阶段；vibe coding 指不完全关注代码语法细节、主要靠自然语言指挥 AI 写代码的编程方式。
+
+他还补了一条关键提醒：转身不代表你要永远在跑步机上狂奔。Nikhyl 说，现在确实是一个必须全速跟上、跨入新世界的隧道期，会让人眩晕和疲惫。但这不会是未来 30 年的常态，等再过两三年，新的工作方式沉淀下来，一切又会重新变得有些规律和可培训 <button class="pd-ts" data-t="52:02" data-who="Nikhyl" data-en="But after a couple years, there's going to be some routineness to it. There's going to be some training. There's going to be consistency." aria-label="回原文"></button>。所以现在的核心心态是放下包袱，甚至接受职位或头衔暂时变小，只要确保你登上的是那艘开往新世界的船 <button class="pd-ts" data-t="67:50" data-who="Nikhyl" data-en="And you would be not only willing, but actually look for ways to even take something smaller in order to make sure that you're kind of going through the tunnel correctly." aria-label="回原文"></button>。
 
 ## 本集带走
 
-1. **「信息搬运工」将被淘汰**：PM 过去那种靠流转信息和写状态报告来体现价值的日子结束了，AI 会接管所有机械性工作。未来的核心竞争力是纯判断力——决定到底要不要做这个变更。
-2. **别被大厂品牌拖累**：过去十年的金子招牌正在失效。如果你的工作方式不现代、没用 AI 工具，你在顶级公司的履历反而会让你显得脱节。保持现代化比过往背景更重要。
-3. **从恐惧跨向快乐**：重塑自我的关键是先找到用 AI 做出一个具体小工具的乐趣。一旦体验到那种「点灯泡」般的满足感，你就会着迷，并自然而然地腾出时间去成为真正的「构建者」。
+最后收个尾，这一集值得带走的是三句话。第一，科技行业正同时经历复兴与洗牌，旧的「信息搬运工」式产品经理正在变成恐龙，未来留下来的全是能亲手用 AI 构建东西、懂判断的人；未来一两年甚至会出现公司大裁员再重新招揽 AI 优先人才的大换血。第二，转型最难跨越的不是技术，而是心理门槛——那些在旧体系里最成功的人反而最难转身，因为他们缺乏改变的动力；但你必须逼自己跨过去，去找到那个用 AI 亲手做出一个小工具、感到纯粹快乐的瞬间，那是打破恐惧和倦怠的唯一解药。第三，别怕把自己从日常工作里淘汰掉，用智能体把你现在重复做的琐事全部自动化，你只需要对什么是好结果保持主见，把省下来的精力全部投入到真正需要人的判断力和对齐沟通上。
 
-<div class="pd-sec">全部金句 <span>8 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>9 条(中英对照,已过机器闸门)</span></div>
 
 > <span class="qz">总的来说，这个职能已经变得极其专注于没有权力的责任。</span>  
 > *Generally, the function had become extremely focused on responsibility without authority.*  
 > <span class="qm">—— Nikhyl Singhal · [04:47]</span> ^q1
 
-> <span class="qz">但你可能会看到一家公司裁掉 30,000 人，然后招聘 8,000 人，但他们要招聘的这 8,000 人将全部是 AI 优先的。</span>  
-> *But you might see a company shed 30,000 and hire 8,000, but the 8,000 people they're going to hire are going to all be AI first.*  
-> <span class="qm">—— Nikhyl Singhal · [22:34]</span> ^q2
+> <span class="qz">我从未见过一个像现在这样疲惫的行业。</span>  
+> *I've never seen an industry that's more tired than they are now.*  
+> <span class="qm">—— Nikhyl Singhal · [06:32]</span> ^q2
 
-> <span class="qz">我认为，与以往相比，产品将面临 10 倍到 100 倍更多的变化，因为现在测试某事的成本、变更的成本将大大降低。</span>  
-> *I think that there will be 10 to a hundred times more changes that will be presented to products than ever before, because now the cost of testing something, the cost of changing is going to be much, much lower.*  
-> <span class="qm">—— Nikhyl Singhal · [15:29]</span> ^q3
+> <span class="qz">这种组合将意味着，我预测在今年，在未来 12 到 24 个月内，我们将看到大规模的人员裁员，然后是大规模的重新招聘。</span>  
+> *The combination is going to mean, this year I predict in the next 12 to 24 months, we're going to see massive shedding of staffs and then massive rehiring.*  
+> <span class="qm">—— Nikhyl Singhal · [22:21]</span> ^q3
+
+> <span class="qz">但你可能会看到一家公司裁员 3 万人，然后招聘 8 000 人，但他们要招聘的这 8 千人将全部是 AI 至上的。</span>  
+> *But you might see a company shed 30,000 and hire 8,000, but the 8,000 people they're going to hire are going to all be AI first.*  
+> <span class="qm">—— Nikhyl Singhal · [22:34]</span> ^q4
 
 > <span class="qz">信息搬运工基本上将变成恐龙。</span>  
 > *The information mover is essentially going to become a dinosaur.*  
-> <span class="qm">—— Nikhyl Singhal · [25:29]</span> ^q4
-
-> <span class="qz">我认为我们看到的最令人惊讶的转变之一是，你的品牌并不如你在交付产品方面的现代化程度重要。</span>  
-> *I think that one of the most surprising shifts we're seeing is your brands don't matter as much as how modern you are in your ability to deliver product.*  
-> <span class="qm">—— Nikhyl Singhal · [37:17]</span> ^q5
+> <span class="qm">—— Nikhyl Singhal · [25:29]</span> ^q5
 
 > <span class="qz">我做过的最令人惊讶的观察是，那些过去最擅长工作的人，那些掌握了旧游戏规则的人，发现最难度过这个重塑阶段。</span>  
-> *And the most surprising observation I made is that the ones that were the best at working in the past, the ones that mastered the old game, find it the hardest to go through this reinvention stage.*  
+> *The most surprising observation I made is that the ones that were the best at working in the past, the ones that mastered the old game, find it the hardest to go through this reinvention stage.*  
 > <span class="qm">—— Nikhyl Singhal · [45:40]</span> ^q6
 
-> <span class="qz">他说，我爸爸的定义仍然是我最喜欢的，即工程师是一个让自己从所做的每件事中过时的人。</span>  
-> *And my dad's definition is still my favorite, which is an engineer is someone who obsoletes themselves from everything they do.*  
-> <span class="qm">—— Nikhyl Singhal · [61:25]</span> ^q7
+> <span class="qz">你越擅长掌握一个系统，你就越不可能去识别新系统，因为你的整个世界就像是，这对我来说奏效啊。</span>  
+> *The better you are at mastering one system, the less likely you are to sort of recognize the new one because your entire world is like, this is working to me.*  
+> <span class="qm">—— Nikhyl Singhal · [45:58]</span> ^q7
 
-> <span class="qz">天才是 1% 的灵感，99% 的汗水。</span>  
-> *Genius is 1% inspiration, 99% perspiration.*  
-> <span class="qm">—— Nikhyl Singhal · [89:28]</span> ^q8
+> <span class="qz">我爸爸的定义仍然是我最喜欢的，即工程师是一个让自己从所做的每件事中过时的人。</span>  
+> *And my dad's definition is still my favorite, which is an engineer is someone who obsoletes themselves from everything they do.*  
+> <span class="qm">—— Nikhyl Singhal · [61:25]</span> ^q8
+
+> <span class="qz">我认为在我们所做的事情的多样性方面，我们将倒退好几年。</span>  
+> *I think that we will have stepped back quite a number of years in the diversity of what we do.*  
+> <span class="qm">—— Nikhyl Singhal · [36:28]</span> ^q9
 
 <div class="pd-sec">接着看</div>
 
@@ -129,18 +130,18 @@ Nikhyl 提出了几条硬核建议：
 
 **顺着「职业与个人成长」挖下去**
 
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 独立开发术：从 Cursor 到「智能体同行评审」]] —— 同公司:Codex · 同概念:智能体 (agent)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|Dan Shipper 的未来工作预测：别等 AI 末日，用 Codex 重塑一切]] —— 同公司:Codex · 同概念:智能体 (agent)
-- [[2026-07-09-pg-pm-guide-ai-design|用 AI 武装技术型 PM：Codex 工作流全解析]] —— 同公司:Codex · 同概念:智能体 (agent)
+- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同公司:Codex · 同概念:智能体 (agent)
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同公司:Codex · 同概念:智能体 (agent)
+- [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]] —— 同公司:Codex · 同概念:智能体 (agent)
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|妻子反向采访 Lenny:百万订阅背后的真实人生]] —— 同概念:产品经理 (product manager)
-- [[2026-05-31-lennys-a-rational-conversation-on-where|Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱]] —— 同公司:Anthropic、Google、Meta
-- [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型]] —— 同公司:Anthropic、Codex · 同概念:智能体 (agent)
+- [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|Lenny 挨老婆采访:致幻剂、跑步机和五万分之一]] —— 同概念:产品经理 (product manager)
+- [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]] —— 同公司:Anthropic、Google、Meta
+- [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力]] —— 同公司:Anthropic、Codex · 同概念:智能体 (agent)
 
 </div>
 </div>
