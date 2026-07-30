@@ -69,6 +69,34 @@ export function extractJson(text) {
   }
 }
 
+/**
+ * C15 口语体机器卡点(2026-07-30 用户拍板,Gherkin 见 docs/user-stories.md「C15」)。
+ * 只卡客观可判的:标签字样 / 书面自称 / 工程备注 / 带走列表腔 / 开头是标题;
+ * 「钩子好不好」这类主观项不机器卡(判官与用户耳朵管)。
+ * 只挂在**新浓缩**的重试循环上,缓存复用路径不挂——C15 只对新浓缩生效,C14 补活吃缓存不重烧钱。
+ * 规则全部对着 57 集存量实证定(【】标记只有【背景】一种/「本文将…」6 集/正文「转写稿」4 集/带走列表腔 55 集)。
+ */
+export function styleErrs(md) {
+  const errs = [];
+  if (!md) return errs;
+  // ① 结构标签:digest_md 里唯一允许的【】标记是【背景】(钩子/导览/收尾都是自然段落,不带标签)
+  for (const m of new Set(md.match(/【(?!背景】)[^】\n]{1,16}】/g) || [])) {
+    errs.push(`正文不许出现${m}这类标签字样,钩子/导览/收尾都写成自然段落(唯一允许的标记是【背景】)`);
+  }
+  // ② 书面自称(负向环视挡住「文本文件/日本文化/篇幅」这类误伤,存量 pg-eval 集实测有「文本文件」)
+  if (/(?<![文日])本文|本篇(?!幅)/.test(md)) errs.push("不许书面自称「本文/本篇」——这是念出来的稿子,改说「这一集/接下来」");
+  // ③ 工程备注不进正文(【背景】引用块里的不算:剥掉 > 行再查)
+  const plain = md.split("\n").filter((l) => !/^\s*>/.test(l)).join("\n");
+  if (/转写稿|误写为/.test(plain)) errs.push("「转写稿/误写为」这类工程备注不进正文;真怕读者困惑就放进 > 【背景】 块");
+  // ④ 收尾:「## 本集带走」必在,内容是连贯口语段不是列表(口头串「第一/第二」可以,排列表不行)
+  const sec = md.match(/^##\s*本集带走[^\n]*\n?([\s\S]*?)(?=^#|(?![\s\S]))/m);
+  if (!sec) errs.push("缺「## 本集带走」收尾小节");
+  else if (/^\s*(?:\d+[.、)]|[-*+]\s|[①-⑩])/m.test(sec[1])) errs.push("「本集带走」不许用编号/列表腔,改写成一段连贯口语(口头串「第一/第二/第三」可以,排列表不行)");
+  // ⑤ 第一段必须是开场钩子正文,不能上来就是小节标题
+  if (/^\s*#/.test(md)) errs.push("digest_md 不能以小节标题开头,第一段必须是开场钩子");
+  return errs;
+}
+
 /** 结构校验(抽成函数:重试循环要用它,不能只在循环外算一次) */
 export function validate(o) {
   const errs = [];
@@ -81,6 +109,28 @@ export function validate(o) {
     for (const k of ["en", "zh", "timestamp", "speaker"]) if (!q?.[k]) errs.push(`quote#${i + 1} 缺 ${k}`);
   }
   return errs;
+}
+
+/**
+ * 重试循环(C15 抽函数):重试时把上一次被打回的原因**原话**附到输入末尾(nudge)。
+ * 照 extract-guest.mjs / extract-entities.mjs 的 nudge 先例平移;系统提示词/正文/次数一字不动,
+ * 第 1 次 nudge=""(input+"" 与裸 input 逐字一致)。ask 可注入(测试喂假 GLM,绝不真烧钱)。
+ * 校验 = validate(结构) + styleErrs(C15 口语体):结构合格但口语体不合格照样打回。
+ * 试满仍不合格 → 返回 null,exit 1 仍在 main(不拿坏稿冲掉仓库里的好稿)。
+ */
+export async function condenseWithRetry({ sys, input, ask, maxRetry = MAX_RETRY, saveGood, saveBad, log = console.log, warn = console.error, label = "" }) {
+  let obj = null, nudge = "";
+  for (let attempt = 0; attempt <= maxRetry && !obj; attempt++) {
+    log(`浓缩:GLM-5.2 整读${label}… (第 ${attempt + 1} 次)`);
+    const raw = await ask(sys, input + nudge);
+    const cand = extractJson(raw);
+    const errs = cand ? [...validate(cand), ...styleErrs(cand.digest_md)] : ["非合法 JSON"];
+    if (errs.length === 0) { obj = cand; saveGood?.(raw); break; }
+    saveBad?.(raw);
+    nudge = `\n\n【上一次你的输出被机器闸门打回,原因:${errs.join(";")}。请照规则修正后重出:规则一条不放宽,只输出修正后的那一个 JSON 对象。】`;
+    warn(`  第 ${attempt + 1} 次输出不合格(${errs.join(" / ")})${attempt < maxRetry ? ",重试" : ""}`);
+  }
+  return obj;
 }
 
 // ── 先校验后写(与 judge-quotes / repair-quotes 同一纪律;C2 交付物审计:本脚本此前是唯一没照做的)──
@@ -107,7 +157,9 @@ async function main() {
   const badCacheFile = resolve(ROOT, DIR, ".digest-raw.bad.txt");
   let obj = null;
 
-  // 缓存只在**校验通过**时才认;缓存里是坏内容 → 当没有,重新跑
+  // 缓存只在**校验通过**时才认;缓存里是坏内容 → 当没有,重新跑。
+  // 缓存路径只查 validate 不查 styleErrs:C15 口语体只对**新浓缩**生效(Gherkin「存量集不自动回刷」),
+  // C14 补活吃缓存不重烧钱——老缓存老腔调照用,回刷另拍。
   if (process.env.FORCE !== "1" && existsSync(cacheFile)) {
     const cached = extractJson(readFileSync(cacheFile, "utf8"));
     if (cached && validate(cached).length === 0) {
@@ -118,18 +170,15 @@ async function main() {
     }
   }
 
-  for (let attempt = 0; attempt <= MAX_RETRY && !obj; attempt++) {
-    console.log(`浓缩:GLM-5.2 整读 ${tr.length} 段双语稿… (第 ${attempt + 1} 次)`);
-    const raw = await glmAsk(SYS, INPUT);
-    const cand = extractJson(raw);
-    const errs = cand ? validate(cand) : ["非合法 JSON"];
-    if (errs.length === 0) {
-      obj = cand;
-      writeFileSync(cacheFile, raw); // ← 只缓存合格产物
-      break;
-    }
-    writeFileSync(badCacheFile, raw); // 坏输出单独留档排障,**不参与缓存命中**
-    console.error(`  第 ${attempt + 1} 次输出不合格(${errs.join(" / ")})${attempt < MAX_RETRY ? ",重试" : ""}`);
+  if (!obj) {
+    obj = await condenseWithRetry({
+      sys: SYS,
+      input: INPUT,
+      ask: glmAsk,
+      label: ` ${tr.length} 段双语稿`,
+      saveGood: (raw) => writeFileSync(cacheFile, raw), // ← 只缓存合格产物
+      saveBad: (raw) => writeFileSync(badCacheFile, raw), // 坏输出单独留档排障,**不参与缓存命中**
+    });
   }
 
   if (!obj) {
