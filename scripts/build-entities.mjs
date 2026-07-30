@@ -177,12 +177,83 @@ export function relatedEpisodes(targetEpId, episodes, { minShared = 1 } = {}) {
   return out;
 }
 
+/**
+ * C13j 补遗 · 实体的「本站收录集数」:phero 的「本站收录 N 集」与关联药丸徽标「N 集」
+ * 共用这一个口径(Gherkin 明写不造第二套)。
+ */
+export const epCount = (agg) => new Set(agg.appearances.map((a) => a.epId)).size;
+
+/**
+ * C13j 补遗 ② · 「④ 也在聊「X」的人」的共享上下文(全量算一次,别按人重算 —— episodeCategories
+ * 对未映射集会响亮警告,按人重算会把警告放大几十倍)。
+ * 常驻主持 = 同一播客 ≥2 集担任 host/cohost(结构性常驻,与 relatedEpisodes 的 host 噪音同理)。
+ * ⚠️ 不能按单集 role=host 一刀切:真数据里单人访谈的嘉宾常被标成 host(Boris Cherny 实例),
+ *    按角色硬排会把最该出现的人排掉;按「同播客 ≥2 集」才是「结构性常驻」的本义。
+ */
+export function buildPeersContext(episodes, aggs) {
+  const persons = aggs.filter((a) => a.type === "person");
+  const catOf = new Map(episodes.map((ep) => [ep.meta.id, episodeCategories(ep.meta, ep.entities)]));
+  // 同集平票时照该集 entities 序(设计稿实证:Raphael 在 Peter 前、Matei 在 Reynold 前 = 数据序)
+  const epPersonOrder = new Map(
+    episodes.map((ep) => [ep.meta.id, (ep.entities?.entities ?? []).filter((e) => e.type === "person").map((e) => e.id)]),
+  );
+  const structural = new Map(); // personId → Set<podcast>(他是这些播客的常驻主持)
+  for (const p of persons) {
+    const byPod = new Map();
+    for (const a of p.appearances) {
+      if (a.role !== "host" && a.role !== "cohost") continue;
+      if (!byPod.has(a.epPodcast)) byPod.set(a.epPodcast, new Set());
+      byPod.get(a.epPodcast).add(a.epId);
+    }
+    const pods = new Set([...byPod.entries()].filter(([, s]) => s.size >= 2).map(([k]) => k));
+    if (pods.size) structural.set(p.id, pods);
+  }
+  return { persons, catOf, epPersonOrder, structural };
+}
+
+/** 资格出场 = primary 且不是以「该播客常驻主持」身份出的场(仅被提及/串场主持都不算「聊过」) */
+function qualifyingAppearances(agg, ctx) {
+  return agg.appearances.filter(
+    (a) => a.primary && !((a.role === "host" || a.role === "cohost") && ctx.structural.get(agg.id)?.has(a.epPodcast)),
+  );
+}
+
+/**
+ * C13j 补遗 ② · 某人物的「④ 也在聊「X」的人」(设计稿 person-*.html 八样例逆向):
+ *   X = 最近一次资格出场那集的主类(episodeCategories 首位;matt-fredrikson 样例证伪
+ *       「X=药丸里全站集数最大的概念」—— 他药丸最大是智能体 22 集,节名却是 AI 安全 = 他集子的大类);
+ *   人选 = 其它有页人物,资格出场某集的大类(两槽任一)含 X;
+ *   排序 = 资格出场集日期降序 → 同日按集 id → 同集按该集 entities 序(设计稿六人序完全复现)。
+ * 返回 { topic, peers } 或 null(无资格出场/无大类)。空 peers 由调用方决定不渲染。
+ */
+export function sameTopicPeers(agg, ctx) {
+  if (agg.type !== "person") return null;
+  const newest = (list) =>
+    [...list].sort((x, y) => String(y.epDate).localeCompare(String(x.epDate)) || String(x.epId).localeCompare(String(y.epId)))[0];
+  const mine = qualifyingAppearances(agg, ctx);
+  if (!mine.length) return null;
+  const topic = (ctx.catOf.get(newest(mine).epId) ?? []).filter((c) => c && c !== "未分类")[0];
+  if (!topic) return null;
+  const peers = [];
+  for (const p of ctx.persons) {
+    if (p.id === agg.id) continue;
+    const qs = qualifyingAppearances(p, ctx).filter((a) => (ctx.catOf.get(a.epId) ?? []).includes(topic));
+    if (!qs.length) continue;
+    const a = newest(qs);
+    peers.push({ id: p.id, file: p.file, name: p.name, epDate: a.epDate, epId: a.epId, idx: (ctx.epPersonOrder.get(a.epId) ?? []).indexOf(p.id) });
+  }
+  peers.sort(
+    (x, y) => String(y.epDate).localeCompare(String(x.epDate)) || String(x.epId).localeCompare(String(y.epId)) || x.idx - y.idx,
+  );
+  return { topic, peers };
+}
+
 /** 一个实体 → 一页 markdown。pageById: id→{file,name} 供关联区链名。 */
 /** HTML 属性/文本转义(实体页 phero 是原样 HTML) */
 const escAttr = (x) =>
   String(x ?? "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&#39;");
 
-export function renderEntityPage(agg, quotes, relatedIds, pageById, aliasById = new Map()) {
+export function renderEntityPage(agg, quotes, relatedIds, pageById, aliasById = new Map(), extras = {}) {
   const alias = aliasById.get(agg.id);
   const aliasNames = alias ? (alias.forms ?? []).filter((f) => f !== agg.name && f !== agg.file) : [];
   const roleCn = (r) => ({ host: "主持", guest: "嘉宾", cohost: "联合主持", company: "被讨论公司", concept: "概念" })[r] ?? r;
@@ -199,7 +270,7 @@ export function renderEntityPage(agg, quotes, relatedIds, pageById, aliasById = 
     "---",
   ].join("\n");
 
-  const nEp = new Set(agg.appearances.map((a) => a.epId)).size;
+  const nEp = epCount(agg); // 与关联药丸徽标同一个口径(C13j 补遗)
 
   // 集里怎么说它(#7):只列有 how_described 的集;没有则整栏不显示
   const described = agg.appearances.filter((a) => a.how_described);
@@ -244,6 +315,34 @@ export function renderEntityPage(agg, quotes, relatedIds, pageById, aliasById = 
   // 小节标题照设计稿编号 + 一句说明。人物页用「他说过的话」,公司/概念页说不通 → 用中性词。
   const isPerson = agg.type === "person";
   const secQuotes = isPerson ? "① 他说过的话" : "① 提到它的金句";
+
+  // ── C13j 补遗 ② · 「④ 也在聊「X」的人」(仅人物页;无人可列整节不渲染,不出空壳)──
+  // div 中间空一行 = CommonMark 结束 HTML 块,里面的 [[双链]] 照常由 markdown 解析
+  // (renderRelatedEpisodes 的 .pd-ex 同一手法;铁律:双链不被 HTML 包住)。
+  const peers = extras.peers;
+  const peersSection =
+    isPerson && peers?.people?.length
+      ? `## ④ 也在聊「${peers.topic}」的人\n\n<div class="pd-peers">\n\n${peers.people.map((p) => `[[${p.file}]]`).join(" ")}\n\n</div>`
+      : "";
+
+  // ── C13j 补遗 ① · 关联药丸集数徽标的数据块 ──
+  // 数据构建期算好(epCount,与 phero 同源);挂 <b> 只能客户端 —— [[双链]] 里塞不进 HTML,
+  // 包住它 Quartz 又不解析(铁律)。这里只放**不执行的 JSON 数据块**;真正挂徽标/改目录的运行时
+  // 在 renderSidebarScript(全站共用,每页都有)—— SPA 换页不重跑新页内联脚本(实测漏配),
+  // 运行时从当前页 DOM 现读 script.pd-epn 才与页同步。⚠️ JSON 转义 < 与 [,防被当 HTML/双链扫到。
+  const badgeData = {};
+  if (extras.epCountByFile) {
+    for (const id of relatedIds) {
+      const f = pageById.get(id)?.file ?? id;
+      const n = extras.epCountByFile.get(f);
+      if (n) badgeData[f] = n;
+    }
+  }
+  const badgeJson = JSON.stringify(badgeData).replace(/</g, "\\u003c").replace(/\[/g, "\\u005b");
+  const chipScript = Object.keys(badgeData).length
+    ? `<script type="application/json" class="pd-epn">${badgeJson}</script>`
+    : "";
+
   const body = [
     renderSiteTopBar(agg.name),
     phero,
@@ -251,6 +350,8 @@ export function renderEntityPage(agg, quotes, relatedIds, pageById, aliasById = 
     quotes.length ? `## ${secQuotes}\n\n*${quotes.length} 条,均已过机器闸门*\n\n${quoteBody}` : "",
     `## ② 出现在这些集\n\n*${nEp} 集*\n\n${epBody}`,
     relatedIds.length ? `## ${isPerson ? "③ 他谈到的" : "③ 关联"}\n\n*点进去有真内容 —— 本页主要出口*\n\n${relBody}` : "",
+    peersSection,
+    chipScript,
     renderSidebarScript(),
   ]
     .filter(Boolean)
@@ -267,11 +368,18 @@ export function buildAllPages(episodes, aliasById = new Map()) {
   const aggs = aggregate(episodes, aliasById);
   const pageIds = new Set(aggs.map((a) => a.id));
   const pageById = new Map(aggs.map((a) => [a.id, { file: a.file, name: a.name }]));
+  // 药丸徽标与 phero 同源(C13j 补遗)。按 **file** 键、与下方 out.set 同一迭代序(同 file 后者覆盖)——
+  // 真数据有 8 组「多 id 同 file」(agent/agents/agentic→智能体 等),落盘页是后者;
+  // 徽标必须等于点进去那页 phero 显示的数,否则一颗药丸写 29、页里写 1 当场穿帮。
+  const epCountByFile = new Map(aggs.map((a) => [a.file, epCount(a)]));
+  const peersCtx = buildPeersContext(episodes, aggs);
   const out = new Map();
   for (const agg of aggs) {
     const quotes = quotesFor(agg, episodes, aliasById);
     const rel = related(agg, episodes, pageIds).slice(0, 10);
-    out.set(agg.file, renderEntityPage(agg, quotes, rel, pageById, aliasById));
+    const sp = agg.type === "person" ? sameTopicPeers(agg, peersCtx) : null;
+    const peers = sp?.peers?.length ? { topic: sp.topic, people: sp.peers.slice(0, 10) } : null; // 上限同关联区
+    out.set(agg.file, renderEntityPage(agg, quotes, rel, pageById, aliasById, { epCountByFile, peers }));
   }
   return out;
 }

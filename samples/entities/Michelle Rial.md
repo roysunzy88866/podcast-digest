@@ -27,6 +27,16 @@ unlisted: true
 
 [[Lenny Rachitsky]] · [[Substack]] · [[Airbnb]] · [[Medium]] · [[Stripe]] · [[简报]] · [[播客]] · [[付费墙]] · [[林迪效应]] · [[幸福基线]]
 
+## ④ 也在聊「增长与销售」的人
+
+<div class="pd-peers">
+
+[[Amol Avasare]] [[Lenny Rachitsky]] [[Jason Cohen]] [[Jason Lemkin]] [[Jeanne DeWitt Grosser]]
+
+</div>
+
+<script type="application/json" class="pd-epn">{"Lenny Rachitsky":1,"Substack":1,"Airbnb":4,"Medium":1,"Stripe":5,"简报":1,"播客":1,"付费墙":1,"林迪效应":1,"幸福基线":1}</script>
+
 <script>
 (function(){
   function move(){
@@ -223,7 +233,29 @@ unlisted: true
       art.appendChild(wrap);
     }
   }
-  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); }
+  // C13j 补遗:实体页关联药丸集数徽标(设计稿 .chp b)。数据 = 页内 script.pd-epn(构建期与 phero 同源);
+  // 从**当前页 DOM** 现读 —— SPA 换页不重跑新页内联脚本,闭包里的旧数据会漏配新页(实测),读 DOM 才与页同步。
+  // ③ 的药丸段 = 「标题→说明段→链接段」的第二个 p(与 custom.scss 药丸选择器同口径);④ 在 .pd-peers 里,天然不吃徽标。
+  function chips(){
+    var el=document.querySelector('article script.pd-epn'); if(!el) return;
+    var d; try{ d=JSON.parse(el.textContent); }catch(e){ return; }
+    var as=document.querySelectorAll('article h2 + p + p > a.internal');
+    for(var i=0;i<as.length;i++){
+      var a=as[i]; if(a.querySelector('b')) continue;
+      var n=d[(a.textContent||'').trim()];
+      if(n){ var b=document.createElement('b'); b.textContent=n+' 集'; a.appendChild(b); }
+    }
+  }
+  // C13j 补遗:右栏目录第四节改叫「④ 同主题的人」(设计稿右栏叫法比正文小节标题短;
+  // ⚠️ 本注释会原样进页面,别在这里写正文那个小节的中文标题 —— 守卫测试在拿它查空壳);非实体页无 ④,天然 no-op
+  function tocPeers(){
+    var links=document.querySelectorAll('.toc a');
+    for(var i=0;i<links.length;i++){
+      var t=(links[i].textContent||'').trim();
+      if(t.indexOf('④')===0 && t!=='④ 同主题的人') links[i].textContent='④ 同主题的人';
+    }
+  }
+  function all(){ topbar(); move(); adopt(); graph(); newtab(); logos(); favSync(); mtoc(); chips(); tocPeers(); }
   document.addEventListener('nav', all);
   // 跨断点缩放:右栏出现/消失后,深浅色开关要搬到当前看得见的位置去
   var rt; addEventListener('resize', function(){ clearTimeout(rt); rt=setTimeout(adopt, 150); });
