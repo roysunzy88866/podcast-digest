@@ -25,9 +25,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Justine Moore]] · [[Elizabeth Stone]] · [[生成式媒体]] · [[InterPositive]] · [[微剧]] · [[GenAI]] · [[智能体]] · [[智能体]] · [[创作者经济]]
+[[智能体]] · [[Lenny]] · [[Justine Moore]] · [[Elizabeth Stone]] · [[生成式媒体]] · [[InterPositive]] · [[微剧]] · [[GenAI]] · [[创作者经济]] · [[系统思维]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Justine Moore":1,"Elizabeth Stone":1,"生成式媒体":1,"InterPositive":1,"微剧":1,"GenAI":1,"智能体":1,"创作者经济":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":37,"Lenny":32,"Justine Moore":1,"Elizabeth Stone":1,"生成式媒体":1,"InterPositive":1,"微剧":1,"GenAI":1,"创作者经济":1,"系统思维":2}</script>
 
 <script>
 (function(){

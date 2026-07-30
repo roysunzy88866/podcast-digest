@@ -37,9 +37,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Anthropic]] · [[智能体]] · [[Claude Code]] · [[智能体]] · [[Co-work]] · [[IC]] · [[研究预览版]] · [[Stewart Butterfield]] · [[Jenny Wen]]
+[[Lenny]] · [[智能体]] · [[Anthropic]] · [[Claude Code]] · [[IC]] · [[Co-work]] · [[研究预览版]] · [[Stewart Butterfield]] · [[Jenny Wen]] · [[Jessica Fain]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Anthropic":22,"智能体":1,"Claude Code":12,"Co-work":2,"IC":3,"研究预览版":2,"Stewart Butterfield":1,"Jenny Wen":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"智能体":37,"Anthropic":22,"Claude Code":12,"IC":3,"Co-work":2,"研究预览版":2,"Stewart Butterfield":1,"Jenny Wen":1,"Jessica Fain":1}</script>
 
 <script>
 (function(){

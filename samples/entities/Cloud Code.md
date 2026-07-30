@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[提示词注入]] · [[沙箱]] · [[Zico Kolter]] · [[Boris Cherny]] · [[Matt Fredrikson]] · [[Opus 5]] · [[Gray Swan]] · [[系统提示词]] · [[Snowflake]]
 
-<script type="application/json" class="pd-epn">{"智能体":1,"提示词注入":3,"沙箱":1,"Zico Kolter":1,"Boris Cherny":1,"Matt Fredrikson":1,"Opus 5":1,"Gray Swan":1,"系统提示词":2,"Snowflake":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":37,"提示词注入":3,"沙箱":6,"Zico Kolter":1,"Boris Cherny":1,"Matt Fredrikson":1,"Opus 5":1,"Gray Swan":1,"系统提示词":2,"Snowflake":2}</script>
 
 <script>
 (function(){

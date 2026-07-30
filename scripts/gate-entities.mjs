@@ -11,7 +11,7 @@ import { readFileSync, existsSync, readdirSync, realpathSync } from "node:fs";
 import { resolve, dirname, join, basename } from "node:path";
 import { fileURLToPath } from "node:url";
 import { checkProse, buildFactIndex } from "./gate-facts.mjs";
-import { loadAllEpisodes, buildAllPages } from "./build-entities.mjs";
+import { loadAllEpisodes, buildAllPages, mergeAwareAliasById } from "./build-entities.mjs";
 
 const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -141,7 +141,10 @@ export function checkNameDrift(episodes) {
 /** 全部实体层闸门 */
 export function gateEntities({ base = resolve(ROOT, "data/episodes"), samplesDir = resolve(ROOT, "samples") } = {}) {
   const aliases = JSON.parse(readFileSync(resolve(ROOT, "data/aliases.json"), "utf8"));
-  const aliasById = new Map((aliases.entities ?? []).map((e) => [e.id, e]));
+  // 产物一致性闸门(④)须与 build-entities 同源 → merge-aware(含 _merge 归并组)。
+  // 事实层闸门(①,checkEntityFacts)仍读原始 `aliases`(只 entities[],不含 _merge)→
+  // 归并组的常用中文词不进 D17 专名扫描,不误报(见 aliases.json `_merge_doc`)。
+  const aliasById = mergeAwareAliasById(aliases);
   // transcript 逐集容错读取(fail-closed:读失败不炸穿,标记后由 checkEntityFacts 记为不过)
   const episodes = loadAllEpisodes(base).map((ep) => {
     try {

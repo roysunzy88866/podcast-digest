@@ -13,6 +13,7 @@
     "forms": "所有算作「这个实体出现了」的书写形式 = 正确名 + 别名 + 缩写 + 官方稿误写。D17 与补链都读它",
     "evidence": "每个非显然 form 的出处,便于复核。不写出处的 form 不许进表"
   },
+  "_merge_doc": "顶层 `_merge` = 变体 id 归并组(Scenario 2c),与 entities[] 分开是**刻意的**:GLM 常把同一概念派成不同 id(单复数/词性 agent/agents/agentic),各自却落同一个中文 file → 生成期 out.set 后写覆盖丢页。这些是**常用译名概念词**(评估/剧本),若登记进 entities[] 会被 gate-facts D17 当中文专名误判(实测 5 处误报);gate-facts 只读 entities[],放这里天然隔离。build-entities 生成期读 `_merge` 做 id 归一(name/file/forms 供聚合与金句召回,variants 供归并)。**只人工在此点名的才并**:语义可能不同的(soul=配置义 vs 一个模型)不点名→不并。",
   "_诚实边界": "forms 里混着「正确名」与「转写错形式」是有意为之:D17 只回答『这个专名在原文出现过吗』,回答不了『原文写对了吗』。官方稿本身会错(Modo/Mattia),那层靠英文原稿存档 + 事后可查兜,不宣称零失真。",
   "entities": [
     {
@@ -316,6 +317,71 @@
         "微观管理"
       ],
       "evidence": "2026-07-24 译名漂移钉死:06-14 集曾译「微观管理」;glossary 已钉"
+    }
+  ],
+  "_merge": [
+    {
+      "id": "agent",
+      "type": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "forms": ["智能体", "agent", "agents", "agentic"],
+      "variants": ["agents", "agentic"],
+      "evidence": "2026-07-30 变体归并(Scenario 2c,用户拍板):GLM 跨集把同一概念派成 agent(29集)/agents(7集)/agentic(1集),三者各自却落 file=智能体 → 后写覆盖前写,页面只剩 1 集。归并后聚回 37 集。呼应裁决 #10 早定的 aliases:[Agent,agent,agents] 设计意图"
+    },
+    {
+      "id": "playbook",
+      "type": "concept",
+      "name": "剧本 (playbook)",
+      "file": "剧本",
+      "forms": ["剧本", "playbook", "playbooks"],
+      "variants": ["playbooks"],
+      "evidence": "2026-07-30 变体归并(Scenario 2c):playbook / playbooks 同概念(单复数),各落 file=剧本 → 互相覆盖"
+    },
+    {
+      "id": "capability-overhang",
+      "type": "concept",
+      "name": "能力过剩 (capability overhang)",
+      "file": "能力过剩",
+      "forms": ["能力过剩", "capability overhang", "capabilities overhang"],
+      "variants": ["capabilities-overhang"],
+      "evidence": "2026-07-30 变体归并(Scenario 2c):capability-overhang / capabilities-overhang 同概念(单复数),各落 file=能力过剩 → 互相覆盖"
+    },
+    {
+      "id": "talent-density",
+      "type": "concept",
+      "name": "人才密度 (talent density)",
+      "file": "人才密度",
+      "forms": ["人才密度", "talent density", "density of talent"],
+      "variants": ["density-of-talent"],
+      "evidence": "2026-07-30 变体归并(Scenario 2c):talent-density / density-of-talent 同概念(词序变体),各落 file=人才密度 → 互相覆盖"
+    },
+    {
+      "id": "evals",
+      "type": "concept",
+      "name": "评估 (evals)",
+      "file": "评估",
+      "forms": ["评估", "evals", "eval"],
+      "variants": ["eval"],
+      "evidence": "2026-07-30 变体归并(Scenario 2c):evals(2集)/ eval(1集)同概念(单复数),各落 file=评估 → 后写覆盖前写。⚠️ 刻意不进 entities[]:评估是常用词,登记为专名会触发 D17 误报"
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "forms": ["沙箱", "sandbox", "sandboxes"],
+      "variants": ["sandboxes"],
+      "evidence": "2026-07-30 变体归并(Scenario 2c):sandbox(5集)/ sandboxes(1集)同概念(单复数),各落 file=沙箱 → 后写覆盖前写"
+    },
+    {
+      "id": "skills",
+      "type": "concept",
+      "name": "技能 (skills)",
+      "file": "技能",
+      "forms": ["技能", "skills", "skill"],
+      "variants": ["skill"],
+      "evidence": "2026-07-30 变体归并(Scenario 2c):skills(2集)/ skill(1集)同概念(单复数),各落 file=技能 → 后写覆盖前写。⚠️ 剧本同样刻意不进 entities[](常用词,防 D17 误报)"
     }
   ]
 }

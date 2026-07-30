@@ -231,6 +231,13 @@ And   [#9] 只有进 frontmatter 的**主要实体**入表建页;正文顺带提
     Then  经别名表归一到同一 id → 实体页是**同一个**,不裂成两页(这正是灌第 2 集要验的,#8)
   Scenario 2b [边界] 概念实体的中文名压根不在英文转写稿里(「智能体」vs "agent"):
     Then  D17 比对走**别名表的 en 形式**(智能体→agent/agents),不因中英差异误判为编造
+  Scenario 2c [缺陷修复 · 2026-07-30] GLM 给同一概念派了**不同 id**(单复数/词性:agent/agents/agentic),各自却落到同一个中文 file(智能体)→ 生成期 `out.set(file,…)` 后写覆盖先写,整页丢失(实测 57 集里 8 组冲突、9 页被吞;Scenario 2a 只覆盖「同 id 不同写法」,这是「不同 id 同 file」的新失效面):
+    Given 别名表用 **merge 字段**把这些变体 id 归并到一个权威 id(agent),forms 覆盖全部英文写法(agent/agents/agentic)
+    When  [系统] build-entities 生成期**先按 merge 把变体 id 归一(id/name/file 一起),再跨集聚合**
+    Then  它们聚成**同一页**,该页汇总全部相关集(智能体 = 29+7+1 集),不再因同 file 后写覆盖先写而整页丢失
+    And   各变体自带的「集里怎么说它」全部保留、一条不丢;金句按 forms 全量召回;关联区共现按权威 id 计
+    And   产物一致性闸门(gate-entities ④)重算=与仓库逐字命中(闸门与 CLI 同源,ADR 0008);gate-all 全套仍 exit 0
+    And   归并**只由人工在别名表 merge 里点名**(代码通用、策略在人):语义可能不同的组(soul=配置文件义 vs 一个 OpenAI 模型)**不给 merge → 不并**,留人工另处理(本轮用户拍板:系统提示词组先不动)
 ```
 
 ### Scenario 3 · 集页升级:类型化属性 + 正文双链 + 金句 ^块ID(US-6)

@@ -27,7 +27,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[Jason Lemkin]] · [[Zevi Arnovitz]] · [[SaaStr]] · [[Cursor]] · [[Vercel]] · [[Claude Code]] · [[Salesforce]] · [[Bolt]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"智能体":1,"Jason Lemkin":1,"Zevi Arnovitz":1,"SaaStr":1,"Cursor":4,"Vercel":2,"Claude Code":12,"Salesforce":2,"Bolt":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"智能体":37,"Jason Lemkin":1,"Zevi Arnovitz":1,"SaaStr":1,"Cursor":4,"Vercel":2,"Claude Code":12,"Salesforce":2,"Bolt":1}</script>
 
 <script>
 (function(){

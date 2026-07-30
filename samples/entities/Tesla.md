@@ -37,9 +37,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[物理 AI]] · [[Waymo]] · [[Google]] · [[Lenny]] · [[Anthropic]] · [[智能体]] · [[ChatGPT]] · [[Meta]] · [[智能体]] · [[OpenAI]]
+[[智能体]] · [[物理 AI]] · [[Waymo]] · [[Google]] · [[Lenny]] · [[Anthropic]] · [[ChatGPT]] · [[Meta]] · [[OpenAI]] · [[Qasar Younis]]
 
-<script type="application/json" class="pd-epn">{"物理 AI":3,"Waymo":7,"Google":9,"Lenny":32,"Anthropic":22,"智能体":1,"ChatGPT":10,"Meta":7,"OpenAI":16}</script>
+<script type="application/json" class="pd-epn">{"智能体":37,"物理 AI":3,"Waymo":7,"Google":9,"Lenny":32,"Anthropic":22,"ChatGPT":10,"Meta":7,"OpenAI":16,"Qasar Younis":1}</script>
 
 <script>
 (function(){

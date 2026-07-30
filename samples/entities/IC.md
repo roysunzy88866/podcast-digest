@@ -27,9 +27,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Anthropic]] · [[智能体]] · [[Claude Code]] · [[Slack]] · [[Jenny Wen]] · [[Fiona Fung]] · [[Andrew Ambrosino]] · [[Claude]] · [[Co-work]]
+[[Lenny]] · [[智能体]] · [[Anthropic]] · [[Claude Code]] · [[Slack]] · [[Jenny Wen]] · [[Fiona Fung]] · [[Andrew Ambrosino]] · [[Claude]] · [[Co-work]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Anthropic":22,"智能体":1,"Claude Code":12,"Slack":8,"Jenny Wen":1,"Fiona Fung":1,"Andrew Ambrosino":1,"Claude":7,"Co-work":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"智能体":37,"Anthropic":22,"Claude Code":12,"Slack":8,"Jenny Wen":1,"Fiona Fung":1,"Andrew Ambrosino":1,"Claude":7,"Co-work":2}</script>
 
 <script>
 (function(){

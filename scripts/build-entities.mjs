@@ -64,6 +64,62 @@ export function aggregate(episodes, aliasById = new Map()) {
 }
 
 /**
+ * 变体 id → 权威 id(别名表 `merge` 字段驱动)。GLM 常给同一概念派不同 id
+ * (单复数/词性:agent/agents/agentic),它们各自却落同一个中文 file → 生成期
+ * `out.set(file,…)` 后写覆盖先写、整页丢失(Scenario 2c,实测 8 组冲突吞 9 页)。
+ * **归并策略在人工维护的别名表里、代码只执行**:只有 `merge` 明确点名的才并,
+ * 语义可能不同的(soul=配置义 vs 一个模型)不点名 → 不并,留人工另处理。
+ */
+export function buildCanonMap(aliasById) {
+  const canon = new Map();
+  for (const a of aliasById.values()) for (const v of a.merge ?? []) canon.set(v, a.id);
+  return canon;
+}
+
+/**
+ * 从 data/aliases.json 对象建 **merge-aware** 的 aliasById(供聚合/归一/金句召回)。
+ * = entities[](专名/误写表)+ `_merge`[](变体归并组,当权威 entry:name/file/forms 供页面与
+ * 金句召回,variants→merge 供 id 归一)。**`_merge` 刻意不放进 entities[]**:那些是常用译名词
+ * (评估/剧本),若登记成 entities 的中文 form 会被 gate-facts D17 当专名误判 —— gate-facts 只读
+ * entities[],放 `_merge` 天然隔离(见 aliases.json `_merge_doc`)。
+ */
+export function mergeAwareAliasById(aliases) {
+  const m = new Map((aliases.entities ?? []).map((e) => [e.id, e]));
+  for (const g of aliases._merge ?? [])
+    m.set(g.id, { id: g.id, type: g.type ?? "concept", name: g.name, file: g.file, forms: g.forms ?? [], merge: g.variants ?? [] });
+  return m;
+}
+
+/**
+ * 把每集 entities 里的变体 id 归一到权威 id(id/name/file 一起改),让跨集聚合真正聚起来。
+ * 同集内若归一后撞成同一权威 id(既写 agent 又写 agents)→ 合并成一条:primary 取或、
+ * how_described 取更长的、evidence 合并(实测现库无此情况,防御性保留,别名表零 merge 时原样返回)。
+ */
+export function canonicalizeEpisodes(episodes, canonById, aliasById = new Map()) {
+  if (!canonById.size) return episodes;
+  return episodes.map((ep) => {
+    const out = [];
+    const at = new Map(); // 权威 id → out 下标
+    for (const e of ep.entities?.entities ?? []) {
+      const cid = canonById.get(e.id);
+      if (!cid) { out.push(e); continue; }
+      const alias = aliasById.get(cid);
+      const c = { ...e, id: cid, name: alias?.name ?? e.name, file: alias?.file ?? e.file };
+      if (at.has(cid)) {
+        const prev = out[at.get(cid)];
+        prev.primary = prev.primary || c.primary;
+        if ((c.how_described?.length ?? 0) > (prev.how_described?.length ?? 0)) prev.how_described = c.how_described;
+        prev.evidence = [...(prev.evidence ?? []), ...(c.evidence ?? [])];
+      } else {
+        at.set(cid, out.length);
+        out.push(c);
+      }
+    }
+    return { ...ep, entities: { ...(ep.entities ?? {}), entities: out } };
+  });
+}
+
+/**
  * 实体的金句(🔒 第 24 轮):
  *   · 人物页 = 该人本人说的金句(speaker == name)
  *   · 公司/概念页 = 提到它的金句(entity 任一书写形式词边界命中 quote.en)
@@ -365,18 +421,22 @@ export function renderEntityPage(agg, quotes, relatedIds, pageById, aliasById = 
  * 对不上即手改/陈旧 → 拦)。关联区上限 10 也收在这里,保证「写出来的」和「闸门重算的」同源。
  */
 export function buildAllPages(episodes, aliasById = new Map()) {
-  const aggs = aggregate(episodes, aliasById);
+  // 先按别名表 merge 把变体 id 归一(id/name/file 一起),再跨集聚合 —— 根治「不同 id 落同一
+  // file → out.set 后写覆盖先写、整页丢失」(Scenario 2c)。归一后 aggregate/quotesFor/related
+  // 全见权威 id,签名不变、集页渲染与 gate-facts 不受影响。
+  const eps = canonicalizeEpisodes(episodes, buildCanonMap(aliasById), aliasById);
+  const aggs = aggregate(eps, aliasById);
   const pageIds = new Set(aggs.map((a) => a.id));
   const pageById = new Map(aggs.map((a) => [a.id, { file: a.file, name: a.name }]));
-  // 药丸徽标与 phero 同源(C13j 补遗)。按 **file** 键、与下方 out.set 同一迭代序(同 file 后者覆盖)——
-  // 真数据有 8 组「多 id 同 file」(agent/agents/agentic→智能体 等),落盘页是后者;
-  // 徽标必须等于点进去那页 phero 显示的数,否则一颗药丸写 29、页里写 1 当场穿帮。
+  // 药丸徽标与 phero 同源(C13j 补遗)。按 **file** 键、与下方 out.set 同一迭代序。归并(Scenario 2c)
+  // 后 7 组「多 id 同 file」已消,只剩 soul/system-prompt 一处仍后者覆盖;徽标取归并后 agg 的真实
+  // 收录数,与点进去那页 phero 同源(残留那处仍等于落盘页,不穿帮)。
   const epCountByFile = new Map(aggs.map((a) => [a.file, epCount(a)]));
-  const peersCtx = buildPeersContext(episodes, aggs);
+  const peersCtx = buildPeersContext(eps, aggs);
   const out = new Map();
   for (const agg of aggs) {
-    const quotes = quotesFor(agg, episodes, aliasById);
-    const rel = related(agg, episodes, pageIds).slice(0, 10);
+    const quotes = quotesFor(agg, eps, aliasById);
+    const rel = related(agg, eps, pageIds).slice(0, 10);
     const sp = agg.type === "person" ? sameTopicPeers(agg, peersCtx) : null;
     const peers = sp?.peers?.length ? { topic: sp.topic, people: sp.peers.slice(0, 10) } : null; // 上限同关联区
     out.set(agg.file, renderEntityPage(agg, quotes, rel, pageById, aliasById, { epCountByFile, peers }));
@@ -414,7 +474,7 @@ export function loadAllEpisodes(base) {
 function main() {
   const base = resolve(ROOT, "data/episodes");
   const aliases = JSON.parse(readFileSync(resolve(ROOT, "data/aliases.json"), "utf8"));
-  const aliasById = new Map((aliases.entities ?? []).map((e) => [e.id, e]));
+  const aliasById = mergeAwareAliasById(aliases);
   const episodes = loadAllEpisodes(base);
 
   const pages = buildAllPages(episodes, aliasById);
@@ -426,10 +486,18 @@ function main() {
   mkdirSync(outDir, { recursive: true });
   for (const [file, md] of pages) writeFileSync(join(outDir, `${file}.md`), md);
 
-  const aggs = aggregate(episodes, aliasById);
+  const eps = canonicalizeEpisodes(episodes, buildCanonMap(aliasById), aliasById);
+  const aggs = aggregate(eps, aliasById);
   const multi = aggs.filter((a) => new Set(a.appearances.map((x) => x.epId)).size > 1);
   console.log(`✅ 生成 ${pages.size} 个实体页 → samples/entities/`);
   console.log(`   跨 ≥2 集的实体(聚合真起作用):${multi.map((a) => a.name).join(" · ") || "(无)"}`);
+  // 归并后仍有多个 id 撞同一个 file 的 → 响亮 warn(不静默吞页):同概念该给别名表加 merge,
+  // 异概念该改名/拆页。本轮已知残留=系统提示词(soul/system-prompt,用户拍板先不动)。
+  const byFile = new Map();
+  for (const a of aggs) byFile.set(a.file, [...(byFile.get(a.file) ?? []), a.id]);
+  for (const [file, ids] of byFile)
+    if (ids.length > 1)
+      console.warn(`⚠️ 同 file「${file}」仍有 ${ids.length} 个未归并 id(${ids.join(" / ")})→ 后写覆盖前写、丢页。同概念加别名表 merge;异概念改名/拆页`);
 }
 
 const isMain = (() => {

@@ -35,9 +35,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Theo Jaffe]] · [[Sofia Puccini]] · [[蒸馏]] · [[Anthropic]] · [[Sriram Krishnan]] · [[Ben Horowitz]] · [[Sam Altman]] · [[开源权重]] · [[NVIDIA]]
+[[OpenAI]] · [[Theo Jaffe]] · [[Sofia Puccini]] · [[蒸馏]] · [[智能体]] · [[Anthropic]] · [[Sriram Krishnan]] · [[Ben Horowitz]] · [[Sam Altman]] · [[开源权重]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":16,"Theo Jaffe":2,"Sofia Puccini":2,"蒸馏":3,"Anthropic":22,"Sriram Krishnan":1,"Ben Horowitz":1,"Sam Altman":1,"开源权重":1,"NVIDIA":4}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":16,"Theo Jaffe":2,"Sofia Puccini":2,"蒸馏":3,"智能体":37,"Anthropic":22,"Sriram Krishnan":1,"Ben Horowitz":1,"Sam Altman":1,"开源权重":1}</script>
 
 <script>
 (function(){

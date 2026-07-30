@@ -10,6 +10,8 @@ import {
   buildPeersContext,
   sameTopicPeers,
   epCount,
+  buildCanonMap,
+  canonicalizeEpisodes,
 } from "../scripts/build-entities.mjs";
 
 // 两集 fixture:agent 在两集都 primary(跨集聚合锚);kubernetes 集1 primary/集2 提及;
@@ -366,5 +368,78 @@ describe("C13j 补遗 ② · 也在聊 X 的人", () => {
     const p = pages.get("G0")!;
     const sec = p.slice(p.indexOf('<div class="pd-peers">'), p.indexOf("</div>", p.indexOf('<div class="pd-peers">')));
     expect((sec.match(/\[\[/g) ?? []).length).toBe(10);
+  });
+});
+
+// ── Scenario 2c(缺陷修复 2026-07-30):变体 id 归并防同 file 覆盖丢页 ──
+// GLM 给同一概念派了不同 id(单复数/词性 agent/agents/agentic),各自却落同一个中文 file,
+// 生成期 out.set(file,…) 后写覆盖先写 → 整页丢失。别名表 merge 字段驱动生成期 id 归一根治。
+describe("变体 id 归并(merge)· 防同 file 覆盖(Scenario 2c)", () => {
+  const EPa = {
+    meta: { id: "epa", title_zh: "A集", date: "2026-01-01" },
+    digest: { quotes: [{ zh: "", en: "an agent does the work", timestamp: "00:01", speaker: "X" }] },
+    entities: { entities: [{ id: "agent", type: "concept", role: "concept", name: "智能体 (agent)", file: "智能体", primary: true, how_described: "A集说它是自动助手", evidence: [{ t: [1, 3] }] }] },
+  };
+  const EPb = {
+    meta: { id: "epb", title_zh: "B集", date: "2026-02-01" },
+    digest: { quotes: [{ zh: "", en: "multiple agents run in parallel", timestamp: "00:02", speaker: "Y" }] },
+    entities: { entities: [{ id: "agents", type: "concept", role: "concept", name: "智能体 (agents)", file: "智能体", primary: true, how_described: "B集说它是并行工作者", evidence: [{ t: [5, 7] }] }] },
+  };
+  const EPc = {
+    meta: { id: "epc", title_zh: "C集", date: "2026-03-01" },
+    digest: { quotes: [] },
+    entities: { entities: [{ id: "agentic", type: "concept", role: "concept", name: "智能体 (agentic)", file: "智能体", primary: true, how_described: "C集说它是端到端运行方式", evidence: [{ t: [9, 11] }] }] },
+  };
+  const MERGED = new Map([["agent", { id: "agent", name: "智能体 (agent)", file: "智能体", forms: ["智能体", "agent", "agents", "agentic"], merge: ["agents", "agentic"] }]]);
+  const NOMERGE = new Map([["agent", { id: "agent", name: "智能体 (agent)", file: "智能体", forms: ["智能体", "agent", "agents", "agentic"] }]]);
+  const EPS3 = [EPa, EPb, EPc];
+
+  it("★ buildCanonMap:从 merge 字段建「变体→权威」映射", () => {
+    const m = buildCanonMap(MERGED);
+    expect(m.get("agents")).toBe("agent");
+    expect(m.get("agentic")).toBe("agent");
+    expect(m.get("agent")).toBeUndefined(); // 权威 id 自己不在映射里
+  });
+
+  it("★ canonicalizeEpisodes:变体 id/name/file 全归一到权威", () => {
+    const eps = canonicalizeEpisodes(EPS3, buildCanonMap(MERGED), MERGED);
+    const ids = eps.flatMap((e) => e.entities.entities.map((x) => x.id));
+    expect(ids).toEqual(["agent", "agent", "agent"]); // agents/agentic 都变 agent
+    for (const e of eps) for (const x of e.entities.entities) { expect(x.name).toBe("智能体 (agent)"); expect(x.file).toBe("智能体"); }
+  });
+
+  it("★★ 三集用不同变体 id 但同 file → 归并成一页、三集全在(核心修复:不被覆盖)", () => {
+    const pages = buildAllPages(EPS3, MERGED);
+    const p = pages.get("智能体");
+    expect(p).toBeTruthy();
+    expect(p).toContain("本站收录 <b>3</b> 集"); // 修前只剩 1 集(后写覆盖)
+    for (const t of ["《A集》", "《B集》", "《C集》"]) expect(p).toContain(t);
+  });
+
+  it("★ 各变体的「集里怎么说它」全部保留、一条不丢", () => {
+    const p = buildAllPages(EPS3, MERGED).get("智能体");
+    for (const h of ["A集说它是自动助手", "B集说它是并行工作者", "C集说它是端到端运行方式"]) expect(p).toContain(h);
+  });
+
+  it("★ 金句按 forms 全量召回(agent/agents 两种写法的英文金句都进页)", () => {
+    const p = buildAllPages(EPS3, MERGED).get("智能体");
+    expect(p).toContain("![[epa#^q1]]"); // "an agent does the work"
+    expect(p).toContain("![[epb#^q1]]"); // "multiple agents run..."
+  });
+
+  it("★ 变异防护:没 merge(现状)时变体不并 → 撞同 file 后写覆盖前写、只剩 1 集(证明归并是必要修复,且归并只对显式 merge 生效)", () => {
+    const pages = buildAllPages(EPS3, NOMERGE);
+    // canonById 为空 → 三个变体各自成 agg、同 file 相撞 → 最后一个(agentic,C集)胜出
+    expect(pages.get("智能体")).toContain("本站收录 <b>1</b> 集");
+  });
+
+  it("★ merge 不误伤:未点名的 id 保持独立(soul 组「先不动」的护栏)", () => {
+    // soul 与 system-prompt 都落 file=系统提示词,但没给 merge → 不并(保持现状,各自成 agg)
+    const eps = [
+      { meta: { id: "e1", title_zh: "甲", date: "2026-01-01" }, digest: { quotes: [] }, entities: { entities: [{ id: "soul", type: "concept", role: "concept", name: "系统提示词 (soul)", file: "系统提示词", primary: true, evidence: [] }] } },
+      { meta: { id: "e2", title_zh: "乙", date: "2026-02-01" }, digest: { quotes: [] }, entities: { entities: [{ id: "system-prompt", type: "concept", role: "concept", name: "系统提示词 (system prompt)", file: "系统提示词", primary: true, evidence: [] }] } },
+    ];
+    const aggs = aggregate(canonicalizeEpisodes(eps, buildCanonMap(MERGED), MERGED), MERGED);
+    expect(aggs.filter((a) => a.file === "系统提示词").length).toBe(2); // 仍是两个 agg(没被误并)
   });
 });

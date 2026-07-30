@@ -31,9 +31,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Codex]] · [[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Meta]] · [[原型]] · [[Claude Code]] · [[Google]] · [[计算机使用]]
+[[智能体]] · [[Lenny]] · [[Codex]] · [[Anthropic]] · [[OpenAI]] · [[Meta]] · [[原型]] · [[Claude Code]] · [[Google]] · [[计算机使用]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Codex":9,"Anthropic":22,"智能体":1,"OpenAI":16,"Meta":7,"原型":2,"Claude Code":12,"Google":9,"计算机使用":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":37,"Lenny":32,"Codex":9,"Anthropic":22,"OpenAI":16,"Meta":7,"原型":2,"Claude Code":12,"Google":9,"计算机使用":3}</script>
 
 <script>
 (function(){

@@ -31,7 +31,7 @@ unlisted: true
 
 [[Sam Altman]] · [[初创公司]] · [[AGI]] · [[智能体]] · [[沙箱]] · [[对齐失败]] · [[推理]] · [[权力集中]] · [[主观能动性]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Sam Altman":1,"初创公司":1,"AGI":6,"智能体":1,"沙箱":1,"对齐失败":1,"推理":2,"权力集中":1,"主观能动性":6,"OpenAI":16}</script>
+<script type="application/json" class="pd-epn">{"Sam Altman":1,"初创公司":1,"AGI":6,"智能体":37,"沙箱":6,"对齐失败":1,"推理":2,"权力集中":1,"主观能动性":6,"OpenAI":16}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jessica Fain]] · [[Lenny]] · [[Slack]] · [[智能体]] · [[护栏]] · [[产品市场契合度]]
 
-<script type="application/json" class="pd-epn">{"Jessica Fain":1,"Lenny":32,"Slack":8,"智能体":1,"护栏":7,"产品市场契合度":3}</script>
+<script type="application/json" class="pd-epn">{"Jessica Fain":1,"Lenny":32,"Slack":8,"智能体":37,"护栏":7,"产品市场契合度":3}</script>
 
 <script>
 (function(){

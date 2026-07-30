@@ -35,9 +35,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[ChatGPT]] · [[物理 AI]] · [[Tesla]] · [[World Labs]] · [[Anthropic]] · [[智能体]] · [[智能体]] · [[Marble]] · [[空间智能]]
+[[Lenny]] · [[智能体]] · [[ChatGPT]] · [[物理 AI]] · [[Tesla]] · [[World Labs]] · [[Anthropic]] · [[Marble]] · [[空间智能]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"ChatGPT":10,"物理 AI":3,"Tesla":5,"World Labs":2,"Anthropic":22,"智能体":1,"Marble":2,"空间智能":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"智能体":37,"ChatGPT":10,"物理 AI":3,"Tesla":5,"World Labs":2,"Anthropic":22,"Marble":2,"空间智能":2,"NVIDIA":4}</script>
 
 <script>
 (function(){

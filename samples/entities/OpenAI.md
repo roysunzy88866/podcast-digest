@@ -61,9 +61,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[Lenny]] · [[智能体]] · [[Google]] · [[AGI]] · [[ChatGPT]] · [[PRD]] · [[主观能动性]] · [[蒸馏]] · [[Hugging Face]]
+[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[AGI]] · [[ChatGPT]] · [[PRD]] · [[主观能动性]] · [[蒸馏]] · [[Hugging Face]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":22,"Lenny":32,"智能体":1,"Google":9,"AGI":6,"ChatGPT":10,"PRD":5,"主观能动性":6,"蒸馏":3,"Hugging Face":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":37,"Anthropic":22,"Lenny":32,"Google":9,"AGI":6,"ChatGPT":10,"PRD":5,"主观能动性":6,"蒸馏":3,"Hugging Face":3}</script>
 
 <script>
 (function(){

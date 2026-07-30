@@ -151,7 +151,7 @@ unlisted: true
 
 [[Jeetu Patel]] · [[Lenny]] · [[Cisco]] · [[NVIDIA]] · [[ChatGPT]] · [[主观能动性]] · [[能力过剩]] · [[超级趋势]] · [[炒作周期]] · [[丢包]]
 
-<script type="application/json" class="pd-epn">{"Jeetu Patel":1,"Lenny":32,"Cisco":1,"NVIDIA":4,"ChatGPT":10,"主观能动性":6,"能力过剩":1,"超级趋势":1,"炒作周期":1,"丢包":1}</script>
+<script type="application/json" class="pd-epn">{"Jeetu Patel":1,"Lenny":32,"Cisco":1,"NVIDIA":4,"ChatGPT":10,"主观能动性":6,"能力过剩":2,"超级趋势":1,"炒作周期":1,"丢包":1}</script>
 
 <script>
 (function(){

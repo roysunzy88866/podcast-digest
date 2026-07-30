@@ -153,9 +153,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Tesla]] · [[Waymo]] · [[ChatGPT]] · [[智能体]] · [[Lenny]] · [[Jensen Huang]] · [[Matt Turk]] · [[Qasar Younis]] · [[Jerry]] · [[Sanjit Biswas]]
+[[Tesla]] · [[Waymo]] · [[智能体]] · [[ChatGPT]] · [[Lenny]] · [[Jensen Huang]] · [[Matt Turk]] · [[Qasar Younis]] · [[Jerry]] · [[Sanjit Biswas]]
 
-<script type="application/json" class="pd-epn">{"Tesla":5,"Waymo":7,"ChatGPT":10,"智能体":1,"Lenny":32,"Jensen Huang":1,"Matt Turk":1,"Qasar Younis":1,"Jerry":1,"Sanjit Biswas":1}</script>
+<script type="application/json" class="pd-epn">{"Tesla":5,"Waymo":7,"智能体":37,"ChatGPT":10,"Lenny":32,"Jensen Huang":1,"Matt Turk":1,"Qasar Younis":1,"Jerry":1,"Sanjit Biswas":1}</script>
 
 <script>
 (function(){

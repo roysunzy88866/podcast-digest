@@ -97,3 +97,8 @@
     实际风险低(内容源是播客官方稿、且站是自用),但属真实注入面,不是纸面推演。
   - 处置:**接受记账,不在 C13d-3 顺手改**(外科手术式改动:那几处不是本片碰的)。
     要还这笔债时一次性给渲染层加统一转义 + 一组变异验证的测试。
+
+- **D50 · 实体「同 file 覆盖」根因修完后的两件残留**(2026-07-30,Scenario 2c 修复顺带登记)
+  - 背景:变体 id 归并已修 7 组(见 wip「实体页同 file 覆盖丢页」+ user-stories Scenario 2c),但留两口:
+  - **① soul/system-prompt 组「先不动」(用户拍板)**:`soul` 这个 id 跨集混了两义 —— 03-29(Claire Vo/OpenClaw)是「智能体的灵魂=一个 markdown 配置文件」=**系统提示词义**;07-13(solo builder)却是「OpenAI 发布的大杯前沿模型」=**一个模型**,被 GLM 误派了 `id=soul`+`file=soul`,和真 system-prompt 页撞 `file=系统提示词`。**该拆不该并**:soul@03-29 并入 system-prompt、soul@07-13 拆成独立模型条(改 id/名,那模型到底叫什么需人工核或重抽)。这次没并 → 系统提示词页仍有一次 soul/system-prompt 的旧覆盖(现状不变,`build-entities` 已 warn 出来)。**还债时机**:用户定了 07-13 那个模型叫什么之后,给 entities[] 加正确条 + 从 soul 拆分。
+  - **② 变体归并只有「软 warn + 人工别名表」,没有硬闸门**:`build-entities` main() 会对「归并后仍多 id 撞同 file」响亮 `console.warn`(现只剩系统提示词一处),但**不阻断**。将来 GLM 若又漂出新变体、没人补 `_merge` → 会再次静默后写覆盖丢页(warn 在云端 CI stderr 里,不拦发布)。**做硬闸门被 ① 挡着**:一旦加「同 file 多 id = 拦」的 gate,会立刻卡在 soul/system-prompt(故意没并的)上。**还债时机**:soul 组(①)解决后,把该 warn 升级成 gate-entities 里的硬失败(带一个「已知豁免」白名单机制或直接要求零残留)。

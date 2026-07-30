@@ -72,9 +72,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[智能体]] · [[OpenAI]] · [[Claude Code]] · [[ChatGPT]] · [[Slack]] · [[Google]] · [[Claude]] · [[主观能动性]] · [[Waymo]]
+[[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Claude Code]] · [[ChatGPT]] · [[Slack]] · [[Google]] · [[Claude]] · [[主观能动性]] · [[Waymo]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":22,"智能体":1,"OpenAI":16,"Claude Code":12,"ChatGPT":10,"Slack":8,"Google":9,"Claude":7,"主观能动性":6,"Waymo":7}</script>
+<script type="application/json" class="pd-epn">{"智能体":37,"Anthropic":22,"OpenAI":16,"Claude Code":12,"ChatGPT":10,"Slack":8,"Google":9,"Claude":7,"主观能动性":6,"Waymo":7}</script>
 
 <script>
 (function(){

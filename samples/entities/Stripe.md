@@ -31,9 +31,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[OpenAI]] · [[智能体]] · [[Rachel Lockett]] · [[Jeanne DeWitt Grosser]] · [[Lenny Rachitsky]] · [[Sam Altman]] · [[Olivia Moore]] · [[辅导]] · [[Vercel]]
+[[智能体]] · [[Lenny]] · [[OpenAI]] · [[Rachel Lockett]] · [[Jeanne DeWitt Grosser]] · [[Lenny Rachitsky]] · [[Sam Altman]] · [[Olivia Moore]] · [[辅导]] · [[Vercel]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"OpenAI":16,"智能体":1,"Rachel Lockett":1,"Jeanne DeWitt Grosser":1,"Lenny Rachitsky":1,"Sam Altman":1,"Olivia Moore":1,"辅导":1,"Vercel":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":37,"Lenny":32,"OpenAI":16,"Rachel Lockett":1,"Jeanne DeWitt Grosser":1,"Lenny Rachitsky":1,"Sam Altman":1,"Olivia Moore":1,"辅导":1,"Vercel":2}</script>
 
 <script>
 (function(){

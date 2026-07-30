@@ -47,9 +47,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Anthropic]] · [[智能体]] · [[Claude Code]] · [[vibe coding]] · [[Codex]] · [[OpenAI]] · [[红队测试]] · [[mcp]] · [[技能]]
+[[智能体]] · [[Lenny]] · [[Anthropic]] · [[Claude Code]] · [[vibe coding]] · [[Codex]] · [[OpenAI]] · [[红队测试]] · [[mcp]] · [[技能]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Anthropic":22,"智能体":1,"Claude Code":12,"vibe coding":5,"Codex":9,"OpenAI":16,"红队测试":2,"mcp":4,"技能":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":37,"Lenny":32,"Anthropic":22,"Claude Code":12,"vibe coding":5,"Codex":9,"OpenAI":16,"红队测试":2,"mcp":4,"技能":3}</script>
 
 <script>
 (function(){

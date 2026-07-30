@@ -29,7 +29,7 @@ unlisted: true
 
 [[Lenny]] · [[Airbnb]] · [[PM]] · [[Keith Rabois]] · [[Dan Shipper]] · [[Noam Segal]] · [[PayPal]] · [[智能体]] · [[职业倦怠]] · [[Square]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Airbnb":4,"PM":2,"Keith Rabois":1,"Dan Shipper":1,"Noam Segal":1,"PayPal":1,"智能体":1,"职业倦怠":2,"Square":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"Airbnb":4,"PM":2,"Keith Rabois":1,"Dan Shipper":1,"Noam Segal":1,"PayPal":1,"智能体":37,"职业倦怠":2,"Square":1}</script>
 
 <script>
 (function(){
