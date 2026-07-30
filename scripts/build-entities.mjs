@@ -91,27 +91,31 @@ export function mergeAwareAliasById(aliases) {
 }
 
 /**
- * 把每集 entities 里的变体 id 归一到权威 id(id/name/file 一起改),让跨集聚合真正聚起来。
- * 同集内若归一后撞成同一权威 id(既写 agent 又写 agents)→ 合并成一条:primary 取或、
- * how_described 取更长的、evidence 合并(实测现库无此情况,防御性保留,别名表零 merge 时原样返回)。
+ * 把每集 entities 里的变体 id 归一到权威 id(变体才改写 id/name/file),让跨集聚合真正聚起来。
+ * 同集内若归一后**两个实体撞成同一最终 id**(变体+变体 如 agent+agents,或**权威+变体** 如
+ * agent 本身+agents)→ 合并成一条:primary 取或、how_described 取更长、evidence 合并。
+ * 按「最终 id」(变体→权威;其余=自身)去重,故权威+变体也能并 —— 早期只按变体去重会把
+ * 权威那条漏在外、同集列两次(GLM 20260731-001[3] 探查时发现,实测现库未触发,防未来数据)。
+ * 合并走**拷贝后替换**(`{...prev}`),绝不原地变异输入对象;别名表零 merge 时原样返回。
  */
 export function canonicalizeEpisodes(episodes, canonById, aliasById = new Map()) {
   if (!canonById.size) return episodes;
   return episodes.map((ep) => {
     const out = [];
-    const at = new Map(); // 权威 id → out 下标
+    const at = new Map(); // 最终 id → out 下标
     for (const e of ep.entities?.entities ?? []) {
-      const cid = canonById.get(e.id);
-      if (!cid) { out.push(e); continue; }
-      const alias = aliasById.get(cid);
-      const c = { ...e, id: cid, name: alias?.name ?? e.name, file: alias?.file ?? e.file };
-      if (at.has(cid)) {
-        const prev = out[at.get(cid)];
-        prev.primary = prev.primary || c.primary;
-        if ((c.how_described?.length ?? 0) > (prev.how_described?.length ?? 0)) prev.how_described = c.how_described;
-        prev.evidence = [...(prev.evidence ?? []), ...(c.evidence ?? [])];
+      const cid = canonById.get(e.id); // 命中=变体;未命中=权威自身或无关实体
+      const fid = cid ?? e.id; // 最终 id
+      const c = cid ? { ...e, id: cid, name: aliasById.get(cid)?.name ?? e.name, file: aliasById.get(cid)?.file ?? e.file } : e;
+      if (at.has(fid)) {
+        const prev = out[at.get(fid)];
+        const merged = { ...prev, id: fid }; // 拷贝再改,prev 可能是输入原对象(权威先到),绝不原地变异
+        merged.primary = !!prev.primary || !!c.primary;
+        if ((c.how_described?.length ?? 0) > (prev.how_described?.length ?? 0)) merged.how_described = c.how_described;
+        merged.evidence = [...(prev.evidence ?? []), ...(c.evidence ?? [])];
+        out[at.get(fid)] = merged;
       } else {
-        at.set(cid, out.length);
+        at.set(fid, out.length);
         out.push(c);
       }
     }

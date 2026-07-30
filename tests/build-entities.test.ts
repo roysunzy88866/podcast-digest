@@ -408,6 +408,31 @@ describe("变体 id 归并(merge)· 防同 file 覆盖(Scenario 2c)", () => {
     for (const e of eps) for (const x of e.entities.entities) { expect(x.name).toBe("智能体 (agent)"); expect(x.file).toBe("智能体"); }
   });
 
+  it("★★ 同集含【权威 agent + 变体 agents】→ 归一后并成一条(GLM 20260731-001[3] 探查发现:早期只按变体去重会漏权威、同集列两次)", () => {
+    const origCanon = { id: "agent", type: "concept", role: "concept", name: "n", file: "f", primary: false, how_described: "短", evidence: [{ t: [1, 2] }] };
+    const origVariant = { id: "agents", type: "concept", role: "concept", name: "n2", file: "f2", primary: true, how_described: "更长的描述", evidence: [{ t: [3, 4] }] };
+    const ep = { meta: { id: "e1", title_zh: "e1", date: "2026-01-01" }, digest: { quotes: [] }, entities: { entities: [origCanon, origVariant] } };
+    const [out] = canonicalizeEpisodes([ep], buildCanonMap(MERGED), MERGED);
+    expect(out.entities.entities.length).toBe(1); // 权威+变体并成一条
+    const m = out.entities.entities[0];
+    expect(m.id).toBe("agent");
+    expect(m.primary).toBe(true); // primary 取或(false||true)
+    expect(m.how_described).toBe("更长的描述"); // 取更长
+    expect(m.evidence.length).toBe(2); // evidence 合并
+  });
+
+  it("★★ 合并绝不原地变异输入对象(prev 可能是权威原对象)", () => {
+    const origCanon = { id: "agent", type: "concept", role: "concept", name: "n", file: "f", primary: false, how_described: "短", evidence: [{ t: [1, 2] }] };
+    const origVariant = { id: "agents", type: "concept", role: "concept", name: "n2", file: "f2", primary: true, how_described: "长", evidence: [{ t: [3, 4] }] };
+    const ep = { meta: { id: "e1", title_zh: "e1", date: "2026-01-01" }, digest: { quotes: [] }, entities: { entities: [origCanon, origVariant] } };
+    const evRef = origCanon.evidence;
+    const [out] = canonicalizeEpisodes([ep], buildCanonMap(MERGED), MERGED);
+    expect(origCanon.primary).toBe(false); // 原对象没被改
+    expect(origCanon.evidence).toBe(evRef); // 原 evidence 引用没被换/追加
+    expect(origCanon.evidence.length).toBe(1);
+    expect(out.entities.entities[0]).not.toBe(origCanon); // 结果是新对象
+  });
+
   it("★★ 三集用不同变体 id 但同 file → 归并成一页、三集全在(核心修复:不被覆盖)", () => {
     const pages = buildAllPages(EPS3, MERGED);
     const p = pages.get("智能体");
