@@ -1,206 +1,164 @@
 {
-  "title_zh": "从三本教科书到五万亿：黄仁勋谈创业、加速计算与物理 AI",
-  "tldr": "黄仁勋回顾 NVIDIA 30 年历程,讲透加速计算逻辑、智能体未来与创始人韧性。",
-  "digest_md": "Jensen Huang(黄仁勋)是 NVIDIA 的创始人兼 CEO,带领这家公司从一家濒临倒闭的图形芯片创业团队,成长为今天主导 AI 革命的计算巨头。在这场对谈中,他回顾了公司早期差点因选错技术路线而破产的至暗时刻,解释了为什么「加速计算」这一核心洞察能让 NVIDIA 站在 AI 时代中央,并分享了他对智能体、机器人(他称之为物理 AI)以及年轻人未来竞争力的最新判断。整场对谈可以沿着三条主线来读:第一,他如何用第一性原理思维方式建立并管理公司;第二,加速计算与 AI 如何一路演进到今天的智能体时代;第三,在技术彻底重置的当下,创业者应该以怎样的姿态迎接机会。\n\n## 买来三本教科书:选错技术路线后的绝地求生\n\n对于只把 NVIDIA 视为「AI 中心公司」的年轻听众,黄仁勋认为最需要了解的早期故事是:公司创立时选择的技术路线,其实是完全错误的。\n\n1993 年,他们最初的宏大想法是重新发明 3D 图形(一种让计算机生成三维画面的技术),立志把每一台个人计算机都变成游戏机 [01:31]。但结果发现,他们选择的底层算法根本行不通。到 1995 年,市场上已经有三四十家公司在做 PC 的 3D 图形,NVIDIA 几乎面临绝境。面对「公司要倒闭了且没人知道正确做法」的残酷现实,黄仁勋跑到 Fry's(一家电子产品商店)买了三本关于 OpenGL(一种图形接口标准)的教科书带回给工程师。今天 NVIDIA 在计算机图形学领域的领先地位,就是从这三本教科书开始的 [03:31]。\n\n> 【背景】Fry's Electronics 曾是美国著名的连锁大型电子产品和计算机硬件商店,深受硅谷工程师和极客喜爱。\n\n他从中吸取的最大教训是:**只要你能够面对现实、只要你能够学习,技术本身其实并不重要 [04:24]。** 从那时起,面对任何从未做过的全新技术,他的态度永远是:「这件事很重要,我们就去学它,能有多难呢?」尽管结果总是比预期难得多,但这种心态成了公司不断跨界发明的引擎。\n\n这次技术路线纠偏,还伴随着一个极其关键的商业转折。导致他们发现算法错误的项目,是当时与世嘉(Sega)合作开发游戏主机 [07:38]。因为技术存在根本缺陷,黄仁勋飞到日本,当面告诉世嘉当时的 CEO(转写稿音译为 Irimanji-san):他们无法履行这份价值约 1200 万美元的合同,建议世嘉另请高明。但他同时极为坦诚地向对方开口:自己仍然需要这笔钱,否则公司就会立刻倒闭 [08:34]。这种看似不可思议的坦诚打动了对方,世嘉依然给了他们约 500 万美元。正是这笔钱让 NVIDIA 活了下来,并赢得了寻找新方向的时间 [09:30]。当 NVIDIA 在 1999 年以 3 亿美元估值上市时,世嘉卖掉了持有的股份(黄仁勋听说卖了 1500 万美元)——而今天,这家公司的估值已经达到数万亿美元级别 [09:43]。\n\n## 真正造就伟大公司的不是芯片,而是独特视角\n\n度过了早期的生死危机,黄仁勋总结出了一套深刻的商业哲学。他认为,造就伟大公司的并非单纯的技术或市场,而是一个关于未来的、独特的且你深信不疑的高层愿景 [06:17]。\n\nNVIDIA 的那个完全正确的核心洞见是:**可以用加速器去增强 CPU(通用处理器),从而解决原本极难处理的问题 [01:34]。** 他们很早就意识到,这无关乎单纯造一块出色的芯片,核心在于加速整个算法领域。除了图形处理,这个思路同样适用于分子动力学、图像处理、逆向物理,当然还有后来引爆一切的深度学习 [05:43]。\n\n这种思维方式,让他们在 AI 浪潮真正到来前就抓住了先机。当全世界都惊叹于 AlexNet(一种经典的深度学习卷积神经网络)在图像识别上的突破时,黄仁勋看到的却不仅仅是一个具体算法。他的认知透镜永远在寻找算法,他意识到深度学习本质上是一种**通用函数逼近器**——你可以给它几乎任何函数的答案,它就能自己学习并逼近那个函数规律。由于现实世界中大多数有趣的问题本来就是无法精确计算的,这种能自我学习的方法意味着整个计算产业栈都将被重塑。这也就是他现在常说的「五层蛋糕」(涵盖处理器、中间件、算法、应用等),他早在 15 年前就预见了这一彻底重塑 [10:35]。\n\n## 深入一线的 CEO:「创始人模式」就是为自己定制赛车\n\n能在 15 年前就推演未来,靠的不是运气,而是极度贴近技术一线的求知欲。当被问及为何总是深入细节(亲自读论文、直接和首席科学家对话)时,黄仁勋解释说,这首先源于他自身的好奇心;其次是为了把最新动态学透彻,以便更好地赋能整个公司的团队。在技术飞速演进的领域,除非你对一线正在发生的事有真实的「触觉感知」,否则一切变化看起来都会像难以理解的混乱;但如果你掌握了底层的第一性原理,一切就都讲得通了 [15:46]。他将这比作冲浪:你必须下水去读浪、读风向,才能稳立潮头 [16:18]。\n\n这种不按常理出牌的管理方式,正是近年来被热议的「创始人模式」。黄仁勋给出了一个绝佳的比喻:**CEO 就像是自己要亲自驾驶的 F1 赛车手,你应该改造这辆赛车和组织结构,让它们来适应你,而不是强迫自己去适应传统的管理教条 [17:32]。** 如果为了迎合所谓的规范而做了不适合自己的改变,只会让你输掉比赛。既然公司已经靠这种专属定制的模式从零成长为万亿巨头,那么未来无论下一任 CEO 是谁,他们大可以根据自己的性格重新打造属于自己的那辆车 [18:01]。\n\n## 智能体的核心瓶颈:我们需要「细粒度控制」\n\n谈完了思维方式,话题转向了当前最火的技术前沿。作为身处时代中心的掌舵人,黄仁勋认为未来最有用的技能将是**系统思维**。因为未来绝大多数底层的具体工作(无论是合成芯片门电路,还是编写基础代码)都会被智能体(能自主规划并执行任务的 AI 系统)自动化掉,人必须更抽象地去思考:系统的输入输出在哪、信息如何流转、约束条件是什么 [20:14]。\n\n针对目前的 AI 智能体浪潮,黄仁勋指出了当前最急需突破的瓶颈:**细粒度的可控性** [22:08]。现在的提示词交互方式太粗糙了。他理想中的协作方式是:当智能体生成了一份计划或设计时,人只需要改动其中的一个词、一个像素或一个图层,系统就能精准地理解这个局部差异,并重新生成其余所有内容。他认为,只有实现了这种细粒度的人机协作,智能体的应用才会迎来真正的颠覆 [22:30]。\n\n为了理解并引领这个未来,NVIDIA 不仅在设计计算机架构时就要提前预判智能体三五后的工作负载特征,内部也在全面使用智能体工具(如 Claude Code、Codex、Cursor 和 Cognition 等)来加速公司运转 [25:31]。正是基于对前沿技术的敏锐嗅觉,他们在早年看到了 Stanford 关于思维链的研究后,就敏锐地意识到:如果 AI 能利用先验知识进行推理,我们根本不需要海量的数据也能训练出优秀的系统。这促使他们开发了 Alpamayo——号称世界第一辆会思考的自动驾驶汽车,它像人类一样,只需极少的里程数据就能开得很好 [26:31]。\n\n这种技术直觉,也让 NVIDIA 极力拥抱开源生态。无论是面对被认为存在安全隐患的技术,还是 Hermes 这样的 AI 助手项目,黄仁勋都毫不犹豫地投入资源。他甚至在现场脱口感慨,这项技术让他想起了当年 Linux 诞生的时刻——它赋予了每个人构建属于自己 AI 的能力,而这其中孕育的创新潜力是不可估量的 [28:34]。\n\n## AI 会摧毁工作吗?恰恰相反\n\n技术的巨轮向前滚动,必然引发对就业的焦虑。但黄仁勋给出了与主流恐慌截然不同的判断。\n\n他厘清了一个关键概念:**AI 消除的是任务,而不是工作 [32:00]。** 一份工作往往包含许多任务,其中有些任务可以被自动化,但由人构成的「工作」的核心目的是不会被替代的。他用几个极具说服力的数据佐证:虽然 AI 已经掌握了读放射科片子这项任务,但放射科医生的岗位在过去几年反而增长了约 20%;虽然自动化了写代码,但软件工程师的岗位数量仍在逐年增长约 10% [32:23]。\n\n背后的逻辑很简单:因为社会上积压的就医需求、待实现的产品想法、待处理的诉讼案件太多了。当 AI 提高了单项任务的效率,医院就能收治更多病人,律所就能接手更多案子,公司就能追求更宏大的目标。**生产力的提升带来了整体经济的增长,进而创造了更多的就业机会 [33:46]。**\n\n## 物理 AI:机器人的 ChatGPT 时刻已到\n\n除了软件层面的智能体,黄仁勋对物理世界的人工智能同样充满期待,这也就是他所说的**物理 AI**。当他在实验室里看到神经网络能够生成一段手指移动的视频时,他立刻意识到:既然能生成视频,为什么不能让真实的机器人去执行同样的动作?这直接促成了 NVIDIA 投身于理解物理定律(如摩擦力、张力、因果关系)的世界基础模型研发 [35:20]。\n\n黄仁勋断言:**机器人的 ChatGPT 时刻其实在几年前就已经发生了 [35:55]。** 就像 ChatGPT 刚问世时虽做不了太多实事,却打开了人类想象力的大门一样,机器人学会在物理世界中行走并进行强化学习的奇点已经到来。接下来的任务,是搭建完善的「真实到模拟」(Real-to-Sim)再到「模拟到真实」(Sim-to-Real)的闭环评估系统,进行后训练 [36:27]。目前,NVIDIA 在自动驾驶(Waymo、特斯拉、Mercedes 等的合作)、农业、仓储 AMR(自主移动机器人)等领域的物理 AI 业务规模已经庞大,这很可能成为他们下一个产值巨大的业务增长点 [38:38]。\n\n## 本集带走\n\n1. **学习与重塑的能力,大过你最初的技术选择:** 即使创业起点选了完全错误的技术路线,只要敢于面对现实并从零学起(像买教科书自学那样),依然能缔造世界级公司。\n2. **AI 淘汰的是任务,而非工作:** 自动化将单点任务效率拉高后,会释放被积压的庞大社会需求,最终通过提升生产力创造出更多岗位与经济增长。\n3. **未来属于掌握系统思维的人:** 具体的写代码等底层技能终将被智能体取代,年轻人应当专注于硬核科学领域,学会编排和指挥数以百万计的 AI 智能体去解决极其庞大的问题。\n4. **创业者的终极护城河是心态:** 不要因为「不知道答案」而陷入焦虑。用第一性原理去发问,带着「能有多难呢」的心态放手去学;不用妄想一次性克服所有困难,只要凭韧性撑过每一个「今天」。",
+  "title_zh": "黄仁勋谈英伟达转型、物理AI与创始人韧性",
+  "tldr": "黄仁勋回顾从技术选错到押注AI的历程，分享他对智能体、物理AI及未来经济与个人成长的洞察。",
+  "digest_md": "欢迎来到 YC 创业课的现场。今天的嘉宾是英伟达（NVIDIA，全球加速计算与AI芯片巨头）的创始人兼 CEO 黄仁勋（Jensen Huang）。在外界看来，英伟达仿佛一直站在图形技术的世界之巅，是这场 AI 革命的核心赢家；但在本集访谈中，黄仁勋却从一个让大多数人不敢相信的故事讲起。全篇沿着一条清晰的主线展开：**从公司早期「选错技术」的生死危机，到洞见加速计算与深度学习的底层逻辑，再到如今全面押注智能体、开源模型与物理AI的未来。** 对于想要理解英伟达为何能跨越时代、以及身处巨变时代的创业者该如何思考和行动的读者，这篇对话提供了最一手的心路历程。\n\n## 从「选错技术」到靠教科书自救\n大众常以为英伟达起步时就是 3D 图形领域的世界领导者，但黄仁勋坦言，创立公司时选择的技术路线绝对是错误的。在 1993 年，他们的宏大想法是把每一台个人计算机都变成游戏机，为此重新发明了算法，试图把原本需要大型超级计算机的图形处理能力塞进 PC。他们满怀激情地去融资、去构建，结果在 1995 年发现算法行不通，而当时市场上已经有 35 到 40 家公司在做类似的事。更为致命的是，团队中根本没有人知道正确的做法是什么。[01:19]\n\n> 【背景】CPU（中央处理器）是通用计算机的核心，擅长处理各种日常逻辑任务；而 GPU（图形处理器）最初为加速图形渲染而生，后来被证明在处理大规模并行计算（如 AI 训练）上具有巨大优势。\n\n面对生死存亡，黄仁勋的应对方式出人意料：他揣着口袋里的几张 60 美元和 100 美元，跑到 Fry's（一家电子产品零售店），买了三本关于 OpenGL（一种图形渲染的开放标准）流水线设计的教科书带回公司交给了工程师。他从中得出的最大教训是：**技术本身一直在变化，但只要你能直面现实并具备学习能力，技术本身其实并不重要。** 从那时起，英伟达面对各种从未做过的新技术，都秉持着同一种态度：「如果这件事很重要，我们就去学它，这能有多难呢？」虽然结果往往比预期难得多，但这种心态成为了公司跨越领域创新的引擎。[03:38]\n\n## 放弃世嘉合同的至暗时刻\n聊完了早期方向性错误的教训，接下来是黄仁勋口中让他印象深刻的一个生死关头——这直接关系到公司能否活到第二天。[07:28]\n\n当时，世嘉（Sega，知名游戏厂商）签约英伟达，要为土星之后的游戏机 Dreamcast 打造产品。由于技术存在根本缺陷，黄仁勋飞到日本，亲自告诉当时的 CEO Irimajiri 先生：我们无法履行这份价值 1200 万美元的合同，并建议对方另请高明。但他随后坦诚地提出了请求：尽管如此，我们仍然急需这笔钱来维持生存。\n\n这种坦诚打动了对方。黄仁勋回忆道：「你投资的是人，而不是公司。」最终，这笔资金让英伟达活了下来，并赢得了寻找新方向的时间。当 1999 年英伟达上市时，其估值为 3 亿美元，而如今已是万亿级别。\n\n## 看透 AI 本质：加速算法而非制造芯片\n从早期的自救转向如今的辉煌，很多人好奇英伟达是如何抓住这场 AI 革命的。黄仁勋指出，关键在于他们看世界的独特视角。[10:24]\n\n> 【背景】AlexNet 是 2012 年提出的一个深度卷积神经网络，在图像识别比赛中取得了惊人成绩，被广泛视为引爆现代深度学习浪潮的开端。\n\n黄仁勋和大众一样看到了 AlexNet 的出现，但不同之处在于，他一直在寻找各种算法（如 NAMD、SQL、OpenGL）。他意识到，深度学习本质上是一种通用的「函数逼近器」（一种能通过数据学习并模拟任何复杂关系的数学模型）。既然掌握了能够学习任何函数的方法，就必须追问：这对未来的计算堆栈意味着什么？会催生哪些新行业？因此，英伟达几乎立刻就开始布局计算机视觉、机器人和自动驾驶。\n\n他强调，造就伟大公司的并非单纯的技术或市场，而是一个你深信不疑的、对未来独特的视角。对于英伟达而言，这个视角就是：**加速计算的未来关乎算法，而非芯片本身。**\n\n## 创始人模式：第一性原理与定制组织\n理解了英伟达独特的战略眼光，接下来的问题是：黄仁勋如何建立一个能贯彻这种眼光的组织？他在访谈中展现了极致的「创始人模式」。[14:20]\n\n黄仁勋坦言，自己的心态总是始于好奇心。当身边的答案无法满足他时，他倾向于亲自下场探索。他将这种深入一线细枝末节的做法，比作冲浪。在不懂的人眼里，海浪是混乱的；但在冲浪者眼中，只要掌握了海浪的第一性原理、读懂风向与时机，就能驾驭它。做 CEO 也是如此，必须去体验、去拆解问题。\n\n> 【背景】第一性原理（First Principles）是指剥离事物表面的现象和既有经验，回归到最基本、最本质的条件进行思考和推理的方法。\n\n有人曾问他：如果你不使用传统的管理技术，当你离开公司后会发生什么？他的回答极具霸气：「当有一天我死在工作岗位上时，他们只需要为公司重塑形态以适应下一位 CEO。」他将自己比作 F1 赛车手，公司则是赛车。赛车手必须不断微调赛车以完美适应自己的驾驶习惯。如果是为了让别人开着顺手而委屈了自己，只会输掉比赛。\n\n## 智能体时代的核心需求：细粒度可控性\n说完了组织管理，话题转向了技术前沿。面对当下的 AI 浪潮，黄仁勋认为未来最有用的技能将是「系统思维」。[19:50]\n\n> 【背景】智能体指能够自主感知环境、进行推理规划并采取行动以实现目标的 AI 系统，能够处理复杂的连续任务。\n\n随着底层编译和代码编写逐渐被智能体自动化，人类需要更抽象地思考：系统的输入输出、信息流速、瓶颈与约束在哪里。而在他看来，当前智能体最急需突破的不是准确性，而是**细粒度的可控性**。\n\n他举例说，我们不必要求智能体在生成计划时达到 100% 完美，哪怕它只有 80% 的准确度，人类也可以在计划文件中只修改一个词、一个像素或一个组件，然后让系统重新生成其余部分。这种极其具体的人机协作水平将是颠覆性的。\n\n## 物理 AI 的崛起\n说完了存在于数字空间的软件智能体，接下来是能改变现实世界的物理 AI。[34:22]\n\n黄仁勋敏锐地观察到，当实验室里能够利用神经网络生成视频（比如手指移动、拿水杯的动作）时，物理 AI 的爆发就在眼前了。因为既然能生成符合物理直觉的视频，就能用同样的逻辑驱动机器人执行真实的动作。\n\n他将自动驾驶汽车视为物理 AI 第一个具备巨大市场、标准化程度高且具有真实经济价值的应用场景。他提到，英伟达目前的机器人与自动驾驶业务规模已达约 100 亿美元，并笃定地预测：这将在未来不到 10 年的时间里，成为英伟达下一个 100 亿美元级别的新业务。\n\n## 不必为「AI 消灭工作」焦虑\n面对如此强大的技术浪潮，普通人最担心的莫过于失业。但在黄仁勋看来，「AI 摧毁工作」这种叙事恰恰是反的。[31:28]\n\n他认为，AI 消除的是「任务」，而不是「工作」。人类的工作有目的，而目的包含多项任务。以软件工程师和放射科医生为例：虽然编写基础代码和阅读扫描片被自动化了，但由于积压的想法和患者数量极为庞大，公司反而有能力雇佣更多人来满足市场需求。这正是生产力提升驱动经济增长、进而创造更多就业的经典逻辑。\n\n因此，他给年轻人的建议非常明确：基础的编程等简单工作确实会被自动化掉，但硬科学（物理、化学、生物）和**系统思维**永远不会过时。他鼓励年轻人留在学校好好上学，因为 AI 只是一个不可思议的工具，它让我们更有雄心去解决交叉领域的深科技难题。\n\n## 本集带走\n1. **直面现实与学习能力重于初始技术**：英伟达起步时不仅选错了技术，而且团队连正确的做法都不知道。但他们依靠买教科书自学活了下来。只要直面现实并保持学习力，技术的更迭就不可怕。\n2. **伟大公司源于对未来独特的信念**：抓住 AI 革命的关键不在于单纯地制造芯片，而在于比大众更早地看透「深度学习本质上是通用函数逼近器」这一底层逻辑，并从系统堆栈层面进行布局。\n3. **真正的企业家精神是「韧性」**：不要去过度想象前路的艰难从而陷入焦虑；要带着「这能有多难呢？反正我有一大堆 AI 帮我」的心态上路，接受痛苦一点一点到来，每天只需克服「今天」的困难即可。",
   "quotes": [
     {
       "en": "The thing that most people don't believe is that the choice of our technology that we started the company with was absolutely wrong.",
-      "zh": "大多数人不相信的是,我们创立公司时选择的技术是绝对错误的。",
+      "zh": "大多数人不相信的一件事是，我们创立公司时选择的技术绝对是错误的。",
       "timestamp": "01:19",
       "speaker": "Jensen Huang"
     },
     {
-      "en": "one of the things that I've always believed in is what makes great companies is a unique perspective about the world that you deeply believe in.",
-      "zh": "因此我一直相信的一件事是,造就伟大公司的是关于世界的独特视角,而你对此深信不疑。",
-      "timestamp": "06:17",
+      "en": "And so long as you're able to confront the reality, so long as you are able to learn, the technology itself actually doesn't matter.",
+      "zh": "只要你能面对现实，只要你能够学习，技术本身实际上并不重要。",
+      "timestamp": "04:30",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "If it's important to do, we're going to go learn it, and how hard can it be?",
+      "zh": "如果这件事很重要，我们就要去学习它，这能有多难呢？",
+      "timestamp": "04:53",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "You don't invest in companies, you invest in people.",
+      "zh": "你投资的是人，而不是公司。",
+      "timestamp": "09:13",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "What makes great companies is a unique perspective about the world that you deeply believe in.",
+      "zh": "造就伟大公司的是关于世界的一个独特视角，你深信不疑。",
+      "timestamp": "06:19",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "In order to create the company that we have today, we realized early on that it's not about building a great chip, it's about accelerating an algorithm domain.",
+      "zh": "为了创建我们今天的公司，我们很早就意识到，这不在于制造一个很棒的芯片，而在于加速一个算法领域。",
+      "timestamp": "06:05",
       "speaker": "Jensen Huang"
     },
     {
       "en": "The breakthrough for us was realizing that AlexNet was not AlexNet, that AlexNet was an approach with deep learning that allows you to learn any function.",
-      "zh": "对我们的突破是意识到 AlexNet 并不是 AlexNet,AlexNet 是一种深度学习的方法,允许你学习任何函数。",
+      "zh": "对我们的突破是意识到 AlexNet 不是 AlexNet，AlexNet 是一种深度学习方法，允许你学习任何函数。",
       "timestamp": "11:28",
       "speaker": "Jensen Huang"
     },
     {
-      "en": "You're going to build an F1 racer, but you're going to build it in a way that you can drive.",
-      "zh": "你要建造一辆 F1 赛车,但你要以一种你可以驾驶的方式来建造它。",
-      "timestamp": "17:38",
+      "en": "when I die on the job someday, you know, I told them they'll just have to reshape the company for the next CEO.",
+      "zh": "当有一天我死在工作岗位上时，我告诉他们，他们只需要为公司重塑形态以适应下一位 CEO。",
+      "timestamp": "18:00",
       "speaker": "Jensen Huang"
     },
     {
-      "en": "And so I think controllability is probably the single biggest breakthrough that we need for agents at every single level.",
-      "zh": "所以我认为可控性可能是我们在每一个层面对于智能体所需要的唯一最大的突破。",
-      "timestamp": "23:19",
-      "speaker": "Jensen Huang"
-    },
-    {
-      "en": "First of all, I need to understand agents because agents is the new software.",
-      "zh": "首先,我需要理解智能体,因为智能体就是新的软件。",
-      "timestamp": "23:50",
-      "speaker": "Jensen Huang"
-    },
-    {
-      "en": "We kind of have to live in the future five to ten years, because it takes three or so years just to build a system.",
-      "zh": "我们必须生活在未来五到十年,因为仅仅构建一个系统就需要三年左右。",
-      "timestamp": "24:24",
-      "speaker": "Jensen Huang"
-    },
-    {
-      "en": "The narrative about AI destroying jobs is exactly backwards.",
-      "zh": "关于 AI 摧毁工作的叙事完全是反的。",
+      "en": "the narrative about AI destroying jobs is exactly backwards.",
+      "zh": "关于人工智能摧毁工作的叙事恰恰是反的。",
       "timestamp": "31:55",
       "speaker": "Jensen Huang"
     },
     {
-      "en": "I would say the ChatGPT moment of robots happened a couple of years ago already.",
-      "zh": "我会说机器人的 ChatGPT 时刻几年前就已经发生了。",
-      "timestamp": "35:55",
-      "speaker": "Jensen Huang"
-    },
-    {
-      "en": "The idea that you would solve a problem by sitting in front of a computer and you're actually writing code, that concept is obviously going to get automated away.",
-      "zh": "你通过坐在电脑前并且实际上编写代码来解决问题的想法,那个概念显然将被自动化掉。",
-      "timestamp": "41:22",
-      "speaker": "Jensen Huang"
-    },
-    {
-      "en": "The single most important technology in human history, the computer, has been completely reset.",
-      "zh": "人类历史上最重要的单一技术,计算机,已经完全重置了。",
-      "timestamp": "46:02",
+      "en": "You don't have to overcome life in one day.",
+      "zh": "你不必在一天之内克服人生。",
+      "timestamp": "48:02",
       "speaker": "Jensen Huang"
     }
   ],
   "quotes_candidates": [
     {
       "en": "The thing that most people don't believe is that the choice of our technology that we started the company with was absolutely wrong.",
-      "zh": "大多数人不相信的是,我们创立公司时选择的技术是绝对错误的。",
+      "zh": "大多数人不相信的一件事是，我们创立公司时选择的技术绝对是错误的。",
       "timestamp": "01:19",
       "speaker": "Jensen Huang"
     },
     {
       "en": "And so the big lesson is that, for me, is technology is changing all the time.",
-      "zh": "所以最大的教训是,对我来说,技术一直在变化。",
+      "zh": "最大的教训是，对我来说，技术一直在变化。",
       "timestamp": "04:24",
       "speaker": "Jensen Huang"
     },
     {
       "en": "And so long as you're able to confront the reality, so long as you are able to learn, the technology itself actually doesn't matter.",
-      "zh": "只要你能够面对现实,只要你能够学习,技术本身实际上并不重要。",
+      "zh": "只要你能面对现实，只要你能够学习，技术本身实际上并不重要。",
       "timestamp": "04:30",
       "speaker": "Jensen Huang"
     },
     {
-      "en": "And one of the things that I've always believed in is what makes great companies is a unique perspective about the world that you deeply believe in.",
-      "zh": "因此我一直相信的一件事是,造就伟大公司的是关于世界的独特视角,而你对此深信不疑。",
+      "en": "If it's important to do, we're going to go learn it, and how hard can it be?",
+      "zh": "如果这件事很重要，我们就要去学习它，这能有多难呢？",
+      "timestamp": "04:53",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "You don't invest in companies, you invest in people.",
+      "zh": "你投资的是人，而不是公司。",
+      "timestamp": "09:13",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "What makes great companies is a unique perspective about the world that you deeply believe in.",
+      "zh": "造就伟大公司的是关于世界的一个独特视角，你深信不疑。",
       "timestamp": "06:17",
       "speaker": "Jensen Huang"
     },
     {
+      "en": "In order to create the company that we have today, we realized early on that it's not about building a great chip, it's about accelerating an algorithm domain.",
+      "zh": "为了创建我们今天的公司，我们很早就意识到，这不在于制造一个很棒的芯片，而在于加速一个算法领域。",
+      "timestamp": "06:05",
+      "speaker": "Jensen Huang"
+    },
+    {
       "en": "The breakthrough for us was realizing that AlexNet was not AlexNet, that AlexNet was an approach with deep learning that allows you to learn any function.",
-      "zh": "对我们的突破是意识到 AlexNet 并不是 AlexNet,AlexNet 是一种深度学习的方法,允许你学习任何函数。",
+      "zh": "对我们的突破是意识到 AlexNet 不是 AlexNet，AlexNet 是一种深度学习方法，允许你学习任何函数。",
       "timestamp": "11:27",
       "speaker": "Jensen Huang"
     },
     {
-      "en": "You're going to build an F1 racer, but you're going to build it in a way that you can drive.",
-      "zh": "你要建造一辆 F1 赛车,但你要以一种你可以驾驶的方式来建造它。",
-      "timestamp": "17:38",
+      "en": "when I die on the job someday, you know, I told them they'll just have to reshape the company for the next CEO.",
+      "zh": "当有一天我死在工作岗位上时，我告诉他们，他们只需要为公司重塑形态以适应下一位 CEO。",
+      "timestamp": "17:59",
       "speaker": "Jensen Huang"
     },
     {
-      "en": "You should adapt the car to you.",
-      "zh": "你应该让汽车适应你。",
-      "timestamp": "17:42",
-      "speaker": "Jensen Huang"
-    },
-    {
-      "en": "And so I think controllability is probably the single biggest breakthrough that we need for agents at every single level.",
-      "zh": "所以我认为可控性可能是我们在每一个层面对于智能体所需要的唯一最大的突破。",
+      "en": "I think controllability is probably the single biggest breakthrough that we need for agents at every single level.",
+      "zh": "我认为可控性可能是我们在每个层面上对智能体需要的最大突破。",
       "timestamp": "23:19",
       "speaker": "Jensen Huang"
     },
     {
-      "en": "First of all, I need to understand agents because agents is the new software.",
-      "zh": "首先,我需要理解智能体,因为智能体就是新的软件。",
-      "timestamp": "23:50",
-      "speaker": "Jensen Huang"
-    },
-    {
-      "en": "We kind of have to live in the future five to ten years, because it takes three or so years just to build a system.",
-      "zh": "我们必须生活在未来五到十年,因为仅仅构建一个系统就需要三年左右。",
-      "timestamp": "24:24",
-      "speaker": "Jensen Huang"
-    },
-    {
-      "en": "AI eliminate tasks.",
-      "zh": "AI 消除任务。",
+      "en": "the narrative about AI destroying jobs is exactly backwards.",
+      "zh": "关于人工智能摧毁工作的叙事恰恰是反的。",
       "timestamp": "32:00",
       "speaker": "Jensen Huang"
     },
     {
-      "en": "AI automates tasks away.",
-      "zh": "AI 自动化掉任务。",
-      "timestamp": "32:04",
+      "en": "So now the question is, you know, how is the robot going to understand to generate motions that obey the laws of physics?",
+      "zh": "现在的问题是，机器人将如何理解以生成遵守物理定律的动作？",
+      "timestamp": "35:20",
       "speaker": "Jensen Huang"
     },
     {
-      "en": "But it doesn't necessarily eliminate jobs.",
-      "zh": "但它不一定消除工作。",
-      "timestamp": "32:07",
+      "en": "I think resilience is probably the single most important thing.",
+      "zh": "韧性大概是唯一最重要的东西。",
+      "timestamp": "48:24",
       "speaker": "Jensen Huang"
     },
     {
-      "en": "The narrative about AI destroying jobs is exactly backwards.",
-      "zh": "关于 AI 摧毁工作的叙事完全是反的。",
-      "timestamp": "32:00",
-      "speaker": "Jensen Huang"
-    },
-    {
-      "en": "Increasing growth drives more employment.",
-      "zh": "增长的增加推动了更多的就业。",
-      "timestamp": "33:53",
-      "speaker": "Jensen Huang"
-    },
-    {
-      "en": "I would say the ChatGPT moment of robots happened a couple of years ago already.",
-      "zh": "我会说机器人的 ChatGPT 时刻几年前就已经发生了。",
-      "timestamp": "35:55",
-      "speaker": "Jensen Huang"
-    },
-    {
-      "en": "The idea that you would solve a problem by sitting in front of a computer and you're actually writing code, that concept is obviously going to get automated away.",
-      "zh": "你通过坐在电脑前并且实际上编写代码来解决问题的想法,那个概念显然将被自动化掉。",
-      "timestamp": "41:22",
-      "speaker": "Jensen Huang"
-    },
-    {
-      "en": "The whole industry has changed.",
-      "zh": "整个行业已经改变了。",
-      "timestamp": "45:57",
-      "speaker": "Jensen Huang"
-    },
-    {
-      "en": "It's a complete reset from a technology perspective.",
-      "zh": "从技术角度来看,这是一个彻底的重置。",
-      "timestamp": "45:59",
-      "speaker": "Jensen Huang"
-    },
-    {
-      "en": "The single most important technology in human history, the computer, has been completely reset.",
-      "zh": "人类历史上最重要的单一技术,计算机,已经完全重置了。",
-      "timestamp": "46:02",
-      "speaker": "Jensen Huang"
-    },
-    {
-      "en": "which is, you know, learning is the single greatest superpower.",
-      "zh": "也就是,你知道,学习是唯一最大的超能力。",
+      "en": "you know, learning is the single greatest superpower.",
+      "zh": "学习是单一最伟大的超能力。",
       "timestamp": "47:46",
       "speaker": "Jensen Huang"
     },
     {
-      "en": "is resilience is probably the single most important thing.",
-      "zh": "就是韧性可能是唯一最重要的东西。",
-      "timestamp": "48:24",
+      "en": "You don't have to overcome life in one day.",
+      "zh": "你不必在一天之内克服人生。",
+      "timestamp": "48:02",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "the simple stuff is going to get automated away.",
+      "zh": "简单的东西将被自动化掉。",
+      "timestamp": "41:09",
       "speaker": "Jensen Huang"
     }
   ]

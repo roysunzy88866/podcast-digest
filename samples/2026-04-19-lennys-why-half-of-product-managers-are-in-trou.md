@@ -138,9 +138,9 @@ Nikhyl 提出了几条硬核建议：
 
 **换个口味**
 
+- [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|妻子反向采访 Lenny:百万订阅背后的真实人生]] —— 同概念:产品经理 (product manager)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|Benedict Evans:AI 像互联网一样大,但模型公司赚不到钱]] —— 同公司:Anthropic、Google、Meta
 - [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 实测：为什么它打败了 Fable 成为我最爱的主力模型]] —— 同公司:Anthropic、Codex · 同概念:智能体 (agent)
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 悬崖边？数据中心次级债与 SpaceX 缩水]] —— 同公司:Anthropic、Google、Tesla
 
 </div>
 </div>

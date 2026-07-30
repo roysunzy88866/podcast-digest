@@ -1,0 +1,1037 @@
+{
+  "episode_id": "2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-07-29",
+  "tags": [
+    "超音速飞行",
+    "深科技",
+    "硬件开发",
+    "创始人精神",
+    "航空业创新"
+  ],
+  "categories": [
+    "创业与行业",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "blake-scholl",
+      "type": "person",
+      "role": "host",
+      "name": "Blake Scholl",
+      "file": "Blake Scholl",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "boom",
+      "type": "company",
+      "role": "company",
+      "name": "Boom",
+      "file": "Boom",
+      "primary": true,
+      "how_described": "本集把它说成：致力于让民用超音速飞行重返天空的公司；通过验证「马赫切断」技术推动了美国超音速飞行合法化，并用软件开发思维制造飞机。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            87.112,
+            93.382
+          ],
+          "quote": "Prior to boom, the closest America ever got to a supersonic airliner was a mock-up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 58,
+          "t": [
+            307.843,
+            314.509
+          ],
+          "quote": "One of my very many failed investor pitches was in 2015 when Jeff Bezos passed on our seed round at Boom.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            374.296,
+            377.34
+          ],
+          "quote": "And by the end of YC batch, this is what Boom looked like.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 78,
+          "t": [
+            389.579,
+            396.385
+          ],
+          "quote": "We started building our first prototype airliner, XB-1, which started life as baby boom.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            526.437,
+            529.098
+          ],
+          "quote": "Along the way to that flight, Boom nearly failed several times.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 108,
+          "t": [
+            575.56,
+            583.207
+          ],
+          "quote": "Not only did we break the sound barrier, but we did something that we didn't even think was part of the original plan, which is related to solving sonic boom.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 110,
+          "t": [
+            588.312,
+            591.135
+          ],
+          "quote": "Each time, no audible sonic boom on the ground.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            591.735,
+            608.792
+          ],
+          "quote": "we actually demonstrated a principle that had been talked about for a long time called Mach Cutoff, where if you break the sound barrier at a sufficiently high altitude and at the right speed for the current weather, the sonic boom actually makes a U-turn in the sky and never touches the ground.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            614.655,
+            625.2
+          ],
+          "quote": "So by making the sonic boom disappear entirely, we are able to put aside a question that had long plagued people talking about supersonic flight, which is how quiet is quiet enough?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            625.78,
+            628.241
+          ],
+          "quote": "If there's no boom at all, there's nothing to argue about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            662.661,
+            667.726
+          ],
+          "quote": "By demonstrating that we could have supersonic flight without a sonic boom, everybody got excited about it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1207.974,
+            1213.256
+          ],
+          "quote": "But there was one false belief that almost stopped me from founding Boom.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1254.232,
+            1278.07
+          ],
+          "quote": "uh but it's not true there are many many unsolved problems in the world many great ideas hiding in plain sight that were actually solvable that could have been multi-billion or multi-trillion dollar businesses a while ago but nobody's building them and not for any reason other than nobody went and did it the technology for supersonic flight existed actually a long time before boom was founded technologically the company could have been created 10 years earlier",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1404.097,
+            1408.402
+          ],
+          "quote": "So a lot of what we're doing at Boom is trying to figure out how to get rid of the tooling entirely.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1586.837,
+            1596.18
+          ],
+          "quote": "And in particular at Boom, the last company Entrepreneur founded that went on to build a commercial airliner was Douglas Aircraft in 1921.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1664.957,
+            1673.184
+          ],
+          "quote": "From a boom perspective, actually delivering on physical AI for manufacturing would be huge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1705.16,
+            1706.841
+          ],
+          "quote": "How do we make that call with Boom?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1783.009,
+            1785.331
+          ],
+          "quote": "They thought boom was kind of cute, would probably never succeed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1847.316,
+            1852.8
+          ],
+          "quote": "We made it boom plus FAA versus the problem, not boom versus FAA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1921.341,
+            1927.791
+          ],
+          "quote": "The worst piece of advice, so my mom, hi mom, my mom told me not to start Boom.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1995.814,
+            1998.317
+          ],
+          "quote": "It took Boom about 10 years just to break the sound barrier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 364,
+          "t": [
+            2010.425,
+            2012.487
+          ],
+          "quote": "Boom nearly died many times.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 376,
+          "t": [
+            2064.248,
+            2071.21
+          ],
+          "quote": "And if you do that, you can iterate faster, you can get to proof points faster, and the fundraising challenge that Boom had is not one you'll have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2175.651,
+            2182.195
+          ],
+          "quote": "OK. On paper, you didn't have the credentials to start Boom, but you did it anyway.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 459,
+          "t": [
+            2493.793,
+            2499.717
+          ],
+          "quote": "At Boom, we need far more software engineers in a post-AI world than we need in a pre-AI world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2618.675,
+            2620.295
+          ],
+          "quote": "We have developed a rule about this at Boom.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2690.452,
+            2691.752
+          ],
+          "quote": "I started Boom when I was 33.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 519,
+          "t": [
+            2761.902,
+            2766.044
+          ],
+          "quote": "No, this founder moved from San Francisco to start Boom.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2769.006,
+            2775.111
+          ],
+          "quote": "I left San Francisco and moved to Denver to put Boom there because it did not seem...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 533,
+          "t": [
+            2842.915,
+            2853.867
+          ],
+          "quote": "And at Boom, we will hire people early career with no work experience, but they have to have done something else that demonstrates having been extraordinary.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 534,
+          "t": [
+            2853.947,
+            2864.118
+          ],
+          "quote": "So if you want, for example, to come work at Boom, go to boomsupersonic.com slash careers, and there's a job opening that's called Your Dream Job.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2942.07,
+            2947.919
+          ],
+          "quote": "When I started Boom, I had three kids under the age of two.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "xb-1",
+      "type": "concept",
+      "role": "concept",
+      "name": "XB-1",
+      "file": "XB-1",
+      "primary": true,
+      "how_described": "本集把它说成：由 50 人小团队打造的超音速验证机，用于试错；它成为历史上第一架独立开发并在政府军方之外制造、成功突破音障的超音速喷气机。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            389.579,
+            396.385
+          ],
+          "quote": "We started building our first prototype airliner, XB-1, which started life as baby boom.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            409.837,
+            412.179
+          ],
+          "quote": "And that was how XB-1 got started.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            479.68,
+            482.922
+          ],
+          "quote": "XB-1 is supersonic, faster than the speed of sound.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 109,
+          "t": [
+            584.008,
+            587.851
+          ],
+          "quote": "XB-1 broke the sound barrier on two flights, six times through the sound barrier.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1820.261,
+            1831.408
+          ],
+          "quote": "And so what we found was that the approvals process for XB-1, that even for an R&D airplane can stretch on for months, actually happened in 90 minutes from when we said, we think we're ready to fly.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mach-cutoff",
+      "type": "concept",
+      "role": "concept",
+      "name": "马赫切断 (Mach Cutoff)",
+      "file": "马赫切断",
+      "primary": true,
+      "how_described": "本集把它说成：如果在足够高的高度和合适的气象条件下突破音障，音爆会在空中掉头、永不触及地面的原理。它彻底解决了超音速飞行困扰数十年的地面噪音问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            591.735,
+            608.792
+          ],
+          "quote": "we actually demonstrated a principle that had been talked about for a long time called Mach Cutoff, where if you break the sound barrier at a sufficiently high altitude and at the right speed for the current weather, the sonic boom actually makes a U-turn in the sky and never touches the ground.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "overture",
+      "type": "concept",
+      "role": "concept",
+      "name": "Overture",
+      "file": "Overture",
+      "primary": true,
+      "how_described": "本集把它说成：Boom 正在从 XB-1 验证机放大规模，为大众建造的商用超音速客机，为此他们正在建设一座超级工厂。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 187,
+          "t": [
+            1014.862,
+            1022.026
+          ],
+          "quote": "As we're scaling up from XB1, the test airplane, to Overture, the passenger airliner that we all get to fly on, we have to go big.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "makeboom",
+      "type": "concept",
+      "role": "concept",
+      "name": "MakeBoom",
+      "file": "MakeBoom",
+      "primary": true,
+      "how_described": "本集把它说成：Boom 开发的内部系统工具，工程师可通过修改配置文件来定义一架飞机，并在几分钟内跑完整个飞机模拟测试，从而评估燃油、载客等性能以找出最该造的方案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 153,
+          "t": [
+            850.432,
+            852.313
+          ],
+          "quote": "And we built a system called MakeBoom.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            852.973,
+            857.614
+          ],
+          "quote": "And MakeBoom lets you literally define an airplane in a configuration file.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "blade-runner",
+      "type": "concept",
+      "role": "concept",
+      "name": "Blade Runner",
+      "file": "Blade Runner",
+      "primary": true,
+      "how_described": "本集把它说成：Boom 用于设计引擎叶片的工具，只需几个工程师就能实时更改叶片设计，并确切看到它在结构和气动上的表现，把过去几十名工程师耗时数月的过程缩短到实时。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 168,
+          "t": [
+            912.196,
+            913.978
+          ],
+          "quote": "And we built a tool called Blade Runner.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            914.851,
+            925.977
+          ],
+          "quote": "And Blade Runner allows us, with really just a couple engineers, to change a blade design in real time and see exactly how it's going to behave structurally and aerodynamically.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "superpower",
+      "type": "concept",
+      "role": "concept",
+      "name": "superpower",
+      "file": "superpower",
+      "primary": true,
+      "how_described": "本集把它说成：Boom 将自研超音速引擎改造为地面天然气发电涡轮机提前出售的业务；它能在飞机造出前产生测试数据、经验并为庞大的研发提供资金。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 198,
+          "t": [
+            1086.976,
+            1088.357
+          ],
+          "quote": "And that's what we call superpower.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1102.368,
+            1107.672
+          ],
+          "quote": "The first superpower turbine's under construction right now and goes to the first customer in less than 12 months.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "supersonic-flight",
+      "type": "concept",
+      "role": "concept",
+      "name": "超音速飞行 (supersonic flight)",
+      "file": "超音速飞行",
+      "primary": true,
+      "how_described": "本集把它说成：在半个世纪前就已实现、但后来失去的能力；通过 XB-1 的试飞成功与「马赫切断」验证，它不仅推动了法规修改，也将迎来全面的复苏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            265.545,
+            272.408
+          ],
+          "quote": "But one of the fallouts of the Concorde era was that we actually banned supersonic flight in the US.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            614.655,
+            625.2
+          ],
+          "quote": "So by making the sonic boom disappear entirely, we are able to put aside a question that had long plagued people talking about supersonic flight, which is how quiet is quiet enough?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            634.504,
+            643.813
+          ],
+          "quote": "and 115 days from breaking the sound barrier to an executive order making supersonic flight legal again in the US.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            662.661,
+            667.726
+          ],
+          "quote": "By demonstrating that we could have supersonic flight without a sonic boom, everybody got excited about it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            668.327,
+            671.729
+          ],
+          "quote": "And I like to say that supersonic flight isn't red or blue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            687.956,
+            689.356
+          ],
+          "quote": "The supersonic flight is coming back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            725.139,
+            729.541
+          ],
+          "quote": "And of course, most importantly, legalizing supersonic flight in the US.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1074.111,
+            1086.416
+          ],
+          "quote": "But we discovered along the way that because we had made a choice to vertically integrate our own propulsion, we were able to take the engine that we were building for supersonic flight and sell it separately on the ground as a natural gas power turbine.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1123,
+            1126.662
+          ],
+          "quote": "Because of that, we chose to livestream XB1's supersonic flight.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1254.232,
+            1278.07
+          ],
+          "quote": "uh but it's not true there are many many unsolved problems in the world many great ideas hiding in plain sight that were actually solvable that could have been multi-billion or multi-trillion dollar businesses a while ago but nobody's building them and not for any reason other than nobody went and did it the technology for supersonic flight existed actually a long time before boom was founded technologically the company could have been created 10 years earlier",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "first-principles",
+      "type": "concept",
+      "role": "concept",
+      "name": "第一性原理 (first principles)",
+      "file": "第一性原理",
+      "primary": false,
+      "how_described": "本集把它说成：自学困难事物（如航空航天工程）时必须深挖到底的核心思维方式，也是思考什么技能才真正重要时该坚持的判断基准。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 442,
+          "t": [
+            2401.728,
+            2403.65
+          ],
+          "quote": "Not really deep down, not first principles.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2517.989,
+            2525.895
+          ],
+          "quote": "So the thing that, again, I think let's go back and think about what really matters from first principles, what will be true over a long period of time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "y-combinator",
+      "type": "company",
+      "role": "company",
+      "name": "Y Combinator",
+      "file": "Y Combinator",
+      "primary": false,
+      "how_described": "本集把它说成：Boom 早期曾参加过的创业孵化器，Boom 当时在批次结束时展示的仅是一个用硬纸板和胶合板拼成的客机模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 218,
+          "t": [
+            1186.579,
+            1197.406
+          ],
+          "quote": "And if you can send your question to the Y Combinator agent, they are filtering them backstage and we'll pop them up here and we'll talk about them.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "boeing",
+      "type": "company",
+      "role": "company",
+      "name": "Boeing",
+      "file": "Boeing",
+      "primary": false,
+      "how_described": "本集把它说成：几十年来缺乏创新的航空业巨头，Blake 指出他们最新的客机和二十年前毫无视觉和速度上的区别。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            63.789,
+            67.93
+          ],
+          "quote": "If we look back at history, this is the Boeing 707.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            289.032,
+            292.153
+          ],
+          "quote": "Wouldn't you expect Boeing to carry us forward into a supersonic age?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            975.307,
+            981.631
+          ],
+          "quote": "This is a room that does not exist at GE or Rolls-Royce or Boeing or any other large aerospace company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1603.385,
+            1609.431
+          ],
+          "quote": "And it has only kind of big companies, Boeing, Lockheed, et cetera, that are really terrible cultures.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1779.626,
+            1781.948
+          ],
+          "quote": "Boeing has plenty of its own self-inflicted problems.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": false,
+      "how_described": "本集把它说成：Blake 职业早期工作过的公司，在那里他学到了「长期思考与极强的当下运营纪律相结合」的文化，以及构建内部业务软件的价值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 59,
+          "t": [
+            315.149,
+            320.813
+          ],
+          "quote": "And then he wrote in the 2015 Amazon shareholder letter about how there's certain things that only big companies can do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            333.059,
+            334.68
+          ],
+          "quote": "We spent time at early Amazon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1469.589,
+            1478.634
+          ],
+          "quote": "I was lucky to start my career at Amazon in 2001 when my family thought it was a bookstore.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1479.355,
+            1487.74
+          ],
+          "quote": "And one of the things that was, I think, great about Amazon culture is they built their own business software to run their own business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1505.231,
+            1514.217
+          ],
+          "quote": "And I think that is a part of why Amazon was able to be the winner in e-commerce is that they had software that fit the business operation like a glove.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1937.595,
+            1943.016
+          ],
+          "quote": "When I started my first company, I figured I knew e-commerce from my time at Amazon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 387,
+          "t": [
+            2137.046,
+            2143.31
+          ],
+          "quote": "At early Amazon, I was lucky to get to work on something that Jeff Bezos cared about that mattered to Amazon.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2150.996,
+            2158.161
+          ],
+          "quote": "So when I screwed up, I had the most significant people at Amazon telling me how I screwed up and trying to help me not fail.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 421,
+          "t": [
+            2288.762,
+            2294.083
+          ],
+          "quote": "Okay, what did I learn from working at Amazon in the early days and any lessons from Bezos?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2302.405,
+            2313.807
+          ],
+          "quote": "I think one of the things that Amazon did really well that is difficult to do together is to think very long range while having incredible operating discipline in the moment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2326.993,
+            2331.055
+          ],
+          "quote": "He was laughed at internally and laughed at by his board when he launched Amazon Web Services.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2343.722,
+            2352.026
+          ],
+          "quote": "And when it got to the end of a quarter, Amazon would never massage their choices to try and make earnings look good that quarter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2536.641,
+            2545.025
+          ],
+          "quote": "Like one of the reasons I went to Amazon early in my career is I knew that I'd be able to work on software for marketing and I didn't know Jack about marketing and I wanted to learn it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2709.953,
+            2712.534
+          ],
+          "quote": "And so I went to work at Amazon and got some great experience there.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ge",
+      "type": "company",
+      "role": "company",
+      "name": "GE",
+      "file": "GE",
+      "primary": false,
+      "how_described": "本集提到：大型航空航天公司，Blake 指出 Boom 自建的数字设计到原型部件的快速机加工车间在这些传统巨头里根本不存在。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 180,
+          "t": [
+            975.307,
+            981.631
+          ],
+          "quote": "This is a room that does not exist at GE or Rolls-Royce or Boeing or any other large aerospace company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rolls-royce",
+      "type": "company",
+      "role": "company",
+      "name": "Rolls-Royce",
+      "file": "Rolls-Royce",
+      "primary": false,
+      "how_described": "本集提到：大型航空航天公司，Blake 指出 Boom 自建的数字设计到原型部件的快速机加工车间在这些传统巨头里根本不存在。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 180,
+          "t": [
+            975.307,
+            981.631
+          ],
+          "quote": "This is a room that does not exist at GE or Rolls-Royce or Boeing or any other large aerospace company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "lockheed",
+      "type": "company",
+      "role": "company",
+      "name": "Lockheed",
+      "file": "Lockheed",
+      "primary": false,
+      "how_described": "本集提到：Blake 引用其制造导弹拦截器需耗时两年多为例，批评航空业失去了以合理速度推进硬件创新的能力；并指出其公司文化糟糕。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            50.954,
+            56.88
+          ],
+          "quote": "It now takes Lockheed more than two years to build a new Patriot missile interceptor.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1603.385,
+            1609.431
+          ],
+          "quote": "And it has only kind of big companies, Boeing, Lockheed, et cetera, that are really terrible cultures.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "faa",
+      "type": "company",
+      "role": "company",
+      "name": "FAA",
+      "file": "FAA",
+      "primary": false,
+      "how_described": "本集把它说成：航空业的监管机构，Blake 主动接触并让他们成为团队一部分，从而在 90 分钟内就获得了 XB-1 的首张民用超音速飞行许可。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 318,
+          "t": [
+            1796.66,
+            1801.244
+          ],
+          "quote": "So when we started the company, started building XP1, I went to the FAA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1831.528,
+            1832.869
+          ],
+          "quote": "And FAA said, here's the paperwork.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 332,
+          "t": [
+            1847.316,
+            1852.8
+          ],
+          "quote": "We made it boom plus FAA versus the problem, not boom versus FAA.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "starlink",
+      "type": "company",
+      "role": "company",
+      "name": "Starlink",
+      "file": "Starlink",
+      "primary": false,
+      "how_described": "本集提到：用于直播 XB-1 超音速试飞的网络服务，这也是首次超音速安装 Starlink 和首次超音速空对空直播。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 133,
+          "t": [
+            718.958,
+            724.323
+          ],
+          "quote": "And the first supersonic air-to-air livestream filmed on an iPhone, streamed via Starlink,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1127.323,
+            1132.205
+          ],
+          "quote": "This was the first supersonic installation of Starlink, the first supersonic air-to-air livestream.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "uber",
+      "type": "company",
+      "role": "company",
+      "name": "Uber",
+      "file": "Uber",
+      "primary": false,
+      "how_described": "本集提到：作为受监管行业的反面案例，Travis 无视监管者先发布产品、用庞大的客户群对付监管者，这种做法在航空业行不通但在那儿很有效。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 303,
+          "t": [
+            1712.404,
+            1724.211
+          ],
+          "quote": "So for example, in building Uber, Travis basically ignored the regulators and built the service anyway, built a fan base of customers that he could use against the regulators that were trying to shut him down.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1725.051,
+            1732.583
+          ],
+          "quote": "And I think if Uber had tried to befriend the regulators first, it just wouldn't have worked.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

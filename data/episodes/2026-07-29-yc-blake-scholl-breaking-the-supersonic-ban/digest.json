@@ -1,0 +1,177 @@
+{
+  "title_zh": "超音速客机卷土重来：Boom 如何用软件思维重塑硬件制造",
+  "tldr": "Blake Scholl 创立 Boom，用软件迭代思维造出首架民用超音速飞机，并推动美国超音速飞行合法化。",
+  "digest_md": "Blake Scholl 是 Boom Supersonic 的创始人。这家公司致力于让民用超音速飞行重返天空。在本集 Y Combinator 的访谈中,Blake 回顾了 Boom 从被所有人嘲笑的硬纸板模型,到成功驾驶飞机突破音障(打破音速屏障)的十年历程,并分享了他在硬件迭代、监管博弈、团队招聘和创始人自我修养上的深刻思考。全文将沿着「为什么做」到「怎么做」,再到「他悟到了什么」三个层次展开。\n\n## 速度的倒退与重塑超音速飞行的野心\n\nBlake 在演讲开场抛出了一个令人深思的反直觉事实:尽管人类在 1969 年就实现了登月并飞了协和号(一种比音速更快的客机),但半个世纪后的今天,我们不仅失去了超音速飞行的能力,甚至失去了以合理速度推进硬件创新的能力 [00:39]。他举例说,如今制造一枚导弹拦截器需要超过两年时间,而波音最新的客机和二十年前相比毫无视觉和速度上的区别 [00:50]。\n\n正是这种对速度与创新的渴望,促使 Blake 在 33 岁时创立了 Boom。他注意到,喷气式飞机的普及曾深刻改变了地面世界——把夏威夷变成旅游胜地,让耐克得以进口日式跑鞋,让披头士乐队的全球巡演成为可能 [02:39]。他开始构想:如果跨大西洋的飞行能缩短到三个半小时,超音速时代又会孕育出哪些全新的商业与文化?[03:31]\n\n然而,他的创业起点并不光鲜。作为前软件工程师,他对飞机的了解仅限于持有飞行执照。在 YC 创业孵化器期间,他们展示的只是一个用硬纸板和胶合板拼成的客机模型,曾被无数人嘲笑 [06:05]。为了真正摸清造一架超音速飞机需要什么,他们决定先造一架名为 XB-1 的验证机来试错 [06:29]。\n\n## 从濒临破产到打破音障:「马赫切断」技术的突破\n\n造硬件的难度很快显现。在讲述这段历程时,Blake 毫不掩饰曾经历的至暗时刻:他们一度只剩下七天的现金,董事会甚至要求他关闭公司,但他选择了拒绝并最终挺了过来 [08:49]。他感慨道,创始人必须为「最坏的一天」和「最好的一天」做准备 [08:34]。\n\n去年,那个「最好的一天」终于到来。在莫哈韦沙漠,XB-1 成为历史上第一架由私人独立开发、并在政府与军方之外制造的超音速喷气机,成功突破了音障 [06:53]。这背后还附带了一个意料之外的巨大技术突破:他们在试飞中验证了被称为「马赫切断(Mach Cutoff,指在足够高的高度和合适的气象条件下突破音障,音爆会在空中掉头,永不触及地面)」的原理 [09:51]。这意味着,困扰超音速飞行数十年的地面音爆噪音问题被彻底解决了——「如果根本没有音爆,就没有什么可争论的了」[10:25]。\n\n更重要的是,通过这项技术验证,他们改变了监管。突破音障仅 115 天后,一项让美国超音速飞行重新合法化的行政命令便签署出台 [10:34]。Blake 悟出一个道理:人们总说在受高度监管的行业创业很难,但事实证明,只要你能造出真正可行的东西并证明它是安全的,你就可以推动法规的改变 [10:51]。\n\n## 用软件开发思维造飞机\n\n搞定了技术和监管,下一个核心问题是:为什么以前需要动用政府巨额预算、成千上万人才能造出的超音速飞机,如今却被一个 50 人的小团队做到了?[12:14]\n\nBlake 给出的答案是:要把昂贵的硬件开发变得像软件开发一样,大幅降低迭代成本 [12:34]。在传统的航空工程中,一切都是高度耦合的:改动一排座椅的重量,就需要重新设计引擎和机翼,整个过程依赖大量工程师在不同的电子表格间来回交接,极其缓慢 [13:04]。\n\n为了打破这种僵局,Boom 开发了一套名为 MakeBoom 的内部工具。工程师可以通过修改配置文件来定义一架飞机,并在几分钟内跑完整个飞机的模拟测试,从而精确评估飞行距离、燃油消耗与市场定位,找出最该造的那一架 [14:10]。在引擎叶片的设计上,他们开发了 Blade Runner 工具,把过去需要几十名工程师耗时数月的迭代,缩短到了「实时」[15:14]。\n\n但这还不够,只靠数字世界迭代不行,还得在「原子的世界」里快速迭代。Blake 对航空业传统的供应链充满怨言,于是选择自建机加工车间,让数字设计在 24 小时内就能变成原型部件,工程师与制造技术人员紧密协同,完全打破了外部供应商的拖累 [16:02]。他强调,这些原本存在于电子表格里的工程,本质上就是「婴儿软件」,如今必须被改造为具备自动化集成和测试的代码工程 [13:51]。\n\n## 如何战胜制造业的流失:发明下一代,而非追赶旧世代\n\n把开发流程数字化后,规模化量产成了下一个挑战。从验证机 XB-1 到未来的商用客机 Overture,他们正在建设一座超级工厂 [16:54]。\n\n然而,在美国做大制造绕不开一个根本问题:如何与中国竞争?Blake 给出了反常识的判断:绝不能在中国擅长的游戏里硬碰硬。试图把那些早已流向海外的传统制造业搬回美国是行不通的 [21:55]。\n\n他解释道,中国曾通过吸纳精密模具(制造工业零件必不可少的定制工具)产业掏空了美国的制造业底座。如今在美国找一个模具工程师难如登天,但在中国却「扔个棒球就能砸中一个」[23:05]。因此,Boom 的应对策略是:彻底消灭对模具的依赖。他们正在研发一种全数字化制造工艺,能在无模具的情况下,24 小时内造出世界上最先进的涡轮叶片 [23:29]。与其去争夺劳动力密集型的落后产能,不如发明全新的下一代制造方式,这才是美国依然最擅长的——发明、自由与创新 [23:46]。\n\n在巨额融资压力下,Boom 还找到了一条独特的造血路径。他们决定将自研的超音速引擎改造为地面天然气发电涡轮机提前出售。这不仅为庞大的研发提供了所需的资金和测试数据,还成功规避了超长周期深科技项目难以融资的困境 [17:51]。他们把这项业务命名为 Superpower [18:06]。\n\n## 创始人的自我修养:无视「为什么是现在」与拥抱「热爱」\n\n在随后的问答环节中,Blake 分享了他对创业与人生的深刻洞察。谈及如何在看似没有机会的领域起步,他指出科技界有一个广泛流传的谎言:好想法一定早就有人在做 [20:14]。这种「为什么是现在」的质疑吓退了大批创始人,导致大家挤在 AI 或移动应用等狭窄赛道里内卷。但他坚信,世界上到处都是久已有技术可行、却无人问津的万亿级问题。超音速客机在技术上本可以提前十年诞生,只是没有人去做 [20:54]。\n\n此外,Blake 强烈反对「做你懂的事」这条看似政治正确的建议 [32:49]。他坦言自己早年听从这条建议做移动电商时感到痛苦不堪。在每个人都能拥有个性化 AI 导师的今天,知识和技能随时可以学,「热爱」才是唯一无法被强行改变的。他建议年轻人寻找三个要素的交集:你热爱、能变得擅长,且对所在组织至关重要,当这三者重叠时,你的职业生涯将迎来垂直上升 [35:22]。哪怕是在纸面上毫无资质,只要停止焦虑于「我能不能做到」,把所有精力集中在「如何做到」上,自信自然会随之而来 [37:41]。\n\n对于 AI 时代取代人类的恐慌,Blake 直言这是极其错误的。他观察到,正因为 AI 降低了写代码的门槛,硬件工程师也能自己写代码了,导致像 Boom 这样的公司对架构师的需求不减反增。最宝贵的素质依然是「在乎」——这是任何技能或 AI 都无法替代的核心要素 [31:34]。他也呼吁年轻人不要被「硬件需要深厚经验」的谎言劝退。当一个人彻底成为某个领域的「老专家」时,他往往也就沉溺于过去,丧失了从零造物的破局能力 [43:21]。\n\n## 本集带走\n\n1. **超音速飞行的复苏钥匙不是蛮力,而是技术降维**:通过验证「马赫切断」原理让音爆在空中转向,并以此为筹码推动法规修改。用合规合法化证明了深科技的监管困境并非死局。\n2. **深科技的核心竞争力是「迭代速度」**:将硬件设计转化为软件配置(MakeBoom),在原子世界自建车间摆脱供应商桎梏,用全数字化工艺消灭对传统模具的依赖,是 50 人小团队跑赢传统巨头的关键。\n3. **「为什么是现在」是个伪命题**:不要去拥挤的赛道里找答案,带着对某个问题纯粹的热爱投入进去。在 AI 辅助下,技能门槛正在崩塌,激情与「在乎」才是创始人唯一需要守住的护城河。",
+  "quotes": [
+    {
+      "en": "The world is a smaller place than we're told.",
+      "zh": "世界比我们被告知的要小。",
+      "timestamp": "21:25",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "You don't beat China at its own game.",
+      "zh": "你不能在中国的强项上击败中国。",
+      "timestamp": "22:04",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "What you do is invent the future, invent the next wave of manufacturing and build that here.",
+      "zh": "你要做的是发明未来，发明下一波制造业浪潮，并在这里建设。",
+      "timestamp": "22:06",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "You can't get to product market fit on a supersonic jet by building it and seeing if anybody likes it.",
+      "zh": "你不能通过建造一架超音速喷气机来看看是否有人喜欢它来实现产品市场契合。",
+      "timestamp": "14:46",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "Knowledge is changeable, passion is not, and never has there been more reason to work on what you love.",
+      "zh": "知识是可变的，激情不是，现在比以往任何时候都有更多理由去从事你热爱的工作。",
+      "timestamp": "33:03",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "The moment you become an expert, what you're steeped in is the past, and then you're completely useless.",
+      "zh": "当你成为专家的那一刻，你沉浸其中的是过去，然后你就完全没用了。",
+      "timestamp": "43:25",
+      "speaker": "Blake Scholl"
+    },
+    {
+      "en": "the only way to know what I was capable of was to pick something that I work really hard at and give it everything I got.",
+      "zh": "要知道我能做什么的唯一方法就是选择一件我非常努力去工作的事情，并把我拥有的一切都投入其中。",
+      "timestamp": "37:35",
+      "speaker": "Blake Scholl"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "We did all of this with a remarkably small team.",
+      "zh": "我们这一切都是用一个非常小的团队完成的。",
+      "timestamp": "12:11",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And it's now possible to have many more software tools than previously would have been possible to build.",
+      "zh": "现在拥有比以前可能建造的多得多的软件工具已经成为可能。",
+      "timestamp": "15:41",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "I like to say that supersonic flight isn't red or blue.",
+      "zh": "我喜欢说超音速飞行不是红色的或蓝色的。",
+      "timestamp": "11:08",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "you tend to get told that every technology gets created kind of at the earliest moment of history that it could be.",
+      "zh": "你往往会被告知，每项技术都是在历史上最早可能被创造的时刻被创造出来的。",
+      "timestamp": "20:14",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "The world is a smaller place than we're told.",
+      "zh": "世界比我们被告知的要小。",
+      "timestamp": "21:25",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "You don't beat China at its own game.",
+      "zh": "你不能在中国的强项上击败中国。",
+      "timestamp": "22:04",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "What you do is invent the future, invent the next wave of manufacturing and build that here.",
+      "zh": "你要做的是发明未来，发明下一波制造业浪潮，并在这里建设。",
+      "timestamp": "22:06",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Because what America is still best at is invention and freedom and innovation.",
+      "zh": "因为美国仍然最擅长的是发明、自由和创新。",
+      "timestamp": "23:58",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And one of the fallouts of the Concorde era was that we actually banned supersonic flight in the US.",
+      "zh": "但协和时代的一个副作用是，我们在美国实际上禁止了超音速飞行。",
+      "timestamp": "04:25",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Turns out you can change the regulations.",
+      "zh": "事实证明，你可以改变法规。",
+      "timestamp": "10:55",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "If there's no boom at all, there's nothing to argue about.",
+      "zh": "如果根本没有音爆，就没有什么可争论的了。",
+      "timestamp": "10:25",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "The spreadsheet engineering is like baby software.",
+      "zh": "电子表格工程就像是婴儿软件。",
+      "timestamp": "13:57",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "You can't get to product market fit on a supersonic jet by building it and seeing if anybody likes it.",
+      "zh": "你不能通过建造一架超音速喷气机来看看是否有人喜欢它来实现产品市场契合。",
+      "timestamp": "14:46",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "the most important iteration in hardware, by the way, is to iterate at the product level.",
+      "zh": "顺便说一句，硬件中最重要的迭代是在产品层面进行迭代。",
+      "timestamp": "34:02",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "But what you can't change easily is what you love.",
+      "zh": "但你无法轻易改变的是你热爱什么。",
+      "timestamp": "33:03",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Knowledge is changeable, passion is not, and never has there been more reason to work on what you love.",
+      "zh": "知识是可变的，激情不是，现在比以往任何时候都有更多理由去从事你热爱的工作。",
+      "timestamp": "33:05",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "The moment you become an expert, what you're steeped in is the past, and then you're completely useless.",
+      "zh": "当你成为专家的那一刻，你沉浸其中的是过去，然后你就完全没用了。",
+      "timestamp": "43:27",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Nobody comes down and taps you on the shoulder and says, by the way, you're the one.",
+      "zh": "没有人从天而降拍拍你的肩膀说，顺便说一句，你就是那个人。",
+      "timestamp": "37:17",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "the only way to know what I was capable of was to pick something that I work really hard at and give it everything I got.",
+      "zh": "要知道我能做什么的唯一方法就是选择一件我非常努力去工作的事情，并把我拥有的一切都投入其中。",
+      "timestamp": "37:32",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Go build something you love.",
+      "zh": "去建造你热爱的东西。",
+      "timestamp": "49:53",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Leave this planet better than you found it.",
+      "zh": "离开这个世界时，把它变得比你发现时更好。",
+      "timestamp": "49:56",
+      "speaker": "Unknown"
+    }
+  ]
+}

@@ -1,0 +1,979 @@
+{
+  "episode_id": "2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter",
+  "podcast": "Lenny's Podcast",
+  "date": "2026-03-12",
+  "tags": [
+    "内容创作",
+    "简报",
+    "播客",
+    "持续产出压力",
+    "反复打磨"
+  ],
+  "categories": [
+    "创业与行业",
+    "职业与个人成长"
+  ],
+  "entities": [
+    {
+      "id": "lenny-rachitsky",
+      "type": "person",
+      "role": "host",
+      "name": "Lenny Rachitsky",
+      "file": "Lenny Rachitsky",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "michelle-rial",
+      "type": "person",
+      "role": "cohost",
+      "name": "Michelle Rial",
+      "file": "Michelle Rial",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            71.16,
+            77.966
+          ],
+          "quote": "Today, my guest is my brilliant, incredible wife, Michelle Rial, who turns the table and interviews me.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 55,
+          "t": [
+            251.685,
+            253.537
+          ],
+          "quote": "Michelle Rial, thank you so much for being here.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 969,
+          "t": [
+            3118.469,
+            3119
+          ],
+          "quote": "Back to you, Michelle Rial.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "substack",
+      "type": "company",
+      "role": "company",
+      "name": "Substack",
+      "file": "Substack",
+      "primary": true,
+      "how_described": "本集把它说成:Lenny 决定搬过去并每周更新简报的平台,他提到作为 Substack 作家的长期生活模式能持续多久没有答案,且在遭遇诈骗团伙 API 攻击时他与 Substack 合作紧急填补漏洞",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 145,
+          "t": [
+            518.28,
+            524.005
+          ],
+          "quote": "Another maybe big moment was nine months of doing the newsletter, so I decided I'm going to move to Substack.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 207,
+          "t": [
+            744.457,
+            749.24
+          ],
+          "quote": "I don't think there's an answer to Substack writer podcast life long term.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 781,
+          "t": [
+            2510.794,
+            2517.296
+          ],
+          "quote": "They set up all these crazy attacks, and I had to work with Stripe and Substack to just shut them down.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "airbnb",
+      "type": "company",
+      "role": "company",
+      "name": "Airbnb",
+      "file": "Airbnb",
+      "primary": true,
+      "how_described": "本集把它说成:Lenny 待了七年的前公司(做软件工程师和产品经理),他在 Medium 写的第一篇关于此经历的文章被 Brian Chesky 分享给了全公司;他还提到自己曾参与创立的初创公司 Localmind 被卖给了 Airbnb",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            353.322,
+            356.156
+          ],
+          "quote": "So is the question after I left Airbnb, what would I be doing?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 96,
+          "t": [
+            363.741,
+            366.804
+          ],
+          "quote": "When I left my job, I was at Airbnb for seven years.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 127,
+          "t": [
+            468.906,
+            471.728
+          ],
+          "quote": "It was this post on what I learned at Airbnb.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 155,
+          "t": [
+            567.68,
+            575.705
+          ],
+          "quote": "Also in parallel, as you know, I was doing this based on the assumption that my Airbnb stock was going to be worth something and I could take this time to explore.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 156,
+          "t": [
+            576.806,
+            580.008
+          ],
+          "quote": "And then COVID hit, and Airbnb was over.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 157,
+          "t": [
+            581.069,
+            586.472
+          ],
+          "quote": "RIP Airbnb all over Twitter, and I was like, \"Huh, maybe I need to get a job for real.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 639,
+          "t": [
+            2099.505,
+            2100.327
+          ],
+          "quote": "We sold it to Airbnb.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 713,
+          "t": [
+            2284.465,
+            2285.636
+          ],
+          "quote": "Yeah, from Airbnb.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 714,
+          "t": [
+            2286,
+            2287.665
+          ],
+          "quote": "From Airbnb because you're organizing things.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 754,
+          "t": [
+            2421.915,
+            2423.96
+          ],
+          "quote": "You worked with her on Airbnb,\" or that's-",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "type": "company",
+      "role": "company",
+      "name": "Medium",
+      "file": "Medium",
+      "primary": true,
+      "how_described": "本集把它说成:Lenny 早期在网上写文章的地方,他在这里写的第一篇关于 Airbnb 经历的文章被推荐并四处传播,这让他觉得自己可能有东西可以分享",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            449.616,
+            452
+          ],
+          "quote": "Or even start the newsletter, start the Medium post that led to the newsletter?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 128,
+          "t": [
+            471.768,
+            472.449
+          ],
+          "quote": "Medium featured it.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 132,
+          "t": [
+            479.454,
+            482.537
+          ],
+          "quote": "And then I wrote a few more things on Medium at this point.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 244,
+          "t": [
+            843.441,
+            849.438
+          ],
+          "quote": "You did a 10-day silent meditation right before you ended up writing a Medium post.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": false,
+      "how_described": "本集把它说成:Lenny 遭遇欺诈团伙攻击时合作以关闭其寻找 API 漏洞攻击的公司之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            154.859,
+            157
+          ],
+          "quote": "They're essentially Stripe for enterprise features.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 781,
+          "t": [
+            2510.794,
+            2517.296
+          ],
+          "quote": "They set up all these crazy attacks, and I had to work with Stripe and Substack to just shut them down.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "newsletter",
+      "type": "concept",
+      "role": "concept",
+      "name": "简报 (newsletter)",
+      "file": "简报",
+      "primary": true,
+      "how_described": "本集把它说成:Lenny 自 2019 年开始的、目前拥有 120 万订阅者的核心事业;他的成功核心在于其建议均来自真正做这件事的从业者,而不是脱离一线的空谈",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            3.303,
+            9.91
+          ],
+          "quote": "This was as I was starting the newsletter, and this phrase of, I have wisdom to share, coming through me over and over and over.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 7,
+          "t": [
+            24.441,
+            29.92
+          ],
+          "quote": "You started your newsletter 2019, and it now has over a million subscribers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 14,
+          "t": [
+            45.563,
+            48.779
+          ],
+          "quote": "What do you think you'd be doing right now if you hadn't started that newsletter?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 72,
+          "t": [
+            290.042,
+            296.47
+          ],
+          "quote": "Yeah, so you started your newsletter 2019 and it now has over a million subscribers.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 87,
+          "t": [
+            337,
+            340.96
+          ],
+          "quote": "I'm wondering, what do you think you'd be doing right now if you hadn't started that newsletter?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 90,
+          "t": [
+            344.122,
+            351.277
+          ],
+          "quote": "I mean, I'll get to another question about what do you think is the one moment that led you to your newsletter.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 120,
+          "t": [
+            441.2,
+            449.596
+          ],
+          "quote": "So then I guess going back to that question of what do you think, do you think there's a moment or a collection of moments that led you to go full in on the newsletter?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 121,
+          "t": [
+            449.616,
+            452
+          ],
+          "quote": "Or even start the newsletter, start the Medium post that led to the newsletter?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 145,
+          "t": [
+            518.28,
+            524.005
+          ],
+          "quote": "Another maybe big moment was nine months of doing the newsletter, so I decided I'm going to move to Substack.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 147,
+          "t": [
+            526.287,
+            529.449
+          ],
+          "quote": "I tweeted I'm going to experiment with a newsletter, weekly newsletter, see how it goes.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 212,
+          "t": [
+            754,
+            754
+          ],
+          "quote": "Seven years since the newsletter, yeah.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 254,
+          "t": [
+            876.005,
+            883.69
+          ],
+          "quote": "I just sat down on this rock on a substance of some sort, and this was as I was starting the newsletter.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 411,
+          "t": [
+            1384.547,
+            1387.348
+          ],
+          "quote": "It's similar to the way I think about my newsletter post.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1387.989,
+            1393.592
+          ],
+          "quote": "Yeah, more the newsletter than the podcast is it just, to me it feels like this is really interesting and really good.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 527,
+          "t": [
+            1740.069,
+            1744.356
+          ],
+          "quote": "Does it remind you how big your newsletter has gotten, or do you like it?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 530,
+          "t": [
+            1758.418,
+            1760
+          ],
+          "quote": "Interestingly, I had the newsletter for four years.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 542,
+          "t": [
+            1792.762,
+            1796.629
+          ],
+          "quote": "I often ask people what's their favorite podcast episode or favorite newsletter, because I'm just curious.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 589,
+          "t": [
+            1920.26,
+            1930.738
+          ],
+          "quote": "Let's talk about, thinking back to what kind of hints that you would start this newsletter or things that you worked on when you were younger that are-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 595,
+          "t": [
+            1950,
+            1956.84
+          ],
+          "quote": "Or yeah, because just looking back, anything that makes it obvious that you would've started this newsletter, or a little more...",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 604,
+          "t": [
+            1983.02,
+            1988.625
+          ],
+          "quote": "Part of the reason I think I was able to do it is the newsletter started during COVID, so I could just sit there and type and put stuff out online.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 763,
+          "t": [
+            2434.413,
+            2438.72
+          ],
+          "quote": "Yeah, it's gotten worse because now I know more people through the podcast and the newsletter and like-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 770,
+          "t": [
+            2463.362,
+            2468.388
+          ],
+          "quote": "As a subscriber to my newsletter, you get 23 incredible products.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1156,
+          "t": [
+            3691.924,
+            3698.98
+          ],
+          "quote": "It just makes me think about something I think has been key to my newsletter success is it is based on real life doing the thing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1189,
+          "t": [
+            3798.761,
+            3803.806
+          ],
+          "quote": "When I write a newsletter post, I go through it probably, let's say, 50 times making it better.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "podcast",
+      "type": "concept",
+      "role": "concept",
+      "name": "播客 (podcast)",
+      "file": "播客",
+      "primary": true,
+      "how_described": "本集把它说成:Lenny 目前处于前十名的科技播客;与每周更新简报一样,这种每周必须产出的模式就像在跑步机上,像被巨石追赶",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            78.346,
+            85.212
+          ],
+          "quote": "I've had so many people over the years want me to be interviewed on this podcast, and what could be more fun than doing this with my wife?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 25,
+          "t": [
+            91.957,
+            94.96
+          ],
+          "quote": "I get a lot more personal than I've ever been on this podcast.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 26,
+          "t": [
+            95.661,
+            99.645
+          ],
+          "quote": "Also, the day this podcast comes out just happens to be my wife's birthday.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 56,
+          "t": [
+            253.557,
+            254
+          ],
+          "quote": "Welcome to the podcast.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 75,
+          "t": [
+            308.468,
+            313.94
+          ],
+          "quote": "Your podcast is very frequently one of the top 10, is that right?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 76,
+          "t": [
+            314.421,
+            315.706
+          ],
+          "quote": "Yeah, it's top 10 tech podcast.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 188,
+          "t": [
+            676.494,
+            684.818
+          ],
+          "quote": "But having to write a post or put out a post every single week and a podcast episode every week, it's like this treadmill that you're on.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 207,
+          "t": [
+            744.457,
+            749.24
+          ],
+          "quote": "I don't think there's an answer to Substack writer podcast life long term.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1056.563,
+            1061.572
+          ],
+          "quote": "Let's do this because I know on your podcast you have a lightning round.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 412,
+          "t": [
+            1387.989,
+            1393.592
+          ],
+          "quote": "Yeah, more the newsletter than the podcast is it just, to me it feels like this is really interesting and really good.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 489,
+          "t": [
+            1655.404,
+            1662.878
+          ],
+          "quote": "When I moved to the US from the Ukraine, which we recently chatted about on a podcast with Boris, which turned out to be a big news.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 532,
+          "t": [
+            1761.421,
+            1772.98
+          ],
+          "quote": "Yeah, my face was tiny in some Twitter profile, but once I started the podcast, people just... Yeah, it was very weird the first time it started happening, and then now it happens quite a lot.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 542,
+          "t": [
+            1792.762,
+            1796.629
+          ],
+          "quote": "I often ask people what's their favorite podcast episode or favorite newsletter, because I'm just curious.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 564,
+          "t": [
+            1854.694,
+            1858.137
+          ],
+          "quote": "And then he just yells, \"Lenny, I love your podcast.\"",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 579,
+          "t": [
+            1892.181,
+            1896.334
+          ],
+          "quote": "See, no, we're not going to cut it because this is what I go through too as a podcast interviewer.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 585,
+          "t": [
+            1910.674,
+            1914.198
+          ],
+          "quote": "That's why when I do the podcast, I'm secretly writing notes to myself constantly.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 745,
+          "t": [
+            2390.732,
+            2398.459
+          ],
+          "quote": "People who do know you come up to you and you're waiting to know if they just listen to your podcast or if you-",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 763,
+          "t": [
+            2434.413,
+            2438.72
+          ],
+          "quote": "Yeah, it's gotten worse because now I know more people through the podcast and the newsletter and like-",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 772,
+          "t": [
+            2474.074,
+            2476.637
+          ],
+          "quote": "I stopped doing this because there's too many now I had that end of my podcast.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1172,
+          "t": [
+            3768.141,
+            3771.92
+          ],
+          "quote": "... to have something sitting might be with your podcast.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1294,
+          "t": [
+            3992.002,
+            3997.728
+          ],
+          "quote": "If you found this valuable, you can subscribe to the show on Apple Podcasts, Spotify, or your favorite podcast app.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1295,
+          "t": [
+            3998.468,
+            4004.154
+          ],
+          "quote": "Also, please consider giving us a rating or leaving a review, as that really helps other listeners find the podcast.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "paywall",
+      "type": "concept",
+      "role": "concept",
+      "name": "付费墙 (paywall)",
+      "file": "付费墙",
+      "primary": true,
+      "how_described": "本集把它说成:Lenny 在写简报第九个月时为了验证能否赚钱而引入的机制,推出后第一个月就赚到了像样的收入",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 154,
+          "t": [
+            562.796,
+            567
+          ],
+          "quote": "That's when I decided to add the paywall and start charging and to see if I could make money doing this thing.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 160,
+          "t": [
+            589.014,
+            592.196
+          ],
+          "quote": "That's when I started the paywall, and it worked.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 161,
+          "t": [
+            592.316,
+            596.358
+          ],
+          "quote": "That's like the other moment I think I launched the paywall and it worked.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "lindy-effect",
+      "type": "concept",
+      "role": "concept",
+      "name": "林迪效应 (Lindy effect)",
+      "file": "林迪效应",
+      "primary": true,
+      "how_described": "本集把它说成:指一件事已经存在多久,大概率还能继续存在多久的概念;Lenny 写简报写到第九个月时因此效应相信自己至少还能再写一年",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 150,
+          "t": [
+            543.721,
+            545.142
+          ],
+          "quote": "There's this Lindy effect.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "baseline-level-of-happiness",
+      "type": "concept",
+      "role": "concept",
+      "name": "幸福基线 (baseline level of happiness)",
+      "file": "幸福基线",
+      "primary": true,
+      "how_described": "本集把它说成:好事坏事只会让幸福感暂时波动,人最终都会回到的一个基线水平;主动提高这个基线(比如保持乐观思考)是应对压力的关键",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 278,
+          "t": [
+            971.629,
+            976.953
+          ],
+          "quote": "That really had a big impact on me because it showed you you can increase your baseline level of happiness by doing a few things.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 282,
+          "t": [
+            988.181,
+            993.085
+          ],
+          "quote": "That was actually a big learning from that course is everyone's just this baseline level of happiness.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "product-manager",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品经理 (product manager)",
+      "file": "产品经理",
+      "primary": true,
+      "how_described": "本集把它说成:Lenny 在 Airbnb 做过的职位,以及他原计划离开公司后的备选职业路径;其工作核心是通过优先考虑和解决最有影响力的业务问题来交付业务影响",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            330.02,
+            334.337
+          ],
+          "quote": "I think you went from software engineer to product engineer to product manager.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1082,
+          "t": [
+            3413.462,
+            3422.93
+          ],
+          "quote": "I think the way I describe it is your job as a product manager is to deliver business impact by prioritizing and solving the most impactful business problems.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "product-management",
+      "type": "concept",
+      "role": "concept",
+      "name": "产品管理 (product management)",
+      "file": "产品管理",
+      "primary": true,
+      "how_described": "本集把它说成:全关乎影响力(就像育儿一样);团队中的 PM 基本上应该像 CEO 那样思考,思考 CEO 会在这个特定的产品或功能上做什么",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 980,
+          "t": [
+            3134.08,
+            3137.388
+          ],
+          "quote": "Okay, we probably know your favorite product management books.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1023,
+          "t": [
+            3240.565,
+            3252.918
+          ],
+          "quote": "Yeah, I mean, anything you want to say about... Is there anything you've learned in product management or growth that has translated to parenting?",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1024,
+          "t": [
+            3255.622,
+            3260
+          ],
+          "quote": "Product management is all about influence, and that's basically parenting.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1034,
+          "t": [
+            3279.701,
+            3290.092
+          ],
+          "quote": "Yeah, I feel like I see your product management in that you make him... I should be the one making him a chart, but you make him the... If bedtime gets too long, you're like, \"Here's how bedtime's going to go.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1054,
+          "t": [
+            3332.22,
+            3345.336
+          ],
+          "quote": "Okay, so I guess this is, I think, my last question for you, and I don't know if you want to answer it, but I, as your wife of however many years, like 10, still... I don't think I know what product management is.",
+          "speaker": "SPEAKER_1"
+        },
+        {
+          "seg": 1058,
+          "t": [
+            3364.035,
+            3367.098
+          ],
+          "quote": "It's almost like the order is how you think about product management.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1074,
+          "t": [
+            3396.384,
+            3398
+          ],
+          "quote": "I'll give you my definition of product management.",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1103,
+          "t": [
+            3471.821,
+            3474.904
+          ],
+          "quote": "People ask me what about product management helped me do the job I do now.",
+          "speaker": "SPEAKER_0"
+        }
+      ]
+    },
+    {
+      "id": "face-blindness",
+      "type": "concept",
+      "role": "concept",
+      "name": "脸盲 (face blindness)",
+      "file": "脸盲",
+      "primary": false,
+      "how_described": "本集把它说成:Lenny 自认有一定程度的这种大脑障碍,极其不擅长记住人脸和名字",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 744,
+          "t": [
+            2378.16,
+            2390.652
+          ],
+          "quote": "Yeah, so speaking of other people coming up to you and being around other people, I think it's become harder for you now that people you don't know come up to you because I think you actually have a little bit of face blindness.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    },
+    {
+      "id": "iterations",
+      "type": "concept",
+      "role": "concept",
+      "name": "迭代 (iterations)",
+      "file": "迭代",
+      "primary": true,
+      "how_described": "本集把它说成:高质量内容背后枯燥但必需的打磨过程;Michelle 做一张图表通常要迭代五次,而 Lenny 写一篇简报在交给编辑前自己要反复通读、修改大概五十次",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1175,
+          "t": [
+            3775.169,
+            3777.536
+          ],
+          "quote": "How many iterations do you do on a chart on average?",
+          "speaker": "SPEAKER_0"
+        },
+        {
+          "seg": 1258,
+          "t": [
+            3925.794,
+            3926.96
+          ],
+          "quote": "I did have a lot of iterations.",
+          "speaker": "SPEAKER_1"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
