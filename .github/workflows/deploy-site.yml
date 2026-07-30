@@ -44,9 +44,10 @@ jobs:
           path: |
             data/episodes/*/audio.mp3
             data/episodes/*/audio.meta.json
-          key: audio-v1-${{ hashFiles('data/episodes/*/digest.json') }}
+          # v2:C15 刀①(音频只读 digest_md)后旧口径音频指纹全作废(与 pipeline.yml 同步换代,同一缓存命名空间)
+          key: audio-v2-${{ hashFiles('data/episodes/*/digest.json') }}
           restore-keys: |
-            audio-v1-
+            audio-v2-
 
       - name: 装环境(ffmpeg + edge-tts + node deps)
         run: |

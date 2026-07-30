@@ -30,7 +30,7 @@ export const AZURE_MP3_FORMAT = "audio-24khz-48kbitrate-mono-mp3"; // Azure fall
 // ────────────────────────────────────────────────────────────────────────────
 
 /**
- * 把 digest 的 tldr+digest_md 剥成适合 TTS 朗读的纯文本。
+ * 把 digest 的音频源文本(digest_md,C15 起不含 tldr)剥成适合 TTS 朗读的纯文本。
  * 去掉一切「读出来会变噪音」的标记,保留可读文字(含术语解释括号)。
  *
  * 处理项(C4 Scenario 1c:不能读出「方括号井号脱字符」):
@@ -267,12 +267,15 @@ export function ffmpegConcatArgs(partPaths, outPath) {
 // 5) 源文本 hash(缓存幂等 + gate 陈旧检测)
 // ────────────────────────────────────────────────────────────────────────────
 
-/** 音频源文本 = tldr + digest_md(与合成输入同源,便于 hash 一致) */
+/** 音频源文本 = 只读 digest_md(与合成输入同源,便于 hash 一致)。
+ *  [standard-change: 用户授权 2026-07-30] C15 起 digest_md 第一段就是开场钩子,
+ *  音频开场不再被干瘪的 tldr 抢跑(tldr 照旧进集页「一句话」框与 feed 简介,与音频无关)。
+ *  连带(预期):全库存量音频 source hash 作废 → 云端按指纹重合成(edge-tts 免费),不是故障。 */
 export function sourceText(digest) {
-  return String(digest?.tldr ?? "") + "\n\n" + String(digest?.digest_md ?? "");
+  return String(digest?.digest_md ?? "");
 }
 
-/** 对 tldr+digest_md 求 sha256(缓存幂等 + gate-audio 陈旧检测用) */
+/** 对音频源文本求 sha256(缓存幂等 + gate-audio 陈旧检测用) */
 export function sourceHash(digest) {
   return createHash("sha256").update(sourceText(digest), "utf8").digest("hex");
 }

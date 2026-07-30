@@ -377,15 +377,17 @@ function processEpisode(item, id, source) {
   return { ok: true };
 }
 
-/** 补齐所有已发布集的音频(audio.mp3 gitignore、CI 检出不带 → 缺的现场补合成;edge-tts 免费)。gate-audio 要集集有音频。 */
+/** 补齐所有集的音频(audio.mp3 gitignore、CI 检出不带 → 现场补合成;edge-tts 免费)。gate-audio 要集集有音频。
+ *  ⚠️ 不在这里判「音频文件在不在」(C15 刀① 连带,与 deploy-site.sh 同款教训 GLM 20260727-002[2]):
+ *  云端缓存会取回旧音频,「在就跳过」会挡住 tts 的指纹陈旧检测 → gate-audio「音频陈旧」硬红堵死整线。
+ *  正确姿势:有 digest 的集一律交给 tts.mjs,由它按源文本 sha256 自判 —— 没变秒跳(幂等),变了重合成。 */
 function ensureAllAudio() {
   if (!existsSync(EPISODES_DIR)) return;
   for (const d of readdirSync(EPISODES_DIR, { withFileTypes: true })) {
     if (!d.isDirectory()) continue;
     const dir = join("data/episodes", d.name);
-    if (existsSync(join(ROOT, dir, "digest.json")) && !existsSync(join(ROOT, dir, "audio.mp3"))) {
-      console.log(`   补音频:${d.name}`);
-      run("node", ["scripts/tts.mjs", dir]);
+    if (existsSync(join(ROOT, dir, "digest.json"))) {
+      run("node", ["scripts/tts.mjs", dir]); // 缓存命中时它自己打「跳过」,不重复计费
     }
   }
 }

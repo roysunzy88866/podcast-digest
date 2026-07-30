@@ -23,7 +23,7 @@ on:
         required: false
         default: "false"
       refresh:
-        description: "存量翻新:按新叙事骨架重浓缩已完成集(all=全部,或逗号分隔集 id;过不了闸门自动回滚老版)"
+        description: "存量回刷:按 C15 新浓缩规范重刷已发布集(all=全部,或逗号分隔集 id)。翻译/转写缓存复用、实体嘉宾不重抽;已合规集自动跳过(断点续跑,中途挂了直接重跑同参数);过不了闸门自动回滚老版。只在显式传入时走,cron 不受影响"
         required: false
         default: ""
       source:
@@ -65,9 +65,11 @@ jobs:
           path: |
             data/episodes/*/audio.mp3
             data/episodes/*/audio.meta.json
-          key: audio-v1-${{ hashFiles('data/episodes/*/digest.json') }}
+          # v2:C15 刀①(音频只读 digest_md)后旧口径音频指纹全作废,v1 缓存无复用价值;
+          # 且 digest 未变时 v1 会 exact-hit → 回存被跳过 → 每轮全库重念。换代一次性重合成后回到正常命中。
+          key: audio-v2-${{ hashFiles('data/episodes/*/digest.json') }}
           restore-keys: |
-            audio-v1-
+            audio-v2-
 
       - name: 装环境(ffmpeg + edge-tts + glm-ask + whisperX + node deps)
         run: |

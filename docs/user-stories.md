@@ -1645,6 +1645,51 @@ Scenario: 只对新浓缩生效
 2. ⬜ glm-check 对抗审计 + 裁决。
 3. ⬜ 用户听/读新集样稿验收腔调。
 
+### C15 后续两刀 · 音频跳过 tldr 前置 + 存量回刷通道(2026-07-30 用户拍板「一起做」)
+
+> 上面 Scenario「只对新浓缩生效」里两处「待拍/另拍」当日已拍:音频跳 tldr 与存量回刷**一起做**。
+> 二次确认 = 用户该句明文(豁免口径同 drift #36:人不在线逐场景确认,Gherkin 照写照落盘)。
+> 音频口径变更带 `[standard-change: 用户授权 2026-07-30]`;全库存量音频指纹作废、云端重合成(edge-tts 免费)是预期行为。
+
+```gherkin
+Feature: 音频跳过 tldr 前置(C15 刀①)(US-4, US-11)
+
+Scenario: 音频源文本只读 digest_md
+  When 为一集合成音频
+  Then 音频源文本 = digest_md(C15 第一段即开场钩子),不再前置干瘪的 tldr
+  And tldr 照旧留在集页「一句话」框与 feed 简介里,只是不进音频
+
+Scenario: 陈旧音频重合成而非硬红
+  Given 口径变更后全库存量音频的 source hash 全部过期(预期)
+  When 流水线补音频(ensureAllAudio / deploy 前补合成)
+  Then 有 digest 的集一律交给 tts 按源文本指纹自判:没变跳过、变了重合成(免费)
+  And 不许用「音频文件在不在」预判挡住指纹检测(deploy-site.sh 同款教训,GLM 20260727-002[2])
+  And gate-audio 的陈旧检测口径一分不动:重合成后 hash 对齐才放行
+
+Feature: 存量回刷通道(C15 刀②)(US-4, US-5, US-11)
+
+Scenario: 回刷入口与互斥
+  Given workflow_dispatch 显式传 refresh(all 或集 id 逗号串)
+  Then 走存量回刷:对每个已发布集(有集页)FORCE 重浓缩 → 判官 → 金句规整 → 防失真闸门(败走 repair-facts 单点救再重验)→ 重合成音频 → 统一重建集页/实体页 + gate-all
+  And cron 正常班次完全不受影响;并发组 c7b-pipeline 串行,不与正常班并发写同一目录
+
+Scenario: 只烧该烧的钱
+  Then 转写稿与翻译缓存(transcript/translation.zh.json)原样复用,绝不重跑取源/翻译
+  And 实体抽取不重跑(entities.json 不动;实体页金句嵌入由构建从新 digest 现算,无陈旧块引用)
+  And 嘉宾字段不重抽;TTS 走 edge-tts 免费
+
+Scenario: 断点续跑(57 集长 run 中途挂不从头烧钱)
+  Given digest_md 已通过 C15 口语体机器卡点(styleErrs 全零)
+  Then 该集识别为「已按新规范刷过」,跳过不重浓缩(响亮报数)
+  # 判据理由:C15 浓缩闸门保证新产出必过 styleErrs;存量 57/57 实测全不合规(2026-07-30 底账)→ 零误跳;
+  # 判据与浓缩卡点同一份代码,零新增状态,不另设账本
+
+Scenario: 闸门一分不降
+  When 重浓缩后过不了防失真闸门(或判官毙穿)
+  Then 回滚老版照常发布(老版本就过闸,fail-safe 同 2026-07-24 拍板),响亮报数不静默
+  And 回滚集下一次回刷 run 仍会被选中重试(其 digest 仍不合规)
+```
+
 ## C13j 补遗 · 实体页欠账两件(2026-07-30 用户点名「UI 先做 C13j 欠的两件」)
 
 > 设计真相 = `设计稿/person-*.html`(三个样例):③ 谈到的药丸带 `<b>N 集</b>` 徽标;「④ 也在聊「X」的人」= 人物药丸链到各自人物页(右栏目录写「④ 同主题的人」)。

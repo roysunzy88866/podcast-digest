@@ -154,16 +154,21 @@ describe("chunkForSynthesis · ≤max、无损、不硬断句子", () => {
   });
 });
 
-describe("sourceText / sourceHash · 幂等 & 变化敏感", () => {
-  it("sourceText = tldr + 空行 + digest_md", () => {
-    expect(sourceText({ tldr: "T", digest_md: "M" })).toBe("T\n\nM");
+describe("sourceText / sourceHash · 幂等 & 变化敏感(C15 刀①:音频跳过 tldr 前置)", () => {
+  // [standard-change: 用户授权 2026-07-30] 音频源文本 = 只读 digest_md(第一段即开场钩子),
+  // tldr 不再抢跑音频开场(tldr 照旧进集页「一句话」框与 feed 简介,与音频无关)。
+  it("★ sourceText = 只有 digest_md,tldr 不进音频源文本", () => {
+    expect(sourceText({ tldr: "T", digest_md: "M" })).toBe("M");
+    expect(sourceText({ tldr: "干瘪的一句话", digest_md: "开场钩子第一段。" })).not.toContain("干瘪的一句话");
   });
-  it("★ 同输入 hash 稳定;tldr 或 digest_md 变则 hash 变(陈旧检测的地基)", () => {
+  it("★ 同输入 hash 稳定;digest_md 变则 hash 变(陈旧检测的地基)", () => {
     const h = sourceHash({ tldr: "T", digest_md: "M" });
     expect(sourceHash({ tldr: "T", digest_md: "M" })).toBe(h);
-    expect(sourceHash({ tldr: "T2", digest_md: "M" })).not.toBe(h);
     expect(sourceHash({ tldr: "T", digest_md: "M2" })).not.toBe(h);
     expect(h).toMatch(/^[0-9a-f]{64}$/);
+  });
+  it("★ 只改 tldr 不改 digest_md → hash 不变(tldr 已不在音频口径内,不许触发全库白重念)", () => {
+    expect(sourceHash({ tldr: "T2", digest_md: "M" })).toBe(sourceHash({ tldr: "T", digest_md: "M" }));
   });
 });
 
@@ -340,15 +345,26 @@ describe("synthesizeEpisode · 编排 + 缓存幂等(注入假 deps,不跑 Azure
     rmSync(dir, { recursive: true, force: true });
   });
 
-  it("★ 源变则缓存失效:digest 改了 → 重新合成(不吃陈旧缓存)", async () => {
+  it("★ 源变则缓存失效:digest_md 改了 → 重新合成(不吃陈旧缓存)", async () => {
     const dir = mkdtempSync(join(tmpdir(), "synep-"));
     const c1 = { synth: 0 };
     await synthesizeEpisode(modalDigest, { id: "modal", outDir: dir, key: "k", region: "eastasia", deps: fakeDeps(c1) });
-    const changed = { ...modalDigest, tldr: modalDigest.tldr + "(改了)" };
+    const changed = { ...modalDigest, digest_md: modalDigest.digest_md + "\n\n补一段。" };
     const c2 = { synth: 0 };
     const r2 = await synthesizeEpisode(changed, { id: "modal", outDir: dir, key: "k", region: "eastasia", deps: fakeDeps(c2) });
     expect(r2.skipped).toBe(false);
     expect(c2.synth).toBeGreaterThan(0); // 源变 → 真重合成
+    rmSync(dir, { recursive: true, force: true });
+  });
+
+  it("★ 只改 tldr → 仍缓存命中不重念(C15 刀①:tldr 不在音频口径内)", async () => {
+    const dir = mkdtempSync(join(tmpdir(), "synep-"));
+    await synthesizeEpisode(modalDigest, { id: "modal", outDir: dir, key: "k", region: "eastasia", deps: fakeDeps({ synth: 0 }) });
+    const changed = { ...modalDigest, tldr: modalDigest.tldr + "(改了)" };
+    const c2 = { synth: 0 };
+    const r2 = await synthesizeEpisode(changed, { id: "modal", outDir: dir, key: "k", region: "eastasia", deps: fakeDeps(c2) });
+    expect(r2.skipped).toBe(true);
+    expect(c2.synth).toBe(0);
     rmSync(dir, { recursive: true, force: true });
   });
 
