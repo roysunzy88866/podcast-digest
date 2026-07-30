@@ -1,12 +1,21 @@
 // C3 Scenario 4 · 实体页聚合(自建,ADR 0008)的真业务测试
 // 纪律同前:只调被测函数、不重抄逻辑、可变异验证。
 import { describe, it, expect } from "vitest";
-import { aggregate, quotesFor, related, renderEntityPage } from "../scripts/build-entities.mjs";
+import {
+  aggregate,
+  quotesFor,
+  related,
+  renderEntityPage,
+  buildAllPages,
+  buildPeersContext,
+  sameTopicPeers,
+  epCount,
+} from "../scripts/build-entities.mjs";
 
 // 两集 fixture:agent 在两集都 primary(跨集聚合锚);kubernetes 集1 primary/集2 提及;
 // modal 只集1;databricks 只集2。镜像真实数据形状。
 const EP1 = {
-  meta: { id: "ep1", title_zh: "Modal 集", date: "2026-07-08" },
+  meta: { id: "ep1", title_zh: "Modal 集", date: "2026-07-08", podcast: "Latent Space" },
   digest: {
     quotes: [
       { zh: "为什么让智能体读配置", en: "why make an agent read configs", timestamp: "05:06", speaker: "Akshat Bubna" },
@@ -14,6 +23,7 @@ const EP1 = {
     ],
   },
   entities: {
+    categories: ["智能体"], // C13j 补遗:大类走真实词表词,episodeCategories 不落「未分类」
     entities: [
       { id: "akshat-bubna", type: "person", role: "guest", name: "Akshat Bubna", file: "Akshat Bubna", primary: true, evidence: [{ t: [10, 19] }] },
       { id: "modal", type: "company", role: "company", name: "Modal", file: "Modal", primary: true, how_described: "云平台", evidence: [{ t: [30, 40] }] },
@@ -23,13 +33,14 @@ const EP1 = {
   },
 };
 const EP2 = {
-  meta: { id: "ep2", title_zh: "Databricks 集", date: "2026-06-24" },
+  meta: { id: "ep2", title_zh: "Databricks 集", date: "2026-06-24", podcast: "Latent Space" },
   digest: {
     quotes: [
       { zh: "智能体要能共享会话", en: "agents need shared sessions", timestamp: "08:00", speaker: "Matei Zaharia" },
     ],
   },
   entities: {
+    categories: ["智能体"],
     entities: [
       { id: "matei-zaharia", type: "person", role: "guest", name: "Matei Zaharia", file: "Matei Zaharia", primary: true, evidence: [{ t: [1, 5] }] },
       { id: "agent", type: "concept", role: "concept", name: "智能体 (agent)", file: "智能体", primary: true, how_described: "编程主力", evidence: [{ t: [100, 108] }] },
@@ -189,5 +200,171 @@ describe("renderEntityPage · 一套模板三种实体 + 4a/4b 边界", () => {
     // 普通链接不会嵌入内容,P1 证过嵌入才有「回原集」白送 → 必须是 ![[
     const p = page("agent");
     expect(p).toContain("![[ep1#^q1]]");
+  });
+});
+
+// ══ C13j 补遗 ① · 关联药丸集数徽标(设计稿 .chp b:<b>N 集</b>)══
+// 徽标数据在构建期算好(与 phero「本站收录 N 集」同一个 epCount,不造第二套口径),
+// 客户端脚本挂 <b> —— [[双链]] 里塞不进 HTML,包住它 Quartz 又不解析(铁律)。
+describe("C13j 补遗 ① · 药丸集数徽标与 phero 同源", () => {
+  const pages = buildAllPages(EPS, ALIAS);
+
+  it("★ 人物页带徽标数据块(inert JSON):关联实体 file → 收录集数(agent 跨 2 集 → 智能体:2)", () => {
+    const p = pages.get("Akshat Bubna");
+    expect(p).toContain('<script type="application/json" class="pd-epn">');
+    expect(p).toContain('"智能体":2');
+    expect(p).toContain('"Modal":1');
+  });
+
+  it("★★ 挂徽标的运行时在共享 sidebar 脚本里、且从当前页 DOM 现读数据(SPA 换页不重跑内联脚本,闭包旧数据会漏配新页 —— 实测)", () => {
+    const p = pages.get("Akshat Bubna");
+    expect(p).toContain("script.pd-epn"); // 运行时按类名找当前页的数据块
+    expect(p).toContain("JSON.parse"); // 现读现解析,不吃闭包
+  });
+
+  it("★★ 同源同算法:徽标里的数字 = 该实体自己页面 phero 的收录数(epCount 一个口径)", () => {
+    const aggs = aggregate(EPS, ALIAS);
+    const agent = aggs.find((a) => a.id === "agent");
+    expect(epCount(agent)).toBe(2);
+    expect(pages.get("智能体")).toContain("本站收录 <b>2</b> 集"); // phero 数字
+    expect(pages.get("Akshat Bubna")).toContain('"智能体":2'); // 药丸徽标数字,同一个 epCount
+  });
+
+  it("★★ 铁律:③ 的双链行仍是纯 markdown,不被 HTML 包住", () => {
+    const p = pages.get("Akshat Bubna");
+    const i = p.indexOf("[[Modal]]");
+    expect(i).toBeGreaterThan(-1);
+    const line = p.slice(p.lastIndexOf("\n", i) + 1, p.indexOf("\n", i));
+    expect(line).not.toMatch(/^</);
+  });
+
+  it("★ 无关联实体则不带徽标数据(不给空数据块)", () => {
+    const a = aggregate(EPS, ALIAS).find((x) => x.id === "modal");
+    const md = renderEntityPage(a, [], [], new Map(), ALIAS, { epCountByFile: new Map([["Modal", 1]]) });
+    expect(md).not.toContain('class="pd-epn"');
+  });
+
+  it("★★ 多 id 同 file 冲突(真数据 agent/agents/agentic→智能体):徽标 = 落盘那页(后者)的收录数,不穿帮", () => {
+    const c = (id: string, file: string) => ({ id, type: "concept", role: "concept", name: id, file, primary: true, evidence: [] });
+    // idA 出现 2 集、idB 出现 1 集,同 file「X」;落盘顺序后者覆盖 → 页面 phero 显示 1
+    const e1 = { meta: { id: "e1", title_zh: "e1", date: "2026-01-01" }, digest: { quotes: [] }, entities: { categories: ["智能体"], entities: [c("idA", "X"), c("other", "Other")] } };
+    const e2 = { meta: { id: "e2", title_zh: "e2", date: "2026-01-02" }, digest: { quotes: [] }, entities: { categories: ["智能体"], entities: [c("idA", "X"), c("idB", "X")] } };
+    const pages = buildAllPages([e1, e2]);
+    expect(pages.get("X")).toContain("本站收录 <b>1</b> 集"); // 落盘页 = idB(后写的)
+    expect(pages.get("Other")).toContain('"X":1'); // Other 的关联药丸徽标跟落盘页一致,不显示 idA 的 2
+  });
+});
+
+// ══ C13j 补遗 ② · 「④ 也在聊「X」的人」(设计稿 person-*.html 八样例逆向)══
+// 规则:X = 该人最近一次「资格出场」(primary 且非常驻主持)那集的主类;
+// 人选 = 其它有页人物,资格出场某集大类(两槽任一)含 X;排序 = 集日期降序 → 同集按 entities 序。
+// 常驻主持 = 同一播客 ≥2 集 host/cohost;⚠️ 不能按单集 role=host 一刀切 ——
+// 真数据里单人访谈的嘉宾常被标成 host(Boris Cherny 实例),他必须照常入选。
+describe("C13j 补遗 ② · 也在聊 X 的人", () => {
+  const per = (id: string, name: string, role: string, primary = true) => ({
+    id, type: "person", role, name, file: name, primary, evidence: [],
+  });
+  const ep = (id: string, date: string, podcast: string, cats: string[], persons: any[]) => ({
+    meta: { id, title_zh: id, date, podcast },
+    digest: { quotes: [] },
+    entities: { categories: cats, entities: persons },
+  });
+  // 镜像设计稿八样例的形状:智能体一群人 + AI 安全一对 + 常驻主持 + 单集"host"嘉宾 + 次槽命中
+  const EPS2 = [
+    ep("epY", "2026-07-28", "YC", ["智能体"], [per("boris", "Boris", "host")]), // 单集 host = 真嘉宾
+    ep("epS", "2026-07-14", "Singju", ["智能体"], [per("raphael", "Raphael", "guest"), per("peter", "Peter", "guest")]),
+    ep("epM", "2026-07-08", "Latent Space", ["智能体"], [
+      per("akshat", "Akshat", "guest"),
+      per("lenny", "Lenny", "host"), // 常驻主持第 1 集
+      per("carol", "Carol", "guest", false), // 仅被提及(非 primary)→ 不因此入智能体人选
+    ]),
+    ep("epD", "2026-06-24", "Latent Space", ["智能体"], [
+      per("matei", "Matei", "guest"),
+      per("reynold", "Reynold", "guest"),
+      per("lenny", "Lenny", "host"), // 常驻主持第 2 集(同播客 ≥2 → 结构性)
+    ]),
+    ep("epG", "2026-06-22", "Latent Space", ["AI 安全"], [per("matt", "Matt", "guest"), per("carol", "Carol", "guest")]),
+    ep("epX", "2026-05-21", "Latent Space", ["增长与销售", "智能体"], [per("ivan", "Ivan", "guest")]),
+  ];
+  const aggs2 = aggregate(EPS2);
+  const ctx = buildPeersContext(EPS2, aggs2);
+  const by = (id: string) => aggs2.find((a) => a.id === id)!;
+
+  it("★ X = 最近资格出场集的主类;人选=同大类他人、排除自己", () => {
+    const r = sameTopicPeers(by("akshat"), ctx)!;
+    expect(r.topic).toBe("智能体");
+    expect(r.peers.map((p: any) => p.id)).not.toContain("akshat");
+    expect(r.peers.map((p: any) => p.id)).toContain("matei");
+  });
+
+  it("★★ 排序照设计稿:集日期降序,同集按该集 entities 序(Matei 在 Reynold 前)", () => {
+    const r = sameTopicPeers(by("akshat"), ctx)!;
+    expect(r.peers.map((p: any) => p.id)).toEqual(["boris", "raphael", "peter", "matei", "reynold", "ivan"]);
+  });
+
+  it("★★ 常驻主持(同播客≥2集 host/cohost)不进人选、其页也不出本节(结构性噪音,relatedEpisodes 同理)", () => {
+    const r = sameTopicPeers(by("akshat"), ctx)!;
+    expect(r.peers.map((p: any) => p.id)).not.toContain("lenny");
+    expect(sameTopicPeers(by("lenny"), ctx)).toBeNull();
+  });
+
+  it("★★ 单集被标 host 的真嘉宾(Boris 情形)照常入选、自己页也有本节", () => {
+    const r = sameTopicPeers(by("boris"), ctx)!;
+    expect(r.topic).toBe("智能体");
+    expect(r.peers.map((p: any) => p.id)).toEqual(["raphael", "peter", "akshat", "matei", "reynold", "ivan"]);
+  });
+
+  it("★ 大类次槽也算「也在聊」(ivan 的集主类是增长与销售、次槽智能体 → 入智能体人选)", () => {
+    const r = sameTopicPeers(by("akshat"), ctx)!;
+    expect(r.peers.map((p: any) => p.id)).toContain("ivan");
+  });
+
+  it("★ 仅被提及(非 primary)不算聊过:carol 不进智能体人选,但她真出场的 AI 安全照常算", () => {
+    expect(sameTopicPeers(by("akshat"), ctx)!.peers.map((p: any) => p.id)).not.toContain("carol");
+    const matt = sameTopicPeers(by("matt"), ctx)!;
+    expect(matt.topic).toBe("AI 安全");
+    expect(matt.peers.map((p: any) => p.id)).toEqual(["carol"]);
+  });
+
+  it("★ 异类不串门:AI 安全的人不进智能体列表", () => {
+    expect(sameTopicPeers(by("akshat"), ctx)!.peers.map((p: any) => p.id)).not.toContain("matt");
+  });
+
+  it("★ 无人可列 → 整节不渲染(ivan 主类=增长与销售,无同类他人)", () => {
+    const r = sameTopicPeers(by("ivan"), ctx);
+    expect(r === null || r.peers.length === 0).toBe(true);
+    const pages = buildAllPages(EPS2);
+    expect(pages.get("Ivan")).not.toContain("④ 也在聊");
+  });
+
+  it("★★ 人物页渲染本节:标题带「X」+ 人物药丸双链 + 右栏目录改名脚本", () => {
+    const p = buildAllPages(EPS2).get("Akshat")!;
+    expect(p).toContain("## ④ 也在聊「智能体」的人");
+    expect(p).toContain('<div class="pd-peers">');
+    expect(p).toContain("[[Matei]]");
+    expect(p).toContain("④ 同主题的人"); // 目录改名(设计稿右栏叫法)
+  });
+
+  it("★★ 铁律:④ 的人物双链行是纯 markdown,不被 HTML 包住", () => {
+    const p = buildAllPages(EPS2).get("Akshat")!;
+    const i = p.indexOf("[[Matei]]");
+    const line = p.slice(p.lastIndexOf("\n", i) + 1, p.indexOf("\n", i));
+    expect(line).not.toMatch(/^</);
+  });
+
+  it("★ 公司/概念页不出本节(设计稿没画)", () => {
+    const pages = buildAllPages(EPS, ALIAS);
+    expect(pages.get("智能体")).not.toContain("也在聊");
+    expect(pages.get("Modal")).not.toContain("也在聊");
+  });
+
+  it("★ 人选上限 10(与关联区同上限,收在 buildAllPages)", () => {
+    const many = Array.from({ length: 12 }, (_, i) =>
+      ep(`e${i}`, `2026-01-${String(i + 1).padStart(2, "0")}`, "P", ["智能体"], [per(`g${i}`, `G${i}`, "guest")]),
+    );
+    const pages = buildAllPages(many);
+    const p = pages.get("G0")!;
+    const sec = p.slice(p.indexOf('<div class="pd-peers">'), p.indexOf("</div>", p.indexOf('<div class="pd-peers">')));
+    expect((sec.match(/\[\[/g) ?? []).length).toBe(10);
   });
 });

@@ -1404,8 +1404,10 @@ body[data-slug^="entities/"] {
      分隔的「·」用不着了,但它是纯文本删不掉 —— 调成极浅,不抢视线。 */
   /* 只命中「标题 → 说明段 → chips 段」这一处结构(实体页各节形状:
      ① h2+说明+blockquote / ② h2+说明+ul / ③ h2+说明+p ← 只有它是第二个 p)。
-     ⚠️ 别用 `h2 ~ p`:那会扫到 h2 之后的所有兄弟段落(GLM 20260730-002[3])。 */
-  article h2 + p + p > a.internal {
+     ⚠️ 别用 `h2 ~ p`:那会扫到 h2 之后的所有兄弟段落(GLM 20260730-002[3])。
+     C13j 补遗:「④ 也在聊「X」的人」的人物药丸(.pd-peers 里的双链)同一套皮。 */
+  article h2 + p + p > a.internal,
+  article .pd-peers > p > a.internal {
     display: inline-block;
     background: none;
     border: 1px solid var(--B3);
@@ -1415,7 +1417,16 @@ body[data-slug^="entities/"] {
     font-size: 12.5px;
     color: var(--B7);
   }
-  article h2 + p + p > a.internal:hover { border-color: var(--pd-accent); color: var(--pd-accent); }
+  article h2 + p + p > a.internal:hover,
+  article .pd-peers > p > a.internal:hover { border-color: var(--pd-accent); color: var(--pd-accent); }
+  /* C13j 补遗:药丸集数徽标(设计稿 .chp b:10.5px 浅灰,左距 3px;<b> 由页内脚本按构建期数据挂上) */
+  article h2 + p + p > a.internal b {
+    color: var(--B5);
+    font-weight: 400;
+    font-size: 10.5px;
+    margin-left: 3px;
+  }
+  article .pd-peers > p { margin: 0 0 14px; }
 
   /* ② 出现在这些集:列表收成一行行,去掉项目符号 */
   article ul { list-style: none; padding-left: 0; }
