@@ -1,0 +1,39 @@
+{
+  "_readme": "C17 · Mac mini 订阅巡航的订阅清单(ADR 0018.2,用户 2026-07-31 拍板「按推荐订 4 个」)。真相源:需求共创/调研-新源候选-2026-07-24.md「📡 演讲频道订阅候选」节。规则写成数据:增删频道/改过滤只改这份 JSON,不改 scripts/patrol-talks.mjs。字段:channelId(有它就不走 handle 解析)/ handle(备用,解析时必校验页面 title 防钓鱼,ADR 0018.6)/ filters.titleMustInclude(标题必含其一,小写比对)/ filters.minDurationSec(短于即滤)/ filters.judgeHint(该频道特有噪音,喂给品味判官)。",
+  "subscriptions": [
+    {
+      "key": "aie",
+      "name": "AI Engineer",
+      "channelId": "UCLKPca3kwwd-B59HNr-_lvA",
+      "filters": {
+        "judgeHint": "本频道约 20-30% 是模型基准测评/评测报告类(State of AI 报告体、benchmark 对比),命中品味档案 ❌「大模型发布/跑分评测」即不对味;要的是 AI 编程/agent 实操与企业案例演讲。"
+      }
+    },
+    {
+      "key": "axios",
+      "name": "Axios",
+      "channelId": "UCfU4-ArXuSX0tpyApyklMAg",
+      "filters": {
+        "titleMustInclude": ["full interview"],
+        "judgeHint": "只收科技/商业嘉宾的完整访谈;本频道约一半是美国政治/时政内容(议员/政策/选举),那些一律不对味。"
+      }
+    },
+    {
+      "key": "langchain",
+      "name": "LangChain",
+      "channelId": "UCC-lyoTfSrcJzA1ab3APAgw",
+      "filters": {
+        "minDurationSec": 600,
+        "judgeHint": "本频道约 40% 是自家产品宣传/功能教程,不对味;要的是 agent 实操的企业客户案例与创始人对谈(Bridgewater/Coinbase/Cognition 那类)。"
+      }
+    },
+    {
+      "key": "stripe",
+      "name": "Stripe",
+      "channelId": "UCM1guA1E-RHLO2OyfQPOkEQ",
+      "filters": {
+        "judgeHint": "本频道约 30% 是产品宣传片/功能发布,不对味;要的是 Sessions/Tour 的高规格对谈与炉边访谈(Collison 家访谈先例)。注意其对谈可能与 Cheeky Pint 播客 RSS 重复,重复判定交云端标题比对,这里只判品味。"
+      }
+    }
+  ]
+}

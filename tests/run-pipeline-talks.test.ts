@@ -11,6 +11,7 @@ import {
   selectTalks,
   deriveId,
   sourceForId,
+  pendingTalkVideoIds,
 } from "../scripts/run-pipeline.mjs";
 
 const TALKS = SOURCES.find((s) => s.key === "talks");
@@ -42,11 +43,23 @@ describe("SOURCES talks 源配置", () => {
   });
 });
 
-describe("activeSources(cron 零影响)", () => {
-  it("默认(cron/正常班次)排除 manual 源——talks 绝不进日常巡航", () => {
+// C17 · ADR 0018.5(授权演进,注明出处):C16 原口径「cron 零影响=默认永远排除 manual 源」
+// 收窄为「无待处理种子时零影响」——有待处理种子(autoTalks)时 talks 源自动进场,去掉人工点火。
+describe("activeSources(ADR 0018.5:无种子时 cron 原样;有待处理种子自动进场)", () => {
+  it("默认且无待处理种子:排除 manual 源,与 C16 行为一字不差", () => {
     const keys = activeSources(SOURCES, {}).map((s) => s.key);
     expect(keys).not.toContain("talks");
     expect(keys).toContain("lennys"); // 其余源原样
+  });
+  it("默认但有待处理种子(autoTalks):talks 自动进场,播客源照跑", () => {
+    const keys = activeSources(SOURCES, { autoTalks: true }).map((s) => s.key);
+    expect(keys).toContain("talks");
+    expect(keys).toContain("lennys");
+    expect(keys.indexOf("talks")).toBe(keys.length - 1); // talks 殿后:播客新集优先
+  });
+  it("pendingTalkVideoIds:种子里不在演讲账本的才算待处理", () => {
+    expect(pendingTalkVideoIds(["a", "b", "c"], { b: "2026-07-08-talks-x" })).toEqual(["a", "c"]);
+    expect(pendingTalkVideoIds([], {})).toEqual([]);
   });
   it("--talks 只跑 manual 源", () => {
     const keys = activeSources(SOURCES, { talks: true }).map((s) => s.key);

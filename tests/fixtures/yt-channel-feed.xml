@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCLKPca3kwwd-B59HNr-_lvA"/>
+ <id>yt:channel:LKPca3kwwd-B59HNr-_lvA</id>
+ <yt:channelId>LKPca3kwwd-B59HNr-_lvA</yt:channelId>
+ <title>AI Engineer</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA"/>
+ <author>
+  <name>AI Engineer</name>
+  <uri>https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA</uri>
+ </author>
+ <published>2023-09-19T01:26:18+00:00</published>
+ <entry>
+  <id>yt:video:AVMr9PMINyo</id>
+  <yt:videoId>AVMr9PMINyo</yt:videoId>
+  <yt:channelId>UCLKPca3kwwd-B59HNr-_lvA</yt:channelId>
+  <title>Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It — Olive Song</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=AVMr9PMINyo"/>
+  <author>
+   <name>AI Engineer</name>
+   <uri>https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA</uri>
+  </author>
+  <published>2026-07-31T03:00:14+00:00</published>
+  <updated>2026-07-31T03:00:15+00:00</updated>
+  <media:group>
+   <media:title>Agents at Scale: Inside MiniMax's Model and the Infrastructure Behind It — Olive Song</media:title>
+   <media:content url="https://www.youtube.com/v/AVMr9PMINyo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/AVMr9PMINyo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>In this conversation, Olive Song, who leads reinforcement learning at MiniMax, opens up the stack behind the company's open weight models and the infrastructure that serves them. Her starting point is a belief in open source: put the weights out, let builders optimize on them, and share the capability widely. From there she walks through what it takes for a model to land well, from agentic coding that also understands and builds games, to computer use problems trained with RL against environments like OS World.
+
+Much of the discussion is the unglamorous engineering that makes a launch real. When a model ships, the team wants the inference stack ready on day zero, which means writing and tuning GPU kernels, working through benchmarks like a parallel kernel bench, and threading optimization into everything from KV cache handling to routing. Song also talks through multimodality and the training pitfalls that come with it, such as text and vision collapsing after training unless you train both modalities together, and reflects on longer horizon tasks like replicating a twelve hour run. She closes optimistic that open models are closing the gap faster than a year ago would have suggested.
+
+Speaker info:
+- https://x.com/olive_jy_song
+
+Timestamps:
+0:00 - Introducing the RL lead at MiniMax
+1:17 - Why open source and open weights
+3:45 - What builders are doing with the model
+4:11 - A model that builds games
+5:12 - Computer use and OS World
+5:49 - Writing GPU kernels
+6:25 - Parallel kernel bench
+7:28 - A day zero inference stack
+9:34 - Optimization across the stack
+10:47 - Multimodality and training collapse
+14:10 - Replicating a twelve hour run
+17:22 - Where open models go next</media:description>
+   <media:community>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="172"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:AMiyLItEtLA</id>
+  <yt:videoId>AMiyLItEtLA</yt:videoId>
+  <yt:channelId>UCLKPca3kwwd-B59HNr-_lvA</yt:channelId>
+  <title>fighting slop with slop — Vaibhav Gupta, Boundary</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=AMiyLItEtLA"/>
+  <author>
+   <name>AI Engineer</name>
+   <uri>https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA</uri>
+  </author>
+  <published>2026-07-31T01:11:30+00:00</published>
+  <updated>2026-07-31T01:12:04+00:00</updated>
+  <media:group>
+   <media:title>fighting slop with slop — Vaibhav Gupta, Boundary</media:title>
+   <media:content url="https://www.youtube.com/v/AMiyLItEtLA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/AMiyLItEtLA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>You cannot tell great engineers what to do, and you increasingly cannot tell what an agent did either, so Vaibhav Gupta's answer is to fight slop with slop. At Boundary the team turns the same cheap, sloppy generation loose as a tool: agents that run constantly over the transcripts of other agents, flagging hallucinations, spotting which tool calls produced errors, and comparing which approaches produced fewer. He pairs that with hard invariants, the design docs, rules, and CLI checks that do not change for months and tell you exactly where a codebase stops converging, so the messy detection layer sits on top of something stable.
+
+The deeper move is to attack the foundational layer from first principles. Instead of trusting generated code, he leans on type systems that make whole classes of mistakes impossible: types get inferred without you writing them, a division by zero is guaranteed to be handled or the code will not build, and there are no silent unknowns left for an agent to guess at. That is the bet behind BAML, which lets you work across Python, TypeScript, or Rust with strong boundaries around each function so an agent can move fast inside walls it cannot breach. His closing challenge is to go build these sloppy tools yourself and constrain the systems underneath them, because that is what actually wins the war on slop.
+
+Speaker info:
+- https://x.com/vaibcode
+- https://www.linkedin.com/in/vaigup
+- https://www.youtube.com/@boundaryml
+
+Timestamps:
+0:00 - Fighting slop with slop
+0:27 - Code reviews and invariants
+2:08 - Building rules that don't change
+3:00 - Design docs with notifications
+4:03 - CLI tools that catch where things break
+5:08 - Agents reading agent transcripts
+5:57 - Detecting hallucinations and errors
+9:24 - Attacking the foundational layer
+11:03 - Execution traces from first principles
+14:26 - Type safe tools across platforms
+15:42 - Making whole error classes impossible
+17:57 - BAML across languages
+20:37 - Go build the sloppy tools</media:description>
+   <media:community>
+    <media:starRating count="20" average="5.00" min="1" max="5"/>
+    <media:statistics views="395"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:pWXUkLP9uWM</id>
+  <yt:videoId>pWXUkLP9uWM</yt:videoId>
+  <yt:channelId>UCLKPca3kwwd-B59HNr-_lvA</yt:channelId>
+  <title>First Steps Toward Automated AI Research — Richard Socher, CEO Recursive AI</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=pWXUkLP9uWM"/>
+  <author>
+   <name>AI Engineer</name>
+   <uri>https://www.youtube.com/channel/UCLKPca3kwwd-B59HNr-_lvA</uri>
+  </author>
+  <published>2026-07-30T16:59:37+00:00</published>
+  <updated>2026-07-30T17:12:31+00:00</updated>
+  <media:group>
+   <media:title>First Steps Toward Automated AI Research — Richard Socher, CEO Recursive AI</media:title>
+   <media:content url="https://www.youtube.com/v/pWXUkLP9uWM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/pWXUkLP9uWM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Humanity compressed the road from the enlightenment to the moon landing into a few hundred years, and Richard Socher's wager is that automating research compresses it again. He frames it through open ended evolution and Popper: science advances by trying things, finding the shortcomings, and fixing them, and an agent swarm can run that loop across medicine, economics, astrophysics, and more without any single person bottlenecking a field. He calls the goal a Eureka machine, and argues that rethinking the tools around it, web search that returns usable context instead of ten blue links, browsers, and GPUs, is part of building it.
+
+The proof points are recursive self improvement, where a system improves its own code, harness, and results and then does it again over longer horizons. He shows small but concrete wins: an automated loop that lifts a model's accuracy well past a naive baseline, architecture search that trades hand tuning for a system that finds better designs, and CUDA kernel work that surfaced real improvements. He is careful that these are early samples, not a finished machine, and that the field is far from general across all of science, but the direction is the point, and he ends with an open invitation to help build it.
+
+Speaker info:
+- https://x.com/RichardSocher
+- https://www.linkedin.com/in/richardsocher
+- https://you.com
+
+Timestamps:
+0:00 - Automating research for humanity
+1:41 - Why this matters now
+2:19 - Compressing the timeline of progress
+4:28 - Technoptimism and material limits
+6:22 - Popper and open ended evolution
+9:07 - The Eureka machine
+10:39 - Rethinking search, browsers, and GPUs
+13:41 - Recursive self improvement
+14:46 - Proof point: improving a model
+16:39 - Proof point: architecture search
+17:16 - Proof point: CUDA kernels
+19:11 - How far we still are, and an invitation</media:description>
+   <media:community>
+    <media:starRating count="35" average="5.00" min="1" max="5"/>
+    <media:statistics views="1156"/>
+   </media:community>
+  </media:group>
+ </entry>
+ </feed>

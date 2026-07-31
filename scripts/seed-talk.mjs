@@ -20,7 +20,9 @@ const ROOT = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const SEED_DIR = join(ROOT, "data/talks-seed");
 const STATE_FILE = join(ROOT, "data/pipeline-state.json");
 export const RELEASE_TAG = "talks-seed"; // 固定滚动 tag(prerelease),所有演讲音频都挂它,--clobber 幂等
-const PROXY = "http://127.0.0.1:7877"; // 本机连 YouTube/GitHub 的 clash 代理(全局记忆:7877 非 7890)
+// 开发机默认走 clash 代理 7877(全局记忆:7877 非 7890);C17/ADR 0018:Mac mini 直连场景由
+// SEED_TALK_PROXY 显式覆写(空串=不注代理;patrol-talks.mjs 派生时自动带上,代理不写死)。
+const PROXY = process.env.SEED_TALK_PROXY ?? "http://127.0.0.1:7877";
 
 // ── 纯逻辑(可单测)──────────────────────────────────────
 
@@ -59,8 +61,9 @@ export function assetUrlFor(remoteUrl, tag, file) {
 
 // ── 副作用层 ────────────────────────────────────────────
 
-/** 子进程 env:补上代理(yt-dlp 连 YouTube、gh 连 GitHub 都要走 7877)。 */
+/** 子进程 env:补上代理(yt-dlp/gh 同享);PROXY 为空(直连场景)则不注入。 */
 function proxyEnv() {
+  if (!PROXY) return { ...process.env };
   return { ...process.env, https_proxy: process.env.https_proxy || PROXY, http_proxy: process.env.http_proxy || PROXY };
 }
 
@@ -174,9 +177,9 @@ async function main() {
 
   console.log(`\n══ 收账:种子 ${results.seeded.length} / 跳过 ${results.skipped.length} / 失败 ${results.failed.length}`);
   if (results.seeded.length && !dryRun) {
-    console.log(`\n下一步(人工两步,seed-talk 不代跑):
+    console.log(`\n下一步(seed-talk 不代跑;巡航 patrol-talks 会自动做①):
   ① git add data/talks-seed && git commit(seed.json 清单入仓)→ push
-  ② GitHub Actions 手动触发 C7b Auto Pipeline,输入 talks=true(云端只处理种子区,cron 不受影响)`);
+  ② push 后 cron 例行班次自动接管种子(ADR 0018.5);要立即处理可手动触发 C7b Auto Pipeline 输入 talks=true`);
   }
   if (results.failed.length) process.exit(1);
 }

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- C17 · Mac mini 订阅巡航 launchd 模板(ADR 0018.7:独立 label,不触碰每日新闻项目)。
+     安装前把 __REPO__ 换成仓库绝对路径、__NODE__ 换成 `which node` 的输出;
+     班次默认每日 3 巡(09:40/15:40/21:40 本地时间,刻意避开整点——每日新闻项目多在整点跑,
+     装前用 `launchctl list | grep -v com.apple` 核对不撞车)。详见 docs/macmini-巡航安装.md。 -->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.podcast-digest.patrol</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>__NODE__</string>
+    <string>scripts/patrol-talks.mjs</string>
+  </array>
+
+  <key>WorkingDirectory</key>
+  <string>__REPO__</string>
+
+  <!-- launchd 环境干净,PATH 里没有 /usr/local/bin、/opt/homebrew/bin(yt-dlp/gh/git 常在这);
+       代理若需要在这里加 HTTPS_PROXY + NODE_USE_ENV_PROXY=1(默认直连,不写死任何代理,ADR 0018)-->
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+    <key>HOME</key>
+    <string>__HOME__</string>
+  </dict>
+
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Hour</key><integer>9</integer><key>Minute</key><integer>40</integer></dict>
+    <dict><key>Hour</key><integer>15</integer><key>Minute</key><integer>40</integer></dict>
+    <dict><key>Hour</key><integer>21</integer><key>Minute</key><integer>40</integer></dict>
+  </array>
+
+  <key>StandardOutPath</key>
+  <string>__HOME__/Library/Logs/podcast-digest-patrol.log</string>
+  <key>StandardErrPath</key>
+  <string>__HOME__/Library/Logs/podcast-digest-patrol.log</string>
+
+  <!-- 巡航失败(退出非零)不自动疯狂重试:下个班次自然重来;错过班次(睡眠)开机后不补跑积压 -->
+  <key>RunAtLoad</key>
+  <false/>
+</dict>
+</plist>

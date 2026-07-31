@@ -35,7 +35,7 @@ on:
         required: false
         default: "false"
       talks:
-        description: "true=演讲精选批次(C16/ADR 0017):只处理 data/talks-seed 种子(本机 seed-talk 落种+传 Release asset 后触发);cron 正常班次零影响"
+        description: "true=演讲精选批次(C16/ADR 0017):只处理 data/talks-seed 种子。C17/ADR 0018.5 起 cron 例行班次发现待处理种子会自动带上 talks 源,此入口保留给人工圈选批次/立即补跑"
         required: false
         default: "false"
 
@@ -120,6 +120,7 @@ jobs:
             exit 0
           fi
           # C16:演讲精选批次(--talks 只跑 talks 源;音频从 Release asset 公开直链拉,无新拉取步)
+          # C17/ADR 0018.5:cron 默认分支(最下面的 run-pipeline 裸跑)遇到待处理种子会自动带上 talks 源,此入口只为人工批次保留
           if [ "${{ github.event.inputs.talks || 'false' }}" = "true" ]; then
             echo "🎤 演讲精选批次:处理 data/talks-seed 种子"
             node scripts/run-pipeline.mjs --talks

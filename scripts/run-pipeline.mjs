@@ -176,13 +176,21 @@ export function selectBackfill(items, { n, existingIds, source }) {
 // ── C16 · talks 源纯逻辑(演讲精选通道,ADR 0017)──────────
 
 /**
- * 本轮要跑哪些源:默认(cron/正常班次)排除 manual 源——talks 只在显式 --talks 或 --source 点名时进场。
- * cron 零影响的机器保证在这一个函数里,别散到调用点。
+ * 本轮要跑哪些源。C17 · ADR 0018.5(授权演进,C16 原「cron 永远排除 manual」口径收窄):
+ * 默认(cron/正常班次)排除 manual 源,**但有待处理种子(autoTalks)时 talks 源自动进场**——
+ * Mac mini 订阅巡航推种子后不再须人工点火 talks=true;无种子时与 C16 行为一字不差。
+ * talks 殿后(SOURCES 里本就排最后):播客新集优先。--talks/--source 显式入口保留(人工批次)。
+ * cron 行为的机器保证仍收在这一个函数里,别散到调用点。
  */
-export function activeSources(all, { onlyKey, talks } = {}) {
+export function activeSources(all, { onlyKey, talks, autoTalks } = {}) {
   if (onlyKey) return all.filter((s) => s.key === onlyKey);
   if (talks) return all.filter((s) => s.manual);
-  return all.filter((s) => !s.manual);
+  return all.filter((s) => !s.manual || (autoTalks && s.seedDir));
+}
+
+/** ADR 0018.5:种子区里「videoId 不在演讲账本」的才算待处理(处理过的种子留在仓里,不算)。 */
+export function pendingTalkVideoIds(seedVideoIds, ledger) {
+  return (seedVideoIds ?? []).filter((v) => !(ledger ?? {})[v]);
 }
 
 /** 标题归一化:小写、非字母数字拉平成单空格(中英标点/破折号/引号全吃)。 */
@@ -506,20 +514,32 @@ async function main() {
 
   // C9 D44①:多源按源循环 + 按源 cutoff。--source <key> 可点名只跑一个源;
   // --backfill 在多源时必须 --source 点名(防「回填」笼统砸到所有源批量烧钱)。
-  // C16:--talks 只跑 manual 源(演讲种子批);默认(cron)排除 manual 源——零影响的保证在 activeSources。
+  // C16:--talks 只跑 manual 源(演讲种子批)。
+  // C17 · ADR 0018.5:cron 例行班次发现「有待处理种子」(Mac mini 巡航推上来的)时 talks 源自动进场;
+  //   无待处理种子时默认行为与 C16 一字不差(排除 manual)。相应测试 tests/run-pipeline-talks.test.ts 已同步注明出处。
   const srcIdx = argv.indexOf("--source");
   const onlyKey = srcIdx >= 0 ? argv[srcIdx + 1] : null;
-  const sources = activeSources(SOURCES, { onlyKey, talks: flags.has("--talks") });
+  const stateForAuto = readState();
+  const talksSeedDir = SOURCES.find((s) => s.seedDir)?.seedDir;
+  const seedVideoIds = talksSeedDir && existsSync(join(ROOT, talksSeedDir))
+    ? readdirSync(join(ROOT, talksSeedDir), { withFileTypes: true })
+        .filter((d) => d.isDirectory() && existsSync(join(ROOT, talksSeedDir, d.name, "seed.json")))
+        .map((d) => d.name)
+    : [];
+  const pendingTalks = pendingTalkVideoIds(seedVideoIds, stateForAuto.talkVideoIds);
+  if (pendingTalks.length) console.log(`🎤 检测到 ${pendingTalks.length} 条待处理演讲种子 → talks 源自动进场(ADR 0018.5)`);
+  const sources = activeSources(SOURCES, { onlyKey, talks: flags.has("--talks"), autoTalks: pendingTalks.length > 0 });
   if (onlyKey && !sources.length) {
     console.error(`⛔ 未知源「${onlyKey}」。可选:${SOURCES.map((s) => s.key).join(", ")}`);
     process.exit(2);
   }
-  if (backfillN > 0 && sources.some((s) => s.seedDir)) {
-    console.error("⛔ talks 源无回填概念(种子存在即待处理),--backfill 不适用。");
-    process.exit(2);
-  }
+  // C17:多源守卫放前——autoTalks 进场后「--backfill 无 --source」会先撞 seedDir 守卫,报错会误导
   if (backfillN > 0 && SOURCES.length > 1 && !onlyKey) {
     console.error("⛔ 多源配置下 --backfill 必须配 --source <key> 点名回填哪个源(防笼统批量烧钱)。");
+    process.exit(2);
+  }
+  if (backfillN > 0 && sources.some((s) => s.seedDir)) {
+    console.error("⛔ talks 源无回填概念(种子存在即待处理),--backfill 不适用。");
     process.exit(2);
   }
 
@@ -530,7 +550,7 @@ async function main() {
     return;
   }
 
-  const state = readState();
+  const state = stateForAuto; // C17:autoTalks 检测已读过同一份,中间无写,复用防两份漂移
 
   if (flags.has("--seed")) {
     // 设基线:cutoff = 该源 feed 最新访谈集时间 → 之后只处理更新的(历史 backlog 不碰,drift #22)。

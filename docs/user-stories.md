@@ -1813,3 +1813,70 @@ Scenario: ≥6 词金句行为一字不变
 2. ✅ 变异验证:守卫退回 `<6 continue` → 4 条测试红;恢复 → 绿。
 3. ✅ 全量单测绿 + verify-c5 绿;不跑流水线不烧钱。
 4. ✅ glm-check --kind code 对抗审计 + 裁决落账本(20260731-007 · save:2 条半救已加防腐测试,2 条噪音实证驳回)。
+
+## C17 · Mac mini 订阅巡航(发现+品味判官+自动种子)(US-4, US-11)
+
+> 决定真相 = docs/adr/0018(2026-07-31 用户明文「抓取清单应该也是自动的,根据订阅的情况」+「按推荐订 4 个」);
+> 订阅组合/channel_id/过滤规则/feed 404 工程发现/防钓鱼要求 = 需求共创/调研-新源候选-2026-07-24.md「📡 演讲频道订阅候选」节;
+> 品味口径 = 需求共创/内容品味档案.md(运行时读它,活文档改了巡航自动跟)。
+> 二次确认口径同 drift #36 受控豁免注明:决策已全部由 ADR 0018 + 用户明文落盘,本片按盘执行,确认环节顺延。
+
+```gherkin
+Feature: Mac mini 订阅巡航 patrol-talks(US-4)
+
+Scenario: 订阅配置是数据不是代码
+  Given data/talk-subscriptions.json 列 4 频道(AI Engineer / Axios / LangChain / Stripe)
+  Then 每频道带 channel_id、名称、机器过滤规则(如 Axios 标题必含 full interview、LangChain 滤 <10min)与判官提示(judgeHint)
+  And 增删频道/改规则只改这份 JSON,不改巡航代码
+
+Scenario: 发现通道 feed 优先,坏了自动切备胎
+  Given 频道 XML feed(youtube.com/feeds/videos.xml?channel_id=…)2026-07 起大面积 404/500(实测:4 频道 3 个 500)
+  When feed 返回非 200 或解析不出条目
+  Then 自动切 /videos 页 HTML 备胎:解析 ytInitialData 里的 lockupViewModel(contentId/标题/时长角标)
+  And 备胎也失败 → 该频道本轮记 discover-error 进巡航日志(可重试),不拖垮其他频道
+
+Scenario: handle 解析必须防钓鱼(ADR 0018.6)
+  Given 订阅条目只给 handle 没给 channel_id(如未来新增频道)
+  When 解析 @handle 页拿 channelId
+  Then 必须校验页面 title 含配置里的频道名;不含 → 响亮拒绝不采用(实证:@BloombergOriginals 是山寨频道)
+
+Scenario: 三层去重,绝不重复处理
+  Given 新发现的 videoId
+  Then 已在 pipeline-state 演讲账本(talkVideoIds)→ 跳过
+  And data/talks-seed/<videoId>/ 种子已存在 → 跳过
+  And 巡航日志已有终态记录(prefilter-skip / 不对味 / 已落种)→ 跳过不重判
+  And 可重试记录(judge-failed / seed-failed)不算终态,下轮重试
+
+Scenario: 品味判官逐条留痕,人工可复核纠偏
+  Given 过了去重与机器预过滤的候选
+  When GLM 判官读 标题+简介+时长,按内容品味档案口径判
+  Then 给 对味/不对味 + 一句理由,逐条追加进 data/talks-seed/patrol-log.jsonl(随仓提交)
+  And 不对味 → 记录后跳过,绝不下载;对味 → 调既有 seed-talk 下载+上传 Release+落种子
+  And 判官调用失败/输出解析不出 → 记 judge-failed(可重试),不瞎猜放行
+
+Scenario: 收尾推仓,失败响亮绝不硬推
+  When 本轮有新种子或新日志
+  Then git add 只收 data/talks-seed → commit → pull --rebase → push,冲突重试 3 次
+  And 仍失败 → 巡航日志留痕 + 退出非零(种子在本地不丢,下轮随新提交一起推)
+  And 全程失败路径(发现/判官/下载/推仓)都写 patrol-log,不静默
+
+Scenario: 网络直连,代理不写死
+  Given Mac mini 直连外网
+  Then 巡航自身与其派生的 seed-talk 都不写死 127.0.0.1:7877
+  And 需要代理时走环境变量(HTTPS_PROXY / SEED_TALK_PROXY)可选注入
+
+Feature: 云端衔接 —— 种子待处理时 talks 源自动进场(ADR 0018.5)(US-4, US-11)
+
+Scenario: cron 例行班次自动接管种子(对 C16「cron 零影响」的授权演进)
+  Given data/talks-seed 存在「videoId 不在演讲账本」的待处理种子
+  When cron 例行班次跑编排器(无 --talks)
+  Then talks 源自动进场,与播客源同轮处理(去重/闸门/隔离一分不降)
+  And 无待处理种子时 cron 与从前一字不差(talks 不进场)
+  And workflow 手动 talks=true 入口保留(人工圈选批次/补跑用)
+```
+
+### DoD(C17)
+1. ⬜ 全量单测绿 + verify-c5 绿 + YAML/plist 语法校验;变异验证三刀(判官拦截改放行→红;去重删掉→红;备胎解析破坏→红)。
+2. ⬜ 发现/解析走 fixture 测试(真实响应片段);真网络只做只读烟测(4 频道发现通道)+ 判官 ≤5 条标题烟测;不真下载音频、不真跑巡航全链、不 push、不触发云端。
+3. ⬜ Mac mini 安装件:launchd plist 模板(独立 label,错开每日新闻项目)+ docs/macmini-巡航安装.md。
+4. ⬜ glm-check --kind code 对抗审计 + 裁决落账本。
