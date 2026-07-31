@@ -1,0 +1,143 @@
+// C16 · talks 源(演讲精选通道)纯逻辑测试。
+// 守:cron 零影响(默认排除 manual 源)/ videoId 账本去重(ADR 0017 第 1 层)/
+//     标题模糊比对待裁不自动丢(第 2 层)/ 演讲不套 isInterview / id = <date>-talks-<slug>。
+import { describe, it, expect } from "vitest";
+import {
+  SOURCES,
+  activeSources,
+  normalizeTitle,
+  findTitleDuplicate,
+  talkItemFromSeed,
+  selectTalks,
+  deriveId,
+  sourceForId,
+} from "../scripts/run-pipeline.mjs";
+
+const TALKS = SOURCES.find((s) => s.key === "talks");
+
+// 镜像 seed-talk.mjs 落的 seed.json 形状
+const seed = (over = {}) => ({
+  videoId: "xUnRQ9vLXxo",
+  url: "https://www.youtube.com/watch?v=xUnRQ9vLXxo",
+  title: "Everything we knew about software has changed — Theo Browne",
+  channel: "AI Engineer",
+  uploader: "AI Engineer",
+  upload_date: "2026-07-08",
+  duration_sec: 998,
+  audio_file: "xUnRQ9vLXxo.m4a",
+  audio_asset_url: "https://github.com/o/r/releases/download/talks-seed/xUnRQ9vLXxo.m4a",
+  ...over,
+});
+
+describe("SOURCES talks 源配置", () => {
+  it("存在且形状对:manual + whisperx + seedDir,无 feedUrl", () => {
+    expect(TALKS).toBeTruthy();
+    expect(TALKS.manual).toBe(true);
+    expect(TALKS.asr).toBe("whisperx");
+    expect(TALKS.seedDir).toBe("data/talks-seed");
+    expect(TALKS.feedUrl).toBeUndefined();
+  });
+  it("sourceForId 认得 talks 集 id(补活链路可用)", () => {
+    expect(sourceForId("2026-07-08-talks-everything-we-knew")?.key).toBe("talks");
+  });
+});
+
+describe("activeSources(cron 零影响)", () => {
+  it("默认(cron/正常班次)排除 manual 源——talks 绝不进日常巡航", () => {
+    const keys = activeSources(SOURCES, {}).map((s) => s.key);
+    expect(keys).not.toContain("talks");
+    expect(keys).toContain("lennys"); // 其余源原样
+  });
+  it("--talks 只跑 manual 源", () => {
+    const keys = activeSources(SOURCES, { talks: true }).map((s) => s.key);
+    expect(keys).toEqual(["talks"]);
+  });
+  it("--source talks 点名也能选中", () => {
+    const keys = activeSources(SOURCES, { onlyKey: "talks" }).map((s) => s.key);
+    expect(keys).toEqual(["talks"]);
+  });
+  it("--source 点名普通源不受影响", () => {
+    expect(activeSources(SOURCES, { onlyKey: "lennys" }).map((s) => s.key)).toEqual(["lennys"]);
+  });
+});
+
+describe("normalizeTitle / findTitleDuplicate(去重第 2 层)", () => {
+  it("归一化:大小写/标点/多空格拉平", () => {
+    expect(normalizeTitle("The Mindset That Built NVIDIA!")).toBe(normalizeTitle("the mindset,  that built nvidia"));
+  });
+  it("完全同题(归一化后)判重", () => {
+    expect(findTitleDuplicate("The Mindset That Built NVIDIA", ["The Mindset that built NVIDIA."])).toBeTruthy();
+  });
+  it("互为包含判重(YT 版带前后缀 ≈ RSS 版同集)", () => {
+    const lib = ["Jensen Huang: The Mindset That Built NVIDIA | Y Combinator"];
+    expect(findTitleDuplicate("The Mindset That Built NVIDIA", lib)).toBe(lib[0]);
+  });
+  it("短串包含不误伤(有最短长度守卫)", () => {
+    expect(findTitleDuplicate("AI", ["The AI Show — full episode"])).toBe(null);
+  });
+  it("不同题不误报", () => {
+    expect(findTitleDuplicate("Every company should have a Brain", ["The Golden Age of AI Engineering"])).toBe(null);
+  });
+});
+
+describe("talkItemFromSeed + deriveId(id = <upload日期>-talks-<slug>)", () => {
+  it("item 字段逐一来自种子,enclosure = Release asset 直链", () => {
+    const it_ = talkItemFromSeed(seed());
+    expect(it_.title).toContain("Everything we knew");
+    expect(it_.pubDateISO).toBe("2026-07-08T00:00:00.000Z");
+    expect(it_.hasAudio).toBe(true);
+    expect(it_.enclosureUrl).toBe(seed().audio_asset_url);
+    expect(it_.durationSec).toBe(998);
+  });
+  it("id 前缀 <date>-talks-,slug 从标题派生(YouTube link 无集页 slug)", () => {
+    const id = deriveId(talkItemFromSeed(seed()), TALKS);
+    expect(id.startsWith("2026-07-08-talks-everything-we-knew-about-software")).toBe(true);
+  });
+});
+
+describe("selectTalks(选种 + 三层去重)", () => {
+  const base = { existingIds: [], videoLedger: {}, libraryTitles: [], source: TALKS };
+
+  it("正常种子入选,按上传日期旧→新排序", () => {
+    const s1 = seed(); // 07-08
+    const s2 = seed({ videoId: "pMggiOb18tc", title: "The Golden Age of AI Engineering", upload_date: "2026-07-09", url: "https://www.youtube.com/watch?v=pMggiOb18tc" });
+    const { picks } = selectTalks([s2, s1], base);
+    expect(picks.map((p) => p.videoId)).toEqual(["xUnRQ9vLXxo", "pMggiOb18tc"]);
+    expect(picks[0].id.startsWith("2026-07-08-talks-")).toBe(true);
+    expect(picks[0].item.enclosureUrl).toContain("/releases/download/");
+  });
+
+  it("videoId 已在账本 → 绝不再选(去重第 1 层;防重烧钱)", () => {
+    const { picks, done } = selectTalks([seed()], { ...base, videoLedger: { xUnRQ9vLXxo: "2026-07-08-talks-everything" } });
+    expect(picks).toHaveLength(0);
+    expect(done).toContain("xUnRQ9vLXxo");
+  });
+
+  it("派生 id 已在 existingIds(已完成/已隔离)→ 不再选", () => {
+    const id = deriveId(talkItemFromSeed(seed()), TALKS);
+    const { picks } = selectTalks([seed()], { ...base, existingIds: [id] });
+    expect(picks).toHaveLength(0);
+  });
+
+  it("标题疑似重复 → 进 held 待裁,不入 picks、不自动丢弃(种子去留归人)", () => {
+    const lib = ["Jensen Huang: The Mindset That Built NVIDIA | Y Combinator"];
+    const dup = seed({ videoId: "I4B37S1dyQQ", title: "The Mindset That Built NVIDIA", url: "https://www.youtube.com/watch?v=I4B37S1dyQQ" });
+    const { picks, held } = selectTalks([dup], { ...base, libraryTitles: lib });
+    expect(picks).toHaveLength(0);
+    // 待裁必须显式出现在 held(响亮报),静默吞掉 = 自动处理 = 违 ADR 0017 第 2 层
+    expect(held).toHaveLength(1);
+    expect(held[0].videoId).toBe("I4B37S1dyQQ");
+    expect(held[0].matchedTitle).toBe(lib[0]);
+  });
+
+  it("坏种子(缺 videoId/upload_date)响亮抛,不静默跳", () => {
+    expect(() => selectTalks([seed({ videoId: undefined })], base)).toThrow();
+    expect(() => selectTalks([seed({ upload_date: undefined })], base)).toThrow();
+  });
+
+  it("演讲不套 isInterview:无 RSS link 形状照样入选(噪音过滤按源放行)", () => {
+    // link 是 YouTube watch URL(slugFromLink 抠不出),且无 feed item 字段——仍应被选中
+    const { picks } = selectTalks([seed()], base);
+    expect(picks).toHaveLength(1);
+  });
+});

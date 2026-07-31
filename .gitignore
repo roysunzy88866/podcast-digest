@@ -31,6 +31,10 @@ feed.xml
 # C7b 隔离区:自动跑出失真被闸门拦下的集(完整内容仅本地/CI 临时查;持久去重靠 pipeline-state.json 的 skipped 账本,不进公开仓)
 data/skipped/
 
+# C16 演讲种子区:音频只在本机 + Release asset(talks-seed tag)流转,绝不进 git;seed.json(小清单)入库随仓走
+data/talks-seed/*/*
+!data/talks-seed/*/seed.json
+
 # UI 原型的配图试跑产物(AI 生成的废稿,画风由独立 session 重做)
 需求共创/图片试跑/
 设计稿/covers/
