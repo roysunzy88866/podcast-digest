@@ -1,0 +1,29 @@
+{
+  "id": "2026-07-31-a16z-decagons-playbook-for-building-enterpris",
+  "audio_mp3": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/9e904d6f-9c1a-40ec-9238-59acf0e69b9d/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=9e904d6f-9c1a-40ec-9238-59acf0e69b9d&feed=JGE3yC0V",
+  "duration_sec": 4823.27,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 970,
+  "asr": true,
+  "title_en": "Decagon’s Playbook for Building Enterprise AI Applications",
+  "podcast": "The a16z Show",
+  "date": "2026-07-31",
+  "speaker_map": {
+    "SPEAKER_01": "Sarah Wang",
+    "SPEAKER_02": "Ashwin Srinivas",
+    "SPEAKER_03": "Kimberley Tan",
+    "SPEAKER_04": "Jesse Zhang"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Sarah Wang",
+  "cohosts": [
+    "Ashwin Srinivas",
+    "Kimberley Tan",
+    "Jesse Zhang"
+  ],
+  "title_zh": "Decagon 拆解:为何九成工作流跑在开源模型上",
+  "guest_name": "Jesse Zhang",
+  "guest_title": "Decagon 创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=spliced"
+}

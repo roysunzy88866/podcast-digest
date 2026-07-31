@@ -3,15 +3,15 @@
   "podcast": "精选演讲",
   "date": "2026-07-09",
   "tags": [
-    "AI 编程",
     "智能体",
-    "定价",
-    "创业豪赌",
-    "Vibe Coding"
+    "破釜沉舟",
+    "反常识产品哲学",
+    "基于使用量计费",
+    "氛围编程"
   ],
   "categories": [
     "智能体",
-    "AI 编程"
+    "创业与行业"
   ],
   "entities": [
     {
@@ -31,7 +31,7 @@
       "name": "Replit",
       "file": "Replit",
       "primary": true,
-      "how_described": "本集核心讨论的公司。原为面向教育市场的云开发环境，后背水一战将全公司 80% 以上技术人力压在 Replit Agent 项目上，转型为赋能非开发者的 AI 编程平台，正向 10 亿美元 ARR 冲刺。",
+      "how_described": "本集把它说成:从云开发环境起家、一度跌入谷底裁员孤注一掷,最终靠 AI 编程智能体完成绝地翻盘,剑指十亿美元 ARR 的公司。",
       "source": "glm",
       "evidence": [
         {
@@ -307,13 +307,124 @@
       ]
     },
     {
+      "id": "replit-agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "Replit Agent",
+      "file": "Replit Agent",
+      "primary": true,
+      "how_described": "本集把它说成:让非技术人员用自然语言提示词直接生成应用的核心 AI 编程智能体,是 Replit 绝境翻盘的豪赌产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            42.725,
+            48.089
+          ],
+          "quote": "In reality, though, we were building an amazing platform that eventually allowed us to build Replit Agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 13,
+          "t": [
+            48.75,
+            49.831
+          ],
+          "quote": "And tell me about Replit Agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            51.572,
+            53.754
+          ],
+          "quote": "When did you guys start working on Replit Agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            56.876,
+            80.302
+          ],
+          "quote": "If you go back and check the slide decks that Amjad, the CEO and co-founder of Replit, was using to raise money, he always had in mind something that looked like Replit Agent, where AI would have generated the code for our users, and in turn, our users would have focused on business ideas and literally what is crucial about running a business rather than the code required to create products.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 40,
+          "t": [
+            223.452,
+            227.875
+          ],
+          "quote": "I want to talk about what it was like to launch Replit Agent, because I'm sure that was a magical moment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            248.891,
+            250.932
+          ],
+          "quote": "How many people were working on Replit Agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 104,
+          "t": [
+            492.092,
+            498.695
+          ],
+          "quote": "The night before you're ready to launch Replit Agent, what are you thinking?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1184.011,
+            1192.374
+          ],
+          "quote": "Especially now that we launched Replit Agent 4 back in March this year, we put a lot of emphasis on the fact that it's a general-purpose agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1355.085,
+            1358.287
+          ],
+          "quote": "I heard you had one sales rep when you shipped Replit Agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 415,
+          "t": [
+            2064.872,
+            2077.036
+          ],
+          "quote": "So what was in this manifesto that you wrote where you sort of wrote out Replit Agent v0 or v1 and what it looks like now?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 433,
+          "t": [
+            2174.933,
+            2190.718
+          ],
+          "quote": "So the future that I see for us as a product is not just building applications, but it's allowing everyone to create very powerful and advanced agents with the same ease of use that we got everyone used to with Replit Agent when it comes to creating software.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
       "id": "agent",
       "type": "concept",
       "role": "concept",
       "name": "智能体 (agent)",
       "file": "智能体",
       "primary": true,
-      "how_described": "本集把它说成：能使用开发者工具并像人类开发者一样正确编排它们的技术。智能体本质上必须按使用量(计算量或 token)收费，其主观能动性(agency)已强到足以颠覆人机交互，未来甚至能靠编排一堆智能体实现一人独角兽公司。",
+      "how_described": "本集把它说成:能像人类开发者一样编排工具干活的产品形态;因为无法预测任务耗时,必须按算力/token 使用量来计费,代表了未来软件交互的基础原语。",
       "source": "glm",
       "evidence": [
         {
@@ -661,124 +772,13 @@
       ]
     },
     {
-      "id": "replit-agent",
-      "type": "concept",
-      "role": "concept",
-      "name": "Replit Agent",
-      "file": "Replit Agent",
-      "primary": true,
-      "how_described": "本集把它说成：Replit 的核心 AI 编程助手，给非开发者构建的差异化产品，经历了发布前 36 小时差点跑不起来的灾难后成功上线，彻底改变了公司命运。如今已迭代至第 4 代，强调通用性与参与度。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 12,
-          "t": [
-            42.725,
-            48.089
-          ],
-          "quote": "In reality, though, we were building an amazing platform that eventually allowed us to build Replit Agent.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 13,
-          "t": [
-            48.75,
-            49.831
-          ],
-          "quote": "And tell me about Replit Agent.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 15,
-          "t": [
-            51.572,
-            53.754
-          ],
-          "quote": "When did you guys start working on Replit Agent?",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 17,
-          "t": [
-            56.876,
-            80.302
-          ],
-          "quote": "If you go back and check the slide decks that Amjad, the CEO and co-founder of Replit, was using to raise money, he always had in mind something that looked like Replit Agent, where AI would have generated the code for our users, and in turn, our users would have focused on business ideas and literally what is crucial about running a business rather than the code required to create products.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 40,
-          "t": [
-            223.452,
-            227.875
-          ],
-          "quote": "I want to talk about what it was like to launch Replit Agent, because I'm sure that was a magical moment.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 44,
-          "t": [
-            248.891,
-            250.932
-          ],
-          "quote": "How many people were working on Replit Agent?",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 104,
-          "t": [
-            492.092,
-            498.695
-          ],
-          "quote": "The night before you're ready to launch Replit Agent, what are you thinking?",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 251,
-          "t": [
-            1184.011,
-            1192.374
-          ],
-          "quote": "Especially now that we launched Replit Agent 4 back in March this year, we put a lot of emphasis on the fact that it's a general-purpose agent.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 286,
-          "t": [
-            1355.085,
-            1358.287
-          ],
-          "quote": "I heard you had one sales rep when you shipped Replit Agent?",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 415,
-          "t": [
-            2064.872,
-            2077.036
-          ],
-          "quote": "So what was in this manifesto that you wrote where you sort of wrote out Replit Agent v0 or v1 and what it looks like now?",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 433,
-          "t": [
-            2174.933,
-            2190.718
-          ],
-          "quote": "So the future that I see for us as a product is not just building applications, but it's allowing everyone to create very powerful and advanced agents with the same ease of use that we got everyone used to with Replit Agent when it comes to creating software.",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
       "id": "vibe-coding",
       "type": "concept",
       "role": "concept",
       "name": "vibe coding",
       "file": "vibe coding",
       "primary": true,
-      "how_described": "本集把它说成：一种凭直觉、不写传统代码的业余编程方式。Replit 的中位数用户就是这类人群(vibe coder)；公司内部也招了极小的全职 vibe coder 团队，用 Replit 自己造出客服、HR 等能产生实质影响的内部工具。",
+      "how_described": "本集把它说成:不仅是凭直觉写代码,还能真正用来经营公司的方式;Replit 招了全职氛围编程团队游走各部门,直接造出取代外部采购的内部系统。",
       "source": "glm",
       "evidence": [
         {
@@ -793,13 +793,34 @@
       ]
     },
     {
+      "id": "cloud-development-environment",
+      "type": "concept",
+      "role": "concept",
+      "name": "云开发环境 (cloud development environment)",
+      "file": "云开发环境",
+      "primary": true,
+      "how_described": "本集把它说成:Replit 直到 2023 年前的老产品形态,让开发者在浏览器里写代码,在教育市场极受欢迎但很难变现。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            30.995,
+            35.339
+          ],
+          "quote": "Up to 2023, it was a cloud development environment.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
       "id": "usage-based-billing",
       "type": "concept",
       "role": "concept",
-      "name": "基于用量的计费 (usage-based billing)",
-      "file": "基于用量的计费",
+      "name": "基于使用量的计费 (usage-based billing)",
+      "file": "基于使用量的计费",
       "primary": true,
-      "how_described": "本集把它说成：AI 时代的定价开拓模型。因为无法预测一个智能体跑完一个具体任务要多久，固定定价或纯订阅无法规模化，智能体本质上必须按使用量(消耗的计算量或 token)成比例收费。",
+      "how_described": "本集把它说成:智能体时代必须取代固定订阅制的计费法,按智能体实际消耗的算力或 token 数收钱;Replit 作为先驱推行此法时曾遭社区猛烈抵制,如今全行业跟进。",
       "source": "glm",
       "evidence": [
         {
@@ -814,71 +835,53 @@
       ]
     },
     {
-      "id": "deployment",
+      "id": "outcome-based-pricing",
       "type": "concept",
       "role": "concept",
-      "name": "部署 (deployment)",
-      "file": "部署",
+      "name": "基于结果的定价 (outcome-based pricing)",
+      "file": "基于结果的定价",
       "primary": true,
-      "how_described": "本集把它说成：Replit 最痴迷、也最独有的一项关键业务指标。当用户愿意为了把构建的东西发布上网而花更多钱时，这比任何点赞或反馈都更能说明问题，标志着用户认可了「有价值的工作单元」。",
+      "how_described": "本集把它说成:比按使用量收费更终极的梦想计费法,但极其困难,需要整个模型能力出现阶跃式的跨越才有可能实现。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 480,
+          "seg": 329,
           "t": [
-            2417.283,
-            2426.345
+            1558.835,
+            1567.501
           ],
-          "quote": "I think something that is very peculiar to Replit, because again, we care about the software creation lifecycle end-to-end, is the fact that we also have a deployment product.",
+          "quote": "That said, if I had a magic wand, I would love to figure out outcome-based pricing for the model, for our product.",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 491,
+          "seg": 335,
           "t": [
-            2477.878,
-            2490.851
+            1604.735,
+            1611.978
           ],
-          "quote": "what our agent is doing correctly or some of the bugs that we have, I always put more emphasis on the agent traces that brought us to a deployment rather than those who didn't, because I know that that's what a user considers end-to-end work.",
-          "speaker": "SPEAKER_01"
+          "quote": "Outcome-based pricing has somewhat similar issues with sort of just like normal tier pricing because you wouldn't be pricing it based off of usage, right?",
+          "speaker": "SPEAKER_00"
         }
       ]
     },
     {
-      "id": "persona",
+      "id": "autonomy",
       "type": "concept",
       "role": "concept",
-      "name": "人物角色 (persona)",
-      "file": "人物角色",
+      "name": "自主性 (autonomy)",
+      "file": "自主性",
       "primary": true,
-      "how_described": "本集把它说成：产品设计中虚构的典型用户画像(如「为产品经理优化」)。Replit 的产品哲学明确拒绝谈人物角色，而是寻找每个知识工作者都绕不开的极简原语，因为「一个好产品在一个庞大的用户群体中都是好的」。",
+      "how_described": "本集把它说成:智能体工作模式的关键维度(如 Replit 提供的轻量/经济/动力三档决定多大自主性);但也指出在 Agent 3 版本因过度追求自主性导致连续运行200分钟,反而损害了用户参与度。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 257,
+          "seg": 176,
           "t": [
-            1220.953,
-            1224.455
+            785.655,
+            789.837
           ],
-          "quote": "We don't try to tailor it towards a specific type of persona.",
+          "quote": "I can give you one about Agent 3, where we put a lot of emphasis on autonomy.",
           "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 258,
-          "t": [
-            1225.416,
-            1231.879
-          ],
-          "quote": "And one of the principles we follow internally is to, I don't want to hear the word persona during a meeting, basically.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 264,
-          "t": [
-            1264.788,
-            1276.498
-          ],
-          "quote": "So in your product development process, are you looking for the things that every knowledge worker needs across every persona versus like, hey, here's the thing specifically that a PM needs or specifically that a designer needs?",
-          "speaker": "SPEAKER_00"
         }
       ]
     },
@@ -886,10 +889,10 @@
       "id": "one-person-unicorn",
       "type": "concept",
       "role": "concept",
-      "name": "一人独角兽公司 (one-person unicorn)",
-      "file": "一人独角兽公司",
+      "name": "一人独角兽 (one-person unicorn)",
+      "file": "一人独角兽",
       "primary": true,
-      "how_described": "本集把它说成：一个人靠指挥和编排一堆 AI，做出估值十亿美元公司的设想。嘉宾认为虽然逻辑上竞争会逼着公司雇人，停在 2.5 亿美元 ARR，但凭一个产品愿景、用最少资源也能做到这件事依然令人激动。",
+      "how_described": "本集把它说成:通过编排大量智能体能独自快速扩展业务到十亿美元营收的公司形态,这在半年前是超乎想象的。",
       "source": "glm",
       "evidence": [
         {
@@ -904,31 +907,40 @@
       ]
     },
     {
-      "id": "product-market-fit",
+      "id": "prompt",
       "type": "concept",
       "role": "concept",
-      "name": "产品市场契合 (product market fit)",
-      "file": "产品市场契合",
+      "name": "提示词 (prompt)",
+      "file": "提示词",
       "primary": false,
-      "how_described": "本集提到：Replit 早期难以变现，直到 Replit Agent 发布并真正达到产品市场契合后，公司命运才彻底改变。",
+      "how_described": "本集把它说成:用来给智能体下达任务的自然语言指令,也是本集强调的未来人机交互的核心原语。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 42,
+          "seg": 177,
           "t": [
-            230.797,
-            246.389
+            790.778,
+            802.223
           ],
-          "quote": "I think it's always very interesting how companies think about when to invest in a bet and structure their teams around a bet or something that they don't know is going to work versus when to continue investing in the thing that maybe it's not full product market fit, but it seems to be working in some sense.",
-          "speaker": "SPEAKER_00"
+          "quote": "And I wouldn't call it a wrong assumption per se, but we thought most of our users want to go from point A to point B with just a single prompt, and they just care about the agent doing the entire work themselves.",
+          "speaker": "SPEAKER_01"
         },
         {
-          "seg": 92,
+          "seg": 337,
           "t": [
-            455.16,
-            461.142
+            1613.499,
+            1621.603
           ],
-          "quote": "And I never experienced that again, because since the launch, when we actually hit product market fit, my life changed completely.",
+          "quote": "It's based on outcomes, but at least it doesn't have that perception of non-determinism where, you know, you just write a prompt and you don't know how much you're going to be charged.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2008.133,
+            2029.452
+          ],
+          "quote": "But one of the moonshot projects that we have at Rapid that Amjad and I talk about all the time is can we go from a prompt to an agent that basically on every single day tries to craft a business idea zero to one and then puts it in front of the MVP that is already running, is already looking for customers, is already like shooting emails and...",
           "speaker": "SPEAKER_01"
         }
       ]
@@ -940,7 +952,7 @@
       "name": "OpenAI",
       "file": "OpenAI",
       "primary": false,
-      "how_described": "本集顺带提到：大厂研究员的心态往往对模型有多好、产品体验有多精致有预设的期待，带着「研究员的枷锁」；此外 Replit 早期接触的首批 token 源模型包括来自 OpenAI 的 GPT-2。",
+      "how_described": "本集把它说成:前沿 AI 研究实验室,曾提供 GPT-2 等早期开源模型;但也指出这类大实验室常背着「模型必须完美、产品必须达到高标准才能见人」的包袱。",
       "source": "glm",
       "evidence": [
         {
@@ -970,7 +982,7 @@
       "name": "Anthropic",
       "file": "Anthropic",
       "primary": false,
-      "how_described": "本集顺带提到：与 OpenAI 一起被提及，作为大厂研究员代表，其研究人员对模型效果和产品体验往往有固有的高标准与预设期待。",
+      "how_described": "本集把它说成:Replit 对照的顶尖 AI 研究团队之一,指出其研究人员总背着模型必须完美才能发布的预期包袱。",
       "source": "glm",
       "evidence": [
         {
@@ -991,7 +1003,7 @@
       "name": "Stripe",
       "file": "Stripe",
       "primary": false,
-      "how_described": "本集提到：一家支付处理服务商。Replit 在去年第四季度上线了 Stripe 集成，让用户能直接在应用里收钱，该功能增速惊人。此外 Stripe Atlas 服务还能自动化注册一家 LLC。",
+      "how_described": "本集把它说成:Replit 在去年第四季度集成上线的支付平台,用来赋能用户对自己做的应用直接收费变现。",
       "source": "glm",
       "evidence": [
         {

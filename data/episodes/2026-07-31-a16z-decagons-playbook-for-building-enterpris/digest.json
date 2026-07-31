@@ -1,0 +1,75 @@
+{
+  "title_zh": "Decagon 拆解:为何九成工作流跑在开源模型上",
+  "tldr": "Decagon 的创始人解释了他们为何把90%工作流转向开源小模型,以及 AI 应用层的护城河。",
+  "digest_md": "一家做企业 AI 智能体的公司,居然把 90% 的工作流从 GPT 这样的前沿大模型,换成了开源小模型——不是为了省钱,而是为了更快、更聪明。这是 Decagon 的联合创始人 Jesse Zhang 在这集访谈里抛出的反直觉事实。 [04:16]\n\n这一集 YC 母公司 a16z 的播客里,Sarah Wang 和 Kimberley Tan 与 Decagon 的两位联创 Jesse Zhang 和 Ashwin Srinivas 坐在了一起。他们主要聊了三件事:为什么把大部分 AI 堆栈转向开源模型,以及怎么持续微调它们;为什么在 AI 大实验室越来越强的今天,做具体业务的应用层公司不仅有活路,还能成长为「特定垂直领域的实验室」;以及他们怎么卖进全球最大的那几家企业,还提出了一个很安抚人心的判断:AI 会消灭琐碎的岗位,但不会消灭人的职业生涯。\n\n要说清楚他们为什么拥抱开源,得先从一个最常见的技术误区说起。很多人以为,选 AI 模型就是一道「要最聪明但贵的大模型,还是稍微笨一点但便宜的小模型」的选择题 [05:04]。Ashwin 明确指出,这是一个虚假的权衡 [05:21]。在具体的业务场景里(比如判断一个进线客户是在聊退换货、还是在查物流),任务是非常细分的,你根本不需要调动一个懂写代码、懂数学的大模型的所有智力。如果你把一个开源的小模型,拿这些细分任务去微调(fine-tune,即在已有模型基础上用特定数据继续训练),它在该任务上的表现,反而能击败那些最先进的大模型 [05:34]。于是你同时拿到了三个好处:干得更好、成本更低、延迟更低。\n\n既然小模型这么好,大模型还有什么用?这正是他们工作流里「两套模型」的精妙之处。Jesse 解释,在主干的对话流程中,他们用微调过的、聪明且快速的小模型;但最近他们上线了一个叫 Duet Autopilot 的系统——这其实是一个专门用来「管理 AI」的 AI [06:15]。它会去审查上百万段的实际对话记录,自己寻找哪些话题处理得不好,然后自己写出原模型的变体去对比测试效果。这种需要广泛探索、极度复杂的元任务,才是那些最聪明、最贵的前沿模型真正的用武之地 [06:46]。\n\n知道了怎么用模型,接下来的问题是:企业真的会自己养一个团队来干这些事吗?答案是会,但会非常慢 [07:13]。Jesse 解释了门槛在哪:微调模型最大的难点不是操作本身,而是你必须自己建立一套极其贴合业务的评估体系,去端到端地衡量最终的客户结果 [11:11]。因为这套评估标准和业务深度绑定,企业最终都必须建立自己的内部团队和工具。所以他们成立了 Decagon Labs,专门做持续训练 [09:13]。只要前沿模型的能力在变,就会不断催生新的可自动化场景,这就变成了一座不停运转的「模型工厂」 [10:09]。\n\n说完了模型和工具,工具变了,做应用的公司怎么办?这正是下一个话题:实验室(大模型公司)会不会把应用层公司全干掉?Jesse 觉得这是个误解。模型本身确实越来越强,企业根本没法直接拿一个完美的大模型,给它一堆权限就指望它自己把活干了。要让模型在企业里落地,你需要给它加护栏(明确界限,防止灾难性错误),需要让数百个业务专家协作管理它的行为逻辑,需要测试它有没有越过合规红线 [35:33]。这些护栏、测试平台和业务逻辑的录入软件,才是应用层公司真正的护城河 [18:30]。\n\n既然护城河这么深,大客户怎么拿下来?Ashwin 提到,他们能在一年内快速签下全球最大的几家银行、航空公司和电信公司,靠的正是「产品化」而非传统的堆人力 [45:11]。当时业界流行像 Palantir 那样派驻大量前期部署工程师去驻场,Ashwin 正是从 Palantir 出来的。但他直言不讳:派工程师去驻场随机接需求是个陷阱,长期看你会沦为一家「美化版的咨询公司」 [26:20]。所以他们要求工程师必须把客户的需求提炼进核心产品,让接下来的 10 个客户免费享受到成果 [24:07]。此外,卖进大企业最难的是内部冗长的审查流程,他们发现,光给产品是不够的,必须帮客户画出一张极细的路线图:告诉对方在哪个阶段该跑什么测试、怎么初次上线、出问题怎么兜底 [42:54]。这套打法让他们从客户那里拿到了极高的迭代速度,甚至还从竞品 Sierra 手里把客户抢了过来 [38:17]。\n\n业务跑通了,那面对「AGI 要来了大家都没饭吃」的焦虑,在前线摸爬滚打的他们怎么看?主持人分享了一个小故事:她想拿「长远职业发展」劝一位同事留下,对方却回答「有了 AGI 我们就不再需要职业了」,这深深刺痛了她 [28:23]。Jesse 非常确定地说:AGI 之后绝对还有职业 [29:01]。因为本质上,人类的大多数工作本就是建立在各种抽象层之上的社会分工。回到客户支持这个具体场景,人们最怕的是 AI 取代人工。但 Ashwin 指出这是现实版的杰文斯悖论(某种资源利用效率提高,反而会导致对该资源的需求增加) [77:21]。他们发现,当支持成本下降时,客户不会立刻裁掉 60% 的人,而是会把支持入口铺满每个页面、甚至开放给免费用户,去挖掘更多潜在需求。最终,AI 吃掉的是机械、琐碎的接线员动作,而把人释放去创造更多收入。\n\n## 本集带走\n\n最后收个尾,这一集值得带走的是三句话。第一,不要再把模型选择当成「变笨换便宜」的妥协,针对具体细分任务去微调开源小模型,你能同时拿到更好、更快、更便宜这三个好处,真正贵的大模型应该留给需要广泛探索的元任务。第二,不要迷信大实验室会吃掉一切,大模型本身离企业真正可用之间,隔着一整套需要对接业务逻辑、风控合规和测试评估的基础设施,这就是应用层公司死不掉的护城河。第三,面对 AI 带来的失业焦虑,不妨看看真实的商业反馈:当效率提升、成本下降,企业的直接反应往往不是裁员,而是用更低的成本去满足过去被压抑的无限需求,就像那句扎心的结论——AI 会消灭那些本不该由人干的机械工作,但它不会消灭人的职业生涯。",
+  "quotes": [
+    {
+      "en": "The thing that we built was not an agent that does customer support well, but rather an agent that follows business process well.",
+      "zh": "我们构建的东西不是一个擅长客户支持的智能体,而是一个擅长遵循业务流程的智能体。",
+      "timestamp": "00:42",
+      "speaker": "Ashwin Srinivas"
+    },
+    {
+      "en": "If you can't do that, then you're just building a glorified consulting truck.",
+      "zh": "如果你不能做到这一点,那你只是在构建一个美化的咨询卡车。",
+      "timestamp": "22:46",
+      "speaker": "Ashwin Srinivas"
+    },
+    {
+      "en": "Yeah, I think it's like AI will kill jobs, but not careers in a way.",
+      "zh": "是的,我想就像 AI 会扼杀工作,但不会扼杀职业,在某种程度上。",
+      "timestamp": "77:24",
+      "speaker": "Jesse Zhang"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "So today, 90% of our workflow is on open source.",
+      "zh": "所以今天,我们 90% 的工作流是在开源上的。",
+      "timestamp": "04:16",
+      "speaker": "Jesse Zhang"
+    },
+    {
+      "en": "I actually think that is a false tradeoff, right?",
+      "zh": "我实际上认为这是一个错误的权衡,对吧?",
+      "timestamp": "05:21",
+      "speaker": "Ashwin Srinivas"
+    },
+    {
+      "en": "So when we fine-tune smaller, dumber models, it's that they're just not as general purpose, but on the specific task we want them to do, they actually outperform the large, smart, state-of-the-art models.",
+      "zh": "所以当我们微调更小的、更笨的模型时,意味着它们只是没有那么通用,但在我们希望它们做的特定任务上,它们实际上表现得比大的、聪明的、最先进的模型更好。",
+      "timestamp": "05:34",
+      "speaker": "Ashwin Srinivas"
+    },
+    {
+      "en": "The thing that we built was not an agent that does customer support well, but rather an agent that follows business process well.",
+      "zh": "我们构建的东西不是一个擅长客户支持的智能体,而是一个擅长遵循业务流程的智能体。",
+      "timestamp": "48:58",
+      "speaker": "Jesse Zhang"
+    },
+    {
+      "en": "Yeah, I think it's a massive misconception because people are like, oh, Palantir is such a hot company and they're doing so well.",
+      "zh": "是的,我认为这是一个巨大的误解,因为人们会说,哦,Palantir 是一家如此热门的公司,而且他们做得很好。",
+      "timestamp": "25:52",
+      "speaker": "Ashwin Srinivas"
+    },
+    {
+      "en": "If you can't do that, then you're just building a glorified consulting truck.",
+      "zh": "如果你不能做到这一点,那你只是在构建一个美化的咨询卡车。",
+      "timestamp": "22:49",
+      "speaker": "Jesse Zhang"
+    },
+    {
+      "en": "So we like to call this like a glass box approach instead of a black box.",
+      "zh": "所以我们喜欢称之为玻璃箱方法,而不是黑箱。",
+      "timestamp": "39:27",
+      "speaker": "Jesse Zhang"
+    },
+    {
+      "en": "Yeah, I think it's like AI will kill jobs, but not careers in a way.",
+      "zh": "是的,我想就像 AI 会扼杀工作,但不会扼杀职业,在某种程度上。",
+      "timestamp": "77:30",
+      "speaker": "Jesse Zhang"
+    }
+  ]
+}

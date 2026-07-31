@@ -1,0 +1,1161 @@
+{
+  "episode_id": "2026-07-31-a16z-decagons-playbook-for-building-enterpris",
+  "podcast": "The a16z Show",
+  "date": "2026-07-31",
+  "tags": [
+    "企业 AI",
+    "开源模型",
+    "智能体",
+    "微调",
+    "企业级销售"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "sarah-wang",
+      "type": "person",
+      "role": "host",
+      "name": "Sarah Wang",
+      "file": "Sarah Wang",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            71.092,
+            91.422
+          ],
+          "quote": "In this episode, Sarah Wang and Kimberley Tan sit down with Decagon co-founders Jesse Zhang and Ashwin Srinivas to discuss why they shifted most of their AI stack to open source models, how they think about deploying AI inside large enterprises, and why the future of enterprise software will be shaped by AI agents, not just better models.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "ashwin-srinivas",
+      "type": "person",
+      "role": "cohost",
+      "name": "Ashwin Srinivas",
+      "file": "Ashwin Srinivas",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            71.092,
+            91.422
+          ],
+          "quote": "In this episode, Sarah Wang and Kimberley Tan sit down with Decagon co-founders Jesse Zhang and Ashwin Srinivas to discuss why they shifted most of their AI stack to open source models, how they think about deploying AI inside large enterprises, and why the future of enterprise software will be shaped by AI agents, not just better models.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "kimberley-tan",
+      "type": "person",
+      "role": "cohost",
+      "name": "Kimberley Tan",
+      "file": "Kimberley Tan",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            71.092,
+            91.422
+          ],
+          "quote": "In this episode, Sarah Wang and Kimberley Tan sit down with Decagon co-founders Jesse Zhang and Ashwin Srinivas to discuss why they shifted most of their AI stack to open source models, how they think about deploying AI inside large enterprises, and why the future of enterprise software will be shaped by AI agents, not just better models.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "jesse-zhang",
+      "type": "person",
+      "role": "cohost",
+      "name": "Jesse Zhang",
+      "file": "Jesse Zhang",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            71.092,
+            91.422
+          ],
+          "quote": "In this episode, Sarah Wang and Kimberley Tan sit down with Decagon co-founders Jesse Zhang and Ashwin Srinivas to discuss why they shifted most of their AI stack to open source models, how they think about deploying AI inside large enterprises, and why the future of enterprise software will be shaped by AI agents, not just better models.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "decagon",
+      "type": "company",
+      "role": "company",
+      "name": "Decagon",
+      "file": "Decagon",
+      "primary": true,
+      "how_described": "本集受访的企业 AI 智能体公司，把 90% 工作流转向开源微调模型以追求更低延迟和更高性能，并强调通过深度结合业务逻辑和产品化（而非人力堆叠）作为护城河，向全球最大的银行、航空公司等销售 AI 客户支持与礼宾服务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            57.881,
+            59.042
+          ],
+          "quote": "What's Decagon's moat?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 13,
+          "t": [
+            59.082,
+            62.425
+          ],
+          "quote": "And like, why does Decagon like 10 years from now still have a right to exist?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 16,
+          "t": [
+            71.092,
+            91.422
+          ],
+          "quote": "In this episode, Sarah Wang and Kimberley Tan sit down with Decagon co-founders Jesse Zhang and Ashwin Srinivas to discuss why they shifted most of their AI stack to open source models, how they think about deploying AI inside large enterprises, and why the future of enterprise software will be shaped by AI agents, not just better models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 81,
+          "t": [
+            354.432,
+            359.537
+          ],
+          "quote": "And so do you feel like today you need the most frontier models for really anything at Decagon?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 93,
+          "t": [
+            422.528,
+            426.63
+          ],
+          "quote": "You guys launched Decagon Labs, but even before the formal launch, it's always been a part of your culture.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 157,
+          "t": [
+            764.218,
+            768
+          ],
+          "quote": "And do you think that's like something that's unique to the way Decagon is run?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 186,
+          "t": [
+            923.741,
+            934.104
+          ],
+          "quote": "You know, we talked a little bit about Decagon Labs, but can you guys just share what is your, like, how do you think about this potentially false dichotomy of app versus infrastructure company?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            947.728,
+            949.189
+          ],
+          "quote": "Like, how do you guys think of Decagon?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1516.062,
+            1520.903
+          ],
+          "quote": "How different is that at what you did at Palantir versus the way you conceptualized this role at Decagon?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2089.039,
+            2091.942
+          ],
+          "quote": "What's Decagon's moat at the end of the day after all of that?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2091.962,
+            2095.305
+          ],
+          "quote": "And like, why does Decagon like 10 years from now still have a right to exist?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2292.763,
+            2297.085
+          ],
+          "quote": "Decagon versus Sierra, I mean, our most recent customer actually turned off to Sierra to come to Decagon.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 458,
+          "t": [
+            2371.313,
+            2376.357
+          ],
+          "quote": "And yeah, so within basically a month, they spun up like seven new journeys on Decagon.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 494,
+          "t": [
+            2488.429,
+            2495.036
+          ],
+          "quote": "Because I think they were working in the space already and they were seeing from afar like what Decagon was starting to do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 521,
+          "t": [
+            2644.716,
+            2650.781
+          ],
+          "quote": "that one of the reasons of many, right, that they're going with Decagon is they want to make a bet on you guys.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 522,
+          "t": [
+            2651.081,
+            2656.885
+          ],
+          "quote": "They'll literally say, we think the founding team of Decagon is going to move the fastest.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 692,
+          "t": [
+            3572.39,
+            3588.617
+          ],
+          "quote": "people from one of these huds go out and spend a few months there, really, until the office becomes big enough and has its own kind of culture so that it doesn't kind of become too different from what kind of the original Decagon culture was.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 779,
+          "t": [
+            3978.904,
+            3986.37
+          ],
+          "quote": "And for us personally, like so far with Decagon, there's like we have zero desire to build a CRM because we think there's so much to do in the agentic layer.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 947,
+          "t": [
+            4724.621,
+            4728.484
+          ],
+          "quote": "And so with Decagon, they can kind of like keep it flat or whatnot.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "sierra",
+      "type": "company",
+      "role": "company",
+      "name": "Sierra",
+      "file": "Sierra",
+      "primary": true,
+      "how_described": "本集提到的竞品公司，依靠前期部署工程师（FDE）做定制，被描述为「黑箱」模式；某客户因受不了其迭代缓慢，转而采用了 Decagon 的产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 427,
+          "t": [
+            2231.068,
+            2238.112
+          ],
+          "quote": "with multiple Goliaths, market dynamic to really a two-horse race between you and Sierra.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 437,
+          "t": [
+            2277.774,
+            2283.057
+          ],
+          "quote": "Yeah, I mean, we have a lot of respect for Sierra and also just other folks in the space, generally the big platforms.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2292.763,
+            2297.085
+          ],
+          "quote": "Decagon versus Sierra, I mean, our most recent customer actually turned off to Sierra to come to Decagon.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2304.711,
+            2314.222
+          ],
+          "quote": "It's like, you know, when they worked with Sierra, it was mostly FDEs and it just felt like a black box where, you know, the FDEs were good, but they had to go through the FDEs for everything.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "type": "company",
+      "role": "company",
+      "name": "Palantir",
+      "file": "Palantir",
+      "primary": false,
+      "how_described": "嘉宾 Ashwin 的前雇主，以派驻前期部署工程师（FDE）接需求闻名。本集用来对比说明：如果不把驻场学到的流程产品化，最终会沦为美化版的咨询公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 294,
+          "t": [
+            1509.38,
+            1515.762
+          ],
+          "quote": "And Ashwin, you used to be a deployment strategist at Palantir, so you're very familiar with the forward-deployed model that Palantir popularized.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1516.062,
+            1520.903
+          ],
+          "quote": "How different is that at what you did at Palantir versus the way you conceptualized this role at Decagon?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1531.006,
+            1534.888
+          ],
+          "quote": "You know, Shyam, who's the CTO at Palantir today, had a phrase,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1545.44,
+            1552.883
+          ],
+          "quote": "Yeah, I think it's like a massive misconception because people are like, oh, Palantir is such a hot company and they're doing so well.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1555.525,
+            1562.788
+          ],
+          "quote": "But first of all, very few companies, if any, can do what Palantir does, which is close massive deals off the bat.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "duet-autopilot",
+      "type": "concept",
+      "role": "concept",
+      "name": "Duet Autopilot",
+      "file": "Duet Autopilot",
+      "primary": true,
+      "how_described": "Decagon 推出的专门用来「管理 AI」的 AI（元智能体）。本集说它会自动审查上百万段真实对话，自己找出处理得不好的话题，并写出原模型的变体去对比测试效果。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            375.512,
+            391.973
+          ],
+          "quote": "rebooking or it's helping them with a process in healthcare then these are like well-defined parts so we have smart fast models to do that but we've for instance recently launched duet autopilot right which is our agent that improves the core conversational agent",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2004.141,
+            2015.146
+          ],
+          "quote": "And then the second part, which we called Duet Autopilot, was once we built Duet, you know, people were using Duet to write things up and then we're like, oh, wow, there's still a lot of time that goes into iterating upon the agent, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 395,
+          "t": [
+            2018.588,
+            2021.149
+          ],
+          "quote": "And we're like, great, let's productize that as Duet Autopilot.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集核心主线概念，被描述为遵循业务流程的 AI。嘉宾认为随着模型指令遵从能力变强，应用层公司的未来将完全由智能体（而非单纯的大模型）塑造，并断言 AGI 之后智能体依然需要软件和数据库等基础设施。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.47,
+            2.673
+          ],
+          "quote": "An AI agent should just be the front door of your business.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 9,
+          "t": [
+            42.55,
+            49.215
+          ],
+          "quote": "The thing that we built was not an agent that does customer support well, but rather an agent that follows business process well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 36,
+          "t": [
+            165.281,
+            167.042
+          ],
+          "quote": "And then we also launched our voice agent, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 40,
+          "t": [
+            174.317,
+            181.022
+          ],
+          "quote": "And the only way to get latency down, but also kind of make our agent operate the way we want it to, is to use smaller models.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 48,
+          "t": [
+            201.714,
+            207.781
+          ],
+          "quote": "And it worked really well because if you think about it, in the agent, right, so in our agent's job is to have conversations.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 84,
+          "t": [
+            366.443,
+            375.112
+          ],
+          "quote": "Where when you sort of have auxiliary models to our sort of primary conversational flow, you have an agent and it's helping a customer with their...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 85,
+          "t": [
+            375.512,
+            391.973
+          ],
+          "quote": "rebooking or it's helping them with a process in healthcare then these are like well-defined parts so we have smart fast models to do that but we've for instance recently launched duet autopilot right which is our agent that improves the core conversational agent",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 108,
+          "t": [
+            467.612,
+            480.075
+          ],
+          "quote": "when your use case is solidified and you're in production at scale and you're pretty sure this is the sort of shape of the agent, then there's no reason not to use open source because you get these latency benefits and at the same time, you get the cost benefits.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 162,
+          "t": [
+            789.848,
+            791.549
+          ],
+          "quote": "They just care about how well your agent performs.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 165,
+          "t": [
+            794.511,
+            802.458
+          ],
+          "quote": "So actually, if you look at our unit of output of our agent, which is, in our case, a conversation, that's really what our customers care about.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 188,
+          "t": [
+            940.006,
+            947.688
+          ],
+          "quote": "And, you know, does Agent Lab, which is a popular description floating around the last couple of weeks, like, does that describe it?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1021.298,
+            1027.7
+          ],
+          "quote": "let's say I do put in the engineering effort to build like some agent myself using the frontier models.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1047.327,
+            1053.508
+          ],
+          "quote": "Well, then you launch the agent and then the second day you look at your conversations and you're like, oh, well, actually I need to change these three things.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1396.537,
+            1402.679
+          ],
+          "quote": "agent PMs and forward deployed as a new type of role or a more common type of role in Silicon Valley.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1402.719,
+            1408.701
+          ],
+          "quote": "But your like agent PM slash forward deployed team has actually evolved a lot since you first got started to now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1456.291,
+            1464.295
+          ],
+          "quote": "Similarly, our agent PMs are working with our customers to understand how is the product broken today?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 357,
+          "t": [
+            1810.926,
+            1831.687
+          ],
+          "quote": "so that's that's like the first agent that we built and that was like the core agent we we worked on for the first like year year two years and the agent on our end when we were building it consisted of a ton of stuff like we would have to um you know write these procedures and we kind of create our own format of procedures we call them agent operating procedures that teach the ai how to do things",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1848.672,
+            1853.794
+          ],
+          "quote": "There's like a ton of work that goes into it, even though the core product we're building is itself an agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 362,
+          "t": [
+            1854.65,
+            1856.931
+          ],
+          "quote": "And so what Duet is, is it's kind of a separate agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1856.951,
+            1863.153
+          ],
+          "quote": "It's like a second agent that's much bigger and much slower, but its job is to do all the tasks I just described.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1874.676,
+            1878.837
+          ],
+          "quote": "So it's like a, it's a second agent that is smarter than us to do all of these things.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1917.959,
+            1920.841
+          ],
+          "quote": "So it's like one agent that can do all of that.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 393,
+          "t": [
+            2004.141,
+            2015.146
+          ],
+          "quote": "And then the second part, which we called Duet Autopilot, was once we built Duet, you know, people were using Duet to write things up and then we're like, oh, wow, there's still a lot of time that goes into iterating upon the agent, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2143.938,
+            2153.001
+          ],
+          "quote": "Then I need a way to make sure that, you know, hundreds of people within the enterprise can collaborate to make sure that the agent is behaving as expected in the use cases in which they're experts.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 575,
+          "t": [
+            2938.511,
+            2950.095
+          ],
+          "quote": "Because ultimately, at the end of the day, the thing that we built, and we kind of built this intentionally from the start, was not an agent that does customer support well, but rather an agent that follows business process well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 577,
+          "t": [
+            2957.74,
+            2961.463
+          ],
+          "quote": "At the end of the day, it's just an agent following a business process.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 594,
+          "t": [
+            3060.345,
+            3071.972
+          ],
+          "quote": "Which is, we use the term concierge, but really it just means, like, hey, an AI agent should just be the front door of your business, of your brand, and every interaction, whether it's, like, reactive or proactive with a customer, should be handled by AI.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "open-source",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集讨论的核心技术路线，指开源的小模型。嘉宾指出，在细分任务上对它们进行微调，其表现反而能击败最聪明、最贵的前沿大模型，同时拿到更好、更便宜、延迟更低三个好处。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            32.465,
+            35.687
+          ],
+          "quote": "So today, 90% of our workflow is on open source.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 16,
+          "t": [
+            71.092,
+            91.422
+          ],
+          "quote": "In this episode, Sarah Wang and Kimberley Tan sit down with Decagon co-founders Jesse Zhang and Ashwin Srinivas to discuss why they shifted most of their AI stack to open source models, how they think about deploying AI inside large enterprises, and why the future of enterprise software will be shaped by AI agents, not just better models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 22,
+          "t": [
+            104.395,
+            115.6
+          ],
+          "quote": "And Jesse, I'm going to actually mention a piece that you wrote recently that went pretty viral because it's right in the middle of the zeitgeist of conversation right now on open source versus closed source models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            115.84,
+            121.682
+          ],
+          "quote": "And then thinking machines, Kimmy K3, some very interesting open source models came out sort of right after.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 46,
+          "t": [
+            196.632,
+            198.153
+          ],
+          "quote": "And so that's when we started looking at open source.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 60,
+          "t": [
+            242.504,
+            244.705
+          ],
+          "quote": "About a year ago, we were like, okay, let's start using these open source models.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 63,
+          "t": [
+            250.107,
+            256.79
+          ],
+          "quote": "And it's a very expensive team, but we have it because we need people that are really good at taking these open source models and tuning them and so on.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 64,
+          "t": [
+            256.97,
+            260.192
+          ],
+          "quote": "So today, 90% of our workflow is on open source.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 94,
+          "t": [
+            426.79,
+            431.513
+          ],
+          "quote": "Do you think that enterprises will get there as well on post-training open source models?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 99,
+          "t": [
+            442.308,
+            444.13
+          ],
+          "quote": "It's like, all right, we made a decision to use open source.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 100,
+          "t": [
+            444.15,
+            445.011
+          ],
+          "quote": "Let's just use open source.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 107,
+          "t": [
+            461.466,
+            466.811
+          ],
+          "quote": "But I think the point is that at a certain point, it's strictly better to use open source models because...",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 108,
+          "t": [
+            467.612,
+            480.075
+          ],
+          "quote": "when your use case is solidified and you're in production at scale and you're pretty sure this is the sort of shape of the agent, then there's no reason not to use open source because you get these latency benefits and at the same time, you get the cost benefits.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 114,
+          "t": [
+            501.118,
+            511.125
+          ],
+          "quote": "And I think that's why in enterprises right now, even though there's a lot of hype for open source, the sort of share of open source inference is actually going down right now because people are spinning up all these new use cases.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 118,
+          "t": [
+            522.769,
+            525.45
+          ],
+          "quote": "Once it's at that point, they're heavily incentivized to use open source.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 128,
+          "t": [
+            561.937,
+            568.72
+          ],
+          "quote": "We don't just build our set of open source models and then it's done, we can move on to our next thing and maybe we'll revisit this in two years.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 131,
+          "t": [
+            581.941,
+            593.163
+          ],
+          "quote": "You find new places where you're like, oh, this task seems to be getting repeated a lot because now I have this totally new frontier model or open source model that now has this capability that they didn't have before, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 133,
+          "t": [
+            601.545,
+            606.346
+          ],
+          "quote": "The open source frontier has advanced a lot and the model out of the box can do a lot of things that it couldn't do before.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 143,
+          "t": [
+            664.026,
+            670.749
+          ],
+          "quote": "When we have open source models that we want to fine tune, we find that if we can clearly...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 174,
+          "t": [
+            846.458,
+            850.3
+          ],
+          "quote": "how do I analyze my costs and should I move to open source?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 177,
+          "t": [
+            861.604,
+            872.769
+          ],
+          "quote": "But once you've already made the jump to saying, okay, now we know how to think about open source models and we know how to decompose upon, we know how to build, train, and deploy these models very, very quickly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 896,
+          "t": [
+            4454.761,
+            4456.262
+          ],
+          "quote": "But it was just open source stuff.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "frontier-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier models)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集指代那些庞大、聪明且昂贵的前沿闭源大模型（如 OpenAI/Anthropic 的模型）。嘉宾认为它们应留给需要广泛探索、极度复杂的元任务（如 Duet Autopilot），或用于探索全新的实验性项目。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            146.019,
+            148.763
+          ],
+          "quote": "Of course, you're just going to use the frontier models because you want to...",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 54,
+          "t": [
+            226.679,
+            230.02
+          ],
+          "quote": "So all the frontier models are obviously very smart, but they can do a bunch of different things.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 67,
+          "t": [
+            272.777,
+            278.674
+          ],
+          "quote": "And then the remaining 10%, of course, we're still using the closed source models and the frontier models for a lot of new projects or new products.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 81,
+          "t": [
+            354.432,
+            359.537
+          ],
+          "quote": "And so do you feel like today you need the most frontier models for really anything at Decagon?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            410.507,
+            416.452
+          ],
+          "quote": "So we think for jobs like that, frontier models that are very smart, that can try out a lot of things, make a lot of sense.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 111,
+          "t": [
+            486.116,
+            495.998
+          ],
+          "quote": "But for everything that's new and sort of experimental or you're, as Ashwin was saying, or like kind of these products where you really need the intelligence, you're still going to use Frontier models.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 112,
+          "t": [
+            496.995,
+            498.356
+          ],
+          "quote": "And it's just so much easier to use frontier models.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 115,
+          "t": [
+            511.185,
+            515.268
+          ],
+          "quote": "And if you're spinning up new use cases, of course you're going to use the frontier models until they're working.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 176,
+          "t": [
+            852.961,
+            861.144
+          ],
+          "quote": "If we ran our entire business exclusively on frontier models, I would care a lot about costs and I would think a lot about that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 179,
+          "t": [
+            877.631,
+            884.174
+          ],
+          "quote": "But if you're still in the world where you're using frontier models for everything, then I do think thinking about tokenomics makes a lot of sense.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1021.298,
+            1027.7
+          ],
+          "quote": "let's say I do put in the engineering effort to build like some agent myself using the frontier models.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1133.015,
+            1139.74
+          ],
+          "quote": "Like there will be some use cases where it does make sense to use the frontier models, but there will be these like core verticals where going super deep makes sense.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "fine-tune",
+      "type": "concept",
+      "role": "concept",
+      "name": "微调 (fine-tune)",
+      "file": "微调",
+      "primary": true,
+      "how_described": "本集指用特定业务场景的数据继续训练开源模型，使其在该具体任务上的表现超越最先进的大模型。嘉宾指出它最大的难点不是操作本身，而是建立贴合业务的端到端评估体系。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            193.97,
+            195.131
+          ],
+          "quote": "So you have to fine-tune them.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 58,
+          "t": [
+            236.843,
+            240.764
+          ],
+          "quote": "And if you fine tune it to be really good at that task, it can be just as good or better than the big models.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 78,
+          "t": [
+            334.78,
+            348.789
+          ],
+          "quote": "So when we fine-tune smaller, dumber models, it's that they're just not as general purpose, but on the specific task we want them to do, they actually outperform the large, smart, state-of-the-art models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 120,
+          "t": [
+            527.67,
+            532.591
+          ],
+          "quote": "At that point, maybe they can do it in-house or maybe they'll need help from people to help them fine tune it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 143,
+          "t": [
+            664.026,
+            670.749
+          ],
+          "quote": "When we have open source models that we want to fine tune, we find that if we can clearly...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1036.123,
+            1043.306
+          ],
+          "quote": "That happens like in context, because if you were to fine tune on that, you would have to reverse it every single time you change your procedures, which doesn't make sense.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "application-layer",
+      "type": "concept",
+      "role": "concept",
+      "name": "应用层 (application layer)",
+      "file": "应用层",
+      "primary": true,
+      "how_described": "本集核心商业概念，指围绕大模型构建业务软件的公司。嘉宾认为，哪怕模型完美，企业也需要应用层软件来捕获复杂的业务逻辑并进行测试，大实验室无法把应用层公司全干掉。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 214,
+          "t": [
+            1089.979,
+            1092.021
+          ],
+          "quote": "And so that has to exist in the application layer.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1161.294,
+            1163.596
+          ],
+          "quote": "Us on the application layer, we're realizing that...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1224.471,
+            1226.852
+          ],
+          "quote": "And I still think on the application layer...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1236.411,
+            1240.432
+          ],
+          "quote": "So I think there will always be a space for application layer companies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1240.812,
+            1250.516
+          ],
+          "quote": "Maybe in the long term, application layer companies just become labs for specific verticals, because your primary product ends up being the models that are just really good at doing those specific tasks.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1250.937,
+            1253.138
+          ],
+          "quote": "But I think the application layer is probably here to stay.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1258.8,
+            1267.484
+          ],
+          "quote": "And maybe this is like a spicier take of, oh, are application layer companies just for deployed companies that are kind of doing the last mile of work?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "guardrails",
+      "reason": "专名「guardrails」未在真相源出现,且不在别名表(疑编造)"
+    },
+    {
+      "name": "Jevons paradox",
+      "reason": "专名「Jevons paradox」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}
