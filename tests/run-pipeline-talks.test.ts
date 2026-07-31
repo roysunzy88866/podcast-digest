@@ -154,3 +154,67 @@ describe("selectTalks(选种 + 三层去重)", () => {
     expect(picks).toHaveLength(1);
   });
 });
+
+// ── 终态必记账(修 run 30608504888 lance 漏写)────────────────────────────
+// 实账:lance 集(9QebvrrY3KY)在 talks 批 judge-quotes 转瞬失败(不记账,合理),
+// 同轮补活链 processEpisode 成功、上站发布——但补活链只清连败账,不写演讲 videoId 账本
+// → 第 1 层去重对它永久失效(下轮 selectTalks 又因 id 在 completedIds 判 done,也不补记)。
+// 修:终态记账收进 recordTalkTerminal(纯函数),补活链两个终态分支(成功/隔离)都必须调它。
+import { readFileSync } from "node:fs";
+import { recordTalkTerminal } from "../scripts/run-pipeline.mjs";
+
+describe("recordTalkTerminal:talks 集补活到终态必记 videoId 账本", () => {
+  // 复现 lance 场景:种子在仓、集已成、账本无此 videoId
+  const lanceSeed = seed({
+    videoId: "9QebvrrY3KY",
+    url: "https://www.youtube.com/watch?v=9QebvrrY3KY",
+    title: "Claude for Long-Horizon Tasks — Lance Martin, Anthropic",
+    upload_date: "2026-07-22",
+  });
+  const lanceId = deriveId(talkItemFromSeed(lanceSeed), TALKS);
+
+  it("★★★ lance 场景:按种子反查 videoId,写入 state.talkVideoIds 并返回之", () => {
+    const state = { talkVideoIds: { xUnRQ9vLXxo: "2026-07-08-talks-everything" } };
+    expect(recordTalkTerminal(state, lanceId, TALKS, [seed(), lanceSeed])).toBe("9QebvrrY3KY");
+    expect(state.talkVideoIds["9QebvrrY3KY"]).toBe(lanceId);
+    expect(state.talkVideoIds.xUnRQ9vLXxo).toBe("2026-07-08-talks-everything"); // 旧账不动
+  });
+
+  it("state 缺 talkVideoIds 字段也能记(初始化,不炸)", () => {
+    const state = {};
+    expect(recordTalkTerminal(state, lanceId, TALKS, [lanceSeed])).toBe("9QebvrrY3KY");
+    expect(state.talkVideoIds["9QebvrrY3KY"]).toBe(lanceId);
+  });
+
+  it("非 seedDir 源(普通播客)→ no-op 返回 null,账本不动", () => {
+    const state = { talkVideoIds: {} };
+    const lennys = SOURCES.find((s) => s.key === "lennys");
+    expect(recordTalkTerminal(state, "2026-07-08-lennys-x", lennys, [lanceSeed])).toBeNull();
+    expect(state.talkVideoIds).toEqual({});
+  });
+
+  it("id 对不上任何种子(种子被人工删)→ 返回 null,不瞎记", () => {
+    const state = { talkVideoIds: {} };
+    expect(recordTalkTerminal(state, "2026-01-01-talks-nonexistent", TALKS, [lanceSeed])).toBeNull();
+    expect(state.talkVideoIds).toEqual({});
+  });
+});
+
+describe("补活链两个终态分支必须调 recordTalkTerminal(源码锚,变异一刀=去掉接线→红)", () => {
+  const src = readFileSync(new URL("../scripts/run-pipeline.mjs", import.meta.url), "utf8");
+  // revivePass 函数体:从声明起到下一个顶格 "\n}" 止(同 run-pipeline-audio.test.ts 锚法)
+  const start = src.indexOf("function revivePass");
+  const body = src.slice(start, src.indexOf("\n}", start));
+
+  it("★★★ revivePass 函数还在,且成功/隔离两个终态分支各有一次 recordTalkTerminal 调用", () => {
+    expect(body.length).toBeGreaterThan(100); // 防重命名后断言空转
+    const calls = body.split("recordTalkTerminal(").length - 1;
+    expect(calls).toBeGreaterThanOrEqual(2); // res.ok 成功分支 + 失真隔离分支,各一
+  });
+
+  it("★ talks 批本体(processTalksSource)终态记账仍在(不许修补活时把原点拆了)", () => {
+    const s2 = src.indexOf("function processTalksSource");
+    const b2 = src.slice(s2, src.indexOf("\n}", s2));
+    expect(b2).toContain("state.talkVideoIds[videoId] = id");
+  });
+});
