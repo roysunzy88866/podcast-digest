@@ -39,7 +39,7 @@ unlisted: true
 
 [[Lenny]] · [[Codex]] · [[智能体]] · [[Meta]] · [[Claude Code]] · [[Lovable]] · [[Anthropic]] · [[Zevi Arnovitz]] · [[Amol Avasare]] · [[Dan Shipper]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Codex":9,"智能体":37,"Meta":7,"Claude Code":12,"Lovable":3,"Anthropic":22,"Zevi Arnovitz":1,"Amol Avasare":1,"Dan Shipper":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"Codex":10,"智能体":38,"Meta":7,"Claude Code":12,"Lovable":3,"Anthropic":22,"Zevi Arnovitz":1,"Amol Avasare":1,"Dan Shipper":1}</script>
 
 <script>
 (function(){

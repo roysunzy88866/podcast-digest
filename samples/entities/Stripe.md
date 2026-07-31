@@ -33,7 +33,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[OpenAI]] · [[Rachel Lockett]] · [[Jeanne DeWitt Grosser]] · [[Lenny Rachitsky]] · [[Sam Altman]] · [[Olivia Moore]] · [[辅导]] · [[Vercel]]
 
-<script type="application/json" class="pd-epn">{"智能体":37,"Lenny":32,"OpenAI":16,"Rachel Lockett":1,"Jeanne DeWitt Grosser":1,"Lenny Rachitsky":1,"Sam Altman":1,"Olivia Moore":1,"辅导":1,"Vercel":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":38,"Lenny":32,"OpenAI":16,"Rachel Lockett":1,"Jeanne DeWitt Grosser":1,"Lenny Rachitsky":1,"Sam Altman":1,"Olivia Moore":1,"辅导":1,"Vercel":3}</script>
 
 <script>
 (function(){

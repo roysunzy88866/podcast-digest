@@ -98,8 +98,8 @@ Boris 说,别再像以前那样下死指令了。很多人用 Claude,非要把�
 **顺着「AI 编程」挖下去**
 
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]] —— 同概念:智能体 (agent)、验证 (verification)
+- [[2026-07-17-talks-every-company-should-have-a-brain-garry|用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图]] —— 同概念:智能体 (agent)、Cloud Code
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同概念:智能体 (agent)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同概念:智能体 (agent)
 
 </div>
 <div class="pd-ex">

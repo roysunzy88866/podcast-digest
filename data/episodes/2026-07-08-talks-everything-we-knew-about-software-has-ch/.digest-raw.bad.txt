@@ -1,0 +1,83 @@
+```json
+{
+  "title_zh": "把一个 Markdown 文件当 Cron 任务跑：AI 时代的野心膨胀指南",
+  "tldr": "模型进化比人快，别追求做得更好，要敢于去想得更大、做得更宽。",
+  "digest_md": "一个曾用来分拣 GitHub PR 的自动化服务，现在不需要任何代码和服务器——整个产品就是一份 Markdown 文件，每天早上 9 点由定时任务触发，发给 Claude 执行。这不是极客的玩具，而是一个宣告：软件的门槛已经被彻底踏平了。说这话的人，是一个自嘲正经历「AI 精神病」的独立开发者。在这一集的演讲里，他梳理了近期几个主流大模型带来的能力跃迁，并抛出了一个针对所有开发者的灵魂拷问：既然模型变好的速度比人快得多，我们是不是该彻底放下对旧工具的执念，去挑战那些以前根本不敢碰的庞然大物？
+
+要理解他为什么这么激动，得先看看模型到底进化到了哪一步。他将这几代模型划分为了三个时代。先是工具调用时代，以 Sonnet 3.5 为代表，这是第一个能在代码库上下文中，足够一致且可靠地调用工具的模型，让它干点日常多步骤的编码活儿终于靠谱了。紧接着是 Opus 4.5，也就是他自嘲「AI 精神病」开始的节点，这个模型能处理需要数小时的长线任务，不会半路忘了自己在干嘛，你只要告诉它想要什么，它自己能琢磨出完整步骤。而现在最新的模型则开启了编排时代，它不仅懂你的代码库，甚至懂得「审视自己」，知道怎么主动拉起其他模型帮忙，自己把大任务拆小，干完活还能自己验证对错，不需要你费劲去搭什么复杂的软件工厂。
+
+模型变强了，但人的习惯却没跟上，这是演讲者眼中当前最大的矛盾。他觉得，现在的软件开发者正集体陷在一种「拟物化」的盲区里。所谓拟物化，就像早期的苹果应用非要让电子指南针长得跟真指南针一样，是为了让用户接受新事物。如今的开发者也一样，明明终端并不是什么终极界面，大家却因为用熟了，硬要把自然语言也往里塞；再比如，团队共享一个环境变量文件，非得搞另一套专门的复杂系统，仅仅是因为 Git 当初就是这么设计的。这背后是严重的沉没成本心态作祟，大家太把写过的代码、选定的语言和框架当回事儿，以至于宁愿因为内疚去合并一个写错的代码，也不愿直接删掉重写。但他强调，智能体的一大好处，就是当你推翻它的工作时，你完全不需要感到内疚。我们之所以死抱着这些旧规矩不放，很大程度上是因为过去招人太难，工程师可以用「我们一直就是这么干的」来搪塞公司。但现在，底牌变了。
+
+放下过去的执念后，接下来是他如何重新丈量「野心」的尺度。模型能力的攀升，直接把整个软件项目的构建门槛向下拉低了一个层级。他拿自己过去的三个项目打比方：以前一个需要耗费两三天的爬虫叫做「副业项目」，需要去孵化器冲刺的叫做「创业公司」，而遥不可及的叫做「太大」。但在今天，原来的创业公司变成了副业项目，甚至衍生出了一个极其科幻的新层级——他称之为「Markdown 文件」层级。因为你现在只需要写一段纯文本指令，通过管道传给模型，它就能替你跑完全套业务逻辑。以前的整个产品或服务，现在真的只剩下一纸文档了。
+
+虽然门槛降低了，但如果只想着在原来的老路上做小修小补，依然是对新能力的浪费。在演讲的最后部分，他给出了一套全新的竞争思路：不要再跟大厂拼深度了，要跟它们拼广度。过去，一家初创公司绝不敢去跟 AWS 拼功能数量，因为你永远凑不齐成千上万名工程师；但现在，你可以在一两天内，靠不断地给模型喂指令，硬生生把一个数据库平台给搓出来。你不需要做得比大厂更专业，你只需要做一个覆盖面足够广、且极度开放的「骨架」，把填补空白的能力下放给用户。如果产品架构搭得对，让用户能像在 Slack 里跑智能体那样，自己去补齐特定垂直领域的缺失功能，那你就能以前所未有的速度，直接去挑战 Slack、AWS 或是 Salesforce。哪怕这个想法听起来再怎么愚蠢也没关系，因为在今天，如果你的想法不显得愚蠢，那只能说明你的想法还不够大。",
+  "quotes": [
+    {
+      "en": "Mythos is another jump to orchestration.",
+      "zh": "Mythos 是向编排的另一个飞跃。",
+      "timestamp": "02:35",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "The models are getting better faster than we are, so we can't necessarily get better, so instead we have to go bigger.",
+      "zh": "模型变得更好的速度比我们要快，所以我们不一定能变好，所以相反我们必须做得更大。",
+      "timestamp": "03:29",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "We're pretending our terminals are the ultimate interface when they're not even good interfaces, and I'm saying this as someone who loves their terminal deeply.",
+      "zh": "我们假装我们的终端是终极界面，当它们甚至都不是好的界面时，而我作为一个深爱终端的人这么说。",
+      "timestamp": "06:23",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "When I have a team of engineers that are working on a project, why do I have to build another system to share this specific file, but all the other files can go and get just fine?",
+      "zh": "当我有一组工程师正在做一个项目时，为什么我必须构建另一个系统来分享这个特定的文件，而其他所有文件都可以正常获取？",
+      "timestamp": "07:14",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "One of the nice things about agents, you don't have to feel bad when you shut down their work, but we just care too much, is the point I'm trying to make.",
+      "zh": "关于智能体的好处之一是，当你关闭它们的工作时你不必感觉糟糕，但我们只是太在乎了，这就是我试图表达的观点。",
+      "timestamp": "09:14",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "The fact that you can now execute markdown by just piping it to Codex or Claude is unbelievable, and I think most of us haven't fully appreciated how insane that is.",
+      "zh": "事实上你现在可以通过仅仅将 markdown 传给 Codex 或 Claude 来执行它，这简直难以置信，而且我认为我们大多数人还没有完全意识到这有多疯狂。",
+      "timestamp": "11:32",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "You'd be amazed how many of these types of things can exist that are literally just a markdown file running on a cron.",
+      "zh": "你会惊讶于这类东西中有多少可以存在，它们实际上只是一个在 cron 上运行的 markdown 文件。",
+      "timestamp": "12:15",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "I don't know what too big means anymore.",
+      "zh": "我不再知道“太大”意味着什么。",
+      "timestamp": "12:44",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "It's time to think wider.",
+      "zh": "是时候想得更宽了。",
+      "timestamp": "13:17",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "If you architect your systems and you architect your products in such a way that users can do things that you never would have guessed, like Slack accidentally did this, because Slack is now the platform people run their agents in half the time, which is crazy.",
+      "zh": "如果你以这样的方式构建你的系统并构建你的产品，让用户可以做一些你从未想过的事情，就像 Slack 无意中做到了这一点，因为 Slack 现在有一半的时间是人们运行智能体的平台，这太疯狂了。",
+      "timestamp": "15:01",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "If your idea doesn't feel stupid, it's because your idea's not big enough.",
+      "zh": "如果你的想法不显得愚蠢，那是因为你的想法还不够大。",
+      "timestamp": "15:34",
+      "speaker": "Unknown"
+    }
+  ]
+}
+```

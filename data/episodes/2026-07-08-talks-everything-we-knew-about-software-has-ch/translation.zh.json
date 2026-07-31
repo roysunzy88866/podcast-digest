@@ -1,0 +1,1778 @@
+[
+ {
+  "seg": 0,
+  "start": 17.466,
+  "end": 20.027,
+  "speaker": "Unknown",
+  "en": "Hello, hello, fantastic to see you guys here.",
+  "zh": "你好，你好，很高兴在这里见到你们。"
+ },
+ {
+  "seg": 1,
+  "start": 20.347,
+  "end": 32.812,
+  "speaker": "Unknown",
+  "en": "I still can't believe they're letting me take a stage at something like this, a YouTuber apparently, but can't wait to share a bit about how I've been thinking because if I'm being real, kinda going through some AI psychosis.",
+  "zh": "我仍然不敢相信他们让我在这样的场合上台，显然作为一个 YouTuber，但我迫不及待想分享一些我的想法，因为说实话，我有点经历某种 AI 精神病。"
+ },
+ {
+  "seg": 2,
+  "start": 33.312,
+  "end": 37.333,
+  "speaker": "Unknown",
+  "en": "Who here would classify how they feel right now as some form of AI psychosis?",
+  "zh": "在这里谁会将他们现在的感觉归类为某种形式的 AI 精神病？"
+ },
+ {
+  "seg": 3,
+  "start": 37.373,
+  "end": 38.194,
+  "speaker": "Unknown",
+  "en": "I wanna see some hands.",
+  "zh": "我想看一些举手。"
+ },
+ {
+  "seg": 4,
+  "start": 40.294,
+  "end": 44.476,
+  "speaker": "Unknown",
+  "en": "Those who don't have their hands up yet, don't worry, we'll get you there by the end of this talk if I do everything right.",
+  "zh": "那些还没举手的人别担心，如果我这部分做得好，到本次演讲结束时我们也会让你有这种感觉。"
+ },
+ {
+  "seg": 5,
+  "start": 45.563,
+  "end": 54.016,
+  "speaker": "Unknown",
+  "en": "In order to talk about this, I wanna start with a bit of a personal journey of my own, and I'm gonna go through this the way anybody does in modern timelines, with the models.",
+  "zh": "为了谈论这个，我想从我的一点个人旅程开始，我会像现代时间线上的任何人一样，通过这些模型来过一遍。"
+ },
+ {
+  "seg": 6,
+  "start": 54.937,
+  "end": 60.906,
+  "speaker": "Unknown",
+  "en": "Who here used Sonnet 3.5 when it was the creme de la creme, the cream of the crop model available to us?",
+  "zh": "在这里谁在 Sonnet 3.5 是最好的、我们可以获得的顶级模型时使用过它？"
+ },
+ {
+  "seg": 7,
+  "start": 61.955,
+  "end": 64.636,
+  "speaker": "Unknown",
+  "en": "It was unbelievably better than what we had used before, right?",
+  "zh": "它比我们以前使用的要好得难以置信，对吧？"
+ },
+ {
+  "seg": 8,
+  "start": 65.036,
+  "end": 67.617,
+  "speaker": "Unknown",
+  "en": "Like having used all of these different models and trying them in tools.",
+  "zh": "就像使用了所有这些不同的模型并在工具中尝试它们一样。"
+ },
+ {
+  "seg": 9,
+  "start": 68.237,
+  "end": 77.879,
+  "speaker": "Unknown",
+  "en": "Sonnet 3.5 was a big moment for me because it felt like these models could suddenly complete much more end-to-end tasks, like actually get real work done that takes multiple steps.",
+  "zh": "Sonnet 3.5 对我来说是一个重要时刻，因为感觉这些模型突然可以完成更多端到端的任务，比如真正完成需要多个步骤的实际工作。"
+ },
+ {
+  "seg": 10,
+  "start": 78.88,
+  "end": 80.7,
+  "speaker": "Unknown",
+  "en": "And then we got Opus 4.5.",
+  "zh": "然后我们得到了 Opus 4.5。"
+ },
+ {
+  "seg": 11,
+  "start": 81.32,
+  "end": 83.381,
+  "speaker": "Unknown",
+  "en": "I'll go differently here.",
+  "zh": "这里我要换个方式。"
+ },
+ {
+  "seg": 12,
+  "start": 83.601,
+  "end": 86.242,
+  "speaker": "Unknown",
+  "en": "Who didn't feel a big jump when they switched over to Opus 4.5?",
+  "zh": "谁在切换到 Opus 4.5 时没有感觉到一个巨大的跳跃？"
+ },
+ {
+  "seg": 13,
+  "start": 88.338,
+  "end": 94.661,
+  "speaker": "Unknown",
+  "en": "That's a relief, there were not too many hands because Ovis 4.5 is probably when my psychosis started in November and December of last year.",
+  "zh": "那是个宽慰，没有太多手举起来，因为 Ovis 4.5 大概就是我在去年十一月和十二月精神病开始的时候。"
+ },
+ {
+  "seg": 14,
+  "start": 95.021,
+  "end": 99.203,
+  "speaker": "Unknown",
+  "en": "Having a model that couldn't just write the code and call tools but could go way further.",
+  "zh": "拥有一个不仅能编写代码和调用工具，而且能走得更远的模型。"
+ },
+ {
+  "seg": 15,
+  "start": 99.704,
+  "end": 105.847,
+  "speaker": "Unknown",
+  "en": "A model that could test the work and actually get it into a good state and complete tasks that take hours instead of minutes.",
+  "zh": "一个可以测试工作并真正将其带入良好状态并完成需要数小时而不是数分钟任务的模型。"
+ },
+ {
+  "seg": 16,
+  "start": 106.367,
+  "end": 107.267,
+  "speaker": "Unknown",
+  "en": "It was unbelievable.",
+  "zh": "这真是难以置信。"
+ },
+ {
+  "seg": 17,
+  "start": 108.528,
+  "end": 109.188,
+  "speaker": "Unknown",
+  "en": "Then we got Mythos.",
+  "zh": "然后我们得到了 Mythos。"
+ },
+ {
+  "seg": 18,
+  "start": 110.049,
+  "end": 112.93,
+  "speaker": "Unknown",
+  "en": "Who here has had a chance to play with Mythos and Fable so far?",
+  "zh": "在这里谁有机会玩过 Mythos 和 Fable？"
+ },
+ {
+  "seg": 19,
+  "start": 114.271,
+  "end": 116.092,
+  "speaker": "Unknown",
+  "en": "We agree it's a pretty damn good model, right?",
+  "zh": "我们同意这是一个非常好的模型，对吧？"
+ },
+ {
+  "seg": 20,
+  "start": 117.552,
+  "end": 117.972,
+  "speaker": "Unknown",
+  "en": "But why?",
+  "zh": "但为什么？"
+ },
+ {
+  "seg": 21,
+  "start": 118.473,
+  "end": 119.934,
+  "speaker": "Unknown",
+  "en": "It's not just better at coding.",
+  "zh": "它不仅仅是更擅长编码。"
+ },
+ {
+  "seg": 22,
+  "start": 119.974,
+  "end": 124.457,
+  "speaker": "Unknown",
+  "en": "If you handed a prompt that you would have handed to these other models before, it's not gonna feel that different.",
+  "zh": "如果你交出一个你以前会交给这些其他模型的提示词，它感觉不会有那么不同。"
+ },
+ {
+  "seg": 23,
+  "start": 125.498,
+  "end": 129.301,
+  "speaker": "Unknown",
+  "en": "I think of these almost as eras now, where Sonnet 3.5 is the tool call era.",
+  "zh": "我现在几乎把这些视为不同的时代，其中 Sonnet 3.5 是工具调用时代。"
+ },
+ {
+  "seg": 24,
+  "start": 129.501,
+  "end": 139.709,
+  "speaker": "Unknown",
+  "en": "Not that it was the first model that could do tool calls, rather it was the first one that did them consistently and reliably enough in context of a code base where you could use this for day-to-day coding work.",
+  "zh": "并不是说它是第一个可以做工具调用的模型，而是说它是第一个在代码库上下文中足够一致和可靠地做工具调用的模型，你可以将其用于日常的编码工作。"
+ },
+ {
+  "seg": 25,
+  "start": 141.048,
+  "end": 146.131,
+  "speaker": "Unknown",
+  "en": "Then we got Opus 4.5, which was able to do much longer running tasks without losing track of what it's working on.",
+  "zh": "然后我们得到了 Opus 4.5，它能够做更长时间运行的任务而不迷失它在做什么。"
+ },
+ {
+  "seg": 26,
+  "start": 146.432,
+  "end": 148.933,
+  "speaker": "Unknown",
+  "en": "It's no longer, okay, build step one, and then it does it.",
+  "zh": "不再是，好的，构建第一步，然后它去做了。"
+ },
+ {
+  "seg": 27,
+  "start": 148.953,
+  "end": 151.395,
+  "speaker": "Unknown",
+  "en": "Then you say, okay, can you build this next part, and then the next part.",
+  "zh": "然后你说，好的，你能构建下一部分吗，然后是下一部分。"
+ },
+ {
+  "seg": 28,
+  "start": 151.715,
+  "end": 154.317,
+  "speaker": "Unknown",
+  "en": "You can just tell it what you want, and it could figure it out a lot of the time.",
+  "zh": "你可以只告诉它你想要什么，很多时候它都能弄明白。"
+ },
+ {
+  "seg": 29,
+  "start": 155.438,
+  "end": 158.36,
+  "speaker": "Unknown",
+  "en": "Mythos is another jump to orchestration.",
+  "zh": "Mythos 是向编排的另一个飞跃。"
+ },
+ {
+  "seg": 30,
+  "start": 159.503,
+  "end": 164.527,
+  "speaker": "Unknown",
+  "en": "It feels to me like it's the first model that doesn't just understand your code base, but it understands itself.",
+  "zh": "在我看来，它是第一个不仅理解你的代码库，而且理解它自己的模型。"
+ },
+ {
+  "seg": 31,
+  "start": 164.867,
+  "end": 171.272,
+  "speaker": "Unknown",
+  "en": "And it knows how to spawn additional models and break up work in a way where it can be completed more reliably and then verified afterwards.",
+  "zh": "并且它知道如何生成额外的模型并以一种可以更可靠完成然后事后验证的方式拆分工作。"
+ },
+ {
+  "seg": 32,
+  "start": 171.972,
+  "end": 173.914,
+  "speaker": "Unknown",
+  "en": "And if you tell the model to do that, it will just do it.",
+  "zh": "如果你告诉模型那样做，它就会照做。"
+ },
+ {
+  "seg": 33,
+  "start": 173.954,
+  "end": 177.777,
+  "speaker": "Unknown",
+  "en": "You don't need some custom tooling, some custom systems, some fancy software factory.",
+  "zh": "你不需要一些自定义工具，一些自定义系统，一些花哨的软件工厂。"
+ },
+ {
+  "seg": 34,
+  "start": 178.177,
+  "end": 180.039,
+  "speaker": "Unknown",
+  "en": "You just need to prompt it to go a little further.",
+  "zh": "你只需要提示它再往前走一点。"
+ },
+ {
+  "seg": 35,
+  "start": 180.199,
+  "end": 182.06,
+  "speaker": "Unknown",
+  "en": "I think you'll be surprised how far it can go.",
+  "zh": "我想你会惊讶它能走多远。"
+ },
+ {
+  "seg": 36,
+  "start": 183.461,
+  "end": 185.463,
+  "speaker": "Unknown",
+  "en": "What I'm trying to say here is we need to go bigger.",
+  "zh": "我想在这里说的是我们需要做得更大。"
+ },
+ {
+  "seg": 37,
+  "start": 186.82,
+  "end": 192.421,
+  "speaker": "Unknown",
+  "en": "You're not going to see the benefits going forward if you're not pushing the model further, you're not pushing yourself further with what you're building.",
+  "zh": "如果你不进一步推动模型，你不进一步推动你自己正在构建的东西，你将看不到未来的收益。"
+ },
+ {
+  "seg": 38,
+  "start": 193.001,
+  "end": 197.762,
+  "speaker": "Unknown",
+  "en": "Most of the Jira tickets I closed at my previous job could be trivially solved with a model like Opus 4.5.",
+  "zh": "我上一份工作中关闭的大部分 Jira 工单都可以用像 Opus 4.5 这样的模型轻松解决。"
+ },
+ {
+  "seg": 39,
+  "start": 198.743,
+  "end": 201.903,
+  "speaker": "Unknown",
+  "en": "My previous work would not benefit from a model like Mythos.",
+  "zh": "我以前的工作不会从像 Mythos 这样的模型中受益。"
+ },
+ {
+  "seg": 40,
+  "start": 202.804,
+  "end": 208.665,
+  "speaker": "Unknown",
+  "en": "If the models are gonna keep getting better, and at this point I'm confident in saying they are, I was wrong when I claimed that we were hitting a wall before.",
+  "zh": "如果模型会继续变得更好，在这一点上我很自信地说它们确实在变好，那么我之前声称我们碰壁了是错误的。"
+ },
+ {
+  "seg": 41,
+  "start": 209.625,
+  "end": 214.591,
+  "speaker": "Unknown",
+  "en": "The models are getting better faster than we are, so we can't necessarily get better, so instead we have to go bigger.",
+  "zh": "模型变得更好的速度比我们要快，所以我们不一定能变好，所以相反我们必须做得更大。"
+ },
+ {
+  "seg": 42,
+  "start": 215.472,
+  "end": 217.234,
+  "speaker": "Unknown",
+  "en": "In order to do that, we have to get over ourselves.",
+  "zh": "为了做到这一点，我们必须放下自我。"
+ },
+ {
+  "seg": 43,
+  "start": 217.835,
+  "end": 222.341,
+  "speaker": "Unknown",
+  "en": "This was really hard for me as someone who spent a long time writing software.",
+  "zh": "对于像我这样一个花了很长时间写软件的人来说，这真的很难。"
+ },
+ {
+  "seg": 44,
+  "start": 222.941,
+  "end": 225.264,
+  "speaker": "Unknown",
+  "en": "Who here has written code for more than 10 years?",
+  "zh": "在这里谁写代码超过 10 年了？"
+ },
+ {
+  "seg": 45,
+  "start": 225.484,
+  "end": 225.985,
+  "speaker": "Unknown",
+  "en": "I wanna see hands.",
+  "zh": "我想看举手。"
+ },
+ {
+  "seg": 46,
+  "start": 227.046,
+  "end": 228.148,
+  "speaker": "Unknown",
+  "en": "It's the majority of the people here.",
+  "zh": "这里的大多数人都举手了。"
+ },
+ {
+  "seg": 47,
+  "start": 229.655,
+  "end": 231.436,
+  "speaker": "Unknown",
+  "en": "I don't even want to think about how long I've been writing code for.",
+  "zh": "我甚至不想考虑我写代码写了多久。"
+ },
+ {
+  "seg": 48,
+  "start": 231.876,
+  "end": 234.877,
+  "speaker": "Unknown",
+  "en": "But I have been building up all of these strong opinions since I started.",
+  "zh": "但自从我开始以来，我一直建立所有这些强烈的观点。"
+ },
+ {
+  "seg": 49,
+  "start": 235.217,
+  "end": 239.038,
+  "speaker": "Unknown",
+  "en": "I was using GNU Screen and eventually Tmux back in the day.",
+  "zh": "我过去使用 GNU Screen 并最终在那天使用 Tmux。"
+ },
+ {
+  "seg": 50,
+  "start": 239.379,
+  "end": 242.36,
+  "speaker": "Unknown",
+  "en": "I learned how to use those tools in SSH and Git before I even wrote code.",
+  "zh": "我学会如何使用 SSH 和 Git 中的那些工具，这甚至发生在我写代码之前。"
+ },
+ {
+  "seg": 51,
+  "start": 242.98,
+  "end": 245.161,
+  "speaker": "Unknown",
+  "en": "And those have all been really ingrained in my workflow.",
+  "zh": "那些都已经深深融入到了我的工作流程中。"
+ },
+ {
+  "seg": 52,
+  "start": 246.401,
+  "end": 250.203,
+  "speaker": "Unknown",
+  "en": "I think back to the old days in a weird way, hear me out.",
+  "zh": "我以一种奇怪的方式回想过去，听我说完。"
+ },
+ {
+  "seg": 53,
+  "start": 250.803,
+  "end": 251.923,
+  "speaker": "Unknown",
+  "en": "Let me talk about iOS for a second.",
+  "zh": "让我暂时谈谈 iOS。"
+ },
+ {
+  "seg": 54,
+  "start": 252.604,
+  "end": 254.844,
+  "speaker": "Unknown",
+  "en": "Who owned an iPhone back when they looked like this?",
+  "zh": "谁在 iPhone 还是这个样子的时候拥有一部 iPhone？"
+ },
+ {
+  "seg": 55,
+  "start": 255.144,
+  "end": 256.285,
+  "speaker": "Unknown",
+  "en": "iOS 6 or earlier?",
+  "zh": "iOS 6 或更早版本？"
+ },
+ {
+  "seg": 56,
+  "start": 257.755,
+  "end": 261.279,
+  "speaker": "Unknown",
+  "en": "How have you guys written code for 10 years when a fourth of you are that old?",
+  "zh": "你们中四分之一的人年纪都那么大了，你们是怎么写了 10 年代码的？"
+ },
+ {
+  "seg": 57,
+  "start": 262.1,
+  "end": 262.6,
+  "speaker": "Unknown",
+  "en": "I'm confused.",
+  "zh": "我很困惑。"
+ },
+ {
+  "seg": 58,
+  "start": 263.081,
+  "end": 264.302,
+  "speaker": "Unknown",
+  "en": "Hopefully you're all Android people or something.",
+  "zh": "希望你们都是 Android 用户或者其他的什么。"
+ },
+ {
+  "seg": 59,
+  "start": 265.203,
+  "end": 267.465,
+  "speaker": "Unknown",
+  "en": "This is how iPhone apps used to look.",
+  "zh": "这就是过去 iPhone 应用程序的样子。"
+ },
+ {
+  "seg": 60,
+  "start": 268.106,
+  "end": 270.168,
+  "speaker": "Unknown",
+  "en": "You might notice it's different from how they look now.",
+  "zh": "你可能会注意到它和它们现在的样子不同。"
+ },
+ {
+  "seg": 61,
+  "start": 270.208,
+  "end": 274.753,
+  "speaker": "Unknown",
+  "en": "It looks less like an app and more like somebody took a picture of a compass and put it in the phone.",
+  "zh": "它看起来不太像一个应用程序，更像是一个人拍了张指南针的照片然后把它放进了手机里。"
+ },
+ {
+  "seg": 62,
+  "start": 275.674,
+  "end": 277.496,
+  "speaker": "Unknown",
+  "en": "This is how apps used to look.",
+  "zh": "这就是应用程序过去的样子。"
+ },
+ {
+  "seg": 63,
+  "start": 279.018,
+  "end": 279.719,
+  "speaker": "Unknown",
+  "en": "But now they look like this.",
+  "zh": "但现在它们看起来像这样。"
+ },
+ {
+  "seg": 64,
+  "start": 281.04,
+  "end": 284.281,
+  "speaker": "Unknown",
+  "en": "And most people look at that and they're like, oh, that's an obvious downgrade.",
+  "zh": "大多数人看着那个然后会说，哦，这明显是个降级。"
+ },
+ {
+  "seg": 65,
+  "start": 284.301,
+  "end": 285.262,
+  "speaker": "Unknown",
+  "en": "That's so much worse.",
+  "zh": "这糟糕多了。"
+ },
+ {
+  "seg": 66,
+  "start": 285.622,
+  "end": 286.522,
+  "speaker": "Unknown",
+  "en": "Why would Apple ever do that?",
+  "zh": "Apple 为什么会那样做？"
+ },
+ {
+  "seg": 67,
+  "start": 286.542,
+  "end": 289.003,
+  "speaker": "Unknown",
+  "en": "This is the downfall of Apple and the beauty of their design.",
+  "zh": "这是 Apple 的衰落和它们设计的美丽之处。"
+ },
+ {
+  "seg": 68,
+  "start": 290.064,
+  "end": 291.044,
+  "speaker": "Unknown",
+  "en": "I'm gonna fight you guys on that.",
+  "zh": "我要在这一点上和你们争论一下。"
+ },
+ {
+  "seg": 69,
+  "start": 292.045,
+  "end": 300.248,
+  "speaker": "Unknown",
+  "en": "iOS 7 was Apple moving away from trying to convince you that these devices can replace the old tools we used to rely on.",
+  "zh": "iOS 7 是 Apple 不再试图说服你这些设备可以取代我们过去依赖的旧工具。"
+ },
+ {
+  "seg": 70,
+  "start": 300.748,
+  "end": 306.831,
+  "speaker": "Unknown",
+  "en": "The compass had to look like a compass because the compass had to replace the physical compass that you relied on.",
+  "zh": "指南针必须看起来像个指南针，因为指南针必须取代你依赖的实体指南针。"
+ },
+ {
+  "seg": 71,
+  "start": 307.79,
+  "end": 316.515,
+  "speaker": "Unknown",
+  "en": "The Books app had to look like a bookshelf with real pages that turned, because it had to convince you it was a reasonable alternative to buying a book and reading the paper version.",
+  "zh": "Books 应用程序必须看起来像个带有真实翻页效果的书架，因为它必须说服你它是买书和阅读纸质书的一个合理替代品。"
+ },
+ {
+  "seg": 72,
+  "start": 317.806,
+  "end": 321.689,
+  "speaker": "Unknown",
+  "en": "Apps had to be designed to convince you to use them, not to be useful.",
+  "zh": "应用程序必须被设计来说服你使用它们，而不是为了有用。"
+ },
+ {
+  "seg": 73,
+  "start": 322.549,
+  "end": 327.953,
+  "speaker": "Unknown",
+  "en": "And iOS 7 represents the shift to not focusing on convincing you anymore.",
+  "zh": "iOS 7 代表了不再专注于说服你的转变。"
+ },
+ {
+  "seg": 74,
+  "start": 328.133,
+  "end": 329.053,
+  "speaker": "Unknown",
+  "en": "Apple won.",
+  "zh": "Apple 赢了。"
+ },
+ {
+  "seg": 75,
+  "start": 329.374,
+  "end": 331.995,
+  "speaker": "Unknown",
+  "en": "By that point, everyone knew their iPhone could do all of these different things.",
+  "zh": "那时，每个人都知道他们的 iPhone 可以做所有这些不同的事情。"
+ },
+ {
+  "seg": 76,
+  "start": 332.476,
+  "end": 338.5,
+  "speaker": "Unknown",
+  "en": "The point of iOS 7 was to stop convincing and start embracing, start making a better interface.",
+  "zh": "iOS 7 的重点是停止说服，开始拥抱，开始制作一个更好的界面。"
+ },
+ {
+  "seg": 77,
+  "start": 338.56,
+  "end": 341.842,
+  "speaker": "Unknown",
+  "en": "And this interface, as much as we might not like how it looks, it's so much more useful.",
+  "zh": "这个界面，即使我们可能不喜欢它的样子，它也要有用得多。"
+ },
+ {
+  "seg": 78,
+  "start": 342.342,
+  "end": 346.804,
+  "speaker": "Unknown",
+  "en": "You have clear indications of the difference between what direction you're locked on and where you're currently pointing.",
+  "zh": "你有清晰的指示来区分你锁定的方向和你当前指向的方向。"
+ },
+ {
+  "seg": 79,
+  "start": 346.904,
+  "end": 350.807,
+  "speaker": "Unknown",
+  "en": "That red block is a super nice way to know that you're not in the direction you intend.",
+  "zh": "那个红色块是一个非常好的方式，让你知道你不在你原本的方向上。"
+ },
+ {
+  "seg": 80,
+  "start": 351.767,
+  "end": 355.629,
+  "speaker": "Unknown",
+  "en": "The current direction you're facing is way clearer too with the giant 228 at the bottom.",
+  "zh": "你当前面对的方向也要清晰得多，底部显示着巨大的 228。"
+ },
+ {
+  "seg": 81,
+  "start": 356.169,
+  "end": 359.451,
+  "speaker": "Unknown",
+  "en": "You just get way more info here than you did before.",
+  "zh": "你在这里得到的信息比以前多得多。"
+ },
+ {
+  "seg": 82,
+  "start": 359.991,
+  "end": 361.052,
+  "speaker": "Unknown",
+  "en": "It's so much clearer.",
+  "zh": "它清晰得多。"
+ },
+ {
+  "seg": 83,
+  "start": 361.552,
+  "end": 366.455,
+  "speaker": "Unknown",
+  "en": "Even if we don't like it because it's not the thing we're used to, we got over it.",
+  "zh": "即使因为我们不习惯它而不喜欢它，我们也克服了。"
+ },
+ {
+  "seg": 84,
+  "start": 368.513,
+  "end": 371.354,
+  "speaker": "Unknown",
+  "en": "We're currently in our skeuomorphic phase as software developers.",
+  "zh": "我们作为软件开发者目前正处于拟物化阶段。"
+ },
+ {
+  "seg": 85,
+  "start": 371.955,
+  "end": 380.419,
+  "speaker": "Unknown",
+  "en": "Skeuomorphism is this design aesthetic trying to represent the way things used to look, the physical goods that we relied on, and try to make them digital.",
+  "zh": "拟物化是一种设计美学，试图表现事物过去的样子，我们依赖的实物，并试图使它们数字化。"
+ },
+ {
+  "seg": 86,
+  "start": 381.579,
+  "end": 383.08,
+  "speaker": "Unknown",
+  "en": "We're doing this right now with software.",
+  "zh": "我们现在正在用软件做这件事。"
+ },
+ {
+  "seg": 87,
+  "start": 383.822,
+  "end": 390.125,
+  "speaker": "Unknown",
+  "en": "We're pretending our terminals are the ultimate interface when they're not even good interfaces, and I'm saying this as someone who loves their terminal deeply.",
+  "zh": "我们假装我们的终端是终极界面，当它们甚至都不是好的界面时，而我作为一个深爱终端的人这么说。"
+ },
+ {
+  "seg": 88,
+  "start": 391.146,
+  "end": 395.468,
+  "speaker": "Unknown",
+  "en": "Natural language has no place in a terminal, but we pretend it does because the terminal's familiar.",
+  "zh": "自然语言在终端中没有一席之地，但我们假装它有，因为终端很熟悉。"
+ },
+ {
+  "seg": 89,
+  "start": 395.608,
+  "end": 397.709,
+  "speaker": "Unknown",
+  "en": "It's what we're used to, it's what we love.",
+  "zh": "这是我们习惯的，这是我们要的。"
+ },
+ {
+  "seg": 90,
+  "start": 397.849,
+  "end": 400.81,
+  "speaker": "Unknown",
+  "en": "It's where we like to think of ourselves when we're thinking about coding.",
+  "zh": "当我们在思考代码时，这是我们喜欢想象自己的地方。"
+ },
+ {
+  "seg": 91,
+  "start": 401.951,
+  "end": 406.593,
+  "speaker": "Unknown",
+  "en": "Who here is an aspiring Vim user that wishes you could use Vim or even does?",
+  "zh": "这里谁是渴望使用 Vim 的用户，希望能用 Vim 或者甚至已经在用了？"
+ },
+ {
+  "seg": 92,
+  "start": 407.434,
+  "end": 409.635,
+  "speaker": "Unknown",
+  "en": "I know we've all had that Vim phase where we all tried.",
+  "zh": "我知道我们都有过那个 Vim 阶段，那时我们都试过。"
+ },
+ {
+  "seg": 93,
+  "start": 411.19,
+  "end": 412.471,
+  "speaker": "Unknown",
+  "en": "This is just how we are as devs.",
+  "zh": "这就是我们作为开发者的样子。"
+ },
+ {
+  "seg": 94,
+  "start": 412.531,
+  "end": 414.112,
+  "speaker": "Unknown",
+  "en": "We care so deeply about these things.",
+  "zh": "我们深深地关心这些事情。"
+ },
+ {
+  "seg": 95,
+  "start": 414.152,
+  "end": 417.714,
+  "speaker": "Unknown",
+  "en": "We care so deeply about our tools, the systems we pick, the frameworks, the languages.",
+  "zh": "我们深深地关心我们的工具，我们选择的系统，框架，语言。"
+ },
+ {
+  "seg": 96,
+  "start": 418.514,
+  "end": 419.735,
+  "speaker": "Unknown",
+  "en": "We like to think it all matters.",
+  "zh": "我们喜欢认为这一切都很重要。"
+ },
+ {
+  "seg": 97,
+  "start": 420.955,
+  "end": 422.276,
+  "speaker": "Unknown",
+  "en": "And we've blinded ourselves in this.",
+  "zh": "我们在这方面蒙蔽了自己。"
+ },
+ {
+  "seg": 98,
+  "start": 423.017,
+  "end": 426.919,
+  "speaker": "Unknown",
+  "en": "We think things that just don't make sense when you take one step back.",
+  "zh": "当你退后一步时，我们认为那些根本说不通的事情。"
+ },
+ {
+  "seg": 99,
+  "start": 426.999,
+  "end": 428.96,
+  "speaker": "Unknown",
+  "en": "Like, why can't we commit our environment files?",
+  "zh": "比如，为什么我们不能提交我们的环境文件？"
+ },
+ {
+  "seg": 100,
+  "start": 430.417,
+  "end": 434.24,
+  "speaker": "Unknown",
+  "en": "It sounds stupid when I put it on a slide like this, but I want you to really think about this for a second.",
+  "zh": "当我这样把它放在幻灯片上时，听起来很蠢，但我希望你们真的认真思考一下这个。"
+ },
+ {
+  "seg": 101,
+  "start": 434.86,
+  "end": 443.726,
+  "speaker": "Unknown",
+  "en": "When I have a team of engineers that are working on a project, why do I have to build another system to share this specific file, but all the other files can go and get just fine?",
+  "zh": "当我有一组工程师正在做一个项目时，为什么我必须构建另一个系统来分享这个特定的文件，而其他所有文件都可以正常获取？"
+ },
+ {
+  "seg": 102,
+  "start": 444.767,
+  "end": 445.167,
+  "speaker": "Unknown",
+  "en": "It's dumb.",
+  "zh": "这很蠢。"
+ },
+ {
+  "seg": 103,
+  "start": 445.647,
+  "end": 452.652,
+  "speaker": "Unknown",
+  "en": "It's just how Git was built, because it was built for a very specific thing, and then it took over our industry, and it took over our brains, and we aren't letting go of that.",
+  "zh": "这就是 Git 的构建方式，因为它是为非常特定的东西构建的，然后它接管了我们的行业，接管了我们的大脑，而我们不愿意放手。"
+ },
+ {
+  "seg": 104,
+  "start": 453.772,
+  "end": 458.174,
+  "speaker": "Unknown",
+  "en": "There's a lot of these things in our heads that we have to start fighting.",
+  "zh": "我们脑子里有很多这样的事情，我们必须开始与之斗争。"
+ },
+ {
+  "seg": 105,
+  "start": 458.715,
+  "end": 462.657,
+  "speaker": "Unknown",
+  "en": "We have to take the step back and think, is this how we do things because it's right?",
+  "zh": "我们必须退一步思考，我们这样做是因为它是对的吗？"
+ },
+ {
+  "seg": 106,
+  "start": 462.857,
+  "end": 465.318,
+  "speaker": "Unknown",
+  "en": "Or is this how we do things because it's just how we've always done it?",
+  "zh": "还是我们这样做只是因为我们一直是这样做的？"
+ },
+ {
+  "seg": 107,
+  "start": 466.299,
+  "end": 471.122,
+  "speaker": "Unknown",
+  "en": "And as you start to think more about this, you'll realize there are so many things that we do this with.",
+  "zh": "当你开始更多地思考这一点时，你会意识到我们在很多事情上都是这样做的。"
+ },
+ {
+  "seg": 108,
+  "start": 472.002,
+  "end": 474.504,
+  "speaker": "Unknown",
+  "en": "Like, why do we qualify ourselves by the languages we know?",
+  "zh": "比如，为什么我们要通过我们知道的语言来给自己定性？"
+ },
+ {
+  "seg": 109,
+  "start": 475.104,
+  "end": 476.285,
+  "speaker": "Unknown",
+  "en": "I used to think this was a junior thing.",
+  "zh": "我以前以为这是初级人员的问题。"
+ },
+ {
+  "seg": 110,
+  "start": 476.305,
+  "end": 480.147,
+  "speaker": "Unknown",
+  "en": "Like, I can't tell you how many times I had a junior engineer I was talking to who was like, oh, you're a coder?",
+  "zh": "比如，我数不清有多少次和一个初级工程师交谈，他会说，哦，你是个写代码的？"
+ },
+ {
+  "seg": 111,
+  "start": 480.227,
+  "end": 481.127,
+  "speaker": "Unknown",
+  "en": "What languages do you write?",
+  "zh": "你写什么语言？"
+ },
+ {
+  "seg": 112,
+  "start": 481.147,
+  "end": 481.968,
+  "speaker": "Unknown",
+  "en": "I write JavaScript.",
+  "zh": "我写 JavaScript。"
+ },
+ {
+  "seg": 113,
+  "start": 482.848,
+  "end": 484.309,
+  "speaker": "Unknown",
+  "en": "I thought this was a junior problem.",
+  "zh": "我以为这是个初级人员的问题。"
+ },
+ {
+  "seg": 114,
+  "start": 484.449,
+  "end": 487.45,
+  "speaker": "Unknown",
+  "en": "But then you talk to senior engineers, they're like, oh, he writes JavaScript, he's not a real developer.",
+  "zh": "但是当你和高级工程师交谈时，他们会说，哦，他写 JavaScript，他不是个真正的开发者。"
+ },
+ {
+  "seg": 115,
+  "start": 488.251,
+  "end": 489.071,
+  "speaker": "Unknown",
+  "en": "We care too much.",
+  "zh": "我们太在意了。"
+ },
+ {
+  "seg": 116,
+  "start": 489.451,
+  "end": 491.712,
+  "speaker": "Unknown",
+  "en": "We pride ourselves in these things.",
+  "zh": "我们为这些事情感到自豪。"
+ },
+ {
+  "seg": 117,
+  "start": 491.772,
+  "end": 499.996,
+  "speaker": "Unknown",
+  "en": "They're our identity, these weird facts, these weird choices, these things that feel essential just don't matter that much anymore.",
+  "zh": "这些是我们的身份，这些奇怪的事实，这些奇怪的选择，这些感觉很本质的事情其实根本没那么重要了。"
+ },
+ {
+  "seg": 118,
+  "start": 500.516,
+  "end": 502.377,
+  "speaker": "Unknown",
+  "en": "And they didn't then, and they matter less now.",
+  "zh": "它们当时就不那么重要，现在更不重要了。"
+ },
+ {
+  "seg": 119,
+  "start": 502.697,
+  "end": 511.141,
+  "speaker": "Unknown",
+  "en": "We got away with it because it was so hard to find engineers that we could just tell the company what we were doing and they couldn't really say no because the alternative is spend six months trying to hire someone else.",
+  "zh": "我们能蒙混过关是因为找到工程师太难了，所以我们可以直接告诉公司我们在做什么，他们真的不能说不，因为替代方案是花六个月的时间试着去雇别人。"
+ },
+ {
+  "seg": 120,
+  "start": 511.322,
+  "end": 512.022,
+  "speaker": "Unknown",
+  "en": "They're not gonna do that.",
+  "zh": "他们不会那样做的。"
+ },
+ {
+  "seg": 121,
+  "start": 513.76,
+  "end": 516.743,
+  "speaker": "Unknown",
+  "en": "And along that note, why are we so scared of deleting code?",
+  "zh": "顺便提一下，为什么我们这么害怕删除代码？"
+ },
+ {
+  "seg": 122,
+  "start": 517.363,
+  "end": 520.206,
+  "speaker": "Unknown",
+  "en": "I cannot tell you how many times I've been in a conversation with someone",
+  "zh": "我数不清有多少次我和某人处于一段对话中"
+ },
+ {
+  "seg": 123,
+  "start": 521.257,
+  "end": 524.098,
+  "speaker": "Unknown",
+  "en": "where the solution is to just delete it and reset.",
+  "zh": "其中解决方案就是直接删除它并重置。"
+ },
+ {
+  "seg": 124,
+  "start": 524.598,
+  "end": 528.959,
+  "speaker": "Unknown",
+  "en": "But we have such a bad sunk cost mindset in this industry.",
+  "zh": "但我们在这个行业有着非常糟糕的沉没成本心态。"
+ },
+ {
+  "seg": 125,
+  "start": 529.219,
+  "end": 540.441,
+  "speaker": "Unknown",
+  "en": "We care so much about the code we wrote and we care so much about it still being there that I feel bad working with my team sometimes when somebody files a PR that isn't quite the right solution but they spent a week or two on it.",
+  "zh": "我们太在乎我们写的代码了，也太在乎它仍然存在，以至于有时和我的团队一起工作我感觉很糟糕，当有人提交了一个 PR，它不是很正确的解决方案，但他们花了一两周在上面。"
+ },
+ {
+  "seg": 126,
+  "start": 540.961,
+  "end": 542.762,
+  "speaker": "Unknown",
+  "en": "Who here has guilt merged a PR before?",
+  "zh": "这里有人因为内疚而合并过 PR 吗？"
+ },
+ {
+  "seg": 127,
+  "start": 543.062,
+  "end": 549.663,
+  "speaker": "Unknown",
+  "en": "Where you just felt bad because somebody put a lot of work in, it's not quite the right thing, but you merged it anyways because the alternative was a conversation you didn't want to have.",
+  "zh": "你只是感觉不好，因为某人投入了很多工作，这不太对，但你还是合并了它，因为替代方案是你不想进行的一场对话。"
+ },
+ {
+  "seg": 128,
+  "start": 552.773,
+  "end": 553.994,
+  "speaker": "Unknown",
+  "en": "why do we do this to ourselves?",
+  "zh": "我们为什么要对自己做这种事？"
+ },
+ {
+  "seg": 129,
+  "start": 554.615,
+  "end": 561.74,
+  "speaker": "Unknown",
+  "en": "One of the nice things about agents, you don't have to feel bad when you shut down their work, but we just care too much, is the point I'm trying to make.",
+  "zh": "关于智能体的好处之一是，当你关闭它们的工作时你不必感觉糟糕，但我们只是太在乎了，这就是我试图表达的观点。"
+ },
+ {
+  "seg": 130,
+  "start": 561.76,
+  "end": 564.822,
+  "speaker": "Unknown",
+  "en": "And the things we care about are not necessarily the things that matter anymore.",
+  "zh": "而我们在乎的事情不一定是现在重要的事情。"
+ },
+ {
+  "seg": 131,
+  "start": 565.303,
+  "end": 567.905,
+  "speaker": "Unknown",
+  "en": "And I hope we can finally start to challenge some of these.",
+  "zh": "我希望我们最终能开始挑战其中的一些。"
+ },
+ {
+  "seg": 132,
+  "start": 569.123,
+  "end": 583.276,
+  "speaker": "Unknown",
+  "en": "I'm gonna get a little more personal here by showing some of the ideas I've built, because the goal here is that when you guys go out of this talk, you have a better mindset for coming up with ideas that make sense now by rejecting the things that made sense before.",
+  "zh": "我要通过展示我构建的一些想法在这里更个人化一点，因为这里的目的是当你们离开这个演讲时，你们有更好的心态来想出现在有意义的想法，通过拒绝以前有意义的事情。"
+ },
+ {
+  "seg": 133,
+  "start": 584.637,
+  "end": 587.66,
+  "speaker": "Unknown",
+  "en": "These are three of the things that I have built or are currently working on.",
+  "zh": "这些是我构建的或正在从事的三件事。"
+ },
+ {
+  "seg": 134,
+  "start": 588.021,
+  "end": 589.082,
+  "speaker": "Unknown",
+  "en": "I'm gonna go from the bottom up.",
+  "zh": "我要从下往上讲。"
+ },
+ {
+  "seg": 135,
+  "start": 589.95,
+  "end": 595.375,
+  "speaker": "Unknown",
+  "en": "I built a Reddit scraper because making good memes is hard and I would rather just steal them from Reddit, and it went pretty well.",
+  "zh": "我构建了一个 Reddit 爬虫，因为制作好的表情包很难，我宁愿直接从 Reddit 上偷，而且效果很好。"
+ },
+ {
+  "seg": 136,
+  "start": 595.575,
+  "end": 603.642,
+  "speaker": "Unknown",
+  "en": "It was a side project that took me two to three days, would just scrape Reddit, top posts on programming humor, put them in a nice format for me so I could go copy-paste them onto Twitter.",
+  "zh": "这是一个花了我在两三天的副业项目，只是爬取 Reddit，编程幽默的热门帖子，把它们以好的格式放给我，这样我就可以去复制粘贴它们到 Twitter 上。"
+ },
+ {
+  "seg": 137,
+  "start": 604.683,
+  "end": 607.566,
+  "speaker": "Unknown",
+  "en": "Zoom for Streamers was the startup I went through my combinator with.",
+  "zh": "面向主播的 Zoom 是我和我的组合经历过的那家初创公司。"
+ },
+ {
+  "seg": 138,
+  "start": 607.586,
+  "end": 608.227,
+  "speaker": "Unknown",
+  "en": "It was called Ping.",
+  "zh": "它叫 Ping。"
+ },
+ {
+  "seg": 139,
+  "start": 608.467,
+  "end": 615.033,
+  "speaker": "Unknown",
+  "en": "I wanted to make it easier for live content creators to do high-quality collaborations in the software they already used, OBS.",
+  "zh": "我想让内容创作者更容易在他们已经使用的软件 OBS 中进行高质量的合作。"
+ },
+ {
+  "seg": 140,
+  "start": 616.103,
+  "end": 620.269,
+  "speaker": "Unknown",
+  "en": "The full stack cloud is, let's just imagine Vercel, but it goes further each direction.",
+  "zh": "全栈云就是，让我们想象一下 Vercel，但它在每个方向上都走得更远。"
+ },
+ {
+  "seg": 141,
+  "start": 620.289,
+  "end": 622.512,
+  "speaker": "Unknown",
+  "en": "They have auth built in, but they also have databases built in.",
+  "zh": "它们内置了认证，但也内置了数据库。"
+ },
+ {
+  "seg": 142,
+  "start": 623.073,
+  "end": 628.481,
+  "speaker": "Unknown",
+  "en": "These are all things I've wanted that I benefit from existing, enough so that I tried to build all of them.",
+  "zh": "这些都是我想要的东西，我受益于它们的存在，受益到足以让我尝试构建它们全部。"
+ },
+ {
+  "seg": 143,
+  "start": 629.322,
+  "end": 632.407,
+  "speaker": "Unknown",
+  "en": "The bottom two I built in 2021, the top one I'm working on right now.",
+  "zh": "底部两个是我在 2021 年构建的，顶部那个是我现在正在从事的。"
+ },
+ {
+  "seg": 144,
+  "start": 633.775,
+  "end": 638.537,
+  "speaker": "Unknown",
+  "en": "These are also kind of tiers, different levels that we can build at.",
+  "zh": "这些也是层级，我们可以构建的不同级别。"
+ },
+ {
+  "seg": 145,
+  "start": 639.077,
+  "end": 646.12,
+  "speaker": "Unknown",
+  "en": "If I was to try and categorize them, I would call the bottom one side project, call the middle one startup, and call the top one too big.",
+  "zh": "如果我要尝试对它们进行分类，我会把底部那个称为副业项目，把中间那个称为初创公司，把顶部那个称为太大了。"
+ },
+ {
+  "seg": 146,
+  "start": 646.56,
+  "end": 647.4,
+  "speaker": "Unknown",
+  "en": "It just doesn't make sense.",
+  "zh": "这根本说不通。"
+ },
+ {
+  "seg": 147,
+  "start": 648.38,
+  "end": 651.942,
+  "speaker": "Unknown",
+  "en": "Well, this is how I would have categorized this even just a year ago.",
+  "zh": "嗯，即使就在一年前，我也是这样分类的。"
+ },
+ {
+  "seg": 148,
+  "start": 653.102,
+  "end": 653.802,
+  "speaker": "Unknown",
+  "en": "But things have changed.",
+  "zh": "但事情已经变了。"
+ },
+ {
+  "seg": 149,
+  "start": 653.822,
+  "end": 657.124,
+  "speaker": "Unknown",
+  "en": "Now that the models are bigger, the tiers have shifted.",
+  "zh": "既然模型变大了，层级已经转移了。"
+ },
+ {
+  "seg": 150,
+  "start": 658.424,
+  "end": 660.625,
+  "speaker": "Unknown",
+  "en": "Everything is now one tier lower.",
+  "zh": "一切现在都低了一个层级。"
+ },
+ {
+  "seg": 151,
+  "start": 662.51,
+  "end": 664.672,
+  "speaker": "Unknown",
+  "en": "And this is a crazy thing for me to process.",
+  "zh": "这对我来说是一件很难消化的事情。"
+ },
+ {
+  "seg": 152,
+  "start": 664.872,
+  "end": 668.334,
+  "speaker": "Unknown",
+  "en": "The fact that what used to be a startup is now a side project.",
+  "zh": "事实是，以前是一个创业公司的东西现在变成了一个副业项目。"
+ },
+ {
+  "seg": 153,
+  "start": 668.434,
+  "end": 676.86,
+  "speaker": "Unknown",
+  "en": "In fact, some of the startups I've talked to, even at an event like this, their whole startup could have arguably been a side project or this bottom tier, which there's a weird gap there.",
+  "zh": "事实上，我和一些创业者聊过，甚至是在像这样的活动上，他们的整个创业公司可以说就是一个副业项目，或者属于这个底层，这中间有一个奇怪的空白。"
+ },
+ {
+  "seg": 154,
+  "start": 677.12,
+  "end": 677.501,
+  "speaker": "Unknown",
+  "en": "What's that?",
+  "zh": "那是什么？"
+ },
+ {
+  "seg": 155,
+  "start": 678.882,
+  "end": 679.642,
+  "speaker": "Unknown",
+  "en": "It's the G brain tier.",
+  "zh": "那是 G brain 层。"
+ },
+ {
+  "seg": 156,
+  "start": 679.782,
+  "end": 680.603,
+  "speaker": "Unknown",
+  "en": "It's a markdown file.",
+  "zh": "那是一个 markdown 文件。"
+ },
+ {
+  "seg": 157,
+  "start": 681.404,
+  "end": 685.767,
+  "speaker": "Unknown",
+  "en": "Do you know how many companies are at this event where their whole product could just be a markdown file?",
+  "zh": "你知道在这个活动上有多少家公司，他们的整个产品可以只是一个 markdown 文件吗？"
+ },
+ {
+  "seg": 158,
+  "start": 687.368,
+  "end": 687.928,
+  "speaker": "Unknown",
+  "en": "It's insane.",
+  "zh": "这太疯狂了。"
+ },
+ {
+  "seg": 159,
+  "start": 689.049,
+  "end": 691.251,
+  "speaker": "Unknown",
+  "en": "And like, okay, seriously though,",
+  "zh": "就像，好吧，认真地说，"
+ },
+ {
+  "seg": 160,
+  "start": 692.256,
+  "end": 701.022,
+  "speaker": "Unknown",
+  "en": "The fact that you can now execute markdown by just piping it to Codex or Claude is unbelievable, and I think most of us haven't fully appreciated how insane that is.",
+  "zh": "事实上你现在可以通过仅仅将 markdown 传给 Codex 或 Claude 来执行它，这简直难以置信，而且我认为我们大多数人还没有完全意识到这有多疯狂。"
+ },
+ {
+  "seg": 161,
+  "start": 701.582,
+  "end": 707.126,
+  "speaker": "Unknown",
+  "en": "I had a service that would triage all of my PRs, have them all get reviewed with AI, and then help me prioritize.",
+  "zh": "我有一个服务，可以对我所有的 PR（拉取请求）进行分类，让它们都通过 AI 进行审查，然后帮助我确定优先级。"
+ },
+ {
+  "seg": 162,
+  "start": 707.726,
+  "end": 708.987,
+  "speaker": "Unknown",
+  "en": "That service is a markdown file now.",
+  "zh": "那个服务现在就是一个 markdown 文件。"
+ },
+ {
+  "seg": 163,
+  "start": 709.407,
+  "end": 716.95,
+  "speaker": "Unknown",
+  "en": "I just literally wrote, like, go to these four GitHub repos, look at all the open PRs, figure out what the current status of the work is, and then help me prioritize it.",
+  "zh": "我真的只是写了，像，去这四个 GitHub 仓库，看所有开放的 PR，弄清楚工作的当前状态，然后帮助我确定优先级。"
+ },
+ {
+  "seg": 164,
+  "start": 717.311,
+  "end": 722.393,
+  "speaker": "Unknown",
+  "en": "And then when you're done, go update the static HTML file and send it to S3 and give me the URL.",
+  "zh": "然后当你完成后，去更新静态 HTML 文件并把它发送到 S3 并把 URL 给我。"
+ },
+ {
+  "seg": 165,
+  "start": 722.873,
+  "end": 728.636,
+  "speaker": "Unknown",
+  "en": "And every morning at 9 a.m., this runs on a cron at around 9.15 to 9.20, my markdown file generates me my work for the day.",
+  "zh": "然后每天早上 9 点，这会在一个 cron 上运行，大约 9:15 到 9:20，我的 markdown 文件会为我生成当天的工作。"
+ },
+ {
+  "seg": 166,
+  "start": 729.916,
+  "end": 730.457,
+  "speaker": "Unknown",
+  "en": "What the hell?",
+  "zh": "到底怎么回事？"
+ },
+ {
+  "seg": 167,
+  "start": 731.277,
+  "end": 732.598,
+  "speaker": "Unknown",
+  "en": "How are we actually here now?",
+  "zh": "我们现在怎么真的到了这一步？"
+ },
+ {
+  "seg": 168,
+  "start": 734.575,
+  "end": 735.656,
+  "speaker": "Unknown",
+  "en": "Try that if you haven't, by the way.",
+  "zh": "顺便说一句，如果你还没试过，试试看。"
+ },
+ {
+  "seg": 169,
+  "start": 735.676,
+  "end": 740.879,
+  "speaker": "Unknown",
+  "en": "You'd be amazed how many of these types of things can exist that are literally just a markdown file running on a cron.",
+  "zh": "你会惊讶于这类东西中有多少可以存在，它们实际上只是一个在 cron 上运行的 markdown 文件。"
+ },
+ {
+  "seg": 170,
+  "start": 742.04,
+  "end": 745.282,
+  "speaker": "Unknown",
+  "en": "But what about, okay, two more things I want to change about this, though.",
+  "zh": "但是关于，好吧，关于这个我想改变另外两件事。"
+ },
+ {
+  "seg": 171,
+  "start": 746.423,
+  "end": 749.125,
+  "speaker": "Unknown",
+  "en": "First is the Pulse.cloud.",
+  "zh": "首先是 Pulse.cloud。"
+ },
+ {
+  "seg": 172,
+  "start": 749.285,
+  "end": 749.705,
+  "speaker": "Unknown",
+  "en": "This is mine.",
+  "zh": "这是我的。"
+ },
+ {
+  "seg": 173,
+  "start": 750.066,
+  "end": 750.446,
+  "speaker": "Unknown",
+  "en": "Don't do it.",
+  "zh": "别做这个。"
+ },
+ {
+  "seg": 174,
+  "start": 750.566,
+  "end": 751.326,
+  "speaker": "Unknown",
+  "en": "Like, been coming soon.",
+  "zh": "就像，一直是即将推出。"
+ },
+ {
+  "seg": 175,
+  "start": 751.627,
+  "end": 752.187,
+  "speaker": "Unknown",
+  "en": "Very excited.",
+  "zh": "非常兴奋。"
+ },
+ {
+  "seg": 176,
+  "start": 752.667,
+  "end": 753.888,
+  "speaker": "Unknown",
+  "en": "I wouldn't want to compete with me on this one.",
+  "zh": "我不会想在这个项目上和我自己竞争。"
+ },
+ {
+  "seg": 177,
+  "start": 754.008,
+  "end": 755.129,
+  "speaker": "Unknown",
+  "en": "Trust me, it's gonna be really cool.",
+  "zh": "相信我，它会非常酷。"
+ },
+ {
+  "seg": 178,
+  "start": 756.51,
+  "end": 757.911,
+  "speaker": "Unknown",
+  "en": "But there's still something else.",
+  "zh": "但还有别的东西。"
+ },
+ {
+  "seg": 179,
+  "start": 758.571,
+  "end": 759.272,
+  "speaker": "Unknown",
+  "en": "There's a gap here.",
+  "zh": "这里有一个空白。"
+ },
+ {
+  "seg": 180,
+  "start": 760.624,
+  "end": 763.285,
+  "speaker": "Unknown",
+  "en": "And I'm gonna be real with you guys, I don't know what goes in this gap.",
+  "zh": "老实告诉你们，我不知道这个空白里填什么。"
+ },
+ {
+  "seg": 181,
+  "start": 764.105,
+  "end": 765.905,
+  "speaker": "Unknown",
+  "en": "I don't know what too big means anymore.",
+  "zh": "我不再知道“太大”意味着什么。"
+ },
+ {
+  "seg": 182,
+  "start": 766.286,
+  "end": 768.146,
+  "speaker": "Unknown",
+  "en": "Is it training your own model from scratch?",
+  "zh": "是从头开始训练你自己的模型吗？"
+ },
+ {
+  "seg": 183,
+  "start": 768.586,
+  "end": 770.147,
+  "speaker": "Unknown",
+  "en": "Is it building your own operating system?",
+  "zh": "是构建你自己的操作系统吗？"
+ },
+ {
+  "seg": 184,
+  "start": 770.527,
+  "end": 773.568,
+  "speaker": "Unknown",
+  "en": "Is it trying to compete with NPM and Node directly?",
+  "zh": "是试图直接与 NPM 和 Node 竞争吗？"
+ },
+ {
+  "seg": 185,
+  "start": 774.088,
+  "end": 774.528,
+  "speaker": "Unknown",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 186,
+  "start": 774.988,
+  "end": 776.668,
+  "speaker": "Unknown",
+  "en": "I don't know what too big is right now.",
+  "zh": "我现在不知道什么是“太大”。"
+ },
+ {
+  "seg": 187,
+  "start": 776.889,
+  "end": 778.809,
+  "speaker": "Unknown",
+  "en": "And that's scary, but it's also exciting.",
+  "zh": "这很可怕，但也令人兴奋。"
+ },
+ {
+  "seg": 188,
+  "start": 779.249,
+  "end": 785.351,
+  "speaker": "Unknown",
+  "en": "It means I need to keep pushing myself to go bigger than makes sense in order to find these limits.",
+  "zh": "这意味着我需要不断推动自己去超越理性的界限，以找到这些极限。"
+ },
+ {
+  "seg": 189,
+  "start": 786.44,
+  "end": 787.421,
+  "speaker": "Unknown",
+  "en": "But what does that even mean?",
+  "zh": "但这到底意味着什么？"
+ },
+ {
+  "seg": 190,
+  "start": 787.801,
+  "end": 790.602,
+  "speaker": "Unknown",
+  "en": "What does it mean to think bigger in this scenario?",
+  "zh": "在这种情况下，想得更大意味着什么？"
+ },
+ {
+  "seg": 191,
+  "start": 793.063,
+  "end": 796.685,
+  "speaker": "Unknown",
+  "en": "I would argue that bigger's probably the wrong word for most of how I'm thinking here.",
+  "zh": "我认为对于我在这里的大部分思考来说，“更大”可能是错误的词汇。"
+ },
+ {
+  "seg": 192,
+  "start": 797.486,
+  "end": 798.386,
+  "speaker": "Unknown",
+  "en": "It's time to think wider.",
+  "zh": "是时候想得更宽了。"
+ },
+ {
+  "seg": 193,
+  "start": 800.327,
+  "end": 803.889,
+  "speaker": "Unknown",
+  "en": "What I mean by this is a spectrum, and I'm sorry, I have to do a diagram.",
+  "zh": "我的意思是一个谱系，抱歉，我得画个图。"
+ },
+ {
+  "seg": 194,
+  "start": 803.909,
+  "end": 805.29,
+  "speaker": "Unknown",
+  "en": "If you watch my videos, you understand.",
+  "zh": "如果你看过我的视频，你懂的。"
+ },
+ {
+  "seg": 195,
+  "start": 806.969,
+  "end": 809.59,
+  "speaker": "Unknown",
+  "en": "There's breadth and depth to any piece of software.",
+  "zh": "任何软件都有广度和深度。"
+ },
+ {
+  "seg": 196,
+  "start": 810.091,
+  "end": 813.132,
+  "speaker": "Unknown",
+  "en": "The breadth is the range of things that your software covers.",
+  "zh": "广度是你的软件所覆盖的范围。"
+ },
+ {
+  "seg": 197,
+  "start": 813.853,
+  "end": 816.334,
+  "speaker": "Unknown",
+  "en": "And the depth is the number of features in a given area.",
+  "zh": "深度是给定区域内的功能数量。"
+ },
+ {
+  "seg": 198,
+  "start": 816.975,
+  "end": 818.515,
+  "speaker": "Unknown",
+  "en": "Let's look at a company like Vercel.",
+  "zh": "我们看看像 Vercel 这样的公司。"
+ },
+ {
+  "seg": 199,
+  "start": 819.076,
+  "end": 821.557,
+  "speaker": "Unknown",
+  "en": "Vercel does not offer all of the features that AWS does.",
+  "zh": "Vercel 不提供 AWS 提供的所有功能。"
+ },
+ {
+  "seg": 200,
+  "start": 821.777,
+  "end": 822.978,
+  "speaker": "Unknown",
+  "en": "They never will, it doesn't make sense.",
+  "zh": "它们永远不会，这没道理。"
+ },
+ {
+  "seg": 201,
+  "start": 824.158,
+  "end": 832.124,
+  "speaker": "Unknown",
+  "en": "But Vercel offers deeper features in the space they're in, which is full-stack front-end leaning servers.",
+  "zh": "但 Vercel 在它们所在的领域提供了更深入的功能，那就是全栈面向前端的服务器。"
+ },
+ {
+  "seg": 202,
+  "start": 832.884,
+  "end": 840.13,
+  "speaker": "Unknown",
+  "en": "If you're a front-end developer and you're not using Vercel, you're feeling some amount of pain because they're just further ahead with this, so much so that even the agents prefer it.",
+  "zh": "如果你是一个前端开发者并且你不在使用 Vercel，你会感到某种程度的痛苦，因为它们在这方面遥遥领先，以至于就连智能体也更喜欢它。"
+ },
+ {
+  "seg": 203,
+  "start": 841.009,
+  "end": 850.879,
+  "speaker": "Unknown",
+  "en": "And this was kind of how you had to build your startups, because if you were competing with a company like AWS, you're never gonna have all of the features they have, you're never gonna cover the range that they cover.",
+  "zh": "这就是你以前必须构建你的初创公司的方式，因为如果你要和像 AWS 这样的公司竞争，你永远无法拥有它们拥有的所有功能，你也永远无法覆盖它们覆盖的范围。"
+ },
+ {
+  "seg": 204,
+  "start": 851.599,
+  "end": 856.744,
+  "speaker": "Unknown",
+  "en": "And it made no sense to try, because you don't have the thousands of engineers they do doing that.",
+  "zh": "试图这样做毫无意义，因为你没有它们那样成千上万的工程师来做这件事。"
+ },
+ {
+  "seg": 205,
+  "start": 858.726,
+  "end": 859.267,
+  "speaker": "Unknown",
+  "en": "At least you didn't.",
+  "zh": "至少你以前没有。"
+ },
+ {
+  "seg": 206,
+  "start": 861.182,
+  "end": 862.183,
+  "speaker": "Unknown",
+  "en": "But now things have changed.",
+  "zh": "但现在事情已经改变了。"
+ },
+ {
+  "seg": 207,
+  "start": 863.124,
+  "end": 867.607,
+  "speaker": "Unknown",
+  "en": "All of a sudden, that range is viable in a way that it never was before.",
+  "zh": "突然间，这种范围以前所未有的方式变得可行了。"
+ },
+ {
+  "seg": 208,
+  "start": 868.048,
+  "end": 870.77,
+  "speaker": "Unknown",
+  "en": "I'm not saying you can build something as reliable as RDS.",
+  "zh": "我并不是说你可以构建像 RDS 那样可靠的东西。"
+ },
+ {
+  "seg": 209,
+  "start": 871.29,
+  "end": 877.095,
+  "speaker": "Unknown",
+  "en": "I'm saying that you can build a database platform into your product in a day or two of work with enough prompting and enough effort.",
+  "zh": "我是说你可以通过足够的提示词和足够的努力，用一两天的工作将一个数据库平台构建到你的产品中。"
+ },
+ {
+  "seg": 210,
+  "start": 878.08,
+  "end": 891.127,
+  "speaker": "Unknown",
+  "en": "And if you build your stuff right, if you play your cards correctly and you think about things the right way, you'll realize that you can build enough across a spectrum of things you care about to enable most users to at least start trying the thing.",
+  "zh": "如果你正确地构建你的东西，如果你打好手中的牌并且你以正确的方式思考问题，你会意识到你可以跨越你关心的一系列事物构建足够多的功能，以使大多数用户至少开始尝试这个东西。"
+ },
+ {
+  "seg": 211,
+  "start": 891.808,
+  "end": 895.97,
+  "speaker": "Unknown",
+  "en": "And when they have features they need in a given vertical that you don't support, it's not your problem.",
+  "zh": "当它们在一个你尚未支持的特定垂直领域中有它们需要的功能时，这不是你的问题。"
+ },
+ {
+  "seg": 212,
+  "start": 896.96,
+  "end": 900.623,
+  "speaker": "Unknown",
+  "en": "as long as you build it right, because they can build the features that are missing themselves.",
+  "zh": "只要你正确地构建它，因为它们可以自己构建缺失的功能。"
+ },
+ {
+  "seg": 213,
+  "start": 901.364,
+  "end": 913.574,
+  "speaker": "Unknown",
+  "en": "If you architect your systems and you architect your products in such a way that users can do things that you never would have guessed, like Slack accidentally did this, because Slack is now the platform people run their agents in half the time, which is crazy.",
+  "zh": "如果你以这样的方式构建你的系统并构建你的产品，让用户可以做一些你从未想过的事情，就像 Slack 无意中做到了这一点，因为 Slack 现在有一半的时间是人们运行智能体的平台，这太疯狂了。"
+ },
+ {
+  "seg": 214,
+  "start": 913.674,
+  "end": 914.215,
+  "speaker": "Unknown",
+  "en": "Slack sucks.",
+  "zh": "Slack 很烂。"
+ },
+ {
+  "seg": 215,
+  "start": 914.415,
+  "end": 922.422,
+  "speaker": "Unknown",
+  "en": "It's not a good product, but it's the right shape for people to build the features they want into it through the somewhat functional Slackbot APIs.",
+  "zh": "它不是一个好产品，但它是合适的形态，让人们可以通过那半吊子的 Slackbot API 将他们想要的功能构建进去。"
+ },
+ {
+  "seg": 216,
+  "start": 924.551,
+  "end": 931.638,
+  "speaker": "Unknown",
+  "en": "This is all crazy, because I'm basically sitting here telling you it's time to compete with Slack, it's time to build your own AWS, it's time to challenge Salesforce directly.",
+  "zh": "这一切都很疯狂，因为我基本上坐在这里告诉你，是时候与 Slack 竞争了，是时候构建你自己的 AWS 了，是时候直接挑战 Salesforce 了。"
+ },
+ {
+  "seg": 217,
+  "start": 932.439,
+  "end": 934.221,
+  "speaker": "Unknown",
+  "en": "It sounds stupid, but I'm gonna be real.",
+  "zh": "这听起来很蠢，但我会实话实说。"
+ },
+ {
+  "seg": 218,
+  "start": 934.241,
+  "end": 938.605,
+  "speaker": "Unknown",
+  "en": "If your idea doesn't feel stupid, it's because your idea's not big enough.",
+  "zh": "如果你的想法不显得愚蠢，那是因为你的想法还不够大。"
+ },
+ {
+  "seg": 219,
+  "start": 940.447,
+  "end": 941.228,
+  "speaker": "Unknown",
+  "en": "I think that's all I have to say.",
+  "zh": "我想这就是我要说的全部了。"
+ },
+ {
+  "seg": 220,
+  "start": 941.788,
+  "end": 942.97,
+  "speaker": "Unknown",
+  "en": "Thank you so much, AIE.",
+  "zh": "非常感谢，AIE。"
+ },
+ {
+  "seg": 221,
+  "start": 951.653,
+  "end": 952.355,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

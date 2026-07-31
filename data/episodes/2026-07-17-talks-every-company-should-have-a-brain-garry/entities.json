@@ -1,0 +1,824 @@
+{
+  "episode_id": "2026-07-17-talks-every-company-should-have-a-brain-garry",
+  "podcast": "精选演讲",
+  "date": "2026-07-17",
+  "tags": [
+    "AI 原生公司",
+    "智能体",
+    "上下文工程",
+    "技能化",
+    "公司大脑"
+  ],
+  "categories": [
+    "AI 编程",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "garry-tan",
+      "type": "person",
+      "role": "guest",
+      "name": "Garry Tan",
+      "file": "Garry Tan",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:能自主执行任务、像员工一样被管理和培训的 AI 程序;用智能体搭建的一切完全映射着一个人类组织",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            163.399,
+            169.941
+          ],
+          "quote": "Take the most pathological verbosity penalty you can stomach and assume the agent writes bloated code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            695.706,
+            698.467
+          ],
+          "quote": "But an AI agent holds a million tokens.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 134,
+          "t": [
+            704.069,
+            710.992
+          ],
+          "quote": "I said, the AI agent can keep about three Harry Potter books sitting open in its head all at once.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            808.564,
+            824.112
+          ],
+          "quote": "So I've been building mine in the open, it's called gbrain, it works with any harness, but it loves OpenClan Hermes agent, it's effectively Postgres for agents, a retrieval layer whose job is to figure out for any task, what three books should be loaded into the agent's head.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            847.641,
+            855.143
+          ],
+          "quote": "My agent has already pulled every prior conversation with that founder, three portfolio companies that hit the same wall, and what actually worked for those people.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            856.003,
+            864.465
+          ],
+          "quote": "When my agent does anything, it does everything knowing what I already know, and that's the difference between an assistant and a colleague.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            889.635,
+            902.92
+          ],
+          "quote": "It's memory plus hygiene, provenance on every fact, contradiction checks when new information collides with the old, and a librarian, human plus agent, whose actual job is pruning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            906.802,
+            912.049
+          ],
+          "quote": "treat it like a dumping ground and you get a very confident agent that is wrong in ways nobody can trace.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            976.053,
+            981.076
+          ],
+          "quote": "Use your AI agent and then when you're done with it and you're happy with the output, Skillify it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skill-file",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能文件 (skill file)",
+      "file": "技能文件",
+      "primary": true,
+      "how_described": "本集把它说成:一种用 Markdown 编写的明确指令集,就像一名员工,它拥有一种能力、一份工作,且写得足够清楚以至于可以被执行",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            271.894,
+            272.656
+          ],
+          "quote": "A skill file.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 82,
+          "t": [
+            432.508,
+            435.009
+          ],
+          "quote": "It'll actually file your taxes if you have a skill file for it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 173,
+          "t": [
+            881.632,
+            885.294
+          ],
+          "quote": "A bad skill file encodes a bad process forever.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            956.18,
+            967.547
+          ],
+          "quote": "You can search for Skillify it and go get that skill file and then just load it into your own harness and it'll just turn whatever you just did into a skill that you can reuse.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-engineering",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文工程 (context engineering)",
+      "file": "上下文工程",
+      "primary": true,
+      "how_described": "本集把它说成:设计和管理喂给模型背景信息的技术;核心是谁来决定在那张桌子上打开哪三本书(信息),这决定了你的智能体是天才还是金鱼",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 150,
+          "t": [
+            771.621,
+            772.762
+          ],
+          "quote": "That's context engineering.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "company-brain",
+      "type": "concept",
+      "role": "concept",
+      "name": "公司大脑 (company brain)",
+      "file": "公司大脑",
+      "primary": true,
+      "how_described": "本集把它说成:不仅是图书馆(知识库),更是「图书馆加图书管理员」;包含来源追踪与冲突核查,不仅负责检索信息,还要决定什么内容值得被检索",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 93,
+          "t": [
+            477.184,
+            490.574
+          ],
+          "quote": "a terminal in their lives, are building skill files and cron jobs, and one of our finance folks just collapsed about 100 Excel workbooks into a single app she built with our internal OpenClaw and company brain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            773.403,
+            774.764
+          ],
+          "quote": "And this is what a company brain is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            913.431,
+            921.161
+          ],
+          "quote": "And here's the discipline that I think personally makes our company brain and my personal AI compound.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1012.143,
+            1025.611
+          ],
+          "quote": "A thin team, skill files for everything, the founder still in the code, library, this library, this company brain, your personal AI, use Gbrain if you'd like, it's open source and free, but you don't have to, there are a lot of really good ones.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1144.337,
+            1155.087
+          ],
+          "quote": "He built a repo of 80,000 markdown files, a company brain for one small boy, and he pushed himself to the absolute edge of what humanity knows about his son's exact condition.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "本集提及它(检索增强生成),并指出虽然检索是其原语,但最难的部分在于让知识库里的内容「值得被检索」",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 153,
+          "t": [
+            777.847,
+            786.095
+          ],
+          "quote": "Now some of you are already thinking, this is just rag, and you're right that retrieval is the primitive, the same way Postgres is just bee trees.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "latent-space",
+      "type": "concept",
+      "role": "concept",
+      "name": "Latent Space",
+      "file": "Latent Space",
+      "primary": true,
+      "how_described": "本集把它说成:大语言模型内部的概率空间,用来处理品味、判断力,以及理解人类说一些模糊的话时真正想要什么",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            544.357,
+            548.54
+          ],
+          "quote": "The first area, I would say, is latent space, so the actual LLM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            597.188,
+            602.852
+          ],
+          "quote": "We have to do that in deterministic space combined with latent space.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "deterministic-space",
+      "type": "concept",
+      "role": "concept",
+      "name": "确定性空间 (deterministic space)",
+      "file": "确定性空间",
+      "primary": true,
+      "how_described": "本集把它说成:传统工程师熟悉的领域(如让智能体去写代码);嘉宾强调必须小心计算发生的地方,不要把本该在确定性空间的多维计算放在模型的上下文窗口里",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 108,
+          "t": [
+            562.568,
+            572.874
+          ],
+          "quote": "And then deterministic space is what engineers know, like your code agents go off and write TypeScript, or maybe they're writing Erlang if you're using Elixir.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            574.275,
+            577.097
+          ],
+          "quote": "Yeah, deterministic space is the second place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            597.188,
+            602.852
+          ],
+          "quote": "We have to do that in deterministic space combined with latent space.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "working-memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "工作记忆 (working memory)",
+      "file": "工作记忆",
+      "primary": true,
+      "how_described": "本集引用认知心理学理论,指出人类的工作记忆一次只能存住大约七样东西,而档案柜等机构都是为了弥补这个缺陷的假肢",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 124,
+          "t": [
+            653.816,
+            664.941
+          ],
+          "quote": "Which brings me to working memory and that's sort of my favorite way to understand it is you and I, human beings, we only hold about seven things in our head at once.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            678.824,
+            682.244
+          ],
+          "quote": "That's the entire working memory, generally, of a human being.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gbrain",
+      "type": "concept",
+      "role": "concept",
+      "name": "Gbrain",
+      "file": "Gbrain",
+      "primary": true,
+      "how_described": "本集把它说成:演讲者自研的开源检索层(公司大脑),相当于智能体的 Postgres,负责决定加载哪些上下文,目前已达 22 万页",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 162,
+          "t": [
+            808.564,
+            824.112
+          ],
+          "quote": "So I've been building mine in the open, it's called gbrain, it works with any harness, but it loves OpenClan Hermes agent, it's effectively Postgres for agents, a retrieval layer whose job is to figure out for any task, what three books should be loaded into the agent's head.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1012.143,
+            1025.611
+          ],
+          "quote": "A thin team, skill files for everything, the founder still in the code, library, this library, this company brain, your personal AI, use Gbrain if you'd like, it's open source and free, but you don't have to, there are a lot of really good ones.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skillify",
+      "type": "concept",
+      "role": "concept",
+      "name": "技能化 (Skillify)",
+      "file": "技能化",
+      "primary": true,
+      "how_described": "本集把它说成:对 AI 智能体产出的满意结果进行封装复用的核心操作指令;「永远不要做一次性工作」,只有捕捉学习成果的组织才会每天复利增长",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 185,
+          "t": [
+            952.337,
+            952.958
+          ],
+          "quote": "Skillify it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 187,
+          "t": [
+            956.18,
+            967.547
+          ],
+          "quote": "You can search for Skillify it and go get that skill file and then just load it into your own harness and it'll just turn whatever you just did into a skill that you can reuse.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            976.053,
+            981.076
+          ],
+          "quote": "Use your AI agent and then when you're done with it and you're happy with the output, Skillify it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-native-company",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 原生公司 (AI native company)",
+      "file": "AI 原生公司",
+      "primary": true,
+      "how_described": "本集把它说成:原生建立在新物理学上的公司;不靠雇佣大量人来做销售和运营,而是把所有这些都编码成「技能」交给智能体执行,只招工程师来维护这些技能",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            428.287,
+            431.308
+          ],
+          "quote": "is an AI native company, and it's not a thought experiment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            1004.419,
+            1007.601
+          ],
+          "quote": "Build the AI native company, not a company that just uses AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1226.947,
+            1230.289
+          ],
+          "quote": "Build that AI native company and build the thing underneath it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cloud-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Cloud Code",
+      "file": "Cloud Code",
+      "primary": false,
+      "how_described": "本集提到它(转写误作 Cloud Code/OpenClaw),嘉宾将其比作「法拉利」,指出当你坐下来使用它时,你其实是在雇佣、培训和管理一支由 Markdown 组成的劳动力",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            282.029,
+            291.653
+          ],
+          "quote": "A resolver table, the thing that many of you, when you run into cloud code and it says your context is too big in cloud.md, you run off and create a resolver table.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            358.908,
+            368.076
+          ],
+          "quote": "When you sit down with Cloud Code or Codex, you're not writing software, you're hiring, training, and managing a workforce made of Markdown.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集提到它,嘉宾将其比作「非常好的本田」,虽然没有那么惊艳,但能完成这其中 90% 的工作",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            358.908,
+            368.076
+          ],
+          "quote": "When you sit down with Cloud Code or Codex, you're not writing software, you're hiring, training, and managing a workforce made of Markdown.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1081.661,
+            1083.422
+          ],
+          "quote": "But Codex is a really good Honda.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "markdown",
+      "type": "concept",
+      "role": "concept",
+      "name": "markdown",
+      "file": "markdown",
+      "primary": true,
+      "how_described": "本集反复提及,由 Markdown 文件组成的劳动力构成了新型公司组织,技能文件、解析器表等本质上都是它",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            345.707,
+            348.889
+          ],
+          "quote": "They're markdown files and other types of markdown files.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            358.908,
+            368.076
+          ],
+          "quote": "When you sit down with Cloud Code or Codex, you're not writing software, you're hiring, training, and managing a workforce made of Markdown.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            554.463,
+            561.287
+          ],
+          "quote": "The non-deterministic calls the computation that lives in the model, and you steer it with the markdown file.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1144.337,
+            1155.087
+          ],
+          "quote": "He built a repo of 80,000 markdown files, a company brain for one small boy, and he pushed himself to the absolute edge of what humanity knows about his son's exact condition.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "context-window",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文窗口 (context window)",
+      "file": "上下文窗口",
+      "primary": true,
+      "how_described": "本集把它说成:大模型处理信息的限制边界;嘉宾强调不能把所有计算(如海量多维数组排座位)都塞进上下文窗口里去做",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            188.014,
+            195.262
+          ],
+          "quote": "The 2x people and the 100x people are using the exact same clod, same weights, same context window, same API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            612.339,
+            615.22
+          ],
+          "quote": "It actually must not live in the context window.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "yc",
+      "type": "company",
+      "role": "company",
+      "name": "YC",
+      "file": "YC",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            43.593,
+            49.976
+          ],
+          "quote": "And I'll spend about 20 minutes talking about what YC is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            98.34,
+            104.283
+          ],
+          "quote": "In 2013, I was a YC partner building the internal social network at YC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            141.06,
+            153.849
+          ],
+          "quote": "This year I run YC full time, same person, same hours, actually way less hours, weirdly, but I have a 5 p.m. kid pick up now, and I did the math on my output, and it's about 400x.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            202.85,
+            205.391
+          ],
+          "quote": "And it's not just me, at YC we see this all the time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            215.297,
+            218.958
+          ],
+          "quote": "most profitable batch in the history of YC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            218.998,
+            225
+          ],
+          "quote": "94 companies total have now crossed $100 million in revenue from a seed check in the history of YC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            371.399,
+            374.541
+          ],
+          "quote": "And there are tons of companies at YC that are doing this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            411.996,
+            426.706
+          ],
+          "quote": "The AI native companies that I see inside YC encode all of that as skills, written procedures that their agents execute and they hire engineers whose job it is to maintain those skills, to do the work the skills can't do yet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            435.569,
+            438.529
+          ],
+          "quote": "Now, picture YC's batch room.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            468.166,
+            474.693
+          ],
+          "quote": "At YC, as we make our transformation, it's our media people, our event staff, our finance team.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            491.194,
+            496.098
+          ],
+          "quote": "She's not a programmer, she's a manager of agents now, and everyone at YC now is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 95,
+          "t": [
+            497.563,
+            503.866
+          ],
+          "quote": "So that's why YC can run at the scale it does with a staff that would look like a rounding error at any other comparable firm.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            923.832,
+            931.253
+          ],
+          "quote": "move, and it's what I say to every YC company and everyone inside YC, which is never do one-off work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1068.849,
+            1071.811
+          ],
+          "quote": "And I'd like to fund you at YC if you do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "emergence",
+      "type": "company",
+      "role": "company",
+      "name": "Emergence",
+      "file": "Emergence",
+      "primary": false,
+      "how_described": "本集举例提到这家 AI 应用构建器,指出它在八个月内从公开发布做到了九位数的 ARR,达到 1500 万美元时只有 15 个人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            374.961,
+            381.086
+          ],
+          "quote": "Emergence, an AI app builder out of summer 24, they went from public launch to nine figures of ARR in eight months.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "retail",
+      "type": "company",
+      "role": "company",
+      "name": "Retail",
+      "file": "Retail",
+      "primary": false,
+      "how_described": "本集举例提到的一家公司,指出它只有大约 40 个人,却做到了 6000 万美元的规模",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            386.909,
+            390.833
+          ],
+          "quote": "Retail out of winter 24, it's at $60 million with about 40 people.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "postgres",
+      "type": "concept",
+      "role": "concept",
+      "name": "Postgres",
+      "file": "Postgres",
+      "primary": false,
+      "how_described": "本集用作类比,嘉宾指出就像 Postgres 只是 B 树一样,RAG(检索增强生成)只是最基础的原语,难点在于围绕它构建的一切",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 153,
+          "t": [
+            777.847,
+            786.095
+          ],
+          "quote": "Now some of you are already thinking, this is just rag, and you're right that retrieval is the primitive, the same way Postgres is just bee trees.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            808.564,
+            824.112
+          ],
+          "quote": "So I've been building mine in the open, it's called gbrain, it works with any harness, but it loves OpenClan Hermes agent, it's effectively Postgres for agents, a retrieval layer whose job is to figure out for any task, what three books should be loaded into the agent's head.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -1,0 +1,141 @@
+{
+  "title_zh": "别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖",
+  "tldr": "模型变强了,但开发者还在用过时的“拟物化”思维写软件。该放手让模型做大项目。",
+  "digest_md": "一个能把所有 PR 分类、用 AI 审查、排好优先级的服务,现在就是一个 markdown 文件——把它喂给 Claude 或 Codex,设个定时任务,每天早上一封汇报邮件就出来了。\n\n说这话的人是个 YouTuber,也是写过十几年代码的开发者。在这场演讲里,他带观众走过大模型进化的三个时代,讲了一件让他陷入「AI 精神病」的事:模型变强的速度远超人的适应速度。他提了三个核心观点:为什么从 Sonnet 3.5 到 Mythos 是从「调工具」到「自编排」的质变;为什么开发者必须抛弃对终端、特定语言和旧代码的「拟物化」迷恋;以及为什么现在所谓的「创业点子」其实只配叫副业,真正的机会在于敢于想「大得显得愚蠢」的事情。\n\n### 三个时代:从工具调用到自我编排\n\n他把大模型分为三个时代来看待 [02:05]。Sonnet 3.5 是「工具调用时代」,它是第一个能在代码库上下文里足够可靠地做工具调用、真正帮你干日常编码活的模型。后来出了 Opus 4.5,能做更长流程的任务,会自己测试、把工作收尾,完成任务所需的时间从分钟变成了小时 [01:39]。而到了 Mythos,模型能自己理解代码库、理解自己,并主动派生其他模型来分头干活、事后验证,这就是「编排时代」 [02:35]。如果模型真的一直变强,而人变强的速度跟不上,那就别死磕细节了,「我们必须做得更大」 [03:35]。\n\n### 从 iOS 7 说起:开发者的拟物化包袱\n\n讲完了模型为什么重要,接下来要面对的是人。想做得更大,首先得「放下自我」 [03:37]。为了解释这个心理障碍,他打了个比方:用过 iOS 6 的人可能记得,当时的指南针 app 必须画得像个真的指南针,因为那时候的 app 设计必须先「说服」你去用它;而到了 iOS 7,界面变扁平了,不用再模仿实物,因为大家已经默认手机能干这些事了,这时候重点就变成了「拥抱」更好的交互 [05:22]。\n\n他认为,我们软件开发者现在还处在死抱着旧界面的「拟物化」阶段 [06:08]。大家假装终端是终极界面,其实它连个像样的界面都算不上,自然语言在里面根本没立足之地,只因为大家习惯了就死抱不放 [06:23]。再比如 Git,为了版本控制不让提交环境文件,我们不得不专门搭套系统去分享这一个文件,这件事细想其实很蠢,但因为是 Git 的设定,我们就全盘接受了 [07:10]。还有用编程语言给人定性的执念:初级程序员说我写 JavaScript,高级工程师则鄙视写 JavaScript 的不是真开发者——我们在这些奇怪的自我认同上投入了太多没必要的情感 [08:09]。更糟糕的是行业内严重的沉没成本心态,面对不对的代码,删掉重置是最好的办法,但往往因为别人写了一两周,你怕伤人就硬着头皮合并了 PR [08:44]。关掉智能体的产出不用有心理负担,这恰恰是放手让 AI 干活的好处。\n\n### 创业点子降级:一切皆 markdown\n\n旧工具和旧心理包袱放下了,项目的层级也会随之重构。他拿自己做过的三个东西举例:爬 Reddit 做表情包的爬虫、叫 Ping 的面向主播的 Zoom 替代品(他上过 Y Combinator),以及一个内置数据库和认证的全栈云 [09:48]。就在一年前,他会把这三样分别归为:副业项目、初创公司、太大做不了 [10:39]。但现在模型变强了,层级整体下移——曾经的初创公司现在只算副业,而最底层现在直接变成了:一个 markdown 文件 [10:53]。\n\n> 【背景】Y Combinator(常简称 YC)是美国知名的早期创业孵化器。\n\n这事听起来离谱,但演讲者自己有个给 PR 分类的服务,现在就真成了一个 markdown 文件。他只需在里面写上指令:去这四个仓库看开放的 PR,搞清楚现状排好优先级,最后更新一个 HTML 文件传到 S3 [11:49]。每天早上 9 点跑个定时任务,这份工作就自动生成了。到底有多少公司的产品其实就是一个喂给 Claude 或 Codex 的 markdown 文件?这才是让他感到恐惧又兴奋的空白地带 [11:18]。\n\n### 思考更宽,而不是更大\n\n既然 markdown 就能搞定传统创业项目,那现在的「太大」到底指什么?是想从头训练模型?做操作系统?还是直接跟 Node 和 NPM 竞争?他坦言自己也不知道 [12:54]。但与其纠结于「大」,不如换个词:想得更「宽」 [13:17]。软件有广度和深度之分,以前你没法跟 AWS 拼广度(功能覆盖的广度),因为你没成千上万的工程师,所以只能像 Vercel 那样在特定领域(如全栈前端)拼深度 [13:52]。可现在,有了模型加持,你能用一两天的工作量就把一个数据库平台做进自己的产品里,拼广度突然变得可行了 [14:31]。你只要把地基打好,让用户有自己往上添砖加瓦的空间(就像 Slack 成了大家跑智能体的平台一样) [15:01]。\n\n## 本集带走\n最后收个尾,这一集值得带走的是三层意思。第一,大模型已经跨过了单纯调用工具的阶段,现在它能自己理解上下文、主动派生其他模型分头干活,也就是进入了「编排时代」,别再像以前那样一步一步下指令了,放手让它自己干。第二,作为开发者,我们得放下对特定语言、终端界面、Git 旧规矩的执念,甚至要克服害怕删代码的沉没成本包袱,那些过去被我们奉为金科玉律的东西,很多只是历史惯性。第三,也是最关键的一点,在模型加持下,过去的创业公司现在只需一个 markdown 文件加定时任务就能跑起来。所以别再在狭窄的垂直领域里跟别人卷深度了,去拼广度,去敢于直面 AWS 和 Slack,如果你的想法听起来不觉得愚蠢,那只能说明它还不够大。",
+  "quotes": [
+    {
+      "en": "The models are getting better faster than we are, so we can't necessarily get better, so instead we have to go bigger.",
+      "zh": "模型变得更好的速度比我们要快,所以我们不一定能变好,所以相反我们必须做得更大。",
+      "timestamp": "03:29",
+      "speaker": "Theo Browne"
+    },
+    {
+      "en": "We're currently in our skeuomorphic phase as software developers.",
+      "zh": "我们作为软件开发者目前正处于拟物化阶段。",
+      "timestamp": "06:08",
+      "speaker": "Theo Browne"
+    },
+    {
+      "en": "Natural language has no place in a terminal, but we pretend it does because the terminal's familiar.",
+      "zh": "自然语言在终端中没有一席之地,但我们假装它有,因为终端很熟悉。",
+      "timestamp": "06:31",
+      "speaker": "Theo Browne"
+    },
+    {
+      "en": "We got away with it because it was so hard to find engineers that we could just tell the company what we were doing and they couldn't really say no because the alternative is spend six months trying to hire someone else.",
+      "zh": "我们能蒙混过关是因为找到工程师太难了,所以我们可以直接告诉公司我们在做什么,他们真的不能说不,因为替代方案是花六个月的时间试着去雇别人。",
+      "timestamp": "08:22",
+      "speaker": "Theo Browne"
+    },
+    {
+      "en": "But we have such a bad sunk cost mindset in this industry.",
+      "zh": "但我们在这个行业有着非常糟糕的沉没成本心态。",
+      "timestamp": "08:44",
+      "speaker": "Theo Browne"
+    },
+    {
+      "en": "If your idea doesn't feel stupid, it's because your idea's not big enough.",
+      "zh": "如果你的想法不显得愚蠢,那是因为你的想法还不够大。",
+      "timestamp": "15:34",
+      "speaker": "Theo Browne"
+    },
+    {
+      "en": "because Slack is now the platform people run their agents in half the time, which is crazy.",
+      "zh": "因为 Slack 现在有一半的时间是人们运行智能体的平台,这太疯狂了。",
+      "timestamp": "15:10",
+      "speaker": "Theo Browne"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "And it knows how to spawn additional models and break up work in a way where it can be completed more reliably and then verified afterwards.",
+      "zh": "它知道如何生成额外的模型,并以一种可以更可靠完成然后事后验证的方式拆分工作。",
+      "timestamp": "02:44",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "The models are getting better faster than we are, so we can't necessarily get better, so instead we have to go bigger.",
+      "zh": "模型变得更好的速度比我们要快,所以我们不一定能变好,所以相反我们必须做得更大。",
+      "timestamp": "03:29",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "We're currently in our skeuomorphic phase as software developers.",
+      "zh": "我们作为软件开发者目前正处于拟物化阶段。",
+      "timestamp": "06:08",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Natural language has no place in a terminal, but we pretend it does because the terminal's familiar.",
+      "zh": "自然语言在终端中没有一席之地,但我们假装它有,因为终端很熟悉。",
+      "timestamp": "06:31",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "We got away with it because it was so hard to find engineers that we could just tell the company what we were doing and they couldn't really say no because the alternative is spend six months trying to hire someone else.",
+      "zh": "我们能蒙混过关是因为找到工程师太难了,所以我们可以直接告诉公司我们在做什么,他们真的不能说不,因为替代方案是花六个月的时间试着去雇别人。",
+      "timestamp": "08:22",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "But we have such a bad sunk cost mindset in this industry.",
+      "zh": "但我们在这个行业有着非常糟糕的沉没成本心态。",
+      "timestamp": "08:44",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "The fact that what used to be a startup is now a side project.",
+      "zh": "事实是,以前是一个创业公司的东西现在变成了一个副业项目。",
+      "timestamp": "11:04",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Do you know how many companies are at this event where their whole product could just be a markdown file?",
+      "zh": "你知道在这个活动上有多少家公司,他们的整个产品可以只是一个 markdown 文件吗?",
+      "timestamp": "11:21",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "I'm saying that you can build a database platform into your product in a day or two of work with enough prompting and enough effort.",
+      "zh": "我是说你可以通过足够的提示词和足够的努力,用一两天的工作将一个数据库平台构建到你的产品中。",
+      "timestamp": "14:31",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "If your idea doesn't feel stupid, it's because your idea's not big enough.",
+      "zh": "如果你的想法不显得愚蠢,那是因为你的想法还不够大。",
+      "timestamp": "15:34",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "It's time to think wider.",
+      "zh": "是时候想得更宽了。",
+      "timestamp": "13:17",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "I think you'll be surprised how far it can go.",
+      "zh": "我想你会惊讶它能走多远。",
+      "timestamp": "03:00",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "One of the nice things about agents, you don't have to feel bad when you shut down their work",
+      "zh": "关于智能体的好处之一是,当你关闭它们的工作时你不必感觉糟糕",
+      "timestamp": "09:14",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And when you're done, go update the static HTML file and send it to S3 and give me the URL.",
+      "zh": "然后当你完成后,去更新静态 HTML 文件并把它发送到 S3 并把 URL 给我。",
+      "timestamp": "11:57",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "because Slack is now the platform people run their agents in half the time, which is crazy.",
+      "zh": "因为 Slack 现在有一半的时间是人们运行智能体的平台,这太疯狂了。",
+      "timestamp": "15:01",
+      "speaker": "Unknown"
+    }
+  ]
+}

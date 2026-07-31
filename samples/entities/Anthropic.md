@@ -79,7 +79,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Google]] · [[Claude]] · [[AGI]] · [[Codex]] · [[Slack]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"智能体":37,"OpenAI":16,"Claude Code":12,"Google":9,"Claude":7,"AGI":6,"Codex":9,"Slack":8,"Meta":7}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"智能体":38,"OpenAI":16,"Claude Code":12,"Google":9,"Claude":7,"AGI":6,"Codex":10,"Slack":9,"Meta":7}</script>
 
 <script>
 (function(){

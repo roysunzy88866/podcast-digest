@@ -1,0 +1,397 @@
+{
+  "episode_id": "2026-07-08-talks-everything-we-knew-about-software-has-ch",
+  "podcast": "精选演讲",
+  "date": "2026-07-08",
+  "tags": [
+    "AI 精神病",
+    "编排时代",
+    "拟物化",
+    "广度与深度",
+    "markdown"
+  ],
+  "categories": [
+    "AI 编程",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "theo-browne",
+      "type": "person",
+      "role": "guest",
+      "name": "Theo Browne",
+      "file": "Theo Browne",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "sonnet-3-5",
+      "type": "concept",
+      "role": "concept",
+      "name": "Sonnet 3.5",
+      "file": "Sonnet 3.5",
+      "primary": true,
+      "how_described": "本集把它说成:第一个在代码库上下文中足够一致可靠的「工具调用时代」模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            54.937,
+            60.906
+          ],
+          "quote": "Who here used Sonnet 3.5 when it was the creme de la creme, the cream of the crop model available to us?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            68.237,
+            77.879
+          ],
+          "quote": "Sonnet 3.5 was a big moment for me because it felt like these models could suddenly complete much more end-to-end tasks, like actually get real work done that takes multiple steps.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 23,
+          "t": [
+            125.498,
+            129.301
+          ],
+          "quote": "I think of these almost as eras now, where Sonnet 3.5 is the tool call era.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "opus-4-5",
+      "type": "concept",
+      "role": "concept",
+      "name": "Opus 4.5",
+      "file": "Opus 4.5",
+      "primary": true,
+      "how_described": "本集把它说成:能完成数小时长流程任务并自己收尾测试的模型,让演讲者开始感到 AI 精神病。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            78.88,
+            80.7
+          ],
+          "quote": "And then we got Opus 4.5.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            83.601,
+            86.242
+          ],
+          "quote": "Who didn't feel a big jump when they switched over to Opus 4.5?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 25,
+          "t": [
+            141.048,
+            146.131
+          ],
+          "quote": "Then we got Opus 4.5, which was able to do much longer running tasks without losing track of what it's working on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            193.001,
+            197.762
+          ],
+          "quote": "Most of the Jira tickets I closed at my previous job could be trivially solved with a model like Opus 4.5.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mythos",
+      "type": "concept",
+      "role": "concept",
+      "name": "Mythos",
+      "file": "Mythos",
+      "primary": true,
+      "how_described": "本集把它说成:能自己理解代码库、主动派生其他模型分头干活并验证的「编排时代」模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            108.528,
+            109.188
+          ],
+          "quote": "Then we got Mythos.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            110.049,
+            112.93
+          ],
+          "quote": "Who here has had a chance to play with Mythos and Fable so far?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 29,
+          "t": [
+            155.438,
+            158.36
+          ],
+          "quote": "Mythos is another jump to orchestration.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            198.743,
+            201.903
+          ],
+          "quote": "My previous work would not benefit from a model like Mythos.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "orchestration",
+      "type": "concept",
+      "role": "concept",
+      "name": "编排 (orchestration)",
+      "file": "编排",
+      "primary": true,
+      "how_described": "本集把它说成:模型不再仅能调用工具,而是能理解自身、主动拆分任务并生成其他模型干活的大模型新时代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            155.438,
+            158.36
+          ],
+          "quote": "Mythos is another jump to orchestration.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "skeuomorphic",
+      "type": "concept",
+      "role": "concept",
+      "name": "拟物化 (skeuomorphic)",
+      "file": "拟物化",
+      "primary": true,
+      "how_described": "本集把它说成:开发者死抱旧界面、旧规矩不放的心理包袱,就像 iOS 7 之前必须把指南针 app 画成真指南针。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            368.513,
+            371.354
+          ],
+          "quote": "We're currently in our skeuomorphic phase as software developers.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sunk-cost-mindset",
+      "type": "concept",
+      "role": "concept",
+      "name": "沉没成本心态 (sunk cost mindset)",
+      "file": "沉没成本心态",
+      "primary": true,
+      "how_described": "本集把它说成:行业里因为怕伤人或心疼投入而不敢删错代码、硬着头皮合并 PR 的心态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 124,
+          "t": [
+            524.598,
+            528.959
+          ],
+          "quote": "But we have such a bad sunk cost mindset in this industry.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "company",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": true,
+      "how_described": "本集把它说成:以前创业者因缺工程师而没法在软件广度上与之竞争的云巨头。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            819.076,
+            821.557
+          ],
+          "quote": "Vercel does not offer all of the features that AWS does.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            841.009,
+            850.879
+          ],
+          "quote": "And this was kind of how you had to build your startups, because if you were competing with a company like AWS, you're never gonna have all of the features they have, you're never gonna cover the range that they cover.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            924.551,
+            931.638
+          ],
+          "quote": "This is all crazy, because I'm basically sitting here telling you it's time to compete with Slack, it's time to build your own AWS, it's time to challenge Salesforce directly.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "type": "company",
+      "role": "company",
+      "name": "Vercel",
+      "file": "Vercel",
+      "primary": true,
+      "how_described": "本集把它说成:在全栈前端领域拼「深度」的代表,不提供 AWS 的全功能但深耕特定领域,且连智能体都偏好它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 140,
+          "t": [
+            616.103,
+            620.269
+          ],
+          "quote": "The full stack cloud is, let's just imagine Vercel, but it goes further each direction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            816.975,
+            818.515
+          ],
+          "quote": "Let's look at a company like Vercel.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 199,
+          "t": [
+            819.076,
+            821.557
+          ],
+          "quote": "Vercel does not offer all of the features that AWS does.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 201,
+          "t": [
+            824.158,
+            832.124
+          ],
+          "quote": "But Vercel offers deeper features in the space they're in, which is full-stack front-end leaning servers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 202,
+          "t": [
+            832.884,
+            840.13
+          ],
+          "quote": "If you're a front-end developer and you're not using Vercel, you're feeling some amount of pain because they're just further ahead with this, so much so that even the agents prefer it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reddit",
+      "type": "company",
+      "role": "company",
+      "name": "Reddit",
+      "file": "Reddit",
+      "primary": false,
+      "how_described": "本集把它说成:演讲者曾写爬虫从中抓取编程幽默热帖来制作表情包的平台。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            589.95,
+            595.375
+          ],
+          "quote": "I built a Reddit scraper because making good memes is hard and I would rather just steal them from Reddit, and it went pretty well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 136,
+          "t": [
+            595.575,
+            603.642
+          ],
+          "quote": "It was a side project that took me two to three days, would just scrape Reddit, top posts on programming humor, put them in a nice format for me so I could go copy-paste them onto Twitter.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": true,
+      "how_described": "本集把它说成:因架构合适,无意中成为大家跑智能体的平台,它证明了把地基打好让用户自行拓展的价值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 213,
+          "t": [
+            901.364,
+            913.574
+          ],
+          "quote": "If you architect your systems and you architect your products in such a way that users can do things that you never would have guessed, like Slack accidentally did this, because Slack is now the platform people run their agents in half the time, which is crazy.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            913.674,
+            914.215
+          ],
+          "quote": "Slack sucks.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 216,
+          "t": [
+            924.551,
+            931.638
+          ],
+          "quote": "This is all crazy, because I'm basically sitting here telling you it's time to compete with Slack, it's time to build your own AWS, it's time to challenge Salesforce directly.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Y Combinator",
+      "reason": "专名「Y Combinator」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

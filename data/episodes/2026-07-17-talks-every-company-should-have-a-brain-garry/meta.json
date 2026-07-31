@@ -1,0 +1,24 @@
+{
+  "id": "2026-07-17-talks-every-company-should-have-a-brain-garry",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/eBUyTS7SzV4.m4a",
+  "duration_sec": 1249.984,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 255,
+  "asr": true,
+  "title_en": "Every company should have a Brain — Garry Tan, Y Combinator",
+  "podcast": "精选演讲",
+  "date": "2026-07-17",
+  "speaker_map": {
+    "SPEAKER_00": "Garry Tan"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Garry Tan"
+  ],
+  "host": null,
+  "cohosts": [],
+  "title_zh": "用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图",
+  "guest_name": "Garry Tan",
+  "guest_title": "YC 掌门人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

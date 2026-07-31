@@ -31,7 +31,7 @@ unlisted: true
 
 [[Anthropic]] · [[Lenny]] · [[智能体]] · [[OpenAI]] · [[Claude Code]] · [[Benedict Evans]] · [[Saragawa]] · [[Fiona Fung]] · [[Theo Jaffe]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":22,"Lenny":32,"智能体":37,"OpenAI":16,"Claude Code":12,"Benedict Evans":1,"Saragawa":1,"Fiona Fung":1,"Theo Jaffe":2,"Google":9}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":22,"Lenny":32,"智能体":38,"OpenAI":16,"Claude Code":12,"Benedict Evans":1,"Saragawa":1,"Fiona Fung":1,"Theo Jaffe":2,"Google":9}</script>
 
 <script>
 (function(){

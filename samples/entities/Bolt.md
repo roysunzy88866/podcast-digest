@@ -31,7 +31,7 @@ unlisted: true
 
 [[Lenny]] · [[Zevi Arnovitz]] · [[Cursor]] · [[Claude Code]] · [[Lovable]] · [[Linear]] · [[Anthropic]] · [[Composer]] · [[Codex]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Zevi Arnovitz":1,"Cursor":4,"Claude Code":12,"Lovable":3,"Linear":2,"Anthropic":22,"Composer":1,"Codex":9,"智能体":37}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"Zevi Arnovitz":1,"Cursor":4,"Claude Code":12,"Lovable":3,"Linear":2,"Anthropic":22,"Composer":1,"Codex":10,"智能体":38}</script>
 
 <script>
 (function(){

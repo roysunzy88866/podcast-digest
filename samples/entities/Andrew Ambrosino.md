@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Boris Cherny]] [[Alex Finn]] [[Aakash Gupta]] [[Jyothi Nookula]] [[Meng To]] [[Eddie Kim]] [[Jiaona Zhang]] [[Fiona Fung]] [[Dan Shipper]] [[Zevi Arnovitz]]
+[[Boris Cherny]] [[Garry Tan]] [[Alex Finn]] [[Aakash Gupta]] [[Jyothi Nookula]] [[Meng To]] [[Theo Browne]] [[Eddie Kim]] [[Jiaona Zhang]] [[Fiona Fung]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Codex":9,"OpenAI":16,"ChatGPT":10,"Linear":2,"智能体":37,"品味":3,"原型":2,"主观能动性":6,"策展":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"Codex":10,"OpenAI":16,"ChatGPT":10,"Linear":2,"智能体":38,"品味":3,"原型":2,"主观能动性":6,"策展":1}</script>
 
 <script>
 (function(){
