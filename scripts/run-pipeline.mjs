@@ -246,6 +246,22 @@ export function resolveTalksCap(raw) {
 }
 
 /**
+ * 终态必记账(修 run 30608504888 lance 漏写):talks 集在 talks 批转瞬失败后,可被同轮/后续
+ * 补活链救活上站——补活链原来只清连败账、不写演讲 videoId 账本 → 第 1 层去重对该集永久失效
+ * (下轮 selectTalks 因 id 已在 completedIds 判 done,同样不补记)。
+ * 此函数 = 演讲账本记账的唯一口径:seedDir 源的集到达终态(成功/失真隔离)时,
+ * 按种子反查 videoId 记入 state.talkVideoIds。非 seedDir 源 / 反查不到种子 → 不动,返回 null。
+ */
+export function recordTalkTerminal(state, id, source, seeds) {
+  if (!source?.seedDir) return null;
+  const hit = (seeds ?? []).find((s) => deriveId(talkItemFromSeed(s), source) === id);
+  if (!hit) return null;
+  state.talkVideoIds = state.talkVideoIds ?? {};
+  state.talkVideoIds[hit.videoId] = id;
+  return hit.videoId;
+}
+
+/**
  * 选种(演讲不是访谈,不套 isInterview;无 cutoff——种子存在即待处理,终态靠账本):
  *   第 1 层 videoId 账本(videoLedger:处理成功/隔离终态都记)→ done,绝不再选;
  *   派生 id 撞 existingIds(已完成/已隔离)→ 同样终态跳过;
@@ -651,9 +667,19 @@ export async function runAllSources(sources, runOne) {
   return { clean, skipped, errors };
 }
 
+/** 读种子区全部 seed.json(无目录 → []);talks 批与补活链共用同一读法。 */
+function readTalkSeeds(source) {
+  const seedRoot = join(ROOT, source.seedDir);
+  if (!existsSync(seedRoot)) return [];
+  return readdirSync(seedRoot, { withFileTypes: true })
+    .filter((d) => d.isDirectory() && existsSync(join(seedRoot, d.name, "seed.json")))
+    .map((d) => JSON.parse(readFileSync(join(seedRoot, d.name, "seed.json"), "utf8")));
+}
+
 /**
  * C14 补活一轮:扫「有 digest 无集页」的掉队集,重走后半链。闸门与新集完全同一道;
  * 失真照隔离,转瞬失败记连败账(REVIVE_CAP 次停手待人工)。返回 {clean, skipped} 计数。
+ * 终态(成功/隔离)若是 talks 集 → 必补记演讲 videoId 账本(recordTalkTerminal,lance 漏写修)。
  */
 function revivePass(state, { onlyKey, dryRun }) {
   // 已发布的过滤交给 selectRevive 本人(GLM 20260729-003[3]:在这儿预过滤会把防线架空成死代码)
@@ -697,6 +723,8 @@ function revivePass(state, { onlyKey, dryRun }) {
     }
     if (res.ok) {
       clearRevive(state, id);
+      const vid = recordTalkTerminal(state, id, source, source.seedDir ? readTalkSeeds(source) : []);
+      if (vid) console.log(`   🧾 演讲账本补记 ${vid} → ${id}(补活终态必记,防 lance 类漏写)`);
       writeState(state);
       clean += 1;
       console.log(`   ✅ ${id} 补活成功(连败账已清零)`);
@@ -709,6 +737,7 @@ function revivePass(state, { onlyKey, dryRun }) {
       writeFileSync(join(to, "skip-reason.txt"), `${res.reason}\n${item.title}\n(补活重验被拦)\n`);
       clearRevive(state, id);
       appendSkip(state, { id, reason: `补活重验被拦:${res.reason}`, title: item.title, pubDate: item.pubDateISO });
+      recordTalkTerminal(state, id, source, source.seedDir ? readTalkSeeds(source) : []); // 隔离也是终态:talks 集必记账
       writeState(state);
       skipped += 1;
       console.log(`   ⛔ ${id} 补活重验被拦,隔离:${res.reason}`);
@@ -724,13 +753,8 @@ function revivePass(state, { onlyKey, dryRun }) {
  * 标题疑似重复 = 响亮报「待裁」并跳过:种子原样保留、不进隔离账本、不记 videoId——去留由人裁(ADR 0017 第 2 层)。
  */
 function processTalksSource(source, state, { dryRun }) {
-  const seedRoot = join(ROOT, source.seedDir);
   console.log(`\n══ 源:${source.key}(种子区 ${source.seedDir})`);
-  const seeds = !existsSync(seedRoot)
-    ? []
-    : readdirSync(seedRoot, { withFileTypes: true })
-        .filter((d) => d.isDirectory() && existsSync(join(seedRoot, d.name, "seed.json")))
-        .map((d) => JSON.parse(readFileSync(join(seedRoot, d.name, "seed.json"), "utf8")));
+  const seeds = readTalkSeeds(source);
   if (!seeds.length) {
     console.log(`✅ ${source.key} 无种子(本机 scripts/seed-talk.mjs 落种后 commit 触发)。`);
     return { clean: 0, skipped: 0 };
