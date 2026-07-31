@@ -41,7 +41,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[智能体]] · [[Meta]] · [[AGI]] · [[Tesla]] · [[ChatGPT]] · [[Lovable]] · [[PRD]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":19,"Anthropic":23,"Lenny":32,"智能体":40,"Meta":7,"AGI":6,"Tesla":5,"ChatGPT":10,"Lovable":3,"PRD":5}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":21,"Anthropic":25,"Lenny":32,"智能体":42,"Meta":7,"AGI":6,"Tesla":5,"ChatGPT":10,"Lovable":3,"PRD":5}</script>
 
 <script>
 (function(){

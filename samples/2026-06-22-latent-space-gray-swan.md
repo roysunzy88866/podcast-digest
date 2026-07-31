@@ -113,9 +113,9 @@ Zico 非常乐观地表示,我们应该先让 AI 去自动化的科学,就是分
 
 **顺着「AI 安全」挖下去**
 
+- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]] —— 同公司:Anthropic · 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|Kimi K3 冲击波:开源逼近前沿,格局要变]] —— 同概念:智能体 (agent)
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]] —— 同概念:沙箱 (sandbox)
-- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]] —— 同公司:Anthropic · 同概念:护栏 (guardrails)
 
 </div>
 <div class="pd-ex">

@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Boris Cherny]] [[Alex Finn]] [[Aakash Gupta]] [[Jyothi Nookula]] [[Meng To]] [[Peter Steinberger]] [[Romain Huet]] [[Theo Browne]] [[Eddie Kim]] [[Andrew Ambrosino]]
+[[Boris Cherny]] [[Alex Finn]] [[Aakash Gupta]] [[Jyothi Nookula]] [[Meng To]] [[Michele Catasta]] [[Peter Steinberger]] [[Romain Huet]] [[Theo Browne]] [[Eddie Kim]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":40,"技能文件":1,"上下文工程":1,"公司大脑":1,"RAG":1,"Latent Space":1,"确定性空间":1,"工作记忆":1,"Gbrain":1,"技能化":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":42,"技能文件":1,"上下文工程":1,"公司大脑":1,"RAG":1,"Latent Space":1,"确定性空间":1,"工作记忆":1,"Gbrain":1,"技能化":1}</script>
 
 <script>
 (function(){

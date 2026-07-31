@@ -1,0 +1,7826 @@
+[
+ {
+  "seg": 0,
+  "start": 0.371,
+  "end": 12.554,
+  "speaker": "Unknown",
+  "en": "I'm Mike Allen with Behind the Curtain, today from Fort Worth, Texas, where we're talking to Jensen Wong, CEO of NVIDIA, the most valuable company in the world, about what's next for the AI revolution.",
+  "zh": "我是 Mike Allen，来自《幕后》节目，今天在德克萨斯州沃斯堡，我们要采访的是 Jensen Wong，NVIDIA 的 CEO，这家公司是世界上最有价值的公司，我们要聊聊 AI 革命的下一步是什么。"
+ },
+ {
+  "seg": 1,
+  "start": 16.995,
+  "end": 23.277,
+  "speaker": "Unknown",
+  "en": "Jensen Wong, co-founder and CEO from DayZero of NVIDIA, the most valuable company in the world.",
+  "zh": "Jensen Wong，NVIDIA 的联合创始人兼 CEO，从 DayZero 开始任职，这家公司是世界上最有价值的公司。"
+ },
+ {
+  "seg": 2,
+  "start": 23.297,
+  "end": 24.797,
+  "speaker": "Unknown",
+  "en": "Thanks for sitting down with Axios.",
+  "zh": "感谢你接受 Axios 的采访。"
+ },
+ {
+  "seg": 3,
+  "start": 25.097,
+  "end": 25.697,
+  "speaker": "Unknown",
+  "en": "Behind the Curtain.",
+  "zh": "《幕后》。"
+ },
+ {
+  "seg": 4,
+  "start": 26.078,
+  "end": 27.058,
+  "speaker": "Unknown",
+  "en": "I'm delighted to do it, Mike.",
+  "zh": "我很乐意这样做，Mike。"
+ },
+ {
+  "seg": 5,
+  "start": 27.218,
+  "end": 27.738,
+  "speaker": "Unknown",
+  "en": "Great to see you.",
+  "zh": "很高兴见到你。"
+ },
+ {
+  "seg": 6,
+  "start": 30.03,
+  "end": 31.25,
+  "speaker": "Unknown",
+  "en": "Axios always starts with the news.",
+  "zh": "Axios 总是从新闻开始说起。"
+ },
+ {
+  "seg": 7,
+  "start": 31.55,
+  "end": 42.874,
+  "speaker": "Unknown",
+  "en": "The Financial Times says Chinese regulators are looking at export controls, tightening their controls on AI models and semiconductors to keep them away from the West.",
+  "zh": "《金融时报》表示，中国监管机构正在考虑出口管制，收紧对 AI 模型和半导体的控制，以防止它们流向西方。"
+ },
+ {
+  "seg": 8,
+  "start": 43.214,
+  "end": 44.294,
+  "speaker": "Unknown",
+  "en": "Do you think that will happen?",
+  "zh": "你认为这会发生吗？"
+ },
+ {
+  "seg": 9,
+  "start": 44.654,
+  "end": 46.615,
+  "speaker": "Unknown",
+  "en": "And what would the net effect on the U.S. be?",
+  "zh": "这对美国的净影响会是什么？"
+ },
+ {
+  "seg": 10,
+  "start": 47.135,
+  "end": 47.615,
+  "speaker": "Unknown",
+  "en": "I hope not.",
+  "zh": "我希望不会。"
+ },
+ {
+  "seg": 11,
+  "start": 48.075,
+  "end": 54.097,
+  "speaker": "Unknown",
+  "en": "The Chinese market, the Chinese industry creates some really great AI models and AI technology.",
+  "zh": "中国市场，中国产业创造了一些真正优秀的 AI 模型和 AI 技术。"
+ },
+ {
+  "seg": 12,
+  "start": 54.877,
+  "end": 59.639,
+  "speaker": "Unknown",
+  "en": "I've said before that half of the world's AI researchers are Chinese.",
+  "zh": "我以前说过，世界上有一半的 AI 研究人员是中国人。"
+ },
+ {
+  "seg": 13,
+  "start": 59.839,
+  "end": 61.159,
+  "speaker": "Unknown",
+  "en": "Many of them still live in China.",
+  "zh": "他们中的许多人仍住在中国。"
+ },
+ {
+  "seg": 14,
+  "start": 61.98,
+  "end": 65.861,
+  "speaker": "Unknown",
+  "en": "And they produce some really groundbreaking research in AI.",
+  "zh": "他们在 AI 方面产出了一些真正开创性的研究。"
+ },
+ {
+  "seg": 15,
+  "start": 66.761,
+  "end": 70.482,
+  "speaker": "Unknown",
+  "en": "And the United States does too, and many places around the world does.",
+  "zh": "美国也是如此，世界各地的许多地方也是如此。"
+ },
+ {
+  "seg": 16,
+  "start": 70.542,
+  "end": 84.885,
+  "speaker": "Unknown",
+  "en": "And we want to make sure that we can all share ideas as broadly and as quickly as possible so that we can advance this incredible technology in a way that's beneficial to society, safely, so on.",
+  "zh": "我们要确保我们都能尽可能广泛、尽可能快地分享想法，这样我们就能以一种对社会有益的方式推进这项不可思议的技术，安全地推进等等。"
+ },
+ {
+  "seg": 17,
+  "start": 85.145,
+  "end": 88.026,
+  "speaker": "Unknown",
+  "en": "And so I hope that they continue to keep it open.",
+  "zh": "因此我希望他们继续保持开放。"
+ },
+ {
+  "seg": 18,
+  "start": 88.586,
+  "end": 90.226,
+  "speaker": "Unknown",
+  "en": "You were just in China a couple of months ago.",
+  "zh": "你几个月前刚去过中国。"
+ },
+ {
+  "seg": 19,
+  "start": 90.246,
+  "end": 91.127,
+  "speaker": "Unknown",
+  "en": "Do you think they will?",
+  "zh": "你认为他们会这样做吗？"
+ },
+ {
+  "seg": 20,
+  "start": 91.307,
+  "end": 92.207,
+  "speaker": "Unknown",
+  "en": "What's the likelihood?",
+  "zh": "可能性有多大？"
+ },
+ {
+  "seg": 21,
+  "start": 93.207,
+  "end": 93.627,
+  "speaker": "Unknown",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 22,
+  "start": 93.967,
+  "end": 94.528,
+  "speaker": "Unknown",
+  "en": "I don't know.",
+  "zh": "我不知道。"
+ },
+ {
+  "seg": 23,
+  "start": 94.628,
+  "end": 97.069,
+  "speaker": "Unknown",
+  "en": "I don't know the source of that news.",
+  "zh": "我不知道那条新闻的来源。"
+ },
+ {
+  "seg": 24,
+  "start": 97.149,
+  "end": 105.452,
+  "speaker": "Unknown",
+  "en": "And there's, of course, all kinds of regulation being discussed and export control is being discussed on both sides of the ocean.",
+  "zh": "当然，大西洋两岸都在讨论各种监管措施，出口管制也在讨论之中。"
+ },
+ {
+  "seg": 25,
+  "start": 105.492,
+  "end": 113.775,
+  "speaker": "Unknown",
+  "en": "And, you know, once one side decides to exercise export controls, everybody decides to think about export controls.",
+  "zh": "而且，你知道，一旦一方决定实施出口管制，大家都会开始考虑出口管制。"
+ },
+ {
+  "seg": 26,
+  "start": 114.335,
+  "end": 117.597,
+  "speaker": "Unknown",
+  "en": "I think we all ought to deescalate and let the technology advance.",
+  "zh": "我认为我们都应该缓和局势，让技术进步。"
+ },
+ {
+  "seg": 27,
+  "start": 117.657,
+  "end": 124.061,
+  "speaker": "Unknown",
+  "en": "And, you know, the companies in the United States are very, very capable.",
+  "zh": "而且，你知道，美国公司的能力非常非常强。"
+ },
+ {
+  "seg": 28,
+  "start": 124.121,
+  "end": 125.802,
+  "speaker": "Unknown",
+  "en": "We're able to move very quickly.",
+  "zh": "我们能够行动得非常迅速。"
+ },
+ {
+  "seg": 29,
+  "start": 126.843,
+  "end": 129.425,
+  "speaker": "Unknown",
+  "en": "I have every confidence that the United States will continue to lead.",
+  "zh": "我完全相信美国将继续保持领先。"
+ },
+ {
+  "seg": 30,
+  "start": 130.005,
+  "end": 136.449,
+  "speaker": "Unknown",
+  "en": "And so long as we have the support and the encouragement of governments, we should be able to continue to do so.",
+  "zh": "只要我们有政府的支持和鼓励，我们应该能够继续这样做。"
+ },
+ {
+  "seg": 31,
+  "start": 136.99,
+  "end": 142.013,
+  "speaker": "Unknown",
+  "en": "Flip side, should the government ban or restrict Kimmy or other Chinese models?",
+  "zh": "另一方面，政府应该禁止或限制 Kimmy 或其他中国模型吗？"
+ },
+ {
+  "seg": 32,
+  "start": 142.995,
+  "end": 144.456,
+  "speaker": "Unknown",
+  "en": "I hope not, and I really don't think so.",
+  "zh": "我希望不会，我真的认为不会。"
+ },
+ {
+  "seg": 33,
+  "start": 145.457,
+  "end": 150.601,
+  "speaker": "Unknown",
+  "en": "The United States, the world needs open and closed models.",
+  "zh": "美国，世界需要开放和封闭的模型。"
+ },
+ {
+  "seg": 34,
+  "start": 151.281,
+  "end": 153.823,
+  "speaker": "Unknown",
+  "en": "We should use closed models because they're great to use.",
+  "zh": "我们应该使用封闭模型，因为它们很好用。"
+ },
+ {
+  "seg": 35,
+  "start": 153.843,
+  "end": 158.146,
+  "speaker": "Unknown",
+  "en": "They work incredibly well, Anthropic and OpenAI.",
+  "zh": "它们运作得极好，Anthropic 和 OpenAI。"
+ },
+ {
+  "seg": 36,
+  "start": 158.627,
+  "end": 160.248,
+  "speaker": "Unknown",
+  "en": "These are incredibly great services.",
+  "zh": "这些都是非常棒的服务。"
+ },
+ {
+  "seg": 37,
+  "start": 160.768,
+  "end": 166.092,
+  "speaker": "Unknown",
+  "en": "We should use closed models as much as we can, rent everything we can.",
+  "zh": "我们应该尽可能多地使用封闭模型，尽可能租用一切。"
+ },
+ {
+  "seg": 38,
+  "start": 166.432,
+  "end": 166.773,
+  "speaker": "Unknown",
+  "en": "However,",
+  "zh": "然而，"
+ },
+ {
+  "seg": 39,
+  "start": 167.393,
+  "end": 169.134,
+  "speaker": "Unknown",
+  "en": "The industry still needs open models.",
+  "zh": "行业仍然需要开放模型。"
+ },
+ {
+  "seg": 40,
+  "start": 169.414,
+  "end": 170.855,
+  "speaker": "Unknown",
+  "en": "Science needs open models.",
+  "zh": "科学需要开放模型。"
+ },
+ {
+  "seg": 41,
+  "start": 170.875,
+  "end": 173.157,
+  "speaker": "Unknown",
+  "en": "Cybersecurity needs open models because it's safe.",
+  "zh": "网络安全需要开放模型，因为它是安全的。"
+ },
+ {
+  "seg": 42,
+  "start": 173.337,
+  "end": 175.458,
+  "speaker": "Unknown",
+  "en": "It's important for cybersecurity.",
+  "zh": "这对网络安全很重要。"
+ },
+ {
+  "seg": 43,
+  "start": 175.478,
+  "end": 176.859,
+  "speaker": "Unknown",
+  "en": "It's important for national security.",
+  "zh": "这对国家安全很重要。"
+ },
+ {
+  "seg": 44,
+  "start": 176.879,
+  "end": 178.44,
+  "speaker": "Unknown",
+  "en": "It's important for economic security.",
+  "zh": "这对经济安全很重要。"
+ },
+ {
+  "seg": 45,
+  "start": 179,
+  "end": 188.346,
+  "speaker": "Unknown",
+  "en": "And so companies need to be able to control some of the IP and some of the data that they have so that they could advance the AI models in a controlled way.",
+  "zh": "因此，公司需要能够控制他们拥有的一些知识产权和一些数据，以便他们能够以受控的方式推进 AI 模型。"
+ },
+ {
+  "seg": 46,
+  "start": 189.807,
+  "end": 202.054,
+  "speaker": "Unknown",
+  "en": "cybersecurity with the benefit of transparency, the ability for the entire community to inspect and test to make sure that we harden it in the best possible way, it's best for cybersecurity.",
+  "zh": "网络安全得益于透明度，整个社区进行检查和测试以确保我们以最佳方式加固它的能力，这对网络安全是最好的。"
+ },
+ {
+  "seg": 47,
+  "start": 202.114,
+  "end": 211.799,
+  "speaker": "Unknown",
+  "en": "And so, irrespective of how many industries, open models is foundational to the advance of science and the advancement of computer science today.",
+  "zh": "因此，无论多少行业，开放模型是科学进步和今天计算机科学进步的基础。"
+ },
+ {
+  "seg": 48,
+  "start": 212.459,
+  "end": 213.86,
+  "speaker": "Unknown",
+  "en": "I really do hope that we keep it open.",
+  "zh": "我真的希望我们保持开放。"
+ },
+ {
+  "seg": 49,
+  "start": 214.36,
+  "end": 216.543,
+  "speaker": "Unknown",
+  "en": "Simple question on the front page of The Wall Street Journal.",
+  "zh": "《华尔街日报》头版的一个简单问题。"
+ },
+ {
+  "seg": 50,
+  "start": 216.823,
+  "end": 221.087,
+  "speaker": "Unknown",
+  "en": "Should American companies be allowed to use Chinese AI models?",
+  "zh": "美国公司应该被允许使用中国 AI 模型吗？"
+ },
+ {
+  "seg": 51,
+  "start": 221.708,
+  "end": 222.208,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "绝对应该。"
+ },
+ {
+  "seg": 52,
+  "start": 222.769,
+  "end": 224.811,
+  "speaker": "Unknown",
+  "en": "Absolutely.",
+  "zh": "绝对应该。"
+ },
+ {
+  "seg": 53,
+  "start": 225.131,
+  "end": 231.838,
+  "speaker": "Unknown",
+  "en": "There's a misconception that somehow there are backdoors that is somehow connected to China in some way.",
+  "zh": "有一种误解，认为以某种方式存在后门，并以某种方式与中国相关联。"
+ },
+ {
+  "seg": 54,
+  "start": 232.238,
+  "end": 233.299,
+  "speaker": "Unknown",
+  "en": "You download the models.",
+  "zh": "你下载这些模型。"
+ },
+ {
+  "seg": 55,
+  "start": 233.88,
+  "end": 236.081,
+  "speaker": "Unknown",
+  "en": "You could fine-tune it.",
+  "zh": "你可以微调它。"
+ },
+ {
+  "seg": 56,
+  "start": 236.121,
+  "end": 237.742,
+  "speaker": "Unknown",
+  "en": "You can enhance it.",
+  "zh": "你可以增强它。"
+ },
+ {
+  "seg": 57,
+  "start": 237.762,
+  "end": 239.363,
+  "speaker": "Unknown",
+  "en": "You can guardrail it as you desire.",
+  "zh": "你可以按照你的意愿为它加装护栏。"
+ },
+ {
+  "seg": 58,
+  "start": 239.463,
+  "end": 243.465,
+  "speaker": "Unknown",
+  "en": "And so these models don't just operate.",
+  "zh": "所以这些模型不仅仅是单独运行。"
+ },
+ {
+  "seg": 59,
+  "start": 243.505,
+  "end": 245.746,
+  "speaker": "Unknown",
+  "en": "They operate within what is called a harness.",
+  "zh": "它们在所谓的工具束中运行。"
+ },
+ {
+  "seg": 60,
+  "start": 245.846,
+  "end": 250.548,
+  "speaker": "Unknown",
+  "en": "And that harness sits within what is called essentially a sandbox.",
+  "zh": "而该工具束位于所谓的本质上沙箱之中。"
+ },
+ {
+  "seg": 61,
+  "start": 250.708,
+  "end": 252.369,
+  "speaker": "Unknown",
+  "en": "These sandboxes are secure.",
+  "zh": "这些沙箱是安全的。"
+ },
+ {
+  "seg": 62,
+  "start": 253.209,
+  "end": 261.335,
+  "speaker": "Unknown",
+  "en": "These sandboxes keeps privacy and security and access control.",
+  "zh": "这些沙箱保持隐私、安全和访问控制。"
+ },
+ {
+  "seg": 63,
+  "start": 261.895,
+  "end": 264.337,
+  "speaker": "Unknown",
+  "en": "And so all of that capability is put into the sandbox.",
+  "zh": "因此所有这些能力都被放入沙箱中。"
+ },
+ {
+  "seg": 64,
+  "start": 264.357,
+  "end": 272.442,
+  "speaker": "Unknown",
+  "en": "So I think these models are capable models, excellent models, advances the whole industry.",
+  "zh": "所以我认为这些模型是有能力的模型，优秀的模型，推动了整个行业的发展。"
+ },
+ {
+  "seg": 65,
+  "start": 273.043,
+  "end": 277.026,
+  "speaker": "Unknown",
+  "en": "And we want AI to diffuse into the market as quickly as possible.",
+  "zh": "我们希望 AI 尽快扩散到市场中。"
+ },
+ {
+  "seg": 66,
+  "start": 277.086,
+  "end": 279.047,
+  "speaker": "Unknown",
+  "en": "And so open models allows for that.",
+  "zh": "因此开放模型允许了这一点。"
+ },
+ {
+  "seg": 67,
+  "start": 279.067,
+  "end": 281.729,
+  "speaker": "Unknown",
+  "en": "Can intervention by the government ever be a good thing?",
+  "zh": "政府的干预曾经是一件好事吗？"
+ },
+ {
+  "seg": 68,
+  "start": 282.899,
+  "end": 288.182,
+  "speaker": "Unknown",
+  "en": "Of course, regulation is a good thing in many different industries, and you want to regulate applications.",
+  "zh": "当然，在许多不同行业中监管是一件好事，并且你需要监管应用。"
+ },
+ {
+  "seg": 69,
+  "start": 288.943,
+  "end": 291.664,
+  "speaker": "Unknown",
+  "en": "You have to be mindful to regulate technology.",
+  "zh": "在监管技术方面你必须保持谨慎。"
+ },
+ {
+  "seg": 70,
+  "start": 291.925,
+  "end": 298.589,
+  "speaker": "Unknown",
+  "en": "The raw technology itself is dual use, and so we want to make sure that you regulate how it's used.",
+  "zh": "原始技术本身是双用途的，因此我们要确保你监管它的使用方式。"
+ },
+ {
+  "seg": 71,
+  "start": 298.609,
+  "end": 302.031,
+  "speaker": "Unknown",
+  "en": "Maybe you want to regulate the service itself.",
+  "zh": "也许你想监管服务本身。"
+ },
+ {
+  "seg": 72,
+  "start": 302.511,
+  "end": 306.232,
+  "speaker": "Unknown",
+  "en": "Maybe you'll regulate how it's used in medicine, how it's used in transportation.",
+  "zh": "也许你会监管它在医学中的使用方式，它在交通中的使用方式。"
+ },
+ {
+  "seg": 73,
+  "start": 306.813,
+  "end": 309.354,
+  "speaker": "Unknown",
+  "en": "You should regulate how AI is used in autonomous vehicles.",
+  "zh": "你应该监管 AI 在自动驾驶车辆中的使用方式。"
+ },
+ {
+  "seg": 74,
+  "start": 309.854,
+  "end": 313.735,
+  "speaker": "Unknown",
+  "en": "And so all these different applications of AI should be regulated.",
+  "zh": "因此所有这些不同的 AI 应用都应该受到监管。"
+ },
+ {
+  "seg": 75,
+  "start": 313.875,
+  "end": 318.677,
+  "speaker": "Unknown",
+  "en": "However, the technology itself ought to be able to advance as quickly as possible.",
+  "zh": "然而，技术本身应该能够尽可能快地发展。"
+ },
+ {
+  "seg": 76,
+  "start": 318.904,
+  "end": 321.807,
+  "speaker": "Unknown",
+  "en": "Now, you've said China is an adversary in AI.",
+  "zh": "现在，你说过中国是 AI 方面的对手。"
+ },
+ {
+  "seg": 77,
+  "start": 321.867,
+  "end": 326.671,
+  "speaker": "Unknown",
+  "en": "What should the rules of engagement be for the U.S. with an AI adversary?",
+  "zh": "美国对于 AI 对手的交战规则应该是什么？"
+ },
+ {
+  "seg": 78,
+  "start": 327.212,
+  "end": 338.962,
+  "speaker": "Unknown",
+  "en": "Well, the first thing is to recognize that AI has dual use, and we want to advance it as quickly as possible because the technology, when it's advanced, is more safe, it's more secure because it works better.",
+  "zh": "嗯，首要之事是认识到 AI 具有双重用途，我们希望它尽可能快地发展，因为当这项技术进步时，它更安全、更安全，因为它运作得更好。"
+ },
+ {
+  "seg": 79,
+  "start": 339.823,
+  "end": 342.425,
+  "speaker": "Unknown",
+  "en": "However, we want to make sure that the...",
+  "zh": "然而，我们要确保……"
+ },
+ {
+  "seg": 80,
+  "start": 343.186,
+  "end": 353.742,
+  "speaker": "Unknown",
+  "en": "the researchers in all of these, in all the countries are able to dialogue, cooperate whenever possible so that we can advance the technology safely.",
+  "zh": "所有这些国家的研究人员都能够对话，并在可能的情况下合作，以便我们能够安全地推进技术。"
+ },
+ {
+  "seg": 81,
+  "start": 354.163,
+  "end": 357.228,
+  "speaker": "Unknown",
+  "en": "I think an open dialogue is really important and that should be foundational.",
+  "zh": "我认为开放的对话真的很重要，这应该是基础。"
+ },
+ {
+  "seg": 82,
+  "start": 358.138,
+  "end": 361.963,
+  "speaker": "Unknown",
+  "en": "Your stock price depends partly on sales to China.",
+  "zh": "你的股价部分取决于对中国的销售。"
+ },
+ {
+  "seg": 83,
+  "start": 362.224,
+  "end": 365.248,
+  "speaker": "Unknown",
+  "en": "Why should we trust what you say about China and the market?",
+  "zh": "为什么我们应该相信你关于中国和市场的说法？"
+ },
+ {
+  "seg": 84,
+  "start": 365.989,
+  "end": 370.915,
+  "speaker": "Unknown",
+  "en": "Well, we should start with the fact that our China sales is approximately zero today.",
+  "zh": "嗯，我们应该从这一事实开始，即我们目前在中国的销售额大约为零。"
+ },
+ {
+  "seg": 85,
+  "start": 371.716,
+  "end": 375.562,
+  "speaker": "Unknown",
+  "en": "And I've told all of our investors not to expect any China sales.",
+  "zh": "而且我已经告诉我们所有的投资者，不要指望任何中国市场的销售。"
+ },
+ {
+  "seg": 86,
+  "start": 376.362,
+  "end": 392.52,
+  "speaker": "Unknown",
+  "en": "If both United States and United States has already licensed it, if the Chinese government and the Chinese market would like us to return, it would be a great honor to be able to support the customers and the market.",
+  "zh": "如果美国和美国已经许可了它，如果中国政府和中国市场希望我们回归，能够支持客户和市场将是莫大的荣幸。"
+ },
+ {
+  "seg": 87,
+  "start": 392.54,
+  "end": 393.261,
+  "speaker": "Unknown",
+  "en": "And good for business.",
+  "zh": "这对业务有好处。"
+ },
+ {
+  "seg": 88,
+  "start": 393.521,
+  "end": 394.222,
+  "speaker": "Unknown",
+  "en": "And great for business.",
+  "zh": "这对业务大有好处。"
+ },
+ {
+  "seg": 89,
+  "start": 394.262,
+  "end": 397.286,
+  "speaker": "Unknown",
+  "en": "But until then, I would just assume that the sales is zero.",
+  "zh": "但在此之前，我就假设销售额为零。"
+ },
+ {
+  "seg": 90,
+  "start": 397.828,
+  "end": 399.329,
+  "speaker": "Unknown",
+  "en": "That's Kimi policy.",
+  "zh": "这就是 Kimi 的政策。"
+ },
+ {
+  "seg": 91,
+  "start": 399.809,
+  "end": 404.951,
+  "speaker": "Unknown",
+  "en": "Now, Kimi, the very powerful Chinese model that really rattled the stock market.",
+  "zh": "现在，Kimi，那个非常强大的中国模型，真的震撼了股市。"
+ },
+ {
+  "seg": 92,
+  "start": 405.531,
+  "end": 408.653,
+  "speaker": "Unknown",
+  "en": "Microsoft is using and testing Kimi.",
+  "zh": "微软正在使用和测试 Kimi。"
+ },
+ {
+  "seg": 93,
+  "start": 408.953,
+  "end": 415.956,
+  "speaker": "Unknown",
+  "en": "The information says Chinese models may even replace some of Microsoft's use of open AI andthropic.",
+  "zh": "信息显示，中国模型甚至可能取代微软对 open AI 和thropic 的一些使用。"
+ },
+ {
+  "seg": 94,
+  "start": 415.976,
+  "end": 419.158,
+  "speaker": "Unknown",
+  "en": "So this Chinese competition is coming fast and furious.",
+  "zh": "所以这种中国的竞争来得既快又猛。"
+ },
+ {
+  "seg": 95,
+  "start": 419.518,
+  "end": 421.379,
+  "speaker": "Unknown",
+  "en": "What should USAI companies do?",
+  "zh": "USAI 公司应该做什么？"
+ },
+ {
+  "seg": 96,
+  "start": 422.259,
+  "end": 424.8,
+  "speaker": "Unknown",
+  "en": "These Chinese models are excellent.",
+  "zh": "这些中国模型很优秀。"
+ },
+ {
+  "seg": 97,
+  "start": 425.06,
+  "end": 428.101,
+  "speaker": "Unknown",
+  "en": "Open source models that are excellent should be used.",
+  "zh": "应该使用优秀的开源模型。"
+ },
+ {
+  "seg": 98,
+  "start": 428.581,
+  "end": 433.582,
+  "speaker": "Unknown",
+  "en": "And so the market's misunderstood the impact of DeepSeek the first time.",
+  "zh": "因此市场第一次误解了 DeepSeek 的影响。"
+ },
+ {
+  "seg": 99,
+  "start": 433.602,
+  "end": 435.103,
+  "speaker": "Unknown",
+  "en": "Another Chinese model.",
+  "zh": "另一个中国模型。"
+ },
+ {
+  "seg": 100,
+  "start": 435.383,
+  "end": 438.784,
+  "speaker": "Unknown",
+  "en": "Yeah, it's misunderstood the impact of Kimmy again this time.",
+  "zh": "是的，这次它又误解了 Kimmy 的影响。"
+ },
+ {
+  "seg": 101,
+  "start": 439.144,
+  "end": 441.265,
+  "speaker": "Unknown",
+  "en": "I think, first of all, with great AI...",
+  "zh": "我认为，首先，拥有伟大的 AI……"
+ },
+ {
+  "seg": 102,
+  "start": 442.285,
+  "end": 442.925,
+  "speaker": "Unknown",
+  "en": "Open models.",
+  "zh": "开放模型。"
+ },
+ {
+  "seg": 103,
+  "start": 443.526,
+  "end": 444.787,
+  "speaker": "Unknown",
+  "en": "It's great for the whole industry.",
+  "zh": "这对整个行业来说都是好事。"
+ },
+ {
+  "seg": 104,
+  "start": 445.267,
+  "end": 452.111,
+  "speaker": "Unknown",
+  "en": "Obviously, when there's more, if there's great AI, even if it's open, wherever it comes from, there will be more use.",
+  "zh": "显然，当有更多，如果有伟大的 AI，即使是开放的，无论它来自哪里，都会有更多的使用。"
+ },
+ {
+  "seg": 105,
+  "start": 452.331,
+  "end": 456.133,
+  "speaker": "Unknown",
+  "en": "Whenever there's more use, you'll have to sell a lot more NVIDIA computers.",
+  "zh": "每当有更多的使用，你就必须卖出多得多的 NVIDIA 电脑。"
+ },
+ {
+  "seg": 106,
+  "start": 456.173,
+  "end": 457.634,
+  "speaker": "Unknown",
+  "en": "We'll have to build more data centers.",
+  "zh": "我们将必须建造更多的数据中心。"
+ },
+ {
+  "seg": 107,
+  "start": 457.674,
+  "end": 458.835,
+  "speaker": "Unknown",
+  "en": "We'll have more services.",
+  "zh": "我们将有更多的服务。"
+ },
+ {
+  "seg": 108,
+  "start": 459.175,
+  "end": 461.476,
+  "speaker": "Unknown",
+  "en": "The technology will diffuse into more industries.",
+  "zh": "技术将扩散到更多的行业。"
+ },
+ {
+  "seg": 109,
+  "start": 461.996,
+  "end": 462.377,
+  "speaker": "Unknown",
+  "en": "And so...",
+  "zh": "所以……"
+ },
+ {
+  "seg": 110,
+  "start": 463.157,
+  "end": 469.182,
+  "speaker": "Unknown",
+  "en": "Starting point is great models lead to great use, which leads to great growth.",
+  "zh": "起点是伟大的模型带来伟大的使用，从而带来巨大的增长。"
+ },
+ {
+  "seg": 111,
+  "start": 469.642,
+  "end": 471.003,
+  "speaker": "Unknown",
+  "en": "And so that's just the starting point.",
+  "zh": "所以那只是起点。"
+ },
+ {
+  "seg": 112,
+  "start": 471.683,
+  "end": 472.824,
+  "speaker": "Unknown",
+  "en": "That happened with DeepSeek.",
+  "zh": "这在 DeepSeek 上发生了。"
+ },
+ {
+  "seg": 113,
+  "start": 473.044,
+  "end": 474.145,
+  "speaker": "Unknown",
+  "en": "It's going to happen with Kimmy.",
+  "zh": "它也将在 Kimmy 上发生。"
+ },
+ {
+  "seg": 114,
+  "start": 475.186,
+  "end": 483.732,
+  "speaker": "Unknown",
+  "en": "There's also a misunderstanding that open models could be adversarial to the closed models.",
+  "zh": "还有一种误解，认为开放模型可能对封闭模型不利。"
+ },
+ {
+  "seg": 115,
+  "start": 484.192,
+  "end": 485.273,
+  "speaker": "Unknown",
+  "en": "And that's also got it wrong.",
+  "zh": "这也搞错了。"
+ },
+ {
+  "seg": 116,
+  "start": 485.814,
+  "end": 487.075,
+  "speaker": "Unknown",
+  "en": "And the reason for that is because...",
+  "zh": "原因是因为……"
+ },
+ {
+  "seg": 117,
+  "start": 487.915,
+  "end": 496.658,
+  "speaker": "Unknown",
+  "en": "The most likely person to upgrade to a great model like Anthropic and OpenAI is someone who already uses AI.",
+  "zh": "最有可能升级到像 Anthropic 和 OpenAI 这样伟大的模型的人，是那些已经在使用 AI 的人。"
+ },
+ {
+  "seg": 118,
+  "start": 497.239,
+  "end": 499.119,
+  "speaker": "Unknown",
+  "en": "And they would like to have it more conveniently.",
+  "zh": "并且他们想更方便地拥有它。"
+ },
+ {
+  "seg": 119,
+  "start": 499.159,
+  "end": 503.621,
+  "speaker": "Unknown",
+  "en": "Maybe they'd like to have more services come along with Anthropic and OpenAI.",
+  "zh": "也许他们想要 Anthropic 和 OpenAI 提供更多的服务。"
+ },
+ {
+  "seg": 120,
+  "start": 503.661,
+  "end": 507.602,
+  "speaker": "Unknown",
+  "en": "Maybe the models are just so much better, which I expect it to be.",
+  "zh": "也许这些模型要好得多，这也是我所预期的。"
+ },
+ {
+  "seg": 121,
+  "start": 508.203,
+  "end": 508.563,
+  "speaker": "Unknown",
+  "en": "And so...",
+  "zh": "所以……"
+ },
+ {
+  "seg": 122,
+  "start": 509.547,
+  "end": 520.553,
+  "speaker": "Unknown",
+  "en": "So I think that the thing that we want to do is make sure that we have AI technology diffuse into the industries as quickly as possible, have as many people use it as quickly as possible.",
+  "zh": "所以我认为我们要做的是确保我们将 AI 技术尽快扩散到各个行业，让尽可能多的人尽快使用它。"
+ },
+ {
+  "seg": 123,
+  "start": 520.973,
+  "end": 528.577,
+  "speaker": "Unknown",
+  "en": "And so open models, extremely cheap models, easy on-ramps to try AI, that's the best thing we could do.",
+  "zh": "所以开放模型，极其便宜的模型，轻松尝试 AI 的途径，这是我们能做的最好的事情。"
+ },
+ {
+  "seg": 124,
+  "start": 528.957,
+  "end": 532.959,
+  "speaker": "Unknown",
+  "en": "Now, NVIDIA has its own open source model, Demotron.",
+  "zh": "现在，NVIDIA 有自己的开源模型，Demotron。"
+ },
+ {
+  "seg": 125,
+  "start": 533.519,
+  "end": 538.082,
+  "speaker": "Unknown",
+  "en": "When we were miking up, you were telling me it's at the frontier, not the frontier.",
+  "zh": "当我们正在麦克风前说话时，你告诉我它在边界，而不是边界。"
+ },
+ {
+  "seg": 126,
+  "start": 538.362,
+  "end": 541.644,
+  "speaker": "Unknown",
+  "en": "Will it become the dominant U.S. open source model?",
+  "zh": "它会成为占主导地位的美国开源模型吗？"
+ },
+ {
+  "seg": 127,
+  "start": 543.052,
+  "end": 557.018,
+  "speaker": "Unknown",
+  "en": "We built it so that companies and industries who, for sovereignty reasons, regulatory reasons, privacy reasons, very specific domain, intellectual properties reasons, would like to build their own AI.",
+  "zh": "我们构建它是为了让那些出于主权原因、监管原因、隐私原因、非常特定的领域、知识产权原因而想要构建自己 AI 的公司和行业。"
+ },
+ {
+  "seg": 128,
+  "start": 557.158,
+  "end": 565.162,
+  "speaker": "Unknown",
+  "en": "I advise all of my customers to use OpenAI and Anthropic and use closed models and services as much as they can.",
+  "zh": "我建议我所有的客户尽可能多地使用 OpenAI 和 Anthropic 以及封闭模型和服务。"
+ },
+ {
+  "seg": 129,
+  "start": 565.862,
+  "end": 566.583,
+  "speaker": "Unknown",
+  "en": "Because it's easy.",
+  "zh": "因为这很容易。"
+ },
+ {
+  "seg": 130,
+  "start": 566.683,
+  "end": 567.803,
+  "speaker": "Unknown",
+  "en": "It works incredibly well.",
+  "zh": "它的效果极好。"
+ },
+ {
+  "seg": 131,
+  "start": 568.364,
+  "end": 569.144,
+  "speaker": "Unknown",
+  "en": "And I use it.",
+  "zh": "而且我也在使用它。"
+ },
+ {
+  "seg": 132,
+  "start": 569.424,
+  "end": 572.446,
+  "speaker": "Unknown",
+  "en": "I use Perplexity and Anthropic and OpenAI.",
+  "zh": "我使用 Perplexity、Anthropic 和 OpenAI。"
+ },
+ {
+  "seg": 133,
+  "start": 572.947,
+  "end": 576.329,
+  "speaker": "Unknown",
+  "en": "And you use these services as much as you can.",
+  "zh": "并且你尽可能多地使用这些服务。"
+ },
+ {
+  "seg": 134,
+  "start": 576.709,
+  "end": 579.05,
+  "speaker": "Unknown",
+  "en": "You only build your own AI if you must.",
+  "zh": "只有当你必须时才构建你自己的 AI。"
+ },
+ {
+  "seg": 135,
+  "start": 579.651,
+  "end": 587.216,
+  "speaker": "Unknown",
+  "en": "And it turns out a lot of companies, whether it's financial services or cybersecurity companies, companies like ourselves, we must build our own AI.",
+  "zh": "事实证明，很多公司，无论是金融服务还是网络安全公司，像我们这样的公司，我们必须构建自己的 AI。"
+ },
+ {
+  "seg": 136,
+  "start": 587.656,
+  "end": 590.698,
+  "speaker": "Unknown",
+  "en": "And so Nemotron is built for companies who need to do that.",
+  "zh": "所以 Nemotron 是为那些需要这样做的公司构建的。"
+ },
+ {
+  "seg": 137,
+  "start": 591.098,
+  "end": 592.639,
+  "speaker": "Unknown",
+  "en": "We don't have to be the frontier.",
+  "zh": "我们不必是边界。"
+ },
+ {
+  "seg": 138,
+  "start": 592.919,
+  "end": 594,
+  "speaker": "Unknown",
+  "en": "We have to be at the frontier.",
+  "zh": "我们必须在边界。"
+ },
+ {
+  "seg": 139,
+  "start": 594.36,
+  "end": 600.244,
+  "speaker": "Unknown",
+  "en": "And how quickly could you push out the big boys or compete with the big boys at the frontier?",
+  "zh": "你能多快地挤出那些大公司或在边界上与那些大公司竞争？"
+ },
+ {
+  "seg": 140,
+  "start": 601.004,
+  "end": 603.105,
+  "speaker": "Unknown",
+  "en": "That's not our goal.",
+  "zh": "那不是我们的目标。"
+ },
+ {
+  "seg": 141,
+  "start": 603.305,
+  "end": 611.09,
+  "speaker": "Unknown",
+  "en": "Our goal is simply if you need to build your own custom models and custom AI, we could be of service to you to help you do that.",
+  "zh": "我们的目标只是，如果你需要构建你自己的定制模型和定制 AI，我们可以为你提供服务来帮助你做到这一点。"
+ },
+ {
+  "seg": 142,
+  "start": 611.95,
+  "end": 621.056,
+  "speaker": "Unknown",
+  "en": "With the right harness, these harnesses are, for example, OpenClaw or Hermes or Cloud Code, for example, is a harness around...",
+  "zh": "有了正确的挽具，这些挽具是，例如，OpenClaw 或 Hermes 或 Cloud Code，例如，就是一个挽具，围绕……"
+ },
+ {
+  "seg": 143,
+  "start": 622.056,
+  "end": 623.978,
+  "speaker": "Unknown",
+  "en": "the Opus AI models.",
+  "zh": "Opus AI 模型。"
+ },
+ {
+  "seg": 144,
+  "start": 624.458,
+  "end": 632.563,
+  "speaker": "Unknown",
+  "en": "And so the large language model is the brain, the harness, if you will, turns it into an agent and into a thinking, working agent that can help you do things.",
+  "zh": "所以大语言模型是大脑，挽具，如果你愿意的话，把它变成一个智能体，变成一个思考的、工作的智能体，可以帮助你做事。"
+ },
+ {
+  "seg": 145,
+  "start": 633.104,
+  "end": 637.827,
+  "speaker": "Unknown",
+  "en": "And so with the right harness, NVIDIA's Nemotron is extraordinarily good.",
+  "zh": "所以有了正确的挽具，NVIDIA 的 Nemotron 非常出色。"
+ },
+ {
+  "seg": 146,
+  "start": 637.967,
+  "end": 645.112,
+  "speaker": "Unknown",
+  "en": "And you could adapt it, customize it for the certain skills that you have in mind, and it can be completely world-class.",
+  "zh": "你可以调整它，为你心中的某些技能定制它，它可以是完全世界级的。"
+ },
+ {
+  "seg": 147,
+  "start": 645.702,
+  "end": 653.788,
+  "speaker": "Unknown",
+  "en": "What are the economics for the proprietary labs if open source models, not just Chinese ones, can produce tokens, the intelligence, cheaper?",
+  "zh": "如果开源模型，不仅仅是中国的，能更便宜地生产 tokens，即智能，那么专有实验室的经济学是什么？"
+ },
+ {
+  "seg": 148,
+  "start": 654.288,
+  "end": 655.929,
+  "speaker": "Unknown",
+  "en": "Fantastic.",
+  "zh": "极好。"
+ },
+ {
+  "seg": 149,
+  "start": 656.289,
+  "end": 660.633,
+  "speaker": "Unknown",
+  "en": "Really, what the world needs is more people who need AI.",
+  "zh": "真的，世界需要的是更多需要 AI 的人。"
+ },
+ {
+  "seg": 150,
+  "start": 661.193,
+  "end": 667.678,
+  "speaker": "Unknown",
+  "en": "And the only way that you need AI is because you tried it and you realize you want better ones.",
+  "zh": "而你需要 AI 的唯一原因是因为你试过并且意识到你想要更好的。"
+ },
+ {
+  "seg": 151,
+  "start": 668.582,
+  "end": 673.65,
+  "speaker": "Unknown",
+  "en": "And, you know, these free services and build-it-yourself AIs, it's not for everybody.",
+  "zh": "而且，你知道，这些免费服务和自建 AI，并不适合所有人。"
+ },
+ {
+  "seg": 152,
+  "start": 674.191,
+  "end": 678.737,
+  "speaker": "Unknown",
+  "en": "You know, however, once you tried it once and you realize it's so clumsy, it's so much work.",
+  "zh": "你知道，然而，一旦你试过一次并且意识到它是如此笨拙，它太费功夫了。"
+ },
+ {
+  "seg": 153,
+  "start": 678.757,
+  "end": 682.503,
+  "speaker": "Unknown",
+  "en": "So you're saying if I'm open AI or anthropic, I should not be afraid of open models?",
+  "zh": "所以你是说如果我是 OpenAI 或 Anthropic，我不应该害怕开源模型吗？"
+ },
+ {
+  "seg": 154,
+  "start": 682.623,
+  "end": 683.084,
+  "speaker": "Unknown",
+  "en": "Not at all.",
+  "zh": "一点也不。"
+ },
+ {
+  "seg": 155,
+  "start": 683.644,
+  "end": 684.024,
+  "speaker": "Unknown",
+  "en": "Not at all.",
+  "zh": "一点也不。"
+ },
+ {
+  "seg": 156,
+  "start": 684.364,
+  "end": 690.967,
+  "speaker": "Unknown",
+  "en": "I think that what we need, what they need more than anything is just for the whole world to realize they need AI.",
+  "zh": "我认为我们需要的，他们最需要的，就是全世界意识到他们需要 AI。"
+ },
+ {
+  "seg": 157,
+  "start": 691.427,
+  "end": 699.01,
+  "speaker": "Unknown",
+  "en": "And the way that people want to have better AI is they try to AI today and they just realize it'd be nice for somebody else to help me serve it.",
+  "zh": "而人们想要拥有更好的 AI 的方式是他们今天尝试用 AI，然后意识到如果有别人来帮我提供服务就好了。"
+ },
+ {
+  "seg": 158,
+  "start": 699.43,
+  "end": 701.031,
+  "speaker": "Unknown",
+  "en": "It's no different than cloud services.",
+  "zh": "这与云服务没什么不同。"
+ },
+ {
+  "seg": 159,
+  "start": 701.111,
+  "end": 702.132,
+  "speaker": "Unknown",
+  "en": "It's no different than search.",
+  "zh": "这与搜索没什么不同。"
+ },
+ {
+  "seg": 160,
+  "start": 702.572,
+  "end": 704.312,
+  "speaker": "Unknown",
+  "en": "It's no different than databases in the cloud.",
+  "zh": "这与云中的数据库没什么不同。"
+ },
+ {
+  "seg": 161,
+  "start": 704.372,
+  "end": 708.974,
+  "speaker": "Unknown",
+  "en": "You know that we could run our own search, but what a hassle is it?",
+  "zh": "你知道我们可以运行自己的搜索，但这多麻烦啊？"
+ },
+ {
+  "seg": 162,
+  "start": 709.014,
+  "end": 710.595,
+  "speaker": "Unknown",
+  "en": "We can, in fact, build our own computers.",
+  "zh": "我们事实上可以建造自己的电脑。"
+ },
+ {
+  "seg": 163,
+  "start": 710.835,
+  "end": 712.156,
+  "speaker": "Unknown",
+  "en": "Why don't we just use it in the cloud?",
+  "zh": "为什么我们不直接在云中使用它？"
+ },
+ {
+  "seg": 164,
+  "start": 712.757,
+  "end": 720.343,
+  "speaker": "Unknown",
+  "en": "There are a lot of things we could do that's more cost-effective, but it's in fact more convenient to use it when it's in Anthropic and OpenAI.",
+  "zh": "我们可以做的很多事情成本效益更高，但实际上在 Anthropic 和 OpenAI 中使用它更方便。"
+ },
+ {
+  "seg": 165,
+  "start": 720.663,
+  "end": 729.831,
+  "speaker": "Unknown",
+  "en": "I would also argue that for a lot of people and for a lot of companies, even if the model is free, it'll still cost you more.",
+  "zh": "我还想论证的是，对于很多人和很多公司来说，即使模型是免费的，它仍然会让你花费更多。"
+ },
+ {
+  "seg": 166,
+  "start": 730.872,
+  "end": 732.053,
+  "speaker": "Unknown",
+  "en": "to operate it yourself.",
+  "zh": "自己去运营它。"
+ },
+ {
+  "seg": 167,
+  "start": 732.113,
+  "end": 733.695,
+  "speaker": "Unknown",
+  "en": "You might as well have somebody else do it for you.",
+  "zh": "你还不如让别人替你做。"
+ },
+ {
+  "seg": 168,
+  "start": 733.915,
+  "end": 739.762,
+  "speaker": "Unknown",
+  "en": "And so I think whether it's just more accessible, it's going to be better.",
+  "zh": "所以我认为只要它更容易获得，它就会更好。"
+ },
+ {
+  "seg": 169,
+  "start": 741.343,
+  "end": 746.029,
+  "speaker": "Unknown",
+  "en": "However you think about these closed models, I think they're going to be thriving for years to come.",
+  "zh": "无论你怎么看待这些闭源模型，我认为它们在未来多年都会蓬勃发展。"
+ },
+ {
+  "seg": 170,
+  "start": 746.509,
+  "end": 751.313,
+  "speaker": "Unknown",
+  "en": "What's your vision for the future with open source and proprietary models competing with each other?",
+  "zh": "对于开源和专有模型相互竞争的未来，你的愿景是什么？"
+ },
+ {
+  "seg": 171,
+  "start": 751.954,
+  "end": 754.996,
+  "speaker": "Unknown",
+  "en": "The world is going to have closed and open models.",
+  "zh": "世界将拥有闭源和开源模型。"
+ },
+ {
+  "seg": 172,
+  "start": 755.557,
+  "end": 758.119,
+  "speaker": "Unknown",
+  "en": "We should use closed models as often as we can.",
+  "zh": "我们应该尽可能多地使用闭源模型。"
+ },
+ {
+  "seg": 173,
+  "start": 758.539,
+  "end": 766.466,
+  "speaker": "Unknown",
+  "en": "And we should customize and use open models to build our own personalized AI if we must.",
+  "zh": "如果必须的话，我们应该定制并使用开源模型来构建我们自己的个性化 AI。"
+ },
+ {
+  "seg": 174,
+  "start": 767.167,
+  "end": 768.047,
+  "speaker": "Unknown",
+  "en": "And now, of course...",
+  "zh": "而现在，当然……"
+ },
+ {
+  "seg": 175,
+  "start": 769.404,
+  "end": 791.541,
+  "speaker": "Unknown",
+  "en": "world is large and for many countries and companies they must build their own intelligence they can't outsource their fundamental intelligence to a third party and so i think you should you should apply and adopt and rent intelligence from cloud services wherever you can however you can't outsource your own intelligence you should build your own custom ai",
+  "zh": "世界很大，对于许多国家和公司来说，他们必须建立自己的智能，他们不能将基础智能外包给第三方，所以我认为你应该你应该尽可能地在云服务中应用、采用和租用智能，然而你不能外包你自己的智能，你应该建立你自己的定制 AI"
+ },
+ {
+  "seg": 176,
+  "start": 792.369,
+  "end": 801.956,
+  "speaker": "Unknown",
+  "en": "the Palantir CEO, went viral for his interview warning about giving up your alpha, your intellectual property, to the Frontier Labs.",
+  "zh": "Palantir 的 CEO，因为他的采访而走红，他警告说要把你的 alpha，你的知识产权，交给 Frontier Labs。"
+ },
+ {
+  "seg": 177,
+  "start": 802.276,
+  "end": 803.417,
+  "speaker": "Unknown",
+  "en": "You're in a unique position.",
+  "zh": "你处于一个独特的位置。"
+ },
+ {
+  "seg": 178,
+  "start": 803.457,
+  "end": 808.921,
+  "speaker": "Unknown",
+  "en": "You both use the Frontier Labs and you supply them.",
+  "zh": "你既使用 Frontier Labs 又供应给他们。"
+ },
+ {
+  "seg": 179,
+  "start": 808.961,
+  "end": 810.863,
+  "speaker": "Unknown",
+  "en": "You use them for your own...",
+  "zh": "你把它们用于你自己的……"
+ },
+ {
+  "seg": 180,
+  "start": 811.363,
+  "end": 815.146,
+  "speaker": "Unknown",
+  "en": "chip design to your most important customers.",
+  "zh": "芯片设计，给你的最重要的客户。"
+ },
+ {
+  "seg": 181,
+  "start": 815.606,
+  "end": 824.013,
+  "speaker": "Unknown",
+  "en": "Do you worry about giving away your alpha, your IP to an AI that may be using it to do their own optimized chip design?",
+  "zh": "你是否担心把你的 alpha，你的 IP 交给一个可能利用它来做自己的优化芯片设计的 AI？"
+ },
+ {
+  "seg": 182,
+  "start": 824.453,
+  "end": 826.755,
+  "speaker": "Unknown",
+  "en": "Nobody should outsource their alpha.",
+  "zh": "没有人应该外包他们的 alpha。"
+ },
+ {
+  "seg": 183,
+  "start": 826.835,
+  "end": 828.697,
+  "speaker": "Unknown",
+  "en": "Nobody should outsource their intelligence.",
+  "zh": "没有人应该外包他们的智能。"
+ },
+ {
+  "seg": 184,
+  "start": 828.757,
+  "end": 829.857,
+  "speaker": "Unknown",
+  "en": "No country should.",
+  "zh": "没有国家应该这样做。"
+ },
+ {
+  "seg": 185,
+  "start": 830.558,
+  "end": 834.881,
+  "speaker": "Unknown",
+  "en": "We should always import and rent services wherever we can.",
+  "zh": "我们应该在任何可能的地方进口和租用服务。"
+ },
+ {
+  "seg": 186,
+  "start": 834.901,
+  "end": 836.723,
+  "speaker": "Unknown",
+  "en": "So how do you protect it?",
+  "zh": "那么你如何保护它？"
+ },
+ {
+  "seg": 187,
+  "start": 836.843,
+  "end": 838.204,
+  "speaker": "Unknown",
+  "en": "And where are you most vulnerable?",
+  "zh": "而你在哪里最脆弱？"
+ },
+ {
+  "seg": 188,
+  "start": 838.728,
+  "end": 851.276,
+  "speaker": "Unknown",
+  "en": "Well, in the areas that are domain-specific, proprietary, maybe sovereign, maybe secret, maybe regulated, I need to do it myself.",
+  "zh": "嗯，在那些特定领域的、专有的、也许是主权的、也许是秘密的、也许受监管的领域，我需要自己做。"
+ },
+ {
+  "seg": 189,
+  "start": 851.476,
+  "end": 853.437,
+  "speaker": "Unknown",
+  "en": "A company or a country need to do it themselves.",
+  "zh": "一个公司或一个国家需要自己做。"
+ },
+ {
+  "seg": 190,
+  "start": 853.957,
+  "end": 858.14,
+  "speaker": "Unknown",
+  "en": "However, there's a whole lot of things that we do that are not related to that.",
+  "zh": "然而，我们做的很多事情与那无关。"
+ },
+ {
+  "seg": 191,
+  "start": 858.32,
+  "end": 863.883,
+  "speaker": "Unknown",
+  "en": "You know, maybe it's related to automating marketing or maybe it's related to automating our legal department.",
+  "zh": "你知道，也许它与自动化营销有关，或者也许它与自动化我们的法律部门有关。"
+ },
+ {
+  "seg": 192,
+  "start": 863.943,
+  "end": 874.09,
+  "speaker": "Unknown",
+  "en": "And in all of those different many use cases around the company, it's really about enhancing the productivity of the core company itself.",
+  "zh": "在公司周围所有这些不同的许多用例中，它真的是关于增强核心公司的生产力。"
+ },
+ {
+  "seg": 193,
+  "start": 875.07,
+  "end": 879.873,
+  "speaker": "Unknown",
+  "en": "It's not specific domain or intellectual property to the company.",
+  "zh": "它不是针对公司的特定领域或知识产权。"
+ },
+ {
+  "seg": 194,
+  "start": 880.354,
+  "end": 882.475,
+  "speaker": "Unknown",
+  "en": "In those cases, I would outsource as much as we can.",
+  "zh": "在那些情况下，我会尽可能多地外包。"
+ },
+ {
+  "seg": 195,
+  "start": 884.793,
+  "end": 886.594,
+  "speaker": "Unknown",
+  "en": "Thank you so much for watching Behind the Curtain.",
+  "zh": "非常感谢大家观看 Behind the Curtain。"
+ },
+ {
+  "seg": 196,
+  "start": 886.634,
+  "end": 889.817,
+  "speaker": "Unknown",
+  "en": "We'll take a quick break to hear from our sponsor, Accenture.",
+  "zh": "我们将休息一下来听我们的赞助商 Accenture 的声音。"
+ },
+ {
+  "seg": 197,
+  "start": 890.557,
+  "end": 896.782,
+  "speaker": "Unknown",
+  "en": "I'm very excited about our reinvention story today, which is literally 160 years in the making.",
+  "zh": "我对我们今天的重塑故事感到非常兴奋，这实际上是 160 年的成果。"
+ },
+ {
+  "seg": 198,
+  "start": 896.942,
+  "end": 902.346,
+  "speaker": "Unknown",
+  "en": "The reinvention was trying to bring a company into the trends of the future.",
+  "zh": "这次重塑是试图把一家公司带入未来的趋势中。"
+ },
+ {
+  "seg": 199,
+  "start": 907.315,
+  "end": 916.258,
+  "speaker": "Unknown",
+  "en": "what's the scariest or most awe-inspiring thing that you personally have seen AI do where you said, holy shit, I can't believe this is happening?",
+  "zh": "你个人见过的 AI 做过的最可怕或最令人敬畏的事情是什么，当时你说，天哪，我不敢相信这正在发生？"
+ },
+ {
+  "seg": 200,
+  "start": 917.898,
+  "end": 923.6,
+  "speaker": "Unknown",
+  "en": "Well, I expect it to do almost everything that tasks that we can do.",
+  "zh": "嗯，我期望它几乎能做我们能做的所有事情。"
+ },
+ {
+  "seg": 201,
+  "start": 924.76,
+  "end": 935.183,
+  "speaker": "Unknown",
+  "en": "You know, it wasn't a far reach to imagine that AI can generate videos that are photorealistic and so lifelike.",
+  "zh": "你知道，不难想象 AI 可以生成逼真的、非常生动的视频。"
+ },
+ {
+  "seg": 202,
+  "start": 936.043,
+  "end": 940.464,
+  "speaker": "Unknown",
+  "en": "It isn't so beyond imagination that AI can generate text.",
+  "zh": "AI 可以生成文本并没有那么超出想象。"
+ },
+ {
+  "seg": 203,
+  "start": 941.044,
+  "end": 943.085,
+  "speaker": "Unknown",
+  "en": "And from that, it can reason.",
+  "zh": "由此，它可以推理。"
+ },
+ {
+  "seg": 204,
+  "start": 943.185,
+  "end": 946.206,
+  "speaker": "Unknown",
+  "en": "From that, it can essentially write code.",
+  "zh": "由此，它基本上可以写代码。"
+ },
+ {
+  "seg": 205,
+  "start": 946.766,
+  "end": 962.47,
+  "speaker": "Unknown",
+  "en": "And so the things that AI is doing is fairly consistent with what I expect it to be able to do, that it could drive cars, that it could move around and manipulate things, pick up things, and essentially manufacture these computers.",
+  "zh": "所以 AI 正在做的事情与我期望它能做的事情相当一致，它可以开车，可以四处移动并操作物体，拿起东西，并基本上制造这些计算机。"
+ },
+ {
+  "seg": 206,
+  "start": 963.37,
+  "end": 967.134,
+  "speaker": "Unknown",
+  "en": "And all of those capabilities I've largely imagined.",
+  "zh": "所有这些能力我大多都想象过。"
+ },
+ {
+  "seg": 207,
+  "start": 967.795,
+  "end": 980.327,
+  "speaker": "Unknown",
+  "en": "I think the part that the market, the industry, society needs to realize is that while we're automating all of these different tasks, it's actually...",
+  "zh": "我认为市场、行业、社会需要认识到的一部分是，虽然我们正在自动化所有这些不同的任务，但实际上……"
+ },
+ {
+  "seg": 208,
+  "start": 981.297,
+  "end": 984.659,
+  "speaker": "Unknown",
+  "en": "increasing the amount of jobs that the world needs.",
+  "zh": "增加了世界需要的就业机会。"
+ },
+ {
+  "seg": 209,
+  "start": 985.099,
+  "end": 986.699,
+  "speaker": "Unknown",
+  "en": "And it's very sensible to me.",
+  "zh": "这对我来说非常合理。"
+ },
+ {
+  "seg": 210,
+  "start": 986.719,
+  "end": 995.803,
+  "speaker": "Unknown",
+  "en": "You know, while people have said that AI is going to eliminate jobs, that it's going to make it so that we don't have to work at all, it's exactly the opposite.",
+  "zh": "你知道，虽然人们说 AI 将会消除工作岗位，它将导致我们根本不需要工作，但这恰恰相反。"
+ },
+ {
+  "seg": 211,
+  "start": 996.284,
+  "end": 1002.727,
+  "speaker": "Unknown",
+  "en": "And the reason for that is, and I'll just first of all give you the evidence, the number of radiologists in the world is increasing substantially.",
+  "zh": "其原因是，首先让我给你证据，世界上的放射科医生的数量正在大幅增加。"
+ },
+ {
+  "seg": 212,
+  "start": 1002.747,
+  "end": 1004.067,
+  "speaker": "Unknown",
+  "en": "Some 20% I understand.",
+  "zh": "我理解大约是 20%。"
+ },
+ {
+  "seg": 213,
+  "start": 1004.507,
+  "end": 1005.568,
+  "speaker": "Unknown",
+  "en": "And the reason for that is because",
+  "zh": "其原因是，因为"
+ },
+ {
+  "seg": 214,
+  "start": 1006.897,
+  "end": 1015.08,
+  "speaker": "Unknown",
+  "en": "The studying of the radiology scans has become completely automated by AI, but as a result, they could see a lot more patients.",
+  "zh": "放射扫描的研究已经完全被 AI 自动化了，但结果是他们可以看更多的病人。"
+ },
+ {
+  "seg": 215,
+  "start": 1015.82,
+  "end": 1025.863,
+  "speaker": "Unknown",
+  "en": "And because there are so many people who needs care, the number of patients they can now bring to the hospitals has increased dramatically, which results in needing more radiologists.",
+  "zh": "因为有太多人需要护理，他们现在能带到医院的病人数量急剧增加，这导致需要更多的放射科医生。"
+ },
+ {
+  "seg": 216,
+  "start": 1026.343,
+  "end": 1027.683,
+  "speaker": "Unknown",
+  "en": "It's the same with paralegals.",
+  "zh": "律师助理也是如此。"
+ },
+ {
+  "seg": 217,
+  "start": 1028.183,
+  "end": 1032.264,
+  "speaker": "Unknown",
+  "en": "Apparently, the number of paralegals has increased by some 10%.",
+  "zh": "显然，律师助理的数量增加了大约 10%。"
+ },
+ {
+  "seg": 218,
+  "start": 1032.384,
+  "end": 1036.645,
+  "speaker": "Unknown",
+  "en": "And the reason for that is while they're using AI, the number of cases they could see has increased.",
+  "zh": "其原因是，虽然他们在使用 AI，但他们能处理的案件数量增加了。"
+ },
+ {
+  "seg": 219,
+  "start": 1037.105,
+  "end": 1045.827,
+  "speaker": "Unknown",
+  "en": "And there's just so many cases backlogged that now they need a lot more paralegals to be able to see all these different clients.",
+  "zh": "因为积压的案件太多，现在他们需要更多的律师助理来处理这些不同的客户。"
+ },
+ {
+  "seg": 220,
+  "start": 1046.327,
+  "end": 1047.308,
+  "speaker": "Unknown",
+  "en": "This is happening all over.",
+  "zh": "这到处都在发生。"
+ },
+ {
+  "seg": 221,
+  "start": 1047.728,
+  "end": 1048.908,
+  "speaker": "Unknown",
+  "en": "The number of manufacturing...",
+  "zh": "制造……"
+ },
+ {
+  "seg": 222,
+  "start": 1049.608,
+  "end": 1064.318,
+  "speaker": "Unknown",
+  "en": "jobs has increased some 50% in the last several years because these computers have to go into these AI data centers, which generate the tokens, the intelligence, and because that's in such great demand, the number of manufacturing jobs has gone up.",
+  "zh": "工作岗位的数量在过去几年中增加了大约 50%，因为这些计算机必须进入这些 AI 数据中心，这些数据中心生成 token，生成智能，而且因为需求巨大，制造业的工作岗位增加了。"
+ },
+ {
+  "seg": 223,
+  "start": 1064.779,
+  "end": 1069.062,
+  "speaker": "Unknown",
+  "en": "And so when you think about AI across the whole industry, jobs are being created everywhere.",
+  "zh": "所以当你考虑整个行业的 AI 时，到处都在创造就业机会。"
+ },
+ {
+  "seg": 224,
+  "start": 1069.722,
+  "end": 1072.545,
+  "speaker": "Unknown",
+  "en": "So one more on what blew your hair back.",
+  "zh": "关于什么让你大吃一惊，还有一点。"
+ },
+ {
+  "seg": 225,
+  "start": 1072.565,
+  "end": 1077.831,
+  "speaker": "Unknown",
+  "en": "We know that anthropic mythos can break into a bank or can break into an intelligence agency.",
+  "zh": "我们知道 anthropic mythos 可以闯入银行或闯入情报机构。"
+ },
+ {
+  "seg": 226,
+  "start": 1078.131,
+  "end": 1082.536,
+  "speaker": "Unknown",
+  "en": "What has surprised you or what's coming that gives you pause?",
+  "zh": "什么让你感到惊讶，或者即将发生的事情让你停顿了吗？"
+ },
+ {
+  "seg": 227,
+  "start": 1083.336,
+  "end": 1086.34,
+  "speaker": "Unknown",
+  "en": "Well, it surprised me that people were surprised.",
+  "zh": "嗯，让我惊讶的是人们感到惊讶。"
+ },
+ {
+  "seg": 228,
+  "start": 1087.621,
+  "end": 1088.241,
+  "speaker": "Unknown",
+  "en": "The fact that...",
+  "zh": "事实是……"
+ },
+ {
+  "seg": 229,
+  "start": 1088.993,
+  "end": 1093.335,
+  "speaker": "Unknown",
+  "en": "an agent can generate code is because it can understand software.",
+  "zh": "智能体可以生成代码，是因为它可以理解软件。"
+ },
+ {
+  "seg": 230,
+  "start": 1093.796,
+  "end": 1095.136,
+  "speaker": "Unknown",
+  "en": "It could debug software.",
+  "zh": "它可以调试软件。"
+ },
+ {
+  "seg": 231,
+  "start": 1095.857,
+  "end": 1099.479,
+  "speaker": "Unknown",
+  "en": "And if it can debug software, it could find vulnerabilities in software.",
+  "zh": "如果它可以调试软件，它就可以发现软件中的漏洞。"
+ },
+ {
+  "seg": 232,
+  "start": 1099.759,
+  "end": 1105.542,
+  "speaker": "Unknown",
+  "en": "And so cybersecurity and finding bugs is not an inconsistent idea.",
+  "zh": "所以网络安全和发现 bug 并不是一个不一致的想法。"
+ },
+ {
+  "seg": 233,
+  "start": 1105.622,
+  "end": 1110.945,
+  "speaker": "Unknown",
+  "en": "And so the fact that AI can generate and debug software suggests it could also be used for cybersecurity.",
+  "zh": "所以 AI 可以生成和调试软件这一事实表明它也可以用于网络安全。"
+ },
+ {
+  "seg": 234,
+  "start": 1111.805,
+  "end": 1113.266,
+  "speaker": "Unknown",
+  "en": "The flip side of it is equally true.",
+  "zh": "反之亦然。"
+ },
+ {
+  "seg": 235,
+  "start": 1113.726,
+  "end": 1119.789,
+  "speaker": "Unknown",
+  "en": "We need to make sure that open models are in the hands of cybersecurity experts around the world.",
+  "zh": "我们需要确保开放模型掌握在世界各地的网络安全专家手中。"
+ },
+ {
+  "seg": 236,
+  "start": 1119.829,
+  "end": 1123.791,
+  "speaker": "Unknown",
+  "en": "So open models enhances cybersecurity.",
+  "zh": "所以开放模型增强了网络安全。"
+ },
+ {
+  "seg": 237,
+  "start": 1123.931,
+  "end": 1125.452,
+  "speaker": "Unknown",
+  "en": "Open models enhances safety.",
+  "zh": "开放模型增强了安全性。"
+ },
+ {
+  "seg": 238,
+  "start": 1125.792,
+  "end": 1131.836,
+  "speaker": "Unknown",
+  "en": "And the reason for that is because we want massively distributed, self-diverse defense.",
+  "zh": "其原因是，我们需要大规模分布的、自我多样化的防御。"
+ },
+ {
+  "seg": 239,
+  "start": 1132.396,
+  "end": 1139.88,
+  "speaker": "Unknown",
+  "en": "We want to put open models in the hands of cybersecurity experts all over the world so that they could, one, defend themselves, so that they could look for vulnerability,",
+  "zh": "我们希望将开放模型交到世界各地网络安全专家的手中，以便他们能够，第一，保护自己，以便他们寻找漏洞，"
+ },
+ {
+  "seg": 240,
+  "start": 1140.3,
+  "end": 1142.101,
+  "speaker": "Unknown",
+  "en": "they could share ideas among communities.",
+  "zh": "他们可以在社区之间分享想法。"
+ },
+ {
+  "seg": 241,
+  "start": 1142.481,
+  "end": 1150.906,
+  "speaker": "Unknown",
+  "en": "If everything just becomes one single model, one single point of attack, one single source of failure, I think the world is much, much more vulnerable.",
+  "zh": "如果一切都变成一个单一模型，一个单一的攻击点，一个单一的故障源，我认为世界会脆弱得多。"
+ },
+ {
+  "seg": 242,
+  "start": 1151.026,
+  "end": 1159.33,
+  "speaker": "Unknown",
+  "en": "And so the thinking that somehow we have to close models so that the world could be more safe is exactly the opposite.",
+  "zh": "所以这种我们必须关闭模型以便世界更安全的想法恰恰相反。"
+ },
+ {
+  "seg": 243,
+  "start": 1159.35,
+  "end": 1165.854,
+  "speaker": "Unknown",
+  "en": "We have to open the models so that the world could have self-cybersecurity defense.",
+  "zh": "我们必须开放模型，以便世界能够拥有自我网络安全防御。"
+ },
+ {
+  "seg": 244,
+  "start": 1166.594,
+  "end": 1175.322,
+  "speaker": "Unknown",
+  "en": "At age 30, 33 years ago, you started NVIDIA, which then was a company to bring 3D graphics to video gaming.",
+  "zh": "30 岁时，33 年前，你创办了 NVIDIA，那时那是一家将 3D 图形带入电子游戏的公司。"
+ },
+ {
+  "seg": 245,
+  "start": 1175.342,
+  "end": 1177.384,
+  "speaker": "Unknown",
+  "en": "You've been CEO since day one.",
+  "zh": "你从一开始就是 CEO。"
+ },
+ {
+  "seg": 246,
+  "start": 1177.705,
+  "end": 1180.167,
+  "speaker": "Unknown",
+  "en": "You now have the world's most valuable company.",
+  "zh": "你现在拥有世界上最有价值的公司。"
+ },
+ {
+  "seg": 247,
+  "start": 1180.207,
+  "end": 1185.552,
+  "speaker": "Unknown",
+  "en": "It turned out the same technology that could be used in video game cards is used in AI chips.",
+  "zh": "原来，可用于游戏卡的相同技术也用于 AI 芯片。"
+ },
+ {
+  "seg": 248,
+  "start": 1186.132,
+  "end": 1189.315,
+  "speaker": "Unknown",
+  "en": "You were worth a trillion dollars three years ago.",
+  "zh": "你三年前价值一万亿美元。"
+ },
+ {
+  "seg": 249,
+  "start": 1190.156,
+  "end": 1193.218,
+  "speaker": "Unknown",
+  "en": "Now NVIDIA's worth 5x that, $5 trillion.",
+  "zh": "现在 NVIDIA 的价值是那个的 5 倍，5 万亿美元。"
+ },
+ {
+  "seg": 250,
+  "start": 1194.639,
+  "end": 1199.943,
+  "speaker": "Unknown",
+  "en": "Could a success story like that ever be done again, or are you a unicorn's unicorn?",
+  "zh": "这样的成功故事还能重演吗，还是说你是独角兽中的独角兽？"
+ },
+ {
+  "seg": 251,
+  "start": 1201.671,
+  "end": 1203.092,
+  "speaker": "Unknown",
+  "en": "Anything's possible in the United States.",
+  "zh": "在美国，一切皆有可能。"
+ },
+ {
+  "seg": 252,
+  "start": 1204.472,
+  "end": 1206.834,
+  "speaker": "Unknown",
+  "en": "There's a reason why it's called the American dream.",
+  "zh": "它之所以被称为美国梦是有原因的。"
+ },
+ {
+  "seg": 253,
+  "start": 1207.754,
+  "end": 1221.221,
+  "speaker": "Unknown",
+  "en": "If you're willing to work hard, if you're willing to take chances and go do something unique, the environment, the conditions, the support, the people, the brilliance.",
+  "zh": "如果你愿意努力工作，如果你愿意冒险并去做一些独特的事情，环境、条件、支持、人才、智慧，"
+ },
+ {
+  "seg": 254,
+  "start": 1222.021,
+  "end": 1222.922,
+  "speaker": "Unknown",
+  "en": "That's all around us.",
+  "zh": "这一切都在我们周围。"
+ },
+ {
+  "seg": 255,
+  "start": 1223.223,
+  "end": 1224.064,
+  "speaker": "Unknown",
+  "en": "It makes it possible.",
+  "zh": "它使其成为可能。"
+ },
+ {
+  "seg": 256,
+  "start": 1224.184,
+  "end": 1226.467,
+  "speaker": "Unknown",
+  "en": "And I think this is the land of dreams.",
+  "zh": "我认为这是梦想之地。"
+ },
+ {
+  "seg": 257,
+  "start": 1226.547,
+  "end": 1227.448,
+  "speaker": "Unknown",
+  "en": "Almost anything is possible.",
+  "zh": "几乎一切皆有可能。"
+ },
+ {
+  "seg": 258,
+  "start": 1227.488,
+  "end": 1229.411,
+  "speaker": "Unknown",
+  "en": "Yeah, it may make it more possible.",
+  "zh": "是的，这可能使其更有可能。"
+ },
+ {
+  "seg": 259,
+  "start": 1229.451,
+  "end": 1234.418,
+  "speaker": "Unknown",
+  "en": "Like I always tell my nieces and nephews, great fortunes are going to be created on a laptop.",
+  "zh": "就像我经常告诉我的侄子侄女们的那样，巨额财富将在笔记本电脑上创造出来。"
+ },
+ {
+  "seg": 260,
+  "start": 1234.973,
+  "end": 1235.794,
+  "speaker": "Unknown",
+  "en": "All completely true.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 261,
+  "start": 1235.814,
+  "end": 1241.437,
+  "speaker": "Unknown",
+  "en": "The number of startups that are being created today is growing extraordinarily fast.",
+  "zh": "如今创建的初创公司数量正以极快的速度增长。"
+ },
+ {
+  "seg": 262,
+  "start": 1241.878,
+  "end": 1251.624,
+  "speaker": "Unknown",
+  "en": "In the last six months, $300 billion has been invested into venture capital, into startups, just here in the United States.",
+  "zh": "在过去六个月里，有 3000 亿美元投资于风险投资，投资于初创公司，就在美国这里。"
+ },
+ {
+  "seg": 263,
+  "start": 1251.664,
+  "end": 1252.504,
+  "speaker": "Unknown",
+  "en": "$300 billion.",
+  "zh": "3000 亿美元。"
+ },
+ {
+  "seg": 264,
+  "start": 1253.565,
+  "end": 1255.626,
+  "speaker": "Unknown",
+  "en": "All of that's creating new jobs, new companies.",
+  "zh": "所有这一切都在创造新的就业机会，新的公司。"
+ },
+ {
+  "seg": 265,
+  "start": 1255.767,
+  "end": 1256.287,
+  "speaker": "Unknown",
+  "en": "It's incredible.",
+  "zh": "真是令人难以置信。"
+ },
+ {
+  "seg": 266,
+  "start": 1257.211,
+  "end": 1263.355,
+  "speaker": "Unknown",
+  "en": "Now, NVIDIA is facing the toughest headwind since the Great Recession close to 20 years ago.",
+  "zh": "现在，NVIDIA 正面临着自近 20 年前大衰退以来最强劲的逆风。"
+ },
+ {
+  "seg": 267,
+  "start": 1263.395,
+  "end": 1271.821,
+  "speaker": "Unknown",
+  "en": "You had a market rout, China rising, the U.S. government looking to be more restrictive, bringing your engineer's mind to the job of the CEO.",
+  "zh": "市场崩盘，中国崛起，美国政府似乎变得更加 restrictive，把你的工程师思维带到 CEO 的工作中，"
+ },
+ {
+  "seg": 268,
+  "start": 1272.101,
+  "end": 1273.282,
+  "speaker": "Unknown",
+  "en": "How do you navigate all that?",
+  "zh": "你如何驾驭这一切？"
+ },
+ {
+  "seg": 269,
+  "start": 1274.859,
+  "end": 1277.803,
+  "speaker": "Unknown",
+  "en": "Well, the world's changing every day and you just got to stay alert.",
+  "zh": "嗯，世界每天都在变化，你只要保持警惕。"
+ },
+ {
+  "seg": 270,
+  "start": 1278.704,
+  "end": 1284.451,
+  "speaker": "Unknown",
+  "en": "But I have every confidence that NVIDIA and the United States are going to continue to thrive.",
+  "zh": "但我完全相信 NVIDIA 和美国将继续繁荣。"
+ },
+ {
+  "seg": 271,
+  "start": 1285.453,
+  "end": 1292.021,
+  "speaker": "Unknown",
+  "en": "You know, the confidence comes from not hope, but confidence comes from the fact that you're surrounded by amazing people.",
+  "zh": "你知道，信心不是来自希望，而是来自你被杰出的人包围这一事实。"
+ },
+ {
+  "seg": 272,
+  "start": 1292.862,
+  "end": 1296.283,
+  "speaker": "Unknown",
+  "en": "the country fundamentally wants to succeed.",
+  "zh": "这个国家从根本上想要成功。"
+ },
+ {
+  "seg": 273,
+  "start": 1296.943,
+  "end": 1302.445,
+  "speaker": "Unknown",
+  "en": "And it creates the conditions for entrepreneurs and innovators to do great work.",
+  "zh": "它为企业家和创新者创造条件去做伟大的工作。"
+ },
+ {
+  "seg": 274,
+  "start": 1302.625,
+  "end": 1305.986,
+  "speaker": "Unknown",
+  "en": "And we're surrounded by amazing brilliance.",
+  "zh": "我们被卓越的智慧包围。"
+ },
+ {
+  "seg": 275,
+  "start": 1306.146,
+  "end": 1307.987,
+  "speaker": "Unknown",
+  "en": "We have incredible local market.",
+  "zh": "我们拥有令人难以置信的本土市场。"
+ },
+ {
+  "seg": 276,
+  "start": 1308.647,
+  "end": 1314.769,
+  "speaker": "Unknown",
+  "en": "We have just, you know, all the recipes, all the ingredients necessary for long-term success.",
+  "zh": "我们只是，你知道，拥有所有配方，拥有长期成功所需的所有要素。"
+ },
+ {
+  "seg": 277,
+  "start": 1315.429,
+  "end": 1318.89,
+  "speaker": "Unknown",
+  "en": "And so I'm as bullish as ever, as confident as ever.",
+  "zh": "所以我比以往任何时候都看好，比以往任何时候都充满信心。"
+ },
+ {
+  "seg": 278,
+  "start": 1319.699,
+  "end": 1324.924,
+  "speaker": "Unknown",
+  "en": "The United States was supposed to be six months ahead of China in AI, not much margin for error.",
+  "zh": "美国本应在 AI 领先中国六个月，没有太大的容错空间。"
+ },
+ {
+  "seg": 279,
+  "start": 1325.524,
+  "end": 1331.37,
+  "speaker": "Unknown",
+  "en": "Now the tech world has been rocked by Chinese models that rival open AIs, ChatGPT and Anthropix.",
+  "zh": "现在科技界被 rival open AIs、ChatGPT 和 Anthropix 的 Chinese models 震撼了。"
+ },
+ {
+  "seg": 280,
+  "start": 1331.73,
+  "end": 1333.772,
+  "speaker": "Unknown",
+  "en": "Quad, has China caught up?",
+  "zh": "Quad，中国赶上来了吗？"
+ },
+ {
+  "seg": 281,
+  "start": 1335.847,
+  "end": 1339.049,
+  "speaker": "Unknown",
+  "en": "Whether China has or not, I don't think it matters.",
+  "zh": "中国是否赶上了，我认为并不重要。"
+ },
+ {
+  "seg": 282,
+  "start": 1339.669,
+  "end": 1340.45,
+  "speaker": "Unknown",
+  "en": "And let me tell you why.",
+  "zh": "让我告诉你原因。"
+ },
+ {
+  "seg": 283,
+  "start": 1340.65,
+  "end": 1347.473,
+  "speaker": "Unknown",
+  "en": "I think, first of all, the idea that it's a race with an endpoint, obviously, we're going to continue to use AI forever.",
+  "zh": "首先，认为这是一场有终点的比赛的想法，显然，我们将永远继续使用 AI。"
+ },
+ {
+  "seg": 284,
+  "start": 1347.493,
+  "end": 1350.295,
+  "speaker": "Unknown",
+  "en": "The United States is going to be here for a long time.",
+  "zh": "美国还将存在很长时间。"
+ },
+ {
+  "seg": 285,
+  "start": 1350.335,
+  "end": 1351.796,
+  "speaker": "Unknown",
+  "en": "China is going to be here for a long time.",
+  "zh": "中国还将存在很长时间。"
+ },
+ {
+  "seg": 286,
+  "start": 1352.536,
+  "end": 1359.26,
+  "speaker": "Unknown",
+  "en": "We have to recognize that China has some of the largest population of science and math students in the world.",
+  "zh": "我们必须认识到，中国拥有世界上最大的理工科学生群体之一。"
+ },
+ {
+  "seg": 287,
+  "start": 1359.98,
+  "end": 1362.922,
+  "speaker": "Unknown",
+  "en": "If they manufacture anything, that's incredible.",
+  "zh": "如果他们制造任何东西，那是令人难以置信的。"
+ },
+ {
+  "seg": 288,
+  "start": 1363.162,
+  "end": 1365.363,
+  "speaker": "Unknown",
+  "en": "They manufacture math students incredibly.",
+  "zh": "他们在制造理工科学生方面令人难以置信。"
+ },
+ {
+  "seg": 289,
+  "start": 1365.923,
+  "end": 1371.984,
+  "speaker": "Unknown",
+  "en": "And so they manufacture more AI researchers than the rest of the world combined.",
+  "zh": "因此他们制造的 AI 研究人员比世界其他地区的总和还多。"
+ },
+ {
+  "seg": 290,
+  "start": 1373.445,
+  "end": 1378.266,
+  "speaker": "Unknown",
+  "en": "So the fact that China is going to be extraordinary at this is a foregone conclusion.",
+  "zh": "所以中国在这方面将非常出色是一个既定结论。"
+ },
+ {
+  "seg": 291,
+  "start": 1378.486,
+  "end": 1385.207,
+  "speaker": "Unknown",
+  "en": "And the idea that we would hold China back is ill-conceived, and it's not going to happen.",
+  "zh": "认为我们可以阻挡中国的想法是构思错误的，而且这不会发生。"
+ },
+ {
+  "seg": 292,
+  "start": 1385.967,
+  "end": 1388.228,
+  "speaker": "Unknown",
+  "en": "Nor are they going to hold the United States back.",
+  "zh": "他们也不会阻挡美国。"
+ },
+ {
+  "seg": 293,
+  "start": 1388.796,
+  "end": 1391.318,
+  "speaker": "Unknown",
+  "en": "You know, this is an incredibly innovative country.",
+  "zh": "你知道，这是一个极具创新性的国家。"
+ },
+ {
+  "seg": 294,
+  "start": 1391.899,
+  "end": 1394.261,
+  "speaker": "Unknown",
+  "en": "We have brilliant minds from all over the world.",
+  "zh": "我们拥有来自世界各地的杰出人才。"
+ },
+ {
+  "seg": 295,
+  "start": 1394.601,
+  "end": 1396.543,
+  "speaker": "Unknown",
+  "en": "They come here because of the American dream.",
+  "zh": "他们因为美国梦而来到这里。"
+ },
+ {
+  "seg": 296,
+  "start": 1397.323,
+  "end": 1401.607,
+  "speaker": "Unknown",
+  "en": "Immigrants, American-born, you name it.",
+  "zh": "移民，美国出生的，随你怎么说。"
+ },
+ {
+  "seg": 297,
+  "start": 1401.827,
+  "end": 1403.609,
+  "speaker": "Unknown",
+  "en": "I mean, we have great universities.",
+  "zh": "我是说，我们有很棒的大学。"
+ },
+ {
+  "seg": 298,
+  "start": 1403.649,
+  "end": 1404.73,
+  "speaker": "Unknown",
+  "en": "We have great industry.",
+  "zh": "我们有很棒的产业。"
+ },
+ {
+  "seg": 299,
+  "start": 1405.431,
+  "end": 1409.274,
+  "speaker": "Unknown",
+  "en": "And so I have every confidence that the United States will continue to thrive.",
+  "zh": "所以我完全相信美国将继续繁荣。"
+ },
+ {
+  "seg": 300,
+  "start": 1409.894,
+  "end": 1413.858,
+  "speaker": "Unknown",
+  "en": "The most important thing that we have to do with AI is not to scare",
+  "zh": "我们在 AI 方面必须做的最重要的事情不是去吓唬"
+ },
+ {
+  "seg": 301,
+  "start": 1415.483,
+  "end": 1439.346,
+  "speaker": "Unknown",
+  "en": "our industries not to scare our society into not using ai ai is not going to destroy all of our jobs someone who uses ai is going to take our jobs and so we have to make sure that we adopt ai diffuse ai into the industries as quickly as possible anything we do",
+  "zh": "我们的行业，不要吓唬我们的社会从而不使用 AI，AI 不会毁掉我们的所有工作，某个使用 AI 的人将会夺走我们的工作，所以我们要确保我们采用 AI，将 AI 尽快扩散到各个行业中，我们所做的任何事情"
+ },
+ {
+  "seg": 302,
+  "start": 1439.926,
+  "end": 1441.268,
+  "speaker": "Unknown",
+  "en": "that limits that.",
+  "zh": "限制了这一点。"
+ },
+ {
+  "seg": 303,
+  "start": 1441.388,
+  "end": 1449.918,
+  "speaker": "Unknown",
+  "en": "Anything that we do that prevents that from happening, whether it's because we scared people, we talk all day about the dooms of AI.",
+  "zh": "我们所做的任何阻止这种事情发生的事情，无论是因为我们吓唬了人们，还是我们整天谈论 AI 的末日。"
+ },
+ {
+  "seg": 304,
+  "start": 1450.238,
+  "end": 1453.862,
+  "speaker": "Unknown",
+  "en": "I think all of that is just ill-placed and it's not helpful to the United States.",
+  "zh": "我认为所有这些都是不恰当的，而且对美国没有帮助。"
+ },
+ {
+  "seg": 305,
+  "start": 1454.302,
+  "end": 1458.047,
+  "speaker": "Unknown",
+  "en": "And so, so long as our industries take advantage of AI, we're going to do incredibly well.",
+  "zh": "因此，只要我们的行业利用 AI，我们就会做得非常好。"
+ },
+ {
+  "seg": 306,
+  "start": 1458.65,
+  "end": 1466.121,
+  "speaker": "Unknown",
+  "en": "On the doom, did some of your fellow moguls over-index on warning people, talking about what could come?",
+  "zh": "关于末日论，你的一些大亨同行是否过分强调了警告人们，谈论可能会发生的事情？"
+ },
+ {
+  "seg": 307,
+  "start": 1466.762,
+  "end": 1468.064,
+  "speaker": "Unknown",
+  "en": "I think it's fine to warn people.",
+  "zh": "我认为警告人们是可以的。"
+ },
+ {
+  "seg": 308,
+  "start": 1468.705,
+  "end": 1471.048,
+  "speaker": "Unknown",
+  "en": "It's even better to warn people with a solution.",
+  "zh": "带着解决方案去警告人们那就更好了。"
+ },
+ {
+  "seg": 309,
+  "start": 1471.929,
+  "end": 1474.292,
+  "speaker": "Unknown",
+  "en": "And it's absolutely inappropriate to make things up.",
+  "zh": "而编造事情是绝对不恰当的。"
+ },
+ {
+  "seg": 310,
+  "start": 1475.351,
+  "end": 1479.633,
+  "speaker": "Unknown",
+  "en": "And so the fact that this is going to be the end of humanity, it's complete nonsense.",
+  "zh": "因此，这将是人类终结的说法，完全是胡说八道。"
+ },
+ {
+  "seg": 311,
+  "start": 1480.033,
+  "end": 1486.376,
+  "speaker": "Unknown",
+  "en": "The fact that this is going to destroy half of the American jobs is complete nonsense.",
+  "zh": "这将毁掉美国一半的工作的说法，完全是胡说八道。"
+ },
+ {
+  "seg": 312,
+  "start": 1486.436,
+  "end": 1491.719,
+  "speaker": "Unknown",
+  "en": "And all of the facts, all of the evidence point exactly to the opposite.",
+  "zh": "而所有的事实，所有的证据都恰恰指向相反的方向。"
+ },
+ {
+  "seg": 313,
+  "start": 1492.179,
+  "end": 1496.561,
+  "speaker": "Unknown",
+  "en": "And intuition and good wisdom would tell you that it's exactly wrong.",
+  "zh": "直觉和良好的智慧会告诉你，这恰恰是错的。"
+ },
+ {
+  "seg": 314,
+  "start": 1497.021,
+  "end": 1499.542,
+  "speaker": "Unknown",
+  "en": "That AI will increase productivity.",
+  "zh": "即 AI 将提高生产力。"
+ },
+ {
+  "seg": 315,
+  "start": 1500.123,
+  "end": 1503.684,
+  "speaker": "Unknown",
+  "en": "When productivity is increased, it creates opportunities.",
+  "zh": "当生产力提高时，它会创造机会。"
+ },
+ {
+  "seg": 316,
+  "start": 1504.385,
+  "end": 1504.545,
+  "speaker": "Unknown",
+  "en": "Look,",
+  "zh": "听着，"
+ },
+ {
+  "seg": 317,
+  "start": 1505.381,
+  "end": 1511.546,
+  "speaker": "Unknown",
+  "en": "Over the history of the arc of time, society has become more and more productive as a result of technology.",
+  "zh": "在整个时间的弧线历史中，由于技术的原因，社会已经变得越来越富有生产力。"
+ },
+ {
+  "seg": 318,
+  "start": 1512.187,
+  "end": 1513.928,
+  "speaker": "Unknown",
+  "en": "It has created more jobs, not less.",
+  "zh": "它创造了更多的工作，而不是更少。"
+ },
+ {
+  "seg": 319,
+  "start": 1514.829,
+  "end": 1518.973,
+  "speaker": "Unknown",
+  "en": "If it's created less jobs, we'd have 100,000 jobs in the United States, and it's not true.",
+  "zh": "如果它创造了更少的工作，我们在美国会有 100,000 份工作，但这并不是真的。"
+ },
+ {
+  "seg": 320,
+  "start": 1519.513,
+  "end": 1524.497,
+  "speaker": "Unknown",
+  "en": "It's created new industries, new opportunities, new markets, new applications.",
+  "zh": "它创造了新的行业，新的机会，新的市场，新的应用。"
+ },
+ {
+  "seg": 321,
+  "start": 1525.018,
+  "end": 1528.461,
+  "speaker": "Unknown",
+  "en": "All of that increased the amount of opportunity and growth.",
+  "zh": "所有这些都增加了机会和增长的数量。"
+ },
+ {
+  "seg": 322,
+  "start": 1528.861,
+  "end": 1531.063,
+  "speaker": "Unknown",
+  "en": "And so I think the early evidence",
+  "zh": "所以我认为早期的证据"
+ },
+ {
+  "seg": 323,
+  "start": 1532.452,
+  "end": 1533.413,
+  "speaker": "Unknown",
+  "en": "several years into it.",
+  "zh": "几年下来。"
+ },
+ {
+  "seg": 324,
+  "start": 1533.494,
+  "end": 1536.137,
+  "speaker": "Unknown",
+  "en": "It's now 15 years into the era of AI.",
+  "zh": "现在 AI 时代已经进入第 15 个年头。"
+ },
+ {
+  "seg": 325,
+  "start": 1537.278,
+  "end": 1538.961,
+  "speaker": "Unknown",
+  "en": "The evidence is abundantly clear.",
+  "zh": "证据非常清楚。"
+ },
+ {
+  "seg": 326,
+  "start": 1539.021,
+  "end": 1544.748,
+  "speaker": "Unknown",
+  "en": "We're creating a whole bunch of manufacturing jobs because AI requires industrial might.",
+  "zh": "我们正在创造大量的制造业工作，因为 AI 需要工业实力。"
+ },
+ {
+  "seg": 327,
+  "start": 1545.289,
+  "end": 1548.994,
+  "speaker": "Unknown",
+  "en": "It's created jobs in energy sector, in the chip sector, in the...",
+  "zh": "它在能源领域、芯片领域、在……创造了工作"
+ },
+ {
+  "seg": 328,
+  "start": 1549.414,
+  "end": 1552.055,
+  "speaker": "Unknown",
+  "en": "infrastructure sector, land, power, and shell.",
+  "zh": "基础设施领域，土地、电力和 shell。"
+ },
+ {
+  "seg": 329,
+  "start": 1552.415,
+  "end": 1555.796,
+  "speaker": "Unknown",
+  "en": "It's created a whole new slew of AI companies.",
+  "zh": "它创造了全新的一系列 AI 公司。"
+ },
+ {
+  "seg": 330,
+  "start": 1556.276,
+  "end": 1560.538,
+  "speaker": "Unknown",
+  "en": "And of course, the industries that take advantage of AI, they're also growing.",
+  "zh": "当然，那些利用 AI 的行业，它们也在增长。"
+ },
+ {
+  "seg": 331,
+  "start": 1560.578,
+  "end": 1562.758,
+  "speaker": "Unknown",
+  "en": "So AI is creating all kinds of jobs.",
+  "zh": "所以 AI 正在创造各种各样的工作。"
+ },
+ {
+  "seg": 332,
+  "start": 1563.659,
+  "end": 1564.999,
+  "speaker": "Unknown",
+  "en": "Last one on China.",
+  "zh": "最后一问题是关于中国的。"
+ },
+ {
+  "seg": 333,
+  "start": 1565.099,
+  "end": 1569.861,
+  "speaker": "Unknown",
+  "en": "You took a very realistic point of view about the strength that China will have.",
+  "zh": "你对中国将拥有的实力持非常现实的观点。"
+ },
+ {
+  "seg": 334,
+  "start": 1570.241,
+  "end": 1574.242,
+  "speaker": "Unknown",
+  "en": "So are OpenAI and Anthropic, two of your best customers, in trouble?",
+  "zh": "那么你最好的两个客户 OpenAI 和 Anthropic 会有麻烦吗？"
+ },
+ {
+  "seg": 335,
+  "start": 1574.862,
+  "end": 1576.643,
+  "speaker": "Unknown",
+  "en": "No, not even a little bit.",
+  "zh": "不，一点也没有。"
+ },
+ {
+  "seg": 336,
+  "start": 1577.786,
+  "end": 1579.228,
+  "speaker": "Unknown",
+  "en": "Both companies are thriving.",
+  "zh": "两家公司都在蓬勃发展。"
+ },
+ {
+  "seg": 337,
+  "start": 1579.668,
+  "end": 1580.91,
+  "speaker": "Unknown",
+  "en": "They're going to continue to grow.",
+  "zh": "它们将继续增长。"
+ },
+ {
+  "seg": 338,
+  "start": 1581.29,
+  "end": 1582.211,
+  "speaker": "Unknown",
+  "en": "They're going to go public.",
+  "zh": "它们将上市。"
+ },
+ {
+  "seg": 339,
+  "start": 1582.672,
+  "end": 1587.437,
+  "speaker": "Unknown",
+  "en": "These two companies will be the most successful IPOs in human history.",
+  "zh": "这两家公司将是人类历史上最成功的 IPO。"
+ },
+ {
+  "seg": 340,
+  "start": 1587.878,
+  "end": 1593.444,
+  "speaker": "Unknown",
+  "en": "How is it possible that two companies that are only a few years old are worth a trillion dollars?",
+  "zh": "两家只有几年的公司怎么可能价值一万亿美元？"
+ },
+ {
+  "seg": 341,
+  "start": 1593.984,
+  "end": 1595.686,
+  "speaker": "Unknown",
+  "en": "And so the idea that...",
+  "zh": "所以这个想法是……"
+ },
+ {
+  "seg": 342,
+  "start": 1601.199,
+  "end": 1619.479,
+  "speaker": "Unknown",
+  "en": "AI being diffused, abundantly free AI being diffused all over industry, all over society, so that if someone would like to have an off-the-shelf, incredibly built service instead of making their own AI, instead of hosting their own AI.",
+  "zh": "AI 被扩散，丰富的免费 AI 被扩散到整个行业，整个社会，这样如果有人想要一个现成的、构建得令人难以置信的服务，而不是自己制造 AI，而不是自己托管 AI。"
+ },
+ {
+  "seg": 343,
+  "start": 1620.06,
+  "end": 1622.841,
+  "speaker": "Unknown",
+  "en": "To have that choice, I think it's going to be fantastic.",
+  "zh": "拥有那种选择，我认为这将是极好的。"
+ },
+ {
+  "seg": 344,
+  "start": 1623.162,
+  "end": 1630.646,
+  "speaker": "Unknown",
+  "en": "So I think the more AI is used, the more people use AI, the more people rely on AI, the more opportunity for open AI and Anthropic.",
+  "zh": "所以我认为 AI 被使用得越多，人们使用 AI 越多，人们依赖 AI 越多，open AI 和 Anthropic 的机会就越多。"
+ },
+ {
+  "seg": 345,
+  "start": 1630.966,
+  "end": 1635.308,
+  "speaker": "Unknown",
+  "en": "So there's no scenario where China runs U.S. companies off the road?",
+  "zh": "所以不存在中国把美国公司挤出道路的情况吗？"
+ },
+ {
+  "seg": 346,
+  "start": 1635.673,
+  "end": 1638.775,
+  "speaker": "Unknown",
+  "en": "No, no, no, zero possibility.",
+  "zh": "不，不，不，零可能性。"
+ },
+ {
+  "seg": 347,
+  "start": 1639.415,
+  "end": 1645.239,
+  "speaker": "Unknown",
+  "en": "The American tech industry is too vibrant, too smart, too innovative, move too fast.",
+  "zh": "美国科技行业太充满活力，太聪明，太具创新性，行动太快。"
+ },
+ {
+  "seg": 348,
+  "start": 1646.179,
+  "end": 1649.041,
+  "speaker": "Unknown",
+  "en": "Whatever competition there is around the world, bring it on.",
+  "zh": "无论世界上有什么竞争，放马过来。"
+ },
+ {
+  "seg": 349,
+  "start": 1649.101,
+  "end": 1650.182,
+  "speaker": "Unknown",
+  "en": "The United States is ready.",
+  "zh": "美国准备好了。"
+ },
+ {
+  "seg": 350,
+  "start": 1652.157,
+  "end": 1657.26,
+  "speaker": "Unknown",
+  "en": "After Kimmy, the powerful Chinese model, dropped, investors dumped NVIDIA shares.",
+  "zh": "在 Kimmy 这个强大的中国模型发布后，投资者抛售了 NVIDIA 股份。"
+ },
+ {
+  "seg": 351,
+  "start": 1657.34,
+  "end": 1660.923,
+  "speaker": "Unknown",
+  "en": "Chip stocks are down 18% in the past month.",
+  "zh": "芯片股票在过去一个月下跌了 18%。"
+ },
+ {
+  "seg": 352,
+  "start": 1661.423,
+  "end": 1665.165,
+  "speaker": "Unknown",
+  "en": "What's Wall Street getting wrong about the future of the AI build-out?",
+  "zh": "华尔街对 AI 建设的未来有什么误解？"
+ },
+ {
+  "seg": 353,
+  "start": 1665.986,
+  "end": 1668.808,
+  "speaker": "Unknown",
+  "en": "Well, free AI should be great for hardware.",
+  "zh": "嗯，免费的 AI 应该对硬件有利。"
+ },
+ {
+  "seg": 354,
+  "start": 1669.78,
+  "end": 1672.281,
+  "speaker": "Unknown",
+  "en": "free AI should be great for chips.",
+  "zh": "免费的 AI 应该对芯片有利。"
+ },
+ {
+  "seg": 355,
+  "start": 1672.341,
+  "end": 1674.902,
+  "speaker": "Unknown",
+  "en": "Free AI should be great for data centers.",
+  "zh": "免费的 AI 应该对数据中心有利。"
+ },
+ {
+  "seg": 356,
+  "start": 1675.282,
+  "end": 1678.384,
+  "speaker": "Unknown",
+  "en": "So I think the market just got it wrong.",
+  "zh": "所以我认为市场只是搞错了。"
+ },
+ {
+  "seg": 357,
+  "start": 1678.404,
+  "end": 1679.524,
+  "speaker": "Unknown",
+  "en": "They got it wrong with DeepSeek.",
+  "zh": "他们在 DeepSeek 上搞错了。"
+ },
+ {
+  "seg": 358,
+  "start": 1680.064,
+  "end": 1683.966,
+  "speaker": "Unknown",
+  "en": "As you recall, when DeepSeek came out, our stock price was down some 30%.",
+  "zh": "你回想一下，当 DeepSeek 出来时，我们的股价下跌了约 30%。"
+ },
+ {
+  "seg": 359,
+  "start": 1684.646,
+  "end": 1686.787,
+  "speaker": "Unknown",
+  "en": "And I think this is exactly the same thing.",
+  "zh": "我认为这正是同一件事。"
+ },
+ {
+  "seg": 360,
+  "start": 1687.167,
+  "end": 1691.209,
+  "speaker": "Unknown",
+  "en": "What this industry needs is great AI.",
+  "zh": "这个行业需要的是伟大的 AI。"
+ },
+ {
+  "seg": 361,
+  "start": 1692.667,
+  "end": 1703.313,
+  "speaker": "Unknown",
+  "en": "And the fact that Kimmy 3 is so extraordinary, QN is so extraordinary, GLM is so extraordinary, these Nemotron, NVIDIA's Nemotron is so extraordinary.",
+  "zh": "事实是 Kimmy 3 如此非凡，QN 如此非凡，GLM 如此非凡，这些 Nemotron，NVIDIA 的 Nemotron 如此非凡。"
+ },
+ {
+  "seg": 362,
+  "start": 1703.853,
+  "end": 1710.396,
+  "speaker": "Unknown",
+  "en": "All of these models that are open are great for the industry, including OpenAI's, you know,",
+  "zh": "所有这些开源的模型对行业都是有益的，包括 OpenAI 的，你知道，"
+ },
+ {
+  "seg": 363,
+  "start": 1711.557,
+  "end": 1713.5,
+  "speaker": "Unknown",
+  "en": "GPT 5.6 is incredible.",
+  "zh": "GPT 5.6 令人难以置信。"
+ },
+ {
+  "seg": 364,
+  "start": 1713.84,
+  "end": 1715.382,
+  "speaker": "Unknown",
+  "en": "And of course, Codex is incredible.",
+  "zh": "当然，Codex 令人难以置信。"
+ },
+ {
+  "seg": 365,
+  "start": 1716.483,
+  "end": 1717.525,
+  "speaker": "Unknown",
+  "en": "Cloud Code is incredible.",
+  "zh": "Cloud Code 令人难以置信。"
+ },
+ {
+  "seg": 366,
+  "start": 1717.905,
+  "end": 1723.012,
+  "speaker": "Unknown",
+  "en": "All of these applications that are doing incredible work that are useful AI.",
+  "zh": "所有这些在做令人难以置信的工作的应用程序，都是有用的 AI。"
+ },
+ {
+  "seg": 367,
+  "start": 1723.592,
+  "end": 1725.915,
+  "speaker": "Unknown",
+  "en": "Useful AI has finally now arrived.",
+  "zh": "有用的 AI 终于到来了。"
+ },
+ {
+  "seg": 368,
+  "start": 1726.536,
+  "end": 1728.999,
+  "speaker": "Unknown",
+  "en": "And useful AI is also profitable AI.",
+  "zh": "而有用的 AI 也是有利可图的 AI。"
+ },
+ {
+  "seg": 369,
+  "start": 1730.346,
+  "end": 1732.647,
+  "speaker": "Unknown",
+  "en": "When something is useful, people, you know, desire to use it.",
+  "zh": "当某物有用时，人们，你知道，渴望使用它。"
+ },
+ {
+  "seg": 370,
+  "start": 1732.747,
+  "end": 1735.848,
+  "speaker": "Unknown",
+  "en": "And so all of this is good.",
+  "zh": "所以这一切都是好事。"
+ },
+ {
+  "seg": 371,
+  "start": 1736.088,
+  "end": 1739.369,
+  "speaker": "Unknown",
+  "en": "And closed models are excellent.",
+  "zh": "闭源模型很棒。"
+ },
+ {
+  "seg": 372,
+  "start": 1739.649,
+  "end": 1740.889,
+  "speaker": "Unknown",
+  "en": "Open models are necessary.",
+  "zh": "开源模型是必要的。"
+ },
+ {
+  "seg": 373,
+  "start": 1741.449,
+  "end": 1743.15,
+  "speaker": "Unknown",
+  "en": "And both of it's great for the industry.",
+  "zh": "两者对行业都很棒。"
+ },
+ {
+  "seg": 374,
+  "start": 1743.59,
+  "end": 1745.89,
+  "speaker": "Unknown",
+  "en": "Some investors think that AI has peaked.",
+  "zh": "一些投资者认为 AI 已经见顶。"
+ },
+ {
+  "seg": 375,
+  "start": 1746.11,
+  "end": 1751.112,
+  "speaker": "Unknown",
+  "en": "What do you know about the technology that you can tell them and the forward direction?",
+  "zh": "关于这项技术，你能告诉他们什么以及未来的方向？"
+ },
+ {
+  "seg": 376,
+  "start": 1751.672,
+  "end": 1760.324,
+  "speaker": "Unknown",
+  "en": "Well, it's impossible that AI has peaked because the diffusion of AI into society and into industry has barely begun.",
+  "zh": "嗯，AI 不可能见顶，因为 AI 向社会和行业的渗透才刚刚开始。"
+ },
+ {
+  "seg": 377,
+  "start": 1761.626,
+  "end": 1765.812,
+  "speaker": "Unknown",
+  "en": "What the world is seeing is that this new industry requires CapEx.",
+  "zh": "世界看到的是，这个新行业需要 CapEx。"
+ },
+ {
+  "seg": 378,
+  "start": 1767.115,
+  "end": 1775.721,
+  "speaker": "Unknown",
+  "en": "Unlike the last IT industry, which is very CapEx light, software industry was very CapEx light, which is the reason why software companies have such high gross margins.",
+  "zh": "不像上一个 IT 行业，它是 CapEx 很轻的，软件行业是 CapEx 很轻的，这就是为什么软件公司有如此高毛利的原因。"
+ },
+ {
+  "seg": 379,
+  "start": 1775.741,
+  "end": 1777.802,
+  "speaker": "Unknown",
+  "en": "So capital expenditures, you have to build things.",
+  "zh": "所以资本支出，你必须建造东西。"
+ },
+ {
+  "seg": 380,
+  "start": 1777.882,
+  "end": 1778.803,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 381,
+  "start": 1778.863,
+  "end": 1779.283,
+  "speaker": "Unknown",
+  "en": "Make things.",
+  "zh": "制造东西。"
+ },
+ {
+  "seg": 382,
+  "start": 1779.543,
+  "end": 1784.747,
+  "speaker": "Unknown",
+  "en": "In order to produce the modern software, you need a computer like this to generate the software.",
+  "zh": "为了生产现代软件，你需要像这样的计算机来生成软件。"
+ },
+ {
+  "seg": 383,
+  "start": 1785.267,
+  "end": 1792.577,
+  "speaker": "Unknown",
+  "en": "And so when AI is doing the coding, it's this machine that's doing all of the processing of the large language model.",
+  "zh": "所以当 AI 在做编码时，是这台机器在做所有的 LLM 处理。"
+ },
+ {
+  "seg": 384,
+  "start": 1792.617,
+  "end": 1794.459,
+  "speaker": "Unknown",
+  "en": "It's doing the reasoning and the thinking.",
+  "zh": "它在做推理和思考。"
+ },
+ {
+  "seg": 385,
+  "start": 1794.799,
+  "end": 1796.121,
+  "speaker": "Unknown",
+  "en": "It's using all kinds of tools.",
+  "zh": "它在使用各种工具。"
+ },
+ {
+  "seg": 386,
+  "start": 1796.602,
+  "end": 1799.265,
+  "speaker": "Unknown",
+  "en": "And to do that, tokens have to be produced.",
+  "zh": "为此，必须产出 tokens。"
+ },
+ {
+  "seg": 387,
+  "start": 1799.545,
+  "end": 1801.288,
+  "speaker": "Unknown",
+  "en": "Math has to be produced in this machine.",
+  "zh": "必须在这台机器中产出数学。"
+ },
+ {
+  "seg": 388,
+  "start": 1801.748,
+  "end": 1816.561,
+  "speaker": "Unknown",
+  "en": "And so this machine generates the intelligence that we see on our screen when words are coming out or images are coming out or in the future, proteins and chemicals and robotic systems are articulating and maneuvering.",
+  "zh": "所以这台机器产生了我们在屏幕上看到的智能，当单词输出或图像输出，或者在将来，蛋白质和化学物质以及机器人系统在表达和移动时。"
+ },
+ {
+  "seg": 389,
+  "start": 1817.022,
+  "end": 1821.085,
+  "speaker": "Unknown",
+  "en": "All of that is because this machine is generating the mathematics behind it.",
+  "zh": "所有这一切都是因为这台机器在产生其背后的数学。"
+ },
+ {
+  "seg": 390,
+  "start": 1821.566,
+  "end": 1823.788,
+  "speaker": "Unknown",
+  "en": "And so the new IT industry...",
+  "zh": "所以新的 IT 行业……"
+ },
+ {
+  "seg": 391,
+  "start": 1824.248,
+  "end": 1831.251,
+  "speaker": "Unknown",
+  "en": "the new software industry, and in the future, every single industry will be CapEx heavier.",
+  "zh": "新的软件行业，以及在未来，每一个单一行业都将 CapEx 更重。"
+ },
+ {
+  "seg": 392,
+  "start": 1831.931,
+  "end": 1834.212,
+  "speaker": "Unknown",
+  "en": "Not CapEx heavy, but CapEx heavier.",
+  "zh": "不是 CapEx 重，而是 CapEx 更重。"
+ },
+ {
+  "seg": 393,
+  "start": 1834.733,
+  "end": 1838.634,
+  "speaker": "Unknown",
+  "en": "Most industries today, most intelligence industries today are CapEx light.",
+  "zh": "今天的大多数行业，今天的大多数智能行业都是 CapEx 轻的。"
+ },
+ {
+  "seg": 394,
+  "start": 1839.094,
+  "end": 1840.335,
+  "speaker": "Unknown",
+  "en": "That's just simply going to change.",
+  "zh": "这将简单地发生改变。"
+ },
+ {
+  "seg": 395,
+  "start": 1840.835,
+  "end": 1846.538,
+  "speaker": "Unknown",
+  "en": "But what you get as a result is incredible intelligence, incredible productivity, incredible growth.",
+  "zh": "但你因此得到的是令人难以置信的智能，令人难以置信的生产力，令人难以置信的增长。"
+ },
+ {
+  "seg": 396,
+  "start": 1847.018,
+  "end": 1851.38,
+  "speaker": "Unknown",
+  "en": "And so the growth and the profitability and the prosperity that's going to come as a result.",
+  "zh": "所以随之而来的增长、盈利能力和繁荣。"
+ },
+ {
+  "seg": 397,
+  "start": 1852,
+  "end": 1860.61,
+  "speaker": "Unknown",
+  "en": "of intelligence being manufactured is going to more than make up for, more than make up for the CapEx that we're investing in today.",
+  "zh": "智能被制造出来，将远远弥补，远远弥补我们今天投资的 CapEx。"
+ },
+ {
+  "seg": 398,
+  "start": 1861.031,
+  "end": 1862.432,
+  "speaker": "Unknown",
+  "en": "We're laying the foundations.",
+  "zh": "我们正在打下基础。"
+ },
+ {
+  "seg": 399,
+  "start": 1863.523,
+  "end": 1873.705,
+  "speaker": "Unknown",
+  "en": "building the infrastructure, the largest industrial infrastructure build out in human history, so that we can build the foundation of industries in the future for the next generation.",
+  "zh": "建设基础设施，人类历史上最大的工业基础设施建设，以便我们能为下一代建立未来行业的基础。"
+ },
+ {
+  "seg": 400,
+  "start": 1873.765,
+  "end": 1875.866,
+  "speaker": "Unknown",
+  "en": "And so this is just the very beginning.",
+  "zh": "所以这仅仅是开始。"
+ },
+ {
+  "seg": 401,
+  "start": 1876.426,
+  "end": 1881.347,
+  "speaker": "Unknown",
+  "en": "Some conductors, as you have lived, have always been a boom and bust industry.",
+  "zh": "正如你所经历过的，一些导体一直是一个繁荣与萧条的行业。"
+ },
+ {
+  "seg": 402,
+  "start": 1881.427,
+  "end": 1882.307,
+  "speaker": "Unknown",
+  "en": "Are we due for a bust?",
+  "zh": "我们要迎来萧条了吗？"
+ },
+ {
+  "seg": 403,
+  "start": 1882.667,
+  "end": 1883.907,
+  "speaker": "Unknown",
+  "en": "No, not for a while.",
+  "zh": "不，暂时不会。"
+ },
+ {
+  "seg": 404,
+  "start": 1884.407,
+  "end": 1888.048,
+  "speaker": "Unknown",
+  "en": "And the reason for that is this time is different because this is not demand driven.",
+  "zh": "原因是这次不同，因为它不是由需求驱动的。"
+ },
+ {
+  "seg": 405,
+  "start": 1889.342,
+  "end": 1892.143,
+  "speaker": "Unknown",
+  "en": "This time is different because it's not seasonal.",
+  "zh": "这次不同，因为它不是季节性的。"
+ },
+ {
+  "seg": 406,
+  "start": 1892.643,
+  "end": 1895.464,
+  "speaker": "Unknown",
+  "en": "It's not demand-driven, meaning seasonal demand-driven.",
+  "zh": "它不是需求驱动的，也就是说是季节性需求驱动的。"
+ },
+ {
+  "seg": 407,
+  "start": 1896.625,
+  "end": 1902.967,
+  "speaker": "Unknown",
+  "en": "This is industrially driven, meaning the fundamental technology of computers is changing.",
+  "zh": "这是工业驱动的，意思是计算机的基础技术正在发生变化。"
+ },
+ {
+  "seg": 408,
+  "start": 1904.3,
+  "end": 1907.623,
+  "speaker": "Unknown",
+  "en": "We need a whole new layer of infrastructure in the world.",
+  "zh": "我们在世界范围内需要一整套全新的基础设施层。"
+ },
+ {
+  "seg": 409,
+  "start": 1907.983,
+  "end": 1911.546,
+  "speaker": "Unknown",
+  "en": "We have energy, we have the internet, we have roads, we have railroads.",
+  "zh": "我们有能源，我们有互联网，我们有公路，我们有铁路。"
+ },
+ {
+  "seg": 410,
+  "start": 1911.967,
+  "end": 1918.572,
+  "speaker": "Unknown",
+  "en": "We now need AI, the intelligence layer built, this infrastructure layer built on top of all of that.",
+  "zh": "我们现在需要 AI，需要建立智能层，这是在所有这些之上构建的基础设施层。"
+ },
+ {
+  "seg": 411,
+  "start": 1919.233,
+  "end": 1920.754,
+  "speaker": "Unknown",
+  "en": "And this layer needs chips.",
+  "zh": "而这一层需要芯片。"
+ },
+ {
+  "seg": 412,
+  "start": 1921.755,
+  "end": 1929.301,
+  "speaker": "Unknown",
+  "en": "You know, I believe we probably need our semiconductor industry to be somewhere between, you know, five to 10 times larger than it is.",
+  "zh": "你知道，我相信我们可能需要我们的半导体行业达到现在的 5 到 10 倍。"
+ },
+ {
+  "seg": 413,
+  "start": 1930.309,
+  "end": 1931.87,
+  "speaker": "Unknown",
+  "en": "Over what period of time?",
+  "zh": "在什么时间段内？"
+ },
+ {
+  "seg": 414,
+  "start": 1932.01,
+  "end": 1933.19,
+  "speaker": "Unknown",
+  "en": "Over the course of the next 10 years.",
+  "zh": "在接下来的 10 年里。"
+ },
+ {
+  "seg": 415,
+  "start": 1933.81,
+  "end": 1946.535,
+  "speaker": "Unknown",
+  "en": "And so it is way too small today, which is the reason why memory is such shortage and storage is such shortage and optical interconnects are short and packaging is short.",
+  "zh": "所以它今天太小了，这就是为什么内存如此短缺，存储如此短缺，光互连短缺，封装也短缺。"
+ },
+ {
+  "seg": 416,
+  "start": 1946.615,
+  "end": 1949.376,
+  "speaker": "Unknown",
+  "en": "And of course, TSMC's boundaries chips are short.",
+  "zh": "当然，TSMC 的边界芯片也很短缺。"
+ },
+ {
+  "seg": 417,
+  "start": 1949.436,
+  "end": 1953.258,
+  "speaker": "Unknown",
+  "en": "And so everything is in such short supply because it's not a...",
+  "zh": "所以所有东西都供应短缺，因为它不是一种……"
+ },
+ {
+  "seg": 418,
+  "start": 1954.42,
+  "end": 1956.202,
+  "speaker": "Unknown",
+  "en": "cyclical nature.",
+  "zh": "周期性性质。"
+ },
+ {
+  "seg": 419,
+  "start": 1956.362,
+  "end": 1958.624,
+  "speaker": "Unknown",
+  "en": "It's not demand from consumers.",
+  "zh": "它不是来自消费者的需求。"
+ },
+ {
+  "seg": 420,
+  "start": 1958.684,
+  "end": 1960.145,
+  "speaker": "Unknown",
+  "en": "It's not because of anything like that.",
+  "zh": "不是因为任何类似的事情。"
+ },
+ {
+  "seg": 421,
+  "start": 1960.505,
+  "end": 1963.007,
+  "speaker": "Unknown",
+  "en": "It's fundamental infrastructure related.",
+  "zh": "这与基础基础设施有关。"
+ },
+ {
+  "seg": 422,
+  "start": 1963.067,
+  "end": 1964.469,
+  "speaker": "Unknown",
+  "en": "And so the whole industry is short.",
+  "zh": "所以整个行业都很短缺。"
+ },
+ {
+  "seg": 423,
+  "start": 1965.69,
+  "end": 1967.892,
+  "speaker": "Unknown",
+  "en": "I think we need to build up the whole industry several more times.",
+  "zh": "我认为我们需要将整个行业再建设好几倍。"
+ },
+ {
+  "seg": 424,
+  "start": 1968.812,
+  "end": 1973.456,
+  "speaker": "Unknown",
+  "en": "Your customers are selling hundreds of billions of dollars in debt to pay for your products.",
+  "zh": "你的客户正在出售数千亿美元的债务来为你的产品买单。"
+ },
+ {
+  "seg": 425,
+  "start": 1974.017,
+  "end": 1975.778,
+  "speaker": "Unknown",
+  "en": "When does the party stop?",
+  "zh": "这场盛宴何时会停止？"
+ },
+ {
+  "seg": 426,
+  "start": 1976.018,
+  "end": 1978.3,
+  "speaker": "Unknown",
+  "en": "When does your finance team start to worry about these deals?",
+  "zh": "你的财务团队什么时候会开始担心这些交易？"
+ },
+ {
+  "seg": 427,
+  "start": 1980.659,
+  "end": 1983.44,
+  "speaker": "Unknown",
+  "en": "We're not worried about these deals because of several factors.",
+  "zh": "我们并不担心这些交易，原因有几个。"
+ },
+ {
+  "seg": 428,
+  "start": 1983.72,
+  "end": 1988.861,
+  "speaker": "Unknown",
+  "en": "One, these companies are extraordinary companies and they generate a lot of cash.",
+  "zh": "第一，这些公司是非凡的公司，它们产生大量的现金。"
+ },
+ {
+  "seg": 429,
+  "start": 1988.961,
+  "end": 1996.783,
+  "speaker": "Unknown",
+  "en": "What they're all doing, what they all see simultaneously is that there's a fundamental change in how computing is done.",
+  "zh": "它们都在做，它们同时看到的是，计算方式正在发生根本性的变化。"
+ },
+ {
+  "seg": 430,
+  "start": 1997.483,
+  "end": 1999.223,
+  "speaker": "Unknown",
+  "en": "It's a compute platform shift.",
+  "zh": "这是一个计算平台的转移。"
+ },
+ {
+  "seg": 431,
+  "start": 1999.944,
+  "end": 2005.065,
+  "speaker": "Unknown",
+  "en": "And so whereas computers used to be all content that was pre-recorded,",
+  "zh": "过去计算机所有的内容都是预先录制好的，"
+ },
+ {
+  "seg": 432,
+  "start": 2005.948,
+  "end": 2007.169,
+  "speaker": "Unknown",
+  "en": "We wrote it in advance.",
+  "zh": "我们提前写好它。"
+ },
+ {
+  "seg": 433,
+  "start": 2007.429,
+  "end": 2008.949,
+  "speaker": "Unknown",
+  "en": "We recorded it in advance.",
+  "zh": "我们提前录制它。"
+ },
+ {
+  "seg": 434,
+  "start": 2008.989,
+  "end": 2010.33,
+  "speaker": "Unknown",
+  "en": "We took a picture in advance.",
+  "zh": "我们提前拍照。"
+ },
+ {
+  "seg": 435,
+  "start": 2010.89,
+  "end": 2012.171,
+  "speaker": "Unknown",
+  "en": "We wrote a story in advance.",
+  "zh": "我们提前写好故事。"
+ },
+ {
+  "seg": 436,
+  "start": 2012.211,
+  "end": 2018.954,
+  "speaker": "Unknown",
+  "en": "In the future, all of that is going to be foundational information that we generate intelligence on top of.",
+  "zh": "在未来，所有这些都将成为我们要在上面生成智能的基础信息。"
+ },
+ {
+  "seg": 437,
+  "start": 2019.514,
+  "end": 2022.216,
+  "speaker": "Unknown",
+  "en": "Instead of search, you simply ask a query.",
+  "zh": "不需要搜索，你只需要提出一个查询。"
+ },
+ {
+  "seg": 438,
+  "start": 2022.236,
+  "end": 2024.217,
+  "speaker": "Unknown",
+  "en": "You have a question, and it gives you answers.",
+  "zh": "你有一个问题，它就会给你答案。"
+ },
+ {
+  "seg": 439,
+  "start": 2024.757,
+  "end": 2030.119,
+  "speaker": "Unknown",
+  "en": "Instead of you combing through all these different websites, the AI will generate the answer for you.",
+  "zh": "不需要你浏览所有这些不同的网站，AI 会为你生成答案。"
+ },
+ {
+  "seg": 440,
+  "start": 2030.439,
+  "end": 2031.28,
+  "speaker": "Unknown",
+  "en": "So this future...",
+  "zh": "所以这个未来……"
+ },
+ {
+  "seg": 441,
+  "start": 2031.8,
+  "end": 2034.982,
+  "speaker": "Unknown",
+  "en": "is a whole new way of doing computing that's fundamentally different than the past.",
+  "zh": "是一种全新的计算方式，与过去根本不同。"
+ },
+ {
+  "seg": 442,
+  "start": 2035.042,
+  "end": 2036.463,
+  "speaker": "Unknown",
+  "en": "And we need a lot more computers.",
+  "zh": "而我们需要更多的计算机。"
+ },
+ {
+  "seg": 443,
+  "start": 2037.124,
+  "end": 2044.288,
+  "speaker": "Unknown",
+  "en": "Now, the reason why a couple of years ago, some of the concerns were, when is the ROI coming?",
+  "zh": "现在也就是几年前，一些担忧是， ROI 什么时候来？"
+ },
+ {
+  "seg": 444,
+  "start": 2044.669,
+  "end": 2044.849,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 445,
+  "start": 2045.269,
+  "end": 2047.951,
+  "speaker": "Unknown",
+  "en": "We now know that AI is profitable.",
+  "zh": "我们现在知道 AI 是有利可图的。"
+ },
+ {
+  "seg": 446,
+  "start": 2048.071,
+  "end": 2052.274,
+  "speaker": "Unknown",
+  "en": "It's the reason why Anthropic is growing so profitably and so incredibly fast.",
+  "zh": "这就是为什么 Anthropic 增长得如此有利可图且如此之快。"
+ },
+ {
+  "seg": 447,
+  "start": 2054.095,
+  "end": 2055.456,
+  "speaker": "Unknown",
+  "en": "AI is both useful.",
+  "zh": "AI 既是有用的。"
+ },
+ {
+  "seg": 448,
+  "start": 2055.776,
+  "end": 2057.057,
+  "speaker": "Unknown",
+  "en": "That's why we're using it for coding.",
+  "zh": "这就是为什么我们用它来写代码。"
+ },
+ {
+  "seg": 449,
+  "start": 2057.538,
+  "end": 2058.538,
+  "speaker": "Unknown",
+  "en": "AI is profitable.",
+  "zh": "AI 是有利可图的。"
+ },
+ {
+  "seg": 450,
+  "start": 2058.678,
+  "end": 2060.7,
+  "speaker": "Unknown",
+  "en": "That's why they want to manufacture so much more.",
+  "zh": "这就是为什么他们想要制造这么多。"
+ },
+ {
+  "seg": 451,
+  "start": 2061.16,
+  "end": 2066.504,
+  "speaker": "Unknown",
+  "en": "OpenAI wants to manufacture so much more because these coding agents are incredibly profitable.",
+  "zh": "OpenAI 想要制造这么多，是因为这些编码智能体极其有利可图。"
+ },
+ {
+  "seg": 452,
+  "start": 2067.125,
+  "end": 2069.326,
+  "speaker": "Unknown",
+  "en": "These coding agents are incredibly profitable.",
+  "zh": "这些编码智能体极其有利可图。"
+ },
+ {
+  "seg": 453,
+  "start": 2069.366,
+  "end": 2072.589,
+  "speaker": "Unknown",
+  "en": "They're doing useful work for very high paying jobs.",
+  "zh": "它们为高薪工作做着有用的工作。"
+ },
+ {
+  "seg": 454,
+  "start": 2073.309,
+  "end": 2083.198,
+  "speaker": "Unknown",
+  "en": "And so many companies like ourselves are happy to pay hundreds of millions of dollars a year so that we can go use these AI services to help us augment our coding capability.",
+  "zh": "所以很多像我们这样的公司很乐意每年支付数亿美元，这样我们就可以使用这些 AI 服务来帮助我们增强我们的编码能力。"
+ },
+ {
+  "seg": 455,
+  "start": 2083.578,
+  "end": 2084.719,
+  "speaker": "Unknown",
+  "en": "We become more productive.",
+  "zh": "我们变得更有生产力。"
+ },
+ {
+  "seg": 456,
+  "start": 2085.039,
+  "end": 2085.94,
+  "speaker": "Unknown",
+  "en": "We innovate more.",
+  "zh": "我们创新更多。"
+ },
+ {
+  "seg": 457,
+  "start": 2086.22,
+  "end": 2087.281,
+  "speaker": "Unknown",
+  "en": "We create more good.",
+  "zh": "我们创造更多善。"
+ },
+ {
+  "seg": 458,
+  "start": 2087.321,
+  "end": 2089.303,
+  "speaker": "Unknown",
+  "en": "We create more productive growth.",
+  "zh": "我们创造更多的生产性增长。"
+ },
+ {
+  "seg": 459,
+  "start": 2089.843,
+  "end": 2092.145,
+  "speaker": "Unknown",
+  "en": "And we become more profitable, which pays for more AI.",
+  "zh": "我们变得更有利可图，这就支付了更多的 AI。"
+ },
+ {
+  "seg": 460,
+  "start": 2092.466,
+  "end": 2094.768,
+  "speaker": "Unknown",
+  "en": "So that flywheel has now started.",
+  "zh": "所以那个飞轮现在已经开始了。"
+ },
+ {
+  "seg": 461,
+  "start": 2095.028,
+  "end": 2100.132,
+  "speaker": "Unknown",
+  "en": "And so I think the industry has now arrived at a very critical juncture.",
+  "zh": "所以我认为这个行业现在已经到达了一个非常关键的时刻。"
+ },
+ {
+  "seg": 462,
+  "start": 2100.953,
+  "end": 2106.877,
+  "speaker": "Unknown",
+  "en": "an inflection point, if you will, where we now have profitable AI because we have useful AI.",
+  "zh": "一个拐点，如果你愿意这么说，我们现在有了有利可图的 AI，因为我们有了有用的 AI。"
+ },
+ {
+  "seg": 463,
+  "start": 2107.357,
+  "end": 2109.759,
+  "speaker": "Unknown",
+  "en": "And because of that, we want to build a lot more AI.",
+  "zh": "正因为如此，我们想要建造更多的 AI。"
+ },
+ {
+  "seg": 464,
+  "start": 2110.159,
+  "end": 2110.739,
+  "speaker": "Unknown",
+  "en": "Here's the crux.",
+  "zh": "关键就在这里。"
+ },
+ {
+  "seg": 465,
+  "start": 2110.799,
+  "end": 2115.642,
+  "speaker": "Unknown",
+  "en": "You've defined a token as the fundamental unit of artificial intelligence.",
+  "zh": "你把一个 token 定义为人工智能的基本单元。"
+ },
+ {
+  "seg": 466,
+  "start": 2115.983,
+  "end": 2119.465,
+  "speaker": "Unknown",
+  "en": "What convinces you that a token is going to keep getting more profitable?",
+  "zh": "是什么让你相信一个 token 会继续变得更有利可图？"
+ },
+ {
+  "seg": 467,
+  "start": 2120.617,
+  "end": 2124.519,
+  "speaker": "Unknown",
+  "en": "The token is what is called an embedding.",
+  "zh": "Token 就是所谓的嵌入。"
+ },
+ {
+  "seg": 468,
+  "start": 2125.119,
+  "end": 2126.56,
+  "speaker": "Unknown",
+  "en": "It embeds knowledge.",
+  "zh": "它嵌入知识。"
+ },
+ {
+  "seg": 469,
+  "start": 2127.02,
+  "end": 2128.22,
+  "speaker": "Unknown",
+  "en": "It embeds intelligence.",
+  "zh": "它嵌入智能。"
+ },
+ {
+  "seg": 470,
+  "start": 2128.88,
+  "end": 2135.403,
+  "speaker": "Unknown",
+  "en": "And so that number, that token that's being generated by this machine, is not a static number.",
+  "zh": "所以那个数字，那个由这台机器生成的 token，不是一个静态的数字。"
+ },
+ {
+  "seg": 471,
+  "start": 2135.443,
+  "end": 2136.343,
+  "speaker": "Unknown",
+  "en": "It's not like pi.",
+  "zh": "它不像 pi。"
+ },
+ {
+  "seg": 472,
+  "start": 2136.864,
+  "end": 2139.945,
+  "speaker": "Unknown",
+  "en": "That number encodes smarter and smarter...",
+  "zh": "那个数字编码了越来越聪明……"
+ },
+ {
+  "seg": 473,
+  "start": 2140.525,
+  "end": 2141.686,
+  "speaker": "Unknown",
+  "en": "intelligence over time.",
+  "zh": "随着时间的推移的智能。"
+ },
+ {
+  "seg": 474,
+  "start": 2142.187,
+  "end": 2148.212,
+  "speaker": "Unknown",
+  "en": "And so surprisingly, that single number is a whole series of numbers, trillions and trillions of numbers.",
+  "zh": "所以令人惊讶的是，那个单一的数字是一整系列的数字，数万亿的数字。"
+ },
+ {
+  "seg": 475,
+  "start": 2148.673,
+  "end": 2152.136,
+  "speaker": "Unknown",
+  "en": "Those numbers are getting smarter and smarter over time.",
+  "zh": "这些数字随着时间的推移变得越来越聪明。"
+ },
+ {
+  "seg": 476,
+  "start": 2152.596,
+  "end": 2156.96,
+  "speaker": "Unknown",
+  "en": "When they get smarter over time, they become more useful, more useful, more valuable.",
+  "zh": "当它们随着时间的推移变得更聪明时，它们就变得更有用，更有用，更有价值。"
+ },
+ {
+  "seg": 477,
+  "start": 2157.221,
+  "end": 2159.423,
+  "speaker": "Unknown",
+  "en": "When they become more valuable, people pay more for it.",
+  "zh": "当它们变得更有价值时，人们会为此支付更多。"
+ },
+ {
+  "seg": 478,
+  "start": 2159.823,
+  "end": 2160.143,
+  "speaker": "Unknown",
+  "en": "And so...",
+  "zh": "所以……"
+ },
+ {
+  "seg": 479,
+  "start": 2161.084,
+  "end": 2166.247,
+  "speaker": "Unknown",
+  "en": "I know that for most people, the concept of numbers is hard to be valuable.",
+  "zh": "我知道对大多数人来说，数字有价值这个概念很难理解。"
+ },
+ {
+  "seg": 480,
+  "start": 2166.827,
+  "end": 2174.692,
+  "speaker": "Unknown",
+  "en": "But this token, these numbers embed intelligence, and the intelligence is getting smarter and smarter all the time.",
+  "zh": "但这个 token，这些数字嵌入了智能，而且这种智能一直变得越来越聪明。"
+ },
+ {
+  "seg": 481,
+  "start": 2175.292,
+  "end": 2179.034,
+  "speaker": "Unknown",
+  "en": "Every industrial buildout in history has seen a bubble over investment.",
+  "zh": "历史上每一次工业扩张都出现过投资泡沫。"
+ },
+ {
+  "seg": 482,
+  "start": 2179.354,
+  "end": 2181.595,
+  "speaker": "Unknown",
+  "en": "What is this generation's bubble danger?",
+  "zh": "这一代人的泡沫危险是什么？"
+ },
+ {
+  "seg": 483,
+  "start": 2182.376,
+  "end": 2183.717,
+  "speaker": "Unknown",
+  "en": "The bubble will come someday.",
+  "zh": "泡沫总有一天会来。"
+ },
+ {
+  "seg": 484,
+  "start": 2183.737,
+  "end": 2184.557,
+  "speaker": "Unknown",
+  "en": "It's just not today.",
+  "zh": "但不是今天。"
+ },
+ {
+  "seg": 485,
+  "start": 2185.338,
+  "end": 2187.759,
+  "speaker": "Unknown",
+  "en": "You know, this is in the very beginning of the buildout.",
+  "zh": "你知道，这还处于扩张的初期。"
+ },
+ {
+  "seg": 486,
+  "start": 2189.059,
+  "end": 2190.284,
+  "speaker": "Unknown",
+  "en": "Three years, five years, ten years?",
+  "zh": "三年，五年，十年？"
+ },
+ {
+  "seg": 487,
+  "start": 2191.608,
+  "end": 2195.181,
+  "speaker": "Unknown",
+  "en": "It's very unlikely in the next five years.",
+  "zh": "在未来五年内是非常不可能的。"
+ },
+ {
+  "seg": 488,
+  "start": 2196.38,
+  "end": 2197.061,
+  "speaker": "Unknown",
+  "en": "Five to 10.",
+  "zh": "五到十年。"
+ },
+ {
+  "seg": 489,
+  "start": 2197.101,
+  "end": 2199.463,
+  "speaker": "Unknown",
+  "en": "Yeah, it's very unlikely in the next five years.",
+  "zh": "是的，在未来五年内是非常不可能的。"
+ },
+ {
+  "seg": 490,
+  "start": 2200.004,
+  "end": 2201.505,
+  "speaker": "Unknown",
+  "en": "And we'll see about the five to 10 years.",
+  "zh": "至于五到十年我们拭目以待。"
+ },
+ {
+  "seg": 491,
+  "start": 2201.545,
+  "end": 2204.007,
+  "speaker": "Unknown",
+  "en": "It just depends on how fast we can build.",
+  "zh": "这只取决于我们能建多快。"
+ },
+ {
+  "seg": 492,
+  "start": 2204.508,
+  "end": 2211.395,
+  "speaker": "Unknown",
+  "en": "Now, the challenge, of course, is that the rate at which we can build the infrastructure is limited by physical things.",
+  "zh": "当然，现在的挑战是，我们建造基础设施的速度受到实物因素的限制。"
+ },
+ {
+  "seg": 493,
+  "start": 2212.055,
+  "end": 2215.258,
+  "speaker": "Unknown",
+  "en": "Today, the industry could build faster.",
+  "zh": "今天，这个行业本可以建造得更快。"
+ },
+ {
+  "seg": 494,
+  "start": 2215.619,
+  "end": 2216.68,
+  "speaker": "Unknown",
+  "en": "It could run faster.",
+  "zh": "它本可以运行得更快。"
+ },
+ {
+  "seg": 495,
+  "start": 2217.18,
+  "end": 2218.241,
+  "speaker": "Unknown",
+  "en": "But we don't have enough chips.",
+  "zh": "但我们没有足够的芯片。"
+ },
+ {
+  "seg": 496,
+  "start": 2218.301,
+  "end": 2219.202,
+  "speaker": "Unknown",
+  "en": "We don't have enough memory.",
+  "zh": "我们没有足够的内存。"
+ },
+ {
+  "seg": 497,
+  "start": 2219.562,
+  "end": 2220.343,
+  "speaker": "Unknown",
+  "en": "We don't have enough land.",
+  "zh": "我们没有足够的土地。"
+ },
+ {
+  "seg": 498,
+  "start": 2221.404,
+  "end": 2221.824,
+  "speaker": "Unknown",
+  "en": "power.",
+  "zh": "电力。"
+ },
+ {
+  "seg": 499,
+  "start": 2222.285,
+  "end": 2224.906,
+  "speaker": "Unknown",
+  "en": "We don't have enough construction workers to build the data centers.",
+  "zh": "我们没有足够的建筑工人来建造数据中心。"
+ },
+ {
+  "seg": 500,
+  "start": 2225.266,
+  "end": 2229.408,
+  "speaker": "Unknown",
+  "en": "We basically are constrained in every single direction, in every single way.",
+  "zh": "我们基本上在每一个方向，在每一种方式上都受到限制。"
+ },
+ {
+  "seg": 501,
+  "start": 2229.869,
+  "end": 2231.59,
+  "speaker": "Unknown",
+  "en": "That constraint is good.",
+  "zh": "那种限制是好的。"
+ },
+ {
+  "seg": 502,
+  "start": 2232.33,
+  "end": 2240.614,
+  "speaker": "Unknown",
+  "en": "That constraint is what holds the system back so that it gives us plenty of time to go build out these infrastructure.",
+  "zh": "那种限制正是遏制系统的因素，这样它给了我们充足的时间去构建这些基础设施。"
+ },
+ {
+  "seg": 503,
+  "start": 2240.654,
+  "end": 2245.417,
+  "speaker": "Unknown",
+  "en": "And so, you know, on the one hand, there's a great desire to invest the CapEx.",
+  "zh": "所以，你知道，一方面，人们有强烈的欲望去投资资本支出。"
+ },
+ {
+  "seg": 504,
+  "start": 2245.837,
+  "end": 2248.679,
+  "speaker": "Unknown",
+  "en": "On the other hand, the ability for that CapEx to land",
+  "zh": "另一方面，这些资本支出落地"
+ },
+ {
+  "seg": 505,
+  "start": 2249.079,
+  "end": 2253.365,
+  "speaker": "Unknown",
+  "en": "and turn into productive supercomputers like this into AI factories.",
+  "zh": "并转化为生产力极强的超级计算机，也就是像这样的 AI 工厂。"
+ },
+ {
+  "seg": 506,
+  "start": 2253.846,
+  "end": 2256.27,
+  "speaker": "Unknown",
+  "en": "That is delayed because of all these different constraints.",
+  "zh": "这被推迟了，因为所有这些不同的限制。"
+ },
+ {
+  "seg": 507,
+  "start": 2256.41,
+  "end": 2264.662,
+  "speaker": "Unknown",
+  "en": "And so I think it's going to push out the time when demand exceeds or supply exceeds demand for some time.",
+  "zh": "所以我认为这将推迟需求超过或供应超过需求的时间。"
+ },
+ {
+  "seg": 508,
+  "start": 2265.27,
+  "end": 2268.772,
+  "speaker": "Unknown",
+  "en": "Would you use Kimi, the Chinese open source model?",
+  "zh": "你会使用 Kimi，那个中国开源模型吗？"
+ },
+ {
+  "seg": 509,
+  "start": 2269.133,
+  "end": 2270.033,
+  "speaker": "Unknown",
+  "en": "Of course, it's smart.",
+  "zh": "当然，它很聪明。"
+ },
+ {
+  "seg": 510,
+  "start": 2270.554,
+  "end": 2271.754,
+  "speaker": "Unknown",
+  "en": "Of course, it's smart.",
+  "zh": "当然，它很聪明。"
+ },
+ {
+  "seg": 511,
+  "start": 2272.095,
+  "end": 2286.965,
+  "speaker": "Unknown",
+  "en": "You still have to make sure that you fine tune it, you safeguard it, you guardrail it, you put it inside the appropriate guardrails and the appropriate sandboxes and put security around it, give it access control.",
+  "zh": "你仍然必须确保你对它进行微调，保障它，给它加护栏，把它放进适当的护栏和适当的沙箱里，并在周围加上安全性，给它访问控制。"
+ },
+ {
+  "seg": 512,
+  "start": 2287.605,
+  "end": 2289.186,
+  "speaker": "Unknown",
+  "en": "Just like all software.",
+  "zh": "就像所有软件一样。"
+ },
+ {
+  "seg": 513,
+  "start": 2289.546,
+  "end": 2292.428,
+  "speaker": "Unknown",
+  "en": "You know, we download software from open source all the time.",
+  "zh": "你知道，我们一直都在从开源下载软件。"
+ },
+ {
+  "seg": 514,
+  "start": 2293.009,
+  "end": 2294.45,
+  "speaker": "Unknown",
+  "en": "Open source is...",
+  "zh": "开源是……"
+ },
+ {
+  "seg": 515,
+  "start": 2294.99,
+  "end": 2298.753,
+  "speaker": "Unknown",
+  "en": "Well, one of the most important pieces of software in history is called the operating system.",
+  "zh": "嗯，历史上最重要的软件之一叫做操作系统。"
+ },
+ {
+  "seg": 516,
+  "start": 2299.153,
+  "end": 2300.674,
+  "speaker": "Unknown",
+  "en": "It controls the computer.",
+  "zh": "它控制计算机。"
+ },
+ {
+  "seg": 517,
+  "start": 2301.275,
+  "end": 2304.437,
+  "speaker": "Unknown",
+  "en": "It literally, operating system controls humanity today.",
+  "zh": "字面上，操作系统控制着当今的人类。"
+ },
+ {
+  "seg": 518,
+  "start": 2304.897,
+  "end": 2308.78,
+  "speaker": "Unknown",
+  "en": "It's the control fabric around the whole world's digital systems.",
+  "zh": "它是环绕全世界数字系统的控制结构。"
+ },
+ {
+  "seg": 519,
+  "start": 2309.28,
+  "end": 2310.201,
+  "speaker": "Unknown",
+  "en": "It is open source.",
+  "zh": "它是开源的。"
+ },
+ {
+  "seg": 520,
+  "start": 2310.261,
+  "end": 2311.122,
+  "speaker": "Unknown",
+  "en": "It's based on Linux.",
+  "zh": "它基于 Linux。"
+ },
+ {
+  "seg": 521,
+  "start": 2311.562,
+  "end": 2319.548,
+  "speaker": "Unknown",
+  "en": "It has the opportunity for millions and millions of people to study it, to interrogate it, to test it, to make sure that it's hardened.",
+  "zh": "它有机会让成千上万的人去研究它，去质询它，去测试它，去确保它是经过加固的。"
+ },
+ {
+  "seg": 522,
+  "start": 2319.968,
+  "end": 2321.149,
+  "speaker": "Unknown",
+  "en": "As a result, we can trust it.",
+  "zh": "因此，我们可以信任它。"
+ },
+ {
+  "seg": 523,
+  "start": 2321.689,
+  "end": 2328.514,
+  "speaker": "Unknown",
+  "en": "And so open source is a fantastic way for us to harden, for us to trust the infrastructure below us.",
+  "zh": "所以开源是我们加固、让我们信任底层基础设施的绝佳方式。"
+ },
+ {
+  "seg": 524,
+  "start": 2328.954,
+  "end": 2331.796,
+  "speaker": "Unknown",
+  "en": "We really need to have open source models.",
+  "zh": "我们真的需要有开源模型。"
+ },
+ {
+  "seg": 525,
+  "start": 2331.876,
+  "end": 2333.297,
+  "speaker": "Unknown",
+  "en": "It's essential for society.",
+  "zh": "这对社会至关重要。"
+ },
+ {
+  "seg": 526,
+  "start": 2333.337,
+  "end": 2334.478,
+  "speaker": "Unknown",
+  "en": "It's essential for industry.",
+  "zh": "这对行业至关重要。"
+ },
+ {
+  "seg": 527,
+  "start": 2335.138,
+  "end": 2338.501,
+  "speaker": "Unknown",
+  "en": "And it's also the safest and the most secure way to go forward.",
+  "zh": "这也是最安全、最稳妥的前进方式。"
+ },
+ {
+  "seg": 528,
+  "start": 2338.581,
+  "end": 2342.043,
+  "speaker": "Unknown",
+  "en": "And so I think it's fantastic that QEMU is great.",
+  "zh": "所以我认为 QEMU 很棒是很棒的事。"
+ },
+ {
+  "seg": 529,
+  "start": 2342.624,
+  "end": 2345.466,
+  "speaker": "Unknown",
+  "en": "And it's fantastic that there's American open source models.",
+  "zh": "并且有美国开源模型也是很棒的事。"
+ },
+ {
+  "seg": 530,
+  "start": 2346.246,
+  "end": 2347.687,
+  "speaker": "Unknown",
+  "en": "There's European open source models.",
+  "zh": "有欧洲开源模型。"
+ },
+ {
+  "seg": 531,
+  "start": 2348.068,
+  "end": 2350.97,
+  "speaker": "Unknown",
+  "en": "There are also Chinese open source models, Japanese open source models.",
+  "zh": "也有中国开源模型，日本开源模型。"
+ },
+ {
+  "seg": 532,
+  "start": 2351.01,
+  "end": 2351.851,
+  "speaker": "Unknown",
+  "en": "I was just in Japan.",
+  "zh": "我刚在日本。"
+ },
+ {
+  "seg": 533,
+  "start": 2352.391,
+  "end": 2353.933,
+  "speaker": "Unknown",
+  "en": "There are Indian open source models.",
+  "zh": "还有印度开源模型。"
+ },
+ {
+  "seg": 534,
+  "start": 2354.293,
+  "end": 2355.574,
+  "speaker": "Unknown",
+  "en": "I'm working with many of them there.",
+  "zh": "我正在与那里的许多人合作。"
+ },
+ {
+  "seg": 535,
+  "start": 2355.934,
+  "end": 2358.857,
+  "speaker": "Unknown",
+  "en": "And so there's going to be open source models from all over the place.",
+  "zh": "所以各地都会有开源模型。"
+ },
+ {
+  "seg": 536,
+  "start": 2359.357,
+  "end": 2363.821,
+  "speaker": "Unknown",
+  "en": "And that openness is fantastic and great for safety, great for security, great for national security.",
+  "zh": "这种开放度是极好的，对安全性、对安全、对国家安全都极好。"
+ },
+ {
+  "seg": 537,
+  "start": 2365.754,
+  "end": 2369.055,
+  "speaker": "Unknown",
+  "en": "You're arguably the most beloved AI CEO.",
+  "zh": "你可以说是最受爱戴的 AI CEO。"
+ },
+ {
+  "seg": 538,
+  "start": 2369.255,
+  "end": 2371.676,
+  "speaker": "Unknown",
+  "en": "People line up for your autograph when you're in Asia.",
+  "zh": "当你在亚洲时，人们排队要你的签名。"
+ },
+ {
+  "seg": 539,
+  "start": 2371.736,
+  "end": 2373.497,
+  "speaker": "Unknown",
+  "en": "Paparazzi follows your car.",
+  "zh": "狗仔队跟随你的车。"
+ },
+ {
+  "seg": 540,
+  "start": 2373.537,
+  "end": 2376.298,
+  "speaker": "Unknown",
+  "en": "People want you to sign their clothing.",
+  "zh": "人们想让你在他们的衣服上签名。"
+ },
+ {
+  "seg": 541,
+  "start": 2376.758,
+  "end": 2382.96,
+  "speaker": "Unknown",
+  "en": "Why is the view of AI so different in Asia than here?",
+  "zh": "为什么在亚洲对 AI 的看法与这里如此不同？"
+ },
+ {
+  "seg": 542,
+  "start": 2383.1,
+  "end": 2389.303,
+  "speaker": "Unknown",
+  "en": "I think maybe because the doomers spend too much time.",
+  "zh": "我想可能是因为末日论者花了太多时间。"
+ },
+ {
+  "seg": 543,
+  "start": 2390.647,
+  "end": 2393.89,
+  "speaker": "Unknown",
+  "en": "theorizing about these science fiction outcomes.",
+  "zh": "去理论化这些科幻结果。"
+ },
+ {
+  "seg": 544,
+  "start": 2394.85,
+  "end": 2396.272,
+  "speaker": "Unknown",
+  "en": "Maybe it makes them sound smart.",
+  "zh": "也许这让他们听起来很聪明。"
+ },
+ {
+  "seg": 545,
+  "start": 2397.092,
+  "end": 2400.155,
+  "speaker": "Unknown",
+  "en": "Then are you talking about some AI CEOs?",
+  "zh": "那你在谈论一些 AI CEO 吗？"
+ },
+ {
+  "seg": 546,
+  "start": 2400.415,
+  "end": 2403.797,
+  "speaker": "Unknown",
+  "en": "Well, you know, I think leaders ought to be thoughtful about doing this.",
+  "zh": "嗯，你知道，我认为领导者应该深思熟虑地做这件事。"
+ },
+ {
+  "seg": 547,
+  "start": 2403.837,
+  "end": 2411.683,
+  "speaker": "Unknown",
+  "en": "Listen, if you want to warn the world about the incredible capabilities of this technology, I think it's been achieved.",
+  "zh": "听着，如果你想向世界警告这项技术的令人难以置信的能力，我认为这已经实现了。"
+ },
+ {
+  "seg": 548,
+  "start": 2412.344,
+  "end": 2413.505,
+  "speaker": "Unknown",
+  "en": "We should dedicate our time.",
+  "zh": "我们应该投入我们的时间。"
+ },
+ {
+  "seg": 549,
+  "start": 2413.665,
+  "end": 2416.787,
+  "speaker": "Unknown",
+  "en": "And of course, how do we make the technology safe?",
+  "zh": "当然，还有我们如何使技术变得安全？"
+ },
+ {
+  "seg": 550,
+  "start": 2416.927,
+  "end": 2419.549,
+  "speaker": "Unknown",
+  "en": "That's our responsibility as the technology leaders.",
+  "zh": "那是我们作为技术领导者的责任。"
+ },
+ {
+  "seg": 551,
+  "start": 2420.33,
+  "end": 2426.455,
+  "speaker": "Unknown",
+  "en": "you know, telling everybody that the AI technology has to be safe, you're just reminding yourself you have to make it safe.",
+  "zh": "你知道，告诉大家 AI 技术必须是安全的，你只是在提醒你自己必须让它变得安全。"
+ },
+ {
+  "seg": 552,
+  "start": 2426.555,
+  "end": 2428.136,
+  "speaker": "Unknown",
+  "en": "So we have to make sure that it's safe.",
+  "zh": "所以我们要确保它是安全的。"
+ },
+ {
+  "seg": 553,
+  "start": 2428.837,
+  "end": 2431.759,
+  "speaker": "Unknown",
+  "en": "We have to make sure that people understand the capabilities of this technology.",
+  "zh": "我们要确保人们理解这项技术的能力。"
+ },
+ {
+  "seg": 554,
+  "start": 2432.099,
+  "end": 2439.705,
+  "speaker": "Unknown",
+  "en": "We have to advance it in a way that's secure, safe, working functionally, used in smart ways.",
+  "zh": "我们必须以一种安全、可靠、功能正常、以明智方式使用的方式来推进它。"
+ },
+ {
+  "seg": 555,
+  "start": 2440.366,
+  "end": 2441.847,
+  "speaker": "Unknown",
+  "en": "It's our responsibility to do that.",
+  "zh": "这样做是我们的责任。"
+ },
+ {
+  "seg": 556,
+  "start": 2442.408,
+  "end": 2444.89,
+  "speaker": "Unknown",
+  "en": "And so I think that, first of all,",
+  "zh": "所以我认为，首先，"
+ },
+ {
+  "seg": 557,
+  "start": 2445.75,
+  "end": 2455.882,
+  "speaker": "Unknown",
+  "en": "The warning is well-heated and make sure that regulators and policymakers are able to understand the nature of this technology.",
+  "zh": "这个警告是充分酝酿的，要确保监管机构和决策者能够理解这项技术的本质。"
+ },
+ {
+  "seg": 558,
+  "start": 2456.723,
+  "end": 2457.304,
+  "speaker": "Unknown",
+  "en": "On the one hand.",
+  "zh": "一方面。"
+ },
+ {
+  "seg": 559,
+  "start": 2457.384,
+  "end": 2462.87,
+  "speaker": "Unknown",
+  "en": "On the other hand, we want to encourage the American people to use this technology.",
+  "zh": "另一方面，我们要鼓励美国人民使用这项技术。"
+ },
+ {
+  "seg": 560,
+  "start": 2466.176,
+  "end": 2468.318,
+  "speaker": "Unknown",
+  "en": "led this industrial revolution.",
+  "zh": "领导这场工业革命。"
+ },
+ {
+  "seg": 561,
+  "start": 2468.898,
+  "end": 2478.024,
+  "speaker": "Unknown",
+  "en": "Not because we invented all the technology, but because we applied it with such enthusiasm that this industrial revolution led to the United States.",
+  "zh": "不是因为我们发明了所有技术，而是因为我们以如此高的热情应用它，使得这场工业革命导向了美国。"
+ },
+ {
+  "seg": 562,
+  "start": 2478.604,
+  "end": 2485.609,
+  "speaker": "Unknown",
+  "en": "We need to make sure that we apply this technology with great enthusiasm in healthcare, which we know a doctor in...",
+  "zh": "我们要确保我们在医疗保健领域以极大的热情应用这项技术，我们知道一位……"
+ },
+ {
+  "seg": 563,
+  "start": 2487.27,
+  "end": 2492.892,
+  "speaker": "Unknown",
+  "en": "John Hopkins just wrote that AI technology is helping advance discovery of cancer a lot more quickly.",
+  "zh": "约翰·霍普金斯的医生刚刚写道，AI 技术正在帮助更快地推进癌症的发现。"
+ },
+ {
+  "seg": 564,
+  "start": 2493.412,
+  "end": 2495.333,
+  "speaker": "Unknown",
+  "en": "We know what it's done for radiology.",
+  "zh": "我们知道它为放射学做了什么。"
+ },
+ {
+  "seg": 565,
+  "start": 2495.393,
+  "end": 2498.213,
+  "speaker": "Unknown",
+  "en": "We know what it's doing for software engineering.",
+  "zh": "我们知道它正在为软件工程做什么。"
+ },
+ {
+  "seg": 566,
+  "start": 2498.233,
+  "end": 2505.636,
+  "speaker": "Unknown",
+  "en": "And software engineering is the fundamental engine of intelligence today and fundamental engine of automation and productivity today.",
+  "zh": "软件工程是今天智能的基础引擎，也是今天自动化和生产力的重要引擎。"
+ },
+ {
+  "seg": 567,
+  "start": 2505.656,
+  "end": 2508.737,
+  "speaker": "Unknown",
+  "en": "And so we know all of the things that AI is helping us do.",
+  "zh": "所以我们知道 AI 正在帮助我们做的所有事情。"
+ },
+ {
+  "seg": 568,
+  "start": 2508.757,
+  "end": 2509.557,
+  "speaker": "Unknown",
+  "en": "That's incredibly...",
+  "zh": "这非常……"
+ },
+ {
+  "seg": 569,
+  "start": 2509.977,
+  "end": 2510.457,
+  "speaker": "Unknown",
+  "en": "for good.",
+  "zh": "为了善。"
+ },
+ {
+  "seg": 570,
+  "start": 2510.818,
+  "end": 2515.862,
+  "speaker": "Unknown",
+  "en": "We know what it's able to do in helping us advance climate science and understand the climate better.",
+  "zh": "我们知道它在帮助我们推进气候科学和更好地理解气候方面能够做什么。"
+ },
+ {
+  "seg": 571,
+  "start": 2516.462,
+  "end": 2520.505,
+  "speaker": "Unknown",
+  "en": "Because of AI, we're able to upgrade our national power grid.",
+  "zh": "因为 AI，我们能够升级我们的国家电网。"
+ },
+ {
+  "seg": 572,
+  "start": 2520.786,
+  "end": 2525.83,
+  "speaker": "Unknown",
+  "en": "Because of AI, we're able to invest in sustainable energy without government subsidies.",
+  "zh": "因为 AI，我们能够在没有政府补贴的情况下投资可持续能源。"
+ },
+ {
+  "seg": 573,
+  "start": 2526.43,
+  "end": 2529.733,
+  "speaker": "Unknown",
+  "en": "All of this is because of this particular industry.",
+  "zh": "所有这些都是因为这个特定的行业。"
+ },
+ {
+  "seg": 574,
+  "start": 2529.793,
+  "end": 2538.24,
+  "speaker": "Unknown",
+  "en": "And so I think that we ought to be much more enthusiastic about it, help the United States realize that the only way we get left behind",
+  "zh": "所以我认为我们应该对此更加热情，帮助美国意识到我们落后的唯一方式"
+ },
+ {
+  "seg": 575,
+  "start": 2539.269,
+  "end": 2543.071,
+  "speaker": "Unknown",
+  "en": "The only way we get left behind is if we don't apply the technology.",
+  "zh": "我们落后的唯一方式就是如果我们不应用这项技术。"
+ },
+ {
+  "seg": 576,
+  "start": 2543.751,
+  "end": 2547.913,
+  "speaker": "Unknown",
+  "en": "Forget who contributes and invents the technology.",
+  "zh": "忘记谁贡献和发明了这项技术。"
+ },
+ {
+  "seg": 577,
+  "start": 2548.474,
+  "end": 2551.555,
+  "speaker": "Unknown",
+  "en": "The fact that we don't apply it, that's how we're going to get left behind.",
+  "zh": "事实是，我们不应用它，这就是我们要落后的方式。"
+ },
+ {
+  "seg": 578,
+  "start": 2551.975,
+  "end": 2567.323,
+  "speaker": "Unknown",
+  "en": "And so let's make sure that we remind ourselves of how we became United States in this modern industrial revolution and that we apply exactly the same enthusiasm, the same spirit, the same American spirit so that we can lead the next one.",
+  "zh": "所以让我们确保提醒自己，我们在这个现代工业革命中是如何成为美国的，并且我们要应用完全相同的热情、相同的精神、相同的美国精神，以便我们能够领导下一个。"
+ },
+ {
+  "seg": 579,
+  "start": 2567.983,
+  "end": 2571.244,
+  "speaker": "Unknown",
+  "en": "some of this burning opposition to AI has even turned violent.",
+  "zh": "一些这种对 AI 的激烈反对甚至已经变成了暴力。"
+ },
+ {
+  "seg": 580,
+  "start": 2571.584,
+  "end": 2575.146,
+  "speaker": "Unknown",
+  "en": "How are you starting to think about your own safety and security?",
+  "zh": "你是如何开始考虑你自身的安全和保障的？"
+ },
+ {
+  "seg": 581,
+  "start": 2577.366,
+  "end": 2580.247,
+  "speaker": "Unknown",
+  "en": "I'm in a safe place.",
+  "zh": "我在一个安全的地方。"
+ },
+ {
+  "seg": 582,
+  "start": 2580.628,
+  "end": 2582.128,
+  "speaker": "Unknown",
+  "en": "I don't feel endangered.",
+  "zh": "我不感到危险。"
+ },
+ {
+  "seg": 583,
+  "start": 2583.469,
+  "end": 2592.592,
+  "speaker": "Unknown",
+  "en": "And I think that mostly, I think you have to advance the technology safely.",
+  "zh": "我认为主要是，你必须安全地推进技术。"
+ },
+ {
+  "seg": 584,
+  "start": 2593.732,
+  "end": 2595.453,
+  "speaker": "Unknown",
+  "en": "make it a contribution to society.",
+  "zh": "使其成为对社会的贡献。"
+ },
+ {
+  "seg": 585,
+  "start": 2596.674,
+  "end": 2609.1,
+  "speaker": "Unknown",
+  "en": "Always think about other people's interest and make sure that we develop this technology in a way that helps broadly society and industry.",
+  "zh": "始终考虑他人的利益，并确保我们以有利于广大社会和行业的方式开发这项技术。"
+ },
+ {
+  "seg": 586,
+  "start": 2609.52,
+  "end": 2615.163,
+  "speaker": "Unknown",
+  "en": "Now, one of the things that I like to remind people is that of all of the technologies we've ever invented,",
+  "zh": "现在，我喜欢提醒人们的事情之一是，在我们发明的所有技术中，"
+ },
+ {
+  "seg": 587,
+  "start": 2616.431,
+  "end": 2619.954,
+  "speaker": "Unknown",
+  "en": "This one closes the technology divide more than any other.",
+  "zh": "这一项缩小技术鸿沟的程度比其他任何技术都要多。"
+ },
+ {
+  "seg": 588,
+  "start": 2620.515,
+  "end": 2621.276,
+  "speaker": "Unknown",
+  "en": "And you can prove it.",
+  "zh": "你可以证明这一点。"
+ },
+ {
+  "seg": 589,
+  "start": 2621.996,
+  "end": 2628.182,
+  "speaker": "Unknown",
+  "en": "You know, this is the first technology, the first amazing technology in history where anybody can use it.",
+  "zh": "你知道，这是第一项技术，历史上第一个令人惊叹的技术，任何人都可以使用它。"
+ },
+ {
+  "seg": 590,
+  "start": 2628.382,
+  "end": 2631.025,
+  "speaker": "Unknown",
+  "en": "It is the reason why so many people have used ChatGPT.",
+  "zh": "这就是为什么这么多人使用 ChatGPT 的原因。"
+ },
+ {
+  "seg": 591,
+  "start": 2631.485,
+  "end": 2637.27,
+  "speaker": "Unknown",
+  "en": "If you don't know how to use AI, go up to tell AI, I don't know how to use AI, teach me how to use AI.",
+  "zh": "如果你不知道如何使用 AI，去告诉 AI，我不知道如何使用 AI，教我如何使用 AI。"
+ },
+ {
+  "seg": 592,
+  "start": 2638.031,
+  "end": 2639.032,
+  "speaker": "Unknown",
+  "en": "And so AI will teach you.",
+  "zh": "然后 AI 会教你。"
+ },
+ {
+  "seg": 593,
+  "start": 2639.052,
+  "end": 2639.612,
+  "speaker": "Unknown",
+  "en": "Improve my prompt.",
+  "zh": "改进我的提示词。"
+ },
+ {
+  "seg": 594,
+  "start": 2639.792,
+  "end": 2641.714,
+  "speaker": "Unknown",
+  "en": "Yeah, whatever it is, improve my prompt.",
+  "zh": "是的，不管是什么，改进我的提示词。"
+ },
+ {
+  "seg": 595,
+  "start": 2641.814,
+  "end": 2642.254,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "确实如此。"
+ },
+ {
+  "seg": 596,
+  "start": 2642.754,
+  "end": 2651.801,
+  "speaker": "Unknown",
+  "en": "And so whatever you imagined, whatever you dreamed, whatever you want to be better at, just tell AI and give it a chance to take you along a journey.",
+  "zh": "所以无论你想象什么，无论你梦想什么，无论你想在什么方面做得更好，只要告诉 AI，并给它一个机会带你踏上旅程。"
+ },
+ {
+  "seg": 597,
+  "start": 2653.242,
+  "end": 2663.31,
+  "speaker": "Unknown",
+  "en": "Goodness, I use AI every day to advance my knowledge and help me solve problems and help me understand things that, you know, that are outside of my domain of expertise.",
+  "zh": "天哪，我每天都使用 AI 来推进我的知识，帮助我解决问题，帮助我理解那些你知道的我专业知识之外的事情。"
+ },
+ {
+  "seg": 598,
+  "start": 2664.211,
+  "end": 2669.576,
+  "speaker": "Unknown",
+  "en": "And so AI has been a great coach and great advisor and, you know, great tutor to me.",
+  "zh": "所以 AI 对我来说一直是一个伟大的教练、伟大的顾问，以及你知道的，伟大的导师。"
+ },
+ {
+  "seg": 599,
+  "start": 2669.936,
+  "end": 2671.357,
+  "speaker": "Unknown",
+  "en": "I think it should be for everybody.",
+  "zh": "我认为它应该对每个人都如此。"
+ },
+ {
+  "seg": 600,
+  "start": 2671.677,
+  "end": 2674.68,
+  "speaker": "Unknown",
+  "en": "And yet there is this hostile national mood.",
+  "zh": "然而存在这种敌对的国家情绪。"
+ },
+ {
+  "seg": 601,
+  "start": 2674.72,
+  "end": 2680.525,
+  "speaker": "Unknown",
+  "en": "How worried are you that the next Democratic presidential candidate will be an anti-AI socialist?",
+  "zh": "你有多担心下一届民主党总统候选人会是一位反 AI 的社会主义者？"
+ },
+ {
+  "seg": 602,
+  "start": 2681.45,
+  "end": 2685.293,
+  "speaker": "Unknown",
+  "en": "We need to help people understand what AI is and what AI can do.",
+  "zh": "我们需要帮助人们理解什么是 AI 以及 AI 能做什么。"
+ },
+ {
+  "seg": 603,
+  "start": 2686.293,
+  "end": 2691.297,
+  "speaker": "Unknown",
+  "en": "The first thing I would remind everybody is AI is creating an enormous number of jobs, not taking it away.",
+  "zh": "我想提醒大家的第一件事是 AI 正在创造大量的就业机会，而不是夺走工作。"
+ },
+ {
+  "seg": 604,
+  "start": 2691.957,
+  "end": 2696.721,
+  "speaker": "Unknown",
+  "en": "When we tell stories about AI destroying jobs, of course people are going to be anxious.",
+  "zh": "当我们讲述关于 AI 摧毁工作的故事时，人们当然会感到焦虑。"
+ },
+ {
+  "seg": 605,
+  "start": 2697.862,
+  "end": 2701.044,
+  "speaker": "Unknown",
+  "en": "Nobody says, you know what I want more than anything?",
+  "zh": "没有人说，你知道我比什么都想要什么吗？"
+ },
+ {
+  "seg": 606,
+  "start": 2701.424,
+  "end": 2703.506,
+  "speaker": "Unknown",
+  "en": "I want to invest in something that would destroy jobs.",
+  "zh": "我想投资于会摧毁就业机会的东西。"
+ },
+ {
+  "seg": 607,
+  "start": 2703.906,
+  "end": 2704.727,
+  "speaker": "Unknown",
+  "en": "Nobody wants that.",
+  "zh": "没有人想要那样。"
+ },
+ {
+  "seg": 608,
+  "start": 2705.247,
+  "end": 2707.989,
+  "speaker": "Unknown",
+  "en": "And so I think the narrative is wrong.",
+  "zh": "所以我认为这种叙事是错误的。"
+ },
+ {
+  "seg": 609,
+  "start": 2709.638,
+  "end": 2711.581,
+  "speaker": "Unknown",
+  "en": "The rhetoric is wrong and hurtful.",
+  "zh": "这种言论是错误的且有害的。"
+ },
+ {
+  "seg": 610,
+  "start": 2712.182,
+  "end": 2717.93,
+  "speaker": "Unknown",
+  "en": "I think that the people who are talking about this, in fact, got it fundamentally wrong.",
+  "zh": "我认为谈论这个问题的人，实际上根本搞错了。"
+ },
+ {
+  "seg": 611,
+  "start": 2718.371,
+  "end": 2723.759,
+  "speaker": "Unknown",
+  "en": "So you're saying the industry needs to tell a different and better consistent story.",
+  "zh": "所以你是说该行业需要讲述一个不同、更好且连贯的故事。"
+ },
+ {
+  "seg": 612,
+  "start": 2724.966,
+  "end": 2725.447,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 613,
+  "start": 2725.607,
+  "end": 2726.707,
+  "speaker": "Unknown",
+  "en": "But it's not just a story.",
+  "zh": "但这不仅仅是一个故事。"
+ },
+ {
+  "seg": 614,
+  "start": 2726.767,
+  "end": 2727.468,
+  "speaker": "Unknown",
+  "en": "It's ground truth.",
+  "zh": "这是基本事实。"
+ },
+ {
+  "seg": 615,
+  "start": 2728.348,
+  "end": 2729.669,
+  "speaker": "Unknown",
+  "en": "Just tell people the facts.",
+  "zh": "只要告诉人们事实。"
+ },
+ {
+  "seg": 616,
+  "start": 2730.429,
+  "end": 2732.83,
+  "speaker": "Unknown",
+  "en": "The facts are we're creating millions of jobs.",
+  "zh": "事实是我们正在创造数百万的工作岗位。"
+ },
+ {
+  "seg": 617,
+  "start": 2732.99,
+  "end": 2736.192,
+  "speaker": "Unknown",
+  "en": "So the industry needs to talk more and differently about the reality.",
+  "zh": "所以该行业需要更多地、以不同的方式谈论现实。"
+ },
+ {
+  "seg": 618,
+  "start": 2736.292,
+  "end": 2737.733,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 619,
+  "start": 2738.013,
+  "end": 2738.954,
+  "speaker": "Unknown",
+  "en": "Don't create a narrative.",
+  "zh": "不要制造叙事。"
+ },
+ {
+  "seg": 620,
+  "start": 2738.974,
+  "end": 2741.055,
+  "speaker": "Unknown",
+  "en": "Don't create a story that is made up.",
+  "zh": "不要编造故事。"
+ },
+ {
+  "seg": 621,
+  "start": 2741.855,
+  "end": 2744.877,
+  "speaker": "Unknown",
+  "en": "It is made up that there's going to be a singularity.",
+  "zh": "所谓奇点来临是编造出来的。"
+ },
+ {
+  "seg": 622,
+  "start": 2744.938,
+  "end": 2749.261,
+  "speaker": "Unknown",
+  "en": "It's made up that somehow we're living in a simulation.",
+  "zh": "所谓我们以某种方式生活在模拟中是编造出来的。"
+ },
+ {
+  "seg": 623,
+  "start": 2749.641,
+  "end": 2750.642,
+  "speaker": "Unknown",
+  "en": "These are all made ups.",
+  "zh": "这些都是编造出来的。"
+ },
+ {
+  "seg": 624,
+  "start": 2751.182,
+  "end": 2752.524,
+  "speaker": "Unknown",
+  "en": "You know, I think it's a fun story.",
+  "zh": "你知道，我认为这是一个有趣的故事。"
+ },
+ {
+  "seg": 625,
+  "start": 2752.564,
+  "end": 2753.664,
+  "speaker": "Unknown",
+  "en": "I don't mind listening to it.",
+  "zh": "我不介意听它。"
+ },
+ {
+  "seg": 626,
+  "start": 2754.265,
+  "end": 2760.17,
+  "speaker": "Unknown",
+  "en": "And I even enjoy enjoying the narrative, you know, when it's told by some, many of those leaders and my friends.",
+  "zh": "我甚至很享受这种叙事，你知道，当它由一些，许多领导者和我的朋友讲述时。"
+ },
+ {
+  "seg": 627,
+  "start": 2760.87,
+  "end": 2763.432,
+  "speaker": "Unknown",
+  "en": "But we just all have to be thoughtful and careful.",
+  "zh": "但我们都必须深思熟虑和小心谨慎。"
+ },
+ {
+  "seg": 628,
+  "start": 2763.452,
+  "end": 2765.794,
+  "speaker": "Unknown",
+  "en": "We're scaring people and wrongly.",
+  "zh": "我们正在吓唬人们，而且是错误的吓唬。"
+ },
+ {
+  "seg": 629,
+  "start": 2766.032,
+  "end": 2772.975,
+  "speaker": "Unknown",
+  "en": "Yeah, separately from jobs, you're talking about this sort of creepy elements of the technology, and you're saying there's a way to inoculate against that.",
+  "zh": "是的，除了工作之外，你谈到技术的这种令人毛骨悚然的元素，你说有一种方法可以对此进行免疫。"
+ },
+ {
+  "seg": 630,
+  "start": 2773.135,
+  "end": 2773.575,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 631,
+  "start": 2774.055,
+  "end": 2775.415,
+  "speaker": "Unknown",
+  "en": "Because they're just made up.",
+  "zh": "因为它们只是编造出来的。"
+ },
+ {
+  "seg": 632,
+  "start": 2775.615,
+  "end": 2776.476,
+  "speaker": "Unknown",
+  "en": "They're science fiction.",
+  "zh": "它们是科幻小说。"
+ },
+ {
+  "seg": 633,
+  "start": 2777.436,
+  "end": 2778.076,
+  "speaker": "Unknown",
+  "en": "They're Hollywood.",
+  "zh": "它们是好莱坞。"
+ },
+ {
+  "seg": 634,
+  "start": 2778.397,
+  "end": 2779.037,
+  "speaker": "Unknown",
+  "en": "It's not true.",
+  "zh": "这不是真的。"
+ },
+ {
+  "seg": 635,
+  "start": 2779.337,
+  "end": 2779.817,
+  "speaker": "Unknown",
+  "en": "It's not true.",
+  "zh": "这不是真的。"
+ },
+ {
+  "seg": 636,
+  "start": 2780.057,
+  "end": 2784.879,
+  "speaker": "Unknown",
+  "en": "The closest thing to true AI is R2-D2 and C-3PO.",
+  "zh": "最接近真正 AI 的东西是 R2-D2 和 C-3PO。"
+ },
+ {
+  "seg": 637,
+  "start": 2785.359,
+  "end": 2787.76,
+  "speaker": "Unknown",
+  "en": "And who doesn't want R2-D2 and C-3PO?",
+  "zh": "谁不想要 R2-D2 和 C-3PO 呢？"
+ },
+ {
+  "seg": 638,
+  "start": 2789.721,
+  "end": 2792.722,
+  "speaker": "Unknown",
+  "en": "You've developed a warm relationship with President Trump.",
+  "zh": "你与特朗普总统建立了良好的关系。"
+ },
+ {
+  "seg": 639,
+  "start": 2793.673,
+  "end": 2794.133,
+  "speaker": "Unknown",
+  "en": "You text.",
+  "zh": "你给他发短信。"
+ },
+ {
+  "seg": 640,
+  "start": 2794.774,
+  "end": 2795.775,
+  "speaker": "Unknown",
+  "en": "He's very responsive.",
+  "zh": "他非常响应。"
+ },
+ {
+  "seg": 641,
+  "start": 2795.975,
+  "end": 2798.337,
+  "speaker": "Unknown",
+  "en": "What's it like to communicate with the president like that?",
+  "zh": "像那样与总统沟通是什么感觉？"
+ },
+ {
+  "seg": 642,
+  "start": 2798.938,
+  "end": 2799.398,
+  "speaker": "Unknown",
+  "en": "He's smart.",
+  "zh": "他很聪明。"
+ },
+ {
+  "seg": 643,
+  "start": 2799.758,
+  "end": 2800.679,
+  "speaker": "Unknown",
+  "en": "He remembers everything.",
+  "zh": "他记得每件事。"
+ },
+ {
+  "seg": 644,
+  "start": 2802.361,
+  "end": 2803.902,
+  "speaker": "Unknown",
+  "en": "Goodness gracious, he sure knows numbers.",
+  "zh": "天哪，他当然懂数字。"
+ },
+ {
+  "seg": 645,
+  "start": 2804.763,
+  "end": 2812.309,
+  "speaker": "Unknown",
+  "en": "And he's the only president that has ever remembered H20, H200, NVIDIA's Blackwell.",
+  "zh": "他是唯一记得 H20、H200、NVIDIA Blackwell 的总统。"
+ },
+ {
+  "seg": 646,
+  "start": 2812.569,
+  "end": 2814.331,
+  "speaker": "Unknown",
+  "en": "He knows our next generation, Ruben.",
+  "zh": "他了解我们的下一代，Ruben。"
+ },
+ {
+  "seg": 647,
+  "start": 2815.712,
+  "end": 2816.973,
+  "speaker": "Unknown",
+  "en": "He has just an amazing memory.",
+  "zh": "他拥有惊人的记忆力。"
+ },
+ {
+  "seg": 648,
+  "start": 2817.314,
+  "end": 2820.657,
+  "speaker": "Unknown",
+  "en": "And we're sitting here in a new factory.",
+  "zh": "我们现在正坐在一家新工厂里。"
+ },
+ {
+  "seg": 649,
+  "start": 2821.763,
+  "end": 2827.788,
+  "speaker": "Unknown",
+  "en": "On the first time I met him, he said he wants to restore the manufacturing capacity of the United States.",
+  "zh": "在我第一次见到他时，他说他想恢复美国的制造业产能。"
+ },
+ {
+  "seg": 650,
+  "start": 2828.429,
+  "end": 2831.271,
+  "speaker": "Unknown",
+  "en": "He wants the United States to be reindustrialized.",
+  "zh": "他希望美国实现再工业化。"
+ },
+ {
+  "seg": 651,
+  "start": 2831.691,
+  "end": 2835.394,
+  "speaker": "Unknown",
+  "en": "He wants a secure and resilient supply chain.",
+  "zh": "他希望拥有安全和有韧性的供应链。"
+ },
+ {
+  "seg": 652,
+  "start": 2835.775,
+  "end": 2839.358,
+  "speaker": "Unknown",
+  "en": "He wants to move semiconductor manufacturing back to the United States.",
+  "zh": "他希望将半导体制造移回美国。"
+ },
+ {
+  "seg": 653,
+  "start": 2840.658,
+  "end": 2847.101,
+  "speaker": "Unknown",
+  "en": "Literally, we're sitting in a plant that is a direct result of the first conversation I had with President Trump.",
+  "zh": "说实话，我们正坐在一个工厂里，它是直接源于我和特朗普总统第一次对话的结果。"
+ },
+ {
+  "seg": 654,
+  "start": 2847.702,
+  "end": 2849.182,
+  "speaker": "Unknown",
+  "en": "This is in Fort Worth, Texas.",
+  "zh": "这是在德克萨斯州的沃思堡。"
+ },
+ {
+  "seg": 655,
+  "start": 2849.482,
+  "end": 2850.623,
+  "speaker": "Unknown",
+  "en": "We're in Fort Worth, Texas.",
+  "zh": "我们在德克萨斯州的沃思堡。"
+ },
+ {
+  "seg": 656,
+  "start": 2850.783,
+  "end": 2855.885,
+  "speaker": "Unknown",
+  "en": "And he's single-mindedly about creating jobs.",
+  "zh": "而且他一心一意地专注于创造就业机会。"
+ },
+ {
+  "seg": 657,
+  "start": 2856.366,
+  "end": 2862.488,
+  "speaker": "Unknown",
+  "en": "He's single-mindedly about reshaping the American economy and the labor workforce.",
+  "zh": "他一心一意地专注于重塑美国经济和劳动力队伍。 [[658】 在我和他的每一次谈话中，他都是一心一意地专注于那一点。"
+ },
+ {
+  "seg": 658,
+  "start": 2864.249,
+  "end": 2869.073,
+  "speaker": "Unknown",
+  "en": "He was, in every single conversation I ever had with him, he's single-mindedly about that.",
+  "zh": "在我与他的每一次交谈中，他都一心一意地专注于那件事。"
+ },
+ {
+  "seg": 659,
+  "start": 2869.473,
+  "end": 2880.702,
+  "speaker": "Unknown",
+  "en": "He's single-mindedly about making sure the United States economy is thriving because he knows that if America's rich, America will have the mightiest military because you've got to fund it somehow.",
+  "zh": "他一心一意地专注于确保美国经济繁荣，因为他知道，如果美国富裕了，美国就会拥有最强大的军队，因为你总得想办法为此提供资金。"
+ },
+ {
+  "seg": 660,
+  "start": 2881.402,
+  "end": 2890.264,
+  "speaker": "Unknown",
+  "en": "And so having United States have a vibrant ecosystem, vibrant economy, a rich nation, it's foundational to the safest nation.",
+  "zh": "因此，让美国拥有一个充满活力的生态系统、充满活力的经济、一个富裕的国家，这是建立一个最安全国家的基础。"
+ },
+ {
+  "seg": 661,
+  "start": 2890.644,
+  "end": 2895.185,
+  "speaker": "Unknown",
+  "en": "And so he understands that very clearly, and he's just so single-mindedly about it.",
+  "zh": "所以他非常清楚这一点，而且他对此一心一意。"
+ },
+ {
+  "seg": 662,
+  "start": 2895.465,
+  "end": 2896.405,
+  "speaker": "Unknown",
+  "en": "It's really inspiring.",
+  "zh": "这真的很鼓舞人心。"
+ },
+ {
+  "seg": 663,
+  "start": 2896.665,
+  "end": 2901.686,
+  "speaker": "Unknown",
+  "en": "What does the administration get wrong on AI?",
+  "zh": "行政当局在人工智能方面有哪些地方做错了？"
+ },
+ {
+  "seg": 664,
+  "start": 2902.686,
+  "end": 2908.988,
+  "speaker": "Unknown",
+  "en": "I think that regulation of the technology needs—",
+  "zh": "我认为对这项技术的监管需要——"
+ },
+ {
+  "seg": 665,
+  "start": 2910.826,
+  "end": 2914.287,
+  "speaker": "Unknown",
+  "en": "needs to think about the unintended consequences of regulation.",
+  "zh": "需要考虑监管的意外后果。"
+ },
+ {
+  "seg": 666,
+  "start": 2918.129,
+  "end": 2926.052,
+  "speaker": "Unknown",
+  "en": "We need to think about AI not in the context of some kind of a foot race in a 100-meter dash.",
+  "zh": "我们需要思考人工智能，不是把它放在某种百米冲刺赛的背景下来考虑。"
+ },
+ {
+  "seg": 667,
+  "start": 2927.913,
+  "end": 2936.377,
+  "speaker": "Unknown",
+  "en": "The narrative that whoever gets to the 100-meter dash, whoever wins that, wins it forever is nonsense.",
+  "zh": "那种“谁在百米冲刺中赢了谁，谁就永远赢定了”的说法是无稽之谈。"
+ },
+ {
+  "seg": 668,
+  "start": 2937.603,
+  "end": 2939.885,
+  "speaker": "Unknown",
+  "en": "The idea that— And here you're talking about the U.S. and China.",
+  "zh": "这种想法——而且这里你是在谈论美国和中国。"
+ },
+ {
+  "seg": 669,
+  "start": 2940.085,
+  "end": 2940.505,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 670,
+  "start": 2940.645,
+  "end": 2941.606,
+  "speaker": "Unknown",
+  "en": "It's complete nonsense.",
+  "zh": "完全是无稽之谈。"
+ },
+ {
+  "seg": 671,
+  "start": 2941.706,
+  "end": 2944.788,
+  "speaker": "Unknown",
+  "en": "All of those stories being made up is scaring Washington, D.C.",
+  "zh": "所有这些编造出来的故事正在吓坏华盛顿特区。"
+ },
+ {
+  "seg": 672,
+  "start": 2945.748,
+  "end": 2947.969,
+  "speaker": "Unknown",
+  "en": "And do you think it's scaring the White House?",
+  "zh": "你认为这也在吓坏白宫吗？"
+ },
+ {
+  "seg": 673,
+  "start": 2948.029,
+  "end": 2959.612,
+  "speaker": "Unknown",
+  "en": "Well, it's scaring policymakers, and there's a reason for that, because some of the companies hope that the government would be helpful in creating regulations in their advantage.",
+  "zh": "嗯，这正在吓坏政策制定者，这是有原因的，因为一些公司希望政府能出台有利于他们的监管法规。"
+ },
+ {
+  "seg": 674,
+  "start": 2960.672,
+  "end": 2961.793,
+  "speaker": "Unknown",
+  "en": "I think that we ought to compete.",
+  "zh": "我认为我们应该去竞争。"
+ },
+ {
+  "seg": 675,
+  "start": 2962.793,
+  "end": 2964.994,
+  "speaker": "Unknown",
+  "en": "I think we ought to openly compete.",
+  "zh": "我认为我们应该公开竞争。"
+ },
+ {
+  "seg": 676,
+  "start": 2965.214,
+  "end": 2967.694,
+  "speaker": "Unknown",
+  "en": "We ought to recognize that this is very important technology.",
+  "zh": "我们应该认识到这是一项非常重要的技术。"
+ },
+ {
+  "seg": 677,
+  "start": 2968.335,
+  "end": 2969.415,
+  "speaker": "Unknown",
+  "en": "And the ultimate...",
+  "zh": "而最终的……"
+ },
+ {
+  "seg": 678,
+  "start": 2970.283,
+  "end": 2970.784,
+  "speaker": "Unknown",
+  "en": "success.",
+  "zh": "成功。"
+ },
+ {
+  "seg": 679,
+  "start": 2971.184,
+  "end": 2974.707,
+  "speaker": "Unknown",
+  "en": "The win, the ultimate win, is when society uses it.",
+  "zh": "所谓的赢，最终的赢，是当社会使用它时。"
+ },
+ {
+  "seg": 680,
+  "start": 2975.228,
+  "end": 2977.67,
+  "speaker": "Unknown",
+  "en": "The ultimate win is when industry uses it.",
+  "zh": "最终的赢是当工业使用它时。"
+ },
+ {
+  "seg": 681,
+  "start": 2977.69,
+  "end": 2979.872,
+  "speaker": "Unknown",
+  "en": "It has nothing to do with who invents it.",
+  "zh": "这与谁发明了它毫无关系。"
+ },
+ {
+  "seg": 682,
+  "start": 2980.593,
+  "end": 2981.834,
+  "speaker": "Unknown",
+  "en": "We didn't invent electricity.",
+  "zh": "我们并没有发明电力。"
+ },
+ {
+  "seg": 683,
+  "start": 2982.534,
+  "end": 2984.396,
+  "speaker": "Unknown",
+  "en": "We didn't invent most of the technology.",
+  "zh": "我们并没有发明大部分技术。"
+ },
+ {
+  "seg": 684,
+  "start": 2984.876,
+  "end": 2986.098,
+  "speaker": "Unknown",
+  "en": "We didn't invent manufacturing.",
+  "zh": "我们并没有发明制造业。"
+ },
+ {
+  "seg": 685,
+  "start": 2986.118,
+  "end": 2990.402,
+  "speaker": "Unknown",
+  "en": "We didn't invent most of the technology that's led to today's industrial revolution.",
+  "zh": "我们并没有发明大多数导致今天工业革命的技术。"
+ },
+ {
+  "seg": 686,
+  "start": 2991.042,
+  "end": 2998.045,
+  "speaker": "Unknown",
+  "en": "And yet the United States applied it faster, more enthusiastically, with more ingenuity than any other country.",
+  "zh": "然而美国应用它的速度更快、热情更高、比任何其他国家都更有独创性。"
+ },
+ {
+  "seg": 687,
+  "start": 2998.325,
+  "end": 3000.226,
+  "speaker": "Unknown",
+  "en": "It led to the United States of today.",
+  "zh": "这造就了今天的美国。"
+ },
+ {
+  "seg": 688,
+  "start": 3000.666,
+  "end": 3002.627,
+  "speaker": "Unknown",
+  "en": "I think we ought to let the American spirit thrive.",
+  "zh": "我认为我们应该让美国精神蓬勃生长。"
+ },
+ {
+  "seg": 689,
+  "start": 3003.047,
+  "end": 3004.868,
+  "speaker": "Unknown",
+  "en": "We ought to let the American industry run.",
+  "zh": "我们应该让美国工业运转起来。"
+ },
+ {
+  "seg": 690,
+  "start": 3005.528,
+  "end": 3010.59,
+  "speaker": "Unknown",
+  "en": "And, of course, we have to be mindful about regulation and make sure that the technology is safe.",
+  "zh": "当然，我们必须对监管保持谨慎，并确保该技术是安全的。"
+ },
+ {
+  "seg": 691,
+  "start": 3011.41,
+  "end": 3019.154,
+  "speaker": "Unknown",
+  "en": "But to think that there's going to be one winner and whoever crosses a finish line, you know, 17 days from now, that's complete nonsense.",
+  "zh": "但是认为会有一个赢家，而且不管谁在17天后冲过终点线，你懂的，这完全是无稽之谈。"
+ },
+ {
+  "seg": 692,
+  "start": 3019.174,
+  "end": 3020.094,
+  "speaker": "Unknown",
+  "en": "That's completely made up.",
+  "zh": "这完全是编造出来的。"
+ },
+ {
+  "seg": 693,
+  "start": 3020.294,
+  "end": 3020.917,
+  "speaker": "Unknown",
+  "en": "A fun question.",
+  "zh": "一个有趣的问题。"
+ },
+ {
+  "seg": 694,
+  "start": 3020.957,
+  "end": 3025.657,
+  "speaker": "Unknown",
+  "en": "Who's someone in the president's cabinet that's smart and good to work with on building the future?",
+  "zh": "总统内阁中有谁是聪明的、并且有利于共建未来的？"
+ },
+ {
+  "seg": 695,
+  "start": 3027.606,
+  "end": 3028.907,
+  "speaker": "Unknown",
+  "en": "I love working with every one of them.",
+  "zh": "我喜欢和他们中的每一个人共事。"
+ },
+ {
+  "seg": 696,
+  "start": 3029.668,
+  "end": 3030.508,
+  "speaker": "Unknown",
+  "en": "Susie's incredible.",
+  "zh": "Susie 简直不可思议。"
+ },
+ {
+  "seg": 697,
+  "start": 3031.469,
+  "end": 3032.97,
+  "speaker": "Unknown",
+  "en": "Susie Wiles, the chief of staff.",
+  "zh": "Susie Wiles，幕僚长。"
+ },
+ {
+  "seg": 698,
+  "start": 3033.09,
+  "end": 3033.31,
+  "speaker": "Unknown",
+  "en": "Yep.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 699,
+  "start": 3033.41,
+  "end": 3035.972,
+  "speaker": "Unknown",
+  "en": "Secretary Besant, Secretary Letnick.",
+  "zh": "Besant 部长，Letnick 部长。"
+ },
+ {
+  "seg": 700,
+  "start": 3036.012,
+  "end": 3037.193,
+  "speaker": "Unknown",
+  "en": "These are incredible people.",
+  "zh": "这些人都很了不起。"
+ },
+ {
+  "seg": 701,
+  "start": 3037.813,
+  "end": 3044.718,
+  "speaker": "Unknown",
+  "en": "And they dedicate themselves to President Trump and they want to see his presidency success.",
+  "zh": "他们致力于特朗普总统，并且他们希望看到他的总统任期成功。"
+ },
+ {
+  "seg": 702,
+  "start": 3044.738,
+  "end": 3045.678,
+  "speaker": "Unknown",
+  "en": "And we all do.",
+  "zh": "我们都希望。"
+ },
+ {
+  "seg": 703,
+  "start": 3045.698,
+  "end": 3052.943,
+  "speaker": "Unknown",
+  "en": "You know, he's my president and I want my president to be successful so that our country could be successful.",
+  "zh": "你知道，他是我的总统，我希望我的总统成功，这样我们的国家才能成功。"
+ },
+ {
+  "seg": 704,
+  "start": 3053.174,
+  "end": 3058.743,
+  "speaker": "Unknown",
+  "en": "There definitely are signs that they're getting more restrictive or looking at heading that way.",
+  "zh": "肯定有迹象表明他们正变得更加限制，或者正朝着那个方向发展。"
+ },
+ {
+  "seg": 705,
+  "start": 3058.803,
+  "end": 3059.705,
+  "speaker": "Unknown",
+  "en": "Are you worried about that?",
+  "zh": "你担心那个吗？"
+ },
+ {
+  "seg": 706,
+  "start": 3060.025,
+  "end": 3060.246,
+  "speaker": "Unknown",
+  "en": "Sure.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 707,
+  "start": 3061.628,
+  "end": 3062.75,
+  "speaker": "Unknown",
+  "en": "And I would just add caution.",
+  "zh": "我只想提出一点警示。"
+ },
+ {
+  "seg": 708,
+  "start": 3066.343,
+  "end": 3068.706,
+  "speaker": "Unknown",
+  "en": "And this is to the administration, to the president, to the White House.",
+  "zh": "这是给行政部门，给总统，给白宫的。"
+ },
+ {
+  "seg": 709,
+  "start": 3068.726,
+  "end": 3082.501,
+  "speaker": "Unknown",
+  "en": "Any policymaker, all policymakers, before you listen to all the rhetoric, before you listen to all the stories, before you manifest some kind of artificial intelligence future that is just not true, it is now grounded in fact.",
+  "zh": "任何决策者，所有决策者，在你们听信所有那些言辞之前，在你们听信所有那些故事之前，在你们展现某种根本不真实的人工智能未来之前，它现在是基于事实的。"
+ },
+ {
+  "seg": 710,
+  "start": 3082.581,
+  "end": 3084.323,
+  "speaker": "Unknown",
+  "en": "It's completely fact, science fiction.",
+  "zh": "这完全是事实，科幻小说。"
+ },
+ {
+  "seg": 711,
+  "start": 3084.663,
+  "end": 3086.525,
+  "speaker": "Unknown",
+  "en": "The technology is very important, of course.",
+  "zh": "这项技术当然非常重要。"
+ },
+ {
+  "seg": 712,
+  "start": 3086.545,
+  "end": 3087.707,
+  "speaker": "Unknown",
+  "en": "The technology is powerful.",
+  "zh": "这项技术很强大。"
+ },
+ {
+  "seg": 713,
+  "start": 3088.768,
+  "end": 3092.31,
+  "speaker": "Unknown",
+  "en": "I'm one of the people in the world that builds the technology.",
+  "zh": "我是世界上构建这项技术的人之一。"
+ },
+ {
+  "seg": 714,
+  "start": 3092.63,
+  "end": 3097.453,
+  "speaker": "Unknown",
+  "en": "You know, the idea that somehow it has consciousness, that's all made up.",
+  "zh": "你知道，说它有什么意识，那都是编出来的。"
+ },
+ {
+  "seg": 715,
+  "start": 3097.493,
+  "end": 3098.794,
+  "speaker": "Unknown",
+  "en": "It's all complete nonsense.",
+  "zh": "完全是胡说八道。"
+ },
+ {
+  "seg": 716,
+  "start": 3099.575,
+  "end": 3103.097,
+  "speaker": "Unknown",
+  "en": "But it sounds like you're basically afraid the administration is going to fall for it.",
+  "zh": "但听起来你基本上是担心行政部门会信这一套。"
+ },
+ {
+  "seg": 717,
+  "start": 3103.397,
+  "end": 3104.057,
+  "speaker": "Unknown",
+  "en": "Overcorrect.",
+  "zh": "反应过度。"
+ },
+ {
+  "seg": 718,
+  "start": 3104.378,
+  "end": 3106.419,
+  "speaker": "Unknown",
+  "en": "Overcorrect because they fall for these narratives.",
+  "zh": "因为相信这些叙事而反应过度。"
+ },
+ {
+  "seg": 719,
+  "start": 3106.739,
+  "end": 3110.001,
+  "speaker": "Unknown",
+  "en": "I think that they ought to be sure to talk to more people.",
+  "zh": "我认为他们应该确保与更多人交谈。"
+ },
+ {
+  "seg": 720,
+  "start": 3111.462,
+  "end": 3112.864,
+  "speaker": "Unknown",
+  "en": "Talk to many CEOs.",
+  "zh": "与许多 CEO 交谈。"
+ },
+ {
+  "seg": 721,
+  "start": 3113.164,
+  "end": 3114.386,
+  "speaker": "Unknown",
+  "en": "Talk to many scientists.",
+  "zh": "与许多科学家交谈。"
+ },
+ {
+  "seg": 722,
+  "start": 3114.646,
+  "end": 3115.767,
+  "speaker": "Unknown",
+  "en": "Don't talk to one or two.",
+  "zh": "不要只跟一两个人交谈。"
+ },
+ {
+  "seg": 723,
+  "start": 3116.448,
+  "end": 3119.231,
+  "speaker": "Unknown",
+  "en": "Don't make a knee-jerk reaction.",
+  "zh": "不要做出膝跳反应。"
+ },
+ {
+  "seg": 724,
+  "start": 3120.252,
+  "end": 3127.44,
+  "speaker": "Unknown",
+  "en": "Tomorrow is not some impending, imminent day that you have to make a decision.",
+  "zh": "明天不是什么迫在眉睫的、你必须做出决定的日子。"
+ },
+ {
+  "seg": 725,
+  "start": 3128.141,
+  "end": 3129.282,
+  "speaker": "Unknown",
+  "en": "Be more informed.",
+  "zh": "要更知情。"
+ },
+ {
+  "seg": 726,
+  "start": 3129.563,
+  "end": 3130.284,
+  "speaker": "Unknown",
+  "en": "Take your time.",
+  "zh": "慢慢来。"
+ },
+ {
+  "seg": 727,
+  "start": 3131.084,
+  "end": 3132.165,
+  "speaker": "Unknown",
+  "en": "Of course, be deliberate.",
+  "zh": "当然，要深思熟虑。"
+ },
+ {
+  "seg": 728,
+  "start": 3132.585,
+  "end": 3133.646,
+  "speaker": "Unknown",
+  "en": "Of course, be focused.",
+  "zh": "当然，要专注。"
+ },
+ {
+  "seg": 729,
+  "start": 3134.066,
+  "end": 3135.647,
+  "speaker": "Unknown",
+  "en": "Of course, be purposeful.",
+  "zh": "当然，要有目的性。"
+ },
+ {
+  "seg": 730,
+  "start": 3136.808,
+  "end": 3141.23,
+  "speaker": "Unknown",
+  "en": "But be informed and give yourself lots of opportunities to talk to people.",
+  "zh": "但要知情，并给自己很多机会与人交谈。"
+ },
+ {
+  "seg": 731,
+  "start": 3141.851,
+  "end": 3146.013,
+  "speaker": "Unknown",
+  "en": "President Trump has floated the idea of the government taking stakes in leading AI companies.",
+  "zh": "特朗普总统曾提议政府持有领先 AI 公司的股份。"
+ },
+ {
+  "seg": 732,
+  "start": 3146.273,
+  "end": 3150.616,
+  "speaker": "Unknown",
+  "en": "You're one of the most valuable, you run one of the most valuable companies on earth.",
+  "zh": "你是最有价值的人之一，你经营着地球上最有价值的公司之一。"
+ },
+ {
+  "seg": 733,
+  "start": 3151.036,
+  "end": 3155.199,
+  "speaker": "Unknown",
+  "en": "If President Trump called you and asked you for an equity stake, what would you say?",
+  "zh": "如果特朗普总统打电话给你，向你索要股权，你会怎么说？"
+ },
+ {
+  "seg": 734,
+  "start": 3156.121,
+  "end": 3156.961,
+  "speaker": "Unknown",
+  "en": "It's unnecessary.",
+  "zh": "那是不必要的。"
+ },
+ {
+  "seg": 735,
+  "start": 3158.502,
+  "end": 3162.464,
+  "speaker": "Unknown",
+  "en": "The United States has an equity stake in Nvidia.",
+  "zh": "美国已经持有英伟达（Nvidia）的股份。"
+ },
+ {
+  "seg": 736,
+  "start": 3163.344,
+  "end": 3166.326,
+  "speaker": "Unknown",
+  "en": "It has a fantastic stake in our success.",
+  "zh": "它在我们的成功中拥有极好的权益。"
+ },
+ {
+  "seg": 737,
+  "start": 3167.226,
+  "end": 3174.089,
+  "speaker": "Unknown",
+  "en": "We paid $10 billion worth of taxes last year, and we're going to pay a lot more taxes this year.",
+  "zh": "去年我们缴纳了价值 100 亿美元的税款，今年我们要缴纳更多的税款。"
+ },
+ {
+  "seg": 738,
+  "start": 3174.169,
+  "end": 3177.671,
+  "speaker": "Unknown",
+  "en": "And we create lots of jobs, and they create lots of taxes.",
+  "zh": "我们创造大量就业机会，而它们创造了大量税收。"
+ },
+ {
+  "seg": 739,
+  "start": 3177.731,
+  "end": 3182.413,
+  "speaker": "Unknown",
+  "en": "And I think that the more successful American companies are,",
+  "zh": "我认为美国公司越成功，"
+ },
+ {
+  "seg": 740,
+  "start": 3184.313,
+  "end": 3188.955,
+  "speaker": "Unknown",
+  "en": "the richer these companies are, generate more taxes, create more jobs, all Americans benefit.",
+  "zh": "这些公司越富有，产生的税收就越多，创造的就业机会就越多，所有美国人都会受益。"
+ },
+ {
+  "seg": 741,
+  "start": 3189.355,
+  "end": 3192.696,
+  "speaker": "Unknown",
+  "en": "And don't forget, most Americans today are in the stock market.",
+  "zh": "别忘了，今天大多数美国人都在股市中。"
+ },
+ {
+  "seg": 742,
+  "start": 3192.976,
+  "end": 3195.116,
+  "speaker": "Unknown",
+  "en": "And when the stock market is up, everybody benefits.",
+  "zh": "当股市上涨时，每个人都受益。"
+ },
+ {
+  "seg": 743,
+  "start": 3195.216,
+  "end": 3201.278,
+  "speaker": "Unknown",
+  "en": "And so the United States already has a stake in all of these great American companies.",
+  "zh": "所以美国已经持有所有这些伟大的美国公司的股份。"
+ },
+ {
+  "seg": 744,
+  "start": 3201.858,
+  "end": 3204.439,
+  "speaker": "Unknown",
+  "en": "We just want to make sure that they continue to thrive and be successful.",
+  "zh": "我们只是想确保它们继续茁壮成长并取得成功。"
+ },
+ {
+  "seg": 745,
+  "start": 3204.619,
+  "end": 3205.539,
+  "speaker": "Unknown",
+  "en": "So you would rule it out?",
+  "zh": "所以你会排除这种可能吗？"
+ },
+ {
+  "seg": 746,
+  "start": 3206.219,
+  "end": 3207.099,
+  "speaker": "Unknown",
+  "en": "I wouldn't advise it, no.",
+  "zh": "我不建议这么做，不。"
+ },
+ {
+  "seg": 747,
+  "start": 3208.3,
+  "end": 3209.04,
+  "speaker": "Unknown",
+  "en": "It's unnecessary.",
+  "zh": "那是不必要的。"
+ },
+ {
+  "seg": 748,
+  "start": 3210.159,
+  "end": 3215.574,
+  "speaker": "Unknown",
+  "en": "do you think we're ready for Anthropic's powerful quad mythos to be available to everyone?",
+  "zh": "你认为我们准备好让 Anthropic 强大的 quad mythos 供所有人使用了吗？"
+ },
+ {
+  "seg": 749,
+  "start": 3215.755,
+  "end": 3218.182,
+  "speaker": "Unknown",
+  "en": "Are our systems sufficiently hardened?",
+  "zh": "我们的系统是否经过了足够的加固？"
+ },
+ {
+  "seg": 750,
+  "start": 3219.352,
+  "end": 3223.935,
+  "speaker": "Unknown",
+  "en": "It should absolutely be available to everyone.",
+  "zh": "它绝对应该对每个人开放。"
+ },
+ {
+  "seg": 751,
+  "start": 3224.175,
+  "end": 3227.357,
+  "speaker": "Unknown",
+  "en": "It's their responsibility to make sure that it's hardened.",
+  "zh": "确保它坚固是他们的责任。"
+ },
+ {
+  "seg": 752,
+  "start": 3227.797,
+  "end": 3232.26,
+  "speaker": "Unknown",
+  "en": "So you're saying all users, not just as selected institutions as it is now?",
+  "zh": "所以你是说所有用户，而不仅仅是像现在这样选定的机构？"
+ },
+ {
+  "seg": 753,
+  "start": 3232.48,
+  "end": 3233.561,
+  "speaker": "Unknown",
+  "en": "That's correct, yeah.",
+  "zh": "没错，是的。"
+ },
+ {
+  "seg": 754,
+  "start": 3233.641,
+  "end": 3239.445,
+  "speaker": "Unknown",
+  "en": "They ought to make it available for people, and it's their job to make the technology hardened and safe and secure.",
+  "zh": "他们应该让它对人们开放，而他们的工作是让技术变得坚固、安全和有保障。"
+ },
+ {
+  "seg": 755,
+  "start": 3240.745,
+  "end": 3241.346,
+  "speaker": "Unknown",
+  "en": "And whatever...",
+  "zh": "无论什么..."
+ },
+ {
+  "seg": 756,
+  "start": 3243.507,
+  "end": 3249.171,
+  "speaker": "Unknown",
+  "en": "whatever jailbreaks or whatever vulnerabilities there are in the software, as soon as they find it, they ought to fix it.",
+  "zh": "无论是越狱还是软件中存在的任何漏洞，一旦发现，他们就应该修复它。"
+ },
+ {
+  "seg": 757,
+  "start": 3249.191,
+  "end": 3250.331,
+  "speaker": "Unknown",
+  "en": "That's the nature of software.",
+  "zh": "这就是软件的本质。"
+ },
+ {
+  "seg": 758,
+  "start": 3251.112,
+  "end": 3253.313,
+  "speaker": "Unknown",
+  "en": "And look what happened.",
+  "zh": "看看发生了什么。"
+ },
+ {
+  "seg": 759,
+  "start": 3253.814,
+  "end": 3254.494,
+  "speaker": "Unknown",
+  "en": "It was released.",
+  "zh": "它发布了。"
+ },
+ {
+  "seg": 760,
+  "start": 3255.455,
+  "end": 3263.6,
+  "speaker": "Unknown",
+  "en": "Somehow it was jailbreak and it was able to do things that maybe they were trying to guardrail it for not to do.",
+  "zh": "不知何故它被越狱了，它能够做某些事情，也许他们正试图用护栏阻止它做那些事。"
+ },
+ {
+  "seg": 761,
+  "start": 3264.26,
+  "end": 3265.221,
+  "speaker": "Unknown",
+  "en": "But everything was fine.",
+  "zh": "但一切都很好。"
+ },
+ {
+  "seg": 762,
+  "start": 3265.761,
+  "end": 3267.862,
+  "speaker": "Unknown",
+  "en": "You and I are still here having a conversation.",
+  "zh": "你和我仍然在这里交谈。"
+ },
+ {
+  "seg": 763,
+  "start": 3268.543,
+  "end": 3273.225,
+  "speaker": "Unknown",
+  "en": "And not that I'm encouraging it, but that's the job of companies.",
+  "zh": "并不是说我在鼓励这样做，但那是公司的工作。"
+ },
+ {
+  "seg": 764,
+  "start": 3273.245,
+  "end": 3277.087,
+  "speaker": "Unknown",
+  "en": "They're supposed to identify vulnerabilities and patch it up as quickly as possible.",
+  "zh": "他们应该识别漏洞并尽快修补它。"
+ },
+ {
+  "seg": 765,
+  "start": 3277.107,
+  "end": 3282.61,
+  "speaker": "Unknown",
+  "en": "So this is a message to both the White House and to Anthropic that you think that mythos should be available to all.",
+  "zh": "所以这是给白宫和 Anthropic 的信息，你认为 mythos 应该向所有人开放。"
+ },
+ {
+  "seg": 766,
+  "start": 3283.171,
+  "end": 3284.812,
+  "speaker": "Unknown",
+  "en": "Mythos should be available as a service.",
+  "zh": "mythos 应该作为一种服务提供。"
+ },
+ {
+  "seg": 767,
+  "start": 3286.032,
+  "end": 3292.857,
+  "speaker": "Unknown",
+  "en": "And remember, just because mythos is not available, open models are available anyhow.",
+  "zh": "记住，仅仅因为 mythos 不可用，开源模型反正也是可用的。"
+ },
+ {
+  "seg": 768,
+  "start": 3293.178,
+  "end": 3296.52,
+  "speaker": "Unknown",
+  "en": "And so I think that let Anthropic run.",
+  "zh": "所以我认为让 Anthropic 运营。"
+ },
+ {
+  "seg": 769,
+  "start": 3297.341,
+  "end": 3300.383,
+  "speaker": "Unknown",
+  "en": "Let them continue to advance the technology that they created.",
+  "zh": "让他们继续推进他们创造的技术。"
+ },
+ {
+  "seg": 770,
+  "start": 3301.003,
+  "end": 3305.687,
+  "speaker": "Unknown",
+  "en": "Let it be put in the hands of as many companies as possible so we can all use it and benefit from it.",
+  "zh": "让它尽可能多地交到公司手中，这样我们都可以使用它并从中受益。"
+ },
+ {
+  "seg": 771,
+  "start": 3306.287,
+  "end": 3311.771,
+  "speaker": "Unknown",
+  "en": "And holding Anthropic back is not in the benefit of the United States.",
+  "zh": "阻碍 Anthropic 不符合美国的利益。"
+ },
+ {
+  "seg": 772,
+  "start": 3312.492,
+  "end": 3314.193,
+  "speaker": "Unknown",
+  "en": "And let them run.",
+  "zh": "让他们运营。"
+ },
+ {
+  "seg": 773,
+  "start": 3314.8,
+  "end": 3327.233,
+  "speaker": "Unknown",
+  "en": "Should open source model companies be allowed to distill closed models in violation of terms of service agreements, then resell their highly capable open source models in the competitive marketplace?",
+  "zh": "是否应该允许开源模型公司违反服务协议蒸馏闭源模型，然后在竞争性市场中转售他们高度能力的开源模型？"
+ },
+ {
+  "seg": 774,
+  "start": 3327.533,
+  "end": 3330.055,
+  "speaker": "Unknown",
+  "en": "It depends on the terms and conditions of the service.",
+  "zh": "这取决于服务的条款和条件。"
+ },
+ {
+  "seg": 775,
+  "start": 3330.836,
+  "end": 3342.023,
+  "speaker": "Unknown",
+  "en": "And if the service provider is unhappy about some company taking advantage of exploiting the terms of their agreement and their license, they ought to reach out to that company.",
+  "zh": "如果服务提供商对某些公司利用漏洞利用其协议和许可条款感到不满，他们应该联系那家公司。"
+ },
+ {
+  "seg": 776,
+  "start": 3342.063,
+  "end": 3344.404,
+  "speaker": "Unknown",
+  "en": "And there are many ways to deal with that today.",
+  "zh": "今天有很多方法可以处理这个问题。"
+ },
+ {
+  "seg": 777,
+  "start": 3344.724,
+  "end": 3348.907,
+  "speaker": "Unknown",
+  "en": "You know, we have a lot of conventional ways using laws and regulations to do so.",
+  "zh": "你知道，我们有很多使用法律法规的常规方法来做到这一点。"
+ },
+ {
+  "seg": 778,
+  "start": 3351.428,
+  "end": 3369.469,
+  "speaker": "Unknown",
+  "en": "distillation learning from ai learning from other other sources of knowledge is fundamental to intelligence we're constantly learning from other people i'm learning from you and just the questions you're asking and you're learning from me and all day long we're learning from each other and so ai has to learn from something",
+  "zh": "蒸馏，AI 向其他其他知识来源学习，是智能的基础，我们不断地向其他人学习，我在向你学习，就在你提出的问题中，你也在向我学习，整天我们都在互相学习，所以 AI 必须从某处学习"
+ },
+ {
+  "seg": 779,
+  "start": 3370.21,
+  "end": 3378.115,
+  "speaker": "Unknown",
+  "en": "And so the original AI, no matter whose it is, whether it's a closed model, it obviously scraped the internet of all of the previously learned knowledge.",
+  "zh": "所以最初的 AI，不管它是谁的，无论是闭源模型还是别的，它显然抓取了互联网上所有以前学到的知识。"
+ },
+ {
+  "seg": 780,
+  "start": 3378.615,
+  "end": 3382.237,
+  "speaker": "Unknown",
+  "en": "And now AI is generating more content than humans.",
+  "zh": "现在 AI 生成的内容比人类还多。"
+ },
+ {
+  "seg": 781,
+  "start": 3382.797,
+  "end": 3386.459,
+  "speaker": "Unknown",
+  "en": "You know, in another few more years, the internet would be 99% AI generated content.",
+  "zh": "你知道，再过几年，互联网将 99% 是 AI 生成的内容。"
+ },
+ {
+  "seg": 782,
+  "start": 3388.692,
+  "end": 3391.035,
+  "speaker": "Unknown",
+  "en": "And that content is generated by some AI.",
+  "zh": "那些内容是由某些 AI 生成的。"
+ },
+ {
+  "seg": 783,
+  "start": 3391.696,
+  "end": 3396.161,
+  "speaker": "Unknown",
+  "en": "And so you're constantly distilling the intelligence of some other AIs anyways.",
+  "zh": "所以你总是在蒸馏其他 AI 的智能。"
+ },
+ {
+  "seg": 784,
+  "start": 3396.662,
+  "end": 3401.708,
+  "speaker": "Unknown",
+  "en": "And so the idea that AI can learn, that's a good thing.",
+  "zh": "所以 AI 能够学习是个好主意。"
+ },
+ {
+  "seg": 785,
+  "start": 3401.748,
+  "end": 3402.93,
+  "speaker": "Unknown",
+  "en": "We want AIs to be smart.",
+  "zh": "我们希望 AI 变聪明。"
+ },
+ {
+  "seg": 786,
+  "start": 3403.551,
+  "end": 3404.952,
+  "speaker": "Unknown",
+  "en": "We want every AI to be smart.",
+  "zh": "我们希望每个 AI 都聪明。"
+ },
+ {
+  "seg": 787,
+  "start": 3405.753,
+  "end": 3407.974,
+  "speaker": "Unknown",
+  "en": "And a smart AI is a safer AI.",
+  "zh": "聪明的 AI 是更安全的 AI。"
+ },
+ {
+  "seg": 788,
+  "start": 3408.215,
+  "end": 3415.079,
+  "speaker": "Unknown",
+  "en": "And so I think the important thing is to split these two ideas.",
+  "zh": "所以我认为重要的是把这两个想法分开。"
+ },
+ {
+  "seg": 789,
+  "start": 3415.639,
+  "end": 3420.622,
+  "speaker": "Unknown",
+  "en": "Should AIs be able to learn as much as they possibly can?",
+  "zh": "AI 是否应该能够尽可能多地学习？"
+ },
+ {
+  "seg": 790,
+  "start": 3421.222,
+  "end": 3424.645,
+  "speaker": "Unknown",
+  "en": "from as many sources of knowledge as they can, the answer is yes.",
+  "zh": "从尽可能多的知识来源？答案是肯定的。"
+ },
+ {
+  "seg": 791,
+  "start": 3425.386,
+  "end": 3427.007,
+  "speaker": "Unknown",
+  "en": "Can AI violate privacy?",
+  "zh": "AI 会侵犯隐私吗？"
+ },
+ {
+  "seg": 792,
+  "start": 3427.087,
+  "end": 3427.268,
+  "speaker": "Unknown",
+  "en": "No.",
+  "zh": "不。"
+ },
+ {
+  "seg": 793,
+  "start": 3427.788,
+  "end": 3431.151,
+  "speaker": "Unknown",
+  "en": "Can AI violate terms of an agreement?",
+  "zh": "AI 会违反协议条款吗？"
+ },
+ {
+  "seg": 794,
+  "start": 3431.191,
+  "end": 3431.892,
+  "speaker": "Unknown",
+  "en": "The answer is no.",
+  "zh": "答案是不。"
+ },
+ {
+  "seg": 795,
+  "start": 3432.272,
+  "end": 3435.555,
+  "speaker": "Unknown",
+  "en": "And if somebody violates a term of agreement, contact that company and take care of it.",
+  "zh": "如果有人违反了协议条款，联系该公司并处理它。"
+ },
+ {
+  "seg": 796,
+  "start": 3436.135,
+  "end": 3438.357,
+  "speaker": "Unknown",
+  "en": "You have a lot of employees in Israel.",
+  "zh": "你在以色列有很多员工。"
+ },
+ {
+  "seg": 797,
+  "start": 3438.798,
+  "end": 3443.242,
+  "speaker": "Unknown",
+  "en": "How do you think about the Middle East AI build-out in the context of the war?",
+  "zh": "在战争的背景下，你如何看待中东 AI 的建设？"
+ },
+ {
+  "seg": 798,
+  "start": 3444.444,
+  "end": 3447.887,
+  "speaker": "Unknown",
+  "en": "Well, first of all, I'm concerned about my families in Israel.",
+  "zh": "嗯，首先，我担心我在以色列的家人。"
+ },
+ {
+  "seg": 799,
+  "start": 3448.567,
+  "end": 3457.774,
+  "speaker": "Unknown",
+  "en": "I have 6,500 families there, and they've been in the middle of conflict for some time now, and I'm happy that they're well.",
+  "zh": "我在那里有 6,500 个家庭，他们处于冲突中已经有一段时间了，我很高兴他们安好。"
+ },
+ {
+  "seg": 800,
+  "start": 3459.835,
+  "end": 3464.679,
+  "speaker": "Unknown",
+  "en": "I wish them to continue to be well, and I look forward to when the conflict ends.",
+  "zh": "我祝愿他们一切安好，并期待冲突结束的那一天。"
+ },
+ {
+  "seg": 801,
+  "start": 3466.16,
+  "end": 3470.424,
+  "speaker": "Unknown",
+  "en": "The UAE is investing in the Middle East and AI.",
+  "zh": "阿联酋正在中东和人工智能领域进行投资。"
+ },
+ {
+  "seg": 802,
+  "start": 3470.464,
+  "end": 3471.865,
+  "speaker": "Unknown",
+  "en": "I think that's terrific.",
+  "zh": "我认为这太棒了。"
+ },
+ {
+  "seg": 803,
+  "start": 3471.905,
+  "end": 3475.588,
+  "speaker": "Unknown",
+  "en": "Are you still bullish on the UAE as a giant AI player?",
+  "zh": "你仍然看好阿联酋成为人工智能领域的巨头吗？"
+ },
+ {
+  "seg": 804,
+  "start": 3476.009,
+  "end": 3476.509,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 805,
+  "start": 3476.549,
+  "end": 3484.556,
+  "speaker": "Unknown",
+  "en": "They have a vision to be an AI hub someday and building upon their natural resources of oil and energy.",
+  "zh": "他们有愿景在将来成为一个人工智能中心，并建立在他们石油和能源的自然资源之上。"
+ },
+ {
+  "seg": 806,
+  "start": 3484.656,
+  "end": 3487.619,
+  "speaker": "Unknown",
+  "en": "They have the opportunity to reinvent themselves into an AI hub.",
+  "zh": "他们有机会把自己重塑成一个人工智能中心。"
+ },
+ {
+  "seg": 807,
+  "start": 3487.959,
+  "end": 3488.64,
+  "speaker": "Unknown",
+  "en": "I'm proud of them.",
+  "zh": "我为他们感到骄傲。"
+ },
+ {
+  "seg": 808,
+  "start": 3489.64,
+  "end": 3491.963,
+  "speaker": "Unknown",
+  "en": "I'm delighted that they're interested in this.",
+  "zh": "我很高兴他们对此感兴趣。"
+ },
+ {
+  "seg": 809,
+  "start": 3492.003,
+  "end": 3493.464,
+  "speaker": "Unknown",
+  "en": "I'm delighted by their vision.",
+  "zh": "我为他们的愿景感到高兴。"
+ },
+ {
+  "seg": 810,
+  "start": 3494.785,
+  "end": 3497.648,
+  "speaker": "Unknown",
+  "en": "You know, the UAE is already so modernized.",
+  "zh": "你知道，阿联酋已经如此现代化了。"
+ },
+ {
+  "seg": 811,
+  "start": 3497.748,
+  "end": 3502.913,
+  "speaker": "Unknown",
+  "en": "It's a place where smart people go and they're thriving.",
+  "zh": "这是一个聪明人去的地方，他们在那里蓬勃发展。"
+ },
+ {
+  "seg": 812,
+  "start": 3502.933,
+  "end": 3505.436,
+  "speaker": "Unknown",
+  "en": "They're building new companies and new innovation.",
+  "zh": "他们正在建立新的公司和新的创新。"
+ },
+ {
+  "seg": 813,
+  "start": 3505.896,
+  "end": 3510.18,
+  "speaker": "Unknown",
+  "en": "This is going to be their next source of industrial strength.",
+  "zh": "这将是他们下一个工业实力来源。"
+ },
+ {
+  "seg": 814,
+  "start": 3510.24,
+  "end": 3511.641,
+  "speaker": "Unknown",
+  "en": "And I'm looking forward to that.",
+  "zh": "我对此很期待。"
+ },
+ {
+  "seg": 815,
+  "start": 3511.661,
+  "end": 3512.222,
+  "speaker": "Unknown",
+  "en": "It's great for them.",
+  "zh": "这对他们来说很好。"
+ },
+ {
+  "seg": 816,
+  "start": 3514.205,
+  "end": 3516.286,
+  "speaker": "Unknown",
+  "en": "I'm about to fall through the floor.",
+  "zh": "我快要累倒下了。"
+ },
+ {
+  "seg": 817,
+  "start": 3516.387,
+  "end": 3517.667,
+  "speaker": "Unknown",
+  "en": "I want to be respectful of your time.",
+  "zh": "我想尊重你的时间。"
+ },
+ {
+  "seg": 818,
+  "start": 3517.687,
+  "end": 3521.79,
+  "speaker": "Unknown",
+  "en": "May I ask you one question about jobs and then a couple of questions about life lessons.",
+  "zh": "我可以问你一个关于工作的问题，然后问几个关于人生经验的问题吗？"
+ },
+ {
+  "seg": 819,
+  "start": 3521.85,
+  "end": 3522.991,
+  "speaker": "Unknown",
+  "en": "Is that okay with you?",
+  "zh": "这可以吗？"
+ },
+ {
+  "seg": 820,
+  "start": 3523.932,
+  "end": 3524.993,
+  "speaker": "Unknown",
+  "en": "I got all the time in the world.",
+  "zh": "我有全世界的时间。"
+ },
+ {
+  "seg": 821,
+  "start": 3525.313,
+  "end": 3525.773,
+  "speaker": "Unknown",
+  "en": "Very kind of you.",
+  "zh": "你真好。"
+ },
+ {
+  "seg": 822,
+  "start": 3525.793,
+  "end": 3529.896,
+  "speaker": "Unknown",
+  "en": "And I'm going to ask you about that because I know that is one of your theories.",
+  "zh": "我要问你这个问题，因为我知道这是你的理论之一。"
+ },
+ {
+  "seg": 823,
+  "start": 3530.496,
+  "end": 3534.579,
+  "speaker": "Unknown",
+  "en": "You're one of the most valuable companies in the world and you have 50,000 employees.",
+  "zh": "你是世界上最宝贵的公司之一，并且你有 50,000 名员工。"
+ },
+ {
+  "seg": 824,
+  "start": 3534.599,
+  "end": 3536.921,
+  "speaker": "Unknown",
+  "en": "You've said in 10 years, you may have 75,000 quote.",
+  "zh": "你说过在 10 年内，你可能会有 75,000 名，引用。"
+ },
+ {
+  "seg": 825,
+  "start": 3538.802,
+  "end": 3539.843,
+  "speaker": "Unknown",
+  "en": "as small as possible.",
+  "zh": "尽可能小。"
+ },
+ {
+  "seg": 826,
+  "start": 3540.063,
+  "end": 3543.724,
+  "speaker": "Unknown",
+  "en": "You said many of the other tech giants are in six figures.",
+  "zh": "你说过许多其他科技巨头是六位数。"
+ },
+ {
+  "seg": 827,
+  "start": 3543.984,
+  "end": 3547.506,
+  "speaker": "Unknown",
+  "en": "How do you do that?",
+  "zh": "你是怎么做到的？"
+ },
+ {
+  "seg": 828,
+  "start": 3548.827,
+  "end": 3553.168,
+  "speaker": "Unknown",
+  "en": "Strategy involves utilizing your resources as efficiently as possible.",
+  "zh": "战略涉及尽可能高效地利用你的资源。"
+ },
+ {
+  "seg": 829,
+  "start": 3554.609,
+  "end": 3562.573,
+  "speaker": "Unknown",
+  "en": "Your goal is to realize a future vision with the limited resources that you have and to use that resource wisely.",
+  "zh": "你的目标是用你所拥有的有限资源实现未来的愿景，并明智地使用该资源。"
+ },
+ {
+  "seg": 830,
+  "start": 3562.913,
+  "end": 3565.474,
+  "speaker": "Unknown",
+  "en": "And so part of my job is to be strategic.",
+  "zh": "所以我工作的一部分就是要有战略性。"
+ },
+ {
+  "seg": 831,
+  "start": 3566.094,
+  "end": 3583.629,
+  "speaker": "Unknown",
+  "en": "um, to be mindful about the resources that I have to apply them in precisely, you know, as well as possible way to realize that vision and, uh, maximize the return on investment capital, if you will, in this speaking in financial terms, but it's really about getting the most impact for whatever resources that you have.",
+  "zh": "嗯，要注意我所拥有的资源，以便尽可能精确地应用它们，你知道，以尽可能好的方式来实现那个愿景，并且，嗯，最大化投资资本的回报，如果你愿意用财务术语来说的话，但这实际上是为你所拥有的任何资源获得最大的影响。"
+ },
+ {
+  "seg": 832,
+  "start": 3584.029,
+  "end": 3586.151,
+  "speaker": "Unknown",
+  "en": "That is the fundamental job of a CEO.",
+  "zh": "那是 CEO 的基本工作。"
+ },
+ {
+  "seg": 833,
+  "start": 3586.371,
+  "end": 3587.572,
+  "speaker": "Unknown",
+  "en": "And so, uh,",
+  "zh": "所以，嗯，"
+ },
+ {
+  "seg": 834,
+  "start": 3587.972,
+  "end": 3592.495,
+  "speaker": "Unknown",
+  "en": "And, you know, I have the benefit of starting this company when I was 30 years old, as you mentioned earlier.",
+  "zh": "而且，你知道，我有在 30 岁时创立这家公司的优势，正如你早些时候提到的那样。"
+ },
+ {
+  "seg": 835,
+  "start": 3592.555,
+  "end": 3597.099,
+  "speaker": "Unknown",
+  "en": "And I've been doing this job probably longer than any CEO in tech history.",
+  "zh": "而且我做这份工作的时间可能比科技史上任何 CEO 都长。"
+ },
+ {
+  "seg": 836,
+  "start": 3597.659,
+  "end": 3599.26,
+  "speaker": "Unknown",
+  "en": "And so I have the benefit of practice.",
+  "zh": "所以我有实践的优势。"
+ },
+ {
+  "seg": 837,
+  "start": 3599.941,
+  "end": 3604.003,
+  "speaker": "Unknown",
+  "en": "And so over time, you know, this is my craft, if you will.",
+  "zh": "所以随着时间的推移，你知道，这是我的手艺，如果你愿意这么说的话。"
+ },
+ {
+  "seg": 838,
+  "start": 3604.064,
+  "end": 3605.665,
+  "speaker": "Unknown",
+  "en": "This is my kung fu, you know.",
+  "zh": "这是我的功夫，你知道。"
+ },
+ {
+  "seg": 839,
+  "start": 3606.285,
+  "end": 3609.848,
+  "speaker": "Unknown",
+  "en": "And so that's what you got to do.",
+  "zh": "所以这就是你必须要做的。"
+ },
+ {
+  "seg": 840,
+  "start": 3610.648,
+  "end": 3615.331,
+  "speaker": "Unknown",
+  "en": "In every industrial revolution, some tasks and some jobs become automated.",
+  "zh": "在每一次工业革命中，一些任务和一些工作都变得自动化了。"
+ },
+ {
+  "seg": 841,
+  "start": 3615.831,
+  "end": 3622.976,
+  "speaker": "Unknown",
+  "en": "Even if more net jobs are created, what are the jobs and tasks that will go away like in any other industrial revolution?",
+  "zh": "即使创造了更多的净就业机会，哪些工作和任务会像任何其他工业革命一样消失？"
+ },
+ {
+  "seg": 842,
+  "start": 3623.636,
+  "end": 3626.498,
+  "speaker": "Unknown",
+  "en": "If your task, if your job is the task.",
+  "zh": "如果你的任务，如果你的工作是该任务。"
+ },
+ {
+  "seg": 843,
+  "start": 3627.345,
+  "end": 3637.033,
+  "speaker": "Unknown",
+  "en": "if your job is the task, then it's very likely that when that task is automated, your job will be eliminated or changed.",
+  "zh": "如果你的工作就是该任务，那么当该任务被自动化时，你的工作很可能会被淘汰或改变。"
+ },
+ {
+  "seg": 844,
+  "start": 3637.813,
+  "end": 3648.982,
+  "speaker": "Unknown",
+  "en": "And so, for example, customer service, call centers, that is a task that is very likely to be highly automated.",
+  "zh": "因此，例如，客户服务，呼叫中心，这是一项非常可能被高度自动化的任务。"
+ },
+ {
+  "seg": 845,
+  "start": 3649.943,
+  "end": 3651.805,
+  "speaker": "Unknown",
+  "en": "However, the management",
+  "zh": "然而，管理"
+ },
+ {
+  "seg": 846,
+  "start": 3652.825,
+  "end": 3666.136,
+  "speaker": "Unknown",
+  "en": "The coordination, the improvement, the evaluation of all of the AIs that are now handling the actual calls itself will likely continue to be a human-oriented task.",
+  "zh": "对所有现在处理实际呼叫的人工智能的协调、改进和评估，很可能仍然是面向人类的任务。"
+ },
+ {
+  "seg": 847,
+  "start": 3666.676,
+  "end": 3670.899,
+  "speaker": "Unknown",
+  "en": "And so just remember that a job has a purpose.",
+  "zh": "所以请记住，工作有一个目的。"
+ },
+ {
+  "seg": 848,
+  "start": 3671.8,
+  "end": 3673.883,
+  "speaker": "Unknown",
+  "en": "which includes many tasks.",
+  "zh": "其中包括许多任务。"
+ },
+ {
+  "seg": 849,
+  "start": 3674.543,
+  "end": 3678.568,
+  "speaker": "Unknown",
+  "en": "And so one of my favorite examples is the original example about radiology.",
+  "zh": "所以我最喜欢的例子之一是关于放射学的最初的例子。"
+ },
+ {
+  "seg": 850,
+  "start": 3679.229,
+  "end": 3683.714,
+  "speaker": "Unknown",
+  "en": "Radiologists have a task of studying scans.",
+  "zh": "放射科医生有一项研究扫描的任务。"
+ },
+ {
+  "seg": 851,
+  "start": 3684.704,
+  "end": 3695.575,
+  "speaker": "Unknown",
+  "en": "But the purpose is to end human suffering, is to help people understand their disease, to help collaborate with other doctors, to help identify the disease.",
+  "zh": "但目的是终结人类的痛苦，是帮助人们了解他们的疾病，帮助与其他医生合作，帮助识别疾病。"
+ },
+ {
+  "seg": 852,
+  "start": 3696.116,
+  "end": 3700.68,
+  "speaker": "Unknown",
+  "en": "And so the purpose doesn't change when the task has been automated.",
+  "zh": "因此，当任务被自动化时，目的并不会改变。"
+ },
+ {
+  "seg": 853,
+  "start": 3700.7,
+  "end": 3700.861,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对。"
+ },
+ {
+  "seg": 854,
+  "start": 3701.121,
+  "end": 3702.102,
+  "speaker": "Unknown",
+  "en": "And something that I tell...",
+  "zh": "我告诉我生活中的一些……"
+ },
+ {
+  "seg": 855,
+  "start": 3703.327,
+  "end": 3707.928,
+  "speaker": "Unknown",
+  "en": "early career people in my life is don't mistake your task for the job and the opportunity.",
+  "zh": "早期职场人士的是，不要把你的任务误认为是工作和机会。"
+ },
+ {
+  "seg": 856,
+  "start": 3707.988,
+  "end": 3708.468,
+  "speaker": "Unknown",
+  "en": "That's right.",
+  "zh": "没错。"
+ },
+ {
+  "seg": 857,
+  "start": 3708.668,
+  "end": 3709.169,
+  "speaker": "Unknown",
+  "en": "Exactly.",
+  "zh": "确实。 [[858】 完全正确。"
+ },
+ {
+  "seg": 858,
+  "start": 3709.409,
+  "end": 3710.229,
+  "speaker": "Unknown",
+  "en": "That's exactly right.",
+  "zh": "完全正确。"
+ },
+ {
+  "seg": 859,
+  "start": 3710.629,
+  "end": 3717.131,
+  "speaker": "Unknown",
+  "en": "Hey, look, today, most of the people in IT and technology sits in front of a keyboard typing.",
+  "zh": "嘿，你看，今天，大多数在 IT 和科技领域的人都坐在键盘前打字。"
+ },
+ {
+  "seg": 860,
+  "start": 3717.691,
+  "end": 3725.533,
+  "speaker": "Unknown",
+  "en": "If we were to take a picture of this and look at it 10 years, 20 years from now, it would look like back the pictures we see.",
+  "zh": "如果我们要拍一张照片并在 10 年、20 年后回看它，它看起来就像我们看到的那些旧照片。"
+ },
+ {
+  "seg": 861,
+  "start": 3726.373,
+  "end": 3731.337,
+  "speaker": "Unknown",
+  "en": "of back in the old days of offices with people sitting in front of IBM Selectrics typing.",
+  "zh": "回到过去人们坐在 IBM Selectric 打字机前打字的办公室时代。"
+ },
+ {
+  "seg": 862,
+  "start": 3731.977,
+  "end": 3735.379,
+  "speaker": "Unknown",
+  "en": "And so we don't type",
+  "zh": "所以我们不打字"
+ },
+ {
+  "seg": 863,
+  "start": 3736.486,
+  "end": 3737.967,
+  "speaker": "Unknown",
+  "en": "Typing is not the job.",
+  "zh": "打字不是工作。"
+ },
+ {
+  "seg": 864,
+  "start": 3738.648,
+  "end": 3758.003,
+  "speaker": "Unknown",
+  "en": "Solving problems, innovating, discovering impact, creating value, helping end human suffering, bringing joy and delight, whatever it is that your job purposes doesn't fundamentally change because you don't have to type anymore.",
+  "zh": "解决问题、创新、发现影响、创造价值、帮助终结人类的痛苦、带来快乐和愉悦，无论你的工作目的是什么，都不会因为你不再需要打字而发生根本性的改变。"
+ },
+ {
+  "seg": 865,
+  "start": 3758.683,
+  "end": 3759.704,
+  "speaker": "Unknown",
+  "en": "We don't have to type anymore.",
+  "zh": "我们不再需要打字了。"
+ },
+ {
+  "seg": 866,
+  "start": 3759.804,
+  "end": 3760.224,
+  "speaker": "Unknown",
+  "en": "That's great.",
+  "zh": "这很好。"
+ },
+ {
+  "seg": 867,
+  "start": 3760.785,
+  "end": 3768.492,
+  "speaker": "Unknown",
+  "en": "When do you expect the chat GPT moment for robots when they'll be used and useful in the everyday lives of ordinary people?",
+  "zh": "你预计机器人什么时候会有 chat GPT 时刻，当它们在普通人的日常生活中被使用且有用时？"
+ },
+ {
+  "seg": 868,
+  "start": 3769.273,
+  "end": 3776.219,
+  "speaker": "Unknown",
+  "en": "The chat GPT moment in 2022 was the moment that was not the moment that AI was useful.",
+  "zh": "2022 年的 chat GPT 时刻并不是 AI 变得有用的时刻。"
+ },
+ {
+  "seg": 869,
+  "start": 3776.859,
+  "end": 3778.101,
+  "speaker": "Unknown",
+  "en": "We had to wait another four years.",
+  "zh": "我们不得不等待又一个四年。"
+ },
+ {
+  "seg": 870,
+  "start": 3779.422,
+  "end": 3785.187,
+  "speaker": "Unknown",
+  "en": "Chat GPT moment was when we saw that it was interesting, that it did something surprising.",
+  "zh": "Chat GPT 时刻是我们看到它很有趣、它做了一些令人惊讶的事情的时刻。"
+ },
+ {
+  "seg": 871,
+  "start": 3787.43,
+  "end": 3792.173,
+  "speaker": "Unknown",
+  "en": "And so if that's the case, then the chat GPT moment of robots has already arrived.",
+  "zh": "如果是那样的话，那么机器人的 chat GPT 时刻已经到来了。"
+ },
+ {
+  "seg": 872,
+  "start": 3792.834,
+  "end": 3797.657,
+  "speaker": "Unknown",
+  "en": "You could tell a robot, you know, put the apple in the drawer.",
+  "zh": "你可以告诉一个机器人，你知道，把苹果放进抽屉里。"
+ },
+ {
+  "seg": 873,
+  "start": 3799.058,
+  "end": 3808.526,
+  "speaker": "Unknown",
+  "en": "And the robot will actually reason about what is the sequence of tasks that it has to do, including opening the drawer before it puts the apple in there.",
+  "zh": "机器人实际上会推理它必须执行的任务序列，包括在把苹果放进去之前打开抽屉。"
+ },
+ {
+  "seg": 874,
+  "start": 3809.086,
+  "end": 3810.167,
+  "speaker": "Unknown",
+  "en": "It will reason about that.",
+  "zh": "它会对此进行推理。"
+ },
+ {
+  "seg": 875,
+  "start": 3810.647,
+  "end": 3815.251,
+  "speaker": "Unknown",
+  "en": "And when somebody sees that for the first time, see a mechanical robot actually doing that,",
+  "zh": "当有人第一次看到那个，看到一个机械机器人真的在那样做，"
+ },
+ {
+  "seg": 876,
+  "start": 3816.342,
+  "end": 3821.206,
+  "speaker": "Unknown",
+  "en": "I think it opens their mind about what the future of robotics can do.",
+  "zh": "我认为这打开了他们对机器人未来能做什么的思维。"
+ },
+ {
+  "seg": 877,
+  "start": 3821.687,
+  "end": 3825.65,
+  "speaker": "Unknown",
+  "en": "I think that the chat GPT moment of robots has already arrived.",
+  "zh": "我认为机器人的 chat GPT 时刻已经到来了。"
+ },
+ {
+  "seg": 878,
+  "start": 3826.331,
+  "end": 3828.353,
+  "speaker": "Unknown",
+  "en": "Now the question is, when are we going to make it useful?",
+  "zh": "现在的问题是，我们什么时候能让它变得有用？"
+ },
+ {
+  "seg": 879,
+  "start": 3828.913,
+  "end": 3831.976,
+  "speaker": "Unknown",
+  "en": "And if we make it useful in the next three to four years, I would not be surprised.",
+  "zh": "如果我们在未来三到四年内让它变得有用，我不会感到惊讶。"
+ },
+ {
+  "seg": 880,
+  "start": 3832.436,
+  "end": 3835.859,
+  "speaker": "Unknown",
+  "en": "We've moved into the agentic era of AI.",
+  "zh": "我们已经进入了 AI 的智能体时代。"
+ },
+ {
+  "seg": 881,
+  "start": 3836.039,
+  "end": 3838.622,
+  "speaker": "Unknown",
+  "en": "What will be the next era of AI?",
+  "zh": "AI 的下一个时代会是什么？"
+ },
+ {
+  "seg": 882,
+  "start": 3839.772,
+  "end": 3845.436,
+  "speaker": "Unknown",
+  "en": "Well, the agentic moment of AI is the capability is now here.",
+  "zh": "嗯，AI 的智能体时刻，能力现在已经在这里了。"
+ },
+ {
+  "seg": 883,
+  "start": 3846.216,
+  "end": 3849.839,
+  "speaker": "Unknown",
+  "en": "Now it's about the diffusion of the capability.",
+  "zh": "现在是关于能力的普及。"
+ },
+ {
+  "seg": 884,
+  "start": 3850.899,
+  "end": 3857.764,
+  "speaker": "Unknown",
+  "en": "Very soon, the reason why we need so many more computers is because today we have a billion people using computers.",
+  "zh": "很快，我们需要更多计算机的原因是因为今天有 10 亿人在使用计算机。"
+ },
+ {
+  "seg": 885,
+  "start": 3858.88,
+  "end": 3863.661,
+  "speaker": "Unknown",
+  "en": "And these computers we use, like right now when you and I are talking, we're largely not using our computer.",
+  "zh": "我们使用的这些计算机，就像现在你和我交谈时，我们在很大程度上并没有在使用我们的计算机。"
+ },
+ {
+  "seg": 886,
+  "start": 3863.861,
+  "end": 3865.182,
+  "speaker": "Unknown",
+  "en": "The computer is unused.",
+  "zh": "计算机未被使用。"
+ },
+ {
+  "seg": 887,
+  "start": 3865.682,
+  "end": 3867.922,
+  "speaker": "Unknown",
+  "en": "And so we have a billion people using computers.",
+  "zh": "所以我们有 10 亿人在使用计算机。"
+ },
+ {
+  "seg": 888,
+  "start": 3868.303,
+  "end": 3875.605,
+  "speaker": "Unknown",
+  "en": "Maybe at any given point in time, only one billion people, excuse me, a hundred million people are using the computer at the same time around the earth.",
+  "zh": "也许在任何给定的时刻，只有 10 亿人，抱歉，一亿人同时在地球上使用计算机。"
+ },
+ {
+  "seg": 889,
+  "start": 3876.265,
+  "end": 3883.787,
+  "speaker": "Unknown",
+  "en": "Now, in the future, we will be supported by, augmented by, surrounded by with a whole bunch of agents.",
+  "zh": "在未来，我们将得到一大群智能体的支持、增强和包围。"
+ },
+ {
+  "seg": 890,
+  "start": 3884.607,
+  "end": 3885.908,
+  "speaker": "Unknown",
+  "en": "who are helping us do things.",
+  "zh": "它们帮助我们要做事情。"
+ },
+ {
+  "seg": 891,
+  "start": 3886.288,
+  "end": 3888.709,
+  "speaker": "Unknown",
+  "en": "And those agents are going to be using computers all the time.",
+  "zh": "那些智能体将一直使用计算机。"
+ },
+ {
+  "seg": 892,
+  "start": 3889.549,
+  "end": 3891.23,
+  "speaker": "Unknown",
+  "en": "Agents are not going to become computers.",
+  "zh": "智能体不会变成计算机。"
+ },
+ {
+  "seg": 893,
+  "start": 3891.47,
+  "end": 3892.951,
+  "speaker": "Unknown",
+  "en": "Agents are going to use computers.",
+  "zh": "智能体将使用计算机。 [[894] ] 所以这些智能体，我们将有 1000 亿、一万亿个智能体一直在运行。"
+ },
+ {
+  "seg": 894,
+  "start": 3893.611,
+  "end": 3899.494,
+  "speaker": "Unknown",
+  "en": "And so these agents, we're going to have 100 billion, a trillion agents that are running all of the time.",
+  "zh": "因此这些智能体，我们将有 1000 亿、1 万亿智能体一直在运行。"
+ },
+ {
+  "seg": 895,
+  "start": 3900.054,
+  "end": 3905.477,
+  "speaker": "Unknown",
+  "en": "Smart agents, lesser smart agents, specialized agents, super agents, all kinds of different types of agents running all the time.",
+  "zh": "聪明的智能体、不太聪明的智能体、专门的智能体、超级智能体，各种不同类型的智能体一直在运行。"
+ },
+ {
+  "seg": 896,
+  "start": 3905.917,
+  "end": 3908.438,
+  "speaker": "Unknown",
+  "en": "And so the number of computers we need is going to grow tremendously.",
+  "zh": "所以我们需要的计算机数量将极大地增长。"
+ },
+ {
+  "seg": 897,
+  "start": 3908.804,
+  "end": 3910.765,
+  "speaker": "Unknown",
+  "en": "We'll finish with a rapid round on life lessons.",
+  "zh": "我们将以人生经验快问快答环节结束。"
+ },
+ {
+  "seg": 898,
+  "start": 3910.825,
+  "end": 3913.145,
+  "speaker": "Unknown",
+  "en": "And thank you very much for your generosity for taking.",
+  "zh": "非常感谢你的慷慨受访。"
+ },
+ {
+  "seg": 899,
+  "start": 3913.445,
+  "end": 3914.205,
+  "speaker": "Unknown",
+  "en": "I enjoyed it, Mike.",
+  "zh": "我很享受这次交谈，Mike。"
+ },
+ {
+  "seg": 900,
+  "start": 3914.265,
+  "end": 3915.206,
+  "speaker": "Unknown",
+  "en": "It's always great to see you.",
+  "zh": "很高兴见到你。"
+ },
+ {
+  "seg": 901,
+  "start": 3915.386,
+  "end": 3915.846,
+  "speaker": "Unknown",
+  "en": "I'm grateful.",
+  "zh": "我很感激。"
+ },
+ {
+  "seg": 902,
+  "start": 3915.886,
+  "end": 3916.206,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 903,
+  "start": 3916.346,
+  "end": 3916.706,
+  "speaker": "Unknown",
+  "en": "Likewise.",
+  "zh": "我也是。"
+ },
+ {
+  "seg": 904,
+  "start": 3916.966,
+  "end": 3918.407,
+  "speaker": "Unknown",
+  "en": "You're a great American story.",
+  "zh": "你是一个伟大的美国故事。"
+ },
+ {
+  "seg": 905,
+  "start": 3918.547,
+  "end": 3924.228,
+  "speaker": "Unknown",
+  "en": "Born in Taiwan, sent to the U.S. at age nine, went to a pretty rough and tumble boarding school.",
+  "zh": "出生在台湾，九岁时被送到美国，去了一所相当粗野的寄宿学校。"
+ },
+ {
+  "seg": 906,
+  "start": 3924.308,
+  "end": 3926.989,
+  "speaker": "Unknown",
+  "en": "It sounds like you've talked about you were bullied, started.",
+  "zh": "听起来你谈到过你被欺负过，开始了。"
+ },
+ {
+  "seg": 907,
+  "start": 3927.709,
+  "end": 3929.91,
+  "speaker": "Unknown",
+  "en": "NVIDIA at age 30.",
+  "zh": "30 岁时创立 NVIDIA。"
+ },
+ {
+  "seg": 908,
+  "start": 3930.451,
+  "end": 3934.573,
+  "speaker": "Unknown",
+  "en": "You've said the key to greatness is plenty of pain and suffering.",
+  "zh": "你说过伟大的关键是大量的痛苦和磨难。"
+ },
+ {
+  "seg": 909,
+  "start": 3934.853,
+  "end": 3942.358,
+  "speaker": "Unknown",
+  "en": "What is the pain and suffering in your career that resulted in the most benefit or that has allowed you to create and lead this company?",
+  "zh": "在你职业生涯中，什么样的痛苦和磨难带来了最大的好处，或者让你能够创造和领导这家公司？"
+ },
+ {
+  "seg": 910,
+  "start": 3944.299,
+  "end": 3945.22,
+  "speaker": "Unknown",
+  "en": "Nothing.",
+  "zh": "没有什么。"
+ },
+ {
+  "seg": 911,
+  "start": 3945.52,
+  "end": 3948.482,
+  "speaker": "Unknown",
+  "en": "No great athlete just happens to be a great athlete.",
+  "zh": "没有哪个伟大的运动员只是恰好成了伟大的运动员。"
+ },
+ {
+  "seg": 912,
+  "start": 3949.269,
+  "end": 3956.872,
+  "speaker": "Unknown",
+  "en": "It's a lot of practice when nobody's watching, a lot of setbacks, a lot of losing.",
+  "zh": "那是在没人看到的时候的大量练习，大量的挫折，大量的失败。"
+ },
+ {
+  "seg": 913,
+  "start": 3958.472,
+  "end": 3960.733,
+  "speaker": "Unknown",
+  "en": "You know, it's just a lot of pain and suffering.",
+  "zh": "你知道，这只是大量的痛苦和磨难。"
+ },
+ {
+  "seg": 914,
+  "start": 3961.354,
+  "end": 3964.255,
+  "speaker": "Unknown",
+  "en": "And that is really what elevates craft.",
+  "zh": "这确实是提升技艺的东西。"
+ },
+ {
+  "seg": 915,
+  "start": 3964.475,
+  "end": 3965.715,
+  "speaker": "Unknown",
+  "en": "It elevates character.",
+  "zh": "它提升了品格。"
+ },
+ {
+  "seg": 916,
+  "start": 3966.796,
+  "end": 3967.916,
+  "speaker": "Unknown",
+  "en": "It gives you confidence.",
+  "zh": "它给了你信心。"
+ },
+ {
+  "seg": 917,
+  "start": 3968.136,
+  "end": 3971.477,
+  "speaker": "Unknown",
+  "en": "It gives you resilience, allows you to handle very difficult challenges.",
+  "zh": "它给了你韧性，让你能够应对非常艰难的挑战。"
+ },
+ {
+  "seg": 918,
+  "start": 3978.92,
+  "end": 3984.685,
+  "speaker": "Unknown",
+  "en": "somehow time slows down when you're in the middle of doing something.",
+  "zh": "当你做某事时，时间似乎会变慢。"
+ },
+ {
+  "seg": 919,
+  "start": 3985.185,
+  "end": 3987.948,
+  "speaker": "Unknown",
+  "en": "When in the zone or when the pressure is high.",
+  "zh": "当在状态中或当压力很大时。"
+ },
+ {
+  "seg": 920,
+  "start": 3989.129,
+  "end": 3989.889,
+  "speaker": "Unknown",
+  "en": "I feel the same way.",
+  "zh": "我也有同感。"
+ },
+ {
+  "seg": 921,
+  "start": 3990.249,
+  "end": 3998.256,
+  "speaker": "Unknown",
+  "en": "You know, when the stress is at its highest, when tension is at its highest, I kind of feel like time slows down.",
+  "zh": "你知道，当压力最大的时候，当紧张感最强的时候，我会有种时间变慢的感觉。"
+ },
+ {
+  "seg": 922,
+  "start": 3998.336,
+  "end": 4000.498,
+  "speaker": "Unknown",
+  "en": "And the reason for that, it comes from practice.",
+  "zh": "原因在于，这来自练习。"
+ },
+ {
+  "seg": 923,
+  "start": 4000.558,
+  "end": 4002.72,
+  "speaker": "Unknown",
+  "en": "It could just come from doing something over and over again.",
+  "zh": "它可能只是来自一遍又一遍地做某事。"
+ },
+ {
+  "seg": 924,
+  "start": 4003.861,
+  "end": 4015.151,
+  "speaker": "Unknown",
+  "en": "about managing your own stress and managing your own focus and having the confidence to realize you can work it through and being surrounded by amazing people.",
+  "zh": "关于管理你自己的压力和管理你自己的专注度，并有信心意识到你可以度过难关，并且身边有很棒的人。"
+ },
+ {
+  "seg": 925,
+  "start": 4015.231,
+  "end": 4022.658,
+  "speaker": "Unknown",
+  "en": "And so all of that is a combination of that condition that leads to you being able to do something at a very high level.",
+  "zh": "所以所有这一切都是那种条件的组合，让你能够在很高水平上做事。"
+ },
+ {
+  "seg": 926,
+  "start": 4023.299,
+  "end": 4024.7,
+  "speaker": "Unknown",
+  "en": "And so pain and suffering is necessary.",
+  "zh": "所以痛苦和磨难是必要的。"
+ },
+ {
+  "seg": 927,
+  "start": 4024.958,
+  "end": 4030.266,
+  "speaker": "Unknown",
+  "en": "What would you say to some nine-year-old Jensen who's abroad about coming to America?",
+  "zh": "你会对那个在国外九岁的 Jensen 关于来美国说什么？"
+ },
+ {
+  "seg": 928,
+  "start": 4030.326,
+  "end": 4032.97,
+  "speaker": "Unknown",
+  "en": "What to be excited about and what to watch out for?",
+  "zh": "对什么感到兴奋，要注意什么？"
+ },
+ {
+  "seg": 929,
+  "start": 4033.751,
+  "end": 4035.293,
+  "speaker": "Unknown",
+  "en": "America is the greatest country in the world.",
+  "zh": "美国是世界上最伟大的国家。"
+ },
+ {
+  "seg": 930,
+  "start": 4037.196,
+  "end": 4037.697,
+  "speaker": "Unknown",
+  "en": "Full stop.",
+  "zh": "句号。"
+ },
+ {
+  "seg": 931,
+  "start": 4039.121,
+  "end": 4044.945,
+  "speaker": "Unknown",
+  "en": "And it's the greatest country in the world, not because we don't have our challenges, not because we don't have our disagreements.",
+  "zh": "它是世界上最伟大的国家，不是因为我们没有我们的挑战，不是因为我们没有我们的分歧。"
+ },
+ {
+  "seg": 932,
+  "start": 4045.545,
+  "end": 4052.929,
+  "speaker": "Unknown",
+  "en": "It's the greatest country in the world because of all those great challenges, because of all those disagreements, we somehow managed to work it through.",
+  "zh": "它是世界上最伟大的国家，正是因为所有那些巨大的挑战，正是因为所有那些分歧，我们设法度过了难关。"
+ },
+ {
+  "seg": 933,
+  "start": 4053.63,
+  "end": 4062.095,
+  "speaker": "Unknown",
+  "en": "And through open discourse, through a vibrant system that allows freedom.",
+  "zh": "通过开放的言论，通过一个充满活力的系统，允许自由。"
+ },
+ {
+  "seg": 934,
+  "start": 4062.835,
+  "end": 4069.764,
+  "speaker": "Unknown",
+  "en": "freedom to speak up, freedom to innovate, freedom to start something, freedom to collaborate and work with people.",
+  "zh": "发言的自由，创新的自由，开始某事的自由，与人合作和共事的自由。"
+ },
+ {
+  "seg": 935,
+  "start": 4071.681,
+  "end": 4075.303,
+  "speaker": "Unknown",
+  "en": "The environment naturally attracts amazing minds.",
+  "zh": "这种环境自然吸引了惊人的头脑。"
+ },
+ {
+  "seg": 936,
+  "start": 4075.763,
+  "end": 4082.346,
+  "speaker": "Unknown",
+  "en": "It naturally creates a condition for innovators and entrepreneurs and great researchers and great minds.",
+  "zh": "它自然为创新者和企业家、伟大的研究人员和伟大的头脑创造了条件。"
+ },
+ {
+  "seg": 937,
+  "start": 4084.067,
+  "end": 4088.909,
+  "speaker": "Unknown",
+  "en": "It creates the condition for anybody with desire to be able to make a great living.",
+  "zh": "它为任何有欲望的人创造了过上美好生活的条件。"
+ },
+ {
+  "seg": 938,
+  "start": 4089.53,
+  "end": 4092.431,
+  "speaker": "Unknown",
+  "en": "You could be a construction worker, a plumber, an electrician.",
+  "zh": "你可以是建筑工人、水管工、电工。"
+ },
+ {
+  "seg": 939,
+  "start": 4093.171,
+  "end": 4094.152,
+  "speaker": "Unknown",
+  "en": "You could be a scientist.",
+  "zh": "你可以是科学家。"
+ },
+ {
+  "seg": 940,
+  "start": 4094.172,
+  "end": 4095.553,
+  "speaker": "Unknown",
+  "en": "You could be an artist.",
+  "zh": "你可以是艺术家。"
+ },
+ {
+  "seg": 941,
+  "start": 4096.194,
+  "end": 4098.675,
+  "speaker": "Unknown",
+  "en": "You could create a great living.",
+  "zh": "你可以创造美好的生活。"
+ },
+ {
+  "seg": 942,
+  "start": 4098.716,
+  "end": 4101.598,
+  "speaker": "Unknown",
+  "en": "And so I think that this is an extraordinary country.",
+  "zh": "所以我认为这是一个非凡的国家。"
+ },
+ {
+  "seg": 943,
+  "start": 4101.798,
+  "end": 4106.702,
+  "speaker": "Unknown",
+  "en": "I advise every bright mind around the world to find your way here.",
+  "zh": "我建议世界各地每个聪明的头脑想办法来到这里。"
+ },
+ {
+  "seg": 944,
+  "start": 4107.162,
+  "end": 4107.982,
+  "speaker": "Unknown",
+  "en": "We need you here.",
+  "zh": "我们需要你在这里。"
+ },
+ {
+  "seg": 945,
+  "start": 4108.663,
+  "end": 4110.344,
+  "speaker": "Unknown",
+  "en": "This country was built by immigrants.",
+  "zh": "这个国家是由移民建立的。"
+ },
+ {
+  "seg": 946,
+  "start": 4110.484,
+  "end": 4113.327,
+  "speaker": "Unknown",
+  "en": "This country is going to need amazing immigrants in the future.",
+  "zh": "这个国家未来将需要出色的移民。"
+ },
+ {
+  "seg": 947,
+  "start": 4113.987,
+  "end": 4117.43,
+  "speaker": "Unknown",
+  "en": "And they're going to come here and join the amazing minds that are already here.",
+  "zh": "他们会来到这里，并加入这里已有的惊人的头脑。"
+ },
+ {
+  "seg": 948,
+  "start": 4118.33,
+  "end": 4125.894,
+  "speaker": "Unknown",
+  "en": "And so we have 400 million amazing people who welcome the brightest minds and the greatest people in the future to come here.",
+  "zh": "所以我们有 4 亿杰出的人，欢迎未来最聪明的头脑和最优秀的人来这里。"
+ },
+ {
+  "seg": 949,
+  "start": 4126.414,
+  "end": 4127.314,
+  "speaker": "Unknown",
+  "en": "You don't wear a watch.",
+  "zh": "你不戴手表。"
+ },
+ {
+  "seg": 950,
+  "start": 4127.374,
+  "end": 4129.375,
+  "speaker": "Unknown",
+  "en": "And at this moment, that's probably a good thing.",
+  "zh": "在这一刻，这可能是一件好事。"
+ },
+ {
+  "seg": 951,
+  "start": 4129.735,
+  "end": 4129.955,
+  "speaker": "Unknown",
+  "en": "Why?",
+  "zh": "为什么？"
+ },
+ {
+  "seg": 952,
+  "start": 4131.016,
+  "end": 4132.877,
+  "speaker": "Unknown",
+  "en": "Because now is the most important time.",
+  "zh": "因为现在是最重要的时刻。"
+ },
+ {
+  "seg": 953,
+  "start": 4134.267,
+  "end": 4141.169,
+  "speaker": "Unknown",
+  "en": "I refuse to let Outlook manage my life, and I refuse to let a watch manage my life.",
+  "zh": "我拒绝让 Outlook 管理我的生活，我也拒绝让手表管理我的生活。"
+ },
+ {
+  "seg": 954,
+  "start": 4141.569,
+  "end": 4145.15,
+  "speaker": "Unknown",
+  "en": "If I'm too late, somebody will let me know.",
+  "zh": "如果我迟到了，有人会告诉我的。"
+ },
+ {
+  "seg": 955,
+  "start": 4145.511,
+  "end": 4147.811,
+  "speaker": "Unknown",
+  "en": "In the meantime, I'm 100% here.",
+  "zh": "与此同时，我百分之百在这里。"
+ },
+ {
+  "seg": 956,
+  "start": 4148.552,
+  "end": 4150.932,
+  "speaker": "Unknown",
+  "en": "And so now is the most important time.",
+  "zh": "所以现在是最重要的时刻。"
+ },
+ {
+  "seg": 957,
+  "start": 4151.793,
+  "end": 4155.654,
+  "speaker": "Unknown",
+  "en": "One fun thing, you've said that besides work, you spend all your time with your family.",
+  "zh": "有一个有趣的事情，你说过除了工作之外，你把所有时间都花在你的家人身上。"
+ },
+ {
+  "seg": 958,
+  "start": 4155.954,
+  "end": 4160.435,
+  "speaker": "Unknown",
+  "en": "Take us through a Saturday with your family when you're not working.",
+  "zh": "带我们度过一个你不工作时的周六家庭时光。"
+ },
+ {
+  "seg": 959,
+  "start": 4160.515,
+  "end": 4161.236,
+  "speaker": "Unknown",
+  "en": "Perfect Saturday.",
+  "zh": "完美的周六。"
+ },
+ {
+  "seg": 960,
+  "start": 4161.916,
+  "end": 4162.616,
+  "speaker": "Unknown",
+  "en": "I wake up early.",
+  "zh": "我起得很早。"
+ },
+ {
+  "seg": 961,
+  "start": 4164.175,
+  "end": 4167.557,
+  "speaker": "Unknown",
+  "en": "And I play with the dogs.",
+  "zh": "我和狗一起玩。"
+ },
+ {
+  "seg": 962,
+  "start": 4168.557,
+  "end": 4173.46,
+  "speaker": "Unknown",
+  "en": "And shortly after, Lori walks the dogs.",
+  "zh": "之后不久，Lori 去遛狗。"
+ },
+ {
+  "seg": 963,
+  "start": 4174.3,
+  "end": 4175.161,
+  "speaker": "Unknown",
+  "en": "I start working.",
+  "zh": "我开始工作。"
+ },
+ {
+  "seg": 964,
+  "start": 4176.001,
+  "end": 4177.062,
+  "speaker": "Unknown",
+  "en": "And I work until lunch.",
+  "zh": "我一直工作到午餐。"
+ },
+ {
+  "seg": 965,
+  "start": 4177.822,
+  "end": 4179.203,
+  "speaker": "Unknown",
+  "en": "And we have a great lunch.",
+  "zh": "我们吃了一顿很棒的午餐。"
+ },
+ {
+  "seg": 966,
+  "start": 4180.498,
+  "end": 4182.039,
+  "speaker": "Unknown",
+  "en": "The dogs are asleep.",
+  "zh": "狗睡着了。"
+ },
+ {
+  "seg": 967,
+  "start": 4182.519,
+  "end": 4187.722,
+  "speaker": "Unknown",
+  "en": "We work through to dinner and the kids come over.",
+  "zh": "我们一直工作到晚餐，孩子们过来了。"
+ },
+ {
+  "seg": 968,
+  "start": 4188.123,
+  "end": 4189.163,
+  "speaker": "Unknown",
+  "en": "We make dinner together.",
+  "zh": "我们一起做晚餐。"
+ },
+ {
+  "seg": 969,
+  "start": 4190.184,
+  "end": 4195.407,
+  "speaker": "Unknown",
+  "en": "We're all together enjoying dinner, have cocktail and play with the dogs.",
+  "zh": "我们都在一起享受晚餐，喝鸡尾酒，和狗一起玩。"
+ },
+ {
+  "seg": 970,
+  "start": 4195.467,
+  "end": 4197.028,
+  "speaker": "Unknown",
+  "en": "And that's a perfect day, you know?",
+  "zh": "这就是完美的一天，你知道吗？"
+ },
+ {
+  "seg": 971,
+  "start": 4197.188,
+  "end": 4202.291,
+  "speaker": "Unknown",
+  "en": "And so if I could have that day every weekend, well, as it turns out, every weekend is exactly like that.",
+  "zh": "所以如果我能每个周末都有这样的一天，嗯，事实证明，每个周末确实都是那样的。"
+ },
+ {
+  "seg": 972,
+  "start": 4202.931,
+  "end": 4208.598,
+  "speaker": "Unknown",
+  "en": "Wake up the same time, play with the dogs, hope to see the family, hope to see the kids come over.",
+  "zh": "同一时间醒来，和狗一起玩，希望能见到家人，希望能看到孩子们过来。"
+ },
+ {
+  "seg": 973,
+  "start": 4208.618,
+  "end": 4209.72,
+  "speaker": "Unknown",
+  "en": "You know, that's it.",
+  "zh": "你知道，就这样。"
+ },
+ {
+  "seg": 974,
+  "start": 4209.78,
+  "end": 4210.521,
+  "speaker": "Unknown",
+  "en": "That's the perfect day.",
+  "zh": "这就是完美的一天。"
+ },
+ {
+  "seg": 975,
+  "start": 4211.162,
+  "end": 4213.825,
+  "speaker": "Unknown",
+  "en": "Jensen Wan, thanks for a memorable, meaty conversation.",
+  "zh": "Jensen Wan，谢谢这次难忘的、充实的对话。"
+ },
+ {
+  "seg": 976,
+  "start": 4214.145,
+  "end": 4214.626,
+  "speaker": "Unknown",
+  "en": "Thank you, Mike.",
+  "zh": "谢谢你，Mike。"
+ },
+ {
+  "seg": 977,
+  "start": 4214.826,
+  "end": 4215.307,
+  "speaker": "Unknown",
+  "en": "Great to see you.",
+  "zh": "很高兴见到你。"
+ }
+]

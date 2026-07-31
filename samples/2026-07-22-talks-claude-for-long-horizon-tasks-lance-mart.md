@@ -89,9 +89,9 @@ tags:
 
 **换个口味**
 
+- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]] —— 同公司:Anthropic、OpenAI · 同概念:沙箱 (sandbox)
 - [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]] —— 同公司:Anthropic · 同概念:Claude
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]] —— 同公司:Anthropic · 同概念:Claude
-- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]] —— 同公司:OpenAI · 同概念:沙箱 (sandbox)
 
 </div>
 </div>

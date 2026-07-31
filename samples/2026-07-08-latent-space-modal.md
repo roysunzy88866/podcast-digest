@@ -99,9 +99,9 @@ tags:
 
 **换个口味**
 
+- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]] —— 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)、沙箱 (sandbox)
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]] —— 同公司:OpenAI · 同概念:推理 (inference)、沙箱 (sandbox)
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]] —— 同公司:Anthropic · 同概念:智能体 (agent)
 
 </div>
 </div>

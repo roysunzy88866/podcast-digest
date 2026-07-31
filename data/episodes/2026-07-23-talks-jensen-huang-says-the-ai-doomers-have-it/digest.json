@@ -1,0 +1,123 @@
+{
+  "title_zh": "黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢",
+  "tldr": "黄仁勋驳斥 AI 毁灭论与中国威胁论，称半导体的短缺恰恰证明了 AI 基础设施建设才刚开始。",
+  "digest_md": "一家市值数万亿美元的公司，目前在一个大国市场的销售额约等于零——但它的 CEO 却说：「我希望双方都保持开放，绝对不应该禁用对手的 AI 模型。」说这话的人是黄仁勋，世界上最有价值的公司 NVIDIA 的掌舵人。\n\n在这集于德克萨斯州沃斯堡（Fort Worth）工厂进行的对谈中，他和主持人聊了四块内容：面对中国在 AI 领域的快速崛起，他为什么不认同美国搞出口管制和封闭模型；为什么 AI 毁灭论（即 AI 将毁灭人类或抢走一半工作）在他看来是纯粹的胡说八道；为什么华尔街和投资者对 AI 泡沫的担忧搞错了重点；最后是他作为掌舵 30 多年的 CEO，对于痛苦磨炼、用人规模以及工作意义的个人心得。\n\n说完了这集访谈的几个核心方向，我们先来看引发最多争议的话题：中国 AI 的崛起，以及该不该把它挡在门外。\n\n对于美国是否应该禁止或限制中国的开源模型，黄仁勋的态度非常明确：绝对不应该 [03:41]。在他看来，世界既需要像 OpenAI 和 Anthropic 这样好用、便利的封闭模型，也绝对离不开开放模型。科学进步、网络安全、国家安全乃至经济安全，都需要建立在对开放模型的审查和测试之上。\n\n主持人问到了一个常见的担忧：开放模型会不会有「后门」？黄仁勋用技术常识化解了这个误解——模型是下载到本地的，你可以微调它，加装护栏，把它关进安全的沙箱里运行 [03:42]。恰恰相反，如果全世界都只用一个封闭的大模型，那才是真正单一的故障点和攻击目标 [19:02]。我们需要把开放模型交到全球的网络安全专家手里，实现大规模的分布式防御。从技术逻辑延伸到地缘政治，他认为 AI 是双用途技术，监管应该针对具体应用（比如医疗或自动驾驶），而不是去遏制技术本身的进步 [04:39]。\n\n既然中国模型这么厉害，那 OpenAI 和 Anthropic 这些美国头部的闭源实验室会不会有麻烦？顺理成章地，黄仁勋聊到了竞争与市场的逻辑。\n\n他的判断是：不仅没麻烦，反而大有可为。市场有一种误解，认为便宜的开源模型会抢走闭源模型的饭碗。但他指出，免费的开源模型就像一块敲门砖，它让全社会以极低的成本尝试 AI。当人们用过 AI 之后，才发现自己真正想要的是更聪明、更便利的服务，而这些正是闭源模型擅长的 [07:08]。他用了一个绝佳的比喻：这就好比你当然可以自己搭一个数据库或搜索引擎，但那太费劲了，直接向专业的云服务商租用会更划算 [11:39]。就算模型免费，自己运营的成本依然很高。\n\n不过他也强调了一条红线：没有任何公司或国家，应该把自己最核心的「阿尔法（Alpha）」——也就是专有技术或绝密智能——外包给别人 [13:46]。通用的业务（比如自动化营销、法律部门）可以放心地外包给闭源大模型，但涉及主权、机密和核心知识产权的领域，必须自己动手。正是为了这部分需求，NVIDIA 推出了自己的开源模型 Nemotron，专门给那些必须自建 AI 的公司做底座 [09:47]。\n\n谈完了开放与封闭的商业逻辑，我们转向让华尔街最揪心的问题：现在的 AI 到底是不是一个即将破裂的巨大泡沫？\n\n随着中国模型相继发布，NVIDIA 的股价曾出现剧烈波动，一些投资者甚至开始认为 AI 已经见顶。黄仁勋直言，这完全是搞错了状况 [27:45]。他解释道，过去由消费需求拉动的半导体行业确实有明显的繁荣与衰退周期，但这次完全不同。这是由工业驱动的底层基础设施重构——就像过去人类修建了公路、铁路和互联网，现在我们在这些之上还要铺设一层全新的「智能基础设施」 [31:36]。\n\n正因为是基础设施的大规模重构，他预计在未来 10 年内，整个半导体行业需要扩张到如今规模的 5 到 10 倍 [32:01]。眼下，所谓的「AI 泡沫」根本无从谈起，因为连最基本的物理供应都严重短缺：没有足够的芯片、内存、土地、电力，甚至连盖数据中心的建筑工人都不够 [36:44]。更重要的是，如今 AI 已经跨过了盈利的拐点。像 OpenAI 的编码智能体能替代高薪工作，企业一年花数亿美元购买这类服务，不仅提高了自身的生产力和利润，又反过来变成购买更多 AI 的动力——这个飞轮才刚刚开始转动 [34:55]。\n\n面对这场规模庞大的工业革命，社会上的焦虑情绪也在蔓延，这正是黄仁勋在访谈后半段最想驳斥的东西。\n\n对于某些科技领袖宣扬的「AI 将毁灭人类」或「AI 会抢走一半工作」，黄仁勋毫不客气地称其为「胡说八道」 [24:35]。他给出的现实证据是：AI 并没有消灭工作，反而增加了需求。比如 AI 自动化了放射扫描的判读，但结果是医生能看更多病人，对放射科医生的需求反而增加了大约 20% [16:42]；律师助理的需求也增加了约 10% [17:08]。至于能黑进银行的网络安全智能体，他觉得人们大可不必惊讶——既然 AI 能写代码、调漏洞，它理所当然就能被用来找系统漏洞。应对之道不是封锁，而是用更好的开放模型去防御 [18:03]。他甚至认为，真正可怕的不是 AI 毁灭工作，而是「某个使用 AI 的人会夺走不用 AI 的人的工作」 [23:35]。因此，美国的当务之急是放下科幻式的恐慌，以极大的热情在各行各业普及这项技术。\n\n最后，话题回到了这位掌舵人自己的人生哲学。\n\n主持人问他，作为市值最高的公司之一，NVIDIA 只有约 5 万名员工，十年后也可能「只有」7.5 万人，为什么不扩张到几十万人？黄仁勋的回答体现了他的经营哲学：战略的本质，就是用极其有限的资源去实现未来的愿景，把每一分钱的回报率最大化 [59:08]。对于员工个人，他给出了非常清醒的建议：不要把你的「工作」等同于某个具体的「任务」。比如放射科医生的任务是看扫描图，但工作是终结人类的病痛；如果任务被自动化了，你的工作目的并没有消失 [61:11]。现在的程序员每天坐在键盘前敲字，未来可能就不需要打字了，但解决问题、创造价值的本质依然不变。这就是他所说的「痛苦和磨难造就伟大」——一遍遍在没人的角落练习、经历挫折，才能让你在极高压力下依然稳如泰山 [65:45]。\n\n## 本集带走\n\n最后收个尾，这一集值得带走的是三句话。第一，开放与封闭不是你死我活的对手，开放模型是敲开全社会 AI 大门的敲门砖，它越繁荣，头部的闭源模型反而越能赚到钱，因为用惯了免费 AI 的人，最终会愿意为了省心和高品质去付费。第二，千万别被 AI 毁灭论和失业恐慌带偏了节奏，AI 自动化的是具体任务，而不是工作本身，任务被接管后，人的目的（比如治病救人、创造价值）反而能辐射得更广。第三，现在喊 AI 泡沫还太早，因为我们正在建的不是某个季节性的热门应用，而是人类全新的智能基础设施层，连最基本的芯片和电力都不够用，离泡沫破裂还远得很。",
+  "quotes": [
+    {
+      "en": "We should use closed models as much as we can, rent everything we can.",
+      "zh": "我们应该尽可能多地使用封闭模型，尽可能租用一切。",
+      "timestamp": "02:40",
+      "speaker": "Jensen Wong"
+    },
+    {
+      "en": "I would also argue that for a lot of people and for a lot of companies, even if the model is free, it'll still cost you more.",
+      "zh": "我还想论证的是，对于很多人和很多公司来说，即使模型是免费的，它仍然会让你花费更多。",
+      "timestamp": "12:00",
+      "speaker": "Jensen Wong"
+    },
+    {
+      "en": "Nobody should outsource their alpha. Nobody should outsource their intelligence.",
+      "zh": "没有人应该外包他们的 alpha。没有人应该外包他们的智能。",
+      "timestamp": "13:44",
+      "speaker": "Jensen Wong"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "The Chinese market, the Chinese industry creates some really great AI models and AI technology.",
+      "zh": "中国市场，中国产业创造了一些真正优秀的 AI 模型和 AI 技术。",
+      "timestamp": "00:48",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "We should use closed models as much as we can, rent everything we can.",
+      "zh": "我们应该尽可能多地使用封闭模型，尽可能租用一切。",
+      "timestamp": "02:40",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "However, the industry still needs open models.",
+      "zh": "然而，行业仍然需要开放模型。",
+      "timestamp": "02:47",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "cybersecurity with the benefit of transparency, the ability for the entire community to inspect and test to make sure that we harden it in the best possible way, it's best for cybersecurity.",
+      "zh": "网络安全得益于透明度，整个社区进行检查和测试以确保我们以最佳方式加固它的能力，这对网络安全是最好的。",
+      "timestamp": "03:09",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "Should American companies be allowed to use Chinese AI models?",
+      "zh": "美国公司应该被允许使用中国 AI 模型吗？",
+      "timestamp": "03:36",
+      "speaker": "Mike Allen"
+    },
+    {
+      "en": "Absolutely.",
+      "zh": "绝对应该。",
+      "timestamp": "03:41",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "There's a misconception that somehow there are backdoors that is somehow connected to China in some way.",
+      "zh": "有一种误解，认为以某种方式存在后门，并以某种方式与中国相关联。",
+      "timestamp": "03:45",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "You download the models. You could fine-tune it.",
+      "zh": "你下载这些模型。你可以微调它。",
+      "timestamp": "03:52",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "You can guardrail it as you desire.",
+      "zh": "你可以按照你的意愿为它加装护栏。",
+      "timestamp": "03:57",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "they operate within what is called a harness. And that harness sits within what is called essentially a sandbox.",
+      "zh": "它们在所谓的工具束中运行。而该工具束位于所谓的本质上沙箱之中。",
+      "timestamp": "04:03",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "Well, we should start with the fact that our China sales is approximately zero today.",
+      "zh": "嗯，我们应该从这一事实开始，即我们目前在中国的销售额大约为零。",
+      "timestamp": "06:05",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "Starting point is great models lead to great use, which leads to great growth.",
+      "zh": "起点是伟大的模型带来伟大的使用，从而带来巨大的增长。",
+      "timestamp": "07:43",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "The most likely person to upgrade to a great model like Anthropic and OpenAI is someone who already uses AI.",
+      "zh": "最有可能升级到像 Anthropic 和 OpenAI 这样伟大的模型的人，是那些已经在使用 AI 的人。",
+      "timestamp": "08:07",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "I would also argue that for a lot of people and for a lot of companies, even if the model is free, it'll still cost you more.",
+      "zh": "我还想论证的是，对于很多人和很多公司来说，即使模型是免费的，它仍然会让你花费更多。",
+      "timestamp": "12:00",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "Nobody should outsource their alpha. Nobody should outsource their intelligence.",
+      "zh": "没有人应该外包他们的 alpha。没有人应该外包他们的智能。",
+      "timestamp": "13:44",
+      "speaker": "Jensen Huang"
+    },
+    {
+      "en": "It's important for cybersecurity. It's important for national security.",
+      "zh": "这对网络安全很重要。这对国家安全很重要。",
+      "timestamp": "02:53",
+      "speaker": "Jensen Huang"
+    }
+  ]
+}

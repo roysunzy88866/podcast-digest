@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Amjad Masad":1,"Stripe":6,"Replit":3,"Magic School":1,"OpenAI":19,"智能体":40,"垂直 SaaS":1,"护城河":3}</script>
+<script type="application/json" class="pd-epn">{"Amjad Masad":1,"Stripe":7,"Replit":4,"Magic School":1,"OpenAI":21,"智能体":42,"垂直 SaaS":1,"护城河":3}</script>
 
 <script>
 (function(){

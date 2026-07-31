@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sam Altman]] [[Ben Horowitz]] [[Sriram Krishnan]] [[Ranjan Roy]] [[Alex]] [[Zico Kolter]]
+[[Sam Altman]] [[Ben Horowitz]] [[Sriram Krishnan]] [[Ranjan Roy]] [[Alex]] [[Jensen Wong]] [[Mike Allen]] [[Zico Kolter]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Zico Kolter":1,"Gray Swan":1,"Snowflake":2,"Anthropic":23,"智能体":40,"红队测试":2,"提示词注入":3,"越狱":1,"护栏":7,"沙箱":7}</script>
+<script type="application/json" class="pd-epn">{"Zico Kolter":1,"Gray Swan":1,"Snowflake":2,"Anthropic":25,"智能体":42,"红队测试":2,"提示词注入":3,"越狱":1,"护栏":8,"沙箱":8}</script>
 
 <script>
 (function(){

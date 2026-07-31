@@ -53,7 +53,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Anthropic]] · [[Codex]] · [[Slack]] · [[OpenClaw]] · [[Meta]] · [[Claude]] · [[评估]] · [[mcp]]
 
-<script type="application/json" class="pd-epn">{"智能体":40,"Lenny":32,"Anthropic":23,"Codex":11,"Slack":9,"OpenClaw":5,"Meta":7,"Claude":8,"评估":3,"mcp":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":42,"Lenny":32,"Anthropic":25,"Codex":11,"Slack":9,"OpenClaw":5,"Meta":7,"Claude":8,"评估":3,"mcp":4}</script>
 
 <script>
 (function(){

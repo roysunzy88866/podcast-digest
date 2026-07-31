@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"生成式媒体":1,"微剧":1,"智能体":40,"创作者经济":1,"Town":1,"Netflix":2,"OpenAI":19,"Anthropic":23,"Google":9}</script>
+<script type="application/json" class="pd-epn">{"生成式媒体":1,"微剧":1,"智能体":42,"创作者经济":1,"Town":1,"Netflix":2,"OpenAI":21,"Anthropic":25,"Google":9}</script>
 
 <script>
 (function(){

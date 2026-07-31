@@ -29,7 +29,7 @@ unlisted: true
 
 [[OpenAI]] · [[Theo Jaffe]] · [[Sofia Puccini]] · [[蒸馏]] · [[智能体]] · [[Anthropic]] · [[Sriram Krishnan]] · [[Ben Horowitz]] · [[Sam Altman]] · [[开源权重]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":19,"Theo Jaffe":2,"Sofia Puccini":2,"蒸馏":3,"智能体":40,"Anthropic":23,"Sriram Krishnan":1,"Ben Horowitz":1,"Sam Altman":1,"开源权重":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":21,"Theo Jaffe":2,"Sofia Puccini":2,"蒸馏":3,"智能体":42,"Anthropic":25,"Sriram Krishnan":1,"Ben Horowitz":1,"Sam Altman":1,"开源权重":1}</script>
 
 <script>
 (function(){

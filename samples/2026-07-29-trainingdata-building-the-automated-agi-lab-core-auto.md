@@ -135,7 +135,7 @@ tags:
 
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
 - [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
-- [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]] —— 同公司:OpenAI · 同概念:AGI
+- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]] —— 同公司:Anthropic、OpenAI
 
 </div>
 <div class="pd-ex">

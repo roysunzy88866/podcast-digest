@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Boris Cherny]] [[Garry Tan]] [[Alex Finn]] [[Aakash Gupta]] [[Jyothi Nookula]] [[Meng To]] [[Peter Steinberger]] [[Romain Huet]] [[Theo Browne]] [[Andrew Ambrosino]]
+[[Boris Cherny]] [[Garry Tan]] [[Alex Finn]] [[Aakash Gupta]] [[Jyothi Nookula]] [[Meng To]] [[Michele Catasta]] [[Peter Steinberger]] [[Romain Huet]] [[Theo Browne]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vo":2,"Gusto":1,"联合创始人":2,"vibe coding":5,"永久 Zoom":1,"智能体":40,"垃圾桶法":1,"Cloudflare Worker":1,"Vercel AI SDK":1,"Claude Code":12}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":2,"Gusto":1,"联合创始人":2,"vibe coding":6,"永久 Zoom":1,"智能体":42,"垃圾桶法":1,"Cloudflare Worker":1,"Vercel AI SDK":1,"Claude Code":12}</script>
 
 <script>
 (function(){

@@ -139,9 +139,9 @@ Sam 说,他刚进 YC 第一批的时候,创业一点都不酷。Paul Graham 每�
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]] —— 同公司:OpenAI · 同概念:沙箱 (sandbox)
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]] —— 同公司:OpenAI · 同概念:AGI
 - [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构]] —— 同公司:OpenAI · 同概念:AGI
-- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]] —— 同公司:OpenAI、Stripe
 
 </div>
 <div class="pd-ex">

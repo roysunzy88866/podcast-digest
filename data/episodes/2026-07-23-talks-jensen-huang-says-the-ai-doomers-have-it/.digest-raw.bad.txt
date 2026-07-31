@@ -1,0 +1,129 @@
+```json
+{
+  "title_zh": "黄仁勋专访:中国开源模型对行业是好事,AI泡沫五年内不会来",
+  "tldr": "NVIDIA CEO回应中国AI威胁论、唱衰论和末日论,力挺开源。",
+  "digest_md": "NVIDIA 在中国的销售额「大约为零」,CEO 黄仁勋却公开说,美国公司绝对应该被允许使用中国 AI 模型。说这话的背景是,中国接连推出了震动市场的开源模型,引发了从华尔街到华盛顿的恐慌,而黄仁勋不仅不担心,还嫌大家反应过度。\n\n这一集在德州沃斯堡的访谈里,他讲了三件事:为什么中国开源模型不仅不威胁美国,反而是整个 AI 行业的好消息;为什么他认为 AI 会创造工作而非消灭工作,整天渲染末日论是在吓唬人;以及为什么在别人担心 AI 投资泡沫时,他认为算力基础设施远远不够。最后他还回答了一个人生问题:为什么 CEO 这门手艺需要大量的痛苦和磨难。\n\n## 中国不是威胁,开源是 AI 扩散的基础\n\n开场先聊的是当时最热的新闻:中国监管机构可能在收紧对 AI 模型和半导体的出口管制。黄仁勋的态度很明确:他希望这别发生。他的理由不是单纯的市场利益,而是人才分布——他指出,世界上有一半的 AI 研究人员是中国人 [00:54],他们产出了很多开创性的研究。在这个前提下,他呼吁各方缓和局势,让技术继续进步,并表达了对美国公司继续保持领先能力的完全自信 [02:06]。\n\n顺着「中国」这个话题,主持人追问了一个直接刺向利益冲突的问题:你的股价依赖对中国的销售,凭什么让大家信你?黄仁勋抛出了一个让很多人意外的事实:他们目前在中国的销售额「大约为零」,而且他已经告诉所有投资者不要指望中国市场 [06:05]。\n\n紧接着聊到更核心的争议:美国政府该不该禁止或限制 Kimi(转写稿如此拼写)等中国模型?黄仁勋连说了两个「绝对不应该」。他的逻辑是:世界既需要闭源模型(如 Anthropic 和 OpenAI,好用、方便),也必须要有开源模型。科学需要它,网络安全需要它,国家和经济安全都需要它 [02:47]。因为开源带来了透明度,整个社区都可以去检查、测试和加固它。\n\n主持人提了一个常见的担忧:中国模型会不会有后门?黄仁勋用很直白的技术常识化解了这个恐慌。他解释说,模型不是孤立运行的,它在一个叫「工具束(harness,把模型变成能干活儿的智能体的外壳)」里运行,而这个工具束又被放在一个安全的「沙箱(一种隔离的安全运行环境)」里,有访问控制和隐私保护 [04:03]。你可以下载模型、微调它、甚至按自己的意愿给它加护栏。所以不存在所谓的后门风险。\n\n那么,既然开源模型(不管是中国的还是美国的)能更便宜地生产 token(智能的基本单元),闭源实验室(如 OpenAI)的经济效益会不会受冲击?黄仁勋判断完全不会,甚至用了「极好」来形容。他的论点很有意思:免费或便宜的开源模型最大的作用,是降低尝试门槛,让更多人开始用 AI;而人一旦用上了 AI,就会想要更好、更方便的服务,最终反而会流向 OpenAI 这些闭源巨头 [07:49]。他把这比作云服务:你可以自己搭,但太麻烦,最后还是花钱买现成的最省事 [11:39]。\n\n## 市场搞错了:开源带来的不是危机是增长\n\n说完了开源对闭源巨头的补充关系,接下来是他怎么看待这波中国模型引发的股市震荡的。\n\n黄仁勋认为,市场从根本上误解了开源模型的影响。此前 DeepSeek(另一个中国模型)发布时,NVIDIA 股价跌了约 30%;这次 Kimi 发布,芯片股又在一个月里跌了 18% [27:37]。但在他看来,这完全是搞反了。逻辑很简单:开源模型越优秀,用 AI 的人就越多;用的人越多,就需要建更多数据中心、买更多 NVIDIA 的电脑 [07:25]。这是一个起点是「伟大模型带来伟大使用,从而带来巨大增长」的正向循环 [07:43]。\n\n他特别强调,不要把开源和闭源看作对立面。最有可能去购买像 Anthropic 和 OpenAI 这种高级闭源服务的人,正是那些已经通过开源模型尝过 AI 甜头的人 [08:07]。\n\n这就引出了 NVIDIA 自己的定位。他们有自己的开源模型 Nemotron。黄仁勋说,造这个模型不是要去争当最前沿,而是为了服务那些出于主权、监管或知识产权原因,必须自己掌控 AI 的公司(比如网络安全或金融公司) [09:03]。他还给普通公司划了条界线:能用 OpenAI 和 Anthropic 就尽量用,只有当你必须掌控自己的智能时,才去自建 AI。他甚至把这上升到了国家层面:没有任何国家或公司应该外包自己的核心智能(alpha 或 IP),因为「没有人应该外包他们的智能」 [13:46]。\n\n## AI 不会消灭工作,真正该警惕的是吓唬人\n\n工具变了,人怎么办?这正是下一个话题,也是黄仁勋最想反驳的主流叙事。\n\n主持人提到现在很火的「AI 末日论」和失业恐慌。黄仁勋毫不客气地说,所谓 AI 将毁灭人类、或者毁掉美国一半的工作,「完全是胡说八道」 [24:40]。他用几个行业的实际数据来回击:世界上的放射科医生数量在大幅增加(他听说是增加了约 20%),因为 AI 自动化了看扫描图的「任务」,医生能看更多病人,导致需求大增 [16:42];律师助理数量也增加了约 10%,因为能处理的积压案件变多了 [17:08];而为了造 AI 数据中心,制造业岗位在过去几年也增加了约 50% [17:29]。\n\n他借此区分了一个核心概念:任务和工作。如果你的工作仅仅是某个机械化的任务(比如客服中心接电话),那很可能会被自动化淘汰;但如果你理解你的工作的「目的」,那这个目的不会因为任务被自动化而消失 [61:11]。放射科医生的任务是看片子,但目的是终结人类痛苦,后者需要人的协作和判断。他还拿打字做了个生动的比喻:今天 IT 从业者天天敲键盘,就像当年坐在打字机前一样;以后我们不敲键盘了,但「解决问题、创造价值」的工作目的并没有变 [61:50]。\n\n对于同行大佬们整天渲染 AI 威胁论,黄仁勋的批评相当尖锐。他觉得警告大家技术很厉害是一回事(这已经做到了),但编造科幻结局(比如 AI 产生意识、奇点降临)来吓唬人就太过了 [31:37]。他认为这种做法正在伤害美国,因为「AI 不会抢走你的工作,是那个会用 AI 的人会抢走你的工作」 [23:35]。他呼吁行业不要再制造焦虑叙事,而是要告诉大家 AI 正在创造数百万工作岗位的基本事实。\n\n## 投资不是泡沫,飞轮才刚刚开始\n\n既然黄仁勋认为市场对中国的反应搞错了,那大家对 AI 投资是不是泡沫的担忧,他怎么看?这是接下来的重头戏。\n\n主持人抛出质疑:客户们靠发债来买你的产品,这场盛宴什么时候停?黄仁勋非常笃定地说「不担心」,并指出 AI 行业已经到了一个拐点 [35:00]。这个拐点就是:AI 已经从「烧钱没回报」变成了「既有用又有利可图」。他举了编程智能体为例,像 NVIDIA 这样的公司很乐意每年花数亿美元买 AI 服务来增强编码能力,因为这让他们更有生产力、更有利可图,赚到的钱又能买更多 AI,形成了一个飞轮 [34:43]。\n\n关于泡沫,他承认每次工业扩张都会有泡沫,但现在绝不是时候。他判断,未来五年内出现泡沫的可能性极低 [36:31]。原因在于现在的瓶颈不是需求,而是物理限制:没有足够的芯片、内存、土地、电力,甚至没有足够的建筑工人去建数据中心 [37:05]。他认为整个半导体行业需要扩大到现在的 5 到 10 倍才能满足这种基础设施级的需求 [32:01]。\n\n这次访谈也谈到了他眼中的特朗普总统。黄仁勋称赞特朗普记忆力惊人,是唯一能记住 H20、H200、Blackwell 这些 NVIDIA 芯片型号的总统 [46:44]。他们正在访谈地沃斯堡的新工厂,就是源于和特朗普第一次关于恢复美国制造业的对话 [47:20]。但他也对当局可能出台的 AI 监管表示了担忧,他认为把 AI 竞争看作是「谁先冲过百米终点谁就永远赢」的零和博弈是「无稽之谈」 [48:30]。他呼吁政策制定者不要被科幻叙事吓到而做出膝跳反应,多去和 CEO、科学家聊聊 [51:46]。\n\n> 【背景】转写稿中出现了多处语音识别错误,如将 Kimi(月之暗面的大语言模型)听写为 Kimmy、将黄仁勋的英文名 Jensen Huang 听写为 Jensen Wong / Wan、将 Nemotron 听写为 Demotron、将 Anthropic 的安全测试模型听写为 quad mythos、将 Rubin(下一代芯片架构)听写为 Ruben。为保障阅读连贯,导读中已直接使用正确拼写。\n\n## CEO 的手艺:痛苦、磨难与战略克制\n\n说完了行业大势,最后聊的是他个人的管理哲学和人生经验。\n\n主持人问了一个很尖锐的问题:NVIDIA 是世界上最有价值的公司之一,但只有 50,000 名员工,而你说十年后可能也就 75,000 名,你是怎么做到这么克制的?黄仁勋回答得很干脆:CEO 的基本工作就是用有限的资源去实现愿景,要讲究战略,把资源精准地投到回报最高的地方 [59:08]。他把做 CEO 称为自己的「手艺」和「功夫」。\n\n主持人接着问他那句名言——「伟大的关键是大量的痛苦和磨难」——到底是什么痛苦造就了他。黄仁勋说,没有什么具体的某件事,而是像伟大运动员一样,是在没人看见的地方大量练习、经历挫折和失败 [65:45]。这种磨难提升了品格、韧性和自信,让他在压力最大的时候感觉时间变慢,能从容应对 [66:30]。\n\n访谈在一个轻松的话题中结束:为什么不戴手表?黄仁勋说,因为「现在是最重要的时刻」。他拒绝让日历或手表支配生活,宁愿百分之百地投入当下 [68:51]。而他完美的周六其实也很工作:早起遛狗,工作到午餐,下午接着工作到晚餐,然后和过来探望的孩子们一起做饭、喝鸡尾酒 [69:21]。这就是一个全球最有价值公司 CEO 的日常。\n\n## 本集带走\n\n最后收个尾,这一集值得带走的是几个核心判断。第一,对于中国 AI 的崛起和开源模型的爆发,不用恐慌也不该封锁,因为好的开源模型会让更多人用上 AI,最终带动整个算力基础设施的扩张,这对 NVIDIA 和闭源巨头都是好事。第二,AI 消灭工作的叙事是错的,真正会被淘汰的是那些仅仅是机械化「任务」的岗位;只要认清你工作的「目的」,AI 反而在增加像医生、律师助理和制造业这样的岗位。第三,不要被末日论和科幻叙事绑架,政策制定者应该基于事实去监管应用,而不是因为恐惧去限制技术本身的发展。第四,现在远没到 AI 投资泡沫的时候,真正的瓶颈是芯片、电力和建设能力的物理短缺,而编程智能体已经跑通了「有用即有利可图」的飞轮。最后,黄仁勋的管理哲学是:CEO 的手艺是在痛苦和磨难中练就的,核心是用最克制的资源去撬动最大的战略影响,把时间百分之百留给当下最重要的事。",
+  "quotes": [
+    {
+      "en": "I've said before that half of the world's AI researchers are Chinese.",
+      "zh": "我以前说过,世界上有一半的 AI 研究人员是中国人。",
+      "timestamp": "00:54",
+      "speaker": "黄仁勋"
+    },
+    {
+      "en": "And so these models don't just operate. They operate within what is called a harness.",
+      "zh": "所以这些模型不仅仅是单独运行。它们在所谓的工具束中运行。",
+      "timestamp": "04:03",
+      "speaker": "黄仁勋"
+    },
+    {
+      "en": "You should regulate how AI is used in autonomous vehicles. And so all these different applications of AI should be regulated. However, the technology itself ought to be able to advance as quickly as possible.",
+      "zh": "你应该监管 AI 在自动驾驶车辆中的使用方式。因此所有这些不同的 AI 应用都应该受到监管。然而,技术本身应该能够尽可能快地发展。",
+      "timestamp": "05:09",
+      "speaker": "黄仁勋"
+    },
+    {
+      "en": "Well, we should start with the fact that our China sales is approximately zero today.",
+      "zh": "嗯,我们应该从这一事实开始,即我们目前在中国的销售额大约为零。",
+      "timestamp": "06:05",
+      "speaker": "黄仁勋"
+    },
+    {
+      "en": "Starting point is great models lead to great use, which leads to great growth.",
+      "zh": "起点是伟大的模型带来伟大的使用,从而带来巨大的增长。",
+      "timestamp": "07:43",
+      "speaker": "黄仁勋"
+    },
+    {
+      "en": "I would also argue that for a lot of people and for a lot of companies, even if the model is free, it'll still cost you more. to operate it yourself.",
+      "zh": "我还想论证的是,对于很多人和很多公司来说,即使模型是免费的,它仍然会让你花费更多。自己去运营它。",
+      "timestamp": "12:00",
+      "speaker": "黄仁勋"
+    },
+    {
+      "en": "Nobody should outsource their alpha. Nobody should outsource their intelligence.",
+      "zh": "没有人应该外包他们的 alpha。没有人应该外包他们的智能。",
+      "timestamp": "13:46",
+      "speaker": "黄仁勋"
+    },
+    {
+      "en": "And so the fact that this is going to be the end of humanity, it's complete nonsense. The fact that this is going to destroy half of the American jobs is complete nonsense.",
+      "zh": "因此,这将是人类终结的说法,完全是胡说八道。这将毁掉美国一半的工作的说法,完全是胡说八道。",
+      "timestamp": "24:40",
+      "speaker": "黄仁勋"
+    },
+    {
+      "en": "AI is not going to destroy all of our jobs someone who uses ai is going to take our jobs",
+      "zh": "AI 不会毁掉我们的所有工作,某个使用 AI 的人将会夺走我们的工作。",
+      "timestamp": "23:35",
+      "speaker": "黄仁勋"
+    },
+    {
+      "en": "These two companies will be the most successful IPOs in human history.",
+      "zh": "这两家公司将是人类历史上最成功的 IPO。",
+      "timestamp": "26:22",
+      "speaker": "黄仁勋"
+    },
+    {
+      "en": "Well, it's impossible that AI has peaked because the diffusion of AI into society and into industry has barely begun.",
+      "zh": "嗯,AI 不可能见顶,因为 AI 向社会和行业的渗透才刚刚开始。",
+      "timestamp": "29:11",
+      "speaker": "黄仁勋"
+    },
+    {
+      "en": "I believe we probably need our semiconductor industry to be somewhere between, you know, five to 10 times larger than it is.",
+      "zh": "我相信我们可能需要我们的半导体行业达到现在的 5 到 10 倍。",
+      "timestamp": "32:01",
+      "speaker": "黄仁勋"
+    },
+    {
+      "en": "We need to put open models in the hands of cybersecurity experts all over the world so that they could, one, defend themselves, so that they could look for vulnerability,",
+      "zh": "我们需要将开放模型交到世界各地网络安全专家的手中,以便他们能够,第一,保护自己,以便他们寻找漏洞,",
+      "timestamp": "18:52",
+      "speaker": "黄仁勋"
+    },
+    {
+      "en": "An inflection point, if you will, where we now have profitable AI because we have useful AI.",
+      "zh": "一个拐点,如果你愿意这么说,我们现在有了有利可图的 AI,因为我们有了有用的 AI。",
+      "timestamp": "35:00",
+      "speaker": "黄仁勋"
+    },
+    {
+      "en": "The ultimate win is when society uses it. The ultimate win is when industry uses it. It has nothing to do with who invents it.",
+      "zh": "最终的赢是当社会使用它时。最终的赢是当工业使用它时。这与谁发明了它毫无关系。",
+      "timestamp": "49:35",
+      "speaker": "黄仁勋"
+    },
+    {
+      "en": "if your job is the task, then it's very likely that when that task is automated, your job will be eliminated or changed.",
+      "zh": "如果你的工作就是该任务,那么当该任务被自动化时,你的工作很可能会被淘汰或改变。",
+      "timestamp": "20:27",
+      "speaker": "黄仁勋"
+    },
+    {
+      "en": "The Chat GPT moment of robots has already arrived.",
+      "zh": "机器人的 ChatGPT 时刻已经到来了。",
+      "timestamp": "13:12",
+      "speaker": "黄仁勋"
+    },
+    {
+      "en": "Because now is the most important time.",
+      "zh": "因为现在是最重要的时刻。",
+      "timestamp": "08:54",
+      "speaker": "黄仁勋"
+    },
+    {
+      "en": "It's the greatest country in the world because of all those great challenges, because of all those disagreements, we somehow managed to work it through.",
+      "zh": "它是世界上最伟大的国家,正是因为所有那些巨大的挑战,正是因为所有那些分歧,我们设法度过了难关。",
+      "timestamp": "27:25",
+      "speaker": "黄仁勋"
+    },
+    {
+      "en": "I refuse to let Outlook manage my life, and I refuse to let a watch manage my life.",
+      "zh": "我拒绝让 Outlook 管理我的生活,我也拒绝让手表管理我的生活。",
+      "timestamp": "09:01",
+      "speaker": "黄仁勋"
+    }
+  ]
+}
+```
