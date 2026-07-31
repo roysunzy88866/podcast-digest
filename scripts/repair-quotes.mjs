@@ -14,6 +14,12 @@ const DIR = process.argv[2] || "data/episodes/2026-07-08-latent-space-modal";
 const MIN_KEEP = 3; // 下限(非目标数)。宁缺毋滥(用户 2026-07-17);4→3 [standard-change: 用户授权 2026-07-24] 与 judge-quotes 同口径(ASR 源实证)
 const MAX_TRIM = 1; // 前后各最多裁剪几个词(只救 GLM 边界多加的单个词如 "it's";多词偏差宁丢不救,依 GLM 20260717-008 [1][2])
 const SPEAKER_FRAC = 0.8;
+// 短句口径:<MIN_UNIQUE 词的候选也参与匹配,但必须**全文唯一命中**才接受。
+// 原「<6 词一律不匹配」的意图是防常见短语在转写稿多处误命中、锚出错误时间戳/说话人——
+// 唯一命中要求原样保住这个意图,同时不再错杀逐字为真的短句(实锤:5 词原话被谎报「命中不了」而丢)。
+// ≥MIN_UNIQUE 词多处命中仍按「离 GLM 时间戳最近」挑,行为不变。
+// [standard-change: 用户授权 2026-07-31]
+const MIN_UNIQUE = 6;
 
 const transcript = JSON.parse(readFileSync(resolve(ROOT, DIR, "transcript.en.json"), "utf8"));
 const meta = JSON.parse(readFileSync(resolve(ROOT, DIR, "meta.json"), "utf8"));
@@ -26,17 +32,23 @@ const mmss = (s) => `${String(Math.floor(s / 60)).padStart(2, "0")}:${String(Mat
 function matchWithTrim(enText) {
   const words = enText.trim().split(/\s+/);
   const cands = [];
+  let shortAmbiguous = null; // 短句命中了、但多处 → 锚点有歧义;记下真实原因,不再谎报「命中不了」
   for (let lead = 0; lead <= MAX_TRIM; lead++) {
     for (let trail = 0; trail <= MAX_TRIM; trail++) {
       const sub = words.slice(lead, words.length - trail);
-      if (sub.length < 6) continue;
+      if (!sub.length) continue;
       const text = sub.join(" ");
       const qn = norm(text);
       const spans = findAllSpans(qn, stream);
-      if (spans.length) cands.push({ text, spans, trim: lead + trail, len: sub.length });
+      if (!spans.length) continue;
+      if (sub.length < MIN_UNIQUE && spans.length > 1) {
+        shortAmbiguous = { len: sub.length, hits: spans.length };
+        continue; // 短句多处命中 → 不猜哪处是原话出处(守住原 6 词守卫的防误匹配意图)
+      }
+      cands.push({ text, spans, trim: lead + trail, len: sub.length });
     }
   }
-  if (!cands.length) return null;
+  if (!cands.length) return shortAmbiguous ? { shortAmbiguous } : null;
   // 优先裁得最少,其次留得最长
   cands.sort((a, b) => a.trim - b.trim || b.len - a.len);
   return cands[0];
@@ -47,8 +59,11 @@ const fixed = [];
 for (const [i, q] of (digest.quotes || []).entries()) {
   const en0 = (q.en ?? q.text ?? "").trim();
   const m = matchWithTrim(en0);
-  if (!m) {
-    report.dropped.push({ i: i + 1, reason: "逐字命中不了(裁剪后仍无)", en: en0 });
+  if (!m || m.shortAmbiguous) {
+    const reason = m?.shortAmbiguous
+      ? `短句(${m.shortAmbiguous.len}词<${MIN_UNIQUE})在转写稿命中 ${m.shortAmbiguous.hits} 处,无法唯一锚定时间戳/说话人,不猜`
+      : "逐字命中不了转写稿(裁剪后仍无)";
+    report.dropped.push({ i: i + 1, reason, en: en0 });
     continue;
   }
   // 多处出现 → 选离 GLM 标注时间戳最近的一处
