@@ -9,6 +9,7 @@ import {
   findTitleDuplicate,
   talkItemFromSeed,
   selectTalks,
+  resolveTalksCap,
   deriveId,
   sourceForId,
   pendingTalkVideoIds,
@@ -152,5 +153,73 @@ describe("selectTalks(选种 + 三层去重)", () => {
     // link 是 YouTube watch URL(slugFromLink 抠不出),且无 feed item 字段——仍应被选中
     const { picks } = selectTalks([seed()], base);
     expect(picks).toHaveLength(1);
+  });
+});
+
+// 2026-07-31 调度员保险丝(drift #36 口径):C17 巡航首轮可能一次落几十条种子,
+// 每条 whisperX 20-100 分钟,全塞一班必撞 GitHub runner 6h 上限 → 每班限流,超出的原样留后班。
+describe("selectTalks 每班限流保险丝(默认 3,防撞 runner 6h)", () => {
+  const base = { existingIds: [], videoLedger: {}, libraryTitles: [], source: TALKS };
+  const many = (n: number) =>
+    Array.from({ length: n }, (_, i) =>
+      seed({
+        videoId: `vid-${String(i).padStart(3, "0")}`,
+        title: `Completely distinct talk number ${i} about topic ${i}`,
+        upload_date: `2026-07-${String(i + 1).padStart(2, "0")}`,
+        url: `https://www.youtube.com/watch?v=vid-${String(i).padStart(3, "0")}`,
+      }),
+    );
+
+  it("超上限:本班只吃 cap 条(最旧优先),其余进 deferred 原样留后班", () => {
+    const { picks, deferred } = selectTalks(many(5), { ...base, cap: 3 });
+    expect(picks.map((p) => p.videoId)).toEqual(["vid-000", "vid-001", "vid-002"]);
+    expect(deferred.map((d) => d.videoId)).toEqual(["vid-003", "vid-004"]);
+  });
+
+  it("不传 cap 也有保险丝:默认值 3 写死在代码里", () => {
+    const { picks, deferred } = selectTalks(many(5), base);
+    expect(picks).toHaveLength(3);
+    expect(deferred).toHaveLength(2);
+  });
+
+  it("未超上限:全吃,deferred 为空(既有小批行为不变)", () => {
+    const { picks, deferred } = selectTalks(many(2), base);
+    expect(picks).toHaveLength(2);
+    expect(deferred).toEqual([]);
+  });
+
+  it("TALKS_BATCH_CAP 环境变量可覆写默认(workflow 输入走它)", () => {
+    process.env.TALKS_BATCH_CAP = "5";
+    try {
+      const { picks, deferred } = selectTalks(many(5), base);
+      expect(picks).toHaveLength(5);
+      expect(deferred).toEqual([]);
+    } finally {
+      delete process.env.TALKS_BATCH_CAP;
+    }
+  });
+
+  it("同日种子顺序确定:同 upload_date 按 videoId 排,与读入顺序无关", () => {
+    const a = seed({ videoId: "aaa-same-day", title: "Alpha talk on determinism only", url: "https://www.youtube.com/watch?v=aaa-same-day" });
+    const b = seed({ videoId: "bbb-same-day", title: "Beta talk on ordering guarantees", url: "https://www.youtube.com/watch?v=bbb-same-day" });
+    const fwd = selectTalks([a, b], { ...base, cap: 1 });
+    const rev = selectTalks([b, a], { ...base, cap: 1 });
+    expect(fwd.picks.map((p) => p.videoId)).toEqual(rev.picks.map((p) => p.videoId));
+    expect(fwd.deferred.map((d) => d.videoId)).toEqual(rev.deferred.map((d) => d.videoId));
+    expect(fwd.picks[0].videoId).toBe("aaa-same-day");
+  });
+
+  it("resolveTalksCap:空/未设→默认 3;正整数→取值;非法(0/负/非数字)响亮抛", () => {
+    expect(resolveTalksCap(undefined)).toBe(3);
+    expect(resolveTalksCap("")).toBe(3);
+    expect(resolveTalksCap("7")).toBe(7);
+    expect(() => resolveTalksCap("0")).toThrow();
+    expect(() => resolveTalksCap("-2")).toThrow();
+    expect(() => resolveTalksCap("abc")).toThrow();
+    expect(() => resolveTalksCap("2.5")).toThrow();
+    // 只认十进制数字串,与 workflow shell 校验同口径(GLM 20260731-009[3]:Number() 会放行这些)
+    expect(() => resolveTalksCap("1e2")).toThrow();
+    expect(() => resolveTalksCap("0x10")).toThrow();
+    expect(() => resolveTalksCap("08")).toThrow();
   });
 });

@@ -38,6 +38,10 @@ on:
         description: "true=演讲精选批次(C16/ADR 0017):只处理 data/talks-seed 种子。C17/ADR 0018.5 起 cron 例行班次发现待处理种子会自动带上 talks 源,此入口保留给人工圈选批次/立即补跑"
         required: false
         default: "false"
+      talks_cap:
+        description: "每班演讲种子上限覆写(2026-07-31 保险丝:默认 3 写死在代码里,防几十条种子挤一班撞 runner 6h 上限;人工批次想多吃在这里显式调大,超出的种子留后班)"
+        required: false
+        default: ""
 
 permissions:
   contents: write           # 处理完把新集 data/ + pipeline-state.json commit 回仓(去重状态持久化)
@@ -97,6 +101,8 @@ jobs:
           ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
           ASSEMBLYAI_API_KEY: ${{ secrets.ASSEMBLYAI_API_KEY }}
           HF_TOKEN: ${{ secrets.HF_TOKEN }}   # C9:whisperX pyannote 分离要(a16z ASR 路线)
+          # 2026-07-31 保险丝:每班演讲种子上限覆写(空=用代码写死的默认 3)。cron 与人工 talks 批次同受限。
+          TALKS_BATCH_CAP: ${{ github.event.inputs.talks_cap || '' }}
         run: |
           # 手动触发可传 backfill=N 回填最近 N 集(评估批);cron/默认走正常「只向前看」
           BACKFILL="${{ github.event.inputs.backfill || '0' }}"
@@ -109,6 +115,10 @@ jobs:
           # C9:source 只许简单 slug(照 backfill 校验先例);编排器还会核对 SOURCES 名单
           if [ -n "$SOURCE" ] && ! echo "$SOURCE" | grep -qE '^[a-z0-9]+$'; then
             echo "::error::source 输入非法(需小写字母数字 slug):'$SOURCE'"; exit 1
+          fi
+          # 2026-07-31 保险丝:talks_cap 覆写需正整数(照 backfill 校验先例;代码里 resolveTalksCap 还会兜一道)
+          if [ -n "$TALKS_BATCH_CAP" ] && ! echo "$TALKS_BATCH_CAP" | grep -qE '^[1-9][0-9]*$'; then
+            echo "::error::talks_cap 输入非法(需正整数):'$TALKS_BATCH_CAP'"; exit 1
           fi
           SRC_ARGS=""
           [ -n "$SOURCE" ] && SRC_ARGS="--source $SOURCE"

@@ -1873,6 +1873,16 @@ Scenario: cron 例行班次自动接管种子(对 C16「cron 零影响」的授�
   Then talks 源自动进场,与播客源同轮处理(去重/闸门/隔离一分不降)
   And 无待处理种子时 cron 与从前一字不差(talks 不进场)
   And workflow 手动 talks=true 入口保留(人工圈选批次/补跑用)
+
+# 2026-07-31 调度员保险丝(drift #36 口径):巡航首轮积压几十条种子会挤爆一班(每条 whisperX
+# 20-100 分钟,撞 GitHub runner 6h 上限、run 被杀留半成品)→ 每班种子限流。
+Scenario: 每班种子限流保险丝(默认 3,超出留后班)
+  Given 待处理种子多于每班上限(默认 3,写死在代码里当保险丝)
+  When talks 源本班选种(cron autoTalks 与人工 talks=true 同样受限)
+  Then 只吃上限条数,按 upload_date 旧→新(同日按 videoId)确定性选取
+  And 超出的种子原样留在种子区、不记账,下一班 autoTalks 自动再进场接着吃
+  And 响亮日志报数:「本班吃 N 条,还剩 M 条留后班」
+  And 上限可用 TALKS_BATCH_CAP 环境变量 / workflow 输入 talks_cap 显式覆写(需正整数,非法响亮拒)
 ```
 
 ### DoD(C17)
