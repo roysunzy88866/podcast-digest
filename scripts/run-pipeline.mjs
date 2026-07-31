@@ -230,15 +230,32 @@ export function talkItemFromSeed(seed) {
   };
 }
 
+// 2026-07-31 调度员保险丝(drift #36 口径):每班次演讲种子上限。C17 巡航首轮可能一次落几十条
+// 种子,每条 whisperX 转写 20-100 分钟,全塞一班必撞 GitHub runner 6h 上限、run 被杀留一堆半成品。
+// 默认写死 3 当保险丝;TALKS_BATCH_CAP 环境变量(workflow talks_cap 输入喂进来)可显式覆写。
+const TALKS_BATCH_CAP_DEFAULT = 3;
+
+/**
+ * 解析每班种子上限:空/未设 → 默认 3;正整数 → 取值;非法响亮抛(不静默降级,照 backfill 口径)。
+ * 只认十进制数字串(与 workflow shell 校验 ^[1-9][0-9]*$ 同一口径;Number() 会放行 1e2/0x10,GLM 20260731-009[3])。
+ */
+export function resolveTalksCap(raw) {
+  if (raw === undefined || raw === null || String(raw).trim() === "") return TALKS_BATCH_CAP_DEFAULT;
+  if (!/^[1-9][0-9]*$/.test(String(raw).trim())) throw new Error(`TALKS_BATCH_CAP 非法(需正整数):「${raw}」`);
+  return Number(String(raw).trim());
+}
+
 /**
  * 选种(演讲不是访谈,不套 isInterview;无 cutoff——种子存在即待处理,终态靠账本):
  *   第 1 层 videoId 账本(videoLedger:处理成功/隔离终态都记)→ done,绝不再选;
  *   派生 id 撞 existingIds(已完成/已隔离)→ 同样终态跳过;
  *   第 2 层 标题模糊比对 → held 待裁(调用方响亮报,种子原样保留,去留归人);
- *   坏种子(缺 videoId/upload_date)响亮抛,不静默跳。
- * @returns {{picks:[{videoId,id,item,seed}], held:[{videoId,title,matchedTitle,id}], done:string[]}}
+ *   坏种子(缺 videoId/upload_date)响亮抛,不静默跳;
+ *   每班限流(2026-07-31 保险丝):按 upload_date 旧→新(同日按 videoId,顺序确定)取前 cap 条,
+ *   超出的进 deferred——种子原样留在种子区、不记账,下一班 autoTalks 自然再进场接着吃。
+ * @returns {{picks:[{videoId,id,item,seed}], held:[{videoId,title,matchedTitle,id}], done:string[], deferred:[{videoId,id,item,seed}]}}
  */
-export function selectTalks(seeds, { existingIds, videoLedger, libraryTitles, source }) {
+export function selectTalks(seeds, { existingIds, videoLedger, libraryTitles, source, cap = resolveTalksCap(process.env.TALKS_BATCH_CAP) }) {
   const seen = new Set(existingIds ?? []);
   const ledger = videoLedger ?? {};
   const picks = [];
@@ -261,8 +278,14 @@ export function selectTalks(seeds, { existingIds, videoLedger, libraryTitles, so
     }
     picks.push({ videoId: seed.videoId, id, item, seed });
   }
-  picks.sort((a, b) => a.item.pubDateISO.localeCompare(b.item.pubDateISO));
-  return { picks, held, done };
+  // 同日 tiebreak 用普通比较不用 localeCompare:后者受运行时 locale 影响,跨机器确定性存疑(GLM 20260731-009[5])
+  picks.sort(
+    (a, b) =>
+      a.item.pubDateISO.localeCompare(b.item.pubDateISO) ||
+      (String(a.videoId) < String(b.videoId) ? -1 : String(a.videoId) > String(b.videoId) ? 1 : 0),
+  );
+  const deferred = picks.splice(cap); // 超上限的留后班(splice 就地截断 picks 前 cap 条)
+  return { picks, held, done, deferred };
 }
 
 /**
@@ -723,13 +746,21 @@ function processTalksSource(source, state, { dryRun }) {
       }
     })
     .filter(Boolean);
-  const { picks, held, done } = selectTalks(seeds, {
+  const cap = resolveTalksCap(process.env.TALKS_BATCH_CAP); // 解析一次,选种与日志共用(GLM 20260731-009[2])
+  const { picks, held, done, deferred } = selectTalks(seeds, {
     existingIds: [...completed, ...state.skipped.map((s) => s.id)],
     videoLedger: state.talkVideoIds ?? {},
     libraryTitles,
     source,
+    cap,
   });
-  console.log(`种子 ${seeds.length} 条:待处理 ${picks.length} / 待裁 ${held.length} / 已终态 ${done.length}`);
+  console.log(`种子 ${seeds.length} 条:待处理 ${picks.length} / 待裁 ${held.length} / 已终态 ${done.length}${deferred.length ? ` / 限流留后班 ${deferred.length}` : ""}`);
+  // 2026-07-31 保险丝:每班上限(默认 3,TALKS_BATCH_CAP/workflow talks_cap 覆写)。超出的种子原样留在
+  // 种子区、不记账 → 下一班 autoTalks 自动再进场接着吃,直到吃完。响亮报数,别让人以为种子丢了。
+  if (deferred.length) {
+    console.log(`🧯 每班种子限流(上限 ${cap},防撞 runner 6h 上限):本班吃 ${picks.length} 条,还剩 ${deferred.length} 条留后班:`);
+    deferred.forEach((d) => console.log(`   ⏭ ${d.id}  (${d.item.pubDateISO})  ${d.item.title}`));
+  }
   // 🔔 待裁响亮报(::error 让 CI run 页一眼可见);种子不动、不记账,下轮仍会报,直到人工删种子或确认非重复
   for (const h of held) {
     console.error(`::error::⛔ 待裁(疑似重复,未处理):${h.videoId}「${h.title}」≈ 库内「${h.matchedTitle}」。人工裁决:确认重复→删 ${source.seedDir}/${h.videoId};确认不同集→改库内该集或此种子标题后重跑。`);
