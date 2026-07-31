@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Eric Ries]] [[Keith Rabois]] [[Jeetu Patel]] [[Dr. Becky Kennedy]] [[Matt MacInnis]] [[Amar]] [[Rachel Lockett]]
+[[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Keith Rabois]] [[Jeetu Patel]] [[Dr. Becky Kennedy]] [[Matt MacInnis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Anthropic":22,"Claude Code":12,"Co-work":2,"智能体":38,"验证":2,"测试驱动开发":1,"潜在需求":1,"结对编程":1,"Visual Studio":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"Anthropic":23,"Claude Code":12,"Co-work":2,"智能体":40,"验证":2,"测试驱动开发":1,"潜在需求":1,"结对编程":1,"Visual Studio":1}</script>
 
 <script>
 (function(){

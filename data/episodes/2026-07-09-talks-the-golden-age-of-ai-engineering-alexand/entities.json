@@ -1,0 +1,684 @@
+{
+  "episode_id": "2026-07-09-talks-the-golden-age-of-ai-engineering-alexand",
+  "podcast": "精选演讲",
+  "date": "2026-07-09",
+  "tags": [
+    "AI 工程师",
+    "智能体",
+    "编程范式",
+    "人机协作",
+    "注意力瓶颈"
+  ],
+  "categories": [
+    "智能体",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "peter-steinberger",
+      "type": "person",
+      "role": "guest",
+      "name": "Peter Steinberger",
+      "file": "Peter Steinberger",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 237,
+          "t": [
+            1118.639,
+            1122.86
+          ],
+          "quote": "So with that, please welcome to the stage the claw father, Peter Steinberger.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "romain-huet",
+      "type": "person",
+      "role": "guest",
+      "name": "Romain Huet",
+      "file": "Romain Huet",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集的开发者日主办方,主张现在是做工程师最好的时代,目标是打造彻底开放、人人可建生态的 AI 智能体底层平台",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            582.169,
+            589.03
+          ],
+          "quote": "But for that to work, one thing that we really care about is that Codex cannot be a closed product that only OpenAI can improve.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 148,
+          "t": [
+            654.363,
+            659.345
+          ],
+          "quote": "The models are the default in the harness, the models from OpenAI, but they are not hard-coded in there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 236,
+          "t": [
+            1109.496,
+            1118.138
+          ],
+          "quote": "And so we wanted to bring a special guest who has been to what's possible with agents and really has pushed us to be more AGI-pilled at OpenAI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1249.333,
+            1251.635
+          ],
+          "quote": "Now I fixed that by joining OpenAI.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集将它描述为能执行任何电脑任务的工作者,未来将与一个长期在线的管理者智能体协作,实现自动化内部执行循环",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            283.401,
+            290.346
+          ],
+          "quote": "And if you can connect the agent to not only the work that you have to do, but why it has to be done, that's how you can get the agent to start to begin much more work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 149,
+          "t": [
+            659.405,
+            662.727
+          ],
+          "quote": "So if you want to use an open model and keep the same agent loop, you can.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 215,
+          "t": [
+            985.487,
+            995.915
+          ],
+          "quote": "You can think about an agent taking different approaches, maybe like five or six in parallel, maybe like coming back and picking the best one in the time it would have taken to not even generate just one.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1062.824,
+            1072.948
+          ],
+          "quote": "You should just have an agent, you talk to it wherever, whenever, about anything, and it should figure out, okay, what do I need to do, which environment is right for my work, and use whatever is available.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1150.21,
+            1156.992
+          ],
+          "quote": "always waiting for one of them to finish so I could steal the agent and queue new work.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1173.156,
+            1175.577
+          ],
+          "quote": "You know, at first, I paired with one agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1296.192,
+            1300.373
+          ],
+          "quote": "Are you still staring at the agent while the code flies by?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1311.316,
+            1316.477
+          ],
+          "quote": "You see the agent go in a direction you don't like, you hit escape, you steer it, you steer it back.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 277,
+          "t": [
+            1317.513,
+            1325.737
+          ],
+          "quote": "But the latest generation of models is so good at understanding intent that it's a little bit of a waste of time to watch the agent generate code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1346.723,
+            1353.926
+          ],
+          "quote": "That worker investigates, implements the change, runs the tests, and another agent can review the result.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1384.78,
+            1388.242
+          ],
+          "quote": "The agent runs the inner execution loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1405.988,
+            1412.472
+          ],
+          "quote": "The agent creates threads in the sidebar so Paul can jump in whenever the work needs additional steering.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1439.265,
+            1442.947
+          ],
+          "quote": "My agent should be able to connect to any of my machines.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1457.899,
+            1463.844
+          ],
+          "quote": "It should be an agent that I can text, steer from Slack, or hear from wherever I am.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1464.564,
+            1470.409
+          ],
+          "quote": "Really, why can't I talk to my agent and have it design the whole loop for me?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "concept",
+      "role": "concept",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": true,
+      "how_described": "本集说它是 OpenAI 推出的代码智能体,既能写代码、在沙箱里自我验证,也是任何人都能基于其 API 和 harness 搭建的彻底开放平台",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            252.609,
+            257.174
+          ],
+          "quote": "My favorite things that we've shipped are like Codex app, goal mode, remote.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            260.917,
+            271.426
+          ],
+          "quote": "Obviously we couldn't do these things if we didn't use Codex to build Codex, but I think to me what is most interesting is that now Codex can do, and agents can do, any task that you can do on your own computer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 67,
+          "t": [
+            318.762,
+            323.805
+          ],
+          "quote": "I would say it's safe to say that we, Codex, and actually the entire industry wouldn't be here without you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            429.776,
+            436.14
+          ],
+          "quote": "And so I had Codex ImageGen me an illustration of this to help understand when you might want to use these things.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            477.816,
+            482.939
+          ],
+          "quote": "So the way that we're bringing this to life is just the beginning, but this is why we built the Codex app.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            557.589,
+            563.975
+          ],
+          "quote": "Honestly, half the time I open X, I see someone in this room doing something that I had not realized Codex could actually do.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 130,
+          "t": [
+            582.169,
+            589.03
+          ],
+          "quote": "But for that to work, one thing that we really care about is that Codex cannot be a closed product that only OpenAI can improve.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 131,
+          "t": [
+            589.43,
+            593.791
+          ],
+          "quote": "So we've intentionally designed Codex as a set of layers that anyone can build on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 137,
+          "t": [
+            607.411,
+            609.373
+          ],
+          "quote": "This is how we build the Codex app, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 140,
+          "t": [
+            616.199,
+            622.265
+          ],
+          "quote": "And when Codex needs something new, we always try to bake it into the API first so you can benefit as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 142,
+          "t": [
+            624.628,
+            629.856
+          ],
+          "quote": "Codex needed a way to compact long contexts for long-running tasks, and so we built that into the API.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 144,
+          "t": [
+            635.715,
+            639.537
+          ],
+          "quote": "Moving on to the next layer, the Codex harness is also open source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 147,
+          "t": [
+            645.179,
+            653.443
+          ],
+          "quote": "Instead of reinventing a new file format for Codex to follow instructions, we thought, let's pick a name that other agents can actually use as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 150,
+          "t": [
+            663.787,
+            668.189
+          ],
+          "quote": "And we also bring this Codex harness into the post-training process of our model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 158,
+          "t": [
+            709.877,
+            713.239
+          ],
+          "quote": "And how do you let people sign in with their existing Codex subscription, for instance?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 159,
+          "t": [
+            713.279,
+            718.962
+          ],
+          "quote": "Well, it turns out we had the same problem ourselves, because we wanted to build a VS Code extension and the Codex app.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 165,
+          "t": [
+            733.869,
+            742.612
+          ],
+          "quote": "Thomas, for instance, here, aka Dimalian on X, he built his own native app for Codex called Codex Monitor before we even launched the Codex app.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 167,
+          "t": [
+            745.933,
+            750.095
+          ],
+          "quote": "And now he works on our team and he actually builds Codex for iOS.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 171,
+          "t": [
+            774.631,
+            783.837
+          ],
+          "quote": "And lastly, we also recently built role-specific plugins for Codex, say, to make it easier to customize for people who work in data science or design, for instance.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1043.557,
+            1049.103
+          ],
+          "quote": "Our first major launch was Codex Cloud, and it is due for some major upgrades coming soon.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "loop",
+      "type": "concept",
+      "role": "concept",
+      "name": "循环 (loop)",
+      "file": "循环",
+      "primary": true,
+      "how_described": "本集将工作流抽象为循环:智能体负责跑内部执行循环,而人类负责在外部循环中设定方向和做决策",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            189.118,
+            194.265
+          ],
+          "quote": "Yeah, in fact, I can't believe that build and test loop was not even part of the models just two years ago.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 149,
+          "t": [
+            659.405,
+            662.727
+          ],
+          "quote": "So if you want to use an open model and keep the same agent loop, you can.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1232.191,
+            1232.751
+          ],
+          "quote": "There's your loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1234.801,
+            1238.944
+          ],
+          "quote": "And once the loop starts working, you discover the next problem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1376.635,
+            1383.659
+          ],
+          "quote": "I leave a note, I maybe approve, the loop continues and it can land after the checks pass.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1384.78,
+            1388.242
+          ],
+          "quote": "The agent runs the inner execution loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 287,
+          "t": [
+            1388.843,
+            1392.625
+          ],
+          "quote": "I set the direction and I make decisions in the outer loop.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 300,
+          "t": [
+            1464.564,
+            1470.409
+          ],
+          "quote": "Really, why can't I talk to my agent and have it design the whole loop for me?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "collaborative-ui",
+      "type": "concept",
+      "role": "concept",
+      "name": "协作界面 (collaborative UI)",
+      "file": "协作界面",
+      "primary": true,
+      "how_described": "本集说它是未来 AI 协作产品的核心模式之一,让用户能随时介入细节,像和队友凑在工作台前死磕问题一样",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 96,
+          "t": [
+            422.192,
+            429.116
+          ],
+          "quote": "And then you want a powerful collaborative UI that you can use when you want to inspect, steer, or shape things yourself.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集说它是控制智能体行为的核心调度框架,也是开源的,允许所有人 fork、检查、适配和接入开放模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            635.715,
+            639.537
+          ],
+          "quote": "Moving on to the next layer, the Codex harness is also open source.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 148,
+          "t": [
+            654.363,
+            659.345
+          ],
+          "quote": "The models are the default in the harness, the models from OpenAI, but they are not hard-coded in there.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 150,
+          "t": [
+            663.787,
+            668.189
+          ],
+          "quote": "And we also bring this Codex harness into the post-training process of our model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 157,
+          "t": [
+            707.075,
+            709.016
+          ],
+          "quote": "And how do you bring this harness into an app?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 160,
+          "t": [
+            719.362,
+            722.844
+          ],
+          "quote": "And we wanted to have a unified way to actually control this harness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 181,
+          "t": [
+            827.023,
+            834.906
+          ],
+          "quote": "And we want to thank all of you because every time you fork the harness, every time you find the edge of capabilities of the models, it means we get to learn and improve.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "compaction",
+      "type": "concept",
+      "role": "concept",
+      "name": "压缩 (compaction)",
+      "file": "压缩",
+      "primary": true,
+      "how_described": "本集把它说成是为适应长任务、把冗长背景上下文浓缩存储(服务器端压缩)的能力,已被 OpenAI 做进了 API 里",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            622.806,
+            624.368
+          ],
+          "quote": "One example recently was compaction.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1205.911,
+            1214.638
+          ],
+          "quote": "Number one, server-side compaction made long-running tasks reliable enough that I stopped optimizing around fresh sessions.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "delegation",
+      "type": "concept",
+      "role": "concept",
+      "name": "委托 (delegation)",
+      "file": "委托",
+      "primary": true,
+      "how_described": "本集说它是让跨级管理跑通的三个关键能力之一,即一个中枢线程能创建并引导具体的子任务派给工作者智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 260,
+          "t": [
+            1226.987,
+            1231.45
+          ],
+          "quote": "So we have persistent context, delegation, and triggers.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "persistent-context",
+      "type": "concept",
+      "role": "concept",
+      "name": "持久化上下文 (persistent context)",
+      "file": "持久化上下文",
+      "primary": true,
+      "how_described": "本集提到它是让智能体在长时间待命时记住背景信息和历史决策的能力,也是让管理者跨级协作成熟的关键之一",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 260,
+          "t": [
+            1226.987,
+            1231.45
+          ],
+          "quote": "So we have persistent context, delegation, and triggers.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "sandbox",
+      "reason": "专名「sandbox」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

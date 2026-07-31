@@ -1,0 +1,2170 @@
+[
+ {
+  "seg": 0,
+  "start": 12.68,
+  "end": 13.1,
+  "speaker": "Unknown",
+  "en": "Good to go.",
+  "zh": "准备好了。"
+ },
+ {
+  "seg": 1,
+  "start": 14.541,
+  "end": 14.821,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 2,
+  "start": 14.861,
+  "end": 18.502,
+  "speaker": "Unknown",
+  "en": "Well, take a quick sip and then let's start.",
+  "zh": "嗯，快喝一口然后我们开始吧。"
+ },
+ {
+  "seg": 3,
+  "start": 19.602,
+  "end": 20.403,
+  "speaker": "Unknown",
+  "en": "It is great to be here.",
+  "zh": "很高兴来到这里。"
+ },
+ {
+  "seg": 4,
+  "start": 21.083,
+  "end": 24.704,
+  "speaker": "Unknown",
+  "en": "This is like my third year coming to this conference and I always really enjoy it.",
+  "zh": "这大概是我第三年来参加这个会议了，我一直都很享受它。"
+ },
+ {
+  "seg": 5,
+  "start": 25.264,
+  "end": 26.465,
+  "speaker": "Unknown",
+  "en": "And thank you for coming to this workshop.",
+  "zh": "感谢大家来参加这个研讨会。"
+ },
+ {
+  "seg": 6,
+  "start": 26.485,
+  "end": 28.405,
+  "speaker": "Unknown",
+  "en": "I know there's many interesting talks.",
+  "zh": "我知道有很多精彩的演讲。"
+ },
+ {
+  "seg": 7,
+  "start": 29.366,
+  "end": 35.048,
+  "speaker": "Unknown",
+  "en": "Let me talk a little bit about our view of asynchronous agents at Anthropic and some things we've been up to lately.",
+  "zh": "让我谈谈 Anthropic 对异步智能体的一些看法，以及我们最近在做的一些事情。"
+ },
+ {
+  "seg": 8,
+  "start": 36.352,
+  "end": 39.514,
+  "speaker": "Unknown",
+  "en": "So this is kind of a way I think about models and product.",
+  "zh": "所以这大概是我思考模型和产品的一种方式。"
+ },
+ {
+  "seg": 9,
+  "start": 39.734,
+  "end": 45.818,
+  "speaker": "Unknown",
+  "en": "So you can think about Cloud as a light source, and you can think about products as windows that allow the light to pass through.",
+  "zh": "你可以把 Cloud 看作光源，把产品看作允许光线通过的窗户。"
+ },
+ {
+  "seg": 10,
+  "start": 46.959,
+  "end": 52.802,
+  "speaker": "Unknown",
+  "en": "And what's kind of interesting is over time, the window that you need to actually kind of see the light of the model kind of shifts.",
+  "zh": "有趣的是，随着时间的推移，你实际需要的用来看到模型光芒的窗户会发生转变。"
+ },
+ {
+  "seg": 11,
+  "start": 54.823,
+  "end": 57.125,
+  "speaker": "Unknown",
+  "en": "And we've seen this over the past few years.",
+  "zh": "我们在过去几年里已经看到了这一点。"
+ },
+ {
+  "seg": 12,
+  "start": 57.425,
+  "end": 60.767,
+  "speaker": "Unknown",
+  "en": "So I'm plotting here different Cloud models and their task horizon.",
+  "zh": "所以我在这里绘制了不同的 Cloud 模型及其任务视界。"
+ },
+ {
+  "seg": 13,
+  "start": 61.107,
+  "end": 63.609,
+  "speaker": "Unknown",
+  "en": "So how much autonomous work can they do over time?",
+  "zh": "也就是它们随着时间的推移能做多少自主工作？"
+ },
+ {
+  "seg": 14,
+  "start": 65.073,
+  "end": 73.058,
+  "speaker": "Unknown",
+  "en": "And you might recall back in the Opus 3 days, this was kind of like 2024, models could only do maybe 10 to 20 minutes of autonomous work.",
+  "zh": "你可能回想起来，在 Opus 3 时代，这大概是在 2024 年，模型只能做大概 10 到 20 分钟的自主工作。"
+ },
+ {
+  "seg": 15,
+  "start": 73.078,
+  "end": 74.158,
+  "speaker": "Unknown",
+  "en": "This is measured by meter.",
+  "zh": "这是通过 meter 测量的。"
+ },
+ {
+  "seg": 16,
+  "start": 75.439,
+  "end": 78.061,
+  "speaker": "Unknown",
+  "en": "And in that regime, only certain product surfaces made sense.",
+  "zh": "在那个阶段，只有某些产品形态才有意义。"
+ },
+ {
+  "seg": 17,
+  "start": 78.501,
+  "end": 81.743,
+  "speaker": "Unknown",
+  "en": "Things like autocomplete, things like chat, where your human is very in the loop.",
+  "zh": "比如自动补全，比如聊天，其中人类需要深度参与其中。"
+ },
+ {
+  "seg": 18,
+  "start": 81.923,
+  "end": 85.405,
+  "speaker": "Unknown",
+  "en": "Because the model's really only doing a very short amount of work before you're steering it.",
+  "zh": "因为模型实际上只做非常短的工作，然后你就需要引导它。"
+ },
+ {
+  "seg": 19,
+  "start": 86.727,
+  "end": 94.572,
+  "speaker": "Unknown",
+  "en": "Now the past year we saw the rise of synchronous coding agents like Cloud Code and this is kind of a shift because then models could do maybe an hour of work.",
+  "zh": "在过去一年，我们看到了同步编码智能体如 Cloud Code 的兴起，这是一种转变，因为那时模型大概可以做一小时的工作。"
+ },
+ {
+  "seg": 20,
+  "start": 95.372,
+  "end": 100.435,
+  "speaker": "Unknown",
+  "en": "So it made sense to have them run but typically locally where you could still steer them easily.",
+  "zh": "所以让它们运行是有意义的，但通常是在本地，这样你仍然可以轻松地引导它们。"
+ },
+ {
+  "seg": 21,
+  "start": 101.676,
+  "end": 107.64,
+  "speaker": "Unknown",
+  "en": "And it's kind of interesting because during this regime I remember efforts and I was involved in some efforts to build kind of asynchronous agents.",
+  "zh": "这很有趣，因为在这个阶段，我记得有一些努力，我也参与了一些努力来构建某种异步智能体。"
+ },
+ {
+  "seg": 22,
+  "start": 108.654,
+  "end": 113.618,
+  "speaker": "Unknown",
+  "en": "But when models can only do like an hour of work, async as an experience is kind of bad.",
+  "zh": "但是当模型只能做大约一小时的工作时，异步作为一种体验是很糟糕的。"
+ },
+ {
+  "seg": 23,
+  "start": 114.359,
+  "end": 118.482,
+  "speaker": "Unknown",
+  "en": "The model goes off and it like hits an error and it comes back to you over a short period of time.",
+  "zh": "智能体跑出去，遇到错误，然后在很短的时间内回来找你。"
+ },
+ {
+  "seg": 24,
+  "start": 119.203,
+  "end": 122.365,
+  "speaker": "Unknown",
+  "en": "In order to really unlock async, we needed longer task horizons.",
+  "zh": "为了真正解锁异步，我们需要更长的任务视界。"
+ },
+ {
+  "seg": 25,
+  "start": 123.266,
+  "end": 124.607,
+  "speaker": "Unknown",
+  "en": "And so we're starting to see that now.",
+  "zh": "而我们现在开始看到这一点了。"
+ },
+ {
+  "seg": 26,
+  "start": 126.609,
+  "end": 132.113,
+  "speaker": "Unknown",
+  "en": "And kind of with this shift in capability and time horizon came a shift in the API surfaces.",
+  "zh": "随着这种能力和时间视界的转变，API 界面也发生了转变。"
+ },
+ {
+  "seg": 27,
+  "start": 132.173,
+  "end": 133.975,
+  "speaker": "Unknown",
+  "en": "So if you look at the lower left,",
+  "zh": "所以如果你看左下角，"
+ },
+ {
+  "seg": 28,
+  "start": 135.125,
+  "end": 137.188,
+  "speaker": "Unknown",
+  "en": "Message API came out like two years ago.",
+  "zh": "Messages API 是大约两年前发布的。"
+ },
+ {
+  "seg": 29,
+  "start": 137.609,
+  "end": 139.051,
+  "speaker": "Unknown",
+  "en": "It's basically prompt response.",
+  "zh": "它基本上是提示响应。"
+ },
+ {
+  "seg": 30,
+  "start": 139.752,
+  "end": 143.677,
+  "speaker": "Unknown",
+  "en": "It's great for building harnesses, but it's a very simple API.",
+  "zh": "它非常适合构建 harness，但它是一个非常简单的 API。"
+ },
+ {
+  "seg": 31,
+  "start": 143.757,
+  "end": 146.441,
+  "speaker": "Unknown",
+  "en": "Again, you're just passing inside messages, you get a response out.",
+  "zh": "同样，你只是传入消息，得到响应。"
+ },
+ {
+  "seg": 32,
+  "start": 147.575,
+  "end": 149.356,
+  "speaker": "Unknown",
+  "en": "There's no sense of deployment with that.",
+  "zh": "它没有部署的概念。"
+ },
+ {
+  "seg": 33,
+  "start": 149.476,
+  "end": 152.158,
+  "speaker": "Unknown",
+  "en": "So you basically take messages API and you can roll your own harness.",
+  "zh": "所以你基本上拿 Messages API，你可以构建你自己的 harness。"
+ },
+ {
+  "seg": 34,
+  "start": 152.178,
+  "end": 153.899,
+  "speaker": "Unknown",
+  "en": "You can deploy that harness and you have an agent.",
+  "zh": "你可以部署那个 harness，你就有一个智能体了。"
+ },
+ {
+  "seg": 35,
+  "start": 154.84,
+  "end": 159.082,
+  "speaker": "Unknown",
+  "en": "Now over the past year, we saw the rise of coding agents in particular.",
+  "zh": "在过去一年，我们看到了编码智能体的兴起。"
+ },
+ {
+  "seg": 36,
+  "start": 159.102,
+  "end": 160.423,
+  "speaker": "Unknown",
+  "en": "So we released agent SDK.",
+  "zh": "所以我们发布了 agent SDK。"
+ },
+ {
+  "seg": 37,
+  "start": 160.583,
+  "end": 163.045,
+  "speaker": "Unknown",
+  "en": "So that's basically a way to programmatically call cloud code.",
+  "zh": "这基本上是一种以编程方式调用 cloud code 的方式。"
+ },
+ {
+  "seg": 38,
+  "start": 163.926,
+  "end": 165.667,
+  "speaker": "Unknown",
+  "en": "And that's basically us giving you a harness.",
+  "zh": "这基本上是我们给你一个 harness。"
+ },
+ {
+  "seg": 39,
+  "start": 167.41,
+  "end": 180.578,
+  "speaker": "Unknown",
+  "en": "But over the past few months since April, as we've seen longer and longer task horizons, we released a new APL called Managed Agents, which basically packages both the harness as well as all the managed deployment infrastructure for you.",
+  "zh": "但在过去几个月，从四月开始，随着我们看到越来越长的任务视界，我们发布了一个新的 APL，叫做 Managed Agents，它基本上为你打包了 harness 以及所有受管理的部署基础设施。"
+ },
+ {
+  "seg": 40,
+  "start": 181.639,
+  "end": 187.343,
+  "speaker": "Unknown",
+  "en": "And I'll talk about some of the themes that underpin this new surface, Cloud Managed Agents, and some of the themes that...",
+  "zh": "我将谈谈支撑这个新界面 Cloud Managed Agents 的一些主题，以及一些主题……"
+ },
+ {
+  "seg": 41,
+  "start": 187.963,
+  "end": 197.731,
+  "speaker": "Unknown",
+  "en": "kind of extend beyond just managed agents broadly to think about this kind of new type of asynchronous agents, which can apply, of course, to clause and other types of kind of longer running long horizon agents.",
+  "zh": "延伸到不仅仅是受管理的智能体，广泛地思考这种新型的异步智能体，这当然适用于 clause 和其他类型的长期运行的长视界智能体。"
+ },
+ {
+  "seg": 42,
+  "start": 199.732,
+  "end": 202.395,
+  "speaker": "Unknown",
+  "en": "So theme one is decoupling the brain from the hands.",
+  "zh": "所以第一个主题是将大脑与手解耦。"
+ },
+ {
+  "seg": 43,
+  "start": 204.736,
+  "end": 207.839,
+  "speaker": "Unknown",
+  "en": "So when we first set out to build managed agents, we started with the container.",
+  "zh": "所以当我们最初开始构建受管理的智能体时，我们从容器开始。"
+ },
+ {
+  "seg": 44,
+  "start": 208.74,
+  "end": 211.382,
+  "speaker": "Unknown",
+  "en": "We put the harness in the sandbox in the same container.",
+  "zh": "我们把 harness 放在沙箱里的同一个容器中。"
+ },
+ {
+  "seg": 45,
+  "start": 212.803,
+  "end": 218.564,
+  "speaker": "Unknown",
+  "en": "Now, the problem here is what happens if the harness dies or the container dies?",
+  "zh": "现在，问题在于如果 harness 挂了或者容器挂了会发生什么？"
+ },
+ {
+  "seg": 46,
+  "start": 219.345,
+  "end": 221.145,
+  "speaker": "Unknown",
+  "en": "What we saw is we actually lose the session.",
+  "zh": "我们看到的是我们实际上丢失了会话。"
+ },
+ {
+  "seg": 47,
+  "start": 222.165,
+  "end": 232.428,
+  "speaker": "Unknown",
+  "en": "So, basically, this architecture is kind of tricky for long horizon agents because what can happen is your agent is running and if that container dies, you lose everything with it.",
+  "zh": "所以，基本上，这种架构对于长视界智能体来说有点棘手，因为可能发生的是你的智能体正在运行，如果那个容器挂了，你会失去所有东西。"
+ },
+ {
+  "seg": 48,
+  "start": 234.437,
+  "end": 241.823,
+  "speaker": "Unknown",
+  "en": "Also, as models get more capable, putting the credentials in the same container with the agent itself can be problematic.",
+  "zh": "此外，随着模型变得更有能力，将凭证放在与智能体本身相同的容器中可能会是有问题的。"
+ },
+ {
+  "seg": 49,
+  "start": 242.583,
+  "end": 251.65,
+  "speaker": "Unknown",
+  "en": "So, for example, giving Cloud access to a bunch of your secrets and letting it run for 10 hours and you're not watching it can be a little bit spooky and has some security concerns, especially as models get extremely capable.",
+  "zh": "所以，例如，给予 Cloud 对你的一堆秘密的访问权限并让它运行 10 个小时而你没有监视它，可能有点令人毛骨悚然，并且有一些安全问题，特别是随着模型变得非常有能力。"
+ },
+ {
+  "seg": 50,
+  "start": 253.491,
+  "end": 260.457,
+  "speaker": "Unknown",
+  "en": "So, for this reason, we kind of decouple what we call the brain, that's the harness from the hands, the execution environments, and Managed Agents is set up like this.",
+  "zh": "所以，因为这个原因，我们某种程度上解耦了我们所谓的“大脑”，也就是 harness，与“双手”，也就是执行环境，Managed Agents 就是这样设置的。"
+ },
+ {
+  "seg": 51,
+  "start": 261.971,
+  "end": 266.886,
+  "speaker": "Unknown",
+  "en": "So the story here is that the harness becomes a stateless process.",
+  "zh": "这里的故事是，harness 变成了一个无状态进程。"
+ },
+ {
+  "seg": 52,
+  "start": 268.106,
+  "end": 276.11,
+  "speaker": "Unknown",
+  "en": "that talks to a session, the session is an append-only event log, and that can reach out to hands which are just containers.",
+  "zh": "它与一个会话对话，该会话是一个仅追加的事件日志，并且可以伸出手，也就是那些容器。"
+ },
+ {
+  "seg": 53,
+  "start": 276.81,
+  "end": 278.871,
+  "speaker": "Unknown",
+  "en": "So those are sandboxes, work is done.",
+  "zh": "所以这些是沙箱，工作是在那里完成的。"
+ },
+ {
+  "seg": 54,
+  "start": 279.992,
+  "end": 283.913,
+  "speaker": "Unknown",
+  "en": "And one thing that's interesting is, Cloud is increasingly capable of managing many hands.",
+  "zh": "有趣的一件事是，Cloud 越来越有能力管理许多“双手”。"
+ },
+ {
+  "seg": 55,
+  "start": 284.874,
+  "end": 293.578,
+  "speaker": "Unknown",
+  "en": "So that is, you can give one harness access to many different containers to perform tool execution, and Cloud can manage this very easily and effectively.",
+  "zh": "也就是说，你可以给一个 harness 访问许多不同容器的权限来执行工具执行，而 Cloud 可以非常轻松且有效地管理这一切。"
+ },
+ {
+  "seg": 56,
+  "start": 295.193,
+  "end": 307.916,
+  "speaker": "Unknown",
+  "en": "If the session, sorry, if the harness dies or sandbox dies, it's completely fine because the session is always backed up in this append-only log and credentials are never actually added to the sandbox.",
+  "zh": "如果会话，抱歉，如果 harness 死了或者沙箱死了，这完全没问题，因为会话总是备份在这个仅追加的日志中，而且凭据实际上从未被添加到沙箱中。"
+ },
+ {
+  "seg": 57,
+  "start": 308.576,
+  "end": 309.977,
+  "speaker": "Unknown",
+  "en": "They're stored in a separate vault.",
+  "zh": "它们存储在一个独立的保险库中。"
+ },
+ {
+  "seg": 58,
+  "start": 310.637,
+  "end": 315.298,
+  "speaker": "Unknown",
+  "en": "So, this decoupling actually makes it quite reliable and safe, particularly for long horizon tasks.",
+  "zh": "所以，这种解耦实际上使其相当可靠且安全，特别是对于长期视野的任务。"
+ },
+ {
+  "seg": 59,
+  "start": 315.318,
+  "end": 319.239,
+  "speaker": "Unknown",
+  "en": "And this is kind of one of the core ideas that underpins Managed Agents architecturally.",
+  "zh": "这可以说是架构上支撑 Managed Agents 的核心思想之一。"
+ },
+ {
+  "seg": 60,
+  "start": 320.811,
+  "end": 332.677,
+  "speaker": "Unknown",
+  "en": "And I think an interesting thing that falls out of this is related to, you guys may have kind of seen or come across the recursive language models work, the session becomes an external context object that the model interrogates.",
+  "zh": "我认为由此产生的一个有趣的事情与你们可能看过或遇到的递归语言模型工作有关，即会话变成了模型查询的外部上下文对象。"
+ },
+ {
+  "seg": 61,
+  "start": 333.617,
+  "end": 336.118,
+  "speaker": "Unknown",
+  "en": "And this has all sorts of benefits for context management.",
+  "zh": "这对上下文管理有各种好处。"
+ },
+ {
+  "seg": 62,
+  "start": 336.578,
+  "end": 348.284,
+  "speaker": "Unknown",
+  "en": "So you think about it, when you're doing something like compaction, you're choosing some logic to retain some amount of context, and naively, in a kind of a typical step, you're discarding all the context that you didn't compact.",
+  "zh": "所以想一想，当你做诸如压缩之类的事情时，你选择某种逻辑来保留一定量的上下文，而且天真地，在一种典型的步骤中，你正在丢弃你没有压缩的所有上下文。"
+ },
+ {
+  "seg": 63,
+  "start": 349.373,
+  "end": 356.976,
+  "speaker": "Unknown",
+  "en": "In this architecture, and also more broadly with recursive language models, the idea is that the context object is persistent and is unadulterated.",
+  "zh": "在这种架构中，以及更广泛地在递归语言模型中，其想法是上下文对象是持久的且未被篡改的。"
+ },
+ {
+  "seg": 64,
+  "start": 357.176,
+  "end": 357.957,
+  "speaker": "Unknown",
+  "en": "So it's append only.",
+  "zh": "所以它是仅追加的。"
+ },
+ {
+  "seg": 65,
+  "start": 359.057,
+  "end": 362.098,
+  "speaker": "Unknown",
+  "en": "And the model can always go back and fetch old context.",
+  "zh": "模型总是可以回溯并获取旧的上下文。"
+ },
+ {
+  "seg": 66,
+  "start": 362.118,
+  "end": 374.123,
+  "speaker": "Unknown",
+  "en": "So it basically creates a very, very nice architecture for context engineering because the core context object is immutable in the sense that it's non-destructive and you only append to it over time.",
+  "zh": "所以它基本上为上下文工程创造了一个非常好的架构，因为核心上下文对象在某种意义上是不可变的，即它是非破坏性的，你只是随着时间的推移向其追加内容。"
+ },
+ {
+  "seg": 67,
+  "start": 374.943,
+  "end": 378.665,
+  "speaker": "Unknown",
+  "en": "So we've seen this to be quite nice in terms of long horizon context engineering as well.",
+  "zh": "所以我们发现这在长期视野的上下文工程方面也相当不错。"
+ },
+ {
+  "seg": 68,
+  "start": 380.94,
+  "end": 383.242,
+  "speaker": "Unknown",
+  "en": "So the second theme is use verifiers.",
+  "zh": "那么第二个主题是使用验证器。"
+ },
+ {
+  "seg": 69,
+  "start": 385.363,
+  "end": 406.517,
+  "speaker": "Unknown",
+  "en": "And one of the problems that we've seen with Claude and other models in general is that when you ask them to do a bunch of work and then say, okay, grade your work, if that same context is being used to both do the work and grade, you can get lots of odd artifacts and confabulation and basically odd behavior.",
+  "zh": "我们在 Claude 和其他模型上看到的一个问题是，当你要求它们做一堆工作然后说，好的，给你的工作打分，如果同样的上下文被用来既做工作又打分，你可能会得到许多奇怪的产物和幻觉，基本上就是奇怪的行为。"
+ },
+ {
+  "seg": 70,
+  "start": 407.358,
+  "end": 414.524,
+  "speaker": "Unknown",
+  "en": "For example, this is just an image showing you can think about that context window is filled with lots of different information and the model is grading itself.",
+  "zh": "例如，这只是一张图片，你可以想到上下文窗口里充满了许多不同的信息，模型正在给自己打分。"
+ },
+ {
+  "seg": 71,
+  "start": 415.145,
+  "end": 419.629,
+  "speaker": "Unknown",
+  "en": "Often it's not properly tuned to do kind of critical verification.",
+  "zh": "通常它没有经过适当的调整来进行那种批判性的验证。"
+ },
+ {
+  "seg": 72,
+  "start": 420.59,
+  "end": 425.794,
+  "speaker": "Unknown",
+  "en": "And so what we found is it's quite effective to separate verification into a separate context window.",
+  "zh": "所以我们发现，将验证分离到一个单独的上下文窗口中是相当有效的。"
+ },
+ {
+  "seg": 73,
+  "start": 426.671,
+  "end": 427.732,
+  "speaker": "Unknown",
+  "en": "This is a very general trend.",
+  "zh": "这是一个非常普遍的趋势。"
+ },
+ {
+  "seg": 74,
+  "start": 428.532,
+  "end": 430.314,
+  "speaker": "Unknown",
+  "en": "We talk about it in a number of different engineering blogs.",
+  "zh": "我们在许多不同的工程博客中谈论它。"
+ },
+ {
+  "seg": 75,
+  "start": 431.735,
+  "end": 437.319,
+  "speaker": "Unknown",
+  "en": "And the reason is the verifier context can be tuned very specifically for the critique or verification task.",
+  "zh": "原因是验证器上下文可以非常专门地针对批评或验证任务进行调整。"
+ },
+ {
+  "seg": 76,
+  "start": 438.76,
+  "end": 440.402,
+  "speaker": "Unknown",
+  "en": "And so the way this works in practice is,",
+  "zh": "所以这在实践中是这样工作的，"
+ },
+ {
+  "seg": 77,
+  "start": 441.417,
+  "end": 459.469,
+  "speaker": "Unknown",
+  "en": "When you build loops, you can have a loop of a build context and a verifier context, and this can be a build agent, verifier agent, and what happens is the verifier has some goal or rubric, and it's verifying the result or work of the build agent, and this continues in a loop until verification is complete.",
+  "zh": "当你构建循环时，你可以有一个构建上下文和验证器上下文的循环，这可以是一个构建智能体、验证器智能体，发生的事情是验证器有一些目标或标准，它正在验证构建智能体的结果或工作，这在一个循环中持续进行，直到验证完成。"
+ },
+ {
+  "seg": 78,
+  "start": 460.589,
+  "end": 468.675,
+  "speaker": "Unknown",
+  "en": "And this is really the big idea behind this whole loops trend that you might have heard about, and we found to be kind of a very powerful paradigm, especially for working with some of the higher capacity models.",
+  "zh": "这实际上是你可能听说过的整个循环趋势背后的主要思想，我们发现这是一种非常强大的范式，特别是对于使用一些更高容量的模型。"
+ },
+ {
+  "seg": 79,
+  "start": 470.512,
+  "end": 471.473,
+  "speaker": "Unknown",
+  "en": "And here's some of the primitives.",
+  "zh": "这里有一些基元。"
+ },
+ {
+  "seg": 80,
+  "start": 471.833,
+  "end": 473.094,
+  "speaker": "Unknown",
+  "en": "So in Cloud Code, you have goal.",
+  "zh": "所以在 Cloud Code 中，你有 goal。"
+ },
+ {
+  "seg": 81,
+  "start": 473.754,
+  "end": 475.015,
+  "speaker": "Unknown",
+  "en": "In Managed Agents, you have outcomes.",
+  "zh": "在 Managed Agents 中，你有 outcomes。"
+ },
+ {
+  "seg": 82,
+  "start": 475.135,
+  "end": 477.217,
+  "speaker": "Unknown",
+  "en": "And the principles are really the same.",
+  "zh": "原则实际上是相同的。"
+ },
+ {
+  "seg": 83,
+  "start": 478.338,
+  "end": 480.439,
+  "speaker": "Unknown",
+  "en": "You're setting up a measurable end state in both cases.",
+  "zh": "在这两种情况下，你都在建立一个可测量的最终状态。"
+ },
+ {
+  "seg": 84,
+  "start": 481.54,
+  "end": 483.162,
+  "speaker": "Unknown",
+  "en": "You're using an independent context model.",
+  "zh": "你正在使用一个独立的上下文模型。"
+ },
+ {
+  "seg": 85,
+  "start": 483.802,
+  "end": 488.105,
+  "speaker": "Unknown",
+  "en": "You're using independent context to grade over the course of this loop.",
+  "zh": "你正在使用独立的上下文在这个循环过程中进行评分。"
+ },
+ {
+  "seg": 86,
+  "start": 489.426,
+  "end": 495.831,
+  "speaker": "Unknown",
+  "en": "The loop can run and you only exit the loop until this independent verifier has verified that it has the outcomes or outputs that you want.",
+  "zh": "循环可以运行，你只有在独立验证器验证了它具有你想要的结果或输出时才退出循环。"
+ },
+ {
+  "seg": 87,
+  "start": 496.111,
+  "end": 496.872,
+  "speaker": "Unknown",
+  "en": "That's the key idea.",
+  "zh": "这就是关键思想。"
+ },
+ {
+  "seg": 88,
+  "start": 498.808,
+  "end": 500.873,
+  "speaker": "Unknown",
+  "en": "Now let me tell you a story about how I've used this.",
+  "zh": "现在让我讲一个关于我如何使用它的故事。"
+ },
+ {
+  "seg": 89,
+  "start": 500.893,
+  "end": 504.763,
+  "speaker": "Unknown",
+  "en": "So this is a kind of a fun and interesting challenge called Parameter Golf.",
+  "zh": "所以这是一个有趣且有趣的挑战，叫做 Parameter Golf。"
+ },
+ {
+  "seg": 90,
+  "start": 504.823,
+  "end": 507.329,
+  "speaker": "Unknown",
+  "en": "It's a benchmark that was put up by OpenAI.",
+  "zh": "那是 OpenAI 发布的一个基准测试。"
+ },
+ {
+  "seg": 91,
+  "start": 508.788,
+  "end": 512.311,
+  "speaker": "Unknown",
+  "en": "And it tests model's ability to effectively do kind of ML research.",
+  "zh": "它测试模型有效地进行某种机器学习研究的能力。"
+ },
+ {
+  "seg": 92,
+  "start": 513.412,
+  "end": 525.041,
+  "speaker": "Unknown",
+  "en": "So it asked the model to basically take a small kind of model and train it with eight H100 GPUs in less than 10 minutes.",
+  "zh": "它要求模型基本上拿一个小模型并在不到 10 分钟内用八个 H100 GPU 训练它。"
+ },
+ {
+  "seg": 93,
+  "start": 525.801,
+  "end": 530.385,
+  "speaker": "Unknown",
+  "en": "And what you see on the Y is basically you can think about it as loss, so lower is better, okay?",
+  "zh": "你在 Y 轴上看到的基本上可以认为是损失，所以越低越好，好吗？"
+ },
+ {
+  "seg": 94,
+  "start": 531.546,
+  "end": 536.209,
+  "speaker": "Unknown",
+  "en": "And what I did was I set up a kind of a verifier loop using managed agents and outcomes.",
+  "zh": "我做的是我建立了一个使用 managed agents 和 outcomes 的验证器循环。"
+ },
+ {
+  "seg": 95,
+  "start": 537.31,
+  "end": 544.333,
+  "speaker": "Unknown",
+  "en": "to test the ability for Opus 4.7 and one of our frontier models, like mythos class models, on this task.",
+  "zh": "来测试 Opus 4.7 和我们的一个前沿模型，比如 mythos 级模型，在这个任务上的能力。"
+ },
+ {
+  "seg": 96,
+  "start": 544.373,
+  "end": 561,
+  "speaker": "Unknown",
+  "en": "And what you see is, basically, I allow the model to continue to iterate until the outcome that I specify is satisfied, which is it finished exactly 20 iterations and it kind of met all the experimental criteria as defined by the benchmark.",
+  "zh": "你看到的是，基本上，我允许模型继续迭代，直到我指定的结果得到满足，即它恰好完成了 20 次迭代，并且它满足了基准定义的所有实验标准。"
+ },
+ {
+  "seg": 97,
+  "start": 561.58,
+  "end": 564.642,
+  "speaker": "Unknown",
+  "en": "What you see is the frontier capability models",
+  "zh": "你看到的是前沿能力模型"
+ },
+ {
+  "seg": 98,
+  "start": 565.682,
+  "end": 570.923,
+  "speaker": "Unknown",
+  "en": "are extremely good with this pattern of loops and verification.",
+  "zh": "非常擅长这种循环和验证模式。"
+ },
+ {
+  "seg": 99,
+  "start": 571.023,
+  "end": 581.485,
+  "speaker": "Unknown",
+  "en": "Because what happens is instead of encoding steering into me as the human, you're encoding the signal into the environment.",
+  "zh": "因为发生的事情是，与其将转向编码到我作为人类身上，不如将信号编码到环境中。"
+ },
+ {
+  "seg": 100,
+  "start": 581.865,
+  "end": 586.346,
+  "speaker": "Unknown",
+  "en": "So the model can self-correct when it receives feedback from, for example, the verifier.",
+  "zh": "所以当模型收到来自例如验证者的反馈时，它可以自我修正。"
+ },
+ {
+  "seg": 101,
+  "start": 587.306,
+  "end": 591.487,
+  "speaker": "Unknown",
+  "en": "And using this kind of paradigm with very high capacity models, you can get very strong results.",
+  "zh": "并且利用这种范式配合高容量模型，你可以得到非常强的结果。"
+ },
+ {
+  "seg": 102,
+  "start": 592.487,
+  "end": 605.112,
+  "speaker": "Unknown",
+  "en": "So the main point I'm trying to make here is that this paradigm of loops, which a lot of people have been talking about today, paired with very capacity models is a very good general primitive for long-running asynchronous work.",
+  "zh": "所以我在这里试图提出的主要观点是，这种很多人今天都在谈论的循环范式，配合高容量模型，是用于长时间运行的异步工作的一个非常好的通用原语。"
+ },
+ {
+  "seg": 103,
+  "start": 605.953,
+  "end": 607.033,
+  "speaker": "Unknown",
+  "en": "That's really the key point here.",
+  "zh": "这才是这里的关键点。"
+ },
+ {
+  "seg": 104,
+  "start": 609.434,
+  "end": 613.576,
+  "speaker": "Unknown",
+  "en": "Now let me talk about another theme of self-learning.",
+  "zh": "现在让我谈谈自我学习的另一个主题。"
+ },
+ {
+  "seg": 105,
+  "start": 615.277,
+  "end": 620.119,
+  "speaker": "Unknown",
+  "en": "So the human brain has two kind of interesting systems for memory.",
+  "zh": "所以人类大脑有两个非常有趣的记忆系统。"
+ },
+ {
+  "seg": 106,
+  "start": 621.249,
+  "end": 627.792,
+  "speaker": "Unknown",
+  "en": "So one is, as you go about your day, the hippocampus is kind of writing traces of kind of short-term, very fast kind of experiential memory.",
+  "zh": "一个是，当你度过你的一天时，海马体基本上是在写入短期、非常快速的体验性记忆痕迹。"
+ },
+ {
+  "seg": 107,
+  "start": 627.812,
+  "end": 629.993,
+  "speaker": "Unknown",
+  "en": "Like, you might remember what you had for lunch today.",
+  "zh": "比如，你可能会记得你今天午饭吃了什么。"
+ },
+ {
+  "seg": 108,
+  "start": 630.053,
+  "end": 631.534,
+  "speaker": "Unknown",
+  "en": "You had lunch an hour ago, you kind of remember.",
+  "zh": "你一小时前吃了午饭，你大概记得。"
+ },
+ {
+  "seg": 109,
+  "start": 631.554,
+  "end": 632.994,
+  "speaker": "Unknown",
+  "en": "That's kind of written to short-term memory.",
+  "zh": "那就是写入了短期记忆。"
+ },
+ {
+  "seg": 110,
+  "start": 633.955,
+  "end": 638.397,
+  "speaker": "Unknown",
+  "en": "When you go to bed at night, though, an offline process or out-of-band process dreams.",
+  "zh": "但是当你晚上睡觉时，一个离线过程或带外过程会做梦。"
+ },
+ {
+  "seg": 111,
+  "start": 639.237,
+  "end": 643.26,
+  "speaker": "Unknown",
+  "en": "And dreaming stores certain important details to long-term memory in the cortex.",
+  "zh": "并且做梦会将某些重要的细节存储到皮层中的长期记忆。"
+ },
+ {
+  "seg": 112,
+  "start": 643.52,
+  "end": 646.022,
+  "speaker": "Unknown",
+  "en": "So for example, tomorrow, you might not remember what you ate for lunch today.",
+  "zh": "举个例子，明天，你可能不记得你今天午饭吃了什么。"
+ },
+ {
+  "seg": 113,
+  "start": 646.142,
+  "end": 647.443,
+  "speaker": "Unknown",
+  "en": "That's kind of a local trace.",
+  "zh": "那是一种局部痕迹。"
+ },
+ {
+  "seg": 114,
+  "start": 647.583,
+  "end": 652.067,
+  "speaker": "Unknown",
+  "en": "But if you had a very important experience today, maybe this talk, maybe not this talk.",
+  "zh": "但如果你今天有一次非常重要的经历，也许这次演讲，也许不是这次演讲。"
+ },
+ {
+  "seg": 115,
+  "start": 652.527,
+  "end": 655.509,
+  "speaker": "Unknown",
+  "en": "But if you had an interesting experience today, that might be written to long-term memory.",
+  "zh": "但如果你今天有一次有趣的经历，那可能会被写入长期记忆。"
+ },
+ {
+  "seg": 116,
+  "start": 655.73,
+  "end": 656.39,
+  "speaker": "Unknown",
+  "en": "That's kind of the point.",
+  "zh": "这就是重点。"
+ },
+ {
+  "seg": 117,
+  "start": 656.41,
+  "end": 658.272,
+  "speaker": "Unknown",
+  "en": "So these two subsystems in human work like this.",
+  "zh": "所以人类中的这两个子系统就是这样工作的。"
+ },
+ {
+  "seg": 118,
+  "start": 659.252,
+  "end": 663.435,
+  "speaker": "Unknown",
+  "en": "And we've actually found memory systems with Claude actually can employ these same two principles.",
+  "zh": "我们实际上发现 Claude 的记忆系统实际上可以采用同样的这两个原则。"
+ },
+ {
+  "seg": 119,
+  "start": 664.509,
+  "end": 669.453,
+  "speaker": "Unknown",
+  "en": "So this is showing Claude's capacity as an in-band memory writer.",
+  "zh": "这展示了 Claude 作为带内记忆写入者的能力。"
+ },
+ {
+  "seg": 120,
+  "start": 669.473,
+  "end": 672.056,
+  "speaker": "Unknown",
+  "en": "So you basically give Claude memory tools.",
+  "zh": "所以你基本上给 Claude 记忆工具。"
+ },
+ {
+  "seg": 121,
+  "start": 672.096,
+  "end": 677.46,
+  "speaker": "Unknown",
+  "en": "And when I say memory tools, I mean it's basically the ability to write to a file system that is basically a memory directory.",
+  "zh": "当我说记忆工具时，我的意思是它基本上是写入文件系统的能力，该文件系统基本上是一个记忆目录。"
+ },
+ {
+  "seg": 122,
+  "start": 677.66,
+  "end": 678.201,
+  "speaker": "Unknown",
+  "en": "That's really it.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 123,
+  "start": 679.721,
+  "end": 683.623,
+  "speaker": "Unknown",
+  "en": "Now, this is showing some work on Cloud Pace Pokémon with Cloud Sonnet 3.5.",
+  "zh": "现在，这展示了关于 Cloud Pace Pokémon 的一些工作，使用的是 Cloud Sonnet 3.5。"
+ },
+ {
+  "seg": 124,
+  "start": 683.844,
+  "end": 684.824,
+  "speaker": "Unknown",
+  "en": "And here's the key point.",
+  "zh": "这里是关键点。"
+ },
+ {
+  "seg": 125,
+  "start": 685.625,
+  "end": 694.39,
+  "speaker": "Unknown",
+  "en": "When Sonnet 3.5 is given this access to a memory directory, and it can write memory, quote unquote, in band as it progresses through this game, it's not very good.",
+  "zh": "当 Sonnet 3.5 获得访问这个记忆目录的权限，并且它可以在进行这个游戏时带内地，所谓的写入记忆时，它不是很好。"
+ },
+ {
+  "seg": 126,
+  "start": 695.13,
+  "end": 697.552,
+  "speaker": "Unknown",
+  "en": "So the memories it writes are pretty crappy.",
+  "zh": "所以它写入的记忆相当差劲。"
+ },
+ {
+  "seg": 127,
+  "start": 698.793,
+  "end": 701.714,
+  "speaker": "Unknown",
+  "en": "It's kind of tactical notes.",
+  "zh": "它是一些战术笔记。"
+ },
+ {
+  "seg": 128,
+  "start": 701.794,
+  "end": 703.175,
+  "speaker": "Unknown",
+  "en": "It's not very strategic.",
+  "zh": "它不是很战略。"
+ },
+ {
+  "seg": 129,
+  "start": 703.716,
+  "end": 705.257,
+  "speaker": "Unknown",
+  "en": "And the game progress is quite limited.",
+  "zh": "并且游戏进展相当有限。"
+ },
+ {
+  "seg": 130,
+  "start": 706.177,
+  "end": 713.825,
+  "speaker": "Unknown",
+  "en": "But with more recent models, like this is looking at 4.6, the notes are much more strategic and game progress is much further.",
+  "zh": "但用更新的模型，比如这里看的是 4.6，笔记更加战略性，游戏进展也更进一步。"
+ },
+ {
+  "seg": 131,
+  "start": 713.845,
+  "end": 720.493,
+  "speaker": "Unknown",
+  "en": "So the key point I'm making here is that Cloud has gotten much better at this in-band memory writing across model generations.",
+  "zh": "所以我在这里提出的关键点是，Cloud 在跨模型代的这种带内记忆写入方面变得好多了。"
+ },
+ {
+  "seg": 132,
+  "start": 722.709,
+  "end": 724.791,
+  "speaker": "Unknown",
+  "en": "And this is another way to show that same result.",
+  "zh": "这是展示同一结果的另一种方式。"
+ },
+ {
+  "seg": 133,
+  "start": 725.632,
+  "end": 728.675,
+  "speaker": "Unknown",
+  "en": "So this is a benchmark that I ran called Continued Learning Bench.",
+  "zh": "所以这是我运行的一个基准测试，叫做 Continued Learning Bench。"
+ },
+ {
+  "seg": 134,
+  "start": 728.696,
+  "end": 729.617,
+  "speaker": "Unknown",
+  "en": "It's an open source benchmark.",
+  "zh": "这是一个开源基准。"
+ },
+ {
+  "seg": 135,
+  "start": 729.637,
+  "end": 730.558,
+  "speaker": "Unknown",
+  "en": "I took one of the tasks.",
+  "zh": "我取了其中一项任务。"
+ },
+ {
+  "seg": 136,
+  "start": 730.578,
+  "end": 738.366,
+  "speaker": "Unknown",
+  "en": "This is a task that basically asks the model to perform a sequential question answering with a SQL database, and it can write memory in between each step.",
+  "zh": "这是一项基本上要求模型执行使用 SQL 数据库的顺序问答的任务，并且它可以在每一步之间写入记忆。"
+ },
+ {
+  "seg": 137,
+  "start": 739.407,
+  "end": 744.573,
+  "speaker": "Unknown",
+  "en": "And what you see is basically the performance improves across models.",
+  "zh": "你看到的基本上是跨模型的性能提升。"
+ },
+ {
+  "seg": 138,
+  "start": 746.982,
+  "end": 754.886,
+  "speaker": "Unknown",
+  "en": "And so what this is kind of showing is that models get natively better at this in-band memory writing with respect to model capability.",
+  "zh": "所以这基本上展示了模型随着模型能力的提升，原生地更擅长这种带内记忆写入。"
+ },
+ {
+  "seg": 139,
+  "start": 756.326,
+  "end": 762.929,
+  "speaker": "Unknown",
+  "en": "And some of the most interesting things I've found from this are that the main differentiation between, there we go,",
+  "zh": "我从中发现的一些最有趣的事情是，主要区别在于，我们到了，"
+ },
+ {
+  "seg": 140,
+  "start": 764.43,
+  "end": 772.321,
+  "speaker": "Unknown",
+  "en": "The main differentiation between like a lower capacity model and a high capacity model is kind of this distillation step.",
+  "zh": "低容量模型和高容量模型之间的主要区别在于这种蒸馏步骤。"
+ },
+ {
+  "seg": 141,
+  "start": 772.361,
+  "end": 778.65,
+  "speaker": "Unknown",
+  "en": "And so basically higher capacity models have a better sense of like what abstraction to save to memory.",
+  "zh": "所以基本上高容量模型对保存什么抽象到记忆有更好的感觉。"
+ },
+ {
+  "seg": 142,
+  "start": 778.951,
+  "end": 779.972,
+  "speaker": "Unknown",
+  "en": "They'll be useful later.",
+  "zh": "它们以后会是有用的。"
+ },
+ {
+  "seg": 143,
+  "start": 780.633,
+  "end": 782.755,
+  "speaker": "Unknown",
+  "en": "Like, they're not just writing a specific fact.",
+  "zh": "就像，它们不仅仅是在写一个特定的事实。"
+ },
+ {
+  "seg": 144,
+  "start": 782.775,
+  "end": 785.416,
+  "speaker": "Unknown",
+  "en": "They're writing, how does this generalize to future sessions?",
+  "zh": "它们在写，这如何泛化到未来的会话中？"
+ },
+ {
+  "seg": 145,
+  "start": 785.496,
+  "end": 791.14,
+  "speaker": "Unknown",
+  "en": "That's kind of the key difference that I found that higher capacity models kind of have when they're writing memory.",
+  "zh": "这是我发现高容量模型在写入记忆时所具有的关键差异。"
+ },
+ {
+  "seg": 146,
+  "start": 791.16,
+  "end": 797.104,
+  "speaker": "Unknown",
+  "en": "So this is a very important thing to keep in mind, that models are getting better and better at this kind of in-band memory writing across model generations.",
+  "zh": "所以记住这一点非常重要，模型在跨模型代的这种带内记忆写入方面变得越来越好。"
+ },
+ {
+  "seg": 147,
+  "start": 799.346,
+  "end": 802.088,
+  "speaker": "Unknown",
+  "en": "Now, there's a little trick here which is very important.",
+  "zh": "现在，这里有一个小技巧非常重要。"
+ },
+ {
+  "seg": 148,
+  "start": 802.108,
+  "end": 805.23,
+  "speaker": "Unknown",
+  "en": "So we talked about kind of in-band memory, and we talked about dreaming.",
+  "zh": "所以我们谈到了带内记忆，我们谈到了做梦。"
+ },
+ {
+  "seg": 149,
+  "start": 805.27,
+  "end": 807.672,
+  "speaker": "Unknown",
+  "en": "So at night, I dream and I write things to, like, long-term memory.",
+  "zh": "所以在晚上，我做梦并把东西写入，比如，长期记忆。"
+ },
+ {
+  "seg": 150,
+  "start": 809.102,
+  "end": 816.255,
+  "speaker": "Unknown",
+  "en": "Dreaming is very important because when I'm writing memory in Bend over the course of a day, over the course of a session, sometimes you can write incorrect memories.",
+  "zh": "做梦非常重要，因为当我为 Bend 在一天内、在一次会话中写入记忆时，有时你会写入不正确的记忆。"
+ },
+ {
+  "seg": 151,
+  "start": 819.201,
+  "end": 823.062,
+  "speaker": "Unknown",
+  "en": "or you're writing things that are locally optimal, but not globally optimal.",
+  "zh": "或者你正在写入的是局部最优，而非全局最优的东西。"
+ },
+ {
+  "seg": 152,
+  "start": 823.082,
+  "end": 831.064,
+  "speaker": "Unknown",
+  "en": "So you're writing over the course of a task to kind of help you solve that task, but not necessarily looking forward to future tasks.",
+  "zh": "所以你在执行一个任务的过程中写入，是为了帮助解决那个任务，但不一定是为了展望未来的任务。"
+ },
+ {
+  "seg": 153,
+  "start": 831.924,
+  "end": 839.206,
+  "speaker": "Unknown",
+  "en": "This is a very important nuance, and this process of dreaming is kind of an offline or out-of-band process that we've used to consolidate and improve memory.",
+  "zh": "这是一个非常微妙的细节，这个做梦的过程是一种我们用来整合和改进记忆的离线或带外过程。"
+ },
+ {
+  "seg": 154,
+  "start": 840.346,
+  "end": 843.467,
+  "speaker": "Unknown",
+  "en": "And I want to show you a fun example that I've used dreaming for.",
+  "zh": "我想给你看一个我用做梦的有趣例子。"
+ },
+ {
+  "seg": 155,
+  "start": 844.608,
+  "end": 845.968,
+  "speaker": "Unknown",
+  "en": "So this is, again, Pokemon.",
+  "zh": "所以这是，再一次，宝可梦。"
+ },
+ {
+  "seg": 156,
+  "start": 846.973,
+  "end": 851.382,
+  "speaker": "Unknown",
+  "en": "And this is, I played a lot of games of Pokemon with Claude to find this.",
+  "zh": "这是我和 Claude 玩了很多局宝可梦才找到这个例子的。"
+ },
+ {
+  "seg": 157,
+  "start": 852.384,
+  "end": 855.229,
+  "speaker": "Unknown",
+  "en": "So this was a very hard one lesson, so I hope you appreciate it.",
+  "zh": "这是一个非常艰难的一课，所以我希望你能欣赏它。"
+ },
+ {
+  "seg": 158,
+  "start": 855.71,
+  "end": 856.752,
+  "speaker": "Unknown",
+  "en": "Okay, here's the point.",
+  "zh": "好的，重点来了。"
+ },
+ {
+  "seg": 159,
+  "start": 857.333,
+  "end": 858.896,
+  "speaker": "Unknown",
+  "en": "So basically what happened is,",
+  "zh": "所以基本上发生的事情是，"
+ },
+ {
+  "seg": 160,
+  "start": 860.22,
+  "end": 862.642,
+  "speaker": "Unknown",
+  "en": "Claude wrote an incorrect memory, okay?",
+  "zh": "Claude 写入了一条不正确的记忆，好吗？"
+ },
+ {
+  "seg": 161,
+  "start": 863.563,
+  "end": 868.967,
+  "speaker": "Unknown",
+  "en": "And what happened is this incorrect memory was related to the location of, the details don't actually matter.",
+  "zh": "发生的事情是，这条不正确的记忆与某个位置有关，细节其实并不重要。"
+ },
+ {
+  "seg": 162,
+  "start": 870.408,
+  "end": 880.777,
+  "speaker": "Unknown",
+  "en": "The point is that this incorrect memory causes Claude to mislocalize itself, or the Pokemon to mislocalize itself, and it falls through this trap door, okay?",
+  "zh": "关键在于，这条不正确的记忆导致 Claude 定错位，或者让宝可梦定错位，然后它掉进了这个陷阱门，好吗？"
+ },
+ {
+  "seg": 163,
+  "start": 880.797,
+  "end": 881.497,
+  "speaker": "Unknown",
+  "en": "That's the key point.",
+  "zh": "这是关键点。"
+ },
+ {
+  "seg": 164,
+  "start": 882.238,
+  "end": 883.459,
+  "speaker": "Unknown",
+  "en": "So it writes this incorrect memory.",
+  "zh": "所以它写入了这条不正确的记忆。"
+ },
+ {
+  "seg": 165,
+  "start": 883.599,
+  "end": 887.861,
+  "speaker": "Unknown",
+  "en": "This incorrect memory causes it to mislocalize in the game, and it falls down this trap.",
+  "zh": "这条不正确的记忆导致它在游戏中定位错误，然后掉进了这个陷阱。"
+ },
+ {
+  "seg": 166,
+  "start": 887.881,
+  "end": 889.122,
+  "speaker": "Unknown",
+  "en": "And this is very consistent.",
+  "zh": "这是非常一致的。"
+ },
+ {
+  "seg": 167,
+  "start": 889.142,
+  "end": 890.783,
+  "speaker": "Unknown",
+  "en": "So I saw this in five replicates.",
+  "zh": "所以我在五个重复实验中看到了这一点。"
+ },
+ {
+  "seg": 168,
+  "start": 890.823,
+  "end": 894.225,
+  "speaker": "Unknown",
+  "en": "Five out of five replicates with raw memory store fell down this trap.",
+  "zh": "五个中有五个使用原始记忆存储的重复实验都掉进了这个陷阱。"
+ },
+ {
+  "seg": 169,
+  "start": 894.965,
+  "end": 903.09,
+  "speaker": "Unknown",
+  "en": "With dreaming, this error is corrected, and it's able to properly localize itself and not fall down this trap.",
+  "zh": "有了做梦，这个错误被纠正了，它能够正确定位自己，并没有掉进这个陷阱。"
+ },
+ {
+  "seg": 170,
+  "start": 903.11,
+  "end": 905.011,
+  "speaker": "Unknown",
+  "en": "And I'll show you kind of a fun visualization of this.",
+  "zh": "我会给你展示这个的一个有趣的可视化。"
+ },
+ {
+  "seg": 171,
+  "start": 905.611,
+  "end": 909.575,
+  "speaker": "Unknown",
+  "en": "This is looking at kind of memory traces or basically traces of game progress.",
+  "zh": "这是在看记忆轨迹或者基本上游戏进度的轨迹。"
+ },
+ {
+  "seg": 172,
+  "start": 910.115,
+  "end": 912.878,
+  "speaker": "Unknown",
+  "en": "So going upwards on the y-axis is improvement.",
+  "zh": "在 y 轴上向上移动就是进步。"
+ },
+ {
+  "seg": 173,
+  "start": 912.898,
+  "end": 914.199,
+  "speaker": "Unknown",
+  "en": "That's like moving to the next level.",
+  "zh": "那就像进入下一关。"
+ },
+ {
+  "seg": 174,
+  "start": 914.599,
+  "end": 916.161,
+  "speaker": "Unknown",
+  "en": "Going down is backtracking.",
+  "zh": "向下移动是回溯。"
+ },
+ {
+  "seg": 175,
+  "start": 916.921,
+  "end": 923.387,
+  "speaker": "Unknown",
+  "en": "So what's interesting here, the no memory baseline, which is that gray bar, kind of doesn't make much progress at all.",
+  "zh": "这里有趣的是，无记忆基线，就是那个灰色条，基本上没有任何进展。"
+ },
+ {
+  "seg": 176,
+  "start": 923.868,
+  "end": 925.329,
+  "speaker": "Unknown",
+  "en": "It just kind of like is stuck.",
+  "zh": "它只是有点卡住了。"
+ },
+ {
+  "seg": 177,
+  "start": 925.369,
+  "end": 926.871,
+  "speaker": "Unknown",
+  "en": "It's like a particularly hard level, okay?",
+  "zh": "就像是一个特别难的关卡，好吗？"
+ },
+ {
+  "seg": 178,
+  "start": 928.34,
+  "end": 933.907,
+  "speaker": "Unknown",
+  "en": "the memory, which is the orange, actually keeps falling down this trap door and falls back, so it backtracks.",
+  "zh": "那个记忆，就是橙色的，实际上总是掉进这个陷阱门然后掉回去，所以它在回溯。"
+ },
+ {
+  "seg": 179,
+  "start": 934.348,
+  "end": 940.816,
+  "speaker": "Unknown",
+  "en": "The dreaming traces, though, consistently kind of fix this error in its memory and proceed to the next level.",
+  "zh": "但是做梦的轨迹，一致地修复了其记忆中的这个错误并进入了下一关。"
+ },
+ {
+  "seg": 180,
+  "start": 941.196,
+  "end": 945.341,
+  "speaker": "Unknown",
+  "en": "This is a very practical example of how dreaming can kind of work out of band",
+  "zh": "这是一个非常实际的例子，说明做梦如何在带外工作"
+ },
+ {
+  "seg": 181,
+  "start": 946.102,
+  "end": 954.887,
+  "speaker": "Unknown",
+  "en": "on your memory store to fix corrections because what it does is it looks at your memory store and it looks at all your prior traces or sessions and kind of can find and correct errors.",
+  "zh": "在你的记忆存储上修复纠正，因为它所做的就是查看你的记忆存储并查看你所有之前的轨迹或会话，并且可以发现并纠正错误。"
+ },
+ {
+  "seg": 182,
+  "start": 954.947,
+  "end": 955.627,
+  "speaker": "Unknown",
+  "en": "That's the key point.",
+  "zh": "这是关键点。"
+ },
+ {
+  "seg": 183,
+  "start": 955.647,
+  "end": 962.15,
+  "speaker": "Unknown",
+  "en": "And that's why the dreaming process can be very helpful because in band, while Cloud is writing to memory, it can make mistakes.",
+  "zh": "这就是为什么做梦过程非常有帮助，因为在带内，当 Cloud 写入记忆时，它可能会犯错。"
+ },
+ {
+  "seg": 184,
+  "start": 962.491,
+  "end": 965.832,
+  "speaker": "Unknown",
+  "en": "And those mistakes get stuck in memory unless you have an offline process to kind of correct them.",
+  "zh": "除非你有一个带外流程来纠正它们，否则这些错误会卡在记忆里。"
+ },
+ {
+  "seg": 185,
+  "start": 965.852,
+  "end": 966.773,
+  "speaker": "Unknown",
+  "en": "That's the key intuition.",
+  "zh": "这是关键直觉。"
+ },
+ {
+  "seg": 186,
+  "start": 969.94,
+  "end": 978.705,
+  "speaker": "Unknown",
+  "en": "And theme four, and I'll open up for questions after this, is what I think is kind of this trend that we're going to see moving towards org-level harnesses with async agents.",
+  "zh": "第四个主题，讲完这个我就开放提问，是我认为我们将看到的一个趋势，即转向具有异步智能体的组织级驾驭系统。"
+ },
+ {
+  "seg": 187,
+  "start": 980.186,
+  "end": 987.531,
+  "speaker": "Unknown",
+  "en": "And so we released CloudTag, and a lot of the reaction was like, ah, Slackbot.",
+  "zh": "所以我们发布了 CloudTag，很多反应就像是，啊，Slackbot。"
+ },
+ {
+  "seg": 188,
+  "start": 988.391,
+  "end": 990.873,
+  "speaker": "Unknown",
+  "en": "And like, look, I have actually created a lot of Slackbots myself.",
+  "zh": "而且，你看，我自己实际上创建了很多 Slackbot。"
+ },
+ {
+  "seg": 189,
+  "start": 990.893,
+  "end": 993.354,
+  "speaker": "Unknown",
+  "en": "I understand not every Slackbot is particularly interesting or great.",
+  "zh": "我理解并不是每个 Slackbot 都特别有趣或很棒。"
+ },
+ {
+  "seg": 190,
+  "start": 993.374,
+  "end": 996.036,
+  "speaker": "Unknown",
+  "en": "In fact, I've created many Slackbots that are quite bad.",
+  "zh": "事实上，我创建了很多非常糟糕的 Slackbot。"
+ },
+ {
+  "seg": 191,
+  "start": 996.856,
+  "end": 997.096,
+  "speaker": "Unknown",
+  "en": "But",
+  "zh": "但是"
+ },
+ {
+  "seg": 192,
+  "start": 998.057,
+  "end": 1001.818,
+  "speaker": "Unknown",
+  "en": "What's interesting about CloudTag is not the fact that it's accessible through Slack.",
+  "zh": "CloudTag 有趣的地方不在于它可以通过 Slack 访问这一事实。"
+ },
+ {
+  "seg": 193,
+  "start": 1001.838,
+  "end": 1008.46,
+  "speaker": "Unknown",
+  "en": "What's interesting about it is the fact that it has a very, very rich kind of system underneath it, which I want to just touch on briefly.",
+  "zh": "有趣的是它有一个非常非常丰富的系统在下面，我想简要地讲一下。"
+ },
+ {
+  "seg": 194,
+  "start": 1009.18,
+  "end": 1013.501,
+  "speaker": "Unknown",
+  "en": "And in particular, what's interesting about it is it represents what I would consider an org-level harness.",
+  "zh": "特别是，它有趣的地方在于它代表了我认为是组织级驾驭系统。"
+ },
+ {
+  "seg": 195,
+  "start": 1014.221,
+  "end": 1016.662,
+  "speaker": "Unknown",
+  "en": "So agents historically have been kind of single player.",
+  "zh": "所以智能体历史上一直是某种单玩家的。"
+ },
+ {
+  "seg": 196,
+  "start": 1016.962,
+  "end": 1022.804,
+  "speaker": "Unknown",
+  "en": "So you have an agent like Cloud Code on your machine with your local context that you've tuned and configured for yourself.",
+  "zh": "所以你有一个像 Cloud Code 这样的智能体在你的机器上，带有你为你自己调整和配置的本地上下文。"
+ },
+ {
+  "seg": 197,
+  "start": 1023.704,
+  "end": 1028.668,
+  "speaker": "Unknown",
+  "en": "What's interesting about Cloud Tag is it is a harness that everyone in the organization has access to and can use.",
+  "zh": "Cloud Tag 有趣的地方在于它是一个组织中的每个人都可以访问和使用的驾驭系统。"
+ },
+ {
+  "seg": 198,
+  "start": 1029.529,
+  "end": 1030.97,
+  "speaker": "Unknown",
+  "en": "So it is a multiplayer harness.",
+  "zh": "所以它是一个多人驾驭系统。"
+ },
+ {
+  "seg": 199,
+  "start": 1031.63,
+  "end": 1033.952,
+  "speaker": "Unknown",
+  "en": "And what's nice about that is it has its own identity.",
+  "zh": "这样做的好处是它有自己的身份。"
+ },
+ {
+  "seg": 200,
+  "start": 1034.112,
+  "end": 1036.074,
+  "speaker": "Unknown",
+  "en": "Its identity and credentials are not tied to a given user.",
+  "zh": "它的身份和凭证不与特定用户绑定。"
+ },
+ {
+  "seg": 201,
+  "start": 1036.634,
+  "end": 1040.257,
+  "speaker": "Unknown",
+  "en": "And it has access to organization-level context, not just my local context.",
+  "zh": "并且它可以访问组织级上下文,而不仅仅是我的本地上下文。"
+ },
+ {
+  "seg": 202,
+  "start": 1041.177,
+  "end": 1043.759,
+  "speaker": "Unknown",
+  "en": "This has many interesting and useful implications.",
+  "zh": "这具有许多有趣且有用的含义。"
+ },
+ {
+  "seg": 203,
+  "start": 1044.845,
+  "end": 1067.118,
+  "speaker": "Unknown",
+  "en": "including the ability to check others' work before you do an experiment, the ability to kind of deduplicate findings, the ability to do internal research, the ability to give everyone access to kind of a very well-developed harness on day one, whereas when you have your own personal harness, often new employees, it takes them weeks or maybe even months to kind of ramp up fully to configure all the right connectors and so forth.",
+  "zh": "包括在您进行实验之前检查他人工作的能力,某种程度上去重发现的能力,进行内部研究的能力,让每个人在第一天就能使用一个非常完善的 harness 的能力,而当你拥有自己的个人 harness 时,对于新员工来说,往往需要他们几周甚至几个月的时间才能完全提升并配置所有正确的连接器等等。"
+ },
+ {
+  "seg": 204,
+  "start": 1067.718,
+  "end": 1071.541,
+  "speaker": "Unknown",
+  "en": "So Oracle Harnesses are a real leveler of the playing field, and I think it was,",
+  "zh": "所以 Oracle Harnesses 真的拉平了竞争环境,我认为这是,"
+ },
+ {
+  "seg": 205,
+  "start": 1072.281,
+  "end": 1080.188,
+  "speaker": "Unknown",
+  "en": "People kind of saw the Slackbot piece, but they didn't really appreciate the depth of benefit you get from building out org-level harnesses.",
+  "zh": "人们看到了 Slackbot 这部分,但他们并没有真正认识到构建组织级 harness 所带来的深度益处。"
+ },
+ {
+  "seg": 206,
+  "start": 1080.248,
+  "end": 1082.39,
+  "speaker": "Unknown",
+  "en": "So I do think that was kind of an important thing to note.",
+  "zh": "所以我确实认为这是需要注意的一件重要事情。"
+ },
+ {
+  "seg": 207,
+  "start": 1083.311,
+  "end": 1092.46,
+  "speaker": "Unknown",
+  "en": "And I think we're going to see the rise of kind of harnesses that operate across orgs, across many different users that can operate increasingly on longer async harnesses.",
+  "zh": "我认为我们将看到跨组织运行的 harness 的兴起,跨许多不同的用户,可以在更长的异步 harness 上运行。"
+ },
+ {
+  "seg": 208,
+  "start": 1094.39,
+  "end": 1096.852,
+  "speaker": "Unknown",
+  "en": "async agents that can operate on longer time frames.",
+  "zh": "可以在更长的时间范围内运行的异步 agents。"
+ },
+ {
+  "seg": 209,
+  "start": 1096.912,
+  "end": 1100.015,
+  "speaker": "Unknown",
+  "en": "That's kind of one clear kind of follow-up that I think we're gonna see from this.",
+  "zh": "我认为这是我们将会看到的一个明显的后续发展。"
+ },
+ {
+  "seg": 210,
+  "start": 1101.015,
+  "end": 1108.421,
+  "speaker": "Unknown",
+  "en": "And another thing I think we're gonna see is that asynchronous agents are gonna be increasingly proactive.",
+  "zh": "我认为我们将看到的另一件事是,异步 agents 将变得越来越主动。"
+ },
+ {
+  "seg": 211,
+  "start": 1108.962,
+  "end": 1114.006,
+  "speaker": "Unknown",
+  "en": "So typically with, for example, like locally scoped agents, they tend to be reactive.",
+  "zh": "因此,通常对于例如本地范围的 agents,它们往往是反应性的。"
+ },
+ {
+  "seg": 212,
+  "start": 1114.046,
+  "end": 1115.787,
+  "speaker": "Unknown",
+  "en": "They're responsive to how you steer it.",
+  "zh": "它们响应您的引导。"
+ },
+ {
+  "seg": 213,
+  "start": 1116.388,
+  "end": 1120.131,
+  "speaker": "Unknown",
+  "en": "Versus async agents increasingly have the ability to steer proactivity.",
+  "zh": "而 async agents 越来越有能力引导主动性。"
+ },
+ {
+  "seg": 214,
+  "start": 1120.691,
+  "end": 1122.452,
+  "speaker": "Unknown",
+  "en": "And that's one very nice thing about CloudTag.",
+  "zh": "这是 CloudTag 的一个非常好的地方。"
+ },
+ {
+  "seg": 215,
+  "start": 1123.954,
+  "end": 1133.044,
+  "speaker": "Unknown",
+  "en": "where basically you can configure it to tell you things when like looking at this org level context, alert me with things I might need to know about.",
+  "zh": "基本上你可以配置它,比如在查看这个组织级上下文时,用我可能需要知道的事情来提醒我。"
+ },
+ {
+  "seg": 216,
+  "start": 1134.205,
+  "end": 1140.672,
+  "speaker": "Unknown",
+  "en": "And this is a very important kind of new kind of UX that I think is gonna be more and more common with async agents that kind of have access to organizational context.",
+  "zh": "这是一种非常重要的新型用户体验,我认为随着能够访问组织上下文的 async agents,这将变得越来越普遍。"
+ },
+ {
+  "seg": 217,
+  "start": 1141.869,
+  "end": 1142.91,
+  "speaker": "Unknown",
+  "en": "and, of course, multiplayer.",
+  "zh": "当然还有多人协作。"
+ },
+ {
+  "seg": 218,
+  "start": 1142.97,
+  "end": 1153.998,
+  "speaker": "Unknown",
+  "en": "So the ability for a single harness to be steered by many, many different people kind of concurrently is an important shift in Agent UX that I think will be quite interesting going forward.",
+  "zh": "因此,单个 harness 可以被许多不同的人同时引导的能力,我认为这是 Agent UX 中一个重要的转变,未来会非常有趣。"
+ },
+ {
+  "seg": 219,
+  "start": 1154.058,
+  "end": 1160.402,
+  "speaker": "Unknown",
+  "en": "So yeah, let me just open up for questions, and thank you for listening.",
+  "zh": "好的,我就开放提问,感谢大家的聆听。"
+ },
+ {
+  "seg": 220,
+  "start": 1170.77,
+  "end": 1170.93,
+  "speaker": "Unknown",
+  "en": "Sure.",
+  "zh": "当然。"
+ },
+ {
+  "seg": 221,
+  "start": 1173.483,
+  "end": 1173.803,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 222,
+  "start": 1173.923,
+  "end": 1174.243,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 223,
+  "start": 1200.666,
+  "end": 1201.066,
+  "speaker": "Unknown",
+  "en": "I see.",
+  "zh": "我明白了。"
+ },
+ {
+  "seg": 224,
+  "start": 1201.406,
+  "end": 1208.888,
+  "speaker": "Unknown",
+  "en": "So the question was kind of on the gap between the Frontier models kind of on, for example, a benchmark like Meter on long horizon tasks?",
+  "zh": "所以问题基本上是关于 Frontier 模型之间的差距,例如在像 Meter 这样的长视距任务基准上。"
+ },
+ {
+  "seg": 225,
+  "start": 1210.068,
+  "end": 1210.488,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 226,
+  "start": 1211.329,
+  "end": 1211.489,
+  "speaker": "Unknown",
+  "en": "OK.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 227,
+  "start": 1212.469,
+  "end": 1221.191,
+  "speaker": "Unknown",
+  "en": "So in the latest results that I saw from, for example, Codex 5.6, I think it also kind of is in that 12 plus hour regime on Meter.",
+  "zh": "所以在我看到的例如 Codex 5.6 的最新结果中,我认为它也处于 Meter 上的 12 小时以上这个范围。"
+ },
+ {
+  "seg": 228,
+  "start": 1221.251,
+  "end": 1229.113,
+  "speaker": "Unknown",
+  "en": "So I think you're right that the Frontier models, like the Mythos class models, strong models from OpenAI, kind of are in this 12 plus hour regime.",
+  "zh": "所以我认为你是对的,Frontier 模型,比如 Mythos 类别的模型,来自 OpenAI 的强大模型,都处于这个 12 小时以上的范围。"
+ },
+ {
+  "seg": 229,
+  "start": 1232.474,
+  "end": 1236.96,
+  "speaker": "Unknown",
+  "en": "why is it that non-frontier models are not kind of in that regime?",
+  "zh": "为什么非 Frontier 模型不处于这个范围呢?"
+ },
+ {
+  "seg": 230,
+  "start": 1237,
+  "end": 1238.822,
+  "speaker": "Unknown",
+  "en": "I am actually not necessarily sure.",
+  "zh": "我实际上并不确定。"
+ },
+ {
+  "seg": 231,
+  "start": 1239.343,
+  "end": 1247.393,
+  "speaker": "Unknown",
+  "en": "I do think in order to build agents that can effectively operate in this regime,",
+  "zh": "我确实认为,为了构建能够在这个范围内有效运作的 agents,"
+ },
+ {
+  "seg": 232,
+  "start": 1248.034,
+  "end": 1250.255,
+  "speaker": "Unknown",
+  "en": "It's important to know that it's not just the model capability.",
+  "zh": "重要的是要知道这不仅仅是模型能力。"
+ },
+ {
+  "seg": 233,
+  "start": 1250.775,
+  "end": 1257.117,
+  "speaker": "Unknown",
+  "en": "Like, for example, with the Cloud Tag product, it's actually a combination of improvement in memory because memory is very important.",
+  "zh": "例如,对于 Cloud Tag 产品来说,它实际上是记忆改进的组合,因为记忆非常重要。"
+ },
+ {
+  "seg": 234,
+  "start": 1257.137,
+  "end": 1265.8,
+  "speaker": "Unknown",
+  "en": "If you have agents working for, for example, 12 hours, you want to make sure that your productivity preferences are well encoded in memory so it knows when to reach out to you if it gets stuck, for example.",
+  "zh": "如果你有 agents 工作了 12 小时,你想确保你的生产力偏好被很好地编码在记忆中,这样如果它卡住了,它就知道何时联系你。"
+ },
+ {
+  "seg": 235,
+  "start": 1266.34,
+  "end": 1267.741,
+  "speaker": "Unknown",
+  "en": "So memory is very important.",
+  "zh": "所以记忆非常重要。"
+ },
+ {
+  "seg": 236,
+  "start": 1267.781,
+  "end": 1268.981,
+  "speaker": "Unknown",
+  "en": "Security is very important.",
+  "zh": "安全非常重要。"
+ },
+ {
+  "seg": 237,
+  "start": 1269.001,
+  "end": 1270.201,
+  "speaker": "Unknown",
+  "en": "So resistance to prompt injection.",
+  "zh": "所以对 prompt injection 的抵抗力。"
+ },
+ {
+  "seg": 238,
+  "start": 1271.922,
+  "end": 1279.8,
+  "speaker": "Unknown",
+  "en": "also like model architecture like kind of the asian architecture is very important that the coupling of brain and hand so it's secure and safe and like resistant to failure so actually i think",
+  "zh": "还有像模型架构,像 asian 架构非常重要,大脑和手的耦合,所以它是安全的、可靠的并且对故障有抵抗力,所以实际上我认为"
+ },
+ {
+  "seg": 239,
+  "start": 1281.12,
+  "end": 1290.588,
+  "speaker": "Unknown",
+  "en": "to build real agents that can operate in these long time horizons, a bunch of things need to come together in terms of like architecture, infrastructure, security, memory.",
+  "zh": "要构建能够在这些长时范围内运作的真实 agents,需要在架构、基础设施、安全、记忆等方面将许多事情结合起来。"
+ },
+ {
+  "seg": 240,
+  "start": 1291.148,
+  "end": 1297.873,
+  "speaker": "Unknown",
+  "en": "That might be why, but Frontier Labs invested in all these areas, so that might be why you see kind of a gap in terms of like the agent products that we've released.",
+  "zh": "这可能就是原因,但 Frontier Labs 在所有这些领域都进行了投资,所以这可能就是为什么你会看到我们发布的 agent 产品存在这种差距。"
+ },
+ {
+  "seg": 241,
+  "start": 1297.893,
+  "end": 1303.518,
+  "speaker": "Unknown",
+  "en": "And so we spent a lot of time, for example, building managed agents to kind of have these kind of considerations baked in.",
+  "zh": "所以我们花了很多时间,例如构建 managed agents 以将这些考虑 baked in。"
+ },
+ {
+  "seg": 242,
+  "start": 1304.959,
+  "end": 1306.12,
+  "speaker": "Unknown",
+  "en": "Yeah, sure.",
+  "zh": "好的,当然。"
+ },
+ {
+  "seg": 243,
+  "start": 1325.338,
+  "end": 1326.739,
+  "speaker": "Unknown",
+  "en": "Yeah, okay, this is interesting.",
+  "zh": "好的,好的,这很有趣。"
+ },
+ {
+  "seg": 244,
+  "start": 1327.919,
+  "end": 1334.702,
+  "speaker": "Unknown",
+  "en": "The question was about kind of like the best memory substrate, so like why file systems versus, for example, databases.",
+  "zh": "问题是关于最好的记忆 substrate,所以为什么是文件系统 versus 例如数据库。"
+ },
+ {
+  "seg": 245,
+  "start": 1337.203,
+  "end": 1342.566,
+  "speaker": "Unknown",
+  "en": "This is kind of a subtle point that actually I want to think about carefully.",
+  "zh": "这是一个微妙的点,实际上我想仔细考虑一下。"
+ },
+ {
+  "seg": 246,
+  "start": 1343.186,
+  "end": 1347.048,
+  "speaker": "Unknown",
+  "en": "So I don't necessarily think that...",
+  "zh": "所以我不一定认为……"
+ },
+ {
+  "seg": 247,
+  "start": 1348.308,
+  "end": 1350.691,
+  "speaker": "Unknown",
+  "en": "it has to be the case that you use a file system for memory.",
+  "zh": "你必须使用文件系统来作为记忆。"
+ },
+ {
+  "seg": 248,
+  "start": 1351.251,
+  "end": 1361.863,
+  "speaker": "Unknown",
+  "en": "I think what's quite important that we've seen is that you want something that is highly programmable with simple primitives that the model can manipulate to write and manage its own memory.",
+  "zh": "我认为我们看到非常重要的一点是,你需要一些东西是高度可编程的,具有简单的 primitives,模型可以操作它来写入和管理它自己的记忆。"
+ },
+ {
+  "seg": 249,
+  "start": 1362.383,
+  "end": 1366.888,
+  "speaker": "Unknown",
+  "en": "So, for example, a database could work fine relative to the file system.",
+  "zh": "因此,例如,数据库相对于文件系统可以工作得很好。"
+ },
+ {
+  "seg": 250,
+  "start": 1367.9,
+  "end": 1381.424,
+  "speaker": "Unknown",
+  "en": "But what I've seen doesn't work is when you specify the structure of memory for the model very explicitly, whether that's in a file system or database or whatever, like a memory schema, I kind of pre-populate, here's the types of memories you need to save.",
+  "zh": "但我看到的行不通的是，当你非常明确地为模型指定内存的结构，无论是在文件系统还是数据库或任何东西中，比如一个内存架构，我有点预先填充，这些是你需要保存的内存类型。"
+ },
+ {
+  "seg": 251,
+  "start": 1382.064,
+  "end": 1390.647,
+  "speaker": "Unknown",
+  "en": "Because that ends up being not very bitter lesson built in the sense that models can learn to manage their own memory much better than you can intuit these memory types for the model ahead of time.",
+  "zh": "因为那最终并没有建立苦涩教训，在这个意义上，模型可以学会管理自己的内存，比你可以提前为模型凭直觉设计这些内存类型要好得多。"
+ },
+ {
+  "seg": 252,
+  "start": 1391.227,
+  "end": 1392.628,
+  "speaker": "Unknown",
+  "en": "So I think what we've seen is that",
+  "zh": "所以我认为我们看到的是"
+ },
+ {
+  "seg": 253,
+  "start": 1393.368,
+  "end": 1407.053,
+  "speaker": "Unknown",
+  "en": "very general substrates for memory, be it just your database or file system are good because the model can manage them freely versus a very, very kind of like prescriptive memory schema that you're trying to pigeonhole the model into.",
+  "zh": "非常常规的内存底层，无论是你的数据库还是文件系统都是好的，因为模型可以自由地管理它们，而不是一个非常、非常的规定性内存架构，你试图把模型塞进这个格子里。"
+ },
+ {
+  "seg": 254,
+  "start": 1407.114,
+  "end": 1408.934,
+  "speaker": "Unknown",
+  "en": "That's when you see performance drop.",
+  "zh": "那就是你看到性能下降的时候。"
+ },
+ {
+  "seg": 255,
+  "start": 1409.274,
+  "end": 1410.455,
+  "speaker": "Unknown",
+  "en": "That's the key differentiation.",
+  "zh": "那是关键的区别。"
+ },
+ {
+  "seg": 256,
+  "start": 1415.457,
+  "end": 1415.637,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对的。"
+ },
+ {
+  "seg": 257,
+  "start": 1417.253,
+  "end": 1418.014,
+  "speaker": "Unknown",
+  "en": "That's the key point.",
+  "zh": "这是关键点。"
+ },
+ {
+  "seg": 258,
+  "start": 1418.614,
+  "end": 1420.575,
+  "speaker": "Unknown",
+  "en": "Let the model structure and maintain its own memory.",
+  "zh": "让模型构建和维护它自己的内存。"
+ },
+ {
+  "seg": 259,
+  "start": 1421.096,
+  "end": 1423.097,
+  "speaker": "Unknown",
+  "en": "Don't give it a prescribed memory schema.",
+  "zh": "不要给它一个规定的内存架构。"
+ },
+ {
+  "seg": 260,
+  "start": 1423.937,
+  "end": 1429.501,
+  "speaker": "Unknown",
+  "en": "And that's a common failure, because models are getting good enough that they can manage their own memory much more effectively than you can reason about.",
+  "zh": "这是一个常见的失败，因为模型变得足够好，它们可以更有效地管理自己的内存，比你可以推理的更有效。"
+ },
+ {
+  "seg": 261,
+  "start": 1430.141,
+  "end": 1440.348,
+  "speaker": "Unknown",
+  "en": "This is very classically bitter lesson pill, but models can reason about their own memory and context structure much better than you can prescribe for them a way to structure their own memories.",
+  "zh": "这是非常经典的苦涩教训药丸，但模型可以推理它们自己的内存和上下文结构，比你可以为它们规定一种构建自己内存的方式要好得多。"
+ },
+ {
+  "seg": 262,
+  "start": 1440.788,
+  "end": 1441.729,
+  "speaker": "Unknown",
+  "en": "That's the key observation.",
+  "zh": "这是关键的观察。"
+ },
+ {
+  "seg": 263,
+  "start": 1447.153,
+  "end": 1467.207,
+  "speaker": "Unknown",
+  "en": "yes that's right exactly general substrates for for memory management yep yes okay so that's a good point basically the question is",
+  "zh": "是的没错正是用于内存管理的通用底层是的好的所以这是个好观点基本上问题是"
+ },
+ {
+  "seg": 264,
+  "start": 1468.25,
+  "end": 1474.272,
+  "speaker": "Unknown",
+  "en": "So you do this dreaming thing, you look at the sessions, you look at the memory store, you update the memory store, how do you know those are correct?",
+  "zh": "所以你做这个做梦的事情，你看这些会话，你看内存存储，你更新内存存储，你怎么知道那些是正确的？"
+ },
+ {
+  "seg": 265,
+  "start": 1476.213,
+  "end": 1478.134,
+  "speaker": "Unknown",
+  "en": "So evaluations obviously are one way to do it.",
+  "zh": "所以评估显然是一种方法。"
+ },
+ {
+  "seg": 266,
+  "start": 1479.474,
+  "end": 1484.476,
+  "speaker": "Unknown",
+  "en": "This is kind of a fun anecdotal example from Pokemon showing that you can perform corrections via dreaming.",
+  "zh": "这是来自 Pokemon 的一个有趣的轶事例子，表明你可以通过做梦来执行修正。"
+ },
+ {
+  "seg": 267,
+  "start": 1485.556,
+  "end": 1492.439,
+  "speaker": "Unknown",
+  "en": "The key point is that we've actually run a lot of different evals showing that dreaming can indeed improve performance for very intuitive reasons as you see here.",
+  "zh": "关键点是我们实际上运行了很多不同的评估，表明做梦确实可以提高性能，出于非常直观的原因，正如你在这里看到的。"
+ },
+ {
+  "seg": 268,
+  "start": 1492.879,
+  "end": 1497.461,
+  "speaker": "Unknown",
+  "en": "But of course, evals are important in your own context to confirm it's actually worth the offline compute.",
+  "zh": "但当然，评估在你自己的上下文中很重要，以确认它实际上值得这些离线计算。"
+ },
+ {
+  "seg": 269,
+  "start": 1498.689,
+  "end": 1499.95,
+  "speaker": "Unknown",
+  "en": "Yep, I guess we're done.",
+  "zh": "好的，我想我们结束了。"
+ },
+ {
+  "seg": 270,
+  "start": 1500.37,
+  "end": 1500.831,
+  "speaker": "Unknown",
+  "en": "Thank you all.",
+  "zh": "谢谢大家。"
+ }
+]

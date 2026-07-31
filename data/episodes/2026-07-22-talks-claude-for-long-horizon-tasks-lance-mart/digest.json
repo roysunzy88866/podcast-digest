@@ -1,0 +1,153 @@
+{
+  "title_zh": "Claude 异步智能体架构的四块基石",
+  "tldr": "从十分钟任务到自主跑十二小时,异步智能体在架构上需要做对四件事。",
+  "digest_md": "要跑一个能自主工作十二个小时、甚至能处理几十万行代码库的智能体,最大的障碍早就不是模型聪不聪明,而是你怎么给它的记忆和验证做架构设计——你得给它配一套能做梦、能自我纠正的外部脑子。讲这话的人来自 Anthropic,这一集他拆解了支撑 Claude 长时程异步智能体的四大设计主题,核心是最近推出的 Cloud Managed Agents 平台背后的架构思考。\n\n所谓异步智能体(一种你派出去干活、不用全程盯着、干完或卡住才回来找你的程序),它的能力上限直接由模型的任务视界(模型能连续自主完成工作的最长时间)决定。演讲者把 Claude 的演进分成三阶段:在 Opus 3 时代,模型大概只能连续自主干十到二十分钟,那时只适合做自动补全或聊天这种你深度在环的活儿;过去一年,像 Claude Code 这种同步编码智能体兴起,模型能扛住大约一小时的活儿;直到最近几个月,模型终于能连续干十二小时以上的工作,异步这种产品形态才真正好用 [01:01]。伴随着任务视界的拉长,API 也在进化:两年前只有最基础的 Messages API(你给提示词、它给响应,只适合你自己搭工作框架);后来发布了 Agent SDK,相当于官方把工作框架直接打包给你;而从四月起,他们推出了 Managed Agents,把工作框架连同部署基础设施全包了 [02:39]。\n\n明白了时间视界为什么决定了产品形态,接下来要问的是:让模型长时间自主干活,架构上到底该怎么搭?\n\n这就要讲到第一个主题:把大脑和手解耦 [03:19]。最直观的架构是把工作框架(harness,即指挥模型干活的控制程序)和沙箱(实际干活的执行环境)塞在同一个容器里。但问题在于,一旦这个容器崩溃,你整个会话连同之前的进度就全丢了。更让人脊背发凉的是安全问题:如果你把一堆系统密钥也放在这个容器里,让模型连着跑十个小时而你没在旁边盯着,这就太危险了。所以他们把架构拆成了两部分:大脑(工作框架)变成了一个无状态进程,它只负责跟一个会话对话;这个会话是一个只追加(append-only,即只往里添新内容、不修改旧内容)的事件日志;而实际干活的双手就是一堆纯粹的容器 [04:13]。大脑去指挥这些手干活,而且一个大脑可以同时管很多双手 [04:39]。这种解耦非常优雅:沙箱挂了也没事,因为进度都在那个只追加的日志里;密钥被单独存在保险库里,从不直接进沙箱。\n\n架构有了安全感,但模型怎么保证自己长跑时不犯错?这引出了第二个主题:使用验证器 [06:20]。如果你让同一个模型、在同一个上下文里既干活又给自己打分,它往往会自我感觉良好,产生各种幻觉。更好的做法是把验证这个动作分离出去,放到一个完全独立的上下文窗口里,专门为审查工作做优化。具体做法是建一个构建智能体和一个验证器智能体:验证器拿着你设定的目标或标准,不断去挑构建智能体的刺,两者形成一个循环。只有当独立验证器确认目标达成、退出循环时,任务才算结束。演讲者拿 OpenAI 发起的一个挑战打了比方:他给 Opus 4.7 和更高容量的前沿模型配上这套验证循环,让它们去搞机器学习训练实验,结果发现高容量模型配上这套循环,能自己连续迭代二十次直到完全达标 [08:57]。因为这套范式不再需要人类去来回纠正,而是把纠正的信号直接写进了环境里,模型就能自己闭环完成长程任务 [09:31]。\n\n模型能闭环干活了,但它能像人一样积累经验、越干越好吗?这正是第三个主题自我学习的核心,答案藏在两个机制里。\n\n第一个机制叫带内记忆(in-band memory,即模型在执行任务的线路上实时写记忆) [11:04]。你只要给模型一个文件系统作为记忆目录,它就能边干边记。演讲者发现,像 Sonnet 3.5 这种稍早的模型,写出来的记忆往往是很差劲的战术碎片;但更新的模型,比如 4.6,已经能写出非常有战略性的笔记 [11:25]。他用一个开源基准测试说明:高容量模型的关键优势在于它们多了一个蒸馏(distillation,即从具体信息中提炼出可复用的抽象规律)步骤 [12:44]。\n\n但只靠边干边记会出大问题,于是有了第二个机制:做梦 [13:22]。在漫长任务中,模型有时会写下一些局部最优(只对当前这一步有用)甚至是完全错误的记忆。演讲者拿玩宝可梦游戏举了个极其生动的例子:Claude 写错了一条关于位置的记忆,结果导致游戏角色一直走错位,次次掉进陷阱门。在五次测试中,只靠带内记忆的模型五次全掉坑。而引入做梦机制后——也就是在离线状态下,回头审视之前所有的记忆和运行轨迹,找出并修正这些错误——模型就能纠正偏差,顺利过关 [14:20]。所以,带内写记忆会犯错,而做梦这个离线过程就是用来纠错的,它俩缺一不可。\n\n把记忆和架构都解决了,最后一个主题是关于整个组织的协作:我们将走向组织级驾驭系统(org-level harness,即整个团队共享而非单兵使用的智能体工作框架) [16:09]。他们发布了 CloudTag,大家第一反应是不就是个 Slackbot(运行在聊天软件里的机器人)嘛。但演讲者强调,它的精髓不在于接入了 Slack,而在于底下的那套多人共享系统:它有自己独立的身份和凭证,不绑定某一个用户;它能访问整个组织的上下文,而不只是你本地的上下文 [17:09]。这带来的好处是颠覆性的:新人入职第一天就能用上配置最完善的工作框架;它能在你动手做实验前去查别人是不是已经做过了;它甚至能主动巡视组织里的动态,在关键时刻主动提醒你该注意什么,而不是被动等你提问 [17:24]。未来,这种能被组织里许多人同时引导、在更长时间跨度上自主运作的智能体,将成为主流 [19:02]。\n\n## 本集带走\n\n最后收个尾,这一集值得带走的是这几层意思。第一,长跑智能体的根基在于把大脑和手解耦,把状态变成只追加的日志,把密钥锁进单独的保险库,这样既不怕崩溃又安全。第二,别让模型自己给自己打分,把验证器单独拎出来,让构建和验证形成一个循环,这是实现自主长跑的通用原语。第三,模型的记忆系统也分两半:边干边记的带内机制负责捕捉信息,但难免会写错或者只顾眼前;离线的做梦机制则负责审视全局、修正错误。第四,未来的智能体不再是单打独斗,而是带有独立身份的组织级驾驭系统,新人第一天就能用上全套工具,它甚至能主动巡视全局、给你未问先答的提醒。",
+  "quotes": [
+    {
+      "en": "But when models can only do like an hour of work, async as an experience is kind of bad.",
+      "zh": "但是当模型只能做大约一小时的工作时，异步作为一种体验是很糟糕的。",
+      "timestamp": "01:48",
+      "speaker": "Lance Martin"
+    },
+    {
+      "en": "Because what happens is instead of encoding steering into me as the human, you're encoding the signal into the environment.",
+      "zh": "因为发生的事情是，与其将转向编码到我作为人类身上，不如将信号编码到环境中。",
+      "timestamp": "09:31",
+      "speaker": "Lance Martin"
+    },
+    {
+      "en": "Because that ends up being not very bitter lesson built in the sense that models can learn to manage their own memory much better than you can intuit these memory types for the model ahead of time.",
+      "zh": "因为那最终并没有建立苦涩教训，在这个意义上，模型可以学会管理自己的内存，比你可以提前为模型凭直觉设计这些内存类型要好得多。",
+      "timestamp": "23:02",
+      "speaker": "Lance Martin"
+    },
+    {
+      "en": "This is very classically bitter lesson pill, but models can reason about their own memory and context structure much better than you can prescribe for them a way to structure their own memories.",
+      "zh": "这是非常经典的苦涩教训药丸，但模型可以推理它们自己的内存和上下文结构，比你可以为它们规定一种构建自己内存的方式要好得多。",
+      "timestamp": "23:50",
+      "speaker": "Lance Martin"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "But when models can only do like an hour of work, async as an experience is kind of bad.",
+      "zh": "但是当模型只能做大约一小时的工作时，异步作为一种体验是很糟糕的。",
+      "timestamp": "01:48",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "So the story here is that the harness becomes a stateless process.",
+      "zh": "这里的故事是，harness 变成了一个无状态进程。",
+      "timestamp": "04:21",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "that talks to a session, the session is an append-only event log, and that can reach out to hands which are just containers.",
+      "zh": "它与一个会话对话，该会话是一个仅追加的事件日志，并且可以伸出手，也就是那些容器。",
+      "timestamp": "04:28",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "What we saw is we actually lose the session.",
+      "zh": "我们看到的是我们实际上丢失了会话。",
+      "timestamp": "03:39",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "So, basically, this architecture is kind of tricky for long horizon agents because what can happen is your agent is running and if that container dies, you lose everything with it.",
+      "zh": "所以，基本上，这种架构对于长视界智能体来说有点棘手，因为可能发生的是你的智能体正在运行，如果那个容器挂了，你会失去所有东西。",
+      "timestamp": "03:42",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Also, as models get more capable, putting the credentials in the same container with the agent itself can be problematic.",
+      "zh": "此外，随着模型变得更有能力，将凭证放在与智能体本身相同的容器中可能会是有问题的。",
+      "timestamp": "03:54",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "So, for example, giving Cloud access to a bunch of your secrets and letting it run for 10 hours and you're not watching it can be a little bit spooky and has some security concerns, especially as models get extremely capable.",
+      "zh": "所以，例如，给予 Cloud 对你的一堆秘密的访问权限并让它运行 10 个小时而你没有监视它，可能有点令人毛骨悚然，并且有一些安全问题，特别是随着模型变得非常有能力。",
+      "timestamp": "04:02",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "it basically creates a very, very nice architecture for context engineering because the core context object is immutable in the sense that it's non-destructive and you only append to it over time.",
+      "zh": "它基本上为上下文工程创造了一个非常好的架构，因为核心上下文对象在某种意义上是不可变的，即它是非破坏性的，你只是随着时间的推移向其追加内容。",
+      "timestamp": "06:02",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And so what we found is it's quite effective to separate verification into a separate context window.",
+      "zh": "所以我们发现，将验证分离到一个单独的上下文窗口中是相当有效的。",
+      "timestamp": "07:00",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Because what happens is instead of encoding steering into me as the human, you're encoding the signal into the environment.",
+      "zh": "因为发生的事情是，与其将转向编码到我作为人类身上，不如将信号编码到环境中。",
+      "timestamp": "09:31",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "So the main point I'm trying to make here is that this paradigm of loops, which a lot of people have been talking about today, paired with very capacity models is a very good general primitive for long-running asynchronous work.",
+      "zh": "所以我在这里试图提出的主要观点是，这种很多人今天都在谈论的循环范式，配合高容量模型，是用于长时间运行的异步工作的一个非常好的通用原语。",
+      "timestamp": "09:52",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "The main differentiation between like a lower capacity model and a high capacity model is kind of this distillation step.",
+      "zh": "低容量模型和高容量模型之间的主要区别在于这种蒸馏步骤。",
+      "timestamp": "12:44",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "So basically higher capacity models have a better sense of like what abstraction to save to memory.",
+      "zh": "所以基本上高容量模型对保存什么抽象到记忆有更好的感觉。",
+      "timestamp": "12:52",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Five out of five replicates with raw memory store fell down this trap.",
+      "zh": "五个中有五个使用原始记忆存储的重复实验都掉进了这个陷阱。",
+      "timestamp": "14:50",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "So Oracle Harnesses are a real leveler of the playing field, and I think it was,",
+      "zh": "所以 Oracle Harnesses 真的拉平了竞争环境，我认为这是,",
+      "timestamp": "17:47",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Therefore, it is a multiplayer harness.",
+      "zh": "因此，它是一个多人驾驭系统。",
+      "timestamp": "17:09",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And another thing I think we're gonna see is that asynchronous agents are gonna be increasingly proactive.",
+      "zh": "我认为我们将看到的另一件事是，异步 agents 将变得越来越主动。",
+      "timestamp": "18:21",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "So the ability for a single harness to be steered by many, many different people kind of concurrently is an important shift in Agent UX that I think will be quite interesting going forward.",
+      "zh": "因此，单个 harness 可以被许多不同的人同时引导的能力，我认为这是 Agent UX 中一个重要的转变，未来会非常有趣。",
+      "timestamp": "19:02",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Because that ends up being not very bitter lesson built in the sense that models can learn to manage their own memory much better than you can intuit these memory types for the model ahead of time.",
+      "zh": "因为那最终并没有建立苦涩教训，在这个意义上，模型可以学会管理自己的内存，比你可以提前为模型凭直觉设计这些内存类型要好得多。",
+      "timestamp": "23:02",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "This is very classically bitter lesson pill, but models can reason about their own memory and context structure much better than you can prescribe for them a way to structure their own memories.",
+      "zh": "这是非常经典的苦涩教训药丸，但模型可以推理它们自己的内存和上下文结构，比你可以为它们规定一种构建自己内存的方式要好得多。",
+      "timestamp": "23:50",
+      "speaker": "Unknown"
+    }
+  ]
+}

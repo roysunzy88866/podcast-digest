@@ -27,7 +27,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[蒸馏]] · [[Ranjan Roy]] · [[Theo Jaffe]] · [[Alex]] · [[Ben Horowitz]] · [[Google]] · [[Sofia Puccini]] · [[Tesla]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":16,"Anthropic":22,"蒸馏":3,"Ranjan Roy":1,"Theo Jaffe":2,"Alex":1,"Ben Horowitz":1,"Google":9,"Sofia Puccini":2,"Tesla":5}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":19,"Anthropic":23,"蒸馏":3,"Ranjan Roy":1,"Theo Jaffe":2,"Alex":1,"Ben Horowitz":1,"Google":9,"Sofia Puccini":2,"Tesla":5}</script>
 
 <script>
 (function(){

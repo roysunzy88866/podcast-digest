@@ -33,7 +33,7 @@ unlisted: true
 
 [[Lenny]] · [[Stewart Butterfield]] · [[Jason Lemkin]] · [[Slack]] · [[SaaStr]] · [[Glitch]] · [[Replit]] · [[效用曲线]] · [[Vercel]] · [[摩擦力]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Stewart Butterfield":1,"Jason Lemkin":1,"Slack":9,"SaaStr":1,"Glitch":1,"Replit":2,"效用曲线":1,"Vercel":3,"摩擦力":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"Stewart Butterfield":1,"Jason Lemkin":1,"Slack":9,"SaaStr":1,"Glitch":1,"Replit":3,"效用曲线":1,"Vercel":3,"摩擦力":1}</script>
 
 <script>
 (function(){

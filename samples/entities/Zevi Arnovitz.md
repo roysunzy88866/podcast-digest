@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Boris Cherny]] [[Garry Tan]] [[Alex Finn]] [[Aakash Gupta]] [[Jyothi Nookula]] [[Meng To]] [[Theo Browne]] [[Eddie Kim]] [[Andrew Ambrosino]] [[Jiaona Zhang]]
+[[Boris Cherny]] [[Garry Tan]] [[Alex Finn]] [[Aakash Gupta]] [[Jyothi Nookula]] [[Meng To]] [[Peter Steinberger]] [[Romain Huet]] [[Theo Browne]] [[Eddie Kim]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Cursor":4,"Claude Code":12,"Bolt":1,"Lovable":3,"Linear":2,"Anthropic":22,"Composer":1,"Codex":10,"智能体":38}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"Cursor":4,"Claude Code":12,"Bolt":1,"Lovable":3,"Linear":2,"Anthropic":23,"Composer":1,"Codex":11,"智能体":40}</script>
 
 <script>
 (function(){

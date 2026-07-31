@@ -1,0 +1,820 @@
+{
+  "episode_id": "2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart",
+  "podcast": "精选演讲",
+  "date": "2026-07-22",
+  "tags": [
+    "异步智能体",
+    "长时程任务",
+    "架构设计",
+    "记忆机制",
+    "自我验证"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "lance-martin",
+      "type": "person",
+      "role": "guest",
+      "name": "Lance Martin",
+      "file": "Lance Martin",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到它是演讲者所代表的 AI 公司,探讨其对异步智能体和 Cloud Managed Agents 平台的看法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 7,
+          "t": [
+            29.366,
+            35.048
+          ],
+          "quote": "Let me talk a little bit about our view of asynchronous agents at Anthropic and some things we've been up to lately.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到它发起了 Parameter Golf 机器学习挑战赛,且指出它的前沿模型也处于 12 小时以上的任务视界范围。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            504.823,
+            507.329
+          ],
+          "quote": "It's a benchmark that was put up by OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1221.251,
+            1229.113
+          ],
+          "quote": "So I think you're right that the Frontier models, like the Mythos class models, strong models from OpenAI, kind of are in this 12 plus hour regime.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "task-horizon",
+      "type": "concept",
+      "role": "concept",
+      "name": "任务视界 (task horizon)",
+      "file": "任务视界",
+      "primary": true,
+      "how_described": "本集把它说成:模型能连续自主完成工作的最长时间,从 Opus 3 时代的 10-20 分钟演进到了最近几个月的 12 小时以上,决定了智能体的产品形态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            57.425,
+            60.767
+          ],
+          "quote": "So I'm plotting here different Cloud models and their task horizon.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "managed-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "Managed Agents",
+      "file": "Managed Agents",
+      "primary": true,
+      "how_described": "本集把它说成:Anthropic 从四月起推出的新平台(全称 Cloud Managed Agents),把工作框架连同部署基础设施全打包,支撑了长时程异步智能体的架构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            167.41,
+            180.578
+          ],
+          "quote": "But over the past few months since April, as we've seen longer and longer task horizons, we released a new APL called Managed Agents, which basically packages both the harness as well as all the managed deployment infrastructure for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            181.639,
+            187.343
+          ],
+          "quote": "And I'll talk about some of the themes that underpin this new surface, Cloud Managed Agents, and some of the themes that...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            187.963,
+            197.731
+          ],
+          "quote": "kind of extend beyond just managed agents broadly to think about this kind of new type of asynchronous agents, which can apply, of course, to clause and other types of kind of longer running long horizon agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            204.736,
+            207.839
+          ],
+          "quote": "So when we first set out to build managed agents, we started with the container.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            253.491,
+            260.457
+          ],
+          "quote": "So, for this reason, we kind of decouple what we call the brain, that's the harness from the hands, the execution environments, and Managed Agents is set up like this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            315.318,
+            319.239
+          ],
+          "quote": "And this is kind of one of the core ideas that underpins Managed Agents architecturally.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            473.754,
+            475.015
+          ],
+          "quote": "In Managed Agents, you have outcomes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            531.546,
+            536.209
+          ],
+          "quote": "And what I did was I set up a kind of a verifier loop using managed agents and outcomes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1297.893,
+            1303.518
+          ],
+          "quote": "And so we spent a lot of time, for example, building managed agents to kind of have these kind of considerations baked in.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "工作框架 (harness)",
+      "file": "工作框架",
+      "primary": true,
+      "how_described": "本集把它说成:指挥模型干活的控制程序(即「大脑」),在 Managed Agents 架构中变成了只与只追加日志对话的无状态进程,以确保挂了也不会丢失进度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            149.476,
+            152.158
+          ],
+          "quote": "So you basically take messages API and you can roll your own harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            152.178,
+            153.899
+          ],
+          "quote": "You can deploy that harness and you have an agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            163.926,
+            165.667
+          ],
+          "quote": "And that's basically us giving you a harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            167.41,
+            180.578
+          ],
+          "quote": "But over the past few months since April, as we've seen longer and longer task horizons, we released a new APL called Managed Agents, which basically packages both the harness as well as all the managed deployment infrastructure for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            208.74,
+            211.382
+          ],
+          "quote": "We put the harness in the sandbox in the same container.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            212.803,
+            218.564
+          ],
+          "quote": "Now, the problem here is what happens if the harness dies or the container dies?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            253.491,
+            260.457
+          ],
+          "quote": "So, for this reason, we kind of decouple what we call the brain, that's the harness from the hands, the execution environments, and Managed Agents is set up like this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            261.971,
+            266.886
+          ],
+          "quote": "So the story here is that the harness becomes a stateless process.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            284.874,
+            293.578
+          ],
+          "quote": "So that is, you can give one harness access to many different containers to perform tool execution, and Cloud can manage this very easily and effectively.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            295.193,
+            307.916
+          ],
+          "quote": "If the session, sorry, if the harness dies or sandbox dies, it's completely fine because the session is always backed up in this append-only log and credentials are never actually added to the sandbox.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1009.18,
+            1013.501
+          ],
+          "quote": "And in particular, what's interesting about it is it represents what I would consider an org-level harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1023.704,
+            1028.668
+          ],
+          "quote": "What's interesting about Cloud Tag is it is a harness that everyone in the organization has access to and can use.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 198,
+          "t": [
+            1029.529,
+            1030.97
+          ],
+          "quote": "So it is a multiplayer harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1044.845,
+            1067.118
+          ],
+          "quote": "including the ability to check others' work before you do an experiment, the ability to kind of deduplicate findings, the ability to do internal research, the ability to give everyone access to kind of a very well-developed harness on day one, whereas when you have your own personal harness, often new employees, it takes them weeks or maybe even months to kind of ramp up fully to configure all the right connectors and so forth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1142.97,
+            1153.998
+          ],
+          "quote": "So the ability for a single harness to be steered by many, many different people kind of concurrently is an important shift in Agent UX that I think will be quite interesting going forward.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集把它说成:智能体实际干活的执行环境(即「双手」),是一些纯粹的容器,密钥永远不会被加进去,挂了也没事因为进度只追加存于日志中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 44,
+          "t": [
+            208.74,
+            211.382
+          ],
+          "quote": "We put the harness in the sandbox in the same container.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            295.193,
+            307.916
+          ],
+          "quote": "If the session, sorry, if the harness dies or sandbox dies, it's completely fine because the session is always backed up in this append-only log and credentials are never actually added to the sandbox.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "verifier",
+      "type": "concept",
+      "role": "concept",
+      "name": "验证器 (verifier)",
+      "file": "验证器",
+      "primary": true,
+      "how_described": "本集把它说成:从同一上下文中分离出来、专门在独立上下文中审查和打分的机制,配合构建智能体形成循环,是长程异步任务的通用原语。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 75,
+          "t": [
+            431.735,
+            437.319
+          ],
+          "quote": "And the reason is the verifier context can be tuned very specifically for the critique or verification task.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            441.417,
+            459.469
+          ],
+          "quote": "When you build loops, you can have a loop of a build context and a verifier context, and this can be a build agent, verifier agent, and what happens is the verifier has some goal or rubric, and it's verifying the result or work of the build agent, and this continues in a loop until verification is complete.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            489.426,
+            495.831
+          ],
+          "quote": "The loop can run and you only exit the loop until this independent verifier has verified that it has the outcomes or outputs that you want.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 94,
+          "t": [
+            531.546,
+            536.209
+          ],
+          "quote": "And what I did was I set up a kind of a verifier loop using managed agents and outcomes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 100,
+          "t": [
+            581.865,
+            586.346
+          ],
+          "quote": "So the model can self-correct when it receives feedback from, for example, the verifier.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dreaming",
+      "type": "concept",
+      "role": "concept",
+      "name": "做梦 (dreaming)",
+      "file": "做梦",
+      "primary": true,
+      "how_described": "本集把它说成:一种离线或带外过程,回头审视模型之前所有的记忆和运行轨迹,找出并修正带内记忆写下的局部最优或完全错误的记忆偏差。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            639.237,
+            643.26
+          ],
+          "quote": "And dreaming stores certain important details to long-term memory in the cortex.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            802.108,
+            805.23
+          ],
+          "quote": "So we talked about kind of in-band memory, and we talked about dreaming.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            809.102,
+            816.255
+          ],
+          "quote": "Dreaming is very important because when I'm writing memory in Bend over the course of a day, over the course of a session, sometimes you can write incorrect memories.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            831.924,
+            839.206
+          ],
+          "quote": "This is a very important nuance, and this process of dreaming is kind of an offline or out-of-band process that we've used to consolidate and improve memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            840.346,
+            843.467
+          ],
+          "quote": "And I want to show you a fun example that I've used dreaming for.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            894.965,
+            903.09
+          ],
+          "quote": "With dreaming, this error is corrected, and it's able to properly localize itself and not fall down this trap.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            934.348,
+            940.816
+          ],
+          "quote": "The dreaming traces, though, consistently kind of fix this error in its memory and proceed to the next level.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 180,
+          "t": [
+            941.196,
+            945.341
+          ],
+          "quote": "This is a very practical example of how dreaming can kind of work out of band",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            955.647,
+            962.15
+          ],
+          "quote": "And that's why the dreaming process can be very helpful because in band, while Cloud is writing to memory, it can make mistakes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1468.25,
+            1474.272
+          ],
+          "quote": "So you do this dreaming thing, you look at the sessions, you look at the memory store, you update the memory store, how do you know those are correct?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1479.474,
+            1484.476
+          ],
+          "quote": "This is kind of a fun anecdotal example from Pokemon showing that you can perform corrections via dreaming.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1485.556,
+            1492.439
+          ],
+          "quote": "The key point is that we've actually run a lot of different evals showing that dreaming can indeed improve performance for very intuitive reasons as you see here.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "org-level-harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "组织级驾驭系统 (org-level harness)",
+      "file": "组织级驾驭系统",
+      "primary": true,
+      "how_described": "本集把它说成:整个组织共享而非单兵使用的智能体工作框架,它有独立的身份和凭证,能访问组织上下文,能在第一天就给新人配好工具并主动巡视提醒。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 194,
+          "t": [
+            1009.18,
+            1013.501
+          ],
+          "quote": "And in particular, what's interesting about it is it represents what I would consider an org-level harness.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "in-band-memory",
+      "type": "concept",
+      "role": "concept",
+      "name": "带内记忆 (in-band memory)",
+      "file": "带内记忆",
+      "primary": true,
+      "how_described": "本集把它说成:模型在执行任务的线路上实时往作为记忆目录的文件系统里写记忆,但这容易写下局部最优甚至完全错误的记忆,需要做梦机制来纠错。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            664.509,
+            669.453
+          ],
+          "quote": "So this is showing Claude's capacity as an in-band memory writer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 131,
+          "t": [
+            713.845,
+            720.493
+          ],
+          "quote": "So the key point I'm making here is that Cloud has gotten much better at this in-band memory writing across model generations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            746.982,
+            754.886
+          ],
+          "quote": "And so what this is kind of showing is that models get natively better at this in-band memory writing with respect to model capability.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            791.16,
+            797.104
+          ],
+          "quote": "So this is a very important thing to keep in mind, that models are getting better and better at this kind of in-band memory writing across model generations.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            802.108,
+            805.23
+          ],
+          "quote": "So we talked about kind of in-band memory, and we talked about dreaming.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cloudtag",
+      "type": "concept",
+      "role": "concept",
+      "name": "CloudTag",
+      "file": "CloudTag",
+      "primary": true,
+      "how_described": "本集把它说成:被外人误以为只是 Slackbot 的产品,底下其实是组织级驾驭系统,能在查看组织上下文时主动用你可能需要知道的事情来提醒你。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 187,
+          "t": [
+            980.186,
+            987.531
+          ],
+          "quote": "And so we released CloudTag, and a lot of the reaction was like, ah, Slackbot.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 192,
+          "t": [
+            998.057,
+            1001.818
+          ],
+          "quote": "What's interesting about CloudTag is not the fact that it's accessible through Slack.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1120.691,
+            1122.452
+          ],
+          "quote": "And that's one very nice thing about CloudTag.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": true,
+      "how_described": "本集把它说成:Anthropic 的模型(演讲中常口误为 Cloud),它的任务视界从 Opus 3 时代的 10-20 分钟一直拉长到了 12 小时以上的长程自主工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            385.363,
+            406.517
+          ],
+          "quote": "And one of the problems that we've seen with Claude and other models in general is that when you ask them to do a bunch of work and then say, okay, grade your work, if that same context is being used to both do the work and grade, you can get lots of odd artifacts and confabulation and basically odd behavior.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            659.252,
+            663.435
+          ],
+          "quote": "And we've actually found memory systems with Claude actually can employ these same two principles.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 119,
+          "t": [
+            664.509,
+            669.453
+          ],
+          "quote": "So this is showing Claude's capacity as an in-band memory writer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 120,
+          "t": [
+            669.473,
+            672.056
+          ],
+          "quote": "So you basically give Claude memory tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            846.973,
+            851.382
+          ],
+          "quote": "And this is, I played a lot of games of Pokemon with Claude to find this.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            860.22,
+            862.642
+          ],
+          "quote": "Claude wrote an incorrect memory, okay?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 162,
+          "t": [
+            870.408,
+            880.777
+          ],
+          "quote": "The point is that this incorrect memory causes Claude to mislocalize itself, or the Pokemon to mislocalize itself, and it falls through this trap door, okay?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent-sdk",
+      "type": "concept",
+      "role": "concept",
+      "name": "Agent SDK",
+      "file": "Agent SDK",
+      "primary": false,
+      "how_described": "本集把它说成:过去一年发布的 SDK,相当于官方把工作框架直接打包给你,是一种以编程方式调用 Claude Code 的新 API 界面。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            159.102,
+            160.423
+          ],
+          "quote": "So we released agent SDK.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "messages-api",
+      "type": "concept",
+      "role": "concept",
+      "name": "Messages API",
+      "file": "Messages API",
+      "primary": false,
+      "how_described": "本集把它说成:大约两年前发布的最基础 API,你给提示词它给响应,适合你自己搭工作框架但没有部署的概念。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            149.476,
+            152.158
+          ],
+          "quote": "So you basically take messages API and you can roll your own harness.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bitter-lesson",
+      "type": "concept",
+      "role": "concept",
+      "name": "苦涩教训 (bitter lesson)",
+      "file": "苦涩教训",
+      "primary": false,
+      "how_described": "本集在讨论记忆底层的结构时引用了它,强调让模型自己去推理和管理它的记忆结构,远比人类凭直觉为它规定死板的记忆架构效果要好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 251,
+          "t": [
+            1382.064,
+            1390.647
+          ],
+          "quote": "Because that ends up being not very bitter lesson built in the sense that models can learn to manage their own memory much better than you can intuit these memory types for the model ahead of time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1430.141,
+            1440.348
+          ],
+          "quote": "This is very classically bitter lesson pill, but models can reason about their own memory and context structure much better than you can prescribe for them a way to structure their own memories.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "asynchronous agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    },
+    {
+      "name": "Claude Code",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

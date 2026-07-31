@@ -94,6 +94,18 @@ tags:
 > *The moment you become an expert, what you're steeped in is the past, and then you're completely useless.*  
 > <span class="qm">—— Blake Scholl · [43:25]</span> ^q8
 
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「创业与行业」挖下去**
+
+- [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|只在美国才能发生的故事:黄仁勋与 NVIDIA]] —— 同概念:第一性原理 (first principles)
+
+</div>
+</div>
+
 *本集关键词:超音速飞行 · 深科技 · 硬件开发 · 创始人精神 · 航空业创新*
 
 <script>

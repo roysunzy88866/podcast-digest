@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,6 +17,7 @@ unlisted: true
 - **[[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新》]]**(01:12起):本集指出如今人们独自泡在各自的 Claude 界面中，这里安静且孤独，失去了曾经社交网络那种能带来意外惊喜的「鸡尾酒会」氛围。
 - **[[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]]**(42:26起):本集提到它在为我们编写代码,并强调了当它擅长编写安全代码时的潜力。
 - **[[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]]**(01:49起):本集的核心主角。嘉宾完整分享了 Claude 的五层架构栈（模型、界面、知识库、集成、智能体与编排），教你如何利用整个 Claude 生态系统将日常生产力提升 10 倍。
+- **[[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]]**(06:25起):本集把它说成:Anthropic 的模型(演讲中常口误为 Cloud),它的任务视界从 Opus 3 时代的 10-20 分钟一直拉长到了 12 小时以上的长程自主工作。
 - **[[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]]**(00:00起):本集将其描述为 Anthropic 旗下的核心 AI 模型，不仅具备编码、工具调用和智能体能力，还能充当陪练主动反驳用户想法，从而帮助人类得出更好的结论。
 
 ## ① 提到它的金句
@@ -41,7 +42,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
 - [[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]] — 作为被讨论公司(提及)
 - [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为概念
@@ -49,15 +50,16 @@ unlisted: true
 - [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新》]] — 作为被讨论公司(提及)
 - [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为概念(提及)
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]] — 作为被讨论公司
+- [[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]] — 作为概念
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|《Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Anthropic]] · [[Claude Code]] · [[vibe coding]] · [[Codex]] · [[OpenAI]] · [[红队测试]] · [[mcp]] · [[技能]]
+[[Anthropic]] · [[智能体]] · [[Lenny]] · [[Claude Code]] · [[OpenAI]] · [[vibe coding]] · [[Codex]] · [[红队测试]] · [[mcp]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":38,"Lenny":32,"Anthropic":22,"Claude Code":12,"vibe coding":5,"Codex":10,"OpenAI":16,"红队测试":2,"mcp":4,"技能":3}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":23,"智能体":40,"Lenny":32,"Claude Code":12,"OpenAI":19,"vibe coding":5,"Codex":11,"红队测试":2,"mcp":4,"沙箱":7}</script>
 
 <script>
 (function(){

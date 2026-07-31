@@ -1,0 +1,111 @@
+{
+  "title_zh": "OpenAI 开发者日：从结对编程到指挥智能体大军",
+  "tldr": "OpenAI 团队与智能体先驱 Peter Steinberger 同台，讲述 AI 工程师如何最大化人机协作价值。",
+  "digest_md": "一个人对着 10 个终端窗口发指令，这不是在编排系统，而是在轮询——真正的未来不是让你同时盯住几十个终端，而是让你只跟一个长期在线的智能体管理者对话。这种从「微操」到「放权」的转变，正是这一集 OpenAI 开发者日要讲的核心。\n\n在这场面向数千名 AI 工程师的对谈中，OpenAI 的 Alexander 和 Romain 讲了他们如何看待工程的未来，以及产品该怎么随之进化；随后登台的 Peter Steinberger（开发者圈子里被称为 Claw Father）则用亲身经历，勾勒出了一套与智能体大军协作的全新工作范式。你会听到三块内容：第一，OpenAI 为什么坚信「工程师不但不会消失，反而迎来了最好的时代」，以及他们怎么把 Codex（OpenAI 的代码智能体）做成一个彻底开放、任何人都能在其上搭建生态的底层平台；第二，当模型跑得足够快、足够便宜时，人受限于「注意力」这个终极瓶颈该怎么办；第三，一组关于未来的具体预测——未来的编程长什么样、智能体以何种形态存在、以及工程师该把精力投向何处。\n\n说完了这一集大概在讲什么，接下来先看 OpenAI 团队抛出的核心主张。现场抛出的一个反共识判断是：编程的抽象程度越来越高，但这绝不意味着工程师会被淘汰，相反，现在恰恰是做工程师最好的时候。理由很简单：工程的核心从来不是把代码敲出来，而是用科学、设计和想象力去解决问题。当模型把「写代码并自我验证」这件事包揽后，人反而能腾出手来，做更多的原型尝试，花更多时间去真正理解用户，从而在「该建什么」这种核心决策上做得更好 [05:04 Alexander]。注意这里提到的 Codex，它是 OpenAI 推出的代码智能体，核心能力是不仅能写代码，还能在沙箱（一种与主系统隔离的安全执行环境）里运行代码、做测试验证，甚至自己跑完整的「构建-测试」闭环。两年前，模型还无法运行自己写的代码，演示时必须祈祷一切顺利；而到了现在，模型已经能独立承担起长周期、高难度的目标，直到把任务彻底跑完。\n\n既然模型这么强了，产品该怎么顺势进化？这正是接下来的话题。OpenAI 团队认为，未来的 AI 协作产品应该有两种核心模式：一种是随时随地的「聊天」，另一种是让人能随时介入细节的「协作界面」。这个理念背后的洞察是：就像和真人团队共事一样，大多数时候你只需要聊几句，放手让队友去干；只有偶尔遇到棘手问题，你才需要凑到工作台前一起死磕细节 [07:34 Alexander]。为此他们专门打造了 Codex 应用——你可以通过简单的聊天下达指令，也可以随时进入协作界面，指着具体的某行代码做调整。有意思的是，这个产品刚提出时，被不少坚持只在终端（黑框命令行）里敲代码的资深工程师嗤之以鼻；但现在，那些曾经信誓旦旦绝不离开终端的人，却成了这款应用的重度用户。因为在终端里很难做复杂协作，而传统的集成开发环境（IDE，写代码的专用软件）顺序又错了——它让人一上来就陷进代码里，而不是先跟「队友」沟通需求。\n\n讲完了产品理念，那么这套生态具体是怎么搭起来的？OpenAI 给出的答案是「彻底的开放与分层」。从最底层的模型 API，到中间层的 Codex harness（控制智能体行为的核心调度框架），再到上层的应用服务，OpenAI 都选择了开源或对外开放。这意味着，他们用来构建 Codex 应用的工具，和交给全体开发者的工具是完全一样的。每当 Codex 需要什么新功能——比如处理长任务的「上下文压缩」（为了适应长时间运行的任务，把冗长的背景对话信息浓缩存储），他们都会先把它做进 API 里，让所有开发者都能平等使用 [10:30 Romain]。不仅如此，为了让生态繁荣，他们甚至开发了特定角色（比如数据科学、设计）的插件，并且全都是开源的。这样做的结果是，任何人都可以用现有的订阅，在各种第三方工具（如 OpenCode、Xcode、JetBrains）里无缝接入这个智能体生态。\n\n说完了 OpenAI 的平台蓝图，接下来有请特别嘉宾 Peter Steinberger 登台，讲讲一个顶级开发者的真实工作流演变。Peter 在社区里被称为 Claw Father，他几个月前还在同时管理 10 多个终端窗口，像一个调度器一样，时刻盯着哪个智能体干完了活，好赶紧给它派新任务。但他后来意识到，自己以为在做系统编排（指挥多任务协同），其实是在做轮询（不停挨个去问状态、等结果），这不仅低效，而且把自己变成了系统的路由器和内存 [19:33 Peter]。\n\n这种困境怎么破？这正是 Peter 接着要讲的核心方法论。如今，他的工作方式变了：他主要只跟一个长期在线的「管理者」智能体对话，由这个管理者把任务分派给底下的多个工作者智能体去执行。这种跨级管理之所以能跑通，是因为三个关键能力的成熟：第一是「持久化上下文」（让智能体在长时间待命时记住背景信息和历史决策）；第二是「委托」（一个中枢线程能创建并引导具体的子任务）；第三是「触发器」（比如有新需求提交时，自动唤醒对应的管理者）[20:32 Peter]。\n\n放手让智能体去干，听起来美好，但人该怎么配合？这正是下一个话题。Peter 发现，随着这套系统跑起来，瓶颈也在不断转移。一开始他受限于模型消耗的额度；后来额度管够，计算力又成了瓶颈（本地的电脑跑得像喷气发动机）；再后来，算力也解决了，他发现自己受限于「注意力」——与算力不同，人的注意力是没法简单扩容的。过去人必须死盯着屏幕，一旦模型跑偏就立刻按 Escape 打断重导；但现在的模型已经足够聪明，会自己理解意图，再盯着它敲代码纯属浪费时间。所以他现在的做法是：有需求提交时，管理者智能体醒来判断是否合理，然后交给工作者去实现、跑测试，最后再由审查智能体复核。在这个过程中，人完全不需要去看那些中间过程。只有当管理者真正需要决策时，才会给 Peter 返回一个包含提议改动、运行视频甚至可以实时远程登录查看的构建结果。此时人只做一次最终审查和决策即可。一句话总结：智能体跑内部执行循环，人只负责设定方向和做外部决策 [23:14 Peter]。\n\n这套工作流已经很极致了，那未来的终点又在哪里？这正是下一个话题。Peter 描绘了他理想中的最终形态：未来，智能体不应该被绑死在某台笔记本或某个具体的 App 里。它应该是一个随时可调用的实体——你可以给它发短信、在 Slack 里引导它，或者在世界任何角落听到它的汇报。更进一步，你甚至不需要操心这活儿是在本地机器上跑还是在云端跑，智能体自己会判断环境需求，并知道该去哪里获取算力。\n\n## 本集带走\n\n最后收个尾，这一集值得带走的是三句话。第一，别再担心工程师会消失，既然 AI 已经把「构建-测试」的闭环跑通了，人就能从写代码的劳作中解放出来，把精力全放在理解用户和决定「该建什么」这种真正需要品味和判断力的事情上。第二，想要把智能体大军的威力真正发挥出来，必须从微操思维切换到委派思维，给目标、给护栏、给验证标准，然后彻底放手，让人只做那一次最重要的外部审查和决策。第三，无论多强的智能体，最后都会撞上人类「注意力有限」这个无法扩容的终极瓶颈，所以今天最值钱的能力，就是果断决定把你的注意力花在哪里。别忘了，工具再强也只是内部循环，设定方向的那个外部循环，永远属于你。",
+  "quotes": [
+    {
+      "en": "Software ate the world, and then AI ate software. But now, what we're here to say is that the AI engineers are eating the world.",
+      "zh": "软件吞噬了世界，然后 AI 吞噬了软件。但现在我们要说的是，AI 工程师正在吞噬世界。",
+      "timestamp": "01:21",
+      "speaker": "Romain Huet"
+    },
+    {
+      "en": "For us, the goal is squarely not to automate engineers. Instead, the product shape that we want is one that maximally empowers engineers.",
+      "zh": "对于我们的目标绝对不是自动化工程师。相反，我们想要的产品形态是最大限度地赋予工程师力量的形态。",
+      "timestamp": "06:25",
+      "speaker": "Peter Steinberger"
+    },
+    {
+      "en": "I thought I was orchestrating. Really, I was polling.",
+      "zh": "我以为我在编排。实际上，我在轮询。",
+      "timestamp": "19:24",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "Now, I'm primarily constrained by attention. And unlike tokens or compute, I can't simply add more of it.",
+      "zh": "现在，我主要受限于注意力。与 tokens 或计算不同，我不能简单地增加更多的注意力。",
+      "timestamp": "21:19",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "The agent runs the inner execution loop. I set the direction and I make decisions in the outer loop.",
+      "zh": "智能体运行内部执行循环。我设定方向，我在外部循环中做决策。",
+      "timestamp": "23:04",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "Models are advancing faster than the harnesses and organizations around them.",
+      "zh": "模型的进步速度超过了围绕它们的工具和组织。",
+      "timestamp": "24:34",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "The future is not 20 terminals. It's better loops.",
+      "zh": "未来不是 20 个终端。而是更好的循环。",
+      "timestamp": "24:49",
+      "speaker": "SPEAKER_01"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "Software ate the world, and then AI ate software. But now, what we're here to say is that the AI engineers are eating the world.",
+      "zh": "软件吞噬了世界，然后 AI 吞噬了软件。但现在我们要说的是，AI 工程师正在吞噬世界。",
+      "timestamp": "01:21",
+      "speaker": "Alexander"
+    },
+    {
+      "en": "Engineering has always been about solving problems for yourself and for other people as well.",
+      "zh": "工程一直是关于为自己和他人解决问题。",
+      "timestamp": "01:47",
+      "speaker": "Alexander"
+    },
+    {
+      "en": "For us, the goal is squarely not to automate engineers. Instead, the product shape that we want is one that maximally empowers engineers.",
+      "zh": "对于我们的目标绝对不是自动化工程师。相反，我们想要的产品形态是最大限度地赋予工程师力量的形态。",
+      "timestamp": "06:24",
+      "speaker": "Alexander"
+    },
+    {
+      "en": "We're not building one system for open AI and a second system that's simplified for developers.",
+      "zh": "我们不是为 OpenAI 构建一个系统，然后为开发者构建第二个简化了的系统。",
+      "timestamp": "13:37",
+      "speaker": "Romain"
+    },
+    {
+      "en": "You can imagine an agent taking different approaches, maybe like five or six in parallel, maybe like coming back and picking the best one in the time it would have taken to not even generate just one.",
+      "zh": "你可以想象一个智能体采用不同的方法，也许五六个并行，也许在甚至还没来得及生成仅仅一个的时间里回来并挑选最好的那个。",
+      "timestamp": "16:25",
+      "speaker": "Romain"
+    },
+    {
+      "en": "I thought I was orchestrating. Really, I was polling.",
+      "zh": "我以为我在编排。实际上，我在轮询。",
+      "timestamp": "19:24",
+      "speaker": "Peter"
+    },
+    {
+      "en": "Now, I'm primarily constrained by attention. And unlike tokens or compute, I can't simply add more of it.",
+      "zh": "现在，我主要受限于注意力。与 tokens 或计算不同，我不能简单地增加更多的注意力。",
+      "timestamp": "21:19",
+      "speaker": "Peter"
+    },
+    {
+      "en": "The agent runs the inner execution loop. I set the direction and I make decisions in the outer loop.",
+      "zh": "智能体运行内部执行循环。我设定方向，我在外部循环中做决策。",
+      "timestamp": "23:08",
+      "speaker": "Peter"
+    },
+    {
+      "en": "Models are advancing faster than the harnesses and organizations around them.",
+      "zh": "模型的进步速度超过了围绕它们的工具和组织。",
+      "timestamp": "24:34",
+      "speaker": "Peter"
+    },
+    {
+      "en": "The future is not 20 terminals. It's better loops.",
+      "zh": "未来不是 20 个终端。而是更好的循环。",
+      "timestamp": "24:49",
+      "speaker": "Peter"
+    }
+  ]
+}

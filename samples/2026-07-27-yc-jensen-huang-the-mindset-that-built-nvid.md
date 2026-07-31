@@ -138,8 +138,8 @@ AI 到底消灭工作还是创造工作?看积压的雄心就知道了。话题�
 **换个口味**
 
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]] —— 同公司:Tesla、Waymo · 同概念:物理 AI (physical AI)、ChatGPT
+- [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|只在美国才能发生的故事:黄仁勋与 NVIDIA]] —— 同公司:NVIDIA · 同概念:深度学习 (deep learning)
 - [[2026-07-19-lennys-netflix-cpto-on-ai-and-the-future|Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失]] —— 同概念:智能体 (agents)、系统思维 (systems thinking)
-- [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言]] —— 同公司:NVIDIA
 
 </div>
 </div>

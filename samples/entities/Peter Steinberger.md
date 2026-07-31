@@ -7,11 +7,13 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Peter Steinberger</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Peter Steinberger">PE</div><div class="pi"><h1 class="pt">Peter Steinberger</h1><div class="byl">SingjuPost 转录 嘉宾</div><div class="nums">本站收录 <b>1</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Peter Steinberger">PE</div><div class="pi"><h1 class="pt">Peter Steinberger</h1><div class="byl">精选演讲 嘉宾</div><div class="nums">本站收录 <b>2</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*5 条,均已过机器闸门*
+*6 条,均已过机器闸门*
+
+![[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand#^q2]]
 
 ![[2026-singju-openclaw-80apps#^q1]]
 
@@ -25,15 +27,16 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|《OpenAI 开发者日：从结对编程到指挥智能体大军》]] — 作为嘉宾
 - [[2026-singju-openclaw-80apps|《OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑》]] — 作为嘉宾
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Raphael Schaad]] · [[OpenClaw]] · [[智能体]] · [[Codex]] · [[Claude Code]] · [[mcp]] · [[提示注入]] · [[CLI]] · [[护城河]] · [[ChatGPT]]
+[[智能体]] · [[Codex]] · [[Romain Huet]] · [[Raphael Schaad]] · [[OpenAI]] · [[OpenClaw]] · [[循环]] · [[Claude Code]] · [[协作界面]] · [[mcp]]
 
 ## ④ 也在聊「智能体」的人
 
@@ -43,7 +46,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Raphael Schaad":1,"OpenClaw":5,"智能体":38,"Codex":10,"Claude Code":12,"mcp":4,"提示注入":1,"CLI":2,"护城河":2,"ChatGPT":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":40,"Codex":11,"Romain Huet":1,"Raphael Schaad":1,"OpenAI":19,"OpenClaw":5,"循环":1,"Claude Code":12,"协作界面":1,"mcp":4}</script>
 
 <script>
 (function(){

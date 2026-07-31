@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>物理 AI (physical AI)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="物理 AI">物理</div><div class="pi"><h1 class="pt">物理 AI (physical AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>55</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="物理 AI">物理</div><div class="pi"><h1 class="pt">物理 AI (physical AI)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>58</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,7 +17,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*55 条,均已过机器闸门*
+*58 条,均已过机器闸门*
 
 ![[2025-11-16-lennys-the-godmother-of-ai#^q1]]
 
@@ -47,6 +47,10 @@ unlisted: true
 
 ![[2026-04-26-lennys-snapchat-ceo-why-distribution-is#^q6]]
 
+![[2026-05-21-talks-the-best-time-in-history-to-start-a-comp#^q1]]
+
+![[2026-05-21-talks-the-best-time-in-history-to-start-a-comp#^q4]]
+
 ![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q3]]
 
 ![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q5]]
@@ -72,6 +76,8 @@ unlisted: true
 ![[2026-07-09-pg-pm-guide-ai-design#^q2]]
 
 ![[2026-07-09-pg-pm-guide-ai-design#^q4]]
+
+![[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand#^q1]]
 
 ![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q1]]
 
@@ -143,7 +149,7 @@ unlisted: true
 
 [[Tesla]] · [[Waymo]] · [[智能体]] · [[ChatGPT]] · [[Lenny]] · [[Jensen Huang]] · [[Matt Turk]] · [[Qasar Younis]] · [[Jerry]] · [[Sanjit Biswas]]
 
-<script type="application/json" class="pd-epn">{"Tesla":5,"Waymo":7,"智能体":38,"ChatGPT":10,"Lenny":32,"Jensen Huang":1,"Matt Turk":1,"Qasar Younis":1,"Jerry":1,"Sanjit Biswas":1}</script>
+<script type="application/json" class="pd-epn">{"Tesla":5,"Waymo":7,"智能体":40,"ChatGPT":10,"Lenny":32,"Jensen Huang":2,"Matt Turk":1,"Qasar Younis":1,"Jerry":1,"Sanjit Biswas":1}</script>
 
 <script>
 (function(){

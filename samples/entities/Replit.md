@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Replit</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Replit">RE</div><div class="pi"><h1 class="pt">Replit</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Replit">RE</div><div class="pi"><h1 class="pt">Replit</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]]**(00:07起):本集提到它是增长极快的 AI 领导者之一，面临海量线索处理不过来的问题；同时，它也是一款让不懂代码的人也能用自然语言开发应用的工具，Jason 是其前 1% 的高级用户，曾用它构建了 12 个应用。
 - **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]]**(02:25起):本集把它与 Lovable、Bolt 归为同一类工具,指出它们都在中间层替非技术用户做大量规划决策,换取简单省事但牺牲控制权。
+- **[[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]]**(08:02起):本集把它说成：让领域专家和普通创业者能从点子直接走到部署变现的云编程平台，被比作追求垂直深度集成的“任天堂”。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]] — 作为被讨论公司
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为被讨论公司(提及)
+- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[Jason Lemkin]] · [[Zevi Arnovitz]] · [[SaaStr]] · [[Cursor]] · [[Vercel]] · [[Claude Code]] · [[Salesforce]] · [[Bolt]]
+[[智能体]] · [[Lenny]] · [[Jason Lemkin]] · [[Zevi Arnovitz]] · [[Patrick Collison]] · [[SaaStr]] · [[Cursor]] · [[Amjad Masad]] · [[Vercel]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"智能体":38,"Jason Lemkin":1,"Zevi Arnovitz":1,"SaaStr":1,"Cursor":4,"Vercel":3,"Claude Code":12,"Salesforce":2,"Bolt":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":40,"Lenny":32,"Jason Lemkin":1,"Zevi Arnovitz":1,"Patrick Collison":1,"SaaStr":1,"Cursor":4,"Amjad Masad":1,"Vercel":3,"Claude Code":12}</script>
 
 <script>
 (function(){

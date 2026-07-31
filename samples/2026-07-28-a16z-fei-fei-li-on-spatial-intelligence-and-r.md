@@ -10,7 +10,7 @@ description: "李飞飞的 World Labs 收购机器人公司 Cynic,要用空间�
 host: "[[Fei-Fei Li]]"
 cohosts: ["[[Martin Cassaro]]", "[[Yunzhu Li]]"]
 companies: ["[[World Labs]]", "[[Cynics]]"]
-concepts: ["[[空间智能]]", "[[大型世界模型]]", "[[仿真]]", "[[反事实推理]]", "[[现实到仿真再到现实]]", "[[Marble]]"]
+concepts: ["[[空间智能]]", "[[大型世界模型]]", "[[模拟]]", "[[反事实推理]]", "[[现实到仿真再到现实]]", "[[Marble]]"]
 category: 创业与行业
 tags:
   - 创业与行业
@@ -33,11 +33,11 @@ tags:
 >
 > **公司** [[World Labs]] · [[Cynics]]
 >
-> **概念** [[空间智能]] · [[大型世界模型]] · [[仿真]] · [[反事实推理]] · [[现实到仿真再到现实]] · [[Marble]]
+> **概念** [[空间智能]] · [[大型世界模型]] · [[模拟]] · [[反事实推理]] · [[现实到仿真再到现实]] · [[Marble]]
 
 <div class="pd-tldr"><b>一句话</b>李飞飞的 World Labs 收购机器人公司 Cynic,要用空间智能和仿真给机器人造一个数字世界来练兵。</div>
 
-训练一个机器人,为什么不能像训练语言模型那样疯狂喂数据?因为互联网上有无穷无尽的文本,却没有无穷无尽的物理世界交互数据。现实里让机器人试错一个任务,比人亲手去做还要慢。这一集里,[[World Labs|World Labs]] 的李飞飞和被收购的 Cynic 创始人 Yunzhu 讲了他们怎么用「[[空间智能|空间智能]]」和「数字[[仿真|仿真]]」来破解这个死结。
+训练一个机器人,为什么不能像训练语言模型那样疯狂喂数据?因为互联网上有无穷无尽的文本,却没有无穷无尽的物理世界交互数据。现实里让机器人试错一个任务,比人亲手去做还要慢。这一集里,[[World Labs|World Labs]] 的李飞飞和被收购的 Cynic 创始人 Yunzhu 讲了他们怎么用「[[空间智能|空间智能]]」和「数字[[模拟|仿真]]」来破解这个死结。
 
 在这集 A16Z 播客里,主持人 Martin 和两位嘉宾聊了几个核心问题:World Labs 为什么要收购一家做机器人的公司;他们怎么用「仿真」(在数字世界里建一个有物理规律的环境,让机器人在里面练)来替代昂贵危险的现实试错;为什么他们认为现在很多人形机器人的预测太激进了;以及如果机器人的能效真要追上人脑的 30 瓦,还要走多远的路。最后他们还说了,如果你在做机器人,什么时候该去找 World Labs。
 
@@ -94,7 +94,7 @@ tags:
 
 - [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能]] —— 同公司:World Labs · 同概念:Marble、空间智能 (spatial intelligence)
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]] —— 同公司:Waymo
-- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式]] —— 同公司:Waymo
+- [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|只在美国才能发生的故事:黄仁勋与 NVIDIA]] —— 同概念:仿真 (simulation)
 
 </div>
 </div>

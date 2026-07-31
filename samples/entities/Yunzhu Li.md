@@ -19,7 +19,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Fei-Fei Li]] · [[Martin Cassaro]] · [[World Labs]] · [[Cynics]] · [[空间智能]] · [[大型世界模型]] · [[仿真]] · [[反事实推理]] · [[现实到仿真再到现实]] · [[Marble]]
+[[Fei-Fei Li]] · [[Martin Cassaro]] · [[World Labs]] · [[Cynics]] · [[空间智能]] · [[大型世界模型]] · [[模拟]] · [[反事实推理]] · [[现实到仿真再到现实]] · [[Marble]]
 
 ## ④ 也在聊「创业与行业」的人
 
@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Fei-Fei Li":1,"Martin Cassaro":1,"World Labs":2,"Cynics":1,"空间智能":2,"大型世界模型":1,"仿真":1,"反事实推理":1,"现实到仿真再到现实":1,"Marble":2}</script>
+<script type="application/json" class="pd-epn">{"Fei-Fei Li":1,"Martin Cassaro":1,"World Labs":2,"Cynics":1,"空间智能":2,"大型世界模型":1,"模拟":2,"反事实推理":1,"现实到仿真再到现实":1,"Marble":2}</script>
 
 <script>
 (function(){

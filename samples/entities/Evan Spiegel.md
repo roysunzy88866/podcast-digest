@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Snap":1,"Snapchat":1,"Spectacles":1,"Specs":1,"Glean":1,"分发":3,"护城河":2,"网络效应":2,"增强现实":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"Snap":1,"Snapchat":1,"Spectacles":1,"Specs":1,"Glean":1,"分发":3,"护城河":3,"网络效应":2,"增强现实":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,25 @@
+{
+  "id": "2026-05-21-talks-the-best-time-in-history-to-start-a-comp",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/YgYiF86h0yU.m4a",
+  "duration_sec": 2102.07,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 407,
+  "asr": true,
+  "title_en": "The Best Time in History to Start a Company | Patrick Collison & Amjad Masad",
+  "podcast": "精选演讲",
+  "date": "2026-05-21",
+  "speaker_map": {
+    "SPEAKER_00": "Amjad Masad",
+    "SPEAKER_01": "Patrick Collison"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Amjad Masad"
+  ],
+  "host": "Patrick Collison",
+  "cohosts": [],
+  "title_zh": "Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河",
+  "guest_name": "Patrick Collison",
+  "guest_title": "Stripe 创始人之一",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=spliced"
+}

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Dan Shipper]] · [[智能体]] · [[Codex]] · [[Claude Code]] · [[SaaS]] · [[前置部署工程师]] · [[PM]] · [[OpenClaw]] · [[CLI]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Dan Shipper":1,"智能体":38,"Codex":10,"Claude Code":12,"SaaS":3,"前置部署工程师":2,"PM":2,"OpenClaw":5,"CLI":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"Dan Shipper":1,"智能体":40,"Codex":11,"Claude Code":12,"SaaS":3,"前置部署工程师":2,"PM":2,"OpenClaw":5,"CLI":2}</script>
 
 <script>
 (function(){

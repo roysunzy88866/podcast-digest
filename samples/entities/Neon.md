@@ -25,9 +25,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Ivan Burazin]] · [[Matei Zaharia]] · [[Daytona]] · [[Reynold Xin]] · [[Cognition]] · [[Databricks]] · [[沙箱]] · [[Snowflake]] · [[突发负载]]
+[[智能体]] · [[Ivan Burazin]] · [[Matei Zaharia]] · [[Daytona]] · [[Reynold Xin]] · [[Cognition]] · [[Databricks]] · [[Parallel]] · [[Snowflake]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":38,"Ivan Burazin":1,"Matei Zaharia":1,"Daytona":1,"Reynold Xin":1,"Cognition":3,"Databricks":1,"沙箱":6,"Snowflake":2,"突发负载":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":40,"Ivan Burazin":1,"Matei Zaharia":1,"Daytona":1,"Reynold Xin":1,"Cognition":3,"Databricks":1,"Parallel":2,"Snowflake":2,"沙箱":7}</script>
 
 <script>
 (function(){

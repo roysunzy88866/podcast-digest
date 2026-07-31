@@ -1,39 +1,35 @@
 ---
-title: 仿真 (simulation)
-entity_type: 概念
+title: Condi Rice
+entity_type: 人物
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>仿真 (simulation)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Condi Rice</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="仿真">仿真</div><div class="pi"><h1 class="pt">仿真 (simulation)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
-
-## 集里怎么说它
-
-- **[[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理》]]**(00:27起):本集反复强调它是解决机器人瓶颈的钥匙，因为它能提供现实世界数据所没有的「反事实推理」能力，并极大提升训练与评估的可靠性和效率。
-
-## ① 提到它的金句
-
-*2 条,均已过机器闸门*
-
-![[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r#^q2]]
-
-![[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r#^q3]]
+<div class="pd-phero"><div class="av" data-cat="Condi Rice">CO</div><div class="pi"><h1 class="pt">Condi Rice</h1><div class="byl">精选演讲 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>9</b> 个</div></div></div>
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|《李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理》]] — 作为概念
+- [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]] — 作为主持
 
-## ③ 关联
+## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Fei-Fei Li]] · [[Martin Cassaro]] · [[Yunzhu Li]] · [[World Labs]] · [[Cynics]] · [[空间智能]] · [[大型世界模型]] · [[反事实推理]] · [[现实到仿真再到现实]] · [[Marble]]
+[[Jensen Huang]] · [[NVIDIA]] · [[GPU]] · [[Parallel]] · [[深度学习]] · [[第一性原理]] · [[五层蛋糕]] · [[模拟]] · [[人工智能]]
 
-<script type="application/json" class="pd-epn">{"Fei-Fei Li":1,"Martin Cassaro":1,"Yunzhu Li":1,"World Labs":2,"Cynics":1,"空间智能":2,"大型世界模型":1,"反事实推理":1,"现实到仿真再到现实":1,"Marble":2}</script>
+## ④ 也在聊「创业与行业」的人
+
+<div class="pd-peers">
+
+[[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]] [[Sanjit Biswas]] [[Justine Moore]] [[Sonja]] [[Rohan Anil]] [[Jerry Tworek]]
+
+</div>
+
+<script type="application/json" class="pd-epn">{"Jensen Huang":2,"NVIDIA":5,"GPU":2,"Parallel":2,"深度学习":3,"第一性原理":2,"五层蛋糕":1,"模拟":2,"人工智能":2}</script>
 
 <script>
 (function(){

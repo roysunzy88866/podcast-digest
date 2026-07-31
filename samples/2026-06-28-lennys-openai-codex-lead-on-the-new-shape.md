@@ -93,7 +93,7 @@ tags:
 
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同嘉宾:Lenny · 同公司:Codex、Linear · 同概念:智能体 (agent)
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同嘉宾:Lenny · 同公司:Codex · 同概念:智能体 (agent)
-- [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力]] —— 同公司:Codex · 同概念:原型 (prototype)、智能体 (agent)
+- [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|OpenAI 开发者日：从结对编程到指挥智能体大军]] —— 同公司:Codex、OpenAI · 同概念:智能体 (agent)
 
 </div>
 <div class="pd-ex">

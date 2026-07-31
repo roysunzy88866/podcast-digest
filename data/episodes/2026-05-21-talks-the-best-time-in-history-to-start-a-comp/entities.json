@@ -1,0 +1,509 @@
+{
+  "episode_id": "2026-05-21-talks-the-best-time-in-history-to-start-a-comp",
+  "podcast": "精选演讲",
+  "date": "2026-05-21",
+  "tags": [
+    "AI 创业",
+    "商业护城河",
+    "垂直 SaaS",
+    "大模型商品化",
+    "互联网经济"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "patrick-collison",
+      "type": "person",
+      "role": "host",
+      "name": "Patrick Collison",
+      "file": "Patrick Collison",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "amjad-masad",
+      "type": "person",
+      "role": "guest",
+      "name": "Amjad Masad",
+      "file": "Amjad Masad",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": true,
+      "how_described": "本集把它说成：占据全美新公司注册 25% 份额的支付巨头，其平台上新企业创建率同比飙升近两倍，揭示了创业大爆发的真实数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.051,
+            5.097
+          ],
+          "quote": "The rate of new business creation on Stripe in March, it's up almost two X year over year.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 5,
+          "t": [
+            30.242,
+            35.469
+          ],
+          "quote": "Can you share perhaps some of the numbers you're seeing at Stripe and what is this phenomenon exactly?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            82.601,
+            89.562
+          ],
+          "quote": "And specifically, say, from a Stripe standpoint, and Stripe now incorporates a bit more than 25% of all Delaware incorporation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 21,
+          "t": [
+            94.063,
+            107.728
+          ],
+          "quote": "During March of 2020, sorry, April 2020, well into the pandemic, well into lockdowns, I think the rate of new business creation on Stripe was growing at around 50% year over year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            149.898,
+            151.821
+          ],
+          "quote": "And the rate of new business creation on Stripe",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 227,
+          "t": [
+            1153.835,
+            1161.821
+          ],
+          "quote": "When you and your brother, I think you tried to start a couple of startups before Stripe, and Stripe was born out of that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1165.404,
+            1168.506
+          ],
+          "quote": "We have Stripe, Replit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1254.046,
+            1255.327
+          ],
+          "quote": "Stripe sold two startups.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1278.206,
+            1286.568
+          ],
+          "quote": "So Stripe now, I think the transaction volume is like $1.5 trillion.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1295.049,
+            1302.371
+          ],
+          "quote": "So we sometimes refer to the fraction of global GDP flowing through Stripe, which is on the order of 1.5%.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1954.92,
+            1957.862
+          ],
+          "quote": "And I came here for Stripe in 2010.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "replit",
+      "type": "company",
+      "role": "company",
+      "name": "Replit",
+      "file": "Replit",
+      "primary": true,
+      "how_described": "本集把它说成：让领域专家和普通创业者能从点子直接走到部署变现的云编程平台，被比作追求垂直深度集成的“任天堂”。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 87,
+          "t": [
+            482.402,
+            485.883
+          ],
+          "quote": "Replit obviously started out as a learn-to-code platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            485.903,
+            489.965
+          ],
+          "quote": "I think when I first met you in New York a long time ago, that's obviously what Replit was focused on.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 90,
+          "t": [
+            497.047,
+            505.85
+          ],
+          "quote": "And so I guess I'm just curious, as you think about businesses built on Replit, what are just a couple of representative examples or particularly cool ones that you've come across?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 103,
+          "t": [
+            585.114,
+            589.138
+          ],
+          "quote": "It's a half-billion-dollar company that was built with Replit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 109,
+          "t": [
+            594.864,
+            604.094
+          ],
+          "quote": "It feels like otherwise it wouldn't have been built, but not for what happened with AI, what we built with Replit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            621.476,
+            630.321
+          ],
+          "quote": "What role does Replit play in the entrepreneurial ecosystem or the business ecosystem in two or three years?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            630.861,
+            645.79
+          ],
+          "quote": "I think the generating function that produces the product roadmap on Replit is removing all the barriers from going from an idea to a deployed software.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            714.144,
+            716.085
+          ],
+          "quote": "They built a lot of it on Replit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            716.325,
+            723.067
+          ],
+          "quote": "I got in touch with Matthew and talked to him about how they use Replit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            769.764,
+            774.348
+          ],
+          "quote": "So I'm starting to think about a layer on top of your Replit projects.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 179,
+          "t": [
+            921.425,
+            924.627
+          ],
+          "quote": "Let's say I am one of the very successful entrepreneurs running a business on Replit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1165.404,
+            1168.506
+          ],
+          "quote": "We have Stripe, Replit.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2057.501,
+            2064.546
+          ],
+          "quote": "And that app is actually a real startup started by a founder on Replit that PG knows as well.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "magic-school",
+      "type": "company",
+      "role": "company",
+      "name": "Magic School",
+      "file": "Magic School",
+      "primary": true,
+      "how_described": "本集把它说成：一位老师在 Replit 上构建的用于快速创建和批改作业的 AI 工具，几个月内从零做到千万美元 ARR，已成估值 5 亿美元的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 98,
+          "t": [
+            555.67,
+            558.973
+          ],
+          "quote": "So he built this product, which he called Magic School.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集把它说成：强悍的基础模型实验室，探讨人们常担忧这类大模型公司会不会“通吃”所有商业价值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 314,
+          "t": [
+            1616.489,
+            1624.017
+          ],
+          "quote": "And the history of LLM progress has been GPT-2 was something only OpenAI could do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "suno",
+      "type": "company",
+      "role": "company",
+      "name": "Suno",
+      "file": "Suno",
+      "primary": false,
+      "how_described": "本集把它说成：一个音乐生成服务，被主持人用来探讨 AI 能否在爵士乐尚未存在时凭空将其创造出来的创造力难题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 192,
+          "t": [
+            999.005,
+            1005.527
+          ],
+          "quote": "Well, the thing that reminds me of is I'm a fan of Suno, the music generating service.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1012.508,
+            1014.29
+          ],
+          "quote": "could Suno create it?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1036.05,
+            1039.913
+          ],
+          "quote": "you'd need to use Suno to produce a genre that, in fact, doesn't exist.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成：未来可以用来替代部分员工去管理的数字劳动力（如创业者说‘我宁愿管理智能体’），未来软件将能一键拉起营销或销售智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 118,
+          "t": [
+            661.903,
+            663.884
+          ],
+          "quote": "You kind of solved that with Repl.Agent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vertical-saas",
+      "type": "concept",
+      "role": "concept",
+      "name": "垂直 SaaS (vertical SaaS)",
+      "file": "垂直 SaaS",
+      "primary": true,
+      "how_described": "本集把它说成：针对溜冰场、瑜伽等传统长尾细分行业提供服务的软件，是未来最具潜力和稳健性的创业机会所在。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            442.805,
+            455.672
+          ],
+          "quote": "But the ice skating rink is a nice example of how, sort of tongue in cheek for the last seven or eight years, when people have asked me what sector of technology I'm excited about, is it drones, is it AI, is it crypto, whatever, I've said it's vertical SaaS.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            472.919,
+            477.801
+          ],
+          "quote": "And there's just still a ton of opportunity, which I guess vertical SaaS, by definition, helps enable.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1182.697,
+            1187.8
+          ],
+          "quote": "I have a lot of affinity for the vertical SaaS ideas.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1914.791,
+            1924.597
+          ],
+          "quote": "But for Silicon Valley sort of vertical SaaS, I think perhaps vertical SaaS becomes the domain of the long tail as opposed to like Silicon Valley.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2028.543,
+            2046.234
+          ],
+          "quote": "I think the AI companies, the platforms that are starting here, I think perhaps Silicon Valley becomes more of a platform town rather than vertical SaaS or point solution town and then that decentralizes and becomes available to",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "moat",
+      "type": "concept",
+      "role": "concept",
+      "name": "护城河 (moat)",
+      "file": "护城河",
+      "primary": true,
+      "how_described": "本集把它说成：企业抵御竞争的核心优势（如交易所的网络协调效应），探讨当 AI 把写代码成本压到零时，护城河是否会因此改变。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 346,
+          "t": [
+            1784.027,
+            1787.43
+          ],
+          "quote": "But for the most cases, I don't think it ever was the moat.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": false,
+      "how_described": "本集把它说成：未来将大量涌现、能渗透进一切事物并降低技术门槛的底层 AI 基础设施。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 321,
+          "t": [
+            1650.385,
+            1653.007
+          ],
+          "quote": "There's going to be a lot of open source models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": false,
+      "how_described": "本集把它说成：本质上依然是训练数据的函数，擅长模仿已有事物，但很难跳出固有分布去创造尚未存在的新文化或新概念。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 314,
+          "t": [
+            1616.489,
+            1624.017
+          ],
+          "quote": "And the history of LLM progress has been GPT-2 was something only OpenAI could do.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "commodify",
+      "reason": "专名「commodify」未在真相源出现,且不在别名表(疑编造)"
+    },
+    {
+      "name": "paradigm shift",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -29,7 +29,7 @@ unlisted: true
 
 [[Lenny]] · [[OpenAI]] · [[Anthropic]] · [[Matt MacInnis]] · [[Benedict Evans]] · [[Tony Fadell]] · [[Amar]] · [[Google]] · [[Nest]] · [[Rippling]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"OpenAI":16,"Anthropic":22,"Matt MacInnis":1,"Benedict Evans":1,"Tony Fadell":1,"Amar":1,"Google":9,"Nest":1,"Rippling":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"OpenAI":19,"Anthropic":23,"Matt MacInnis":1,"Benedict Evans":1,"Tony Fadell":1,"Amar":1,"Google":9,"Nest":1,"Rippling":1}</script>
 
 <script>
 (function(){

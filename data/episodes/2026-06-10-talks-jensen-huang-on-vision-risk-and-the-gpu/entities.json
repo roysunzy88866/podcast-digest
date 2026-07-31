@@ -1,0 +1,891 @@
+{
+  "episode_id": "2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu",
+  "podcast": "精选演讲",
+  "date": "2026-06-10",
+  "tags": [
+    "移民故事",
+    "加速计算",
+    "逆流而上",
+    "第一性原理",
+    "AI 行业架构"
+  ],
+  "categories": [
+    "创业与行业",
+    "组织与领导力"
+  ],
+  "entities": [
+    {
+      "id": "condi-rice",
+      "type": "person",
+      "role": "host",
+      "name": "Condi Rice",
+      "file": "Condi Rice",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            102.921,
+            104.742
+          ],
+          "quote": "The amazing Condi Rice.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "jensen-huang",
+      "type": "person",
+      "role": "guest",
+      "name": "Jensen Huang",
+      "file": "Jensen Huang",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集把它说成：世界上最具影响力的技术公司，真诚地是一个「只在美国才能发生」的故事；它在通用计算主导的时代逆流而上，押注加速计算和 GPU。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            5.113,
+            13.096
+          ],
+          "quote": "Along the way, the jobs I had, the schools I went to, the opportunities I had, and here we are, NVIDIA being the most consequential technology company in the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 7,
+          "t": [
+            40.571,
+            52.837
+          ],
+          "quote": "Jensen Wang, the founding CEO of NVIDIA, had a vision, took significant risks, and now leads an iconic American business, driving change at the heart of global technology.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            283.661,
+            287.363
+          ],
+          "quote": "Thank you for having me here at this beautiful NVIDIA campus.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 243,
+          "t": [
+            955.089,
+            958.351
+          ],
+          "quote": "And along the way, I founded NVIDIA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1043.267,
+            1045.489
+          ],
+          "quote": "Now talk about the founding of NVIDIA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1211.721,
+            1216.764
+          ],
+          "quote": "In fact, aside from NVIDIA today, really everything else runs on CPUs.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1230.11,
+            1236.395
+          ],
+          "quote": "And so which brought NVIDIA to its second idea, which was maybe the first application is computer graphics.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1287.877,
+            1291.098
+          ],
+          "quote": "The GeForce 3 is the latest generation graphics processor from NVIDIA.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 333,
+          "t": [
+            1380.997,
+            1381.998
+          ],
+          "quote": "NVIDIA!",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1394.907,
+            1403.894
+          ],
+          "quote": "NVIDIA came to us many months ago and talked to us about an amazing graphics part that they wanted to build.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1413.125,
+            1419.986
+          ],
+          "quote": "And we've been working together with NVIDIA for many, many months, and they've created something really great.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1578.175,
+            1581.817
+          ],
+          "quote": "And then we rebuilt back where NVIDIA is going to be in that world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1623.978,
+            1641.254
+          ],
+          "quote": "positive feedback no external motivation how do you stay and how do your employees stay motivated because there was this period of time where nvidia was it was not on the tip of the tongue of anybody uh here in the valley all kinds of other things were going on yeah",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 400,
+          "t": [
+            1723.172,
+            1724.213
+          ],
+          "quote": "You could say that about NVIDIA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 513,
+          "t": [
+            2263.346,
+            2273.433
+          ],
+          "quote": "I am certain my feelings about NVIDIA and my constant desperation to do better is exactly the same feelings my parents have.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2285.151,
+            2289.635
+          ],
+          "quote": "You know, this is genuinely, NVIDIA genuinely is a only in America story.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2328.709,
+            2333.563
+          ],
+          "quote": "the systems, the institution, the foundation that makes a company like NVIDIA to be possible.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "amd",
+      "type": "company",
+      "role": "company",
+      "name": "AMD",
+      "file": "AMD",
+      "primary": false,
+      "how_described": "本集把它说成：一家硅谷的芯片公司；黄仁勋当年在这里工作，因为 AMD 提供了一个可以由公司出钱送他去斯坦福读书的项目。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 222,
+          "t": [
+            884.583,
+            886.765
+          ],
+          "quote": "And so I took a job at AMD.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 225,
+          "t": [
+            895.733,
+            904.899
+          ],
+          "quote": "And and they had this this program where you could go to Stanford and work at AMD and they pay everything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            912.384,
+            914.026
+          ],
+          "quote": "I can go to work at AMD.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sequoia-capital",
+      "type": "company",
+      "role": "company",
+      "name": "Sequoia Capital",
+      "file": "Sequoia Capital",
+      "primary": false,
+      "how_described": "本集把它说成：在沙丘路（Sand Hill Road）最终为那份「不可能拿到融资」的加速计算商业计划提供早期投资的硅谷风险投资机构之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 316,
+          "t": [
+            1319.688,
+            1323.65
+          ],
+          "quote": "Sequoia Capital and Sutter Hill, right, would be investors in this company.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "sutter-hill",
+      "type": "company",
+      "role": "company",
+      "name": "Sutter Hill",
+      "file": "Sutter Hill",
+      "primary": false,
+      "how_described": "本集把它说成：和红杉资本一起，在早期为 NVIDIA 那份充满「先有鸡还是先有蛋」难题的商业计划提供投资的另一家机构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 316,
+          "t": [
+            1319.688,
+            1323.65
+          ],
+          "quote": "Sequoia Capital and Sutter Hill, right, would be investors in this company.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "stanford",
+      "type": "company",
+      "role": "company",
+      "name": "Stanford",
+      "file": "Stanford",
+      "primary": false,
+      "how_described": "本集把它说成：黄仁勋边工作边读书、断断续续花了八年才毕业的学校；这里让他看到了课堂上的计算机科学原理如何在实际工业中发挥作用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            288.644,
+            294.288
+          ],
+          "quote": "You and I have known each other a very long time and have a lot of ties, Stanford ties and the likes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            707.11,
+            718.32
+          ],
+          "quote": "How did you end up going on to college and then Stanford and working at Denny's, which we have to cover at some point?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 218,
+          "t": [
+            868.033,
+            869.934
+          ],
+          "quote": "How does Stanford come onto your radar screen?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 225,
+          "t": [
+            895.733,
+            904.899
+          ],
+          "quote": "And and they had this this program where you could go to Stanford and work at AMD and they pay everything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 229,
+          "t": [
+            914.146,
+            919.669
+          ],
+          "quote": "You can pay me a great salary and you're going to pay me to go to Stanford at the same time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 240,
+          "t": [
+            946.785,
+            947.325
+          ],
+          "quote": "at Stanford.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 241,
+          "t": [
+            947.365,
+            951.127
+          ],
+          "quote": "Nobody paid Stanford more for the education.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 244,
+          "t": [
+            958.931,
+            966.915
+          ],
+          "quote": "And literally during my entire tenure, during that time of being at Stanford, my life happened.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 247,
+          "t": [
+            978.532,
+            988.378
+          ],
+          "quote": "But the benefit of working and going to school at the same time, especially Stanford, I could see so much of the principles being taught and how important it is in everything that I do today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 249,
+          "t": [
+            993.161,
+            998.544
+          ],
+          "quote": "My family, my kids, my company, Stanford, you know, working, all of it kind of in one giant soup.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1012.587,
+            1016.189
+          ],
+          "quote": "It sounds like Stanford was a place like that for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1420.446,
+            1426.708
+          ],
+          "quote": "I remember listening to you at Stanford at a talk, and you said, we just kept trying to solve hard problems.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1517.92,
+            1530.446
+          ],
+          "quote": "some researchers, one at Stanford, Andrew Wang, Jeff Hinton at the University of Toronto, Jan LeCun over at New York University, they were all trying to solve for a similar problem, which is deep learning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1722.131,
+            1723.152
+          ],
+          "quote": "You could say that about Stanford.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 487,
+          "t": [
+            2121.344,
+            2125.066
+          ],
+          "quote": "And then they go to Stanford because somebody will pay for it.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "denny-s",
+      "type": "company",
+      "role": "company",
+      "name": "Denny's",
+      "file": "Denny's",
+      "primary": false,
+      "how_described": "本集把它说成：黄仁勋年轻时做服务生打工的餐厅，他在这里遇到了后来一起创立 NVIDIA 的搭档 Chris 和 Curtis。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 176,
+          "t": [
+            707.11,
+            718.32
+          ],
+          "quote": "How did you end up going on to college and then Stanford and working at Denny's, which we have to cover at some point?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 177,
+          "t": [
+            718.82,
+            720.482
+          ],
+          "quote": "I must be Denny's best ambassador.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            722.163,
+            723.224
+          ],
+          "quote": "I love Denny's so much.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 490,
+          "t": [
+            2135.15,
+            2139.933
+          ],
+          "quote": "I'm the busboy at Denny's that met up with Chris and Curtis, the two geniuses.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPU",
+      "file": "GPU",
+      "primary": true,
+      "how_described": "本集把它说成：为并行模拟（如图形、大脑思考）而设计的处理器；它具有指令集且可编程，最终成为了今天 AI 计算的基石。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 394,
+          "t": [
+            1696.469,
+            1708.977
+          ],
+          "quote": "GTC is all about the celebration of the wonderful discoveries and amazing inventions that are made possible because of the GPU computing revolution.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "parallel",
+      "type": "concept",
+      "role": "concept",
+      "name": "并行计算 (parallel)",
+      "file": "并行计算",
+      "primary": true,
+      "how_described": "本集把它说成：同时处理成千上万个任务的计算方式（区别于像写菜谱那样一步步执行），是对世界和大脑进行模拟所必需的架构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 347,
+          "t": [
+            1440.572,
+            1446.514
+          ],
+          "quote": "the computation of simulation can be done not completely but largely in parallel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1461.879,
+            1466.701
+          ],
+          "quote": "In the case of simulation, the world is happening concurrently and in parallel all at the same time right now.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "deep-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "深度学习 (deep learning)",
+      "file": "深度学习",
+      "primary": true,
+      "how_described": "本集把它说成：吴恩达、Hinton、LeCun 等学者主动联系黄仁勋想要解决的类似问题；双方的合把计算机视觉能力推到了前人难以想象的高度，也促使 NVIDIA 重新定位自己。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 360,
+          "t": [
+            1517.92,
+            1530.446
+          ],
+          "quote": "some researchers, one at Stanford, Andrew Wang, Jeff Hinton at the University of Toronto, Jan LeCun over at New York University, they were all trying to solve for a similar problem, which is deep learning.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "first-principles",
+      "type": "concept",
+      "role": "concept",
+      "name": "第一性原理 (first principles)",
+      "file": "第一性原理",
+      "primary": true,
+      "how_described": "本集把它说成：黄仁勋拆解和重建世界的核心思维方式；无论是造大楼、决定公司战略、还是给面对 AI 焦虑的年轻人提建议，他都强调要回到最根本的基础去推理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 369,
+          "t": [
+            1572.031,
+            1576.694
+          ],
+          "quote": "And so step by step by step, we broke everything down to its first principles.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 425,
+          "t": [
+            1829.138,
+            1831.538
+          ],
+          "quote": "I would always retreat back to first principles.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 426,
+          "t": [
+            1832.955,
+            1834.956
+          ],
+          "quote": "I would always reason from first principles.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 427,
+          "t": [
+            1835.016,
+            1839.818
+          ],
+          "quote": "When I'm uncertain about the future, when things are moving too fast, you always go back to first principles.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "five-layer-cake",
+      "type": "concept",
+      "role": "concept",
+      "name": "五层蛋糕 (five-layer cake)",
+      "file": "五层蛋糕",
+      "primary": true,
+      "how_described": "本集把它说成：黄仁勋用来拆解 AI 产业的架构模型——从底层的能源、芯片、云基础设施，到大家热议的 AI 模型层，最顶层也是最容易被忽视却对国家最重要的应用层。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 464,
+          "t": [
+            2023.792,
+            2031.717
+          ],
+          "quote": "That is probably one of the most – there's a lot of different ways to think about the technology, but one way to think about it is it's like a five-layer cake, and we have to win every single layer.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "general-purpose-computing",
+      "type": "concept",
+      "role": "concept",
+      "name": "通用计算 (general purpose computing)",
+      "file": "通用计算",
+      "primary": false,
+      "how_described": "本集把它说成：在黄仁勋创立 NVIDIA 之初，硅谷一切都是围绕它转的（基于 CPU 和摩尔定律）；但他认为厨房不能只有一个工具，必须引入专用的加速计算架构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 265,
+          "t": [
+            1079.556,
+            1080.936
+          ],
+          "quote": "Everything was about general purpose computing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1162.228,
+            1169.112
+          ],
+          "quote": "The problem is the CPU at this point, general purpose computing as of today, is probably about 64 years old.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "simulation",
+      "type": "concept",
+      "role": "concept",
+      "name": "模拟 (simulation)",
+      "file": "模拟",
+      "primary": false,
+      "how_described": "本集把它说成：无论是建造 NVIDIA 的新大楼，还是计算机图形学，本质上都是对真实世界的模拟；这需要大量并行计算，与基于指令的顺序执行有着根本的架构区别。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            124.361,
+            127.342
+          ],
+          "quote": "This was completely built in a simulation first.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 39,
+          "t": [
+            182.308,
+            188.172
+          ],
+          "quote": "We simulated this building every single hour of the day through a simulation of the entire year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 271,
+          "t": [
+            1101.894,
+            1115.36
+          ],
+          "quote": "And we believe that there were so many interesting problems to solve, whether it's real-time computer graphics, which is at the time one of the hardest problems to do in computer science, or simulation or other things beyond that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1426.908,
+            1429.348
+          ],
+          "quote": "Computer graphics is basically a simulation of the world.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1430.148,
+            1431.128
+          ],
+          "quote": "It's a simulation problem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1432.149,
+            1438.19
+          ],
+          "quote": "In a lot of ways, artificial intelligence is a simulation of the mind, simulation of the brain.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1440.572,
+            1446.514
+          ],
+          "quote": "the computation of simulation can be done not completely but largely in parallel.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1447.914,
+            1460.939
+          ],
+          "quote": "And so the architecture, the processor that you want to use for simulation versus the architecture used for task execution, a recipe is step one, step two, step three.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1461.879,
+            1466.701
+          ],
+          "quote": "In the case of simulation, the world is happening concurrently and in parallel all at the same time right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 351,
+          "t": [
+            1469.232,
+            1484.386
+          ],
+          "quote": "On that first principle, you would think that simulation of the world, whether it's quantum, Newtonian, or otherwise, should be something that is a different architecture than recipe execution and instruction execution.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "CPU",
+      "file": "CPU",
+      "primary": false,
+      "how_described": "本集把它说成：过去 64 年里主导计算机产业的通用中央处理器；在 PC 革命时代，整个硅谷都围着它和摩尔定律转。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 263,
+          "t": [
+            1065.372,
+            1075.615
+          ],
+          "quote": "It was the beginning of really Moore's law, the beginning of the CPU era, this incredible technology engine that really changed everything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1090.826,
+            1100.061
+          ],
+          "quote": "And one idea, of course, is every application that's interesting and meaningful, can it be run on a CPU?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1116.841,
+            1121.063
+          ],
+          "quote": "A normal computer, like a CPU, can't possibly be the right format.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 274,
+          "t": [
+            1123.864,
+            1131.406
+          ],
+          "quote": "a way to accelerate the CPU, offload the work that is not suitable for general purpose things.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1143.47,
+            1149.532
+          ],
+          "quote": "And we believe that there's another tool that could augment the CPU.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1162.228,
+            1169.112
+          ],
+          "quote": "The problem is the CPU at this point, general purpose computing as of today, is probably about 64 years old.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1193.707,
+            1199.471
+          ],
+          "quote": "And so, in fact, over the course of the last 64 years, so many applications are built on top of the CPU.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1350.908,
+            1354.308
+          ],
+          "quote": "For the first time, the graphics processor is as programmable as the CPU.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "artificial-intelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "人工智能 (artificial intelligence)",
+      "file": "人工智能",
+      "primary": false,
+      "how_described": "本集把它说成：本质上是对大脑和思维的模拟；黄仁勋建议年轻人不要因为 AI 害怕失业，而应掌握它并在自己的科学领域（如医学、工程）中使用它来实现变革。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 345,
+          "t": [
+            1432.149,
+            1438.19
+          ],
+          "quote": "In a lot of ways, artificial intelligence is a simulation of the mind, simulation of the brain.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 439,
+          "t": [
+            1888.721,
+            1893.145
+          ],
+          "quote": "the capabilities of artificial intelligence and use it in every possible way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 440,
+          "t": [
+            1894.246,
+            1901.091
+          ],
+          "quote": "And it's not just about mastery of science, but it's about mastery of using artificial intelligence in my field of science.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "accelerated",
+      "reason": "专名「accelerated」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

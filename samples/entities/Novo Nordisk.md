@@ -25,7 +25,7 @@ unlisted: true
 
 [[Eric Ries]] · [[Lenny]] · [[Incorruptible]] · [[Cloudflare]] · [[Anthropic]] · [[Vectura]] · [[Groupon]] · [[结构完整性]] · [[公益公司]] · [[金融重力]]
 
-<script type="application/json" class="pd-epn">{"Eric Ries":1,"Lenny":32,"Incorruptible":1,"Cloudflare":1,"Anthropic":22,"Vectura":1,"Groupon":1,"结构完整性":1,"公益公司":2,"金融重力":1}</script>
+<script type="application/json" class="pd-epn">{"Eric Ries":1,"Lenny":32,"Incorruptible":1,"Cloudflare":1,"Anthropic":23,"Vectura":1,"Groupon":1,"结构完整性":1,"公益公司":2,"金融重力":1}</script>
 
 <script>
 (function(){

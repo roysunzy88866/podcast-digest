@@ -43,7 +43,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Boris Cherny]] [[Garry Tan]] [[Alex Finn]] [[Aakash Gupta]] [[Jyothi Nookula]] [[Meng To]] [[Eddie Kim]] [[Andrew Ambrosino]] [[Jiaona Zhang]] [[Fiona Fung]]
+[[Boris Cherny]] [[Garry Tan]] [[Alex Finn]] [[Aakash Gupta]] [[Jyothi Nookula]] [[Meng To]] [[Peter Steinberger]] [[Romain Huet]] [[Eddie Kim]] [[Andrew Ambrosino]]
 
 </div>
 

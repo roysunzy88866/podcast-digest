@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Codex</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">概念</div><div class="nums">本站收录 <b>10</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Codex">CO</div><div class="pi"><h1 class="pt">Codex</h1><div class="byl">概念</div><div class="nums">本站收录 <b>11</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,6 +17,7 @@ unlisted: true
 - **[[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]]**(03:42起):本集提到它是大家通用的编码智能体之一,如果在它里面找到漏洞,就拥有了一类全新的、可广泛利用的攻击方式。
 - **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]]**(00:00起):本集说它是 OpenAI 的桌面应用，自一月以来使用量增长了 6 倍，拥有超过 500 万周活用户；正从开发者工具转变为人们做非产品工作(如文件整理、数据分析)的首选应用，并正与 ChatGPT 能力融合。
 - **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(00:44起):本集把它说成:加了类固醇的 ChatGPT，不仅是写代码的工具，更是启动项目、管理上下文、生成幻灯片/网站/移动应用的超级中枢。
+- **[[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|《OpenAI 开发者日：从结对编程到指挥智能体大军》]]**(04:12起):本集说它是 OpenAI 推出的代码智能体,既能写代码、在沙箱里自我验证,也是任何人都能基于其 API 和 harness 搭建的彻底开放平台
 - **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]]**(19:22起):本集说它是一个编程工具,主持人结合它与 Soul 模型配合使用,完成了从零到一构建原型应用、以及通过 `@chrome` 指令接管网页实现浏览器自动化等工作。
 - **[[2026-07-17-talks-every-company-should-have-a-brain-garry|《用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图》]]**(05:58起):本集提到它,嘉宾将其比作「非常好的本田」,虽然没有那么惊艳,但能完成这其中 90% 的工作
 - **[[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]]**(21:49起):本集把它说成:嘉宾在终端演示中使用的智能体工具,用于修改基因组文件,并在评估测试中于简单任务上快速锁定了正确的囊性纤维化突变区域。
@@ -34,7 +35,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*10 集*
+*11 集*
 
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为概念
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为被讨论公司(提及)
@@ -42,6 +43,7 @@ unlisted: true
 - [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为概念(提及)
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]] — 作为被讨论公司
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为概念
+- [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|《OpenAI 开发者日：从结对编程到指挥智能体大军》]] — 作为概念
 - [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]] — 作为概念
 - [[2026-07-17-talks-every-company-should-have-a-brain-garry|《用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图》]] — 作为概念(提及)
 - [[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]] — 作为被讨论公司(提及)
@@ -53,7 +55,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Claude Code]] · [[Anthropic]] · [[Meta]] · [[Cursor]] · [[OpenClaw]] · [[PRD]] · [[Linear]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"智能体":38,"Lenny":32,"Claude Code":12,"Anthropic":22,"Meta":7,"Cursor":4,"OpenClaw":5,"PRD":5,"Linear":2,"Google":9}</script>
+<script type="application/json" class="pd-epn">{"智能体":40,"Lenny":32,"Claude Code":12,"Anthropic":23,"Meta":7,"Cursor":4,"OpenClaw":5,"PRD":5,"Linear":2,"Google":9}</script>
 
 <script>
 (function(){

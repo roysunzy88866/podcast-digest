@@ -92,8 +92,8 @@ tags:
 **顺着「创业与行业」挖下去**
 
 - [[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r|李飞飞谈空间智能:机器人不需要完美,需要的是反事实推理]] —— 同公司:World Labs · 同概念:Marble、空间智能 (spatial intelligence)
+- [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|只在美国才能发生的故事:黄仁勋与 NVIDIA]] —— 同公司:NVIDIA · 同概念:GPU、人工智能 (artificial intelligence)、深度学习 (deep learning)
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]] —— 同公司:ChatGPT、Waymo
-- [[2025-12-07-lennys-surge-ai-edwin-chen|10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来]] —— 同公司:ChatGPT
 
 </div>
 <div class="pd-ex">

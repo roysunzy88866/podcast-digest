@@ -7,21 +7,31 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>NVIDIA</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="NVIDIA">NV</div><div class="pi"><h1 class="pt">NVIDIA</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="NVIDIA">NV</div><div class="pi"><h1 class="pt">NVIDIA</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]]**(18:42起):本集在回顾 2012 年 ImageNet 突破时提及,说 Hinton 教授团队当年就是使用了来自 NVIDIA 的两张 GPU 成功训练了首个神经网络算法。
 - **[[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言》]]**(18:16起):本集提到它是制造 AI 算力核心组件 GPU 的厂商,由 Jensen 领导,在 AI 深度思考和发展方向上正在做着非凡的事情。Cisco 则负责将他们制造的 GPU 连接在一起形成网络。
+- **[[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]]**(00:05起):本集把它说成：世界上最具影响力的技术公司，真诚地是一个「只在美国才能发生」的故事；它在通用计算主导的时代逆流而上，押注加速计算和 GPU。
 - **[[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]]**(01:24起):本集提到它今天发布了一封名为《开放权重与美国 AI 领导力》的公开信，并由其创始人 Jensen（黄仁勋）专门为此注册推特账号发布，旨在呼吁保护开源 AI。
 - **[[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]]**(00:14起):本集主角，被描述为从教科书自学起步、以加速计算为核心视角穿越技术周期的 AI 芯片巨头，其物理 AI 业务已接近 100 亿美元。
 
+## ① 提到它的金句
+
+*2 条,均已过机器闸门*
+
+![[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu#^q1]]
+
+![[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu#^q6]]
+
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2025-11-16-lennys-the-godmother-of-ai|《AI 教母李飞飞:从 ImageNet 到空间智能》]] — 作为被讨论公司(提及)
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|《管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言》]] — 作为被讨论公司
+- [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]] — 作为被讨论公司
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为被讨论公司
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]] — 作为被讨论公司
 
@@ -29,9 +39,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[ChatGPT]] · [[Lenny]] · [[护栏]] · [[Waymo]] · [[主观能动性]] · [[强化学习]] · [[深度学习]] · [[Dr. Fei-Fei Li]] · [[Jeetu Patel]] · [[Theo Jaffe]]
+[[ChatGPT]] · [[深度学习]] · [[Lenny]] · [[护栏]] · [[Jensen Huang]] · [[人工智能]] · [[GPU]] · [[Waymo]] · [[主观能动性]] · [[强化学习]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":10,"Lenny":32,"护栏":7,"Waymo":7,"主观能动性":6,"强化学习":3,"深度学习":2,"Dr. Fei-Fei Li":1,"Jeetu Patel":1,"Theo Jaffe":2}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":10,"深度学习":3,"Lenny":32,"护栏":7,"Jensen Huang":2,"人工智能":2,"GPU":2,"Waymo":7,"主观能动性":6,"强化学习":3}</script>
 
 <script>
 (function(){

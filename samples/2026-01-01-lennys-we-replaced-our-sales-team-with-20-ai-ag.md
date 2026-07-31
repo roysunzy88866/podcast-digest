@@ -142,9 +142,9 @@ tags:
 
 **换个口味**
 
+- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]] —— 同公司:Replit · 同概念:智能体 (agent)
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同概念:前置部署工程师 (Forward Deployed Engineer)、智能体 (agent)
 - [[2026-07-08-talks-everything-we-knew-about-software-has-ch|别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖]] —— 同公司:Vercel · 同概念:编排 (orchestration)
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同公司:Replit · 同概念:智能体 (agent)
 
 </div>
 </div>

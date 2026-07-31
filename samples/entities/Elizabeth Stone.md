@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Blake Scholl]] [[Adam Mosseri]] [[Fiona Fung]] [[Eric Ries]] [[Keith Rabois]] [[Jeetu Patel]] [[Dr. Becky Kennedy]] [[Matt MacInnis]] [[Amar]] [[Rachel Lockett]]
+[[Blake Scholl]] [[Adam Mosseri]] [[Fiona Fung]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Keith Rabois]] [[Jeetu Patel]] [[Dr. Becky Kennedy]] [[Matt MacInnis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Netflix":2,"InterPositive":1,"GenAI":1,"智能体":38,"系统思维":2,"动荡阶段":1,"留任测试":1,"卓越即操作系统":1,"铺设路径":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"Netflix":2,"InterPositive":1,"GenAI":1,"智能体":40,"系统思维":2,"动荡阶段":1,"留任测试":1,"卓越即操作系统":1,"铺设路径":1}</script>
 
 <script>
 (function(){

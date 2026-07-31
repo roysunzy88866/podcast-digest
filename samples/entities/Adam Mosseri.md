@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Blake Scholl]] [[Elizabeth Stone]] [[Fiona Fung]] [[Eric Ries]] [[Keith Rabois]] [[Jeetu Patel]] [[Dr. Becky Kennedy]] [[Matt MacInnis]] [[Amar]] [[Rachel Lockett]]
+[[Blake Scholl]] [[Elizabeth Stone]] [[Fiona Fung]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Keith Rabois]] [[Jeetu Patel]] [[Dr. Becky Kennedy]] [[Matt MacInnis]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"instagram":1,"TikTok":1,"Anthropic":22,"open ai":2,"reels":1,"pods":1,"产品人员":1,"news feed":1,"嵌入模型":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"instagram":1,"TikTok":1,"Anthropic":23,"open ai":2,"reels":1,"pods":1,"产品人员":1,"news feed":1,"嵌入模型":1}</script>
 
 <script>
 (function(){
