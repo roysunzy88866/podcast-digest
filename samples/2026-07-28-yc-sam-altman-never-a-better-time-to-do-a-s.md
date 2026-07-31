@@ -148,7 +148,7 @@ Sam 说,他刚进 YC 第一批的时候,创业一点都不酷。Paul Graham 每�
 
 **换个口味**
 
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当代码不再是瓶颈,品味和策展成为产品团队的稀缺力]] —— 同公司:OpenAI · 同概念:主观能动性 (agency)、ChatGPT
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]] —— 同公司:OpenAI · 同概念:主观能动性 (agency)、ChatGPT
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]] —— 同公司:OpenAI · 同概念:推理 (inference)、沙箱 (sandbox)
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]] —— 同公司:OpenAI · 同概念:主观能动性 (agency)
 

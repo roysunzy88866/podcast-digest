@@ -2,30 +2,6 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "21:47",
-      "speaker": "Andrew Ambrosino",
-      "trimmed": true,
-      "tsWas": "21:46",
-      "spkWas": "Andrew Ambrosino"
-    },
-    {
-      "i": 2,
-      "timestamp": "22:28",
-      "speaker": "Andrew Ambrosino",
-      "trimmed": false,
-      "tsWas": "22:28",
-      "spkWas": "Andrew Ambrosino"
-    },
-    {
-      "i": 3,
-      "timestamp": "23:19",
-      "speaker": "Andrew Ambrosino",
-      "trimmed": false,
-      "tsWas": "23:17",
-      "spkWas": "Andrew Ambrosino"
-    },
-    {
-      "i": 4,
       "timestamp": "25:10",
       "speaker": "Andrew Ambrosino",
       "trimmed": false,
@@ -33,7 +9,23 @@
       "spkWas": "Andrew Ambrosino"
     },
     {
-      "i": 5,
+      "i": 2,
+      "timestamp": "33:34",
+      "speaker": "Andrew Ambrosino",
+      "trimmed": false,
+      "tsWas": "33:34",
+      "spkWas": "Andrew Ambrosino"
+    },
+    {
+      "i": 3,
+      "timestamp": "32:18",
+      "speaker": "Andrew Ambrosino",
+      "trimmed": true,
+      "tsWas": "32:17",
+      "spkWas": "Andrew Ambrosino"
+    },
+    {
+      "i": 4,
       "timestamp": "31:20",
       "speaker": "Andrew Ambrosino",
       "trimmed": false,
@@ -41,27 +33,13 @@
       "spkWas": "Andrew Ambrosino"
     },
     {
-      "i": 7,
-      "timestamp": "32:18",
+      "i": 5,
+      "timestamp": "37:48",
       "speaker": "Andrew Ambrosino",
       "trimmed": false,
-      "tsWas": "32:17",
-      "spkWas": "Andrew Ambrosino"
-    },
-    {
-      "i": 8,
-      "timestamp": "33:34",
-      "speaker": "Andrew Ambrosino",
-      "trimmed": false,
-      "tsWas": "33:34",
+      "tsWas": "37:47",
       "spkWas": "Andrew Ambrosino"
     }
   ],
-  "dropped": [
-    {
-      "i": 6,
-      "reason": "逐字命中不了(裁剪后仍无)",
-      "en": "If you're an IC, you're not typing code out character by character. You are managing something. You're managing agents."
-    }
-  ]
+  "dropped": []
 }

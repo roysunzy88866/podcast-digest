@@ -21,7 +21,7 @@ unlisted: true
 
 - [[2026-06-24-pg-company-os-jz|《Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能》]] — 作为联合主持
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为联合主持
-- [[2026-07-28-pg-how-to-build-your-first-eval|《评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估》]] — 作为联合主持
+- [[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]] — 作为联合主持
 
 ## ③ 他谈到的
 

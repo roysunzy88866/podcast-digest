@@ -1,152 +1,128 @@
 {
-  "title_zh": "当代码不再是瓶颈,品味和策展成为产品团队的稀缺力",
-  "tldr": "OpenAI Codex 负责人解析 AI 如何倒置产品流程:实现变廉价,品味、策展和时机判断成为新瓶颈。",
-  "digest_md": "今天的嘉宾是 Andrew Ambrosino,OpenAI Codex 桌面应用的产品和工程负责人。Codex 正迅速从纯开发者工具转变为人们构建产品及处理各种非产品工作(如整理文件、起草文档、数据分析)的首选应用。自今年一月以来,其使用量增长了 6 倍,目前拥有超过 500 万周活跃用户。本期访谈中,Andrew 详细拆解了当 AI 让代码实现变得极其廉价时,产品开发流程、团队角色边界以及核心技能正在发生的深刻倒置与重塑。全文将围绕四个方面展开:产品流程为何颠倒、什么是真正的品味、如何应对时机的模糊性,以及 Codex 未来走向何方。\n\n### 实现不再昂贵:被颠倒的产品流程与媒介选择\n过去,软件开发的流程是线性的:由于代码实现非常昂贵,团队必须通过用户研究、文档(如 PRD)和原型来尽可能预先降低风险。但在 AI 辅助下,Andrew 指出,现在任何人都可以迅速构建出想要的任何功能 [03:09 Andrew Ambrosino]。这导致产品开发过程被彻底颠倒:写代码实现不再是昂贵和稀缺的部分。\n\n这带来的直接现象是「90 个原型」的诞生。在 OpenAI 内部,当一个新想法浮现时,大家不再写文档讨论,而是直接用 AI 生成可交互的原型,公司里可能同时有 90 个互不协调的团队在做同一个功能的探索。然而,这也带来了危险。Andrew 强调,在实现充裕的时代,最稀缺的能力变为了「策展」(Curation):从那 90 次粗糙的尝试中,判断哪些是好的、应该如何重组,以及为正确的观点选择恰当的呈现媒介 [05:08 Andrew Ambrosino]。如果仅仅因为一个原型看起来像产品,就错误地以为它已经准备好上线,这就是过度锚定,会导致研发方向的严重偏移。\n\n### 重新定义品味:当 AI 不擅长设计时,人类该做什么\n既然 AI 能写代码,那它能做好设计吗?Andrew 认为,虽然模型在持续进步,但在实际设计上目前仍然非常糟糕。这首先是个实际原因:设计比代码更难评级,训练模型判断好坏需要重度依赖人类的主观品味作为反馈机制,这比检查代码能否编译要枯燥繁重得多。更深层的原因是飞轮效应:实验室历来投资于让模型擅长加速 AI 研究本身,而设计并不直接在这个飞轮内 [13:24 Andrew Ambrosino]。\n\n此外,设计具有强烈的文化属性和随机性。如果模型只是无限复制像 Linear 这样优秀网站的既有模式,那并不是设计的核心挑战。真正难以被 AI 取代的是更深的抽象层。比如在代码库中,一个视觉元素的变更可能牵扯深层语义和架构的共享。如果公司明天进行品牌重塑,需要逐个更新数百个组件,这就考验对系统底层抽象的把控。目前的技术对此依然显得遥不可及 [14:54 Andrew Ambrosino]。\n\n因此,在这个阶段,人类的品味变得前所未有地重要。Andrew 眼中的好品味不仅是动画是否干脆的美学问题,更是系统思维的体现:它关乎某个功能如何融入全局、它的战略主题是什么、如何向用户呈现。简而言之,既然我们可以构建任何东西,那么「我们的目标到底是什么以及如何达成」就成了真正的品味考验 [10:24 Andrew Ambrosino]。\n\n### 团队角色的重塑:警惕「职能消亡」的极端论调\n随着正统的、学究式的传统设计流程消亡,团队中设计师、工程师和产品经理(PM)的边界正在模糊。Andrew 用「区域防守」来形容目前的产品工作:两个产品人员如果靠得太紧往往不是好信号。现在的核心是策划、引导和拉齐认知,团队需要通过力导向的方式散开,寻找业务空隙,实现全公司的覆盖 [29:00 Andrew Ambrosino]。因此,现在的角色不再由固定的工具使用边界定义,而是你每天实际所做事情的平均值——每个人都兼具独立贡献者(IC)和管理者的属性,即便是一线 IC 现在实际上也是在管理智能体 [31:04 Andrew Ambrosino]。团队招募的核心标准,也变成了寻找那些具备极高品味和高主观能动性的人。\n\n但 Andrew 也对此现象提出了严厉的警告。他极度反对很多公司盲目跟风,声称要「取消产品角色,让所有人都变成纯粹的建造者」。他认为每个学科都有其真实的最佳实践和技能门槛。彻底消除角色的概念,会导致积累了多年经验的产品或设计学科被白白抛弃 [25:10 Andrew Ambrosino]。工程师不应该傲慢地认为工程是硬技能,而其他角色只是在凭感觉进行 vibe coding。\n\n> 【背景】Vibe coding 指完全通过自然语言与 AI 对话来生成代码的编程方式,不关注底层代码细节。此处意指低估某些岗位的专业性。\n\n### 应对模糊性:时机判断、产品形态与 Codex 的未来\n面对模型能力的飞速迭代,精确的长期路线图规划已经失效。Andrew 团队的方法是:短期计划需要细节,而九个月的长期规划必须保持高度模糊,因为此时添加的任何精度都是虚假的 [32:17 Andrew Ambrosino]。因此,探索阶段的策略变成了广泛撒网:把感兴趣的想法全部原型化,决定哪些现在能用,让其他的放着酝酿;每当模型实现新飞跃,就用新模型重试旧想法。\n\n这是一个关于时机的重要教训。Andrew 透露了一个惊人的事实:目前广受好评的 Codex 应用,如果在去年十一月准备就绪,绝对会在市场上惨败。产品的形态完全没变,仅仅是因为十一月到二月之间模型智能水平的提升,彻底改变了产品的市场结局 [33:34 Andrew Ambrosino]。他曾力推团队不要因为功能当下不完美就固执地放弃,很多时候不是功能不行,只是模型还没准备好。\n\n正是在这种不断试错和迭代中,Codex 的定位发生了剧变。最初它只是个内部工具,随后市场、传播、财务和法务等非工程人员也开始重度使用它,即便界面对他们充满「敌意」(总在展示代码)。这就引出了最终的愿景:Codex 与 ChatGPT 的能力正在融合,它将成为一个通用的知识工作大本营 [52:14 Andrew Ambrosino]。它不仅能处理应用内的任务,还能通过连接器、Chrome 扩展甚至计算机使用功能,接管并操作你电脑上的专业软件(如直接操控 Excel 或 Premiere Pro 进行财务建模或视频剪辑)。\n\n## 本集带走\n1. **实现廉价,策展变贵**:AI 让代码实现变得极其廉价,这并没有消灭文档和原型,而是要求团队具备更高的「品味」去选择恰当的媒介表达,并在海量的 AI 生成结果中做减法和重组。\n2. **别被「角色消亡论」忽悠**:角色边界在模糊,人人都能写代码,但这不代表产品经理、设计师的专业最佳实践不再重要。每个学科仍有其不可替代的硬核技能和系统思维门槛。\n3. **好产品需要耐心等待模型的成长**:产品失败未必是形态错了,往往只是模型智能还不到位。保持想象力去构建那些当下看起来还不完美的功能,等待模型跨过智能门槛,是新时代产品人的必修课。",
+  "title_zh": "当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源",
+  "tldr": "Codex负责人Andrew Ambrosino谈AI如何颠覆产品流程:实现已廉价,策展和品味才是瓶颈。",
+  "digest_md": "如果同一个产品提前三个月发布,它注定在市场上惨败——决定生死的不是产品形态,而是那三个月里模型变聪明了多少。这听起来很反直觉,但它正是 OpenAI 在去年经历的真实教训,说这话的是 Andrew Ambrosino,Codex 应用的产品和工程负责人。\n\n在这一集播客里,他讲了三件事:为什么当 AI 让写代码变得极度廉价时,产品流程整个「倒过来了」,不再是写文档,而是做一堆原型再做选择;为什么真正决定产品好坏的是「品味」这种难以量化的能力,以及 AI 为什么唯独在设计上依然栽跟头;还有他们怎么用「区域防守」的组织方式来应对旧分工的瓦解。结尾他还分享了一个关于失败的真实感受:在走到这一步之前,他其实失败了十到十五年。\n\n说到了为什么形态没变、生死却变了,这背后的根本原因其实是 Andrew 眼中整个产品开发流程的「倒置」。Andrew 解释说,过去很长一段时间,产品开发的核心假设是「实现(也就是把代码写出来)很贵」。因为贵,所以你要在动手写代码之前,用写文档、做用户调研、画原型的方式去把风险降到最低。但现在,如果你跟这些模型对话,你可以很轻易地搭建出任何你想要的功能。实现不再昂贵了,真正昂贵的是什么?Andrew 的结论是:是品味。这就导致了一个很奇特的现象:在 OpenAI 内部,如果有一个大家觉得非做不可的功能,可能会有 90 个互不协调的小团队同时在用 AI 做原型。而领导者的工作,不再是指派谁来写代码,而是去这 90 个探索里做策展,挑出哪些细节是好的,该怎么把它们融合,以及判断这到底是不是产品该走的方向 [03:09 Andrew Ambrosino]。这并不是说写文档或 PRD(产品需求文档)彻底没用了, Andrew 认为这完全是误解。如果是为了理清模糊的思路,文档依然是对的媒介;如果是为了测试一种具体的交互手感,那就直接做原型。关键在于,你要根据目标去选择媒介,而不是盲目跟风喊「原型当道」。\n\n既然提到了选择媒介和挑方向,这就引出了一个更核心的问题:到底什么是好的品味?这个词听起来很虚,很多工程师甚至觉得它就是设计师对审美的矫情。Andrew 并不这么认为。他强调,品味确实包含审美,比如一个动画的节奏是不是太突兀了;但比审美更重要的是系统思维和更宽广的语境。比如面对一个功能,真正的品味是能回答:这个东西在系统里处在什么位置?它符合我们公司未来的主题吗?在我们什么都能做的情况下,到底为什么要做它?Andrew 甚至开了一个玩笑,说提到品味大家总是想到穿搭,但 Paul Graham(知名程序员、投资人)显然品味极佳,哪怕他总穿工装短裤 [10:48 Andrew Ambrosino]。这就带出了一个让很多人好奇的疑问:既然模型已经这么聪明了,为什么 AI 在写代码上突飞猛进,在做实际的设计时却依然很糟糕?Andrew 觉得有两个原因。首先是「打分」的难度不一样。代码好不好,看它能不能编译、能不能跑通就行;但设计好不好,是需要人类的主观品味作为反馈机制来介入的,这让训练模型变得非常繁琐。其次,各大 AI 实验室一直以来的重心,是让模型擅长那些能「加速 AI 研究本身」的事情。在代码模型早期,模型能写出正确的代码,直接就能加速研究,但设计并不直接在这个飞轮里。更难的是,设计天然需要新颖性,而软件工程更希望模型去套用已知的安全模式。此外还有一种抽象能力的缺失:如果一个模型要改一个视觉组件,它往往只能做最浅层的处理;但真正的设计是语义层面的抽象——如果明天公司换了品牌,模型能否理解两个看起来不同的东西其实属于同一种交互模式?目前的模型在这方面依然无能为力 [12:40 Andrew Ambrosino]。\n\n> 【背景】PRD 即产品需求文档,瀑布流是传统软件开发中高度线性、按阶段推进的开发模型,都强调在写代码前做大量前置规划。\n\n工具变了,流程和组织该怎么变?这正是 Andrew 接下来聊到的第二个重点:角色的崩塌。设计师、产品经理、工程师之间的界限正在模糊,尤其是在 Codex 团队内部。Andrew 有一套非常生动的理论:你的角色不再是你名片上的头衔,而是你「花时间做的事情的平均值」。如果你这周大部分时间在做工程,那你现在就是工程师;下周如果主要在理清产品逻辑,那你就是产品经理。这种角色的流动,很大程度上是因为过去那种所谓的「守门人」文化被消解了——过去你觉得自己不能当软件工程师,可能只是因为你不想背汇编语言或死记硬背语法,而现在这些工具门槛被抹平了。但 Andrew 也警告说,不要走极端。他听到很多公司说「我们要取消产品角色,大家都只管做建造者」,他认为这是个极其糟糕的主意。每个学科都有它沉淀下来的最佳实践和专业技能,不是写了两行代码就能取代的。为了应对这种新形态,Codex 的产品团队采用了一种叫做「区域防守」的协作模式。意思是说,产品经理们不能挤在一起,而是要像打球一样主动散开,去填补整个产品视野中的「空白区」。毕竟在现在这种充满混沌、到处都是大家在扔想法的环境里,自上而下的年度规划已经失效了。你需要那些有品味的人散布在全公司,引导各种点子从萌芽走向成熟 [28:47 Andrew Ambrosino]。\n\n既然组织都要这么灵活了,那做长期规划还有意义吗?这正是话题顺理成章的延伸。Andrew 坦言,他在规划这件事上经常让人感到挫败。他们现在的做法是:越是短期的事,规划必须越细;但如果是九个月以后的规划,那就只能保持非常模糊的轮廓。因为在这个时间尺度上,你加进去的任何精确细节,都是「虚假精度」,纯粹是浪费时间。他举了 Codex 应用本身的故事:如果他们二月份发布的那款产品,在十一月份就准备好了并推向市场,绝对会惨败。因为产品的形态完全没变,唯一改变的是十一月至二月之间模型变聪明了。这就催生了一种全新的做事逻辑:去原型化所有你们感兴趣的想法,看哪些在当前模型能力下已经跑通了,就直接上;跑不通的就让它们在那里放着酝酿。每次模型有一次新的飞跃,就把那些积压的想法拿出来重新试一遍。但这也带来一个新麻烦:很多人有肌肉记忆,觉得「我给这东西写了代码,所以我们必须发出去」。Andrew 必须不断提醒团队:不,你只是做出了一个工件,它能帮我们测试未来的模型,不代表它现在就该面世。\n\n说完了团队怎么折腾产品,那 Andrew 自己每天又是怎么用 Codex 的呢?这就进入了他个人的工作流。作为要管理成千上万条线索的负责人,他早上起床会看到 Codex 自动整理的一份每日简报。这份简报汇总了他所在的三千个 Slack 频道里的重点,并提示哪些需要他关注。如果简报有偏差,他不需要去改底层代码,只要直接跟应用说:「下次运行时多关注这个,弱化那个」。他还让 Codex 帮他过滤垃圾邮件。为了配置过滤所需的触发器,Codex 竟然直接接管了他的电脑,自己去点开那些烦人的 Google Cloud 控制台界面,自己搞定了 API 设置。更夸张的是 OpenAI 内部的一位视频制作师 Brent。Brent 想用 Codex 剪辑视频,Codex 本身并没有视频编辑界面,但它能看懂 Brent 用的 Premiere Pro 软件。于是,Codex 自己写了一个扩展程序,装进了 Premiere Pro 里,然后通过这个扩展来指挥软件改标记点 [57:21 Andrew Ambrosino]。在这个过程中,Codex 不是一个孤立的聊天框,而是一个可以连接 Excel、连接 Slack、甚至操控浏览器的主基地。\n\n光鲜产品的背后总是不断的试错,这也是 Andrew 最后最想传递的真实感受。当被问到有什么失败经历时,他笑着说,这大概是他第一次不觉得自己在失败。在来到 OpenAI 之前,他做了很久的创业者,卖掉过一家公司,也曾在受高度监管的行业里做 AI 工具,那十几年感觉就像是一场接一场的失败。把 Codex 的经验跟 ChatGPT 结合起来的这个大项目,他也不知道经历了多少次微小的失败——很多时候他们在 Slack 里发一个新设计,会立刻收到两千条消息嘲笑他们有多蠢。他认为,失败十到十五年然后突然遇到技能、热情和市场时机都对齐的那一刻,才是真相。而在节目的最末尾,当被问到工程师、设计师、产品经理这三个角色哪个最难时,Andrew 没有选任何一个。他觉得引入这种角色的流动性是件好事,尤其是对那些主观能动性强、就想把事情做成的人。但他也坚持,每个角色的核心技能不该被抛弃,人们应该去找那些真正值得做的事情,而不是死守着某一种旧流程。\n\n## 本集带走\n\n最后收个尾,这一集值得带走的是三句话。第一,产品开发流程已经倒过来了:因为 AI 把写代码、做原型的成本打到了谷底,所以不再是「先写死文档、再花大钱做一次」,而是「做几十个原型,用品味去策展和做减法」,PRD 没死,只是你要学会根据目标灵活选媒介。第二,短期规划必须细,长期规划必须虚,不要给九个月后的计划加什么精确细节,那都是虚假精度;很多时候产品成不成,不看形态好不好,只看模型有没有跨越那条能力的及格线,所以做不出来的功能就先放着酝酿,等模型升级了再试。第三,职位头衔不再定义你的工作,你花时间的平均值才是;在这个新世界里,最值钱的是高主观能动性和高品味的人,他能凭直觉把一个混沌的想法一路引导成惊艳的产品,而那些有专业沉淀的最佳实践和技能,非但不会过时,反而是支撑这种流动的底座。",
   "quotes": [
     {
-      "en": "seen more role collapse in the Codex org than I think other parts of the company and other parts of the economy.",
-      "zh": "我们在 Codex 组织中看到比公司其他部分和经济其他部分更多的角色崩塌。",
-      "timestamp": "21:47",
-      "speaker": "Andrew Ambrosino"
-    },
-    {
-      "en": "everybody's sort of defined less by the fence and the boundaries of where design stops and engineering starts, but more the average of where they're working.",
-      "zh": "每个人的定义越来越少地取决于设计结束和工程开始的栅栏和边界,而更多取决于他们工作位置的平均值。",
-      "timestamp": "22:28",
-      "speaker": "Andrew Ambrosino"
-    },
-    {
-      "en": "we often don't improve our process so that we can make the product better to do it, which is a deeply uncomfortable place to be in.",
-      "zh": "我们经常不改进我们的流程,以便我们可以把产品做得更好来做这件事,这是一个处于其中非常不舒服的地方。",
-      "timestamp": "23:19",
-      "speaker": "Andrew Ambrosino"
-    },
-    {
       "en": "I've heard a lot of companies be like, \"We're getting rid of the product role,\" which I think is by the way, a terrible idea.",
-      "zh": "我听到很多公司说,\"我们要取消产品角色,\"顺便说一句,我认为这是一个糟糕的想法。",
+      "zh": "我听到很多公司说，“我们要取消产品角色，”顺便说一句，我认为这是一个糟糕的想法。",
       "timestamp": "25:10",
       "speaker": "Andrew Ambrosino"
     },
     {
-      "en": "I generally look for obviously command over the discipline, but then the taste to say, \"Hey, you're going to have unlimited tokens and we can't just be doing slop.\"",
-      "zh": "我通常寻找对这门学科的明显掌控,但还要有品味,能说:\"嘿,你要拥有无限的 token,我们不能只是在制造垃圾。\"",
-      "timestamp": "31:20",
+      "en": "I am very confident that the Codex app that we released in February, if that had been ready in November, it would've absolutely failed in the market.",
+      "zh": "我非常有信心，我们在二月发布的 Codex 应用程序，如果它在十一月准备好了，它肯定会在市场上失败。",
+      "timestamp": "33:34",
       "speaker": "Andrew Ambrosino"
     },
     {
       "en": "any amount of precision that you add to a nine-month plan right now is false precision and you're just going to waste time.",
-      "zh": "现在你对九个月规划添加的任何精度都是虚假精度,你只是在浪费时间。",
+      "zh": "因为现在你对九个月规划添加的任何精度都是虚假精度，你只是在浪费时间。",
       "timestamp": "32:18",
       "speaker": "Andrew Ambrosino"
     },
     {
-      "en": "I am very confident that the Codex app that we released in February, if that had been ready in November, it would've absolutely failed in the market.",
-      "zh": "我非常有信心,我们在二月发布的 Codex 应用程序,如果它在十一月准备好了,它肯定会在市场上失败。",
-      "timestamp": "33:34",
+      "en": "I generally look for obviously command over the discipline, but then the taste to say, \"Hey, you're going to have unlimited tokens and we can't just be doing slop.\"",
+      "zh": "我通常寻找对这门学科的明显掌控，但还要有品味，能说：“嘿，你要拥有无限的 token，我们不能只是在制造垃圾。”",
+      "timestamp": "31:20",
+      "speaker": "Andrew Ambrosino"
+    },
+    {
+      "en": "You might need to release this thing six different times before it works.",
+      "zh": "你可能需要在它管用之前发布这东西六次。",
+      "timestamp": "37:48",
       "speaker": "Andrew Ambrosino"
     }
   ],
   "quotes_candidates": [
     {
-      "en": "So I guess the short answer is it's backwards.",
-      "zh": "所以我想简短的回答是它是反过来的。",
-      "timestamp": "04:50",
+      "en": "The implementation is actually not the expensive part anymore.",
+      "zh": "实现实际上不再是昂贵的部分了。",
+      "timestamp": "05:02",
       "speaker": "Andrew Ambrosino"
     },
     {
-      "en": "But it's the curation process.",
-      "zh": "但它是策展过程。",
-      "timestamp": "05:07",
-      "speaker": "Andrew Ambrosino"
-    },
-    {
-      "en": "Not that getting good at design isn't important, it's that it's not directly in that flywheel.",
-      "zh": "不是说擅长设计不重要,而是它不直接在那个飞轮中。",
-      "timestamp": "13:39",
-      "speaker": "Andrew Ambrosino"
-    },
-    {
-      "en": "There is an amount of novelty that is more important in design than it actually is in software engineering.",
-      "zh": "有一定数量的新颖性在设计上比在软件工程上更重要。",
-      "timestamp": "14:29",
-      "speaker": "Andrew Ambrosino"
-    },
-    {
-      "en": "I think that is still feeling a little bit out of reach with the current technology, that abstraction layer.",
-      "zh": "我认为这对于当前技术来说还是有点遥不可及,那个抽象层。",
-      "timestamp": "15:48",
-      "speaker": "Andrew Ambrosino"
-    },
-    {
-      "en": "We have baby Codex, a dramatically simplified code base that approximates all of the interactions of the production app.",
-      "zh": "我们有「婴儿版 Codex」,一个大幅简化的代码库,它模拟了生产应用的所有交互。",
-      "timestamp": "20:25",
-      "speaker": "Andrew Ambrosino"
-    },
-    {
-      "en": "We've seen more role collapse in the Codex org than I think other parts of the company and other parts of the economy.",
-      "zh": "我们在 Codex 组织中看到比公司其他部分和经济其他部分更多的角色崩塌。",
-      "timestamp": "21:46",
-      "speaker": "Andrew Ambrosino"
-    },
-    {
-      "en": "everybody's sort of defined less by the fence and the boundaries of where design stops and engineering starts, but more the average of where they're working.",
-      "zh": "每个人的定义越来越少地取决于设计结束和工程开始的栅栏和边界,而更多取决于他们工作位置的平均值。",
-      "timestamp": "22:28",
-      "speaker": "Andrew Ambrosino"
-    },
-    {
-      "en": "we often don't improve our process so that we can make the product better to do it, which is a deeply uncomfortable place to be in.",
-      "zh": "我们经常不改进我们的流程,以便我们可以把产品做得更好来做这件事,这是一个处于其中非常不舒服的地方。",
-      "timestamp": "23:17",
+      "en": "It's, dare I say, taste.",
+      "zh": "它是，我可以说，品味。",
+      "timestamp": "05:05",
       "speaker": "Andrew Ambrosino"
     },
     {
       "en": "I've heard a lot of companies be like, \"We're getting rid of the product role,\" which I think is by the way, a terrible idea.",
-      "zh": "我听到很多公司说,\"我们要取消产品角色,\"顺便说一句,我认为这是一个糟糕的想法。",
+      "zh": "我听到很多公司说，“我们要取消产品角色，”顺便说一句，我认为这是一个糟糕的想法。",
       "timestamp": "25:10",
       "speaker": "Andrew Ambrosino"
     },
     {
-      "en": "And that means you basically want company coverage.",
-      "zh": "这意味着你基本上想要全公司的覆盖。",
-      "timestamp": "29:43",
-      "speaker": "Andrew Ambrosino"
-    },
-    {
-      "en": "I generally look for obviously command over the discipline, but then the taste to say, \"Hey, you're going to have unlimited tokens and we can't just be doing slop.\"",
-      "zh": "我通常寻找对这门学科的明显掌控,但还要有品味,能说:\"嘿,你要拥有无限的 token,我们不能只是在制造垃圾。\"",
-      "timestamp": "31:20",
-      "speaker": "Andrew Ambrosino"
-    },
-    {
-      "en": "If you're an IC, you're not typing code out character by character. You are managing something. You're managing agents.",
-      "zh": "如果你是一个独立贡献者,你不是一个字符一个字符地敲代码。你在管理某个东西。你在管理智能体。",
-      "timestamp": "31:03",
-      "speaker": "Andrew Ambrosino"
-    },
-    {
-      "en": "any amount of precision that you add to a nine-month plan right now is false precision and you're just going to waste time.",
-      "zh": "现在你对九个月规划添加的任何精度都是虚假精度,你只是在浪费时间。",
-      "timestamp": "32:17",
+      "en": "I think design's a little bit harder to grade because the human aspect of taste is part of the feedback mechanism you need.",
+      "zh": "我认为设计稍微难一点评分，因为品味的人性化部分是你需要的反馈机制的一部分。",
+      "timestamp": "12:53",
       "speaker": "Andrew Ambrosino"
     },
     {
       "en": "I am very confident that the Codex app that we released in February, if that had been ready in November, it would've absolutely failed in the market.",
-      "zh": "我非常有信心,我们在二月发布的 Codex 应用程序,如果它在十一月准备好了,它肯定会在市场上失败。",
+      "zh": "我非常有信心，我们在二月发布的 Codex 应用程序，如果它在十一月准备好了，它肯定会在市场上失败。",
       "timestamp": "33:34",
       "speaker": "Andrew Ambrosino"
     },
     {
-      "en": "if you don't know how to do something in the app, that you can just ask it.",
-      "zh": "如果你不知道如何在应用里做某事,你可以直接问它。",
-      "timestamp": "46:49",
+      "en": "And the only difference was the models between November and February.",
+      "zh": "而唯一的区别是十一月和二月之间的模型。",
+      "timestamp": "33:49",
       "speaker": "Andrew Ambrosino"
     },
     {
-      "en": "Get married to the outcomes that you are uniquely able to deliver and then do things like change your process to try things.",
-      "zh": "致力于那些你独特能够交付的结果,然后做些事情比如改变你的流程去尝试事物。",
-      "timestamp": "68:20",
+      "en": "If any amount of precision that you add to a nine-month plan right now is false precision and you're just going to waste time.",
+      "zh": "因为现在你对九个月规划添加的任何精度都是虚假精度，你只是在浪费时间。",
+      "timestamp": "32:17",
+      "speaker": "Andrew Ambrosino"
+    },
+    {
+      "en": "I generally look for obviously command over the discipline, but then the taste to say, \"Hey, you're going to have unlimited tokens and we can't just be doing slop.\"",
+      "zh": "我通常寻找对这门学科的明显掌控，但还要有品味，能说：“嘿，你要拥有无限的 token，我们不能只是在制造垃圾。”",
+      "timestamp": "31:20",
+      "speaker": "Andrew Ambrosino"
+    },
+    {
+      "en": "It's not that management is going away.",
+      "zh": "并不是说管理在消失。",
+      "timestamp": "30:43",
+      "speaker": "Andrew Ambrosino"
+    },
+    {
+      "en": "If you are an IC, you're not typing code out character by character. You are managing something.",
+      "zh": "如果你是一个独立贡献者，你不是一个字符一个字符地敲代码。你在管理某个东西。",
+      "timestamp": "30:58",
+      "speaker": "Andrew Ambrosino"
+    },
+    {
+      "en": "I failed for, I don't know, somewhere between 10 and 15 years before getting to this point.",
+      "zh": "在到达这一点之前，我失败了，我不知道，大概 10 到 15 年。",
+      "timestamp": "01:00:28",
+      "speaker": "Andrew Ambrosino"
+    },
+    {
+      "en": "If research is listening at any company, please make the models better at deleting code.",
+      "zh": "如果任何公司的研究人员在听，请让模型更善于删除代码。",
+      "timestamp": "41:01",
+      "speaker": "Andrew Ambrosino"
+    },
+    {
+      "en": "Because the human aspect of taste is part of the feedback mechanism you need.",
+      "zh": "因为品味的人类方面是你需要的反馈机制的一部分。",
+      "timestamp": "13:09",
+      "speaker": "Andrew Ambrosino"
+    },
+    {
+      "en": "It's like the process of user research and the divergence and the convergence, it's the right framework.",
+      "zh": "就像用户研究和发散和收敛的过程，它是正确的框架。",
+      "timestamp": "18:13",
+      "speaker": "Andrew Ambrosino"
+    },
+    {
+      "en": "You might need to release this thing six different times before it works.",
+      "zh": "你可能需要在它管用之前发布这东西六次。",
+      "timestamp": "37:47",
       "speaker": "Andrew Ambrosino"
     }
   ]

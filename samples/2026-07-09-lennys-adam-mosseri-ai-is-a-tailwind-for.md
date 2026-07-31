@@ -152,7 +152,7 @@ Adam 也分享了自己处理漫天仇恨的方法:换位思考。当年 25 岁�
 
 - [[2025-12-07-lennys-surge-ai-edwin-chen|10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来]] —— 同公司:anthropic · 同概念:vibe coding
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]] —— 同公司:anthropic · 同概念:品味 (taste)
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当代码不再是瓶颈,品味和策展成为产品团队的稀缺力]] —— 同概念:品味 (taste)、vibe coding
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]] —— 同概念:品味 (taste)、vibe coding
 
 </div>
 </div>

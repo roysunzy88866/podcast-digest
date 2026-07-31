@@ -107,7 +107,7 @@ Zevi 的这套观察建立在他一个非常有趣的认知上：他把不同的
 **顺着「AI 编程」挖下去**
 
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同公司:Cursor · 同概念:Claude Code、Codex、智能体 (agent)
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当代码不再是瓶颈,品味和策展成为产品团队的稀缺力]] —— 同公司:Linear · 同概念:Codex、智能体 (agent)
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]] —— 同公司:Linear · 同概念:Codex、智能体 (agent)
 - [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]] —— 同公司:Cursor · 同概念:Codex、智能体 (agent)
 
 </div>

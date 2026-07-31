@@ -18,7 +18,7 @@ unlisted: true
 - **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(00:17起):本集说它是目前最前沿的 AI 模型公司之一，在疯狂招人增加人手；为了不被巨头用默认选项锁死，去年采取“无处不在”的分发策略。
 - **[[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]]**(06:46起):本集把它当成一个反面教材：指出它最初就像做技术演示的网景，虽然爆火但缺乏明确的产品定义，导致用户用几天后就开始疑惑“我到底拿它干嘛”，如今不得不仓促补课产品与营销，正被 Anthropic 追赶。
 - **[[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新》]]**(01:50起):本集提到的顶尖 AI 公司；嘉宾认为符合其利益去托管专门的面向消费者的智能体服务应用（如旅行代理）。
-- **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当代码不再是瓶颈,品味和策展成为产品团队的稀缺力》]]**(00:00起):本集说它是 Codex 应用的母公司，内部近 100% 员工每周都在使用 Codex；团队极具主观能动性(high agentic),内部常同时涌现 90 个原型探索。
+- **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]]**(00:00起):本集说它是 Codex 应用的母公司，内部近 100% 员工每周都在使用 Codex；团队极具主观能动性(high agentic),内部常同时涌现 90 个原型探索。
 - **[[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]]**(55:31起):本集提到它作为大模型厂商之一，推出了自家的「托管智能体」，与 Anthropic 一起被视作潜在的竞争或合作方。
 - **[[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]]**(05:46起):本集作为前沿实验室的代表之一，被提及曾谈论构建自动化的 AI 研究实习生，且面临开源模型带来的定价与竞争压力。
 - **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]]**(10:54起):本集把它说成:尚未实现长期盈利、但已被大型科技公司依赖其持续付钱来支撑 AI 数据中心债务的 AI 实验室,其 API 开放策略被质疑与「AGI 或破产」叙事自相矛盾。
@@ -47,7 +47,7 @@ unlisted: true
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|《iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品》]] — 作为被讨论公司
 - [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新》]] — 作为被讨论公司(提及)
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当代码不再是瓶颈,品味和策展成为产品团队的稀缺力》]] — 作为被讨论公司
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]] — 作为被讨论公司
 - [[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]] — 作为被讨论公司(提及)
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]] — 作为被讨论公司(提及)
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为被讨论公司

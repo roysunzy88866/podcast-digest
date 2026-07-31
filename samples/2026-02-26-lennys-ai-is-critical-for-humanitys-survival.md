@@ -108,7 +108,7 @@ tags:
 **换个口味**
 
 - [[2025-11-16-lennys-the-godmother-of-ai|AI 教母李飞飞:从 ImageNet 到空间智能]] —— 同嘉宾:Lenny · 同公司:NVIDIA · 同概念:ChatGPT
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当代码不再是瓶颈,品味和策展成为产品团队的稀缺力]] —— 同嘉宾:Lenny · 同概念:ChatGPT、主观能动性 (agency)
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]] —— 同嘉宾:Lenny · 同概念:ChatGPT、主观能动性 (agency)
 - [[2025-12-07-lennys-surge-ai-edwin-chen|10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来]] —— 同嘉宾:Lenny · 同概念:ChatGPT
 
 </div>

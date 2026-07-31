@@ -1,5 +1,5 @@
 ---
-title: 评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估
+title: "eval 会取代 PRD 吗?AI 产品经理的新工作法门"
 podcast: Product Growth Podcast
 date: 2026-07-28
 source_url: https://www.news.aakashg.com/p/how-to-build-your-first-eval
@@ -7,7 +7,7 @@ duration: "56:47"
 type: episode
 cover: "#64748b"
 image: "/covers/2026-07-28-pg-how-to-build-your-first-eval.jpg"
-description: 前 Meta/Google PM 深入演示如何从零构建智能体评估，通过临床基因组学案例揭示垂直 AI 产品的核心难点。
+description: "前 Google、Meta 产品经理解读:在智能体时代,PM 的核心产出从 PRD 变成了 eval(评估)。"
 host: "[[Daniel McKinnon]]"
 cohosts: ["[[Akash]]"]
 companies: ["[[Gamoff Labs]]"]
@@ -18,9 +18,9 @@ tags:
   - 智能体
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>eval 会取代 PRD 吗?AI 产品经理的新工作法门</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# 评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估
+# eval 会取代 PRD 吗?AI 产品经理的新工作法门
 
 <div class="pd-byl"><b>Daniel McKinnon</b> · 前 Meta/Google PM</div>
 
@@ -28,7 +28,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-28-pg-how-to-build-your-first-eval.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">但如果你看看现在生成式人工智能的所有头条新闻，它不是质量保证，它是智能体。</div><div class="a">Daniel McKinnon · 09:55</div></div>
+<div class="pd-hook"><div class="z">如果你创建一个非常难的评估,得分 0%,你甚至也不知道这是否在当今技术下是可能的。</div><div class="a">Daniel McKinnon · 08:33</div></div>
 
 > [!info] 关联
 > **人物** [[Daniel McKinnon]] · [[Akash]]
@@ -39,89 +39,85 @@ tags:
 >
 > **来源** [Product Growth Podcast](https://www.news.aakashg.com/p/how-to-build-your-first-eval)
 
-<div class="pd-tldr"><b>一句话</b>前 Meta/Google PM 深入演示如何从零构建智能体评估，通过临床基因组学案例揭示垂直 AI 产品的核心难点。</div>
+<div class="pd-tldr"><b>一句话</b>前 Google、Meta 产品经理解读:在智能体时代,PM 的核心产出从 PRD 变成了 eval(评估)。</div>
 
-两年前，前 Meta 和 Google 产品经理 [[Daniel McKinnon|Daniel McKinnon]] 写了一篇广为流传的文章，抛出一个辛辣观点：**[[评估|评估]]将取代产品需求文档（[[PRD|PRD]]）**。两年过去，核心论点依然成立，但因为模型从简单的问答变成了执行多步任务的[[智能体|智能体]]（能够自主调用工具、推理并采取行动的 AI 系统），评估的写法已经天翻地覆。本集 Daniel 以他自己正在创业的临床基因组学领域为例，在播客中近乎实时地演示了一遍：从头构建一个真正的智能体评估，到底分几步，以及为什么这件事「看起来简单，实则极具欺骗性」。
+在 AI 时代,产品经理(PM)过去最核心的产出物——产品需求文档([[PRD|PRD]])可能要被淘汰了。取而代之的是一种叫 eval([[评估|评估]])的东西。这话听起来有点火辣,但说这话的人是 [[Daniel McKinnon|Daniel McKinnon]],他曾先后在 Google 和 Meta 担任产品经理,参与过 Gemini 和 Llama 的研发。<button class="pd-ts" data-t="00:00" data-who="Daniel McKinnon" data-en="The Metas and the Googles and all the other large companies have to reinvent themselves right now in the age of AI. Every single PM is going to start building AI features." aria-label="回原文"></button>
 
-### 为什么评估能取代 PRD？
+在这集对谈里,他回答了三个问题:为什么传统的 PRD 在 AI 时代失灵了,而 eval 为什么是沟通产品目标的最佳方式;面对越来越复杂的[[智能体|智能体]]任务,如何一步步动手写出一个能跑的 eval;以及他为什么从大厂离职,创办了一家用 AI 解读基因组的公司。最后他还分享了自己对 Google 和 Meta 两种截然不同的产品文化的观察。
 
-回到最初的论点，Daniel 解释说，说评估「取代」PRD 有点辛辣，因为产品战略和特定客户依然不可或缺，那可能只需要一两句话交代清楚 <button class="pd-ts" data-t="02:04" data-who="Daniel McKinnon" data-en="without a product strategy or a particular customer, like your product is nothing. But again, that's a paragraph or even a sentence, depending on what the product is." aria-label="回原文"></button>。但过去 PRD 文档中最庞大的部分——详细规定产品在各种具体情况下应该如何运作、用户能从中获取什么价值——在 Gen AI 时代被彻底颠覆了。
+## 为什么 eval 会取代 PRD
 
-原因在于，现在的 AI 产品能做的事情太多了，很难再用文字描述清楚它的行为边界。传达产品诉求最好的方式变成了**具体的例子**，而这正是评估的本质 <button class="pd-ts" data-t="02:37" data-who="Daniel McKinnon" data-en="Say, oh, this thing just does everything. And the best way to actually communicate what the product should do is through examples. And that's what an eval is." aria-label="回原文"></button>。评估就像是给模型出的一套「冷知识测验题」，它定义了产品需要做好的事情轮廓。如果模型在这些测验上表现良好，用户大概率会喜欢；如果不行，你就要改模型、改工具（harness，指包裹在模型外围、赋予其调用工具和推理能力的代码框架）或改产品。比起直接上线让真实用户承受糟糕的体验，通过[[离线评估|离线评估]]能极早地发现你想做的事到底在今天的技术下可不可行 <button class="pd-ts" data-t="03:13" data-who="Daniel McKinnon" data-en="And if not, you either need to change the model, change the harness, or change the product. It's possible that what you want to do is not possible with the models today," aria-label="回原文"></button>。
+如果你做过软件产品,肯定熟悉 PRD(产品需求文档)。Daniel 在职业生涯中见过的大部分 PRD,大部分篇幅都在死磕细节:产品具体怎么工作、在特定情况下如何表现、用户能从中获得什么价值。这种写法在传统软件里行得通,因为产品的行为是确定的。<button class="pd-ts" data-t="02:09" data-who="Daniel McKinnon" data-en="But again, that's a paragraph or even a sentence, depending on what the product is. The majority of most PRDs that I've seen in my career Have spent most of the document talking about specifics," aria-label="回原文"></button>
 
-但仅仅理解这个理念还不够。要真正掌握评估，必须理解过去两年模型任务范式的剧变。
+但到了 Gen AI(生成式 AI)时代,情况被彻底颠覆。如今的 AI 产品真的需要做所有事情,或者至少比以前的产品多做多得多的事情,你很难用文字去描述它。Daniel 说,传达产品到底应该做什么的最好方式,其实是通过例子。这就是 eval(评估)。它实际上就像是给模型的一套冷知识问题(预先准备好的测试题),它定义了模型需要做好的事情的大致轮廓。<button class="pd-ts" data-t="02:34" data-who="Daniel McKinnon" data-en="And it's very hard to describe that. Say, oh, this thing just does everything. And the best way to actually communicate what the product should do is through examples." aria-label="回原文"></button>
 
-### 旧范式：饱和的问答基准
+> 【背景】在 AI 领域,eval 分为离线评估和在线评估。离线评估是在产品开发阶段跑的测试集;在线评估则是产品上线后看真实用户的反馈。
 
-两年前，AI 的核心范式是问答（QA），人们甚至认为生成式 AI 将直接取代搜索 <button class="pd-ts" data-t="05:52" data-who="Daniel McKinnon" data-en="Claude co-work and the like. Really the core thesis two years ago was that Gen.ai was essentially a search replacement. I don't know if everyone remembers when Google's stock tanked because this was going" aria-label="回原文"></button>。当时的评估非常简单直白。以 OpenAI 当年报告 GPT-4 表现时引用的基准为例，像 MMLU、HumanEval 这些，全都是纯问答：你有一套预先准备好的问题和一个标准答案，用评分机打分就行 <button class="pd-ts" data-t="06:14" data-who="Daniel McKinnon" data-en="And you might remember a lot of these. MMLU, HellaSwag, Arc, Winograd, HumanEval. HumanEval is ironically an automated eval of Python." aria-label="回原文"></button>。如果你要做一个食谱网站生成冰淇淋配方的功能，你的离线评估就是准备 100 个关于冰淇淋的提示词，并设定好怎么打分 <button class="pd-ts" data-t="03:55" data-who="Daniel McKinnon" data-en="to make their favorite kinds of ice cream. An offline eval would be a prompt set, say 100 prompts of different ice creams that users might like." aria-label="回原文"></button>。
+eval 的逻辑是:如果在[[离线评估|离线评估]]上表现好,就意味着模型能得到这些正确答案;如果它得到了正确答案,用户大概率会喜欢它。如果没有表现好,你要么需要更改模型,要么更改测试工具(智能体外面的框架),要么更改产品。<button class="pd-ts" data-t="02:50" data-who="Daniel McKinnon" data-en="And it's saying, this is like the shape of the things the model needs to do well. And if the model does it well, it means it's getting these answers. And if it gets these answers, the users will probably like it." aria-label="回原文"></button>
 
-关键技巧在于寻找**「[[金发姑娘|金发姑娘]]」级别**的难度——不能太难也不能太简单。如果评估得分为 100%，工程团队没有优化空间；如果得分为 0%，你甚至不知道这技术今天能不能实现。留出余地，让得分大约在 50% 左右是最典型的 <button class="pd-ts" data-t="08:23" data-who="Daniel McKinnon" data-en="what is an easy prompt, and have something that scores maybe Maybe like 50% because you have to have room to run." aria-label="回原文"></button>。
+两年前 Daniel 写那篇探讨 eval 的文章时,大家把 Gen AI 本质上看作搜索的替代品,都是问答产品。所以评估非常简单:想出大概 100 个用户可能会问的问题,给出正确答案,用一种方法来判断模型答得好不好,然后跑分就行了。<button class="pd-ts" data-t="05:52" data-who="Daniel McKinnon" data-en="Claude co-work and the like. Really the core thesis two years ago was that Gen.ai was essentially a search replacement. I don't know if everyone remembers when Google's stock tanked because this was going" aria-label="回原文"></button>
 
-> 【背景】模型在问答类任务上已经完全饱和了。今天我们不再指望模型只能回答高中物理题，而是期待它们在国际奥林匹克数学竞赛中拿金牌。
+但为什么两年前的做法在今天不够用了?这要从模型的能力变化说起。
 
-所以，如果你看看今天各大实验室（如 Anthropic 报告 Opus 4.8 进展时）使用的基准，你会发现完全不同：智能体编码（agentic coding，让 AI 像程序员一样写代码）、智能体终端操作、跨学科推理、智能体计算机使用等 <button class="pd-ts" data-t="13:05" data-who="Daniel McKinnon" data-en="but it's partially because the task is really different. You'll notice we have agentic coding, agentic terminal coding," aria-label="回原文"></button>。模型的任务不再是从用户那里拿一个提示词返回一个答案，而是接下一个需要许多步骤的任务，中间可能涉及推理（思考）、工具调用（如搜索）或更高级的操作。
+## 评估对象的巨变:从简单问答到智能体任务
 
-这意味着编写评估的全新范式：你不再思考「问答」，而是在思考「长周期的任务」。这对评分提出了巨大挑战。
+说完了过去为什么简单,接下来要讲的是现在为什么变难了。真正的原因是:模型普遍已经饱和了质量保证(QA,即简单的问答测试)。我们今天想到的好模型,不是能答对高中物理题的模型,而是能在国际奥林匹克数学竞赛中拿金牌的模型。除了某些超级专家,几乎没有任何问题能问倒它。同时,问答也不再是最有用的应用了,现在所有的头条新闻都是智能体(agent,能自主调用工具、连续执行多步任务的系统)。<button class="pd-ts" data-t="09:06" data-who="Daniel McKinnon" data-en="Or why does it need to change today? The real answer is that models have generally saturated QA. This isn't 100% true," aria-label="回原文"></button>
 
-### 演示开始：临床基因组学难题
+> 【背景】在 AI 评测中,"饱和"指的是模型在某项测试上的得分已经接近 100%,无法再通过这项测试拉开差距。
 
-为了展示这个新范式，Daniel 用他自己的创业公司正在解决的问题进行了现场演示：衡量和提高模型在临床基因组学方面的能力 <button class="pd-ts" data-t="15:59" data-who="Daniel McKinnon" data-en="First problem. I want to measure and improve the model's ability to help with clinical genomics. This is a problem that I care deeply about." aria-label="回原文"></button>。他选择的测试模型包括 Codex（使用 GPT 5.3）、Haiku 以及 GPT 5.5。
+各大实验室发布新模型时使用的基准测试,也反映了这种转变。比如 OpenAI 发布 GPT-4 时,用的是 MMLU、HellaSwag、HumanEval 这些基准测试。而当 Anthropic 发布 Opus 4.8 时,你完全看不到连续性,因为这些老基准已经饱和了。他们开始测各种 agentic coding(智能体写代码)、agentic computer use(智能体操作电脑)、agentic financial analysis(智能体做财务分析)。这意味着,核心模型任务已经不再是从用户那里获取一个提示词并返回一个答案,而是获取一个需要许多许多步骤的任务。<button class="pd-ts" data-t="13:05" data-who="Daniel McKinnon" data-en="but it's partially because the task is really different. You'll notice we have agentic coding, agentic terminal coding," aria-label="回原文"></button>
 
-这个领域的背景是：[[全基因组测序|全基因组测序]]已经成为新生儿重症监护病房（NICU）中针对病患婴儿的诊断绝对金标准。不幸的是，解读这份测序结果非常耗费人力，这严重限制了这项救命技术的普及 <button class="pd-ts" data-t="16:14" data-who="Daniel McKinnon" data-en="And the problem is, is that whole genome sequencing has Become the absolute gold standard in diagnostics in NICU settings, so for sick babies." aria-label="回原文"></button>。
+这要求一套全新的评估范式:你不再考虑 QA,你在考虑长周期的任务。有些步骤可能只涉及思考(在这个领域称为推理),有些涉及工具调用(比如搜索)。这类评估的时间跨度通常很长,最终的输出是它采取的许许多多步骤的集合。有些步骤可能是正确的,但导致了错误的结果。因此,找到一种能自动评分的方法变得尤为重要,这能让你做更多的部署,做更多实验。<button class="pd-ts" data-t="15:00" data-who="Daniel McKinnon" data-en="With agentic work, it's much more challenging because the time horizon tends to be very long, and the final output is a collection of many, many, many steps that it took." aria-label="回原文"></button>
 
-要给基因组解读做评估，你首先必须深刻理解问题，这也正是为什么各大 AI 实验室在疯抢投资银行家、会计师和律师——垂直领域的专业背景是创建评估的绝对前提 <button class="pd-ts" data-t="17:48" data-who="Daniel McKinnon" data-en="over some real examples, but you really need to deeply understand the problem. This is why people like Anthropic and OpenAI are hiring Investment bankers, accountants," aria-label="回原文"></button>。
+## 在线演示:怎么写一个智能体评估
 
-Daniel 首先确立了一个**简单的下限**。他选择了病因非常明确的单基因遗传病——囊性纤维化。他直接用 Codex 让 AI 在代表人类基因组的文本文件中，特定位置（7 号染色体）加上一个特定的基因缺失（变异） <button class="pd-ts" data-t="21:49" data-who="Daniel McKinnon" data-en="What I'm going to do is now I'm going to go over to a terminal window I have open here and I'm using Codex. Any of the tools will work." aria-label="回原文"></button>。然后，他把修改后的基因组文件连同囊性纤维化的症状描述喂给不同的智能体，看它们能否找出遗传原因。结果，GPT 5.3 在一分钟内就锁定了 CFTR 突变区域 <button class="pd-ts" data-t="28:36" data-who="Daniel McKinnon" data-en="you can see what's already happened with our first agent is after one minute of thinking, you've actually find the CFTR mutation pattern consistent with this deletion, right?" aria-label="回原文"></button>。下限确立了：这个任务至少是可能的。但出人意料的是，较弱的 Haiku 模型在这个看似简单的任务上失败了，它产生了幻觉，谎报了缺失 <button class="pd-ts" data-t="35:04" data-who="Daniel McKinnon" data-en="But you'll notice what Haiku says is there's 48 variants spanning the gene. So it's looking at the gene, but it fails to actually find the particular, oh, this is so interesting." aria-label="回原文"></button>。
+工具变了,具体该怎么实操呢?这正是下一个话题。Daniel 在节目里花了 45 分钟,实时演示了如何创建一个实际的智能体评估。他强调,现实中想出一个全新的评估通常需要深度思考几周甚至几个月,节目里是预先准备了一部分的。<button class="pd-ts" data-t="15:41" data-who="Daniel McKinnon" data-en="an actual agentic eval in real time. I want to caveat this. This is a little bit pre-baked." aria-label="回原文"></button>
 
-确认了下限后，必须确立**困难的上限**，否则任务完全饱和，做评估就失去了意义。
+Daniel 用了一个他极度关心的真实问题作为演示案例:衡量和提高模型在临床基因组学(研究患者基因组变异的医学领域)上帮助诊断的能力。他创办的新公司也在解决这个问题。具体场景是:给生病的新生儿做[[全基因组测序|全基因组测序]]已经成为诊断的绝对金标准,但解读这份测序结果非常耗费人力,限制了这项救命技术的普及。他想看看能不能把人类专家的专业知识提炼到模型里。<button class="pd-ts" data-t="16:14" data-who="Daniel McKinnon" data-en="And the problem is, is that whole genome sequencing has Become the absolute gold standard in diagnostics in NICU settings, so for sick babies." aria-label="回原文"></button>
 
-### 探寻上限：二基因遗传病与采样
+> 【背景】基因组测序仪的原始读数包含约 10 亿个长度为 150 个碱基对的读数,输出在一个巨大的文本文件里。解读这些数据就是大海捞针找致病突变。
 
-为了测试难度的天花板，Daniel 挑战了一项去年才发表在论文里的前沿难题：由两个不同基因上的杂合变异共同导致的先天性心脏病（二基因遗传病） <button class="pd-ts" data-t="33:09" data-who="Daniel McKinnon" data-en="The authors here are deciphering the digenic architecture of congenital heart disease. So what does this mean? This means congenital heart disease is if you're a baby and you're born" aria-label="回原文"></button>。
+写评估的第一步,和以前一样,必须极其深刻地理解问题。这就是为什么现在 Anthropic 和 OpenAI 都在招投资银行家、会计师、律师,因为你不可能为一个自己不懂的主题成功写出评估。<button class="pd-ts" data-t="17:48" data-who="Daniel McKinnon" data-en="over some real examples, but you really need to deeply understand the problem. This is why people like Anthropic and OpenAI are hiring Investment bankers, accountants," aria-label="回原文"></button>
 
-他把论文里的真实患者数据（包含两个特定的基因变异）导入基因组文件，然后让三个智能体去寻找遗传学原因。结果：GPT 5.3 的回答完全跑偏，找了一堆不相关的变异；Haiku 依然离谱 <button class="pd-ts" data-t="43:46" data-who="Daniel McKinnon" data-en="This is actually why we did it. And what you'll notice is it's totally wrong. They found multiple variants, tbx1, myhsys, jag1." aria-label="回原文"></button>。这证明，如果没有极强的外部工具支撑，目前没有模型能搞定这种级别的难题。通过这一步，上限被清晰确立了。
+第二步是收集有代表性的提示词。Daniel 推崇"[[金发姑娘|金发姑娘]]风格"——不能太难,也不能太容易,必须留有运行和优化的空间。典型的基线成功率应该在 25% 到 50%。如果在几个月内它达到了 100%,你就得把它扔掉,创建一个新的、更难的测试集。<button class="pd-ts" data-t="14:04" data-who="Daniel McKinnon" data-en="We still have to collect representative prompts. I call this Goldilocks style. Again, they can't be too hard and it can't be too easy." aria-label="回原文"></button>
 
-> 【背景】转写稿中将「digenic」（双基因）误写为 diagenic / diagenic pairs，文中已直接修正为正确拼写。
+他先从一个简单的目标开始,确保模型确实能做到。他挑了囊性纤维化(一种肺部遗传病)。它的致病基因(CFTR2)和具体变异是医学界早就确认的。Daniel 用 Codex(一种智能体编程工具)修改了一个代表基因组的文本文件,人为植入了这个已知的基因变异。<button class="pd-ts" data-t="19:43" data-who="Daniel McKinnon" data-en="And so this is like the easy thing to start. So we're going to have our agentic genetics eval, and we're going to say gene, and we're going to say CFTR2." aria-label="回原文"></button>
 
-这里引出了一个关于**采样（sampling）**的技术细节：同一个提示词在模型里跑多次有意义吗？Daniel 解释说，采样在以前很重要。比如 2023 年 Google 发布 Gemini Ultra 时，在 MMLU 基准测试上用了 32 次采样，相比之下 GPT-4 只用了 5 次，这被视作一种提高准确率的取巧手段 <button class="pd-ts" data-t="42:30" data-who="Daniel McKinnon" data-en="meaning it had five samples and it picked the best one. And that's why you see five shot, three shot, three shot, 10 shot. It really is like kind of like a way" aria-label="回原文"></button>。但在今天基于他个人的经验，由于模型能力增强，多次采样产生不同答案的效应已经不那么明显了 <button class="pd-ts" data-t="43:14" data-who="Daniel McKinnon" data-en="So by sampling more times, you actually get a higher chance of getting the correct answer. So this used to be a really big thing back in the day. Today, I don't think this is a big thing." aria-label="回原文"></button>。有趣的是，在这个难题上，当 GPT 5.5 重新跑了一次后，它这次居然正确地锁定了那对致病基因——它成功搜到了那篇特定的论文并提取了结果 <button class="pd-ts" data-t="45:54" data-who="Daniel McKinnon" data-en="but we can see right now that GPT 5.5 extra high this time actually did identify this diagenic pairs and it did almost certainly find the paper." aria-label="回原文"></button>。
+他把修改后的基因组和"我们怀疑囊性纤维化,请找到遗传原因"的提示词,分别丢给了几个不同的智能体模型去跑。结果发现,GPT 5.3 的智能体在一分钟思考后正确锁定了突变。令人意外的是,Haiku(一个小模型)却失败了——它看了基因,但幻觉出了一个半合子大片段缺失(模型凭空捏造了一个不存在的变异)。这生动地说明了评估的必要性:你必须先确立基准,如果连简单的都做不到,就得让它更简单。<button class="pd-ts" data-t="35:00" data-who="Daniel McKinnon" data-en="I would have expected Haiku to get this because this problem is so easy. But you'll notice what Haiku says is there's 48 variants spanning the gene. So it's looking at the gene," aria-label="回原文"></button>
 
-一旦确立了下限和上限，剩下的就像二分搜索一样，在简单、中等、困难之间不断填充提示词，最终你会得到一个电子表格，完全基于领域专业知识来驱动评估 <button class="pd-ts" data-t="44:30" data-who="Daniel McKinnon" data-en="And then you just kind of go through and it's almost like a binary search process. Process where you say easy, medium, hard, and then just assemble a list of prompts." aria-label="回原文"></button>。
+在确定模型能做到简单的之后,接下来要确立上限。Daniel 从一篇去年的论文里找了一个极难的案例:先天性心脏病的双基因成因。这意味着在两个不同的基因上同时出现杂合变异,才会导致单一疾病。<button class="pd-ts" data-t="33:10" data-who="Daniel McKinnon" data-en="So what does this mean? This means congenital heart disease is if you're a baby and you're born with problems with your heart, and digenic means it involves two genes." aria-label="回原文"></button>
 
-### PM 的新基本功：用例子思考
+他把这个案例跑在几个模型上。5.3 Spark 这个模型交了白卷,Haiku 离谱地找了一堆不相关的变异。在几次测试中,GPT 5.5 Extra High 却意外地答对了。它通过一系列非常有趣的推理轨迹,把先天性心脏缺陷的表型转化成了搜索词,在互联网上找到了那篇关于双基因对的非常具体的论文,然后从里面提取出了结果。这让 Daniel 不得不承认,如果专门给这个模型打分,他必须找一个更难的案例。<button class="pd-ts" data-t="46:30" data-who="Daniel McKinnon" data-en="So actually, this is quite impressive from GPT 5.5, but this is correct. So in this case, I would have to find an even harder one if I were benchmarking this model" aria-label="回原文"></button>
 
-明白了这套流程，我们就能回答那个最核心的问题：如果你是一个从来没做过 AI 功能的 PM，应该从哪里入手？
+拿到这些结果后,你就像做二分搜索一样,把一堆简单、中等、困难的提示词组合成一个电子表格。如果你的得分只有 50%,你可能没法直接发布产品。这时候作为产品经理,你要做产品决策:也许在产品上设置护栏(限制条件),确保模型只回答那些它能拿到 80% 分数的问题。然后把所有解决不了的难题丢给研究团队去修模型或修框架。<button class="pd-ts" data-t="45:08" data-who="Daniel McKinnon" data-en="of questions that it can get 80% on or something like that. That's a product decision. That's a product manager's decision to do that." aria-label="回原文"></button>
 
-Daniel 的建议是：从第零天开始思考，成功是什么样子的？你不能只写一份 PRD 说「用户想要漂亮的厨房图片」，你必须明确定义什么是漂亮——不是用文字，而是用**例子**，以及一套打分的方法 <button class="pd-ts" data-t="48:50" data-who="Daniel McKinnon" data-en="And you need to translate that. You can't just write down a PRD and say they want beautiful kitchens. You have to explicitly define what a beautiful kitchen is and Not in words, in examples." aria-label="回原文"></button>。如果你在 Pinterest 要做图像生成，你得先弄懂怎么构建一个图像领域的 LLM 裁判（LLM judge，用另一个模型来给当前模型的输出打分），以此作为评估的基础。
+主持人 [[Akash|Akash]] 总结得很到位:整个 eval 说白了就是一个电子表格。它不需要高大上的模板,真正驱动这一切的核心关键,是你对该领域的专业知识(领域认知)。<button class="pd-ts" data-t="47:01" data-who="Akash" data-en="Wow. So it's just a spreadsheet. And the key thing here is the domain subject matter expertise." aria-label="回原文"></button>
 
-这背后的残酷现实是：评估看似简单，本质上是提示词、回复和打分方法的组合，但它极度依赖专业直觉。所以如果你没有做过，最好找个懂行的人帮你 <button class="pd-ts" data-t="47:55" data-who="Daniel McKinnon" data-en="Yeah, that's a good question. So if you've never worked on an AI feature before, I would actually try to find somebody who has, who can help you through this." aria-label="回原文"></button>。
+## 大厂故事与创业新征程
 
-在访谈的最后，我们顺带探讨了 Daniel 曾在 Meta 和 Google 的工作经历。简而言之：Meta 是一种更具攻击性、由创始人绝对控制的产品主导文化；而 Google 更多是由共识驱动、由工程主导的文化 <button class="pd-ts" data-t="50:55" data-who="Daniel McKinnon" data-en="And what I would say, like my key takeaways for what Google versus Meta was like is Meta is like a much, much more aggressive culture in many ways." aria-label="回原文"></button>。这种高强度的 AI PM 经历，也自然引向了 Daniel 自己的下一步。
+方法明白了,工具和人怎么办?这正是下一个话题。Daniel 分享了他在 Google 和 Meta 两家公司的切身经历。
 
-### 走向创业：Gamoff Labs
+他回忆道,Meta 在很多方面是一种更具攻击性的文化,而 Google 则被公认为是一家更由工程主导的公司,Meta 则更由产品主导。Meta 的激进源于其拥有绝对控制权的高信念创始人。Mark Zuckerberg 有时候会说这对我超级重要,你们拥有世界上所有的资源,去把它做成;但也会在 Llama 4 遇到评估问题时,直接让整个团队走人。相比之下,Google 更加由共识驱动。<button class="pd-ts" data-t="50:16" data-who="Daniel McKinnon" data-en="What really is the difference between product management at Meta versus Google? Yeah, so I would caveat that and say I wrote this like two and a half years ago and I was" aria-label="回原文"></button>
 
-正是基于对评估和智能体 harness 的深刻理解，Daniel 创办了 [[Gamoff Labs|Gamoff Labs]]。公司的核心目标是让全基因组测序更容易进入全世界的每一个 NICU，无论是阿肯色州的乡村还是印度、中国的乡村 <button class="pd-ts" data-t="53:04" data-who="Daniel McKinnon" data-en="And as I hinted at during these evaluations, The core problem I want to solve is to make it much, much easier to get whole genome sequencing into every single NICU in" aria-label="回原文"></button>。这不仅仅是一个技术挑战，更是想用 AI 增强人类解读基因组的能力，从而拯救那些原本无法获得这项救命技术的新生儿。
+Daniel 自己则更偏爱那种由高信念创始人领导的公司。在节目录制前五周,他离开大厂,创办了一家叫 [[Gamoff Labs|Gamoff Labs]] 的公司。他秉持着高度使命驱动的信念,想构建最好的智能体框架,让全基因组测序技术能惠及全世界每一个新生儿重症监护室(NICU),让更多生命得以被拯救。<button class="pd-ts" data-t="53:39" data-who="Daniel McKinnon" data-en="And I want to see them in, you know, Rural Arkansas, rural India," aria-label="回原文"></button>
 
 ## 本集带走
 
-1. **评估取代 PRD 的本质**：在 AI 产品什么都能做的情况下，文字描述失效了。传达产品诉求唯一可靠的方式，是用一组具体的「问题+答案+打分标准」（即离线评估）来定义产品行为的边界。
-2. **范式转移**：从做问答（QA）评估，转向做长周期的智能体任务评估。这要求你不仅要准备提示词，还要考虑模型调用工具的完整链路，并且用自动化手段对极长、极复杂的输出进行打分。
-3. **寻找金发姑娘区间**：好的评估必须包含从简单到困难的任务分布，目标是找到模型得分在 25%-50% 的区间，留出优化余地；并明确找出当前模型的上限在哪里，以此决定产品该加什么护栏。
-4. **垂直专业知识 > 工具模板**：写评估最大的门槛不是找什么现成的模板或软件，而是对该领域（如基因组学、法律、财务）的深度理解，这也是为什么实验室在疯抢垂直领域的专家。
-5. **以具体例子定义成功**：如果你是新手 PM，做 AI 功能的第一天就该思考怎么用具体的例子（而非抽象的文字）去描述成功，并想办法把这转化为可以跑分的数据集。
+最后收个尾,这一集值得带走的是三句话。第一,传统的 PRD 正在被 eval(评估)取代。当 AI 产品什么都能做、行为不确定时,用文字去定义"漂亮的厨房"已经失效了,最好的沟通方式是用具体的例子去测试它的极限。第二,模型早已饱和了简单的 QA,现在我们评估的是能连续跑多步、调工具的智能体。你要像做二分搜索一样,先测简单的确立基准,再找极难的探明上限,把大模型真实的能力边界找出来,这需要深厚的领域认知,而不只是懂技术。第三,评估的核心不是为了在论文上刷分,而是为了做产品决策。当你知道模型在哪些场景下只能拿 50 分时,你要通过设置护栏来规避它的短板,只发布它最擅长的部分,把难题再丢给研发。这就是今天每一个 AI 产品经理必须掌握的新工作法门。
 
 <div class="pd-sec">全部金句 <span>3 条(中英对照,已过机器闸门)</span></div>
 
-> <span class="qz">但如果你看看现在生成式人工智能的所有头条新闻，它不是质量保证，它是智能体。</span>  
+> <span class="qz">如果你创建一个非常难的评估,得分 0%,你甚至也不知道这是否在当今技术下是可能的。</span>  
+> *If you create a very hard eval that scores 0%, you also don't even know if this is kind of possible with today's technologies.*  
+> <span class="qm">—— Daniel McKinnon · [08:33]</span> ^q1
+
+> <span class="qz">但如果你看看现在生成式人工智能的所有头条新闻,它不是质量保证,它是智能体。</span>  
 > *But if you look at all the headlines in Gen AI right now, it's not QA, it's agents.*  
-> <span class="qm">—— Daniel McKinnon · [09:55]</span> ^q1
+> <span class="qm">—— Daniel McKinnon · [09:55]</span> ^q2
 
-> <span class="qz">所有这一切意味着核心模型任务是什么，不再是从用户那里获取一个提示词并返回一个答案，但实际上是从用户那里获取一个需要许多、许多步骤的任务。</span>  
+> <span class="qz">所有这一切意味着核心模型任务是什么,不再是从用户那里获取一个提示词并返回一个答案,但实际上是从用户那里获取一个需要许多、许多步骤的任务。</span>  
 > *All this means is what the core model task is, is no longer to get a prompt from a user and come back with an answer, But it is actually to get a task from a user that requires many, many steps.*  
-> <span class="qm">—— Daniel McKinnon · [13:20]</span> ^q2
-
-> <span class="qz">但你必须明确定义什么是漂亮的厨房，而且不是用文字，是用例子。</span>  
-> *you have to explicitly define what a beautiful kitchen is and Not in words, in examples.*  
-> <span class="qm">—— Daniel McKinnon · [48:55]</span> ^q3
+> <span class="qm">—— Daniel McKinnon · [13:20]</span> ^q3
 
 <div class="pd-sec">接着看</div>
 

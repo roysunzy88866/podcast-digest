@@ -107,7 +107,7 @@ unlisted: true
 
 ![[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r#^q5]]
 
-![[2026-07-28-pg-how-to-build-your-first-eval#^q1]]
+![[2026-07-28-pg-how-to-build-your-first-eval#^q2]]
 
 ![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q12]]
 

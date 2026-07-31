@@ -23,7 +23,7 @@ unlisted: true
 
 *1 集*
 
-- [[2026-07-28-pg-how-to-build-your-first-eval|《评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估》]] — 作为主持
+- [[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]] — 作为主持
 
 ## ③ 他谈到的
 

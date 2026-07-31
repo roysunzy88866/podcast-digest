@@ -17,7 +17,7 @@ unlisted: true
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(01:22起):本集提到嘉宾曾任高管的公司，并且讨论了其过去曾需要多少人来维持运营的间接费用问题。
 - **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(03:53起):本集将其描述为利用分发优势强推 Gemini 的巨头，并指出对普通人来说很难分清 Gemini 和 Claude 的区别。
 - **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]]**(08:16起):本集把它说成:把 AI 基础设施支出预期上调至超 2000 亿美元后股价下跌的巨头,它本季度可能首次出现预计负自由现金流,被视为引发市场合理化回调的关键节点。
-- **[[2026-07-28-pg-how-to-build-your-first-eval|《评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估》]]**(00:30起):本集把它说成:一家更由工程主导、产品管理职能相对较弱、决策更多由共识驱动的公司。
+- **[[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]]**(00:30起):本集把它说成:一家更由工程主导、产品管理职能相对较弱、决策更多由共识驱动的公司。
 - **[[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the|《当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点》]]**(20:21起):本集提到：大型科技公司及模型竞争者，嘉宾举例 Google 发布 VO3 Fast 来降低模型成本
 - **[[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]]**(01:23起):本集提到 Rohan 曾在此及旗下的 Google Brain、Gemini 从事过大量基础 AI 研究与预训练；并讨论了内部面对优化和算力花费时的思维方式与组织决策。
 
@@ -31,7 +31,7 @@ unlisted: true
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为被讨论公司(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为被讨论公司
-- [[2026-07-28-pg-how-to-build-your-first-eval|《评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估》]] — 作为被讨论公司(提及)
+- [[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]] — 作为被讨论公司(提及)
 - [[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the|《当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点》]] — 作为被讨论公司(提及)
 - [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]] — 作为被讨论公司
 

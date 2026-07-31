@@ -13,7 +13,7 @@ unlisted: true
 
 - **[[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]]**(18:50起):本集把它说成：独立贡献者。管理者需要退回一线成为 IC，亲自体验工具剧变以掌握硬技能，未来理想的管理者必须是能给团队指明方向并能真刀真枪干活的人。
 - **[[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]]**(49:48起):Fiona 对新加入管理者的要求；即要求他们先以个人贡献者的身份深入代码和产品，建立内部体感后再承担带人的责任。
-- **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当代码不再是瓶颈,品味和策展成为产品团队的稀缺力》]]**(30:43起):本集指出现在每个人其实都兼具独立贡献者与管理者的属性,因为即便是一线 IC 现在实际上也是在管理智能体,而不是逐个字符地敲代码。
+- **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]]**(30:43起):本集指出现在每个人其实都兼具独立贡献者与管理者的属性,因为即便是一线 IC 现在实际上也是在管理智能体,而不是逐个字符地敲代码。
 
 ## ② 出现在这些集
 
@@ -21,7 +21,7 @@ unlisted: true
 
 - [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为概念
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]] — 作为概念
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当代码不再是瓶颈,品味和策展成为产品团队的稀缺力》]] — 作为概念(提及)
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]] — 作为概念(提及)
 
 ## ③ 关联
 

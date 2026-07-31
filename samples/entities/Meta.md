@@ -16,7 +16,7 @@ unlisted: true
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(01:22起):本集提到嘉宾曾任高管的公司，也作为过去庞大但可能面临工作方式陈旧的典型大厂品牌被提及。
 - **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(42:14起):本集说它的模型在业内被看扁，但靠着在所有产品上铺满入口，其 AI 使用率竟然能紧跟 ChatGPT 和 Gemini。
 - **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(65:41起):本集把它说成:近期裁掉了许多 PM 的大公司之一，释放出非技术型 PM 正被淘汰的市场信号。
-- **[[2026-07-28-pg-how-to-build-your-first-eval|《评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估》]]**(00:30起):本集把它说成:一种更具攻击性、由创始人绝对控制的产品主导文化,与工程主导、共识驱动的 Google 形成鲜明对比。
+- **[[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]]**(00:30起):本集把它说成:一种更具攻击性、由创始人绝对控制的产品主导文化,与工程主导、共识驱动的 Google 形成鲜明对比。
 - **[[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]]**(59:10起):本集提到:由于数据中心大爆发引发电网新建和全美电工严重短缺,Meta 正在推出计划,培训更多人成为电工。
 
 ## ② 出现在这些集
@@ -28,7 +28,7 @@ unlisted: true
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为被讨论公司(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为被讨论公司(提及)
-- [[2026-07-28-pg-how-to-build-your-first-eval|《评估取代 PRD：前 Meta/Google PM 演示如何实时构建智能体评估》]] — 作为被讨论公司(提及)
+- [[2026-07-28-pg-how-to-build-your-first-eval|《eval 会取代 PRD 吗?AI 产品经理的新工作法门》]] — 作为被讨论公司(提及)
 - [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|《物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆》]] — 作为被讨论公司(提及)
 
 ## ③ 关联

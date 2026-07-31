@@ -113,7 +113,7 @@ tags:
 **换个口味**
 
 - [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]] —— 同嘉宾:Lenny · 同公司:Anthropic、OpenAI、Apple
-- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当代码不再是瓶颈,品味和策展成为产品团队的稀缺力]] —— 同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)、ChatGPT
+- [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源]] —— 同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)、ChatGPT
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:智能体 (agent)
 
 </div>
