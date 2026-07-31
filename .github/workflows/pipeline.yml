@@ -34,6 +34,10 @@ on:
         description: "true=给缺基线的源设 cutoff(只补缺,绝不顶已有;配 source 可只 seed 一个源)——C10,本机 fetch 不走代理故 seed 放云端"
         required: false
         default: "false"
+      talks:
+        description: "true=演讲精选批次(C16/ADR 0017):只处理 data/talks-seed 种子(本机 seed-talk 落种+传 Release asset 后触发);cron 正常班次零影响"
+        required: false
+        default: "false"
 
 permissions:
   contents: write           # 处理完把新集 data/ + pipeline-state.json commit 回仓(去重状态持久化)
@@ -115,7 +119,11 @@ jobs:
             echo "has_new=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
-          if [ -n "$REFRESH" ]; then
+          # C16:演讲精选批次(--talks 只跑 talks 源;音频从 Release asset 公开直链拉,无新拉取步)
+          if [ "${{ github.event.inputs.talks || 'false' }}" = "true" ]; then
+            echo "🎤 演讲精选批次:处理 data/talks-seed 种子"
+            node scripts/run-pipeline.mjs --talks
+          elif [ -n "$REFRESH" ]; then
             # 输入防呆(照 backfill 数字校验先例;GLM 20260724-002[2]):只许 all 或集 id 逗号串
             if ! echo "$REFRESH" | grep -qE '^(all|[a-zA-Z0-9,_-]+)$'; then
               echo "::error::refresh 输入非法(需 all 或逗号分隔集 id):'$REFRESH'"; exit 1

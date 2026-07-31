@@ -1716,3 +1716,62 @@ Scenario: 铁律不破
 2. ⬜ 全量单测 + verify-c5 + gate-all 实体层绿。
 3. ⬜ glm-check 对抗审计 + 裁决。
 4. ⬜ 部署后用户线上验收。
+
+## C16 · 演讲精选通道(本机 yt-dlp 抓一手 → 云端接力)(US-4, US-11)
+
+> 决定真相 = docs/adr/0017(2026-07-31 用户明文「圈定清单这个流程你走下去」——二次确认口径同 drift #36 受控豁免,在此注明);
+> 候选清单与三层去重设计 = 需求共创/调研-新源候选-2026-07-24.md(YouTube 侧去重 + 2026-07-31 增补节)。
+> 形态 = 精选批次(人工圈选,非频道自动巡航);处理链与播客集完全同一套,闸门一分不降。
+
+```gherkin
+Feature: 本机种子脚本 seed-talk(US-4)
+
+Scenario: 抓一手落种子区
+  Given 一个或多个 YouTube 演讲 URL
+  When 本机跑 scripts/seed-talk.mjs(yt-dlp 走代理 127.0.0.1:7877)
+  Then 每条演讲落 data/talks-seed/<videoId>/:最佳音频 + seed.json(videoId/url/title/channel/uploader/upload_date/duration_sec/audio_file/audio_asset_url)
+  And 音频文件绝不入 git(gitignore);seed.json(小清单)入库随仓走
+  And 同 videoId 的种子已存在、或 videoId 已在 pipeline-state 演讲账本 → 响亮跳过不重下
+
+Scenario: 运输 = GitHub Release asset(零新基建)
+  Given 演讲音频 30-100MB,git 不可承载;workflow artifact 本机传不上去且 7 天过期;R2 已去(drift #18)
+  When seed-talk 下载完成
+  Then 音频以 gh CLI 上传到固定 prerelease tag(talks-seed)的 Release asset,--clobber 幂等
+  And seed.json 记下公开直链 audio_asset_url(公开仓资产免认证可拉)
+  And 云端零新拉取步:该直链直接当 enclosure 音频 URL 交给现有 fetch-source-whisperx --transcribe
+
+Feature: 云端 talks 源(US-4, US-11)
+
+Scenario: 只在显式触发时跑,cron 零影响
+  Given SOURCES 增加 talks 源(无 feed、manual 标记、asr=whisperx)
+  Then cron 正常班次的源循环不包含 talks(默认排除 manual 源)
+  And 只有 workflow 显式传 talks=true(编排器 --talks)才处理种子区
+  And talks 源无 cutoff/seed 概念(种子存在即待处理,处理完靠账本终态)
+
+Scenario: videoId 账本去重(ADR 0017 去重第 1 层)
+  Given pipeline-state 演讲账本已记某 videoId
+  When 同 videoId 的种子再次出现
+  Then 该种子绝不再被选中处理(不重烧转写/翻译钱)
+  And 处理成功或失真隔离(终态)都记账;转瞬失败不记账、下次重试
+
+Scenario: 标题模糊比对待裁(ADR 0017 去重第 2 层)
+  Given 某种子标题归一化后与库内已完成集 title_en 相同或互为包含(如 YT 版≈RSS 版同集)
+  Then 响亮报「⛔ 待裁」并跳过该种子,不进处理链
+  And 绝不自动丢弃:种子原样保留、不进隔离账本、不记 videoId 账本——去留由人裁
+  And 下轮 --talks 仍会再次报待裁(直到人工删种子或明文放行)
+
+Scenario: 演讲不是访谈,噪音过滤按源放行
+  Given talks 种子(演讲,无 RSS item 形状)
+  Then 不套 isInterview 的标题/链接判定规则(ainews 排除等对演讲无意义)
+  And 集 id = <upload日期>-talks-<标题slug>(deriveId 同款派生,进现有 seen 去重)
+
+Scenario: 处理链零折扣
+  When talks 种子被选中
+  Then 走与播客集完全同一 processEpisode 链:whisperX 转写→推说话人→翻译→浓缩→判官→金句规整→抽实体→防失真闸门→出稿→配音
+  And 失真隔离/半成品重试/gate-all 兜底与播客集一字不差
+```
+
+### DoD(C16)
+1. ⬜ 全量单测绿 + verify-c5 绿 + workflow YAML 解析过;变异验证两刀(去 videoId 账本去重→红;标题待裁改自动丢弃→红)。
+2. ⬜ 不真下载/不真跑流水线/不触发云端(本切片只建通道;真跑 12 条由调度员之后操作)。
+3. ⬜ glm-check --kind code 对抗审计 + 裁决落账本。

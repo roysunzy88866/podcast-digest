@@ -163,10 +163,11 @@ describe("C8 · SOURCES 源清单(品味校准后只留绿源)", () => {
     expect(a16z.feedUrl).toBe("https://feeds.simplecast.com/JGE3yC0V");
     expect(a16z.asr).toBe("whisperx"); // processEpisode 据此直走 ASR(a16z 实测无官方稿,不空跑 fetch-source)
   });
-  it("每个源都带 key + feedUrl", () => {
+  it("每个源都带 key + 取料口(feed 源必有 feedUrl;C16 种子驱动源必有 seedDir,二者互斥)", () => {
     for (const s of SOURCES) {
       expect(s.key).toBeTruthy();
-      expect(s.feedUrl).toMatch(/^https?:\/\//);
+      if (s.seedDir) expect(s.feedUrl).toBeUndefined(); // 种子驱动(talks):无 feed/cutoff 概念
+      else expect(s.feedUrl).toMatch(/^https?:\/\//);
     }
   });
   it("source.key 是简单 slug(GLM 001[2]:防 key 含 - / . 撞乱 id 结构)", () => {

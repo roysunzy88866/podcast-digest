@@ -41,6 +41,10 @@ export const SOURCES = [
   { key: "trainingdata", name: "Training Data", feedUrl: "https://feeds.megaphone.fm/trainingdata", asr: "whisperx" },
   { key: "bigtech", name: "Big Technology Podcast", feedUrl: "https://feeds.megaphone.fm/LI3617121267", asr: "whisperx" },
   { key: "aia16z", name: "AI + a16z", feedUrl: "https://feeds.simplecast.com/Hb_IuXOo", asr: "whisperx" },
+  // C16 · 演讲精选通道(ADR 0017):无 feed、manual=只在显式 --talks/点名时跑(cron 零影响)。
+  // 种子由本机 scripts/seed-talk.mjs 落 data/talks-seed/<videoId>/seed.json(音频经 Release asset 送云,
+  // enclosure 即公开直链)→ 这里读种子、三层去重后走与播客集完全同一 processEpisode 链。无 cutoff 概念。
+  { key: "talks", name: "精选演讲", seedDir: "data/talks-seed", asr: "whisperx", manual: true },
 ];
 
 // 带浏览器 UA:Substack 对裸 node 请求可能 403(drift #28)
@@ -167,6 +171,90 @@ export function selectBackfill(items, { n, existingIds, source }) {
     .sort((a, b) => b.pubDateISO.localeCompare(a.pubDateISO)) // 最新在前 → 取 top N
     .slice(0, n)
     .sort((a, b) => a.pubDateISO.localeCompare(b.pubDateISO)); // 处理按旧→新(与 selectNew 一致)
+}
+
+// ── C16 · talks 源纯逻辑(演讲精选通道,ADR 0017)──────────
+
+/**
+ * 本轮要跑哪些源:默认(cron/正常班次)排除 manual 源——talks 只在显式 --talks 或 --source 点名时进场。
+ * cron 零影响的机器保证在这一个函数里,别散到调用点。
+ */
+export function activeSources(all, { onlyKey, talks } = {}) {
+  if (onlyKey) return all.filter((s) => s.key === onlyKey);
+  if (talks) return all.filter((s) => s.manual);
+  return all.filter((s) => !s.manual);
+}
+
+/** 标题归一化:小写、非字母数字拉平成单空格(中英标点/破折号/引号全吃)。 */
+export function normalizeTitle(s) {
+  return String(s ?? "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+}
+
+// 包含判重的最短长度守卫:归一化后短于它的串不做包含比对(防「ai」之类误伤一切)。
+const TITLE_CONTAIN_MIN = 12;
+
+/**
+ * 去重第 2 层(ADR 0017):种子标题 vs 库内已完成集 title_en。归一化后相同、或互为包含(带守卫)= 疑似重复。
+ * 只报「疑似」,裁决归人——调用方必须响亮报待裁并跳过,绝不自动丢弃。返回命中的库内标题或 null。
+ */
+export function findTitleDuplicate(title, libraryTitles) {
+  const t = normalizeTitle(title);
+  if (!t) return null;
+  for (const lib of libraryTitles ?? []) {
+    const l = normalizeTitle(lib);
+    if (!l) continue;
+    if (l === t) return lib;
+    const [short, long] = t.length <= l.length ? [t, l] : [l, t];
+    if (short.length >= TITLE_CONTAIN_MIN && long.includes(short)) return lib;
+  }
+  return null;
+}
+
+/** seed.json → processEpisode 入参 item(enclosure = Release asset 公开直链,whisperX 链零改动)。 */
+export function talkItemFromSeed(seed) {
+  return {
+    title: seed.title,
+    link: seed.url ?? "",
+    pubDateISO: `${seed.upload_date}T00:00:00.000Z`,
+    hasAudio: true,
+    enclosureUrl: seed.audio_asset_url ?? null,
+    durationSec: seed.duration_sec ?? 0,
+  };
+}
+
+/**
+ * 选种(演讲不是访谈,不套 isInterview;无 cutoff——种子存在即待处理,终态靠账本):
+ *   第 1 层 videoId 账本(videoLedger:处理成功/隔离终态都记)→ done,绝不再选;
+ *   派生 id 撞 existingIds(已完成/已隔离)→ 同样终态跳过;
+ *   第 2 层 标题模糊比对 → held 待裁(调用方响亮报,种子原样保留,去留归人);
+ *   坏种子(缺 videoId/upload_date)响亮抛,不静默跳。
+ * @returns {{picks:[{videoId,id,item,seed}], held:[{videoId,title,matchedTitle,id}], done:string[]}}
+ */
+export function selectTalks(seeds, { existingIds, videoLedger, libraryTitles, source }) {
+  const seen = new Set(existingIds ?? []);
+  const ledger = videoLedger ?? {};
+  const picks = [];
+  const held = [];
+  const done = [];
+  for (const seed of seeds ?? []) {
+    if (!seed?.videoId) throw new Error(`坏种子:缺 videoId(${JSON.stringify(seed?.title ?? seed)})`);
+    if (!/^\d{4}-\d{2}-\d{2}$/.test(String(seed.upload_date ?? "")))
+      throw new Error(`坏种子 ${seed.videoId}:upload_date 异常「${seed.upload_date}」(需 YYYY-MM-DD)`);
+    const item = talkItemFromSeed(seed);
+    const id = deriveId(item, source);
+    if (ledger[seed.videoId] || seen.has(id)) {
+      done.push(seed.videoId);
+      continue;
+    }
+    const matchedTitle = findTitleDuplicate(seed.title, libraryTitles);
+    if (matchedTitle) {
+      held.push({ videoId: seed.videoId, title: seed.title, matchedTitle, id });
+      continue;
+    }
+    picks.push({ videoId: seed.videoId, id, item, seed });
+  }
+  picks.sort((a, b) => a.item.pubDateISO.localeCompare(b.item.pubDateISO));
+  return { picks, held, done };
 }
 
 /**
@@ -418,11 +506,16 @@ async function main() {
 
   // C9 D44①:多源按源循环 + 按源 cutoff。--source <key> 可点名只跑一个源;
   // --backfill 在多源时必须 --source 点名(防「回填」笼统砸到所有源批量烧钱)。
+  // C16:--talks 只跑 manual 源(演讲种子批);默认(cron)排除 manual 源——零影响的保证在 activeSources。
   const srcIdx = argv.indexOf("--source");
   const onlyKey = srcIdx >= 0 ? argv[srcIdx + 1] : null;
-  const sources = onlyKey ? SOURCES.filter((s) => s.key === onlyKey) : SOURCES;
+  const sources = activeSources(SOURCES, { onlyKey, talks: flags.has("--talks") });
   if (onlyKey && !sources.length) {
     console.error(`⛔ 未知源「${onlyKey}」。可选:${SOURCES.map((s) => s.key).join(", ")}`);
+    process.exit(2);
+  }
+  if (backfillN > 0 && sources.some((s) => s.seedDir)) {
+    console.error("⛔ talks 源无回填概念(种子存在即待处理),--backfill 不适用。");
     process.exit(2);
   }
   if (backfillN > 0 && SOURCES.length > 1 && !onlyKey) {
@@ -443,6 +536,10 @@ async function main() {
     // 设基线:cutoff = 该源 feed 最新访谈集时间 → 之后只处理更新的(历史 backlog 不碰,drift #22)。
     // 只补缺的源:已有基线绝不顶掉(重复 seed = 把基线后未处理的集静默跳过,不许)。
     for (const source of sources) {
+      if (source.seedDir) {
+        console.log(`ℹ️ ${source.key} 是种子驱动源(无 feed/cutoff 概念),--seed 不适用,跳过。`);
+        continue;
+      }
       const items = parseFeed(await fetchFeed(source.feedUrl));
       const newest = items.filter(isInterview).map((i) => i.pubDateISO).sort().at(-1) || new Date().toISOString();
       if (applySeed(state, source.key, newest)) console.log(`✅ 已设 ${source.key} 基线 cutoff = ${newest}(晚于它的访谈集才会被处理)。`);
@@ -578,8 +675,102 @@ function revivePass(state, { onlyKey, dryRun }) {
   return { clean, skipped };
 }
 
+/**
+ * C16 · talks 源一轮:读种子区 → 三层去重(videoId 账本 / seen / 标题待裁)→ 逐条走完全同一 processEpisode 链。
+ * 无 cutoff(种子存在即待处理);终态(成功/失真隔离)记 videoId 进 state.talkVideoIds,转瞬失败不记、下次重试。
+ * 标题疑似重复 = 响亮报「待裁」并跳过:种子原样保留、不进隔离账本、不记 videoId——去留由人裁(ADR 0017 第 2 层)。
+ */
+function processTalksSource(source, state, { dryRun }) {
+  const seedRoot = join(ROOT, source.seedDir);
+  console.log(`\n══ 源:${source.key}(种子区 ${source.seedDir})`);
+  const seeds = !existsSync(seedRoot)
+    ? []
+    : readdirSync(seedRoot, { withFileTypes: true })
+        .filter((d) => d.isDirectory() && existsSync(join(seedRoot, d.name, "seed.json")))
+        .map((d) => JSON.parse(readFileSync(join(seedRoot, d.name, "seed.json"), "utf8")));
+  if (!seeds.length) {
+    console.log(`✅ ${source.key} 无种子(本机 scripts/seed-talk.mjs 落种后 commit 触发)。`);
+    return { clean: 0, skipped: 0 };
+  }
+  // 库内标题 = 已完成集(有 digest)的 meta.title_en——比「已发布」更宽,半成品也算库内,防窗口期重投
+  const completed = completedIds();
+  const libraryTitles = completed
+    .map((id) => {
+      try {
+        return JSON.parse(readFileSync(join(EPISODES_DIR, id, "meta.json"), "utf8")).title_en ?? "";
+      } catch {
+        return "";
+      }
+    })
+    .filter(Boolean);
+  const { picks, held, done } = selectTalks(seeds, {
+    existingIds: [...completed, ...state.skipped.map((s) => s.id)],
+    videoLedger: state.talkVideoIds ?? {},
+    libraryTitles,
+    source,
+  });
+  console.log(`种子 ${seeds.length} 条:待处理 ${picks.length} / 待裁 ${held.length} / 已终态 ${done.length}`);
+  // 🔔 待裁响亮报(::error 让 CI run 页一眼可见);种子不动、不记账,下轮仍会报,直到人工删种子或确认非重复
+  for (const h of held) {
+    console.error(`::error::⛔ 待裁(疑似重复,未处理):${h.videoId}「${h.title}」≈ 库内「${h.matchedTitle}」。人工裁决:确认重复→删 ${source.seedDir}/${h.videoId};确认不同集→改库内该集或此种子标题后重跑。`);
+  }
+  picks.forEach((p) => console.log(`   - ${p.id}  (${p.item.pubDateISO})  ${p.item.title}`));
+  if (!picks.length) {
+    if (held.length) throw new Error(`talks 全部 ${held.length} 条种子待裁,零处理(见上方 ::error)`);
+    return { clean: 0, skipped: 0 };
+  }
+  if (dryRun) {
+    console.log("（--dry-run:仅列出,不真跑)");
+    return { clean: 0, skipped: 0 };
+  }
+
+  const cleanIds = [];
+  const skipped = [];
+  for (const { videoId, id, item } of picks) {
+    if (!item.enclosureUrl) {
+      // 种子落了但音频没上传(--no-upload 后忘了补传)→ 转瞬失败语义:响亮报、不记账、补传后重跑即处理
+      console.error(`   ⚠️ ${id} 种子缺 audio_asset_url(音频未上传 Release?)→ 跳过,本机补传后重跑`);
+      skipped.push({ id, reason: "种子缺 audio_asset_url(音频未上传)", retry: true });
+      continue;
+    }
+    let res;
+    try {
+      res = processEpisode(item, id, source);
+    } catch (e) {
+      console.error(`   ⚠️ ${id} 处理中断(转瞬失败,留半成品下次重试):${e.message}`);
+      skipped.push({ id, reason: `处理中断(转瞬失败,下次重试):${e.message}`, retry: true });
+      continue; // 不记 videoId:非终态,下轮重选
+    }
+    // 终态才记 videoId 账本(去重第 1 层;成功与失真隔离都算终态,绝不再自动重跑重扣钱)
+    state.talkVideoIds = state.talkVideoIds ?? {};
+    state.talkVideoIds[videoId] = id;
+    if (res.ok) {
+      cleanIds.push(id);
+      writeState(state);
+    } else {
+      mkdirSync(SKIPPED_DIR, { recursive: true });
+      const to = join(SKIPPED_DIR, id);
+      if (existsSync(to)) rmSync(to, { recursive: true, force: true });
+      renameSync(join(EPISODES_DIR, id), to);
+      writeFileSync(join(to, "skip-reason.txt"), `${res.reason}\n${item.title}\n${item.link}\n`);
+      skipped.push({ id, reason: res.reason, retry: false });
+      appendSkip(state, { id, reason: res.reason, title: item.title, pubDate: item.pubDateISO });
+      writeState(state); // 即刻落盘(同播客源口径,bug c)
+      console.log(`   ⛔ ${id} 隔离:${res.reason}`);
+    }
+  }
+
+  if (skipped.length) {
+    console.log(`\n🔔 通知:${source.key} 本批 ${skipped.length} 条未发布:`);
+    skipped.forEach((s) => console.log(`   - ${s.id} — ${s.reason}${s.retry ? "" : "(隔离 data/skipped,待人工看)"}`));
+  }
+  writeState(state);
+  return { clean: cleanIds.length, skipped: skipped.length };
+}
+
 /** 单源一轮:取 feed→选新集→逐集处理→按源推进 cutoff。返回 {clean, skipped} 计数。 */
 async function processSource(source, state, { backfillN, dryRun }) {
+  if (source.seedDir) return processTalksSource(source, state, { dryRun }); // C16:种子驱动源走自己的选集,处理链同一套
   console.log(`\n══ 源:${source.key}(${source.feedUrl})`);
 
   // 补历史(--backfill)读本机备好的全历史列表;日常/cron 走 RSS(最近 20,只向前看够用,drift #28)
