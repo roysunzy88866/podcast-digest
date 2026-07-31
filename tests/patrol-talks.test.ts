@@ -136,6 +136,13 @@ describe("三层去重(dedupSkip;删掉任何一层必须红)", () => {
     ]);
     expect(dedupSkip("v", { ledger: {}, seededIds: new Set(), logIndex: idx })).toBe("patrol-log");
   });
+  it("终态粘性:终态之后的非终态行不许冲掉终态(GLM 20260731-008[6] 防腐)", () => {
+    const idx = indexPatrolLog([
+      JSON.stringify({ videoId: "v", action: "rejected" }),
+      JSON.stringify({ videoId: "v", action: "judge-failed" }), // 手工补跑失败之类的杂音
+    ]);
+    expect(dedupSkip("v", { ledger: {}, seededIds: new Set(), logIndex: idx })).toBe("patrol-log");
+  });
   it("全新 videoId → 不跳过", () => {
     expect(dedupSkip("fresh", { ledger: {}, seededIds: new Set(), logIndex })).toBe(null);
   });

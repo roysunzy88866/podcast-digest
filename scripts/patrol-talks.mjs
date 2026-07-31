@@ -164,7 +164,10 @@ export function indexPatrolLog(lines) {
   for (const line of lines ?? []) {
     try {
       const e = JSON.parse(line);
-      if (e?.videoId && e?.action) idx.set(e.videoId, e.action);
+      if (!e?.videoId || !e?.action) continue;
+      // 终态粘性(GLM 20260731-008[6]):同 videoId 一旦有终态,后来的非终态行(如手工补跑失败)不许把它冲掉
+      if (TERMINAL_ACTIONS.has(idx.get(e.videoId)) && !TERMINAL_ACTIONS.has(e.action)) continue;
+      idx.set(e.videoId, e.action);
     } catch {
       /* 非 JSON 行(损坏/手工注释)不算数 */
     }
@@ -298,7 +301,13 @@ function enrichVideo(video) {
 
 /** 品味判官:GLM 读 标题+简介+时长,按品味档案(运行时读,活文档)+ 频道提示判。返回原始输出文本。 */
 function askJudge(video, sub) {
-  const taste = readFileSync(TASTE_FILE, "utf8");
+  // 长度保险(GLM 20260731-008[4]):品味档案是活文档,失控膨胀会把判官上下文撑爆成持续 judge-failed;
+  // 截断响亮警告(档案现 ~4KB,20KB=5 倍余量,截到=该瘦身了)
+  let taste = readFileSync(TASTE_FILE, "utf8");
+  if (taste.length > 20000) {
+    console.error(`   ⚠️ 品味档案超 20KB(${taste.length}),截断喂判官——档案该瘦身了`);
+    taste = taste.slice(0, 20000);
+  }
   const system = [
     "你是「英文播客中文精华知识库」的选题品味判官。下面是品味档案(唯一判断依据,活文档):",
     "────────────────────────",
@@ -360,6 +369,13 @@ async function main() {
   const subs = loadSubscriptions();
 
   if (!smoke) {
+    // 上轮崩溃/败推可能留下未提交的日志/种子改动 —— 脏工作区会让 pull --rebase 拒跑,
+    // 不收拾就是每轮开局必败的死循环(GLM 20260731-008[3] 触发的邻近真洞):先收进一个提交再同步
+    if (sh("git", ["status", "--porcelain", "data/talks-seed"]).stdout.trim()) {
+      console.log("开局:发现上轮遗留的种子/日志改动,先补提交再同步");
+      shOrThrow("git", ["add", "data/talks-seed"]);
+      shOrThrow("git", ["commit", "-m", "[C7 🤖] 订阅巡航:上轮遗留种子/日志补提交 (US-4, US-11)"]);
+    }
     // 开局先同步:云端处理完会推进演讲账本(pipeline-state.json),陈旧账本 = 白判重下
     const pull = sh("git", ["pull", "--rebase", "origin", "main"]);
     if (pull.status !== 0) {
