@@ -231,12 +231,18 @@ export function mobileHome(episodes, catsOf, vocabulary, active = "new") {
 /** 顶栏。「最热」= 必读页(C13c,build-mustread.mjs 每次构建自算)。
  *  active 决定哪个 nav 高亮(设计稿 must-read.html 顶栏是 最热 带 cur);
  *  右侧 .pd-acts 是空槽,由脚本把 Quartz 的搜索/深浅色/阅读模式搬进来(见 scriptBlock)。 */
-export const topBar = (active = "home", mtitle = "") => `<header class="pd-top"><div class="pd-topin">
-    <a class="b" href="./"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a>
-    <nav class="pd-nav"><a${active === "home" ? ' class="cur"' : ' class="internal"'} href="./">最新</a><a${active === "mustread" ? ' class="cur internal"' : ' class="internal"'} href="./must-read">最热</a></nav>
-    ${mtitle ? `<a class="pd-mtitle internal" href="./">←<span>${esc(mtitle)}</span></a>` : ""}
-    <div class="pd-acts"></div>
-  </div></header>`;
+// ⚠️ 必须拼成单行、不许有内部换行:首页/必读页 mtitle 为空时,原来那行会塌成「只有缩进
+// 空格的空行」,Markdown 的原样 HTML 块遇空行即结束,之后缩进 4 空格的 <div class="pd-acts">
+// 就被当成缩进代码块渲染成 <pre><code>…</code></pre>(线上顶栏站名旁真漏出过一段 div 代码)。
+// 这一塌还连累了搬 Quartz 搜索/深浅色的 adopt()——.pd-acts 变成文本节点后 querySelector 取不到,
+// 搜索浮层样式失效、深浅色搬不进去。scriptBlock 早用 squashBlankLines 焊过同一个坑,topBar 漏了。
+export const topBar = (active = "home", mtitle = "") =>
+  `<header class="pd-top"><div class="pd-topin">` +
+  `<a class="b" href="./"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a>` +
+  `<nav class="pd-nav"><a${active === "home" ? ' class="cur"' : ' class="internal"'} href="./">最新</a><a${active === "mustread" ? ' class="cur internal"' : ' class="internal"'} href="./must-read">最热</a></nav>` +
+  (mtitle ? `<a class="pd-mtitle internal" href="./">←<span>${esc(mtitle)}</span></a>` : "") +
+  `<div class="pd-acts"></div>` +
+  `</div></header>`;
 
 /**
  * 全部集 → 首页 markdown。空站 → 友好空状态(US-1a / C13a 场景4)。
@@ -388,11 +394,21 @@ export const scriptBlock = () => squashBlankLines(`<script>
       im.addEventListener('error', kill, {once:true});
     });
   }
+  // 手机端点卡片应「跳页面」而不是开新浏览器窗口(issue：桌面故意 target=_blank 开新标签,
+  // 手机上开新窗既反直觉、回来后原页面又粘着 hover 态)。窄屏时把标题链接的 _blank/router-ignore
+  // 摘掉 → 交回 Quartz SPA 路由做站内导航。只摘不加,桌面不受影响。
+  function mobileLinks(){
+    if(!matchMedia('(max-width:1023px)').matches) return;
+    document.querySelectorAll('.pd .card a[target="_blank"]').forEach(function(a){
+      a.removeAttribute('target'); a.removeAttribute('rel'); a.removeAttribute('data-router-ignore');
+    });
+  }
   function init(){
     adopt();
     dateh();
     logos();
     wireSearch();
+    mobileLinks();
     var root=document.querySelector('.pd'); if(!root||root.__epInit) return; root.__epInit=1;
     // 已读压暗(客户端 localStorage;键沿用 pd-read,老已读史不丢)
     var KEY='pd-read', read;

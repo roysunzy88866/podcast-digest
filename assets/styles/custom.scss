@@ -530,8 +530,15 @@ body[data-slug^="tags/"] {
     transition: background 0.15s;
   }
   .grid > .card:last-child { border-bottom: none; }
-  .card:hover { background: var(--B1); border-bottom-color: var(--B2); }
-  .card:hover .t { color: var(--pd-accent); }
+  /* hover 只给真有指针悬停的设备 —— 触屏上 :hover 会「点完粘住」不消失(issue:手机点完卡片
+     hover 态退不掉,尤其配合原来的开新窗)。触屏改用 :active,只在手指按下那一瞬给点反馈。 */
+  @media (hover: hover) {
+    .card:hover { background: var(--B1); border-bottom-color: var(--B2); }
+    .card:hover .t { color: var(--pd-accent); }
+  }
+  /* 触屏按下那一瞬给一个和 hover 同款的反馈(背景 + 标题变红),对齐用户要的「点一下闪个 hover 态」。 */
+  .card:active { background: var(--B1); }
+  .card:active .t { color: var(--pd-accent); }
   .card .tx { flex: 1; min-width: 0; display: flex; flex-direction: column; align-self: stretch; }
   .card .t {
     font-family: var(--puhui);

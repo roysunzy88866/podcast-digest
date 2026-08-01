@@ -246,6 +246,22 @@ describe("C13a · 老守卫不许在换血中丢", () => {
   });
 });
 
+describe("顶栏 · pd-acts 不得被 Markdown 当成缩进代码块(空 mtitle 回归)", () => {
+  // 线上曾在站名旁漏出一段 <pre><code>&lt;div class="pd-acts"&gt; —— 首页/必读页 mtitle 为空时,
+  // 原 topBar 那行塌成「只有缩进空格的空行」,截断 HTML 块,后面缩进 4 空格的 pd-acts 被当代码块。
+  // 连带:.pd-acts 不再是真元素 → 搬 Quartz 搜索/深浅色的 adopt() 取不到 → 搜索浮层样式失效。
+  const md = renderList([ep()], opts);
+  it("★★ topBar 拼成单行:pd-topin 与 pd-acts 同一行(空行截断 → 代码块的根因被焊死)", () => {
+    const line = md.split("\n").find((l) => l.includes("pd-topin"));
+    expect(line).toBeDefined();
+    expect(line).toContain('<div class="pd-acts"></div>');
+  });
+  it("★★ 首页 md 里绝无「缩进 4+ 空格 + 裸 pd-acts」的行(即被当代码块的那个形态)", () => {
+    expect(md).not.toMatch(/\n {4,}<div class="pd-acts">/);
+    expect(md).not.toContain("&lt;div class=&quot;pd-acts&quot;");
+  });
+});
+
 describe("C13a · 🔒 #20 卡片配图裁法(数据侧分流,视觉验收归 C13d)", () => {
   it("★ 近方图(0.9–1.15)打 face 类 → CSS 裁到脸", () => {
     const md = renderList([ep({ meta: { cover_image: { file: "cover.jpg", aspect: 1.0 } } })], opts);
