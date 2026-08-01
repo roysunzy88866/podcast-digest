@@ -45,7 +45,7 @@ unlisted: true
 
 [[ChatGPT]] · [[护栏]] · [[OpenAI]] · [[深度学习]] · [[Anthropic]] · [[Microsoft]] · [[智能体]] · [[Lenny]] · [[Jensen Huang]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":10,"护栏":8,"OpenAI":23,"深度学习":3,"Anthropic":28,"Microsoft":6,"智能体":46,"Lenny":32,"Jensen Huang":2,"沙箱":9}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":10,"护栏":8,"OpenAI":24,"深度学习":3,"Anthropic":28,"Microsoft":6,"智能体":48,"Lenny":32,"Jensen Huang":2,"沙箱":9}</script>
 
 <script>
 (function(){

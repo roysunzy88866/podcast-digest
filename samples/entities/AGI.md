@@ -51,7 +51,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[Google]] · [[Lenny]] · [[ChatGPT]] · [[Meta]] · [[Edwin Chen]] · [[Amol Avasare]] · [[Benedict Evans]] · [[Ranjan Roy]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":28,"OpenAI":23,"Google":10,"Lenny":32,"ChatGPT":10,"Meta":9,"Edwin Chen":1,"Amol Avasare":1,"Benedict Evans":1,"Ranjan Roy":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":28,"OpenAI":24,"Google":10,"Lenny":32,"ChatGPT":10,"Meta":9,"Edwin Chen":1,"Amol Avasare":1,"Benedict Evans":1,"Ranjan Roy":1}</script>
 
 <script>
 (function(){

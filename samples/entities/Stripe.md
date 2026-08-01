@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Stripe</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,18 +15,22 @@ unlisted: true
 - **[[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]]**(01:40起):本集嘉宾曾担任首席商务官的公司。节目中大量引用了她在此公司从零搭建销售团队、实行按消费计费、运用市场细分及建立白板会议购买体验的经验。
 - **[[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石》]]**(02:34起):本集把它说成:Lenny 遭遇欺诈团伙攻击时合作以关闭其寻找 API 漏洞攻击的公司之一
 - **[[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]]**(00:00起):本集把它说成：占据全美新公司注册 25% 份额的支付巨头，其平台上新企业创建率同比飙升近两倍，揭示了创业大爆发的真实数据。
+- **[[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《用 AI 替你打理钱:Clio 的极简金融建议与平权野心》]]**(06:10起):本集对谈的赞助方及被多次提及的对标对象。本集提到它早期的冒险精神，以及创始人认为 Stripe 也应该利用底层支付数据构建知识库，为消费者提供智能建议。
+- **[[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|《Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等》]]**(09:31起):本集说它是 Alan 的供应商，提供基础设施；从 Alan 成立第一天起就陪伴其发展，并在这场 Stripe Tour 活动中作为主办方对谈。
 - **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]]**(28:36起):本集把它说成:Replit 在去年第四季度集成上线的支付平台,用来赋能用户对自己做的应用直接收费变现。
 - **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]]**(18:51起):本集提到：Sam Altman 曾在 22 岁时作为早期投资人帮助过这家支付公司，并因此在多年后结识了日后共创 OpenAI 的 Greg Brockman。
 - **[[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱》]]**(23:34起):本集多次作为对比案例提及，一是将其无摩擦的极简自助结账流程作为交付最后一公里的标杆；二是讨论拥有客户分销渠道的重要性。
 
 ## ② 出现在这些集
 
-*7 集*
+*9 集*
 
 - [[2025-11-23-lennys-a-guide-to-difficult-conversations|《别再当「答案机器」：高管教练Rachel Lockett的领导力实操课》]] — 作为被讨论公司(提及)
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]] — 作为被讨论公司
 - [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石》]] — 作为被讨论公司(提及)
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]] — 作为被讨论公司
+- [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《用 AI 替你打理钱:Clio 的极简金融建议与平权野心》]] — 作为被讨论公司
+- [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|《Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等》]] — 作为被讨论公司
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]] — 作为被讨论公司(提及)
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]] — 作为被讨论公司(提及)
 - [[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱》]] — 作为被讨论公司(提及)
@@ -35,9 +39,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Replit]] · [[Rachel Lockett]] · [[Jeanne DeWitt Grosser]] · [[Lenny Rachitsky]] · [[Patrick Collison]] · [[Michele Catasta]] · [[Sam Altman]]
+[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Replit]] · [[LLM]] · [[Rachel Lockett]] · [[Jeanne DeWitt Grosser]] · [[Lenny Rachitsky]] · [[Patrick Collison]] · [[Barney Hussey-Yeo]]
 
-<script type="application/json" class="pd-epn">{"智能体":46,"OpenAI":23,"Lenny":32,"Replit":4,"Rachel Lockett":1,"Jeanne DeWitt Grosser":1,"Lenny Rachitsky":1,"Patrick Collison":1,"Michele Catasta":1,"Sam Altman":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":48,"OpenAI":24,"Lenny":32,"Replit":4,"LLM":4,"Rachel Lockett":1,"Jeanne DeWitt Grosser":1,"Lenny Rachitsky":1,"Patrick Collison":1,"Barney Hussey-Yeo":1}</script>
 
 <script>
 (function(){

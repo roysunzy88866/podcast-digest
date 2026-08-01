@@ -1,0 +1,634 @@
+{
+  "episode_id": "2026-06-16-talks-a-conversation-with-alan-cofounder-and-c",
+  "podcast": "精选演讲",
+  "date": "2026-06-16",
+  "tags": [
+    "AI 智能体",
+    "欧洲科技主权",
+    "健康险科技",
+    "AI 转型",
+    "创业心法"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "laurent",
+      "type": "person",
+      "role": "host",
+      "name": "Laurent",
+      "file": "Laurent",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            50.61,
+            54.055
+          ],
+          "quote": "So, first of all, thank you very much, Laurent, for having me here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1963.089,
+            1964.57
+          ],
+          "quote": "Thank you, Laurent.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "charles-gorintin",
+      "type": "person",
+      "role": "guest",
+      "name": "Charles Gorintin",
+      "file": "Charles Gorintin",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "alan",
+      "type": "company",
+      "role": "company",
+      "name": "Alan",
+      "file": "Alan",
+      "primary": true,
+      "how_described": "本集说它是法国的健康险独角兽，覆盖四国（法国、比利时、西班牙、加拿大）、120 万会员、800 名员工，经常性年收入达 8 亿；嘉宾为其联合创始人兼 CTO。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            10.178,
+            14.081
+          ],
+          "quote": "You are the CTO and co-founder of Alan.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 4,
+          "t": [
+            14.981,
+            16.803
+          ],
+          "quote": "Alan has 4 million members.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 12,
+          "t": [
+            58.515,
+            63.119
+          ],
+          "quote": "Indeed, Kylian Mbappé invested in Alan.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 13,
+          "t": [
+            63.199,
+            73.067
+          ],
+          "quote": "It was a big moment for Alan's 10 years, when he came with us and told us about his vision for health.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 30,
+          "t": [
+            191.525,
+            204.293
+          ],
+          "quote": "we really tried to build Alan on these two pillars and so ten years later Alan is 1 million 200 thousand members, it's 800 million of recurring annual income, it's 800 people, it's",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 31,
+          "t": [
+            207.1,
+            222.395
+          ],
+          "quote": "C'est plus de 35 000 entreprises qui sont couvertes par Alan et surtout c'est une vision de comment est-ce qu'on peut transformer la manière dont on vit sa santé en pouvant la gérer directement depuis son téléphone avec le meilleur de la technologie.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            227.786,
+            233.955
+          ],
+          "quote": "Ten years ago, I had the opportunity, and thank you, to be able to participate in the celebration of Alan's 10th birthday.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            305.334,
+            312.679
+          ],
+          "quote": "So we created, we benefited with Alan from this change of mentality.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 63,
+          "t": [
+            420.015,
+            432.899
+          ],
+          "quote": "What I find super interesting is that I know that you really have this role at heart of a big brother, maybe to accompany new nuggets in the exemplarity of what you are trying to do with Alan.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 74,
+          "t": [
+            519.86,
+            543.968
+          ],
+          "quote": "and we have created it with Alan, and in particular, in the last two years, we have won large contracts with the State, with the Ministry of Ecology, the Ministry of Finance, the services of the Prime Minister, but the challenge behind it was not only to win, because we can win if we do a terrible job behind it,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 75,
+          "t": [
+            545.153,
+            560.426
+          ],
+          "quote": "In fact, they will not only give no contract to Alan, but also to all the companies in the technology sector, because they will say to themselves, well, startups, we know, it doesn't work, it doesn't deliver.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            617.443,
+            621.065
+          ],
+          "quote": "Alan is present in several countries, as we said in the introduction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 89,
+          "t": [
+            654.988,
+            657.11
+          ],
+          "quote": "So we built Alan in four countries.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 94,
+          "t": [
+            696.001,
+            708.888
+          ],
+          "quote": "L'autre avantage qu'on a chez Alan c'est que le corps humain est plus ou moins le même dans tous les pays donc ça nous a permis en fait que tous les sujets de santé soient...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            772.814,
+            790.843
+          ],
+          "quote": "So I heard IA, it will give me a quick opportunity to bounce back on this subject, but maybe just before going into depth on IA and how it is used within Alan, I would like maybe, if you have an advice to give to an entrepreneur on the international, it always seems too early or too late.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            826.515,
+            834.462
+          ],
+          "quote": "But in fact, we knew that being able to replicate Alan's success internationally was going to take time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            927.781,
+            933.126
+          ],
+          "quote": "And I would like to first understand a little bit how you decided to use IA within Alan.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            974.095,
+            981.038
+          ],
+          "quote": "But in fact, it always made me want to put IA in a certain form in Alan.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            1146.6,
+            1150.783
+          ],
+          "quote": "I would like us to go even beyond Alan.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 169,
+          "t": [
+            1358.526,
+            1361.729
+          ],
+          "quote": "It's a graph of income by full-time employees at Alan.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 172,
+          "t": [
+            1386.062,
+            1398.326
+          ],
+          "quote": "In fact, we see it in a very macro way with Alan, but each person is able to create a lot more value with IA agents than they were able to create value with the classic software.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1427.215,
+            1437.898
+          ],
+          "quote": "Either we will be able to invest that in more quantity, we will be able to treat more things, and so, for example, in Alan's case, it will be in more countries.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1624.282,
+            1631.526
+          ],
+          "quote": "So with Alan, all the decisions that are made are available to everyone in a transparent way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1643.107,
+            1654.95
+          ],
+          "quote": "And so, as a person at Alan, I can have access to all the knowledge that has been accumulated by the company since the beginning of the company.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1694.347,
+            1703.992
+          ],
+          "quote": "And in a company like Alan, with transparency and everything written down, in fact, we are able to say, we do it like this for this specific reason.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1738.064,
+            1742.828
+          ],
+          "quote": "And so the people who work in Alan's operations today are much more to work with",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1828.921,
+            1832.604
+          ],
+          "quote": "Now, Alan, it's a success story in French, which is exceptional.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1948.757,
+            1953.361
+          ],
+          "quote": "We are very proud at Stripe to have been able to accompany Alan since its inception.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mistral",
+      "type": "company",
+      "role": "company",
+      "name": "Mistral",
+      "file": "Mistral",
+      "primary": true,
+      "how_described": "本集说它是欧洲的 AI 冠军公司，嘉宾 Charles 是其联合创始人；当时为应对完全依赖 OpenAI 的风险、防止地缘政治危机导致残酷脱钩而创立。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 149,
+          "t": [
+            1151.123,
+            1156.927
+          ],
+          "quote": "I also know that you are co-founder of Mistral.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 150,
+          "t": [
+            1157.107,
+            1164.652
+          ],
+          "quote": "I don't want you to talk to us about Mistral necessarily, but rather from your point of view on IA in France.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            1258.609,
+            1266.893
+          ],
+          "quote": "So the fact of having emerged a champion like Mistral has become extremely important.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "stripe",
+      "type": "company",
+      "role": "company",
+      "name": "Stripe",
+      "file": "Stripe",
+      "primary": true,
+      "how_described": "本集说它是 Alan 的供应商，提供基础设施；从 Alan 成立第一天起就陪伴其发展，并在这场 Stripe Tour 活动中作为主办方对谈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            571.174,
+            575.677
+          ],
+          "quote": "And on that, Stripe helps us a little bit by being our supplier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 116,
+          "t": [
+            882.75,
+            890.234
+          ],
+          "quote": "And that's also what we see at Stripe, is that in the end, the new companies, the start-ups, from the first year, are present in more than 60 countries.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1802.515,
+            1818.346
+          ],
+          "quote": "What is very clear is that from what you describe, I find a lot of practices that we have at Stripe, the culture of writing, the culture of absolute transparency, AI First and somehow how a problem is translated by an agent that we train.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1948.757,
+            1953.361
+          ],
+          "quote": "We are very proud at Stripe to have been able to accompany Alan since its inception.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1974.478,
+            1986.365
+          ],
+          "quote": "And so, after this intervention from Charles, I would like to wish you the end of Stripe Tour Paris.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 261,
+          "t": [
+            2021.625,
+            2046.72
+          ],
+          "quote": "Stripe has built the infrastructure to help you, the entrepreneurs, the builders, the business leaders, to try to develop your businesses wherever they are, and we try to feed the development of our products thanks to your ideas, to your feedbacks, and with a lot of humility, continue to share these feedbacks with us.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            2061.027,
+            2067.29
+          ],
+          "quote": "They are important for the Stripe ecosystem because they allow us to build with them the solutions that we are able to offer you.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集说它是一家美国公司，Alan 在 2022 年中时完全依赖它的 GPT-3 模型，这让欧洲公司感到恐慌。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 155,
+          "t": [
+            1216.901,
+            1231.389
+          ],
+          "quote": "What we said in mid-2022 is that we were completely indebted to a single American company, which was OpenAI, because we used GPT-3 very strongly at the time.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说它是一场新技术革命：能代替人类执行任务，彻底改变游戏规则；让 Alan 全职员工人均收入曲线从 2022 年起由线性变为指数级飙升，也让员工从执行者变成「调校智能体的人」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 138,
+          "t": [
+            1040.157,
+            1048.379
+          ],
+          "quote": "And so, in particular, our medical agent Mo, we started to build it in 2023-2024.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            1050.832,
+            1064.16
+          ],
+          "quote": "under the inspiration of a person who was our first engineer, Antoine Liset, who took the subject and said, I want to create this medical agent because it's the first time we can create something that really makes sense in health with IA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 141,
+          "t": [
+            1085.516,
+            1096.543
+          ],
+          "quote": "And we managed, with a collaboration between engineers and doctors, to build a medical agent with whom we have trust.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            1115.796,
+            1127.22
+          ],
+          "quote": "And then, 95% of the responses given by this IA agent are noted as good or excellent by doctors who review the conversations.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1745.368,
+            1750.031
+          ],
+          "quote": "to tune their agents, to make sure that the agent is going to do the right thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1802.515,
+            1818.346
+          ],
+          "quote": "What is very clear is that from what you describe, I find a lot of practices that we have at Stripe, the culture of writing, the culture of absolute transparency, AI First and somehow how a problem is translated by an agent that we train.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1818.906,
+            1825.831
+          ],
+          "quote": "And so it's very inspiring to see that it is also the recipe for success to be an agent in our companies.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "mo",
+      "type": "concept",
+      "role": "concept",
+      "name": "Mo",
+      "file": "Mo",
+      "primary": true,
+      "how_described": "本集说它是 Alan 从第一性原理出发、由工程师和医生合作构建的医疗智能体；80% 的用户宁愿求助它也不愿等半小时找真人医生，医生对其 95% 的回复事后评为良好或优秀。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            912.167,
+            915.63
+          ],
+          "quote": "I know that Mo is your IA assistant.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            1040.157,
+            1048.379
+          ],
+          "quote": "And so, in particular, our medical agent Mo, we started to build it in 2023-2024.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "radical-transparency",
+      "type": "concept",
+      "role": "concept",
+      "name": "彻底透明 (radical transparency)",
+      "file": "彻底透明",
+      "primary": true,
+      "how_described": "本集说它是 Alan 自 2016 年成立第一天起推行的文化：所有决策都对全员透明公开；结合「凡事写下来」，为 AI 提供了可用的上下文底座。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 204,
+          "t": [
+            1621.08,
+            1624.242
+          ],
+          "quote": "We create a radical transparency.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "shasterton-barrier",
+      "type": "concept",
+      "role": "concept",
+      "name": "Shasterton 障碍 (Shasterton barrier)",
+      "file": "Shasterton 障碍",
+      "primary": true,
+      "how_described": "本集说它是企业管理中臭名昭著的问题：公司里充满「我们一直以来都是这么做的」这类盲目惯性；Alan 靠透明写作文化加 AI 几秒调档，审视并淘汰理由已失效的过时流程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 212,
+          "t": [
+            1681.043,
+            1685.546
+          ],
+          "quote": "It's because behind it, it solves a problem called the Shasterton barrier problem.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gpt-3",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPT-3",
+      "file": "GPT-3",
+      "primary": true,
+      "how_described": "本集说它在 2021 年底、2022 年初变得极为强大，Alan 据此决定分三步用 AI 改造公司；也是当时欧洲极度依赖美国公司的来源。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 132,
+          "t": [
+            998.467,
+            1010.254
+          ],
+          "quote": "quite a lot changed around the end of 2021, early 2022, where we felt that GPT-3-type models had become extremely powerful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 155,
+          "t": [
+            1216.901,
+            1231.389
+          ],
+          "quote": "What we said in mid-2022 is that we were completely indebted to a single American company, which was OpenAI, because we used GPT-3 very strongly at the time.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

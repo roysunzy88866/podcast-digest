@@ -35,7 +35,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Anthropic]] · [[Jenny Wen]] · [[Max Schoening]] · [[Meng To]] · [[Claude]] · [[Notion]] · [[Akash]] · [[Claude Cowork]]
 
-<script type="application/json" class="pd-epn">{"智能体":46,"Lenny":32,"Anthropic":28,"Jenny Wen":1,"Max Schoening":1,"Meng To":1,"Claude":9,"Notion":2,"Akash":3,"Claude Cowork":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":48,"Lenny":32,"Anthropic":28,"Jenny Wen":1,"Max Schoening":1,"Meng To":1,"Claude":9,"Notion":2,"Akash":3,"Claude Cowork":1}</script>
 
 <script>
 (function(){

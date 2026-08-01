@@ -35,7 +35,7 @@ unlisted: true
 
 [[Anthropic]] · [[智能体]] · [[提示词]] · [[Alex Finn]] · [[Simon Willison]] · [[系统提示词]] · [[Cat Wu]] · [[gpt 5.6]] · [[Thariq Shihipar]] · [[open ai]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":28,"智能体":46,"提示词":4,"Alex Finn":1,"Simon Willison":1,"系统提示词":3,"Cat Wu":1,"gpt 5.6":1,"Thariq Shihipar":1,"open ai":2}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":28,"智能体":48,"提示词":4,"Alex Finn":1,"Simon Willison":1,"系统提示词":3,"Cat Wu":1,"gpt 5.6":1,"Thariq Shihipar":1,"open ai":2}</script>
 
 <script>
 (function(){

@@ -120,6 +120,7 @@ Jason 提醒，很多自力更生（Bootstrap，不拿外部融资）的公司�
 
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同概念:SaaS
 - [[2026-06-03-latent-space-satya-2026|Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河]] —— 同概念:SaaS
+- [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|用 AI 替你打理钱:Clio 的极简金融建议与平权野心]] —— 同概念:LLM
 
 </div>
 </div>

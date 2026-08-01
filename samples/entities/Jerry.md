@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":2,"NVIDIA":7,"Sega":1,"Waymo":7,"Tesla":5,"Mercedes":1,"加速计算":1,"智能体":46,"物理 AI":3,"系统思维":2}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":2,"NVIDIA":7,"Sega":1,"Waymo":7,"Tesla":5,"Mercedes":1,"加速计算":1,"智能体":48,"物理 AI":3,"系统思维":2}</script>
 
 <script>
 (function(){

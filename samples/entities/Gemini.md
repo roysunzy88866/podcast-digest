@@ -27,7 +27,7 @@ unlisted: true
 
 [[Anthropic]] · [[Claude Code]] · [[Benedict Evans]] · [[Simon Willison]] · [[Lenny]] · [[Cat Wu]] · [[OpenAI]] · [[Thariq Shihipar]] · [[Google]] · [[ClaudeTag]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":28,"Claude Code":13,"Benedict Evans":1,"Simon Willison":1,"Lenny":32,"Cat Wu":1,"OpenAI":23,"Thariq Shihipar":1,"Google":10,"ClaudeTag":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":28,"Claude Code":13,"Benedict Evans":1,"Simon Willison":1,"Lenny":32,"Cat Wu":1,"OpenAI":24,"Thariq Shihipar":1,"Google":10,"ClaudeTag":1}</script>
 
 <script>
 (function(){

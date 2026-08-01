@@ -1,0 +1,123 @@
+{
+  "title_zh": "用 AI 替你打理钱:Clio 的极简金融建议与平权野心",
+  "tldr": "消费级 AI 助手 Clio 的创始人分享了他对个性化金融建议、人格化产品以及 AI 时代商业模式的实战思考。",
+  "digest_md": "如果你的财务生活能像扑克里的博弈论最优策略(GTO,按概率表做绝对正确决策)一样被完美优化,世界会释放出数万亿的价值——说这话的人靠玩在线扑克读完了大学,现在造了一个年入 4 亿美元 ARR(年经常性收入)的 AI 理财助手。他说,绝大多数人的财务决策极度未优化,全凭感觉和一张餐巾纸来做预算,而他要做的就是接管这些决策。\n\n在这一集由 Stripe 举办的伦敦巡回对谈里,他回顾了创立 Clio 的来龙去脉,聊了三件事:为什么通用大模型取代不了垂直的理财智能体,以及 Clio 怎么用幽默和人格化把枯燥的财务建议变成用户爱看的东西;AI 怎么把公司压扁、让 CEO 直接看透每一个代码合并请求(PR,程序员提交代码变更的动作);以及为什么他极度反感当下投资人觉得「写个提示词就能摧毁一个行业」的盲目狂热。结尾他抛出了对欧洲商业环境的尖锐批评:如果不想在科技上被彻底边缘化,欧洲的养老基金必须敢于把钱投向创造性的破坏中去。\n\n说完了开场的来头,接下来看看 Clio 到底想解决什么问题。这家公司起步于 2016 年,在 transformer(当前大语言模型的基础架构)问世之前。当时自然语言处理还很难用,他靠正则表达式(一种死板的文本匹配规则)和监督学习(让模型通过大量人工标注的数据学规律)硬做出了意图分类(识别用户这句话到底想干嘛)。直到 LLM(大语言模型)出现,彻底改变了他们的架构。他做这东西的动机很直接:钱是大多数人生活里压力最大的事,但绝大多数人的决策毫无理性可言。那些只有一两个月积蓄的人,才是真正需要理财建议的 99%。他设想的终极形态是一个完全主动的智能体(能自己规划并执行任务的 AI):你需要信贷时它去帮你找,你有闲钱时它去帮你拿最好的免税回报。你再也不用盯着余额和流水列表发愁,全由它替你打理 [06:50]。\n\n把理财建议做到这种份上,光有算法不够,还得让普通人听得进去。这就是下一个有意思的点:Clio 的人格化。主持人很好奇,把银行账户连到 ChatGPT 之类的前沿模型上问问题不就行了?这位创始人的判断截然相反:通用大模型是非常被动的,它今天主要在替代 Google 搜索,人们醒来并不会主动去想「我今天该查查这笔花销」。所以要真正吸引用户,产品必须是主动推送的、智能体式的。而要把这种主动建议做到让人买单,人格和语调至关重要。在模型不够聪明的早期,他们居然雇了 30 位女性喜剧演员来写全部的推文和回复,因为幽默和金钱意外地合拍。这种基因延续下来,催生了应用里的「吐槽模式」:它会因为你周末在酒吧多喝了几杯而公开嘲笑你 [08:53]。后来有了 LLM,这种人格变得更加个性化,会根据你的收入水平、所在城市甚至你希望被对待的方式调整说话的口吻。这种极致的「反过来做」的产品哲学,正是他们对标那些笨重、模糊的传统银行的杀手锏 [17:45]。\n\n解决了怎么和用户说话的问题,接下来是怎么用这套系统去跑通商业模式。Clio 的变现方式很明确:既收订阅费,也靠金融产品(比如卡片、借贷、发薪日预支)抽成。作为创始人,他给消费级 AI 创业者的建议非常干脆:要么第一天就把变现 100% 融进核心产品里(像 Stripe 那样在每笔交易上抽佣),要么就在前几年完全把赚钱抛在脑后,只死磕产品去拿月活跃用户数(MAU)。最忌讳的就是在变现策略上首鼠两端 [27:21]。他也毫不避讳地指出,金融的原语(基础动作)只有借钱、花钱这么几种,而且受强监管,其实很无聊;相比之下,在产品里灵活运用一些消费心理学,比如设置三档订阅让人们往往选中间档,才是真正驱动指标的门道 [29:41]。\n\n讲完了怎么卖产品,接下来话题转向了 AI 是如何重塑公司内部管理的。这位创始人形容自己的日常工作发生了剧变。以前管 500 人的公司,CEO 只能通过部门负责人去「搜集」信息,视角被中层领导的各种偏见和考核指标过滤了。现在,他直接用大模型去扫视整个公司的 Slack 消息、Notion 文档和每一个代码变更记录。模型会自动总结进度、给代码打分,构建出一个全公司的「船长日志」知识库。他现在能精准知道谁在真正产出高质量代码,哪个团队效率最高。结果就是:组织结构被彻底压扁了。他甚至开玩笑说中层管理者肯定很讨厌他。展望未来,他认为应该雇佣更多刚从学校毕业、完全「AI 化」(熟练用 AI 武装到牙齿)的年轻人,去管理庞大的智能体舰队。他个人非常期待明年能同时下 2000 个产品赌注,而不是像去年只有 10 个 [36:37]。\n\n听完了他对组织和产品的激进构想,最后一个话题落在他对宏观行业和欧洲环境的判断上。当被问及当下最反直觉的 AI 观点时,他直言不讳:投资者是这辈子见过最愚蠢、最不理性的人。他们毫无技术常识,在不懂的恐慌里只会观望,把钱全砸给前沿实验室或 Stripe,以为写个提示词就能摧毁一切行业的规则。他认为,建立一家真正伟大的垂直软件企业需要极高的手艺和行业积累,经济永远由这些软件公司驱动。至于欧洲(尤其是英国),他批评其监管过于保守、缺乏美国那种允许创造性破坏的冒险土壤。他呼吁欧洲的机构资本(尤其是庞大的养老基金)不要再把大把的钱交给加州的 VC,欧洲必须自己拥抱创造性的破坏,否则在科技上将被彻底甩开 [38:01]。\n\n## 本集带走\n\n最后收个尾,这一集值得带走的是几条清晰的判断。第一,通用大模型取代不了深度的垂直智能体,真正的个人 AI 助手必须是主动出击、替你把事办了,而不是像现在这样等着你问问题。第二,金融产品本身的原语很有限且无聊,真正的护城河在于把人格、幽默和个性化的理财建议揉进产品里,用反传统的体验拿下普通用户。第三,AI 正在把公司结构压扁,老板可以越过中层直接用模型看透每一个 PR 和 Slack 动态,未来的低层级员工只要懂指挥智能体舰队,就能释放巨大的生产力。第四,也是最犀利的一点,现在关于「写个提示词就能摧毁行业」的炒作被毫无技术常识的盲目投资者严重夸大了;而欧洲如果还不改变保守的避险心态、不敢把机构资本投向破坏性创新,就只会在中美两极的科技版图里彻底掉队。",
+  "quotes": [
+    {
+      "en": "I earn about 200K every year now just through my little agent that plays and barely beats the low stakes.",
+      "zh": "我现在每年大约赚 20 万，就是通过我的那个玩低注局的小 agent，勉强赢钱。",
+      "timestamp": "01:03",
+      "speaker": "Barney Hussey-Yeo"
+    },
+    {
+      "en": "There's a roast mode in Clio that makes fun of you for your spending.",
+      "zh": "Clio 中有一个吐槽模式，会拿你的消费来取笑你。",
+      "timestamp": "08:53",
+      "speaker": "Barney Hussey-Yeo"
+    },
+    {
+      "en": "It's either baked into the product 100% from day one, or you just completely forget it and get consumers.",
+      "zh": "要么从第一天起就 100% 烘烤进产品中，要么你就完全忘记它并获取消费者。",
+      "timestamp": "27:39",
+      "speaker": "Barney Hussey-Yeo"
+    },
+    {
+      "en": "I like the idea that I can take 2,000 bets next year instead of like... the 10 that I took last year.",
+      "zh": "我喜欢这个想法，明年我可以下 2000 个赌注，而不是像……我去年下的那 10 个。",
+      "timestamp": "37:10",
+      "speaker": "Barney Hussey-Yeo"
+    },
+    {
+      "en": "And this kind of idea that someone wrote a prompt and they've just got a frontier model that's going to kill everything is wildly overblown and investors are just... the silliest, most irrational people I've ever met in my life, and I can't believe they have all the capital.",
+      "zh": "而这种有人写了一个提示词，他们刚得到一个前沿模型就要杀死一切的想法是极其夸张的，投资者只是……我这辈子见过的最愚蠢，最不理性的人，我无法相信他们拥有所有的资本。",
+      "timestamp": "38:10",
+      "speaker": "Barney Hussey-Yeo"
+    },
+    {
+      "en": "We want more creative destruction. That is what AI is going to lead to. The abundance is not a contrarian take, but I'm pro-abundance.",
+      "zh": "我们想要更多的创造性破坏。这就是 AI 将要导致的。富足不是一个反直觉的观点，但我支持富足。",
+      "timestamp": "38:52",
+      "speaker": "Barney Hussey-Yeo"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "But before you started Clio, I want to go back to your prior career.",
+      "zh": "但在您创立 Clio 之前，我想回顾一下您之前的职业生涯。",
+      "timestamp": "00:22",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "I earn about 200K every year now just through my little agent that plays and barely beats the low stakes.",
+      "zh": "我现在每年大约赚 20 万，就是通过我的那个玩低注局的小 agent，勉强赢钱。",
+      "timestamp": "01:01",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "if you have this thing moving effectively through the system, you can dramatically increase GDP growth.",
+      "zh": "如果你有这个东西在系统中有效运转，你可以急剧增加 GDP 增长。",
+      "timestamp": "08:04",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "So we had 30 female comedians on staff.",
+      "zh": "所以我们雇佣了 30 位女性喜剧演员。",
+      "timestamp": "08:27",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "There's a roast mode in Clio that makes fun of you for your spending.",
+      "zh": "Clio 中有一个吐槽模式，会拿你的消费来取笑你。",
+      "timestamp": "08:53",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "So actually, the objective function of the recommender system used to just be engagement, so it was like, can we make you click this button, and it was fun. But now it is financial health and engagement.",
+      "zh": "所以实际上，推荐系统的目标函数过去只是参与度，所以就像是，我们能不能让你点击这个按钮，这很有趣。但现在它是财务健康和参与度。",
+      "timestamp": "09:45",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "I think they're going to be companies that focus all on health. They go all the way to the MRI and the blood test, and they have a whole stack of advice.",
+      "zh": "我认为它们将是专注于健康的公司。它们一直延伸到 MRI 和血液测试，并且拥有一整套建议栈。",
+      "timestamp": "11:45",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "I'm less bullish on, like... open AI being the interface for everyone for everything.",
+      "zh": "我对……比如……OpenAI 成为每个人的一切界面没那么乐观。",
+      "timestamp": "11:51",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "I think for any brand or any company doing this, it moves the metrics, the personality and the personalization to the user dramatically.",
+      "zh": "我认为对于任何这样做的品牌或公司来说，人格和对用户的个性化极大地推动了指标。",
+      "timestamp": "16:11",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "It's either baked into the product 100% from day one, or you just completely forget it and get consumers.",
+      "zh": "要么从第一天起就 100% 烘烤进产品中，要么你就完全忘记它并获取消费者。",
+      "timestamp": "27:39",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "I like the idea that I can take 2,000 bets next year instead of like... the 10 that I took last year.",
+      "zh": "我喜欢这个想法，明年我可以下 2000 个赌注，而不是像……我去年下的那 10 个。",
+      "timestamp": "37:10",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And this kind of idea that someone wrote a prompt and they've just got a frontier model that's going to kill everything is wildly overblown and investors are just... the silliest, most irrational people I've ever met in my life, and I can't believe they have all the capital.",
+      "zh": "而这种有人写了一个提示词，他们刚得到一个前沿模型就要杀死一切的想法是极其夸张的，投资者只是……我这辈子见过的最愚蠢，最不理性的人，我无法相信他们拥有所有的资本。",
+      "timestamp": "38:10",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "We want more creative destruction. That is what AI is going to lead to. The abundance is not a contrarian take, but I'm pro-abundance.",
+      "zh": "我们想要更多的创造性破坏。这就是 AI 将要导致的。富足不是一个反直觉的观点，但我支持富足。",
+      "timestamp": "38:52",
+      "speaker": "Unknown"
+    }
+  ]
+}

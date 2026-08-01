@@ -1,0 +1,52 @@
+```json
+{
+  "title_zh": "Alan 联合创始人:AI 智能体让员工人均收入曲线变指数级",
+  "tldr": "从法国医疗独角兽到欧洲 AI 主权,Charles 分享用智能体重构公司的实践与紧迫感。",
+  "digest_md": "一家法国的医疗公司,全职员工人均收入连续多年几乎线性增长,到了 2022 年,这条曲线突然变成了指数级——不是因为换了赛道,而是因为他们用 AI 智能体(能自主执行任务的 AI 系统)彻底重构了公司运转方式。说这话的人是 Charles,他是健康保险独角兽 Alan 的 CTO 和联合创始人,也是欧洲大模型公司 Mistral 的联合创始人。
+
+这一集 Stripe 的活动对谈里,他讲了三件事:Alan 十年走了什么路、为什么 2022 年成了人均产出的拐点;他们怎么造出一个 80% 用户宁可用它也不愿等半小时的 AI 医疗助手,以及"彻底透明 + 一切写下来"这套管理基建为什么是让 AI 真正落地的前提。最后他抛出了一个更宏大的判断:AI 不仅是技术革命,更是欧洲拿回经济主权的窗口期,但前提是各家公司的应用层得先跑起来,去创造足够的需求反哺底层基础设施。
+
+先从 Alan 的故事说起。十年前 Charles 从硅谷回到法国,在 Facebook、Instagram、Twitter 积累了一身技术本事,但他想"回馈社会",加上自己和联合创始人 Jean-Charles Samuel Lion 各自家里都有因为没做好预防而留下遗憾的健康问题,两人决定做一家用技术重塑健康体验的公司。十年后,Alan 覆盖了 400 万会员,经常性年收入 8 亿欧元,团队 800 人,为超过 35,000 家企业承保。
+
+Charles 特别强调一个观点:法国创业生态在 2016 年还很贫瘠,缺少打过仗的"大哥哥大姐姐",那十年间真正做出来的公司屈指可数,他只点名了 Criteo 和 BlaBlaCar。而到今天,局面变了——市场开始出现估值数十亿、有全球野心的公司,围绕它们长出了真正的创业生态。他反复提醒,现在的规模离真正的大公司(对标美国和中国)还有距离,但这恰恰是覆盖"经济主权"的必经之路 [05:35]。
+
+说完了行业生态为什么重要,接下来是他怎么在甲方信任上打地基。Charles 用 Alan 近两年拿下政府大单(生态部、财政部、总理服务部门)的经历说明一个道理:初创公司跟国家机构做生意,光靠中标没用,中标之后交付得好,政府才会信任整个科技行业;如果交付拉垮,连累的不是一家公司,而是所有初创公司都会被打上"不靠谱"的标签 [09:05]。信任是靠运营能力真刀真枪打出来的。
+
+把"信任"这个逻辑放大到国家层面,Charles 讲了为什么他参与联合创办了欧洲的大模型公司 Mistral。2022 年年中,Alan 的 AI 能力几乎完全绑死在 OpenAI 的 GPT-3 上,他当时就判断:如果未来几年地缘政治导致"残酷脱钩",没有自己的欧洲模型就等于没有保险。所以他押注要有欧洲自己的模型冠军。但他更想强调的不是模型层,而是应用层——如果各家公司在应用层不用、不转型,只靠底层几个做模型、做算力的参与者,他们最终会因为没需求而破产,整个欧洲也就放弃了 AI 这个主题 [21:53]。
+
+说完了为什么要用 AI,接下来是怎么用。Charles 把 Alan 的 AI 转型拆成三步:第一步提团队生产力,第二步把流程做得更便宜更好,第三步做"AI 之前根本不可能存在"的新产品。最硬的证据是他们 2023 年动手做的医疗智能体 Mo:80% 的人宁可用它也不愿等半小时找真人医生,而且医生复盘对话后给其中 95% 的回复打了"好"或"优秀" [18:21]。他特别提到,这是第一次能用 AI 在健康领域做出"真正有意义"的东西,灵感来自 Alan 的第一位工程师 Antoine Liset。
+
+工具变了,公司管理基建怎么办?这正是下一个话题,也是 Charles 最具方法论的一块。Alan 从 2016 年第一天起就坚持两件事:彻底透明——所有决策对全员可见;一切写下来——沉淀成可检索的上下文。这两条在 AI 时代突然变成了超级杠杆:以前要搞清楚"我们 2018 年为什么做这个决定"得花几小时翻档案做考古,现在 AI 智能体几秒就能给出完整答案 [27:45]。更关键的是,写下来意味着每个决策都有具体的理由,一旦理由失效,就可以干脆利落地废掉旧流程——这就解决了大公司最典型的"我们这么做是因为一直这么做"的僵化病 [28:14]。主持人也呼应,这套"写作文化 + 绝对透明 + AI First"的实践,在 Stripe 也是共通的成功配方 [30:02]。
+
+顺着"人怎么跟智能体协作",Charles 讲了管理方式的深层转变:Alan 的运营团队现在不再是亲自动手干活,而是去调教和把关各自的智能体,确保它们做对事——从"自己做"变成"让事情发生"。他预言公司会变得更扁平、知识传播更顺畅,这甚至是对法国管理学家 Henri Fayol"充分授权给执行者"思想的一次翻新 [29:31]。
+
+更宏观地看,Charles 把 AI 带来的生产力爆发摊开来讲:每个全职员工能创造的价值,用 AI 智能体比用传统软件高得多——这就是那条人均收入曲线在 2022 年拐向指数级的根本原因 [23:06]。他引用凯恩斯 1930 年的预言:百年后人类每周只工作 15 小时。Charles 说,如果只维持 1930 年的生活水平,现在真做得到;但生产力的巨大增益会以四种方式重新分配——降成本(短期)、扩规模(比如 Alan 进更多国家)、提质量(医生能多看病人几眼)、以及把红利还给员工 [23:34]。
+
+聊到法国的 AI 成熟度,Charles 的判断是:法国已经意识到了 AI 的重要性,但受制于数字化和云化起步晚,转型还要时间。更深层的心态差距在于——美国和中国的默认反应是"先冲、再搞清好坏",而法国和欧洲的习惯是"新技术先让人害怕,先监管起来再说" [26:02]。他不是主张不要监管,而是在提醒:心态如果慢半拍,机会就没了。
+
+> 【背景】对话中多次提到「IA」,这是法语 Intelligence Artificielle 的缩写,等同于英文的 AI;「Alanners」指 Alan 的员工;转写稿中 Domo 实指前文提到的医疗助手 Mo;「caduc」是法语词,意为"失效的、过时的"。
+
+收尾时,主持人请 Charles 给下一代创业者写几句忠告。他的核心词是"野心"和"紧迫感":欧洲太久太自满,这种自满已经让一些东西在衰退。他引用法国诗人 Paul Valéry 的话,提醒法国和欧洲文明是"可能消亡"的,而给文明注入力量的办法就是创业精神——质疑既定标准、做有野心的大事。他说现在有了 AI,等于重新拿到了一点命运的主动权 [31:22]。
+
+## 本集带走
+
+最后收个尾,这一集值得带走的是三层东西。第一层是方法论:想让 AI 真正在公司里发挥威力,光买工具不够,得先有"彻底透明 + 一切写下来"这套基建——它让 AI 几秒钟就能调出公司所有历史决策的来龙去脉,也让旧流程一旦失去依据就能被干脆废掉,而不是烂在"一直就这么干"的惯性里。第二层是证据:Alan 的全职员工人均收入曲线在 2022 年从线性拐向指数级,他们的医疗智能体让 80% 的用户宁可找 AI 也不愿等半小时找真人医生、95% 的回复被医生评为好或优秀——这些都是 AI 重构生产力可以落地的硬数据。第三层是大判断:AI 是欧洲拿回经济和技术主权的窗口,但主权不是靠底层几家模型公司撑起来的,得靠应用层的每一家公司真用起来、转型起来,创造出足够的需求反哺整条产业链;心态上得学美国和中国的"先冲",别总卡在"先怕、先管"上。Charles 最后那句话最扎心:欧洲的创业者得有野心和紧迫感,因为文明真的可能衰退,而创业精神是给它续命的办法。",
+  "quotes": [
+    {"en": "in fact, we see it in a very macro way with Alan, but each person is able to create a lot more value with IA agents than they were able to create value with the classic software.", "zh": "事实上,我们在 Alan 以非常宏观的方式看到了这一点,但每个人都能用 AI 智能体创造比用经典软件创造价值多得多的价值。", "timestamp": "23:06", "speaker": "Charles"},
+    {"en": "80% of people prefer to use our IA than to wait half an hour to talk to a doctor.", "zh": "80% 的人更喜欢使用我们的 AI,而不是等半个小时与医生交谈。", "timestamp": "18:21", "speaker": "Charles"},
+    {"en": "Then, 95% of the responses given by this IA agent are noted as good or excellent by doctors who review the conversations.", "zh": "然后,这个 AI 智能体给出的 95% 的回复被审查对话的医生评为良好或优秀。", "timestamp": "18:35", "speaker": "Charles"},
+    {"en": "we have a difficulty in France, which is that we were late on the digitalization, on the cloudification of our economy.", "zh": "我们在法国有一个困难,那就是我们在经济的数字化、云化方面起步晚。", "timestamp": "25:17", "speaker": "Charles"},
+    {"en": "we will try to regulate it first, before completely understanding how it is going to work.", "zh": "我们将首先尝试监管它,在完全理解它是如何运作之前。", "timestamp": "26:05", "speaker": "Charles"},
+    {"en": "What we said in mid-2022 is that we were completely indebted to a single American company, which was OpenAI, because we used GPT-3 very strongly at the time.", "zh": "我们在 2022 年中说的是,我们当时完全欠着一家美国公司的债,那就是 OpenAI,因为我们当时非常大量地使用 GPT-3。", "timestamp": "20:16", "speaker": "Charles"},
+    {"en": "If we don't do it at all at the application level or above, we're just going to have actors who are trying to get involved in terms of models, in terms of computing, who are going to go bankrupt and, in the end, who won't be able to make their investments.", "zh": "如果我们在应用层或之上根本不做这件事,我们将只有一些试图在模型层面、在计算层面参与进来的参与者,他们将破产,而且最终,他们将无法进行他们的投资。", "timestamp": "21:53", "speaker": "Charles"},
+    {"en": "We create a radical transparency.", "zh": "我们创造了一种彻底的透明度。", "timestamp": "27:01", "speaker": "Charles"},
+    {"en": "I think we have been in Europe for too long, a little too complacent.", "zh": "我认为我们在欧洲待了太长时间,有点太自满了。", "timestamp": "31:01", "speaker": "Charles"},
+    {"en": "The fact that the French and European civilisation can die, as Paul Valéry said.", "zh": "正如 Paul Valéry 所说,法国和欧洲文明可能会消亡这一事实。", "timestamp": "31:22", "speaker": "Charles"},
+    {"en": "In my opinion, you have to go early, even if it's to get stuck.", "zh": "在我看来,你必须早点去,即使是碰壁。", "timestamp": "13:13", "speaker": "Charles"},
+    {"en": "Everyone told us it was too early to go internationally in 2020.", "zh": "在 2020 年,大家都告诉我们在国际化方面为时过早。", "timestamp": "13:41", "speaker": "Charles"},
+    {"en": "In fact, they will not only give no contract to Alan, but also to all the companies in the technology sector, because they will say to themselves, well, startups, we know, it doesn't work, it doesn't deliver.", "zh": "实际上,他们不仅不会给 Alan 合同,而且也不会给技术行业的所有公司,因为他们会对自己说,好吧,初创公司,我们知道,它行不通,它不交付。", "timestamp": "09:05", "speaker": "Charles"},
+    {"en": "since the first day, since the beginning of 2016. we had the intuition that what would be important is to have the context that is available to everyone.", "zh": "从第一天起,也就是从 2016 年初开始,我们直觉地认为,重要的是要有对每个人可用的上下文。", "timestamp": "26:37", "speaker": "Charles"},
+    {"en": "And so what we're going to see with IAIN is that we're going to have people who will have a lot more autonomy, and that involves a lot of things in terms of education and how we should train our young people.", "zh": "所以我们将通过 AI 看到的是,我们将拥有更多自主权的人,这涉及到教育和我们应该如何培训年轻人等很多事情。", "timestamp": "29:48", "speaker": "Charles"}
+  ]
+}
+```

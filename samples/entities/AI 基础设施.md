@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 基础设施 (infrastructure)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI 基础设施">AI</div><div class="pi"><h1 class="pt">AI 基础设施 (infrastructure)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>62</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI 基础设施">AI</div><div class="pi"><h1 class="pt">AI 基础设施 (infrastructure)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>63</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,7 +15,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*62 条,均已过机器闸门*
+*63 条,均已过机器闸门*
 
 ![[2025-11-16-lennys-the-godmother-of-ai#^q1]]
 
@@ -58,6 +58,8 @@ unlisted: true
 ![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q7]]
 
 ![[2026-05-31-lennys-a-rational-conversation-on-where#^q1]]
+
+![[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j#^q6]]
 
 ![[2026-06-14-lennys-the-common-pattern-behind-successful#^q6]]
 
@@ -153,7 +155,7 @@ unlisted: true
 
 [[Jensen Wong]] · [[Mike Allen]] · [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[Microsoft]] · [[开放模型]] · [[封闭模型]] · [[沙箱]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Jensen Wong":1,"Mike Allen":1,"NVIDIA":7,"OpenAI":23,"Anthropic":28,"Microsoft":6,"开放模型":1,"封闭模型":1,"沙箱":9,"智能体":46}</script>
+<script type="application/json" class="pd-epn">{"Jensen Wong":1,"Mike Allen":1,"NVIDIA":7,"OpenAI":24,"Anthropic":28,"Microsoft":6,"开放模型":1,"封闭模型":1,"沙箱":9,"智能体":48}</script>
 
 <script>
 (function(){

@@ -35,7 +35,7 @@ unlisted: true
 
 [[Lenny]] · [[Cursor]] · [[OpenAI]] · [[Anthropic]] · [[Google]] · [[智能体]] · [[Meta]] · [[Zevi Arnovitz]] · [[Qasar Younis]] · [[Amol Avasare]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Cursor":4,"OpenAI":23,"Anthropic":28,"Google":10,"智能体":46,"Meta":9,"Zevi Arnovitz":1,"Qasar Younis":1,"Amol Avasare":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"Cursor":4,"OpenAI":24,"Anthropic":28,"Google":10,"智能体":48,"Meta":9,"Zevi Arnovitz":1,"Qasar Younis":1,"Amol Avasare":1}</script>
 
 <script>
 (function(){

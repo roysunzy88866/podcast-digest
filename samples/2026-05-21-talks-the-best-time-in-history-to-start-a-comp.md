@@ -89,8 +89,8 @@ tags:
 **顺着「创业与行业」挖下去**
 
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌]] —— 同公司:Replit、OpenAI、Stripe · 同概念:智能体 (agent)
-- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]] —— 同概念:护城河 (moat)、智能体 (agent)
-- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]] —— 同公司:OpenAI · 同概念:智能体 (agent)
+- [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|用 AI 替你打理钱:Clio 的极简金融建议与平权野心]] —— 同公司:Stripe · 同概念:智能体 (agent)、LLM
+- [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等]] —— 同公司:Stripe、OpenAI · 同概念:智能体 (agent)
 
 </div>
 <div class="pd-ex">
