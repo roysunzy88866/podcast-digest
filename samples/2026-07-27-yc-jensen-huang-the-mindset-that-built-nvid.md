@@ -129,8 +129,8 @@ AI 到底消灭工作还是创造工作?看积压的雄心就知道了。话题�
 **顺着「智能体」挖下去**
 
 - [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆]] —— 同公司:Tesla、Waymo · 同概念:智能体 (agents)、物理 AI (physical AI)
+- [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]] —— 同公司:NVIDIA · 同概念:智能体 (agents)
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]] —— 同概念:Kubernetes
-- [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构]] —— 同概念:强化学习 (reinforcement learning)
 
 </div>
 <div class="pd-ex">

@@ -35,7 +35,7 @@ unlisted: true
 
 [[Lenny]] · [[Matt MacInnis]] · [[Max Schoening]] · [[Amar]] · [[GitHub]] · [[Rippling]] · [[Heroku]] · [[Apple]] · [[Anthropic]] · [[刻意人手不足]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Matt MacInnis":1,"Max Schoening":1,"Amar":1,"GitHub":3,"Rippling":1,"Heroku":1,"Apple":3,"Anthropic":26,"刻意人手不足":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"Matt MacInnis":1,"Max Schoening":1,"Amar":1,"GitHub":4,"Rippling":1,"Heroku":1,"Apple":4,"Anthropic":28,"刻意人手不足":1}</script>
 
 <script>
 (function(){

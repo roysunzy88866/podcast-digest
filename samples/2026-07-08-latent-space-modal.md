@@ -90,9 +90,9 @@ tags:
 
 **顺着「智能体」挖下去**
 
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同公司:Anthropic · 同概念:智能体 (agent)、沙箱 (sandbox)
 - [[2026-05-21-latent-space-daytona|Daytona:为智能体造一台像笔记本一样的计算机]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
 - [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
-- [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|别再微管理 Claude:Claude Code 造物主的智能体实战心法]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
 
 </div>
 <div class="pd-ex">

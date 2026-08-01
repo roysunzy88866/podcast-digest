@@ -105,9 +105,9 @@ tags:
 
 **换个口味**
 
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同公司:GitHub、Slack · 同概念:智能体 (agent)
 - [[2026-06-03-latent-space-satya-2026|Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河]] —— 同公司:GitHub · 同概念:智能体 (agent)
 - [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]] —— 同嘉宾:Akash · 同概念:智能体 (agent)
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]] —— 同公司:Slack · 同概念:智能体 (agent)
 
 </div>
 </div>

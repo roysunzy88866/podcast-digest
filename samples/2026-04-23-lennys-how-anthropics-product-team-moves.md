@@ -95,9 +95,9 @@ tags:
 
 **换个口味**
 
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同公司:Anthropic、Slack · 同概念:Claude Code、智能体 (agent)、系统提示词 (system prompt)
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]] —— 同公司:Anthropic · 同概念:Claude Code、Co-work、智能体 (agent)
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同公司:Anthropic · 同概念:Claude Code、智能体 (agent)
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]] —— 同概念:Claude Code、智能体 (agent)
 
 </div>
 </div>

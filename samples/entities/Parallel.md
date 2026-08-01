@@ -27,7 +27,7 @@ unlisted: true
 
 [[Ivan Burazin]] · [[Condi Rice]] · [[Daytona]] · [[Jensen Huang]] · [[Cognition]] · [[NVIDIA]] · [[Neon]] · [[GPU]] · [[智能体]] · [[深度学习]]
 
-<script type="application/json" class="pd-epn">{"Ivan Burazin":1,"Condi Rice":1,"Daytona":1,"Jensen Huang":2,"Cognition":3,"NVIDIA":6,"Neon":2,"GPU":2,"智能体":44,"深度学习":3}</script>
+<script type="application/json" class="pd-epn">{"Ivan Burazin":1,"Condi Rice":1,"Daytona":1,"Jensen Huang":2,"Cognition":3,"NVIDIA":7,"Neon":2,"GPU":2,"智能体":46,"深度学习":3}</script>
 
 <script>
 (function(){

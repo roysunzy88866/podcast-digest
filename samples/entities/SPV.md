@@ -25,7 +25,7 @@ unlisted: true
 
 [[Ranjan Roy]] · [[Alex]] · [[Google]] · [[OpenAI]] · [[Anthropic]] · [[SpaceX]] · [[Tesla]] · [[AGI]] · [[次级数据中心危机]] · [[资本支出]]
 
-<script type="application/json" class="pd-epn">{"Ranjan Roy":1,"Alex":1,"Google":9,"OpenAI":22,"Anthropic":26,"SpaceX":2,"Tesla":5,"AGI":6,"次级数据中心危机":1,"资本支出":1}</script>
+<script type="application/json" class="pd-epn">{"Ranjan Roy":1,"Alex":1,"Google":10,"OpenAI":23,"Anthropic":28,"SpaceX":2,"Tesla":5,"AGI":6,"次级数据中心危机":1,"资本支出":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,28 @@
+{
+  "id": "2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/uU5Gv2h8-9g.m4a",
+  "duration_sec": 3075.021,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 671,
+  "asr": true,
+  "title_en": "Claude Fable, Claude Tag, and Anthropic's Culture — Cat Wu & Thariq Shihipar ft Simon Willison",
+  "podcast": "精选演讲",
+  "date": "2026-07-15",
+  "speaker_map": {
+    "SPEAKER_00": "Simon Willison",
+    "SPEAKER_02": "Cat Wu",
+    "SPEAKER_04": "Thariq Shihipar"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Cat Wu"
+  ],
+  "host": "Simon Willison",
+  "cohosts": [
+    "Thariq Shihipar"
+  ],
+  "title_zh": "把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude",
+  "guest_name": "",
+  "guest_title": "",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=无;title_match=none"
+}

@@ -99,9 +99,9 @@ tags:
 
 **顺着「智能体」挖下去**
 
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同概念:Claude Code、提示词注入 (prompt injection)、智能体 (agent)、Slack
 - [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]] —— 同概念:OpenClaw、提示词注入 (prompt injection)、智能体 (agent)
 - [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力]] —— 同概念:智能体 (agent)、浏览器使用 (browser use)、系统提示词 (soul)
-- [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]] —— 同概念:Claude Code、OpenClaw、智能体 (agent)
 
 </div>
 <div class="pd-ex">

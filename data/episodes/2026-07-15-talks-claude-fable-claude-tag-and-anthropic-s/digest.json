@@ -1,0 +1,117 @@
+{
+  "title_zh": "把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude",
+  "tldr": "深入 Anthropic 内部,看 Claude Code 团队如何用自家智能体造产品,从重塑代码审查到精简系统提示词。",
+  "digest_md": "把 Claude Code 系统提示词删掉八成,反而是让模型表现更好了——说这话的人是 Thariq 和 Kat,他们在 Anthropic 负责 Claude Code 产品,团队内部的智能体目前靠自己处理了超过一半的 PR。\n\n这一集的围炉谈话里,他们带着观众完整回顾了 Claude Code 诞生一年半以来的真实工作流演变,聊了四件事:日常工作怎么从盯权限提示变成管全局;上周刚发布的 ClaudeTag 如何把智能体协作塞进 Slack 让团队一起用;Anthropic 怎么用 Claude 自己做代码审查、还顺手把最前沿模型的系统提示词删了一大半;最后探讨了在这一波浪潮里工程师怎么找定位,以及他们拿 Claude 做的出圈趣事。结尾还留了点时间回答了现场观众关于评估工具和记忆机制的提问。\n\n## 真用起来才知道:从死盯权限,到追求更高目标\n\nClaude Code 是去年二月发布的,当时它只是模型发布时的一个附加功能。Thariq 回忆说,刚开始那会儿,用智能体干活其实挺累的:你给它一个任务,必须盯着它的一举一动,仔细阅读每一个权限提示,还得频繁地纠正它。现在,随着新一代模型能力提升,人终于可以退后一步了。大家把繁琐的实现细节交给智能体,腾出时间去思考真正有创造性的工作 [01:22 Thariq]。\n\nKat 的感受更直接,他说之前试用 Opus 4 模型时,意识到自己得去 Anthropic 工作了。而面对全新的 Fable 模型,他觉得不仅是工具变快了,更是逼着人去做以前做不到的高质量工作。他经常拿自己剪视频的例子说事:以前几天才能搞定的活,现在几个小时就得达到品牌团队的苛刻标准,因为智能体的输出质量极高,人对自己的期望也跟着水涨船高 [02:21 Kat]。主持人也深有同感:软件工程变难了,因为能干的事更多了,野心也更大了 [03:21 主持人]。\n\n## 那些被推翻的工程老规矩:从半年写规范到干脆重写\n\n工具变了,传统软件工程的方法论自然也得跟着变。Thariq 观察到一个巨大的反转:放在两年前,产品经理得花半年时间写详尽的 PRD(产品需求文档)和规范;但现在,从有想法到做出东西可能只要一周。这意味着工程师不能再光顾着埋头执行了,得把精力往前提,培养商业判断和产品品味,想清楚到底什么才值得做 [03:49 Thariq]。\n\n更要命的是,在编程界有一本很经典叫《人月神话》的书,里面有条老经验叫「永远不要重写」。但 Kat 觉得,现在重写反而成了好事。代码库本身就是唯一的规格说明书,如果你有个好的测试套件,完全可以一口气让智能体跑出三个不同的实现版本,看哪个最准就留哪个。他还透露,内部已经用 Bun 和 Rust 把代码重写了,效果很好 [05:09 Kat]。\n\n## 团队协作的正确姿势:进 Slack 当队友\n\n明白了工具怎么改变个人习惯,接下来的问题是:怎么在团队里用?Kat 解释了刚推出一周的 ClaudeTag(它扎根在团队协作工具里)。跟单干的 Claude Code 不一样,ClaudeTag 默认就是多人参与的。把它加进 Slack 频道后,它不只是被动等你提问,而是主动出击:你可以让它监控频道里的每一条 bug 报告,自动提 PR 修复,并艾特负责那块代码的工程师,全程不用人手动干预。它还有团队记忆,你只要用自然语言告诉它一次偏好,以后它就都记住了 [06:51 Thariq]。\n\n这套机制带来的数字很惊人:在 Anthropic 内部,这套工具帮产品工程团队处理了高达 65% 的 PR [07:59 Thariq]。对非程序员来说,它也是个神器:营销团队可以直接让它克隆代码库、查功能、甚至做操作录屏 [09:22 Kat]。人在里面就像流水线作业一样顺畅:一个人让 Claude 写初版,让设计调样式,再丢给工程收尾 [10:19 Thariq]。因为大家都在明面上用它,甚至无形中提升了使用水平——谁也不好意思在公开场合给智能体下个极其敷衍的指令 [11:10 Kat]。\n\n## 如何教智能体干活:让大模型给小模型写提示词\n\n既然智能体能包揽这么多活,那最硬核的安全和代码审查问题怎么解决?主持人抛出了一个尖锐问题:到底有没有真人审查每一行进生产的代码?\n\nThariq 的回答很坦诚:核心变更依然有代码所有者严格把关,但对于外层的改动,他们已经逐步让 Claude Code 自己去做代码审查了 [15:46 Thariq]。听起来吓人,但他们花了六个多月,一步步在特定文件类型上建立信任——只要智能体审查能 100% 挡住问题,就不再需要人工插手。要是出了事故,就补上测试集,确保以后不退步 [16:12 Thariq]。\n\n那怎么放心新模型不会搞砸旧模型能搞定的事?靠的是积累了大量内外评估库:把整套测试跑一遍,只要新模型严格优于旧模型,就直接替换 [17:47 Thariq]。除了能力评估,他们还在搞「行为评估」,专治那些让用户抓狂的行为(比如动不动就问「我要继续吗」) [19:32 Thariq]。\n\n但这还不是最反直觉的。因为 Fable 和 Opus 4.8 这类前沿模型变聪明了,Anthropic 干脆把给 Claude Code 的系统提示词删掉了 80% [21:22 主持人]。为什么?因为他们发现以前是在「过度约束」模型。比如以前大家总爱在提示词里塞例子,但前沿模型本身比例子更有创造力,删掉例子反而更好;以前总爱写「不要做这个」,结果跟用户的后续指令冲突,把模型搞糊涂了 [21:35 Thariq]。Thariq 还拿「验证」举了个很生动的例子:以前死板规定「改了前端就必须验证」,但如果是改了个错别字呢?所以现在改成告诉模型「大多数时候你改了用户体验,最好在本地跑一下应用」,让它自己凭判断力决定。这种放手的底气,正是因为前沿模型有了足够的判断力——当然,针对判断力较弱的老模型,他们依然保留着完整的系统提示词 [23:34 Thariq]。\n\n顺着这个话题,Kat 抛出了个很有意思的观察:现在大模型特别擅长写提示词,他自己的很多提示词都是模型写的。Claude 甚至能给一堆子智能体分配非常详尽的提示词来协同干活 [26:19 Kat]。顺着聊下去,他们还提到了如何精简工具(刻意保持工具数量少、功能界限清晰),以及为了支持多人共享身份而引入的凭证注入(代理替换真实令牌,智能体只能用不能看)等工程细节 [28:48 Kat] [37:12 Thariq]。\n\n## 自动模式(让智能体自主连续执行任务并自行判断安全边界)是怎么保平安的\n\n工具链理顺了,下一个绕不开的担忧就是安全。主持人坦言自己经常在 YOLO(无视警告直接跑)模式下用,很内疚又不懂怎么搞。\n\nThariq 解释说,Anthropic 内部几乎全员默认使用自动模式。这个模式不是拍脑袋放权,而是配了成千上万个评估,还专门雇了外部红队做对抗测试,基本上防住了提示词注入(别人在数据里藏指令骗智能体)等主要风险 [31:32 Thariq]。机制上,它在每个动作发生时,用一个分类器实时评判这次操作跟你的指令上下文搭不搭,还跟沙箱(限制程序行动范围的安全环境)无缝配合,判断该不该放行网络请求 [32:46 Kat]。为了让外部信任,他们还预告未来几周会发布相关的评估报告 [32:04 Thariq]。\n\n## 人的价值在哪:去干更有野心的事\n\n安全和流程都靠技术解决了,那人干嘛呢?主持人问出了一个扎心问题:很多工程师面对被模型抢走工作,有很强的失落感。\n\nKat 觉得,失落是真的:如果你还死守着以前的活,确实会很悲伤。解药只有一个:去做更有野心的事 [38:38 Kat]。Thariq 也说,每次他想偷懒,就会被团队提醒:还能不能干快点?还能不能再搞大点?软件工程没变简单,只是以前那些「简单」的部分被吃掉了,留给人的是更大的挑战 [38:19 Thariq]。\n\n从产品经理的角度看,Kat 觉得角色界限彻底模糊了:PM、工程师、设计师的活经常搅在一起,现在团队里的 PM 大多是工程师出身,缺啥补啥。有了点子没人写代码?自己用 Claude 写个原型去说服别人。需要发周报?直接让 Workflows 自动化搞定 [40:00 Kat]。\n\n> 【背景】Workflows 是 Claude Code 体系下的一个功能,官方多将其定位为代码与多智能体编排工具,但在实际使用中被团队频繁用于自动化各种非编码任务。\n\nThariq 还分享了个有意思的细节:团队本来以为大家更喜欢直接在云端跑任务,但没想到「远程控制」(用手机连电脑里的代码)爆火。很多人晚上把电脑插上电源、合上屏幕,然后躺在沙发上用手机指挥电脑里的 Claude 干活 [13:06 Thariq]。\n\n聊到出人意料的「高光时刻」,他们举了两个很接地气的例子。Thariq 给了 Claude 一段演讲的原始音视频和 HTML 幻灯片,它不仅自己写代码完成同步剪辑、动态追踪裁剪,还聪明地发现录像有弹窗干扰,转头去解析 HTML 源码来生成清晰的画面 [41:59 Thariq]。他们还各自用 Claude 做了些荒诞但好玩的项目:Kat 做了个有自己和朋友当角色的 2D 格斗游戏,连出招的判定框(碰撞检测)都能算出来 [46:56 Kat];Thariq 则做了一个攀岩规划应用,能自动查航班、找攀岩路线、筛选离家近的住处 [47:47 Thariq]。\n\n## 观众提问时间\n\n节目接近尾声时,现场观众抛出了两个具体问题。有人问会不会出官方的评估工具,帮大家构建测试数据集。Thariq 坦言工具本身不是核心卡点,难点在于构建高质量评估所需的技能和经验,这是他们打算重点投入并外部分享的方向 [49:40 Thariq]。还有人好奇多人协作时的记忆(持久化信息)怎么设计的。Kat 解释说,目前 ClaudeTag 在每个 Slack 频道里维护一个共享的 Markdown 文件作为记忆,虽然看起来简单,但他们内部一直在做各种更优的记忆机制实验 [50:31 Kat]。\n\n## 本集带走\n\n最后收个尾,这一集值得带走的是这么几个实在的点。首先,写代码不再只是写代码了,变成了做产品决策——从花半年写规范,变成一周内出东西,这意味着人的核心价值得往判断力、产品品味和野心这些方向挪。其次,别死守着以前那些老规矩,比如代码不能重写、提示词必须塞满例子。相反,把系统提示词里那些「不要做什么」删掉,给足上下文,让模型自己去判断,效果反而更好。再者,对智能体不要光停留在提防,真正的杠杆是像 Anthropic 内部那样,通过积累大量评估和测试,把代码审查和自主运行的安全性一步步交出去,让团队成百上千个 PR 自动跑起来。最后,真碰到了失落感,别硬扛,去找个更大更野心的项目干,不管是剪视频还是做个属于自己的格斗游戏,让智能体做那些脏活累活,把人的精力省下来去体验做事情的纯粹快乐。",
+  "quotes": [
+    {
+      "en": "Software engineering is getting harder because the level of ambition of the stuff we can take on has gone up.",
+      "zh": "软件工程变得越来越难,因为我们可以承担的项目的野心水平已经提高了。",
+      "timestamp": "03:21",
+      "speaker": "Simon Willison"
+    },
+    {
+      "en": "In general, we are trying to move to a world where humans don't need to be in the loop.",
+      "zh": "总的来说,我们正试图迈向一个人类不需要参与其中的世界。",
+      "timestamp": "15:46",
+      "speaker": "Cat Wu"
+    },
+    {
+      "en": "But for the main categories of risks that we're concerned about, like prompt injection, data exfiltration, the risks are far lower than the average human reviewer.",
+      "zh": "但对于我们担心的主要风险类别,比如提示词注入、数据窃取,风险远低于人类审核员的平均水平。",
+      "timestamp": "32:33",
+      "speaker": "Cat Wu"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "We actually have a different system prompt for model now because of this very reason.",
+      "zh": "正是由于这个原因,我们现在为模型使用了一个不同的系统提示词。",
+      "timestamp": "25:16",
+      "speaker": "Thariq"
+    },
+    {
+      "en": "I mean, my career peaked when I introduced the Ask User Question tool, I think.",
+      "zh": "我的意思是,我想我的职业生涯在引入 Ask User Question 工具时达到了顶峰。",
+      "timestamp": "28:21",
+      "speaker": "Kat"
+    },
+    {
+      "en": "It's just, like, does all this stuff. It does FFmpeg, it does Remotion, it does...",
+      "zh": "它就是,像是,做了所有这些事情。它能做 FFmpeg,它能做 Remotion,它能做...",
+      "timestamp": "43:32",
+      "speaker": "Thariq"
+    },
+    {
+      "en": "Yeah, I mean, I've posted a lot about cloud video editing.",
+      "zh": "是的,我是说,我发了很多关于云端视频编辑的内容。",
+      "timestamp": "41:59",
+      "speaker": "Thariq"
+    },
+    {
+      "en": "So CloudTag is a cloud that lives in your team's collaboration tools.",
+      "zh": "所以 CloudTag 是一个存在于你团队协作工具中的云。",
+      "timestamp": "06:51",
+      "speaker": "Thariq"
+    },
+    {
+      "en": "The other big difference is that it's proactive instead of reactive.",
+      "zh": "另一个很大的区别是它是主动的而不是被动的。",
+      "timestamp": "07:13",
+      "speaker": "Thariq"
+    },
+    {
+      "en": "Software engineering is getting harder because the level of ambition of the stuff we can take on has gone up.",
+      "zh": "软件工程变得越来越难,因为我们可以承担的项目的野心水平已经提高了。",
+      "timestamp": "03:21",
+      "speaker": "主持人"
+    },
+    {
+      "en": "In general, we are trying to move to a world where humans don't need to be in the loop.",
+      "zh": "总的来说,我们正试图迈向一个人类不需要参与其中的世界。",
+      "timestamp": "15:46",
+      "speaker": "Thariq"
+    },
+    {
+      "en": "But for the main categories of risks that we're concerned about, like prompt injection, data exfiltration, the risks are far lower than the average human reviewer.",
+      "zh": "但对于我们担心的主要风险类别,比如提示词注入、数据窃取,风险远低于人类审核员的平均水平。",
+      "timestamp": "32:33",
+      "speaker": "Thariq"
+    },
+    {
+      "en": "I'd love to hear from you. How has what you do on a day-to-day basis changed in the past year, now that we have these coding agents that actually work for us?",
+      "zh": "我想听听你们的看法。既然我们有这些真正为我们工作的编码智能体了,你们日常工作内容在过去一年里发生了怎样的变化?",
+      "timestamp": "01:14",
+      "speaker": "主持人"
+    },
+    {
+      "en": "I think for me, it's like rewrites are now good.",
+      "zh": "是的,我认为对我来说,现在重写是好事。",
+      "timestamp": "05:09",
+      "speaker": "Kat"
+    },
+    {
+      "en": "The thing that's different about CloudTag is it's multiplayer by default.",
+      "zh": "CloudTag 的不同之处在于它默认是多人参与的。",
+      "timestamp": "06:59",
+      "speaker": "Thariq"
+    },
+    {
+      "en": "Yeah, I think for me, the big thing that I'm trying to push myself is like, oh, we have to do higher quality work than we've ever done before.",
+      "zh": "是的,我想对我来说,我试图推动自己做的主要事情是,哦,我们必须做比以前任何时候都更高质量的工作。",
+      "timestamp": "02:50",
+      "speaker": "Kat"
+    },
+    {
+      "en": "Models a year ago did not have the levels of judgment necessary to decide if they were going to test a change or not.",
+      "zh": "一年前的模型没有做出是否要测试更改的判断所需的水平。",
+      "timestamp": "25:01",
+      "speaker": "主持人"
+    },
+    {
+      "en": "I want it to have better design and UX taste.",
+      "zh": "我希望它有更好的设计和 UX 品味。",
+      "timestamp": "43:49",
+      "speaker": "Thariq"
+    }
+  ]
+}

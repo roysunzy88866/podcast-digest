@@ -93,8 +93,8 @@ Fiona 是一位有 25 年经验的资深工程领导者。在加入 Anthropic �
 **换个口味**
 
 - [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]] —— 同公司:Anthropic · 同概念:Claude Code、Co-Work、智能体 (agent)
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同公司:Anthropic、Slack · 同概念:Claude Code、智能体 (agent)
 - [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]] —— 同公司:Anthropic · 同概念:Claude Code、IC
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同公司:Anthropic · 同概念:Claude Code、智能体 (agent)
 
 </div>
 </div>

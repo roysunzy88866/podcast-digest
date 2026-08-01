@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Wang]] [[Ashwin Srinivas]] [[Kimberley Tan]] [[Jesse Zhang]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]]
+[[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"初创公司":1,"AGI":6,"智能体":44,"沙箱":8,"对齐失败":1,"推理":2,"权力集中":1,"主观能动性":7,"OpenAI":21,"YC":3}</script>
+<script type="application/json" class="pd-epn">{"初创公司":1,"AGI":6,"智能体":46,"沙箱":9,"对齐失败":1,"推理":1,"权力集中":1,"主观能动性":7,"OpenAI":23,"YC":3}</script>
 
 <script>
 (function(){

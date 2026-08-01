@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>26</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>28</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -28,6 +28,7 @@ unlisted: true
 - **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]]**(10:56起):本集把它说成:Replit 对照的顶尖 AI 研究团队之一,指出其研究人员总背着模型必须完美才能发布的预期包袱。
 - **[[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]]**(05:00起):本集在提到哪些顶级 AI 公司使用 WorkOS 时列出了它，并提及最近领导其 Claude 产品设计的设计师 Jenny Wen。
 - **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]]**(02:56起):本集提到它是 Fable 模型的开发商,在订阅中限制了 Fable 的使用,主持人猜测 OpenAI 的定价可能会对其产生压力。
+- **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(00:15起):本集把它说成:Thariq 和 Kat 所在的公司,内部团队重度使用 Claude Code 处理了高达 65% 的 PR
 - **[[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]]**(00:29起):本集提到它是演讲者所代表的 AI 公司,探讨其对异步智能体和 Cloud Managed Agents 平台的看法。
 - **[[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]]**(02:33起):本集把它说成:与 OpenAI 并列的优秀闭源模型提供商,在盈利和业务上都在高速增长,不应被监管阻碍其向大众提供服务。
 - **[[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]]**(05:46起):本集作为前沿实验室的代表，被提及已延长其顶级模型的可用期限以应对开源模型的逼近；同时其围绕 Claude 的产品工具套件被视为构建护城河的关键。
@@ -37,6 +38,7 @@ unlisted: true
 - **[[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the|《当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点》]]**(07:00起):本集提到：作为现有巨头之一被提及（嘉宾还聊到了一部关于 Anthropic CEO Dario 的 AI 微剧）
 - **[[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]]**(01:23起):本集在讨论 Transformer 是否见顶时提到，假设像 OpenAI 和 Anthropic 这样的大厂今天停止训练新模型，现有的静态模型随着现实世界新事件的出现，会变得越来越没用。
 - **[[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]]**(00:07起):本集提到是提供闭源前沿大模型与推理模型的实验室。被视为可能「吞噬一切」的实验室之一，但在特定垂直领域的业务逻辑上没法取代应用层公司。
+- **[[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]]**(03:25起):本集将其作为前沿模型提供商提及，指出其面临中国公司免费模型的压力，但其拥有数据飞轮且总潜在市场极大，并在编程能力上领先于谷歌。
 
 ## ① 提到它的金句
 
@@ -52,7 +54,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*26 集*
+*28 集*
 
 - [[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]] — 作为被讨论公司
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为被讨论公司(提及)
@@ -71,6 +73,7 @@ unlisted: true
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]] — 作为被讨论公司(提及)
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]] — 作为被讨论公司(提及)
 - [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]] — 作为被讨论公司
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为被讨论公司
 - [[2026-07-22-talks-claude-for-long-horizon-tasks-lance-mart|《Claude 异步智能体架构的四块基石》]] — 作为被讨论公司(提及)
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]] — 作为被讨论公司
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]] — 作为被讨论公司(提及)
@@ -80,14 +83,15 @@ unlisted: true
 - [[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the|《当 AI 学会讲故事:微剧爆发与生成式媒体的下一个拐点》]] — 作为被讨论公司(提及)
 - [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]] — 作为被讨论公司
 - [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]] — 作为被讨论公司(提及)
+- [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude]] · [[Claude Code]] · [[Google]] · [[AGI]] · [[Codex]] · [[Slack]] · [[Microsoft]]
+[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude]] · [[Claude Code]] · [[Google]] · [[AGI]] · [[Meta]] · [[Slack]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"智能体":44,"Lenny":32,"OpenAI":21,"Claude":8,"Claude Code":12,"Google":9,"AGI":6,"Codex":11,"Slack":9,"Microsoft":5}</script>
+<script type="application/json" class="pd-epn">{"智能体":46,"OpenAI":23,"Lenny":32,"Claude":9,"Claude Code":13,"Google":10,"AGI":6,"Meta":9,"Slack":10,"Microsoft":6}</script>
 
 <script>
 (function(){

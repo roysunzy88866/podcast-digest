@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Wang]] [[Ashwin Srinivas]] [[Kimberley Tan]] [[Jesse Zhang]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]]
+[[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anthropic":26,"OpenAI":22,"任务视界":1,"Managed Agents":2,"测试框架":4,"沙箱":8,"验证器":1,"做梦":1,"组织级驾驭系统":1,"带内记忆":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":28,"OpenAI":23,"任务视界":1,"Managed Agents":2,"测试框架":4,"沙箱":9,"验证器":1,"做梦":1,"组织级驾驭系统":1,"带内记忆":1}</script>
 
 <script>
 (function(){

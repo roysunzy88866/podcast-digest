@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Wang]] [[Ashwin Srinivas]] [[Kimberley Tan]] [[Jesse Zhang]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]] [[Sanjit Biswas]]
+[[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Scale":1,"Meta":8,"MuseSpark":1,"开源模型":2,"智能体":44,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":7,"Spark API":1}</script>
+<script type="application/json" class="pd-epn">{"Scale":1,"Meta":9,"MuseSpark":1,"开源模型":3,"智能体":46,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":7,"Spark API":1}</script>
 
 <script>
 (function(){

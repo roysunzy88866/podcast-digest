@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[Zico Kolter]] · [[Matei Zaharia]] · [[Matt Fredrikson]] · [[Reynold Xin]] · [[Gray Swan]] · [[Databricks]] · [[Anthropic]] · [[MosaicML]] · [[红队测试]]
 
-<script type="application/json" class="pd-epn">{"智能体":44,"Zico Kolter":1,"Matei Zaharia":1,"Matt Fredrikson":1,"Reynold Xin":1,"Gray Swan":1,"Databricks":1,"Anthropic":25,"MosaicML":1,"红队测试":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":46,"Zico Kolter":1,"Matei Zaharia":1,"Matt Fredrikson":1,"Reynold Xin":1,"Gray Swan":1,"Databricks":1,"Anthropic":28,"MosaicML":1,"红队测试":2}</script>
 
 <script>
 (function(){

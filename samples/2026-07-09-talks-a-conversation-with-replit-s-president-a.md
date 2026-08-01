@@ -107,7 +107,7 @@ AI 时代的收钱逻辑 <button class="pd-ts" data-t="24:29" data-who="Michele"
 
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]] —— 同公司:Replit · 同概念:智能体 (agent)
 - [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力]] —— 同公司:Anthropic · 同概念:智能体 (agent)、提示词 (prompt)
-- [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|OpenAI 开发者日：从结对编程到指挥智能体大军]] —— 同公司:OpenAI · 同概念:智能体 (agent)
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同公司:Anthropic · 同概念:智能体 (agent)、提示词 (prompt)
 
 </div>
 <div class="pd-ex">

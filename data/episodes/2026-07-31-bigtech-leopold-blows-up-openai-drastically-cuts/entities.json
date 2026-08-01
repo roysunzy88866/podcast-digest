@@ -1,0 +1,1497 @@
+{
+  "episode_id": "2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts",
+  "podcast": "Big Technology Podcast",
+  "date": "2026-07-31",
+  "tags": [
+    "AI 算力",
+    "对冲基金",
+    "大型科技公司财报",
+    "AI 价格战",
+    "有效利他主义"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "reid-alberghati",
+      "type": "person",
+      "role": "host",
+      "name": "Reid Alberghati",
+      "file": "Reid Alberghati",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            14.476,
+            17.957
+          ],
+          "quote": "That's coming up with Reid Alberghati from Semaphore right after this.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 30,
+          "t": [
+            139.703,
+            143.846
+          ],
+          "quote": "So joining us today is Reid Alberghati, returning champion from Semaphore.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 835,
+          "t": [
+            3831.218,
+            3833.68
+          ],
+          "quote": "Reid Alberghati is the technology editor there.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集将其描述为前沿模型提供商，本周宣布将最新模型价格大幅降低高达 80%，并与微软达成了 2500 亿美元的算力采购承诺。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            5.693,
+            10.154
+          ],
+          "quote": "OpenAI has cut prices on its latest models by as much as 80%.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 26,
+          "t": [
+            122.583,
+            126.646
+          ],
+          "quote": "We'll also talk about OpenAI cutting prices on its latest models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1151.519,
+            1157.564
+          ],
+          "quote": "OpenAI cuts prices for two of its GPT-5.6 AI models as companies grow sensitive to costs.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1158.665,
+            1169.874
+          ],
+          "quote": "OpenAI on Thursday announced it is slashing the price of two of its latest artificial intelligence models, GPT-5.6 Terra and GPT-5.6 Luna, roughly three weeks after their public release.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1194.559,
+            1199.302
+          ],
+          "quote": "Now OpenAI says they've found some efficiencies in these models, and I don't doubt it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1332.723,
+            1345.149
+          ],
+          "quote": "they're going to use Anthropic and OpenAI models, which, by the way, these companies offer a whole suite of models from really cheap, efficient ones to the frontier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1345.71,
+            1353.573
+          ],
+          "quote": "And those models run more efficiently and better on the harnesses, like essentially the software that OpenAI and Anthropic build.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1496.757,
+            1505.24
+          ],
+          "quote": "But a lot of the push is coming from OpenAI and Anthropic, who believe that they will compete on compute.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1505.58,
+            1510.041
+          ],
+          "quote": "And looking at it, if the prices come down for OpenAI, the prices come down for Anthropic.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 374,
+          "t": [
+            1885.578,
+            1896.749
+          ],
+          "quote": "So you had a story this week about Safe Superintelligence, which is run by Ilya Sutskever, the former chief scientist of OpenAI, where kind of out of nowhere, Ilya's like, all right, we have a breakthrough.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2290.069,
+            2295.411
+          ],
+          "quote": "He's actually been in Washington, D.C., talking to government officials about what's to come for OpenAI.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 827,
+          "t": [
+            3791.916,
+            3794.517
+          ],
+          "quote": "Maybe you end up getting locked into OpenAI or something, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集将其描述为稳赚不赔的芯片制造商，不仅无论模型怎么降价都能获利，还向尚未有产品的 Safe Superintelligence 投资了 50 亿美元。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 242,
+          "t": [
+            1306.232,
+            1312.797
+          ],
+          "quote": "Of course, those Chinese models still have to run on really expensive GPUs, so it doesn't change the game for NVIDIA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1529.753,
+            1535.377
+          ],
+          "quote": "Like, you know, I think NVIDIA is just sitting pretty, like they're just selling this stuff no matter what happens, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1904.075,
+            1911.059
+          ],
+          "quote": "And NVIDIA decided to make a big strategic investment in them, $5 billion for a company that doesn't have a product.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 387,
+          "t": [
+            1939.056,
+            1944.62
+          ],
+          "quote": "It's like, well, if you're a company, you're, you know, if you're NVIDIA, you're essentially buying a customer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1985.735,
+            1990.557
+          ],
+          "quote": "So NVIDIA sees that and they go, we want to bet on that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 404,
+          "t": [
+            2012.006,
+            2016.327
+          ],
+          "quote": "So if you're NVIDIA, you're like, there's not actually like that much risk here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2043.773,
+            2046.794
+          ],
+          "quote": "So you're basically, if you're NVIDIA, you're like, well...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2077.548,
+            2079.329
+          ],
+          "quote": "And in fact, that is what NVIDIA is doing, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2120.879,
+            2128.664
+          ],
+          "quote": "It's just like, it's more like, well, this thing could all be a bubble and then NVIDIA is left holding the bag or, you know, something like that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2257.094,
+            2260.016
+          ],
+          "quote": "It'd be a bad thing if you're NVIDIA.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": true,
+      "how_described": "本集说它兜售了一个完美的“效率故事”，承诺不会出现负自由现金流，并创下了美国历史上最大的单日市值增长（暴涨 4500 亿美元）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 279,
+          "t": [
+            1456.424,
+            1465.43
+          ],
+          "quote": "Microsoft CEO Satya Nadella repeatedly highlighted his company's cost-effective models during its quarterly earnings call with investors on Wednesday.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1511.582,
+            1513.042
+          ],
+          "quote": "The prices come down for Microsoft.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 530,
+          "t": [
+            2499.921,
+            2504.542
+          ],
+          "quote": "Let's go to break and come back and talk a little bit about why Microsoft might've had its best week ever.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2664.217,
+            2665.517
+          ],
+          "quote": "Let's talk about Microsoft.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 587,
+          "t": [
+            2695.743,
+            2704.67
+          ],
+          "quote": "The core parts of this earnings report was that Azure and Microsoft's cloud grew 43% in the quarter they reported on.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2711.275,
+            2726.46
+          ],
+          "quote": "go negative free cash flow next year they also have a lot less debt than their peers uh reid let me just give you my big question on microsoft i don't fully understand what they're doing i'll admit it their approach to ai has been kind of weird back back open ai criticize open ai",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 590,
+          "t": [
+            2727.42,
+            2747.539
+          ],
+          "quote": "uh be all about like you know sort of your solution to the problems of the foundational labs um even as open ai has made this 250 billion dollar commitment to buy compute from them which i think is largely what's propelling their their cloud growth and the market loved it so what helped me understand what's going on with microsoft",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 594,
+          "t": [
+            2756.042,
+            2757.302
+          ],
+          "quote": "And Microsoft's been selling that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 597,
+          "t": [
+            2760.483,
+            2765.705
+          ],
+          "quote": "I went down to Microsoft AI not too long ago and talked to him about their models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 604,
+          "t": [
+            2811.506,
+            2816.929
+          ],
+          "quote": "And so if Microsoft is positioning themselves to be the answer to that question, like they're going to do fine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2843.974,
+            2850.402
+          ],
+          "quote": "Yeah, the market has really been I mean, Microsoft was like the worst performing hyperscaler or big tech company this year.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 616,
+          "t": [
+            2856.785,
+            2869.816
+          ],
+          "quote": "It's like if you're against Microsoft, you're just like the open AI bet is going to spiral out of control while that technology disrupts your enterprise business.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 679,
+          "t": [
+            3147.119,
+            3171.174
+          ],
+          "quote": "Last week, they grew cloud revenue by 82%, but said they were going to spend a little bit more, to which I was like, if you're growing your cloud revenue at 82%, and you're saying the spending is fundamental to growing that cloud revenue, and you say you're going to spend more, and you now have not only search, but a chance to be in league with Amazon and Microsoft on...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 681,
+          "t": [
+            3192.925,
+            3200.116
+          ],
+          "quote": "I think the market saw Microsoft, they saw Amazon, and they just sort of put a heuristic on it.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "safe-superintelligence",
+      "type": "company",
+      "role": "company",
+      "name": "Safe Superintelligence",
+      "file": "Safe Superintelligence",
+      "primary": true,
+      "how_described": "本集提到这家由 Ilya Sutskever 创立、连产品都还没有的公司，宣称取得了突破，并获得了 NVIDIA 50 亿美元的战略投资。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 374,
+          "t": [
+            1885.578,
+            1896.749
+          ],
+          "quote": "So you had a story this week about Safe Superintelligence, which is run by Ilya Sutskever, the former chief scientist of OpenAI, where kind of out of nowhere, Ilya's like, all right, we have a breakthrough.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 401,
+          "t": [
+            1995.9,
+            1998.021
+          ],
+          "quote": "safe superintelligence like doesn't get it done.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "situational-awareness",
+      "type": "company",
+      "role": "company",
+      "name": "Situational Awareness",
+      "file": "Situational Awareness",
+      "primary": true,
+      "how_described": "本集讨论的这只由前 OpenAI 员工 Leopold 创立的对冲基金，因高杠杆且未对冲地纯押注 AI 算力产业，扛不住短期价格波动而爆仓清仓。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.031,
+            5.273
+          ],
+          "quote": "Leopold Aschenbrenner's Situational Awareness Hedge Fund blows up and sells off its stock portfolio.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 24,
+          "t": [
+            110.357,
+            118.741
+          ],
+          "quote": "We're going to talk all about the implosion, but it's still kicking, of Leopold Aschenbrenner's situational awareness hedge fund.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 35,
+          "t": [
+            153.413,
+            182.892
+          ],
+          "quote": "it is what are the kpis how do i win how do i stay on top i think uh just have a good time do what you do there's no worries uh on this one so uh reid i don't know if you've been following the blow up of situational awareness which has been this this headphone this headphone this head hedge fund from leopold aschenbrenner who's a former open ai employee a former ftx employee it was sort of the highest performing hedge fund in the world i think i mean it had",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 116,
+          "t": [
+            649.676,
+            666.406
+          ],
+          "quote": "situational awareness was or is tbd uh like the most pure bet on ai taking off and taking off very soon and effectively like if you could give a one sentence description of like what he's doing it would basically or",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "coreweave",
+      "type": "company",
+      "role": "company",
+      "name": "CoreWeave",
+      "file": "CoreWeave",
+      "primary": true,
+      "how_described": "本集将其作为新云（neocloud，提供云端算力租赁的平台）的典型代表提及，它既是 Situational Awareness 基金的多头持仓，也是在数据中心之上提供服务的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            688.597,
+            699.6
+          ],
+          "quote": "So its biggest holdings were Nebius Group, a neocloud, SanDisk, and Micron, which is like the RAM and the memory, and CoreWeave, another neocloud.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1266.817,
+            1274.002
+          ],
+          "quote": "It's pretty good now, but that's why like these companies like CoreWeave, they want to offer services on top of the data center, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "本集指出其因 AI 成本飙升股价下跌 10%，并讨论了它试图将多余算力租出去的算力战略，但面临核心社交媒体业务被颠覆的极大风险。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 203,
+          "t": [
+            1060.99,
+            1068.794
+          ],
+          "quote": "So when you see people like make these bets on compute like Meta or SpaceX AI and they're off on the timing, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2002.382,
+            2011.646
+          ],
+          "quote": "So they're gonna be able, they'll either sell it or they'll rent out their big computer to other people like SpaceX AI did or Meta did.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 722,
+          "t": [
+            3362.257,
+            3366.56
+          ],
+          "quote": "Meta drops 10% as the AI costs increase.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 727,
+          "t": [
+            3377.169,
+            3378.87
+          ],
+          "quote": "No, you haven't predicted me on meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 728,
+          "t": [
+            3379.01,
+            3379.711
+          ],
+          "quote": "I don't get the meta thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 729,
+          "t": [
+            3379.731,
+            3380.431
+          ],
+          "quote": "I haven't figured out meta.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 732,
+          "t": [
+            3383.113,
+            3384.174
+          ],
+          "quote": "I haven't figured out the meta thing.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 734,
+          "t": [
+            3387.377,
+            3389.338
+          ],
+          "quote": "See, meta is the thing where-",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 736,
+          "t": [
+            3397.521,
+            3403.403
+          ],
+          "quote": "To me, meta hasn't really shown a way through.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 743,
+          "t": [
+            3433.171,
+            3440.453
+          ],
+          "quote": "Like, I just don't, to me, I, the meta one is the, is the big, that's like the biggest question mark of all the ones that we've talked about.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 748,
+          "t": [
+            3463.178,
+            3465.981
+          ],
+          "quote": "But with Meta, I don't know if this is right.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 755,
+          "t": [
+            3516.051,
+            3524.454
+          ],
+          "quote": "I'm just saying that like potentially Meta is waiting for that opening and then is just going to go hard on that route.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 759,
+          "t": [
+            3545.513,
+            3547.513
+          ],
+          "quote": "Well, the meta business will be ads and referrals.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "type": "company",
+      "role": "company",
+      "name": "Apple",
+      "file": "Apple",
+      "primary": true,
+      "how_described": "本集说它虽然交出了亮眼财报，但受困于内存短缺引发的供应链限制，且在 AI 时代面临手机重要性减弱、围墙花园失效的长期危机。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 786,
+          "t": [
+            3625.61,
+            3627.231
+          ],
+          "quote": "Let's do Apple.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 787,
+          "t": [
+            3627.611,
+            3632.274
+          ],
+          "quote": "So Apple, like you would imagine, just delivers like crazy earnings.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 789,
+          "t": [
+            3633.464,
+            3641.292
+          ],
+          "quote": "The overhang is the bottleneck, bros. Basically, Apple saying, look, we are supply constrained.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 795,
+          "t": [
+            3661.669,
+            3666.952
+          ],
+          "quote": "And so Apple, you know, fessed up to the market about that this week and, and they're getting hit.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 813,
+          "t": [
+            3729.769,
+            3731.531
+          ],
+          "quote": "I think Apple's just in a tough position.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 815,
+          "t": [
+            3735.497,
+            3748.426
+          ],
+          "quote": "believer in the long term in apple long term because i you know as much as they make great hardware they make great products i buy them i use them like all this stuff i just think that",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 819,
+          "t": [
+            3764.265,
+            3766.807
+          ],
+          "quote": "And that's not how Apple makes its money.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 828,
+          "t": [
+            3795.222,
+            3802.046
+          ],
+          "quote": "But I think Apple has a long way to go before they have the AI lock-in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 833,
+          "t": [
+            3823.015,
+            3828.478
+          ],
+          "quote": "So I'm just like not a believer in Apple long-term for that reason.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集将其描述为能够在后台同时工作、分配任务并相互协作的 AI 助手，并提到它们能生成子智能体来完成人力资源或平面设计等外包任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 475,
+          "t": [
+            2303.553,
+            2316.06
+          ],
+          "quote": "So the story says in the briefings, Altman described an upcoming product that would enable multiple AI assistants known as agents to work simultaneously in the background, dividing tasks and collaborating with each other.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2321.823,
+            2330.027
+          ],
+          "quote": "He described how the new agents could transform the American economy, allowing workers to do tasks that typically would have been outsourced to other professionals.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2332.108,
+            2338.671
+          ],
+          "quote": "could use the agents to help with human resources, or a writer could use them to enable graphic design, one of the people said.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 485,
+          "t": [
+            2347.034,
+            2359.82
+          ],
+          "quote": "I mean, when I use Codex, their desktop, I guess now it's just ChatGPT, the desktop app on Mac, I'm always asking these agents to spawn sub-agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2367.136,
+            2376.52
+          ],
+          "quote": "I'm like, you be the product manager and then I want you to spawn sub-agents to do the tasks and then I can talk to you so you're not busy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2379.061,
+            2387.384
+          ],
+          "quote": "I don't, I've been just, I've been being a silly human and asking the agents to do everything that I want them directly to do.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "compute",
+      "type": "concept",
+      "role": "concept",
+      "name": "算力 (compute)",
+      "file": "算力",
+      "primary": true,
+      "how_described": "本集反复讨论了大型科技公司斥巨资大建算力（大型计算机/数据中心）的狂热，以及如何把 GPU 跑通模型后对产出的 token 加价售卖来赚钱的投资逻辑。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 184,
+          "t": [
+            987.427,
+            993.372
+          ],
+          "quote": "No, I think there will still be a large demand for compute, at least for the next important number of years, I think.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 203,
+          "t": [
+            1060.99,
+            1068.794
+          ],
+          "quote": "So when you see people like make these bets on compute like Meta or SpaceX AI and they're off on the timing, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1072.415,
+            1076.457
+          ],
+          "quote": "they can then turn around and sell that compute because there's so much demand.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1496.757,
+            1505.24
+          ],
+          "quote": "But a lot of the push is coming from OpenAI and Anthropic, who believe that they will compete on compute.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1897.09,
+            1899.292
+          ],
+          "quote": "And now it's time to put a lot of compute behind it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 590,
+          "t": [
+            2727.42,
+            2747.539
+          ],
+          "quote": "uh be all about like you know sort of your solution to the problems of the foundational labs um even as open ai has made this 250 billion dollar commitment to buy compute from them which i think is largely what's propelling their their cloud growth and the market loved it so what helped me understand what's going on with microsoft",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 745,
+          "t": [
+            3442.876,
+            3452.599
+          ],
+          "quote": "Yeah, I mean, you know, basically on the call, the analysts, I don't want to say they were begging Mark Zuckerberg, but they were basically begging him to turn that excess compute into like a hyperscaler.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 746,
+          "t": [
+            3453.059,
+            3457.941
+          ],
+          "quote": "And Zuckerberg goes, I think it would be foolish to basically just sell all the compute and take a short term profit.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "effective-altruism",
+      "type": "concept",
+      "role": "concept",
+      "name": "有效利他主义 (effective altruism)",
+      "file": "有效利他主义",
+      "primary": true,
+      "how_described": "本集将其描述为科技圈撕裂的一种文化派系，他们倾向于赚最多的钱做最多的好事，极度迷信“期望值”公式，被指出有脱离实际的危险傲慢。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            371.053,
+            378.019
+          ],
+          "quote": "But the EA thing is interesting because there's a couple of things that sort of characterize effective altruism, and I'm not going to do it justice here.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "dark-fiber",
+      "type": "concept",
+      "role": "concept",
+      "name": "暗光纤 (dark fiber)",
+      "file": "暗光纤",
+      "primary": true,
+      "how_described": "本集用铺设了却未投入使用的通信光纤来打比方，警告说如果出现只需极低能耗的颠覆性算法突破，所有疯狂扩张的数据中心都会变得一文不值。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 199,
+          "t": [
+            1050.985,
+            1052.906
+          ],
+          "quote": "You had the dark fiber back in the day.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2217.532,
+            2230.515
+          ],
+          "quote": "It's like, all of a sudden you just, you can, you know, there's, there's this, the data centers become dark fiber because, you know, all of a sudden, like you could, you could run everything you need on one tiny sliver of the,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "javon-s-paradox",
+      "type": "concept",
+      "role": "concept",
+      "name": "杰文斯悖论 (Javon's paradox)",
+      "file": "杰文斯悖论",
+      "primary": true,
+      "how_described": "本集提到当模型价格下降时会出现该悖论，即成本降低反而会刺激人们消耗更多的资源（算力/token），从而使使用基数变得更加庞大。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 309,
+          "t": [
+            1573.689,
+            1582.614
+          ],
+          "quote": "So I think like, yeah, I mean, in the end, sure, like these things come down in price, they get, but then, you know, you have Javon's paradox, people just use more of it, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集将其作为前沿模型提供商提及，指出其面临中国公司免费模型的压力，但其拥有数据飞轮且总潜在市场极大，并在编程能力上领先于谷歌。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            205.083,
+            230.412
+          ],
+          "quote": "um i i was like i was thinking is this too niche to start the show but i i it's just one of those stories that i'm just too fascinated by to let uh wait until the second half so um curious what your perspective is on what's happened here uh obviously he'll still continue with the percentage of his assets that he's kept including a large stake in anthropic but i'm sure there's some big lessons to draw here and i'm curious which ones you've drawn",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1332.723,
+            1345.149
+          ],
+          "quote": "they're going to use Anthropic and OpenAI models, which, by the way, these companies offer a whole suite of models from really cheap, efficient ones to the frontier.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 250,
+          "t": [
+            1345.71,
+            1353.573
+          ],
+          "quote": "And those models run more efficiently and better on the harnesses, like essentially the software that OpenAI and Anthropic build.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1496.757,
+            1505.24
+          ],
+          "quote": "But a lot of the push is coming from OpenAI and Anthropic, who believe that they will compete on compute.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 290,
+          "t": [
+            1505.58,
+            1510.041
+          ],
+          "quote": "And looking at it, if the prices come down for OpenAI, the prices come down for Anthropic.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2264.137,
+            2266.078
+          ],
+          "quote": "Bad thing for open AI and anthropic.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": false,
+      "how_described": "本集提到其 AWS 云服务表现强劲，增长率跃升到了 37%，道理与微软同出一致——不仅仅提供底层算力，更提供丰富的云端 AI 服务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 361,
+          "t": [
+            1848.233,
+            1855.218
+          ],
+          "quote": "But on the other hand, I don't know, Amazon lost tons of money in the public markets for years before they finally turned a profit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 666,
+          "t": [
+            3086.753,
+            3091.115
+          ],
+          "quote": "Amazon turned in 37% growth at AWS.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 679,
+          "t": [
+            3147.119,
+            3171.174
+          ],
+          "quote": "Last week, they grew cloud revenue by 82%, but said they were going to spend a little bit more, to which I was like, if you're growing your cloud revenue at 82%, and you're saying the spending is fundamental to growing that cloud revenue, and you say you're going to spend more, and you now have not only search, but a chance to be in league with Amazon and Microsoft on...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 681,
+          "t": [
+            3192.925,
+            3200.116
+          ],
+          "quote": "I think the market saw Microsoft, they saw Amazon, and they just sort of put a heuristic on it.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集指出其云营收大涨了 82% 且开始卖自研 TPU 芯片，但因市场感知其模型在编程上落后，曾因巨额开支挨锤，几天后又涨了回来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 280,
+          "t": [
+            1465.97,
+            1468.532
+          ],
+          "quote": "Google also debuted three new models this month.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1510.441,
+            1511.562
+          ],
+          "quote": "The prices come down for Google.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1707.268,
+            1709.309
+          ],
+          "quote": "Like you could not charge for Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 629,
+          "t": [
+            2968.163,
+            2988.473
+          ],
+          "quote": "know google i think has is a bit they're a bit down now but like you know i think they're all like sundars threading that same needle they're all they're all threading that needle of like disruption on one side you know like big big like hasty bet mistakes on the other side",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 631,
+          "t": [
+            2997.198,
+            2999.02
+          ],
+          "quote": "I'm going to make, making Google dance.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 678,
+          "t": [
+            3145.037,
+            3146.758
+          ],
+          "quote": "All right, Google, interesting story here.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 680,
+          "t": [
+            3171.594,
+            3191.5
+          ],
+          "quote": "web services um why not do it now the market punished them right afterwards and the uh the notion was that they had grown uh the market had grown wary of all this ai spending however today i can report that google's made up all of that loss and more they're now above where they were before the stock got hit post earnings why is that",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 682,
+          "t": [
+            3200.136,
+            3203.441
+          ],
+          "quote": "And they said, well, if they can do it, Google can do it too.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 687,
+          "t": [
+            3219.302,
+            3223.908
+          ],
+          "quote": "When Google took that hit for all those investments, I thought, my thinking was...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 688,
+          "t": [
+            3224.869,
+            3243.287
+          ],
+          "quote": "there's this is like also meme based right it's like it's disconnected from the actual fundamentals of their cloud revenue and it's really about the fact that like there's this sort of view out there that google you know they were behind the chat gpg moment happened they caught up they were on top",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 691,
+          "t": [
+            3249.569,
+            3252.452
+          ],
+          "quote": "And Google's kind of like not as much in that conversation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 699,
+          "t": [
+            3282.453,
+            3285.095
+          ],
+          "quote": "Actually, more and more people are using Google Cloud.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 704,
+          "t": [
+            3297.343,
+            3300.105
+          ],
+          "quote": "People are using Google Cloud in a way that they weren't before.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 717,
+          "t": [
+            3353.157,
+            3357.119
+          ],
+          "quote": "So why is the market cool with AWS, but they're not cool with Google?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "adobe",
+      "type": "company",
+      "role": "company",
+      "name": "Adobe",
+      "file": "Adobe",
+      "primary": false,
+      "how_described": "本集将其作为可能被 AI 颠覆的旧软件公司的典型代表提及，曾是 Situational Awareness 基金的空头押注对象。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            727.24,
+            731.542
+          ],
+          "quote": "Reportedly, some of the shorts were software companies like Adobe, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "nebius-group",
+      "type": "company",
+      "role": "company",
+      "name": "Nebius Group",
+      "file": "Nebius Group",
+      "primary": false,
+      "how_described": "本集提到它是 Situational Awareness 基金多头持仓里的一家新云（neocloud）公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            688.597,
+            699.6
+          ],
+          "quote": "So its biggest holdings were Nebius Group, a neocloud, SanDisk, and Micron, which is like the RAM and the memory, and CoreWeave, another neocloud.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "sandisk",
+      "type": "company",
+      "role": "company",
+      "name": "SanDisk",
+      "file": "SanDisk",
+      "primary": false,
+      "how_described": "本集提到它是 Situational Awareness 基金多头持仓里造内存和 RAM 的公司之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            688.597,
+            699.6
+          ],
+          "quote": "So its biggest holdings were Nebius Group, a neocloud, SanDisk, and Micron, which is like the RAM and the memory, and CoreWeave, another neocloud.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "micron",
+      "type": "company",
+      "role": "company",
+      "name": "Micron",
+      "file": "Micron",
+      "primary": false,
+      "how_described": "本集提到它是 Situational Awareness 基金多头持仓里造 RAM 和内存的公司之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            688.597,
+            699.6
+          ],
+          "quote": "So its biggest holdings were Nebius Group, a neocloud, SanDisk, and Micron, which is like the RAM and the memory, and CoreWeave, another neocloud.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "accelerationists",
+      "type": "concept",
+      "role": "concept",
+      "name": "加速主义者 (accelerationists)",
+      "file": "加速主义者",
+      "primary": false,
+      "how_described": "本集将其描述为科技圈撕裂文化的一端，代表传统的硅谷人，看重并渴望亲手“构建”新技术，绝不拿炒股来吹嘘。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            299.209,
+            301.451
+          ],
+          "quote": "some might call themselves accelerationists.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "data-centers",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data centers)",
+      "file": "数据中心",
+      "primary": false,
+      "how_described": "本集反复提及科技巨头正斥巨资建设 AI 数据中心，探讨如果无法将算力转化为利润，这种狂飙的投资是否还能成立。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 90,
+          "t": [
+            526.752,
+            552.476
+          ],
+          "quote": "well you know the the uh it's it's like you're sitting in your college dorm room talking about philosophy you know well i mean everyone wants ai and of course like you know these things that these these products will have to be purchased to build these ai data centers therefore you can just put all your money in those stocks and you're going to be fine without like you know really paying attention to how like there's there's fluctuations in the market that have nothing to do with like the actual",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1010.045,
+            1013.728
+          ],
+          "quote": "But it also goes for all these investors in the big data centers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1200.362,
+            1219.292
+          ],
+          "quote": "But Reid, going back to your point earlier, when you see these price cuts, the demand has always been basically that the companies that want to snatch up these data centers believe that they can sort of take the GPU, run a model through it, and then mark up the tokens that they get out on the other end.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1234.654,
+            1239.317
+          ],
+          "quote": "One is who's actually selling the equipment for the data centers, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 246,
+          "t": [
+            1319.88,
+            1322
+          ],
+          "quote": "They're going to build on-premise data centers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1485.813,
+            1489.854
+          ],
+          "quote": "Basically, the point is, what's driving this build-out of the data centers?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1515.563,
+            1519.606
+          ],
+          "quote": "are those investments in all those data centers then worthwhile?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2212.711,
+            2214.872
+          ],
+          "quote": "It's like, we don't need these big data centers anymore.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2217.532,
+            2230.515
+          ],
+          "quote": "It's like, all of a sudden you just, you can, you know, there's, there's this, the data centers become dark fiber because, you know, all of a sudden, like you could, you could run everything you need on one tiny sliver of the,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 461,
+          "t": [
+            2260.736,
+            2263.937
+          ],
+          "quote": "It'd be a bad thing if you're building these data centers, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 584,
+          "t": [
+            2672.92,
+            2682.888
+          ],
+          "quote": "The Wall Street Journal, the company's stock surged 16% after its earnings quelled concerns that investments on data centers, chips, and more would outpace the company's ability to generate cash.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 672,
+          "t": [
+            3104.802,
+            3111.185
+          ],
+          "quote": "They are building these massive data centers that are going to be incredibly valuable in this AI era.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 709,
+          "t": [
+            3329.15,
+            3338.643
+          ],
+          "quote": "Like they're, they're like making these, these partnership deals with people because they don't want to spend, they want to offload some of the capital it takes to like build these data centers.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "neocloud",
+      "type": "concept",
+      "role": "concept",
+      "name": "新云 (neocloud)",
+      "file": "新云",
+      "primary": false,
+      "how_described": "本集将其描述为提供云端算力租赁的平台，如 CoreWeave 和 Nebius Group，它们既拥有机架，也试图在数据中心之上提供服务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            688.597,
+            699.6
+          ],
+          "quote": "So its biggest holdings were Nebius Group, a neocloud, SanDisk, and Micron, which is like the RAM and the memory, and CoreWeave, another neocloud.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "data-flywheel",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据飞轮 (data flywheel)",
+      "file": "数据飞轮",
+      "primary": false,
+      "how_described": "本集描述前沿模型公司拥有这种效应：使用它们的人越多，模型就变得越聪明、越高效，从而让企业愿意持续使用付费套件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 251,
+          "t": [
+            1353.713,
+            1355.294
+          ],
+          "quote": "And there's a data flywheel there, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

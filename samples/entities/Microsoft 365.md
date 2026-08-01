@@ -25,7 +25,7 @@ unlisted: true
 
 [[Saragawa]] · [[Satya Nadella]] · [[Microsoft]] · [[Azure]] · [[GitHub]] · [[MAI]] · [[私有评估]] · [[测试框架]] · [[轨迹]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Saragawa":1,"Satya Nadella":1,"Microsoft":5,"Azure":1,"GitHub":3,"MAI":1,"私有评估":1,"测试框架":4,"轨迹":1,"智能体":44}</script>
+<script type="application/json" class="pd-epn">{"Saragawa":1,"Satya Nadella":1,"Microsoft":6,"Azure":1,"GitHub":4,"MAI":1,"私有评估":1,"测试框架":4,"轨迹":1,"智能体":46}</script>
 
 <script>
 (function(){

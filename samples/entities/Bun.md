@@ -1,31 +1,31 @@
 ---
-title: Duet Autopilot
+title: Bun
 entity_type: 概念
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Duet Autopilot</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Bun</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Duet Autopilot">DU</div><div class="pi"><h1 class="pt">Duet Autopilot</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Bun">BU</div><div class="pi"><h1 class="pt">Bun</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 拆解:为何九成工作流跑在开源模型上》]]**(06:15起):Decagon 推出的专门用来「管理 AI」的 AI（元智能体）。本集说它会自动审查上百万段真实对话，自己找出处理得不好的话题，并写出原模型的变体去对比测试效果。
+- **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(05:47起):本集把它说成:Anthropic 内部已经用它(搭配 Rust)重写了 Claude Code,且效果很好
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 拆解:为何九成工作流跑在开源模型上》]] — 作为概念
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Sarah Wang]] · [[Ashwin Srinivas]] · [[Kimberley Tan]] · [[Jesse Zhang]] · [[Decagon]] · [[Sierra]] · [[智能体]] · [[开源]] · [[前沿模型]] · [[微调]]
+[[Simon Willison]] · [[Cat Wu]] · [[Thariq Shihipar]] · [[Anthropic]] · [[Claude Code]] · [[ClaudeTag]] · [[fable]] · [[Slack]] · [[Rust]] · [[Gemini]]
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Ashwin Srinivas":1,"Kimberley Tan":1,"Jesse Zhang":1,"Decagon":1,"Sierra":1,"智能体":44,"开源":2,"前沿模型":1,"微调":1}</script>
+<script type="application/json" class="pd-epn">{"Simon Willison":1,"Cat Wu":1,"Thariq Shihipar":1,"Anthropic":28,"Claude Code":13,"ClaudeTag":1,"fable":2,"Slack":10,"Rust":1,"Gemini":2}</script>
 
 <script>
 (function(){

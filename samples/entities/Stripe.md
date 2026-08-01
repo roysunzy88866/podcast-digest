@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Lenny]] · [[Replit]] · [[Rachel Lockett]] · [[Jeanne DeWitt Grosser]] · [[Lenny Rachitsky]] · [[Patrick Collison]] · [[Michele Catasta]] · [[Sam Altman]]
 
-<script type="application/json" class="pd-epn">{"智能体":44,"OpenAI":21,"Lenny":32,"Replit":4,"Rachel Lockett":1,"Jeanne DeWitt Grosser":1,"Lenny Rachitsky":1,"Patrick Collison":1,"Michele Catasta":1,"Sam Altman":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":46,"OpenAI":23,"Lenny":32,"Replit":4,"Rachel Lockett":1,"Jeanne DeWitt Grosser":1,"Lenny Rachitsky":1,"Patrick Collison":1,"Michele Catasta":1,"Sam Altman":1}</script>
 
 <script>
 (function(){

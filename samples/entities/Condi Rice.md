@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Wang]] [[Ashwin Srinivas]] [[Kimberley Tan]] [[Jesse Zhang]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]]
+[[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":2,"NVIDIA":6,"GPU":2,"Parallel":2,"深度学习":3,"第一性原理":2,"五层蛋糕":1,"模拟":2,"人工智能":2}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":2,"NVIDIA":7,"GPU":2,"Parallel":2,"深度学习":3,"第一性原理":2,"五层蛋糕":1,"模拟":2,"人工智能":2}</script>
 
 <script>
 (function(){

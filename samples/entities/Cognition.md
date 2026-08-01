@@ -30,7 +30,7 @@ aliases: ["cognition"]
 
 [[智能体]] · [[Anthropic]] · [[沙箱]] · [[Ivan Burazin]] · [[swyx]] · [[Noam Segal]] · [[Daytona]] · [[Akshat Bubna]] · [[Lenny]] · [[Neon]]
 
-<script type="application/json" class="pd-epn">{"智能体":44,"Anthropic":25,"沙箱":8,"Ivan Burazin":1,"swyx":1,"Noam Segal":1,"Daytona":1,"Akshat Bubna":1,"Lenny":32,"Neon":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":46,"Anthropic":28,"沙箱":9,"Ivan Burazin":1,"swyx":1,"Noam Segal":1,"Daytona":1,"Akshat Bubna":1,"Lenny":32,"Neon":2}</script>
 
 <script>
 (function(){

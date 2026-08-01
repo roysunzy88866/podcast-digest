@@ -97,9 +97,9 @@ Boris 说,别再像以前那样下死指令了。很多人用 Claude,非要把�
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同概念:提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)、系统提示 (system prompt)
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]] —— 同概念:智能体 (agent)、验证 (verification)
 - [[2026-07-17-talks-every-company-should-have-a-brain-garry|用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图]] —— 同概念:智能体 (agent)、Cloud Code
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同概念:智能体 (agent)
 
 </div>
 <div class="pd-ex">

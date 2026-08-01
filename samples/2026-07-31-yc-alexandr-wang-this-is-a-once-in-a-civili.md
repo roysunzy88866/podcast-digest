@@ -129,9 +129,9 @@ tags:
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|Decagon 的 AI 寺庙:开源、Duet 与护城河]] —— 同概念:开源模型 (open source models)、智能体 (agent)
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]] —— 同概念:智能体 (agent)、开源模型 (open source models)
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]] —— 同公司:YC · 同概念:主观能动性 (agency)
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]] —— 同概念:智能体 (agent)
 
 </div>
 <div class="pd-ex">

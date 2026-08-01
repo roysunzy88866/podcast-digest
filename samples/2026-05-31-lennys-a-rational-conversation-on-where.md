@@ -119,7 +119,7 @@ tags:
 
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
 - [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
-- [[2026-06-14-lennys-the-common-pattern-behind-successful|Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新]] —— 同嘉宾:Lenny · 同公司:OpenAI · 同概念:分发 (distribution)
+- [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]] —— 同公司:Meta、OpenAI、Anthropic、Apple、Google、Microsoft
 
 </div>
 <div class="pd-ex">

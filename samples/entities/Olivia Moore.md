@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Wang]] [[Ashwin Srinivas]] [[Kimberley Tan]] [[Jesse Zhang]] [[Alexandr Wang]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]] [[Sanjit Biswas]]
+[[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Frederick Rankin":1,"Alex Rampell":1,"Stein Pella":1,"Lassie":1,"智能体":44,"回路中的人类":1,"现有巨头":1,"Stripe":7}</script>
+<script type="application/json" class="pd-epn">{"Frederick Rankin":1,"Alex Rampell":1,"Stein Pella":1,"Lassie":1,"智能体":46,"回路中的人类":1,"现有巨头":1,"Stripe":7}</script>
 
 <script>
 (function(){

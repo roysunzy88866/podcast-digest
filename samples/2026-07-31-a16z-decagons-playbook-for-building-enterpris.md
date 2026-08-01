@@ -8,10 +8,10 @@ type: episode
 cover: "#64748b"
 description: "Decagon 畅谈为何九成工作流转用开源模型,以及企业 AI 的护城河到底在哪。"
 host: "[[Sarah Wang]]"
-cohosts: ["[[Ashwin Srinivas]]", "[[Kimberley Tan]]", "[[Jesse Zhang]]"]
-companies: ["[[Decagon]]", "[[Sierra]]"]
-concepts: ["[[Duet Autopilot]]", "[[智能体]]", "[[开源]]", "[[前沿模型]]", "[[微调]]", "[[应用层]]"]
-category: 智能体
+cohosts: ["[[Kimberley Tan]]", "[[Jesse Zhang]]", "[[Ashwin Srinivas]]"]
+companies: ["[[Decagon]]"]
+concepts: ["[[智能体]]", "[[开源模型]]", "[[微调]]", "[[业务逻辑]]", "[[前置部署工程师]]", "[[Duet]]", "[[延迟]]", "[[推理]]"]
+category: 创业与行业
 tags:
   - 创业与行业
   - 智能体
@@ -34,13 +34,13 @@ tags:
 >
 > **公司** [[Decagon]]
 >
-> **概念** [[Duet Autopilot]] · [[智能体]] · [[开源]] · [[前沿模型]] · [[微调]] · [[应用层]]
+> **概念** [[智能体]] · [[开源模型]] · [[微调]] · [[业务逻辑]] · [[前置部署工程师]] · [[Duet]] · [[延迟]] · [[推理]]
 
 <div class="pd-tldr"><b>一句话</b>Decagon 畅谈为何九成工作流转用开源模型,以及企业 AI 的护城河到底在哪。</div>
 
 一家做企业客服的公司,竟然把九成的工作流从最贵的前沿大模型,换成了自己[[微调|微调]]的开源小模型——不仅没掉链子,反而更聪明、更便宜、更快。说这话的人是 [[Decagon|Decagon]] 的创始人 Jesse 和 Ashwin,他们做的是帮大企业搭 AI [[智能体|智能体]]的生意。
 
-这一集 YC 母公司 a16z 的播客里,[[Sarah Wang|Sarah Wang]] 和 [[Kimberley Tan|Kimberley Tan]] 与 Decagon 的两位联创 Jesse Zhang 和 [[Ashwin Srinivas|Ashwin Srinivas]] 坐在了一起。他们主要聊了三件事:为什么把大部分 AI 堆栈转向[[开源|开源模型]],以及怎么持续[[微调|微调]]它们;为什么在 AI 大实验室越来越强的今天,做具体业务的[[应用层|应用层]]公司不仅有活路,还能成长为「特定垂直领域的实验室」;以及他们怎么卖进全球最大的那几家企业,还提出了一个很安抚人心的判断:AI 会消灭琐碎的岗位,但不会消灭人的职业生涯。
+这一集 a16z 的对谈里,他们聊了四件事:为什么前沿大模型不是万能解药,非得自己微调[[开源模型|开源模型]]不可;为什么「应用层公司只是套壳」的看法是个误解,真正的壁垒恰恰在模型之外;那个让他们直呼「哇哦」的神奇时刻——用一个慢但聪明的大智能体,把写规则、建测试、查漏补缺的活儿全包了;以及当 AI 真能接管整个工作岗位时,人的职业生涯到底是毁了还是升级了。
 
 说完了开场最反直觉的那个点——放着最强的大模型不用,非要自己去折腾开源小模型,接下来看看他们具体是怎么做、又是怎么想的。
 
@@ -128,30 +128,42 @@ Decagon 能迅速拿下全球最大的几家银行、航空公司和电信公司
 > *forward deployed engineers eat pain and excrete product.*  
 > <span class="qm">—— Jesse Zhang · [25:39]</span> ^q3
 
+> <span class="qz">如果你做不到那一点,那你只是在建立一个被美化的咨询卡车。</span>  
+> *And if you can't do that, then you're just building a glorified consulting truck.*  
+> <span class="qm">—— Jesse Zhang · [22:45]</span> ^q4
+
+> <span class="qz">一个 AI 智能体应该只是你公司业务的前门。</span>  
+> *An AI agent should just be the front door of your business.*  
+> <span class="qm">—— Ashwin Srinivas · [00:00]</span> ^q5
+
+> <span class="qz">每一次互动,无论是被动还是主动与客户,都应该由 AI 来处理。</span>  
+> *And every interaction, whether it's like reactive or proactive with a customer, should be handled by AI.*  
+> <span class="qm">—— Ashwin Srinivas · [00:02]</span> ^q6
+
 <div class="pd-sec">接着看</div>
 
 <div class="pd-exit">
 <div class="pd-ex">
 
-**顺着「智能体」挖下去**
+**顺着「创业与行业」挖下去**
 
-- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]] —— 同概念:智能体 (agent)
-- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]] —— 同概念:智能体 (agent)
-- [[2026-05-21-latent-space-daytona|Daytona:为智能体造一台像笔记本一样的计算机]] —— 同概念:智能体 (agent)
+- [[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili|Scale AI 创始人 Alexandr Wang:AI 时代,最稀缺的不是智能而是愿景]] —— 同概念:开源模型 (open source models)、智能体 (agent)
+- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]] —— 同公司:OpenAI · 同概念:智能体 (agent)、开源模型 (open source models)
+- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]] —— 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]] —— 同概念:智能体 (agent)
-- [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同概念:智能体 (agent)
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]] —— 同概念:智能体 (agent)
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]] —— 同概念:前向部署工程师 (forward deployed engineer)、智能体 (agent)
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同概念:前向部署工程师 (forward deployed engineer)、智能体 (agent)
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]] —— 同公司:Anthropic · 同概念:智能体 (agent)、评估 (evals)
 
 </div>
 </div>
 
-*本集关键词:企业 AI · 开源模型 · 智能体 · 微调 · 企业级销售*
+*本集关键词:开源模型 · 企业客服 · 应用层护城河 · 微调 · 前向部署工程师*
 
 <script>
 (function(){

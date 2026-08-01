@@ -93,9 +93,9 @@ tags:
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]] —— 同公司:NVIDIA、OpenAI、Anthropic、Microsoft · 同概念:数据中心 (data centers)
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]] —— 同公司:Anthropic、NVIDIA、OpenAI · 同概念:护栏 (guardrails)
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]] —— 同公司:OpenAI · 同概念:智能体 (agent)
-- [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]] —— 同公司:Anthropic、OpenAI
 
 </div>
 <div class="pd-ex">
@@ -104,7 +104,7 @@ tags:
 
 - [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]] —— 同公司:Anthropic · 同概念:护栏 (guardrails)、智能体 (agent)、沙箱 (sandbox)
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)
-- [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]] —— 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)、沙箱 (sandbox)
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同公司:Anthropic · 同概念:智能体 (agent)、沙箱 (sandbox)
 
 </div>
 </div>

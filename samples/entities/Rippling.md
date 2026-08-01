@@ -31,7 +31,7 @@ unlisted: true
 
 [[Matt MacInnis]] · [[Lenny]] · [[Amar]] · [[Notion]] · [[Apple]] · [[刻意人手不足]] · [[Alpha 与 Beta]] · [[产品市场契合度]] · [[熵]] · [[幂律分布]]
 
-<script type="application/json" class="pd-epn">{"Matt MacInnis":1,"Lenny":32,"Amar":1,"Notion":2,"Apple":3,"刻意人手不足":1,"Alpha 与 Beta":1,"产品市场契合度":3,"熵":1,"幂律分布":1}</script>
+<script type="application/json" class="pd-epn">{"Matt MacInnis":1,"Lenny":32,"Amar":1,"Notion":2,"Apple":4,"刻意人手不足":1,"Alpha 与 Beta":1,"产品市场契合度":3,"熵":1,"幂律分布":1}</script>
 
 <script>
 (function(){

@@ -35,7 +35,7 @@ unlisted: true
 
 [[Lenny]] · [[编排]] · [[go-to-market]] · [[智能体]] · [[Jeanne DeWitt Grosser]] · [[Jason Lemkin]] · [[Theo Browne]] · [[Stripe]] · [[SaaStr]] · [[Sonnet 3.5]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"编排":2,"go-to-market":2,"智能体":44,"Jeanne DeWitt Grosser":1,"Jason Lemkin":1,"Theo Browne":1,"Stripe":7,"SaaStr":1,"Sonnet 3.5":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"编排":2,"go-to-market":2,"智能体":46,"Jeanne DeWitt Grosser":1,"Jason Lemkin":1,"Theo Browne":1,"Stripe":7,"SaaStr":1,"Sonnet 3.5":1}</script>
 
 <script>
 (function(){

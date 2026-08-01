@@ -13,23 +13,23 @@ unlisted: true
 
 *1 集*
 
-- [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 拆解:为何九成工作流跑在开源模型上》]] — 作为联合主持
+- [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Sarah Wang]] · [[Ashwin Srinivas]] · [[Jesse Zhang]] · [[Decagon]] · [[Sierra]] · [[Duet Autopilot]] · [[智能体]] · [[开源]] · [[前沿模型]] · [[微调]]
+[[Sarah Wang]] · [[Jesse Zhang]] · [[Ashwin Srinivas]] · [[Decagon]] · [[智能体]] · [[开源模型]] · [[微调]] · [[业务逻辑]] · [[前置部署工程师]] · [[Duet]]
 
-## ④ 也在聊「智能体」的人
+## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[Sarah Wang]] [[Ashwin Srinivas]] [[Jesse Zhang]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]] [[Sanjit Biswas]]
+[[Sarah Wang]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Ashwin Srinivas":1,"Jesse Zhang":1,"Decagon":1,"Sierra":1,"Duet Autopilot":1,"智能体":44,"开源":2,"前沿模型":1,"微调":1}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Jesse Zhang":1,"Ashwin Srinivas":1,"Decagon":1,"智能体":46,"开源模型":3,"微调":1,"业务逻辑":1,"前置部署工程师":3,"Duet":1}</script>
 
 <script>
 (function(){

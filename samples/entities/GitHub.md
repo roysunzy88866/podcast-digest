@@ -7,29 +7,31 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GitHub</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GitHub">GI</div><div class="pi"><h1 class="pt">GitHub</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GitHub">GI</div><div class="pi"><h1 class="pt">GitHub</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]]**(01:23起):本集多次提及嘉宾曾在此领导设计和产品。讨论了其伟大的微小核心：拉取请求（PR），以及其早期的功能缺陷（如 GitHub Actions 缺乏良好的包管理）。
 - **[[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]]**(08:57起):本集描述其代码库中的智能体可跨应用读取如 M365 的设计会议记录并给出代码修改建议；其 Copilot 经历了因智能体高耗能而向消耗量计费的商业调整。
 - **[[2026-06-24-pg-company-os-jz|《Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能》]]**(02:08起):本集展示 Laurel 用 GitHub 的文件夹结构来作为「公司操作系统」的底座，在里面存储和共享各个职能的「剧本」和「技能」文件。
+- **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(14:58起):本集把它说成:Anthropic 的代码审查基础设施,会审查每个 PR(包括由 Claude Code 审查的那部分)
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]] — 作为被讨论公司
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为被讨论公司
 - [[2026-06-24-pg-company-os-jz|《Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能》]] — 作为被讨论公司
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Max Schoening]] · [[Saragawa]] · [[Jiaona Zhang]] · [[Lenny]] · [[Satya Nadella]] · [[Akash]] · [[Notion]] · [[Microsoft]] · [[Laurel]]
+[[智能体]] · [[Anthropic]] · [[Slack]] · [[Max Schoening]] · [[Saragawa]] · [[Jiaona Zhang]] · [[Simon Willison]] · [[Lenny]] · [[Satya Nadella]] · [[Akash]]
 
-<script type="application/json" class="pd-epn">{"智能体":44,"Max Schoening":1,"Saragawa":1,"Jiaona Zhang":1,"Lenny":32,"Satya Nadella":1,"Akash":3,"Notion":2,"Microsoft":5,"Laurel":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":46,"Anthropic":28,"Slack":10,"Max Schoening":1,"Saragawa":1,"Jiaona Zhang":1,"Simon Willison":1,"Lenny":32,"Satya Nadella":1,"Akash":3}</script>
 
 <script>
 (function(){

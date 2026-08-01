@@ -1,31 +1,31 @@
 ---
-title: 应用层 (application layer)
-entity_type: 概念
+title: CoreWeave
+entity_type: 公司
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>应用层 (application layer)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>CoreWeave</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="应用层">应用</div><div class="pi"><h1 class="pt">应用层 (application layer)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="CoreWeave">CO</div><div class="pi"><h1 class="pt">CoreWeave</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 拆解:为何九成工作流跑在开源模型上》]]**(18:09起):本集核心商业概念，指围绕大模型构建业务软件的公司。嘉宾认为，哪怕模型完美，企业也需要应用层软件来捕获复杂的业务逻辑并进行测试，大实验室无法把应用层公司全干掉。
+- **[[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]]**(11:28起):本集将其作为新云（neocloud，提供云端算力租赁的平台）的典型代表提及，它既是 Situational Awareness 基金的多头持仓，也是在数据中心之上提供服务的公司。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 拆解:为何九成工作流跑在开源模型上》]] — 作为概念
+- [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Sarah Wang]] · [[Ashwin Srinivas]] · [[Kimberley Tan]] · [[Jesse Zhang]] · [[Decagon]] · [[Sierra]] · [[Duet Autopilot]] · [[智能体]] · [[开源]] · [[前沿模型]]
+[[Reid Alberghati]] · [[OpenAI]] · [[NVIDIA]] · [[Microsoft]] · [[Safe Superintelligence]] · [[Situational Awareness]] · [[Meta]] · [[Apple]] · [[智能体]] · [[算力]]
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Ashwin Srinivas":1,"Kimberley Tan":1,"Jesse Zhang":1,"Decagon":1,"Sierra":1,"Duet Autopilot":1,"智能体":44,"开源":2,"前沿模型":1}</script>
+<script type="application/json" class="pd-epn">{"Reid Alberghati":1,"OpenAI":23,"NVIDIA":7,"Microsoft":6,"Safe Superintelligence":1,"Situational Awareness":1,"Meta":9,"Apple":4,"智能体":46,"算力":1}</script>
 
 <script>
 (function(){

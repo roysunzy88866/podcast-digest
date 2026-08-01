@@ -122,9 +122,9 @@ Zico 非常乐观地表示,我们应该先让 AI 去自动化的科学,就是分
 
 **换个口味**
 
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同公司:Anthropic · 同概念:提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)
 - [[2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7|别再微管理 Claude:Claude Code 造物主的智能体实战心法]] —— 同概念:提示词注入 (prompt injection)、智能体 (agent)、沙箱 (sandbox)、Cloud Code
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]] —— 同概念:OpenClaw、提示词注入 (prompt injection)、智能体 (agent)
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同概念:OpenClaw、智能体 (agent)、Codex
 
 </div>
 </div>

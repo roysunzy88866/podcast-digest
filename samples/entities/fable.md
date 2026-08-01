@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>fable</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="fable">FA</div><div class="pi"><h1 class="pt">fable</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="fable">FA</div><div class="pi"><h1 class="pt">fable</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]]**(00:28起):本集说它是 Anthropic 的模型,作为 Soul 的主要对比对象。它被描述为「理论上极其聪明」但沟通极其技术化、晦涩、迂腐,像「没见过人类的工程师」,且常陷入僵化的架构死胡同。
+- **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(00:20起):本集把它说成:Anthropic 的新前沿模型,一次性输出高质量代码,聪明到让 Anthropic 因此删掉了 Claude Code 80% 的系统提示词
 
 ## ① 提到它的金句
 
@@ -23,17 +24,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-13-lennys-this-solo-builder-runs-247-local|《GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力》]] — 作为概念
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Alex Finn]] · [[系统提示词]] · [[gpt 5.6]] · [[Anthropic]] · [[open ai]] · [[Codex]] · [[智能体]] · [[提示词]] · [[原型]] · [[浏览器使用]]
+[[Anthropic]] · [[智能体]] · [[提示词]] · [[Alex Finn]] · [[Simon Willison]] · [[系统提示词]] · [[Cat Wu]] · [[gpt 5.6]] · [[Thariq Shihipar]] · [[open ai]]
 
-<script type="application/json" class="pd-epn">{"Alex Finn":1,"系统提示词":2,"gpt 5.6":1,"Anthropic":25,"open ai":2,"Codex":11,"智能体":44,"提示词":3,"原型":2,"浏览器使用":2}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":28,"智能体":46,"提示词":4,"Alex Finn":1,"Simon Willison":1,"系统提示词":3,"Cat Wu":1,"gpt 5.6":1,"Thariq Shihipar":1,"open ai":2}</script>
 
 <script>
 (function(){

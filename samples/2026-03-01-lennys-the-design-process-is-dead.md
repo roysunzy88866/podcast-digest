@@ -112,7 +112,7 @@ tags:
 
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]] —— 同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:IC
 - [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]] —— 同嘉宾:Lenny · 同公司:Anthropic、Claude Code
-- [[2025-12-07-lennys-surge-ai-edwin-chen|10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同公司:Anthropic、Claude Code、Slack · 同概念:Claude
 
 </div>
 </div>
