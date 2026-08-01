@@ -43,7 +43,7 @@ unlisted: true
 
 [[ChatGPT]] · [[护栏]] · [[深度学习]] · [[Lenny]] · [[Jensen Huang]] · [[OpenAI]] · [[人工智能]] · [[Anthropic]] · [[GPU]] · [[Microsoft]]
 
-<script type="application/json" class="pd-epn">{"ChatGPT":10,"护栏":8,"深度学习":3,"Lenny":32,"Jensen Huang":2,"OpenAI":21,"人工智能":2,"Anthropic":25,"GPU":2,"Microsoft":5}</script>
+<script type="application/json" class="pd-epn">{"ChatGPT":10,"护栏":8,"深度学习":3,"Lenny":32,"Jensen Huang":2,"OpenAI":22,"人工智能":2,"Anthropic":26,"GPU":2,"Microsoft":5}</script>
 
 <script>
 (function(){

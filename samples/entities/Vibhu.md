@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]] [[Sanjit Biswas]] [[Sonja]] [[Rohan Anil]] [[Jerry Tworek]] [[Daniel McKinnon]]
+[[Sarah Wang]] [[Ashwin Srinivas]] [[Kimberley Tan]] [[Jesse Zhang]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"swyx":1,"Akshat Bubna":1,"Modal":1,"智能体":42,"AX":1,"DX":2,"沙箱":8,"推理":2,"弹性推理":1,"投机解码":1}</script>
+<script type="application/json" class="pd-epn">{"swyx":1,"Akshat Bubna":1,"Modal":1,"智能体":44,"AX":1,"DX":2,"沙箱":8,"推理":2,"弹性推理":1,"投机解码":1}</script>
 
 <script>
 (function(){

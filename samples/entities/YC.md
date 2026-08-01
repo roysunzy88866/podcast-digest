@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>YC</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="YC">YC</div><div class="pi"><h1 class="pt">YC</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="YC">YC</div><div class="pi"><h1 class="pt">YC</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]]**(01:14起):本集把它说成：推动初创公司黄金时代与行业生态的核心孵化器，倡导真诚与互助精神，并与硅谷庞大的人脉复利网络紧密相关。
+- **[[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili|《Scale AI 创始人 Alexandr Wang:AI 时代,最稀缺的不是智能而是愿景》]]**(02:53起):本集说它在嘉宾的创业旅程中非常关键,既鼎力支持创始人,也会在创始人犯傻时直言不讳地戳穿。
 
 ## ① 提到它的金句
 
@@ -21,18 +22,19 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-07-17-talks-every-company-should-have-a-brain-garry|《用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图》]] — 作为被讨论公司(提及)
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]] — 作为被讨论公司
+- [[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili|《Scale AI 创始人 Alexandr Wang:AI 时代,最稀缺的不是智能而是愿景》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Garry Tan]] · [[Sam Altman]] · [[技能文件]] · [[初创公司]] · [[上下文工程]] · [[AGI]] · [[公司大脑]] · [[沙箱]] · [[RAG]]
+[[智能体]] · [[主观能动性]] · [[Garry Tan]] · [[Sam Altman]] · [[Alexandr Wang]] · [[技能文件]] · [[初创公司]] · [[Scale]] · [[上下文工程]] · [[AGI]]
 
-<script type="application/json" class="pd-epn">{"智能体":42,"Garry Tan":1,"Sam Altman":1,"技能文件":1,"初创公司":1,"上下文工程":1,"AGI":6,"公司大脑":1,"沙箱":8,"RAG":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":44,"主观能动性":7,"Garry Tan":1,"Sam Altman":1,"Alexandr Wang":1,"技能文件":1,"初创公司":1,"Scale":1,"上下文工程":1,"AGI":6}</script>
 
 <script>
 (function(){

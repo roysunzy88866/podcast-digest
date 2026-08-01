@@ -41,7 +41,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[Jason Cohen]] · [[Dan Shipper]] · [[Saragawa]] · [[客户流失率]] · [[Codex]] · [[Satya Nadella]] · [[定价]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"智能体":42,"Jason Cohen":1,"Dan Shipper":1,"Saragawa":1,"客户流失率":1,"Codex":11,"Satya Nadella":1,"定价":1,"Claude Code":12}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"智能体":44,"Jason Cohen":1,"Dan Shipper":1,"Saragawa":1,"客户流失率":1,"Codex":11,"Satya Nadella":1,"定价":1,"Claude Code":12}</script>
 
 <script>
 (function(){

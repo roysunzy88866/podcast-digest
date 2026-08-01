@@ -1,0 +1,829 @@
+{
+  "episode_id": "2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-07-31",
+  "tags": [
+    "AI 发展趋势",
+    "创业心法",
+    "智能体",
+    "开源模型",
+    "数据生意"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "alexandr-wang",
+      "type": "person",
+      "role": "host",
+      "name": "Alexandr Wang",
+      "file": "Alexandr Wang",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "scale",
+      "type": "company",
+      "role": "company",
+      "name": "Scale",
+      "file": "Scale",
+      "primary": true,
+      "how_described": "本集说它是嘉宾在19岁时创办的公司,核心业务是提供训练模型的数据,因为在MIT训练模型时发现获取数据和算力、代码不同,无法按个按钮就拿到。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            108.544,
+            110.725
+          ],
+          "quote": "And I was 19 when I started Scale.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 37,
+          "t": [
+            161.91,
+            173.015
+          ],
+          "quote": "And so it was at MIT that I started training my first models and that I played around with TensorFlow, which had just come out that year at MIT and where I ultimately came up with the idea of scale.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 43,
+          "t": [
+            203.201,
+            205.282
+          ],
+          "quote": "I was 19, started Scale, and the rest is history.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 45,
+          "t": [
+            209.365,
+            214.108
+          ],
+          "quote": "And you came in with actually a very different idea than what ended up becoming Scale.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            249.355,
+            260.641
+          ],
+          "quote": "And it was at that time when like, you know, I had studied AI at MIT, I had like trained models and we thought, we sort of went back to the drawing board, thought deeply about where the opportunity was and came up with scale.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 70,
+          "t": [
+            333.021,
+            339.164
+          ],
+          "quote": "In the years that followed, in the first many years of scale, data was very unsexy still.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            388.491,
+            408.942
+          ],
+          "quote": "like you can't start a company by opening the pages of the wall street journal and saying well this data is hot like we're gonna go work on that it's like you literally couldn't have started scale that way you had to start from uh think like simple statements that are about the world that you know to be true and then sort of building something for that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 86,
+          "t": [
+            446.454,
+            452.598
+          ],
+          "quote": "And I think that like, I mean, one of the most surprising things, like, you know, scale, we've been working on AI for a decade.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 112,
+          "t": [
+            630.512,
+            651.384
+          ],
+          "quote": "you know, backstage is, you know, when I started Scale or, you know, 10 years ago, if you started a company, you had to be, you know, it was like David versus Goliath and you had to be clever and you had to find like an angle into the market and you had to sort of like, you know, figure out a way to compete even though you had much fewer resources.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1044.891,
+            1048.355
+          ],
+          "quote": "So when I started scale, the first wave was maybe self-driving cars.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1147.124,
+            1154.807
+          ],
+          "quote": "We want to be very extensible and to scale to as complex and interesting of a multi-agent setup that you want to have.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 247,
+          "t": [
+            1350.266,
+            1360.653
+          ],
+          "quote": "What is the like one way in which you want to put your finger on the scale for how the future of the world will develop and how the how the world will look like in five to ten years that it does not look like today?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1649.95,
+            1657.012
+          ],
+          "quote": "If you think about most companies, companies are just these large-scale feedback loops where humans are operating each of the edges.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1871.226,
+            1879.192
+          ],
+          "quote": "Like, you know, when we started, when I started working on scale, you know, we had cat detectors in YouTube videos and that felt, you know,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 120,
+          "t": [
+            694.289,
+            697.913
+          ],
+          "quote": "What does superintelligence mean operationally inside Meta right now?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            765.484,
+            770.288
+          ],
+          "quote": "There's 200 million businesses that are on Meta's platforms today.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            814.823,
+            820.852
+          ],
+          "quote": "So I think it was, it's been, you know, I've been at Meta for about a year now, and it's been quite a year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            820.872,
+            829.885
+          ],
+          "quote": "I think, you know, getting in and, you know, Meta, we've talked about it publicly, like Lama 4 wasn't on the trajectory that was needed for...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            830.905,
+            845.889
+          ],
+          "quote": "for meta, and so I got in there and we kind of did a zero-based build of how do you build an entire Frontier Lab, in some ways kind of from scratch, obviously using a lot of what we had, and move as quickly as possible.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1480.102,
+            1486.585
+          ],
+          "quote": "Has that changed the kind of people you're looking to hire and how you manage your teams right now at Meta?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1612.958,
+            1625.875
+          ],
+          "quote": "I mean, one of the things I'm curious about is like, are there sort of applications of AI that you're seeing among your friends or internal the meta that you can talk about that are, you know, there's sort of obvious near term, maybe people haven't figured out yet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 316,
+          "t": [
+            1689.288,
+            1709.745
+          ],
+          "quote": "I think we've seen, internally at Meta, cases where if you can develop the right agentic loop and you have the right eval or the right metric for the agents to optimize, you can have a swarm of agents accomplish more than a team of 100 engineers very, very handily, actually, very, very easily.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1890.533,
+            1898.92
+          ],
+          "quote": "Yes, which is Meta is proud to offer everyone in this room $1,000 of free credits for the new Spark API.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "musespark",
+      "type": "concept",
+      "role": "concept",
+      "name": "MuseSpark",
+      "file": "MuseSpark",
+      "primary": true,
+      "how_described": "本集说它是Meta前沿AI实验室推出的模型系列(包括MuseSpark 1和1.1),在智能体流程中表现与Opus一样好,但成本低8倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 145,
+          "t": [
+            845.929,
+            851.47
+          ],
+          "quote": "And so within nine months of that moment, we launched MuseSpark one, and then two months later we launched...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            939.83,
+            945.692
+          ],
+          "quote": "So I think we just launched MuseSpark 1.1, which was a great model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            945.712,
+            948.113
+          ],
+          "quote": "We're going to continue to have updates on the MuseSpark line.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 174,
+          "t": [
+            996.329,
+            1007.594
+          ],
+          "quote": "And it sounds like one of the ways, I mean, certainly when I was using MuseSpark with my OpenClaw, it became clear that it was as good as Opus, especially for that sort of agentic flow with skill files.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源模型 (open source models)",
+      "file": "开源模型",
+      "primary": true,
+      "how_described": "本集说Meta致力于开发它,理念是不相信模型极其昂贵只供富人使用的寡头世界,而是要赋能生态系统,让所有人都能用该技术构建。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 168,
+          "t": [
+            965.4,
+            969.841
+          ],
+          "quote": "And then we're also, as you mentioned, we're working on open source models.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它描述为能极大增强初创公司竞争力的程序。访谈深入讨论了如何编排上百万智能体协同工作,以及开发“智能体循环”来优化公司的业务反馈闭环。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            215.14,
+            222.263
+          ],
+          "quote": "Yeah, so we wanted to build an AI agent, funnily enough, to help people get medical care.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1120.47,
+            1123.512
+          ],
+          "quote": "I still use Hermes Agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1147.124,
+            1154.807
+          ],
+          "quote": "We want to be very extensible and to scale to as complex and interesting of a multi-agent setup that you want to have.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1548.623,
+            1555.366
+          ],
+          "quote": "And now maybe it's like much more, much closer to first you orchestrate the agent, then you figure out how to orchestrate like these armies of agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1722.311,
+            1735.914
+          ],
+          "quote": "So mechanically speaking, I mean, markdown files, cron jobs, and then basically pointing the agent at enough data so that it can figure something out that maybe isn't in distribution.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-setup",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体设置 (multi-agent setup)",
+      "file": "多智能体设置",
+      "primary": true,
+      "how_described": "本集说Meta即将推出的harness非常注重可扩展性,以支持复杂有趣的多智能体设置,并指望能在此之上产生大量关于编排智能体协同的创新。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 209,
+          "t": [
+            1147.124,
+            1154.807
+          ],
+          "quote": "We want to be very extensible and to scale to as complex and interesting of a multi-agent setup that you want to have.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "data",
+      "type": "concept",
+      "role": "concept",
+      "name": "训练数据 (data)",
+      "file": "训练数据",
+      "primary": true,
+      "how_described": "本集说它是Scale最初的核心生意。嘉宾在MIT发现算力和代码只需联网按按钮就能拿到,唯独它没有获取途径。十年前VC觉得这门生意不性感,现在却大谈它是AI最大的商业机会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            261.362,
+            267.705
+          ],
+          "quote": "I guess selling data at the time, you know, large language models were not even, had not really come to the fore yet.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            303.09,
+            305.151
+          ],
+          "quote": "and I needed data, I needed a data set.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 67,
+          "t": [
+            311.875,
+            318.898
+          ],
+          "quote": "And then for the last one, for data, there was no effective way to get data for training these models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 68,
+          "t": [
+            319.758,
+            329.363
+          ],
+          "quote": "And so it felt incredibly obvious that this was going to be the future, that there was going to be a way to press a button, so to speak, and get data.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 70,
+          "t": [
+            333.021,
+            339.164
+          ],
+          "quote": "In the years that followed, in the first many years of scale, data was very unsexy still.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 76,
+          "t": [
+            359.733,
+            379.806
+          ],
+          "quote": "And fast forward to today, you know, we managed to raise money, we managed to keep going, managed to keep growing the business, but the very same investors who passed on us and were very dour on the potential of AI are writing think pieces today about how data is so critical and is one of the biggest business opportunities in AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            388.491,
+            408.942
+          ],
+          "quote": "like you can't start a company by opening the pages of the wall street journal and saying well this data is hot like we're gonna go work on that it's like you literally couldn't have started scale that way you had to start from uh think like simple statements that are about the world that you know to be true and then sort of building something for that",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1722.311,
+            1735.914
+          ],
+          "quote": "So mechanically speaking, I mean, markdown files, cron jobs, and then basically pointing the agent at enough data so that it can figure something out that maybe isn't in distribution.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "frontier-lab",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿AI实验室 (Frontier Lab)",
+      "file": "前沿AI实验室",
+      "primary": true,
+      "how_described": "本集说它是从零开始建设的团队,核心赌注是“人才密度”。并指出这里的AI工作本质上是科学研究与实验,需要与互联网产品完全不同的思维方式和运营模式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            798.667,
+            800.829
+          ],
+          "quote": "How has running a frontier lab been?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 144,
+          "t": [
+            830.905,
+            845.889
+          ],
+          "quote": "for meta, and so I got in there and we kind of did a zero-based build of how do you build an entire Frontier Lab, in some ways kind of from scratch, obviously using a lot of what we had, and move as quickly as possible.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agency",
+      "type": "concept",
+      "role": "concept",
+      "name": "主观能动性 (agency)",
+      "file": "主观能动性",
+      "primary": true,
+      "how_described": "本集说未来的稀缺资源将不再是智能或主观能动性,而是愿景与抱负;并提到个人超级智能将成为人类主观能动性的扩展器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 122,
+          "t": [
+            709.433,
+            726.567
+          ],
+          "quote": "But we believe that everybody in the world, all the billions of people in the world, are going to have a super intelligence that is adapted and tailored to them, that enables them to accomplish their goals, knows their context, and ultimately is an expander of their own agency.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 123,
+          "t": [
+            726.967,
+            730.529
+          ],
+          "quote": "I think the thing that we think a lot about is agency expansion.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1298.375,
+            1302.097
+          ],
+          "quote": "intelligence became abundant and that agency became abundant.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1337.358,
+            1341.821
+          ],
+          "quote": "All of a sudden, the scarce resource isn't going to be intelligence or agency.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "spark-api",
+      "type": "concept",
+      "role": "concept",
+      "name": "Spark API",
+      "file": "Spark API",
+      "primary": true,
+      "how_described": "本集结尾宣布,现场所有观众都能获得用于该API的1000美元免费额度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 346,
+          "t": [
+            1890.533,
+            1898.92
+          ],
+          "quote": "Yes, which is Meta is proud to offer everyone in this room $1,000 of free credits for the new Spark API.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "personal-super-intelligence",
+      "type": "concept",
+      "role": "concept",
+      "name": "个人超级智能 (personal super intelligence)",
+      "file": "个人超级智能",
+      "primary": true,
+      "how_described": "本集说Meta相信世界上每个人都将拥有一个适应并为自己量身定制的它,能了解个人背景、帮助实现目标,是扩展主观能动性的工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            699.185,
+            709.093
+          ],
+          "quote": "Yeah, I think that a year ago, Mark wrote this memo about personal super intelligence, which I think actually is very similar to your concept of personal AGI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            756.219,
+            762.222
+          ],
+          "quote": "So, you know, we believe in billions of people all around the world all having their own personal super intelligence.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "yc",
+      "type": "company",
+      "role": "company",
+      "name": "YC",
+      "file": "YC",
+      "primary": false,
+      "how_described": "本集说它在嘉宾的创业旅程中非常关键,既鼎力支持创始人,也会在创始人犯傻时直言不讳地戳穿。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            173.575,
+            176.237
+          ],
+          "quote": "And then after one year of MIT, I applied to YC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 40,
+          "t": [
+            180.378,
+            184.883
+          ],
+          "quote": "And YC was really critical to my entrepreneurial journey.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 41,
+          "t": [
+            184.903,
+            199.858
+          ],
+          "quote": "Like, I don't think, like YC is this amazing blend of, you know, they're very supportive and they obviously want you to succeed, but they also give it to you very real and they tell you when you're being a dumbass, which I think is, you know, that's what we all need in life.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            546.357,
+            552.818
+          ],
+          "quote": "Backstage, we were talking about this is actually a really lucky time to start a company because obviously you can come do YC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 241,
+          "t": [
+            1328.133,
+            1333.036
+          ],
+          "quote": "And that's the story of nearly every company in America and the story of every YC company.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "quora",
+      "type": "company",
+      "role": "company",
+      "name": "Quora",
+      "file": "Quora",
+      "primary": false,
+      "how_described": "本集说嘉宾在高中毕业后跑去硅谷的这家公司做了一年间隔年实习,从中懂得了公司实际是如何构建和迭代的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            90.058,
+            95.48
+          ],
+          "quote": "And so after I finished high school, I ended up working at Quora here in Silicon Valley.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 23,
+          "t": [
+            104.703,
+            106.984
+          ],
+          "quote": "And I was 19 when I worked at Quora.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mit",
+      "type": "company",
+      "role": "company",
+      "name": "MIT",
+      "file": "MIT",
+      "primary": false,
+      "how_described": "本集说嘉宾在这里上学时首次训练模型、玩TensorFlow,并最终在此想出了Scale的点子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            102.722,
+            104.063
+          ],
+          "quote": "And then I went to MIT.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 24,
+          "t": [
+            107.004,
+            108.304
+          ],
+          "quote": "I was 18 when I went to MIT.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 36,
+          "t": [
+            151.725,
+            161.79
+          ],
+          "quote": "And then going to school at MIT was actually really important because it just gave me a lot of opportunity to explore what was interesting.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 37,
+          "t": [
+            161.91,
+            173.015
+          ],
+          "quote": "And so it was at MIT that I started training my first models and that I played around with TensorFlow, which had just come out that year at MIT and where I ultimately came up with the idea of scale.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            173.575,
+            176.237
+          ],
+          "quote": "And then after one year of MIT, I applied to YC.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 54,
+          "t": [
+            249.355,
+            260.641
+          ],
+          "quote": "And it was at that time when like, you know, I had studied AI at MIT, I had like trained models and we thought, we sort of went back to the drawing board, thought deeply about where the opportunity was and came up with scale.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 59,
+          "t": [
+            276.149,
+            284.355
+          ],
+          "quote": "Yeah, so the story here is that when I was at MIT, I did a bunch of projects to train models of various forms.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tensorflow",
+      "type": "concept",
+      "role": "concept",
+      "name": "TensorFlow",
+      "file": "TensorFlow",
+      "primary": false,
+      "how_described": "本集说这是嘉宾在MIT上学时刚发布并用来玩耍、训练首个模型的工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            161.91,
+            173.015
+          ],
+          "quote": "And so it was at MIT that I started training my first models and that I played around with TensorFlow, which had just come out that year at MIT and where I ultimately came up with the idea of scale.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "palantir",
+      "type": "company",
+      "role": "company",
+      "name": "Palantir",
+      "file": "Palantir",
+      "primary": false,
+      "how_described": "本集说这是嘉宾那个热衷编程的朋友高中毕业后在硅谷找的第一份实习所在的公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            83.416,
+            85.037
+          ],
+          "quote": "I think his first internship was at Palantir.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Llama 4",
+      "reason": "专名「Llama 4」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

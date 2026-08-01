@@ -1,113 +1,102 @@
 ---
-title: Replit 的至暗时刻与三十人豪赌：冲刺十亿美元 ARR
+title: "从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌"
 podcast: 精选演讲
 date: 2026-07-09
 source_url: undefined
 duration: "45:32"
 type: episode
 cover: "#64748b"
-description: "Replit 工程负责人复盘如何靠 30 人破釜沉舟押注 Agent、改写定价规则,把软件创造权交给所有人。"
+description: "Replit用孤注一掷的全员大押注换来非开发者也能用的编程智能体,并靠按用量收费和让用户赚钱杀出重围。"
 host: "[[Michele Catasta]]"
 companies: ["[[Replit]]"]
-concepts: ["[[智能体]]", "[[Replit Agent]]", "[[vibe coding]]", "[[基于用量的计费]]", "[[部署]]", "[[人物角色]]", "[[一人独角兽公司]]"]
+concepts: ["[[Replit Agent]]", "[[智能体]]", "[[vibe coding]]", "[[云开发环境]]", "[[基于使用量的计费]]", "[[基于结果的定价]]", "[[自主性]]", "[[一人独角兽]]"]
 category: 智能体
 tags:
   - 智能体
-  - AI 编程
+  - 创业与行业
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Replit 的至暗时刻与三十人豪赌：冲刺十亿美元 ARR</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# Replit 的至暗时刻与三十人豪赌：冲刺十亿美元 ARR
+# 从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌
 
-<div class="pd-byl"><b>Michele Catasta</b> · Replit 工程负责人</div>
+<div class="pd-byl"><b>Michele Catasta</b> · Replit 总裁兼 AI 负责人</div>
 
 <div class="pd-mt">2026-07-09 · 精选演讲 · 45:32</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-09-talks-a-conversation-with-replit-s-president-a.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">在发布前 36 小时,实际上没有任何东西能正常工作。</div><div class="a">Michele Catasta · 08:37</div></div>
+<div class="pd-hook"><div class="z">Repet Agent 3 可以连续运行 200 分钟。那很棒,但在你生命中这三个半小时里你要做什么?</div><div class="a">Michele Catasta · 13:29</div></div>
 
 > [!info] 关联
 > **人物** [[Michele Catasta]]
 >
 > **公司** [[Replit]]
 >
-> **概念** [[智能体]] · [[Replit Agent]] · [[vibe coding]] · [[基于用量的计费]] · [[部署]] · [[人物角色]] · [[一人独角兽公司]]
+> **概念** [[Replit Agent]] · [[智能体]] · [[vibe coding]] · [[云开发环境]] · [[基于使用量的计费]] · [[基于结果的定价]] · [[自主性]] · [[一人独角兽]]
 
-<div class="pd-tldr"><b>一句话</b>Replit 工程负责人复盘如何靠 30 人破釜沉舟押注 Agent、改写定价规则,把软件创造权交给所有人。</div>
+<div class="pd-tldr"><b>一句话</b>Replit用孤注一掷的全员大押注换来非开发者也能用的编程智能体,并靠按用量收费和让用户赚钱杀出重围。</div>
 
-一家有数千万用户、却差点活不下去的公司,把全公司八成以上的技术人力压在一个没人知道能不能成的东西上——发布前 36 小时,产品连跑都跑不起来。说这话的人是 Michele,他是 [[Replit|Replit]] 的工程与产品负责人,正带着公司冲向 10 亿美元的年经常收入(ARR,衡量订阅业务规模的常用指标)。<button class="pd-ts" data-t="04:11" data-who="Michele" data-en="How many people were working on Replit Agent? How did you guys make that happen? I would love to tell you that it was just one of the many bets." aria-label="回原文"></button>
+距离史诗级翻盘的发布只剩 36 小时,产品居然全线崩溃,核心团队只能靠再熬一个通宵死磕。这不是什么菜鸟团队的失误,而是 [[Replit|Replit]] 绝境求生的一场豪赌——他们把超过八成的人手全砸进了这个项目,退无可退。说这话的人是 Michele,他是这家公司的总裁兼 AI 负责人。
 
-Michele 曾在斯坦福做语言模型写代码的研究,2021 年他带着一份演示找上门,和 Replit 创始人 Amjad 一拍即合,从零组建 AI 团队。这一集里他讲了三件事:[[Replit Agent|Replit Agent]](Replit 的核心 AI 编程助手)是怎么在最绝望的时候被逼出来的,以及为什么一次「丢脸也要发」的低调发布彻底改变了公司命运;面对完全不同的几千万用户,怎么定产品取舍、怎么在 AI 时代重新设计定价模型;以及当 AI 能写代码,人和软件会变成什么样。结尾他还聊了「[[一人独角兽公司|一人独角兽公司]]」——一个人靠编排一堆[[智能体|智能体]],做到十亿美元估值的生意到底现不现实。
+在这一集访谈里,他回顾了 [[Replit Agent|Replit Agent]](Replit 的核心 AI 编程[[智能体|智能体]])从绝境逢生到剑指十亿美元营收的历程。你会听到几个极其抓人的块面:发布前夜那最黑暗的六个月,公司为什么不得不裁员孤注一掷;非技术人员第一次靠提示词变出应用时,为什么让他们确信自己抢在了所有最顶尖的 AI 实验室前面;为什么这个覆盖了 5000 万用户的产品,死活不肯按「用户画像」来设计;为什么他们卖企业软件的销售员全是没干过销售的死忠粉;以及他心中那个「一人干出十亿美元公司」的未来,稀缺的到底是什么。
 
-先说这场豪赌的背景。直到 2023 年,Replit 还是一个云开发环境,帮开发者在浏览器里写代码。它在教育市场极受欢迎,学校遍布全球都在用,但很难变现——支撑不起公司的估值和增长。Michele 坦言,再找不到强有力的产品市场契合,公司就快撑不住了。<button class="pd-ts" data-t="04:11" data-who="Michele" data-en="How many people were working on Replit Agent? How did you guys make that happen? I would love to tell you that it was just one of the many bets." aria-label="回原文"></button> Replit Agent 既切中「赋能下一个十亿软件创作者」的使命,也是生死存亡的必需。他在公司内部拉了一支小团队,目标非常明确:给非开发者做东西,做最难的技术问题。到了发布前最后两个月,公司 80% 以上的人力都扑在这个项目上,「其他职能都被我们几个兼职顶着」。当时全公司技术团队大约 30 人,处于最精简状态。<button class="pd-ts" data-t="05:24" data-who="Michele" data-en="Let's build something for non-developers, because it's going to be highly differentiated, and it's a much harder technical problem, to be honest. And I think the last two months before launching, more than half of the company was working on RapidAgent full-time." aria-label="回原文"></button>
+从悬崖边缘说起:不成功就完蛋的孤注一掷 <button class="pd-ts" data-t="04:13" data-who="Michele" data-en="How did you guys make that happen? I would love to tell you that it was just one of the many bets. And if it didn't pan out, everything would have been all right." aria-label="回原文"></button>
+Replit 早年的产品只是一个[[云开发环境|云开发环境]](开发者直接在浏览器里写代码、跑程序的平台)。虽然在全球教育市场很受欢迎,用户涨得也快,但根本不好赚钱 <button class="pd-ts" data-t="04:13" data-who="Michele" data-en="How did you guys make that happen? I would love to tell you that it was just one of the many bets. And if it didn't pan out, everything would have been all right." aria-label="回原文"></button>。更惨的是,2024 年初他们试图把老产品卖给企业,结果碰了一鼻子灰:他们的一体化工具会取代开发者手里一堆已有的工具,没人愿意为了拥抱新事物而把顺手的家伙全扔掉 <button class="pd-ts" data-t="06:16" data-who="Michele" data-en="So early 2024, we attempted to sell the product to the enterprise, the previous one, not Rapid Agent. And we found a lot of interest in terms of the philosophy of our product." aria-label="回原文"></button>。
 
-这 30 人迎来的是一段最黑暗的时期。2024 年初,Replit 试过把原来的产品卖给企业,碰了壁:开发者太爱自己的工具,不愿全部抛弃。公司搬出旧金山、经历了裁员(销售和营销团队与新产品不匹配),然后全员闭关半年——Michele 在所有人的日历上砸下了一个日期:「这是发布的日子」。<button class="pd-ts" data-t="06:07" data-who="Michele" data-en="What did that feel like coming into work every day? So early 2024, we attempted to sell the product to the enterprise, the previous one, not Rapid Agent. And we found a lot of interest in terms of the philosophy of our product." aria-label="回原文"></button>
+公司随即跌入了被 Michele 称为「最黑暗时期」的低谷 <button class="pd-ts" data-t="06:01" data-who="Michele" data-en="You sort of scaled down. Darkest possible times. Yes." aria-label="回原文"></button>。他们搬了家,不得不进行一轮裁员,因为当时的老产品压根没东西可卖,销售和营销团队失去了意义 <button class="pd-ts" data-t="06:48" data-who="Michele" data-en="So we sort of hit that dead end and then we went in quick order. We relocated away from San Francisco down in Foster City. So brand new, much bigger office." aria-label="回原文"></button>。但这其实是一场破釜沉舟:Michele 直接在所有人的日历上丢下了一个硬邦邦的截止日期,宣布那天必须发布 Replit Agent v1。在发布前的最后两个月,公司超过一半的人(大约 30 人,占了当时极高技术人员比例中的绝大多数)全职扑在这个赌注上 <button class="pd-ts" data-t="05:24" data-who="Michele" data-en="Let's build something for non-developers, because it's going to be highly differentiated, and it's a much harder technical problem, to be honest. And I think the last two months before launching, more than half of the company was working on RapidAgent full-time." aria-label="回原文"></button>。他们没有退路,这个赌注必须成,否则公司就到头了。
 
-发布前 36 小时,灾难发生了。Michele 组织全公司做内部测试(即团队自己当首批用户体验产品),「实际上什么都不能用」。前一天还跑得动的原型,撞上了一组完全找不到原因的 Bug(程序错误)。他把没参与项目的非技术员工拉来试用,体验糟糕到他差点和 Amjad 决定取消发布。核心团队再熬一个通宵,16 小时后重测,产品竟然能用了——从不写代码的员工第一次靠输入自然语言,看见一个应用在眼前生成出来。第二天早上,Replit Agent 上线。<button class="pd-ts" data-t="08:24" data-who="Michele" data-en="What's going through your head? I'll have to give you all the shameful details about what happened in the couple of days before the launch. I planned for two different dogfooding sessions with the entire company." aria-label="回原文"></button>
+发布前夜的惊魂36小时 <button class="pd-ts" data-t="08:24" data-who="Michele" data-en="What's going through your head? I'll have to give you all the shameful details about what happened in the couple of days before the launch. I planned for two different dogfooding sessions with the entire company." aria-label="回原文"></button>
+这段死磕的历程,在发布前夕迎来了最具戏剧性的一幕。距离发布只剩 36 小时,Michele 把全公司没参与项目的非技术员工拉来搞内部试用,结果「什么都不工作了」,体验糟糕透顶 <button class="pd-ts" data-t="08:32" data-who="Michele" data-en="I'll have to give you all the shameful details about what happened in the couple of days before the launch. I planned for two different dogfooding sessions with the entire company." aria-label="回原文"></button>。Michele 甚至差点和 CEO Amjad 决定取消发布。好在核心团队熬了一个通宵,硬是在 16 小时后把产品救活了 <button class="pd-ts" data-t="09:30" data-who="Michele" data-en="And we have another 36 hours to do it. Fast forward, I think, 16 hours from that moment, we did another real footing session. The product was finally working to much surprise of everyone at the company." aria-label="回原文"></button>。
 
-回看为什么 Replit 能抢在所有人前面,Michele 的答案是:脱掉了研究员的「枷锁」。他能体会 OpenAI、Anthropic 这些大厂研究员的心态——对模型有多好、产品体验有多精致有预设的期待。而他决定:从零造一种新体验,「即使有些让我感到丢脸,发出来也没关系」,先看用户的反应。发布前的每一天他都在恐慌对手抢先,「如果我们不是第一个进市场,公司就不会有今天」。<button class="pd-ts" data-t="11:39" data-who="Michele" data-en="And it was literally like a mandate from me internally to be the first on the market. Every single day before launch, I was panicking that someone else wouldn't have done it." aria-label="回原文"></button>
+奇迹发生在那些一辈子没写过代码的同事身上:他们输入一句自然语言,一个基础的应用程序就直接出现在眼前 <button class="pd-ts" data-t="09:45" data-who="Michele" data-en="Like, what was it doing? So I think especially for the non-technical employees at Replit, it was the first time that they went from a prompting natural language to a very basic application showing up in front of their eyes without doing anything different." aria-label="回原文"></button>。在那一刻,Michele 确信他们看到了连最深入、最顶尖的 AI 研究团队都还没看到的东西——因为大实验室的人总背着模型必须完美、产品必须达到某个高标准才能见人的包袱,而他脱离了这种研究者的枷锁,敢于直接把粗糙的东西甩给用户去试 <button class="pd-ts" data-t="10:56" data-who="Michele" data-en="break from my research career and focus on product, I felt I removed, like, shackles from my wrist on how to think of technical problems. And I think I can put myself in the shoes of researchers that were at OpenAI and Anthropic in those days, where you always have certain expectations in terms of how good your model has to be, how good is the product experience that you want to launch." aria-label="回原文"></button>。他每天最恐惧的就是被别人抢了先,因为如果 Replit 不是第一个把这种新体验推向市场的,公司绝不会有今天 <button class="pd-ts" data-t="11:34" data-who="Michele" data-en="What are they disappointed about? And it was literally like a mandate from me internally to be the first on the market. Every single day before launch, I was panicking that someone else wouldn't have done it." aria-label="回原文"></button>。
 
-这套方法论——先发、看反馈、随时推翻重来——延续到了今天的工程和产品团队。Michele 说,别对做出来的东西有感情依恋,这是他和 Amjad 共同的哲学,现在渗透了全公司:失败的项目可以接受,「我不需要再提醒大家了」。<button class="pd-ts" data-t="15:33" data-who="Michele" data-en="Everyone has seen what made us successful. I think at this point it permeates the entire company. I don't even have to remind it anymore." aria-label="回原文"></button> 一个被纠偏的典型假设是「完全自主」:Agent 3 代能连续跑 200 分钟,但「生命中的这三个半小时你干嘛?」用户需要反馈和互动。4 代改回来,参与度反而更高了。<button class="pd-ts" data-t="13:22" data-who="Michele" data-en="And I wouldn't call it a wrong assumption per se, but we thought most of our users want to go from point A to point B with just a single prompt, and they just care about the agent doing the entire work themselves." aria-label="回原文"></button>
+敢于认错并烧掉旧代码 <button class="pd-ts" data-t="12:18" data-who="Michele" data-en="Let's see what happens. And then it went insanely viral. So the same formula that we use for Agent 1, I keep applying for our engineering and product teams, where, first of all, I tell everyone, let's not get emotionally attached on anything that we built." aria-label="回原文"></button>
+这种「带点应用研究」的打法,从此成了 Replit 的工程和产品准则:不对自己做过的东西产生情感依恋,甚至敢于公开认错并推翻重来 <button class="pd-ts" data-t="12:18" data-who="Michele" data-en="Let's see what happens. And then it went insanely viral. So the same formula that we use for Agent 1, I keep applying for our engineering and product teams, where, first of all, I tell everyone, let's not get emotionally attached on anything that we built." aria-label="回原文"></button>。一个典型的例子是对「[[自主性|自主性]]」的纠偏。在 Agent 3 版本里,他们极端强调自主性,以为用户只想输入一句提示词,就让智能体自己把活全干完。原则上没错,但实践起来很伤人:Agent 3 能连续跑 200 分钟,留下用户在三个半小时里无所事事,极度缺乏参与感 <button class="pd-ts" data-t="13:24" data-who="Michele" data-en="In principle, that is true. In practice, you end up hurting engagement in product. Because we are the first one to market, Repet Agent 3 can run for 200 minutes in a row." aria-label="回原文"></button>。他们意识到了错误,在随后的版本中着重修复了互动反馈,把参与度拉了回来。
 
-不产生感情依恋,好处是敢自我推翻;代价是面对用户反馈需要极厚的脸皮。Michele 自陈现在服务的是 5000 万用户,其中 50 万是专业开发者,中位数用户是那种 vibe coder(凭直觉、不写传统代码的业余编程者,全篇沿用此译法),还要兼顾企业客户。「在任何其他公司,这种范围都是产品破坏。」<button class="pd-ts" data-t="17:32" data-who="Michele" data-en="I tend to be more of a fan of innovation, as you can imagine. You have kind of an impossible product job, which is that you're building a product for now 50 million users." aria-label="回原文"></button> 他长出脸皮的办法是理解用户情绪的快速翻转——用户几小时内就能从「这产品变垃圾了」骂到「我爱死它了」。他把这看作做面向人类产品的福分。
+> 【背景】编程智能体通常有多种工作模式(例如 Replit 提供的轻量、经济、动力三档),它们决定了智能体以多大的自主性、消耗多少算力去执行任务。
 
-这种产品哲学落到具体取舍上,是一个有意思的原则:拒绝谈「[[人物角色|人物角色]]」(即产品设计中虚构的典型用户画像)。Michele 明确说,他不想在开会时听到「为产品经理优化」或「为设计师优化」,因为每一个知识工作者都有创造软件的需求。Replit 的做法是直接找高级用户和新采用者做开放式访谈(问他们为什么爱、为什么走),把反馈归拢成具体的名字和痛点,然后做极简的产品表面去满足所有人。「一个好产品在一个庞大的用户群体中都是好的。」<button class="pd-ts" data-t="22:31" data-who="Michele" data-en="Like a good product is good across a very large user base in our case. A good product is good across a large user base. I love that." aria-label="回原文"></button>
+给 5000 万用户做产品的反常识哲学 <button class="pd-ts" data-t="17:32" data-who="Michele" data-en="I tend to be more of a fan of innovation, as you can imagine. You have kind of an impossible product job, which is that you're building a product for now 50 million users." aria-label="回原文"></button>
+这种敢于重塑的肌肉,支撑着 Replit 应对一个看似不可能的产品挑战:他们现在有 5000 万用户,其中 50 万是专业开发者,剩下的中位数是那种「凭直觉写代码的普通大众」,同时还有大量企业在用 <button class="pd-ts" data-t="17:32" data-who="Michele" data-en="I tend to be more of a fan of innovation, as you can imagine. You have kind of an impossible product job, which is that you're building a product for now 50 million users." aria-label="回原文"></button>。在任何其他公司,想同时讨好跨度这么大的群体简直是产品自杀。
 
-对内用这套哲学,对外的销售和定价也同样反传统。Replit 刚发布 Agent 时只有一个销售代表,后来加到两个。今天招的销售绝大多数没干过销售,而是真正爱产品、亲手用过、甚至用 Replit 做出过有用东西的人。「没有比被产品积极影响过的人更适合告诉你为什么要买」,这种在讲故事和技术细节之间的平衡,成了他们的王牌。Michele 说,「销售的优点就是绝对的精英主义,行不行用数字说话」。<button class="pd-ts" data-t="23:39" data-who="Michele" data-en="And there's no better person to tell you why than someone who has actually been impacted positively by it. So those are our best sales reps. And I think we're going to keep using this philosophy because..." aria-label="回原文"></button>
+但 Michele 的哲学极度反常识:绝对不按「用户画像」来做产品。他在内部立下规矩,开会时一个「用户画像」的词都不许提 <button class="pd-ts" data-t="20:20" data-who="Michele" data-en="It forces us, though, to really have as minimalistic as possible approach to how the product should look like. We don't try to tailor it towards a specific type of persona." aria-label="回原文"></button>。他坚持寻找所有知识工作者都需要的基础共性原语,因为他们发现,一个好的产品在庞大的群体中是普适通用的 <button class="pd-ts" data-t="22:31" data-who="Michele" data-en="Like a good product is good across a very large user base in our case. A good product is good across a large user base. I love that." aria-label="回原文"></button>。
 
-定价是 AI 时代每家公司的难题。Replit 有标准的 SaaS(软件即服务)层级——约 20 美元的核心席位、功能更多的专业席位,再到企业版。但这只是一部分。Michele 坚信:智能体本质上必须按使用量收费,与消耗的计算量或 token(语言模型处理的最小文本单元)成比例。<button class="pd-ts" data-t="24:57" data-who="Michele" data-en="Agents fundamentally have to be charged by usage. So by something proportional to the amount of compute they are using, or in the AI jargon, the amount of tokens that they are burning." aria-label="回原文"></button> Replit 早早做了这种[[基于用量的计费|基于用量的计费]],成了开拓者,刚改价时社区反弹很大,「但现在你环顾行业,大家都在做一样的事」。原因很硬:无法预测一个智能体跑一个具体任务要多久,固定定价或纯订阅无法规模化。
+甚至他们的销售代表都充满了反常识的味道:很长一段时间里他们只有一两个销售,而且这些人绝大多数根本没做过销售 <button class="pd-ts" data-t="22:51" data-who="Michele" data-en="Are they product-minded folks? The vast majority are not, and many of them have never done sales in their lives. We try to find people that love the product, can resonate with it, have used it, have fallen in love with it, perhaps have built something useful in their past job, or some of them are reaching out to us because they realize, I want to sell Replit." aria-label="回原文"></button>。Michele 专挑那些自己用过产品、爱过产品甚至自己搭建过东西的忠实粉丝,因为当买家已经懂行时,只有那些真正被产品改变过的人,才能用讲故事的方式结合技术细节,讲出别人买它的理由 <button class="pd-ts" data-t="23:39" data-who="Michele" data-en="And there's no better person to tell you why than someone who has actually been impacted positively by it. So those are our best sales reps. And I think we're going to keep using this philosophy because..." aria-label="回原文"></button>。
 
-如果有一根魔杖,Michele 想要的是「基于结果的定价」。在 Replit 上能完成的任务种类太杂,很难列一张结果费率表,这暂时是一个研究项目。为了减少用量计费带来的「不确定性感知」,Replit 设了三种模式作为护栏:light(轻量,只提核心请求、不让 Agent 跑长)、economy(经济)和 power(强力,丢一份长 PRD「产品需求文档」进去,Agent 会一口气跑几小时)。Michele 指出,用户预期与智能体实际成果之间的对齐,是整个 AI 领域今天最难的题之一。<button class="pd-ts" data-t="27:44" data-who="Michele" data-en="But if that's one of your first experiences in product, of course, it can be confusing why you spend so much money and why the agent did maybe more than you ever expected." aria-label="回原文"></button>
+AI 时代的收钱逻辑 <button class="pd-ts" data-t="24:29" data-who="Michele" data-en="How well is that pricing model working for you? The tiers that we have are, I would say, fairly standard, as you said. We have our core seat, which is running like $20 a month." aria-label="回原文"></button>
+有了产品和用户,还得算清楚账。Replit 的基础收费是标准化的:大约每月 20 美元的核心席位,往上是有更高级功能(如更好的基础设施服务协议)的专业席位,再往上则是企业版 <button class="pd-ts" data-t="24:29" data-who="Michele" data-en="How well is that pricing model working for you? The tiers that we have are, I would say, fairly standard, as you said. We have our core seat, which is running like $20 a month." aria-label="回原文"></button>。
 
-说完了 Replit 自己怎么活下来、怎么赚钱,接下来是它怎么帮用户赚钱。去年第四季度,Replit 上线了 Stripe(一家支付处理服务商)集成,让用户能直接在 Replit 做出来的应用里收钱。这个功能增速惊人,Michele 说这些不断上升的数字让他确认了一生的热情:Replit 要成为整个公司生态的推动者。在他和 Amjad 的愿景里,AI 编排智能体已经强到足以支撑「一人独角兽」——一个人靠指挥一堆 AI,做出估值十亿美元的公司。Michele 承认逻辑上竞争会逼着公司雇更多人,但它很可能停在 2.5 亿美元 ARR——「知道你凭一个产品愿景、用最少资源也能做到这件事,依然很让人激动」。<button class="pd-ts" data-t="30:34" data-who="Michele" data-en="Yeah, so it's going to happen. And of course, there will be maybe hiring more people, and maybe it's going to stop at, say, 250 million ARR instead of 1 billion." aria-label="回原文"></button>
+但这只是冰山一角。Michele 坚信,智能体这种东西从根本上必须按使用量来收费,也就是按它实际消耗的算力或 token 数来算钱 <button class="pd-ts" data-t="24:54" data-who="Michele" data-en="Because the truth is... Agents fundamentally have to be charged by usage. So by something proportional to the amount of compute they are using, or in the AI jargon, the amount of tokens that they are burning." aria-label="回原文"></button>。因为智能体干活有个特点:你永远无法预测它为了完成某个任务会实打实地跑多久。所以,纯靠固定包月或订阅制是无法支撑这种 AI 公司生存的 <button class="pd-ts" data-t="25:36" data-who="Michele" data-en="We had to do it because... By means of how agents work, it is relatively impossible to predict how much they're going to be literally running for a specific task." aria-label="回原文"></button>。他们作为先驱推行这套计费法时,曾遭到社区的猛烈抵制,但如今放眼望去,全行业都在跟进 <button class="pd-ts" data-t="25:16" data-who="Michele" data-en="And I think by being like trailblazers in this space, also when we launched the first version of the product, We were also trailblazers on when we changed the pricing model." aria-label="回原文"></button>。不过他也有个终极梦想——实现[[基于结果的定价|基于结果的定价]],但这极其困难,需要整个模型能力出现阶跃式的跨越才有可能 <button class="pd-ts" data-t="25:58" data-who="Michele" data-en="And the fact that agents are more and more widespread means that there is better acceptance of us having to charge in that way. That said, if I had a magic wand, I would love to figure out outcome-based pricing for the model, for our product." aria-label="回原文"></button>。
 
-如果软件和编码变得丰富,瓶颈在哪?Michele 认为是真正好的商业点子。测试点子前所未有地容易,但翻看失败的长尾,大多败因并不意外:扎进太小的利基、攻击一个不存在的痛点。所以试错成本降低,「好的商业点子的平均价值会被拉低;但如果你挖到金子,你到达那里的速度会比人生中任何时候都快」。<button class="pd-ts" data-t="32:12" data-who="Michele" data-en="So by far, that is always going to be the hardest question that you're going to be asking yourself. And the fact that way more ideas can be tested, on one hand, we'll" aria-label="回原文"></button>
+比赚钱更重要的,是让用户赚钱 <button class="pd-ts" data-t="28:03" data-who="Michele" data-en="The alignment between user expectations and what the agent accomplishes is one of the hardest AI problems that not only us, but the entire field faces today. And you guys are thinking not only, obviously, about monetizing your own product, but you also want to help users monetize their applications that they build on Replit." aria-label="回原文"></button>
+除了自己变现,Replit 也在搭建基础设施帮用户变现。去年第四季度,他们上线了支付平台的集成,让用户能直接对自己做的应用收费 <button class="pd-ts" data-t="28:36" data-who="Michele" data-en="Those are the success stories for us. Now, in order to make payments easier, of course, the first area that we explored was the Stripe integration that we work on together in the last few months." aria-label="回原文"></button>。这不仅是为了完善产品,更是 Michele 心中那个愿景的落地:赋能「[[一人独角兽|一人独角兽]]公司」的诞生 <button class="pd-ts" data-t="29:18" data-who="Michele" data-en="We are actually going to become enablers for an ecosystem of companies. You're a big proponent of the one-person billion-dollar company, the one-person unicorn. Yes." aria-label="回原文"></button>。他看到一些企业家正按部就班地在 Replit 上冲刺十亿美元的 ARR(年度经常性收入),这在半年前是超乎想象的。虽然未来这些公司也会雇人,但在一个测试想法成本极低、失败频率极高的时代,真正的稀缺资源不再是写代码的能力,而是真正好的商业点子,以及人类对人类需求的品味与洞察 <button class="pd-ts" data-t="31:23" data-who="Michele" data-en="If there's an abundance of software and coding and entrepreneurs, where are the bottlenecks going to be? I think it's more and more real good business ideas. Like, what should we be working on?" aria-label="回原文"></button>。
 
-智能体能帮人判断点子好坏吗?Michele 认为作为一级近似完全可以——尤其是涉及数据、能跑营销分析、做用户研究的业务。但「人类的品味」仍会发挥作用:他和 Amjad 有一个登月项目,设想让智能体每天从零生成一个点子,交给一个在跑的 MVP(最小可行产品)去发邮件、投广告、看增长,进而判断值不值得做。注册一家 LLC(一种公司形式)用 Stripe Atlas(Stripe 的公司注册服务)都能自动化,但「在哪里下注」仍要靠人类,因为产品终究要卖给人类,而人类彼此的理解比机器强。<button class="pd-ts" data-t="33:44" data-who="Michele" data-en="But one of the moonshot projects that we have at Rapid that Amjad and I talk about all the time is can we go from a prompt to an agent that basically on every single day tries to craft a business idea zero to one and then puts it in front of the MVP that is already running, is already looking for customers, is already like shooting emails and..." aria-label="回原文"></button>
-
-聊完生意和未来,Michele 顺带提了 Replit 的登月项目背后那张宣言——他加入两周后写的内部文件,精准预言了 2024 年发布的 v1。他在宣言里主张:用户界面存在了几十年,只是因为还没找到让人和机器更好交互的方式。直到几个月前,智能体的主观能动性强到足以颠覆这种交互——你对着手机口述,提示词进智能体,后台跑活,吐出结果。Replit 的未来不只是做应用,而是让所有人用同样的易用性造出强大的智能体。<button class="pd-ts" data-t="34:24" data-who="Michele" data-en="And I love to believe that we understand each other much better than machines do. So what was in this manifesto that you wrote where you sort of wrote out Replit Agent v0 or v1 and what it looks like now?" aria-label="回原文"></button>
-
-这种对未来的判断需要极高强度的执行力。Michele 招人的诀窍是「看模式匹配」:他喜欢找前任创始人,现在工程团队里超过 40% 的人创过业,他们足够疯狂、有大量的主观能动性和主人翁感,「成功与否不重要,那种特质和强度就在那里」。其次他要人在面试里深入讲一个他们在乎的技术项目——做了什么艰难选择、怎么和同事交锋,「我宁看这个,也不要看他们今天的技术有多好」。原因之二:他从第一天起就给每位个人贡献者极大的范围和能动性,受不了这层责任的人进来会被压垮。<button class="pd-ts" data-t="38:33" data-who="Michele" data-en="So I only partially rely on the technical interviews, but also because I want to see exactly that behavior once they come and wrap it. We give an incredible amount of agency and scope to every single IC from day one." aria-label="回原文"></button>
-
-这种强度的回报是指数级的。Michele 确认公司 ARR 在快速增长——从早期水平一路飙升,目标是尽快达到极高的里程碑;他曾说「我已经告诉公司,如果拖到很晚才达到而不是更早,我会失望」。在指数级增长下,他最痴迷的指标是参与度——周活跃、日活跃;但 Replit 独有一个关键指标:[[部署|部署]]。当用户愿意为构建的东西花更多钱把它发布上网时,「点赞、点踩、反馈都有价值,但没有什么比钱更能说明问题」。<button class="pd-ts" data-t="41:01" data-who="Michele" data-en="that are willing to spend more money to actually publish it. Thumbs up, thumbs down, feedback, everything is valuable, but nothing speaks as loud as money. If you're willing to invest more of your money because you're proud of something that you built, then I know that we actually made something right." aria-label="回原文"></button> 他挖 Bug 时也会优先看那些最终跑通到部署的智能体轨迹,因为那才是用户认可的「有价值的工作单元」。
-
-最能证明 Replit 威力的是他们怎么用它跑自己。Michele 招了一支极小的全职 vibe coder 团队,带头人嵌入公司每个团队花几周了解需求,然后回工位用 Replit 直接造出能产生实质影响的内部工具。客服团队的标准工单系统上面架了一个未来感十足的仪表盘,看情绪趋势、响应率、各层客户表现;HR 团队的工具有全公司的内网索引、组织架构、工位图。「你真的可以用这些工具经营一家公司,我们就是这么干的。」<button class="pd-ts" data-t="43:03" data-who="Michele" data-en="You can run a company with these tools, like literally, and we do it. You know, we believe so much in it that first we build them and then realize we have to sell this to enterprises." aria-label="回原文"></button> Replit 自己买的外部软件极少,Michele 也不认同 SaaS 末日论,但他看穿了大供应商的价值多半不在代码里,而是多年沉淀的业务流程和记录系统;长尾小供应商那部分,他们全自己造。连设计师现在 80-90% 的时间都在「用 Replit 构建 Replit」,改设计当场出样、当场决策,产品迭代周期掉了一个数量级。「软件又变得好玩了。」<button class="pd-ts" data-t="45:12" data-who="Michele" data-en="They write their prompts and we see the interface changing and then we make decisions on the spot. The cycle that it takes to make product improvements probably went down by a whole lot of magnitude easily." aria-label="回原文"></button>
+他们自己就在用这套理念经营公司。Michele 招了一个小小的全职「氛围编程」团队,其负责人被称为他的「AI 幕僚长」,专门游走在公司各部门之间,用 Replit 自己的工具给各个团队(如客服、HR)造出了取代外部采购的、高度定制化的内部系统 <button class="pd-ts" data-t="41:41" data-who="Michele" data-en="I have to mention things that we build internally because they're absolutely amazing. I hired a very small team of literally full-time vibe coders, and I called the leader of the team my AI chief of staff." aria-label="回原文"></button>。他们现在几乎不买外部软件,因为他们相信大型 SaaS 的价值不在于代码本身,而在于多年沉淀的业务流程,而那些无法定制化的小型 SaaS,早晚会被自己造的智能体取代 <button class="pd-ts" data-t="43:30" data-who="Michele" data-en="I'm not surprised that it happened. Of course, there are very large sass vendors that do have a reason to exist. I would dare to say most of their value is not in the software that they built." aria-label="回原文"></button>。连设计师都把绝大部分时间花在用 Replit 构建产品界面上,实时迭代 <button class="pd-ts" data-t="44:40" data-who="Michele" data-en="At this point, it's quite a lot. Our designers probably spend 80-90% of their time building rapid on rapid. So they do all the different design variations." aria-label="回原文"></button>。
 
 ## 本集带走
+最后收个尾,这一集值得带走的是几个挺颠覆认知的点。第一,不要被「完美」绑架,敢于把粗糙的半成品直接扔给真实世界去试,这种像应用研究一样的产品打法,反而能让你抢在那些背着高预期包袱的大厂前面。第二,不要对任何用户群体产生刻板的「画像」依赖,当你找到了软件工作的基础原语时,你会发现一个好产品是能跨越从专家到小白的所有阶层的。第三,在智能体时代,按订阅收费是走不远的,必须按真实的算力和使用量来收钱,而更终极的是帮你的用户造出能赚钱的产品。最后,就算软件能被轻松写出来,人类依然不可或缺,因为在这个点子多如牛毛的时代,判断到底该在哪里下注,依然是只有人类才有的品味。
 
-最后收个尾,这一集值得带走的是几条。第一,当你背水一战,别想着保底——把全公司八成技术人力压上、设一个死日期、闭关半年,是绝望逼出了最强专注和最高产出。第二,要抢在所有人前面,就得舍得脱掉研究员的体面枷锁,把哪怕让你丢脸的东西丢出去看反应;别对做出来的东西有感情依恋,这是不断重塑的底座。第三,做面向几千万不同用户的产品,别为「人物角色」优化,去抠那些每个知识工作者都绕不开的极简原语。第四,AI 时代的定价没法靠固定订阅,智能体本质上得按消耗算;但给用户三种模式护栏(light、economy、power)能在「非确定性的感知」上找到平衡。第五,让用户愿意掏更多钱去部署,比任何点赞反馈都更值钱——这是 Replit 最痴迷的指标。最后,真要奔向那个愿景,你的团队得是前任创始人或对在乎的项目死磕过的人,因为从第一天起你就要给他们极大的能动性,而只有受得了那种重量的人,才能在指数级增长里扛得住。
+<div class="pd-sec">全部金句 <span>5 条(中英对照,已过机器闸门)</span></div>
 
-<div class="pd-sec">全部金句 <span>7 条(中英对照,已过机器闸门)</span></div>
+> <span class="qz">Repet Agent 3 可以连续运行 200 分钟。那很棒,但在你生命中这三个半小时里你要做什么?</span>  
+> *Repet Agent 3 can run for 200 minutes in a row. That's amazing, but what are you going to do in those three hours and a half of your life?*  
+> <span class="qm">—— Michele Catasta · [13:29]</span> ^q1
 
-> <span class="qz">在发布前 36 小时,实际上没有任何东西能正常工作。</span>  
-> *36 hours before launch, literally nothing was working.*  
-> <span class="qm">—— Michele Catasta · [08:37]</span> ^q1
+> <span class="qz">基本上,我不想在会议期间听到“用户画像”这个词。</span>  
+> *I don't want to hear the word persona during a meeting, basically.*  
+> <span class="qm">—— Michele Catasta · [20:29]</span> ^q2
 
-> <span class="qz">我当时差点就要决定和 Amjad 不发布了。</span>  
-> *I was this close to deciding with Amjad not to launch.*  
-> <span class="qm">—— Michele Catasta · [09:13]</span> ^q2
-
-> <span class="qz">智能体本质上必须按使用量收费。</span>  
+> <span class="qz">智能体从根本上必须按使用量收费。</span>  
 > *Agents fundamentally have to be charged by usage.*  
 > <span class="qm">—— Michele Catasta · [24:54]</span> ^q3
 
-> <span class="qz">用户期望与智能体完成的事情之间的一致性,不仅是我们要,也是整个领域今天面临的最难的 AI 问题之一。</span>  
-> *The alignment between user expectations and what the agent accomplishes is one of the hardest AI problems that not only us, but the entire field faces today.*  
-> <span class="qm">—— Michele Catasta · [27:54]</span> ^q4
-
-> <span class="qz">另一方面,如果你挖到了金子,你到达那里的速度将比你一生中任何时候都要快得多。</span>  
-> *On the other hand, if you strike gold, you're going to get there much faster than you ever did in your life.*  
-> <span class="qm">—— Michele Catasta · [32:21]</span> ^q5
-
-> <span class="qz">点赞,点踩,反馈,一切都有价值,但没有什么比金钱更能说明问题。</span>  
-> *Thumbs up, thumbs down, feedback, everything is valuable, but nothing speaks as loud as money.*  
-> <span class="qm">—— Michele Catasta · [41:01]</span> ^q6
-
-> <span class="qz">你可以用这些工具经营一家公司,真的,而且我们就是这么做的。</span>  
+> <span class="qz">你可以用这些工具经营一家公司,真的,而且我们就是这样做的。</span>  
 > *You can run a company with these tools, like literally, and we do it.*  
-> <span class="qm">—— Michele Catasta · [43:00]</span> ^q7
+> <span class="qm">—— Michele Catasta · [43:00]</span> ^q4
+
+> <span class="qz">我敢说他们的大部分价值不在于他们构建的软件。而在于他们多年来完善的业务流程。</span>  
+> *I would dare to say most of their value is not in the software that they built. It's in the business processes that they refined over many years.*  
+> <span class="qm">—— Michele Catasta · [43:36]</span> ^q5
 
 <div class="pd-sec">接着看</div>
 
@@ -117,8 +106,8 @@ Michele 曾在斯坦福做语言模型写代码的研究,2021 年他带着一份
 **顺着「智能体」挖下去**
 
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]] —— 同公司:Replit · 同概念:智能体 (agent)
+- [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力]] —— 同公司:Anthropic · 同概念:智能体 (agent)、提示词 (prompt)
 - [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|OpenAI 开发者日：从结对编程到指挥智能体大军]] —— 同公司:OpenAI · 同概念:智能体 (agent)
-- [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力]] —— 同公司:Anthropic · 同概念:智能体 (agent)
 
 </div>
 <div class="pd-ex">
@@ -132,7 +121,7 @@ Michele 曾在斯坦福做语言模型写代码的研究,2021 年他带着一份
 </div>
 </div>
 
-*本集关键词:AI 编程 · 智能体 · 定价 · 创业豪赌 · Vibe Coding*
+*本集关键词:智能体 · 破釜沉舟 · 反常识产品哲学 · 基于使用量计费 · 氛围编程*
 
 <script>
 (function(){

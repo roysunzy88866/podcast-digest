@@ -21,7 +21,7 @@ unlisted: true
 
 [[Benedict Evans]] · [[Lenny]] · [[OpenAI]] · [[Anthropic]] · [[Google]] · [[Meta]] · [[Apple]] · [[Microsoft]] · [[AWS]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"Benedict Evans":1,"Lenny":32,"OpenAI":21,"Anthropic":25,"Google":9,"Meta":7,"Apple":3,"Microsoft":5,"AWS":2,"Claude Code":12}</script>
+<script type="application/json" class="pd-epn">{"Benedict Evans":1,"Lenny":32,"OpenAI":21,"Anthropic":25,"Google":9,"Meta":8,"Apple":3,"Microsoft":5,"AWS":2,"Claude Code":12}</script>
 
 <script>
 (function(){

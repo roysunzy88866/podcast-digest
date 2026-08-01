@@ -47,7 +47,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Akash":3,"Laurel":1,"GitHub":3,"Slack":9,"Dust":1,"Devon":1,"智能体":42,"剧本":2,"技能":3,"本体":1}</script>
+<script type="application/json" class="pd-epn">{"Akash":3,"Laurel":1,"GitHub":3,"Slack":9,"Dust":1,"Devon":1,"智能体":44,"剧本":2,"技能":3,"本体":1}</script>
 
 <script>
 (function(){

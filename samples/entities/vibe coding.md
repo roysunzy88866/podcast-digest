@@ -15,7 +15,7 @@ unlisted: true
 - **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]]**(43:56起):本集用来指代那种仅凭感觉、不关注底层代码的生成式编程方式,嘉宾借此反驳那些傲慢地认为工程是硬技能、而其他角色只是在 vibe coding 的偏见。
 - **[[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]]**(07:21起):本集将这种方式描述为：完全凭借人的直觉和感觉引导 AI 写代码，而不做细致的文档和规划，嘉宾在机场延误时正是靠这种方式写出了产品原型。
 - **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]]**(09:14起):本集提到嘉宾带 10 岁儿子通过自然语言指挥 AI 写代码，做出了有着 19 个关卡和商店系统的 8 位风格超级马里奥游戏。
-- **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《Replit 的至暗时刻与三十人豪赌：冲刺十亿美元 ARR》]]**(42:53起):本集把它说成：一种凭直觉、不写传统代码的业余编程方式。Replit 的中位数用户就是这类人群(vibe coder)；公司内部也招了极小的全职 vibe coder 团队，用 Replit 自己造出客服、HR 等能产生实质影响的内部工具。
+- **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]]**(42:53起):本集把它说成:不仅是凭直觉写代码,还能真正用来经营公司的方式;Replit 招了全职氛围编程团队游走各部门,直接造出取代外部采购的内部系统。
 - **[[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]]**(81:10起):被描述为纯凭直觉用自然语言让 AI 写代码。嘉宾建议别只做一锤子买卖，要把 vibe coding 做出来的小玩意儿当成真正的产品，找真实用户来用并不断迭代。
 
 ## ① 提到它的金句
@@ -34,7 +34,7 @@ unlisted: true
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]] — 作为概念(提及)
 - [[2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto|《一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder》]] — 作为概念
 - [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]] — 作为概念
-- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《Replit 的至暗时刻与三十人豪赌：冲刺十亿美元 ARR》]] — 作为概念
+- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]] — 作为概念
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]] — 作为概念(提及)
 
 ## ③ 关联
@@ -43,7 +43,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Anthropic]] · [[ChatGPT]] · [[OpenAI]] · [[Claude Code]] · [[Claude]] · [[品味]] · [[Edwin Chen]] · [[Andrew Ambrosino]]
 
-<script type="application/json" class="pd-epn">{"智能体":42,"Lenny":32,"Anthropic":25,"ChatGPT":10,"OpenAI":21,"Claude Code":12,"Claude":8,"品味":3,"Edwin Chen":1,"Andrew Ambrosino":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":44,"Lenny":32,"Anthropic":25,"ChatGPT":10,"OpenAI":21,"Claude Code":12,"Claude":8,"品味":3,"Edwin Chen":1,"Andrew Ambrosino":1}</script>
 
 <script>
 (function(){

@@ -2,18 +2,18 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "08:37",
+      "timestamp": "13:29",
       "speaker": "Michele Catasta",
       "trimmed": false,
-      "tsWas": "08:37",
+      "tsWas": "13:27",
       "spkWas": "Michele"
     },
     {
       "i": 2,
-      "timestamp": "09:13",
+      "timestamp": "20:29",
       "speaker": "Michele Catasta",
       "trimmed": false,
-      "tsWas": "09:13",
+      "tsWas": "20:25",
       "spkWas": "Michele"
     },
     {
@@ -26,36 +26,26 @@
     },
     {
       "i": 4,
-      "timestamp": "27:54",
-      "speaker": "Michele Catasta",
-      "trimmed": false,
-      "tsWas": "27:54",
-      "spkWas": "Michele"
-    },
-    {
-      "i": 5,
-      "timestamp": "32:21",
-      "speaker": "Michele Catasta",
-      "trimmed": false,
-      "tsWas": "32:21",
-      "spkWas": "Michele"
-    },
-    {
-      "i": 6,
-      "timestamp": "41:01",
-      "speaker": "Michele Catasta",
-      "trimmed": false,
-      "tsWas": "41:01",
-      "spkWas": "Michele"
-    },
-    {
-      "i": 7,
       "timestamp": "43:00",
       "speaker": "Michele Catasta",
       "trimmed": false,
       "tsWas": "43:00",
       "spkWas": "Michele"
+    },
+    {
+      "i": 5,
+      "timestamp": "43:36",
+      "speaker": "Michele Catasta",
+      "trimmed": false,
+      "tsWas": "43:39",
+      "spkWas": "Michele"
     }
   ],
-  "dropped": []
+  "dropped": [
+    {
+      "i": 6,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "What is going to be the scarce good in that new sort of era? ... I think it's more and more real good business ideas."
+    }
+  ]
 }

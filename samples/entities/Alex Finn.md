@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]] [[Sanjit Biswas]] [[Sonja]] [[Rohan Anil]] [[Jerry Tworek]] [[Daniel McKinnon]]
+[[Sarah Wang]] [[Ashwin Srinivas]] [[Kimberley Tan]] [[Jesse Zhang]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"系统提示词":2,"gpt 5.6":1,"fable":1,"Anthropic":25,"open ai":2,"Codex":11,"智能体":42,"提示词":2,"原型":2,"浏览器使用":2}</script>
+<script type="application/json" class="pd-epn">{"系统提示词":2,"gpt 5.6":1,"fable":1,"Anthropic":25,"open ai":2,"Codex":11,"智能体":44,"提示词":3,"原型":2,"浏览器使用":2}</script>
 
 <script>
 (function(){

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Amjad Masad</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Amjad Masad">AM</div><div class="pi"><h1 class="pt">Amjad Masad</h1><div class="byl">精选演讲 嘉宾</div><div class="nums">本站收录 <b>1</b> 集 · <b>2</b> 条金句 · 关联 <b>8</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Amjad Masad">AM</div><div class="pi"><h1 class="pt">Amjad Masad</h1><div class="byl">精选演讲 嘉宾</div><div class="nums">本站收录 <b>1</b> 集 · <b>2</b> 条金句 · 关联 <b>9</b> 个</div></div></div>
 
 ## ① 他说过的话
 
@@ -27,17 +27,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Patrick Collison]] · [[Stripe]] · [[Replit]] · [[Magic School]] · [[OpenAI]] · [[智能体]] · [[垂直 SaaS]] · [[护城河]]
+[[Patrick Collison]] · [[Stripe]] · [[Replit]] · [[Magic School]] · [[OpenAI]] · [[智能体]] · [[垂直 SaaS]] · [[护城河]] · [[开源模型]]
 
 ## ④ 也在聊「创业与行业」的人
 
 <div class="pd-peers">
 
-[[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]] [[Sanjit Biswas]] [[Justine Moore]] [[Sonja]] [[Rohan Anil]] [[Jerry Tworek]]
+[[Sarah Wang]] [[Ashwin Srinivas]] [[Kimberley Tan]] [[Jesse Zhang]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Patrick Collison":1,"Stripe":7,"Replit":4,"Magic School":1,"OpenAI":21,"智能体":42,"垂直 SaaS":1,"护城河":3}</script>
+<script type="application/json" class="pd-epn">{"Patrick Collison":1,"Stripe":7,"Replit":4,"Magic School":1,"OpenAI":21,"智能体":44,"垂直 SaaS":1,"护城河":3,"开源模型":2}</script>
 
 <script>
 (function(){

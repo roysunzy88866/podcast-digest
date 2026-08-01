@@ -42,11 +42,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]] [[Sanjit Biswas]] [[Sonja]] [[Rohan Anil]] [[Jerry Tworek]] [[Daniel McKinnon]]
+[[Sarah Wang]] [[Ashwin Srinivas]] [[Kimberley Tan]] [[Jesse Zhang]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":42,"Codex":11,"Romain Huet":1,"Raphael Schaad":1,"OpenAI":21,"OpenClaw":5,"循环":1,"Claude Code":12,"协作界面":1,"mcp":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":44,"Codex":11,"Romain Huet":1,"Raphael Schaad":1,"OpenAI":21,"OpenClaw":5,"循环":1,"Claude Code":12,"协作界面":1,"mcp":4}</script>
 
 <script>
 (function(){

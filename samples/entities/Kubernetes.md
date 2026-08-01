@@ -36,7 +36,7 @@ aliases: ["K8s", "k8s"]
 
 [[智能体]] · [[沙箱]] · [[Matei Zaharia]] · [[swyx]] · [[Jensen Huang]] · [[Reynold Xin]] · [[Akshat Bubna]] · [[Jerry]] · [[Databricks]] · [[Vibhu]]
 
-<script type="application/json" class="pd-epn">{"智能体":42,"沙箱":8,"Matei Zaharia":1,"swyx":1,"Jensen Huang":2,"Reynold Xin":1,"Akshat Bubna":1,"Jerry":1,"Databricks":1,"Vibhu":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":44,"沙箱":8,"Matei Zaharia":1,"swyx":1,"Jensen Huang":2,"Reynold Xin":1,"Akshat Bubna":1,"Jerry":1,"Databricks":1,"Vibhu":1}</script>
 
 <script>
 (function(){

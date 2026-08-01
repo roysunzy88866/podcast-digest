@@ -1,31 +1,31 @@
 ---
-title: 人物角色 (persona)
-entity_type: 概念
+title: Decagon
+entity_type: 公司
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>人物角色 (persona)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Decagon</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="人物角色">人物</div><div class="pi"><h1 class="pt">人物角色 (persona)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Decagon">DE</div><div class="pi"><h1 class="pt">Decagon</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《Replit 的至暗时刻与三十人豪赌：冲刺十亿美元 ARR》]]**(20:20起):本集把它说成：产品设计中虚构的典型用户画像(如「为产品经理优化」)。Replit 的产品哲学明确拒绝谈人物角色，而是寻找每个知识工作者都绕不开的极简原语，因为「一个好产品在一个庞大的用户群体中都是好的」。
+- **[[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 拆解:为何九成工作流跑在开源模型上》]]**(00:57起):本集受访的企业 AI 智能体公司，把 90% 工作流转向开源微调模型以追求更低延迟和更高性能，并强调通过深度结合业务逻辑和产品化（而非人力堆叠）作为护城河，向全球最大的银行、航空公司等销售 AI 客户支持与礼宾服务。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《Replit 的至暗时刻与三十人豪赌：冲刺十亿美元 ARR》]] — 作为概念
+- [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 拆解:为何九成工作流跑在开源模型上》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Michele Catasta]] · [[Replit]] · [[智能体]] · [[Replit Agent]] · [[vibe coding]] · [[基于用量的计费]] · [[部署]] · [[一人独角兽公司]] · [[产品市场契合度]] · [[OpenAI]]
+[[Sarah Wang]] · [[Ashwin Srinivas]] · [[Kimberley Tan]] · [[Jesse Zhang]] · [[Sierra]] · [[Duet Autopilot]] · [[智能体]] · [[开源]] · [[前沿模型]] · [[微调]]
 
-<script type="application/json" class="pd-epn">{"Michele Catasta":1,"Replit":4,"智能体":42,"Replit Agent":1,"vibe coding":6,"基于用量的计费":1,"部署":1,"一人独角兽公司":1,"产品市场契合度":4,"OpenAI":21}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Ashwin Srinivas":1,"Kimberley Tan":1,"Jesse Zhang":1,"Sierra":1,"Duet Autopilot":1,"智能体":44,"开源":2,"前沿模型":1,"微调":1}</script>
 
 <script>
 (function(){

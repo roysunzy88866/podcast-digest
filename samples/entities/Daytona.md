@@ -25,7 +25,7 @@ unlisted: true
 
 [[Ivan Burazin]] · [[Cognition]] · [[Neon]] · [[Parallel]] · [[智能体]] · [[沙箱]] · [[突发负载]] · [[裸金属]] · [[计算机使用]] · [[托管型 Kubernetes]]
 
-<script type="application/json" class="pd-epn">{"Ivan Burazin":1,"Cognition":3,"Neon":2,"Parallel":2,"智能体":42,"沙箱":8,"突发负载":1,"裸金属":1,"计算机使用":3,"托管型 Kubernetes":1}</script>
+<script type="application/json" class="pd-epn">{"Ivan Burazin":1,"Cognition":3,"Neon":2,"Parallel":2,"智能体":44,"沙箱":8,"突发负载":1,"裸金属":1,"计算机使用":3,"托管型 Kubernetes":1}</script>
 
 <script>
 (function(){
