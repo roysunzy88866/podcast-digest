@@ -415,17 +415,16 @@ blockquote{margin:0 0 17px;padding:11px 16px;background:#f8f7f4;border-left:2px 
   .sortbar{margin-top:0;padding-top:10px;font-size:12px}
 }
 
-/* ── 手机端二级页顶栏(用户批注:二级页不该有一级入口;返回键要和标题在一起)──
-   站名本身是「回首页」= 一级入口,在二级页换成「← 页面标题」。 */
+/* ── 手机端二级页顶栏(用户批注:二级页不该有一级入口)──
+   站名(=回首页,一级入口)在二级页隐藏。
+   2026-08-01 用户拍板 Option A(撤回原「标题并进顶栏」):标题回正文大号打头 + 顶栏「← 返回」,
+   不把长中文标题挤进顶栏截断成「…」。ep 原型渲染的本就是 Option A;此前 style.css 这段与原型
+   自相矛盾(写了「标题进顶栏 + .hero 隐藏」),现对齐原型、撤掉那两条。 */
 .mtitle{display:none}
 @media (max-width:1023px){
-  .top .b{display:none}                       /* 站名(一级入口)*/
-  .mtitle{display:flex;align-items:center;gap:8px;font-family:var(--puhui);letter-spacing:.2px;
-          font-size:17px;font-weight:600;color:var(--B8);min-width:0}
-  .mtitle span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .mtitle:hover{color:var(--accent)}
-  .hero{display:none}                          /* 标题已并进顶栏,正文里不再重复一遍 */
-  .shell.det .mid>.back{display:none}          /* 单集页/人物页正文里的「← 返回」同理 */
+  .top .b{display:none}                       /* 站名(一级入口)在二级页隐藏 */
+  /* Option A:.mtitle 不再拿来显示标题(保持隐藏);正文大标题 .hero 也不隐藏(撤掉原两条)。 */
+  .shell.det .mid>.back{display:none}          /* 正文里的「← 返回」仍藏(返回键在顶栏) */
   .sortbar{padding-top:14px;border-top:0}
 }
 
