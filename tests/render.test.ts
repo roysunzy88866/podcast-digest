@@ -389,10 +389,14 @@ describe("C13d-1 · 关联框搬进右栏「这一集涉及」", () => {
 describe("C13d-1 · 开篇钩子 + 金句区外观", () => {
   const scss = readFileSync(new URL("../assets/styles/custom.scss", import.meta.url), "utf8");
 
-  it("★★ 钩子取第一条金句,与卡片同一条(从卡片点进来接得上)", () => {
-    const out = renderHook({ quotes: [{ zh: "一句金句。", speaker: "某人", timestamp: "06:02" }] } as any, {} as any);
+  it("★★ 钩子取第一条金句 + 「— 说话人」+ 回原文 ↩(设计稿 .hook .a,2026-08-01 用户拍板)", () => {
+    const out = renderHook({ quotes: [{ zh: "一句金句。", en: "A quote.", speaker: "某人", timestamp: "06:02" }] } as any, {} as any);
     expect(out).toContain("一句金句。");
-    expect(out).toContain("某人 · 06:02");
+    expect(out).toContain("— 某人");                 // 破折号 + 名字
+    expect(out).toContain('class="pd-ts"');          // 回原文 ↩ 按钮
+    expect(out).toContain('data-t="06:02"');         // 时间戳并进按钮 data-t
+    expect(out).toContain('data-en="A quote."');     // 点开展英文原话
+    expect(out).not.toContain("某人 · 06:02");        // 撤掉旧的「名字 · 时间戳」纯文本
   });
 
   it("★★ 引号由样式生成,内容里不写标点(与卡片同口径)", () => {
@@ -806,9 +810,10 @@ describe("C13f · 单集页顶栏与首页同款(logo 位 + 深浅色进右栏)"
     expect(renderSidebarScript()).toContain("querySelectorAll('.pd .mk img')");
   });
 
-  it("★★★ 深浅色搬到右栏末尾,顶栏只剩搜索与阅读模式(第九批 #3)", () => {
+  it("★★★ 深浅色搬到右栏末尾,顶栏只剩搜索(阅读模式已摘,第九批 #3 / 2026-08-01)", () => {
     const js = renderSidebarScript();
-    expect(js).toMatch(/\['\.search','\.readermode'\]/);
+    expect(js).toMatch(/\['\.search'\]\.forEach/);
+    expect(js).not.toContain(".readermode");
     expect(js).toContain("grab('.darkmode'");
     expect(js).toMatch(/right\.sidebar/);
   });

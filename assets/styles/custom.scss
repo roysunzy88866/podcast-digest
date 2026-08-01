@@ -261,8 +261,7 @@ body[data-slug^="tags/"] {
     color: var(--B6);
   }
   .pd-acts .search,
-  .pd-acts .darkmode,
-  .pd-acts .readermode {
+  .pd-acts .darkmode {
     margin: 0;
     padding: 0;
     flex: 0 0 auto;
@@ -272,7 +271,7 @@ body[data-slug^="tags/"] {
      ⚠️ 只改外观与位置:点开的仍是 Quartz 自己的搜索浮层(🔒 #9 中文索引不许降级、
      C13a 定的「搬节点不重写一套」)。设计稿里那个就地下拉是原型专属,不移植。 */
   /* 搜索框必须贴着顶栏最右边(左边缘才会落在右栏那条竖线上)。
-     阅读模式那个图标是后搬进来的兄弟节点 —— 用 order 把搜索排到最后,
+     顶栏里可能还有后搬进来的兄弟节点(如深浅色)—— 用 order 把搜索排到最后,
      这样不管节点是按什么顺序搬进来的都对得齐(实测不加会左移 28px = 图标 20 + 间距 8)。 */
   .pd-acts .search { order: 2; margin-left: auto; }
   .pd-acts .search-button {

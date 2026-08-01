@@ -335,7 +335,8 @@ export const scriptBlock = () => squashBlankLines(`<script>
              || document.querySelector(sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    ['.search','.readermode'].forEach(function(sel){ grab(sel,acts); });
+    // 只搬搜索;阅读模式不并进顶栏(设计稿顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
+    ['.search'].forEach(function(sel){ grab(sel,acts); });
     // 深浅色进左栏 —— 但**左栏在窄屏是整块 display:none 的**,槽跟着一起没了。
     // 所以只在槽真的看得见时才搬进去,看不见就退回顶栏(= 本片之前的位置)。
     // 🔒 #2 亮暗双模式任何屏宽都必须有入口,不许因为版面改动而消失。

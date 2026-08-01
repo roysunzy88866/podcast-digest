@@ -297,10 +297,11 @@ describe("C13a · Quartz 骨架摘干净(首页独占版面,但不连坐搜索/�
   const md = renderList([ep()], opts);
 
   // [standard-change: 用户 2026-07-27 设计稿第九批 #3] 深浅色从顶栏挪进左栏 →
-  // 顶栏槽只剩搜索与阅读模式,深浅色搬进 .pd-themesw。**搬节点不重写**这条没变(🔒 #9/#2)。
-  it("★★ 顶栏留了 .pd-acts 空槽,脚本把搜索/阅读模式搬进来(🔒 #9/#2 不许降级)", () => {
+  // 顶栏槽只搬搜索(阅读模式 2026-08-01 用户拍板摘掉),深浅色搬进 .pd-themesw。搬节点不重写(🔒 #9/#2)。
+  it("★★ 顶栏留了 .pd-acts 空槽,脚本把搜索搬进来;阅读模式不搬(🔒 #9/#2 不许降级)", () => {
     expect(md).toContain('<div class="pd-acts"></div>');
-    expect(md).toMatch(/\['\.search','\.readermode'\]/);
+    expect(md).toMatch(/\['\.search'\]\.forEach/);
+    expect(md).not.toContain(".readermode");
     expect(md).toContain("grab('.darkmode', sw || acts)");
     expect(md).toMatch(/host\.appendChild\(el\)/);
   });
@@ -594,7 +595,8 @@ describe("C13f · 深浅色开关从顶栏挪进左栏(第九批 #3)", () => {
     expect(left.indexOf('class="pd-themesw"')).toBeGreaterThan(-1);
     expect(left.indexOf('class="pd-themesw"')).toBeLessThan(left.indexOf('class="about"'));
     expect(md).toContain("grab('.darkmode', sw || acts)");
-    expect(md).toMatch(/\['\.search','\.readermode'\]/);
+    expect(md).toMatch(/\['\.search'\]\.forEach/);
+    expect(md).not.toContain(".readermode");
     // 搬节点不重写:🔒 #2 亮暗双模式的行为在 Quartz 手里
     expect(md).not.toMatch(/localStorage\.setItem\('theme'/);
   });

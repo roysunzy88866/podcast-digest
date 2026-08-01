@@ -231,7 +231,8 @@ export function renderSidebarScript() {
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    ['.search','.readermode'].forEach(function(sel){ grab(sel,acts); });
+    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
+    ['.search'].forEach(function(sel){ grab(sel,acts); });
     // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
     // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
     var side=document.querySelector('.right.sidebar'), slot=null;
@@ -436,8 +437,18 @@ export function renderSidebarScript() {
 export function renderHook(digest, meta) {
   const q = digest?.quotes?.[0];
   if (!q?.zh) return "";
-  const who = [q.speaker, meta?.no_timestamps ? null : q.timestamp].filter(Boolean).join(" · ");
-  return `<div class="pd-hook"><div class="z">${String(q.zh).trim()}</div>${who ? `<div class="a">${who}</div>` : ""}</div>`;
+  // 设计稿 .hook .a:「— 说话人」+ 回原文 ↩(.pd-ts,点开就地展英文原话)。
+  // 撤掉原来的「· 时间戳」纯文本 —— 时间戳并进 ↩ 按钮的 data-t(点开时在「英文原话 …」头里显示)。
+  const speaker = q.speaker ? String(q.speaker).trim() : "";
+  const t = meta?.no_timestamps ? "" : q.timestamp != null ? String(q.timestamp) : "";
+  const back = q.en
+    ? `<button class="pd-ts" data-t="${attrEscape(t)}" data-who="${attrEscape(plainText(speaker))}" data-en="${attrEscape(String(q.en).trim())}" aria-label="回原文"></button>`
+    : "";
+  const a =
+    speaker || back
+      ? `<div class="a">${speaker ? `— ${escHtml(speaker)}` : ""}${speaker && back ? " " : ""}${back}</div>`
+      : "";
+  return `<div class="pd-hook"><div class="z">${String(q.zh).trim()}</div>${a}</div>`;
 }
 
 /**
