@@ -1,0 +1,99 @@
+```json
+{
+  "title_zh": "Jeff Dean 谈 AI 的下一个拐点:推理硬件与长周期智能体",
+  "tldr": "从 TPU 的前世今生到上下文工程,Jeff Dean 勾勒了 AI 系统的未来。",
+  "digest_md": "做个简单算术:如果每个用户每天只对着手机说 3 分钟话,当时的 Google 就得把全球服务器机群翻一倍才扛得住。这个在餐巾纸上算出来的数字,直接催生了 TPU。说这话的人是 Jeff Dean,Google 首席科学家,MapReduce、Bigtable、TensorFlow 和 TPU 的核心缔造者。
+
+这一集 AI Ascent 的对谈里,他讲了五件事:首先,他去年说 AI 达到了初级工程师水平,如今他承认自己甚至低估了 AI 做复杂任务的能力增速;其次,为什么把硬件专门针对推理做优化,是 2026 年最大的系统级机会;第三,模型只是系统的一小部分,真正能拉开差距的是上下文工程;第四,现在的 AI 系统已经开始把人类一直沿用的科学方法自动化,自己拆解问题、跑实验、自我迭代;最后,面对通用大模型越来越强的现实,初创公司和个体开发者到底该去哪里找生存空间。
+
+从 TPU 的故事接着往下想,主持人问了个很直白的问题:现在 2026 年,什么是这个时代的"装入内存"时刻?Jeff Dean 的回答很明确:低延迟、高能效的专用推理硬件 [03:44 Jeff Dean]。这里说的推理(inference,指模型训练好之后,接收用户输入并给出回答的过程)之所以关键,是因为现在的智能体系统要真正普及,延迟必须大幅降下来。他给了一个极其直观的量级:如果推理硬件的延迟能比现在好 50 倍,整个产品形态会完全不同 [04:30 Jeff Dean]。为什么专用硬件能做到?他解释说,因为现在的机器学习底层本质上是大量低精度的密集线性代数运算,如果你造一块只擅长这一件事、别的什么都不干的芯片,它反而能在能效和延迟上甩开通用计算设备好几条街。这就是当年 TPU 的设计思路。
+
+顺着硬件的思路再往下挖,主持人指出了一个经常被忽视的底层事实。Jeff Dean 提到过一个让人吃惊的数字:在加速器上做一次实际的数学运算大概只需要一皮焦耳的能量,但把数据从内存搬进处理器去喂给计算单元,这个搬运动作耗费的能量是计算本身的 1000 倍 [12:26 Jeff Dean]。这种巨大的能量差,潜移默化地决定了现在的 AI 算法长什么样。比如,为什么训练模型时要把大量数据打包成很大的批次?其实就是为了分摊这 1000 倍的数据搬运成本。如果不做批处理,算力大多会浪费在数据传输上。但他也指出,批处理对极低延迟的推理场景是个灾难,所以现在的系统设计很大程度上是在"为了摊销数据搬运成本"和"为了追求极低延迟"之间做妥协。
+
+硬件的物理限制聊完了,接下来把视角拉高到系统架构。在过去一年左右,AI 圈子的共识开始转变:光靠堆大模型参数和训练数据已经不够了。Jeff Dean 认为,模型其实只是整个系统能力的一小块。现在真正能拉开差距的,是怎么围绕模型做上下文工程——也就是怎么给模型配备检索工具、记忆库和其他实用工具 [16:42 Jeff Dean]。他解释说,模型在训练时吞下的数万亿个 token,全都搅成了一锅几千亿参数的"汤",信息很模糊;而你在推理时实时放进上下文窗口里的信息,对模型来说是极其清晰明确的。所以,教模型怎么一步步调用工具解决问题,会变得越来越重要。
+
+上下文工程听起来门槛很高,但其实普通开发者马上就能上手。Jeff Dean 解释说,以前要训练一个好模型,你得有海量 GPU 和数据,那是大厂的专利;但上下文工程,普通开发者只需要调用像 Gemini 这样的 API,自己设计好检索逻辑和工具调用流程就能做 [18:27 Jeff Dean]。他举了一个自己亲手做过的例子:他在 Google 有一套测试底层代码性能的基准库,以前要靠人手动改代码、跑基准测试,再对比缓存占用;后来他和同事 Sanjay 写了一个"技能"(skill,指教模型如何使用特定工具的指令),直接把这个优化流程教给了模型 [20:54 Jeff Dean]。模型就能自己去跑基准、改代码、再跑基准、看性能提升,形成自我优化的闭环。他们甚至把积累的性能优化技巧写成了一份大约 30 页的文档,任何人拿去喂给模型,都能让模型在代码优化上表现更好 [21:45 Jeff Dean]。
+
+方法有了,但智能体跑久了容易"翻车"怎么办?这正是下一个话题。很多人发现,智能体在连续跑个十来步之后就容易失控。Jeff Dean 解释,这往往是因为你让它做的事情,偏离了它在训练数据里见过的事物分布(out of distribution),它的表现就会突然变差 [23:10 Jeff Dean]。怎么解决?他给出了一个通用解法:跑多智能体系统,让多个智能体尝试不同路径,再用另一个评估器去筛选靠谱的方案,丢掉跑偏的 [23:41 Jeff Dean]。这其实就是把推理时计算用在做方案搜索上,能大幅提升长周期复杂任务的成功率。
+
+如果模型越来越强,小公司和普通人还能干什么?这正是主持人抛出的犀利问题。Jeff Dean 的判断是:像 Google 这样的公司肯定会持续优化通用模型,但通用模型必然有顾及不到的垂直领域。他给创业者的建议是:找那些你极其热爱、且通用模型现在成功率只有 0% 或 1% 的问题去做,而不是成功率已经到 20% 的领域 [28:46 Jeff Dean]。因为成功率到了 20%,意味着底层能力已经开始具备,通用模型再迭代一两个版本可能就把你覆盖了。他举了 AlphaFold 的例子:它不是通用模型,而是专门预测蛋白质折叠的极窄领域模型,但极其精准。在材料科学或芯片设计等领域,用特定数据训练一个小而精的模型,依然能建立极深的护城河 [30:30 Jeff Dean]。
+
+具体到当下,怎么才算一个真正优秀的 AI 原生创始人?话题转到了人的核心竞争力。Jeff Dean 强调,如果你能指挥成百上千个智能体帮你写代码,真正稀缺的技能就变成了"品味"——你到底让智能体去解决什么问题 [34:11 Jeff Dean]。怎么培养品味?他给了一个很实操的建议:写下你认为未来 12 个月会变重要的事,一年后回来复盘哪些成真了、哪些被人做了,通过不断校准来训练自己的判断力 [36:00 Jeff Dean]。他还分享了一个疯狂的思维实验:过去 60 年,芯片制造都在拼命追求零错误;但如果我们能用每天错 20 次的晶体管来造芯片,用软件层面的多路冗余来兜底,芯片制造和设计方法会被彻底颠覆 [38:28 Jeff Dean]。
+
+顺着"颠覆常识"的思路往下推,Jeff Dean 描绘了一个全自动加速的科学方法。他观察到,科学研究的底层逻辑其实就是"提出实验-实施-评估-得出结果"的循环 [42:39 Jeff Dean]。现在 AI 有能力把这个循环彻底自动化,并且把循环的周期压缩到极短。这背后的关键在于,要造出非常快的评估器。他举了量子化学的例子:以前跑一次密度泛函理论模拟器要一整晚,但同事们用它的输入输出训练了一个神经网络来近似这个模拟器,速度快了 30 万倍,准确度却几乎没降 [45:17 Jeff Dean]。有了这种极快的评估器,以后去吃个午饭的功夫就能筛选上千万种分子构型,这在以前是根本无法想象的。把这种能力用到 ML 本身,模型自己跑大量实验来递归地自我改进,将是下一个激动人心的突破 [46:31 Jeff Dean]。
+
+节目的最后,主持人问了一个切中要害的问题:即便在顶尖大厂工作如 Jeff Dean,也经历过被拒。2014 年,他和 Geoff Hinton 等人合写了一篇关于知识蒸馏(distillation,用大模型教小模型,让小模型又便宜又好用)的论文,被 NeurIPS 拒稿,理由是"不太可能产生重大影响" [48:36 Jeff Dean]。但如今,知识蒸馏已经是行业标配,也是 Gemini Flash 等一系列小而强的模型能够诞生的核心技术。所以他的建议很简单:就算被拒绝,只要你看准了这是世界真正需要的东西,继续做下去就好。
+
+## 本集带走
+
+最后收个尾,这一集值得带走的是这几层意思。第一,不要只盯着模型本身,真正的杠杆在于推理硬件的专用化和上下文工程的编排,把数据搬运的能耗账算清楚,你就知道为什么系统得长成现在这样。第二,长周期智能体才是解决复杂问题的关键,而让它们不跑偏的方法,是给清晰的技能定义和多路径搜索的机制。第三,通用模型越来越强是必然,小团队的机会在于找通用模型完全做不好(成功率 0% 或 1%)、且你极其热爱的垂直问题,用小模型死磕到底。第四,当写代码全被智能体接管,人的核心竞争力就只剩"品味"了;你可以通过做疯狂的思想实验、坚持复盘预测来刻意培养它。最后,哪怕你做出了日后改变整个行业的技术,也有可能在当下被拒稿、被冷落;只要你看准了这件事对世界有积极影响,就放手去做。",
+  "quotes": [
+    {
+      "en": "Probably one thing is people don't quite realize how possible it is to have agent-based systems that can run not just for an hour or two hours on a problem you care about, but for some problem domains and with highly capable models underlying them, you can get them to run for days or weeks and do really, really complicated tasks.",
+      "zh": "可能有一点是人们没有完全意识到,拥有基于智能体的系统的可能性有多大,这些系统不仅可以针对你关心的问题运行一两个小时,而且在某些问题领域,并在底层具备高能力模型的情况下,你可以让它们运行几天或几周,并完成非常、非常复杂的任务。",
+      "timestamp": "04:55",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "And so we came up with TPUs, which are sort of very specialized for essentially low precision, dense linear algebra, which is at the heart of nearly all of the modern machine learning algorithms we use today.",
+      "zh": "所以我们想出了 TPU,它对于本质上低精度的密集线性代数非常专业化,这是我们今天使用的几乎所有现代机器学习算法的核心。",
+      "timestamp": "07:45",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "Unlike the training data the model was trained on, where it's all kind of like trillions of tokens stirred together into a soup of hundreds of billions or trillions of parameters, but it's all less clear than the actual context that the model sees directly for this particular problem or use case.",
+      "zh": "不像模型训练时用的训练数据,那里就像是数万亿个标记搅在一起,煮成了一锅包含数千亿或数万亿个参数的汤,但这一切都不如模型在这个特定问题或用例中直接看到的实际上下文那么清晰。",
+      "timestamp": "17:17",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "So, you know, look for something where the model succeeds 0% or 1% of the time, not 20%.",
+      "zh": "所以,你知道,要寻找模型成功率为 0% 或 1% 的东西,而不是 20%。",
+      "timestamp": "28:46",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "I mean, I think it's, you'll have a lot more success when working with your virtual agents if you can clearly specify what it is you want.",
+      "zh": "我的意思是,我认为,如果你能清楚地指定你想要什么,那么在与你的虚拟智能体合作时你会成功得多。",
+      "timestamp": "31:49",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "that high-level wisdom of what to work on, I think, is incredibly important.",
+      "zh": "我认为这种关于做什么工作的高层智慧是非常重要。",
+      "timestamp": "34:41",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "What would, basically an interesting thought experiment is what would happen if you tried to build a system out of transistors that might have 20 errors per day rather than one every million years.",
+      "zh": "基本上,一个有趣的思想实验是,如果你尝试构建一个系统,使用每天可能有 20 个错误的晶体管,而不是每百万年一个,会发生什么。",
+      "timestamp": "38:28",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "And so I think in brains, when there are really important things you need to get from one place to another, there are multiple pathways that enable you to sort of do that.",
+      "zh": "所以我认为在大脑中,当你有真正重要的事情需要从一个地方传到另一个地方时,有多条路径让你能够做到这一点。",
+      "timestamp": "39:45",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "that's going to be really impactful and it's really, really important.",
+      "zh": "那将真的非常有影响力,而且真的非常重要。",
+      "timestamp": "43:53",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "So this is now a validation device, but instead of it taking a night, they made something that was 300,000 times faster and nearly as accurate as running the full scale simulator.",
+      "zh": "所以现在这是一个验证设备,但它不是需要一整晚,他们做出来的东西速度快了 30 万倍,而且几乎和运行全尺寸模拟器一样准确。",
+      "timestamp": "45:17",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "Yeah, I mean, I think I don't fault the program committee because, you know, a lot of times a paper gets three reviews and someone will look at, one of the reviewers will look at it, and in this case they said, oh, it's unlikely to have significant impact.",
+      "zh": "是的,我的意思是,我认为我不怪罪项目委员会,因为,你知道,很多时候一篇论文得到三份评审,有人会看,其中一位评审会看它,而在这种情况下他们说了,噢,不太可能产生重大影响。",
+      "timestamp": "48:38",
+      "speaker": "Jeff Dean"
+    }
+  ]
+}
+```

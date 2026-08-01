@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at",
+  "audio_mp3": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/6a1f350c-90b5-47b5-bfa5-20e411df9ecd/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=6a1f350c-90b5-47b5-bfa5-20e411df9ecd&feed=JGE3yC0V",
+  "duration_sec": 3556.864,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 712,
+  "asr": true,
+  "title_en": "Marc Andreessen and Chris Dixon: What’s at Stake in Crypto Regulation",
+  "podcast": "The a16z Show",
+  "date": "2026-08-01",
+  "speaker_map": {
+    "SPEAKER_03": "Robert Hackett",
+    "SPEAKER_04": "Marc Andreessen"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [
+    "Marc Andreessen"
+  ],
+  "host": "Robert Hackett",
+  "cohosts": [],
+  "title_zh": "加密货币走到十字路口：a16z 两位创始人谈为什么必须立法",
+  "guest_name": "Marc Andreessen",
+  "guest_title": "a16z 创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=spliced"
+}

@@ -3,11 +3,11 @@
   "podcast": "精选演讲",
   "date": "2026-06-10",
   "tags": [
-    "AI 理财助手",
-    "垂直智能体",
-    "消费级 AI",
-    "公司扁平化",
-    "欧洲科技投资"
+    "AI 财务助手",
+    "智能体",
+    "个性化",
+    "LLM 工作流",
+    "垂直软件"
   ],
   "categories": [
     "智能体",
@@ -41,7 +41,7 @@
       "name": "Clio",
       "file": "Clio",
       "primary": true,
-      "how_described": "本集讨论的核心公司，被描述为拥有 4 亿美元 ARR 的消费级 AI 理财助手。它采用订阅与金融产品抽成的双模式变现，并通过幽默感、个性化（如吐槽模式）的智能体主动替用户优化财务决策。",
+      "how_described": "本集主要讨论的公司，年营收已达 4 亿美元，定位为 AI 财务助手；最初靠正则表达式起家，后用 LLM 彻底重构架构，核心是通过主动干预帮用户实现财务健康。",
       "source": "glm",
       "evidence": [
         {
@@ -191,13 +191,574 @@
       ]
     },
     {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集说它必须是主动的、一直在线的（always on），能在合适的时间主动给用户推建议甚至直接替用户把钱转走；还提到刚毕业的年轻人手里能管着一整队并行的智能体去疯狂下注。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            56.43,
+            61.311
+          ],
+          "quote": "And actually, really interestingly, I've just built an AI agent that now plays for me and earns rake back.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            61.331,
+            69.032
+          ],
+          "quote": "So I make about, I shouldn't say this publicly, but I earn about 200K every year now just through my little agent that plays and barely beats the low stakes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 135,
+          "t": [
+            510.072,
+            513.474
+          ],
+          "quote": "Clear was a female agent, so we had these female comedians.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            770.229,
+            772.969
+          ],
+          "quote": "So it has to be this agent that's always on, always pushing information.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集说它彻底改变了公司的架构和产品；CEO 现在每天用它递归扫描全公司的 Slack、Notion 和 PR，生成直观的『船长日志』，让组织层级变扁平。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            260.307,
+            263.688
+          ],
+          "quote": "I presume today you're heavily LLM-based.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 81,
+          "t": [
+            293.817,
+            298.518
+          ],
+          "quote": "So you've gone from a supervised learning world to an LLM-based world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 194,
+          "t": [
+            744.314,
+            766.729
+          ],
+          "quote": "relevant data to an llm well you you can connect your plan account now to chat gpt and ask questions right but i would bet a huge amount of money they get very little engagement and it becomes a kind of side project that goes nowhere in reality for for that business because to engage people with financial advice it's got to be proactive and it's got to be agentic yes so people don't wake up and go oh how much do i spend on",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "recommender-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "推荐系统 (recommender system)",
+      "file": "推荐系统",
+      "primary": true,
+      "how_described": "本集说它的目标函数过去只优化『参与度（点击按钮）』，现在改成同时优化『财务健康分』和参与度，从结构化知识库里思考该在什么时候推什么建议。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            585.917,
+            588.659
+          ],
+          "quote": "So, actually, the objective function of the recommender system",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 221,
+          "t": [
+            877.318,
+            881.662
+          ],
+          "quote": "And then we have a recommender system that is thinking from the knowledge base.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "supervised-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "监督学习 (supervised learning)",
+      "file": "监督学习",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            274.451,
+            276.571
+          ],
+          "quote": "But then it was just traditional supervised learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            283.673,
+            287.014
+          ],
+          "quote": "So it was big, big, multi-class supervised learning.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            293.817,
+            298.518
+          ],
+          "quote": "So you've gone from a supervised learning world to an LLM-based world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 246,
+          "t": [
+            997.601,
+            1003.103
+          ],
+          "quote": "So it's been a, it was kind of linear, supervised learning, one tone of voice.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "intent-classification",
+      "type": "concept",
+      "role": "concept",
+      "name": "意图分类 (intent classification)",
+      "file": "意图分类",
+      "primary": false,
+      "how_described": "本集提到它是早期判断用户意图的技术，当时 Meta 实验室在这块推出了很多成果。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 67,
+          "t": [
+            239.021,
+            248.244
+          ],
+          "quote": "Yeah, but even back then, the meta lab we were just talking about, they were really focused on it, and they were pushing out a bunch of good, it was just intent classification back in the day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            276.611,
+            279.412
+          ],
+          "quote": "So you had intent classification and entity classification.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            287.374,
+            293.377
+          ],
+          "quote": "And then you had, and we still do, had the recommender systems and reinforcement learning to push you information at the right time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "transformer",
+      "type": "concept",
+      "role": "concept",
+      "name": "transformer",
+      "file": "transformer",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 66,
+          "t": [
+            237.5,
+            238.801
+          ],
+          "quote": "Two years before the transformer.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 68,
+          "t": [
+            248.764,
+            251.485
+          ],
+          "quote": "Then two years later, it was a transformer, then you had BERT.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bert",
+      "type": "concept",
+      "role": "concept",
+      "name": "BERT",
+      "file": "BERT",
+      "primary": false,
+      "how_described": "本集提到 Transformer 出来之后，就迎来了 BERT。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            248.764,
+            251.485
+          ],
+          "quote": "Then two years later, it was a transformer, then you had BERT.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gto",
+      "type": "concept",
+      "role": "concept",
+      "name": "GTO",
+      "file": "GTO",
+      "primary": false,
+      "how_described": "本集说这是扑克里按概率表做事的『博弈论最优』；并引申为对每个人财务生活的最优解。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            47.088,
+            50.249
+          ],
+          "quote": "This was back before you had GTO and the solvers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 22,
+          "t": [
+            73.833,
+            83.358
+          ],
+          "quote": "And how, so GTO is game theory optimal, which is doing the exact right thing that the probability tables would tell you that you should do, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 28,
+          "t": [
+            96.364,
+            102.087
+          ],
+          "quote": "You can probably beat the GTO solvers, but it's basically a solved game, which means online play is kind of...",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            116.573,
+            124.636
+          ],
+          "quote": "Like Black Scholes is a relatively recent invention for valuing financial options, and I hadn't realized that GTO is such a recent invention in poker.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            214.407,
+            217.269
+          ],
+          "quote": "GTO for your financial life, if you will.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "regexes",
+      "type": "concept",
+      "role": "concept",
+      "name": "正则表达式 (regexes)",
+      "file": "正则表达式",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            270.31,
+            271.33
+          ],
+          "quote": "It started with regexes.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            272.07,
+            274.111
+          ],
+          "quote": "We had a lot of regexes to start with.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "creative-destruction",
+      "type": "concept",
+      "role": "concept",
+      "name": "创造性破坏 (creative destruction)",
+      "file": "创造性破坏",
+      "primary": true,
+      "how_described": "本集反复强调创造性破坏是推动世界各行业发展、带来更好结果的动力，也是未来 AI 会带来的真正 GDP 增长所在。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 318,
+          "t": [
+            1269.603,
+            1271.766
+          ],
+          "quote": "Like, creative destruction is good.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1276.17,
+            1280.995
+          ],
+          "quote": "Creative destruction is what drives better outcomes for consumers or what drives better outcomes for businesses.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1281.355,
+            1283.237
+          ],
+          "quote": "So you need to enable creative destruction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1394.704,
+            1401.046
+          ],
+          "quote": "regulation and just kind of more broadly to the business climate, you think just more embrace of creative destruction, basically?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 354,
+          "t": [
+            1441.847,
+            1444.849
+          ],
+          "quote": "Yeah, conservatism to risk on creative destruction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1498.731,
+            1504.656
+          ],
+          "quote": "And all of Europe, you look at our pension capital, which should be the big pool of capital going into creative destruction,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1531.55,
+            1537.375
+          ],
+          "quote": "It's really bad for Europe if we don't have this creative destruction and ability to deploy institutional capital in a different way.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 545,
+          "t": [
+            2332.902,
+            2334.283
+          ],
+          "quote": "We want more creative destruction.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2342.989,
+            2351.392
+          ],
+          "quote": "Lots more creative destruction to come, and the story is not yet written, and it's not just, you know, a small number of firms that will be shipping everything useful.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "anthropic",
+      "file": "anthropic",
+      "primary": false,
+      "how_described": "本集在讨论 AI 个性时，随口提到了 Anthropic 的新模型 Fable 及其个性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 227,
+          "t": [
+            914.072,
+            928.979
+          ],
+          "quote": "predicted that personality to be such a big thing, but we're talking about the new anthropic model Fable and just what its personality is like, or famously GPT-4-0 had this very controversial personality where some people found it too sycophantic.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "fable",
+      "type": "concept",
+      "role": "concept",
+      "name": "Fable",
+      "file": "Fable",
+      "primary": false,
+      "how_described": "本集提到这是 Anthropic 的新模型，现场讨论了它所表现出的个性。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 227,
+          "t": [
+            914.072,
+            928.979
+          ],
+          "quote": "predicted that personality to be such a big thing, but we're talking about the new anthropic model Fable and just what its personality is like, or famously GPT-4-0 had this very controversial personality where some people found it too sycophantic.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "gpt-4-0",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPT-4-0",
+      "file": "GPT-4-0",
+      "primary": false,
+      "how_described": "本集说它有一个很有争议的个性，有人觉得太阿谀奉承，有人却很喜欢。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 227,
+          "t": [
+            914.072,
+            928.979
+          ],
+          "quote": "predicted that personality to be such a big thing, but we're talking about the new anthropic model Fable and just what its personality is like, or famously GPT-4-0 had this very controversial personality where some people found it too sycophantic.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "bnpl",
+      "type": "concept",
+      "role": "concept",
+      "name": "BNPL",
+      "file": "BNPL",
+      "primary": false,
+      "how_described": "本集说相比 max 限额只还最低额的信用卡，先买后付是更好的分期支付方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 297,
+          "t": [
+            1176.412,
+            1181.793
+          ],
+          "quote": "But, for example, do you see different, like, should people be consuming a lot of BNPL or a little?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1196.758,
+            1202.103
+          ],
+          "quote": "So BNPL is a better way to pay over an actual time period and make it more like a termed product.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "stablecoins",
+      "type": "concept",
+      "role": "concept",
+      "name": "稳定币 (stablecoins)",
+      "file": "稳定币",
+      "primary": false,
+      "how_described": "本集说有了稳定币，支付渠道没有摩擦和成本，就能转向类似中国的支付模式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 288,
+          "t": [
+            1141.763,
+            1147.168
+          ],
+          "quote": "Hopefully, like, the biggest thing will be stablecoins, and, like, how do we transact, and how do we move away from those rails?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
       "id": "stripe",
       "type": "company",
       "role": "company",
       "name": "Stripe",
       "file": "Stripe",
-      "primary": true,
-      "how_described": "本集对谈的赞助方及被多次提及的对标对象。本集提到它早期的冒险精神，以及创始人认为 Stripe 也应该利用底层支付数据构建知识库，为消费者提供智能建议。",
+      "primary": false,
+      "how_described": "本集作为主办方多次提及，对比说 Stripe 把复杂的支付变得极其简单、对开发者友好，而伟大的软件公司都需要极深的工艺沉淀。",
       "source": "glm",
       "evidence": [
         {
@@ -311,13 +872,55 @@
       ]
     },
     {
+      "id": "chatgpt",
+      "type": "concept",
+      "role": "concept",
+      "name": "ChatGPT",
+      "file": "ChatGPT",
+      "primary": false,
+      "how_described": "本集说现在可以把银行账户连到 ChatGPT 上问问题，但最后多半沦为无人问津的副业项目。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 194,
+          "t": [
+            744.314,
+            766.729
+          ],
+          "quote": "relevant data to an llm well you you can connect your plan account now to chat gpt and ask questions right but i would bet a huge amount of money they get very little engagement and it becomes a kind of side project that goes nowhere in reality for for that business because to engage people with financial advice it's got to be proactive and it's got to be agentic yes so people don't wake up and go oh how much do i spend on",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "本集提到有人可能会把财务报表连到 Claude 上开始问问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 192,
+          "t": [
+            719.241,
+            737.25
+          ],
+          "quote": "Do you see that competition dynamic with users where anyone who's building AI tools, there's always the, anyone who's building kind of specific vertical AI tools, there's always the dynamic where people might just, you know, take a bunch of financial statements or connect their bank account to Claude and start asking him questions.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
       "id": "monzo",
       "type": "company",
       "role": "company",
       "name": "Monzo",
       "file": "Monzo",
       "primary": false,
-      "how_described": "本集作为产品「反过来做」的正面案例被提及：它把传统银行复杂、模糊的操作变简单、透明，Clio 也借此理念让枯燥的理财建议变有趣。",
+      "how_described": "本集举例说，传统银行的用户体验极其糟糕，而 Monzo 把它变得简单透明，本节目的产品也走了这种逆向路线。",
       "source": "glm",
       "evidence": [
         {
@@ -332,323 +935,95 @@
       ]
     },
     {
-      "id": "agent",
+      "id": "msci-world-index",
       "type": "concept",
       "role": "concept",
-      "name": "智能体 (agent)",
-      "file": "智能体",
-      "primary": true,
-      "how_described": "本集将其描绘为 AI 的终极形态：与被动的「查询式」模型不同，智能体必须始终在线、主动出击（如主动帮你寻找信贷或优化收益），并在未来由懂行的初级员工指挥成「智能体舰队」大规模并行探索产品赌注。",
+      "name": "MSCI 全球指数基金 (MSCI World Index)",
+      "file": "MSCI 全球指数基金",
+      "primary": false,
+      "how_described": "本集主持人说，所谓够用的理财建议就是『别买激进的本土股票，买低费率的 MSCI 全球指数基金』。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 19,
+          "seg": 92,
           "t": [
-            56.43,
-            61.311
+            341.851,
+            343.932
           ],
-          "quote": "And actually, really interestingly, I've just built an AI agent that now plays for me and earns rake back.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 20,
-          "t": [
-            61.331,
-            69.032
-          ],
-          "quote": "So I make about, I shouldn't say this publicly, but I earn about 200K every year now just through my little agent that plays and barely beats the low stakes.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 135,
-          "t": [
-            510.072,
-            513.474
-          ],
-          "quote": "Clear was a female agent, so we had these female comedians.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 196,
-          "t": [
-            770.229,
-            772.969
-          ],
-          "quote": "So it has to be this agent that's always on, always pushing information.",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "creative-destruction",
-      "type": "concept",
-      "role": "concept",
-      "name": "创造性破坏 (creative destruction)",
-      "file": "创造性破坏",
-      "primary": true,
-      "how_described": "本集核心的宏观行业观点。创始人呼吁欧洲特别是英国的养老基金等机构资本必须拥抱创造性破坏，停止过度保守的监管与避险心态，否则在科技版图上将被中美彻底甩开。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 318,
-          "t": [
-            1269.603,
-            1271.766
-          ],
-          "quote": "Like, creative destruction is good.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 321,
-          "t": [
-            1276.17,
-            1280.995
-          ],
-          "quote": "Creative destruction is what drives better outcomes for consumers or what drives better outcomes for businesses.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 322,
-          "t": [
-            1281.355,
-            1283.237
-          ],
-          "quote": "So you need to enable creative destruction.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 346,
-          "t": [
-            1394.704,
-            1401.046
-          ],
-          "quote": "regulation and just kind of more broadly to the business climate, you think just more embrace of creative destruction, basically?",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 354,
-          "t": [
-            1441.847,
-            1444.849
-          ],
-          "quote": "Yeah, conservatism to risk on creative destruction.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 366,
-          "t": [
-            1498.731,
-            1504.656
-          ],
-          "quote": "And all of Europe, you look at our pension capital, which should be the big pool of capital going into creative destruction,",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 373,
-          "t": [
-            1531.55,
-            1537.375
-          ],
-          "quote": "It's really bad for Europe if we don't have this creative destruction and ability to deploy institutional capital in a different way.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 545,
-          "t": [
-            2332.902,
-            2334.283
-          ],
-          "quote": "We want more creative destruction.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 550,
-          "t": [
-            2342.989,
-            2351.392
-          ],
-          "quote": "Lots more creative destruction to come, and the story is not yet written, and it's not just, you know, a small number of firms that will be shipping everything useful.",
+          "quote": "You should buy the MSCI World Index.",
           "speaker": "SPEAKER_01"
         }
       ]
     },
     {
-      "id": "personality",
+      "id": "s-p-500",
       "type": "concept",
       "role": "concept",
-      "name": "人格化 (personality)",
-      "file": "人格化",
-      "primary": true,
-      "how_described": "本集强调它是 AI 产品的核心差异化因素与驱动力。通过调节语气，让建议变得有趣且贴合用户的具体处境，能极大改变用户参与度并推动收入（MAU）指标。",
+      "name": "标普 500 指数 (S&P 500)",
+      "file": "标普 500 指数",
+      "primary": false,
+      "how_described": "本集说个人理财其实是个已解决的问题，就是去投资标普 500 指数。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 225,
+          "seg": 359,
           "t": [
-            901.564,
-            907.728
+            1466.946,
+            1468.607
           ],
-          "quote": "One thing we were talking about backstage is the concept of personality in AI is interesting.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 227,
-          "t": [
-            914.072,
-            928.979
-          ],
-          "quote": "predicted that personality to be such a big thing, but we're talking about the new anthropic model Fable and just what its personality is like, or famously GPT-4-0 had this very controversial personality where some people found it too sycophantic.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 229,
-          "t": [
-            935.682,
-            942.925
-          ],
-          "quote": "And I get the impression that for you guys, the personality of Clio and how it interacts with you",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 231,
-          "t": [
-            946.029,
-            948.853
-          ],
-          "quote": "And so what goes into getting the personality right?",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 233,
-          "t": [
-            951.176,
-            952.959
-          ],
-          "quote": "Do you try to suss out the personality people want?",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 236,
-          "t": [
-            955.522,
-            959.788
-          ],
-          "quote": "Have you moved beyond the army of comedians, or is that still how you engineer the personality?",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 240,
-          "t": [
-            971.423,
-            979.052
-          ],
-          "quote": "I think for any brand or any company doing this, it moves the metrics, the personality and the personalization to the user dramatically.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 245,
-          "t": [
-            988.918,
-            997.181
-          ],
-          "quote": "So we've known from like, I don't know, the first kind of like three, six months of building this business that the brand and the personality and the tone of voice mattered a lot.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 253,
-          "t": [
-            1024.675,
-            1034.964
-          ],
-          "quote": "But is your general learning that, you know, finance for a lot of people is a high-stakes topic, it's maybe they're nervous about it, it's a bit of a schlep, and so you're trying to make it more approachable as kind of a fundamental personality?",
-          "speaker": "SPEAKER_01"
-        }
-      ]
-    },
-    {
-      "id": "llm",
-      "type": "concept",
-      "role": "concept",
-      "name": "LLM",
-      "file": "LLM",
-      "primary": true,
-      "how_described": "本集说它彻底改变了 Clio 的底层架构与产品。以前依赖死板的规则与监督学习，有了大模型后，不仅能处理更复杂的结构化知识库，还能实现极致个性化的交互语气。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 70,
-          "t": [
-            260.307,
-            263.688
-          ],
-          "quote": "I presume today you're heavily LLM-based.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 81,
-          "t": [
-            293.817,
-            298.518
-          ],
-          "quote": "So you've gone from a supervised learning world to an LLM-based world.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 194,
-          "t": [
-            744.314,
-            766.729
-          ],
-          "quote": "relevant data to an llm well you you can connect your plan account now to chat gpt and ask questions right but i would bet a huge amount of money they get very little engagement and it becomes a kind of side project that goes nowhere in reality for for that business because to engage people with financial advice it's got to be proactive and it's got to be agentic yes so people don't wake up and go oh how much do i spend on",
+          "quote": "And that's investing in the S&P 500.",
           "speaker": "SPEAKER_00"
         }
       ]
     },
     {
-      "id": "knowledge-base",
-      "type": "concept",
-      "role": "concept",
-      "name": "知识库 (knowledge base)",
-      "file": "知识库",
-      "primary": true,
-      "how_described": "本集讲到通过递归方式让模型阅读所有 Slack 消息、PR 和文档，从而构建起全公司范围的「船长日志」知识库；同时也为每个用户构建其财务目标与历史对话的知识库，以此提供智能决策。",
+      "id": "robinhood",
+      "type": "company",
+      "role": "company",
+      "name": "Robinhood",
+      "file": "Robinhood",
+      "primary": false,
+      "how_described": "本集说如果只卖金融产品而不带建议，最终就会像 Robinhood 一样，走上日内交易等追求利润最大化的路子。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 211,
+          "seg": 309,
           "t": [
-            842.287,
-            850.83
+            1229.151,
+            1241.4
           ],
-          "quote": "But in reality, and what we've been doing, you can build a knowledge base of every single human, like their financial aspirations, their financial health, their financial goals.",
+          "quote": "I don't want to bash Robinhood, but you end up just selling products and trying to get the most margin, and it leads you down this way of like, ooh, let's do day trading, ooh, let's do... None of these things are bad, right?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "concept",
+      "role": "concept",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": false,
+      "how_described": "本集说用 LLM 扫描公司全员的 Slack 消息，汇总成『船长日志』了解公司动态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 461,
+          "t": [
+            1932.43,
+            1933.97
+          ],
+          "quote": "You know their Slack messages.",
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 218,
+          "seg": 470,
           "t": [
-            866.69,
-            868.071
+            1955.198,
+            1960.321
           ],
-          "quote": "knowledge base at Stripe.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 221,
-          "t": [
-            877.318,
-            881.662
-          ],
-          "quote": "And then we have a recommender system that is thinking from the knowledge base.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 473,
-          "t": [
-            1971.807,
-            1974.769
-          ],
-          "quote": "and it just builds a knowledge base by going over all these things.",
-          "speaker": "SPEAKER_00"
+          "quote": "Like, how are you scouring the Slack channels and kind of ingesting on all the docs?",
+          "speaker": "SPEAKER_01"
         },
         {
           "seg": 474,
@@ -662,169 +1037,22 @@
       ]
     },
     {
-      "id": "frontier-model",
+      "id": "notion",
       "type": "concept",
       "role": "concept",
-      "name": "前沿模型 (frontier model)",
-      "file": "前沿模型",
+      "name": "Notion",
+      "file": "Notion",
       "primary": false,
-      "how_described": "本集认为前沿模型本质上是被动的，目前主要在替代 Google 搜索。投资者毫无技术常识，盲目把大笔钱投给前沿实验室，幻想写个提示词就能摧毁行业，这严重夸大了其能力。",
+      "how_described": "本集说用 LLM 摄取全公司的 Notion 文档来掌握组织内部发生的事。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 187,
+          "seg": 462,
           "t": [
-            694.857,
-            705.363
+            1934.01,
+            1935.13
           ],
-          "quote": "So we're going to nail that first, and I think you're going to have these four or five agents that go really deeply vertical in these big, specific areas of your life, and I don't think they're going to be the frontier model companies, actually.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 197,
-          "t": [
-            772.989,
-            776.39
-          ],
-          "quote": "If you think about all the frontier model companies, it's a very reactive thing.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 533,
-          "t": [
-            2290.801,
-            2298.108
-          ],
-          "quote": "And this kind of idea that someone wrote a prompt and they've just got a frontier model that's going to kill everything is wildly overblown and investors are just...",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "supervised-learning",
-      "type": "concept",
-      "role": "concept",
-      "name": "监督学习 (supervised learning)",
-      "file": "监督学习",
-      "primary": false,
-      "how_described": "本集回顾了在大模型出现前，Clio 依靠大量人工标注数据、做意图分类等传统的监督学习手段来硬做自然语言处理。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 76,
-          "t": [
-            274.451,
-            276.571
-          ],
-          "quote": "But then it was just traditional supervised learning.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 79,
-          "t": [
-            283.673,
-            287.014
-          ],
-          "quote": "So it was big, big, multi-class supervised learning.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 81,
-          "t": [
-            293.817,
-            298.518
-          ],
-          "quote": "So you've gone from a supervised learning world to an LLM-based world.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 246,
-          "t": [
-            997.601,
-            1003.103
-          ],
-          "quote": "So it's been a, it was kind of linear, supervised learning, one tone of voice.",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "intent-classification",
-      "type": "concept",
-      "role": "concept",
-      "name": "意图分类 (intent classification)",
-      "file": "意图分类",
-      "primary": false,
-      "how_described": "本集提到的早期 NLP 技术概念，指识别用户输入的这句话到底想干嘛，Clio 在早期缺乏智能模型时重度依赖这种死板的大规模多类分类。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 67,
-          "t": [
-            239.021,
-            248.244
-          ],
-          "quote": "Yeah, but even back then, the meta lab we were just talking about, they were really focused on it, and they were pushing out a bunch of good, it was just intent classification back in the day.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 77,
-          "t": [
-            276.611,
-            279.412
-          ],
-          "quote": "So you had intent classification and entity classification.",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "recommender-system",
-      "type": "concept",
-      "role": "concept",
-      "name": "推荐系统 (recommender system)",
-      "file": "推荐系统",
-      "primary": false,
-      "how_described": "本集提到 Clio 用它来在合适的时间向用户主动推送信息，其目标函数从过去的单一追求点击参与度，升级成了现在的「财务健康度」与参与度双指标优化。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 156,
-          "t": [
-            585.917,
-            588.659
-          ],
-          "quote": "So, actually, the objective function of the recommender system",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 221,
-          "t": [
-            877.318,
-            881.662
-          ],
-          "quote": "And then we have a recommender system that is thinking from the knowledge base.",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "stablecoins",
-      "type": "concept",
-      "role": "concept",
-      "name": "稳定币 (stablecoins)",
-      "file": "稳定币",
-      "primary": false,
-      "how_described": "本集预言它将带来金融基础设施的大变革，因为它能消除摩擦和成本，使支付轨道真正顺畅，从而可能让微交易取代现有的订阅主导模式。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 288,
-          "t": [
-            1141.763,
-            1147.168
-          ],
-          "quote": "Hopefully, like, the biggest thing will be stablecoins, and, like, how do we transact, and how do we move away from those rails?",
+          "quote": "You know Notion docs.",
           "speaker": "SPEAKER_00"
         }
       ]

@@ -2,27 +2,35 @@
   "kept": [
     {
       "i": 1,
-      "timestamp": "01:03",
+      "timestamp": "18:01",
       "speaker": "Barney Hussey-Yeo",
       "trimmed": false,
-      "tsWas": "01:01",
-      "spkWas": "Unknown"
+      "tsWas": "18:01",
+      "spkWas": "Barney"
     },
     {
       "i": 2,
-      "timestamp": "08:53",
+      "timestamp": "19:53",
       "speaker": "Barney Hussey-Yeo",
       "trimmed": false,
-      "tsWas": "08:53",
-      "spkWas": "Unknown"
+      "tsWas": "19:53",
+      "spkWas": "Barney"
     },
     {
-      "i": 4,
+      "i": 3,
       "timestamp": "27:39",
       "speaker": "Barney Hussey-Yeo",
       "trimmed": false,
       "tsWas": "27:39",
-      "spkWas": "Unknown"
+      "spkWas": "Barney"
+    },
+    {
+      "i": 4,
+      "timestamp": "30:01",
+      "speaker": "Barney Hussey-Yeo",
+      "trimmed": false,
+      "tsWas": "30:00",
+      "spkWas": "Barney"
     },
     {
       "i": 5,
@@ -30,7 +38,7 @@
       "speaker": "Barney Hussey-Yeo",
       "trimmed": false,
       "tsWas": "37:10",
-      "spkWas": "Unknown"
+      "spkWas": "Barney"
     },
     {
       "i": 6,
@@ -38,22 +46,8 @@
       "speaker": "Barney Hussey-Yeo",
       "trimmed": false,
       "tsWas": "38:10",
-      "spkWas": "Unknown"
-    },
-    {
-      "i": 7,
-      "timestamp": "38:52",
-      "speaker": "Barney Hussey-Yeo",
-      "trimmed": false,
-      "tsWas": "38:52",
-      "spkWas": "Unknown"
+      "spkWas": "Barney"
     }
   ],
-  "dropped": [
-    {
-      "i": 3,
-      "reason": "逐字命中不了转写稿(裁剪后仍无)",
-      "en": "So actually, the objective function of the recommender system used to just be engagement, so it was like, can we make you click this button, and it was fun. But now it is financial health and engagement."
-    }
-  ]
+  "dropped": []
 }

@@ -1,0 +1,171 @@
+{
+  "title_zh": "Jeff Dean 谈 AI 的下一个突破:推理硬件、上下文工程与自动化科学",
+  "tldr": "从 TPU 起源到智能体编排,拆解 AI 的性能瓶颈、创始人机会与未来自动化实验循环。",
+  "digest_md": "移动一份数据所消耗的能量,是真正对它进行一次数学计算的 1000 倍。在 AI 系统里,这个隐藏的物理鸿沟悄悄决定了我们模型训练的规则、产品延迟的底线,甚至决定了哪些天马行空的架构能成为现实。说出这句话的人是 Jeff Dean,他亲手构建了 MapReduce、Bigtable、TensorFlow 和 TPU,奠定了现代大规模计算的基础。\n\n在这一集对谈里,他回溯了 Google 历史上几次关键的「餐巾纸数学」——也就是在纸背上快速估算成本与算力极限,如何催生了 TPU;并分享了当下 AI 系统的核心权衡:与其死磕模型大小,不如死磕数据搬运成本与延迟。他还聊了为什么上下文工程(一种通过精准组织外部信息、检索和工具给模型下指令的方法)是每个普通开发者都能上手的杠杆;以及怎么给智能体写好规格说明、用多智能体搜索防止它们跑偏。最后,他给未来的 AI 创始人指了一条明路:去寻找那些通用模型成功率只有 0% 到 1% 的垂直领域,以及那些能用自动化实验循环去加速的科学问题。\n\n先从他对 AI 系统底层的判断说起。在 Jeff Dean 看来,AI 的未来不在于通用计算设备,而在于专用化。通用模型越来越强是不争的事实,但智能体真正普及的瓶颈是延迟——没人喜欢干等回复。GPU 或 TPU 这类通用计算设备为了兼容各种任务,做出了很多妥协。Jeff Dean 指出,如果你针对特定问题打造专用硬件,哪怕它除了低精度密集线性代数(机器学习的核心数学运算)之外什么都干不了,只要把数据搬运和计算的能耗降下来,就能把延迟降低 20 到 30 倍 [08:12 Jeff Dean]。这就是 TPU 的起源故事:当年为了不让语音识别把服务器机群翻倍撑爆,他从第一性原理出发,做了一块只算矩阵乘法的专用芯片 [07:39 Jeff Dean]。\n\n硬件的物理限制,又直接塑造了软件架构。回到开头那 1000 倍能量差的鸿沟,因为移动数据太贵,我们才不得不使用「批处理」(把大量数据打包一起送进处理器),以此来分摊搬运成本 [13:08 Jeff Dean]。但对于极低延迟要求的推理任务来说,攒一大堆数据再算并不现实,这就为未来的推理专用硬件留下了巨大的创新空间。\n\n说完了底层硬件的瓶颈,接下来的问题是:在模型本身之外,应用层有什么杠杆?\n\n答案就是「上下文工程」[16:42 Jeff Dean]。以前人们以为 AI 进步就是堆参数、堆数据,把成万亿的 token 搅成一锅参数汤。但模型直接看到的「实际上下文」要比那些模糊的训练记忆清晰得多。所谓上下文工程,就是给模型配备清晰的检索记录、工具使用指南和拆解好的任务大纲。Jeff Dean 和同事 Sanjay 就亲自写过一套技能,教模型如何自我迭代测试基准、修改底层库代码,让智能体像顶级工程师一样自动优化系统性能 [20:59 Jeff Dean]。\n\n工具变强了,但智能体经常跑到第 30 步就彻底崩溃,这又该怎么办?\n\n这正是编排多智能体系统要解决的痛点。智能体之所以会跑偏,是因为脱离了训练数据的「舒适区」[23:20 Jeff Dean]。应对方法是采用推理时计算搜索:不依赖单打独斗,而是让多个智能体去尝试不同路径,再引入另一个模型作为「评估器」进行打分,果断放弃那些看起来不靠谱的方向 [23:58 Jeff Dean]。此外,想管理成百上千个智能体,关键是写出极度清晰的设计文档或规格说明 [32:03 Jeff Dean]。Jeff Dean 举了个例子:今天用模型把一整套软件从 Python 翻译成 Go 效果极好,原因就在于源代码本身就是一份没有歧义的完美规格书 [33:22 Jeff Dean]。\n\n既然通用模型和智能体编排越来越强,初创公司和普通人还有机会吗?这正是下一个话题。\n\nJeff Dean 坦言,大厂的通用模型会覆盖绝大多数通用场景,但小团队在两类问题上大有可为 [26:08 Jeff Dean]。第一,是掌握着通用模型看不到的独家数据(比如用户极度私人的信息);第二,是像 AlphaFold(预测蛋白质结构的专用模型)那样,在一个垂直科学领域用专有数据训练出高精度的利基模型 [30:30 Jeff Dean]。他给出了一个非常具体的试金石:去测试通用模型在你那个领域的成功率——如果是 0% 或 1%,放心去干;如果已经能做到 20%,说明能力已经开始萌芽,一年后大概率会被大模型吞掉 [28:46 Jeff Dean]。\n\n放手让智能体去写代码,创始人真正稀缺的技能又是什么?是品味。\n\nJeff Dean 将其比作选研究课题:执行再完美,如果一开始选了个无聊的问题,也是白费力气。品味就是那种知道「什么事情值得做」的高层智慧,这需要丰富的经验和不断做思想实验 [34:11 Jeff Dean]。比如他常做一个疯狂假设:如果芯片制造放弃追求零错误,允许晶体管每天出错 20 次,而是像大规模分布式系统那样靠冗余路径来兜底,芯片设计和制造会有什么不同?[38:34 Jeff Dean] 很多时候现行标准都有其历史合理性,但偶尔推翻一个常理,就能诞生下一个 MapReduce 或 TPU [40:30 Jeff Dean]。\n\n这种从第一性原理出发的思考,最后指向了他眼中最激动人心的未来:用 AI 自动化科学方法本身。\n\n实验、评估、得出结果——这是科学方法的基础。Jeff Dean 认为下一个大趋势,是让 AI 接管整个实验循环。就像他的同事将一个需要跑一整晚的量子化学模拟器,训练成了一个速度快 30 万倍的神经网络近似模型,一顿午饭的功夫就能筛选 1000 万个分子构型 [45:17 Jeff Dean]。当你把这个极速实验循环搭配上智能体拆解子问题的能力,机器就能递归地自我改进。在这个未来里,我们真正要优化的,是「每单位算力能换来多少次新发现」[47:34 Jeff Dean]。\n\n## 本集带走\n\n最后收个尾,这一集值得带走的是几条清晰的判断。第一,AI 的瓶颈在底层硬件,而硬件的关键是能耗与延迟:只要移动数据的成本远高于计算成本,通过专用化降低延迟、优化批处理,就会是产生质变的突破口。第二,别只盯着模型大小,上下文工程才是应用层的杠杆,把工具和检索指南写清楚,人人都能让模型像资深工程师一样干活。第三,智能体跑偏是常态,解决办法是多开几条路并行试错,用一个专门的模型来当裁判做评估。第四,对于想创业的人,去找那些大模型成功率只有 1% 的领域,或者借助独有的小众数据训一个高精度利基模型;当 AI 能写所有代码时,挑对问题的高层智慧和品味,才是创始人真正的护城河。最后,用 AI 自动跑通极速实验循环,将从根本上改变我们做科学与工程的方式,我们真正该追求的终极指标,是每单位算力能换来多少次真实的新发现。",
+  "quotes": [
+    {
+      "en": "Probably one thing is people don't quite realize how possible it is to have agent-based systems that can run not just for an hour or two hours on a problem you care about, but for some problem domains and with highly capable models underlying them, you can get them to run for days or weeks and do really, really complicated tasks.",
+      "zh": "可能有一点是人们没有完全意识到,拥有基于智能体的系统的可能性有多大,这些系统不仅可以针对你关心的问题运行一两个小时,而且在某些问题领域,并在底层具备高能力模型的情况下,你可以让它们运行几天或几周,并完成非常、非常复杂的任务。",
+      "timestamp": "04:55",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "that system produced a chip a couple of years later that was 30 to 80 times more energy efficient than CPUs and GPUs of the day, and also much, much lower latency, like 20 to 30x lower latency.",
+      "zh": "那个系统在几年后生产出了一款芯片,其能效比当时的 CPU 和 GPU 高 30 到 80 倍,而且延迟也要低得多,比如低 20 到 30 倍。",
+      "timestamp": "08:12",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "if you truly understand the data, you should be able to compress it really well.",
+      "zh": "如果你真正理解了数据,你应该能够非常好地压缩它。",
+      "timestamp": "15:55",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "So, you know, look for something where the model succeeds 0% or 1% of the time, not 20%.",
+      "zh": "所以,你知道,要寻找模型成功率为 0% 或 1% 的东西,而不是 20%。",
+      "timestamp": "28:46",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "a researcher can have all the tools and all the techniques, but often most of the battle is what problem are you gonna spend your time on?",
+      "zh": "一个研究员可以拥有所有的工具和所有的技术,但往往大部分战斗在于你要把时间花在什么问题上?",
+      "timestamp": "34:18",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "So what would, basically an interesting thought experiment is what would happen if you tried to build a system out of transistors that might have 20 errors per day rather than one every million years.",
+      "zh": "所以基本上,一个有趣的思想实验是,如果你尝试构建一个系统,使用每天可能有 20 个错误的晶体管,而不是每百万年一个。",
+      "timestamp": "38:28",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "So this is now a validation device, but instead of it taking a night, they made something that was 300,000 times faster and nearly as accurate as running the full scale simulator.",
+      "zh": "所以现在这是一个验证设备,但它不是需要一整晚,他们做出来的东西速度快了 30 万倍,而且几乎和运行全尺寸模拟器一样准确。",
+      "timestamp": "45:17",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "If you think about our large scale models today, they probably see a thousand times as much data as a human does by the age of 18.",
+      "zh": "如果你想想我们现在的大规模模型,它们看到的数据量可能是人类到 18 岁时所见数据的一千倍。",
+      "timestamp": "56:00",
+      "speaker": "Jeff Dean"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "I think you will see a lot more automation of ML systems themselves, basically getting ML systems to improve their capabilities by running lots of experiments, breaking things down into subproblems, running those subproblems in a tight automatic experimentation loop, putting the results together, and being able to then get some improved system.",
+      "zh": "我认为你会看到 ML 系统本身有更多的自动化,基本上是让 ML 系统通过运行大量实验来提高它们的能力,把事情分解成子问题,在一个紧密的自动化实验循环中运行这些子问题,把结果汇总,然后能够得到一个改进的系统。",
+      "timestamp": "01:51",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "Probably one thing is people don't quite realize how possible it is to have agent-based systems that can run not just for an hour or two hours on a problem you care about, but for some problem domains and with highly capable models underlying them, you can get them to run for days or weeks and do really, really complicated tasks.",
+      "zh": "可能有一点是人们没有完全意识到,拥有基于智能体的系统的可能性有多大,这些系统不仅可以针对你关心的问题运行一两个小时,而且在某些问题领域,并在底层具备高能力模型的情况下,你可以让它们运行几天或几周,并完成非常、非常复杂的任务。",
+      "timestamp": "04:55",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "that system produced a chip a couple of years later that was 30 to 80 times more energy efficient than CPUs and GPUs of the day, and also much, much lower latency, like 20 to 30x lower latency.",
+      "zh": "那个系统在几年后生产出了一款芯片,其能效比当时的 CPU 和 GPU 高 30 到 80 倍,而且延迟也要低得多,比如低 20 到 30 倍。",
+      "timestamp": "08:12",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "Because if you didn't have that 1,000x difference, then you wouldn't have to do batching, but you have to do batching of many examples or maybe many tokens at once in order to amortize that data movement so that you can not pay 1,000x slowdown, but pay 1,000x divided by batch size energy cost.",
+      "zh": "因为如果你没有那 1000 倍的差异,那么你就不必做批处理,但你必须一次对许多示例或者可能是许多 token 进行批处理,以便摊销该数据移动,这样你就不必支付 1000 倍的减速,而是支付 1000 倍除以批量大小的能量成本。",
+      "timestamp": "13:08",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "So I think there's a lot of room for specializing hardware more for inference than we are today.",
+      "zh": "我认为有更多的空间来为推理而不是像今天这样更多地专门化硬件。",
+      "timestamp": "15:02",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "if you truly understand the data, you should be able to compress it really well.",
+      "zh": "如果你真正理解了数据,你应该能够非常好地压缩它。",
+      "timestamp": "15:54",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "Unlike the training data the model was trained on, where it's all kind of like trillions of tokens stirred together into a soup of hundreds of billions or trillions of parameters, but it's all less clear than the actual context that the model sees directly for this particular problem or use case.",
+      "zh": "不像模型训练时用的训练数据,那里就像是数万亿个标记搅在一起,煮成了一锅包含数千亿或数万亿个参数的汤,但这一切都不如模型在这个特定问题或用例中直接看到的实际上下文那么清晰。",
+      "timestamp": "17:17",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "you know, this is the whole, you know, orchestration of complex agent and multi-agent systems that I think is going to be more and more important and super exciting times over there.",
+      "zh": "这就是整个复杂的智能体和多智能体系统的编排,我认为这将变得越来越重要,那里将是非常令人兴奋的时代。",
+      "timestamp": "17:57",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "I think having multi-agent systems where you have multiple agents trying different approaches and you can evaluate, you have maybe another model or another agent that's evaluating which ones of those seem promising is another way to in some sense, search the path, search the space of possible solutions?",
+      "zh": "我认为拥有多智能体系统,即你有多个智能体尝试不同的方法,你可以进行评估,你有也许另一个模型或另一个智能体正在评估其中哪些看起来有前途,这是另一种方式,可以在某种意义上,搜索路径,搜索可能的解决方案空间?",
+      "timestamp": "23:41",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "that's a very, very useful general technique is, you know, inference time compute to perform search over plausible ways of solving the problem that can get much, much higher performance or much more reliability in long running agent flows.",
+      "zh": "这是一个非常、非常有用的通用技术,也就是推理时计算,在合理的解决问题的方法上执行搜索,这可以在长时间运行的智能体流程中获得高得多的性能或高得多的可靠性。",
+      "timestamp": "24:12",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "So you have to figure out, is that thing you're working on, is that going to be a durable thing?",
+      "zh": "所以你需要弄清楚,你正在做的事情,那会是一个持久的事情吗?",
+      "timestamp": "26:59",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "So, you know, look for something where the model succeeds 0% or 1% of the time, not 20%.",
+      "zh": "所以,你知道,要寻找模型成功率为 0% 或 1% 的东西,而不是 20%。",
+      "timestamp": "28:46",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "And now we actually have agent-based systems that can do the writing, but the importance of specifying what it is you want has actually gone up",
+      "zh": "所以现在我们实际上拥有基于智能体的系统可以做编写,但指定你想要的东西的重要性实际上上升了",
+      "timestamp": "32:36",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "having incredibly good taste in what you ask your agents to work on, right?",
+      "zh": "对你要求你的智能体做什么具有非常好的品味,对吧?",
+      "timestamp": "34:07",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "a researcher can have all the tools and all the techniques, but often most of the battle is what problem are you gonna spend your time on?",
+      "zh": "一个研究员可以拥有所有的工具和所有的技术,但往往大部分战斗在于你要把时间花在什么问题上?",
+      "timestamp": "34:17",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "So what would, basically an interesting thought experiment is what would happen if you tried to build a system out of transistors that might have 20 errors per day rather than one every million years.",
+      "zh": "所以基本上,一个有趣的思想实验是,如果你尝试构建一个系统,使用每天可能有 20 个错误的晶体管,而不是每百万年一个。",
+      "timestamp": "38:34",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "So this is now a validation device, but instead of it taking a night, they made something that was 300,000 times faster and nearly as accurate as running the full scale simulator.",
+      "zh": "所以现在这是一个验证设备,但它不是需要一整晚,他们做出来的东西速度快了 30 万倍,而且几乎和运行全尺寸模拟器一样准确。",
+      "timestamp": "45:17",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "And, you know, effectively you want to optimize, you know, your discoveries per unit of compute input.",
+      "zh": "而且,你知道,实际上你想要优化,你知道,你的每单位计算输入的发现数。",
+      "timestamp": "47:34",
+      "speaker": "Jeff Dean"
+    },
+    {
+      "en": "If you think about our large scale models today, they probably see a thousand times as much data as a human does by the age of 18.",
+      "zh": "如果你想想我们现在的大规模模型,它们看到的数据量可能是人类到 18 岁时所见数据的一千倍。",
+      "timestamp": "56:00",
+      "speaker": "Jeff Dean"
+    }
+  ]
+}

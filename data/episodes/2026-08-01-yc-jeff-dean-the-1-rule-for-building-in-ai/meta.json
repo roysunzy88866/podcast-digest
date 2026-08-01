@@ -1,0 +1,23 @@
+{
+  "id": "2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai",
+  "audio_mp3": "https://anchor.fm/s/8c1524bc/podcast/play/123586250/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-31%2F428976415-44100-2-4750afd8ab692.mp3",
+  "duration_sec": 3425.732,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 521,
+  "asr": true,
+  "title_en": "Jeff Dean: The 1% Rule for Building in AI",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-08-01",
+  "cover_official_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/23401959/23401959-1785514200270-72a7d09aaff28.jpg",
+  "speaker_map": {
+    "SPEAKER_01": "Jeff Dean"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Jeff Dean",
+  "cohosts": [],
+  "title_zh": "Jeff Dean 谈 AI 的下一个突破:推理硬件、上下文工程与自动化科学",
+  "guest_name": "Jeff Dean",
+  "guest_title": "",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=none"
+}
