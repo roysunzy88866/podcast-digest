@@ -209,6 +209,32 @@ describe("D17 降误报(ADR 0013 · standard-change 2026-07-19):版本号/复数
     const r = checkProse("本集提到了 Zorptron 这家公司", c(), { entities: [] });
     expect(r.failures.some((f: any) => f.kind === "D17-专名" && f.name === "Zorptron")).toBe(true);
   });
+
+  // 已核实真实专名白名单(REAL_PROPER_NOUNS,standard-change 2026-08-01 · 口径承 drift #26/D46):
+  // ASR 把英伟达真实产品 NIM/Nemotron 听岔得连误写形式都不剩 → 转写稿查无 → D17 误判「疑编造」= 误伤。
+  // 别名表 forms 召回救不了(它要求某 form 在真相源出现过),故靠白名单报户口。救 Jensen×LangChain 演讲。
+  describe("★ 已核实真专名白名单:NIM / Nemotron(英伟达产品,救 ASR 误伤)", () => {
+    // 关键:fixture 转写稿**故意不含** nim / nemotron —— 否则会经真相源直接命中,白名单这条路径根本没被测到(假绿)。
+    it("NIM 不在转写稿,仍不被 D17 判编造(白名单免检)", () => {
+      const src = T.map((s: any) => s.text).join(" ").toLowerCase();
+      expect(src).not.toContain("nim");
+      const r = checkProse("英伟达把模型打包成 NIM 微服务部署", c(), { entities: [] });
+      expect(r.failures.some((f: any) => f.kind === "D17-专名" && f.name === "NIM")).toBe(false);
+    });
+    it("Nemotron 不在转写稿,仍不被 D17 判编造(白名单免检)", () => {
+      const src = T.map((s: any) => s.text).join(" ").toLowerCase();
+      expect(src).not.toContain("nemotron");
+      const r = checkProse("他们开源了 Nemotron 模型家族", c(), { entities: [] });
+      expect(r.failures.some((f: any) => f.kind === "D17-专名" && f.name === "Nemotron")).toBe(false);
+    });
+    it("★ 变异守卫 / 不放水:同句里编造的假专名(「Zorptron」)仍被 D17 拦(白名单没把整句放行)", () => {
+      // 若把 REAL_PROPER_NOUNS 过滤去掉,NIM/Nemotron 两条会红(变异验证);
+      // 这条保证白名单是**逐词**免检、不是「有真专名就整句放行」—— 假专名照拦。
+      const r = checkProse("英伟达的 NIM 里塞了个编造的 Zorptron 公司", c(), { entities: [] });
+      expect(r.failures.some((f: any) => f.kind === "D17-专名" && f.name === "NIM")).toBe(false);
+      expect(r.failures.some((f: any) => f.kind === "D17-专名" && f.name === "Zorptron")).toBe(true);
+    });
+  });
   // 相邻词拼接容错(standard-change 2026-07-20,D46):转写稿把 OpenAI 记成「open AI」两词 → 单词形式对不上,误报
   describe("★ 拼接容错:OpenAI ⇄ 稿里「open AI」(D46 降误报)", () => {
     const spaced = () =>

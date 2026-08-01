@@ -511,6 +511,30 @@ const TOKEN_ALLOWLIST = new Set(["tldr", "ai", "id", "md", "url", "http", "https
   "demo", "app", "apps", "beta", "alpha", "mvp", "cli", "gui", "sql", "css", "html", "json", "yaml"]);
 
 /**
+ * 已核实的真实专名白名单 —— **与 TOKEN_ALLOWLIST 同一机制(gate-facts 容错名单),语义分开登记**。
+ *
+ * 为什么另立一份、不并进 TOKEN_ALLOWLIST:上面那份是「通用缩写/角色词,**非**对本集的事实断言」;
+ * 这里放的是**确有其物的产品/公司专名**(是事实断言),混进去会让 TOKEN_ALLOWLIST 的自述失真。
+ *
+ * 为什么别名表(forms 召回)救不了、非得白名单:别名表召回的前提是「某个 form 在真相源里出现过」
+ * (Nsight→稿里的 inside、Modal→稿里的 Modo 都是靠误写形式回命中)。但有些真专名被 ASR 听岔得太狠,
+ * 转写稿里**连一个可登记的误写形式都不剩** → 真相源里一个形式都没有 → 别名表无从召回。
+ * 此时只能靠这份「已核实真名」白名单报户口(呼应 docs/wip.md 07-20 记的遗留:「真正稿里没有的仍需白名单」)。
+ *
+ * ⚠️ 边界(与 TOKEN_ALLOWLIST 一致):白名单成员**全局免检**,语义 = 「我们担保它真实存在」,
+ * **不**担保「本集语境用对了」(那是 D15/D16 的天花板,本就不归 D17)。故只登记**确有其物、经独立核实**的名;
+ * 编造/存疑的名一律不进(照旧被 D17 拦)。照别名表的 evidence 纪律,每个成员都留核实出处:
+ *   · nim      = NVIDIA Inference Microservices(英伟达推理微服务),官方产品页
+ *                https://www.nvidia.com/en-us/ai-data-science/products/nim-microservices/
+ *   · nemotron = NVIDIA 开源模型家族,官方产品页
+ *                https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/
+ * 起因:黄仁勋×LangChain 演讲(2026-07-08,whisperX ASR 无官方稿)两轮卡 D17 —— 两者演讲必提,
+ * ASR 短缩写/生造词听岔 → 转写稿查无 → 误判「疑编造」= 误伤。
+ * [standard-change: 用户授权 2026-08-01(两次确认拍板 B「补录真实专名容错」);口径承 drift #26 / D46 · 新 drift 号由调度员收口]
+ */
+const REAL_PROPER_NOUNS = new Set(["nim", "nemotron"]);
+
+/**
  * D17/D8 的核心比对逻辑,抽成单一组合 —— **digest_md 与实体 how_described 共用它**
  * (Scenario 5 ①:实体属性里的专名/数字也要回原文比对)。抽出来是为了「谁改都一处改」,
  * 不让两处各抄一份 strip/check 顺序、日后漂移。behavior 与原 gateFacts 内联版逐字等价
@@ -524,7 +548,10 @@ export function checkProse(md, ctx, aliases) {
 
   // ① D17 专名(硬拦)—— 拉丁侧 + 中文侧
   // 跳单/双字母(G、H 之类数学记号/首字母,无法当专名核实,只会误报)+ 通用缩写白名单(标准变更·用户授权)
-  const nouns = extractLatinTokens(body).filter((t) => t.length >= 3 && !TOKEN_ALLOWLIST.has(t.toLowerCase()));
+  //   + 已核实真实专名白名单(REAL_PROPER_NOUNS,同机制,救 ASR 听岔得连误写形式都不剩的真专名·标准变更·用户授权 2026-08-01)
+  const nouns = extractLatinTokens(body).filter(
+    (t) => t.length >= 3 && !TOKEN_ALLOWLIST.has(t.toLowerCase()) && !REAL_PROPER_NOUNS.has(t.toLowerCase()),
+  );
   const nounResults = nouns.map((n) => ({ name: n, ...checkProperNoun(n, ctx) }));
   for (const cn of extractChineseNouns(body, aliases)) {
     const forms = cnToSourceForms(cn, aliases);
