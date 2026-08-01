@@ -1890,3 +1890,39 @@ Scenario: 每班种子限流保险丝(默认 3,超出留后班)
 2. ⬜ 发现/解析走 fixture 测试(真实响应片段);真网络只做只读烟测(4 频道发现通道)+ 判官 ≤5 条标题烟测;不真下载音频、不真跑巡航全链、不 push、不触发云端。
 3. ⬜ Mac mini 安装件:launchd plist 模板(独立 label,错开每日新闻项目)+ docs/macmini-巡航安装.md。
 4. ⬜ glm-check --kind code 对抗审计 + 裁决落账本。
+
+## 修 · 编排器开工刷新到 origin/main 最新(drift #44,2026-08-01)(US-4, US-5)
+
+> **病根(实证)**:actions/checkout 检出的是 github.sha = run **创建时刻**钉死的 main 快照。并发组
+> c7b-pipeline 里排队几小时的 run,执行时前一班的回仓 push(cutoff/skipped/talkVideoIds 账本 + 产物)
+> 不在它的检出里 → 旧账本判「种子待处理/集未完成」,把已完成的活重做。实账:run 30624243940 排队 3h,
+> 重烧 Replit/Jensen-Axios 两条演讲的转写+浓缩(双份烧钱),叠加 a16z 新长集撞 6h runner 上限被杀。
+> **修法(最小)**:pipeline.yml 在 checkout 之后、跑编排器之前加一步 `git fetch origin main &&
+> git reset --hard origin/main`。单 job 单 checkout,cron/dispatch 全入口共用 → 一处加步全覆盖。
+> 编排器 js 不动:readState 在进程启动时才读盘,刷新步在它之前即天然覆盖。
+
+```gherkin
+Feature: 排队 run 不再拿旧账本重烧已完成的活(drift #44)(US-4, US-5)
+
+Scenario: 排队期间前一班已回仓,后一班开工看到最新账本
+  Given 一个 cron/dispatch run 在并发组里排队数小时
+  And 排队期间前一班已把 cutoff/skipped/演讲账本 push 回 main
+  When 该 run 开始执行
+  Then 开工第一步把工作区刷到 origin/main 最新(fetch + reset --hard)
+  And 编排器读到的账本包含前一班终态,已完成的集/演讲不再重跑重扣钱
+
+Scenario: 刷新失败宁可停班,不拿旧账本干活
+  Given git fetch origin main 失败(网络/凭证故障)
+  Then 该步响亮失败、run 变红发告警邮件,本班不跑等下一巡
+  And 不允许静默降级为「用检出时的旧快照继续」
+
+Scenario: 全入口同受保护
+  Given cron / backfill / refresh / talks / seed 任一入口触发
+  Then 同一 checkout + 刷新步在编排器之前执行,无旁路
+```
+
+### DoD(修 · drift #44)
+1. ✅ workflow 结构测试钉死顺序(tests/pipeline-workflow.test.ts:checkout → fetch+reset → 编排器;persist-credentials 不许关)。
+2. ✅ YAML ruby 解析校验通过(修掉一处 step name 内 `#44` 被当注释截断的坑,已加引号)。
+3. ✅ 全量单测绿;不 push 不触发云端。
+4. ✅ glm-check --kind code 对抗审计 + 裁决落账本。

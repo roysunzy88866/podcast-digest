@@ -56,6 +56,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # drift #44:checkout 检出的是 github.sha = run **创建时刻**钉死的 main 快照,不是执行时刻的分支尖。
+      # 并发组里排队几小时的 run,开始执行时前一班的回仓 push(cutoff/skipped 账本 + 产物)不在它的检出里
+      # → 拿旧账本判「种子待处理/集未完成」,把已完成的活重做(run 30624243940 实账:双烧两条演讲的转写+浓缩,
+      # 叠加新集撞 6h runner 上限被杀)。修:开工第一步强制刷到 origin/main 最新,消灭「排队期快照过旧」窗口。
+      # · 单 job 单 checkout,cron/dispatch(backfill/refresh/talks/seed/deploy)全入口共用 → 一处加步全覆盖
+      # · 凭证:checkout@v4 默认 persist-credentials=true,fetch 用它;文末回仓步 pull+push 同源已多班实证
+      # · 与回仓步口径一致:那边 pull --rebase 也是先取 origin/main;这里开工时本地无新提交,reset --hard 等价且更干净
+      # · fetch 失败响亮挂掉(默认 shell 带 -e):宁可本班不跑等下一巡,不拿旧账本重烧钱
+      # · main-only 假设(GLM 20260801-001[1]):触发只有 schedule/dispatch,且回仓步本就写死 pull origin main;
+      #   若未来从非 main ref dispatch,此步会切到 main——与既有回仓假设同款,不是本步新增的行为
+      - name: "刷新到 origin/main 最新(drift #44:堵排队旧快照重烧钱洞)"
+        run: |
+          git fetch origin main
+          git reset --hard origin/main
+          echo "开工基线:$(git log --oneline -1)"
+
       - uses: actions/setup-node@v4
         with:
           node-version: "22.16.0"
