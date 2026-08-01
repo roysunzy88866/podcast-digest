@@ -14,7 +14,7 @@ unlisted: true
 - **[[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]]**(00:07起):本集提到它是增长极快的 AI 领导者之一，面临海量线索处理不过来的问题；同时，它也是一款让不懂代码的人也能用自然语言开发应用的工具，Jason 是其前 1% 的高级用户，曾用它构建了 12 个应用。
 - **[[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]]**(02:25起):本集把它与 Lovable、Bolt 归为同一类工具,指出它们都在中间层替非技术用户做大量规划决策,换取简单省事但牺牲控制权。
 - **[[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]]**(08:02起):本集把它说成：让领域专家和普通创业者能从点子直接走到部署变现的云编程平台，被比作追求垂直深度集成的“任天堂”。
-- **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《Replit 的至暗时刻与三十人豪赌：冲刺十亿美元 ARR》]]**(00:08起):本集核心讨论的公司。原为面向教育市场的云开发环境，后背水一战将全公司 80% 以上技术人力压在 Replit Agent 项目上，转型为赋能非开发者的 AI 编程平台，正向 10 亿美元 ARR 冲刺。
+- **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]]**(00:08起):本集把它说成:从云开发环境起家、一度跌入谷底裁员孤注一掷,最终靠 AI 编程智能体完成绝地翻盘,剑指十亿美元 ARR 的公司。
 
 ## ② 出现在这些集
 
@@ -23,7 +23,7 @@ unlisted: true
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]] — 作为被讨论公司
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为被讨论公司(提及)
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]] — 作为被讨论公司
-- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《Replit 的至暗时刻与三十人豪赌：冲刺十亿美元 ARR》]] — 作为被讨论公司
+- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Anthropic]] · [[Stripe]] · [[OpenAI]] · [[Jason Lemkin]] · [[Zevi Arnovitz]] · [[Patrick Collison]] · [[Michele Catasta]] · [[SaaStr]]
 
-<script type="application/json" class="pd-epn">{"智能体":43,"Lenny":32,"Anthropic":26,"Stripe":7,"OpenAI":22,"Jason Lemkin":1,"Zevi Arnovitz":1,"Patrick Collison":1,"Michele Catasta":1,"SaaStr":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":44,"Lenny":32,"Anthropic":25,"Stripe":7,"OpenAI":21,"Jason Lemkin":1,"Zevi Arnovitz":1,"Patrick Collison":1,"Michele Catasta":1,"SaaStr":1}</script>
 
 <script>
 (function(){

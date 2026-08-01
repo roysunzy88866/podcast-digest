@@ -75,8 +75,6 @@ unlisted: true
 
 ![[2026-07-09-pg-pm-guide-ai-design#^q4]]
 
-![[2026-07-09-talks-a-conversation-with-replit-s-president-a#^q4]]
-
 ![[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand#^q1]]
 
 ![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q1]]
@@ -135,9 +133,11 @@ unlisted: true
 
 ![[2026-07-30-a16z-ai-for-americas-small-businesses-lassie#^q1]]
 
-![[2026-07-31-a16z-decagons-playbook-for-building-enterpris#^q5]]
+![[2026-07-31-a16z-decagons-playbook-for-building-enterpris#^q3]]
 
-![[2026-07-31-a16z-decagons-playbook-for-building-enterpris#^q6]]
+![[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili#^q4]]
+
+![[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili#^q6]]
 
 ## ② 出现在这些集
 
@@ -151,7 +151,7 @@ unlisted: true
 
 [[Lenny]] · [[Jason Lemkin]] · [[SaaStr]] · [[Replit]] · [[Vercel]] · [[Salesforce]] · [[Artisan]] · [[Qualified]] · [[Delphi]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Jason Lemkin":1,"SaaStr":1,"Replit":4,"Vercel":3,"Salesforce":2,"Artisan":1,"Qualified":1,"Delphi":1,"智能体":43}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"Jason Lemkin":1,"SaaStr":1,"Replit":4,"Vercel":3,"Salesforce":2,"Artisan":1,"Qualified":1,"Delphi":1,"智能体":44}</script>
 
 <script>
 (function(){

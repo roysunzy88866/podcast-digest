@@ -77,8 +77,6 @@ unlisted: true
 
 ![[2026-07-09-pg-pm-guide-ai-design#^q4]]
 
-![[2026-07-09-talks-a-conversation-with-replit-s-president-a#^q4]]
-
 ![[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand#^q1]]
 
 ![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q1]]
@@ -137,9 +135,11 @@ unlisted: true
 
 ![[2026-07-30-a16z-ai-for-americas-small-businesses-lassie#^q1]]
 
-![[2026-07-31-a16z-decagons-playbook-for-building-enterpris#^q5]]
+![[2026-07-31-a16z-decagons-playbook-for-building-enterpris#^q3]]
 
-![[2026-07-31-a16z-decagons-playbook-for-building-enterpris#^q6]]
+![[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili#^q4]]
+
+![[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili#^q6]]
 
 ## ② 出现在这些集
 
@@ -155,7 +155,7 @@ unlisted: true
 
 [[Tesla]] · [[Waymo]] · [[智能体]] · [[ChatGPT]] · [[Lenny]] · [[Jensen Huang]] · [[Matt Turk]] · [[Qasar Younis]] · [[Jerry]] · [[Sanjit Biswas]]
 
-<script type="application/json" class="pd-epn">{"Tesla":5,"Waymo":7,"智能体":43,"ChatGPT":10,"Lenny":32,"Jensen Huang":2,"Matt Turk":1,"Qasar Younis":1,"Jerry":1,"Sanjit Biswas":1}</script>
+<script type="application/json" class="pd-epn">{"Tesla":5,"Waymo":7,"智能体":44,"ChatGPT":10,"Lenny":32,"Jensen Huang":2,"Matt Turk":1,"Qasar Younis":1,"Jerry":1,"Sanjit Biswas":1}</script>
 
 <script>
 (function(){

@@ -11,21 +11,21 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《Replit 的至暗时刻与三十人豪赌：冲刺十亿美元 ARR》]]**(00:42起):本集把它说成：Replit 的核心 AI 编程助手，给非开发者构建的差异化产品，经历了发布前 36 小时差点跑不起来的灾难后成功上线，彻底改变了公司命运。如今已迭代至第 4 代，强调通用性与参与度。
+- **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]]**(00:42起):本集把它说成:让非技术人员用自然语言提示词直接生成应用的核心 AI 编程智能体,是 Replit 绝境翻盘的豪赌产品。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《Replit 的至暗时刻与三十人豪赌：冲刺十亿美元 ARR》]] — 作为概念
+- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Michele Catasta]] · [[Replit]] · [[智能体]] · [[vibe coding]] · [[基于用量的计费]] · [[部署]] · [[人物角色]] · [[一人独角兽公司]] · [[产品市场契合度]] · [[OpenAI]]
+[[Michele Catasta]] · [[Replit]] · [[智能体]] · [[vibe coding]] · [[云开发环境]] · [[基于使用量的计费]] · [[基于结果的定价]] · [[自主性]] · [[一人独角兽]] · [[提示词]]
 
-<script type="application/json" class="pd-epn">{"Michele Catasta":1,"Replit":4,"智能体":43,"vibe coding":6,"基于用量的计费":1,"部署":1,"人物角色":1,"一人独角兽公司":1,"产品市场契合度":4,"OpenAI":22}</script>
+<script type="application/json" class="pd-epn">{"Michele Catasta":1,"Replit":4,"智能体":44,"vibe coding":6,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":1,"自主性":1,"一人独角兽":1,"提示词":3}</script>
 
 <script>
 (function(){

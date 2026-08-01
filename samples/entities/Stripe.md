@@ -15,7 +15,7 @@ unlisted: true
 - **[[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]]**(01:40起):本集嘉宾曾担任首席商务官的公司。节目中大量引用了她在此公司从零搭建销售团队、实行按消费计费、运用市场细分及建立白板会议购买体验的经验。
 - **[[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石》]]**(02:34起):本集把它说成:Lenny 遭遇欺诈团伙攻击时合作以关闭其寻找 API 漏洞攻击的公司之一
 - **[[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]]**(00:00起):本集把它说成：占据全美新公司注册 25% 份额的支付巨头，其平台上新企业创建率同比飙升近两倍，揭示了创业大爆发的真实数据。
-- **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《Replit 的至暗时刻与三十人豪赌：冲刺十亿美元 ARR》]]**(28:36起):本集提到：一家支付处理服务商。Replit 在去年第四季度上线了 Stripe 集成，让用户能直接在应用里收钱，该功能增速惊人。此外 Stripe Atlas 服务还能自动化注册一家 LLC。
+- **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]]**(28:36起):本集把它说成:Replit 在去年第四季度集成上线的支付平台,用来赋能用户对自己做的应用直接收费变现。
 - **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]]**(18:51起):本集提到：Sam Altman 曾在 22 岁时作为早期投资人帮助过这家支付公司，并因此在多年后结识了日后共创 OpenAI 的 Greg Brockman。
 - **[[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱》]]**(23:34起):本集多次作为对比案例提及，一是将其无摩擦的极简自助结账流程作为交付最后一公里的标杆；二是讨论拥有客户分销渠道的重要性。
 
@@ -27,7 +27,7 @@ unlisted: true
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]] — 作为被讨论公司
 - [[2026-03-12-lennys-how-i-built-a-1m-subscriber-newsletter|《老婆拷问 Lenny：120 万订阅背后的致幻剂体验与被追着跑的巨石》]] — 作为被讨论公司(提及)
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]] — 作为被讨论公司
-- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《Replit 的至暗时刻与三十人豪赌：冲刺十亿美元 ARR》]] — 作为被讨论公司(提及)
+- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]] — 作为被讨论公司(提及)
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]] — 作为被讨论公司(提及)
 - [[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱》]] — 作为被讨论公司(提及)
 
@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Lenny]] · [[Replit]] · [[Rachel Lockett]] · [[Jeanne DeWitt Grosser]] · [[Lenny Rachitsky]] · [[Patrick Collison]] · [[Michele Catasta]] · [[Sam Altman]]
 
-<script type="application/json" class="pd-epn">{"智能体":43,"OpenAI":22,"Lenny":32,"Replit":4,"Rachel Lockett":1,"Jeanne DeWitt Grosser":1,"Lenny Rachitsky":1,"Patrick Collison":1,"Michele Catasta":1,"Sam Altman":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":44,"OpenAI":21,"Lenny":32,"Replit":4,"Rachel Lockett":1,"Jeanne DeWitt Grosser":1,"Lenny Rachitsky":1,"Patrick Collison":1,"Michele Catasta":1,"Sam Altman":1}</script>
 
 <script>
 (function(){

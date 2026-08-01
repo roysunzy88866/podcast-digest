@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Michele Catasta</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Michele Catasta">MI</div><div class="pi"><h1 class="pt">Michele Catasta</h1><div class="byl">精选演讲 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Michele Catasta">MI</div><div class="pi"><h1 class="pt">Michele Catasta</h1><div class="byl">精选演讲 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*7 条,均已过机器闸门*
+*5 条,均已过机器闸门*
 
 ![[2026-07-09-talks-a-conversation-with-replit-s-president-a#^q1]]
 
@@ -23,31 +23,27 @@ unlisted: true
 
 ![[2026-07-09-talks-a-conversation-with-replit-s-president-a#^q5]]
 
-![[2026-07-09-talks-a-conversation-with-replit-s-president-a#^q6]]
-
-![[2026-07-09-talks-a-conversation-with-replit-s-president-a#^q7]]
-
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《Replit 的至暗时刻与三十人豪赌：冲刺十亿美元 ARR》]] — 作为主持
+- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Replit]] · [[智能体]] · [[Replit Agent]] · [[vibe coding]] · [[基于用量的计费]] · [[部署]] · [[人物角色]] · [[一人独角兽公司]] · [[产品市场契合度]] · [[OpenAI]]
+[[Replit]] · [[Replit Agent]] · [[智能体]] · [[vibe coding]] · [[云开发环境]] · [[基于使用量的计费]] · [[基于结果的定价]] · [[自主性]] · [[一人独角兽]] · [[提示词]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]] [[Sanjit Biswas]]
+[[Sarah Wang]] [[Ashwin Srinivas]] [[Kimberley Tan]] [[Jesse Zhang]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":4,"智能体":43,"Replit Agent":1,"vibe coding":6,"基于用量的计费":1,"部署":1,"人物角色":1,"一人独角兽公司":1,"产品市场契合度":4,"OpenAI":22}</script>
+<script type="application/json" class="pd-epn">{"Replit":4,"Replit Agent":1,"智能体":44,"vibe coding":6,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":1,"自主性":1,"一人独角兽":1,"提示词":3}</script>
 
 <script>
 (function(){

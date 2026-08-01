@@ -1,31 +1,31 @@
 ---
-title: 一人独角兽公司 (one-person unicorn)
+title: MuseSpark
 entity_type: 概念
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>一人独角兽公司 (one-person unicorn)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>MuseSpark</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="一人独角兽公司">一人</div><div class="pi"><h1 class="pt">一人独角兽公司 (one-person unicorn)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="MuseSpark">MU</div><div class="pi"><h1 class="pt">MuseSpark</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《Replit 的至暗时刻与三十人豪赌：冲刺十亿美元 ARR》]]**(29:18起):本集把它说成：一个人靠指挥和编排一堆 AI，做出估值十亿美元公司的设想。嘉宾认为虽然逻辑上竞争会逼着公司雇人，停在 2.5 亿美元 ARR，但凭一个产品愿景、用最少资源也能做到这件事依然令人激动。
+- **[[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili|《Scale AI 创始人 Alexandr Wang:AI 时代,最稀缺的不是智能而是愿景》]]**(14:05起):本集说它是Meta前沿AI实验室推出的模型系列(包括MuseSpark 1和1.1),在智能体流程中表现与Opus一样好,但成本低8倍。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《Replit 的至暗时刻与三十人豪赌：冲刺十亿美元 ARR》]] — 作为概念
+- [[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili|《Scale AI 创始人 Alexandr Wang:AI 时代,最稀缺的不是智能而是愿景》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Michele Catasta]] · [[Replit]] · [[智能体]] · [[Replit Agent]] · [[vibe coding]] · [[基于用量的计费]] · [[部署]] · [[人物角色]] · [[产品市场契合度]] · [[OpenAI]]
+[[Alexandr Wang]] · [[Scale]] · [[Meta]] · [[开源模型]] · [[智能体]] · [[多智能体设置]] · [[训练数据]] · [[前沿AI实验室]] · [[主观能动性]] · [[Spark API]]
 
-<script type="application/json" class="pd-epn">{"Michele Catasta":1,"Replit":4,"智能体":43,"Replit Agent":1,"vibe coding":6,"基于用量的计费":1,"部署":1,"人物角色":1,"产品市场契合度":4,"OpenAI":22}</script>
+<script type="application/json" class="pd-epn">{"Alexandr Wang":1,"Scale":1,"Meta":8,"开源模型":2,"智能体":44,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":7,"Spark API":1}</script>
 
 <script>
 (function(){

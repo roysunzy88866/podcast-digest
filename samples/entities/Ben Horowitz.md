@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]] [[Sanjit Biswas]]
+[[Sarah Wang]] [[Ashwin Srinivas]] [[Kimberley Tan]] [[Jesse Zhang]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":2,"Sofia Puccini":2,"NVIDIA":6,"Andreessen Horowitz":1,"Anthropic":26,"Hugging Face":3,"DeepSeq":1,"Thinking Machines":1,"Mistral":1,"开源":1}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":2,"Sofia Puccini":2,"NVIDIA":6,"Andreessen Horowitz":1,"Anthropic":25,"Hugging Face":3,"DeepSeq":1,"Thinking Machines":1,"Mistral":1,"开源":2}</script>
 
 <script>
 (function(){

@@ -75,8 +75,6 @@ unlisted: true
 
 ![[2026-07-09-pg-pm-guide-ai-design#^q4]]
 
-![[2026-07-09-talks-a-conversation-with-replit-s-president-a#^q4]]
-
 ![[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand#^q1]]
 
 ![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q1]]
@@ -135,9 +133,11 @@ unlisted: true
 
 ![[2026-07-30-a16z-ai-for-americas-small-businesses-lassie#^q1]]
 
-![[2026-07-31-a16z-decagons-playbook-for-building-enterpris#^q5]]
+![[2026-07-31-a16z-decagons-playbook-for-building-enterpris#^q3]]
 
-![[2026-07-31-a16z-decagons-playbook-for-building-enterpris#^q6]]
+![[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili#^q4]]
+
+![[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili#^q6]]
 
 ## ② 出现在这些集
 
@@ -151,7 +151,7 @@ unlisted: true
 
 [[Jensen Wong]] · [[Mike Allen]] · [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[Microsoft]] · [[开放模型]] · [[封闭模型]] · [[沙箱]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Jensen Wong":1,"Mike Allen":1,"NVIDIA":6,"OpenAI":22,"Anthropic":26,"Microsoft":5,"开放模型":1,"封闭模型":1,"沙箱":8,"智能体":43}</script>
+<script type="application/json" class="pd-epn">{"Jensen Wong":1,"Mike Allen":1,"NVIDIA":6,"OpenAI":21,"Anthropic":25,"Microsoft":5,"开放模型":1,"封闭模型":1,"沙箱":8,"智能体":44}</script>
 
 <script>
 (function(){

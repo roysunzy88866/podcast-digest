@@ -75,8 +75,6 @@ unlisted: true
 
 ![[2026-07-09-pg-pm-guide-ai-design#^q4]]
 
-![[2026-07-09-talks-a-conversation-with-replit-s-president-a#^q4]]
-
 ![[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand#^q1]]
 
 ![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q1]]
@@ -135,9 +133,11 @@ unlisted: true
 
 ![[2026-07-30-a16z-ai-for-americas-small-businesses-lassie#^q1]]
 
-![[2026-07-31-a16z-decagons-playbook-for-building-enterpris#^q5]]
+![[2026-07-31-a16z-decagons-playbook-for-building-enterpris#^q3]]
 
-![[2026-07-31-a16z-decagons-playbook-for-building-enterpris#^q6]]
+![[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili#^q4]]
+
+![[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili#^q6]]
 
 ## ② 出现在这些集
 
@@ -151,7 +151,7 @@ unlisted: true
 
 [[Garry Tan]] · [[智能体]] · [[技能文件]] · [[上下文工程]] · [[公司大脑]] · [[RAG]] · [[Latent Space]] · [[确定性空间]] · [[工作记忆]] · [[Gbrain]]
 
-<script type="application/json" class="pd-epn">{"Garry Tan":1,"智能体":43,"技能文件":1,"上下文工程":1,"公司大脑":1,"RAG":1,"Latent Space":1,"确定性空间":1,"工作记忆":1,"Gbrain":1}</script>
+<script type="application/json" class="pd-epn">{"Garry Tan":1,"智能体":44,"技能文件":1,"上下文工程":1,"公司大脑":1,"RAG":1,"Latent Space":1,"确定性空间":1,"工作记忆":1,"Gbrain":1}</script>
 
 <script>
 (function(){

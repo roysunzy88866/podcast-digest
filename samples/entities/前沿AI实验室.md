@@ -1,31 +1,157 @@
 ---
-title: 人物角色 (persona)
+title: 前沿AI实验室 (Frontier Lab)
 entity_type: 概念
 type: entity
 unlisted: true
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>人物角色 (persona)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>前沿AI实验室 (Frontier Lab)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="人物角色">人物</div><div class="pi"><h1 class="pt">人物角色 (persona)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="前沿AI实验室">前沿</div><div class="pi"><h1 class="pt">前沿AI实验室 (Frontier Lab)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>61</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
-- **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《Replit 的至暗时刻与三十人豪赌：冲刺十亿美元 ARR》]]**(20:20起):本集把它说成：产品设计中虚构的典型用户画像(如「为产品经理优化」)。Replit 的产品哲学明确拒绝谈人物角色，而是寻找每个知识工作者都绕不开的极简原语，因为「一个好产品在一个庞大的用户群体中都是好的」。
+- **[[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili|《Scale AI 创始人 Alexandr Wang:AI 时代,最稀缺的不是智能而是愿景》]]**(13:18起):本集说它是从零开始建设的团队,核心赌注是“人才密度”。并指出这里的AI工作本质上是科学研究与实验,需要与互联网产品完全不同的思维方式和运营模式。
+
+## ① 提到它的金句
+
+*61 条,均已过机器闸门*
+
+![[2025-11-16-lennys-the-godmother-of-ai#^q1]]
+
+![[2025-11-16-lennys-the-godmother-of-ai#^q3]]
+
+![[2025-12-28-lennys-10-contrarian-leadership-truths#^q10]]
+
+![[2025-12-28-lennys-10-contrarian-leadership-truths#^q11]]
+
+![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q1]]
+
+![[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag#^q2]]
+
+![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q7]]
+
+![[2026-01-25-lennys-why-your-product-stopped-growing#^q4]]
+
+![[2026-02-26-lennys-ai-is-critical-for-humanitys-survival#^q1]]
+
+![[2026-03-08-lennys-the-most-successful-ai-company-youve-nev#^q1]]
+
+![[2026-03-08-lennys-the-most-successful-ai-company-youve-nev#^q2]]
+
+![[2026-04-19-lennys-why-half-of-product-managers-are-in-trou#^q4]]
+
+![[2026-04-26-lennys-snapchat-ceo-why-distribution-is#^q2]]
+
+![[2026-04-26-lennys-snapchat-ceo-why-distribution-is#^q6]]
+
+![[2026-05-21-talks-the-best-time-in-history-to-start-a-comp#^q1]]
+
+![[2026-05-21-talks-the-best-time-in-history-to-start-a-comp#^q4]]
+
+![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q3]]
+
+![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q5]]
+
+![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q6]]
+
+![[2026-05-24-lennys-the-ai-paradox-dan-shipper#^q7]]
+
+![[2026-05-31-lennys-a-rational-conversation-on-where#^q1]]
+
+![[2026-06-14-lennys-the-common-pattern-behind-successful#^q6]]
+
+![[2026-06-24-pg-company-os-jz#^q2]]
+
+![[2026-06-24-pg-company-os-jz#^q6]]
+
+![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q5]]
+
+![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q7]]
+
+![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q8]]
+
+![[2026-07-09-pg-pm-guide-ai-design#^q2]]
+
+![[2026-07-09-pg-pm-guide-ai-design#^q4]]
+
+![[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand#^q1]]
+
+![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q1]]
+
+![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q3]]
+
+![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q9]]
+
+![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q10]]
+
+![[2026-07-12-lennys-how-tech-workers-actually-feel-about#^q13]]
+
+![[2026-07-13-pg-the-complete-claude-stack-for-pms#^q3]]
+
+![[2026-07-13-pg-the-complete-claude-stack-for-pms#^q7]]
+
+![[2026-07-17-talks-every-company-should-have-a-brain-garry#^q3]]
+
+![[2026-07-17-talks-every-company-should-have-a-brain-garry#^q13]]
+
+![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q1]]
+
+![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q7]]
+
+![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q8]]
+
+![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q2]]
+
+![[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source#^q3]]
+
+![[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid#^q9]]
+
+![[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid#^q10]]
+
+![[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r#^q1]]
+
+![[2026-07-28-a16z-fei-fei-li-on-spatial-intelligence-and-r#^q5]]
+
+![[2026-07-28-pg-how-to-build-your-first-eval#^q2]]
+
+![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q12]]
+
+![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q13]]
+
+![[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s#^q15]]
+
+![[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the#^q1]]
+
+![[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the#^q3]]
+
+![[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the#^q5]]
+
+![[2026-07-29-a16z-ai-micro-dramas-generative-media-and-the#^q6]]
+
+![[2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban#^q6]]
+
+![[2026-07-30-a16z-ai-for-americas-small-businesses-lassie#^q1]]
+
+![[2026-07-31-a16z-decagons-playbook-for-building-enterpris#^q3]]
+
+![[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili#^q4]]
+
+![[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili#^q6]]
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《Replit 的至暗时刻与三十人豪赌：冲刺十亿美元 ARR》]] — 作为概念
+- [[2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili|《Scale AI 创始人 Alexandr Wang:AI 时代,最稀缺的不是智能而是愿景》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Michele Catasta]] · [[Replit]] · [[智能体]] · [[Replit Agent]] · [[vibe coding]] · [[基于用量的计费]] · [[部署]] · [[一人独角兽公司]] · [[产品市场契合度]] · [[OpenAI]]
+[[Alexandr Wang]] · [[Scale]] · [[Meta]] · [[MuseSpark]] · [[开源模型]] · [[智能体]] · [[多智能体设置]] · [[训练数据]] · [[主观能动性]] · [[Spark API]]
 
-<script type="application/json" class="pd-epn">{"Michele Catasta":1,"Replit":4,"智能体":43,"Replit Agent":1,"vibe coding":6,"基于用量的计费":1,"部署":1,"一人独角兽公司":1,"产品市场契合度":4,"OpenAI":22}</script>
+<script type="application/json" class="pd-epn">{"Alexandr Wang":1,"Scale":1,"Meta":8,"MuseSpark":1,"开源模型":2,"智能体":44,"多智能体设置":1,"训练数据":1,"主观能动性":7,"Spark API":1}</script>
 
 <script>
 (function(){

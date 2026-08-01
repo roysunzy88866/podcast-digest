@@ -29,7 +29,7 @@ unlisted: true
 
 [[智能体]] · [[Max Schoening]] · [[Saragawa]] · [[Jiaona Zhang]] · [[Lenny]] · [[Satya Nadella]] · [[Akash]] · [[Notion]] · [[Microsoft]] · [[Laurel]]
 
-<script type="application/json" class="pd-epn">{"智能体":43,"Max Schoening":1,"Saragawa":1,"Jiaona Zhang":1,"Lenny":32,"Satya Nadella":1,"Akash":3,"Notion":2,"Microsoft":5,"Laurel":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":44,"Max Schoening":1,"Saragawa":1,"Jiaona Zhang":1,"Lenny":32,"Satya Nadella":1,"Akash":3,"Notion":2,"Microsoft":5,"Laurel":1}</script>
 
 <script>
 (function(){

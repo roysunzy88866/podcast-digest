@@ -1,0 +1,31 @@
+{
+  "id": "2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili",
+  "audio_mp3": "https://anchor.fm/s/8c1524bc/podcast/play/123585681/https%3A%2F%2Fd3ctxlq1ktw2nl.cloudfront.net%2Fstaging%2F2026-6-31%2F428975476-44100-2-60b67de499775.mp3",
+  "duration_sec": 1927.933,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 354,
+  "asr": true,
+  "title_en": "Alexandr Wang: “This is a Once-in-a-Civilization Opportunity”",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-07-31",
+  "cover_official_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/23401959/23401959-1785513180684-4e5ad1ec9f84.jpg",
+  "speaker_map": {
+    "SPEAKER_01": "Alexandr Wang"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Alexandr Wang",
+  "cohosts": [],
+  "title_zh": "Scale AI 创始人 Alexandr Wang:AI 时代,最稀缺的不是智能而是愿景",
+  "guest_name": "Alexandr Wang",
+  "guest_title": "Scale AI 创始人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim",
+  "cover_image": {
+    "file": "cover.jpg",
+    "source": "official",
+    "origin_url": "https://d3t3ozftmdmh3i.cloudfront.net/staging/podcast_uploaded_episode/23401959/23401959-1785513180684-4e5ad1ec9f84.jpg",
+    "origin_px": "3000x3000",
+    "aspect": 1,
+    "fetched_at": "2026-08-01T04:08:11.259Z"
+  }
+}

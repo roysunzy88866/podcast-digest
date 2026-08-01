@@ -11,21 +11,21 @@ unlisted: true
 
 ## 集里怎么说它
 
-- **[[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]]**(00:57起):本集核心受访公司，做帮大企业（如全球最大银行、航司）搭建客服 AI 智能体的应用层公司，主张把 90% 工作流转向微调的开源模型。
+- **[[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 拆解:为何九成工作流跑在开源模型上》]]**(00:57起):本集受访的企业 AI 智能体公司，把 90% 工作流转向开源微调模型以追求更低延迟和更高性能，并强调通过深度结合业务逻辑和产品化（而非人力堆叠）作为护城河，向全球最大的银行、航空公司等销售 AI 客户支持与礼宾服务。
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 的 AI 寺庙:开源、Duet 与护城河》]] — 作为被讨论公司
+- [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|《Decagon 拆解:为何九成工作流跑在开源模型上》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Sarah Wang]] · [[Kimberley Tan]] · [[Jesse Zhang]] · [[Ashwin Srinivas]] · [[智能体]] · [[开源模型]] · [[微调]] · [[业务逻辑]] · [[前置部署工程师]] · [[Duet]]
+[[Sarah Wang]] · [[Ashwin Srinivas]] · [[Kimberley Tan]] · [[Jesse Zhang]] · [[Sierra]] · [[Duet Autopilot]] · [[智能体]] · [[开源]] · [[前沿模型]] · [[微调]]
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Kimberley Tan":1,"Jesse Zhang":1,"Ashwin Srinivas":1,"智能体":43,"开源模型":2,"微调":1,"业务逻辑":1,"前置部署工程师":3,"Duet":1}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Ashwin Srinivas":1,"Kimberley Tan":1,"Jesse Zhang":1,"Sierra":1,"Duet Autopilot":1,"智能体":44,"开源":2,"前沿模型":1,"微调":1}</script>
 
 <script>
 (function(){

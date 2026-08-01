@@ -88,18 +88,18 @@ tags:
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌]] —— 同公司:Replit、OpenAI、Stripe · 同概念:智能体 (agent)
 - [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]] —— 同概念:护城河 (moat)、智能体 (agent)
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]] —— 同公司:OpenAI · 同概念:智能体 (agent)
-- [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|Decagon 的 AI 寺庙:开源、Duet 与护城河]] —— 同公司:OpenAI · 同概念:智能体 (agent)、开源模型 (open source models)
 
 </div>
 <div class="pd-ex">
 
 **换个口味**
 
-- [[2026-07-09-talks-a-conversation-with-replit-s-president-a|Replit 的至暗时刻与三十人豪赌：冲刺十亿美元 ARR]] —— 同公司:Replit、OpenAI、Stripe · 同概念:智能体 (agent)
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]] —— 同公司:Stripe、OpenAI · 同概念:智能体 (agent)
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]] —— 同公司:Replit · 同概念:智能体 (agent)
+- [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同公司:OpenAI · 同概念:智能体 (agent)
 
 </div>
 </div>
