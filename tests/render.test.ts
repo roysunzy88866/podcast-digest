@@ -553,11 +553,15 @@ describe("C13d-2 · 顶栏 / TLDR 框 / 小节标签 / 接着看两栏 / 图谱�
     expect(t).toContain('class="pd-acts"'); // 搜索/深浅色由脚本搬进来,不重写一套(🔒 #9/#2)
   });
 
-  it("★★ 手机端顶栏合并成「← 本集标题」(站名与导航让位)", () => {
+  it("★★ 手机端二级页顶栏用「← 返回」,标题不进顶栏(Option A,2026-08-01 用户拍板)[standard-change: 用户授权]", () => {
     const t = renderTopBar(M as any);
-    expect(t).toContain("本集标题");                       // 标题进了顶栏,供手机显示
-    expect(scss).toMatch(/\.pd-mtitle[\s\S]*?display: none/); // 桌面藏
-    expect(scss).toMatch(/@media \(max-width: 1023px\) \{[\s\S]*?\.pd-mtitle \{\s*display: flex/);
+    // pd-mtitle 仍渲染在 DOM(供 :has(.pd-mtitle) 在二级页藏掉站名),但两档都隐藏,不再拿它显示标题
+    expect(t).toContain("返回");
+    expect(t).toContain("本集标题");                         // 元素还在 DOM,只是 CSS 隐藏
+    expect(scss).toMatch(/\.pd-mtitle \{ display: none; \}/); // 桌面藏
+    // 手机端(Option A):pd-back 显示、pd-mtitle 隐藏(撤回「标题进顶栏」)
+    expect(scss).toMatch(/@media \(max-width: 1023px\) \{[\s\S]*?\.pd-back \{ display: inline/);
+    expect(scss).toMatch(/@media \(max-width: 1023px\) \{[\s\S]*?\.pd-mtitle \{ display: none/);
   });
 
   it("★★★ TLDR 是灰底框不是大标题", () => {
@@ -606,10 +610,10 @@ describe("C13d-2 · 顶栏 / TLDR 框 / 小节标签 / 接着看两栏 / 图谱�
     expect(renderRelatedEpisodes(null as any, ["组织与领导力"])).toBe("");
   });
 
-  it("★★ 手机上标题不出现两遍(顶栏已经是「← 标题」,正文大标题就该让位)", () => {
-    // 设计稿自己的规矩:「标题已并进顶栏,正文里不再重复一遍」(原型 style.css L425 注释)
+  it("★★ 手机上标题回正文大号打头(Option A,不再进顶栏截断)[standard-change: 用户授权 2026-08-01]", () => {
+    // 撤回 C13d「标题并进顶栏、正文隐藏」:长中文标题挤在顶栏读不全,用户 2026-08-01 拍板回设计稿 ep 原型。
     // ⚠️ 不能写 `article > h1`:Quartz 在中间夹了 .markdown-preview-view,直接子选择器命不中(实测)
-    expect(scss).toMatch(/@media \(max-width: 1023px\) \{[\s\S]*?article h1 \{ display: none/);
+    expect(scss).toMatch(/@media \(max-width: 1023px\) \{[\s\S]*?article h1 \{ display: block/);
   });
 
   it("★★★ 顶栏通栏,不被挤在正文那一列里(实测原来只有 694px,视口 1440)", () => {

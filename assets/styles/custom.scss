@@ -1310,22 +1310,14 @@ body:has(.pd-play) article blockquote:has(> p[id^="q"]) em {
      手机上站名和标题挤一行。且设计稿口径是**只在有「← 标题」的二级页**让位
      (.topin:has(.mtitle) .b{display:none}),首页/必读页手机上站名要留。 */
   .pd .pd-topin:has(.pd-mtitle) .b { display: none; }
-  .pd-back { display: none; }
-  .pd-mtitle {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    min-width: 0;
-    font-family: var(--puhui);
-    font-size: 17px;
-    font-weight: 600;
-    color: var(--B8);
-    letter-spacing: 0.2px;
-  }
-  .pd-mtitle span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .pd-mtitle:hover { color: var(--pd-accent); }
-  /* 标题已并进顶栏,正文里不再重复一遍(设计稿 style.css L425 的同一条规矩) */
-  body:has(.pd-play) article h1 { display: none; }
+  /* Option A(用户 2026-08-01 拍板):手机端二级页用「← 返回」+ 正文大标题打头,
+     不再把长中文标题挤进顶栏截断成「…」。撤回 C13d/style.css 那版「标题并进顶栏」口径,
+     回到设计稿 ep 原型的样子。.pd-mtitle 保留在 DOM(仅隐藏),让上面 :has(.pd-mtitle)
+     继续把站名(一级入口)在二级页藏掉。 */
+  .pd-back { display: inline; margin-left: 0; }
+  .pd-mtitle { display: none; }
+  /* 正文标题照常打头(撤掉 C13d 的隐藏),字号收到 26px 适配窄屏 */
+  body:has(.pd-play) article h1 { display: block; font-size: 26px; line-height: 1.3; margin: 6px 0 12px; }
 }
 
 
