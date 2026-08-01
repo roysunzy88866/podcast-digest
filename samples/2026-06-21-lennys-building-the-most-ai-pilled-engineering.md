@@ -28,7 +28,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-06-21-lennys-building-the-most-ai-pilled-engineering.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">没关系，我有这样一句话：犯新的错误。犯错没关系，只要犯新的错，这样我们就能不断学习。因为如果你追求零错误，那大概意味着你行动不够快，或者有点太谨慎了。</div><div class="a">Fiona Fung · 11:28</div></div>
+<div class="pd-hook"><div class="z">没关系，我有这样一句话：犯新的错误。犯错没关系，只要犯新的错，这样我们就能不断学习。因为如果你追求零错误，那大概意味着你行动不够快，或者有点太谨慎了。</div><div class="a">— Fiona Fung <button class="pd-ts" data-t="11:28" data-who="Fiona Fung" data-en="it's okay to like I have this saying make new mistakes like it's okay to make mistakes just make new ones so that we're always learning because if you aim to make zero mistakes like that probably means you're not you know moving fast enough or being a little bit too cautious" aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Lenny]] · [[Fiona Fung]]
@@ -131,7 +131,8 @@ Fiona 是一位有 25 年经验的资深工程领导者。在加入 Anthropic �
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    ['.search','.readermode'].forEach(function(sel){ grab(sel,acts); });
+    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
+    ['.search'].forEach(function(sel){ grab(sel,acts); });
     // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
     // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
     var side=document.querySelector('.right.sidebar'), slot=null;

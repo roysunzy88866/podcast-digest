@@ -28,7 +28,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">所以,可能是一个智能体编写了代码,或者我帮助进行了分析,而这并不是我的背景,但这并不意味着人们不需要对他们所创造的东西带来的责任负责。</div><div class="a">Elizabeth Stone · 06:02</div></div>
+<div class="pd-hook"><div class="z">所以,可能是一个智能体编写了代码,或者我帮助进行了分析,而这并不是我的背景,但这并不意味着人们不需要对他们所创造的东西带来的责任负责。</div><div class="a">— Elizabeth Stone <button class="pd-ts" data-t="06:02" data-who="Elizabeth Stone" data-en="So, it can be that an agent wrote the code or I helped to do an analysis when that's not really my background, but it doesn't make people not have the responsibility that comes with what they've created." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Lenny]] · [[Elizabeth Stone]]
@@ -178,7 +178,8 @@ Netflix 也提醒大家,它在 AI 和机器学习(ML)上的积累不是从 GenAI
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    ['.search','.readermode'].forEach(function(sel){ grab(sel,acts); });
+    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
+    ['.search'].forEach(function(sel){ grab(sel,acts); });
     // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
     // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
     var side=document.querySelector('.right.sidebar'), slot=null;

@@ -27,7 +27,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-12-lennys-how-tech-workers-actually-feel-about.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我实际上首先要指出的是，只有 3% 的人报告说 AI 没有改变他们的身份。</div><div class="a">Noam Segal · 08:52</div></div>
+<div class="pd-hook"><div class="z">我实际上首先要指出的是，只有 3% 的人报告说 AI 没有改变他们的身份。</div><div class="a">— Noam Segal <button class="pd-ts" data-t="08:52" data-who="Noam Segal" data-en="And I'll actually call out, first of all, that only 3% of people reported that AI hasn't shifted their identity." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Noam Segal]] · [[Lenny]]
@@ -168,7 +168,8 @@ tags:
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    ['.search','.readermode'].forEach(function(sel){ grab(sel,acts); });
+    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
+    ['.search'].forEach(function(sel){ grab(sel,acts); });
     // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
     // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
     var side=document.querySelector('.right.sidebar'), slot=null;

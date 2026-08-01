@@ -28,7 +28,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">软件工程变得越来越难,因为我们可以承担的项目的野心水平已经提高了。</div><div class="a">Simon Willison · 03:21</div></div>
+<div class="pd-hook"><div class="z">软件工程变得越来越难,因为我们可以承担的项目的野心水平已经提高了。</div><div class="a">— Simon Willison <button class="pd-ts" data-t="03:21" data-who="Simon Willison" data-en="Software engineering is getting harder because the level of ambition of the stuff we can take on has gone up." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Cat Wu]] · [[Simon Willison]] · [[Thariq Shihipar]]
@@ -170,7 +170,8 @@ Thariq 还分享了个有意思的细节:团队本来以为大家更喜欢直接
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    ['.search','.readermode'].forEach(function(sel){ grab(sel,acts); });
+    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
+    ['.search'].forEach(function(sel){ grab(sel,acts); });
     // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
     // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
     var side=document.querySelector('.right.sidebar'), slot=null;

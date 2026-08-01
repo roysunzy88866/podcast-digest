@@ -26,7 +26,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-11-23-lennys-a-guide-to-difficult-conversations.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我认为大多数领导者，尤其是技术领导者，认为他们必须拥有所有答案。</div><div class="a">Rachel Lockett · 09:24</div></div>
+<div class="pd-hook"><div class="z">我认为大多数领导者，尤其是技术领导者，认为他们必须拥有所有答案。</div><div class="a">— Rachel Lockett <button class="pd-ts" data-t="09:24" data-who="Rachel Lockett" data-en="I think that most leaders, especially technical leaders, assume they have to have all the answers." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Lenny]] · [[Rachel Lockett]]
@@ -152,7 +152,8 @@ Rachel 曾在 Stripe 为 50 位核心高管做过辅导项目，她说看到那�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    ['.search','.readermode'].forEach(function(sel){ grab(sel,acts); });
+    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
+    ['.search'].forEach(function(sel){ grab(sel,acts); });
     // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
     // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
     var side=document.querySelector('.right.sidebar'), slot=null;

@@ -26,7 +26,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">字面意义上，就是在提示词注入发生时，观察模型大脑中亮起的神经元。</div><div class="a">Boris Cherny · 03:00</div></div>
+<div class="pd-hook"><div class="z">字面意义上，就是在提示词注入发生时，观察模型大脑中亮起的神经元。</div><div class="a">— Boris Cherny <button class="pd-ts" data-t="03:00" data-who="Boris Cherny" data-en="where it's literally, we're looking at neurons in the model's brain that light up when prompt injection happens." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Boris Cherny]]
@@ -145,7 +145,8 @@ Boris 说,别再像以前那样下死指令了。很多人用 Claude,非要把�
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    ['.search','.readermode'].forEach(function(sel){ grab(sel,acts); });
+    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
+    ['.search'].forEach(function(sel){ grab(sel,acts); });
     // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
     // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
     var side=document.querySelector('.right.sidebar'), slot=null;

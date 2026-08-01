@@ -27,7 +27,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-11-16-lennys-the-godmother-of-ai.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我在两个半世纪前开始研究 AI,在过去二十年里我几乎每个学生毕业时,我都提醒他们,你的领域叫人工智能,但其中没有任何人工的成分。</div><div class="a">Dr. Fei-Fei Li · 08:01</div></div>
+<div class="pd-hook"><div class="z">我在两个半世纪前开始研究 AI,在过去二十年里我几乎每个学生毕业时,我都提醒他们,你的领域叫人工智能,但其中没有任何人工的成分。</div><div class="a">— Dr. Fei-Fei Li <button class="pd-ts" data-t="08:01" data-who="Dr. Fei-Fei Li" data-en="I started working AI two and a half decades ago, and I've been having students for the past two decades and almost every student who graduates, I remind them when they graduate from my lab that your field is called artificial intelligence, but there's nothing artificial about it." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Lenny]] · [[Dr. Fei-Fei Li]]
@@ -139,7 +139,8 @@ tags:
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    ['.search','.readermode'].forEach(function(sel){ grab(sel,acts); });
+    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
+    ['.search'].forEach(function(sel){ grab(sel,acts); });
     // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
     // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
     var side=document.querySelector('.right.sidebar'), slot=null;

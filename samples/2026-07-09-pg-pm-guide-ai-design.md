@@ -28,7 +28,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-09-pg-pm-guide-ai-design.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我认为那些困在 ChatGPT 中的人还没有意识到，如果你在 Codex 中使用它，它可以连接到你所有的现有应用程序</div><div class="a">Akash · 00:39</div></div>
+<div class="pd-hook"><div class="z">我认为那些困在 ChatGPT 中的人还没有意识到，如果你在 Codex 中使用它，它可以连接到你所有的现有应用程序</div><div class="a">— Akash <button class="pd-ts" data-t="00:39" data-who="Akash" data-en="i think that people who are stuck in chat gpt haven't realized that this can connect to all of your existing apps if you're using it in codex" aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Meng To]] · [[Akash]]
@@ -136,7 +136,8 @@ tags:
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    ['.search','.readermode'].forEach(function(sel){ grab(sel,acts); });
+    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
+    ['.search'].forEach(function(sel){ grab(sel,acts); });
     // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
     // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
     var side=document.querySelector('.right.sidebar'), slot=null;
