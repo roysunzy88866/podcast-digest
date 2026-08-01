@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]] [[Sanjit Biswas]] [[Sonja]] [[Rohan Anil]] [[Jerry Tworek]] [[Daniel McKinnon]]
+[[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]] [[Sanjit Biswas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":4,"智能体":42,"Replit Agent":1,"vibe coding":6,"基于用量的计费":1,"部署":1,"人物角色":1,"一人独角兽公司":1,"产品市场契合度":4,"OpenAI":21}</script>
+<script type="application/json" class="pd-epn">{"Replit":4,"智能体":43,"Replit Agent":1,"vibe coding":6,"基于用量的计费":1,"部署":1,"人物角色":1,"一人独角兽公司":1,"产品市场契合度":4,"OpenAI":22}</script>
 
 <script>
 (function(){

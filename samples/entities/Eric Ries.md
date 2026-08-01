@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]] [[Sanjit Biswas]] [[Justine Moore]] [[Sonja]] [[Rohan Anil]] [[Jerry Tworek]]
+[[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]] [[Sanjit Biswas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Incorruptible":1,"Cloudflare":1,"Novo Nordisk":1,"Anthropic":25,"Vectura":1,"Groupon":1,"结构完整性":1,"公益公司":2,"金融重力":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"Incorruptible":1,"Cloudflare":1,"Novo Nordisk":1,"Anthropic":26,"Vectura":1,"Groupon":1,"结构完整性":1,"公益公司":2,"金融重力":1}</script>
 
 <script>
 (function(){

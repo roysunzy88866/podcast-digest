@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]] [[Sonja]] [[Rohan Anil]] [[Jerry Tworek]] [[Daniel McKinnon]] [[Boris Cherny]]
+[[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]] [[Sonja]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Turk":1,"Samsara":1,"物理 AI":3,"护栏":8,"生成式 AI":1,"智能体":42,"数据网络效应":1,"Agents Studio":1,"AI 行车记录仪":1,"资产标签":1}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":1,"Samsara":1,"物理 AI":3,"护栏":8,"生成式 AI":1,"智能体":43,"数据网络效应":1,"Agents Studio":1,"AI 行车记录仪":1,"资产标签":1}</script>
 
 <script>
 (function(){

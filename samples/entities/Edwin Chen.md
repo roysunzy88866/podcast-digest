@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]] [[Sanjit Biswas]] [[Justine Moore]] [[Sonja]] [[Rohan Anil]] [[Jerry Tworek]]
+[[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]] [[Sanjit Biswas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Surge AI":1,"Anthropic":25,"ChatGPT":10,"LLM Arena":1,"Waymo":7,"Claude":8,"基准测试":1,"后训练":1,"强化学习环境":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"Surge AI":1,"Anthropic":26,"ChatGPT":10,"LLM Arena":1,"Waymo":7,"Claude":8,"基准测试":1,"后训练":1,"强化学习环境":1}</script>
 
 <script>
 (function(){

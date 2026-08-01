@@ -32,7 +32,7 @@ unlisted: true
 
 [[智能体]] · [[Garry Tan]] · [[Sam Altman]] · [[技能文件]] · [[初创公司]] · [[上下文工程]] · [[AGI]] · [[公司大脑]] · [[沙箱]] · [[RAG]]
 
-<script type="application/json" class="pd-epn">{"智能体":42,"Garry Tan":1,"Sam Altman":1,"技能文件":1,"初创公司":1,"上下文工程":1,"AGI":6,"公司大脑":1,"沙箱":8,"RAG":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":43,"Garry Tan":1,"Sam Altman":1,"技能文件":1,"初创公司":1,"上下文工程":1,"AGI":6,"公司大脑":1,"沙箱":8,"RAG":1}</script>
 
 <script>
 (function(){

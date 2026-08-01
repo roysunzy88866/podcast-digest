@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Google]] · [[Anthropic]] · [[Codex]] · [[Cursor]] · [[Claude Code]] · [[Lovable]] · [[OpenAI]] · [[Tesla]]
 
-<script type="application/json" class="pd-epn">{"智能体":42,"Lenny":32,"Google":9,"Anthropic":25,"Codex":11,"Cursor":4,"Claude Code":12,"Lovable":3,"OpenAI":21,"Tesla":5}</script>
+<script type="application/json" class="pd-epn">{"智能体":43,"Lenny":32,"Google":9,"Anthropic":26,"Codex":11,"Cursor":4,"Claude Code":12,"Lovable":3,"OpenAI":22,"Tesla":5}</script>
 
 <script>
 (function(){

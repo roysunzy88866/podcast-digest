@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]] [[Sanjit Biswas]] [[Sonja]] [[Rohan Anil]] [[Jerry Tworek]] [[Daniel McKinnon]] [[Boris Cherny]]
+[[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]] [[Sanjit Biswas]] [[Sonja]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Frederick Rankin":1,"Alex Rampell":1,"Stein Pella":1,"Lassie":1,"智能体":42,"回路中的人类":1,"现有巨头":1,"Stripe":7}</script>
+<script type="application/json" class="pd-epn">{"Frederick Rankin":1,"Alex Rampell":1,"Stein Pella":1,"Lassie":1,"智能体":43,"回路中的人类":1,"现有巨头":1,"Stripe":7}</script>
 
 <script>
 (function(){

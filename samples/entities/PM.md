@@ -43,7 +43,7 @@ unlisted: true
 
 [[Lenny]] · [[Ramp]] · [[Keith Rabois]] · [[Dan Shipper]] · [[PayPal]] · [[智能体]] · [[Square]] · [[Codex]] · [[Faire]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Ramp":3,"Keith Rabois":1,"Dan Shipper":1,"PayPal":1,"智能体":42,"Square":1,"Codex":11,"Faire":1,"Claude Code":12}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"Ramp":3,"Keith Rabois":1,"Dan Shipper":1,"PayPal":1,"智能体":43,"Square":1,"Codex":11,"Faire":1,"Claude Code":12}</script>
 
 <script>
 (function(){

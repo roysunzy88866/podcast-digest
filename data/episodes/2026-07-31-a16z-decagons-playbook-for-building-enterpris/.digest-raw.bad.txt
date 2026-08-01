@@ -1,0 +1,59 @@
+```json
+{
+  "title_zh": "Decagon 双子星:一家 AI 客服公司为什么养了一支微调模型团队",
+  "tldr": "企业 AI 独角兽 Decagon 剖析他们如何用开源小模型把九成工作流搬到自研管线,以及为什么前向部署工程师必须做产品而不是当外包。",
+  "digest_md": "同样是搞大模型,为什么硅谷当红炸子鸡 Decagon 敢于大举放弃顶级大模型、把九成的工作流都迁到开源小模型上?答案在于,在诸如语音客服这种需要极速响应的场景下,闭源大模型根本做不到那么低的延迟;但一旦亲自上手微调(把通用开源模型针对特定任务反复训练),小模型不仅能把延迟压下去,在专属任务上的表现甚至能超越最前沿的大模型,成本还更便宜,相当于一举拿下了三个维度的全胜 [04:16 Jesse Zhang] [05:34 Jesse Zhang]。
+
+在 a16z 的这集对谈里,Decagon 的两位联合创始人 Jesse Zhang 和 Ashwin Srinivas 讲了四件事:首先,他们如何以及为什么要把绝大部分业务转移到了自己微调的小模型上;其次,当大模型变得越来越强,应用层公司到底靠什么活下去,业务逻辑的护城河又在哪里;接着,他们分享了打透大型企业市场的销售打法,以及如何用一套"玻璃盒"理念把产品交给客户自己迭代,击败了重人力的传统部署模式;最后,他们回答了一个扎心问题:AI 自动化真的会砸掉所有人的饭碗吗,杰文斯悖论(某种资源利用效率提高反而导致其总消耗量增加的现象)在客服场景里到底是怎么起作用的。
+
+说完了为什么开源小模型值得押注,接下来是他们具体怎么做模型迁移的。Jesse 坦言,Decagon 最初也是直接调用 OpenAI、Anthropic 的前沿模型,因为对一家初创公司来说,把产品快速跑通才是第一要务。然而,当他们的客户拓展到上百万体量,特别是发布了语音智能体之后,延迟成为了生死线——回答再好,慢半拍就全毁了 [02:45 Jesse Zhang]。要把延迟降下来,就只能用更小的模型。此时,大厂实验室提供的小模型虽然小,但你没法按自己的意愿深度调整。于是 Decagon 组建了一支昂贵的自研团队,开始大量采用开源模型 [03:18 Jesse Zhang] [04:07 Jesse Zhang]。
+
+听起来这似乎是个顺理成章的降级,但 Ashwin 特别强调,这根本不是"在聪明和笨之间做妥协"的虚假权衡。在实际测试中,这些更小、相对不那么通用的开源模型,经过针对特定任务的微调后,表现竟然能力压最前沿的智能大模型 [05:34 Jesse Zhang]。Jesse 举了个例子:他们打造的对话智能体在接待一个客户时,需要同时做很多事,比如判断客户在聊什么话题、识别对方是不是在恶意搞破坏。每个细分动作其实都不需要大模型那种会做数学题、会写代码的全能智能,只需要它把这一件事干到极致 [03:31 Jesse Zhang]。最终,这种专为特定任务微调的开源模型,在更懂行、反应更快的同时,顺带省下了大笔算力开销。
+
+既然开源小模型这么香,企业客户为什么还没一窝蜂全换掉?Ashwin 解释说,现实里微调模型并不是喊一嗓子就能落地的,你需要准备特定数据,更重要的是要有一套只针对你这个场景定制的评估体系 [07:13 Jesse Zhang]。特别是大企业有着沉重的惯性,必须走完复杂的模型风险治理和安全审查流程 [09:02 Jesse Zhang]。因此,Jesse 观察到一个看似反直觉的趋势:尽管开源被炒得很热,目前企业端的开源推理份额其实反而在下降——因为大家都在不断试水各种新用例,只要还在试验阶段,大家依然会首选直接调 API 的大模型。但只要某个用例固化下来并准备大规模铺开,企业就会迅速倒向开源 [08:21 Jesse Zhang]。为了应对这种源源不断的迁移需求,Decagon 把自己的 Decagon Labs(内部研究实验室)打造成了一个模型工厂,专门压缩从新模型发布到微调完毕投入实战的周期 [10:09 Jesse Zhang] [10:13 Ashwin Srinivas]。至于该怎么平衡自研与外包,他们的判断非常务实:获取标注数据这种各家都要做的事去外面买,但贴合自身用例的评测基准和训练基础设施,必须捏在自己手里 [11:04 Ashwin Srinivas]。
+
+模型层面的技术搞定了,但这并不足以回答那个更尖锐的行业拷问:既然大模型实验室的模型正以极快的速度变得越来越强,应用层公司所谓的护城河到底在哪?如果说 Anthropic 和 OpenAI 会吃掉一切,Decagon 十年后凭什么还能活着?这正是下一个话题。
+
+> 【背景】业界常把那些拥有数千亿参数、能力极其全面的最顶级 AI 模型称为前沿模型或闭源大模型,如 OpenAI 的 GPT 系列。通常认为它们代表了当前 AI 智能的天花板。
+
+面对这个终极拷问,Jesse 和 Ashwin 给出了一套清晰的拆解逻辑。应用层公司绝不是套壳赚差价的中间商。Jesse 指出,即便到了 AGI 时代,智能体也需要系统来存储数据、抽取信息,这就意味着纯粹为人们干活的系统可能面临冲击,但软件本身绝不会消失 [19:53 Jesse Zhang]。更何况,把一个大模型塞进世界五百强企业里干活,绝不是给它开放所有系统权限那么简单。为了让模型在企业内部安全部署,你必须搭建一整套基础设施:规定它能做什么、绝对不能做什么以防范灾难性错误;让企业内部数百人能协同管控智能体;测试它是否违规;还要能在每天上百万次对话中抓取信息、提炼洞察 [35:33 Jesse Zhang]。这种连通企业原有遗留系统的改造工作,就是应用层公司未来几年的核心护城河 [36:09 Jesse Zhang]。
+
+Ashwin 进一步澄清了大众对微调的一个误解。很多人以为微调是为了给不同企业客户定制专属行为,但实际上,他们的大多数微调是在针对"客服"这个具体用例做深度定制 [16:26 Jesse Zhang]。他们发现,那些基于大模型的新产品在实验室里看着很美,但真到了企业手里,只要业务流程一变,就得耗费大量工程量去重写逻辑 [17:27 Jesse Zhang]。真正的业务逻辑——比如航班取消了,如何一次性帮三个人改签——与底层模型毫无关系,它必须沉淀在应用层 [18:04 Jesse Zhang]。所以,在那些需要深度扎根的核心垂直领域,能将业务逻辑、测试、合规工具有效打包在一起的应用平台,不可替代性反而更强 [18:30 Jesse Zhang]。
+
+聊完了产品与模型层面的护城河,这支以技术为核心的团队到底是怎么把庞大的企业客户拿下、并实现如此惊人的扩张速度的?这正是下一个话题。
+
+企业级销售的制胜法门,首先在于他们对部署模式的重新定义。Jesse 透露了一个细节:他们最近的一个大客户是从竞争对手 Sierra 那里挖过来的。该客户抱怨,Sierra 的重度前向部署(指派大量工程师驻场帮客户做定制开发)模式就像一个黑盒,客户想做任何修改都得排队等工程师 [38:24 Jesse Zhang]。而 Decagon 推崇的则是"玻璃盒"理念:交付一套可用的核心产品,让客户的非技术人员也能亲自上手看懂并快速迭代 [39:27 Jesse Zhang] [39:31 Jesse Zhang]。结果是,该客户在 Sierra 那里花了一年才建好三个业务流,而在 Decagon 这儿,短短一个月就搭出了七个 [39:31 Jesse Zhang]。
+
+这套打法的背后,是 Decagon 对"前向部署工程师"(专门深入一线客户现场帮解决问题的工程师)这一热门岗位的深度反思。Ashwin 曾是 Palantir 的部署策略师,他深知 Palantir 那套"吞下痛苦、排泄产品"的重模式很难被一般公司复制 [25:31 Ashwin Srinivas]。他直言,很多现在疯狂招募前向部署工程师、对客户有求必应的 AI 公司,其实正在掉入"伪咨询公司"的陷阱 [26:09 Ashwin Srinivas]。如果一家公司不能把在前线发现的客户需求快速抽象、沉淀为标准化的核心产品,它的规模就永远受限于人头数 [22:30 Jesse Zhang]。
+
+因此,在 Decagon,前向部署工程师和智能体产品经理(PM)的核心使命不是驻场做外包,而是从客户那里发现痛点,并将其转化为下一个客户能免费使用的通用产品功能 [24:02 Jesse Zhang] [33:03 Ashwin Srinivas]。创始人 Jesse 坦言自己将高达八成的时间花在销售上 [44:44 Jesse Zhang]。这并非只是因为客户想见老板,而是因为面对超大型银行、航空公司的极长决策链,需要创始人亲自出马,用一套极其细致的落地路线图打消他们对合规和上线的恐惧 [42:30 Ashwin Srinivas] [45:29 Jesse Zhang]。
+
+既然聊到了团队运作和人效问题,一个无法回避的敏感话题是:当 AI 已经能如此深度接管客服这种端到端场景时,我们到底是在创造工作,还是在消灭职业?这正是他们最后回答的问题。
+
+对于 AI 砸饭碗的担忧,Jesse 给出了一个极其精彩的类比:AI 会扼杀工作,但不会扼杀职业 [77:24 Jesse Zhang]。要理解这一点,可以从杰文斯悖论来看:当某项资源的使用效率提升时,其总消耗量反而会增加。Ashwin 坦言,他们发现许多企业对客服的需求其实是远大于供给的 [75:40 Ashwin Srinivas]。在人力成本高昂的时代,企业只能把客服入口藏得很深,只给付费用户用。但当 AI 让单次服务成本骤降 30% 甚至更多时,企业的直觉不是立刻裁掉客服团队,而是让服务变得触手可及——把它放到每一个用户都会经过的页面,甚至免费向所有用户开放,以此来大幅提升用户留存和转化率 [76:06 Jesse Zhang] [76:51 Jesse Zhang]。
+
+在这个逻辑下,人类会从机械地接电话、点鼠标这种消磨人的琐碎工作中解放出来,转而去完成近乎无限多的、真正需要同理心与高阶思考的任务,去进一步取悦和照顾客户 [77:46 Jesse Zhang]。除了客服,这套对话式接口还能顺理成章地承接销售线索筛查等更具创收性质的业务 [79:07 Jesse Zhang]。软件与人力的关系并没有走向死局,而是被推上了一个更高效、更以人为本的进化阶梯。
+
+## 本集带走
+
+最后收个尾,这一集值得带走的是三句话。第一,别迷信大而全的前沿模型。对语音这种对延迟极其敏感的场景来说,经过深度微调的开源小模型反而能在特定任务上跑赢大模型,同时实现更聪明、更便宜、更快的全胜;只是在企业内部落地,仍需要跨越数据准备与合规评估的漫长周期。第二,应用层公司绝不是简单的套壳。大模型再强,也搞不定企业内部复杂交错的业务逻辑、遗留系统接入和严苛的合规审查,这就是应用层不可替代的护城河。第三,前向部署绝不能做成高级外包。如果不能把一线驻场发现的需求快速产品化、沉淀为核心产品功能,公司就永远无法规模化。真正的做法是交付一个透明的工具,让客户自己掌握迭代的主动权,这也正是 Decagon 击败重人力友商的核心利器。更让人欣慰的是,在取代琐碎工作的同时,AI 并没有消灭职业——当服务成本大幅下降,企业会选择把服务铺得更广、更深,让人去做真正需要人去做的高阶温度活儿。",
+  "quotes": [
+    {"en": "So today, 90% of our workflow is on open source.", "zh": "所以今天,我们 90% 的工作流都在开源上。", "timestamp": "04:16", "speaker": "Jesse Zhang"},
+    {"en": "So when we fine-tune smaller, dumber models, it's that they're just not as general purpose, but on the specific task we want them to do, they actually outperform the large, smart, state-of-the-art models.", "zh": "所以当我们微调更小、更笨的模型时,是它们只是没那么通用,但在我们想要它们做的特定任务上,它们实际上表现优于那些大型、聪明、最先进的模型。", "timestamp": "05:34", "speaker": "Jesse Zhang"},
+    {"en": "The thing that we built was not an agent that does customer support well, but rather an agent that follows business process well.", "zh": "我们构建的东西不是一个能很好地处理客户支持的智能体,而是一个能很好地遵循业务流程的智能体。", "timestamp": "48:58", "speaker": "Jesse Zhang"},
+    {"en": "Even once you have AGI, agents are going to need somewhere to store work and pull information from and reason about things.", "zh": "即使一旦你拥有了 AGI,智能体仍然需要某个地方来存储工作、从中提取信息以及对事物进行推理。", "timestamp": "00:16", "speaker": "Jesse Zhang"},
+    {"en": "I don't think software as a whole in any meaningful way is going away.", "zh": "我不认为软件作为一个整体会在任何有意义的意义上消失。", "timestamp": "00:23", "speaker": "Jesse Zhang"},
+    {"en": "Unfortunately, the Frontier labs, they do have small models, but you can't really control them in the way that you want.", "zh": "不幸的是,Frontier 实验室,它们确实有小模型,但你无法真正以你想要的方式控制它们。", "timestamp": "00:27", "speaker": "Jesse Zhang"},
+    {"en": "On the specific tasks we want them to do, they actually outperform the large, smart, state-of-the-art model.", "zh": "在我们希望它们执行的具体任务上,它们实际上确实优于那些大型、智能的最前沿模型。", "timestamp": "00:35", "speaker": "Jesse Zhang"},
+    {"en": "Instead of us having to write these AOPs, DoI just does all of that.", "zh": "与其由我们必须编写这些 AOP,DoI 只是做所有这些。", "timestamp": "00:49", "speaker": "Jesse Zhang"},
+    {"en": "What's Decagon's moat?", "zh": "Decagon 的护城河是什么?", "timestamp": "00:57", "speaker": "Sarah Wang"},
+    {"en": "And like, why does Decagon like 10 years from now still have a right to exist?", "zh": "而且,为什么 Decagon 从现在起 10 年后仍然有存在的权利?", "timestamp": "00:59", "speaker": "Sarah Wang"},
+    {"en": "The biggest breakthroughs in enterprise AI aren't just happening inside foundation models.", "zh": "企业 AI 最大的突破不仅仅发生在基础模型内部。", "timestamp": "01:03", "speaker": "Sarah Wang"},
+    {"en": "They're happening in the products built around them.", "zh": "它们发生在围绕它们构建的产品中。", "timestamp": "01:08", "speaker": "Sarah Wang"},
+    {"en": "In this episode, Sarah Wang and Kimberley Tan sit down with Decagon co-founders Jesse Zhang and Ashwin Srinivas to discuss why they shifted most of their AI stack to open source models, how they think about deploying AI inside large enterprises, and why the future of enterprise software will be shaped by AI agents, not just better models.", "zh": "在这一集中,Sarah Wang 和 Kimberley Tan 与 Decagon 联合创始人 Jesse Zhang 和 Ashwin Srinivas 坐下来讨论为什么他们将大部分 AI 堆栈转移到开源模型,他们如何思考在大型企业内部部署 AI,以及为什么企业软件的未来将由 AI 智能体塑造,而不仅仅是更好的模型。", "timestamp": "01:11", "speaker": "Sarah Wang"},
+    {"en": "An AI agent should just be the front door of your business.", "zh": "一个 AI 智能体应该只是你公司业务的前门。", "timestamp": "00:00", "speaker": "Jesse Zhang"},
+    {"en": "And every interaction, whether it's like reactive or proactive with a customer, should be handled by AI.", "zh": "每一次互动,无论是被动还是主动与客户,都应该由 AI 来处理。", "timestamp": "00:02", "speaker": "Jesse Zhang"},
+    {"en": "This narrative dominated the first half of 2026, which is that Anthropic, OpenAI, they're the last startups.", "zh": "这种叙事主导了 2026 年上半年,即 Anthropic、OpenAI,它们是最后的初创公司。", "timestamp": "00:07", "speaker": "Sarah Wang"}
+  ]
+}
+```

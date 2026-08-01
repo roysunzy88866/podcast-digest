@@ -25,7 +25,7 @@ unlisted: true
 
 [[Claire Vo]] · [[Eddie Kim]] · [[Gusto]] · [[联合创始人]] · [[vibe coding]] · [[智能体]] · [[垃圾桶法]] · [[Cloudflare Worker]] · [[Vercel AI SDK]] · [[Claude Code]]
 
-<script type="application/json" class="pd-epn">{"Claire Vo":2,"Eddie Kim":1,"Gusto":1,"联合创始人":2,"vibe coding":6,"智能体":42,"垃圾桶法":1,"Cloudflare Worker":1,"Vercel AI SDK":1,"Claude Code":12}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":2,"Eddie Kim":1,"Gusto":1,"联合创始人":2,"vibe coding":6,"智能体":43,"垃圾桶法":1,"Cloudflare Worker":1,"Vercel AI SDK":1,"Claude Code":12}</script>
 
 <script>
 (function(){

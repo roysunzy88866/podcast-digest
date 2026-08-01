@@ -33,7 +33,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[智能体]] · [[Lenny]] · [[NVIDIA]] · [[Claude Code]] · [[护栏]] · [[Benedict Evans]] · [[Saragawa]] · [[Fiona Fung]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":25,"OpenAI":21,"智能体":42,"Lenny":32,"NVIDIA":6,"Claude Code":12,"护栏":8,"Benedict Evans":1,"Saragawa":1,"Fiona Fung":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":26,"OpenAI":22,"智能体":43,"Lenny":32,"NVIDIA":6,"Claude Code":12,"护栏":8,"Benedict Evans":1,"Saragawa":1,"Fiona Fung":1}</script>
 
 <script>
 (function(){

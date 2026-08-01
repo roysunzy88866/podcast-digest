@@ -90,7 +90,7 @@ tags:
 
 - [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]] —— 同概念:护城河 (moat)、智能体 (agent)
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]] —— 同公司:OpenAI · 同概念:智能体 (agent)
-- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]] —— 同公司:OpenAI · 同概念:智能体 (agent)
+- [[2026-07-31-a16z-decagons-playbook-for-building-enterpris|Decagon 的 AI 寺庙:开源、Duet 与护城河]] —— 同公司:OpenAI · 同概念:智能体 (agent)、开源模型 (open source models)
 
 </div>
 <div class="pd-ex">

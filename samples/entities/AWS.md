@@ -27,7 +27,7 @@ unlisted: true
 
 [[Benedict Evans]] · [[Theo Browne]] · [[Lenny]] · [[Sonnet 3.5]] · [[OpenAI]] · [[Opus 4.5]] · [[Anthropic]] · [[Mythos]] · [[Google]] · [[编排]]
 
-<script type="application/json" class="pd-epn">{"Benedict Evans":1,"Theo Browne":1,"Lenny":32,"Sonnet 3.5":1,"OpenAI":21,"Opus 4.5":1,"Anthropic":25,"Mythos":3,"Google":9,"编排":2}</script>
+<script type="application/json" class="pd-epn">{"Benedict Evans":1,"Theo Browne":1,"Lenny":32,"Sonnet 3.5":1,"OpenAI":22,"Opus 4.5":1,"Anthropic":26,"Mythos":3,"Google":9,"编排":2}</script>
 
 <script>
 (function(){

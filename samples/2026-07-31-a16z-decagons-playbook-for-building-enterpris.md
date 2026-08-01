@@ -1,25 +1,25 @@
 ---
-title: "Decagon 拆解:为何九成工作流跑在开源模型上"
+title: "Decagon 的 AI 寺庙:开源、Duet 与护城河"
 podcast: The a16z Show
 date: 2026-07-31
 source_url: undefined
 duration: "80:23"
 type: episode
 cover: "#64748b"
-description: "Decagon 的创始人解释了他们为何把90%工作流转向开源小模型,以及 AI 应用层的护城河。"
+description: "Decagon 畅谈为何九成工作流转用开源模型,以及企业 AI 的护城河到底在哪。"
 host: "[[Sarah Wang]]"
-cohosts: ["[[Ashwin Srinivas]]", "[[Kimberley Tan]]", "[[Jesse Zhang]]"]
-companies: ["[[Decagon]]", "[[Sierra]]"]
-concepts: ["[[Duet Autopilot]]", "[[智能体]]", "[[开源模型]]", "[[前沿模型]]", "[[微调]]", "[[应用层]]"]
-category: 智能体
+cohosts: ["[[Kimberley Tan]]", "[[Jesse Zhang]]", "[[Ashwin Srinivas]]"]
+companies: ["[[Decagon]]"]
+concepts: ["[[智能体]]", "[[开源模型]]", "[[微调]]", "[[业务逻辑]]", "[[前置部署工程师]]", "[[Duet]]", "[[延迟]]", "[[推理]]"]
+category: 创业与行业
 tags:
-  - 智能体
   - 创业与行业
+  - 智能体
 ---
 
-<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Decagon 拆解:为何九成工作流跑在开源模型上</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
+<div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Decagon 的 AI 寺庙:开源、Duet 与护城河</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-# Decagon 拆解:为何九成工作流跑在开源模型上
+# Decagon 的 AI 寺庙:开源、Duet 与护城河
 
 <div class="pd-byl"><b>Jesse Zhang</b> · Decagon 创始人</div>
 
@@ -27,52 +27,143 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-31-a16z-decagons-playbook-for-building-enterpris.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我们构建的东西不是一个擅长客户支持的智能体,而是一个擅长遵循业务流程的智能体。</div><div class="a">Ashwin Srinivas · 00:42</div></div>
+<div class="pd-hook"><div class="z">不幸的是,前沿实验室确实有小模型,但你无法真正以你想要的方式控制它们。</div><div class="a">Ashwin Srinivas · 00:27</div></div>
 
 > [!info] 关联
-> **人物** [[Sarah Wang]] · [[Ashwin Srinivas]] · [[Kimberley Tan]] · [[Jesse Zhang]]
+> **人物** [[Sarah Wang]] · [[Kimberley Tan]] · [[Jesse Zhang]] · [[Ashwin Srinivas]]
 >
-> **公司** [[Decagon]] · [[Sierra]]
+> **公司** [[Decagon]]
 >
-> **概念** [[Duet Autopilot]] · [[智能体]] · [[开源模型]] · [[前沿模型]] · [[微调]] · [[应用层]]
+> **概念** [[智能体]] · [[开源模型]] · [[微调]] · [[业务逻辑]] · [[前置部署工程师]] · [[Duet]] · [[延迟]] · [[推理]]
 
-<div class="pd-tldr"><b>一句话</b>Decagon 的创始人解释了他们为何把90%工作流转向开源小模型,以及 AI 应用层的护城河。</div>
+<div class="pd-tldr"><b>一句话</b>Decagon 畅谈为何九成工作流转用开源模型,以及企业 AI 的护城河到底在哪。</div>
 
-一家做企业 AI [[智能体|智能体]]的公司,居然把 90% 的工作流从 GPT 这样的前沿大模型,换成了开源小模型——不是为了省钱,而是为了更快、更聪明。这是 [[Decagon|Decagon]] 的联合创始人 [[Jesse Zhang|Jesse Zhang]] 在这集访谈里抛出的反直觉事实。 [04:16]
+一家做企业客服的公司,竟然把九成的工作流从最贵的前沿大模型,换成了自己[[微调|微调]]的开源小模型——不仅没掉链子,反而更聪明、更便宜、更快。说这话的人是 [[Decagon|Decagon]] 的创始人 Jesse 和 Ashwin,他们做的是帮大企业搭 AI [[智能体|智能体]]的生意。
 
-这一集 YC 母公司 a16z 的播客里,[[Sarah Wang|Sarah Wang]] 和 [[Kimberley Tan|Kimberley Tan]] 与 Decagon 的两位联创 Jesse Zhang 和 [[Ashwin Srinivas|Ashwin Srinivas]] 坐在了一起。他们主要聊了三件事:为什么把大部分 AI 堆栈转向[[开源模型|开源模型]],以及怎么持续[[微调|微调]]它们;为什么在 AI 大实验室越来越强的今天,做具体业务的[[应用层|应用层]]公司不仅有活路,还能成长为「特定垂直领域的实验室」;以及他们怎么卖进全球最大的那几家企业,还提出了一个很安抚人心的判断:AI 会消灭琐碎的岗位,但不会消灭人的职业生涯。
+这一集 a16z 的对谈里,他们聊了四件事:为什么前沿大模型不是万能解药,非得自己微调[[开源模型|开源模型]]不可;为什么「应用层公司只是套壳」的看法是个误解,真正的壁垒恰恰在模型之外;那个让他们直呼「哇哦」的神奇时刻——用一个慢但聪明的大智能体,把写规则、建测试、查漏补缺的活儿全包了;以及当 AI 真能接管整个工作岗位时,人的职业生涯到底是毁了还是升级了。
 
-要说清楚他们为什么拥抱开源,得先从一个最常见的技术误区说起。很多人以为,选 AI 模型就是一道「要最聪明但贵的大模型,还是稍微笨一点但便宜的小模型」的选择题 [05:04]。Ashwin 明确指出,这是一个虚假的权衡 [05:21]。在具体的业务场景里(比如判断一个进线客户是在聊退换货、还是在查物流),任务是非常细分的,你根本不需要调动一个懂写代码、懂数学的大模型的所有智力。如果你把一个开源的小模型,拿这些细分任务去微调(fine-tune,即在已有模型基础上用特定数据继续训练),它在该任务上的表现,反而能击败那些最先进的大模型 [05:34]。于是你同时拿到了三个好处:干得更好、成本更低、延迟更低。
+说完了开场最反直觉的那个点——放着最强的大模型不用,非要自己去折腾开源小模型,接下来看看他们具体是怎么做、又是怎么想的。
 
-既然小模型这么好,大模型还有什么用?这正是他们工作流里「两套模型」的精妙之处。Jesse 解释,在主干的对话流程中,他们用微调过的、聪明且快速的小模型;但最近他们上线了一个叫 [[Duet Autopilot|Duet Autopilot]] 的系统——这其实是一个专门用来「管理 AI」的 AI [06:15]。它会去审查上百万段的实际对话记录,自己寻找哪些话题处理得不好,然后自己写出原模型的变体去对比测试效果。这种需要广泛探索、极度复杂的元任务,才是那些最聪明、最贵的[[前沿模型|前沿模型]]真正的用武之地 [06:46]。
+## 为什么九成工作流转向开源模型
 
-知道了怎么用模型,接下来的问题是:企业真的会自己养一个团队来干这些事吗?答案是会,但会非常慢 [07:13]。Jesse 解释了门槛在哪:微调模型最大的难点不是操作本身,而是你必须自己建立一套极其贴合业务的评估体系,去端到端地衡量最终的客户结果 [11:11]。因为这套评估标准和业务深度绑定,企业最终都必须建立自己的内部团队和工具。所以他们成立了 Decagon Labs,专门做持续训练 [09:13]。只要前沿模型的能力在变,就会不断催生新的可自动化场景,这就变成了一座不停运转的「模型工厂」 [10:09]。
+Jesse 回忆,公司刚起步时,大家都在用 OpenAI 和 Anthropic 的模型,图的是赶紧把产品跑起来。但当他们开始服务拥有数百万客户的超大企业,还上线了语音智能体,一个硬约束就冒了出来:[[延迟|延迟]]。
 
-说完了模型和工具,工具变了,做应用的公司怎么办?这正是下一个话题:实验室(大模型公司)会不会把应用层公司全干掉?Jesse 觉得这是个误解。模型本身确实越来越强,企业根本没法直接拿一个完美的大模型,给它一堆权限就指望它自己把活干了。要让模型在企业里落地,你需要给它加护栏(明确界限,防止灾难性错误),需要让数百个业务专家协作管理它的行为逻辑,需要测试它有没有越过合规红线 [35:33]。这些护栏、测试平台和业务逻辑的录入软件,才是应用层公司真正的护城河 [18:30]。
+要让语音对话自然,模型必须极快响应,而前沿大模型太重了。降低延迟、同时让智能体按自己意愿行事的方法,就是用更小的模型。Jesse 坦言,前沿实验室确实有小模型,「但你无法真正以你想要的方式控制它们」 <button class="pd-ts" data-t="03:02" data-who="Jesse" data-en="And the only way to get latency down, but also kind of make our agent operate the way we want it to, is to use smaller models. And when you want to go to smaller models, unfortunately, the Frontier labs, they do have small models, but you can't really control them the way that you want." aria-label="回原文"></button>。于是,大约一年多以前,他们决定转向开源。
 
-既然护城河这么深,大客户怎么拿下来?Ashwin 提到,他们能在一年内快速签下全球最大的几家银行、航空公司和电信公司,靠的正是「产品化」而非传统的堆人力 [45:11]。当时业界流行像 Palantir 那样派驻大量前期部署工程师去驻场,Ashwin 正是从 Palantir 出来的。但他直言不讳:派工程师去驻场随机接需求是个陷阱,长期看你会沦为一家「美化版的咨询公司」 [26:20]。所以他们要求工程师必须把客户的需求提炼进核心产品,让接下来的 10 个客户免费享受到成果 [24:07]。此外,卖进大企业最难的是内部冗长的审查流程,他们发现,光给产品是不够的,必须帮客户画出一张极细的路线图:告诉对方在哪个阶段该跑什么测试、怎么初次上线、出问题怎么兜底 [42:54]。这套打法让他们从客户那里拿到了极高的迭代速度,甚至还从竞品 [[Sierra|Sierra]] 手里把客户抢了过来 [38:17]。
+这里有个反常识的判断:很多人觉得大模型聪明,小模型笨,用小的就是在做性能妥协。Ashwin 直接反驳,认为这是个错误的权衡。他解释说,在智能体里,模型其实同时在干一堆细碎的活:判断用户在聊什么话题、识别有没有坏人来捣乱等等 <button class="pd-ts" data-t="03:31" data-who="Jesse" data-en="So it needs to do a lot of things at once, right? Like the first step it might do is, hmm, what topic is this person talking about? And something else it might do is, oh, is this person a bad actor that's coming in and trying to mess things up?" aria-label="回原文"></button>。每件单独的任务,其实都不需要大模型那种包揽数学、编程的通天智力,只需在一件特定任务上做到极致。通过把开源小模型针对特定任务微调,它们「在我们希望它们执行的具体任务上,它们实际上优于那些大型、最前沿的模型」 <button class="pd-ts" data-t="05:34" data-who="Ashwin" data-en="Because what we've seen in practice is even if you have a, quote, dumber model, you can get it, and we've seen this in practice, you can get it to higher performance on that specific task." aria-label="回原文"></button>。这样一套组合拳打下来,任务干得更好、更便宜、还更快,相当于白捡了三个好处。如今,Decagon 有九成的工作流跑在开源模型上 <button class="pd-ts" data-t="04:16" data-who="Jesse" data-en="And it's a very expensive team, but we have it because we need people that are really good at taking these open source models and tuning them and so on. So today, 90% of our workflow is on open source." aria-label="回原文"></button>,剩下的一成留给前沿大模型,用来做那些真正需要极高智力、探索性强的新项目,比如最近推出的 [[Duet|Duet]] Autopilot <button class="pd-ts" data-t="06:30" data-who="Jesse" data-en="rebooking or it's helping them with a process in healthcare then these are like well-defined parts so we have smart fast models to do that but we've for instance recently launched duet autopilot right which is our agent that improves the core conversational agent" aria-label="回原文"></button>。
 
-业务跑通了,那面对「AGI 要来了大家都没饭吃」的焦虑,在前线摸爬滚打的他们怎么看?主持人分享了一个小故事:她想拿「长远职业发展」劝一位同事留下,对方却回答「有了 AGI 我们就不再需要职业了」,这深深刺痛了她 [28:23]。Jesse 非常确定地说:AGI 之后绝对还有职业 [29:01]。因为本质上,人类的大多数工作本就是建立在各种抽象层之上的社会分工。回到客户支持这个具体场景,人们最怕的是 AI 取代人工。但 Ashwin 指出这是现实版的杰文斯悖论(某种资源利用效率提高,反而会导致对该资源的需求增加) [77:21]。他们发现,当支持成本下降时,客户不会立刻裁掉 60% 的人,而是会把支持入口铺满每个页面、甚至开放给免费用户,去挖掘更多潜在需求。最终,AI 吃掉的是机械、琐碎的接线员动作,而把人释放去创造更多收入。
+既然企业迟早都会发现开源的好处,这是否意味着大公司很快也会跟进?Jesse 觉得会,但肯定比大家想的慢。因为微调模型绝不是件轻松活:你得先拿到数据,更重要的是得有极好的评估体系,而且这些评估必须高度定制化,针对你特定的任务去测,没法随便套用公开的评估集 <button class="pd-ts" data-t="07:25" data-who="Jesse" data-en="Let's just use open source. Like you have to get the data. And then more importantly, you have to like have good evals." aria-label="回原文"></button>。不仅如此,Ashwin 补充说,模型的形态一直在变,随着底层能力提升,你会不断发现新任务可以去自动化,所以企业其实需要一个类似「模型工厂」的机制,不断训练新模型、淘汰旧模型 <button class="pd-ts" data-t="09:53" data-who="Ashwin" data-en="You find new places where you're like, oh, this task seems to be getting repeated a lot because now I have this totally new frontier model or open source model that now has this capability that they didn't have before, right?" aria-label="回原文"></button>。Decagon 内部专门养了一支昂贵的研究团队来干这事。
+
+聊完了底层模型的开源策略,接下来的问题就直击灵魂了:如果连企业自己都能搞定开源微调,像 Decagon 这样的应用层公司,到底还有没有存在的价值?
+
+## 应用层公司的护城河在哪
+
+2026 年上半年,硅谷有一种很火的叙事:OpenAI 和 Anthropic 这样的实验室是「最后的初创公司」,它们会吞噬一切,而应用层公司不过是套了一层薄薄的壳,加上一堆干苦力的外包工程师 <button class="pd-ts" data-t="15:03" data-who="Jesse" data-en="you know, a lingering misperception about what an AI application is. And just to get into that debate a little bit, because I think it's sort of this narrative that dominated the first half of 2026, which is that Anthropic, OpenAI, they're the last startups." aria-label="回原文"></button>。Jesse 和 Ashwin 完全不认同这种「虚假的二分法」。
+
+首先,Jesse 指出大家有个常见误解,以为微调就是为了给某个特定客户做定制。其实不然,他们做的大部分微调,是为了把模型训练得极度擅长「客服」这个特定场景 <button class="pd-ts" data-t="16:19" data-who="Jesse" data-en="I think if you look at our case, right, like, we just talked about all this fine-tuning stuff. I think a common misconception that people have is, you know, fine-tuning is a way to, like, customize it for that customer." aria-label="回原文"></button>。如果你是一家大银行,让自家宝贵的研究团队去为客服行为微调模型,这笔账显然不划算,不如直接接入像 Decagon 这样深耕垂直场景的应用。
+
+其次,更是核心的一点:[[业务逻辑|业务逻辑]]与模型无关。比如航班取消了,怎么一次性给三个人改签?这些极其庞杂的业务流程和现实约束,必须被编码进应用层。Jesse 强调,这些逻辑没法靠微调大模型解决,因为企业的流程一变,你之前微调进去的东西就得全部推翻重来 <button class="pd-ts" data-t="17:16" data-who="Jesse" data-en="And again, that doesn't happen through fine tuning. That happens like in context, because if you were to fine tune on that, you would have to reverse it every single time you change your procedures, which doesn't make sense." aria-label="回原文"></button>。所以业务逻辑必须存在于应用层的软件栈里,这才是真正的护城河。
+
+哪怕假设未来真的实现了 AGI(通用人工智能),模型无所不能,Jesse 依然认为软件不会消失 <button class="pd-ts" data-t="19:56" data-who="Jesse" data-en="And human beings have needed to use software for lots of things. You know, you need databases to put stuff in. You need CRMs to track things." aria-label="回原文"></button>。因为即使人类某种程度上就是一种 AGI,我们不还是需要数据库、需要 CRM(客户关系管理系统)来存取信息吗? AGI 智能体同样需要个地方来存放工作、拉取信息并[[推理|推理]]。未来,应用层公司也许最终会演变成特定垂直领域的「实验室」 <button class="pd-ts" data-t="20:40" data-who="Jesse" data-en="So I think there will always be a space for application layer companies. Maybe in the long term, application layer companies just become labs for specific verticals, because your primary product ends up being the models that are just really good at doing those specific tasks." aria-label="回原文"></button>,但这块阵地会一直在。
+
+那么,既然提到了那些干苦力的外包工程师,这到底是个明智策略还是个陷阱?
+
+## 前向部署工程师:是真需求还是咨询陷阱
+
+现在科技圈很流行一个词叫「[[前置部署工程师|前向部署工程师]](FDE)」,很多公司甚至以此为卖点,声称要招一大堆人驻扎在客户公司。Ashwin 曾是 Palantir 的部署策略师,对这套打法再熟悉不过。他警告说,把做产品和免费咨询混为一谈是非常危险的 <button class="pd-ts" data-t="25:24" data-who="Ashwin" data-en="Because I do think people use the term FDE very loosely in Silicon Valley. Yeah, and I think it's dangerous to mix the two of free consulting work versus actually doing product." aria-label="回原文"></button>。
+
+他引用了 Palantir 现任 CTO Shyam 的一句名言:「前向部署工程师吞食痛苦并排泄产品」。Ashwin 解释说,在 AI 产品的早期,前向部署工程师确实是必需的,因为没人知道全新的工作流长什么样。这些工程师必须贴着客户,跟着客户一起摸索出前所未有的新流程 <button class="pd-ts" data-t="22:07" data-who="Ashwin" data-en="Nobody knows what the workflows are because nobody's used these things before. So a forward-deployed engineer in this case is honestly just embedding with the customer to learn the workflow for the first time as the customer learns the workflow for the first time." aria-label="回原文"></button>。但是,一旦搞清楚了工作流,你就必须把它产品化,然后回归到可扩展的科技产品逻辑里。如果你做不到这一点,那你不过是在做一家被美化的咨询公司 <button class="pd-ts" data-t="22:49" data-who="Ashwin" data-en="And if you can't do that, then you're just building a glorified consulting truck. Well, I'd love to dig into this more because I know when we started working together, probably almost exactly three years ago, and you guys landed on this idea, there were two things that were relatively contrarian that now feel kind of standard." aria-label="回原文"></button>。
+
+Decagon 自己的团队就是这么演进的。在早期,前向部署工程师确实会花大量时间手动给客户写一套叫 AOP(智能体操作流程)的规则。但他们只要发现这些活费时费力,立刻就琢磨怎么把它变成通用的核心产品功能 <button class="pd-ts" data-t="33:11" data-who="Ashwin" data-en="Every single thing that Jesse just talked about was the result of four deployed people doing things and us figuring out how to productize it. right? So for instance, we realized that, hey, when we go into a new customer, we need to spend all this time writing up the AOPs manually." aria-label="回原文"></button>。他们所有的前线作战经验,最终的归宿都必须是反哺核心产品,好让接下来的十个客户都能开箱即用,否则公司根本无法规模化 <button class="pd-ts" data-t="24:07" data-who="Jesse" data-en="But the output of that is not a one-off thing that is just built for that customer. It is something that is contributed to core product in a way that the next 10 customers that ask about the same thing get it for free." aria-label="回原文"></button>。这套打法,让他们在面对竞争对手(如 Sierra)时有了明显差异:有客户因为受不了对手黑盒式的重度服务模式而转投 Decagon,在对手那里花一年才搭出三个流程,在 Decagon 这儿一个月就搞定了七个 <button class="pd-ts" data-t="39:31" data-who="Jesse" data-en="So we like to call this like a glass box approach instead of a black box. And yeah, so within basically a month, they spun up like seven new journeys on Decagon." aria-label="回原文"></button>。
+
+这种不断把人工经验提炼成产品的思路,最终孕育出了让他们直呼「哇哦」的杀手锏。它是怎么诞生的?
+
+## 神奇时刻:用 AI 管理 AI
+
+主持人问,在改进产品的过程中,有没有哪个时刻让你觉得「哇哦,我没想到 AI 能干这个」? Jesse 毫不犹豫地提到了 Duet。
+
+做企业客服,其实背后有海量的脏活累活:得手写一堆 AOP 教 AI 怎么做事;得写一堆测试来确保它不犯蠢;它上线后,还得靠人去一条条读对话记录,查漏补缺。Jesse 意识到这些痛点后,他们打造了 Duet——一个体积更大、速度较慢,但极其聪明的「第二智能体」 <button class="pd-ts" data-t="30:56" data-who="Jesse" data-en="And so what Duet is, is it's kind of a separate agent. It's like a second agent that's much bigger and much slower, but its job is to do all the tasks I just described." aria-label="回原文"></button>。它的任务,就是把上面提到的所有管理活儿全包了。
+
+你现在可以直接给 Duet 丢一堆历史文档和对话记录,告诉它:去弄清楚我想让智能体怎么做,然后你自己把操作流程写出来。它不仅照做,还会主动把配套的测试和模拟跑起来 <button class="pd-ts" data-t="31:24" data-who="Jesse" data-en="And it just feels very magical because you can just literally tell it like, hey, I have nothing built yet so far, but here's a bunch of transcripts I have and here's some documentation." aria-label="回原文"></button>。等产品上线了,它还能在一旁默默监控成千上万条对话,自动标记出哪些地方做得不好,甚至连改进方案都帮你草拟好了 <button class="pd-ts" data-t="31:40" data-who="Jesse" data-en="And then of its own accord, it'll also write the tests and simulations that go along with those. And once you're done with that and you actually put it in front of customers, it'll be the one that's monitoring all the conversations and it'll flag things where things are going well or poorly." aria-label="回原文"></button>。这是推理模型(就是那种擅长深度逻辑思考的 AI)能力大幅提升后才解锁的魔法 <button class="pd-ts" data-t="32:06" data-who="Jesse" data-en="And so that's very magical because, well, first of all, it was not possible when we first started the company. It only became possible when all the reasoning models got better." aria-label="回原文"></button>。
+
+ Ashwin 进一步揭示了这一切的底层逻辑:Jesse 刚才说的这些神奇功能,没有一样是凭空想出来的,全都是前向部署工程师在一线干苦力时发现的痛点,然后团队琢磨怎么把它产品化的结果 <button class="pd-ts" data-t="33:03" data-who="Ashwin" data-en="And also, to your other question of how did we come up with all this and how did the product improve? Every single thing that Jesse just talked about was the result of four deployed people doing things and us figuring out how to productize it." aria-label="回原文"></button>。
+
+既然 AI 已经强大到可以管理 AI 了,那当 AI 真的开始取代一整个工作岗位时,我们该怎么办?
+
+## AI 会消灭工作,但不一定会消灭职业生涯
+
+这是一个极其敏感但又绕不开的话题。主持人直言,客户支持也许是第一个能被 AI 端到端完全接管的工种。这是否意味着大裁员?
+
+Jesse 和 Ashwin 用他们在前线看到的现象给出了一个相对乐观的答案。他们发现,对于很多企业来说,对客户支持的需求其实是远大于供给的 <button class="pd-ts" data-t="75:40" data-who="Jesse" data-en="earlier on when we were talking about, hey, what are we truly doing? We found that for a lot of our customers, there's actually just more demand for things like customer support than there's supply, right?" aria-label="回原文"></button>。当 AI 把做客服的成本打下来 30% 时,大多数公司的第一反应并不是裁掉 60% 的客服团队,而是发现:原来我的客户有这么多没被满足的问题!既然现在更便宜了,那我们就把支持入口做得更显眼,甚至在每个页面都放上,连免费用户也提供即时支持 <button class="pd-ts" data-t="76:51" data-who="Jesse" data-en="They said, let us make support more easily accessible, right? So instead of it just being in one part, like buried within a support panel, they're like, let's put support on every page and let's make it more prominent in places where people are more likely to get stuck." aria-label="回原文"></button>。这堪称现实版杰文斯悖论(某资源的利用效率提高,反而会导致对该资源的需求增加)的完美体现。
+
+Jesse 打了个精准的比方:AI 会扼杀工作,但不会扼杀职业生涯 <button class="pd-ts" data-t="77:24" data-who="Jesse" data-en="That may be the best example of Jevin's paradox in real life that I've heard. Yeah, I think it's like AI will kill jobs, but not careers in a way. Because like those jobs that are being done currently should not be done by humans." aria-label="回原文"></button>。那些像机器一样机械点击、回复简单问题的苦差事,本来就不该由人来干。当 AI 把这些琐碎活吃掉后,人就可以腾出手来做无限多能真正让客户开心、甚至能产生新收入的事情。他们确实看到有客户因此缩减了 BPO(业务流程外包)的规模,但也有客户把省下来的人力转向了能带来收入的销售类工作 <button class="pd-ts" data-t="78:54" data-who="Jesse" data-en="Or it's actually we still need people, but now there's all these other things they could be doing. And it could be more revenue generating things. You know, that's like a big area for us even." aria-label="回原文"></button>。
+
+既然聊到了对未来的判断,最后来看看他们是怎样把这套理念卖给大企业,以及如何看这场技术浪潮的终局。
+
+## 拿下大客户的秘诀与人才焦虑
+
+Decagon 能迅速拿下全球最大的几家银行、航空公司和电信公司,靠的不仅仅是产品本身,更是帮大企业趟平落地流程的本事 <button class="pd-ts" data-t="42:30" data-who="Ashwin" data-en="The other thing I think that helped us a lot, to your earlier point about how did you get some of these large deals closed so quickly, was I think we were very curious about how we could productize parts of it within the enterprise." aria-label="回原文"></button>。面对受严格监管的金融机构,Decagon 会极其细致地给客户画出一张路线图:从今天的第一次开会,到最后 100% 上线,中间的模型风险审核、测试流程、初次推出策略、问题捕捉与修复机制,全都安排得明明白白 <button class="pd-ts" data-t="43:14" data-who="Ashwin" data-en="sort of mapping out that part of the journey very well so that when we walk in to one of these enterprises, we can walk them through in very granular detail how we go from this first meeting today to going live at 100%." aria-label="回原文"></button>。这是很多只懂技术的公司容易忽视的执行力。
+
+这种敏锐的市场嗅觉,离不开创始人对销售的极度投入。Jesse 坦言自己大概把 80% 的时间都花在了销售上 <button class="pd-ts" data-t="44:44" data-who="Jesse" data-en="So I'm curious, I mean, don't give up too much alpha here, but how much time do you guys spend on sales as founders and how has that evolved over time? I probably spend most of my time, like 80% maybe." aria-label="回原文"></button>。因为他不仅要在前线推动大客户尽快拍板,更要把市场上最新的反馈迅速传导回产品团队。
+
+那么,Decagon 最大的瓶颈是什么?不是延迟,也不是语音模型,而是招聘 <button class="pd-ts" data-t="52:05" data-who="Ashwin" data-en="Hiring. So it's less on the AI side. It's actually like people." aria-label="回原文"></button>。有些人觉得有了 AI 就能做单人独角兽,但 Ashwin 指出,即使是那些最懂 AI 的编程初创公司,也都在疯狂招人 <button class="pd-ts" data-t="53:17" data-who="Ashwin" data-en="I think this argument does get tossed around a lot, but I think the... An easy counter example to this is all the AI coding startups are hiring like crazy. You know, they're like the most sophisticated users, presumably, of these models, and they are hiring like crazy." aria-label="回原文"></button>。因为当 AI 让生产力飙升时,所有人的算盘都一样:既然原本的路线图能缩短三分之一的完成时间,那就别停下,直接把目标定为盖三倍的东西 <button class="pd-ts" data-t="53:52" data-who="Ashwin" data-en="If somebody else said, oh, here's our roadmap and now we can get through it in a third of the time and then they just stop hiring, we would just take that to mean, wow, we can get through it in a third of the time." aria-label="回原文"></button>。
+
+他们甚至把这种对速度的饥渴延伸到了公司文化上。面对外界对科技公司拼命干活的批评,Jesse 觉得在这样一个有野心、节奏极快的团队里,大家一起熬夜死磕项目、推出新产品,更像是一场充满战友情谊的团队运动 <button class="pd-ts" data-t="57:48" data-who="Jesse" data-en="teams that are so kind of disparate from like a function perspective all working together kind of one kind of needs people in the office because everybody's kind of jamming on ideas together but two it also makes it fun in a way because you know everyone is like working together towards some very specific outcome" aria-label="回原文"></button>。
 
 ## 本集带走
 
-最后收个尾,这一集值得带走的是三句话。第一,不要再把模型选择当成「变笨换便宜」的妥协,针对具体细分任务去微调开源小模型,你能同时拿到更好、更快、更便宜这三个好处,真正贵的大模型应该留给需要广泛探索的元任务。第二,不要迷信大实验室会吃掉一切,大模型本身离企业真正可用之间,隔着一整套需要对接业务逻辑、风控合规和测试评估的基础设施,这就是应用层公司死不掉的护城河。第三,面对 AI 带来的失业焦虑,不妨看看真实的商业反馈:当效率提升、成本下降,企业的直接反应往往不是裁员,而是用更低的成本去满足过去被压抑的无限需求,就像那句扎心的结论——AI 会消灭那些本不该由人干的机械工作,但它不会消灭人的职业生涯。
+最后收个尾,这一集值得带走的是三句话。第一,前沿大模型虽然聪明,但并非万能解药;在特定任务上,自己微调过的开源小模型不仅能把活干得更好,还能顺手解决延迟和成本问题。第二,应用层公司绝非简单的套壳,真正的护城河在于把极其复杂的业务逻辑、测试和合规要求封装进产品里,这是实验室无法替代的。第三,不要被前向部署的光环骗了,贴着客户干苦力的最终目的必须是把这些经验提炼成可规模化的核心产品,否则你只是在做一家被美化的咨询公司。除了这些,还有个暖心的洞察:AI 会干掉那些机械重复的工作,但它其实是在解放人去做更有价值的事,它扼杀的是苦差事,而不是职业生涯。
 
-<div class="pd-sec">全部金句 <span>3 条(中英对照,已过机器闸门)</span></div>
+<div class="pd-sec">全部金句 <span>6 条(中英对照,已过机器闸门)</span></div>
 
-> <span class="qz">我们构建的东西不是一个擅长客户支持的智能体,而是一个擅长遵循业务流程的智能体。</span>  
-> *The thing that we built was not an agent that does customer support well, but rather an agent that follows business process well.*  
-> <span class="qm">—— Ashwin Srinivas · [00:42]</span> ^q1
+> <span class="qz">不幸的是,前沿实验室确实有小模型,但你无法真正以你想要的方式控制它们。</span>  
+> *Unfortunately, the Frontier labs, they do have small models, but you can't really control them in the way that you want.*  
+> <span class="qm">—— Ashwin Srinivas · [00:27]</span> ^q1
 
-> <span class="qz">如果你不能做到这一点,那你只是在构建一个美化的咨询卡车。</span>  
-> *If you can't do that, then you're just building a glorified consulting truck.*  
-> <span class="qm">—— Ashwin Srinivas · [22:46]</span> ^q2
+> <span class="qz">所以当我们微调更小、更笨的模型时,它们只是没那么通用,但在我们想要它们做的特定任务上,它们实际上优于那些大型、聪明、最先进的模型。</span>  
+> *So when we fine-tune smaller, dumber models, it's that they're just not as general purpose, but on the specific task we want them to do, they actually outperform the large, smart, state-of-the-art models.*  
+> <span class="qm">—— Jesse Zhang · [05:34]</span> ^q2
 
-> <span class="qz">是的,我想就像 AI 会扼杀工作,但不会扼杀职业,在某种程度上。</span>  
-> *Yeah, I think it's like AI will kill jobs, but not careers in a way.*  
-> <span class="qm">—— Jesse Zhang · [77:24]</span> ^q3
+> <span class="qz">前向部署工程师吞食痛苦并排泄产品。</span>  
+> *forward deployed engineers eat pain and excrete product.*  
+> <span class="qm">—— Jesse Zhang · [25:39]</span> ^q3
 
-*本集关键词:企业 AI · 开源模型 · 智能体 · 微调 · 企业级销售*
+> <span class="qz">如果你做不到那一点,那你只是在建立一个被美化的咨询卡车。</span>  
+> *And if you can't do that, then you're just building a glorified consulting truck.*  
+> <span class="qm">—— Jesse Zhang · [22:45]</span> ^q4
+
+> <span class="qz">一个 AI 智能体应该只是你公司业务的前门。</span>  
+> *An AI agent should just be the front door of your business.*  
+> <span class="qm">—— Ashwin Srinivas · [00:00]</span> ^q5
+
+> <span class="qz">每一次互动,无论是被动还是主动与客户,都应该由 AI 来处理。</span>  
+> *And every interaction, whether it's like reactive or proactive with a customer, should be handled by AI.*  
+> <span class="qm">—— Ashwin Srinivas · [00:02]</span> ^q6
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「创业与行业」挖下去**
+
+- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]] —— 同公司:OpenAI · 同概念:智能体 (agent)、开源模型 (open source models)
+- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]] —— 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]] —— 同概念:智能体 (agent)
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]] —— 同概念:前向部署工程师 (forward deployed engineer)、智能体 (agent)
+- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同概念:前向部署工程师 (forward deployed engineer)、智能体 (agent)
+- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]] —— 同公司:Anthropic · 同概念:智能体 (agent)、评估 (evals)
+
+</div>
+</div>
+
+*本集关键词:开源模型 · 企业客服 · 应用层护城河 · 微调 · 前向部署工程师*
 
 <script>
 (function(){

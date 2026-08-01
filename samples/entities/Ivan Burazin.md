@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]] [[Sanjit Biswas]] [[Sonja]] [[Rohan Anil]] [[Jerry Tworek]] [[Daniel McKinnon]]
+[[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]] [[Matt Turk]] [[Sanjit Biswas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daytona":1,"Cognition":3,"Neon":2,"Parallel":2,"智能体":42,"沙箱":8,"突发负载":1,"裸金属":1,"计算机使用":3,"托管型 Kubernetes":1}</script>
+<script type="application/json" class="pd-epn">{"Daytona":1,"Cognition":3,"Neon":2,"Parallel":2,"智能体":43,"沙箱":8,"突发负载":1,"裸金属":1,"计算机使用":3,"托管型 Kubernetes":1}</script>
 
 <script>
 (function(){
