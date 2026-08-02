@@ -37,7 +37,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel McKinnon]] [[Adam Mosseri]] [[Eddie Kim]] [[Jiaona Zhang]] [[Mark Pincus]] [[Tony Fadell]] [[Max Schoening]] [[Evan Spiegel]] [[Kat Wu]] [[Nikhyl Singhal]]
+[[Daniel McKinnon]] [[Adam Mosseri]] [[Whitney Wolfe Herd]] [[Eddie Kim]] [[Jiaona Zhang]] [[Mark Pincus]] [[Tony Fadell]] [[Max Schoening]] [[Evan Spiegel]] [[Kat Wu]]
 
 </div>
 

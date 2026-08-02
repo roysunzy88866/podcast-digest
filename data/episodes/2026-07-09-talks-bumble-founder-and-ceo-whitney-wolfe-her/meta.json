@@ -1,0 +1,22 @@
+{
+  "id": "2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/RPCuTCDBvoQ.m4a",
+  "duration_sec": 1793.96,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 423,
+  "asr": true,
+  "title_en": "Bumble founder and CEO Whitney Wolfe Herd on The Axios Show | Full Interview",
+  "podcast": "精选演讲",
+  "date": "2026-07-09",
+  "speaker_map": {
+    "SPEAKER_01": "Whitney Wolfe Herd"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Whitney Wolfe Herd",
+  "cohosts": [],
+  "title_zh": "Bumble 大重置：挥别「滑动」，重塑约会软件",
+  "guest_name": "Whitney Wolfe Herd",
+  "guest_title": "Bumble CEO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=spliced"
+}

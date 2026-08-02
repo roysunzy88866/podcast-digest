@@ -55,7 +55,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel McKinnon]] [[Dianne Penn]] [[Adam Mosseri]] [[Eddie Kim]] [[Jiaona Zhang]] [[Tony Fadell]] [[Max Schoening]] [[Evan Spiegel]] [[Kat Wu]] [[Nikhyl Singhal]]
+[[Daniel McKinnon]] [[Dianne Penn]] [[Adam Mosseri]] [[Whitney Wolfe Herd]] [[Eddie Kim]] [[Jiaona Zhang]] [[Tony Fadell]] [[Max Schoening]] [[Evan Spiegel]] [[Kat Wu]]
 
 </div>
 

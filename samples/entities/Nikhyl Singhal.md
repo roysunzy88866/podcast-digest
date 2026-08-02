@@ -41,7 +41,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[产品经理]] · [[构建者]] · [[信息搬运工]] · [[判断力]] · [[幕僚长应用]] · [[LLM]] · [[智能体]] · [[Skip]] · [[Anthropic]]
+[[Lenny]] · [[产品经理]] · [[构建者]] · [[信息搬运工]] · [[判断力]] · [[幕僚长应用]] · [[AI]] · [[LLM]] · [[智能体]] · [[Skip]]
 
 ## ④ 也在聊「职业与个人成长」的人
 
@@ -51,7 +51,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"产品经理":2,"构建者":1,"信息搬运工":1,"判断力":1,"幕僚长应用":1,"LLM":4,"智能体":49,"Skip":1,"Anthropic":30}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"产品经理":2,"构建者":1,"信息搬运工":1,"判断力":1,"幕僚长应用":1,"AI":2,"LLM":4,"智能体":49,"Skip":1}</script>
 
 <script>
 (function(){

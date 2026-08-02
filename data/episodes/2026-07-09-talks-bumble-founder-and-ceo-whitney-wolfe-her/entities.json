@@ -1,0 +1,794 @@
+{
+  "episode_id": "2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her",
+  "podcast": "精选演讲",
+  "date": "2026-07-09",
+  "tags": [
+    "产品重置",
+    "交互模型",
+    "AI 助手",
+    "商业化与订阅",
+    "创始人回归"
+  ],
+  "categories": [
+    "产品方法",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "whitney-wolfe-herd",
+      "type": "person",
+      "role": "host",
+      "name": "Whitney Wolfe Herd",
+      "file": "Whitney Wolfe Herd",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "bumble",
+      "type": "company",
+      "role": "company",
+      "name": "Bumble",
+      "file": "Bumble",
+      "primary": true,
+      "how_described": "本集核心讨论的公司:创始人离开又回归,要在第四季度于特定市场彻底移除滑动机制,用全新交互模型重塑产品,并主动清洗低质量付费用户以打造高端、真实的生态",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.151,
+            4.153
+          ],
+          "quote": "Whitney Wolfe Heard, at 25, started Bumble.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            23.103,
+            24.384
+          ],
+          "quote": "I'm just so in love with Bumble.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 10,
+          "t": [
+            25.424,
+            29.905
+          ],
+          "quote": "I mean, it's just one of those things that I don't see Bumble as a job.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 15,
+          "t": [
+            36.587,
+            41.928
+          ],
+          "quote": "But I do see Bumble as almost a form of a child to me in some degree because...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 20,
+          "t": [
+            70.443,
+            74.766
+          ],
+          "quote": "Can you just give me the quick summary of why you think Bumble needs a reset?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            98.643,
+            103.307
+          ],
+          "quote": "Bumble's product is still the product you had seven years ago.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 34,
+          "t": [
+            142.116,
+            146.958
+          ],
+          "quote": "Now the revolutionary component of Bumble has worn off.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 38,
+          "t": [
+            155.002,
+            160.465
+          ],
+          "quote": "I saw something posted on your Instagram this morning that Bumble is maybe getting rid of the swipe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            203.731,
+            205.312
+          ],
+          "quote": "It's time for the next Bumble.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 106,
+          "t": [
+            515.231,
+            520.175
+          ],
+          "quote": "So I think if you look at the way monetization has been working at Bumble historically...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            697.124,
+            699.647
+          ],
+          "quote": "They're not on Bumble just to passively engage.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            700.107,
+            705.232
+          ],
+          "quote": "They're on Bumble to find an outcome, which is a relationship, which is a connection.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 150,
+          "t": [
+            715.401,
+            723.79
+          ],
+          "quote": "Is that what Bumble is going for, meaning once you get someone in a relationship, the relationship between the user and Bumble ends?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            723.81,
+            733.8
+          ],
+          "quote": "Or is the goal different from Hinge, that once someone gets into a relationship, they maintain a relationship with Bumble through BFF or through finding colleagues and work cohorts?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 160,
+          "t": [
+            767.46,
+            772.544
+          ],
+          "quote": "We can help you meet a special someone, in which case you don't need Bumble for that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            773.425,
+            782.553
+          ],
+          "quote": "But we are going to, also starting at the end of the year and early into next year, be introducing more dynamic ways for a social life to engage socially through Bumble.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            790.439,
+            792.241
+          ],
+          "quote": "So I actually envision Bumble being this",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 165,
+          "t": [
+            792.761,
+            819.792
+          ],
+          "quote": "social life enabler and this is one of the things that is missing the most in our modern lives we have an app for this and we have an app for that what my hope and dream is is that bumble as a brand as a company becomes the way that we as humans rely on building a social graph in the real world not just hoarding friends online how do you use bumble to find a friend to get out and do something if you met the love of your life on bumble",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 183,
+          "t": [
+            913.64,
+            916.603
+          ],
+          "quote": "Should we be expecting Bumble to introduce like group dates?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1059.75,
+            1065.194
+          ],
+          "quote": "When I think about the people who took Bumble by storm, it was millennial women.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 239,
+          "t": [
+            1099.506,
+            1106.934
+          ],
+          "quote": "talking to them, hearing them, understanding what they don't like about Bumble, what they don't like about our competitors, what they don't like about dating in general.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1128.37,
+            1130.211
+          ],
+          "quote": "That was precisely what made Bumble Bumble.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1257.583,
+            1269.888
+          ],
+          "quote": "I want every single person, literally every single, meaning not in a relationship person, but it's a play on words because I do also want every single person on earth to be able to have Bumble.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1294.727,
+            1303.479
+          ],
+          "quote": "Bumble has so many features that you can filter to match with someone maybe from your religious preferences or your demographic or location preferences.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1315.448,
+            1318.711
+          ],
+          "quote": "Do the niche have an opportunity to survive against the new bumble?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1349.713,
+            1360.281
+          ],
+          "quote": "How do you rebrand Bumble so that people know that it's that narrowly customizable when your competitors are marketing themselves as being able to meet someone's exact need?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1507.965,
+            1513.192
+          ],
+          "quote": "I mean, I think you've seen what I did in 2015 through, you know, through the first early years of Bumble.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1601.693,
+            1612.782
+          ],
+          "quote": "And I could not be more grateful for the opportunity I had to really take a step out and look at the state of love connection as an outsider instead of an insider, you know, from the center of Bumble.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 372,
+          "t": [
+            1635.354,
+            1644.281
+          ],
+          "quote": "Thinking about that perspective that you got stepping away, was there something that you did in the beginning of Bumble or when you launched the app that you would have done differently or that you wish you hadn't?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1746.832,
+            1748.633
+          ],
+          "quote": "What would be, if you were using Bumble today...",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "swipe",
+      "type": "concept",
+      "role": "concept",
+      "name": "滑动 (swipe)",
+      "file": "滑动",
+      "primary": true,
+      "how_described": "本集说它是让 Bumble 发家的动作,但如今让用户「筋疲力尽」「降低了爱情生活质量」,因此要在 Q4 被彻底移除、换上全新交互模型",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 37,
+          "t": [
+            150.82,
+            154.242
+          ],
+          "quote": "They feel like the swipe has degraded their love lives.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 38,
+          "t": [
+            155.002,
+            160.465
+          ],
+          "quote": "I saw something posted on your Instagram this morning that Bumble is maybe getting rid of the swipe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            205.432,
+            214.058
+          ],
+          "quote": "And so to answer the question, we are going to be saying goodbye to the swipe and hello to something.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 54,
+          "t": [
+            232.377,
+            236.66
+          ],
+          "quote": "In select markets, in Q4, the swipe will be gone.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI",
+      "file": "AI",
+      "primary": true,
+      "how_described": "本集把 AI 定位为「催化剂」而非替代品:用于帮用户优化档案、给挑照片的建议,但绝不允许伪造照片或替用户发消息,目标是让爱与连接更人性化",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            634.258,
+            639.64
+          ],
+          "quote": "But just like you're seeing with the AI models, you cannot just go build on cloud code all day long for free.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            657.779,
+            664.504
+          ],
+          "quote": "Also, if you want a more curated experience, if you want a more high-touch experience, Bee, for example, Bee is our AI assistant.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 138,
+          "t": [
+            665.365,
+            666.686
+          ],
+          "quote": "our AI dating assistant.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 141,
+          "t": [
+            681.733,
+            688.657
+          ],
+          "quote": "People are willing to spend such a deep amount of time talking to our AI assistant, getting to know",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            888.57,
+            904.495
+          ],
+          "quote": "But frankly, there's other lucrative ways to really focus on delivering more value to the friendship groups, whether that is through a premium offering, whether that is access to our AI layer, which is an intelligence layer that can live across all of our products.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            975.338,
+            977.118
+          ],
+          "quote": "That's where AI comes in.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1008.894,
+            1010.595
+          ],
+          "quote": "So AI generated photos?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 217,
+          "t": [
+            1013.695,
+            1017.716
+          ],
+          "quote": "So things we will not do, which I think is important for people to hear in the era of AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 218,
+          "t": [
+            1018.276,
+            1021.597
+          ],
+          "quote": "We will not let you falsify who you are with AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1021.997,
+            1024.798
+          ],
+          "quote": "You cannot have falsified photos with AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1025.178,
+            1028.938
+          ],
+          "quote": "You cannot use AI to message people.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1029.318,
+            1030.959
+          ],
+          "quote": "We will not be leaning into AI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1034.928,
+            1038.429
+          ],
+          "quote": "Our goal is to leverage AI to make love and connection more human.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1048.131,
+            1059.354
+          ],
+          "quote": "That's where AI can help be a catalyst to them learning how to do it or making a few small tweaks that they didn't even realize were pertinent or relevant to how they could get some better outcomes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1442.938,
+            1449.545
+          ],
+          "quote": "So is this AI customization going to be much more sophisticated and useful once you achieve that scale?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "ai-assistant",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 助手 (AI assistant)",
+      "file": "AI 助手",
+      "primary": true,
+      "how_described": "本集说 Bumble 的 AI 约会助手叫 Bee,用户愿意花大量时间与它聊天好让系统真正「被了解」,将在 Q4 到 2027 年作为高级产品推出",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 137,
+          "t": [
+            657.779,
+            664.504
+          ],
+          "quote": "Also, if you want a more curated experience, if you want a more high-touch experience, Bee, for example, Bee is our AI assistant.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 141,
+          "t": [
+            681.733,
+            688.657
+          ],
+          "quote": "People are willing to spend such a deep amount of time talking to our AI assistant, getting to know",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "recommendation-engine",
+      "type": "concept",
+      "role": "concept",
+      "name": "推荐引擎 (recommendation engine)",
+      "file": "推荐引擎",
+      "primary": true,
+      "how_described": "本集说它是「一切的关键」,配合新的交互模型和档案,确保用户看到并连接到真正想见的人,是重塑产品的核心组件",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 46,
+          "t": [
+            187.701,
+            194.725
+          ],
+          "quote": "It's not merely a better UI, UX, or simply a better recommendation engine, which, by the way, we're doing all of those.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            396.049,
+            413.763
+          ],
+          "quote": "all of the pieces in place, a higher quality member base, check, a new interaction model, a modernized profile, a next-gen recommendation engine, a modern tech stack, and all of those components to come together with a more premium subscription offering.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1421.511,
+            1434.388
+          ],
+          "quote": "And now with this precise next-gen recommendation layer, when we get to know you better and we know that these are the things that matter to you, our recommendation engine can just deliver you those people without you having to go seek it on an app for this or an app for that.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "paid-customers",
+      "type": "concept",
+      "role": "concept",
+      "name": "付费用户 (paid customers)",
+      "file": "付费用户",
+      "primary": true,
+      "how_described": "本集强调「并非所有付费用户生而平等」:近期付费用户下降是故意清洗掉低质量、垃圾邮件般行为的结果,宁可短期数字难看也要打造更高质量的会员库",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 62,
+          "t": [
+            261.257,
+            264.238
+          ],
+          "quote": "So not all paid customers are created equal.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "founder-mode",
+      "type": "concept",
+      "role": "concept",
+      "name": "创始人模式 (founder mode)",
+      "file": "创始人模式",
+      "primary": true,
+      "how_described": "本集说创始人回归最深感触是:别被周围的「职业经理人」规训成「企业化 CEO」,要找回敢于拆墙的「创始人模式」能量才是把公司救回来的关键",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 387,
+          "t": [
+            1707.431,
+            1713.795
+          ],
+          "quote": "But, you know, there is this founder mode energy, as coined by Brian at Airbnb, who's amazing.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "hinge",
+      "type": "company",
+      "role": "company",
+      "name": "Hinge",
+      "file": "Hinge",
+      "primary": false,
+      "how_described": "本集把它作为竞争对手提及:它的模式是「旨在被删除的 app」,而 Bumble 的使命和战略与之非常不同",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 147,
+          "t": [
+            707.334,
+            709.376
+          ],
+          "quote": "I look at some of your competitors, like Hinge.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 148,
+          "t": [
+            710.096,
+            714.16
+          ],
+          "quote": "Hinge's entire model is it's the app that's meant to be deleted.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            723.81,
+            733.8
+          ],
+          "quote": "Or is the goal different from Hinge, that once someone gets into a relationship, they maintain a relationship with Bumble through BFF or through finding colleagues and work cohorts?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            734.16,
+            738.425
+          ],
+          "quote": "Yes, so I would say we have a very different mission, very different strategy than Hinge.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tinder",
+      "type": "company",
+      "role": "company",
+      "name": "Tinder",
+      "file": "Tinder",
+      "primary": false,
+      "how_described": "本集提到它是 Bumble 面对的拥有大规模用户的巨头之一(与 Match Group 并列),Whitney 在创办 Bumble 早期也接触过它",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 193,
+          "t": [
+            936.339,
+            938.34
+          ],
+          "quote": "That was actually when we were starting Tinder.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1194.859,
+            1199.62
+          ],
+          "quote": "If you think about Match Group Tinder, which you know very well, so many users at scale.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "type": "company",
+      "role": "company",
+      "name": "Apple",
+      "file": "Apple",
+      "primary": false,
+      "how_described": "本集用作类比:伟大的公司必须不断进化、推新产品,用户不会还用七年前的 iPhone,Bumble 也不能停留在七年前的产品形态",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            89.797,
+            94.04
+          ],
+          "quote": "If you look at Apple, there's new products, there's new releases, there's new launches.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "authenticity",
+      "type": "concept",
+      "role": "concept",
+      "name": "真实性 (authenticity)",
+      "file": "真实性",
+      "primary": true,
+      "how_described": "本集把它立为 AI 时代的底线:Bumble 不会让用户用 AI 伪造照片或发消息,一切要围绕真实的人和真实的线下连接",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 71,
+          "t": [
+            320.215,
+            325.278
+          ],
+          "quote": "enforce better authenticity and better checkpoints to create a higher quality member base.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1012.295,
+            1013.635
+          ],
+          "quote": "Everything is about authenticity.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "interaction-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "交互模型 (interaction model)",
+      "file": "交互模型",
+      "primary": true,
+      "how_described": "本集说 Bumble 要告别滑动、换上她称为「下一个 Bumble」的全新交互模型,保留自信与安全的体验但不硬性规定某个性别先行动",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            201.749,
+            203.39
+          ],
+          "quote": "But it's time for a new interaction model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 77,
+          "t": [
+            347.248,
+            358.951
+          ],
+          "quote": "Step two is really overhauling the UX, the back end, which we're almost done with, and the interaction model and the profile and the way in which we interact with these higher quality members.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            396.049,
+            413.763
+          ],
+          "quote": "all of the pieces in place, a higher quality member base, check, a new interaction model, a modernized profile, a next-gen recommendation engine, a modern tech stack, and all of those components to come together with a more premium subscription offering.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1188.658,
+            1192.659
+          ],
+          "quote": "And that will be the core of how this new interaction model works.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

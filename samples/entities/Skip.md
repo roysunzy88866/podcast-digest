@@ -29,9 +29,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Nikhyl Singhal]] · [[产品经理]] · [[构建者]] · [[信息搬运工]] · [[判断力]] · [[幕僚长应用]] · [[LLM]] · [[智能体]] · [[Anthropic]]
+[[Lenny]] · [[Nikhyl Singhal]] · [[产品经理]] · [[构建者]] · [[信息搬运工]] · [[判断力]] · [[幕僚长应用]] · [[AI]] · [[LLM]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Nikhyl Singhal":1,"产品经理":2,"构建者":1,"信息搬运工":1,"判断力":1,"幕僚长应用":1,"LLM":4,"智能体":49,"Anthropic":30}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"Nikhyl Singhal":1,"产品经理":2,"构建者":1,"信息搬运工":1,"判断力":1,"幕僚长应用":1,"AI":2,"LLM":4,"智能体":49}</script>
 
 <script>
 (function(){
