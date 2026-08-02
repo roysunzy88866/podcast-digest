@@ -10,7 +10,7 @@ image: "/covers/2026-07-13-lennys-this-solo-builder-runs-247-local.jpg"
 description: 博主讲清 GPT 5.6 Soul 三大实战优势，对比 Fable 的迂腐与不可沟通，并分享杀手级用例。
 host: "[[Alex Finn]]"
 companies: ["[[Anthropic]]", "[[open ai]]"]
-concepts: ["[[系统提示词]]", "[[gpt 5.6]]", "[[fable]]", "[[Codex]]", "[[智能体]]", "[[提示词]]", "[[原型]]", "[[浏览器使用]]"]
+concepts: ["[[系统提示词]]", "[[gpt 5.6]]", "[[Fable]]", "[[Codex]]", "[[智能体]]", "[[提示词]]", "[[原型]]", "[[浏览器使用]]"]
 category: 智能体
 tags:
   - 智能体
@@ -34,7 +34,7 @@ tags:
 >
 > **公司** [[Anthropic]] · [[open ai]]
 >
-> **概念** [[系统提示词]] · [[gpt 5.6]] · [[fable]] · [[Codex]] · [[智能体]] · [[提示词]] · [[原型]] · [[浏览器使用]]
+> **概念** [[系统提示词]] · [[gpt 5.6]] · [[Fable]] · [[Codex]] · [[智能体]] · [[提示词]] · [[原型]] · [[浏览器使用]]
 >
 > **来源** [Lenny's Podcast](https://www.lennysnewsletter.com/p/this-solo-builder-runs-247-local)
 

@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Claude</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Claude">CL</div><div class="pi"><h1 class="pt">Claude</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>8</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]]**(00:48起):本集中被多次提及的大模型;嘉宾以其反复打磨邮件却浪费时间为例,拷问什么样的模型行为才是真正对用户有益的。
 - **[[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]]**(00:52起):本集把它说成：AI 模型与产品的核心。工程师用它快速写代码、交付功能；设计师用它探索视觉方案和长线任务。嘉宾指出其非确定性使得传统高保真模型图失效，只有底层模型真正跑起来才能发现问题。
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(17:32起):本集提到作为构建工具时大量使用的 AI 产品，比如用 Claude Code 进行 vibe coding、写智能体淘汰自己或修复糟糕软件。
+- **[[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]]**(11:59起):本集提到有人可能会把财务报表连到 Claude 上开始问问题。
 - **[[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新》]]**(01:12起):本集指出如今人们独自泡在各自的 Claude 界面中，这里安静且孤独，失去了曾经社交网络那种能带来意外惊喜的「鸡尾酒会」氛围。
 - **[[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]]**(42:26起):本集提到它在为我们编写代码,并强调了当它擅长编写安全代码时的潜力。
 - **[[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]]**(01:49起):本集的核心主角。嘉宾完整分享了 Claude 的五层架构栈（模型、界面、知识库、集成、智能体与编排），教你如何利用整个 Claude 生态系统将日常生产力提升 10 倍。
@@ -43,11 +44,12 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*9 集*
+*10 集*
 
 - [[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]] — 作为被讨论公司(提及)
 - [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为概念
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为被讨论公司(提及)
+- [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为概念(提及)
 - [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新》]] — 作为被讨论公司(提及)
 - [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为概念(提及)
 - [[2026-07-13-pg-the-complete-claude-stack-for-pms|《产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长》]] — 作为被讨论公司
@@ -59,9 +61,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[智能体]] · [[Lenny]] · [[Claude Code]] · [[OpenAI]] · [[沙箱]] · [[vibe coding]] · [[Slack]] · [[Codex]] · [[红队测试]]
+[[Anthropic]] · [[智能体]] · [[Lenny]] · [[Claude Code]] · [[Slack]] · [[OpenAI]] · [[沙箱]] · [[ChatGPT]] · [[LLM]] · [[Fable]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":28,"智能体":49,"Lenny":32,"Claude Code":13,"OpenAI":24,"沙箱":9,"vibe coding":6,"Slack":10,"Codex":11,"红队测试":2}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":30,"智能体":49,"Lenny":32,"Claude Code":13,"Slack":11,"OpenAI":25,"沙箱":9,"ChatGPT":11,"LLM":4,"Fable":3}</script>
 
 <script>
 (function(){

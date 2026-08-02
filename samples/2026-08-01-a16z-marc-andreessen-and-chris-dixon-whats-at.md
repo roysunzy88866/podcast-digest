@@ -123,7 +123,7 @@ tags:
 
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]] —— 同概念:开源软件 (open source)
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]] —— 同公司:Stripe
-- [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|用 AI 替你打理钱:Clio 的极简金融建议与平权野心]] —— 同公司:Stripe
+- [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等]] —— 同公司:Stripe
 
 </div>
 <div class="pd-ex">

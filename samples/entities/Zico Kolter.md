@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sam Altman]] [[Ben Horowitz]] [[Sriram Krishnan]] [[Ranjan Roy]] [[Alex]] [[Jensen Wong]] [[Mike Allen]] [[Matt Fredrikson]]
+[[Sam Altman]] [[Ben Horowitz]] [[Sriram Krishnan]] [[Ranjan Roy]] [[Alex]] [[Jensen Wong]] [[Mike Allen]] [[Chamath]] [[Dan]] [[Matt Fredrikson]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":2,"Anthropic":28,"智能体":49,"红队测试":2,"提示词注入":4,"越狱":1,"护栏":8,"沙箱":9}</script>
+<script type="application/json" class="pd-epn">{"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":2,"Anthropic":30,"智能体":49,"红队测试":2,"提示词注入":4,"越狱":1,"护栏":8,"沙箱":9}</script>
 
 <script>
 (function(){

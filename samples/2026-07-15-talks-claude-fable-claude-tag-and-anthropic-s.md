@@ -11,7 +11,7 @@ host: "[[Simon Willison]]"
 guests: ["[[Cat Wu]]"]
 cohosts: ["[[Thariq Shihipar]]"]
 companies: ["[[Anthropic]]", "[[Datadog]]"]
-concepts: ["[[Claude Code]]", "[[ClaudeTag]]", "[[fable]]", "[[Slack]]", "[[Bun]]", "[[Rust]]", "[[Gemini]]", "[[智能体]]", "[[系统提示词]]", "[[提示词]]", "[[提示词注入]]", "[[代码审查]]", "[[自动模式]]", "[[沙箱]]", "[[重写]]", "[[工作流]]", "[[团队记忆]]", "[[红队]]", "[[评估]]", "[[GitHub]]", "[[凭证注入]]", "[[远程控制]]"]
+concepts: ["[[Claude Code]]", "[[ClaudeTag]]", "[[Fable]]", "[[Slack]]", "[[Bun]]", "[[Rust]]", "[[Gemini]]", "[[智能体]]", "[[系统提示词]]", "[[提示词]]", "[[提示词注入]]", "[[代码审查]]", "[[自动模式]]", "[[沙箱]]", "[[重写]]", "[[工作流]]", "[[团队记忆]]", "[[红队]]", "[[评估]]", "[[GitHub]]", "[[凭证注入]]", "[[远程控制]]"]
 category: AI 编程
 tags:
   - AI 编程
@@ -35,7 +35,7 @@ tags:
 >
 > **公司** [[Anthropic]] · [[Datadog]]
 >
-> **概念** [[Claude Code]] · [[ClaudeTag]] · [[fable]] · [[Slack]] · [[Bun]] · [[Rust]] · [[Gemini]] · [[智能体]] · [[系统提示词]] · [[提示词]] · [[提示词注入]] · [[代码审查]] · [[自动模式]] · [[沙箱]] · [[重写]] · [[工作流]] · [[团队记忆]] · [[红队]] · [[评估]] · [[GitHub]] · [[凭证注入]] · [[远程控制]]
+> **概念** [[Claude Code]] · [[ClaudeTag]] · [[Fable]] · [[Slack]] · [[Bun]] · [[Rust]] · [[Gemini]] · [[智能体]] · [[系统提示词]] · [[提示词]] · [[提示词注入]] · [[代码审查]] · [[自动模式]] · [[沙箱]] · [[重写]] · [[工作流]] · [[团队记忆]] · [[红队]] · [[评估]] · [[GitHub]] · [[凭证注入]] · [[远程控制]]
 
 <div class="pd-tldr"><b>一句话</b>深入 Anthropic 内部,看 Claude Code 团队如何用自家智能体造产品,从重塑代码审查到精简系统提示词。</div>
 
@@ -47,7 +47,7 @@ tags:
 
 Claude Code 是去年二月发布的,当时它只是模型发布时的一个附加功能。Thariq 回忆说,刚开始那会儿,用智能体干活其实挺累的:你给它一个任务,必须盯着它的一举一动,仔细阅读每一个权限提示,还得频繁地纠正它。现在,随着新一代模型能力提升,人终于可以退后一步了。大家把繁琐的实现细节交给智能体,腾出时间去思考真正有创造性的工作 <button class="pd-ts" data-t="01:22" data-who="Thariq" data-en="How has what you do on a day-to-day basis changed in the past year, now that we have these coding agents that actually work for us? I remember when we first came out with Cloud Code and Sonnet 3.7, you would give it this task and you would have to closely monitor every single little thing that it tried to do." aria-label="回原文"></button>。
 
-Kat 的感受更直接,他说之前试用 Opus 4 模型时,意识到自己得去 Anthropic 工作了。而面对全新的 [[fable|Fable]] 模型,他觉得不仅是工具变快了,更是逼着人去做以前做不到的高质量工作。他经常拿自己剪视频的例子说事:以前几天才能搞定的活,现在几个小时就得达到品牌团队的苛刻标准,因为智能体的输出质量极高,人对自己的期望也跟着水涨船高 <button class="pd-ts" data-t="02:21" data-who="Kat" data-en="So it's been amazing to see the transition and to go through this with all of you in the community. Yeah, I mean, I think I remember the first text I got about Cloud Code." aria-label="回原文"></button>。主持人也深有同感:软件工程变难了,因为能干的事更多了,野心也更大了 <button class="pd-ts" data-t="03:21" data-who="主持人" data-en="I've certainly been finding that myself. Software engineering is getting harder because the level of ambition of the stuff we can take on has gone up. I have such higher expectations of myself now that I have these tools to back me up, which is fun, but it's a lot of work." aria-label="回原文"></button>。
+Kat 的感受更直接,他说之前试用 Opus 4 模型时,意识到自己得去 Anthropic 工作了。而面对全新的 [[Fable|Fable]] 模型,他觉得不仅是工具变快了,更是逼着人去做以前做不到的高质量工作。他经常拿自己剪视频的例子说事:以前几天才能搞定的活,现在几个小时就得达到品牌团队的苛刻标准,因为智能体的输出质量极高,人对自己的期望也跟着水涨船高 <button class="pd-ts" data-t="02:21" data-who="Kat" data-en="So it's been amazing to see the transition and to go through this with all of you in the community. Yeah, I mean, I think I remember the first text I got about Cloud Code." aria-label="回原文"></button>。主持人也深有同感:软件工程变难了,因为能干的事更多了,野心也更大了 <button class="pd-ts" data-t="03:21" data-who="主持人" data-en="I've certainly been finding that myself. Software engineering is getting harder because the level of ambition of the stuff we can take on has gone up. I have such higher expectations of myself now that I have these tools to back me up, which is fun, but it's a lot of work." aria-label="回原文"></button>。
 
 ## 那些被推翻的工程老规矩:从半年写规范到干脆重写
 

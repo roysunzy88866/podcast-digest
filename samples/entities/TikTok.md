@@ -22,7 +22,7 @@ aliases: ["tiktok", "tik tok"]
 
 [[Lenny]] · [[Adam Mosseri]] · [[instagram]] · [[Anthropic]] · [[open ai]] · [[reels]] · [[pods]] · [[产品人员]] · [[news feed]] · [[嵌入模型]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Adam Mosseri":1,"instagram":1,"Anthropic":28,"open ai":2,"reels":1,"pods":1,"产品人员":1,"news feed":1,"嵌入模型":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"Adam Mosseri":1,"instagram":1,"Anthropic":30,"open ai":2,"reels":1,"pods":1,"产品人员":1,"news feed":1,"嵌入模型":1}</script>
 
 <script>
 (function(){

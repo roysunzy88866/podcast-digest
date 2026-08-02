@@ -7,11 +7,17 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Nemotron</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Nemotron">NE</div><div class="pi"><h1 class="pt">Nemotron</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Nemotron">NE</div><div class="pi"><h1 class="pt">Nemotron</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]]**(09:47起):本集把它说成:NVIDIA 自己的开源模型,专门为那些出于主权、监管、隐私或核心知识产权原因,必须自建 AI 的公司与行业打造的底座。
+
+## ① 提到它的金句
+
+*1 条,均已过机器闸门*
+
+![[2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and#^q9]]
 
 ## ② 出现在这些集
 
@@ -25,7 +31,7 @@ unlisted: true
 
 [[Jensen Wong]] · [[Mike Allen]] · [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[Microsoft]] · [[开放模型]] · [[封闭模型]] · [[沙箱]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Jensen Wong":1,"Mike Allen":1,"NVIDIA":7,"OpenAI":24,"Anthropic":28,"Microsoft":6,"开放模型":1,"封闭模型":1,"沙箱":9,"智能体":49}</script>
+<script type="application/json" class="pd-epn">{"Jensen Wong":1,"Mike Allen":1,"NVIDIA":8,"OpenAI":25,"Anthropic":30,"Microsoft":6,"开放模型":1,"封闭模型":1,"沙箱":9,"智能体":49}</script>
 
 <script>
 (function(){

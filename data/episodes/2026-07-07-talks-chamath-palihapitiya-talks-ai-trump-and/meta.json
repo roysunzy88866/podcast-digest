@@ -1,0 +1,25 @@
+{
+  "id": "2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/mCi6v9svLoQ.m4a",
+  "duration_sec": 3170.848,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 851,
+  "asr": true,
+  "title_en": "Chamath Palihapitiya talks AI, Trump and Silicon Valley on The Axios Show | Full Interview",
+  "podcast": "精选演讲",
+  "date": "2026-07-07",
+  "speaker_map": {
+    "SPEAKER_00": "Chamath",
+    "SPEAKER_01": "Dan"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Chamath",
+  "cohosts": [
+    "Dan"
+  ],
+  "title_zh": "Chamath 谈 AI：别信末日论，打破寡头垄断",
+  "guest_name": "Chamath",
+  "guest_title": "前 Facebook 高管",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=verbatim"
+}

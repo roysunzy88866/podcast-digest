@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Slack]] · [[Max Schoening]] · [[Saragawa]] · [[Jiaona Zhang]] · [[Simon Willison]] · [[Lenny]] · [[Satya Nadella]] · [[Akash]]
 
-<script type="application/json" class="pd-epn">{"智能体":49,"Anthropic":28,"Slack":10,"Max Schoening":1,"Saragawa":1,"Jiaona Zhang":1,"Simon Willison":1,"Lenny":32,"Satya Nadella":1,"Akash":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":49,"Anthropic":30,"Slack":11,"Max Schoening":1,"Saragawa":1,"Jiaona Zhang":1,"Simon Willison":1,"Lenny":32,"Satya Nadella":1,"Akash":3}</script>
 
 <script>
 (function(){

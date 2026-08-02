@@ -93,7 +93,7 @@ Alan 是怎么把业务做到四个国家的？这正是下一个关于国际化
 
 **顺着「智能体」挖下去**
 
-- [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|用 AI 替你打理钱:Clio 的极简金融建议与平权野心]] —— 同公司:Stripe · 同概念:智能体 (agent)
+- [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|Clio 的 AI 赌注：从扑克到财务健康]] —— 同公司:Stripe · 同概念:智能体 (agent)
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌]] —— 同公司:Stripe · 同概念:智能体 (agent)
 - [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|OpenAI 开发者日：从结对编程到指挥智能体大军]] —— 同公司:OpenAI · 同概念:智能体 (agent)
 

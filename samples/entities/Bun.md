@@ -23,9 +23,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Simon Willison]] · [[Cat Wu]] · [[Thariq Shihipar]] · [[Anthropic]] · [[Claude Code]] · [[ClaudeTag]] · [[fable]] · [[Slack]] · [[Rust]] · [[Gemini]]
+[[Simon Willison]] · [[Cat Wu]] · [[Thariq Shihipar]] · [[Anthropic]] · [[Claude Code]] · [[ClaudeTag]] · [[Fable]] · [[Slack]] · [[Rust]] · [[Gemini]]
 
-<script type="application/json" class="pd-epn">{"Simon Willison":1,"Cat Wu":1,"Thariq Shihipar":1,"Anthropic":28,"Claude Code":13,"ClaudeTag":1,"fable":2,"Slack":10,"Rust":1,"Gemini":3}</script>
+<script type="application/json" class="pd-epn">{"Simon Willison":1,"Cat Wu":1,"Thariq Shihipar":1,"Anthropic":30,"Claude Code":13,"ClaudeTag":1,"Fable":3,"Slack":11,"Rust":1,"Gemini":3}</script>
 
 <script>
 (function(){

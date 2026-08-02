@@ -59,13 +59,13 @@ unlisted: true
 
 ![[2026-05-31-lennys-a-rational-conversation-on-where#^q1]]
 
-![[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j#^q6]]
-
 ![[2026-06-14-lennys-the-common-pattern-behind-successful#^q6]]
 
 ![[2026-06-24-pg-company-os-jz#^q2]]
 
 ![[2026-06-24-pg-company-os-jz#^q6]]
+
+![[2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and#^q3]]
 
 ![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q5]]
 

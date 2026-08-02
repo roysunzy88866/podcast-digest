@@ -123,9 +123,9 @@ Alex 提出了一个非常经典的判断:初创公司和巨头的较量,就在�
 
 **顺着「智能体」挖下去**
 
-- [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|用 AI 替你打理钱:Clio 的极简金融建议与平权野心]] —— 同公司:Stripe · 同概念:智能体 (agent)
 - [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等]] —— 同公司:Stripe · 同概念:智能体 (agent)
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战]] —— 同概念:智能体 (agent)
+- [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|把 AI 当员工来管理:Claire Vo 的九个智能体生活实战]] —— 同概念:智能体 (agent)
 
 </div>
 <div class="pd-ex">

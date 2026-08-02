@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Edwin Chen]] · [[Anthropic]] · [[ChatGPT]] · [[LLM Arena]] · [[Waymo]] · [[GPT-3]] · [[Claude]] · [[基准测试]] · [[后训练]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Edwin Chen":1,"Anthropic":28,"ChatGPT":10,"LLM Arena":1,"Waymo":7,"GPT-3":2,"Claude":9,"基准测试":1,"后训练":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"Edwin Chen":1,"Anthropic":30,"ChatGPT":11,"LLM Arena":1,"Waymo":7,"GPT-3":2,"Claude":10,"基准测试":1,"后训练":1}</script>
 
 <script>
 (function(){

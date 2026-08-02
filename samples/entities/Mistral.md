@@ -27,7 +27,7 @@ unlisted: true
 
 [[OpenAI]] · [[Laurent]] · [[Theo Jaffe]] · [[Charles Gorintin]] · [[Ben Horowitz]] · [[Alan]] · [[Sofia Puccini]] · [[Stripe]] · [[NVIDIA]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":24,"Laurent":1,"Theo Jaffe":2,"Charles Gorintin":1,"Ben Horowitz":1,"Alan":1,"Sofia Puccini":2,"Stripe":10,"NVIDIA":7,"智能体":49}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":25,"Laurent":1,"Theo Jaffe":2,"Charles Gorintin":1,"Ben Horowitz":1,"Alan":1,"Sofia Puccini":2,"Stripe":10,"NVIDIA":8,"智能体":49}</script>
 
 <script>
 (function(){

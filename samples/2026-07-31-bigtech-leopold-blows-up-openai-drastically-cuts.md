@@ -86,7 +86,7 @@ tags:
 
 - [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]] —— 同公司:Meta、OpenAI、Anthropic、Apple、Google、Microsoft
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]] —— 同公司:NVIDIA、OpenAI、Anthropic、Microsoft · 同概念:数据中心 (data centers)
-- [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式]] —— 同公司:NVIDIA · 同概念:智能体 (agents)
+- [[2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and|Chamath 谈 AI：别信末日论，打破寡头垄断]] —— 同公司:NVIDIA、OpenAI、Anthropic
 
 </div>
 <div class="pd-ex">

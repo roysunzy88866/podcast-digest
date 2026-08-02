@@ -14,7 +14,7 @@ unlisted: true
 - **[[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]]**(30:52起):本集在谈及用 AI 总结退订理由时提及，大语言模型本质上是一台预测最可能性的「平均机器」，它擅长提炼通用主题，却很难找出真正能触发产品改进的、那些不平均的具体痛点细节
 - **[[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]]**(10:42起):本集提到从业者现在晚上要花时间喂养这头在夜间运行的野兽，这带来了跟上前沿的压力，但也带来了让工作自动化的可能。
 - **[[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]]**(26:56起):本集把它说成：本质上依然是训练数据的函数，擅长模仿已有事物，但很难跳出固有分布去创造尚未存在的新文化或新概念。
-- **[[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《用 AI 替你打理钱:Clio 的极简金融建议与平权野心》]]**(04:20起):本集说它彻底改变了 Clio 的底层架构与产品。以前依赖死板的规则与监督学习，有了大模型后，不仅能处理更复杂的结构化知识库，还能实现极致个性化的交互语气。
+- **[[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]]**(04:20起):本集说它彻底改变了公司的架构和产品；CEO 现在每天用它递归扫描全公司的 Slack、Notion 和 PR，生成直观的『船长日志』，让组织层级变扁平。
 
 ## ① 提到它的金句
 
@@ -31,15 +31,15 @@ unlisted: true
 - [[2026-01-25-lennys-why-your-product-stopped-growing|《增长停滞怎么办？Jason Cohen 的四步诊断法》]] — 作为概念(提及)
 - [[2026-04-19-lennys-why-half-of-product-managers-are-in-trou|《AI 时代产品经理的生存指南》]] — 作为概念(提及)
 - [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|《Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河》]] — 作为概念(提及)
-- [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《用 AI 替你打理钱:Clio 的极简金融建议与平权野心》]] — 作为概念
+- [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Stripe]] · [[Jason Cohen]] · [[Nikhyl Singhal]] · [[Patrick Collison]] · [[Barney Hussey-Yeo]] · [[客户流失率]] · [[产品经理]] · [[Amjad Masad]]
+[[智能体]] · [[Lenny]] · [[Anthropic]] · [[Stripe]] · [[Claude]] · [[Jason Cohen]] · [[Nikhyl Singhal]] · [[Patrick Collison]] · [[Barney Hussey-Yeo]] · [[客户流失率]]
 
-<script type="application/json" class="pd-epn">{"智能体":49,"Lenny":32,"Stripe":10,"Jason Cohen":1,"Nikhyl Singhal":1,"Patrick Collison":1,"Barney Hussey-Yeo":1,"客户流失率":1,"产品经理":2,"Amjad Masad":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":49,"Lenny":32,"Anthropic":30,"Stripe":10,"Claude":10,"Jason Cohen":1,"Nikhyl Singhal":1,"Patrick Collison":1,"Barney Hussey-Yeo":1,"客户流失率":1}</script>
 
 <script>
 (function(){

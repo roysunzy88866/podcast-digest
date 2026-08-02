@@ -31,7 +31,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[系统提示词]] · [[gpt 5.6]] · [[fable]] · [[Anthropic]] · [[open ai]] · [[Codex]] · [[智能体]] · [[提示词]] · [[原型]] · [[浏览器使用]]
+[[系统提示词]] · [[gpt 5.6]] · [[Fable]] · [[Anthropic]] · [[open ai]] · [[Codex]] · [[智能体]] · [[提示词]] · [[原型]] · [[浏览器使用]]
 
 ## ④ 也在聊「智能体」的人
 
@@ -41,7 +41,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"系统提示词":3,"gpt 5.6":1,"fable":2,"Anthropic":28,"open ai":2,"Codex":11,"智能体":49,"提示词":4,"原型":2,"浏览器使用":2}</script>
+<script type="application/json" class="pd-epn">{"系统提示词":3,"gpt 5.6":1,"Fable":3,"Anthropic":30,"open ai":2,"Codex":11,"智能体":49,"提示词":4,"原型":2,"浏览器使用":2}</script>
 
 <script>
 (function(){

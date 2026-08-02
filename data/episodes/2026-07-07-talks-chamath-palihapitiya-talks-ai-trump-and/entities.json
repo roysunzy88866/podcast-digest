@@ -1,0 +1,530 @@
+{
+  "episode_id": "2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and",
+  "podcast": "精选演讲",
+  "date": "2026-07-07",
+  "tags": [
+    "AI 末日论",
+    "闭源与开源",
+    "AI 监管",
+    "去中心化",
+    "资本市场"
+  ],
+  "categories": [
+    "创业与行业",
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "chamath",
+      "type": "person",
+      "role": "host",
+      "name": "Chamath",
+      "file": "Chamath",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.191,
+            1.592
+          ],
+          "quote": "Chamath, thanks for joining the Axio Show.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 477,
+          "t": [
+            1926.545,
+            1931.887
+          ],
+          "quote": "If I said to you, Chamath, I've got 100 shares of Anthropic here, 100 of OpenAI, 100 of SpaceX.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 848,
+          "t": [
+            3168.887,
+            3170.107
+          ],
+          "quote": "Chamath, thanks so much for joining us.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "dan",
+      "type": "person",
+      "role": "cohost",
+      "name": "Dan",
+      "file": "Dan",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            1.772,
+            2.473
+          ],
+          "quote": "It's great to see you, Dan.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 50,
+          "t": [
+            218.753,
+            222.196
+          ],
+          "quote": "And you get to this AI thing and it says, hey, Dan, guess what?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 172,
+          "t": [
+            746.12,
+            750.141
+          ],
+          "quote": "Because if you look at the cycle, Dan, I think the cycle marries incredibly well.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 541,
+          "t": [
+            2196.777,
+            2199.738
+          ],
+          "quote": "I don't want that to happen, Dan, but man, that is a compelling argument.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 735,
+          "t": [
+            2843.792,
+            2846.773
+          ],
+          "quote": "So what I'm trying to tell you is, Dan, we need more options.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集把它说成:AI 领域的头部公司之一,在消费者市场拥有有效垄断;创始人在融资周期中利用末日论叙事相互竞争。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            508.894,
+            512.275
+          ],
+          "quote": "And that's what you think will happen here, whether that be OpenAI or Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 459,
+          "t": [
+            1824.247,
+            1828.572
+          ],
+          "quote": "OpenAI, Anthropic, SpaceX, which is now public, but still tons of capital went into XAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 474,
+          "t": [
+            1907.597,
+            1919.777
+          ],
+          "quote": "So I'm curious, do you feel that if not the monetary valuations, there's inflation, et cetera, but do you feel that OpenAI and Anthropic, who are leading this race right now, we will look back in five years and they'll still be leading the race?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 477,
+          "t": [
+            1926.545,
+            1931.887
+          ],
+          "quote": "If I said to you, Chamath, I've got 100 shares of Anthropic here, 100 of OpenAI, 100 of SpaceX.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2028.217,
+            2030.158
+          ],
+          "quote": "OpenAI and Anthropic through SPVs and things like that?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 745,
+          "t": [
+            2869.583,
+            2873.886
+          ],
+          "quote": "Or Anthropic or OpenAI at $50 billion versus a trillion.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集把它说成:AI 头部公司之一,产品卓越且企业级市场采用率高,将在短期超额获利。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            508.894,
+            512.275
+          ],
+          "quote": "And that's what you think will happen here, whether that be OpenAI or Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 459,
+          "t": [
+            1824.247,
+            1828.572
+          ],
+          "quote": "OpenAI, Anthropic, SpaceX, which is now public, but still tons of capital went into XAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 474,
+          "t": [
+            1907.597,
+            1919.777
+          ],
+          "quote": "So I'm curious, do you feel that if not the monetary valuations, there's inflation, et cetera, but do you feel that OpenAI and Anthropic, who are leading this race right now, we will look back in five years and they'll still be leading the race?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 477,
+          "t": [
+            1926.545,
+            1931.887
+          ],
+          "quote": "If I said to you, Chamath, I've got 100 shares of Anthropic here, 100 of OpenAI, 100 of SpaceX.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 482,
+          "t": [
+            1948.492,
+            1954.154
+          ],
+          "quote": "I think Anthropic will over-earn in the short term because they're just a superior product and have superior enterprise adoption.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2028.217,
+            2030.158
+          ],
+          "quote": "OpenAI and Anthropic through SPVs and things like that?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 745,
+          "t": [
+            2869.583,
+            2873.886
+          ],
+          "quote": "Or Anthropic or OpenAI at $50 billion versus a trillion.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集把它说成:迎住了开源时代时刻的公司,引领美国本土的开源权重(如 Nemotron 系列)生态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 568,
+          "t": [
+            2283.911,
+            2289.654
+          ],
+          "quote": "Now, there is a company that has met that moment, which is NVIDIA.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 581,
+          "t": [
+            2336.382,
+            2348.476
+          ],
+          "quote": "And the open-weight, open-source American models will emerge and build a really good, robust business, mostly led by NVIDIA and their Nemotron class of models.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "spac",
+      "type": "concept",
+      "role": "concept",
+      "name": "SPAC",
+      "file": "SPAC",
+      "primary": true,
+      "how_described": "本集把它说成:一种特殊目的收购公司(借壳上市工具),嘉宾曾因激励错位搞砸过,现重启新 SPAC 试图打破华尔街 IPO 寡头垄断。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 747,
+          "t": [
+            2881.111,
+            2882.412
+          ],
+          "quote": "So I tried with the SPAC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 765,
+          "t": [
+            2938.77,
+            2941.793
+          ],
+          "quote": "I want you to ask me about 80-90, but instead you're asking me about a SPAC.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 767,
+          "t": [
+            2942.333,
+            2943.494
+          ],
+          "quote": "Well, you have a new SPAC.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "closed-source-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "闭源模型 (closed source models)",
+      "file": "闭源模型",
+      "primary": true,
+      "how_described": "本集把它说成:美国主要的 AI 路线,由前沿实验室主导,嘉宾预计其超额获利必将招致竞争,未来只能是市场相对多数。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 420,
+          "t": [
+            1702.143,
+            1707.625
+          ],
+          "quote": "The decision that they've made is America has these closed source models, right?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 579,
+          "t": [
+            2330.605,
+            2331.746
+          ],
+          "quote": "The closed source models will win.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-weight-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开源权重模型 (open-weight models)",
+      "file": "开源权重模型",
+      "primary": true,
+      "how_described": "本集把它说成:未来的低成本替代方案(中国路线)和美国本土 NVIDIA 引领的路线,权重开放可见,但不知造法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 580,
+          "t": [
+            2333.379,
+            2335.662
+          ],
+          "quote": "open-weight models from China will be a low-cost alternative.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "distributed-compute",
+      "type": "concept",
+      "role": "concept",
+      "name": "分布式计算 (distributed compute)",
+      "file": "分布式计算",
+      "primary": true,
+      "how_described": "本集把它说成:「叛军同盟」追求的核心技术理念,旨在实现没人能插手干预的共享 AI 社区。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 594,
+          "t": [
+            2375.17,
+            2379.011
+          ],
+          "quote": "We want completely distributed compute.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "doomerism",
+      "type": "concept",
+      "role": "concept",
+      "name": "末日论 (doomerism)",
+      "file": "末日论",
+      "primary": true,
+      "how_described": "本集把它说成:AI 负责人们为了竞争融资而刻意渲染的末世叙事,嘉宾认为这是一种极其自私且糟糕的策略,给公众递上了武器化仇恨的刀子。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 178,
+          "t": [
+            774.614,
+            786.622
+          ],
+          "quote": "Then in act two, they would then basically talk about this doomerism part, almost to try to just get all the agitators up in such a tizzy to almost sabotage the other people's process as they were embarking on it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            822.749,
+            827.05
+          ],
+          "quote": "Do you think, do you feel, I know you are not a doomer and you criticize doomerism.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2031.472,
+            2043.045
+          ],
+          "quote": "You know, we talked, I'm curious, with AI, and maybe it's because some of the doomerism that Sam and Dario have talked about a little bit, Dario more than Sam, there's this AI pushback right now.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "kyc",
+      "type": "concept",
+      "role": "concept",
+      "name": "KYC",
+      "file": "KYC",
+      "primary": true,
+      "how_described": "本集把它说成:金融界的「了解你的客户」机制,嘉宾主张将其引入 AI 监管,按模型能力分级要求实名验证,而非削弱模型本身。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 310,
+          "t": [
+            1241.047,
+            1247.669
+          ],
+          "quote": "It's about technology and terms like KYC that are like really boring, I guess.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1249.869,
+            1255.59
+          ],
+          "quote": "When you talk about KYC, which is know your customer, which is something anyone who's signed up for a bank account or other sort of financial thing is kind of aware of.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1379.514,
+            1382.099
+          ],
+          "quote": "Do you think something like that, KYC, is something he would go for?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 349,
+          "t": [
+            1386.335,
+            1394.517
+          ],
+          "quote": "But I think it's a very reasonable thing because we have conceptual KYC as implemented in pharma.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1394.917,
+            1400.358
+          ],
+          "quote": "We have conceptual KYC as implemented in the Department of Commerce, in Treasury, for all different kinds of things.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "h-1b-visa",
+      "type": "concept",
+      "role": "concept",
+      "name": "H-1B 签证 (H-1B visa)",
+      "file": "H-1B 签证",
+      "primary": false,
+      "how_described": "本集把它说成:美国吸引海外专才的签证,嘉宾自述受益于此,但如今系统被少数公司滥用,急需止血重建信任。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 619,
+          "t": [
+            2474.546,
+            2475.767
+          ],
+          "quote": "I came out on an H-1B visa.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 620,
+          "t": [
+            2475.847,
+            2477.467
+          ],
+          "quote": "Elon came out on an H-1B visa, okay?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 621,
+          "t": [
+            2478.267,
+            2481.33
+          ],
+          "quote": "At the time, you got your H-1B visa right away.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

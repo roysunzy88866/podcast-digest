@@ -43,7 +43,7 @@ unlisted: true
 
 [[Lenny]] · [[智能体]] · [[ChatGPT]] · [[物理 AI]] · [[Tesla]] · [[World Labs]] · [[Anthropic]] · [[Marble]] · [[空间智能]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"智能体":49,"ChatGPT":10,"物理 AI":3,"Tesla":5,"World Labs":2,"Anthropic":28,"Marble":2,"空间智能":2,"NVIDIA":7}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"智能体":49,"ChatGPT":11,"物理 AI":3,"Tesla":5,"World Labs":2,"Anthropic":30,"Marble":2,"空间智能":2,"NVIDIA":8}</script>
 
 <script>
 (function(){

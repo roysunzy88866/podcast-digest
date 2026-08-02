@@ -35,7 +35,7 @@ unlisted: true
 
 [[Lenny]] · [[Vercel]] · [[智能体]] · [[Jeanne DeWitt Grosser]] · [[Jason Lemkin]] · [[Stripe]] · [[SaaStr]] · [[Gong]] · [[Replit]] · [[OpenAI]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Vercel":3,"智能体":49,"Jeanne DeWitt Grosser":1,"Jason Lemkin":1,"Stripe":10,"SaaStr":1,"Gong":1,"Replit":4,"OpenAI":24}</script>
+<script type="application/json" class="pd-epn">{"Lenny":32,"Vercel":3,"智能体":49,"Jeanne DeWitt Grosser":1,"Jason Lemkin":1,"Stripe":10,"SaaStr":1,"Gong":1,"Replit":4,"OpenAI":25}</script>
 
 <script>
 (function(){

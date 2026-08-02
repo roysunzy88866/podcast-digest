@@ -19,7 +19,7 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Rohan Anil]] · [[Jerry Tworek]] · [[Core Automation]] · [[OpenAI]] · [[Google]] · [[Anthropic]] · [[Transformer]] · [[强化学习]] · [[预训练]] · [[测试时学习]]
+[[Rohan Anil]] · [[Jerry Tworek]] · [[Core Automation]] · [[OpenAI]] · [[Google]] · [[Anthropic]] · [[transformer]] · [[强化学习]] · [[预训练]] · [[测试时学习]]
 
 ## ④ 也在聊「创业与行业」的人
 
@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Rohan Anil":1,"Jerry Tworek":1,"Core Automation":1,"OpenAI":24,"Google":11,"Anthropic":28,"Transformer":1,"强化学习":3,"预训练":1,"测试时学习":1}</script>
+<script type="application/json" class="pd-epn">{"Rohan Anil":1,"Jerry Tworek":1,"Core Automation":1,"OpenAI":25,"Google":11,"Anthropic":30,"transformer":2,"强化学习":4,"预训练":1,"测试时学习":1}</script>
 
 <script>
 (function(){

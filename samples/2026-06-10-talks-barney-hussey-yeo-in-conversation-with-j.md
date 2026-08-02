@@ -27,7 +27,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">我现在每年大约赚 20 万，就是通过我的那个玩低注局的小 agent，勉强赢钱。</div><div class="a">— Barney Hussey-Yeo <button class="pd-ts" data-t="01:03" data-who="Barney Hussey-Yeo" data-en="I earn about 200K every year now just through my little agent that plays and barely beats the low stakes." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">你的现有竞争对手的最大痛点是什么？那么，我要做什么？我要在他们最大的痛点上极其用力，把它变成最令人愉快的体验。</div><div class="a">— Barney Hussey-Yeo <button class="pd-ts" data-t="18:01" data-who="Barney Hussey-Yeo" data-en="What is the biggest pain point of your incumbent? And, like, what am I going to do? I'm just going to go incredibly hard at their biggest pain point and make it the most delightful experience." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Barney Hussey-Yeo]] · [[John Collison]]
@@ -87,6 +87,29 @@ tags:
 > <span class="qz">这种有人写了一个提示词并且他们刚得到了一个前沿模型就要扼杀一切的想法被极度夸大了，而投资者们只是我这辈子遇到过的最愚蠢、最不理性的人，我无法相信他们掌握了所有的资本。</span>  
 > *This kind of idea that someone wrote a prompt and they've just got a frontier model that's going to kill everything is wildly overblown and investors are just the silliest, most irrational people I've ever met in my life, and I can't believe they have all the capital.*  
 > <span class="qm">—— Barney Hussey-Yeo · [38:10]</span> ^q6
+
+<div class="pd-sec">接着看</div>
+
+<div class="pd-exit">
+<div class="pd-ex">
+
+**顺着「智能体」挖下去**
+
+- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同公司:anthropic · 同概念:智能体 (agent)、Fable、Slack
+- [[2026-07-13-lennys-this-solo-builder-runs-247-local|GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力]] —— 同公司:anthropic · 同概念:智能体 (agent)、Fable
+- [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等]] —— 同公司:Stripe · 同概念:智能体 (agent)
+
+</div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]] —— 同公司:Stripe · 同概念:智能体 (agent)、LLM
+- [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个]] —— 同公司:Stripe · 同概念:智能体 (agent)
+- [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|估值150亿的隐形AI公司：我们最好的工作是独自安静地完成]] —— 同概念:智能体 (agent)、ChatGPT
+
+</div>
+</div>
 
 *本集关键词:AI 财务助手 · 智能体 · 个性化 · LLM 工作流 · 垂直软件*
 

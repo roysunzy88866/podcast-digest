@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>24</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>25</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -21,6 +21,7 @@ unlisted: true
 - **[[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新》]]**(01:50起):本集提到的顶尖 AI 公司；嘉宾认为符合其利益去托管专门的面向消费者的智能体服务应用（如旅行代理）。
 - **[[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|《Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等》]]**(20:16起):本集说它是一家美国公司，Alan 在 2022 年中时完全依赖它的 GPT-3 模型，这让欧洲公司感到恐慌。
 - **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]]**(00:00起):本集说它是 Codex 应用的母公司，内部近 100% 员工每周都在使用 Codex；团队极具主观能动性(high agentic),内部常同时涌现 90 个原型探索。
+- **[[2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and|《Chamath 谈 AI：别信末日论，打破寡头垄断》]]**(08:28起):本集把它说成:AI 领域的头部公司之一,在消费者市场拥有有效垄断;创始人在融资周期中利用末日论叙事相互竞争。
 - **[[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]]**(55:31起):本集提到它作为大模型厂商之一，推出了自家的「托管智能体」，与 Anthropic 一起被视作潜在的竞争或合作方。
 - **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]]**(01:40起):本集把它说成:前沿 AI 研究实验室,曾提供 GPT-2 等早期开源模型;但也指出这类大实验室常背着「模型必须完美、产品必须达到高标准才能见人」的包袱。
 - **[[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|《OpenAI 开发者日：从结对编程到指挥智能体大军》]]**(09:42起):本集的开发者日主办方,主张现在是做工程师最好的时代,目标是打造彻底开放、人人可建生态的 AI 智能体底层平台
@@ -46,7 +47,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*24 集*
+*25 集*
 
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]] — 作为被讨论公司(提及)
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为被讨论公司(提及)
@@ -58,6 +59,7 @@ unlisted: true
 - [[2026-06-14-lennys-the-common-pattern-behind-successful|《Zynga创始人的产品哲学:复制已验证、加一点更好、赌一点全新》]] — 作为被讨论公司(提及)
 - [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|《Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等》]] — 作为被讨论公司(提及)
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]] — 作为被讨论公司
+- [[2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and|《Chamath 谈 AI：别信末日论，打破寡头垄断》]] — 作为被讨论公司
 - [[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]] — 作为被讨论公司(提及)
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]] — 作为被讨论公司(提及)
 - [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|《OpenAI 开发者日：从结对编程到指挥智能体大军》]] — 作为被讨论公司
@@ -77,9 +79,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[Stripe]] · [[AGI]] · [[ChatGPT]] · [[Microsoft]] · [[沙箱]] · [[Meta]]
+[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[Stripe]] · [[AGI]] · [[ChatGPT]] · [[Microsoft]] · [[NVIDIA]] · [[沙箱]]
 
-<script type="application/json" class="pd-epn">{"智能体":49,"Anthropic":28,"Lenny":32,"Google":11,"Stripe":10,"AGI":6,"ChatGPT":10,"Microsoft":6,"沙箱":9,"Meta":9}</script>
+<script type="application/json" class="pd-epn">{"智能体":49,"Anthropic":30,"Lenny":32,"Google":11,"Stripe":10,"AGI":6,"ChatGPT":11,"Microsoft":6,"NVIDIA":8,"沙箱":9}</script>
 
 <script>
 (function(){

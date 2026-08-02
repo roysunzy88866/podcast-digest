@@ -12,7 +12,7 @@ host: "[[Sonja]]"
 guests: ["[[Rohan Anil]]"]
 cohosts: ["[[Jerry Tworek]]"]
 companies: ["[[Core Automation]]", "[[OpenAI]]", "[[Google]]", "[[Anthropic]]"]
-concepts: ["[[Transformer]]", "[[强化学习]]", "[[预训练]]", "[[测试时学习]]", "[[算子]]", "[[持续学习]]", "[[AGI]]", "[[计算深度]]", "[[思维链]]", "[[编码智能体]]"]
+concepts: ["[[transformer]]", "[[强化学习]]", "[[预训练]]", "[[测试时学习]]", "[[算子]]", "[[持续学习]]", "[[AGI]]", "[[计算深度]]", "[[思维链]]", "[[编码智能体]]"]
 category: 创业与行业
 tags:
   - 创业与行业
@@ -36,11 +36,11 @@ tags:
 >
 > **公司** [[Core Automation]] · [[OpenAI]] · [[Google]] · [[Anthropic]]
 >
-> **概念** [[Transformer]] · [[强化学习]] · [[预训练]] · [[测试时学习]] · [[算子]] · [[持续学习]] · [[AGI]] · [[计算深度]] · [[思维链]] · [[编码智能体]]
+> **概念** [[transformer]] · [[强化学习]] · [[预训练]] · [[测试时学习]] · [[算子]] · [[持续学习]] · [[AGI]] · [[计算深度]] · [[思维链]] · [[编码智能体]]
 
 <div class="pd-tldr"><b>一句话</b>前 OpenAI 与 Google Brain 核心主将指出 Transformer 无法持续学习,正在探寻下一代新架构。</div>
 
-[[Transformer|Transformer]] 已经把人类几乎所有的静态知识都压缩进了模型里,但如果明天 [[OpenAI|OpenAI]] 和 [[Anthropic|Anthropic]] 停止训练新模型,今天这些强大的模型会随着时间流逝变得越来越没用——这就是 Transformer 的天花板。说这话的人是 Jerry,他曾是 OpenAI 负责[[强化学习|强化学习]](一种让模型在环境里不断试错拿奖励的训练方法)和推理团队的核心人物,如今创办了 [[Core Automation|Core Automation]] 实验室,要寻找能替代 Transformer 的下一代架构。
+[[transformer|Transformer]] 已经把人类几乎所有的静态知识都压缩进了模型里,但如果明天 [[OpenAI|OpenAI]] 和 [[Anthropic|Anthropic]] 停止训练新模型,今天这些强大的模型会随着时间流逝变得越来越没用——这就是 Transformer 的天花板。说这话的人是 Jerry,他曾是 OpenAI 负责[[强化学习|强化学习]](一种让模型在环境里不断试错拿奖励的训练方法)和推理团队的核心人物,如今创办了 [[Core Automation|Core Automation]] 实验室,要寻找能替代 Transformer 的下一代架构。
 
 这一集里,他和联合创始人 Rohan(前 Gemini [[预训练|预训练]]负责人)一起,聊了三件事:为什么坚信 Transformer 在架构层面已经走到尽头,根本没法[[持续学习|持续学习]];为什么把预训练和强化学习拼在一起、端到端地优化,才是大幅提升计算效率的破局点;以及为什么他们选择离开资源最顶尖的大厂去创业,试图用极高的自动化水平去建造一个能每天疯狂试错的实验室。
 
@@ -135,7 +135,7 @@ tags:
 
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
 - [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
-- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]] —— 同公司:Anthropic、OpenAI
+- [[2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and|Chamath 谈 AI：别信末日论，打破寡头垄断]] —— 同公司:Anthropic、OpenAI
 
 </div>
 <div class="pd-ex">

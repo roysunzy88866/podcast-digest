@@ -7,19 +7,19 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>John Collison</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="John Collison">JO</div><div class="pi"><h1 class="pt">John Collison</h1><div class="byl">精选演讲 联合主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>9</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="John Collison">JO</div><div class="pi"><h1 class="pt">John Collison</h1><div class="byl">精选演讲 联合主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ② 出现在这些集
 
 *1 集*
 
-- [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《用 AI 替你打理钱:Clio 的极简金融建议与平权野心》]] — 作为联合主持
+- [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为联合主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Barney Hussey-Yeo]] · [[Clio]] · [[Stripe]] · [[智能体]] · [[创造性破坏]] · [[人格化]] · [[LLM]] · [[知识库]] · [[前沿模型]]
+[[Barney Hussey-Yeo]] · [[Clio]] · [[智能体]] · [[LLM]] · [[推荐系统]] · [[监督学习]] · [[强化学习]] · [[transformer]] · [[创造性破坏]] · [[Anthropic]]
 
 ## ④ 也在聊「智能体」的人
 
@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Barney Hussey-Yeo":1,"Clio":1,"Stripe":10,"智能体":49,"创造性破坏":1,"人格化":1,"LLM":4,"知识库":2,"前沿模型":2}</script>
+<script type="application/json" class="pd-epn">{"Barney Hussey-Yeo":1,"Clio":1,"智能体":49,"LLM":4,"推荐系统":1,"监督学习":1,"强化学习":4,"transformer":2,"创造性破坏":1,"Anthropic":30}</script>
 
 <script>
 (function(){

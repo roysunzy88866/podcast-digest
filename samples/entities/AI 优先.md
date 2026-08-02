@@ -59,13 +59,13 @@ unlisted: true
 
 ![[2026-05-31-lennys-a-rational-conversation-on-where#^q1]]
 
-![[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j#^q6]]
-
 ![[2026-06-14-lennys-the-common-pattern-behind-successful#^q6]]
 
 ![[2026-06-24-pg-company-os-jz#^q2]]
 
 ![[2026-06-24-pg-company-os-jz#^q6]]
+
+![[2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and#^q3]]
 
 ![[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for#^q5]]
 
@@ -155,7 +155,7 @@ unlisted: true
 
 [[Jeetu Patel]] · [[Lenny]] · [[Cisco]] · [[NVIDIA]] · [[ChatGPT]] · [[主观能动性]] · [[能力过剩]] · [[超级趋势]] · [[炒作周期]] · [[丢包]]
 
-<script type="application/json" class="pd-epn">{"Jeetu Patel":1,"Lenny":32,"Cisco":1,"NVIDIA":7,"ChatGPT":10,"主观能动性":7,"能力过剩":2,"超级趋势":1,"炒作周期":1,"丢包":1}</script>
+<script type="application/json" class="pd-epn">{"Jeetu Patel":1,"Lenny":32,"Cisco":1,"NVIDIA":8,"ChatGPT":11,"主观能动性":7,"能力过剩":2,"超级趋势":1,"炒作周期":1,"丢包":1}</script>
 
 <script>
 (function(){
