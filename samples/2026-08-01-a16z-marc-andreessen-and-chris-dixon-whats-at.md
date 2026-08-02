@@ -19,9 +19,7 @@ tags:
 
 # 加密行业已大到无法忽视:两位 a16z 合伙人谈为什么亟需立法
 
-<div class="pd-byl"><b>Marc Andreessen</b> · a16z 合伙人</div>
-
-<div class="pd-mt">2026-08-01 · The a16z Show · 59:16</div>
+<div class="pd-byl"><b>Marc Andreessen</b> · a16z 合伙人 · 2026-08-01</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 

@@ -19,9 +19,7 @@ tags:
 
 # 用 Markdown 组建一支军队:Y Combinator 掌门人的 AI 原生公司蓝图
 
-<div class="pd-byl"><b>Garry Tan</b> · YC 掌门人</div>
-
-<div class="pd-mt">2026-07-17 · 精选演讲 · 20:49</div>
+<div class="pd-byl"><b>Garry Tan</b> · YC 掌门人 · 2026-07-17</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-17-talks-every-company-should-have-a-brain-garry.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 

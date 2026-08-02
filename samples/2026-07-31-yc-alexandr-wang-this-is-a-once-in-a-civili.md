@@ -21,9 +21,7 @@ tags:
 
 # Scale AI 创始人 Alexandr Wang:AI 时代,最稀缺的不是智能而是愿景
 
-<div class="pd-byl"><b>Alexandr Wang</b> · Scale AI 创始人</div>
-
-<div class="pd-mt">2026-07-31 · Y Combinator Startup Podcast · 32:07</div>
+<div class="pd-byl"><b>Alexandr Wang</b> · Scale AI 创始人 · 2026-07-31</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-31-yc-alexandr-wang-this-is-a-once-in-a-civili.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 

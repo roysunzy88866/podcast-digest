@@ -21,9 +21,7 @@ tags:
 
 # 10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来
 
-<div class="pd-byl"><b>Edwin Chen</b> · Surge AI 创始人</div>
-
-<div class="pd-mt">2025-12-07 · Lenny's Podcast · 70:27</div>
+<div class="pd-byl"><b>Edwin Chen</b> · Surge AI 创始人 · 2025-12-07</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-12-07-lennys-surge-ai-edwin-chen.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 

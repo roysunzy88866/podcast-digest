@@ -20,9 +20,7 @@ tags:
 
 # 从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌
 
-<div class="pd-byl"><b>Michele Catasta</b> · Replit 总裁兼 AI 负责人</div>
-
-<div class="pd-mt">2026-07-09 · 精选演讲 · 45:32</div>
+<div class="pd-byl"><b>Michele Catasta</b> · Replit 总裁兼 AI 负责人 · 2026-07-09</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-09-talks-a-conversation-with-replit-s-president-a.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 

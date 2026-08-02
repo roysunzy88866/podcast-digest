@@ -21,9 +21,7 @@ tags:
 
 # Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点
 
-<div class="pd-byl"><b>Jeff Dean</b> · Google 传奇工程师</div>
-
-<div class="pd-mt">2026-08-01 · Y Combinator Startup Podcast · 57:05</div>
+<div class="pd-byl"><b>Jeff Dean</b> · Google 传奇工程师 · 2026-08-01</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 

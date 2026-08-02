@@ -21,9 +21,7 @@ tags:
 
 # 让超音速飞行重返天空:Boom 用小团队重写硬件制造
 
-<div class="pd-byl"><b>Blake Scholl</b> · Boom Supersonic 的创始人</div>
-
-<div class="pd-mt">2026-07-29 · Y Combinator Startup Podcast · 49:59</div>
+<div class="pd-byl"><b>Blake Scholl</b> · Boom Supersonic 的创始人 · 2026-07-29</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-29-yc-blake-scholl-breaking-the-supersonic-ban.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 

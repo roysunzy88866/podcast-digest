@@ -20,9 +20,7 @@ tags:
 
 # 别再微管理 Claude:Claude Code 造物主的智能体实战心法
 
-<div class="pd-byl"><b>Boris Cherny</b></div>
-
-<div class="pd-mt">2026-07-28 · Y Combinator Startup Podcast · 36:04</div>
+<div class="pd-byl"><b>Boris Cherny</b> · 2026-07-28</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-28-yc-boris-cherny-building-claude-code-e3mkr7.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 

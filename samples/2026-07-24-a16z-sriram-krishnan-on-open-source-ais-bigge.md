@@ -22,9 +22,7 @@ tags:
 
 # Kimi K3 冲击波:开源逼近前沿,格局要变
 
-<div class="pd-byl"><b>Sriram Krishnan</b> · 白宫前 AI 政策顾问</div>
-
-<div class="pd-mt">2026-07-24 · The a16z Show · 22:29</div>
+<div class="pd-byl"><b>Sriram Krishnan</b> · 白宫前 AI 政策顾问 · 2026-07-24</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 

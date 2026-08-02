@@ -21,9 +21,7 @@ tags:
 
 # 当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源
 
-<div class="pd-byl"><b>Andrew Ambrosino</b> · OpenAI Codex负责人</div>
-
-<div class="pd-mt">2026-06-28 · Lenny's Podcast · 69:55</div>
+<div class="pd-byl"><b>Andrew Ambrosino</b> · OpenAI Codex负责人 · 2026-06-28</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-06-28-lennys-openai-codex-lead-on-the-new-shape.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 

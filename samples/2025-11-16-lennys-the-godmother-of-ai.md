@@ -21,9 +21,7 @@ tags:
 
 # AI 教母李飞飞:从 ImageNet 到空间智能
 
-<div class="pd-byl"><b>Dr. Fei-Fei Li</b> · World Labs 创始人</div>
-
-<div class="pd-mt">2025-11-16 · Lenny's Podcast · 79:30</div>
+<div class="pd-byl"><b>Dr. Fei-Fei Li</b> · World Labs 创始人 · 2025-11-16</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-11-16-lennys-the-godmother-of-ai.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 

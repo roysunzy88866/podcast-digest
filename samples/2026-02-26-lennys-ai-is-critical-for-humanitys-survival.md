@@ -22,9 +22,7 @@ tags:
 
 # 管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言
 
-<div class="pd-byl"><b>Jeetu Patel</b> · Cisco CPO</div>
-
-<div class="pd-mt">2026-02-26 · Lenny's Podcast · 87:20</div>
+<div class="pd-byl"><b>Jeetu Patel</b> · Cisco CPO · 2026-02-26</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-02-26-lennys-ai-is-critical-for-humanitys-survival.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 

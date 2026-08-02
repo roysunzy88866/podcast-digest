@@ -22,9 +22,7 @@ tags:
 
 # 代码量暴涨8倍后，工程管理怎么办？
 
-<div class="pd-byl"><b>Fiona Fung</b> · Anthropic工程负责人</div>
-
-<div class="pd-mt">2026-06-21 · Lenny's Podcast · 98:42</div>
+<div class="pd-byl"><b>Fiona Fung</b> · Anthropic工程负责人 · 2026-06-21</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-06-21-lennys-building-the-most-ai-pilled-engineering.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 

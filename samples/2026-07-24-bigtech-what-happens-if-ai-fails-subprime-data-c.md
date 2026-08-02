@@ -22,9 +22,7 @@ tags:
 
 # AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算
 
-<div class="pd-byl"><b>Ranjan Roy</b></div>
-
-<div class="pd-mt">2026-07-24 · Big Technology Podcast · 66:31</div>
+<div class="pd-byl"><b>Ranjan Roy</b> · 2026-07-24</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 

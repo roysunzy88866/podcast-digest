@@ -22,9 +22,7 @@ tags:
 
 # 一千人公司里的五人小队:Eddie Kim 怎么用 Claude Code 花10周造出 Gusto Co-Founder
 
-<div class="pd-byl"><b>Eddie Kim</b> · Gusto CTO</div>
-
-<div class="pd-mt">2026-06-29 · Lenny's Podcast · 51:49</div>
+<div class="pd-byl"><b>Eddie Kim</b> · Gusto CTO · 2026-06-29</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-06-29-lennys-no-figma-no-jira-no-docs-how-gusto.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 

@@ -21,9 +21,7 @@ tags:
 
 # GPT 5.6 测评：我为什么抛弃 Fable，把 Soul 当主力
 
-
-
-<div class="pd-mt">2026-07-13 · Lenny's Podcast · 36:38</div>
+<div class="pd-byl">2026-07-13</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-13-lennys-this-solo-builder-runs-247-local.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 

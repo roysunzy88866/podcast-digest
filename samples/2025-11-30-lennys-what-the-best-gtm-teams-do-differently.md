@@ -21,9 +21,7 @@ tags:
 
 # Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个
 
-<div class="pd-byl"><b>Jeanne DeWitt Grosser</b> · Vercel COO</div>
-
-<div class="pd-mt">2025-11-30 · Lenny's Podcast · 85:38</div>
+<div class="pd-byl"><b>Jeanne DeWitt Grosser</b> · Vercel COO · 2025-11-30</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-11-30-lennys-what-the-best-gtm-teams-do-differently.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 

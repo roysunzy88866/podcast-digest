@@ -20,9 +20,7 @@ tags:
 
 # 「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌
 
-<div class="pd-byl"><b>Reid Alberghati</b> · Semaphore 科技编辑</div>
-
-<div class="pd-mt">2026-07-31 · Big Technology Podcast · 65:01</div>
+<div class="pd-byl"><b>Reid Alberghati</b> · Semaphore 科技编辑 · 2026-07-31</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 

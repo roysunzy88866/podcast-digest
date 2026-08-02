@@ -20,9 +20,7 @@ tags:
 
 # 别再当「答案机器」：高管教练Rachel Lockett的领导力实操课
 
-<div class="pd-byl"><b>Rachel Lockett</b> · 高管教练</div>
-
-<div class="pd-mt">2025-11-23 · Lenny's Podcast · 105:15</div>
+<div class="pd-byl"><b>Rachel Lockett</b> · 高管教练 · 2025-11-23</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2025-11-23-lennys-a-guide-to-difficult-conversations.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 

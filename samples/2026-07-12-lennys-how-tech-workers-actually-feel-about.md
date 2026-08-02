@@ -21,9 +21,7 @@ tags:
 
 # AI 时代的科技人情绪实录：一半狂欢，一半崩塌
 
-<div class="pd-byl"><b>Noam Segal</b> · 资深研究员</div>
-
-<div class="pd-mt">2026-07-12 · Lenny's Podcast · 96:26</div>
+<div class="pd-byl"><b>Noam Segal</b> · 资深研究员 · 2026-07-12</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-12-lennys-how-tech-workers-actually-feel-about.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 

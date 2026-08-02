@@ -22,9 +22,7 @@ tags:
 
 # Netflix 产品负责人谈 AI 时代：每个人都能做一切,但卓越的专长不会消失
 
-<div class="pd-byl"><b>Elizabeth Stone</b> · Netflix 产品负责人</div>
-
-<div class="pd-mt">2026-07-19 · Lenny's Podcast · 72:05</div>
+<div class="pd-byl"><b>Elizabeth Stone</b> · Netflix 产品负责人 · 2026-07-19</div>
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-07-19-lennys-netflix-cpto-on-ai-and-the-future.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
