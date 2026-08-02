@@ -540,12 +540,19 @@ export function renderOrigScript() {
  * 只有人名就只印人名(**不留孤立的「·」**),两个都没有整行不渲染(设计稿 .byl:empty 同口径)。
  */
 export function renderByline(meta) {
-  const parts = [meta?.guest_name, meta?.guest_title].map((x) => String(x ?? "").trim()).filter(Boolean);
-  if (!parts.length) return "";
-  const [name, title] = parts.length === 2 ? parts : [parts[0], null];
+  const idParts = [meta?.guest_name, meta?.guest_title].map((x) => String(x ?? "").trim()).filter(Boolean);
+  const date = displayDate(meta);
+  const [name, title] = idParts.length === 2 ? idParts : idParts.length === 1 ? [idParts[0], null] : [null, null];
+  // 署名行 = 人名 · 职务 · 日期(2026-08-01 用户拍板:meta 行的播客来源删掉、日期并进这一行,头部精简)。
+  // 无人名时退化成只有日期(仍比丢掉日期好);三者全空才收起(:empty 兜底)。
   // 转义:人名/职位是 GLM 从转写稿抽的,理论上能带进 HTML(GLM 20260727-004[1] 提的注入面)。
-  // ⚠️ 同类问题在 h1 标题 / meta 行等处也存在(既有写法),已登记 tech-debt,不在本片顺手改。
-  return `<div class="pd-byl"><b>${attrEscape(name)}</b>${title ? ` · ${attrEscape(title)}` : ""}</div>`;
+  // ⚠️ 同类问题在 h1 标题等处也存在(既有写法),已登记 tech-debt,不在本片顺手改。
+  const bits = [
+    name ? `<b>${attrEscape(name)}</b>` : "",
+    title ? attrEscape(title) : "",
+    date ? attrEscape(date) : "",
+  ].filter(Boolean);
+  return bits.length ? `<div class="pd-byl">${bits.join(" · ")}</div>` : "";
 }
 
 export function renderAudioPlayer(meta) {
@@ -783,8 +790,6 @@ ${renderTopBar(meta)}
 # ${displayTitle(meta)}
 
 ${renderByline(meta)}
-
-${renderEpisodeMeta(meta)}
 
 ${renderAudioPlayer(meta)}
 

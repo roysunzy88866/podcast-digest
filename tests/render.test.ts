@@ -291,11 +291,11 @@ describe("C13d-1 · 播放条紧随标题(ADR 0015,用户 2026-07-26 明文确�
     const between = md.slice(iTitle, iPlay);
     expect(iPlay).toBeGreaterThan(iTitle);
     // ⚠️ 原先只断言「没有 ## 小节标题」→ 假绿:关联框是引用块不是标题,照样夹在中间。
-    // 现口径(照设计稿 ep-*.html 的真实顺序:标题 → meta 行 → 播放条):
-    // 中间**只允许那一行 meta**,别的一律不许 —— 关联框若再挤进来仍会被逮住。
+    // 现口径(2026-08-01 头部精简后:标题 → 署名行(人名·职务·日期)→ 播放条):
+    // 中间**只允许那一行署名**,别的一律不许 —— 关联框若再挤进来仍会被逮住。
     const 夹着的 = between.split("\n").slice(1).filter((l) => l.trim());
     expect(夹着的.length).toBeLessThanOrEqual(1);
-    if (夹着的.length) expect(夹着的[0]).toMatch(/class="pd-mt"/);
+    if (夹着的.length) expect(夹着的[0]).toMatch(/class="pd-byl"/);
   });
 });
 
@@ -557,15 +557,16 @@ describe("C13d-2 · 顶栏 / TLDR 框 / 小节标签 / 接着看两栏 / 图谱�
     expect(t).toContain('class="pd-acts"'); // 搜索/深浅色由脚本搬进来,不重写一套(🔒 #9/#2)
   });
 
-  it("★★ 手机端二级页顶栏用「← 返回」,标题不进顶栏(Option A,2026-08-01 用户拍板)[standard-change: 用户授权]", () => {
+  it("★★ 手机端详情页顶栏放 logo(去「← 返回」)+ 删金句;大类页仍「← 大类名」(2026-08-01 用户拍板)[standard-change: 用户授权]", () => {
     const t = renderTopBar(M as any);
-    // pd-mtitle 仍渲染在 DOM(供 :has(.pd-mtitle) 在二级页藏掉站名),但两档都隐藏,不再拿它显示标题
-    expect(t).toContain("返回");
-    expect(t).toContain("本集标题");                         // 元素还在 DOM,只是 CSS 隐藏
-    expect(scss).toMatch(/\.pd-mtitle \{ display: none; \}/); // 桌面藏
-    // 手机端(Option A):pd-back 显示、pd-mtitle 隐藏(撤回「标题进顶栏」)
-    expect(scss).toMatch(/@media \(max-width: 1023px\) \{[\s\S]*?\.pd-back \{ display: inline/);
-    expect(scss).toMatch(/@media \(max-width: 1023px\) \{[\s\S]*?\.pd-mtitle \{ display: none/);
+    expect(t).toContain('class="b"');   // logo 站名仍在 DOM(手机详情页显示、当返回首页入口)
+    // 手机端:不用「← 返回」文字键
+    expect(scss).toMatch(/@media \(max-width: 1023px\) \{[\s\S]*?\.pd-back \{ display: none/);
+    // 详情页(有播放条):金句删、mtitle 藏(标题回正文,见下一条)
+    expect(scss).toMatch(/body:has\(\.pd-play\) \.pd-hook \{ display: none/);
+    expect(scss).toMatch(/body:has\(\.pd-play\) \.pd-mtitle \{ display: none/);
+    // 大类页(无播放条):mtitle 恢复显示(修 Option A 全局 display:none 误伤「← 大类名」)
+    expect(scss).toMatch(/body:not\(:has\(\.pd-play\)\) \.pd-mtitle \{/);
   });
 
   it("★★★ TLDR 是灰底框不是大标题", () => {
@@ -668,31 +669,35 @@ describe("C13d-3 · 嘉宾署名行(设计稿 .byl)", () => {
   const scss = readFileSync(new URL("../assets/styles/custom.scss", import.meta.url), "utf8");
   const base = { id: "ep1", title_zh: "T", podcast: "P", date: "2026-07-14", duration_sec: 600 };
 
-  it("★★★ 有人名有职位 → 「嘉宾名 · 职位」", () => {
+  // 2026-08-01 用户拍板:头部去掉独立 meta 行,日期并进署名行 → 署名 = 人名 · 职务 · 日期。
+  it("★★★ 有人名有职位 → 「嘉宾名 · 职位 · 日期」", () => {
     expect(renderByline({ ...base, guest_name: "Peter Steinberger", guest_title: "OpenClaw创始人" } as any))
-      .toBe('<div class="pd-byl"><b>Peter Steinberger</b> · OpenClaw创始人</div>');
+      .toBe('<div class="pd-byl"><b>Peter Steinberger</b> · OpenClaw创始人 · 2026-07-14</div>');
   });
 
-  it("★★★ 只有人名 → 只显示人名,不留孤立的「·」", () => {
+  it("★★★ 只有人名 → 「人名 · 日期」,不留孤立/连续的「·」", () => {
     const out = renderByline({ ...base, guest_name: "Peter Steinberger" } as any);
     expect(out).toContain("Peter Steinberger");
-    expect(out).not.toContain("·");
+    expect(out).toContain("2026-07-14");
+    expect(out).not.toMatch(/·\s*·/);        // 无连续分隔点
+    expect(out).not.toMatch(/·\s*<\/div>/);  // 无结尾孤立点
   });
 
-  it("★★★ 两个字段都没有 → 整行不渲染(不留空白)", () => {
-    expect(renderByline(base as any)).toBe("");
-    expect(renderByline({ ...base, guest_name: "", guest_title: "" } as any)).toBe("");
+  it("★★★ 无人名无职位但有日期 → 只显示日期;三者全空才收起", () => {
+    // 日期并进署名行后,无嘉宾也保留日期(比丢掉好)
+    expect(renderByline({ ...base, guest_name: "", guest_title: "" } as any)).toBe('<div class="pd-byl">2026-07-14</div>');
+    // 人名/职务/日期全空 → 整行不渲染(:empty 兜底)
+    expect(renderByline({ id: "x" } as any)).toBe("");
   });
 
-  it("★★★ 位置:在标题之下、meta 行之上", () => {
+  it("★★★ 位置:在标题之下、播放条之上", () => {
     const md = renderEpisode(
       { ...base, guest_name: "某人", guest_title: "某公司 CEO" } as any,
       { tldr: "T。", digest_md: "正文。", quotes: [] } as any,
       null,
     );
-    // ⚠️ 针要写全:顶栏里的 `pd-mtitle` 含子串 "pd-mt",松着写会命中顶栏、误判顺序
     expect(md.indexOf('class="pd-byl"')).toBeGreaterThan(md.indexOf("# T"));
-    expect(md.indexOf('class="pd-byl"')).toBeLessThan(md.indexOf('class="pd-mt"'));
+    expect(md.indexOf('class="pd-byl"')).toBeLessThan(md.indexOf('class="pd-play"'));
   });
 
   it("★★★ 人名/职位要转义,不许把 HTML 直接注进页面(GLM 20260727-004[1])", () => {

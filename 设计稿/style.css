@@ -287,6 +287,15 @@ blockquote{margin:0 0 17px;padding:11px 16px;background:#f8f7f4;border-left:2px 
   .mid p{font-size:15px;line-height:1.8;margin:0 0 24px}
   .mid h2{font-size:24px;line-height:1.4;margin:34px 0 16px}
 
+  /* ── 头部精简批注(2026-08-01 用户拍板;仅手机端详情页)──
+     ① 顶栏「← 返回」撤掉,原位放站名 logo(.top .b,点回首页)—— 大类页仍是「← 大类名」不受影响。
+     ② 金句块(.hook)手机端整个不要(桌面保留)。
+     ③ 独立 meta 行(.mt:日期·播客·时长)删掉;播客来源去掉,日期并进署名行 = 人名 · 职务 · 日期。 */
+  .shell.det .top .b{display:flex}      /* 详情页手机端:logo 显示(撤回二级页藏站名) */
+  .shell.det .mtitle{display:none}      /* 标题回正文大号打头,不进顶栏 */
+  .shell.det .hook{display:none}        /* 金句手机端删 */
+  .shell.det .mt{display:none}          /* 独立 meta 行删(日期并进 .byl) */
+
   /* ── 吸顶折叠目录 ── */
   .mtoc{display:block;position:sticky;top:var(--stick,78px);z-index:20;background:var(--B0);
         margin:26px -16px 6px;padding:0 16px;

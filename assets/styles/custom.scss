@@ -1315,17 +1315,32 @@ body:has(.pd-play) article blockquote:has(> p[id^="q"]) em {
 .pd-back:hover { color: var(--pd-accent); }
 .pd-mtitle { display: none; }
 @media (max-width: 1023px) {
-  /* C13d 修回归:这条原来写 .pd-top .b,被 C13f 站名规则(.pd .pd-top .b{display:flex})压死 →
-     手机上站名和标题挤一行。且设计稿口径是**只在有「← 标题」的二级页**让位
-     (.topin:has(.mtitle) .b{display:none}),首页/必读页手机上站名要留。 */
-  .pd .pd-topin:has(.pd-mtitle) .b { display: none; }
-  /* Option A(用户 2026-08-01 拍板):手机端二级页用「← 返回」+ 正文大标题打头,
-     不再把长中文标题挤进顶栏截断成「…」。撤回 C13d/style.css 那版「标题并进顶栏」口径,
-     回到设计稿 ep 原型的样子。.pd-mtitle 保留在 DOM(仅隐藏),让上面 :has(.pd-mtitle)
-     继续把站名(一级入口)在二级页藏掉。 */
-  .pd-back { display: inline; margin-left: 0; }
-  .pd-mtitle { display: none; }
-  /* 正文标题照常打头(撤掉 C13d 的隐藏)。字号照少数派文章标题 30px(2026-08-01 用户拍板),仍普惠体 */
+  /* 手机端二级页顶栏,分两类页处理(判据:详情页有播放条 .pd-play,大类页没有):
+     - 大类页:顶栏「← 大类名」(.pd-mtitle),藏站名 logo(二级页不放一级入口)。
+     - 详情页:2026-08-01 用户拍板「返回键位置放 logo」→ 站名 logo 显示、当返回首页入口;
+               「← 返回」与「标题进顶栏」都撤掉,标题回正文大号打头;金句块手机端不要。
+     ⚠️ Option A 曾把 .pd-mtitle 全局设 display:none,误伤大类页「← 大类名」;此处按页型分治修回。 */
+  .pd-back { display: none; }   /* 手机端不用「← 返回」文字键 */
+
+  /* 大类页(无播放条):显示「← 大类名」,藏 logo */
+  body:not(:has(.pd-play)) .pd .pd-topin:has(.pd-mtitle) .b { display: none; }
+  body:not(:has(.pd-play)) .pd-mtitle {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+    font-family: var(--puhui);
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--B8);
+    letter-spacing: 0.2px;
+  }
+  body:not(:has(.pd-play)) .pd-mtitle span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  body:not(:has(.pd-play)) .pd-mtitle:hover { color: var(--pd-accent); }
+
+  /* 详情页(有播放条):logo 显示当返回入口 / mtitle 藏 / 金句藏 / 标题回正文 30px(少数派档,仍普惠体) */
+  body:has(.pd-play) .pd-mtitle { display: none; }
+  body:has(.pd-play) .pd-hook { display: none; }
   body:has(.pd-play) article h1 { display: block; font-size: 30px; line-height: 1.25; margin: 6px 0 14px; }
 }
 
