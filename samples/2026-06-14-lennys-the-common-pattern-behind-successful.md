@@ -164,9 +164,9 @@ Mark 对当前分发(获取用户的渠道)的困境很清醒:AI 还不是一个
 
 **顺着「产品方法」挖下去**
 
+- [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]] —— 同嘉宾:Lenny · 同公司:Claude · 同概念:产品市场契合度 (product market fit)、微管理 (micromanagement)
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同嘉宾:Lenny · 同公司:OpenAI · 同概念:智能体 (agent)
 - [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]] —— 同嘉宾:Lenny · 同概念:智能体 (agent)
-- [[2026-04-26-lennys-snapchat-ceo-why-distribution-is|Snap CEO Evan Spiegel：做硬件、当瓶颈，产品护城河究竟在哪]] —— 同嘉宾:Lenny · 同概念:消费者分发 (distribution)
 
 </div>
 <div class="pd-ex">

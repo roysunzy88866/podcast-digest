@@ -34,7 +34,7 @@ unlisted: true
 
 [[智能体]] · [[主观能动性]] · [[Garry Tan]] · [[Sam Altman]] · [[Alexandr Wang]] · [[技能文件]] · [[初创公司]] · [[Scale]] · [[上下文工程]] · [[AGI]]
 
-<script type="application/json" class="pd-epn">{"智能体":49,"主观能动性":7,"Garry Tan":1,"Sam Altman":1,"Alexandr Wang":1,"技能文件":1,"初创公司":1,"Scale":1,"上下文工程":2,"AGI":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":50,"主观能动性":7,"Garry Tan":1,"Sam Altman":1,"Alexandr Wang":1,"技能文件":1,"初创公司":1,"Scale":1,"上下文工程":2,"AGI":6}</script>
 
 <script>
 (function(){

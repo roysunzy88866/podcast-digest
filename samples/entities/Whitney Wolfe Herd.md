@@ -43,7 +43,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel McKinnon]] [[Dianne Penn]] [[Adam Mosseri]] [[Eddie Kim]] [[Jiaona Zhang]] [[Mark Pincus]] [[Tony Fadell]] [[Max Schoening]] [[Evan Spiegel]] [[Kat Wu]]
+[[Ruby Thelot]] [[Sophia Puccini]] [[Sophia Du]] [[Tom Verrilli]] [[Daniel McKinnon]] [[Dianne Penn]] [[Adam Mosseri]] [[Eddie Kim]] [[Jiaona Zhang]] [[Mark Pincus]]
 
 </div>
 

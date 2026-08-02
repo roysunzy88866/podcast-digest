@@ -51,17 +51,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[instagram]] · [[TikTok]] · [[Anthropic]] · [[open ai]] · [[reels]] · [[pods]] · [[产品人员]] · [[news feed]] · [[嵌入模型]]
+[[Lenny]] · [[instagram]] · [[TikTok]] · [[Anthropic]] · [[open ai]] · [[Twitter]] · [[reels]] · [[pods]] · [[产品人员]] · [[news feed]]
 
 ## ④ 也在聊「组织与领导力」的人
 
 <div class="pd-peers">
 
-[[Blake Scholl]] [[Elizabeth Stone]] [[Fiona Fung]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Keith Rabois]] [[Jeetu Patel]] [[Dr. Becky Kennedy]] [[Matt MacInnis]]
+[[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Fiona Fung]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Keith Rabois]] [[Jeetu Patel]] [[Dr. Becky Kennedy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"instagram":1,"TikTok":1,"Anthropic":30,"open ai":2,"reels":1,"pods":1,"产品人员":1,"news feed":1,"嵌入模型":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":33,"instagram":1,"TikTok":1,"Anthropic":31,"open ai":2,"Twitter":4,"reels":1,"pods":1,"产品人员":1,"news feed":1}</script>
 
 <script>
 (function(){

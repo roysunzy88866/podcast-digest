@@ -1,0 +1,27 @@
+{
+  "id": "2026-08-02-a16z-ruby-thelot-on-internet-culture-ai-and-t",
+  "audio_mp3": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/03b39caa-2d5d-4ade-815f-7d9df9231c3f/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=03b39caa-2d5d-4ade-815f-7d9df9231c3f&feed=JGE3yC0V",
+  "duration_sec": 2048.557,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 493,
+  "asr": true,
+  "title_en": "Ruby Thelot on Internet Culture, AI, and the Future of Taste",
+  "podcast": "The a16z Show",
+  "date": "2026-08-02",
+  "speaker_map": {
+    "SPEAKER_01": "Ruby Thelot",
+    "SPEAKER_02": "Sophia Puccini",
+    "SPEAKER_03": "Sophia Du"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Ruby Thelot",
+  "cohosts": [
+    "Sophia Puccini",
+    "Sophia Du"
+  ],
+  "title_zh": "网络民族志学家 Ruby Thurlow 谈算法时代的「机械品味」与数字部落",
+  "guest_name": "Ruby Thelot",
+  "guest_title": "纽约大学教授",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=spliced"
+}

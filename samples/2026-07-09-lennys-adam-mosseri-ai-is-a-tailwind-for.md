@@ -140,6 +140,7 @@ Adam 也分享了自己处理漫天仇恨的方法:换位思考。当年 25 岁�
 
 **顺着「组织与领导力」挖下去**
 
+- [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]] —— 同公司:anthropic、twitter
 - [[2026-05-10-lennys-how-to-build-a-company-that-withstands|为什么好公司会变坏：Eric Ries 的防腐架构学]] —— 同公司:anthropic
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]] —— 同公司:anthropic
 

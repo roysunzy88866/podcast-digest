@@ -31,9 +31,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Zico Kolter]] · [[Matt Fredrikson]] · [[Gray Swan]] · [[Snowflake]] · [[Anthropic]] · [[智能体]] · [[红队测试]] · [[提示词注入]] · [[越狱]] · [[护栏]]
+[[Zico Kolter]] · [[Matt Fredrikson]] · [[Gray Swan]] · [[Snowflake]] · [[Anthropic]] · [[Twitter]] · [[智能体]] · [[红队测试]] · [[提示词注入]] · [[越狱]]
 
-<script type="application/json" class="pd-epn">{"Zico Kolter":1,"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":2,"Anthropic":30,"智能体":49,"红队测试":2,"提示词注入":4,"越狱":1,"护栏":8}</script>
+<script type="application/json" class="pd-epn">{"Zico Kolter":1,"Matt Fredrikson":1,"Gray Swan":1,"Snowflake":2,"Anthropic":31,"Twitter":4,"智能体":50,"红队测试":2,"提示词注入":4,"越狱":1}</script>
 
 <script>
 (function(){

@@ -101,7 +101,7 @@ tags:
 
 - [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]] —— 同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:研究预览版 (research preview)
 - [[2026-07-26-lennys-anthropics-first-technical-pm-on|Anthropic 产品负责人:评估是新的 PRD,不反驳你的 AI 才是好 AI]] —— 同嘉宾:Lenny · 同公司:Anthropic、Claude Code · 同概念:Claude
-- [[2026-05-03-lennys-why-cultivating-agency-matters-more|别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味]] —— 同嘉宾:Lenny · 同公司:Figma、Anthropic
+- [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:Claude、IC
 
 </div>
 <div class="pd-ex">

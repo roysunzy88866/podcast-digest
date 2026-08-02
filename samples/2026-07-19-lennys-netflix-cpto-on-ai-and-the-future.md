@@ -130,6 +130,7 @@ Netflix 也提醒大家,它在 AI 和机器学习(ML)上的积累不是从 GenAI
 
 **顺着「组织与领导力」挖下去**
 
+- [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]] —— 同概念:系统思维 (systems thinking)
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言]] —— 同概念:护栏 (guardrails)
 
 </div>

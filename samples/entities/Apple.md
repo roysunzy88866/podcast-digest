@@ -33,7 +33,7 @@ unlisted: true
 
 [[Lenny]] · [[OpenAI]] · [[Anthropic]] · [[Google]] · [[智能体]] · [[Meta]] · [[Microsoft]] · [[Matt MacInnis]] · [[Benedict Evans]] · [[Tony Fadell]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"OpenAI":25,"Anthropic":30,"Google":11,"智能体":49,"Meta":9,"Microsoft":6,"Matt MacInnis":1,"Benedict Evans":1,"Tony Fadell":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":33,"OpenAI":25,"Anthropic":31,"Google":11,"智能体":50,"Meta":9,"Microsoft":6,"Matt MacInnis":1,"Benedict Evans":1,"Tony Fadell":1}</script>
 
 <script>
 (function(){

@@ -1,0 +1,551 @@
+{
+  "episode_id": "2026-08-02-a16z-ruby-thelot-on-internet-culture-ai-and-t",
+  "podcast": "The a16z Show",
+  "date": "2026-08-02",
+  "tags": [
+    "网络民族志学",
+    "响亮的少数派",
+    "巴尔干化",
+    "机械品味",
+    "生存风险"
+  ],
+  "categories": [
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "ruby-thelot",
+      "type": "person",
+      "role": "host",
+      "name": "Ruby Thelot",
+      "file": "Ruby Thelot",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "sophia-puccini",
+      "type": "person",
+      "role": "cohost",
+      "name": "Sophia Puccini",
+      "file": "Sophia Puccini",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            52.206,
+            68.587
+          ],
+          "quote": "MTS hosts Sophia Du and Sophia Puccini are joined by designer, cyber ethnographer, and NYU professor Ruby J. Tillow to discuss digital communities, online identity, taste, and what it means to live alongside rapidly evolving technology.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sophia-du",
+      "type": "person",
+      "role": "cohost",
+      "name": "Sophia Du",
+      "file": "Sophia Du",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            52.206,
+            68.587
+          ],
+          "quote": "MTS hosts Sophia Du and Sophia Puccini are joined by designer, cyber ethnographer, and NYU professor Ruby J. Tillow to discuss digital communities, online identity, taste, and what it means to live alongside rapidly evolving technology.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cyber-ethnography",
+      "type": "concept",
+      "role": "concept",
+      "name": "网络民族志学 (cyber ethnography)",
+      "file": "网络民族志学",
+      "primary": true,
+      "how_described": "本集说它是研究在线人群行为以及他们做什么的领域；嘉宾称自己为网络民族志学家，用定量分析与大量访谈来研究人们如何使用技术。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 36,
+          "t": [
+            176.367,
+            180.491
+          ],
+          "quote": "What's interesting here is that cyber ethnography is not something that's necessarily new.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "loud-minority",
+      "type": "concept",
+      "role": "concept",
+      "name": "响亮的少数派 (loud minority)",
+      "file": "响亮的少数派",
+      "primary": true,
+      "how_described": "本集说它是网络内容中的现象：特定的群体（如记者）被自身算法集中轰炸了某些极端内容，从而误把微小圈层的趋势当成全美普遍现象。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 86,
+          "t": [
+            393.424,
+            398.448
+          ],
+          "quote": "So there is like a sort of loud minority phenomenon happening with content.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 88,
+          "t": [
+            406.635,
+            412.02
+          ],
+          "quote": "And it's not only the loud minority, it's also the people who write about them have specific algorithms.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "pluriculture",
+      "type": "concept",
+      "role": "concept",
+      "name": "多元文化 (pluriculture)",
+      "file": "多元文化",
+      "primary": true,
+      "how_described": "本集说它是指当前的互联网时代：过去大家共享几大频道，现在则存在许多非常强大、活跃但有时彼此隔离的文化震中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 111,
+          "t": [
+            504.633,
+            508.215
+          ],
+          "quote": "Yeah, we're definitely in a period of what I would call a pluriculture, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 113,
+          "t": [
+            513.277,
+            524.422
+          ],
+          "quote": "Now, we are in a pluriculture where there's very strong, very generative, very active cultural epicenters that are kind of sometimes touching each other, sometimes far away from each other.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "balkanization",
+      "type": "concept",
+      "role": "concept",
+      "name": "巴尔干化 (Balkanization)",
+      "file": "巴尔干化",
+      "primary": true,
+      "how_described": "本集说它是指原本统一的单一文化分裂成了一个个细小的数字飞地，人们在孤立的数字岛上发展出自己独有的行话。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            549.573,
+            559.337
+          ],
+          "quote": "And so I think what's very important for me and you know, my friend Ru Yi and I worked on this on this paper called The Balkanization and Babalification of the Internet.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 120,
+          "t": [
+            560.437,
+            561.778
+          ],
+          "quote": "So the Balkanization is this",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "machinic-taste",
+      "type": "concept",
+      "role": "concept",
+      "name": "机械品味 (machinic taste)",
+      "file": "机械品味",
+      "primary": true,
+      "how_described": "本集说它是指当互联网受众变成一半人一半机器人时，产生的一种机器、算法与人类受众之间互动所塑造出的智能体对智能体连接的美学偏好。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 151,
+          "t": [
+            723.886,
+            730.593
+          ],
+          "quote": "So I have an essay that came out recently called Machinic Taste for the Random Art, where I kind of talk about this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            822.075,
+            824.518
+          ],
+          "quote": "And suddenly what we'll see is what I call machinic taste.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "audience-capture",
+      "type": "concept",
+      "role": "concept",
+      "name": "受众捕获 (audience capture)",
+      "file": "受众捕获",
+      "primary": true,
+      "how_described": "本集说它是指创作者在发展出受众后，其内容会被受众反向塑造：看到某种做法奏效时就会不断去迎合，此外当前还叠加了算法捕获和智能体捕获。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 160,
+          "t": [
+            758.203,
+            761.466
+          ],
+          "quote": "The concept of audience capture I get from my dear friend Matt Klein.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            762.327,
+            784.302
+          ],
+          "quote": "was the head of insights at reddit the thing that's happening now is that not only is there audience capture but to get to your audience there's also a gatekeeper which is the algorithm yeah that's why mr beast looks like that on every single video with the big text right and even our beloved tech tech podcasters also kind of do the same kind of mr b space in order to get views and so you have audience capture you have algorithmic capture",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "taste",
+      "type": "concept",
+      "role": "concept",
+      "name": "品味 (taste)",
+      "file": "品味",
+      "primary": true,
+      "how_described": "本集把它说成不只是审美偏好，而是一种让人能够「有德行地消费」的自我约束机制；诞生于17世纪英国财富泛滥期，在今天用于处理智能与内容的过度丰盛以避免社会堕落。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            52.206,
+            68.587
+          ],
+          "quote": "MTS hosts Sophia Du and Sophia Puccini are joined by designer, cyber ethnographer, and NYU professor Ruby J. Tillow to discuss digital communities, online identity, taste, and what it means to live alongside rapidly evolving technology.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 151,
+          "t": [
+            723.886,
+            730.593
+          ],
+          "quote": "So I have an essay that came out recently called Machinic Taste for the Random Art, where I kind of talk about this.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            822.075,
+            824.518
+          ],
+          "quote": "And suddenly what we'll see is what I call machinic taste.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1006.195,
+            1013.742
+          ],
+          "quote": "So you're almost designing your own human judgment, your own human taste based off of what these algorithms are probably going to be promoting.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1014.102,
+            1019.204
+          ],
+          "quote": "I am also curious to get your takes on what taste even means.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1022.365,
+            1029.687
+          ],
+          "quote": "Even I personally, it's like, okay, everyone's like, oh, taste is the only moat in the AI age and all of these conversations about it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 222,
+          "t": [
+            1050.678,
+            1056.003
+          ],
+          "quote": "So I wrote a book called A Few Essays on Taste where the first essay is called A Brief History of Taste.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1056.704,
+            1061.729
+          ],
+          "quote": "And I make the case that taste is not just aesthetic preference.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1062.15,
+            1066.033
+          ],
+          "quote": "Taste is a way for people to consume virtuously.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1067.215,
+            1068.096
+          ],
+          "quote": "The question of taste...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1127.567,
+            1134.932
+          ],
+          "quote": "And so it is in the vacuum, in the reduction of the cultural power of the previous nobility that the question of taste emerges.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 240,
+          "t": [
+            1158.694,
+            1160.575
+          ],
+          "quote": "And that is why the question of taste is emerging.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1185.197,
+            1189.039
+          ],
+          "quote": "He says, taste is harmony with nature, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1195.043,
+            1200.847
+          ],
+          "quote": "Taste, the decisions must be in line with what, you know, unity, harmony.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1200.947,
+            1202.969
+          ],
+          "quote": "And that is his perspective on taste.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1231.368,
+            1236.67
+          ],
+          "quote": "Good taste means I can't be fit into this little box that the algorithm is designed for this.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 259,
+          "t": [
+            1236.81,
+            1248.675
+          ],
+          "quote": "And it's almost when people say the importance of taste, it's not just about having a preference or it's not just about the aesthetics of it, but it's this bigger mission of how do you actually become ungovernable?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1258.799,
+            1265.481
+          ],
+          "quote": "How do you think, how else do you think taste manifests beyond just like aesthetic preference in the digital age?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1283.965,
+            1288.567
+          ],
+          "quote": "in SF when people talk about like taste and also problems to find, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1308.234,
+            1309.655
+          ],
+          "quote": "That is the purpose and the function of taste.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "existential-risk",
+      "type": "concept",
+      "role": "concept",
+      "name": "生存风险 (existential risk)",
+      "file": "生存风险",
+      "primary": true,
+      "how_described": "本集说普通人其实并不太关心所谓的生存风险（如 AI 导致的人类灭绝），他们最在意、最担心的实在问题是自己会不会失业。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 387,
+          "t": [
+            1696.417,
+            1703.262
+          ],
+          "quote": "So it's more of the threat to employment you think that is just like... Yeah, I don't think your average person cares about existential risk, frankly.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "algorithm",
+      "type": "concept",
+      "role": "concept",
+      "name": "算法 (algorithm)",
+      "file": "算法",
+      "primary": true,
+      "how_described": "本集说它作为创作者触达受众的守门人，捕获了人们的偏好，且切割人群进小部落能让它更容易识别人们并向其精准营销。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            439.145,
+            443.906
+          ],
+          "quote": "How do you determine what might just be a bias that's on your algorithm or on a different journalist's algorithm?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 148,
+          "t": [
+            691.772,
+            701.335
+          ],
+          "quote": "And it also makes the job of the algorithm easier because the title, the name, the nomenclature makes it more legible to the algorithm.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 161,
+          "t": [
+            762.327,
+            784.302
+          ],
+          "quote": "was the head of insights at reddit the thing that's happening now is that not only is there audience capture but to get to your audience there's also a gatekeeper which is the algorithm yeah that's why mr beast looks like that on every single video with the big text right and even our beloved tech tech podcasters also kind of do the same kind of mr b space in order to get views and so you have audience capture you have algorithmic capture",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 164,
+          "t": [
+            798.516,
+            803.902
+          ],
+          "quote": "And so there's this waltz, this three-legged waltz between machine, algorithm, and",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1231.368,
+            1236.67
+          ],
+          "quote": "Good taste means I can't be fit into this little box that the algorithm is designed for this.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "bot",
+      "type": "concept",
+      "role": "concept",
+      "name": "机器人 (bot)",
+      "file": "机器人",
+      "primary": true,
+      "how_described": "本集指出 Cloudflare 数据显示约 50% 的互联网流量已是机器人，预测未来可能只有机器人在制造和消费内容，重塑了网络互动结构。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 162,
+          "t": [
+            785.342,
+            792.89
+          ],
+          "quote": "And now when your audience is now 50% bot, 50% human, we suddenly see machinic or agentic capture happening too.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集探讨了智能体是否会拥有自己的亚文化和多样化的美学偏好，并提到随着其数量增加，可能会出现由智能体参与的审美倾向。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 168,
+          "t": [
+            827.381,
+            832.266
+          ],
+          "quote": "What are the aesthetic preferences of an agent to agent connection?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

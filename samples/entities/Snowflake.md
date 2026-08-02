@@ -25,9 +25,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Zico Kolter]] · [[Matei Zaharia]] · [[Matt Fredrikson]] · [[Reynold Xin]] · [[Gray Swan]] · [[Databricks]] · [[Anthropic]] · [[MosaicML]] · [[红队测试]]
+[[智能体]] · [[Zico Kolter]] · [[Matei Zaharia]] · [[Matt Fredrikson]] · [[Reynold Xin]] · [[Gray Swan]] · [[Databricks]] · [[Anthropic]] · [[MosaicML]] · [[Twitter]]
 
-<script type="application/json" class="pd-epn">{"智能体":49,"Zico Kolter":1,"Matei Zaharia":1,"Matt Fredrikson":1,"Reynold Xin":1,"Gray Swan":1,"Databricks":1,"Anthropic":30,"MosaicML":1,"红队测试":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":50,"Zico Kolter":1,"Matei Zaharia":1,"Matt Fredrikson":1,"Reynold Xin":1,"Gray Swan":1,"Databricks":1,"Anthropic":31,"MosaicML":1,"Twitter":4}</script>
 
 <script>
 (function(){

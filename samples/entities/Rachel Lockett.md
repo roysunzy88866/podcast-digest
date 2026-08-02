@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Fiona Fung]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Keith Rabois]] [[Jeetu Patel]] [[Dr. Becky Kennedy]]
+[[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Fiona Fung]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Keith Rabois]] [[Jeetu Patel]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"辅导":1,"GROW 模型":1,"积极倾听":1,"非暴力沟通":1,"职业倦怠":2,"联合创始人":2,"一页纸计划":1,"Stripe":10}</script>
+<script type="application/json" class="pd-epn">{"Lenny":33,"辅导":1,"GROW 模型":1,"积极倾听":1,"非暴力沟通":1,"职业倦怠":2,"联合创始人":2,"一页纸计划":1,"Stripe":10}</script>
 
 <script>
 (function(){

@@ -7,29 +7,31 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>IC</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="IC">IC</div><div class="pi"><h1 class="pt">IC</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="IC">IC</div><div class="pi"><h1 class="pt">IC</h1><div class="byl">概念</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]]**(18:50起):本集把它说成：独立贡献者。管理者需要退回一线成为 IC，亲自体验工具剧变以掌握硬技能，未来理想的管理者必须是能给团队指明方向并能真刀真枪干活的人。
 - **[[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]]**(49:48起):Fiona 对新加入管理者的要求；即要求他们先以个人贡献者的身份深入代码和产品，建立内部体感后再承担带人的责任。
 - **[[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]]**(30:43起):本集指出现在每个人其实都兼具独立贡献者与管理者的属性,因为即便是一线 IC 现在实际上也是在管理智能体,而不是逐个字符地敲代码。
+- **[[2026-08-02-lennys-this-cpo-regrets-that-product-management|《让最资深的人回去写文档:Whatnot CPO 的 PM 新法则》]]**(01:18起):本集把它说成:不分资历深浅都应该亲自下场干的具体工作。Tom 认为将最资深的 A 级人员提拔去当纯粹管人的管理者,等于剥夺了他们的实战肌肉。在 Whatnot,连 CPO 自己都有 50% 时间在做 IC 工作(拉数据、查工单、写规格说明),这才是产生真实杠杆的方式。
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为概念
 - [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|《代码量暴涨8倍后，工程管理怎么办？》]] — 作为概念
 - [[2026-06-28-lennys-openai-codex-lead-on-the-new-shape|《当写代码变便宜,OpenAI Codex负责人说「品味」成了最贵的资源》]] — 作为概念(提及)
+- [[2026-08-02-lennys-this-cpo-regrets-that-product-management|《让最资深的人回去写文档:Whatnot CPO 的 PM 新法则》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[智能体]] · [[Anthropic]] · [[Claude Code]] · [[Slack]] · [[Jenny Wen]] · [[Fiona Fung]] · [[Andrew Ambrosino]] · [[Claude]] · [[Co-work]]
+[[Lenny]] · [[Anthropic]] · [[智能体]] · [[Claude]] · [[Claude Code]] · [[Slack]] · [[Jenny Wen]] · [[Fiona Fung]] · [[Andrew Ambrosino]] · [[Tom Verrilli]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"智能体":49,"Anthropic":30,"Claude Code":13,"Slack":11,"Jenny Wen":1,"Fiona Fung":1,"Andrew Ambrosino":1,"Claude":10,"Co-work":2}</script>
+<script type="application/json" class="pd-epn">{"Lenny":33,"Anthropic":31,"智能体":50,"Claude":11,"Claude Code":13,"Slack":11,"Jenny Wen":1,"Fiona Fung":1,"Andrew Ambrosino":1,"Tom Verrilli":1}</script>
 
 <script>
 (function(){

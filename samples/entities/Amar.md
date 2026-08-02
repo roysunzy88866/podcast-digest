@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Fiona Fung]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Keith Rabois]] [[Jeetu Patel]] [[Dr. Becky Kennedy]]
+[[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Fiona Fung]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Keith Rabois]] [[Jeetu Patel]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Matt MacInnis":1,"Lenny":32,"Rippling":1,"Notion":3,"Apple":5,"刻意人手不足":1,"Alpha 与 Beta":1,"产品市场契合度":3,"熵":1,"幂律分布":1}</script>
+<script type="application/json" class="pd-epn">{"Matt MacInnis":1,"Lenny":33,"Rippling":1,"Notion":3,"Apple":5,"刻意人手不足":1,"Alpha 与 Beta":1,"产品市场契合度":4,"熵":1,"幂律分布":1}</script>
 
 <script>
 (function(){

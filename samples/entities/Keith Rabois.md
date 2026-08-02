@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Fiona Fung]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Jeetu Patel]] [[Dr. Becky Kennedy]] [[Matt MacInnis]]
+[[Tom Verrilli]] [[Blake Scholl]] [[Elizabeth Stone]] [[Adam Mosseri]] [[Fiona Fung]] [[Condi Rice]] [[Jensen Huang]] [[Eric Ries]] [[Jeetu Patel]] [[Dr. Becky Kennedy]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"PayPal":1,"Square":1,"Faire":1,"Ramp":3,"Airbnb":4,"桶和弹药":1,"人才密度":2,"PM":2,"商业头脑":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":33,"PayPal":1,"Square":1,"Faire":1,"Ramp":3,"Airbnb":4,"桶和弹药":1,"人才密度":2,"PM":3,"商业头脑":1}</script>
 
 <script>
 (function(){

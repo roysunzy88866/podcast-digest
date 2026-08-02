@@ -82,6 +82,7 @@ Fiona 是一位有 25 年经验的资深工程领导者。在加入 Anthropic �
 
 **顺着「组织与领导力」挖下去**
 
+- [[2026-08-02-lennys-this-cpo-regrets-that-product-management|让最资深的人回去写文档:Whatnot CPO 的 PM 新法则]] —— 同公司:Anthropic · 同概念:IC
 - [[2026-05-10-lennys-how-to-build-a-company-that-withstands|为什么好公司会变坏：Eric Ries 的防腐架构学]] —— 同公司:Anthropic
 - [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来]] —— 同公司:Anthropic
 

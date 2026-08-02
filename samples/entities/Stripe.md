@@ -43,7 +43,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Lenny]] · [[Replit]] · [[Anthropic]] · [[LLM]] · [[ChatGPT]] · [[Rachel Lockett]] · [[Jeanne DeWitt Grosser]] · [[Lenny Rachitsky]]
 
-<script type="application/json" class="pd-epn">{"智能体":49,"OpenAI":25,"Lenny":32,"Replit":4,"Anthropic":30,"LLM":4,"ChatGPT":11,"Rachel Lockett":1,"Jeanne DeWitt Grosser":1,"Lenny Rachitsky":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":50,"OpenAI":25,"Lenny":33,"Replit":4,"Anthropic":31,"LLM":4,"ChatGPT":11,"Rachel Lockett":1,"Jeanne DeWitt Grosser":1,"Lenny Rachitsky":1}</script>
 
 <script>
 (function(){

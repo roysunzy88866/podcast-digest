@@ -159,7 +159,7 @@ unlisted: true
 
 [[Lenny]] · [[Whitney Wolfe Herd]] · [[Nikhyl Singhal]] · [[Bumble]] · [[产品经理]] · [[滑动]] · [[构建者]] · [[AI 助手]] · [[信息搬运工]] · [[推荐引擎]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Whitney Wolfe Herd":1,"Nikhyl Singhal":1,"Bumble":1,"产品经理":2,"滑动":1,"构建者":1,"AI 助手":1,"信息搬运工":1,"推荐引擎":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":33,"Whitney Wolfe Herd":1,"Nikhyl Singhal":1,"Bumble":1,"产品经理":2,"滑动":1,"构建者":1,"AI 助手":1,"信息搬运工":1,"推荐引擎":1}</script>
 
 <script>
 (function(){

@@ -20,9 +20,9 @@ aliases: ["tiktok", "tik tok"]
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Adam Mosseri]] · [[instagram]] · [[Anthropic]] · [[open ai]] · [[reels]] · [[pods]] · [[产品人员]] · [[news feed]] · [[嵌入模型]]
+[[Lenny]] · [[Adam Mosseri]] · [[instagram]] · [[Anthropic]] · [[open ai]] · [[Twitter]] · [[reels]] · [[pods]] · [[产品人员]] · [[news feed]]
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Adam Mosseri":1,"instagram":1,"Anthropic":30,"open ai":2,"reels":1,"pods":1,"产品人员":1,"news feed":1,"嵌入模型":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":33,"Adam Mosseri":1,"instagram":1,"Anthropic":31,"open ai":2,"Twitter":4,"reels":1,"pods":1,"产品人员":1,"news feed":1}</script>
 
 <script>
 (function(){

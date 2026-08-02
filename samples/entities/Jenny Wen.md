@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Daniel McKinnon]] [[Dianne Penn]] [[Adam Mosseri]] [[Whitney Wolfe Herd]] [[Eddie Kim]] [[Jiaona Zhang]] [[Mark Pincus]] [[Tony Fadell]] [[Max Schoening]] [[Evan Spiegel]]
+[[Ruby Thelot]] [[Sophia Puccini]] [[Sophia Du]] [[Tom Verrilli]] [[Daniel McKinnon]] [[Dianne Penn]] [[Adam Mosseri]] [[Whitney Wolfe Herd]] [[Eddie Kim]] [[Jiaona Zhang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":32,"Anthropic":30,"Claude":10,"智能体":49,"Claude Cowork":1,"Claude Code":13,"Figma":3,"设计流程":1,"中期管理":1,"IC":3}</script>
+<script type="application/json" class="pd-epn">{"Lenny":33,"Anthropic":31,"Claude":11,"智能体":50,"Claude Cowork":1,"Claude Code":13,"Figma":3,"设计流程":1,"中期管理":1,"IC":4}</script>
 
 <script>
 (function(){

@@ -25,9 +25,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[Lenny]] · [[Alex Finn]] · [[Adam Mosseri]] · [[系统提示词]] · [[instagram]] · [[gpt 5.6]] · [[TikTok]] · [[Fable]] · [[reels]]
+[[Anthropic]] · [[Lenny]] · [[Alex Finn]] · [[Adam Mosseri]] · [[系统提示词]] · [[instagram]] · [[gpt 5.6]] · [[TikTok]] · [[Fable]] · [[Twitter]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":30,"Lenny":32,"Alex Finn":1,"Adam Mosseri":1,"系统提示词":3,"instagram":1,"gpt 5.6":1,"TikTok":1,"Fable":3,"reels":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":31,"Lenny":33,"Alex Finn":1,"Adam Mosseri":1,"系统提示词":3,"instagram":1,"gpt 5.6":1,"TikTok":1,"Fable":3,"Twitter":4}</script>
 
 <script>
 (function(){
