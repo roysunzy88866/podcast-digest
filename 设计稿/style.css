@@ -279,6 +279,14 @@ blockquote{margin:0 0 17px;padding:11px 16px;background:#f8f7f4;border-left:2px 
   .shell.det ~ .mdrop,.mdrop:has(~ .shell.det){display:none}
   .mid{padding-top:14px}
 
+  /* ── sspai 阅读排版对齐(2026-08-01 用户拍板「详情页阅读区照少数派」;仅手机端)──
+     数值实读自 sspai post.css:正文 15/1.8、H2 24/1.4、大标题 30/1.25、段距与侧边距统一 24px。
+     字体不动——标题仍用普惠体(用户明选保留;少数派用的其实就是系统苹方,我们正文本就同款)。 */
+  .mid{padding-left:24px;padding-right:24px}
+  h1.pt{font-size:30px;line-height:1.25;margin:6px 0 14px}
+  .mid p{font-size:15px;line-height:1.8;margin:0 0 24px}
+  .mid h2{font-size:24px;line-height:1.4;margin:34px 0 16px}
+
   /* ── 吸顶折叠目录 ── */
   .mtoc{display:block;position:sticky;top:var(--stick,78px);z-index:20;background:var(--B0);
         margin:26px -16px 6px;padding:0 16px;
