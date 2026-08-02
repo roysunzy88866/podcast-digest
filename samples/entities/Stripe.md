@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Stripe</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>9</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Stripe">ST</div><div class="pi"><h1 class="pt">Stripe</h1><div class="byl">公司</div><div class="nums">本站收录 <b>10</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -20,10 +20,11 @@ unlisted: true
 - **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]]**(28:36起):本集把它说成:Replit 在去年第四季度集成上线的支付平台,用来赋能用户对自己做的应用直接收费变现。
 - **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]]**(18:51起):本集提到：Sam Altman 曾在 22 岁时作为早期投资人帮助过这家支付公司，并因此在多年后结识了日后共创 OpenAI 的 Greg Brockman。
 - **[[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱》]]**(23:34起):本集多次作为对比案例提及，一是将其无摩擦的极简自助结账流程作为交付最后一公里的标杆；二是讨论拥有客户分销渠道的重要性。
+- **[[2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at|《加密行业已大到无法忽视:两位 a16z 合伙人谈为什么亟需立法》]]**(10:32起):本集把它列为在《天才法案》带来监管清晰度后，敢于大举进入稳定币等加密市场的、最具创新性的金融科技公司代表。
 
 ## ② 出现在这些集
 
-*9 集*
+*10 集*
 
 - [[2025-11-23-lennys-a-guide-to-difficult-conversations|《别再当「答案机器」：高管教练Rachel Lockett的领导力实操课》]] — 作为被讨论公司(提及)
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]] — 作为被讨论公司
@@ -34,6 +35,7 @@ unlisted: true
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]] — 作为被讨论公司(提及)
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]] — 作为被讨论公司(提及)
 - [[2026-07-30-a16z-ai-for-americas-small-businesses-lassie|《AI 不抢工作，是找不到人：Lassie 如何用智能体接管小诊所的文书地狱》]] — 作为被讨论公司(提及)
+- [[2026-08-01-a16z-marc-andreessen-and-chris-dixon-whats-at|《加密行业已大到无法忽视:两位 a16z 合伙人谈为什么亟需立法》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
@@ -41,7 +43,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[Lenny]] · [[Replit]] · [[LLM]] · [[Rachel Lockett]] · [[Jeanne DeWitt Grosser]] · [[Lenny Rachitsky]] · [[Patrick Collison]] · [[Barney Hussey-Yeo]]
 
-<script type="application/json" class="pd-epn">{"智能体":48,"OpenAI":24,"Lenny":32,"Replit":4,"LLM":4,"Rachel Lockett":1,"Jeanne DeWitt Grosser":1,"Lenny Rachitsky":1,"Patrick Collison":1,"Barney Hussey-Yeo":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":49,"OpenAI":24,"Lenny":32,"Replit":4,"LLM":4,"Rachel Lockett":1,"Jeanne DeWitt Grosser":1,"Lenny Rachitsky":1,"Patrick Collison":1,"Barney Hussey-Yeo":1}</script>
 
 <script>
 (function(){
@@ -73,7 +75,8 @@ unlisted: true
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    ['.search','.readermode'].forEach(function(sel){ grab(sel,acts); });
+    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
+    ['.search'].forEach(function(sel){ grab(sel,acts); });
     // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
     // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
     var side=document.querySelector('.right.sidebar'), slot=null;

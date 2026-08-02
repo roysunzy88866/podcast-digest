@@ -4,10 +4,10 @@
   "date": "2026-08-01",
   "tags": [
     "AI 硬件",
+    "专用推理硬件",
+    "智能体",
     "上下文工程",
-    "多智能体",
-    "延迟与能耗",
-    "AI 创业"
+    "创业方法"
   ],
   "categories": [
     "智能体",
@@ -80,251 +80,59 @@
       ]
     },
     {
-      "id": "mapreduce",
+      "id": "agents",
       "type": "concept",
       "role": "concept",
-      "name": "MapReduce",
-      "file": "MapReduce",
-      "primary": true,
-      "how_described": "本集说它是 Jeff Dean 的经典思想实验成果:通过将并行化和可靠性机制下沉到底层库,让工程师只需关注简单的 map/reduce 抽象,就能在成百上千台机器上可靠地处理大规模计算。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 10,
-          "t": [
-            24.024,
-            29.611
-          ],
-          "quote": "So you built MapReduce, Bigtable, TensorFlow, the TPU, Gemini.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 363,
-          "t": [
-            2430.887,
-            2434.109
-          ],
-          "quote": "The origin of MapReduce is another good example.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 375,
-          "t": [
-            2525.031,
-            2528.112
-          ],
-          "quote": "So this thought experiment led you to create MapReduce.",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "tpu",
-      "type": "concept",
-      "role": "concept",
-      "name": "TPU",
-      "file": "TPU",
-      "primary": true,
-      "how_described": "本集说它是起源于餐巾纸数学的专用芯片:为了不让语音识别撑爆服务器机群,专门针对低精度密集线性代数打造,能效比当时的 CPU/GPU 高 30-80 倍,延迟低 20-30 倍。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 10,
-          "t": [
-            24.024,
-            29.611
-          ],
-          "quote": "So you built MapReduce, Bigtable, TensorFlow, the TPU, Gemini.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 65,
-          "t": [
-            400.616,
-            408.043
-          ],
-          "quote": "And instead, you basically built a custom ship and that was the origin story of the TPU.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 79,
-          "t": [
-            508.113,
-            512.176
-          ],
-          "quote": "Which is incredible what the foundation that TPU has become today.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 80,
-          "t": [
-            512.396,
-            521.022
-          ],
-          "quote": "No way you would have predicted that TPU would be so foundational now with transformer architecture, which was invented way later, before you actually invented the TPU.",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 81,
-          "t": [
-            521.745,
-            542.151
-          ],
-          "quote": "Yeah, I mean, that's sort of why we built a general purpose linear algebra system, which is what a TPU is really, because we knew ML algorithms were still evolving and you didn't want to over-specialize, but you wanted to specialize enough that you got the dramatic performance benefits of we could have very big multiplier units.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 87,
-          "t": [
-            565.543,
-            577.732
-          ],
-          "quote": "So actually, what's a good napkin math that everyone here who wants to be a future founder should run tonight to potentially build something as consequential as the TPU?",
-          "speaker": "SPEAKER_00"
-        },
-        {
-          "seg": 493,
-          "t": [
-            3308.454,
-            3322.506
-          ],
-          "quote": "I'm pretty sure someone in this room, or multiple people, will eventually build something as consequential as you've done with map reduce, TPU, distillation, et cetera, et cetera.",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "tensorflow",
-      "type": "concept",
-      "role": "concept",
-      "name": "TensorFlow",
-      "file": "TensorFlow",
-      "primary": false,
-      "how_described": "本集开场将其列为 Jeff Dean 亲手构建、奠定现代大规模计算基础的系统之一。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 10,
-          "t": [
-            24.024,
-            29.611
-          ],
-          "quote": "So you built MapReduce, Bigtable, TensorFlow, the TPU, Gemini.",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "alphafold",
-      "type": "concept",
-      "role": "concept",
-      "name": "AlphaFold",
-      "file": "AlphaFold",
-      "primary": true,
-      "how_described": "本集把它作为创业试金石案例:一个非常具体、高精度的蛋白质折叠专用模型,证明了利用专有数据在垂直科学领域训出利基模型的巨大价值。",
-      "source": "glm",
-      "evidence": [
-        {
-          "seg": 272,
-          "t": [
-            1830.857,
-            1840.696
-          ],
-          "quote": "Yeah, I mean, I think, like, if you look at my colleague's work on, say, AlphaFold, that was a very specific model for protein folding, and it was highly successful.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 279,
-          "t": [
-            1880.068,
-            1884.87
-          ],
-          "quote": "So if some of you find a problem that's similar shape like AlphaFold could be a good problem to work on.",
-          "speaker": "SPEAKER_00"
-        }
-      ]
-    },
-    {
-      "id": "agent",
-      "type": "concept",
-      "role": "concept",
-      "name": "智能体 (agent)",
+      "name": "智能体 (agents)",
       "file": "智能体",
       "primary": true,
-      "how_described": "本集反复讨论了智能体:它们能跑好几天解决复杂任务;但在脱离训练数据舒适区时会失控;可通过多智能体搜索和清晰规格说明来管理成百上千个智能体。",
+      "how_described": "本集把它说成：基于智能体的系统可以在某些问题上跑几天甚至几周，解决非常复杂的任务；但在多步操作（如 30-40 步后）容易因进入分布外地带而脱轨，需要用多智能体搜索来解决。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 17,
+          "seg": 55,
           "t": [
-            57.716,
-            73.609
+            332.234,
+            334.875
           ],
-          "quote": "Yeah, I mean, I feel like the models have been getting a lot better at sort of agent-based, longer-running coding tasks, and it seems pretty clear that they are now actually pretty capable, and depending on exactly your definition of junior engineer, it seems pretty spot-on, I would say.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 21,
-          "t": [
-            90.043,
-            97.164
-          ],
-          "quote": "And I also think outside of coding, these agent-based systems are really starting to shine in other domains.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 40,
-          "t": [
-            230.895,
-            239.063
-          ],
-          "quote": "Because I think everyone is now realizing that inference is the key to making these agent-based systems be available to more and more people.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 51,
-          "t": [
-            295.478,
-            316.265
-          ],
-          "quote": "Probably one thing is people don't quite realize how possible it is to have agent-based systems that can run not just for an hour or two hours on a problem you care about, but for some problem domains and with highly capable models underlying them, you can get them to run for days or weeks and do really, really complicated tasks.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 151,
-          "t": [
-            990.934,
-            995.557
-          ],
-          "quote": "It's everything around things like retrieval, tools, memory, agent tools.",
+          "quote": "What did you tell the agents to solve?",
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 161,
+          "seg": 56,
           "t": [
-            1077.842,
-            1085.347
+            335.396,
+            341.84
           ],
-          "quote": "You know, this is the whole, you know, orchestration of complex agent and multi-agent systems that I think has",
+          "quote": "Yeah, I mean, I think you can tell agents to go off and implement...",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 182,
+          "seg": 201,
           "t": [
-            1230.976,
-            1238.542
+            1334.018,
+            1335.038
           ],
-          "quote": "But then without an agent-based system, what you usually do is you measure what the current performance is on some benchmarks you care about.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 203,
-          "t": [
-            1339.819,
-            1345.2
-          ],
-          "quote": "And I'm sure everyone has seen your agent go off the rail at perhaps like step 30 or 40.",
+          "quote": "Now you talked about agents.",
           "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1345.98,
+            1351.005
+          ],
+          "quote": "Like agents are great for like up to step, I don't know, 10 or something, and then gets shaky at step 50.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1361.815,
+            1369.382
+          ],
+          "quote": "I mean, obviously we want agents to be able to run for very long periods of time because that's how they're going to solve more and more complicated problems.",
+          "speaker": "SPEAKER_01"
         },
         {
           "seg": 216,
@@ -336,66 +144,135 @@
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 219,
+          "seg": 220,
           "t": [
-            1452.986,
-            1468.12
+            1470.137,
+            1474.479
           ],
-          "quote": "And that's a very, very useful general technique is, you know, inference time compute to perform search over plausible ways of solving the problem that can get much, much higher performance or much more reliability in long running agent flows.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 287,
-          "t": [
-            1923.062,
-            1933.286
-          ],
-          "quote": "And the clearer you are on what it is you want, the more the agent will have sort of guidelines and sort of rules of, you know, an outline of what it is trying to accomplish.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 288,
-          "t": [
-            1934.831,
-            1939.856
-          ],
-          "quote": "Whereas if you don't specify very much stuff, the agent has to sort of infer what it is you meant.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 292,
-          "t": [
-            1956.451,
-            1972.258
-          ],
-          "quote": "And so now we actually have agent-based systems that can do the writing, but the importance of specifying what it is you want has actually gone up because before you'd be handing it off to a very intelligent human who maybe has context or can ask you follow-up questions.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 295,
-          "t": [
-            1982.644,
-            1993.832
-          ],
-          "quote": "a use of a coding agent that works extremely well is you can ask today's models to translate software from one computer language to another very effectively.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 313,
-          "t": [
-            2108.383,
-            2114.446
-          ],
-          "quote": "So let's talk a bit more about taste because it gets talked a lot about right now in this current era with agent decoding.",
+          "quote": "How are some ways you implemented this particular workflow for your agents internally?",
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 510,
+          "seg": 222,
           "t": [
-            3387.479,
-            3391.123
+            1483.644,
+            1493.709
           ],
-          "quote": "I think multi-agent interactions is an interesting thing.",
+          "quote": "We have skills so that the agents can know how to use lots of our internal tooling for coding or for code reviews or for measuring performance or...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1517.789,
+            1520.672
+          ],
+          "quote": "And that improves the usefulness of the agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1893.934,
+            1903.818
+          ],
+          "quote": "You in the past said that managing a fleet of agents, let's say 50 or 100 agents, is all about writing really good, crisp design docs or specs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1909.477,
+            1922.542
+          ],
+          "quote": "Yeah, I mean, I think it's, you'll have a lot more success when working with your virtual agents if you can clearly specify what it is you want.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1972.919,
+            1978.842
+          ],
+          "quote": "And agents can sometimes do that, but I think clear specifications is a really good idea.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 301,
+          "t": [
+            2032.337,
+            2038.782
+          ],
+          "quote": "Now, let's assume now every founder gets good at running hundreds of agents at the same time and all the code is written for them by the agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 304,
+          "t": [
+            2047.062,
+            2051.227
+          ],
+          "quote": "having incredibly good taste in what you ask your agents to work on, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-systems",
+      "type": "concept",
+      "role": "concept",
+      "name": "多智能体系统 (multi-agent systems)",
+      "file": "多智能体系统",
+      "primary": true,
+      "how_described": "本集把它说成：让多个智能体分头尝试不同方法，再用另一个模型当裁判评估哪些路径有前景，从而搜索可能的解决方案空间，是让长流程智能体保持靠谱的最强武器。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 161,
+          "t": [
+            1077.842,
+            1085.347
+          ],
+          "quote": "You know, this is the whole, you know, orchestration of complex agent and multi-agent systems that I think has",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1421.91,
+            1436.599
+          ],
+          "quote": "I think having multi-agent systems where you have multiple agents trying different approaches and you can evaluate, you have maybe another model or another agent that's evaluating which ones of those seem promising is another way to kind of",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference-hardware",
+      "type": "concept",
+      "role": "concept",
+      "name": "专用推理硬件 (inference hardware)",
+      "file": "专用推理硬件",
+      "primary": true,
+      "how_described": "本集把它说成：比 GPU/TPU 等通用设备更专门化、能效更高、延迟更低的定制芯片，是未来推理爆发的前夜；Jeff 想象如果能造出延迟好 50 倍的推理硬件，能解锁大量全新产品。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 39,
+          "t": [
+            224.629,
+            230.615
+          ],
+          "quote": "high performance and low energy inference hardware systems.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 503,
+          "t": [
+            3348.924,
+            3352.067
+          ],
+          "quote": "indication of that or much more efficient inference hardware.",
           "speaker": "SPEAKER_01"
         }
       ]
@@ -407,7 +284,7 @@
       "name": "推理 (inference)",
       "file": "推理",
       "primary": true,
-      "how_described": "本集说推理是让基于智能体的系统普及的关键,并指出相比于训练,极低延迟的推理对硬件专用化(如极低精度、最小化数据搬运)留下了巨大的创新空间。",
+      "how_described": "本集把它说成：与训练不同，推理对延迟极其敏感，追求极低延迟时大批次处理就不管用了，因为必须等凑齐一大批请求才能一起算。",
       "source": "glm",
       "evidence": [
         {
@@ -500,7 +377,7 @@
       "name": "上下文工程 (context engineering)",
       "file": "上下文工程",
       "primary": true,
-      "how_described": "本集说它是应用层的核心杠杆:通过给模型配备清晰的检索记录、工具指南和拆解好的任务大纲,信息比训练记忆更清晰,普通开发者借此即可让模型像资深工程师一样干活。",
+      "how_described": "本集把它说成：真正的系统不只是模型，而是由工具调用、检索、记忆和编排共同组成的；直接喂给模型的上下文比训练数据（千亿参数的模糊汤）更清晰；只要用 Gemini 的 API 谁都能做，不需要海量 GPU。",
       "source": "glm",
       "evidence": [
         {
@@ -542,116 +419,116 @@
       ]
     },
     {
-      "id": "multi-agent-systems",
+      "id": "tpu",
       "type": "concept",
       "role": "concept",
-      "name": "多智能体系统 (multi-agent systems)",
-      "file": "多智能体系统",
+      "name": "TPU",
+      "file": "TPU",
       "primary": true,
-      "how_described": "本集说它是防止智能体跑偏的通用技术:让多个智能体尝试不同路径,引入另一个模型做评估打分,果断丢弃不靠谱的方向,从而在长流程中获得极高可靠性。",
+      "how_described": "本集把它说成：2013 年 Jeff 做「算盘数学」算出 Google 语音识别扛不住 CPU 开销，于是造了极度专用于低精度密集线性代数的芯片，几年后能效比 CPU/GPU 高 30-80 倍、延迟低 20-30 倍。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 161,
+          "seg": 10,
           "t": [
-            1077.842,
-            1085.347
+            24.024,
+            29.611
           ],
-          "quote": "You know, this is the whole, you know, orchestration of complex agent and multi-agent systems that I think has",
+          "quote": "So you built MapReduce, Bigtable, TensorFlow, the TPU, Gemini.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            400.616,
+            408.043
+          ],
+          "quote": "And instead, you basically built a custom ship and that was the origin story of the TPU.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 79,
+          "t": [
+            508.113,
+            512.176
+          ],
+          "quote": "Which is incredible what the foundation that TPU has become today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            512.396,
+            521.022
+          ],
+          "quote": "No way you would have predicted that TPU would be so foundational now with transformer architecture, which was invented way later, before you actually invented the TPU.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 81,
+          "t": [
+            521.745,
+            542.151
+          ],
+          "quote": "Yeah, I mean, that's sort of why we built a general purpose linear algebra system, which is what a TPU is really, because we knew ML algorithms were still evolving and you didn't want to over-specialize, but you wanted to specialize enough that you got the dramatic performance benefits of we could have very big multiplier units.",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 216,
+          "seg": 87,
           "t": [
-            1421.91,
-            1436.599
+            565.543,
+            577.732
           ],
-          "quote": "I think having multi-agent systems where you have multiple agents trying different approaches and you can evaluate, you have maybe another model or another agent that's evaluating which ones of those seem promising is another way to kind of",
-          "speaker": "SPEAKER_01"
+          "quote": "So actually, what's a good napkin math that everyone here who wants to be a future founder should run tonight to potentially build something as consequential as the TPU?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 493,
+          "t": [
+            3308.454,
+            3322.506
+          ],
+          "quote": "I'm pretty sure someone in this room, or multiple people, will eventually build something as consequential as you've done with map reduce, TPU, distillation, et cetera, et cetera.",
+          "speaker": "SPEAKER_00"
         }
       ]
     },
     {
-      "id": "latency",
+      "id": "mapreduce",
       "type": "concept",
       "role": "concept",
-      "name": "延迟 (latency)",
-      "file": "延迟",
+      "name": "MapReduce",
+      "file": "MapReduce",
       "primary": true,
-      "how_described": "本集说延迟是智能体真正普及的瓶颈(没人喜欢干等回复),也是未来推理专用硬件和底层系统设计的核心优化目标。",
+      "how_described": "本集把它说成：Jeff 和 Sanjay 回想起函数式编程的训练，把容错、并行化这些脏活抽到底层库，让上层业务代码变干净，这是一个颠覆「理所当然」、成功处理超大规模计算的思想实验产物。",
       "source": "glm",
       "evidence": [
         {
-          "seg": 41,
+          "seg": 10,
           "t": [
-            240.644,
-            255.348
+            24.024,
+            29.611
           ],
-          "quote": "that latency is really important and that specialization of the hardware is a really key way you can make things that are more energy efficient and lower latency than more general purpose computational devices like, say, GPUs or TPUs.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 46,
-          "t": [
-            270.912,
-            276.274
-          ],
-          "quote": "Yeah, I mean, I think, well, imagine what you could do with something where the latency is, you know, 50x better.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 78,
-          "t": [
-            492.157,
-            507.2
-          ],
-          "quote": "And so that system produced a chip a couple of years later that was 30 to 80 times more energy efficient than CPUs and GPUs of the day, and also much, much lower latency, like 20 to 30x lower latency.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 94,
-          "t": [
-            627.447,
-            637.313
-          ],
-          "quote": "Now, for everyone here who doesn't know, years ago Jeff wrote a very famous list called the latency numbers every engineer should know.",
+          "quote": "So you built MapReduce, Bigtable, TensorFlow, the TPU, Gemini.",
           "speaker": "SPEAKER_00"
         },
         {
-          "seg": 120,
+          "seg": 363,
           "t": [
-            811.7,
-            817.344
+            2430.887,
+            2434.109
           ],
-          "quote": "And for really low latency, batching is not really very good.",
+          "quote": "The origin of MapReduce is another good example.",
           "speaker": "SPEAKER_01"
         },
         {
-          "seg": 132,
+          "seg": 375,
           "t": [
-            885.379,
-            891.321
+            2525.031,
+            2528.112
           ],
-          "quote": "So I think inference is a pretty interesting problem because you do want very low latency.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 133,
-          "t": [
-            892.141,
-            895.043
-          ],
-          "quote": "Training, you don't necessarily need incredibly low latency.",
-          "speaker": "SPEAKER_01"
-        },
-        {
-          "seg": 384,
-          "t": [
-            2570.879,
-            2587.192
-          ],
-          "quote": "And I think there are more and more problems that are now possible to implement where that whole loop of running, you know, not just a few experiments, but running many, many experiments, because you're able to automate that loop and make the latency of that loop extremely low.",
-          "speaker": "SPEAKER_01"
+          "quote": "So this thought experiment led you to create MapReduce.",
+          "speaker": "SPEAKER_00"
         }
       ]
     },
@@ -659,10 +536,10 @@
       "id": "distillation",
       "type": "concept",
       "role": "concept",
-      "name": "模型蒸馏 (distillation)",
-      "file": "模型蒸馏",
-      "primary": false,
-      "how_described": "本集把它描述为用大教师模型训练更小、更高效模型的技巧,该论文当年虽被 NeurIPS 拒稿,但如今已是业界制造高速度小模型(如 Gemini Flash)的基础操作。",
+      "name": "蒸馏 (distillation)",
+      "file": "蒸馏",
+      "primary": true,
+      "how_described": "本集把它说成：用大教师模型训练一个更小、计算成本更低、参数更少但能力极强的模型；Jeff 和 Hinton 2014 年的相关论文虽被 NeurIPS 以「不太可能有重大影响」拒稿，但后来成为 Gemini Flash 模型的技术基础。",
       "source": "glm",
       "evidence": [
         {
@@ -681,6 +558,222 @@
             3322.506
           ],
           "quote": "I'm pretty sure someone in this room, or multiple people, will eventually build something as consequential as you've done with map reduce, TPU, distillation, et cetera, et cetera.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "alphafold",
+      "type": "concept",
+      "role": "concept",
+      "name": "AlphaFold",
+      "file": "AlphaFold",
+      "primary": true,
+      "how_described": "本集把它说成：Google 同事为蛋白质折叠打造的极度精准的小众模型，是非通用模型的典范；Jeff 鼓励小团队在材料科学、芯片设计等硬核领域去训练类似的专用模型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 272,
+          "t": [
+            1830.857,
+            1840.696
+          ],
+          "quote": "Yeah, I mean, I think, like, if you look at my colleague's work on, say, AlphaFold, that was a very specific model for protein folding, and it was highly successful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1880.068,
+            1884.87
+          ],
+          "quote": "So if some of you find a problem that's similar shape like AlphaFold could be a good problem to work on.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "gemini",
+      "type": "concept",
+      "role": "concept",
+      "name": "Gemini",
+      "file": "Gemini",
+      "primary": true,
+      "how_described": "本集把它说成：Google 的超通用大模型，可以通过 API 供任何人做上下文工程；其 Flash 版本又快又轻量，正是得益于蒸馏技术。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            24.024,
+            29.611
+          ],
+          "quote": "So you built MapReduce, Bigtable, TensorFlow, the TPU, Gemini.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 166,
+          "t": [
+            1107.44,
+            1116.844
+          ],
+          "quote": "You just need the API to something like Gemini, and then work on your own setup for your own retrieval, your own tool calls, and et cetera, et cetera.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1555.811,
+            1567.458
+          ],
+          "quote": "Yeah, I mean, I think obviously Google and our Gemini models and our hardware infrastructure are really trying to build very general models that can do almost anything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2979.662,
+            2987.047
+          ],
+          "quote": "That's partly why our Flash models, for example, in Gemini are so capable relative to their size and speed.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集把它说成：Jeff 工作的地方，从处理器到产品全栈联合设计；大厂会继续造能干几乎任何事的超通用 Gemini 模型，这恰恰给两三人的小团队留下了做小众精准产品的机会。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            164.616,
+            169.037
+          ],
+          "quote": "Way back in 2001, Google Search used to run on hard drives.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 35,
+          "t": [
+            195.911,
+            199.854
+          ],
+          "quote": "And that was the thing that got Google to be so fast with Google searches.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 62,
+          "t": [
+            369.015,
+            388.106
+          ],
+          "quote": "So one of the stories about you is that back in 2013, when speech recognition started to work at Google, you did the napkin math, where if every Google user used their phone and talked to it and used the speech recognition system for just three minutes a day,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            389.166,
+            398.935
+          ],
+          "quote": "you found that the system requires a Google server, you would have to double the fleet, which would be really, really expensive just to do speech translation.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1208.005,
+            1219.669
+          ],
+          "quote": "And we have a microbenchmark library we've written at Google where you can write microbenchmarks of how long different kinds of operations take or how long does it take to populate this data structure or whatever.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 179,
+          "t": [
+            1220.249,
+            1225.233
+          ],
+          "quote": "And sometimes those data structures are used on millions of processes across Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 221,
+          "t": [
+            1475.62,
+            1483.604
+          ],
+          "quote": "Yeah, I mean, we have harnesses and then we have a whole set of skills, particularly in the internal Google development environment.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 224,
+          "t": [
+            1496.591,
+            1512.925
+          ],
+          "quote": "And those are just skills that you can add to make the base model more capable, even though it hasn't necessarily been trained on exactly the way that, you know, Google internal engineers would fetch log files from our, you know, proprietary system.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1536.138,
+            1543.424
+          ],
+          "quote": "So the thing about Google is you co-design everything on the system from the processors to the products.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1545.686,
+            1555.791
+          ],
+          "quote": "Which are the layers that someone like Google would keep building and compounding being better, and where does a two-, three-person team can still win?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1555.811,
+            1567.458
+          ],
+          "quote": "Yeah, I mean, I think obviously Google and our Gemini models and our hardware infrastructure are really trying to build very general models that can do almost anything.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 364,
+          "t": [
+            2435.289,
+            2444.154
+          ],
+          "quote": "We had worked, you know, Sanjay and myself and a number of other colleagues had worked on various iterations of the crawling and indexing system at Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2509.271,
+            2523.062
+          ],
+          "quote": "And so that became a hugely successful way of dealing with very large scale computations at Google in a robust and reliable way from that bot experiment of like, well, if we squint at it, could we find lots of problems that fit into this abstraction?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 451,
+          "t": [
+            3002.564,
+            3020.071
+          ],
+          "quote": "I think the fun thing is that when you joined Google as a 20-person startup back in 1999, if you were to take the young Jeff Dean from way back then to teletransport him to now, today, in this era with your skills.",
           "speaker": "SPEAKER_00"
         }
       ]

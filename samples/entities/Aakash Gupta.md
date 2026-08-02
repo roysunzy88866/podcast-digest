@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]]
+[[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":9,"Claude Code":13,"智能体":48,"对抗性智能体":1,"mcp":4,"知识库":2,"技能":3,"vibe coding":6,"红队测试":2}</script>
+<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":9,"Claude Code":13,"智能体":49,"对抗性智能体":1,"mcp":4,"知识库":2,"技能":3,"vibe coding":6,"红队测试":2}</script>
 
 <script>
 (function(){
@@ -61,7 +61,8 @@ unlisted: true
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    ['.search','.readermode'].forEach(function(sel){ grab(sel,acts); });
+    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
+    ['.search'].forEach(function(sel){ grab(sel,acts); });
     // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
     // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
     var side=document.querySelector('.right.sidebar'), slot=null;

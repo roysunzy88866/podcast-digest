@@ -31,7 +31,7 @@ unlisted: true
 
 [[Garry Tan]] · [[智能体]] · [[技能文件]] · [[上下文工程]] · [[公司大脑]] · [[RAG]] · [[Latent Space]] · [[确定性空间]] · [[工作记忆]] · [[Gbrain]]
 
-<script type="application/json" class="pd-epn">{"Garry Tan":1,"智能体":48,"技能文件":1,"上下文工程":1,"公司大脑":1,"RAG":1,"Latent Space":1,"确定性空间":1,"工作记忆":1,"Gbrain":1}</script>
+<script type="application/json" class="pd-epn">{"Garry Tan":1,"智能体":49,"技能文件":1,"上下文工程":2,"公司大脑":1,"RAG":1,"Latent Space":1,"确定性空间":1,"工作记忆":1,"Gbrain":1}</script>
 
 <script>
 (function(){
@@ -63,7 +63,8 @@ unlisted: true
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    ['.search','.readermode'].forEach(function(sel){ grab(sel,acts); });
+    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
+    ['.search'].forEach(function(sel){ grab(sel,acts); });
     // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
     // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
     var side=document.querySelector('.right.sidebar'), slot=null;

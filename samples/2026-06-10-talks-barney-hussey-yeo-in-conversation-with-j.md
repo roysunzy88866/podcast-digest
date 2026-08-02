@@ -27,7 +27,7 @@ tags:
 
 <div class="pd-play"><button class="pb" type="button" aria-label="播放">▶</button><span class="tt"><span class="t1">听中文精华</span><span class="t2">AI 合成朗读</span></span><span class="bar"><i></i></span><span class="tm">00:00</span><audio preload="metadata" src="/audio/2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j.mp3">你的浏览器不支持音频播放,或音频尚未生成。</audio></div>
 
-<div class="pd-hook"><div class="z">你的现有竞争对手的最大痛点是什么？那么，我要做什么？我要在他们最大的痛点上极其用力，把它变成最令人愉快的体验。</div><div class="a">— Barney Hussey-Yeo <button class="pd-ts" data-t="18:01" data-who="Barney Hussey-Yeo" data-en="What is the biggest pain point of your incumbent? And, like, what am I going to do? I'm just going to go incredibly hard at their biggest pain point and make it the most delightful experience." aria-label="回原文"></button></div></div>
+<div class="pd-hook"><div class="z">我现在每年大约赚 20 万，就是通过我的那个玩低注局的小 agent，勉强赢钱。</div><div class="a">— Barney Hussey-Yeo <button class="pd-ts" data-t="01:03" data-who="Barney Hussey-Yeo" data-en="I earn about 200K every year now just through my little agent that plays and barely beats the low stakes." aria-label="回原文"></button></div></div>
 
 > [!info] 关联
 > **人物** [[Barney Hussey-Yeo]] · [[John Collison]]

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Patrick Collison]] · [[Amjad Masad]] · [[Stripe]] · [[Replit]] · [[OpenAI]] · [[智能体]] · [[垂直 SaaS]] · [[护城河]] · [[开源模型]] · [[LLM]]
 
-<script type="application/json" class="pd-epn">{"Patrick Collison":1,"Amjad Masad":1,"Stripe":9,"Replit":4,"OpenAI":24,"智能体":48,"垂直 SaaS":1,"护城河":3,"开源模型":3,"LLM":4}</script>
+<script type="application/json" class="pd-epn">{"Patrick Collison":1,"Amjad Masad":1,"Stripe":10,"Replit":4,"OpenAI":24,"智能体":49,"垂直 SaaS":1,"护城河":3,"开源模型":3,"LLM":4}</script>
 
 <script>
 (function(){
@@ -57,7 +57,8 @@ unlisted: true
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    ['.search','.readermode'].forEach(function(sel){ grab(sel,acts); });
+    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
+    ['.search'].forEach(function(sel){ grab(sel,acts); });
     // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
     // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
     var side=document.querySelector('.right.sidebar'), slot=null;

@@ -1,189 +1,171 @@
 {
-  "title_zh": "加密货币走到十字路口：a16z 两位创始人谈为什么必须立法",
-  "tldr": "a16z 的 Marc Andreessen 与 Chris Dixon 拆解正在参议院推进的《清晰法案》——它如何防止下一个 FTX,又如何决定美国能否保住技术领先地位。",
-  "digest_md": "一种能在不到一秒内结算、成本不到一美分,每季度流转数万亿美元的新金融基础设施,至今仍然生活在一个没有联邦监管框架的灰色地带。说这话的人是 Marc Andreessen 和 Chris Dixon,他们要聊的是为什么加密行业现在急需立法。[00:00 Robert Hackett]\n\n这一集 A16Z 的对谈里,主持人 Robert Hackett 和他们两位聊了一件事:正在参议院推进的《清晰法案》到底要解决什么问题。你会听到五个块面:加密技术从极客玩具到金融机构基础设施的十年变迁;为什么稳定币已有专门法案、而占市场 85% 的其余部分仍处于真空;《清晰法案》如何用同一套金融监管逻辑把真空填上;围绕这部法案的四大争议——国家安全、政府伦理、银行游说、开发者责任——各自真相是什么;以及如果美国不立法,国家技术领先地位会面临什么后果。\n\n故事要从 2014 年说起。那一年,Marc Andreessen 在《纽约时报》发表了一篇题为《为什么比特币很重要》的评论文章。他说,那是很久以前,《纽约时报》居然还会发表关于加密货币的正面文章。他当时预测的许多用例方向是对的,但技术走了一条不同的路:早期人们设想在比特币之上扩展功能,后来真正发生的是以太坊等新区块链的诞生,加密货币从一个技术概念变成了一个完整的行业。[03:00 Marc Andreessen]\n\n从 2014 年走到今天,变化是量级上的。Chris Dixon 回忆,早期主要是爱好者和一种亚文化,新区块链性能差、扩展性弱。而今天,每天都有大银行或金融科技公司宣布基于稳定币(一种把美元搬到区块链上的代币,每发行一枚都有等值美元储备支撑)或代币化资产的新平台。稳定币的交易量已经可以媲美 Visa 网络——每季度数万亿美元在这些系统上流转。三年前,在主流区块链上做一笔交易可能要花几美元甚至几十美元;现在,在 Solana、以太坊等链上,结算不到一秒、发送成本不到一美分。他强调,比特币和以太坊本身从未被黑客攻破过——出问题的是使用它们的组织安全松懈。当链本身已经高性能、高安全,又有大机构和数万亿美元在上面运转时,监管框架就成了必需品。[06:17 Chris Dixon]\n\n那么,现行的监管版图是什么样的?Chris Dixon 解释,出于政治和政策原因,加密监管被切成了两块:稳定币大约占市值的 15%,其余 85% 是包括区块链本身在内的其他部分。去年,国会通过了《天才法案》,由总统签署,为稳定币提供了全面的联邦监管框架。这个法案的核心很简单:如果你持有一美元的合规稳定币,银行里就有一美元坐着,那家银行要接受审计,钱投在短期国库券里。你知道那一美元在,它不会像 FTX 那样消失,也不会像 Terra Luna 那样明天归零。这种确定性让消费者敢用、机构敢进场、企业家敢投钱做合规——他们很乐意花钱请律师,只要知道目标是什么。稳定币因此成了过去一年增长最快的领域。[09:24 Chris Dixon]\n\n但那余下的 85% 的市场,目前没有全面的联邦框架。Chris Dixon 打了个比方:这就像我们有了针对手机的监管,却没有针对信号塔的监管——一半技术有规则,另一半笼罩在不确定性里。人们仍在那里建设,SEC(美国证券交易委员会)和 CFTC(美国商品期货交易委员会)等机构也给了零星指导,但归根结底,行业要建立在立法之上,因为立法是不可变的、有国会批准印章的、由聪明人跨党派妥协出来的坚实地面。这就是《清晰法案》正在参议院推进、如此重要的原因。[11:26 Chris Dixon]\n\n说完了为什么需要框架,接下来的问题是:这几年没有框架,行业是怎么过来的?Marc Andreessen 描述了一种「奇怪的黄昏状态」。从诞生到 2020 年,加密行业基本在没有规则的情况下以实验性方式发展。然后,2020 到 2024 年间,美国有了一届「决定扼杀这个行业」的政府——具体做法不是去监管,而是拒绝监管、直接起诉。行业居然没死,于是出现了最反常理的一幕:一些华盛顿的立法者跟他说,「如果它在我们试图杀掉它的那几年都没死,那它一定是好的,我们大概应该支持它」。与此同时,海外公司按照各自司法管辖区的规则野蛮生长,最终酿成 FTX 灾难——公然挪用客户资金。人们由此得出「不能信任加密货币」的结论,但真正的答案是:你不能信任完全不受监管的加密货币。你需要框架、风控、合规和审计,就像金融服务行业的其他部分一样。美国金融系统历史上经历过很多次这种转折——最著名的例子是《证券法》创立了 SEC 来监管股市,之后美国资本市场在近一百年里成为全世界羡慕的对象。Marc Andreessen 说,我们不是在找免费午餐、不是要补贴、不是要保护主义——我们只是要一个让人们以负责任方式做生意的永久框架。[13:02 Marc Andreessen]\n\n既然 FTX 是最惨痛的教训,《清晰法案》具体怎么防止下一个 FTX?Chris Dixon 指出,目前根本没有针对加密货币交易所的联邦监管机构——纽约证券交易所和纳斯达克都有联邦监管,但 Coinbase 和 Kraken 这类加密交易所没有。《清晰法案》很大一部分就是为了让 SEC 和 CFTC 拥有监督权,制定披露制度、反欺诈制度、内幕交易规则——跟其他金融市场一样。FTX 没有被恰当审计,资金在不同实体之间被挪用;如果它是联邦注册的交易所,至少要接受审计,有各种控制措施和监控制度。另一个大灾难 Terra Luna 是一个不稳定的「稳定币」,背后没有美元或其他稳定货币支撑,本质上是代币价值由代币本身决定的自我指涉结构——这在《天才法案》框架下将是非法的。[16:32 Chris Dixon]\n\n知道了法案要堵什么漏洞,接下来要看它正面临哪些猛烈攻击。第一个,也是最响亮的反对声,来自国家安全领域。参议员 Elizabeth Warren 称这部法案是「制裁规避的门票」,说朝鲜、恐怖分子和勒索软件黑客会因此肆虐。Chris Dixon 的回应是:当监管存在灰色地带,就会发生「逐底竞争」——像 Coinbase 这样认真做合规的美国公司每年要花大量成本,而新的离岸竞争对手不做合规、费用更低、产品迭代更快,反而赢得了市场。模糊性最终有利于坏人。《清晰法案》的做法是清晰划定监管边界:如果你在美国做生意,就必须受这套规则约束,黑白分明。[20:49 Chris Dixon]\n\nMarc Andreessen 则从更反直觉的角度反驳了 Warren 的指控。他说,他接触过的国家安全人士通常持完全相反的看法——他们其实希望更多罪犯和恐怖分子使用加密货币,因为区块链上有痕迹,可以追查。他举了一个例子:中东恐怖组织长期使用一种叫 Hawala 的古老地下钱庄系统——两个不同国家的表亲互相记账,钱实际上从不跨境移动,没有数字痕迹、没有纸质记录,你在边境根本截获不了它。相比之下,加密货币的每一笔交易都留在链上。国家安全人员甚至曾把加密货币戏称为「起诉期货」:只要坏人用了它,日后就能通过挖掘区块链来起诉他们。电视犯罪剧里那种「用比特币电汇、没人知道」的情节,跟现实完全相反。[23:19 Marc Andreessen]\n\n第二个争议是政府官员伦理。批评者说,总统及其家人有加密业务利益,这部法案会让他们致富。Chris Dixon 回应三点:第一,他作为公民认为政府官员应该有伦理规则,但不应该只针对加密货币——股票和其他金融资产也应该有;第二,《清晰法案》即便没有专门伦理条款,也增加了对任何人的披露要求和锁仓要求,包括政府官员;第三,据他所知,这是美国历史上第一个在监管某个行业的同时,还在其中塞入针对政府官员伦理条款的法案——通常这两件事是分开做的。他还指出一个被忽略的区分:加密货币不只是可以交易的东西,它越来越是你可以使用的东西——孩子将来可能直接买代币化股票,而不是找传统券商。把交易行为和使用行为混为一谈,会阻止政府官员接触现代技术。[31:43 Chris Dixon]\n\n第三个争议来自银行游说,最突出的是摩根大通。银行担心:如果消费者可以从稳定币中赚取利息,他们就会把钱从银行取出来,导致存款流失。Chris Dixon 透露,在法案中银行基本上得到了他们想要的——你不能对稳定币余额支付任何功能上或经济上类似于银行账户利息的回报;你能做的是更复杂的东西,比如沃尔玛可以给每月用稳定币钱包消费两次的用户某种奖励,看起来更像信用卡返现。这是对加密行业来说有些痛苦的妥协,但在整个法案的大背景下,净效果仍是好的。有意思的是,摩根大通一边试图拖延这部法案,一边自己有庞大的区块链部门、有在链上运行的代币化存款——每家大银行都在暗中为监管明确后的重大技术升级做准备。[35:28 Chris Dixon]\n\n> 【背景】摩根大通 CEO Jamie Dimon 和加密货币的渊源:他多年公开抨击比特币,但摩根大通内部一直在开发区块链应用。本集提到他与 Coinbase CEO Brian Armstrong 在稳定币问题上代表了对立的两方声音。\n\n第四个争议是最具杀伤力的:开发者责任。前白宫网络安全官员 Carol House 提出担忧——如果不追究开发者的责任,会为 AI 等其他技术领域树立危险先例。Marc Andreessen 的回应毫不客气:「这对行业是致命一击。」他的逻辑是:如果造产品的人要为产品被别人挪作何用承担无限的下游责任,软件开发就变得不可能。这就好比问——酒店老板会因为罪犯住了他的酒店就成为同谋吗?汽车工程师会因为车被用来抢银行就成了抢劫从犯?[42:13 Marc Andreessen]\n\nChris Dixon 补充了一个重要的区分:如果你明知故犯地帮罪犯——比如建了软件还主动教别人怎么用它犯罪——那是犯罪,没人有异议。但这里讨论的是:你做了开源软件(无论 AI 还是加密货币),为建设性用途而做,然后让别人承担无限下游责任——开源开发者一开始就拿不到钱,更别说承担巨量敞口了。所以首先死的是开源,然后学术研究死掉(因为计算机科学研究完全依赖开源),然后风险投资不敢投,然后创业公司和大公司全部被横扫。他判断,提出这种观点的人要么完全不懂实际经营企业需要什么,要么就是故意要杀掉这个行业。[42:54 Chris Dixon]\n\n最后,还有一个关于证券法的质疑。批评者说,公司只要把资产代币化、扔到区块链上,就能逃过 SEC 的监管。Chris Dixon 给出了直接的否定:如果你把一只股票代币化,它仍然是证券,受 SEC 监管——法案里写得很清楚。《清晰法案》对数字资产的区分逻辑是动态的:一个代币刚创建时是中心化的,背后有控制者、有内幕信息,这时由 SEC 监管;当它达到足够去中心化的阈值——不再有中心化控制者、没有内幕信息时,转由 CFTC 监管,按商品对待。即便是上一届反加密的政府,也曾承认比特币和以太坊已足够去中心化、应作为商品监管。《清晰法案》只是把十年来法院和监管机构达成的共识写进了法律,让定义变得具体,不用再每次都打官司。[46:13 Chris Dixon]\n\n说完了所有争议,最后一个问题是:如果法案不通过会怎样?Chris Dixon 说,一他们会继续推动,总有一天会通过;二很多事情可以在 SEC、CFTC、财政部等机构层面推进。但关键区别在于:立法是事实上的永久规则,而机构规则不是。你想做投资、想建东西,可能要花很多年;如果你要在流沙上盖楼,你不太可能投入那些时间和金钱。[50:11 Chris Dixon]\n\n有人把监管和创新看作天然对立,但 Marc Andreessen 用了一个政治学概念来反驳。「无政府暴政」(anarcho-tyranny)是一种退化的治理模式:无政府的一半——让破坏规则的人彻底失控;暴政的一半——把守法的人管死或起诉死。他说,这就是前政府对加密行业的做法:海外公司野蛮生长导致了 FTX,美国国内初创公司被残酷惩罚、且没有合法的安全路径。你真正需要的是可预测性、稳定性、适当程度的消费者和投资者保护,以及创新的空间。这不是非此即彼,而是一个有正确监管水平的中间派立场。[51:50 Marc Andreessen]\n\n加密行业走到今天,已经不是十年前的极客实验了——它是一个跟国家安全、金融基建、技术领先地位绑在一起的庞大产业。这部法案能不能过,决定了下一步的技术升级在哪里发生、由谁主导。\n\n## 本集带走\n\n最后收个尾,这一集值得带走的是几条主线。第一,稳定币已经证明了一个简单的道理——有了明确规则,行业就起飞了;《天才法案》通过后,稳定币每季度流转数万亿美元,因为消费者知道一美元背后真有一美元,机构知道十年后规则还在。第二,剩下 85% 的市场——包括区块链本身和交易所——仍然没有联邦框架,FTX 和 Terra Luna 正是这种真空的产物;《清晰法案》要做的事,就是把股票市场监管那套老逻辑——披露、审计、反欺诈、内幕交易规则——搬过来,让 SEC 和 CFTC 各管各的部分。第三,围绕法案的四大攻击——国家安全、政府伦理、银行游说、开发者责任——在很大程度上要么基于对技术的误解(区块链有痕迹,反而比传统地下钱庄更容易追踪),要么是在用不同标准要求这个行业(伦理条款塞进行业监管法案,这是美国历史上头一遭),要么干脆是想用无限下游责任直接判死刑——这会先杀开源、再杀学术研究、再杀风投和所有公司。第四,监管和创新不是对立面;真正的敌人是「无政府暴政」——让坏人野蛮生长、把好人起诉致死。第五,这件事的赌注不只是加密行业本身,而是美国要不要继续做下一代金融基础设施的技术领导者——利益会归于那些最先设定标准的人。",
+  "title_zh": "加密行业已大到无法忽视:两位 a16z 合伙人谈为什么亟需立法",
+  "tldr": "a16z 的两位合伙人畅谈为什么加密行业亟需《清晰法案》以及明确的监管框架。",
+  "digest_md": "美国一届政府花了五年时间试图把加密行业弄死,结果这个行业不仅没死,还长到了每季度数万亿美元的规模。说这话的人是 Mark Andreessen,他和另一位 a16z 合伙人 Chris Dixon 坐在一起,聊的是国会正在推进的一项名为《清晰法案》的市场结构立法——这可能是决定区块链技术在美国到底是长大还是出走的关键一步 [13:19 Mark Andreessen]。\n\n这一集里,主持人 Robert Hackett 和两位嘉宾梳理了三件事:为什么这个已经大到交易量媲美 Visa 网络的行业不能再在没有联邦规则的状态下裸奔;这项长达数百页的《清晰法案》具体想解决什么问题,又是怎么回应外界对非法金融、官员道德风险、银行业游说和开发者责任那一连串激烈质疑的;以及如果规则定不下来,美国会不会把下一代金融基础设施的领导权拱手让人。\n\n## 从极客玩具到数万亿生意\n\n时间回到 2014 年,Mark 在《纽约时报》写了篇题为 Why Bitcoin Matters 的评论文章,试图向公众解释这项技术到底在说什么。那时候加密货币还只是个亚文化,参与者主要是爱好者和超级发烧友,技术上有不少性能和扩展性的瓶颈 [06:17 Chris Dixon]。他当时的一个判断如今看来很准:我们仍处于采用曲线的起点,大多数人还没开始了解和接触它。唯一需要修正的,是文章里每次写到的 Bitcoin(比特币),如今都该换成整个加密行业——那时候它基本是镇上唯一的游戏,后来才有了以太坊和各种新区块链平台 [05:35 Mark Andreessen]。\n\n快进到今天,情况已经完全不同。每一天你都能看到大银行或金融科技公司宣布涉足稳定币或代币化资产的平台。稳定币(锚定法币价值、发行在区块链上的加密货币)现在的交易规模已经可以和 Visa 网络媲美,一个具体场景是:你可以打开 WhatsApp 用它给世界任何地方几乎免费地汇款,就像发一条短信那样 [07:05 Chris Dixon]。三年前同样一笔链上交易可能要花几美元甚至几十美元,而现在在主流区块链上,结算不到一秒、花费不到一美分。更关键的是,比特币和以太坊这些主流链本身从未被黑客攻破过——出事的往往是内部安全松懈的使用机构。底层基础设施已经高度成熟。\n\n## 为什么不能再没有规则\n\n技术成熟了,大机构进来了,那为什么现在非要有规则?Chris 把当下的监管状态拆成了两部分:占总市值约 15% 的稳定币,和占另外 85% 的其他市场 [09:35 Chris Dixon]。\n\n去年通过并签署的《天才法案》刚好补上了稳定币这一块的联邦框架。它的核心机制是:如果你持有一美元的合规稳定币,发行方银行的账上就有一美元趴在那里,并且这些钱只能放在短期国债里——这基本上是金融系统能提供的安全上限。你知道这一美元就在那儿,它不是 FTX 那样随时蒸发的资金盘,也不是那种背后根本没有真实资产支撑、明天就可能清零的 Terra Luna [10:21 Chris Dixon]。这种确定性给了消费者信心,给了 Stripe、PayPal 这样的机构敢于大举进入的底气,也让创业者有了明确努力的方向。一旦监管的清晰度落地,稳定币在过去一年就成了整个行业发展最快的领域。\n\n但问题在于,剩下那 85% 的市场——包括区块链本身以及一大堆数字资产——目前还没有一个全面的联邦监管框架。Chris 打了个比方:这就像我们给手机立了规矩,却没有给信号塔立规矩,一半的技术受监管,另一半却悬在不确定的灰色地带 [11:43 Chris Dixon]。这正是《清晰法案》要解决的:它要让那些构成整个行业地基的部分,拥有像股票、债券那样的立法级确定性和坚实地面。\n\n这种无规则的状态到底有多伤行业?Mark 直言,过去几年美国对加密行业实行的是一种他称为「无政府暴政」的政策:一边让海外的破坏规则者彻底放飞自我,最终酿成了像 FTX 那样公然窃取客户资金的灾难;一边又对美国国内那些守规矩的创业者进行残酷的惩罚和起诉,让他们根本没有合法途径去安全地做生意 [52:04 Mark Andreessen]。Chris 补充了一个让他非常沮丧的现象:监管的灰色地带会引发一场逐底竞争 [21:00 Chris Dixon]。像 Coinbase 这样认真合规的美国公司,每年要花大价钱、拖慢产品进度来满足要求;但每一年都会冒出一个不搞合规的海外竞争对手,因为手续费更低、迭代更快而抢走市场。模棱两可的规则,到头来只会把好玩家逼死,给坏玩家发红利。\n\n## 一一拆解五大争议\n\n既然立法这么重要,那为什么法案推了七年还没落地?因为围绕这部六百多页的法案有太多激烈的利益交锋。\n\n第一个大争议是所谓的非法金融。参议员伊丽莎白·沃伦指责这个法案是逃避制裁的门票,说朝鲜、恐怖分子和勒索软件黑客会借此横行无忌 [20:32 Chris Dixon]。Mark 在国家安全领域花了很多时间,他接触的那些专业人士的看法截然相反。具有讽刺意味的是,他们其实希望更多罪犯使用加密货币,因为区块链上有清晰的资金轨迹,恰恰方便日后追溯和起诉。他把现在的加密货币戏称为「起诉期货」 [24:43 Mark Andreessen]。相比之下,现实里很多恐怖融资走的是一个叫 Hawala 的古老点对点系统——钱根本不在边境流动,也没有任何数字记录,完全无法追踪。反对者说加密货币天然匿名没法查的说法,完全是颠倒黑白的。法案其实把适用于其他金融市场的反洗钱、制裁和财政部规则同样套用到了加密中介头上。全美最大的执法组织——警官兄弟会公开表态支持这个法案,恰恰是它具备执法能力的一个证明 [19:40 Chris Dixon]。\n\n第二个争议是官员道德问题。因为现任总统的家族有加密业务利益,批评者说这个法案是在让最积极支持它的人中饱私囊。Chris 认为这里需要厘清两点:一是政府官员该不该有针对加密资产的道德规则?当然应该,就像他们对股票和其他金融资产应该有规矩一样;二是即使没有专门条款,《清晰法案》其实对任何持仓加密资产的人(包括官员)都增加了披露和锁仓的要求,限制比目前的股票交易更严 [32:20 Chris Dixon]。更无奈的是,目前这个法案是美国历史上第一个把行业监管和针对官员的特定道德条款绑在一起的法案,这在立法惯例上极不寻常。\n\n第三个争议来自银行业游说。像摩根大通这样的巨头特别不满消费者可能从稳定币上赚取利息,担心引发存款大搬家 [35:37 Chris Dixon]。Chris 透露,经过一番漫长的博弈,银行业基本如愿以偿:法案明确规定你不能像银行那样直接基于余额支付类似于利息的收益。唯一能做的是像信用卡积分那种复杂的奖励计划,比如沃尔玛奖励你每月用稳定币钱包消费两次。有趣的是,这些大银行本身却在暗中大力推进自己的区块链业务,他们内部积攒了大量已经准备好上线的部署。因为银行现有的底层技术非常陈旧,甚至还有大量 COBOL 程序员在维护几十年的老代码。区块链恰好给了他们一个统一的现代化框架,让他们可以一起迈入 21 世纪,解决的不只是技术问题,更是行业间的协调问题 [39:02 Chris Dixon]。\n\n第四个争议关乎开发者责任。有前白宫网络安全官员提出,应该让写代码的开发者为软件被滥用的后果承担更多责任,并担心不这么做会给 AI 领域开坏头。Mark 对此毫不客气:这对行业来说就是致命一击。用造车的工程师要为抢劫犯用车作案担责来打比方,这完全不合逻辑 [42:19 Mark Andreessen]。如果他杀下跌游责任,开源软件必死无疑——车库里的五个开源开发者根本承担不起无限责任。接着,计算机科学的学术研究会死,因为完全依赖开源;风险投资不敢投了,初创公司和大公司都会在无限责任下集体覆灭。他认为这不是误解,就是有人在故意要弄死整个行业。\n\n最后一个争议是会不会在证券法上开个大口子。Chris 给出了明确的解释:现有的股票如果通证化,依然由证券交易委员会(SEC)像证券一样监管 [46:15 Chris Dixon]。核心在于,新法案做了一个明确的路径划分:一个区块链项目刚起步时必然是中心化的,背后有人控盘,这时候它受 SEC 监管,有锁仓和披露等证券法常规要求;随着时间推移,当它的去中心化程度达到特定门槛,没有单一中心能控制它时,它就由商品期货交易委员会(CFTC)作为大宗商品来监管 [47:37 Chris Dixon]。这其实是过去十年两党法院判决和监管机构共识的法律化和硬编码,不会开任何口子。\n\n## 不立法的代价\n\n如果法案最终没通过呢?Chris 说他们会继续努力,总有一天会过 [50:17 Chris Dixon]。很多规则其实也可以在 SEC、CFTC 这些机构层面一点点推进。但最大的问题在于,机构规则不如立法来得稳固。如果你想让一家公司敢于花好几年时间和大量金钱去构建一个系统,你就不能让他们在流沙上建东西——政策来回变动的迷宫对企业家来说简直是噩梦。\n\n## 本集带走\n\n最后收个尾,这一集值得带走的是这么几层意思。第一,规则和创新并不对立,没有规则带来的不是自由而是无政府暴政——好人被监管弄死,坏人放飞自我酿成大祸,最终把整个行业拖入深渊。第二,围绕这个法案的各种争议,无论是洗钱漏洞还是证券法口子,大部分经不起推敲,因为法案其实只是把现有的共识和市场机制以法律形式固定下来。第三,区块链本质上是一台去中介化机器,让点对点的金融交易像发短信一样几乎零成本,下一代金融基础设施会首先在稳定币和各类代币化资产上爆发。第四,谁先把规则定下来,谁就能留住这些大机构和新技术,美国不能在关键技术领域失去一百年来的领导地位。第五,真正值得警惕的不是技术被滥用,而是用无限责任把开发者和开源生态一棍子打死——那才是对整个行业的致命一击。",
   "quotes": [
     {
-      "en": "You can go into whatsapp and send money anywhere in the world uh for almost free in the same way you'd send a text message um using stable coins it's you know really the way money should work",
-      "zh": "你可以进入 WhatsApp 并在世界任何地方汇款,几乎免费,就像发送短信一样,使用稳定币,这真的是金钱应该运作的方式。",
-      "timestamp": "07:11",
-      "speaker": "SPEAKER_01"
-    },
-    {
-      "en": "Bitcoin has never been hacked.",
-      "zh": "比特币从未被黑客攻击过。",
-      "timestamp": "08:19",
-      "speaker": "SPEAKER_01"
-    },
-    {
-      "en": "Ethereum has never been hacked.",
-      "zh": "以太坊从未被黑客攻击过。",
-      "timestamp": "08:20",
-      "speaker": "SPEAKER_01"
-    },
-    {
-      "en": "if it didn't die during this whole period when we tried to kill it, then it must be good.",
-      "zh": "如果它在我们试图杀死它的整个时期内都没有死,那它一定是好的。",
-      "timestamp": "13:50",
+      "en": "And the sort of most bizarre sort of aspect of that for me is I've had these conversations with some lawmakers in D.C. where they say, well, you know, I'm going to support crypto now because like if it didn't die during this whole period when we tried to kill it, then it must be good.",
+      "zh": "对我来说最奇怪的一点是,我和华盛顿的一些立法者有过这样的对话,他们说,我现在要支持加密货币了,因为如果它在我们试图扼杀它的整个时期都没有死,那它一定是好的。",
+      "timestamp": "13:42",
       "speaker": "Marc Andreessen"
     },
     {
-      "en": "We need it so that the winners of the market aren't fly-by-night operations operating on yachts off some coast somewhere.",
-      "zh": "我们需要它这样市场的赢家就不会是在某些海岸外的游艇上运营的临时作坊。",
-      "timestamp": "15:37",
-      "speaker": "Marc Andreessen"
-    },
-    {
-      "en": "Ironically, they're hoping that more criminals and terrorists use crypto and use blockchains because there's a trail.",
-      "zh": "讽刺的是,他们希望更多的罪犯和恐怖分子使用加密货币并使用区块链,因为会有踪迹。",
-      "timestamp": "23:30",
-      "speaker": "Marc Andreessen"
-    },
-    {
-      "en": "what I've learned is when you have gray areas in regulation, you have essentially a race to the bottom.",
-      "zh": "我学到的是,当你在监管中有灰色地带时,你本质上是一场逐底竞争。",
+      "en": "What I've learned is when you have gray areas in regulation, you have essentially a race to the bottom.",
+      "zh": "我学到的是,当监管中有灰色地带时,你基本上会面临一场逐底竞争。",
       "timestamp": "21:00",
       "speaker": "SPEAKER_01"
     },
     {
-      "en": "And so this is the thing where it's just like the level of misunderstanding of what it takes to actually run a business or do anything productive is either just completely absent when people make that argument or they are deliberately trying to kill the industry, which, by the way, I think they're trying to deliberately kill the industry.",
-      "zh": "所以这就是那个事情,关于实际运营一家公司或做任何生产性事情需要什么的误解程度,要么在人们提出那个论点时完全缺失,要么他们正试图故意扼杀这个行业,顺便说一句,我认为他们正试图故意扼杀这个行业。",
-      "timestamp": "45:20",
+      "en": "And then for every one, there's kind of this evil twin, you know, the doppelganger offshore that sort of copies all the features but doesn't do the compliance.",
+      "zh": "然后对于每一个好公司,都有这种邪恶的双胞胎,那个海外的替身,复制了所有功能但不做合规。",
+      "timestamp": "21:43",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "Ironically, they're hoping that more criminals and terrorists use crypto and use blockchains because there's a trail.",
+      "zh": "具有讽刺意味的是,他们希望更多的罪犯和恐怖分子使用加密货币并使用区块链,因为有一条轨迹。",
+      "timestamp": "23:30",
       "speaker": "Marc Andreessen"
     },
     {
-      "en": "So open source dies because open source dies, academic research dies.",
-      "zh": "所以开源死掉了,因为开源死掉了,学术研究也死掉了。",
-      "timestamp": "44:50",
+      "en": "there was actually a term a while ago that national security people were kicking around, they called crypto, they called it prosecution futures,",
+      "zh": "一段时间前国家安全人员流传过一个词,他们把加密货币称为「起诉期货」,",
+      "timestamp": "24:44",
       "speaker": "Marc Andreessen"
     },
     {
-      "en": "you want the technology to exist when, you know, some people argue that, you know, you're better off without certain technologies. But then there's another part of it, which is technologies do tend to exist. once they get invented, and then do you want that to happen inside your own country or do you want to have that happen somewhere else?",
-      "zh": "当有些人认为你最好不要拥有某些技术时,你希望技术存在。但还有另一部分,就是技术确实倾向于存在,一旦它们被发明出来,然后你想让这发生在你自己的国家还是想让这发生在别的地方?",
-      "timestamp": "54:35",
+      "en": "the actual reality of it is if more bad guys were running more money through crypto, I think more bad guys would get caught, not fewer.",
+      "zh": "实际的真相是,如果更多坏人在加密货币中转移更多钱,我认为更多坏人会被抓,而不是更少。",
+      "timestamp": "25:24",
+      "speaker": "Marc Andreessen"
+    },
+    {
+      "en": "if you saddle people who build products that get used by many people for many reasons, if you saddle them with downstream liability for the uses, it just kills the industry, which is clearly the goal.",
+      "zh": "如果你让那些制造产品的人承担下游使用的责任,而这些产品被许多人出于多种原因使用,如果你给他们强加这种下游使用的责任,这只会扼杀这个行业,这显然就是目的。",
+      "timestamp": "42:43",
+      "speaker": "Marc Andreessen"
+    },
+    {
+      "en": "And anarcho-tyranny is a social government by which you regulate the law-abiding people to death.",
+      "zh": "无政府暴政是一种社会政府形式,通过它你把守法的人监管至死。",
+      "timestamp": "52:07",
+      "speaker": "Marc Andreessen"
+    },
+    {
+      "en": "So you basically encourage the criminals and you condemn the law-abiding.",
+      "zh": "所以你基本上是在鼓励罪犯,同时谴责守法的人。",
+      "timestamp": "52:20",
       "speaker": "Marc Andreessen"
     }
   ],
   "quotes_candidates": [
     {
-      "en": "The Bitcoin white paper, this piece is even five years into the macro trend.",
-      "zh": "比特币白皮书,这篇文章甚至是在宏观趋势开始后的五年。",
-      "timestamp": "03:31",
-      "speaker": "Marc Andreessen"
+      "en": "And the sort of most bizarre sort of aspect of that for me is I've had these conversations with some lawmakers in D.C. where they say, well, you know, I'm going to support crypto now because like if it didn't die during this whole period when we tried to kill it, then it must be good.",
+      "zh": "对我来说最奇怪的一点是,我和华盛顿的一些立法者有过这样的对话,他们说,我现在要支持加密货币了,因为如果它在我们试图扼杀它的整个时期都没有死,那它一定是好的。",
+      "timestamp": "13:42",
+      "speaker": "Mark Andreessen"
     },
     {
-      "en": "You can go into whatsapp and send money anywhere in the world uh for almost free in the same way you'd send a text message um using stable coins it's you know really the way money should work",
-      "zh": "你可以进入 WhatsApp 并在世界任何地方汇款,几乎免费,就像发送短信一样,使用稳定币,这真的是金钱应该运作的方式。",
-      "timestamp": "07:05",
-      "speaker": "Chris Dixon"
-    },
-    {
-      "en": "Bitcoin has never been hacked.",
-      "zh": "比特币从未被黑客攻击过。",
-      "timestamp": "08:19",
-      "speaker": "Chris Dixon"
-    },
-    {
-      "en": "Ethereum has never been hacked.",
-      "zh": "以太坊从未被黑客攻击过。",
-      "timestamp": "08:20",
-      "speaker": "Chris Dixon"
-    },
-    {
-      "en": "we've been in this just kind of bizarre twilight state for the last several years, you know, where sort of crypto was developing, you know, largely without rules, you know, for better or for worse, in kind of, you know, what I would describe as sort of experimental ways, you know, between sort of inception through 2020.",
-      "zh": "我们在过去几年里一直处于这种奇怪的黄昏状态,在某种程度上加密货币正在发展,很大程度上没有规则,不管好坏,以一种我称之为实验性的方式,从开始到 2020 年之间。",
-      "timestamp": "13:02",
-      "speaker": "Marc Andreessen"
-    },
-    {
-      "en": "Specifically, by the way, declined to regulate, refused to regulate, and instead decided to prosecute.",
-      "zh": "具体来说,顺便提一下,拒绝监管,拒绝去监管,而是决定起诉。",
-      "timestamp": "13:30",
-      "speaker": "Marc Andreessen"
-    },
-    {
-      "en": "if it didn't die during this whole period when we tried to kill it, then it must be good.",
-      "zh": "如果它在我们试图杀死它的整个时期内都没有死,那它一定是好的。",
-      "timestamp": "13:47",
-      "speaker": "Marc Andreessen"
-    },
-    {
-      "en": "We need it so that the winners of the market aren't fly-by-night operations operating on yachts off some coast somewhere.",
-      "zh": "我们需要它这样市场的赢家就不会是在某些海岸外的游艇上运营的临时作坊。",
-      "timestamp": "15:37",
-      "speaker": "Marc Andreessen"
-    },
-    {
-      "en": "The US financial system's been through this many times before.",
-      "zh": "美国金融系统已经经历过这个很多次了。",
-      "timestamp": "15:45",
-      "speaker": "Marc Andreessen"
-    },
-    {
-      "en": "We're not looking for a free lunch.",
-      "zh": "我们不是在寻找免费午餐。",
-      "timestamp": "16:01",
-      "speaker": "Marc Andreessen"
-    },
-    {
-      "en": "Ironically, they're hoping that more criminals and terrorists use crypto and use blockchains because there's a trail.",
-      "zh": "讽刺的是,他们希望更多的罪犯和恐怖分子使用加密货币并使用区块链,因为会有踪迹。",
-      "timestamp": "23:30",
-      "speaker": "Marc Andreessen"
-    },
-    {
-      "en": "what I've learned is when you have gray areas in regulation, you have essentially a race to the bottom.",
-      "zh": "我学到的是,当你在监管中有灰色地带时,你本质上是一场逐底竞争。",
+      "en": "What I've learned is when you have gray areas in regulation, you have essentially a race to the bottom.",
+      "zh": "我学到的是,当监管中有灰色地带时,你基本上会面临一场逐底竞争。",
       "timestamp": "21:00",
       "speaker": "Chris Dixon"
     },
     {
-      "en": "this bill puts controls on government officials' use of crypto that are stronger than apply to government officials' stock trading.",
-      "zh": "该法案对政府官员使用加密货币施加的控制比适用于官员股票交易的控制更严格。",
-      "timestamp": "33:42",
+      "en": "And then for every one, there's kind of this evil twin, you know, the doppelganger offshore that sort of copies all the features but doesn't do the compliance.",
+      "zh": "然后对于每一个好公司,都有这种邪恶的双胞胎,那个海外的替身,复制了所有功能但不做合规。",
+      "timestamp": "21:43",
       "speaker": "Chris Dixon"
     },
     {
-      "en": "it's a kill shot to the industry.",
-      "zh": "这对行业来说是致命一击。",
-      "timestamp": "42:16",
-      "speaker": "Marc Andreessen"
-    },
-    {
-      "en": "And so this is the thing where it's just like the level of misunderstanding of what it takes to actually run a business or do anything productive is either just completely absent when people make that argument or they are deliberately trying to kill the industry, which, by the way, I think they're trying to deliberately kill the industry.",
-      "zh": "所以这就是那个事情,关于实际运营一家公司或做任何生产性事情需要什么的误解程度,要么在人们提出那个论点时完全缺失,要么他们正试图故意扼杀这个行业,顺便说一句,我认为他们正试图故意扼杀这个行业。",
-      "timestamp": "45:20",
-      "speaker": "Marc Andreessen"
-    },
-    {
-      "en": "So open source dies because open source dies, academic research dies.",
-      "zh": "所以开源死掉了,因为开源死掉了,学术研究也死掉了。",
-      "timestamp": "44:50",
-      "speaker": "Marc Andreessen"
-    },
-    {
-      "en": "you want the technology to exist when, you know, some people argue that, you know, you're better off without certain technologies. But then there's another part of it, which is technologies do tend to exist. once they get invented, and then do you want that to happen inside your own country or do you want to have that happen somewhere else?",
-      "zh": "当有些人认为你最好不要拥有某些技术时,你希望技术存在。但还有另一部分,就是技术确实倾向于存在,一旦它们被发明出来,然后你想让这发生在你自己的国家还是想让这发生在别的地方?",
-      "timestamp": "54:32",
-      "speaker": "Marc Andreessen"
-    },
-    {
-      "en": "I think of a simple way to think of a blockchain is a disintermediation machine.",
-      "zh": "我认为思考区块链的一种简单方式是一个去中介化机器。",
-      "timestamp": "56:26",
+      "en": "And so what you end up having is just you end up, the ambiguity ends up favoring the bad actors, right?",
+      "zh": "所以最终你只会得到这种结果:模棱两可的规则最终有利于坏的行为者,对吧?",
+      "timestamp": "21:53",
       "speaker": "Chris Dixon"
     },
     {
-      "en": "So anarcho from anarchy and then tyranny.",
-      "zh": "无政府来自无政府状态,然后是暴政。",
-      "timestamp": "52:04",
-      "speaker": "Marc Andreessen"
+      "en": "And so the real answer is you can't trust fully unregulated crypto.",
+      "zh": "真正的答案是,你不能信任完全不受监管的加密货币。",
+      "timestamp": "14:57",
+      "speaker": "Mark Andreessen"
     },
     {
-      "en": "Legislation is solid ground to build on.",
-      "zh": "立法是建立在坚实的土地上。",
-      "timestamp": "12:18",
+      "en": "We're not looking for a free lunch.",
+      "zh": "我们不是在寻求免费午餐。",
+      "timestamp": "16:01",
+      "speaker": "Mark Andreessen"
+    },
+    {
+      "en": "We're not looking for protectionism.",
+      "zh": "我们不是在寻求保护主义。",
+      "timestamp": "16:04",
+      "speaker": "Mark Andreessen"
+    },
+    {
+      "en": "We're just looking for basically a permanent framework that lets people do business in a responsible way.",
+      "zh": "我们只是在寻求一个基本上能让人以负责任的方式开展业务的永久框架。",
+      "timestamp": "16:08",
+      "speaker": "Mark Andreessen"
+    },
+    {
+      "en": "Ironically, they're hoping that more criminals and terrorists use crypto and use blockchains because there's a trail.",
+      "zh": "具有讽刺意味的是,他们希望更多的罪犯和恐怖分子使用加密货币并使用区块链,因为有一条轨迹。",
+      "timestamp": "23:30",
+      "speaker": "Mark Andreessen"
+    },
+    {
+      "en": "There's a blockchain and there's a trail.",
+      "zh": "有区块链,就有一条轨迹。",
+      "timestamp": "23:37",
+      "speaker": "Mark Andreessen"
+    },
+    {
+      "en": "there was actually a term a while ago that national security people were kicking around, they called crypto, they called it prosecution futures,",
+      "zh": "一段时间前国家安全人员流传过一个词,他们把加密货币称为「起诉期货」,",
+      "timestamp": "24:43",
+      "speaker": "Mark Andreessen"
+    },
+    {
+      "en": "So the actual reality of it is if more bad guys were running more money through crypto, I think more bad guys would get caught, not fewer.",
+      "zh": "实际的真相是,如果更多坏人在加密货币中转移更多钱,我认为更多坏人会被抓,而不是更少。",
+      "timestamp": "25:22",
+      "speaker": "Mark Andreessen"
+    },
+    {
+      "en": "And so what you have is essentially a dynamic.",
+      "zh": "所以你拥有的本质上是一种动态。",
+      "timestamp": "21:00",
       "speaker": "Chris Dixon"
+    },
+    {
+      "en": "If you sell people with gold products that get used by many people for many reasons, it's a kill shot to the industry.",
+      "zh": "如果你给那些制造了被许多人出于多种原因使用的产品的人强加责任,这就是对该行业的致命一击。",
+      "timestamp": "39:39",
+      "speaker": "Mark Andreessen"
+    },
+    {
+      "en": "if you saddle people who build products that get used by many people for many reasons, if you saddle them with downstream liability for the uses, it just kills the industry, which is clearly the goal.",
+      "zh": "如果你让那些制造产品的人承担下游使用的责任,而这些产品被许多人出于多种原因使用,如果你给他们强加这种下游使用的责任,这只会扼杀这个行业,这显然就是目的。",
+      "timestamp": "42:48",
+      "speaker": "Mark Andreessen"
+    },
+    {
+      "en": "And anarcho-tyranny is a social government by which you regulate the law-abiding people to death.",
+      "zh": "无政府暴政是一种社会政府形式,通过它你把守法的人监管至死。",
+      "timestamp": "52:07",
+      "speaker": "Mark Andreessen"
+    },
+    {
+      "en": "So you basically encourage the criminals and you condemn the law-abiding.",
+      "zh": "所以你基本上是在鼓励罪犯,同时谴责守法的人。",
+      "timestamp": "52:20",
+      "speaker": "Mark Andreessen"
+    },
+    {
+      "en": "you 100%, every American citizen should want America, regardless of their political position or whatever, should want America to be the technology leader in the world.",
+      "zh": "百分之一百,每一个美国公民,无论他们的政治立场或其他什么,都应该希望美国成为世界技术领导者。",
+      "timestamp": "54:48",
+      "speaker": "Mark Andreessen"
     }
   ]
 }

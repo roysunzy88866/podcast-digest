@@ -25,7 +25,7 @@ unlisted: true
 
 [[Alexandr Wang]] · [[Scale]] · [[Meta]] · [[开源模型]] · [[智能体]] · [[多智能体设置]] · [[训练数据]] · [[前沿AI实验室]] · [[主观能动性]] · [[Spark API]]
 
-<script type="application/json" class="pd-epn">{"Alexandr Wang":1,"Scale":1,"Meta":9,"开源模型":3,"智能体":48,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":7,"Spark API":1}</script>
+<script type="application/json" class="pd-epn">{"Alexandr Wang":1,"Scale":1,"Meta":9,"开源模型":3,"智能体":49,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":7,"Spark API":1}</script>
 
 <script>
 (function(){
@@ -57,7 +57,8 @@ unlisted: true
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    ['.search','.readermode'].forEach(function(sel){ grab(sel,acts); });
+    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
+    ['.search'].forEach(function(sel){ grab(sel,acts); });
     // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
     // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
     var side=document.querySelector('.right.sidebar'), slot=null;

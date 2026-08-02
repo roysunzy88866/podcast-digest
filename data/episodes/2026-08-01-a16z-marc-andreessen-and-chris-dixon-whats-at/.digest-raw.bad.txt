@@ -1,0 +1,143 @@
+```json
+{
+  "title_zh": "a16z 对话：为什么加密行业反而急需监管",
+  "tldr": "Mark 和 Chris 讲清稳定币为何猛涨，以及监管框架如何决定加密行业的未来。",
+  "digest_md": "区块链上的稳定币（一种锚定法币、随时可兑换的加密资产），其交易规模已经堪比 Visa 网络，但美国有一届政府花了整整五年，不制定规则、只发起诉讼，试图把整个行业按死。
+
+说这话的是 a16z 的 Mark Andreessen 和 Chris Dixon。这一集里，主持人 Robert Hackett 和他们聊了加密行业为何从十几年前的极客亚文化，变成今天贝莱德、摩根大通都在抢着进的主流金融设施；进而聚焦正在参议院推进的《清晰法案》（Clarity Act，一部试图为整个加密市场建立联邦监管框架的立法）——为什么只有立了法，创新者才有确定性、消费者才不会被骗光钱；以及面对"帮恐怖分子洗钱""让官员中饱私囊"等各种反对声音，他们怎么逐一拆解。最后他们回到一个更大的命题：如果这套基础设施不在美国建，就会跑到别的国家去。
+
+## 从"比特币是唯一"到"稳定币堪比 Visa"
+
+故事的起点要回到 2014 年。那时候 Mark 为《纽约时报》写了一篇题为《为什么比特币很重要》的评论文章。他自嘲说，2014 年实在太久远了，久远到《纽约时报》竟然还愿意登一篇正面报道。当时行业太小，他甚至相信比特币就是加密技术的全部 [03:19 Mark Andreessen]。回过头看，那篇文章对技术潜力的判断基本准确，唯一需要修正的，是把文中所有的"比特币"直接替换成"加密货币"——因为后来实际发生的事，是涌现出了以太坊等新区块链平台，技术本身长成了一个完整的行业 [04:32 Mark Andreessen]。
+
+Chris 顺着回忆了从早期到现在的巨变。最初这只是一群爱好者的亚文化，底层的区块链技术面临性能瓶颈。但快进到今天，每天都会有大银行或金融科技公司宣布基于稳定币（一种把美元搬上区块链的资产）或代币化资产的新平台 [06:44 Chris Dixon]。Chris 抛出了一个最能说明现状的数字：稳定币的交易规模已经可以媲美 Visa 网络，每季度有数万亿美元在其中流转。你可以用它在全球范围内、像发短信一样几乎免费地汇款 [07:05 Chris Dixon]。这在三四年前的区块链上，发一笔可能要花几美元甚至几十美元；但在今天的主流区块链上，结算时间不到一秒，成本不到一美分 [07:56 Chris Dixon]。
+
+技术成熟了，巨量资金进场了，监管的话题自然浮出水面。
+
+## 监管的"半成品"与《清晰法案》的由来
+
+既然在没有规则的情况下行业也长这么大了，为什么现在非得要规则？
+
+Chris 先做了一个切分：按市值算，稳定币大约占整个加密市场的 15%，另外 85% 是包括区块链本身在内的其余资产 [09:35 Chris Dixon]。针对稳定币，去年已经有一部叫做《天才法案》（Genius Act，为稳定币提供全面监管框架的立法）由总统签署成法。这部法案的效果立竿见影——如果你持有一枚符合《天才法案》的稳定币，你知道背后有真实的一美元躺在经审计的银行里，而不是像 FTX 或 Terra Luna 那样随时可能灰飞烟灭 [10:25 Chris Dixon]。
+
+但悬而未决的大问题，是剩下的 85%。这部分至今没有一个全面的联邦监管框架。Chris 打了个绝妙的比方：这就像是有了针对手机的监管规则，却没有针对信号塔的规则 [11:43 Chris Dixon]。企业可以靠监管部门（如 SEC 和 CFTC）的指导意见来做最好的打算，但正如主持人开头提到的，真正能支撑一个行业长期发展的坚实地面，是立法。因为立法是多方妥协的成果，有国会的批准，比机构的指导意见要稳定永久得多 [12:11 Chris Dixon]。这就是《清晰法案》的意义所在。
+
+## 反对声浪之一：给恐怖分子开后门？
+
+《清晰法案》在参议院推进时引发了激烈辩论。第一个反对声浪来自参议员伊丽莎白·沃伦，她把这部法案称为"逃避制裁的门票"，认为如果法案通过，朝鲜、恐怖分子和勒索软件黑客将横行无忌 [20:32 Chris Dixon]。
+
+面对这种指控，Chris 首先指出了当前监管真空带来的真实恶果——逐底竞争（race to the bottom，指企业为了逐利竞相降低标准）。他长期在合规的 Coinbase 董事会任职，深知合规要花大钱、拖慢产品迭代。每年都会冒出一个不搞合规的离岸竞争对手，靠着更低的手续费抢走市场 [21:05 Chris Dixon]。模棱两可的监管最终是在偏袒作恶者。《清晰法案》的做法是清晰划定监管边界：只要你在美国做生意，就必须接受与 Stripe、PayPal 等传统金融科技公司相同的规则约束 [22:10 Chris Dixon]。
+
+Mark 则从国家安全的专业视角给出了完全相反的判断。他接触过的国家安全人员，其实反而希望罪犯多用加密货币，因为区块链本身是一条公开的账本，所有交易都有迹可循 [23:19 Mark Andreessen]。他举了中东恐怖组织常用的 Hawala（一种古老的点对点非正规汇款系统）为例：那种系统没有任何资金实际跨境转移，没有任何数字轨迹，根本无法在边境拦截 [23:50 Mark Andreessen]。相比之下，电视警察剧里罪犯大喊"用比特币汇款不会留痕"的桥段纯属幻想。现实恰恰相反，国家安全人员甚至把加密技术戏称为"起诉期货"（prosecution futures），意思是只要坏人用得多，顺着区块链就能把他们一网打尽 [24:43 Mark Andreessen]。
+
+Mark 还借此回顾了 90 年代发明 SSL（一种为网络通信提供加密的安全协议）时的类似争论。当时加密技术被按出口管制规则归类为"弹药"，等同于战斧导弹，导致 Netscape 不得不向海外发行"故意不安全"的版本 [28:36 Mark Andreessen]。经过四年的游说教育，美国终于放开了加密技术，世界没有因此毁灭，美国工业反而借此主导了全球互联网经济 [30:04 Mark Andreessen]。历史的剧本完全可以在加密行业重演。
+
+## 反对声浪之二：中饱私囊与银行业阻击
+
+法案的另一大争议，是关于政府官员的道德改革。批评者指出，现任总统及其家族涉足加密业务，法案会让他们借机敛财。Chris 坦言，政府官员理应受到适用于股票等各种金融资产的道德约束 [31:51 Chris Dixon]。但《清晰法案》哪怕没有专门的道德条款，它施加的披露和锁仓（lockup，限制特定时期内出售资产）要求，对加密行业的任何参与者都是极大的收紧，甚至比目前针对官员炒股的限制更严 [32:06 Chris Dixon]。把行业监管和官员道德绑在一部法案里，在美国立法史上也是头一遭，这种做法本身在政治上就值得商榷 [32:44 Chris Dixon]。
+
+银行业（尤其是摩根大通）的阻击则是另一场暗战。银行担心，如果允许稳定币像银行存款那样生息，就会引发存款大搬家。Chris 透露，法案最终基本满足了银行的要求——明确规定不能对功能或经济实质上类似于银行账户的稳定币余额支付利息 [36:05 Chris Dixon]。虽然可以搞类似沃尔玛或星巴克那种"使用即返利"的信用卡式奖励，但银行本质上已经得到了他们想要的。
+
+Chris 进一步指出，摩根大通一边试图拖慢法案，一边自己却建有庞大的区块链部门并在链上发行代币化存款 [37:52 Chris Dixon]。其实各大银行都迫切需要一次技术升级：他们底层还有大量几十年前的 COBOL（一种极为古老的编程语言）代码，系统彼此纠缠，谁也无法单独升级 [39:09 Chris Dixon]。区块链不仅给了他们现代化的技术框架，更解决了各银行间的协调难题。高盛、富达、贝莱德的 CEO 们之所以公开支持《清晰法案》，正是因为他们看到了去中介化（disintermediation，移除中间商环节）带来的巨大降本增效空间。
+
+## 反对声浪之三：让开发者背锅，给证券法开洞？
+
+还有一种声音来自前白宫网络安全官员，主张软件开发者应该对自己编写的代码承担更多责任，否则会波及 AI 等其他领域。Mark 对此毫不客气，直言这是对该行业的"致命一击"（kill shot）[42:16 Mark Andreessen]。如果汽车被用来抢银行，造车的工程师难道也是从犯吗？如果让开源开发者为其产品被数百万人使用可能引发的后果承担无限下游责任，开源就死了，紧跟着学术研究、风险投资和初创公司也会跟着死，最后连大公司也逃不掉 [45:01 Mark Andreessen]。Chris 补充道，如果开源软件（无论加密还是 AI）的开发者要承担无限责任，那几个在车库里写代码的年轻人根本承担不起，整个开源生态会被直接扼杀 [44:10 Chris Dixon]。
+
+最后一种担忧，是认为通证化（tokenization，将资产转为区块链上的数字通证）会成为逃避证券法的漏洞。Chris 用一个非常清晰的框架打消了疑虑：如果你把一只股票通证化，它依然受 SEC 当作证券来严格监管 [46:22 Chris Dixon]。《清晰法案》的创新之处在于基于"去中心化程度"进行动态划分——如果一个区块链刚起步，背后有中心化的团队控制和内幕信息，那就归 SEC 按《证券法》严管；当它随着时间推移达到足够去中心化（像今天的比特币或以太坊那样，没有单一控制者），就转归 CFTC（美国商品期货交易委员会）按大宗商品来管 [47:23 Chris Dixon]。这套机制甚至得到了上一届反对加密货币的政府的默许，法案只是把过去十年各方的共识写进了法律。
+
+## 真正的利害：国家的技术霸权
+
+绕开所有的辩论，主持人把视角拉到了最高处：这部法案对国家究竟意味着什么？
+
+Mark 抛出了一个政治学概念——无政府暴政（anarcho-tyranny，一种纵容破坏者发狂、却把守法者监管到死的退化政体）。他痛斥前一届政府推行的正是这种最糟糕的政策：美国国内的初创公司因为没有合法合规路径而惨遭惩罚，海外公司却野蛮生长，最终酿成了 FTX 卷走客户资金的惨剧 [52:04 Mark Andreessen]。真正合理的中间路线，是提供稳定、可预期、保护到位但又留有创新空间的监管。
+
+更深远的意义在于技术霸权。技术一旦被发明就不会消失，问题只在于它是在美国生根，还是跑到别的国家去 [54:32 Mark Andreessen]。让加密行业留在美国，对国家的经济、对 FBI 等执法机构的办案便利、对美国年轻人的教育和就业，都有着压倒性的好处 [55:07 Mark Andreessen]。
+
+Chris 则把目光投向了更远的未来。区块链本质上是一台去中介化机器，短期内你看到的最大用例，会是股票、国债、借贷等传统金融体系的升级版——通过移除中间商，把跨境汇款 8% 到 10% 的手续费降到几乎为零 [56:51 Chris Dixon]。但更长期看，如果未来真的涌现出数十万亿个 AI 智能体在互联网上进行经济交易，它们天然的结算方式就是加密资产 [57:53 Chris Dixon]。
+
+## 本集带走
+
+最后收个尾，这一集值得带走的是三句话。第一，行业要腾飞，先要立规矩。稳定币之所以能在过去一年爆发，正是因为《天才法案》给了消费者一美元背后有真美元托底的确定性，而目前市场另外 85% 的资产还悬在监管真空中，《清晰法案》要补的就是这个洞。第二，面对洗钱和官员敛财的指责要看到实情——区块链本身的公开透明让罪犯无处遁形，反而是监管真空在逼着好公司打输给海外的坏公司；法案施加的披露和锁仓要求，实际上是史无前例的收紧。第三，最根本的利害是国家层面的技术霸权；你不需要喜欢加密货币，但只要未来的全球金融网和 AI 智能体的交易都跑在区块链上，你就只能选择一件事：这套基础设施，到底是由美国公司按美国的法律来建，还是拱手让人。",
+  "quotes": [
+    {
+      "en": "The stablecoin volume, so, you know, stablecoins, for those who don't know, are basically what Mark described with Bitcoin, except they're dollars on blockchains.",
+      "zh": "稳定币的量，所以，你知道，稳定币，对于那些不知道的人，基本上是 Mark 用比特币描述的那样，除了它们是区块链上的美元。",
+      "timestamp": "06:57",
+      "speaker": "Chris Dixon"
+    },
+    {
+      "en": "Even three years ago, what I just described might cost a couple of dollars, if not tens of dollars, to do that transaction.",
+      "zh": "即使在三年前，我刚刚描述的做那笔交易可能要花费几美元，如果不是几十美元的话。",
+      "timestamp": "07:49",
+      "speaker": "Chris Dixon"
+    },
+    {
+      "en": "And so I think just the actual reality of it is if more bad guys were running more money through crypto, I think more bad guys would get caught, not fewer.",
+      "zh": "所以我认为真正的实际情况是，如果更多坏人在加密货币中转移更多钱，我认为更多坏人会被抓，而不是更少。",
+      "timestamp": "25:22",
+      "speaker": "Mark Andreessen"
+    },
+    {
+      "en": "It makes software development impossible because how can any software developer anticipate the use of the software down the road?",
+      "zh": "它让软件开发变得不可能，因为软件开发人员怎么能预见到软件未来的用途呢？",
+      "timestamp": "42:19",
+      "speaker": "Mark Andreessen"
+    },
+    {
+      "en": "If you saddle people who build products that get used by many people for many reasons, if you saddle them with downstream liability for the uses, it just kills the industry, which is clearly the goal.",
+      "zh": "如果你让那些制造产品的人承担下游使用责任，而这些产品被许多人出于多种原因使用，你如果给他们强加这种下游使用的责任，这只会扼杀这个行业，这显然就是目的。",
+      "timestamp": "42:42",
+      "speaker": "Mark Andreessen"
+    },
+    {
+      "en": "So open source dies because open source dies, academic research dies.",
+      "zh": "所以开源死了，因为开源死了，学术研究也死了。",
+      "timestamp": "44:50",
+      "speaker": "Mark Andreessen"
+    },
+    {
+      "en": "So anarcho-tyranny is a social government by which you regulate the law-abiding people to death.",
+      "zh": "所以无政府暴政是一种社会政府，通过它你监管守法的人直到死。",
+      "timestamp": "52:07",
+      "speaker": "Mark Andreessen"
+    },
+    {
+      "en": "And the anarcho part of it is you let the rule breakers go absolutely nuts.",
+      "zh": "无政府的部分是你让破坏规则的人彻底发疯。",
+      "timestamp": "52:12",
+      "speaker": "Mark Andreessen"
+    },
+    {
+      "en": "What you can do is sort of more complicated things like if somebody did multiple transactions and if they did sort of a formula that's not functionally or economically similar to paying out on a balance.",
+      "zh": "你可以做的是更复杂的事情，比如如果某人进行了多次交易，如果他们使用了某种在功能或经济上不像支付余额那样的公式。",
+      "timestamp": "36:30",
+      "speaker": "Chris Dixon"
+    },
+    {
+      "en": "What I've learned is when you have gray areas in regulation, you have essentially a race to the bottom.",
+      "zh": "我学到的是，当监管中有灰色地带时，你基本上是一场逐底竞争。",
+      "timestamp": "21:00",
+      "speaker": "Chris Dixon"
+    },
+    {
+      "en": "This bill as proposed right now would be the first bill in US history, I'm told, that regulates an industry and also adds specific ethics provisions for government officials in it.",
+      "zh": "据我所知，目前提出的这项法案将是美国历史上第一个监管一个行业并在其中为政府官员添加具体道德条款的法案。",
+      "timestamp": "32:44",
+      "speaker": "Chris Dixon"
+    },
+    {
+      "en": "I think of a simple way to think of a blockchain is a disintermediation machine.",
+      "zh": "我认为考虑区块链的一个简单方法是把它看作一台去中介化机器。",
+      "timestamp": "56:26",
+      "speaker": "Chris Dixon"
+    },
+    {
+      "en": "You can imagine Internet of billions and trillions of AI agents conducting economic transactions and the natural way they would do that would be through crypto assets.",
+      "zh": "你可以想象拥有数十亿和数万亿 AI agents 进行经济交易的互联网，而它们自然的交易方式将是通过加密资产。",
+      "timestamp": "57:53",
+      "speaker": "Chris Dixon"
+    }
+  ]
+}
+```

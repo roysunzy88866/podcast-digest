@@ -7,27 +7,29 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Gemini</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Gemini">GE</div><div class="pi"><h1 class="pt">Gemini</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Gemini">GE</div><div class="pi"><h1 class="pt">Gemini</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]]**(44:57起):本集说 Google 正利用分发优势强推它，并提到普通人根本分不清它和 Claude 的区别，未来可能会驱动 iOS 上的 Apple 智能体。
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(26:58起):本集把它说成:Kat 在做 2D 格斗游戏时,让 Claude Code 调用 Gemini 的 API 来生成视频动画
+- **[[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|《Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点》]]**(00:24起):本集把它说成：Google 的超通用大模型，可以通过 API 供任何人做上下文工程；其 Flash 版本又快又轻量，正是得益于蒸馏技术。
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为概念
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念
+- [[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|《Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[Claude Code]] · [[Benedict Evans]] · [[Simon Willison]] · [[Lenny]] · [[Cat Wu]] · [[OpenAI]] · [[Thariq Shihipar]] · [[Google]] · [[ClaudeTag]]
+[[Anthropic]] · [[智能体]] · [[Google]] · [[Claude Code]] · [[Benedict Evans]] · [[Simon Willison]] · [[Jeff Dean]] · [[Lenny]] · [[Cat Wu]] · [[多智能体系统]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":28,"Claude Code":13,"Benedict Evans":1,"Simon Willison":1,"Lenny":32,"Cat Wu":1,"OpenAI":24,"Thariq Shihipar":1,"Google":10,"ClaudeTag":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":28,"智能体":49,"Google":11,"Claude Code":13,"Benedict Evans":1,"Simon Willison":1,"Jeff Dean":1,"Lenny":32,"Cat Wu":1,"多智能体系统":1}</script>
 
 <script>
 (function(){
@@ -59,7 +61,8 @@ unlisted: true
       var el=document.querySelector('#quartz-body > .sidebar '+sel) || document.querySelector('.sidebar '+sel);
       if(el && el.parentElement!==host) host.appendChild(el);
     }
-    ['.search','.readermode'].forEach(function(sel){ grab(sel,acts); });
+    // 只搬搜索;阅读模式不并进顶栏(设计稿详情页顶栏只有分享+收藏,用户 2026-08-01 拍板摘掉)。
+    ['.search'].forEach(function(sel){ grab(sel,acts); });
     // 深浅色进右栏末尾 —— 但右栏在窄屏可能不显示,槽跟着一起没了。
     // 只在槽真的看得见时才搬进去,看不见就退回顶栏(🔒 #2:任何屏宽都得有入口)。
     var side=document.querySelector('.right.sidebar'), slot=null;
