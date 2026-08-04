@@ -1,0 +1,22 @@
+{
+  "id": "2026-08-04-a16z-openais-joshua-achiam-did-we-already-rea",
+  "audio_mp3": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/3f86df7b-51c6-4101-88a2-550dba782de8/episodes/877d13fc-d13f-4690-9859-6605a2f2b404/audio/128/default.mp3?aid=rss_feed&awCollectionId=3f86df7b-51c6-4101-88a2-550dba782de8&awEpisodeId=877d13fc-d13f-4690-9859-6605a2f2b404&feed=JGE3yC0V",
+  "duration_sec": 1858.548,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 320,
+  "asr": true,
+  "title_en": "OpenAI's Joshua Achiam: Did We Already Reach AGI?",
+  "podcast": "The a16z Show",
+  "date": "2026-08-04",
+  "speaker_map": {
+    "SPEAKER_00": "Theo Jaffe",
+    "SPEAKER_01": "Joshua Achiam",
+    "SPEAKER_02": "Theo Jaffe"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Theo Jaffe",
+  "cohosts": [
+    "Joshua Achiam"
+  ]
+}
