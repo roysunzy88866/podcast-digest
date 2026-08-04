@@ -31,7 +31,7 @@ unlisted: true
 
 [[Jensen Wong]] · [[Mike Allen]] · [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[Microsoft]] · [[开放模型]] · [[封闭模型]] · [[沙箱]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"Jensen Wong":1,"Mike Allen":1,"NVIDIA":8,"OpenAI":25,"Anthropic":31,"Microsoft":6,"开放模型":1,"封闭模型":1,"沙箱":9,"智能体":50}</script>
+<script type="application/json" class="pd-epn">{"Jensen Wong":1,"Mike Allen":1,"NVIDIA":8,"OpenAI":26,"Anthropic":31,"Microsoft":6,"开放模型":1,"封闭模型":1,"沙箱":9,"智能体":50}</script>
 
 <script>
 (function(){

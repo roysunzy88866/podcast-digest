@@ -27,7 +27,7 @@ unlisted: true
 
 [[Anthropic]] · [[Lenny]] · [[Lance Martin]] · [[Kat Wu]] · [[OpenAI]] · [[Claude Code]] · [[任务视界]] · [[Co-work]] · [[测试框架]] · [[产品品味]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":31,"Lenny":33,"Lance Martin":1,"Kat Wu":1,"OpenAI":25,"Claude Code":13,"任务视界":1,"Co-work":2,"测试框架":4,"产品品味":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":31,"Lenny":33,"Lance Martin":1,"Kat Wu":1,"OpenAI":26,"Claude Code":13,"任务视界":1,"Co-work":2,"测试框架":4,"产品品味":1}</script>
 
 <script>
 (function(){

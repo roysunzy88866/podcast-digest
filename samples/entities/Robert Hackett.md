@@ -25,7 +25,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]]
+[[Josh]] [[Matt]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]]
 
 </div>
 

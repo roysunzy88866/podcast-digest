@@ -1,0 +1,850 @@
+{
+  "episode_id": "2026-08-04-trainingdata-chai-discovery-s-bitter-lesson-drug-desi",
+  "podcast": "Training Data",
+  "date": "2026-08-04",
+  "tags": [
+    "药物发现",
+    "扩散模型",
+    "扩展定律",
+    "抗体设计",
+    "AI 基础设施"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "josh",
+      "type": "person",
+      "role": "host",
+      "name": "Josh",
+      "file": "Josh",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            49.115,
+            65.742
+          ],
+          "quote": "here with josh and matt two of the co-founders of chai discovery chai is engineering molecules with ai so it's something of a foundation model lab for biology sounds like a big idea but let me just start there what is the big idea thanks for having us on on the show um",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 80,
+          "t": [
+            491.35,
+            498.456
+          ],
+          "quote": "Josh, talk a bit about your background and then more broadly, in order to pull this off, you have a bunch of different disciplines that kind of come together.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 185,
+          "t": [
+            1054.283,
+            1060.69
+          ],
+          "quote": "Yeah, so, like, honestly, I think Josh and I were both surprised at how quickly this worked.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 390,
+          "t": [
+            2084.226,
+            2087.969
+          ],
+          "quote": "Josh, interestingly, was taking the exact opposite approach.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2130.477,
+            2134.78
+          ],
+          "quote": "So I was taking like this really structure-based approach and Josh was even more bitter lesson pilled to me.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 491,
+          "t": [
+            2654.453,
+            2655.313
+          ],
+          "quote": "Josh is the visionary.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 529,
+          "t": [
+            2804.253,
+            2808.861
+          ],
+          "quote": "Matt, Josh, thank you for engineering biology and thank you for sharing your story with us today.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "matt",
+      "type": "person",
+      "role": "cohost",
+      "name": "Matt",
+      "file": "Matt",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            49.115,
+            65.742
+          ],
+          "quote": "here with josh and matt two of the co-founders of chai discovery chai is engineering molecules with ai so it's something of a foundation model lab for biology sounds like a big idea but let me just start there what is the big idea thanks for having us on on the show um",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 54,
+          "t": [
+            371.673,
+            381.117
+          ],
+          "quote": "I remember one of these early discussions actually back in Matt's house when we were, you know, Matt was showing me some of these results on like antibody antigen, like structure prediction.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 55,
+          "t": [
+            381.137,
+            382.738
+          ],
+          "quote": "Matt was just talking about protein folding.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 79,
+          "t": [
+            489.148,
+            490.789
+          ],
+          "quote": "And Matt, you mentioned your background a little bit.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 83,
+          "t": [
+            509.318,
+            510.539
+          ],
+          "quote": "So I guess I'm like Matt.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 95,
+          "t": [
+            542.159,
+            547.202
+          ],
+          "quote": "I think that intersects with around the time Matt got into the field as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 97,
+          "t": [
+            555.767,
+            570.728
+          ],
+          "quote": "know matt talked a bit about the history of what's happened in the fields here um but you know it's all about like how do we find like the right deep learning architectures with the right compute configuration and the right model architectures to make this happen what are the right tasks to apply it to we're talking about how we even knew that like",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 98,
+          "t": [
+            571.008,
+            596.357
+          ],
+          "quote": "you know 2024 is the right time to start the company as matt was saying you know these are all different like kinds of amino acid sequences and people thought that you know antibody class of problem was going to be too hard and we started to see the first signs of life that actually this was starting to work i think a lot of it fueled by some of the new architectures we're bringing to the problems where i think it was diffusion models back then the first time like anyone was able to generate reasonable looking proteins uh",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1202.763,
+            1204.263
+          ],
+          "quote": "So a lot of the things that Matt's saying-",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1204.823,
+            1221.984
+          ],
+          "quote": "are the guiding principles so i think simplicity was one of the ones that matt mentioned it's this like bitter lesson illness of like you know scaling compute and data and models uh it's being really rigorous uh that's something that's so important in this space you can fool yourself so easily in biology like the error bars in the wet lab are actually quite large as well",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1749.19,
+            1757.46
+          ],
+          "quote": "Our bet when we started to go back to those results in Matt's house a few years ago was that this is how most future drugs are going to be discovered.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1761.965,
+            1769.614
+          ],
+          "quote": "I think part of this, too, is a lot of our founding team, including Matt and I, had worked in companies before where we had built these full-stack drug pipelines.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 428,
+          "t": [
+            2324.872,
+            2328.954
+          ],
+          "quote": "And, you know, Matt talked about how like, maybe you don't want to add like module 24 to the CHI model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2535.683,
+            2556.808
+          ],
+          "quote": "know i think many of us in the company right like we've been working in ai for a long time right there's all this experience you've built up and and to know that you're applying it to something that really matters like just even i think just take matt and and like we've been working on this problem for like 10 years right and a couple of years ago i'm looking at something like yeah we're writing some cool papers like everyone is like celebrating this are we actually making the world better like is this actually going to impact some patients and",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2716.712,
+            2739.372
+          ],
+          "quote": "know have a good sense that your program was going to work like now that's changed someone might zero shot a molecule and be like i think we're going to bring this program to the clinic now and then a year later uh you know they might even have some of those first uh molecules going into patients and just the speed of that is is just incredible and it's uh you know sometimes you get some shivers thinking about this that like okay my model is gonna like matt has some patents from our last company about you know like",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 529,
+          "t": [
+            2804.253,
+            2808.861
+          ],
+          "quote": "Matt, Josh, thank you for engineering biology and thank you for sharing your story with us today.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "chai-discovery",
+      "type": "company",
+      "role": "company",
+      "name": "Chai Discovery",
+      "file": "Chai Discovery",
+      "primary": true,
+      "how_described": "本集说它是一家使用 AI 工程化分子的公司（创始人是 Josh 和 Matt），旨在把药物发现过程变得像工程学，其模型 Chai-2 将抗体设计的结合率从千分之一提升到了约 15%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            49.115,
+            65.742
+          ],
+          "quote": "here with josh and matt two of the co-founders of chai discovery chai is engineering molecules with ai so it's something of a foundation model lab for biology sounds like a big idea but let me just start there what is the big idea thanks for having us on on the show um",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2644.897,
+            2646.699
+          ],
+          "quote": "Why are you guys called Chai Discovery?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到 Josh 参与了它早期的工作，当时还是非营利组织，并参与了 GPT-1 和 GPT-2 的研发。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 88,
+          "t": [
+            520.546,
+            522.988
+          ],
+          "quote": "I really started my career at OpenAI.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2210.105,
+            2211.726
+          ],
+          "quote": "When I was at OpenAI, we worked on...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "eli-lilly",
+      "type": "company",
+      "role": "company",
+      "name": "Eli Lilly",
+      "file": "Eli Lilly",
+      "primary": false,
+      "how_described": "本集提到它是 Chai Discovery 的制药巨头合作伙伴之一（被称为万亿美元级制药公司），是非常严谨的客户。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 333,
+          "t": [
+            1826.518,
+            1829.66
+          ],
+          "quote": "You look at our partners, Eli Lilly, Novartis, Organics, Pfizer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1933.038,
+            1935.978
+          ],
+          "quote": "Eli Lilly is a trillion dollar pharma company right now.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "novartis",
+      "type": "company",
+      "role": "company",
+      "name": "Novartis",
+      "file": "Novartis",
+      "primary": false,
+      "how_described": "本集提到它是 Chai Discovery 在制药行业的合作伙伴之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 333,
+          "t": [
+            1826.518,
+            1829.66
+          ],
+          "quote": "You look at our partners, Eli Lilly, Novartis, Organics, Pfizer.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "pfizer",
+      "type": "company",
+      "role": "company",
+      "name": "Pfizer",
+      "file": "Pfizer",
+      "primary": false,
+      "how_described": "本集提到它是 Chai Discovery 在制药行业的合作伙伴之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 333,
+          "t": [
+            1826.518,
+            1829.66
+          ],
+          "quote": "You look at our partners, Eli Lilly, Novartis, Organics, Pfizer.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 431,
+          "t": [
+            2343.9,
+            2350.042
+          ],
+          "quote": "And he's got 20 years' experience in, like, Pfizer and Genentech, like, really honing in these methods, has a drug approval to his name in antibodies.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "genentech",
+      "type": "company",
+      "role": "company",
+      "name": "Genentech",
+      "file": "Genentech",
+      "primary": false,
+      "how_described": "本集提到他们团队的一名科学家 Andy Young 曾在此积累了 20 年的抗体研发经验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 431,
+          "t": [
+            2343.9,
+            2350.042
+          ],
+          "quote": "And he's got 20 years' experience in, like, Pfizer and Genentech, like, really honing in these methods, has a drug approval to his name in antibodies.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "drug-discovery",
+      "type": "concept",
+      "role": "concept",
+      "name": "药物发现 (drug discovery)",
+      "file": "药物发现",
+      "primary": true,
+      "how_described": "本集把它说成一种像大海捞针的过程：通常需要筛选数百万甚至数十亿个分子，充满试错，才能找到一个有效的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            67.307,
+            73.491
+          ],
+          "quote": "One of the exciting things we're trying to do at CHI is to make the drug discovery process look a little bit more like engineering.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            96.546,
+            112.835
+          ],
+          "quote": "And what we're trying to do is allow us to industrialize that process a little bit more and try to come up with the tools that we'd need in order to have abstraction layers the same way we have that in code and in modern engineering laws iterate really quickly and try to bring that into into biology and into drug discovery.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 24,
+          "t": [
+            142.667,
+            164.776
+          ],
+          "quote": "that's one way to think about it um the way that we often uh look at this is like the lab is an important part to verify that what you're doing is correct and actually verification is a very big theme in ai as well if you can evaluate that your model works you can verify it then you can start to hill climb that and you can make progress on it so i think the lab is a very important part of this and the question is how do we take drug discovery and make it look a lot more like drug design",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 25,
+          "t": [
+            165.296,
+            188.391
+          ],
+          "quote": "so one of the reasons why we call this field drug discovery is we're often looking for a needle in a haystack we'll screen millions billions of molecules try to find one that works and if we can instead put in what is like the dream state of the molecule you want and then the model can materialize that that's going to be really powerful so it's not even a question of like reducing lab testing i mean maybe that happens as a result i actually might even take the opposite side of the coin and we can talk about that where",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 177,
+          "t": [
+            965.196,
+            970.74
+          ],
+          "quote": "If you look at what a lot of the drug discovery AI work was at the time, it was about how do I take a molecule and just make it a little bit better?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2321.449,
+            2324.451
+          ],
+          "quote": "People have done drug discovery a certain way for a long time.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "drug-design",
+      "type": "concept",
+      "role": "concept",
+      "name": "药物设计 (drug design)",
+      "file": "药物设计",
+      "primary": true,
+      "how_described": "本集把它描述为药物发现想要转变的范式：输入你想要的分子特征（就像梦想状态），然后模型直接把这个分子生成出来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            142.667,
+            164.776
+          ],
+          "quote": "that's one way to think about it um the way that we often uh look at this is like the lab is an important part to verify that what you're doing is correct and actually verification is a very big theme in ai as well if you can evaluate that your model works you can verify it then you can start to hill climb that and you can make progress on it so i think the lab is a very important part of this and the question is how do we take drug discovery and make it look a lot more like drug design",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 48,
+          "t": [
+            324.775,
+            327.898
+          ],
+          "quote": "And that's getting closer and closer to like the drug design problem.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "antibody-design",
+      "type": "concept",
+      "role": "concept",
+      "name": "抗体设计 (antibody design)",
+      "file": "抗体设计",
+      "primary": true,
+      "how_described": "本集把它描述为行业的“圣杯”，过去因为太难且数据太少被认为遥不可及，Chai-2 模型将其成功率（结合率）从千分之一大幅提升到了 15%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            394.323,
+            397.725
+          ],
+          "quote": "And people as a result thought that like antibody design was going to be out of reach.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 153,
+          "t": [
+            838.543,
+            841.407
+          ],
+          "quote": "We didn't hire antibody engineers before in an antibody design model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 180,
+          "t": [
+            997.672,
+            1002.514
+          ],
+          "quote": "When we started the company, the state of the art for antibody design was about like a 0.1% binding rate.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "protein-folding",
+      "type": "concept",
+      "role": "concept",
+      "name": "蛋白质折叠 (protein folding)",
+      "file": "蛋白质折叠",
+      "primary": true,
+      "how_described": "本集说它是预测蛋白质三维形状的问题，在 2018 到 2020 年深度学习入场后成为能解的问题，推动了整个 AI 生物学领域的演进。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            225.86,
+            231.582
+          ],
+          "quote": "So it really wasn't until like, you can actually look back, there's like this biannual protein folding competition.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 34,
+          "t": [
+            231.602,
+            242.768
+          ],
+          "quote": "So every two years, usually a bunch of academic groups who compete in this protein folding competition, what would happen is like you kind of hold out these protein targets that no one's ever seen before, they never get deposited publicly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 45,
+          "t": [
+            312.107,
+            313.528
+          ],
+          "quote": "So it started with protein folding.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 55,
+          "t": [
+            381.137,
+            382.738
+          ],
+          "quote": "Matt was just talking about protein folding.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 56,
+          "t": [
+            383.598,
+            388.48
+          ],
+          "quote": "But for a long time, people thought that protein folding for antibodies was just like too hard of a problem.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "diffusion-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "扩散模型 (diffusion models)",
+      "file": "扩散模型",
+      "primary": true,
+      "how_described": "本集把它描述为一种逐步去噪的生成式 AI 方法，在 2021-2022 年成熟，让大家能同时生成蛋白质的结构和序列，突破了生物学的设计瓶颈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            340.33,
+            368.795
+          ],
+          "quote": "2021 2022 time and then kind of these ideas began to merge together it was really like the advent of diffusion models where we started to be able like okay i can now generate a protein structure and a sequence kind of simultaneously um and i can start making these like what we'd call prompts more and more realistic so i can now prompt these models on a target that might have a certain shape and i can say hey i want to bind over here kind of like add more real world constraints on the problem what did you guys see in 2024 that made you think that was the right time to start the company",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 98,
+          "t": [
+            571.008,
+            596.357
+          ],
+          "quote": "you know 2024 is the right time to start the company as matt was saying you know these are all different like kinds of amino acid sequences and people thought that you know antibody class of problem was going to be too hard and we started to see the first signs of life that actually this was starting to work i think a lot of it fueled by some of the new architectures we're bringing to the problems where i think it was diffusion models back then the first time like anyone was able to generate reasonable looking proteins uh",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 99,
+          "t": [
+            596.917,
+            599.099
+          ],
+          "quote": "was the advent of diffusion models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 105,
+          "t": [
+            613.971,
+            616.133
+          ],
+          "quote": "But it was really once diffusion models came around.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 106,
+          "t": [
+            616.213,
+            618.995
+          ],
+          "quote": "Is there an intuition for why diffusion models work?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 172,
+          "t": [
+            922.403,
+            943.579
+          ],
+          "quote": "you've had a number of it seems like aha moments in the field like alpha fold was an aha we can figure out how protein folds and then the diffusion models aha like we can generate proteins um and it seems like your latest models are a kind of another aha moment we're not only generating molecules that look like proteins but they also have therapeutic properties like they can bind really tightly",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bitter-lesson",
+      "type": "concept",
+      "role": "concept",
+      "name": "苦涩的教训 (bitter lesson)",
+      "file": "苦涩的教训",
+      "primary": true,
+      "how_described": "本集提到 Chai 团队深受此启发，即与其堆砌人类设计的复杂技巧，不如老老实实地去扩展数据和算力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 198,
+          "t": [
+            1108.542,
+            1112.485
+          ],
+          "quote": "Yeah, so one thing that I really like about Chai is we're a very bitter lesson pilled company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1204.823,
+            1221.984
+          ],
+          "quote": "are the guiding principles so i think simplicity was one of the ones that matt mentioned it's this like bitter lesson illness of like you know scaling compute and data and models uh it's being really rigorous uh that's something that's so important in this space you can fool yourself so easily in biology like the error bars in the wet lab are actually quite large as well",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1772.978,
+            1774.879
+          ],
+          "quote": "again, we're pretty bitter lesson pilled as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2130.477,
+            2134.78
+          ],
+          "quote": "So I was taking like this really structure-based approach and Josh was even more bitter lesson pilled to me.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "wet-lab",
+      "type": "concept",
+      "role": "concept",
+      "name": "湿实验室 (wet lab)",
+      "file": "湿实验室",
+      "primary": true,
+      "how_described": "本集说它是验证模型预测结果是否正确的关键环节（在实际液体环境中做实验），但误差线较大，需要保持严谨以防自欺欺人。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 214,
+          "t": [
+            1204.823,
+            1221.984
+          ],
+          "quote": "are the guiding principles so i think simplicity was one of the ones that matt mentioned it's this like bitter lesson illness of like you know scaling compute and data and models uh it's being really rigorous uh that's something that's so important in this space you can fool yourself so easily in biology like the error bars in the wet lab are actually quite large as well",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 291,
+          "t": [
+            1613.651,
+            1618.113
+          ],
+          "quote": "Let's imagine a lot of innovation has flowed downstream into some of the wet lab parts of the process.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2329.334,
+            2335.576
+          ],
+          "quote": "But people have added, like, module 240 to, like, the existing wet lab protocols, and they have been, like, tuned quite considerably.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "scaling-laws",
+      "type": "concept",
+      "role": "concept",
+      "name": "缩放定律 (scaling laws)",
+      "file": "缩放定律",
+      "primary": true,
+      "how_described": "本集把它描述为一种必须去识别的核心原则，只要不断扩展数据和算力并降低损失，模型就能自动学到靶点的内在特征并解锁新目标。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            528.592,
+            533.855
+          ],
+          "quote": "We did GPT-1, GPT-2, scaling laws.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1088.149,
+            1093.392
+          ],
+          "quote": "Well same principles, but one of the things we've talked about before is how you manage to find scaling laws.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1116.408,
+            1119.23
+          ],
+          "quote": "In order to do that, obviously, you need to identify scaling laws.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1378.227,
+            1402.623
+          ],
+          "quote": "will this actually like help us generalize to the broader class of like these this whole class of targets that we we really can't hit and so like our our philosophy has been like all right let's just like continue to focus like identify your scaling laws like there there comes a point where like if the model is able to push loss down even further it has to understand like something like very uh intrinsic about the target that it's operating on so like one example we were talking about the other day paul and i",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1421.011,
+            1427.313
+          ],
+          "quote": "So there are all these hidden features of targets where if you really believe in scaling laws, you can believe the models will get there.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "zero-shot",
+      "type": "concept",
+      "role": "concept",
+      "name": "零样本 (zero shot)",
+      "file": "零样本",
+      "primary": false,
+      "how_described": "本集说现在 AI 已经能够零样本地直接生成具有特定特性的分子，而不需要以前那种在循环中不断做实验微调的试错方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 178,
+          "t": [
+            971.18,
+            991.79
+          ],
+          "quote": "right which we just talked about in a sense but it was doing it with a lab in the loop uh style right where i take some data try to make it better that way and the the question uh we started with is well can we actually just like do all that on the computer right is there a way that the there maybe there would be enough data or we could collect enough data um so that we could just zero shot a molecule that has a lot of these properties",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 509,
+          "t": [
+            2713.23,
+            2716.272
+          ],
+          "quote": "Like a year ago, you could not zero shot a molecule and like,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 510,
+          "t": [
+            2716.712,
+            2739.372
+          ],
+          "quote": "know have a good sense that your program was going to work like now that's changed someone might zero shot a molecule and be like i think we're going to bring this program to the clinic now and then a year later uh you know they might even have some of those first uh molecules going into patients and just the speed of that is is just incredible and it's uh you know sometimes you get some shivers thinking about this that like okay my model is gonna like matt has some patents from our last company about you know like",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

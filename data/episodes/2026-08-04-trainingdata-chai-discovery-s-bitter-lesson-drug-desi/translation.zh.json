@@ -1,0 +1,4258 @@
+[
+ {
+  "seg": 0,
+  "start": 0.111,
+  "end": 2.312,
+  "speaker": "Unknown",
+  "en": "One of our big guiding principles is just simplicity.",
+  "zh": "我们的一个主要指导原则就是简单。"
+ },
+ {
+  "seg": 1,
+  "start": 3.013,
+  "end": 8.996,
+  "speaker": "Unknown",
+  "en": "So when you look at a model like, let's say, Chai1, I think there are 23 distinct submodules in Chai1.",
+  "zh": "所以当你看一个像,比如说,Chai1 这样的模型时,我想 Chai1 里有 23 个不同的子模块。"
+ },
+ {
+  "seg": 2,
+  "start": 9.716,
+  "end": 15.7,
+  "speaker": "Unknown",
+  "en": "And when you're trying to iterate on something like that, it gets really hard because you're like, I kind of need to understand each of these submodules independently.",
+  "zh": "当你试图迭代这样的东西时,变得非常难,因为你就像,我需要独立理解这些子模块中的每一个。"
+ },
+ {
+  "seg": 3,
+  "start": 15.74,
+  "end": 17.981,
+  "speaker": "Unknown",
+  "en": "I need to understand all of their behaviors, their dynamics.",
+  "zh": "我需要理解它们所有的行为,它们的动态。"
+ },
+ {
+  "seg": 4,
+  "start": 18.341,
+  "end": 31.583,
+  "speaker": "Unknown",
+  "en": "and like that doesn't actually scale that well um so like you can start to think okay how do i simplify this how to identify like what's what's really important and once you have that like kind of the whole research process and like identifying these types of scaling directions becomes a lot simpler",
+  "zh": "而且那其实并不能很好地扩展,所以就像你可以开始思考,好的我要如何简化这个,如何识别出什么是真正重要的,一旦你有了那个,整个研究过程和识别这些类型的扩展方向就变得简单多了。"
+ },
+ {
+  "seg": 5,
+  "start": 49.115,
+  "end": 65.742,
+  "speaker": "Unknown",
+  "en": "here with josh and matt two of the co-founders of chai discovery chai is engineering molecules with ai so it's something of a foundation model lab for biology sounds like a big idea but let me just start there what is the big idea thanks for having us on on the show um",
+  "zh": "这里是 Josh 和 Matt,Chai Discovery 的两位联合创始人,Chai 正在使用 AI 工程化分子,所以它有点像是生物学的基础模型实验室。听起来是个大主意,但我就从那里开始吧,什么是大主意。谢谢邀请我们上节目,嗯。"
+ },
+ {
+  "seg": 6,
+  "start": 67.307,
+  "end": 73.491,
+  "speaker": "Unknown",
+  "en": "One of the exciting things we're trying to do at CHI is to make the drug discovery process look a little bit more like engineering.",
+  "zh": "我们在 CHI 尝试做的令人兴奋的事情之一是让药物发现过程看起来更像工程学一点。"
+ },
+ {
+  "seg": 7,
+  "start": 73.852,
+  "end": 77.514,
+  "speaker": "Unknown",
+  "en": "And we've seen all the work happening with alums for code generation, for instance, right?",
+  "zh": "我们已经看到了所有正在进行的工作,比如用于代码生成的 alums(可能指 alumni/algo 模型),对吧?"
+ },
+ {
+  "seg": 8,
+  "start": 77.554,
+  "end": 81.137,
+  "speaker": "Unknown",
+  "en": "And that works really well because code's a very simple abstraction, right?",
+  "zh": "这之所以非常有效,是因为代码是一个非常简单的抽象,对吧?"
+ },
+ {
+  "seg": 9,
+  "start": 81.197,
+  "end": 83.158,
+  "speaker": "Unknown",
+  "en": "To kind of get across what you want to do.",
+  "zh": "来表达你想做的事情。"
+ },
+ {
+  "seg": 10,
+  "start": 83.178,
+  "end": 84.919,
+  "speaker": "Unknown",
+  "en": "Biology doesn't look like that today.",
+  "zh": "今天的生物学看起来不是那样的。"
+ },
+ {
+  "seg": 11,
+  "start": 84.939,
+  "end": 86.12,
+  "speaker": "Unknown",
+  "en": "It's a lot of trial and error.",
+  "zh": "它有很多试错。"
+ },
+ {
+  "seg": 12,
+  "start": 86.14,
+  "end": 89.723,
+  "speaker": "Unknown",
+  "en": "I think if we go back to the early days of...",
+  "zh": "我认为如果我们回到早期..."
+ },
+ {
+  "seg": 13,
+  "start": 90.623,
+  "end": 91.884,
+  "speaker": "Unknown",
+  "en": "of just like modern biotech, right?",
+  "zh": "就像现代生物技术早期,对吧?"
+ },
+ {
+  "seg": 14,
+  "start": 91.904,
+  "end": 94.925,
+  "speaker": "Unknown",
+  "en": "A lot of the medicines that we have today were kind of discovered quite randomly.",
+  "zh": "我们今天拥有的许多药物都是相当随机地发现的。"
+ },
+ {
+  "seg": 15,
+  "start": 95.246,
+  "end": 96.286,
+  "speaker": "Unknown",
+  "en": "It was a bit serendipitous.",
+  "zh": "这有点机缘巧合。"
+ },
+ {
+  "seg": 16,
+  "start": 96.546,
+  "end": 112.835,
+  "speaker": "Unknown",
+  "en": "And what we're trying to do is allow us to industrialize that process a little bit more and try to come up with the tools that we'd need in order to have abstraction layers the same way we have that in code and in modern engineering laws iterate really quickly and try to bring that into into biology and into drug discovery.",
+  "zh": "我们试图做的是让我们能够更多地工业化这一过程,并尝试拿出我们需要的工具,以便拥有像我们在代码和现代工程定律中那样的抽象层,迭代得非常快,并试图将其带入生物学和药物发现。"
+ },
+ {
+  "seg": 17,
+  "start": 112.855,
+  "end": 114.456,
+  "speaker": "Unknown",
+  "en": "So so let me ask you a question on that then.",
+  "zh": "那么让我在那方面问你一个问题。"
+ },
+ {
+  "seg": 18,
+  "start": 114.476,
+  "end": 117.278,
+  "speaker": "Unknown",
+  "en": "So there's and tell me if this is a reasonable way to frame it.",
+  "zh": "如果这是一个合理的框架方式,请告诉我。"
+ },
+ {
+  "seg": 19,
+  "start": 117.878,
+  "end": 123.963,
+  "speaker": "Unknown",
+  "en": "there's almost this boundary between that which can be engineered and that which needs to be tested in the real world.",
+  "zh": "在可以被工程化的东西和需要在现实世界中测试的东西之间几乎存在着这样一个界限。"
+ },
+ {
+  "seg": 20,
+  "start": 124.624,
+  "end": 127.266,
+  "speaker": "Unknown",
+  "en": "And it feels like that boundary has been moving over time.",
+  "zh": "感觉这个界限一直在随时间移动。"
+ },
+ {
+  "seg": 21,
+  "start": 127.366,
+  "end": 135.572,
+  "speaker": "Unknown",
+  "en": "Like the proportion of the drug development process that can be engineered as opposed to trial and errored seems to be increasing.",
+  "zh": "就像药物开发过程中可以被工程化的部分相对于试错的部分似乎在增加。"
+ },
+ {
+  "seg": 22,
+  "start": 135.693,
+  "end": 137.114,
+  "speaker": "Unknown",
+  "en": "Is that a reasonable way to think about it?",
+  "zh": "这是一个合理的思考方式吗?"
+ },
+ {
+  "seg": 23,
+  "start": 137.274,
+  "end": 142.058,
+  "speaker": "Unknown",
+  "en": "If so, can you talk about like what specific developments have pushed that boundary over time?",
+  "zh": "如果是的话,你能谈谈具体有哪些发展推动了那个界限随时间变化吗?"
+ },
+ {
+  "seg": 24,
+  "start": 142.667,
+  "end": 164.776,
+  "speaker": "Unknown",
+  "en": "that's one way to think about it um the way that we often uh look at this is like the lab is an important part to verify that what you're doing is correct and actually verification is a very big theme in ai as well if you can evaluate that your model works you can verify it then you can start to hill climb that and you can make progress on it so i think the lab is a very important part of this and the question is how do we take drug discovery and make it look a lot more like drug design",
+  "zh": "这是一种思考方式,我们通常看待这个问题的方式是,实验室是验证你在做什么是正确的重要组成部分,而实际上验证也是 AI 中一个非常大的主题,如果你能评估你的模型有效,你能验证它,那么你就可以开始向那个方向攀登,你可以取得进展,所以我认为实验室是这个过程非常重要的一部分,问题是我们如何进行药物发现并让它看起来更像药物设计"
+ },
+ {
+  "seg": 25,
+  "start": 165.296,
+  "end": 188.391,
+  "speaker": "Unknown",
+  "en": "so one of the reasons why we call this field drug discovery is we're often looking for a needle in a haystack we'll screen millions billions of molecules try to find one that works and if we can instead put in what is like the dream state of the molecule you want and then the model can materialize that that's going to be really powerful so it's not even a question of like reducing lab testing i mean maybe that happens as a result i actually might even take the opposite side of the coin and we can talk about that where",
+  "zh": "所以我们称这个领域为药物发现的原因之一是我们经常在干草堆里找针,我们会筛选数百万、数十亿分子试图找到一个有效的,如果我们反过来输入你想要的分子的梦想状态,然后模型可以实现它,那将非常强大,所以这甚至不是减少实验室测试的问题,也许这会发生,我实际上可能会采取相反的观点,我们可以谈谈这一点"
+ },
+ {
+  "seg": 26,
+  "start": 188.691,
+  "end": 196.439,
+  "speaker": "Unknown",
+  "en": "Maybe we'd actually do even more lab testing because the ROI will increase the same way there's more software engineers or there's more demand for software engineers now that they become more productive.",
+  "zh": "也许我们实际上会做更多的实验室测试,因为 ROI(投资回报率)会增加,就像现在有更多的软件工程师或者对软件工程师的需求更多,因为他们变得更有生产力。"
+ },
+ {
+  "seg": 27,
+  "start": 196.459,
+  "end": 198.681,
+  "speaker": "Unknown",
+  "en": "There might be more demand for the lab.",
+  "zh": "可能会有更多的实验室需求。"
+ },
+ {
+  "seg": 28,
+  "start": 199.061,
+  "end": 204.347,
+  "speaker": "Unknown",
+  "en": "But I think the key part is how do we just change the paradigm here and how do we make it more design oriented?",
+  "zh": "但我认为关键部分是我们如何在这里改变范式,以及我们如何使其更以设计为导向?"
+ },
+ {
+  "seg": 29,
+  "start": 204.667,
+  "end": 204.867,
+  "speaker": "Unknown",
+  "en": "Hmm.",
+  "zh": "嗯。"
+ },
+ {
+  "seg": 30,
+  "start": 205.528,
+  "end": 208.371,
+  "speaker": "Unknown",
+  "en": "Can we talk about what is state of the art today?",
+  "zh": "我们能谈谈今天最先进的技术是什么吗?"
+ },
+ {
+  "seg": 31,
+  "start": 209.292,
+  "end": 220.263,
+  "speaker": "Unknown",
+  "en": "And then maybe let's take a little trip down memory lane five years ago, three years ago, one year ago, like what have been some of the major breakthroughs and like how has state of the art changed over the recent years?",
+  "zh": "然后也许我们可以顺便回顾一下五年前、三年前、一年前,有哪些主要的突破,以及近年来最先进的技术是如何变化的?"
+ },
+ {
+  "seg": 32,
+  "start": 220.897,
+  "end": 225.119,
+  "speaker": "Unknown",
+  "en": "Yeah, I think the field has like, it's really evolved, especially like over the last decade.",
+  "zh": "是的,我认为这个领域已经,它真的进化了,尤其是在过去十年里。"
+ },
+ {
+  "seg": 33,
+  "start": 225.86,
+  "end": 231.582,
+  "speaker": "Unknown",
+  "en": "So it really wasn't until like, you can actually look back, there's like this biannual protein folding competition.",
+  "zh": "所以实际上直到你可以回头看看,有一个两年一度的蛋白质折叠竞赛。"
+ },
+ {
+  "seg": 34,
+  "start": 231.602,
+  "end": 242.768,
+  "speaker": "Unknown",
+  "en": "So every two years, usually a bunch of academic groups who compete in this protein folding competition, what would happen is like you kind of hold out these protein targets that no one's ever seen before, they never get deposited publicly.",
+  "zh": "所以每两年,通常是一群学术团体在这个蛋白质折叠竞赛中竞争,发生的事情是你保留这些以前没人见过的蛋白质目标,它们从未公开存放过。"
+ },
+ {
+  "seg": 35,
+  "start": 243.188,
+  "end": 246.21,
+  "speaker": "Unknown",
+  "en": "And then all these groups compete so you can predict the proteins the best.",
+  "zh": "然后所有这些团体竞争,所以你可以最好地预测蛋白质。"
+ },
+ {
+  "seg": 36,
+  "start": 246.93,
+  "end": 263.978,
+  "speaker": "Unknown",
+  "en": "uh and like really it wasn't until 2018 where you started to see this like big step change in performance and then finally again in like 2020 uh with outfold 2 but really like it was kind of like the advent of deep learning that really like kicked off this whole field um so at first what you do um these are kind of like",
+  "zh": "实际上直到 2018 年,你才开始看到性能上的大步变化,然后在 2020 年又有了 outfold 2(可能指 AlphaFold 2),但实际上就像深度学习的出现真正开启了这个领域,所以首先你要做的这些就像"
+ },
+ {
+  "seg": 37,
+  "start": 264.478,
+  "end": 267.2,
+  "speaker": "Unknown",
+  "en": "bring me back to my original days in my advisor's lab.",
+  "zh": "让我回到我在导师实验室的最初日子。"
+ },
+ {
+  "seg": 38,
+  "start": 267.24,
+  "end": 270.241,
+  "speaker": "Unknown",
+  "en": "So we worked on like one of the first systems to do this with deep learning.",
+  "zh": "所以我们致力于最早的用深度学习做这个的系统之一。"
+ },
+ {
+  "seg": 39,
+  "start": 270.462,
+  "end": 274.264,
+  "speaker": "Unknown",
+  "en": "What we would try to do is predict like the distances between amino acids and a protein.",
+  "zh": "我们试图做的是预测蛋白质中氨基酸之间的距离。"
+ },
+ {
+  "seg": 40,
+  "start": 274.624,
+  "end": 281.208,
+  "speaker": "Unknown",
+  "en": "And then we'd have some render, which then took in like these kind of noisy and complete looking distances and then emitted some protein from that.",
+  "zh": "然后我们会有一些渲染器,它接收这些看起来嘈杂且完整的距离,然后从中发出一些蛋白质。"
+ },
+ {
+  "seg": 41,
+  "start": 281.788,
+  "end": 289.673,
+  "speaker": "Unknown",
+  "en": "And what's pretty remarkable is that with relatively minimal information, like you could build a machine learning system that could actually produce something that",
+  "zh": "相当值得注意的是,通过相对最少的信息,你可以建立一个机器学习系统,实际上可以产生某种"
+ },
+ {
+  "seg": 42,
+  "start": 290.053,
+  "end": 304.762,
+  "speaker": "Unknown",
+  "en": "really looks like a protein and for the most part was was correct like there was still pretty big gaps it didn't quite have the resolution of like what we have today almost like with the early image generation models where it was like a little bit grainy a little bit blurry and now it's like oh my gosh like",
+  "zh": "看起来真的像蛋白质的东西,并且在大部分情况下是正确的,就像仍然有相当大的差距,它没有我们今天拥有的那种分辨率,就像早期的图像生成模型,它有点颗粒感,有点模糊,现在它是天哪,就像"
+ },
+ {
+  "seg": 43,
+  "start": 305.222,
+  "end": 308.224,
+  "speaker": "Unknown",
+  "en": "This is this is crazy high definition images like in seconds.",
+  "zh": "这是疯狂的高清图像,就像在几秒钟内。"
+ },
+ {
+  "seg": 44,
+  "start": 308.244,
+  "end": 311.746,
+  "speaker": "Unknown",
+  "en": "So we kind of like saw that same evolution happen over time.",
+  "zh": "所以我们随时间看到了同样的演变发生。"
+ },
+ {
+  "seg": 45,
+  "start": 312.107,
+  "end": 313.528,
+  "speaker": "Unknown",
+  "en": "So it started with protein folding.",
+  "zh": "所以它从蛋白质折叠开始。"
+ },
+ {
+  "seg": 46,
+  "start": 313.588,
+  "end": 319.992,
+  "speaker": "Unknown",
+  "en": "And then I guess once that became more realizable, there were kind of these other sub problems that we wanted to solve.",
+  "zh": "我想一旦那变得更容易实现,我们想解决的还有其他子问题。"
+ },
+ {
+  "seg": 47,
+  "start": 320.012,
+  "end": 324.415,
+  "speaker": "Unknown",
+  "en": "So now, given a protein structure, can I design, say, like a sequence which might fold to that?",
+  "zh": "所以现在,给定一个蛋白质结构,我可以设计一个可能会折叠成它的序列吗?"
+ },
+ {
+  "seg": 48,
+  "start": 324.775,
+  "end": 327.898,
+  "speaker": "Unknown",
+  "en": "And that's getting closer and closer to like the drug design problem.",
+  "zh": "这越来越接近药物设计问题了。"
+ },
+ {
+  "seg": 49,
+  "start": 328.279,
+  "end": 335.566,
+  "speaker": "Unknown",
+  "en": "So you're kind of like now thinking, OK, how do I start engineering proteins that like match a certain shape or might perform a specific function?",
+  "zh": "所以你就像现在在思考,好的,我如何开始工程化蛋白质,使其匹配某种形状或执行特定功能?"
+ },
+ {
+  "seg": 50,
+  "start": 336.346,
+  "end": 338.829,
+  "speaker": "Unknown",
+  "en": "And so people kind of study that problem independently.",
+  "zh": "所以人们有点独立地研究那个问题。"
+ },
+ {
+  "seg": 51,
+  "start": 338.849,
+  "end": 339.63,
+  "speaker": "Unknown",
+  "en": "And that was kind of like.",
+  "zh": "那有点像。"
+ },
+ {
+  "seg": 52,
+  "start": 340.33,
+  "end": 368.795,
+  "speaker": "Unknown",
+  "en": "2021 2022 time and then kind of these ideas began to merge together it was really like the advent of diffusion models where we started to be able like okay i can now generate a protein structure and a sequence kind of simultaneously um and i can start making these like what we'd call prompts more and more realistic so i can now prompt these models on a target that might have a certain shape and i can say hey i want to bind over here kind of like add more real world constraints on the problem what did you guys see in 2024 that made you think that was the right time to start the company",
+  "zh": "2021 年、2022 年左右，然后这些想法开始融合在一起，这实际上就像扩散模型的出现，我们开始能够，好吧，我现在可以同时生成蛋白质结构和序列，而且我可以开始制作我们所谓的越来越真实的提示，所以我现在可以在可能具有特定形状的目标上提示这些模型，我可以说嘿我想在这里结合，就像在问题上添加更多现实世界的约束一样，你们在 2024 年看到了什么让你们认为那是创办公司的合适时机"
+ },
+ {
+  "seg": 53,
+  "start": 369.512,
+  "end": 371.573,
+  "speaker": "Unknown",
+  "en": "Yeah, there are a lot of discussions that went into it.",
+  "zh": "是的，这里面有很多讨论。"
+ },
+ {
+  "seg": 54,
+  "start": 371.673,
+  "end": 381.117,
+  "speaker": "Unknown",
+  "en": "I remember one of these early discussions actually back in Matt's house when we were, you know, Matt was showing me some of these results on like antibody antigen, like structure prediction.",
+  "zh": "我记得早期的讨论之一实际上是在 Matt 的家里，我们在，你知道，Matt 向我展示了一些关于抗体抗原的结果，比如结构预测。"
+ },
+ {
+  "seg": 55,
+  "start": 381.137,
+  "end": 382.738,
+  "speaker": "Unknown",
+  "en": "Matt was just talking about protein folding.",
+  "zh": "Matt 只是谈论蛋白质折叠。"
+ },
+ {
+  "seg": 56,
+  "start": 383.598,
+  "end": 388.48,
+  "speaker": "Unknown",
+  "en": "But for a long time, people thought that protein folding for antibodies was just like too hard of a problem.",
+  "zh": "但很长一段时间以来，人们认为抗体的蛋白质折叠只是一个太难的问题。"
+ },
+ {
+  "seg": 57,
+  "start": 388.621,
+  "end": 393.883,
+  "speaker": "Unknown",
+  "en": "People were like, there was not enough data for antibodies, like in the protein data bank, for instance, to like solve this problem.",
+  "zh": "人们会说，例如，对于抗体，蛋白质数据库中没有足够的数据来解决这个问题。"
+ },
+ {
+  "seg": 58,
+  "start": 394.323,
+  "end": 397.725,
+  "speaker": "Unknown",
+  "en": "And people as a result thought that like antibody design was going to be out of reach.",
+  "zh": "因此，人们认为抗体设计将是遥不可及的。"
+ },
+ {
+  "seg": 59,
+  "start": 397.885,
+  "end": 402.828,
+  "speaker": "Unknown",
+  "en": "A lot of the work that people even did on protein design in the early days with deep learning, it wasn't antibodies.",
+  "zh": "人们在早期甚至在深度学习方面做的许多蛋白质设计工作，都不是抗体。"
+ },
+ {
+  "seg": 60,
+  "start": 402.888,
+  "end": 408.772,
+  "speaker": "Unknown",
+  "en": "It was these different class of proteins called mini proteins, which are actually really interesting in their own right.",
+  "zh": "它是一类叫做微型蛋白质的不同蛋白质，它们本身实际上非常有趣。"
+ },
+ {
+  "seg": 61,
+  "start": 408.832,
+  "end": 411.893,
+  "speaker": "Unknown",
+  "en": "But they're not what most of the drug industry is looking at.",
+  "zh": "但它们不是大多数制药行业所关注的。"
+ },
+ {
+  "seg": 62,
+  "start": 412.294,
+  "end": 417.677,
+  "speaker": "Unknown",
+  "en": "So the Holy Grail was whether we could design antibody proteins on the computer, especially ones that had all that therapeutic function.",
+  "zh": "所以圣杯是我们能否在计算机上设计抗体蛋白质，特别是那些具有所有治疗功能的蛋白质。"
+ },
+ {
+  "seg": 63,
+  "start": 418.277,
+  "end": 423.138,
+  "speaker": "Unknown",
+  "en": "And our thinking was that if you couldn't predict what an antibody looks like, how are you ever going to design one?",
+  "zh": "我们的想法是，如果你无法预测抗体的样子，你怎么能设计一个呢？"
+ },
+ {
+  "seg": 64,
+  "start": 423.498,
+  "end": 427.399,
+  "speaker": "Unknown",
+  "en": "Traditionally, people have thought like biology is scary.",
+  "zh": "传统上，人们认为生物学很可怕。"
+ },
+ {
+  "seg": 65,
+  "start": 427.419,
+  "end": 428.26,
+  "speaker": "Unknown",
+  "en": "There's so much to know.",
+  "zh": "有太多的东西要了解。"
+ },
+ {
+  "seg": 66,
+  "start": 428.3,
+  "end": 429.84,
+  "speaker": "Unknown",
+  "en": "I'm terrified of biology.",
+  "zh": "我对生物学感到恐惧。"
+ },
+ {
+  "seg": 67,
+  "start": 429.94,
+  "end": 432.701,
+  "speaker": "Unknown",
+  "en": "I am as well, honestly.",
+  "zh": "老实说，我也是。"
+ },
+ {
+  "seg": 68,
+  "start": 432.721,
+  "end": 434.781,
+  "speaker": "Unknown",
+  "en": "My background was never biology.",
+  "zh": "我的背景从来不是生物学。"
+ },
+ {
+  "seg": 69,
+  "start": 434.901,
+  "end": 439.262,
+  "speaker": "Unknown",
+  "en": "I studied pure math and started my PhD in theoretical computer science.",
+  "zh": "我学习纯数学，并开始在理论计算机科学攻读博士学位。"
+ },
+ {
+  "seg": 70,
+  "start": 439.342,
+  "end": 442.163,
+  "speaker": "Unknown",
+  "en": "And it was only after my third year that I ended up switching into like...",
+  "zh": "直到第三年后我才最终转入……"
+ },
+ {
+  "seg": 71,
+  "start": 442.503,
+  "end": 459.518,
+  "speaker": "Unknown",
+  "en": "deep learning protein structure prediction all of this stuff so it was like totally new field to me seemed insane but like at the end of the day it's much simpler and like the problems are much more like interconnected uh than one might think so like i think people like when they start going into the field they're like oh man what's an antibody what's a mini protein we're",
+  "zh": "深度学习蛋白质结构预测所有这些东西，所以这对我来说是一个全新的领域，看起来很疯狂，但实际上它要简单得多，而且问题比人们想象的更相互关联，所以我认为人们就像当他们进入这个领域时，他们就像噢天哪什么是抗体什么是微型蛋白质我们"
+ },
+ {
+  "seg": 72,
+  "start": 459.898,
+  "end": 461.738,
+  "speaker": "Unknown",
+  "en": "these are all just sequences of amino acids.",
+  "zh": "这些都只是氨基酸序列。"
+ },
+ {
+  "seg": 73,
+  "start": 462.098,
+  "end": 466.079,
+  "speaker": "Unknown",
+  "en": "At the end of the day, these are just different types of prompts for the model.",
+  "zh": "归根结底，这些只是模型的不同类型的提示。"
+ },
+ {
+  "seg": 74,
+  "start": 466.099,
+  "end": 475.081,
+  "speaker": "Unknown",
+  "en": "But in the same way where you might have a math problem that goes into ChatGBT, ChatGBT can both answer your math problem and help you with your English homework.",
+  "zh": "但就像你有一个数学问题进入 ChatGBT，ChatGBT 既可以回答你的数学问题，也可以帮助你完成英语作业。"
+ },
+ {
+  "seg": 75,
+  "start": 475.161,
+  "end": 478.201,
+  "speaker": "Unknown",
+  "en": "So really, we have the same type of thing going on with our models.",
+  "zh": "所以实际上，我们的模型也有同样的情况。"
+ },
+ {
+  "seg": 76,
+  "start": 478.261,
+  "end": 481.762,
+  "speaker": "Unknown",
+  "en": "We just have some way of representing these sequences of amino acids.",
+  "zh": "我们只是有一些方法来表示这些氨基酸序列。"
+ },
+ {
+  "seg": 77,
+  "start": 481.802,
+  "end": 484.322,
+  "speaker": "Unknown",
+  "en": "Then we have a way of designing, predicting those as well.",
+  "zh": "然后我们有一种方法来设计、预测它们。"
+ },
+ {
+  "seg": 78,
+  "start": 484.902,
+  "end": 488.603,
+  "speaker": "Unknown",
+  "en": "And I think in that lens, things become a lot more clear.",
+  "zh": "我认为在这个角度下，事情变得清晰多了。"
+ },
+ {
+  "seg": 79,
+  "start": 489.148,
+  "end": 490.789,
+  "speaker": "Unknown",
+  "en": "And Matt, you mentioned your background a little bit.",
+  "zh": "Matt，你稍微提到了你的背景。"
+ },
+ {
+  "seg": 80,
+  "start": 491.35,
+  "end": 498.456,
+  "speaker": "Unknown",
+  "en": "Josh, talk a bit about your background and then more broadly, in order to pull this off, you have a bunch of different disciplines that kind of come together.",
+  "zh": "Josh，谈谈你的背景，然后更广泛地说，为了实现这一点，你有不同的学科聚集在一起。"
+ },
+ {
+  "seg": 81,
+  "start": 498.476,
+  "end": 505.122,
+  "speaker": "Unknown",
+  "en": "So can you just talk a bit about like your background and that of some of the other core members of the team and how these things all fit together?",
+  "zh": "所以你能不能谈谈你的背景以及其他一些核心团队成员的背景，以及这些东西是如何结合在一起的？"
+ },
+ {
+  "seg": 82,
+  "start": 505.595,
+  "end": 509.298,
+  "speaker": "Unknown",
+  "en": "Yeah, I've been excited about AI and biology since I was a kid.",
+  "zh": "是的，我还是个孩子的时候就开始对 AI 和生物学感到兴奋。"
+ },
+ {
+  "seg": 83,
+  "start": 509.318,
+  "end": 510.539,
+  "speaker": "Unknown",
+  "en": "So I guess I'm like Matt.",
+  "zh": "所以我想我像 Matt 一样。"
+ },
+ {
+  "seg": 84,
+  "start": 510.579,
+  "end": 513.721,
+  "speaker": "Unknown",
+  "en": "I didn't start with theoretical CS and get into that way.",
+  "zh": "我没有从理论计算机科学开始并以这种方式进入。"
+ },
+ {
+  "seg": 85,
+  "start": 513.821,
+  "end": 516.263,
+  "speaker": "Unknown",
+  "en": "But I went to a high school with a stem cell lab.",
+  "zh": "但我去了一所拥有干细胞实验室的高中。"
+ },
+ {
+  "seg": 86,
+  "start": 516.283,
+  "end": 518.645,
+  "speaker": "Unknown",
+  "en": "So I was just always excited about biology as a kid.",
+  "zh": "所以我从小就对生物学感到兴奋。"
+ },
+ {
+  "seg": 87,
+  "start": 518.685,
+  "end": 519.906,
+  "speaker": "Unknown",
+  "en": "And I grew up as a programmer.",
+  "zh": "我是以程序员的身份长大的。"
+ },
+ {
+  "seg": 88,
+  "start": 520.546,
+  "end": 522.988,
+  "speaker": "Unknown",
+  "en": "I really started my career at OpenAI.",
+  "zh": "我实际上是在 OpenAI 开始我的职业生涯的。"
+ },
+ {
+  "seg": 89,
+  "start": 523.008,
+  "end": 524.489,
+  "speaker": "Unknown",
+  "en": "So it was on the early team there.",
+  "zh": "所以我是那里的早期团队成员。"
+ },
+ {
+  "seg": 90,
+  "start": 524.529,
+  "end": 525.57,
+  "speaker": "Unknown",
+  "en": "It was a nonprofit back then.",
+  "zh": "那时候它还是一个非营利组织。"
+ },
+ {
+  "seg": 91,
+  "start": 526.09,
+  "end": 528.552,
+  "speaker": "Unknown",
+  "en": "It was a pretty good time to be there.",
+  "zh": "那是待在那里的好时机。"
+ },
+ {
+  "seg": 92,
+  "start": 528.592,
+  "end": 533.855,
+  "speaker": "Unknown",
+  "en": "We did GPT-1, GPT-2, scaling laws.",
+  "zh": "我们做了 GPT-1、GPT-2、缩放定律。"
+ },
+ {
+  "seg": 93,
+  "start": 534.055,
+  "end": 540.018,
+  "speaker": "Unknown",
+  "en": "The question was, if the models can learn to speak English, German, French, why can't they learn to speak DNA and protein?",
+  "zh": "问题是，如果模型能够学会说英语、德语、法语，为什么它们不能学会说 DNA 和蛋白质？"
+ },
+ {
+  "seg": 94,
+  "start": 540.318,
+  "end": 542.119,
+  "speaker": "Unknown",
+  "en": "That was my research agenda since then.",
+  "zh": "那是我从那时起的研究议程。"
+ },
+ {
+  "seg": 95,
+  "start": 542.159,
+  "end": 547.202,
+  "speaker": "Unknown",
+  "en": "I think that intersects with around the time Matt got into the field as well.",
+  "zh": "我认为这与 Matt 进入该领域的时间相吻合。"
+ },
+ {
+  "seg": 96,
+  "start": 547.462,
+  "end": 554.987,
+  "speaker": "Unknown",
+  "en": "I think it was a pretty important time as well, because if you look at the methods that we were bringing in, there's been a lot of these changes on the edges, if you will.",
+  "zh": "我认为那也是一个相当重要的时刻，因为如果你看我们引入的方法，在边缘地带有很多变化，如果你愿意这样说的话。"
+ },
+ {
+  "seg": 97,
+  "start": 555.767,
+  "end": 570.728,
+  "speaker": "Unknown",
+  "en": "know matt talked a bit about the history of what's happened in the fields here um but you know it's all about like how do we find like the right deep learning architectures with the right compute configuration and the right model architectures to make this happen what are the right tasks to apply it to we're talking about how we even knew that like",
+  "zh": "知道 Matt 谈了一点这里领域发生的历史，你知道这完全是关于我们如何找到正确的深度学习架构与正确的计算配置和正确的模型架构来实现这一点，什么是应用它的正确任务，我们在谈论我们甚至如何知道像"
+ },
+ {
+  "seg": 98,
+  "start": 571.008,
+  "end": 596.357,
+  "speaker": "Unknown",
+  "en": "you know 2024 is the right time to start the company as matt was saying you know these are all different like kinds of amino acid sequences and people thought that you know antibody class of problem was going to be too hard and we started to see the first signs of life that actually this was starting to work i think a lot of it fueled by some of the new architectures we're bringing to the problems where i think it was diffusion models back then the first time like anyone was able to generate reasonable looking proteins uh",
+  "zh": "你知道 2024 年是创办公司的合适时机，正如 Matt 所说，你知道这些都是不同种类的氨基酸序列，人们认为抗体这类问题太难了，我们开始看到第一批迹象，表明这实际上开始起作用了，我认为其中很多是由我们带到问题中的一些新架构推动的，我认为那时是扩散模型，第一次任何人能够生成看起来合理的蛋白质"
+ },
+ {
+  "seg": 99,
+  "start": 596.917,
+  "end": 599.099,
+  "speaker": "Unknown",
+  "en": "was the advent of diffusion models.",
+  "zh": "是扩散模型的出现。"
+ },
+ {
+  "seg": 100,
+  "start": 599.419,
+  "end": 600.24,
+  "speaker": "Unknown",
+  "en": "So it was pretty crazy.",
+  "zh": "所以这太疯狂了。"
+ },
+ {
+  "seg": 101,
+  "start": 600.28,
+  "end": 604.523,
+  "speaker": "Unknown",
+  "en": "There were a bunch of generative modeling approaches that would kind of work if you had a bunch of data.",
+  "zh": "有很多生成式建模方法，如果你有一堆数据的话，大概是可以奏效的。"
+ },
+ {
+  "seg": 102,
+  "start": 604.583,
+  "end": 606.205,
+  "speaker": "Unknown",
+  "en": "So people got these working for images.",
+  "zh": "所以人们让这些方法在图像上起作用了。"
+ },
+ {
+  "seg": 103,
+  "start": 606.865,
+  "end": 609.647,
+  "speaker": "Unknown",
+  "en": "There are a bunch of tricks to make this better and better along the way.",
+  "zh": "在此过程中有很多技巧可以让它变得越来越好。"
+ },
+ {
+  "seg": 104,
+  "start": 610.168,
+  "end": 613.15,
+  "speaker": "Unknown",
+  "en": "We've definitely borrowed a lot of those ideas in our domain as well.",
+  "zh": "我们肯定也在我们的领域借鉴了很多这些想法。"
+ },
+ {
+  "seg": 105,
+  "start": 613.971,
+  "end": 616.133,
+  "speaker": "Unknown",
+  "en": "But it was really once diffusion models came around.",
+  "zh": "但真正起作用的是一旦扩散模型出现的时候。"
+ },
+ {
+  "seg": 106,
+  "start": 616.213,
+  "end": 618.995,
+  "speaker": "Unknown",
+  "en": "Is there an intuition for why diffusion models work?",
+  "zh": "关于扩散模型为什么起作用，有没有直观的解释？"
+ },
+ {
+  "seg": 107,
+  "start": 619.827,
+  "end": 639.102,
+  "speaker": "Unknown",
+  "en": "uh yeah so diffusion is is not a one-step process so like uh i think kind of up until this point like the the main generative design paradigm was like called variational auto encoders uh and in that case you're like saying i want to just like compress my input distribution so like you you have some like proteins you want to make these look like kind of like",
+  "zh": "呃是的，所以扩散不是一步到位的过程，所以就像嗯我想直到这一点就像主要的生成式设计范式叫做变分自编码器，嗯在这种情况下就像是说我想只是压缩我的输入分布，所以就像你你有一些你想让这些看起来有点像"
+ },
+ {
+  "seg": 108,
+  "start": 639.522,
+  "end": 640.863,
+  "speaker": "Unknown",
+  "en": "fuzzy Gaussian vectors.",
+  "zh": "模糊的高斯向量。"
+ },
+ {
+  "seg": 109,
+  "start": 641.563,
+  "end": 643.264,
+  "speaker": "Unknown",
+  "en": "That tested just like really hard.",
+  "zh": "那个测试真的很难。"
+ },
+ {
+  "seg": 110,
+  "start": 643.744,
+  "end": 646.945,
+  "speaker": "Unknown",
+  "en": "And maybe today if we tried like super hard, I think we'd crack it.",
+  "zh": "也许今天如果我们尝试超级努力，我想我们会攻克它。"
+ },
+ {
+  "seg": 111,
+  "start": 647.565,
+  "end": 652.908,
+  "speaker": "Unknown",
+  "en": "But at the time, like I think like it wasn't really as developed enough to work for our problems.",
+  "zh": "但在当时，就像我想它真的还没有发展到足以解决我们的问题。"
+ },
+ {
+  "seg": 112,
+  "start": 653.148,
+  "end": 661.371,
+  "speaker": "Unknown",
+  "en": "What turned out working really well was just kind of giving the model more time to think and showing it like more examples, like here's like a slightly broken looking protein.",
+  "zh": "结果证明非常有效的方法是只是给模型更多的时间去思考并向它展示更多的例子，就像这里有一个看起来有点破损的蛋白质。"
+ },
+ {
+  "seg": 113,
+  "start": 661.411,
+  "end": 662.132,
+  "speaker": "Unknown",
+  "en": "How do you make it better?",
+  "zh": "如何让它变得更好？"
+ },
+ {
+  "seg": 114,
+  "start": 662.412,
+  "end": 667.314,
+  "speaker": "Unknown",
+  "en": "And you can kind of break that protein more and more and more, and you can make it look more and more noisy, more and more broken.",
+  "zh": "你可以一步一步地把这个蛋白质变得越来越破碎，你可以让它看起来越来越嘈杂，越来越破损。"
+ },
+ {
+  "seg": 115,
+  "start": 667.814,
+  "end": 669.595,
+  "speaker": "Unknown",
+  "en": "and teach the model just quick little shortcuts.",
+  "zh": "并教模型只是快速的小捷径。"
+ },
+ {
+  "seg": 116,
+  "start": 669.635,
+  "end": 671.276,
+  "speaker": "Unknown",
+  "en": "All right, here's how I make it slightly better.",
+  "zh": "好的，这是我让它稍微好一点的方法。"
+ },
+ {
+  "seg": 117,
+  "start": 671.296,
+  "end": 674.878,
+  "speaker": "Unknown",
+  "en": "And you can just keep asking over and over again, make it slightly better, make it slightly better.",
+  "zh": "你可以只是一遍又一遍地问，让它稍微好一点，让它稍微好一点。"
+ },
+ {
+  "seg": 118,
+  "start": 675.479,
+  "end": 680.041,
+  "speaker": "Unknown",
+  "en": "And kind of like breaking the problem down to that scale worked really, really well for biology.",
+  "zh": "把问题分解到那个规模在生物学领域真的非常非常有效。"
+ },
+ {
+  "seg": 119,
+  "start": 680.262,
+  "end": 687.846,
+  "speaker": "Unknown",
+  "en": "Yeah, the make it slightly better reminds me of a game that I like to play with my daughters where we have ChatGPT give us a unicorn and then we make it stronger.",
+  "zh": "是的，这种让它稍微好一点的做法让我想起我喜欢和我的女儿们玩的一个游戏，我们要 ChatGPT 给我们一只独角兽，然后我们让它变强。"
+ },
+ {
+  "seg": 120,
+  "start": 688.346,
+  "end": 690.208,
+  "speaker": "Unknown",
+  "en": "And we just keep telling it to make it stronger.",
+  "zh": "然后我们只是不断告诉它让它变强。"
+ },
+ {
+  "seg": 121,
+  "start": 690.388,
+  "end": 692.709,
+  "speaker": "Unknown",
+  "en": "And by the time we're done, we have the strongest unicorn in the world.",
+  "zh": "当我们完成时，我们拥有了世界上最强的独角兽。"
+ },
+ {
+  "seg": 122,
+  "start": 693.069,
+  "end": 694.25,
+  "speaker": "Unknown",
+  "en": "So about the same, right?",
+  "zh": "所以大概差不多，对吧？"
+ },
+ {
+  "seg": 123,
+  "start": 695.135,
+  "end": 698.638,
+  "speaker": "Unknown",
+  "en": "Yeah, it's that easy.",
+  "zh": "是的，就是这么简单。"
+ },
+ {
+  "seg": 124,
+  "start": 699.538,
+  "end": 700.559,
+  "speaker": "Unknown",
+  "en": "Okay, maybe not the same.",
+  "zh": "好吧，也许不一样。"
+ },
+ {
+  "seg": 125,
+  "start": 700.799,
+  "end": 701,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 126,
+  "start": 701.28,
+  "end": 711.768,
+  "speaker": "Unknown",
+  "en": "So I feel like in this domain, you need to assemble kind of like a quadrilingual group of people, like an Avengers squad of chemistry people, biologists, AI folks.",
+  "zh": "所以我觉得在这个领域，你需要组建一个大概像由四类语言的人组成的群体，像是一个由化学人员、生物学家、AI 人员组成的复仇者联盟小队。"
+ },
+ {
+  "seg": 127,
+  "start": 712.268,
+  "end": 713.169,
+  "speaker": "Unknown",
+  "en": "And so that's a challenge.",
+  "zh": "所以这是一个挑战。"
+ },
+ {
+  "seg": 128,
+  "start": 713.609,
+  "end": 717.052,
+  "speaker": "Unknown",
+  "en": "How have you guys gone about finding people, convincing people to join the team?",
+  "zh": "你们是如何寻找人员、说服人员加入团队的？"
+ },
+ {
+  "seg": 129,
+  "start": 717.072,
+  "end": 718.233,
+  "speaker": "Unknown",
+  "en": "And who are your superstars?",
+  "zh": "谁是你们的超级明星？"
+ },
+ {
+  "seg": 130,
+  "start": 718.71,
+  "end": 720.532,
+  "speaker": "Unknown",
+  "en": "So we've been really pragmatic about this.",
+  "zh": "所以我们对此一直非常务实。"
+ },
+ {
+  "seg": 131,
+  "start": 720.593,
+  "end": 723.416,
+  "speaker": "Unknown",
+  "en": "If you look at the founding team, it was mostly AI researchers.",
+  "zh": "如果你看创始团队，主要是 AI 研究人员。"
+ },
+ {
+  "seg": 132,
+  "start": 724.117,
+  "end": 737.034,
+  "speaker": "Unknown",
+  "en": "So people who had worked on either scaling models or getting them to work in this domain, but really with each generation of model, the kind of people we've needed for the next milestone has changed, or I'd say probably has expanded, right?",
+  "zh": "所以那些从事过扩展模型或让它们在这个领域工作的人，但实际上随着每一代模型，我们下一个里程碑所需的人员种类已经改变，或者我想说可能已经扩大了，对吧？"
+ },
+ {
+  "seg": 133,
+  "start": 737.514,
+  "end": 746.222,
+  "speaker": "Unknown",
+  "en": "So if you look at Chai2, that's the point when we started to bring in some of the most incredible antibody engineers and scientists in the world.",
+  "zh": "所以如果你看 Chai2，那就是我们开始引入一些世界上令人难以置信的抗体工程师和科学家的时候。"
+ },
+ {
+  "seg": 134,
+  "start": 747.023,
+  "end": 756.492,
+  "speaker": "Unknown",
+  "en": "One of the scientists, Andy Young, actually when we hired him, people asked us if we had pivoted into building a full-stack drug pipeline because they're like, you'd be crazy not to do that if Andy joined your team.",
+  "zh": "其中一位科学家，Andy Young，实际上当我们雇用他时，人们问我们是否转向构建全栈药物流水线，因为他们就像，如果 Andy 加入你的团队，你如果不这么做那就太疯狂了。"
+ },
+ {
+  "seg": 135,
+  "start": 757.592,
+  "end": 765.135,
+  "speaker": "Unknown",
+  "en": "But I think Andy has enjoyed running more antibody campaigns in the past couple of months than he's probably run in his whole career, which is very cool to see.",
+  "zh": "但我想 Andy 在过去几个月里比他整个职业生涯中进行的抗体活动都要多，这很酷。"
+ },
+ {
+  "seg": 136,
+  "start": 765.515,
+  "end": 767.716,
+  "speaker": "Unknown",
+  "en": "You have folks like Nathan Rollins on the team.",
+  "zh": "你有像 Nathan Rollins 这样的人在团队里。"
+ },
+ {
+  "seg": 137,
+  "start": 767.776,
+  "end": 770.917,
+  "speaker": "Unknown",
+  "en": "Nathan was actually homeschooled and then started college very early on.",
+  "zh": "Nathan 实际上是在家自学的，然后很早就开始了大学。"
+ },
+ {
+  "seg": 138,
+  "start": 770.937,
+  "end": 778.42,
+  "speaker": "Unknown",
+  "en": "So he joined David Baker's lab, who won the Nobel Prize for protein design when he was 14, started his PhD when he was 18, and has so many creative ideas.",
+  "zh": "所以他加入了 David Baker 的实验室，David Baker 因蛋白质设计获得了诺贝尔奖，而 Nathan 当时 14 岁，18 岁开始他的博士学位，并且有很多有创意的想法。"
+ },
+ {
+  "seg": 139,
+  "start": 779.761,
+  "end": 782.302,
+  "speaker": "Unknown",
+  "en": "As the model started to get better, we needed to build up a product team.",
+  "zh": "随着模型开始变得更好，我们需要建立一个产品团队。"
+ },
+ {
+  "seg": 140,
+  "start": 782.902,
+  "end": 785.623,
+  "speaker": "Unknown",
+  "en": "Because while the researchers might get the models to point that they are",
+  "zh": "因为虽然研究人员可能会让模型达到它们"
+ },
+ {
+  "seg": 141,
+  "start": 786.103,
+  "end": 808.442,
+  "speaker": "Unknown",
+  "en": "uh they're very powerful you need to build the right product interfaces that the models are actually useful and and that's where we started to bring on uh people who have you know built some of the most exciting products we know about today like our co-founder jack worked at stripe munaz who was one of the top 10 code contributors at stripe uh neil who ran his own cyber security company before security started to become very important as we deploy this to our big partners",
+  "zh": "呃它们非常强大的地步你需要构建正确的产品接口使模型真正有用，这就是我们开始引入那些你知道构建了一些我们今天知道的令人兴奋的产品的人，比如我们的联合创始人 Jack 在 Stripe 工作过，Munaz 是 Stripe 前 10 大代码贡献者之一，Neil 曾经营过自己的网络安全公司，在我们部署到大型合作伙伴之前安全开始变得非常重要"
+ },
+ {
+  "seg": 142,
+  "start": 808.942,
+  "end": 819.046,
+  "speaker": "Unknown",
+  "en": "As we started to scale up, we brought in people who've really done a lot of like the GPU hacking, if you will, in order to like scale up our systems that they don't break when we're running them at scale.",
+  "zh": "当我们开始扩大规模时，我们引入了真正做过很多 GPU 黑客攻击，如果你愿意这么说，的人，为了扩大我们的系统使它们在我们在规模上运行它们时不会崩溃。"
+ },
+ {
+  "seg": 143,
+  "start": 819.346,
+  "end": 824.728,
+  "speaker": "Unknown",
+  "en": "We had an email from or a Slack message from one of our hyperscalers the other day where we had a cluster.",
+  "zh": "我们几天前收到了来自我们的超大规模提供商之一的一封电子邮件或者 Slack 消息，那时我们有一个集群。"
+ },
+ {
+  "seg": 144,
+  "start": 824.748,
+  "end": 825.689,
+  "speaker": "Unknown",
+  "en": "I think that's an issue too.",
+  "zh": "我想这也是一个问题。"
+ },
+ {
+  "seg": 145,
+  "start": 825.709,
+  "end": 827.449,
+  "speaker": "Unknown",
+  "en": "And they're like, oh, the GPUs got too hot.",
+  "zh": "他们就像，哦，GPU 太热了。"
+ },
+ {
+  "seg": 146,
+  "start": 827.469,
+  "end": 828.67,
+  "speaker": "Unknown",
+  "en": "I think you guys are running too many.",
+  "zh": "我想你们运行太多了。"
+ },
+ {
+  "seg": 147,
+  "start": 828.75,
+  "end": 829.13,
+  "speaker": "Unknown",
+  "en": "And we're like...",
+  "zh": "我们就像..."
+ },
+ {
+  "seg": 148,
+  "start": 829.43,
+  "end": 830.331,
+  "speaker": "Unknown",
+  "en": "Isn't that the point, right?",
+  "zh": "这不就是重点吗，对吧？"
+ },
+ {
+  "seg": 149,
+  "start": 830.351,
+  "end": 830.992,
+  "speaker": "Unknown",
+  "en": "That's probably...",
+  "zh": "这大概..."
+ },
+ {
+  "seg": 150,
+  "start": 831.012,
+  "end": 832.575,
+  "speaker": "Unknown",
+  "en": "I was like, good, we're doing our job at least.",
+  "zh": "我当时想，很好，我们至少在完成我们的工作。"
+ },
+ {
+  "seg": 151,
+  "start": 832.935,
+  "end": 834.517,
+  "speaker": "Unknown",
+  "en": "Yeah, it's like, how do you convince those people to join?",
+  "zh": "是的，就像，你要如何说服那些人加入？"
+ },
+ {
+  "seg": 152,
+  "start": 834.537,
+  "end": 838.383,
+  "speaker": "Unknown",
+  "en": "I think, again, a lot of it comes back to the results and a clear need.",
+  "zh": "我认为，同样，很大程度上这归功于结果和明确的需求。"
+ },
+ {
+  "seg": 153,
+  "start": 838.543,
+  "end": 841.407,
+  "speaker": "Unknown",
+  "en": "We didn't hire antibody engineers before in an antibody design model.",
+  "zh": "我们以前没有在抗体设计模型中招聘抗体工程师。"
+ },
+ {
+  "seg": 154,
+  "start": 841.427,
+  "end": 842.269,
+  "speaker": "Unknown",
+  "en": "What are those folks going to do?",
+  "zh": "那些人要做什么？"
+ },
+ {
+  "seg": 155,
+  "start": 842.289,
+  "end": 844.952,
+  "speaker": "Unknown",
+  "en": "We were even, I think, worried when we started that trend because...",
+  "zh": "我们甚至，我想，当我们开始这一趋势时很担心，因为..."
+ },
+ {
+  "seg": 156,
+  "start": 845.393,
+  "end": 851.617,
+  "speaker": "Unknown",
+  "en": "for some of the next generation formats, the complicated antibodies, like multi-specifics, like they didn't even work with Chi2.",
+  "zh": "对于一些下一代格式，复杂的抗体，像多特异性抗体，像它们甚至不适用于 Chi2。"
+ },
+ {
+  "seg": 157,
+  "start": 852.397,
+  "end": 859.482,
+  "speaker": "Unknown",
+  "en": "So it actually took a couple of weeks when some of those people showed up before the models could work at a point that they could work on some of these interesting case studies.",
+  "zh": "所以实际上，当这些人中的一些人出现时，花了几个星期，模型才能达到一个可以在这些有趣的案例研究上工作的程度。"
+ },
+ {
+  "seg": 158,
+  "start": 860.022,
+  "end": 862.543,
+  "speaker": "Unknown",
+  "en": "But fortunately, the progress was fast enough to kind of bring that online.",
+  "zh": "但幸运的是，进展足够快，基本上将其上线了。"
+ },
+ {
+  "seg": 159,
+  "start": 862.643,
+  "end": 866.326,
+  "speaker": "Unknown",
+  "en": "So I think we're always like evolving that team and going for that next milestone.",
+  "zh": "所以我认为我们总是在不断进化那个团队并争取下一个里程碑。"
+ },
+ {
+  "seg": 160,
+  "start": 866.346,
+  "end": 868.227,
+  "speaker": "Unknown",
+  "en": "We've got the team very small as a result too.",
+  "zh": "因此，我们让团队规模也保持得很小。"
+ },
+ {
+  "seg": 161,
+  "start": 868.948,
+  "end": 874.638,
+  "speaker": "Unknown",
+  "en": "So this way, everyone is a little bit like slightly over capacity, I think, which means we have to prioritize.",
+  "zh": "所以这样，每个人都有一点稍微超负荷，我想，这意味着我们必须确定优先级。"
+ },
+ {
+  "seg": 162,
+  "start": 874.698,
+  "end": 876.822,
+  "speaker": "Unknown",
+  "en": "It forces us to work on the things that really matter most.",
+  "zh": "这迫我们只做那些真正最重要的事情。"
+ },
+ {
+  "seg": 163,
+  "start": 877.399,
+  "end": 886.604,
+  "speaker": "Unknown",
+  "en": "I think on the research side as well, one of the founding engineers, Kevin Wu, he had the first, I think it was the first protein diffusion model ever.",
+  "zh": "我想在研究方面也是一样，创始工程师之一，Kevin Wu，他第一个，我认为那是第一个蛋白质扩散模型。"
+ },
+ {
+  "seg": 164,
+  "start": 886.644,
+  "end": 889.005,
+  "speaker": "Unknown",
+  "en": "And that speaks to Kevin's speed of execution.",
+  "zh": "这说明了 Kevin 的执行速度。"
+ },
+ {
+  "seg": 165,
+  "start": 889.045,
+  "end": 890.265,
+  "speaker": "Unknown",
+  "en": "He is a heck of an engineer.",
+  "zh": "他是一个出色的工程师。"
+ },
+ {
+  "seg": 166,
+  "start": 890.305,
+  "end": 895.188,
+  "speaker": "Unknown",
+  "en": "And I think engineering has just always been important since day one.",
+  "zh": "我认为工程从一开始就非常重要。"
+ },
+ {
+  "seg": 167,
+  "start": 895.288,
+  "end": 898.369,
+  "speaker": "Unknown",
+  "en": "So really even our researchers, they're all excellent engineers.",
+  "zh": "所以实际上，即使是我们的研究人员，他们都是优秀的工程师。"
+ },
+ {
+  "seg": 168,
+  "start": 898.409,
+  "end": 901.491,
+  "speaker": "Unknown",
+  "en": "And we really care about building a high quality code base.",
+  "zh": "我们非常关心构建高质量的代码库。"
+ },
+ {
+  "seg": 169,
+  "start": 901.771,
+  "end": 905.213,
+  "speaker": "Unknown",
+  "en": "At the end of the day, we are technically a software company.",
+  "zh": "归根结底，我们在技术上是一家软件公司。"
+ },
+ {
+  "seg": 170,
+  "start": 905.593,
+  "end": 912.9,
+  "speaker": "Unknown",
+  "en": "we're AI researchers, we're protein designers, we're a lot of things, but our deliverable is some piece of software.",
+  "zh": "我们是 AI 研究人员，我们是蛋白质设计师，我们要做很多事情，但我们的交付成果是一段软件。"
+ },
+ {
+  "seg": 171,
+  "start": 912.92,
+  "end": 922.008,
+  "speaker": "Unknown",
+  "en": "So we've kept that bar really high while also trying to level that with great research talent and people that can actually push the frontiers of what's possible.",
+  "zh": "所以我们保持了这个高标准，同时也试图与优秀的研究人才以及那些能够真正推动可能性边界的人才相匹配。"
+ },
+ {
+  "seg": 172,
+  "start": 922.403,
+  "end": 943.579,
+  "speaker": "Unknown",
+  "en": "you've had a number of it seems like aha moments in the field like alpha fold was an aha we can figure out how protein folds and then the diffusion models aha like we can generate proteins um and it seems like your latest models are a kind of another aha moment we're not only generating molecules that look like proteins but they also have therapeutic properties like they can bind really tightly",
+  "zh": "你在领域里似乎经历了许多顿悟时刻，像 Alpha Fold 是一个顿悟，我们可以弄清楚蛋白质如何折叠，然后是扩散模型顿悟，像我们可以生成蛋白质，而且看起来你们最新的模型是另一个顿悟时刻，我们不仅生成看起来像蛋白质的分子，而且它们还具有治疗特性，像它们可以结合得非常紧密"
+ },
+ {
+  "seg": 173,
+  "start": 944.299,
+  "end": 945.4,
+  "speaker": "Unknown",
+  "en": "They have really high hit rates.",
+  "zh": "它们具有非常高的命中率。"
+ },
+ {
+  "seg": 174,
+  "start": 945.52,
+  "end": 953.527,
+  "speaker": "Unknown",
+  "en": "Can you talk about the quality of the molecules that your models are producing now and everything that went in to those models to make them able to do that?",
+  "zh": "你能谈谈你们的模型现在产生的分子的质量，以及为了让它们能够做到这一点，投入了模型的一切吗？"
+ },
+ {
+  "seg": 175,
+  "start": 953.987,
+  "end": 954.227,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 176,
+  "start": 954.247,
+  "end": 964.815,
+  "speaker": "Unknown",
+  "en": "If we look at the quality of the molecules that's coming out, it goes back to one of the theses when we started the company that we really wanted to focus in on this de novo generation of the molecules.",
+  "zh": "如果我们看正在产生的分子质量，这回溯到我们创立公司时的一个论点，我们真的想要专注于这种分子的从头生成。"
+ },
+ {
+  "seg": 177,
+  "start": 965.196,
+  "end": 970.74,
+  "speaker": "Unknown",
+  "en": "If you look at what a lot of the drug discovery AI work was at the time, it was about how do I take a molecule and just make it a little bit better?",
+  "zh": "如果你看当时大量的药物发现 AI 工作是关于什么，它是关于如何获取一个分子并让它稍微好一点？"
+ },
+ {
+  "seg": 178,
+  "start": 971.18,
+  "end": 991.79,
+  "speaker": "Unknown",
+  "en": "right which we just talked about in a sense but it was doing it with a lab in the loop uh style right where i take some data try to make it better that way and the the question uh we started with is well can we actually just like do all that on the computer right is there a way that the there maybe there would be enough data or we could collect enough data um so that we could just zero shot a molecule that has a lot of these properties",
+  "zh": "对，这在某种意义上我们刚刚谈过，但它是以实验室在循环的风格完成的，对，我获取一些数据，尝试以那种方式让它变好，而我们开始提出的问题是，我们实际上可以只在计算机上做完所有这些吗，是否有某种方式，也许会有足够的数据或者我们可以收集足够的数据，以便我们可以零样本生成具有许多这些特性的分子"
+ },
+ {
+  "seg": 179,
+  "start": 992.37,
+  "end": 997.652,
+  "speaker": "Unknown",
+  "en": "So the first thing we needed to do to get there was to design molecules with really high success rates.",
+  "zh": "所以为了达到那个目标，我们需要做的第一件事是设计具有非常高成功率的分子。"
+ },
+ {
+  "seg": 180,
+  "start": 997.672,
+  "end": 1002.514,
+  "speaker": "Unknown",
+  "en": "When we started the company, the state of the art for antibody design was about like a 0.1% binding rate.",
+  "zh": "当我们创办公司时，抗体设计的最先进技术大约是 0.1% 的结合率。"
+ },
+ {
+  "seg": 181,
+  "start": 1002.554,
+  "end": 1006.076,
+  "speaker": "Unknown",
+  "en": "So one in a thousand of the molecules you design would actually bind in the lab.",
+  "zh": "所以你设计的分子中，一千个里实际上只有一个会在实验室里结合。"
+ },
+ {
+  "seg": 182,
+  "start": 1006.096,
+  "end": 1009.677,
+  "speaker": "Unknown",
+  "en": "So first of all, that means you have to screen a lot of molecules to find some good ones.",
+  "zh": "所以首先，这意味着你必须筛选大量分子才能找到一些好的。"
+ },
+ {
+  "seg": 183,
+  "start": 1010.037,
+  "end": 1031.119,
+  "speaker": "Unknown",
+  "en": "it also means that like the gradient you get on your process is actually quite weak as well so for many targets you won't get any hits for the ones that you know you do get some hits you won't have enough to actually see whether you're having like the drug-like properties so we really focused in on how do we just make this process more accurate we got to uh with our chai 2 model about like a 15 success rate uh so now if you screen a thousand molecules you're getting 150 back",
+  "zh": "这也意味着你在你的过程中得到的梯度实际上相当弱，所以对于许多目标你不会得到任何命中，对于那些你确实得到一些命中的，你不会有足够的来实际看到你是否具有类似药物的特性，所以我们真的专注于我们如何让这个过程更准确，我们用我们的 chai 2 模型达到了大约 15% 的成功率，所以现在如果你筛选一千个分子，你会得到 150 个"
+ },
+ {
+  "seg": 184,
+  "start": 1032.2,
+  "end": 1053.673,
+  "speaker": "Unknown",
+  "en": "you can get start to get some like interesting statistics on the properties of the molecules right and a lot a lot is to like iterate on that build the right evaluations around that in the lab and really try to hill climb that as well and we're getting to a point now where we can actually bake in a lot of these different properties from the start into this engine and then maybe if you think about you know how does this happen or like how are we approaching this as well and like why we think it's going to continue improving",
+  "zh": "你可以开始获得一些关于分子特性的有趣统计数据，并且很多都是迭代，在实验室中围绕它建立正确的评估，并真正尝试对此进行爬山，我们现在到了一个点，我们实际上可以从一开始就将许多不同的特性融入这个引擎，然后也许如果你考虑，你知道这是如何发生的，或者像我们是如何处理这个的，以及为什么我们认为它会继续改进"
+ },
+ {
+  "seg": 185,
+  "start": 1054.283,
+  "end": 1060.69,
+  "speaker": "Unknown",
+  "en": "Yeah, so, like, honestly, I think Josh and I were both surprised at how quickly this worked.",
+  "zh": "是的，所以，就像，老实说，我认为 Josh 和我都惊讶于这奏效得如此之快。"
+ },
+ {
+  "seg": 186,
+  "start": 1060.91,
+  "end": 1065.375,
+  "speaker": "Unknown",
+  "en": "Like, when we were originally budgeting this, we were like, ah, maybe, like, 20% hit rate in, like, three or four years.",
+  "zh": "就像，当我们最初做预算时，我们想，啊，也许像 20% 的命中率，在三四年内。"
+ },
+ {
+  "seg": 187,
+  "start": 1065.395,
+  "end": 1067.277,
+  "speaker": "Unknown",
+  "en": "We were, like, really shooting for, like, a 1%.",
+  "zh": "我们真的瞄准了像 1%。"
+ },
+ {
+  "seg": 188,
+  "start": 1067.317,
+  "end": 1068.679,
+  "speaker": "Unknown",
+  "en": "We thought 1 in 100 would be amazing.",
+  "zh": "我们认为 100 个里有一个将是惊人的。"
+ },
+ {
+  "seg": 189,
+  "start": 1068.699,
+  "end": 1069.58,
+  "speaker": "Unknown",
+  "en": "We were like, this is going to be...",
+  "zh": "我们想这将是..."
+ },
+ {
+  "seg": 190,
+  "start": 1069.94,
+  "end": 1071.021,
+  "speaker": "Unknown",
+  "en": "you know, a groundbreaking thing.",
+  "zh": "一个突破性的事情。"
+ },
+ {
+  "seg": 191,
+  "start": 1071.281,
+  "end": 1076.663,
+  "speaker": "Unknown",
+  "en": "We had a philosophy on like an approach that we wanted to take and it just like ended up working really well.",
+  "zh": "我们有一种关于我们要采取的方法的哲学，它最终效果非常好。"
+ },
+ {
+  "seg": 192,
+  "start": 1077.024,
+  "end": 1080.145,
+  "speaker": "Unknown",
+  "en": "And that approach is like very similar to what's worked in the rest of machine learning.",
+  "zh": "这种方法与机器学习的其他部分有效的方法非常相似。"
+ },
+ {
+  "seg": 193,
+  "start": 1080.185,
+  "end": 1088.109,
+  "speaker": "Unknown",
+  "en": "So people kind of treat biology as this like bespoke problem or like bespoke field, but really it's like the same principles as like self-driving, LLMs, they all apply.",
+  "zh": "所以人们把生物学视为一个定制问题或定制领域，但实际上它就像自动驾驶、LLMs 的相同原理，它们都适用。"
+ },
+ {
+  "seg": 194,
+  "start": 1088.149,
+  "end": 1093.392,
+  "speaker": "Unknown",
+  "en": "Well same principles, but one of the things we've talked about before is how you manage to find scaling laws.",
+  "zh": "原理相同，但我们以前谈论过的一件事是你如何设法找到缩放定律。"
+ },
+ {
+  "seg": 195,
+  "start": 1094.152,
+  "end": 1096.413,
+  "speaker": "Unknown",
+  "en": "And it's one thing to tokenize a string of text.",
+  "zh": "将文本字符串标记化是一回事。"
+ },
+ {
+  "seg": 196,
+  "start": 1096.654,
+  "end": 1098.815,
+  "speaker": "Unknown",
+  "en": "It's another thing to tokenize biology.",
+  "zh": "将生物学标记化是另一回事。"
+ },
+ {
+  "seg": 197,
+  "start": 1099.655,
+  "end": 1108.147,
+  "speaker": "Unknown",
+  "en": "Can you say a couple words about, without giving away any of the magic, can you just say a couple words about that challenge and how you guys solved that?",
+  "zh": "你能说几句吗，在不透露任何魔法的情况下，你能简单谈谈那个挑战以及你们是如何解决它的吗？"
+ },
+ {
+  "seg": 198,
+  "start": 1108.542,
+  "end": 1112.485,
+  "speaker": "Unknown",
+  "en": "Yeah, so one thing that I really like about Chai is we're a very bitter lesson pilled company.",
+  "zh": "是的，所以关于 Chi2 我真的很喜欢的一件事是，我们是一家非常信奉苦涩教训的公司。"
+ },
+ {
+  "seg": 199,
+  "start": 1112.505,
+  "end": 1116.008,
+  "speaker": "Unknown",
+  "en": "So we really believe in scaling data, scaling models, scaling compute.",
+  "zh": "所以我们真的相信扩展数据，扩展模型，扩展计算。"
+ },
+ {
+  "seg": 200,
+  "start": 1116.408,
+  "end": 1119.23,
+  "speaker": "Unknown",
+  "en": "In order to do that, obviously, you need to identify scaling laws.",
+  "zh": "为了做到这一点，显然你需要识别扩展定律。"
+ },
+ {
+  "seg": 201,
+  "start": 1119.27,
+  "end": 1121.412,
+  "speaker": "Unknown",
+  "en": "Otherwise, you're just kind of wasting time and resources.",
+  "zh": "否则，你只是在浪费时间和资源。"
+ },
+ {
+  "seg": 202,
+  "start": 1121.932,
+  "end": 1126.516,
+  "speaker": "Unknown",
+  "en": "And I think without giving away too much, one of our big guiding principles is just simplicity.",
+  "zh": "我想在不透露太多的情况下，我们的主要指导原则之一就是简单性。"
+ },
+ {
+  "seg": 203,
+  "start": 1127.236,
+  "end": 1130.359,
+  "speaker": "Unknown",
+  "en": "So when you look at a model like, let's say, Chai 1.",
+  "zh": "所以当你看一个模型时，比如 Chai 1。"
+ },
+ {
+  "seg": 204,
+  "start": 1130.579,
+  "end": 1135.763,
+  "speaker": "Unknown",
+  "en": "So I think there are 23 distinct submodules in Chai 1.",
+  "zh": "我认为 Chai 1 中有 23 个不同的子模块。"
+ },
+ {
+  "seg": 205,
+  "start": 1135.863,
+  "end": 1138.285,
+  "speaker": "Unknown",
+  "en": "And when you're trying to iterate on something like that, it gets really hard.",
+  "zh": "当你试图迭代这样的东西时，它变得非常困难。"
+ },
+ {
+  "seg": 206,
+  "start": 1138.625,
+  "end": 1158.453,
+  "speaker": "Unknown",
+  "en": "uh because you're like i kind of need to understand each of these sub modules independently i need to understand all their behaviors their dynamics and like that doesn't actually scale that well um so like you can start to think okay how do i simplify this how do i identify like what's what's really important um and once you have that like kind of the whole research process and like identifying these types of scaling directions becomes a lot simpler",
+  "zh": "因为你就像你需要独立理解这些子模块中的每一个，你需要理解它们所有的行为、它们的动态，而且这实际上扩展性不好 所以你可以开始思考，好吧，我如何简化这个，我如何识别什么是真正重要的，一旦你有了那个，整个研究过程和识别这些类型的扩展方向就变得简单多了"
+ },
+ {
+  "seg": 207,
+  "start": 1158.893,
+  "end": 1174.497,
+  "speaker": "Unknown",
+  "en": "one of the other things too i think it's interesting about this is we take a lot of these lessons from what's worked in the rest of the deep learning space but as you're pointing out like the data itself is different yeah the models that are completely built from scratch we're not like fine-tuning glm or something like that on some protein data we build everything from the ground up",
+  "zh": "我认为还有一点很有趣的是，我们从深度学习领域的其他部分有效的方法中吸取了很多教训，但正如你所指出的，数据本身是不同的，是的，完全从头开始构建的模型，我们不是在某些蛋白质数据上微调 glm 之类的东西，我们从头开始构建一切"
+ },
+ {
+  "seg": 208,
+  "start": 1175.017,
+  "end": 1182.499,
+  "speaker": "Unknown",
+  "en": "I think a lot of the company building process though is taking a philosophy and actually sticking with it and iterating on that and just having some guiding principles.",
+  "zh": "我认为公司建设的很多过程实际上是采纳一种理念，并坚持它并对其进行迭代，只是拥有一些指导原则。"
+ },
+ {
+  "seg": 209,
+  "start": 1182.859,
+  "end": 1187.86,
+  "speaker": "Unknown",
+  "en": "When you're building like a blue sky research company, if you will, you know, Chai is almost like one of these Neo labs, right?",
+  "zh": "当你建立一个像蓝天研究公司这样的公司，如果你愿意的话，你知道，Chai 几乎就像这些 Neo 实验室之一，对吧？"
+ },
+ {
+  "seg": 210,
+  "start": 1187.88,
+  "end": 1193.821,
+  "speaker": "Unknown",
+  "en": "Like we have this big AI problem we're going after where as we make progress on it, you know, that opens up opportunity for our customers.",
+  "zh": "就像我们有一个我们要解决的重大人工智能问题，随着我们在它上面取得进展，你知道，这为我们的客户打开了机会。"
+ },
+ {
+  "seg": 211,
+  "start": 1194.721,
+  "end": 1198.462,
+  "speaker": "Unknown",
+  "en": "But if you're going to work on something so open-ended that way, you need some principles to guide you.",
+  "zh": "但如果你要以那种开放的方式处理某事，你需要一些原则来指导你。"
+ },
+ {
+  "seg": 212,
+  "start": 1198.802,
+  "end": 1202.723,
+  "speaker": "Unknown",
+  "en": "And I think we've done a very good job on like tracking those principles in the company, working on it.",
+  "zh": "我认为我们在公司跟踪这些原则、努力工作方面做得非常好。"
+ },
+ {
+  "seg": 213,
+  "start": 1202.763,
+  "end": 1204.263,
+  "speaker": "Unknown",
+  "en": "So a lot of the things that Matt's saying-",
+  "zh": "所以 Matt 说的很多事情——"
+ },
+ {
+  "seg": 214,
+  "start": 1204.823,
+  "end": 1221.984,
+  "speaker": "Unknown",
+  "en": "are the guiding principles so i think simplicity was one of the ones that matt mentioned it's this like bitter lesson illness of like you know scaling compute and data and models uh it's being really rigorous uh that's something that's so important in this space you can fool yourself so easily in biology like the error bars in the wet lab are actually quite large as well",
+  "zh": "是指导原则，所以我认为简单性是 Matt 提到的一点，它是这种苦涩教训式的疾病，比如扩展计算、数据和模型，是非常严谨的，这是在这个领域非常重要的东西，你可以很容易地在生物学中欺骗自己，湿实验室中的误差线实际上也相当大"
+ },
+ {
+  "seg": 215,
+  "start": 1222.845,
+  "end": 1227.106,
+  "speaker": "Unknown",
+  "en": "So, it's actually a little bit different than if you look at cogeneration, for instance.",
+  "zh": "所以，这实际上与 cogeneration 不同，例如。"
+ },
+ {
+  "seg": 216,
+  "start": 1227.146,
+  "end": 1233.708,
+  "speaker": "Unknown",
+  "en": "If you look at SweBench, people were like, maybe a year ago, people were like, oh, I got 16%, then 17%, then 18%.",
+  "zh": "如果你看看 SweBench，人们就像，也许一年前，人们就像，哦，我得到了 16%，然后 17%，然后 18%。"
+ },
+ {
+  "seg": 217,
+  "start": 1233.748,
+  "end": 1239.05,
+  "speaker": "Unknown",
+  "en": "I mean, in biology, if you're plus or minus 5% in your lab, that might all be the same.",
+  "zh": "我的意思是，在生物学中，如果你的实验室里正负 5%，那可能都是一样的。"
+ },
+ {
+  "seg": 218,
+  "start": 1239.41,
+  "end": 1247.852,
+  "speaker": "Unknown",
+  "en": "So, it actually just means the bar is really high in terms of the step changes that you want to see with the models, but you also need to be really honest with yourself about whether you're making progress or not.",
+  "zh": "所以，这实际上意味着你在模型希望看到的阶跃变化方面的门槛非常高，但你也需要对自己非常诚实，看看你是否在取得进展。"
+ },
+ {
+  "seg": 219,
+  "start": 1248.393,
+  "end": 1259.111,
+  "speaker": "Unknown",
+  "en": "um so you could come up with some fancy model that looks like it works well on like one or two new tasks but it's very important to show that that works more generally uh if you're actually trying to build a product that can like bring the field forward",
+  "zh": "所以你可以想出一些看起来在一两个新任务上运行良好的花哨模型，但更重要的是表明这更普遍地有效，如果你真的试图建立一个可以推动该领域发展的产品"
+ },
+ {
+  "seg": 220,
+  "start": 1259.362,
+  "end": 1264.364,
+  "speaker": "Unknown",
+  "en": "Yeah, and that's, I think, pretty interesting because biology is one of those inherently not so verifiable domains.",
+  "zh": "是的，我认为这很有趣，因为生物学是那些本质上不太可验证的领域之一。"
+ },
+ {
+  "seg": 221,
+  "start": 1264.704,
+  "end": 1273.088,
+  "speaker": "Unknown",
+  "en": "And you guys have been really good at sort of showing your progress to customers and to people like us who know very little about biology.",
+  "zh": "你们在向客户以及像我们这样对生物学知之甚少的人展示你们的进展方面做得非常好。"
+ },
+ {
+  "seg": 222,
+  "start": 1273.128,
+  "end": 1279.23,
+  "speaker": "Unknown",
+  "en": "And so can we talk a little bit about the evals and the verifiable part of the model progress?",
+  "zh": "那么我们能谈谈一下评估和模型进展的可验证部分吗？"
+ },
+ {
+  "seg": 223,
+  "start": 1279.25,
+  "end": 1281.271,
+  "speaker": "Unknown",
+  "en": "Like, how do you guys know that your models are getting better?",
+  "zh": "你们怎么知道你们的模型正在变得更好？"
+ },
+ {
+  "seg": 224,
+  "start": 1281.741,
+  "end": 1285.926,
+  "speaker": "Unknown",
+  "en": "Well, I would say, first of all, that I actually think this is one of the more verifiable domains.",
+  "zh": "我想说的是，首先，我认为这实际上是更可验证的领域之一。"
+ },
+ {
+  "seg": 225,
+  "start": 1286.026,
+  "end": 1287.748,
+  "speaker": "Unknown",
+  "en": "It's actually a very objective readout.",
+  "zh": "它实际上是一个非常客观的读数。"
+ },
+ {
+  "seg": 226,
+  "start": 1288.249,
+  "end": 1290.491,
+  "speaker": "Unknown",
+  "en": "If you look at something even like code gen, right?",
+  "zh": "如果你看像代码生成这样的东西，对吧？"
+ },
+ {
+  "seg": 227,
+  "start": 1290.511,
+  "end": 1293.775,
+  "speaker": "Unknown",
+  "en": "Like maybe as a verifiable task, like did my code compile?",
+  "zh": "就像也许作为一个可验证的任务，我的代码编译了吗？"
+ },
+ {
+  "seg": 228,
+  "start": 1293.795,
+  "end": 1294.936,
+  "speaker": "Unknown",
+  "en": "Did it solve these unit tests?",
+  "zh": "它解决了这些单元测试吗？"
+ },
+ {
+  "seg": 229,
+  "start": 1294.976,
+  "end": 1296.618,
+  "speaker": "Unknown",
+  "en": "But how do you think about the taste, right?",
+  "zh": "但是你怎么考虑品味，对吧？"
+ },
+ {
+  "seg": 230,
+  "start": 1296.658,
+  "end": 1299.301,
+  "speaker": "Unknown",
+  "en": "Like, did I write some really sloppy code that can't be maintained?",
+  "zh": "就像我是不是写了一些真正草率的代码，无法维护？"
+ },
+ {
+  "seg": 231,
+  "start": 1299.321,
+  "end": 1300.282,
+  "speaker": "Unknown",
+  "en": "Like, what does that look like?",
+  "zh": "那是什么样子的？"
+ },
+ {
+  "seg": 232,
+  "start": 1300.923,
+  "end": 1306.725,
+  "speaker": "Unknown",
+  "en": "When we think about designing a molecule in the lab, we can actually be quite specific about many of these properties.",
+  "zh": "当我们在实验室考虑设计一个分子时，我们实际上可以对许多这些属性相当具体。"
+ },
+ {
+  "seg": 233,
+  "start": 1306.906,
+  "end": 1309.807,
+  "speaker": "Unknown",
+  "en": "So maybe we get a molecule that binds to the target, but can I manufacture it?",
+  "zh": "所以也许我们得到一个与靶点结合的分子，但我能制造它吗？"
+ },
+ {
+  "seg": 234,
+  "start": 1309.847,
+  "end": 1313.008,
+  "speaker": "Unknown",
+  "en": "That might be your version of some tech debt, but you can measure that.",
+  "zh": "那可能是你的一些技术债务的版本，但你可以测量它。"
+ },
+ {
+  "seg": 235,
+  "start": 1313.748,
+  "end": 1317.55,
+  "speaker": "Unknown",
+  "en": "And I think those evals, again, actually make this domain more verifiable.",
+  "zh": "我认为这些评估，实际上再次使这个领域更具可验证性。"
+ },
+ {
+  "seg": 236,
+  "start": 1317.57,
+  "end": 1319.251,
+  "speaker": "Unknown",
+  "en": "Maybe it takes a little bit longer to validate it.",
+  "zh": "也许验证它需要一点更长的时间。"
+ },
+ {
+  "seg": 237,
+  "start": 1319.271,
+  "end": 1321.992,
+  "speaker": "Unknown",
+  "en": "It's not like five seconds to get a readout and run a unit test.",
+  "zh": "这不像五秒钟就能得到读数并运行单元测试。"
+ },
+ {
+  "seg": 238,
+  "start": 1322.292,
+  "end": 1327.154,
+  "speaker": "Unknown",
+  "en": "You might have to spend a couple of days, a couple of weeks in the lab to get that readout, but at least you can be honest with yourself.",
+  "zh": "你可能必须在实验室花几天，几周的时间才能得到那个读数，但至少你可以对自己诚实。"
+ },
+ {
+  "seg": 239,
+  "start": 1327.428,
+  "end": 1327.608,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 240,
+  "start": 1327.908,
+  "end": 1336.995,
+  "speaker": "Unknown",
+  "en": "When we talk about progress and how good the models are, there's like a domain of targets in biology that you can, as you mentioned, sort of address with traditional screening methods.",
+  "zh": "当我们谈论进展和模型有多好时，有一个生物学目标领域，你可以，正如你所提到的，用传统的筛选方法解决。"
+ },
+ {
+  "seg": 241,
+  "start": 1337.015,
+  "end": 1337.936,
+  "speaker": "Unknown",
+  "en": "They take a long time.",
+  "zh": "它们需要很长时间。"
+ },
+ {
+  "seg": 242,
+  "start": 1337.956,
+  "end": 1339.397,
+  "speaker": "Unknown",
+  "en": "They're very slow and rudimentary.",
+  "zh": "它们非常慢且简陋。"
+ },
+ {
+  "seg": 243,
+  "start": 1339.417,
+  "end": 1344.26,
+  "speaker": "Unknown",
+  "en": "And then there are targets that just aren't addressable with existing methods.",
+  "zh": "然后还有一些目标是现有方法无法解决的。"
+ },
+ {
+  "seg": 244,
+  "start": 1344.701,
+  "end": 1346.002,
+  "speaker": "Unknown",
+  "en": "They're not juggable for whatever reason.",
+  "zh": "无论出于何种原因，它们都无法 druggable。"
+ },
+ {
+  "seg": 245,
+  "start": 1346.923,
+  "end": 1353.833,
+  "speaker": "Unknown",
+  "en": "And so where are we in terms of model progress, in terms of, you know, working on existing targets and generating molecules faster?",
+  "zh": "那么就模型进展而言，我们处于什么位置，就处理现有目标和更快地生成分子而言？"
+ },
+ {
+  "seg": 246,
+  "start": 1354.113,
+  "end": 1355.075,
+  "speaker": "Unknown",
+  "en": "That's one end of the spectrum.",
+  "zh": "这是光谱的一端。"
+ },
+ {
+  "seg": 247,
+  "start": 1355.255,
+  "end": 1359.902,
+  "speaker": "Unknown",
+  "en": "And then the other end of the spectrum is unlocking novel biology, new targets and things that we couldn't drug before.",
+  "zh": "光谱的另一端是解锁新的生物学，新的目标，以及我们以前无法 drugg 的东西。"
+ },
+ {
+  "seg": 248,
+  "start": 1360.337,
+  "end": 1363.619,
+  "speaker": "Unknown",
+  "en": "This kind of goes back to our core modeling philosophy.",
+  "zh": "这回到了我们的核心建模理念。"
+ },
+ {
+  "seg": 249,
+  "start": 1364.339,
+  "end": 1371.563,
+  "speaker": "Unknown",
+  "en": "So there have actually been plenty of times where, man, if we had a 24th module, we can actually unlock that new target.",
+  "zh": "实际上有很多次，伙计，如果我们有第 24 个模块，我们实际上可以解锁那个新目标。"
+ },
+ {
+  "seg": 250,
+  "start": 1372.084,
+  "end": 1375.165,
+  "speaker": "Unknown",
+  "en": "And we're like, is that really something that we want to maintain long term?",
+  "zh": "然后我们就想，这真的是我们想要长期维护的东西吗？"
+ },
+ {
+  "seg": 251,
+  "start": 1375.205,
+  "end": 1377.967,
+  "speaker": "Unknown",
+  "en": "Is this incremental or is this actually a compounding improvement?",
+  "zh": "这是增量改进，还是实际上是一种复合改进？"
+ },
+ {
+  "seg": 252,
+  "start": 1378.227,
+  "end": 1402.623,
+  "speaker": "Unknown",
+  "en": "will this actually like help us generalize to the broader class of like these this whole class of targets that we we really can't hit and so like our our philosophy has been like all right let's just like continue to focus like identify your scaling laws like there there comes a point where like if the model is able to push loss down even further it has to understand like something like very uh intrinsic about the target that it's operating on so like one example we were talking about the other day paul and i",
+  "zh": "这实际上是否有助于我们将泛化应用到更广泛的一类，我们真正无法触及的这些目标，所以我们的一直以来的哲学是，好吧，让我们继续专注于确定你的扩展定律，到了某种程度，如果模型能够进一步降低损失，它必须理解关于其操作的目标的某种非常内在的东西，举个例子，前几天 Paul 和我在谈论，"
+ },
+ {
+  "seg": 253,
+  "start": 1403.143,
+  "end": 1409.726,
+  "speaker": "Unknown",
+  "en": "maybe the way that we're looking at like certain glycosylation sites on proteins, we're like, oh, we might want to represent them differently or something like this.",
+  "zh": "也许我们看待蛋白质上某些糖基化位点的方式是，我们可能会想，噢，我们可能想要以不同的方式来表示它们或类似的事情。"
+ },
+ {
+  "seg": 254,
+  "start": 1409.746,
+  "end": 1416.329,
+  "speaker": "Unknown",
+  "en": "And we're like, well, even if we didn't represent them, like there are certain sequence motifs that will tell the model, like there should be a glycosylation site here.",
+  "zh": "然后我们就想，好吧，即使我们没有表示它们，也有某些序列模体会告诉模型，这里应该有一个糖基化位点。"
+ },
+ {
+  "seg": 255,
+  "start": 1416.349,
+  "end": 1420.471,
+  "speaker": "Unknown",
+  "en": "And in order to drive like lost down further, the model should just like have to learn that.",
+  "zh": "为了进一步推动损失，模型应该只需要学习这一点。"
+ },
+ {
+  "seg": 256,
+  "start": 1421.011,
+  "end": 1427.313,
+  "speaker": "Unknown",
+  "en": "So there are all these hidden features of targets where if you really believe in scaling laws, you can believe the models will get there.",
+  "zh": "因此，目标有所有这些隐藏特征，如果你真的相信扩展定律，你可以相信模型会达到那里。"
+ },
+ {
+  "seg": 257,
+  "start": 1427.353,
+  "end": 1430.594,
+  "speaker": "Unknown",
+  "en": "These types of targets should just unlock with better models.",
+  "zh": "这些类型的目标应该只需要更好的模型就能解锁。"
+ },
+ {
+  "seg": 258,
+  "start": 1430.894,
+  "end": 1435.015,
+  "speaker": "Unknown",
+  "en": "And of course, you still have to take this very seriously and you still need all the proper validation.",
+  "zh": "当然，你仍然需要非常认真地对待这一点，你仍然需要所有适当的验证。"
+ },
+ {
+  "seg": 259,
+  "start": 1435.635,
+  "end": 1439.516,
+  "speaker": "Unknown",
+  "en": "You need to really challenge yourself and make sure that this is truly working.",
+  "zh": "你需要真正挑战自己，并确保这确实有效。"
+ },
+ {
+  "seg": 260,
+  "start": 1439.936,
+  "end": 1445.978,
+  "speaker": "Unknown",
+  "en": "But I think our approach has always been with better models, we should be able to unlock a lot of these targets.",
+  "zh": "但我认为我们的方法一直是，有了更好的模型，我们应该能够解锁很多这样的目标。"
+ },
+ {
+  "seg": 261,
+  "start": 1446.487,
+  "end": 1450.512,
+  "speaker": "Unknown",
+  "en": "One of the other interesting things is if we look at, we talked about like the interdisciplinary nature of this.",
+  "zh": "另一个有趣的事情是，如果我们看看，我们谈到了这个跨学科性质。"
+ },
+ {
+  "seg": 262,
+  "start": 1450.652,
+  "end": 1456.098,
+  "speaker": "Unknown",
+  "en": "If we look at the different teams at Chai, what people will call a hard target is actually different in literally every team.",
+  "zh": "如果我们看看 Chai 的不同团队，人们称之为“硬目标”的东西实际上在每个团队中都是不同的。"
+ },
+ {
+  "seg": 263,
+  "start": 1456.518,
+  "end": 1460.923,
+  "speaker": "Unknown",
+  "en": "So on the science team, it might be, you know, like a undruggable GPCR target.",
+  "zh": "所以在科学团队，可能是，你知道，像是一个不可成药的 GPCR 靶点。"
+ },
+ {
+  "seg": 264,
+  "start": 1460.963,
+  "end": 1464.227,
+  "speaker": "Unknown",
+  "en": "No one's gotten something that has like, you know, modulated that in a functional way.",
+  "zh": "没有人获得过具有功能性调节作用的东西。"
+ },
+ {
+  "seg": 265,
+  "start": 1464.627,
+  "end": 1491.52,
+  "speaker": "Unknown",
+  "en": "on the ml research team it'll be something like oh there's like the the model just can't fold this thing up it doesn't know what it looks like uh and then on the product team it might look like i've got all these like you know modifications like my glycosylations and it's a membrane protein how do i represent that to the user um and actually the fact that it's different for each of these groups i think is a feature rather than a bug and it means that uh if we want to make like broad progress over here everyone is kind of pushing in parallel on these different ways and and that means that there's very smooth progress that we can make all the time and there's",
+  "zh": "在机器学习研究团队，这会像是，噢，模型就是无法把这个东西折叠起来，它不知道它长什么样，然后在产品团队，这可能看起来像是，我得到了所有这些修饰，像我的糖基化，而且它是一个膜蛋白，我如何将其表示给用户，而且实际上，这对这些组中的每一个来说都是不同的事实，我认为这是一个特性而不是一个缺陷，这意味着如果我们想在这里取得广泛进展，每个人都在这些不同的方式上并行推进，这意味着我们可以随时取得非常平稳的进展，而且有"
+ },
+ {
+  "seg": 266,
+  "start": 1491.86,
+  "end": 1493.642,
+  "speaker": "Unknown",
+  "en": "usually not one bottleneck at Chai.",
+  "zh": "在 Chai 通常不存在单一瓶颈。"
+ },
+ {
+  "seg": 267,
+  "start": 1493.722,
+  "end": 1496.584,
+  "speaker": "Unknown",
+  "en": "It's not like, oh, if we only had that one extra module, things would work.",
+  "zh": "这不是像，噢，如果我们只有那一个额外的模块，事情就会成功。"
+ },
+ {
+  "seg": 268,
+  "start": 1496.884,
+  "end": 1501.528,
+  "speaker": "Unknown",
+  "en": "Or if we only, you know, like tried to push this into the product in some way, we can unlock it.",
+  "zh": "或者如果我们只有，你知道，试图以某种方式将其推进到产品中，我们就能解锁它。"
+ },
+ {
+  "seg": 269,
+  "start": 1501.788,
+  "end": 1507.373,
+  "speaker": "Unknown",
+  "en": "We're trying to build this unified solution because at the end of the day, the goal of the company is to build a computer aided design suite for molecules.",
+  "zh": "我们正在努力构建这个统一的解决方案，因为在一天结束时，公司的目标是为分子构建一个计算机辅助设计套件。"
+ },
+ {
+  "seg": 270,
+  "start": 1507.653,
+  "end": 1509.275,
+  "speaker": "Unknown",
+  "en": "It's not to make one or two molecules.",
+  "zh": "它不是为了制造一个或两个分子。"
+ },
+ {
+  "seg": 271,
+  "start": 1509.335,
+  "end": 1512.858,
+  "speaker": "Unknown",
+  "en": "It's not to get a pipeline of like five interesting therapies that we bring to market.",
+  "zh": "它不是为了获得一个由五种我们推向市场的有趣疗法组成的管线。"
+ },
+ {
+  "seg": 272,
+  "start": 1513.178,
+  "end": 1515.06,
+  "speaker": "Unknown",
+  "en": "It's the change of the way that medicines are discovered.",
+  "zh": "它是药物发现方式的改变。"
+ },
+ {
+  "seg": 273,
+  "start": 1515.18,
+  "end": 1516.16,
+  "speaker": "Unknown",
+  "en": "And we're going to do that.",
+  "zh": "我们将做到这一点。"
+ },
+ {
+  "seg": 274,
+  "start": 1516.501,
+  "end": 1519.984,
+  "speaker": "Unknown",
+  "en": "We need to work on all the hard targets, regardless of how you define hard.",
+  "zh": "我们需要处理所有困难的目标，无论你如何定义困难。"
+ },
+ {
+  "seg": 275,
+  "start": 1520.104,
+  "end": 1520.304,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 276,
+  "start": 1520.464,
+  "end": 1523.646,
+  "speaker": "Unknown",
+  "en": "Say more about this idea of computer-aided design suite for molecules.",
+  "zh": "多说说这个关于分子的计算机辅助设计套件的想法。"
+ },
+ {
+  "seg": 277,
+  "start": 1523.666,
+  "end": 1524.247,
+  "speaker": "Unknown",
+  "en": "What does that mean?",
+  "zh": "那是什么意思？"
+ },
+ {
+  "seg": 278,
+  "start": 1524.867,
+  "end": 1529.47,
+  "speaker": "Unknown",
+  "en": "So at its core, it goes back to this point about making biology look more like an engineering discipline.",
+  "zh": "所以从核心来说，这回到了让生物学看起来更像一门工程学科这一点。"
+ },
+ {
+  "seg": 279,
+  "start": 1529.49,
+  "end": 1534.373,
+  "speaker": "Unknown",
+  "en": "So we're not going and fishing something out of a large library or doing a ton of trial and error.",
+  "zh": "所以我们不是去从大型库中钓出某个东西或做大量的试错。"
+ },
+ {
+  "seg": 280,
+  "start": 1534.674,
+  "end": 1544,
+  "speaker": "Unknown",
+  "en": "You want to be able to specify upfront the principles that go into designing your molecule, and then have an engine that can actually realize that into some molecule that we're going to go and create in the lab.",
+  "zh": "你希望能够预先指定设计你的分子的原则，然后拥有一个引擎，可以真正将其实现为我们将要去实验室创造的某种分子。"
+ },
+ {
+  "seg": 281,
+  "start": 1544.52,
+  "end": 1549.682,
+  "speaker": "Unknown",
+  "en": "And look, you still might do some iteration on the lab and on your model because maybe your hypothesis was wrong.",
+  "zh": "而且你看，你可能仍然需要在实验室和你的模型上做一些迭代，因为也许你的假设是错误的。"
+ },
+ {
+  "seg": 282,
+  "start": 1550.022,
+  "end": 1557.826,
+  "speaker": "Unknown",
+  "en": "But what we want to speed up is actually, again, have that computer-aided design suite so that you can go from idea to testable hypothesis very quickly.",
+  "zh": "但我们真正想要加速的是，再次，拥有那个计算机辅助设计套件，以便你可以非常快地从想法转变为可测试的假设。"
+ },
+ {
+  "seg": 283,
+  "start": 1558.266,
+  "end": 1571.292,
+  "speaker": "Unknown",
+  "en": "And if that loop right now takes something like nine months, I don't know, to go and discover your molecule versus if it takes nine weeks or it takes nine days, each order of magnitude just scales in a very big way the number of ideas you can really sort through.",
+  "zh": "而如果那个循环现在需要大约九个月，我不知道，去发现你的分子，相对于如果它需要九周或者它需要九天，每一个数量级都以一种非常大的方式扩展了你真正可以梳理的想法数量。"
+ },
+ {
+  "seg": 284,
+  "start": 1571.632,
+  "end": 1575.094,
+  "speaker": "Unknown",
+  "en": "I think that's ultimately how the field is going to converge on better medicines.",
+  "zh": "我认为这就是该领域最终将如何汇聚到更好的药物上。"
+ },
+ {
+  "seg": 285,
+  "start": 1575.354,
+  "end": 1578.096,
+  "speaker": "Unknown",
+  "en": "It really comes back to like people sometimes talk about, do we care?",
+  "zh": "这真的回到了人们有时谈论的，我们在乎吗？"
+ },
+ {
+  "seg": 286,
+  "start": 1578.116,
+  "end": 1583.218,
+  "speaker": "Unknown",
+  "en": "And you kind of noted on it's not like, do we care about like speed or do we care about like the difficulty of the targets?",
+  "zh": "你有点注意到了，这不是像，我们在乎速度还是我们在乎目标的难度？"
+ },
+ {
+  "seg": 287,
+  "start": 1583.779,
+  "end": 1591.703,
+  "speaker": "Unknown",
+  "en": "At some point, they converge in this way as well, because a hard target, if we can like iterate through hypotheses a lot faster, then maybe it'll be easier to crack it.",
+  "zh": "在某些点上，它们也以这种方式汇聚，因为对于一个困难的目标，如果我们能够更快地迭代假设，那么也许它就更容易破解。"
+ },
+ {
+  "seg": 288,
+  "start": 1592.64,
+  "end": 1606.667,
+  "speaker": "Unknown",
+  "en": "So if we can maybe detach ourselves from the present reality and go far enough into the future that we're not thinking present forward, we're actually thinking future back, 2035, 2040, 2100, whatever you want.",
+  "zh": "所以如果我们也许能够从当下的现实中抽离出来，进入足够远的未来，我们不是在从现在思考未来，我们实际上是在从未来思考回来，2035 年，2040 年，2100 年，无论你想要什么。"
+ },
+ {
+  "seg": 289,
+  "start": 1607.027,
+  "end": 1608.888,
+  "speaker": "Unknown",
+  "en": "What does the industry look like?",
+  "zh": "这个行业看起来像什么？"
+ },
+ {
+  "seg": 290,
+  "start": 1608.928,
+  "end": 1613.031,
+  "speaker": "Unknown",
+  "en": "Let's imagine that computer-aided design suite for molecules has become a standard.",
+  "zh": "让我们想象一下，那个分子的计算机辅助设计套件已经成为了一种标准。"
+ },
+ {
+  "seg": 291,
+  "start": 1613.651,
+  "end": 1618.113,
+  "speaker": "Unknown",
+  "en": "Let's imagine a lot of innovation has flowed downstream into some of the wet lab parts of the process.",
+  "zh": "让我们想象大量的创新已经流入到过程中的一些湿实验部分。"
+ },
+ {
+  "seg": 292,
+  "start": 1618.873,
+  "end": 1621.375,
+  "speaker": "Unknown",
+  "en": "Can you paint the picture of what the industry might look like",
+  "zh": "你能描绘一下这个行业可能是什么样子的图景吗"
+ },
+ {
+  "seg": 293,
+  "start": 1622.055,
+  "end": 1622.755,
+  "speaker": "Unknown",
+  "en": "10 years from now?",
+  "zh": "从现在起 10 年？"
+ },
+ {
+  "seg": 294,
+  "start": 1623.235,
+  "end": 1625.656,
+  "speaker": "Unknown",
+  "en": "Yeah, I think it's going to be a really exciting time.",
+  "zh": "是的，我认为这将是一个非常令人兴奋的时刻。"
+ },
+ {
+  "seg": 295,
+  "start": 1626.356,
+  "end": 1628.277,
+  "speaker": "Unknown",
+  "en": "And we can look at this on a couple of angles.",
+  "zh": "我们可以从几个角度来看待这个问题。"
+ },
+ {
+  "seg": 296,
+  "start": 1628.297,
+  "end": 1632.158,
+  "speaker": "Unknown",
+  "en": "So first of all, the quality of the medicines that we develop will hopefully go up.",
+  "zh": "首先，我们开发的药物质量有望提高。"
+ },
+ {
+  "seg": 297,
+  "start": 1632.478,
+  "end": 1637.719,
+  "speaker": "Unknown",
+  "en": "There's a lot of molecules we put into the clinic today that it's really hard to discover a molecule.",
+  "zh": "今天我们有很多进入临床阶段的分子，很难发现一个分子。"
+ },
+ {
+  "seg": 298,
+  "start": 1637.759,
+  "end": 1639.599,
+  "speaker": "Unknown",
+  "en": "You find something that's like 80% of the way there.",
+  "zh": "你发现了某种达到了 80% 的东西。"
+ },
+ {
+  "seg": 299,
+  "start": 1639.619,
+  "end": 1642.02,
+  "speaker": "Unknown",
+  "en": "Maybe I'm just going to advance it anyways to hit my timelines.",
+  "zh": "也许我就要推进它 anyway，以达成我的时间表。"
+ },
+ {
+  "seg": 300,
+  "start": 1642.06,
+  "end": 1643.6,
+  "speaker": "Unknown",
+  "en": "It's probably going to benefit some patients.",
+  "zh": "它可能会让一些患者受益。"
+ },
+ {
+  "seg": 301,
+  "start": 1644.001,
+  "end": 1646.481,
+  "speaker": "Unknown",
+  "en": "But then you get beat a year later by someone else.",
+  "zh": "但随后你在一年后会被其他人打败。"
+ },
+ {
+  "seg": 302,
+  "start": 1646.501,
+  "end": 1649.582,
+  "speaker": "Unknown",
+  "en": "And it's really just not the most efficient spend of resources in the industry.",
+  "zh": "这真的不是行业内最高效的资源使用方式。"
+ },
+ {
+  "seg": 303,
+  "start": 1650.122,
+  "end": 1653.045,
+  "speaker": "Unknown",
+  "en": "You've got the kind of diseases that are just too hard to go after today.",
+  "zh": "有些疾病如今真的太难攻克了。"
+ },
+ {
+  "seg": 304,
+  "start": 1653.105,
+  "end": 1658.85,
+  "speaker": "Unknown",
+  "en": "People have been trying to drug Alzheimer's forever and unfortunately haven't made as much progress as we'd like.",
+  "zh": "人们一直试图用药物治疗阿尔茨海默病，但遗憾的是，进展并没有我们希望的那么大。"
+ },
+ {
+  "seg": 305,
+  "start": 1659.25,
+  "end": 1661.172,
+  "speaker": "Unknown",
+  "en": "You have things that just aren't economical to go after today.",
+  "zh": "有些事情如今去追求是不经济的。"
+ },
+ {
+  "seg": 306,
+  "start": 1661.192,
+  "end": 1666.516,
+  "speaker": "Unknown",
+  "en": "Think about personalized medicines, rare diseases, things where maybe the patient population is going to be smaller.",
+  "zh": "想想个性化药物、罕见疾病，那些患者群体可能会很小的情况。"
+ },
+ {
+  "seg": 307,
+  "start": 1666.897,
+  "end": 1672.882,
+  "speaker": "Unknown",
+  "en": "But again, if we can iterate through those ideas faster, if we can launch something faster, if we can do it in a less expensive way.",
+  "zh": "但同样，如果我们能更快地迭代这些想法，如果我们能更快地推出东西，如果我们能以更低成本的方式做到这一点，"
+ },
+ {
+  "seg": 308,
+  "start": 1673.703,
+  "end": 1676.085,
+  "speaker": "Unknown",
+  "en": "then those probably come into reach as well.",
+  "zh": "那么那些可能也就触手可及了。"
+ },
+ {
+  "seg": 309,
+  "start": 1676.385,
+  "end": 1681.05,
+  "speaker": "Unknown",
+  "en": "So I think there are just so many different axes that we're able to push on.",
+  "zh": "所以我认为，我们要能够推动的维度真的非常多。"
+ },
+ {
+  "seg": 310,
+  "start": 1681.43,
+  "end": 1683.993,
+  "speaker": "Unknown",
+  "en": "And I think that means that the future is really bright.",
+  "zh": "我认为这意味着未来真的非常光明。"
+ },
+ {
+  "seg": 311,
+  "start": 1684.492,
+  "end": 1687.473,
+  "speaker": "Unknown",
+  "en": "it used to be like, you either wanna be first in class or best in class.",
+  "zh": "过去的情况是，你要么想做同类首创，要么想做同类最优。"
+ },
+ {
+  "seg": 312,
+  "start": 1687.734,
+  "end": 1689.374,
+  "speaker": "Unknown",
+  "en": "And now it's like, you wanna be last in class.",
+  "zh": "现在是，你想做同类最后。"
+ },
+ {
+  "seg": 313,
+  "start": 1689.734,
+  "end": 1692.116,
+  "speaker": "Unknown",
+  "en": "Cause like you actually just wanna like be the final answer.",
+  "zh": "因为你实际上真的想做最终的那个答案。"
+ },
+ {
+  "seg": 314,
+  "start": 1692.856,
+  "end": 1697.918,
+  "speaker": "Unknown",
+  "en": "So I think like a lot of what you'll see is just like way more intentionality in the types of drugs that you're designing.",
+  "zh": "所以我认为，你会看到的很多东西只是在你设计的药物类型中有更多的意图性。"
+ },
+ {
+  "seg": 315,
+  "start": 1697.938,
+  "end": 1701.36,
+  "speaker": "Unknown",
+  "en": "Like this drug will be super specific to the disease of interest.",
+  "zh": "比如这种药物会对感兴趣的疾病超级具体。"
+ },
+ {
+  "seg": 316,
+  "start": 1701.4,
+  "end": 1705.902,
+  "speaker": "Unknown",
+  "en": "It won't have like certain interactions, like certain negative interactions that a lot of drugs today do.",
+  "zh": "它不会有某些相互作用，比如今天很多药物确实会有的某些负面相互作用。"
+ },
+ {
+  "seg": 317,
+  "start": 1706.102,
+  "end": 1712.425,
+  "speaker": "Unknown",
+  "en": "A lot of this stuff is actually like, you're able to model most of this computationally, like maybe not today,",
+  "zh": "这些东西实际上很多都是，你能够在计算上建模其中大部分，比如可能不是今天，"
+ },
+ {
+  "seg": 318,
+  "start": 1712.825,
+  "end": 1740.136,
+  "speaker": "Unknown",
+  "en": "uh but there's definitely a path towards getting there and i think that's like one of the most exciting things for me very cool can we talk about a business model decision that you guys made um because i think a lot of times folks think about chai and isomorphic and the same neighborhood isomorphic is developing drugs you guys are enabling the existing industry to develop drugs more efficiently better faster cheaper than they had before why did you decide to go down that path versus you know the isomorphic path",
+  "zh": "但肯定有一条路可以到达那里，我认为这对我来说是最令人兴奋的事情之一。非常酷，我们可以谈谈你们做出的一个商业模式决定吗，因为我认为很多时候人们想到 Chai 和 Isomorphic 会觉得它们在同一个领域，Isomorphic 在开发药物，而你们是让现有行业更高效、更好、更快、更便宜地开发药物，你们为什么决定走这条路而不是你知道 Isomorphic 的那条路"
+ },
+ {
+  "seg": 319,
+  "start": 1740.741,
+  "end": 1745.466,
+  "speaker": "Unknown",
+  "en": "First of all, I think both of these paths are great and they can create tremendous value.",
+  "zh": "首先，我认为这两条路都很棒，它们都能创造巨大的价值。"
+ },
+ {
+  "seg": 320,
+  "start": 1745.767,
+  "end": 1748.69,
+  "speaker": "Unknown",
+  "en": "We've always been really excited about building infrastructure for the industry.",
+  "zh": "我们一直对为行业构建基础设施感到非常兴奋。"
+ },
+ {
+  "seg": 321,
+  "start": 1749.19,
+  "end": 1757.46,
+  "speaker": "Unknown",
+  "en": "Our bet when we started to go back to those results in Matt's house a few years ago was that this is how most future drugs are going to be discovered.",
+  "zh": "当我们几年前回到 Matt 的房子查看那些结果时，我们的赌注是，这就是大多数未来药物将被发现的方式。"
+ },
+ {
+  "seg": 322,
+  "start": 1757.96,
+  "end": 1761.464,
+  "speaker": "Unknown",
+  "en": "And if that's the case, somebody needs to go and build that infrastructure and make it happen.",
+  "zh": "如果是那样，就需要有人去构建那个基础设施并使其实现。"
+ },
+ {
+  "seg": 323,
+  "start": 1761.965,
+  "end": 1769.614,
+  "speaker": "Unknown",
+  "en": "I think part of this, too, is a lot of our founding team, including Matt and I, had worked in companies before where we had built these full-stack drug pipelines.",
+  "zh": "我认为这部分原因也是，我们的很多创始团队，包括 Matt 和我，以前都在工作过的公司里构建过这些全栈药物管线。"
+ },
+ {
+  "seg": 324,
+  "start": 1769.694,
+  "end": 1770.976,
+  "speaker": "Unknown",
+  "en": "And we were building AI models.",
+  "zh": "我们在构建 AI 模型。"
+ },
+ {
+  "seg": 325,
+  "start": 1771.296,
+  "end": 1772.497,
+  "speaker": "Unknown",
+  "en": "We were putting those drugs into the clinic.",
+  "zh": "我们把这些药物放入临床。"
+ },
+ {
+  "seg": 326,
+  "start": 1772.978,
+  "end": 1774.879,
+  "speaker": "Unknown",
+  "en": "again, we're pretty bitter lesson pilled as well.",
+  "zh": "同样，我们也吃了相当苦涩的教训。"
+ },
+ {
+  "seg": 327,
+  "start": 1775.039,
+  "end": 1783.985,
+  "speaker": "Unknown",
+  "en": "And our thinking was as the models get better, we want to be spending more of the money making better models as opposed to diverting those resources into clinical trials and things like that.",
+  "zh": "我们的思考是，随着模型变得更好，我们想要把更多的钱花在制造更好的模型上，而不是将这些资源转移到临床试验和类似的事情上。"
+ },
+ {
+  "seg": 328,
+  "start": 1784.005,
+  "end": 1789.688,
+  "speaker": "Unknown",
+  "en": "And one of the interesting things about our business models, as the models get better, actually wins us the right to continue investing more in them.",
+  "zh": "关于我们商业模式有趣的一件事是，随着模型变得更好，实际上让我们赢得了继续投资更多于它们的权利。"
+ },
+ {
+  "seg": 329,
+  "start": 1790.028,
+  "end": 1812.586,
+  "speaker": "Unknown",
+  "en": "right and you have you know partnerships with with these pharma companies that are paying off today and allow us to invest in it so it's it's a much more you know scalable business in that way and i just think about the ultimate impact that we can create for the world is a lot larger we've we've always wanted to just partner broadly with the ecosystem it goes back to this point about fooling yourself in biology if you work on a small number of drug targets you might come up with the most exquisite molecules",
+  "zh": "对，而且你有与这些制药公司的合作伙伴关系，这些合作关系现在正在产生回报，并允许我们对其进行投资，所以这是一种你知道的更具扩展性的业务方式，我只想考虑我们可以为世界创造的最终影响要大得多，我们一直想与生态系统广泛合作，这又回到了在生物学中自欺欺人的这一点，如果你处理的药物靶点数量很少，你可能会想出最精致的分子"
+ },
+ {
+  "seg": 330,
+  "start": 1813.006,
+  "end": 1815.668,
+  "speaker": "Unknown",
+  "en": "creating a ton of value for the world by doing that.",
+  "zh": "通过这样做为世界创造巨大的价值。"
+ },
+ {
+  "seg": 331,
+  "start": 1815.989,
+  "end": 1822.074,
+  "speaker": "Unknown",
+  "en": "But you might miss the forest for the trees because maybe your model doesn't generalize to the other 500 molecules that people are going to make that year.",
+  "zh": "但你可能会见树不见林，因为也许你的模型不能泛化到人们那年要制造的其他 500 个分子。"
+ },
+ {
+  "seg": 332,
+  "start": 1822.514,
+  "end": 1826.317,
+  "speaker": "Unknown",
+  "en": "And if you go and partner with people, you just can't fool yourself.",
+  "zh": "如果你去与人合作，你就根本无法自欺欺人。"
+ },
+ {
+  "seg": 333,
+  "start": 1826.518,
+  "end": 1829.66,
+  "speaker": "Unknown",
+  "en": "You look at our partners, Eli Lilly, Novartis, Organics, Pfizer.",
+  "zh": "看看我们的合作伙伴，礼来、诺华、Organon、辉瑞。"
+ },
+ {
+  "seg": 334,
+  "start": 1829.961,
+  "end": 1834.665,
+  "speaker": "Unknown",
+  "en": "These are not companies that take this stuff for granted.",
+  "zh": "这些不是把这一切视为理所当然的公司。"
+ },
+ {
+  "seg": 335,
+  "start": 1835.005,
+  "end": 1838.348,
+  "speaker": "Unknown",
+  "en": "You have to really deliver on these partnerships for them to take you seriously.",
+  "zh": "你必须真正在这些合作伙伴关系中交付成果，他们才会认真对待你。"
+ },
+ {
+  "seg": 336,
+  "start": 1838.708,
+  "end": 1855.668,
+  "speaker": "Unknown",
+  "en": "and that means it can't just work like some of the time like when we ship models at chai they really have to work they have to deliver value to our partners and it's not like oh we made some molecule doesn't fully work we're gonna have our chemists like clean it up a little bit so it's it's almost a harder business to pull off i think that's one of the reasons why you haven't seen it pursued many times",
+  "zh": "这意味着它不能只是有时起作用，比如当我们在 Chai 发布模型时，它们真的必须起作用，它们必须为我们的合作伙伴提供价值，这不像是哦我们制造了某种分子不完全起作用，我们要让我们的化学家把它稍微清理一下，所以我认为这实际上是一门更难做的生意，这就是为什么你没有看到它被追求很多次的原因之一"
+ },
+ {
+  "seg": 337,
+  "start": 1856.108,
+  "end": 1859.489,
+  "speaker": "Unknown",
+  "en": "If you work on a drug pipeline, again, like there might be ways to fix things up later.",
+  "zh": "如果你从事药物管线工作，同样，可能有一些方法可以在以后修补事情。"
+ },
+ {
+  "seg": 338,
+  "start": 1859.529,
+  "end": 1861.71,
+  "speaker": "Unknown",
+  "en": "There will be the proof of like what happens in the clinic, of course.",
+  "zh": "当然会有临床发生什么的证明。"
+ },
+ {
+  "seg": 339,
+  "start": 1862.491,
+  "end": 1866.232,
+  "speaker": "Unknown",
+  "en": "But when you have this partnering based model, you have to be really rigorous about your models.",
+  "zh": "但当你拥有这种基于合作的模式时，你必须对模型非常严谨。"
+ },
+ {
+  "seg": 340,
+  "start": 1866.512,
+  "end": 1869.754,
+  "speaker": "Unknown",
+  "en": "Your models have to work really well because otherwise those partners are not going to come easily.",
+  "zh": "你的模型必须非常好地工作，否则这些合作伙伴不会轻易到来。"
+ },
+ {
+  "seg": 341,
+  "start": 1869.774,
+  "end": 1872.135,
+  "speaker": "Unknown",
+  "en": "So it's made our life harder, I think, in many ways.",
+  "zh": "所以我认为这在很多方面让我们的生活变得更难了。"
+ },
+ {
+  "seg": 342,
+  "start": 1872.275,
+  "end": 1874.716,
+  "speaker": "Unknown",
+  "en": "But I think it's also the more rewarding path if we can get it to",
+  "zh": "但我认为如果我们能做到，这也是一条更有回报的道路。"
+ },
+ {
+  "seg": 343,
+  "start": 1874.976,
+  "end": 1875.837,
+  "speaker": "Unknown",
+  "en": "And what have you learned?",
+  "zh": "你学到了什么？"
+ },
+ {
+  "seg": 344,
+  "start": 1875.997,
+  "end": 1881.96,
+  "speaker": "Unknown",
+  "en": "I mean, you know, you're out of the lab, so to speak, and in the real world, you know, delivering real value for actual pharma companies.",
+  "zh": "我的意思是，你知道，你走出了实验室，可以说，进入了现实世界，你知道，为实际的制药公司提供真正的价值。"
+ },
+ {
+  "seg": 345,
+  "start": 1882.46,
+  "end": 1892.746,
+  "speaker": "Unknown",
+  "en": "What have you learned as you started to work with these partners in terms of any surprises in terms of how their needs might have differed from what you expected or how their level of sophistication around this might be different than what you expected?",
+  "zh": "当你开始与这些合作伙伴合作时，你学到了什么，关于他们的需求可能与你预期的有何不同，或者他们对此的成熟水平可能与你预期的有何不同的任何惊喜？"
+ },
+ {
+  "seg": 346,
+  "start": 1892.946,
+  "end": 1895.588,
+  "speaker": "Unknown",
+  "en": "Any surprises or any learnings from working with these partners?",
+  "zh": "与这些合作伙伴工作有什么惊喜或收获吗？"
+ },
+ {
+  "seg": 347,
+  "start": 1895.876,
+  "end": 1895.996,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 348,
+  "start": 1896.016,
+  "end": 1901.302,
+  "speaker": "Unknown",
+  "en": "So when we went into these partnerships, I think a lot of people told us that like pharma doesn't know how to use AI.",
+  "zh": "所以当我们进入这些合作伙伴关系时，我想很多人告诉我们说制药公司不知道如何使用 AI。"
+ },
+ {
+  "seg": 349,
+  "start": 1901.343,
+  "end": 1903.986,
+  "speaker": "Unknown",
+  "en": "These are not, it's not like a tech forward industry and things like that.",
+  "zh": "这些不是，这不是一个技术前沿行业，诸如此类。"
+ },
+ {
+  "seg": 350,
+  "start": 1904.446,
+  "end": 1906.689,
+  "speaker": "Unknown",
+  "en": "And to be honest, that hasn't really been our experience.",
+  "zh": "说实话,那并不是我们的真实体验。"
+ },
+ {
+  "seg": 351,
+  "start": 1906.809,
+  "end": 1910.694,
+  "speaker": "Unknown",
+  "en": "I think that these are, again, they're very rigorous partners, very rigorous customers, right?",
+  "zh": "我认为这些,再次强调,他们是非常严谨的合作伙伴,非常严谨的客户,对吧?"
+ },
+ {
+  "seg": 352,
+  "start": 1910.734,
+  "end": 1910.974,
+  "speaker": "Unknown",
+  "en": "And they're",
+  "zh": "而且他们"
+ },
+ {
+  "seg": 353,
+  "start": 1911.194,
+  "end": 1915.435,
+  "speaker": "Unknown",
+  "en": "They're going to test every one of our claims right before they start to deploy these things.",
+  "zh": "他们会在开始部署这些东西之前,测试我们要做的每一个声明。"
+ },
+ {
+  "seg": 354,
+  "start": 1915.495,
+  "end": 1918.555,
+  "speaker": "Unknown",
+  "en": "But when they see the data, they go all in, right?",
+  "zh": "但当他们看到数据时,他们就会全力以赴,对吧?"
+ },
+ {
+  "seg": 355,
+  "start": 1918.595,
+  "end": 1920.296,
+  "speaker": "Unknown",
+  "en": "Because pharma is an innovation industry.",
+  "zh": "因为制药业是一个创新行业。"
+ },
+ {
+  "seg": 356,
+  "start": 1920.796,
+  "end": 1924.216,
+  "speaker": "Unknown",
+  "en": "And it's interesting just to think about even the whole economics of the pharma industry.",
+  "zh": "仅仅思考整个制药行业的经济学也是很有趣的。"
+ },
+ {
+  "seg": 357,
+  "start": 1924.636,
+  "end": 1931.357,
+  "speaker": "Unknown",
+  "en": "If you build a product in pharma, right, like a drug, right, you only have exclusivity on that drug for a certain period of time, right?",
+  "zh": "如果你在制药业制造一个产品,对吧,比如一种药,对吧,你只对那种药拥有一定时期的独占权,对吧?"
+ },
+ {
+  "seg": 358,
+  "start": 1931.397,
+  "end": 1932.938,
+  "speaker": "Unknown",
+  "en": "And you have to continue to reinvest.",
+  "zh": "而且你必须继续再投资。"
+ },
+ {
+  "seg": 359,
+  "start": 1933.038,
+  "end": 1935.978,
+  "speaker": "Unknown",
+  "en": "Eli Lilly is a trillion dollar pharma company right now.",
+  "zh": "礼来现在是万亿美元级的制药公司。"
+ },
+ {
+  "seg": 360,
+  "start": 1936.458,
+  "end": 1940.199,
+  "speaker": "Unknown",
+  "en": "If they don't get more blockbuster drugs, they will not be a trillion dollar pharma company forever.",
+  "zh": "如果他们没有获得更多的重磅药物,他们将永远无法成为万亿美元级的制药公司。"
+ },
+ {
+  "seg": 361,
+  "start": 1941.039,
+  "end": 1948.024,
+  "speaker": "Unknown",
+  "en": "And I think that forces these companies to really be on their game of adopting new technologies and deploying them and trying to stay ahead.",
+  "zh": "我认为这迫使这些公司必须真正在采用新技术和部署新技术方面处于领先地位,并努力保持领先。"
+ },
+ {
+  "seg": 362,
+  "start": 1948.364,
+  "end": 1950.046,
+  "speaker": "Unknown",
+  "en": "Pharma is a very competitive arena.",
+  "zh": "制药业是一个非常有竞争力的竞技场。"
+ },
+ {
+  "seg": 363,
+  "start": 1950.066,
+  "end": 1952.267,
+  "speaker": "Unknown",
+  "en": "There's a lot of people trying to bring these drugs to patients.",
+  "zh": "有很多人试图将这些药物带给患者。"
+ },
+ {
+  "seg": 364,
+  "start": 1952.367,
+  "end": 1956.57,
+  "speaker": "Unknown",
+  "en": "By the way, it's great for patients, but it means that you have to be on top of your game here.",
+  "zh": "顺便说一句,这对患者来说很好,但这意味着你必须在这里保持顶尖水平。"
+ },
+ {
+  "seg": 365,
+  "start": 1957.351,
+  "end": 1967.458,
+  "speaker": "Unknown",
+  "en": "And I think that means that once you're through that door and your models are working, we've seen an upscale of this adoption very quickly and people thinking about how to use the models in incredibly creative ways.",
+  "zh": "我认为这意味着一旦你跨过了那扇门并且你的模型开始工作,我们已经看到这种采用非常快速地升级,人们开始思考如何以非常有创意的方式使用这些模型。"
+ },
+ {
+  "seg": 366,
+  "start": 1968.038,
+  "end": 1972.881,
+  "speaker": "Unknown",
+  "en": "I really like the incentive structure that it creates as well, like taking more of the partnership model.",
+  "zh": "我也非常喜欢它创造的激励结构,比如采用更多的合作伙伴模式。"
+ },
+ {
+  "seg": 367,
+  "start": 1973.162,
+  "end": 1976.844,
+  "speaker": "Unknown",
+  "en": "As our models get better, we get better results to our customers and so on.",
+  "zh": "随着我们的模型变得更好,我们给客户带来更好的结果等等。"
+ },
+ {
+  "seg": 368,
+  "start": 1976.904,
+  "end": 1980.527,
+  "speaker": "Unknown",
+  "en": "So I think that's just a nice side effect for us as well.",
+  "zh": "所以我认为这对我们来说也是一个很好的副作用。"
+ },
+ {
+  "seg": 369,
+  "start": 1980.807,
+  "end": 1983.068,
+  "speaker": "Unknown",
+  "en": "Chai has been incredibly focused.",
+  "zh": "Chai 一直非常专注。"
+ },
+ {
+  "seg": 370,
+  "start": 1983.189,
+  "end": 1988.252,
+  "speaker": "Unknown",
+  "en": "And really, as the models get better, you can iterate on a better model with better data and so on.",
+  "zh": "真的,随着模型变得更好,你可以用更好的数据和更好的模型来迭代。"
+ },
+ {
+  "seg": 371,
+  "start": 1988.272,
+  "end": 1993.916,
+  "speaker": "Unknown",
+  "en": "So a lot of what we see and a lot of what our partners are using the model for, like generating binders, antibodies, so on,",
+  "zh": "所以我们看到的大部分以及我们的合作伙伴使用模型的大部分内容,比如生成结合剂、抗体等等,"
+ },
+ {
+  "seg": 372,
+  "start": 1994.276,
+  "end": 2009.377,
+  "speaker": "Unknown",
+  "en": "like we're also like doing a lot of dog fooding in-house like we have a whole science scene that's using the models and just trying to understand what they can do and a lot of that comes back to like okay now that like the model now that we've unlocked use case x like what type of new data can we generate how can we make the model better that way",
+  "zh": "我们也在内部做了大量的内部使用,我们有一个完整的科学团队正在使用这些模型,只是试图理解它们能做什么,其中很多反馈回到了,好的现在我们已经解锁了用例 x,我们可以生成什么样的新数据,我们如何通过这种方式让模型变得更好"
+ },
+ {
+  "seg": 373,
+  "start": 2009.817,
+  "end": 2024.486,
+  "speaker": "Unknown",
+  "en": "um and really like that's been the long-term vision of chai is like we never thought of like we're gonna build this one model that's gonna solve all of this like we know that they're just like uh in other fields like they're gonna be multiple iterations of this model and as you get better and better models like you get this flywheel effect i guess",
+  "zh": "嗯 真的 Chai 的长期愿景就是,我们从未想过我们要构建这一个模型来解决所有问题,就像我们知道在其他领域一样,这个模型将会有多次迭代,随着你获得越来越好的模型,就像你得到了这种飞轮效应,我猜"
+ },
+ {
+  "seg": 374,
+  "start": 2025.257,
+  "end": 2026.979,
+  "speaker": "Unknown",
+  "en": "Well, and you mentioned what data can we generate?",
+  "zh": "好吧,你提到了我们可以生成什么数据?"
+ },
+ {
+  "seg": 375,
+  "start": 2026.999,
+  "end": 2028.341,
+  "speaker": "Unknown",
+  "en": "Can we touch on data for a minute?",
+  "zh": "我们可以花一分钟谈谈数据吗?"
+ },
+ {
+  "seg": 376,
+  "start": 2028.381,
+  "end": 2032.326,
+  "speaker": "Unknown",
+  "en": "You guys can't exactly just go scrape the internet and have all the data you need to build your models.",
+  "zh": "你们不能直接就去抓取互联网就拥有了构建模型所需的所有数据。"
+ },
+ {
+  "seg": 377,
+  "start": 2032.967,
+  "end": 2034.249,
+  "speaker": "Unknown",
+  "en": "Where does the data come from?",
+  "zh": "数据来自哪里?"
+ },
+ {
+  "seg": 378,
+  "start": 2034.469,
+  "end": 2036.412,
+  "speaker": "Unknown",
+  "en": "How does it kind of compound over time?",
+  "zh": "它是如何随时间复合增长的?"
+ },
+ {
+  "seg": 379,
+  "start": 2036.432,
+  "end": 2040.437,
+  "speaker": "Unknown",
+  "en": "Can you just say a word about data as an input to your models?",
+  "zh": "你能就数据作为模型的输入说一句话吗?"
+ },
+ {
+  "seg": 380,
+  "start": 2041.001,
+  "end": 2048.264,
+  "speaker": "Unknown",
+  "en": "Yeah, so I think like the primary source of data or like the gold standard source of data is this like protein database.",
+  "zh": "是的,所以我认为就像主要的数据来源或者就像黄金标准的数据来源是这个蛋白质数据库。"
+ },
+ {
+  "seg": 381,
+  "start": 2049.204,
+  "end": 2061.129,
+  "speaker": "Unknown",
+  "en": "So this is like, it's actually just like legit lab scientists like who since like 1970 have just been depositing crystal structures of like proteins and other molecules over time.",
+  "zh": "所以这就像是,它实际上只是真正的实验室科学家,谁从 1970 年以来就一直在沉积蛋白质和其他分子的晶体结构。"
+ },
+ {
+  "seg": 382,
+  "start": 2061.729,
+  "end": 2066.111,
+  "speaker": "Unknown",
+  "en": "And like really without that, like structure prediction and design wouldn't have been a thing.",
+  "zh": "而且真的如果没有那个,结构预测和设计就不可能成为一件事。"
+ },
+ {
+  "seg": 383,
+  "start": 2066.931,
+  "end": 2069.752,
+  "speaker": "Unknown",
+  "en": "So there are these, so that's like one source of structural data.",
+  "zh": "所以有这些,所以那是结构数据的一个来源。"
+ },
+ {
+  "seg": 384,
+  "start": 2070.072,
+  "end": 2072.935,
+  "speaker": "Unknown",
+  "en": "When I started in the field, I really took a structure-pilled approach.",
+  "zh": "当我开始在这个领域工作时,我真的采用了一种结构至上的方法。"
+ },
+ {
+  "seg": 385,
+  "start": 2072.975,
+  "end": 2075.097,
+  "speaker": "Unknown",
+  "en": "I was super interested in predicting structure.",
+  "zh": "我对预测结构超级感兴趣。"
+ },
+ {
+  "seg": 386,
+  "start": 2075.417,
+  "end": 2079.141,
+  "speaker": "Unknown",
+  "en": "How do you think about a machine learning model that can output 3D coordinates?",
+  "zh": "你如何看待一个可以输出 3D 坐标的机器学习模型?"
+ },
+ {
+  "seg": 387,
+  "start": 2079.181,
+  "end": 2081.383,
+  "speaker": "Unknown",
+  "en": "That doesn't look like an LLM.",
+  "zh": "它看起来不像一个 LLM。"
+ },
+ {
+  "seg": 388,
+  "start": 2081.403,
+  "end": 2082.544,
+  "speaker": "Unknown",
+  "en": "It doesn't look like an image model.",
+  "zh": "它看起来不像一个图像模型。"
+ },
+ {
+  "seg": 389,
+  "start": 2082.564,
+  "end": 2083.805,
+  "speaker": "Unknown",
+  "en": "This is really in its own class.",
+  "zh": "这真的是自成一类。"
+ },
+ {
+  "seg": 390,
+  "start": 2084.226,
+  "end": 2087.969,
+  "speaker": "Unknown",
+  "en": "Josh, interestingly, was taking the exact opposite approach.",
+  "zh": "有趣的是,Josh 采取了完全相反的方法。"
+ },
+ {
+  "seg": 391,
+  "start": 2088.029,
+  "end": 2094.856,
+  "speaker": "Unknown",
+  "en": "He was one of the original authors on ESM, and that was really a seminal work in understanding how to apply language models to protein sequences.",
+  "zh": "他是 ESM 的原始作者之一,那真的是一篇在理解如何将语言模型应用于蛋白质序列方面的开创性工作。"
+ },
+ {
+  "seg": 392,
+  "start": 2095.396,
+  "end": 2114.884,
+  "speaker": "Unknown",
+  "en": "uh what's really cool about that work is if you can train a language model to understand protein sequences what ends up happening is it ends up kind of like representing the 3d structure internally and there's like a really interesting reason why this happens so like in order to predict like missing amino acids like same way that you'd predict like next word in a sentence i want to predict next amino acid in a protein",
+  "zh": "这项工作真正酷的地方在于,如果你能训练一个语言模型来理解蛋白质序列,最终发生的事情是它最终在内部代表了 3D 结构,并且有一个非常有趣的原因解释为什么会发生这种情况,所以就像为了预测缺失的氨基酸,就像预测句子中的下一个词一样,我想预测蛋白质中的下一个氨基酸"
+ },
+ {
+  "seg": 393,
+  "start": 2115.544,
+  "end": 2121.689,
+  "speaker": "Unknown",
+  "en": "In order to do that effectively, like you really need to understand like, okay, what does amino acids like immediate microenvironment look like?",
+  "zh": "为了有效地做到这一点,你真的需要理解,好的,氨基酸的即时微环境是什么样的?"
+ },
+ {
+  "seg": 394,
+  "start": 2122.05,
+  "end": 2126.573,
+  "speaker": "Unknown",
+  "en": "Because that kind of tells you, okay, what are like the compatible amino acids with everything surrounding it?",
+  "zh": "因为那基本上告诉你,好的,什么是与周围环境兼容的氨基酸?"
+ },
+ {
+  "seg": 395,
+  "start": 2126.874,
+  "end": 2130.437,
+  "speaker": "Unknown",
+  "en": "And in order to do that well, you need to understand the protein's 3D shape.",
+  "zh": "为了做好这一点,你需要理解蛋白质的 3D 形状。"
+ },
+ {
+  "seg": 396,
+  "start": 2130.477,
+  "end": 2134.78,
+  "speaker": "Unknown",
+  "en": "So I was taking like this really structure-based approach and Josh was even more bitter lesson pilled to me.",
+  "zh": "所以我采用这种真正基于结构的方法,而 Josh 对我来说更受苦教训的影响。"
+ },
+ {
+  "seg": 397,
+  "start": 2134.8,
+  "end": 2137.863,
+  "speaker": "Unknown",
+  "en": "He's like, we're just going to like look at the sequences and this is just going to emerge.",
+  "zh": "他说,我们只是要看这些序列,然后它就会浮现出来。"
+ },
+ {
+  "seg": 398,
+  "start": 2138.323,
+  "end": 2162.592,
+  "speaker": "Unknown",
+  "en": "um so yeah the two main sources of this data again like protein database for structures and then like these massive massive maybe even like order of like trillions of token sequence databases um and what you can do once you have really good models is just run them on the sequence databases to get new structures out um so again like you have this compounding effect as your models get better they get more and more accurate at predicting these structures and then you have more and more training data for the next series of models",
+  "zh": "嗯 所以是的,这个数据的两个主要来源,再次强调,用于结构的蛋白质数据库,然后这些巨大的,也许是万亿级 token 顺序的序列数据库,一旦你有非常好的模型,你可以做的就是只是在序列数据库上运行它们以获得新的结构,所以再次强调,你有这种复合效应,随着你的模型变得更好,他们在预测这些结构方面变得越来越准确,然后你有越来越多的训练数据用于下一系列模型"
+ },
+ {
+  "seg": 399,
+  "start": 2163.018,
+  "end": 2168.14,
+  "speaker": "Unknown",
+  "en": "Sometimes people ask us at Chai about, these days at Chai, like which paradigm are you actually going after?",
+  "zh": "有时人们会问我们在 Chai,现在在 Chai,你实际上追求的是哪种范式?"
+ },
+ {
+  "seg": 400,
+  "start": 2168.16,
+  "end": 2171.762,
+  "speaker": "Unknown",
+  "en": "I think one of the things I love about our team is that it's actually just like neither.",
+  "zh": "我认为我很喜欢我们团队的一点是，它实际上两者都不是。"
+ },
+ {
+  "seg": 401,
+  "start": 2171.782,
+  "end": 2172.582,
+  "speaker": "Unknown",
+  "en": "We're very pragmatic.",
+  "zh": "我们非常务实。"
+ },
+ {
+  "seg": 402,
+  "start": 2172.622,
+  "end": 2173.643,
+  "speaker": "Unknown",
+  "en": "Like we want to solve the problem.",
+  "zh": "就像我们想要解决问题。"
+ },
+ {
+  "seg": 403,
+  "start": 2173.663,
+  "end": 2176.124,
+  "speaker": "Unknown",
+  "en": "We don't really care is it a sequence approach, is it a structure approach.",
+  "zh": "我们真的不在乎这是序列方法还是结构方法。"
+ },
+ {
+  "seg": 404,
+  "start": 2176.144,
+  "end": 2178.385,
+  "speaker": "Unknown",
+  "en": "In practice, it's going to end up being like both, of course.",
+  "zh": "在实践中，它当然最终会像是两者兼而有之。"
+ },
+ {
+  "seg": 405,
+  "start": 2179.005,
+  "end": 2185.168,
+  "speaker": "Unknown",
+  "en": "I think you'd be surprised, but there might even be more like biological sequence tokens on the internet than like English language tokens.",
+  "zh": "我想你会感到惊讶，但互联网上的生物序列 token 甚至可能比英语语言 token 还要多。"
+ },
+ {
+  "seg": 406,
+  "start": 2185.848,
+  "end": 2188.03,
+  "speaker": "Unknown",
+  "en": "And now a lot of that data is not that useful.",
+  "zh": "现在很多数据并不是那么有用。"
+ },
+ {
+  "seg": 407,
+  "start": 2188.05,
+  "end": 2188.97,
+  "speaker": "Unknown",
+  "en": "It might not be redundant.",
+  "zh": "它可能不是冗余的。"
+ },
+ {
+  "seg": 408,
+  "start": 2188.99,
+  "end": 2189.931,
+  "speaker": "Unknown",
+  "en": "It might be very noisy.",
+  "zh": "它可能非常嘈杂。"
+ },
+ {
+  "seg": 409,
+  "start": 2190.271,
+  "end": 2191.372,
+  "speaker": "Unknown",
+  "en": "But there's a lot of data out there.",
+  "zh": "但那里有很多数据。"
+ },
+ {
+  "seg": 410,
+  "start": 2191.392,
+  "end": 2193.113,
+  "speaker": "Unknown",
+  "en": "There's a lot of art in bringing it together.",
+  "zh": "将它们整合在一起有很多艺术性。"
+ },
+ {
+  "seg": 411,
+  "start": 2193.133,
+  "end": 2202.299,
+  "speaker": "Unknown",
+  "en": "And I think also the exciting thing is as the models have gotten to a point now where we can design things in the lab to new targets, for instance, we can actually use the models to generate data as well.",
+  "zh": "我认为令人兴奋的事情也是，现在模型已经达到了我们可以在实验室中针对新目标设计东西的地步，例如，我们实际上也可以使用模型来生成数据。"
+ },
+ {
+  "seg": 412,
+  "start": 2202.319,
+  "end": 2207.523,
+  "speaker": "Unknown",
+  "en": "So there's a lot of exhaust from all the experiments that we're doing at Chai, which also helped to make the models even better.",
+  "zh": "所以我们在 Chai 进行的所有实验产生了大量的 exhaust，这也有助于使模型变得更好。"
+ },
+ {
+  "seg": 413,
+  "start": 2207.883,
+  "end": 2210.085,
+  "speaker": "Unknown",
+  "en": "So it's a similar kind of takeoff that we saw with LLMs.",
+  "zh": "所以这与我们在 LLMs 上看到的类似的那种起飞。"
+ },
+ {
+  "seg": 414,
+  "start": 2210.105,
+  "end": 2211.726,
+  "speaker": "Unknown",
+  "en": "When I was at OpenAI, we worked on...",
+  "zh": "当我在 OpenAI 时，我们在..."
+ },
+ {
+  "seg": 415,
+  "start": 2212.206,
+  "end": 2235.442,
+  "speaker": "Unknown",
+  "en": "reinforcement learning of like a gpt-1 architecture like did not work because the models weren't like good enough uh but once the base model got good enough then you could start to do those kinds of experiments and i think there's a similar analogy that's starting to happen in our world now as well where the models have reached a point where there's actually a renewed interest in data and like how do we actually bring the models into the loop on like making that happen i think that creates another really like interesting cycle on compounding improvement of the models",
+  "zh": "类似 gpt-1 架构的强化学习不起作用，因为模型还不够好，但一旦基础模型足够好，你就可以开始做那些实验，我认为现在我们的世界中也发生着类似的类比，模型已经达到了一个实际上对数据重新感兴趣的点，以及我们如何实际地将模型带入循环以实现这一点，我认为这创造了另一个非常有趣的模型复合改进的周期"
+ },
+ {
+  "seg": 416,
+  "start": 2235.762,
+  "end": 2235.962,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 417,
+  "start": 2236.262,
+  "end": 2238.524,
+  "speaker": "Unknown",
+  "en": "We're talking a bit about compounding improvement in the models.",
+  "zh": "我们正在谈论一些关于模型的复合改进。"
+ },
+ {
+  "seg": 418,
+  "start": 2238.544,
+  "end": 2243.648,
+  "speaker": "Unknown",
+  "en": "And you said something about how pharma as an industry is an incredibly competitive landscape.",
+  "zh": "你提到制药业作为一个行业是一个竞争极其激烈的格局。"
+ },
+ {
+  "seg": 419,
+  "start": 2244.428,
+  "end": 2250.853,
+  "speaker": "Unknown",
+  "en": "And it's interesting because I think there's been a renowned interest in using AI and using ML to generate proteins and molecules.",
+  "zh": "这很有趣，因为我认为人们对使用 AI 和使用 ML 来生成蛋白质和分子产生了著名的兴趣。"
+ },
+ {
+  "seg": 420,
+  "start": 2251.233,
+  "end": 2253.515,
+  "speaker": "Unknown",
+  "en": "And so your arena has actually become quite competitive.",
+  "zh": "所以你的领域实际上变得相当有竞争力。"
+ },
+ {
+  "seg": 421,
+  "start": 2254.196,
+  "end": 2257.218,
+  "speaker": "Unknown",
+  "en": "And you guys have obviously done an amazing job at staying at the frontier.",
+  "zh": "你们显然在保持处于前沿方面做得非常出色。"
+ },
+ {
+  "seg": 422,
+  "start": 2257.598,
+  "end": 2284.607,
+  "speaker": "Unknown",
+  "en": "it's been the year of deployment for you you've locked up a number of pharma partnerships that are making your models better but how do you guys think about the competitive landscape um and staying at the front of the frontier well first of all i think it goes back to like looking at the results and not fooling yourself and being rigorous so one of the reasons why we do a lot of evaluation of the models we mainly do it just a hill climb in the models itself i think if you look at many of the capabilities that we've brought in have kind of been like first in the field you look at our chai 2 model right like getting to",
+  "zh": "对你们来说是部署的一年，你们锁定了一些制药合作关系，这些合作使你们的模型变得更好，但你们如何看待竞争格局并保持在前沿，嗯，首先我认为这归结为查看结果而不是欺骗自己并保持严谨，所以我们做大量模型评估的一个主要原因是我们主要只是在模型本身上做 hill climb，我认为如果你看看我们引入的许多能力，它们在某种程度上是领域首创的，看看我们的 chai 2 模型，就像达到"
+ },
+ {
+  "seg": 423,
+  "start": 2285.227,
+  "end": 2307.101,
+  "speaker": "Unknown",
+  "en": "uh success rate of the models that you didn't have to do large library screening anymore to see results a couple months later showing how we could bring in a lot of these developability properties we've talked about before like the manufacturability of the molecules so in in many cases we are pushing the model forward and trying to see these capabilities emerge and then we try to quickly like lock those in like how do we uh how do we make those capabilities like even more pronounced that they become",
+  "zh": "模型的成功率，你不必再做大型文库筛选就能看到结果，几个月后展示了我们如何引入我们之前讨论过的许多可开发性属性，比如分子的可制造性，所以在许多情况下，我们正在推动模型向前发展并试图看到这些能力涌现，然后我们尝试快速锁定这些，就像我们如何，我们如何使这些能力变得更加明显，以至于它们变得"
+ },
+ {
+  "seg": 424,
+  "start": 2307.421,
+  "end": 2309.682,
+  "speaker": "Unknown",
+  "en": "production ready and we can like ship them to our customers.",
+  "zh": "生产就绪，我们可以将它们发货给我们的客户。"
+ },
+ {
+  "seg": 425,
+  "start": 2310.183,
+  "end": 2319.128,
+  "speaker": "Unknown",
+  "en": "I think one of the, one of the things I like to tell the team is that, uh, you know, it's not like we are head to head, like with other model providers or something like that, where all of us, I think are working against nature.",
+  "zh": "我喜欢告诉团队的一件事是，你知道，这并不是我们与其他模型提供商正面交锋之类的，我们所有人实际上都在与自然对抗。"
+ },
+ {
+  "seg": 426,
+  "start": 2319.288,
+  "end": 2321.429,
+  "speaker": "Unknown",
+  "en": "Like nature has actually been a pretty good baseline.",
+  "zh": "就像自然实际上是一个相当不错的基线。"
+ },
+ {
+  "seg": 427,
+  "start": 2321.449,
+  "end": 2324.451,
+  "speaker": "Unknown",
+  "en": "People have done drug discovery a certain way for a long time.",
+  "zh": "人们很长一段时间以来一直以某种方式进行药物发现。"
+ },
+ {
+  "seg": 428,
+  "start": 2324.872,
+  "end": 2328.954,
+  "speaker": "Unknown",
+  "en": "And, you know, Matt talked about how like, maybe you don't want to add like module 24 to the CHI model.",
+  "zh": "而且，你知道，Matt 谈到了也许你不想将 module 24 添加到 CHI 模型中。"
+ },
+ {
+  "seg": 429,
+  "start": 2329.334,
+  "end": 2335.576,
+  "speaker": "Unknown",
+  "en": "But people have added, like, module 240 to, like, the existing wet lab protocols, and they have been, like, tuned quite considerably.",
+  "zh": "但是人们已经将 module 240 添加到了现有的湿实验协议中，并且它们已经被相当大幅度的调整了。"
+ },
+ {
+  "seg": 430,
+  "start": 2336.397,
+  "end": 2343.88,
+  "speaker": "Unknown",
+  "en": "One of the scientists on our team, Andy Young, he was one of the first people working on yeast display at MIT, actually, like, two decades ago.",
+  "zh": "我们团队的一位科学家 Andy Young，实际上二十年前就是最早在 MIT 从事酵母展示工作的人员之一。"
+ },
+ {
+  "seg": 431,
+  "start": 2343.9,
+  "end": 2350.042,
+  "speaker": "Unknown",
+  "en": "And he's got 20 years' experience in, like, Pfizer and Genentech, like, really honing in these methods, has a drug approval to his name in antibodies.",
+  "zh": "他在辉瑞和基因泰克有 20 年的经验，真正磨练了这些方法，在抗体方面有一个以他命名的药物批准。"
+ },
+ {
+  "seg": 432,
+  "start": 2350.662,
+  "end": 2357.925,
+  "speaker": "Unknown",
+  "en": "I think you look at someone like that, and Andy knows how to make a good antibody with existing tools, and that is actually the bar that we need to clear.",
+  "zh": "我认为看看像他这样的人，Andy 知道如何用现有工具制造好的抗体，这实际上就是我们需要清除的栏杆。"
+ },
+ {
+  "seg": 433,
+  "start": 2357.945,
+  "end": 2361.867,
+  "speaker": "Unknown",
+  "en": "Now, of course, I think the ceiling on AI is going to be a lot higher than what we've managed to do before.",
+  "zh": "现在，当然，我认为 AI 的天花板将会比我们以前设法做到的要高得多。"
+ },
+ {
+  "seg": 434,
+  "start": 2361.907,
+  "end": 2364.488,
+  "speaker": "Unknown",
+  "en": "Otherwise, what would be the point of doing this?",
+  "zh": "否则，做这件事有什么意义呢？"
+ },
+ {
+  "seg": 435,
+  "start": 2364.508,
+  "end": 2368.29,
+  "speaker": "Unknown",
+  "en": "We didn't start the company just to make a 10 times faster mouse, right?",
+  "zh": "我们创办公司不仅仅是为了制造一只快 10 倍的老鼠，对吧？"
+ },
+ {
+  "seg": 436,
+  "start": 2368.31,
+  "end": 2371.571,
+  "speaker": "Unknown",
+  "en": "We started this to make breakthrough medicines that weren't possible before.",
+  "zh": "我们开始这是为了制造以前不可能的突破性药物。"
+ },
+ {
+  "seg": 437,
+  "start": 2372.364,
+  "end": 2375.687,
+  "speaker": "Unknown",
+  "en": "But ultimately, that is the bar that we needed to clear in order to get adoption.",
+  "zh": "但最终，这就是我们需要清除的门槛，以便获得采用。"
+ },
+ {
+  "seg": 438,
+  "start": 2375.707,
+  "end": 2378.17,
+  "speaker": "Unknown",
+  "en": "I think we hit that inflection point a couple months ago.",
+  "zh": "我想我们在几个月前达到了那个拐点。"
+ },
+ {
+  "seg": 439,
+  "start": 2378.25,
+  "end": 2381.132,
+  "speaker": "Unknown",
+  "en": "That's why you've seen a lot of these big pharma announcements.",
+  "zh": "这就是为什么你们看到了所有这些大型制药公告的原因。"
+ },
+ {
+  "seg": 440,
+  "start": 2381.212,
+  "end": 2384.455,
+  "speaker": "Unknown",
+  "en": "But now we just need to continue to hone in on making these things even better.",
+  "zh": "但现在我们只需要继续努力使这些东西变得更好。"
+ },
+ {
+  "seg": 441,
+  "start": 2384.836,
+  "end": 2389.6,
+  "speaker": "Unknown",
+  "en": "For somebody who's listening who thinks, wow, this sounds pretty cool, I wonder what it would be like to work at Chai.",
+  "zh": "对于那些在听的人，他们想，哇，这听起来很酷，我想知道在 Chai 工作会是什么样。"
+ },
+ {
+  "seg": 442,
+  "start": 2391.056,
+  "end": 2395.82,
+  "speaker": "Unknown",
+  "en": "what is the best thing about working at Chai and what is the worst thing about working at Chai?",
+  "zh": "在 Chai 工作的最好的事情是什么，在 Chai 工作的最坏的事情是什么？"
+ },
+ {
+  "seg": 443,
+  "start": 2397.122,
+  "end": 2398.923,
+  "speaker": "Unknown",
+  "en": "Yeah, I can speak to some of this.",
+  "zh": "是的，我可以谈谈其中的一些。"
+ },
+ {
+  "seg": 444,
+  "start": 2399.384,
+  "end": 2402.847,
+  "speaker": "Unknown",
+  "en": "I'll think of this on the fly, the worst thing.",
+  "zh": "我会即兴思考最坏的事情。"
+ },
+ {
+  "seg": 445,
+  "start": 2403.107,
+  "end": 2408.031,
+  "speaker": "Unknown",
+  "en": "So I think the best thing is just how actually mission-driven everybody is.",
+  "zh": "所以我认为最好的事情就是每个人实际上是多么的使命驱动。"
+ },
+ {
+  "seg": 446,
+  "start": 2408.111,
+  "end": 2410.013,
+  "speaker": "Unknown",
+  "en": "Everyone is so dedicated to what they're doing.",
+  "zh": "每个人都如此致力于他们正在做的事情。"
+ },
+ {
+  "seg": 447,
+  "start": 2410.153,
+  "end": 2411.635,
+  "speaker": "Unknown",
+  "en": "I've worked at other companies.",
+  "zh": "我在其他公司工作过。"
+ },
+ {
+  "seg": 448,
+  "start": 2412.275,
+  "end": 2430.057,
+  "speaker": "Unknown",
+  "en": "uh the closest i've ever seen to this is like maybe some of the guys in my phd lab um but like everyone is just like incredibly incredibly motivated we all work really hard there's like an obvious shared goal um and i think that's really rare to see and i think this goes back to just like the focus that we've had since the beginning and like",
+  "zh": "我见过的最接近这个的也许是我博士实验室里的一些人，但每个人都只是非常非常非常积极，我们都非常努力工作，有一个明显的共同目标，我认为这非常罕见，我认为这归结为我们从一开始就有的关注，以及"
+ },
+ {
+  "seg": 449,
+  "start": 2430.337,
+  "end": 2457.331,
+  "speaker": "Unknown",
+  "en": "we've always had like kind of a clear philosophy a clear plan on how things are going to get there how things are going to get better and really like every night chai is very bought into this it's pretty amazing just to see like the amount of dedication that that everyone's putting in uh least favorite thing about chai uh not directly on top of dandelion chocolate maybe no maybe the next office yeah uh actually so probably the least favorite part now uh is just like",
+  "zh": "我们总是有一种明确的哲学，明确的计划，说明事情将如何到达那里，事情将如何变得更好，真的每个晚上 Chai 都非常认同这一点，看到每个人投入的奉献精神真是太棒了，关于 Chai 最不喜欢的部分，也许不是直接在 Dandelion Chocolate 的上面，也许不，也许是下一个办公室，是的，实际上所以现在最不喜欢的部分可能只是像"
+ },
+ {
+  "seg": 450,
+  "start": 2458.271,
+  "end": 2474.964,
+  "speaker": "Unknown",
+  "en": "i guess it's getting things to work at scale um and really i i didn't even know what that meant actually when we started chi we had 128 gpus and i was like this is like the most scale possible for a lab like this is crazy i came from like you know my phd group where we there were four of us sharing",
+  "zh": "我猜是让东西在规模上运转起来，嗯，其实我，当我们创办 Chai 时，我甚至都不知道那意味着什么，我们有 128 个 GPU，我当时觉得这对于一个实验室来说已经是最大的规模了，这太疯狂了，我来自，你知道，我的博士小组，我们四个人共用"
+ },
+ {
+  "seg": 451,
+  "start": 2475.364,
+  "end": 2496.375,
+  "speaker": "Unknown",
+  "en": "eight gpus and i was like i just felt gpu rich it was crazy um so now like you know hi like we have a lot more infrastructure to maintain we have a lot more compute resources like luckily gpus are parallelizable um but that also kind of brings up its own set of problems so just like how do you keep a cluster healthy over time how do you get that large training run so like how do you keep that running for for months on end",
+  "zh": "8 个 GPU，我当时觉得，我只是感觉 GPU 很富有，这太疯狂了，嗯 所以现在，你知道，Chai，我们要维护更多的基础设施，我们要维护更多的计算资源，幸运的是 GPU 是可并行化的，但这也会带来它自己的一套问题，所以就像你如何随时间保持集群的健康，你如何完成那个大型训练运行，所以就像你如何让它连续运行"
+ },
+ {
+  "seg": 452,
+  "start": 2496.855,
+  "end": 2499.758,
+  "speaker": "Unknown",
+  "en": "And even when it does die, like how do you automatically resume these things?",
+  "zh": "即使它确实死掉了，比如你如何自动恢复这些东西？"
+ },
+ {
+  "seg": 453,
+  "start": 2499.798,
+  "end": 2501.58,
+  "speaker": "Unknown",
+  "en": "How do you keep all of your communication down?",
+  "zh": "你如何保持你所有的通信都是低延迟的？"
+ },
+ {
+  "seg": 454,
+  "start": 2501.64,
+  "end": 2505.024,
+  "speaker": "Unknown",
+  "en": "How do you optimize the models and make the best use of the resources that you have?",
+  "zh": "你如何优化模型并充分利用你拥有的资源？"
+ },
+ {
+  "seg": 455,
+  "start": 2505.384,
+  "end": 2508.588,
+  "speaker": "Unknown",
+  "en": "So I think these are a lot of problems that, you know, they continuously pop up.",
+  "zh": "所以我认为这些是很多问题，你知道，它们不断出现。"
+ },
+ {
+  "seg": 456,
+  "start": 2508.648,
+  "end": 2511.991,
+  "speaker": "Unknown",
+  "en": "They're good problems to have, but I think they're also really difficult to solve.",
+  "zh": "这是值得拥有的好问题，但我认为它们也真的很难解决。"
+ },
+ {
+  "seg": 457,
+  "start": 2513.052,
+  "end": 2515.255,
+  "speaker": "Unknown",
+  "en": "Yeah, and I'm just excited to work on this.",
+  "zh": "是的，我只是很兴奋能从事这个。"
+ },
+ {
+  "seg": 458,
+  "start": 2515.624,
+  "end": 2523.151,
+  "speaker": "Unknown",
+  "en": "Yeah, I remember one of the CEOs that we've worked with a couple of times, Frank Slootman, had this line about, you either have the pain of failure or the pain of growth.",
+  "zh": "是的，我记得我们合作过的一位 CEO，Frank Slootman，有一句话关于，你要么拥有失败的痛苦，要么拥有成长的痛苦。"
+ },
+ {
+  "seg": 459,
+  "start": 2523.171,
+  "end": 2524.673,
+  "speaker": "Unknown",
+  "en": "You'd much rather have the pain of growth.",
+  "zh": "你宁愿拥有成长的痛苦。"
+ },
+ {
+  "seg": 460,
+  "start": 2525.053,
+  "end": 2526.194,
+  "speaker": "Unknown",
+  "en": "Yeah, that's exactly right.",
+  "zh": "是的，完全正确。"
+ },
+ {
+  "seg": 461,
+  "start": 2526.534,
+  "end": 2529.477,
+  "speaker": "Unknown",
+  "en": "I think my favorite part is probably the results.",
+  "zh": "我认为我最喜欢的部分可能是结果。"
+ },
+ {
+  "seg": 462,
+  "start": 2529.617,
+  "end": 2533.301,
+  "speaker": "Unknown",
+  "en": "And that sounds a bit cliche, but there's nothing- That's working.",
+  "zh": "这听起来有点陈词滥调，但没什么——那就是在工作的。"
+ },
+ {
+  "seg": 463,
+  "start": 2533.421,
+  "end": 2534.022,
+  "speaker": "Unknown",
+  "en": "It's working, right?",
+  "zh": "它在起作用，对吧？"
+ },
+ {
+  "seg": 464,
+  "start": 2534.042,
+  "end": 2535.163,
+  "speaker": "Unknown",
+  "en": "And just like knowing that you're-",
+  "zh": "就像知道你正在——"
+ },
+ {
+  "seg": 465,
+  "start": 2535.683,
+  "end": 2556.808,
+  "speaker": "Unknown",
+  "en": "know i think many of us in the company right like we've been working in ai for a long time right there's all this experience you've built up and and to know that you're applying it to something that really matters like just even i think just take matt and and like we've been working on this problem for like 10 years right and a couple of years ago i'm looking at something like yeah we're writing some cool papers like everyone is like celebrating this are we actually making the world better like is this actually going to impact some patients and",
+  "zh": "知道我想我们公司里的很多人，你知道，我们在 AI 领域工作了很长时间，所有这些积累的经验，以及知道你正在把它应用到真正重要的事情上，就像甚至我想就拿 Matt 来说，我们已经在这个问题上工作了 10 年了，几年前我在看一些东西，比如我们在写一些很酷的论文，大家都在庆祝，我们真的让世界变得更美好了吗，这真的会影响到一些患者吗"
+ },
+ {
+  "seg": 466,
+  "start": 2557.448,
+  "end": 2579.14,
+  "speaker": "Unknown",
+  "en": "think now the answer is like actually yes like we have reached the point where this is going to make a big difference in the world and every time you get one of these breakthrough results anytime there's a new feature on the product that makes our lives of our customers easier whenever there's like new lab results uh coming back from the science team it's just always so uh honestly exhilarating to realize like this is actually going to change the world in a pretty profound way",
+  "zh": "我想现在的答案是，实际上是的，我们已经达到了这一点，这将在世界上产生重大影响，每当你得到这些突破性结果之一，每当产品上有一个新功能让客户的生活更轻松，每当有来自科学团队的新实验室结果传回来，这总是如此，嗯，说实话令人振奋，意识到这实际上将以一种相当深刻的方式改变世界"
+ },
+ {
+  "seg": 467,
+  "start": 2579.9,
+  "end": 2583.303,
+  "speaker": "Unknown",
+  "en": "I think that's also then maybe comes to the least favorite side, right?",
+  "zh": "我认为这也许也涉及到最不喜欢的方面，对吧？"
+ },
+ {
+  "seg": 468,
+  "start": 2583.343,
+  "end": 2588.806,
+  "speaker": "Unknown",
+  "en": "Like, you know, we're running the company and it's like we have real partners that are relying on this and like things have to work, right?",
+  "zh": "就像，你知道，我们在经营公司，我们有真正的合作伙伴依赖于此，事情必须正常工作，对吧？"
+ },
+ {
+  "seg": 469,
+  "start": 2589.267,
+  "end": 2590.788,
+  "speaker": "Unknown",
+  "en": "And you ship a new model generation.",
+  "zh": "你发布了新一代模型。"
+ },
+ {
+  "seg": 470,
+  "start": 2591.048,
+  "end": 2592.569,
+  "speaker": "Unknown",
+  "en": "How do you make sure that there's no bugs in that?",
+  "zh": "你如何确保其中没有错误？"
+ },
+ {
+  "seg": 471,
+  "start": 2592.629,
+  "end": 2594.23,
+  "speaker": "Unknown",
+  "en": "How do you make sure you don't have regressions, right?",
+  "zh": "你如何确保你没有回归，对吧？"
+ },
+ {
+  "seg": 472,
+  "start": 2594.25,
+  "end": 2599.294,
+  "speaker": "Unknown",
+  "en": "This is no longer just like a, again, the blue sky research problem of like, oh, we got some cool results and we move on.",
+  "zh": "这不再只是一个，同样的，蓝天研究问题，比如，哦，我们得到了一些很酷的结果，然后我们继续前进。"
+ },
+ {
+  "seg": 473,
+  "start": 2599.934,
+  "end": 2602.056,
+  "speaker": "Unknown",
+  "en": "We've had to have really high priorities on like...",
+  "zh": "我们必须对……有非常高的优先级"
+ },
+ {
+  "seg": 474,
+  "start": 2602.236,
+  "end": 2604.997,
+  "speaker": "Unknown",
+  "en": "you know, having production level code bases as the team grows.",
+  "zh": "随着团队的增长，拥有生产级代码库。"
+ },
+ {
+  "seg": 475,
+  "start": 2605.017,
+  "end": 2607.978,
+  "speaker": "Unknown",
+  "en": "How do we make sure that the code base is in a state that more people can contribute to this?",
+  "zh": "我们如何确保代码库处于更多人可以贡献的状态？"
+ },
+ {
+  "seg": 476,
+  "start": 2608.018,
+  "end": 2617.161,
+  "speaker": "Unknown",
+  "en": "So something that that one of our other co-founders, Jack, likes to say is that if you want to move fast in the long term, you sometimes have to just move a little bit slower in the short term.",
+  "zh": "所以我们另一位联合创始人 Jack 喜欢说的一句话是，如果你想在长期快速移动，你有时必须在短期稍微慢一点。"
+ },
+ {
+  "seg": 477,
+  "start": 2617.181,
+  "end": 2617.401,
+  "speaker": "Unknown",
+  "en": "Right.",
+  "zh": "对的。"
+ },
+ {
+  "seg": 478,
+  "start": 2617.541,
+  "end": 2621.622,
+  "speaker": "Unknown",
+  "en": "And make sure that you are building something again that goes back to that compounding idea.",
+  "zh": "确保你正在构建某种东西，再次回到那个复利的想法。"
+ },
+ {
+  "seg": 479,
+  "start": 2621.642,
+  "end": 2625.243,
+  "speaker": "Unknown",
+  "en": "It goes back to we don't add module 25 to make the next thing work.",
+  "zh": "这回到我们不会添加模块 25 来让下一件事工作。"
+ },
+ {
+  "seg": 480,
+  "start": 2625.563,
+  "end": 2630.685,
+  "speaker": "Unknown",
+  "en": "So sometimes, you know, you're like so excited to get to the next result and you just want to jump into it.",
+  "zh": "所以有时候，你知道，你太兴奋去得到下一个结果，你只想跳进去。"
+ },
+ {
+  "seg": 481,
+  "start": 2631.045,
+  "end": 2635.269,
+  "speaker": "Unknown",
+  "en": "But we have real partners, some of the biggest companies in the world that are now relying on us.",
+  "zh": "但我们有真正的合作伙伴，一些世界上最大的公司现在依赖我们。"
+ },
+ {
+  "seg": 482,
+  "start": 2635.989,
+  "end": 2642.996,
+  "speaker": "Unknown",
+  "en": "And it's important that we realize that we take that responsibility to heart and we make sure we're building systems that continue to work.",
+  "zh": "重要的是我们要意识到我们要把这份责任放在心上，我们要确保我们正在构建持续工作的系统。"
+ },
+ {
+  "seg": 483,
+  "start": 2643.496,
+  "end": 2644.577,
+  "speaker": "Unknown",
+  "en": "I have a burning question.",
+  "zh": "我有一个急切的问题。"
+ },
+ {
+  "seg": 484,
+  "start": 2644.897,
+  "end": 2646.699,
+  "speaker": "Unknown",
+  "en": "Why are you guys called Chai Discovery?",
+  "zh": "为什么你们叫 Chai Discovery？"
+ },
+ {
+  "seg": 485,
+  "start": 2647.229,
+  "end": 2648.189,
+  "speaker": "Unknown",
+  "en": "Chemistry and AI.",
+  "zh": "化学和 AI。"
+ },
+ {
+  "seg": 486,
+  "start": 2648.57,
+  "end": 2649.77,
+  "speaker": "Unknown",
+  "en": "But we love chai tea as well.",
+  "zh": "但我们也喜欢 chai 茶。"
+ },
+ {
+  "seg": 487,
+  "start": 2650.411,
+  "end": 2652.472,
+  "speaker": "Unknown",
+  "en": "There's a lot of chai-themed stuff in the offices.",
+  "zh": "办公室里有很多以 chai 为主题的东西。"
+ },
+ {
+  "seg": 488,
+  "start": 2652.492,
+  "end": 2652.992,
+  "speaker": "Unknown",
+  "en": "That's smart.",
+  "zh": "那很聪明。"
+ },
+ {
+  "seg": 489,
+  "start": 2653.012,
+  "end": 2653.732,
+  "speaker": "Unknown",
+  "en": "That's a good question.",
+  "zh": "那是个好问题。"
+ },
+ {
+  "seg": 490,
+  "start": 2653.752,
+  "end": 2654.433,
+  "speaker": "Unknown",
+  "en": "I didn't know that either.",
+  "zh": "我也不知道那个。"
+ },
+ {
+  "seg": 491,
+  "start": 2654.453,
+  "end": 2655.313,
+  "speaker": "Unknown",
+  "en": "Josh is the visionary.",
+  "zh": "Josh 是有远见的人。"
+ },
+ {
+  "seg": 492,
+  "start": 2655.333,
+  "end": 2655.833,
+  "speaker": "Unknown",
+  "en": "That was all him.",
+  "zh": "那全是他。"
+ },
+ {
+  "seg": 493,
+  "start": 2656.333,
+  "end": 2657.814,
+  "speaker": "Unknown",
+  "en": "That is a very user-friendly name.",
+  "zh": "那是一个非常用户友好的名字。"
+ },
+ {
+  "seg": 494,
+  "start": 2658.154,
+  "end": 2658.334,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 495,
+  "start": 2658.374,
+  "end": 2661.816,
+  "speaker": "Unknown",
+  "en": "We also wanted a name that, like, biotech companies have such complicated names.",
+  "zh": "我们也想要一个名字，像，生物技术公司有如此复杂的名字。"
+ },
+ {
+  "seg": 496,
+  "start": 2661.916,
+  "end": 2662.116,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 497,
+  "start": 2662.136,
+  "end": 2663.717,
+  "speaker": "Unknown",
+  "en": "We wanted something that's going to be much simpler.",
+  "zh": "我们想要一些简单得多的东西。"
+ },
+ {
+  "seg": 498,
+  "start": 2663.837,
+  "end": 2664.037,
+  "speaker": "Unknown",
+  "en": "Yes.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 499,
+  "start": 2664.057,
+  "end": 2665.998,
+  "speaker": "Unknown",
+  "en": "We're trying to make this whole thing simpler, right?",
+  "zh": "我们正在试图让这一切变得更简单，对吧？"
+ },
+ {
+  "seg": 500,
+  "start": 2666.138,
+  "end": 2666.679,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 501,
+  "start": 2666.759,
+  "end": 2668.439,
+  "speaker": "Unknown",
+  "en": "So we need a simple name to go along with it.",
+  "zh": "所以我们需要一个简单的名字来配合它。"
+ },
+ {
+  "seg": 502,
+  "start": 2668.86,
+  "end": 2669.1,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 503,
+  "start": 2669.42,
+  "end": 2673.202,
+  "speaker": "Unknown",
+  "en": "What are you guys most excited about in the next 6 to 12 months?",
+  "zh": "你们在未来 6 到 12 个月内最兴奋的是什么？"
+ },
+ {
+  "seg": 504,
+  "start": 2673.762,
+  "end": 2688.675,
+  "speaker": "Unknown",
+  "en": "i think for me it's uh just the deployments that are happening so we've announced a couple of these these partnerships and i'm really excited uh just to hear about the results that our partners are bringing online it goes back to this point of like making a real difference and also why i'm uh",
+  "zh": "我觉得对我来说，嗯，只是正在发生的部署，所以我们宣布了其中一些合作关系，我真的很兴奋，嗯，只是听到我们的合作伙伴正在上线的结果，这回到了这一点，比如真正做出改变，以及为什么我，嗯"
+ },
+ {
+  "seg": 505,
+  "start": 2689.055,
+  "end": 2692.978,
+  "speaker": "Unknown",
+  "en": "so happy to see how these partnerships are going, even, you know, posting the agreement.",
+  "zh": "如此高兴地看到这些伙伴关系进展如何，甚至，你知道，在发布协议之后。"
+ },
+ {
+  "seg": 506,
+  "start": 2693.018,
+  "end": 2706.366,
+  "speaker": "Unknown",
+  "en": "And as we're working with these folks that the models are not just sitting on a shelf somewhere, like they're actually being used on real programs, people trying to approach devastating diseases where, you know, if Chai could give them a molecule that works, it could really change the lives of patients.",
+  "zh": "当我们与这些人合作时，模型不仅仅是摆在某个架子上的东西，就像它们实际上正在被用于真实的程序，人们试图对付毁灭性的疾病，你知道，如果 Chai 能给他们一个有效的分子，它真的可以改变患者的生活。"
+ },
+ {
+  "seg": 507,
+  "start": 2706.786,
+  "end": 2708.607,
+  "speaker": "Unknown",
+  "en": "So I'm really excited to see how that goes.",
+  "zh": "所以我真的很兴奋地看到这会如何发展。"
+ },
+ {
+  "seg": 508,
+  "start": 2708.887,
+  "end": 2713.21,
+  "speaker": "Unknown",
+  "en": "Just the pace of progress here is incredible, but also just like the pace of the models.",
+  "zh": "这里的进步速度令人难以置信，但也只是模型的进步速度。"
+ },
+ {
+  "seg": 509,
+  "start": 2713.23,
+  "end": 2716.272,
+  "speaker": "Unknown",
+  "en": "Like a year ago, you could not zero shot a molecule and like,",
+  "zh": "就像一年前，你不能零样本地生成一个分子并且，就像，"
+ },
+ {
+  "seg": 510,
+  "start": 2716.712,
+  "end": 2739.372,
+  "speaker": "Unknown",
+  "en": "know have a good sense that your program was going to work like now that's changed someone might zero shot a molecule and be like i think we're going to bring this program to the clinic now and then a year later uh you know they might even have some of those first uh molecules going into patients and just the speed of that is is just incredible and it's uh you know sometimes you get some shivers thinking about this that like okay my model is gonna like matt has some patents from our last company about you know like",
+  "zh": "知道你的项目会很好的感觉会起作用，就像现在这已经改变了，有人可能会零样本一个分子并且觉得，我认为我们现在要把这个项目带到临床阶段，然后一年后，嗯，你知道他们甚至可能有一些第一批分子进入患者体内，只是那个速度，简直令人难以置信，而且它是，嗯，你知道有时想到这些你会起鸡皮疙瘩，就像，好吧，我的模型将要，Matt 在我们上一家公司有一些关于，你知道，就像"
+ },
+ {
+  "seg": 511,
+  "start": 2739.672,
+  "end": 2741.414,
+  "speaker": "Unknown",
+  "en": "just generating the molecule on the computer.",
+  "zh": "只是在电脑上生成分子的专利。"
+ },
+ {
+  "seg": 512,
+  "start": 2741.454,
+  "end": 2742.916,
+  "speaker": "Unknown",
+  "en": "And these things are now in patients.",
+  "zh": "而这些东西现在已经在患者体内了。"
+ },
+ {
+  "seg": 513,
+  "start": 2742.936,
+  "end": 2746.96,
+  "speaker": "Unknown",
+  "en": "And just to think about the scale, like, I don't know, a few years from now, do we have dozens?",
+  "zh": "只是想想规模，就像，我不知道，几年后，我们有几十个吗？"
+ },
+ {
+  "seg": 514,
+  "start": 2746.981,
+  "end": 2749.503,
+  "speaker": "Unknown",
+  "en": "Do we have hundreds of like chai molecules going into people?",
+  "zh": "我们有几百个像 Chai 分子进入人体吗？"
+ },
+ {
+  "seg": 515,
+  "start": 2750.084,
+  "end": 2753.228,
+  "speaker": "Unknown",
+  "en": "It's a bit mind blowing to think about what that might look like for patients.",
+  "zh": "想到这对患者来说可能是什么样子，这有点令人兴奋。"
+ },
+ {
+  "seg": 516,
+  "start": 2753.7,
+  "end": 2759.423,
+  "speaker": "Unknown",
+  "en": "I think one of the things that like, again, like what makes Chai unique, like the dedication, like people are like, man, you work a lot.",
+  "zh": "我认为其中一件事，就像，再次，是什么让 Chai 独特，就像这种奉献精神，就像人们会说，伙计，你工作很多。"
+ },
+ {
+  "seg": 517,
+  "start": 2760.463,
+  "end": 2762.944,
+  "speaker": "Unknown",
+  "en": "And like, aren't you burnout or whatever?",
+  "zh": "就像，难道你没有职业倦怠或者什么吗？"
+ },
+ {
+  "seg": 518,
+  "start": 2762.964,
+  "end": 2764.605,
+  "speaker": "Unknown",
+  "en": "It's like, it's actually really easy.",
+  "zh": "就像，这实际上真的很容易。"
+ },
+ {
+  "seg": 519,
+  "start": 2764.745,
+  "end": 2771.528,
+  "speaker": "Unknown",
+  "en": "And like, it's very motivating when you're making progress, seeing the progress that we're making and just like thinking, man, the next model is going to be even better than the last.",
+  "zh": "就像，当你正在取得进步时，看到我们正在取得的进步，只是想想，伙计，下一个模型会比上一个更好，这是非常令人激动的。"
+ },
+ {
+  "seg": 520,
+  "start": 2771.568,
+  "end": 2774.09,
+  "speaker": "Unknown",
+  "en": "We identified this new thing, so on.",
+  "zh": "我们发现了这个新东西，诸如此类。"
+ },
+ {
+  "seg": 521,
+  "start": 2774.21,
+  "end": 2776.291,
+  "speaker": "Unknown",
+  "en": "Like that's so incredibly motivating.",
+  "zh": "就像那是如此令人难以置信的激励。"
+ },
+ {
+  "seg": 522,
+  "start": 2776.591,
+  "end": 2779.032,
+  "speaker": "Unknown",
+  "en": "For me, it's more of just like, what can we unlock next?",
+  "zh": "对我来说，更多只是像，我们接下来能解锁什么？"
+ },
+ {
+  "seg": 523,
+  "start": 2779.252,
+  "end": 2781.393,
+  "speaker": "Unknown",
+  "en": "And like, how do we make these things more controllable?",
+  "zh": "就像，我们要如何使这些东西更可控？"
+ },
+ {
+  "seg": 524,
+  "start": 2781.513,
+  "end": 2788.135,
+  "speaker": "Unknown",
+  "en": "And like, when someone comes to us with a certain target, instead of just like hoping we get good affinity or something like that, you know, can we actually control this?",
+  "zh": "就像，当有人带着某个目标来找我们时，而不是只是希望我们获得良好的亲和力或类似的东西，你知道，我们实际上能控制这个吗？"
+ },
+ {
+  "seg": 525,
+  "start": 2788.155,
+  "end": 2791.536,
+  "speaker": "Unknown",
+  "en": "Can we say like, we want exactly a 10 animal or binder or things like that?",
+  "zh": "我们能说，我们确切地想要一个 10 animal 或 binder 或类似的东西吗？"
+ },
+ {
+  "seg": 526,
+  "start": 2791.576,
+  "end": 2795.557,
+  "speaker": "Unknown",
+  "en": "Like there are a lot of technical things that I think are, we're like kind of right on the brink of solving.",
+  "zh": "就像有很多技术问题我认为，我们有点处于解决的边缘。"
+ },
+ {
+  "seg": 527,
+  "start": 2796.378,
+  "end": 2803.14,
+  "speaker": "Unknown",
+  "en": "And for me, it's like, it's really motivating just to like pin those things down and just like get all of this over the line and see kind of where that leads to next.",
+  "zh": "对我来说，就像，这真的非常令人振奋，就像把这些事情搞定，就像让所有这些越过终点线，看看接下来会通向哪里。"
+ },
+ {
+  "seg": 528,
+  "start": 2803.612,
+  "end": 2803.893,
+  "speaker": "Unknown",
+  "en": "Awesome.",
+  "zh": "太棒了。"
+ },
+ {
+  "seg": 529,
+  "start": 2804.253,
+  "end": 2808.861,
+  "speaker": "Unknown",
+  "en": "Matt, Josh, thank you for engineering biology and thank you for sharing your story with us today.",
+  "zh": "Matt，Josh，谢谢你们工程化生物学，也感谢你们今天与我们分享你们的故事。"
+ },
+ {
+  "seg": 530,
+  "start": 2809.181,
+  "end": 2809.702,
+  "speaker": "Unknown",
+  "en": "Thank you guys.",
+  "zh": "谢谢你们。"
+ },
+ {
+  "seg": 531,
+  "start": 2809.742,
+  "end": 2810.663,
+  "speaker": "Unknown",
+  "en": "Thanks for having us.",
+  "zh": "谢谢你们邀请我们。"
+ }
+]

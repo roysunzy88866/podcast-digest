@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Olivia Moore]]
+[[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":33,"World Labs":2,"Marble":2,"ImageNet":1,"空间智能":2,"世界模型":1,"具身智能":1,"苦涩的教训":2,"神经网络":1,"机器学习":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":33,"World Labs":2,"Marble":2,"ImageNet":1,"空间智能":2,"世界模型":1,"具身智能":1,"苦涩的教训":3,"神经网络":1,"机器学习":1}</script>
 
 <script>
 (function(){
