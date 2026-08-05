@@ -31,7 +31,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Google]] · [[智能体]] · [[NVIDIA]] · [[Microsoft]] · [[Meta]] · [[Apple]] · [[Justine Moore]] · [[Blake Scholl]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":27,"Anthropic":32,"Google":12,"智能体":51,"NVIDIA":9,"Microsoft":7,"Meta":10,"Apple":6,"Justine Moore":1,"Blake Scholl":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":27,"Anthropic":32,"Google":12,"智能体":51,"NVIDIA":10,"Microsoft":7,"Meta":10,"Apple":6,"Justine Moore":1,"Blake Scholl":1}</script>
 
 <script>
 (function(){

@@ -68,7 +68,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":9,"深度学习":3,"Condi Rice":1,"Jerry":1,"GPU":2,"Sega":1,"Parallel":2,"Waymo":7,"第一性原理":2,"Tesla":5}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":10,"深度学习":3,"Condi Rice":1,"Jerry":1,"GPU":2,"Sega":1,"Parallel":2,"Waymo":7,"第一性原理":2,"Tesla":5}</script>
 
 <script>
 (function(){

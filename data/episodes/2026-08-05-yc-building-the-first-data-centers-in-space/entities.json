@@ -1,0 +1,1226 @@
+{
+  "episode_id": "2026-08-05-yc-building-the-first-data-centers-in-space",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-08-05",
+  "tags": [
+    "太空数据中心",
+    "硬科技创业",
+    "太空工程",
+    "AI 算力",
+    "基础设施"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "philip-johnston",
+      "type": "person",
+      "role": "host",
+      "name": "Philip Johnston",
+      "file": "Philip Johnston",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            41.109,
+            45.572
+          ],
+          "quote": "Today, we're sitting down with Philip Johnston, the co-founder and CEO of StarCloud.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "starcloud",
+      "type": "company",
+      "role": "company",
+      "name": "StarCloud",
+      "file": "StarCloud",
+      "primary": true,
+      "how_described": "本集讨论的核心公司，旨在通过在太空中建立数据中心来解决 AI 在地球上面临的能源瓶颈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            41.109,
+            45.572
+          ],
+          "quote": "Today, we're sitting down with Philip Johnston, the co-founder and CEO of StarCloud.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 15,
+          "t": [
+            46.113,
+            51.396
+          ],
+          "quote": "StarCloud is building data centers in space to address the energy bottleneck that AI is creating here on Earth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 70,
+          "t": [
+            289.52,
+            292.524
+          ],
+          "quote": "So just to tell people a bit about StarCloud One.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 97,
+          "t": [
+            367.607,
+            373.432
+          ],
+          "quote": "Because we actually had a quote from one of the primes on what it would cost to do StarCloud 1, and they said $75 million to $100 million.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 98,
+          "t": [
+            373.472,
+            375.914
+          ],
+          "quote": "And we did the whole of StarCloud 2, including the launch, for $2 million.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 102,
+          "t": [
+            384.281,
+            386.483
+          ],
+          "quote": "StarCloud 1 separation confirmed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 106,
+          "t": [
+            399.036,
+            409.218
+          ],
+          "quote": "And this was played by Jensen as he walked on stage at the GTC conference this year, this five-story tall screen behind him playing the StarCloud One separation video.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 133,
+          "t": [
+            522.612,
+            527.118
+          ],
+          "quote": "So StarCloud One right now, as we speak, has just left Chinese airspace, I think.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 138,
+          "t": [
+            539.841,
+            544.763
+          ],
+          "quote": "So, I mean, by StarCloud 4 or so, this won't be like one.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 140,
+          "t": [
+            548.585,
+            553.287
+          ],
+          "quote": "Yeah, from StarCloud 3 onwards, we'll have 88,000, and they'll all fly.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 142,
+          "t": [
+            558.01,
+            561.771
+          ],
+          "quote": "StarCloud, and that's another point here on how janky this one is.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 148,
+          "t": [
+            585.989,
+            596.464
+          ],
+          "quote": "Because what you basically are doing with StarCloud is you're getting infinite energy because the sun is basically the natural fusion reactors, just a giant mass that...",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1080.608,
+            1085.431
+          ],
+          "quote": "Everything on StarCloud 1 is submerged in this phase change material.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 283,
+          "t": [
+            1142.213,
+            1143.594
+          ],
+          "quote": "So that's StarCloud 2.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1154.441,
+            1155.542
+          ],
+          "quote": "So that's the StarCloud 3 product.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1389.326,
+            1391.249
+          ],
+          "quote": "Can you talk about StarCloud 2 a little bit more?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 348,
+          "t": [
+            1394.953,
+            1419.76
+          ],
+          "quote": "yes we will be flying a bitcoin mining asic next next year which the crypto community is very excited about there's much more enthusiasm than i was expecting to be honest about that so that was a good narrative the number of people that want me to launch starcoin you have no idea there is actually a starcloud meme coin i think out there yeah don't buy it it's not official do not buy the starcloud meme coin",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 445,
+          "t": [
+            1906.639,
+            1914.164
+          ],
+          "quote": "The way I thought about StarCloud was that it could only work if you were able to make it cheaper per unit of compute than ground-based compute.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 447,
+          "t": [
+            1916.065,
+            1921.789
+          ],
+          "quote": "But it's occurred to me since then that it's not actually clear to me anymore that that is necessary for StarCloud to succeed.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2083.059,
+            2097.783
+          ],
+          "quote": "And so for tech policy to sort of put us back into the Stone Age and possibly lose the war for us, that puts StarCloud in a different position in terms of bringing compute and AI and power online.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "data-center",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据中心 (data center)",
+      "file": "数据中心",
+      "primary": true,
+      "how_described": "本集讨论的核心对象，指出在地球上建设数据中心面临极大的能源限制和监管阻碍，而在太空中可以利用无限的太阳能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 259,
+          "t": [
+            1056.434,
+            1060.815
+          ],
+          "quote": "People just thought it was literally impossible to run data center grade GPUs on orbit.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1118.035,
+            1125.862
+          ],
+          "quote": "To get to a data center that's commercial scale, where you can actually make money on it, it's actually profitable, it's going to require many steps.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1179.208,
+            1182.934
+          ],
+          "quote": "For context, what's the largest data center deployment on Earth?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 461,
+          "t": [
+            1992.017,
+            1994.84
+          ],
+          "quote": "And that is what all of the data center companies are now proposing.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 462,
+          "t": [
+            1994.88,
+            2002.507
+          ],
+          "quote": "It's very unlikely that any data center company proposes any data center that is going to be consuming daily amounts of water.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2009.722,
+            2021.592
+          ],
+          "quote": "I think the analogy is like if you ran a burger shop, a fairly large data center with hundreds of megawatts would consume about the same amount of water as a McDonald's.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": true,
+      "how_described": "嘉宾指出 SpaceX 生产的 Starship 正在将发射成本大幅降低，并提到 SpaceX 自身也宣布了在太空中建立数据中心的计划，此外双方签了激光终端的合同。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            15.325,
+            19.948
+          ],
+          "quote": "January 2nd, we booked the first available SpaceX rideshare launch.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 124,
+          "t": [
+            459.987,
+            464.63
+          ],
+          "quote": "And then I'm sitting in the back of a cab watching the live feed on SpaceX.com, literally.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 165,
+          "t": [
+            666.365,
+            672.01
+          ],
+          "quote": "The interconnect, we've just signed a contract with SpaceX for our next 20 satellites to have a Starlink laser terminal.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 198,
+          "t": [
+            801.043,
+            807.67
+          ],
+          "quote": "I think that's one of the secrets of how SpaceX has actually reduced a lot of the costs of a lot of the satellites as well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 231,
+          "t": [
+            951.609,
+            958.807
+          ],
+          "quote": "But, you know, I have full confidence in my two co-founders, one from SpaceX, the other was building satellites for NASA, saying it's possible then, you know.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 238,
+          "t": [
+            997.303,
+            1001.924
+          ],
+          "quote": "January 2nd, we booked the first available SpaceX rideshare launch.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1033.946,
+            1037.908
+          ],
+          "quote": "We actually had a co-founder change quite early on when we got Addy from SpaceX.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 377,
+          "t": [
+            1550.414,
+            1553.176
+          ],
+          "quote": "There's a lot of VCs that have big SpaceX positions, for one thing.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1553.916,
+            1558.078
+          ],
+          "quote": "And SpaceX, midway through the round, came out saying they're doing exactly what we're doing.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1598.627,
+            1601.308
+          ],
+          "quote": "Half of them from SpaceX, half from some of the hyperscalers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 407,
+          "t": [
+            1688.018,
+            1714.481
+          ],
+          "quote": "what was it like to have this idea have people sort of poo-poo it like didn't really get it and then suddenly i mean to have much more commercial validation that like you know google um spacex the the stalwarts of the industry sort of embrace the idea and realize actually like some crazy percentage of future data centers likely are going to be in space what was that like to sort of see the the sea change and be early",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集提及他们使用并重度改装了 NVIDIA 的 H100 芯片以在太空中运行，并与 NVIDIA 紧密合作设计新的太空芯片。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 73,
+          "t": [
+            299.853,
+            301.655
+          ],
+          "quote": "Like we were going to fly some NVIDIA jets and chips.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 76,
+          "t": [
+            310.123,
+            315.267
+          ],
+          "quote": "And we actually ended up putting five GPUs on there, three from NVIDIA, two from ARM.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 77,
+          "t": [
+            315.307,
+            317.809
+          ],
+          "quote": "But the most interesting one was this NVIDIA H100.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1276.515,
+            1291.551
+          ],
+          "quote": "In terms of NVIDIA, I mean, are you, how are you partnering with them around chip design and, you know, are there changes that you have to make to the design to, I mean, as you reach scale, like being, making it more radiation resistant or, you know, what does that look like?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1291.946,
+            1294.307
+          ],
+          "quote": "Yeah, so we're working very closely with NVIDIA.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "launch-cost",
+      "type": "concept",
+      "role": "concept",
+      "name": "发射成本 (launch cost)",
+      "file": "发射成本",
+      "primary": true,
+      "how_described": "全集讨论太空商业可行性的核心前置条件，嘉宾预测随着 Starship 等可回收火箭上线，发射成本将急速下降，使得太空数据中心在经济上变得可行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            108.295,
+            111.178
+          ],
+          "quote": "And I could see that the launch cost was very rapidly trending down.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 37,
+          "t": [
+            144.379,
+            149.422
+          ],
+          "quote": "If the launch cost was 10 times lower than it is today, and the launch capacity was maybe a thousand times more than we have today,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 41,
+          "t": [
+            162.265,
+            173.587
+          ],
+          "quote": "And essentially, I just reached out to a few folks I knew in the space industry and got connected with a few others and started ideating on, okay, what would make sense if the launch cost was much lower than it is today?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 48,
+          "t": [
+            193.701,
+            197.586
+          ],
+          "quote": "But basically anything which could make sense if the launch cost was a lot lower than it is today.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 59,
+          "t": [
+            250.823,
+            256.324
+          ],
+          "quote": "So initially we'd run the numbers to know what's the launch cost breakeven that makes sense for space-based solar.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 62,
+          "t": [
+            260.106,
+            266.57
+          ],
+          "quote": "We were like, okay, let's spend a month figuring out what would the launch cost breakeven need to be to make data centers in space breakeven.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 64,
+          "t": [
+            269.673,
+            273.075
+          ],
+          "quote": "And that's what we think currently that the breakeven launch cost is.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 301,
+          "t": [
+            1194.111,
+            1196.412
+          ],
+          "quote": "Yeah, it's very dependent on the launch cost.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 399,
+          "t": [
+            1629.833,
+            1631.374
+          ],
+          "quote": "Launch cost was 10x cheaper than it is today.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 435,
+          "t": [
+            1871.575,
+            1886.787
+          ],
+          "quote": "My pitch to Adi and Ezra was essentially, if you have any ideas that would make sense if the launch cost was 10x less than it is today, I can figure out everything else around that besides building the satellite piece.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "h100",
+      "type": "concept",
+      "role": "concept",
+      "name": "H100",
+      "file": "H100",
+      "primary": true,
+      "how_described": "本集重点提到的 GPU 型号，团队通过极端手段（如将其浸入相变材料并用吹风机烘烤冷却）成功将其改装并送入太空运行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            315.307,
+            317.809
+          ],
+          "quote": "But the most interesting one was this NVIDIA H100.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1040.349,
+            1042.249
+          ],
+          "quote": "Like, let's put an H100 on there.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1042.269,
+            1045.311
+          ],
+          "quote": "We're like, Addy, you can't put H100 on a satellite.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 276,
+          "t": [
+            1104.684,
+            1107.046
+          ],
+          "quote": "But it enables us to prove that you can run the H100 in space.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 328,
+          "t": [
+            1303.411,
+            1306.672
+          ],
+          "quote": "We very heavily modified the H100 to make it work in space.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "company",
+      "role": "company",
+      "name": "Benchmark",
+      "file": "Benchmark",
+      "primary": false,
+      "how_described": "本集提及领投了 StarCloud 1.7 亿美元融资的投资机构，因其极其看重该团队的工程实力而决定投资。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            52.057,
+            62.744
+          ],
+          "quote": "Earlier this year, they raised $170 million led by Benchmark and became the fastest growing unicorn in YC history, just 17 months after Demo Day.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 178,
+          "t": [
+            717.152,
+            721.054
+          ],
+          "quote": "So very easy benchmark to beat on cost for the ISS.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1458.412,
+            1464.543
+          ],
+          "quote": "the seed round during YC and then this huge round you raised from Benchmark.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1535.004,
+            1537.706
+          ],
+          "quote": "Yeah, like I think we were the first space investment benchmark we've done.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 375,
+          "t": [
+            1540.989,
+            1545.412
+          ],
+          "quote": "And again, what do you think sort of benchmark saw in you guys?",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "vacuum-chamber",
+      "type": "concept",
+      "role": "concept",
+      "name": "热真空室 (vacuum chamber)",
+      "file": "热真空室",
+      "primary": false,
+      "how_described": "本集描述因没时间预订此测试环境，团队在发货前日凌晨 5 点用冰浴和吹风机对硬件进行了疯狂的热循环测试。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 80,
+          "t": [
+            323.073,
+            329.378
+          ],
+          "quote": "And we didn't have time to book the vacuum chamber, the thermal and vacuum chamber.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "phase-change-material",
+      "type": "concept",
+      "role": "concept",
+      "name": "相变材料 (phase change material)",
+      "file": "相变材料",
+      "primary": true,
+      "how_described": "本集提到一种吸热放热的特种蜡，StarCloud 将所有电子元件浸没其中，作为一种虽然不易扩展但足以证明能冷却 H100 的非常规手段。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            329.638,
+            335.142
+          ],
+          "quote": "But we needed to know, okay, if we heat up this phase change material and cool it down and heat it up and cool it down, is it going to crack anything?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1076.585,
+            1079.987
+          ],
+          "quote": "We submerged the entire thing in this phase change material.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 269,
+          "t": [
+            1080.608,
+            1085.431
+          ],
+          "quote": "Everything on StarCloud 1 is submerged in this phase change material.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "radiation",
+      "type": "concept",
+      "role": "concept",
+      "name": "辐射 (radiation)",
+      "file": "辐射",
+      "primary": true,
+      "how_described": "本集指出的太空计算两大核心工程生死劫之一，太空粒子会导致芯片发生比特翻转甚至烧毁。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 155,
+          "t": [
+            625.848,
+            630.232
+          ],
+          "quote": "There's things around radiation to flip the bits in processors.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 163,
+          "t": [
+            660.52,
+            664.263
+          ],
+          "quote": "And then number two, how do we make the chips work in a higher radiation environment?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 179,
+          "t": [
+            721.834,
+            725.856
+          ],
+          "quote": "And then on radiation, it's just a lot of ground testing in different particle accelerators.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 186,
+          "t": [
+            747.807,
+            749.368
+          ],
+          "quote": "Don't worry about the radiation.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 187,
+          "t": [
+            750.128,
+            755.75
+          ],
+          "quote": "So, yeah, basically you expose it over a 24-hour period to the same radiation dose that you would have in a five-year mission.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 197,
+          "t": [
+            798.614,
+            800.815
+          ],
+          "quote": "And most people have never tested those in radiation chambers.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 202,
+          "t": [
+            828.29,
+            831.913
+          ],
+          "quote": "Because they're also in GEO, which has more radiation.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 265,
+          "t": [
+            1066.779,
+            1070.761
+          ],
+          "quote": "And the second is they've never been tested in the radiation environment or space.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1276.515,
+            1291.551
+          ],
+          "quote": "In terms of NVIDIA, I mean, are you, how are you partnering with them around chip design and, you know, are there changes that you have to make to the design to, I mean, as you reach scale, like being, making it more radiation resistant or, you know, what does that look like?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1317.196,
+            1319.217
+          ],
+          "quote": "And then we stiffened the board and made it radiation tolerant.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "bit-flips",
+      "type": "concept",
+      "role": "concept",
+      "name": "比特翻转 (bit flips)",
+      "file": "比特翻转",
+      "primary": false,
+      "how_described": "本集描述处理器在太空中遇到辐射环境会发生的故障现象，团队需通过屏蔽和软件来缓解此问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 188,
+          "t": [
+            756.291,
+            761.473
+          ],
+          "quote": "And then all of that telemetry and data then informs our choice on both shielding and software to mitigate bit flips.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "mckinsey",
+      "type": "company",
+      "role": "company",
+      "name": "McKinsey",
+      "file": "McKinsey",
+      "primary": false,
+      "how_described": "本集提到创始人 Philip 曾在此咨询公司工作了几年，负责对接各国太空机构，从而察觉到了发射成本暴跌的趋势。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            104.693,
+            108.215
+          ],
+          "quote": "I was with McKinsey for a few years working with the space agencies of different governments.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 423,
+          "t": [
+            1792.334,
+            1815.754
+          ],
+          "quote": "yeah um so for people who don't know my background um spent the first five years of my career as a an engineer on the software side studying math and physics before that um undergrad and masters and then i went to mckinsey more on the commercial product side but i actually ended up doing a couple of projects with national space agencies on different satellite missions and that's where i really started to notice the launch costs coming down very rapidly",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "lumen-orbit",
+      "type": "company",
+      "role": "company",
+      "name": "Lumen Orbit",
+      "file": "Lumen Orbit",
+      "primary": false,
+      "how_described": "本集提到 StarCloud 公司最初的名字，当时主攻将天基太阳能传回地球，后因发现传输损耗高达 95% 而转型。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 54,
+          "t": [
+            233.498,
+            237.219
+          ],
+          "quote": "We were called Lumen Orbit because of that reason, luminosity in orbit.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "starship",
+      "type": "concept",
+      "role": "concept",
+      "name": "Starship",
+      "file": "Starship",
+      "primary": true,
+      "how_described": "本集提到的 SpaceX 正在制造的可回收火箭。嘉宾算过一笔账：一枚 Starship 可装载 50 颗 200 千瓦航天器，带来 10 兆瓦的新计算能力。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 23,
+          "t": [
+            85.199,
+            92.823
+          ],
+          "quote": "And the cost of launch is actually very rapidly trending down, with new launch vehicles coming online, the Falcon 9 program, and Starship on the horizon.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 30,
+          "t": [
+            111.898,
+            119.745
+          ],
+          "quote": "And actually in early 2023, I decided randomly on a weekend to take a trip down to Starbase, Texas, where they're building the Starship launch program.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 34,
+          "t": [
+            127.149,
+            132.092
+          ],
+          "quote": "So they're building these two Starship gigafactories that are designed to produce something like three Starships per day.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 35,
+          "t": [
+            132.552,
+            139.916
+          ],
+          "quote": "And because Starship is reusable, you know, on a sort of three or four year timeframe, that could lead to us having thousands of times the capacity to get things to space.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 216,
+          "t": [
+            892.569,
+            896.013
+          ],
+          "quote": "You know, lots of things need to go right with the Starship program for that to make sense.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 288,
+          "t": [
+            1160.404,
+            1162.565
+          ],
+          "quote": "With that, we can fit 50 of them per starship.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1162.585,
+            1165.106
+          ],
+          "quote": "So about 10 megawatts of new compute capacity per starship.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1196.692,
+            1202.335
+          ],
+          "quote": "And so, you know, the estimates for Starship, if you believe Elon, it'll be end of this year.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 303,
+          "t": [
+            1202.355,
+            1210.84
+          ],
+          "quote": "But let's say it could be end of next year, early 2028 for Starship deploying, you know, ramping up the launch cadence.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 305,
+          "t": [
+            1212.781,
+            1215.482
+          ],
+          "quote": "So they're going to be moving over commercial customers to Starship.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1236.955,
+            1244.7
+          ],
+          "quote": "But then as Starship ramps up, so for the next two, three years, we've just won four contracts with various DOW and government entities.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "automotive-style-components",
+      "type": "concept",
+      "role": "concept",
+      "name": "汽车级组件 (automotive-style components)",
+      "file": "汽车级组件",
+      "primary": false,
+      "how_described": "本集提到为省下昂贵的宇航级元器件，团队采用了类似 SpaceX 的策略，购买现成的汽车级商用组件并拉去粒子加速器硬测其抗辐射底线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 196,
+          "t": [
+            794.213,
+            798.374
+          ],
+          "quote": "We're trying to use off-the-shelf, like automotive-style components because it's way cheaper.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "starlink",
+      "type": "company",
+      "role": "company",
+      "name": "Starlink",
+      "file": "Starlink",
+      "primary": false,
+      "how_described": "本集提到 StarCloud 已与 SpaceX 签订合同，在接下来的 20 颗卫星上配备 Starlink 激光终端，以实现宇宙级的高带宽低延迟组网。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            666.365,
+            672.01
+          ],
+          "quote": "The interconnect, we've just signed a contract with SpaceX for our next 20 satellites to have a Starlink laser terminal.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "aws",
+      "type": "company",
+      "role": "company",
+      "name": "AWS",
+      "file": "AWS",
+      "primary": false,
+      "how_described": "本集提到 StarCloud 正在与其合作推出 Outpost 硬件，以运行 VC2 的本地实例，供军事客户使用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 352,
+          "t": [
+            1429.188,
+            1432.811
+          ],
+          "quote": "We're also partnering with AWS on launching the Outpost hardware.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "yc",
+      "type": "company",
+      "role": "company",
+      "name": "YC",
+      "file": "YC",
+      "primary": false,
+      "how_described": "本集提到 StarCloud 参加了 YC，并成为 YC 历史上增长最快的独角兽（距 Demo Day 仅 17 个月）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            52.057,
+            62.744
+          ],
+          "quote": "Earlier this year, they raised $170 million led by Benchmark and became the fastest growing unicorn in YC history, just 17 months after Demo Day.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 45,
+          "t": [
+            186.316,
+            191.459
+          ],
+          "quote": "We looked at asteroid mining and obviously YC has Astroforge.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 207,
+          "t": [
+            848.543,
+            853.245
+          ],
+          "quote": "So we actually applied to YC once and we got rejected.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 210,
+          "t": [
+            860.387,
+            868.43
+          ],
+          "quote": "And then even after YC, when we went out to raise after demo day, I think we got rejected from at least 20 VCs before we got to the first check.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 232,
+          "t": [
+            960.501,
+            985.06
+          ],
+          "quote": "that's a it's a it's good enough for me once you had the idea and then once you're in yc how did you sort of break the problem down into like a plan for what to do obviously in software it's you think of your mvp and you launch quickly and you get feedback but hard to do that with data centers in space i have a very tangible piece of advice for all space companies the first thing every space company should do is book the first available launch they can",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1339.404,
+            1342.285
+          ],
+          "quote": "YC's next batch is now taking applications.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 355,
+          "t": [
+            1440.608,
+            1449.66
+          ],
+          "quote": "Something we were talking about earlier is at YC, we just observed over the last few years, it's been quite hard for hard tech companies to raise funding in general.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1458.412,
+            1464.543
+          ],
+          "quote": "the seed round during YC and then this huge round you raised from Benchmark.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 365,
+          "t": [
+            1486.645,
+            1491.15
+          ],
+          "quote": "Then after YC, yeah, it took us quite a while to raise.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 404,
+          "t": [
+            1651.225,
+            1655.288
+          ],
+          "quote": "After YC, we'd raised like 11 million at 40, which is like a decent round in YC.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 419,
+          "t": [
+            1766.104,
+            1769.667
+          ],
+          "quote": "I'm going to tell my mom, who's very religious, that YC said I'm a prophet.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 425,
+          "t": [
+            1833.797,
+            1848.508
+          ],
+          "quote": "the world's most kick-ass space engineers and actually this is where i give credit to yc i was kind of blindly following the yc advice i was like okay the first thing we need to do before coming up with an idea is get the most incredible space engineers in the world um on the team essentially",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 486,
+          "t": [
+            2109.309,
+            2121.699
+          ],
+          "quote": "So as one of the fastest growing unicorns in YC history and to do it as a hardware company, do you have any closing thoughts for people who are looking at space, looking at hard tech as a thing that they want to work on?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2147.848,
+            2151.59
+          ],
+          "quote": "In terms of advice, the YC advice stands true.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

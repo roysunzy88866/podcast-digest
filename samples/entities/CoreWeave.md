@@ -25,7 +25,7 @@ unlisted: true
 
 [[Reid Alberghati]] · [[OpenAI]] · [[NVIDIA]] · [[Microsoft]] · [[Safe Superintelligence]] · [[Situational Awareness]] · [[Meta]] · [[Apple]] · [[智能体]] · [[算力]]
 
-<script type="application/json" class="pd-epn">{"Reid Alberghati":1,"OpenAI":27,"NVIDIA":9,"Microsoft":7,"Safe Superintelligence":1,"Situational Awareness":1,"Meta":10,"Apple":6,"智能体":51,"算力":1}</script>
+<script type="application/json" class="pd-epn">{"Reid Alberghati":1,"OpenAI":27,"NVIDIA":10,"Microsoft":7,"Safe Superintelligence":1,"Situational Awareness":1,"Meta":10,"Apple":6,"智能体":51,"算力":1}</script>
 
 <script>
 (function(){

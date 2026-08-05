@@ -7,21 +7,26 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>McKinsey</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="McKinsey">MC</div><div class="pi"><h1 class="pt">McKinsey</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="McKinsey">MC</div><div class="pi"><h1 class="pt">McKinsey</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+
+## 集里怎么说它
+
+- **[[2026-08-05-yc-building-the-first-data-centers-in-space|《把数据中心搬上太空：StarCloud 的万亿美元硬科技突围》]]**(01:44起):本集提到创始人 Philip 曾在此咨询公司工作了几年，负责对接各国太空机构，从而察觉到了发射成本暴跌的趋势。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司
+- [[2026-08-05-yc-building-the-first-data-centers-in-space|《把数据中心搬上太空：StarCloud 的万亿美元硬科技突围》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Benedict Evans]] · [[Lenny]] · [[OpenAI]] · [[Anthropic]] · [[Google]] · [[Meta]] · [[Apple]] · [[Microsoft]] · [[AWS]] · [[Claude Code]]
+[[AWS]] · [[Benedict Evans]] · [[Philip Johnston]] · [[Lenny]] · [[StarCloud]] · [[OpenAI]] · [[数据中心]] · [[Anthropic]] · [[SpaceX]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"Benedict Evans":1,"Lenny":33,"OpenAI":27,"Anthropic":32,"Google":12,"Meta":10,"Apple":6,"Microsoft":7,"AWS":2,"Claude Code":13}</script>
+<script type="application/json" class="pd-epn">{"AWS":3,"Benedict Evans":1,"Philip Johnston":1,"Lenny":33,"StarCloud":1,"OpenAI":27,"数据中心":2,"Anthropic":32,"SpaceX":5,"Google":12}</script>
 
 <script>
 (function(){

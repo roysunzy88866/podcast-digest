@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>SpaceX</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="SpaceX">SP</div><div class="pi"><h1 class="pt">SpaceX</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="SpaceX">SP</div><div class="pi"><h1 class="pt">SpaceX</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,23 +15,25 @@ unlisted: true
 - **[[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]]**(08:16起):本集作为例子提及，指出如果是国家安全威胁（如潜伏间谍），其内部工作的中国公民也可能被激活，风险并非开源独有。
 - **[[2026-08-05-a16z-three-startups-reinventing-critical-infr|《造海底机器人、挖关键矿物、量产核反应堆:硬科技重塑美国制造》]]**(04:00起):本集将其作为海洋探索的标杆（希望 Ulysses 成为海洋的 SpaceX），并提到它是 Radiant 创始人曾工作 12 年并参与火星燃料设计的地方。
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(45:55起):本集把它说成:Elon 旗下的公司,追求目前对人类最宏大的使命,拥有最乐观、亲人类的愿景
+- **[[2026-08-05-yc-building-the-first-data-centers-in-space|《把数据中心搬上太空：StarCloud 的万亿美元硬科技突围》]]**(00:15起):嘉宾指出 SpaceX 生产的 Starship 正在将发射成本大幅降低，并提到 SpaceX 自身也宣布了在太空中建立数据中心的计划，此外双方签了激光终端的合同。
 
 ## ② 出现在这些集
 
-*4 集*
+*5 集*
 
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为被讨论公司
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为被讨论公司(提及)
 - [[2026-08-05-a16z-three-startups-reinventing-critical-infr|《造海底机器人、挖关键矿物、量产核反应堆:硬科技重塑美国制造》]] — 作为被讨论公司(提及)
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为被讨论公司
+- [[2026-08-05-yc-building-the-first-data-centers-in-space|《把数据中心搬上太空：StarCloud 的万亿美元硬科技突围》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[Alex]] · [[NVIDIA]] · [[Google]] · [[Microsoft]] · [[AGI]] · [[资本支出]] · [[蒸馏]] · [[Ranjan Roy]]
+[[OpenAI]] · [[NVIDIA]] · [[Anthropic]] · [[Alex]] · [[Microsoft]] · [[Google]] · [[AGI]] · [[资本支出]] · [[蒸馏]] · [[Ranjan Roy]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":27,"Anthropic":32,"Alex":2,"NVIDIA":9,"Google":12,"Microsoft":7,"AGI":7,"资本支出":2,"蒸馏":4,"Ranjan Roy":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":27,"NVIDIA":10,"Anthropic":32,"Alex":2,"Microsoft":7,"Google":12,"AGI":7,"资本支出":2,"蒸馏":4,"Ranjan Roy":1}</script>
 
 <script>
 (function(){

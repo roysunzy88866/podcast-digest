@@ -37,7 +37,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[智能体]] · [[NVIDIA]] · [[Google]] · [[Meta]] · [[Apple]] · [[Lenny]] · [[SaaS]] · [[护栏]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":32,"OpenAI":27,"智能体":51,"NVIDIA":9,"Google":12,"Meta":10,"Apple":6,"Lenny":33,"SaaS":4,"护栏":8}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":32,"OpenAI":27,"智能体":51,"NVIDIA":10,"Google":12,"Meta":10,"Apple":6,"Lenny":33,"SaaS":4,"护栏":8}</script>
 
 <script>
 (function(){

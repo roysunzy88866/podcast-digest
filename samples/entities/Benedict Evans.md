@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Willowryan]] [[David Cahn]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]]
+[[Willowryan]] [[David Cahn]] [[Philip Johnston]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":33,"OpenAI":27,"Anthropic":32,"Google":12,"Meta":10,"Apple":6,"Microsoft":7,"AWS":2,"McKinsey":1,"Claude Code":13}</script>
+<script type="application/json" class="pd-epn">{"Lenny":33,"OpenAI":27,"Anthropic":32,"Google":12,"Meta":10,"Apple":6,"Microsoft":7,"AWS":3,"McKinsey":2,"Claude Code":13}</script>
 
 <script>
 (function(){

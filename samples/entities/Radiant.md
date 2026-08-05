@@ -25,7 +25,7 @@ unlisted: true
 
 [[Willowryan]] · [[Ulysses]] · [[Mariana Minerals]] · [[SpaceX]] · [[自主水下航行器]] · [[关键矿物]] · [[微反应堆]] · [[垂直整合]] · [[强化学习]] · [[大型语言模型]]
 
-<script type="application/json" class="pd-epn">{"Willowryan":1,"Ulysses":1,"Mariana Minerals":1,"SpaceX":4,"自主水下航行器":1,"关键矿物":1,"微反应堆":1,"垂直整合":1,"强化学习":5,"大型语言模型":2}</script>
+<script type="application/json" class="pd-epn">{"Willowryan":1,"Ulysses":1,"Mariana Minerals":1,"SpaceX":5,"自主水下航行器":1,"关键矿物":1,"微反应堆":1,"垂直整合":1,"强化学习":5,"大型语言模型":2}</script>
 
 <script>
 (function(){

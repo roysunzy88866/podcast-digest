@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Willowryan]] [[David Cahn]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]]
+[[Willowryan]] [[David Cahn]] [[Philip Johnston]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Dan":1,"OpenAI":27,"Anthropic":32,"NVIDIA":9,"SPAC":1,"闭源模型":1,"开放权重模型":2,"分布式计算":1,"末日论":1,"KYC":1}</script>
+<script type="application/json" class="pd-epn">{"Dan":1,"OpenAI":27,"Anthropic":32,"NVIDIA":10,"SPAC":1,"闭源模型":1,"开放权重模型":2,"分布式计算":1,"末日论":1,"KYC":1}</script>
 
 <script>
 (function(){

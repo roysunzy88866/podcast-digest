@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Cahn]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]]
+[[David Cahn]] [[Philip Johnston]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Ulysses":1,"Mariana Minerals":1,"Radiant":1,"SpaceX":4,"自主水下航行器":1,"关键矿物":1,"微反应堆":1,"垂直整合":1,"强化学习":5,"大型语言模型":2}</script>
+<script type="application/json" class="pd-epn">{"Ulysses":1,"Mariana Minerals":1,"Radiant":1,"SpaceX":5,"自主水下航行器":1,"关键矿物":1,"微反应堆":1,"垂直整合":1,"强化学习":5,"大型语言模型":2}</script>
 
 <script>
 (function(){

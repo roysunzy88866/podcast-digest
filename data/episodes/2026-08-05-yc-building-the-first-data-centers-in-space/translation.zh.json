@@ -1,0 +1,3978 @@
+[
+ {
+  "seg": 0,
+  "start": 0.111,
+  "end": 3.855,
+  "speaker": "Unknown",
+  "en": "First thing every space company should do is book the first available launch they can.",
+  "zh": "每一家太空公司应该做的第一件事就是预订他们能预订到的最早一次发射。"
+ },
+ {
+  "seg": 1,
+  "start": 4.595,
+  "end": 6.197,
+  "speaker": "Unknown",
+  "en": "Before they built the thing that they're going to launch.",
+  "zh": "在他们建造他们要发射的东西之前。"
+ },
+ {
+  "seg": 2,
+  "start": 6.217,
+  "end": 6.897,
+  "speaker": "Unknown",
+  "en": "Before they built the thing.",
+  "zh": "在他们建造那个东西之前。"
+ },
+ {
+  "seg": 3,
+  "start": 6.917,
+  "end": 8.479,
+  "speaker": "Unknown",
+  "en": "Before they probably even know what they're going to launch.",
+  "zh": "甚至可能在他们知道要发射什么之前。"
+ },
+ {
+  "seg": 4,
+  "start": 8.639,
+  "end": 11.822,
+  "speaker": "Unknown",
+  "en": "Booking a launch is such a good forcing function for a space company.",
+  "zh": "预订发射对一家太空公司来说是一个非常有效的强制手段。"
+ },
+ {
+  "seg": 5,
+  "start": 12.162,
+  "end": 13.984,
+  "speaker": "Unknown",
+  "en": "So we founded the company January 1st, 2024.",
+  "zh": "所以我们在 2024 年 1 月 1 日创立了公司。"
+ },
+ {
+  "seg": 6,
+  "start": 15.325,
+  "end": 19.948,
+  "speaker": "Unknown",
+  "en": "January 2nd, we booked the first available SpaceX rideshare launch.",
+  "zh": "1 月 2 日，我们就预订了最早的 SpaceX 拼车发射。"
+ },
+ {
+  "seg": 7,
+  "start": 20.029,
+  "end": 22.39,
+  "speaker": "Unknown",
+  "en": "And we were like, okay, something is going to be on that rocket.",
+  "zh": "我们当时就想，好吧，到时候肯定会有什么东西在那枚火箭上。"
+ },
+ {
+  "seg": 8,
+  "start": 22.41,
+  "end": 24.252,
+  "speaker": "Unknown",
+  "en": "I'm not 100% sure what it's going to be at this point.",
+  "zh": "我现在不确定那会是什么。"
+ },
+ {
+  "seg": 9,
+  "start": 24.672,
+  "end": 26.333,
+  "speaker": "Unknown",
+  "en": "But something is going to be on there.",
+  "zh": "但肯定会有东西在那上面。"
+ },
+ {
+  "seg": 10,
+  "start": 26.513,
+  "end": 29.235,
+  "speaker": "Unknown",
+  "en": "Sounds like the same advice for all the software companies.",
+  "zh": "这听起来像是给所有软件公司同样的建议。"
+ },
+ {
+  "seg": 11,
+  "start": 29.255,
+  "end": 30.796,
+  "speaker": "Unknown",
+  "en": "Just got to keep launching and launching.",
+  "zh": "只要一直不停地发布、发布。"
+ },
+ {
+  "seg": 12,
+  "start": 30.816,
+  "end": 31.277,
+  "speaker": "Unknown",
+  "en": "Same thing.",
+  "zh": "同一回事。"
+ },
+ {
+  "seg": 13,
+  "start": 38.968,
+  "end": 40.989,
+  "speaker": "Unknown",
+  "en": "Welcome back to another episode of The Light Cone.",
+  "zh": "欢迎回到 The Light Cone 的新一集节目。"
+ },
+ {
+  "seg": 14,
+  "start": 41.109,
+  "end": 45.572,
+  "speaker": "Unknown",
+  "en": "Today, we're sitting down with Philip Johnston, the co-founder and CEO of StarCloud.",
+  "zh": "今天，我们和 StarCloud 的联合创始人兼 CEO Philip Johnston 坐在了一起。"
+ },
+ {
+  "seg": 15,
+  "start": 46.113,
+  "end": 51.396,
+  "speaker": "Unknown",
+  "en": "StarCloud is building data centers in space to address the energy bottleneck that AI is creating here on Earth.",
+  "zh": "StarCloud 正在太空建造数据中心，以解决 AI 在地球上造成的能源瓶颈。"
+ },
+ {
+  "seg": 16,
+  "start": 52.057,
+  "end": 62.744,
+  "speaker": "Unknown",
+  "en": "Earlier this year, they raised $170 million led by Benchmark and became the fastest growing unicorn in YC history, just 17 months after Demo Day.",
+  "zh": "今年早些时候，他们筹集了由 Benchmark 领投的 1.7 亿美元资金，并成为 Y 历史上增长最快的独角兽，距离 Demo Day 仅 17 个月。"
+ },
+ {
+  "seg": 17,
+  "start": 63.284,
+  "end": 65.406,
+  "speaker": "Unknown",
+  "en": "Philip, welcome to The Light Cone.",
+  "zh": "Philip，欢迎来到 The Light Cone。"
+ },
+ {
+  "seg": 18,
+  "start": 65.586,
+  "end": 66.527,
+  "speaker": "Unknown",
+  "en": "Thanks so much for having me.",
+  "zh": "非常感谢邀请我。"
+ },
+ {
+  "seg": 19,
+  "start": 66.767,
+  "end": 69.489,
+  "speaker": "Unknown",
+  "en": "So to start off, why data centers in space?",
+  "zh": "那么，首先，为什么要在太空建数据中心？"
+ },
+ {
+  "seg": 20,
+  "start": 70.069,
+  "end": 75.853,
+  "speaker": "Unknown",
+  "en": "So we are very quickly running up on constraints on where we can build new energy projects terrestrially.",
+  "zh": "所以我们在地球上能建造新能源项目的地方很快就面临着约束。"
+ },
+ {
+  "seg": 21,
+  "start": 76.513,
+  "end": 82.757,
+  "speaker": "Unknown",
+  "en": "And so by building them in space, we get access to this almost unlimited low-cost energy in the form of solar.",
+  "zh": "因此通过在太空建造它们，我们可以获得这种几乎无限的低成本能源，也就是太阳能。"
+ },
+ {
+  "seg": 22,
+  "start": 82.777,
+  "end": 85.138,
+  "speaker": "Unknown",
+  "en": "Of course, there's other costs, like the cost of launch.",
+  "zh": "当然，还有其他成本，比如发射成本。"
+ },
+ {
+  "seg": 23,
+  "start": 85.199,
+  "end": 92.823,
+  "speaker": "Unknown",
+  "en": "And the cost of launch is actually very rapidly trending down, with new launch vehicles coming online, the Falcon 9 program, and Starship on the horizon.",
+  "zh": "而且发射成本实际上正在非常迅速地下降，随着新型运载工具的上线、Falcon 9 计划以及 Starship 在地平线上出现。"
+ },
+ {
+  "seg": 24,
+  "start": 93.464,
+  "end": 95.265,
+  "speaker": "Unknown",
+  "en": "And so that's the reason we're building data centers in space.",
+  "zh": "这就是我们在太空建造数据中心的原因。"
+ },
+ {
+  "seg": 25,
+  "start": 95.485,
+  "end": 96.726,
+  "speaker": "Unknown",
+  "en": "How did you come up with the idea?",
+  "zh": "你是怎么想到这个主意的？"
+ },
+ {
+  "seg": 26,
+  "start": 96.786,
+  "end": 101.53,
+  "speaker": "Unknown",
+  "en": "It's not sort of like the typical idea that people come up with.",
+  "zh": "这不是那种人们通常会想到的典型想法。"
+ },
+ {
+  "seg": 27,
+  "start": 103.151,
+  "end": 104.252,
+  "speaker": "Unknown",
+  "en": "I'd actually been working.",
+  "zh": "实际上我一直在工作。"
+ },
+ {
+  "seg": 28,
+  "start": 104.693,
+  "end": 108.215,
+  "speaker": "Unknown",
+  "en": "I was with McKinsey for a few years working with the space agencies of different governments.",
+  "zh": "我在 McKinsey 工作了几年，与不同政府的太空机构合作。"
+ },
+ {
+  "seg": 29,
+  "start": 108.295,
+  "end": 111.178,
+  "speaker": "Unknown",
+  "en": "And I could see that the launch cost was very rapidly trending down.",
+  "zh": "我能看到发射成本正在非常迅速地下降。"
+ },
+ {
+  "seg": 30,
+  "start": 111.898,
+  "end": 119.745,
+  "speaker": "Unknown",
+  "en": "And actually in early 2023, I decided randomly on a weekend to take a trip down to Starbase, Texas, where they're building the Starship launch program.",
+  "zh": "实际上在 2023 年初，我在一个周末随机决定去一趟德克萨斯州的 Starbase，他们正在那里建造 Starship 发射计划。"
+ },
+ {
+  "seg": 31,
+  "start": 120.285,
+  "end": 121.306,
+  "speaker": "Unknown",
+  "en": "even before the first launch.",
+  "zh": "甚至在第一次发射之前。"
+ },
+ {
+  "seg": 32,
+  "start": 121.346,
+  "end": 123.587,
+  "speaker": "Unknown",
+  "en": "And not many people were paying attention back then.",
+  "zh": "当时没有多少人关注。"
+ },
+ {
+  "seg": 33,
+  "start": 124.087,
+  "end": 127.109,
+  "speaker": "Unknown",
+  "en": "And I could see that they were just building enormous capacity.",
+  "zh": "我能看到他们正在建造巨大的运力。"
+ },
+ {
+  "seg": 34,
+  "start": 127.149,
+  "end": 132.092,
+  "speaker": "Unknown",
+  "en": "So they're building these two Starship gigafactories that are designed to produce something like three Starships per day.",
+  "zh": "所以他们正在建造这两座 Starship 超级工厂，设计目标是每天生产大约三枚 Starship。"
+ },
+ {
+  "seg": 35,
+  "start": 132.552,
+  "end": 139.916,
+  "speaker": "Unknown",
+  "en": "And because Starship is reusable, you know, on a sort of three or four year timeframe, that could lead to us having thousands of times the capacity to get things to space.",
+  "zh": "因为 Starship 是可回收的，你知道，在一个大概三到四年的时间框架内，这可能会导致我们将去往太空的能力提升数千倍。"
+ },
+ {
+  "seg": 36,
+  "start": 140.457,
+  "end": 144.039,
+  "speaker": "Unknown",
+  "en": "And so I started thinking, okay, let's just run the clock forward.",
+  "zh": "所以我开始思考，好吧，让我们把时钟向前拨。"
+ },
+ {
+  "seg": 37,
+  "start": 144.379,
+  "end": 149.422,
+  "speaker": "Unknown",
+  "en": "If the launch cost was 10 times lower than it is today, and the launch capacity was maybe a thousand times more than we have today,",
+  "zh": "如果发射成本比今天低 10 倍，而发射运力比今天多 1000 倍，"
+ },
+ {
+  "seg": 38,
+  "start": 150.022,
+  "end": 152.463,
+  "speaker": "Unknown",
+  "en": "what would make sense that currently doesn't make sense?",
+  "zh": "那么什么东西现在不合理但到那时就会合理了？"
+ },
+ {
+  "seg": 39,
+  "start": 153.103,
+  "end": 159.664,
+  "speaker": "Unknown",
+  "en": "And so I started thinking about some of the concepts from sci-fi that I remember as a kid, like space-based solar, where you have these huge solar panels in space.",
+  "zh": "于是我开始思考一些我小时候记得的科幻概念，比如太空太阳能，你在太空中有这些巨大的太阳能电池板。"
+ },
+ {
+  "seg": 40,
+  "start": 160.064,
+  "end": 160.984,
+  "speaker": "Unknown",
+  "en": "You beam that power down.",
+  "zh": "你把能量束传回地面。"
+ },
+ {
+  "seg": 41,
+  "start": 162.265,
+  "end": 173.587,
+  "speaker": "Unknown",
+  "en": "And essentially, I just reached out to a few folks I knew in the space industry and got connected with a few others and started ideating on, okay, what would make sense if the launch cost was much lower than it is today?",
+  "zh": "本质上，我只是联系了我认识的几个太空行业的人，与其他几个人建立了联系，然后开始构思，好吧，如果发射成本比今天低很多，什么会合理？"
+ },
+ {
+  "seg": 42,
+  "start": 173.947,
+  "end": 181.332,
+  "speaker": "Unknown",
+  "en": "I'm curious, are there any other ideas that occurred to you during this process when you were thinking of what people could build in space?",
+  "zh": "我很好奇，在这个过程中当你思考人们可以在太空建造什么时，你还想到了哪些其他想法？"
+ },
+ {
+  "seg": 43,
+  "start": 182.633,
+  "end": 183.134,
+  "speaker": "Unknown",
+  "en": "Yeah, tons.",
+  "zh": "是的，太多了。"
+ },
+ {
+  "seg": 44,
+  "start": 183.174,
+  "end": 185.936,
+  "speaker": "Unknown",
+  "en": "I mean, we definitely looked at manufacturing in space and there's Varda.",
+  "zh": "我的意思是，我们肯定看过太空制造，还有 Varda。"
+ },
+ {
+  "seg": 45,
+  "start": 186.316,
+  "end": 191.459,
+  "speaker": "Unknown",
+  "en": "We looked at asteroid mining and obviously YC has Astroforge.",
+  "zh": "我们看过小行星采矿，显然 YC 有 Astroforge。"
+ },
+ {
+  "seg": 46,
+  "start": 191.499,
+  "end": 192.72,
+  "speaker": "Unknown",
+  "en": "We looked at space hotels.",
+  "zh": "我们看过太空酒店。"
+ },
+ {
+  "seg": 47,
+  "start": 192.74,
+  "end": 193.241,
+  "speaker": "Unknown",
+  "en": "We looked at...",
+  "zh": "我们看过..."
+ },
+ {
+  "seg": 48,
+  "start": 193.701,
+  "end": 197.586,
+  "speaker": "Unknown",
+  "en": "But basically anything which could make sense if the launch cost was a lot lower than it is today.",
+  "zh": "但基本上，任何如果发射成本比今天低很多就会合理的东西。"
+ },
+ {
+  "seg": 49,
+  "start": 197.907,
+  "end": 199.81,
+  "speaker": "Unknown",
+  "en": "And how come data centers was the best choice?",
+  "zh": "为什么数据中心是最佳选择？"
+ },
+ {
+  "seg": 50,
+  "start": 200.17,
+  "end": 205.337,
+  "speaker": "Unknown",
+  "en": "Data centers makes a lot of sense to be the first thing you do because you don't need to reenter a product.",
+  "zh": "数据中心作为你首先要做的事情很有意义，因为你不需要重新进入产品。"
+ },
+ {
+  "seg": 51,
+  "start": 205.397,
+  "end": 209.142,
+  "speaker": "Unknown",
+  "en": "So with things like asteroid mining or with...",
+  "zh": "所以对于像小行星采矿或者……"
+ },
+ {
+  "seg": 52,
+  "start": 210.624,
+  "end": 229.877,
+  "speaker": "Unknown",
+  "en": "manufacturing in space or space hotels they require this very expensive re-entry process initially what we actually started doing was space-based solar so huge solar panels and then you beam that power down and it's it's a concept from i think like the 60s even asimov in the 40s was writing about it the problem with space-based solar is you actually lose 95 of the energy in transmission from space to earth",
+  "zh": "太空制造或太空酒店这些东西，它们需要这种非常昂贵的再入过程，实际上我们最初开始做的是天基太阳能，所以是巨大的太阳能电池板，然后你把能量束下来，这是一个概念，我觉得像从60年代开始，甚至阿西莫夫在40年代就写过它，天基太阳能的问题在于，在从太空到地球的传输中你实际上损失了95%的能量。"
+ },
+ {
+  "seg": 53,
+  "start": 230.437,
+  "end": 233.478,
+  "speaker": "Unknown",
+  "en": "And so for the first two months of the company, that was literally what we're doing.",
+  "zh": "所以在公司的前两个月，我们实际上就在做这个。"
+ },
+ {
+  "seg": 54,
+  "start": 233.498,
+  "end": 237.219,
+  "speaker": "Unknown",
+  "en": "We were called Lumen Orbit because of that reason, luminosity in orbit.",
+  "zh": "我们被称为 Lumen Orbit 就是因为那个原因，轨道上的光度。"
+ },
+ {
+  "seg": 55,
+  "start": 237.579,
+  "end": 240.28,
+  "speaker": "Unknown",
+  "en": "We were thinking, okay, once we get that power down, what are we going to be using it for?",
+  "zh": "我们在想，好吧，一旦我们把那个能量送下来，我们要用它来做什么？"
+ },
+ {
+  "seg": 56,
+  "start": 240.68,
+  "end": 244.841,
+  "speaker": "Unknown",
+  "en": "And even back in 23, most new energy projects were being built for data centers.",
+  "zh": "早在23年，大多数新能源项目实际上都是为数据中心建设的。"
+ },
+ {
+  "seg": 57,
+  "start": 245.161,
+  "end": 248.722,
+  "speaker": "Unknown",
+  "en": "So we were like, okay, well, either directly or indirectly, this power is going to go into data centers.",
+  "zh": "所以我们想，好吧，要么直接要么间接，这些能量会进入数据中心。"
+ },
+ {
+  "seg": 58,
+  "start": 249.122,
+  "end": 250.363,
+  "speaker": "Unknown",
+  "en": "Let's rerun those numbers.",
+  "zh": "让我们重新算一下这些数字。"
+ },
+ {
+  "seg": 59,
+  "start": 250.823,
+  "end": 256.324,
+  "speaker": "Unknown",
+  "en": "So initially we'd run the numbers to know what's the launch cost breakeven that makes sense for space-based solar.",
+  "zh": "最初我们计算这些数字是为了知道天基太阳能的盈亏平衡发射成本是多少。"
+ },
+ {
+  "seg": 60,
+  "start": 256.344,
+  "end": 257.845,
+  "speaker": "Unknown",
+  "en": "And we'd come to a number of like $50 a kilo.",
+  "zh": "我们得出了一个像每公斤50美元这样的数字。"
+ },
+ {
+  "seg": 61,
+  "start": 258.945,
+  "end": 260.086,
+  "speaker": "Unknown",
+  "en": "So then we rewound the calculations.",
+  "zh": "然后我们倒推了计算。"
+ },
+ {
+  "seg": 62,
+  "start": 260.106,
+  "end": 266.57,
+  "speaker": "Unknown",
+  "en": "We were like, okay, let's spend a month figuring out what would the launch cost breakeven need to be to make data centers in space breakeven.",
+  "zh": "我们想，好吧，让我们花一个月时间弄清楚，要使太空数据中心盈亏平衡，发射成本盈亏平衡需要是多少。"
+ },
+ {
+  "seg": 63,
+  "start": 266.691,
+  "end": 269.613,
+  "speaker": "Unknown",
+  "en": "And we came to a much closer to reality number of $500 a kilo.",
+  "zh": "我们得出了一个更接近现实的数字，每公斤500美元。"
+ },
+ {
+  "seg": 64,
+  "start": 269.673,
+  "end": 273.075,
+  "speaker": "Unknown",
+  "en": "And that's what we think currently that the breakeven launch cost is.",
+  "zh": "这就是我们目前认为的盈亏平衡发射成本。"
+ },
+ {
+  "seg": 65,
+  "start": 274.276,
+  "end": 277.078,
+  "speaker": "Unknown",
+  "en": "And so then we rapidly pivoted the company towards that.",
+  "zh": "所以我们迅速将公司转向了那个方向。"
+ },
+ {
+  "seg": 66,
+  "start": 278.399,
+  "end": 282.822,
+  "speaker": "Unknown",
+  "en": "So Philip, you launched StartCloud One in November of 2025.",
+  "zh": "所以 Philip，你在2025年11月发射了 StartCloud One。"
+ },
+ {
+  "seg": 67,
+  "start": 283.282,
+  "end": 284.923,
+  "speaker": "Unknown",
+  "en": "And that was a real emotional moment.",
+  "zh": "那真是一个情感时刻。"
+ },
+ {
+  "seg": 68,
+  "start": 284.963,
+  "end": 287.405,
+  "speaker": "Unknown",
+  "en": "Can you walk us through what that was like?",
+  "zh": "你能带我们经历一下那是什么感觉吗？"
+ },
+ {
+  "seg": 69,
+  "start": 287.978,
+  "end": 289.48,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, it was incredible.",
+  "zh": "是的，我是说，那太不可思议了。"
+ },
+ {
+  "seg": 70,
+  "start": 289.52,
+  "end": 292.524,
+  "speaker": "Unknown",
+  "en": "So just to tell people a bit about StarCloud One.",
+  "zh": "所以只是告诉人们一点关于 StarCloud One 的事情。"
+ },
+ {
+  "seg": 71,
+  "start": 292.564,
+  "end": 295.788,
+  "speaker": "Unknown",
+  "en": "So we'd set this launch date, you know, 18 months in the future.",
+  "zh": "我们设定了这个发射日期，你知道，未来18个月。"
+ },
+ {
+  "seg": 72,
+  "start": 296.469,
+  "end": 299.072,
+  "speaker": "Unknown",
+  "en": "And we initially started with something quite unimpressive.",
+  "zh": "我们最初开始做一些相当不令人印象深刻的事情。"
+ },
+ {
+  "seg": 73,
+  "start": 299.853,
+  "end": 301.655,
+  "speaker": "Unknown",
+  "en": "Like we were going to fly some NVIDIA jets and chips.",
+  "zh": "比如我们要飞一些 NVIDIA jets 和芯片。"
+ },
+ {
+  "seg": 74,
+  "start": 301.695,
+  "end": 305.1,
+  "speaker": "Unknown",
+  "en": "They've been flown in space before and we're going to try and do some new workloads on there.",
+  "zh": "它们以前在太空中飞过，我们要尝试在那里做一些新的工作负载。"
+ },
+ {
+  "seg": 75,
+  "start": 305.66,
+  "end": 309.943,
+  "speaker": "Unknown",
+  "en": "Yeah, so it was Addy that came on and said, no, we need to do something way, way cooler than that.",
+  "zh": "是的，所以是 Addy 进来说，不，我们需要做一些比那更酷的事情。"
+ },
+ {
+  "seg": 76,
+  "start": 310.123,
+  "end": 315.267,
+  "speaker": "Unknown",
+  "en": "And we actually ended up putting five GPUs on there, three from NVIDIA, two from ARM.",
+  "zh": "我们实际上最终在上面放了5个 GPU，三个来自 NVIDIA，两个来自 ARM。"
+ },
+ {
+  "seg": 77,
+  "start": 315.307,
+  "end": 317.809,
+  "speaker": "Unknown",
+  "en": "But the most interesting one was this NVIDIA H100.",
+  "zh": "但最有趣的是那个 NVIDIA H100。"
+ },
+ {
+  "seg": 78,
+  "start": 318.269,
+  "end": 319.11,
+  "speaker": "Unknown",
+  "en": "We did some crazy things.",
+  "zh": "我们做了一些疯狂的事情。"
+ },
+ {
+  "seg": 79,
+  "start": 319.13,
+  "end": 321.512,
+  "speaker": "Unknown",
+  "en": "Like, for example, you have to put it through thermal cycling.",
+  "zh": "比如，你必须让它通过热循环。"
+ },
+ {
+  "seg": 80,
+  "start": 323.073,
+  "end": 329.378,
+  "speaker": "Unknown",
+  "en": "And we didn't have time to book the vacuum chamber, the thermal and vacuum chamber.",
+  "zh": "我们没有时间预订真空室，热真空室。"
+ },
+ {
+  "seg": 81,
+  "start": 329.638,
+  "end": 335.142,
+  "speaker": "Unknown",
+  "en": "But we needed to know, okay, if we heat up this phase change material and cool it down and heat it up and cool it down, is it going to crack anything?",
+  "zh": "但我们需要知道，好吧，如果我们加热这种相变材料并冷却它，再加热它再冷却它，它会弄裂什么东西吗？"
+ },
+ {
+  "seg": 82,
+  "start": 335.962,
+  "end": 340.166,
+  "speaker": "Unknown",
+  "en": "And so at like 5 a.m. the day we had to ship it down, we were working through the night.",
+  "zh": "所以在我们必须把它运下去的那天凌晨5点，我们通宵工作。"
+ },
+ {
+  "seg": 83,
+  "start": 340.986,
+  "end": 344.229,
+  "speaker": "Unknown",
+  "en": "Adi and Ezra are dunking this thing in an ice bath.",
+  "zh": "Adi 和 Ezra 正把这东西浸在冰浴里。"
+ },
+ {
+  "seg": 84,
+  "start": 344.749,
+  "end": 346.25,
+  "speaker": "Unknown",
+  "en": "to cool it down.",
+  "zh": "把它冷却下来。"
+ },
+ {
+  "seg": 85,
+  "start": 346.711,
+  "end": 348.172,
+  "speaker": "Unknown",
+  "en": "And then we pull it out of the ice bath.",
+  "zh": "然后我们把它从冰浴里拿出来。"
+ },
+ {
+  "seg": 86,
+  "start": 348.192,
+  "end": 349.693,
+  "speaker": "Unknown",
+  "en": "And I'm like, are you sure it's going to be fine with electronics?",
+  "zh": "我说，你确定电子设备没问题吗？"
+ },
+ {
+  "seg": 87,
+  "start": 349.713,
+  "end": 350.554,
+  "speaker": "Unknown",
+  "en": "They're like, don't worry about it yet.",
+  "zh": "他们说，别担心这个。"
+ },
+ {
+  "seg": 88,
+  "start": 350.574,
+  "end": 351.154,
+  "speaker": "Unknown",
+  "en": "It's totally fine.",
+  "zh": "完全没问题。"
+ },
+ {
+  "seg": 89,
+  "start": 351.474,
+  "end": 352.515,
+  "speaker": "Unknown",
+  "en": "They pulled it out of the ice bath.",
+  "zh": "他们把它从冰浴里拿出来。"
+ },
+ {
+  "seg": 90,
+  "start": 352.775,
+  "end": 356.378,
+  "speaker": "Unknown",
+  "en": "Then we had these like, like hair dries to heat it up and melt all the wax.",
+  "zh": "然后我们有这些像吹风机一样的东西来加热它并融化所有的蜡。"
+ },
+ {
+  "seg": 91,
+  "start": 356.858,
+  "end": 358.38,
+  "speaker": "Unknown",
+  "en": "Like, or like hot air guns.",
+  "zh": "或者像热风枪。"
+ },
+ {
+  "seg": 92,
+  "start": 358.74,
+  "end": 360.521,
+  "speaker": "Unknown",
+  "en": "And then we're dunking it back in the ice bath.",
+  "zh": "然后我们把它浸回冰浴里。"
+ },
+ {
+  "seg": 93,
+  "start": 361.202,
+  "end": 363.043,
+  "speaker": "Unknown",
+  "en": "It is a miracle that it works, to be honest.",
+  "zh": "它能工作真是个奇迹，老实说。"
+ },
+ {
+  "seg": 94,
+  "start": 363.283,
+  "end": 364.064,
+  "speaker": "Unknown",
+  "en": "You can just do things.",
+  "zh": "你可以做事情。"
+ },
+ {
+  "seg": 95,
+  "start": 364.344,
+  "end": 365.165,
+  "speaker": "Unknown",
+  "en": "You can just do things.",
+  "zh": "你可以做事情。"
+ },
+ {
+  "seg": 96,
+  "start": 365.345,
+  "end": 367.367,
+  "speaker": "Unknown",
+  "en": "Yeah, this is the kind of thing you can do as a startup.",
+  "zh": "是的，这就是作为一家创业公司你可以做的事情。"
+ },
+ {
+  "seg": 97,
+  "start": 367.607,
+  "end": 373.432,
+  "speaker": "Unknown",
+  "en": "Because we actually had a quote from one of the primes on what it would cost to do StarCloud 1, and they said $75 million to $100 million.",
+  "zh": "因为我们实际上从一个大型机构那里得到了关于做 StarCloud 1 成本的报价，他们说7500万到1亿美元。"
+ },
+ {
+  "seg": 98,
+  "start": 373.472,
+  "end": 375.914,
+  "speaker": "Unknown",
+  "en": "And we did the whole of StarCloud 2, including the launch, for $2 million.",
+  "zh": "而我们做了整个 StarCloud 2，包括发射，只花了200万美元。"
+ },
+ {
+  "seg": 99,
+  "start": 375.934,
+  "end": 376.194,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 100,
+  "start": 376.995,
+  "end": 383.02,
+  "speaker": "Unknown",
+  "en": "So, yeah, leading up to the launch, I mean, we got the most incredible separation video.",
+  "zh": "所以，是的，临近发射时，我是说，我们得到了最不可思议的分离视频。"
+ },
+ {
+  "seg": 101,
+  "start": 383.04,
+  "end": 384.001,
+  "speaker": "Unknown",
+  "en": "I think we're going to play it now.",
+  "zh": "我想我们现在要播放它。"
+ },
+ {
+  "seg": 102,
+  "start": 384.281,
+  "end": 386.483,
+  "speaker": "Unknown",
+  "en": "StarCloud 1 separation confirmed.",
+  "zh": "StarCloud 1 分离确认。"
+ },
+ {
+  "seg": 103,
+  "start": 386.694,
+  "end": 390.935,
+  "speaker": "Unknown",
+  "en": "So half the time as it deploys, it will be behind the shadow of the Earth and you don't see anything.",
+  "zh": "所以在它部署的一半时间里，它会在地球的阴影后面，你看不到任何东西。"
+ },
+ {
+  "seg": 104,
+  "start": 390.995,
+  "end": 393.955,
+  "speaker": "Unknown",
+  "en": "The other half of the time it will deploy not into the silhouette of the Earth.",
+  "zh": "另一半时间里它将部署在地球的剪影之外。"
+ },
+ {
+  "seg": 105,
+  "start": 394.475,
+  "end": 398.656,
+  "speaker": "Unknown",
+  "en": "And so, I mean, it just is the most perfect deployment video I've ever seen.",
+  "zh": "所以，我是说，它是我见过的最完美的部署视频。"
+ },
+ {
+  "seg": 106,
+  "start": 399.036,
+  "end": 409.218,
+  "speaker": "Unknown",
+  "en": "And this was played by Jensen as he walked on stage at the GTC conference this year, this five-story tall screen behind him playing the StarCloud One separation video.",
+  "zh": "这个视频在 Jensen 今年走上 GTC 大会舞台时播放，在他身后那个五层楼高的屏幕上播放着 StarCloud One 分离视频。"
+ },
+ {
+  "seg": 107,
+  "start": 409.238,
+  "end": 410.499,
+  "speaker": "Unknown",
+  "en": "Amazing.",
+  "zh": "惊人。"
+ },
+ {
+  "seg": 108,
+  "start": 410.539,
+  "end": 412.819,
+  "speaker": "Unknown",
+  "en": "So no, it was the most incredible feeling seeing this deploy.",
+  "zh": "不，看着它部署是最不可思议的感觉。"
+ },
+ {
+  "seg": 109,
+  "start": 413.258,
+  "end": 414.879,
+  "speaker": "Unknown",
+  "en": "Where was the team for this?",
+  "zh": "团队当时在哪里？"
+ },
+ {
+  "seg": 110,
+  "start": 414.899,
+  "end": 415.519,
+  "speaker": "Unknown",
+  "en": "Did you all like to go?",
+  "zh": "你们大家都去了吗？"
+ },
+ {
+  "seg": 111,
+  "start": 415.539,
+  "end": 416.599,
+  "speaker": "Unknown",
+  "en": "So we took the whole team down.",
+  "zh": "所以我们把整个团队都带下去了。"
+ },
+ {
+  "seg": 112,
+  "start": 416.639,
+  "end": 419.661,
+  "speaker": "Unknown",
+  "en": "Yeah, there was only 12 in the team at the time of Star Club 1 launch.",
+  "zh": "是的，在 Star Club 1 发射时团队只有 12 人。"
+ },
+ {
+  "seg": 113,
+  "start": 419.681,
+  "end": 421.001,
+  "speaker": "Unknown",
+  "en": "So we took the whole team to Florida.",
+  "zh": "所以我们把整个团队带到了佛罗里达。"
+ },
+ {
+  "seg": 114,
+  "start": 421.762,
+  "end": 424.963,
+  "speaker": "Unknown",
+  "en": "And we had like 100 friends and family, investors.",
+  "zh": "我们有大约 100 位朋友和家人、投资者。"
+ },
+ {
+  "seg": 115,
+  "start": 425.303,
+  "end": 427.044,
+  "speaker": "Unknown",
+  "en": "Some of our team brought their family and kids down.",
+  "zh": "我们团队中有些人带上了他们的家人和孩子。"
+ },
+ {
+  "seg": 116,
+  "start": 427.124,
+  "end": 430.105,
+  "speaker": "Unknown",
+  "en": "And it was a real nice, really nice day.",
+  "zh": "那是一个真正美好的，非常美好的一天。"
+ },
+ {
+  "seg": 117,
+  "start": 430.125,
+  "end": 435.427,
+  "speaker": "Unknown",
+  "en": "We're going to release a behind-the-scenes video of some of the family moments in that launch.",
+  "zh": "我们将发布一个幕后视频，展示那次发射中的一些家庭时刻。"
+ },
+ {
+  "seg": 118,
+  "start": 435.807,
+  "end": 442.47,
+  "speaker": "Unknown",
+  "en": "How long was it from when the rocket lifted off until the thing deployed, until you powered it up and were able to verify the thing actually worked?",
+  "zh": "从火箭起飞到部署完成，到你通电并能够验证这个东西真的能工作，这中间花了多长时间？"
+ },
+ {
+  "seg": 119,
+  "start": 443.018,
+  "end": 444.779,
+  "speaker": "Unknown",
+  "en": "Yeah, so it lifted off.",
+  "zh": "是的，所以它起飞了。"
+ },
+ {
+  "seg": 120,
+  "start": 445.079,
+  "end": 447.481,
+  "speaker": "Unknown",
+  "en": "We were all on what they call the banana bleachers.",
+  "zh": "我们都在他们所谓的香蕉看台上。"
+ },
+ {
+  "seg": 121,
+  "start": 447.501,
+  "end": 451.243,
+  "speaker": "Unknown",
+  "en": "It's like the famous from the Apollo era, but it was in the middle of the night.",
+  "zh": "这是阿波罗时期著名的那个，但那是在半夜。"
+ },
+ {
+  "seg": 122,
+  "start": 451.463,
+  "end": 456.525,
+  "speaker": "Unknown",
+  "en": "So it lifted off at around midnight, and then at 1 a.m. they closed the bleachers, and everyone had to get on a bus and leave.",
+  "zh": "所以它在午夜左右起飞，然后在凌晨 1 点他们关闭了看台，所有人都必须上大巴离开。"
+ },
+ {
+  "seg": 123,
+  "start": 456.966,
+  "end": 459.407,
+  "speaker": "Unknown",
+  "en": "And we're like, oh, shit, I thought we were going to be able to watch the deployment.",
+  "zh": "我们就想，哦，该死，我以为我们将能够观看部署。"
+ },
+ {
+  "seg": 124,
+  "start": 459.987,
+  "end": 464.63,
+  "speaker": "Unknown",
+  "en": "And then I'm sitting in the back of a cab watching the live feed on SpaceX.com, literally.",
+  "zh": "然后我坐在一辆出租车的后座上，在 SpaceX.com 上看实况转播，真的。"
+ },
+ {
+  "seg": 125,
+  "start": 464.65,
+  "end": 467.251,
+  "speaker": "Unknown",
+  "en": "Oh, my God, it's deploying.",
+  "zh": "噢，我的天，它在部署。"
+ },
+ {
+  "seg": 126,
+  "start": 467.291,
+  "end": 468.312,
+  "speaker": "Unknown",
+  "en": "I can't believe it's deploying.",
+  "zh": "我不敢相信它在部署。"
+ },
+ {
+  "seg": 127,
+  "start": 468.912,
+  "end": 489.294,
+  "speaker": "Unknown",
+  "en": "um and then it took about 12 hours to make first contact which is not bad actually it usually takes at least 24 hours to get first contact and then it's like a two-week commissioning period and we had a whole bunch of software issues we had to work through um like it kept the whole satellite kept restarting every two hours and what was happening was one of 20 different um like failure uh like triggers was triggering",
+  "zh": "呃，然后它花了大约 12 小时才建立首次联系，这实际上还不错，通常建立首次联系至少需要 24 小时，然后是大约两周的调试期，我们有一大堆软件问题需要解决，呃，比如整个卫星每两小时就重启一次，发生的事情是 20 个不同的呃，比如故障呃，触发器中的一个触发了"
+ },
+ {
+  "seg": 128,
+  "start": 490.195,
+  "end": 503.54,
+  "speaker": "Unknown",
+  "en": "and we didn't know which one it was and we can only get a ground station pass every like at least every hour and a half maybe longer and so we had to manually turn off each one turn back on everything else and wait for a ground station pass to know which one it was so that took like",
+  "zh": "我们不知道是哪一个，而且我们只能在每个至少每半小时，也许更长的地面站过境窗口时获取数据，所以我们不得不手动关闭每一个，重新打开其他所有东西，并等待地面站过境窗口来知道是哪一个，所以花了像"
+ },
+ {
+  "seg": 129,
+  "start": 504.515,
+  "end": 507.219,
+  "speaker": "Unknown",
+  "en": "You know, that took like three days just to figure out that software issue.",
+  "zh": "你知道，那花了大概三天时间才搞清楚那个软件问题。"
+ },
+ {
+  "seg": 130,
+  "start": 507.619,
+  "end": 511.805,
+  "speaker": "Unknown",
+  "en": "And then, yeah, two weeks after that, then we started commissioning and turning on all the different payloads.",
+  "zh": "然后，是的，在那之后两周，我们开始调试并开启所有不同的有效载荷。"
+ },
+ {
+  "seg": 131,
+  "start": 511.845,
+  "end": 515.19,
+  "speaker": "Unknown",
+  "en": "And then we trained the first model, ran the first version of Gemini.",
+  "zh": "然后我们训练了第一个模型，运行了 Gemini 的第一个版本。"
+ },
+ {
+  "seg": 132,
+  "start": 515.23,
+  "end": 522.059,
+  "speaker": "Unknown",
+  "en": "We did the first fine tuning of a model in orbit, did the first high power inference on satellite imagery and all this kind of stuff.",
+  "zh": "我们完成了首次在轨模型微调，完成了首次卫星图像高功率推理以及所有这类事情。"
+ },
+ {
+  "seg": 133,
+  "start": 522.612,
+  "end": 527.118,
+  "speaker": "Unknown",
+  "en": "So StarCloud One right now, as we speak, has just left Chinese airspace, I think.",
+  "zh": "所以 StarCloud One 现在，正如我们说话时，刚刚离开中国领空，我想。"
+ },
+ {
+  "seg": 134,
+  "start": 527.298,
+  "end": 529.261,
+  "speaker": "Unknown",
+  "en": "Yeah, it's heading to Japan.",
+  "zh": "是的，它正前往日本。"
+ },
+ {
+  "seg": 135,
+  "start": 530.422,
+  "end": 531.864,
+  "speaker": "Unknown",
+  "en": "It's going quite fast, actually.",
+  "zh": "它实际上走得相当快。"
+ },
+ {
+  "seg": 136,
+  "start": 531.884,
+  "end": 535.148,
+  "speaker": "Unknown",
+  "en": "Yeah, so it travels around 17,000 miles an hour.",
+  "zh": "是的，所以它每小时大约绕行 17,000 英里。"
+ },
+ {
+  "seg": 137,
+  "start": 535.549,
+  "end": 539.354,
+  "speaker": "Unknown",
+  "en": "It's about an hour and a half to do one circumnavigation.",
+  "zh": "完成一次绕地球航行大约需要一个半小时。"
+ },
+ {
+  "seg": 138,
+  "start": 539.841,
+  "end": 544.763,
+  "speaker": "Unknown",
+  "en": "So, I mean, by StarCloud 4 or so, this won't be like one.",
+  "zh": "所以，我是说，到了 StarCloud 4 左右，这不会像是一个。"
+ },
+ {
+  "seg": 139,
+  "start": 544.983,
+  "end": 548.505,
+  "speaker": "Unknown",
+  "en": "It'll be a giant network sort of covering the Earth, actually.",
+  "zh": "它实际上将是一个覆盖地球的巨型网络。"
+ },
+ {
+  "seg": 140,
+  "start": 548.585,
+  "end": 553.287,
+  "speaker": "Unknown",
+  "en": "Yeah, from StarCloud 3 onwards, we'll have 88,000, and they'll all fly.",
+  "zh": "是的，从 StarCloud 3 开始，我们将有 88,000 个，它们都会飞行。"
+ },
+ {
+  "seg": 141,
+  "start": 553.888,
+  "end": 557.87,
+  "speaker": "Unknown",
+  "en": "This one is in what they call mid-inclination orbit, so it doesn't go over the poles.",
+  "zh": "这一个处于他们所谓的中倾角轨道，所以它不经过两极。"
+ },
+ {
+  "seg": 142,
+  "start": 558.01,
+  "end": 561.771,
+  "speaker": "Unknown",
+  "en": "StarCloud, and that's another point here on how janky this one is.",
+  "zh": "StarCloud，这也是关于这一个有多简陋的另一点。"
+ },
+ {
+  "seg": 143,
+  "start": 561.812,
+  "end": 566.794,
+  "speaker": "Unknown",
+  "en": "It doesn't even fly in the right orbit, but at least it enables us to test the hardware.",
+  "zh": "它甚至不在正确的轨道上飞行，但至少它让我们能够测试硬件。"
+ },
+ {
+  "seg": 144,
+  "start": 567.754,
+  "end": 572.077,
+  "speaker": "Unknown",
+  "en": "The next one will fly over the poles, and that gives us 24-hour always in the sun.",
+  "zh": "下一个将飞越两极，这给我们 24 小时总是在阳光下。"
+ },
+ {
+  "seg": 145,
+  "start": 572.457,
+  "end": 575.559,
+  "speaker": "Unknown",
+  "en": "In order to do that, do you need to put thrusters on the satellite to move it into that orbit?",
+  "zh": "为了做到这一点，你需要在卫星上安装推进器将它移入那个轨道吗？"
+ },
+ {
+  "seg": 146,
+  "start": 575.859,
+  "end": 582.042,
+  "speaker": "Unknown",
+  "en": "In the end, they will be deployed in that orbit, but you need thrusters anyway to maintain the orbit because you have drag from the upper atmosphere there.",
+  "zh": "最后，它们将被部署在那个轨道中，但无论如何你需要推进器来维持轨道，因为你有来自那里高层大气的阻力。"
+ },
+ {
+  "seg": 147,
+  "start": 582.504,
+  "end": 585.969,
+  "speaker": "Unknown",
+  "en": "What are the engineering and physics trade-offs you have to make this happen?",
+  "zh": "你必须做出什么样的工程和物理权衡才能实现这一点？"
+ },
+ {
+  "seg": 148,
+  "start": 585.989,
+  "end": 596.464,
+  "speaker": "Unknown",
+  "en": "Because what you basically are doing with StarCloud is you're getting infinite energy because the sun is basically the natural fusion reactors, just a giant mass that...",
+  "zh": "因为你在 StarCloud 上基本上做的就是你获得了无限的能量，因为太阳基本上是天然的聚变反应堆，只是一个巨大的质量体……"
+ },
+ {
+  "seg": 149,
+  "start": 597.506,
+  "end": 604.732,
+  "speaker": "Unknown",
+  "en": "generates a nuclear reaction with the giant mass, and you have infinite energy, basically abundant, and lots of space.",
+  "zh": "通过巨大的质量产生核反应，而且你有无限的能量，基本上是丰富的，和大量的空间。"
+ },
+ {
+  "seg": 150,
+  "start": 605.272,
+  "end": 615.039,
+  "speaker": "Unknown",
+  "en": "But as a result of that, which we're constrained of that in Earth, you have a bunch of other really hard problems to solve, like things around interconnect, how do you send all the data back and forth back to Earth?",
+  "zh": "但正因为那个结果，也就是我们在地球上受到的那种限制，你有一堆其他非常难的问题要解决，比如关于互连的事情，你如何把所有数据来回传回地球？"
+ },
+ {
+  "seg": 151,
+  "start": 615.179,
+  "end": 616.6,
+  "speaker": "Unknown",
+  "en": "How do you handle cooling?",
+  "zh": "你如何处理散热？"
+ },
+ {
+  "seg": 152,
+  "start": 616.681,
+  "end": 622.585,
+  "speaker": "Unknown",
+  "en": "People think that space is cold, but actually there's no, unlike Earth, there's no air to circulate it back.",
+  "zh": "人们认为太空是冷的，但实际上没有，不像地球，没有空气来循环它。"
+ },
+ {
+  "seg": 153,
+  "start": 622.905,
+  "end": 624.647,
+  "speaker": "Unknown",
+  "en": "So you need some crazy solutions with...",
+  "zh": "所以你需要一些疯狂的解决方案，用……"
+ },
+ {
+  "seg": 154,
+  "start": 625.367,
+  "end": 625.687,
+  "speaker": "Unknown",
+  "en": "cooling.",
+  "zh": "散热。"
+ },
+ {
+  "seg": 155,
+  "start": 625.848,
+  "end": 630.232,
+  "speaker": "Unknown",
+  "en": "There's things around radiation to flip the bits in processors.",
+  "zh": "还有一些关于辐射导致处理器中比特翻转的事情。"
+ },
+ {
+  "seg": 156,
+  "start": 630.972,
+  "end": 635.777,
+  "speaker": "Unknown",
+  "en": "And there's probably other things around how to get the solar panels to become really big and expand.",
+  "zh": "可能还有其他关于如何让太阳能电池板变得非常大并展开的事情。"
+ },
+ {
+  "seg": 157,
+  "start": 636.497,
+  "end": 637.218,
+  "speaker": "Unknown",
+  "en": "And many more.",
+  "zh": "还有更多。"
+ },
+ {
+  "seg": 158,
+  "start": 637.238,
+  "end": 638.439,
+  "speaker": "Unknown",
+  "en": "I mean, these are the ones that I could think of.",
+  "zh": "我的意思是，这些是我能想到的。"
+ },
+ {
+  "seg": 159,
+  "start": 638.499,
+  "end": 643.864,
+  "speaker": "Unknown",
+  "en": "I mean, there's like so many things that are just so hard to build.",
+  "zh": "我的意思是，有太多事情真的很难构建。"
+ },
+ {
+  "seg": 160,
+  "start": 644.446,
+  "end": 645.287,
+  "speaker": "Unknown",
+  "en": "Yeah, you are correct.",
+  "zh": "是的，你是对的。"
+ },
+ {
+  "seg": 161,
+  "start": 645.327,
+  "end": 648.349,
+  "speaker": "Unknown",
+  "en": "There are many engineering challenges to be solved.",
+  "zh": "有许多工程挑战需要解决。"
+ },
+ {
+  "seg": 162,
+  "start": 648.409,
+  "end": 660.119,
+  "speaker": "Unknown",
+  "en": "The two biggest ones that are outstanding and most of our engineering team is split basically 50-50 down these two lines is number one, as you mentioned, how do you get rid of this heat in a vacuum?",
+  "zh": "两个最大的悬而未决的问题，我们的大部分工程团队基本上是按这两条线 50-50 分配的，第一，正如你所提到的，如何在真空中排掉这些热量？"
+ },
+ {
+  "seg": 163,
+  "start": 660.52,
+  "end": 664.263,
+  "speaker": "Unknown",
+  "en": "And then number two, how do we make the chips work in a higher radiation environment?",
+  "zh": "然后第二，我们如何让芯片在更高辐射的环境中工作？"
+ },
+ {
+  "seg": 164,
+  "start": 664.503,
+  "end": 666.345,
+  "speaker": "Unknown",
+  "en": "Some of the other problems are being solved by other people.",
+  "zh": "其他一些问题正在由其他人解决。"
+ },
+ {
+  "seg": 165,
+  "start": 666.365,
+  "end": 672.01,
+  "speaker": "Unknown",
+  "en": "The interconnect, we've just signed a contract with SpaceX for our next 20 satellites to have a Starlink laser terminal.",
+  "zh": "关于互连，我们刚与 SpaceX 签了一份合同，为我们的下 20 颗卫星配备 Starlink 激光终端。"
+ },
+ {
+  "seg": 166,
+  "start": 672.391,
+  "end": 674.693,
+  "speaker": "Unknown",
+  "en": "That gives us very high bandwidth, low latency connectivity.",
+  "zh": "这给了我们非常高的带宽、低延迟的连接。"
+ },
+ {
+  "seg": 167,
+  "start": 675.073,
+  "end": 676.495,
+  "speaker": "Unknown",
+  "en": "Other people are solving some other parts of this.",
+  "zh": "其他人正在解决这个问题的一些其他部分。"
+ },
+ {
+  "seg": 168,
+  "start": 676.895,
+  "end": 678.336,
+  "speaker": "Unknown",
+  "en": "The core ones we're solving are that.",
+  "zh": "我们解决的核心问题是那个。"
+ },
+ {
+  "seg": 169,
+  "start": 678.657,
+  "end": 681.96,
+  "speaker": "Unknown",
+  "en": "And so for the first one, for the thermal management side of things,",
+  "zh": "所以对于第一个，对于热管理方面的事情，"
+ },
+ {
+  "seg": 170,
+  "start": 683.14,
+  "end": 687.442,
+  "speaker": "Unknown",
+  "en": "We are building a very large, low-cost and low-mass deployable radiator.",
+  "zh": "我们正在构建一个非常大的、低成本和轻质量的可展开散热器。"
+ },
+ {
+  "seg": 171,
+  "start": 687.902,
+  "end": 689.602,
+  "speaker": "Unknown",
+  "en": "Now, radiators in space are not new.",
+  "zh": "现在，太空中的散热器并不是新鲜事。"
+ },
+ {
+  "seg": 172,
+  "start": 689.642,
+  "end": 692.263,
+  "speaker": "Unknown",
+  "en": "It's not a new physics solution.",
+  "zh": "这不是一个新的物理解决方案。"
+ },
+ {
+  "seg": 173,
+  "start": 692.383,
+  "end": 700.125,
+  "speaker": "Unknown",
+  "en": "It's more of a manufacturing and engineering challenge because the International Space Station has had a radiator which dissipates lots of heat already.",
+  "zh": "这更多是一个制造和工程挑战，因为国际空间站已经有一个可以散掉大量热的散热器了。"
+ },
+ {
+  "seg": 174,
+  "start": 700.606,
+  "end": 703.887,
+  "speaker": "Unknown",
+  "en": "Very similar mechanism, so a liquid-cooled loop.",
+  "zh": "非常相似的机制，也就是液冷回路。"
+ },
+ {
+  "seg": 175,
+  "start": 705.107,
+  "end": 706.867,
+  "speaker": "Unknown",
+  "en": "The challenge with it is making it cheap and light.",
+  "zh": "其中的挑战是让它变得便宜和轻。"
+ },
+ {
+  "seg": 176,
+  "start": 707.028,
+  "end": 711.669,
+  "speaker": "Unknown",
+  "en": "So our radiator is at least 10 times less mass per watt of dissipation than the ISS radiator.",
+  "zh": "所以我们的散热器每瓦散热的重量至少比国际空间站的散热器少 10 倍。"
+ },
+ {
+  "seg": 177,
+  "start": 712.429,
+  "end": 716.752,
+  "speaker": "Unknown",
+  "en": "and 500 times less cost per watt of dissipation than the ISS radiator.",
+  "zh": "每瓦散热的成本比国际空间站的散热器少 500 倍。"
+ },
+ {
+  "seg": 178,
+  "start": 717.152,
+  "end": 721.054,
+  "speaker": "Unknown",
+  "en": "So very easy benchmark to beat on cost for the ISS.",
+  "zh": "所以在成本上，要打败国际空间站的标准很容易。"
+ },
+ {
+  "seg": 179,
+  "start": 721.834,
+  "end": 725.856,
+  "speaker": "Unknown",
+  "en": "And then on radiation, it's just a lot of ground testing in different particle accelerators.",
+  "zh": "然后在辐射方面，就是在不同的粒子加速器中进行大量的地面测试。"
+ },
+ {
+  "seg": 180,
+  "start": 726.397,
+  "end": 731.319,
+  "speaker": "Unknown",
+  "en": "So we've done several rounds of testing at the Brookhaven National Lab particle accelerator for heavy ions.",
+  "zh": "所以我们已经在布鲁克海文国家实验室的粒子加速器进行了几轮重离子测试。"
+ },
+ {
+  "seg": 181,
+  "start": 731.98,
+  "end": 735.942,
+  "speaker": "Unknown",
+  "en": "And also there's a cyclotron for high-velocity protons down in Knoxville.",
+  "zh": "另外在诺克斯维尔有一个回旋加速器用于高速质子。"
+ },
+ {
+  "seg": 182,
+  "start": 736.422,
+  "end": 738.003,
+  "speaker": "Unknown",
+  "en": "So we ship all of our hardware down there.",
+  "zh": "所以我们要把所有的硬件运到那里。"
+ },
+ {
+  "seg": 183,
+  "start": 738.803,
+  "end": 742.124,
+  "speaker": "Unknown",
+  "en": "My co-founder Addy runs in and out wearing this protective thing.",
+  "zh": "我的联合创始人 Addy 穿着那个防护服跑进跑出。"
+ },
+ {
+  "seg": 184,
+  "start": 742.985,
+  "end": 745.466,
+  "speaker": "Unknown",
+  "en": "Addy is a lunatic when it comes to this stuff.",
+  "zh": "Addy 在这方面是个疯子。"
+ },
+ {
+  "seg": 185,
+  "start": 745.746,
+  "end": 747.787,
+  "speaker": "Unknown",
+  "en": "He's like, oh, yes, it's the same as flying transatlantic.",
+  "zh": "他就像，哦是的，这就像飞越大西洋一样。"
+ },
+ {
+  "seg": 186,
+  "start": 747.807,
+  "end": 749.368,
+  "speaker": "Unknown",
+  "en": "Don't worry about the radiation.",
+  "zh": "别担心辐射。"
+ },
+ {
+  "seg": 187,
+  "start": 750.128,
+  "end": 755.75,
+  "speaker": "Unknown",
+  "en": "So, yeah, basically you expose it over a 24-hour period to the same radiation dose that you would have in a five-year mission.",
+  "zh": "所以，是的，基本上你会在 24 小时内暴露它，接受相当于五年任务期间的辐射剂量。"
+ },
+ {
+  "seg": 188,
+  "start": 756.291,
+  "end": 761.473,
+  "speaker": "Unknown",
+  "en": "And then all of that telemetry and data then informs our choice on both shielding and software to mitigate bit flips.",
+  "zh": "然后所有这些遥测和数据会告知我们在屏蔽和软件方面的选择，以缓解比特翻转。"
+ },
+ {
+  "seg": 189,
+  "start": 761.733,
+  "end": 769.5,
+  "speaker": "Unknown",
+  "en": "I think we're the only people in the world now that know where both an H-100, a B-200, H-200 will fail if you blast it with high velocity protons and heavy irons.",
+  "zh": "我想我们是现在世界上唯一知道 H-100、B-200、H-200 在哪里会失效的人，如果你用高速质子和重离子轰击它们的话。"
+ },
+ {
+  "seg": 190,
+  "start": 769.82,
+  "end": 774.644,
+  "speaker": "Unknown",
+  "en": "Do you have to change any of the underlying electronics to solve the problem or you just build shielding around it?",
+  "zh": "你需要更改任何底层电子设备来解决这个问题吗，还是你只是在它周围构建屏蔽？"
+ },
+ {
+  "seg": 191,
+  "start": 774.704,
+  "end": 775.465,
+  "speaker": "Unknown",
+  "en": "Both, both.",
+  "zh": "两者都有，两者都有。"
+ },
+ {
+  "seg": 192,
+  "start": 775.965,
+  "end": 777.046,
+  "speaker": "Unknown",
+  "en": "So we do build shielding around it.",
+  "zh": "所以我们确实在它周围构建了屏蔽。"
+ },
+ {
+  "seg": 193,
+  "start": 778.547,
+  "end": 780.288,
+  "speaker": "Unknown",
+  "en": "A lot of it is just component selection.",
+  "zh": "很多时候这只是组件选择。"
+ },
+ {
+  "seg": 194,
+  "start": 780.308,
+  "end": 789.731,
+  "speaker": "Unknown",
+  "en": "So, for example, all of the SSDs, all of the power delivery system, all of the power converters and everything else, we test 10 components and whichever the best one is, we pick.",
+  "zh": "所以，例如，所有的 SSD，所有的供电系统，所有的电源转换器和其他所有东西，我们测试 10 个组件，哪个最好，我们就选哪个。"
+ },
+ {
+  "seg": 195,
+  "start": 789.851,
+  "end": 794.193,
+  "speaker": "Unknown",
+  "en": "We're trying not to use space-grade, rad-hard components.",
+  "zh": "我们试图不使用太空级、抗辐射组件。"
+ },
+ {
+  "seg": 196,
+  "start": 794.213,
+  "end": 798.374,
+  "speaker": "Unknown",
+  "en": "We're trying to use off-the-shelf, like automotive-style components because it's way cheaper.",
+  "zh": "我们试图使用现成的，像汽车级组件，因为它们要便宜得多。"
+ },
+ {
+  "seg": 197,
+  "start": 798.614,
+  "end": 800.815,
+  "speaker": "Unknown",
+  "en": "And most people have never tested those in radiation chambers.",
+  "zh": "大多数人从未在辐射室中测试过这些。"
+ },
+ {
+  "seg": 198,
+  "start": 801.043,
+  "end": 807.67,
+  "speaker": "Unknown",
+  "en": "I think that's one of the secrets of how SpaceX has actually reduced a lot of the costs of a lot of the satellites as well.",
+  "zh": "我认为这也是 SpaceX 实际上降低许多卫星成本的秘诀之一。"
+ },
+ {
+  "seg": 199,
+  "start": 807.81,
+  "end": 819.642,
+  "speaker": "Unknown",
+  "en": "They use not space-graded electronics, which would be exorbitantly very expensive, but instead you take regular components that there's a supply chain and run through all the tests and make sure if it works.",
+  "zh": "他们不使用会非常昂贵的太空级电子设备，而是采用有供应链的常规组件，并通过所有测试确保它能工作。"
+ },
+ {
+  "seg": 200,
+  "start": 819.722,
+  "end": 822.846,
+  "speaker": "Unknown",
+  "en": "And I think actually this is one of the things that Stranis...",
+  "zh": "而且我认为实际上这也是 Stranis……"
+ },
+ {
+  "seg": 201,
+  "start": 823.246,
+  "end": 828.13,
+  "speaker": "Unknown",
+  "en": "does as well, to make sure that telecommunication satellites actually work in space.",
+  "zh": "所做的事情之一，以确保通信卫星真正在太空中工作。"
+ },
+ {
+  "seg": 202,
+  "start": 828.29,
+  "end": 831.913,
+  "speaker": "Unknown",
+  "en": "Because they're also in GEO, which has more radiation.",
+  "zh": "因为它们也在 GEO，那里的辐射更多。"
+ },
+ {
+  "seg": 203,
+  "start": 832.233,
+  "end": 833.174,
+  "speaker": "Unknown",
+  "en": "Are you in GEO as well?",
+  "zh": "你们也在 GEO 吗？"
+ },
+ {
+  "seg": 204,
+  "start": 833.374,
+  "end": 834.335,
+  "speaker": "Unknown",
+  "en": "No, we're in LEO.",
+  "zh": "不，我们在 LEO。"
+ },
+ {
+  "seg": 205,
+  "start": 835.076,
+  "end": 839.679,
+  "speaker": "Unknown",
+  "en": "When you first told people that you were going to put data centers in space, what were people's reactions?",
+  "zh": "当你第一次告诉人们你要在太空部署数据中心时，人们的反应是什么？"
+ },
+ {
+  "seg": 206,
+  "start": 842.481,
+  "end": 847.723,
+  "speaker": "Unknown",
+  "en": "For a very long time, their reactions was, this is the dumbest thing I've ever heard.",
+  "zh": "在很长一段时间里，他们的反应是，这是我听过的最愚蠢的事情。"
+ },
+ {
+  "seg": 207,
+  "start": 848.543,
+  "end": 853.245,
+  "speaker": "Unknown",
+  "en": "So we actually applied to YC once and we got rejected.",
+  "zh": "所以我们实际上申请过一次 YC，然后被拒绝了。"
+ },
+ {
+  "seg": 208,
+  "start": 853.545,
+  "end": 857.606,
+  "speaker": "Unknown",
+  "en": "We then tried to raise, and we tried to raise $2 million at 10 posts on a safe.",
+  "zh": "然后我们试图融资，我们试图以 1000 万美元的估值融资 200 万美元，基于 SAFE。"
+ },
+ {
+  "seg": 209,
+  "start": 857.766,
+  "end": 860.087,
+  "speaker": "Unknown",
+  "en": "It took us three months and we got rejected from at least 100 VCs.",
+  "zh": "我们花了三个月时间，被至少 100 家 VC 拒绝了。"
+ },
+ {
+  "seg": 210,
+  "start": 860.387,
+  "end": 868.43,
+  "speaker": "Unknown",
+  "en": "And then even after YC, when we went out to raise after demo day, I think we got rejected from at least 20 VCs before we got to the first check.",
+  "zh": "甚至在 YC 之后，当我们在演示日之后出去融资时，我想我们在拿到第一张支票之前被至少 20 家 VC 拒绝了。"
+ },
+ {
+  "seg": 211,
+  "start": 870.13,
+  "end": 874.111,
+  "speaker": "Unknown",
+  "en": "Here's one of these ideas that was extremely unpopular with investors.",
+  "zh": "这是一个在投资者那里非常不受欢迎的想法。"
+ },
+ {
+  "seg": 212,
+  "start": 874.251,
+  "end": 879.913,
+  "speaker": "Unknown",
+  "en": "And if you had listened to what all the investors were telling you, you would have quit and not ever done this idea.",
+  "zh": "如果你听了所有投资者告诉你的话，你就会退出，永远不会做这个想法。"
+ },
+ {
+  "seg": 213,
+  "start": 880.613,
+  "end": 885.315,
+  "speaker": "Unknown",
+  "en": "I'm curious, why did people tell you that they were not investing and what did they get wrong?",
+  "zh": "我很好奇，为什么人们告诉你不投资，他们哪里弄错了？"
+ },
+ {
+  "seg": 214,
+  "start": 885.623,
+  "end": 888.986,
+  "speaker": "Unknown",
+  "en": "people had a hard time visualizing a world with low cost launch.",
+  "zh": "人们很难想象一个低成本发射的世界。"
+ },
+ {
+  "seg": 215,
+  "start": 890.007,
+  "end": 892.189,
+  "speaker": "Unknown",
+  "en": "And to be fair, we're still not out of the woods on that front.",
+  "zh": "公平地说，我们在那个方面还没有完全脱离困境。"
+ },
+ {
+  "seg": 216,
+  "start": 892.569,
+  "end": 896.013,
+  "speaker": "Unknown",
+  "en": "You know, lots of things need to go right with the Starship program for that to make sense.",
+  "zh": "你知道，Starship 计划需要很多事情顺利推进，这才有意义。"
+ },
+ {
+  "seg": 217,
+  "start": 896.033,
+  "end": 897.014,
+  "speaker": "Unknown",
+  "en": "So that's one thing.",
+  "zh": "所以这是第一件事。"
+ },
+ {
+  "seg": 218,
+  "start": 897.554,
+  "end": 900.016,
+  "speaker": "Unknown",
+  "en": "I think it just sounds too sci-fi and too...",
+  "zh": "我认为这听起来太科幻了，太……"
+ },
+ {
+  "seg": 219,
+  "start": 900.857,
+  "end": 904.4,
+  "speaker": "Unknown",
+  "en": "Yeah, to make this work, there's a convergence of two factors.",
+  "zh": "是的，为了让这行得通，有两个因素需要汇聚。"
+ },
+ {
+  "seg": 220,
+  "start": 904.641,
+  "end": 908.704,
+  "speaker": "Unknown",
+  "en": "One is the launch costs coming down, and people have to believe that.",
+  "zh": "一个是发射成本下降，人们必须相信这一点。 [[221] ] 第二个是，在陆地上建造东西变得难得多。"
+ },
+ {
+  "seg": 221,
+  "start": 908.904,
+  "end": 912.888,
+  "speaker": "Unknown",
+  "en": "The second is it becoming way harder to build stuff terrestrially.",
+  "zh": "第二是，在地面建设基础设施正变得极其困难。"
+ },
+ {
+  "seg": 222,
+  "start": 913.248,
+  "end": 915.651,
+  "speaker": "Unknown",
+  "en": "Maybe two years ago, that wasn't quite as obvious as it is today.",
+  "zh": "也许两年前，这还不像今天这样明显。"
+ },
+ {
+  "seg": 223,
+  "start": 915.811,
+  "end": 919.014,
+  "speaker": "Unknown",
+  "en": "Now people are like, okay, well, they've just banned building new data centers in New York.",
+  "zh": "现在人们会说，好吧，他们刚刚禁止在纽约建立新数据中心。"
+ },
+ {
+  "seg": 224,
+  "start": 919.034,
+  "end": 920.635,
+  "speaker": "Unknown",
+  "en": "They're going to ban it in like seven other states.",
+  "zh": "他们将在大约其他七个州禁止它。"
+ },
+ {
+  "seg": 225,
+  "start": 921.636,
+  "end": 925.96,
+  "speaker": "Unknown",
+  "en": "Those two things, I think, converge to make it more investable, essentially.",
+  "zh": "我认为这两件事的汇聚，使得它本质上更具可投资性。"
+ },
+ {
+  "seg": 226,
+  "start": 926.282,
+  "end": 931.423,
+  "speaker": "Unknown",
+  "en": "And I think the other thing, after hearing you explain all the engineering and physics, it actually is doable.",
+  "zh": "我认为另一件事是，在听完你解释所有的工程和物理学之后，这实际上是可行的。"
+ },
+ {
+  "seg": 227,
+  "start": 931.703,
+  "end": 933.944,
+  "speaker": "Unknown",
+  "en": "It doesn't sound like sci-fi from first principles.",
+  "zh": "从第一性原理来看，这听起来并不像科幻。"
+ },
+ {
+  "seg": 228,
+  "start": 934.344,
+  "end": 935.384,
+  "speaker": "Unknown",
+  "en": "It's actually buildable.",
+  "zh": "它实际上是可建造的。"
+ },
+ {
+  "seg": 229,
+  "start": 935.704,
+  "end": 942.586,
+  "speaker": "Unknown",
+  "en": "The reason I had confidence in it is because we had such a strong engineering team.",
+  "zh": "我对此有信心的原因是因为我们有一个非常强大的工程团队。"
+ },
+ {
+  "seg": 230,
+  "start": 942.946,
+  "end": 951.048,
+  "speaker": "Unknown",
+  "en": "So if you have the world's best space engineers saying this is possible, and to be frank, my background isn't as a space engineer.",
+  "zh": "所以如果你有世界上最好的太空工程师说这是可能的，坦率地说，我的背景不是太空工程师。"
+ },
+ {
+  "seg": 231,
+  "start": 951.609,
+  "end": 958.807,
+  "speaker": "Unknown",
+  "en": "But, you know, I have full confidence in my two co-founders, one from SpaceX, the other was building satellites for NASA, saying it's possible then, you know.",
+  "zh": "但是，你知道，我对我的两位联合创始人充满信心，一位来自 SpaceX，另一位在为 NASA 建造卫星，他们说这是可能的，那么，你知道。"
+ },
+ {
+  "seg": 232,
+  "start": 960.501,
+  "end": 985.06,
+  "speaker": "Unknown",
+  "en": "that's a it's a it's good enough for me once you had the idea and then once you're in yc how did you sort of break the problem down into like a plan for what to do obviously in software it's you think of your mvp and you launch quickly and you get feedback but hard to do that with data centers in space i have a very tangible piece of advice for all space companies the first thing every space company should do is book the first available launch they can",
+  "zh": "那对我来说这就够了。一旦你有了这个想法，一旦你进入了 YC，你是如何把这个问题分解成一个计划的，关于要做什么，显然在软件领域，你会考虑你的 MVP，你快速发布并获得反馈，但对于太空中的数据中心很难做到这一点，我对所有太空公司有一个非常具体的建议，每个太空公司应该做的第一件事就是预订他们能预订的最早的发射。"
+ },
+ {
+  "seg": 233,
+  "start": 985.92,
+  "end": 987.44,
+  "speaker": "Unknown",
+  "en": "Before they built the thing that they're going to launch.",
+  "zh": "在他们建造他们要发射的东西之前。"
+ },
+ {
+  "seg": 234,
+  "start": 987.46,
+  "end": 988.201,
+  "speaker": "Unknown",
+  "en": "Before they built the thing.",
+  "zh": "在他们建造那个东西之前。"
+ },
+ {
+  "seg": 235,
+  "start": 988.221,
+  "end": 989.781,
+  "speaker": "Unknown",
+  "en": "Before they probably even know what they're going to launch.",
+  "zh": "甚至在他们可能甚至不知道他们要发射什么之前。"
+ },
+ {
+  "seg": 236,
+  "start": 989.941,
+  "end": 993.142,
+  "speaker": "Unknown",
+  "en": "Booking a launch is such a good forcing function for a space company.",
+  "zh": "预订发射对太空公司来说是一个非常好的强制函数。"
+ },
+ {
+  "seg": 237,
+  "start": 994.142,
+  "end": 996.563,
+  "speaker": "Unknown",
+  "en": "So we founded the company January 1st, 2024.",
+  "zh": "所以我们于 2024 年 1 月 1 日创立了公司。"
+ },
+ {
+  "seg": 238,
+  "start": 997.303,
+  "end": 1001.924,
+  "speaker": "Unknown",
+  "en": "January 2nd, we booked the first available SpaceX rideshare launch.",
+  "zh": "1 月 2 日，我们预订了第一次可用的 SpaceX 拼车发射。"
+ },
+ {
+  "seg": 239,
+  "start": 1001.964,
+  "end": 1002.344,
+  "speaker": "Unknown",
+  "en": "And it was cheap.",
+  "zh": "而且很便宜。"
+ },
+ {
+  "seg": 240,
+  "start": 1002.364,
+  "end": 1003.244,
+  "speaker": "Unknown",
+  "en": "It was like 300 grand.",
+  "zh": "大概是 30 万美元。"
+ },
+ {
+  "seg": 241,
+  "start": 1003.905,
+  "end": 1005.745,
+  "speaker": "Unknown",
+  "en": "Which was how far out was the launch?",
+  "zh": "发射排期是多久以后？"
+ },
+ {
+  "seg": 242,
+  "start": 1006.145,
+  "end": 1008.628,
+  "speaker": "Unknown",
+  "en": "It was 18 months out, and then it got pushed to 21 months out.",
+  "zh": "是 18 个月后，然后它被推到了 21 个月后。"
+ },
+ {
+  "seg": 243,
+  "start": 1008.888,
+  "end": 1011.25,
+  "speaker": "Unknown",
+  "en": "And we were like, okay, something is going to be on that rocket.",
+  "zh": "我们当时想，好吧，那个火箭上会装上一些东西的。"
+ },
+ {
+  "seg": 244,
+  "start": 1011.27,
+  "end": 1015.214,
+  "speaker": "Unknown",
+  "en": "I'm not 100% sure what it's going to be at this point, but something is going to be on there.",
+  "zh": "我现在不是 100% 确定那会是什么，但会有东西在那上面。"
+ },
+ {
+  "seg": 245,
+  "start": 1015.334,
+  "end": 1016.635,
+  "speaker": "Unknown",
+  "en": "That's interesting.",
+  "zh": "这很有趣。"
+ },
+ {
+  "seg": 246,
+  "start": 1016.896,
+  "end": 1019.178,
+  "speaker": "Unknown",
+  "en": "Sounds like the same advice for all the software companies.",
+  "zh": "听起来像是给所有软件公司的同样的建议。"
+ },
+ {
+  "seg": 247,
+  "start": 1019.218,
+  "end": 1020.739,
+  "speaker": "Unknown",
+  "en": "You've just got to keep launching and launching.",
+  "zh": "你得不断地发布和发布。"
+ },
+ {
+  "seg": 248,
+  "start": 1020.759,
+  "end": 1021.28,
+  "speaker": "Unknown",
+  "en": "Same thing.",
+  "zh": "同样的事情。"
+ },
+ {
+  "seg": 249,
+  "start": 1021.3,
+  "end": 1021.5,
+  "speaker": "Unknown",
+  "en": "Yeah.",
+  "zh": "是的。"
+ },
+ {
+  "seg": 250,
+  "start": 1022.661,
+  "end": 1025.742,
+  "speaker": "Unknown",
+  "en": "And what we initially planned to launch was very unimpressive, actually.",
+  "zh": "而我们要推出的最初计划其实非常不起眼。"
+ },
+ {
+  "seg": 251,
+  "start": 1025.762,
+  "end": 1033.546,
+  "speaker": "Unknown",
+  "en": "It was like we were going to put a Jetson chip, which has been flown on many satellites before, and we were going to use it for kind of edge processing and things.",
+  "zh": "就像是我们要放一个 Jetson 芯片，这东西已经在很多卫星上用过，我们要用它来做边缘处理之类的事情。"
+ },
+ {
+  "seg": 252,
+  "start": 1033.946,
+  "end": 1037.908,
+  "speaker": "Unknown",
+  "en": "We actually had a co-founder change quite early on when we got Addy from SpaceX.",
+  "zh": "我们其实在很早的时候经历了一次联合创始人变更，那时我们招来了 SpaceX 的 Addy。"
+ },
+ {
+  "seg": 253,
+  "start": 1038.408,
+  "end": 1040.229,
+  "speaker": "Unknown",
+  "en": "Addy was like, oh, that's lame.",
+  "zh": "Addy 就说，哦，那太逊了。"
+ },
+ {
+  "seg": 254,
+  "start": 1040.349,
+  "end": 1042.249,
+  "speaker": "Unknown",
+  "en": "Like, let's put an H100 on there.",
+  "zh": "就像是，把 H100 放上去吧。"
+ },
+ {
+  "seg": 255,
+  "start": 1042.269,
+  "end": 1045.311,
+  "speaker": "Unknown",
+  "en": "We're like, Addy, you can't put H100 on a satellite.",
+  "zh": "我们就说，Addy，你不能把 H100 放到卫星上。"
+ },
+ {
+  "seg": 256,
+  "start": 1045.331,
+  "end": 1045.651,
+  "speaker": "Unknown",
+  "en": "He's like...",
+  "zh": "他说……"
+ },
+ {
+  "seg": 257,
+  "start": 1046.251,
+  "end": 1046.671,
+  "speaker": "Unknown",
+  "en": "Sure you can.",
+  "zh": "当然可以。"
+ },
+ {
+  "seg": 258,
+  "start": 1048.632,
+  "end": 1056.394,
+  "speaker": "Unknown",
+  "en": "The amount of people who said it was physically impossible to run a chip that's that power dense in orbit.",
+  "zh": "有很多人说，在轨道上运行功率密度这么高的芯片在物理上是不可能的。"
+ },
+ {
+  "seg": 259,
+  "start": 1056.434,
+  "end": 1060.815,
+  "speaker": "Unknown",
+  "en": "People just thought it was literally impossible to run data center grade GPUs on orbit.",
+  "zh": "人们就认为在轨道上运行数据中心级 GPU 根本是不可能的。"
+ },
+ {
+  "seg": 260,
+  "start": 1061.096,
+  "end": 1062.476,
+  "speaker": "Unknown",
+  "en": "What would have caused it to be impossible?",
+  "zh": "是什么会导致它变得不可能呢？"
+ },
+ {
+  "seg": 261,
+  "start": 1062.636,
+  "end": 1063.116,
+  "speaker": "Unknown",
+  "en": "There's two things.",
+  "zh": "有两件事。"
+ },
+ {
+  "seg": 262,
+  "start": 1063.236,
+  "end": 1064.677,
+  "speaker": "Unknown",
+  "en": "One is the thermal side of things.",
+  "zh": "一个是热力学方面。"
+ },
+ {
+  "seg": 263,
+  "start": 1064.737,
+  "end": 1065.878,
+  "speaker": "Unknown",
+  "en": "They're very power dense.",
+  "zh": "它们的功率密度很高。"
+ },
+ {
+  "seg": 264,
+  "start": 1065.898,
+  "end": 1066.699,
+  "speaker": "Unknown",
+  "en": "They produce a lot of heat.",
+  "zh": "它们产生很多热量。"
+ },
+ {
+  "seg": 265,
+  "start": 1066.779,
+  "end": 1070.761,
+  "speaker": "Unknown",
+  "en": "And the second is they've never been tested in the radiation environment or space.",
+  "zh": "第二个是它们从未在辐射环境或太空中测试过。"
+ },
+ {
+  "seg": 266,
+  "start": 1070.961,
+  "end": 1071.682,
+  "speaker": "Unknown",
+  "en": "And both of those...",
+  "zh": "而这两方面……"
+ },
+ {
+  "seg": 267,
+  "start": 1072.242,
+  "end": 1075.765,
+  "speaker": "Unknown",
+  "en": "So for the first one, it's kind of a wacky solution.",
+  "zh": "所以对于第一点，这是一个有点古怪的解决方案。"
+ },
+ {
+  "seg": 268,
+  "start": 1076.585,
+  "end": 1079.987,
+  "speaker": "Unknown",
+  "en": "We submerged the entire thing in this phase change material.",
+  "zh": "我们把整个东西浸没在这种相变材料中。"
+ },
+ {
+  "seg": 269,
+  "start": 1080.608,
+  "end": 1085.431,
+  "speaker": "Unknown",
+  "en": "Everything on StarCloud 1 is submerged in this phase change material.",
+  "zh": "StarCloud 1 上的所有东西都浸没在这种相变材料中。"
+ },
+ {
+  "seg": 270,
+  "start": 1085.451,
+  "end": 1088.593,
+  "speaker": "Unknown",
+  "en": "So it's like immersion cooling for all of the components, all of the...",
+  "zh": "所以这就像是针对所有组件的浸没式冷却，所有的……"
+ },
+ {
+  "seg": 271,
+  "start": 1088.993,
+  "end": 1091.034,
+  "speaker": "Unknown",
+  "en": "power delivery, memory, everything is submerged.",
+  "zh": "供电、内存，所有东西都浸没了。"
+ },
+ {
+  "seg": 272,
+  "start": 1092.395,
+  "end": 1095.037,
+  "speaker": "Unknown",
+  "en": "Like nobody's ever considered doing anything like that in space before.",
+  "zh": "以前从未有人考虑过在太空中做类似的事情。"
+ },
+ {
+  "seg": 273,
+  "start": 1095.317,
+  "end": 1096.939,
+  "speaker": "Unknown",
+  "en": "It's not a particularly scalable solution.",
+  "zh": "这不是一个特别可扩展的解决方案。"
+ },
+ {
+  "seg": 274,
+  "start": 1096.979,
+  "end": 1099.58,
+  "speaker": "Unknown",
+  "en": "It's not like you have quite a low duty cycle.",
+  "zh": "不像你有一个相当低的占空比。"
+ },
+ {
+  "seg": 275,
+  "start": 1099.6,
+  "end": 1104.204,
+  "speaker": "Unknown",
+  "en": "You have to wait for it to melt and then it solidifies every so often.",
+  "zh": "你必须等它融化，然后它每隔一段时间就会凝固。"
+ },
+ {
+  "seg": 276,
+  "start": 1104.684,
+  "end": 1107.046,
+  "speaker": "Unknown",
+  "en": "But it enables us to prove that you can run the H100 in space.",
+  "zh": "但它使我们能够证明你可以在太空中运行 H100。"
+ },
+ {
+  "seg": 277,
+  "start": 1107.846,
+  "end": 1111.729,
+  "speaker": "Unknown",
+  "en": "The next one is this directed chip liquid cooling architecture that we can run continuously.",
+  "zh": "下一个是这种定向芯片液冷架构，我们可以连续运行。"
+ },
+ {
+  "seg": 278,
+  "start": 1112.63,
+  "end": 1117.494,
+  "speaker": "Unknown",
+  "en": "But yeah, I mean, I give full credit to my co-founder, Ali, for coming out with some pretty wacky and crazy ideas.",
+  "zh": "是的，我是说，我把全部功劳归功于我的联合创始人 Ali，他想出了一些相当古怪和疯狂的想法。"
+ },
+ {
+  "seg": 279,
+  "start": 1118.035,
+  "end": 1125.862,
+  "speaker": "Unknown",
+  "en": "To get to a data center that's commercial scale, where you can actually make money on it, it's actually profitable, it's going to require many steps.",
+  "zh": "要达到商业规模的数据中心，在那里你实际上可以赚钱，它是盈利的，这需要很多步骤。"
+ },
+ {
+  "seg": 280,
+  "start": 1126.162,
+  "end": 1129.345,
+  "speaker": "Unknown",
+  "en": "How did you think about sequencing out the journey to get there?",
+  "zh": "你是如何规划实现这一目标的旅程的步骤顺序的？"
+ },
+ {
+  "seg": 281,
+  "start": 1129.645,
+  "end": 1135.969,
+  "speaker": "Unknown",
+  "en": "So as I say, first step was book whatever the first launch lowest MVP we can have available.",
+  "zh": "正如我所说，第一步是预订第一次发射，我们可以拥有的最低 MVP。"
+ },
+ {
+  "seg": 282,
+  "start": 1136.59,
+  "end": 1142.193,
+  "speaker": "Unknown",
+  "en": "Second step is producing something which is a product we can sell to customers.",
+  "zh": "第二步是生产一种我们可以卖给客户的产品。"
+ },
+ {
+  "seg": 283,
+  "start": 1142.213,
+  "end": 1143.594,
+  "speaker": "Unknown",
+  "en": "So that's StarCloud 2.",
+  "zh": "所以这就是 StarCloud 2。"
+ },
+ {
+  "seg": 284,
+  "start": 1143.634,
+  "end": 1148.197,
+  "speaker": "Unknown",
+  "en": "That's a 10 kilowatt spacecraft that we can sell, compute to government and military satellites.",
+  "zh": "这是一个 10 千瓦的航天器，我们可以把计算能力卖给政府和军事卫星。"
+ },
+ {
+  "seg": 285,
+  "start": 1148.777,
+  "end": 1154.401,
+  "speaker": "Unknown",
+  "en": "And then the third step is the product that we're going to be able to sell to hyperscale data centers.",
+  "zh": "然后第三步是我们将能够卖给超大规模数据中心的产品。"
+ },
+ {
+  "seg": 286,
+  "start": 1154.441,
+  "end": 1155.542,
+  "speaker": "Unknown",
+  "en": "So that's the StarCloud 3 product.",
+  "zh": "所以这就是 StarCloud 3 产品。"
+ },
+ {
+  "seg": 287,
+  "start": 1156.322,
+  "end": 1160.084,
+  "speaker": "Unknown",
+  "en": "We can, it's 200 kilowatt, three ton spacecraft, about six meters long.",
+  "zh": "它是 200 千瓦、3 吨重的航天器，大约 6 米长。"
+ },
+ {
+  "seg": 288,
+  "start": 1160.404,
+  "end": 1162.565,
+  "speaker": "Unknown",
+  "en": "With that, we can fit 50 of them per starship.",
+  "zh": "有了那个，我们每艘星舰可以装 50 个。"
+ },
+ {
+  "seg": 289,
+  "start": 1162.585,
+  "end": 1165.106,
+  "speaker": "Unknown",
+  "en": "So about 10 megawatts of new compute capacity per starship.",
+  "zh": "所以每艘星舰大约 10 兆瓦的新计算能力。"
+ },
+ {
+  "seg": 290,
+  "start": 1165.726,
+  "end": 1169.108,
+  "speaker": "Unknown",
+  "en": "And we've just filed with the FCC for a constellation of 88,000 of those.",
+  "zh": "我们刚刚向 FCC 申请了一个由 88,000 个这样的航天器组成的星座。"
+ },
+ {
+  "seg": 291,
+  "start": 1169.168,
+  "end": 1172.309,
+  "speaker": "Unknown",
+  "en": "So that means on the order of 20 gigawatts of new compute capacity.",
+  "zh": "所以这意味着大约 20 吉瓦的新计算能力。"
+ },
+ {
+  "seg": 292,
+  "start": 1172.769,
+  "end": 1172.949,
+  "speaker": "Unknown",
+  "en": "Wow.",
+  "zh": "哇。"
+ },
+ {
+  "seg": 293,
+  "start": 1172.989,
+  "end": 1176.851,
+  "speaker": "Unknown",
+  "en": "And we can fit up to 10 terawatts in the Dawn Dust Sun synchronous orbit.",
+  "zh": "我们可以在 Dawn Dust 太阳同步轨道中容纳高达 10 太瓦。"
+ },
+ {
+  "seg": 294,
+  "start": 1176.871,
+  "end": 1178.872,
+  "speaker": "Unknown",
+  "en": "So that's like 20 times the entire US power grid.",
+  "zh": "所以这就像是整个美国电网的 20 倍。"
+ },
+ {
+  "seg": 295,
+  "start": 1179.208,
+  "end": 1182.934,
+  "speaker": "Unknown",
+  "en": "For context, what's the largest data center deployment on Earth?",
+  "zh": "作为背景，地球上最大的数据中心部署是多少？"
+ },
+ {
+  "seg": 296,
+  "start": 1183.114,
+  "end": 1185.618,
+  "speaker": "Unknown",
+  "en": "Because you're talking about 22 gigawatts.",
+  "zh": "因为你提到了 22 吉瓦。"
+ },
+ {
+  "seg": 297,
+  "start": 1185.898,
+  "end": 1186.739,
+  "speaker": "Unknown",
+  "en": "Oh, my God.",
+  "zh": "哦，我的天。"
+ },
+ {
+  "seg": 298,
+  "start": 1186.819,
+  "end": 1188.242,
+  "speaker": "Unknown",
+  "en": "What's the largest one here on Earth today?",
+  "zh": "今天地球上最大的一个是多少？"
+ },
+ {
+  "seg": 299,
+  "start": 1188.662,
+  "end": 1190.926,
+  "speaker": "Unknown",
+  "en": "They're about a gigawatt is the largest.",
+  "zh": "它们大约是 1 吉瓦，这是最大的。"
+ },
+ {
+  "seg": 300,
+  "start": 1191.126,
+  "end": 1193.85,
+  "speaker": "Unknown",
+  "en": "What's the timetable for all of this to become real?",
+  "zh": "所有这些成为现实的时间表是什么？"
+ },
+ {
+  "seg": 301,
+  "start": 1194.111,
+  "end": 1196.412,
+  "speaker": "Unknown",
+  "en": "Yeah, it's very dependent on the launch cost.",
+  "zh": "是的，这非常依赖于发射成本。"
+ },
+ {
+  "seg": 302,
+  "start": 1196.692,
+  "end": 1202.335,
+  "speaker": "Unknown",
+  "en": "And so, you know, the estimates for Starship, if you believe Elon, it'll be end of this year.",
+  "zh": "所以，你知道，对于 Starship 的估算，如果你相信 Elon，它会在今年年底。"
+ },
+ {
+  "seg": 303,
+  "start": 1202.355,
+  "end": 1210.84,
+  "speaker": "Unknown",
+  "en": "But let's say it could be end of next year, early 2028 for Starship deploying, you know, ramping up the launch cadence.",
+  "zh": "但假设它可能是明年年底，2028 年早些时候，Starship 投入部署，你知道，提升发射频率。"
+ },
+ {
+  "seg": 304,
+  "start": 1211.2,
+  "end": 1212.741,
+  "speaker": "Unknown",
+  "en": "They're actually phasing out Falcon 9.",
+  "zh": "他们实际上正在逐步淘汰 Falcon 9。"
+ },
+ {
+  "seg": 305,
+  "start": 1212.781,
+  "end": 1215.482,
+  "speaker": "Unknown",
+  "en": "So they're going to be moving over commercial customers to Starship.",
+  "zh": "所以他们将会把商业客户转移到 Starship 上。"
+ },
+ {
+  "seg": 306,
+  "start": 1215.762,
+  "end": 1217.743,
+  "speaker": "Unknown",
+  "en": "There's also a whole bunch of other launch vehicles coming in line.",
+  "zh": "还有一整排其他的运载火箭正在排队。"
+ },
+ {
+  "seg": 307,
+  "start": 1217.763,
+  "end": 1219.825,
+  "speaker": "Unknown",
+  "en": "Stokes Base has the Nova rocket.",
+  "zh": "Stokes Base 拥有 Nova 火箭。"
+ },
+ {
+  "seg": 308,
+  "start": 1220.485,
+  "end": 1221.886,
+  "speaker": "Unknown",
+  "en": "Rocket Lab has Neutron.",
+  "zh": "Rocket Lab 有 Neutron。"
+ },
+ {
+  "seg": 309,
+  "start": 1222.066,
+  "end": 1224.527,
+  "speaker": "Unknown",
+  "en": "Blue Origin has New Glenn.",
+  "zh": "Blue Origin 有 New Glenn。"
+ },
+ {
+  "seg": 310,
+  "start": 1224.628,
+  "end": 1230.971,
+  "speaker": "Unknown",
+  "en": "So end of 2028, I'd say, is when we're starting to ramp up for the terrestrial business, competing with terrestrial data centers.",
+  "zh": "所以 2028 年底，我想说的是，当我们开始为地面业务 ramp up，与地面数据中心竞争的时候。"
+ },
+ {
+  "seg": 311,
+  "start": 1231.412,
+  "end": 1233.733,
+  "speaker": "Unknown",
+  "en": "So your customers are actually anyone who wants compute.",
+  "zh": "所以你的客户实际上是任何想要计算的人。"
+ },
+ {
+  "seg": 312,
+  "start": 1234.093,
+  "end": 1235.214,
+  "speaker": "Unknown",
+  "en": "And then initially...",
+  "zh": "然后最初……"
+ },
+ {
+  "seg": 313,
+  "start": 1235.534,
+  "end": 1236.795,
+  "speaker": "Unknown",
+  "en": "Initially, it's government and military.",
+  "zh": "最初，是政府和军方。"
+ },
+ {
+  "seg": 314,
+  "start": 1236.955,
+  "end": 1244.7,
+  "speaker": "Unknown",
+  "en": "But then as Starship ramps up, so for the next two, three years, we've just won four contracts with various DOW and government entities.",
+  "zh": "但随后随着 Starship 的 ramp up，所以在接下来的两三年里，我们刚刚赢得了与各个 DOW 和政府实体的四份合同。"
+ },
+ {
+  "seg": 315,
+  "start": 1245.095,
+  "end": 1251.259,
+  "speaker": "Unknown",
+  "en": "And then initially also, it's people who want that compute actually for other purposes in space then.",
+  "zh": "然后最初也是，是那些实际上想要那个计算用于太空其他目的的人。"
+ },
+ {
+  "seg": 316,
+  "start": 1251.439,
+  "end": 1251.939,
+  "speaker": "Unknown",
+  "en": "Is that right?",
+  "zh": "对吗？"
+ },
+ {
+  "seg": 317,
+  "start": 1252.139,
+  "end": 1252.7,
+  "speaker": "Unknown",
+  "en": "Yeah, exactly.",
+  "zh": "是的，正是。"
+ },
+ {
+  "seg": 318,
+  "start": 1253.14,
+  "end": 1256.682,
+  "speaker": "Unknown",
+  "en": "So right now, many satellites are very constrained with the amount of data they can downlink.",
+  "zh": "所以现在，许多卫星在它们可以下传的数据量方面非常受限。"
+ },
+ {
+  "seg": 319,
+  "start": 1257.262,
+  "end": 1260.724,
+  "speaker": "Unknown",
+  "en": "And so using optical terminals, we'll have three optical terminals on our second satellite.",
+  "zh": "因此使用光端机，我们将在我们的第二颗卫星上安装三个光端机。"
+ },
+ {
+  "seg": 320,
+  "start": 1260.804,
+  "end": 1267.428,
+  "speaker": "Unknown",
+  "en": "They can ship enormous amounts of raw satellite imagery and SAR data, synthetic aperture radar data, to us.",
+  "zh": "它们可以向我们传输海量的原始卫星图像和 SAR 数据，合成孔径雷达数据。"
+ },
+ {
+  "seg": 321,
+  "start": 1267.949,
+  "end": 1272.311,
+  "speaker": "Unknown",
+  "en": "We then process that on orbit, and then we can just downlink very quickly the insight from that.",
+  "zh": "我们随后在轨道上处理这些数据，然后我们可以非常快速地下传从中获得的洞察。"
+ },
+ {
+  "seg": 322,
+  "start": 1272.331,
+  "end": 1273.092,
+  "speaker": "Unknown",
+  "en": "And the insight might be",
+  "zh": "而那个洞察可能是"
+ },
+ {
+  "seg": 323,
+  "start": 1273.792,
+  "end": 1276.135,
+  "speaker": "Unknown",
+  "en": "the coordinates of a vessel or something like that.",
+  "zh": "一艘船的坐标之类的东西。"
+ },
+ {
+  "seg": 324,
+  "start": 1276.515,
+  "end": 1291.551,
+  "speaker": "Unknown",
+  "en": "In terms of NVIDIA, I mean, are you, how are you partnering with them around chip design and, you know, are there changes that you have to make to the design to, I mean, as you reach scale, like being, making it more radiation resistant or, you know, what does that look like?",
+  "zh": "关于 NVIDIA，我是说，你们是，你们是如何围绕芯片设计与他们合作的，你知道，你们是否必须对设计做一些修改，我是说，当你们达到规模，比如使其更具抗辐射性，或者你知道，那看起来是什么样的？"
+ },
+ {
+  "seg": 325,
+  "start": 1291.946,
+  "end": 1294.307,
+  "speaker": "Unknown",
+  "en": "Yeah, so we're working very closely with NVIDIA.",
+  "zh": "是的，所以我们正在与 NVIDIA 紧密合作。"
+ },
+ {
+  "seg": 326,
+  "start": 1294.887,
+  "end": 1300.269,
+  "speaker": "Unknown",
+  "en": "We recently announced this space Reuben 1 chip that we're working with them on.",
+  "zh": "我们最近宣布了我们正在与他们合作的这个 space Reuben 1 芯片。"
+ },
+ {
+  "seg": 327,
+  "start": 1300.309,
+  "end": 1303.13,
+  "speaker": "Unknown",
+  "en": "So that's designed for the space environment.",
+  "zh": "所以那是为太空环境设计的。"
+ },
+ {
+  "seg": 328,
+  "start": 1303.411,
+  "end": 1306.672,
+  "speaker": "Unknown",
+  "en": "We very heavily modified the H100 to make it work in space.",
+  "zh": "我们非常重度地修改了 H100 以使其能在太空中工作。"
+ },
+ {
+  "seg": 329,
+  "start": 1306.712,
+  "end": 1316.856,
+  "speaker": "Unknown",
+  "en": "So on the mass side of things, we stripped out a lot of things like the AC to DC converters, the cold plates, and everything else we stripped out.",
+  "zh": "所以在质量方面，我们剥离了许多东西，比如交流到直流转换器、冷板，以及其他所有东西我们都剥离了。"
+ },
+ {
+  "seg": 330,
+  "start": 1317.196,
+  "end": 1319.217,
+  "speaker": "Unknown",
+  "en": "And then we stiffened the board and made it radiation tolerant.",
+  "zh": "然后我们加固了电路板并使其具有辐射容限。"
+ },
+ {
+  "seg": 331,
+  "start": 1319.817,
+  "end": 1328.28,
+  "speaker": "Unknown",
+  "en": "So because of that, they're very interested in whether any people basically have any data on how one of these high-powered GPUs operates in space.",
+  "zh": "正因为如此，他们非常有兴趣基本上是否有任何人关于这些高端 GPU 之一如何在太空中运作的任何数据。"
+ },
+ {
+  "seg": 332,
+  "start": 1328.36,
+  "end": 1332.182,
+  "speaker": "Unknown",
+  "en": "So yeah, we're working with them very closely on designing this new space chip.",
+  "zh": "所以是的，我们正在与他们在设计这个新的太空芯片上非常紧密地合作。"
+ },
+ {
+  "seg": 333,
+  "start": 1332.382,
+  "end": 1338.124,
+  "speaker": "Unknown",
+  "en": "Because you can actually do very simple things to make these chips way more effective to run in space.",
+  "zh": "因为你实际上可以做非常简单的事情来使这些芯片在太空运行时更有效。"
+ },
+ {
+  "seg": 334,
+  "start": 1338.144,
+  "end": 1339.084,
+  "speaker": "Unknown",
+  "en": "And so that's what we're doing.",
+  "zh": "所以这就是我们正在做的。"
+ },
+ {
+  "seg": 335,
+  "start": 1339.404,
+  "end": 1342.285,
+  "speaker": "Unknown",
+  "en": "YC's next batch is now taking applications.",
+  "zh": "YC 的下一批次现在正在接受申请。"
+ },
+ {
+  "seg": 336,
+  "start": 1342.485,
+  "end": 1343.526,
+  "speaker": "Unknown",
+  "en": "Got a startup in you?",
+  "zh": "你心里有个初创公司吗？"
+ },
+ {
+  "seg": 337,
+  "start": 1343.846,
+  "end": 1346.367,
+  "speaker": "Unknown",
+  "en": "Apply at ycombinator.com slash apply.",
+  "zh": "在 ycombinator.com/apply 申请。"
+ },
+ {
+  "seg": 338,
+  "start": 1346.847,
+  "end": 1350.85,
+  "speaker": "Unknown",
+  "en": "It's never too early, and filling out the app will level up your idea.",
+  "zh": "永远不会太早，填写申请表会让你的想法提升一个层次。"
+ },
+ {
+  "seg": 339,
+  "start": 1351.29,
+  "end": 1352.671,
+  "speaker": "Unknown",
+  "en": "Okay, back to the video.",
+  "zh": "好的，回到视频。"
+ },
+ {
+  "seg": 340,
+  "start": 1352.871,
+  "end": 1365.519,
+  "speaker": "Unknown",
+  "en": "I think the thing of getting GPUs to now natively run on DC, you avoid the whole conversion of energy AC-DC because that's what makes solar panels not as efficient, is the whole conversion.",
+  "zh": "我认为让 GPU 现在原生运行在 DC 上这件事，你避免了能量交流-直流的整个转换，因为正是那个转换使得太阳能板不那么高效，就是那个整个转换过程。"
+ },
+ {
+  "seg": 341,
+  "start": 1365.579,
+  "end": 1367.28,
+  "speaker": "Unknown",
+  "en": "It loses a lot of power, which is very clever.",
+  "zh": "它会损失很多电力，这非常聪明。"
+ },
+ {
+  "seg": 342,
+  "start": 1367.32,
+  "end": 1376.586,
+  "speaker": "Unknown",
+  "en": "Yeah, and our solar panels generate DC immediately, so there's no point doing... We just need DC-to-DC converters, but that's much better than AC-to-DC converters.",
+  "zh": "是的，而且我们的太阳能板直接产生直流电，所以没有意义去做……我们只需要直流到直流转换器，但这比交流到直流转换器好得多。"
+ },
+ {
+  "seg": 343,
+  "start": 1376.75,
+  "end": 1383.098,
+  "speaker": "Unknown",
+  "en": "So you could unlock a bunch of companies also just building DPU data centers using solar power, period.",
+  "zh": "所以你也可以解锁一大批公司，只是建立使用太阳能的 DPU 数据中心，就这样。"
+ },
+ {
+  "seg": 344,
+  "start": 1383.158,
+  "end": 1385.221,
+  "speaker": "Unknown",
+  "en": "Whether in space, under the water, or on Earth.",
+  "zh": "无论是在太空、水下，还是在地球上。"
+ },
+ {
+  "seg": 345,
+  "start": 1385.722,
+  "end": 1389.306,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, yeah, actually, people can definitely use this tech for other things, yeah.",
+  "zh": "是的，我是说，是的，实际上，人们绝对可以将这项技术用于其他事情，是的。"
+ },
+ {
+  "seg": 346,
+  "start": 1389.326,
+  "end": 1391.249,
+  "speaker": "Unknown",
+  "en": "Can you talk about StarCloud 2 a little bit more?",
+  "zh": "你能多谈谈 StarCloud 2 吗？"
+ },
+ {
+  "seg": 347,
+  "start": 1391.269,
+  "end": 1393.612,
+  "speaker": "Unknown",
+  "en": "Like, is there actually a Bitcoin miner in there as well?",
+  "zh": "比如，那里真的有一个比特币矿机吗？"
+ },
+ {
+  "seg": 348,
+  "start": 1394.953,
+  "end": 1419.76,
+  "speaker": "Unknown",
+  "en": "yes we will be flying a bitcoin mining asic next next year which the crypto community is very excited about there's much more enthusiasm than i was expecting to be honest about that so that was a good narrative the number of people that want me to launch starcoin you have no idea there is actually a starcloud meme coin i think out there yeah don't buy it it's not official do not buy the starcloud meme coin",
+  "zh": "是的，我们将在明年把一个比特币挖掘 ASIC 送上天，加密社区对此非常兴奋，实际上比我所预期的热情要高得多，所以这是一个很好的叙事，想让我发射 starcoin 的人数不胜数你无法想象，那里实际上有一个 starcloud 币模因币，我想是的，是的，不要买它，它不是官方的，不要购买 starcloud 模因币"
+ },
+ {
+  "seg": 349,
+  "start": 1420.12,
+  "end": 1420.641,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 350,
+  "start": 1421.281,
+  "end": 1425.004,
+  "speaker": "Unknown",
+  "en": "So yeah, we'll be launching, we'll have one of those on there.",
+  "zh": "所以是的，我们将发布，我们在那上面会有一个。"
+ },
+ {
+  "seg": 351,
+  "start": 1425.125,
+  "end": 1428.407,
+  "speaker": "Unknown",
+  "en": "We'll have a whole bunch more H100s, Blackwatcher.",
+  "zh": "我们会有更多的 H100，Blackwatcher。"
+ },
+ {
+  "seg": 352,
+  "start": 1429.188,
+  "end": 1432.811,
+  "speaker": "Unknown",
+  "en": "We're also partnering with AWS on launching the Outpost hardware.",
+  "zh": "我们也在与 AWS 合作推出 Outpost 硬件。"
+ },
+ {
+  "seg": 353,
+  "start": 1432.831,
+  "end": 1437.375,
+  "speaker": "Unknown",
+  "en": "That's their on-premises server blade that they give to customers to run a local instance of VC2.",
+  "zh": "那是他们给客户的本地服务器刀片，用来运行 VC2 的本地实例。"
+ },
+ {
+  "seg": 354,
+  "start": 1437.936,
+  "end": 1440.398,
+  "speaker": "Unknown",
+  "en": "And that will be useful for, particularly for our military customers.",
+  "zh": "这将非常有用，特别是对我们的军事客户。"
+ },
+ {
+  "seg": 355,
+  "start": 1440.608,
+  "end": 1449.66,
+  "speaker": "Unknown",
+  "en": "Something we were talking about earlier is at YC, we just observed over the last few years, it's been quite hard for hard tech companies to raise funding in general.",
+  "zh": "我们之前谈到过的一点是，在 YC，我们只是在过去几年里观察到，硬科技公司总的来说很难筹集资金。"
+ },
+ {
+  "seg": 356,
+  "start": 1449.7,
+  "end": 1451.282,
+  "speaker": "Unknown",
+  "en": "There's not been much investor appetite for it.",
+  "zh": "投资人对这方面的胃口一直不大。"
+ },
+ {
+  "seg": 357,
+  "start": 1451.603,
+  "end": 1454.006,
+  "speaker": "Unknown",
+  "en": "It certainly seems to have changed over the last six months.",
+  "zh": "这在过去六个月里似乎肯定已经改变了。"
+ },
+ {
+  "seg": 358,
+  "start": 1455.168,
+  "end": 1457.871,
+  "speaker": "Unknown",
+  "en": "From your perspective, I'm curious, how was it raising...",
+  "zh": "从你的角度来看，我很好奇，在 YC 期间筹集种子轮以及后来从 Benchmark 筹集这轮巨额融资是怎样的……"
+ },
+ {
+  "seg": 359,
+  "start": 1458.412,
+  "end": 1464.543,
+  "speaker": "Unknown",
+  "en": "the seed round during YC and then this huge round you raised from Benchmark.",
+  "zh": "也许可以告诉我们这背后的内幕故事，这一切是如何走到一起的，以及作为今天的硬科技创始人筹钱感觉如何。"
+ },
+ {
+  "seg": 360,
+  "start": 1464.563,
+  "end": 1471.615,
+  "speaker": "Unknown",
+  "en": "Just sort of maybe tell us the inside story of kind of how that all came together and what it feels like being a hard tech founder raising money today.",
+  "zh": "所以当我们最初在 2023 年底筹集时，我们试图以 1000 万美元投后估值筹集 200 万美元。"
+ },
+ {
+  "seg": 361,
+  "start": 1472.191,
+  "end": 1477.837,
+  "speaker": "Unknown",
+  "en": "So when we first raised end of 2023, we tried to raise $2 million at 10 post.",
+  "zh": "是的，那花了三个月才凑齐。"
+ },
+ {
+  "seg": 362,
+  "start": 1477.917,
+  "end": 1480.419,
+  "speaker": "Unknown",
+  "en": "And yeah, that took three months to get together.",
+  "zh": "大约有 100 家 VC 说不。"
+ },
+ {
+  "seg": 363,
+  "start": 1480.439,
+  "end": 1481.901,
+  "speaker": "Unknown",
+  "en": "About 100 VCs said no.",
+  "zh": "是的，深科技、硬科技和太空在当时绝对不是一件值得投资的酷事。"
+ },
+ {
+  "seg": 364,
+  "start": 1482.241,
+  "end": 1486.185,
+  "speaker": "Unknown",
+  "en": "Yeah, deep tech and hard tech and space were definitely not a cool thing to invest in back then.",
+  "zh": "然后在 YC 之后，是的，我们花了相当长的时间才筹集到。"
+ },
+ {
+  "seg": 365,
+  "start": 1486.645,
+  "end": 1491.15,
+  "speaker": "Unknown",
+  "en": "Then after YC, yeah, it took us quite a while to raise.",
+  "zh": "所以我想我们在拿到第一张……"
+ },
+ {
+  "seg": 366,
+  "start": 1491.19,
+  "end": 1494.092,
+  "speaker": "Unknown",
+  "en": "So I think we got rejected from at least 20 VCs before we got our first...",
+  "zh": "在演示日筹款的第一张支票之前，我们被至少 20 家 VC 拒绝了，从那时起情况绝对好转了，为深科技筹钱变得容易多了，我认为我想有几个原因，一个是人们认为软件不再有护城河了，我认为这可能是准确的"
+ },
+ {
+  "seg": 367,
+  "start": 1494.813,
+  "end": 1510.795,
+  "speaker": "Unknown",
+  "en": "first check on the demo day raise and things have definitely swung around since then it's become a lot uh easier to raise for deep tech i think i think a number of reasons for that one is people think that software doesn't have a moat anymore which i think is probably accurate",
+  "zh": "那种群体，这很有趣，就像群体思维刚刚切换了，对我来说这发生得非常快。"
+ },
+ {
+  "seg": 368,
+  "start": 1511.175,
+  "end": 1515.356,
+  "speaker": "Unknown",
+  "en": "That sort of hive, it's funny, like the hive mind just switched, like, it seemed to me like very quickly.",
+  "zh": "就像是那些 SaaS 股票，像 Claude Code 出来了，SaaS 股票，上市公司股票都下跌了。"
+ },
+ {
+  "seg": 369,
+  "start": 1515.496,
+  "end": 1520.277,
+  "speaker": "Unknown",
+  "en": "It was just like the SaaS stocks, like Claude Code came out, SaaS stocks, public company stocks all went down.",
+  "zh": "然后突然就像是，我认为这是我所见过的公共市场……"
+ },
+ {
+  "seg": 370,
+  "start": 1520.297,
+  "end": 1529.88,
+  "speaker": "Unknown",
+  "en": "And then suddenly it like was, I think the like fastest I've seen sort of things in the public markets, like directly affect Demo Day, where suddenly everyone's like, oh, like we need to like invest in hard tech now.",
+  "zh": "最快直接影响演示日的事情之一，突然每个人都像是，噢，我们现在需要投资硬科技了。"
+ },
+ {
+  "seg": 371,
+  "start": 1530.221,
+  "end": 1531.862,
+  "speaker": "Unknown",
+  "en": "Yeah, that's fascinating, yeah.",
+  "zh": "是的，这很迷人，是的。"
+ },
+ {
+  "seg": 372,
+  "start": 1532.222,
+  "end": 1534.764,
+  "speaker": "Unknown",
+  "en": "I think people are just much more open to investing in hard tech now.",
+  "zh": "我认为现在人们对投资硬科技开放得多了。"
+ },
+ {
+  "seg": 373,
+  "start": 1535.004,
+  "end": 1537.706,
+  "speaker": "Unknown",
+  "en": "Yeah, like I think we were the first space investment benchmark we've done.",
+  "zh": "是的，我想我们是 Benchmark 做的第一笔太空投资。"
+ },
+ {
+  "seg": 374,
+  "start": 1537.927,
+  "end": 1540.889,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, whatever you can share, like how did that round kind of come together?",
+  "zh": "是的，我的意思是，无论你能分享什么，比如那一轮是怎么谈成的？"
+ },
+ {
+  "seg": 375,
+  "start": 1540.989,
+  "end": 1545.412,
+  "speaker": "Unknown",
+  "en": "And again, what do you think sort of benchmark saw in you guys?",
+  "zh": "再问一次，你认为 Benchmark 在你们身上看到了什么？"
+ },
+ {
+  "seg": 376,
+  "start": 1545.732,
+  "end": 1549.094,
+  "speaker": "Unknown",
+  "en": "So to be frank, that round wasn't as easy as it looks from the outside.",
+  "zh": "坦白地说，那一轮并不像外界看起来那么容易。"
+ },
+ {
+  "seg": 377,
+  "start": 1550.414,
+  "end": 1553.176,
+  "speaker": "Unknown",
+  "en": "There's a lot of VCs that have big SpaceX positions, for one thing.",
+  "zh": "很多 VC 持有大量 SpaceX 仓位，这是一方面。"
+ },
+ {
+  "seg": 378,
+  "start": 1553.916,
+  "end": 1558.078,
+  "speaker": "Unknown",
+  "en": "And SpaceX, midway through the round, came out saying they're doing exactly what we're doing.",
+  "zh": "SpaceX 在那一轮融资的中途宣布，他们正在做我们正在做的完全一样的事情。"
+ },
+ {
+  "seg": 379,
+  "start": 1558.138,
+  "end": 1559.139,
+  "speaker": "Unknown",
+  "en": "And it wasn't public then.",
+  "zh": "而且那时候那还不是公开的。"
+ },
+ {
+  "seg": 380,
+  "start": 1559.619,
+  "end": 1564.342,
+  "speaker": "Unknown",
+  "en": "And so anybody with a conflict policy then was like, OK, we're conflicted out.",
+  "zh": "所以任何有冲突政策的人都会说，好吧，我们有冲突，退出了。"
+ },
+ {
+  "seg": 381,
+  "start": 1564.942,
+  "end": 1568.724,
+  "speaker": "Unknown",
+  "en": "But towards the end of the round, it certainly came together much faster.",
+  "zh": "但在那一轮的后期，它确实快得多了。"
+ },
+ {
+  "seg": 382,
+  "start": 1568.824,
+  "end": 1569.084,
+  "speaker": "Unknown",
+  "en": "I think...",
+  "zh": "我认为……"
+ },
+ {
+  "seg": 383,
+  "start": 1570.825,
+  "end": 1572.447,
+  "speaker": "Unknown",
+  "en": "To be frank, I don't think...",
+  "zh": "坦白说，我不认为……"
+ },
+ {
+  "seg": 384,
+  "start": 1572.467,
+  "end": 1573.588,
+  "speaker": "Unknown",
+  "en": "So Chathan is our partner.",
+  "zh": "Chathan 是我们的合伙人。"
+ },
+ {
+  "seg": 385,
+  "start": 1573.808,
+  "end": 1575.05,
+  "speaker": "Unknown",
+  "en": "Chathan's awesome.",
+  "zh": "Chathan 很棒。"
+ },
+ {
+  "seg": 386,
+  "start": 1575.31,
+  "end": 1576.351,
+  "speaker": "Unknown",
+  "en": "Amazing investor.",
+  "zh": "惊人的投资人。"
+ },
+ {
+  "seg": 387,
+  "start": 1576.511,
+  "end": 1577.573,
+  "speaker": "Unknown",
+  "en": "Yeah, he's great.",
+  "zh": "是的，他很棒。"
+ },
+ {
+  "seg": 388,
+  "start": 1577.993,
+  "end": 1585.121,
+  "speaker": "Unknown",
+  "en": "I think basically he saw a really, really strong technical team doing something that, if it worked, could be incredible.",
+  "zh": "我认为基本上他看到了一个非常非常强大的技术团队正在做一件事，如果成功了，可能会是不可思议的。"
+ },
+ {
+  "seg": 389,
+  "start": 1586.102,
+  "end": 1586.322,
+  "speaker": "Unknown",
+  "en": "And...",
+  "zh": "而且……"
+ },
+ {
+  "seg": 390,
+  "start": 1587.283,
+  "end": 1598.587,
+  "speaker": "Unknown",
+  "en": "I think when he came to visit us, he spent a lot of time doing DD on other things, on the backgrounds of all of our... We've got the best... We literally have the best freaking engineering team in the world in Redmond building this stuff.",
+  "zh": "我认为当他来拜访我们时，他花了很多时间做尽职调查，调查其他事情，调查我们所有……我们拥有最好的……我们在雷德蒙德真的拥有世界上最好的该死的工程团队在建造这东西。"
+ },
+ {
+  "seg": 391,
+  "start": 1598.627,
+  "end": 1601.308,
+  "speaker": "Unknown",
+  "en": "Half of them from SpaceX, half from some of the hyperscalers.",
+  "zh": "一半来自 SpaceX，一半来自一些超大规模云服务商。"
+ },
+ {
+  "seg": 392,
+  "start": 1602.128,
+  "end": 1603.289,
+  "speaker": "Unknown",
+  "en": "So he spent a lot of time with the team.",
+  "zh": "所以他花了很多时间和团队在一起。"
+ },
+ {
+  "seg": 393,
+  "start": 1603.329,
+  "end": 1604.189,
+  "speaker": "Unknown",
+  "en": "He spent a lot of time.",
+  "zh": "他花了很多时间。"
+ },
+ {
+  "seg": 394,
+  "start": 1604.209,
+  "end": 1605.85,
+  "speaker": "Unknown",
+  "en": "I don't think...",
+  "zh": "我不认为……"
+ },
+ {
+  "seg": 395,
+  "start": 1607.09,
+  "end": 1613.176,
+  "speaker": "Unknown",
+  "en": "I don't think if he'd come across a report that said that cooling in space was impossible, that that would have thrown him off.",
+  "zh": "我不认为如果他看到一份报告说太空冷却是不可能的，那会把他吓跑。"
+ },
+ {
+  "seg": 396,
+  "start": 1613.296,
+  "end": 1617,
+  "speaker": "Unknown",
+  "en": "I think he was like, okay, this is a good enough team that they can figure it out.",
+  "zh": "我想他的想法是，好吧，这个团队足够好，他们能搞定的。"
+ },
+ {
+  "seg": 397,
+  "start": 1617.24,
+  "end": 1618.862,
+  "speaker": "Unknown",
+  "en": "How did you build such an awesome team?",
+  "zh": "你是如何建立这样一个很棒的团队的？"
+ },
+ {
+  "seg": 398,
+  "start": 1619.182,
+  "end": 1628.932,
+  "speaker": "Unknown",
+  "en": "So my co-founders, Adi and Ezra, well, with Ezra, I reached out to him after I'd been down to Starbase, Texas, and I was like, have you got any ideas that would make money if...",
+  "zh": "所以我的联合创始人 Adi 和 Ezra，嗯，对于 Ezra，我在去过德克萨斯州的 Starbase 之后联系了他，我当时想，你有什么想法如果……"
+ },
+ {
+  "seg": 399,
+  "start": 1629.833,
+  "end": 1631.374,
+  "speaker": "Unknown",
+  "en": "Launch cost was 10x cheaper than it is today.",
+  "zh": "发射成本比今天便宜 10 倍的话能赚钱吗。"
+ },
+ {
+  "seg": 400,
+  "start": 1631.554,
+  "end": 1637.077,
+  "speaker": "Unknown",
+  "en": "And we started with this space-based solo idea with Addy, who was introduced through a friend.",
+  "zh": "我们从 Addy 开始着手这个基于太空的单一想法，他是通过一个朋友介绍来的。"
+ },
+ {
+  "seg": 401,
+  "start": 1637.377,
+  "end": 1639.279,
+  "speaker": "Unknown",
+  "en": "And he actually had already been thinking about this.",
+  "zh": "他实际上其实早就在思考这件事了。"
+ },
+ {
+  "seg": 402,
+  "start": 1640.359,
+  "end": 1644.021,
+  "speaker": "Unknown",
+  "en": "He already had registered the domain name Stellacloud.com before.",
+  "zh": "他之前就已经注册了 Stellacloud.com 这个域名。"
+ },
+ {
+  "seg": 403,
+  "start": 1644.462,
+  "end": 1651.025,
+  "speaker": "Unknown",
+  "en": "And then with the team, we were just ruthlessly slow at hiring and like picky about hiring.",
+  "zh": "然后和团队一起，我们在招聘时简直慢得无情，而且对招聘非常挑剔。"
+ },
+ {
+  "seg": 404,
+  "start": 1651.225,
+  "end": 1655.288,
+  "speaker": "Unknown",
+  "en": "After YC, we'd raised like 11 million at 40, which is like a decent round in YC.",
+  "zh": "YC 之后，我们以 4000 万的估值融资了 1100 万，这对 YC 来说是一轮不错的融资。"
+ },
+ {
+  "seg": 405,
+  "start": 1656.169,
+  "end": 1670.349,
+  "speaker": "Unknown",
+  "en": "and even then it took us six months to make our first hire and we've got like the most kick-ass space engineers our first hire we've raised like a lot of money now even this round that we announced in march we've raised a much larger round since then we're still only 20 engineers",
+  "zh": "即使那样，我们还是花了六个月才招了第一个人，而且我们招到了最棒的太空工程师，我们的第一个雇员，我们现在融了很多钱，甚至我们在三月宣布的那轮融资之后，我们又融了更大的一轮，我们现在仍然只有 20 个工程师"
+ },
+ {
+  "seg": 406,
+  "start": 1671.11,
+  "end": 1687.422,
+  "speaker": "Unknown",
+  "en": "like the and we have one commercial guy who came from the space force who was working on golden dome um we are so picky about who we hire like it is to a point of being very frustrating to be honest but it's the whole game it's the whole game is having a kick-ass engineering team",
+  "zh": "而且，我们有一个来自太空部队的商业人员，他曾在 golden dome 工作，我们对雇佣谁非常挑剔，老实说，这到了让人非常沮丧的地步，但这就是全部，这就是全部，就是要拥有一支牛逼的工程团队。"
+ },
+ {
+  "seg": 407,
+  "start": 1688.018,
+  "end": 1714.481,
+  "speaker": "Unknown",
+  "en": "what was it like to have this idea have people sort of poo-poo it like didn't really get it and then suddenly i mean to have much more commercial validation that like you know google um spacex the the stalwarts of the industry sort of embrace the idea and realize actually like some crazy percentage of future data centers likely are going to be in space what was that like to sort of see the the sea change and be early",
+  "zh": "有这样一个想法，人们有点看不起它，不太理解它，然后突然间，我是说，有了更多的商业验证，比如你知道，谷歌，SpaceX，行业的中流砥柱，某种程度上接受这个想法，并意识到实际上，未来数据中心很大一部分可能会在太空中，看到这种海啸般的变化并处于领先地位，那是什么感觉？"
+ },
+ {
+  "seg": 408,
+  "start": 1714.981,
+  "end": 1715.801,
+  "speaker": "Unknown",
+  "en": "It was surreal.",
+  "zh": "这感觉超现实。"
+ },
+ {
+  "seg": 409,
+  "start": 1716.021,
+  "end": 1721.843,
+  "speaker": "Unknown",
+  "en": "So if you go back through my Twitter feed, I've been like shouting from the rooftops for the last like three years about this.",
+  "zh": "如果你翻看我的 Twitter，过去三年我一直在像在屋顶上大喊一样宣传这件事。"
+ },
+ {
+  "seg": 410,
+  "start": 1722.223,
+  "end": 1723.583,
+  "speaker": "Unknown",
+  "en": "Contrarian, but right.",
+  "zh": "逆向而行，但是是正确的。"
+ },
+ {
+  "seg": 411,
+  "start": 1723.983,
+  "end": 1728.985,
+  "speaker": "Unknown",
+  "en": "Every day I would post something about like why datasets in space are going to make sense.",
+  "zh": "每天我都会发一些关于为什么太空中的数据集会有意义的东西。"
+ },
+ {
+  "seg": 412,
+  "start": 1729.465,
+  "end": 1734.946,
+  "speaker": "Unknown",
+  "en": "And then slowly and slowly and slowly, people would start to drop hints about things.",
+  "zh": "然后一点一点地，人们开始开始暗示一些事情。"
+ },
+ {
+  "seg": 413,
+  "start": 1735.447,
+  "end": 1737.027,
+  "speaker": "Unknown",
+  "en": "Like Elon at one point was like...",
+  "zh": "比如 Elon 在某个时候说……"
+ },
+ {
+  "seg": 414,
+  "start": 1739.258,
+  "end": 1744.219,
+  "speaker": "Unknown",
+  "en": "99.999% of the energy in the solar system is from the sun.",
+  "zh": "太阳系中 99.999% 的能量来自太阳。"
+ },
+ {
+  "seg": 415,
+  "start": 1744.579,
+  "end": 1749.08,
+  "speaker": "Unknown",
+  "en": "So I'd repost that and I'd be like, we need to build data centers in space.",
+  "zh": "所以我会转发那个并说，我们需要在太空建设数据中心。"
+ },
+ {
+  "seg": 416,
+  "start": 1749.12,
+  "end": 1751.341,
+  "speaker": "Unknown",
+  "en": "Like everything I would find a hook for.",
+  "zh": "就像我找到的所有东西我都能找到一个挂钩。"
+ },
+ {
+  "seg": 417,
+  "start": 1751.361,
+  "end": 1756.582,
+  "speaker": "Unknown",
+  "en": "I think this is one of the things we see with all the best hard tech founders.",
+  "zh": "我认为这是我们在所有优秀的硬科技创始人身上看到的一件事。"
+ },
+ {
+  "seg": 418,
+  "start": 1757.242,
+  "end": 1766.064,
+  "speaker": "Unknown",
+  "en": "You're essentially living in the future and are almost like a prophet that brings the future back to now us underlings and the earth that don't quite get it yet.",
+  "zh": "你基本上生活在未来，几乎像一个先知，把未来带回到现在的我们这些还不明白的下属和地球上。"
+ },
+ {
+  "seg": 419,
+  "start": 1766.104,
+  "end": 1769.667,
+  "speaker": "Unknown",
+  "en": "I'm going to tell my mom, who's very religious, that YC said I'm a prophet.",
+  "zh": "我要告诉我妈妈，她很虔诚，YC 说我是个先知。"
+ },
+ {
+  "seg": 420,
+  "start": 1769.687,
+  "end": 1772.449,
+  "speaker": "Unknown",
+  "en": "But I think that's cool.",
+  "zh": "但我认为这很酷。"
+ },
+ {
+  "seg": 421,
+  "start": 1772.509,
+  "end": 1782.217,
+  "speaker": "Unknown",
+  "en": "And the other thing that's fascinating to me is that your background, if you go on your LinkedIn, it's not very legible that you would be in space.",
+  "zh": "另一个让我着迷的事情是，你的背景，如果你看你的领英，并不是很明显你会从事太空行业。"
+ },
+ {
+  "seg": 422,
+  "start": 1782.597,
+  "end": 1791.845,
+  "speaker": "Unknown",
+  "en": "But you had a background previously doing software and physics and then went to business, but nothing there that sets space.",
+  "zh": "但是你之前有软件和物理学的背景，然后去了商学院，但那里没有任何设定是太空。"
+ },
+ {
+  "seg": 423,
+  "start": 1792.334,
+  "end": 1815.754,
+  "speaker": "Unknown",
+  "en": "yeah um so for people who don't know my background um spent the first five years of my career as a an engineer on the software side studying math and physics before that um undergrad and masters and then i went to mckinsey more on the commercial product side but i actually ended up doing a couple of projects with national space agencies on different satellite missions and that's where i really started to notice the launch costs coming down very rapidly",
+  "zh": "是的，所以对于不了解我背景的人，我在职业生涯的前五年是一名软件方面的工程师，在此之前学习数学和物理，本科和硕士，然后我去了麦肯锡，更多是在商业产品方面，但我实际上最终为不同的国家太空机构做了一些卫星任务项目，那是我真正开始注意到发射成本非常迅速下降的地方"
+ },
+ {
+  "seg": 424,
+  "start": 1816.254,
+  "end": 1833.297,
+  "speaker": "Unknown",
+  "en": "actually had another uh startup before this um and yeah when i left that one decided okay if i'm going to do another startup it has to be something i'm like very passionate about and and yeah for my whole life i've been very passionate about space because i don't have a space engineering background realized okay i'm gonna need",
+  "zh": "在这之前实际上还有另一家初创公司，是的，当我离开那一家时决定，好吧，如果我要做另一家初创公司，它必须是我非常热衷的事情，是的，在我的整个人生中我一直对太空充满热情，因为我没有太空工程背景，意识到好吧，我需要"
+ },
+ {
+  "seg": 425,
+  "start": 1833.797,
+  "end": 1848.508,
+  "speaker": "Unknown",
+  "en": "the world's most kick-ass space engineers and actually this is where i give credit to yc i was kind of blindly following the yc advice i was like okay the first thing we need to do before coming up with an idea is get the most incredible space engineers in the world um on the team essentially",
+  "zh": "世界上最棒的太空工程师，实际上这归功于 YC，我有点盲目地遵循 YC 的建议，我想，好吧，在提出想法之前我们需要做的第一件事就是把世界上最不可思议的太空工程师基本上招入团队"
+ },
+ {
+  "seg": 426,
+  "start": 1849.068,
+  "end": 1851.13,
+  "speaker": "Unknown",
+  "en": "This was before you even knew what you wanted to do in space.",
+  "zh": "那是在你甚至知道你想在太空做什么之前。"
+ },
+ {
+  "seg": 427,
+  "start": 1851.23,
+  "end": 1856.894,
+  "speaker": "Unknown",
+  "en": "All you knew at that point was that like launch costs were going to come down dramatically and there was going to be cool stuff to do in space.",
+  "zh": "在那个点你知道的全部就是发射成本会大幅下降，而且在太空会有很酷的事情可以做。"
+ },
+ {
+  "seg": 428,
+  "start": 1857.275,
+  "end": 1859.076,
+  "speaker": "Unknown",
+  "en": "And you wanted to find some space people to do it with.",
+  "zh": "你想找一些太空人一起做这件事。"
+ },
+ {
+  "seg": 429,
+  "start": 1859.296,
+  "end": 1860.117,
+  "speaker": "Unknown",
+  "en": "Yes, literally.",
+  "zh": "是的，字面上的。"
+ },
+ {
+  "seg": 430,
+  "start": 1860.197,
+  "end": 1860.998,
+  "speaker": "Unknown",
+  "en": "That's literally it.",
+  "zh": "就是这样。"
+ },
+ {
+  "seg": 431,
+  "start": 1862.439,
+  "end": 1866.662,
+  "speaker": "Unknown",
+  "en": "But it wasn't a vibe of like, oh, can you please build this crazy idea that I have?",
+  "zh": "但这不是那种，哦，你能请建设我有的这个疯狂想法吗的氛围。"
+ },
+ {
+  "seg": 432,
+  "start": 1866.822,
+  "end": 1868.163,
+  "speaker": "Unknown",
+  "en": "It's like the reverse even.",
+  "zh": "甚至反过来了。"
+ },
+ {
+  "seg": 433,
+  "start": 1868.203,
+  "end": 1870.445,
+  "speaker": "Unknown",
+  "en": "Like I'm going to figure out the commercial part.",
+  "zh": "就像我要弄清楚商业部分。"
+ },
+ {
+  "seg": 434,
+  "start": 1870.955,
+  "end": 1871.535,
+  "speaker": "Unknown",
+  "en": "Yeah, exactly.",
+  "zh": "是的，确切地。"
+ },
+ {
+  "seg": 435,
+  "start": 1871.575,
+  "end": 1886.787,
+  "speaker": "Unknown",
+  "en": "My pitch to Adi and Ezra was essentially, if you have any ideas that would make sense if the launch cost was 10x less than it is today, I can figure out everything else around that besides building the satellite piece.",
+  "zh": "我对 Adi 和 Ezra 的推销基本上是，如果你有任何想法，如果发射成本比今天低 10 倍就会讲得通，除了建设卫星部分，我可以弄清楚周围的所有其他事情。"
+ },
+ {
+  "seg": 436,
+  "start": 1886.907,
+  "end": 1887.587,
+  "speaker": "Unknown",
+  "en": "How did you find them?",
+  "zh": "你是怎么找到他们的？"
+ },
+ {
+  "seg": 437,
+  "start": 1887.627,
+  "end": 1888.328,
+  "speaker": "Unknown",
+  "en": "How did you recruit them?",
+  "zh": "你是怎么招募他们的？"
+ },
+ {
+  "seg": 438,
+  "start": 1889.228,
+  "end": 1891.39,
+  "speaker": "Unknown",
+  "en": "So Ezra and I had grown up in the same place in the UK.",
+  "zh": "Ezra 和我在英国的同一个地方长大。"
+ },
+ {
+  "seg": 439,
+  "start": 1891.41,
+  "end": 1895.132,
+  "speaker": "Unknown",
+  "en": "Actually, to be frank, I messaged a lot of space engineers.",
+  "zh": "实际上，坦白说，我给很多太空工程师发了信息。"
+ },
+ {
+  "seg": 440,
+  "start": 1895.733,
+  "end": 1898.795,
+  "speaker": "Unknown",
+  "en": "Maybe 10 of them took a call and two of them said yes.",
+  "zh": "大概 10 个接了电话，2 个答应了。"
+ },
+ {
+  "seg": 441,
+  "start": 1898.835,
+  "end": 1900.556,
+  "speaker": "Unknown",
+  "en": "That's all you need.",
+  "zh": "这就是你所需要的。"
+ },
+ {
+  "seg": 442,
+  "start": 1900.596,
+  "end": 1902.677,
+  "speaker": "Unknown",
+  "en": "You don't need like 100 people to do it.",
+  "zh": "你不需要 100 个人来做这件事。"
+ },
+ {
+  "seg": 443,
+  "start": 1902.778,
+  "end": 1904.259,
+  "speaker": "Unknown",
+  "en": "You only need one or two.",
+  "zh": "你只需要一两个。"
+ },
+ {
+  "seg": 444,
+  "start": 1904.599,
+  "end": 1905.88,
+  "speaker": "Unknown",
+  "en": "So Philip, during the batch...",
+  "zh": "所以 Philip，在批量期间……"
+ },
+ {
+  "seg": 445,
+  "start": 1906.639,
+  "end": 1914.164,
+  "speaker": "Unknown",
+  "en": "The way I thought about StarCloud was that it could only work if you were able to make it cheaper per unit of compute than ground-based compute.",
+  "zh": "我对 StarCloud 的思考方式是，只有当你能够使每单位计算的成本低于地面计算时它才能工作。"
+ },
+ {
+  "seg": 446,
+  "start": 1914.364,
+  "end": 1915.665,
+  "speaker": "Unknown",
+  "en": "And I think you will.",
+  "zh": "我认为你会的。"
+ },
+ {
+  "seg": 447,
+  "start": 1916.065,
+  "end": 1921.789,
+  "speaker": "Unknown",
+  "en": "But it's occurred to me since then that it's not actually clear to me anymore that that is necessary for StarCloud to succeed.",
+  "zh": "但从那时起我意识到，对我来说 StarCloud 成功并不一定需要那样清楚。"
+ },
+ {
+  "seg": 448,
+  "start": 1922.069,
+  "end": 1929.114,
+  "speaker": "Unknown",
+  "en": "I'm curious if you think about it the same way, because since the batch, we've learned that AI data centers are becoming politically incredibly unpopular.",
+  "zh": "我很好奇你是否以同样的方式思考，因为从那批以来，我们了解到 AI 数据中心在政治上变得非常不受欢迎。"
+ },
+ {
+  "seg": 449,
+  "start": 1929.554,
+  "end": 1939.798,
+  "speaker": "Unknown",
+  "en": "And it seems not unlikely to me that it will soon become basically de facto impossible to build AI data centers anywhere, at least in a democratically-hyped country.",
+  "zh": "在我看来，这似乎并非不可能，很快就会变得基本上事实上不可能在任何地方建设 AI 数据中心，至少在一个民主炒作的国家。"
+ },
+ {
+  "seg": 450,
+  "start": 1940.038,
+  "end": 1943.839,
+  "speaker": "Unknown",
+  "en": "I'm curious how you think about that, how it affects your plans for the company.",
+  "zh": "我很好奇你是怎么想的，这会如何影响你对公司的计划。"
+ },
+ {
+  "seg": 451,
+  "start": 1944.142,
+  "end": 1945.023,
+  "speaker": "Unknown",
+  "en": "Yeah, 100%.",
+  "zh": "是的，百分之百。"
+ },
+ {
+  "seg": 452,
+  "start": 1945.123,
+  "end": 1949.286,
+  "speaker": "Unknown",
+  "en": "And this has moved faster than I was expecting as well, to be honest.",
+  "zh": "老实说，这实际上也比我预期的进展要快。"
+ },
+ {
+  "seg": 453,
+  "start": 1949.306,
+  "end": 1953.509,
+  "speaker": "Unknown",
+  "en": "We've just seen New York now blocking data centers construction.",
+  "zh": "我们刚刚看到纽约现在正在阻止数据中心的建设。"
+ },
+ {
+  "seg": 454,
+  "start": 1954.389,
+  "end": 1960.254,
+  "speaker": "Unknown",
+  "en": "For reasons which are not grounded in science, really, it seems more like vibes than anything else.",
+  "zh": "理由实际上并没有科学依据，看起来更多的像是 vibe 而不是别的什么。"
+ },
+ {
+  "seg": 455,
+  "start": 1960.834,
+  "end": 1965.397,
+  "speaker": "Unknown",
+  "en": "Building these things in space will definitely be much easier from a regulatory perspective.",
+  "zh": "在太空建造这些东西从监管角度来看肯定容易得多。"
+ },
+ {
+  "seg": 456,
+  "start": 1965.837,
+  "end": 1967.358,
+  "speaker": "Unknown",
+  "en": "So let's do some myth-busting.",
+  "zh": "所以让我们来打破一些迷思。"
+ },
+ {
+  "seg": 457,
+  "start": 1969.099,
+  "end": 1974.302,
+  "speaker": "Unknown",
+  "en": "There are a lot of misconceptions about certainly water and data centers, but also power.",
+  "zh": "关于水与数据中心，当然还有电力，确实有很多误解。"
+ },
+ {
+  "seg": 458,
+  "start": 1975.242,
+  "end": 1978.024,
+  "speaker": "Unknown",
+  "en": "What are some of the things that come to your mind?",
+  "zh": "你想到了哪些事情？"
+ },
+ {
+  "seg": 459,
+  "start": 1978.504,
+  "end": 1982.608,
+  "speaker": "Unknown",
+  "en": "With water specifically, water is really actually just a function of power.",
+  "zh": "具体谈到水，水实际上真的只是电力的一个函数。"
+ },
+ {
+  "seg": 460,
+  "start": 1983.669,
+  "end": 1991.997,
+  "speaker": "Unknown",
+  "en": "You can cool data centers with no daily consumptive use of water if you just throw more power at the problem, essentially.",
+  "zh": "如果你基本上把更多的电力投入到这个问题上，你可以在没有日常消耗性用水的情况下冷却数据中心。"
+ },
+ {
+  "seg": 461,
+  "start": 1992.017,
+  "end": 1994.84,
+  "speaker": "Unknown",
+  "en": "And that is what all of the data center companies are now proposing.",
+  "zh": "这就是现在所有的数据中心公司都在提议的。"
+ },
+ {
+  "seg": 462,
+  "start": 1994.88,
+  "end": 2002.507,
+  "speaker": "Unknown",
+  "en": "It's very unlikely that any data center company proposes any data center that is going to be consuming daily amounts of water.",
+  "zh": "任何数据中心公司提议任何会消耗日常水量的数据中心都是不太可能的。"
+ },
+ {
+  "seg": 463,
+  "start": 2002.796,
+  "end": 2008.821,
+  "speaker": "Unknown",
+  "en": "And there is actually evidence that you can have closed-loop systems that consume very little water.",
+  "zh": "实际上确实有证据表明，你可以拥有消耗极少水的闭环系统。"
+ },
+ {
+  "seg": 464,
+  "start": 2009.722,
+  "end": 2021.592,
+  "speaker": "Unknown",
+  "en": "I think the analogy is like if you ran a burger shop, a fairly large data center with hundreds of megawatts would consume about the same amount of water as a McDonald's.",
+  "zh": "我认为这就好比如果你经营一家汉堡店，一个拥有数百兆瓦的相当大的数据中心消耗的水量大约和一家麦当劳一样多。"
+ },
+ {
+  "seg": 465,
+  "start": 2022.433,
+  "end": 2027.317,
+  "speaker": "Unknown",
+  "en": "So it's really a non-issue, but it's unbelievable that they're repeating this so much.",
+  "zh": "所以这真的不是问题，但他们如此频繁地重复这一点简直令人难以置信。"
+ },
+ {
+  "seg": 466,
+  "start": 2027.437,
+  "end": 2027.878,
+  "speaker": "Unknown",
+  "en": "Yeah, yeah.",
+  "zh": "是的，是的。"
+ },
+ {
+  "seg": 467,
+  "start": 2028.118,
+  "end": 2029.319,
+  "speaker": "Unknown",
+  "en": "They do use a lot of power, though.",
+  "zh": "不过，它们确实消耗大量的电力。"
+ },
+ {
+  "seg": 468,
+  "start": 2029.359,
+  "end": 2035.502,
+  "speaker": "Unknown",
+  "en": "And so most new power projects for data centers right now are being built with natural gas generators, actually.",
+  "zh": "因此，目前大多数为数据中心新建的电力项目实际上都是使用天然气发电机建造的。"
+ },
+ {
+  "seg": 469,
+  "start": 2035.802,
+  "end": 2039.004,
+  "speaker": "Unknown",
+  "en": "And so there's certainly some people that are pushing back on those.",
+  "zh": "当然也有些人对此表示反对。"
+ },
+ {
+  "seg": 470,
+  "start": 2039.064,
+  "end": 2046.769,
+  "speaker": "Unknown",
+  "en": "One of the arguments is that as data centers get built, they sort of compete on the grid, which is kind of not true.",
+  "zh": "其中的一个论点是，随着数据中心的建成，它们在电网上竞争，这有点不对。"
+ },
+ {
+  "seg": 471,
+  "start": 2046.869,
+  "end": 2050.011,
+  "speaker": "Unknown",
+  "en": "Also not true if you build a new power project for it.",
+  "zh": "如果你为此建立一个新的电力项目，这也是不成立的。"
+ },
+ {
+  "seg": 472,
+  "start": 2050.251,
+  "end": 2052.052,
+  "speaker": "Unknown",
+  "en": "Right, which is generally what people are doing.",
+  "zh": "对的，这通常是人们正在做的事情。"
+ },
+ {
+  "seg": 473,
+  "start": 2052.132,
+  "end": 2054.593,
+  "speaker": "Unknown",
+  "en": "You just can't get enough power from the grid.",
+  "zh": "你只是无法从电网获得足够的电力。"
+ },
+ {
+  "seg": 474,
+  "start": 2055.274,
+  "end": 2056.795,
+  "speaker": "Unknown",
+  "en": "There's also some evidence, actually...",
+  "zh": "实际上也有一些证据……"
+ },
+ {
+  "seg": 475,
+  "start": 2057.956,
+  "end": 2064.504,
+  "speaker": "Unknown",
+  "en": "that adding data centers increases the capacity of the grid and then prices actually come down over time.",
+  "zh": "添加数据中心增加了电网的容量，然后价格实际上随着时间的推移而下降。"
+ },
+ {
+  "seg": 476,
+  "start": 2064.824,
+  "end": 2067.567,
+  "speaker": "Unknown",
+  "en": "That being said, it's sort of a perfect storm.",
+  "zh": "话虽如此，这有点像一场完美风暴。"
+ },
+ {
+  "seg": 477,
+  "start": 2067.768,
+  "end": 2068.809,
+  "speaker": "Unknown",
+  "en": "We need intelligence.",
+  "zh": "我们需要智能。"
+ },
+ {
+  "seg": 478,
+  "start": 2068.869,
+  "end": 2069.93,
+  "speaker": "Unknown",
+  "en": "We need data centers.",
+  "zh": "我们需要数据中心。"
+ },
+ {
+  "seg": 479,
+  "start": 2070.331,
+  "end": 2073.234,
+  "speaker": "Unknown",
+  "en": "It's become basically a national security issue.",
+  "zh": "这基本上已成为一个国家安全问题。"
+ },
+ {
+  "seg": 480,
+  "start": 2074.956,
+  "end": 2082.538,
+  "speaker": "Unknown",
+  "en": "For America and for the West to have access to intelligence is sort of the most important tech tree of the next hundred years.",
+  "zh": "对于美国和西方来说，能够获得智能是未来一百年的科技树中最重要的一环。"
+ },
+ {
+  "seg": 481,
+  "start": 2083.059,
+  "end": 2097.783,
+  "speaker": "Unknown",
+  "en": "And so for tech policy to sort of put us back into the Stone Age and possibly lose the war for us, that puts StarCloud in a different position in terms of bringing compute and AI and power online.",
+  "zh": "因此，科技政策要是将我们推回石器时代并可能导致我们输掉这场战争，这会让 StarCloud 在将计算、人工智能和电力上线方面处于不同的位置。"
+ },
+ {
+  "seg": 482,
+  "start": 2097.943,
+  "end": 2098.643,
+  "speaker": "Unknown",
+  "en": "Yeah, for sure.",
+  "zh": "是的，当然。"
+ },
+ {
+  "seg": 483,
+  "start": 2098.663,
+  "end": 2103.425,
+  "speaker": "Unknown",
+  "en": "It definitely puts us squarely in the national security bucket at that point.",
+  "zh": "在这一点上，这确实将我们牢牢地置于国家安全的范畴内。"
+ },
+ {
+  "seg": 484,
+  "start": 2103.805,
+  "end": 2106.547,
+  "speaker": "Unknown",
+  "en": "I mean, thank you so much for fighting for the West then.",
+  "zh": "我的意思是，非常感谢你为西方而战。"
+ },
+ {
+  "seg": 485,
+  "start": 2106.567,
+  "end": 2108.309,
+  "speaker": "Unknown",
+  "en": "We're doing our best.",
+  "zh": "我们正在尽我们所能。"
+ },
+ {
+  "seg": 486,
+  "start": 2109.309,
+  "end": 2121.699,
+  "speaker": "Unknown",
+  "en": "So as one of the fastest growing unicorns in YC history and to do it as a hardware company, do you have any closing thoughts for people who are looking at space, looking at hard tech as a thing that they want to work on?",
+  "zh": "作为 YC 历史上增长最快的独角兽之一，并且是以一家硬件公司的身份做到这一点，对于那些正在关注太空、将硬科技作为他们想要从事的事业的人，你有什么最后的想法吗？"
+ },
+ {
+  "seg": 487,
+  "start": 2122.399,
+  "end": 2128.204,
+  "speaker": "Unknown",
+  "en": "What have you learned and what would you tell the just starting out version of yourself based on where you're at now?",
+  "zh": "你学到了什么，基于你现在所处的位置，你会对刚开始的自己说什么？"
+ },
+ {
+  "seg": 488,
+  "start": 2128.679,
+  "end": 2132.361,
+  "speaker": "Unknown",
+  "en": "Yeah, I mean, I think there's just huge opportunities now coming in with space.",
+  "zh": "是的，我的意思是，我认为随着太空时代的到来，现在正迎来巨大的机遇。"
+ },
+ {
+  "seg": 489,
+  "start": 2132.681,
+  "end": 2137.363,
+  "speaker": "Unknown",
+  "en": "We're really at the very early innings with what's going to be this enormous industry in space.",
+  "zh": "我们真的正处于这个将成为太空巨大产业的早期阶段。"
+ },
+ {
+  "seg": 490,
+  "start": 2138.524,
+  "end": 2143.466,
+  "speaker": "Unknown",
+  "en": "The amount of capacity and launch that's going to come online in the next five years is really mind-boggling.",
+  "zh": "未来五年将上线的容量和发射数量真的令人难以置信。"
+ },
+ {
+  "seg": 491,
+  "start": 2143.746,
+  "end": 2147.188,
+  "speaker": "Unknown",
+  "en": "So yeah, I would definitely encourage people to step into that.",
+  "zh": "所以是的，我绝对鼓励人们踏入这个领域。"
+ },
+ {
+  "seg": 492,
+  "start": 2147.848,
+  "end": 2151.59,
+  "speaker": "Unknown",
+  "en": "In terms of advice, the YC advice stands true.",
+  "zh": "就建议而言，YC 的建议依然是真理。"
+ },
+ {
+  "seg": 493,
+  "start": 2151.65,
+  "end": 2156.853,
+  "speaker": "Unknown",
+  "en": "It's technical talent on the founding team is the thing you need to solve for first, and then everything else follows from there.",
+  "zh": "创始团队中的技术人才是你首先需要解决的问题，然后其他一切都随之而来。"
+ },
+ {
+  "seg": 494,
+  "start": 2157.293,
+  "end": 2159.237,
+  "speaker": "Unknown",
+  "en": "Philip, thanks so much for coming on The Light Cone.",
+  "zh": "Philip，非常感谢你做客 The Light Cone。"
+ },
+ {
+  "seg": 495,
+  "start": 2159.457,
+  "end": 2160.359,
+  "speaker": "Unknown",
+  "en": "Yeah, thanks so much, Alan.",
+  "zh": "是的，非常感谢，Alan。"
+ },
+ {
+  "seg": 496,
+  "start": 2160.379,
+  "end": 2160.86,
+  "speaker": "Unknown",
+  "en": "Nice being here.",
+  "zh": "很高兴来到这里。"
+ }
+]
