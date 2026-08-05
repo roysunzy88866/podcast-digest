@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AGI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AGI">AG</div><div class="pi"><h1 class="pt">AGI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>6</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AGI">AG</div><div class="pi"><h1 class="pt">AGI</h1><div class="byl">概念</div><div class="nums">本站收录 <b>7</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,10 +17,11 @@ unlisted: true
 - **[[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]]**(09:26起):本集把它说成:一种要么赢者通吃要么全盘皆输的终极叙事(AGI 或破产),但嘉宾指出随着模型路径多元化,如今除了 OpenAI 和 Anthropic 几乎没人再信这套。
 - **[[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]]**(00:21起):本集把它说成：OpenAI 一开始决心奉献一生去创造的目标，十年前被业界主流视为错误且会引发 AI 寒冬，如今被视为商业与社会史上最重要的事。
 - **[[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]]**(05:32起):本集将其重新定义为：一个能够在没有任何人类参与循环的情况下，完全靠自己与现实世界交互来不断自我改进和学习的模型。
+- **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(13:13起):本集把它说成:只有 AGI（通用人工智能）能填平 AI 行业 4 万亿美元的资本支出窟窿,八大科技巨头都在为争夺 AGI 的控制权而下注
 
 ## ① 提到它的金句
 
-*6 条,均已过机器闸门*
+*7 条,均已过机器闸门*
 
 ![[2025-11-16-lennys-the-godmother-of-ai#^q2]]
 
@@ -34,9 +35,11 @@ unlisted: true
 
 ![[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto#^q6]]
 
+![[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy#^q3]]
+
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
 - [[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]] — 作为概念(提及)
 - [[2026-04-05-lennys-anthropics-1b-to-19b-growth-run|《一年增长十倍、连线性图表都过时了:Anthropic 增长负责人的内部视角》]] — 作为概念(提及)
@@ -44,14 +47,15 @@ unlisted: true
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为概念
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|《Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势》]] — 作为概念
 - [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|《Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构》]] — 作为概念
+- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Anthropic]] · [[OpenAI]] · [[Google]] · [[Lenny]] · [[ChatGPT]] · [[Meta]] · [[Edwin Chen]] · [[Amol Avasare]] · [[Benedict Evans]] · [[Ranjan Roy]]
+[[Anthropic]] · [[OpenAI]] · [[Google]] · [[Lenny]] · [[Meta]] · [[ChatGPT]] · [[Apple]] · [[Alex]] · [[Microsoft]] · [[SpaceX]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":31,"OpenAI":26,"Google":11,"Lenny":33,"ChatGPT":11,"Meta":9,"Edwin Chen":1,"Amol Avasare":1,"Benedict Evans":1,"Ranjan Roy":1}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":32,"OpenAI":27,"Google":12,"Lenny":33,"Meta":10,"ChatGPT":11,"Apple":6,"Alex":2,"Microsoft":7,"SpaceX":3}</script>
 
 <script>
 (function(){

@@ -100,6 +100,7 @@ tags:
 **顺着「创业与行业」挖下去**
 
 - [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|只在美国才能发生的故事:黄仁勋与 NVIDIA]] —— 同概念:第一性原理 (first principles)
+- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]] —— 同公司:Amazon
 
 </div>
 </div>

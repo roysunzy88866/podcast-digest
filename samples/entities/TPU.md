@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>TPU</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="TPU">TP</div><div class="pi"><h1 class="pt">TPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="TPU">TP</div><div class="pi"><h1 class="pt">TPU</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|《Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点》]]**(00:24起):本集把它说成：2013 年 Jeff 做「算盘数学」算出 Google 语音识别扛不住 CPU 开销，于是造了极度专用于低精度密集线性代数的芯片，几年后能效比 CPU/GPU 高 30-80 倍、延迟低 20-30 倍。
+- **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(38:37起):本集把它说成:Google 自研的、专为机器学习定制的优质芯片,被 Google 囤积供自家用
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|《Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点》]] — 作为概念
+- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jeff Dean]] · [[智能体]] · [[多智能体系统]] · [[专用推理硬件]] · [[推理]] · [[上下文工程]] · [[MapReduce]] · [[蒸馏]] · [[AlphaFold]] · [[Gemini]]
+[[Google]] · [[Jeff Dean]] · [[Alex]] · [[智能体]] · [[David Cahn]] · [[多智能体系统]] · [[AGI]] · [[专用推理硬件]] · [[资本支出]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"Jeff Dean":1,"智能体":50,"多智能体系统":1,"专用推理硬件":1,"推理":1,"上下文工程":2,"MapReduce":1,"蒸馏":4,"AlphaFold":1,"Gemini":3}</script>
+<script type="application/json" class="pd-epn">{"Google":12,"Jeff Dean":1,"Alex":2,"智能体":50,"David Cahn":1,"多智能体系统":1,"AGI":7,"专用推理硬件":1,"资本支出":2,"推理":1}</script>
 
 <script>
 (function(){

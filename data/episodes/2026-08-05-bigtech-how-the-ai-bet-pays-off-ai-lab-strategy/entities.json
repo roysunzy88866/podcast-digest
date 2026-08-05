@@ -1,0 +1,2019 @@
+{
+  "episode_id": "2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy",
+  "podcast": "Big Technology Podcast",
+  "date": "2026-08-05",
+  "tags": [
+    "AI 投资",
+    "AGI",
+    "科技巨头",
+    "资本支出",
+    "博弈论"
+  ],
+  "categories": [
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "alex",
+      "type": "person",
+      "role": "host",
+      "name": "Alex",
+      "file": "Alex",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 22,
+          "t": [
+            88.268,
+            89.088
+          ],
+          "quote": "Thanks for having me, Alex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1480.297,
+            1496.34
+          ],
+          "quote": "playing it so we'll be back right after this hi everyone alex kantrowitz here i want to tell you about a documentary i've made with gravity to explore the future of ai agent security to find out if we're truly ready for autonomous agents i sat down with mit professor ramesh raskar",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 635,
+          "t": [
+            2934.222,
+            2935.063
+          ],
+          "quote": "You can buy Alex Wang.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 675,
+          "t": [
+            3150.515,
+            3151.376
+          ],
+          "quote": "Alex Wang is one of those guys.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 946,
+          "t": [
+            4242.24,
+            4242.62
+          ],
+          "quote": "Thanks, Alex.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "david-cahn",
+      "type": "person",
+      "role": "guest",
+      "name": "David Cahn",
+      "file": "David Cahn",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": true,
+      "how_described": "本集把它说成:只有 AGI（通用人工智能）能填平 AI 行业 4 万亿美元的资本支出窟窿,八大科技巨头都在为争夺 AGI 的控制权而下注",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 148,
+          "t": [
+            793.624,
+            808.092
+          ],
+          "quote": "Okay, so speaking of not caring about the math and going all in, one thing that you wrote recently, I think it was in 2025 also, you wrote, one thing has become clear, nothing short of AGI will be enough to justify the investments now being proposed for the coming decade.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            838.524,
+            846.027
+          ],
+          "quote": "And so if you kind of think about those dollars of CapEx, the only possible way to pay those dollars back is going to be AGI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 161,
+          "t": [
+            865.087,
+            874.037
+          ],
+          "quote": "In reality, I think we are reaching this sort of bifurcated path, where path one is we get AGI, we pay back all these numbers and more.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 165,
+          "t": [
+            888.071,
+            899.803
+          ],
+          "quote": "And I think in some ways, I think the market underestimates the probability of AGI and underestimates the probability of some correction and massively overestimates the status quo bias",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 169,
+          "t": [
+            927.949,
+            929.309
+          ],
+          "quote": "They believe that they're chasing AGI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 174,
+          "t": [
+            936.912,
+            943.195
+          ],
+          "quote": "The financial market kind of likes to ignore sometimes what people are saying because kind of hard to own Google on the assumption of AGI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 179,
+          "t": [
+            961.144,
+            980.765
+          ],
+          "quote": "reality what matters is like are we going to get to agi or not and is that are we going to have enough evidence that they can continue to spend at this scale when now we're getting into negative free cash flow territory we're getting to a scale where it is going to be harder and harder to keep spending at this scale but all the evidence suggests that the hyperscalers are going to continue aggressively moving in this direction",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 180,
+          "t": [
+            981.65,
+            992.995
+          ],
+          "quote": "You know what's interesting is that it seems like right now a lot of the market and the investment is going into these companies sort of imagining that AGI is going to happen pretty soon.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1076.74,
+            1084.386
+          ],
+          "quote": "And what I started to see is that Ilya and Sam and Greg and all these guys are coming out and they're saying, AGI is 10 years away.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1123.503,
+            1138.848
+          ],
+          "quote": "And so I had this view, and again, I was sort of obsessed with this in 2025 because I thought there was such a divergence between the way the markets were talking about this and the way the really smart technical people were talking about this, where AGI could be 10 or 20 years away.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1144.503,
+            1146.846
+          ],
+          "quote": "AGI is going to be amazing, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 234,
+          "t": [
+            1242.196,
+            1248.12
+          ],
+          "quote": "And to me, one of the biggest updates was last year when all these guys came out and said the same thing, which is AGI is 10 years away.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 347,
+          "t": [
+            1759.164,
+            1764.107
+          ],
+          "quote": "They are playing to be the emperor of the universe and whatever that means, the person who controls AGI, whatever that means.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1866.799,
+            1886.859
+          ],
+          "quote": "again i'm going to push back on this like okay exactly where i think everyone gets confused because you sort of mix models here and you sort of you have to focus on what's the strategy the strategy and you can back test this back to before anthropic was famously successful it's like the strategy has always been extremely consistent deeply philosophically believe in agi it is all about getting to agi they believe we are going to get there",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 367,
+          "t": [
+            1887.78,
+            1908.635
+          ],
+          "quote": "and they need talent to get there and i think what evidence at least so far shows that they have been able to push forward their frontier and in their view they're going to keep pushing for their frontier and sure they they're going to have these products and it's great that they have products and they need revenue in order to attract investment dollars but at the end of the day it is all about agi that is my read again this is just an outsider looking in i'm not in the arena i don't know",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 384,
+          "t": [
+            1948.3,
+            1951.781
+          ],
+          "quote": "Like the chance that AGI is commoditized is the flaw in that strategy.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 419,
+          "t": [
+            2078.064,
+            2079.125
+          ],
+          "quote": "I need to get to AGI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2133.879,
+            2145.288
+          ],
+          "quote": "I think OpenAI's strategy is everybody underestimates AGI, all in AGI, and we're going to be the most aggressive, and everybody else is going to take fewer risks than we do, and we're ultimately going to be proven right and win.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2187.964,
+            2193.726
+          ],
+          "quote": "Like they're like, yes, we're going to drive towards AGI and we're going to try to build more aggressively than you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2420.061,
+            2424.362
+          ],
+          "quote": "Because they're hoarding the TPUs, I think they're actually doing the like go chase AGI strategy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2439.185,
+            2447.087
+          ],
+          "quote": "And maybe that's the right strategy because maybe AGI is such a big prize that it's just like not even worth some kind of hedge bet or some ecosystem bet.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 560,
+          "t": [
+            2631.747,
+            2659.345
+          ],
+          "quote": "drive and so okay like maybe maybe there's a different strategy and i think there is a coherent strategy that's like we're gonna have one team chase agi and we're gonna also monetize this tpu asset and um and then there's the search question right like in some ways if you do the old school you know there's the alistair narn who i love and think very highly of and who wrote the book the engines that move markets which is like the great book on technology investing who says it's easier to short the canal than it is to be like figure out which railroad's gonna win",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 649,
+          "t": [
+            3022.586,
+            3025.267
+          ],
+          "quote": "And this comes back to like, I think we're all underweight AGI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 650,
+          "t": [
+            3025.327,
+            3028.088
+          ],
+          "quote": "And I think these grandmasters are playing for AGI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 651,
+          "t": [
+            3028.788,
+            3030.369
+          ],
+          "quote": "Zonk is obviously playing for AGI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 653,
+          "t": [
+            3033.582,
+            3036.184
+          ],
+          "quote": "I don't know if we have time to go in and try to define AGI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 680,
+          "t": [
+            3191.812,
+            3193.213
+          ],
+          "quote": "If they get to AGI, great.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 681,
+          "t": [
+            3193.293,
+            3195.115
+          ],
+          "quote": "Like, owning 20% of AGI is pretty good.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 697,
+          "t": [
+            3262.984,
+            3264.884
+          ],
+          "quote": "they have their internal kind of AGI lab.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 729,
+          "t": [
+            3373.447,
+            3375.789
+          ],
+          "quote": "It's like, if this all goes well and AGI happens, they're not...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 820,
+          "t": [
+            3684.116,
+            3689.64
+          ],
+          "quote": "But I think they realized that they're sort of all in pursuit of AGI through their own model.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 865,
+          "t": [
+            3848.209,
+            3857.499
+          ],
+          "quote": "higher power so it would go to stand to reason that like if we invent agi or super intelligence there will certainly be some people who will be like this is the manifestation",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "capex",
+      "type": "concept",
+      "role": "concept",
+      "name": "CapEx",
+      "file": "CapEx",
+      "primary": true,
+      "how_described": "本集把它说成:买 GPU 建数据中心的投入,自 ChatGPT 发布以来已累积约 3 万亿美元,并且还在加速",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            155.205,
+            178.89
+          ],
+          "quote": "so if nvidia sells 50 billion dollars in run rate gpu revenue by the end of the year that implies an approximately 100 billion dollars in cumulative data center expenditures let's assume those building them need to earn a 50 margin that applies for each year of current gpu capex 200 billion of lifetime revenue would need to be generated by these gpus to pay back",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 37,
+          "t": [
+            189.053,
+            194.695
+          ],
+          "quote": "So conservatively right now, we're looking at $2 trillion in capex, in big tech capex this year and next.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 51,
+          "t": [
+            274.232,
+            277.713
+          ],
+          "quote": "So if you really want to ask yourself, hey, what's the total CapEx burden?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 52,
+          "t": [
+            278.053,
+            280.433
+          ],
+          "quote": "You say for every dollar CapEx, we eventually need to get an ROI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 88,
+          "t": [
+            464.589,
+            472.832
+          ],
+          "quote": "Yeah, in one of the first follow-up posts in summer of 24, I did a post on the game theory of AI CapEx, and I sort of tried to quantify, what are we talking about here?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 139,
+          "t": [
+            725.693,
+            733.135
+          ],
+          "quote": "And I think one thing we've seen in 2026 in particular is that on the back of all of the AI coding scaling, hyperscalers doubled down on CapEx.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 141,
+          "t": [
+            737.896,
+            750.94
+          ],
+          "quote": "AI is moving so fast that I feel like we sometimes, it's like people can't remember what happened less than two weeks ago, but if you rewind back to January 2025, which feels like forever ago, Microsoft and Amazon were pulling back on CapEx.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 155,
+          "t": [
+            823.198,
+            831.501
+          ],
+          "quote": "But at that time, again, to remind the audience, at that time, everyone was talking about 10 gigawatts, then 30 gigawatts and 100 gigawatts of capex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 158,
+          "t": [
+            838.524,
+            846.027
+          ],
+          "quote": "And so if you kind of think about those dollars of CapEx, the only possible way to pay those dollars back is going to be AGI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 166,
+          "t": [
+            900.163,
+            912.125
+          ],
+          "quote": "which is the current status quo of we're spending $200 billion a year on CapEx, and yes, we're renting our GPUs, so revenue is accelerating, but fundamentally, there's not a new business line coming out of it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 527,
+          "t": [
+            2483.257,
+            2485.579
+          ],
+          "quote": "you know, $200 billion in capex.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 529,
+          "t": [
+            2489.541,
+            2500.929
+          ],
+          "quote": "I think one thing to point out, and I think sometimes there's like some finance 101 that kind of gets lost in these conversations where it's like, you know, if I build a house and then rent the house to you, that's capex with revenue.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 538,
+          "t": [
+            2541.316,
+            2546.118
+          ],
+          "quote": "And sometimes I look at this CapEx boom and it's like, I think it's almost downstream of this resource curse.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 677,
+          "t": [
+            3153.657,
+            3180.264
+          ],
+          "quote": "um and it's just because you're like nimble and you move fast and you're adaptive and you're aggressive um so i think saya's had this strategy um and when i look back at 2025 when he attempted to kind of pull back on capex and had oracle do a lot of the capex i thought that was a pretty smart strategic calculation he also updated pretty quickly that this thing is taking longer than he expected and so he still has to be in the game and so when i think about a company that's playing its cards just really well i think",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 722,
+          "t": [
+            3338.068,
+            3340.248
+          ],
+          "quote": "They're blowing hundreds of billions of dollars on CapEx.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 726,
+          "t": [
+            3359.918,
+            3363.921
+          ],
+          "quote": "So it's like, oh yeah, spending hundreds of millions of dollars in CapEx, that's like a do nothing strategy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 730,
+          "t": [
+            3376.349,
+            3397.752
+          ],
+          "quote": "well positioned for that and then if it doesn't happen they're kind of in the bath with everybody else on the capex that they've spent and so it's like where's the edginess where's the spike that makes you think like man this is a great strategy so again i don't know some strategies i understand more than others i i assume these companies uh have better strategies but i do think the founder-led companies",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 735,
+          "t": [
+            3414.377,
+            3417.158
+          ],
+          "quote": "Like if it does commoditize, Apple's not spending money on CapEx.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ai-roi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI ROI",
+      "file": "AI ROI",
+      "primary": true,
+      "how_described": "本集把它说成:AI 投资回报率,探讨行业到底能不能赚回 4 万亿美元的生命周期收入来回本",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 24,
+          "t": [
+            100.939,
+            105.843
+          ],
+          "quote": "This was long before the term AI ROI was in vogue.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 65,
+          "t": [
+            330.264,
+            339.947
+          ],
+          "quote": "I think probably your listeners have heard a lot about this topic in the last year and the AI ROI debate, which is now what everyone calls this is raging full speed.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vertical-integration",
+      "type": "concept",
+      "role": "concept",
+      "name": "垂直整合 (vertical integration)",
+      "file": "垂直整合",
+      "primary": true,
+      "how_described": "本集把它说成:超大规模云厂商试图把硬件、数据中心和模型全包揽的模式,但过去两年的证据表明这并未带来明显的模型优势",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 556,
+          "t": [
+            2604.762,
+            2608.804
+          ],
+          "quote": "Now, sure, my internal team can be a customer of that business and there's advantages to vertical integration.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 557,
+          "t": [
+            2609.304,
+            2614.887
+          ],
+          "quote": "But one thing, and I've been writing about vertical integration for a couple of years, the reality is when you look at the ecosystem today versus two years ago,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 558,
+          "t": [
+            2615.547,
+            2620.173
+          ],
+          "quote": "vertically integrated companies have not been able to leverage that vertical integration into some model advantage.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 559,
+          "t": [
+            2620.413,
+            2631.367
+          ],
+          "quote": "And so at some point, and this is where I think a great chess player has to change strategies or a great Stargraph player, like at some point you get data, like I think there is data that vertical integration isn't resulting in the advantages that these companies thought it was going to.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 580,
+          "t": [
+            2743.824,
+            2748.911
+          ],
+          "quote": "I think like every 10 years, you know, the Harvard MBA professors change their mind and like, is vertical integration good or bad?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 582,
+          "t": [
+            2752.934,
+            2755.495
+          ],
+          "quote": "Like there's elements in which vertical integration is good.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 583,
+          "t": [
+            2755.635,
+            2766.022
+          ],
+          "quote": "You look at Tesla, you look at hardware companies, vertical integration typically is pretty good in the hardware supply chain because you have all these supply chain partners and your supply chain partners maybe don't have, you know, you look at SpaceX, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 588,
+          "t": [
+            2772.781,
+            2776.063
+          ],
+          "quote": "And Elon just squeezes vertical integration, vertical integration, vertical integration.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 589,
+          "t": [
+            2776.083,
+            2780.546
+          ],
+          "quote": "And so now vertical integration is super hot because Elon has done such a great job of vertical integration.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 590,
+          "t": [
+            2781.347,
+            2789.313
+          ],
+          "quote": "Let's propose the hypothesis that vertical integration between software and hardware, which is what they're trying to do with the chip and the data center and the model,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 608,
+          "t": [
+            2837.079,
+            2839.522
+          ],
+          "quote": "The anti-vertical integration argument is capitalism, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2853.811,
+            2856.852
+          ],
+          "quote": "And maybe Apple is sort of the anti-vertical integration, right?",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cognitive-labor",
+      "type": "concept",
+      "role": "concept",
+      "name": "认知劳动 (cognitive labor)",
+      "file": "认知劳动",
+      "primary": true,
+      "how_described": "本集把它说成:目前 99% 由人类完成,但 50 年后可能只有 1% 由人类做,AI 自动化这些劳动被视为真正的可寻址市场",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 106,
+          "t": [
+            535.335,
+            541.861
+          ],
+          "quote": "And so I do think in the long run, like I said, I think 99% of cognitive labor is going to be done by AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 268,
+          "t": [
+            1380.256,
+            1385.801
+          ],
+          "quote": "And so, you know, you try these technologies, you see that they're going to replace cognitive labor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 655,
+          "t": [
+            3038.947,
+            3051.118
+          ],
+          "quote": "But whatever it is, this definition that my partner Constantine proposed, which was basically you go from 1% of cognitive labor done by machine to 99% of cognitive labor done by machine, I think is probably the easiest definition, because that's what happened in the Industrial Revolution.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集把它说成:战略是网罗全世界最顶尖的 AI 人才以追逐 AGI,是历史上增长最快的公司",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 116,
+          "t": [
+            579.085,
+            603.658
+          ],
+          "quote": "not only is it feasible but we're making tremendous progress right i think it is worth saying and i said this in the 1.5 trillion post i mean what what has happened with anthropic in the last year is nothing short of mind-blowing to anyone who studied companies right it's the fastest growing company in history and so i think it's more than feasible there's real tangible progress when i trace back when i first published the 600 billion dollar question i said basically open ai is the lion's share of revenue i think at that time it was 12 billion",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 117,
+          "t": [
+            604.628,
+            607.389
+          ],
+          "quote": "Today, it's $100 billion plus across OpenAI and Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 125,
+          "t": [
+            634.242,
+            637.604
+          ],
+          "quote": "And you had OpenAI there and Anthropic there and then all the cloud services.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            642.648,
+            663.855
+          ],
+          "quote": "it has sort of given birth to brand new use cases and new very lucrative lines of business like i'll go back to one of your 2025 posts talking about the chat gpt and an anthropic revenue chat gpt has continued its epic rise north of 12 billion run rate in revenue and anthropic has reached 5 billion in run rate revenue",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            673.703,
+            689.951
+          ],
+          "quote": "that Anthropic revenue was going to 10X this year, which is clearly what's gonna happen, was Dario, who said it very clearly that they went from one billion, or they went from, yeah, they went one billion in 2024, they were gonna do 10 billion in 2025, and who knows what happens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            698.296,
+            700.937
+          ],
+          "quote": "And then Anthropic went from having a,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1785.012,
+            1790.575
+          ],
+          "quote": "For Anthropic, I wrote the strategy is dominate enterprise, dominate code via products and API.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 358,
+          "t": [
+            1806.756,
+            1829.555
+          ],
+          "quote": "I think it's been very clear, Anthropic has had a very consistent strategy, which is they stand for something, they know what they stand for, and that enables them to recruit exceptional talent, and that talent compounds, because in their view, and I think in a lot of people's views, Zuck clearly believes the same thing, talent is the scarce resource right now, and so corner this scarce resource called talent, you got these people fighting for you, and that's how you win.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 364,
+          "t": [
+            1859.094,
+            1865.237
+          ],
+          "quote": "And that does seem to be one assessment of where Anthropic is playing right now.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 366,
+          "t": [
+            1866.799,
+            1886.859
+          ],
+          "quote": "again i'm going to push back on this like okay exactly where i think everyone gets confused because you sort of mix models here and you sort of you have to focus on what's the strategy the strategy and you can back test this back to before anthropic was famously successful it's like the strategy has always been extremely consistent deeply philosophically believe in agi it is all about getting to agi they believe we are going to get there",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2014.293,
+            2021.759
+          ],
+          "quote": "And I think what's beautiful about, as a student of the game, what's beautiful about the game that Anthropic's playing is that they're so consistent on that strategy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2120.857,
+            2125.98
+          ],
+          "quote": "Okay, this is funny because what I wrote down for OpenAI actually sounds a lot like what you said for Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2182.602,
+            2187.904
+          ],
+          "quote": "Okay, so I think, is what you're saying about OpenAI kind of like their yes anding anthropic?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 664,
+          "t": [
+            3073.412,
+            3086.845
+          ],
+          "quote": "I basically have it that Microsoft is going to try to knock OpenAI and Anthropic down a peg, which I think we've kind of talked about is turn those models into a commodity and leverage existing enterprise relationships for profit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 743,
+          "t": [
+            3453.934,
+            3456.195
+          ],
+          "quote": "Everyone always said about Anthropic, like they're on a knife's edge.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集把它说成:战略是大家低估了 AGI,因此要做最激进、最敢冒险的玩家,并且发明了这个领域",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 117,
+          "t": [
+            604.628,
+            607.389
+          ],
+          "quote": "Today, it's $100 billion plus across OpenAI and Anthropic.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 125,
+          "t": [
+            634.242,
+            637.604
+          ],
+          "quote": "And you had OpenAI there and Anthropic there and then all the cloud services.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 429,
+          "t": [
+            2120.857,
+            2125.98
+          ],
+          "quote": "Okay, this is funny because what I wrote down for OpenAI actually sounds a lot like what you said for Anthropic.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2126.1,
+            2130.042
+          ],
+          "quote": "My line for OpenAI is build the smartest possible AI and figure it out.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 434,
+          "t": [
+            2133.879,
+            2145.288
+          ],
+          "quote": "I think OpenAI's strategy is everybody underestimates AGI, all in AGI, and we're going to be the most aggressive, and everybody else is going to take fewer risks than we do, and we're ultimately going to be proven right and win.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2157.958,
+            2163.462
+          ],
+          "quote": "And by the way, I think OpenAI has the added advantage, back to my resource thing of what are your resources, where OpenAI invented the field.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2168.846,
+            2176.072
+          ],
+          "quote": "If anything, Zuck's attempt to compete with OpenAI and just the failure of that so far just demonstrates how good the talent still at OpenAI is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 446,
+          "t": [
+            2182.602,
+            2187.904
+          ],
+          "quote": "Okay, so I think, is what you're saying about OpenAI kind of like their yes anding anthropic?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 664,
+          "t": [
+            3073.412,
+            3086.845
+          ],
+          "quote": "I basically have it that Microsoft is going to try to knock OpenAI and Anthropic down a peg, which I think we've kind of talked about is turn those models into a commodity and leverage existing enterprise relationships for profit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 667,
+          "t": [
+            3096.514,
+            3100.158
+          ],
+          "quote": "I think they don't get enough credit for the fact that they own so much of OpenAI, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 679,
+          "t": [
+            3183.904,
+            3191.612
+          ],
+          "quote": "So Microsoft benefits, if OpenAI and the labs win and it's all frontier models and it's not commoditized, he owns a lot of that, he's going to do great.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集把它说成:手握搜索印钞机和自研 TPU 两大王牌,但却在囤积 TPU 亲自下场追逐 AGI,战略执行看起来有些脱节",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 174,
+          "t": [
+            936.912,
+            943.195
+          ],
+          "quote": "The financial market kind of likes to ignore sometimes what people are saying because kind of hard to own Google on the assumption of AGI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1725.703,
+            1750.738
+          ],
+          "quote": "and um and then i think there's a question of like you know there's three races in starcraft like what is your what are your intrinsic abilities we'll get into google maybe one race microsoft's other race like what are your intrinsic abilities and intrinsic capabilities and then the last metaphor i used in this post was azad which is this fictional game in ian banks uh the player of games he imagines a civilization where you literally play a strategy game and whoever wins becomes emperor",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 463,
+          "t": [
+            2266.968,
+            2271.05
+          ],
+          "quote": "And let's move on to the next company, which is Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2271.23,
+            2275.552
+          ],
+          "quote": "So my one-liner for Google is, this is really fun by the way.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2283.817,
+            2290.3
+          ],
+          "quote": "Okay, so for Google, mine is, change search just enough to keep our customers and cross our fingers.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 471,
+          "t": [
+            2294.845,
+            2297.206
+          ],
+          "quote": "Google is hard, so we'll spend some time on it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2297.226,
+            2300.568
+          ],
+          "quote": "Google is hard because it doesn't seem to be run by a single individual with a single vision.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2301.209,
+            2309.574
+          ],
+          "quote": "And I think there's varying degrees to which this is true for the hyperscalers, but let me tell you what I would have the Google strategy be, and then let's try to understand what it actually is.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2310.294,
+            2313.236
+          ],
+          "quote": "Google's number one, Google has two big advantages, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2330.931,
+            2333.793
+          ],
+          "quote": "And so if I was Google, I would be all in TPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2385.553,
+            2406.107
+          ],
+          "quote": "google has this sort of like more insular thing right google for the last 30 years has built everything themselves right like everything is built in-house everything is invented here uh even though they invented all the core technology behind ai they like couldn't really figure out how to do anything with it um now they've been good at acquisitions historically so like they've acquired a lot of companies and they're good at acquiring talent and their tech is technical team is really good",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2406.807,
+            2410.736
+          ],
+          "quote": "But if I was running Google, to me, it's like the all-in TPU strategy just seems so smart.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2417.26,
+            2419.621
+          ],
+          "quote": "But Google, and now let's come back to what is Google actually doing?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 512,
+          "t": [
+            2447.988,
+            2454.072
+          ],
+          "quote": "I just struggle sometimes where Google is one where I said, like, Dario's playing a beautiful game.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 517,
+          "t": [
+            2462.515,
+            2464.417
+          ],
+          "quote": "Google, it's an amazing company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 520,
+          "t": [
+            2467.821,
+            2470.403
+          ],
+          "quote": "So in some ways, Google is the easiest to appreciate as a company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 525,
+          "t": [
+            2478.933,
+            2481.796
+          ],
+          "quote": "I don't have a clear as a view at Google on what they're doing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 541,
+          "t": [
+            2549.279,
+            2556.402
+          ],
+          "quote": "I'm in this like game theory with Amazon, Microsoft, and Google all have these cloud businesses and it's an oligopoly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 561,
+          "t": [
+            2659.945,
+            2662.086
+          ],
+          "quote": "is like, is Google search like the canals, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 562,
+          "t": [
+            2662.126,
+            2664.888
+          ],
+          "quote": "Is Google search just like these ad driven businesses?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2664.928,
+            2669.311
+          ],
+          "quote": "Part of why I think Meta and Google are so all in AI is their businesses are the most at risk from AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 574,
+          "t": [
+            2728.626,
+            2731.128
+          ],
+          "quote": "If you're Google, maybe in Google Maps or Gmail, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 684,
+          "t": [
+            3202.702,
+            3225.371
+          ],
+          "quote": "he's sort of slower he's not you know you don't see saya publishing a tweet every day about some new thing they're doing he's like a little bit more slow you know again on my comment google i said what i would do i think i would probably be more aggressive if i was him on m a like he's been a great buyer in the past he's he's uh he's someone that i think knows how to get the most out of companies so i'm surprised they've been less aggressive on m a but again like",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 700,
+          "t": [
+            3269.506,
+            3274.187
+          ],
+          "quote": "Their cloud business does seem to be like losing share to Azure and Google over time.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 704,
+          "t": [
+            3281.429,
+            3288.53
+          ],
+          "quote": "So I think Azure and Google and GCP have kind of caught up and have some pretty good advantages on AI cloud.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 817,
+          "t": [
+            3673.808,
+            3678.772
+          ],
+          "quote": "Okay, so for SpaceX, is SpaceX kind of pursuing the strategy that you wanted for Google?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tpu",
+      "type": "concept",
+      "role": "concept",
+      "name": "TPU",
+      "file": "TPU",
+      "primary": true,
+      "how_described": "本集把它说成:Google 自研的、专为机器学习定制的优质芯片,被 Google 囤积供自家用",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 476,
+          "t": [
+            2317.795,
+            2318.856
+          ],
+          "quote": "And then number two, it has TPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2319.376,
+            2322.539
+          ],
+          "quote": "And I cannot overstate what an advantage it is to have TPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 481,
+          "t": [
+            2330.931,
+            2333.793
+          ],
+          "quote": "And so if I was Google, I would be all in TPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2406.807,
+            2410.736
+          ],
+          "quote": "But if I was running Google, to me, it's like the all-in TPU strategy just seems so smart.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 502,
+          "t": [
+            2413.182,
+            2415.247
+          ],
+          "quote": "We can build a multi-trillion dollar company just on TPU.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 553,
+          "t": [
+            2592.037,
+            2594.538
+          ],
+          "quote": "Like, I just think the TPU is a wonderful product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 560,
+          "t": [
+            2631.747,
+            2659.345
+          ],
+          "quote": "drive and so okay like maybe maybe there's a different strategy and i think there is a coherent strategy that's like we're gonna have one team chase agi and we're gonna also monetize this tpu asset and um and then there's the search question right like in some ways if you do the old school you know there's the alistair narn who i love and think very highly of and who wrote the book the engines that move markets which is like the great book on technology investing who says it's easier to short the canal than it is to be like figure out which railroad's gonna win",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": true,
+      "how_described": "本集把它说成:下了一手通杀的好牌,如果 OpenAI 赢了跟着赢,如果模型被商品化了就靠无敌的企业分发渠道赢",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            737.896,
+            750.94
+          ],
+          "quote": "AI is moving so fast that I feel like we sometimes, it's like people can't remember what happened less than two weeks ago, but if you rewind back to January 2025, which feels like forever ago, Microsoft and Amazon were pulling back on CapEx.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 144,
+          "t": [
+            757.503,
+            762.706
+          ],
+          "quote": "And then Microsoft and Amazon both got penalized by the stock market where people said, oh, they're not bullish enough on AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 176,
+          "t": [
+            945.476,
+            951.559
+          ],
+          "quote": "And so we sort of pair that back into some, oh, there's going to be some ROI, you know, Microsoft's going to announce earnings.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 344,
+          "t": [
+            1725.703,
+            1750.738
+          ],
+          "quote": "and um and then i think there's a question of like you know there's three races in starcraft like what is your what are your intrinsic abilities we'll get into google maybe one race microsoft's other race like what are your intrinsic abilities and intrinsic capabilities and then the last metaphor i used in this post was azad which is this fictional game in ian banks uh the player of games he imagines a civilization where you literally play a strategy game and whoever wins becomes emperor",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2031.908,
+            2038.493
+          ],
+          "quote": "And so, of course, Microsoft is going to bet on commoditization because based on Microsoft's strategic position, that is a good bet worth making.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2206.691,
+            2208.512
+          ],
+          "quote": "And then he raised $10 billion from Microsoft, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 541,
+          "t": [
+            2549.279,
+            2556.402
+          ],
+          "quote": "I'm in this like game theory with Amazon, Microsoft, and Google all have these cloud businesses and it's an oligopoly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 663,
+          "t": [
+            3071.37,
+            3072.731
+          ],
+          "quote": "So here's mine for Microsoft.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 664,
+          "t": [
+            3073.412,
+            3086.845
+          ],
+          "quote": "I basically have it that Microsoft is going to try to knock OpenAI and Anthropic down a peg, which I think we've kind of talked about is turn those models into a commodity and leverage existing enterprise relationships for profit.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 666,
+          "t": [
+            3092.529,
+            3095.933
+          ],
+          "quote": "And I've always sort of, I think had this pretty optimistic view on Microsoft.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 668,
+          "t": [
+            3100.298,
+            3106.125
+          ],
+          "quote": "Like the deal-making that Satya has demonstrated in his career as Microsoft CTO is just unmatched.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 672,
+          "t": [
+            3138.068,
+            3143.511
+          ],
+          "quote": "And I think to your point, to some degree, I think Microsoft's strategy right now is like, whoever wins will win, you know?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 678,
+          "t": [
+            3181.642,
+            3183.644
+          ],
+          "quote": "Microsoft's distribution machine is amazing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 679,
+          "t": [
+            3183.904,
+            3191.612
+          ],
+          "quote": "So Microsoft benefits, if OpenAI and the labs win and it's all frontier models and it's not commoditized, he owns a lot of that, he's going to do great.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 720,
+          "t": [
+            3330.465,
+            3334.366
+          ],
+          "quote": "Obviously there's less intellectually interesting about Microsoft strategy.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": true,
+      "how_described": "本集把它说成:靠天价薪酬收购人才和公司的雇佣军打法,但面临组织内部文化撕裂和顶尖年轻人才流失的问题",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 153,
+          "t": [
+            818.016,
+            821.037
+          ],
+          "quote": "I just read Hyperion, which is the name of Meta's new data center.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 359,
+          "t": [
+            1830.735,
+            1842.357
+          ],
+          "quote": "Yeah, and it is interesting, like if that is Anthropix play, they actually lost far fewer people than competitors did to Meta during the Meta super intelligence lab poaching spree back in the day.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 563,
+          "t": [
+            2664.928,
+            2669.311
+          ],
+          "quote": "Part of why I think Meta and Google are so all in AI is their businesses are the most at risk from AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 573,
+          "t": [
+            2725.764,
+            2728.226
+          ],
+          "quote": "Like if you're meta, you can put it into play in a consumer product.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 619,
+          "t": [
+            2882.002,
+            2889.806
+          ],
+          "quote": "So for Meta, I have commoditize or complements, spin the wheels until someone builds a good consumer AI application, and then copy it and distribute it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 624,
+          "t": [
+            2904.575,
+            2908.858
+          ],
+          "quote": "And again, the question for Meta is like, can a mercenary army do as well as a missionary army?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 628,
+          "t": [
+            2917.785,
+            2921.587
+          ],
+          "quote": "I happen to think that the people they've acquired are very good and that the team is very good inside of Meta.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 638,
+          "t": [
+            2940.788,
+            2967.173
+          ],
+          "quote": "emergent question in 2026 is do you have this cultural dysfunction where you have this organization with tens and tens of thousands of people and then you have these 50 people off in the ivory tower working on the thing that matters clearly and you see all these leaked press releases and whatnot clearly there's this organizational dysfunction that has emerged as a result of this and so i think the question for meta is uh what happens and then the other question you know when i graduated college meta was like the hottest place in the world to work",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 647,
+          "t": [
+            2989.732,
+            3017.925
+          ],
+          "quote": "organic talent flows simply are not there for the big tech companies in a way that 10 years ago really good people did go to work at these companies and today they are not perceived as leading edge companies uh for meta if they figure it out like let's say everything goes their way doesn't it not really matter if there's no like consumer widespread like consumer application of ai like super personal super intelligence or do you feel that if they're able to succeed in their strategy of this you know buy talent or talent",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 657,
+          "t": [
+            3055.022,
+            3063.211
+          ],
+          "quote": "Whatever version of that future is, Zuck is going to be a very wealthy man if Meta wins that race, and shareholders will be rewarded if they win that race.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 823,
+          "t": [
+            3698.327,
+            3719.053
+          ],
+          "quote": "to me spacex is like a meta commentary on financial markets which i love which is like you know i mentioned earlier like silicon valley's eating the world over the last 60 years like it's been amazing we have chips we have moore's law like so many good things have happened and then we like have resulted in like you know instagram and tick tock and whatever you know it's just like not i don't think that like hope the hope for humanity element has been a little missing",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 824,
+          "t": [
+            3719.533,
+            3724.276
+          ],
+          "quote": "And the Elon is almost this like meta commentary, which is like if you move civilization forward, then you like make a lot of money.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": true,
+      "how_described": "本集把它说成:采取躺平策略,动作最少,只想靠卖算力赚钱,却因巨额资本支出陷入进退两难",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            737.896,
+            750.94
+          ],
+          "quote": "AI is moving so fast that I feel like we sometimes, it's like people can't remember what happened less than two weeks ago, but if you rewind back to January 2025, which feels like forever ago, Microsoft and Amazon were pulling back on CapEx.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 144,
+          "t": [
+            757.503,
+            762.706
+          ],
+          "quote": "And then Microsoft and Amazon both got penalized by the stock market where people said, oh, they're not bullish enough on AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 541,
+          "t": [
+            2549.279,
+            2556.402
+          ],
+          "quote": "I'm in this like game theory with Amazon, Microsoft, and Google all have these cloud businesses and it's an oligopoly.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 688,
+          "t": [
+            3238.458,
+            3239.62
+          ],
+          "quote": "So here's mine for Amazon.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 694,
+          "t": [
+            3250.103,
+            3251.424
+          ],
+          "quote": "What is Amazon strategy?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 728,
+          "t": [
+            3368.464,
+            3373.407
+          ],
+          "quote": "And so in some ways I worry for Amazon, which is like heads I lose, tails I lose.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "apple",
+      "type": "company",
+      "role": "company",
+      "name": "Apple",
+      "file": "Apple",
+      "primary": true,
+      "how_described": "本集把它说成:什么都不做、不在 CapEx 上花钱的策略,如果未来模型真的被彻底商品化,十年后看起来会像天才",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 612,
+          "t": [
+            2853.811,
+            2856.852
+          ],
+          "quote": "And maybe Apple is sort of the anti-vertical integration, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2857.252,
+            2863.854
+          ],
+          "quote": "Apple assembles the iPhone, somebody makes this chip, somebody makes the camera, somebody makes this, somebody makes that, and I just make sure the product is amazing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 614,
+          "t": [
+            2864.214,
+            2871.856
+          ],
+          "quote": "And Apple is better off buying the camera from some guy who makes the camera because there's 30 guys trying to make the camera for Apple, and I get to pick the best one.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 733,
+          "t": [
+            3406.515,
+            3408.476
+          ],
+          "quote": "Apple is the one, by the way, with the do nothing strategy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 734,
+          "t": [
+            3408.496,
+            3414.037
+          ],
+          "quote": "Like you gotta look at Apple and say, wow, like there's some chance that Apple just comes out looking like a genius on this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 735,
+          "t": [
+            3414.377,
+            3417.158
+          ],
+          "quote": "Like if it does commoditize, Apple's not spending money on CapEx.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 736,
+          "t": [
+            3417.638,
+            3419.378
+          ],
+          "quote": "Apple really is the do nothing strategy.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 737,
+          "t": [
+            3419.799,
+            3424.92
+          ],
+          "quote": "Obviously investors are penalizing that for them today, but you can imagine the scenario where Apple looks great in 10, 20 years.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 739,
+          "t": [
+            3427.181,
+            3433.004
+          ],
+          "quote": "And so Apple in some ways is also an opinionated strategy in a way that some of the hyperscalers are not.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集把它说成:不像其他公司那样抢份额,而是靠投资初创公司扶持生态系统,根本世界观是“把蛋糕做大”",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            155.205,
+            178.89
+          ],
+          "quote": "so if nvidia sells 50 billion dollars in run rate gpu revenue by the end of the year that implies an approximately 100 billion dollars in cumulative data center expenditures let's assume those building them need to earn a 50 margin that applies for each year of current gpu capex 200 billion of lifetime revenue would need to be generated by these gpus to pay back",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 60,
+          "t": [
+            306.222,
+            311.184
+          ],
+          "quote": "And I think the reason for that, at that point, if you remember, that was when NVIDIA became the most valuable company in the world.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2410.756,
+            2413.142
+          ],
+          "quote": "It's like, hey, NVIDIA is a $5 trillion company.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 552,
+          "t": [
+            2587.277,
+            2590.464
+          ],
+          "quote": "But to me, it's like, I would try to build an Nvidia competitor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 747,
+          "t": [
+            3464.66,
+            3468.962
+          ],
+          "quote": "NVIDIA, this is probably too glib, but I just pray that inference isn't commoditized.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 748,
+          "t": [
+            3469.443,
+            3471.784
+          ],
+          "quote": "I would say NVIDIA prop up the AI ecosystem.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 752,
+          "t": [
+            3479.865,
+            3483.046
+          ],
+          "quote": "If AI works and doesn't crash, Nvidia is gonna be in a great spot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 755,
+          "t": [
+            3493.763,
+            3495.904
+          ],
+          "quote": "2023, it was the year of NVIDIA, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 756,
+          "t": [
+            3496.084,
+            3497.645
+          ],
+          "quote": "NVIDIA is like the greatest company ever.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 761,
+          "t": [
+            3503.928,
+            3509.591
+          ],
+          "quote": "It's like, when you think about 2023, it was like this amazing crowning moment for NVIDIA.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 771,
+          "t": [
+            3535.146,
+            3541.91
+          ],
+          "quote": "They're not quite as good as Broadcom or NVIDIA from just like a raw amazingness perspective, if you will, but fine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 773,
+          "t": [
+            3550.578,
+            3551.418
+          ],
+          "quote": "So he's on Nvidia.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 780,
+          "t": [
+            3575.537,
+            3580.62
+          ],
+          "quote": "Nvidia stocks barely moved this year, even though these high-flying beta companies are going crazy because they're raising price.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": true,
+      "how_described": "本集把它说成:Elon 旗下的公司,追求目前对人类最宏大的使命,拥有最乐观、亲人类的愿景",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 583,
+          "t": [
+            2755.635,
+            2766.022
+          ],
+          "quote": "You look at Tesla, you look at hardware companies, vertical integration typically is pretty good in the hardware supply chain because you have all these supply chain partners and your supply chain partners maybe don't have, you know, you look at SpaceX, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 817,
+          "t": [
+            3673.808,
+            3678.772
+          ],
+          "quote": "Okay, so for SpaceX, is SpaceX kind of pursuing the strategy that you wanted for Google?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 823,
+          "t": [
+            3698.327,
+            3719.053
+          ],
+          "quote": "to me spacex is like a meta commentary on financial markets which i love which is like you know i mentioned earlier like silicon valley's eating the world over the last 60 years like it's been amazing we have chips we have moore's law like so many good things have happened and then we like have resulted in like you know instagram and tick tock and whatever you know it's just like not i don't think that like hope the hope for humanity element has been a little missing",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 854,
+          "t": [
+            3801.198,
+            3804.12
+          ],
+          "quote": "SpaceX is pursuing the biggest missions for humanity right now.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "saas",
+      "type": "concept",
+      "role": "concept",
+      "name": "SaaS",
+      "file": "SaaS",
+      "primary": false,
+      "how_described": "本集把它说成:通过云端交付的应用软件,是一个大约 5000 亿美元的市场",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 84,
+          "t": [
+            446.742,
+            453.526
+          ],
+          "quote": "Why don't you compare it to like, what we see in sat like the total, I think the total SaaS industry makes less than a less than a trillion a year.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 91,
+          "t": [
+            486.078,
+            489.259
+          ],
+          "quote": "And then you have SaaS applications, roughly a $500 billion market.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sequoia-capital",
+      "type": "company",
+      "role": "company",
+      "name": "Sequoia Capital",
+      "file": "Sequoia Capital",
+      "primary": false,
+      "how_described": "本集提到嘉宾 David Cahn 是这家投资机构的合伙人",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 326,
+          "t": [
+            1655.537,
+            1657.759
+          ],
+          "quote": "He is a partner at Sequoia Capital.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "oracle",
+      "type": "company",
+      "role": "company",
+      "name": "Oracle",
+      "file": "Oracle",
+      "primary": false,
+      "how_described": "本集提到微软在 2025 年曾试图缩减资本支出,让 Oracle 来承担其中很大一部分",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            751.38,
+            754.161
+          ],
+          "quote": "And there was this moment of like, well, we'll have Oracle do it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 143,
+          "t": [
+            755.001,
+            757.083
+          ],
+          "quote": "and it's super risky, why not have Oracle do it?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 677,
+          "t": [
+            3153.657,
+            3180.264
+          ],
+          "quote": "um and it's just because you're like nimble and you move fast and you're adaptive and you're aggressive um so i think saya's had this strategy um and when i look back at 2025 when he attempted to kind of pull back on capex and had oracle do a lot of the capex i thought that was a pretty smart strategic calculation he also updated pretty quickly that this thing is taking longer than he expected and so he still has to be in the game and so when i think about a company that's playing its cards just really well i think",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -31,7 +31,7 @@ unlisted: true
 
 [[Lenny]] · [[Anthropic]] · [[智能体]] · [[Claude]] · [[Claude Code]] · [[Slack]] · [[Jenny Wen]] · [[Fiona Fung]] · [[Andrew Ambrosino]] · [[Tom Verrilli]]
 
-<script type="application/json" class="pd-epn">{"Lenny":33,"Anthropic":31,"智能体":50,"Claude":11,"Claude Code":13,"Slack":11,"Jenny Wen":1,"Fiona Fung":1,"Andrew Ambrosino":1,"Tom Verrilli":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":33,"Anthropic":32,"智能体":50,"Claude":11,"Claude Code":13,"Slack":11,"Jenny Wen":1,"Fiona Fung":1,"Andrew Ambrosino":1,"Tom Verrilli":1}</script>
 
 <script>
 (function(){

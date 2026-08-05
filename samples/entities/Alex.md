@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Alex</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Alex">AL</div><div class="pi"><h1 class="pt">Alex</h1><div class="byl">Big Technology Podcast 联合主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Alex">AL</div><div class="pi"><h1 class="pt">Alex</h1><div class="byl">Big Technology Podcast 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>7</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*6 条,均已过机器闸门*
+*7 条,均已过机器闸门*
 
 ![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q1]]
 
@@ -25,27 +25,22 @@ unlisted: true
 
 ![[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c#^q8]]
 
+![[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy#^q3]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|《AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算》]] — 作为联合主持
+- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Ranjan Roy]] · [[Google]] · [[OpenAI]] · [[Anthropic]] · [[SpaceX]] · [[Tesla]] · [[AGI]] · [[次级数据中心危机]] · [[资本支出]] · [[财富效应]]
+[[Google]] · [[OpenAI]] · [[Anthropic]] · [[SpaceX]] · [[AGI]] · [[资本支出]] · [[Ranjan Roy]] · [[David Cahn]] · [[Tesla]] · [[AI ROI]]
 
-## ④ 也在聊「创业与行业」的人
-
-<div class="pd-peers">
-
-[[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]]
-
-</div>
-
-<script type="application/json" class="pd-epn">{"Ranjan Roy":1,"Google":11,"OpenAI":26,"Anthropic":31,"SpaceX":2,"Tesla":5,"AGI":6,"次级数据中心危机":1,"资本支出":1,"财富效应":1}</script>
+<script type="application/json" class="pd-epn">{"Google":12,"OpenAI":27,"Anthropic":32,"SpaceX":3,"AGI":7,"资本支出":2,"Ranjan Roy":1,"David Cahn":1,"Tesla":5,"AI ROI":1}</script>
 
 <script>
 (function(){

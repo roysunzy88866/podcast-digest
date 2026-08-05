@@ -51,7 +51,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Anthropic]] · [[Claude Code]] · [[Claude]] · [[IC]] · [[提示词注入]] · [[Co-work]] · [[Fable]] · [[GitHub]]
 
-<script type="application/json" class="pd-epn">{"智能体":50,"Lenny":33,"Anthropic":31,"Claude Code":13,"Claude":11,"IC":4,"提示词注入":4,"Co-work":2,"Fable":3,"GitHub":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":50,"Lenny":33,"Anthropic":32,"Claude Code":13,"Claude":11,"IC":4,"提示词注入":4,"Co-work":2,"Fable":3,"GitHub":4}</script>
 
 <script>
 (function(){

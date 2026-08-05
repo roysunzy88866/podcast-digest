@@ -91,8 +91,8 @@ tags:
 **换个口味**
 
 - [[2026-05-10-lennys-how-to-build-a-company-that-withstands|为什么好公司会变坏：Eric Ries 的防腐架构学]] —— 同公司:Anthropic · 同概念:公益公司 (public benefit corporation)
+- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]] —— 同公司:Anthropic、Google、Meta、OpenAI · 同概念:AGI
 - [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]] —— 同公司:Anthropic、Google、Meta、OpenAI
-- [[2026-07-24-bigtech-what-happens-if-ai-fails-subprime-data-c|AI 繁荣若崩塌:数据中心债务、AGI 囤积与市场清算]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
 
 </div>
 </div>

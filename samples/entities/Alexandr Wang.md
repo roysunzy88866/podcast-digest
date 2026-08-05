@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]]
+[[David Cahn]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Scale":1,"Meta":9,"MuseSpark":1,"开源模型":3,"智能体":50,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":7,"Spark API":1}</script>
+<script type="application/json" class="pd-epn">{"Scale":1,"Meta":10,"MuseSpark":1,"开源模型":3,"智能体":50,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":7,"Spark API":1}</script>
 
 <script>
 (function(){

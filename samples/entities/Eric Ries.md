@@ -57,11 +57,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]]
+[[David Cahn]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":33,"Incorruptible":1,"Cloudflare":1,"Novo Nordisk":1,"Anthropic":31,"Vectura":1,"Groupon":1,"结构完整性":1,"公益公司":2,"金融重力":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":33,"Incorruptible":1,"Cloudflare":1,"Novo Nordisk":1,"Anthropic":32,"Vectura":1,"Groupon":1,"结构完整性":1,"公益公司":2,"金融重力":1}</script>
 
 <script>
 (function(){

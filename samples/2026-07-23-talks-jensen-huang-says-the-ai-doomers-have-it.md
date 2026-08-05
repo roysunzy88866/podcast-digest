@@ -91,9 +91,9 @@ tags:
 
 **顺着「创业与行业」挖下去**
 
+- [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]] —— 同公司:Anthropic、NVIDIA、OpenAI、Microsoft
 - [[2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and|Chamath 谈 AI：别信末日论，打破寡头垄断]] —— 同公司:Anthropic、NVIDIA、OpenAI
 - [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]] —— 同公司:NVIDIA、OpenAI、Anthropic、Microsoft · 同概念:数据中心 (data centers)
-- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]] —— 同公司:Anthropic、NVIDIA、OpenAI · 同概念:护栏 (guardrails)
 
 </div>
 <div class="pd-ex">

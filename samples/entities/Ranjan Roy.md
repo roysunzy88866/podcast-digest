@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]]
+[[David Cahn]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Alex":1,"Google":11,"OpenAI":26,"Anthropic":31,"SpaceX":2,"Tesla":5,"AGI":6,"次级数据中心危机":1,"资本支出":1,"财富效应":1}</script>
+<script type="application/json" class="pd-epn">{"Alex":2,"Google":12,"OpenAI":27,"Anthropic":32,"SpaceX":3,"Tesla":5,"AGI":7,"次级数据中心危机":1,"资本支出":2,"财富效应":1}</script>
 
 <script>
 (function(){

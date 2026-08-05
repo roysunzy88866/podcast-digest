@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]]
+[[David Cahn]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":33,"Surge AI":1,"Anthropic":31,"ChatGPT":11,"LLM Arena":1,"Waymo":7,"GPT-3":2,"Claude":11,"基准测试":1,"后训练":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":33,"Surge AI":1,"Anthropic":32,"ChatGPT":11,"LLM Arena":1,"Waymo":7,"GPT-3":2,"Claude":11,"基准测试":1,"后训练":1}</script>
 
 <script>
 (function(){

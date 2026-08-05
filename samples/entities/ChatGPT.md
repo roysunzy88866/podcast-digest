@@ -8,7 +8,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatGPT</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>11</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatGPT">CH</div><div class="pi"><h1 class="pt">ChatGPT</h1><div class="byl">公司 · 又名 chat gpt / ChatGPD</div><div class="nums">本站收录 <b>11</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -25,11 +25,13 @@ aliases: ["chat gpt", "ChatGPD"]
 
 ## ① 提到它的金句
 
-*2 条,均已过机器闸门*
+*3 条,均已过机器闸门*
 
 ![[2026-01-18-lennys-the-non-technical-pms-guide-to-building#^q1]]
 
 ![[2026-07-09-pg-pm-guide-ai-design#^q1]]
+
+![[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy#^q1]]
 
 ## ② 出现在这些集
 
@@ -53,7 +55,7 @@ aliases: ["chat gpt", "ChatGPD"]
 
 [[智能体]] · [[Lenny]] · [[Waymo]] · [[OpenAI]] · [[主观能动性]] · [[NVIDIA]] · [[Anthropic]] · [[强化学习]] · [[Google]] · [[Claude]]
 
-<script type="application/json" class="pd-epn">{"智能体":50,"Lenny":33,"Waymo":7,"OpenAI":26,"主观能动性":7,"NVIDIA":8,"Anthropic":31,"强化学习":4,"Google":11,"Claude":11}</script>
+<script type="application/json" class="pd-epn">{"智能体":50,"Lenny":33,"Waymo":7,"OpenAI":27,"主观能动性":7,"NVIDIA":9,"Anthropic":32,"强化学习":4,"Google":12,"Claude":11}</script>
 
 <script>
 (function(){
