@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]]
+[[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Peter Steinberger":2,"OpenAI":27,"智能体":50,"Codex":11,"循环":1,"协作界面":1,"测试框架":4,"压缩":1,"委托":1,"持久化上下文":1}</script>
+<script type="application/json" class="pd-epn">{"Peter Steinberger":2,"OpenAI":27,"智能体":51,"Codex":12,"循环":1,"协作界面":1,"测试框架":4,"压缩":1,"委托":1,"持久化上下文":1}</script>
 
 <script>
 (function(){

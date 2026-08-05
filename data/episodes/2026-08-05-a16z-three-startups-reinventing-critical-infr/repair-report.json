@@ -1,0 +1,43 @@
+{
+  "kept": [
+    {
+      "i": 1,
+      "timestamp": "11:22",
+      "speaker": "Willowryan",
+      "trimmed": false,
+      "tsWas": "11:22",
+      "spkWas": "Will O'Brien"
+    },
+    {
+      "i": 3,
+      "timestamp": "74:09",
+      "speaker": "SPEAKER_01",
+      "trimmed": true,
+      "tsWas": "74:07",
+      "spkWas": "Doug Berdauer"
+    },
+    {
+      "i": 4,
+      "timestamp": "68:55",
+      "speaker": "SPEAKER_03",
+      "trimmed": false,
+      "tsWas": "68:55",
+      "spkWas": "Doug Berdauer"
+    },
+    {
+      "i": 5,
+      "timestamp": "69:55",
+      "speaker": "SPEAKER_03",
+      "trimmed": false,
+      "tsWas": "69:52",
+      "spkWas": "Doug Berdauer"
+    }
+  ],
+  "dropped": [
+    {
+      "i": 2,
+      "reason": "逐字命中不了转写稿(裁剪后仍无)",
+      "en": "we are the only reactor permitted to, of these new reactors to go to full power."
+    }
+  ]
+}

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Slack</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Slack">SL</div><div class="pi"><h1 class="pt">Slack</h1><div class="byl">公司</div><div class="nums">本站收录 <b>11</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Slack">SL</div><div class="pi"><h1 class="pt">Slack</h1><div class="byl">公司</div><div class="nums">本站收录 <b>12</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -22,6 +22,7 @@ unlisted: true
 - **[[2026-06-24-pg-company-os-jz|《Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能》]]**(03:49起):本集展示员工如何生活在 Slack 中。团队直接在 Slack 里构建简单的自动化来收集功能请求、分配工单，并向员工及时交付智能体简报。
 - **[[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]]**(15:01起):本集把它说成:因架构合适,无意中成为大家跑智能体的平台,它证明了把地基打好让用户自行拓展的价值。
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(06:56起):本集把它说成:团队协作工具,ClaudeTag 扎根其中,让整个团队在同一频道里共同指挥智能体干活
+- **[[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]]**(06:39起):本集中作为通知渠道，智能体审查完 PR 后会在这里 ping 相关人员采取最终行动。
 
 ## ① 提到它的金句
 
@@ -31,7 +32,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*11 集*
+*12 集*
 
 - [[2025-11-20-lennys-slack-founder-stewart-butterfield|《Slack 创始人 Stewart Butterfield 谈产品品味与组织陷阱》]] — 作为被讨论公司
 - [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为被讨论公司(提及)
@@ -44,14 +45,15 @@ unlisted: true
 - [[2026-06-24-pg-company-os-jz|《Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能》]] — 作为被讨论公司
 - [[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]] — 作为被讨论公司
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念
+- [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Anthropic]] · [[Claude Code]] · [[Claude]] · [[IC]] · [[提示词注入]] · [[Co-work]] · [[Fable]] · [[GitHub]]
+[[智能体]] · [[Lenny]] · [[Anthropic]] · [[Claude Code]] · [[Claude]] · [[GitHub]] · [[IC]] · [[提示词注入]] · [[Co-work]] · [[Fable]]
 
-<script type="application/json" class="pd-epn">{"智能体":50,"Lenny":33,"Anthropic":32,"Claude Code":13,"Claude":11,"IC":4,"提示词注入":4,"Co-work":2,"Fable":3,"GitHub":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":51,"Lenny":33,"Anthropic":32,"Claude Code":13,"Claude":11,"GitHub":5,"IC":4,"提示词注入":4,"Co-work":2,"Fable":3}</script>
 
 <script>
 (function(){

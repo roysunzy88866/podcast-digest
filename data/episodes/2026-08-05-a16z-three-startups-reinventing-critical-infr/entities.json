@@ -1,0 +1,678 @@
+{
+  "episode_id": "2026-08-05-a16z-three-startups-reinventing-critical-infr",
+  "podcast": "The a16z Show",
+  "date": "2026-08-05",
+  "tags": [
+    "硬科技",
+    "关键矿物",
+    "自主水下航行器",
+    "核微反应堆",
+    "垂直整合"
+  ],
+  "categories": [
+    "创业与行业",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "willowryan",
+      "type": "person",
+      "role": "host",
+      "name": "Willowryan",
+      "file": "Willowryan",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            27.611,
+            31.954
+          ],
+          "quote": "First up, Ulysses Willowryan joined MTS last April after their latest fundraise.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "ulysses",
+      "type": "company",
+      "role": "company",
+      "name": "Ulysses",
+      "file": "Ulysses",
+      "primary": true,
+      "how_described": "本集说它是「海洋公司」，制造能像鲨鱼、可低成本成群部署的自主水下航行器（如 Mako），以「全栈」软硬件方案保护海底电缆等基础设施。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            7.142,
+            17.649
+          ],
+          "quote": "Ulysses builds mission-critical underwater robots, Mariana Minerals applies modern technologies to the critical mineral sector, and Radiant seeks to mass-produce nuclear microreactors.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 4,
+          "t": [
+            27.611,
+            31.954
+          ],
+          "quote": "First up, Ulysses Willowryan joined MTS last April after their latest fundraise.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 6,
+          "t": [
+            34.396,
+            38.559
+          ],
+          "quote": "So for the audience, what exactly is Ulysses and what do you do?",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 7,
+          "t": [
+            39.44,
+            41.982
+          ],
+          "quote": "Yes, at Ulysses we're building the ocean company.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 41,
+          "t": [
+            191.24,
+            193.501
+          ],
+          "quote": "It seems like Subnautica is like Ulysses the game.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 44,
+          "t": [
+            210.594,
+            214.697
+          ],
+          "quote": "Yeah, pretty much the average day in the life for a Ulysses forward deployed engineer.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 147,
+          "t": [
+            776.547,
+            799.427
+          ],
+          "quote": "divers are super expensive okay that could like pretty much bankrupt you if things are breaking and you can't fix them in time okay you have your Ulysses autonomous underwater robots that go in and like fix the cables underneath it and tie these things down or whatever so you're starting to see the preparation of tools now that I think that can actually reduce the cost of preparation down such that the benefits do outweigh the costs in something like seasteading.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 173,
+          "t": [
+            934.523,
+            944.309
+          ],
+          "quote": "So you are also, in addition to being the co-founder and CEO of Ulysses, the secretary of the Hamilton Society, which is one of my favorite things in SF, actually.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1208.629,
+            1213.752
+          ],
+          "quote": "So back to Ulysses, what is the ultimate vision for the company?",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1338.827,
+            1360.499
+          ],
+          "quote": "swarms of vehicles to solve various problems and yeah we have ocean you know sensors vehicles up and down kind of Earth's oceans every coastline and it just becomes a part of the infrastructure in the same way that like Stripe just became a part of the internet Ulysses just becomes a part of the ocean and it's just there they're just like these like your robot friends kind of fixing things and where you need when they need to be fixed.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "mariana-minerals",
+      "type": "company",
+      "role": "company",
+      "name": "Mariana Minerals",
+      "file": "Mariana Minerals",
+      "primary": true,
+      "how_described": "本集说它是一家「垂直整合的、软件优先的矿产项目开发商和运营商」，拒绝做单点 SaaS，通过自研软件栈让 200 人干传统大矿企一万人的活。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            7.142,
+            17.649
+          ],
+          "quote": "Ulysses builds mission-critical underwater robots, Mariana Minerals applies modern technologies to the critical mineral sector, and Radiant seeks to mass-produce nuclear microreactors.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1373.997,
+            1382.262
+          ],
+          "quote": "Next up, Mariana Minerals founder Turner Caldwell joined me, American Dynamism General Partner Aaron Price-Wright, and partner Ryan McIntosh on the podcast.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "radiant",
+      "type": "company",
+      "role": "company",
+      "name": "Radiant",
+      "file": "Radiant",
+      "primary": true,
+      "how_described": "本集说它制造可量产的便携式核微反应堆，像造汽车一样在流水线上每周产出一台，坚持创业只做「一个能通向产品和收入的奇迹」。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            7.142,
+            17.649
+          ],
+          "quote": "Ulysses builds mission-critical underwater robots, Mariana Minerals applies modern technologies to the critical mineral sector, and Radiant seeks to mass-produce nuclear microreactors.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 707,
+          "t": [
+            3780.887,
+            3793.916
+          ],
+          "quote": "Last up, Doug Berdauer, founder and CEO of Radiant, alongside Drew Baglino, founder and CEO of Heron, joined me and A16Z general partner Aaron Price-Wright to discuss nuclear's role in rebuilding America's energy infrastructure.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 709,
+          "t": [
+            3799.479,
+            3800.48
+          ],
+          "quote": "Doug, let's start with you and Radiant.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 741,
+          "t": [
+            3899.992,
+            3901.693
+          ],
+          "quote": "I founded Radiant and left to go run it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 765,
+          "t": [
+            3992.958,
+            4003.508
+          ],
+          "quote": "You know, I've been doing nuclear, well, thinking about it since 2016, but I founded Radiant in 2019 and then for a year just learned how to do reactor design and then raised money in 2020.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "a16z",
+      "type": "company",
+      "role": "company",
+      "name": "A16Z",
+      "file": "A16Z",
+      "primary": false,
+      "how_described": "本集说这是制作本期播客的机构，其 American Dynamism 团队投资了这三家硬科技公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            0.918,
+            6.122
+          ],
+          "quote": "Last month, A16Z American Dynamism Films screened short films about three portfolio companies.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 2,
+          "t": [
+            18.41,
+            21.652
+          ],
+          "quote": "Now, all three films are available on A16Z's YouTube channel.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 707,
+          "t": [
+            3780.887,
+            3793.916
+          ],
+          "quote": "Last up, Doug Berdauer, founder and CEO of Radiant, alongside Drew Baglino, founder and CEO of Heron, joined me and A16Z general partner Aaron Price-Wright to discuss nuclear's role in rebuilding America's energy infrastructure.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 878,
+          "t": [
+            4456.924,
+            4459.786
+          ],
+          "quote": "Thanks for listening to this episode of the A16Z podcast.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 881,
+          "t": [
+            4471.732,
+            4477.175
+          ],
+          "quote": "Follow us on X, the A16Z, and subscribe to our sub stack at a16z.substack.com.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 883,
+          "t": [
+            4482.3,
+            4495.07
+          ],
+          "quote": "As a reminder, the content here is for informational purposes only, should not be taken as legal business, tax, or investment advice, or be used to evaluate any investment or security, and is not directed at any investors or potential investors in any A16Z.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 884,
+          "t": [
+            4496.011,
+            4500.635
+          ],
+          "quote": "Please note that A16Z and its affiliates may also maintain investments in the companies discussed in this podcast.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 885,
+          "t": [
+            4501.215,
+            4507.861
+          ],
+          "quote": "For more details, including a link to our investments, please see a16z.com forward slash disclosures.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "spacex",
+      "type": "company",
+      "role": "company",
+      "name": "SpaceX",
+      "file": "SpaceX",
+      "primary": false,
+      "how_described": "本集将其作为海洋探索的标杆（希望 Ulysses 成为海洋的 SpaceX），并提到它是 Radiant 创始人曾工作 12 年并参与火星燃料设计的地方。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            240.441,
+            259.499
+          ],
+          "quote": "There's like a different narrative for the ocean and it's not, you haven't got this kind of like, you know, inspirational framing of like the iconic images of like Apollo and SpaceX, you know, rockets launching again and you haven't had a company like doing the kind of SpaceX version of like, let's make this domain sexy again for the ocean.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 82,
+          "t": [
+            426.913,
+            439.702
+          ],
+          "quote": "And it's exactly this kind of exploration spirit, this desire to conquer this great blue frontier that we're trying to reignite and be that SpaceX for the ocean that young kids are dreaming about being in.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 550,
+          "t": [
+            2944.756,
+            2956.686
+          ],
+          "quote": "It's like now we have technology that can actually go and disrupt this, but also as a talent base, people coming from companies like Tesla, SpaceX, Anduril, other sort of hard tech companies working in sort of dirty spaces, willing to go out in the fields.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 711,
+          "t": [
+            3802.322,
+            3804.044
+          ],
+          "quote": "So I was at SpaceX for 12 years.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "mp-materials",
+      "type": "company",
+      "role": "company",
+      "name": "MP Materials",
+      "file": "MP Materials",
+      "primary": false,
+      "how_described": "本集提到美国国防部跟它做了一笔交易，不仅签了带底价的承购协议，还参与了股权，被认为是支持关键矿物最有效的做法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 669,
+          "t": [
+            3544.42,
+            3547.682
+          ],
+          "quote": "And, you know, they did this just now with MP Materials.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 680,
+          "t": [
+            3609.122,
+            3611.904
+          ],
+          "quote": "Like the DOD, obviously, again, just did this big deal with MP materials.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "autonomous-underwater-vehicle",
+      "type": "concept",
+      "role": "concept",
+      "name": "自主水下航行器 (autonomous underwater vehicle)",
+      "file": "自主水下航行器",
+      "primary": true,
+      "how_described": "本集说中美在该领域目前处于同一数量级（各造数百台），而 Ulysses 的新设施单凭一己之力就能把全球供应量翻两到三倍。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 95,
+          "t": [
+            505.101,
+            514.886
+          ],
+          "quote": "But in the autonomous underwater vehicle, undersea drone space, we're looking at single-digit thousand autonomous underwater vehicles or underwater drones made every year.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 101,
+          "t": [
+            536.579,
+            545.485
+          ],
+          "quote": "So they're building, they just released this kind of submarine-sized autonomous underwater vehicle that has a range that can extend 18,000 kilometers.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "critical-minerals",
+      "type": "concept",
+      "role": "concept",
+      "name": "关键矿物 (critical minerals)",
+      "file": "关键矿物",
+      "primary": true,
+      "how_described": "本集说它是支撑现代工业的基础材料，且未来十年按质量流速算最需暴涨的是大宗金属（铜、铝、铁等），而不是大众常以为的稀土。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 60,
+          "t": [
+            312.852,
+            323.519
+          ],
+          "quote": "It was like a lunar base on one side of it, but then you also had a subsea hotel called Hotel Atlantis that had ocean floor oil rigs and submarine trains bringing critical minerals to shore.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1282.925,
+            1290.435
+          ],
+          "quote": "We are responsibly extracting things like critical minerals to support the advancement of robotics, AI, other things.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1388.288,
+            1391.19
+          ],
+          "quote": "Why don't we get into what are critical minerals and why do they matter?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 263,
+          "t": [
+            1391.471,
+            1395.794
+          ],
+          "quote": "Critical minerals fundamentally underpin everything that we do every day.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 360,
+          "t": [
+            1888.485,
+            1897.747
+          ],
+          "quote": "Yeah, I mean, I think that there's like a lot of top-down and early recognition that critical minerals were going to be critical and needed to be supported.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 361,
+          "t": [
+            1897.827,
+            1911.829
+          ],
+          "quote": "And so like you shouldn't kind of like the everything around policy and everything around kind of like supporting companies to go and deploy both infrastructure domestically and infrastructure internationally to kind of like secure critical minerals, build infrastructure that secures a position.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 563,
+          "t": [
+            3002.745,
+            3008.169
+          ],
+          "quote": "We talked a little about, we mentioned like rare earths, you mentioned lithium and things like that, but like there are many different critical minerals.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 676,
+          "t": [
+            3576.381,
+            3590.131
+          ],
+          "quote": "And so those folks would mobilize if there were more demand side support from the government, either providing price floors or fixed pricing for critical minerals that, you know, you're trying to incentivize more production of in the U.S.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 698,
+          "t": [
+            3714.406,
+            3722.71
+          ],
+          "quote": "We won't be as worried about our ability to secure the critical minerals that we want to secure because we will have kind of rebuilt...",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "microreactors",
+      "type": "concept",
+      "role": "concept",
+      "name": "微反应堆 (microreactors)",
+      "file": "微反应堆",
+      "primary": true,
+      "how_described": "本集说这是一种能放在拖车上、加一次燃料用五年的兆瓦级核反应堆，不与大型集中式电站竞争，专门替代极端环境下的柴油发电机。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            7.142,
+            17.649
+          ],
+          "quote": "Ulysses builds mission-critical underwater robots, Mariana Minerals applies modern technologies to the critical mineral sector, and Radiant seeks to mass-produce nuclear microreactors.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 793,
+          "t": [
+            4150.381,
+            4154.011
+          ],
+          "quote": "How should we think about how microreactors fit within the broader energy landscape?",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "vertically-integrated",
+      "type": "concept",
+      "role": "concept",
+      "name": "垂直整合 (vertically integrated)",
+      "file": "垂直整合",
+      "primary": true,
+      "how_described": "本集说面对极度规避风险的传统矿企，单点技术几乎卖不进去，唯一出路是做一家垂直整合的公司，端到端控制整条产业链。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 405,
+          "t": [
+            2147.076,
+            2151.662
+          ],
+          "quote": "So we're a vertically integrated, software-first minerals project developer and operator.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": true,
+      "how_described": "本集说可以用它让机器反复试错找到最优策略，替代人工去实时动态调参，从而大幅缩短新精炼厂的调试周期。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 497,
+          "t": [
+            2619.3,
+            2640.054
+          ],
+          "quote": "And that's something that we think that reinforcement learning is going to do quickly, much, much faster, kind of like in line with what Google demonstrated with the thermal systems and data centers is, you know, achieve global optimal operating conditions, you know, on an order of magnitude faster timescale.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "llms",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLMs",
+      "file": "LLMs",
+      "primary": true,
+      "how_described": "本集说可以用 LLM 自动化建筑、工程、采购环节里大量重复的搬砖工作，甚至介入并加速环境评估和审批流程。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 414,
+          "t": [
+            2195.95,
+            2207.54
+          ],
+          "quote": "And that comes from leveraging the recent advances in LLMs to automate workflows in the construction side of things and the engineering side of things and the procurement side of things, which take an insane amount of time.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 662,
+          "t": [
+            3512.486,
+            3514.607
+          ],
+          "quote": "And again, LLMs will make it more efficient.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "offtake-agreements",
+      "type": "concept",
+      "role": "concept",
+      "name": "承购协议 (offtake agreements)",
+      "file": "承购协议",
+      "primary": true,
+      "how_described": "本集说为了降低大宗商品周期带来的价格不确定性，政府需要提供带底价的承购协议，才能调动万亿级私人资本入场。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 668,
+          "t": [
+            3542.378,
+            3544.4
+          ],
+          "quote": "And so that's offtake agreements with floor pricing.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "full-stack",
+      "type": "concept",
+      "role": "concept",
+      "name": "全栈 (full stack)",
+      "file": "全栈",
+      "primary": false,
+      "how_described": "本集说海底防御需要从极便宜的传感器节点到 Mako 水下无人机，再到自主水面航行器回收充电的全栈软硬件方案。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 170,
+          "t": [
+            923.9,
+            930.344
+          ],
+          "quote": "So yeah, that's why we're kind of taking this full stack from sensors to surface to subsea approach.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    },
+    {
+      "id": "autonomous-surface-vehicle",
+      "type": "concept",
+      "role": "concept",
+      "name": "自主水面航行器 (autonomous surface vehicle)",
+      "file": "自主水面航行器",
+      "primary": false,
+      "how_described": "本集提到 Ulysses 造了一种叫 Leviathan 的自主水面航行器，专门在海上给水下无人机充电、回收并传输数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 164,
+          "t": [
+            887.023,
+            896.988
+          ],
+          "quote": "So you need something like Leviathan, the autonomous surface vehicle, that can recover them, recharge them, connect them to the internet so they can relay that data back.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

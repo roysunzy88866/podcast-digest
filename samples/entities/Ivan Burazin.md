@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]]
+[[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daytona":1,"Cognition":3,"Neon":2,"Parallel":2,"智能体":50,"沙箱":9,"突发负载":1,"裸金属":1,"计算机使用":3,"托管型 Kubernetes":1}</script>
+<script type="application/json" class="pd-epn">{"Daytona":1,"Cognition":3,"Neon":2,"Parallel":2,"智能体":51,"沙箱":10,"突发负载":1,"裸金属":1,"计算机使用":3,"托管型 Kubernetes":1}</script>
 
 <script>
 (function(){

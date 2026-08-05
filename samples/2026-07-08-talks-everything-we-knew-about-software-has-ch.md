@@ -101,9 +101,9 @@ tags:
 
 **顺着「AI 编程」挖下去**
 
+- [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操]] —— 同公司:Vercel、Slack
 - [[2026-06-24-pg-company-os-jz|Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能]] —— 同公司:Slack
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同公司:Slack
-- [[2026-06-21-lennys-building-the-most-ai-pilled-engineering|代码量暴涨8倍后，工程管理怎么办？]] —— 同公司:Slack
 
 </div>
 <div class="pd-ex">

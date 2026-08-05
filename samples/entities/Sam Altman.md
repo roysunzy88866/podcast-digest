@@ -61,11 +61,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Cahn]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]]
+[[Willowryan]] [[David Cahn]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"初创公司":1,"AGI":7,"智能体":50,"沙箱":9,"对齐失败":1,"推理":1,"权力集中":1,"主观能动性":7,"OpenAI":27,"YC":3}</script>
+<script type="application/json" class="pd-epn">{"初创公司":1,"AGI":7,"智能体":51,"沙箱":10,"对齐失败":1,"推理":1,"权力集中":1,"主观能动性":7,"OpenAI":27,"YC":3}</script>
 
 <script>
 (function(){

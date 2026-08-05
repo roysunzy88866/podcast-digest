@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Zico Kolter":1,"Gray Swan":1,"Snowflake":2,"Anthropic":32,"Twitter":4,"智能体":50,"红队测试":2,"提示词注入":4,"越狱":1,"护栏":8}</script>
+<script type="application/json" class="pd-epn">{"Zico Kolter":1,"Gray Swan":1,"Snowflake":2,"Anthropic":32,"Twitter":4,"智能体":51,"红队测试":2,"提示词注入":4,"越狱":1,"护栏":8}</script>
 
 <script>
 (function(){

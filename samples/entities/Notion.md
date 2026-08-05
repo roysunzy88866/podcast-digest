@@ -37,7 +37,7 @@ unlisted: true
 
 [[Lenny]] · [[Anthropic]] · [[智能体]] · [[Matt MacInnis]] · [[Max Schoening]] · [[Barney Hussey-Yeo]] · [[Amar]] · [[GitHub]] · [[John Collison]] · [[Rippling]]
 
-<script type="application/json" class="pd-epn">{"Lenny":33,"Anthropic":32,"智能体":50,"Matt MacInnis":1,"Max Schoening":1,"Barney Hussey-Yeo":1,"Amar":1,"GitHub":4,"John Collison":1,"Rippling":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":33,"Anthropic":32,"智能体":51,"Matt MacInnis":1,"Max Schoening":1,"Barney Hussey-Yeo":1,"Amar":1,"GitHub":5,"John Collison":1,"Rippling":1}</script>
 
 <script>
 (function(){

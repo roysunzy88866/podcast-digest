@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>ChatPRD</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="ChatPRD">CH</div><div class="pi"><h1 class="pt">ChatPRD</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="ChatPRD">CH</div><div class="pi"><h1 class="pt">ChatPRD</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]]**(06:37起):本集把它说成:嘉宾 Claire Vo 独自经营的产品公司;她用 OpenClaw 智能体 Sam 帮这家公司自动扫 CRM、发跟进邮件、清理销售管线,省去了以前每周花 10 小时请人做销售外包的成本。
+- **[[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]]**(17:44起):本集主讲人为此公司构建了 PR 审查机器人，以自动批准低风险（如文档更新）的 PR。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-03-29-lennys-how-openclaw-changed-my-life-claire-vo|《把 AI 当员工来管理:Claire Vo 的九个智能体生活实战》]] — 作为被讨论公司
+- [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Claire Vo]] · [[OpenClaw]] · [[智能体]] · [[上下文过载]] · [[提示词注入]] · [[系统提示词]] · [[浏览器使用]] · [[Mac mini]] · [[身份]]
+[[智能体]] · [[Slack]] · [[Lenny]] · [[Claire]] · [[Claire Vo]] · [[Intercom]] · [[OpenClaw]] · [[Vercel]] · [[上下文过载]] · [[Codex]]
 
-<script type="application/json" class="pd-epn">{"Lenny":33,"Claire Vo":2,"OpenClaw":5,"智能体":50,"上下文过载":1,"提示词注入":4,"系统提示词":3,"浏览器使用":2,"Mac mini":1,"身份":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":51,"Slack":12,"Lenny":33,"Claire":1,"Claire Vo":2,"Intercom":1,"OpenClaw":5,"Vercel":4,"上下文过载":1,"Codex":12}</script>
 
 <script>
 (function(){

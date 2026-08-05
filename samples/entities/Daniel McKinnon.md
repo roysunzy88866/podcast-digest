@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Ruby Thelot]] [[Sophia Puccini]] [[Sophia Du]] [[Tom Verrilli]] [[Dianne Penn]] [[Adam Mosseri]] [[Whitney Wolfe Herd]] [[Eddie Kim]] [[Jiaona Zhang]] [[Mark Pincus]]
+[[Willowryan]] [[Ruby Thelot]] [[Sophia Puccini]] [[Sophia Du]] [[Tom Verrilli]] [[Dianne Penn]] [[Adam Mosseri]] [[Whitney Wolfe Herd]] [[Eddie Kim]] [[Jiaona Zhang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Akash":3,"评估":5,"PRD":5,"智能体":50,"测试框架":4,"全基因组测序":1,"离线评估":1,"金发姑娘":1,"Gamoff Labs":1,"Codex":11}</script>
+<script type="application/json" class="pd-epn">{"Akash":3,"评估":5,"PRD":5,"智能体":51,"测试框架":4,"全基因组测序":1,"离线评估":1,"金发姑娘":1,"Gamoff Labs":1,"Codex":12}</script>
 
 <script>
 (function(){

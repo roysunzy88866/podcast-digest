@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Cahn]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]]
+[[Willowryan]] [[David Cahn]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Amjad Masad":1,"Stripe":10,"Replit":4,"Magic School":1,"OpenAI":27,"智能体":50,"垂直 SaaS":1,"护城河":3,"开源模型":3,"LLM":4}</script>
+<script type="application/json" class="pd-epn">{"Amjad Masad":1,"Stripe":10,"Replit":4,"Magic School":1,"OpenAI":27,"智能体":51,"垂直 SaaS":1,"护城河":3,"开源模型":3,"LLM":4}</script>
 
 <script>
 (function(){

@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]] [[Stein Pella]]
+[[Claire]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":50,"多智能体系统":1,"专用推理硬件":1,"推理":1,"上下文工程":2,"TPU":2,"MapReduce":1,"蒸馏":4,"AlphaFold":1,"Gemini":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":51,"多智能体系统":1,"专用推理硬件":1,"推理":1,"上下文工程":2,"TPU":2,"MapReduce":1,"蒸馏":4,"AlphaFold":1,"Gemini":3}</script>
 
 <script>
 (function(){

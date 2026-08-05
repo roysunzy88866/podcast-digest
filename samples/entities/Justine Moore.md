@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Cahn]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]]
+[[Willowryan]] [[David Cahn]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"生成式媒体":1,"微剧":1,"智能体":50,"创作者经济":1,"Town":1,"Netflix":2,"Amazon":4,"OpenAI":27,"Anthropic":32,"Google":12}</script>
+<script type="application/json" class="pd-epn">{"生成式媒体":1,"微剧":1,"智能体":51,"创作者经济":1,"Town":1,"Netflix":2,"Amazon":4,"OpenAI":27,"Anthropic":32,"Google":12}</script>
 
 <script>
 (function(){

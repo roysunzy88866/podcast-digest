@@ -7,13 +7,14 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Vercel</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Vercel">VE</div><div class="pi"><h1 class="pt">Vercel</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Vercel">VE</div><div class="pi"><h1 class="pt">Vercel</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]]**(01:45起):本集嘉宾 Jean 担任 COO 的公司，其平台被用于通过 workflow SDK 和 AI 网关构建内部销售智能体（Vercel 用 Vercel 构建 Vercel），并提供前端云、AI 云及基于消费的定价模式。
 - **[[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]]**(00:39起):本集将其描述为增长飞快的 AI 领导者，有顶尖的全职工程团队，并且会内部自建 GTM 智能体，被 Jason 当作「你是 Vercel 吗？不是的话就不要自建」的标杆。
 - **[[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]]**(10:16起):本集把它说成:在全栈前端领域拼「深度」的代表,不提供 AWS 的全功能但深耕特定领域,且连智能体都偏好它。
+- **[[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]]**(06:17起):本集说它提供 Eve 智能体框架，能用连接器向导简化 Slack/GitHub 配置。
 
 ## ① 提到它的金句
 
@@ -23,19 +24,20 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]] — 作为被讨论公司
 - [[2026-01-01-lennys-we-replaced-our-sales-team-with-20-ai-ag|《用 20 个 AI 智能体换掉 8 人销售团队：SaaStr 创始人的前沿实战》]] — 作为被讨论公司
 - [[2026-07-08-talks-everything-we-knew-about-software-has-ch|《别再做“副业项目”了:把 markdown 文件传给 Claude 当产品卖》]] — 作为被讨论公司
+- [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[编排]] · [[go-to-market]] · [[智能体]] · [[Jeanne DeWitt Grosser]] · [[Jason Lemkin]] · [[Theo Browne]] · [[Stripe]] · [[SaaStr]] · [[Sonnet 3.5]]
+[[智能体]] · [[Lenny]] · [[编排]] · [[Slack]] · [[go-to-market]] · [[Jeanne DeWitt Grosser]] · [[Jason Lemkin]] · [[Theo Browne]] · [[Claire]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"Lenny":33,"编排":2,"go-to-market":2,"智能体":50,"Jeanne DeWitt Grosser":1,"Jason Lemkin":1,"Theo Browne":1,"Stripe":10,"SaaStr":1,"Sonnet 3.5":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":51,"Lenny":33,"编排":2,"Slack":12,"go-to-market":2,"Jeanne DeWitt Grosser":1,"Jason Lemkin":1,"Theo Browne":1,"Claire":1,"Stripe":10}</script>
 
 <script>
 (function(){

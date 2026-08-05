@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[David Cahn]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]]
+[[Willowryan]] [[David Cahn]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Wong":1,"NVIDIA":9,"OpenAI":27,"Anthropic":32,"Microsoft":7,"开放模型":1,"封闭模型":1,"沙箱":9,"智能体":50,"护栏":8}</script>
+<script type="application/json" class="pd-epn">{"Jensen Wong":1,"NVIDIA":9,"OpenAI":27,"Anthropic":32,"Microsoft":7,"开放模型":1,"封闭模型":1,"沙箱":10,"智能体":51,"护栏":8}</script>
 
 <script>
 (function(){

@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Boris Cherny]] [[Garry Tan]] [[Simon Willison]] [[Cat Wu]] [[Thariq Shihipar]] [[Alex Finn]] [[Aakash Gupta]] [[Jyothi Nookula]] [[Peter Steinberger]] [[Romain Huet]]
+[[Claire]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]] [[Cat Wu]] [[Thariq Shihipar]] [[Alex Finn]] [[Aakash Gupta]] [[Jyothi Nookula]] [[Peter Steinberger]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Akash":3,"Codex":11,"Cursor":4,"obsidian":1,"hey gen":1,"智能体":50,"上下文":1,"护栏":8,"Figma":3,"playwright":1}</script>
+<script type="application/json" class="pd-epn">{"Akash":3,"Codex":12,"Cursor":4,"obsidian":1,"hey gen":1,"智能体":51,"上下文":1,"护栏":8,"Figma":3,"playwright":1}</script>
 
 <script>
 (function(){

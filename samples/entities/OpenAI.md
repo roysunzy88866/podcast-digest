@@ -85,7 +85,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[AGI]] · [[Stripe]] · [[Microsoft]] · [[NVIDIA]] · [[ChatGPT]] · [[Meta]]
 
-<script type="application/json" class="pd-epn">{"智能体":50,"Anthropic":32,"Lenny":33,"Google":12,"AGI":7,"Stripe":10,"Microsoft":7,"NVIDIA":9,"ChatGPT":11,"Meta":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":51,"Anthropic":32,"Lenny":33,"Google":12,"AGI":7,"Stripe":10,"Microsoft":7,"NVIDIA":9,"ChatGPT":11,"Meta":10}</script>
 
 <script>
 (function(){

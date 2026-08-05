@@ -51,7 +51,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Microsoft]] · [[ChatGPT]] · [[护栏]] · [[智能体]] · [[Google]] · [[深度学习]] · [[Lenny]] · [[Jensen Huang]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":27,"Anthropic":32,"Microsoft":7,"ChatGPT":11,"护栏":8,"智能体":50,"Google":12,"深度学习":3,"Lenny":33,"Jensen Huang":2}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":27,"Anthropic":32,"Microsoft":7,"ChatGPT":11,"护栏":8,"智能体":51,"Google":12,"深度学习":3,"Lenny":33,"Jensen Huang":2}</script>
 
 <script>
 (function(){

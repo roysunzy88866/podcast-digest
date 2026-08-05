@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]] [[Alex Rampell]]
+[[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":4,"Replit Agent":1,"智能体":50,"vibe coding":6,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":1,"自主性":1,"一人独角兽":1,"提示词":4}</script>
+<script type="application/json" class="pd-epn">{"Replit":4,"Replit Agent":1,"智能体":51,"vibe coding":6,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":1,"自主性":1,"一人独角兽":1,"提示词":4}</script>
 
 <script>
 (function(){
