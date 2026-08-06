@@ -1,6 +1,8 @@
 {
   "revive": {
-    "2026-07-10-talks-kalshi-founders-on-the-axios-show-full-i": 3
+    "2026-07-10-talks-kalshi-founders-on-the-axios-show-full-i": 3,
+    "2026-08-06-a16z-how-open-source-ai-became-critical-infra": 1,
+    "2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou": 1
   },
   "talkVideoIds": {
     "xUnRQ9vLXxo": "2026-07-08-talks-everything-we-knew-about-software-has-ch",
@@ -23,7 +25,7 @@
     "pg": "2026-07-28T21:49:23.000Z",
     "a16z": "2026-08-02T10:46:36.000Z",
     "yc": "2026-08-05T16:57:31.000Z",
-    "mad": "2026-07-23T11:30:00.000Z",
+    "mad": "2026-08-06T11:30:01.000Z",
     "trainingdata": "2026-08-04T09:00:00.000Z",
     "bigtech": "2026-07-24T21:33:00.000Z",
     "aia16z": "2026-06-24T19:12:55.000Z"
@@ -208,6 +210,12 @@
       "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
       "title": "Waymo Co-CEO Dmitri Dolgov: \"Move Fast And Ship Safely\"",
       "pubDate": "2026-08-04T16:55:08.000Z"
+    },
+    {
+      "id": "2026-08-06-mad-how-to-build-long-horizon-ai-agents--mit",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "How to Build Long-Horizon AI Agents — Mitch Troyanovsky, Basis",
+      "pubDate": "2026-08-06T11:30:01.000Z"
     }
   ]
 }

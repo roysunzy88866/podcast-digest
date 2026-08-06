@@ -1,0 +1,25 @@
+{
+  "id": "2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou",
+  "audio_mp3": "https://mgln.ai/e/1344/afp-848985-injected.calisto.simplecastaudio.com/112866f3-1a50-4a8d-b12e-850b73e71b33/episodes/bd288922-f2a9-44c6-9363-8971c973706f/audio/128/default.mp3?aid=rss_feed&awCollectionId=112866f3-1a50-4a8d-b12e-850b73e71b33&awEpisodeId=bd288922-f2a9-44c6-9363-8971c973706f&feed=Hb_IuXOo",
+  "duration_sec": 2799.293,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 489,
+  "asr": true,
+  "title_en": "Inside vLLM: The Engine Powering Open-Source AI",
+  "podcast": "AI + a16z",
+  "date": "2026-08-06",
+  "speaker_map": {
+    "SPEAKER_00": "Elena Berger",
+    "SPEAKER_01": "Simon Mo",
+    "SPEAKER_03": "Matt Bornstein",
+    "SPEAKER_02": "Matt Bornstein"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Elena Berger",
+  "cohosts": [
+    "Simon Mo",
+    "Matt Bornstein"
+  ],
+  "title_zh": "为什么 OpenAI、Anthropic 之外的开源模型成了 AI 的关键基础设施"
+}
