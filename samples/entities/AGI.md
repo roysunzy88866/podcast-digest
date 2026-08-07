@@ -55,7 +55,7 @@ unlisted: true
 
 [[Anthropic]] · [[OpenAI]] · [[Google]] · [[Lenny]] · [[Meta]] · [[ChatGPT]] · [[Apple]] · [[Alex]] · [[Microsoft]] · [[SpaceX]]
 
-<script type="application/json" class="pd-epn">{"Anthropic":33,"OpenAI":28,"Google":12,"Lenny":33,"Meta":12,"ChatGPT":11,"Apple":6,"Alex":2,"Microsoft":7,"SpaceX":5}</script>
+<script type="application/json" class="pd-epn">{"Anthropic":34,"OpenAI":29,"Google":13,"Lenny":33,"Meta":12,"ChatGPT":11,"Apple":6,"Alex":2,"Microsoft":7,"SpaceX":5}</script>
 
 <script>
 (function(){

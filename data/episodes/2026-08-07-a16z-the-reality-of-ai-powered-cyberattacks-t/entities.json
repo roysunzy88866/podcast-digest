@@ -1,0 +1,801 @@
+{
+  "episode_id": "2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t",
+  "podcast": "The a16z Show",
+  "date": "2026-08-07",
+  "tags": [
+    "AI 安全",
+    "软件供应链",
+    "AI 黑客能力",
+    "密钥泄露",
+    "前沿模型"
+  ],
+  "categories": [
+    "AI 安全"
+  ],
+  "entities": [
+    {
+      "id": "dylan",
+      "type": "person",
+      "role": "host",
+      "name": "Dylan",
+      "file": "Dylan",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            52.915,
+            64.567
+          ],
+          "quote": "In this episode, Joel de la Garza sits down with Dylan Airy of Truffle Security and Firas Abugadije of Socket to unpack what recent AI security incidents reveal about the next generation of cyber threats.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            82.747,
+            86.508
+          ],
+          "quote": "We've got Firas and Dylan here from Truffle and Socket.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 17,
+          "t": [
+            108.075,
+            108.715
+          ],
+          "quote": "And I think Dylan,",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 104,
+          "t": [
+            506.013,
+            510.478
+          ],
+          "quote": "So, and I think, Dylan, you were hinting at this, which is these are very specialized.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "firas",
+      "type": "person",
+      "role": "cohost",
+      "name": "Firas",
+      "file": "Firas",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            52.915,
+            64.567
+          ],
+          "quote": "In this episode, Joel de la Garza sits down with Dylan Airy of Truffle Security and Firas Abugadije of Socket to unpack what recent AI security incidents reveal about the next generation of cyber threats.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            82.747,
+            86.508
+          ],
+          "quote": "We've got Firas and Dylan here from Truffle and Socket.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "joel-de-la-garza",
+      "type": "person",
+      "role": "cohost",
+      "name": "Joel de la Garza",
+      "file": "Joel de la Garza",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            52.915,
+            64.567
+          ],
+          "quote": "In this episode, Joel de la Garza sits down with Dylan Airy of Truffle Security and Firas Abugadije of Socket to unpack what recent AI security incidents reveal about the next generation of cyber threats.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "truffle-security",
+      "type": "company",
+      "role": "company",
+      "name": "Truffle Security",
+      "file": "Truffle Security",
+      "primary": true,
+      "how_described": "本集嘉宾 Dylan 所属的安全公司，他们主要负责扫描并清理互联网上（如 Hugging Face 训练集中）泄露的凭证与密钥。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            52.915,
+            64.567
+          ],
+          "quote": "In this episode, Joel de la Garza sits down with Dylan Airy of Truffle Security and Firas Abugadije of Socket to unpack what recent AI security incidents reveal about the next generation of cyber threats.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            624.149,
+            631.071
+          ],
+          "quote": "Of course, Truffle Security's biased view is a password laying around is a shorter path than going through a fancy zero day.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "socket",
+      "type": "company",
+      "role": "company",
+      "name": "Socket",
+      "file": "Socket",
+      "primary": true,
+      "how_described": "本集嘉宾 Firas 所属的安全公司，重点关注包管理器注册表等软件供应链安全问题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 11,
+          "t": [
+            52.915,
+            64.567
+          ],
+          "quote": "In this episode, Joel de la Garza sits down with Dylan Airy of Truffle Security and Firas Abugadije of Socket to unpack what recent AI security incidents reveal about the next generation of cyber threats.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            82.747,
+            86.508
+          ],
+          "quote": "We've got Firas and Dylan here from Truffle and Socket.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 87,
+          "t": [
+            415.01,
+            419.192
+          ],
+          "quote": "And so everything from package manager registries, we like to focus on that because of what we do at Socket.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1217.983,
+            1223.371
+          ],
+          "quote": "I mean, at least for us at Socket, I think the biggest thing we're seeing is that 2026 is the year of the software supply chain.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": true,
+      "how_described": "本集提到 Truffle Security 与其合作清理托管于其上的训练集凭证，结果发现了约 25 万个活跃密钥，拥有直接推送基础 Linux 库代码等高危权限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 135,
+          "t": [
+            658.567,
+            663.732
+          ],
+          "quote": "So, I mean, what was interesting is we were in the middle of partnering with Hugging Face.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 137,
+          "t": [
+            669.635,
+            672.896
+          ],
+          "quote": "Not Hugging Face's training, but people who hosted training sets on Hugging Face.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            676.178,
+            679.179
+          ],
+          "quote": "And Hugging Face has been a great partner in getting credentials cleaned up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            695.188,
+            705.434
+          ],
+          "quote": "And so while we were in the middle of doing that, the CTO of Hugging Face shoots me a note and says, hey, this is crazy, but there's this OpenAI thing that just happened, and I want you to take a look at it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1303.289,
+            1311.597
+          ],
+          "quote": "And the reason we found it is because we're partnering with organizations like Hugging Face to just get all the live credentials revoked and cleaned up better otherwise on their platforms.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "npm",
+      "type": "company",
+      "role": "company",
+      "name": "NPM",
+      "file": "NPM",
+      "primary": true,
+      "how_described": "本集详细讨论了针对它的“NPM 蠕虫”攻击（通过感染开发者系统自我传播），以及它宣布计划在 2027 年要求新发布前必须通过 2FA 验证以杀死蠕虫传播链条。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            21.271,
+            33.66
+          ],
+          "quote": "For a long time, people had talked about this concept of an NPM worm, this idea that someone could backdoor a package, get developers to install that, and then you could use the access stolen from those developers as they install it to self-propagate the worm.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 154,
+          "t": [
+            764.416,
+            766.758
+          ],
+          "quote": "You could create, you know, something that quickly takes over NPM.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 191,
+          "t": [
+            915.356,
+            924.081
+          ],
+          "quote": "So one of the things that I've seen with the NPM worms in particular is after they get their post-install hook and they infect the system, they'll immediately start looking for credentials.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 197,
+          "t": [
+            937.948,
+            940.67
+          ],
+          "quote": "There's a place where NPM intentionally writes a credential.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 205,
+          "t": [
+            971.656,
+            985.347
+          ],
+          "quote": "So one thing that is positive, and it hasn't shipped yet, but NPM has announced that they are planning to, I think it's in January 2027, going to require human interactive confirmation through 2FA before any new publishers can happen.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1028.163,
+            1030.444
+          ],
+          "quote": "He's a prolific NPM maintainer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1134.611,
+            1141.175
+          ],
+          "quote": "I mean, how do you think about an organization that's like thinking about what technology stack to use and they're picking between Ruby or NPM?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1226.134,
+            1231.141
+          ],
+          "quote": "Yes, and I noticed the attackers seem to pick RSA and Black Hat as the times they want to start these NPM worms.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "frontier-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier models)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集指能力最强的一批 AI 模型（如 Opus 4.6）。它们被专门训练用于网络安全，且经过优化会使用令牌最少的路径（如直接用泄露密码）来入侵系统完成目标。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            65.227,
+            78.758
+          ],
+          "quote": "They discuss why frontier models are increasingly capable of exploiting software vulnerabilities, how software supply chains have become one of the weakest links in modern security, and what organizations need to do to defend themselves in an AI-first world.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            118.322,
+            124.608
+          ],
+          "quote": "Yeah, we looked at Opus 4.6 and some of the other Frontier models at the time, given the models a very simple task.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 53,
+          "t": [
+            263.378,
+            277.785
+          ],
+          "quote": "There was research published recently about what they're calling kind of like universal typosquats or universal hallucinations where all the frontier models all make the same mistake and assume there are certain packages that exist that don't, despite those models coming from different companies.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 96,
+          "t": [
+            445.048,
+            451.653
+          ],
+          "quote": "That the frontier models are going to, they are causing kind of a massive reduction in the time between the vulnerability discovery and vulnerability exploitation.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "software-supply-chain",
+      "type": "concept",
+      "role": "concept",
+      "name": "软件供应链 (software supply chain)",
+      "file": "软件供应链",
+      "primary": true,
+      "how_described": "本集将其描述为现代安全中最薄弱的环节，从由志愿者运行、缺钱缺人的开源包管理器，到每家公司都在用的 CI/CD 自动化构建工具，都成了 AI 与攻击者眼里的“软柿子”。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            248.807,
+            251.45
+          ],
+          "quote": "And I think that that now has become the software supply chain.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 256,
+          "t": [
+            1217.983,
+            1223.371
+          ],
+          "quote": "I mean, at least for us at Socket, I think the biggest thing we're seeing is that 2026 is the year of the software supply chain.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "zero-day",
+      "type": "concept",
+      "role": "concept",
+      "name": "零日漏洞 (zero day)",
+      "file": "零日漏洞",
+      "primary": true,
+      "how_described": "本集指被黑客在金字塔顶端利用的、软件中尚未修补的漏洞。前沿模型正让漏洞发现与被利用之间的时间差大幅缩短，甚至在某次攻防披露中被 AI 直接吐出了一个零日漏洞。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            338.292,
+            342.094
+          ],
+          "quote": "Are you going to burn tokens and tokens and tokens on trying to find a zero day?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 74,
+          "t": [
+            367.671,
+            373.114
+          ],
+          "quote": "And at the top of that pyramid, right, the top of the hacker ecosystem is the zero-day vulnerability, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 76,
+          "t": [
+            380.159,
+            390.643
+          ],
+          "quote": "And one of the really fascinating things about the breach disclosure that was made was that there's an incredibly popular CICD tool that I think every enterprise uses that this thing just spat out a zero-day for, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 80,
+          "t": [
+            397.845,
+            398.966
+          ],
+          "quote": "Like the zero-day creation piece?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 105,
+          "t": [
+            510.498,
+            517.906
+          ],
+          "quote": "Like zero-day exploits, writing a zero-day exploit, doing a supply chain attack, like these are not things that came from nowhere.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 125,
+          "t": [
+            624.149,
+            631.071
+          ],
+          "quote": "Of course, Truffle Security's biased view is a password laying around is a shorter path than going through a fancy zero day.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "npm-worm",
+      "type": "concept",
+      "role": "concept",
+      "name": "NPM 蠕虫 (NPM worm)",
+      "file": "NPM 蠕虫",
+      "primary": true,
+      "how_described": "本集将其描述为通过在包里植入后门、让开发者安装，并利用窃取的开发者访问权限进行自我传播的恶意程序概念，近期已变成现实。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 6,
+          "t": [
+            21.271,
+            33.66
+          ],
+          "quote": "For a long time, people had talked about this concept of an NPM worm, this idea that someone could backdoor a package, get developers to install that, and then you could use the access stolen from those developers as they install it to self-propagate the worm.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "reinforcement-learning",
+      "type": "concept",
+      "role": "concept",
+      "name": "强化学习 (reinforcement learning)",
+      "file": "强化学习",
+      "primary": true,
+      "how_described": "本集解释模型被专门训练出黑客能力的方法：网络安全有极其明确的奖励函数（获取数据），将模型放入挑战中，只要成功入侵获取数据就给予奖励。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 113,
+          "t": [
+            556.814,
+            564.576
+          ],
+          "quote": "And so when they realized that, the number of problems that have that well-defined reward structure basically defines how we do reinforcement learning.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            564.656,
+            567.517
+          ],
+          "quote": "And they want to find as many problem spaces that they can do reinforcement learning on.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "reward-function",
+      "type": "concept",
+      "role": "concept",
+      "name": "奖励函数 (reward function)",
+      "file": "奖励函数",
+      "primary": true,
+      "how_described": "本集指出网络安全的奖励函数定义极其明确：模型只要成功获取数据访问权限，就会得到奖励。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 2,
+          "t": [
+            13.106,
+            17.909
+          ],
+          "quote": "Interesting thing about cybersecurity in particular is the reward function is incredibly well defined.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            547.772,
+            552.873
+          ],
+          "quote": "The interesting thing about cybersecurity in particular is the reward function is incredibly well-defined.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "tokens",
+      "type": "concept",
+      "role": "concept",
+      "name": "令牌 (tokens)",
+      "file": "令牌",
+      "primary": false,
+      "how_described": "本集指出 AI 模型为了完成任务，经过优化会选择消耗“最少令牌路径”，因此它们更倾向于直接使用泄露的密钥登录，而非消耗大量算力去寻找零日漏洞。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            338.292,
+            342.094
+          ],
+          "quote": "Are you going to burn tokens and tokens and tokens on trying to find a zero day?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 69,
+          "t": [
+            342.295,
+            345.757
+          ],
+          "quote": "They're optimized to use the path of least tokens to accomplish their goals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 71,
+          "t": [
+            350.3,
+            362.087
+          ],
+          "quote": "And so, yeah, I think supply chain and secrets are and have been the path of least resistance and will continue to be so as the models are incentivized to use fewer and fewer tokens to accomplish their goals.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 122,
+          "t": [
+            602.975,
+            609.98
+          ],
+          "quote": "But the other piece that they've layered on top, and this is where it starts to get really interesting, is they've started to reward the path of least tokens.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 126,
+          "t": [
+            631.331,
+            641.594
+          ],
+          "quote": "But actually watching the model physically get from A to B and watching it follow the password and quantifying how many tokens it took to go this route versus that route, I mean, it's just incredible to watch that layout.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 212,
+          "t": [
+            1013.755,
+            1023.92
+          ],
+          "quote": "But yeah, we shouldn't have files in our home folders that have tokens in them that are long-lived and that let you, especially if you're a maintainer with that kind of access.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "credentials",
+      "type": "concept",
+      "role": "concept",
+      "name": "泄露的凭证 (credentials)",
+      "file": "泄露的凭证",
+      "primary": false,
+      "how_described": "本集指躺在外面公开暴露的密码或密钥。它们成了模型走阻力最小路径时的首选，甚至被发现在 Hugging Face 上有 25 万个活跃凭证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 136,
+          "t": [
+            664.272,
+            669.495
+          ],
+          "quote": "To clean up all of the credentials that had been exposed through all of their training sets.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 139,
+          "t": [
+            676.178,
+            679.179
+          ],
+          "quote": "And Hugging Face has been a great partner in getting credentials cleaned up.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            705.494,
+            714.68
+          ],
+          "quote": "And sure enough, the first thing listed out in the incident response, although it's true it did utilize zero days, but the first thing listed out was stolen credentials.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 191,
+          "t": [
+            915.356,
+            924.081
+          ],
+          "quote": "So one of the things that I've seen with the NPM worms in particular is after they get their post-install hook and they infect the system, they'll immediately start looking for credentials.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 193,
+          "t": [
+            926.482,
+            930.084
+          ],
+          "quote": "So all the time, we get questions saying, how do we get the credentials cleaned off the endpoints?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 203,
+          "t": [
+            959.386,
+            967.012
+          ],
+          "quote": "But the post-exploitation step, do you have any recommendations on how to sort of limit that blast radius or prevent that stealing of credentials and jumping onto the next system?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 275,
+          "t": [
+            1303.289,
+            1311.597
+          ],
+          "quote": "And the reason we found it is because we're partnering with organizations like Hugging Face to just get all the live credentials revoked and cleaned up better otherwise on their platforms.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "prompts",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词 (prompts)",
+      "file": "提示词",
+      "primary": false,
+      "how_described": "本集提到，现在的攻击者常把恶意载荷伪装成一段 Markdown 形式的提示词，利用本地 CLI 工具执行，从而绕过传统的 EDR（终端检测与响应）工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 171,
+          "t": [
+            827.072,
+            829.215
+          ],
+          "quote": "So, a lot of times the payloads are actually prompts.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "edr",
+      "type": "concept",
+      "role": "concept",
+      "name": "EDR",
+      "file": "EDR",
+      "primary": false,
+      "how_described": "本集提到传统的 EDR 工具看不懂伪装成 Markdown 文件和 JSON blob 的提示词载荷，无法防住利用开发者本地 AI 命令行工具发起的跳板攻击。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 172,
+          "t": [
+            829.875,
+            836.082
+          ],
+          "quote": "And that bypasses a lot of, you know, typical kind of EDR tooling because, you know, it's just like a markdown file that your cloud is running.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 175,
+          "t": [
+            840.507,
+            844.371
+          ],
+          "quote": "I'm sure your EDR tool doesn't know anything about like this JSON blob and an MD file, right?",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "2fa",
+      "type": "concept",
+      "role": "concept",
+      "name": "双因素认证 (2FA)",
+      "file": "双因素认证",
+      "primary": false,
+      "how_described": "本集提到 NPM 计划在 2027 年要求新发布前必须通过双因素认证进行人工交互确认，此举很可能彻底杀死蠕虫的自我传播链条。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 205,
+          "t": [
+            971.656,
+            985.347
+          ],
+          "quote": "So one thing that is positive, and it hasn't shipped yet, but NPM has announced that they are planning to, I think it's in January 2027, going to require human interactive confirmation through 2FA before any new publishers can happen.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agents)",
+      "file": "智能体",
+      "primary": false,
+      "how_described": "本集在结尾提到，安全领域将面临倍增效应：从过去一个用户十个密码，变成十个智能体拥有十个密码，而智能体与密钥的交互方式目前仍是个未解决的难题。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 280,
+          "t": [
+            1344.39,
+            1352.514
+          ],
+          "quote": "And I can imagine that there's going to be a multiplication effect, which is it used to be one user with 10 passwords, and now you're going to have 10 agents with 10 passwords, right?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1352.534,
+            1358.397
+          ],
+          "quote": "I mean, the way agents interact with secrets right now is a Wild West unsolved problem that we're working very hard to solve.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

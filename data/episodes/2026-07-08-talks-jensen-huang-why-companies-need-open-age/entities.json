@@ -1,0 +1,824 @@
+{
+  "episode_id": "2026-07-08-talks-jensen-huang-why-companies-need-open-age",
+  "podcast": "精选演讲",
+  "date": "2026-07-08",
+  "tags": [
+    "AI 基础设施",
+    "智能体",
+    "开源模型",
+    "开放生态",
+    "智能体安全"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "jensen-huang",
+      "type": "person",
+      "role": "host",
+      "name": "Jensen Huang",
+      "file": "Jensen Huang",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:能使用工具、管理记忆、不断迭代直到完成任务的软件系统。它是电子而非原子,没有意识,应该像雇佣新员工一样给它权限、上下文和护栏",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            34.415,
+            43.66
+          ],
+          "quote": "And so the first thing I want to start with is how and why are you guys at NVIDIA investing in an open agent ecosystem and stack?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 33,
+          "t": [
+            213.948,
+            220.911
+          ],
+          "quote": "Or it's because we believe that AI becomes ultimately great, become a super agent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            416.691,
+            418.292
+          ],
+          "quote": "When you have a cost-effective agent,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            633.743,
+            638.548
+          ],
+          "quote": "That super agent is not trying to book me travel appointments.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1071.227,
+            1090.743
+          ],
+          "quote": "All of the key ingredients necessary for you to build your personal, domain-specific, proprietary, your super agent, all of the technologies, all the components, all the tooling, all of the harnessing, everything, and the blueprint, a great example, all put together for you.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1416.956,
+            1424.098
+          ],
+          "quote": "You are creating an agent and you're taking all the mundane work and you're trying to get this agent to do it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1502.891,
+            1508.595
+          ],
+          "quote": "And as a result, this super agent will be able to do things that you can't imagine.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "harness",
+      "file": "harness",
+      "primary": true,
+      "how_described": "本集把它说成:套在模型外面的一整套系统(包括框架、上下文、工具、记忆、护栏等),让大语言模型变得真正有用。黄仁勋判断未来公司将建立在 harnesses 而非业务流程之上",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            91.705,
+            97.249
+          ],
+          "quote": "But in order to turn it into a useful product, you have to surround it with what is now known as a harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            262.537,
+            265.097
+          ],
+          "quote": "Is it going to be the harness as well, the context outside?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 49,
+          "t": [
+            281.801,
+            297.126
+          ],
+          "quote": "Now, Nemotron Ultra is a great model as a start, but it becomes an incredible model when you put the LangChain framework around it, the LangChain harness around it, so that you ground it on information that is domain-specific.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            310.333,
+            325.146
+          ],
+          "quote": "Putting it into a flywheel where maybe you're even training the model, post-training the model, inside the LangChain harness against the harness so that the model becomes good at applying the harness around it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            360.565,
+            367.027
+          ],
+          "quote": "Some of the things we did is tweak the harness to make it best for this model because we found that different models need different prompts, different tools.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            443.654,
+            451.562
+          ],
+          "quote": "And so this is the incredible benefit of Nemotron 3 Ultra inside the LangChain framework and the LangChain harness inside DeepAgent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            802.56,
+            809.825
+          ],
+          "quote": "And everybody would be using LangChain to create their specialized harness, which represents a workflow of the past.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 154,
+          "t": [
+            810.326,
+            816.15
+          ],
+          "quote": "And now this harness inside that workflow becomes autonomous, agentic, much more efficient.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 155,
+          "t": [
+            816.635,
+            821.2
+          ],
+          "quote": "I think we see that these things are, there's the harness, there's the model, and then there's all the context around it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 158,
+          "t": [
+            824.364,
+            835.136
+          ],
+          "quote": "And so the work that we did with Nemotron 3, I think was a great example of doing some pretty high ROI things around the harness, changing the prompt, changing the tools.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 163,
+          "t": [
+            849.262,
+            858.426
+          ],
+          "quote": "And so what you just described is a future where once you get the harness built and it's doing the work and is now part of the business process,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 167,
+          "t": [
+            867.313,
+            868.594
+          ],
+          "quote": "You can tune the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 168,
+          "t": [
+            868.994,
+            875.68
+          ],
+          "quote": "But you can now also improve the AI model, the large language model, Nemotron 3 Ultra, inside the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1128.796,
+            1132.758
+          ],
+          "quote": "And now, you know, the technology you're going to create, the post-training against the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1133.478,
+            1135.38
+          ],
+          "quote": "And then, of course, there's the harness itself.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "frontier-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "前沿模型 (frontier models)",
+      "file": "前沿模型",
+      "primary": true,
+      "how_described": "本集把它说成:一直在变好的云端通用大模型,适合处理写代码、写文章等通用任务;黄仁勋建议做 AI 时始终先从前沿模型起步,但企业专有的工作流智能体必须用开放工具自建",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            346.622,
+            353.824
+          ],
+          "quote": "I feel like that threshold was crossed, I don't know, maybe a year ago by some of the Frontier models, six months ago by some of the Open Weight models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 99,
+          "t": [
+            520.052,
+            526.199
+          ],
+          "quote": "With these models getting good and being really fast and really cheap, how should we think about using frontier models?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 102,
+          "t": [
+            530.504,
+            536.792
+          ],
+          "quote": "Well, the frontier models are getting better all the time, and I fully expect the frontier models to be unbelievably good.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            735.694,
+            739.095
+          ],
+          "quote": "And so are we going to continue to use frontier models?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-weight-models",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重模型 (open weight models)",
+      "file": "开放权重模型",
+      "primary": true,
+      "how_described": "本集把它说成:在性能与成本间取得良好平衡的模型(如 Nemotron),让企业能把专有数据和工作流捏成属于自己的超级智能体",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            346.622,
+            353.824
+          ],
+          "quote": "I feel like that threshold was crossed, I don't know, maybe a year ago by some of the Frontier models, six months ago by some of the Open Weight models.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 73,
+          "t": [
+            398.859,
+            404.262
+          ],
+          "quote": "And I think open weight models are starting to really strike a good balance between performance and cost.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集把它说成:智能体系统的核心构成之一,用于保证安全,并且让 IT 组织能够对部署进行控制和治理",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 284,
+          "t": [
+            1373.7,
+            1374.84
+          ],
+          "quote": "They're creating guardrails.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sandbox",
+      "type": "concept",
+      "role": "concept",
+      "name": "沙箱 (sandbox)",
+      "file": "沙箱",
+      "primary": true,
+      "how_described": "本集把它说成:运行时为了保障安全、隐私和访问控制,必须把智能体保持在其中的隔离环境",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 232,
+          "t": [
+            1138.443,
+            1144.349
+          ],
+          "quote": "You have to keep it in a sandbox so it's secure, it's private, that is access control.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "post-training",
+      "type": "concept",
+      "role": "concept",
+      "name": "后训练 (post-training)",
+      "file": "后训练",
+      "primary": true,
+      "how_described": "本集把它说成:针对 harness 对模型进行的训练,可以让模型更擅长应用它周围的驾驭机制,从而提高整个智能体系统的能力上限",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 52,
+          "t": [
+            310.333,
+            325.146
+          ],
+          "quote": "Putting it into a flywheel where maybe you're even training the model, post-training the model, inside the LangChain harness against the harness so that the model becomes good at applying the harness around it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 159,
+          "t": [
+            835.476,
+            839.838
+          ],
+          "quote": "One of the things we're looking forward to is experimenting with post-training Nemotron.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 228,
+          "t": [
+            1128.796,
+            1132.758
+          ],
+          "quote": "And now, you know, the technology you're going to create, the post-training against the harness.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": true,
+      "how_described": "本集把它说成:多年来致力于构建开放 AI 系统,自研了 Nemotron 大语言模型系列,并为企业提供安全运行时 OpenShell 以及从云到本地的全套部署方案",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            34.415,
+            43.66
+          ],
+          "quote": "And so the first thing I want to start with is how and why are you guys at NVIDIA investing in an open agent ecosystem and stack?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "langchain",
+      "type": "company",
+      "role": "company",
+      "name": "LangChain",
+      "file": "LangChain",
+      "primary": true,
+      "how_described": "本集把它说成:帮企业把大语言模型变成可用产品的框架,把 Nemotron 模型放进它的深度智能体框架后性能接近前沿模型且只需十分之一成本;黄仁勋说它将成为创建未来公司操作系统的工具",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            81.958,
+            83.219
+          ],
+          "quote": "And this is where LangChain comes in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            99.111,
+            105.215
+          ],
+          "quote": "And back in the old days, we used LangChain to help us turn a large language model into a promptable API.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            105.956,
+            108.838
+          ],
+          "quote": "And we use LangChain to build our RAGs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            108.958,
+            114.361
+          ],
+          "quote": "And we use LangChain to step by step by step, which led to today's agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            281.801,
+            297.126
+          ],
+          "quote": "Now, Nemotron Ultra is a great model as a start, but it becomes an incredible model when you put the LangChain framework around it, the LangChain harness around it, so that you ground it on information that is domain-specific.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            310.333,
+            325.146
+          ],
+          "quote": "Putting it into a flywheel where maybe you're even training the model, post-training the model, inside the LangChain harness against the harness so that the model becomes good at applying the harness around it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            443.654,
+            451.562
+          ],
+          "quote": "And so this is the incredible benefit of Nemotron 3 Ultra inside the LangChain framework and the LangChain harness inside DeepAgent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            497.929,
+            499.15
+          ],
+          "quote": "And this is where LangChain came in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            622.396,
+            628.2
+          ],
+          "quote": "And these super sub-agents we would create with deep agents, LangChain deep agents, with Nemotron 3 inside.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 126,
+          "t": [
+            641.472,
+            644.495
+          ],
+          "quote": "And in that case, I really do need to have LangChain.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            664.81,
+            674.874
+          ],
+          "quote": "And now we can have LangChain with DeepAgent and Ultra, you know, Nemotron 3 inside, and it gives them all of the control they need, super efficient access to incredible tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            741.375,
+            751.838
+          ],
+          "quote": "But are we also going to create specialized super agents with LangChain and Nemotron 3 Ultra that, in fact, arguably could be your crown jewels?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 152,
+          "t": [
+            795.395,
+            801.9
+          ],
+          "quote": "And so the idea, LangChain would just become the tool that creates the operating system for the company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 153,
+          "t": [
+            802.56,
+            809.825
+          ],
+          "quote": "And everybody would be using LangChain to create their specialized harness, which represents a workflow of the past.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            992.652,
+            995.133
+          ],
+          "quote": "And that's where LangChain and Nemotron comes in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1511.377,
+            1531.264
+          ],
+          "quote": "We've created all of the key parts, a world-class language model, a framework called LangChain Deep Agents that has now been also fine-tuned to expose the full potential of Nemotron 3 Ultra, a blueprint that helps everybody do that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "nemotron",
+      "type": "company",
+      "role": "company",
+      "name": "Nemotron",
+      "file": "Nemotron",
+      "primary": true,
+      "how_described": "本集把它说成:NVIDIA 自研的大语言模型系列;Nemotron 3 Ultra 计算效率极高、成本仅为前沿模型的十分之一,在内部基准测试达 86 分接近 Claude Opus",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 47,
+          "t": [
+            271.559,
+            277.46
+          ],
+          "quote": "And this is why we worked on Nemotron and really love the fact that you're part of the founding team of Nemotron Coalition.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 48,
+          "t": [
+            278.26,
+            281.081
+          ],
+          "quote": "We made Nemotron Ultra pretty incredible.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            281.801,
+            297.126
+          ],
+          "quote": "Now, Nemotron Ultra is a great model as a start, but it becomes an incredible model when you put the LangChain framework around it, the LangChain harness around it, so that you ground it on information that is domain-specific.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            354.744,
+            356.825
+          ],
+          "quote": "You talked about Nemotron 3 Ultra.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 62,
+          "t": [
+            367.927,
+            373.389
+          ],
+          "quote": "And with that tweaking, we managed to get Nemotron 3 Ultra in deep agents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 80,
+          "t": [
+            426.239,
+            429.842
+          ],
+          "quote": "And in the case of Nemotron, it's cost effective because it's so fast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 85,
+          "t": [
+            443.654,
+            451.562
+          ],
+          "quote": "And so this is the incredible benefit of Nemotron 3 Ultra inside the LangChain framework and the LangChain harness inside DeepAgent.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            467.878,
+            474.155
+          ],
+          "quote": "But adapting the environment around Nemotron, you made it deliver frontier capabilities.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            622.396,
+            628.2
+          ],
+          "quote": "And these super sub-agents we would create with deep agents, LangChain deep agents, with Nemotron 3 inside.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            644.535,
+            646.517
+          ],
+          "quote": "I really do need to have Nemotron 3 Ultra.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 132,
+          "t": [
+            664.81,
+            674.874
+          ],
+          "quote": "And now we can have LangChain with DeepAgent and Ultra, you know, Nemotron 3 inside, and it gives them all of the control they need, super efficient access to incredible tools.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 145,
+          "t": [
+            741.375,
+            751.838
+          ],
+          "quote": "But are we also going to create specialized super agents with LangChain and Nemotron 3 Ultra that, in fact, arguably could be your crown jewels?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            824.364,
+            835.136
+          ],
+          "quote": "And so the work that we did with Nemotron 3, I think was a great example of doing some pretty high ROI things around the harness, changing the prompt, changing the tools.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 159,
+          "t": [
+            835.476,
+            839.838
+          ],
+          "quote": "One of the things we're looking forward to is experimenting with post-training Nemotron.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 168,
+          "t": [
+            868.994,
+            875.68
+          ],
+          "quote": "But you can now also improve the AI model, the large language model, Nemotron 3 Ultra, inside the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 196,
+          "t": [
+            992.652,
+            995.133
+          ],
+          "quote": "And that's where LangChain and Nemotron comes in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1055.356,
+            1064.922
+          ],
+          "quote": "And so this will let enterprises run DeepAgents with Nemotron 3 Ultra inside of OpenShell, which is a secure and open runtime and take advantage of that.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1511.377,
+            1531.264
+          ],
+          "quote": "We've created all of the key parts, a world-class language model, a framework called LangChain Deep Agents that has now been also fine-tuned to expose the full potential of Nemotron 3 Ultra, a blueprint that helps everybody do that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到:与 OpenAI、Google 一起做了很棒的基础模型工作;旗下的 Claude Opus 在基准测试中得到 87 分作为对比",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            238.493,
+            246.144
+          ],
+          "quote": "Where AI has a foundation and the work that Anthropic and OpenAI and Google's doing is all fantastic.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集一笔带过:与 Anthropic、Google 一起在 AI 基础模型方面做得很棒",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            238.493,
+            246.144
+          ],
+          "quote": "Where AI has a foundation and the work that Anthropic and OpenAI and Google's doing is all fantastic.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": false,
+      "how_described": "本集一笔带过:与 Anthropic、OpenAI 一起在 AI 基础模型方面做得很棒",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 38,
+          "t": [
+            238.493,
+            246.144
+          ],
+          "quote": "Where AI has a foundation and the work that Anthropic and OpenAI and Google's doing is all fantastic.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

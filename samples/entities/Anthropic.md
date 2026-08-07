@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Anthropic</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>33</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Anthropic">AN</div><div class="pi"><h1 class="pt">Anthropic</h1><div class="byl">公司</div><div class="nums">本站收录 <b>34</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -26,6 +26,7 @@ unlisted: true
 - **[[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]]**(06:43起):本集提到 Gray Swan 帮他们测试模型(如 Mythos)对间接提示注入的鲁棒性,他们也具有内部安全审查的强烈意愿。
 - **[[2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and|《Chamath 谈 AI：别信末日论，打破寡头垄断》]]**(08:28起):本集把它说成:AI 头部公司之一,产品卓越且企业级市场采用率高,将在短期超额获利。
 - **[[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]]**(44:19起):本集提到它作为大模型厂商之一，推出了自家的「托管智能体」，被主持人拿来质问会不会侵入 Modal 的地盘。
+- **[[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]]**(03:58起):本集提到:与 OpenAI、Google 一起做了很棒的基础模型工作;旗下的 Claude Opus 在基准测试中得到 87 分作为对比
 - **[[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]]**(04:39起):本集提到该公司的 Mythos 模型具有敢于唱反调的「混蛋」脾气，在制定反共识战略的来回拉扯中非常有帮助；此外还顺带提及其增长负责人在 Twitter 上因定价实验翻车。
 - **[[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]]**(10:56起):本集把它说成:Replit 对照的顶尖 AI 研究团队之一,指出其研究人员总背着模型必须完美才能发布的预期包袱。
 - **[[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]]**(05:00起):本集在提到哪些顶级 AI 公司使用 WorkOS 时列出了它，并提及最近领导其 Claude 产品设计的设计师 Jenny Wen。
@@ -59,7 +60,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*33 集*
+*34 集*
 
 - [[2025-12-07-lennys-surge-ai-edwin-chen|《10亿收入不到100人:数据公司 Surge AI 如何逆行塑造 AI 未来》]] — 作为被讨论公司
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|《非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品》]] — 作为被讨论公司(提及)
@@ -76,6 +77,7 @@ unlisted: true
 - [[2026-06-22-latent-space-gray-swan|《当 AI 变成黑客武器:给企业智能体修防火墙》]] — 作为被讨论公司(提及)
 - [[2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and|《Chamath 谈 AI：别信末日论，打破寡头垄断》]] — 作为被讨论公司
 - [[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]] — 作为被讨论公司(提及)
+- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]] — 作为被讨论公司(提及)
 - [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|《Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来》]] — 作为被讨论公司
 - [[2026-07-09-talks-a-conversation-with-replit-s-president-a|《从快倒闭到剑指十亿美元ARR:Replit Agent的生死豪赌》]] — 作为被讨论公司(提及)
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]] — 作为被讨论公司(提及)
@@ -99,9 +101,9 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude]] · [[Google]] · [[Claude Code]] · [[Meta]] · [[AGI]] · [[Slack]] · [[Microsoft]]
+[[智能体]] · [[OpenAI]] · [[Lenny]] · [[Claude]] · [[Google]] · [[Claude Code]] · [[NVIDIA]] · [[Meta]] · [[AGI]] · [[Slack]]
 
-<script type="application/json" class="pd-epn">{"智能体":56,"OpenAI":28,"Lenny":33,"Claude":11,"Google":12,"Claude Code":15,"Meta":12,"AGI":7,"Slack":13,"Microsoft":7}</script>
+<script type="application/json" class="pd-epn">{"智能体":58,"OpenAI":29,"Lenny":33,"Claude":11,"Google":13,"Claude Code":15,"NVIDIA":12,"Meta":12,"AGI":7,"Slack":13}</script>
 
 <script>
 (function(){

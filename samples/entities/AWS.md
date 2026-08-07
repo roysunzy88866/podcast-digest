@@ -29,7 +29,7 @@ unlisted: true
 
 [[McKinsey]] · [[Benedict Evans]] · [[Theo Browne]] · [[Philip Johnston]] · [[Lenny]] · [[Sonnet 3.5]] · [[StarCloud]] · [[OpenAI]] · [[Opus 4.5]] · [[数据中心]]
 
-<script type="application/json" class="pd-epn">{"McKinsey":2,"Benedict Evans":1,"Theo Browne":1,"Philip Johnston":1,"Lenny":33,"Sonnet 3.5":1,"StarCloud":1,"OpenAI":28,"Opus 4.5":1,"数据中心":2}</script>
+<script type="application/json" class="pd-epn">{"McKinsey":2,"Benedict Evans":1,"Theo Browne":1,"Philip Johnston":1,"Lenny":33,"Sonnet 3.5":1,"StarCloud":1,"OpenAI":29,"Opus 4.5":1,"数据中心":2}</script>
 
 <script>
 (function(){

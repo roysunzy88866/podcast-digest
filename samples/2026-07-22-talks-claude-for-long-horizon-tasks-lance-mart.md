@@ -78,9 +78,9 @@ tags:
 
 **顺着「智能体」挖下去**
 
+- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]] —— 同概念:工作框架 (harness)、沙箱 (sandbox)
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同公司:Anthropic · 同概念:沙箱 (sandbox)、Claude
 - [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]] —— 同概念:沙箱 (sandbox)、Claude
-- [[2026-07-09-talks-the-golden-age-of-ai-engineering-alexand|OpenAI 开发者日：从结对编程到指挥智能体大军]] —— 同公司:OpenAI · 同概念:工作框架 (harness)
 
 </div>
 <div class="pd-ex">

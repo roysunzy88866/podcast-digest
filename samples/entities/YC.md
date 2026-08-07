@@ -36,7 +36,7 @@ unlisted: true
 
 [[智能体]] · [[主观能动性]] · [[Garry Tan]] · [[Sam Altman]] · [[Alexandr Wang]] · [[Philip Johnston]] · [[技能文件]] · [[初创公司]] · [[Scale]] · [[StarCloud]]
 
-<script type="application/json" class="pd-epn">{"智能体":56,"主观能动性":7,"Garry Tan":1,"Sam Altman":1,"Alexandr Wang":1,"Philip Johnston":1,"技能文件":1,"初创公司":1,"Scale":1,"StarCloud":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":58,"主观能动性":7,"Garry Tan":1,"Sam Altman":1,"Alexandr Wang":1,"Philip Johnston":1,"技能文件":1,"初创公司":1,"Scale":1,"StarCloud":1}</script>
 
 <script>
 (function(){

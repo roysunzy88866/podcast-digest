@@ -28,7 +28,7 @@ unlisted: true
 
 [[智能体]] · [[Elena Berger]] · [[Simon Mo]] · [[Matt Bornstein]] · [[vLLM]] · [[开源权重]] · [[推理]] · [[护栏]] · [[K3]] · [[Hugging Face]]
 
-<script type="application/json" class="pd-epn">{"智能体":56,"Elena Berger":2,"Simon Mo":2,"Matt Bornstein":2,"vLLM":3,"开源权重":3,"推理":1,"护栏":10,"K3":2,"Hugging Face":5}</script>
+<script type="application/json" class="pd-epn">{"智能体":58,"Elena Berger":2,"Simon Mo":2,"Matt Bornstein":2,"vLLM":3,"开源权重":3,"推理":1,"护栏":11,"K3":2,"Hugging Face":6}</script>
 
 <script>
 (function(){

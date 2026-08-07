@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Jensen Huang</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Jensen Huang">JE</div><div class="pi"><h1 class="pt">Jensen Huang</h1><div class="byl">精选演讲 嘉宾</div><div class="nums">本站收录 <b>2</b> 集 · <b>17</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Jensen Huang">JE</div><div class="pi"><h1 class="pt">Jensen Huang</h1><div class="byl">精选演讲 嘉宾</div><div class="nums">本站收录 <b>3</b> 集 · <b>22</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*17 条,均已过机器闸门*
+*22 条,均已过机器闸门*
 
 ![[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu#^q1]]
 
@@ -24,6 +24,16 @@ unlisted: true
 ![[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu#^q5]]
 
 ![[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu#^q6]]
+
+![[2026-07-08-talks-jensen-huang-why-companies-need-open-age#^q1]]
+
+![[2026-07-08-talks-jensen-huang-why-companies-need-open-age#^q2]]
+
+![[2026-07-08-talks-jensen-huang-why-companies-need-open-age#^q3]]
+
+![[2026-07-08-talks-jensen-huang-why-companies-need-open-age#^q4]]
+
+![[2026-07-08-talks-jensen-huang-why-companies-need-open-age#^q5]]
 
 ![[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid#^q1]]
 
@@ -49,16 +59,17 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-06-10-talks-jensen-huang-on-vision-risk-and-the-gpu|《只在美国才能发生的故事:黄仁勋与 NVIDIA》]] — 作为嘉宾
+- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]] — 作为主持
 - [[2026-07-27-yc-jensen-huang-the-mindset-that-built-nvid|《Jensen Huang 谈 NVIDIA 创业史、物理 AI 与创始人模式》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[NVIDIA]] · [[深度学习]] · [[Condi Rice]] · [[Jerry]] · [[GPU]] · [[Sega]] · [[Parallel]] · [[Waymo]] · [[第一性原理]] · [[Tesla]]
+[[NVIDIA]] · [[深度学习]] · [[智能体]] · [[沙箱]] · [[Condi Rice]] · [[测试框架]] · [[Jerry]] · [[GPU]] · [[前沿模型]] · [[Sega]]
 
 ## ④ 也在聊「智能体」的人
 
@@ -68,7 +79,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"NVIDIA":11,"深度学习":3,"Condi Rice":1,"Jerry":1,"GPU":2,"Sega":1,"Parallel":2,"Waymo":7,"第一性原理":2,"Tesla":5}</script>
+<script type="application/json" class="pd-epn">{"NVIDIA":12,"深度学习":3,"智能体":58,"沙箱":11,"Condi Rice":1,"测试框架":6,"Jerry":1,"GPU":2,"前沿模型":1,"Sega":1}</script>
 
 <script>
 (function(){

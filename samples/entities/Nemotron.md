@@ -1,16 +1,17 @@
 ---
 title: Nemotron
-entity_type: 概念
+entity_type: 公司
 type: entity
 unlisted: true
 ---
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Nemotron</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Nemotron">NE</div><div class="pi"><h1 class="pt">Nemotron</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Nemotron">NE</div><div class="pi"><h1 class="pt">Nemotron</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
+- **[[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]]**(04:31起):本集把它说成:NVIDIA 自研的大语言模型系列;Nemotron 3 Ultra 计算效率极高、成本仅为前沿模型的十分之一,在内部基准测试达 86 分接近 Claude Opus
 - **[[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]]**(09:47起):本集把它说成:NVIDIA 自己的开源模型,专门为那些出于主权、监管、隐私或核心知识产权原因,必须自建 AI 的公司与行业打造的底座。
 
 ## ① 提到它的金句
@@ -21,17 +22,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
+- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|《黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体》]] — 作为被讨论公司
 - [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|《黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jensen Wong]] · [[Mike Allen]] · [[NVIDIA]] · [[OpenAI]] · [[Anthropic]] · [[Microsoft]] · [[开放模型]] · [[封闭模型]] · [[沙箱]] · [[智能体]]
+[[智能体]] · [[护栏]] · [[沙箱]] · [[NVIDIA]] · [[Anthropic]] · [[OpenAI]] · [[Jensen Huang]] · [[Jensen Wong]] · [[测试框架]] · [[Mike Allen]]
 
-<script type="application/json" class="pd-epn">{"Jensen Wong":1,"Mike Allen":1,"NVIDIA":11,"OpenAI":28,"Anthropic":33,"Microsoft":7,"开放模型":1,"封闭模型":1,"沙箱":10,"智能体":56}</script>
+<script type="application/json" class="pd-epn">{"智能体":58,"护栏":11,"沙箱":11,"NVIDIA":12,"Anthropic":34,"OpenAI":29,"Jensen Huang":3,"Jensen Wong":1,"测试框架":6,"Mike Allen":1}</script>
 
 <script>
 (function(){

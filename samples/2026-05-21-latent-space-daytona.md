@@ -102,7 +102,7 @@ Windows 沙箱的生意大有可为,但要做 Mac 沙箱却极其反人类。Iva
 
 - [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
-- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
+- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
 
 </div>
 <div class="pd-ex">

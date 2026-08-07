@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Rohan Anil":1,"Jerry Tworek":1,"Core Automation":1,"OpenAI":28,"Google":12,"Anthropic":33,"transformer":2,"强化学习":5,"预训练":1,"测试时学习":1}</script>
+<script type="application/json" class="pd-epn">{"Rohan Anil":1,"Jerry Tworek":1,"Core Automation":1,"OpenAI":29,"Google":13,"Anthropic":34,"transformer":2,"强化学习":6,"预训练":1,"测试时学习":1}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jenny Wen]] · [[Lenny]] · [[Anthropic]] · [[Claude]] · [[智能体]] · [[Claude Code]] · [[Figma]] · [[设计流程]] · [[中期管理]] · [[IC]]
 
-<script type="application/json" class="pd-epn">{"Jenny Wen":1,"Lenny":33,"Anthropic":33,"Claude":11,"智能体":56,"Claude Code":15,"Figma":5,"设计流程":1,"中期管理":1,"IC":4}</script>
+<script type="application/json" class="pd-epn">{"Jenny Wen":1,"Lenny":33,"Anthropic":34,"Claude":11,"智能体":58,"Claude Code":15,"Figma":5,"设计流程":1,"中期管理":1,"IC":4}</script>
 
 <script>
 (function(){

@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":11,"Claude Code":15,"智能体":56,"对抗性智能体":1,"MCP":5,"知识库":1,"技能":3,"vibe coding":6,"红队测试":2}</script>
+<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":11,"Claude Code":15,"智能体":58,"对抗性智能体":1,"MCP":5,"知识库":1,"技能":3,"vibe coding":6,"红队测试":2}</script>
 
 <script>
 (function(){

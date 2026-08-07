@@ -92,6 +92,7 @@ tags:
 **换个口味**
 
 - [[2026-07-09-lennys-adam-mosseri-ai-is-a-tailwind-for|Adam Mosseri 谈 AI 时代的产品团队、算法真相与 Instagram 的未来]] —— 同概念:LLMs
+- [[2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t|AI模型正在学会黑入一切：软件供应链已成最薄弱环节]] —— 同概念:强化学习 (reinforcement learning)
 
 </div>
 </div>

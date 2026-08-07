@@ -95,8 +95,8 @@ tags:
 **顺着「智能体」挖下去**
 
 - [[2026-singju-openclaw-80apps|OpenClaw 创始人 Peter Steinberger：让智能体直接接管你的整台电脑]] —— 同嘉宾:Peter Steinberger · 同概念:Codex、智能体 (agent)
+- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]] —— 同公司:OpenAI · 同概念:harness、智能体 (agent)
 - [[2026-07-28-pg-how-to-build-your-first-eval|eval 会取代 PRD 吗?AI 产品经理的新工作法门]] —— 同概念:harness、智能体 (agent)、Codex
-- [[2026-06-03-latent-space-satya-2026|Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河]] —— 同概念:harness、智能体 (agent)
 
 </div>
 <div class="pd-ex">

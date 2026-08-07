@@ -128,7 +128,7 @@ AI 到底消灭工作还是创造工作?看积压的雄心就知道了。话题�
 
 - [[2026-07-30-mad-the-biggest-ai-deployment-nobody-talks-a|物理世界最大的 AI 部署:Samsara 如何用 AI 编排数百万车辆]] —— 同公司:Tesla、Waymo · 同概念:智能体 (agents)、物理 AI (physical AI)
 - [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]] —— 同公司:NVIDIA · 同概念:智能体 (agents)
-- [[2026-08-01-yc-jeff-dean-the-1-rule-for-building-in-ai|Jeff Dean 谈 AI 原生时代的创业经：找零个正确的甜点]] —— 同概念:智能体 (agents)
+- [[2026-07-08-talks-jensen-huang-why-companies-need-open-age|黄仁勋对话 LangChain:用开放堆栈打造企业超级智能体]] —— 同公司:NVIDIA
 
 </div>
 <div class="pd-ex">
