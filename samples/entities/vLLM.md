@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>vLLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="vLLM">VL</div><div class="pi"><h1 class="pt">vLLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="vLLM">VL</div><div class="pi"><h1 class="pt">vLLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -16,18 +16,19 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*2 集*
+*3 集*
 
 - [[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]] — 作为概念(提及)
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|《开源模型没差距，缺的是让它跑起来的基础设施》]] — 作为概念
+- [[2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou|《把 Opus 级智能搬回家:开源推理如何长成关键基础设施》]] — 作为概念
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[推理]] · [[swyx]] · [[Elena Berger]] · [[Akshat Bubna]] · [[Simon Mo]] · [[Vibhu]] · [[Matt Bornstein]] · [[Modal]] · [[开源权重]]
+[[智能体]] · [[推理]] · [[Anthropic]] · [[Elena Berger]] · [[OpenAI]] · [[Simon Mo]] · [[Matt Bornstein]] · [[开源权重]] · [[护栏]] · [[K3]]
 
-<script type="application/json" class="pd-epn">{"智能体":53,"推理":1,"swyx":1,"Elena Berger":1,"Akshat Bubna":1,"Simon Mo":1,"Vibhu":1,"Matt Bornstein":1,"Modal":1,"开源权重":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":54,"推理":1,"Anthropic":33,"Elena Berger":2,"OpenAI":28,"Simon Mo":2,"Matt Bornstein":2,"开源权重":3,"护栏":10,"K3":2}</script>
 
 <script>
 (function(){

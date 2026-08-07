@@ -7,29 +7,31 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Mistral</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Mistral">MI</div><div class="pi"><h1 class="pt">Mistral</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Mistral">MI</div><div class="pi"><h1 class="pt">Mistral</h1><div class="byl">公司</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|《Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等》]]**(19:11起):本集说它是欧洲的 AI 冠军公司，嘉宾 Charles 是其联合创始人；当时为应对完全依赖 OpenAI 的风险、防止地缘政治危机导致残酷脱钩而创立。
 - **[[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]]**(09:17起):本集提到它是一家法国的开源大模型公司，在推动开源技术发展方面做得不错。
 - **[[2026-08-06-a16z-how-open-source-ai-became-critical-infra|《开源模型没差距，缺的是让它跑起来的基础设施》]]**(11:55起):本集提到:其早年发布首个模型时只丢出了一个 torrent 链接,vLLM 团队在幕后疯狂赶工,才让它在周一早上成功跑通。
+- **[[2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou|《把 Opus 级智能搬回家:开源推理如何长成关键基础设施》]]**(11:55起):本集提到它当年扔出第一个模型时只丢了一个种子链接,全世界爱好者熬夜下载却跑不起来,VLLM 团队周末加班赶工推理引擎支持,周一才宣布跑通。
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|《Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等》]] — 作为被讨论公司
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为被讨论公司
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|《开源模型没差距，缺的是让它跑起来的基础设施》]] — 作为被讨论公司(提及)
+- [[2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou|《把 Opus 级智能搬回家:开源推理如何长成关键基础设施》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Hugging Face]] · [[智能体]] · [[护栏]] · [[Laurent]] · [[Theo Jaffe]] · [[Elena Berger]] · [[Charles Gorintin]] · [[Ben Horowitz]] · [[Simon Mo]]
+[[OpenAI]] · [[Hugging Face]] · [[智能体]] · [[护栏]] · [[NVIDIA]] · [[Elena Berger]] · [[Anthropic]] · [[Simon Mo]] · [[蒸馏]] · [[Matt Bornstein]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":27,"Hugging Face":4,"智能体":53,"护栏":9,"Laurent":1,"Theo Jaffe":2,"Elena Berger":1,"Charles Gorintin":1,"Ben Horowitz":1,"Simon Mo":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":28,"Hugging Face":5,"智能体":54,"护栏":10,"NVIDIA":11,"Elena Berger":2,"Anthropic":33,"Simon Mo":2,"蒸馏":5,"Matt Bornstein":2}</script>
 
 <script>
 (function(){

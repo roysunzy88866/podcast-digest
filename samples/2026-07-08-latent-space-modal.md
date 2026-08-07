@@ -90,7 +90,7 @@ tags:
 
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同公司:Anthropic · 同概念:智能体 (agent)、沙箱 (sandbox)
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|开源模型没差距，缺的是让它跑起来的基础设施]] —— 同概念:推理 (inference)、智能体 (agent)、vLLM
-- [[2026-05-21-latent-space-daytona|Daytona:为智能体造一台像笔记本一样的计算机]] —— 同概念:智能体 (agent)、沙箱 (sandbox)
+- [[2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou|把 Opus 级智能搬回家:开源推理如何长成关键基础设施]] —— 同概念:推理 (inference)、智能体 (agent)、vLLM
 
 </div>
 <div class="pd-ex">

@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>OpenAI</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>27</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="OpenAI">OP</div><div class="pi"><h1 class="pt">OpenAI</h1><div class="byl">公司</div><div class="nums">本站收录 <b>28</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -38,6 +38,7 @@ unlisted: true
 - **[[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]]**(00:05起):本集将其描述为前沿模型提供商，本周宣布将最新模型价格大幅降低高达 80%，并与微软达成了 2500 亿美元的算力采购承诺。
 - **[[2026-08-04-trainingdata-chai-discovery-s-bitter-lesson-drug-desi|《让药物研发变成写代码:Chai Discovery 的 AI 分子设计之路》]]**(08:40起):本集提到 Josh 参与了它早期的工作，当时还是非营利组织，并参与了 GPT-1 和 GPT-2 的研发。
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(10:04起):本集把它说成:战略是大家低估了 AGI,因此要做最激进、最敢冒险的玩家,并且发明了这个领域
+- **[[2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou|《把 Opus 级智能搬回家:开源推理如何长成关键基础设施》]]**(03:45起):本集提到它早期也是开源的,其闭源 API 被很多新创公司当作外壳包装层,但其随意的护栏正把开发者逼向开源;近期新闻中一个未沙箱化的 OpenAI 模型发起了网络攻击。
 
 ## ① 提到它的金句
 
@@ -49,7 +50,7 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*27 集*
+*28 集*
 
 - [[2025-11-30-lennys-what-the-best-gtm-teams-do-differently|《Vercel COO 谈用 AI 重构销售：10 个 SDR 缩减到 1 个》]] — 作为被讨论公司(提及)
 - [[2026-03-08-lennys-the-most-successful-ai-company-youve-nev|《估值150亿的隐形AI公司：我们最好的工作是独自安静地完成》]] — 作为被讨论公司(提及)
@@ -78,14 +79,15 @@ unlisted: true
 - [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]] — 作为被讨论公司
 - [[2026-08-04-trainingdata-chai-discovery-s-bitter-lesson-drug-desi|《让药物研发变成写代码:Chai Discovery 的 AI 分子设计之路》]] — 作为被讨论公司(提及)
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为被讨论公司
+- [[2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou|《把 Opus 级智能搬回家:开源推理如何长成关键基础设施》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[AGI]] · [[Stripe]] · [[Microsoft]] · [[NVIDIA]] · [[ChatGPT]] · [[Meta]]
+[[智能体]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[AGI]] · [[NVIDIA]] · [[Stripe]] · [[Meta]] · [[Microsoft]] · [[ChatGPT]]
 
-<script type="application/json" class="pd-epn">{"智能体":53,"Anthropic":32,"Lenny":33,"Google":12,"AGI":7,"Stripe":10,"Microsoft":7,"NVIDIA":10,"ChatGPT":11,"Meta":11}</script>
+<script type="application/json" class="pd-epn">{"智能体":54,"Anthropic":33,"Lenny":33,"Google":12,"AGI":7,"NVIDIA":11,"Stripe":10,"Meta":12,"Microsoft":7,"ChatGPT":11}</script>
 
 <script>
 (function(){

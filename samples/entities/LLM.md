@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Anthropic]] · [[Stripe]] · [[Claude]] · [[Jason Cohen]] · [[Nikhyl Singhal]] · [[Patrick Collison]] · [[Barney Hussey-Yeo]] · [[客户流失率]]
 
-<script type="application/json" class="pd-epn">{"智能体":53,"Lenny":33,"Anthropic":32,"Stripe":10,"Claude":11,"Jason Cohen":1,"Nikhyl Singhal":1,"Patrick Collison":1,"Barney Hussey-Yeo":1,"客户流失率":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":54,"Lenny":33,"Anthropic":33,"Stripe":10,"Claude":11,"Jason Cohen":1,"Nikhyl Singhal":1,"Patrick Collison":1,"Barney Hussey-Yeo":1,"客户流失率":1}</script>
 
 <script>
 (function(){

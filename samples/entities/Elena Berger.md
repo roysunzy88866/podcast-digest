@@ -7,19 +7,20 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Elena Berger</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Elena Berger">EL</div><div class="pi"><h1 class="pt">Elena Berger</h1><div class="byl">The a16z Show 主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Elena Berger">EL</div><div class="pi"><h1 class="pt">Elena Berger</h1><div class="byl">The a16z Show 主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|《开源模型没差距，缺的是让它跑起来的基础设施》]] — 作为主持
+- [[2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou|《把 Opus 级智能搬回家:开源推理如何长成关键基础设施》]] — 作为主持
 
 ## ③ 他谈到的
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Simon Mo]] · [[Matt Bornstein]] · [[vLLM]] · [[开源权重]] · [[推理]] · [[智能体]] · [[后训练]] · [[护栏]] · [[Infrax]] · [[K3]]
+[[Simon Mo]] · [[Matt Bornstein]] · [[vLLM]] · [[开源权重]] · [[推理]] · [[智能体]] · [[护栏]] · [[K3]] · [[Hugging Face]] · [[Mistral]]
 
 ## ④ 也在聊「智能体」的人
 
@@ -29,7 +30,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Mo":1,"Matt Bornstein":1,"vLLM":2,"开源权重":2,"推理":1,"智能体":53,"后训练":2,"护栏":9,"Infrax":1,"K3":1}</script>
+<script type="application/json" class="pd-epn">{"Simon Mo":2,"Matt Bornstein":2,"vLLM":3,"开源权重":3,"推理":1,"智能体":54,"护栏":10,"K3":2,"Hugging Face":5,"Mistral":4}</script>
 
 <script>
 (function(){

@@ -31,7 +31,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Anthropic]] · [[Stripe]] · [[OpenAI]] · [[Jason Lemkin]] · [[Zevi Arnovitz]] · [[Patrick Collison]] · [[Michele Catasta]] · [[SaaStr]]
 
-<script type="application/json" class="pd-epn">{"智能体":53,"Lenny":33,"Anthropic":32,"Stripe":10,"OpenAI":27,"Jason Lemkin":1,"Zevi Arnovitz":1,"Patrick Collison":1,"Michele Catasta":1,"SaaStr":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":54,"Lenny":33,"Anthropic":33,"Stripe":10,"OpenAI":28,"Jason Lemkin":1,"Zevi Arnovitz":1,"Patrick Collison":1,"Michele Catasta":1,"SaaStr":1}</script>
 
 <script>
 (function(){

@@ -85,9 +85,9 @@ tags:
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou|把 Opus 级智能搬回家:开源推理如何长成关键基础设施]] —— 同嘉宾:Matt Bornstein、Simon Mo · 同公司:K3、Hugging Face · 同概念:VLLM、开放权重 (open weight)、护栏 (guardrails)、推理 (inference)、智能体 (agent)
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]] —— 同概念:推理 (inference)、智能体 (agent)、VLLM
 - [[2026-06-22-latent-space-gray-swan|当 AI 变成黑客武器:给企业智能体修防火墙]] —— 同概念:护栏 (guardrails)、智能体 (agent)
-- [[2026-06-16-talks-a-conversation-with-alan-cofounder-and-c|Alan 联合创始人 Charles：用 AI 重塑公司，欧洲科技不能等]] —— 同公司:Mistral · 同概念:智能体 (agent)
 
 </div>
 <div class="pd-ex">

@@ -103,9 +103,9 @@ tags:
 
 **顺着「智能体」挖下去**
 
+- [[2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou|把 Opus 级智能搬回家:开源推理如何长成关键基础设施]] —— 同概念:推理 (inference)、蒸馏 (distillation)
 - [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌]] —— 同公司:Google · 同概念:智能体 (agents)
 - [[2026-07-08-latent-space-modal|不只做推理：Modal 如何跨界多节点训练与智能体云]] —— 同概念:推理 (inference)
-- [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同概念:Gemini
 
 </div>
 <div class="pd-ex">

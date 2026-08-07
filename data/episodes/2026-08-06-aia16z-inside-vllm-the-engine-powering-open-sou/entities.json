@@ -1,0 +1,1006 @@
+{
+  "episode_id": "2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou",
+  "podcast": "AI + a16z",
+  "date": "2026-08-06",
+  "tags": [
+    "开源 AI",
+    "推理引擎",
+    "开放权重",
+    "智能体",
+    "模型许可证"
+  ],
+  "categories": [
+    "智能体",
+    "创业与行业"
+  ],
+  "entities": [
+    {
+      "id": "elena-berger",
+      "type": "person",
+      "role": "host",
+      "name": "Elena Berger",
+      "file": "Elena Berger",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            75.455,
+            92.745
+          ],
+          "quote": "In this episode, Elena Berger and Matt Borenstein are joined by Simon Mo, co-founder and CEO of InfoRack, to discuss how open source inference became critical infrastructure for AI, why enterprises are increasingly turning to open weight models, and what the next generation of AI systems will require.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "simon-mo",
+      "type": "person",
+      "role": "cohost",
+      "name": "Simon Mo",
+      "file": "Simon Mo",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 14,
+          "t": [
+            75.455,
+            92.745
+          ],
+          "quote": "In this episode, Elena Berger and Matt Borenstein are joined by Simon Mo, co-founder and CEO of InfoRack, to discuss how open source inference became critical infrastructure for AI, why enterprises are increasingly turning to open weight models, and what the next generation of AI systems will require.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 16,
+          "t": [
+            101.658,
+            111.841
+          ],
+          "quote": "Today, we're here with Simon Mo, co-founder of Infraact and a lead maintainer of VLLM, the open source inference engine now running on half a million GPUs at any moment.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "matt-bornstein",
+      "type": "person",
+      "role": "cohost",
+      "name": "Matt Bornstein",
+      "file": "Matt Bornstein",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 17,
+          "t": [
+            112.421,
+            116.322
+          ],
+          "quote": "We're also joined by Matt Bornstein, an A16Z general partner.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "vllm",
+      "type": "concept",
+      "role": "concept",
+      "name": "VLLM",
+      "file": "VLLM",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            101.658,
+            111.841
+          ],
+          "quote": "Today, we're here with Simon Mo, co-founder of Infraact and a lead maintainer of VLLM, the open source inference engine now running on half a million GPUs at any moment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 20,
+          "t": [
+            127.448,
+            132.392
+          ],
+          "quote": "So VLLM actually has its origins kind of back in 2022 pre-ChatGPT.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 90,
+          "t": [
+            491.752,
+            499.236
+          ],
+          "quote": "And can you talk about where VLLM sits in that stack where we do have these larger enterprise companies that are choosing to use open source models?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 91,
+          "t": [
+            499.256,
+            501.737
+          ],
+          "quote": "Like where does VLLM sit in the stack for them?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1800.062,
+            1815.269
+          ],
+          "quote": "Something that I find kind of funny and like looking back at not just the history of VLLM and Infraact, but also a company like OpenRouter or even Ollama, all of these different teams kind of got started around 2022 and 2023.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1823.694,
+            1839.345
+          ],
+          "quote": "What special thing do you think was happening at that time, just like in the world of research and in the world of AI, where we see these companies now and we look at them and you think of VLLM as mission-critical or open router as mission-critical.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 375,
+          "t": [
+            2199.891,
+            2208.517
+          ],
+          "quote": "And I'm just curious what you've learned from him in terms of taking an open source project like VLLM and building a company.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "infraact",
+      "type": "company",
+      "role": "company",
+      "name": "Infraact",
+      "file": "Infraact",
+      "primary": true,
+      "how_described": "本集把它说成:基于 VLLM 成立的商业公司,其价值在于跑完最后一公里、填补空白,让企业客户真正拿到最好的质量和体验。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            101.658,
+            111.841
+          ],
+          "quote": "Today, we're here with Simon Mo, co-founder of Infraact and a lead maintainer of VLLM, the open source inference engine now running on half a million GPUs at any moment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            783.304,
+            787.766
+          ],
+          "quote": "Infraact signed the NVIDIA open weights and American AI leadership letter.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1800.062,
+            1815.269
+          ],
+          "quote": "Something that I find kind of funny and like looking back at not just the history of VLLM and Infraact, but also a company like OpenRouter or even Ollama, all of these different teams kind of got started around 2022 and 2023.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2188.204,
+            2193.888
+          ],
+          "quote": "And I just wanted to take a step back a bit and ask just about Infraact and, you know, running the company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 374,
+          "t": [
+            2193.928,
+            2199.791
+          ],
+          "quote": "And I know that Ian Stoick of Databricks is an advisor and a co-founder of Infraact.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "open-weight",
+      "type": "concept",
+      "role": "concept",
+      "name": "开放权重 (open weight)",
+      "file": "开放权重",
+      "primary": true,
+      "how_described": "本集把它说成:一种让模型供全世界使用的方式,开放权重模型能把接近前沿的顶级智能搬到企业自己的基础设施上,并提供极致的速度控制、数据保留控制和护栏控制。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            43.826,
+            49.171
+          ],
+          "quote": "But for open-weight, every provider can offer potentially even 10 different levels of speed.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            75.455,
+            92.745
+          ],
+          "quote": "In this episode, Elena Berger and Matt Borenstein are joined by Simon Mo, co-founder and CEO of InfoRack, to discuss how open source inference became critical infrastructure for AI, why enterprises are increasingly turning to open weight models, and what the next generation of AI systems will require.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 70,
+          "t": [
+            392.478,
+            404.952
+          ],
+          "quote": "And at that point, we will need the accelerator running open-weight model and open-weight software to open-source software to make sure it works well and have all flexibility and control over it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 100,
+          "t": [
+            541.716,
+            545.22
+          ],
+          "quote": "And a lot of those are proprietary, but also a lot of those are open weight.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            546.101,
+            559.078
+          ],
+          "quote": "And a lot of those model architecture, when they are becoming, transitioning from a research prototype to world-accessible open-weight model architecture, they are live on VLM immediately.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 171,
+          "t": [
+            968.842,
+            976.829
+          ],
+          "quote": "just really, really great open weight models that are on the frontier that were designed by really brilliant researchers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1065.801,
+            1076.712
+          ],
+          "quote": "But for open-weight, when you're running it, every provider can offer potentially even 10 different levels of speed going from like the slowest mode, which can be a lot cheaper, to...",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "inference",
+      "type": "concept",
+      "role": "concept",
+      "name": "推理 (inference)",
+      "file": "推理",
+      "primary": true,
+      "how_described": "本集把它说成:在 GPU 等加速器上运行大语言模型的过程,需要处理输入输出差异、批处理和调度;开源推理目前是业内领先的方式。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            21.591,
+            23.732
+          ],
+          "quote": "VLOM is an inference engine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 14,
+          "t": [
+            75.455,
+            92.745
+          ],
+          "quote": "In this episode, Elena Berger and Matt Borenstein are joined by Simon Mo, co-founder and CEO of InfoRack, to discuss how open source inference became critical infrastructure for AI, why enterprises are increasingly turning to open weight models, and what the next generation of AI systems will require.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 15,
+          "t": [
+            93.485,
+            98.308
+          ],
+          "quote": "They also explore model licensing, inference economics, and the future of open AI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 16,
+          "t": [
+            101.658,
+            111.841
+          ],
+          "quote": "Today, we're here with Simon Mo, co-founder of Infraact and a lead maintainer of VLLM, the open source inference engine now running on half a million GPUs at any moment.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            178.795,
+            192.58
+          ],
+          "quote": "So this typically means we need to handle differences in input distribution, how long each request is, output distribution, which is non-deterministic, and batching and scheduling a lot more at the core of the inference engine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 82,
+          "t": [
+            467.944,
+            472.265
+          ],
+          "quote": "We need to do our own mid-training, our own post-training, our own sort of inference and deployment tricks.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 95,
+          "t": [
+            507.138,
+            509.299
+          ],
+          "quote": "VLM is an inference engine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            654.22,
+            662.846
+          ],
+          "quote": "Yeah, because this thing is not their core and they have been training or maybe they have their internal inference engine that just don't know how it will adapt to the open way ecosystem.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            688.204,
+            696.772
+          ],
+          "quote": "These could be inference clouds, these could be public hyperscalers, whoever is going to run this model and you want them to ensure the model are running successfully.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            728.056,
+            733.76
+          ],
+          "quote": "And then we're working behind the scene with the Mistral team trying to get the inference engine support working in VOR.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 148,
+          "t": [
+            824.572,
+            845.852
+          ],
+          "quote": "right as a pledge that infra grace enough or is we want to help and foster this ecosystem where we are typically in a little bit downstream of this ecosystem right inference engine are not part of the pre-training process nor the rl process but we're where the model actually meets the world and from what we're seeing people are just",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1694.365,
+            1707.429
+          ],
+          "quote": "So I guess this relates to another question that we've had, which is inference has gotten harder over the past 18 months because of this combination of scale and diversity and the kinds of models that we have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 302,
+          "t": [
+            1763.083,
+            1771.765
+          ],
+          "quote": "And this is where it kind of, this is why open source inference is the current leading way right now instead of closed source inference engine.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 304,
+          "t": [
+            1777.966,
+            1786.631
+          ],
+          "quote": "A lot of the open, sorry, a lot of the influence cloud and API as a service today do use and leverage open source inference engine under the hood.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2246.364,
+            2255.829
+          ],
+          "quote": "If the open source movement and open source inference engine is a starting point, then what are the gaps that we can fill as infrared?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:执行越来越长任务的系统,比如语音智能体(要求严格时间限制内给回应)和代码智能体,它们需要自己控制模型才能保证性能和 SLA。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 165,
+          "t": [
+            915.886,
+            925.895
+          ],
+          "quote": "So, for example, for a voice agent company, they want to control their own model so that they can make sure the model actually responds by the required time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 166,
+          "t": [
+            926.015,
+            932.561
+          ],
+          "quote": "So the customer, when they're on the phone, they can ensure the agent is responding according to a SLA.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 278,
+          "t": [
+            1598.055,
+            1626.856
+          ],
+          "quote": "adapted making sure it runs for voice agent but also for coding agent which are entirely different kind of use cases so this is a whole community effort trying to further optimize specialize and making sure the running of it is reliable and continue to be able to optimize against it so that's a whole village later throughout the open source to make sure it's improved and that's cool because that really is like open source software I mean and this is what you do but you know like this is like anybody can contribute and like make these better and",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "k3",
+      "type": "concept",
+      "role": "concept",
+      "name": "K3",
+      "file": "K3",
+      "primary": true,
+      "how_described": "本集把它说成:一个带来 Opus 4.8 级别顶级智能的开放权重模型,通过它人们可以按需定制速度、跑出每秒 400-500 个 token 的极致速度,从而不再卡在思考中而是飞速执行。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            357.273,
+            361.955
+          ],
+          "quote": "This is open frontier intelligence is a catchphrase for the K3 model release this time.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 130,
+          "t": [
+            697.573,
+            714.387
+          ],
+          "quote": "So even up to today, if you look at the K3 model release, it's a whole partnership and a drive to make sure that the model is, once the model is released, because it's just a few terabytes of file sitting on the internet, that people are actually going to use it really, really well.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 169,
+          "t": [
+            951.293,
+            964.04
+          ],
+          "quote": "Simon, you also, to go back to the cost point, you actually make the point in an essay you recently wrote about the release of Kimmy K3 that actually the economics is besides the point.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 176,
+          "t": [
+            1012.512,
+            1025.8
+          ],
+          "quote": "But for this model, there's a big sort of step change where we're bridging almost a 10x gap, but strike somewhere in the middle, where Kimi K3 is not as expensive as Plot or GPD Sol.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 189,
+          "t": [
+            1110.519,
+            1120.521
+          ],
+          "quote": "Yeah, this is why I'm particularly excited about K3, not just from the cost perspective, but a lot more on bringing this level of intelligence to something people can own.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 340,
+          "t": [
+            2036.684,
+            2050.07
+          ],
+          "quote": "And so a lot of our developers are using like Kimi K3 today even, just making sure, because it's a similar quality and it has a guardrail that makes sense to us, there it goes while using it.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 405,
+          "t": [
+            2369.846,
+            2378.433
+          ],
+          "quote": "One of the very useful benchmarks that we have on Arena for K3 has been front-end coding, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2482.554,
+            2493.281
+          ],
+          "quote": "Actually, one interesting point about this, maybe fairly technical for this Kimi K3 model is they removed a rotary positional embedding.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "distillation",
+      "type": "concept",
+      "role": "concept",
+      "name": "蒸馏 (distillation)",
+      "file": "蒸馏",
+      "primary": true,
+      "how_described": "本集把它说成:用大模型的输出去训练另一个模型的做法,但嘉宾指出,模型在环境里是如何学习的是无法被蒸馏的,推动进步的不是蒸馏而是聪明的人和算法环境。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            770.677,
+            782.363
+          ],
+          "quote": "So to bring things, you know, forward to the present, I think open source models and also, you know, distillation have been in the news recently.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 440,
+          "t": [
+            2574.515,
+            2578.339
+          ],
+          "quote": "We didn't talk about distillation much so far in this conversation, but I think it's very relevant to this.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 441,
+          "t": [
+            2578.459,
+            2583.844
+          ],
+          "quote": "I have just one question, which is, I'm not going to ask, is distillation happening?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 444,
+          "t": [
+            2591.685,
+            2596.547
+          ],
+          "quote": "distillation is a critical component of what they do?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 445,
+          "t": [
+            2596.728,
+            2603.451
+          ],
+          "quote": "Or are they kind of just doing good work and distillation, if it's done, is sort of an incidental part of it?",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2677.58,
+            2685.845
+          ],
+          "quote": "Because it doesn't, you know, it's almost tempting if you're sort of, you know, in the White House to say, oh, sure, we'll just turn off distillation, all our problems will be solved.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "guardrails",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (guardrails)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "本集把它说成:为模型设定的安全限制。闭源专有 API 的护栏极其随意且误伤严重(大量合法请求被拦截),这正是开发者逃离闭源、拥抱开放模型的原因。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 154,
+          "t": [
+            870.706,
+            873.568
+          ],
+          "quote": "If I need to extend it or put on my own guardrails or anything.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 329,
+          "t": [
+            1944.649,
+            1953.335
+          ],
+          "quote": "In the end, it's about all the closed proprietary model APIs, their guardrails are a little bit arbitrary, but also very difficult to enforce.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1953.775,
+            1961.357
+          ],
+          "quote": "That means they have so much false positive in the guardrails that will have legitimate use cases just being blocked.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "batching",
+      "type": "concept",
+      "role": "concept",
+      "name": "批处理 (batching)",
+      "file": "批处理",
+      "primary": false,
+      "how_described": "本集把它说成:把多个请求打包一起算,是在 GPU 上同时处理成百上千个请求的核心设计之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            178.795,
+            192.58
+          ],
+          "quote": "So this typically means we need to handle differences in input distribution, how long each request is, output distribution, which is non-deterministic, and batching and scheduling a lot more at the core of the inference engine.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "hugging-face",
+      "type": "company",
+      "role": "company",
+      "name": "Hugging Face",
+      "file": "Hugging Face",
+      "primary": false,
+      "how_described": "本集提到它是模型托管社区,在早期有一千种 BERT 变体;模型发布时它与模型实验室、硬件厂商、VLLM 一起作为多方联动的关键参与方。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            296.819,
+            299.763
+          ],
+          "quote": "Hugging Face had a thousand Birch variants on it.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1903.083,
+            1912.977
+          ],
+          "quote": "So I think another thing that was in the news really recently was Hugging Face using a Chinese open source model to help contain a cyber attack.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "moonshot",
+      "type": "company",
+      "role": "company",
+      "name": "Moonshot",
+      "file": "Moonshot",
+      "primary": false,
+      "how_described": "本集提到它发布了 Kimi K3 模型,并为其构建了极好的自我改进环境(如前端编码环境),让模型写代码、看渲染结果、再循环迭代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 225,
+          "t": [
+            1351.974,
+            1366.218
+          ],
+          "quote": "If there's no source of economic, if there's no source of funding for Moonshot to continue to train models, like, we know where the funding will come from instead, and it's not, like, something we, right, you know, it's government and things that, like, are actually worse for us, I think.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2380.454,
+            2385.157
+          ],
+          "quote": "Moonshot, they have built some of the best environment for front-end coding, right?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "mistral",
+      "type": "company",
+      "role": "company",
+      "name": "Mistral",
+      "file": "Mistral",
+      "primary": false,
+      "how_described": "本集提到它当年扔出第一个模型时只丢了一个种子链接,全世界爱好者熬夜下载却跑不起来,VLLM 团队周末加班赶工推理引擎支持,周一才宣布跑通。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 131,
+          "t": [
+            715.067,
+            723.993
+          ],
+          "quote": "Even from the beginning of 2023, 2024, if you remember when Mistral dropped their first model, they just dropped a torrent link for PTP.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 133,
+          "t": [
+            728.056,
+            733.76
+          ],
+          "quote": "And then we're working behind the scene with the Mistral team trying to get the inference engine support working in VOR.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": false,
+      "how_described": "本集提到它早期也是开源的,其闭源 API 被很多新创公司当作外壳包装层,但其随意的护栏正把开发者逼向开源;近期新闻中一个未沙箱化的 OpenAI 模型发起了网络攻击。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 35,
+          "t": [
+            225.788,
+            228.05
+          ],
+          "quote": "I mean, we literally have this company called OpenAI, which...",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 76,
+          "t": [
+            429.609,
+            438.894
+          ],
+          "quote": "Like at any given point in time, including now, I think models from OpenAI and Anthropic are kind of more widely used and more critical kind of in general than open source models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 78,
+          "t": [
+            450.64,
+            455.481
+          ],
+          "quote": "without just being a wrapper on top of OpenAI, the answer to that question turned out to be open source.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 323,
+          "t": [
+            1913.738,
+            1918.54
+          ],
+          "quote": "carried out by a rogue, unsandboxed OpenAI model that was being tested.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": false,
+      "how_described": "本集提到它的模型极其容易误伤,研究 GPU 内核时仅仅报出一个无效内存访问错误就会触发红线,中断你跑了两小时的任务并丢掉所有工作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            429.609,
+            438.894
+          ],
+          "quote": "Like at any given point in time, including now, I think models from OpenAI and Anthropic are kind of more widely used and more critical kind of in general than open source models.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 337,
+          "t": [
+            2003.397,
+            2012.507
+          ],
+          "quote": "Even for us, like this is actually applied to us today, where a lot of the anthropic models are banning frontier AI user research.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2133.312,
+            2141.376
+          ],
+          "quote": "And like some of them, especially, you know, anthropic, like is kind of going further than even what would be sort of like legally required.",
+          "speaker": "SPEAKER_03"
+        }
+      ]
+    },
+    {
+      "id": "meta",
+      "type": "company",
+      "role": "company",
+      "name": "Meta",
+      "file": "Meta",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 144,
+          "t": [
+            789.067,
+            793.813
+          ],
+          "quote": "that was signed by also A16Z, Meta, Amazon, dozens of other companies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1219.497,
+            1235.888
+          ],
+          "quote": "So we have been starting to see terms, even to the LAMA days, for when Meta was releasing LAMA, they do have a term of if your daily active user or like annual recurring revenue exceeds some threshold, please enter into a commercial agreement with Meta specifically.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "databricks",
+      "type": "company",
+      "role": "company",
+      "name": "Databricks",
+      "file": "Databricks",
+      "primary": false,
+      "how_described": "本集提到其高管 Ian Stoick 是 Infraact 的联合创始人,将如何支持开源以及如何把开源项目做成公司的经验带到了 Infraact。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 374,
+          "t": [
+            2193.928,
+            2199.791
+          ],
+          "quote": "And I know that Ian Stoick of Databricks is an advisor and a co-founder of Infraact.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 377,
+          "t": [
+            2218.347,
+            2226.293
+          ],
+          "quote": "And then now with experience from Databricks and AnyScale and even Arena, which is a public platform.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": false,
+      "how_described": "本集把它说成:选择底层深深依赖开源模型,而不是只当 OpenAI 外面套壳的包装层的明星应用公司之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 79,
+          "t": [
+            455.941,
+            457.542
+          ],
+          "quote": "I mean, this is what Cursor did.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1277.278,
+            1288.467
+          ],
+          "quote": "And Kimi initially also has, like, if you have derivative works, like this is kind of big news back then with Fireworks and Cursor about how they built on top of Kimi model.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集提到 VLLM 支持它的最新芯片,它也拿 VLLM 当性能基准;最近还和 Infraact、A16Z、Meta、Amazon 等几十家公司一起签了 NVIDIA 的开放权重倡议信。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            23.952,
+            31.817
+          ],
+          "quote": "It is kind of like databases and operating system and other critical software to power AGI, NVIDIA, AMD, Google.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 43,
+          "t": [
+            263.433,
+            272.978
+          ],
+          "quote": "So ResNet already need to run on NVIDIA K80, which is kind of one of the first SPU on AWS and other places.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 104,
+          "t": [
+            565.725,
+            574.272
+          ],
+          "quote": "So that means across like NVIDIA, AMD, Google, Amazon, Intel, and a lot more, their newest chip will make sure Veeam can run on them.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 143,
+          "t": [
+            783.304,
+            787.766
+          ],
+          "quote": "Infraact signed the NVIDIA open weights and American AI leadership letter.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

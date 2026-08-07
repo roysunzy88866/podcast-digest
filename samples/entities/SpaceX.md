@@ -33,7 +33,7 @@ unlisted: true
 
 [[OpenAI]] · [[NVIDIA]] · [[Anthropic]] · [[Alex]] · [[Microsoft]] · [[Google]] · [[AGI]] · [[资本支出]] · [[蒸馏]] · [[Ranjan Roy]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":27,"NVIDIA":10,"Anthropic":32,"Alex":2,"Microsoft":7,"Google":12,"AGI":7,"资本支出":2,"蒸馏":4,"Ranjan Roy":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":28,"NVIDIA":11,"Anthropic":33,"Alex":2,"Microsoft":7,"Google":12,"AGI":7,"资本支出":2,"蒸馏":5,"Ranjan Roy":1}</script>
 
 <script>
 (function(){

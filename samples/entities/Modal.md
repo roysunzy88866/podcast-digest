@@ -26,7 +26,7 @@ aliases: ["Modal Labs", "Modo", "moto"]
 
 [[swyx]] · [[Akshat Bubna]] · [[Vibhu]] · [[智能体]] · [[AX]] · [[DX]] · [[沙箱]] · [[推理]] · [[弹性推理]] · [[投机解码]]
 
-<script type="application/json" class="pd-epn">{"swyx":1,"Akshat Bubna":1,"Vibhu":1,"智能体":53,"AX":1,"DX":2,"沙箱":10,"推理":1,"弹性推理":1,"投机解码":1}</script>
+<script type="application/json" class="pd-epn">{"swyx":1,"Akshat Bubna":1,"Vibhu":1,"智能体":54,"AX":1,"DX":2,"沙箱":10,"推理":1,"弹性推理":1,"投机解码":1}</script>
 
 <script>
 (function(){
