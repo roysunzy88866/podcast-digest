@@ -77,7 +77,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[OpenAI]] · [[Claude Code]] · [[ChatGPT]] · [[Slack]] · [[Claude]] · [[Google]] · [[主观能动性]] · [[Waymo]]
 
-<script type="application/json" class="pd-epn">{"智能体":54,"Anthropic":33,"OpenAI":28,"Claude Code":14,"ChatGPT":11,"Slack":13,"Claude":11,"Google":12,"主观能动性":7,"Waymo":7}</script>
+<script type="application/json" class="pd-epn">{"智能体":55,"Anthropic":33,"OpenAI":28,"Claude Code":14,"ChatGPT":11,"Slack":13,"Claude":11,"Google":12,"主观能动性":7,"Waymo":7}</script>
 
 <script>
 (function(){

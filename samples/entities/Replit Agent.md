@@ -25,7 +25,7 @@ unlisted: true
 
 [[Michele Catasta]] · [[Replit]] · [[智能体]] · [[vibe coding]] · [[云开发环境]] · [[基于使用量的计费]] · [[基于结果的定价]] · [[自主性]] · [[一人独角兽]] · [[提示词]]
 
-<script type="application/json" class="pd-epn">{"Michele Catasta":1,"Replit":4,"智能体":54,"vibe coding":6,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":1,"自主性":1,"一人独角兽":1,"提示词":1}</script>
+<script type="application/json" class="pd-epn">{"Michele Catasta":1,"Replit":4,"智能体":55,"vibe coding":6,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":1,"自主性":1,"一人独角兽":1,"提示词":1}</script>
 
 <script>
 (function(){

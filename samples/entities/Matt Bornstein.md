@@ -46,7 +46,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elena Berger":2,"Simon Mo":2,"vLLM":3,"开源权重":3,"推理":1,"智能体":54,"护栏":10,"K3":2,"Hugging Face":5,"Mistral":4}</script>
+<script type="application/json" class="pd-epn">{"Elena Berger":2,"Simon Mo":2,"vLLM":3,"开源权重":3,"推理":1,"智能体":55,"护栏":10,"K3":2,"Hugging Face":5,"Mistral":4}</script>
 
 <script>
 (function(){

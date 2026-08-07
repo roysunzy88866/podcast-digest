@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[Slack]] · [[Notion]] · [[Figma]] · [[Anthropic]] · [[Claude Code]] · [[沙箱]] · [[Max Schoening]] · [[Saragawa]] · [[Jiaona Zhang]]
 
-<script type="application/json" class="pd-epn">{"智能体":54,"Slack":13,"Notion":5,"Figma":5,"Anthropic":33,"Claude Code":14,"沙箱":10,"Max Schoening":1,"Saragawa":1,"Jiaona Zhang":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":55,"Slack":13,"Notion":5,"Figma":5,"Anthropic":33,"Claude Code":14,"沙箱":10,"Max Schoening":1,"Saragawa":1,"Jiaona Zhang":1}</script>
 
 <script>
 (function(){

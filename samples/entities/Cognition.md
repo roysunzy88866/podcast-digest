@@ -8,29 +8,31 @@ aliases: ["cognition"]
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Cognition</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Cognition">CO</div><div class="pi"><h1 class="pt">Cognition</h1><div class="byl">公司 · 又名 cognition</div><div class="nums">本站收录 <b>3</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Cognition">CO</div><div class="pi"><h1 class="pt">Cognition</h1><div class="byl">公司 · 又名 cognition</div><div class="nums">本站收录 <b>4</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]]**(18:51起):本集作为后台智能体或长时间运行智能体(long running agents)的典型代表被提及,其使用模式与人类相似,呈现出「跟随太阳」的规律(中午负载最高,午夜最低)。
 - **[[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]]**(07:53起):本集作为 Modal 的重点客户提及，使用 Modal 来运行智能体工作负载，且有工程师直接驻点在 Cognition 进行配合。
 - **[[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]]**(36:46起):本集提到这家开发 AI 软件工程师 Devin 的公司，并借用其 CEO 描述的「能力阶梯」比喻，来解释初级岗位的横档正在被 AI 快速抽走，导致没人愿意推荐新人入行。
+- **[[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|《当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE》]]**(06:13起):本集提到它有 Deep Wiki 产品(由 AI 生成的代码库说明书),用于类比探讨生产世界模型的概念。
 
 ## ② 出现在这些集
 
-*3 集*
+*4 集*
 
 - [[2026-05-21-latent-space-daytona|《Daytona:为智能体造一台像笔记本一样的计算机》]] — 作为被讨论公司(提及)
 - [[2026-07-08-latent-space-modal|《不只做推理：Modal 如何跨界多节点训练与智能体云》]] — 作为被讨论公司(提及)
 - [[2026-07-12-lennys-how-tech-workers-actually-feel-about|《AI 时代的科技人情绪实录：一半狂欢，一半崩塌》]] — 作为被讨论公司
+- [[2026-07-24-talks-inside-the-agent-engine-a-langchain-and|《当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Anthropic]] · [[沙箱]] · [[Ivan Burazin]] · [[swyx]] · [[Noam Segal]] · [[Daytona]] · [[Akshat Bubna]] · [[Lenny]] · [[Neon]]
+[[智能体]] · [[沙箱]] · [[Anthropic]] · [[Ivan Burazin]] · [[swyx]] · [[Noam Segal]] · [[Anish]] · [[Daytona]] · [[Akshat Bubna]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"智能体":54,"Anthropic":33,"沙箱":10,"Ivan Burazin":1,"swyx":1,"Noam Segal":1,"Daytona":1,"Akshat Bubna":1,"Lenny":33,"Neon":2}</script>
+<script type="application/json" class="pd-epn">{"智能体":55,"沙箱":10,"Anthropic":33,"Ivan Burazin":1,"swyx":1,"Noam Segal":1,"Anish":1,"Daytona":1,"Akshat Bubna":1,"Lenny":33}</script>
 
 <script>
 (function(){

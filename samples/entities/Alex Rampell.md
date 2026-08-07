@@ -39,7 +39,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Frederick Rankin":1,"Stein Pella":1,"Lassie":1,"智能体":54,"回路中的人类":1,"现有巨头":1,"Stripe":10}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Frederick Rankin":1,"Stein Pella":1,"Lassie":1,"智能体":55,"回路中的人类":1,"现有巨头":1,"Stripe":10}</script>
 
 <script>
 (function(){

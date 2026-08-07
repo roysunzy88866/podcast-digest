@@ -1,0 +1,27 @@
+{
+  "id": "2026-07-24-talks-inside-the-agent-engine-a-langchain-and",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/U5PkKt_uJys.m4a",
+  "duration_sec": 2464.86,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 489,
+  "asr": true,
+  "title_en": "Inside the Agent Engine: A LangChain and Traversal Fireside Chat",
+  "podcast": "精选演讲",
+  "date": "2026-07-24",
+  "speaker_map": {
+    "SPEAKER_00": "Anish",
+    "SPEAKER_04": "Raj",
+    "SPEAKER_05": "Harrison"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Anish",
+  "cohosts": [
+    "Raj",
+    "Harrison"
+  ],
+  "title_zh": "当系统出故障时，让 AI 代替作战室里的 50 个人——Traversal 谈如何造 AI SRE",
+  "guest_name": "Anish",
+  "guest_title": "Traversal 联创",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=spliced"
+}

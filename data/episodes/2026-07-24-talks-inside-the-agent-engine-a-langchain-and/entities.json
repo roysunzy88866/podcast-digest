@@ -1,0 +1,1254 @@
+{
+  "episode_id": "2026-07-24-talks-inside-the-agent-engine-a-langchain-and",
+  "podcast": "精选演讲",
+  "date": "2026-07-24",
+  "tags": [
+    "AI SRE",
+    "生产世界模型",
+    "长上下文",
+    "智能体评估",
+    "遥测数据"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "anish",
+      "type": "person",
+      "role": "host",
+      "name": "Anish",
+      "file": "Anish",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            16.313,
+            23.395
+          ],
+          "quote": "My name's Harrison, co-founder, CEO of Langchain, joined today by Anish and Raj, co-founders of Traversal.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "raj",
+      "type": "person",
+      "role": "cohost",
+      "name": "Raj",
+      "file": "Raj",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            16.313,
+            23.395
+          ],
+          "quote": "My name's Harrison, co-founder, CEO of Langchain, joined today by Anish and Raj, co-founders of Traversal.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 12,
+          "t": [
+            40.869,
+            45.975
+          ],
+          "quote": "Me, Raj, Raz, we all met at MIT where we were in grad school doing our PhDs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 40,
+          "t": [
+            158.935,
+            162.441
+          ],
+          "quote": "Yeah, maybe I'll start, but then the real person to ask is Raj.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 270,
+          "t": [
+            1285.013,
+            1289.278
+          ],
+          "quote": "Yeah, I'll let Raj talk about it more in detail, but I'd say it's changing all the time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "harrison",
+      "type": "person",
+      "role": "cohost",
+      "name": "Harrison",
+      "file": "Harrison",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            16.313,
+            23.395
+          ],
+          "quote": "My name's Harrison, co-founder, CEO of Langchain, joined today by Anish and Raj, co-founders of Traversal.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 22,
+          "t": [
+            80.456,
+            90.421
+          ],
+          "quote": "This is about Jan 24, when agents weren't really a thing, other than some of the fantastic frameworks and blog posts that Harrison had come out with, which we followed closely.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "traversal",
+      "type": "company",
+      "role": "company",
+      "name": "Traversal",
+      "file": "Traversal",
+      "primary": true,
+      "how_described": "本集对谈的主角公司,专注于用智能体自动排查生产事故(做 AI SRE),其团队在 MIT 读博期间相识。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            16.313,
+            23.395
+          ],
+          "quote": "My name's Harrison, co-founder, CEO of Langchain, joined today by Anish and Raj, co-founders of Traversal.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 6,
+          "t": [
+            24.516,
+            26.596
+          ],
+          "quote": "We saw a demo of Traversal.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 7,
+          "t": [
+            26.796,
+            31.198
+          ],
+          "quote": "I'd be curious, could you guys talk a little bit more about how you got the idea for Traversal and how it started?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 10,
+          "t": [
+            34.541,
+            36.383
+          ],
+          "quote": "I'm the CEO and co-founder of Traversal.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 34,
+          "t": [
+            131.414,
+            137.396
+          ],
+          "quote": "And so something like Traversal, which is thinking about making these software systems reliable in production, is going to be inevitable.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1517.873,
+            1520.576
+          ],
+          "quote": "Cause we're building that traversal, but like you, you try to build it yourself.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 396,
+          "t": [
+            1981.651,
+            1989.177
+          ],
+          "quote": "I was wondering, when you guys are onboarding new clients, how do you guys kind of prepare their data telemetry in order to make sure that it works with traversal?",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 453,
+          "t": [
+            2278.956,
+            2285.881
+          ],
+          "quote": "Maybe one last question for me, and then we might wrap up, although I think there are a bunch of people from Traversal around if people have more questions.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2317.47,
+            2321.713
+          ],
+          "quote": "I mean, one is seeing traversal in every place.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集探讨了用智能体自动排查系统故障,建议从一个简单的单智能体加技能起步,遇卡死时再拆成子智能体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 68,
+          "t": [
+            261.32,
+            277.938
+          ],
+          "quote": "um yeah i mean maybe just going off this part of like a petabyte of logs per day i think that creates a really hard search problem because if you try to get an agent to search through that amount of data you're typically bottlenecked by the actual raw api so",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 78,
+          "t": [
+            319.286,
+            326.027
+          ],
+          "quote": "But that creates a big challenge and interesting problem of how do you learn that system knowledge quickly in an agent?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 79,
+          "t": [
+            327.647,
+            330.168
+          ],
+          "quote": "How do you learn that system knowledge quickly in an agent?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 91,
+          "t": [
+            406.654,
+            413.82
+          ],
+          "quote": "In some sense, what you really want to do is for an agent, you want to be able to effectively control all of your observability.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 134,
+          "t": [
+            620.193,
+            625.214
+          ],
+          "quote": "So what we found is instead we move way more to an agent-first approach.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 138,
+          "t": [
+            649.001,
+            652.082
+          ],
+          "quote": "And if so, like how similar is it to a coding agent?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 141,
+          "t": [
+            655.923,
+            659.906
+          ],
+          "quote": "Yeah, you definitely want to build a proper harness around the agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 143,
+          "t": [
+            664.028,
+            668.871
+          ],
+          "quote": "We actually just have, and it'll relate to this question, we built now one core agent, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 151,
+          "t": [
+            698.922,
+            703.584
+          ],
+          "quote": "And so we have we have an open source agent harness called Deep Agents, which has that kind of built in.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 156,
+          "t": [
+            723.913,
+            730.854
+          ],
+          "quote": "What you typically want to do is you want to get some summary of is this thing even useful, just like a human to the agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 157,
+          "t": [
+            731.294,
+            735.975
+          ],
+          "quote": "And then for details, you want to expose it so that the agent can drill down and dig deeper.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 178,
+          "t": [
+            824.659,
+            831.164
+          ],
+          "quote": "It requires you thinking very carefully, like how do you build an agent harness that decides when to run your core agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 181,
+          "t": [
+            835.868,
+            842.756
+          ],
+          "quote": "Do you have like a small classifier that's like, hey, we should kick off the core agent on basically like every slack message or how does that you're talking about?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 183,
+          "t": [
+            846.421,
+            853.343
+          ],
+          "quote": "So we've spent a lot of time building this core agent that can do a lot of different things, incident RCA, other capabilities.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 184,
+          "t": [
+            853.443,
+            858.604
+          ],
+          "quote": "And then I think there's a whole harness in UX around where does this agent actually sit?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 185,
+          "t": [
+            858.704,
+            867.287
+          ],
+          "quote": "For example, the way the UX and the field agent in an incident channel is different than how it'll behave in an alert channel or...",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 187,
+          "t": [
+            870.108,
+            880.814
+          ],
+          "quote": "So I think all of those, there's, in some sense, layering and scaffolding around that core agent, which could be another agent itself, orchestrating and doing that task.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 214,
+          "t": [
+            971.354,
+            978.416
+          ],
+          "quote": "And so, like, if I'm in a channel with an agent and it says something and I say something like, oh, no, you shouldn't look at logs X, you should look at logs Y.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 223,
+          "t": [
+            1012.805,
+            1023.452
+          ],
+          "quote": "And when we get very strong feedback, the agent can learn and it can start to index into those trajectories to look at, oh, this is actually relevant to a question I saw before.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1042.985,
+            1051.43
+          ],
+          "quote": "If the agent makes some note, will you expose that to the user and they can see it in the UI and audit their agent's memory almost?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1126.603,
+            1135.67
+          ],
+          "quote": "As you've increased the complexity of these agents, how do you think about kind of like evals and knowing, how do you know whether the agent's working?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1158.789,
+            1163.293
+          ],
+          "quote": "And it doesn't, I think there's a lot of different breakdowns of the issues in the agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1171.94,
+            1189.541
+          ],
+          "quote": "looking at the final output of the trajectory and being like did it ultimately match what they found in the war room but that manual effort i think that's where for example tools that you all are building are really useful where you can start to look at these trajectories have an agent already start to triage it and figure out",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1198.625,
+            1206.108
+          ],
+          "quote": "And then that ends up helping us a lot in terms of doing the actual fix of, okay, this agent that looked at the trajectory found this problem.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 298,
+          "t": [
+            1424.2,
+            1428.583
+          ],
+          "quote": "Like you see Uber talking about how they blow through a lot of their like coding agent span.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1626.89,
+            1636.156
+          ],
+          "quote": "build an agent for their specific team, like you're the database team, or you're the team that is dealing with the checkout UI, or whatever it might be, and you have like 10, 20 microservices or something like that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1636.777,
+            1642.321
+          ],
+          "quote": "And at that point, the scale of the system is small enough that if you build an agent in a clever enough way, it'll do something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 363,
+          "t": [
+            1766.483,
+            1769.844
+          ],
+          "quote": "agent friendly, and it also just leads to better development practices.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 370,
+          "t": [
+            1812.732,
+            1816.395
+          ],
+          "quote": "But what I'm seeing is people are just still trying to get an agent to work.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1832.314,
+            1842.397
+          ],
+          "quote": "Yeah, I definitely see swarms becoming very important for us and already in our agent today, because at least for us, it is a needle in a haystack problem.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1856.182,
+            1863.73
+          ],
+          "quote": "I think on one hand, like a really, like a good harness and a good just like simple agent loop, I think can actually get you like pretty far.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1866.693,
+            1875.323
+          ],
+          "quote": "I think one mistake that people sometimes make is splitting things up too quickly and saying like, oh yeah, let me try to create like a really complex multi-agent system and do stuff.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1875.843,
+            1881.588
+          ],
+          "quote": "Um, and, and so I think most people should get started with just like a single agent harness and, and, uh, skills.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 386,
+          "t": [
+            1905.369,
+            1912.705
+          ],
+          "quote": "For people who are just getting started or earlier on, start with a simple agent loop and that actually goes a lot further than people maybe think.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1919.471,
+            1926.316
+          ],
+          "quote": "So earlier you were talking about how you guys have a core agent that can spin up sub-agents and you have skills as well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 391,
+          "t": [
+            1926.836,
+            1938.703
+          ],
+          "quote": "So my question is how you determine what goes, when did you choose a skill versus when you kind of design a sub-agent, do you have it automatically spin up its own sub-agent to expand it itself?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 393,
+          "t": [
+            1943.766,
+            1962.797
+          ],
+          "quote": "you know uses which yeah that's a great question and honestly this is um questions we often just battle with which one to actually use i think generally we just try to pick the simplest one first so what we'll try is let's just see if we can even put in the main agent if that doesn't work let's see",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 394,
+          "t": [
+            1963.737,
+            1979.543
+          ],
+          "quote": "um if a skill wouldn't work a lot of times there's thrashing behavior and when there's that thrashing behavior where the agent just over indexes on one source then a lot of times we find okay you can pay a little more in latency but putting it behind the subagent can help in those scenarios",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 442,
+          "t": [
+            2220.31,
+            2225.855
+          ],
+          "quote": "some first principle ways of thinking about and training the agent to do that actual debugging.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "production-world-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "生产世界模型 (production world model)",
+      "file": "生产世界模型",
+      "primary": true,
+      "how_described": "被描述为整个生产系统的数字化全景表示,由智能体 24/7 全天候更新,用于从根本上让海量遥测数据变得可搜索。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 81,
+          "t": [
+            335.446,
+            346.509
+          ],
+          "quote": "I mean, we have the picture on the lawn here, production world model, because I think that really is the essence of how do you learn system knowledge.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 212,
+          "t": [
+            962.131,
+            966.832
+          ],
+          "quote": "How do how do agents update the the production world model?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 215,
+          "t": [
+            978.816,
+            980.916
+          ],
+          "quote": "Will that update the production world model?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 219,
+          "t": [
+            988.228,
+            1001.437
+          ],
+          "quote": "Yeah, so at least right now when I think with production world model, it's our representation and how telemetry, code, GitHub, everything kind of gets synthesized and gets constructed.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1025.634,
+            1029.437
+          ],
+          "quote": "But I kind of differentiate that from the production world model.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2050.803,
+            2056.005
+          ],
+          "quote": "I'm thinking, as you guys build this production world model, C3, like, keep all of your products.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 413,
+          "t": [
+            2056.345,
+            2060.247
+          ],
+          "quote": "Do you guys see any other application beyond SRU, this production world model?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 435,
+          "t": [
+            2175.706,
+            2183.768
+          ],
+          "quote": "Yeah, so I think there's some parts of, as part of the production world model, we do ingest those runbooks and those are an important source.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "observability",
+      "type": "concept",
+      "role": "concept",
+      "name": "可观测性 (observability)",
+      "file": "可观测性",
+      "primary": true,
+      "how_described": "用于监控系统状态的工具与数据;本集提到现有的可观测性平台本身不是为 AI 设计的,想跨系统检索信息极为困难。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 70,
+          "t": [
+            282.479,
+            286.479
+          ],
+          "quote": "But with observability platforms, they're not really AI built.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 89,
+          "t": [
+            397.847,
+            402.491
+          ],
+          "quote": "But the other parts is how do you connect it with the actual telemetry and observability?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 91,
+          "t": [
+            406.654,
+            413.82
+          ],
+          "quote": "In some sense, what you really want to do is for an agent, you want to be able to effectively control all of your observability.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 116,
+          "t": [
+            534.455,
+            542.841
+          ],
+          "quote": "At least in observability, there's a lot of difference between things that are lower cardinality, more stable, and things that are higher cardinality and often shift.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2029.443,
+            2038.065
+          ],
+          "quote": "For example, some customers, depending on their observability platforms, have a richer query language and can have more rate limits versus other ones.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2038.085,
+            2045.727
+          ],
+          "quote": "So I think a lot of it is more on the rate limit aspect, actually, of the underlying observability platform.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2062.93,
+            2077.139
+          ],
+          "quote": "Yeah, I think a lot of the same, well, there's this problem of finding a needle in a haystack is pretty ubiquitous as a workflow that we do as teams of humans, whether it's an observability and troubleshooting.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2194.82,
+            2205.284
+          ],
+          "quote": "So what we typically learn from different customers is the fundamental data structures of how do you go and make the raw observability data way more searchable?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "telemetry-data",
+      "type": "concept",
+      "role": "concept",
+      "name": "遥测数据 (telemetry data)",
+      "file": "遥测数据",
+      "primary": true,
+      "how_described": "系统运行时产生的指标、日志等监控数据;本集指出 LLM 没有在遥测数据上受过训练,且大客户每天产生约 1 PB 的遥测数据。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            185.893,
+            190.294
+          ],
+          "quote": "LLMs aren't really trained on the type of telemetry data that you need for this kind of issue.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            392.062,
+            397.827
+          ],
+          "quote": "I think some of it comes from that, for example, the non-telemetry data of that system knowledge.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1671.255,
+            1677.158
+          ],
+          "quote": "And you have to really rethink, as you said, how do you re-index and store and query telemetry data at that scale?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 425,
+          "t": [
+            2122.435,
+            2126.278
+          ],
+          "quote": "at rethinking what telemetry data needs to look like in the first place.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2205.604,
+            2208.906
+          ],
+          "quote": "How do you relate that to all the non-telemetry data, right?",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "context",
+      "type": "concept",
+      "role": "concept",
+      "name": "上下文 (context)",
+      "file": "上下文",
+      "primary": true,
+      "how_described": "指 LLM 一次能读入的文本长度限制;本集指出即便用到 100 万 token 的窗口也远不够,需用文件系统存放细节让智能体按需检索。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 53,
+          "t": [
+            205.506,
+            212.374
+          ],
+          "quote": "That's the truth, because that's why you have 50, 60 people in a war room trying to figure out what happened, trying to build that context real time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            224.305,
+            229.168
+          ],
+          "quote": "And at that scale, if you try to put that in, even if you, first, you can never fit that into the context of an LLM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            311.144,
+            318.886
+          ],
+          "quote": "And unless you have a lot of system context, that's the only hope to be able to, to be able to remedy and correlate across these sources.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 146,
+          "t": [
+            672.973,
+            677.415
+          ],
+          "quote": "For example, with file systems, you generate code to further manage context.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 149,
+          "t": [
+            681.858,
+            694.401
+          ],
+          "quote": "For example, a lot of the tooling you all have built is very useful because that layer of managing context, handling file systems, having sandboxing around the code is critical for building agents today.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 154,
+          "t": [
+            717.312,
+            719.912
+          ],
+          "quote": "There is finite context in this LLM, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 155,
+          "t": [
+            719.952,
+            723.173
+          ],
+          "quote": "I think right now we're at 1 million context limit.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 161,
+          "t": [
+            748.919,
+            754.462
+          ],
+          "quote": "I think when you just look at the benchmarks, file systems for context management turn out to be really nice.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 447,
+          "t": [
+            2245.13,
+            2253.056
+          ],
+          "quote": "How do you, because it's a complicated task of searching for the needle in a haystack, and how do you coordinate context and who to page when there are 50 people that need to get involved?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "file-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "文件系统 (file system)",
+      "file": "文件系统",
+      "primary": true,
+      "how_described": "被描述为管理超长上下文的最务实工具;把摘要交给智能体,具体原始数据落在文件里让模型去精准搜索和向下钻取。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 159,
+          "t": [
+            740.256,
+            745.617
+          ],
+          "quote": "And having a file system admits a natural way of just searching through that data really efficiently.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "eval",
+      "type": "concept",
+      "role": "concept",
+      "name": "评估 (eval)",
+      "file": "评估",
+      "primary": true,
+      "how_described": "指评估复杂系统表现;本集说要专挑最难的事故排查做评估,只要在那里跑通能力自然会泛化到日常简单问题上。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 261,
+          "t": [
+            1210.449,
+            1231.994
+          ],
+          "quote": "that's it one thing i think one interesting thing to notice like what should you eval one is like how do you eval the second question is what you should eval i think one insight that we have learned is that you should eval the hardest thing because if you start doing well there it tends to generalize right so we're seeing that for example there's a reason why people are trying to eval in math and science because",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 266,
+          "t": [
+            1254.257,
+            1264.121
+          ],
+          "quote": "And so by doing a good job there, it tends to then generalize to everything else where you don't actually have good evals, which is like daily chat questions, which might be a little harder to eval.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cost",
+      "type": "concept",
+      "role": "concept",
+      "name": "成本 (cost)",
+      "file": "成本",
+      "primary": true,
+      "how_described": "被描述为选大模型时不得不考虑的现实经济约束;以前只看性能,随着智能体跑一次动辄 500 万 token,成本变得越来越重要。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 58,
+          "t": [
+            229.668,
+            233.711
+          ],
+          "quote": "Even if you could, a single investigation is probably going to cost you the GDP of a small country.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 281,
+          "t": [
+            1331.86,
+            1341.89
+          ],
+          "quote": "And I think also now, something we didn't think about earlier, before we said it doesn't matter what the cost of it is, as long as it provides the highest accuracy, that's all we care about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 285,
+          "t": [
+            1353.24,
+            1357.623
+          ],
+          "quote": "Now cost is actually becoming a significant way we think about it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 286,
+          "t": [
+            1357.883,
+            1362.828
+          ],
+          "quote": "And so that's a new angle that has shown up recently that we never thought about, which is cost.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 292,
+          "t": [
+            1386.169,
+            1392.455
+          ],
+          "quote": "How much do you care about like performance and accuracy versus cost right now when you're making decisions?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 294,
+          "t": [
+            1400.863,
+            1405.887
+          ],
+          "quote": "I'd say increasingly we're having to think about, like in some ways if we didn't have to think about cost, we wouldn't.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1406.948,
+            1414.953
+          ],
+          "quote": "But the cost is getting so high that if we don't want to run out of venture capital money, we probably need to go figure that out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 308,
+          "t": [
+            1485.02,
+            1487.661
+          ],
+          "quote": "And part of that is basically cost controls that you can set.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1492.842,
+            1496.423
+          ],
+          "quote": "And cost is one of the biggest motivating factors to build this.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "harness",
+      "type": "concept",
+      "role": "concept",
+      "name": "护栏 (harness)",
+      "file": "护栏",
+      "primary": true,
+      "how_described": "为智能体提供运行环境和工具的外壳;本集指出需要一个聪明的 harness 来决定何时启动核心智能体,并与数据处理引擎共同设计。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            655.923,
+            659.906
+          ],
+          "quote": "Yeah, you definitely want to build a proper harness around the agent.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 145,
+          "t": [
+            670.952,
+            672.933
+          ],
+          "quote": "There's a key harness around it.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 151,
+          "t": [
+            698.922,
+            703.584
+          ],
+          "quote": "And so we have we have an open source agent harness called Deep Agents, which has that kind of built in.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 152,
+          "t": [
+            704.304,
+            708.905
+          ],
+          "quote": "How do you guys use file systems and why is that a core part of the harness?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 178,
+          "t": [
+            824.659,
+            831.164
+          ],
+          "quote": "It requires you thinking very carefully, like how do you build an agent harness that decides when to run your core agent?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 184,
+          "t": [
+            853.443,
+            858.604
+          ],
+          "quote": "And then I think there's a whole harness in UX around where does this agent actually sit?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 306,
+          "t": [
+            1471.037,
+            1480.419
+          ],
+          "quote": "I think it's going to be an interesting, important product development that's going to come either internally for every company or an external company that will provide that kind of harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 350,
+          "t": [
+            1689.785,
+            1696.449
+          ],
+          "quote": "And then you have to spend, you know, two years of blood, sweat, and tears to build that kind of data processing engine co-designed with the harness.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 378,
+          "t": [
+            1856.182,
+            1863.73
+          ],
+          "quote": "I think on one hand, like a really, like a good harness and a good just like simple agent loop, I think can actually get you like pretty far.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 381,
+          "t": [
+            1875.843,
+            1881.588
+          ],
+          "quote": "Um, and, and so I think most people should get started with just like a single agent harness and, and, uh, skills.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2126.859,
+            2133.604
+          ],
+          "quote": "If you can solve that, you can put the right harness on it, then all of these workflows that are needle-in-the-haystack workflows should kind of lend itself to this.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "sre",
+      "type": "concept",
+      "role": "concept",
+      "name": "SRE",
+      "file": "SRE",
+      "primary": true,
+      "how_described": "站点可靠性工程,专门负责系统平稳运行的岗位;本集核心探讨如何用智能体来做 AI SRE,自动化处理生产事故排查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            108.676,
+            114.784
+          ],
+          "quote": "So in that short period of time, we tried to figure out what an SRE is, what Datadog is, what a trace is, what a log is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 39,
+          "t": [
+            150.24,
+            158.688
+          ],
+          "quote": "What makes building agents for SRE style problems particularly hard or interesting or unique or what have you learned in that niche along the way?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1240.983,
+            1250.374
+          ],
+          "quote": "Somehow we also find ourselves in that sweet spot where incidents in some ways are the hardest part of thinking about the job of an SRE or software reliability.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "datadog",
+      "type": "company",
+      "role": "company",
+      "name": "Datadog",
+      "file": "Datadog",
+      "primary": false,
+      "how_described": "本集作为可观测性平台的代表被顺带提及,指出在其上做实时查询获得的数据非常细粒度但搜索量受限。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 29,
+          "t": [
+            108.676,
+            114.784
+          ],
+          "quote": "So in that short period of time, we tried to figure out what an SRE is, what Datadog is, what a trace is, what a log is.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 105,
+          "t": [
+            465.344,
+            469.407
+          ],
+          "quote": "Then you have, on the other hand, where you fully live query Datadog or something like that.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cognition",
+      "type": "company",
+      "role": "company",
+      "name": "Cognition",
+      "file": "Cognition",
+      "primary": false,
+      "how_described": "本集提到它有 Deep Wiki 产品(由 AI 生成的代码库说明书),用于类比探讨生产世界模型的概念。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 85,
+          "t": [
+            373.91,
+            383.438
+          ],
+          "quote": "Is the right way to think about that, like Cognition has like their deep wiki thing, which is like a LLM created and LLM readable mental model of a code base.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    },
+    {
+      "id": "deep-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "Deep Agents",
+      "file": "Deep Agents",
+      "primary": false,
+      "how_described": "Harrison 提到 LangChain 开源的这个智能体框架内置了类似文件系统的功能,用于上下文管理。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 151,
+          "t": [
+            698.922,
+            703.584
+          ],
+          "quote": "And so we have we have an open source agent harness called Deep Agents, which has that kind of built in.",
+          "speaker": "SPEAKER_05"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}
