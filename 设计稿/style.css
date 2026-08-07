@@ -575,6 +575,60 @@ h1.pt{margin-top:4px}
 .ek{display:inline-block;font-weight:400;font-size:11px;color:var(--B5);
     background:var(--B1);border-radius:4px;padding:1px 6px;margin-right:7px;vertical-align:1px}
 
+/* ══ 用户批注(2026-08-07 · 手机端)══ */
+@media (max-width:1023px){
+  /* #1 分类药丸左侧太靠边 → 首个药丸与正文对齐(16px),不再贴屏幕边
+     (病根:第八批把 .mhc padding 覆写成 0,叠 margin:0 -16px 的出血 → 首药丸落到屏幕边) */
+  .mhc{padding-left:16px;padding-right:16px}
+  /* #3 日期区域线段太多 → 手机端去掉日期后那条横线(日期文字本身已够分隔),卡片分隔线也调浅 */
+  .dateh:after{display:none}
+  .mid .card{border-bottom-color:var(--B1)}
+
+  /* #2 搜索收进右上角图标 + 全屏浮层(去掉首页那条占位大搜索框,不再一进页面就杵在那容易误触弹键盘)*/
+  .acts{margin-left:auto}
+  .msbtn{align-items:center;justify-content:center;width:40px;height:40px;padding:0;border:0;
+         background:none;color:var(--B7);cursor:pointer;border-radius:9px;margin-right:-8px}
+  .msbtn:active{background:var(--B1)}
+  .msov{display:none;position:fixed;inset:0;z-index:90;background:var(--B0);flex-direction:column}
+  .msov.open{display:flex}
+  .msbar{display:flex;align-items:center;gap:10px;padding:12px 16px;border-bottom:1px solid var(--B2)}
+  .msbar .msmag{flex:0 0 auto;color:var(--B5)}
+  .msbar input{flex:1;min-width:0;height:40px;font:inherit;font-size:15px;border:0;outline:0;
+               background:none;color:var(--B8)}
+  .msbar input::placeholder{color:var(--B5)}
+  .msx{flex:0 0 auto;width:34px;height:34px;border:0;background:none;color:var(--B6);font-size:17px;
+       line-height:1;cursor:pointer;border-radius:8px}
+  .msx:active{background:var(--B1)}
+  /* 浮层里的结果:铺在流里(覆盖原 .mhs 下的 absolute 定位)*/
+  .msov #mhres{display:none;position:static;inset:auto;margin:0;border:0;border-radius:0;box-shadow:none;
+               max-height:none;flex:1 1 auto;overflow-y:auto;padding:6px 8px 20px}
+  .msov #mhres.open{display:block}
+}
+
+/* ══ 用户批注(2026-08-07 · 手机端 · 第二轮)══ */
+@media (max-width:1023px){
+  /* #2 站名 logo 与标题横向排列(原来堆成两行)*/
+  .topin:not(:has(.mtitle)) .b{display:flex;align-items:center;gap:8px}
+  /* #3 首页去掉「最新/最热」切换 —— 就按时间排 */
+  .mhv{display:none}
+  /* #4 分类药丸字号偏大、字体怪 → 调小 + 常规字重 + 系统字体 */
+  .mhc a{font-size:13.5px;font-weight:400;font-family:var(--font);padding:7px 13px}
+  .mhc a i{font-size:11px}
+  /* #1 搜索浮层输入离顶太紧 → 顶部留白 + 适配刘海安全区 */
+  .msbar{padding-top:calc(15px + env(safe-area-inset-top,0px))}
+
+  /* #5 详情页手机端:回到「← 返回」按钮 + 动作按钮统一收拾。
+     ⚠️ .top(含 .mtitle/.acts)是 .shell.det 的**兄弟不是后代** → 得用 :has(~ .shell.det) 命中详情页顶栏
+        (logo 已被 .topin:has(.mtitle) .b 隐藏,不用再管);返回原本只有 PC 有(min-width:1024),这里补手机 */
+  .top:has(~ .shell.det) .mtitle{display:flex;align-items:center;gap:4px;
+       font-size:14px;font-weight:400;color:var(--B6);font-family:var(--font)}
+  .top:has(~ .shell.det) .mtitle span{font-size:14px}
+  .top:has(~ .shell.det) .acts{gap:2px}
+  .top:has(~ .shell.det) .acts .ico{width:38px;height:38px;color:var(--B5);border-radius:10px}
+  .top:has(~ .shell.det) .acts .ico:active{background:var(--B1);color:var(--B7)}
+  .top:has(~ .shell.det) .acts .ico svg{width:20px;height:20px}
+}
+
 /* 桌面详情页也给「← 返回」—— 原来只有手机有,PC 上返回是内容区那行 */
 .shell.det ~ .top .mtitle,.mtitle{align-items:center}
 @media (min-width:1024px){

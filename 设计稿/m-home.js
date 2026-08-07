@@ -51,6 +51,22 @@
     if (e.key === 'Escape') { q.value = ''; draw(); q.blur(); }
   });
   document.addEventListener('click', function (e) {
-    if (!e.target.closest('.mhs')) { box.classList.remove('open'); }
+    if (!e.target.closest('.msov')) { box.classList.remove('open'); }
   });
+
+  // 搜索浮层开关(批注 2026-08-07:搜索收进右上角图标,点开才弹浮层+键盘,不再一进页面就杵着容易误触)
+  var msov = document.getElementById('msov'),
+      msopen = document.getElementById('msopen'),
+      msclose = document.getElementById('msclose');
+  if (msov && msopen) {
+    msopen.addEventListener('click', function () {
+      msov.classList.add('open');
+      setTimeout(function () { q.focus(); }, 50);   // 用户主动点了才聚焦弹键盘
+    });
+    var shut = function () { msov.classList.remove('open'); q.value = ''; draw(); q.blur(); };
+    if (msclose) msclose.addEventListener('click', shut);
+    document.addEventListener('keydown', function (e) {
+      if (e.key === 'Escape' && msov.classList.contains('open')) shut();
+    });
+  }
 })();
