@@ -1,0 +1,2138 @@
+[
+ {
+  "seg": 0,
+  "start": 7.29,
+  "end": 7.931,
+  "speaker": "Unknown",
+  "en": "Hello, everyone.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 1,
+  "start": 8.171,
+  "end": 14.238,
+  "speaker": "Unknown",
+  "en": "My name is Brendan McManus, the team lead of the applied AI team at Bridgewater Associates, a systematic macro hedge fund.",
+  "zh": "我是 Brendan McManus，Bridgewater Associates 应用 AI 团队的团队负责人，这是一家系统化宏观对冲基金。"
+ },
+ {
+  "seg": 2,
+  "start": 15.018,
+  "end": 21.826,
+  "speaker": "Unknown",
+  "en": "I've been at Bridgewater for almost a decade now, where I started as a software engineer, then became a systematic investor and researcher.",
+  "zh": "我在 Bridgewater 已经工作了近十年，最初是一名软件工程师，后来成为系统化投资者和研究员。"
+ },
+ {
+  "seg": 3,
+  "start": 22.386,
+  "end": 27.312,
+  "speaker": "Unknown",
+  "en": "And for the past few years, I've been focused heavily on bridging the gap between investing and technology.",
+  "zh": "在过去的几年里，我非常专注于弥合投资与技术之间的差距。"
+ },
+ {
+  "seg": 4,
+  "start": 27.792,
+  "end": 38.839,
+  "speaker": "Unknown",
+  "en": "I'm here today with my colleagues Michael Rann and Santi Waite, our investor lead and technical lead of this project respectively, to talk to you about a great tool that we built internally called PAT, the Pocket Analyst.",
+  "zh": "今天，我和我的同事 Michael Rann 和 Santi Waite 一起在这里，他们分别是我们这个项目的投资负责人和技术负责人，来和大家聊聊我们内部构建的一个很棒的工具，叫做 PAT，即 Pocket Analyst。"
+ },
+ {
+  "seg": 5,
+  "start": 39.578,
+  "end": 54.776,
+  "speaker": "Unknown",
+  "en": "Now, by the end of this talk, all of you should have seen how we've built an AI analyst that's capable of performing hours of expert research work in minutes, that's been internally deployed to hundreds of investors, and that learns from every single interaction.",
+  "zh": "现在，在本演讲结束时，你们所有人都应该看到我们是如何构建一个能够在几分钟内完成数小时专家研究工作的 AI 分析师的，该分析师已内部部署给数百名投资者，并且会从每一次互动中学习。"
+ },
+ {
+  "seg": 6,
+  "start": 55.337,
+  "end": 59.321,
+  "speaker": "Unknown",
+  "en": "On top of that, we'll also show you exactly how we architected such a thing.",
+  "zh": "除此之外，我们还将确切地向你们展示我们要如何架构这样一个东西。"
+ },
+ {
+  "seg": 7,
+  "start": 60.298,
+  "end": 66.442,
+  "speaker": "Unknown",
+  "en": "So before we actually show you what we built, I wanted to go through some quick framing on Bridgewater's approach to AI.",
+  "zh": "因此，在向大家实际展示我们构建的东西之前，我想先快速说明一下 Bridgewater 对 AI 的看法。"
+ },
+ {
+  "seg": 8,
+  "start": 67.202,
+  "end": 74.866,
+  "speaker": "Unknown",
+  "en": "So Bridgewater has been spending decades, 50 years, thinking about how to encode markets and economies into compounding systems.",
+  "zh": "Bridgewater 几十年来，也就是 50 年来，一直在思考如何将市场和经济编码为复合系统。"
+ },
+ {
+  "seg": 9,
+  "start": 75.527,
+  "end": 82.171,
+  "speaker": "Unknown",
+  "en": "And all of this really started with what you're seeing on the screen, our 1980 bond system written down on a yellow legal pad.",
+  "zh": "所有这一切实际上都是从你们屏幕上看到的东西开始的，也就是我们在 1980 年写在黄色便笺簿上的债券系统。"
+ },
+ {
+  "seg": 10,
+  "start": 82.651,
+  "end": 84.032,
+  "speaker": "Unknown",
+  "en": "The idea here was quite simple.",
+  "zh": "这里的想法相当简单。"
+ },
+ {
+  "seg": 11,
+  "start": 84.692,
+  "end": 89.776,
+  "speaker": "Unknown",
+  "en": "Every time you wanted to make a trade, write down exactly the rules for why you think that trade makes sense.",
+  "zh": "每次你想进行交易时，都要准确写下你认为该交易有道理的规则。 [[12] 准确写下因果逻辑，因为一旦你这样做了，另一位投资者就可以查看你写下的内容，帮你找出你哪里出错了，并帮助你改进这个过程。"
+ },
+ {
+  "seg": 12,
+  "start": 90.276,
+  "end": 100.584,
+  "speaker": "Unknown",
+  "en": "Write down the exact causal logic, because once you do this, another investor can take a look at what you've written, help you to figure out where you went wrong, and help you to improve upon this process.",
+  "zh": "写下确切的因果逻辑，因为一旦你这样做了，另一个投资者可以看看你写的东西，帮你弄清楚你哪里出错了，并帮你改进这个过程。"
+ },
+ {
+  "seg": 13,
+  "start": 101.305,
+  "end": 111.332,
+  "speaker": "Unknown",
+  "en": "Every time you learn something new, you scratch out a rule, you write down a new one, and this creates a pretty incredible learning process that has been the foundation of everything that we've done at Bridgewater for the past 50 years.",
+  "zh": "每次你学到新东西时，你就划掉一条规则，写下一条新规则，这就创造了一个相当不可思议的学习过程，这也是我们在 Bridgewater 过去 50 年所做的一切的基础。"
+ },
+ {
+  "seg": 14,
+  "start": 112.233,
+  "end": 127.56,
+  "speaker": "Unknown",
+  "en": "Over the decades, we've compounded upon this process pretty significantly as we've taken every lesson, every methodology, every rule that we've developed about the trades that we make and how and why, and we've codified them into an expert system that's both machine readable and human readable.",
+  "zh": "几十年来，我们在这一过程中取得了相当显著的成果，我们将关于我们进行的交易及其方式的每一个教训、每一种方法论、每一条规则都编纂成了一个既可机器读取也可人工读取的专家系统。"
+ },
+ {
+  "seg": 15,
+  "start": 128.061,
+  "end": 132.323,
+  "speaker": "Unknown",
+  "en": "And it's really now that we're just sitting on a pretty tremendous trove of data.",
+  "zh": "而现在，我们真的拥有了一座巨大的数据宝库。"
+ },
+ {
+  "seg": 16,
+  "start": 132.803,
+  "end": 136.305,
+  "speaker": "Unknown",
+  "en": "And all of this data is really what sets us up well for the AI era.",
+  "zh": "所有这些数据真正让我们为 AI 时代做好了准备。"
+ },
+ {
+  "seg": 17,
+  "start": 136.805,
+  "end": 138.946,
+  "speaker": "Unknown",
+  "en": "We didn't have to go back and write down everything for agents.",
+  "zh": "我们不必回过头来为智能体写下所有内容。"
+ },
+ {
+  "seg": 18,
+  "start": 139.306,
+  "end": 141.127,
+  "speaker": "Unknown",
+  "en": "It was already there for us to draw upon.",
+  "zh": "这些内容已经就在那里，供我们使用。"
+ },
+ {
+  "seg": 19,
+  "start": 142.341,
+  "end": 147.042,
+  "speaker": "Unknown",
+  "en": "And so before we get into the tool a bit more, I wanted to talk about how we're approaching AI at Bridgewater more generally.",
+  "zh": "因此，在更深入地讨论该工具之前，我想谈谈我们在 Bridgewater 总体上是如何应对 AI 的。"
+ },
+ {
+  "seg": 20,
+  "start": 147.442,
+  "end": 148.383,
+  "speaker": "Unknown",
+  "en": "We're doing this in two ways.",
+  "zh": "我们通过两种方式来做到这一点。"
+ },
+ {
+  "seg": 21,
+  "start": 148.783,
+  "end": 150.043,
+  "speaker": "Unknown",
+  "en": "The first is as investors.",
+  "zh": "第一种是作为投资者。"
+ },
+ {
+  "seg": 22,
+  "start": 150.583,
+  "end": 155.725,
+  "speaker": "Unknown",
+  "en": "As investors, we need to deeply understand every major dynamic that's shaping global markets and economies.",
+  "zh": "作为投资者，我们需要深刻理解塑造全球市场和经济的每一个主要动态。"
+ },
+ {
+  "seg": 23,
+  "start": 156.205,
+  "end": 161.967,
+  "speaker": "Unknown",
+  "en": "Just as we had to understand COVID or the recent oil supply shock, we've also had to understand AI.",
+  "zh": "正如我们必须理解 COVID 或最近的石油供应冲击一样，我们也必须理解 AI。"
+ },
+ {
+  "seg": 24,
+  "start": 162.947,
+  "end": 165.629,
+  "speaker": "Unknown",
+  "en": "What's the shape of the supply-demand mismatch?",
+  "zh": "供需失衡的形态是什么？"
+ },
+ {
+  "seg": 25,
+  "start": 165.869,
+  "end": 167.05,
+  "speaker": "Unknown",
+  "en": "What's driving the build-out?",
+  "zh": "是什么在推动扩张？"
+ },
+ {
+  "seg": 26,
+  "start": 167.13,
+  "end": 169.371,
+  "speaker": "Unknown",
+  "en": "And how do these things ultimately impact markets?",
+  "zh": "这些事情最终如何影响市场？"
+ },
+ {
+  "seg": 27,
+  "start": 169.892,
+  "end": 172.453,
+  "speaker": "Unknown",
+  "en": "This understanding is table stakes for us as investors.",
+  "zh": "这种理解对我们作为投资者来说是基本条件。"
+ },
+ {
+  "seg": 28,
+  "start": 173.334,
+  "end": 178.717,
+  "speaker": "Unknown",
+  "en": "The second way that we're approaching AI is as practitioners, which is what we're mostly going to be spending our time on here today.",
+  "zh": "我们应对 AI 的第二种方式是作为从业者，这也是今天我们要花费大部分时间讨论的内容。"
+ },
+ {
+  "seg": 29,
+  "start": 179.358,
+  "end": 191.206,
+  "speaker": "Unknown",
+  "en": "As practitioners, we're applying AI across all aspects of our research process with the ultimate goal of building out an artificial investor that's capable of the full range of activities that our human investors are performing every single day.",
+  "zh": "作为从业者，我们将 AI 应用于研究过程的各个方面，最终目标是构建一个人工投资者，它能够执行我们的人类投资者每天执行的全方位活动。"
+ },
+ {
+  "seg": 30,
+  "start": 191.946,
+  "end": 193.907,
+  "speaker": "Unknown",
+  "en": "So what do our human investors actually do?",
+  "zh": "那么我们的人类投资者实际上在做什么？"
+ },
+ {
+  "seg": 31,
+  "start": 194.387,
+  "end": 196.228,
+  "speaker": "Unknown",
+  "en": "Well, we think about it as a research circle.",
+  "zh": "我们将其视为一个研究闭环。"
+ },
+ {
+  "seg": 32,
+  "start": 196.588,
+  "end": 208.412,
+  "speaker": "Unknown",
+  "en": "Investors are constantly perceiving what's happening in the outside world, formulating questions about what is true and what they might potentially be missing, performing analytical investigations to try to answer these questions.",
+  "zh": "投资者不断地感知外部世界发生的事情，就什么是真的以及他们可能潜在遗漏了什么提出问题，进行分析调查以尝试回答这些问题。"
+ },
+ {
+  "seg": 33,
+  "start": 209.232,
+  "end": 216.695,
+  "speaker": "Unknown",
+  "en": "Synthesizing their findings and ultimately taking anything they learned and putting it back into the compounded understanding, the expert systems that we built out.",
+  "zh": "综合他们的发现，并最终将他们学到的任何东西放回到复合理解中，即我们构建的专家系统中。"
+ },
+ {
+  "seg": 34,
+  "start": 217.115,
+  "end": 219.056,
+  "speaker": "Unknown",
+  "en": "It's really this last step here that's key.",
+  "zh": "真正关键的是这最后一步。"
+ },
+ {
+  "seg": 35,
+  "start": 219.616,
+  "end": 226.419,
+  "speaker": "Unknown",
+  "en": "Everything that we learn as a function of this process gets put back into a shared memory that humans are able to draw upon.",
+  "zh": "我们作为这个过程的一个功能所学到的所有东西，都会被放回到人类可以使用的共享记忆中。"
+ },
+ {
+  "seg": 36,
+  "start": 227.802,
+  "end": 236.99,
+  "speaker": "Unknown",
+  "en": "And so you might even imagine that if you're going to build out an artificial investor, they need to be able to do all of the different steps of this research process.",
+  "zh": "因此，你甚至可以想象，如果你要构建一个人工投资者，他们需要能够执行这个研究过程的所有不同步骤。"
+ },
+ {
+  "seg": 37,
+  "start": 237.31,
+  "end": 244.436,
+  "speaker": "Unknown",
+  "en": "You can imagine having built out discrete subagents that are focused on each portion of the research circle.",
+  "zh": "你可以想象构建了专注于研究闭环每个部分的离散子智能体。"
+ },
+ {
+  "seg": 38,
+  "start": 244.796,
+  "end": 246.498,
+  "speaker": "Unknown",
+  "en": "And that's exactly how we're approaching AI.",
+  "zh": "而这正是我们应对 AI 的方式。"
+ },
+ {
+  "seg": 39,
+  "start": 246.758,
+  "end": 255.586,
+  "speaker": "Unknown",
+  "en": "We're building out discrete subagents for each of these different things that human investors must do, drawing upon the same understanding that we've built up over the last 50 years.",
+  "zh": "我们正在为人类投资者必须做的这些不同事情构建离散的子智能体，利用我们在过去 50 年中建立的相同理解。"
+ },
+ {
+  "seg": 40,
+  "start": 256.226,
+  "end": 269.117,
+  "speaker": "Unknown",
+  "en": "But today, we're only going to be talking about one of these agents that we've built out, which is really focused on the investigation portion of the research process, the kinds of deep analytical work that take our human analysts days and weeks to perform.",
+  "zh": "但今天，我们将只谈论我们构建的其中一个智能体，它真正专注于研究过程的调查部分，即那些需要我们人类分析师花费数天和数周才能完成的深层分析工作。"
+ },
+ {
+  "seg": 41,
+  "start": 269.737,
+  "end": 272.359,
+  "speaker": "Unknown",
+  "en": "We call this tool that we built PAT, the pocket analyst tool.",
+  "zh": "我们把我们构建的这个工具称为 PAT，即口袋分析师工具。"
+ },
+ {
+  "seg": 42,
+  "start": 272.78,
+  "end": 275.902,
+  "speaker": "Unknown",
+  "en": "And just to set expectations, PAT is not about how we trade.",
+  "zh": "为了设定预期，PAT 不是关于我们如何交易的。"
+ },
+ {
+  "seg": 43,
+  "start": 276.162,
+  "end": 283.889,
+  "speaker": "Unknown",
+  "en": "It's really about performing deep exploratory research, enabling our investors to go after questions that they never would have had the bandwidth to go after before.",
+  "zh": "它实际上是关于进行深入的探索性研究，使我们的投资者能够去追求他们以前没有带宽去追求的问题。"
+ },
+ {
+  "seg": 44,
+  "start": 284.958,
+  "end": 286.56,
+  "speaker": "Unknown",
+  "en": "So what did we actually build?",
+  "zh": "那么我们实际构建了什么？"
+ },
+ {
+  "seg": 45,
+  "start": 286.861,
+  "end": 289.344,
+  "speaker": "Unknown",
+  "en": "So we built this tool called PAT, the Pocket Analyst tool.",
+  "zh": "所以我们构建了这个名为 PAT 的工具，即口袋分析师工具。"
+ },
+ {
+  "seg": 46,
+  "start": 289.945,
+  "end": 291.927,
+  "speaker": "Unknown",
+  "en": "And from day one, the spec was simple.",
+  "zh": "从第一天开始，规格就很简单。"
+ },
+ {
+  "seg": 47,
+  "start": 292.288,
+  "end": 299.237,
+  "speaker": "Unknown",
+  "en": "We had to enable PAT to be able to do all of the things that our human investors are doing as they're performing investigatory or analytical work.",
+  "zh": "我们必须使 PAT 能够做我们的投资者在进行调查或分析工作时所做的所有事情。"
+ },
+ {
+  "seg": 48,
+  "start": 300.112,
+  "end": 301.293,
+  "speaker": "Unknown",
+  "en": "And that really starts with data.",
+  "zh": "这实际上是从数据开始的。"
+ },
+ {
+  "seg": 49,
+  "start": 301.773,
+  "end": 315.921,
+  "speaker": "Unknown",
+  "en": "Pat had to be able to search across and read all of the different data that we have internally, from structured time series data, for example, stock prices going back decades, or unstructured data, for example, broker-dealer research pieces that we subscribe to or internal memos that we produce.",
+  "zh": "Pat 必须能够搜索并阅读我们在内部拥有的所有不同数据，从结构化时间序列数据，例如追溯几十年的股票价格，到非结构化数据，例如我们订阅的经纪商研究报告或我们产生的内部备忘录。"
+ },
+ {
+  "seg": 50,
+  "start": 316.341,
+  "end": 318.383,
+  "speaker": "Unknown",
+  "en": "Pat has to be able to search across and read all of it.",
+  "zh": "Pat 必须能够跨所有内容进行搜索并阅读所有内容。"
+ },
+ {
+  "seg": 51,
+  "start": 319.223,
+  "end": 330.308,
+  "speaker": "Unknown",
+  "en": "Pat also has to be able to use all of the different tools that our human analysts have access to, all of the proprietary tools that we've built out for visualization, for diagnostics, or for evaluating the quality of the indicator ideas that we've built out.",
+  "zh": "Pat 还必须能够使用我们人类分析师有权使用的所有不同工具，我们为可视化、诊断或评估我们构建的指标想法的质量而开发的所有专有工具。"
+ },
+ {
+  "seg": 52,
+  "start": 331.597,
+  "end": 341.281,
+  "speaker": "Unknown",
+  "en": "In addition to this, and I think this is where things might get a little bit more interesting for a technical audience, many of the analyses that Pat is running would take a human analyst many hours at a time to run.",
+  "zh": "除此之外，我认为对于技术受众来说，事情可能会变得更有趣一点，Pat 运行的许多分析，如果让人类分析师来运行，一次需要花费许多小时。"
+ },
+ {
+  "seg": 53,
+  "start": 342.001,
+  "end": 356.607,
+  "speaker": "Unknown",
+  "en": "And this means that the analyses are quite complex, which means that Pat's analyses have to be completely diagnosable, not just for humans, but also for agents running in the background, reading through the traces, understanding and making sure that every calculation is correct.",
+  "zh": "这意味着这些分析相当复杂，这意味着 Pat 的分析必须完全可诊断，不仅对人类如此，对于在后台运行的智能体也是如此，它们阅读追踪记录，理解并确保每个计算都是正确的。"
+ },
+ {
+  "seg": 54,
+  "start": 357.405,
+  "end": 365.751,
+  "speaker": "Unknown",
+  "en": "On top of this, and I think this is really where building upon all of the things that we've written down over the past 50 years starts to pay off, is that PAT knows all of our context.",
+  "zh": "除此之外，我认为这真的是建立在我们要在过去 50 年里写下的所有东西开始产生回报的地方，PAT 知道我们所有的背景。"
+ },
+ {
+  "seg": 55,
+  "start": 366.191,
+  "end": 370.134,
+  "speaker": "Unknown",
+  "en": "It has access to all of our investment processes, our frameworks.",
+  "zh": "它可以访问我们所有的投资流程、我们的框架。"
+ },
+ {
+  "seg": 56,
+  "start": 370.214,
+  "end": 375.177,
+  "speaker": "Unknown",
+  "en": "It knows exactly how our analysts are supposed to be doing work because we've been writing it down for the past 50 years.",
+  "zh": "它确切地知道我们的分析师应该如何工作，因为我们在过去 50 年里一直把它写下来。"
+ },
+ {
+  "seg": 57,
+  "start": 375.838,
+  "end": 377.479,
+  "speaker": "Unknown",
+  "en": "And lastly, PAT has to learn.",
+  "zh": "最后，PAT 必须学习。"
+ },
+ {
+  "seg": 58,
+  "start": 377.899,
+  "end": 383.123,
+  "speaker": "Unknown",
+  "en": "It has to compound upon its own learning, not just for one investor, but for every investor at the firm.",
+  "zh": "它必须建立在自身的学习之上，不仅是为了一位投资者，也是为了公司的每一位投资者。"
+ },
+ {
+  "seg": 59,
+  "start": 384.683,
+  "end": 385.984,
+  "speaker": "Unknown",
+  "en": "PAT's not a prototype today.",
+  "zh": "PAT 今天不是一个原型。"
+ },
+ {
+  "seg": 60,
+  "start": 386.224,
+  "end": 413.935,
+  "speaker": "Unknown",
+  "en": "It's actually been deployed internally several months ago, and we now have hundreds of investors using it every single day, which is leading to a pretty incredible flywheel of improvement where, as investors are using PAT for real research, we have agents continuously running in the background, scanning through these interactions, figuring out where PAT went wrong, developing human-audited benchmarks, which then results in changes to context and also to the harnesses that we've built for PAT, which results in PAT improving not just for one,",
+  "zh": "它实际上在几个月前就在内部部署了，我们现在有数百位投资者每天都在使用它，这导致了一个相当令人难以置信的改进飞轮，当投资者使用 PAT 进行真正的研究时，我们有智能体在后台持续运行，扫描这些交互，找出 PAT 出错的地方，开发人类审核的基准，这从而导致背景的变化，也导致我们为 PAT 构建的马具的变化，这导致 PAT 不仅仅为一个人改进，"
+ },
+ {
+  "seg": 61,
+  "start": 414.335,
+  "end": 415.055,
+  "speaker": "Unknown",
+  "en": "But for everyone.",
+  "zh": "而是为每个人改进。"
+ },
+ {
+  "seg": 62,
+  "start": 416.316,
+  "end": 425.822,
+  "speaker": "Unknown",
+  "en": "And so lastly, before we get into what we built, I wanted to leave you with one question that I pretty commonly get, which is how does a 50-year-old hedge fund actually build out something like what you're about to see?",
+  "zh": "最后，在我们进入我们要构建的东西之前，我想给你们留下一个我经常遇到的问题，那就是一个拥有 50 年历史对冲基金实际上是如何构建出你们即将看到的东西的？"
+ },
+ {
+  "seg": 63,
+  "start": 426.202,
+  "end": 429.544,
+  "speaker": "Unknown",
+  "en": "Well, it really starts with being willing to shake yourself up.",
+  "zh": "嗯，这真的始于愿意让自己动摇。"
+ },
+ {
+  "seg": 64,
+  "start": 429.945,
+  "end": 436.208,
+  "speaker": "Unknown",
+  "en": "The team that built out PAT was ultimately an internal applied AI startup that was incubated within the broader firm.",
+  "zh": "构建 PAT 的团队最终是一个内部应用 AI 初创公司，它在更广泛的公司内部孵化。"
+ },
+ {
+  "seg": 65,
+  "start": 436.529,
+  "end": 442.732,
+  "speaker": "Unknown",
+  "en": "The ability to move incredibly flexibly and quickly while being able to draw upon the resources of the broader firm",
+  "zh": "能够非常灵活和快速地移动，同时能够利用更广泛公司的资源"
+ },
+ {
+  "seg": 66,
+  "start": 443.713,
+  "end": 454.035,
+  "speaker": "Unknown",
+  "en": "In addition to this, we've established multi-archetype teams where we have investors, technologists, and scientists ultimately sitting side by side, building alongside each other.",
+  "zh": "除此之外，我们建立了多原型团队，我们有投资者、技术人员和科学家最终并肩而坐，并肩工作。"
+ },
+ {
+  "seg": 67,
+  "start": 454.356,
+  "end": 459.017,
+  "speaker": "Unknown",
+  "en": "And I think this is really a key thing that you need if you're going to build out a product like this.",
+  "zh": "我认为这真的是如果你要构建这样的产品所需的一件关键事情。"
+ },
+ {
+  "seg": 68,
+  "start": 459.457,
+  "end": 466.918,
+  "speaker": "Unknown",
+  "en": "Investors bring the context and the domain-specific expertise, technologists bring the architectural capability, and scientists bring the rigor.",
+  "zh": "投资者带来背景和领域特定的专业知识，技术人员带来架构能力，科学家带来严谨性。"
+ },
+ {
+  "seg": 69,
+  "start": 467.419,
+  "end": 473.2,
+  "speaker": "Unknown",
+  "en": "It's really these types of multi-archetype teams that are necessary if you're going to be building AI systems for expert users.",
+  "zh": "如果你打算为专家用户构建 AI 系统，真的需要这种类型的多原型团队。"
+ },
+ {
+  "seg": 70,
+  "start": 473.74,
+  "end": 485.711,
+  "speaker": "Unknown",
+  "en": "And speaking of expert users, we have hundreds of them internally, using all of our AI tools, not just PAT, which you're about to see, generating signal daily on how these things should be evolving and improving over time.",
+  "zh": "说到专家用户，我们在内部有数百人，使用我们所有的 AI 工具，不仅仅是 PAT，你即将看到的，每天生成关于这些东西应该如何随着时间的推移演变和改进的信号。"
+ },
+ {
+  "seg": 71,
+  "start": 486.312,
+  "end": 489.895,
+  "speaker": "Unknown",
+  "en": "And lastly, we have a pretty incredible compounding ecosystem to plug into.",
+  "zh": "最后，我们有一个相当令人难以置信的复合生态系统可以插入。"
+ },
+ {
+  "seg": 72,
+  "start": 490.316,
+  "end": 497.462,
+  "speaker": "Unknown",
+  "en": "50 years of shared data tooling methodologies, all built out, not just for our human analysts to plug into, but also for agents.",
+  "zh": "50 年的共享数据工具方法论，所有构建出来的，不仅是为了我们的人类分析师插入，也是为了智能体。"
+ },
+ {
+  "seg": 73,
+  "start": 498.203,
+  "end": 503.709,
+  "speaker": "Unknown",
+  "en": "On our journey to build out a fully artificial investor that's capable of everything that humans are able to do today.",
+  "zh": "在我们要构建一个完全人造投资者的旅程上，它能够做人类今天能够做的所有事情。"
+ },
+ {
+  "seg": 74,
+  "start": 504.17,
+  "end": 510.757,
+  "speaker": "Unknown",
+  "en": "And so with that, I'm going to pass things off to Michael Rann, investor lead, to go through a demo of what we built and take you through the product architecture.",
+  "zh": "因此，我将把它交给 Michael Rann，投资者负责人，去演示我们构建的东西并带你了解产品架构。"
+ },
+ {
+  "seg": 75,
+  "start": 510.777,
+  "end": 512.539,
+  "speaker": "Unknown",
+  "en": "All right.",
+  "zh": "好的。"
+ },
+ {
+  "seg": 76,
+  "start": 512.719,
+  "end": 513.34,
+  "speaker": "Unknown",
+  "en": "Thank you, Brendan.",
+  "zh": "谢谢你，Brendan。"
+ },
+ {
+  "seg": 77,
+  "start": 516.739,
+  "end": 517.62,
+  "speaker": "Unknown",
+  "en": "My name is Michael Rann.",
+  "zh": "我叫 Michael Rann。"
+ },
+ {
+  "seg": 78,
+  "start": 517.68,
+  "end": 519.662,
+  "speaker": "Unknown",
+  "en": "I'm the investor lead working on the Pocket Analyst.",
+  "zh": "我是负责 Pocket Analyst 的投资者负责人。"
+ },
+ {
+  "seg": 79,
+  "start": 519.842,
+  "end": 520.963,
+  "speaker": "Unknown",
+  "en": "And a little bit about myself.",
+  "zh": "关于我自己的一点介绍。"
+ },
+ {
+  "seg": 80,
+  "start": 521.223,
+  "end": 526.488,
+  "speaker": "Unknown",
+  "en": "I've been here at Bridgewater for five years, where I joined as a technologist, but then I've spent most of my time in an investor role.",
+  "zh": "我在 Bridgewater 待了五年，我作为技术人员加入，但我大部分时间都花在投资者角色上。"
+ },
+ {
+  "seg": 81,
+  "start": 526.868,
+  "end": 531.092,
+  "speaker": "Unknown",
+  "en": "And then nowadays, the thing I'm mostly focusing on is how we can infuse AI into our investment process.",
+  "zh": "而现在，我主要关注的是我们如何将 AI 注入我们的投资过程。"
+ },
+ {
+  "seg": 82,
+  "start": 531.532,
+  "end": 538.278,
+  "speaker": "Unknown",
+  "en": "So with that being said, I'd love to jump into a demo of the Pocket Analyst to highlight its capabilities and show you all how investors at Bridgewater are using it.",
+  "zh": "因此，我很想跳进 Pocket Analyst 的演示，以突出它的功能并向你们展示 Bridgewater 的投资者是如何使用它的。"
+ },
+ {
+  "seg": 83,
+  "start": 539.68,
+  "end": 543.723,
+  "speaker": "Unknown",
+  "en": "So behind me, you can see the PAT landing page, which has the prompt we'll be using for today's demo.",
+  "zh": "所以在我身后，你可以看到 PAT 着陆页，其中有我们今天演示将使用的提示。"
+ },
+ {
+  "seg": 84,
+  "start": 544.343,
+  "end": 552.029,
+  "speaker": "Unknown",
+  "en": "Where the gist of it is, we're asking PAT to look at how markets have responded to the recent conflict in the Middle East and to compare today's events to similar historical episodes.",
+  "zh": "其要点是，我们要 PAT 观察市场如何对中东最近的冲突做出反应，并将今天的事件与类似的历史事件进行比较。"
+ },
+ {
+  "seg": 85,
+  "start": 552.529,
+  "end": 560.635,
+  "speaker": "Unknown",
+  "en": "Then lastly, we ask PAT to put together some visualizations that highlight how similar and or dissimilar today is relative to previous oil supply shocks.",
+  "zh": "然后最后，我们要 PAT 整理一些可视化，突出今天与以前的石油供应冲击相比是多么相似或不相似。"
+ },
+ {
+  "seg": 86,
+  "start": 561.195,
+  "end": 568.321,
+  "speaker": "Unknown",
+  "en": "This is a real question we've been working on at Bridgewater over the past couple of months, and PAT has been a tool leveraged by investors to help expedite our research process.",
+  "zh": "这是我们在过去几个月里一直在 Bridgewater 研究的一个真实问题，PAT 一直是投资者用来帮助加速我们研究过程的工具。"
+ },
+ {
+  "seg": 87,
+  "start": 569.041,
+  "end": 575.63,
+  "speaker": "Unknown",
+  "en": "But before we submit the prompt, I'd like to spend a moment talking about an interesting security problem that we ran into when designing Pat's Harness.",
+  "zh": "但在我们提交提示之前，我想花点时间谈谈我们在设计 Pat 的马具时遇到的一个有趣的安全问题。"
+ },
+ {
+  "seg": 88,
+  "start": 577.233,
+  "end": 584.515,
+  "speaker": "Unknown",
+  "en": "So our starting point was, for PAT to truly be helpful, it needs to be able to access all of the information that investors have access to when conducting research.",
+  "zh": "所以我们的起点是，为了让 PAT 真正有帮助，它需要能够访问投资者在进行研究时有权访问的所有信息。"
+ },
+ {
+  "seg": 89,
+  "start": 584.955,
+  "end": 588.836,
+  "speaker": "Unknown",
+  "en": "But the thing is, at Bridgewater, different investors have access to different information.",
+  "zh": "但情况是，在 Bridgewater，不同的投资者有权访问不同的信息。"
+ },
+ {
+  "seg": 90,
+  "start": 589.276,
+  "end": 596.998,
+  "speaker": "Unknown",
+  "en": "So for example, you may have one investor who has access to what our positions are across all markets today, and it's important for that person's PAT to also have this information.",
+  "zh": "例如，你可能有一位投资者，他有权访问我们今天在所有市场的仓位是什么，并且那个人的 PAT 也有这个信息很重要。"
+ },
+ {
+  "seg": 91,
+  "start": 597.578,
+  "end": 603.579,
+  "speaker": "Unknown",
+  "en": "But then you might have analysts who are not exposed to this, and it's similarly critical that we do not accidentally leak the secure IP to those analysts.",
+  "zh": "然后你可能有一些没有接触过这些的分析师，并且同样关键的是，我们不会意外地将安全的 IP 泄露给那些分析师。"
+ },
+ {
+  "seg": 92,
+  "start": 604.159,
+  "end": 607.04,
+  "speaker": "Unknown",
+  "en": "So unlike a harness like Claude Code, where everyone is interfacing",
+  "zh": "所以不像像 Claude Code 这样的马具，每个人都在接口"
+ },
+ {
+  "seg": 93,
+  "start": 607.36,
+  "end": 614.125,
+  "speaker": "Unknown",
+  "en": "With the same system prompt and the same tools, each person at Bridgewater has a unique version of PAT tailored for what they can and cannot see.",
+  "zh": "使用相同的系统提示和相同的工具，Bridgewater 的每个人都有一个独特的 PAT 版本，量身定制为他们能看什么和不能看什么。"
+ },
+ {
+  "seg": 94,
+  "start": 615.005,
+  "end": 620.329,
+  "speaker": "Unknown",
+  "en": "Now, practically speaking, this uniqueness is just a function of what context and what tools each person's PAT has.",
+  "zh": "现在，实际上来说，这种独特性只是每个人的 PAT 拥有什么背景和什么工具的一个函数。"
+ },
+ {
+  "seg": 95,
+  "start": 620.929,
+  "end": 623.35,
+  "speaker": "Unknown",
+  "en": "So with that, we'll go ahead and submit the prompt.",
+  "zh": "因此，我们将继续提交提示。"
+ },
+ {
+  "seg": 96,
+  "start": 624.071,
+  "end": 633.097,
+  "speaker": "Unknown",
+  "en": "And the first thing that takes place in this analysis is PAT searches the web in our vault of unstructured data to better understand what's happening in the world today and to contextualize it against history.",
+  "zh": "在这个分析中首先发生的事情是 PAT 在我们的非结构化数据库中搜索网络，以更好地理解当今世界上正在发生什么，并根据历史进行背景化。"
+ },
+ {
+  "seg": 97,
+  "start": 634.298,
+  "end": 643.566,
+  "speaker": "Unknown",
+  "en": "Now, web search itself is table stakes when it comes to these modern chat applications, but the real differentiator here is the breadth of unstructured content that we subscribe to that Pat is able to search over.",
+  "zh": "现在，网络搜索本身对于这些现代聊天应用程序来说是入场筹码，但这里真正的区别是我们订阅的非结构化内容的广度，Pat 能够搜索这些内容。"
+ },
+ {
+  "seg": 98,
+  "start": 644.127,
+  "end": 655.096,
+  "speaker": "Unknown",
+  "en": "We have a database containing millions of documents from all around the world that includes content such as broker pieces, earnings transcripts, internal emails, and more, and this database is updating in near real time.",
+  "zh": "我们有一个包含世界各地数百万文档的数据库，其中包括诸如经纪商报告、财报电话会议记录、内部电子邮件等内容，而且这个数据库正在近乎实时地更新。"
+ },
+ {
+  "seg": 99,
+  "start": 655.857,
+  "end": 657.559,
+  "speaker": "Unknown",
+  "en": "With thousands of new pieces coming in each day.",
+  "zh": "每天都有数千篇新内容进来。"
+ },
+ {
+  "seg": 100,
+  "start": 657.899,
+  "end": 667.628,
+  "speaker": "Unknown",
+  "en": "And this ties back to the point I was making on the previous slide, which is for PAT to really provide leverage, it has to access everything that its user has access to, such that it can try and emulate what its users actually do.",
+  "zh": "这回到了我上一张幻灯片中提出的观点，即为了让 PAT 真正提供杠杆作用，它必须访问其用户有权访问的一切，以便它可以尝试模仿其用户的实际行为。"
+ },
+ {
+  "seg": 101,
+  "start": 669.238,
+  "end": 676.022,
+  "speaker": "Unknown",
+  "en": "Now, once this context is gathered, the next thing that PAT does is it searches our time series database for the data required for the analysis.",
+  "zh": "现在，一旦收集到这个上下文，PAT 接下来要做的事情就是在我们的时间序列数据库中搜索分析所需的数据。"
+ },
+ {
+  "seg": 102,
+  "start": 676.502,
+  "end": 681.525,
+  "speaker": "Unknown",
+  "en": "This is a database that contains tens of millions of series that we've been modeling internally for 50 years.",
+  "zh": "这是一个包含数千万个序列的数据库，我们已经对其进行了 50 年的内部建模。"
+ },
+ {
+  "seg": 103,
+  "start": 681.885,
+  "end": 689.249,
+  "speaker": "Unknown",
+  "en": "And this database contains data from the outside world, like the price of oil, and also internally derived concepts, such as what we think inflation will be 12 months out.",
+  "zh": "而且这个数据库包含来自外部世界的数据，如石油价格，以及内部衍生概念，例如我们认为 12 个月后的通胀情况。"
+ },
+ {
+  "seg": 104,
+  "start": 690.18,
+  "end": 700.168,
+  "speaker": "Unknown",
+  "en": "Now, the search agents use kind of your traditional search techniques, like RAG, re-ranking, et cetera, but the thing we found to be a huge difference maker was layering on an element of human-like inspection.",
+  "zh": "现在，搜索智能体使用一种您传统的搜索技术，如 RAG、重排序等等，但我们发现一个巨大的不同之处在于，在此基础上增加了一种类人检查的元素。"
+ },
+ {
+  "seg": 105,
+  "start": 700.923,
+  "end": 706.045,
+  "speaker": "Unknown",
+  "en": "And what I mean by that is when a human researcher is looking for data, they don't just anchor to what the name of the time series is.",
+  "zh": "我的意思是说，当人类研究员在寻找数据时，他们不仅仅锚定时间序列的名称。"
+ },
+ {
+  "seg": 106,
+  "start": 706.305,
+  "end": 713.007,
+  "speaker": "Unknown",
+  "en": "They'll do things like look at the frequency, the currency of the series, and then most importantly, whether the values in the series align with their priors.",
+  "zh": "他们会做诸如查看频率、序列的货币之类的事情，然后最重要的是，查看序列中的值是否与他们的先验一致。"
+ },
+ {
+  "seg": 107,
+  "start": 713.568,
+  "end": 719.87,
+  "speaker": "Unknown",
+  "en": "So embedding this sort of reasoning into our search agent is actually something that got us up from roughly like 50% accuracy all the way to 90.",
+  "zh": "因此，将这种推理嵌入到我们的搜索智能体中，实际上让我们能够将准确率从大约 50% 提高到了 90%。"
+ },
+ {
+  "seg": 108,
+  "start": 721.855,
+  "end": 729.822,
+  "speaker": "Unknown",
+  "en": "Now, after Pat has the context and data at hand, it comes back to the user with clarifying questions and potentially ideas for additional angles to explore.",
+  "zh": "现在，在 Pat 掌握了上下文和数据之后，它会带着澄清性问题以及潜在的额外探索角度回到用户那里。"
+ },
+ {
+  "seg": 109,
+  "start": 730.723,
+  "end": 734.367,
+  "speaker": "Unknown",
+  "en": "During Pat's development, we came to the view that the plan really is the analysis.",
+  "zh": "在 Pat 的开发过程中，我们形成了这样的观点：计划即分析。"
+ },
+ {
+  "seg": 110,
+  "start": 735.087,
+  "end": 742.955,
+  "speaker": "Unknown",
+  "en": "If we can create a high-quality, detailed plan, we felt confident that we could consistently take this plan, intelligently execute it, and produce our desired outputs.",
+  "zh": "如果我们能创建一个高质量、详细的计划，我们就确信能够持续地执行该计划，智能地执行它，并产生我们期望的输出。"
+ },
+ {
+  "seg": 111,
+  "start": 743.095,
+  "end": 744.876,
+  "speaker": "Unknown",
+  "en": "And Santi will be diving into this a bit more later.",
+  "zh": "Santi 稍后会深入探讨这一点。"
+ },
+ {
+  "seg": 112,
+  "start": 745.937,
+  "end": 752.122,
+  "speaker": "Unknown",
+  "en": "So while agents asking questions is pretty standard in chatbots nowadays, the thing we really focused on was the substance of those questions.",
+  "zh": "所以，虽然智能体提问在当今的聊天机器人中相当标准，但我们真正关注的是这些问题的实质内容。"
+ },
+ {
+  "seg": 113,
+  "start": 752.822,
+  "end": 757.506,
+  "speaker": "Unknown",
+  "en": "We devoted lots of time and energy into developing the context and benchmarks that helped shape this capability.",
+  "zh": "我们投入了大量的时间和精力来开发有助于塑造这种能力的上下文和基准。"
+ },
+ {
+  "seg": 114,
+  "start": 758.206,
+  "end": 766.993,
+  "speaker": "Unknown",
+  "en": "We taught Pat what makes a good research question versus a bad one, so this back and forth helps humans, who tend to underinvest in planning, flesh out what we consider to be a high-quality research plan.",
+  "zh": "我们教 Pat 什么是一个好的研究问题，什么是坏的，所以这种来回互动有助于人类——他们往往在规划上投入不足——充实我们所认为的高质量研究计划。"
+ },
+ {
+  "seg": 115,
+  "start": 769.155,
+  "end": 785.31,
+  "speaker": "Unknown",
+  "en": "Now, after the ambiguous points are all resolved, PAT enters its planning phase, where during the planning phase, the things it's doing are A, coming up with all of the data frames that will be produced in the analysis, coming up with the schemas of all of those data frames, and then most importantly, coming up with how all those data frames connect.",
+  "zh": "现在，在所有歧义点解决之后，PAT 进入其规划阶段，在规划阶段中，它所做的事情是 A，提出分析中将要产生的所有数据帧，提出所有这些数据帧的架构，然后最重要的是，提出所有这些数据帧如何连接。"
+ },
+ {
+  "seg": 116,
+  "start": 786.051,
+  "end": 793.939,
+  "speaker": "Unknown",
+  "en": "Now, this planning phase is relatively expensive from a time perspective in our analysis, but it's a cost that we pay deliberately because of what it lets us do during execution.",
+  "zh": "现在，从时间的角度来看，这个规划阶段在我们的分析中相对昂贵，但这是我们要有意支付的成本，因为它让我们在执行期间能够做些什么。"
+ },
+ {
+  "seg": 117,
+  "start": 795.93,
+  "end": 800.855,
+  "speaker": "Unknown",
+  "en": "So now we have the plan locked in, and the first step of plan execution is generating the code.",
+  "zh": "所以现在我们锁定了计划，计划执行的第一步是生成代码。"
+ },
+ {
+  "seg": 118,
+  "start": 801.435,
+  "end": 808.461,
+  "speaker": "Unknown",
+  "en": "And given we have such a detailed plan, the thing we're able to do is generate the code for each data frame in our analysis in parallel using subagents.",
+  "zh": "鉴于我们有如此详细的计划，我们能够做的是，使用子智能体并行地为我们分析中的每个数据帧生成代码。"
+ },
+ {
+  "seg": 119,
+  "start": 808.862,
+  "end": 817.149,
+  "speaker": "Unknown",
+  "en": "And this works because each subagent knows what data frames it depends on, it knows the schemas of those data frames, and it also knows what the schema of the data frame it's producing should be.",
+  "zh": "这之所以有效，是因为每个子智能体都知道它依赖于哪些数据帧，它知道那些数据帧的架构，而且它也知道它正在生成的数据帧的架构应该是什么。"
+ },
+ {
+  "seg": 120,
+  "start": 817.91,
+  "end": 827.367,
+  "speaker": "Unknown",
+  "en": "So this lets it be such that you can have an analysis with, say, three data frames, or a meaty one with something like 30 data frames, and it takes us roughly the same amount of time to generate the code in both of those scenarios.",
+  "zh": "所以这让你可以拥有一个包含比如说三个数据帧的分析，或者一个包含大约 30 个数据帧的大型分析，而在这两种情况下，我们生成代码所需的时间大致相同。"
+ },
+ {
+  "seg": 121,
+  "start": 828.316,
+  "end": 837.103,
+  "speaker": "Unknown",
+  "en": "Once we finish generating the code, we just execute the Python functions with an agent overseeing this execution and stepping in if it sees things like runtime errors or nonsensical values.",
+  "zh": "一旦我们完成代码生成，我们就执行 Python 函数，并有一个智能体监督这个执行，如果它看到运行时错误或无意义的值，就会介入。"
+ },
+ {
+  "seg": 122,
+  "start": 837.884,
+  "end": 845.931,
+  "speaker": "Unknown",
+  "en": "And before we proceed from execution, I want to call out the fact that the time series outputs from these analyses land in the same database that we actually pulled our inputs from.",
+  "zh": "在我们从执行继续之前，我想指出的一个事实是，这些分析产生的时间序列输出会落入我们要实际提取输入的同一个数据库中。"
+ },
+ {
+  "seg": 123,
+  "start": 846.331,
+  "end": 848.073,
+  "speaker": "Unknown",
+  "en": "And I think this is important for a couple of reasons.",
+  "zh": "我认为这很重要，原因有二。"
+ },
+ {
+  "seg": 124,
+  "start": 848.833,
+  "end": 855.337,
+  "speaker": "Unknown",
+  "en": "One, it shows that any output from a PAT analysis is indistinguishable from any of the human-uploaded series that we've been producing for many years.",
+  "zh": "第一，它表明 PAT 分析的任何输出与我们多年来产生的任何人工上传的序列是无法区分的。"
+ },
+ {
+  "seg": 125,
+  "start": 855.737,
+  "end": 860.62,
+  "speaker": "Unknown",
+  "en": "And then more importantly, any output from a PAT analysis can serve as an input to a subsequent one.",
+  "zh": "然后更重要的是，PAT 分析的任何输出都可以作为后续分析的输入。"
+ },
+ {
+  "seg": 126,
+  "start": 861,
+  "end": 865.923,
+  "speaker": "Unknown",
+  "en": "So what this does is it creates an environment where humans and agents can very easily compound and leverage each other's work.",
+  "zh": "所以它所做的是创造了一个环境，在这个环境中，人类和智能体可以非常容易地复用并利用彼此的工作。"
+ },
+ {
+  "seg": 127,
+  "start": 868.113,
+  "end": 874.697,
+  "speaker": "Unknown",
+  "en": "Now after execution completes, just like you'd want your junior analysts to double check their work before coming back to you, we want Pat to do the same.",
+  "zh": "现在，执行完成后，就像您希望您的初级分析师在回来之前仔细检查他们的工作一样，我们希望 Pat 也做同样的事情。"
+ },
+ {
+  "seg": 128,
+  "start": 874.937,
+  "end": 883.362,
+  "speaker": "Unknown",
+  "en": "So at this point in the analysis, Pat will look at the data it's computed and the visualizations it's produced and make sure that the numbers seem sensible and the charts look clean.",
+  "zh": "所以在分析的这一阶段，Pat 将查看它计算出的数据和它生成的可视化，并确保数字看起来合理，图表看起来整洁。"
+ },
+ {
+  "seg": 129,
+  "start": 883.903,
+  "end": 892.668,
+  "speaker": "Unknown",
+  "en": "If it sees something that looks a bit off, Pat will take a step back, diagnose the issue, then refine the analysis and make sure it's satisfied with its result before coming back to the user.",
+  "zh": "如果它看到一些看起来有点不对劲的东西，Pat 会退一步，诊断问题，然后完善分析，并确保它对结果感到满意，然后再回到用户那里。"
+ },
+ {
+  "seg": 130,
+  "start": 894.486,
+  "end": 901.471,
+  "speaker": "Unknown",
+  "en": "And then the result itself is this interactive report where in the report, the visualizations look just like the ones investors at Bridgewater are producing.",
+  "zh": "然后结果本身就是这个交互式报告，在报告中，可视化的效果看起来就像 Bridgewater 的投资者正在制作的一样。"
+ },
+ {
+  "seg": 131,
+  "start": 901.972,
+  "end": 908.256,
+  "speaker": "Unknown",
+  "en": "Pat is using the same in-house charting library and leveraging the same existing text deck that we've been developing internally for decades.",
+  "zh": "Pat 使用的是相同的内部图表库，并利用我们几十年来一直在内部开发的现有文本文档。"
+ },
+ {
+  "seg": 132,
+  "start": 908.697,
+  "end": 917.443,
+  "speaker": "Unknown",
+  "en": "So you can see here how you can zoom in, zoom out of these charts, and you can even send the data from this interactive report to our internal charting tool where you can make further modifications on the fly.",
+  "zh": "所以您可以在这里看到您如何放大、缩小这些图表，您甚至可以将数据从这个交互式报告发送到我们的内部图表工具，在那里您可以即时进行进一步的修改。"
+ },
+ {
+  "seg": 133,
+  "start": 919.104,
+  "end": 923.448,
+  "speaker": "Unknown",
+  "en": "And now, before handing it over to Santi, I want to speak a bit to how Pack gets better as you use it.",
+  "zh": "现在，在把它交给 Santi 之前，我想谈谈 Pack 如何随着使用而变得更好。"
+ },
+ {
+  "seg": 134,
+  "start": 924.281,
+  "end": 925.942,
+  "speaker": "Unknown",
+  "en": "There are two primary ways in which this happens.",
+  "zh": "这种情况主要通过两种方式发生。"
+ },
+ {
+  "seg": 135,
+  "start": 926.623,
+  "end": 934.009,
+  "speaker": "Unknown",
+  "en": "The first is the autonomous one that Brendan alluded to earlier, where we just have agents reviewing completed conversations, looking for ways in which Pat can get smarter.",
+  "zh": "第一种是 Brendan 早些时候提到的那种自主方式，我们只是让智能体回顾已完成的对话，寻找 Pat 可以变得更聪明的方法。"
+ },
+ {
+  "seg": 136,
+  "start": 934.85,
+  "end": 944.818,
+  "speaker": "Unknown",
+  "en": "And then the second one, and the one we'll be showing here, is the more explicit option, where a user can kick off this learning process within the context of an analysis if they think there is something to be learned from their interaction with Pat.",
+  "zh": "然后是第二种，也是我们将要在这里展示的那种，是更明确的选择，如果用户认为可以从他们与 Pat 的互动中学到东西，他们可以在分析的上下文中启动这个学习过程。"
+ },
+ {
+  "seg": 137,
+  "start": 945.919,
+  "end": 949.482,
+  "speaker": "Unknown",
+  "en": "So right here we just have the user asking for a different set of visualizations.",
+  "zh": "所以在这里，我们只是让用户要求一组不同的可视化。"
+ },
+ {
+  "seg": 138,
+  "start": 949.923,
+  "end": 951.505,
+  "speaker": "Unknown",
+  "en": "Note, the user didn't say anything was wrong.",
+  "zh": "注意，用户并没有说有什么错误。"
+ },
+ {
+  "seg": 139,
+  "start": 951.965,
+  "end": 955.568,
+  "speaker": "Unknown",
+  "en": "They just wanted a different perspective that they thought was important to answering the question at hand.",
+  "zh": "他们只是想要一个不同的视角，而这个视角他们认为对于回答当前的问题很重要。"
+ },
+ {
+  "seg": 140,
+  "start": 956.369,
+  "end": 970.502,
+  "speaker": "Unknown",
+  "en": "If they think that Pat sort of produced or suggested this set of visualizations from the jump, they can click the teach button, which will then spawn an agent to go through the conversation looking for things like behavioral mistakes, context gaps, or user steering that can be front run.",
+  "zh": "如果他们认为 Pat 在一开始就产生或建议了这组可视化，他们可以点击教学按钮，这将生成一个智能体来检查对话，寻找诸如行为错误、上下文缺口或可以被抢先的用户引导之类的东西。"
+ },
+ {
+  "seg": 141,
+  "start": 971.413,
+  "end": 973.994,
+  "speaker": "Unknown",
+  "en": "The user is then able to modify this or send it as is.",
+  "zh": "然后用户可以修改它或按原样发送它。"
+ },
+ {
+  "seg": 142,
+  "start": 974.455,
+  "end": 979.657,
+  "speaker": "Unknown",
+  "en": "And when they submit this, what happens is, first, an agent on the backend will create a benchmark that we expect to fail.",
+  "zh": "当他们提交时，发生的事情是，首先，后端的一个智能体将创建一个我们预期会失败的基准。"
+ },
+ {
+  "seg": 143,
+  "start": 980.158,
+  "end": 982.099,
+  "speaker": "Unknown",
+  "en": "This shows that we can reproduce this poor behavior.",
+  "zh": "这表明我们可以重现这种糟糕的行为。"
+ },
+ {
+  "seg": 144,
+  "start": 982.859,
+  "end": 987.562,
+  "speaker": "Unknown",
+  "en": "It will then iterate on our context repositories or the harness itself until that benchmark passes.",
+  "zh": "然后它将迭代我们的上下文存储库或测试工具本身，直到该基准通过。"
+ },
+ {
+  "seg": 145,
+  "start": 988.082,
+  "end": 996.325,
+  "speaker": "Unknown",
+  "en": "And then after confirming that by making this benchmark pass, we didn't cause the rest of our suite to fail, we get a Slack message with the pull request, including the changes the agent wants to make to Pat.",
+  "zh": "然后，在确认通过使该基准通过，我们没有导致我们套件的其余部分失败之后，我们会收到一条带有拉取请求的 Slack 消息，其中包括智能体想要对 Pat 进行的更改。"
+ },
+ {
+  "seg": 146,
+  "start": 996.766,
+  "end": 1003.868,
+  "speaker": "Unknown",
+  "en": "And the thing this does is that the next time a human comes to Pat with a similar question, we expect them to get the better version of Pat right out of the box.",
+  "zh": "它的作用是，下一次人类带着类似的问题来到 Pat 面前时，我们期望他们能立即得到更好的 Pat 版本。"
+ },
+ {
+  "seg": 147,
+  "start": 1004.169,
+  "end": 1006.73,
+  "speaker": "Unknown",
+  "en": "So now I'd like to hand it over to Santi for the technical overview.",
+  "zh": "所以现在我想把它交给 Santi 进行技术概述。"
+ },
+ {
+  "seg": 148,
+  "start": 1009.124,
+  "end": 1010.665,
+  "speaker": "Unknown",
+  "en": "Hello, guys.",
+  "zh": "大家好。"
+ },
+ {
+  "seg": 149,
+  "start": 1011.565,
+  "end": 1012.226,
+  "speaker": "Unknown",
+  "en": "Thanks, Michael.",
+  "zh": "谢谢，Michael。"
+ },
+ {
+  "seg": 150,
+  "start": 1012.426,
+  "end": 1012.906,
+  "speaker": "Unknown",
+  "en": "I'm Santi.",
+  "zh": "我是 Santi。"
+ },
+ {
+  "seg": 151,
+  "start": 1012.946,
+  "end": 1014.206,
+  "speaker": "Unknown",
+  "en": "I'm the tech lead for the Pocket Analyst.",
+  "zh": "我是 Pocket Analyst 的技术负责人。"
+ },
+ {
+  "seg": 152,
+  "start": 1014.847,
+  "end": 1019.949,
+  "speaker": "Unknown",
+  "en": "I'm sure many of you in the crowd are building coding agent products just like we are, and it's really hard to build one.",
+  "zh": "我确你们中的许多人正在像我们一样构建智能体产品，这真的很难。"
+ },
+ {
+  "seg": 153,
+  "start": 1020.63,
+  "end": 1028.873,
+  "speaker": "Unknown",
+  "en": "Coding agents are really fickle, unpredictable, they often make mistakes, and then when you're really unlucky, they'll go crazy and try and nuke your data and all the rest of it.",
+  "zh": "代码智能体非常善变、不可预测，它们经常犯错，然后当你真的很倒霉时，它们会发疯并试图销毁你的数据以及其余的一切。"
+ },
+ {
+  "seg": 154,
+  "start": 1029.494,
+  "end": 1035.557,
+  "speaker": "Unknown",
+  "en": "And so it's already hard to build a good product that people like, but then it's really hard to build a product that they want to embed into their daily workflows.",
+  "zh": "因此，要构建一个人们喜欢的优质产品已经很难了，但要构建一个他们想要嵌入到日常工作流中的产品就更难了。"
+ },
+ {
+  "seg": 155,
+  "start": 1036.477,
+  "end": 1043.802,
+  "speaker": "Unknown",
+  "en": "At a hedge fund, we're trying to trade billions of dollars, and so we can't have just vibe code be the underpinning of how these analysis go.",
+  "zh": "在对冲基金，我们要试图交易数十亿美元，所以我们不能仅仅让 vibe coding 成为这些分析的基石。"
+ },
+ {
+  "seg": 156,
+  "start": 1045.043,
+  "end": 1056.79,
+  "speaker": "Unknown",
+  "en": "My background is in compiler theory and programming language design, and compilers have a very similar footprint of requirements, which is they're fully deterministic, fully correct, and reliable.",
+  "zh": "我的背景是编译器理论和编程语言设计，而编译器有非常相似的需求足迹，即它们是完全确定性的、完全正确的和可靠的。"
+ },
+ {
+  "seg": 157,
+  "start": 1057.111,
+  "end": 1059.712,
+  "speaker": "Unknown",
+  "en": "You can't have an off-by-one when you're flying a plane, for example.",
+  "zh": "例如，当你驾驶飞机时，你不能出现差一错误。"
+ },
+ {
+  "seg": 158,
+  "start": 1060.253,
+  "end": 1061.474,
+  "speaker": "Unknown",
+  "en": "And there's also a similar shape here.",
+  "zh": "这里的形状也很相似。"
+ },
+ {
+  "seg": 159,
+  "start": 1062.873,
+  "end": 1070.801,
+  "speaker": "Unknown",
+  "en": "A compiler takes user code and compiles it down to something like JS, and then a coding agent takes a user prompt or plan and compiles it down to Python.",
+  "zh": "编译器获取用户代码并将其编译为 JS 之类的东西，然后代码智能体获取用户提示或计划并将其编译为 Python。"
+ },
+ {
+  "seg": 160,
+  "start": 1072.023,
+  "end": 1074.705,
+  "speaker": "Unknown",
+  "en": "We really like this approach, and so I don't have a lot of time today.",
+  "zh": "我们真的很喜欢这种方法，所以我今天没有太多时间。"
+ },
+ {
+  "seg": 161,
+  "start": 1074.726,
+  "end": 1078.63,
+  "speaker": "Unknown",
+  "en": "We're going to focus on this as a learning that maybe you guys might be able to take home to your own work.",
+  "zh": "我们将把这一点作为一个学习重点，也许你们能够带回到你们自己的工作中。"
+ },
+ {
+  "seg": 162,
+  "start": 1080.082,
+  "end": 1081.224,
+  "speaker": "Unknown",
+  "en": "We're going to start with the chat, though.",
+  "zh": "不过我们将从聊天开始。"
+ },
+ {
+  "seg": 163,
+  "start": 1081.644,
+  "end": 1087.773,
+  "speaker": "Unknown",
+  "en": "So the goal here is for the chat agent and the user to come to a common understanding of what they're trying to accomplish here.",
+  "zh": "所以这里的目标是让聊天智能体和用户对他们在这里试图完成的事情达成共识。"
+ },
+ {
+  "seg": 164,
+  "start": 1088.714,
+  "end": 1090.376,
+  "speaker": "Unknown",
+  "en": "The chat agent is implemented in LangGraph.",
+  "zh": "聊天智能体是用 LangGraph 实现的。"
+ },
+ {
+  "seg": 165,
+  "start": 1090.677,
+  "end": 1092.679,
+  "speaker": "Unknown",
+  "en": "We primarily use it for persistent support.",
+  "zh": "我们主要用它来做持久化支持。"
+ },
+ {
+  "seg": 166,
+  "start": 1093.04,
+  "end": 1095.283,
+  "speaker": "Unknown",
+  "en": "It has out-of-the-box cancellations and continuations.",
+  "zh": "它具有开箱即用的取消和继续功能。"
+ },
+ {
+  "seg": 167,
+  "start": 1096.835,
+  "end": 1099.578,
+  "speaker": "Unknown",
+  "en": "And we used to manage that stuff ourselves with a much worse effect.",
+  "zh": "我们过去常常自己管理那些东西，效果要差得多。"
+ },
+ {
+  "seg": 168,
+  "start": 1100.799,
+  "end": 1102.2,
+  "speaker": "Unknown",
+  "en": "The chat agent has access to tool calls.",
+  "zh": "聊天智能体可以访问工具调用。"
+ },
+ {
+  "seg": 169,
+  "start": 1102.24,
+  "end": 1103.181,
+  "speaker": "Unknown",
+  "en": "Michael called some of these out.",
+  "zh": "Michael 提到了其中的一些。"
+ },
+ {
+  "seg": 170,
+  "start": 1103.282,
+  "end": 1107.686,
+  "speaker": "Unknown",
+  "en": "So there's data-series search, unstructured search, and each of these would be a talk unto themselves.",
+  "zh": "所以有数据序列搜索、非结构化搜索，每一个本身都可以作为一个专题来讲。"
+ },
+ {
+  "seg": 171,
+  "start": 1108.487,
+  "end": 1115.755,
+  "speaker": "Unknown",
+  "en": "And then once the chat agent knows all the data that it needs for its analysis, it's going to make a plan and invoke a tool call to a sub-agent, which is our coding agent.",
+  "zh": "一旦聊天智能体知道了其分析所需的所有数据，它就会制定计划并调用工具调用到一个子智能体，也就是我们的代码智能体。"
+ },
+ {
+  "seg": 172,
+  "start": 1116.215,
+  "end": 1118.438,
+  "speaker": "Unknown",
+  "en": "And that's going to produce a Python pandas analysis.",
+  "zh": "那将生成一个 Python pandas 分析。"
+ },
+ {
+  "seg": 173,
+  "start": 1120.037,
+  "end": 1121.958,
+  "speaker": "Unknown",
+  "en": "So why would you separate your two agents?",
+  "zh": "那么为什么要分离你的两个智能体呢？"
+ },
+ {
+  "seg": 174,
+  "start": 1122.699,
+  "end": 1127.302,
+  "speaker": "Unknown",
+  "en": "Early on, we decided that our investors are not programmers by trade, and they care about investment.",
+  "zh": "起初，我们确定我们的投资者不是专业的程序员，他们关心的是投资。"
+ },
+ {
+  "seg": 175,
+  "start": 1128.043,
+  "end": 1130.885,
+  "speaker": "Unknown",
+  "en": "And so we decided to keep the chat purely about investment content.",
+  "zh": "所以我们决定让聊天纯粹关于投资内容。"
+ },
+ {
+  "seg": 176,
+  "start": 1131.525,
+  "end": 1136.188,
+  "speaker": "Unknown",
+  "en": "And the result is that we have a product where coding is a pure implementation detail.",
+  "zh": "结果是我们拥有一个产品，其中编码是一个纯粹的实现细节。"
+ },
+ {
+  "seg": 177,
+  "start": 1137.009,
+  "end": 1138.85,
+  "speaker": "Unknown",
+  "en": "From the chat, you can't tell that there's code under the hood.",
+  "zh": "从聊天中，你看不出底层有代码。"
+ },
+ {
+  "seg": 178,
+  "start": 1140.111,
+  "end": 1146.576,
+  "speaker": "Unknown",
+  "en": "And other happy accidents are that you get unpolluted context, so each agent becomes specialized in its job and naturally improves.",
+  "zh": "另一个幸运的意外是你获得了未受污染的上下文，所以每个智能体都专精于其工作并自然改进。"
+ },
+ {
+  "seg": 179,
+  "start": 1147.657,
+  "end": 1149.198,
+  "speaker": "Unknown",
+  "en": "And we get to tailor the chat experience a lot.",
+  "zh": "而且我们可以大量定制聊天体验。"
+ },
+ {
+  "seg": 180,
+  "start": 1150.351,
+  "end": 1156.397,
+  "speaker": "Unknown",
+  "en": "And that's what we're going to talk about in a sec right now is our investment domain context is really high quality.",
+  "zh": "这就是我们马上要讲的，我们的投资领域上下文质量真的很高。"
+ },
+ {
+  "seg": 181,
+  "start": 1156.457,
+  "end": 1160.6,
+  "speaker": "Unknown",
+  "en": "So we teach the chat agent how to talk like a Bridgewater investor.",
+  "zh": "所以我们教聊天智能体像桥水投资者那样说话。"
+ },
+ {
+  "seg": 182,
+  "start": 1161.261,
+  "end": 1162.782,
+  "speaker": "Unknown",
+  "en": "There's a lot of jargon to teach it.",
+  "zh": "有很多行话要教它。"
+ },
+ {
+  "seg": 183,
+  "start": 1163.163,
+  "end": 1167.487,
+  "speaker": "Unknown",
+  "en": "And so the user and the agent both talk to each other like they're coworkers at Bridgewater.",
+  "zh": "所以用户和智能体互相交谈就像他们是桥水的同事一样。"
+ },
+ {
+  "seg": 184,
+  "start": 1168.813,
+  "end": 1170.274,
+  "speaker": "Unknown",
+  "en": "We also let our investors contribute.",
+  "zh": "我们还让我们的投资者做出贡献。"
+ },
+ {
+  "seg": 185,
+  "start": 1170.374,
+  "end": 1171.055,
+  "speaker": "Unknown",
+  "en": "Mike was showing that.",
+  "zh": "Mike 刚才展示了那个。"
+ },
+ {
+  "seg": 186,
+  "start": 1171.295,
+  "end": 1173.097,
+  "speaker": "Unknown",
+  "en": "Contribute like a developer on the code base.",
+  "zh": "像代码库上的开发者一样做出贡献。"
+ },
+ {
+  "seg": 187,
+  "start": 1173.737,
+  "end": 1175.619,
+  "speaker": "Unknown",
+  "en": "And this is a pretty good point.",
+  "zh": "这一点相当不错。"
+ },
+ {
+  "seg": 188,
+  "start": 1176.139,
+  "end": 1179.262,
+  "speaker": "Unknown",
+  "en": "Your user is better at writing context than you are, most likely.",
+  "zh": "你的用户很可能比你更擅长编写上下文。"
+ },
+ {
+  "seg": 189,
+  "start": 1179.742,
+  "end": 1183.386,
+  "speaker": "Unknown",
+  "en": "And so having low ego about it and letting them contribute directly is a good way to win.",
+  "zh": "所以对此保持低姿态并让他们直接贡献是获胜的好方法。"
+ },
+ {
+  "seg": 190,
+  "start": 1184.186,
+  "end": 1185.407,
+  "speaker": "Unknown",
+  "en": "The last point I'll make with the chat is...",
+  "zh": "关于聊天我要做的最后一点是……"
+ },
+ {
+  "seg": 191,
+  "start": 1186.734,
+  "end": 1194.039,
+  "speaker": "Unknown",
+  "en": "We teach the chat agent not just context, which you end up with this nebulous context that is very high information but doesn't really feel like a workflow.",
+  "zh": "我们教聊天智能体不仅仅是上下文，你最终会得到这种模糊的上下文，信息量很大但感觉不太像一个工作流。"
+ },
+ {
+  "seg": 192,
+  "start": 1194.559,
+  "end": 1201.724,
+  "speaker": "Unknown",
+  "en": "And so instead, we have step-by-step guides for the agent on how to handle certain types of analyses, and it feels much more like a product at that point.",
+  "zh": "相反，我们有针对智能体如何处理某些类型分析的逐步指南，在那时感觉更像是一个产品。"
+ },
+ {
+  "seg": 193,
+  "start": 1201.784,
+  "end": 1202.925,
+  "speaker": "Unknown",
+  "en": "It's like dependable workflows.",
+  "zh": "这就像是可信赖的工作流。"
+ },
+ {
+  "seg": 194,
+  "start": 1204.527,
+  "end": 1208.01,
+  "speaker": "Unknown",
+  "en": "So the rest of the talk is about my personal favorite part, which is the coding agent.",
+  "zh": "所以演讲的其余部分是关于我个人最喜欢的部分，也就是代码智能体。"
+ },
+ {
+  "seg": 195,
+  "start": 1209.05,
+  "end": 1211.492,
+  "speaker": "Unknown",
+  "en": "This is a high-level architecture diagram of the coding agent.",
+  "zh": "这是代码智能体的高级架构图。"
+ },
+ {
+  "seg": 196,
+  "start": 1211.993,
+  "end": 1213.574,
+  "speaker": "Unknown",
+  "en": "Everything you see here is actually just Python code.",
+  "zh": "你在这里看到的实际上只是 Python 代码。"
+ },
+ {
+  "seg": 197,
+  "start": 1213.814,
+  "end": 1216.616,
+  "speaker": "Unknown",
+  "en": "It's implemented with LangGraph, but there's no agentic orchestration.",
+  "zh": "它是用 LangGraph 实现的，但没有智能体编排。"
+ },
+ {
+  "seg": 198,
+  "start": 1217.737,
+  "end": 1218.958,
+  "speaker": "Unknown",
+  "en": "Everyone's taking photos.",
+  "zh": "大家都在拍照。"
+ },
+ {
+  "seg": 199,
+  "start": 1218.978,
+  "end": 1219.358,
+  "speaker": "Unknown",
+  "en": "That's great.",
+  "zh": "很棒。"
+ },
+ {
+  "seg": 200,
+  "start": 1220.719,
+  "end": 1223.762,
+  "speaker": "Unknown",
+  "en": "We're going to start with the left, which is the analysis plan that the chat agent makes.",
+  "zh": "我们将从左侧开始，这是聊天智能体制定的分析计划。"
+ },
+ {
+  "seg": 201,
+  "start": 1227.46,
+  "end": 1229.804,
+  "speaker": "Unknown",
+  "en": "So the analysis plan is broken up into tasks.",
+  "zh": "因此，分析计划被拆分为任务。"
+ },
+ {
+  "seg": 202,
+  "start": 1230.325,
+  "end": 1234.552,
+  "speaker": "Unknown",
+  "en": "Each task maps approximately to one Python function that's going to calculate a data frame.",
+  "zh": "每个任务大致映射到一个将要计算数据帧的 Python 函数。"
+ },
+ {
+  "seg": 203,
+  "start": 1235.938,
+  "end": 1236.939,
+  "speaker": "Unknown",
+  "en": "And here's an example schema.",
+  "zh": "这是一个示例模式。"
+ },
+ {
+  "seg": 204,
+  "start": 1236.979,
+  "end": 1245.107,
+  "speaker": "Unknown",
+  "en": "So it gets a name, it has a description of what to calculate, and then structural and semantic information about the data frame that should come out.",
+  "zh": "所以它获得一个名称，它有关于计算什么的描述，然后是关于应该输出的数据帧的结构和语义信息。"
+ },
+ {
+  "seg": 205,
+  "start": 1245.868,
+  "end": 1250.913,
+  "speaker": "Unknown",
+  "en": "We expect every task to deterministically compile via LLM to a piece of code.",
+  "zh": "我们期望每个任务通过 LLM 确定性地编译为一串代码。"
+ },
+ {
+  "seg": 206,
+  "start": 1251.234,
+  "end": 1258.301,
+  "speaker": "Unknown",
+  "en": "So two LLMs operating on the same task should produce code that, when run, is semantically equivalent with the same output values, exactly the same.",
+  "zh": "所以两个在同一任务上运作的 LLM 应该产生代码，当运行时，在语义上等同并具有相同的输出值，完全一样。"
+ },
+ {
+  "seg": 207,
+  "start": 1259.513,
+  "end": 1264.017,
+  "speaker": "Unknown",
+  "en": "The result is that our analysis plan isn't just like a to-do list like you might have in Claude Code.",
+  "zh": "结果是我们的分析计划不仅仅像你在 Claude Code 中可能有的待办事项清单。"
+ },
+ {
+  "seg": 208,
+  "start": 1264.418,
+  "end": 1266.54,
+  "speaker": "Unknown",
+  "en": "Instead, we think of it as a natural language Python project.",
+  "zh": "相反，我们把它看作一个自然语言 Python 项目。"
+ },
+ {
+  "seg": 209,
+  "start": 1266.72,
+  "end": 1273.106,
+  "speaker": "Unknown",
+  "en": "And because we have so much detail, now we're going to go into CodeGen and we can apply some fancy techniques.",
+  "zh": "因为我们有这么多细节，现在我们将进入 CodeGen，我们可以应用一些花哨的技术。"
+ },
+ {
+  "seg": 210,
+  "start": 1273.607,
+  "end": 1275.289,
+  "speaker": "Unknown",
+  "en": "So the first thing is we split it into tasks.",
+  "zh": "所以第一件事是我们把它分成任务。"
+ },
+ {
+  "seg": 211,
+  "start": 1276.496,
+  "end": 1278.617,
+  "speaker": "Unknown",
+  "en": "And then we do parallel LLM generation.",
+  "zh": "然后我们进行并行 LLM 生成。"
+ },
+ {
+  "seg": 212,
+  "start": 1279.178,
+  "end": 1290.004,
+  "speaker": "Unknown",
+  "en": "And because our plan is so detailed, a visualization task at the end of the plan already knows everything it needs to consume code generation that hasn't yet been completed for a loading data set.",
+  "zh": "而且因为我们的计划如此详细，计划末尾的一个可视化任务已经知道它消耗代码生成所需的一切，而这些代码生成尚未完成用于加载数据集。"
+ },
+ {
+  "seg": 213,
+  "start": 1291.384,
+  "end": 1299.709,
+  "speaker": "Unknown",
+  "en": "And then when we compare this to Claude Code on our benchmark suite, you can see that in the mean, so this is for the same context and same plan, we're about four times faster for generating code.",
+  "zh": "然后当我们在我们的基准套件上将此与 Claude Code 进行比较时，你可以看到平均来说，这是针对相同的上下文和相同的计划，我们在生成代码方面大约快四倍。"
+ },
+ {
+  "seg": 214,
+  "start": 1300.59,
+  "end": 1304.772,
+  "speaker": "Unknown",
+  "en": "But then we have this hyperscaling, so a 20-task plan takes the same amount of time as a three-task plan.",
+  "zh": "但是然后我们有这种超扩展，所以一个 20 任务的计划花费与一个 3 任务计划相同的时间。"
+ },
+ {
+  "seg": 215,
+  "start": 1306.388,
+  "end": 1308.749,
+  "speaker": "Unknown",
+  "en": "Okay, so now we have code, and we're going to execute it.",
+  "zh": "好的，所以我们现在有代码，我们将执行它。"
+ },
+ {
+  "seg": 216,
+  "start": 1310.669,
+  "end": 1314.83,
+  "speaker": "Unknown",
+  "en": "You would want to just execute the code naively, but sadly, LLMs today aren't perfect on our tasks.",
+  "zh": "你会想要只是天真地执行代码，但遗憾的是，今天的 LLM 在我们的任务上并不完美。"
+ },
+ {
+  "seg": 217,
+  "start": 1314.89,
+  "end": 1316.57,
+  "speaker": "Unknown",
+  "en": "They don't normally one-shot it.",
+  "zh": "它们通常不会一次搞定。"
+ },
+ {
+  "seg": 218,
+  "start": 1317.51,
+  "end": 1328.973,
+  "speaker": "Unknown",
+  "en": "Instead, what we do is we take the task that came in from the plan, and then we have code that was generated from that task, and then we're going to run the code, compare it to the task, see if it's correct, and if it's not, then we'll edit the code and keep going until we're complete.",
+  "zh": "相反，我们要做的是我们采用来自计划的任务，然后我们有从该任务生成的代码，然后我们要运行代码，将其与任务进行比较，看它是否正确，如果不正确，那么我们将编辑代码并继续直到完成。"
+ },
+ {
+  "seg": 219,
+  "start": 1331.019,
+  "end": 1334.8,
+  "speaker": "Unknown",
+  "en": "The first thing we do on the code is we do static analysis and then figure out the DAG.",
+  "zh": "我们在代码上做的第一件事是我们做静态分析，然后弄清楚 DAG。"
+ },
+ {
+  "seg": 220,
+  "start": 1335.58,
+  "end": 1338.021,
+  "speaker": "Unknown",
+  "en": "And we're going to apply our validation agents in parallel.",
+  "zh": "我们将并行应用我们的验证智能体。"
+ },
+ {
+  "seg": 221,
+  "start": 1338.141,
+  "end": 1341.502,
+  "speaker": "Unknown",
+  "en": "So here, there's two tasks that are going to be validated at the same time.",
+  "zh": "所以在这里，有两个任务将同时被验证。"
+ },
+ {
+  "seg": 222,
+  "start": 1342.322,
+  "end": 1344.703,
+  "speaker": "Unknown",
+  "en": "So a five-task plan comes down to three layers.",
+  "zh": "所以一个五任务计划归结为三层。"
+ },
+ {
+  "seg": 223,
+  "start": 1345.263,
+  "end": 1347.824,
+  "speaker": "Unknown",
+  "en": "And then a 20-task plan might be four or five layers of validation.",
+  "zh": "而一个 20 任务计划可能是四或五层验证。"
+ },
+ {
+  "seg": 224,
+  "start": 1348.844,
+  "end": 1355.109,
+  "speaker": "Unknown",
+  "en": "And then the main point I want you to take away from this part of the slides is that we enforce correctness in the architecture.",
+  "zh": "我想让你从这一部分幻灯片中带走的主要观点是，我们在架构中强制执行正确性。"
+ },
+ {
+  "seg": 225,
+  "start": 1355.169,
+  "end": 1357.211,
+  "speaker": "Unknown",
+  "en": "So again, no agent orchestration.",
+  "zh": "所以同样，没有智能体编排。"
+ },
+ {
+  "seg": 226,
+  "start": 1357.711,
+  "end": 1362.054,
+  "speaker": "Unknown",
+  "en": "This is regular Python code, and so the handles are really quick, and the agents cannot forget to validate.",
+  "zh": "这是常规 Python 代码，所以句柄真的很快，而且智能体不能忘记验证。"
+ },
+ {
+  "seg": 227,
+  "start": 1362.495,
+  "end": 1363.475,
+  "speaker": "Unknown",
+  "en": "They are forced to validate.",
+  "zh": "它们被强制验证。"
+ },
+ {
+  "seg": 228,
+  "start": 1364.196,
+  "end": 1373.223,
+  "speaker": "Unknown",
+  "en": "The result is that when we run our test suite, anyone planned for our test suite, 95% of the time, the code that comes out is exactly the same for two different agents.",
+  "zh": "结果是，当我们运行我们的测试套件时，任何为我们的测试套件做的计划，95% 的时间里，产生的代码对于两个不同的智能体是完全相同的。"
+ },
+ {
+  "seg": 229,
+  "start": 1373.964,
+  "end": 1376.906,
+  "speaker": "Unknown",
+  "en": "So it's like a deterministic coding agent is the idea.",
+  "zh": "所以这就像一个确定性编码智能体就是这个想法。"
+ },
+ {
+  "seg": 230,
+  "start": 1377.729,
+  "end": 1388.417,
+  "speaker": "Unknown",
+  "en": "And then because we have such a reproducible agent, the idea is that as we're scaling and hill-climbing and evaling, that we have something much more dependable than vibes-based or llm-as-judge evals.",
+  "zh": "而且因为我们有这样的可重现智能体，这个想法是，当我们扩展、爬山和评估时，我们要有一些比基于氛围或 LLM 作为评委的评估更可靠的东西。"
+ },
+ {
+  "seg": 231,
+  "start": 1390.399,
+  "end": 1394.202,
+  "speaker": "Unknown",
+  "en": "Cool, so there's one more topic I'm gonna touch on here, which is our execution layer.",
+  "zh": "酷，所以我将在这里涉及还有一个主题，这是我们的执行层。"
+ },
+ {
+  "seg": 232,
+  "start": 1395.315,
+  "end": 1397.816,
+  "speaker": "Unknown",
+  "en": "Normally, coding agents, they invoke their code themselves.",
+  "zh": "通常，编码智能体，它们自己调用它们的代码。"
+ },
+ {
+  "seg": 233,
+  "start": 1397.836,
+  "end": 1400.017,
+  "speaker": "Unknown",
+  "en": "So they generate code and then they call it themselves via terminal.",
+  "zh": "所以它们生成代码，然后它们自己通过终端调用它。"
+ },
+ {
+  "seg": 234,
+  "start": 1400.717,
+  "end": 1401.737,
+  "speaker": "Unknown",
+  "en": "There's a couple of trade-offs here.",
+  "zh": "这里有一些权衡。"
+ },
+ {
+  "seg": 235,
+  "start": 1402.137,
+  "end": 1407.759,
+  "speaker": "Unknown",
+  "en": "That's high latency with the tool calls, but I'm sure you've all experienced, like, they'll sometimes get lost along the way.",
+  "zh": "这是工具调用的高延迟，但我相信你们都经历过，比如，它们有时会在路上迷路。"
+ },
+ {
+  "seg": 236,
+  "start": 1408.259,
+  "end": 1412.22,
+  "speaker": "Unknown",
+  "en": "And so instead, we run the code for the LLMs.",
+  "zh": "所以相反，我们为 LLM 运行代码。"
+ },
+ {
+  "seg": 237,
+  "start": 1412.48,
+  "end": 1420.483,
+  "speaker": "Unknown",
+  "en": "We do a classical static analysis pipeline where we inject caching annotations into the Python code to avoid re-execution and run it through a custom framework.",
+  "zh": "我们做一个经典的静态分析管道，我们在其中将缓存注释注入 Python 代码以避免重新执行，并通过自定义框架运行它。"
+ },
+ {
+  "seg": 238,
+  "start": 1422.297,
+  "end": 1428.041,
+  "speaker": "Unknown",
+  "en": "So this is like an example benchmark that we have for Claude invoking its own code versus Pocket Analyst.",
+  "zh": "所以这就像我们要为 Claude 调用自己的代码与 Pocket Analyst 的一个示例基准。"
+ },
+ {
+  "seg": 239,
+  "start": 1429.061,
+  "end": 1433.364,
+  "speaker": "Unknown",
+  "en": "And you can see we're again faster because we're never double loading data or double executing intermediates.",
+  "zh": "你可以看到我们再次更快，因为我们从不双重加载数据或双重执行中间产物。"
+ },
+ {
+  "seg": 240,
+  "start": 1434.004,
+  "end": 1437.146,
+  "speaker": "Unknown",
+  "en": "But the actual win is not on the first time you run the code, it's the second time.",
+  "zh": "但实际的胜利不是在你第一次运行代码时，而是在第二次。"
+ },
+ {
+  "seg": 241,
+  "start": 1438.392,
+  "end": 1439.312,
+  "speaker": "Unknown",
+  "en": "There we go.",
+  "zh": "我们走了。"
+ },
+ {
+  "seg": 242,
+  "start": 1439.412,
+  "end": 1444.433,
+  "speaker": "Unknown",
+  "en": "So this is a benchmark where we take the last chart in a plan and then just change the name.",
+  "zh": "所以这是一个基准，我们要获取计划中的最后一个图表，然后只是更改名称。"
+ },
+ {
+  "seg": 243,
+  "start": 1444.993,
+  "end": 1447.214,
+  "speaker": "Unknown",
+  "en": "And so Claude Code is going to go rerun all the code.",
+  "zh": "所以 Claude Code 将去重新运行所有代码。"
+ },
+ {
+  "seg": 244,
+  "start": 1447.294,
+  "end": 1449.714,
+  "speaker": "Unknown",
+  "en": "So it's basically the same amount of time, though it is faster editing the code.",
+  "zh": "所以基本上是相同的时间，虽然它更快地编辑代码。"
+ },
+ {
+  "seg": 245,
+  "start": 1450.074,
+  "end": 1453.655,
+  "speaker": "Unknown",
+  "en": "But Pocket Analyst basically has instantaneous code execution for the second round.",
+  "zh": "但 Pocket Analyst 基本上对于第二轮具有即时代码执行。"
+ },
+ {
+  "seg": 246,
+  "start": 1453.835,
+  "end": 1463.717,
+  "speaker": "Unknown",
+  "en": "And this means that when you work on the product as an investor, you can make small tweaks to your investment analysis without having to do that overhead of a regular iteration.",
+  "zh": "这意味着当你在产品上作为投资者工作时，你可以对你的投资分析进行微调，而不必做常规迭代的那些开销。"
+ },
+ {
+  "seg": 247,
+  "start": 1465.392,
+  "end": 1466.472,
+  "speaker": "Unknown",
+  "en": "Okay, so we're out of time.",
+  "zh": "好的，所以我们没时间了。"
+ },
+ {
+  "seg": 248,
+  "start": 1466.793,
+  "end": 1469.193,
+  "speaker": "Unknown",
+  "en": "We had many learnings, but unfortunately we can only stick to these.",
+  "zh": "我们有很多心得，但不幸的是我们只能坚持这些。"
+ },
+ {
+  "seg": 249,
+  "start": 1469.834,
+  "end": 1473.575,
+  "speaker": "Unknown",
+  "en": "The first takeaway, I think, is that we really believe in specializing our agents.",
+  "zh": "第一个收获，我认为，是我们真的相信专业化我们的智能体。"
+ },
+ {
+  "seg": 250,
+  "start": 1473.835,
+  "end": 1476.616,
+  "speaker": "Unknown",
+  "en": "So we don't really believe in generic powerful agents.",
+  "zh": "所以我们并不真正相信通用的强大智能体。"
+ },
+ {
+  "seg": 251,
+  "start": 1477.297,
+  "end": 1478.257,
+  "speaker": "Unknown",
+  "en": "They make really cool demos.",
+  "zh": "它们能做出非常酷的演示。"
+ },
+ {
+  "seg": 252,
+  "start": 1478.737,
+  "end": 1479.838,
+  "speaker": "Unknown",
+  "en": "I'm sure many of us have given them.",
+  "zh": "我确信我们很多人都做过。"
+ },
+ {
+  "seg": 253,
+  "start": 1480.798,
+  "end": 1483.759,
+  "speaker": "Unknown",
+  "en": "But it's really hard to make that a daily workflow that you can depend on.",
+  "zh": "但要把它变成你可以依赖的日常工作流，真的很难。"
+ },
+ {
+  "seg": 254,
+  "start": 1484.379,
+  "end": 1488.241,
+  "speaker": "Unknown",
+  "en": "Instead, we take often very narrow workflows and then benchmark them very heavily.",
+  "zh": "相反，我们经常处理非常狭窄的工作流，然后对它们进行大量的基准测试。"
+ },
+ {
+  "seg": 255,
+  "start": 1488.741,
+  "end": 1490.322,
+  "speaker": "Unknown",
+  "en": "And then we hill climb those benchmarks.",
+  "zh": "然后我们以此提升这些基准测试的指标。"
+ },
+ {
+  "seg": 256,
+  "start": 1492.122,
+  "end": 1495.185,
+  "speaker": "Unknown",
+  "en": "And then you can compound the agents after the fact, but it's harder to go back the other way.",
+  "zh": "然后你可以在事后将智能体组合起来，但反过来要回去就难了。"
+ },
+ {
+  "seg": 257,
+  "start": 1496.326,
+  "end": 1505.555,
+  "speaker": "Unknown",
+  "en": "And this last thing is kind of like a thought exercise, and hopefully it's exciting that someone might take away, is thinking of agentic coding as a compiler problem, not as an agentic problem.",
+  "zh": "这最后一点有点像是一种思维练习，希望这让人感到兴奋，有些人可能会从中带走一些东西，就是把智能体编码看作是一个编译器问题，而不是一个智能体问题。"
+ },
+ {
+  "seg": 258,
+  "start": 1506.216,
+  "end": 1512.782,
+  "speaker": "Unknown",
+  "en": "Compilers have already been generating code for decades, and they have a ton of techniques for how you can generate code more reliably, correctly, and deterministically.",
+  "zh": "编译器已经生成代码几十年了，它们有大量的技术来让你如何更可靠、正确和确定性地生成代码。"
+ },
+ {
+  "seg": 259,
+  "start": 1513.523,
+  "end": 1515.064,
+  "speaker": "Unknown",
+  "en": "And so, yeah, we'd love to chat about this.",
+  "zh": "所以，是的，我们很乐意聊聊这个。"
+ },
+ {
+  "seg": 260,
+  "start": 1516.995,
+  "end": 1519.296,
+  "speaker": "Unknown",
+  "en": "With that, I'd like to shout out our direct team.",
+  "zh": "话虽如此，我想为我们的直属团队喊话。"
+ },
+ {
+  "seg": 261,
+  "start": 1519.316,
+  "end": 1521.616,
+  "speaker": "Unknown",
+  "en": "There were many others, but this is the direct team.",
+  "zh": "还有很多人，但这是直属团队。"
+ },
+ {
+  "seg": 262,
+  "start": 1523.257,
+  "end": 1523.597,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 263,
+  "start": 1527.358,
+  "end": 1529.498,
+  "speaker": "Unknown",
+  "en": "We're going to be outside at the AMA.",
+  "zh": "我们会在外面的 AMA 现场。"
+ },
+ {
+  "seg": 264,
+  "start": 1529.558,
+  "end": 1534.139,
+  "speaker": "Unknown",
+  "en": "We would really love to chat and talk about it and see if you're excited by the problems too.",
+  "zh": "我们真的很乐意交流讨论，看看你们是否也对这些问题感到兴奋。"
+ },
+ {
+  "seg": 265,
+  "start": 1534.539,
+  "end": 1535.98,
+  "speaker": "Unknown",
+  "en": "And then see you all around tonight.",
+  "zh": "今晚大家再会。"
+ },
+ {
+  "seg": 266,
+  "start": 1536.3,
+  "end": 1536.82,
+  "speaker": "Unknown",
+  "en": "Thank you so much.",
+  "zh": "非常感谢。"
+ }
+]

@@ -173,7 +173,7 @@ unlisted: true
 
 [[Tesla]] · [[Waymo]] · [[智能体]] · [[ChatGPT]] · [[Lenny]] · [[Jensen Huang]] · [[Matt Turk]] · [[Qasar Younis]] · [[Jerry]] · [[Sanjit Biswas]]
 
-<script type="application/json" class="pd-epn">{"Tesla":5,"Waymo":7,"智能体":55,"ChatGPT":11,"Lenny":33,"Jensen Huang":2,"Matt Turk":1,"Qasar Younis":1,"Jerry":1,"Sanjit Biswas":1}</script>
+<script type="application/json" class="pd-epn">{"Tesla":5,"Waymo":7,"智能体":56,"ChatGPT":11,"Lenny":33,"Jensen Huang":2,"Matt Turk":1,"Qasar Younis":1,"Jerry":1,"Sanjit Biswas":1}</script>
 
 <script>
 (function(){

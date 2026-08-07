@@ -1,0 +1,183 @@
+{
+  "title_zh": "桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟",
+  "tldr": "桥水公布 PAT 系统:靠编译器思路与确定性智能体,把数天分析压到几分钟。",
+  "digest_md": "一家管理着千亿资金的50年老牌对冲基金,不靠终端命令行,而是把智能体编码当成「编译器」来做——把一份详细到极点的自然语言研究计划,像编译器处理代码那样,确定性地「编译」成 Python 脚本,还要保证两次跑出来的结果分毫不差。这就是桥水向数百位分析师推出的内部 AI 助手 PAT。\n\n在这场技术分享中,桥水应用 AI 团队的三位成员——团队负责人 Brendan、投资负责人 Michael 和技术负责人 Santi——完整拆解了 PAT。我们会听到三块内容:第一,这家沉淀了 50 年投资规则的对冲基金为什么要建一个 AI 分析师;第二,PAT 具体怎么完成从查数据、出计划到并行生成代码并自我纠错的全流程;第三,他们最得意的架构洞察——为什么要把 AI 写代码看作编译器问题,而不是智能体问题。\n\n先交代一下这工具的土壤。桥水的方法论核心是:每一笔交易,必须写下确切的因果逻辑规则 [01:30]。如果逻辑错了,别的投资者可以看着你写下的规则帮你纠正。几十年来,这些规则被划掉、重写、最终沉淀成既可机读又可人读的专家系统 [01:52]。这意味着,当 AI 时代到来时,他们根本不需要回头去为智能体整理语料——50 年的数据和上下文已经躺在那儿了 [02:16]。具体到工具 PAT(Pocket Analyst,口袋分析师),定位非常克制:它不负责交易,只做深度的探索性研究 [04:36]。\n\n了解了它长在什么土壤上,接下来看它到底怎么干活。一份高质量的分析,一切从查数据开始。除了全网搜索,PAT 还能在内部那个每天涌入数千篇新文档、包含数百万份研报和纪要的非结构化数据库里翻找 [10:44]。查结构化时间序列数据(比如几十年的股价)时,团队发现一个关键细节:只靠 RAG(检索增强生成,一种让模型先查资料再回答的技术)和重排序,准确率只有 50%;但如果像人类研究员那样,顺便检查数据的频率、货币,以及数值是否合理 [11:46],准确率能直接拉到 90%。\n\n数据备齐,接下来才是最关键的一步。PAT 的核心信条是:计划即分析 [12:15]。它不会急匆匆去写代码,而是先跟投资者反复对齐——逼着平时不爱做规划的投资者,把模糊的研究意图,掰碎成一份详尽的计划。这份计划会精确列出需要产生哪些数据帧(data frame,数据表)、每个表的结构,以及这些表之间怎么连接 [12:49]。定计划虽然耗时,但这是团队主动付出的成本,为的是换取执行阶段的绝对确定性。\n\n> 【背景】「数据帧」(data frame)是 Python 数据分析中常用的二维表格结构,类似 Excel 表;「子智能体」(subagent)指在主程序调度下专门负责单一任务的小型 AI。\n\n把规划讲透了,难点才刚刚开始:怎么让 AI 照着这份计划写出不出错的代码?这正是技术负责人 Santi 要解决的问题。他的核心主张反直觉且大胆:别把 AI 写代码当成一个充满随机性的智能体问题,要把它当成确定性的编译器问题 [25:06]。\n\nSanti 指出,代码智能体非常善变、不可预测,经常犯错,倒霉起来还会发疯删数据 [17:09]。在对冲基金动辄交易几十亿美元的背景下,绝不能指望 vibe coding(凭感觉编程)来托底 [17:25]。基于编译器理论(要求绝对确定性)的灵感,他们彻底重构了架构。\n\n首先是物理隔离。聊天智能体和写代码的智能体被完全拆开 [18:42]。理由很简单:投资者不是程序员,聊天界面必须纯粹谈投资。结果是,「写代码」在 PAT 里成了纯粹的底层实现细节,用户根本看不到代码 [18:57]。这不仅让聊天体验更纯粹,也让两个智能体的上下文互不污染,各自专精 [19:00]。\n\n> 【背景】「确定性」(deterministic)指同样的输入永远得出完全相同的输出,不允许有任何随机性或偏差。\n\n拆分了智能体,再看那套「编译器」怎么运作。PAT 拿到那份极其详尽的计划后,不是一步步串行去写代码,而是用子智能体对全量任务进行并行的 LLM(大语言模型)生成 [21:19]。因为计划足够细,排在最后的可视化任务,在中间步骤的代码还没写出来时,就已经知道该调用什么数据了。这使得一个 20 个任务的大计划,跟一个 3 个任务的小计划,花的时间几乎一样 [21:46]。比传统串行模式快了约 4 倍。\n\n更关键的纠错环节同样借鉴了编译器思路。代码写出来不是直接运行,而是先做静态分析,构建 DAG(有向无环图,一种表示任务依赖关系的结构),然后并行投入多个验证智能体 [22:15]。Santi 反复强调:这里没有任何「智能体编排」,全靠硬邦邦的常规 Python 代码控制流程——这意味着智能体「不可能忘记验证」,它们是被强制要求验证的 [22:42]。这套硬核机制换来了惊人的稳定性:面对测试套件,95% 的情况下,两个不同的智能体写出的代码,运行结果完全一样 [22:53]。\n\n架构做到了确定性,最后一步的代码执行也迎来了额外红利。通常代码智能体是自己通过终端去调用自己的代码,不仅延迟高,还容易半路迷路 [23:22]。Santi 的团队换了个做法:他们搞了一套经典的静态分析管道,把缓存注释自动注入到 Python 代码里 [23:36]。好处在哪?投资者微调了某个图表的变量后,PAT 几乎瞬间就能出结果,因为它绝对不会去重复执行那些未改动的中间数据加载步骤 [24:10]。\n\n## 本集带走\n最后收个尾,这一集最值得带走的是他们对 AI 智能体工程的三个判断。第一,你得敢于把大而全的「超级智能体」拆掉。酷炫的万能智能体只能拿来做演示,真要进日常工作流,就得把它拆成极度狭窄的垂直任务,往死里做基准测试,然后再把它们组合起来——这才是可靠的工程化路径。第二,跟用户对齐时,「计划」本身就是最核心的分析。与其让模型直接给答案,不如逼着投资者把模糊想法拆成详尽到极致的计划,把成本前置到规划阶段。第三,也是最反直觉的一点:要想让 AI 写代码不出错,得把它当成编译器问题,而不是智能体问题。抛弃充满随机性的自由探索,用静态分析、并行生成、强制验证这些传统计算机科学里的老办法,反而能在对冲基金这种对确定性要求极高的地方,把 AI 真正落地成不可替代的生产力。",
+  "quotes": [
+    {
+      "en": "So embedding this sort of reasoning into our search agent is actually something that got us up from roughly like 50% accuracy all the way to 90.",
+      "zh": "因此,将这种推理嵌入到我们的搜索智能体中,实际上让我们能够将准确率从大约 50% 提高到了 90。",
+      "timestamp": "11:53",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "During Pat's development, we came to the view that the plan really is the analysis.",
+      "zh": "在 Pat 的开发过程中,我们形成了这样的观点:计划即分析。",
+      "timestamp": "12:10",
+      "speaker": "SPEAKER_01"
+    },
+    {
+      "en": "Coding agents are really fickle, unpredictable, they often make mistakes, and then when you're really unlucky, they'll go crazy and try and nuke your data and all the rest of it.",
+      "zh": "代码智能体非常善变、不可预测,它们经常犯错,然后当你真的很倒霉时,它们会发疯并试图销毁你的数据以及其余的一切。",
+      "timestamp": "17:00",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "At a hedge fund, we're trying to trade billions of dollars, and so we can't have just vibe code be the underpinning of how these analysis go.",
+      "zh": "在对冲基金,我们要试图交易数十亿美元,所以我们不能仅仅让 vibe coding 成为这些分析的基石。",
+      "timestamp": "17:16",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "And the result is that we have a product where coding is a pure implementation detail.",
+      "zh": "结果是我们拥有一个产品,其中编码是一个纯粹的实现细节。",
+      "timestamp": "18:51",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "And other happy accidents are that you get unpolluted context, so each agent becomes specialized in its job and naturally improves.",
+      "zh": "另一个幸运的意外是你获得了未受污染的上下文,所以每个智能体都专精于其工作并自然改进。",
+      "timestamp": "19:00",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "Your user is better at writing context than you are, most likely.",
+      "zh": "你的用户很可能比你更擅长编写上下文。",
+      "timestamp": "19:36",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "thinking of agentic coding as a compiler problem, not as an agentic problem.",
+      "zh": "把智能体编码看作是一个编译器问题,而不是一个智能体问题。",
+      "timestamp": "25:01",
+      "speaker": "SPEAKER_02"
+    },
+    {
+      "en": "So we don't really believe in generic powerful agents.",
+      "zh": "所以我们并不真正相信通用的强大智能体。",
+      "timestamp": "24:33",
+      "speaker": "SPEAKER_02"
+    }
+  ],
+  "quotes_candidates": [
+    {
+      "en": "Every time you wanted to make a trade, write down exactly the rules for why you think that trade makes sense.",
+      "zh": "每次你想进行交易时,都要准确写下你认为该交易有道理的规则。",
+      "timestamp": "01:24",
+      "speaker": "Brendan"
+    },
+    {
+      "en": "And we've codified them into an expert system that's both machine readable and human readable.",
+      "zh": "我们将它们编纂成了一个既可机器读取也可人工读取的专家系统。",
+      "timestamp": "02:08",
+      "speaker": "Brendan"
+    },
+    {
+      "en": "We didn't have to go back and write down everything for agents.",
+      "zh": "我们不必回过头来为智能体写下所有内容。",
+      "timestamp": "02:16",
+      "speaker": "Brendan"
+    },
+    {
+      "en": "It's actually been deployed internally several months ago, and we now have hundreds of investors using it every single day, which is leading to a pretty incredible flywheel of improvement",
+      "zh": "它实际上在几个月前就在内部部署了,我们现在有数百位投资者每天都在使用它,这导致了一个相当令人难以置信的改进飞轮",
+      "timestamp": "06:26",
+      "speaker": "Brendan"
+    },
+    {
+      "en": "the ability to move incredibly flexibly and quickly while being able to draw upon the resources of the broader firm",
+      "zh": "能够非常灵活和快速地移动,同时能够利用更广泛公司的资源",
+      "timestamp": "07:16",
+      "speaker": "Brendan"
+    },
+    {
+      "en": "unlike a harness like Claude Code, where everyone is interfacing with the same system prompt and the same tools, each person at Bridgewater has a unique version of PAT tailored for what they can and cannot see.",
+      "zh": "不像像 Claude Code 这样的马具,每个人都在使用相同的系统提示和相同的工具交互,Bridgewater 的每个人都有一个独特的 PAT 版本,量身定制为他们能看什么和不能看什么。",
+      "timestamp": "10:04",
+      "speaker": "Michael"
+    },
+    {
+      "en": "So embedding this sort of reasoning into our search agent is actually something that got us up from roughly like 50% accuracy all the way to 90.",
+      "zh": "因此,将这种推理嵌入到我们的搜索智能体中,实际上让我们能够将准确率从大约 50% 提高到了 90。",
+      "timestamp": "11:53",
+      "speaker": "Michael"
+    },
+    {
+      "en": "During Pat's development, we came to the view that the plan really is the analysis.",
+      "zh": "在 Pat 的开发过程中,我们形成了这样的观点:计划即分析。",
+      "timestamp": "12:10",
+      "speaker": "Michael"
+    },
+    {
+      "en": "any output from a PAT analysis can serve as an input to a subsequent one.",
+      "zh": "PAT 分析的任何输出都可以作为后续分析的输入。",
+      "timestamp": "14:15",
+      "speaker": "Michael"
+    },
+    {
+      "en": "Coding agents are really fickle, unpredictable, they often make mistakes, and then when you're really unlucky, they'll go crazy and try and nuke your data and all the rest of it.",
+      "zh": "代码智能体非常善变、不可预测,它们经常犯错,然后当你真的很倒霉时,它们会发疯并试图销毁你的数据以及其余的一切。",
+      "timestamp": "17:00",
+      "speaker": "Santi"
+    },
+    {
+      "en": "At a hedge fund, we're trying to trade billions of dollars, and so we can't have just vibe code be the underpinning of how these analysis go.",
+      "zh": "在对冲基金,我们要试图交易数十亿美元,所以我们不能仅仅让 vibe coding 成为这些分析的基石。",
+      "timestamp": "17:16",
+      "speaker": "Santi"
+    },
+    {
+      "en": "And the result is that we have a product where coding is a pure implementation detail.",
+      "zh": "结果是我们拥有一个产品,其中编码是一个纯粹的实现细节。",
+      "timestamp": "18:51",
+      "speaker": "Santi"
+    },
+    {
+      "en": "And other happy accidents are that you get unpolluted context, so each agent becomes specialized in its job and naturally improves.",
+      "zh": "另一个幸运的意外是你获得了未受污染的上下文,所以每个智能体都专精于其工作并自然改进。",
+      "timestamp": "19:00",
+      "speaker": "Santi"
+    },
+    {
+      "en": "Your user is better at writing context than you are, most likely.",
+      "zh": "你的用户很可能比你更擅长编写上下文。",
+      "timestamp": "19:36",
+      "speaker": "Santi"
+    },
+    {
+      "en": "We expect every task to deterministically compile via LLM to a piece of code.",
+      "zh": "我们期望每个任务通过 LLM 确定性地编译为一串代码。",
+      "timestamp": "20:45",
+      "speaker": "Santi"
+    },
+    {
+      "en": "we're about four times faster for generating code.",
+      "zh": "我们在生成代码方面大约快四倍。",
+      "timestamp": "21:31",
+      "speaker": "Santi"
+    },
+    {
+      "en": "And the main point I want you to take away from this part of the slides is that we enforce correctness in the architecture.",
+      "zh": "我想让你从这一部分幻灯片中带走的主要观点是,我们在架构中强制执行正确性。",
+      "timestamp": "22:28",
+      "speaker": "Santi"
+    },
+    {
+      "en": "95% of the time, the code that comes out is exactly the same for two different agents.",
+      "zh": "95% 的时间里,产生的代码对于两个不同的智能体是完全相同的。",
+      "timestamp": "22:44",
+      "speaker": "Santi"
+    },
+    {
+      "en": "thinking of agentic coding as a compiler problem, not as an agentic problem.",
+      "zh": "把智能体编码看作是一个编译器问题,而不是一个智能体问题。",
+      "timestamp": "24:56",
+      "speaker": "Santi"
+    },
+    {
+      "en": "So we don't really believe in generic powerful agents.",
+      "zh": "所以我们并不真正相信通用的强大智能体。",
+      "timestamp": "24:33",
+      "speaker": "Santi"
+    }
+  ]
+}

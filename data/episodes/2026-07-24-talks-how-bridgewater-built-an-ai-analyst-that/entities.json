@@ -1,0 +1,1006 @@
+{
+  "episode_id": "2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that",
+  "podcast": "精选演讲",
+  "date": "2026-07-24",
+  "tags": [
+    "智能体架构",
+    "AI 编译器",
+    "智能体专业化",
+    "并行代码生成",
+    "探索性研究"
+  ],
+  "categories": [
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "brendan-mcmanus",
+      "type": "person",
+      "role": "host",
+      "name": "Brendan McManus",
+      "file": "Brendan McManus",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            8.171,
+            14.238
+          ],
+          "quote": "My name is Brendan McManus, the team lead of the applied AI team at Bridgewater Associates, a systematic macro hedge fund.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "bridgewater-associates",
+      "type": "company",
+      "role": "company",
+      "name": "Bridgewater Associates",
+      "file": "Bridgewater Associates",
+      "primary": true,
+      "how_described": "本集把它说成：一家拥有 50 年历史、管理千亿资金的系统化宏观对冲基金，沉淀了大量既可机读又可人读的投资规则专家系统，并内部孵化应用 AI 团队构建了智能体工具 PAT。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            8.171,
+            14.238
+          ],
+          "quote": "My name is Brendan McManus, the team lead of the applied AI team at Bridgewater Associates, a systematic macro hedge fund.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "pat",
+      "type": "company",
+      "role": "company",
+      "name": "PAT",
+      "file": "PAT",
+      "primary": true,
+      "how_described": "本集把它说成：桥水内部推出的 AI 分析师助手（Pocket Analyst，口袋分析师），定位为做深度探索性研究而非执行交易，已部署给数百位投资者使用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            27.792,
+            38.839
+          ],
+          "quote": "I'm here today with my colleagues Michael Rann and Santi Waite, our investor lead and technical lead of this project respectively, to talk to you about a great tool that we built internally called PAT, the Pocket Analyst.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 41,
+          "t": [
+            269.737,
+            272.359
+          ],
+          "quote": "We call this tool that we built PAT, the pocket analyst tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            272.78,
+            275.902
+          ],
+          "quote": "And just to set expectations, PAT is not about how we trade.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 45,
+          "t": [
+            286.861,
+            289.344
+          ],
+          "quote": "So we built this tool called PAT, the Pocket Analyst tool.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            292.288,
+            299.237
+          ],
+          "quote": "We had to enable PAT to be able to do all of the things that our human investors are doing as they're performing investigatory or analytical work.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 49,
+          "t": [
+            301.773,
+            315.921
+          ],
+          "quote": "Pat had to be able to search across and read all of the different data that we have internally, from structured time series data, for example, stock prices going back decades, or unstructured data, for example, broker-dealer research pieces that we subscribe to or internal memos that we produce.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            316.341,
+            318.383
+          ],
+          "quote": "Pat has to be able to search across and read all of it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 51,
+          "t": [
+            319.223,
+            330.308
+          ],
+          "quote": "Pat also has to be able to use all of the different tools that our human analysts have access to, all of the proprietary tools that we've built out for visualization, for diagnostics, or for evaluating the quality of the indicator ideas that we've built out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 52,
+          "t": [
+            331.597,
+            341.281
+          ],
+          "quote": "In addition to this, and I think this is where things might get a little bit more interesting for a technical audience, many of the analyses that Pat is running would take a human analyst many hours at a time to run.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            342.001,
+            356.607
+          ],
+          "quote": "And this means that the analyses are quite complex, which means that Pat's analyses have to be completely diagnosable, not just for humans, but also for agents running in the background, reading through the traces, understanding and making sure that every calculation is correct.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 54,
+          "t": [
+            357.405,
+            365.751
+          ],
+          "quote": "On top of this, and I think this is really where building upon all of the things that we've written down over the past 50 years starts to pay off, is that PAT knows all of our context.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 57,
+          "t": [
+            375.838,
+            377.479
+          ],
+          "quote": "And lastly, PAT has to learn.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            384.683,
+            385.984
+          ],
+          "quote": "PAT's not a prototype today.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 60,
+          "t": [
+            386.224,
+            413.935
+          ],
+          "quote": "It's actually been deployed internally several months ago, and we now have hundreds of investors using it every single day, which is leading to a pretty incredible flywheel of improvement where, as investors are using PAT for real research, we have agents continuously running in the background, scanning through these interactions, figuring out where PAT went wrong, developing human-audited benchmarks, which then results in changes to context and also to the harnesses that we've built for PAT, which results in PAT improving not just for one,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 64,
+          "t": [
+            429.945,
+            436.208
+          ],
+          "quote": "The team that built out PAT was ultimately an internal applied AI startup that was incubated within the broader firm.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            473.74,
+            485.711
+          ],
+          "quote": "And speaking of expert users, we have hundreds of them internally, using all of our AI tools, not just PAT, which you're about to see, generating signal daily on how these things should be evolving and improving over time.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 83,
+          "t": [
+            539.68,
+            543.723
+          ],
+          "quote": "So behind me, you can see the PAT landing page, which has the prompt we'll be using for today's demo.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 84,
+          "t": [
+            544.343,
+            552.029
+          ],
+          "quote": "Where the gist of it is, we're asking PAT to look at how markets have responded to the recent conflict in the Middle East and to compare today's events to similar historical episodes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 85,
+          "t": [
+            552.529,
+            560.635
+          ],
+          "quote": "Then lastly, we ask PAT to put together some visualizations that highlight how similar and or dissimilar today is relative to previous oil supply shocks.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 86,
+          "t": [
+            561.195,
+            568.321
+          ],
+          "quote": "This is a real question we've been working on at Bridgewater over the past couple of months, and PAT has been a tool leveraged by investors to help expedite our research process.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 87,
+          "t": [
+            569.041,
+            575.63
+          ],
+          "quote": "But before we submit the prompt, I'd like to spend a moment talking about an interesting security problem that we ran into when designing Pat's Harness.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 88,
+          "t": [
+            577.233,
+            584.515
+          ],
+          "quote": "So our starting point was, for PAT to truly be helpful, it needs to be able to access all of the information that investors have access to when conducting research.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 90,
+          "t": [
+            589.276,
+            596.998
+          ],
+          "quote": "So for example, you may have one investor who has access to what our positions are across all markets today, and it's important for that person's PAT to also have this information.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 93,
+          "t": [
+            607.36,
+            614.125
+          ],
+          "quote": "With the same system prompt and the same tools, each person at Bridgewater has a unique version of PAT tailored for what they can and cannot see.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 94,
+          "t": [
+            615.005,
+            620.329
+          ],
+          "quote": "Now, practically speaking, this uniqueness is just a function of what context and what tools each person's PAT has.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 96,
+          "t": [
+            624.071,
+            633.097
+          ],
+          "quote": "And the first thing that takes place in this analysis is PAT searches the web in our vault of unstructured data to better understand what's happening in the world today and to contextualize it against history.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 97,
+          "t": [
+            634.298,
+            643.566
+          ],
+          "quote": "Now, web search itself is table stakes when it comes to these modern chat applications, but the real differentiator here is the breadth of unstructured content that we subscribe to that Pat is able to search over.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 100,
+          "t": [
+            657.899,
+            667.628
+          ],
+          "quote": "And this ties back to the point I was making on the previous slide, which is for PAT to really provide leverage, it has to access everything that its user has access to, such that it can try and emulate what its users actually do.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 101,
+          "t": [
+            669.238,
+            676.022
+          ],
+          "quote": "Now, once this context is gathered, the next thing that PAT does is it searches our time series database for the data required for the analysis.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 108,
+          "t": [
+            721.855,
+            729.822
+          ],
+          "quote": "Now, after Pat has the context and data at hand, it comes back to the user with clarifying questions and potentially ideas for additional angles to explore.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 109,
+          "t": [
+            730.723,
+            734.367
+          ],
+          "quote": "During Pat's development, we came to the view that the plan really is the analysis.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 114,
+          "t": [
+            758.206,
+            766.993
+          ],
+          "quote": "We taught Pat what makes a good research question versus a bad one, so this back and forth helps humans, who tend to underinvest in planning, flesh out what we consider to be a high-quality research plan.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 115,
+          "t": [
+            769.155,
+            785.31
+          ],
+          "quote": "Now, after the ambiguous points are all resolved, PAT enters its planning phase, where during the planning phase, the things it's doing are A, coming up with all of the data frames that will be produced in the analysis, coming up with the schemas of all of those data frames, and then most importantly, coming up with how all those data frames connect.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 124,
+          "t": [
+            848.833,
+            855.337
+          ],
+          "quote": "One, it shows that any output from a PAT analysis is indistinguishable from any of the human-uploaded series that we've been producing for many years.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 125,
+          "t": [
+            855.737,
+            860.62
+          ],
+          "quote": "And then more importantly, any output from a PAT analysis can serve as an input to a subsequent one.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 127,
+          "t": [
+            868.113,
+            874.697
+          ],
+          "quote": "Now after execution completes, just like you'd want your junior analysts to double check their work before coming back to you, we want Pat to do the same.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 128,
+          "t": [
+            874.937,
+            883.362
+          ],
+          "quote": "So at this point in the analysis, Pat will look at the data it's computed and the visualizations it's produced and make sure that the numbers seem sensible and the charts look clean.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 129,
+          "t": [
+            883.903,
+            892.668
+          ],
+          "quote": "If it sees something that looks a bit off, Pat will take a step back, diagnose the issue, then refine the analysis and make sure it's satisfied with its result before coming back to the user.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 131,
+          "t": [
+            901.972,
+            908.256
+          ],
+          "quote": "Pat is using the same in-house charting library and leveraging the same existing text deck that we've been developing internally for decades.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 135,
+          "t": [
+            926.623,
+            934.009
+          ],
+          "quote": "The first is the autonomous one that Brendan alluded to earlier, where we just have agents reviewing completed conversations, looking for ways in which Pat can get smarter.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 136,
+          "t": [
+            934.85,
+            944.818
+          ],
+          "quote": "And then the second one, and the one we'll be showing here, is the more explicit option, where a user can kick off this learning process within the context of an analysis if they think there is something to be learned from their interaction with Pat.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            956.369,
+            970.502
+          ],
+          "quote": "If they think that Pat sort of produced or suggested this set of visualizations from the jump, they can click the teach button, which will then spawn an agent to go through the conversation looking for things like behavioral mistakes, context gaps, or user steering that can be front run.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            988.082,
+            996.325
+          ],
+          "quote": "And then after confirming that by making this benchmark pass, we didn't cause the rest of our suite to fail, we get a Slack message with the pull request, including the changes the agent wants to make to Pat.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 146,
+          "t": [
+            996.766,
+            1003.868
+          ],
+          "quote": "And the thing this does is that the next time a human comes to Pat with a similar question, we expect them to get the better version of Pat right out of the box.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集把它说成：一个大家使用相同的系统提示和工具的马具（harness）；在基准测试中，PAT 的确定性架构在代码生成速度和二次执行延迟上均优于它。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 92,
+          "t": [
+            604.159,
+            607.04
+          ],
+          "quote": "So unlike a harness like Claude Code, where everyone is interfacing",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1259.513,
+            1264.017
+          ],
+          "quote": "The result is that our analysis plan isn't just like a to-do list like you might have in Claude Code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1291.384,
+            1299.709
+          ],
+          "quote": "And then when we compare this to Claude Code on our benchmark suite, you can see that in the mean, so this is for the same context and same plan, we're about four times faster for generating code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1444.993,
+            1447.214
+          ],
+          "quote": "And so Claude Code is going to go rerun all the code.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "langgraph",
+      "type": "company",
+      "role": "company",
+      "name": "LangGraph",
+      "file": "LangGraph",
+      "primary": true,
+      "how_described": "本集把它说成：用于实现 PAT 聊天智能体和底层代码逻辑的框架，主要利用其开箱即用的持久化支持、取消和继续等功能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 164,
+          "t": [
+            1088.714,
+            1090.376
+          ],
+          "quote": "The chat agent is implemented in LangGraph.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 197,
+          "t": [
+            1213.814,
+            1216.616
+          ],
+          "quote": "It's implemented with LangGraph, but there's no agentic orchestration.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成：执行研究、搜索或验证任务的离散 AI 系统；桥水主张把大而全的「通用超级智能体」拆解成极度狭窄专精的任务，通过重度基准测试和组合来实现可靠的工程化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 107,
+          "t": [
+            713.568,
+            719.87
+          ],
+          "quote": "So embedding this sort of reasoning into our search agent is actually something that got us up from roughly like 50% accuracy all the way to 90.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 121,
+          "t": [
+            828.316,
+            837.103
+          ],
+          "quote": "Once we finish generating the code, we just execute the Python functions with an agent overseeing this execution and stepping in if it sees things like runtime errors or nonsensical values.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 140,
+          "t": [
+            956.369,
+            970.502
+          ],
+          "quote": "If they think that Pat sort of produced or suggested this set of visualizations from the jump, they can click the teach button, which will then spawn an agent to go through the conversation looking for things like behavioral mistakes, context gaps, or user steering that can be front run.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 142,
+          "t": [
+            974.455,
+            979.657
+          ],
+          "quote": "And when they submit this, what happens is, first, an agent on the backend will create a benchmark that we expect to fail.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            988.082,
+            996.325
+          ],
+          "quote": "And then after confirming that by making this benchmark pass, we didn't cause the rest of our suite to fail, we get a Slack message with the pull request, including the changes the agent wants to make to Pat.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 152,
+          "t": [
+            1014.847,
+            1019.949
+          ],
+          "quote": "I'm sure many of you in the crowd are building coding agent products just like we are, and it's really hard to build one.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 159,
+          "t": [
+            1062.873,
+            1070.801
+          ],
+          "quote": "A compiler takes user code and compiles it down to something like JS, and then a coding agent takes a user prompt or plan and compiles it down to Python.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 163,
+          "t": [
+            1081.644,
+            1087.773
+          ],
+          "quote": "So the goal here is for the chat agent and the user to come to a common understanding of what they're trying to accomplish here.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 164,
+          "t": [
+            1088.714,
+            1090.376
+          ],
+          "quote": "The chat agent is implemented in LangGraph.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 168,
+          "t": [
+            1100.799,
+            1102.2
+          ],
+          "quote": "The chat agent has access to tool calls.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 171,
+          "t": [
+            1108.487,
+            1115.755
+          ],
+          "quote": "And then once the chat agent knows all the data that it needs for its analysis, it's going to make a plan and invoke a tool call to a sub-agent, which is our coding agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 178,
+          "t": [
+            1140.111,
+            1146.576
+          ],
+          "quote": "And other happy accidents are that you get unpolluted context, so each agent becomes specialized in its job and naturally improves.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 181,
+          "t": [
+            1156.457,
+            1160.6
+          ],
+          "quote": "So we teach the chat agent how to talk like a Bridgewater investor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 183,
+          "t": [
+            1163.163,
+            1167.487
+          ],
+          "quote": "And so the user and the agent both talk to each other like they're coworkers at Bridgewater.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 191,
+          "t": [
+            1186.734,
+            1194.039
+          ],
+          "quote": "We teach the chat agent not just context, which you end up with this nebulous context that is very high information but doesn't really feel like a workflow.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 192,
+          "t": [
+            1194.559,
+            1201.724
+          ],
+          "quote": "And so instead, we have step-by-step guides for the agent on how to handle certain types of analyses, and it feels much more like a product at that point.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 194,
+          "t": [
+            1204.527,
+            1208.01
+          ],
+          "quote": "So the rest of the talk is about my personal favorite part, which is the coding agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1209.05,
+            1211.492
+          ],
+          "quote": "This is a high-level architecture diagram of the coding agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 200,
+          "t": [
+            1220.719,
+            1223.762
+          ],
+          "quote": "We're going to start with the left, which is the analysis plan that the chat agent makes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 225,
+          "t": [
+            1355.169,
+            1357.211
+          ],
+          "quote": "So again, no agent orchestration.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1373.964,
+            1376.906
+          ],
+          "quote": "So it's like a deterministic coding agent is the idea.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 230,
+          "t": [
+            1377.729,
+            1388.417
+          ],
+          "quote": "And then because we have such a reproducible agent, the idea is that as we're scaling and hill-climbing and evaling, that we have something much more dependable than vibes-based or llm-as-judge evals.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "subagent",
+      "type": "concept",
+      "role": "concept",
+      "name": "子智能体 (subagent)",
+      "file": "子智能体",
+      "primary": true,
+      "how_described": "本集把它说成：主程序下调度的专门负责单一任务的小型 AI；PAT 用它对全量分析任务进行并行的代码生成，使得 20 个任务的大计划与 3 个任务的小计划耗时几乎相同。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 119,
+          "t": [
+            808.862,
+            817.149
+          ],
+          "quote": "And this works because each subagent knows what data frames it depends on, it knows the schemas of those data frames, and it also knows what the schema of the data frame it's producing should be.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "deterministic",
+      "type": "concept",
+      "role": "concept",
+      "name": "确定性 (deterministic)",
+      "file": "确定性",
+      "primary": true,
+      "how_described": "本集把它说成：核心架构基石，即同样的输入永远得出完全相同的输出，不允许随机性；测试中 95% 的情况两个不同智能体写出的代码运行结果完全一致。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            1045.043,
+            1056.79
+          ],
+          "quote": "My background is in compiler theory and programming language design, and compilers have a very similar footprint of requirements, which is they're fully deterministic, fully correct, and reliable.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1373.964,
+            1376.906
+          ],
+          "quote": "So it's like a deterministic coding agent is the idea.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "compiler-theory",
+      "type": "concept",
+      "role": "concept",
+      "name": "编译器理论 (compiler theory)",
+      "file": "编译器理论",
+      "primary": true,
+      "how_described": "本集把它说成：编码智能体的架构灵感来源；主张别把 AI 写代码当成充满随机性的智能体问题，而要当成确定性的编译器问题（即将计划像代码一样编译为 Python）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 156,
+          "t": [
+            1045.043,
+            1056.79
+          ],
+          "quote": "My background is in compiler theory and programming language design, and compilers have a very similar footprint of requirements, which is they're fully deterministic, fully correct, and reliable.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "static-analysis",
+      "type": "concept",
+      "role": "concept",
+      "name": "静态分析 (static analysis)",
+      "file": "静态分析",
+      "primary": true,
+      "how_described": "本集把它说成：代码智能体用来保证正确性和提速的「老办法」；通过静态分析构建有向无环图（DAG）进行并行强制验证，并自动注入缓存注释以避免重复执行中间数据加载。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 219,
+          "t": [
+            1331.019,
+            1334.8
+          ],
+          "quote": "The first thing we do on the code is we do static analysis and then figure out the DAG.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1412.48,
+            1420.483
+          ],
+          "quote": "We do a classical static analysis pipeline where we inject caching annotations into the Python code to avoid re-execution and run it through a custom framework.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "data-frame",
+      "type": "concept",
+      "role": "concept",
+      "name": "数据帧 (data frame)",
+      "file": "数据帧",
+      "primary": true,
+      "how_described": "本集把它说成：分析计划中被严格定义的核心要素；规划阶段会精确列出分析中需要产生哪些数据帧、每个表的结构模式以及它们之间怎么连接。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 118,
+          "t": [
+            801.435,
+            808.461
+          ],
+          "quote": "And given we have such a detailed plan, the thing we're able to do is generate the code for each data frame in our analysis in parallel using subagents.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 119,
+          "t": [
+            808.862,
+            817.149
+          ],
+          "quote": "And this works because each subagent knows what data frames it depends on, it knows the schemas of those data frames, and it also knows what the schema of the data frame it's producing should be.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1230.325,
+            1234.552
+          ],
+          "quote": "Each task maps approximately to one Python function that's going to calculate a data frame.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1236.979,
+            1245.107
+          ],
+          "quote": "So it gets a name, it has a description of what to calculate, and then structural and semantic information about the data frame that should come out.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "rag",
+      "type": "concept",
+      "role": "concept",
+      "name": "RAG",
+      "file": "RAG",
+      "primary": true,
+      "how_described": "本集把它说成：一种传统的搜索技术；指出只靠 RAG 和重排序，查结构化时间序列数据的准确率只有 50%，必须增加类人推理检查才能拉到 90%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 104,
+          "t": [
+            690.18,
+            700.168
+          ],
+          "quote": "Now, the search agents use kind of your traditional search techniques, like RAG, re-ranking, et cetera, but the thing we found to be a huge difference maker was layering on an element of human-like inspection.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "benchmark",
+      "type": "concept",
+      "role": "concept",
+      "name": "基准测试 (benchmark)",
+      "file": "基准测试",
+      "primary": true,
+      "how_described": "本集把它说成：让智能体变得可靠的必要手段；通过开发人类审核的基准（包括故意制造预期会失败的基准），不断迭代上下文以让智能体爬山式地改进。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 142,
+          "t": [
+            974.455,
+            979.657
+          ],
+          "quote": "And when they submit this, what happens is, first, an agent on the backend will create a benchmark that we expect to fail.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 144,
+          "t": [
+            982.859,
+            987.562
+          ],
+          "quote": "It will then iterate on our context repositories or the harness itself until that benchmark passes.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 145,
+          "t": [
+            988.082,
+            996.325
+          ],
+          "quote": "And then after confirming that by making this benchmark pass, we didn't cause the rest of our suite to fail, we get a Slack message with the pull request, including the changes the agent wants to make to Pat.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 213,
+          "t": [
+            1291.384,
+            1299.709
+          ],
+          "quote": "And then when we compare this to Claude Code on our benchmark suite, you can see that in the mean, so this is for the same context and same plan, we're about four times faster for generating code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 238,
+          "t": [
+            1422.297,
+            1428.041
+          ],
+          "quote": "So this is like an example benchmark that we have for Claude invoking its own code versus Pocket Analyst.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 242,
+          "t": [
+            1439.412,
+            1444.433
+          ],
+          "quote": "So this is a benchmark where we take the last chart in a plan and then just change the name.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1484.379,
+            1488.241
+          ],
+          "quote": "Instead, we take often very narrow workflows and then benchmark them very heavily.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

@@ -43,7 +43,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash":1,"Claude Code":14,"项目脚手架技能":1,"可行性闸门":1,"vibe coder":1,"builder PM":1,"Product Mind":1,"GitHub":7,"Notion":5,"Figma":5}</script>
+<script type="application/json" class="pd-epn">{"Aakash":1,"Claude Code":15,"项目脚手架技能":1,"可行性闸门":1,"vibe coder":1,"builder PM":1,"Product Mind":1,"GitHub":7,"Notion":5,"Figma":5}</script>
 
 <script>
 (function(){

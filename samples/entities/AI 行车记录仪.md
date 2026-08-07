@@ -169,7 +169,7 @@ unlisted: true
 
 [[Matt Turk]] · [[Sanjit Biswas]] · [[Samsara]] · [[物理 AI]] · [[护栏]] · [[生成式 AI]] · [[智能体]] · [[数据网络效应]] · [[Agents Studio]] · [[资产标签]]
 
-<script type="application/json" class="pd-epn">{"Matt Turk":1,"Sanjit Biswas":1,"Samsara":1,"物理 AI":3,"护栏":10,"生成式 AI":1,"智能体":55,"数据网络效应":1,"Agents Studio":1,"资产标签":1}</script>
+<script type="application/json" class="pd-epn">{"Matt Turk":1,"Sanjit Biswas":1,"Samsara":1,"物理 AI":3,"护栏":10,"生成式 AI":1,"智能体":56,"数据网络效应":1,"Agents Studio":1,"资产标签":1}</script>
 
 <script>
 (function(){

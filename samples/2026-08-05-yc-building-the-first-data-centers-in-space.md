@@ -106,6 +106,13 @@ tags:
 - [[2026-02-26-lennys-ai-is-critical-for-humanitys-survival|管理 3 万人的 Cisco 产品总裁：AI 转型与成功的六字真言]] —— 同公司:NVIDIA
 
 </div>
+<div class="pd-ex">
+
+**换个口味**
+
+- [[2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that|桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟]] —— 同公司:Benchmark
+
+</div>
 </div>
 
 *本集关键词:太空数据中心 · 硬科技创业 · 太空工程 · AI 算力 · 基础设施*

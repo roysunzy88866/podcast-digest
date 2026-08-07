@@ -1,0 +1,22 @@
+{
+  "id": "2026-07-24-talks-how-bridgewater-built-an-ai-analyst-that",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/lXZb21CfeIY.m4a",
+  "duration_sec": 1536.82,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 267,
+  "asr": true,
+  "title_en": "How Bridgewater Built an AI Analyst That Does Hours of Expert Research in Minutes",
+  "podcast": "精选演讲",
+  "date": "2026-07-24",
+  "speaker_map": {
+    "SPEAKER_00": "Brendan McManus"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Brendan McManus",
+  "cohosts": [],
+  "title_zh": "桥水内部版 AI 分析师 PAT:把数小时研究压到几分钟",
+  "guest_name": "Brendan McManus",
+  "guest_title": "桥水应用AI团队负责人",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=spliced"
+}
