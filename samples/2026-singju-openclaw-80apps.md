@@ -9,7 +9,7 @@ image: "/covers/2026-singju-openclaw-80apps.jpg"
 description: 一个跑在本机、能控制鼠标键盘的个人智能体，十天炸出 GitHub 十六万星，创始人亲述顿悟时刻与反向工程哲学。
 guests: ["[[Raphael Schaad]]", "[[Peter Steinberger]]"]
 companies: ["[[Codex]]", "[[Claude Code]]"]
-concepts: ["[[OpenClaw]]", "[[智能体]]", "[[mcp]]", "[[提示注入]]", "[[CLI]]", "[[护城河]]"]
+concepts: ["[[OpenClaw]]", "[[智能体]]", "[[MCP]]", "[[提示注入]]", "[[CLI]]", "[[护城河]]"]
 category: 智能体
 tags:
   - 智能体
@@ -31,13 +31,13 @@ tags:
 >
 > **公司** [[Codex]] · [[Claude Code]]
 >
-> **概念** [[OpenClaw]] · [[智能体]] · [[mcp]] · [[提示注入]] · [[CLI]] · [[护城河]]
+> **概念** [[OpenClaw]] · [[智能体]] · [[MCP]] · [[提示注入]] · [[CLI]] · [[护城河]]
 >
 > **来源** [SingjuPost 转录](https://singjupost.com/openclaw-creator-why-80-of-apps-will-disappear-transcript/)
 
 <div class="pd-tldr"><b>一句话</b>一个跑在本机、能控制鼠标键盘的个人智能体，十天炸出 GitHub 十六万星，创始人亲述顿悟时刻与反向工程哲学。</div>
 
-十天内炸出十六万颗 GitHub 星、社区衍生出机器人互相对话甚至「雇佣人类去现实世界排队」的项目——做出这一切的，是一个跑在你自己电脑上、而不是云端的个人 AI [[智能体|智能体]]。它叫 [[OpenClaw|OpenClaw]]，作者是 [[Peter Steinberger|Peter Steinberger]]（[[Raphael Schaad|Raphael Schaad]]）。说这话的人是 Peter，一个从奥地利来的独立开发者，他已经做了几十年软件。这一集里，他讲了三件事：那个让他「天哪」的顿悟时刻到底发生了什么——一个零行预期代码的语音文件，智能体九秒钟自己想办法转写、回了消息；为什么他认为八成的 App 会消失、大模型公司反而不那么安全、唯一值钱的是你电脑里那堆 markdown 记忆文件；以及他极其反主流的工程哲学——不开 work tree、不写 [[mcp|MCP]]、十个 [[Codex|Codex]] 实例同时跑。结尾他还聊了把一个「有性格」的机器人放进公共 Discord 任人攻击的疯狂玩法，以及那个至今没人攻破的秘密文件。
+十天内炸出十六万颗 GitHub 星、社区衍生出机器人互相对话甚至「雇佣人类去现实世界排队」的项目——做出这一切的，是一个跑在你自己电脑上、而不是云端的个人 AI [[智能体|智能体]]。它叫 [[OpenClaw|OpenClaw]]，作者是 [[Peter Steinberger|Peter Steinberger]]（[[Raphael Schaad|Raphael Schaad]]）。说这话的人是 Peter，一个从奥地利来的独立开发者，他已经做了几十年软件。这一集里，他讲了三件事：那个让他「天哪」的顿悟时刻到底发生了什么——一个零行预期代码的语音文件，智能体九秒钟自己想办法转写、回了消息；为什么他认为八成的 App 会消失、大模型公司反而不那么安全、唯一值钱的是你电脑里那堆 markdown 记忆文件；以及他极其反主流的工程哲学——不开 work tree、不写 [[MCP|MCP]]、十个 [[Codex|Codex]] 实例同时跑。结尾他还聊了把一个「有性格」的机器人放进公共 Discord 任人攻击的疯狂玩法，以及那个至今没人攻破的秘密文件。
 
 故事要从那个顿悟时刻说起。五月、六月,Peter 写过一版能让电脑听话的工具,但感觉不太对。到了十一月,那个需求又冒了出来。这次他想要的不是一个你在终端里敲命令的工具,而是一个「你只要跟朋友说话」的幽灵——它接管你的鼠标和键盘,你不用操心会话压缩、不用管自己在哪个文件夹、不用选模型,你就跟它聊（Peter Steinberger）。最早上线那天,他写了一小时就把初始原型搭了出来:用 WhatsApp 接上 [[Claude Code|Claude Code]],中间糊一层胶水,发指令、拿回字符串。他又花了几个小时加上图片支持,就带着这个半成品去了马拉喀什参加一个生日派对。那里网很差,WhatsApp 却哪儿都能用,他就一路拍照翻译,用得停不下来。
 

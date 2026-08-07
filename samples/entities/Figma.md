@@ -7,13 +7,15 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Figma</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Figma">FI</div><div class="pi"><h1 class="pt">Figma</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Figma">FI</div><div class="pi"><h1 class="pt">Figma</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]]**(01:26起):本集把它说成：仍在使用的设计工具。在平行探索 8 到 10 种不同的排版和视觉方案时，它依然是最快、最有效的，因为直接用代码探索过于线性。
 - **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]]**(03:17起):本集探讨了 AI 时代其使用趋势的变化，并以其为例说明伟大产品的微小核心：实时协作与非协作间的无缝切换。
+- **[[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|《Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料》]]**(02:59起):本集全程展示的设计平台，团队在 Config 2026 大会上宣布将其进化为允许多人在画布里用代码、插件、着色器和动效无缝协同的下一代工具。
 - **[[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]]**(14:05起):本集把它说成:传统的设计工具，新一代基于 AI 的工作流正逐渐摆脱对它的依赖，但它也能通过 MCP 或 computer use 被 AI 调用来重建设计。
+- **[[2026-08-06-pg-oji-udezue-claude-skills|《让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包》]]**(54:55起):本集作为对比项提及：过去设计师的活儿散落在各种工具里，比如待在 Figma 中。
 
 ## ① 提到它的金句
 
@@ -23,19 +25,21 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*5 集*
 
 - [[2026-03-01-lennys-the-design-process-is-dead|《AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen》]] — 作为被讨论公司
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]] — 作为被讨论公司
+- [[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|《Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料》]] — 作为被讨论公司
 - [[2026-07-09-pg-pm-guide-ai-design|《OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流》]] — 作为被讨论公司
+- [[2026-08-06-pg-oji-udezue-claude-skills|《让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Lenny]] · [[Anthropic]] · [[Jenny Wen]] · [[Max Schoening]] · [[Meng To]] · [[Claude]] · [[Notion]] · [[Akash]] · [[Claude Cowork]]
+[[智能体]] · [[Notion]] · [[GitHub]] · [[Lenny]] · [[MCP]] · [[Anthropic]] · [[Claude Code]] · [[Slack]] · [[Jenny Wen]] · [[Max Schoening]]
 
-<script type="application/json" class="pd-epn">{"智能体":51,"Lenny":33,"Anthropic":32,"Jenny Wen":1,"Max Schoening":1,"Meng To":1,"Claude":11,"Notion":3,"Akash":3,"Claude Cowork":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":53,"Notion":5,"GitHub":7,"Lenny":33,"MCP":5,"Anthropic":32,"Claude Code":14,"Slack":13,"Jenny Wen":1,"Max Schoening":1}</script>
 
 <script>
 (function(){

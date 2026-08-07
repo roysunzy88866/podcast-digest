@@ -25,7 +25,7 @@ unlisted: true
 
 [[Sarah Wang]] · [[Kimberley Tan]] · [[Jesse Zhang]] · [[Ashwin Srinivas]] · [[智能体]] · [[开源模型]] · [[微调]] · [[业务逻辑]] · [[前置部署工程师]] · [[Duet]]
 
-<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Kimberley Tan":1,"Jesse Zhang":1,"Ashwin Srinivas":1,"智能体":51,"开源模型":3,"微调":1,"业务逻辑":1,"前置部署工程师":3,"Duet":1}</script>
+<script type="application/json" class="pd-epn">{"Sarah Wang":1,"Kimberley Tan":1,"Jesse Zhang":1,"Ashwin Srinivas":1,"智能体":53,"开源模型":3,"微调":1,"业务逻辑":1,"前置部署工程师":3,"Duet":1}</script>
 
 <script>
 (function(){

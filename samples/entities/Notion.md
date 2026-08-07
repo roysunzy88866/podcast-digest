@@ -7,13 +7,15 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Notion</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Notion">NO</div><div class="pi"><h1 class="pt">Notion</h1><div class="byl">公司</div><div class="nums">本站收录 <b>3</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Notion">NO</div><div class="pi"><h1 class="pt">Notion</h1><div class="byl">公司</div><div class="nums">本站收录 <b>5</b> 集 · <b>2</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2025-12-28-lennys-10-contrarian-leadership-truths|《故意让人手不足:Rippling 首席产品官的非常规管理心法》]]**(54:13起):本集提到嘉宾是它的早期投资者。它被描绘为一家在由巨头主导的艰难生产力市场中，靠着创始人极度坚持这种'叙事违规'（极罕见）才开辟出利基市场的公司。
 - **[[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]]**(00:19起):本集重点讨论的公司，嘉宾的产品团队所在地。本集将其描述为一个拥有庞大用户基础、可作为连接工作空间，并为 Notion AI 智能体提供完美上下文环境的平台。
 - **[[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]]**(32:14起):本集说用 LLM 摄取全公司的 Notion 文档来掌握组织内部发生的事。
+- **[[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|《Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料》]]**(66:22起):本集提到 Figma Agent 通过新增的连接器，可以把 Notion 里的外部数据和上下文直接拉进画布。
+- **[[2026-08-06-pg-oji-udezue-claude-skills|《让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包》]]**(28:19起):本集作为对比项提及：过去产品经理的活儿散落在各种工具里，比如待在 Notion 中。
 
 ## ① 提到它的金句
 
@@ -25,19 +27,21 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*3 集*
+*5 集*
 
 - [[2025-12-28-lennys-10-contrarian-leadership-truths|《故意让人手不足:Rippling 首席产品官的非常规管理心法》]] — 作为被讨论公司(提及)
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]] — 作为被讨论公司
 - [[2026-06-10-talks-barney-hussey-yeo-in-conversation-with-j|《Clio 的 AI 赌注：从扑克到财务健康》]] — 作为概念(提及)
+- [[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|《Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料》]] — 作为被讨论公司(提及)
+- [[2026-08-06-pg-oji-udezue-claude-skills|《让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Lenny]] · [[Anthropic]] · [[智能体]] · [[Matt MacInnis]] · [[Max Schoening]] · [[Barney Hussey-Yeo]] · [[Amar]] · [[GitHub]] · [[John Collison]] · [[Rippling]]
+[[GitHub]] · [[Figma]] · [[智能体]] · [[Lenny]] · [[Anthropic]] · [[Slack]] · [[Matt MacInnis]] · [[Max Schoening]] · [[Barney Hussey-Yeo]] · [[Nico]]
 
-<script type="application/json" class="pd-epn">{"Lenny":33,"Anthropic":32,"智能体":51,"Matt MacInnis":1,"Max Schoening":1,"Barney Hussey-Yeo":1,"Amar":1,"GitHub":5,"John Collison":1,"Rippling":1}</script>
+<script type="application/json" class="pd-epn">{"GitHub":7,"Figma":5,"智能体":53,"Lenny":33,"Anthropic":32,"Slack":13,"Matt MacInnis":1,"Max Schoening":1,"Barney Hussey-Yeo":1,"Nico":1}</script>
 
 <script>
 (function(){

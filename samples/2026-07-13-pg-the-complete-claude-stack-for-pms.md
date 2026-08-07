@@ -11,7 +11,7 @@ description: 拆解 Claude 全家桶五层架构，手把手教你搭建全天�
 host: "[[Aakash Gupta]]"
 cohosts: ["[[Jyothi Nookula]]"]
 companies: ["[[Claude]]"]
-concepts: ["[[Claude Code]]", "[[智能体]]", "[[对抗性智能体]]", "[[mcp]]", "[[知识库]]", "[[技能]]"]
+concepts: ["[[Claude Code]]", "[[智能体]]", "[[对抗性智能体]]", "[[MCP]]", "[[知识库]]", "[[技能]]"]
 category: 智能体
 tags:
   - 智能体
@@ -33,7 +33,7 @@ tags:
 >
 > **公司** [[Claude]]
 >
-> **概念** [[Claude Code]] · [[智能体]] · [[对抗性智能体]] · [[mcp]] · [[知识库]] · [[技能]]
+> **概念** [[Claude Code]] · [[智能体]] · [[对抗性智能体]] · [[MCP]] · [[知识库]] · [[技能]]
 >
 > **来源** [Product Growth Podcast](https://www.news.aakashg.com/p/the-complete-claude-stack-for-pms)
 
@@ -43,7 +43,7 @@ tags:
 
 这一集 [[Aakash Gupta|Aakash Gupta]] 主持,主要聊了五件事:第一,Claude 的模型选型逻辑;第二,不同客户端(桌面端、网页端、Chrome 插件)该在什么场景下用;第三,如何用定时任务(Co-work)和[[技能|技能]]把繁琐的每日站会、简报自动化;第四,怎么把会议记录喂给 Claude,沉淀出一个完全懂你的本地[[知识库|知识库]];第五,什么是受 GAN(生成式对抗网络)启发的对抗智能体,以及「AI builder」这个新角色的面试和生存指南。
 
-先把底盘打好:模型和客户端该怎么选?Jyothi 把 Claude 生态画成了一张五层架构图 <button class="pd-ts" data-t="04:30" data-who="Jyothi Nookula" data-en="that people can get to this level at the end of the episode great we'll tackle it today so we'll start with understanding the clod stack first and then getting into some of the basics like how do you use co-work and" aria-label="回原文"></button>。最底层是模型:Haiku 是速度机器,适合做大批量但不需要深度的分类打标;Sonnet 是她的主力,90% 的日常活(比如写 PRD、做竞品分析)都用它,因为性价比最好;Opus 专门留给高风险、高复杂度的推理任务,比如做长周期的二阶、三阶影响推演。但她也提醒,Opus 比较容易钻进某个局部最优的牛角尖,一旦卡住,你得干脆关掉聊天窗口重开 <button class="pd-ts" data-t="08:53" data-who="Jyothi Nookula" data-en="reasoning capabilities but i've also noticed from my day-to-day working with opus that it also tends to get into this um hallucinated stuck mode a little bit quickly" aria-label="回原文"></button>。在模型之上,依次是访问模型的「表面」(比如浏览器、桌面应用、插件),存储你公司上下文的「知识库」层,以及连接 Jira、Slack 等外部工具的「集成层」([[mcp|MCP]] 服务器)。
+先把底盘打好:模型和客户端该怎么选?Jyothi 把 Claude 生态画成了一张五层架构图 <button class="pd-ts" data-t="04:30" data-who="Jyothi Nookula" data-en="that people can get to this level at the end of the episode great we'll tackle it today so we'll start with understanding the clod stack first and then getting into some of the basics like how do you use co-work and" aria-label="回原文"></button>。最底层是模型:Haiku 是速度机器,适合做大批量但不需要深度的分类打标;Sonnet 是她的主力,90% 的日常活(比如写 PRD、做竞品分析)都用它,因为性价比最好;Opus 专门留给高风险、高复杂度的推理任务,比如做长周期的二阶、三阶影响推演。但她也提醒,Opus 比较容易钻进某个局部最优的牛角尖,一旦卡住,你得干脆关掉聊天窗口重开 <button class="pd-ts" data-t="08:53" data-who="Jyothi Nookula" data-en="reasoning capabilities but i've also noticed from my day-to-day working with opus that it also tends to get into this um hallucinated stuck mode a little bit quickly" aria-label="回原文"></button>。在模型之上,依次是访问模型的「表面」(比如浏览器、桌面应用、插件),存储你公司上下文的「知识库」层,以及连接 Jira、Slack 等外部工具的「集成层」([[MCP|MCP]] 服务器)。
 
 理解了基础架构,接下来看看具体的工具用法。桌面端是绝对的生产力枢纽。Jyothi 最核心的操作是在 Claude 桌面应用里搞「定时任务」<button class="pd-ts" data-t="15:22" data-who="Jyothi Nookula" data-en="in chat and asking it some questions i use co-work for automations and i'll show you a few today that i use like i have a morning i have my jira connected so i get my stand-up brief so every day it kicks off" aria-label="回原文"></button>。她设置了一个「幕僚长」指令,规定每天早上九点,让它自动去抓取 Google 日历、Gmail、Jira 里的信息,赶在早会前给她生成一份不超过 400 字、只要事实不打鸡血的简报。更重要的是,你可以把它当成一个内部的自动化中心:你不用像以前那样一个框一个框地去画逻辑图,直接用大白话告诉它你要什么,它会自己去调用各种连接器(比如 Atlassian、Canva、Figma、Notion 等)干活,而且不用担心中间哪一步断了导致整个流程崩溃 <button class="pd-ts" data-t="17:02" data-who="Jyothi Nookula" data-en="and click on the plus right now you can see i have connected to atlassian robo gmail calendar and drive but there's plenty other connectors that you can connect to like canva figma notion wherever your data lives you can connect to it all" aria-label="回原文"></button>。网页端拿来当谷歌搜索用;Chrome 插件则特别适合做竞品调研和用户测试——你可以让插件去操控浏览器,像真实用户一样去点击、浏览,看看你的产品在哪里容易让人困惑 <button class="pd-ts" data-t="13:00" data-who="Jyothi Nookula" data-en="and it'll use browser use and it will open up a browser it will do the analysis it will click through things and say here is what you need to know on how your ad should be against competitors" aria-label="回原文"></button>。
 

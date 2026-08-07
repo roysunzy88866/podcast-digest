@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Willowryan]] [[Ruby Thelot]] [[Sophia Puccini]] [[Sophia Du]] [[Tom Verrilli]] [[Daniel McKinnon]] [[Dianne Penn]] [[Adam Mosseri]] [[Whitney Wolfe Herd]] [[Eddie Kim]]
+[[Aakash]] [[Oji Udezue]] [[Willowryan]] [[Ruby Thelot]] [[Sophia Puccini]] [[Sophia Du]] [[Tom Verrilli]] [[Daniel McKinnon]] [[Dianne Penn]] [[Adam Mosseri]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":33,"Notion":3,"GitHub":5,"Heroku":1,"Anthropic":32,"OpenAI":27,"Figma":3,"主观能动性":7,"可塑软件":1,"智能体":51}</script>
+<script type="application/json" class="pd-epn">{"Lenny":33,"Notion":5,"GitHub":7,"Heroku":1,"Anthropic":32,"OpenAI":27,"Figma":5,"主观能动性":7,"可塑软件":1,"智能体":53}</script>
 
 <script>
 (function(){

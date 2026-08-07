@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]]
+[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Frederick Rankin":1,"Alex Rampell":1,"Lassie":1,"智能体":51,"回路中的人类":1,"现有巨头":1,"Stripe":10}</script>
+<script type="application/json" class="pd-epn">{"Olivia Moore":1,"Frederick Rankin":1,"Alex Rampell":1,"Lassie":1,"智能体":53,"回路中的人类":1,"现有巨头":1,"Stripe":10}</script>
 
 <script>
 (function(){

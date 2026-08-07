@@ -53,11 +53,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Willowryan]] [[David Cahn]] [[Philip Johnston]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]]
+[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Scale":1,"Meta":10,"MuseSpark":1,"开源模型":3,"智能体":51,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":7,"Spark API":1}</script>
+<script type="application/json" class="pd-epn">{"Scale":1,"Meta":11,"MuseSpark":1,"开源模型":3,"智能体":53,"多智能体设置":1,"训练数据":1,"前沿AI实验室":1,"主观能动性":7,"Spark API":1}</script>
 
 <script>
 (function(){

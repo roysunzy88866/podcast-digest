@@ -91,9 +91,9 @@ tags:
 
 **换个口味**
 
+- [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|开源模型没差距，缺的是让它跑起来的基础设施]] —— 同公司:Hugging Face · 同概念:开源权重 (open weight)、智能体 (agent)
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)
 - [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]] —— 同公司:Anthropic · 同概念:智能体 (agent)
-- [[2026-05-21-talks-the-best-time-in-history-to-start-a-comp|Stripe 与 Replit 对谈：AI 时代的创业大爆发与护城河]] —— 同公司:OpenAI · 同概念:智能体 (agent)
 
 </div>
 </div>

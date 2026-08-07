@@ -1,0 +1,804 @@
+{
+  "episode_id": "2026-08-06-pg-oji-udezue-claude-skills",
+  "podcast": "Product Growth Podcast",
+  "date": "2026-08-06",
+  "tags": [
+    "AI 编程",
+    "产品判断技能",
+    "可行性闸门",
+    "Builder PM",
+    "Claude Code"
+  ],
+  "categories": [
+    "AI 编程",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "aakash",
+      "type": "person",
+      "role": "host",
+      "name": "Aakash",
+      "file": "Aakash",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 48,
+          "t": [
+            163.173,
+            167.894
+          ],
+          "quote": "So Aakash, where I want to start is something I think is really important.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 935,
+          "t": [
+            3337.192,
+            3339.073
+          ],
+          "quote": " Yes, I can, Aakash.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1075,
+          "t": [
+            3802.349,
+            3803.404555555556
+          ],
+          "quote": " Thank you, Aakash.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "oji-udezue",
+      "type": "person",
+      "role": "cohost",
+      "name": "Oji Udezue",
+      "file": "Oji Udezue",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "claude-code",
+      "type": "concept",
+      "role": "concept",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 998,
+          "t": [
+            3531.593,
+            3535.1485555555555
+          ],
+          "quote": " And today we showed the harness as Claude Code in anti-gravity.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1000,
+          "t": [
+            3538.357,
+            3540.037
+          ],
+          "quote": "or can you use any harness for Claude Code?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "scaffolding-skill",
+      "type": "concept",
+      "role": "concept",
+      "name": "项目脚手架技能 (scaffolding skill)",
+      "file": "项目脚手架技能",
+      "primary": true,
+      "how_described": "本集最主要演示的技能：从一个商业问题描述开始，走完 11 步流程，包括跑可行性闸门、做市场调研、写产品简报,最终生成完整的架构、测试文件夹和 CI 配置。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 12,
+          "t": [
+            37.994,
+            42.802
+          ],
+          "quote": "Can you open up that scaffolding skill and we can see what is inside it and how it looks?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 66,
+          "t": [
+            237.223,
+            242.247
+          ],
+          "quote": "The best instantiation of this is the new project scaffolding skill.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 70,
+          "t": [
+            252.315,
+            257.5372222222222
+          ],
+          "quote": "But the scaffolding skill is special because it starts with you describing a business problem.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 106,
+          "t": [
+            360.052,
+            364.9964444444445
+          ],
+          "quote": "Can you open up that scaffolding skill and we can see what is inside it and how it looks?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 184,
+          "t": [
+            690.613,
+            693.236
+          ],
+          "quote": " So the scaffolding skill is basically an orchestrator skill.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 254,
+          "t": [
+            932.137,
+            933.778
+          ],
+          "quote": "The scaffolding skill.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1244.926,
+            1249.45
+          ],
+          "quote": "Run the scaffolding skill on a new problem.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 415,
+          "t": [
+            1519.718,
+            1524.82
+          ],
+          "quote": "So it's like a scaffolding skill but very specific for a feature within a product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1036,
+          "t": [
+            3676.168,
+            3681.685
+          ],
+          "quote": "for example, the scaffolding skill or the vet a feature skill.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "viability-gate",
+      "type": "concept",
+      "role": "concept",
+      "name": "可行性闸门 (viability gate)",
+      "file": "可行性闸门",
+      "primary": true,
+      "how_described": "本集反复演示的核心子技能，用六个维度（收入、技术可行性、差异化、竞争格局等）评估点子,若有三个维度被判为弱项就会明确建议你停止该项目。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 97,
+          "t": [
+            333.093,
+            335.435
+          ],
+          "quote": " It will run a viability gate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 104,
+          "t": [
+            356.628,
+            359.18355555555553
+          ],
+          "quote": "And it'll skip straight to the viability gate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 114,
+          "t": [
+            396.495,
+            403.14
+          ],
+          "quote": "It will set up testing, and the core skill is basically the viability gate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 129,
+          "t": [
+            474.212,
+            478.835
+          ],
+          "quote": "So yeah, so the viability gate, this is going to be interesting.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 138,
+          "t": [
+            515.755,
+            519.0327777777778
+          ],
+          "quote": "So what does it tell us, actually, with the Viability Gate?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 139,
+          "t": [
+            522.862,
+            524.804
+          ],
+          "quote": " Viability gate passed, proceed.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 150,
+          "t": [
+            564.045,
+            567.807
+          ],
+          "quote": "But according to it, the viability gate is strong.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 269,
+          "t": [
+            982.948,
+            984.34
+          ],
+          "quote": "It will run a viability gate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 338,
+          "t": [
+            1225.509,
+            1227.7312222222222
+          ],
+          "quote": " May or may not pass the viability gate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 352,
+          "t": [
+            1283.58,
+            1286.041
+          ],
+          "quote": "to run a viability gate first.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 379,
+          "t": [
+            1377.026,
+            1379.4704444444444
+          ],
+          "quote": "So it will create a viability gate document.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 380,
+          "t": [
+            1379.808,
+            1383.001
+          ],
+          "quote": "You should look at that viability gate document and see if you agree with it,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 626,
+          "t": [
+            2222.127,
+            2226.81
+          ],
+          "quote": "It looks like it is still crunching through the viability gate.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vibe-coder",
+      "type": "concept",
+      "role": "concept",
+      "name": "vibe coder",
+      "file": "vibe coder",
+      "primary": true,
+      "how_described": "本集指没有太多软件工程经验、靠与 AI 对话来写代码的人；他们被视为 CodeMemo 等项目的主要目标用户群体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 207,
+          "t": [
+            777.506,
+            781.789
+          ],
+          "quote": "When you are a PM and when you are a vibe coder,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 611,
+          "t": [
+            2174.989,
+            2177.6556666666665
+          ],
+          "quote": "And so the Vibe Coder is a real target for this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 714,
+          "t": [
+            2581.743,
+            2584.0763333333334
+          ],
+          "quote": "that I'm writing because I'm a Vibe coder.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "builder-pm",
+      "type": "concept",
+      "role": "concept",
+      "name": "builder PM",
+      "file": "builder PM",
+      "primary": true,
+      "how_described": "本集描绘的新时代产品经理形象：在 AI 提速开发后，PM 必须提升自己的编排与判断速度,用工程速度做 PM 基本功（市场调研、客户发现、写代码）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 671,
+          "t": [
+            2373.293,
+            2375.775
+          ],
+          "quote": "We promised that we'd help people become a builder PM.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 872,
+          "t": [
+            3106.864,
+            3112.126
+          ],
+          "quote": "And to be a true builder PM, you need to be able to do this at engineering speed.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "product-mind",
+      "type": "company",
+      "role": "company",
+      "name": "Product Mind",
+      "file": "Product Mind",
+      "primary": true,
+      "how_described": "嘉宾所在的咨询公司，帮助企业把产品改造成 AI 原生的，并在其网站上开源了本集演示的全套产品与商业技能包。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 49,
+          "t": [
+            167.954,
+            172.795
+          ],
+          "quote": "So we see, Product Mind consults with lots of big companies, big and small.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 937,
+          "t": [
+            3348.277,
+            3355
+          ],
+          "quote": "So one of the fun things we've done at Product Mind as we start to build is start",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "typeform",
+      "type": "company",
+      "role": "company",
+      "name": "Typeform",
+      "file": "Typeform",
+      "primary": false,
+      "how_described": "本集在介绍嘉宾背景时提到他曾担任该公司的首席产品官（CPO）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            9.374,
+            11.234
+          ],
+          "quote": "former CPO at Typeform,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "calendly",
+      "type": "company",
+      "role": "company",
+      "name": "Calendly",
+      "file": "Calendly",
+      "primary": false,
+      "how_described": "本集在介绍嘉宾背景时提到他曾担任该公司的首席产品官（CPO）。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 4,
+          "t": [
+            11.354,
+            12.084
+          ],
+          "quote": "Calendly,",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": true,
+      "how_described": "本集提出，团队应把商业、产品和代码三层技能全塞进一个共享的 GitHub 仓库，取代过去 PM 待在 Notion、设计师待在 Figma 的分散状态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 33,
+          "t": [
+            110.152,
+            117.152
+          ],
+          "quote": "is full of repos in GitHub with skills to token max or token minimize or",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 204,
+          "t": [
+            769.28,
+            771.041
+          ],
+          "quote": "And if you give it its GitHub repo,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 205,
+          "t": [
+            771.081,
+            775.404
+          ],
+          "quote": "it can start the project and make the first push into GitHub for you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1157.405,
+            1161.347
+          ],
+          "quote": "so you don't have leakage when you push things to GitHub.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 612,
+          "t": [
+            2178.737,
+            2182.3481111111114
+          ],
+          "quote": " Value proposition, paste a GitHub URL, upload a viacoded folder.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 662,
+          "t": [
+            2347.665,
+            2353.489
+          ],
+          "quote": "it's super puzzling right now because it feels like GitHub is the only place",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 666,
+          "t": [
+            2358.4,
+            2362.4139999999998
+          ],
+          "quote": "put it on GitHub and just languish with zero stars, if that makes any sense.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 712,
+          "t": [
+            2576.594,
+            2578.7051111111114
+          ],
+          "quote": "So I need you to paste the GitHub URL,",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 713,
+          "t": [
+            2578.818,
+            2581.723
+          ],
+          "quote": "but I'm going to connect it to GitHub because I need to analyze the code",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 802,
+          "t": [
+            2868.878,
+            2871.86
+          ],
+          "quote": "you paste in the GitHub thing here and it tells you the story of",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 926,
+          "t": [
+            3295.875,
+            3302.875
+          ],
+          "quote": "live in Notion, designers live in Figma, and collapsing it into one GitHub repo.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1065,
+          "t": [
+            3775.519,
+            3778.49
+          ],
+          "quote": "You guys can find the link in the description to this GitHub repo.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "notion",
+      "type": "company",
+      "role": "company",
+      "name": "Notion",
+      "file": "Notion",
+      "primary": false,
+      "how_described": "本集作为对比项提及：过去产品经理的活儿散落在各种工具里，比如待在 Notion 中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 474,
+          "t": [
+            1699.202,
+            1702.407
+          ],
+          "quote": "Notion used Customer.io to personalize their onboarding",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 926,
+          "t": [
+            3295.875,
+            3302.875
+          ],
+          "quote": "live in Notion, designers live in Figma, and collapsing it into one GitHub repo.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": false,
+      "how_described": "本集作为对比项提及：过去设计师的活儿散落在各种工具里，比如待在 Figma 中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 926,
+          "t": [
+            3295.875,
+            3302.875
+          ],
+          "quote": "live in Notion, designers live in Figma, and collapsing it into one GitHub repo.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "ai-native",
+      "type": "concept",
+      "role": "concept",
+      "name": "AI 原生 (AI native)",
+      "file": "AI 原生",
+      "primary": true,
+      "how_described": "本集讨论的终极目标：把传统的软件产品或团队工作流重新概念化，使其彻底利用 AI 进行提速，成为 AI 原生的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 51,
+          "t": [
+            176.161,
+            180.32766666666666
+          ],
+          "quote": "first of all, come in and reconceptualize a product as much more AI native.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 521,
+          "t": [
+            1847.832,
+            1848.953
+          ],
+          "quote": "AI-native workflows,",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 1071,
+          "t": [
+            3790.762,
+            3794.2729999999997
+          ],
+          "quote": "If you've been wondering, how do I become a more AI native team?",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "three-speed-problem",
+      "type": "concept",
+      "role": "concept",
+      "name": "三速问题 (three speed problem)",
+      "file": "三速问题",
+      "primary": true,
+      "how_described": "嘉宾的行业格局判断：AI 让中间的代码开发提速了 10-20 倍，但前后两头的「为什么做」和「交付给谁」仍然受限于人，导致团队等式失衡。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 876,
+          "t": [
+            3120.089,
+            3124.01
+          ],
+          "quote": "So what we, there's something we call the three speed problem.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "customer-discovery-week",
+      "type": "concept",
+      "role": "concept",
+      "name": "客户发现周 (customer discovery week)",
+      "file": "客户发现周",
+      "primary": true,
+      "how_described": "本集演示的一项标准化的客户访谈流程技能：如果找不够 5 个真实目标用户，技能就判定验证信号不够并阻止计划继续。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 697,
+          "t": [
+            2511.268,
+            2518.268
+          ],
+          "quote": "For example, the interesting one that I would do right after this is a customer discovery week.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 704,
+          "t": [
+            2546.123,
+            2550.667
+          ],
+          "quote": "the customer discovery week skills.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "continuous-integration",
+      "type": "concept",
+      "role": "concept",
+      "name": "持续集成 (continuous integration)",
+      "file": "持续集成",
+      "primary": false,
+      "how_described": "本集提到脚手架技能在代码层会自动替你配好 CI，让每次代码签入时都自动跑测试并设置安全性检查。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 78,
+          "t": [
+            277.296,
+            281.289
+          ],
+          "quote": "and even sets up continuous integration and continuous delivery for you.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 203,
+          "t": [
+            765.777,
+            768.439
+          ],
+          "quote": " Continuous integration is settled.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 213,
+          "t": [
+            802.551,
+            805.312
+          ],
+          "quote": "I've seen a lot of via coders who don't have continuous integration.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1141.76,
+            1146.441
+          ],
+          "quote": "And then crucially, it sets up your continuous integration, your quality system.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "hive-mind",
+      "type": "concept",
+      "role": "concept",
+      "name": "蜂巢思维 (hive mind)",
+      "file": "蜂巢思维",
+      "primary": false,
+      "how_described": "本集结尾用来形容组织内必须建立的结构：人类的存活靠互相学习，把 AI 引入企业也得强制让一个人的学习等于所有人的学习。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1054,
+          "t": [
+            3736.943,
+            3743.943
+          ],
+          "quote": " Because, listen, I think in science fiction we always sort of We're afraid of the hive mind.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1056,
+          "t": [
+            3751.945,
+            3754.646
+          ],
+          "quote": "But it turns out that we are the original hive mind.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "Anthropic",
+      "reason": "专名「Anthropic」未在真相源出现,且不在别名表(疑编造)"
+    }
+  ]
+}

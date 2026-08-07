@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Databricks</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Databricks">DA</div><div class="pi"><h1 class="pt">Databricks</h1><div class="byl">公司</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Databricks">DA</div><div class="pi"><h1 class="pt">Databricks</h1><div class="byl">公司</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,17 +15,18 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-06-24-latent-space-databricks|《Databricks 的反击：重写数据库、统一智能体与开放的执念》]] — 作为被讨论公司
+- [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|《开源模型没差距，缺的是让它跑起来的基础设施》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Matei Zaharia]] · [[Reynold Xin]] · [[Snowflake]] · [[MosaicML]] · [[Neon]] · [[Omnigen]] · [[LTAP]] · [[HTAP]] · [[Dream Engine]] · [[智能体]]
+[[智能体]] · [[Matei Zaharia]] · [[Elena Berger]] · [[Reynold Xin]] · [[Simon Mo]] · [[Snowflake]] · [[Matt Bornstein]] · [[MosaicML]] · [[vLLM]] · [[Neon]]
 
-<script type="application/json" class="pd-epn">{"Matei Zaharia":1,"Reynold Xin":1,"Snowflake":2,"MosaicML":1,"Neon":2,"Omnigen":1,"LTAP":1,"HTAP":1,"Dream Engine":1,"智能体":51}</script>
+<script type="application/json" class="pd-epn">{"智能体":53,"Matei Zaharia":1,"Elena Berger":1,"Reynold Xin":1,"Simon Mo":1,"Snowflake":2,"Matt Bornstein":1,"MosaicML":1,"vLLM":2,"Neon":2}</script>
 
 <script>
 (function(){

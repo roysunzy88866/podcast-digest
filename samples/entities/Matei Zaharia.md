@@ -36,11 +36,11 @@ aliases: ["Matei", "Mattia"]
 
 <div class="pd-peers">
 
-[[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]]
+[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Reynold Xin":1,"Databricks":1,"Snowflake":2,"MosaicML":1,"Neon":2,"Omnigen":1,"LTAP":1,"HTAP":1,"Dream Engine":1,"智能体":51}</script>
+<script type="application/json" class="pd-epn">{"Reynold Xin":1,"Databricks":2,"Snowflake":2,"MosaicML":1,"Neon":2,"Omnigen":1,"LTAP":1,"HTAP":1,"Dream Engine":1,"智能体":53}</script>
 
 <script>
 (function(){

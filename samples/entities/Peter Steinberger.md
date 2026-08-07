@@ -36,17 +36,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Codex]] · [[Romain Huet]] · [[Raphael Schaad]] · [[OpenAI]] · [[OpenClaw]] · [[循环]] · [[Claude Code]] · [[协作界面]] · [[mcp]]
+[[智能体]] · [[Codex]] · [[Romain Huet]] · [[Raphael Schaad]] · [[OpenAI]] · [[OpenClaw]] · [[循环]] · [[Claude Code]] · [[协作界面]] · [[MCP]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]]
+[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":51,"Codex":12,"Romain Huet":1,"Raphael Schaad":1,"OpenAI":27,"OpenClaw":5,"循环":1,"Claude Code":13,"协作界面":1,"mcp":4}</script>
+<script type="application/json" class="pd-epn">{"智能体":53,"Codex":12,"Romain Huet":1,"Raphael Schaad":1,"OpenAI":27,"OpenClaw":5,"循环":1,"Claude Code":14,"协作界面":1,"MCP":5}</script>
 
 <script>
 (function(){

@@ -25,7 +25,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Willowryan]] [[Ruby Thelot]] [[Sophia Du]] [[Tom Verrilli]] [[Daniel McKinnon]] [[Dianne Penn]] [[Adam Mosseri]] [[Whitney Wolfe Herd]] [[Eddie Kim]] [[Jiaona Zhang]]
+[[Aakash]] [[Oji Udezue]] [[Willowryan]] [[Ruby Thelot]] [[Sophia Du]] [[Tom Verrilli]] [[Daniel McKinnon]] [[Dianne Penn]] [[Adam Mosseri]] [[Whitney Wolfe Herd]]
 
 </div>
 

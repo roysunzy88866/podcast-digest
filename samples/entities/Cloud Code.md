@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[提示词注入]] · [[沙箱]] · [[Codex]] · [[Zico Kolter]] · [[Garry Tan]] · [[Boris Cherny]] · [[Matt Fredrikson]] · [[技能文件]] · [[Opus 5]]
 
-<script type="application/json" class="pd-epn">{"智能体":51,"提示词注入":4,"沙箱":10,"Codex":12,"Zico Kolter":1,"Garry Tan":1,"Boris Cherny":1,"Matt Fredrikson":1,"技能文件":1,"Opus 5":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":53,"提示词注入":4,"沙箱":10,"Codex":12,"Zico Kolter":1,"Garry Tan":1,"Boris Cherny":1,"Matt Fredrikson":1,"技能文件":1,"Opus 5":1}</script>
 
 <script>
 (function(){

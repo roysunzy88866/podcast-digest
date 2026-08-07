@@ -49,11 +49,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Willowryan]] [[David Cahn]] [[Philip Johnston]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]]
+[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Theo Jaffe":2,"Sofia Puccini":2,"NVIDIA":10,"Andreessen Horowitz":1,"Anthropic":32,"Hugging Face":3,"DeepSeq":1,"Thinking Machines":1,"Mistral":2,"开源":2}</script>
+<script type="application/json" class="pd-epn">{"Theo Jaffe":2,"Sofia Puccini":2,"NVIDIA":10,"Andreessen Horowitz":1,"Anthropic":32,"Hugging Face":4,"DeepSeq":1,"Thinking Machines":1,"Mistral":3,"开源":2}</script>
 
 <script>
 (function(){

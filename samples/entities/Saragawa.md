@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Willowryan]] [[David Cahn]] [[Philip Johnston]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]]
+[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Satya Nadella":1,"Microsoft":7,"Azure":1,"GitHub":5,"Microsoft 365":1,"MAI":1,"私有评估":1,"测试框架":4,"轨迹":1,"智能体":51}</script>
+<script type="application/json" class="pd-epn">{"Satya Nadella":1,"Microsoft":7,"Azure":1,"GitHub":7,"Microsoft 365":1,"MAI":1,"私有评估":1,"测试框架":4,"轨迹":1,"智能体":53}</script>
 
 <script>
 (function(){

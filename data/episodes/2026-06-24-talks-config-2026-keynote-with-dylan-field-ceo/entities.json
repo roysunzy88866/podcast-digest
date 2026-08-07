@@ -1,0 +1,2050 @@
+{
+  "episode_id": "2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo",
+  "podcast": "精选演讲",
+  "date": "2026-06-24",
+  "tags": [
+    "设计与代码",
+    "AI 设计工具",
+    "智能体",
+    "工作流自动化",
+    "Config 2026"
+  ],
+  "categories": [
+    "AI 编程",
+    "产品方法"
+  ],
+  "entities": [
+    {
+      "id": "nico",
+      "type": "person",
+      "role": "host",
+      "name": "Nico",
+      "file": "Nico",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 77,
+          "t": [
+            603.02,
+            609.445
+          ],
+          "quote": "So, to share more about what we mean here, I'd like to please welcome Nico to the stage.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "dylan-field",
+      "type": "person",
+      "role": "cohost",
+      "name": "Dylan Field",
+      "file": "Dylan Field",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": true,
+      "how_described": "本集全程展示的设计平台，团队在 Config 2026 大会上宣布将其进化为允许多人在画布里用代码、插件、着色器和动效无缝协同的下一代工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            179.758,
+            184.139
+          ],
+          "quote": "Please welcome to the stage, Figma CEO and co-founder, Dylan Fields.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            244.673,
+            250.415
+          ],
+          "quote": "Whether you're at a Friends of Figma watch party or tuning in remotely, thank you for joining us.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 59,
+          "t": [
+            477.457,
+            487.323
+          ],
+          "quote": "No tool, Figma included, should limit your ability to push your creativity further and bring your ideas to life.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 60,
+          "t": [
+            489.044,
+            504.213
+          ],
+          "quote": "And here at Figma, we wake up every single day motivated to build the next generation of tools and workflows to enable all of you to design, to create in a totally unbounded way.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 70,
+          "t": [
+            556.706,
+            560.927
+          ],
+          "quote": "One question that has kept coming up throughout the history of Figma",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 76,
+          "t": [
+            600.358,
+            601.679
+          ],
+          "quote": "Figma shouldn't anymore either.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 90,
+          "t": [
+            679.816,
+            683.458
+          ],
+          "quote": "This was Figma when I joined as an intern eight years ago.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 103,
+          "t": [
+            769.42,
+            773.901
+          ],
+          "quote": "At Figma, we know that there's a better way to design and build.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 108,
+          "t": [
+            807.54,
+            821.008
+          ],
+          "quote": "So we're very, very, very excited to announce that code now lives on the Figma Canvas.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 129,
+          "t": [
+            891.456,
+            900.701
+          ],
+          "quote": "we're very excited to announce that we will allow you to import repositories from GitHub or upload local folders directly onto the Figma Canvas.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 146,
+          "t": [
+            958.509,
+            966.078
+          ],
+          "quote": "So when I go in here and I open this, the cool thing now is that because it's in the Figma Canvas, the chat is shared.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1214.497,
+            1232.751
+          ],
+          "quote": "Personally, I do really hope that you'll make a mess, like a beautiful mess, because this right here really is what enables collaborative creativity, this feeling that got me so excited about Figma in the first place.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 219,
+          "t": [
+            1337.077,
+            1340.739
+          ],
+          "quote": "I'm one of the co-founders of Weavey, now Figma Weave.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 220,
+          "t": [
+            1341.179,
+            1345.241
+          ],
+          "quote": "We've joined Figma last fall, so it's my first time at Config.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 231,
+          "t": [
+            1393.254,
+            1396.317
+          ],
+          "quote": "And now it's becoming integrated into the Figma platform.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 262,
+          "t": [
+            1571.341,
+            1575.563
+          ],
+          "quote": "Today we're bringing these Weave workflows as tools to the Figma Canvas.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1763.381,
+            1765.701
+          ],
+          "quote": "She's a product leader at Figma and an amazing friend.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1807.393,
+            1812.355
+          ],
+          "quote": "So starting today, you can generate plugins with the Figma agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2074.415,
+            2080.742
+          ],
+          "quote": "Building generative plugins makes it possible for you all to say yes to building the tools that you wish existed in Figma.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 384,
+          "t": [
+            2193.801,
+            2197.403
+          ],
+          "quote": "Something that I've wanted in Figma for ages.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 397,
+          "t": [
+            2235.868,
+            2238.711
+          ],
+          "quote": "Starting today, shaders are in Figma.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2269.202,
+            2273.726
+          ],
+          "quote": "And shaders have existed in Figma, living in the shadows of our core canvas rendering.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2288.342,
+            2292.246
+          ],
+          "quote": "Starting today, you can create your own shaders with the Figma agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 427,
+          "t": [
+            2388.951,
+            2391.772
+          ],
+          "quote": "And just think of fills in the same way that you think of fills in Figma.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 438,
+          "t": [
+            2513.44,
+            2523.168
+          ],
+          "quote": "Shader effect here on top of these real figma layers this isn't an image and you'll notice as I play with the sliders I can actually work this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2567.96,
+            2588.502
+          ],
+          "quote": "I'm gonna open this effect again and as an on canvas handle and as oh no this is better look at this pretty pretty rad all right now Georgia is heading to Shader City and this is her boarding pass wait but Raji can I have first class oh yeah I mean it's easy it's a real figma layer so but first of all",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2755.433,
+            2765.097
+          ],
+          "quote": "So whether you've been shader maxing like Raji for years or this is the first day you heard the word shaders, you can now build the visual effects and fills you've always wanted in Figma.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2793.075,
+            2796.778
+          ],
+          "quote": "Also coming soon, we'll have publishing to your org and the Figma community.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2816.498,
+            2821.142
+          ],
+          "quote": "To share what they've been up to since joining Figma, please help us welcome Piers and Dave.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 492,
+          "t": [
+            2856.555,
+            2862.119
+          ],
+          "quote": "Today, we get to show you something that we've been working on since we joined Figma from Modify a year ago.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 498,
+          "t": [
+            2897.891,
+            2903.775
+          ],
+          "quote": "It's been a while since we joined Figma, and we've seen a few people on X wondering what's been happening.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 503,
+          "t": [
+            2914.641,
+            2927.27
+          ],
+          "quote": "I mean, quite literally, as we were easing our way into our first few months, we were trying to figure out what the key framing of our focus at Figma should be.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 505,
+          "t": [
+            2935.876,
+            2940.379
+          ],
+          "quote": "Today, we're introducing Figma Motion.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 506,
+          "t": [
+            2953.067,
+            2959.83
+          ],
+          "quote": "Over the past year, we've worked with an incredible set of people to build Motion directly into Figma.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 511,
+          "t": [
+            2981.613,
+            2995.38
+          ],
+          "quote": "Right, here we are in Figma Design, and all I have to do to get into motion mode is come down here, toggle, and when I hit space, our designs spring into life.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 512,
+          "t": [
+            3001.083,
+            3009.907
+          ],
+          "quote": "Each animation you're seeing here has been made with Figma Motion, and it's available to you in beta today.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 513,
+          "t": [
+            3013.906,
+            3024.21
+          ],
+          "quote": "from keyframes and easing controls to styles, variables, and components, all the stuff you already love about Figma now has motion.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 542,
+          "t": [
+            3210.272,
+            3213.054
+          ],
+          "quote": "And these are also fully compatible with Figma Motion.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 560,
+          "t": [
+            3310.059,
+            3312.94
+          ],
+          "quote": "We're building 3D transforms in Figma.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 562,
+          "t": [
+            3323.739,
+            3329.341
+          ],
+          "quote": "Our awesome Vectors team, the same team that bought you Figma Draw last year, are hard at work at this.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 570,
+          "t": [
+            3365.483,
+            3367.845
+          ],
+          "quote": "And that's the rest of Figma's platform.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 586,
+          "t": [
+            3453.664,
+            3461.37
+          ],
+          "quote": "Another really exciting thing about building all of these capabilities on top of the rest of Figma is what it means for the combination of motion and effects.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 587,
+          "t": [
+            3462.618,
+            3467.342
+          ],
+          "quote": "Earlier, we showed you shader effects, which hugely expand the expressive range of Figma.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3636.22,
+            3642.744
+          ],
+          "quote": "The effect can actually distort parts of the design, all while Figma Motion is animating other parts of the design.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 627,
+          "t": [
+            3659.283,
+            3669.391
+          ],
+          "quote": "Each of these takes a base design that is built with Figma Motion and combines effects on top, which are also animated with motion, to create expressive and differentiated results.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 629,
+          "t": [
+            3673.675,
+            3683.783
+          ],
+          "quote": "It is genuinely hard to believe I'm in Figma sometimes, and often the results that I end up with after spending a lot of time getting deep into exploration are really different from what I first had in mind.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 632,
+          "t": [
+            3693.817,
+            3704.74
+          ],
+          "quote": "When you're ready to build, switch to dev mode, extract that code directly, or send it via the Figma MCP to your LLM, or of course, Figma Make.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 634,
+          "t": [
+            3710.341,
+            3716.123
+          ],
+          "quote": "Here's a design guide site that we've been able to create with some of the tools you've seen here today and the Figma MCP.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 644,
+          "t": [
+            3774.555,
+            3783.404
+          ],
+          "quote": "So we gave our incredibly talented brand team the combination of shaders and Figma Motion, and they used them to animate the entire launch film.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 645,
+          "t": [
+            3784.283,
+            3789.732
+          ],
+          "quote": "What you're seeing on screen at the moment is kind of the behind the scenes, like inside the Figma file.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 648,
+          "t": [
+            3799.987,
+            3805.349
+          ],
+          "quote": "Making motion a reality has brought together a huge number of people from many different parts of Figma.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 660,
+          "t": [
+            3926.313,
+            3936.077
+          ],
+          "quote": "I've been amazed as we've developed Figma Motion how intuitive it feels and also how it feels intuitive despite how powerful it is.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 661,
+          "t": [
+            3937.078,
+            3947.042
+          ],
+          "quote": "So I really hope that Figma Motion can inspire all of you and I cannot wait to see what all of you make with Figma Motion.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 662,
+          "t": [
+            3955.436,
+            3961.018
+          ],
+          "quote": "So throughout all the demos, you may have noticed once or twice, Figma Agent at work.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 664,
+          "t": [
+            3969.022,
+            3976.385
+          ],
+          "quote": "The Figma Agent also supports attachments and connectors, as well as attachments.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 672,
+          "t": [
+            4018.587,
+            4033.341
+          ],
+          "quote": "And whether that's checking for compliance or creating a synthetic user test or capturing a workflow that you're doing all the time and you wanna automate for your team, this is such a booster and we've been using them all over Figma in our process.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 675,
+          "t": [
+            4046.318,
+            4049.84
+          ],
+          "quote": "What if the Figma agent wasn't just for Figma design?",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 683,
+          "t": [
+            4087.895,
+            4094.06
+          ],
+          "quote": "All right, today we introduced new materials and new tools to the Figma Canvas.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 684,
+          "t": [
+            4095.732,
+            4102.437
+          ],
+          "quote": "To recap, Figma Motion, generative plugins, shaders, and weave tools are now in open beta.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 688,
+          "t": [
+            4126.417,
+            4142.322
+          ],
+          "quote": "So if you're wanting to be first in line to try these out, go sign up for early access, figma.com slash config dash betas with an S. Just give you all a second.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "本集说它是一个代码仓库平台，Figma 新推出的 CodeLayers 允许你直接从它导入仓库到画布上，并且能一键把代码更新推回它的仓库。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 129,
+          "t": [
+            891.456,
+            900.701
+          ],
+          "quote": "we're very excited to announce that we will allow you to import repositories from GitHub or upload local folders directly onto the Figma Canvas.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1179.819,
+            1181.48
+          ],
+          "quote": "And since code layers are connected to GitHub,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 666,
+          "t": [
+            3982.723,
+            3988.945
+          ],
+          "quote": "And we've launched them with Notion, Slack, Granola, Hex, GitHub, and Atlassian.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "notion",
+      "type": "company",
+      "role": "company",
+      "name": "Notion",
+      "file": "Notion",
+      "primary": false,
+      "how_described": "本集提到 Figma Agent 通过新增的连接器，可以把 Notion 里的外部数据和上下文直接拉进画布。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 666,
+          "t": [
+            3982.723,
+            3988.945
+          ],
+          "quote": "And we've launched them with Notion, Slack, Granola, Hex, GitHub, and Atlassian.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "slack",
+      "type": "company",
+      "role": "company",
+      "name": "Slack",
+      "file": "Slack",
+      "primary": false,
+      "how_described": "本集提到 Figma Agent 通过新增的连接器，可以把 Slack 里的外部数据和上下文直接拉进画布。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 666,
+          "t": [
+            3982.723,
+            3988.945
+          ],
+          "quote": "And we've launched them with Notion, Slack, Granola, Hex, GitHub, and Atlassian.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成是能自主执行任务的大脑：它让写代码变得极容易，还能听懂大白话，当场帮你生成插件、着色器或铺好动效关键帧，甚至把你反复用的提示词变成一键技能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 194,
+          "t": [
+            1172.017,
+            1178.419
+          ],
+          "quote": "And what this is going to do is it's going to analyze what has changed so our coding agent has the least amount of work to do.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1807.393,
+            1812.355
+          ],
+          "quote": "So starting today, you can generate plugins with the Figma agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1821.938,
+            1828.74
+          ],
+          "quote": "All right, friends, let's hop on board the Agent Express, first destination, plugin town.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 324,
+          "t": [
+            1834.752,
+            1860.24
+          ],
+          "quote": "Georgia what do you want to yeah so I've been working on this design and you can see I have some cool rectangles here that I've been drawing but I really want them to have that organic look and feel right now they're just a little bit flat so I'm going to ask the agent to create a plugin to randomize the height of all frame content so it looks like a real audio waveform and I'm on stage I can fig so I don't want it to ask me any questions I just want it to send it and see what it makes.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1862.022,
+            1882.643
+          ],
+          "quote": "I'll send the agent off on its journey and while I do that I want to tell you a little bit about these plugins generative plugins are a little bit different than the plugins that you know and love they don't require the desktop app you don't have to write a single line of code and they can be made with just a few prompts and they live in your file in the properties panel that you can see here.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 352,
+          "t": [
+            2010.6,
+            2017.422
+          ],
+          "quote": "Let's check in on our agent it looks like it has something for us if I'm going to go grab my waveform and open my new plug in.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 357,
+          "t": [
+            2051.95,
+            2056.514
+          ],
+          "quote": "So if I wanted to, I could edit this plugin and go back to the agent and continue to rev.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2141.708,
+            2157.316
+          ],
+          "quote": "The other thing is if I want to understand how Lauren built this plugin I can go back into the agent chat and find the conversation she had to learn how she built this tool I can get an understanding of how she got to the control she wanted and I could take it from here to either make it my own.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2288.342,
+            2292.246
+          ],
+          "quote": "Starting today, you can create your own shaders with the Figma agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 417,
+          "t": [
+            2315.844,
+            2321.587
+          ],
+          "quote": "So I'm gonna go ahead and go to my agent, click plus, and I'm gonna add images and files.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2326.93,
+            2344.719
+          ],
+          "quote": "This one here this is kind of the style I'm hoping for so I'm going to add this into the agent and I think agents are pretty good at picking up on these kinds of things all right and now I'm going to prompt live on stage so wish me well all right so I'm going to say yep create me a I just want a static effect.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 439,
+          "t": [
+            2523.969,
+            2530.435
+          ],
+          "quote": "And you can actually ask agent to do whatever you want so I can change the perspective I can also change handle.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 454,
+          "t": [
+            2611.024,
+            2615.826
+          ],
+          "quote": "But not only that, you can bake in the kinds of things or ask agent to do what you want.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 456,
+          "t": [
+            2621.248,
+            2628.431
+          ],
+          "quote": "All right wait I think I'm going back to my agent and let's see all right we get it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2774.54,
+            2780.665
+          ],
+          "quote": "And rolling out today, you can now build plugins and shader effects and shader fills with the agent.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 525,
+          "t": [
+            3114.061,
+            3121.945
+          ],
+          "quote": "But we know that building up animations laboriously on the timeline can get kind of tedious sometimes, so here you can also lean on Agent to help.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 528,
+          "t": [
+            3129.195,
+            3144.802
+          ],
+          "quote": "I can just drag to select all of the designs at the same time, jump into Agent, and say something like, fade in all images, slide and fade in text concurrently.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 537,
+          "t": [
+            3182.347,
+            3186.829
+          ],
+          "quote": "But that's okay, because everything that the agent generates for me is completely editable.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 541,
+          "t": [
+            3206.23,
+            3209.532
+          ],
+          "quote": "As you were watching a minute ago, Agent can also help you build plugins.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 662,
+          "t": [
+            3955.436,
+            3961.018
+          ],
+          "quote": "So throughout all the demos, you may have noticed once or twice, Figma Agent at work.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 664,
+          "t": [
+            3969.022,
+            3976.385
+          ],
+          "quote": "The Figma Agent also supports attachments and connectors, as well as attachments.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 668,
+          "t": [
+            3996.247,
+            3999.628
+          ],
+          "quote": "Custom skills are also now a part of the agent.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 675,
+          "t": [
+            4046.318,
+            4049.84
+          ],
+          "quote": "What if the Figma agent wasn't just for Figma design?",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 682,
+          "t": [
+            4071.401,
+            4080.268
+          ],
+          "quote": "we will have the FigJam agent and the slide agent, and I'm really, really excited to share more about this with you at a later date.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 687,
+          "t": [
+            4118.415,
+            4125.717
+          ],
+          "quote": "Coming soon, code layers, the FigGem agent, the Slides agent, these are all coming soon in closed beta.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "prompts",
+      "type": "concept",
+      "role": "concept",
+      "name": "提示词 (prompts)",
+      "file": "提示词",
+      "primary": true,
+      "how_described": "本集把它说成是用户给智能体下指令的语言，现在你只需用大白话提示词描述需求，就能造出工具或视觉特效；你还可以把反复用的提示词变成一键触发的斜杠命令。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            753.676,
+            757.297
+          ],
+          "quote": "Each one of us is like hundreds of prompts deep with our own agents.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1862.022,
+            1882.643
+          ],
+          "quote": "I'll send the agent off on its journey and while I do that I want to tell you a little bit about these plugins generative plugins are a little bit different than the plugins that you know and love they don't require the desktop app you don't have to write a single line of code and they can be made with just a few prompts and they live in your file in the properties panel that you can see here.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 554,
+          "t": [
+            3274.364,
+            3277.245
+          ],
+          "quote": "I think it took maybe four or five prompts to get this tool there.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 671,
+          "t": [
+            4010.26,
+            4017.246
+          ],
+          "quote": "With skills you can turn the prompts that you keep coming back to into reusable slash commands.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "code",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码 (code)",
+      "file": "代码",
+      "primary": true,
+      "how_described": "本集从根本观念上把它重新定义为一种用于设计的材料，打破它与设计对立的伪命题，它不应再被工具困在孤岛里，而应像图层一样在画布里被探索。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 1,
+          "t": [
+            118.037,
+            122.02
+          ],
+          "quote": "We grew up in a world that told us the future belonged to those who could code.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 5,
+          "t": [
+            134.585,
+            139.128
+          ],
+          "quote": "Code is a material, as shapeable as texture or color.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 69,
+          "t": [
+            549.185,
+            555.506
+          ],
+          "quote": "The first material that we're going to discuss today is one that you all know very well, code.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 71,
+          "t": [
+            563.073,
+            567.996
+          ],
+          "quote": "And I think across design community is when should you work in code.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 72,
+          "t": [
+            569.416,
+            581.322
+          ],
+          "quote": "For years the design industry has endlessly discussed this topic of design versus code and I will just say it flat out right now this is a false debate.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 73,
+          "t": [
+            583.424,
+            586.325
+          ],
+          "quote": "Code is not the opposite of design.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 74,
+          "t": [
+            588.066,
+            589.847
+          ],
+          "quote": "Code is material for design.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 83,
+          "t": [
+            645.69,
+            650.974
+          ],
+          "quote": "I studied interaction design, and code was one of my favorite materials.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 86,
+          "t": [
+            660.875,
+            666.3
+          ],
+          "quote": "I stayed up multiple nights in a row writing thousands of lines of code to get these effects working.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 87,
+          "t": [
+            667.681,
+            671.385
+          ],
+          "quote": "Code was wonderful to go deep into a rabbit hole with me.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 98,
+          "t": [
+            731.453,
+            734.915
+          ],
+          "quote": "I believe that we will be experiencing the same shift with code.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 99,
+          "t": [
+            736.195,
+            750.443
+          ],
+          "quote": "And it is a wonderful material, but while agents have made it so much easier to write thousands of lines of code, the workflows around code are not built for exploring together at all.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 105,
+          "t": [
+            781.974,
+            785.015
+          ],
+          "quote": "Including code so let's take a look at what we've been working on.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 108,
+          "t": [
+            807.54,
+            821.008
+          ],
+          "quote": "So we're very, very, very excited to announce that code now lives on the Figma Canvas.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 110,
+          "t": [
+            822.389,
+            825.81
+          ],
+          "quote": "They bring the full power of code to the space you already love.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 118,
+          "t": [
+            852.673,
+            855.215
+          ],
+          "quote": "And it's incredibly easy to create code layers.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 120,
+          "t": [
+            859.377,
+            863.52
+          ],
+          "quote": "And what I can do is I can just click here, and I can click this button, and I can say build this with code.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 124,
+          "t": [
+            871.659,
+            872.96
+          ],
+          "quote": "It's the code tool.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 125,
+          "t": [
+            872.98,
+            875.902
+          ],
+          "quote": "And it's going to create a code layer for you.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 127,
+          "t": [
+            879.885,
+            886.129
+          ],
+          "quote": "And it's easy, but we know that many of you have existing code bases as well, like prototyping playgrounds.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 139,
+          "t": [
+            933.582,
+            938.363
+          ],
+          "quote": "And instantly, you have multiple separate code bases running right in front of you.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 149,
+          "t": [
+            974.247,
+            980.93
+          ],
+          "quote": "This is cool, so I can just catch up too, and I can understand how my colleagues use code and agents to create.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 152,
+          "t": [
+            986.572,
+            990.454
+          ],
+          "quote": "Let me show you how you create a branch with code layers.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 165,
+          "t": [
+            1031.127,
+            1040.27
+          ],
+          "quote": "While code layers can be so beautifully deep, we as humans think spatially, right?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 193,
+          "t": [
+            1162.895,
+            1171.157
+          ],
+          "quote": "And so the cool thing is, as you can see down here, when we've broken something out from code to static design, we can now click Update Code Layers.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 195,
+          "t": [
+            1179.819,
+            1181.48
+          ],
+          "quote": "And since code layers are connected to GitHub,",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 202,
+          "t": [
+            1203.639,
+            1209.221
+          ],
+          "quote": "Because code is now an intuitive material for you all to work with.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1254.483,
+            1261.849
+          ],
+          "quote": "Every code layer you've seen is powered by Make, which we've been hard at work at improving as well.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 209,
+          "t": [
+            1271.296,
+            1279.163
+          ],
+          "quote": "And just recently, we shipped a massive update enabling you to locally on your machine work directly on your production code base.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 210,
+          "t": [
+            1280.644,
+            1286.966
+          ],
+          "quote": "With this and code layers, we will allow you to go from exploration all the way to implementation.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 211,
+          "t": [
+            1289.407,
+            1291.568
+          ],
+          "quote": "Code layers are launching in a closed beta.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 214,
+          "t": [
+            1305.167,
+            1310.749
+          ],
+          "quote": "Exploring code spatially isn't the only workflow that is coming to the canvas today.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 325,
+          "t": [
+            1862.022,
+            1882.643
+          ],
+          "quote": "I'll send the agent off on its journey and while I do that I want to tell you a little bit about these plugins generative plugins are a little bit different than the plugins that you know and love they don't require the desktop app you don't have to write a single line of code and they can be made with just a few prompts and they live in your file in the properties panel that you can see here.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 632,
+          "t": [
+            3693.817,
+            3704.74
+          ],
+          "quote": "When you're ready to build, switch to dev mode, extract that code directly, or send it via the Figma MCP to your LLM, or of course, Figma Make.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 636,
+          "t": [
+            3718.443,
+            3721.484
+          ],
+          "quote": "the animations here have been shipped in code.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 637,
+          "t": [
+            3730.147,
+            3740.651
+          ],
+          "quote": "But if shipping to code isn't quite your cup of tea, you can export as MP4, WebM, animated SVG, or GIF.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 676,
+          "t": [
+            4051.241,
+            4054.863
+          ],
+          "quote": "What if it could translate your code base into structured diagrams?",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 687,
+          "t": [
+            4118.415,
+            4125.717
+          ],
+          "quote": "Coming soon, code layers, the FigGem agent, the Slides agent, these are all coming soon in closed beta.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 700,
+          "t": [
+            4183.11,
+            4192.577
+          ],
+          "quote": "Everything you saw today, code, motion, your own tools, your own materials, it all lives together in the canvas.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "design-systems",
+      "type": "concept",
+      "role": "concept",
+      "name": "设计系统 (design systems)",
+      "file": "设计系统",
+      "primary": false,
+      "how_described": "本集提到 Figma Motion 的关键帧、预设等新增的动效控件，都可以无缝贯穿、适配到大家早已熟悉的设计系统中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 508,
+          "t": [
+            2963.531,
+            2971.174
+          ],
+          "quote": "Keyframes, presets, and much more are right at your fingertips, and they flow right through design systems.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "keyframes",
+      "type": "concept",
+      "role": "concept",
+      "name": "关键帧 (keyframes)",
+      "file": "关键帧",
+      "primary": false,
+      "how_described": "本集将它作为 Figma Motion 时间轴上的基础控件，选中对象拖动即可自动生成，并支持通过智能体一键铺好或手动精修缓动节奏。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 508,
+          "t": [
+            2963.531,
+            2971.174
+          ],
+          "quote": "Keyframes, presets, and much more are right at your fingertips, and they flow right through design systems.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 513,
+          "t": [
+            3013.906,
+            3024.21
+          ],
+          "quote": "from keyframes and easing controls to styles, variables, and components, all the stuff you already love about Figma now has motion.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 539,
+          "t": [
+            3190.489,
+            3200.032
+          ],
+          "quote": "Yeah, jump into the timeline, drag to select my keyframes, just adjust that timing, and then take a look at my animation.",
+          "speaker": "SPEAKER_06"
+        }
+      ]
+    },
+    {
+      "id": "codelayers",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码层 (CodeLayers)",
+      "file": "代码层",
+      "primary": true,
+      "how_described": "本集介绍的新功能：把代码直接放上 Figma 画布，让它变成像设计图层一样的直观材料，支持多人协同探索比较，并可与 GitHub 仓库双向同步。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 109,
+          "t": [
+            821.288,
+            821.968
+          ],
+          "quote": "Meet CodeLayers.",
+          "speaker": "SPEAKER_04"
+        }
+      ]
+    },
+    {
+      "id": "make",
+      "type": "concept",
+      "role": "concept",
+      "name": "Make",
+      "file": "Make",
+      "primary": true,
+      "how_described": "本集说它是驱动所有代码层背后的工具，最近新增了计划模式、语音转文字等功能，还能让你在本地电脑上直接对生产环境的真实代码库进行操作。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            148.495,
+            151.297
+          ],
+          "quote": "It's what would you make if you could make anything?",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 12,
+          "t": [
+            164.832,
+            167.113
+          ],
+          "quote": "The point isn't just to make it faster.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 46,
+          "t": [
+            369.681,
+            372.562
+          ],
+          "quote": "Don't just catch up with your old friends, make some new ones as well.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 150,
+          "t": [
+            982.871,
+            984.231
+          ],
+          "quote": "But I wanna make a riff now.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 157,
+          "t": [
+            1004.939,
+            1006.08
+          ],
+          "quote": "And so, now let's make the change.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 160,
+          "t": [
+            1013.364,
+            1017.387
+          ],
+          "quote": "Now, when a card is in the center, make the background color fit to the focus card.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 167,
+          "t": [
+            1042.491,
+            1047.273
+          ],
+          "quote": "We need to see the whole flow at a glance to make the right decisions about what our users should experience.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 177,
+          "t": [
+            1104.959,
+            1106.38
+          ],
+          "quote": "Okay, yeah, you want to help me make some riffs?",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1214.497,
+            1232.751
+          ],
+          "quote": "Personally, I do really hope that you'll make a mess, like a beautiful mess, because this right here really is what enables collaborative creativity, this feeling that got me so excited about Figma in the first place.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 205,
+          "t": [
+            1234.293,
+            1240.177
+          ],
+          "quote": "And one more thing, these people here and many, many more behind the scenes have worked hard to make this a reality.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 207,
+          "t": [
+            1254.483,
+            1261.849
+          ],
+          "quote": "Every code layer you've seen is powered by Make, which we've been hard at work at improving as well.",
+          "speaker": "SPEAKER_04"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1533.817,
+            1536.958
+          ],
+          "quote": "Normally, you'd make them black and white and try not to think about it, right?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 307,
+          "t": [
+            1748.797,
+            1749.957
+          ],
+          "quote": "Let's make some noise!",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1813.235,
+            1820.978
+          ],
+          "quote": "Now, we all have our own unique workflows, and we wanted to make it possible for anyone to build the tool they need in the moment, no coding required.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 335,
+          "t": [
+            1921.48,
+            1928.625
+          ],
+          "quote": "To recreate it, he normally has to make a bunch of manual adjustments, tweaking grids, colors, spacing, and making sure he's adding the right content.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 359,
+          "t": [
+            2061.199,
+            2065.443
+          ],
+          "quote": "So I could update this to take a real MP3 and make this even more lifelike.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 373,
+          "t": [
+            2141.708,
+            2157.316
+          ],
+          "quote": "The other thing is if I want to understand how Lauren built this plugin I can go back into the agent chat and find the conversation she had to learn how she built this tool I can get an understanding of how she got to the control she wanted and I could take it from here to either make it my own.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2277.872,
+            2280.394
+          ],
+          "quote": "The catch is that they've been kind of difficult to make.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 411,
+          "t": [
+            2285.139,
+            2287.241
+          ],
+          "quote": "If only there was a way to make them yourself.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 436,
+          "t": [
+            2464.948,
+            2493.148
+          ],
+          "quote": "If I move this around it's using 3D math and geometry to create this thing that is not just your grandma shares pretty cool so what I love about this is when I worked on the draw team we used to get a lot of requests for mesh gradients and we wanted to build it but we just kept pushing it out we're like we got to get to it we got to get to it what I love about this work stream is that we're building the tools to help you make whatever you want and have your own tools.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 571,
+          "t": [
+            3368.886,
+            3373.71
+          ],
+          "quote": "Because it really does make it feel like a new way of working.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 621,
+          "t": [
+            3626.335,
+            3631.238
+          ],
+          "quote": "So we've combined motion and shaders to make it feel really compelling.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 625,
+          "t": [
+            3644.985,
+            3648.167
+          ],
+          "quote": "If I jump in and make changes to the text, for example,",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 632,
+          "t": [
+            3693.817,
+            3704.74
+          ],
+          "quote": "When you're ready to build, switch to dev mode, extract that code directly, or send it via the Figma MCP to your LLM, or of course, Figma Make.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 659,
+          "t": [
+            3916.423,
+            3924.85
+          ],
+          "quote": "And so many of us have always wanted to be able to also make that kind of magic, yet it's felt out of reach.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 661,
+          "t": [
+            3937.078,
+            3947.042
+          ],
+          "quote": "So I really hope that Figma Motion can inspire all of you and I cannot wait to see what all of you make with Figma Motion.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 709,
+          "t": [
+            4237.788,
+            4242.452
+          ],
+          "quote": "So go make something that only you can make.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "generative-plugins",
+      "type": "concept",
+      "role": "concept",
+      "name": "生成式插件 (generative plugins)",
+      "file": "生成式插件",
+      "primary": true,
+      "how_described": "本集介绍它完全不需要写代码或桌面应用，只要用大白话向 Figma 智能体描述需求就能当场造出，且会留在文件里供其他人查看聊天记录并改造。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 325,
+          "t": [
+            1862.022,
+            1882.643
+          ],
+          "quote": "I'll send the agent off on its journey and while I do that I want to tell you a little bit about these plugins generative plugins are a little bit different than the plugins that you know and love they don't require the desktop app you don't have to write a single line of code and they can be made with just a few prompts and they live in your file in the properties panel that you can see here.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 330,
+          "t": [
+            1901.739,
+            1905.42
+          ],
+          "quote": "And generative plugins are perfect to build for your specific workflows.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 361,
+          "t": [
+            2074.415,
+            2080.742
+          ],
+          "quote": "Building generative plugins makes it possible for you all to say yes to building the tools that you wish existed in Figma.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 380,
+          "t": [
+            2182.537,
+            2184.798
+          ],
+          "quote": "We have had so much fun building generative plugins.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 684,
+          "t": [
+            4095.732,
+            4102.437
+          ],
+          "quote": "To recap, Figma Motion, generative plugins, shaders, and weave tools are now in open beta.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "shaders",
+      "type": "concept",
+      "role": "concept",
+      "name": "着色器 (shaders)",
+      "file": "着色器",
+      "primary": true,
+      "how_described": "本集把它说成是渐变、玻璃质感等高级视觉特效的底层魔法，以前要苦学几年数学才能做，现在只需一张参考图或一句指令，Figma 智能体就能帮你造出来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 397,
+          "t": [
+            2235.868,
+            2238.711
+          ],
+          "quote": "Starting today, shaders are in Figma.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 401,
+          "t": [
+            2251.921,
+            2252.342
+          ],
+          "quote": "Shaders.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 403,
+          "t": [
+            2257.232,
+            2259.134
+          ],
+          "quote": "Our glass effect, shaders.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 406,
+          "t": [
+            2269.202,
+            2273.726
+          ],
+          "quote": "And shaders have existed in Figma, living in the shadows of our core canvas rendering.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 407,
+          "t": [
+            2274.646,
+            2276.048
+          ],
+          "quote": "Are the shaders in the room with us?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 412,
+          "t": [
+            2288.342,
+            2292.246
+          ],
+          "quote": "Starting today, you can create your own shaders with the Figma agent.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2363.601,
+            2376.587
+          ],
+          "quote": "Be nice guys all right are you I will ask you questions and I've actually found it to be amazing like it'll it'll ask you and teach you things about shaders and so I love it but you know for now for now all right so we're going to kick this off we'll come back to it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 424,
+          "t": [
+            2377.927,
+            2381.268
+          ],
+          "quote": "All right, so let's talk about the two different kinds of shaders.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 430,
+          "t": [
+            2396.073,
+            2398.034
+          ],
+          "quote": "Now, they're shaders, so they're a little bit different.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 460,
+          "t": [
+            2647.485,
+            2666.233
+          ],
+          "quote": "Alright and so we've got a new effect here this one's a little bit different but it's great now the cool thing about this you know one shotting is a little bit difficult sometimes you don't have the right words and you can always click this here go back and edit and just create this edit loop and keep updating your shaders and your shader effects now I've got one last one for you before we're done.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 472,
+          "t": [
+            2739.349,
+            2742.41
+          ],
+          "quote": "The best shaders are going to be the ones that you dream up on your own.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 473,
+          "t": [
+            2742.85,
+            2745.151
+          ],
+          "quote": "And apparently I've loved shaders for years.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 475,
+          "t": [
+            2755.433,
+            2765.097
+          ],
+          "quote": "So whether you've been shader maxing like Raji for years or this is the first day you heard the word shaders, you can now build the visual effects and fills you've always wanted in Figma.",
+          "speaker": "SPEAKER_03"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2784.208,
+            2789.753
+          ],
+          "quote": "The interactive shaders, like the one that I was like, woo, that was fun, those are coming soon.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 589,
+          "t": [
+            3475.39,
+            3479.053
+          ],
+          "quote": "So let's take a look at creating a design which combines motion and shaders.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 621,
+          "t": [
+            3626.335,
+            3631.238
+          ],
+          "quote": "So we've combined motion and shaders to make it feel really compelling.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 644,
+          "t": [
+            3774.555,
+            3783.404
+          ],
+          "quote": "So we gave our incredibly talented brand team the combination of shaders and Figma Motion, and they used them to animate the entire launch film.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 684,
+          "t": [
+            4095.732,
+            4102.437
+          ],
+          "quote": "To recap, Figma Motion, generative plugins, shaders, and weave tools are now in open beta.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "figma-motion",
+      "type": "concept",
+      "role": "concept",
+      "name": "Figma Motion",
+      "file": "Figma Motion",
+      "primary": true,
+      "how_described": "本集介绍它把时间轴变成了基础的设计原语，带有直观的关键帧和缓动控制，让曾经只有专业动效工程师能施展的魔法变成所见即所得的拖拽。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 505,
+          "t": [
+            2935.876,
+            2940.379
+          ],
+          "quote": "Today, we're introducing Figma Motion.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 512,
+          "t": [
+            3001.083,
+            3009.907
+          ],
+          "quote": "Each animation you're seeing here has been made with Figma Motion, and it's available to you in beta today.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 542,
+          "t": [
+            3210.272,
+            3213.054
+          ],
+          "quote": "And these are also fully compatible with Figma Motion.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 623,
+          "t": [
+            3636.22,
+            3642.744
+          ],
+          "quote": "The effect can actually distort parts of the design, all while Figma Motion is animating other parts of the design.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 627,
+          "t": [
+            3659.283,
+            3669.391
+          ],
+          "quote": "Each of these takes a base design that is built with Figma Motion and combines effects on top, which are also animated with motion, to create expressive and differentiated results.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 644,
+          "t": [
+            3774.555,
+            3783.404
+          ],
+          "quote": "So we gave our incredibly talented brand team the combination of shaders and Figma Motion, and they used them to animate the entire launch film.",
+          "speaker": "SPEAKER_06"
+        },
+        {
+          "seg": 660,
+          "t": [
+            3926.313,
+            3936.077
+          ],
+          "quote": "I've been amazed as we've developed Figma Motion how intuitive it feels and also how it feels intuitive despite how powerful it is.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 661,
+          "t": [
+            3937.078,
+            3947.042
+          ],
+          "quote": "So I really hope that Figma Motion can inspire all of you and I cannot wait to see what all of you make with Figma Motion.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 684,
+          "t": [
+            4095.732,
+            4102.437
+          ],
+          "quote": "To recap, Figma Motion, generative plugins, shaders, and weave tools are now in open beta.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "connectors",
+      "type": "concept",
+      "role": "concept",
+      "name": "连接器 (connectors)",
+      "file": "连接器",
+      "primary": false,
+      "how_described": "本集说它是把外部数据拉进画布的桥梁，Figma Agent 通过它接入 Notion、Slack、GitHub 等外部工具，把零散信息直接融入设计中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 664,
+          "t": [
+            3969.022,
+            3976.385
+          ],
+          "quote": "The Figma Agent also supports attachments and connectors, as well as attachments.",
+          "speaker": "SPEAKER_08"
+        },
+        {
+          "seg": 665,
+          "t": [
+            3977.145,
+            3981.767
+          ],
+          "quote": "Now connectors let you pull in context from all sorts of other tools.",
+          "speaker": "SPEAKER_08"
+        }
+      ]
+    },
+    {
+      "id": "mcp",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP",
+      "file": "MCP",
+      "primary": false,
+      "how_described": "本集提到在定稿后，你可以通过 Figma MCP 协议把动效设计发给大语言模型（LLM）去进行代码开发。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 632,
+          "t": [
+            3693.817,
+            3704.74
+          ],
+          "quote": "When you're ready to build, switch to dev mode, extract that code directly, or send it via the Figma MCP to your LLM, or of course, Figma Make.",
+          "speaker": "SPEAKER_07"
+        },
+        {
+          "seg": 634,
+          "t": [
+            3710.341,
+            3716.123
+          ],
+          "quote": "Here's a design guide site that we've been able to create with some of the tools you've seen here today and the Figma MCP.",
+          "speaker": "SPEAKER_07"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

@@ -1,8 +1,7 @@
 {
   "revive": {
     "2026-07-10-talks-kalshi-founders-on-the-axios-show-full-i": 3,
-    "2026-08-06-a16z-how-open-source-ai-became-critical-infra": 1,
-    "2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou": 1
+    "2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou": 2
   },
   "talkVideoIds": {
     "xUnRQ9vLXxo": "2026-07-08-talks-everything-we-knew-about-software-has-ch",
@@ -17,13 +16,14 @@
     "WkktooN6s-w": "2026-06-16-talks-a-conversation-with-alan-cofounder-and-c",
     "5bjkprj4lpU": "2026-06-30-talks-tech-analyst-philipp-kl-ckner-in-convers",
     "mCi6v9svLoQ": "2026-07-07-talks-chamath-palihapitiya-talks-ai-trump-and",
-    "RPCuTCDBvoQ": "2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her"
+    "RPCuTCDBvoQ": "2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her",
+    "2ZCc4k_IV5w": "2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo"
   },
   "cutoffs": {
     "lennys": "2026-08-05T12:04:01.000Z",
-    "pg": "2026-07-28T21:49:23.000Z",
+    "pg": "2026-08-06T20:17:48.000Z",
     "a16z": "2026-08-02T10:46:36.000Z",
-    "yc": "2026-08-05T16:57:31.000Z",
+    "yc": "2026-08-06T19:28:24.000Z",
     "mad": "2026-08-06T11:30:01.000Z",
     "trainingdata": "2026-08-04T09:00:00.000Z",
     "bigtech": "2026-07-24T21:33:00.000Z",
@@ -209,6 +209,12 @@
       "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
       "title": "How to Build Long-Horizon AI Agents — Mitch Troyanovsky, Basis",
       "pubDate": "2026-08-06T11:30:01.000Z"
+    },
+    {
+      "id": "2026-08-06-yc-garry-tan-own-your-intelligence-e3n2rc1",
+      "reason": "导读/实体事实层未过(定点重写后仍未过,或密度熔断)",
+      "title": "Garry Tan: Own Your Intelligence",
+      "pubDate": "2026-08-06T19:28:24.000Z"
     }
   ]
 }

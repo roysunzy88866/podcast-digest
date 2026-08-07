@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]] [[Cat Wu]] [[Thariq Shihipar]] [[Alex Finn]] [[Aakash Gupta]] [[Jyothi Nookula]] [[Meng To]]
+[[Aakash]] [[Oji Udezue]] [[Claire]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]] [[Cat Wu]] [[Thariq Shihipar]] [[Alex Finn]] [[Aakash Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Claire Vo":2,"Gusto":1,"联合创始人":2,"vibe coding":6,"永久 Zoom":1,"智能体":51,"垃圾桶法":1,"Cloudflare Worker":1,"Vercel AI SDK":1,"Claude Code":13}</script>
+<script type="application/json" class="pd-epn">{"Claire Vo":2,"Gusto":1,"联合创始人":2,"vibe coding":6,"永久 Zoom":1,"智能体":53,"垃圾桶法":1,"Cloudflare Worker":1,"Vercel AI SDK":1,"Claude Code":14}</script>
 
 <script>
 (function(){

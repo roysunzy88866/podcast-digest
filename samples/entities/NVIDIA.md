@@ -53,7 +53,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Microsoft]] · [[ChatGPT]] · [[护栏]] · [[智能体]] · [[SpaceX]] · [[Google]] · [[深度学习]] · [[Lenny]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":27,"Anthropic":32,"Microsoft":7,"ChatGPT":11,"护栏":8,"智能体":51,"SpaceX":5,"Google":12,"深度学习":3,"Lenny":33}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":27,"Anthropic":32,"Microsoft":7,"ChatGPT":11,"护栏":9,"智能体":53,"SpaceX":5,"Google":12,"深度学习":3,"Lenny":33}</script>
 
 <script>
 (function(){

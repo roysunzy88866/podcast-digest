@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]] [[Cat Wu]] [[Alex Finn]] [[Aakash Gupta]] [[Jyothi Nookula]] [[Meng To]] [[Peter Steinberger]]
+[[Aakash]] [[Oji Udezue]] [[Claire]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]] [[Cat Wu]] [[Alex Finn]] [[Aakash Gupta]] [[Jyothi Nookula]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Simon Willison":1,"Cat Wu":1,"Anthropic":32,"Claude Code":13,"ClaudeTag":1,"Fable":3,"Slack":12,"Bun":1,"Rust":1,"Gemini":3}</script>
+<script type="application/json" class="pd-epn">{"Simon Willison":1,"Cat Wu":1,"Anthropic":32,"Claude Code":14,"ClaudeTag":1,"Fable":3,"Slack":13,"Bun":1,"Rust":1,"Gemini":3}</script>
 
 <script>
 (function(){

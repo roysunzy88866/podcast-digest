@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]]
+[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"swyx":1,"Akshat Bubna":1,"Modal":1,"智能体":51,"AX":1,"DX":2,"沙箱":10,"推理":1,"弹性推理":1,"投机解码":1}</script>
+<script type="application/json" class="pd-epn">{"swyx":1,"Akshat Bubna":1,"Modal":1,"智能体":53,"AX":1,"DX":2,"沙箱":10,"推理":1,"弹性推理":1,"投机解码":1}</script>
 
 <script>
 (function(){

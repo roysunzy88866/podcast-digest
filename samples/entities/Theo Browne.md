@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Claire]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]] [[Cat Wu]] [[Thariq Shihipar]] [[Alex Finn]] [[Aakash Gupta]] [[Jyothi Nookula]] [[Meng To]]
+[[Aakash]] [[Oji Udezue]] [[Claire]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]] [[Cat Wu]] [[Thariq Shihipar]] [[Alex Finn]] [[Aakash Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sonnet 3.5":1,"Opus 4.5":1,"Mythos":3,"编排":2,"拟物化":1,"沉没成本心态":1,"AWS":3,"Vercel":4,"Slack":12}</script>
+<script type="application/json" class="pd-epn">{"Sonnet 3.5":1,"Opus 4.5":1,"Mythos":3,"编排":2,"拟物化":1,"沉没成本心态":1,"AWS":3,"Vercel":4,"Slack":13}</script>
 
 <script>
 (function(){

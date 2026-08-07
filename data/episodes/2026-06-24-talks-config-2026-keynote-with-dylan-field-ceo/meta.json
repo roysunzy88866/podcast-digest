@@ -1,0 +1,25 @@
+{
+  "id": "2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo",
+  "audio_mp3": "https://github.com/roysunzy88866/podcast-digest/releases/download/talks-seed/2ZCc4k_IV5w.m4a",
+  "duration_sec": 4309.859,
+  "transcript_source": "whisperX ASR(词级对齐+pyannote 说话人分离+内置 VAD);由 scripts/fetch-source-whisperx.mjs 转换",
+  "transcript_segments": 720,
+  "asr": true,
+  "title_en": "Config 2026 Keynote with Dylan Field (CEO & Co-founder, Figma)",
+  "podcast": "精选演讲",
+  "date": "2026-06-24",
+  "speaker_map": {
+    "SPEAKER_04": "Nico",
+    "SPEAKER_08": "Dylan Field"
+  },
+  "speaker_map_source": "GLM 推断 + grounding 机器校(drift #23,自动);名字均在转写稿/标题命中",
+  "guests": [],
+  "host": "Nico",
+  "cohosts": [
+    "Dylan Field"
+  ],
+  "title_zh": "Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料",
+  "guest_name": "Dylan Field",
+  "guest_title": "Figma CEO",
+  "guest_source": "GLM-5.2 抄取 + 机器校(C12);name=本集说话人候选内选定;title_match=spliced"
+}

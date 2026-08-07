@@ -33,11 +33,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Willowryan]] [[David Cahn]] [[Philip Johnston]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]]
+[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Willowryan]] [[David Cahn]] [[Philip Johnston]] [[Josh]] [[Matt]] [[Robert Hackett]] [[Marc Andreessen]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"OpenAI":27,"NVIDIA":10,"Microsoft":7,"Safe Superintelligence":1,"Situational Awareness":1,"CoreWeave":1,"Meta":10,"Apple":6,"智能体":51,"算力":1}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":27,"NVIDIA":10,"Microsoft":7,"Safe Superintelligence":1,"Situational Awareness":1,"CoreWeave":1,"Meta":11,"Apple":6,"智能体":53,"算力":1}</script>
 
 <script>
 (function(){

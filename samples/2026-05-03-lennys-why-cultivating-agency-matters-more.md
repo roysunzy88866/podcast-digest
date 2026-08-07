@@ -116,8 +116,8 @@ tags:
 **顺着「产品方法」挖下去**
 
 - [[2026-06-07-lennys-father-of-the-ipod-and-iphone-on|iPod之父Tony Fadell：越是容易造的AI时代，越需要讲故事的“奢侈品”产品]] —— 同嘉宾:Lenny · 同公司:Anthropic、OpenAI · 同概念:智能体 (agent)
+- [[2026-06-24-talks-config-2026-keynote-with-dylan-field-ceo|Figma Config 2026:当代码、AI 与动效都变成画布上的设计材料]] —— 同公司:Figma、GitHub、Notion · 同概念:智能体 (agent)
 - [[2026-03-01-lennys-the-design-process-is-dead|AI 时代的设计大洗牌:对话 Anthropic 设计负责人 Jenny Wen]] —— 同嘉宾:Lenny · 同公司:Figma、Anthropic
-- [[2026-04-23-lennys-how-anthropics-product-team-moves|Claude Code 产品负责人:AI 时代 PM 的生存法则]] —— 同嘉宾:Lenny · 同公司:Anthropic · 同概念:智能体 (agent)
 
 </div>
 <div class="pd-ex">

@@ -19,17 +19,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Peter Steinberger]] · [[OpenClaw]] · [[智能体]] · [[Codex]] · [[Claude Code]] · [[mcp]] · [[提示注入]] · [[CLI]] · [[护城河]] · [[ChatGPT]]
+[[Peter Steinberger]] · [[OpenClaw]] · [[智能体]] · [[Codex]] · [[Claude Code]] · [[MCP]] · [[提示注入]] · [[CLI]] · [[护城河]] · [[ChatGPT]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]]
+[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Peter Steinberger":2,"OpenClaw":5,"智能体":51,"Codex":12,"Claude Code":13,"mcp":4,"提示注入":1,"CLI":2,"护城河":3,"ChatGPT":11}</script>
+<script type="application/json" class="pd-epn">{"Peter Steinberger":2,"OpenClaw":5,"智能体":53,"Codex":12,"Claude Code":14,"MCP":5,"提示注入":1,"CLI":2,"护城河":3,"ChatGPT":11}</script>
 
 <script>
 (function(){

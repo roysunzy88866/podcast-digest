@@ -19,17 +19,17 @@ unlisted: true
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Jyothi Nookula]] · [[Claude]] · [[Claude Code]] · [[智能体]] · [[对抗性智能体]] · [[mcp]] · [[知识库]] · [[技能]] · [[vibe coding]] · [[红队测试]]
+[[Jyothi Nookula]] · [[Claude]] · [[Claude Code]] · [[智能体]] · [[对抗性智能体]] · [[MCP]] · [[知识库]] · [[技能]] · [[vibe coding]] · [[红队测试]]
 
 ## ④ 也在聊「智能体」的人
 
 <div class="pd-peers">
 
-[[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]] [[Olivia Moore]] [[Frederick Rankin]]
+[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":11,"Claude Code":13,"智能体":51,"对抗性智能体":1,"mcp":4,"知识库":1,"技能":3,"vibe coding":6,"红队测试":2}</script>
+<script type="application/json" class="pd-epn">{"Jyothi Nookula":1,"Claude":11,"Claude Code":14,"智能体":53,"对抗性智能体":1,"MCP":5,"知识库":1,"技能":3,"vibe coding":6,"红队测试":2}</script>
 
 <script>
 (function(){
