@@ -227,6 +227,15 @@ describe("D17 降误报(ADR 0013 · standard-change 2026-07-19):版本号/复数
       const r = checkProse("他们开源了 Nemotron 模型家族", c(), { entities: [] });
       expect(r.failures.some((f: any) => f.kind === "D17-专名" && f.name === "Nemotron")).toBe(false);
     });
+    // standard-change 2026-08-07(拍板 A):ASR 词表(--initial_prompt)治本后 Jensen 仅剩主持人名 Harrison Chase
+    // 提示也拼不对(人名 ASR 天花板)→ 白名单兜底这一个查证过的真人(LangChain 联合创始人兼 CEO)。
+    it("Harrison / Chase(LangChain 创始人)不在转写稿,仍不被 D17 判编造(白名单免检,救 Jensen×LangChain)", () => {
+      const src = T.map((s: any) => s.text).join(" ").toLowerCase();
+      expect(src).not.toContain("harrison");
+      expect(src).not.toContain("chase");
+      const r = checkProse("与 LangChain 联合创始人 Harrison Chase 对谈开放智能体", c(), { entities: [] });
+      expect(r.failures.some((f: any) => f.kind === "D17-专名" && (f.name === "Harrison" || f.name === "Chase"))).toBe(false);
+    });
     it("★ 变异守卫 / 不放水:同句里编造的假专名(「Zorptron」)仍被 D17 拦(白名单没把整句放行)", () => {
       // 若把 REAL_PROPER_NOUNS 过滤去掉,NIM/Nemotron 两条会红(变异验证);
       // 这条保证白名单是**逐词**免检、不是「有真专名就整句放行」—— 假专名照拦。

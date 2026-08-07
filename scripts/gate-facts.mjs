@@ -528,11 +528,15 @@ const TOKEN_ALLOWLIST = new Set(["tldr", "ai", "id", "md", "url", "http", "https
  *                https://www.nvidia.com/en-us/ai-data-science/products/nim-microservices/
  *   · nemotron = NVIDIA 开源模型家族,官方产品页
  *                https://www.nvidia.com/en-us/ai-data-science/foundation-models/nemotron/
- * 起因:黄仁勋×LangChain 演讲(2026-07-08,whisperX ASR 无官方稿)两轮卡 D17 —— 两者演讲必提,
- * ASR 短缩写/生造词听岔 → 转写稿查无 → 误判「疑编造」= 误伤。
- * [standard-change: 用户授权 2026-08-01(两次确认拍板 B「补录真实专名容错」);口径承 drift #26 / D46 · 新 drift 号由调度员收口]
+ *   · harrison / chase = Harrison Chase(LangChain 联合创始人兼 CEO),本条演讲对谈主持,确有其人;
+ *                LangChain 官网/公开身份可核。ASR 连人名都听不准 → 转写稿无任何可登记形式 → 别名表召回救不了。
+ * 起因:黄仁勋×LangChain 演讲(2026-07-08,whisperX ASR 无官方稿)反复卡 D17 —— 两者演讲必提,
+ * ASR 短缩写/生造词/人名听岔 → 转写稿查无 → 误判「疑编造」= 误伤。
+ * 2026-08-07 补录 harrison/chase:ASR 专名词表(--initial_prompt,cc8b486)治本后,Jensen 其余专名
+ * (LLaMA/vLLM/Claude/OpenStack)已进稿过闸,仅剩主持人名 Harrison Chase 提示也拼不对 → 白名单兜底这一个真人名。
+ * [standard-change: 用户授权 2026-08-01(NIM/Nemotron,拍板 B)+ 2026-08-07(Harrison Chase,拍板 A);口径承 drift #26 / D46 · 新 drift 号由调度员收口]
  */
-const REAL_PROPER_NOUNS = new Set(["nim", "nemotron"]);
+const REAL_PROPER_NOUNS = new Set(["nim", "nemotron", "harrison", "chase"]);
 
 /**
  * D17/D8 的核心比对逻辑,抽成单一组合 —— **digest_md 与实体 how_described 共用它**
