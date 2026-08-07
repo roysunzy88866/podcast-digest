@@ -1,0 +1,7 @@
+# whisperX --initial_prompt 词表(ASR 偏置「怎么拼」,非内容)。
+# 病根:AI 产品/公司/人名常被 whisperX 听岔(LLaMA→llama、vLLM→VLM、Harrison Chase→听不出),
+#   真专名不在转写稿逐字出现 → 事实层闸门(D17)误判「疑编造」拦下整条演讲(实例:Jensen×LangChain)。
+# 修法:把常见 AI 专名灌进 initial_prompt 偏置模型拼写,让真专名逐字进转写稿、闸门自然过——
+#   只影响「怎么拼」不新增未说内容,不放松任何闸门校验。发现新高频误伤词补下面这一行(逗号分隔)。
+# 注:# 开头行是注释,加载时剔除;正文只留下面这一行(whisper prompt 上限约 224 token,别写太长)。
+Glossary of names in this AI and startups conversation: Anthropic, Claude, Claude Code, OpenAI, ChatGPT, Codex, Google DeepMind, Gemini, Meta, Llama, Mistral, Cohere, xAI, Grok, NVIDIA, NIM, Nemotron, CUDA, Microsoft, Copilot, Hugging Face, LangChain, LangSmith, LangGraph, Harrison Chase, LlamaIndex, vLLM, SGLang, Modal, Replit, Cursor, Windsurf, Vercel, Perplexity, Databricks, Snowflake, Stripe, OpenStack, Kubernetes, PyTorch, Transformer, MCP, RAG, RLHF.

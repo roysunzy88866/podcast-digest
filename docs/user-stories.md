@@ -1938,3 +1938,41 @@ Scenario: 全入口同受保护
 2. ✅ YAML ruby 解析校验通过(修掉一处 step name 内 `#44` 被当注释截断的坑,已加引号)。
 3. ✅ 全量单测绿;不 push 不触发云端。
 4. ✅ glm-check --kind code 对抗审计 + 裁决落账本。
+
+## 修 · ASR 专名词表偏置转写拼写(治本演讲误伤,2026-08-07 用户拍 C)(US-4, US-11)
+
+> **病根(实证)**:whisperX 对 AI 产品/公司/人名常听岔(实例 Jensen×LangChain 反复卡 D17:
+> Harrison Chase[LangChain 创始人]/LLaMA/vLLM/OpenStack/Claude 被听成别的),真专名不在转写稿逐字
+> 出现 → 事实层闸门 D17 判「疑编造」拦下整条(定点重写救不回、隔离)。前修 NIM/Nemotron 逐词加容错=
+> **打地鼠**(每次转写听岔的词不同),且往容错表塞词=放松防失真校验。
+> **修法(治本,不放松闸门)**:whisperX 调用加 `--initial_prompt`(词表 prompts/asr-vocab.txt,常见 AI
+> 专名),偏置模型**把真专名拼对** → 逐字进转写稿、闸门自然过。**只影响「怎么拼」不新增未说内容**;
+> 闸门口径一字不动(非 standard-change)。词表缺失/空 → 退化为无 prompt,绝不阻断转写。
+> **残留风险(记账)**:initial_prompt 理论上可能偏置模型「无中生有」插入词表里的词(污染真相源);
+> 用纯专名清单(非引导句)+ 控制长度把风险压到最低,后续按实测集观察,发现插词再收窄词表。
+
+```gherkin
+Feature: whisperX 用 AI 专名词表偏置拼写,治本 ASR 误伤误判(US-4, US-11)
+
+Scenario: 真专名被正确拼进转写稿,事实层闸门自然过
+  Given 一条演讲密集出现 AI 专名(如 Harrison Chase / LLaMA / vLLM)
+  And prompts/asr-vocab.txt 词表含这些专名
+  When whisperX 带 --initial_prompt 词表转写
+  Then 模型倾向把真专名逐字拼对、写进转写稿
+  And 导读/实体里这些专名在真相源命中,D17 事实层闸门不再误判「编造」
+
+Scenario: 只偏置拼写、不放松任何闸门校验
+  Given 事实层闸门 D17 口径与脚本一字未改
+  Then 修法不进容错表、不降硬校验,仅提高转写拼写准确度(治本非放松)
+
+Scenario: 词表缺失不阻断转写(fail-safe)
+  Given prompts/asr-vocab.txt 不存在或为空
+  When asrInitialPrompt() 载入
+  Then 返回空串、whisperX 不带 --initial_prompt 照常转写(退化不报错)
+```
+
+### DoD(修 · ASR 专名词表)
+1. ✅ prompts/asr-vocab.txt 词表落地(注释行说明用途 + 单行专名清单);asrInitialPrompt() 载入剔注释、缺文件回空串。
+2. ✅ whisperX args 条件注入 `--initial_prompt`(flag 名对 whisperX 官方源核实无误)。
+3. ✅ 单测 3 条(含卡过 Jensen 的真专名在词表、剔注释、缺文件 fail-safe);全量 822 绿。
+4. ⛔ 真转写效果待云端实跑验证:Jensen×LangChain 去账本重跑,看专名是否进稿、D17 是否过(债:landing 后触发)。

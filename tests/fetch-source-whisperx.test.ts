@@ -81,3 +81,57 @@ describe("transcriptDuration · 末段 end 缺不产 undefined(GLM 20260724-004[
     expect(transcriptDuration([{ text: "x" }])).toBe(0);
   });
 });
+
+// ASR 词表 → whisperX --initial_prompt(治本:偏置 AI 专名拼写,不放松事实层闸门)。
+// 起因:Jensen×LangChain 反复卡 D17——Harrison Chase/LLaMA/vLLM 等真专名被听岔、不在转写稿逐字出现被误判「编造」。
+describe("asrInitialPrompt · AI 专名词表载入(治本,不放松闸门)", () => {
+  it("★ 真词表非空,且含卡过 Jensen 的那批真专名(Harrison Chase/Llama/vLLM/NIM/Nemotron/Claude/OpenStack)", async () => {
+    const { asrInitialPrompt } = await import("../scripts/fetch-source-whisperx.mjs");
+    const p = asrInitialPrompt();
+    expect(p.length).toBeGreaterThan(0);
+    for (const term of ["Harrison Chase", "Llama", "vLLM", "NIM", "Nemotron", "Claude", "OpenStack"]) {
+      expect(p).toContain(term);
+    }
+  });
+  it("★ 注释行(# 开头)剔除,不进 prompt(按注释内容判,不禁正文用 #,GLM 012[3]:留 C# 等词余地)", async () => {
+    const { asrInitialPrompt } = await import("../scripts/fetch-source-whisperx.mjs");
+    const p = asrInitialPrompt();
+    expect(p.startsWith("#")).toBe(false);
+    expect(p).not.toContain("病根"); // 真词表注释行里的字样——出现即说明注释没剔干净
+    expect(p).not.toContain("whisperX --initial_prompt 词表");
+  });
+  it("词表缺失 → 返回空串(退化为无 prompt,绝不抛错阻断转写)", async () => {
+    const { asrInitialPrompt } = await import("../scripts/fetch-source-whisperx.mjs");
+    expect(asrInitialPrompt("/nonexistent/asr-vocab-xyz.txt")).toBe("");
+  });
+  it("词表存在但全是注释/空行 → 返回空串(GLM 20260807-011[4]:fail-safe 全覆盖)", async () => {
+    const { asrInitialPrompt } = await import("../scripts/fetch-source-whisperx.mjs");
+    const { writeFileSync, rmSync, mkdtempSync } = await import("node:fs");
+    const { tmpdir } = await import("node:os");
+    const { join } = await import("node:path");
+    const d = mkdtempSync(join(tmpdir(), "asrvocab-"));
+    const f = join(d, "asr-vocab.txt");
+    try {
+      writeFileSync(f, "# only a comment\n\n  \n#另一行注释\n"); // 含 CRLF 无关的纯注释+空白
+      expect(asrInitialPrompt(f)).toBe("");
+    } finally {
+      rmSync(d, { recursive: true, force: true });
+    }
+  });
+  it("多行含行尾空格/回车 → 逐行清洗后无脏字符(GLM 20260807-011[3])", async () => {
+    const { asrInitialPrompt } = await import("../scripts/fetch-source-whisperx.mjs");
+    const { writeFileSync, rmSync, mkdtempSync } = await import("node:fs");
+    const { tmpdir } = await import("node:os");
+    const { join } = await import("node:path");
+    const d = mkdtempSync(join(tmpdir(), "asrvocab-"));
+    const f = join(d, "asr-vocab.txt");
+    try {
+      writeFileSync(f, "# c\r\nLlama, vLLM  \r\nHarrison Chase\r\n");
+      const p = asrInitialPrompt(f);
+      expect(p).not.toContain("\r");
+      expect(p).toBe("Llama, vLLM Harrison Chase");
+    } finally {
+      rmSync(d, { recursive: true, force: true });
+    }
+  });
+});

@@ -56,6 +56,31 @@ export function transcriptDuration(transcript) {
   return max;
 }
 
+/**
+ * ASR 词表 → whisperX --initial_prompt(偏置 AI 专名拼写,不新增内容、不放松闸门)。
+ * 病根:LLaMA/vLLM/Harrison Chase 等真专名被听岔,不在转写稿逐字出现 → 事实层闸门 D17 误判「编造」拦下。
+ * 灌进 initial_prompt 让模型倾向拼对 → 真专名进转写稿、闸门自然过(治本,非放松校验)。词表见 prompts/asr-vocab.txt。
+ * 缺文件/空 → 返回 ""(退化为无 prompt,绝不阻断转写)。
+ */
+const ASR_VOCAB_PATH = join(ROOT, "prompts/asr-vocab.txt");
+const ASR_PROMPT_MAX = 1000; // whisper initial_prompt 只吃 ~224 token;截断=既省无用尾巴又防 spawnSync ARG_MAX(E2BIG)
+export function asrInitialPrompt(path = ASR_VOCAB_PATH) {
+  try {
+    if (!existsSync(path)) return "";
+    const text = readFileSync(path, "utf8")
+      .replace(/^\uFEFF/, "")                       // 剥 UTF-8 BOM(误存带 BOM 时防首词损坏,GLM 012[4])
+      .split("\n")
+      .map((l) => l.trim())                         // 逐行清洗:去 CRLF 的 \r、行首尾空格(防脏字符进 prompt)
+      .filter((l) => l && !l.startsWith("#"))        // 剔空行与整行注释
+      .join(" ")
+      .trim();
+    return text.slice(0, ASR_PROMPT_MAX);           // 上限保险(词表 ASCII,slice 不切多字节)
+  } catch (e) {
+    console.error(`⚠️ ASR 词表载入异常,退化为无 prompt(不阻断转写):${e?.message ?? e}`); // GLM 012[1]:非 ENOENT 故障不静默吞
+    return "";
+  }
+}
+
 /** 全程模式:下载 enclosure 音频 → 跑 whisperx CLI(runner 需已装)→ 返回其 JSON 输出。fail-closed。 */
 async function runWhisperx(audioUrl, durationSec) {
   if (!process.env.HF_TOKEN) throw new Error("缺 HF_TOKEN env(pyannote 分离要,fail-closed)");
@@ -67,11 +92,13 @@ async function runWhisperx(audioUrl, durationSec) {
     const res = await fetch(audioUrl, { redirect: "follow" });
     if (!res.ok) throw new Error(`音频下载失败 HTTP ${res.status}`);
     await pipeline(Readable.fromWeb(res.body), createWriteStream(audioFile));
-    console.log(`── whisperX 转写(model=${model},CPU int8 + 内置 VAD + pyannote 分离)…`);
+    const initialPrompt = asrInitialPrompt();
+    console.log(`── whisperX 转写(model=${model},CPU int8 + 内置 VAD + pyannote 分离${initialPrompt ? " + AI 专名词表偏置" : ""})…`);
     const t0 = Date.now();
     const r = spawnSync(
       "whisperx",
       [audioFile, "--model", model, "--compute_type", "int8", "--language", "en", "--threads", "4",
+       ...(initialPrompt ? ["--initial_prompt", initialPrompt] : []),
        "--diarize", "--hf_token", process.env.HF_TOKEN, "--output_dir", work, "--output_format", "json"],
       { stdio: "inherit" },
     );
