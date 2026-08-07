@@ -43,7 +43,7 @@ unlisted: true
 
 [[智能体]] · [[Meta]] · [[Lenny]] · [[护栏]] · [[Anthropic]] · [[Codex]] · [[Claude Code]] · [[OpenAI]] · [[Elena Berger]] · [[Lovable]]
 
-<script type="application/json" class="pd-epn">{"智能体":58,"Meta":12,"Lenny":33,"护栏":11,"Anthropic":34,"Codex":12,"Claude Code":15,"OpenAI":29,"Elena Berger":2,"Lovable":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":59,"Meta":12,"Lenny":33,"护栏":11,"Anthropic":34,"Codex":12,"Claude Code":15,"OpenAI":29,"Elena Berger":2,"Lovable":3}</script>
 
 <script>
 (function(){

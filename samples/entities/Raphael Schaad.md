@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]]
+[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Peter Steinberger":2,"OpenClaw":5,"智能体":58,"Codex":12,"Claude Code":15,"MCP":5,"提示注入":1,"CLI":2,"护城河":3,"ChatGPT":11}</script>
+<script type="application/json" class="pd-epn">{"Peter Steinberger":2,"OpenClaw":5,"智能体":59,"Codex":12,"Claude Code":15,"MCP":5,"提示注入":1,"CLI":2,"护城河":3,"ChatGPT":11}</script>
 
 <script>
 (function(){

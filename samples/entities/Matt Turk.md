@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]]
+[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sanjit Biswas":1,"Samsara":1,"物理 AI":3,"护栏":11,"生成式 AI":1,"智能体":58,"数据网络效应":1,"Agents Studio":1,"AI 行车记录仪":1,"资产标签":1}</script>
+<script type="application/json" class="pd-epn">{"Sanjit Biswas":1,"Samsara":1,"物理 AI":3,"护栏":11,"生成式 AI":1,"智能体":59,"数据网络效应":1,"Agents Studio":1,"AI 行车记录仪":1,"资产标签":1}</script>
 
 <script>
 (function(){

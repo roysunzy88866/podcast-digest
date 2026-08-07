@@ -41,7 +41,7 @@ unlisted: true
 
 [[GitHub]] · [[Figma]] · [[智能体]] · [[Lenny]] · [[Anthropic]] · [[Slack]] · [[Matt MacInnis]] · [[Max Schoening]] · [[Barney Hussey-Yeo]] · [[Nico]]
 
-<script type="application/json" class="pd-epn">{"GitHub":7,"Figma":5,"智能体":58,"Lenny":33,"Anthropic":34,"Slack":13,"Matt MacInnis":1,"Max Schoening":1,"Barney Hussey-Yeo":1,"Nico":1}</script>
+<script type="application/json" class="pd-epn">{"GitHub":7,"Figma":5,"智能体":59,"Lenny":33,"Anthropic":34,"Slack":13,"Matt MacInnis":1,"Max Schoening":1,"Barney Hussey-Yeo":1,"Nico":1}</script>
 
 <script>
 (function(){

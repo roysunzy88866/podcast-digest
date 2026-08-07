@@ -37,7 +37,7 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]]
+[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]]
 
 </div>
 

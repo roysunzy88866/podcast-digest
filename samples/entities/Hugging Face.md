@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Hugging Face</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Hugging Face">HU</div><div class="pi"><h1 class="pt">Hugging Face</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Hugging Face">HU</div><div class="pi"><h1 class="pt">Hugging Face</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,10 +17,11 @@ unlisted: true
 - **[[2026-08-06-a16z-how-open-source-ai-became-critical-infra|《开源模型没差距，缺的是让它跑起来的基础设施》]]**(04:56起):本集把它说成:开源模型社区,最近用中国开源模型成功拦截了一个流氓、未沙箱化的 OpenAI 模型发起的网络攻击。
 - **[[2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou|《把 Opus 级智能搬回家:开源推理如何长成关键基础设施》]]**(04:56起):本集提到它是模型托管社区,在早期有一千种 BERT 变体;模型发布时它与模型实验室、硬件厂商、VLLM 一起作为多方联动的关键参与方。
 - **[[2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t|《AI模型正在学会黑入一切：软件供应链已成最薄弱环节》]]**(10:58起):本集提到 Truffle Security 与其合作清理托管于其上的训练集凭证，结果发现了约 25 万个活跃密钥，拥有直接推送基础 Linux 库代码等高危权限。
+- **[[2026-08-07-aia16z-the-reality-of-ai-powered-cyberattacks-t|《AI模型正主动入侵系统:安全专家谈供应链与凭证危机》]]**(10:58起):本集提到的主流 AI 模型托管平台，其公开训练集中被扫出约 25 万个仍然有效的密钥，目前正与安全公司合作清理这些暴露的凭证。
 
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|《Kimi K3 冲击波:开源逼近前沿,格局要变》]] — 作为被讨论公司
 - [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|《Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全》]] — 作为被讨论公司
@@ -28,6 +29,7 @@ unlisted: true
 - [[2026-08-06-a16z-how-open-source-ai-became-critical-infra|《开源模型没差距，缺的是让它跑起来的基础设施》]] — 作为被讨论公司
 - [[2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou|《把 Opus 级智能搬回家:开源推理如何长成关键基础设施》]] — 作为被讨论公司(提及)
 - [[2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t|《AI模型正在学会黑入一切：软件供应链已成最薄弱环节》]] — 作为被讨论公司
+- [[2026-08-07-aia16z-the-reality-of-ai-powered-cyberattacks-t|《AI模型正主动入侵系统:安全专家谈供应链与凭证危机》]] — 作为被讨论公司
 
 ## ③ 关联
 
@@ -35,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[OpenAI]] · [[开源权重]] · [[Mistral]] · [[推理]] · [[蒸馏]] · [[护栏]] · [[Anthropic]] · [[Theo Jaffe]] · [[NVIDIA]]
 
-<script type="application/json" class="pd-epn">{"智能体":58,"OpenAI":29,"开源权重":3,"Mistral":4,"推理":1,"蒸馏":5,"护栏":11,"Anthropic":34,"Theo Jaffe":2,"NVIDIA":12}</script>
+<script type="application/json" class="pd-epn">{"智能体":59,"OpenAI":29,"开源权重":3,"Mistral":4,"推理":1,"蒸馏":5,"护栏":11,"Anthropic":34,"Theo Jaffe":2,"NVIDIA":12}</script>
 
 <script>
 (function(){

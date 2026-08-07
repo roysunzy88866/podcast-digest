@@ -7,11 +7,11 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Firas</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Firas">FI</div><div class="pi"><h1 class="pt">Firas</h1><div class="byl">The a16z Show 联合主持</div><div class="nums">本站收录 <b>1</b> 集 · <b>5</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Firas">FI</div><div class="pi"><h1 class="pt">Firas</h1><div class="byl">The a16z Show 联合主持</div><div class="nums">本站收录 <b>2</b> 集 · <b>6</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## ① 他说过的话
 
-*5 条,均已过机器闸门*
+*6 条,均已过机器闸门*
 
 ![[2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t#^q3]]
 
@@ -23,11 +23,14 @@ unlisted: true
 
 ![[2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t#^q11]]
 
+![[2026-08-07-aia16z-the-reality-of-ai-powered-cyberattacks-t#^q6]]
+
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t|《AI模型正在学会黑入一切：软件供应链已成最薄弱环节》]] — 作为联合主持
+- [[2026-08-07-aia16z-the-reality-of-ai-powered-cyberattacks-t|《AI模型正主动入侵系统:安全专家谈供应链与凭证危机》]] — 作为联合主持
 
 ## ③ 他谈到的
 
@@ -43,7 +46,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Dylan":1,"Joel de la Garza":1,"Truffle Security":1,"Socket":1,"Hugging Face":6,"NPM":1,"前沿模型":1,"软件供应链":1,"零日漏洞":1,"NPM 蠕虫":1}</script>
+<script type="application/json" class="pd-epn">{"Dylan":2,"Joel de la Garza":2,"Truffle Security":2,"Socket":2,"Hugging Face":7,"NPM":2,"前沿模型":1,"软件供应链":2,"零日漏洞":2,"NPM 蠕虫":2}</script>
 
 <script>
 (function(){

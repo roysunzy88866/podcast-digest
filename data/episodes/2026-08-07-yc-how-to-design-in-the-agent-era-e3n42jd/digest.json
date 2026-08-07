@@ -1,0 +1,97 @@
+{
+  "title_zh": "甩掉「AI 味」的设计工具 Paper:代码即画布",
+  "tldr": "一款用 HTML 和 CSS 当渲染引擎的设计工具,让人类与智能体协作实现更高级的设计品味。",
+  "digest_md": "用 Claude 随手吐出一个设计确实诱人,但 Paper 的创始人 Stephen 认为,照单全收恰恰是你无法从一万个项目里脱颖而出的致命原因 [00:25 Stephen Haney]。\n\n这一集 YC 的对谈里,Stephen 讲了三件事:Paper 为什么不用自定义渲染引擎,而是直接拿 HTML 和 CSS 当画布,这背后有什么决定性的好处;随着 Claude Code 的爆发,设计师怎么跟 Cursor 这类编程智能体无缝接力,甚至做到「睡一觉醒来,几百个设计变体已经躺在画布里等你挑」;以及一个相当反直觉的实操指南——怎么靠几条极其简单的排版铁律,把智能体生成的页面从「平庸的 AI 味」里拉出来。结尾他还回答了一个扎心的问题:如果智能体迟早会懂得排版,人类设计师到底还剩什么是不可替代的。\n\n## 从一份副业到智能体原生的画布\n\n Stephen 自己有一段很典型的「独立开发者逆袭」经历。他一开始是作为独立创始人做这个项目,中间甚至有好几个月都在自我怀疑「到底有没有人会在乎 Paper」 [02:15 Stephen Haney]。但 Paper 真的就是那个他无论如何都要做下去的事,源于他本身对创意工具的极度热爱 [02:22 Stephen Haney]。后来团队慢慢扩大到 12 个人,全部是设计师和工程师。\n\n他们做了一件技术路线上非常决绝的事:直接使用 HTML 和 CSS 作为 Paper 的底层渲染引擎 [01:10 Stephen Haney]。> 【背景】传统的 UI 设计工具(如 Figma)通常使用自定义渲染引擎来绘制图形,设计稿最终需要人工翻译成代码才能上线。这么做最初其实是为了解决「设计师到开发者的交接」难题——让设计师在无约束的画布上像用 Figma 或 Sketch 一样自由创作,但底层其实已经是 HTML [03:20 Stephen Haney]。结果他们意外地发现,如果你为人类构建了一个很棒的工作交接流程,你其实也为智能体构建了一个很棒的流程 [03:35 Stephen Haney]。因为智能体天生就极其理解 HTML 和 CSS,这些技术本就在它们的训练数据里。当你要求智能体去处理一个 Paper 文件时,它实际上就是直接读出 CSS 并确切知道该怎么处理 [03:43 Stephen Haney]。相比之下,使用自定义渲染引擎的传统设计工具会让智能体遇到更高的 Token 开销、更慢的速度和更低的准确度 [01:26 Stephen Haney]。\n\n## 打破设计与代码的墙:当 Claude Code 爆发后\n\n 既然底层技术已经对智能体如此友好,Paper 真正的转折点发生在 2025 年 12 月。Stephen 看到了被称作 Claude Code 爆发的现象,他原本绝不相信设计师会待在终端里,但事实确实发生了,设计师们开始学习 GitHub、拥有了本地代码仓库 [12:27 Stephen Haney]。这迫使他们迅速推出桌面应用,并构建了一个 MCP 服务器。> 【背景】MCP(Model Context Protocol,模型上下文协议)是一种让外部工具与 AI 模型安全通信、交换数据的开放标准。Paper 在桌面端构建了 MCP 服务,让外部编程智能体能直接读写 Paper 里的 HTML。\n\n这让一种全新的「智能体技术栈」工作流成为可能:你拥有 Cursor 或 Claude Code 作为多个智能体,拥有 Paper 作为与它们交流的视觉界面,然后通过 GitHub 进行代码审查 [12:53 Stephen Haney]。Stephen 甚至提到,很多 YC 的最新批次里,大家会把 Conductor(一款代码合并工具)和 Paper 联用,直接在应用内完成代码的推送与合并 [13:15 Stephen Haney]。\n\n这种工作流彻底解决了一个长期痛点:以前设计师把设计稿交给开发者,经常会偏离初衷,而且代码演化后永远不会再回写到设计中,导致很多团队不得不痛苦地维护两份不同步的设计系统副本 [15:47 swyx]。而在 Paper 的方案里,代码就是唯一的真实版本,两个系统都知道如何在同一个代码库上工作 [15:57 swyx]。它打破了以往在设计工具和代码之间那堵厚厚的墙,让设计工具成了整个技术栈的一部分 [15:26 Stephen Haney]。通过一个 Chrome 扩展,你甚至可以抓取正在线上运行的实时网站,把它作为可编辑的图层直接复制到 Paper 画布中进行迭代 [16:37 Stephen Haney]。\n\n## 「睡一觉醒来,几百个变体已经躺在画布里」\n\n 工具变了,人的工作方式自然也得跟着变。这一集最有趣的演示,就是 Stephen 怎么把智能体当成「规模化变体生成器」来用。他最推崇的方式并不是写长篇大论的提示词,而是在画布上留下评论,然后让智能体自己去运转 [20:38 Stephen Haney]。他会直接让一个智能体生成某个区块的 20 个变体,然后由人类来做策展和筛选,这是一种全新的策展设计过程 [21:17 Stephen Haney]。他甚至看到很多用户把这些智能体循环整夜运行着,一觉醒来,智能体要么已经处理完了所有反馈,要么就在画布里留下了大量可供选择的迭代版本等着他们 [21:20 swyx]。\n\n要驱动这些智能体,选对模型也很关键。Stephen 分享了他日常切换的模型库:如果需要纯粹的视觉品味,他认为 Fable(目前最好的视觉品味模型)和 Anthropic 的模型是首选,只是 Fable 速度很慢,不适合用来做演示 [22:59 Stephen Haney]。如果追求精确度,或者手里有 100 个画板需要批量处理任务,Cursor 的 Composer 就成了香饽饽 [23:23 Stephen Haney]。但模型再强,它们产出的第一版往往也带着浓重的 AI 味。在节目里,他们现场实操了如何使用一款叫做 Paper Snapshot 的功能抓取用户提交的两个真实网站,把它们直接拉进画布进行改造 [18:39 Stephen Haney]。\n\n## 甩掉「AI 味」:把字重往回拉,只用三种字号\n\n 有了智能体生成的变体,真正的差异化竞争才刚刚开始。Stephen 在实操网站改造时,展现了一套非常克制的美学铁律来消除「AI 味」——也就是那种一眼看上去就是模型随口吐出来的廉价感。他指出,模型非常喜欢使用粗体,但设计师应该试着把字重尽可能往回拉,字体瞬间就会神奇地看起来更有设计感 [24:54 Stephen Haney]。模型还喜欢在页面上堆砌五六七八种不同的字号,而Stephen 的规则是:最多只用三种 [25:07 Stephen Haney]。这种极简的字重与字号控制,在改造一个名为 Cytex 的网站时立竿见影 [30:46 Stephen Haney]。\n\n此外,模型还有一些典型的坏习惯:喜欢在卡片侧面加两像素的微小颜色色块,喜欢过度使用卡片布局,尤其偏爱紫色渐变 [33:51 Stephen Haney]。另一个显著的 AI 破绽,是给每个应用都默认加上一个糟糕的浅色模式和深色模式切换,哪怕没人真的会把它作为第一个功能去开发,但这往往让设计显得极其草率 [35:48 Stephen Haney]。Stephen 甚至提到一条来自推文的「天启四骑士」理论,罗列了那些为了填充空间而存在的全大写小标题和带额外小图标的徽章 [36:22 Stephen Haney]。Stephen 认为,避免 AI 风格的做法很多时候都在于往回拉,因为很多设计其实就是做减法、做删除 [35:04 Stephen Haney]。如果你对世界展示的是平庸的表现,哪怕产品再好,也很难建立起一家伟大的公司,设计水准甚至会影响你能招募到什么样的人才 [37:32 Stephen Haney]。\n\n## Paper 的内部哲学与人类的不可替代性\n\n 既然 Stephen 对设计的品味如此执着,那你可能好奇 Paper 内部到底怎么用智能体。有趣的是,Paper 团队在使用智能体上显得相当「恐龙」。Stephen 坦言他们不用智能体审查 Slack,而且对于核心代码库,他们仍然逐行阅读代码,通常会有多个人审查每一行 [44:08 Stephen Haney]。因为像 Figma 这种级别的设计工具,是没法完全靠凭感觉编码来构建的,它需要达到 120 FPS 的丝滑体验,容不得半点差错 [44:15 Stephen Haney]。\n\n但在非核心业务上,智能体的杠杆力惊人。他们的品牌设计师 Agu 在一周内独立构建并上线了整个 Paper 官网 [45:00 Stephen Haney]。Agu 并不认为自己是程序员,但他在 Paper 里做好所有设计(包括复杂的背景着色器),然后只需给智能体一句话提示,就能把设计变成一个 Next.js 网站代码库 [45:25 Stephen Haney]。这种做法并不代表人类失去了价值。Stephen 坚信,智能体会越来越擅长字间距之类的战术性细节,像 Fable 这样的模型也显得越来越深思熟虑 [41:22 Stephen Haney]。但设计不仅是输出像素,它在组织中扮演着做决策、引入需求、平衡利益相关者的角色,而这些是智能体完全不具备技能的领域 [41:50 Stephen Haney]。因此,人类的品味与深思熟虑,在很长一段时间内依然是解开设计难题不可或缺的一环 [43:53 Stephen Haney]。\n\n## 本集带走\n\n 最后收个尾,这一集值得带走的是几句话。第一,让智能体的底层语言(HTML/CSS)直接成为设计工具的渲染引擎,这能省下海量的 Token,让模型少犯错,彻底砸碎设计稿与代码之间那堵不同步的墙。第二,与其指望智能体一次吐出完美答案,不如让它们整夜去生成上百个变体,然后由人类来做策展和组合,人只负责做最高级的审美决策。第三,想摆脱一眼假的「AI 味」其实很简单:把粗体大幅缩减、把字号种类砍到三个、删掉那些为了填充空间而存在的紫色渐变和奇怪徽章——少即是多,克制才是真正的设计力。最后,别被行业里的错失恐惧症(FOMO)绑架,作为一家由 12 人组成的小而精的团队,只要与市场的价值观高度一致,哪怕不堆砌所有功能,只要追求极致的精度与品味,用户依然会坚定地站在你这边。",
+  "quotes": [
+    {
+      "en": "It's probably very tempting to use whatever Claude design spits out.",
+      "zh": "使用任何 Claude 设计吐出的东西可能很诱人。",
+      "timestamp": "00:13",
+      "speaker": "Stephen Haney"
+    },
+    {
+      "en": "And so I think design is this great differentiator.",
+      "zh": "所以我认为设计是这种巨大的差异化因素。",
+      "timestamp": "00:17",
+      "speaker": "Stephen Haney"
+    },
+    {
+      "en": "And so what we see from the newer companies is they are treating the code base as a source of truth.",
+      "zh": "所以我们从新公司那里看到的是,他们把代码库当作唯一的真实版本。",
+      "timestamp": "16:18",
+      "speaker": "Stephen Haney"
+    },
+    {
+      "en": "We actually have a really great image generation library where you can use all kinds of models all at once.",
+      "zh": "我们实际上有一个非常好的图像生成库,你可以一次使用所有类型的模型。",
+      "timestamp": "08:27",
+      "speaker": "Stephen Haney"
+    },
+    {
+      "en": "We see so many teams maintain two copies of their design system.",
+      "zh": "我们看到太多团队维护他们设计系统的两个副本。",
+      "timestamp": "16:04",
+      "speaker": "Stephen Haney"
+    },
+    {
+      "en": "It's impossible, really.",
+      "zh": "实际上,这是不可能的。",
+      "timestamp": "16:11",
+      "speaker": "Stephen Haney"
+    },
+    {
+      "en": "We don't have components in paper yet.",
+      "zh": "而我们在 Paper 里还没有组件。",
+      "timestamp": "16:25",
+      "speaker": "Stephen Haney"
+    },
+    {
+      "en": "They're setting up loops of an agent, just generating hundreds of variations.",
+      "zh": "他们正在设置智能体的循环,只生成数百个变体。",
+      "timestamp": "21:00",
+      "speaker": "Stephen Haney"
+    },
+    {
+      "en": "Agents are very insecure.",
+      "zh": "智能体非常不自信。",
+      "timestamp": "34:41",
+      "speaker": "Stephen Haney"
+    },
+    {
+      "en": "I think a lot of design is deleting.",
+      "zh": "我认为很多设计在于删除。",
+      "timestamp": "34:57",
+      "speaker": "Stephen Haney"
+    },
+    {
+      "en": "Every vibe-coded app has light mode and dark mode.",
+      "zh": "每一个凭感觉编码的应用都有浅色模式和深色模式。",
+      "timestamp": "35:48",
+      "speaker": "Stephen Haney"
+    },
+    {
+      "en": "And so I think design is this great differentiator.",
+      "zh": "所以我认为设计是这种巨大的差异化因素。",
+      "timestamp": "33:16",
+      "speaker": "Stephen Haney"
+    },
+    {
+      "en": "We didn't have a product for the first year, and we still got to about 25,000 Twitter followers just by talking about our values.",
+      "zh": "在第一年里我们并没有产品,但我们仅仅通过谈论我们的价值观,就在 Twitter 上获得了大约 25,000 名关注者。",
+      "timestamp": "47:41",
+      "speaker": "Stephen Haney"
+    },
+    {
+      "en": "I had to talk to a designer every single day.",
+      "zh": "我每天都要和一位设计师交谈。",
+      "timestamp": "51:52",
+      "speaker": "Stephen Haney"
+    },
+    {
+      "en": "Maybe 10 years, something like that.",
+      "zh": "也许 10 年,大概是那样。",
+      "timestamp": "43:45",
+      "speaker": "Stephen Haney"
+    }
+  ]
+}

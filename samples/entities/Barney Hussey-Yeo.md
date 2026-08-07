@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]]
+[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"John Collison":1,"Clio":1,"智能体":58,"LLM":4,"推荐系统":1,"监督学习":1,"强化学习":6,"transformer":2,"创造性破坏":1,"Anthropic":34}</script>
+<script type="application/json" class="pd-epn">{"John Collison":1,"Clio":1,"智能体":59,"LLM":4,"推荐系统":1,"监督学习":1,"强化学习":6,"transformer":2,"创造性破坏":1,"Anthropic":34}</script>
 
 <script>
 (function(){

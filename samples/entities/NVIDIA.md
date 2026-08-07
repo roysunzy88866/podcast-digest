@@ -57,7 +57,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[护栏]] · [[智能体]] · [[Google]] · [[Microsoft]] · [[ChatGPT]] · [[Jensen Huang]] · [[沙箱]] · [[SpaceX]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":29,"Anthropic":34,"护栏":11,"智能体":58,"Google":13,"Microsoft":7,"ChatGPT":11,"Jensen Huang":3,"沙箱":11,"SpaceX":5}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":29,"Anthropic":34,"护栏":11,"智能体":59,"Google":13,"Microsoft":7,"ChatGPT":11,"Jensen Huang":3,"沙箱":11,"SpaceX":5}</script>
 
 <script>
 (function(){

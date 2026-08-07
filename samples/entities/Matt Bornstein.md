@@ -42,11 +42,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Elena Berger]] [[Simon Mo]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]]
+[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Elena Berger]] [[Simon Mo]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Elena Berger":2,"Simon Mo":2,"vLLM":3,"开源权重":3,"推理":1,"智能体":58,"护栏":11,"K3":2,"Hugging Face":6,"Mistral":4}</script>
+<script type="application/json" class="pd-epn">{"Elena Berger":2,"Simon Mo":2,"vLLM":3,"开源权重":3,"推理":1,"智能体":59,"护栏":11,"K3":2,"Hugging Face":7,"Mistral":4}</script>
 
 <script>
 (function(){

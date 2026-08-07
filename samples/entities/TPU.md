@@ -27,7 +27,7 @@ unlisted: true
 
 [[Google]] · [[Jeff Dean]] · [[Alex]] · [[智能体]] · [[David Cahn]] · [[多智能体系统]] · [[AGI]] · [[专用推理硬件]] · [[资本支出]] · [[推理]]
 
-<script type="application/json" class="pd-epn">{"Google":13,"Jeff Dean":1,"Alex":2,"智能体":58,"David Cahn":1,"多智能体系统":1,"AGI":7,"专用推理硬件":1,"资本支出":2,"推理":1}</script>
+<script type="application/json" class="pd-epn">{"Google":13,"Jeff Dean":1,"Alex":2,"智能体":59,"David Cahn":1,"多智能体系统":1,"AGI":7,"专用推理硬件":1,"资本支出":2,"推理":1}</script>
 
 <script>
 (function(){

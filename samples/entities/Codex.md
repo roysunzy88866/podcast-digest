@@ -56,7 +56,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[Claude Code]] · [[Anthropic]] · [[Meta]] · [[Cursor]] · [[OpenClaw]] · [[PRD]] · [[Linear]] · [[Google]]
 
-<script type="application/json" class="pd-epn">{"智能体":58,"Lenny":33,"Claude Code":15,"Anthropic":34,"Meta":12,"Cursor":6,"OpenClaw":5,"PRD":5,"Linear":2,"Google":13}</script>
+<script type="application/json" class="pd-epn">{"智能体":59,"Lenny":33,"Claude Code":15,"Anthropic":34,"Meta":12,"Cursor":6,"OpenClaw":5,"PRD":5,"Linear":2,"Google":13}</script>
 
 <script>
 (function(){

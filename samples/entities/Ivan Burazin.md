@@ -41,11 +41,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]]
+[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Daytona":1,"Cognition":4,"Neon":2,"Parallel":2,"智能体":58,"沙箱":11,"突发负载":1,"裸金属":1,"计算机使用":3,"托管型 Kubernetes":1}</script>
+<script type="application/json" class="pd-epn">{"Daytona":1,"Cognition":4,"Neon":2,"Parallel":2,"智能体":59,"沙箱":11,"突发负载":1,"裸金属":1,"计算机使用":3,"托管型 Kubernetes":1}</script>
 
 <script>
 (function(){

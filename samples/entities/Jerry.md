@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]]
+[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":12,"Sega":1,"Waymo":7,"Tesla":5,"Mercedes":1,"加速计算":1,"智能体":58,"物理 AI":3,"系统思维":3}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":3,"NVIDIA":12,"Sega":1,"Waymo":7,"Tesla":5,"Mercedes":1,"加速计算":1,"智能体":59,"物理 AI":3,"系统思维":3}</script>
 
 <script>
 (function(){

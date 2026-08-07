@@ -43,11 +43,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]] [[Alexandr Wang]]
+[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"智能体":58,"多智能体系统":1,"专用推理硬件":1,"推理":1,"上下文工程":2,"TPU":2,"MapReduce":1,"蒸馏":5,"AlphaFold":1,"Gemini":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":59,"多智能体系统":1,"专用推理硬件":1,"推理":1,"上下文工程":2,"TPU":2,"MapReduce":1,"蒸馏":5,"AlphaFold":1,"Gemini":3}</script>
 
 <script>
 (function(){

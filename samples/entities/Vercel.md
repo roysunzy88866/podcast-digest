@@ -37,7 +37,7 @@ unlisted: true
 
 [[智能体]] · [[Lenny]] · [[编排]] · [[Slack]] · [[go-to-market]] · [[Jeanne DeWitt Grosser]] · [[Jason Lemkin]] · [[Theo Browne]] · [[Claire]] · [[Stripe]]
 
-<script type="application/json" class="pd-epn">{"智能体":58,"Lenny":33,"编排":2,"Slack":13,"go-to-market":2,"Jeanne DeWitt Grosser":1,"Jason Lemkin":1,"Theo Browne":1,"Claire":1,"Stripe":10}</script>
+<script type="application/json" class="pd-epn">{"智能体":59,"Lenny":33,"编排":2,"Slack":13,"go-to-market":2,"Jeanne DeWitt Grosser":1,"Jason Lemkin":1,"Theo Browne":1,"Claire":1,"Stripe":10}</script>
 
 <script>
 (function(){

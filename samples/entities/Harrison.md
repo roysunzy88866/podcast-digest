@@ -31,11 +31,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]]
+[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Anish":1,"Raj":1,"Traversal":1,"智能体":58,"生产世界模型":1,"可观测性":1,"遥测数据":1,"上下文":2,"文件系统":1,"评估":6}</script>
+<script type="application/json" class="pd-epn">{"Anish":1,"Raj":1,"Traversal":1,"智能体":59,"生产世界模型":1,"可观测性":1,"遥测数据":1,"上下文":2,"文件系统":1,"评估":6}</script>
 
 <script>
 (function(){

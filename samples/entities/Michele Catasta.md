@@ -39,11 +39,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]]
+[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Replit":4,"Replit Agent":1,"智能体":58,"vibe coding":6,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":1,"自主性":1,"一人独角兽":1,"提示词":2}</script>
+<script type="application/json" class="pd-epn">{"Replit":4,"Replit Agent":1,"智能体":59,"vibe coding":6,"云开发环境":1,"基于使用量的计费":1,"基于结果的定价":1,"自主性":1,"一人独角兽":1,"提示词":2}</script>
 
 <script>
 (function(){

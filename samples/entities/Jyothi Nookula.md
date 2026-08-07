@@ -45,11 +45,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]]
+[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":11,"Claude Code":15,"智能体":58,"对抗性智能体":1,"MCP":5,"知识库":1,"技能":3,"vibe coding":6,"红队测试":2}</script>
+<script type="application/json" class="pd-epn">{"Aakash Gupta":1,"Claude":11,"Claude Code":15,"智能体":59,"对抗性智能体":1,"MCP":5,"知识库":1,"技能":3,"vibe coding":6,"红队测试":2}</script>
 
 <script>
 (function(){

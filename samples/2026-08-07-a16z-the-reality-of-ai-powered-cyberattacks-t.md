@@ -110,9 +110,9 @@ tags:
 
 **顺着「AI 安全」挖下去**
 
+- [[2026-08-07-aia16z-the-reality-of-ai-powered-cyberattacks-t|AI模型正主动入侵系统:安全专家谈供应链与凭证危机]] —— 同嘉宾:Firas、Joel de la Garza · 同公司:Hugging Face、NPM、Socket、Truffle Security · 同概念:NPM 蠕虫 (NPM worm)、前沿模型 (frontier models)、奖励函数 (reward function)、软件供应链 (software supply chain)、零日漏洞 (zero day)、智能体 (agents)
 - [[2026-07-28-yc-sam-altman-never-a-better-time-to-do-a-s|Sam Altman 谈 AI 时代的创业法则:被全世界当成白痴是最大优势]] —— 同公司:Hugging Face · 同概念:智能体 (agents)
 - [[2026-07-24-a16z-sriram-krishnan-on-open-source-ais-bigge|Kimi K3 冲击波:开源逼近前沿,格局要变]] —— 同公司:Hugging Face
-- [[2026-07-26-a16z-ben-horowitz-the-fight-over-open-source|Ben Horowitz 谈开源 AI 保卫战:没有垄断,才有安全]] —— 同公司:Hugging Face
 
 </div>
 <div class="pd-ex">

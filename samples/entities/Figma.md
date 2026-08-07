@@ -39,7 +39,7 @@ unlisted: true
 
 [[智能体]] · [[Notion]] · [[GitHub]] · [[Lenny]] · [[MCP]] · [[Anthropic]] · [[Claude Code]] · [[Slack]] · [[Jenny Wen]] · [[Max Schoening]]
 
-<script type="application/json" class="pd-epn">{"智能体":58,"Notion":5,"GitHub":7,"Lenny":33,"MCP":5,"Anthropic":34,"Claude Code":15,"Slack":13,"Jenny Wen":1,"Max Schoening":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":59,"Notion":5,"GitHub":7,"Lenny":33,"MCP":5,"Anthropic":34,"Claude Code":15,"Slack":13,"Jenny Wen":1,"Max Schoening":1}</script>
 
 <script>
 (function(){

@@ -35,7 +35,7 @@ unlisted: true
 
 [[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[Meta]] · [[Microsoft]] · [[AGI]] · [[智能体]] · [[NVIDIA]] · [[Amazon]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":29,"Anthropic":34,"Lenny":33,"Google":13,"Meta":12,"Microsoft":7,"AGI":7,"智能体":58,"NVIDIA":12,"Amazon":4}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":29,"Anthropic":34,"Lenny":33,"Google":13,"Meta":12,"Microsoft":7,"AGI":7,"智能体":59,"NVIDIA":12,"Amazon":4}</script>
 
 <script>
 (function(){

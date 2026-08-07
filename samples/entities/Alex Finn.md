@@ -37,11 +37,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]] [[Jesse Zhang]] [[Ashwin Srinivas]] [[Reid Alberghati]]
+[[Dylan]] [[Firas]] [[Joel de la Garza]] [[Elena Berger]] [[Simon Mo]] [[Matt Bornstein]] [[Claire]] [[Jeff Dean]] [[Sarah Wang]] [[Kimberley Tan]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"系统提示词":3,"gpt 5.6":1,"Fable":3,"Anthropic":34,"open ai":2,"Codex":12,"智能体":58,"提示词":2,"原型":2,"浏览器使用":2}</script>
+<script type="application/json" class="pd-epn">{"系统提示词":3,"gpt 5.6":1,"Fable":3,"Anthropic":34,"open ai":2,"Codex":12,"智能体":59,"提示词":2,"原型":2,"浏览器使用":2}</script>
 
 <script>
 (function(){

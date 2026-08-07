@@ -7,11 +7,12 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>NPM 蠕虫 (NPM worm)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="NPM 蠕虫">NP</div><div class="pi"><h1 class="pt">NPM 蠕虫 (NPM worm)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="NPM 蠕虫">NP</div><div class="pi"><h1 class="pt">NPM 蠕虫 (NPM worm)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>1</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t|《AI模型正在学会黑入一切：软件供应链已成最薄弱环节》]]**(00:21起):本集将其描述为通过在包里植入后门、让开发者安装，并利用窃取的开发者访问权限进行自我传播的恶意程序概念，近期已变成现实。
+- **[[2026-08-07-aia16z-the-reality-of-ai-powered-cyberattacks-t|《AI模型正主动入侵系统:安全专家谈供应链与凭证危机》]]**(00:21起):本集提到的安全圈流传的概念：给一个软件包植入后门，开发者一安装，攻击者就能窃取其机器上的凭证与权限，进而自我传播并感染下一个系统。
 
 ## ① 提到它的金句
 
@@ -21,9 +22,10 @@ unlisted: true
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-08-07-a16z-the-reality-of-ai-powered-cyberattacks-t|《AI模型正在学会黑入一切：软件供应链已成最薄弱环节》]] — 作为概念
+- [[2026-08-07-aia16z-the-reality-of-ai-powered-cyberattacks-t|《AI模型正主动入侵系统:安全专家谈供应链与凭证危机》]] — 作为概念
 
 ## ③ 关联
 
@@ -31,7 +33,7 @@ unlisted: true
 
 [[Dylan]] · [[Firas]] · [[Joel de la Garza]] · [[Truffle Security]] · [[Socket]] · [[Hugging Face]] · [[NPM]] · [[前沿模型]] · [[软件供应链]] · [[零日漏洞]]
 
-<script type="application/json" class="pd-epn">{"Dylan":1,"Firas":1,"Joel de la Garza":1,"Truffle Security":1,"Socket":1,"Hugging Face":6,"NPM":1,"前沿模型":1,"软件供应链":1,"零日漏洞":1}</script>
+<script type="application/json" class="pd-epn">{"Dylan":2,"Firas":2,"Joel de la Garza":2,"Truffle Security":2,"Socket":2,"Hugging Face":7,"NPM":2,"前沿模型":1,"软件供应链":2,"零日漏洞":2}</script>
 
 <script>
 (function(){
