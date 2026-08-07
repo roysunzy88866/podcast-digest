@@ -210,8 +210,8 @@ export function rightRail(episodes) {
   </div>`;
 }
 
-/** 手机端摊开区(🔒 #9 搜索与主题不降级;层级纠偏:排序弱于分类) */
-export function mobileHome(episodes, catsOf, vocabulary, active = "new") {
+/** 手机端一级页导航条(主题横滑药丸)。搜索不在这里:见下方 #2 注记。 */
+export function mobileHome(episodes, catsOf, vocabulary) {
   const n = {};
   for (const c of vocabulary) n[c] = 0;
   for (const ep of episodes) for (const c of catsOf(ep)) if (c in n) n[c]++;
@@ -219,11 +219,11 @@ export function mobileHome(episodes, catsOf, vocabulary, active = "new") {
     .sort(byCountThenName)
     .map(([c, k]) => `<a class="internal" href="./tags/${encodeURIComponent(c)}">${esc(c)}<i>${k}</i></a>`)
     .join("");
-  // 🔒 #9:搜索是**摊开的真输入框**,不是小图标。占位文案照设计稿。
-  // 检索本身转发给 Quartz 的搜索(复用它的中文索引,见 scriptBlock 的 wireSearch)。
+  // 用户批注 2026-08-08 · 手机端:
+  //   #2 搜索改右上角图标(覆盖 🔒 US-3「搜索=摊开输入框」,见 docs/adr/0019)→ 去掉这条摊开的大搜索框;
+  //      改由顶栏 Quartz 原生搜索按钮承担(custom.scss 手机端把 .pd-acts .search-button 放成图标)。
+  //   #5 去掉「最新/最热」切换(用户明文去掉必读=最热的主页逻辑)→ 删 .mhv,手机首页就按时间/最新排。
   return `<div class="pd-mhome">
-    <div class="mhs"><input class="mhq" type="search" autocomplete="off" placeholder="搜标题 / 金句 / 正文 / 人名" aria-label="搜索标题、金句、正文、人名"></div>
-    <div class="mhv">${active === "new" ? `<span class="on">最新</span><a class="internal" href="./must-read">最热</a>` : `<a class="internal" href="./">最新</a><span class="on">最热</span>`}</div>
     <div class="mhc"><a class="internal" href="./">全部<i>${episodes.length}</i></a>${chips}</div>
   </div>`;
 }
@@ -361,29 +361,9 @@ export const scriptBlock = () => squashBlankLines(`<script>
       if(map[t]) el.textContent=map[t];
     });
   }
-  // 手机端摊开的搜索框(🔒 #9)。检索不自己实现:把键入转发给 Quartz 的搜索 ——
-  // 索引、中文分词、结果预览全在它手里(verify-c5 就是在校验那个索引含中文)。
-  // 机制:.search-container 加 active 就开浮层;往 .search-bar 塞值并派发 input 即触发检索。
-  // 刻意不走它的 showSearch 入口:那个入口会把焦点抢到 Quartz 自己的输入框,用户得换框继续打字。
-  function wireSearch(){
-    var box=document.querySelector('.pd .mhq'); if(!box||box.__wired) return; box.__wired=1;
-    function forward(){
-      var bar=document.querySelector('.search .search-bar');
-      var panel=document.querySelector('.search .search-container');
-      if(!bar||!panel) return;
-      var q=box.value;
-      if(!q.trim()){ panel.classList.remove('active'); bar.value=''; bar.dispatchEvent(new Event('input')); return; }
-      panel.classList.add('active');
-      bar.value=q;
-      bar.dispatchEvent(new Event('input'));
-    }
-    box.addEventListener('input', forward);
-    // 也挂 focus/click:Quartz 的浮层可以「点空白处关掉」,关掉后我的框里还留着查询词。
-    // 只挂 input 的话,用户再点输入框不会把结果调回来 —— 看着自己的词却没有结果、
-    // 又没法靠继续打字恢复(GLM 20260726-025[4] 逼出来的死角,实测证实)。
-    box.addEventListener('focus', forward);
-    box.addEventListener('click', forward);
-  }
+  // 用户批注 2026-08-08 · 手机端 #2(覆盖 🔒 US-3,见 docs/adr/0019):手机搜索改右上角图标 →
+  //   去掉摊开的 .mhs 输入框后,不再需要「把键入转发给 Quartz 搜索」的 wireSearch;
+  //   顶栏 Quartz 原生搜索按钮点开就是它自带的全屏搜索模态(中文索引不降级)。桌面不受影响。
   // logo 是用户手喂的,**缺是常态** → 图取不到就把 <img> 摘掉,露出底下画好的兜底
   // (公司卡是首字母,站名是引号标记)。不用行内 onerror:Quartz 是 SPA,整页 innerHTML
   // 换过之后行内处理器那一轮的结果会被冲掉;这里每次 nav 重跑,还能补上「已经失败过」的那些。
@@ -408,7 +388,6 @@ export const scriptBlock = () => squashBlankLines(`<script>
     adopt();
     dateh();
     logos();
-    wireSearch();
     mobileLinks();
     var root=document.querySelector('.pd'); if(!root||root.__epInit) return; root.__epInit=1;
     // 已读压暗(客户端 localStorage;键沿用 pd-read,老已读史不丢)

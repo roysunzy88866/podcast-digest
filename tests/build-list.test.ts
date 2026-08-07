@@ -336,75 +336,38 @@ describe("C13a · 日期组标兜底不许出垃圾字符串(GLM 20260726-024[2]
   });
 });
 
-describe("C13a · 手机端摊开搜索(🔒 #9 搜索与主题入口不降级)", () => {
+// [standard-change: 用户 2026-08-08 明文授权 · ADR 0019] 手机端搜索由「摊开的真输入框」
+// 改为「顶栏右上角图标 → Quartz 原生全屏搜索」(覆盖 🔒 US-3 的手机形态,搜索能力不降级)。
+// 原「摊开搜索 / 下拉覆写 / wireSearch 转发」的守卫连同实现一起退役,换成下面的图标形态守卫。
+describe("手机端搜索改右上角图标(ADR 0019 覆盖 🔒 US-3 手机形态)", () => {
   const md = renderList([ep()], opts);
 
-  it("★★ 手机摊开区有真输入框,占位文案照设计稿,不是小图标", () => {
-    expect(md).toMatch(/<div class="mhs"><input class="mhq"/);
-    expect(md).toContain('placeholder="搜标题 / 金句 / 正文 / 人名"');
-    expect(md).toMatch(/aria-label="搜索标题、金句、正文、人名"/);
+  it("★★ 手机首页不再有摊开的大搜索框(.mhs / .mhq 都拿掉了)", () => {
+    expect(md).not.toContain('class="mhs"');
+    expect(md).not.toContain('class="mhq"');
   });
 
-  it("★★ 输入框在「最新/最热」与主题条之前(搜索不降级,排在最上)", () => {
-    expect(md.indexOf('class="mhq"')).toBeLessThan(md.indexOf('class="mhv"'));
-    expect(md.indexOf('class="mhv"')).toBeLessThan(md.indexOf('class="mhc"'));
-  });
-
-  it("★★ 检索转发给 Quartz 的搜索,不自建索引(往 .search-bar 塞值 + 派发 input)", () => {
-    expect(md).toContain(".search .search-bar");
-    expect(md).toContain("panel.classList.add('active')");
-    expect(md).toMatch(/bar\.dispatchEvent\(new Event\('input'\)\)/);
-    // 不**调用** showSearch:那会把焦点抢到 Quartz 自己的输入框,用户得换个框继续打字
-    expect(md).not.toMatch(/showSearch\s*\(/);
-  });
-
-  it("★★ 清空输入 → 关掉浮层并清掉它的输入框(不留半开的结果面板)", () => {
-    expect(md).toMatch(/if\(!q\.trim\(\)\)\{\s*panel\.classList\.remove\('active'\)/);
-  });
-
-  it("★ 接线幂等(SPA 每次 nav 重跑不许重复绑监听)", () => {
-    expect(md).toMatch(/box\.__wired/);
+  it("★★ 首页/必读页把 Quartz 原生搜索按钮放成右上角图标(点开=Quartz 全屏搜索,索引不降级)", () => {
+    // 更具体的选择器把全局的 display:none 顶掉,只在这两页显式放出来
+    expect(scss).toMatch(/body\[data-slug="index"\] \.pd \.pd-acts \.search \.search-button[\s\S]*?width: 40px/);
+    expect(scss).toMatch(/body\[data-slug="must-read"\] \.pd \.pd-acts \.search \.search-button/);
   });
 
   it("★★ 只藏顶栏那个搜索按钮,不许藏整个 .search(结果浮层是它的子节点,会被连坐)", () => {
-    // 实测过的坑:藏 .pd-acts .search 时,8 条结果在 DOM 里、active 也加上了,屏幕上却什么都没有
+    // 实测过的坑:藏 .pd-acts .search 时,结果在 DOM 里、active 也加上了,屏幕上却什么都没有
     expect(scss).toMatch(/\.pd-acts \.search \.search-button \{ display: none/);
     expect(scss).not.toMatch(/\.pd-acts \.search \{ display: none/);
     expect(scss).not.toMatch(/\.pd-acts \.darkmode \{ display: none/);
   });
-});
 
-describe("C13a · 搜索结果面板收成下拉(手机上一条卡原本占满整屏)", () => {
-  it("★★ 摘要锁 3 行(实测一张结果卡高 537px,一条就占满 812px 的屏)", () => {
-    expect(scss).toMatch(/\.result-card \.card-description \{[\s\S]*?-webkit-line-clamp: 3/);
+  it("★★ 退役旧的「摊开框下拉」覆写:不再藏 Quartz 原生模态自己的输入框(否则全屏搜索没法打字)", () => {
+    expect(scss).not.toMatch(/\.search-container \.search-bar \{ display: none/);
+    expect(scss).not.toMatch(/\.search-container \.search-space \{[\s\S]*?margin-top: 118px/);
   });
 
-  it("★★ 藏掉浮层里 Quartz 自带的输入框(摊开的那个才是主角,否则两个框叠着)", () => {
-    expect(scss).toMatch(/\.search-container \.search-bar \{ display: none/);
-  });
-
-  it("★ 浮层挪到摊开输入框正下方,不再从 12vh 居中起", () => {
-    expect(scss).toMatch(/\.search-container \.search-space \{[\s\S]*?margin-top: 118px/);
-  });
-});
-
-describe("C13a · 打字时看得见自己打的字", () => {
-  it("★★ 去掉浮层的 backdrop-filter(它会把摊开的输入框一起糊掉,用户盲打)", () => {
-    expect(scss).toMatch(/\.search-container \{ backdrop-filter: none/);
-  });
-});
-
-describe("C13a · 浮层被点关后,再点输入框要能把结果调回来", () => {
-  const md = renderList([ep()], opts);
-
-  it("★★ input / focus / click 三个入口都转发(只挂 input 会留下「有词无结果」的死角)", () => {
-    for (const evt of ["input", "focus", "click"]) {
-      expect(md).toContain(`box.addEventListener('${evt}', forward)`);
-    }
-  });
-
-  it("★ 转发逻辑只有一份(抽成 forward,不是三处复制)", () => {
-    expect((md.match(/function forward\(\)/g) || []).length).toBe(1);
+  it("★★ 退役 wireSearch 转发脚本(摊开框没了,改点原生图标开全屏搜索)", () => {
+    expect(md).not.toContain("function wireSearch");
+    expect(md).not.toContain("function forward()");
   });
 });
 
