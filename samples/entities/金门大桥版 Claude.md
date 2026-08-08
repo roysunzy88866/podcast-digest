@@ -45,7 +45,7 @@ unlisted: true
 
 [[Dianne Penn]] · [[Lenny]] · [[Anthropic]] · [[OpenAI]] · [[Claude]] · [[Claude Code]] · [[评估]] · [[涌现能力]] · [[前沿模型]] · [[技能]]
 
-<script type="application/json" class="pd-epn">{"Dianne Penn":1,"Lenny":33,"Anthropic":35,"OpenAI":30,"Claude":11,"Claude Code":16,"评估":6,"涌现能力":1,"前沿模型":1,"技能":3}</script>
+<script type="application/json" class="pd-epn">{"Dianne Penn":1,"Lenny":33,"Anthropic":35,"OpenAI":30,"Claude":12,"Claude Code":16,"评估":6,"涌现能力":1,"前沿模型":1,"技能":3}</script>
 
 <script>
 (function(){
@@ -139,6 +139,14 @@ unlisted: true
     if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
     navigator.clipboard.writeText(location.href).then(
       function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  // 手机端「← 返回」= 回上一级(history.back);历史栈空(外站/新标签直开)→ 降级走 href="/" 回首页(ADR 0019)。
+  // 用委托监听而非内联 onclick:避开 CSP unsafe-inline;桌面(≥1024)不拦、走默认 href。
+  if(!window.__pdBack){ window.__pdBack=1;
+    document.addEventListener('click', function(ev){
+      var a=ev.target.closest && ev.target.closest('.pd-back'); if(!a) return;
+      if(innerWidth<1024 && history.length>1){ ev.preventDefault(); history.back(); }
+    });
   }
   if(!window.__pdActs){ window.__pdActs=1;
     document.addEventListener('click', function(ev){

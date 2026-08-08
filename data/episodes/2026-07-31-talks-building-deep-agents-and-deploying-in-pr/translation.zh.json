@@ -1,0 +1,1042 @@
+[
+ {
+  "seg": 0,
+  "start": 9.262,
+  "end": 15.147,
+  "speaker": "Unknown",
+  "en": "We're going to talk a little bit about deep agents for the people here that are here for the first time, not familiar with them as a concept.",
+  "zh": "我们要稍微谈谈深度智能体，为了这里那些第一次来、不熟悉这个概念的人。"
+ },
+ {
+  "seg": 1,
+  "start": 15.488,
+  "end": 20.852,
+  "speaker": "Unknown",
+  "en": "And then we'll talk about what it takes to actually take deep agents and effectively deploy them into production.",
+  "zh": "然后我们将谈谈实际将深度智能体有效地部署到生产环境中需要什么。"
+ },
+ {
+  "seg": 2,
+  "start": 22.514,
+  "end": 26.658,
+  "speaker": "Unknown",
+  "en": "So gonna start at the basics where we normally do, which is what are deep agents?",
+  "zh": "所以我们要从基础开始，就像我们通常做的那样，即什么是深度智能体？"
+ },
+ {
+  "seg": 3,
+  "start": 27.907,
+  "end": 29.828,
+  "speaker": "Unknown",
+  "en": "And deep agents are a harness.",
+  "zh": "深度智能体是一种挽具。"
+ },
+ {
+  "seg": 4,
+  "start": 30.489,
+  "end": 36.332,
+  "speaker": "Unknown",
+  "en": "If you've been following the AI space, you've probably heard the word harness thrown around a lot in the last couple of months.",
+  "zh": "如果你一直关注 AI 领域，你可能在过去几个月里听到“挽具”这个词被频繁提及。"
+ },
+ {
+  "seg": 5,
+  "start": 37.153,
+  "end": 40.715,
+  "speaker": "Unknown",
+  "en": "And the first question that you might have is, what is a harness?",
+  "zh": "你可能有的第一个问题是，什么是挽具？"
+ },
+ {
+  "seg": 6,
+  "start": 41.295,
+  "end": 51.482,
+  "speaker": "Unknown",
+  "en": "Well, the easiest way to think about it is that when you have an agent, whether you're building it, you're talking about it, you're testing it, the agent is a model, a foundational LLM.",
+  "zh": "嗯，思考它最简单的方式是，当你有一个智能体时，无论你是在构建它、谈论它、还是在测试它，该智能体是一个模型，一个基础 LLM。"
+ },
+ {
+  "seg": 7,
+  "start": 52.465,
+  "end": 53.507,
+  "speaker": "Unknown",
+  "en": "Plus a harness.",
+  "zh": "加上一个挽具。"
+ },
+ {
+  "seg": 8,
+  "start": 54.348,
+  "end": 60.797,
+  "speaker": "Unknown",
+  "en": "And so again, the easiest way to think about this equation is that if you're not the model, you're the harness.",
+  "zh": "所以同样地，思考这个等式最简单的方式是，如果你不是那个模型，你就是那个挽具。"
+ },
+ {
+  "seg": 9,
+  "start": 61.518,
+  "end": 66.906,
+  "speaker": "Unknown",
+  "en": "And so the harness is everything that's built around the model to make it useful, to make it reliable, to make it good.",
+  "zh": "所以挽具是围绕模型构建的所有内容，以使其有用、可靠、良好。"
+ },
+ {
+  "seg": 10,
+  "start": 67.587,
+  "end": 75.289,
+  "speaker": "Unknown",
+  "en": "So if you use Claude Code, Claude Code has something like 500,000 lines of code as part of its source code.",
+  "zh": "所以如果你使用 Claude Code，Claude Code 在其源代码中包含大约 500,000 行代码。"
+ },
+ {
+  "seg": 11,
+  "start": 75.929,
+  "end": 79.549,
+  "speaker": "Unknown",
+  "en": "All of those 500,000 lines are part of the harness.",
+  "zh": "这 500,000 行代码全都是挽具的一部分。"
+ },
+ {
+  "seg": 12,
+  "start": 80.25,
+  "end": 91.392,
+  "speaker": "Unknown",
+  "en": "And so all of those lines are designed to make the model under the hood, whether that's Opus, whether that's Sonnet, whether that's something else, perform the best possible way that it can given your task.",
+  "zh": "所以所有这些代码行旨在让底层的模型，无论是 Opus、Sonnet 还是其他东西，在处理你的任务时以尽可能好的方式执行。"
+ },
+ {
+  "seg": 13,
+  "start": 92.032,
+  "end": 93.973,
+  "speaker": "Unknown",
+  "en": "And so what actually goes into that code?",
+  "zh": "那么实际上什么进入了那些代码？"
+ },
+ {
+  "seg": 14,
+  "start": 94.433,
+  "end": 99.875,
+  "speaker": "Unknown",
+  "en": "Well, there's a couple of different classes of sort of primitives that we see building up the harness.",
+  "zh": "嗯，有几种不同类型的原语构成了挽具。"
+ },
+ {
+  "seg": 15,
+  "start": 100.155,
+  "end": 102.115,
+  "speaker": "Unknown",
+  "en": "So a big one is going to be system prompts.",
+  "zh": "所以主要的一类将是系统提示词。"
+ },
+ {
+  "seg": 16,
+  "start": 102.335,
+  "end": 106.477,
+  "speaker": "Unknown",
+  "en": "That is the main interface that you have with your LLM, as well as memories.",
+  "zh": "这是你与你的 LLM 的主要接口，以及记忆。"
+ },
+ {
+  "seg": 17,
+  "start": 106.577,
+  "end": 108.958,
+  "speaker": "Unknown",
+  "en": "This is how you have your LLM learn over time.",
+  "zh": "这是让你的 LLM 随着时间学习的方式。"
+ },
+ {
+  "seg": 18,
+  "start": 109.478,
+  "end": 116.64,
+  "speaker": "Unknown",
+  "en": "There's a lot of buzz right now around dreaming and continual learning and having your LLM slowly tune itself to your preferences.",
+  "zh": "目前围绕“做梦”和持续学习、让你的 LLM 慢慢调整以适应你的偏好有很多炒作。"
+ },
+ {
+  "seg": 19,
+  "start": 117.1,
+  "end": 118.941,
+  "speaker": "Unknown",
+  "en": "This is usually done through memories.",
+  "zh": "这通常是通过记忆来完成的。"
+ },
+ {
+  "seg": 20,
+  "start": 119.801,
+  "end": 123.182,
+  "speaker": "Unknown",
+  "en": "Same thing with tools, skills, MCP, and sub-agents.",
+  "zh": "工具、技能、MCP 和子智能体也是一样的。"
+ },
+ {
+  "seg": 21,
+  "start": 123.622,
+  "end": 129.244,
+  "speaker": "Unknown",
+  "en": "All of these things that are normally part of your agent, your orchestration, are also considered part of your harness.",
+  "zh": "所有这些通常属于你的智能体的一部分、你的编排的一部分的东西，也被认为是挽具的一部分。"
+ },
+ {
+  "seg": 22,
+  "start": 129.664,
+  "end": 141.528,
+  "speaker": "Unknown",
+  "en": "So any of the infrastructure that you use, any of the orchestration, so file system, sandboxes, your browser, anything that the agent interacts with as part of the interface is also part of the harness.",
+  "zh": "所以你使用的任何基础设施、任何编排，如文件系统、沙箱、你的浏览器、智能体作为接口的一部分与之交互的任何东西，也是挽具的一部分。"
+ },
+ {
+  "seg": 23,
+  "start": 142.148,
+  "end": 149.011,
+  "speaker": "Unknown",
+  "en": "Now, the last thing that is a little bit unique to DeepAgents and is useful is the idea of hooks and middleware.",
+  "zh": "现在，最后一件事，对 DeepAgents 来说有点独特且有用的是钩子和中间件的概念。"
+ },
+ {
+  "seg": 24,
+  "start": 149.071,
+  "end": 166.499,
+  "speaker": "Unknown",
+  "en": "DeepAgents allows you to define your own middleware to intercept calls to the model, either before the model executes or after the model executes, so you can add in your own custom logic, things like guardrails, things like extra pre-processing or post-processing, or whatever you need to get that optimal performance for your given task.",
+  "zh": "DeepAgents 允许你定义你自己的中间件来拦截对模型的调用，无论是在模型执行之前还是之后，这样你就可以加入你自己的自定义逻辑，比如护栏、额外的前处理或后处理，或者你为给定任务获得最佳性能所需的任何东西。"
+ },
+ {
+  "seg": 25,
+  "start": 168.54,
+  "end": 171.901,
+  "speaker": "Unknown",
+  "en": "So what's included in DeepAgent's harness?",
+  "zh": "那么 DeepAgent 的挽具中包含什么？"
+ },
+ {
+  "seg": 26,
+  "start": 172.601,
+  "end": 180.143,
+  "speaker": "Unknown",
+  "en": "So the way that you can think about DeepAgent is that it includes best practices when it comes to harnesses out of the box, and it's open source.",
+  "zh": "所以你可以这样看待 DeepAgent，它在开箱即用的挽具方面包含了最佳实践，并且它是开源的。"
+ },
+ {
+  "seg": 27,
+  "start": 180.644,
+  "end": 188.166,
+  "speaker": "Unknown",
+  "en": "So Claude Code is closed sourced if you don't count the leaks, but DeepAgent's are fully open source.",
+  "zh": "所以 Claude Code 是闭源的，如果你不算泄漏的话，但 DeepAgents 是完全开源的。"
+ },
+ {
+  "seg": 28,
+  "start": 188.726,
+  "end": 202.28,
+  "speaker": "Unknown",
+  "en": "And so what that means is that you can tune DeepAgent as a harness to your specific use case, your specific task, and it includes a few core primitives that allow you to pull different levers and again, adjust your performance.",
+  "zh": "所以这意味着你可以将 DeepAgent 作为挽具调整到你的特定用例、你的特定任务，它包含一些核心原语，允许你拉动不同的杠杆并再次调整你的性能。"
+ },
+ {
+  "seg": 29,
+  "start": 202.8,
+  "end": 208.847,
+  "speaker": "Unknown",
+  "en": "So one of the biggest ones that you've probably heard me talk a lot about if you've been at previous meetups is the file system.",
+  "zh": "所以如果你参加了以前的聚会，你可能听过我谈论很多的一件大事是文件系统。"
+ },
+ {
+  "seg": 30,
+  "start": 209.327,
+  "end": 210.608,
+  "speaker": "Unknown",
+  "en": "The file system is...",
+  "zh": "文件系统是……"
+ },
+ {
+  "seg": 31,
+  "start": 211.349,
+  "end": 220.153,
+  "speaker": "Unknown",
+  "en": "Probably the state of the art when it comes to context management today, where agents will utilize the file system to store information that they might need to reference, such as a scratch pad.",
+  "zh": "可能是当今语境管理方面的最先进技术，智能体将利用文件系统来存储它们可能需要引用的信息，比如草稿纸。"
+ },
+ {
+  "seg": 32,
+  "start": 220.794,
+  "end": 229.218,
+  "speaker": "Unknown",
+  "en": "And because foundational models have been trained on so much file system data in the course of optimizing Claude Code and Codex and coding agents,",
+  "zh": "而且因为基础模型在优化 Claude Code 和 Codex 以及编码智能体的过程中接受了大量文件系统数据的训练，"
+ },
+ {
+  "seg": 33,
+  "start": 229.898,
+  "end": 237.662,
+  "speaker": "Unknown",
+  "en": "Foundational models are very, very good at utilizing the interface, so giving your data to your model in the form of a file system tends to boost performance.",
+  "zh": "基础模型非常非常善于利用该接口，所以以文件系统的形式将你的数据提供给你的模型往往会提升性能。"
+ },
+ {
+  "seg": 34,
+  "start": 238.242,
+  "end": 257.232,
+  "speaker": "Unknown",
+  "en": "Now, there's a lot of other things like summarization, subagents, and planning that are really centered around context management that DeepAgent exposes to you so that you can effectively control what information makes it to your model, and so only the minimal amount of information passes to your model as needed, so you can extend your context window and you can keep your model focused.",
+  "zh": "现在，还有很多其他事情，比如摘要、子智能体和规划，它们真正围绕语境管理，DeepAgent 将它们暴露给你，这样你可以有效地控制哪些信息传递给你的模型，因此只有最少量的信息根据需要传递给你的模型，你可以扩展你的语境窗口并保持你的模型专注。"
+ },
+ {
+  "seg": 35,
+  "start": 258.785,
+  "end": 271.847,
+  "speaker": "Unknown",
+  "en": "And so if you're familiar with LangChain, which I hope you are attending this event, when compared to the rest of our open source packages, you can kind of think of the layers of abstraction as follows here on the screen.",
+  "zh": "所以如果你熟悉 LangChain，我希望能参加这个活动的话，当与我们其余的开源包相比时，你可以大致认为抽象的层次如下面的屏幕所示。"
+ },
+ {
+  "seg": 36,
+  "start": 272.407,
+  "end": 275.528,
+  "speaker": "Unknown",
+  "en": "So deep agents is the highest level of abstraction.",
+  "zh": "所以深度智能体是最高层次的抽象。"
+ },
+ {
+  "seg": 37,
+  "start": 275.588,
+  "end": 279.209,
+  "speaker": "Unknown",
+  "en": "It's the most abstracted sort of interface for building agents.",
+  "zh": "它是用于构建智能体的最抽象的接口。"
+ },
+ {
+  "seg": 38,
+  "start": 279.709,
+  "end": 286.17,
+  "speaker": "Unknown",
+  "en": "It's built on top of LangChain, which gives you that basic tool calling infrastructure that people refer to as agents today.",
+  "zh": "它建立在 LangChain 之上，LangChain 为你提供了人们今天称为智能体的基本工具调用基础设施。"
+ },
+ {
+  "seg": 39,
+  "start": 286.83,
+  "end": 293.278,
+  "speaker": "Unknown",
+  "en": "And under the hood of LangChain, everything is built on LangGraph, which is the core Lego pieces that you use to put everything together.",
+  "zh": "而在 LangChain 的引擎盖下，一切都是建立在 LangGraph 之上的，这是你用来把所有东西放在一起的核心乐高积木。"
+ },
+ {
+  "seg": 40,
+  "start": 293.699,
+  "end": 295.981,
+  "speaker": "Unknown",
+  "en": "This is the nodes, this is the edges, and this is the state.",
+  "zh": "这是节点，这是边，这是状态。"
+ },
+ {
+  "seg": 41,
+  "start": 296.322,
+  "end": 305.353,
+  "speaker": "Unknown",
+  "en": "So deep agents is the highest level of abstraction, and it's the way that you can get started the quickest if you want to get an agent up and running in production as soon as possible.",
+  "zh": "所以深度智能体是最高层次的抽象，如果你想尽快让智能体在生产环境中启动并运行，这是让你最快上手的方式。"
+ },
+ {
+  "seg": 42,
+  "start": 307.803,
+  "end": 315.97,
+  "speaker": "Unknown",
+  "en": "And so now that I've explained what deep agents are, I'll talk a little bit about why they're useful before we get into the production considerations of running deep agents.",
+  "zh": "既然我已经解释了什么是深度智能体，在我们要进入运行深度智能体的生产考虑之前，我将稍微谈谈它们为什么有用。"
+ },
+ {
+  "seg": 43,
+  "start": 316.891,
+  "end": 325.798,
+  "speaker": "Unknown",
+  "en": "Again, I want to reemphasize at this point that deep agents give you the tool calling framework that is kind of a standard these days with best practices built in.",
+  "zh": "同样，此时我想再次强调，深度智能体为你提供了工具调用框架，这是目前的标准，并内置了最佳实践。"
+ },
+ {
+  "seg": 44,
+  "start": 326.759,
+  "end": 336.503,
+  "speaker": "Unknown",
+  "en": "And so one of the most convenient things about deep agents is that it is very easy to extend any of your existing tool calling agents and turn them into a deep agent.",
+  "zh": "所以关于深度智能体最方便的事情之一是，它很容易扩展你现有的任何工具调用智能体并将它们变成深度智能体。"
+ },
+ {
+  "seg": 45,
+  "start": 336.943,
+  "end": 345.987,
+  "speaker": "Unknown",
+  "en": "So if you have a tool calling agent using that classic React architecture, an example might be here up above if you're using LangChain, it's very easy to turn this into a deep agent.",
+  "zh": "所以如果你有一个使用经典的 React 架构的工具调用智能体，如果你使用 LangChain，一个例子可能在上面，把它变成深度智能体很容易。"
+ },
+ {
+  "seg": 46,
+  "start": 346.347,
+  "end": 355.871,
+  "speaker": "Unknown",
+  "en": "And so if I have this basic research React agent where it has an LLM, it has some tools to search the web, maybe it has a guardrail at the beginning, and maybe it has some summarization at the end,",
+  "zh": "所以如果我有这个基础的研究 React 智能体，它有一个 LLM，它有一些搜索网页的工具，也许它在开头有一个护栏，也许它在结尾有一些摘要，"
+ },
+ {
+  "seg": 47,
+  "start": 356.591,
+  "end": 363.675,
+  "speaker": "Unknown",
+  "en": "I can very easily turn this into a deep agent by switching out the instantiation from create agent to just create deep agent.",
+  "zh": "我可以很容易地把这个变成一个深度智能体，方法是将实例化从 create agent 切换到 create deep agent。"
+ },
+ {
+  "seg": 48,
+  "start": 364.215,
+  "end": 370.359,
+  "speaker": "Unknown",
+  "en": "And what create deep agent will do is that it will add these prebuilt primitives to our tool calling loop.",
+  "zh": "而 create deep agent 所做的是，它将这些预构建的原语添加到我们的工具调用循环中。"
+ },
+ {
+  "seg": 49,
+  "start": 370.599,
+  "end": 373.42,
+  "speaker": "Unknown",
+  "en": "So it'll add middleware that adds support for a file system.",
+  "zh": "所以它会添加中间件来增加对文件系统的支持。"
+ },
+ {
+  "seg": 50,
+  "start": 373.76,
+  "end": 376.402,
+  "speaker": "Unknown",
+  "en": "It will add middleware that adds support for a planning module.",
+  "zh": "它将添加中间件来增加对规划模块的支持。"
+ },
+ {
+  "seg": 51,
+  "start": 376.682,
+  "end": 380.144,
+  "speaker": "Unknown",
+  "en": "And it will also add prebuilt tools to navigate that file system.",
+  "zh": "它还将添加预构建的工具来导航该文件系统。"
+ },
+ {
+  "seg": 52,
+  "start": 380.725,
+  "end": 382.991,
+  "speaker": "Unknown",
+  "en": "ls, cat, grep, you name it.",
+  "zh": "ls、cat、grep，你能想到的都有。"
+ },
+ {
+  "seg": 53,
+  "start": 383.553,
+  "end": 388.988,
+  "speaker": "Unknown",
+  "en": "And it'll add things like a subagent tool too so that your core LLM can dynamically spin up subagents.",
+  "zh": "它还会添加诸如 subagent 工具之类的东西，以便你的核心 LLM 可以动态地启动 subagent。"
+ },
+ {
+  "seg": 54,
+  "start": 391.16,
+  "end": 401.93,
+  "speaker": "Unknown",
+  "en": "And because everything under the hood is built on top of LangGraph, this also means that DeepAgents is deeply composable with any of your existing LangChain or LangGraph agents.",
+  "zh": "而且因为底层的一切都是构建在 LangGraph 之上的，这也意味着 DeepAgents 与你现有的任何 LangChain 或 LangGraph agent 具有深厚的可组合性。"
+ },
+ {
+  "seg": 55,
+  "start": 402.39,
+  "end": 408.076,
+  "speaker": "Unknown",
+  "en": "You can have a fully deterministic LangGraph workflow utilize a DeepAgent as one of its nodes.",
+  "zh": "你可以拥有一个完全确定性的 LangGraph 工作流，利用一个 DeepAgent 作为其节点之一。"
+ },
+ {
+  "seg": 56,
+  "start": 408.416,
+  "end": 415.803,
+  "speaker": "Unknown",
+  "en": "So you can have a fully deterministic sequential workflow that uses DeepAgents to handle one particular complex reasoning step in the middle.",
+  "zh": "所以你可以拥有一个完全确定性的顺序工作流，使用 DeepAgents 来处理中间某个特定的复杂推理步骤。"
+ },
+ {
+  "seg": 57,
+  "start": 416.423,
+  "end": 421.468,
+  "speaker": "Unknown",
+  "en": "Similarly, you can have a deep agent coordinate deterministic flows under the hood as subagents.",
+  "zh": "同样地，你可以让一个 deep agent 在底层协调确定性流程作为 subagent。"
+ },
+ {
+  "seg": 58,
+  "start": 421.908,
+  "end": 429.555,
+  "speaker": "Unknown",
+  "en": "And so really, no matter what your use case is, you can find the right way to mix and match deep agents with more deterministic LangGraph code.",
+  "zh": "所以实际上，无论你的用例是什么，你都能找到正确的方法来混合搭配 deep agent 和更具确定性的 LangGraph 代码。"
+ },
+ {
+  "seg": 59,
+  "start": 430.075,
+  "end": 434.359,
+  "speaker": "Unknown",
+  "en": "And this really lets you find the sweet spot that's useful for your task and your use case.",
+  "zh": "这确实让你能找到对你的任务和用例有用的最佳平衡点。"
+ },
+ {
+  "seg": 60,
+  "start": 436.908,
+  "end": 445.272,
+  "speaker": "Unknown",
+  "en": "But in general, the direction that we're heading is that models are getting better, and the basic deep agent harness is also getting better in terms of performance.",
+  "zh": "但总的来说，我们前进的方向是模型变得更好，而且基本的 deep agent harness 在性能方面也在变得更好。"
+ },
+ {
+  "seg": 61,
+  "start": 445.672,
+  "end": 458.478,
+  "speaker": "Unknown",
+  "en": "So if you think about reliability and agency as sort of this Pareto curve, where before, maybe a few years ago, you could have high reliability, but you would neuter your model's ability to flexibly handle different tasks.",
+  "zh": "所以如果你将可靠性和 agency 看作是一条帕累托曲线，以前，也许几年前，你可以拥有高可靠性，但你会削弱模型灵活处理不同任务的能力。"
+ },
+ {
+  "seg": 62,
+  "start": 458.838,
+  "end": 460.599,
+  "speaker": "Unknown",
+  "en": "You could also make the trade-off to have your model",
+  "zh": "你也可以做出权衡，让你的模型"
+ },
+ {
+  "seg": 63,
+  "start": 461.079,
+  "end": 461.799,
+  "speaker": "Unknown",
+  "en": "Thank you for watching.",
+  "zh": "谢谢观看。"
+ },
+ {
+  "seg": 64,
+  "start": 491.506,
+  "end": 495.27,
+  "speaker": "Unknown",
+  "en": "Our recommendation when it comes to building agents is to always start with a deep agent.",
+  "zh": "我们关于构建 agent 的建议是始终从 deep agent 开始。"
+ },
+ {
+  "seg": 65,
+  "start": 497.192,
+  "end": 506.362,
+  "speaker": "Unknown",
+  "en": "So now let's finally get to the portion where we talk about what it means to run these agents in production and what are some of the special considerations that you might face when you have an agent in production.",
+  "zh": "现在让我们最后进入到讨论在生产环境中运行这些 agent 意味着什么的部分，以及当你在生产环境中有一个 agent 时可能面临的一些特殊考虑因素。"
+ },
+ {
+  "seg": 66,
+  "start": 508.015,
+  "end": 513.061,
+  "speaker": "Unknown",
+  "en": "Standard infrastructure in short is not really built for long running complex agents.",
+  "zh": "简而言之，标准的基础设施并不是真正为长时间运行的复杂 agent 构建的。"
+ },
+ {
+  "seg": 67,
+  "start": 513.222,
+  "end": 515.184,
+  "speaker": "Unknown",
+  "en": "It's not really built for deep agents.",
+  "zh": "它并不是真正为 deep agent 构建的。"
+ },
+ {
+  "seg": 68,
+  "start": 515.384,
+  "end": 525.737,
+  "speaker": "Unknown",
+  "en": "And so it brings some additional production considerations if you want to be deploying these agents and using them for significant tasks that are relevant and important for your business.",
+  "zh": "因此，如果你想部署这些 agent 并将其用于与你的业务相关且重要的重大任务，这会带来一些额外的生产考虑因素。"
+ },
+ {
+  "seg": 69,
+  "start": 526.418,
+  "end": 532.581,
+  "speaker": "Unknown",
+  "en": "So some extra considerations that you have to think about is that lots of deep agent use cases are long running.",
+  "zh": "所以你需要考虑的一些额外考虑因素是，许多 deep agent 用例是长时间运行的。"
+ },
+ {
+  "seg": 70,
+  "start": 532.661,
+  "end": 533.441,
+  "speaker": "Unknown",
+  "en": "They're multi-step.",
+  "zh": "它们是多步骤的。"
+ },
+ {
+  "seg": 71,
+  "start": 534.082,
+  "end": 537.283,
+  "speaker": "Unknown",
+  "en": "And because they're long running, you do need a good way to handle errors.",
+  "zh": "而且因为它们是长时间运行的，你确实需要一个处理错误的好方法。"
+ },
+ {
+  "seg": 72,
+  "start": 537.824,
+  "end": 550.59,
+  "speaker": "Unknown",
+  "en": "It's likely that the longer your task is, at some point your agent is going to fail, and it's going to feel really bad if you're on step 67 out of 123, and then you have to execute all the 67 steps again when you restart the task.",
+  "zh": "你的任务时间越长，你的 agent 在某个时刻失败的可能性就越大，如果你正处于 123 个步骤中的第 67 步，然后当你重新启动任务时必须再次执行所有 67 个步骤，这感觉会非常糟糕。"
+ },
+ {
+  "seg": 73,
+  "start": 551.17,
+  "end": 557.012,
+  "speaker": "Unknown",
+  "en": "Same thing with autoscaling or parallel fanout, resuming drop sessions and incorporating human in the loop.",
+  "zh": "自动扩展或并行发散、恢复掉线会话以及引入人在回路也是同样的情况。"
+ },
+ {
+  "seg": 74,
+  "start": 557.272,
+  "end": 564.175,
+  "speaker": "Unknown",
+  "en": "There's a lot of the different considerations that you have to think about up here on this slide if you are using agents in production.",
+  "zh": "如果你在生产环境中使用 agent，你必须考虑这张幻灯片上列出的许多不同的考虑因素。"
+ },
+ {
+  "seg": 75,
+  "start": 565.915,
+  "end": 571.797,
+  "speaker": "Unknown",
+  "en": "And so your runtime needs to accommodate deep tasks or complex tasks or deep agents.",
+  "zh": "因此，你的运行时需要适应深度任务或复杂任务或 deep agent。"
+ },
+ {
+  "seg": 76,
+  "start": 572.278,
+  "end": 575.519,
+  "speaker": "Unknown",
+  "en": "I'm saying the word deep a lot, but you get the point of where I'm going.",
+  "zh": "我说了很多次 deep 这个词，但你明白我要表达的意思。"
+ },
+ {
+  "seg": 77,
+  "start": 576.763,
+  "end": 586.707,
+  "speaker": "Unknown",
+  "en": "And so let's take a look at some of the specific considerations, zooming in on some of those from the list that we found most important when we were building our production agents at LangChain.",
+  "zh": "所以让我们来看看一些具体的考虑因素，深入探讨一下我们在 LangChain 构建生产 agent 时发现的列表中最重要的几项。"
+ },
+ {
+  "seg": 78,
+  "start": 587.227,
+  "end": 590.268,
+  "speaker": "Unknown",
+  "en": "So one of the first ones that I mentioned was durable execution.",
+  "zh": "所以我提到的第一件事是持久执行。"
+ },
+ {
+  "seg": 79,
+  "start": 590.748,
+  "end": 599.612,
+  "speaker": "Unknown",
+  "en": "As we noticed our agents getting longer and longer running, we noticed that we do have this problem where you need some way to recover from failures because",
+  "zh": "当我们注意到我们的 agent 运行时间越来越长时，我们注意到确实存在这个问题，你需要某种方式从故障中恢复，因为"
+ },
+ {
+  "seg": 80,
+  "start": 600.852,
+  "end": 604.834,
+  "speaker": "Unknown",
+  "en": "One of the core patterns of agents, again, is still that they're limited by their context window.",
+  "zh": "agent 的核心模式之一，仍然是它们受到上下文窗口的限制。"
+ },
+ {
+  "seg": 81,
+  "start": 604.994,
+  "end": 609.817,
+  "speaker": "Unknown",
+  "en": "And a lot of the innovation around harnesses today is about maximizing your context window.",
+  "zh": "今天围绕 harness 的许多创新都是关于最大化你的上下文窗口。"
+ },
+ {
+  "seg": 82,
+  "start": 610.277,
+  "end": 615.9,
+  "speaker": "Unknown",
+  "en": "So by nature of building a complex agent, you are likely going to be pushing your context window to the limit.",
+  "zh": "因此，构建复杂 agent 的本质意味着你很可能会将你的上下文窗口推向极限。"
+ },
+ {
+  "seg": 83,
+  "start": 616.02,
+  "end": 618.662,
+  "speaker": "Unknown",
+  "en": "You're going to be running things for very long periods of time.",
+  "zh": "你将在很长的时间内运行事物。"
+ },
+ {
+  "seg": 84,
+  "start": 619.242,
+  "end": 627.507,
+  "speaker": "Unknown",
+  "en": "And somewhere in that process, as you get pushed to the limit, it's more and more likely for your agent to hallucinate, for your agent to fail, or for it to encounter some other error.",
+  "zh": "在这个过程中的某个地方，当你被推向极限时，你的 agent 产生幻觉、失败或遇到其他错误的可能性越来越大。"
+ },
+ {
+  "seg": 85,
+  "start": 628.087,
+  "end": 636.209,
+  "speaker": "Unknown",
+  "en": "And so it's very important to be able to recover from exactly that same spot where you had the error occur and not have to restart the task all the way from the very beginning.",
+  "zh": "因此，能够从发生错误的确切位置恢复，而不必从头开始重新启动任务，是非常重要的。"
+ },
+ {
+  "seg": 86,
+  "start": 636.709,
+  "end": 641.27,
+  "speaker": "Unknown",
+  "en": "And so this is something that is supported within our open source frameworks, LangGraph and DeepAgents.",
+  "zh": "这就是我们的开源框架 LangGraph 和 DeepAgents 所支持的东西。"
+ },
+ {
+  "seg": 87,
+  "start": 641.63,
+  "end": 644.451,
+  "speaker": "Unknown",
+  "en": "We have checkpointing basically every step of your execution.",
+  "zh": "我们基本上在执行的每一步都有检查点。"
+ },
+ {
+  "seg": 88,
+  "start": 644.551,
+  "end": 650.312,
+  "speaker": "Unknown",
+  "en": "So if you have a failure at step 67, you can start from step 66 and not have to go back to step one.",
+  "zh": "所以如果你在第 67 步失败，你可以从第 66 步开始，而不必回到第一步。"
+ },
+ {
+  "seg": 89,
+  "start": 652.394,
+  "end": 663.505,
+  "speaker": "Unknown",
+  "en": "Another thing that checkpointing allows and basically storing the state at every step of execution is that if you link together all of these different associated states, you can start building this concept of memory.",
+  "zh": "检查点允许的另一点，以及基本上在执行的每一步存储状态的是，如果你将所有这些不同的关联状态链接在一起，你就可以开始构建这个记忆的概念。"
+ },
+ {
+  "seg": 90,
+  "start": 664.026,
+  "end": 671.934,
+  "speaker": "Unknown",
+  "en": "So if you have all of the checkpoints, all of the execution steps associated with a particular session that a user might be having with your agent,",
+  "zh": "所以如果你拥有所有检查点，即用户可能与你的 agent 进行的特定会话相关的所有执行步骤，"
+ },
+ {
+  "seg": 91,
+  "start": 672.574,
+  "end": 674.355,
+  "speaker": "Unknown",
+  "en": "This is equivalent to short-term memory.",
+  "zh": "这等同于短期记忆。"
+ },
+ {
+  "seg": 92,
+  "start": 674.555,
+  "end": 681.617,
+  "speaker": "Unknown",
+  "en": "And this is how agents today using our open source, using deep agents, are able to remember what you said in previous turns of a conversation.",
+  "zh": "这就是今天使用我们的开源、使用 deep agent 的 agent 能够记住你在对话前几轮中所说内容的方式。"
+ },
+ {
+  "seg": 93,
+  "start": 681.917,
+  "end": 692.7,
+  "speaker": "Unknown",
+  "en": "Because under the hood, we're able to associate all of those same execution steps with one single session and use that to preserve the agent's memory so that it can remember if you said your preferences five messages ago.",
+  "zh": "因为在底层，我们能够将所有这些相同的执行步骤与单个会话相关联，并使用它来保留 agent 的记忆，以便它可以记住你是否在五条消息前说过你的偏好。"
+ },
+ {
+  "seg": 94,
+  "start": 693.48,
+  "end": 698.162,
+  "speaker": "Unknown",
+  "en": "And you can again extend this across sessions to what we call long-term memory.",
+  "zh": "你同样可以将其跨会话扩展到我们所谓的长期记忆。"
+ },
+ {
+  "seg": 95,
+  "start": 698.543,
+  "end": 708.708,
+  "speaker": "Unknown",
+  "en": "So deep agents, when we put them into production, we always include a long-term memory store in which we will extract insights that we want to have persist across many different sessions.",
+  "zh": "所以 deep agent，当我们把它们投入生产时，我们总是包含一个长期记忆存储，在其中我们将提取希望跨许多不同会话持久化的见解。"
+ },
+ {
+  "seg": 96,
+  "start": 709.208,
+  "end": 714.193,
+  "speaker": "Unknown",
+  "en": "The most basic use case for this that you can imagine is personalizing something for a given user.",
+  "zh": "你能想象到的最基本用例是为给定用户个性化某些东西。"
+ },
+ {
+  "seg": 97,
+  "start": 714.293,
+  "end": 721.039,
+  "speaker": "Unknown",
+  "en": "So maybe your user really likes Python for a coding agent and you want it to remember to always give its examples in Python.",
+  "zh": "所以也许你的用户真的很喜欢用于编码 agent 的 Python，并且你希望它记住总是用 Python 给出它的例子。"
+ },
+ {
+  "seg": 98,
+  "start": 721.38,
+  "end": 729.888,
+  "speaker": "Unknown",
+  "en": "Those are the sorts of pieces of information that you can put into long-term memory and extract them out from all of the checkpoints that you've gathered across many, many different sessions.",
+  "zh": "这些就是你可以放入长期记忆并从你在许多许多不同会话中收集的所有检查点中提取出的那类信息。"
+ },
+ {
+  "seg": 99,
+  "start": 731.653,
+  "end": 737.198,
+  "speaker": "Unknown",
+  "en": "Now, more and more as we're seeing agents put into production, you also have to handle authentication.",
+  "zh": "现在，越来越多的我们看到 agent 被投入生产，你还必须处理身份验证。"
+ },
+ {
+  "seg": 100,
+  "start": 737.538,
+  "end": 746.307,
+  "speaker": "Unknown",
+  "en": "And this is its own unique class of problem where not only do you have users with access to tools, you also need to consider which tools should your agent have access to.",
+  "zh": "这是其自己独特的一类问题，你不仅要考虑拥有访问工具权限的用户，你还需要考虑你的智能体应该有权访问哪些工具。"
+ },
+ {
+  "seg": 101,
+  "start": 746.867,
+  "end": 750.028,
+  "speaker": "Unknown",
+  "en": "And this can be a little bit different from your standard authentication.",
+  "zh": "这可能与你标准的认证有点不同。"
+ },
+ {
+  "seg": 102,
+  "start": 750.508,
+  "end": 756.15,
+  "speaker": "Unknown",
+  "en": "So at the very basic level, you probably don't want to have your agents doing things that your user cannot do.",
+  "zh": "所以在非常基础的层面上，你可能不希望你的智能体做你的用户不能做的事情。"
+ },
+ {
+  "seg": 103,
+  "start": 756.45,
+  "end": 763.432,
+  "speaker": "Unknown",
+  "en": "So acting on behalf of the user is, through OAuth, a pretty standard flow that, at minimum, you need to build into your agents.",
+  "zh": "所以代表用户行事，通过 OAuth，是一个非常标准的流程，至少，你需要将其构建到你的智能体中。"
+ },
+ {
+  "seg": 104,
+  "start": 763.952,
+  "end": 772.697,
+  "speaker": "Unknown",
+  "en": "But there's also new sorts of RBAC and auth scenarios that agents have fuzzy lines around that you don't really have with traditional applications.",
+  "zh": "但也有新型的 RBAC 和认证场景，智能体周围有模糊的界限，而你在传统应用程序中真的没有这些。"
+ },
+ {
+  "seg": 105,
+  "start": 773.037,
+  "end": 780.181,
+  "speaker": "Unknown",
+  "en": "For example, if I use an application that is going to talk to my Gmail today, I can give it access to read and send emails.",
+  "zh": "例如，如果我今天使用一个要与我的 Gmail 对话的应用程序，我可以授予它阅读和发送电子邮件的访问权限。"
+ },
+ {
+  "seg": 106,
+  "start": 780.221,
+  "end": 788.706,
+  "speaker": "Unknown",
+  "en": "And if I give it that access once, because apps today are pretty deterministic, I can feel pretty comfortable that this application can send emails whenever I want.",
+  "zh": "而且如果我一次性授予它该权限，因为今天的应用程序是非常确定性的，我可以很放心地认为，只要我想，这个应用程序就可以发送电子邮件。"
+ },
+ {
+  "seg": 107,
+  "start": 789.106,
+  "end": 791.388,
+  "speaker": "Unknown",
+  "en": "But that same dynamic might not be present for",
+  "zh": "但同样的动态可能不存在于"
+ },
+ {
+  "seg": 108,
+  "start": 793.228,
+  "end": 795.409,
+  "speaker": "Unknown",
+  "en": "For a deep agent or a more complex agent.",
+  "zh": "对于一个深度智能体或更复杂的智能体。"
+ },
+ {
+  "seg": 109,
+  "start": 795.489,
+  "end": 805.592,
+  "speaker": "Unknown",
+  "en": "For example, you might be okay with an agent sending one email on your behalf, but you might think that something's wrong and you might want to investigate if you see that agent sending a thousand emails on your behalf.",
+  "zh": "例如，你可能可以接受智能体代表你发送一封电子邮件，但如果你看到该智能体代表你发送一千封电子邮件，你可能会认为出了问题，并且你可能想要调查一下。"
+ },
+ {
+  "seg": 110,
+  "start": 805.952,
+  "end": 809.953,
+  "speaker": "Unknown",
+  "en": "And that's a different sort of auth flow than traditional applications will see.",
+  "zh": "这是一种与传统应用程序所见到的不同类型的认证流程。"
+ },
+ {
+  "seg": 111,
+  "start": 810.573,
+  "end": 812.555,
+  "speaker": "Unknown",
+  "en": "And so this is an area that's still being figured out.",
+  "zh": "所以这是仍在摸索中的一个领域。"
+ },
+ {
+  "seg": 112,
+  "start": 812.655,
+  "end": 816.098,
+  "speaker": "Unknown",
+  "en": "You have to think about, you know, what are your inbound authentication handlers?",
+  "zh": "你必须考虑，你知道，你的入站认证处理程序是什么？"
+ },
+ {
+  "seg": 113,
+  "start": 816.518,
+  "end": 819.861,
+  "speaker": "Unknown",
+  "en": "What are your outbound to third party handlers that you need?",
+  "zh": "你需要的出站到第三方处理程序是什么？"
+ },
+ {
+  "seg": 114,
+  "start": 819.981,
+  "end": 823.865,
+  "speaker": "Unknown",
+  "en": "And what is the RBAC that you need to be able to deploy and to work with your agents?",
+  "zh": "而你需要什么样的 RBAC 才能能够部署并与你的智能体一起工作？"
+ },
+ {
+  "seg": 115,
+  "start": 825.562,
+  "end": 835.886,
+  "speaker": "Unknown",
+  "en": "Now, the last thing that is important that I want to call out is interfacing with users because as of today, most tasks that are important still involve some degree of human in the loop.",
+  "zh": "现在，我想指出的最后一件重要的事情是与用户交互，因为直到今天，大多数重要的任务仍然涉及某种程度的人在回路中。"
+ },
+ {
+  "seg": 116,
+  "start": 836.206,
+  "end": 844.53,
+  "speaker": "Unknown",
+  "en": "There are cases where you can fully run something autonomously end to end with an agent, but many cases today, you will still want to have some degree of human oversight.",
+  "zh": "在某些情况下，你可以完全端到端地自主运行某事，但在今天的许多情况下，你仍然希望拥有某种程度的人工监督。"
+ },
+ {
+  "seg": 117,
+  "start": 844.91,
+  "end": 852.032,
+  "speaker": "Unknown",
+  "en": "And so this is something that needs to be built into your runtime and needs to be supported at a very foundational level for your agents.",
+  "zh": "所以这是需要构建到你的运行时中的东西，并且需要在非常基础的水平上为你的智能体提供支持。"
+ },
+ {
+  "seg": 118,
+  "start": 852.373,
+  "end": 858.995,
+  "speaker": "Unknown",
+  "en": "So with deep agents and with LangGraph and our open source, this is a core primitive that you always have accessible to you.",
+  "zh": "所以对于深度智能体和 LangGraph 以及我们的开源来说，这是一个核心原语，你始终可以访问它。"
+ },
+ {
+  "seg": 119,
+  "start": 859.455,
+  "end": 865.117,
+  "speaker": "Unknown",
+  "en": "And so if you deploy anything in production with deep agents or any of your own agents, you should consider",
+  "zh": "所以如果你在生产环境中部署任何东西，使用深度智能体或你自己的任何智能体，你应该考虑"
+ },
+ {
+  "seg": 120,
+  "start": 865.677,
+  "end": 868.639,
+  "speaker": "Unknown",
+  "en": "How is my human user going to interact with this agent?",
+  "zh": "我的人类用户将如何与这个智能体交互？"
+ },
+ {
+  "seg": 121,
+  "start": 868.879,
+  "end": 873.222,
+  "speaker": "Unknown",
+  "en": "How can my human user interrupt or stop or approve whatever the agent is doing?",
+  "zh": "我的人类用户如何中断、停止或批准智能体正在做的任何事情？"
+ },
+ {
+  "seg": 122,
+  "start": 873.802,
+  "end": 880.466,
+  "speaker": "Unknown",
+  "en": "And one of the core pieces of infrastructure is also how can I stream the agent's progress back to my human user?",
+  "zh": "基础设施的核心部分之一也是我如何将智能体的进度流式传输回给我的人类用户？"
+ },
+ {
+  "seg": 123,
+  "start": 880.806,
+  "end": 889.172,
+  "speaker": "Unknown",
+  "en": "Because oftentimes these agents will be running, like we said, for long periods of time, and you want to keep the human updated as to what the agent is doing and if it is still working.",
+  "zh": "因为通常这些智能体会运行，就像我们说的，很长时间，并且你想要让人类保持更新关于智能体正在做什么以及它是否仍在工作。"
+ },
+ {
+  "seg": 124,
+  "start": 890.365,
+  "end": 895.57,
+  "speaker": "Unknown",
+  "en": "And so these are all considerations that you have to think about if you're putting complex agents into production.",
+  "zh": "所以如果你要将复杂的智能体投入生产，这些都是你必须考虑的因素。"
+ },
+ {
+  "seg": 125,
+  "start": 896.23,
+  "end": 901.675,
+  "speaker": "Unknown",
+  "en": "It wouldn't be fitting if we noticed all of these problems and then didn't have a solution for them.",
+  "zh": "如果我们注意到了所有这些问题，却没有针对它们的解决方案，那就不合适了。"
+ },
+ {
+  "seg": 126,
+  "start": 902.015,
+  "end": 907.961,
+  "speaker": "Unknown",
+  "en": "So I do have to throw in this little pitch at the end where we say, we do have these problems solved with LangSmith deployments.",
+  "zh": "所以我确实必须在最后抛出这个小广告，我们会说，我们通过 LangSmith 部署解决了这些问题。"
+ },
+ {
+  "seg": 127,
+  "start": 908.101,
+  "end": 911.424,
+  "speaker": "Unknown",
+  "en": "If you are building agents and you don't want to figure out these problems yourself,",
+  "zh": "如果你正在构建智能体并且不想自己解决这些问题，"
+ },
+ {
+  "seg": 128,
+  "start": 912.244,
+  "end": 921.614,
+  "speaker": "Unknown",
+  "en": "We do support deployments where you can take an agent that you've built and automatically deploy it onto our platform to handle these exact scenarios that we just spent time talking about.",
+  "zh": "我们确实支持部署，你可以获取你构建的智能体并将其自动部署到我们的平台上，以处理我们刚才花时间讨论的这些确切场景。"
+ },
+ {
+  "seg": 129,
+  "start": 922.055,
+  "end": 933.207,
+  "speaker": "Unknown",
+  "en": "But again, whether or not you use our products, whether or not you're building with LangSmith, if you're putting stuff into production, you most likely will run into these same issues and you most likely will need to have your own solutions to these issues.",
+  "zh": "但同样，无论你是否使用我们的产品，无论你是否正在使用 LangSmith 构建，如果你将东西投入生产，你很可能会遇到这些相同的问题，并且你很可能需要拥有你自己针对这些问题的解决方案。"
+ }
+]

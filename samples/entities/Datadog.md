@@ -27,7 +27,7 @@ unlisted: true
 
 [[智能体]] · [[评估]] · [[Simon Willison]] · [[Anish]] · [[Cat Wu]] · [[Raj]] · [[Thariq Shihipar]] · [[Harrison]] · [[Anthropic]] · [[Traversal]]
 
-<script type="application/json" class="pd-epn">{"智能体":60,"评估":6,"Simon Willison":1,"Anish":1,"Cat Wu":1,"Raj":1,"Thariq Shihipar":1,"Harrison":1,"Anthropic":35,"Traversal":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":61,"评估":6,"Simon Willison":1,"Anish":1,"Cat Wu":1,"Raj":1,"Thariq Shihipar":1,"Harrison":1,"Anthropic":35,"Traversal":1}</script>
 
 <script>
 (function(){
@@ -121,6 +121,14 @@ unlisted: true
     if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
     navigator.clipboard.writeText(location.href).then(
       function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  // 手机端「← 返回」= 回上一级(history.back);历史栈空(外站/新标签直开)→ 降级走 href="/" 回首页(ADR 0019)。
+  // 用委托监听而非内联 onclick:避开 CSP unsafe-inline;桌面(≥1024)不拦、走默认 href。
+  if(!window.__pdBack){ window.__pdBack=1;
+    document.addEventListener('click', function(ev){
+      var a=ev.target.closest && ev.target.closest('.pd-back'); if(!a) return;
+      if(innerWidth<1024 && history.length>1){ ev.preventDefault(); history.back(); }
+    });
   }
   if(!window.__pdActs){ window.__pdActs=1;
     document.addEventListener('click', function(ev){

@@ -7,25 +7,27 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Rust</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Rust">RU</div><div class="pi"><h1 class="pt">Rust</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Rust">RU</div><div class="pi"><h1 class="pt">Rust</h1><div class="byl">概念</div><div class="nums">本站收录 <b>2</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(05:47起):本集把它说成:Anthropic 内部已经用它重写了 Claude Code 底层
+- **[[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|《用 AI 对抗 AI：一种不用读代码的编程语言 BAML》]]**(15:15起):本集提到:错误处理做得好看的一门语言,作为对比点;BAML 想从根上治 AI 套 try-catch 的毛病,拿出 Rust 级别的保证。
 
 ## ② 出现在这些集
 
-*1 集*
+*2 集*
 
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念
+- [[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo|《用 AI 对抗 AI：一种不用读代码的编程语言 BAML》]] — 作为概念(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[Simon Willison]] · [[Cat Wu]] · [[Thariq Shihipar]] · [[Anthropic]] · [[Claude Code]] · [[ClaudeTag]] · [[Fable]] · [[Slack]] · [[Bun]] · [[Gemini]]
+[[智能体]] · [[Claude]] · [[Simon Willison]] · [[Vaibhav Gupta]] · [[Cat Wu]] · [[BAML]] · [[Thariq Shihipar]] · [[垃圾话]] · [[Anthropic]] · [[代码审查]]
 
-<script type="application/json" class="pd-epn">{"Simon Willison":1,"Cat Wu":1,"Thariq Shihipar":1,"Anthropic":35,"Claude Code":16,"ClaudeTag":1,"Fable":3,"Slack":13,"Bun":1,"Gemini":3}</script>
+<script type="application/json" class="pd-epn">{"智能体":61,"Claude":12,"Simon Willison":1,"Vaibhav Gupta":1,"Cat Wu":1,"BAML":1,"Thariq Shihipar":1,"垃圾话":2,"Anthropic":35,"代码审查":1}</script>
 
 <script>
 (function(){
@@ -119,6 +121,14 @@ unlisted: true
     if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
     navigator.clipboard.writeText(location.href).then(
       function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  // 手机端「← 返回」= 回上一级(history.back);历史栈空(外站/新标签直开)→ 降级走 href="/" 回首页(ADR 0019)。
+  // 用委托监听而非内联 onclick:避开 CSP unsafe-inline;桌面(≥1024)不拦、走默认 href。
+  if(!window.__pdBack){ window.__pdBack=1;
+    document.addEventListener('click', function(ev){
+      var a=ev.target.closest && ev.target.closest('.pd-back'); if(!a) return;
+      if(innerWidth<1024 && history.length>1){ ev.preventDefault(); history.back(); }
+    });
   }
   if(!window.__pdActs){ window.__pdActs=1;
     document.addEventListener('click', function(ev){

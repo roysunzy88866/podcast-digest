@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>LLM</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>3</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="LLM">LL</div><div class="pi"><h1 class="pt">LLM</h1><div class="byl">概念</div><div class="nums">本站收录 <b>5</b> 集 · <b>4</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -19,11 +19,13 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*3 条,均已过机器闸门*
+*4 条,均已过机器闸门*
 
 ![[2025-12-07-lennys-surge-ai-edwin-chen#^q6]]
 
 ![[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto#^q7]]
+
+![[2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo#^q7]]
 
 ![[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem#^q4]]
 
@@ -43,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[Stripe]] · [[Claude]] · [[OpenAI]] · [[Jason Cohen]] · [[Nikhyl Singhal]] · [[Patrick Collison]]
 
-<script type="application/json" class="pd-epn">{"智能体":60,"Anthropic":35,"Lenny":33,"Google":14,"Stripe":10,"Claude":11,"OpenAI":30,"Jason Cohen":1,"Nikhyl Singhal":1,"Patrick Collison":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":61,"Anthropic":35,"Lenny":33,"Google":14,"Stripe":10,"Claude":12,"OpenAI":30,"Jason Cohen":1,"Nikhyl Singhal":1,"Patrick Collison":1}</script>
 
 <script>
 (function(){
@@ -137,6 +139,14 @@ unlisted: true
     if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
     navigator.clipboard.writeText(location.href).then(
       function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  // 手机端「← 返回」= 回上一级(history.back);历史栈空(外站/新标签直开)→ 降级走 href="/" 回首页(ADR 0019)。
+  // 用委托监听而非内联 onclick:避开 CSP unsafe-inline;桌面(≥1024)不拦、走默认 href。
+  if(!window.__pdBack){ window.__pdBack=1;
+    document.addEventListener('click', function(ev){
+      var a=ev.target.closest && ev.target.closest('.pd-back'); if(!a) return;
+      if(innerWidth<1024 && history.length>1){ ev.preventDefault(); history.back(); }
+    });
   }
   if(!window.__pdActs){ window.__pdActs=1;
     document.addEventListener('click', function(ev){

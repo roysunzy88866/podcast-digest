@@ -34,7 +34,7 @@ unlisted: true
 
 [[强化学习]] · [[Anthropic]] · [[Barney Hussey-Yeo]] · [[Sonja]] · [[John Collison]] · [[Rohan Anil]] · [[Clio]] · [[Jerry Tworek]] · [[智能体]] · [[Core Automation]]
 
-<script type="application/json" class="pd-epn">{"强化学习":6,"Anthropic":35,"Barney Hussey-Yeo":1,"Sonja":1,"John Collison":1,"Rohan Anil":1,"Clio":1,"Jerry Tworek":1,"智能体":60,"Core Automation":1}</script>
+<script type="application/json" class="pd-epn">{"强化学习":6,"Anthropic":35,"Barney Hussey-Yeo":1,"Sonja":1,"John Collison":1,"Rohan Anil":1,"Clio":1,"Jerry Tworek":1,"智能体":61,"Core Automation":1}</script>
 
 <script>
 (function(){
@@ -128,6 +128,14 @@ unlisted: true
     if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
     navigator.clipboard.writeText(location.href).then(
       function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  // 手机端「← 返回」= 回上一级(history.back);历史栈空(外站/新标签直开)→ 降级走 href="/" 回首页(ADR 0019)。
+  // 用委托监听而非内联 onclick:避开 CSP unsafe-inline;桌面(≥1024)不拦、走默认 href。
+  if(!window.__pdBack){ window.__pdBack=1;
+    document.addEventListener('click', function(ev){
+      var a=ev.target.closest && ev.target.closest('.pd-back'); if(!a) return;
+      if(innerWidth<1024 && history.length>1){ ev.preventDefault(); history.back(); }
+    });
   }
   if(!window.__pdActs){ window.__pdActs=1;
     document.addEventListener('click', function(ev){

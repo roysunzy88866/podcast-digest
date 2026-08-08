@@ -1,0 +1,946 @@
+{
+  "episode_id": "2026-07-31-talks-fighting-slop-with-slop-vaibhav-gupta-bo",
+  "podcast": "精选演讲",
+  "date": "2026-07-31",
+  "tags": [
+    "AI 编程",
+    "编程语言",
+    "类型系统",
+    "工程实践",
+    "智能体优先"
+  ],
+  "categories": [
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "vaibhav-gupta",
+      "type": "person",
+      "role": "guest",
+      "name": "Vaibhav Gupta",
+      "file": "Vaibhav Gupta",
+      "primary": true,
+      "source": "meta",
+      "evidence": []
+    },
+    {
+      "id": "baml",
+      "type": "concept",
+      "role": "concept",
+      "name": "BAML",
+      "file": "BAML",
+      "primary": true,
+      "how_described": "本集把它说成:一门从第一性原理重写的编程语言,自带执行跟踪、无性能开销,且函数可自动推断错误类型,让编译器给出穷举保证、把住信任关。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            305.573,
+            311.826
+          ],
+          "quote": "What we did was we built a system that actually has agents constantly running and creating BAML programs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 77,
+          "t": [
+            312.788,
+            314.01
+          ],
+          "quote": "We take these BAML programs.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 128,
+          "t": [
+            556.753,
+            559.014
+          ],
+          "quote": "So let me show you what BAML really can do.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 226,
+          "t": [
+            1048.99,
+            1058.255
+          ],
+          "quote": "But before I tell you all to go write a bunch of BAML code, because I've been there and I can tell you what someone would tell me if I said, hey, use this new programming language.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1082.412,
+            1096.337
+          ],
+          "quote": "And we said, what if you could use BAML, not just standalone like I showed today, but from within any existing language of your choice, from Python to TypeScript to Rust to Go to Ruby to Java to anything new that comes up even after it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 233,
+          "t": [
+            1097.497,
+            1100.238
+          ],
+          "quote": "What if every function in BAML is immediately accessible,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1102.453,
+            1107.236
+          ],
+          "quote": "So in this case, I'm calling the BAML calculate function directly from Python, and it's completely type safe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 237,
+          "t": [
+            1113.04,
+            1118.004
+          ],
+          "quote": "So BAML, while it has no function coloring, it does give you the benefit of having to do whatever you want across your code.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 254,
+          "t": [
+            1187.66,
+            1191.427
+          ],
+          "quote": "When we started building BAML, I didn't think it would be possible to build some of the software we did.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 255,
+          "t": [
+            1192.169,
+            1197.158
+          ],
+          "quote": "And just yesterday, one of our engineers built a partial C compiler purely in BAML.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1271.427,
+            1273.229
+          ],
+          "quote": "I'm Vaibhav, and I work on BAML.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "slop",
+      "type": "concept",
+      "role": "concept",
+      "name": "劣质代码 (slop)",
+      "file": "劣质代码",
+      "primary": true,
+      "how_described": "本集把它说成:你不读的代码就是 slop;团队干脆废掉代码审查,转而造一堆 sloppy 工具,主动用 slop 对抗 slop。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 0,
+          "t": [
+            13.585,
+            15.126
+          ],
+          "quote": "Fighting slop with slop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            52.914,
+            55.055
+          ],
+          "quote": "That's something that has absolutely no room for slop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 14,
+          "t": [
+            72.143,
+            78.587
+          ],
+          "quote": "And when I first met this enemy, I went to my great mentor, Slop Sue, and he taught me something.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 15,
+          "t": [
+            79.508,
+            82.349
+          ],
+          "quote": "To defeat the slop, we must become the slop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 17,
+          "t": [
+            87.813,
+            89.534
+          ],
+          "quote": "So when we think about it, what is slop?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 18,
+          "t": [
+            90.334,
+            91.815
+          ],
+          "quote": "Slop is just any code you don't read.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 19,
+          "t": [
+            92.655,
+            98.879
+          ],
+          "quote": "And whether any of you admit it or not, this is the least amount of slop that your code base will ever have.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 21,
+          "t": [
+            101.183,
+            105.405
+          ],
+          "quote": "So we started fighting back against the slop, and we started fighting back with slop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 56,
+          "t": [
+            224.739,
+            227.14
+          ],
+          "quote": "And soon, the team was fighting my slop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 96,
+          "t": [
+            421.953,
+            423.875
+          ],
+          "quote": "And I think we can start winning this battle against slop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            424.495,
+            426.917
+          ],
+          "quote": "And as we win this battle, slop can be defeated.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 112,
+          "t": [
+            494.485,
+            498.686
+          ],
+          "quote": "This is just slop baked into the language, whether you like it or not.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            510.468,
+            512.868
+          ],
+          "quote": "This is slop baked into the language.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            513.468,
+            516.749
+          ],
+          "quote": "And whether you like it or not, the systems will have slop.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 129,
+          "t": [
+            559.354,
+            565.897
+          ],
+          "quote": "And when you start thinking from first principles, how you can try and combat slop from a very foundational layer itself.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 139,
+          "t": [
+            619.824,
+            625.867
+          ],
+          "quote": "I can expand this, I can keep expanding this, and I can say, nope, that's too much slop, let's let that be slop, and walk away.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 229,
+          "t": [
+            1064.258,
+            1070.922
+          ],
+          "quote": "So we said, I think we'll lose the war on slop if we try to ask everyone to rewrite all their code in the world into this new system.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 261,
+          "t": [
+            1225.156,
+            1230.117
+          ],
+          "quote": "And remember, this is the least amount of slop your code base will ever have to this day.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 264,
+          "t": [
+            1241.179,
+            1243.18
+          ],
+          "quote": "And I really genuinely don't want slop to win.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:不停从零写 BAML 程序、查 Claude 对话记录找 bug 的执行者;新的工具链都以「智能体优先」为原则,让智能体能一次调用拿到全部信息。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 31,
+          "t": [
+            146.691,
+            151.254
+          ],
+          "quote": "You go deeper into the compiler, tell the agent to just talk to at least one other person.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            504.147,
+            505.407
+          ],
+          "quote": "And you know what my agent loves?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 138,
+          "t": [
+            614.883,
+            619.704
+          ],
+          "quote": "Without any of you ever reading the code, you know I'm setting up stuff and I have an agent loop, because the semantic boundary's in there.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            722.196,
+            724.978
+          ],
+          "quote": "But what does agent-first tooling look like?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 188,
+          "t": [
+            893.295,
+            894.877
+          ],
+          "quote": "You can move at agent speed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 248,
+          "t": [
+            1150.111,
+            1154.376
+          ],
+          "quote": "And more importantly, so when the agent does something, the type system never lies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 260,
+          "t": [
+            1221.122,
+            1224.523
+          ],
+          "quote": "Our processes have to evolve if we're going to ship at agent speed.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "code-reviews",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码审查 (code reviews)",
+      "file": "代码审查",
+      "primary": true,
+      "how_described": "本集把它说成:团队直接废掉的传统流程;在 AI 写代码的时代,靠人逐行读代码兜不住,得靠不变量、工具和智能体互相监督来替代。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 3,
+          "t": [
+            27.033,
+            34.978
+          ],
+          "quote": "We do no-code reviews, we require every engineer to work on things in parallel, and we have no standardization in how people do AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 7,
+          "t": [
+            44.631,
+            47.312
+          ],
+          "quote": "So what do we actually do at our company without code reviews?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 251,
+          "t": [
+            1169.091,
+            1174.433
+          ],
+          "quote": "You can build incredibly complex systems without traditional systems like code reviews.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "invariants",
+      "type": "concept",
+      "role": "concept",
+      "name": "不变量 (invariants)",
+      "file": "不变量",
+      "primary": true,
+      "how_described": "本集把它说成:标准、架构、类型安全三条线上的铁律;比如 architecture.md 只写几个月几年不变的规则、CI/CLI 脚本死守架构不变量。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 64,
+          "t": [
+            251.978,
+            260.262
+          ],
+          "quote": "It has semantic boundaries, individual packages, but what's more interesting is we can go build CLI tools that guarantee that certain invariants can't be broken.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 71,
+          "t": [
+            289.389,
+            291.731
+          ],
+          "quote": "A programming language has so many invariants.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1154.656,
+            1160.803
+          ],
+          "quote": "The type system becomes the absolute center of truth that prevents invariants from entering your code base.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "execution-trace",
+      "type": "concept",
+      "role": "concept",
+      "name": "执行跟踪 (execution trace)",
+      "file": "执行跟踪",
+      "primary": true,
+      "how_described": "本集把它说成:在不读代码的世界里理解程序的唯一方式;BAML 从头设计,让跟踪几乎零性能开销,每个文件自带跟踪系统,Claude 可顺着它找 bug。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 141,
+          "t": [
+            634.637,
+            640.663
+          ],
+          "quote": "But if we go back to the previous pipeline that was running, what if, while it's running, I can actually get a full execution trace?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 142,
+          "t": [
+            641.103,
+            651.773
+          ],
+          "quote": "In a world where we don't read all the code, the only way to understand the code is actually by the execution trace and actually by seeing exactly how much time was spent on what parts of my program at any given time.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "type-system",
+      "type": "concept",
+      "role": "concept",
+      "name": "类型系统 (type system)",
+      "file": "类型系统",
+      "primary": true,
+      "how_described": "本集把它说成:绝对的真理中心;函数错误类型被自动推断,编译器能证明你处理没处理,类型系统负责把住不变量的门、不撒谎。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 248,
+          "t": [
+            1150.111,
+            1154.376
+          ],
+          "quote": "And more importantly, so when the agent does something, the type system never lies.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 249,
+          "t": [
+            1154.656,
+            1160.803
+          ],
+          "quote": "The type system becomes the absolute center of truth that prevents invariants from entering your code base.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "tool-calls",
+      "type": "concept",
+      "role": "concept",
+      "name": "工具调用 (tool calls)",
+      "file": "工具调用",
+      "primary": true,
+      "how_described": "本集把它说成:衡量语言特性好坏的数据指标——好的方案应该用的工具调用更少、错误更少,从而确定性判断哪条路对。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 82,
+          "t": [
+            332.054,
+            337.76
+          ],
+          "quote": "And not just what was bad in terms of what was incorrect in the language, but what took three tool calls when it should have only taken one.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 87,
+          "t": [
+            366.542,
+            376.489
+          ],
+          "quote": "You could figure out which ones took less tool calls, which one made less errors, which one produced the correct outcome, and deterministically know what's going on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 164,
+          "t": [
+            763.192,
+            767.496
+          ],
+          "quote": "We can make something that used to be multiple tool calls a single tool call all of a sudden.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "typescript",
+      "type": "concept",
+      "role": "concept",
+      "name": "TypeScript",
+      "file": "TypeScript",
+      "primary": true,
+      "how_described": "本集把它说成:在正确性和生产力之间平衡,但针对的是人类生产力;底下 JavaScript 留下了排序转字符串等一堆 baked-in 的 slop,在 AI 时代是埋雷。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 101,
+          "t": [
+            442.672,
+            443.813
+          ],
+          "quote": "How many of you have used TypeScript?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 103,
+          "t": [
+            451.657,
+            456.54
+          ],
+          "quote": "Did you know that TypeScript's main design goal is to strike a balance between correctness and productivity?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 114,
+          "t": [
+            501.986,
+            503.427
+          ],
+          "quote": "I love this part of TypeScript.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 116,
+          "t": [
+            506.387,
+            507.447
+          ],
+          "quote": "This part of TypeScript.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            534.808,
+            537.609
+          ],
+          "quote": "We built CoffeeScript, then TypeScript, and now we're trying to build Effect.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            652.647,
+            659.671
+          ],
+          "quote": "If you want to go and actually track your program through, think about how slow your program would be if you had to go trace everything in Python or TypeScript.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1082.412,
+            1096.337
+          ],
+          "quote": "And we said, what if you could use BAML, not just standalone like I showed today, but from within any existing language of your choice, from Python to TypeScript to Rust to Go to Ruby to Java to anything new that comes up even after it?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "javascript",
+      "type": "concept",
+      "role": "concept",
+      "name": "JavaScript",
+      "file": "JavaScript",
+      "primary": true,
+      "how_described": "本集把它说成:网页开发最常用的语言,当年图省事埋了 slop;CoffeeScript、TypeScript、Effect 都是在给它打补丁,但底下地基本来就是裂的。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 121,
+          "t": [
+            522.483,
+            534.427
+          ],
+          "quote": "But if you think about what JavaScript does, JavaScript exists, and then after JavaScript existed, we started building systems to layer it on.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 190,
+          "t": [
+            901.426,
+            903.927
+          ],
+          "quote": "What if we tried to fix some of the real sins of JavaScript?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "architecture-md",
+      "type": "concept",
+      "role": "concept",
+      "name": "架构文件 (architecture.md)",
+      "file": "架构文件",
+      "primary": true,
+      "how_described": "本集把它说成:仓库根目录一个极小的文本文件,只写几个月几年不变的底层规则(如编译器分几层),替代任何强制性的 AI 使用标准。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 27,
+          "t": [
+            130.579,
+            132.34
+          ],
+          "quote": "We built an architecture.md file.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "dependency-graph",
+      "type": "concept",
+      "role": "concept",
+      "name": "依赖图 (dependency graph)",
+      "file": "依赖图",
+      "primary": true,
+      "how_described": "本集把它说成:团队造的可视化工具,实时盯着代码库模块间的依赖怎么变;叠一层 CLI 脚本死守架构不变量,AI 试图加问题依赖立刻标红报警。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 63,
+          "t": [
+            245.095,
+            251.298
+          ],
+          "quote": "This tool basically visualizes our dependency graph internally with some external dependencies as well and allows us to watch the code base change.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "cicd",
+      "type": "concept",
+      "role": "concept",
+      "name": "CI/CD",
+      "file": "CI-CD",
+      "primary": true,
+      "how_described": "本集把它说成:自动跑测试的流程;在架构不变量被打破、出现漏掉边界的包时,CI 或 git 提交历史立刻标红报警,守住代码库收敛。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 65,
+          "t": [
+            260.938,
+            270.742
+          ],
+          "quote": "And what this does is when Claude builds a new package or adds a dependency that's leaky, we now have CI CD changing or a simple git commit history that tells us exactly where things break.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 257,
+          "t": [
+            1210.619,
+            1212.7
+          ],
+          "quote": "Have you ever worked at a company that had no CICD?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 258,
+          "t": [
+            1213.2,
+            1215.24
+          ],
+          "quote": "They said adding CICD would slow us down.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "type": "company",
+      "role": "company",
+      "name": "Claude",
+      "file": "Claude",
+      "primary": false,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            119.031,
+            124.013
+          ],
+          "quote": "Some of them want to use Claude, some of them want to use Codex, some of them want to use the latest thing that they just found on Hacker News.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 65,
+          "t": [
+            260.938,
+            270.742
+          ],
+          "quote": "And what this does is when Claude builds a new package or adds a dependency that's leaky, we now have CI CD changing or a simple git commit history that tells us exactly where things break.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 80,
+          "t": [
+            319.981,
+            328.75
+          ],
+          "quote": "We then look at the entire Claude transcript, see what tools it used, see what happened, and obviously we as humans can inspect them, but more importantly, we can have agents go inspect them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 146,
+          "t": [
+            668.003,
+            677.347
+          ],
+          "quote": "Not only can we make it great for humans, but because it's all built for agents anyway, you can go ahead and make it so that every single file has a tracing system that Claude can navigate through.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 147,
+          "t": [
+            677.647,
+            683.87
+          ],
+          "quote": "So Claude can find what were bugs, what were errors, and what were inefficiencies, and start optimizing your code without you having to do it yourself.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "codex",
+      "type": "company",
+      "role": "company",
+      "name": "Codex",
+      "file": "Codex",
+      "primary": false,
+      "how_described": "本集提到:招来的顶尖工程师有人爱用 Codex,团队不硬性统一,允许每人挑自己喜欢的 AI 工具。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            119.031,
+            124.013
+          ],
+          "quote": "Some of them want to use Claude, some of them want to use Codex, some of them want to use the latest thing that they just found on Hacker News.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "hacker-news",
+      "type": "company",
+      "role": "company",
+      "name": "Hacker News",
+      "file": "Hacker News",
+      "primary": false,
+      "how_described": "本集提到:工程师天天追新工具的资讯源头之一,体现了团队里 AI 工具使用完全去标准化的现状。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 25,
+          "t": [
+            119.031,
+            124.013
+          ],
+          "quote": "Some of them want to use Claude, some of them want to use Codex, some of them want to use the latest thing that they just found on Hacker News.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "type": "concept",
+      "role": "concept",
+      "name": "Python",
+      "file": "Python",
+      "primary": false,
+      "how_described": "本集把它说成:一门老牌语言,25 年了还有 bug;想在里面做完整执行跟踪慢得要命,但在 BAML 桥接下可以直接调 BAML 函数并跨语言传 lambda、闭包。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 74,
+          "t": [
+            298.955,
+            300.777
+          ],
+          "quote": "Python has bugs 25 years later.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 143,
+          "t": [
+            652.647,
+            659.671
+          ],
+          "quote": "If you want to go and actually track your program through, think about how slow your program would be if you had to go trace everything in Python or TypeScript.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1082.412,
+            1096.337
+          ],
+          "quote": "And we said, what if you could use BAML, not just standalone like I showed today, but from within any existing language of your choice, from Python to TypeScript to Rust to Go to Ruby to Java to anything new that comes up even after it?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 235,
+          "t": [
+            1102.453,
+            1107.236
+          ],
+          "quote": "So in this case, I'm calling the BAML calculate function directly from Python, and it's completely type safe.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 244,
+          "t": [
+            1140.241,
+            1143.765
+          ],
+          "quote": "Well, in that world, you can even pass Python lambdas across the bridge.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "rust",
+      "type": "concept",
+      "role": "concept",
+      "name": "Rust",
+      "file": "Rust",
+      "primary": false,
+      "how_described": "本集提到:错误处理做得好看的一门语言,作为对比点;BAML 想从根上治 AI 套 try-catch 的毛病,拿出 Rust 级别的保证。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 194,
+          "t": [
+            915.492,
+            917.553
+          ],
+          "quote": "Other than Rust?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 232,
+          "t": [
+            1082.412,
+            1096.337
+          ],
+          "quote": "And we said, what if you could use BAML, not just standalone like I showed today, but from within any existing language of your choice, from Python to TypeScript to Rust to Go to Ruby to Java to anything new that comes up even after it?",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": []
+}

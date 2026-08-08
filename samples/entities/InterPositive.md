@@ -25,7 +25,7 @@ unlisted: true
 
 [[Lenny]] · [[Elizabeth Stone]] · [[Netflix]] · [[GenAI]] · [[智能体]] · [[系统思维]] · [[动荡阶段]] · [[留任测试]] · [[卓越即操作系统]] · [[铺设路径]]
 
-<script type="application/json" class="pd-epn">{"Lenny":33,"Elizabeth Stone":1,"Netflix":2,"GenAI":1,"智能体":60,"系统思维":3,"动荡阶段":1,"留任测试":1,"卓越即操作系统":1,"铺设路径":1}</script>
+<script type="application/json" class="pd-epn">{"Lenny":33,"Elizabeth Stone":1,"Netflix":2,"GenAI":1,"智能体":61,"系统思维":3,"动荡阶段":1,"留任测试":1,"卓越即操作系统":1,"铺设路径":1}</script>
 
 <script>
 (function(){
@@ -119,6 +119,14 @@ unlisted: true
     if(!navigator.clipboard){ toast('请手动复制地址栏链接'); return; }
     navigator.clipboard.writeText(location.href).then(
       function(){ toast('链接已复制'); }, function(){ toast('复制失败,请手动复制地址栏'); });
+  }
+  // 手机端「← 返回」= 回上一级(history.back);历史栈空(外站/新标签直开)→ 降级走 href="/" 回首页(ADR 0019)。
+  // 用委托监听而非内联 onclick:避开 CSP unsafe-inline;桌面(≥1024)不拦、走默认 href。
+  if(!window.__pdBack){ window.__pdBack=1;
+    document.addEventListener('click', function(ev){
+      var a=ev.target.closest && ev.target.closest('.pd-back'); if(!a) return;
+      if(innerWidth<1024 && history.length>1){ ev.preventDefault(); history.back(); }
+    });
   }
   if(!window.__pdActs){ window.__pdActs=1;
     document.addEventListener('click', function(ev){

@@ -1,0 +1,2202 @@
+[
+ {
+  "seg": 0,
+  "start": 13.585,
+  "end": 15.126,
+  "speaker": "Unknown",
+  "en": "Fighting slop with slop.",
+  "zh": "用劣质代码对抗劣质代码。"
+ },
+ {
+  "seg": 1,
+  "start": 16.987,
+  "end": 22.571,
+  "speaker": "Unknown",
+  "en": "My name is Vaibhav, and I'm going to talk about something that is a little, I would say, maybe a little silly at first.",
+  "zh": "我叫 Vaibhav，我要讲的东西，我想说，一开始可能有点傻。"
+ },
+ {
+  "seg": 2,
+  "start": 23.351,
+  "end": 25.853,
+  "speaker": "Unknown",
+  "en": "I'm going to show you our team's engineering practices really quickly.",
+  "zh": "我要非常快地向你们展示我们团队的工程实践。"
+ },
+ {
+  "seg": 3,
+  "start": 27.033,
+  "end": 34.978,
+  "speaker": "Unknown",
+  "en": "We do no-code reviews, we require every engineer to work on things in parallel, and we have no standardization in how people do AI.",
+  "zh": "我们不做代码审查，我们要求每个工程师并行工作，而且我们在人们如何做 AI 方面没有任何标准化。"
+ },
+ {
+  "seg": 4,
+  "start": 35.819,
+  "end": 38.16,
+  "speaker": "Unknown",
+  "en": "And I know immediately what almost all of you are thinking.",
+  "zh": "我立刻就知道你们几乎所有人都在想什么。"
+ },
+ {
+  "seg": 5,
+  "start": 38.961,
+  "end": 40.582,
+  "speaker": "Unknown",
+  "en": "We're probably a Zoom or YC startup.",
+  "zh": "我们可能是一家 Zoom 或 YC 创业公司。"
+ },
+ {
+  "seg": 6,
+  "start": 41.53,
+  "end": 43.791,
+  "speaker": "Unknown",
+  "en": "And I can guarantee you I'm clearly a millennial.",
+  "zh": "我可以向你保证，我显然是一个千禧一代。"
+ },
+ {
+  "seg": 7,
+  "start": 44.631,
+  "end": 47.312,
+  "speaker": "Unknown",
+  "en": "So what do we actually do at our company without code reviews?",
+  "zh": "那么在没有代码审查的情况下，我们在公司实际上做什么？"
+ },
+ {
+  "seg": 8,
+  "start": 48.012,
+  "end": 52.154,
+  "speaker": "Unknown",
+  "en": "Well, about three years ago, we decided to build a programming language.",
+  "zh": "嗯，大约三年前，我们决定构建一种编程语言。"
+ },
+ {
+  "seg": 9,
+  "start": 52.914,
+  "end": 55.055,
+  "speaker": "Unknown",
+  "en": "That's something that has absolutely no room for slop.",
+  "zh": "这是一个绝对没有劣质代码余地的东西。"
+ },
+ {
+  "seg": 10,
+  "start": 55.455,
+  "end": 59.516,
+  "speaker": "Unknown",
+  "en": "It's something that has to work every single time exactly the same way.",
+  "zh": "这是一个每次都必须以完全相同方式工作的东西。"
+ },
+ {
+  "seg": 11,
+  "start": 60.136,
+  "end": 64.938,
+  "speaker": "Unknown",
+  "en": "It's something that you can't just change a year later or a month later because you made a bad design decision.",
+  "zh": "这是一个你不能因为做了一个糟糕的设计决定就在一年后或一个月后更改的东西。"
+ },
+ {
+  "seg": 12,
+  "start": 65.078,
+  "end": 66.098,
+  "speaker": "Unknown",
+  "en": "You have to be correct.",
+  "zh": "你必须正确。"
+ },
+ {
+  "seg": 13,
+  "start": 66.739,
+  "end": 70.58,
+  "speaker": "Unknown",
+  "en": "And for the last three years, we've been in an onslaught of war against slot.",
+  "zh": "在过去三年里，我们一直处于一场对抗劣质代码的战争攻势中。"
+ },
+ {
+  "seg": 14,
+  "start": 72.143,
+  "end": 78.587,
+  "speaker": "Unknown",
+  "en": "And when I first met this enemy, I went to my great mentor, Slop Sue, and he taught me something.",
+  "zh": "当我第一次遇到这个敌人时，我去找我伟大的导师 Slop Sue，他教了我一些东西。"
+ },
+ {
+  "seg": 15,
+  "start": 79.508,
+  "end": 82.349,
+  "speaker": "Unknown",
+  "en": "To defeat the slop, we must become the slop.",
+  "zh": "为了击败劣质代码，我们必须成为劣质代码。"
+ },
+ {
+  "seg": 16,
+  "start": 83.45,
+  "end": 87.052,
+  "speaker": "Unknown",
+  "en": "So we began, and we prepared, and then we started winning.",
+  "zh": "于是我们开始，我们准备，然后我们开始获胜。"
+ },
+ {
+  "seg": 17,
+  "start": 87.813,
+  "end": 89.534,
+  "speaker": "Unknown",
+  "en": "So when we think about it, what is slop?",
+  "zh": "所以当我们思考这个问题时，什么是劣质代码？"
+ },
+ {
+  "seg": 18,
+  "start": 90.334,
+  "end": 91.815,
+  "speaker": "Unknown",
+  "en": "Slop is just any code you don't read.",
+  "zh": "劣质代码就是任何你不阅读的代码。"
+ },
+ {
+  "seg": 19,
+  "start": 92.655,
+  "end": 98.879,
+  "speaker": "Unknown",
+  "en": "And whether any of you admit it or not, this is the least amount of slop that your code base will ever have.",
+  "zh": "无论你们承不承认，这都是你们的代码库曾经拥有的最少量的劣质代码。"
+ },
+ {
+  "seg": 20,
+  "start": 99.259,
+  "end": 99.86,
+  "speaker": "Unknown",
+  "en": "Cherish it.",
+  "zh": "珍惜它。"
+ },
+ {
+  "seg": 21,
+  "start": 101.183,
+  "end": 105.405,
+  "speaker": "Unknown",
+  "en": "So we started fighting back against the slop, and we started fighting back with slop.",
+  "zh": "所以我们开始反击劣质代码，我们开始用劣质代码反击。"
+ },
+ {
+  "seg": 22,
+  "start": 106.385,
+  "end": 110.387,
+  "speaker": "Unknown",
+  "en": "So how do we go ship a stable programming language with these engineering practices?",
+  "zh": "那么我们如何通过这些工程实践发布一个稳定的编程语言呢？"
+ },
+ {
+  "seg": 23,
+  "start": 111.328,
+  "end": 114.389,
+  "speaker": "Unknown",
+  "en": "Well, the first skirmish we ever had was the skirmish of standards.",
+  "zh": "嗯，我们遇到的第一次小冲突是标准之战。"
+ },
+ {
+  "seg": 24,
+  "start": 115.089,
+  "end": 118.411,
+  "speaker": "Unknown",
+  "en": "The hard part about hiring great engineers is you sadly can't tell them what to do.",
+  "zh": "雇佣优秀工程师的困难部分在于，遗憾的是你不能告诉他们该做什么。"
+ },
+ {
+  "seg": 25,
+  "start": 119.031,
+  "end": 124.013,
+  "speaker": "Unknown",
+  "en": "Some of them want to use Claude, some of them want to use Codex, some of them want to use the latest thing that they just found on Hacker News.",
+  "zh": "他们中的一些人想使用 Claude，一些人想使用 Codex，一些人想使用他们刚刚在 Hacker News 上发现的最新东西。"
+ },
+ {
+  "seg": 26,
+  "start": 125.034,
+  "end": 129.656,
+  "speaker": "Unknown",
+  "en": "So instead of trying to hold standards in our code base, we did something that is an invariant.",
+  "zh": "因此，我们没有尝试在代码库中保持标准，而是做了一件不变的事情。"
+ },
+ {
+  "seg": 27,
+  "start": 130.579,
+  "end": 132.34,
+  "speaker": "Unknown",
+  "en": "We built an architecture.md file.",
+  "zh": "我们构建了一个 architecture.md 文件。"
+ },
+ {
+  "seg": 28,
+  "start": 133.141,
+  "end": 136.743,
+  "speaker": "Unknown",
+  "en": "Instead of using ClaudeMD, just pick something that every model can just understand.",
+  "zh": "不要使用 ClaudeMD，只需选择每个模型都能理解的东西。"
+ },
+ {
+  "seg": 29,
+  "start": 137.284,
+  "end": 143.528,
+  "speaker": "Unknown",
+  "en": "This file has to be incredibly small, and it can only have things that will not change for months or for years.",
+  "zh": "这个文件必须非常小，并且只能包含几个月或几年内不会改变的东西。"
+ },
+ {
+  "seg": 30,
+  "start": 144.269,
+  "end": 146.19,
+  "speaker": "Unknown",
+  "en": "In our case, it's the layers of the compiler.",
+  "zh": "在我们的例子中，它是编译器的层。"
+ },
+ {
+  "seg": 31,
+  "start": 146.691,
+  "end": 151.254,
+  "speaker": "Unknown",
+  "en": "You go deeper into the compiler, tell the agent to just talk to at least one other person.",
+  "zh": "深入编译器，告诉智能体至少与另一个人交谈。"
+ },
+ {
+  "seg": 32,
+  "start": 151.274,
+  "end": 152.495,
+  "speaker": "Unknown",
+  "en": "That slows it down a little bit.",
+  "zh": "这让它慢了一点。"
+ },
+ {
+  "seg": 33,
+  "start": 153.295,
+  "end": 156.078,
+  "speaker": "Unknown",
+  "en": "So now we have standards so anyone can use whatever they want.",
+  "zh": "所以现在我们有了标准，任何人都可以使用他们想要的任何东西。"
+ },
+ {
+  "seg": 34,
+  "start": 156.538,
+  "end": 159.24,
+  "speaker": "Unknown",
+  "en": "But the real foe we faced was actually the battle of design.",
+  "zh": "但我们面临的真正敌人实际上是设计之战。"
+ },
+ {
+  "seg": 35,
+  "start": 160.359,
+  "end": 162.843,
+  "speaker": "Unknown",
+  "en": "Everyone here knows that you have to write perfect design docs.",
+  "zh": "这里的每个人都知道你必须编写完美的设计文档。"
+ },
+ {
+  "seg": 36,
+  "start": 163.484,
+  "end": 165.387,
+  "speaker": "Unknown",
+  "en": "And we have a very simple rule in our team.",
+  "zh": "我们团队有一个非常简单的规则。"
+ },
+ {
+  "seg": 37,
+  "start": 166.233,
+  "end": 167.834,
+  "speaker": "Unknown",
+  "en": "Code can be slopped, writing cannot.",
+  "zh": "代码可以是劣质的，写作不能。"
+ },
+ {
+  "seg": 38,
+  "start": 168.495,
+  "end": 172.858,
+  "speaker": "Unknown",
+  "en": "And of course, if I tell every engineer this, they write beautiful writing, and they handwrite everything, they don't use AI.",
+  "zh": "当然，如果我告诉每个工程师这个，他们会写出漂亮的文字，并且他们手写所有东西，他们不使用 AI。"
+ },
+ {
+  "seg": 39,
+  "start": 172.958,
+  "end": 173.759,
+  "speaker": "Unknown",
+  "en": "Well, sadly not.",
+  "zh": "嗯，遗憾地并非如此。"
+ },
+ {
+  "seg": 40,
+  "start": 174.459,
+  "end": 176.261,
+  "speaker": "Unknown",
+  "en": "So we built a design doc tool.",
+  "zh": "所以我们构建了一个设计文档工具。"
+ },
+ {
+  "seg": 41,
+  "start": 176.821,
+  "end": 181.064,
+  "speaker": "Unknown",
+  "en": "What this design doc tool does, it's a replacement for both Notion and GitHub effectively for design docs.",
+  "zh": "这个设计文档工具的作用，实际上是 Notion 和 GitHub 在设计文档方面的替代品。"
+ },
+ {
+  "seg": 42,
+  "start": 181.605,
+  "end": 183.686,
+  "speaker": "Unknown",
+  "en": "It allows versioning, commenting, all the stuff you want.",
+  "zh": "它允许版本控制、评论，以及你想要的所有东西。"
+ },
+ {
+  "seg": 43,
+  "start": 184.047,
+  "end": 185.448,
+  "speaker": "Unknown",
+  "en": "And obviously we do this, people use this.",
+  "zh": "显然我们要这样做，人们使用这个。"
+ },
+ {
+  "seg": 44,
+  "start": 185.588,
+  "end": 186.348,
+  "speaker": "Unknown",
+  "en": "Well, sadly not.",
+  "zh": "嗯，遗憾地并非如此。"
+ },
+ {
+  "seg": 45,
+  "start": 186.949,
+  "end": 188.49,
+  "speaker": "Unknown",
+  "en": "We built another tool on top of that.",
+  "zh": "我们在那个基础上又构建了一个工具。"
+ },
+ {
+  "seg": 46,
+  "start": 189.171,
+  "end": 191.332,
+  "speaker": "Unknown",
+  "en": "And this tool was a Slack integration for that tool.",
+  "zh": "这个工具是那个工具的 Slack 集成。"
+ },
+ {
+  "seg": 47,
+  "start": 191.452,
+  "end": 194.535,
+  "speaker": "Unknown",
+  "en": "Every time a design doc got updated, this channel got notifications.",
+  "zh": "每次设计文档更新时，这个频道都会收到通知。"
+ },
+ {
+  "seg": 48,
+  "start": 195.155,
+  "end": 198.678,
+  "speaker": "Unknown",
+  "en": "And what ended up happening is this channel became the most popular channel in our company really fast.",
+  "zh": "最终发生的是，这个频道很快成为我们公司最受欢迎的频道。"
+ },
+ {
+  "seg": 49,
+  "start": 198.738,
+  "end": 203.022,
+  "speaker": "Unknown",
+  "en": "At 2 a.m., someone shipped a new design doc, three people started reading it right away because it's just interesting.",
+  "zh": "凌晨 2 点，有人发布了一个新的设计文档，三个人立刻开始阅读它，因为它很有趣。"
+ },
+ {
+  "seg": 50,
+  "start": 203.322,
+  "end": 206.325,
+  "speaker": "Unknown",
+  "en": "The most interesting stuff is design docs that are not going to change.",
+  "zh": "最有趣的东西是不会改变的设计文档。"
+ },
+ {
+  "seg": 51,
+  "start": 207.246,
+  "end": 208.066,
+  "speaker": "Unknown",
+  "en": "But this wasn't enough.",
+  "zh": "但这还不够。"
+ },
+ {
+  "seg": 52,
+  "start": 208.847,
+  "end": 214.772,
+  "speaker": "Unknown",
+  "en": "All of this is actually backed by markdown files and simple CLI scripts that make it treat like GitHub without being GitHub itself.",
+  "zh": "所有这些都实际上由 markdown 文件和简单的 CLI 脚本支持，这些脚本使它表现得像 GitHub 而本身不是 GitHub。"
+ },
+ {
+  "seg": 53,
+  "start": 215.112,
+  "end": 216.513,
+  "speaker": "Unknown",
+  "en": "So now agents can go do this.",
+  "zh": "所以现在智能体可以去做这件事。"
+ },
+ {
+  "seg": 54,
+  "start": 217.337,
+  "end": 221.658,
+  "speaker": "Unknown",
+  "en": "But the real problem with all this is I built this and I hit a little bit of AI psychosis.",
+  "zh": "但所有这一切的真正问题是我构建了这个，并且我遇到了一点 AI 精神错乱。"
+ },
+ {
+  "seg": 55,
+  "start": 221.798,
+  "end": 224.279,
+  "speaker": "Unknown",
+  "en": "And I started shipping 10 design docs a day.",
+  "zh": "我开始每天发布 10 个设计文档。"
+ },
+ {
+  "seg": 56,
+  "start": 224.739,
+  "end": 227.14,
+  "speaker": "Unknown",
+  "en": "And soon, the team was fighting my slop.",
+  "zh": "很快，团队就在对抗我的垃圾内容。"
+ },
+ {
+  "seg": 57,
+  "start": 228.1,
+  "end": 229.66,
+  "speaker": "Unknown",
+  "en": "So we have to go back at the last rule.",
+  "zh": "所以我们必须回到最后一条规则。"
+ },
+ {
+  "seg": 58,
+  "start": 230.001,
+  "end": 234.222,
+  "speaker": "Unknown",
+  "en": "This last rule was if you're going to ship a design doc, you require people to actually go read it.",
+  "zh": "这最后一条规则是，如果你要发布一个设计文档，你需要人们真正去阅读它。"
+ },
+ {
+  "seg": 59,
+  "start": 234.622,
+  "end": 238.523,
+  "speaker": "Unknown",
+  "en": "And with this last standard, we suddenly had design docs that are incredibly high quality.",
+  "zh": "有了这最后一条标准，我们突然有了质量极高的设计文档。"
+ },
+ {
+  "seg": 60,
+  "start": 240.533,
+  "end": 241.814,
+  "speaker": "Unknown",
+  "en": "But what about the battle of architecture?",
+  "zh": "但是架构之战呢？"
+ },
+ {
+  "seg": 61,
+  "start": 242.494,
+  "end": 243.915,
+  "speaker": "Unknown",
+  "en": "How do you have your code base converge?",
+  "zh": "你如何让你的代码库收敛？"
+ },
+ {
+  "seg": 62,
+  "start": 244.195,
+  "end": 244.975,
+  "speaker": "Unknown",
+  "en": "We built another tool.",
+  "zh": "我们构建了另一个工具。"
+ },
+ {
+  "seg": 63,
+  "start": 245.095,
+  "end": 251.298,
+  "speaker": "Unknown",
+  "en": "This tool basically visualizes our dependency graph internally with some external dependencies as well and allows us to watch the code base change.",
+  "zh": "这个工具基本上可视化了我们内部的依赖关系图，还有一些外部依赖，并允许我们观察代码库的变化。"
+ },
+ {
+  "seg": 64,
+  "start": 251.978,
+  "end": 260.262,
+  "speaker": "Unknown",
+  "en": "It has semantic boundaries, individual packages, but what's more interesting is we can go build CLI tools that guarantee that certain invariants can't be broken.",
+  "zh": "它有语义边界、独立的包，但更有趣的是我们可以构建 CLI 工具来保证某些不变量不会被破坏。"
+ },
+ {
+  "seg": 65,
+  "start": 260.938,
+  "end": 270.742,
+  "speaker": "Unknown",
+  "en": "And what this does is when Claude builds a new package or adds a dependency that's leaky, we now have CI CD changing or a simple git commit history that tells us exactly where things break.",
+  "zh": "它的作用是，当 Claude 构建一个新包或添加一个有泄漏的依赖时，我们现在有 CI CD 变更或简单的 git 提交历史告诉我们确切哪里出问题了。"
+ },
+ {
+  "seg": 66,
+  "start": 271.342,
+  "end": 273.723,
+  "speaker": "Unknown",
+  "en": "And by this, we're actually able to make our architecture change.",
+  "zh": "通过这个，我们实际上能够使我们的架构发生变化。"
+ },
+ {
+  "seg": 67,
+  "start": 273.863,
+  "end": 276.024,
+  "speaker": "Unknown",
+  "en": "We haven't changed our architecture in the last three or four months.",
+  "zh": "在过去三四个月里我们没有改变我们的架构。"
+ },
+ {
+  "seg": 68,
+  "start": 278.522,
+  "end": 285.266,
+  "speaker": "Unknown",
+  "en": "But as much as we might do design docs, and as much as we might have stable code, would you genuinely ship code without reading it?",
+  "zh": "但是尽管我们可能会做设计文档，尽管我们可能有稳定的代码，你会真正地在没有阅读代码的情况下发布代码吗？"
+ },
+ {
+  "seg": 69,
+  "start": 285.286,
+  "end": 286.787,
+  "speaker": "Unknown",
+  "en": "Would you trust your team to go do that?",
+  "zh": "你会信任你的团队去那样做吗？"
+ },
+ {
+  "seg": 70,
+  "start": 287.568,
+  "end": 288.789,
+  "speaker": "Unknown",
+  "en": "And think about a programming language.",
+  "zh": "想想一种编程语言。"
+ },
+ {
+  "seg": 71,
+  "start": 289.389,
+  "end": 291.731,
+  "speaker": "Unknown",
+  "en": "A programming language has so many invariants.",
+  "zh": "编程语言有那么多不变量。"
+ },
+ {
+  "seg": 72,
+  "start": 291.991,
+  "end": 296.494,
+  "speaker": "Unknown",
+  "en": "You have generics, you have closures, you have memory allocation, you have FFI boundaries.",
+  "zh": "你有泛型，你有闭包，你有内存分配，你有 FFI 边界。"
+ },
+ {
+  "seg": 73,
+  "start": 297.194,
+  "end": 298.335,
+  "speaker": "Unknown",
+  "en": "Could you trust that system?",
+  "zh": "你能信任那个系统吗？"
+ },
+ {
+  "seg": 74,
+  "start": 298.955,
+  "end": 300.777,
+  "speaker": "Unknown",
+  "en": "Python has bugs 25 years later.",
+  "zh": "Python 在 25 年后仍有 bug。"
+ },
+ {
+  "seg": 75,
+  "start": 301.977,
+  "end": 304.239,
+  "speaker": "Unknown",
+  "en": "Well, here's where we did something slightly different.",
+  "zh": "好吧，这就是我们做了一些略有不同的地方。"
+ },
+ {
+  "seg": 76,
+  "start": 305.573,
+  "end": 311.826,
+  "speaker": "Unknown",
+  "en": "What we did was we built a system that actually has agents constantly running and creating BAML programs.",
+  "zh": "我们做的是构建了一个实际上有智能体不断运行并创建 BAML 程序的系统。"
+ },
+ {
+  "seg": 77,
+  "start": 312.788,
+  "end": 314.01,
+  "speaker": "Unknown",
+  "en": "We take these BAML programs.",
+  "zh": "我们获取这些 BAML 程序。"
+ },
+ {
+  "seg": 78,
+  "start": 315.534,
+  "end": 316.075,
+  "speaker": "Unknown",
+  "en": "One second.",
+  "zh": "等一下。"
+ },
+ {
+  "seg": 79,
+  "start": 317.358,
+  "end": 319.46,
+  "speaker": "Unknown",
+  "en": "And we have agents try and spin something up from scratch.",
+  "zh": "我们有智能体尝试从头开始启动一些东西。"
+ },
+ {
+  "seg": 80,
+  "start": 319.981,
+  "end": 328.75,
+  "speaker": "Unknown",
+  "en": "We then look at the entire Claude transcript, see what tools it used, see what happened, and obviously we as humans can inspect them, but more importantly, we can have agents go inspect them.",
+  "zh": "然后我们查看整个 Claude 对话记录，看看它使用了什么工具，看看发生了什么，显然我们人类可以检查它们，但更重要的是，我们可以让智能体去检查它们。"
+ },
+ {
+  "seg": 81,
+  "start": 329.211,
+  "end": 331.233,
+  "speaker": "Unknown",
+  "en": "And agents find what was good, what was bad.",
+  "zh": "智能体发现什么是好的，什么是坏的。"
+ },
+ {
+  "seg": 82,
+  "start": 332.054,
+  "end": 337.76,
+  "speaker": "Unknown",
+  "en": "And not just what was bad in terms of what was incorrect in the language, but what took three tool calls when it should have only taken one.",
+  "zh": "不仅仅是语言中什么是错误的方面，还有什么是本应只需一次工具调用却用了三次的。"
+ },
+ {
+  "seg": 83,
+  "start": 339.103,
+  "end": 348.033,
+  "speaker": "Unknown",
+  "en": "And then we can go ahead and find issues, and we can have humans collaborate with these issues to figure out which ones are real, which ones are hallucinations, which ones don't have taste, as much as I hate to use that word.",
+  "zh": "然后我们可以继续发现问题，我们可以让人类与这些问题协作，以弄清楚哪些是真实的，哪些是幻觉，哪些没有品味，尽管我很讨厌使用那个词。"
+ },
+ {
+  "seg": 84,
+  "start": 348.954,
+  "end": 353.78,
+  "speaker": "Unknown",
+  "en": "And then we can have agents go ahead and create fixes to these problems and go to address them.",
+  "zh": "然后我们可以让智能体继续创建针对这些问题的修复并去解决它们。"
+ },
+ {
+  "seg": 85,
+  "start": 354.441,
+  "end": 359.546,
+  "speaker": "Unknown",
+  "en": "And most importantly, instead of trying to just detect these issues, we can go one step further.",
+  "zh": "最重要的是，除了试图仅仅检测这些问题，我们可以更进一步。"
+ },
+ {
+  "seg": 86,
+  "start": 360.518,
+  "end": 366.502,
+  "speaker": "Unknown",
+  "en": "What if you could find language features, and instead of guessing what was good, guessing what skill was good, you could go and A-B test it.",
+  "zh": "如果你能找到语言特性，并且不用猜测什么是好的，不用猜测什么技能是好的，而是去 A-B 测试它，会怎么样？"
+ },
+ {
+  "seg": 87,
+  "start": 366.542,
+  "end": 376.489,
+  "speaker": "Unknown",
+  "en": "You could figure out which ones took less tool calls, which one made less errors, which one produced the correct outcome, and deterministically know what's going on.",
+  "zh": "你可以弄清楚哪些使用了更少的工具调用，哪个犯了更少的错误，哪个产生了正确的结果，并确定性地知道发生了什么。"
+ },
+ {
+  "seg": 88,
+  "start": 377.51,
+  "end": 381.713,
+  "speaker": "Unknown",
+  "en": "The point is, you can start building data-driven systems without ever writing a single line of code.",
+  "zh": "关键是，你可以开始构建数据驱动的系统，而无需编写一行代码。"
+ },
+ {
+  "seg": 89,
+  "start": 382.553,
+  "end": 385.015,
+  "speaker": "Unknown",
+  "en": "And the thing that really I care about the most over here",
+  "zh": "我在这里真正最关心的东西"
+ },
+ {
+  "seg": 90,
+  "start": 386.278,
+  "end": 390.101,
+  "speaker": "Unknown",
+  "en": "It's not that any one of these tools is specifically what you should go build.",
+  "zh": "并不是说这些工具中的任何一个具体是你应该去构建的。"
+ },
+ {
+  "seg": 91,
+  "start": 390.801,
+  "end": 394.824,
+  "speaker": "Unknown",
+  "en": "But the fact of the matter is, in order to build a programming language, it wouldn't have taken eight people.",
+  "zh": "但事实是，为了构建一种编程语言，它不会需要八个人。"
+ },
+ {
+  "seg": 92,
+  "start": 395.164,
+  "end": 396.905,
+  "speaker": "Unknown",
+  "en": "It wouldn't have taken less than two years.",
+  "zh": "它不会需要不到两年的时间。"
+ },
+ {
+  "seg": 93,
+  "start": 397.826,
+  "end": 403.429,
+  "speaker": "Unknown",
+  "en": "It would have taken hundreds and thousands and tens of thousands of man hours, and then you would still have a broken system.",
+  "zh": "它会花费成千上万个工时，然后你仍然会有一个破损的系统。"
+ },
+ {
+  "seg": 94,
+  "start": 403.949,
+  "end": 407.512,
+  "speaker": "Unknown",
+  "en": "And today, we can just spend billions of tokens and make it work, and we can make it stable.",
+  "zh": "而今天，我们可以只花费数十亿的 token 并让它工作，我们可以让它稳定。"
+ },
+ {
+  "seg": 95,
+  "start": 408.342,
+  "end": 420.152,
+  "speaker": "Unknown",
+  "en": "And you too can go home and build these internal tools and these sloppy tools to make sure that your code bases can ship without really having to read necessarily every single line of code, because your engineers aren't going to.",
+  "zh": "你也可以回家构建这些内部工具和这些粗糙的工具，以确保你的代码库可以在不需要真正阅读每一行代码的情况下发布，因为你的工程师不会去读。"
+ },
+ {
+  "seg": 96,
+  "start": 421.953,
+  "end": 423.875,
+  "speaker": "Unknown",
+  "en": "And I think we can start winning this battle against slop.",
+  "zh": "我认为我们可以开始赢得这场对抗垃圾内容的战斗。"
+ },
+ {
+  "seg": 97,
+  "start": 424.495,
+  "end": 426.917,
+  "speaker": "Unknown",
+  "en": "And as we win this battle, slop can be defeated.",
+  "zh": "当我们赢得这场战斗时，垃圾内容可以被击败。"
+ },
+ {
+  "seg": 98,
+  "start": 427.678,
+  "end": 429.86,
+  "speaker": "Unknown",
+  "en": "But sadly, I have a sad thing to say.",
+  "zh": "但遗憾的是，我有一件悲伤的事情要说。"
+ },
+ {
+  "seg": 99,
+  "start": 430.76,
+  "end": 432.162,
+  "speaker": "Unknown",
+  "en": "I think we're still going to lose the war.",
+  "zh": "我认为我们仍然会输掉这场战争。"
+ },
+ {
+  "seg": 100,
+  "start": 433.306,
+  "end": 441.711,
+  "speaker": "Unknown",
+  "en": "I think the reason that we're gonna lose this war is because some of the foundational stuff that we try and go use itself is broken.",
+  "zh": "我认为我们将要输掉这场战争的原因是，我们要尝试去使用的一些基础性东西本身就已经坏了。"
+ },
+ {
+  "seg": 101,
+  "start": 442.672,
+  "end": 443.813,
+  "speaker": "Unknown",
+  "en": "How many of you have used TypeScript?",
+  "zh": "你们有多少人用过 TypeScript？"
+ },
+ {
+  "seg": 102,
+  "start": 445.834,
+  "end": 449.596,
+  "speaker": "Unknown",
+  "en": "Probably most of you hopefully at this point, or at least your agents have, so something around there.",
+  "zh": "希望你们大部分人现在都用过，或者至少你们的智能体用过，差不多是这样。"
+ },
+ {
+  "seg": 103,
+  "start": 451.657,
+  "end": 456.54,
+  "speaker": "Unknown",
+  "en": "Did you know that TypeScript's main design goal is to strike a balance between correctness and productivity?",
+  "zh": "你们知道 TypeScript 的主要设计目标是在正确性和生产力之间取得平衡吗？"
+ },
+ {
+  "seg": 104,
+  "start": 457.061,
+  "end": 460.523,
+  "speaker": "Unknown",
+  "en": "And there's an asterisk here, because what they really mean is human productivity.",
+  "zh": "这里有一个星号，因为他们真正的意思其实是人类的生产力。"
+ },
+ {
+  "seg": 105,
+  "start": 461.673,
+  "end": 470.458,
+  "speaker": "Unknown",
+  "en": "And if you think about it, there are things you would never do in a programming language at the very core layer if you were designing in a world where humans never wrote a single line of code.",
+  "zh": "如果你仔细想想，有些事情你在编程语言的最核心层是永远不会去做的，如果你是在一个人类从未写过一行代码的世界里进行设计的话。"
+ },
+ {
+  "seg": 106,
+  "start": 470.958,
+  "end": 472.319,
+  "speaker": "Unknown",
+  "en": "Let me show you what that really means.",
+  "zh": "让我展示一下那到底是什么意思。"
+ },
+ {
+  "seg": 107,
+  "start": 476.361,
+  "end": 478.842,
+  "speaker": "Unknown",
+  "en": "I'm gonna write something and try and guess what this code does.",
+  "zh": "我要写点东西并试着猜猜这段代码是做什么的。"
+ },
+ {
+  "seg": 108,
+  "start": 481.303,
+  "end": 481.824,
+  "speaker": "Unknown",
+  "en": "Pretty safe.",
+  "zh": "很安全。"
+ },
+ {
+  "seg": 109,
+  "start": 485.266,
+  "end": 485.966,
+  "speaker": "Unknown",
+  "en": "What about this one?",
+  "zh": "这个呢？"
+ },
+ {
+  "seg": 110,
+  "start": 488.544,
+  "end": 490.704,
+  "speaker": "Unknown",
+  "en": "Or even more so, this one.",
+  "zh": "或者更有甚者，这个呢？"
+ },
+ {
+  "seg": 111,
+  "start": 491.305,
+  "end": 493.445,
+  "speaker": "Unknown",
+  "en": "Why do we turn things to strings when we sort them?",
+  "zh": "为什么我们在排序时要把东西转成字符串？"
+ },
+ {
+  "seg": 112,
+  "start": 494.485,
+  "end": 498.686,
+  "speaker": "Unknown",
+  "en": "This is just slop baked into the language, whether you like it or not.",
+  "zh": "这就是烘烤进语言里的垃圾，不管你喜欢不喜欢。"
+ },
+ {
+  "seg": 113,
+  "start": 499.946,
+  "end": 501.466,
+  "speaker": "Unknown",
+  "en": "What about this?",
+  "zh": "那这个呢？"
+ },
+ {
+  "seg": 114,
+  "start": 501.986,
+  "end": 503.427,
+  "speaker": "Unknown",
+  "en": "I love this part of TypeScript.",
+  "zh": "我喜欢 TypeScript 的这一部分。"
+ },
+ {
+  "seg": 115,
+  "start": 504.147,
+  "end": 505.407,
+  "speaker": "Unknown",
+  "en": "And you know what my agent loves?",
+  "zh": "你们知道我的智能体喜欢什么吗？"
+ },
+ {
+  "seg": 116,
+  "start": 506.387,
+  "end": 507.447,
+  "speaker": "Unknown",
+  "en": "This part of TypeScript.",
+  "zh": "TypeScript 的这一部分。"
+ },
+ {
+  "seg": 117,
+  "start": 510.468,
+  "end": 512.868,
+  "speaker": "Unknown",
+  "en": "This is slop baked into the language.",
+  "zh": "这就是烘烤进语言里的垃圾。"
+ },
+ {
+  "seg": 118,
+  "start": 513.468,
+  "end": 516.749,
+  "speaker": "Unknown",
+  "en": "And whether you like it or not, the systems will have slop.",
+  "zh": "不管你喜欢不喜欢，系统里都会有垃圾。"
+ },
+ {
+  "seg": 119,
+  "start": 518.221,
+  "end": 519.622,
+  "speaker": "Unknown",
+  "en": "If you build using these tools.",
+  "zh": "如果你使用这些工具进行构建的话。"
+ },
+ {
+  "seg": 120,
+  "start": 520.062,
+  "end": 521.262,
+  "speaker": "Unknown",
+  "en": "Oh, I'm sorry, wrong talk.",
+  "zh": "哦，抱歉，搞错演讲了。"
+ },
+ {
+  "seg": 121,
+  "start": 522.483,
+  "end": 534.427,
+  "speaker": "Unknown",
+  "en": "But if you think about what JavaScript does, JavaScript exists, and then after JavaScript existed, we started building systems to layer it on.",
+  "zh": "但如果你想想 JavaScript 做了什么，JavaScript 存在着，然后在 JavaScript 存在之后，我们开始构建系统将其分层叠加。"
+ },
+ {
+  "seg": 122,
+  "start": 534.808,
+  "end": 537.609,
+  "speaker": "Unknown",
+  "en": "We built CoffeeScript, then TypeScript, and now we're trying to build Effect.",
+  "zh": "我们构建了 CoffeeScript，然后是 TypeScript，现在我们正试图构建 Effect。"
+ },
+ {
+  "seg": 123,
+  "start": 538.749,
+  "end": 541.11,
+  "speaker": "Unknown",
+  "en": "But thing is, the thing underneath is already broken.",
+  "zh": "但问题是，底层的东西已经是坏的了。"
+ },
+ {
+  "seg": 124,
+  "start": 541.85,
+  "end": 545.332,
+  "speaker": "Unknown",
+  "en": "And more so, the way we write code is also different now.",
+  "zh": "而且，我们现在写代码的方式也不同了。"
+ },
+ {
+  "seg": 125,
+  "start": 546.548,
+  "end": 548.209,
+  "speaker": "Unknown",
+  "en": "So why are we trying to patch something like this?",
+  "zh": "那为什么我们还要试图修补像这样的东西呢？"
+ },
+ {
+  "seg": 126,
+  "start": 548.229,
+  "end": 550.15,
+  "speaker": "Unknown",
+  "en": "Why don't we just try and do something a little different?",
+  "zh": "为什么我们不试着做点稍微不同的事情呢？"
+ },
+ {
+  "seg": 127,
+  "start": 550.93,
+  "end": 555.752,
+  "speaker": "Unknown",
+  "en": "And I think what we might need if we try and go do that is basically going to be a made-up language.",
+  "zh": "我认为如果我们尝试那样做，可能需要的基本上是一种编造出来的语言。"
+ },
+ {
+  "seg": 128,
+  "start": 556.753,
+  "end": 559.014,
+  "speaker": "Unknown",
+  "en": "So let me show you what BAML really can do.",
+  "zh": "所以让我展示一下 BAML 真正能做什么。"
+ },
+ {
+  "seg": 129,
+  "start": 559.354,
+  "end": 565.897,
+  "speaker": "Unknown",
+  "en": "And when you start thinking from first principles, how you can try and combat slop from a very foundational layer itself.",
+  "zh": "以及当你开始从第一性原理思考时，你如何尝试从最基础的层面本身去对抗垃圾。"
+ },
+ {
+  "seg": 130,
+  "start": 566.917,
+  "end": 568.618,
+  "speaker": "Unknown",
+  "en": "I keep talking about not reading code.",
+  "zh": "我一直在谈论不阅读代码。"
+ },
+ {
+  "seg": 131,
+  "start": 569.538,
+  "end": 570.279,
+  "speaker": "Unknown",
+  "en": "Does it even matter?",
+  "zh": "这真的重要吗？"
+ },
+ {
+  "seg": 132,
+  "start": 571.503,
+  "end": 573.445,
+  "speaker": "Unknown",
+  "en": "Well, let me show you a new way to think about code.",
+  "zh": "好吧，让我给你展示一种思考代码的新方式。"
+ },
+ {
+  "seg": 133,
+  "start": 573.885,
+  "end": 576.307,
+  "speaker": "Unknown",
+  "en": "And this isn't to say we all have to go do this right away.",
+  "zh": "这并不是说我们都得立刻这样去做。"
+ },
+ {
+  "seg": 134,
+  "start": 577.288,
+  "end": 596.666,
+  "speaker": "Unknown",
+  "en": "But what if every single time I looked at code, what if every single time I looked at code, what I really saw was not the code itself, but a quick little thing that could actually visualize all the code for me?",
+  "zh": "但是如果每一次我查看代码时，如果每一次我查看代码时，我真正看到的不是代码本身，而是一个快速的小东西，它能为我可视化所有的代码，会怎样？"
+ },
+ {
+  "seg": 135,
+  "start": 598.336,
+  "end": 601.477,
+  "speaker": "Unknown",
+  "en": "As I clicked around, it took me to exact lines of code that I was linked to.",
+  "zh": "当我四处点击时，它会带我来到我链接到的确切代码行。"
+ },
+ {
+  "seg": 136,
+  "start": 602.017,
+  "end": 609.3,
+  "speaker": "Unknown",
+  "en": "If I wanted to have a slightly broader view, I could zoom in and click around and have it expand, and I could navigate my code bases more interestingly.",
+  "zh": "如果我想要一个稍微宽泛一点的视图，我可以放大并四处点击让它展开，我可以用更有趣的方式浏览我的代码库。"
+ },
+ {
+  "seg": 137,
+  "start": 610.101,
+  "end": 613.942,
+  "speaker": "Unknown",
+  "en": "I'm gonna let this run really quickly, but while it runs, I'll show you a different pipeline.",
+  "zh": "我要让它运行得非常快，但在它运行的时候，我会向你展示一个不同的流水线。"
+ },
+ {
+  "seg": 138,
+  "start": 614.883,
+  "end": 619.704,
+  "speaker": "Unknown",
+  "en": "Without any of you ever reading the code, you know I'm setting up stuff and I have an agent loop, because the semantic boundary's in there.",
+  "zh": "在你们任何人都从未阅读代码的情况下，你们知道我正在设置东西并且我有一个智能体循环，因为语义边界就在那里。"
+ },
+ {
+  "seg": 139,
+  "start": 619.824,
+  "end": 625.867,
+  "speaker": "Unknown",
+  "en": "I can expand this, I can keep expanding this, and I can say, nope, that's too much slop, let's let that be slop, and walk away.",
+  "zh": "我可以展开这个，我可以一直展开这个，我可以说，不，那垃圾太多了，就让那是垃圾吧，然后走开。"
+ },
+ {
+  "seg": 140,
+  "start": 626.89,
+  "end": 633.756,
+  "speaker": "Unknown",
+  "en": "So instead of having to understand all the code, I can opt into what parts of the code I want to read and understand and go to the exact lines when I really care about them.",
+  "zh": "所以，不必理解所有的代码，我可以选择加入我想阅读和理解的代码部分，并在我真正关心它们的时候去到确切的代码行。"
+ },
+ {
+  "seg": 141,
+  "start": 634.637,
+  "end": 640.663,
+  "speaker": "Unknown",
+  "en": "But if we go back to the previous pipeline that was running, what if, while it's running, I can actually get a full execution trace?",
+  "zh": "但是如果我们回到正在运行的前一个流水线，如果在其运行时，我实际上可以获得一个完整的执行跟踪，会怎样？"
+ },
+ {
+  "seg": 142,
+  "start": 641.103,
+  "end": 651.773,
+  "speaker": "Unknown",
+  "en": "In a world where we don't read all the code, the only way to understand the code is actually by the execution trace and actually by seeing exactly how much time was spent on what parts of my program at any given time.",
+  "zh": "在一个我们不阅读所有代码的世界里，理解代码的唯一方式实际上是通过执行跟踪，实际上是通过确切看到了在我的程序的任何给定部分上花费了多少时间。"
+ },
+ {
+  "seg": 143,
+  "start": 652.647,
+  "end": 659.671,
+  "speaker": "Unknown",
+  "en": "If you want to go and actually track your program through, think about how slow your program would be if you had to go trace everything in Python or TypeScript.",
+  "zh": "如果你想去实际跟踪你的程序，想想看，如果你必须去跟踪 Python 或 TypeScript 里的所有东西，你的程序会有多慢。"
+ },
+ {
+  "seg": 144,
+  "start": 659.791,
+  "end": 660.691,
+  "speaker": "Unknown",
+  "en": "It's untenable.",
+  "zh": "这是站不住脚的。"
+ },
+ {
+  "seg": 145,
+  "start": 661.812,
+  "end": 666.935,
+  "speaker": "Unknown",
+  "en": "And the best part here is if you start from first principles, you can make this effectively zero performance cost.",
+  "zh": "这里最棒的部分是，如果你从第一性原理开始，你可以让这实际上具有零性能成本。"
+ },
+ {
+  "seg": 146,
+  "start": 668.003,
+  "end": 677.347,
+  "speaker": "Unknown",
+  "en": "Not only can we make it great for humans, but because it's all built for agents anyway, you can go ahead and make it so that every single file has a tracing system that Claude can navigate through.",
+  "zh": "我们不仅可以让它对人类很棒，而且因为它反正都是为智能体构建的，你可以让每一个文件都有一个 Claude 可以浏览的跟踪系统。"
+ },
+ {
+  "seg": 147,
+  "start": 677.647,
+  "end": 683.87,
+  "speaker": "Unknown",
+  "en": "So Claude can find what were bugs, what were errors, and what were inefficiencies, and start optimizing your code without you having to do it yourself.",
+  "zh": "所以 Claude 可以发现什么是 bug，什么是错误，什么是低效，并开始优化你的代码，而不必你自己去做。"
+ },
+ {
+  "seg": 148,
+  "start": 685.243,
+  "end": 693.912,
+  "speaker": "Unknown",
+  "en": "And I think if we go start thinking about it from this way, it's not so much about reading all the code, but it's more so about, as a human, understanding the system that you're working with.",
+  "zh": "我认为如果我们开始从这种方式思考，这与其说是关于阅读所有的代码，不如说是关于，作为人类，理解你正在使用的系统。"
+ },
+ {
+  "seg": 149,
+  "start": 694.392,
+  "end": 698.576,
+  "speaker": "Unknown",
+  "en": "And the tools that you can build can give you information about the system that you're working with.",
+  "zh": "而你可以构建的工具可以为你提供关于你正在使用的系统的信息。"
+ },
+ {
+  "seg": 150,
+  "start": 701.545,
+  "end": 702.786,
+  "speaker": "Unknown",
+  "en": "I think there's another layer to it.",
+  "zh": "我认为还有另一层含义。"
+ },
+ {
+  "seg": 151,
+  "start": 703.486,
+  "end": 705.587,
+  "speaker": "Unknown",
+  "en": "We've spent decades building IDE tooling.",
+  "zh": "我们花了数十年时间构建 IDE 工具。"
+ },
+ {
+  "seg": 152,
+  "start": 706.168,
+  "end": 714.652,
+  "speaker": "Unknown",
+  "en": "And think about how long it took before someone like me, who does not know how to escape Vim to this day, can finally start using VS Code.",
+  "zh": "想一想，像我这样至今不知道如何退出 Vim 的人，花了多长时间才能终于开始使用 VS Code。"
+ },
+ {
+  "seg": 153,
+  "start": 714.732,
+  "end": 716.273,
+  "speaker": "Unknown",
+  "en": "It was a beautiful day when that happened.",
+  "zh": "那是个美好的日子。"
+ },
+ {
+  "seg": 154,
+  "start": 716.313,
+  "end": 717.714,
+  "speaker": "Unknown",
+  "en": "I became a real programmer.",
+  "zh": "我成了一名真正的程序员。"
+ },
+ {
+  "seg": 155,
+  "start": 718.354,
+  "end": 721.276,
+  "speaker": "Unknown",
+  "en": "Well, according to some people, I'm still not, because I can't write Vim code.",
+  "zh": "嗯，尽管有些人认为我还不是，因为我不会写 Vim 代码。"
+ },
+ {
+  "seg": 156,
+  "start": 722.196,
+  "end": 724.978,
+  "speaker": "Unknown",
+  "en": "But what does agent-first tooling look like?",
+  "zh": "但以智能体优先的工具是什么样的？"
+ },
+ {
+  "seg": 157,
+  "start": 727.579,
+  "end": 730.641,
+  "speaker": "Unknown",
+  "en": "I think we're all familiar with grep, so I'm not going to go and talk about it.",
+  "zh": "我想我们都熟悉 grep，所以我不会去讨论它。"
+ },
+ {
+  "seg": 158,
+  "start": 732.524,
+  "end": 735.225,
+  "speaker": "Unknown",
+  "en": "But I will talk about ripgrep, because grep should not be used anywhere.",
+  "zh": "但我会谈谈 ripgrep，因为任何地方都不应该使用 grep。"
+ },
+ {
+  "seg": 159,
+  "start": 736.546,
+  "end": 747.41,
+  "speaker": "Unknown",
+  "en": "If I wanted to grep through my code base and understand what it was, I would ripgrep say something like calculate, and it would give me a bunch of code where everything was being used, and maybe it would be somewhat useful.",
+  "zh": "如果我想通过我的代码库进行 grep 并理解它是什么，我会 ripgrep 说类似 calculate 的内容，它会给我一堆代码，显示所有正在使用的地方，这可能会有点用。"
+ },
+ {
+  "seg": 160,
+  "start": 748.131,
+  "end": 753.393,
+  "speaker": "Unknown",
+  "en": "But what if you could instead just start describing code and say, can you describe calculate for me?",
+  "zh": "但如果你可以改为直接开始描述代码并说，你能为我描述 calculate 吗？"
+ },
+ {
+  "seg": 161,
+  "start": 755.334,
+  "end": 756.775,
+  "speaker": "Unknown",
+  "en": "What if it came with all the doc strings?",
+  "zh": "如果它自带所有的文档字符串会怎样？"
+ },
+ {
+  "seg": 162,
+  "start": 757.335,
+  "end": 759.296,
+  "speaker": "Unknown",
+  "en": "What if it came with the actual source code?",
+  "zh": "如果它自带实际的源代码会怎样？"
+ },
+ {
+  "seg": 163,
+  "start": 759.656,
+  "end": 762.237,
+  "speaker": "Unknown",
+  "en": "And what if it also told you everywhere it was actually used under the hood?",
+  "zh": "如果它还告诉你它在底层实际使用的每个地方会怎样？"
+ },
+ {
+  "seg": 164,
+  "start": 763.192,
+  "end": 767.496,
+  "speaker": "Unknown",
+  "en": "We can make something that used to be multiple tool calls a single tool call all of a sudden.",
+  "zh": "我们可以让过去需要多次工具调用的东西突然变成一次工具调用。"
+ },
+ {
+  "seg": 165,
+  "start": 769.679,
+  "end": 774.844,
+  "speaker": "Unknown",
+  "en": "What if the way you want to learn about libraries that you're using, instead of having to do a web search, you just did",
+  "zh": "如果你了解你正在使用的库的方式，不需要进行网络搜索，而是直接做会怎样？"
+ },
+ {
+  "seg": 166,
+  "start": 776.799,
+  "end": 781.14,
+  "speaker": "Unknown",
+  "en": "You could just ask for any external library as well, and it would just give in to you.",
+  "zh": "你也可以直接要求任何外部库，它就会直接给你。"
+ },
+ {
+  "seg": 167,
+  "start": 781.48,
+  "end": 786.842,
+  "speaker": "Unknown",
+  "en": "Because when I first started learning how to code, one valuable lesson I had was the code is always a source of truth.",
+  "zh": "因为当我刚开始学习编程时，我得到的一个宝贵教训是代码永远是真理的来源。"
+ },
+ {
+  "seg": 168,
+  "start": 787.502,
+  "end": 789.262,
+  "speaker": "Unknown",
+  "en": "Don't read anything but the code itself.",
+  "zh": "除了代码本身，什么都不要读。"
+ },
+ {
+  "seg": 169,
+  "start": 789.302,
+  "end": 800.145,
+  "speaker": "Unknown",
+  "en": "The docs may lie, the actual description or architecture file or readme file will definitely lie, but the code cannot lie, except if you're working on some weird architectures.",
+  "zh": "文档可能会撒谎，实际的描述或架构文件或 readme 文件肯定会撒谎，但代码不会撒谎，除非你正在研究一些奇怪的架构。"
+ },
+ {
+  "seg": 170,
+  "start": 801.347,
+  "end": 805.79,
+  "speaker": "Unknown",
+  "en": "And then when you go down this road, you go from not reading the code to understand the architecture.",
+  "zh": "当你走这条路时，你从通过不阅读代码来理解架构转变为……"
+ },
+ {
+  "seg": 171,
+  "start": 805.93,
+  "end": 809.853,
+  "speaker": "Unknown",
+  "en": "You go from not searching the code to understanding exactly what you're getting in every one tool call.",
+  "zh": "你从通过不搜索代码到在每次工具调用中准确理解你得到了什么。"
+ },
+ {
+  "seg": 172,
+  "start": 810.353,
+  "end": 811.814,
+  "speaker": "Unknown",
+  "en": "But what's the next thing you do?",
+  "zh": "但你做的下一件事是什么？"
+ },
+ {
+  "seg": 173,
+  "start": 812.354,
+  "end": 815.757,
+  "speaker": "Unknown",
+  "en": "Well, the last thing I do to truly understand code is I run the code.",
+  "zh": "嗯，为了真正理解代码，我做的最后一件事是运行代码。"
+ },
+ {
+  "seg": 174,
+  "start": 816.497,
+  "end": 822.781,
+  "speaker": "Unknown",
+  "en": "So what if every single thing you ran, every single function you ever wrote, was immediately available?",
+  "zh": "那么如果你运行的每一件东西，你编写的每一个函数，都立即可用会怎样？"
+ },
+ {
+  "seg": 175,
+  "start": 823.942,
+  "end": 825.323,
+  "speaker": "Unknown",
+  "en": "And I'll pop this code over here.",
+  "zh": "我会把这些代码弹到这里。"
+ },
+ {
+  "seg": 176,
+  "start": 827.585,
+  "end": 828.705,
+  "speaker": "Unknown",
+  "en": "Was immediately available?",
+  "zh": "是立即可用吗？"
+ },
+ {
+  "seg": 177,
+  "start": 829.999,
+  "end": 831.76,
+  "speaker": "Unknown",
+  "en": "As a simple CLI command.",
+  "zh": "作为一个简单的 CLI 命令。"
+ },
+ {
+  "seg": 178,
+  "start": 832.001,
+  "end": 836.944,
+  "speaker": "Unknown",
+  "en": "So if I run add, add becomes a CLI command that has A and B parameters attached to it.",
+  "zh": "所以如果我运行 add，add 就会变成一个带有附加的 A 和 B 参数的 CLI 命令。"
+ },
+ {
+  "seg": 179,
+  "start": 836.964,
+  "end": 839.146,
+  "speaker": "Unknown",
+  "en": "And I can just run it really quickly and see what happens.",
+  "zh": "我可以直接非常快地运行它并看看会发生什么。"
+ },
+ {
+  "seg": 180,
+  "start": 840.007,
+  "end": 855.539,
+  "speaker": "Unknown",
+  "en": "What if every single CLI tool I had could be packed into a CLI that's complete standalone that I can just run without ever having to actually execute any of the code?",
+  "zh": "如果我拥有的每一个 CLI 工具都可以打包到一个完全独立的 CLI 中，我可以直接运行它而无需实际执行任何代码，会怎样？"
+ },
+ {
+  "seg": 181,
+  "start": 858.634,
+  "end": 861.695,
+  "speaker": "Unknown",
+  "en": "And it's now a total CLI binary that has a function just bundled in.",
+  "zh": "它现在是一个完整的 CLI 二进制文件，里面捆绑了一个函数。"
+ },
+ {
+  "seg": 182,
+  "start": 862.015,
+  "end": 866.636,
+  "speaker": "Unknown",
+  "en": "Suddenly, we can build really quick tooling where agents don't have to go grep through what's happening.",
+  "zh": "突然间，我们可以构建非常快速的工具，智能体不必去 grep 正在发生的事情。"
+ },
+ {
+  "seg": 183,
+  "start": 866.736,
+  "end": 871.157,
+  "speaker": "Unknown",
+  "en": "Everything is type safe, everything is deterministic, and everything is actually guessable.",
+  "zh": "一切都是类型安全的，一切都是确定性的，一切都是实际上可推测的。"
+ },
+ {
+  "seg": 184,
+  "start": 871.938,
+  "end": 884.501,
+  "speaker": "Unknown",
+  "en": "And the best part is, imagine you could build on any system, and your agents don't have to worry about deployments across Windows, Mac, and Linux, and you can just target any layer you want, and it builds for any architecture, including Wasm systems.",
+  "zh": "最棒的部分是，想象一下你可以在任何系统上构建，你的智能体不必担心跨 Windows、Mac 和 Linux 的部署，你可以只针对你想要的任何层，它为任何架构构建，包括 Wasm 系统。"
+ },
+ {
+  "seg": 185,
+  "start": 885.384,
+  "end": 887.787,
+  "speaker": "Unknown",
+  "en": "All of a sudden, as an engineer, you're supercharged.",
+  "zh": "突然间，作为一名工程师，你被充能了。"
+ },
+ {
+  "seg": 186,
+  "start": 888.008,
+  "end": 891.412,
+  "speaker": "Unknown",
+  "en": "You're no longer bottlenecked by what you can do in the systems underneath you are preventing.",
+  "zh": "你不再受限于你能做的事情……"
+ },
+ {
+  "seg": 187,
+  "start": 891.452,
+  "end": 892.854,
+  "speaker": "Unknown",
+  "en": "You can just move very fast.",
+  "zh": "你可以移动得非常快。"
+ },
+ {
+  "seg": 188,
+  "start": 893.295,
+  "end": 894.877,
+  "speaker": "Unknown",
+  "en": "You can move at agent speed.",
+  "zh": "你可以以智能体速度移动。"
+ },
+ {
+  "seg": 189,
+  "start": 896.999,
+  "end": 900.284,
+  "speaker": "Unknown",
+  "en": "But a lot of the stuff that I've been talking about to this date has been about tooling.",
+  "zh": "但到目前为止我谈到的很多事情都是关于工具的。"
+ },
+ {
+  "seg": 190,
+  "start": 901.426,
+  "end": 903.927,
+  "speaker": "Unknown",
+  "en": "What if we tried to fix some of the real sins of JavaScript?",
+  "zh": "如果我们试图修复 JavaScript 的一些真正的罪孽会怎样？"
+ },
+ {
+  "seg": 191,
+  "start": 904.247,
+  "end": 907.369,
+  "speaker": "Unknown",
+  "en": "Some of the stuff that is deep in the language.",
+  "zh": "一些深藏在语言中的东西。"
+ },
+ {
+  "seg": 192,
+  "start": 908.009,
+  "end": 911.81,
+  "speaker": "Unknown",
+  "en": "Not the source stuff, but I mean more important stuff, like errors.",
+  "zh": "不是那些源代码的东西，但我是指更重要的东西，比如错误。"
+ },
+ {
+  "seg": 193,
+  "start": 912.751,
+  "end": 914.852,
+  "speaker": "Unknown",
+  "en": "Have you seen error handling be beautiful ever?",
+  "zh": "你见过错误处理是优美的吗？"
+ },
+ {
+  "seg": 194,
+  "start": 915.492,
+  "end": 917.553,
+  "speaker": "Unknown",
+  "en": "Other than Rust?",
+  "zh": "除了 Rust 之外？"
+ },
+ {
+  "seg": 195,
+  "start": 918.473,
+  "end": 927.217,
+  "speaker": "Unknown",
+  "en": "What I see agents do over here is you do try-catch, and then they keep nesting try-catch after try-catch after try-catch, and eventually they give up and say console.log, some error happened, and deal with it.",
+  "zh": "我在这里看到智能体做的是你做 try-catch，然后它们不断地嵌套 try-catch，在 try-catch 之后又接 try-catch，最终它们放弃并说 console.log，发生了一些错误，然后处理它。"
+ },
+ {
+  "seg": 196,
+  "start": 928.227,
+  "end": 930.608,
+  "speaker": "Unknown",
+  "en": "What if we could do error handling from very fresh principles?",
+  "zh": "如果我们可以从非常全新的原则做错误处理会怎样？"
+ },
+ {
+  "seg": 197,
+  "start": 930.969,
+  "end": 932.369,
+  "speaker": "Unknown",
+  "en": "What happens in that world?",
+  "zh": "那个世界里会发生什么？"
+ },
+ {
+  "seg": 198,
+  "start": 934.671,
+  "end": 937.032,
+  "speaker": "Unknown",
+  "en": "Well, I showed you add, multiply, subtract.",
+  "zh": "嗯，我给你展示了 add、multiply、subtract。"
+ },
+ {
+  "seg": 199,
+  "start": 937.392,
+  "end": 938.453,
+  "speaker": "Unknown",
+  "en": "I didn't show you divide.",
+  "zh": "我没有给你展示 divide。"
+ },
+ {
+  "seg": 200,
+  "start": 938.953,
+  "end": 939.933,
+  "speaker": "Unknown",
+  "en": "Divide is dangerous.",
+  "zh": "Divide 很危险。"
+ },
+ {
+  "seg": 201,
+  "start": 940.214,
+  "end": 940.854,
+  "speaker": "Unknown",
+  "en": "It's spooky.",
+  "zh": "这很令人毛骨悚然。"
+ },
+ {
+  "seg": 202,
+  "start": 942.415,
+  "end": 943.455,
+  "speaker": "Unknown",
+  "en": "So let's go look at divide.",
+  "zh": "所以让我们来看看 divide。"
+ },
+ {
+  "seg": 203,
+  "start": 944.416,
+  "end": 947.898,
+  "speaker": "Unknown",
+  "en": "You can see over here, divide throws a division by zero error.",
+  "zh": "你可以在这里看到，divide 抛出了一个除以零错误。"
+ },
+ {
+  "seg": 204,
+  "start": 949.499,
+  "end": 950.459,
+  "speaker": "Unknown",
+  "en": "But what else happens?",
+  "zh": "但还会发生什么？"
+ },
+ {
+  "seg": 205,
+  "start": 951.099,
+  "end": 953.721,
+  "speaker": "Unknown",
+  "en": "The function actually knows that it throws division by zero error.",
+  "zh": "该函数实际上知道它抛出了除以零错误。"
+ },
+ {
+  "seg": 206,
+  "start": 955.112,
+  "end": 957.053,
+  "speaker": "Unknown",
+  "en": "Without you having to write any code.",
+  "zh": "而无需你编写任何代码。"
+ },
+ {
+  "seg": 207,
+  "start": 957.773,
+  "end": 963.657,
+  "speaker": "Unknown",
+  "en": "If I go up to the calculate function, which at some point calls divide, this function also knows.",
+  "zh": "如果我向上看 calculate 函数，它在某个时刻调用了 divide，这个函数也知道。"
+ },
+ {
+  "seg": 208,
+  "start": 964.437,
+  "end": 965.898,
+  "speaker": "Unknown",
+  "en": "It throws division by zero error.",
+  "zh": "它抛出除以零错误。"
+ },
+ {
+  "seg": 209,
+  "start": 966.857,
+  "end": 970.84,
+  "speaker": "Unknown",
+  "en": "So error types now get inferred without you ever having to do any guesswork.",
+  "zh": "所以现在错误类型会被推断，而无需你做任何猜测。"
+ },
+ {
+  "seg": 210,
+  "start": 970.88,
+  "end": 978.906,
+  "speaker": "Unknown",
+  "en": "That means if you catch or handle errors, we can do exhaustive guarantees, and the compiler can prove that you have handled the error or not handled the error.",
+  "zh": "这意味着如果你捕获或处理错误，我们可以做穷举保证，编译器可以证明你处理了错误或没有处理错误。"
+ },
+ {
+  "seg": 211,
+  "start": 979.326,
+  "end": 980.286,
+  "speaker": "Unknown",
+  "en": "It's no more guessing.",
+  "zh": "不再是猜测。"
+ },
+ {
+  "seg": 212,
+  "start": 980.587,
+  "end": 981.507,
+  "speaker": "Unknown",
+  "en": "There's no unknowns.",
+  "zh": "没有未知数。"
+ },
+ {
+  "seg": 213,
+  "start": 981.788,
+  "end": 983.229,
+  "speaker": "Unknown",
+  "en": "It's guaranteed to be proven.",
+  "zh": "保证得到证明。"
+ },
+ {
+  "seg": 214,
+  "start": 983.889,
+  "end": 992.775,
+  "speaker": "Unknown",
+  "en": "So if you wanted to ship an API where it guarantees that it never throws, well, this system is broken because it doesn't meet the constraints.",
+  "zh": "所以如果你想发布一个保证它永远不会抛出的 API，好吧，这个系统坏了，因为它不满足约束条件。"
+ },
+ {
+  "seg": 215,
+  "start": 993.035,
+  "end": 995.157,
+  "speaker": "Unknown",
+  "en": "It has two errors that you're not throwing.",
+  "zh": "它有两个你没有抛出的错误。"
+ },
+ {
+  "seg": 216,
+  "start": 995.831,
+  "end": 1000.132,
+  "speaker": "Unknown",
+  "en": "If you wanted to go catch that, well, I can write the code for that in a second.",
+  "zh": "如果你想去捕获它，好吧，我可以在一秒钟内写出代码。"
+ },
+ {
+  "seg": 217,
+  "start": 1001.673,
+  "end": 1003.233,
+  "speaker": "Unknown",
+  "en": "But you can start catching certain errors.",
+  "zh": "但你可以开始捕获特定的错误。"
+ },
+ {
+  "seg": 218,
+  "start": 1010.435,
+  "end": 1012.236,
+  "speaker": "Unknown",
+  "en": "I'm just going to return a sentinel value for now.",
+  "zh": "我现在只是要返回一个哨兵值。"
+ },
+ {
+  "seg": 219,
+  "start": 1013.376,
+  "end": 1020.419,
+  "speaker": "Unknown",
+  "en": "And now this parse thing, which previously threw a division by zero error, is now guaranteed to no longer throw the division by zero error.",
+  "zh": "现在这个 parse 东西，之前抛出了除以零错误，现在保证不再抛出除以零错误。"
+ },
+ {
+  "seg": 220,
+  "start": 1020.539,
+  "end": 1024.96,
+  "speaker": "Unknown",
+  "en": "Because if I catch any exceptions in here, I return a zero value every single time.",
+  "zh": "因为如果我在这里捕获任何异常，我每次都返回一个零值。"
+ },
+ {
+  "seg": 221,
+  "start": 1026.287,
+  "end": 1031.371,
+  "speaker": "Unknown",
+  "en": "The compiler and the tooling can do a lot of work for us, and we're already used to this in our code bases.",
+  "zh": "编译器和工具可以为我们做大量工作，而且我们在代码库中已经习惯了这一点。"
+ },
+ {
+  "seg": 222,
+  "start": 1031.451,
+  "end": 1034.453,
+  "speaker": "Unknown",
+  "en": "Many of us probably don't know how compilers work under the hood, and we trust them.",
+  "zh": "我们许多人可能不知道编译器在底层是如何工作的，但我们信任它们。"
+ },
+ {
+  "seg": 223,
+  "start": 1035.113,
+  "end": 1036.515,
+  "speaker": "Unknown",
+  "en": "Code is a matter of trust.",
+  "zh": "代码是信任的问题。"
+ },
+ {
+  "seg": 224,
+  "start": 1037.055,
+  "end": 1045.361,
+  "speaker": "Unknown",
+  "en": "The reason that we don't use LLM code blindly is because we don't trust it yet, because the systems underneath them don't have enough rigidity.",
+  "zh": "我们不盲目使用 LLM 代码的原因是我们要还不信任它，因为它们底层的系统没有足够的刚性。"
+ },
+ {
+  "seg": 225,
+  "start": 1047.523,
+  "end": 1047.983,
+  "speaker": "Unknown",
+  "en": "One more thing.",
+  "zh": "还有一件事。"
+ },
+ {
+  "seg": 226,
+  "start": 1048.99,
+  "end": 1058.255,
+  "speaker": "Unknown",
+  "en": "But before I tell you all to go write a bunch of BAML code, because I've been there and I can tell you what someone would tell me if I said, hey, use this new programming language.",
+  "zh": "但在我告诉大家去写一堆 BAML 代码之前，因为我经历过那里，我可以告诉你如果我说嘿，使用这种新编程语言，有人会告诉我什么。"
+ },
+ {
+  "seg": 227,
+  "start": 1058.315,
+  "end": 1059.356,
+  "speaker": "Unknown",
+  "en": "It's gonna solve all your problems.",
+  "zh": "它将解决你所有的问题。"
+ },
+ {
+  "seg": 228,
+  "start": 1059.916,
+  "end": 1063.358,
+  "speaker": "Unknown",
+  "en": "It's just gonna come with a whole slew of new problems.",
+  "zh": "它只会带来一大堆新问题。"
+ },
+ {
+  "seg": 229,
+  "start": 1064.258,
+  "end": 1070.922,
+  "speaker": "Unknown",
+  "en": "So we said, I think we'll lose the war on slop if we try to ask everyone to rewrite all their code in the world into this new system.",
+  "zh": "所以我们说，我认为如果我们试图让所有人都把世界上所有的代码重写成这个新系统，我们就会输掉 slop 的战争。"
+ },
+ {
+  "seg": 230,
+  "start": 1071.768,
+  "end": 1075.649,
+  "speaker": "Unknown",
+  "en": "So what does a solution like that look like, where you don't have to rewrite all your code?",
+  "zh": "那么这样的解决方案是什么样的，你不必重写你所有的代码？"
+ },
+ {
+  "seg": 231,
+  "start": 1076.55,
+  "end": 1080.571,
+  "speaker": "Unknown",
+  "en": "Well, what we started to do was we started to think about that about two years ago.",
+  "zh": "嗯，我们开始做的是我们在大约两年前开始思考那个问题。"
+ },
+ {
+  "seg": 232,
+  "start": 1082.412,
+  "end": 1096.337,
+  "speaker": "Unknown",
+  "en": "And we said, what if you could use BAML, not just standalone like I showed today, but from within any existing language of your choice, from Python to TypeScript to Rust to Go to Ruby to Java to anything new that comes up even after it?",
+  "zh": "我们说，如果你可以使用 BAML，不仅像我今天展示的那样独立使用，还可以从你选择的任何现有语言中使用，从 Python 到 TypeScript 到 Rust 到 Go 到 Ruby 到 Java 甚至在它之后出现的任何新东西，那会怎样？"
+ },
+ {
+  "seg": 233,
+  "start": 1097.497,
+  "end": 1100.238,
+  "speaker": "Unknown",
+  "en": "What if every function in BAML is immediately accessible,",
+  "zh": "如果 BAML 中的每个函数都可以立即访问，那会怎样？"
+ },
+ {
+  "seg": 234,
+  "start": 1101.272,
+  "end": 1102.433,
+  "speaker": "Unknown",
+  "en": "In the language of your choice.",
+  "zh": "使用你选择的语言。"
+ },
+ {
+  "seg": 235,
+  "start": 1102.453,
+  "end": 1107.236,
+  "speaker": "Unknown",
+  "en": "So in this case, I'm calling the BAML calculate function directly from Python, and it's completely type safe.",
+  "zh": "所以在这种情况下，我直接从 Python 调用 BAML calculate 函数，它是完全类型安全的。"
+ },
+ {
+  "seg": 236,
+  "start": 1108.617,
+  "end": 1112.66,
+  "speaker": "Unknown",
+  "en": "Not only do we get calculate, we get calculate async in case some of us want to write async code.",
+  "zh": "我们不仅得到了 calculate，我们还得到了 calculate async，以防我们中的一些人想写 async 代码。"
+ },
+ {
+  "seg": 237,
+  "start": 1113.04,
+  "end": 1118.004,
+  "speaker": "Unknown",
+  "en": "So BAML, while it has no function coloring, it does give you the benefit of having to do whatever you want across your code.",
+  "zh": "所以 BAML，虽然它没有函数着色，但它确实给你带来了在你的代码中做任何你想做的事情的好处。"
+ },
+ {
+  "seg": 238,
+  "start": 1119.745,
+  "end": 1122.967,
+  "speaker": "Unknown",
+  "en": "But what if you went a little bit sillier?",
+  "zh": "但如果你做得稍微有点傻呢？"
+ },
+ {
+  "seg": 239,
+  "start": 1124.288,
+  "end": 1126.55,
+  "speaker": "Unknown",
+  "en": "What if you started passing around lambdas?",
+  "zh": "如果你开始传递 lambda 呢？"
+ },
+ {
+  "seg": 240,
+  "start": 1127.665,
+  "end": 1128.807,
+  "speaker": "Unknown",
+  "en": "Across language boundaries.",
+  "zh": "跨越语言边界。"
+ },
+ {
+  "seg": 241,
+  "start": 1129.709,
+  "end": 1131.332,
+  "speaker": "Unknown",
+  "en": "I have a function here called withTimeout.",
+  "zh": "我这里有一个名为 withTimeout 的函数。"
+ },
+ {
+  "seg": 242,
+  "start": 1131.673,
+  "end": 1136.401,
+  "speaker": "Unknown",
+  "en": "This function times out after a certain number of milliseconds and if this work doesn't complete.",
+  "zh": "这个函数在一定的毫秒数后超时，如果这项工作没有完成。"
+ },
+ {
+  "seg": 243,
+  "start": 1136.422,
+  "end": 1139.066,
+  "speaker": "Unknown",
+  "en": "And it's guaranteed to no matter how long it takes.",
+  "zh": "并且无论它需要多长时间，它都保证。"
+ },
+ {
+  "seg": 244,
+  "start": 1140.241,
+  "end": 1143.765,
+  "speaker": "Unknown",
+  "en": "Well, in that world, you can even pass Python lambdas across the bridge.",
+  "zh": "嗯，在那个世界里，你甚至可以跨越桥梁传递 Python lambdas。"
+ },
+ {
+  "seg": 245,
+  "start": 1144.005,
+  "end": 1145.607,
+  "speaker": "Unknown",
+  "en": "You can pass generics across the bridge.",
+  "zh": "你可以跨越桥梁传递泛型。"
+ },
+ {
+  "seg": 246,
+  "start": 1145.827,
+  "end": 1146.748,
+  "speaker": "Unknown",
+  "en": "You can pass closures.",
+  "zh": "你可以传递闭包。"
+ },
+ {
+  "seg": 247,
+  "start": 1147.329,
+  "end": 1150.091,
+  "speaker": "Unknown",
+  "en": "It should just work so engineers don't have to go fuss with it.",
+  "zh": "它应该就能正常工作，所以工程师不必去摆弄它。"
+ },
+ {
+  "seg": 248,
+  "start": 1150.111,
+  "end": 1154.376,
+  "speaker": "Unknown",
+  "en": "And more importantly, so when the agent does something, the type system never lies.",
+  "zh": "更重要的是，所以当智能体做某事时，类型系统从不撒谎。"
+ },
+ {
+  "seg": 249,
+  "start": 1154.656,
+  "end": 1160.803,
+  "speaker": "Unknown",
+  "en": "The type system becomes the absolute center of truth that prevents invariants from entering your code base.",
+  "zh": "类型系统成为绝对的真理中心，防止不变量进入你的代码库。"
+ },
+ {
+  "seg": 250,
+  "start": 1162.488,
+  "end": 1168.471,
+  "speaker": "Unknown",
+  "en": "And what I really wanted to talk about today was not any one specific thing, but it's this general concept.",
+  "zh": "我今天真正想讲的并不是任何一件具体的事情，而是这个总体的概念。"
+ },
+ {
+  "seg": 251,
+  "start": 1169.091,
+  "end": 1174.433,
+  "speaker": "Unknown",
+  "en": "You can build incredibly complex systems without traditional systems like code reviews.",
+  "zh": "你可以在没有代码审查等传统系统的情况下构建极其复杂的系统。"
+ },
+ {
+  "seg": 252,
+  "start": 1174.513,
+  "end": 1179.376,
+  "speaker": "Unknown",
+  "en": "You can work in things in parallel, and you can use AI however you want without requiring any sort of standardization.",
+  "zh": "你可以并行处理事务，你可以随心所欲地使用 AI，而无需任何形式的标准化。"
+ },
+ {
+  "seg": 253,
+  "start": 1180.016,
+  "end": 1186.619,
+  "speaker": "Unknown",
+  "en": "But the most important part is you have to be incredibly thoughtful about how your engineering team actually uses the systems under the hood.",
+  "zh": "但最重要的是，你必须非常周密地思考你的工程团队实际上如何在底层使用这些系统。"
+ },
+ {
+  "seg": 254,
+  "start": 1187.66,
+  "end": 1191.427,
+  "speaker": "Unknown",
+  "en": "When we started building BAML, I didn't think it would be possible to build some of the software we did.",
+  "zh": "当我们开始构建 BAML 时，我认为不可能构建出我们构建的某些软件。"
+ },
+ {
+  "seg": 255,
+  "start": 1192.169,
+  "end": 1197.158,
+  "speaker": "Unknown",
+  "en": "And just yesterday, one of our engineers built a partial C compiler purely in BAML.",
+  "zh": "就在昨天，我们的一个工程师完全用 BAML 构建了一个部分 C 编译器。"
+ },
+ {
+  "seg": 256,
+  "start": 1198.216,
+  "end": 1210.159,
+  "speaker": "Unknown",
+  "en": "So when I start pushing the boundaries of these systems and you stop reading the code, in some ways, in my mind, it releases the floodgates for your engineering team to actually cover the gaps of what existed in your old process.",
+  "zh": "所以，当我开始推动这些系统的边界并且你停止阅读代码时，在某种程度上，在我看来，它为你的工程团队真正填补旧流程中存在的缺口打开了大门。"
+ },
+ {
+  "seg": 257,
+  "start": 1210.619,
+  "end": 1212.7,
+  "speaker": "Unknown",
+  "en": "Have you ever worked at a company that had no CICD?",
+  "zh": "你有没有在一家没有 CICD 的公司工作过？"
+ },
+ {
+  "seg": 258,
+  "start": 1213.2,
+  "end": 1215.24,
+  "speaker": "Unknown",
+  "en": "They said adding CICD would slow us down.",
+  "zh": "他们说添加 CICD 会拖慢我们的速度。"
+ },
+ {
+  "seg": 259,
+  "start": 1216.001,
+  "end": 1220.662,
+  "speaker": "Unknown",
+  "en": "They do slow down for three months while they add it, but after that, they move a lot faster.",
+  "zh": "他们确实会拖慢速度，在他们添加它的三个月里，但在那之后，他们的移动速度要快得多。"
+ },
+ {
+  "seg": 260,
+  "start": 1221.122,
+  "end": 1224.523,
+  "speaker": "Unknown",
+  "en": "Our processes have to evolve if we're going to ship at agent speed.",
+  "zh": "如果我们要以智能体的速度交付，我们的流程就必须演进。"
+ },
+ {
+  "seg": 261,
+  "start": 1225.156,
+  "end": 1230.117,
+  "speaker": "Unknown",
+  "en": "And remember, this is the least amount of slop your code base will ever have to this day.",
+  "zh": "请记住，这是你的代码库直到今天所必须拥有的最少量的混乱。"
+ },
+ {
+  "seg": 262,
+  "start": 1230.537,
+  "end": 1233.458,
+  "speaker": "Unknown",
+  "en": "So just embrace it and start fighting it back.",
+  "zh": "所以就拥抱它并开始反击它吧。"
+ },
+ {
+  "seg": 263,
+  "start": 1234.418,
+  "end": 1240.279,
+  "speaker": "Unknown",
+  "en": "I fell in love with software about 15 years ago, and it was the first thing that truly changed the way I perceived the world.",
+  "zh": "我大约 15 年前爱上了软件，它是第一件真正改变我感知世界方式的事物。"
+ },
+ {
+  "seg": 264,
+  "start": 1241.179,
+  "end": 1243.18,
+  "speaker": "Unknown",
+  "en": "And I really genuinely don't want slop to win.",
+  "zh": "我真的真的不希望混乱获胜。"
+ },
+ {
+  "seg": 265,
+  "start": 1243.44,
+  "end": 1246.58,
+  "speaker": "Unknown",
+  "en": "And I think we can all build a world of beautiful software.",
+  "zh": "我认为我们都可以构建一个拥有美丽软件的世界。"
+ },
+ {
+  "seg": 266,
+  "start": 1247.24,
+  "end": 1254.822,
+  "speaker": "Unknown",
+  "en": "And I think what it takes is I want each of you to go home today and build these sloppy tools, make your systems more robust, make your processes more robust.",
+  "zh": "我认为这需要你们每个人今天回家后去构建这些混乱的工具，让你们的系统更健壮，让你们的流程更健壮。"
+ },
+ {
+  "seg": 267,
+  "start": 1255.672,
+  "end": 1261.077,
+  "speaker": "Unknown",
+  "en": "And then for the bravest of you, I want you to go back and think about these core foundation layer systems.",
+  "zh": "而对于你们中最勇敢的人，我希望你们回去思考这些核心基础层系统。"
+ },
+ {
+  "seg": 268,
+  "start": 1261.498,
+  "end": 1264.24,
+  "speaker": "Unknown",
+  "en": "Think about how they're broken and see if you can imagine a way to fix them.",
+  "zh": "思考它们是如何损坏的，看看你们是否能想象出修复它们的方法。"
+ },
+ {
+  "seg": 269,
+  "start": 1264.781,
+  "end": 1266.042,
+  "speaker": "Unknown",
+  "en": "I think we do need a new Git.",
+  "zh": "我认为我们确实需要一个新的 Git。"
+ },
+ {
+  "seg": 270,
+  "start": 1266.602,
+  "end": 1268.104,
+  "speaker": "Unknown",
+  "en": "I think we do need a new database.",
+  "zh": "我认为我们确实需要一个新的数据库。"
+ },
+ {
+  "seg": 271,
+  "start": 1268.584,
+  "end": 1270.746,
+  "speaker": "Unknown",
+  "en": "And yes, I think we need a new programming language.",
+  "zh": "是的，我认为我们需要一种新的编程语言。"
+ },
+ {
+  "seg": 272,
+  "start": 1271.427,
+  "end": 1273.229,
+  "speaker": "Unknown",
+  "en": "I'm Vaibhav, and I work on BAML.",
+  "zh": "我是 Vaibhav，我在做 BAML。"
+ },
+ {
+  "seg": 273,
+  "start": 1273.349,
+  "end": 1273.629,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ },
+ {
+  "seg": 274,
+  "start": 1281.68,
+  "end": 1282.421,
+  "speaker": "Unknown",
+  "en": "Thank you.",
+  "zh": "谢谢。"
+ }
+]

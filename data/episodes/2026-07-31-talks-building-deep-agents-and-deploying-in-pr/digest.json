@@ -1,0 +1,49 @@
+{
+  "title_zh": "给模型套上挽具：DeepAgents 开源框架与生产部署实践",
+  "tldr": "拆解 DeepAgents 智能体框架的开箱即用原理，以及把智能体推向生产环境必须跨越的几道硬坎。",
+  "digest_md": "你以为跑大模型，调好 API 参数就够了？其实那仅仅是冰山一角。说这话的人分享了开源圈最流行的一种架构思路：大模型本身只是引擎，真正让它干活、不犯错的「挽具（harness，即围绕模型搭建的所有外围工程代码）」，动辄就是几十万行起步。\n\n在开源社区 LangChain 的这场分享里，他拆解了自家开源框架 DeepAgents 的底层逻辑，以及把智能体真正推向生产环境必须跨过的几道硬坎。你会听到三个板块：为什么「文件系统」是当下管好大模型上下文的最佳接口，怎么用几行代码把普通工具调用升级为深度智能体；以及当任务变得极其漫长时，怎么靠「检查点」和记忆机制保住不崩盘。最后，他还回答了一个让很多开发者头疼的问题：当智能体能自动发邮件时，传统的权限验证怎么彻底失灵了。\n\n先说什么是「挽具」。一个智能体本质上是一个基础 LLM（大语言模型）加上它外面包着的一层壳。如果你不是那个模型本身，那你就是那个壳——也就是挽具。这包括了系统提示词、记忆、工具、子智能体，以及智能体要交互的沙箱、浏览器等基础设施。以 Claude Code 为例，这套智能体在 GitHub 上大约有 500,000 行代码。这 500,000 行全是挽具，目的是让底层的 Opus 或 Sonnet 模型在处理你的任务时发挥出最好的状态。[01:07 Unknown]\n\n在 DeepAgents 这个开源框架里，最核心的挽具原语就是文件系统。[03:22 Unknown] 现在的模型在训练时，已经消化了海量针对 Claude Code 或 Codex 这类编码智能体的代码数据，所以模型对读写文件这种交互方式烂熟于心。比起凭空让它记忆，不如把信息变成草稿纸一样的文件丢给它，这能极大提升表现。[03:40 Unknown] 框架还内置了摘要、子智能体和规划模块，核心目的就是做好上下文管理（context management，即控制和压缩传给模型的上下文信息）——只把最少量的必要信息喂给模型，拉长它的有效工作窗口。[03:58 Unknown]\n\n既然框架封装得这么好，开发者怎么用？这就来到了实操方法。DeepAgents 被定位为 LangChain 家族里最高层级的抽象，底下是负责基础工具调用的 LangChain，再往下是提供节点和边等核心积木的 LangGraph。[04:18 Unknown] 如果你有现成的基础智能体，想把它们变成深度智能体，只需把实例化的代码从 `create agent` 换成 `create deep agent`。[05:56 Unknown] 框架会自动帮你加上文件系统支持、规划模块，还会塞进 `ls`、`cat`、`grep` 等工具。因为它底层基于 LangGraph，你可以把一个完全确定性跑死的工作流，和能自由推理的 DeepAgents 像乐高一样混拼，找到可靠性与灵活性的最佳平衡。[06:42 Unknown]\n\n工具讲完了，可一旦真要把智能体丢进生产环境，就到了架构最吃苦的环节。标准的基础设施根本不是为这种长时间、多步骤跑的复杂智能体设计的。[08:28 Unknown] 任务跑得越久，风险就越高：如果你的智能体跑在第 67 步崩了，难道要逼它从头把前 66 步重跑一遍吗？[08:57 Unknown]\n\n解决这个痛点的关键机制叫「持久执行」（durable execution，一种能抵御中断和故障的长时任务执行模式）。DeepAgents 会给执行的每一步打上检查点。一旦在第 67 步出错，系统就能直接从第 66 步的断点恢复，不用从头再来。[10:36 Unknown] 神奇的是，把这些散落的检查点状态全串起来，智能体就拥有了短期记忆，能想起你几轮对话前说过的话。[11:04 Unknown] 再把它铺开到多次会话里，抽取出用户的特定偏好存进长期记忆库——比如记住用户特别偏爱 Python，以后给例子全用 Python 写。[11:33 Unknown]\n\n> 【背景】RBAC（基于角色的访问控制）是企业软件里管权限的常规手段，决定某个账号能点哪些按钮。但当大模型这种非确定性的系统自己去调工具时，静态的权限授予就开始失灵。\n\n这引出了一个全新且棘手的问题：智能体的身份验证。传统的应用很规矩，你给一个 App 授权读邮件，它就老老实实读。但智能体是个「模糊」系统，它具有主观能动性。[12:43 Unknown] 你可能觉得它替你发一封邮件完全没问题，但如果哪天你一抬头，发现它正代表你疯狂发送一千封邮件，你绝对会觉得系统出大问题了。[13:15 Unknown] 这种「干一点活没事，干大活了吓人」的特性，让传统 RBAC（基于角色的访问控制）权限和 OAuth 授权流程变得不再适用，目前仍是业界还在摸索的盲区。\n\n面对又长又容易失控的运行过程，最后一道防线是「人在回路」（human in the loop，指让真人介入审批智能体的动作）。就算能全自动跑通的任务，往往也需要保留人工监督。[13:45 Unknown] 运行时必须从底层支持用户随时打断、喊停或审批智能体的动作。同时，智能体底层的引擎必须能把「我还在干活」的进度流式传输给前端用户，否则面对一个跑了几十分钟的空白页面，用户早就以为程序卡死了。[14:33 Unknown]\n\n## 本集带走\n\n最后收个尾，这一集最值得带走的是关于构建智能体的三层认知。第一，模型再强也只是引擎，围绕它的挽具才是让它真正干活的命门，DeepAgents 把这套包含了文件系统和规划模块的几十万行代码开源了出来，你只需换个实例化函数就能接入。第二，别用传统短连接的思路去设计智能体架构，长任务必须上检查点做持久执行，断了能续，串联起来就变成了智能体的记忆。第三，随着模型变得越来越自主，传统的软件权限和静态交互界面正在彻底失效，你得重新设计一套能在关键时刻拦住它、并且随时向人类汇报进度的机制。",
+  "quotes": [
+    {
+      "en": "The file system is... Probably the state of the art when it comes to context management today, where agents will utilize the file system to store information that they might need to reference, such as a scratch pad.",
+      "zh": "文件系统是……当今语境管理方面可能最先进的技术，智能体将利用文件系统来存储它们可能需要引用的信息，比如草稿纸。",
+      "timestamp": "03:31",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Foundational models are very, very good at utilizing the interface, so giving your data to your model in the form of a file system tends to boost performance.",
+      "zh": "基础模型非常非常善于利用该接口，所以以文件系统的形式将你的数据提供给你的模型往往会提升性能。",
+      "timestamp": "03:49",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "So deep agents is the highest level of abstraction, and it's the way that you can get started the quickest if you want to get an agent up and running in production as soon as possible.",
+      "zh": "所以深度智能体是最高层次的抽象，如果你想尽快让智能体在生产环境中启动并运行，这是让你最快上手的方式。",
+      "timestamp": "04:56",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "Standard infrastructure in short is not really built for long running complex agents.",
+      "zh": "简而言之，标准的基础设施并不是真正为长时间运行的复杂智能体构建的。",
+      "timestamp": "08:28",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "And somewhere in that process, as you get pushed to the limit, it's more and more likely for your agent to hallucinate, for your agent to fail, or for it to encounter some other error.",
+      "zh": "在这个过程中的某个地方，当你被推向极限时，你的智能体产生幻觉、失败或遇到其他错误的可能性越来越大。",
+      "timestamp": "10:19",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "So if you have a failure at step 67, you can start from step 66 and not have to go back to step one.",
+      "zh": "所以如果你在第 67 步失败，你可以从第 66 步开始，而不必回到第一步。",
+      "timestamp": "10:44",
+      "speaker": "Unknown"
+    },
+    {
+      "en": "For example, you might be okay with an agent sending one email on your behalf, but you might think that something's wrong and you might want to investigate if you see that agent sending a thousand emails on your behalf.",
+      "zh": "例如，你可能可以接受智能体代表你发送一封电子邮件，但如果你看到该智能体代表你发送一千封电子邮件，你可能会认为出了问题，并且你可能想要调查一下。",
+      "timestamp": "13:15",
+      "speaker": "Unknown"
+    }
+  ]
+}
