@@ -390,10 +390,18 @@ function readArchiveItems(archiveFile) {
 }
 
 /** 顺跑一个外部脚本;非 0 退出即抛(fail-fast,坏集不继续污染)。 */
-function run(cmd, args, opts = {}) {
+export function run(cmd, args, opts = {}) {
   console.log(`   $ ${cmd} ${args.join(" ")}`);
-  const r = spawnSync(cmd, args, { cwd: ROOT, stdio: "inherit", ...opts });
-  if (r.status !== 0) throw new Error(`步骤失败(exit ${r.status}): ${cmd} ${args.join(" ")}`);
+  // stderr 改捕获(stdout 仍 inherit,主进度实时流):失败时把子进程 stderr 尾部并进抛错 message,
+  // 让上层 isContentBlocked 认出 glm-ask 的 [1301] 内容审查 —— 否则错误串只有通用「步骤失败」壳,识别不到。
+  // 2026-08-08 云端实证(run 31263975093):原 stdio:"inherit" 下 [1301] 只到控制台、进不了 e.message,
+  // 内容审查新路径从不触发、演讲仍死锁 —— 本地单测只喂原始 [1301] 串测不出这层,故补此修 + run() 端到端测试。
+  // maxBuffer 放大到 512MB:whisperX/ffmpeg 长 stderr 进度防 ENOBUFS 杀子进程。
+  // stdio/encoding/maxBuffer 刻意放 ...opts 之后:内容审查捕获的正确性依赖 stderr=pipe,不许被调用方 opts 覆盖掉
+  // (GLM 20260808-006[1] 防御性加固;当前无调用传 opts,纯保险)。
+  const r = spawnSync(cmd, args, { cwd: ROOT, ...opts, stdio: ["inherit", "inherit", "pipe"], encoding: "utf8", maxBuffer: 512 * 1024 * 1024 });
+  if (r.stderr) process.stderr.write(r.stderr); // 补回 inherit 的可见性(captured 后不再自动显示)
+  if (r.status !== 0) throw new Error(`步骤失败(exit ${r.status}): ${cmd} ${args.join(" ")}\n${(r.stderr ?? "").slice(-4000)}`);
 }
 
 /** 跑外部脚本,返回是否 0 退出(不抛,用于逐集验证的 skip 判定)。 */

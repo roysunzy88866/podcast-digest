@@ -353,15 +353,20 @@ describe("C14 计数:败++、成功清零", () => {
 });
 
 // ── 内容审查拦截([1301])= 确定性终态,非转瞬(2026-08-08 用户「放弃敏感集」)──
-import { isContentBlocked, noteBlockFail, clearBlocked, BLOCK_CAP } from "../scripts/run-pipeline.mjs";
+import { isContentBlocked, noteBlockFail, clearBlocked, BLOCK_CAP, run } from "../scripts/run-pipeline.mjs";
 
 describe("isContentBlocked · 只认 GLM [1301] 内容审查,别的失败不误判", () => {
   const real =
     'glm-ask exit 1: [HTTP 400] {"type":"error","error":{"code":"1301","message":"[1301][系统检测到输入或生成内容可能包含不安全或敏感内容，请您避免输入易产生敏感内容的提示语，感谢您的配合。][20260808223434ae43735b62a042f9]"}}';
+  // run() 实际抛出的形状:通用「步骤失败」壳 + 子进程 stderr 尾部(上一版漏了后半截 → 新路径不触发,云端实证)
+  const wrapped = `步骤失败(exit 1): node scripts/translate.mjs data/episodes/xxx\n${real}`;
   it("★ 真 [1301] 错误串 → true(带方括号 或 带引号 或 中文原话任一命中)", () => {
     expect(isContentBlocked(real)).toBe(true);
     expect(isContentBlocked('code":"1301"')).toBe(true);
     expect(isContentBlocked("系统检测到输入或生成内容可能包含不安全或敏感内容")).toBe(true);
+  });
+  it("★ run() 包裹后的完整 message(壳+stderr 尾)仍命中 —— 正是上一版漏掉、致新路径不触发的那层", () => {
+    expect(isContentBlocked(wrapped)).toBe(true);
   });
   it("★ 转瞬/别的失败 → false(网络抖动、非零退出、空)", () => {
     expect(isContentBlocked("glm-ask exit 1: fetch failed")).toBe(false);
@@ -382,6 +387,31 @@ describe("内容审查连拦计数:BLOCK_CAP 次宽限后 park;成功清零", ()
     expect(state.blocked.ep).toBe(BLOCK_CAP);
     clearBlocked(state, "ep");
     expect(state.blocked?.ep).toBeUndefined();
+  });
+});
+
+describe("run() 端到端:子进程 stderr 尾部并进抛错 message(2026-08-08 云端实证补漏)", () => {
+  it("★ 子进程写 [1301] 到 stderr 后非零退出 → run 抛错含 [1301] → isContentBlocked 认得出", () => {
+    const child =
+      "process.stderr.write('glm-ask exit 1: [HTTP 400] [1301] 系统检测到输入或生成内容可能包含不安全或敏感内容'); process.exit(1);";
+    let msg = "";
+    try {
+      run("node", ["-e", child]);
+    } catch (e: any) {
+      msg = e.message;
+    }
+    expect(msg).toContain("步骤失败(exit 1)"); // 通用壳还在
+    expect(isContentBlocked(msg)).toBe(true); // ← 上一版这里为 false(stderr 丢了),新路径才不触发
+  });
+  it("★ 子进程普通失败(stderr 无 [1301])→ isContentBlocked 为 false,不误判成内容审查", () => {
+    let msg = "";
+    try {
+      run("node", ["-e", "process.stderr.write('fetch failed: ECONNRESET'); process.exit(1);"]);
+    } catch (e: any) {
+      msg = e.message;
+    }
+    expect(msg).toContain("步骤失败(exit 1)");
+    expect(isContentBlocked(msg)).toBe(false);
   });
 });
 
