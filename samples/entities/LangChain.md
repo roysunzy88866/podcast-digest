@@ -25,7 +25,7 @@ unlisted: true
 
 [[Jensen Huang]] · [[智能体]] · [[测试框架]] · [[前沿模型]] · [[开放权重模型]] · [[护栏]] · [[沙箱]] · [[后训练]] · [[NVIDIA]] · [[Nemotron]]
 
-<script type="application/json" class="pd-epn">{"Jensen Huang":3,"智能体":60,"测试框架":6,"前沿模型":1,"开放权重模型":3,"护栏":11,"沙箱":11,"后训练":3,"NVIDIA":12,"Nemotron":2}</script>
+<script type="application/json" class="pd-epn">{"Jensen Huang":3,"智能体":60,"测试框架":6,"前沿模型":1,"开放权重模型":3,"护栏":11,"沙箱":11,"后训练":3,"NVIDIA":13,"Nemotron":2}</script>
 
 <script>
 (function(){

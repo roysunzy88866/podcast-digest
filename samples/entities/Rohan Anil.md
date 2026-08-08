@@ -29,7 +29,7 @@ unlisted: true
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Sonja":1,"Jerry Tworek":1,"Core Automation":1,"OpenAI":29,"Google":13,"Anthropic":34,"transformer":2,"强化学习":6,"预训练":1,"测试时学习":1}</script>
+<script type="application/json" class="pd-epn">{"Sonja":1,"Jerry Tworek":1,"Core Automation":1,"OpenAI":30,"Google":14,"Anthropic":35,"transformer":2,"强化学习":6,"预训练":1,"测试时学习":1}</script>
 
 <script>
 (function(){

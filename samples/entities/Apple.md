@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>Apple</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="Apple">AP</div><div class="pi"><h1 class="pt">Apple</h1><div class="byl">公司</div><div class="nums">本站收录 <b>6</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="Apple">AP</div><div class="pi"><h1 class="pt">Apple</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -17,10 +17,11 @@ unlisted: true
 - **[[2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her|《Bumble 大重置：挥别「滑动」，重塑约会软件》]]**(01:29起):本集用作类比:伟大的公司必须不断进化、推新产品,用户不会还用七年前的 iPhone,Bumble 也不能停留在七年前的产品形态
 - **[[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]]**(60:25起):本集说它虽然交出了亮眼财报，但受困于内存短缺引发的供应链限制，且在 AI 时代面临手机重要性减弱、围墙花园失效的长期危机。
 - **[[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]]**(47:33起):本集把它说成:什么都不做、不在 CapEx 上花钱的策略,如果未来模型真的被彻底商品化,十年后看起来会像天才
+- **[[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]]**(06:40起):本集讨论 Apple 因 AI 基建热潮引发内存短缺而受到严重反噬，被迫酝酿全线硬件涨价（特别是 iPhone 18 预计上涨 100-200 美元），并推出与 Klarna 合作的按月付费订阅模式（Apple Upgrade）来掩盖涨价、锁定用户生态。
 
 ## ② 出现在这些集
 
-*6 集*
+*7 集*
 
 - [[2025-12-28-lennys-10-contrarian-leadership-truths|《故意让人手不足:Rippling 首席产品官的非常规管理心法》]] — 作为被讨论公司(提及)
 - [[2026-05-31-lennys-a-rational-conversation-on-where|《AI 会改变一切，但也「只和互联网一样大」》]] — 作为被讨论公司(提及)
@@ -28,14 +29,15 @@ unlisted: true
 - [[2026-07-09-talks-bumble-founder-and-ceo-whitney-wolfe-her|《Bumble 大重置：挥别「滑动」，重塑约会软件》]] — 作为被讨论公司(提及)
 - [[2026-07-31-bigtech-leopold-blows-up-openai-drastically-cuts|《「最纯 AGI 押注」爆仓始末与 AI 时代财富大洗牌》]] — 作为被讨论公司
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|《红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态》]] — 作为被讨论公司
+- [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|《巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧》]] — 作为被讨论公司
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[OpenAI]] · [[Anthropic]] · [[Lenny]] · [[Google]] · [[Meta]] · [[Microsoft]] · [[AGI]] · [[智能体]] · [[NVIDIA]] · [[Amazon]]
+[[OpenAI]] · [[Anthropic]] · [[Google]] · [[Microsoft]] · [[Lenny]] · [[Meta]] · [[NVIDIA]] · [[AGI]] · [[Amazon]] · [[智能体]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":29,"Anthropic":34,"Lenny":33,"Google":13,"Meta":12,"Microsoft":7,"AGI":7,"智能体":60,"NVIDIA":12,"Amazon":4}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":30,"Anthropic":35,"Google":14,"Microsoft":8,"Lenny":33,"Meta":12,"NVIDIA":13,"AGI":8,"Amazon":5,"智能体":60}</script>
 
 <script>
 (function(){

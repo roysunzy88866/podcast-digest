@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>AI 助手 (AI assistant)</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="AI 助手">AI</div><div class="pi"><h1 class="pt">AI 助手 (AI assistant)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>71</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="AI 助手">AI</div><div class="pi"><h1 class="pt">AI 助手 (AI assistant)</h1><div class="byl">概念</div><div class="nums">本站收录 <b>1</b> 集 · <b>72</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -15,7 +15,7 @@ unlisted: true
 
 ## ① 提到它的金句
 
-*71 条,均已过机器闸门*
+*72 条,均已过机器闸门*
 
 ![[2025-11-16-lennys-the-godmother-of-ai#^q1]]
 
@@ -159,6 +159,8 @@ unlisted: true
 
 ![[2026-08-06-aia16z-inside-vllm-the-engine-powering-open-sou#^q8]]
 
+![[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem#^q2]]
+
 ## ② 出现在这些集
 
 *1 集*
@@ -171,7 +173,7 @@ unlisted: true
 
 [[Whitney Wolfe Herd]] · [[Bumble]] · [[滑动]] · [[AI]] · [[推荐引擎]] · [[付费用户]] · [[创始人模式]] · [[Apple]] · [[真实性]] · [[交互模型]]
 
-<script type="application/json" class="pd-epn">{"Whitney Wolfe Herd":1,"Bumble":1,"滑动":1,"AI":2,"推荐引擎":1,"付费用户":1,"创始人模式":1,"Apple":6,"真实性":1,"交互模型":1}</script>
+<script type="application/json" class="pd-epn">{"Whitney Wolfe Herd":1,"Bumble":1,"滑动":1,"AI":2,"推荐引擎":1,"付费用户":1,"创始人模式":1,"Apple":7,"真实性":1,"交互模型":1}</script>
 
 <script>
 (function(){

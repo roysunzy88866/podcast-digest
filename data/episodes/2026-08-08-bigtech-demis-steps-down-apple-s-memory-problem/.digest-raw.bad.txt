@@ -1,0 +1,93 @@
+```json
+{
+  "title_zh": "苹果为 AI 买单,微软玩转会计,谷歌内斗掉队",
+  "tldr": "AI 算力狂飙,苹果内存成本暴增被迫涨价推订阅,微软靠改折旧期做账充克制,谷歌因押注世界模型在 LLM 竞赛中掉队。",
+  "digest_md": "当所有大厂都在疯狂砸钱建 AI 数据中心的时候,根本没怎么搞 AI 基础设施建设的苹果,反而成了这场军备竞赛里最受伤的人——因为全行业都在抢的内存芯片,恰恰是苹果所有硬件设备的命脉。在这一集 Big Technology Podcast 的周五版里,主持人 Alex 请来了科技新闻简报 Spyglass 的作者 MG Siegler,两人一起拆解了当下 AI 狂潮里三件最反直觉的事:苹果怎么被 AI 拖累了利润、微软怎么靠改改账本就被华尔街夸「克制」、以及谷歌内部科学家和商业派的路线分歧,是怎么让它在智能体大战里掉队的。最后,主持人还在开头独家解读了 Google DeepMind 掌门人 Demis Hassabis 离职的内幕。 [00:00 Alex]\n\n先说节目刚开录时就爆出的大新闻:Demis Hassabis 辞去了 Google DeepMind 首席执行官的职务,转任董事长兼首席科学家。主持人指出,Demis 一直认为,仅仅靠现有的 LLM(大语言模型,即像 ChatGPT、Claude 这种基于海量文本训练出来、能理解和生成语言的模型)是不足以实现真正人类级别智能的。Demis 的心思其实在 AlphaFold(一个能精准预测蛋白质三维结构的 AI 模型)这种探索物理世界规律的「世界模型」上,而这与全行业狂奔猛砸 LLM 赚快钱的路线产生了根本分歧 [01:33 Alex]。《金融时报》的报道也印证了这一点:虽然高层认可 Demis 的科学领导力,但对他不够关注 AI 业务商业需求感到极其沮丧 [02:35 Alex]。主持人甚至大胆断言:把 Demis 从 LLM 商业化的高压中解放出来,让他专心去搞科研,对整个 AI 行业其实是一件大好事,因为绝不能把万亿美元全押在单一技术上,万一没搞成,整个行业就会遭遇倒退的「AI 寒冬」 [03:48 Alex]。但 Google 在最激烈的编码智能体(指能自动编写、修改代码的 AI 助手)竞赛中毫无声响,在这个节骨眼上换帅,对 Google 来说无疑是雪上加霜 [05:00 Alex]。\n\n说完了 Google 的人事震荡,接下来看看这场 AI 烧钱大战是如何反噬苹果的。苹果本来因为不怎么花钱建 AI 算力,刚被华尔街捧成了市值破 5 万亿美元的优等生 [10:53 MG Siegler]。但问题恰恰出在它没建算力却依然离不开内存上。大厂们抢购内存芯片建数据中心,直接把全球供应链买断了货,连 Tim Cook 都把短缺称为「非常显著」的危机 [09:52 Alex]。讽刺的是,苹果甚至还没有真正属于自己的 AI 基础设施布局,却要承受基础元器件价格暴涨的苦果 [10:31 Alex]。更致命的是,这会直接打击苹果的命根子——iPhone。MG 猜测,iPhone 18 涨价已经是板上钉钉的事,全线设备至少要涨价 100 到 200 美元,某些型号甚至可能涨 300 美元 [19:16 MG Siegler]。为了缓解一次性掏出两千美元买手机给消费者带来的痛感,苹果悄悄推出了一项叫 Apple Upgrade 的订阅服务(按月付月费使用设备) [29:36 MG Siegler]。MG 认为这是绝妙的营销策略,它就像苹果版的 Amazon Prime,不仅能在视觉上掩盖涨价,还能让用户被更深地锁死在苹果生态里 [33:04 MG Siegler]。\n\n苹果被成本逼着涨价,而拥有庞大 AI 基础设施的微软呢?则在玩弄账本游戏。上周微软因为「不增加资本开支」被华尔街狠狠夸了一通。但 MG 揭露了其中的障眼法:微软并没有少花钱,而是把数据中心资产的折旧期从 15 年拉长到了 25 年 [38:03 Alex]。在会计规则下,这能把一大笔原本要计入资本开支(买资产的前期大手笔投入)的钱,挪到了运营开支(日常持续消耗的费用)里 [38:21 Alex]。微软非常乐意享受这种视觉上的优势,好让自己看起来比正在疯狂加码的 Google 和 Meta 更加克制 [39:37 MG Siegler]。但 Alex 精准地指出了这个把戏的硬伤:折旧期 25 年简直是天方夜谭,占数据中心建设成本一半的 NVIDIA 芯片(如 H100)根本撑不了那么久,顶多用个三到十年就得淘汰 [41:16 Alex]。MG 也承认,服务器寿命确实是个充满争议的灰色地带,连电影《大空头》的原型 Michael Burry 都因为这种做账手法在大量做空这些公司 [42:25 MG Siegler]。\n\n微软靠做账粉饰太平,那各大云厂商狂飙的增长率又是怎么回事?最近云增长的数据非常疯狂:Google 增长 82%,AWS 增长 30% 多,Azure 增长 43% [43:54 Alex]。Alex 提出了一个扎心的冷思考:这些天量增长里,到底有多少是真实的客户需求?很大一部分恐怕只是 OpenAI 和 Anthropic 拿着融来的数千亿美元,转手又回投到了这些云厂商的口袋里 [44:16 Alex]。比如 Amazon 据报道要往 OpenAI 投 500 亿美元,它云业务的暴涨自然有这笔「循环资金」的功劳 [44:16 Alex]。一旦这两家 AI 巨头的资金链出现放缓,整个云市场的连环崩盘效应难以想象。这可能正是微软 CEO Satya Nadella 最近在博客和媒体上频频喊话,强调微软需要像中立国「瑞士」一样,不能过度依赖那两家巨头的原因所在 [47:06 Alex]。\n\n既然微软都在想方设法减少对 LLM 巨头的依赖,谷歌又为何在 AI 竞赛中显得如此步履蹒跚?这正是最后一个核心议题。Sundar Pichai 之前在大会上承诺的 3.5 Pro 旗舰模型,本该六月发布,结果到了八月依然遥遥无期 [51:08 MG Siegler]。谷歌内部充满了派系斗争,不同团队在抢夺资源,甚至在智能体编码这种具体方向上内耗不断 [52:04 MG Siegler]。一篇来自 Substack(一个 newsletter 发布平台)作者 The Algorithmic Bridge 的文章给出了一针见血的解释:谷歌正在战略性地「放弃」在 LLM 上的死磕,转而去押注世界模型 [53:13 Alex]。因为像 OpenAI 这样的创业公司被利润逼迫,必须一条道走到黑;而谷歌作为不差钱的巨头,自认为有底气去探索通向 AGI 的其他路径 [53:38 Alex]。正如 Demis 在台上只愿吹捧世界模型而对其他业务避而不谈那样,谷歌宁愿在当下的 LLM 竞赛中退居二线,也要集中火力去拼那几个所谓的「下一个突破」 [55:31 MG Siegler]。\n\n最后收个尾,这一集值得带走的是三个截然不同的视角。第一,没搞 AI 基础设施建设,不代表能逃过 AI 的成本反噬,苹果因为全行业的抢购狂潮遭遇了内存断供,只能靠涨价和推出硬件订阅制来硬扛,硬生生把设备变成了「按月付费服务」。第二,华尔街看懂了云的高增长,却没看穿微软的折旧期障眼法和云市场的资金循环游戏,把 25 年的折旧周期和 AI 公司左手倒右手的回投当成了真实的繁荣。第三,谷歌在智能体上的掉队,可能不是因为能力不行,而是因为 Demis 带领的团队刻意把资源从赚钱的 LLM 上抽走,转去押注更远的世界模型了,而他的离职正是这场商业与科学路线之争的最高潮。",
+  "quotes": [
+    {
+      "en": "This is a misalignment of incentives within Google, a misalignment of interest within Google that a couple of days later seems to have manifested with Demis' departure.",
+      "zh": "这是 Google 内部激励机制的错位,是 Google 内部利益的错位,几天后这似乎通过 Demis 的离开而显现出来了。",
+      "timestamp": "00:46",
+      "speaker": "Alex"
+    },
+    {
+      "en": "if you go all in on one mode of the technology and it doesn't manifest results, you could end up having an AI winter, a drawdown.",
+      "zh": "如果你孤注一掷于一种技术模式但它没有显现结果,你最终可能会遭遇 AI 寒冬,一种衰退。",
+      "timestamp": "03:56",
+      "speaker": "Alex"
+    },
+    {
+      "en": "it's almost like, imagine if Apple had sort of done at least some of the CapEx build out that, again, their peer group was.",
+      "zh": "这就像,想象一下如果苹果至少做了同行所做的那些资本支出建设中的一些。",
+      "timestamp": "12:06",
+      "speaker": "MG Siegler"
+    },
+    {
+      "en": "How did Tim Cook specifically and Apple overall not anticipate this more?",
+      "zh": "蒂姆·库克具体和苹果总体上是如何没有更多地预料到这一点的?",
+      "timestamp": "15:16",
+      "speaker": "MG Siegler"
+    },
+    {
+      "en": "If you're Apple, isn't it kind of in your best interest to talk up these memory parts, these memory shortages because it gives you the option to raise prices",
+      "zh": "如果你是苹果,谈论这些内存部件、这些内存短缺难道不是最符合你的利益吗,因为它给你提价的选择",
+      "timestamp": "15:51",
+      "speaker": "Alex"
+    },
+    {
+      "en": "And so I think that that's pretty compelling, both from a business side and from, you know, potentially a consumer side.",
+      "zh": "所以我认为这非常具有吸引力,无论是从商业角度还是从潜在的消费者角度来看。",
+      "timestamp": "33:18",
+      "speaker": "MG Siegler"
+    },
+    {
+      "en": "I don't think that Microsoft is doing this to deceive the market. I do think, though, that they are happy to benefit from the optic advantage of this.",
+      "zh": "我不认为微软这样做是为了欺骗市场。不过我确实认为,他们很高兴从这种视觉优势中获益。",
+      "timestamp": "37:17",
+      "speaker": "MG Siegler"
+    },
+    {
+      "en": "But this idea that you're not going to replace those chips for 25 years, it just doesn't hold up to any scrutiny at all.",
+      "zh": "但是这个想法,即你不会在 25 年内更换那些芯片,这根本经不起任何审查。",
+      "timestamp": "41:33",
+      "speaker": "Alex"
+    },
+    {
+      "en": "And Michael Burry, famously from Big Short, has sort of talked about this as a reason why he's shorting a lot of these companies because he believes that they're sort of doing funny math on a lot of these schedules.",
+      "zh": "著名于《大空头》的 Michael Burry 已经谈论过这一点,作为他做空很多这些公司的原因,因为他相信他们在这个过程中在很多时间表上做了有趣的数学计算。",
+      "timestamp": "42:25",
+      "speaker": "MG Siegler"
+    },
+    {
+      "en": "so if that VC money were to fall away and some of it by the way is coming from these companies themselves like you wouldn't see the growth",
+      "zh": "所以如果那部分 VC 资金消失,顺便说一句其中一些是来自这些公司自己,比如你就不会看到那种增长",
+      "timestamp": "44:16",
+      "speaker": "Alex"
+    },
+    {
+      "en": "And yet Satya Nadella, like in the press and in his blog posts and stuff, just keeps talking about, you know, the need to be Switzerland and diversify away from just those two big behemoths,",
+      "zh": "然而 Satya Nadella,就像在新闻中和他的博客文章里,一直都在谈论,你知道,需要成为瑞士并远离那两家巨大的巨头,",
+      "timestamp": "47:21",
+      "speaker": "MG Siegler"
+    },
+    {
+      "en": "It sort of feels a little bit like the Llama situation for Meta back in the day,",
+      "zh": "这感觉有点像当年 Meta 的 Llama 情况,",
+      "timestamp": "51:19",
+      "speaker": "MG Siegler"
+    },
+    {
+      "en": "Google is such a big company and there's so many smart people. But the downside of that is that they have fiefdoms within the company and they have smart people who disagree with one another about how they want to do something like, say, agentic coding.",
+      "zh": "谷歌是一家如此庞大的公司,有这么多聪明人。但这样做的缺点是公司内部有派系,而且有聪明人对如何做某些事情意见不一,比如,比如说,智能体编码。",
+      "timestamp": "51:52",
+      "speaker": "MG Siegler"
+    },
+    {
+      "en": "So basically the point is that Google is less profit sensitive. It doesn't have the urgency.",
+      "zh": "所以基本上重点是谷歌对利润不那么敏感。它没有那种紧迫感。",
+      "timestamp": "53:52",
+      "speaker": "Alex"
+    }
+  ]
+}
+```

@@ -31,7 +31,7 @@ unlisted: true
 
 [[OpenAI]] · [[Hugging Face]] · [[智能体]] · [[护栏]] · [[NVIDIA]] · [[Elena Berger]] · [[Anthropic]] · [[Simon Mo]] · [[蒸馏]] · [[Matt Bornstein]]
 
-<script type="application/json" class="pd-epn">{"OpenAI":29,"Hugging Face":7,"智能体":60,"护栏":11,"NVIDIA":12,"Elena Berger":2,"Anthropic":34,"Simon Mo":2,"蒸馏":5,"Matt Bornstein":2}</script>
+<script type="application/json" class="pd-epn">{"OpenAI":30,"Hugging Face":7,"智能体":60,"护栏":11,"NVIDIA":13,"Elena Berger":2,"Anthropic":35,"Simon Mo":2,"蒸馏":5,"Matt Bornstein":2}</script>
 
 <script>
 (function(){

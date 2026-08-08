@@ -27,7 +27,7 @@ unlisted: true
 
 [[人工智能]] · [[NVIDIA]] · [[深度学习]] · [[Lenny]] · [[Condi Rice]] · [[Dr. Fei-Fei Li]] · [[Jensen Huang]] · [[World Labs]] · [[Parallel]] · [[Marble]]
 
-<script type="application/json" class="pd-epn">{"人工智能":2,"NVIDIA":12,"深度学习":3,"Lenny":33,"Condi Rice":1,"Dr. Fei-Fei Li":1,"Jensen Huang":3,"World Labs":2,"Parallel":2,"Marble":2}</script>
+<script type="application/json" class="pd-epn">{"人工智能":2,"NVIDIA":13,"深度学习":3,"Lenny":33,"Condi Rice":1,"Dr. Fei-Fei Li":1,"Jensen Huang":3,"World Labs":2,"Parallel":2,"Marble":2}</script>
 
 <script>
 (function(){

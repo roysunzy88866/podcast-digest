@@ -101,8 +101,8 @@ tags:
 **顺着「创业与行业」挖下去**
 
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]] —— 同嘉宾:Alex · 同公司:Anthropic、Google、OpenAI、SpaceX · 同概念:AGI、资本支出 (Capex)
+- [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]] —— 同公司:Anthropic、Google、OpenAI · 同概念:资本支出 (Capex)、AGI
 - [[2026-07-29-trainingdata-building-the-automated-agi-lab-core-auto|Transformer 已见顶?OpenAI 与 Google 双雄离职造新架构]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
-- [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]] —— 同公司:Anthropic、Google、OpenAI · 同概念:AGI
 
 </div>
 <div class="pd-ex">

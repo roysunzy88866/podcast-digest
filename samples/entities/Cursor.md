@@ -45,7 +45,7 @@ unlisted: true
 
 [[智能体]] · [[Meta]] · [[Lenny]] · [[护栏]] · [[Claude Code]] · [[Anthropic]] · [[Codex]] · [[Lovable]] · [[OpenAI]] · [[Figma]]
 
-<script type="application/json" class="pd-epn">{"智能体":60,"Meta":12,"Lenny":33,"护栏":11,"Claude Code":16,"Anthropic":34,"Codex":12,"Lovable":3,"OpenAI":29,"Figma":6}</script>
+<script type="application/json" class="pd-epn">{"智能体":60,"Meta":12,"Lenny":33,"护栏":11,"Claude Code":16,"Anthropic":35,"Codex":12,"Lovable":3,"OpenAI":30,"Figma":6}</script>
 
 <script>
 (function(){

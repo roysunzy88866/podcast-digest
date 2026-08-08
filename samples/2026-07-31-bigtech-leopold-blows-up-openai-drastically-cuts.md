@@ -83,8 +83,8 @@ tags:
 **顺着「创业与行业」挖下去**
 
 - [[2026-08-05-bigtech-how-the-ai-bet-pays-off-ai-lab-strategy|红杉合伙人 David Cahn：AI 需赚回 4 万亿，这场棋局没有中间态]] —— 同公司:Apple、Meta、Microsoft、NVIDIA、OpenAI、Amazon、Anthropic、Google
+- [[2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem|巨头财报季:AI 军备竞赛下的供应链、会计戏法与路线分歧]] —— 同公司:Apple、Microsoft、OpenAI、Amazon、Anthropic、Google、NVIDIA
 - [[2026-05-31-lennys-a-rational-conversation-on-where|AI 会改变一切，但也「只和互联网一样大」]] —— 同公司:Meta、OpenAI、Anthropic、Apple、Google、Microsoft
-- [[2026-07-23-talks-jensen-huang-says-the-ai-doomers-have-it|黄仁勋：AI毁灭论是胡说八道，自由贸易让美国必赢]] —— 同公司:NVIDIA、OpenAI、Anthropic、Microsoft · 同概念:数据中心 (data centers)
 
 </div>
 <div class="pd-ex">

@@ -1,0 +1,1953 @@
+{
+  "episode_id": "2026-08-08-bigtech-demis-steps-down-apple-s-memory-problem",
+  "podcast": "Big Technology Podcast",
+  "date": "2026-08-08",
+  "tags": [
+    "AI 基础设施",
+    "科技巨头财报",
+    "云收入循环",
+    "世界模型",
+    "硬件涨价与订阅制"
+  ],
+  "categories": [
+    "创业与行业",
+    "智能体"
+  ],
+  "entities": [
+    {
+      "id": "apple",
+      "type": "company",
+      "role": "company",
+      "name": "Apple",
+      "file": "Apple",
+      "primary": true,
+      "how_described": "本集讨论 Apple 因 AI 基建热潮引发内存短缺而受到严重反噬，被迫酝酿全线硬件涨价（特别是 iPhone 18 预计上涨 100-200 美元），并推出与 Klarna 合作的按月付费订阅模式（Apple Upgrade）来掩盖涨价、锁定用户生态。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 69,
+          "t": [
+            400.864,
+            411.111
+          ],
+          "quote": "My conversation with MG talking all about Apple, and we get into a deeper discussion of the LLM versus world model difference of opinion at Google at the end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 75,
+          "t": [
+            434.207,
+            437.89
+          ],
+          "quote": "Rising memory costs plague Apple and threaten to cut into the company's margins.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 97,
+          "t": [
+            507.99,
+            516.878
+          ],
+          "quote": "We have a great show for you today covering Apple's memory struggles and whether the company will be able to sell as many devices if its prices go up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 111,
+          "t": [
+            565.928,
+            567.75
+          ],
+          "quote": "First story this week, we're going to talk about Apple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 113,
+          "t": [
+            570.071,
+            573.713
+          ],
+          "quote": "Apple set to lose nearly $500 billion in value after a weak forecast.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 115,
+          "t": [
+            577.135,
+            581.276
+          ],
+          "quote": "I think it just goes to show that Apple is going to struggle as these memory costs go up.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 117,
+          "t": [
+            582.937,
+            592.159
+          ],
+          "quote": "Apple shares fell after a disappointing forecast showed that the iPhone maker was struggling to secure enough components as the AI-driven data center boom strains global supply chains.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 118,
+          "t": [
+            592.56,
+            600.582
+          ],
+          "quote": "Tim Cook, widely hailed as a supply chain genius, called the shortages very significant and said Apple had limited options to address them.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 121,
+          "t": [
+            617.692,
+            631.576
+          ],
+          "quote": "I mean, it seems like every company is dealing with increased costs as they go to build out their AI infrastructure, but Apple doesn't really have an AI infrastructure play, yet it is getting hit by the increases in memory.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 122,
+          "t": [
+            631.616,
+            641.819
+          ],
+          "quote": "We've already seen the increases with MacBooks and the bigger devices, but of course, that could come for the phone, and so Apple gave weaker guidance, 9% to 11%",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 124,
+          "t": [
+            647.843,
+            652.827
+          ],
+          "quote": "You know, Apple's had a great year, but I wonder if people are underrating how big of a problem this is going to be for the company.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 125,
+          "t": [
+            653.728,
+            660.513
+          ],
+          "quote": "Yeah, it feels a little bit like just when I thought I was out, they pulled me back in because Apple, you know, had just hit the $5 trillion mark.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 130,
+          "t": [
+            675.983,
+            687.25
+          ],
+          "quote": "And again, it feels like Apple sort of zoomed back up for a lot of the stuff that we've been talking about over the past many months, you know, that they could be positioned well given their lack of capex spend relative to their peer group.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 141,
+          "t": [
+            726.608,
+            733.77
+          ],
+          "quote": "It's almost like, imagine if Apple had sort of done at least some of the CapEx build out that, again, their peer group was.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 148,
+          "t": [
+            751.137,
+            755.142
+          ],
+          "quote": "And even when Apple thought like, oh, wow, maybe we did do the right thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 149,
+          "t": [
+            755.182,
+            759.067
+          ],
+          "quote": "And maybe Wall Street thought like Apple did do the right thing and not doing these massive capex spends.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 152,
+          "t": [
+            766.803,
+            771.106
+          ],
+          "quote": "Yeah, I mean, I think this goes to Apple's mentality around AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 156,
+          "t": [
+            787.578,
+            788.699
+          ],
+          "quote": "And Apple didn't have that.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 158,
+          "t": [
+            792.962,
+            799.948
+          ],
+          "quote": "Apple continuing to sort of fail to anticipate what's going to happen with AI and now paying the price for it.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 165,
+          "t": [
+            822.321,
+            827.504
+          ],
+          "quote": "He was COO of Apple before he became CEO under Steve Jobs, obviously.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 180,
+          "t": [
+            903.867,
+            912.892
+          ],
+          "quote": "And in the face of that, also just noting like that Apple is still going down relative like they're down year on year in capex spend relative to their peer group.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 182,
+          "t": [
+            916.634,
+            920.676
+          ],
+          "quote": "How did Tim Cook specifically and Apple overall not anticipate this more?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 187,
+          "t": [
+            951.674,
+            964.717
+          ],
+          "quote": "If you're Apple, isn't it kind of in your best interest to talk up these memory parts, these memory shortages because it gives you the option to raise prices and we knew they raised prices quite significantly on MacBook.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 193,
+          "t": [
+            997.308,
+            1005.273
+          ],
+          "quote": "Actually became like a much better deal over time because Apple didn't famously raise prices for so long in lockstep, certainly in our era of inflation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 204,
+          "t": [
+            1087.134,
+            1093.019
+          ],
+          "quote": "You think that at least the way that Apple is portraying it, that they're in a bad enough position that, yeah, it's going to ding the margins.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 208,
+          "t": [
+            1103.207,
+            1108.951
+          ],
+          "quote": "So it's like pretty wild where it's at, given that Apple sells hardware and software, not just software.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 216,
+          "t": [
+            1139.103,
+            1142.885
+          ],
+          "quote": "I mean, this is obviously all calculations that they're doing inside Apple.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 243,
+          "t": [
+            1325.699,
+            1329.161
+          ],
+          "quote": "Yeah, you make a great point here that the iPhone is just vital to Apple's business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 245,
+          "t": [
+            1334.664,
+            1341.969
+          ],
+          "quote": "The more people that own the phones, the more that Apple can make in services revenue and that revenue is becoming just much more important.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 252,
+          "t": [
+            1419.756,
+            1428.062
+          ],
+          "quote": "Cases going into place that could upend that and all these various things that are on hold right now with what happened with the Apple versus Epic trial.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 253,
+          "t": [
+            1428.442,
+            1434.526
+          ],
+          "quote": "And so Apple seems like they're hinting that there could actually be a real change to the App Store model.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 267,
+          "t": [
+            1489.833,
+            1500.842
+          ],
+          "quote": "But still, it was surprising that it's not growing as fast, especially because all you hear about and all you see them touting now is Apple TV and all, you know, the big Hollywood stuff and F1 partnership and...",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 272,
+          "t": [
+            1531.009,
+            1535.533
+          ],
+          "quote": "And I think that Apple has really worked hard to make sure that no one pushes them around.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 280,
+          "t": [
+            1578.907,
+            1581.588
+          ],
+          "quote": "But I overall, I mostly side with Apple on that stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 284,
+          "t": [
+            1590.83,
+            1597.894
+          ],
+          "quote": "And I see some sides of it on arguments on both sides, but I do tend to side with Apple on that stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 293,
+          "t": [
+            1647.482,
+            1664.529
+          ],
+          "quote": "Okay, you know, conspiracy, whether my conspiracy plays out or not, we're going to probably see this come to a head pretty soon because in the earnings report last week, Cook did say that Apple did have a stockpile of memory and they've been drawing it down and the buffer seems to be dwindling.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 295,
+          "t": [
+            1665.73,
+            1668.751
+          ],
+          "quote": "So get ready to pay more for Apple devices, bottom line.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 296,
+          "t": [
+            1670.571,
+            1681.655
+          ],
+          "quote": "I think one interesting thing that has been talked about a bit, but obviously, Cook has been lobbying hard to try to get Apple to be able to use memory chip suppliers in China.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 299,
+          "t": [
+            1690.797,
+            1711.682
+          ],
+          "quote": "But if Apple can actually get an unlock there from it would have to be from, you know, Trump, presumably, to be able to at least use memory chips for iPhones built in China to use those Chinese memory chips, that would be a massive unlock because all of a sudden, they could just push all the rest of them to the rest of the world, and most notably, of course, the US and they don't have to worry about that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1736.165,
+            1740.811
+          ],
+          "quote": "But before we move off of Apple, let's talk about Apple as a service, which you wrote about.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 312,
+          "t": [
+            1750.588,
+            1763.485
+          ],
+          "quote": "This, I think, is strategically very smart of Apple, and I feel like this is sort of the perfect strategy to launch with these iPhone price increases potentially coming down the pike.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1763.845,
+            1775.968
+          ],
+          "quote": "Because again, I laid out, I thought like Cook gave the quote to Wall Street Journal, raised the prices of other Apple devices, and then the third leg was going to be eventually raising the price of the iPhone itself, obviously the most important thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 314,
+          "t": [
+            1776.328,
+            1789.051
+          ],
+          "quote": "But there was a one more thing happened before the iPhone price, which is that, as you're noting, basically they have this new service called Apple Upgrade, which is effectively a way for you to pay a monthly fee for an iPhone.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 315,
+          "t": [
+            1789.071,
+            1801.98
+          ],
+          "quote": "Now, they've had this somewhat before with the iPhone upgrade program, which I've used in the past and is OK, but wasn't great because it uses a third party banking partner rather than Apple itself sort of to be able to pay for these things.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 321,
+          "t": [
+            1808.404,
+            1810.726
+          ],
+          "quote": "It's for Apple Watch and maybe other things down the road.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 327,
+          "t": [
+            1861.02,
+            1863.662
+          ],
+          "quote": "You know, if you're interested in using our Apple upgrade program.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 341,
+          "t": [
+            1947.153,
+            1960.446
+          ],
+          "quote": "And I do think it, like, obviously, it points to, and this is sort of the point of the piece that I wrote, like, I've been long sort of looking for Apple's equivalent of Amazon Prime, you know, basically, the all-encompassing subscription service.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1961.988,
+            1966.212
+          ],
+          "quote": "Apple doesn't do deliveries, but still, like, you know, they have Apple One, which is the",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 345,
+          "t": [
+            1984.918,
+            1992.564
+          ],
+          "quote": "You know, from Apple's perspective, that's basically someone who's even more locked into the ecosystem than they have been by blue bubbles or whatnot, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 346,
+          "t": [
+            1992.805,
+            1998.489
+          ],
+          "quote": "Like you have to continually pay Apple in order to keep your device and keep up to date and everything.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 480,
+          "t": [
+            2769.236,
+            2772.038
+          ],
+          "quote": "And Apple, of course, would be sitting most pretty of all.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "type": "company",
+      "role": "company",
+      "name": "Microsoft",
+      "file": "Microsoft",
+      "primary": true,
+      "how_described": "本集揭露 Microsoft 被华尔街称赞在 AI 资本开支上克制，实则是将部分数据中心资产的折旧年限从 15 年拉长到 25 年，把支出从资本支出挪进运营支出，玩弄会计障眼法做低了 CapEx 数字。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 76,
+          "t": [
+            438.11,
+            441.953
+          ],
+          "quote": "Is Microsoft really spending less on AI and what's going on with Google?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 98,
+          "t": [
+            517.218,
+            524.624
+          ],
+          "quote": "We're also going to talk about some creative accounting that Microsoft is doing to make it look like it's spending less on the AI build out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 107,
+          "t": [
+            555.522,
+            562.787
+          ],
+          "quote": "Yeah, you have some great stuff on Microsoft, which was praised by Wall Street really for being more restrained in its spending.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 289,
+          "t": [
+            1630.026,
+            1639.648
+          ],
+          "quote": "And, you know, again, we've likened it in the past to Satya Nadella coming in in those early days in Microsoft and releasing the iPad version of Office and that sending a signal more than anything else, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 348,
+          "t": [
+            2005.955,
+            2014.342
+          ],
+          "quote": "Okay, I want to take a break and then come back and talk about this clever accounting trick that Microsoft is using to make it look like it's spending less on the AI build out.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 392,
+          "t": [
+            2211.035,
+            2212.797
+          ],
+          "quote": "MG, let's talk a little bit about Microsoft.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2215.8,
+            2223.467
+          ],
+          "quote": "Wall Street really praised Microsoft for not raising its CapEx at a time when it seemed like everybody was raising the CapEx.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 396,
+          "t": [
+            2225.489,
+            2232.436
+          ],
+          "quote": "And it seems like Microsoft's restraint is actually just a creative shuffling of the numbers.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 399,
+          "t": [
+            2237.613,
+            2242.036
+          ],
+          "quote": "I don't think that Microsoft is doing this to deceive the market.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 408,
+          "t": [
+            2335.807,
+            2338.408
+          ],
+          "quote": "It's like, whoa, did Microsoft, are they pausing?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 410,
+          "t": [
+            2348.25,
+            2350.151
+          ],
+          "quote": "And so was Microsoft taking a pause again?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 420,
+          "t": [
+            2391.006,
+            2400.41
+          ],
+          "quote": "And it was even more confusing because when you looked into it more, as it turns out, actually, to their credit, Microsoft was actually super conservative in this regard and the other rest of their peer group.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 423,
+          "t": [
+            2408.832,
+            2414.493
+          ],
+          "quote": "Now, I do think Microsoft and probably Amy Hood, you know, their CFO, smartly had this timed well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 448,
+          "t": [
+            2559.128,
+            2564.312
+          ],
+          "quote": "For Microsoft's thing, I do think that they can get away with, again, this is what the peer groups have long done",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2702.101,
+            2707.063
+          ],
+          "quote": "Microsoft, as we just talked about, had an all-time surge, and Amazon had a massive surge, too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 477,
+          "t": [
+            2754.258,
+            2755.719
+          ],
+          "quote": "Certainly, it impacts Microsoft.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 488,
+          "t": [
+            2826.421,
+            2834.627
+          ],
+          "quote": "That might be exactly why Satya Nadella is taking the stance that he is right now with Microsoft, where it seems almost like antagonistic about his big partners.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 496,
+          "t": [
+            2898.749,
+            2906.152
+          ],
+          "quote": "And so, yeah, positioning Microsoft to potentially take advantage of the short term, but really be in better position for the longer term.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 507,
+          "t": [
+            2973.842,
+            2985.753
+          ],
+          "quote": "And so they are now arguably more levered on these two companies than anyone else, including Microsoft.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "type": "company",
+      "role": "company",
+      "name": "Google",
+      "file": "Google",
+      "primary": true,
+      "how_described": "本集重点讨论 Google 在 AI 竞赛中掉队：旗舰模型 3.5 Pro 难产，内部派系为争夺资源严重内耗；同时因其作为垂直整合巨头对短期利润不敏感，而把重注押在理解物理现实的「世界模型」上，在编码智能体上销声匿迹。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 5,
+          "t": [
+            46.98,
+            55.965
+          ],
+          "quote": "This is a misalignment of incentives within Google, a misalignment of interest within Google that a couple of days later seems to have manifested with Demis' departure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 6,
+          "t": [
+            57.077,
+            63.159
+          ],
+          "quote": "A quick couple of minutes for me here talking a little bit about what it means, whether it's good for AI and where Google goes from here.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 8,
+          "t": [
+            68.24,
+            83.623
+          ],
+          "quote": "So first from the Wall Street Journal, Demis Hassabis is stepping down as chief executive of Google DeepMind to become chairman and chief scientist, Google CEO Sundar Pichai said in a post on X. Google DeepMind technology chief, Korai Kavukcolu, is taking on responsibility for all AI model development.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 9,
+          "t": [
+            83.703,
+            86.384
+          ],
+          "quote": "And Jeff Teen, Google's current chief scientist,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 24,
+          "t": [
+            168.134,
+            181.639
+          ],
+          "quote": "It says, while Hassabis is widely admired for his scientific leadership, several people familiar with Google's thinking said senior executives had become frustrated by what they saw as his lesser focus on the commercial demands of the company's AI business.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 27,
+          "t": [
+            200.03,
+            203.092
+          ],
+          "quote": "And you actually have seen this kind of manifest with Google where the breakthroughs",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            262.099,
+            278.231
+          ],
+          "quote": "So you'll have basically the talented OpenAI and Anthropic and potentially what's left of the AI organization at Google pushing the LLM methods forward and Demis going out and looking for the one or two breakthroughs that are needed to push AI to where he wants to go.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 47,
+          "t": [
+            288.232,
+            290.132
+          ],
+          "quote": "OK, lastly, where does this leave Google?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 50,
+          "t": [
+            300.276,
+            302.637
+          ],
+          "quote": "Google is clearly behind on the coding agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 53,
+          "t": [
+            311.527,
+            313.387
+          ],
+          "quote": "Google has not made noise on that front.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 55,
+          "t": [
+            322.609,
+            325.65
+          ],
+          "quote": "So you don't want this to happen if you're Google.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            359.575,
+            367.244
+          ],
+          "quote": "But there's a tremendous amount of talent that's left the top ranks of Google's AI efforts, including Noam Chazir, who's gone to OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 61,
+          "t": [
+            370.817,
+            375.698
+          ],
+          "quote": "is also going to make a new startup called Discovery Loop, which Google is going to be invested in.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 63,
+          "t": [
+            378.659,
+            383.14
+          ],
+          "quote": "So lots of tumult on the top ranks of Google's AI division.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 66,
+          "t": [
+            389.541,
+            397.283
+          ],
+          "quote": "And now the real question is whether Google can figure this out moving forward and whether this effectively high stakes shakeup pays off.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            400.864,
+            411.111
+          ],
+          "quote": "My conversation with MG talking all about Apple, and we get into a deeper discussion of the LLM versus world model difference of opinion at Google at the end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            411.271,
+            418.716
+          ],
+          "quote": "Although, of course, that was just basically hours before Demis decided to leave as Google DeepMind's CEO.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 76,
+          "t": [
+            438.11,
+            441.953
+          ],
+          "quote": "Is Microsoft really spending less on AI and what's going on with Google?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 88,
+          "t": [
+            477.124,
+            479.045
+          ],
+          "quote": "This episode is brought to you by Google Chrome.",
+          "speaker": "SPEAKER_05"
+        },
+        {
+          "seg": 99,
+          "t": [
+            524.945,
+            527.247
+          ],
+          "quote": "And of course, we're going to tackle what's going on with Google.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 127,
+          "t": [
+            664.576,
+            669.38
+          ],
+          "quote": "And they had actually jumped NVIDIA to become number one again and Google.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 131,
+          "t": [
+            687.31,
+            694.253
+          ],
+          "quote": "And sure enough, it seems like Wall Street started to reward that, especially given sort of the new Siri story with Google and whatnot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 349,
+          "t": [
+            2014.482,
+            2018.005
+          ],
+          "quote": "And then we will end with Google and what's going on with its AI efforts.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2377.28,
+            2382.202
+          ],
+          "quote": "Like Google is and, you know, and potentially like Amazon is and like Meta is right now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2564.852,
+            2567.933
+          ],
+          "quote": "Amazon and Google in some cases are far longer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 450,
+          "t": [
+            2567.953,
+            2569.533
+          ],
+          "quote": "I think Google has some that are 40 years.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 465,
+          "t": [
+            2634.637,
+            2641.422
+          ],
+          "quote": "82% from Google, 30 something percent from AWS, 43% from Azure.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2682.937,
+            2699.06
+          ],
+          "quote": "It's a good question and it feels like it's one that Wall Street isn't really answering right now or asking even right now because as you saw like with these numbers so Google dropped, Meta dropped and a lot of that is spend related and with Meta it's more nuanced it's related to you know that they don't have a cloud.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 478,
+          "t": [
+            2756.159,
+            2764.054
+          ],
+          "quote": "Google as well, but they have some of their own, obviously, depending on Gemini itself too, and TPUs and whatnot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 513,
+          "t": [
+            3009.3,
+            3011.503
+          ],
+          "quote": "Okay, before we go, let's talk about Google.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 514,
+          "t": [
+            3011.863,
+            3016.505
+          ],
+          "quote": "You know, a couple of months ago, MG, I think we were kind of early on this talking about, you know, did Google just fall behind?",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 521,
+          "t": [
+            3045.555,
+            3055.52
+          ],
+          "quote": "Yeah, I mean, so with the disclaimer, obviously, that I worked at Google for over a decade, but I've been gone for a couple of years now, so I don't have inside information, you know, current about this situation.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 531,
+          "t": [
+            3091.134,
+            3098.956
+          ],
+          "quote": "Now, I don't think that Google is going to full on reset and buy like a scale like company and boot out the old team and bring in this new team.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 534,
+          "t": [
+            3109.401,
+            3112.564
+          ],
+          "quote": "Google is such a big company and there's so many smart people.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 537,
+          "t": [
+            3127.803,
+            3143.648
+          ],
+          "quote": "And another team over here that wants to do it this way, probably a third team over here, like they butt heads and they're all competing for resources because not only does Google have to have internal resources, as we noted, they have their cloud and so they have to have the external resources for people to use too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 539,
+          "t": [
+            3149.89,
+            3160.393
+          ],
+          "quote": "You would have thought that this was reconciled, you know, when it felt like that DeepMind basically and Demis Hassabis took over sort of the group and they united DeepMind and Google Brain back in the day.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 550,
+          "t": [
+            3193.547,
+            3200.61
+          ],
+          "quote": "Yeah, there's a great piece in the algorithmic bridge, which is a sub stack that says, that talks about the actual reason Google fell out, quote unquote, of the AI race.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 551,
+          "t": [
+            3201.01,
+            3205.652
+          ],
+          "quote": "And basically the piece makes the argument that Google has effectively given up, although I think that might be too strong.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 552,
+          "t": [
+            3206.333,
+            3217.718
+          ],
+          "quote": "But it sets out like basically this dynamic where you have startups and then you have vertically integrated companies like Google, and then you have two different types of AI approaches like the LLM approach and the world model approach.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 556,
+          "t": [
+            3232.91,
+            3237.233
+          ],
+          "quote": "So basically the point is that Google is less profit sensitive.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 559,
+          "t": [
+            3246.62,
+            3257.669
+          ],
+          "quote": "And it seems like Google is just making this bet, like the world model type approach is going to be the way that's going to get it to what it wants to get to, like AGI level AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 567,
+          "t": [
+            3284.457,
+            3294.16
+          ],
+          "quote": "I think it's a good thought experiment to think through why is Google in this place right now, beyond potential for internal conflict.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 578,
+          "t": [
+            3366.455,
+            3383.67
+          ],
+          "quote": "It's not just that Google could be going down the world model path as they view that as the path potentially to get to AGI or the next phase of AI development, but it's also that if Anthropic and OpenAI are battling, they could be correct too in that they could",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "openai",
+      "type": "company",
+      "role": "company",
+      "name": "OpenAI",
+      "file": "OpenAI",
+      "primary": true,
+      "how_described": "本集将其描述为靠押注大型语言模型(LLM)来尽快盈利的 AI 双寡头之一；拿着融来的巨资回投到云巨头上，撑大了云收入的繁荣；Amazon 在 2026 年大举投入 500 亿美元全额结清了投资额度。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            262.099,
+            278.231
+          ],
+          "quote": "So you'll have basically the talented OpenAI and Anthropic and potentially what's left of the AI organization at Google pushing the LLM methods forward and Demis going out and looking for the one or two breakthroughs that are needed to push AI to where he wants to go.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            278.592,
+            283.075
+          ],
+          "quote": "And look, if one of them succeeds, whether it's the Anthropic OpenAI group or it's the Demis group,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 59,
+          "t": [
+            359.575,
+            367.244
+          ],
+          "quote": "But there's a tremendous amount of talent that's left the top ranks of Google's AI efforts, including Noam Chazir, who's gone to OpenAI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 409,
+          "t": [
+            2338.728,
+            2347.65
+          ],
+          "quote": "You know, in the past, it looked like they had been doing that before when they were sort of shifting and reallocating stuff as they were trying to unwind from their OpenAI partnership.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2642.202,
+            2655.232
+          ],
+          "quote": "There's a discussion that has been had that like, yes, these companies are seeing pretty significant growth from cloud, but most of that is just OpenAI and Anthropic, which have raised hundreds of billions of dollars",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2735.212,
+            2750.337
+          ],
+          "quote": "And you don't hear a lot about that right now, but I think it's an important and key question because, as you note, if anything were to happen to slow down Anthropic or OpenAI, that has a cascading effect that sort of happens across the industry.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2792.07,
+            2813.231
+          ],
+          "quote": "Yeah I mean I am surprised that there hasn't been a deeper discussion about this because obviously like it's not all the spending like you add up the growth in all these companies and it's not just entirely OpenAI and Anthropic but it is it's a sizable percent of it and the fact that we're not like talking about that in terms of like you know oh like Amazon going from 17 or 18 percent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2834.687,
+            2840.612
+          ],
+          "quote": "They still own 25% plus or whatever of OpenAI, and now they own a few percent of Anthropic too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2914.387,
+            2927.375
+          ],
+          "quote": "Like there was a report that everyone knew that Amazon had an option to put into up to 50 billion, but the reporting suggested that the option was basically tied to either OpenAI going public and or achieving AGI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2945.994,
+            2965.519
+          ],
+          "quote": "Either they know something that's going really great at OpenAI and there's some inklings that OpenAI is making a bit of a comeback with Codex against Anthropic and that some of the new models 5.6 and what's maybe coming with Atlas, I think they're calling it as the next model, are actually going to have a real breakthrough and potentially could vault them back to the top.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 508,
+          "t": [
+            2985.834,
+            2991.399
+          ],
+          "quote": "You know, when you combine those two states together, they just bought, again, they bought, what, 5% full on of OpenAI in 2026.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 578,
+          "t": [
+            3366.455,
+            3383.67
+          ],
+          "quote": "It's not just that Google could be going down the world model path as they view that as the path potentially to get to AGI or the next phase of AI development, but it's also that if Anthropic and OpenAI are battling, they could be correct too in that they could",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "anthropic",
+      "type": "company",
+      "role": "company",
+      "name": "Anthropic",
+      "file": "Anthropic",
+      "primary": true,
+      "how_described": "本集将其与 OpenAI 并列为必须靠押注大型语言模型(LLM)盈利的初创公司代表；同样拿着融来的巨资回投到云上，是云收入循环资金的主要来源之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            262.099,
+            278.231
+          ],
+          "quote": "So you'll have basically the talented OpenAI and Anthropic and potentially what's left of the AI organization at Google pushing the LLM methods forward and Demis going out and looking for the one or two breakthroughs that are needed to push AI to where he wants to go.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 44,
+          "t": [
+            278.592,
+            283.075
+          ],
+          "quote": "And look, if one of them succeeds, whether it's the Anthropic OpenAI group or it's the Demis group,",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2642.202,
+            2655.232
+          ],
+          "quote": "There's a discussion that has been had that like, yes, these companies are seeing pretty significant growth from cloud, but most of that is just OpenAI and Anthropic, which have raised hundreds of billions of dollars",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 474,
+          "t": [
+            2735.212,
+            2750.337
+          ],
+          "quote": "And you don't hear a lot about that right now, but I think it's an important and key question because, as you note, if anything were to happen to slow down Anthropic or OpenAI, that has a cascading effect that sort of happens across the industry.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2792.07,
+            2813.231
+          ],
+          "quote": "Yeah I mean I am surprised that there hasn't been a deeper discussion about this because obviously like it's not all the spending like you add up the growth in all these companies and it's not just entirely OpenAI and Anthropic but it is it's a sizable percent of it and the fact that we're not like talking about that in terms of like you know oh like Amazon going from 17 or 18 percent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 489,
+          "t": [
+            2834.687,
+            2840.612
+          ],
+          "quote": "They still own 25% plus or whatever of OpenAI, and now they own a few percent of Anthropic too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 504,
+          "t": [
+            2945.994,
+            2965.519
+          ],
+          "quote": "Either they know something that's going really great at OpenAI and there's some inklings that OpenAI is making a bit of a comeback with Codex against Anthropic and that some of the new models 5.6 and what's maybe coming with Atlas, I think they're calling it as the next model, are actually going to have a real breakthrough and potentially could vault them back to the top.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 578,
+          "t": [
+            3366.455,
+            3383.67
+          ],
+          "quote": "It's not just that Google could be going down the world model path as they view that as the path potentially to get to AGI or the next phase of AI development, but it's also that if Anthropic and OpenAI are battling, they could be correct too in that they could",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "amazon",
+      "type": "company",
+      "role": "company",
+      "name": "Amazon",
+      "file": "Amazon",
+      "primary": true,
+      "how_described": "本集提到 Amazon 刚在 2026 年大举投入 500 亿美元，全额结清了投资 OpenAI 的额度；同时云业务（AWS）迎来了惊人的同比增长，被认为掺杂了 AI 公司左右倒手的循环资金。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 341,
+          "t": [
+            1947.153,
+            1960.446
+          ],
+          "quote": "And I do think it, like, obviously, it points to, and this is sort of the point of the piece that I wrote, like, I've been long sort of looking for Apple's equivalent of Amazon Prime, you know, basically, the all-encompassing subscription service.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 416,
+          "t": [
+            2377.28,
+            2382.202
+          ],
+          "quote": "Like Google is and, you know, and potentially like Amazon is and like Meta is right now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 449,
+          "t": [
+            2564.852,
+            2567.933
+          ],
+          "quote": "Amazon and Google in some cases are far longer.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 451,
+          "t": [
+            2569.893,
+            2570.713
+          ],
+          "quote": "Amazon might too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 452,
+          "t": [
+            2571.233,
+            2573.193
+          ],
+          "quote": "But again, Amazon is different warehouses, right?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2656.152,
+            2682.265
+          ],
+          "quote": "just investing it back into cloud so if that VC money were to fall away and some of it by the way is coming from these companies themselves like you wouldn't see the growth like for instance amazon's gonna invest 50 billion dollars uh in open ai and so like are we shocked that they're having 36 growth in cloud how much of this is just kind of like growth that we're seeing on the back of ai investment and how much of it do you think is real",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 469,
+          "t": [
+            2702.101,
+            2707.063
+          ],
+          "quote": "Microsoft, as we just talked about, had an all-time surge, and Amazon had a massive surge, too.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 476,
+          "t": [
+            2752.298,
+            2754.178
+          ],
+          "quote": "Certainly, it impacts Amazon.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 484,
+          "t": [
+            2792.07,
+            2813.231
+          ],
+          "quote": "Yeah I mean I am surprised that there hasn't been a deeper discussion about this because obviously like it's not all the spending like you add up the growth in all these companies and it's not just entirely OpenAI and Anthropic but it is it's a sizable percent of it and the fact that we're not like talking about that in terms of like you know oh like Amazon going from 17 or 18 percent",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 497,
+          "t": [
+            2907.083,
+            2911.766
+          ],
+          "quote": "And one more thing to your exact point on the Amazon 50 billion thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2914.387,
+            2927.375
+          ],
+          "quote": "Like there was a report that everyone knew that Amazon had an option to put into up to 50 billion, but the reporting suggested that the option was basically tied to either OpenAI going public and or achieving AGI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 501,
+          "t": [
+            2932.18,
+            2941.411
+          ],
+          "quote": "And yet, Amazon apparently closed out that remaining $35 billion tranche, not such a small tranche, to close out.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "nvidia",
+      "type": "company",
+      "role": "company",
+      "name": "NVIDIA",
+      "file": "NVIDIA",
+      "primary": false,
+      "how_described": "本集提到充满 NVIDIA 芯片的数据中心根本经不起 25 年折旧的推敲，因为 GPU 可能三年就得淘汰，且芯片占数据中心建设成本的 50%。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 126,
+          "t": [
+            660.713,
+            664.276
+          ],
+          "quote": "They passed and they were second company ever to do that after NVIDIA.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 127,
+          "t": [
+            664.576,
+            669.38
+          ],
+          "quote": "And they had actually jumped NVIDIA to become number one again and Google.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 129,
+          "t": [
+            673.362,
+            675.683
+          ],
+          "quote": "You know, famously, NVIDIA was pretty far ahead for a while.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 462,
+          "t": [
+            2620.36,
+            2623.925
+          ],
+          "quote": "Because so much of it is NVIDIA cost, basically.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "google-deepmind",
+      "type": "company",
+      "role": "company",
+      "name": "Google DeepMind",
+      "file": "Google DeepMind",
+      "primary": true,
+      "how_described": "本集提到 Demis Hassabis 辞去了该部门首席执行官的位置，转任董事长兼首席科学家，引发 Google AI 部门高层动荡。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 8,
+          "t": [
+            68.24,
+            83.623
+          ],
+          "quote": "So first from the Wall Street Journal, Demis Hassabis is stepping down as chief executive of Google DeepMind to become chairman and chief scientist, Google CEO Sundar Pichai said in a post on X. Google DeepMind technology chief, Korai Kavukcolu, is taking on responsibility for all AI model development.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 70,
+          "t": [
+            411.271,
+            418.716
+          ],
+          "quote": "Although, of course, that was just basically hours before Demis decided to leave as Google DeepMind's CEO.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "discovery-loop",
+      "type": "company",
+      "role": "company",
+      "name": "Discovery Loop",
+      "file": "Discovery Loop",
+      "primary": false,
+      "how_described": "本集提到 Google 首席科学家 Jeff Dean 离职后创立的新 AI 初创公司，Google 将对其进行投资。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 61,
+          "t": [
+            370.817,
+            375.698
+          ],
+          "quote": "is also going to make a new startup called Discovery Loop, which Google is going to be invested in.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    },
+    {
+      "id": "klarna",
+      "type": "company",
+      "role": "company",
+      "name": "Klarna",
+      "file": "Klarna",
+      "primary": false,
+      "how_described": "本集提到它是 Apple 新推出的硬件按月付费订阅服务（Apple Upgrade）的合作伙伴，是一家欧洲公司。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 323,
+          "t": [
+            1812.247,
+            1822.336
+          ],
+          "quote": "But given that their partner here is Klarna, which is a European company, you would expect that probably this goes at least to Europe, if not worldwide, you know, eventually, sooner rather than later.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "llm",
+      "type": "concept",
+      "role": "concept",
+      "name": "LLM",
+      "file": "LLM",
+      "primary": true,
+      "how_described": "本集把 LLM 说成是 OpenAI 和 Anthropic 等初创公司为了尽快盈利而必须重金押注的路线，并指出 Demis 认为仅靠 LLM 不足以达成真正的通用人工智能。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            108.815,
+            116.561
+          ],
+          "quote": "Their perspective is that the current LLM technology is potentially unlikely, according to their opinion, a straight shot to AGI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 37,
+          "t": [
+            231.337,
+            235.36
+          ],
+          "quote": "There are trillions of dollars that are going into developing LLM technology right now.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            257.655,
+            262.059
+          ],
+          "quote": "More on the scientific side, probably more on the world model side and not deeply in LLM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 43,
+          "t": [
+            262.099,
+            278.231
+          ],
+          "quote": "So you'll have basically the talented OpenAI and Anthropic and potentially what's left of the AI organization at Google pushing the LLM methods forward and Demis going out and looking for the one or two breakthroughs that are needed to push AI to where he wants to go.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            400.864,
+            411.111
+          ],
+          "quote": "My conversation with MG talking all about Apple, and we get into a deeper discussion of the LLM versus world model difference of opinion at Google at the end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 552,
+          "t": [
+            3206.333,
+            3217.718
+          ],
+          "quote": "But it sets out like basically this dynamic where you have startups and then you have vertically integrated companies like Google, and then you have two different types of AI approaches like the LLM approach and the world model approach.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 571,
+          "t": [
+            3309.044,
+            3330.45
+          ],
+          "quote": "they don't see it and more just that exactly you know what you laid out there and what the piece lays out that from Demis Hassabis on down he just basically views world models as the way forward as the most important thing and they're willing to sort of take a back seat on llm development um so in order to push forward with that and you sort of saw that with io you know again um where",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "world-model",
+      "type": "concept",
+      "role": "concept",
+      "name": "世界模型 (world model)",
+      "file": "世界模型",
+      "primary": true,
+      "how_described": "本集把它说成是 Google 倾向于押注的、用来理解物理现实、达成 AGI 的另一条 AI 技术路线，并指出这是导致 Google 与大部队产生路线分歧、在模型发布上掉队的执念所在。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 28,
+          "t": [
+            203.472,
+            214.042
+          ],
+          "quote": "have been on the more world model type of applications and applications of AI that resemble and help us understand the physical reality.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 42,
+          "t": [
+            257.655,
+            262.059
+          ],
+          "quote": "More on the scientific side, probably more on the world model side and not deeply in LLM.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 69,
+          "t": [
+            400.864,
+            411.111
+          ],
+          "quote": "My conversation with MG talking all about Apple, and we get into a deeper discussion of the LLM versus world model difference of opinion at Google at the end.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 552,
+          "t": [
+            3206.333,
+            3217.718
+          ],
+          "quote": "But it sets out like basically this dynamic where you have startups and then you have vertically integrated companies like Google, and then you have two different types of AI approaches like the LLM approach and the world model approach.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 559,
+          "t": [
+            3246.62,
+            3257.669
+          ],
+          "quote": "And it seems like Google is just making this bet, like the world model type approach is going to be the way that's going to get it to what it wants to get to, like AGI level AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 572,
+          "t": [
+            3331.071,
+            3341.244
+          ],
+          "quote": "You know, Demis was out on stage basically saying like talking about the Omni model, which is their version of the world model, and basically talking that up while sort of downplaying every other thing that they were doing that.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 578,
+          "t": [
+            3366.455,
+            3383.67
+          ],
+          "quote": "It's not just that Google could be going down the world model path as they view that as the path potentially to get to AGI or the next phase of AI development, but it's also that if Anthropic and OpenAI are battling, they could be correct too in that they could",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "cloud",
+      "type": "concept",
+      "role": "concept",
+      "name": "云 (cloud)",
+      "file": "云",
+      "primary": true,
+      "how_described": "本集指出云巨头们迎来了惊人的同比增长（Google 增长 82%、Azure 增长 43%），但大头可能只是 OpenAI 和 Anthropic 拿融资回投到云上的「循环融资」，并非全部源于真实需求。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 372,
+          "t": [
+            2107.636,
+            2111.557
+          ],
+          "quote": "Your data, your cloud, and the agents acting on your behalf.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 464,
+          "t": [
+            2630.394,
+            2634.537
+          ],
+          "quote": "Yeah, now last week we saw some crazy numbers with the cloud growth.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 466,
+          "t": [
+            2642.202,
+            2655.232
+          ],
+          "quote": "There's a discussion that has been had that like, yes, these companies are seeing pretty significant growth from cloud, but most of that is just OpenAI and Anthropic, which have raised hundreds of billions of dollars",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 467,
+          "t": [
+            2656.152,
+            2682.265
+          ],
+          "quote": "just investing it back into cloud so if that VC money were to fall away and some of it by the way is coming from these companies themselves like you wouldn't see the growth like for instance amazon's gonna invest 50 billion dollars uh in open ai and so like are we shocked that they're having 36 growth in cloud how much of this is just kind of like growth that we're seeing on the back of ai investment and how much of it do you think is real",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 468,
+          "t": [
+            2682.937,
+            2699.06
+          ],
+          "quote": "It's a good question and it feels like it's one that Wall Street isn't really answering right now or asking even right now because as you saw like with these numbers so Google dropped, Meta dropped and a lot of that is spend related and with Meta it's more nuanced it's related to you know that they don't have a cloud.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 479,
+          "t": [
+            2765.093,
+            2768.255
+          ],
+          "quote": "Meta would be in a good position then, I guess, given that they don't have the cloud right now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 537,
+          "t": [
+            3127.803,
+            3143.648
+          ],
+          "quote": "And another team over here that wants to do it this way, probably a third team over here, like they butt heads and they're all competing for resources because not only does Google have to have internal resources, as we noted, they have their cloud and so they have to have the external resources for people to use too.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "capex",
+      "type": "concept",
+      "role": "concept",
+      "name": "CapEx",
+      "file": "CapEx",
+      "primary": true,
+      "how_described": "本集把 CapEx 说成是华尔街当前最看重的指标，并详细拆解了 Microsoft 如何通过拉长资产折旧年限将钱挪进运营支出(OpEx)，从而人为做低 CapEx 的障眼法。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 130,
+          "t": [
+            675.983,
+            687.25
+          ],
+          "quote": "And again, it feels like Apple sort of zoomed back up for a lot of the stuff that we've been talking about over the past many months, you know, that they could be positioned well given their lack of capex spend relative to their peer group.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 138,
+          "t": [
+            711.822,
+            719.325
+          ],
+          "quote": "And so even if they're not spending all the CapEx dollars that their peer group is, they're going to get hit now because they need the memory.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 141,
+          "t": [
+            726.608,
+            733.77
+          ],
+          "quote": "It's almost like, imagine if Apple had sort of done at least some of the CapEx build out that, again, their peer group was.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 149,
+          "t": [
+            755.182,
+            759.067
+          ],
+          "quote": "And maybe Wall Street thought like Apple did do the right thing and not doing these massive capex spends.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 170,
+          "t": [
+            838.87,
+            856.899
+          ],
+          "quote": "Shouldn't he have been in position, you know, as CEO of one of the largest companies in the world, to be able to say like, look, even exactly what you're saying, even if we're not going to spend all this money to do the CapEx build out ourselves, all of our peer group is, and they're the biggest companies in the world alongside of, save billions, hundreds of billions of dollars potentially to spend.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 179,
+          "t": [
+            896.764,
+            903.747
+          ],
+          "quote": "I think we're past a trillion dollars combined from all of big tech now pouring into these capex spends on a yearly basis, which is wild.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 180,
+          "t": [
+            903.867,
+            912.892
+          ],
+          "quote": "And in the face of that, also just noting like that Apple is still going down relative like they're down year on year in capex spend relative to their peer group.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 394,
+          "t": [
+            2215.8,
+            2223.467
+          ],
+          "quote": "Wall Street really praised Microsoft for not raising its CapEx at a time when it seemed like everybody was raising the CapEx.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 404,
+          "t": [
+            2301.232,
+            2308.857
+          ],
+          "quote": "...off of what has historically been in the CapEx section of their spend and put it into OpEx instead.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 414,
+          "t": [
+            2361.435,
+            2367.357
+          ],
+          "quote": "It's just that it changes it from going under the CapEx line to moving it over to the OpEx line.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 426,
+          "t": [
+            2419.554,
+            2425.675
+          ],
+          "quote": "But they also knew that, like, look, the single biggest point that Wall Street seems to care about right now is capex spend.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agi",
+      "type": "concept",
+      "role": "concept",
+      "name": "AGI",
+      "file": "AGI",
+      "primary": false,
+      "how_described": "本集提到 Demis 等人认为当前的 LLM 技术不足以直达 AGI，要达到人类水平的 AI 还需要另外几个突破。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 16,
+          "t": [
+            108.815,
+            116.561
+          ],
+          "quote": "Their perspective is that the current LLM technology is potentially unlikely, according to their opinion, a straight shot to AGI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 499,
+          "t": [
+            2914.387,
+            2927.375
+          ],
+          "quote": "Like there was a report that everyone knew that Amazon had an option to put into up to 50 billion, but the reporting suggested that the option was basically tied to either OpenAI going public and or achieving AGI.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 500,
+          "t": [
+            2927.795,
+            2931.419
+          ],
+          "quote": "Neither of those things has happened, as far as we know, at least with AGI right now.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 559,
+          "t": [
+            3246.62,
+            3257.669
+          ],
+          "quote": "And it seems like Google is just making this bet, like the world model type approach is going to be the way that's going to get it to what it wants to get to, like AGI level AI.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 560,
+          "t": [
+            3257.749,
+            3265.476
+          ],
+          "quote": "Demis has obviously always talked about that LLMs may get them to AGI, but probably there's going to be another couple of breakthroughs needed.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 578,
+          "t": [
+            3366.455,
+            3383.67
+          ],
+          "quote": "It's not just that Google could be going down the world model path as they view that as the path potentially to get to AGI or the next phase of AI development, but it's also that if Anthropic and OpenAI are battling, they could be correct too in that they could",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "coding-agents",
+      "type": "concept",
+      "role": "concept",
+      "name": "编码智能体 (coding agents)",
+      "file": "编码智能体",
+      "primary": false,
+      "how_described": "本集说它是科技史上最高风险对抗的当口，并指出 Google 在编码智能体竞赛中几乎销声匿迹，明显落后于最新的大型语言模型及 Codex 等应用。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 50,
+          "t": [
+            300.276,
+            302.637
+          ],
+          "quote": "Google is clearly behind on the coding agents.",
+          "speaker": "SPEAKER_00"
+        },
+        {
+          "seg": 518,
+          "t": [
+            3030.509,
+            3033.51
+          ],
+          "quote": "They're nowhere to be found on these coding agents.",
+          "speaker": "SPEAKER_00"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "agent",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

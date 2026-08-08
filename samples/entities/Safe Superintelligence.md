@@ -25,7 +25,7 @@ unlisted: true
 
 [[Reid Alberghati]] · [[OpenAI]] · [[NVIDIA]] · [[Microsoft]] · [[Situational Awareness]] · [[CoreWeave]] · [[Meta]] · [[Apple]] · [[智能体]] · [[算力]]
 
-<script type="application/json" class="pd-epn">{"Reid Alberghati":1,"OpenAI":29,"NVIDIA":12,"Microsoft":7,"Situational Awareness":1,"CoreWeave":1,"Meta":12,"Apple":6,"智能体":60,"算力":1}</script>
+<script type="application/json" class="pd-epn">{"Reid Alberghati":1,"OpenAI":30,"NVIDIA":13,"Microsoft":8,"Situational Awareness":1,"CoreWeave":1,"Meta":12,"Apple":7,"智能体":60,"算力":1}</script>
 
 <script>
 (function(){
