@@ -48,8 +48,10 @@
 /* ══ 设计稿 token(浅色 = 实抓 sspai.com,照抄;深色 = 按同层级关系反推)══ */
 :root {
   --puhui: "AlibabaPuHuiTi", var(--headerFont), "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
-  --pd-font: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
-    "helvetica neue", helvetica, ubuntu, roboto, noto, "segoe ui", Arial, sans-serif;
+  /* 正文字体 = 系统原生栈(用户 2026-08-08 明文规范:英文走系统 SF、中文走苹方,零下载、中英统一)。
+     前三位是主流设备的实际命中项;后段补全 Windows/安卓/Linux 中文兜底。 */
+  --pd-font: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", "Microsoft YaHei",
+    "Source Han Sans SC", "Noto Sans SC", "WenQuanYi Micro Hei", sans-serif;
 
   --B8: #000;
   --B7: #48494c;
@@ -987,6 +989,12 @@ body:has(.pd-play) article a.internal {
    写死浅色的 #252525 深色模式下会瞎。
    ⚠️ `:not(blockquote p)` 不能省 —— 金句块(下面那条)自己是 17px/1.7,
    `article p` 会直接命中它里面的 p、把 17px 压成 16.5px。【背景】引用块同理。 */
+/* 正文字体走系统原生栈(用户 2026-08-08 规范):article 里的 markdown 正文本来继承 body 的
+   --bodyFont = Source Sans Pro(Google Fonts 西文,中文靠 fallback、不受控)→ 显式改回 --pd-font。
+   标题 h1/h2(--puhui)与金句 .qz(--puhui)各自有更高优先级规则,普惠体品牌字不受影响。 */
+body:has(.pd-play) article { font-family: var(--pd-font); }
+/* article 整体改字体后,行内代码/代码块要恢复等宽(否则被 --pd-font 波及成非等宽;GLM 20260808-003[2])。 */
+body:has(.pd-play) article :is(code, pre, kbd, samp) { font-family: var(--codeFont); }
 body:has(.pd-play) article p:not(blockquote p) {
   font-size: 16.5px;
   line-height: 1.95;
@@ -1000,11 +1008,14 @@ body:has(.pd-play) article h2 {
 
 /* ── sspai 阅读排版对齐(2026-08-01 用户拍板照少数派;数值实读自其 post.css)──
    只在手机端(<1024)生效,桌面档不动(本轮以竞品手机端为准)。标题字体仍用普惠体(用户选保留)。
-   正文 15/1.8、H2 24/1.4、段距与侧边距统一 24px —— 换来更透气的"书感"阅读体验。 */
+   正文 16/1.8、H2 24/1.4、段距与侧边距统一 24px —— 换来更透气的"书感"阅读体验。
+   (字号 15→16:用户 2026-08-08 拍板,15px 踩规范下限偏小,提到 16px 更舒适、每行仍约 20 字。) */
 @media (max-width: 1023px) {
   body:has(.pd-play) #quartz-body { padding-left: 24px; padding-right: 24px; }
   body:has(.pd-play) .pd-topin { padding-left: 24px; padding-right: 24px; }
-  body:has(.pd-play) article p:not(blockquote p) { font-size: 15px; line-height: 1.8; margin: 0 0 24px; }
+  /* 两端对齐(用户 2026-08-08 明文:手机端详情页正文左右对齐)。只手机端 —— 桌面此前定「不做」保持左对齐。
+     中文精华方块字为主,justify 排版整齐;偶有英文专名短词,间距影响可忽略。 */
+  body:has(.pd-play) article p:not(blockquote p) { font-size: 16px; line-height: 1.8; margin: 0 0 24px; text-align: justify; overflow-wrap: break-word; }
   body:has(.pd-play) article h2 { font-size: 24px; line-height: 1.4; margin: 34px 0 16px; }
 }
 
