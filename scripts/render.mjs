@@ -151,7 +151,7 @@ export function renderSiteTopBar(mtitle = "") {
     `<div class="pd"><header class="pd-top"><div class="pd-topin">` +
     `<a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a>` +
     `<nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav>` +
-    `<a class="pd-back" href="/">← 返回</a>` +
+    `<a class="pd-back" href="/" onclick="if(innerWidth<1024){history.back();return false}">← 返回</a>` +
     (mtitle ? `<a class="pd-mtitle" href="/">←<span>${escHtml(mtitle)}</span></a>` : "") +
     `<div class="pd-acts">` +
     `<button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button>` +
@@ -166,7 +166,7 @@ export function renderTopBar(meta) {
     `<div class="pd"><header class="pd-top"><div class="pd-topin">` +
     `<a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a>` +
     `<nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav>` +
-    `<a class="pd-back" href="/">← 返回</a>` +
+    `<a class="pd-back" href="/" onclick="if(innerWidth<1024){history.back();return false}">← 返回</a>` +
     `<a class="pd-mtitle" href="/">←<span>${displayTitle(meta)}</span></a>` +
     `<div class="pd-acts">` +
     `<button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button>` +

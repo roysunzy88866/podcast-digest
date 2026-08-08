@@ -1320,10 +1320,11 @@ body:has(.pd-play) article blockquote:has(> p[id^="q"]) em {
 @media (max-width: 1023px) {
   /* 手机端二级页顶栏,分两类页处理(判据:详情页有播放条 .pd-play,大类页没有):
      - 大类页:顶栏「← 大类名」(.pd-mtitle),藏站名 logo(二级页不放一级入口)。
-     - 详情页:2026-08-01 用户拍板「返回键位置放 logo」→ 站名 logo 显示、当返回首页入口;
-               「← 返回」与「标题进顶栏」都撤掉,标题回正文大号打头;金句块手机端不要。
+     - 详情页:2026-08-08 用户明文修订(覆盖 08-01「logo 当返回」· ADR 0019)→ 手机是钻取式导航
+               (点卡片进下一级、不跳页),详情页要**明确的「← 返回」键回上一级**(history.back,见 render.mjs);
+               logo 撤掉、mtitle/金句仍撤、标题回正文大号。PC 不变(logo 返回 + 卡片跳页)。
      ⚠️ Option A 曾把 .pd-mtitle 全局设 display:none,误伤大类页「← 大类名」;此处按页型分治修回。 */
-  .pd-back { display: none; }   /* 手机端不用「← 返回」文字键 */
+  .pd-back { display: none; }   /* 手机端默认不显示;仅详情页下方重新打开 */
 
   /* 大类页(无播放条):显示「← 大类名」,藏 logo */
   body:not(:has(.pd-play)) .pd .pd-topin:has(.pd-mtitle) .b { display: none; }
@@ -1341,7 +1342,10 @@ body:has(.pd-play) article blockquote:has(> p[id^="q"]) em {
   body:not(:has(.pd-play)) .pd-mtitle span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   body:not(:has(.pd-play)) .pd-mtitle:hover { color: var(--pd-accent); }
 
-  /* 详情页(有播放条):logo 显示当返回入口 / mtitle 藏 / 金句藏 / 标题回正文 30px(少数派档,仍普惠体) */
+  /* 详情页(有播放条):「← 返回」显示当回上一级键(history.back)/ logo 藏 / mtitle 藏 / 金句藏 / 标题回正文 30px
+     (2026-08-08 修订:钻取式返回替代 08-01 的 logo 返回,ADR 0019) */
+  body:has(.pd-play) .pd-back { display: inline-flex; align-items: center; margin-left: 0; font-size: 14px; }
+  body:has(.pd-play) .pd-topin .b { display: none; }
   body:has(.pd-play) .pd-mtitle { display: none; }
   body:has(.pd-play) .pd-hook { display: none; }
   body:has(.pd-play) article h1 { display: block; font-size: 30px; line-height: 1.25; margin: 6px 0 14px; }
