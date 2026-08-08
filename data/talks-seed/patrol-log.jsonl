@@ -84,3 +84,6 @@
 {"ts":"2026-08-07T13:40:17.992Z","action":"discover-error","channel":"axios","videoId":null,"error":"fetch failed"}
 {"ts":"2026-08-07T13:40:22.997Z","action":"discover-error","channel":"langchain","videoId":null,"error":"fetch failed"}
 {"ts":"2026-08-07T13:40:28.003Z","action":"discover-error","channel":"stripe","videoId":null,"error":"fetch failed"}
+{"ts":"2026-08-08T01:40:12.784Z","action":"discover-error","channel":"aie","videoId":null,"error":"fetch failed"}
+{"ts":"2026-08-08T01:40:21.386Z","action":"judge-failed","channel":"langchain","videoId":"yi-XZnAVFJg","title":"Managed Deep Agents explained in 20 minutes","error":"判官不可达或输出解析不出(可重试)"}
+{"ts":"2026-08-08T01:40:28.443Z","action":"judge-failed","channel":"langchain","videoId":"pGdZBK___jM","title":"How Harmonic 4x'd User Retention by Building on Deep Agents","error":"判官不可达或输出解析不出(可重试)"}
