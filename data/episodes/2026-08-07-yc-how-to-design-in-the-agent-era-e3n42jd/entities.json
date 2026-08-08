@@ -1,0 +1,1799 @@
+{
+  "episode_id": "2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd",
+  "podcast": "Y Combinator Startup Podcast",
+  "date": "2026-08-07",
+  "tags": [
+    "AI 设计",
+    "设计工具",
+    "智能体工作流",
+    "排版心法",
+    "HTML/CSS"
+  ],
+  "categories": [
+    "产品方法",
+    "AI 编程"
+  ],
+  "entities": [
+    {
+      "id": "stephen-haney",
+      "type": "person",
+      "role": "host",
+      "name": "Stephen Haney",
+      "file": "Stephen Haney",
+      "primary": true,
+      "source": "meta",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            37.918,
+            47.001
+          ],
+          "quote": "Today, I'm excited to welcome Stephen Haney, the founder of Paper, an AI-native design tool that's been taking the design world by storm.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "paper",
+      "type": "company",
+      "role": "company",
+      "name": "Paper",
+      "file": "Paper",
+      "primary": true,
+      "how_described": "本集把它说成:一款由 12 人团队打造的智能体原生设计工具，直接用 HTML 和 CSS 作为底层渲染引擎，打破了设计工具与开发堆栈之间的墙。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 10,
+          "t": [
+            37.918,
+            47.001
+          ],
+          "quote": "Today, I'm excited to welcome Stephen Haney, the founder of Paper, an AI-native design tool that's been taking the design world by storm.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 11,
+          "t": [
+            47.361,
+            56.924
+          ],
+          "quote": "We're already using Paper a ton here at YC for all of the design work that we're doing internally, and I'm excited for him to show off how the product works to everybody out there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 16,
+          "t": [
+            64.526,
+            66.647
+          ],
+          "quote": "Maybe to start, tell people, what is Paper?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 17,
+          "t": [
+            67.007,
+            68.888
+          ],
+          "quote": "Yeah, well, Paper is a design tool.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 24,
+          "t": [
+            90.395,
+            93.357
+          ],
+          "quote": "So what we're building with Paper is basically it's a group of people.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 29,
+          "t": [
+            121.091,
+            127.238
+          ],
+          "quote": "Maybe talk about what was your inspiration for building paper and why were some of the existing tools that are out there not good enough for you?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 32,
+          "t": [
+            135.368,
+            138.171
+          ],
+          "quote": "I had months where I was like, is anyone going to care about paper?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 58,
+          "t": [
+            223.535,
+            230.004
+          ],
+          "quote": "And so when you ask an agent to work with a paper file, it's literally just reading the CSS out and agents know exactly what to do with it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 64,
+          "t": [
+            262.917,
+            266.979
+          ],
+          "quote": "How do you think about using paper to be able to solve that piece of the creative workflow?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 72,
+          "t": [
+            285.473,
+            288.035
+          ],
+          "quote": "The best compliment you can give me is that paper is really great software.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 83,
+          "t": [
+            332.737,
+            333.838
+          ],
+          "quote": "This is called Paper Shaders.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 92,
+          "t": [
+            351.394,
+            358.697
+          ],
+          "quote": "And I think, you know, for us and I imagine a lot of people out there, this is probably their first introduction to using paper.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 111,
+          "t": [
+            455.581,
+            461.823
+          ],
+          "quote": "And they've transitioned a lot of these to be built in paper now because they can get this cool retro vibe really fast.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 114,
+          "t": [
+            464.024,
+            467.485
+          ],
+          "quote": "And I'm honored that they're using paper to achieve some of these posters.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 124,
+          "t": [
+            503.71,
+            507.013
+          ],
+          "quote": "We also do, this is kind of like a lesser known thing to paper.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 137,
+          "t": [
+            581.849,
+            583.47
+          ],
+          "quote": "So this is kind of the brand side of paper.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 155,
+          "t": [
+            637.993,
+            640.293
+          ],
+          "quote": "Paper Mono is a new font that we're launching I'm really proud of.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 160,
+          "t": [
+            652.056,
+            652.957
+          ],
+          "quote": "So we made Paper Mono.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 165,
+          "t": [
+            659.083,
+            665.451
+          ],
+          "quote": "So Eve at YC was in New York City at a dinner the other night, and she ran into someone wearing a Paper Mono shirt, which I thought was so cool.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 169,
+          "t": [
+            670.456,
+            672.957
+          ],
+          "quote": "We want to set up a merch shop, you know, paper merch thing.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 170,
+          "t": [
+            673.177,
+            676.679
+          ],
+          "quote": "But this is Paper Mono, and we have a great mini site launching soon.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 191,
+          "t": [
+            731.659,
+            734.382
+          ],
+          "quote": "So anything that you're looking at in paper is code.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 212,
+          "t": [
+            778.497,
+            780.738
+          ],
+          "quote": "You have paper as a visual way to communicate with the agents.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 224,
+          "t": [
+            812.082,
+            817.568
+          ],
+          "quote": "And Conductor and Paper are this like pairing right now that a lot of people in the community are using both together.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 234,
+          "t": [
+            830.435,
+            838.498
+          ],
+          "quote": "I'll just say, hey, Conductor, in paper, please make a small test frame saying hello to YC.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 236,
+          "t": [
+            841.567,
+            855.431
+          ],
+          "quote": "We'll get into more complex cases, but just to show you how the basic technology works, as the agent uses the MCP of paper, which we'll put on the right half of the screen, we give it tool calls to like, hey, which fonts are available?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 241,
+          "t": [
+            867.059,
+            871.725
+          ],
+          "quote": "And the paper engine is just able to take HTML and knows what to do with it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 243,
+          "t": [
+            873.327,
+            878.073
+          ],
+          "quote": "The agent writes HTML, paper can render HTML, and you don't have to switch back and forth between formats.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 249,
+          "t": [
+            892.26,
+            893.64
+          ],
+          "quote": "This is our actual paper code base.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 250,
+          "t": [
+            894.12,
+            900.242
+          ],
+          "quote": "And I'll just say, hey, can you put at colors.css onto the paper canvas as a style guide?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 251,
+          "t": [
+            900.912,
+            905.614
+          ],
+          "quote": "So this is our actual CSS file from paper, the code-based paper, not the product.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 270,
+          "t": [
+            985.182,
+            987.423
+          ],
+          "quote": "And we don't have components in paper yet.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 275,
+          "t": [
+            997.588,
+            1008.494
+          ],
+          "quote": "We built a Chrome extension where you can grab your live site and copy that into the paper canvas, which is a really nice way to start from what your users are seeing and build on top of it and iterate.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 279,
+          "t": [
+            1013.677,
+            1023.462
+          ],
+          "quote": "I would love to use that feature to be able to pull some of them into paper and make some tweaks on it and just see what we can live edit to try to improve some of the sites.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 309,
+          "t": [
+            1119.313,
+            1120.274
+          ],
+          "quote": "I'll show you Paper Snapshot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1120.294,
+            1123.757
+          ],
+          "quote": "Paper Snapshot is a way to grab content from your live site.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 313,
+          "t": [
+            1130.644,
+            1131.725
+          ],
+          "quote": "And we'll paste it into paper.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 322,
+          "t": [
+            1157.748,
+            1170.362
+          ],
+          "quote": "Can you make three new variations of my selection in paper focusing on the craft and alignment and contrast choices to elevate the visuals?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 326,
+          "t": [
+            1198.825,
+            1209.347
+          ],
+          "quote": "And then the other thing that's really cool is you're able to just say, hey, the thing that is my selection on the canvas and paper, and it knows what that is, and now it's able to go to work on that, which is really powerful.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1238.618,
+            1246.8
+          ],
+          "quote": "And instead what I'll do, so I left a comment in paper and I'll switch over to the agent now and say, please address my comments in paper.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 444,
+          "t": [
+            1564.488,
+            1569.19
+          ],
+          "quote": "Well, that's one of the powers of this tool in general is paper is a design tool first.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 466,
+          "t": [
+            1611.536,
+            1613.657
+          ],
+          "quote": "So I have the paper code base open.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 468,
+          "t": [
+            1616.918,
+            1622.941
+          ],
+          "quote": "Build my selection in paper into a new component in the code base, which we will not actually ship in paper.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 526,
+          "t": [
+            1830.447,
+            1834.928
+          ],
+          "quote": "And again, I use Paper Snapshot to grab it from the live site, paste it into paper as editable layers.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 543,
+          "t": [
+            1886.896,
+            1891.561
+          ],
+          "quote": "Now, in paper, we actually give instructions to the model not to do these common mistakes.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 559,
+          "t": [
+            1941.388,
+            1947.172
+          ],
+          "quote": "And so if we go pull the original again, like, you know, here's kind of the, we'll pull up paper and do a side by side.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2042.616,
+            2051.14
+          ],
+          "quote": "Just ask the agent, ask paper to create 20 variations of that layout and then pick your favorite one because it's going to look a lot more thoughtful than just a bunch of cards all over the place.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 687,
+          "t": [
+            2320.268,
+            2322.79
+          ],
+          "quote": "I ran this one through paper real quick before we came on.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 725,
+          "t": [
+            2448.34,
+            2458.828
+          ],
+          "quote": "And so to have that control, to be able to edit it and make it more in your own vision is actually the really powerful missing piece here that I think is a lot of what paper is providing right here.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 778,
+          "t": [
+            2636.313,
+            2639.514
+          ],
+          "quote": "I'm curious, how are you guys using agents internally at Paper?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 806,
+          "t": [
+            2707.202,
+            2708.543
+          ],
+          "quote": "And he designed everything in paper.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 809,
+          "t": [
+            2717.828,
+            2721.609
+          ],
+          "quote": "He did everything in paper and then he just prompted, and this was, you know, six months ago now, so different models.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 810,
+          "t": [
+            2722.71,
+            2725.293
+          ],
+          "quote": "He just prompted the animations on top of his paper file.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 811,
+          "t": [
+            2725.313,
+            2728.216
+          ],
+          "quote": "And it's like, you know, take my paper designs, turn it into a code base.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 836,
+          "t": [
+            2796.698,
+            2799.76
+          ],
+          "quote": "And for whatever reason, whatever that is, it's like people want paper to be better.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 841,
+          "t": [
+            2812.687,
+            2826.256
+          ],
+          "quote": "My sense from talking to a lot of designers is that you guys are almost building kind of a groundswell movement, like a cult movement of people that are now using paper as the new cool thing that a lot of designers are using.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 875,
+          "t": [
+            2932.051,
+            2933.792
+          ],
+          "quote": "And then Paper is right there with Sketch.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 882,
+          "t": [
+            2950.182,
+            2952.722
+          ],
+          "quote": "They care a lot about paper and are like wearing our merch and stuff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 904,
+          "t": [
+            3014.813,
+            3016.956
+          ],
+          "quote": "And then I think I've been able to apply at Paper.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 911,
+          "t": [
+            3034.003,
+            3035.543
+          ],
+          "quote": "We use WorkOS for paper.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 932,
+          "t": [
+            3088.759,
+            3092.28
+          ],
+          "quote": "Like for us right now, the bottleneck is early adopters are using paper.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 989,
+          "t": [
+            3279.34,
+            3280.101
+          ],
+          "quote": "And what's next for paper?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 995,
+          "t": [
+            3299.898,
+            3306.743
+          ],
+          "quote": "So what we're going to do is we're going to put, basically, you can like iframe things onto the paper canvas as a place to keep your prototypes kind of like organized.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 1004,
+          "t": [
+            3335.657,
+            3346.112
+          ],
+          "quote": "Stephen, thank you so much for coming on and sharing paper with us and all of your design insight that I know has been hard earned over the years and the companies that you've built and the incredible places you've worked.",
+          "speaker": "SPEAKER_01"
+        }
+      ]
+    },
+    {
+      "id": "cursor",
+      "type": "company",
+      "role": "company",
+      "name": "Cursor",
+      "file": "Cursor",
+      "primary": true,
+      "how_described": "本集把它说成:主打 AI 辅助编程的代码编辑器，可作为智能体驱动 Paper 画布生成排版变体，是构建「新智能体栈」的核心工具之一。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 209,
+          "t": [
+            773.014,
+            775.976
+          ],
+          "quote": "And what I mean by that is you'll see I have Cursor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 248,
+          "t": [
+            890.399,
+            892.12
+          ],
+          "quote": "I'll give you another example in Cursor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 252,
+          "t": [
+            906.274,
+            909.476
+          ],
+          "quote": "And Cursor is going to take that and then render it onto the canvas.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 382,
+          "t": [
+            1386.345,
+            1389.586
+          ],
+          "quote": "I use Cursor's Composer 2.5 actually a lot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 390,
+          "t": [
+            1412.754,
+            1414.175
+          ],
+          "quote": "I find Cursor is a really good harness.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 531,
+          "t": [
+            1845.695,
+            1846.856
+          ],
+          "quote": "This one we'll give to Cursor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 532,
+          "t": [
+            1846.876,
+            1859.213
+          ],
+          "quote": "We'll say, hey, Cursor, please clean up the Citex frame using at most three font sizes and no bold, everything regular or below in weight.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 827,
+          "t": [
+            2768.227,
+            2770.348
+          ],
+          "quote": "We do use Cursor extensively.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "claude-code",
+      "type": "company",
+      "role": "company",
+      "name": "Claude Code",
+      "file": "Claude Code",
+      "primary": true,
+      "how_described": "本集把它说成:直接在终端里写代码的 AI 智能体，它的爆火让原本远离终端的设计师也学起了 GitHub，催生了设计工具向桌面端的进化。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 198,
+          "t": [
+            747.316,
+            752.442
+          ],
+          "quote": "And then in, what was this, last December of 2025, the Claude Code explosion happened.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 210,
+          "t": [
+            776.016,
+            776.776
+          ],
+          "quote": "I have Claude Code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 228,
+          "t": [
+            820.692,
+            821.832
+          ],
+          "quote": "But we saw this Claude Code happening.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "figma",
+      "type": "company",
+      "role": "company",
+      "name": "Figma",
+      "file": "Figma",
+      "primary": true,
+      "how_described": "本集把它说成:行业绝对主流的传统视觉设计软件，采用了自定义渲染引擎，对智能体来说理解和处理起来成本更高，是 Paper 试图颠覆的标杆。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 43,
+          "t": [
+            165.52,
+            168.7
+          ],
+          "quote": "And then looking around, it was like, well, gosh, I mean, we're big fans of Figma.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 44,
+          "t": [
+            168.72,
+            170.921
+          ],
+          "quote": "You almost can't talk about design without saying Figma these days.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 55,
+          "t": [
+            206.257,
+            214.102
+          ],
+          "quote": "We were like, hey, if the designer can have this constraint-free system where it feels like a Figma or a Sketch, but by the way, it's HTML, they don't have to know that, that's great.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 141,
+          "t": [
+            589.532,
+            594.276
+          ],
+          "quote": "Which is interesting also because, you know, I think a lot of people use and think of Figma as product design.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 788,
+          "t": [
+            2655.797,
+            2658.918
+          ],
+          "quote": "You know, you can't vibe code a design tool at the level of a Figma today.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 846,
+          "t": [
+            2837.665,
+            2846.594
+          ],
+          "quote": "Like you seem to be one of the only companies, Figma obviously has built this huge behemoth and gone public and, you know, all the Fortune 500 uses them and all this stuff.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 873,
+          "t": [
+            2928.008,
+            2930.87
+          ],
+          "quote": "And if you ask it about design tools, it's, you know, Figma, obviously.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 876,
+          "t": [
+            2933.872,
+            2939.977
+          ],
+          "quote": "And so we're the first company since Figma's come out to like make a dent in that market at all, you know, and it's growing very quickly, which is really encouraging.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "conductor",
+      "type": "company",
+      "role": "company",
+      "name": "Conductor",
+      "file": "Conductor",
+      "primary": true,
+      "how_described": "本集把它说成:整合了代码编写和合并发布功能的应用，能与 Paper 完美联动生成排版变体，是当前构建者流行使用的整合型智能体栈。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 218,
+          "t": [
+            795.366,
+            801.469
+          ],
+          "quote": "Our friends at Conductor, you can push code and merge code and do everything that you need directly.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 220,
+          "t": [
+            802.15,
+            802.69
+          ],
+          "quote": "Yeah, at Conductor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 224,
+          "t": [
+            812.082,
+            817.568
+          ],
+          "quote": "And Conductor and Paper are this like pairing right now that a lot of people in the community are using both together.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 226,
+          "t": [
+            819.05,
+            819.591
+          ],
+          "quote": "I love Conductor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 232,
+          "t": [
+            827.734,
+            829.655
+          ],
+          "quote": "Let's use, we'll use Conductor for this.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 234,
+          "t": [
+            830.435,
+            838.498
+          ],
+          "quote": "I'll just say, hey, Conductor, in paper, please make a small test frame saying hello to YC.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 319,
+          "t": [
+            1151.622,
+            1152.563
+          ],
+          "quote": "So we'll use Conductor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 320,
+          "t": [
+            1152.603,
+            1153.463
+          ],
+          "quote": "Hey, Conductor.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 373,
+          "t": [
+            1354.534,
+            1355.754
+          ],
+          "quote": "And we'll pop back in Conductor.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "agent",
+      "type": "concept",
+      "role": "concept",
+      "name": "智能体 (agent)",
+      "file": "智能体",
+      "primary": true,
+      "how_described": "本集把它说成:能加速人类工作的 AI 助手，设计师可以在睡前给画布留下一堆意见，让智能体跑一整夜生成几百个变体供第二天策展挑选。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 18,
+          "t": [
+            69.308,
+            70.548
+          ],
+          "quote": "It's an agent-native design tool.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 49,
+          "t": [
+            184.965,
+            190.127
+          ],
+          "quote": "Can we build something that's agent-native, building on HTML and CSS, and just build this next-gen tool?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 52,
+          "t": [
+            192.928,
+            197.531
+          ],
+          "quote": "Yeah, and what does that mean to be an AI-native, agent-native design tool?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 58,
+          "t": [
+            223.535,
+            230.004
+          ],
+          "quote": "And so when you ask an agent to work with a paper file, it's literally just reading the CSS out and agents know exactly what to do with it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 59,
+          "t": [
+            230.645,
+            234.149
+          ],
+          "quote": "We try to basically extend the agent with a visual interface.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 135,
+          "t": [
+            570.805,
+            575.486
+          ],
+          "quote": "So the agent made a really colorful thing and I can extract the colors and it just pulls out the colors.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 208,
+          "t": [
+            770.953,
+            772.834
+          ],
+          "quote": "The way we see it is kind of the new agent stack.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 236,
+          "t": [
+            841.567,
+            855.431
+          ],
+          "quote": "We'll get into more complex cases, but just to show you how the basic technology works, as the agent uses the MCP of paper, which we'll put on the right half of the screen, we give it tool calls to like, hey, which fonts are available?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 243,
+          "t": [
+            873.327,
+            878.073
+          ],
+          "quote": "The agent writes HTML, paper can render HTML, and you don't have to switch back and forth between formats.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 317,
+          "t": [
+            1144.116,
+            1147.538
+          ],
+          "quote": "So let's ask the agent to work on this a little bit.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 337,
+          "t": [
+            1238.618,
+            1246.8
+          ],
+          "quote": "And instead what I'll do, so I left a comment in paper and I'll switch over to the agent now and say, please address my comments in paper.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 340,
+          "t": [
+            1249.681,
+            1256.443
+          ],
+          "quote": "And so you can imagine having a big design and leaving all of your feedback and then just setting your agent on it, letting it spin, you know.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 342,
+          "t": [
+            1260.364,
+            1264.685
+          ],
+          "quote": "They're setting up loops of an agent, just generating hundreds of variations.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 343,
+          "t": [
+            1265.225,
+            1268.486
+          ],
+          "quote": "And it's actually a challenge for us to be like agent scale with our servers and everything.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 465,
+          "t": [
+            1608.775,
+            1611.516
+          ],
+          "quote": "You can also just ask the agent to pull this back.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 470,
+          "t": [
+            1625.161,
+            1627.963
+          ],
+          "quote": "And it knows my code base really well because it's the agent that I use.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 525,
+          "t": [
+            1828.227,
+            1830.067
+          ],
+          "quote": "And I can, I'll even ask the agent to do it for us.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 533,
+          "t": [
+            1859.665,
+            1864.307
+          ],
+          "quote": "And so you named that frame Cytex, and then you just gave it that context clue to the agent.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 553,
+          "t": [
+            1920.968,
+            1924.593
+          ],
+          "quote": "But if you had an entire site that you wanted to go through, for instance, using the agent is really useful.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 554,
+          "t": [
+            1925.053,
+            1929.419
+          ],
+          "quote": "Or if you wanted to pull this back into your code base when you're done, the agent can do that for you.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 585,
+          "t": [
+            2042.616,
+            2051.14
+          ],
+          "quote": "Just ask the agent, ask paper to create 20 variations of that layout and then pick your favorite one because it's going to look a lot more thoughtful than just a bunch of cards all over the place.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 613,
+          "t": [
+            2102.189,
+            2104.45
+          ],
+          "quote": "But a lot of avoiding the agent look is pulling back.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "mcp-server",
+      "type": "concept",
+      "role": "concept",
+      "name": "MCP 服务器 (MCP server)",
+      "file": "MCP 服务器",
+      "primary": true,
+      "how_described": "本集把它说成:一种让大语言模型和外部软件互通指令的标准接口，Paper 桌面版内置了它，从而能与 Conductor 等外部编程智能体联动。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 230,
+          "t": [
+            822.693,
+            824.893
+          ],
+          "quote": "We build an MCP server into our desktop app.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "source-of-truth",
+      "type": "concept",
+      "role": "concept",
+      "name": "代码即真相来源 (source of truth)",
+      "file": "代码即真相来源",
+      "primary": true,
+      "how_described": "本集把它说成:新工作流下的核心理念，代码本身是唯一的真相来源，设计工具不再是孤岛，彻底解决了设计稿与开发代码不同步的痛点。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 260,
+          "t": [
+            955.613,
+            957.294
+          ],
+          "quote": "And so it's what is the source of truth?",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 261,
+          "t": [
+            957.634,
+            963.398
+          ],
+          "quote": "And what's really nice about this is the code is the source of truth and both systems know how to work on that same code base.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 269,
+          "t": [
+            980.74,
+            985.162
+          ],
+          "quote": "The more agentic builders is they are treating the code base as a source of truth.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 273,
+          "t": [
+            991.565,
+            996.168
+          ],
+          "quote": "But you don't need them because your code base is a source of truth, and you can summon things in as you need them.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "curation-design-process",
+      "type": "concept",
+      "role": "concept",
+      "name": "策展式设计 (curation design process)",
+      "file": "策展式设计",
+      "primary": true,
+      "how_described": "本集把它说成:一种正在诞生的全新设计流程，人类像策展人一样，从智能体一夜之间生成的数百个排版变体中，挑出满意的方案组合起来。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 349,
+          "t": [
+            1277.428,
+            1280.449
+          ],
+          "quote": "And it's kind of this new curation design process that I think is really interesting.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "html",
+      "type": "concept",
+      "role": "concept",
+      "name": "HTML",
+      "file": "HTML",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            70.848,
+            74.83
+          ],
+          "quote": "And what that means is we use HTML and CSS as the actual rendering engine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 20,
+          "t": [
+            75.29,
+            79.852
+          ],
+          "quote": "And that makes it very easy for agents to use because they understand HTML and CSS really well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 49,
+          "t": [
+            184.965,
+            190.127
+          ],
+          "quote": "Can we build something that's agent-native, building on HTML and CSS, and just build this next-gen tool?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 54,
+          "t": [
+            200.453,
+            206.137
+          ],
+          "quote": "So using HTML and CSS as the rendering engine, we actually did it to help with designer-developer handoff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 55,
+          "t": [
+            206.257,
+            214.102
+          ],
+          "quote": "We were like, hey, if the designer can have this constraint-free system where it feels like a Figma or a Sketch, but by the way, it's HTML, they don't have to know that, that's great.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 57,
+          "t": [
+            215.983,
+            222.894
+          ],
+          "quote": "It turns out if you build a great handoff for humans, you've also built a great handoff for agents because agents understand HTML and CSS and it's in their training data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 238,
+          "t": [
+            857.292,
+            860.352
+          ],
+          "quote": "And then it literally runs tools like write HTML.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 240,
+          "t": [
+            863.074,
+            865.897
+          ],
+          "quote": "In JSON format, but it's literally sending us HTML.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 241,
+          "t": [
+            867.059,
+            871.725
+          ],
+          "quote": "And the paper engine is just able to take HTML and knows what to do with it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 243,
+          "t": [
+            873.327,
+            878.073
+          ],
+          "quote": "The agent writes HTML, paper can render HTML, and you don't have to switch back and forth between formats.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 993,
+          "t": [
+            3291.913,
+            3295.155
+          ],
+          "quote": "And they're ending up on Vercel or their HTML files.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "css",
+      "type": "concept",
+      "role": "concept",
+      "name": "CSS",
+      "file": "CSS",
+      "primary": true,
+      "how_described": "",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 19,
+          "t": [
+            70.848,
+            74.83
+          ],
+          "quote": "And what that means is we use HTML and CSS as the actual rendering engine.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 20,
+          "t": [
+            75.29,
+            79.852
+          ],
+          "quote": "And that makes it very easy for agents to use because they understand HTML and CSS really well.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 49,
+          "t": [
+            184.965,
+            190.127
+          ],
+          "quote": "Can we build something that's agent-native, building on HTML and CSS, and just build this next-gen tool?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 54,
+          "t": [
+            200.453,
+            206.137
+          ],
+          "quote": "So using HTML and CSS as the rendering engine, we actually did it to help with designer-developer handoff.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 57,
+          "t": [
+            215.983,
+            222.894
+          ],
+          "quote": "It turns out if you build a great handoff for humans, you've also built a great handoff for agents because agents understand HTML and CSS and it's in their training data.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 58,
+          "t": [
+            223.535,
+            230.004
+          ],
+          "quote": "And so when you ask an agent to work with a paper file, it's literally just reading the CSS out and agents know exactly what to do with it.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 250,
+          "t": [
+            894.12,
+            900.242
+          ],
+          "quote": "And I'll just say, hey, can you put at colors.css onto the paper canvas as a style guide?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 251,
+          "t": [
+            900.912,
+            905.614
+          ],
+          "quote": "So this is our actual CSS file from paper, the code-based paper, not the product.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "paper-snapshot",
+      "type": "concept",
+      "role": "concept",
+      "name": "Paper Snapshot",
+      "file": "Paper Snapshot",
+      "primary": true,
+      "how_described": "本集把它说成:Paper 的一项核心功能，能直接把线上的实时网页抓取进画布变成可编辑的图层（而非死板的截图），用于抓取用户提交网站做秒级改版。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 309,
+          "t": [
+            1119.313,
+            1120.274
+          ],
+          "quote": "I'll show you Paper Snapshot.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 310,
+          "t": [
+            1120.294,
+            1123.757
+          ],
+          "quote": "Paper Snapshot is a way to grab content from your live site.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 526,
+          "t": [
+            1830.447,
+            1834.928
+          ],
+          "quote": "And again, I use Paper Snapshot to grab it from the live site, paste it into paper as editable layers.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "shader",
+      "type": "concept",
+      "role": "concept",
+      "name": "着色器 (shader)",
+      "file": "着色器",
+      "primary": true,
+      "how_described": "本集把它说成:用 WebGL 技术渲染的视觉效果动画（Paper 开源了一个库），让设计师不用懂代码就能调出带有复古感或未来感的动态视觉。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 89,
+          "t": [
+            343.448,
+            345.49
+          ],
+          "quote": "This is just one shader with different settings.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 96,
+          "t": [
+            378.727,
+            383.972
+          ],
+          "quote": "Because if you're a designer and you're living in a traditional design tool all day, you want to create a shader effect.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 105,
+          "t": [
+            421.552,
+            426.553
+          ],
+          "quote": "And so I think that's one of the reasons our shader library stands out is we go to ridiculous degrees to make it as good as we possibly can.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 151,
+          "t": [
+            627.269,
+            634.632
+          ],
+          "quote": "We think of it instead of buying ads, let's make this useful library for the world and spend that effort and that money on building the shader library.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 183,
+          "t": [
+            708.432,
+            711.933
+          ],
+          "quote": "And so this shader that we're looking at right now, you can right click and copy as React.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "paper-mono",
+      "type": "concept",
+      "role": "concept",
+      "name": "Paper Mono",
+      "file": "Paper Mono",
+      "primary": true,
+      "how_described": "本集把它说成:Paper 即将发布的全能型等宽字体，兼顾代码终端与品牌营销需求，连 YC 都用它做了带名字动画的录取通知。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 155,
+          "t": [
+            637.993,
+            640.293
+          ],
+          "quote": "Paper Mono is a new font that we're launching I'm really proud of.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 160,
+          "t": [
+            652.056,
+            652.957
+          ],
+          "quote": "So we made Paper Mono.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 165,
+          "t": [
+            659.083,
+            665.451
+          ],
+          "quote": "So Eve at YC was in New York City at a dinner the other night, and she ran into someone wearing a Paper Mono shirt, which I thought was so cool.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 170,
+          "t": [
+            673.177,
+            676.679
+          ],
+          "quote": "But this is Paper Mono, and we have a great mini site launching soon.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "react",
+      "type": "concept",
+      "role": "concept",
+      "name": "React",
+      "file": "React",
+      "primary": true,
+      "how_described": "本集把它说成:前端组件库形式，在 Paper 中画完的任何动画或区块，都可以右键直接作为 React 组件复制出真实代码并发布上线。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 181,
+          "t": [
+            704.37,
+            705.731
+          ],
+          "quote": "This is literally a React component.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 182,
+          "t": [
+            706.091,
+            707.912
+          ],
+          "quote": "Why don't we let you copy it as a React component?",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 183,
+          "t": [
+            708.432,
+            711.933
+          ],
+          "quote": "And so this shader that we're looking at right now, you can right click and copy as React.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 189,
+          "t": [
+            726.197,
+            730.758
+          ],
+          "quote": "And so we've seen these take off all over the internet, people shipping these React components.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 194,
+          "t": [
+            738.606,
+            743.432
+          ],
+          "quote": "And so you can copy it as Tailwind or you can copy it as React and just grab out the code.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 462,
+          "t": [
+            1601.392,
+            1602.432
+          ],
+          "quote": "You can copy it as React.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 895,
+          "t": [
+            2991.632,
+            2994.493
+          ],
+          "quote": "And, you know, Redix became this default React component library.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "tailwind",
+      "type": "concept",
+      "role": "concept",
+      "name": "Tailwind",
+      "file": "Tailwind",
+      "primary": false,
+      "how_described": "本集把它说成:一种前端代码格式，在 Paper 中做好的帧或盒子，可以直接作为 Tailwind 或 React 代码抓取出来放到代码库中。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 194,
+          "t": [
+            738.606,
+            743.432
+          ],
+          "quote": "And so you can copy it as Tailwind or you can copy it as React and just grab out the code.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "github",
+      "type": "company",
+      "role": "company",
+      "name": "GitHub",
+      "file": "GitHub",
+      "primary": false,
+      "how_described": "本集顺带提及:代码托管平台，由于 Claude Code 的爆火，原本离终端很远的设计师竟然也开始学起了 GitHub。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 206,
+          "t": [
+            768.031,
+            769.052
+          ],
+          "quote": "They're learning GitHub.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 213,
+          "t": [
+            780.758,
+            783.1
+          ],
+          "quote": "And then maybe you have a GitHub or, you know, the code review.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "sketch",
+      "type": "company",
+      "role": "company",
+      "name": "Sketch",
+      "file": "Sketch",
+      "primary": false,
+      "how_described": "本集顺带提及:知名的传统视觉设计工具，与 Figma 一样采用自定义渲染引擎。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 55,
+          "t": [
+            206.257,
+            214.102
+          ],
+          "quote": "We were like, hey, if the designer can have this constraint-free system where it feels like a Figma or a Sketch, but by the way, it's HTML, they don't have to know that, that's great.",
+          "speaker": "SPEAKER_02"
+        },
+        {
+          "seg": 874,
+          "t": [
+            2931.411,
+            2932.011
+          ],
+          "quote": "Sketch is there.",
+          "speaker": "SPEAKER_01"
+        },
+        {
+          "seg": 875,
+          "t": [
+            2932.051,
+            2933.792
+          ],
+          "quote": "And then Paper is right there with Sketch.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "vercel",
+      "type": "company",
+      "role": "company",
+      "name": "Vercel",
+      "file": "Vercel",
+      "primary": false,
+      "how_described": "本集顺带提及:设计师们到处构建原型，最终这些原型往往会发布到 Vercel 或导出为 HTML 文件。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 993,
+          "t": [
+            3291.913,
+            3295.155
+          ],
+          "quote": "And they're ending up on Vercel or their HTML files.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "gpt-5-5",
+      "type": "concept",
+      "role": "concept",
+      "name": "GPT 5.5",
+      "file": "GPT 5.5",
+      "primary": false,
+      "how_described": "本集顺带提及:在速度与质量间取得相当好平衡的模型，在演示中直接接入 Paper 生成了三个视觉冲击力更强的排版变体。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 321,
+          "t": [
+            1155.605,
+            1157.287
+          ],
+          "quote": "This is using GPT 5.5.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    },
+    {
+      "id": "composer-2-5",
+      "type": "concept",
+      "role": "concept",
+      "name": "Composer 2.5",
+      "file": "Composer 2.5",
+      "primary": false,
+      "how_described": "本集顺带提及:Cursor 里的模型，在精确度上表现极佳，适合跑 100 个画板这种需要极强精确度的遍历任务。",
+      "source": "glm",
+      "evidence": [
+        {
+          "seg": 382,
+          "t": [
+            1386.345,
+            1389.586
+          ],
+          "quote": "I use Cursor's Composer 2.5 actually a lot.",
+          "speaker": "SPEAKER_02"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "name": "vibe coding",
+      "reason": "命中真相源但本集正文无出处(疑只在标题/别名表出现)"
+    }
+  ]
+}

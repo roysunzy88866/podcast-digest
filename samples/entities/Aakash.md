@@ -25,11 +25,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Oji Udezue]] [[Claire]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]] [[Cat Wu]] [[Thariq Shihipar]] [[Alex Finn]] [[Aakash Gupta]] [[Jyothi Nookula]]
+[[Stephen Haney]] [[Oji Udezue]] [[Claire]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]] [[Cat Wu]] [[Thariq Shihipar]] [[Alex Finn]] [[Aakash Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Oji Udezue":1,"Claude Code":15,"项目脚手架技能":1,"可行性闸门":1,"vibe coder":1,"builder PM":1,"Product Mind":1,"GitHub":7,"Notion":5,"Figma":5}</script>
+<script type="application/json" class="pd-epn">{"Oji Udezue":1,"Claude Code":16,"项目脚手架技能":1,"可行性闸门":1,"vibe coder":1,"builder PM":1,"Product Mind":1,"GitHub":8,"Notion":5,"Figma":6}</script>
 
 <script>
 (function(){

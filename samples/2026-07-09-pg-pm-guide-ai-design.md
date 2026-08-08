@@ -87,8 +87,8 @@ tags:
 **顺着「AI 编程」挖下去**
 
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同公司:cursor · 同概念:codex、智能体 (agent)
+- [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具]] —— 同公司:cursor、figma · 同概念:智能体 (agent)
 - [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同公司:cursor · 同概念:codex、智能体 (agent)
-- [[2026-06-24-pg-company-os-jz|Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能]] —— 同嘉宾:Akash · 同概念:智能体 (agent)
 
 </div>
 <div class="pd-ex">

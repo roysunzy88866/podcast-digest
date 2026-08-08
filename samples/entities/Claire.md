@@ -35,11 +35,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aakash]] [[Oji Udezue]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]] [[Cat Wu]] [[Thariq Shihipar]] [[Alex Finn]] [[Aakash Gupta]] [[Jyothi Nookula]]
+[[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Boris Cherny]] [[Garry Tan]] [[Simon Willison]] [[Cat Wu]] [[Thariq Shihipar]] [[Alex Finn]] [[Aakash Gupta]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Intercom":1,"ChatPRD":2,"Vercel":4,"Codex":12,"Eve":1,"智能体":59,"风险评分":1,"沙箱":11,"Slack":13,"GitHub":7}</script>
+<script type="application/json" class="pd-epn">{"Intercom":1,"ChatPRD":2,"Vercel":5,"Codex":12,"Eve":1,"智能体":60,"风险评分":1,"沙箱":11,"Slack":13,"GitHub":8}</script>
 
 <script>
 (function(){

@@ -55,11 +55,11 @@ unlisted: true
 
 <div class="pd-peers">
 
-[[Aakash]] [[Oji Udezue]] [[Willowryan]] [[Ruby Thelot]] [[Sophia Puccini]] [[Sophia Du]] [[Tom Verrilli]] [[Daniel McKinnon]] [[Dianne Penn]] [[Adam Mosseri]]
+[[Stephen Haney]] [[Aakash]] [[Oji Udezue]] [[Willowryan]] [[Ruby Thelot]] [[Sophia Puccini]] [[Sophia Du]] [[Tom Verrilli]] [[Daniel McKinnon]] [[Dianne Penn]]
 
 </div>
 
-<script type="application/json" class="pd-epn">{"Lenny":33,"Zynga":1,"已验证、更好、全新":1,"产品市场契合度":4,"留存率":1,"分发":3,"智能体":59,"社交网络":1,"微管理":2,"OpenAI":29}</script>
+<script type="application/json" class="pd-epn">{"Lenny":33,"Zynga":1,"已验证、更好、全新":1,"产品市场契合度":4,"留存率":1,"分发":3,"智能体":60,"社交网络":1,"微管理":2,"OpenAI":29}</script>
 
 <script>
 (function(){

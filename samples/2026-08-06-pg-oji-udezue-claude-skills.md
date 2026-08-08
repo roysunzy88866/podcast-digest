@@ -93,8 +93,8 @@ Oji 团队已把这套技能包开源。在 ProductMind.com 上,你可以不用�
 **顺着「AI 编程」挖下去**
 
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude]] —— 同公司:GitHub · 同概念:Claude Code
+- [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具]] —— 同公司:Figma、GitHub · 同概念:Claude Code
 - [[2026-01-18-lennys-the-non-technical-pms-guide-to-building|非技术 PM 的 AI 编程法：用 Cursor 和 Claude Code 独自造出赚钱产品]] —— 同概念:Claude Code
-- [[2026-05-24-lennys-the-ai-paradox-dan-shipper|SaaS 不会死,PM 迎来黄金期:Dan Shipper 的 AI 工作预测]] —— 同概念:Claude Code
 
 </div>
 <div class="pd-ex">

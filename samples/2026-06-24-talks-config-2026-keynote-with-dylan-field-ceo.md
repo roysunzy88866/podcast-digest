@@ -96,8 +96,8 @@ tags:
 **顺着「AI 编程」挖下去**
 
 - [[2026-07-09-pg-pm-guide-ai-design|OpenAI Codex 全实操：用智能体舰队打造「10 倍速」工作流]] —— 同公司:Figma · 同概念:智能体 (agent)
+- [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具]] —— 同公司:Figma · 同概念:智能体 (agent)
 - [[2026-06-24-pg-company-os-jz|Laurel 产品负责人：怎么用 GitHub 把全公司的工作流变成 AI 技能]] —— 同公司:GitHub、Slack · 同概念:智能体 (agent)
-- [[2026-07-13-pg-the-complete-claude-stack-for-pms|产品经理驾驭 Claude 生态：用五层架构打造专属 AI 幕僚长]] —— 同概念:智能体 (agent)、Make、MCP
 
 </div>
 <div class="pd-ex">

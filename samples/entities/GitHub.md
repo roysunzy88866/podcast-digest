@@ -7,7 +7,7 @@ unlisted: true
 
 <div class="pd"><header class="pd-top"><div class="pd-topin"><a class="b" href="/"><span class="mk"><img src="/logos/site.png" alt=""></span>跨国深谈</a><nav class="pd-nav"><a href="/">最新</a><a href="/must-read">最热</a></nav><a class="pd-back" href="/">← 返回</a><a class="pd-mtitle" href="/">←<span>GitHub</span></a><div class="pd-acts"><button class="ico" data-act="share" title="分享"><svg viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13V3"/><path d="M6.5 6.5 10 3l3.5 3.5"/><path d="M4.5 11.5V16a1 1 0 0 0 1 1h9a1 1 0 0 0 1-1v-4.5"/></svg></button><button class="ico" data-act="fav" title="收藏"><svg class="io" viewBox="0 0 20 20" width="19" height="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg><svg class="if" viewBox="0 0 20 20" width="19" height="19" fill="currentColor"><path d="M5.5 3.5h9v14L10 14l-4.5 3.5z"/></svg></button></div></div></header></div>
 
-<div class="pd-phero"><div class="av" data-cat="GitHub">GI</div><div class="pi"><h1 class="pt">GitHub</h1><div class="byl">公司</div><div class="nums">本站收录 <b>7</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
+<div class="pd-phero"><div class="av" data-cat="GitHub">GI</div><div class="pi"><h1 class="pt">GitHub</h1><div class="byl">公司</div><div class="nums">本站收录 <b>8</b> 集 · <b>0</b> 条金句 · 关联 <b>10</b> 个</div></div></div>
 
 ## 集里怎么说它
 
@@ -18,10 +18,11 @@ unlisted: true
 - **[[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]]**(14:58起):本集把它说成:Anthropic 的代码审查基础设施,会审查每个 PR(包括由 Claude Code 审查的那部分)
 - **[[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]]**(00:07起):本集中作为代码仓库平台，通过它的事件触发智能体来审查拉取请求（PR）。
 - **[[2026-08-06-pg-oji-udezue-claude-skills|《让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包》]]**(01:50起):本集提出，团队应把商业、产品和代码三层技能全塞进一个共享的 GitHub 仓库，取代过去 PM 待在 Notion、设计师待在 Figma 的分散状态。
+- **[[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]]**(12:48起):本集顺带提及:代码托管平台，由于 Claude Code 的爆火，原本离终端很远的设计师竟然也开始学起了 GitHub。
 
 ## ② 出现在这些集
 
-*7 集*
+*8 集*
 
 - [[2026-05-03-lennys-why-cultivating-agency-matters-more|《别管金句，去捣鼓东西：Notion 产品负责人谈 AI 时代的产品与品味》]] — 作为被讨论公司
 - [[2026-06-03-latent-space-satya-2026|《Satya Nadella:别只盯着模型,私有评估和智能体才是企业的护城河》]] — 作为被讨论公司
@@ -30,14 +31,15 @@ unlisted: true
 - [[2026-07-15-talks-claude-fable-claude-tag-and-anthropic-s|《把系统提示词删掉八成:Anthropic 团队这样用 Claude 自己造 Claude》]] — 作为概念
 - [[2026-08-05-lennys-build-an-ai-code-review-bot-in-30|《用 AI 审 AI：Vercel 搭建自动批准 PR 机器人实操》]] — 作为被讨论公司(提及)
 - [[2026-08-06-pg-oji-udezue-claude-skills|《让 AI 在写代码前先替你把关:产品经理的 Claude Code 实操技能包》]] — 作为被讨论公司
+- [[2026-08-07-yc-how-to-design-in-the-agent-era-e3n42jd|《别让 AI 默认审美毁了你的产品:Paper 如何用 HTML 重新定义设计工具》]] — 作为被讨论公司(提及)
 
 ## ③ 关联
 
 *点进去有真内容 —— 本页主要出口*
 
-[[智能体]] · [[Slack]] · [[Notion]] · [[Figma]] · [[Anthropic]] · [[Claude Code]] · [[沙箱]] · [[Max Schoening]] · [[Saragawa]] · [[Jiaona Zhang]]
+[[智能体]] · [[Figma]] · [[Slack]] · [[Notion]] · [[Claude Code]] · [[Anthropic]] · [[沙箱]] · [[Vercel]] · [[Max Schoening]] · [[Saragawa]]
 
-<script type="application/json" class="pd-epn">{"智能体":59,"Slack":13,"Notion":5,"Figma":5,"Anthropic":34,"Claude Code":15,"沙箱":11,"Max Schoening":1,"Saragawa":1,"Jiaona Zhang":1}</script>
+<script type="application/json" class="pd-epn">{"智能体":60,"Figma":6,"Slack":13,"Notion":5,"Claude Code":16,"Anthropic":34,"沙箱":11,"Vercel":5,"Max Schoening":1,"Saragawa":1}</script>
 
 <script>
 (function(){
