@@ -352,6 +352,39 @@ describe("C14 计数:败++、成功清零", () => {
   });
 });
 
+// ── 内容审查拦截([1301])= 确定性终态,非转瞬(2026-08-08 用户「放弃敏感集」)──
+import { isContentBlocked, noteBlockFail, clearBlocked, BLOCK_CAP } from "../scripts/run-pipeline.mjs";
+
+describe("isContentBlocked · 只认 GLM [1301] 内容审查,别的失败不误判", () => {
+  const real =
+    'glm-ask exit 1: [HTTP 400] {"type":"error","error":{"code":"1301","message":"[1301][系统检测到输入或生成内容可能包含不安全或敏感内容，请您避免输入易产生敏感内容的提示语，感谢您的配合。][20260808223434ae43735b62a042f9]"}}';
+  it("★ 真 [1301] 错误串 → true(带方括号 或 带引号 或 中文原话任一命中)", () => {
+    expect(isContentBlocked(real)).toBe(true);
+    expect(isContentBlocked('code":"1301"')).toBe(true);
+    expect(isContentBlocked("系统检测到输入或生成内容可能包含不安全或敏感内容")).toBe(true);
+  });
+  it("★ 转瞬/别的失败 → false(网络抖动、非零退出、空)", () => {
+    expect(isContentBlocked("glm-ask exit 1: fetch failed")).toBe(false);
+    expect(isContentBlocked("步骤失败(exit 1): node scripts/condense.mjs")).toBe(false);
+    expect(isContentBlocked(undefined)).toBe(false);
+  });
+  it("★ 词界防误配:1301 只出现在 hex request_id 里(前后是十六进制字符)→ 不算内容审查", () => {
+    expect(isContentBlocked('request_id":"2026080816421301abcdef"')).toBe(false);
+  });
+});
+
+describe("内容审查连拦计数:BLOCK_CAP 次宽限后 park;成功清零", () => {
+  it("★ noteBlockFail 累加落 state.blocked;到 BLOCK_CAP 触发 park;clearBlocked 清干净", () => {
+    const state: any = { cutoffs: {}, skipped: [] };
+    expect(BLOCK_CAP).toBe(2);
+    expect(noteBlockFail(state, "ep")).toBe(1); // 第 1 次:宽限,retry
+    expect(noteBlockFail(state, "ep")).toBe(2); // 第 2 次:达 BLOCK_CAP → 终态 park
+    expect(state.blocked.ep).toBe(BLOCK_CAP);
+    clearBlocked(state, "ep");
+    expect(state.blocked?.ep).toBeUndefined();
+  });
+});
+
 describe("C14 sourceForId / reviveItemFromMeta:从存量重建处理入参", () => {
   it("★ id 里的源段落能对回 SOURCES(yc/pg/lennys);对不上返回 null 不猜", () => {
     expect(sourceForId("2026-07-27-yc-jensen-huang-the-mindset")?.key).toBe("yc");

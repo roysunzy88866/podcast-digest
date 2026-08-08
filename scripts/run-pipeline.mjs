@@ -429,6 +429,32 @@ export function clearRevive(state, id) {
   if (state.revive) delete state.revive[id];
 }
 
+// ══ 内容审查拦截(GLM [1301])= 确定性终态,非转瞬 ══
+// 病根:GLM(智谱)对军事/中美对抗/AI 末日等敏感话题返回 [1301] 拒绝处理,translate/infer-speakers 抛错。
+// 原来当「转瞬失败」无限重试 → 演讲永远重选那几条(死锁,饿死后面纯技术演讲)、RSS cutoff 冻结(每跑重烧同一集翻译)。
+// 修法(用户 2026-08-08 明选「放弃敏感集」):识别 [1301] → 给 BLOCK_CAP 次宽限(防概率性误拦一次就丢集)后判终态,
+//   挪 skipped 账本 + 演讲记 videoId 出队 + RSS 放行 cutoff 推进。被放弃的敏感集落 data/skipped,人工可见可捞。
+export const BLOCK_CAP = 2;
+
+/** GLM 内容审查签名:错误串里带方括号 [1301] 或引号 "1301"(JSON 的 code/message 字段),或智谱敏感内容拒答中文原话。
+ *  定长正则(无量词/无嵌套 → 无回溯);要求 1301 紧贴 ["[] … ["]] 分隔符,故 hex request_id 里裸露的 1301 不误配
+ *  (实测 1301feed / beef1301dead 均 false;GLM 20260808-004[1][2] 反例已跑过)。 */
+export function isContentBlocked(errMsg) {
+  const s = String(errMsg ?? "");
+  return /["\[]1301["\]]/.test(s) || s.includes("系统检测到输入或生成内容");
+}
+
+/** 内容审查连拦记账(park 前给 BLOCK_CAP 次宽限;计数落 state 持久化,跨班次生效,同 noteReviveFail 口径)。返回累计次数。 */
+export function noteBlockFail(state, id) {
+  state.blocked = state.blocked ?? {};
+  state.blocked[id] = (state.blocked[id] ?? 0) + 1;
+  return state.blocked[id];
+}
+
+export function clearBlocked(state, id) {
+  if (state.blocked) delete state.blocked[id];
+}
+
 /** id 第 11 位起的源段落 ↔ SOURCES.key(id = YYYY-MM-DD-<key>-<slug>)。对不上返回 null 不猜。 */
 export function sourceForId(id) {
   const rest = String(id).slice(11); // 跳过 "YYYY-MM-DD-"
@@ -677,6 +703,26 @@ function readTalkSeeds(source) {
 }
 
 /**
+ * 把一集固化为终态隔离(内容审查放弃专用,与失真隔离同一套动作):
+ * 挪 data/skipped(半成品目录若在)+ 落 skip 账本(持久去重+通知)+ talks 集记 videoId 出队 + 清连拦账。
+ * recordTalkTerminal 对非 seedDir 源自返回 null(RSS 无害)。调用方随后照常 writeState/推进 cutoff。
+ */
+function parkSkipped(state, id, item, source, reason) {
+  const from = join(EPISODES_DIR, id);
+  if (existsSync(from)) {
+    mkdirSync(SKIPPED_DIR, { recursive: true });
+    const to = join(SKIPPED_DIR, id);
+    if (existsSync(to)) rmSync(to, { recursive: true, force: true });
+    renameSync(from, to);
+    writeFileSync(join(to, "skip-reason.txt"), `${reason}\n${item.title}\n${item.link ?? ""}\n`);
+  }
+  appendSkip(state, { id, reason, title: item.title, pubDate: item.pubDateISO });
+  recordTalkTerminal(state, id, source, source.seedDir ? readTalkSeeds(source) : []);
+  clearBlocked(state, id);
+  writeState(state);
+}
+
+/**
  * C14 补活一轮:扫「有 digest 无集页」的掉队集,重走后半链。闸门与新集完全同一道;
  * 失真照隔离,转瞬失败记连败账(REVIVE_CAP 次停手待人工)。返回 {clean, skipped} 计数。
  * 终态(成功/隔离)若是 talks 集 → 必补记演讲 videoId 账本(recordTalkTerminal,lance 漏写修)。
@@ -812,6 +858,22 @@ function processTalksSource(source, state, { dryRun }) {
     try {
       res = processEpisode(item, id, source);
     } catch (e) {
+      // 内容审查([1301])= 确定性拒绝,非转瞬:BLOCK_CAP 次宽限后判终态,挪 skipped + 记 videoId 出队
+      // (否则死锁:这几条永远重选、饿死后面纯技术演讲——正是本次要修的病)。
+      if (isContentBlocked(e.message)) {
+        const n = noteBlockFail(state, id);
+        if (n >= BLOCK_CAP) {
+          const reason = `内容审查拦下([1301] GLM 拒译敏感内容,连拦 ${n} 次已放弃)`;
+          parkSkipped(state, id, item, source, reason);
+          skipped.push({ id, reason, retry: false });
+          console.log(`   ⛔ ${id} 内容审查放弃,出队:${reason}`);
+        } else {
+          writeState(state); // 连拦账即刻落盘,跨班次累计
+          console.error(`   ⚠️ ${id} 内容审查拦下(第 ${n}/${BLOCK_CAP} 次,再试一轮):${e.message}`);
+          skipped.push({ id, reason: `内容审查拦下(第 ${n}/${BLOCK_CAP} 次)`, retry: true });
+        }
+        continue;
+      }
       console.error(`   ⚠️ ${id} 处理中断(转瞬失败,留半成品下次重试):${e.message}`);
       skipped.push({ id, reason: `处理中断(转瞬失败,下次重试):${e.message}`, retry: true });
       continue; // 不记 videoId:非终态,下轮重选
@@ -821,6 +883,7 @@ function processTalksSource(source, state, { dryRun }) {
     state.talkVideoIds[videoId] = id;
     if (res.ok) {
       cleanIds.push(id);
+      clearBlocked(state, id); // 曾被拦但这轮过了 → 清连拦账,不留陈旧计数
       writeState(state);
     } else {
       mkdirSync(SKIPPED_DIR, { recursive: true });
@@ -900,12 +963,29 @@ async function processSource(source, state, { backfillN, dryRun }) {
     try {
       res = processEpisode(item, id, source);
     } catch (e) {
+      // 内容审查([1301])= 确定性拒绝:BLOCK_CAP 次宽限后判终态(retry:false),让 cutoff 能安全推进过它
+      // ——否则这集每跑重烧一次翻译、cutoff 永远冻在它前面(a16z 实证)。
+      if (isContentBlocked(e.message)) {
+        const n = noteBlockFail(state, id);
+        if (n >= BLOCK_CAP) {
+          const reason = `内容审查拦下([1301] GLM 拒译敏感内容,连拦 ${n} 次已放弃)`;
+          parkSkipped(state, id, item, source, reason);
+          skipped.push({ id, reason, retry: false }); // retry:false → 收尾处 cutoff 推进过它,不再冻结/重烧
+          console.log(`   ⛔ ${id} 内容审查放弃:${reason}`);
+        } else {
+          writeState(state);
+          console.error(`   ⚠️ ${id} 内容审查拦下(第 ${n}/${BLOCK_CAP} 次,再试一轮):${e.message}`);
+          skipped.push({ id, reason: `内容审查拦下(第 ${n}/${BLOCK_CAP} 次)`, retry: true });
+        }
+        continue;
+      }
       console.error(`   ⚠️ ${id} 处理中断(转瞬失败,留半成品下次重试):${e.message}`);
       skipped.push({ id, reason: `处理中断(转瞬失败,下次重试):${e.message}`, retry: true });
       continue;
     }
     if (res.ok) {
       clean.push(item);
+      clearBlocked(state, id); // 曾被拦但这轮过了 → 清连拦账
     } else {
       // 失真被拦 → 隔离到 data/skipped(不发、不删、不自动重跑)。此时还没出集页/音频,无孤儿。
       mkdirSync(SKIPPED_DIR, { recursive: true });
